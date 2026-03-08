@@ -174,11 +174,53 @@ Brent crude surged to **~$88/bbl** (intraday above $90) — highest since mid-20
 | WTI crude | >$90/bbl | +31% on week |
 | US gas prices | +$0.20/gal | +7% in days |
 
-The Bellorin (Welligence) call from Mar 5 is proving prescient — "high 90s by end of week" now looks achievable. Saudi Arabia's largest oil refinery suspended production. Iraq's Rumaila remains shut on storage constraints. The structural buffers identified on Mar 5 are being consumed: the question is shifting from *if* oil hits $100 to *when*.
+The Bellorin ([[Welligence]]) call from Mar 5 is proving prescient — "high 90s by end of week" now looks achievable. Saudi Arabia's largest oil refinery suspended production. Iraq's Rumaila remains shut on storage constraints. The structural buffers identified on Mar 5 are being consumed: the question is shifting from *if* oil hits $100 to *when*.
 
 Gas prices up 7% in days creates immediate consumer pain — the political dimension is now active. Trump warned Iran would be "hit very hard" as war enters second week, but hasn't signaled SPR release.
 
 *Source: NPR, Yahoo Finance, Fox Business (Mar 6, 2026)*
+
+---
+
+## Brent $92.69, WTI $90.90 — Day 9 (March 7)
+
+The energy shock accelerated. Brent surged **+8.5%** to settle at **$92.69** — highest since September 2023, briefly touching $94 intraday. WTI leaped **+12.2%** to **$90.90**, breaching $90 for the first time since 2023.
+
+| Metric | Mar 7 close | Since conflict start (~Feb 27) |
+|--------|-------------|-------------------------------|
+| Brent crude | **$92.69/bbl** | +33% (from ~$70) |
+| WTI crude | **$90.90/bbl** | +40%+ |
+| TTF (Dutch gas) | **$16.65** | +55% (from $10.72) |
+| US gas at pump | ~$3.19/gal | +$0.20+ in days |
+| 10Y yield | 4.14% | +17bp (from 3.97% week prior) |
+
+### Key developments
+
+- **[[Morgan Stanley]] raised oil price forecasts** as Hormuz risk premium builds
+- [[Strait of Hormuz]] traffic down **86%**, ~700 ships idle (up from 150 on Day 3)
+- **17 vessels attacked** by Iranian forces through Mar 7, 4 seafarers killed
+- [[QatarEnergy]] force majeure in effect since Mar 4 — [[Ras Laffan]] restart **weeks away**
+- [[Iraq]]'s Rumaila still shut on storage constraints
+- Trump announced ship insurance plan for Hormuz crossing — market shrugged
+- Trump signaling "unconditional surrender" of Iran — no de-escalation path visible
+
+### Gas market — TTF and LNG
+
+The gas story is now as significant as oil. TTF +55% in under 10 days is the fastest move since Russia's 2022 invasion. [[Bloomberg]] (Mar 2): European gas surged 54% after [[QatarEnergy]] halted production at the world's largest LNG export facility following an Iranian drone attack. [[Kpler]] (Mar 5): "The cessation of LNG transit through the Strait of Hormuz and Qatar's facility shutdowns have triggered one of the most significant global gas supply disruptions in recent years."
+
+US LNG exporters ([[Cheniere]], [[Venture Global]], [[ExxonMobil]]) are beneficiaries but running near capacity. US Henry Hub insulated from TTF spikes — [[El País]] (Mar 6): "the benchmark index for gas prices in the country, the US Henry Hub, is insulated from external fluctuations, meaning the domestic spillover effect is very limited." The supply gap is structural: with [[Russia]] sanctioned and Qatar offline, there aren't many suppliers left.
+
+### Why $100 is now the base case
+
+The Bellorin call is confirmed — Brent hit high 90s by end of week as predicted. The buffers catalogued on Mar 5 are being consumed:
+- [[OPEC|OPEC+]] 206K bbl/day unwinding remains comically inadequate vs ~20M bbl/day disruption
+- No SPR release announced despite political pressure
+- Trump ruling out negotiations eliminates the near-term diplomatic off-ramp that briefly depressed oil on Mar 4
+- Liquefaction restart timeline means Qatar's LNG absence is locked in for weeks regardless of ceasefire
+
+If Hormuz stays closed through Week 3, the Kavonic ([[MST Financial]]) trigger hits: 250M+ barrels stranded, Gulf countries forced to shut production, $100 breaks.
+
+*Source: OPB/AP, Reuters, Morgan Stanley (Mar 7, 2026)*
 
 ---
 

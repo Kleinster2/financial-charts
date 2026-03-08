@@ -18,9 +18,41 @@ QatarEnergy — State-owned energy company of [[Qatar]]. World's largest [[LNG]]
 
 ---
 
+## March 2026 — Ras Laffan shutdown and force majeure
+
+The [[2026 Iran conflict market impact|Iran conflict]] triggered the most significant operational crisis in QatarEnergy's history. Iranian drone strikes hit Qatari energy infrastructure as retaliation for US bases in [[Qatar]], and shipping curtailment through the [[Strait of Hormuz]] made LNG export impossible.
+
+### Timeline
+
+| Date | Event |
+|------|-------|
+| Feb 28 | US-Israel strikes on [[Iran]] begin; Iran retaliates against Gulf states |
+| Mar 1 | Iranian drones strike near Qatari energy facilities |
+| Mar 2 | **[[Ras Laffan]] — world's largest LNG terminal — shuts down operations.** First operational shutdown in history. Plugged into the North Field, the single largest gas field on earth (shared Qatar/Iran). |
+| Mar 4 | QatarEnergy **declares force majeure on LNG shipments** (Reuters). Liquefaction plants shut down — gas must be cooled to -260°F, and the shutdown/restart cycle takes **weeks minimum**. Cannot simply flip back on. |
+
+### Impact
+
+- [[Qatar]] supplies ~20% of global [[LNG]] trade
+- [[Europe]] gets 12-14% of its LNG from Qatar, all through [[Strait of Hormuz|Hormuz]]
+- European gas prices surged **54%** (Bloomberg); TTF spiked from ~$10.72 to $16.65 in under 10 days
+- UK gas prices surged 50% in a single day on Mar 2 — biggest since Russia's Ukraine invasion
+- ~700 ships idle outside the Strait by Mar 7, including LNG carriers
+- With [[Russia]] sanctioned and Qatar offline, buyers must turn to US LNG ([[Cheniere]], [[Venture Global]]) — but US exporters are already at capacity
+
+### Restart timeline
+
+Reuters (Mar 4): Liquefaction restart will take **weeks**. The cooling process is gradual and equipment must be carefully re-commissioned. Europe's gas restocking season starts in April — if Qatar can't resume before then, TTF could spike further, echoing 2022 dynamics.
+
+---
+
 ## Related
 
 - [[Qatar]] — parent state
 - [[QIA]] — sovereign wealth fund
 - [[Natural gas]] — commodity
 - [[Iran]] — shares North Field/South Pars
+- [[Strait of Hormuz]] — shipping chokepoint
+- [[LNG]] — global trade context
+- [[2026 Iran conflict market impact]] — market reaction hub
+- [[Iran conflict energy disruption]] — energy sector deep dive

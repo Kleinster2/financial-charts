@@ -87,4 +87,31 @@ Composition: 48% airlines, 26% OTAs/travel, 14% cruise, 5% hotels.
 
 ---
 
-*Created 2026-03-03*
+## Day 9 update — basket implications at $92 Brent (March 7)
+
+The basket's initial construction used Day 1-3 moves (Feb 28 – Mar 2) when Brent was ~$72-79. At $92.69 (Mar 7), the thesis assumptions need reassessment:
+
+### Long leg — still working, but composition matters
+
+- **Energy (55% of long):** Oil majors initially lagged crude (Day 4-5 divergence), but at $92 Brent the duration trade has shifted. Equity investors can no longer price a "quick resolution" — oil has stayed bid for 9 days while equities sold. The disconnect between crude (+33% from pre-strike) and major equities (XOM/CVX much smaller cumulative moves) may be compressing. **US LNG pure-plays** ([[Cheniere]], [[Venture Global]]) are the new beneficiaries not in the original basket — [[QatarEnergy]] force majeure created a structural supply gap that US exporters fill regardless of war duration.
+- **Defense (33%):** Primes gave back conflict premium on Days 4-5 as "quick war" narrative took hold. If the war extends (Trump demanding unconditional surrender), the premium returns. AVAV/KTOS more volatile but less statistically unusual (3 sigma vs RTX's 6.5 sigma).
+- **Gold miners (6%):** Gold had a -4.48% reversal on Day 4 (profit-taking after +23% run). At $92 oil with stagflation narrative, gold's safe-haven bid should return.
+- **Shipping (4%):** VLCC rates quadrupled to >$400K/day by Day 4. Tankers remain the purest play on Hormuz duration.
+
+### Short leg — more pain ahead
+
+- **Airlines (48%):** Fuel is the largest variable cost. At $92 Brent (vs ~$70 pre-strike), unhedged airlines face margin destruction. Route disruptions (Middle East airspace closures) compound. DAL's brief recovery on Day 4 is unlikely to hold.
+- **Travel/OTAs (26%):** Stagflation narrative + consumer spending weakness (retail sales miss) = discretionary pullback. BKNG's 33% basket weight is well-placed.
+- **Cruise (14%):** Fuel-intensive, unhedged, and consumer discretionary — worst of both worlds.
+
+### Potential additions
+
+Consider adding to long leg: [[Cheniere]] (LNG), [[Venture Global]] (VG) — structurally benefiting from Qatar's absence. Consider adding to short leg: Russell 2000 / IWM as a small-cap stagflation proxy.
+
+### Key risk
+
+If a ceasefire materializes (Iran peace feelers on Day 5 briefly moved markets), the entire basket unwinds violently. The basket is a duration bet: it pays if the conflict extends, and reverses if it resolves. At Day 9 with Trump demanding unconditional surrender, duration probability has increased.
+
+---
+
+*Created 2026-03-03. Updated 2026-03-07.*

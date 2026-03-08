@@ -288,6 +288,67 @@ Key variable is duration. A resolved conflict (days) = mean-reversion in oil/def
 
 ---
 
+## Day 9 — March 7 (oil $92, stocks worst week since October)
+
+### Conflict developments (Mar 7)
+
+- **Fresh Iranian missile/drone salvos** on UAE (16 ballistic missiles, 15 intercepted), [[Qatar]] (intercept blasts over Doha), and [[Bahrain]] (Jufair US base struck)
+- Israel struck Tehran oil facility — fire reported
+- US says Iranian missile attacks down 90% after B-2 strikes on launch infrastructure, but Iran vowed to press on
+- **17 vessels attacked** by Iran in [[Strait of Hormuz]] through Mar 7, 4 seafarers killed
+- Trump demanding "unconditional surrender" — no diplomatic off-ramp visible
+- US announced ship insurance plan for Hormuz — market ignored it
+
+### Market snapshot (Mar 7 closes)
+
+| Asset | Close/Level | Day move | Cumulative notes |
+|-------|-------------|----------|-----------------|
+| S&P 500 | — | **-1.3%** | Worst week since October |
+| Dow | — | **-0.9%** (intraday -945 pts) | |
+| Nasdaq | — | **-1.6%** | |
+| Russell 2000 | — | **-2.39%** | Small caps leading decline |
+| Brent crude | **$92.69** | **+8.5%** | Highest since Sep 2023; +33% from ~$70 pre-strike |
+| WTI crude | **$90.90** | **+12.2%** | Breached $90 for first time since 2023 |
+| TTF (Dutch gas) | **$16.65** | +55% in 10 days | QatarEnergy force majeure + Hormuz closure |
+| 10Y yield | 4.14% | +1bp | Up from 3.97% a week ago |
+
+### Stagflation narrative hardening
+
+The Mar 7 session broke the pattern of Days 3-5 (overnight panic → US dip-buy recovery). For the second consecutive session, stocks sold off and **stayed down**. The combination:
+
+1. **February NFP: -92K** (vs +50K expected) — third negative payrolls in five months
+2. **Oil +12% in a day** — Brent $92.69, WTI $90.90
+3. **Retail sales miss** — US consumers potentially stretched near maximum
+4. **Fed trapped** — can't cut rates to support economy (inflation from oil) and can't hike to fight inflation (economy weakening)
+
+Brian Jacobsen (Annex Wealth Management): "You can't sugarcoat this report. A negative payrolls number combined with a big jump in oil prices will have traders worrying about stagflation risks."
+
+Russell 2000 -2.39% again leading declines — small caps most exposed to domestic conditions and energy costs, least hedged. The AI infrastructure names remain the only consistent bright spots.
+
+### Energy — the week's dominant story
+
+| Metric | Pre-strike (~Feb 27) | Mar 7 | Change |
+|--------|---------------------|-------|--------|
+| Brent crude | ~$70/bbl | $92.69 | **+33%** |
+| WTI crude | ~$65/bbl | $90.90 | **+40%** |
+| TTF gas | $10.72 | $16.65 | **+55%** |
+| Strait of Hormuz traffic | Normal (~100 ships/day) | Near zero (~700 idle) | **-86%** |
+| Qatar LNG | Operating | Force majeure, Ras Laffan shut | Offline for weeks |
+
+[[Morgan Stanley]] raised oil price forecasts. Market consensus shifting from *if* oil hits $100 to *when*. The Kavonic ([[MST Financial]]) trigger: if Hormuz blocked 2+ weeks, 250M+ barrels stranded, $100 breaks. Trump ruling out negotiations removes the diplomatic off-ramp that briefly depressed oil on Day 5.
+
+### Bond market
+
+10Y yield at 4.14% — up from 3.97% a week ago. Energy-driven inflation repricing pulling yields up, while weak economy pulling down. Mortgage rates rising as bond yields surge (Yahoo Finance). The Fed rate cut that was fully priced for June is now only ~55% probability.
+
+### Day 9 synthesis
+
+Wall Street's worst week since October marks the transition from "short war, buy the dip" to "stagflation risk, reduce exposure." The S&P's failure to recover intraday for a second straight session — after three consecutive dip-buy rescues on Days 3-5 — signals exhaustion of the "quick resolution" narrative. Oil at $92.69 is within striking distance of $100, and the structural factors (Hormuz closed, Qatar force majeure lasting weeks, Trump demanding unconditional surrender, no SPR release) all point to sustained elevation. The market is pricing in that this isn't a days-long disruption anymore — it's a weeks-long structural break.
+
+*Source: OPB/AP, Reuters, Morgan Stanley (Mar 7, 2026)*
+
+---
+
 ## Related
 
 - [[US-Iran nuclear escalation February 2026]] — pre-strike market reaction and scenario analysis (Feb 18)

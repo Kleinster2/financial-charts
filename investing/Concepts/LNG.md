@@ -115,14 +115,27 @@ Production → Liquefaction → [[Shipping]] → Regasification → Distribution
 
 ~25% of global LNG transits the [[Strait of Hormuz]]. The [[2026 Iran conflict market impact|Iran conflict]] closure hit LNG harder than crude — [[FGE]]'s Iman Nasseri: "Gas and LNG perhaps is not as easily replaceable if the situation prolongs."
 
-| Impact | Detail |
-|--------|--------|
-| European gas prices | +23% on Mar 2 |
-| Qatar LNG | Production halted after Iranian drone strikes on facilities |
-| LPG/naphtha to Asia | ~4M tons/day at risk ([[Japan]], [[South Korea]], [[China]]) |
-| Petrochemicals | Asian plants may shut in if supply disruption continues |
+| Impact | Mar 2 | Mar 7 |
+|--------|-------|-------|
+| European gas (TTF) | +23% | **+54%** ($10.72 → $16.65) |
+| UK gas prices | +50% (single day) | Highest since Feb 2025 |
+| Qatar LNG | Production halted | **Force majeure declared; restart weeks away** |
+| LPG/naphtha to Asia | ~4M tons/day at risk | Risk ongoing |
+| Strait traffic | -75% | **-86%, ~700 ships idle** |
 
-Qatar is the world's largest LNG exporter alongside the US. Direct strikes on Qatari LNG facilities represent an unprecedented attack on global LNG supply infrastructure. If Hormuz remains closed, Asian importers who rely on Gulf LNG face shortages that cannot be quickly offset by US or Australian cargoes.
+[[Kpler]] (Mar 5): "The cessation of LNG transit through the Strait of Hormuz and Qatar's facility shutdowns have triggered one of the most significant global gas supply disruptions in recent years."
+
+### QatarEnergy force majeure (Mar 4)
+
+[[QatarEnergy]] declared force majeure on LNG shipments after [[Ras Laffan]] — the world's largest LNG export terminal — shut down following Iranian drone strikes. Liquefaction plants require a gradual cooling process to restart, taking **weeks minimum** (Reuters). This removes ~20% of global LNG supply from the market for an extended period. With [[Russia]] sanctioned and Qatar offline, [[Europe]] must source replacement gas from US LNG exporters — but they're running near capacity.
+
+### US LNG exporters — beneficiaries
+
+[[Cheniere]] (LNG), [[Venture Global]], and [[ExxonMobil]] stand to profit from the supply gap (NYT, Mar 4). [[Shell]] and [[TotalEnergies]] also benefit as LNG portfolio players with non-Gulf supply. US Henry Hub benchmark is insulated from TTF spikes (different market), so US domestic consumers are shielded — but European and Asian buyers face premium pricing. CNBC (Mar 3): US LNG cannot replace lost Qatar supply, but flexible US capacity allows rerouting to highest-paying buyers.
+
+### Restocking season risk
+
+Europe's gas restocking season starts in April. If [[QatarEnergy]] can't resume before then, European storage will enter summer depleted, risking a 2022-style price spiral. Europe gets 12-14% of its LNG from Qatar — all through [[Strait of Hormuz|Hormuz]].
 
 ---
 

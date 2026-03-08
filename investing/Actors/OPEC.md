@@ -108,6 +108,16 @@ See [[Venezuela oil rebuild]] and [[Monroe Doctrine]].
 
 OPEC+ decided to unwind only 206K bbl/day during the [[2026 Iran conflict market impact|Iran conflict]] — widely seen as inadequate given the scale of disruption (~20M+ bbl/day of [[Strait of Hormuz]] transit halted). [[FGE]] energy consultant Iman Nasseri (CNN, Mar 2): the response is "insignificant and basically not showing the level of concern or worry from the OPEC member countries." Market expecting emergency IEA stock release from OECD countries instead. If prices continue to reflect supply pressure, [[FGE]] believes both OPEC and OECD can bring new supply — but the signal so far is that OPEC is not stepping in.
 
+### Day 9 reality check (Mar 7)
+
+At **Brent $92.69** (+33% since conflict start) and Hormuz traffic down 86%, OPEC+'s 206K bbl/day response is now comically inadequate — it represents ~1% of the disrupted flow. Key OPEC members are themselves under attack:
+- [[Saudi Arabia]]'s largest oil refinery suspended production after Iranian drone strike near [[Saudi Aramco]]'s Ras Tanura
+- [[Iraq]] shut Rumaila (world's largest oilfield) on storage constraints — can't produce if you can't ship
+- [[Qatar]] (OPEC+ aligned) declared force majeure on LNG
+- [[Iran]] itself (~2.5M bpd) is the target of the war
+
+The cartel's traditional levers (quota adjustments, spare capacity deployment) are impotent when the chokepoint itself is closed and member states' infrastructure is being attacked. The crisis has exposed OPEC's structural limitation: it can manage supply volumes but cannot guarantee physical delivery when the shipping lanes are under military threat. The real supply response is coming from outside OPEC — US LNG exports, OECD strategic reserves, and pipeline rerouting.
+
 ---
 
 ## Price targets
@@ -117,7 +127,7 @@ OPEC broadly targets $80-90 Brent to:
 - Support Russian budget
 - Not destroy demand
 
-Current prices (~$70s-80s) reflecting Iran conflict supply disruption.
+Current prices ($92.69 as of Mar 7, 2026) have blown through the upper target band on Iran conflict supply disruption.
 
 ---
 

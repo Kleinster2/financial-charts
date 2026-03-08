@@ -25,20 +25,57 @@ Strategic waterway between [[Iran]] and Oman connecting the Persian Gulf to the 
 
 [[IRGC]] declared the Strait closed on February 28 after US-Israeli strikes began. As of March 2, traffic is effectively halted except for 1-2 Iranian or Chinese-flagged vessels transiting eastbound — likely operating under Iranian indemnity for Iranian oil trade.
 
-| Metric | Value | Source |
-|--------|-------|--------|
-| Ships stalled | ~150 (including oil tankers) | Middle East Eye |
-| Days closed | 2+ (Feb 28-Mar 2) | — |
-| Estimated disruption | ~40M barrels over 2 days | [[FGE]] (CNN, Mar 2) |
-| Transit halted | Crude, LNG, LPG, naphtha, products | — |
+| Metric | Value (Mar 2) | Value (Mar 7) | Source |
+|--------|---------------|---------------|--------|
+| Ships stalled/idle | ~150 | **~700** | Al Jazeera, Wikipedia |
+| Traffic decline | ~75% | **~86%** (near zero) | Kpler, Al Jazeera |
+| Days closed | 2+ | **8+** (Feb 28–ongoing) | — |
+| Estimated disruption | ~40M barrels (2 days) | 160M+ barrels (8 days) | [[FGE]] initial; extrapolated |
+| Transit halted | Crude, LNG, LPG, naphtha, products | Same — no resumption | — |
+| Vessels attacked by Iran | 2 | **17+** | Wikipedia (through Mar 7) |
 
-[[Maersk]] blocked all vessels from transiting. Most shipping companies and insurers refusing to route through. US-flagged tanker Stena Imperative hit by projectiles off Bahrain (fire extinguished). Oil tanker Skylight struck off Oman.
+[[Maersk]] blocked all vessels from transiting. Most shipping companies and insurers refusing to route through. The closure is **de facto, not physical** — [[Kpler]] analysis (Mar 1): "Insurance withdrawal is doing the work that physical blockade has not — the outcome for cargo flow is largely the same." War-risk premiums surged from 0.125% to 0.2-0.4% of ship insurance value per transit, adding ~$250K per VLCC crossing.
 
-Impact beyond oil: ~25% of global LNG transits Hormuz. European gas prices surged +23% on March 2. ~4M tons/day of LPG and naphtha to Asian petrochemical sectors ([[Japan]], [[South Korea]], [[China]]) at risk — not easily replaceable. [[FGE]]'s Iman Nasseri: "Gas and LNG perhaps is not as easily replaceable if the situation prolongs."
+### Vessels attacked (Feb 28 – Mar 7)
 
-IEA/OPEC response: Market expecting emergency stock release from OECD countries. [[Japan]], [[South Korea]], Thailand implementing export restrictions and inventory draws. [[OPEC|OPEC+]] only unwinding 206K bbl/day — inadequate signal given scale of disruption. [[FGE]] assessment: both OPEC and OECD can bring supply if prices reflect the pressure, but LNG has no easy cure.
+17 vessels struck by Iranian forces as of March 7, including oil tankers, chemical tankers, bulk carriers, container ships, and a tugboat. 4 seafarers killed, 3 tankers significantly damaged. Flags of convenience (Palau, Marshall Islands, Liberia, Panama, Malta, Honduras) dominate the target list — Iran is not discriminating by cargo type or destination.
 
-If sustained, this would be the most significant oil supply disruption since the 1973 Arab oil embargo. See [[2026 Iran conflict market impact]].
+### Traffic collapse timeline
+
+| Date | Strait traffic | Notes |
+|------|---------------|-------|
+| Feb 27 (pre-strike) | Normal (~100 ships/day) | — |
+| Feb 28 (strikes break) | Visibly thinning | Ships collecting outside |
+| Mar 1 | **-75%** | Insurance withdrawal begins |
+| Mar 2 | ~6 ships (vs ~100 normal) | Effectively closed |
+| Mar 4-7 | **Near zero** | ~700 ships idle; 86% traffic decline |
+
+### Impact beyond oil
+
+~25% of global LNG transits Hormuz. European gas prices surged +23% on March 2, then **+54%** by March 7 after [[QatarEnergy]] declared force majeure and shut [[Ras Laffan]] — the world's largest LNG terminal. TTF (Dutch gas benchmark) spiked from ~$10.72 to $16.65 in under 10 days. UK gas prices surged **50% in a single day** on Mar 2 — biggest move since Russia's Ukraine invasion.
+
+~4M tons/day of LPG and naphtha to Asian petrochemical sectors ([[Japan]], [[South Korea]], [[China]]) at risk — not easily replaceable. [[FGE]]'s Iman Nasseri: "Gas and LNG perhaps is not as easily replaceable if the situation prolongs." Asian petrochemical plants may shut in if disruption continues.
+
+### Hormuz dependency — not just oil
+
+| Commodity | % of global supply transiting Hormuz |
+|-----------|--------------------------------------|
+| Fertilizer | ~34% |
+| LNG | ~25% |
+| Crude oil | ~20%+ |
+| Petrochemicals / pharma inputs | Significant (unquantified) |
+
+**No viable alternatives:** The East-West Pipeline ([[Saudi Arabia]]) can reroute some crude to the Red Sea, but limited spare capacity. Bab el-Mandeb Strait already disrupted by Houthi attacks. Cape of Good Hope adds weeks but **no alternative exists for Hormuz-dependent LNG flows**. [[Iraq]] shut down Rumaila — the world's largest oilfield — on Mar 4 after storage tanks reached critical levels: if you can't ship, you can't store, and if you can't store, you shut in production.
+
+### IEA/OPEC response
+
+Market expecting emergency stock release from OECD countries. [[Japan]], [[South Korea]], Thailand implementing export restrictions and inventory draws. [[OPEC|OPEC+]] only unwinding 206K bbl/day — inadequate given scale of disruption. [[FGE]] assessment: both OPEC and OECD can bring supply if prices reflect the pressure, but LNG has no easy cure.
+
+### US government response (Mar 7)
+
+Trump administration announced a plan to offer insurance to ships crossing the strait — had little effect on markets. Trump signaling "unconditional surrender" of Iran, ruling out negotiations. No SPR release announced.
+
+The most significant oil supply disruption since the 1973 Arab oil embargo. See [[2026 Iran conflict market impact]].
 
 ---
 
@@ -51,7 +88,9 @@ If sustained, this would be the most significant oil supply disruption since the
 - [[Maersk]] — blocked all Hormuz transit
 - [[OPEC]] — inadequate supply response
 - [[LNG]] — 25% of global LNG transits Hormuz
+- [[QatarEnergy]] — Ras Laffan shutdown, force majeure
+- [[Kpler]] — traffic analysis
 
 ---
 
-*Updated 2026-03-02*
+*Updated 2026-03-07*
