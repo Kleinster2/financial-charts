@@ -54,7 +54,7 @@ Jet fuel is a co-product of refining, not a standalone production decision. A re
 | [[Marathon Petroleum]] | ~3.1 mb/d total | Largest US refiner |
 | [[Valero]] | ~3.2 mb/d total | Largest independent refiner, SAF via Diamond Green Diesel |
 | [[Phillips 66]] | ~2.2 mb/d total | Converting Rodeo refinery to renewables |
-| [[ExxonMobil]] | ~1.8 mb/d total | Beaumont expansion |
+| [[Exxon\|ExxonMobil]] | ~1.8 mb/d total | Beaumont expansion |
 | [[Chevron]] | ~0.9 mb/d total | California refining |
 
 ### Pricing
@@ -169,7 +169,7 @@ Jet fuel is less liquid than gasoline or diesel futures, creating basis risk opp
 
 ## Related
 
-- [[Brent crude]] — feedstock (crude oil → refining → jet fuel)
+- [[Oil|Brent crude]] — feedstock (crude oil → refining → jet fuel)
 - [[Valero]] — producer (largest independent refiner, SAF pioneer)
 - [[Marathon Petroleum]] — producer (largest US refiner by capacity)
 - [[Phillips 66]] — producer (Rodeo conversion to renewables)
