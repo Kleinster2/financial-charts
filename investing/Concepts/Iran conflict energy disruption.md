@@ -182,6 +182,9 @@ Gas prices up 7% in days creates immediate consumer pain — the political dimen
 
 ---
 
+![[ttf-price-2022.png]]
+*Dutch TTF Natural Gas futures (EUR/MWh) since 2022. The Iran conflict spike to ~€53 is significant but contextually modest vs the Aug 2022 peak (~€300+). The velocity of the move — +55% in 10 days — is comparable to the early days of the Russia-Ukraine shock.*
+
 ## Brent $92.69, WTI $90.90 — Day 9 (March 7)
 
 The energy shock accelerated. Brent surged **+8.5%** to settle at **$92.69** — highest since September 2023, briefly touching $94 intraday. WTI leaped **+12.2%** to **$90.90**, breaching $90 for the first time since 2023.
