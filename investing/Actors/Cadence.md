@@ -126,10 +126,24 @@ Bear:
 
 ---
 
+## Leadership
+
+| Role | Name | Background |
+|------|------|------------|
+| CEO | Anirudh Devgan | Joined 2012, CEO since Dec 2021; ex-IBM EDA |
+| Executive Chairman | John Wall | Interim CEO 2021, board since 2017 |
+| Former CEO | [[Lip-Bu Tan]] | CEO 2009-2021; credited with transforming Cadence from turnaround to $75B company; now [[Intel]] CEO and [[Celesta Capital]] co-founder |
+
+[[Lip-Bu Tan]]'s 12-year tenure as CEO (2009-2021) is widely regarded as one of the most successful turnarounds in semiconductor history. He shifted Cadence from a struggling EDA vendor to a high-margin, recurring-revenue machine. He remains on the Cadence board as advisor.
+
+---
+
 ## Related
 
 - [[Synopsys]] — competitor, duopoly partner (EDA market)
 - [[Siemens EDA]] — competitor (PCB, automotive)
+- [[Lip-Bu Tan]] — former CEO (2009-2021), now Intel CEO
+- [[Celesta Capital]] — co-founded by former CEO Lip-Bu Tan
 - [[NVIDIA]] — customer (AI chip design)
 - [[AMD]] — customer (chip design)
 - [[TSMC]] — customer (foundry design tools)

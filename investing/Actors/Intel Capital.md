@@ -115,9 +115,17 @@ Intel Capital more active than most chip CVCs.
 
 ---
 
+## Notable alumni
+
+[[Sriram Viswanathan]] spent ~20 years at Intel Capital before leaving to found [[IndusAge Partners]], which later merged to form [[Celesta Capital]] — now one of the leading deep tech VCs with portfolio companies including [[SambaNova]], [[Tensordyne]], and [[Upscale AI]]. Intel Capital's alumni network has seeded a generation of semiconductor-focused investors.
+
+---
+
 ## Related
 
 - [[Intel]] — parent company
+- [[Celesta Capital]] — founded by Intel Capital alumni ([[Sriram Viswanathan]], [[Lip-Bu Tan]])
+- [[SambaNova]] — portfolio company (strategic Intel partnership, 2026)
 - [[a16z]] — peer VC (AI investments)
 - [[Lux Capital]] — peer VC (deep tech)
 - [[NVIDIA]] — competitor (Intel's main rival in AI)
