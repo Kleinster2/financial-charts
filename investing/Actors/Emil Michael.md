@@ -36,10 +36,17 @@ His career arc (Obama-era Pentagon → Uber → Trump-era Pentagon) mirrors the 
 
 ---
 
+## Pentagon AI dispute role
+
+On the All-In podcast (~Mar 6, 2026), Michael claimed [[Dario Amodei]] *"apparently wanted to be phoned for each exception to their guardrails on Claude"* — framing Anthropic as attempting to micromanage battlefield AI decisions case-by-case.
+
+---
+
 ## Related
 
 - [[Hill and Valley Forum]] — speaker (2025)
 - [[Donald Trump]] — appointed him
+- [[Pentagon AI access dispute 2026]] — key Pentagon figure in Anthropic standoff
 - [[Anduril]] — defense tech beneficiary of his policy
 - [[Palantir]] — defense tech beneficiary of his policy
 - [[Uber]] — former employer

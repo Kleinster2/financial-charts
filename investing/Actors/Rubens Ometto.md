@@ -3,7 +3,7 @@ aliases: [Rubens Ometto Silveira Mello, Ometto]
 ---
 #actor #person #finance #brazil #stub
 
-**Rubens Ometto** — Brazilian billionaire, controller of [[Cosan]] since 2000 via Aguassanta / Vertiz Holding (~53.5% voting capital). Built the family sugar business into a diversified conglomerate spanning ethanol ([[Raizen]] JV with [[Shell]]), gas distribution ([[Compass Gas e Energia]]), lubricants ([[Moove]]), and rail logistics ([[Rumo]]). Forbes named him the first ethanol billionaire (2007).
+**Rubens Ometto** — Brazilian billionaire, controller of [[Cosan]] since 2000 via [[Aguassanta]] / Vertiz Holding (~53.5% voting capital). Built the family sugar business into a diversified conglomerate spanning ethanol ([[Raizen]] JV with [[Shell]]), gas distribution ([[Compass Gas e Energia]]), lubricants ([[Moove]]), and rail logistics ([[Rumo]]). Forbes named him the first ethanol billionaire (2007).
 
 ---
 
@@ -32,12 +32,14 @@ aliases: [Rubens Ometto Silveira Mello, Ometto]
 - Oct 2022 — Acquires ~4.9% of [[Vale]] for ~R$21B. Government resists his influence
 - Jan 2025 — Sells entire Vale stake for R$9.1B (estimated R$10-12B loss)
 - Sep 2025 — Needed to borrow R$750M from banks to participate in Cosan's R$10B equity raise. BTG and Perfin now hold board seats with veto power under 20-year pact
+- Mar 2026 — Committed R$500M via [[Aguassanta]] to [[Raizen]] rescue alongside [[Shell]]'s R$3.5B. Cosan corporate contributed nothing — Ometto's personal vehicle is the only Cosan-side capital in the deal
 
 ---
 
 ## Related
 
 - [[Cosan]] — conglomerate he controls
+- [[Aguassanta]] — family office / holding vehicle
 - [[Raizen]] — 50/50 JV with [[Shell]], now in severe financial distress
 - [[Compass Gas e Energia]] — gas/energy platform
 - [[Vale]] — former equity stake (R$10-12B loss)

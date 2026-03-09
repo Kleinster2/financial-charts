@@ -232,7 +232,7 @@ The distress is spreading through three channels beyond direct bondholder losses
 
 ### Braskem update (Jan-Feb 2026)
 
-[[Braskem]] bonds stabilized in the 60-cent range (up from low 30s in Sep 2025). Company made coupon payments on Jan 12 and Jan 23 (hybrid bonds), easing immediate default fears. But hired [[Lazard]], [[Cleary Gottlieb]], and Munhoz to review capital structure — action plan expected within 4-6 weeks. Still rated CC by Fitch. Chinese petrochemical overcapacity is the structural driver; [[Selic]] squeeze is the accelerant.
+[[Braskem]] bonds stabilized in the 60-cent range (up from low 30s in Sep 2025). Company made coupon payments on Jan 12 and Jan 23 (hybrid bonds), easing immediate default fears. But hired [[Lazard]], [[Cleary Gottlieb]], and [[E. Munhoz Advogados]] to review capital structure — action plan expected within 4-6 weeks. Still rated CC by Fitch. Chinese petrochemical overcapacity is the structural driver; [[Selic]] squeeze is the accelerant.
 
 ---
 

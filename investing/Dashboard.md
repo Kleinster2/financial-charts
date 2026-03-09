@@ -13,6 +13,12 @@
 ![[drgn-vs-kweb-vs-cqqq-price-chart.png]]
 *[[DRGN]] · [[KWEB]] · [[CQQQ]] · [[China]] · [[DeepSeek]] — DRGN (gen-AI pure play) sharply outperforming broader China internet/tech since July '25 launch*
 
+![[fed-rate-expectations.png]]
+*Fed Funds (ZQ) + SOFR (SR3) implied rate path — `fed_rate_expectations.py`*
+
+![[fed-fomc-probabilities.png]]
+*FOMC meeting cut probabilities — [[Federal Reserve]] · [[Jerome Powell]] · [[SOFR]]*
+
 ![[bil-vs-shy-vs-iei-vs-ief-vs-tlt-2025.png]]
 *[[BIL]] · [[SHY]] · [[IEI]] · [[IEF]] · [[TLT]] · [[Federal Reserve]] · [[Credit markets]]*
 

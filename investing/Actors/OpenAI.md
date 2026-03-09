@@ -76,11 +76,13 @@ The story of OpenAI is the story of a nonprofit research lab that accidentally c
 
 | Model | Released | Role |
 |-------|----------|------|
-| [[OpenAI GPT-5.4]] | Mar 5, 2026 | Flagship: complex reasoning, agentic, Thinking/Pro variants |
+| [[OpenAI GPT-5.4]] | Mar 5, 2026 | Flagship: agentic, computer use, Thinking/Pro variants |
+| GPT-5.3 Instant | Early Mar 2026 | Fast tier |
 | GPT-5.2 | Dec 2025 | Previous flagship, Codex backbone |
 | GPT-5 | Aug 7, 2025 | First unified model with "thinking mode" (o-series merged) |
-| o3 / o4-mini | Apr 2025 | Reasoning-focused (chain-of-thought) |
-| [[OpenAI GPT-4.5]] | Feb 2025 | Research preview, deprecated Jul 2025 |
+| o3 / o4-mini | Apr 2025 | Reasoning-focused (chain-of-thought), retiring |
+| [[GPT-4.5]] | Feb 2025 | Research preview, deprecated Jul 2025 |
+| [[GPT\|GPT-4o]] | May 2024 | Omni — native voice/vision. Retired Feb 2026 |
 
 ### Consumer and enterprise
 
@@ -197,6 +199,7 @@ Microsoft receives 20% of OpenAI revenue through 2032. Sam Altman reportedly not
 | [[John Schulman]] | Aug 2024 | [[Anthropic]] | — |
 | [[Jan Leike]] | May 2024 | [[Anthropic]] | — |
 | [[Andrej Karpathy]] | 2024 | Independent (education) | — |
+| [[Caitlin Kalinowski]] | Mar 2026 | — (resigned over Pentagon deal) | — |
 | 7+ researchers | Summer 2025 | [[Meta]] Superintelligence Lab | — |
 
 Jan Leike on departure: "Safety has taken a backseat to shiny products." Mission Alignment team disbanded Feb 2026; leader Joshua Achiam moved to "chief futurist" role.
@@ -282,7 +285,7 @@ ChatGPT was integrated into Siri/iOS in 2024-2025 (no cash exchanged — Apple v
 
 - [[ChatGPT]] — consumer/enterprise interface, 75% of revenue
 - [[GPT]] — model family
-- [[OpenAI GPT-5.4]], [[OpenAI GPT-4.5]] — specific model versions
+- [[OpenAI GPT-5.4]] — current flagship (standalone benchmark analysis)
 - [[Sora]] — video generation
 - [[Codex]] — coding agent
 - [[Project Stargate]] — $500B infrastructure JV

@@ -22,14 +22,18 @@ aliases: [Odebrecht, Grupo Odebrecht, Novonor SA]
 
 ## Context
 
-Novonor's controlling stake in [[Braskem]] has been the subject of multiple sale attempts. [[Nelson Tanure]], backed by [[Rothschild & Co]], secured exclusivity to negotiate in H1 2025 with [[CADE]] pre-approval, but the deal collapsed when exclusivity expired in H2 2025 without agreement. The Braskem stake remains Novonor's most valuable remaining asset as the group continues post-Lava Jato restructuring.
+Novonor's controlling stake in [[Braskem]] has been the subject of multiple sale attempts. [[Nelson Tanure]], backed by [[Rothschild & Co]], secured exclusivity to negotiate in H1 2025 with [[CADE]] pre-approval, but the deal collapsed when exclusivity expired in H2 2025 without agreement.
+
+In Dec 2025, [[IG4 Capital]] signed a binding agreement with Novonor and creditor banks to buy all of Novonor's debt backed by Braskem shares. [[CADE]]'s superintendence approved the transaction on Mar 6, 2026 (15-day appeal window). However, Valor Econômico reported IG4 may abandon talks due to Braskem's deteriorating cash position — bankruptcy protection possible within 2-3 months. The deal scenario has shifted since IG4 entered negotiations.
 
 ---
 
 ## Related
 
 - [[Braskem]] — controlled subsidiary; largest petrochemical company in Latin America
+- [[IG4 Capital]] — signed binding agreement for Braskem debt-backed shares (Dec 2025); CADE approved Mar 2026
 - [[Nelson Tanure]] — failed bid for Braskem controlling stake (2025)
+- [[CADE]] — antitrust authority
 - [[Brazil]] — home market; Lava Jato epicenter
 
 *Created 2026-02-22*

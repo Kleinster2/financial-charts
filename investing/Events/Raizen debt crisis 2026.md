@@ -34,6 +34,15 @@ aliases: [Raizen crisis, Raizen restructuring, Raizen debt spiral]
 | **Feb 16, 2026** | CEO Nelson Gomes says shareholders "ready to inject capital," cutting debt is "absolutely" a priority |
 | **Feb 18, 2026** | **Shell submits rescue bid:** ~R$5B injection (Shell >R$3.5B), keep Raízen whole, then negotiate with creditors. Competing BTG/Cosan plan: R$8.3B+, split company in two |
 | **Feb 19, 2026** | **Fitch:** Shareholder pledges were "too little, too late" to prevent 8-notch downgrade. Uncertainty remains |
+| **~Feb 16, 2026** | President [[Lula]] convenes Brasília meeting with [[Cosan]], [[Shell]], [[BTG Pactual]], [[Petrobras]] CEO [[Magda Chambriard]], Finance Minister [[Fernando Haddad]], [[BNDES]] head [[Aloizio Mercadante]]. Discussed selling Raízen assets to [[Petrobras]] — didn't proceed. Petrobras denied involvement |
+| **~Feb 2026** | Raízen pays $33.5M interest on 2037 bonds — avoids default trigger but another balance sheet hit |
+| **~Feb 2026** | [[Cosan]] approaches [[BNDES]] for Raízen support — facing resistance; officials want concrete capitalization plan first. BNDES already invested R$409M in Cosan's Sep 2025 offering |
+| **Feb 24, 2026** | Shell, Cosan, BTG appear to advance on joint deal. Restructuring details leak: corporate split, debt-to-equity at ~35% face value, [[BTG Pactual]] PE to buy distribution stake for R$5.5B |
+| **Feb 25, 2026** | Creditors send letters demanding **up to R$25B** injection. 2034 bonds recover to 47.4 cents |
+| **Feb 2026** | Raízen issues **going-concern warning** — "significant uncertainty" over ability to continue operating |
+| **Mar 3, 2026** | [[Shell]] Brazil CEO Cristiano Pinto da Costa confirms R$3.5B commitment |
+| **Mar 4, 2026** | **Talks collapse.** Shell and Cosan fail to agree on contribution sizes. BTG pulls out. "Several proposals were made, but none moved forward" |
+| **Mar 5, 2026** | Raízen discloses **R$4B injection** (R$3.5B Shell + R$500M Aguassanta/Ometto family). Formally considers **extrajudicial recovery**. Shares -13%. **S&P cuts again:** CCC+ → **CCC-** (negative) — now 10 notches below pre-crisis BBB |
 
 ---
 
@@ -88,7 +97,7 @@ CEO Nelson Gomes (replaced Mussa Oct-Nov 2024) launched cost-cutting and simplif
 | Agency | Pre-crisis | Final (Feb 9-10) | Notches dropped | Trigger |
 |--------|-----------|-------------------|-----------------|---------|
 | [[Fitch Ratings]] | BBB (Jun 2024) | CCC | **10** | "Failure of shareholders to execute material capital injection" |
-| [[S&P Global]] | BBB (Jan 2025) | CCC+ | **8** | Hiring of restructuring advisers = "opening move in restructuring" |
+| [[S&P Global]] | BBB (Jan 2025) | CCC- (Mar 5) | **10** | Feb 9: CCC+ (restructuring advisers). Mar 5: CCC- (capital structure reorganization) |
 | [[Moody's]] | Baa3 | Caa1 | **9** | Negative outlook |
 
 Fitch was most aggressive: BBB → BBB (negative, Jun 2025) → BBB- (RWN, Oct 2025) → B (morning Feb 9) → CCC (evening Feb 9). Five notches in seven hours.
@@ -103,11 +112,11 @@ Fitch was most aggressive: BBB → BBB (negative, Jun 2025) → BBB- (RWN, Oct 2
 
 | Maturity | Coupon | Outstanding | Price (Feb 2026) | Implied loss |
 |----------|--------|-------------|------------------|-------------|
-| Jan 2027 | 5.30% | $342M | — | — |
+| Jan 2027 | 5.30% | $342M | **~55 cents** (Mar 8) | ~45% |
 | Jul 2032 | 6.25% | $750M | Yields >14% | — |
 | Mar 2034 | 6.45% | $1,000M | **42.4 cents** (was ~86.7 pre-Feb 9) | ~58% |
 | Jan 2035 | 5.70% | $1,000M | **~44 cents** (YTM 18.76%) | ~56% |
-| 2037 | 6.70% | $1,000M | — | — |
+| 2037 | 6.70% | $1,000M | 45.2 cents (Feb 9; was 80+ prior week) | ~55% |
 | Mar 2054 | 6.95% | $1,250M | **~30 cents** | ~70% |
 
 Market is pricing in substantial creditor losses — consistent with a restructuring that includes debt-to-equity conversion and/or haircuts.
@@ -150,16 +159,35 @@ Some creditor banks oppose — argue splitting the company at this stage would w
 
 [[Shell]] (44% owner) won't push above 50% — crossing that threshold forces [[IFRS]] consolidation of R$70B+ gross debt onto Shell's balance sheet. This is the structural reason Shell initially demanded equal contributions and why the follow-on offering matters (it dilutes Shell back below the threshold).
 
+### Talks collapse, Shell goes alone (Mar 4-5)
+
+Joint Shell/Cosan/BTG negotiations collapsed Mar 4 — Cosan couldn't match Shell's contribution, BTG pulled out. "Several proposals were made, but none of them moved forward" (NeoFeed).
+
+On Mar 5, Raízen disclosed a slimmed-down Shell-only deal:
+
+| Detail | Value |
+|--------|-------|
+| Total injection | **R$4B (~$765M)** |
+| Shell contribution | **R$3.5B** |
+| Ometto family (Aguassanta) | **R$500M** |
+| Cosan corporate | **Nothing** |
+| Structure | Keep whole (BTG split plan dead) |
+| Restructuring path | **Extrajudicial recovery** if needed |
+| Debt conversion | Debt-to-equity swap for creditors |
+
+Shares fell 13% on the day. Raízen also issued a **going-concern warning**.
+
 ### Capital needed vs. offered
 
-| Source | Amount needed |
-|--------|--------------|
+| Source | Amount |
+|--------|--------|
+| Creditor demand (Feb 25 letters) | **Up to R$25B** |
 | [[JPMorgan Chase]] estimate | ~R$18B (to reach 2.5x leverage) |
 | [[UBS BB]] estimate | R$20-25B (to reach 2.0-2.5x) |
-| Shell plan offers | R$5B |
-| BTG/Cosan plan offers | R$8.3B+ |
+| ~~BTG/Cosan plan~~ (dead) | ~~R$8.3B+~~ |
+| Actual offer (Mar 5) | **R$4B** |
 
-**The gap:** Even the larger BTG plan (R$8.3B) falls far short of what banks estimate is needed (R$18-25B). This is why Fitch says pledges are "too little, too late" — and why debt-to-equity conversion for creditors is likely necessary to close the gap.
+**The gap is enormous.** The R$4B offer is 16-20% of what banks estimate is needed. Debt-to-equity conversion at ~35% face value for creditors is now virtually certain — the only question is the terms.
 
 ---
 
@@ -167,7 +195,7 @@ Some creditor banks oppose — argue splitting the company at this stage would w
 
 | Party | Financial adviser | Legal adviser |
 |-------|-------------------|---------------|
-| [[Raizen]] | [[Rothschild]], [[Citigroup]] | [[Pinheiro Neto]], [[Cleary Gottlieb]] |
+| [[Raizen]] | [[Rothschild]], [[Citigroup]], [[Alvarez & Marsal]] (ops) | [[Pinheiro Neto]], [[Cleary Gottlieb]] |
 | [[Cosan]] | [[Itaú BBA]] | — |
 | [[Shell]] | [[Lazard]] | — |
 | Bondholder committee | [[Moelis]] | [[White & Case]] |
@@ -236,10 +264,11 @@ Both events hit Feb 19, 2026 — one in Brazil (operational/rate-driven), one in
 | Net loss (Q3) | R$15.65B (~$2.7B) |
 | Leverage | 5.3x (was 1.3x, 18 months prior) |
 | Rating collapse | BBB → CCC (8-10 notches) in one week |
-| Bond prices | ~30 cents on the dollar |
-| Stock | R$0.67 (down 91% from IPO) |
-| Rescue bids | Shell ~R$5B vs BTG/Cosan R$8.3B+ |
-| Capital needed (bank estimates) | R$18-25B |
+| Bond prices | 30-55 cents (nearest maturity recovering) |
+| Stock | R$0.55 (down 93% from IPO) |
+| Rescue offer (Mar 5) | R$4B (Shell R$3.5B + Ometto R$500M) |
+| Capital needed (creditors/banks) | R$18-25B |
+| Path | Extrajudicial recovery (out-of-court) |
 
 ---
 
@@ -279,8 +308,8 @@ Nobody shorted it publicly in the way Hindenburg or Muddy Waters would — there
 
 **The real story:** the rating agencies were the last to know, as usual. BBB in June 2025, CCC by February 2026. Investors who relied on ratings got crushed by the forced-selling cascade.
 
-*Sources: Bloomberg, Valor Internacional, Rio Times, LatinFinance, AInvest, Easy Brazil Investing, Fitch, S&P, Moody's (May 2025 – Feb 2026)*
-*Created 2026-02-19*
+*Sources: Bloomberg, Valor Internacional, Rio Times, LatinFinance, AInvest, Easy Brazil Investing, NeoFeed, BondbloX, Fitch, S&P, Moody's (May 2025 – Mar 2026)*
+*Created 2026-02-19. Updated 2026-03-08.*
 
 ---
 
@@ -290,6 +319,12 @@ Nobody shorted it publicly in the way Hindenburg or Muddy Waters would — there
 - [[Shell]] — 44% owner, rescue bid leader
 - [[Cosan]] — 44% owner, competing rescue proposal with [[BTG Pactual]]
 - [[BTG Pactual]] — PE arm offering R$5.3B for distribution business
+- [[Lula]] — convened Brasília meeting to prevent bankruptcy
+- [[Petrobras]] — asset sale discussed (didn't proceed)
+- [[Magda Chambriard]] — Petrobras CEO, attended Brasília meeting
+- [[Fernando Haddad]] — Finance Minister, attended Brasília meeting
+- [[Aloizio Mercadante]] — BNDES head, attended Brasília meeting
+- [[BNDES]] — Cosan sought support, facing resistance
 - [[Selic]] — rate environment driving the debt spiral
 - [[E2G]] — cellulosic ethanol bet that underdelivered
 - [[Brazil corporate bond rout February 2026]] — market context

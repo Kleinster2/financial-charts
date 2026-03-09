@@ -32,7 +32,7 @@ The arc: seven OpenAI defectors → Constitutional AI → FTX-funded safety lab 
 
 | Metric | Value |
 |--------|-------|
-| Revenue | $14B annualized run rate (was $9B in Jan, $87M early 2024) |
+| Revenue | ~$20B annualized run rate (as of ~Mar 6; was $14B mid-Feb, $9B Jan, $87M early 2024) |
 | Claude Code run rate | $2.5B (launched publicly May 2025) |
 | Revenue mix | 80% enterprise, 20% consumer |
 | Business customers | 300,000+ |

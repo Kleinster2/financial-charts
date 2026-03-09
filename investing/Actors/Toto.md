@@ -48,10 +48,10 @@ Toto — Japanese washlet/toilet manufacturer with a hidden semiconductor materi
 ## Price
 
 ![[totdy-price-chart.png]]
-*TOTDY (ADR) since Jan 2024. Rangebound $24-35 through 2025, then vertical breakout in Jan-Feb 2026 on Goldman upgrade + Palliser activist disclosure. At $40.30, near all-time high.*
+*TOTDY (ADR) since Jan 2024. Rangebound $24-35 through 2025, then vertical breakout in Jan-Feb 2026 on Goldman upgrade + Palliser activist disclosure. Spiked to ~$41 in late Feb, pulled back to $35.89 by Mar 6.*
 
 ![[totdy-vs-esc-peers-price-chart.png]]
-*Toto vs ESC peers since Jul 2025 (normalized). [[NGK Insulators]] (NGKIF) +90% leads the group. Toto (+56%), [[Kyocera]] (KYOCY, +56%), [[Entegris]] (ENTG, +55%) tightly clustered. [[SEMCO Technologies]] (ALSEM.PA, +47%) mid-pack. [[Sumitomo Osaka Cement]] (5232.T, +18%) lagging. Entire group is bid — the ESC/advanced ceramics theme is being priced across the board, not just Toto.*
+*Toto vs ESC peers since Jul 2025 (normalized). [[NGK Insulators]] (NGKIF) +95% still leads. ALSEM.PA (+60%), TOTDY (+58%), [[Kyocera]] (KYOCY, +55%) clustered. [[Entegris]] (ENTG, +38%) lagging after pullback. [[Sumitomo Osaka Cement]] (5232.T, +25%) trailing. Broad ESC/ceramics theme still bid but ENTG diverging — US semcap names under tariff pressure.*
 
 ---
 

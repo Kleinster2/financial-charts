@@ -18,7 +18,7 @@
 | Outcome (Feb 27) | Anthropic designated supply-chain risk; Trump orders government-wide phaseout |
 | OpenAI reversal (Mar 3) | Altman admits deal "opportunistic," amends contract to prohibit domestic surveillance |
 | Public reaction | Claude surged to #1 on Apple App Store; all-time sign-up records |
-| Anthropic revenue run rate | ~$19B (as of Mar 4, up from $14B in mid-Feb) |
+| Anthropic revenue run rate | ~$20B (as of ~Mar 6, up from $14B in mid-Feb) |
 | Industry response (Mar 4) | ITI letter; Lockheed compliance; Palantir Maven rebuild needed |
 
 ---
@@ -69,6 +69,7 @@ This triggered a fundamental reassessment inside DOD. Pentagon officials began c
 | Mar 1 | Hundreds of tech workers sign open letter urging DoD to withdraw supply-chain risk designation |
 | Mar 3 | Altman admits Pentagon deal "looked opportunistic and sloppy." OpenAI amends contract to prohibit domestic surveillance — the same safeguard Anthropic demanded |
 | Mar 4 | ITI letter (NVIDIA, Amazon, Apple, OpenAI members) expresses concern over supply-chain risk designation. Anthropic investors mobilize — Lightspeed, Iconiq coordinating solutions. Revenue run rate hits ~$19B (up from $14B weeks ago). Palantir's Maven Smart Systems revealed to use Claude code; will need to rebuild. Lockheed Martin pledges compliance. OpenAI pursuing NATO contract (unclassified networks). Jensen Huang says $10B Anthropic and $30B OpenAI investments likely his last |
+| Mar 8 | [[Caitlin Kalinowski]], head of [[OpenAI]] robotics, resigns over Pentagon deal. Posted on X: "surveillance of Americans without judicial oversight and lethal autonomy without human authorization are lines that deserved more deliberation." First internal departure directly attributed to the Pentagon deal. Joined OpenAI Nov 2024 from [[Meta]] (led AR glasses development). OpenAI confirmed, reaffirmed "no domestic surveillance and no autonomous weapons" red lines |
 
 *Sources: Axios (Feb 13, 15, 16, 24, 26, Mar 1), Reuters (Jan 30, Feb 12, 25, Mar 3-4), WSJ (Feb 14, 18), NBC (Feb 13, 18), Semafor (Jan 16, Feb 24), CNN (Feb 24), CNBC (Feb 18, 24, 26, 27, Mar 3), TechCrunch (Feb 23, 24, Mar 1-2), Fortune (Feb 25, 28, Mar 3), NPR (Feb 24, 27), Lawfare (Mar 1)*
 
@@ -80,8 +81,8 @@ Anthropic is willing to adapt its usage policies for the Pentagon. In December c
 
 Two hard lines:
 
-1. Fully autonomous weapons — weapons systems that fire without human involvement. Anthropic's position: AI is not reliable enough to operate weapons autonomously
-2. Mass surveillance of Americans — domestic intelligence collection at scale. Anthropic's position: no laws or regulations yet cover how AI could be used for this
+1. Fully autonomous weapons — weapons systems that fire without human involvement. Anthropic's position: AI is not reliable enough to operate weapons autonomously. Crucially, Anthropic has **no objection in principle** to autonomous weapons — [[Dario Amodei]] told CBS the models "just aren't ready yet." Internal reasoning: like self-driving cars, AI-controlled weapons could eventually reduce civilian casualties vs. human operators, but current models risk battlefield confusion, civilian deaths, and friendly fire. The Pentagon proposed a "cloud only" compromise — Claude stays in data centers, not on drones. Anthropic rejected this as meaningless: modern drone swarms run on mesh networks that push computation to the edge, collapsing any cloud/device distinction. A model making battlefield decisions from the cloud is functionally identical to one on the drone.
+2. Mass surveillance of Americans — domestic intelligence collection at scale. Anthropic's position: no laws or regulations yet cover how AI could be used for this. The Pentagon wanted Claude to analyze **commercial bulk data** on US citizens — GPS data, Google search results, credit card transactions, and chatbot conversations — through a carve-out allowing surveillance on behalf of domestic agencies like [[DHS]]. Per Ross Anderson ([[The Atlantic]]), the two sides were close to a deal on Friday Feb 27: the Pentagon agreed to remove "weasel words" on autonomous weapons language, but the bulk data surveillance demand was the final dealbreaker.
 
 [[Dario Amodei]] wrote that AI should support national defense "in all ways except those which would make us more like our autocratic adversaries." After the Feb 24 meeting, an Anthropic spokesperson described it as a "good-faith conversation." Sources say the company has no intention of easing restrictions.
 
@@ -145,7 +146,7 @@ Three developments shifted the dynamic:
 
 - Feb 27: Hegseth designated Anthropic a "Supply-Chain Risk to National Security." Effective immediately: no contractor, supplier, or partner doing business with the US military may conduct commercial activity with Anthropic. Far broader than the ~$200M contract loss.
 - Feb 27: Trump ordered ALL US government agencies to cease use of Anthropic with 6-month phaseout
-- Feb 27: Hours later, [[OpenAI]] CEO [[Sam Altman]] announced Pentagon deal to deploy on classified networks. Agreed to "any lawful purpose."
+- Feb 27: ~2 hours later, [[OpenAI]] CEO [[Sam Altman]] announced Pentagon deal to deploy on classified networks. Agreed to "any lawful purpose." Altman posted the announcement **four times** — community noted three times on Friday alone (note: "government officials have contradicted Sam's claim, saying OpenAI will allow the Department of War to use their models for all lawful purposes"). Reposted Saturday/Sunday to avoid the community note.
 - Anthropic response: Will challenge designation in court. [[Dario Amodei|Dario]]: "retaliatory and punitive." Called it "legally unsound" and "dangerous precedent."
 - Lawfare analysis: designation "won't survive first contact with the legal system" — punishes domestic company for negotiating contract terms, not security violation
 - Hundreds of tech workers signed open letter urging DoD withdrawal (signatories from [[OpenAI]], Slack, IBM, Cursor, Salesforce Ventures)
@@ -159,9 +160,12 @@ Three developments shifted the dynamic:
 - [[Claude]] surged from #42 to #1 on Apple US App Store free-app chart by Saturday Feb 28, overtaking [[ChatGPT]]
 - Anthropic hit all-time record for Claude sign-ups
 - Surge crashed Claude servers (elevated errors before restoration)
+- Mar 5: Claude went down **multiple times** during the day — down for hours at a stretch, first time any major AI model had sustained outages from pure user demand. Users "furiously posting" on Reddit about having moved their workflows onto the platform
+- [[Katy Perry]] tweeted herself purchasing a Claude subscription with a heart emoji
+- Chalk messages drawn outside Anthropic's SF headquarters: "resist," "we believe in you," "we love you"
 - Public response overwhelmingly pro-Anthropic
 
-*Sources: TechCrunch (Mar 1-2), Axios (Mar 1)*
+*Sources: TechCrunch (Mar 1-2), Axios (Mar 1), Taylor Lorenz / Ross Anderson interview (Mar 6)*
 
 ---
 
@@ -197,6 +201,62 @@ Three developments shifted the dynamic:
 **[[State Department]]** switching to [[OpenAI]] following Trump's 6-month phaseout order.
 
 *Sources: Reuters (Mar 3-4)*
+
+---
+
+## Dario Amodei leaked memo (~early Mar)
+
+A 1,600-word internal memo from [[Dario Amodei]] to Anthropic employees leaked publicly. Key claims:
+
+**On OpenAI's safeguards:** Dario characterized OpenAI's safety provisions as *"maybe 20% real, but 80% safety theater"* — a classifier layer (courtesy of [[Palantir]]) that flags certain applications and denies some, but which he says would be *"easily overridden."* The Pentagon can ask the models to do whatever it wants; OpenAI has a safety layer on top (essentially model refusals). Dario says Anthropic was offered the same arrangement and refused.
+
+**Palantir's pitch:** Dario claims [[Palantir]] told him directly: *"You have some unhappy employees. You need to offer them something that placates them or makes what is happening invisible to them. That's the service we provide."*
+
+**Cloud vs on-device:** The Atlantic reported the Pentagon offered to keep AI models in the cloud, not on-device in weapons. [[OpenAI]] touted this safeguard. Anthropic's view: if the model is making battlefield decisions from the cloud, that's *"a distinction without a difference."*
+
+**Autonomous weapons:** Dario notes human-in-the-loop is currently Pentagon *policy*, not law. The Department of War claims it's law. Dario: *"Policy can be changed unilaterally"* — meaning the constraint is not durable.
+
+**On OpenAI's motives:** *"The main reason OpenAI accepted these terms and that we did not is that they cared about placating employees. We, on the other hand, actually cared about preventing abuses."*
+
+**Political donations:** Dario claims the real reason the DoW/Trump administration dislikes Anthropic: *"We haven't donated to Trump. [[Greg Brockman]], OpenAI's president, has donated a lot, around $25 million."*
+
+**On OpenAI employees:** *"Due to selection effects, they're sort of a gullible bunch."* OpenAI employees pushed back publicly.
+
+**Dario's retraction** (~Mar 5-6): *"That memo probably shouldn't have been published and it was a difficult day for the company. I apologize for the tone. It does not reflect my careful or considered views."*
+
+*Sources: leaked memo (reported by AI Explained, ~Mar 6); Atlantic (cloud vs on-device reporting)*
+
+---
+
+## Claude used for Iran targeting (WaPo exclusive, ~Mar 6)
+
+The Washington Post reported that [[Claude]], deployed inside a [[Palantir]] system, has been used in Iran operations to *"suggest hundreds of targets, issue precise location coordinates, and prioritize those targets according to importance."*
+
+This may not violate Anthropic's terms of service — the DoW's 6-month phaseout period means Claude remains authorized for use. But it undercuts the clean narrative of Anthropic as the lab that drew the line on military AI: their model is actively being used for targeting in a war zone, under the terms they originally agreed to before the dispute.
+
+Per Ross Anderson's sourcing: Claude is now **deeply integrated** operationally into Pentagon classified systems after only ~6 months. [[Pete Hegseth|Hegseth]], who reportedly has "no love" for [[Dario Amodei]], nonetheless told officials: **"we need Claude."**
+
+*Source: Washington Post (~Mar 6, reported by AI Explained)*
+
+---
+
+## Emil Michael on Dario (~Mar 6)
+
+[[Emil Michael]] (Under Secretary of War for R&E) on the All-In podcast: Dario *"apparently wanted to be phoned for each exception to their guardrails on Claude."* This framing — Dario as micromanaging battlefield AI use case-by-case — reinforces the Pentagon's core complaint that a private company is trying to dictate operational decisions.
+
+*Source: All-In podcast (~Mar 6)*
+
+---
+
+## Google DeepMind's silence
+
+[[Google]] DeepMind is working with the Department of War but deliberately not publicizing it. CEO [[Demis Hassabis]] reposting product announcements instead. The strategy: comply quietly, avoid the political crossfire that hit Anthropic (for refusing) and OpenAI (for looking opportunistic).
+
+---
+
+## Revenue update (Mar 6)
+
+[[Anthropic]] revenue has doubled since the start of 2026: $9B → $20B run rate. The Pentagon backlash is accelerating consumer and enterprise adoption simultaneously.
 
 ---
 
@@ -255,6 +315,8 @@ Is the DPA fit for purpose? The DPA was designed for physical goods in wartime �
 
 Does the safety brand survive contact with the state? Anthropic's $380B valuation rests partly on the thesis that safety-first AI commands a premium — enterprise trust, regulatory goodwill, talent retention. Capitulating to the Pentagon undermines that brand. But getting blacklisted as a supply-chain risk creates a different kind of brand damage. Anthropic is betting that the enterprise market (80% of revenue) values the safety stance more than the defense market. That bet is being tested in real time.
 
+A source close to the talks told Anderson that insiders had expected a [[Defense Production Act]] confrontation eventually — these models are becoming too useful in military/surveillance contexts for the government not to try to compel production. But: *"This happened way earlier than we thought, and it's the stupidest possible version"* — attributing the premature escalation to [[Pete Hegseth|Hegseth]] and [[Emil Michael]]'s combative style.
+
 The xAI classified clearance changes the game theory. When Anthropic was the sole classified provider, the Pentagon needed it. Now it has an alternative. The question is whether Claude's technical superiority on classified work creates enough switching cost to maintain leverage — or whether "good enough" from xAI is all the Pentagon needs.
 
 ---
@@ -281,4 +343,9 @@ The xAI classified clearance changes the game theory. When Anthropic was the sol
 - [[David Sacks]] — White House AI Czar, endorsed Claude at Davos despite dispute
 - [[Dean Ball]] — ex-Trump AI adviser, warned against cutting Anthropic
 - [[Amazon]] — Anthropic lead investor, $8B, own defense contracts
+- [[Emil Michael]] — Under Secretary of War, claimed Dario wanted phone calls for each exception
+- [[Greg Brockman]] — OpenAI president, $25M Trump donations per Dario memo
+- [[Google]] — DeepMind quietly working with DoW, not publicizing
+- [[Ross Anderson]] — The Atlantic staff writer, broke details on bulk surveillance demand and Friday negotiation breakdown
+- [[Ross Douthat]] — conservative commentator, publicly "outraged" by supply-chain designation
 - [[Defense]] — sector context

@@ -52,7 +52,9 @@ ADR_TICKERS = [
     "NINOY",    # Nikon
     "REPYY",    # Repsol
     "STM",      # STMicroelectronics
-    "TOTDY",    # TotalEnergies
+    "TOTDY",    # Toto
+    "NGKIF",    # NGK Insulators (electrostatic chucks)
+    "KYOCY",    # Kyocera (advanced ceramics)
     "SID",      # CSN (Brazilian steel)
     "GFS",      # GlobalFoundries
     # Chinese EV/Auto ADRs & HK Stocks
@@ -413,6 +415,7 @@ AI_SEMICONDUCTOR_STOCKS = [
     "AMAT",   # Applied Materials
     "LRCX",   # Lam Research
     "KLAC",   # KLA Corporation
+    "ENTG",   # Entegris (semiconductor materials)
     "NVDA",   # NVIDIA (already in S&P)
     "SMCI",   # Super Micro Computer
     "DELL",   # Dell Technologies
@@ -928,6 +931,7 @@ JAPAN_STOCKS = [
     "7751.T",   # Canon
     "7779.T",   # Cyberdyne (robotics/exoskeletons)
     "285A.T",   # Kokusai Electric (semiconductor equipment)
+    "5232.T",   # Sumitomo Osaka Cement (electrostatic chucks)
 ]
 
 # European Defense Stocks
@@ -963,6 +967,7 @@ EUROPE_STOCKS = [
     # Netherlands (Euronext Amsterdam)
     "WKL.AS",   # Wolters Kluwer
     "BESI.AS",  # BE Semiconductor Industries
+    "ALSEM.PA", # SEMCO Technologies (electrostatic chucks)
     # Germany (Frankfurt) - additional
     "T2G.F",    # Telefonica Deutschland
 ]
