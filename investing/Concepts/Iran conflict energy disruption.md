@@ -299,6 +299,29 @@ If Hormuz stays closed through Week 3, the Kavonic ([[MST Financial]]) trigger h
 
 ---
 
+## China exposure — Barclays assessment (March 8)
+
+Barclays quantified [[China]]'s vulnerability to the Hormuz closure:
+
+| Metric | Value |
+|--------|-------|
+| Crude import dependence | ~75% of demand met through imports |
+| Seaborne share of crude imports | ~90% |
+| Hormuz transit share of total oil consumption | >35% |
+| Iran share of oil imports (2025) | ~12% |
+| LNG import exposure via Hormuz | ~30% (Qatar volumes) |
+| [[Strategic Petroleum Reserve]] | ~1.2B bbl (~104 days import cover) |
+| $100/bbl inflation impact | +0.3pp headline CPI |
+| $100/bbl growth impact | Modest drag (evolving energy mix cushions) |
+
+Buffers: China can replace Iranian crude with Russian, Brazilian, Malaysian, Angolan, and Canadian supply. The 1.2B barrel SPR provides 104 days of import cover. Accelerating renewables shift has gradually reduced oil's share of total energy consumption. Barclays concludes the macro impact of oil shocks is "likely to be less severe than in the past."
+
+Asian governments (South Korea, Taiwan, Japan, China) responded to the crisis by banning refined fuel exports and hoarding domestic supply. The US relaxed sanctions on Russian crude exports to India in early March 2026 to ensure Indian supply — a geopolitical win for Russia.
+
+*Source: Investing.com / Barclays, March 8, 2026*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note

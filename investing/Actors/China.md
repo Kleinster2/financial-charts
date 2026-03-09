@@ -385,6 +385,30 @@ Chinese tech stocks testing how far AI-fueled rally can run. Key listings:
 
 ---
 
+## Energy exposure — Strait of Hormuz (March 2026)
+
+China is the most exposed major economy to the [[Iran conflict energy disruption|Strait of Hormuz disruption]], per Barclays (March 2026):
+
+| Metric | Value |
+|--------|-------|
+| Crude import dependence | ~75% of demand |
+| Seaborne share of imports | ~90% |
+| Hormuz transit share of total oil consumption | >35% |
+| Iran share of oil imports (2025) | ~12% |
+| LNG import exposure via Hormuz | ~30% (Qatar volumes) |
+| Strategic petroleum reserve | ~1.2B bbl (~104 days import cover) |
+
+China is the world's largest LNG importer, with ~30% of LNG imports tied to Hormuz transit ([[QatarEnergy]] volumes). The March 2026 closure hit Asian gas markets hard — South Korea, Taiwan, Japan, and China all moved to ban refined fuel exports and hoard domestic supply.
+
+Barclays estimates $100/bbl oil in 2026 would add ~0.3pp to Chinese headline inflation with modest growth drag. But several buffers exist:
+- 1.2B barrel [[Strategic Petroleum Reserve]] (~104 days)
+- Ability to replace Iranian crude with Russian, Brazilian, Malaysian, Angolan, and Canadian supply
+- Accelerating renewables shift reducing oil's share of total energy mix
+
+The US relaxed sanctions on Russian crude exports to India in early March 2026 to ensure supply — Russia is winning the sanctions arbitrage while squeezing Europe harder on gas.
+
+---
+
 ## What to watch
 
 - [ ] VEU case-by-case approval patterns (Q1 2026)
