@@ -19,7 +19,9 @@ aliases: []
 | Revenue multiple | ~4.3x (vs public comps 6-8x) |
 | Gross margin | ~80% pre-AI; margin pressure from Claude API costs |
 | Cash | $129M (cash-flow positive since late 2023) |
-| Total funding | $240.75M across 7 rounds |
+| Total equity funding | $240.75M across 7 rounds |
+| Venture debt (Mar 2026) | $250M from [[Hercules Capital]] |
+| Planned new hires | 650 (announced Mar 2026) |
 | Employees | ~500-1,000 (after 40% turnover from restructuring) |
 | Active websites | 650,000+ |
 | HQ | San Francisco (founded in Dublin, Ireland) |
@@ -57,7 +59,11 @@ aliases: []
 | Series D | Mar 2018 | $125M | Kleiner Perkins | $1.275B |
 | **Total** | | **$240.75M** | | |
 
-No new funding since 2018 — 8 years self-funded. Cash-flow positive since late 2023 with $129M cash. The stale $1.3B valuation at 4.3x revenue is well below public comps (Zendesk 6.6x, Freshworks 6.6x). A repricing at 6-8x on $343M revenue would put fair value at $2-2.7B.
+No equity raise since 2018. Cash-flow positive since late 2023 with $129M cash. The stale $1.3B valuation at 4.3x revenue is well below public comps (Zendesk 6.6x, Freshworks 6.6x). A repricing at 6-8x on $343M revenue would put fair value at $2-2.7B.
+
+### Venture debt (March 2026)
+
+On March 9, 2026, McCabe announced $250M in venture debt from [[Hercules Capital]], a specialist Silicon Valley venture debt lender. Funds earmarked for Fin AI development and **hiring 650 additional people** — a massive headcount expansion given the company had ~500-1,000 employees post-restructuring. Choosing debt over equity preserves the existing cap table and avoids a valuation reset — smart if McCabe believes the company is worth far more than the stale $1.3B and wants to raise equity later (or IPO) at a much higher price.
 
 Investors: Kleiner Perkins, Social Capital, Bessemer Venture Partners, ICONIQ Growth, Index Ventures. Mary Meeker is a board observer.
 
