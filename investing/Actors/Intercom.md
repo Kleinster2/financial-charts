@@ -35,7 +35,22 @@ aliases: []
 | CFO | Dan Griggs |
 | CPO | L. David Kingsley |
 
-Investors: Kleiner Perkins, Social Capital, Bessemer Venture Partners, ICONIQ Capital. Mary Meeker is a board observer.
+## Funding history
+
+| Round | Date | Amount | Lead | Valuation |
+|-------|------|--------|------|-----------|
+| Seed | Jan 2012 | $1M | — | — |
+| Seed 2 | Aug 2012 | $750K | — | — |
+| Series A | Jun 2013 | $6M | Social Capital | — |
+| Series B | Jan 2014 | $23M | Bessemer Venture Partners | — |
+| Series C | Aug 2015 | $35M | ICONIQ Growth | — |
+| Series C ext. | Apr 2016 | $50M | Index Ventures | — |
+| Series D | Mar 2018 | $125M | Kleiner Perkins | $1.275B |
+| **Total** | | **$240.75M** | | |
+
+No new funding since 2018 — 8 years self-funded. Cash-flow positive since late 2023 with $129M in cash.
+
+Investors: Kleiner Perkins, Social Capital, Bessemer Venture Partners, ICONIQ Growth, Index Ventures. Mary Meeker is a board observer.
 
 ---
 
