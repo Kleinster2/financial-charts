@@ -299,6 +299,30 @@ If Hormuz stays closed through Week 3, the Kavonic ([[MST Financial]]) trigger h
 
 ---
 
+## WTI crosses $100, TTF +67% weekly — Day 11 (March 9)
+
+WTI vaulted back above $100/bbl on Monday as investors priced in a prolonged supply shock. European gas posted its biggest weekly gain since the 2022 energy crisis.
+
+| Metric | Mar 9 (intraday) | Move |
+|--------|-----------------|------|
+| WTI crude | >$100/bbl | Back to triple digits |
+| Dutch TTF gas | €61.75/MWh (touched €69.50) | +15.7% on day, +67% prior week |
+| US Henry Hub | $3.31/MMBtu | +3.9% |
+
+The trigger: forced closure of [[Ras Laffan]] in [[Qatar]], the world's largest LNG complex. [[QatarEnergy]] force majeure had been in effect since Mar 4, but the confirmed operational closure sent gas markets parabolic.
+
+ANZ: "European natural gas rose 67% last week, its biggest weekly gain since the energy crisis of 2022."
+
+Raymond James (Justin Jenkins): "Nearly a quarter of global LNG production is currently impacted... The longer the conflict lasts, the more price will have to do the work to balance supply and demand in the storage refill season. The call on US gas will become more pronounced, but LNG send-out was already ~max, and so global LNG prices have and will surge to balance markets."
+
+Western Europe entering this disruption with relatively low gas storage levels — less buffer than 2022 when the Russia supply crisis hit. Even if hostilities stopped immediately, market participants warn the supply chain impact could persist for weeks.
+
+The surge in oil and gas prices rippled into fixed income — global bond prices fell as investors reassessed inflation and rate outlook.
+
+*Source: Investing.com, ANZ, Raymond James (Mar 9, 2026)*
+
+---
+
 ## China exposure — Barclays assessment (March 8)
 
 Barclays quantified [[China]]'s vulnerability to the Hormuz closure:

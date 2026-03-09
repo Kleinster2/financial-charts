@@ -109,7 +109,7 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 | Factor | Status |
 |--------|--------|
-| Price | ~$70-75 Brent pre-crisis → **$92+ Brent, >$103 Dubai/Murban** (Mar 8) |
+| Price | ~$70-75 Brent pre-crisis → WTI >$100, Brent $92+ (Mar 9); Dubai/Murban >$103 (Mar 8) |
 | Supply | [[Strait of Hormuz]] effectively closed since Feb 28 — see crisis section below |
 | [[OPEC]]+ | Managing cuts; 206K bbl/day unwinding — inadequate vs disruption scale |
 | US shale | Disciplined, not flooding market |
