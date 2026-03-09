@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #saas #ai #private #ireland
 
-**Intercom** — AI-native customer service platform. $343M revenue (2024, +25% YoY), valued at $1.3B. Built around Fin, an AI agent resolving 1M+ support tickets per week at $0.99/resolution — approaching $100M ARR on its own. The thesis is simple: AI resolves most support tickets, humans handle the rest, and the per-resolution pricing model means Intercom gets paid for outcomes, not seats.
+**Intercom** — AI-native customer service platform. $343M revenue (2024, Sacra est., +25% YoY), valued at $1.3B. The company underwent a brutal transformation: founder Eoghan McCabe returned as CEO in Oct 2022, purged 40% of staff, killed the sprawling product strategy, and bet everything on Fin — an AI agent that now resolves 1M+ support tickets per week at $0.99/resolution, has crossed $100M+ ARR (growing at 393% annualized in Q1 FY26), and backs its resolution rates with a $1M performance guarantee. Q1 FY26 was the largest quarter by net new ARR in company history. McCabe claims Intercom is "on course to be the fastest growing large software company in the world in four quarters."
 
 ---
 
@@ -13,12 +13,16 @@ aliases: []
 |--------|-------|
 | Revenue (2024, Sacra est.) | $343M |
 | Growth | +25% YoY (reaccelerated from 10% in 2023) |
-| Valuation | $1.3B (last round 2018) |
-| Revenue multiple | ~4.3x |
-| Gross margin | ~80% (pre-AI; margin pressure from Claude API costs) |
+| Fin ARR | $100M+ (crossed ~Q3 2025; grew from $1M → $12M in first year, 393% annualized Q1 FY26) |
+| Q1 FY26 | Largest net new ARR quarter in company history |
+| Valuation | $1.3B (last round Mar 2018; stale) |
+| Revenue multiple | ~4.3x (vs public comps 6-8x) |
+| Gross margin | ~80% pre-AI; margin pressure from Claude API costs |
 | Cash | $129M (cash-flow positive since late 2023) |
-| Total funding | $240.8M |
-| HQ | San Francisco (founded in Dublin) |
+| Total funding | $240.75M across 7 rounds |
+| Employees | ~500-1,000 (after 40% turnover from restructuring) |
+| Active websites | 650,000+ |
+| HQ | San Francisco (founded in Dublin, Ireland) |
 | Founded | 2011 |
 | Status | Private |
 
@@ -26,14 +30,19 @@ aliases: []
 
 ## Leadership
 
-| Role | Name |
-|------|------|
-| CEO, Chairman, Co-founder | Eoghan McCabe |
-| CSO, Co-founder | Des Traynor |
-| Co-founder | Ciaran Lee |
-| Co-founder | David Barrett |
-| CFO | Dan Griggs |
-| CPO | L. David Kingsley |
+| Role | Name | Background |
+|------|------|------------|
+| CEO, Chairman, Co-founder | Eoghan McCabe | Stepped down Jul 2020 amid misconduct allegations; returned Oct 2022 replacing Karen Peacock |
+| President | Archana Agrawal | Joined Jan 2024; leads GTM (sales, marketing, CS, support); ex-CMO (prev. roles unclear) |
+| CSO, Co-founder | Des Traynor | Chief Strategy Officer |
+| Co-founder | Ciaran Lee | |
+| Co-founder | David Barrett | |
+| CFO | Dan Griggs | |
+| CPO | L. David Kingsley | |
+
+**McCabe's return and the "soft coup":** McCabe was CEO from founding until Jul 2020, when he stepped down after allegations of unwanted advances toward female staffers surfaced in 2019. Board conducted internal review, said they were "confident" in him, but he left anyway. Karen Peacock served as CEO 2020-2022. Under Peacock, the company went through five quarters of sequential ARR decline and was approaching zero net new ARR. McCabe returned Oct 2022, six weeks after ChatGPT launched. He described what followed as a deliberate cultural purge — eliminating a "very comfortable culture with a lot of focus on social issues, and a lot of complaining and dissatisfaction." Intercom "stepped back" from diversity initiatives including Pride in 2023. 40% of employees left or were pushed out. McCabe described a "soft coup" attempt by staff who opposed the changes. His philosophy: "Greatness is created when you find a CEO who's willing to make brave hard decisions and own the results."
+
+---
 
 ## Funding history
 
@@ -48,7 +57,7 @@ aliases: []
 | Series D | Mar 2018 | $125M | Kleiner Perkins | $1.275B |
 | **Total** | | **$240.75M** | | |
 
-No new funding since 2018 — 8 years self-funded. Cash-flow positive since late 2023 with $129M in cash.
+No new funding since 2018 — 8 years self-funded. Cash-flow positive since late 2023 with $129M cash. The stale $1.3B valuation at 4.3x revenue is well below public comps (Zendesk 6.6x, Freshworks 6.6x). A repricing at 6-8x on $343M revenue would put fair value at $2-2.7B.
 
 Investors: Kleiner Perkins, Social Capital, Bessemer Venture Partners, ICONIQ Growth, Index Ventures. Mary Meeker is a board observer.
 
@@ -56,19 +65,46 @@ Investors: Kleiner Perkins, Social Capital, Bessemer Venture Partners, ICONIQ Gr
 
 ## Product
 
-Intercom is a CRM with messaging and support applications layered on top. The core product embeds a JavaScript snippet into customer websites/apps to track visitors and enable real-time communication. The product stack:
+### Core platform
 
-- Fin AI Agent — resolves support tickets autonomously at $0.99/resolution. 66% average resolution rate across 6,000+ customers, 20%+ of customers exceeding 80% resolution
-- AI Copilot Assist — $29/seat/month, augments human agents
+Intercom is a CRM with messaging and support built on top. Embeds a JavaScript snippet into customer websites/apps to track visitors and enable real-time communication. 93% of customers use more than one product (average 2.5 products per paying customer).
+
 - Help desk — ticketing, inbox, routing
-- Messenger — in-app/website chat widget
+- Messenger — in-app/website chat widget (the ubiquitous bottom-right chat bubble on 650K+ websites)
 - Product Tours — $199/mo add-on
 - Surveys — $49/mo add-on
 - WhatsApp support — $9/seat/mo add-on
 
-Fin resolves 1M+ tickets per week — equivalent output of 6,500+ human agents. Fin 2 launched with proprietary customer experience models. Fin 3 announced at Pioneer 2025 conference (Oct 2025).
+### Fin AI Agent
 
-93% of customers use more than one Intercom product (average 2.5 products per paying customer).
+The product that changed the company's trajectory.
+
+| Metric | Value |
+|--------|-------|
+| ARR | $100M+ |
+| Growth | 393% annualized (Q1 FY26) |
+| Tickets resolved/week | 1M+ (equivalent of 6,500+ human agents) |
+| Avg resolution rate | 66% across 6,000+ customers |
+| Top-quartile resolution rate | 80%+ (20% of customers) |
+| Volume handled | 80%+ of customer queries |
+| Pricing | $0.99 per resolved conversation |
+| Performance guarantee | Up to $1M if resolution targets not met |
+| Businesses using Fin | 7,000+ |
+
+Fin trajectory: $1M → $12M ARR in first year. Crossed $100M ARR ~2.5 quarters into FY26. Now approaching ~30% of total Intercom revenue and growing 10-15x faster than the core platform.
+
+**Fin 3** launched at Pioneer 2025 (Oct 2025): omnichannel (chat, email, phone), Procedures for training, proprietary customer experience models. Vision: evolve from reactive support agent into a "unified Customer Agent" handling the entire customer lifecycle — proactive outreach, onboarding, retention, not just reactive support.
+
+**Fin for Platforms** — standalone SKU ($49/50 resolutions + $0.99/each) that plugs into [[Zendesk]] or [[Salesforce]] without switching help desks. Trojan horse strategy: land inside competitor accounts, prove value, then convert to full Intercom over time.
+
+### AI infrastructure
+
+- Fin runs on [[Anthropic|Claude]] under the hood + proprietary models
+- $100M+ committed to AI R&D and go-to-market
+- AI team scaled from <10 to 50+ researchers
+- Berlin R&D hub opened Jan 2026 (hiring 100 engineers/AI researchers/product staff)
+- Pre-AI gross margins ~80%; Claude API dependency creates margin pressure at scale
+- 13 head-to-head competitive evaluations won (per McCabe, Q1 FY26)
 
 ---
 
@@ -79,55 +115,78 @@ Fin resolves 1M+ tickets per week — equivalent output of 6,500+ human agents. 
 | Essential | $29/seat/mo | SMB |
 | Advanced | $85/seat/mo | Mid-market |
 | Expert | $132/seat/mo | Enterprise |
+| Fin AI Agent | $0.99/resolution | All tiers |
+| AI Copilot Assist | $29/seat/mo | Human agent augmentation |
 | Fin for Platforms | $49/50 resolutions + $0.99/each | Zendesk/Salesforce customers |
 
-The hybrid model — seat-based subscriptions + usage-based AI pricing — is the key strategic bet. Fin for Platforms lets Zendesk and Salesforce customers plug in Fin without switching help desks, expanding TAM beyond Intercom's install base.
+Hybrid model: seat-based subscriptions + outcome-based AI pricing. Enterprise bills can reach tens of thousands/month once seats, AI resolutions, and channels are factored in. SOC 2, HIPAA, GDPR compliant.
 
 ---
 
-## AI strategy
+## Growth history
 
-Intercom has gone all-in on AI-native customer service. $100M+ committed to AI development and go-to-market. AI team scaled from <10 to 50+ researchers. New R&D hub in Berlin (opened Jan 2026, hiring 100 engineers/AI researchers/product staff).
+| Period | Revenue/ARR | Growth | Context |
+|--------|-------------|--------|---------|
+| 2012-2015 | $1M → $50M ARR | Hypergrowth | Word-of-mouth, SEO content machine |
+| 2017 | ~$100M | — | Reached unicorn revenue |
+| 2020-2022 | Decelerating | 5 quarters sequential decline | Peacock era; approaching zero net new ARR |
+| 2023 | ~$274M (Sacra) | +10% | McCabe restructuring; Fin launched |
+| 2024 | ~$343M (Sacra) | +25% | Fin reacceleration |
+| Q1 FY26 | Record NNARR | — | Largest quarter ever |
 
-Fin runs on [[Anthropic|Claude]] under the hood, creating API cost exposure. Pre-AI gross margins were ~80%; the Claude dependency introduces margin pressure that Intercom needs to manage as Fin scales. The $0.99/resolution pricing has to cover both the AI inference cost and generate profit — at current resolution volumes (1M+/week), this is a meaningful cost line.
+Early growth was driven by content marketing (blog targeting SEO keywords from $1M-$50M ARR) and viral referral ("We run on Intercom" links in customer chatbots with dynamic keyword insertion landing pages).
 
 ---
 
 ## Competitive landscape
 
-| Competitor | Position | Intercom advantage |
-|------------|----------|--------------------|
-| [[Zendesk]] | ~170K customers, 30% market share | Slow AI adoption post-PE buyout ($10.2B, 2022); cost-cutting focus |
-| Freshworks (FRSH) | $3.7B market cap, 6.56x revenue | Less AI-native |
-| Salesforce Service Cloud | Enterprise dominant | Complex, expensive; Intercom targets mid-market/SMB |
-| AI-native startups | Sierra AI, Ada, etc. | Intercom has install base + full platform |
+| Competitor | Position | Notes |
+|------------|----------|-------|
+| [[Zendesk]] | ~170K customers, ~30% market share | Slow AI adoption post-PE buyout ($10.2B by Hellman & Friedman + Permira, 2022); cost-cutting > innovation |
+| Freshworks (FRSH) | $3.7B market cap, 6.56x revenue | Freddy AI, but less aggressive than Fin |
+| [[Salesforce]] Agentforce | Enterprise dominant | Complex, expensive; Agentforce launched 2025 |
+| Sierra AI | Bret Taylor (ex-Salesforce co-CEO) + Clay Bavor (ex-Google) | Enterprise-focused, branded AI agents |
+| Ada | AI-native, established enterprise player | Chat-first, custom quotes |
+| Forethought | AI for IT/HR/customer support | Triage + resolve |
 
-Intercom's positioning against Zendesk: "AI plus human customer service, all-in-one." The Fin for Platforms SKU is a Trojan horse — land inside Zendesk accounts, then convert to full Intercom over time.
+Intercom's positioning against Zendesk: "AI plus human customer service, all-in-one, and they're not about to have AI and they're not all-in-one" (McCabe). Zendesk's PE acquisition has been widely criticized for prioritizing cost cuts over product innovation — a gap Intercom is exploiting aggressively.
 
 ---
 
 ## Investment case
 
 Bull:
-- Fin approaching $100M ARR — fastest-growing AI revenue line in customer service
-- Usage-based pricing aligns revenue with AI adoption curve
-- 25% growth reacceleration from 10% trough
-- Cash-flow positive with $129M cash
-- Massive TAM if AI replaces majority of human support agents
-- 4.3x revenue multiple is cheap vs public comps (Zendesk 6.6x, Freshworks 6.6x)
+- Fin at $100M+ ARR growing 393% annualized — one of the fastest AI revenue lines in SaaS
+- Outcome-based pricing creates natural alignment: customers only pay when AI works
+- $1M performance guarantee signals confidence and reduces buyer friction
+- Q1 FY26 record NNARR — inflection point for the overall business
+- 4.3x revenue on $343M is cheap vs. 6-8x public comps — implies $2-2.7B fair value
+- Cash-flow positive, $129M cash, no need to raise at unfavorable terms
+- 650K+ active websites = distribution moat for Fin adoption
+- Fin for Platforms expands TAM into Zendesk's 170K customer base
 
 Bear:
-- $1.3B valuation from 2018 — likely needs repricing for IPO
-- Claude API dependency creates margin risk and single-vendor exposure
-- SMB/mid-market focus means higher churn
-- Zendesk has 170K customers and could accelerate AI
-- Fin resolution quality at scale still unproven for complex B2B scenarios
-- Private — limited visibility into actual financials
+- $1.3B valuation from 2018 — stale, but investors may demand markups for liquidity
+- Claude API dependency creates margin risk and single-vendor lock-in
+- McCabe's management style and history (misconduct allegations, 40% turnover, cultural purge) is a governance risk for institutional investors pre-IPO
+- SMB/mid-market focus = higher churn, smaller contracts
+- Zendesk could accelerate AI (170K customers is a massive moat if they execute)
+- Sierra AI has Bret Taylor — enterprise credibility Intercom lacks
+- $0.99/resolution economics unclear at scale — does Intercom make money after Claude API costs on each resolution?
+- Resolution quality unproven for complex B2B scenarios
+- Private — limited financial visibility; Sacra estimates, not audited numbers
 
 ---
 
 ## Related
 
-- [[Zendesk]] — competitor (dominant incumbent, slow AI adoption)
+- [[Zendesk]] — competitor (dominant incumbent, slow AI adoption post-PE)
 - [[Anthropic]] — supplier (Claude powers Fin AI agent)
-- [[Salesforce]] — competitor (Service Cloud, enterprise segment)
+- [[Salesforce]] — competitor (Service Cloud, Agentforce)
+- [[Kleiner Perkins]] — investor (led Series D)
+
+---
+
+*Sources: Sacra (Sep 2025), GTMnow/Archana Agrawal interview (Feb 2026), Lenny's Podcast/McCabe interview (Aug 2025), Business Post (Aug 2025), Forbes (Oct 2022), TechCrunch (Oct 2022), McCabe X/Twitter (Q1 FY26 board post), Intercom blog (Pioneer 2025)*
+
+*Updated 2026-03-09*
