@@ -332,6 +332,36 @@ INSERT INTO segment_quarterly VALUES
 
 ---
 
+## Waterfall Chart (Income Statement)
+
+Generate an income statement waterfall showing Revenue → Gross Profit → Operating Income → Net Income.
+
+```bash
+# Basic waterfall (latest annual)
+curl "http://localhost:5000/api/chart/waterfall?ticker=ORCL" -o investing/attachments/orcl-waterfall.png
+
+# Specific fiscal year
+curl "http://localhost:5000/api/chart/waterfall?ticker=AAPL&date=2025-09-30" -o investing/attachments/aapl-waterfall.png
+
+# Quarterly
+curl "http://localhost:5000/api/chart/waterfall?ticker=MSFT&period=quarterly" -o investing/attachments/msft-waterfall-q.png
+```
+
+**Parameters:**
+| Param | Required | Default | Description |
+|-------|----------|---------|-------------|
+| `ticker` | Yes | — | Stock ticker |
+| `period` | No | `annual` | `annual` or `quarterly` |
+| `date` | No | latest | Specific `fiscal_date_ending` |
+| `width` | No | 12 | Image width (inches) |
+| `height` | No | 7 | Image height (inches) |
+
+**Shows:** Revenue (blue), COGS (red), Gross Profit (teal), OpEx (red), Operating Income (teal), Tax & Other (red), Net Income (blue). Margin summary at bottom.
+
+**Data source:** `income_statement_annual` / `income_statement_quarterly` tables. Run `fetch_fundamentals.py TICKER` first if data is missing.
+
+---
+
 ## Known limitations
 
 ### LW Charts dual-axis log mode is broken

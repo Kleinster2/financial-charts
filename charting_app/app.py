@@ -56,6 +56,7 @@ _blueprints = [
     ('content_routes', 'content_bp', 'Content'),
     ('portfolio_routes', 'portfolio_bp', 'Portfolio'),
     ('thesis_routes', 'thesis_bp', 'Thesis'),
+    ('waterfall_routes', 'waterfall_bp', 'Waterfall'),
 ]
 
 for module_name, bp_name, label in _blueprints:
