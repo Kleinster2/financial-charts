@@ -310,6 +310,26 @@ Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of la
 
 ---
 
+## LTM financials (through Aug 2025)
+
+| Line item | Value | % of revenue |
+|-----------|-------|-------------|
+| **Revenue** | **$61.0B** | |
+| Cloud & License | $50.7B | 83% |
+| Hardware | $3.0B | 5% |
+| Services | $5.3B | 9% |
+| COGS | $19.2B | 31% |
+| **Gross profit** | **$41.8B** | **68.5%** |
+| R&D | $10.8B | 18% |
+| SG&A | $10.3B | 17% |
+| **Operating profit** | **$19.4B** | **31.8%** |
+| Income tax | $1.9B | ~10% eff. rate |
+| **Net profit** | **$15.4B** | **25.2%** |
+
+*~$2.1B gap between operating and pre-tax profit — likely interest expense on ~$133B debt. Source: Investing.com LTM Sankey, periods 2024-11 to 2025-08/11.*
+
+---
+
 ## Debt profile
 
 ~$133B pro forma face value (Feb 2026) — **largest non-financial IG issuer**. Rated BBB/Baa2 with negative outlooks (two notches above junk). $57B issued in 18 months (Sep 2024-Feb 2026) for AI infrastructure. Cash-flow negative at operating/capex level. See [[Oracle bonds]] for full inventory.
