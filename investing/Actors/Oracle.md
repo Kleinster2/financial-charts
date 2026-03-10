@@ -330,7 +330,7 @@ Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of la
 | Mar 2026 | [[Baird]] | Outperform | $200 | Cut from $300 pre-Q3 |
 | Mar 2026 | [[Scotiabank]] | Sector Outperform | $215 | Cut from $220 pre-Q3 |
 | Mar 2026 | [[TD Cowen]] | Buy | $250 | Cut from $350 pre-Q3 |
-| Mar 2026 | [[Jefferies]] | — | — | Sell-off "overdone," Oracle opportunities beyond OpenAI undervalued |
+| Mar 2026 | [[Jefferies]] (Brad Thill) | — | — | Sell-off "overdone," Oracle opportunities beyond OpenAI undervalued. OCI consensus ~86% growth (accel from Q2's 68%) |
 
 ---
 
