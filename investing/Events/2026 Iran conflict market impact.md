@@ -335,6 +335,8 @@ Russell 2000 -2.39% again leading declines — small caps most exposed to domest
 | Strait of Hormuz traffic | Normal (~100 ships/day) | Near zero (~700 idle) | **-86%** |
 | Qatar LNG | Operating | Force majeure, Ras Laffan shut | Offline for weeks |
 
+[[Robin J. Brooks]] (Brookings, former IIF) published AIS vessel tracking data (March 8-9) showing the blockade's structural persistence: even with Iran's navy destroyed, the asymmetric cost is the problem — "it doesn't take much more than a few drones to blow up an oil tanker." One successful hit freezes all traffic. US insurance and naval escorts insufficient to restore normal flow. Brooks' key comparison: Russia's 2022 invasion caused a 32% Brent rise in the first 10 days, and Hormuz is approximately **3x as important** for global oil as Russia — implying the risk premium has further room to build.
+
 [[Morgan Stanley]] raised oil price forecasts. Market consensus shifting from *if* oil hits $100 to *when*. The Kavonic ([[MST Financial]]) trigger: if Hormuz blocked 2+ weeks, 250M+ barrels stranded, $100 breaks. Trump ruling out negotiations removes the diplomatic off-ramp that briefly depressed oil on Day 5.
 
 ### Bond market
@@ -363,6 +365,13 @@ Wall Street's worst week since October marks the transition from "short war, buy
 
 ### Cross-vault
 - [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — military timeline, casualties, diplomatic responses
+
+---
+
+## Sources
+
+- Robin J. Brooks: [The Blockade of the Straits of Hormuz](https://robinjbrooks.substack.com/p/the-blockade-of-the-straits-of-hormuz) (March 9, 2026)
+- Robin J. Brooks: [Oil Tanker Traffic in the Straits of Hormuz](https://robinjbrooks.substack.com/p/oil-tanker-traffic-in-the-straits) (March 8, 2026)
 
 ---
 

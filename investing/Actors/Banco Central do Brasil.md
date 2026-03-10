@@ -153,6 +153,18 @@ See [[Time consistency#Brazil 2011-2016 — Dilma Rousseff]]
 
 ---
 
+## Oil shock complicates rate path (March 2026)
+
+The [[2026 Iran conflict market impact|Iran conflict]] introduced a new variable into COPOM's calculus. Brent breaching $100 on the [[Strait of Hormuz]] closure — with a >$20 intraday swing on Mar 10 driven by a single Trump comment — makes any inflation projection unreliable.
+
+**Market pulled back bets on a 50bp [[Selic]] cut** at the next COPOM meeting. BCB is already in cautious mode (holding at 15% since Jul 2025); oil volatility adds upside inflation risk.
+
+The bind: if [[Petrobras]] passes through oil prices → inflation accelerates → BCB holds or hikes → fiscal gains from oil windfall are offset by higher debt service. If Petrobras absorbs → inflation is muted → BCB can cut → but Petrobras hemorrhages and the private fuel market disorganizes.
+
+Government faces a choice: fight [[Petrobras]] (on pricing) or fight the BCB (on rates). See [[Brazil oil shock trilemma March 2026]].
+
+---
+
 ## Current challenges (Jan 2026)
 
 | Challenge | Detail |

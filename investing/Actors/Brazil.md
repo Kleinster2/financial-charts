@@ -178,6 +178,14 @@ See **[[Brazil Import Protectionism]]** for full analysis.
 
 ---
 
+## Oil shock trilemma (March 2026)
+
+The [[2026 Iran conflict market impact|Iran conflict]] and [[Strait of Hormuz]] closure created a three-way conundrum: a R$55B fiscal windfall ([[BTG Pactual]] estimate at BRL 5.20/USD, Brent $100) that could zero the primary deficit, an inflation shock from fuel pass-through threatening [[Selic]] cuts, and a [[Petrobras]] pricing decision that pits electoral politics against market function. [[Sidônio Palmeira]] (Secom) emerging as de facto policy arbiter. Diesel defasagem already massive. Market pulled back on 50bp cut expectations for next COPOM.
+
+See [[Brazil oil shock trilemma March 2026]] for full analysis.
+
+---
+
 ## Risks
 
 | Risk | Impact |
