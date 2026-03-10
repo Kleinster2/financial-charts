@@ -31,9 +31,13 @@
             const revenue = nodes.find(n => n.id === 'revenue').value;
             const scale = H / revenue;  // pixels per dollar
 
-            // Column x positions (4 stages)
+            // Column x positions — dynamic based on max col
             const nodeW = 40;
-            const cols = [0, W * 0.33, W * 0.66, W];
+            const maxCol = Math.max(...nodes.map(n => n.col));
+            const cols = [];
+            for (let i = 0; i <= maxCol; i++) {
+                cols.push(W * (i / maxCol));
+            }
             const colMap = {};
             nodes.forEach(n => { colMap[n.id] = n.col; });
 
@@ -48,45 +52,47 @@
                 byCol[n.col].push(n);
             });
 
-            // For each column, position nodes
-            Object.keys(byCol).forEach(col => {
-                const c = parseInt(col);
+            // Position nodes column by column, left to right
+            const sortedCols = Object.keys(byCol).map(Number).sort((a, b) => a - b);
+
+            sortedCols.forEach(c => {
                 const colNodes = byCol[c];
                 const x = cols[c];
-
-                // Sort: profit nodes first (bottom), then costs (top)
-                const profits = colNodes.filter(n => n.nodeType !== 'cost');
-                const costs = colNodes.filter(n => n.nodeType === 'cost');
-
-                // Calculate total height needed
                 const gap = 12;
-                let totalH = 0;
-                colNodes.forEach(n => { totalH += n.value * scale; });
-                totalH += (colNodes.length - 1) * gap;
 
-                // Center vertically — but align profit nodes to where the flow goes
-                // Revenue column: single node centered
+                // Sort: costs first (top), then profit nodes (bottom)
+                const costs = colNodes.filter(n => n.nodeType === 'cost');
+                const profits = colNodes.filter(n => n.nodeType !== 'cost');
+                const ordered = [...costs, ...profits];
+
                 if (c === 0) {
-                    const n = colNodes[0];
-                    const h = n.value * scale;
-                    const y = (H - h) / 2;
-                    positioned[n.id] = { x, y, w: nodeW, h, ...n };
-                } else {
-                    // Stack: costs on top, profit on bottom
-                    // Start from where revenue starts and allocate space proportionally
-                    const revPos = positioned['revenue'];
-                    const revTop = revPos.y;
+                    // First column: center all nodes vertically
+                    let totalH = 0;
+                    ordered.forEach(n => { totalH += n.value * scale; });
+                    totalH += (ordered.length - 1) * gap;
 
-                    // Costs stack from the top of revenue
-                    let yc = revTop;
-                    costs.forEach(n => {
+                    let y = (H - totalH) / 2;
+                    ordered.forEach(n => {
                         const h = n.value * scale;
-                        positioned[n.id] = { x, y: yc, w: nodeW, h, ...n };
-                        yc += h + gap;
+                        positioned[n.id] = { x, y, w: nodeW, h, ...n };
+                        y += h + gap;
                     });
+                } else {
+                    // Find the parent node to align against
+                    // Use the first positioned source that feeds into this column
+                    let refY = 0;
+                    // Look for the main flow node from previous column
+                    const prevProfits = sortedCols.filter(pc => pc < c)
+                        .flatMap(pc => (byCol[pc] || []))
+                        .filter(n => n.nodeType !== 'cost' && positioned[n.id]);
 
-                    // Profit node sits below costs
-                    profits.forEach(n => {
+                    if (prevProfits.length > 0) {
+                        // Align to the top of the first positioned profit node from prev columns
+                        refY = Math.min(...prevProfits.map(n => positioned[n.id].y));
+                    }
+
+                    let yc = refY;
+                    ordered.forEach(n => {
                         const h = n.value * scale;
                         positioned[n.id] = { x, y: yc, w: nodeW, h, ...n };
                         yc += h + gap;
@@ -183,7 +189,14 @@
             window.chartReady = true;
         }
 
-        if (window.SANKEY_CONFIG) render(window.SANKEY_CONFIG);
+        if (window.SANKEY_CONFIG) {
+            try {
+                render(window.SANKEY_CONFIG);
+            } catch(e) {
+                document.body.innerHTML = '<pre style="color:red">' + e.message + '\n' + e.stack + '</pre>';
+                window.chartReady = true;
+            }
+        }
     </script>
 </body>
 </html>

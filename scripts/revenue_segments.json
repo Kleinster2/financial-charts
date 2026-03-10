@@ -1,0 +1,99 @@
+{
+  "_comment": "Revenue segment data for Sankey charts. Source: 10-K filings. Manual + EDGAR-assisted.",
+  "AAPL": {
+    "fiscal_date": "2025-09-27",
+    "total_revenue": 416161000000,
+    "segments": [
+      {"name": "iPhone", "value": 209560000000},
+      {"name": "Services", "value": 109186000000},
+      {"name": "Mac", "value": 35744000000},
+      {"name": "iPad", "value": 33671000000},
+      {"name": "Wearables & Home", "value": 28000000000}
+    ]
+  },
+  "ORCL": {
+    "fiscal_date": "2025-05-31",
+    "total_revenue": 57399000000,
+    "segments": [
+      {"name": "Cloud Services & License Support", "value": 44023000000},
+      {"name": "Cloud License & On-Premise License", "value": 5196000000},
+      {"name": "Hardware", "value": 2874000000},
+      {"name": "Services", "value": 5306000000}
+    ]
+  },
+  "NVDA": {
+    "fiscal_date": "2026-01-25",
+    "total_revenue": 215938000000,
+    "segments": [
+      {"name": "Data Center", "value": 193481000000},
+      {"name": "Gaming", "value": 16509000000},
+      {"name": "Professional Visualization", "value": 2511000000},
+      {"name": "Automotive", "value": 2748000000},
+      {"name": "OEM & Other", "value": 689000000}
+    ]
+  },
+  "AMZN": {
+    "fiscal_date": "2025-12-31",
+    "total_revenue": 716924000000,
+    "segments": [
+      {"name": "Online Stores", "value": 269306000000},
+      {"name": "Third-Party Seller Services", "value": 161875000000},
+      {"name": "AWS", "value": 107502000000},
+      {"name": "Advertising", "value": 68632000000},
+      {"name": "Subscription Services", "value": 45884000000},
+      {"name": "Physical Stores", "value": 22586000000},
+      {"name": "Other", "value": 5939000000}
+    ]
+  },
+  "MSFT": {
+    "fiscal_date": "2025-06-30",
+    "total_revenue": 281749000000,
+    "segments": [
+      {"name": "Intelligent Cloud", "value": 114070000000},
+      {"name": "Productivity & Business Processes", "value": 91906000000},
+      {"name": "More Personal Computing", "value": 75773000000}
+    ]
+  },
+  "GOOG": {
+    "fiscal_date": "2024-12-31",
+    "total_revenue": 350018000000,
+    "segments": [
+      {"name": "Google Search & Other", "value": 198117000000},
+      {"name": "YouTube Ads", "value": 36144000000},
+      {"name": "Google Network", "value": 7933000000},
+      {"name": "Google Cloud", "value": 43232000000},
+      {"name": "Google Subscriptions & Devices", "value": 42279000000},
+      {"name": "Other Bets", "value": 1615000000},
+      {"name": "Hedging Gains", "value": 698000000}
+    ]
+  },
+  "META": {
+    "fiscal_date": "2024-12-31",
+    "total_revenue": 164503000000,
+    "segments": [
+      {"name": "Family of Apps", "value": 162366000000},
+      {"name": "Reality Labs", "value": 2137000000}
+    ]
+  },
+  "TSLA": {
+    "fiscal_date": "2024-12-31",
+    "total_revenue": 97690000000,
+    "segments": [
+      {"name": "Automotive Sales", "value": 71735000000},
+      {"name": "Automotive Regulatory Credits", "value": 2795000000},
+      {"name": "Energy Generation & Storage", "value": 10380000000},
+      {"name": "Services & Other", "value": 10810000000},
+      {"name": "Automotive Leasing", "value": 1970000000}
+    ]
+  },
+  "NFLX": {
+    "fiscal_date": "2024-12-31",
+    "total_revenue": 39000000000,
+    "segments": [
+      {"name": "UCAN", "value": 16378000000},
+      {"name": "EMEA", "value": 12891000000},
+      {"name": "LATAM", "value": 4817000000},
+      {"name": "APAC", "value": 4914000000}
+    ]
+  }
+}

@@ -94,40 +94,63 @@ def get_sankey_chart():
         total_below = operating_income - net_income
         other_below = max(0, total_below - interest - tax) if has_below_detail else total_below
 
+        # Load revenue segments if available
+        segments_path = os.path.join(os.path.dirname(basedir), 'scripts', 'revenue_segments.json')
+        segments = None
+        if os.path.exists(segments_path):
+            with open(segments_path, 'r') as f:
+                all_segments = json.load(f)
+            if ticker in all_segments:
+                segments = all_segments[ticker].get('segments', None)
+
         # Build nodes with column assignments
-        # Col 0: Revenue
-        # Col 1: COGS, Gross Profit
-        # Col 2: OpEx items, Operating Income
-        # Col 3: Below-line items, Net Income
-        nodes = [
-            {'id': 'revenue', 'name': 'Revenue', 'value': revenue, 'nodeType': 'revenue', 'col': 0},
-            {'id': 'cogs', 'name': 'COGS', 'value': cogs, 'nodeType': 'cost', 'col': 1},
-            {'id': 'gross', 'name': 'Gross Profit', 'value': gross_profit, 'nodeType': 'gross', 'col': 1},
-        ]
+        # If segments: Col 0: Segments -> Col 1: Revenue (aggregator) -> Col 2: COGS, Gross Profit
+        # If no segments: Col 0: Revenue -> Col 1: COGS, Gross Profit
+        # Shift all downstream columns accordingly
+        col_offset = 1 if segments else 0
+
+        nodes = []
+        links = []
+
+        if segments:
+            # Revenue segments feed into a total Revenue node
+            for i, seg in enumerate(segments):
+                seg_id = f'seg_{i}'
+                nodes.append({'id': seg_id, 'name': seg['name'], 'value': seg['value'], 'nodeType': 'revenue', 'col': 0})
+                links.append({'source': seg_id, 'target': 'revenue', 'value': seg['value'], 'type': 'profit'})
+
+            nodes.append({'id': 'revenue', 'name': 'Revenue', 'value': revenue, 'nodeType': 'revenue', 'col': 1})
+        else:
+            nodes.append({'id': 'revenue', 'name': 'Revenue', 'value': revenue, 'nodeType': 'revenue', 'col': 0})
+
+        nodes.extend([
+            {'id': 'cogs', 'name': 'COGS', 'value': cogs, 'nodeType': 'cost', 'col': 1 + col_offset},
+            {'id': 'gross', 'name': 'Gross Profit', 'value': gross_profit, 'nodeType': 'gross', 'col': 1 + col_offset},
+        ])
 
         # Links: ORDER MATTERS — costs first, then profit (so costs stack on top in the ribbon layout)
-        links = [
+        links.extend([
             {'source': 'revenue', 'target': 'cogs', 'value': cogs, 'type': 'cost'},
             {'source': 'revenue', 'target': 'gross', 'value': gross_profit, 'type': 'profit'},
-        ]
+        ])
 
         # Column 2: OpEx breakdown
         if has_opex_detail:
             if rd > 0:
-                nodes.append({'id': 'rd', 'name': 'R&D', 'value': rd, 'nodeType': 'cost', 'col': 2})
+                nodes.append({'id': 'rd', 'name': 'R&D', 'value': rd, 'nodeType': 'cost', 'col': 2 + col_offset})
                 links.append({'source': 'gross', 'target': 'rd', 'value': rd, 'type': 'cost'})
             if sga > 0:
-                nodes.append({'id': 'sga', 'name': 'SG&A', 'value': sga, 'nodeType': 'cost', 'col': 2})
+                nodes.append({'id': 'sga', 'name': 'SG&A', 'value': sga, 'nodeType': 'cost', 'col': 2 + col_offset})
                 links.append({'source': 'gross', 'target': 'sga', 'value': sga, 'type': 'cost'})
             if other_opex > revenue * 0.005:
-                nodes.append({'id': 'other_opex', 'name': 'Other OpEx', 'value': other_opex, 'nodeType': 'cost', 'col': 2})
+                nodes.append({'id': 'other_opex', 'name': 'Other OpEx', 'value': other_opex, 'nodeType': 'cost', 'col': 2 + col_offset})
                 links.append({'source': 'gross', 'target': 'other_opex', 'value': other_opex, 'type': 'cost'})
         else:
             if total_opex > 0:
-                nodes.append({'id': 'opex', 'name': 'OpEx', 'value': total_opex, 'nodeType': 'cost', 'col': 2})
+                nodes.append({'id': 'opex', 'name': 'OpEx', 'value': total_opex, 'nodeType': 'cost', 'col': 2 + col_offset})
                 links.append({'source': 'gross', 'target': 'opex', 'value': total_opex, 'type': 'cost'})
 
-        nodes.append({'id': 'operating', 'name': 'Operating Income', 'value': operating_income, 'nodeType': 'operating', 'col': 2})
+        nodes.append({'id': 'operating', 'name': 'Operating Income', 'value': operating_income, 'nodeType': 'operating', 'col': 2 + col_offset})
         links.append({'source': 'gross', 'target': 'operating', 'value': operating_income, 'type': 'profit'})
 
         # Column 3: Below-the-line
@@ -139,39 +162,33 @@ def get_sankey_chart():
 
         if has_below_detail:
             if interest > 0:
-                nodes.append({'id': 'interest', 'name': 'Interest', 'value': interest, 'nodeType': 'cost', 'col': 3})
+                nodes.append({'id': 'interest', 'name': 'Interest', 'value': interest, 'nodeType': 'cost', 'col': 3 + col_offset})
                 links.append({'source': 'operating', 'target': 'interest', 'value': interest, 'type': 'cost'})
             if tax > 0:
-                nodes.append({'id': 'tax', 'name': 'Tax', 'value': tax, 'nodeType': 'cost', 'col': 3})
+                nodes.append({'id': 'tax', 'name': 'Tax', 'value': tax, 'nodeType': 'cost', 'col': 3 + col_offset})
                 links.append({'source': 'operating', 'target': 'tax', 'value': tax, 'type': 'cost'})
 
             # If there's significant non-operating income, add it as an inflow to net income
             if non_op_income > revenue * 0.005:
-                nodes.append({'id': 'other_income', 'name': 'Other Income', 'value': non_op_income, 'nodeType': 'gross', 'col': 2})
+                nodes.append({'id': 'other_income', 'name': 'Other Income', 'value': non_op_income, 'nodeType': 'gross', 'col': 2 + col_offset})
                 links.append({'source': 'other_income', 'target': 'net', 'value': non_op_income, 'type': 'profit'})
-                # Operating income only flows its share to net (after costs)
                 op_to_net = operating_income - interest - tax
-                if op_to_net > 0:
-                    nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3})
-                    links.append({'source': 'operating', 'target': 'net', 'value': op_to_net, 'type': 'net'})
-                else:
-                    nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3})
-                    links.append({'source': 'operating', 'target': 'net', 'value': max(0, operating_income - interest - tax), 'type': 'net'})
+                nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3 + col_offset})
+                links.append({'source': 'operating', 'target': 'net', 'value': max(0, op_to_net), 'type': 'net'})
             else:
-                # Other below-the-line costs (when no non-op income)
                 actual_other = max(0, operating_income - interest - tax - net_income)
                 if actual_other > revenue * 0.005:
-                    nodes.append({'id': 'other_below', 'name': 'Other', 'value': actual_other, 'nodeType': 'cost', 'col': 3})
+                    nodes.append({'id': 'other_below', 'name': 'Other', 'value': actual_other, 'nodeType': 'cost', 'col': 3 + col_offset})
                     links.append({'source': 'operating', 'target': 'other_below', 'value': actual_other, 'type': 'cost'})
 
-                nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3})
+                nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3 + col_offset})
                 links.append({'source': 'operating', 'target': 'net', 'value': net_income, 'type': 'net'})
         else:
             if total_below > 0:
-                nodes.append({'id': 'below', 'name': 'Tax & Other', 'value': total_below, 'nodeType': 'cost', 'col': 3})
+                nodes.append({'id': 'below', 'name': 'Tax & Other', 'value': total_below, 'nodeType': 'cost', 'col': 3 + col_offset})
                 links.append({'source': 'operating', 'target': 'below', 'value': total_below, 'type': 'cost'})
 
-            nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3})
+            nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3 + col_offset})
             links.append({'source': 'operating', 'target': 'net', 'value': net_income, 'type': 'net'})
 
         # Margins
@@ -200,8 +217,8 @@ def get_sankey_chart():
         # Inject config
         config_json = json.dumps(config)
         html = html_template.replace(
-            'if (window.SANKEY_CONFIG) render(window.SANKEY_CONFIG);',
-            f'window.SANKEY_CONFIG = {config_json}; render(window.SANKEY_CONFIG);'
+            'if (window.SANKEY_CONFIG)',
+            f'window.SANKEY_CONFIG = {config_json}; if (window.SANKEY_CONFIG)'
         )
 
         # Render with Playwright
