@@ -3,7 +3,17 @@ aliases: [Nexperia BV]
 ---
 #actor #semiconductor #netherlands #china
 
-**Nexperia** — Dutch semiconductor company specializing in high-volume discrete components, logic, and MOSFETs. Owned by [[China]]'s Wingtech until Dutch government seizure in 2025.
+**Nexperia** — Dutch semiconductor company specializing in high-volume discrete components, logic, and MOSFETs. Owned by [[China]]'s [[Wingtech]] until Dutch government seizure in 2025.
+
+---
+
+## Synopsis
+
+Nexperia makes the unglamorous chips that make cars work — diodes, transistors, MOSFETs, ESD protection. High-volume, low-margin, ~$2B revenue, ~15,000 employees. The lineage is pure European semiconductor: [[Philips]] → [[NXP]] (2006 spinoff) → Nexperia (2017 spinoff) → acquired by [[China]]'s [[Wingtech]] for $3.6B in 2018. That Chinese ownership became the problem.
+
+When [[Wingtech]] landed on the US Entity List in December 2024, the Dutch government faced a choice: let a blacklisted Chinese company control a critical automotive chip supplier, or act. In October 2025, the Netherlands invoked a 1952 Cold War-era emergency law (Goods Availability Act) to seize Nexperia — the first Western nationalization of a Chinese semiconductor asset. [[China]] retaliated immediately with export controls on Nexperia's Chinese operations, triggering a global auto chip shortage that took weeks of diplomacy to ease.
+
+The corporate aftermath is a slow-motion civil war. Nexperia's Chinese subsidiary declared independence from Dutch HQ in September 2025. Both entities trade accusations of bad faith. Dutch HQ suspended wafer supply to the Chinese assembly plant and, in March 2026, disabled IT accounts for all Chinese employees. Beijing's commerce ministry warned of a renewed global chip crisis. Mediation from Beijing, [[The Hague]], and Brussels has gone nowhere. The Amsterdam court transferred [[Wingtech]]'s shares to a Dutch lawyer, and Beijing considers this theft. There is no resolution path visible — the dispute is structural, not negotiable.
 
 ---
 
