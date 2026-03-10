@@ -286,6 +286,9 @@ Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of la
 ![[orcl-seasonality-mar2026.png]]
 *Seasonality: March closes +3.2% in 80% of years since 2022. April closes -4.2% in 50% of years.*
 
+![[orcl-analyst-ratings-detail-mar2026.png]]
+*Individual analyst ratings table, Jan-Mar 2026. Range $155-$400.*
+
 *Source: Investing.com (Ali Merchant/TwT Learnings), Mar 10, 2026*
 
 ### Options positioning
