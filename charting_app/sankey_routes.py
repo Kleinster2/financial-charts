@@ -97,11 +97,45 @@ def get_sankey_chart():
         # Load revenue segments if available
         segments_path = os.path.join(os.path.dirname(basedir), 'scripts', 'revenue_segments.json')
         segments = None
+        seg_fiscal_date = None
         if os.path.exists(segments_path):
             with open(segments_path, 'r') as f:
                 all_segments = json.load(f)
             if ticker in all_segments:
-                segments = all_segments[ticker].get('segments', None)
+                seg_entry = all_segments[ticker]
+                segments = seg_entry.get('segments', None)
+                seg_fiscal_date = seg_entry.get('fiscal_date', None)
+
+        # If segments exist and their fiscal_date differs from the DB row,
+        # re-query to get the matching fiscal year so flows balance.
+        if segments and seg_fiscal_date and seg_fiscal_date != fiscal_date and not date_param:
+            conn2 = get_db_connection()
+            df2 = pd.read_sql(
+                f"SELECT {cols} FROM {table} WHERE ticker = ? AND fiscal_date_ending = ? LIMIT 1",
+                conn2, params=(ticker, seg_fiscal_date))
+            conn2.close()
+            if not df2.empty:
+                row = df2.iloc[0]
+                fiscal_date = row['fiscal_date_ending']
+                revenue = _val('total_revenue')
+                cogs = _val('cost_of_revenue')
+                gross_profit = _val('gross_profit')
+                operating_income = _val('operating_income')
+                net_income = _val('net_income')
+                rd = _val('research_and_development')
+                sga = _val('selling_general_administrative')
+                interest = _val('interest_expense')
+                tax = _val('income_tax_expense')
+
+                if gross_profit == 0 and revenue > 0 and cogs > 0:
+                    gross_profit = revenue - cogs
+
+                has_opex_detail = rd > 0 or sga > 0
+                has_below_detail = interest > 0 or tax > 0
+                total_opex = gross_profit - operating_income
+                other_opex = max(0, total_opex - rd - sga) if has_opex_detail else total_opex
+                total_below = operating_income - net_income
+                other_below = max(0, total_below - interest - tax) if has_below_detail else total_below
 
         # Build nodes with column assignments
         # If segments: Col 0: Segments -> Col 1: Revenue (aggregator) -> Col 2: COGS, Gross Profit

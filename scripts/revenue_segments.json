@@ -65,32 +65,30 @@
     ]
   },
   "META": {
-    "fiscal_date": "2024-12-31",
-    "total_revenue": 164503000000,
+    "fiscal_date": "2025-12-31",
+    "total_revenue": 200966000000,
     "segments": [
-      {"name": "Family of Apps", "value": 162366000000},
-      {"name": "Reality Labs", "value": 2137000000}
+      {"name": "Family of Apps", "value": 198759000000},
+      {"name": "Reality Labs", "value": 2207000000}
     ]
   },
   "TSLA": {
-    "fiscal_date": "2024-12-31",
-    "total_revenue": 97690000000,
+    "fiscal_date": "2025-12-31",
+    "total_revenue": 94827000000,
     "segments": [
-      {"name": "Automotive Sales", "value": 71735000000},
-      {"name": "Automotive Regulatory Credits", "value": 2795000000},
-      {"name": "Energy Generation & Storage", "value": 10380000000},
-      {"name": "Services & Other", "value": 10810000000},
-      {"name": "Automotive Leasing", "value": 1970000000}
+      {"name": "Automotive", "value": 69526000000},
+      {"name": "Energy Generation & Storage", "value": 12771000000},
+      {"name": "Services & Other", "value": 12530000000}
     ]
   },
   "NFLX": {
-    "fiscal_date": "2024-12-31",
-    "total_revenue": 39000000000,
+    "fiscal_date": "2025-12-31",
+    "total_revenue": 45184000000,
     "segments": [
-      {"name": "UCAN", "value": 16378000000},
-      {"name": "EMEA", "value": 12891000000},
-      {"name": "LATAM", "value": 4817000000},
-      {"name": "APAC", "value": 4914000000}
+      {"name": "UCAN", "value": 19957000000},
+      {"name": "EMEA", "value": 14515000000},
+      {"name": "LATAM", "value": 5358000000},
+      {"name": "APAC", "value": 5354000000}
     ]
   }
 }
