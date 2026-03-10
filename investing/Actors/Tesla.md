@@ -24,6 +24,10 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ![[tsla-fundamentals.png]]
 
+![[tsla-sankey.png]]
+*FY2025 income statement Sankey: $94.8B revenue, 4.0% net margin. Gross: 18.0%, Operating: 4.6%.*
+
+
 ---
 
 

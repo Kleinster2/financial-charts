@@ -62,6 +62,10 @@ Google is the most vertically integrated AI hyperscaler:
 ![[goog-fundamentals.png]]
 *Q4 2017 net income excluded (–$3B TCJA repatriation tax charge). Dashed line = consensus estimates (Yahoo Finance, Feb 2026). Q3-Q4 2026 implied from FY using FY25 H2 weights; 2027 quarters from uniform 14.8% growth on 2026 base.*
 
+![[goog-sankey.png]]
+*FY2025 income statement Sankey: $403.0B revenue, 32.8% net margin. Gross: 59.7%, Operating: 32.1%.*
+
+
 | Quarter | Revenue | Net Income |
 |---------|---------|------------|
 | Q1 2023 | $69.8B | $15.1B |

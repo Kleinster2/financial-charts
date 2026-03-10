@@ -90,6 +90,9 @@ NVIDIA's moat isn't just GPUs — it's [[CUDA moat|CUDA]], the software ecosyste
 
 ![[nvda-fundamentals.png]]
 
+![[nvda-sankey.png]]
+*FY2026 income statement Sankey: $215.9B revenue, 55.6% net margin. Gross: 71.1%, Operating: 60.4%.*
+
 ---
 
 

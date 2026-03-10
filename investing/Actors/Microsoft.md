@@ -51,6 +51,9 @@ Microsoft is the largest AI infrastructure spender. OpenAI partnership makes the
 
 ![[msft-fundamentals.png]]
 
+![[msft-sankey.png]]
+*FY2025 income statement Sankey: $281.7B revenue, 36.1% net margin. Gross: 68.8%, Operating: 45.6%.*
+
 *Q2 FY26 net income spike ($38.5B) includes $7.6B OpenAI mark-to-market gain. Historical gaps exclude [[Nokia]] write-down (Jul 2015) and [[Tax Cuts and Jobs Act]] transition tax (Dec 2017).*
 
 ---

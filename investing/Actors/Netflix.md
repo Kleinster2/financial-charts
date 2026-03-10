@@ -133,6 +133,10 @@ He didn't use a single minute of the 4-day matching window. Either the decision 
 
 ![[nflx-fundamentals.png]]
 
+![[nflx-sankey.png]]
+*FY2025 income statement Sankey: $45.2B revenue, 24.3% net margin. Gross: 48.5%, Operating: 29.5%.*
+
+
 *Q1 2012 loss (-$5M) excluded from chart — Qwikster debacle aftermath.*
 
 ---

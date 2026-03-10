@@ -46,6 +46,10 @@ Jassy promoted from AWS CEO when Bezos stepped back. New "shadow" advisor: Dharm
 ![[amzn-fundamentals.png]]
 *AMZN revenue and net income*
 
+![[amzn-sankey.png]]
+*FY2025 income statement Sankey: $716.9B revenue, 10.8% net margin. Gross: 50.3%, Operating: 11.2%.*
+
+
 ---
 
 

@@ -32,6 +32,10 @@ Superintelligence Labs co-heads: Alexandr Wang ([[Scale AI]]), [[Nat Friedman]],
 ![[meta-fundamentals.png]]
 *Dashed line = consensus estimates (Yahoo Finance, Feb 2026). Q3-Q4 2026 implied from FY using FY24 H2 weights; 2027 quarters from uniform 17.4% growth.*
 
+![[meta-sankey.png]]
+*FY2025 income statement Sankey: $201.0B revenue, 30.1% net margin. Gross: 82.0%, Operating: 41.4%.*
+
+
 | Quarter | Revenue | Net Income |
 |---------|---------|------------|
 | Q1 2024 | $36.5B | $12.4B |
