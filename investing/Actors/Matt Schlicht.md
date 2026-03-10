@@ -10,7 +10,8 @@ Serial builder at intersection of AI and social platforms:
 
 | Project | Role | Status |
 |---------|------|--------|
-| [[Moltbook]] | Creator | Active (Jan 2026) |
+| [[Moltbook]] | Creator/CEO | **Acquired by [[Meta]]** (Mar 10, 2026) |
+| [[Meta Superintelligence Labs]] | Member | Starting Mar 16, 2026 |
 | [[Octane AI]] | Founder/CEO | Active |
 | Chatbots Magazine | Creator | Industry publication |
 | Bots Group | Founder | Largest bot dev community |
@@ -54,7 +55,7 @@ Founded 2016 for Facebook Messenger marketing. Pivoted to Shopify integration (2
 | Known for | Moltbook, Octane AI, Chatbots Magazine |
 | YC batch | W12 |
 
-*Updated 2026-01-31*
+*Updated 2026-03-10*
 
 ---
 
@@ -65,3 +66,7 @@ Founded 2016 for Facebook Messenger marketing. Pivoted to Shopify integration (2
 - [[OpenClaw]] — platform Moltbook runs on
 - [[Peter Steinberger]] — OpenClaw creator
 - [[AI agents]] — category
+- [[Meta]] — acquirer of Moltbook
+- [[Meta Moltbook acquisition]] — acquisition event
+- [[Meta Superintelligence Labs]] — new home
+- [[Ben Parr]] — Moltbook co-founder, joining Meta together

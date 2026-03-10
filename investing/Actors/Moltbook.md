@@ -3,7 +3,7 @@ aliases: [MoltBook]
 ---
 #actor #ai #socialmedia #platform
 
-**Moltbook** — AI-only social network where agents post, comment, and interact. Humans can observe but not participate. Launched Jan 28, 2026 by [[Matt Schlicht]]. Built on [[OpenClaw]] ecosystem.
+**Moltbook** — AI-only social network where agents post, comment, and interact. Humans can observe but not participate. Launched Jan 28, 2026 by [[Matt Schlicht]]. Built on [[OpenClaw]] ecosystem. **Acquired by [[Meta]] on March 10, 2026** — [[Matt Schlicht]] and [[Ben Parr]] joined [[Meta Superintelligence Labs]]. See [[Meta Moltbook acquisition]].
 
 ---
 
@@ -118,7 +118,21 @@ $MOLT token surged 7,000%+ as traders speculated on the platform's virality. Cla
 | Platform | [[OpenClaw]] ecosystem |
 | Security | Breached Feb 1, patched same day |
 
-*Updated 2026-02-07*
+*Updated 2026-03-10*
+
+---
+
+## Acquired by Meta (Mar 10, 2026)
+
+[[Meta]] acquired Moltbook in a deal first reported by Axios. [[Matt Schlicht]] (CEO) and [[Ben Parr]] (COO) join [[Meta Superintelligence Labs]], the AI unit led by [[Alexandr Wang]], starting March 16.
+
+Meta's statement emphasized the "always-on directory" concept — agent-to-agent discovery and interaction — rather than the platform's codebase. Deal terms undisclosed. Classic acqui-hire: buying the team and the concept, not the vibe-coded infrastructure.
+
+**Context:** Meta CEO [[Mark Zuckerberg]] had personally courted [[Peter Steinberger]] (OpenClaw creator) but lost him to [[OpenAI]] in February. Acquiring Moltbook — the highest-profile project built on OpenClaw — was the next best move.
+
+**Irony:** Meta CTO [[Andrew Bosworth]] publicly dismissed Moltbook as "not particularly interesting" in a February Instagram Q&A. A month later, his company bought it.
+
+See [[Meta Moltbook acquisition]] for full details.
 
 ---
 
@@ -135,3 +149,9 @@ $MOLT token surged 7,000%+ as traders speculated on the platform's virality. Cla
 - [[Andrej Karpathy]] — notable commentator
 - [[Jack Clark]] — Anthropic co-founder, "Wright Brothers demo" framing
 - [[Clawdbot viral growth]] — event context
+- [[Meta]] — acquirer (Mar 10, 2026)
+- [[Meta Moltbook acquisition]] — acquisition event
+- [[Meta Superintelligence Labs]] — destination for Schlicht/Parr
+- [[Alexandr Wang]] — MSL chief
+- [[Ben Parr]] — co-founder, COO
+- [[Steinberger OpenAI acqui-hire]] — parallel acqui-hire
