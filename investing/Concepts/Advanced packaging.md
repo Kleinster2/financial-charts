@@ -15,13 +15,48 @@ You can have the best GPU and the best [[HBM]], but without packaging to integra
 
 ---
 
-## Key technologies
+## Packaging fundamentals
+
+A bare die from the fab is worse than useless — it will get contaminated, damaged, and can't connect to anything. Packaging serves three purposes: **protection** (physical/chemical), **connection** (to the PCB), and **translation** (from microscopic die signals to macroscopic board signals).
+
+The north star: **maximize interconnect density** — how many connections per mm² from chip to outside world. Equivalently, minimize **pitch** (spacing between interconnects). Denser interconnects = faster data movement between chips = better GPU performance.
+
+## Technology evolution
+
+### Wirebonding (1960s-1990s)
+Tiny gold wires connect chip to package like miniature suspension bridges. Simple and cheap, but wires create electrical bottlenecks and only use the edges of the chip — limited surface area for connections. Still used today for low-performance chips.
+
+### Flip-chip (1990s-2010s)
+The transformative insight: "Why only use the edges? That's not much surface area." Flip the chip face-down and connect through tiny solder bumps across the entire face. More connections, shorter paths, better performance. Still the workhorse for most processors. Key challenge: CTE (Coefficient of Thermal Expansion) mismatch — different materials expand differently under heat. Solved with underfill mold between chip and substrate. This is the basis of [[SK Hynix]]'s MR-MUF [[HBM]] packaging.
+
+### Wafer-level packaging / 2.5D interposers (2010s-present)
+The insight: "Why build a separate box when you can build packaging directly on the wafer using the same lithography tools?" This led to **[[CoWoS]]** — place multiple chips side-by-side on a silicon interposer (a passive routing layer, not a chip itself) that connects them with incredibly dense wiring. This is how [[NVIDIA]] connects GPU die to [[HBM]] stacks in every AI accelerator.
+
+**[[Intel]] EMIB alternative:** CoWoS wastes silicon — the interposer covers the entire area but silicon is only needed where data actually travels. EMIB uses silicon "bridges" only at the chip-to-chip connections, with cheaper organic substrate everywhere else.
+
+### 3D stacking (now)
+Bunk beds for chips. Stack dies vertically, connected by Through-Silicon Vias (TSVs) — vertical pillars punched through the silicon. [[HBM]] already works this way: 8-16 DRAM dies stacked with thousands of TSVs creating a massive memory bandwidth highway. [[AMD]]'s 3D V-Cache extends this to logic. The transformative step: logic-on-logic stacking.
+
+### Hybrid bonding (future)
+The most transformative packaging technology since flip-chip. Eliminates solder bumps entirely — directly fuses copper pads between chips. Process: polish copper pads and dielectric surfaces to sub-nanometer (atomically smooth) flatness, press together, and copper atoms diffuse across the interface via Van der Waals forces to form a single metallic bond.
+
+Why it matters:
+- **Density:** Sub-10μm pitch → 10,000+ interconnects/mm² (solder balls are spheres that bulge, capping density)
+- **Power:** Shorter connections = less energy wasted pushing electrons through bumps
+- **Thermals:** No solder bumps = better heat transfer between layers
+
+Critical math: interconnect density scales with the **square** of pitch reduction (2D grid). Halve the pitch → 4x the density. This is why hybrid bonding is essential for packaging scaling to keep up with transistor shrinks.
+
+Challenge: surface prep is insanely demanding. Sub-nanometer flatness across an entire wafer. One particle and the bond fails. [[BESI]] is the leading equipment supplier.
+
+## Key technologies (summary)
 
 | Technology | What it does |
 |------------|--------------|
 | **CoWoS** | TSMC's 2.5D packaging — silicon interposer connects GPU + [[HBM]] |
+| **EMIB** | Intel's alternative — silicon bridges only where needed, organic substrate elsewhere |
 | **2.5D** | Chips sit side-by-side on interposer |
-| **3D** | Chips stacked vertically |
+| **3D / TSV** | Chips stacked vertically, connected by through-silicon vias |
 | **[[HBM]] integration** | Memory stacks bonded to logic |
 | **ABF substrate** | [[Ajinomoto]] Build-up Film — critical substrate material (~90% share) |
 | **Hybrid bonding** | Direct Cu-Cu bonding for high-density interconnects — [[BESI]] equipment |
@@ -137,7 +172,7 @@ Samsung offering integrated solution to hyperscalers:
 
 ---
 
-*Updated 2026-01-04*
+*Updated 2026-03-10*
 
 ---
 
@@ -157,3 +192,9 @@ Samsung offering integrated solution to hyperscalers:
 - [[CHIPS Act]] — enabler (US packaging investment)
 - [[N-2 rule]] — context (constraints on TSMC packaging)
 - [[Supply chain bottlenecks]] — context (packaging as constraint layer)
+- [[Semiconductor Test]] — downstream (packaging complexity drives test steps)
+- [[Semiconductor bonding equipment]] — equipment for hybrid bonding
+
+## Sources
+
+- Jason's Chips: [Short n Casual Intro to Packaging](https://jasonschips.substack.com/p/short-n-casual-advanced-packaging) — technical evolution primer (March 2026)
