@@ -332,6 +332,35 @@ INSERT INTO segment_quarterly VALUES
 
 ---
 
+## Sankey Chart (Income Statement Flow)
+
+Generate an income statement Sankey flow diagram with flowing ribbons showing Revenue → Gross Profit → Operating Income → Net Income. Uses Plotly + Kaleido for rendering.
+
+```bash
+# Basic Sankey (latest annual)
+curl "http://localhost:5000/api/chart/sankey?ticker=ORCL" -o investing/attachments/orcl-sankey.png
+
+# Quarterly
+curl "http://localhost:5000/api/chart/sankey?ticker=AAPL&period=quarterly" -o investing/attachments/aapl-sankey-q.png
+```
+
+**Parameters:**
+| Param | Required | Default | Description |
+|-------|----------|---------|-------------|
+| `ticker` | Yes | — | Stock ticker |
+| `period` | No | `annual` | `annual` or `quarterly` |
+| `date` | No | latest | Specific `fiscal_date_ending` |
+| `width` | No | 1400 | Image width (pixels) |
+| `height` | No | 800 | Image height (pixels) |
+
+**Shows:** Revenue splitting into COGS + Gross Profit, then Gross Profit splitting into R&D/SG&A/Other OpEx + Operating Income, then Operating Income splitting into Interest/Tax + Net Income. Margin summary in title.
+
+**Detail levels:** If R&D/SG&A/Interest/Tax are available in DB, shows detailed breakdown. Otherwise falls back to lumped OpEx/Tax & Other. Run `scripts/backfill_income_detail.py TICKER` to populate detail columns from Alpha Vantage.
+
+**Note:** Plotly auto-layouts nodes — ribbon crossings may occur. This is a known limitation.
+
+---
+
 ## Waterfall Chart (Income Statement)
 
 Generate an income statement waterfall showing Revenue → Gross Profit → Operating Income → Net Income.
