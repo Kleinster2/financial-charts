@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; overflow: hidden; }
+    </style>
+</head>
+<body>
+    <svg id="chart"></svg>
+    <script>
+        function fmt(v) {
+            if (Math.abs(v) >= 1e9) return `$${(v/1e9).toFixed(1)}B`;
+            if (Math.abs(v) >= 1e6) return `$${(v/1e6).toFixed(0)}M`;
+            return `$${v.toLocaleString()}`;
+        }
+
+        function render(cfg) {
+            const { nodes, links, title, marginSummary, width, height } = cfg;
+            const svg = document.getElementById('chart');
+            svg.setAttribute('width', width);
+            svg.setAttribute('height', height);
+            svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+
+            const margin = { top: 80, right: 160, bottom: 60, left: 120 };
+            const W = width - margin.left - margin.right;
+            const H = height - margin.top - margin.bottom;
+
+            // Find max value for scaling
+            const revenue = nodes.find(n => n.id === 'revenue').value;
+            const scale = H / revenue;  // pixels per dollar
+
+            // Column x positions (4 stages)
+            const nodeW = 40;
+            const cols = [0, W * 0.33, W * 0.66, W];
+            const colMap = {};
+            nodes.forEach(n => { colMap[n.id] = n.col; });
+
+            // Position nodes: each node gets x from its column, height from value*scale
+            // Within each column, stack nodes with profit on bottom, costs on top
+            const positioned = {};
+
+            // Group nodes by column
+            const byCol = {};
+            nodes.forEach(n => {
+                if (!byCol[n.col]) byCol[n.col] = [];
+                byCol[n.col].push(n);
+            });
+
+            // For each column, position nodes
+            Object.keys(byCol).forEach(col => {
+                const c = parseInt(col);
+                const colNodes = byCol[c];
+                const x = cols[c];
+
+                // Sort: profit nodes first (bottom), then costs (top)
+                const profits = colNodes.filter(n => n.nodeType !== 'cost');
+                const costs = colNodes.filter(n => n.nodeType === 'cost');
+
+                // Calculate total height needed
+                const gap = 12;
+                let totalH = 0;
+                colNodes.forEach(n => { totalH += n.value * scale; });
+                totalH += (colNodes.length - 1) * gap;
+
+                // Center vertically — but align profit nodes to where the flow goes
+                // Revenue column: single node centered
+                if (c === 0) {
+                    const n = colNodes[0];
+                    const h = n.value * scale;
+                    const y = (H - h) / 2;
+                    positioned[n.id] = { x, y, w: nodeW, h, ...n };
+                } else {
+                    // Stack: costs on top, profit on bottom
+                    // Start from where revenue starts and allocate space proportionally
+                    const revPos = positioned['revenue'];
+                    const revTop = revPos.y;
+
+                    // Costs stack from the top of revenue
+                    let yc = revTop;
+                    costs.forEach(n => {
+                        const h = n.value * scale;
+                        positioned[n.id] = { x, y: yc, w: nodeW, h, ...n };
+                        yc += h + gap;
+                    });
+
+                    // Profit node sits below costs
+                    profits.forEach(n => {
+                        const h = n.value * scale;
+                        positioned[n.id] = { x, y: yc, w: nodeW, h, ...n };
+                        yc += h + gap;
+                    });
+                }
+            });
+
+            // Colors
+            const nodeColor = {
+                'revenue': '#2962FF', 'gross': '#26A69A', 'operating': '#66BB6A',
+                'net': '#2962FF', 'cost': '#EF5350'
+            };
+            const linkColor = {
+                'cost': 'rgba(239, 83, 80, 0.3)',
+                'profit': 'rgba(38, 166, 154, 0.35)',
+                'net': 'rgba(41, 98, 255, 0.35)'
+            };
+
+            // Build SVG content
+            let svgContent = `<g transform="translate(${margin.left},${margin.top})">`;
+
+            // Draw links (ribbons) — cubic bezier curves
+            links.forEach(link => {
+                const src = positioned[link.source];
+                const tgt = positioned[link.target];
+                if (!src || !tgt) return;
+
+                const ribbonH = link.value * scale;
+                const color = linkColor[link.type] || linkColor.profit;
+
+                // Find y offset within source node for this link
+                // We need to track where each outgoing link starts
+                if (!src._outOffset) src._outOffset = 0;
+                if (!tgt._inOffset) tgt._inOffset = 0;
+
+                const sy = src.y + src._outOffset;
+                const ty = tgt.y + tgt._inOffset;
+
+                src._outOffset += ribbonH;
+                tgt._inOffset += ribbonH;
+
+                // Bezier control points
+                const sx1 = src.x + src.w;
+                const tx0 = tgt.x;
+                const cx1 = sx1 + (tx0 - sx1) * 0.4;
+                const cx2 = sx1 + (tx0 - sx1) * 0.6;
+
+                const path = `M${sx1},${sy} C${cx1},${sy} ${cx2},${ty} ${tx0},${ty} ` +
+                             `L${tx0},${ty + ribbonH} C${cx2},${ty + ribbonH} ${cx1},${sy + ribbonH} ${sx1},${sy + ribbonH} Z`;
+
+                svgContent += `<path d="${path}" fill="${color}" stroke="none"/>`;
+            });
+
+            // Draw nodes (thick bars with rounded corners)
+            Object.values(positioned).forEach(n => {
+                const color = nodeColor[n.nodeType] || nodeColor.cost;
+                const h = Math.max(n.h, 2);
+                svgContent += `<rect x="${n.x}" y="${n.y}" width="${n.w}" height="${h}" fill="${color}" rx="4" ry="4"/>`;
+
+                // Label placement: col 0 labels go left of node, col 3 labels go right
+                const isRight = n.col >= 3;
+                const isLeft = n.col === 0;
+                const labelX = isLeft ? n.x - 10 : (isRight ? n.x + n.w + 10 : n.x + n.w + 10);
+                const anchor = isLeft ? 'end' : 'start';
+                const labelY = n.y + h / 2;
+
+                // Only show label outside if node is too small for text inside
+                const pct = revenue > 0 ? `${(n.value / revenue * 100).toFixed(0)}%` : '';
+
+                if (false) {
+                    // Reserved for future inside-node text
+                } else {
+                    // Text outside node
+                    svgContent += `<text x="${labelX}" y="${labelY - 8}" text-anchor="${anchor}" fill="#333" font-size="14" font-weight="700">${n.name}</text>`;
+                    svgContent += `<text x="${labelX}" y="${labelY + 8}" text-anchor="${anchor}" fill="#555" font-size="13" font-weight="600">${fmt(n.value)}</text>`;
+                    if (pct && n.id !== 'revenue') {
+                        svgContent += `<text x="${labelX}" y="${labelY + 22}" text-anchor="${anchor}" fill="#888" font-size="12">${pct}</text>`;
+                    }
+                }
+            });
+
+            svgContent += '</g>';
+
+            // Title
+            svgContent += `<text x="${width/2}" y="35" text-anchor="middle" fill="#333" font-size="22" font-weight="bold">${title}</text>`;
+
+            // Margin summary
+            svgContent += `<text x="${width/2}" y="${height - 20}" text-anchor="middle" fill="#666" font-size="16" font-weight="600">${marginSummary}</text>`;
+
+            // Watermark
+            svgContent += `<text x="${width - 15}" y="${height - 10}" text-anchor="end" fill="rgba(0,0,0,0.2)" font-size="12">Financial Charts</text>`;
+
+            svg.innerHTML = svgContent;
+            window.chartReady = true;
+        }
+
+        if (window.SANKEY_CONFIG) render(window.SANKEY_CONFIG);
+    </script>
+</body>
+</html>

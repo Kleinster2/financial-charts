@@ -178,6 +178,9 @@ Petrobras' pre-salt assets are among the cheapest barrels on Earth. The valuatio
 
 ## Stock performance (PBR ADR)
 
+![[pbr-price-chart.png]]
+*PBR ADR since 2020: COVID trough ~$1.50, steady recovery through pre-salt ramp + PPI discipline, then Iran conflict spike to ~$18 — approaching the split-adjusted all-time high for the first time in 18 years.*
+
 | Period | Level/Return |
 |--------|--------------|
 | 2008 peak (May 21, split-adjusted) | ~US$18.64 |

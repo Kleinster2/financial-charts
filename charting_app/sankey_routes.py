@@ -1,8 +1,8 @@
 """
-Income statement Sankey flow diagram route.
+Income statement Sankey flow diagram route using D3.js + Playwright.
 Route: /api/chart/sankey
 """
-import io
+import json
 import logging
 import traceback
 import sys
@@ -10,24 +10,14 @@ import os
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import plotly.graph_objects as go
 from flask import Blueprint, jsonify, request, Response
 import pandas as pd
 from constants import get_db_connection, HTTP_BAD_REQUEST, HTTP_NOT_FOUND, HTTP_INTERNAL_ERROR, resolve_ticker_alias
+from helpers import basedir
 
 logger = logging.getLogger(__name__)
 
 sankey_bp = Blueprint('sankey', __name__)
-
-
-def _fmt(value):
-    """Format a number as $X.XB or $X.XM."""
-    if abs(value) >= 1e9:
-        return f"${value / 1e9:.1f}B"
-    elif abs(value) >= 1e6:
-        return f"${value / 1e6:.0f}M"
-    else:
-        return f"${value:,.0f}"
 
 
 @sankey_bp.route('/api/chart/sankey')
@@ -35,11 +25,11 @@ def get_sankey_chart():
     """Generate an income statement Sankey flow diagram (PNG).
 
     Query params:
-        ticker: Stock ticker (required), e.g., AAPL
-        period: annual or quarterly (optional, default annual)
+        ticker: Stock ticker (required)
+        period: annual or quarterly (default annual)
         date: Specific fiscal_date_ending (optional, defaults to latest)
-        width: Image width in pixels (optional, default 1200)
-        height: Image height in pixels (optional, default 700)
+        width: Image width in pixels (default 1400)
+        height: Image height in pixels (default 800)
 
     Returns: PNG image
     """
@@ -97,7 +87,6 @@ def get_sankey_chart():
         if gross_profit == 0 and revenue > 0 and cogs > 0:
             gross_profit = revenue - cogs
 
-        # Derived
         has_opex_detail = rd > 0 or sga > 0
         has_below_detail = interest > 0 or tax > 0
         total_opex = gross_profit - operating_income
@@ -105,202 +94,100 @@ def get_sankey_chart():
         total_below = operating_income - net_income
         other_below = max(0, total_below - interest - tax) if has_below_detail else total_below
 
-        # Build Sankey nodes and links
-        # Node indices
-        nodes = []
-        node_colors = []
-        links_source = []
-        links_target = []
-        links_value = []
-        links_color = []
+        # Build nodes with column assignments
+        # Col 0: Revenue
+        # Col 1: COGS, Gross Profit
+        # Col 2: OpEx items, Operating Income
+        # Col 3: Below-line items, Net Income
+        nodes = [
+            {'id': 'revenue', 'name': 'Revenue', 'value': revenue, 'nodeType': 'revenue', 'col': 0},
+            {'id': 'cogs', 'name': 'COGS', 'value': cogs, 'nodeType': 'cost', 'col': 1},
+            {'id': 'gross', 'name': 'Gross Profit', 'value': gross_profit, 'nodeType': 'gross', 'col': 1},
+        ]
 
-        # Color palette
-        c_revenue = '#2962FF'       # blue
-        c_gross = '#26A69A'         # teal
-        c_operating = '#66BB6A'     # green
-        c_net = '#2962FF'           # blue
-        c_cost = '#EF5350'          # red
-        c_cost_flow = 'rgba(239, 83, 80, 0.35)'
-        c_profit_flow = 'rgba(38, 166, 154, 0.35)'
-        c_net_flow = 'rgba(41, 98, 255, 0.35)'
+        # Links: ORDER MATTERS — costs first, then profit (so costs stack on top in the ribbon layout)
+        links = [
+            {'source': 'revenue', 'target': 'cogs', 'value': cogs, 'type': 'cost'},
+            {'source': 'revenue', 'target': 'gross', 'value': gross_profit, 'type': 'profit'},
+        ]
 
-        # Nodes: Revenue(0) -> COGS(1), Gross Profit(2) -> [R&D(3), SG&A(4), Other OpEx(5)], Op Income(6) -> [Interest(7), Tax(8), Other(9)], Net Income(10)
-        # We'll build dynamically based on data availability
-
-        idx = 0
-        NODE_REVENUE = idx; idx += 1
-        nodes.append(f"Revenue\n{_fmt(revenue)}")
-        node_colors.append(c_revenue)
-
-        NODE_COGS = idx; idx += 1
-        nodes.append(f"COGS\n{_fmt(cogs)}")
-        node_colors.append(c_cost)
-
-        NODE_GROSS = idx; idx += 1
-        nodes.append(f"Gross Profit\n{_fmt(gross_profit)}")
-        node_colors.append(c_gross)
-
-        # Revenue -> COGS
-        links_source.append(NODE_REVENUE)
-        links_target.append(NODE_COGS)
-        links_value.append(cogs)
-        links_color.append(c_cost_flow)
-
-        # Revenue -> Gross Profit
-        links_source.append(NODE_REVENUE)
-        links_target.append(NODE_GROSS)
-        links_value.append(gross_profit)
-        links_color.append(c_profit_flow)
-
-        # OpEx breakdown
+        # Column 2: OpEx breakdown
         if has_opex_detail:
             if rd > 0:
-                NODE_RD = idx; idx += 1
-                nodes.append(f"R&D\n{_fmt(rd)}")
-                node_colors.append(c_cost)
-                links_source.append(NODE_GROSS)
-                links_target.append(NODE_RD)
-                links_value.append(rd)
-                links_color.append(c_cost_flow)
-
+                nodes.append({'id': 'rd', 'name': 'R&D', 'value': rd, 'nodeType': 'cost', 'col': 2})
+                links.append({'source': 'gross', 'target': 'rd', 'value': rd, 'type': 'cost'})
             if sga > 0:
-                NODE_SGA = idx; idx += 1
-                nodes.append(f"SG&A\n{_fmt(sga)}")
-                node_colors.append(c_cost)
-                links_source.append(NODE_GROSS)
-                links_target.append(NODE_SGA)
-                links_value.append(sga)
-                links_color.append(c_cost_flow)
-
+                nodes.append({'id': 'sga', 'name': 'SG&A', 'value': sga, 'nodeType': 'cost', 'col': 2})
+                links.append({'source': 'gross', 'target': 'sga', 'value': sga, 'type': 'cost'})
             if other_opex > revenue * 0.005:
-                NODE_OTHER_OPEX = idx; idx += 1
-                nodes.append(f"Other OpEx\n{_fmt(other_opex)}")
-                node_colors.append(c_cost)
-                links_source.append(NODE_GROSS)
-                links_target.append(NODE_OTHER_OPEX)
-                links_value.append(other_opex)
-                links_color.append(c_cost_flow)
+                nodes.append({'id': 'other_opex', 'name': 'Other OpEx', 'value': other_opex, 'nodeType': 'cost', 'col': 2})
+                links.append({'source': 'gross', 'target': 'other_opex', 'value': other_opex, 'type': 'cost'})
         else:
             if total_opex > 0:
-                NODE_OPEX = idx; idx += 1
-                nodes.append(f"OpEx\n{_fmt(total_opex)}")
-                node_colors.append(c_cost)
-                links_source.append(NODE_GROSS)
-                links_target.append(NODE_OPEX)
-                links_value.append(total_opex)
-                links_color.append(c_cost_flow)
+                nodes.append({'id': 'opex', 'name': 'OpEx', 'value': total_opex, 'nodeType': 'cost', 'col': 2})
+                links.append({'source': 'gross', 'target': 'opex', 'value': total_opex, 'type': 'cost'})
 
-        NODE_OPINCOME = idx; idx += 1
-        nodes.append(f"Operating Income\n{_fmt(operating_income)}")
-        node_colors.append(c_operating)
+        nodes.append({'id': 'operating', 'name': 'Operating Income', 'value': operating_income, 'nodeType': 'operating', 'col': 2})
+        links.append({'source': 'gross', 'target': 'operating', 'value': operating_income, 'type': 'profit'})
 
-        # Gross Profit -> Operating Income
-        links_source.append(NODE_GROSS)
-        links_target.append(NODE_OPINCOME)
-        links_value.append(operating_income)
-        links_color.append(c_profit_flow)
-
-        # Below-the-line breakdown
+        # Column 3: Below-the-line
         if has_below_detail:
             if interest > 0:
-                NODE_INTEREST = idx; idx += 1
-                nodes.append(f"Interest\n{_fmt(interest)}")
-                node_colors.append(c_cost)
-                links_source.append(NODE_OPINCOME)
-                links_target.append(NODE_INTEREST)
-                links_value.append(interest)
-                links_color.append(c_cost_flow)
-
+                nodes.append({'id': 'interest', 'name': 'Interest', 'value': interest, 'nodeType': 'cost', 'col': 3})
+                links.append({'source': 'operating', 'target': 'interest', 'value': interest, 'type': 'cost'})
             if tax > 0:
-                NODE_TAX = idx; idx += 1
-                nodes.append(f"Tax\n{_fmt(tax)}")
-                node_colors.append(c_cost)
-                links_source.append(NODE_OPINCOME)
-                links_target.append(NODE_TAX)
-                links_value.append(tax)
-                links_color.append(c_cost_flow)
-
+                nodes.append({'id': 'tax', 'name': 'Tax', 'value': tax, 'nodeType': 'cost', 'col': 3})
+                links.append({'source': 'operating', 'target': 'tax', 'value': tax, 'type': 'cost'})
             if other_below > revenue * 0.005:
-                NODE_OTHER_BELOW = idx; idx += 1
-                nodes.append(f"Other\n{_fmt(other_below)}")
-                node_colors.append(c_cost)
-                links_source.append(NODE_OPINCOME)
-                links_target.append(NODE_OTHER_BELOW)
-                links_value.append(other_below)
-                links_color.append(c_cost_flow)
+                nodes.append({'id': 'other_below', 'name': 'Other', 'value': other_below, 'nodeType': 'cost', 'col': 3})
+                links.append({'source': 'operating', 'target': 'other_below', 'value': other_below, 'type': 'cost'})
         else:
             if total_below > 0:
-                NODE_BELOW = idx; idx += 1
-                nodes.append(f"Tax & Other\n{_fmt(total_below)}")
-                node_colors.append(c_cost)
-                links_source.append(NODE_OPINCOME)
-                links_target.append(NODE_BELOW)
-                links_value.append(total_below)
-                links_color.append(c_cost_flow)
+                nodes.append({'id': 'below', 'name': 'Tax & Other', 'value': total_below, 'nodeType': 'cost', 'col': 3})
+                links.append({'source': 'operating', 'target': 'below', 'value': total_below, 'type': 'cost'})
 
-        NODE_NET = idx; idx += 1
-        nodes.append(f"Net Income\n{_fmt(net_income)}")
-        node_colors.append(c_net)
+        nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3})
+        links.append({'source': 'operating', 'target': 'net', 'value': net_income, 'type': 'net'})
 
-        # Operating Income -> Net Income
-        links_source.append(NODE_OPINCOME)
-        links_target.append(NODE_NET)
-        links_value.append(net_income)
-        links_color.append(c_net_flow)
-
-        # Build Sankey figure
-        fig = go.Figure(data=[go.Sankey(
-            arrangement='snap',
-            node=dict(
-                pad=35,
-                thickness=35,
-                line=dict(color='white', width=2),
-                label=nodes,
-                color=node_colors,
-            ),
-            link=dict(
-                source=links_source,
-                target=links_target,
-                value=links_value,
-                color=links_color,
-            )
-        )])
-
-        # Margin annotations
+        # Margins
         gross_margin = gross_profit / revenue * 100 if revenue else 0
         op_margin = operating_income / revenue * 100 if revenue else 0
         net_margin = net_income / revenue * 100 if revenue else 0
 
         period_label = 'FY' if period == 'annual' else 'Q'
-        fig.update_layout(
-            title=dict(
-                text=f"{ticker} Income Statement — {period_label} {fiscal_date}<br>"
-                     f"<span style='font-size:14px;color:#666'>"
-                     f"Gross: {gross_margin:.1f}% | Operating: {op_margin:.1f}% | Net: {net_margin:.1f}%</span>",
-                font=dict(size=20, color='#333'),
-                x=0.5,
-                xanchor='center',
-            ),
-            font=dict(size=13, color='#333'),
-            paper_bgcolor='white',
-            plot_bgcolor='white',
-            width=width,
-            height=height,
-            margin=dict(l=20, r=20, t=80, b=30),
-            annotations=[
-                dict(
-                    text="Financial Charts",
-                    xref="paper", yref="paper",
-                    x=0.99, y=0.01,
-                    showarrow=False,
-                    font=dict(size=11, color='rgba(0,0,0,0.2)'),
-                    xanchor='right',
-                )
-            ]
+        title = f"{ticker} Income Statement — {period_label} {fiscal_date}"
+        margin_summary = f"Gross: {gross_margin:.1f}%  |  Operating: {op_margin:.1f}%  |  Net: {net_margin:.1f}%"
+
+        config = {
+            'nodes': nodes,
+            'links': links,
+            'title': title,
+            'marginSummary': margin_summary,
+            'width': width,
+            'height': height,
+        }
+
+        # Read HTML template
+        template_path = os.path.join(basedir, 'templates', 'sankey_render.html')
+        with open(template_path, 'r', encoding='utf-8') as f:
+            html_template = f.read()
+
+        # Inject config
+        config_json = json.dumps(config)
+        html = html_template.replace(
+            'if (window.SANKEY_CONFIG) render(window.SANKEY_CONFIG);',
+            f'window.SANKEY_CONFIG = {config_json}; render(window.SANKEY_CONFIG);'
         )
 
-        # Export to PNG
-        img_bytes = fig.to_image(format='png', scale=2, engine='kaleido')
+        # Render with Playwright
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page(viewport={'width': width, 'height': height})
+            page.set_content(html)
+            page.wait_for_function('window.chartReady === true', timeout=10000)
+            img_bytes = page.screenshot(type='png')
+            browser.close()
 
         return Response(img_bytes, mimetype='image/png')
 
