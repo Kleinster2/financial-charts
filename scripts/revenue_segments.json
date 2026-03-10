@@ -36,14 +36,11 @@
     "fiscal_date": "2025-12-31",
     "total_revenue": 716924000000,
     "segments": [
-      {"name": "Online Stores", "value": 269306000000},
-      {"name": "Third-Party Seller Services", "value": 161875000000},
-      {"name": "AWS", "value": 107502000000},
-      {"name": "Advertising", "value": 68632000000},
-      {"name": "Subscription Services", "value": 45884000000},
-      {"name": "Physical Stores", "value": 22586000000},
-      {"name": "Other", "value": 5939000000}
-    ]
+      {"name": "North America", "value": 426300000000},
+      {"name": "International", "value": 161900000000},
+      {"name": "AWS", "value": 128700000000}
+    ],
+    "_note": "FY2025. Geographic segments from earnings release. Sum=$716.9B."
   },
   "MSFT": {
     "fiscal_date": "2025-06-30",
@@ -60,11 +57,11 @@
     "segments": [
       {"name": "Google Search & Other", "value": 198117000000},
       {"name": "YouTube Ads", "value": 36144000000},
-      {"name": "Google Network", "value": 7933000000},
+      {"name": "Google Network", "value": 33280000000},
       {"name": "Google Cloud", "value": 43232000000},
-      {"name": "Google Subscriptions & Devices", "value": 42279000000},
+      {"name": "Subscriptions & Devices", "value": 37575000000},
       {"name": "Other Bets", "value": 1615000000},
-      {"name": "Hedging Gains", "value": 698000000}
+      {"name": "Hedging Gains", "value": 55000000}
     ]
   },
   "META": {
