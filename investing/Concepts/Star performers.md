@@ -11,7 +11,7 @@ Rolling 3-month momentum leaders. Updated only when composition changes.
 | Ticker | Company | [[3M]] Performance | Why |
 |--------|---------|----------------|-----|
 | MU | [[Micron]] | +40%+ | Memory shortage, [[HBM]] demand |
-| CRDO | [[Credo Semiconductor]] | +60%+ | AI networking, optical DSP |
+| CRDO | [[Credo Technology Group]] | +60%+ | AI networking, optical DSP |
 | NVDA | [[NVIDIA]] | +25%+ | Blackwell ramp, AI infrastructure |
 | AVGO | [[Broadcom]] | +30%+ | AI ASIC, VMware, $1T club |
 
@@ -91,7 +91,7 @@ Rolling 3-month momentum leaders. Updated only when composition changes.
 ## Related
 
 - [[Micron]] — current leader (memory shortage)
-- [[Credo Semiconductor]] — current leader (AI networking)
+- [[Credo Technology Group]] — current leader (AI networking)
 - [[NVIDIA]] — current leader (AI infrastructure)
 - [[Broadcom]] — current leader (ASIC + networking)
 - [[Mega-cap tech acronyms]] — media narrative vs reality

@@ -175,7 +175,7 @@ Blowout quarter — first time crossing $1B quarterly net income.
 - [[Broadcom]] — supplier (merchant silicon)
 - [[Cisco]] — competitor (legacy networking)
 - [[HPE]] — competitor (via [[Juniper Networks]])
-- [[Credo Semiconductor]] — adjacent (cables in same clusters)
+- [[Credo Technology Group]] — adjacent (cables in same clusters)
 - [[AI hyperscalers]] — customer category
 - [[Data Centers]] — customer vertical
 - [[AI infrastructure]] — growth driver

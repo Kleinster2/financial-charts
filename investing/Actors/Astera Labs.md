@@ -83,7 +83,7 @@ Memory pool ↔ CXL controller ↔ Multiple hosts
 
 | Competitor | Segment | Astera vs |
 |------------|---------|-----------|
-| [[Credo Semiconductor]] | AEC, SerDes | Different layer |
+| [[Credo Technology Group]] | AEC, SerDes | Different layer |
 | Broadcom | PCIe switches | Retimer focus |
 | Microchip | PCIe/CXL | Smaller presence |
 | [[Marvell]] | Various | Connectivity focus |
@@ -152,7 +152,7 @@ Astera = pure-play connectivity IC leader.
 
 ## Related
 
-- [[Credo Semiconductor]] — peer in connectivity ICs, different focus (AEC vs retimers)
+- [[Credo Technology Group]] — peer in connectivity ICs, different focus (AEC vs retimers)
 - [[NVIDIA]] — primary customer, GPU ecosystem
 - [[Broadcom]] — competitor in PCIe switches
 - [[AI hyperscalers]] — end customers driving demand

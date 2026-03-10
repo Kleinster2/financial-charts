@@ -1,9 +1,9 @@
 ---
-aliases: [CRDO]
+aliases: [CRDO, Credo Semiconductor, Credo]
 ---
 #actor #interconnect #semiconductor #usa
 
-**Credo Semiconductor** — Active Electrical Cables (AEC) for GPU connectivity. High-speed SerDes. AI cluster specialist.
+**Credo Technology Group** — Active Electrical Cables (AEC) for GPU connectivity. High-speed SerDes. AI cluster specialist.
 
 ---
 
