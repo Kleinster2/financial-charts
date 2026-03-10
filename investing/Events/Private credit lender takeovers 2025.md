@@ -24,12 +24,33 @@ aliases: [lender takeovers 2025, creditor seizures 2025, private credit defaults
 | On The Border | Casual dining (Tex-Mex) | Argonne Capital (since 2014) | $25M+ | Mar 4, 2025 Ch.11 | OTB Lender / Pappas Restaurants (DIP + stalking horse) |
 | Pluralsight | IT training software | [[Vista Equity Partners]] ($3.9B acquisition, 2021) | $1.2B converted to equity; lenders took 85% | Aug 2024 (template for 2025 wave) | [[Blue Owl]] (lead), [[Ares Management]], [[Goldman Sachs]], Benefit Street, [[BlackRock]], [[Oaktree]], Golub Capital |
 
-### European / non-US (same pattern)
+### European lender takeovers — Goldman Sachs research (Mar 2026)
+
+[[Goldman Sachs]] analysts Patrick Badaro and Juliana Hadas produced the most comprehensive snapshot of European direct-lending distress to date. Key findings from tracking LBOs financed by senior private loans since 2017:
+
+| Metric | Value |
+|--------|-------|
+| Companies ceded to lenders | **146** |
+| Total troubled loans | **~$38B** across 150 companies |
+| Insolvent/liquidated | 4 companies |
+| Debt-for-equity swaps | 146 companies (rest of troubled pool) |
+| Under lender control since 2023 alone | **100+** (driven by higher rates) |
+| Largest troubled cohort by vintage | **24 deals** from 2017 (cheap financing era) |
+| Most distressed sector | **Consumer & retail** — 61 companies taken over |
+| Most vulnerable size | **<€20M EBITDA** — nearly half of troubled loans |
+
+**Why this matters for Europe specifically:** Unlike US BDCs that publicly disclose portfolio valuations, European direct-lending funds publish almost nothing. Outsiders have "limited visibility into how much stress, if any, may be building." Goldman's analysts concluded that reported default rates of 2% likely *"understate the stress under the surface."*
+
+**The conclusion:** Goldman sees *"concentrated pockets of stress"* — mainly among smaller firms and cyclical industries — rather than imminent systemic crisis. Lending to larger, higher-quality companies in less cyclical sectors has offered some protection. But the opacity means the full picture is unknowable.
+
+**Named European cases:**
 
 | Company | Industry | PE Sponsor | Debt | Date | New Owners |
 |---------|----------|------------|------|------|------------|
 | Netceed | Telecom equipment | Cinven | >$1B converted to equity | Oct 2025 | Pemberton, [[Blue Owl]], Hayfin |
 | Bonhams | Auction house | Epiris | Undisclosed | Oct 2025 | Pemberton |
+| Dainese | Italian sportswear | PE-backed | Undisclosed | Reported Mar 2026 | Lender group |
+| Oradianse | French radiology centers | PE-backed | Undisclosed | Reported Mar 2026 | Lender group |
 
 ---
 
@@ -75,11 +96,16 @@ This is the delayed mechanical consequence of the rate cycle, not an idiosyncrat
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| Lender takeovers (Jan-Sep 2025) | 45 (2x prior year) | Lincoln International |
-| Pre-takeover principal | ~$25B | Lincoln International |
-| 2021-2022 vintage deals | 75% of takeovers | Lincoln International |
+| **US** lender takeovers (Jan-Sep 2025) | 45 (2x prior year) | Lincoln International |
+| US pre-takeover principal | ~$25B | Lincoln International |
+| 2021-2022 vintage deals | 75% of US takeovers | Lincoln International |
 | PE-backed share of distressed exchanges | 41% | S&P |
 | PE-backed share of largest bankruptcies ($1B+) | 54% | Bloomberg |
+| **European** companies ceded to lenders (since 2017) | **146** | [[Goldman Sachs]] |
+| European troubled loans | **~$38B** (150 companies) | [[Goldman Sachs]] |
+| European takeovers since 2023 alone | **100+** | [[Goldman Sachs]] |
+| European — consumer/retail taken over | 61 companies | [[Goldman Sachs]] |
+| European — sub-€20M EBITDA share | ~50% of troubled loans | [[Goldman Sachs]] |
 
 ---
 
@@ -103,8 +129,8 @@ If these "safe" borrowers are defaulting at 2x the prior rate while rates are st
 | Vintage concentration | 75% from 2021-2022 deals |
 | Largest single default | United Site Services ($2.4B) |
 
-*Sources: Bloomberg (Nov 12, 2025; Feb/Mar 2026 Markets issue), Lincoln International, PitchBook, Bloomberg Law*
-*Created 2026-03-05*
+*Sources: Bloomberg (Nov 12, 2025; Feb/Mar 2026 Markets issue; Mar 9, 2026 Goldman European data), Lincoln International, PitchBook, Bloomberg Law, Goldman Sachs (Badaro/Hadas)*
+*Updated 2026-03-09*
 
 ---
 

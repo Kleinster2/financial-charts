@@ -25,11 +25,20 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **Feb 19, 2026** | Alt managers sell off: OWL -8.7%, APO -6%, BX -6%, ARES -6%, KKR -4%, CG -5% |
 | **Feb 19, 2026** | Sen. Warren calls for capital requirements, disclosure, stress tests for private credit |
 | **Feb 20, 2026** | OWL -6% again (2-day cumulative ~15%). CNBC "canary in the coal mine" piece. Rasmussen (Verdad): "private markets bubble finally starting to burst" |
-| **Mar 3, 2026** | **Blackstone BXSL** allows record **7.9% share redemptions** from flagship private credit fund |
+| **Feb 24, 2026** | **[[UBS]] raises worst-case default forecast to 15%** (from 13% a month earlier). Strategists (Matthew Mish): *"What is new: a clearer catalyst — rapid, severe AI disruption."* Current defaults 3-5%, PIK nearing post-pandemic highs. Also raises leveraged loan worst-case to **10%** (from 8%) and high-yield to **6%** (from 4%). Some estimates: **40% of sponsor-backed loans** in software |
+| **Feb 24, 2026** | **[[Citigroup]] analysts** warn BDCs selling assets to [[CLO]]s could cause **leverage to balloon tenfold** while masking risk |
+| **Feb 24, 2026** | **Dan Loeb ([[Third Point]])** announces plan to launch a BDC on **April 2** — entering private credit *during* the crisis. At iConnections Global Alts (Miami Beach): *"There's not a run-on-the-bank scenario, because there's a match between assets and liabilities"* |
+| **~Feb 24-26, 2026** | **BDC earnings week:** [[FS KKR Capital Corp]] cuts dividend **70¢ → 48¢**, non-accruals up to **3.4%** (from 2.9%); slashed Medallia (software) loan value. [[Blackstone]] Secured Lending Fund also slashed Medallia. [[New Mountain Finance]] sold **$477M in assets at 94% of fair value**, shares plunged to 2020 low. SLR Investment Corp pitched itself as *"safe haven"* — only 2% software exposure |
+| **Feb 25-26, 2026** | **War of words peaks.** Dimon ([[JPMorgan Chase\|JPMorgan]]): firms *"doing dumb things."* Danny Moses (The Big Short): retail push *"rhymes"* with 2008 run-up. Bruce Flatt ([[Brookfield]]): *"This is not that big of a deal... definitely not an '08"* / *"not a systemic situation."* Weinstein ([[Saba Capital]]): *"the wheels coming off the car."* BofA calls OWL a buy, blasts *"misinformation."* European insurers ([[Axa]], [[Allianz]]) distance themselves from exposure. YTD: ARES -26%, OWL -24%, BX -23%, APO -19% |
+| **Mar 3, 2026** | **Blackstone BCRED** ($82B, largest non-traded private credit fund) allows record **7.9% share redemptions** — surpassing both the 5% quarterly cap and the additional 2pp buffer. Firm taps ~$150M from 25+ senior leaders' personal capital + ~$250M from firm balance sheet to meet redemptions |
 | **Mar 5, 2026** | **BlackRock TCP** writes down $25M Infinite Commerce loan **100 → 0 in one quarter**; second sudden wipeout (after Renovo in Nov); cuts dividend 25¢ → 17¢; 91% of valuation cuts from 2021-vintage deals |
-| **Mar 5, 2026** | Marc Rowan ([[Apollo]]) warns **shakeout coming** for private credit firms; same day Arougheti ([[Ares Management\|Ares]]) calls UBS 15% default forecast "absolutely wrong" |
+| **Mar 3-5, 2026** | **Bloomberg Invest week (NYC).** Marc Rowan ([[Apollo]]) warns **shakeout coming**. Arougheti ([[Ares Management\|Ares]]): UBS 15% forecast "actually irresponsible" — even 2008 only hit 8-10%. Zito (Apollo): turmoil could last *"well into next year."* Fitzpatrick ([[Soros Fund Management]]): **"painful" 18-24 months** ahead. Solomon ([[Goldman Sachs]]): watching for "frothiness." Nuttall ([[KKR]]): predicts **"K-shaped industry"** with consolidation, "more BlackRock-type acquisitions" |
 | **Mar 5, 2026** | **[[Saba Capital]] + [[Cox Capital Partners]]** launch tender offer for **[[Starwood Capital Group\|Starwood]] SREIT** shares — 5.4% of Class S and I at **24-29% discounts** to NAV. Second target after Blue Owl BDCs. Structural illiquidity arbitrage play. |
-| **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously |
+| **Q1 2026** | [[Ares Management\|Ares]] fund meets redemptions of **~5.6%** — slightly above the 5% tender offer threshold |
+| **Mar 6, 2026** | **[[BlackRock]] HPS Corporate Lending Fund** ($26B) **caps redemptions at 5%** after investors requested **~10%** (nearly double). First major perpetual vehicle to gate since crisis began. [[HPS Investment Partners\|HPS]] co-president Mike Patterson: gating gives "dry powder in a market that we think is getting increasingly compelling" |
+| **Mar 6, 2026** | **OWL short interest hits all-time high** — most shorted stock on EquiLend. Broader **bearish bets against alt managers at record** |
+| **Mar 6, 2026** | **Publicly-traded BDCs at or near all-time lows** — [[BlackRock]] TCP Capital Corp closes at $3.82 (record low, **>50% drop in one year**). Multiple public BDCs trading at steep NAV discounts |
+| **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. **>$100B in funds** to disclose Q1 data ([[Barclays]]) |
 
 ---
 
@@ -61,6 +70,29 @@ The pattern extends beyond private credit into non-traded REITs — any semi-liq
 
 ---
 
+## The retail pipeline: scale of the evergreen build-up (PitchBook, Mar 2026)
+
+The redemption crisis is hitting an asset class that spent 2020-2025 building the largest retail investment pipeline in private markets history. PitchBook's inaugural US Evergreen Fund Landscape report quantifies the scale:
+
+| Metric | Value |
+|--------|-------|
+| **Evergreen fund net AUM** | **$493.4B** (2025) — up from $244.8B (2022), >20% growth every year |
+| Direct lending AUM | **$209.4B** — largest strategy, grew 55.4% (2023), 66.1% (2024), 27.7% (9mo 2025) |
+| Real estate AUM | $113.6B (#2) |
+| PE evergreen AUM | $51.0B |
+| Alternative credit | $52.3B |
+| BDC AUM | Largest structure within evergreen universe |
+| New fund launches (2025) | **107** through November — smashing 71 record (2023). 36 were alternative credit |
+| Monthly interval/tender offer net flows | Billions per month, growing through mid-2025 |
+
+**Why this matters for the crisis:** The industry built a nearly $500B retail asset base in semi-liquid vehicles — mostly in direct lending and credit — specifically designed around the assumption that redemptions would stay within 5% quarterly caps. The ~7.5% weighted average redemption requests in Q1 2026 are testing a structure that was scaled 2x in three years.
+
+The private debt drawdown fundraising data tells a complementary story: $234.1B raised in 2025 (200 funds), with **85.1% going to $1B+ funds** (record concentration) and **91.7% from experienced managers** (near-record). First-time managers raised just 14 funds totaling $2.4B — **record low**. The retail crisis is accelerating an already extreme concentration dynamic. Dry powder: **$618.1B** (June 2025).
+
+*Source: PitchBook Q4 2025 Annual Global Private Market Fundraising Report (published Mar 3, 2026)*
+
+---
+
 ## The fundamental contradiction
 
 Private credit's retail push was built on an inherent mismatch:
@@ -78,15 +110,63 @@ Private credit's retail push was built on an inherent mismatch:
 
 ## The redemption wave
 
-| Period | BDC redemption requests (>$1B funds) | Change |
-|--------|---------------------------------------|--------|
-| Q3 2025 | ~$1B (est.) | Baseline |
-| **Q4 2025** | **$2.9B** | **+200%** |
-| Q1 2026 | ⏳ TBD (Mar 31) | Likely accelerating |
+![[bdc-redemption-surge-q1-2026.png]]
+
+*Weighted average redemption requests across tracked non-traded BDCs. Q1 2026 (as of Mar 6) already at ~7.5%, well above the 5% cap. Data from Robert A Stanger & Co. via Bloomberg.*
+
+| Period | BDC redemption requests (>$1B funds) | Weighted avg % | Change |
+|--------|---------------------------------------|----------------|--------|
+| Q2-Q4 2024 | ~$1B/quarter (est.) | ~1% | Baseline |
+| Q1 2025 | Modest | ~1.2% | Stable |
+| Q2 2025 | Rising | ~2.2% | First uptick |
+| Q3 2025 | ~$1B (est.) | ~1.5% | |
+| **Q4 2025** | **$2.9B** | **~4%** | **+200%** |
+| **Q1 2026** (as of Mar 6) | ⏳ Still in tender windows | **~7.5%** | **Well above 5% cap** |
 
 *Source: Robert A Stanger & Co.*
 
-Retail investors are running **before defaults even spike** — non-accruals at Blue Owl's funds are only 1.1%. The market is front-running AI disruption of software borrowers before credit losses materialize.
+**>$100B in funds** will disclose Q1 redemption data in coming weeks ([[Barclays]]).
+
+Retail investors are running **before defaults even spike** — non-accruals at Blue Owl's funds are only 1.1%. The market is front-running AI disruption of software borrowers before credit losses materialize. But defaults are now rising: Fitch Ratings reports US private credit defaults climbed to **5.8%** in the 12 months through January 2026 — the highest since Fitch began tracking (August 2024).
+
+---
+
+## The gating debate (Mar 2026)
+
+The BlackRock/HPS gate (Mar 6) crystallized the central strategic dilemma. Every manager with >$100B in semi-liquid vehicles now faces the same choice — and the industry is splitting.
+
+**Gate (BlackRock/HPS approach):**
+- [[HPS Investment Partners\|HPS]] co-president Mike Patterson (Mar 6): *"allows us to try to optimize performance because we only have to respond to predictable liquidity requests."* Called the gated market "increasingly compelling" for deploying dry powder.
+- [[Apollo]] co-president John Zito (Mar 8): *"What HPS, BlackRock did is exactly the right decision. These products are designed to protect redeeming and remaining investors by allowing vehicle liquidity to match natural asset liquidity."*
+- John Cocke ([[Corbin Capital Partners]], deputy CIO credit): *"You cannot create liquidity from an illiquid asset class."* Warned that not enforcing limits *"will create a first-mover advantage for early redeemers and a prisoner's dilemma problem for the remaining investors."*
+- Vivek Bantwal ([[Goldman Sachs]] AM, global co-head private credit): Limits on fund withdrawals are *"features and not bugs."*
+- Michael Covello (Robert A Stanger): *"Now that HPS has done that, we would expect others to follow suit."*
+- Glenn Schorr ([[Evercore ISI]]): *"Semi-liquid funds were designed and marketed as products offering limited liquidity, especially during times of stress. It's important to retrain the investor base on the nature of private assets."*
+
+**Accommodate (Blackstone approach):**
+- [[Blackstone]] allowed record 7.9% from BCRED — surpassing both the 5% cap and the additional 2pp buffer generally deemed permissible. Tapped personal capital from 25+ senior leaders (~$150M) plus ~$250M from firm balance sheet.
+- Michael Paulus (PCM Encore): *"The combination of allowing full redemptions and making a significant employee investment into the fund gives the market a lot of confidence."* Called it *"highly strategic."*
+- [[Blue Owl]] allowed **>15% of NAV** from a technology-focused fund in Q4 2025.
+- [[Ares Management\|Ares]] met **~5.6%** — slightly above the 5% tender offer threshold.
+
+**The risk on each side:**
+- Zain Bukhari ([[S&P Global]]): Blocking withdrawals *"tends to damage relationships and could lead to further redemptions from investors who weren't planning to exit but interpret it as a distress signal."*
+- But accommodating at a moment of credit weakness is antithetical to private asset management. Honoring outsized requests diverts capital from new deals, burdens longer-term investors, and sets expectations the vehicles were never designed to meet.
+- The 2022 precedent: [[Blackstone]] gated its non-traded REIT (BREIT) when under pressure. Later secured a **$4B commitment from UC system** to rebuild confidence — gating bought time.
+
+---
+
+## Publicly-traded BDC plunge
+
+![[public-bdc-plunge-2025-2026.png]]
+
+*Publicly-traded BDC total returns normalized from Mar 10, 2025. BlackRock TCP Capital Corp (magenta) collapsed ~60%, Blue Owl Capital Corp (cyan) ~40%, FS KKR Capital Corp ~30%. Ares Capital (ARCC) relatively resilient at ~-10%. S&P 500 (green, top) roughly flat over the period. Source: Bloomberg.*
+
+Multiple public BDCs at or near all-time lows, trading at steep discounts to NAV. BlackRock TCP Capital Corp closed at **$3.82** (Mar 6) — record low, **>50% price drop in one year**. The publicly-traded vehicles are structurally different (no redemption windows — they trade on exchanges) but their results feature multiple dividend cuts and rising non-accruals.
+
+![[bdc-vs-leveraged-loans-2025.png]]
+
+*Cliffwater BDC Index total return (orange) vs J.P. Morgan Leveraged Loan Index: SplitB/CCC-rated loans (black), Jan-Nov 2025. BDC stocks rallied +5% through July then collapsed to -10% by November. Low-rated leveraged loans fell steadily from March, reaching -10% by November. Both converged at -10% by year-end, showing private credit stress bleeding into the broader leveraged loan market. Source: JPM, Cliffwater, Bloomberg.*
 
 ---
 
@@ -99,11 +179,28 @@ Retail investors are running **before defaults even spike** — non-accruals at 
 - Replaced by pro-rata distributions (30% of NAV by end of March)
 - OWL -8.7%, alt manager contagion across sector
 
-### Blackstone BCRED (watching)
-- **$50B+** — largest non-traded private credit fund
-- Survived 2022 redemption spike via quarterly caps
-- Any sign of stress here = systemic escalation
-- Quarterly 5% cap means it takes 5 years to fully exit
+### Blackstone BCRED — record 7.9% redemption (Mar 3, 2026)
+- **$82B** — largest non-traded private credit fund
+- Allowed record **7.9% share redemptions** in Q1 — surpassing both the 5% cap and the 2pp buffer
+- Firm tapped **~$150M from 25+ senior leaders' personal capital** plus **~$250M from firm balance sheet** to meet redemptions
+- Blackstone had been preparing for >5% requests given broadly elevated Q4 redemptions; deemed net flows and liquidity "satisfactory" for full withdrawals
+- **2022 precedent:** Gated non-traded REIT (BREIT) during real estate stress; later secured $4B [[University of California]] commitment to rebuild confidence
+- Brad Marshall, BCRED co-CEO, echoed "features not bugs" framing at Bloomberg Invest (Mar 4)
+
+### BlackRock HPS Corporate Lending Fund — gated (Mar 6, 2026)
+- **$26B perpetual vehicle** — the first major perpetual fund to gate since the crisis began
+- Investors requested **~10% of NAV** (nearly double the 5% cap); BlackRock capped at 5%
+- Fund was acquired by [[BlackRock]] as part of the [[HPS Investment Partners\|HPS]] acquisition
+- Mike Patterson (HPS co-president, in video to investors): capping redemptions *"allows us to try to optimize performance because we only have to respond to predictable liquidity requests"* — called the market "increasingly compelling" for dry powder deployment
+- Michael Covello (Robert A Stanger): *"Now that HPS has done that, we would expect others to follow suit"* — sees this as a **watershed moment**
+
+### Blue Owl technology fund — >15% NAV redeemed (Q4 2025)
+- [[Blue Owl]] allowed investors to withdraw **>15% of NAV** from a technology-focused fund in Q4 2025
+- Among the first firms to exceed the 5% threshold by a large margin — before Blackstone's 7.9%
+
+### Ares — met ~5.6% redemptions (Q1 2026)
+- [[Ares Management\|Ares]] fund honored **~5.6%** of NAV in redemptions — slightly above the standard 5% tender offer threshold
+- One of the first examples of how a firm would address requests that marginally exceed the cap
 
 ### BlackRock TCP — Infinite Commerce Holdings (Mar 5, 2026)
 - **$25M loan marked from 100 to 0 in one quarter** — zero recovery
@@ -138,6 +235,20 @@ Retail investors are running **before defaults even spike** — non-accruals at 
 - Moody's upgraded to Baa2 (Jan 2026) — but OBDC II gate raises questions
 - If redemption/sale pressure hits OBDC, it's 10x the scale of OBDC II
 
+### BDC earnings week (~Feb 24-26, 2026)
+
+Publicly-traded BDC earnings in the week of the OBDC II fallout showed credit quality starting to crack:
+
+| BDC | Key data | Signal |
+|-----|----------|--------|
+| **[[FS KKR Capital Corp]]** | Dividend cut **70¢ → 48¢**; non-accruals **3.4%** (up from 2.9% QoQ); slashed [[Medallia]] loan value | Deteriorating |
+| **[[Blackstone]] Secured Lending (BXSL)** | Also slashed [[Medallia]] value | Software write-downs spreading across lenders |
+| **[[New Mountain Finance]]** | Sold **$477M in assets at 94% of fair value**; shares plunged to **lowest since 2020** | Forced asset sales below par |
+| **SLR Investment Corp** | Pitched itself as *"safe haven"* — only **2% software allocation** | Managers now competing on *lack* of software exposure |
+| **[[Ares Management\|Ares]] Capital (ARCC)** | Schnabel: *"AI is probably the most disruptive technology risk that we could have imagined... But we still believe strongly we've constructed a portfolio that will remain highly resistant"* | Defensive but serious |
+
+The dispersion is telling: managers with low software exposure (SLR at 2%) are marketing that as a selling point, while software-heavy funds (FS KKR) are cutting dividends. The market is actively sorting winners from losers on the single variable of AI disruption exposure.
+
 ---
 
 ## Why this could be systemic
@@ -158,6 +269,18 @@ Many lenders hold the same borrowers. A forced sale by one fund depresses marks 
 
 ### 5. Regulatory vacuum
 No widespread stress testing, limited disclosure requirements. Sen. Warren's call for regulation (Feb 19) could change this — but if regulators force disclosure, the opacity that's been hiding problems gets blown open all at once.
+
+### 6. PE-insurance convergence as amplifier
+KKR's Global Atlantic illustrates the risk. As PE firms shift insurer portfolios toward private assets, investment volatility spikes:
+
+![[kkr-global-atlantic-investment-volatility.png]]
+
+*KKR's Global Atlantic net investment-related gains/losses by quarter. Losses in 6 of 8 quarters from Q1 2024 through Q4 2025, peaking at -$1.4B in Q1 2025 (tariff selloff). Brief recovery in Q2-Q3 2025 before turning negative again. Source: KKR quarterly filings via Bloomberg.*
+
+If private credit losses accelerate, insurance balance sheets — which now hold $2T in illiquid credit ([[Moody's]]) — could amplify the stress through the financial system. See [[PE-insurance convergence]].
+
+### 7. The 401(k) paradox
+President Trump signed an executive order making it easier for private credit, PE, and alternatives to be offered within 401(k) plans — part of a push to tap the **trillions held in retirement accounts**. Department of Labor guidance enabling 401(k) administrators to invest in alternatives is expected soon. The industry is about to open its largest-ever retail channel **at the exact moment** its existing retail investors are fleeing. The timing could not be worse for the credibility of the retail private credit model.
 
 ---
 
@@ -199,15 +322,65 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 **Duke Fuqua School of Business (Sept 2025):** Institutional BDC ownership fell to **~25% by 2023** — retail investors now supply the majority of publicly traded BDC equity capital.
 
-**Jamie Dimon (late 2025):** Private credit's *"cockroaches"* — stress in one borrower signals more hidden trouble.
+**Jamie Dimon ([[JPMorgan Chase\|JPMorgan]] CEO):** Private credit's *"cockroaches"* (late 2025) — stress in one borrower signals more hidden trouble. Escalated Feb 26: financial firms are *"doing dumb things"* in risky lending.
+
+**Danny Moses (The Big Short, Feb 26):** The push for retail money *"rhymes"* with what he saw two decades ago in the run-up to 2008.
+
+**Bruce Flatt ([[Brookfield]] CEO, Feb 25-26):** *"This is not that big of a deal. It is definitely not an '08, it has got nothing to do with '08."* Also: *"This is not a systemic situation"* — private credit's relatively small place in global credit markets.
+
+**UBS (Matthew Mish, Feb 24):** Raised worst-case default forecast from 13% → **15%** in less than a month. *"What is new: a clearer catalyst — rapid, severe AI disruption."* Also raised leveraged loan worst-case to 10% (from 8%) and high-yield to 6% (from 4%). Current defaults 3-5%, PIK nearing post-pandemic highs. Some estimates: **40% of sponsor-backed loans** in software.
+
+**Citigroup analysts (Feb 24):** Warned BDCs selling assets to [[CLO]]s could cause leverage to **balloon tenfold** while masking risk — flagged as a systemic transmission mechanism.
+
+**Dan Loeb ([[Third Point]], iConnections Miami, Feb 24):** Launching a BDC on April 2 — entering private credit during the crisis. *"The bad news is that a lot of these loans will be impaired, but they don't make up all of the portfolios... There's not a run-on-the-bank scenario, because there's a match between assets and liabilities."*
+
+**Bob Michele ([[JPMorgan Chase\|JPMorgan]] Asset Management, global head fixed income, Feb 24):** *"What everyone's worried about is we haven't had a shake-out in private credit yet. A recession is that ultimate shake-out."*
+
+**Yuji Maeda ([[Nomura]] Asset Management, senior investment officer, Feb 24):** Significant private credit contraction unlikely — lone Asian voice pushing back on Western crisis narrative.
+
+**Boaz Weinstein ([[Saba Capital]], Feb 26):** Sees *"the wheels coming off the car"* in the industry — yet simultaneously buying stakes in three Blue Owl funds at steep NAV discounts. Embodies the moment: alarmed enough to warn, opportunistic enough to buy.
+
+**Hamza Lemssouguer (Arini Capital Management, Feb 26):** *"Every single industry goes through this cycle and I think now it's the turn for private credit."* Called the scrutiny healthy given scale of growth.
+
+**Thomas Buberl ([[Axa]] CEO, Feb 26):** Private credit exposure *"far below"* that of rivals. European insurers distancing.
+
+**Claire-Marie Coste-Lepoutre ([[Allianz]] CFO, Feb 26):** *"Very comfortable"* with position.
+
+**Bank of America (Feb 26):** Called Blue Owl a buy, blasted *"misinformation"* around the money manager.
+
+**Kort Schnabel (head of [[Ares Management\|Ares]] Capital Corp, earnings call ~Feb 26):** *"AI is probably the most disruptive technology risk that we could have imagined and it absolutely is going to disrupt a lot of software companies. I don't want to sugarcoat it. But we still believe strongly that we've constructed a portfolio that will remain highly resistant to this risk."*
+
+**Mike Zawadzki ([[Blackstone]] global chief credit investment officer, Feb 26 video):** Software companies in portfolio *"are growing faster, are larger and better capitalized and have more equity cushion beneath them."*
 
 **Bruce Richards ([[Marathon Asset Management]] CEO, Feb-Mar 2026):** Most vocal bear — predicts 15% software default rate for two consecutive years, ~3x overall direct lending. Called software lending *"a train coming down the tracks that you could see from some distance."* Marathon carries only 1% software exposure vs 23% industry average; focuses on HALO (Hard Assets, Low Obsolescence) strategy — aircraft, engines, cranes. Criticized peers for *"rearranging the furniture"* by relabeling software exposure as hospitality or travel. Marathon being acquired by [[CVC Capital Partners]] for up to $1.2B (Q3 2026).
 
 **Marc Rowan (Apollo CEO, Mar 5):** Warned that **a shakeout is coming for private credit firms** — biggest name in the industry publicly acknowledging the reckoning.
 
-**Mike Arougheti (Ares CEO, Mar 5):** Called UBS forecast of **15% private credit default rates** "absolutely wrong" — same day as Rowan's shakeout warning. The industry can't agree on whether this is fine or existential.
+**Mike Arougheti (Ares CEO, Mar 3-5, Bloomberg Invest):** Called UBS forecast "absolutely wrong" and "actually irresponsible." Even during the 2008 crisis, private credit had **8-10% one-year default rate**. *"If you're talking about 15% default rates in private credit, which again I think is not possible, but if you're there, everything else in your portfolio, I assure you, is going to be completely torched."*
 
-**Jim Zito (Apollo, Mar 5):** Pushed back on framing BDC withdrawals as a problem — "managers are making decisions on how to meet client needs." Acknowledged dispersion coming: "There will be clear dispersion coming. It will be interesting to see."
+**John Zito (Apollo co-president, Bloomberg Invest Mar 3-5, interview Mar 8):** Turmoil could endure *"well into next year."* Called criticism a *"complete misunderstanding"* of the asset class. Key argument: *"If the private credit market goes through, as UBS said, a 15% default rate, the idea that the public high-yield market, the public equity market, all these public markets would be completely fine, while the entire private debt market melts, the likelihood of that is extremely, extremely low."* Also endorsed HPS/BlackRock gating: *"exactly the right decision."*
+
+**Mike Patterson (HPS co-president, Mar 6 video to investors):** *"Allows us to try to optimize performance because we only have to respond to predictable liquidity requests."* Added: *"You never want to be in a position to have to sell illiquid assets based on short term demands for capital."* Called the market "increasingly compelling" for dry powder.
+
+**John Cocke ([[Corbin Capital Partners]], deputy CIO credit, Mar 8):** *"You cannot create liquidity from an illiquid asset class. Not enforcing withdrawal limits will create a first-mover advantage for early redeemers and a prisoner's dilemma problem for the remaining investors."*
+
+**Vivek Bantwal ([[Goldman Sachs]] AM, global co-head private credit, Bloomberg Invest Mar 4):** Limits are *"features and not bugs."*
+
+**Zain Bukhari ([[S&P Global]] Market Intelligence, Mar 8):** Blocking withdrawals *"tends to damage relationships and could lead to further redemptions from investors who weren't planning to exit but interpret it as a distress signal."*
+
+**Michael Paulus (PCM Encore, Mar 8):** On Blackstone BCRED's full redemption + employee investment: *"The combination of allowing full redemptions and making a significant employee investment into the fund gives the market a lot of confidence."* Called it *"highly strategic."*
+
+**Michael Covello (Robert A Stanger, Mar 8):** *"Now that HPS has done that, we would expect others to follow suit."*
+
+**Glenn Schorr ([[Evercore ISI]], Mar 8):** *"Semi-liquid funds were designed and marketed as products offering limited liquidity, especially during times of stress. It's important to retrain the investor base on the nature of private assets."*
+
+**David Solomon ([[Goldman Sachs]] CEO, Bloomberg TV ~Mar 5):** Watching for *"frothiness"* but not yet alarmed: *"While there have been a bunch of idiosyncratic events where there have been problems, the broad portfolios are performing reasonably well."*
+
+**Scott Nuttall ([[KKR]] co-CEO, Bloomberg Deals ~Mar 5):** Sizing up investment spree amid volatility: *"It's all about being ready. You've got to create your shopping lists."* Investors showing *"PTSD from the financial crisis."* Predicts **"K-shaped industry"** — winners vs "apology tour" losers. Expects *"more BlackRock-type acquisitions"* of alternative players, smaller firms merging for asset diversity. *"We're very calm. I think we're actually enjoying this period."*
+
+**Dawn Fitzpatrick (Soros Fund Management CIO, Bloomberg Invest ~Mar 4):** Predicted a *"painful"* **18-24 months** for private credit investors.
+
+**UBS baseline (Mish, ~Mar 5 context):** Beyond the 15% worst-case, UBS generally expects defaults to rise by about **5%** before the broader credit market stabilizes in **late 2026**.
 
 **Mark Zandi (Moody's):** *"The private credit industry is probably currently able to absorb any losses reasonably well, this may not be the case a year from now."*
 
@@ -217,13 +390,15 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 | Signal | Why it matters | Timing |
 |--------|---------------|--------|
-| **Q1 2026 BDC redemption data** | $2.9B in Q4 — accelerating or stabilizing? | April (Stanger report) |
-| **March 31 quarter-end** | Next redemption window for all semi-liquid funds | Mar 31 |
+| **Q1 2026 final redemption data** | Already ~7.5% weighted avg (as of Mar 6) — how many funds gate? | April (Stanger report) |
+| **March 31 quarter-end** | Next redemption window for all semi-liquid funds. >$100B in funds face disclosure | Mar 31 |
+| **Who gates, who accommodates** | Industry splitting — HPS/BlackRock gated, Blackstone accommodated. Each approach has systemic implications | Coming weeks |
 | **OBDC redemption requests** | Blue Owl's $16B+ fund — any spike = escalation | Quarterly |
 | **ARCC quarterly report** | Largest BDC ($26B+), industry canary | Next earnings |
-| **BCRED/BXSL flows** | Blackstone's $50B+ non-traded fund; BXSL allowed record 7.9% redemptions (Mar 3) | Quarterly |
-| **Software default rates** | Currently 4.55% middle-market. Deutsche Bank models 13% under aggressive AI | Ongoing |
+| **BCRED Q2 flows** | $82B fund — will Blackstone keep accommodating, or gate? Employee capital injection is a one-time move | Q2 |
+| **Software default rates** | Fitch: 5.8% (through Jan 2026, record). UBS worst-case 15%. Deutsche Bank models 13% | Ongoing |
 | **PIK loan growth** | Payment-in-kind = borrowers can't service cash interest | Quarterly |
+| **401(k) access** | Trump executive order signed; DOL guidance enabling alternative assets in 401(k)s expected soon. Retail funnel about to get wider just as existing retail investors flee | Imminent |
 | **Warren legislation** | Capital requirements, disclosure, stress tests | Congressional calendar |
 | **Insurance/pension exposure** | They're buying the loans Blue Owl is selling — are they the new bag holders? | Ongoing |
 
@@ -235,13 +410,19 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 |--------|-------|
 | Private credit market size | $1.8T |
 | Q4 2025 BDC redemptions (>$1B) | $2.9B (+200% QoQ) |
+| Q1 2026 weighted avg redemption requests | **~7.5%** (as of Mar 6, vs 5% cap) |
 | First fund gated | OBDC II ($1.7B, Feb 19, 2026) |
+| First perpetual vehicle gated | HPS Corporate Lending Fund ($26B, Mar 6, 2026) |
+| Largest fund — record redemption | BCRED ($82B, 7.9% — Mar 3, 2026) |
 | Software concentration | 14-16% of spec-grade (all-time high) |
-| Middle-market default rate | 4.55% |
+| US private credit default rate | **5.8%** (12mo through Jan 2026 — Fitch, record since Aug 2024 tracker start) |
+| UBS worst-case default scenario | **15%** (Arougheti: "actually irresponsible") |
+| Funds facing Q1 disclosure | **>$100B** (Barclays) |
 | Alt manager contagion | OWL -8.7%, APO/BX/ARES -6%, KKR -4% |
+| Publicly-traded BDC lows | BlackRock TCP $3.82 (record, -50% YoY) |
 
-*Sources: Bloomberg (Fishlow/DiMauro/Brown/Scigliuzzo), Reuters, CNBC, Robert A Stanger & Co., Deutsche Bank (Feb 2026)*
-*Updated 2026-03-05*
+*Sources: Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8; "Twice shy" newsletter ~Mar 7; Feb 26 roundup; Feb 24-25 UBS/Loeb/Michele; Fishlow/DiMauro/Brown/Scigliuzzo, Feb), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, Robert A Stanger & Co., Deutsche Bank, UBS (Mish), Fitch Ratings, Barclays, BofA, Citigroup, KKR filings*
+*Updated 2026-03-09*
 
 ---
 
@@ -254,11 +435,27 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 - [[SaaS stock meltdown 2026]] — catalyst (AI agent fears → software selloff)
 - [[AI agents]] — root cause of software disruption fears
 - [[Alternative asset managers basket]] — sector contagion
-- [[Blackstone]] — BCRED ($50B+), contagion (-6%)
+- [[Brookfield]] — Flatt: "not that big of a deal, definitely not an '08"
+- [[Saba Capital]] — Weinstein: "wheels coming off" yet buying Blue Owl funds at discount
+- [[FS KKR Capital Corp]] — dividend cut 70¢→48¢, non-accruals 3.4%, Medallia write-down
+- [[New Mountain Finance]] — $477M asset sale at 94% FV, shares to 2020 low
+- [[Axa]] — Buberl: exposure "far below" rivals
+- [[Allianz]] — Coste-Lepoutre: "very comfortable" with position
+- [[Blackstone]] — BCRED ($82B), record 7.9% redemption, contagion (-6%)
 - [[Ares Management]] — ARCC ($26B+), contagion (-6%)
 - [[Apollo]] — contagion (-6%)
 - [[KKR]] — contagion (-4%)
 - [[Carlyle Group]] — contagion (-5%)
+- [[HPS Investment Partners]] — HPS Corporate Lending Fund ($26B) gated at 5% (Mar 6, 2026); acquired by BlackRock
+- [[BlackRock]] — HPS fund gate, TCP Capital at record low ($3.82, -50% YoY)
+- [[Goldman Sachs]] — Bantwal: limits are "features not bugs"
+- [[Corbin Capital Partners]] — Cocke: "cannot create liquidity from an illiquid asset class"
+- [[Evercore ISI]] — Schorr: "retrain the investor base"
+- [[Fitch Ratings]] — 5.8% default rate (record since Aug 2024 tracker)
+- [[UBS]] — Mish: worst-case 15% default rate (raised from 13% in one month); lev loans 10%, HY 6%
+- [[Citigroup]] — BDC→CLO asset transfers could balloon leverage 10x, mask risk
+- [[Third Point]] — Loeb: launching BDC April 2, entering during crisis
+- [[Nomura]] — Maeda: significant contraction unlikely
 - [[Marathon Asset Management]] — Richards: loudest software bear, 15% default prediction, HALO strategy
 - [[Starwood Capital Group]] — SREIT targeted by Saba/Cox tender offer (Mar 5, 2026)
 - [[March 2020 liquidity crisis]] — prior liquidity event (different mechanism)

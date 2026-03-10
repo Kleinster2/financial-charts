@@ -82,11 +82,28 @@ Ironic: Philips semiconductor legacy now a geopolitical flashpoint.
 
 ---
 
+## March 2026 re-escalation
+
+| Date | Event |
+|------|-------|
+| Mar 3, 2026 | Dutch HQ disables IT accounts for all [[China]] employees |
+| Mar 6, 2026 | [[Nexperia]] Chinese subsidiary says most operations resumed |
+| Mar 7, 2026 | [[China]] commerce ministry warns of renewed global chip shortage |
+
+Dutch HQ locked Chinese staff out of office IT systems on the evening of Mar 3. The Chinese subsidiary accused HQ of disrupting production at the [[Guangdong]] assembly/testing plant. Dutch entity disputed production impact but didn't deny the IT action.
+
+Beijing's commerce ministry escalated: "If this triggers a global semiconductor production and supply chain crisis again, the Netherlands must bear full responsibility." Diplomatic mediation from Beijing, [[The Hague]], and Brussels has failed to bridge the impasse.
+
+**Why it matters:** The Oct 2025 auto chip shortage showed this dispute can cascade globally. The IT lockout suggests the corporate-level conflict is intensifying even as governments push for resolution. Both entities continue trading bad-faith accusations while wafer supply to the Chinese plant remains suspended.
+
+---
+
 ## Sources
 
 - [Al Jazeera](https://www.aljazeera.com/news/2025/10/14/why-has-dutch-government-taken-control-of-china-owned-chipmaker-nexperia)
 - [CNBC](https://www.cnbc.com/2025/10/13/dutch-government-takes-control-of-chinese-owned-chipmaker-nexperia.html)
 - [Bloomberg](https://www.bloomberg.com/news/articles/2025-10-14/china-puts-export-controls-on-nexperia-after-dutch-takeover)
+- [Reuters — China warns of global chip shortages (Mar 7, 2026)](https://www.reuters.com/business/autos-transportation/china-warns-global-chip-shortages-nexperia-dispute-escalates-again-2026-03-07/)
 
 ---
 

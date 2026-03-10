@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [Third Point LLC, Dan Loeb, Daniel Loeb, TPVG]
 ---
 #actor #investor #activist #hedgefund #usa #private
 
@@ -72,7 +72,9 @@ Famous for scathing public letters to CEOs.
 - [[Disney]] — activist target
 - [[Elliott Management]] — peer
 - [[Starboard Value]] — peer
+- [[Private credit retail liquidity crisis 2026]] — launching BDC April 2, 2026 during crisis
+- [[Private Credit]] — entering as direct lender
 
 ---
 
-*Created 2026-01-16*
+*Updated 2026-03-09*

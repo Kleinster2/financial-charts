@@ -1,5 +1,5 @@
 ---
-aliases: [BN, BAM]
+aliases: [Brookfield Corp, BAM, Brookfield Asset Management, BN]
 ---
 #actor #finance #infrastructure #canada
 
@@ -210,3 +210,5 @@ Brookfield is attempting what **J.P. Morgan did for railroads** and **infrastruc
 - [[Power constraints]] — context (owns renewable assets)
 - [[AI infrastructure financing]] — thesis
 - [[Nuclear power for AI]] — exposure via [[Westinghouse]]
+- [[Private credit retail liquidity crisis 2026]]
+- [[Private Credit]]

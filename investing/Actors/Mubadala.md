@@ -142,6 +142,12 @@ Mubadala continued buying IBIT during the late 2025 / early 2026 crypto dip — 
 
 ---
 
+## ADIC v. EMG — continuation fund litigation
+
+[[ADIC|Abu Dhabi Investment Council]], an independently run Mubadala unit, sued [[Energy Minerals Group]] (EMG) in Delaware Chancery Court (Dec 3, 2025) to block EMG from transferring a 30% stake in [[Ascent Resources]] (largest private US natural gas company, $5.5B implied valuation) into a [[Continuation fund|continuation vehicle]]. ADIC alleged EMG engineered a conflicted, below-market self-dealing transaction — telling existing LPs the asset was "depressed" while marketing it to CV investors as "competitive with peers." [[Mason Capital]] and [[Kimmeridge Energy Management|Kimmeridge]] ($6.0B competing bid) intervened. Court halted the deal pending arbitration (deadline Feb 27, 2026). Bloomberg reported (Mar 2026) that Mubadala "lost its fight" — the ruling allows EMG to proceed. See [[Continuation fund]] for full case details and market implications.
+
+---
+
 ## Investment case
 
 **Can't invest directly** (sovereign fund), but signals:
@@ -149,6 +155,7 @@ Mubadala continued buying IBIT during the late 2025 / early 2026 crypto dip — 
 - Global deal access patterns
 - [[Private credit]] market trends
 - Tech/finance convergence
+- [[Continuation fund]] governance precedent (ADIC v. EMG)
 
 ---
 
@@ -183,6 +190,10 @@ Mubadala continued buying IBIT during the late 2025 / early 2026 crypto dip — 
 - [[Abu Dhabi Crypto Hub]] — sovereign crypto strategy
 - [[BlackRock]] — major partner (incl. IBIT Bitcoin ETF)
 - [[Apollo]] — $12B private credit anchor
+- [[Continuation fund]] — ADIC v. EMG landmark litigation
+- [[ADIC]] — Abu Dhabi Investment Council (Mubadala unit, plaintiff)
+- [[Energy Minerals Group]] — defendant in CV case
+- [[Ascent Resources]] — asset at center of dispute
 
 ---
 

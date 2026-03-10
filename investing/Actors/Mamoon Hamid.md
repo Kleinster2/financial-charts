@@ -31,7 +31,7 @@
 | Box | Board member | IPO |
 | [[Glean]] | Board member | Enterprise AI search |
 | Netskope | Board member | Cloud security leader |
-| Intercom | Board member | Customer messaging |
+| [[Intercom]] | Board member | Customer messaging |
 
 ---
 
@@ -43,7 +43,7 @@
 | Social Capital | Co-founder | 2011-2017 |
 | [[Kleiner Perkins]] | General Partner | 2017- |
 
-**Social Capital:** Co-founded with [[Chamath Palihapitiya]]. Led investments in [[Slack]], Intercom, Greenhouse, Netskope, Front.
+**Social Capital:** Co-founded with [[Chamath Palihapitiya]]. Led investments in [[Slack]], [[Intercom]], Greenhouse, Netskope, Front.
 
 ---
 

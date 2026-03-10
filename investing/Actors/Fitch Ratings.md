@@ -54,7 +54,9 @@ Fitch ratings referenced extensively across bond inventory notes:
 | Scale | Smallest of Big Three |
 | Status | Private |
 
-*Created 2026-02-11*
+| Key data | US [[Private Credit]] default tracker (began Aug 2024): **5.8%** default rate (12mo through Jan 2026 — record) |
+
+*Updated 2026-03-09*
 
 ---
 
@@ -66,3 +68,5 @@ Fitch ratings referenced extensively across bond inventory notes:
 - [[Intel bonds]] — Fitch negative outlook, downgrade trajectory
 - [[Oracle bonds]] — Fitch BBB stable
 - [[Hyperscaler bond issuance]] — ratings across tech issuers
+- [[Private Credit]] — Fitch default tracker: 5.8% (12mo through Jan 2026, record since tracker start)
+- [[Private credit retail liquidity crisis 2026]] — default data context for retail crisis

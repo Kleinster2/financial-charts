@@ -51,7 +51,18 @@ aliases: [SRT, SRTs, credit risk transfer, CRT]
 - Hyperscalers borrowing tens of billions
 - Concentration risk concerns
 
-**Market growth:** Global SRT sales expected +11% annually through 2027.
+**Market growth:** Global SRT issuance hit **$41B in 2025** (up from $29B in 2024) — record pace. Banks mostly from Europe and North America are using SRTs to hedge a **wider range of loans** beyond the original concentrated AI/DC exposure use case. *(Source: Crescent Capital, Bloomberg Mar 2026)*
+
+---
+
+## Market size
+
+| Year | SRT issuance | Change | Source |
+|------|-------------|--------|--------|
+| 2024 | $29B | — | Crescent Capital |
+| **2025** | **$41B** | **+41% YoY** | Crescent Capital |
+
+Record pace driven by banks expanding SRT use beyond concentrated exposures (AI/DC loans) into broader loan portfolios. European and North American banks dominate issuance.
 
 ---
 
@@ -84,4 +95,4 @@ aliases: [SRT, SRTs, credit risk transfer, CRT]
 - [[AI infrastructure financing risk]] — underlying concern
 - [[Oracle]] — CDS spike flagged as warning sign
 
-*Created 2026-01-15*
+*Updated 2026-03-09*

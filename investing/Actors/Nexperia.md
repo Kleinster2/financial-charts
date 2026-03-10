@@ -77,6 +77,16 @@ See [[Dutch seizure of Nexperia]] for full details.
 
 ---
 
+## March 2026 escalation
+
+Dispute reignited Mar 3, 2026: Dutch HQ disabled office IT accounts for all employees at Nexperia's Chinese operations. [[China]]'s commerce ministry warned on Mar 7 of a renewed global semiconductor supply chain crisis, saying the "Dutch side must bear full responsibility" if shortages recur.
+
+The Chinese subsidiary — which declared independence from Dutch parent in Sep 2025 — accused HQ of disrupting production at its [[Guangdong]] assembly/testing facility. Dutch entity disputed production impact but did not deny the IT action.
+
+Mediation efforts from Beijing, [[The Hague]], and Brussels have failed to resolve the impasse. Amsterdam court proceedings that transferred [[Wingtech]]'s shares to a Dutch lawyer in Oct 2025 remain a core grievance for Beijing.
+
+---
+
 ## Related
 
 - [[NXP]] — former parent (Nexperia spun off 2017)

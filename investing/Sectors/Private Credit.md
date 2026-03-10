@@ -18,7 +18,7 @@ $1.8T market of non-bank lending to corporates. The fastest-growing corner of al
 | Private credit (global) | **$1.8T** (2025) |
 | 2028 forecast | $3.5T ([[BlackRock]]) |
 | Growth | $500B (2020) → $1.3T (2024) → $1.8T (2025) |
-| Default rate | 2-3% (reported); middle-market 4.55% |
+| Default rate | **5.8%** (12mo through Jan 2026, Fitch — record since Aug 2024 tracker); middle-market 4.55% |
 | Spread vs bank debt | +100-300 bps |
 | Bank exposure to private credit | **$300B** (Moody's, Oct 2025) |
 | US life insurer illiquid credit | **$2T** (Moody's) |
@@ -26,6 +26,15 @@ $1.8T market of non-bank lending to corporates. The fastest-growing corner of al
 | Software concentration | 14-16% of spec-grade ("all-time" — Deutsche Bank) |
 | LMEs harming creditors ($500M+) | 33 (2024), 23 (2025) |
 | AI DC spending by 2030 | **$7T** (McKinsey) |
+| **2025 drawdown fundraising** | **$234.1B** across 200 funds (PitchBook) |
+| Direct lending share | $110.8B (47.4% of total) |
+| Capital concentration (>$1B funds) | **85.1%** of private debt capital — record |
+| Experienced manager share | **91.7%** — near-record |
+| First-time fund managers | 14 funds, $2.4B — **record low** |
+| Private debt dry powder | **$618.1B** (June 2025) |
+| **Evergreen fund net AUM** | **$493.4B** (2025), up >20%/yr since 2022 |
+| Direct lending evergreen AUM | **$209.4B** — #1 strategy, grew 55%→66%→28% (2023-25) |
+| New evergreen fund launches (2025) | **107** (record, smashing 71 in 2023) |
 
 ---
 
@@ -71,7 +80,7 @@ If borrower breaches covenants: demand equity injection from PE sponsor, force a
 
 | Firm | Ticker | Private credit AUM | Key vehicle | Notes |
 |------|--------|-------------------|-------------|-------|
-| [[Blackstone]] | BX | $50B+ (BCRED) | BCRED (non-traded) | Largest non-traded fund |
+| [[Blackstone]] | BX | $82B (BCRED) | BCRED (non-traded) | Largest non-traded fund; record 7.9% Q1 redemptions |
 | [[Ares Management]] | ARES | $26B+ (ARCC) | ARCC (public BDC) | Largest public BDC |
 | [[Blue Owl]] | OWL | $16B+ (OBDC) | OBDC (public), OBDC II (**gated**) | First retail gate (Feb 2026) |
 | [[Apollo]] | APO | Various | Multiple vehicles | Insurance-heavy model |
@@ -132,11 +141,12 @@ The retail model is breaking. After 5 years of selling illiquid loans as "bond a
 | Fund | AUM | Status |
 |------|-----|--------|
 | OBDC II ([[Blue Owl]]) | $1.7B | 🔴 **Gated** (Feb 19) |
+| HPS Corporate Lending Fund ([[BlackRock]]/[[HPS Investment Partners\|HPS]]) | $26B | 🔴 **Capped at 5%** (Mar 6) — ~10% requested |
+| BCRED ([[Blackstone]]) | $82B | 🟡 **Record 7.9% redeemed** (Mar 3) — firm + employee capital used |
 | OBDC ([[Blue Owl]]) | $16B+ | 🟡 Watching |
-| ARCC ([[Ares Management]]) | $26B+ | 🟡 Watching |
-| BCRED ([[Blackstone]]) | $50B+ | 🟡 Watching |
+| ARCC ([[Ares Management]]) | $26B+ | 🟡 Watching — met ~5.6% in Q1 |
 
-**Next test:** March 31 quarter-end — redemption requests hit all semi-liquid funds simultaneously.
+**Next test:** March 31 quarter-end. **>$100B in funds** to disclose Q1 data (Barclays). Q1 2026 weighted avg redemption requests already ~7.5% across tracked funds (Stanger, as of Mar 6).
 
 **Key event notes:**
 - [[Private credit retail liquidity crisis 2026]] — master event
@@ -381,6 +391,6 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 - [[GIC]] — sovereign wealth, private credit lender
 - [[Permira]] — PE sponsor extracting cov-lite terms
 
-*Updated 2026-03-05*
+*Updated 2026-03-09*
 
-*Sources: Bloomberg Markets (Feb/Mar 2026 issue), Reuters, CNBC, FT*
+*Sources: Bloomberg Markets (Feb/Mar 2026 issue), Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8 2026), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, FT, Fitch Ratings*

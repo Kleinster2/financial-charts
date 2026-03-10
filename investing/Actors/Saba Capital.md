@@ -1,5 +1,5 @@
 ---
-aliases: [Saba Capital Management, Saba]
+aliases: [Saba Capital Management, Saba, Boaz Weinstein]
 ---
 #actor #investor #hedgefund #activist #usa
 
