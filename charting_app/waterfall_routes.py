@@ -76,15 +76,18 @@ def get_waterfall_chart():
     try:
         conn = get_db_connection()
 
+        cols = """fiscal_date_ending, total_revenue, cost_of_revenue,
+                  gross_profit, operating_income, net_income,
+                  research_and_development, selling_general_administrative,
+                  interest_expense, income_tax_expense"""
+
         if date_param:
-            query = f"""SELECT fiscal_date_ending, total_revenue, cost_of_revenue,
-                        gross_profit, operating_income, net_income
+            query = f"""SELECT {cols}
                         FROM {table} WHERE ticker = ? AND fiscal_date_ending = ?
                         LIMIT 1"""
             df = pd.read_sql(query, conn, params=(ticker, date_param))
         else:
-            query = f"""SELECT fiscal_date_ending, total_revenue, cost_of_revenue,
-                        gross_profit, operating_income, net_income
+            query = f"""SELECT {cols}
                         FROM {table} WHERE ticker = ?
                         ORDER BY fiscal_date_ending DESC LIMIT 1"""
             df = pd.read_sql(query, conn, params=(ticker,))
@@ -96,33 +99,92 @@ def get_waterfall_chart():
 
         row = df.iloc[0]
         fiscal_date = row['fiscal_date_ending']
-        revenue = float(row['total_revenue']) if pd.notna(row['total_revenue']) else 0
-        cogs = float(row['cost_of_revenue']) if pd.notna(row['cost_of_revenue']) else 0
-        gross_profit = float(row['gross_profit']) if pd.notna(row['gross_profit']) else 0
-        operating_income = float(row['operating_income']) if pd.notna(row['operating_income']) else 0
-        net_income = float(row['net_income']) if pd.notna(row['net_income']) else 0
 
-        # Derived values
-        # OpEx = Gross Profit - Operating Income (includes R&D, SG&A, etc.)
-        opex = gross_profit - operating_income
-        # Below-the-line = Operating Income - Net Income (interest, taxes, other)
-        below_line = operating_income - net_income
+        def _val(col):
+            return float(row[col]) if col in row and pd.notna(row[col]) else 0
+
+        revenue = _val('total_revenue')
+        cogs = _val('cost_of_revenue')
+        gross_profit = _val('gross_profit')
+        operating_income = _val('operating_income')
+        net_income = _val('net_income')
+        rd = _val('research_and_development')
+        sga = _val('selling_general_administrative')
+        interest = _val('interest_expense')
+        tax = _val('income_tax_expense')
 
         # If gross_profit is 0 but we have revenue and cogs, calculate it
         if gross_profit == 0 and revenue > 0 and cogs > 0:
             gross_profit = revenue - cogs
 
-        # Build waterfall data
-        # Bars: Revenue (positive), COGS (negative), Gross Profit (subtotal),
-        #        OpEx (negative), Operating Income (subtotal),
-        #        Below-line (negative), Net Income (final)
-        labels = ['Revenue', 'COGS', 'Gross\nProfit', 'OpEx', 'Operating\nIncome',
-                  'Tax &\nOther', 'Net\nIncome']
-        values = [revenue, -cogs, gross_profit, -opex, operating_income,
-                  -below_line, net_income]
-        # For waterfall positioning
-        # "total" bars start from 0; "delta" bars stack from previous total
-        bar_types = ['total', 'delta', 'total', 'delta', 'total', 'delta', 'total']
+        # Determine detail level
+        has_opex_detail = rd > 0 or sga > 0
+        has_below_line_detail = interest > 0 or tax > 0
+
+        # Build waterfall data based on available detail
+        if has_opex_detail and has_below_line_detail:
+            # Full detail: Revenue -> COGS -> Gross Profit -> R&D -> SG&A -> Other OpEx -> Op Income -> Interest -> Tax -> Other -> Net Income
+            other_opex = max(0, (gross_profit - operating_income) - rd - sga)
+            other_below = max(0, (operating_income - net_income) - interest - tax)
+
+            labels = ['Revenue', 'COGS', 'Gross\nProfit', 'R&D', 'SG&A']
+            values = [revenue, -cogs, gross_profit, -rd, -sga]
+            bar_types = ['total', 'delta', 'total', 'delta', 'delta']
+
+            if other_opex > revenue * 0.01:  # Only show if >1% of revenue
+                labels.append('Other\nOpEx')
+                values.append(-other_opex)
+                bar_types.append('delta')
+
+            labels.append('Operating\nIncome')
+            values.append(operating_income)
+            bar_types.append('total')
+
+            labels.append('Interest')
+            values.append(-interest)
+            bar_types.append('delta')
+
+            labels.append('Tax')
+            values.append(-tax)
+            bar_types.append('delta')
+
+            if other_below > revenue * 0.01:
+                labels.append('Other')
+                values.append(-other_below)
+                bar_types.append('delta')
+
+            labels.append('Net\nIncome')
+            values.append(net_income)
+            bar_types.append('total')
+
+        elif has_opex_detail:
+            # OpEx detail only
+            other_opex = max(0, (gross_profit - operating_income) - rd - sga)
+            below_line = operating_income - net_income
+
+            labels = ['Revenue', 'COGS', 'Gross\nProfit', 'R&D', 'SG&A']
+            values = [revenue, -cogs, gross_profit, -rd, -sga]
+            bar_types = ['total', 'delta', 'total', 'delta', 'delta']
+
+            if other_opex > revenue * 0.01:
+                labels.append('Other\nOpEx')
+                values.append(-other_opex)
+                bar_types.append('delta')
+
+            labels += ['Operating\nIncome', 'Tax &\nOther', 'Net\nIncome']
+            values += [operating_income, -below_line, net_income]
+            bar_types += ['total', 'delta', 'total']
+
+        else:
+            # Basic: lumped OpEx and below-the-line
+            opex = gross_profit - operating_income
+            below_line = operating_income - net_income
+
+            labels = ['Revenue', 'COGS', 'Gross\nProfit', 'OpEx', 'Operating\nIncome',
+                      'Tax &\nOther', 'Net\nIncome']
+            values = [revenue, -cogs, gross_profit, -opex, operating_income,
+                      -below_line, net_income]
+            bar_types = ['total', 'delta', 'total', 'delta', 'total', 'delta', 'total']
 
         # Colors
         color_positive = '#2962FF'  # blue - totals/revenue
