@@ -13,7 +13,7 @@ Run the script directly (python download_futures.py) or import and call
 from __future__ import annotations
 
 import sqlite3
-from datetime import datetime
+from datetime import datetime, timedelta
 import sys
 
 import pandas as pd
@@ -24,7 +24,7 @@ from constants import DB_PATH, get_db_connection
 # Config
 # -----------------------------------------------------------------------------
 START_DATE = "2019-12-31"  # Earliest date to include
-END_DATE = datetime.today().strftime("%Y-%m-%d")
+END_DATE = (datetime.today() + timedelta(days=1)).strftime("%Y-%m-%d")
 
 # A reasonably broad yet still concise universe of liquid futures contracts.
 # Yahoo Finance uses the suffix "=F" to denote continuous (front-month) futures

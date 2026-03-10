@@ -11,11 +11,11 @@ It delegates to:
 Interactive mode: Run without arguments to get a menu.
 """
 import argparse
+import os
+import subprocess
 import sys
 import time
 from datetime import datetime
-
-import subprocess
 
 from constants import DB_PATH
 from download_all_assets import update_sp500_data
@@ -426,6 +426,17 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
             if verbose:
                 print("\n[Orchestrator] Updating asset group: futures")
             update_futures_data(verbose=verbose)
+            # Fill gaps with live quotes (yfinance bulk download misses some dates)
+            if verbose:
+                print("[Orchestrator] Filling futures gaps with live quotes...")
+            try:
+                subprocess.run(
+                    [sys.executable, "scripts/fill_live_futures.py"],
+                    cwd=os.path.dirname(os.path.abspath(__file__)),
+                    timeout=120,
+                )
+            except Exception as e:
+                print(f"Warning: live futures fill failed: {e}")
 
         # Run implied volatility updater if requested
         if "iv" in assets_to_run:
