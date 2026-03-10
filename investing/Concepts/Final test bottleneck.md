@@ -74,3 +74,4 @@ This is a "picks and shovels" angle:
 - [[Advanced packaging]] — upstream bottleneck
 - [[NVIDIA]] — customer (chips need final test)
 - [[AMD]] — customer (chips need final test)
+- [[Semiconductor Test]] — full value chain sector overview

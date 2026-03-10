@@ -147,6 +147,10 @@ Can hold both theses simultaneously. They're not mutually exclusive.
 - [[NVIDIA]] — customer (chips need test)
 - [[AMD]] — customer (chips need test)
 - [[Short TSMC long Korea]] — complementary thesis
+- [[Semiconductor Test]] — full value chain sector overview
+- [[KYEC]] — monopoly on NVIDIA GB package testing
+- [[Technoprobe]] — probe card leader (logic)
+- [[FormFactor]] — probe card leader (memory)
 
 ---
 
