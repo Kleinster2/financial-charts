@@ -266,6 +266,28 @@ Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of la
 - **Layoffs confirmed:** Thousands of job cuts beginning March 2026, multiple divisions. Some roles replaced by AI automation.
 - **Margin question:** Operating margins not widening — earnings growth (16%) lagging revenue growth (20%). Key watch item.
 
+### Source charts
+
+![[orcl-ltm-financials-sankey.png]]
+*LTM financials flow: $61B revenue (83% Cloud & License), 68.5% gross margin, 31.8% operating margin, $15.4B net profit. ~10% effective tax rate.*
+
+![[orcl-5yr-chart-analyst-targets.png]]
+*5-year price vs analyst targets. Stock tripled from ~$100 (mid-2023) to ~$340 (Sep 2025), then pulled back ~60% to ~$150. Analyst target range: $155-$400.*
+
+![[orcl-analyst-summary-mar2026.png]]
+*LSEG: 33 Buy / 11 Hold / 1 Sell. TipRanks: 26 Buy / 6 Hold / 0 Sell. Consensus EPS $1.70, revenue $16.92B.*
+
+![[orcl-daily-candlestick-mar2026.png]]
+*Daily chart showing falling wedge breakout. Support $139-138, resistance $165 then $172-173. Broke long-term uptrend in Oct 2025.*
+
+![[orcl-options-expected-move-mar2026.png]]
+*Options-implied expected move: ±9.5% for 3/13 expiry (133.6% IV — earnings event). Steep IV backwardation. Range $137-$166 near-term.*
+
+![[orcl-seasonality-mar2026.png]]
+*Seasonality: March closes +3.2% in 80% of years since 2022. April closes -4.2% in 50% of years.*
+
+*Source: Investing.com (Ali Merchant/TwT Learnings), Mar 10, 2026*
+
 ### Options positioning
 
 - Large net positive OI at $160 strike (88.7K contracts)
@@ -326,11 +348,36 @@ Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of la
 
 | Date | Analyst | Rating | PT | Context |
 |------|---------|--------|----|---------|
-| Jan 2026 | [[Guggenheim Partners]] (DiFucci) | Buy | $400 | "Decade stock" — $290B capex math, $166B FY30 revenue, 118% upside from $183 |
-| Mar 2026 | [[Baird]] | Outperform | $200 | Cut from $300 pre-Q3 |
-| Mar 2026 | [[Scotiabank]] | Sector Outperform | $215 | Cut from $220 pre-Q3 |
-| Mar 2026 | [[TD Cowen]] | Buy | $250 | Cut from $350 pre-Q3 |
-| Mar 2026 | [[Jefferies]] (Brad Thill) | — | — | Sell-off "overdone," Oracle opportunities beyond OpenAI undervalued. OCI consensus ~86% growth (accel from Q2's 68%) |
+| Jan 5, 2026 | [[UBS]] | Buy | $280 | |
+| Jan 5, 2026 | [[Jefferies]] (Brad Thill) | Buy | $400 | |
+| Jan 12, 2026 | [[Goldman Sachs]] | Buy | $240 | |
+| Jan 14, 2026 | [[KeyBanc]] | Buy | $300 | |
+| Jan 20, 2026 | [[Guggenheim Partners]] (DiFucci) | Buy | $400 | "Decade stock" — $290B capex math, $166B FY30 revenue |
+| Jan 23, 2026 | [[Morgan Stanley]] | Hold | $213 | |
+| Feb 2, 2026 | [[Guggenheim Partners]] (DiFucci) | Buy | $400 | Reiterated |
+| Feb 2, 2026 | [[Jefferies]] (Brad Thill) | Buy | $400 | Reiterated |
+| Feb 2, 2026 | [[RBC Capital]] | Hold | $195 | |
+| Feb 2, 2026 | [[Barclays]] | Buy | $310 | |
+| Feb 2, 2026 | [[UBS]] | Buy | $250 | Cut from $280 |
+| Feb 3, 2026 | [[Scotiabank]] | Buy | $220 | |
+| Feb 3, 2026 | [[Piper Sandler]] | Buy | $240 | |
+| Feb 4, 2026 | [[BMO Capital]] | Buy | $205 | |
+| Feb 5, 2026 | [[Citizens]] | Buy | $285 | |
+| Feb 9, 2026 | [[Bernstein]] | Buy | $313 | |
+| Feb 9, 2026 | [[DA Davidson]] | Buy | $180 | |
+| Feb 9, 2026 | [[Melius]] | Hold | $160 | |
+| Feb 25, 2026 | [[Oppenheimer]] | Buy | $185 | |
+| Mar 4, 2026 | [[Citi]] | Buy | $310 | |
+| Mar 4, 2026 | [[RBC Capital]] | Hold | $160 | Cut from $195 |
+| Mar 5, 2026 | [[Jefferies]] (Brad Thill) | Buy | $320 | Cut from $400. Sell-off "overdone," opportunities beyond OpenAI undervalued. OCI consensus ~86% growth (accel from Q2's 68%) |
+| Mar 5, 2026 | [[Barclays]] | Buy | $310 | |
+| Mar 6, 2026 | [[Piper Sandler]] | Buy | $240 | Maintained |
+| Mar 6, 2026 | [[TD Cowen]] | Buy | $250 | Cut from $350 |
+| Mar 9, 2026 | [[Barclays]] | Buy | $230 | Cut from $310 |
+| Mar 9, 2026 | [[Scotiabank]] | Sector Outperform | $215 | Cut from $220 |
+| Mar 2026 | [[Baird]] | Outperform | $200 | Cut from $300 |
+
+**Coverage summary (LSEG):** 33 Buy / 11 Hold / 1 Sell. Avg PT $253. Range $155-$400.
 
 ---
 
