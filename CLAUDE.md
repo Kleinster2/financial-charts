@@ -154,6 +154,17 @@ Start server: `cd /c/Users/klein/financial-charts && python charting_app/app.py`
 
 Exceptions, fallbacks, and plugin limitations: see `docs/chart-api.md` and `investing/chart-registry.md`.
 
+### Financial Statement Charts
+
+Sankey and waterfall charts use a fixed naming convention:
+
+```
+{ticker}-sankey.png           # income statement Sankey flow diagram
+{ticker}-waterfall.png        # income statement waterfall bar chart
+```
+
+Examples: `aapl-sankey.png`, `orcl-waterfall.png`. Always lowercase ticker. No `-chart` suffix, no date suffix. Same ticker always overwrites the previous version — these show the latest fiscal year by default.
+
 ---
 
 ## Known Limitations
