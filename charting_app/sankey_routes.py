@@ -131,6 +131,12 @@ def get_sankey_chart():
         links.append({'source': 'gross', 'target': 'operating', 'value': operating_income, 'type': 'profit'})
 
         # Column 3: Below-the-line
+        # Check for non-operating income: if net_income > operating_income - interest - tax,
+        # there's income from investments/other sources not captured in operating income.
+        known_costs = interest + tax
+        implied_net = operating_income - known_costs
+        non_op_income = max(0, net_income - implied_net) if has_below_detail else 0
+
         if has_below_detail:
             if interest > 0:
                 nodes.append({'id': 'interest', 'name': 'Interest', 'value': interest, 'nodeType': 'cost', 'col': 3})
@@ -138,16 +144,35 @@ def get_sankey_chart():
             if tax > 0:
                 nodes.append({'id': 'tax', 'name': 'Tax', 'value': tax, 'nodeType': 'cost', 'col': 3})
                 links.append({'source': 'operating', 'target': 'tax', 'value': tax, 'type': 'cost'})
-            if other_below > revenue * 0.005:
-                nodes.append({'id': 'other_below', 'name': 'Other', 'value': other_below, 'nodeType': 'cost', 'col': 3})
-                links.append({'source': 'operating', 'target': 'other_below', 'value': other_below, 'type': 'cost'})
+
+            # If there's significant non-operating income, add it as an inflow to net income
+            if non_op_income > revenue * 0.005:
+                nodes.append({'id': 'other_income', 'name': 'Other Income', 'value': non_op_income, 'nodeType': 'gross', 'col': 2})
+                links.append({'source': 'other_income', 'target': 'net', 'value': non_op_income, 'type': 'profit'})
+                # Operating income only flows its share to net (after costs)
+                op_to_net = operating_income - interest - tax
+                if op_to_net > 0:
+                    nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3})
+                    links.append({'source': 'operating', 'target': 'net', 'value': op_to_net, 'type': 'net'})
+                else:
+                    nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3})
+                    links.append({'source': 'operating', 'target': 'net', 'value': max(0, operating_income - interest - tax), 'type': 'net'})
+            else:
+                # Other below-the-line costs (when no non-op income)
+                actual_other = max(0, operating_income - interest - tax - net_income)
+                if actual_other > revenue * 0.005:
+                    nodes.append({'id': 'other_below', 'name': 'Other', 'value': actual_other, 'nodeType': 'cost', 'col': 3})
+                    links.append({'source': 'operating', 'target': 'other_below', 'value': actual_other, 'type': 'cost'})
+
+                nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3})
+                links.append({'source': 'operating', 'target': 'net', 'value': net_income, 'type': 'net'})
         else:
             if total_below > 0:
                 nodes.append({'id': 'below', 'name': 'Tax & Other', 'value': total_below, 'nodeType': 'cost', 'col': 3})
                 links.append({'source': 'operating', 'target': 'below', 'value': total_below, 'type': 'cost'})
 
-        nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3})
-        links.append({'source': 'operating', 'target': 'net', 'value': net_income, 'type': 'net'})
+            nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3})
+            links.append({'source': 'operating', 'target': 'net', 'value': net_income, 'type': 'net'})
 
         # Margins
         gross_margin = gross_profit / revenue * 100 if revenue else 0
