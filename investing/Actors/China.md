@@ -209,7 +209,11 @@ Practical measures: robots to perform jobs in labor-shortage sectors, AI agents 
 
 Market read: this is the formal end of a unified global tech market. China insulating its economy from Western supply chains, particularly in AI and advanced semiconductors. Investment implication: decoupling acceleration, domestic substitution plays ([[Huawei]], [[SMIC]], [[Cambricon]]).
 
-*Source: NPC proceedings, Xinhua, Bloomberg, Mar 5 2026*
+**Open-source as strategy:** Tilly Zhang (Gavekal Dragonomics): open source wasn't in previous plans — China has "decided to make open-source AI a flagship strategy and a competitive advantage against the United States." See [[DeepSeek]].
+
+**Market reaction (Mar 5-9):** Analysts at [[Citigroup]] and [[Morgan Stanley]] shifted to favoring tech/innovation sectors. The plan signals a shift from AI *breakthroughs* to AI *commercialization* — widening beneficiaries beyond chipmakers to humanoid robots, brain-computer interfaces, biomanufacturing, future energy. "Smart economy" appeared for first time in the work report. AI mentioned 7x in Li Qiang's report (vs 3x in 2025). Target: digital economy core industries = 12.5% of GDP by 2030 (from 10.5% in 2025). Star 50 Index down 9.1% from Jan high but Chinese markets outperforming Asian peers during [[2026 Iran conflict market impact|Iran sell-off]]. Caution from UBP: "nothing new in terms of direction or specific support."
+
+*Sources: NPC proceedings, Xinhua, Bloomberg (Mar 5 2026); Straits Times (Mar 9 2026)*
 
 ### Big Fund (National IC Fund)
 - Phase I: $20B (2014)
