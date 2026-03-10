@@ -322,6 +322,18 @@ Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of la
 
 ---
 
+## Analyst timeline
+
+| Date | Analyst | Rating | PT | Context |
+|------|---------|--------|----|---------|
+| Jan 2026 | [[Guggenheim Partners]] (DiFucci) | Buy | $400 | "Decade stock" — $290B capex math, $166B FY30 revenue, 118% upside from $183 |
+| Mar 2026 | [[Baird]] | Outperform | $200 | Cut from $300 pre-Q3 |
+| Mar 2026 | [[Scotiabank]] | Sector Outperform | $215 | Cut from $220 pre-Q3 |
+| Mar 2026 | [[TD Cowen]] | Buy | $250 | Cut from $350 pre-Q3 |
+| Mar 2026 | [[Jefferies]] | — | — | Sell-off "overdone," Oracle opportunities beyond OpenAI undervalued |
+
+---
+
 ## Related
 
 - [[Guggenheim Partners]] — DiFucci "decade stock" thesis ($400 PT)

@@ -20,6 +20,7 @@ Templates and required content for different note types.
 | ✓ | Correlation structure (sector and index notes) |
 | | Currency/specificity (subjective) |
 | | Sector correlation section (actor notes) |
+| | Analyst timeline (public companies) |
 | | Journal sections |
 | | Event note structure |
 | ✓ | Synopsis (actor notes) |
@@ -382,6 +383,40 @@ curl "http://localhost:5000/api/chart/lw?tickers=ASML,AMAT,LRCX,KLAC&start=2024-
 ```
 
 **Naming convention:** `{sector-name}-sector-chart.png` (lowercase, hyphenated).
+
+### Analyst timeline (public companies)
+
+**Every public company actor note should include an `## Analyst timeline` section** that chronologically records analyst ratings, price targets, and key commentary. This creates a running record of how the Street's view evolved — essential for tracking consensus shifts, identifying contrarian calls, and evaluating analyst accuracy over time.
+
+```markdown
+## Analyst timeline
+
+| Date | Analyst | Rating | PT | Context |
+|------|---------|--------|----|---------|
+| Jan 2026 | [[Guggenheim Partners]] (DiFucci) | Buy | $400 | "Decade stock" thesis |
+| Mar 2026 | [[Baird]] | Outperform | $200 | Cut from $300 pre-Q3 |
+| Mar 2026 | [[TD Cowen]] | Buy | $250 | Cut from $350 pre-Q3 |
+```
+
+**What to record:**
+- Rating changes (upgrade/downgrade/initiation)
+- Price target changes (always note "from $X" when cutting/raising)
+- Notable commentary even without rating change (e.g., "sell-off overdone")
+- Post-earnings revisions
+- Initiations of coverage
+
+**Context column:** Keep it brief — the catalyst or reasoning in one line. Link to the analyst/firm as an actor when they have a note.
+
+**When to add entries:**
+- Any time analyst opinions, estimates, or forecasts are encountered — from earnings previews, news articles, research notes, or user-provided data
+- After earnings reports (capture the wave of revisions)
+- When an analyst makes a notable contrarian or consensus-defining call
+
+**Placement:** Before the Related section, after Investment implications or Quick stats.
+
+**Wikilink firms:** Analyst firms should be `[[wikilinked]]`. Individual analysts get parenthetical attribution: `[[Firm]] (Analyst Name)`.
+
+---
 
 ### Journal section
 
