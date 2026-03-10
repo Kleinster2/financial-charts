@@ -147,6 +147,22 @@ See [[CoreWeave]] for detailed analysis.
 
 ---
 
+## Sentiment shift (March 2026)
+
+[[BofA]] fund manager survey (March 2026) signals institutional skepticism reaching critical mass:
+
+| Finding | Detail |
+|---------|--------|
+| AI capex as credit crisis source | **30%** of fund managers (most popular answer) |
+| "AI bubble" as top tail risk | **25%** of respondents |
+| Semiconductor sector rating | **Downgraded to underweight** |
+
+[[Savita Subramanian]]: "Monetization is to be determined, and power is the bottleneck and will take a while to build out." [[IBM]] CEO [[Arvind Krishna]] went further: hyperscaler spend is "economically unrecoverable at current scale."
+
+The timing is brutal — this skepticism is arriving alongside an oil shock (WTI >$100 from [[2026 Iran conflict market impact|Iran conflict]]) that directly threatens the energy-intensive AI buildout. $650B in 2026 hyperscaler capex meets $100+ oil and -92K NFP. The stagflation collision makes the ROIC question impossible to dodge.
+
+---
+
 ## Financing the buildout
 
 Hyperscalers are using multiple structures:

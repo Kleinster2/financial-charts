@@ -60,6 +60,14 @@ Subramanian has warned that the [[S&P 500]] could face muted index-level returns
 - Media presence: Regular on [[CNBC]], [[Bloomberg Television]], Barron's Roundtable
 - Institutional audience: Primarily large asset managers, pension funds, wealth management
 
+## March 2026: semiconductor downgrade
+
+Subramanian's team downgraded semiconductors to underweight in the March 2026 fund manager survey cycle, citing vulnerability to AI capex disappointments. The survey found 30% of fund managers identified AI capex as the most likely source of the next credit crisis — the single most popular answer. Another 25% flagged an "AI bubble" as the top tail risk. Subramanian warned: "Monetization is to be determined, and power is the bottleneck."
+
+The call is contrarian against the Street's consensus long on semis/AI infrastructure, but the timing — amid an oil shock that threatens the energy-intensive buildout — gives it teeth.
+
+---
+
 ## Related
 
 - [[Bank of America]] · [[S&P 500]] · [[Equity Risk Premium]]
