@@ -142,6 +142,10 @@ class NoteChecker:
         if note_type in ("actor", "etf", "benchmark"):
             issues.extend(self._check_synopsis(content, filepath))
 
+        # Analyst timeline check (public companies, not ETFs/people/geographies/products)
+        if is_public and not is_etf and not is_person and not is_geography and not is_product:
+            issues.extend(self._check_analyst_timeline(content, filepath))
+
         return issues
 
     def _get_note_type(self, content: str) -> str:
@@ -991,6 +995,30 @@ aliases: []
         if total_len < 100:
             issues.append(Issue("warning", "synopsis",
                 "Actor note missing synopsis paragraph after definition line"))
+
+        return issues
+
+    def _check_analyst_timeline(self, content: str, filepath: Path) -> list[Issue]:
+        """Check for Analyst timeline section in public company notes.
+
+        Stubs (< 40 non-empty body lines) are exempt.
+        """
+        issues = []
+
+        # Skip stubs
+        body = content
+        if content.startswith("---"):
+            second_dash = content.find("---", 3)
+            if second_dash != -1:
+                body = content[second_dash + 3:]
+
+        non_empty_lines = sum(1 for line in body.split("\n") if line.strip())
+        if non_empty_lines < 40:
+            return issues
+
+        if "## Analyst timeline" not in content:
+            issues.append(Issue("warning", "analyst-timeline",
+                "Public company missing '## Analyst timeline' section"))
 
         return issues
 

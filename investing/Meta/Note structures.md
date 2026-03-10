@@ -20,7 +20,7 @@ Templates and required content for different note types.
 | ✓ | Correlation structure (sector and index notes) |
 | | Currency/specificity (subjective) |
 | | Sector correlation section (actor notes) |
-| | Analyst timeline (public companies) |
+| ✓ | Analyst timeline (public companies) |
 | | Journal sections |
 | | Event note structure |
 | ✓ | Synopsis (actor notes) |
