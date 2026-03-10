@@ -1,4 +1,4 @@
-# Claude Code Instructions
+# Project Instructions
 
 This project is an integrated system: **database → charts → vault**.
 

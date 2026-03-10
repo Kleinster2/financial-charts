@@ -67,6 +67,11 @@ This note covers Intel as a company. For the foundry business specifically, see 
 
 *Source: Company filings. Stock price = year-end close. 2024 massive loss from restructuring charges.*
 
+### Income Statement Flow (Sankey)
+
+![[intc-sankey-chart.png]]
+*FY2025: $52.9B revenue, 35% gross margin entirely consumed by R&D ($13.8B, 26% of revenue) + SG&A ($4.6B). Near-zero operating income vs FY2024's -$11.7B loss — improvement driven by R&D cuts and lower COGS.*
+
 ---
 
 ## Current situation
