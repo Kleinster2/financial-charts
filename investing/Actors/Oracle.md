@@ -235,6 +235,56 @@ Context: Part of broader AI infrastructure pivot — redirecting headcount costs
 
 ---
 
+## Q3 FY2026 pre-earnings (Mar 10, 2026)
+
+**Reports after market close 4:05 PM ET, March 10, 2026.**
+
+### Consensus estimates
+
+| Metric | Estimate | YoY growth |
+|--------|----------|------------|
+| Revenue | ~$16.91B | ~20% |
+| EPS (non-GAAP) | ~$1.70 | ~16% |
+| OCI growth (Thill) | ~86% | accel from Q2's 68% |
+
+Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of last 8.
+
+### Analyst ratings (pre-earnings)
+
+| Analyst | Rating | Price target | Change |
+|---------|--------|-------------|--------|
+| [[Baird]] | Outperform | $200 | cut from $300 |
+| [[Scotiabank]] | Sector Outperform | $215 | cut from $220 |
+| [[TD Cowen]] | Buy | $250 | cut from $350 |
+| [[Jefferies]] | — | — | said sell-off "overdone," Oracle opportunities beyond OpenAI undervalued |
+
+### Key pre-earnings developments
+
+- **OpenAI Texas DC reversal (Mar 7-8):** Bloomberg reported Oracle abandoned plans to expand flagship AI data center in Texas with [[OpenAI]]. Triggered late-Friday sell-off. Oracle issued statement Sunday disputing the report.
+- **Stock drawdown:** ~60% from September 2025 peak. Concern: backlog overly reliant on [[OpenAI]], AI investments may not deliver expected returns.
+- **Remaining performance obligations:** ~$500B total, ~$300B linked to [[OpenAI]]. Recent $25B bond sale saw strong demand — suggests credit market confidence despite negative FCF.
+- **Layoffs confirmed:** Thousands of job cuts beginning March 2026, multiple divisions. Some roles replaced by AI automation.
+- **Margin question:** Operating margins not widening — earnings growth (16%) lagging revenue growth (20%). Key watch item.
+
+### Options positioning
+
+- Large net positive OI at $160 strike (88.7K contracts)
+- Net negative OI at $140 strike (-63.5K contracts)
+- Put/call ratio for next 4 expiries favors calls
+
+### Technical levels
+
+| Level | Price |
+|-------|-------|
+| Strong support | $139-138 (falling wedge breakout) |
+| Intermediate support | $148-144 |
+| Bull target | $165, then $172-173 |
+| Bear breakdown | Below $138 → $135-119 base |
+
+*Source: Investing.com (Ali Merchant/TwT Learnings), Mar 10, 2026*
+
+---
+
 ## Debt profile
 
 ~$133B pro forma face value (Feb 2026) — **largest non-financial IG issuer**. Rated BBB/Baa2 with negative outlooks (two notches above junk). $57B issued in 18 months (Sep 2024-Feb 2026) for AI infrastructure. Cash-flow negative at operating/capex level. See [[Oracle bonds]] for full inventory.
