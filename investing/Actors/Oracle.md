@@ -313,6 +313,9 @@ Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of la
 ![[orcl-waterfall.png]]
 *FY2025 income statement waterfall: $57.4B revenue → $12.4B net income (21.7% margin). COGS 29%, OpEx 40%, Tax & Other 9%.*
 
+![[orcl-sankey.png]]
+*FY2025 income statement Sankey: $57.4B revenue → $12.4B net income (21.7% margin). R&D $9.9B (17%), Other OpEx $11.3B (20%), Interest $3.6B (6%), Tax $1.7B (3%).*
+
 ## LTM financials (through Aug 2025)
 
 | Line item | Value | % of revenue |

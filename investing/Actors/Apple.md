@@ -27,7 +27,10 @@ Apple's silicon team extracts more value from TSMC nodes than any competitor. Th
 ![[aapl-fundamentals.png]]
 
 ![[aapl-revenue-waterfall.png]]
-*FY2024 revenue waterfall: \ → \ net income (24% margin). COGS takes 54%, then R&D + SG&A peel off 15%, taxes take another 7%.*
+*FY2025 income statement waterfall.*
+
+![[aapl-sankey.png]]
+*FY2025 income statement Sankey: $416.2B revenue → $112.0B net income (26.9% margin). COGS 53%, R&D 8%, Other OpEx 5%, Tax 5%.*
 
 ---
 
