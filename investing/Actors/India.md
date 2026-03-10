@@ -246,6 +246,18 @@ India positioning its approach — affordable, localized AI tools — as a bluep
 - HCL CEO: Indian IT companies "will focus on turning profits and not being job creators"
 - Indian IT stocks dipping on AI disruption fears
 
+**Counter-narrative — [[Raghuram Rajan]] (March 2026):**
+- Cost differential doesn't disappear when both sides adopt AI: Indian worker at $50K vs US at $250K — "so long as both have access to AI, that differential doesn't change"
+- GCCs evolving from back-office to front-office work (Qualcomm does chip design from India). Companies rebranding as "Global Capability Centres"
+- AI + human > AI alone in most service contexts (MOOCs have <10% completion without human support; nursing, agricultural extension, legal discovery all benefit from human-AI pairing)
+- Moderate-skilled services (plumbing, carpentry, construction) insulated — every situation is different, adaptation required, not routine enough for AI replacement
+- Not zero-sum: "as the kid in India becomes more prosperous they will want the Gucci's, the Teslas, the iPhones"
+- Policy priorities: fix malnutrition (still high), build research universities (creating 3 colleges/day but quantity without quality), bridge digital divide (Tamil Nadu giving laptops with [[Perplexity]] AI access to all college entrants)
+- Skeptical of AI platform winner-take-all: "there are no secrets in industry"
+- Bottom line: "India has a wonderful future if it can get its politics right." 6% → 8% growth achievable with human capital + logistics + digital infrastructure
+
+Source: [VoxDev podcast](https://youtu.be/blmDjuoyhg4) (March 10, 2026); [Ideas in Development Substack](https://ideasindevelopment.substack.com/p/raghuram-rajan-on-indias-growth-prospects)
+
 ### Geopolitical AI context
 
 Previous AI summits: Bletchley Park (UK, 2023), Seoul (2024), Paris (2025) — focused on safety commitments and voluntary pledges, criticized for producing few enforceable outcomes. India positioning itself as voice of the developing world in AI governance via the [[India AI Impact Summit 2026]].
