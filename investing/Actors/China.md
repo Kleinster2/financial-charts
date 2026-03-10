@@ -1,5 +1,7 @@
 #actor #government #geopolitics
 
+<!-- REFACTOR FLAG: At 460+ lines and growing. When this note crosses 600 lines, extract into hub + concept notes: 15th Five-Year Plan, rare earth/export controls, AI ecosystem, Hormuz energy exposure. See [[Unitree]] refactor pattern in MEMORY.md. -->
+
 # China
 
 State actor shaping semiconductor industry through industrial policy, export control responses, and domestic chip development. Both largest customer and primary geopolitical constraint.
