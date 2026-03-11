@@ -235,36 +235,72 @@ Context: Part of broader AI infrastructure pivot — redirecting headcount costs
 
 ---
 
-## Q3 FY2026 pre-earnings (Mar 10, 2026)
+## Q3 FY2026 earnings (Mar 10, 2026)
 
-**Reports after market close 4:05 PM ET, March 10, 2026.**
+**Across-the-board beat. Stock +9% after hours.** First quarter in 15+ years where organic total revenue and non-GAAP EPS both grew 20%+ in USD.
 
-### Consensus estimates
+### Results vs consensus
 
-| Metric | Estimate | YoY growth |
-|--------|----------|------------|
-| Revenue | ~$16.91B | ~20% |
-| EPS (non-GAAP) | ~$1.70 | ~16% |
-| OCI growth (Thill) | ~86% | accel from Q2's 68% |
+| Metric | Actual | Expected | YoY |
+|--------|--------|----------|-----|
+| Revenue | **$17.19B** | $16.91B | +22% |
+| Non-GAAP EPS | **$1.79** | $1.70 | +21% |
+| GAAP EPS | **$1.27** | — | +24% |
+| Cloud revenue (IaaS + SaaS) | **$8.9B** | $8.85B | +44% |
+| Cloud IaaS | **$4.9B** | — | **+84%** (accel from 68%) |
+| Cloud SaaS | $4.0B | — | +13% |
+| RPO | **$553B** | $556B | +325% |
+| GAAP operating income | $5.5B | — | — |
+| Non-GAAP operating income | $7.4B | — | +19% |
+| Operating cash flow (TTM) | $23.5B | — | +13% |
+| Free cash flow (TTM) | **-$13.2B** | — | negative |
 
-Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of last 8.
+**Cloud IaaS at +84% is the headline** — accelerating from 68% in Q2, driven by AI infrastructure demand. AI infrastructure revenue specifically up **243% YoY**. Multicloud database revenue up **531% YoY** (full global coverage in [[Microsoft]], [[Google]], [[Amazon]] partner clouds).
 
-### Analyst ratings (pre-earnings)
+### Q4 FY2026 guidance (above consensus)
 
-| Analyst | Rating | Price target | Change |
-|---------|--------|-------------|--------|
-| [[Baird]] | Outperform | $200 | cut from $300 |
-| [[Scotiabank]] | Sector Outperform | $215 | cut from $220 |
-| [[TD Cowen]] | Buy | $250 | cut from $350 |
-| [[Jefferies]] | — | — | said sell-off "overdone," Oracle opportunities beyond OpenAI undervalued |
+| Metric | Guidance | Consensus |
+|--------|----------|-----------|
+| Revenue growth | 19-21% USD | 20% |
+| Cloud revenue growth | 46-50% USD | — |
+| Non-GAAP EPS | **$1.96-$2.00** | $1.70 |
 
-### Key pre-earnings developments
+### FY guidance updates
 
-- **OpenAI Texas DC reversal (Mar 7-8):** Bloomberg reported Oracle abandoned plans to expand flagship AI data center in Texas with [[OpenAI]]. Triggered late-Friday sell-off. Oracle issued statement Sunday disputing the report.
-- **Stock drawdown:** ~60% from September 2025 peak. Concern: backlog overly reliant on [[OpenAI]], AI investments may not deliver expected returns.
-- **Remaining performance obligations:** ~$500B total, ~$300B linked to [[OpenAI]]. Recent $25B bond sale saw strong demand — suggests credit market confidence despite negative FCF.
-- **Layoffs confirmed:** Thousands of job cuts beginning March 2026, multiple divisions. Some roles replaced by AI automation.
-- **Margin question:** Operating margins not widening — earnings growth (16%) lagging revenue growth (20%). Key watch item.
+| Metric | FY2026 | FY2027 |
+|--------|--------|--------|
+| Revenue | $67B (unchanged) | **$90B** (raised from $89B, vs $86.6B consensus) |
+| Capex | $50B (unchanged) | — |
+
+### Key call highlights
+
+**Abilene/Stargate:** "Two buildings are completely operational and the rest of the campus is on track." Oracle disputed Bloomberg's report (Mar 7) that expansion plans were dropped.
+
+**Power & capacity:** Secured **10+ GW** of power and data capacity for next 3 years. Over 90% fully funded through partners. Delivered **400 MW** to customers in Q3.
+
+**Capital structure:** Raised $30B of $50B plan (IG bonds + mandatory convertible preferred, record oversubscribed order book). ATM equity portion not yet initiated. No additional bond issuances planned for calendar 2026.
+
+**RPO funding model:** Most of the $553B RPO increase relates to large-scale AI contracts where Oracle doesn't need incremental funding — customers either prepay for GPUs or supply their own hardware ("bring your own chip"). This partially addresses the negative FCF concern.
+
+**$29B in new contracts** signed this quarter under alternative funding/delivery models, in addition to the RPO figure.
+
+**AI infrastructure gross margin:** 32% (above 30% guidance). Database services in OCI significantly higher.
+
+**AI agents:** 1,000+ embedded AI agents live within Fusion applications. Launched **AI Agent Studio** for custom agent development.
+
+**TikTok equity:** 15% stake + board seat now closed. Financial impact starts Q4 FY2026 (equity method, nonoperating income/loss).
+
+**Layoffs framed as AI efficiency:** "AI models for generating computer code have become so efficient that we have been restructuring our product development teams into smaller, more agile and productive groups." Building more SaaS applications for more industries at lower cost.
+
+**Ellison on SaaS disruption:** "The SaaS apocalypse applies to others but not to us." Believes Oracle's AI code generation tools make it a disruptor, not a victim.
+
+**Competitive wins over [[Workday]] and [[SAP]]:** Memorial Hermann Health, University of New South Wales, Investec Bank, HID Global, major Wall Street bank — all migrating to Fusion.
+
+### Pre-earnings context (still relevant)
+
+- **Stock drawdown:** ~50% from September 2025 peak, -23% YTD before this report
+- **OpenAI Texas DC:** Bloomberg reported expansion plans dropped (Mar 7). Oracle disputed. Abilene confirmed operational on call.
+- **RPO concentration:** ~$300B of $553B linked to [[OpenAI]]. But "bring your own chip" model means less Oracle capital at risk.
 
 ### Source charts
 
@@ -352,18 +388,17 @@ Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of la
 |--------|-------|
 | Ticker | ORCL (NYSE) |
 | Market cap | ~$500B |
-| Revenue (FY26E) | $66.9B |
-| Revenue (FY27E) | $86.0B |
-| EPS (FY26E) | $7.34 |
-| EPS (FY27E) | $7.95 |
-| Cloud revenue | ~$20B |
-| AI capex | $10B+ |
+| Revenue (FY26E) | **$67B** (guidance) |
+| Revenue (FY27E) | **$90B** (raised guidance) |
+| Cloud revenue (Q3 run rate) | ~$35.6B annualized |
+| Cloud IaaS growth | **+84%** (Q3 FY26, accelerating) |
+| AI capex (FY26) | **$50B** (guidance) |
 | Long-term debt | ~$133B face (pro forma Feb 2026). See [[Oracle bonds]] |
 | Credit rating | BBB/Baa2 (negative outlook) |
 | Stargate role | JV partner |
 | xAI connection | Colossus on OCI |
 
-*Updated 2026-02-10*
+*Updated 2026-03-10*
 
 ![[orcl-price-chart.png]]
 
@@ -405,8 +440,9 @@ Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of la
 | Mar 9, 2026 | [[Barclays]] | Buy | $230 | Cut from $310 |
 | Mar 9, 2026 | [[Scotiabank]] | Sector Outperform | $215 | Cut from $220 |
 | Mar 2026 | [[Baird]] | Outperform | $200 | Cut from $300 |
+| **Mar 10, 2026** | — | — | — | **Q3 FY26 beat: Rev $17.19B vs $16.91B, EPS $1.79 vs $1.70. Stock +9% AH.** |
 
-**Coverage summary (LSEG):** 33 Buy / 11 Hold / 1 Sell. Avg PT $253. Range $155-$400.
+**Coverage summary (LSEG, pre-Q3):** 33 Buy / 11 Hold / 1 Sell. Avg PT $253. Range $155-$400.
 
 ---
 
@@ -428,3 +464,5 @@ Beat/miss track record: EPS beat 4 of last 8 quarters; revenue beat only 2 of la
 - [[ByteDance]] — TikTok parent
 - [[Ellison AI-IP vertical integration]] — family thesis
 - [[David Ellison]] — Larry's son, Paramount Skydance CEO
+- [[Workday]] — competitive target (Fusion wins)
+- [[SAP]] — competitive target (Fusion wins)
