@@ -123,8 +123,25 @@ Meta emerging as one of largest corporate nuclear buyers in US history.
 | **[[Germany]]** | Recognized nuclear as green energy |
 | **[[Switzerland]]** | Reconsidering anti-nuclear stance |
 | **Denmark** | Actively reconsidering |
+| **Netherlands** | Softening stance |
 
 **[[EU]] total:** 81.2 GW nuclear capacity targeted by 2040.
+
+### IAEA Nuclear Energy Summit — Paris (Mar 10, 2026)
+
+**Von der Leyen calls European nuclear retreat a "strategic mistake."** The Iran war energy crunch is vindicating the nuclear thesis in real time — fossil fuel import prices surging, Europe exposed again just like 2022 post-Ukraine.
+
+Key statements:
+- **Von der Leyen:** "This reduction in the share of nuclear was a choice. I believe that it was a strategic mistake for Europe to turn its back on a reliable, affordable source of low-emissions power." Europe went from **33% nuclear electricity (1990)** to **15% today**
+- **€200M EU guarantee** for private investment in innovative nuclear technologies — funded from EU carbon market. First time EU is directing money toward nuclear
+- **Macron:** Called for standardizing reactor designs across Europe (would benefit [[EDF]]) and diversifying uranium supply away from Russia
+- **Russian uranium dependency:** EU still imported 15% of uranium from Russia in 2024. [[France]] imported **39% of enriched uranium from Russia in 2025** — Macron pledged to increase domestic enrichment capacity
+
+**Germany pushback:** Environment Minister Carsten Schneider called it a "backward-looking strategy," arguing wind/solar is "cleaner, safer, cheaper." The ideological split persists, but Germany is increasingly isolated in the EU on this.
+
+**Investment read:** The EU is now putting real money (€200M guarantee) behind nuclear for the first time. Combined with the Iran war energy shock, this accelerates the policy window for nuclear expansion — good for [[EDF]], [[Constellation Energy]], uranium miners ([[Cameco]], [[Centrus Energy]]), and reactor designers ([[Westinghouse]], [[KHNP]]).
+
+*Source: Reuters, IAEA Nuclear Energy Summit, Paris, Mar 10, 2026*
 
 ### Global pipeline
 

@@ -71,6 +71,14 @@ aliases: [Électricité de [[France]], Electricite de [[France]]]
 
 Largest nuclear fleet in [[Europe]], second globally (after US).
 
+### Reactor standardization push (Mar 2026)
+
+At the IAEA Nuclear Energy Summit (Paris, Mar 10, 2026), [[Macron]] proposed standardizing reactor designs across Europe — a move that would directly benefit EDF as the continent's largest nuclear operator and reactor designer. However, EDF lost the $18B+ Czech Republic tender (2024) to South Korea's [[KHNP]], and [[KHNP]] has also been winning tenders elsewhere, raising questions about EDF's competitiveness on cost and execution.
+
+### Russian uranium dependency
+
+[[France]] imported **39% of its enriched uranium from Russia in 2025** (customs data). Macron pledged to increase domestic enrichment capacity and diversify supply. EU-wide, nuclear producers still imported 15% from Russia in 2024. This dependency is a structural vulnerability as the Iran war and broader geopolitical tensions push Europe toward energy sovereignty.
+
 ---
 
 ## Investment case
@@ -112,4 +120,7 @@ Largest nuclear fleet in [[Europe]], second globally (after US).
 - [[Constellation Energy]] — US peer (TMI restart)
 - [[Microsoft]] — potential customer
 - [[NVIDIA]] — Paris campus partner
+- [[KHNP]] — competitor (won $18B Czech Republic tender over EDF)
+- [[Cameco]] — uranium supplier
+- [[Uranium]] — fuel commodity, Russian supply risk
 
