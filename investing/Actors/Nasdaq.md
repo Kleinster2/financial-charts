@@ -71,6 +71,26 @@ Tech companies prefer Nasdaq.
 
 ---
 
+## Fast Entry rule (Feb 2026)
+
+Nasdaq proposed a new [[Nasdaq Fast Entry Rule|"Fast Entry" rule]] for the Nasdaq 100 index (filed with SEC Feb 20, 2026) to accelerate inclusion of megacap IPOs:
+
+| Detail | Value |
+|--------|-------|
+| Threshold | Market cap ranks in NDX top 40 (~$100B+) |
+| Timeline | 15 trading days after announcement (~1 month total) |
+| Exemptions | Waives 3-month seasoning and liquidity requirements |
+| Comment period | Closed Feb 27, 2026 |
+| Implementation | Expected after March 2026 quarterly rebalance |
+
+Designed to attract [[SpaceX]] ($1.75T target), [[OpenAI]], and [[Anthropic]] — the three mega-IPOs expected in 2026. Under current rules, new listings wait up to a year for index inclusion. Nasdaq created this rule specifically to win SpaceX's listing — and it appears to be working: as of Mar 10, SpaceX is leaning toward Nasdaq over NYSE, conditioning the listing on early Nasdaq 100 entry.
+
+The rule also permits the Nasdaq 100 to temporarily exceed 100 members until the next annual reconstitution, and evaluates full market cap (including unlisted shares) for eligibility. Low-free-float threshold revised from 10% to 20%.
+
+[[FTSE Russell]] followed with its own fast-entry proposal (Feb 18) for Russell US Equity Indexes — the entire index industry is adapting for the 2026 mega-IPO wave.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -108,4 +128,6 @@ Tech companies prefer Nasdaq.
 - [[CBOE]] — peer (options)
 - [[NVIDIA]] — key listing
 - [[Apple]] — key listing
+- [[SpaceX]] — leaning toward Nasdaq listing at $1.75T (2026 IPO)
+- [[FTSE Russell]] — proposed competing fast-entry rule (Feb 2026)
 
