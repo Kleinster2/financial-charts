@@ -127,6 +127,14 @@ Citgo is the Venezuelan asset *in* the US — could be privatized or seized by c
 
 ---
 
+## America First Refinery — Brownsville, TX (Mar 10, 2026)
+
+Trump announced a **168,000 bpd refinery** at the Port of Brownsville — the first new US refinery in ~50 years. Backed by [[Reliance Industries]] (9-figure investment, 20-year binding offtake). Designed specifically for American shale oil (light, sweet crude), unlike existing Gulf Coast complex refineries configured for heavy sour.
+
+Industry skepticism is high — Gulf Coast already has massive capacity, Brownsville has no pipeline connections for domestic distribution, and analysts call it likely an **export refinery** for South American markets. Political timing (midterm elections + Iran war gas prices) is the obvious catalyst. See [[Reliance Industries]] for full details.
+
+---
+
 ## Related
 
 - [[Valero]], [[Marathon Petroleum]], [[PBF Energy]], [[Phillips 66]] — key players
@@ -137,4 +145,5 @@ Citgo is the Venezuelan asset *in* the US — could be privatized or seized by c
 - [[Oil]] — commodity context
 - [[LNG]] — Gulf Coast also LNG export hub
 - [[Citgo]] — [[PDVSA]]-owned US refiner
+- [[Reliance Industries]] — investor in Brownsville refinery (America First Refining)
 

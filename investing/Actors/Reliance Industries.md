@@ -63,6 +63,43 @@ Reliance halted lithium-ion cell manufacturing after [[Xiamen Hithium]] withdrew
 
 ---
 
+## US refinery — Brownsville, Texas (Mar 10, 2026)
+
+[[Reliance Industries]] is the anchor investor in **America First Refining's** planned 168,000 bpd refinery in Brownsville, Texas — the first new US refinery in ~50 years. Trump announced the project, naming Reliance on Truth Social.
+
+| Detail | Value |
+|--------|-------|
+| Location | Port of Brownsville, TX (US-Mexico border) |
+| Capacity | **168,000 bpd** |
+| Reliance investment | "9-figure" at "10-figure valuation" |
+| Offtake | **Binding 20-year term sheet** — Reliance buys products |
+| Groundbreaking | Q2 2026 planned |
+| Estimated cost | ~$6.7B (industry avg ~$40K/bbl capacity) |
+| Design | Specifically for **American shale oil** (light, sweet crude) |
+
+**Why Reliance:**
+- Operates the world's largest refinery — Jamnagar, India (1.4M bpd)
+- Deep refining expertise, proven at massive scale
+- 20-year offtake = guaranteed buyer for refined products, likely for Indian market
+
+**Why Brownsville:**
+- Gulf Coast location near export infrastructure
+- Analysts skeptical of domestic demand rationale — "not much local demand and there are not pipeline connections to take Brownsville product elsewhere" (Kloza Advisors)
+- More likely an **export refinery** — US refineries are already the major supplier of motor fuels to South America
+- US Gulf Coast advantages: cheap natural gas, hydrogen, domestic crude
+
+**Skepticism:**
+- Gulf Coast already home to 8 of 10 largest US refineries
+- US refining capacity at 18.4M bpd (end 2024), growing through gradual expansions
+- "Initial announcements like this by the Trump administration have a lot of hyperbole" — Refined Fuels Analytics
+- 2 California refineries (284,000 bpd combined) permanently shuttered in late 2025, citing regulation — some replacement capacity logic, but Brownsville is export-oriented
+
+**Political context:** Announced during midterm election season with gas prices spiking from Iran war. "First new refinery in 50 years" is a powerful talking point regardless of whether the project is economically optimal.
+
+*Source: Reuters, Mar 10, 2026*
+
+---
+
 ## Related
 
 - [[Jio Platforms]] — telecom subsidiary
@@ -70,3 +107,5 @@ Reliance halted lithium-ion cell manufacturing after [[Xiamen Hithium]] withdrew
 - [[Xiamen Hithium]] — failed battery tech partner
 - [[China battery leverage]] — concept (tech transfer as leverage)
 - [[Battery supply chain]] — sector context
+- [[Gulf Coast refiners]] — refining cluster context
+- [[America First Refining]] — JV partner for Brownsville refinery
