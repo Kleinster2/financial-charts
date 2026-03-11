@@ -108,6 +108,23 @@ The words-to-action timeline is ~3 months. Dimon doesn't warn for show — he wa
 
 ---
 
+## Crisis progression
+
+Where JPMorgan's move sits in the broader arc of the [[Private credit retail liquidity crisis 2026]]:
+
+1. ✅ **Equity repricing** (Jan-Feb) — SaaS stocks -25% to -50%
+2. ✅ **Primary market freeze** (Feb-Mar) — no major software debt deal since [[Oracle]] $25B (Feb 2)
+3. ✅ **Retail BDC gates** (Feb 19 →) — [[Blue Owl]], [[BlackRock]]/[[HPS Investment Partners|HPS]]
+4. ✅ **Record redemptions** (Mar 3) — [[Blackstone]] BCRED 7.9%
+5. ✅ **Derivative instruments** (Mar 9) — [[Goldman Sachs]] TRS to short software loans
+6. ✅ **Bank collateral markdowns** (Mar 11) — JPMorgan restricts back-leverage ← **this event**
+7. ⏳ **Other banks follow?** — competitive dynamics make it likely
+8. ⏳ **March 31 quarter-end** — >$100B in funds face simultaneous redemption windows
+
+Each stage brings more sophisticated participants and larger systemic implications. The progression follows a textbook credit cycle: equity sells off first (most liquid), then primary issuance freezes (originators pull back), then retail flees (redemptions/gates), then Wall Street builds tools to price the risk (derivatives), then banks tighten the plumbing (collateral markdowns).
+
+---
+
 ## Insights
 
 - **Bank collateral markdowns are a leading indicator, not a lagging one.** JPM moved before defaults spiked — the same pattern as COVID. Banks have better real-time data on borrower health than fund quarterly marks show. JPM is telling the market what it sees in its own loan data
