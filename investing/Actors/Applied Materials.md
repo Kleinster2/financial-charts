@@ -115,6 +115,23 @@ Fiscal quarter ended January 25, 2026. Beat EPS estimates, stock initially dippe
 
 ---
 
+## EPIC Center — Micron & SK Hynix partnerships (Mar 10, 2026)
+
+Applied Materials announced **[[Micron]]** and **[[SK Hynix]]** as founding partners at its **EPIC Center** (Equipment and Process Innovation and Commercialization) — a planned **$5B investment** in semiconductor equipment R&D. Originally announced in 2023 as a $4B project (estimated online 2026), now scaled up.
+
+| Partner | Focus areas |
+|---------|------------|
+| **[[Micron]]** | DRAM, [[HBM]], NAND — combining EPIC Center with Micron's Boise innovation hub |
+| **[[SK Hynix]]** | Materials for memory chips, process integration, 3D advanced packaging for next-gen DRAM and HBM |
+
+**Context:** All three major memory producers ([[Samsung]], SK Hynix, Micron) say they're struggling to keep up with AI memory demand. Big Tech expected to spend **$630B+** on AI infrastructure in 2026. The EPIC Center partnerships lock in AMAT as the equipment development partner for 2 of the 3 memory giants — deepening the relationship from vendor to co-development partner.
+
+**Investment read:** This is AMAT playing the [[HBM]] and advanced packaging boom at the equipment level. As HBM stacking goes to 12-hi and beyond, the process complexity (TSV, hybrid bonding, dielectric deposition) requires tighter equipment-chipmaker co-development. AMAT is positioning the EPIC Center as the neutral ground where that happens.
+
+*Source: Reuters, Mar 10, 2026*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -145,3 +162,6 @@ Fiscal quarter ended January 25, 2026. Beat EPS estimates, stock initially dippe
 - [[Samsung]] — major customer
 - [[Long WFE]] — thesis
 - [[Foundry Wars]] — demand driver
+- [[Micron]] — EPIC Center founding partner (Mar 2026)
+- [[SK Hynix]] — EPIC Center founding partner (Mar 2026)
+- [[HBM]] — key growth driver (equipment for TSV, hybrid bonding, dielectric)

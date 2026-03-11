@@ -300,3 +300,4 @@ Cheapest P/E of the five picks with the highest growth — classic memory cycle 
 - [[Howard Lutnick]] — industrial policy beneficiary
 - [[HBM economics]] — structural shift to HBM
 - [[Memory squeeze thesis]] — exited consumer, validates squeeze
+- [[Applied Materials]] — EPIC Center founding partner (DRAM, HBM, NAND co-development)

@@ -209,3 +209,4 @@ SK Hynix isn't a foundry, but:
 - [[Section 232 semiconductor tariff]] — hyperscaler exemption protects US [[HBM]] demand
 - [[HBM economics]] — structural shift (4x wafer capacity per GB)
 - [[Memory squeeze thesis]] — HBM supply locked to hyperscalers
+- [[Applied Materials]] — EPIC Center founding partner (materials, 3D packaging, next-gen DRAM/HBM)
