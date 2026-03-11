@@ -60,6 +60,21 @@
 
 **IPO timing risk:** Road show postponed after markets jolted by [[2026 Iran conflict market impact|Iran conflict]]. Would be among the largest US listings by a Japanese firm.
 
+### Pricing update (Mar 11, 2026)
+
+Pricing at **low end of range (~$17)** due to Iran war market volatility, despite book being **5x oversubscribed**. Pricing finalized after US market hours Wed Mar 12.
+
+**Strategic investors committing to IPO** (in addition to cornerstones):
+- [[Tencent]]
+- [[Alipay]] ([[Ant Group]])
+- [[Google]] ([[Alphabet]])
+
+Three of the world's biggest digital payments platforms all backing Japan's dominant mobile wallet — signals PayPay's positioning as a cross-border payments gateway.
+
+**SoftBank context:** Second major US listing after [[Arm]] ($54.5B IPO in 2023, now ~$130B market cap). [[Goldman Sachs]] forecasting US IPO proceeds could quadruple to record **$160B in 2026**.
+
+**Bookrunners:** [[Goldman Sachs]], [[JPMorgan Chase|JPMorgan]], [[Mizuho]], [[Morgan Stanley]]
+
 ---
 
 ## SoftBank portfolio
@@ -97,5 +112,12 @@ Part of SoftBank's fintech/payments portfolio:
 ## Related
 
 - [[SoftBank]] — parent
+- [[Arm]] — SoftBank's other major US listing ($54.5B IPO 2023)
 - [[Asia IPO pipeline 2026]] — context ([[Japan]] tech IPO)
 - [[PhonePe]] — peer ([[Asia]] payments)
+- [[Tencent]] — strategic IPO investor
+- [[Ant Group]] — strategic IPO investor (Alipay)
+- [[Alphabet]] — strategic IPO investor (Google)
+- [[Visa]] — cornerstone investor
+
+*Updated 2026-03-10*

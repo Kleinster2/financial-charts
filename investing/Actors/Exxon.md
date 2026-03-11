@@ -78,6 +78,32 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 
 ---
 
+## Texas redomiciling (Mar 10, 2026)
+
+Exxon filed proxy proposal to redomicile from **New Jersey → Texas**, joining the [[Texas corporate migration]] wave alongside [[SpaceX]], [[Tesla]], and [[Coinbase]].
+
+| Detail | Value |
+|--------|-------|
+| Current incorporation | New Jersey (since Standard Oil breakup, early 1900s) |
+| HQ location | Spring, Texas (since 1989) |
+| Proposed incorporation | Texas |
+| Requires | Shareholder vote |
+
+**Why now:**
+- **2025 Texas law** enhanced business protections — including stock ownership thresholds for shareholder lawsuits, reducing litigation exposure
+- **Climate lawsuit defense** — NJ sued Exxon and [[Chevron]] over climate change in 2022 (dismissed 2025). Redomiciling removes future NJ legal exposure
+- **Policy access** — incorporating in your home state gets state politicians' attention on taxes and policy (U Penn law professor Jill Fisch)
+- **Anti-activist toolkit** — Texas law allows companies to raise the bar for shareholder proposals. CEO [[Darren Woods]] says they won't adopt those provisions ("not in any way influencing the decision") — time will tell
+
+**Broader anti-activist posture:**
+- Sep 2025: Launched auto-voting program for retail investors to automatically vote with board recommendations
+- 40% of shares held by individuals but only 25% vote — board-aligned auto-voting could neutralize activist proposals
+- Exxon framing: "Texas legislators, judges, and juries who might make decisions that impact Exxon Mobil are generally more familiar with our business"
+
+*Source: Reuters, Mar 10, 2026*
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -133,4 +159,6 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 - [[Power constraints]] — AI energy demand
 - [[Clean energy for AI]] — transition context
 - [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9 meeting, skeptical on return
+- [[Texas corporate migration]] — redomiciling from NJ to TX (2026)
+- [[Darren Woods]] — CEO
 
