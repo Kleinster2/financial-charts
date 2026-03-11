@@ -26,8 +26,8 @@ aliases: [Replit AI, Replit Agent]
 
 | Person | Role | Background |
 |--------|------|------------|
-| **[[Amjad Masad]]** | CEO | Ex-Facebook, ex-Yahoo |
-| Haya Odeh | Co-founder | — |
+| **[[Amjad Masad]]** | CEO | Palestinian (family from Haifa, expelled 1948), grew up in Amman, Jordan. Got into computers at 6 (1993, IBM PC, MS-DOS). Hacked his university's grading system; made to harden their security instead of expulsion. First job: startup whose videos were used in the Arab Spring. Ex-Facebook (2012-13 era), ex-Yahoo. Former competitive Counter-Strike player. |
+| Haya Odeh | Co-founder | Masad's wife |
 
 ---
 
@@ -74,6 +74,8 @@ AI coding agent that builds full applications from prompts. Key differentiator v
 
 The funding announcement explicitly calls out the "prompt-to-production" era — Replit's bet is that the entire software creation workflow (design → code → deploy → iterate) collapses into a single AI-driven environment.
 
+**Phone-first development:** A significant share of users build apps entirely from their phones — 8-hour sessions on mobile. Masad built a squat form analyzer app live during a car ride to JRE using the mobile app (Google Gemini integration for video analysis).
+
 | Feature | Description |
 |---------|-------------|
 | Browser IDE | No installation, works on any device |
@@ -90,6 +92,38 @@ The funding announcement explicitly calls out the "prompt-to-production" era —
 | Hacker | $7/mo | Core features |
 | Pro | $20/mo | More compute, AI |
 | Teams | Custom | Enterprise |
+
+---
+
+## Go-to-market
+
+### User economics / case studies
+
+| User | Background | What they built | Economics |
+|------|-----------|-----------------|-----------|
+| Joan Cheney | Serial entrepreneur | Multiple businesses via rapid prototyping | One app → $180K in 3-5 weeks. Previously spent hundreds of thousands per idea with agencies |
+| Ahmad George | Operations manager, skincare company | ERP automation (inventory management) | NetSuite quoted $150K; built on Replit for $400, sold to his company for $32K + recurring maintenance |
+
+The pattern: non-programmers replacing $50K-$150K agency/enterprise software quotes with $400-$2,000 Replit builds in days or weeks. This is the core disruption — collapsing the cost of custom software by 100x.
+
+### Saudi Arabia partnership
+
+Partnership with Saudi Arabia's "Humane" (government AI value chain company, part of Trump Gulf deals with AMD, Nvidia, etc.). Goal: AI coding for every student, government employee, and entrepreneur in the country. Three pillars:
+1. **Education** — generation of builders using AI tools instead of textbook learning
+2. **Government operations** — automating HR, finance, accounting (internal Doge-like efficiency)
+3. **Entrepreneurship** — cultural shift toward building
+
+### Masad's macro view (JRE #2344, Jul 2025)
+
+Masad rejects the AGI-imminent / UBI-dystopia framing that dominates Silicon Valley:
+- LLMs are "massive remixing machines" — powerful but derivative. No evidence of genuine novel creativity or paradigm-shifting insight
+- Can't do transfer learning (learning math reasoning and applying it to politics)
+- Self-play works in closed domains (Go, coding, math) but not in subjective domains (literature, marketing, philosophy) because there's no objective truth to train against
+- "AI is going to be extremely good at doing labor... but the definition of super intelligence is better than every human collectively at any task. I am not sure there's evidence we're headed there"
+- Believes more white-collar desk jobs are at risk than blue-collar (opposite of the 2015 assumption) — "we have a lot more data on people sitting in front of a computer"
+- Vision: everyone becomes an entrepreneur. Not UBI — creation, not consumption
+
+*Source: [JRE #2344](https://youtu.be/WfmrEa0L08E) (Jul 2, 2025)*
 
 ---
 
@@ -130,3 +164,5 @@ The funding announcement explicitly calls out the "prompt-to-production" era —
 
 - [Sacra - Replit](https://sacra.com/c/replit/)
 - [Sacra - Replit at $253M ARR](https://sacra.com/research/replit-at-253m-arr-growing-2352-yoy/)
+- [JRE #2344 — Amjad Masad](https://youtu.be/WfmrEa0L08E) (Jul 2, 2025)
+- [TechCrunch — Series D](https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/) (Mar 11, 2026)
