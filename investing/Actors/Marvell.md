@@ -55,13 +55,14 @@ Not competing with NVIDIA — enabling alternatives.
 
 ---
 
-## Optical DSP leadership
+## Optical DSP & interconnect leadership
 
 PAM4 optical technology:
-- Enables 400G/800G links
+- Enables 400G/800G/**1.6T** links
 - AI clusters need bandwidth
 - Marvell = \#1 in optical DSPs
 - Every hyperscaler uses this
+- **1.6T interconnect chips** now in development — next-gen AI server data transfer
 
 ---
 
@@ -111,6 +112,37 @@ Stock +14% after-hours on the beat. Closed Mar 6 at **+22.1%** — one of the la
 
 ---
 
+## Acquisitions powering the thesis
+
+### Celestial AI (2025-2026)
+Photonic interconnect technology — enables optical data transfer between chips inside data centers at lower latency and power. Complements Marvell's CXL (Compute Express Link) supply chain. Photonic fabric replaces copper/electrical interconnects for AI-scale data movement.
+
+### XConn Technologies (2025-2026)
+Scalable networking and CXL switch technology — enables low-latency communication across large AI clusters. Combined with Celestial AI's photonics, Marvell is building a full-stack optical interconnect offering for next-gen data centers.
+
+Both acquisitions strengthen Marvell's position as the **interconnect layer** of AI infrastructure — the connective tissue between GPUs, memory, and networking.
+
+---
+
+## Valuation (Jimi Finance thesis, Mar 2026)
+
+| Metric | Value |
+|--------|-------|
+| FY27 P/E | **16.7x** |
+| FY27 EPS growth | ~40-41% |
+| FY27 revenue target | >$11.2B |
+| FY27 operating margin | >20% |
+| FY28 EPS estimate | **$5.50-$5.75** |
+| FY28 fair value (35x P/E) | **$190-$200** |
+
+**Cheaper than [[Broadcom]]** on a P/E-to-growth basis. The market still prices MRVL as a generic semi stock rather than an AI infrastructure play with sticky hyperscaler design wins.
+
+**Key risk:** Revenue concentrated in a few hyperscaler customers. XPU contract rumors (Amazon, Microsoft) remain unconfirmed — short-term noise potential.
+
+*Source: Jimi Finance (March 2026)*
+
+---
+
 ## Investment case
 
 Bull:
@@ -137,7 +169,7 @@ Bear:
 | Focus | Custom silicon, networking |
 | Strength | Optical DSPs |
 
-*Updated 2026-03-06*
+*Updated 2026-03-10*
 
 ![[mrvl-price-chart.png]]
 
@@ -150,4 +182,8 @@ Bear:
 - [[Amazon]], [[Google]], [[Microsoft]] — hyperscaler customers
 - [[TSMC]] — foundry
 - [[AI hyperscalers]] — customer base
+- [[Celestial AI]] — acquisition (photonic interconnect)
+- [[XConn Technologies]] — acquisition (CXL switches)
+- [[Advanced packaging]] — context (EMIB exploration for Marvell chips)
+- [[Intel]] — potential packaging partner (EMIB)
 
