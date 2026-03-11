@@ -473,7 +473,7 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 - [[Carlyle Group]] — contagion (-5%)
 - [[HPS Investment Partners]] — HPS Corporate Lending Fund ($26B) gated at 5% (Mar 6, 2026); acquired by BlackRock
 - [[BlackRock]] — HPS fund gate, TCP Capital at record low ($3.82, -50% YoY)
-- [[JPMorgan Chase]] — first major bank to mark down private credit collateral (Mar 11, 2026); restricting back-leverage
+- [[JPMorgan Chase]] — first major bank to mark down private credit collateral (Mar 11, 2026); restricting back-leverage → [[JPMorgan private credit collateral markdown]]
 - [[Goldman Sachs]] — Bantwal: limits are "features not bugs"; TRS product to short software loans (Mar 9)
 - [[Corbin Capital Partners]] — Cocke: "cannot create liquidity from an illiquid asset class"
 - [[Evercore ISI]] — Schorr: "retrain the investor base"
