@@ -137,6 +137,23 @@ The difference: private credit is smaller ($3T vs $10T+ mortgage market) and bet
 
 ---
 
+## JPMorgan marks down software loan collateral (Mar 11, 2026)
+
+**[[JPMorgan Chase|JPMorgan]]'s trading division marked down the value of software loans** used as collateral by private credit funds in its back-leverage financing business — the first major bank to remark private credit collateral values.
+
+**This is a qualitative escalation.** Prior stress events were fund-level (redemptions, gates). JPMorgan's move shifts the stress to the **bank-funding layer**: private credit funds borrow from banks against their loan portfolios to amplify returns (back-leverage). By marking down those portfolios, JPM reduces the funds' borrowing capacity and in some cases could force them to post more collateral.
+
+**Why it matters for the software concentration thesis:**
+- The collateral being marked down is **specifically software loans** — validating the sector concentration risk this note tracks
+- If Goldman, Morgan Stanley, Citi, and BofA follow (competitive dynamics make it likely), the entire back-leverage channel for software-heavy private credit portfolios tightens simultaneously
+- Funds now face a two-sided squeeze: retail redemptions pulling capital out + bank leverage withdrawal restricting borrowing
+
+JPMorgan did the same thing during early COVID — pulled back leverage pre-emptively. Dimon told investors at JPM's leveraged finance conference (early March) that the bank was being "more prudent" on software assets. The move was pre-emptive — no margin calls triggered — but ARES fell -4.5%, OWL/KKR/CG ~-2.6%.
+
+*Source: FT, Reuters, Bloomberg, CNBC (Mar 11, 2026)*
+
+---
+
 ## Goldman total return swap — shorting software loans (Mar 9, 2026)
 
 **[[Goldman Sachs]] is now packaging the instrument to short software company debt.** The bank is pitching hedge funds a total return swap product that allows them to take short (or long) positions on corporate loans — specifically targeting software company debt that has come under pressure. No trades executed yet as of Mar 9 — this is the product pitch phase.
@@ -177,5 +194,6 @@ The primary market freeze is the most telling signal. If lenders won't underwrit
 - [[Wesleyan Endowment]] — institutional allocator with VC/PE software exposure
 - [[SaaSpocalypse]] — related thesis on AI disrupting SaaS
 - [[Blue Owl OBDC II redemption gate]] — event (first retail BDC gate, Feb 2026)
+- [[JPMorgan Chase]] — first major bank to mark down software loan collateral (Mar 11, 2026)
 - [[Goldman Sachs]] — pitching TRS product to short software loans (Mar 2026)
 - [[Oracle]] — last major software debt deal to price (Feb 2, $25B)

@@ -38,6 +38,7 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **Mar 6, 2026** | **[[BlackRock]] HPS Corporate Lending Fund** ($26B) **caps redemptions at 5%** after investors requested **~10%** (nearly double). First major perpetual vehicle to gate since crisis began. [[HPS Investment Partners\|HPS]] co-president Mike Patterson: gating gives "dry powder in a market that we think is getting increasingly compelling" |
 | **Mar 6, 2026** | **OWL short interest hits all-time high** — most shorted stock on EquiLend. Broader **bearish bets against alt managers at record** |
 | **Mar 6, 2026** | **Publicly-traded BDCs at or near all-time lows** — [[BlackRock]] TCP Capital Corp closes at $3.82 (record low, **>50% drop in one year**). Multiple public BDCs trading at steep NAV discounts |
+| **Mar 11, 2026** | **[[JPMorgan Chase\|JPMorgan]] marks down private credit collateral** — trading division reduces value of software loans used as collateral by private credit funds, restricting back-leverage. First major bank to remark collateral. Dimon flagged prudence on software assets at leveraged finance conference the prior week. ARES -4.5%, OWL/KKR/CG ~-2.6%. Stress escalates from fund-level (redemptions) to bank-funding layer |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. **>$100B in funds** to disclose Q1 data ([[Barclays]]) |
 
 ---
@@ -225,6 +226,29 @@ Multiple public BDCs at or near all-time lows, trading at steep discounts to NAV
 
 **Significance:** Saba/Cox are treating the illiquidity premium as a **market-wide factor** — not just a private credit story. Anywhere retail investors are trapped in semi-liquid vehicles, Weinstein will offer them cash at a discount. The implicit message: "your manager won't give you your money back, but we will — for a price."
 
+### JPMorgan marks down private credit collateral (Mar 11, 2026)
+
+**First major bank to remark private credit collateral values.** [[JPMorgan Chase|JPMorgan]]'s trading division reduced the value of loans — mostly to software companies — used as collateral by private credit funds in its back-leverage financing business. The markdowns restrict how much private credit firms can borrow against their portfolios and could force some to post additional collateral.
+
+**Why this is an escalation:** Prior stress events (OBDC II gate, BCRED redemptions, BlackRock/HPS gate) were all fund-level — investors pulling money out. JPMorgan's move shifts stress to the **bank-funding layer** that underpins private credit's leverage model. Back-leverage is how private credit funds amplify returns: they borrow from banks against their loan portfolios. By marking down that collateral, JPMorgan is reducing the amplification available to the entire industry.
+
+**The mechanism:**
+```
+JPM marks down software loan collateral values
+→ Private credit funds can borrow less against those portfolios
+→ Reduced leverage = reduced returns = more pressure on already-stressed NAVs
+→ If other banks follow (likely), the entire back-leverage channel tightens
+→ Funds face simultaneous squeeze from both sides: retail redemptions + bank leverage withdrawal
+```
+
+**Pre-emptive, not reactive:** JPMorgan characterized the move as financial discipline — "rather than waiting until a crisis comes." No margin calls triggered. The bank did the same thing during early COVID. Dimon told investors at JPMorgan's leveraged finance conference the prior week that the bank was being "more prudent" in lending against software assets.
+
+**JPMorgan is potentially the first major bank to take this step** (FT). If Goldman, Morgan Stanley, Citi, and BofA follow — and competitive dynamics make it likely once one moves — the funding mechanism for the entire private credit industry tightens simultaneously.
+
+**Market reaction:** ARES -4.5%, OWL/KKR/CG ~-2.6%, JPM -0.5%.
+
+*Sources: FT, Reuters, Bloomberg, CNBC (Mar 11, 2026)*
+
 ### Ares ARCC (watching)
 - **$26B+** — largest publicly traded BDC
 - Canary for broader BDC market health
@@ -322,7 +346,7 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 **Duke Fuqua School of Business (Sept 2025):** Institutional BDC ownership fell to **~25% by 2023** — retail investors now supply the majority of publicly traded BDC equity capital.
 
-**Jamie Dimon ([[JPMorgan Chase\|JPMorgan]] CEO):** Private credit's *"cockroaches"* (late 2025) — stress in one borrower signals more hidden trouble. Escalated Feb 26: financial firms are *"doing dumb things"* in risky lending.
+**Jamie Dimon ([[JPMorgan Chase\|JPMorgan]] CEO):** Private credit's *"cockroaches"* (late 2025) — stress in one borrower signals more hidden trouble. Escalated Feb 26: financial firms are *"doing dumb things"* in risky lending. **Mar 11: JPM trading division marks down software loan collateral, restricting back-leverage to private credit funds** — first major bank to act on Dimon's warnings. At JPM leveraged finance conference (early Mar): being "more prudent" on software assets.
 
 **Danny Moses (The Big Short, Feb 26):** The push for retail money *"rhymes"* with what he saw two decades ago in the run-up to 2008.
 
@@ -390,6 +414,7 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 | Signal | Why it matters | Timing |
 |--------|---------------|--------|
+| **Bank collateral markdowns spread** | JPM first to remark (Mar 11). If GS, MS, Citi, BofA follow → systemic tightening of back-leverage | Coming weeks |
 | **Q1 2026 final redemption data** | Already ~7.5% weighted avg (as of Mar 6) — how many funds gate? | April (Stanger report) |
 | **March 31 quarter-end** | Next redemption window for all semi-liquid funds. >$100B in funds face disclosure | Mar 31 |
 | **Who gates, who accommodates** | Industry splitting — HPS/BlackRock gated, Blackstone accommodated. Each approach has systemic implications | Coming weeks |
@@ -422,7 +447,7 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 | Publicly-traded BDC lows | BlackRock TCP $3.82 (record, -50% YoY) |
 
 *Sources: Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8; "Twice shy" newsletter ~Mar 7; Feb 26 roundup; Feb 24-25 UBS/Loeb/Michele; Fishlow/DiMauro/Brown/Scigliuzzo, Feb), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, Robert A Stanger & Co., Deutsche Bank, UBS (Mish), Fitch Ratings, Barclays, BofA, Citigroup, KKR filings*
-*Updated 2026-03-09*
+*Updated 2026-03-11*
 
 ---
 
@@ -448,7 +473,8 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 - [[Carlyle Group]] — contagion (-5%)
 - [[HPS Investment Partners]] — HPS Corporate Lending Fund ($26B) gated at 5% (Mar 6, 2026); acquired by BlackRock
 - [[BlackRock]] — HPS fund gate, TCP Capital at record low ($3.82, -50% YoY)
-- [[Goldman Sachs]] — Bantwal: limits are "features not bugs"
+- [[JPMorgan Chase]] — first major bank to mark down private credit collateral (Mar 11, 2026); restricting back-leverage
+- [[Goldman Sachs]] — Bantwal: limits are "features not bugs"; TRS product to short software loans (Mar 9)
 - [[Corbin Capital Partners]] — Cocke: "cannot create liquidity from an illiquid asset class"
 - [[Evercore ISI]] — Schorr: "retrain the investor base"
 - [[Fitch Ratings]] — 5.8% default rate (record since Aug 2024 tracker)

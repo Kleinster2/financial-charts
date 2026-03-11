@@ -146,6 +146,8 @@ The retail model is breaking. After 5 years of selling illiquid loans as "bond a
 | OBDC ([[Blue Owl]]) | $16B+ | 🟡 Watching |
 | ARCC ([[Ares Management]]) | $26B+ | 🟡 Watching — met ~5.6% in Q1 |
 
+**Latest escalation (Mar 11):** [[JPMorgan Chase|JPMorgan]] marks down software loan collateral values in its back-leverage business — first major bank to restrict funding to private credit. Stress moves from fund-level (redemptions) to bank-funding layer.
+
 **Next test:** March 31 quarter-end. **>$100B in funds** to disclose Q1 data (Barclays). Q1 2026 weighted avg redemption requests already ~7.5% across tracked funds (Stanger, as of Mar 6).
 
 **Key event notes:**
@@ -180,7 +182,7 @@ Private credit was historically institutional-only. From 2020-2025, PE firms agg
 | **Software concentration** | 🟡 Elevated | 14-16% of spec-grade. AI disruption compressing valuations |
 | **Covenant erosion / LMEs** | 🟡 Trending | 33 creditor-harming restructurings in 2024, 23 in 2025 ($500M+ debt each). Cov-lite creeping into middle market |
 | **Opacity / valuation lag** | 🟡 Structural | [[BlackRock]] marked [[Renovo Home Partners]] at 100 cents; bankrupt one month later, total loss on $150M |
-| **Bank interconnection** | 🟡 Growing | US bank exposure to private debt vehicles: **$300B** (Moody's, Oct 2025) |
+| **Bank interconnection** | 🟡 Escalating | US bank exposure: **$300B** (Moody's). **JPM marking down collateral (Mar 11)** — first bank to restrict back-leverage |
 | **Insurer interconnection** | 🟡 Growing | US life insurer exposure to illiquid credit: **$2T** (Moody's). [[PE-insurance convergence]] deepening |
 | **Ratings shopping** | 🟡 Emerging | SEC probing [[Egan-Jones]] — rated 3,000+ private credit investments with ~20 analysts. UBS Chairman Kelleher: "massive growth in small rating agencies ticking the box" |
 | **Regulatory** | 🟡 Emerging | Warren calling for capital requirements + stress tests. BOE running first private markets stress test |
@@ -391,6 +393,6 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 - [[GIC]] — sovereign wealth, private credit lender
 - [[Permira]] — PE sponsor extracting cov-lite terms
 
-*Updated 2026-03-09*
+*Updated 2026-03-11*
 
 *Sources: Bloomberg Markets (Feb/Mar 2026 issue), Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8 2026), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, FT, Fitch Ratings*
