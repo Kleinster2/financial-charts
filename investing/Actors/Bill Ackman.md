@@ -12,9 +12,10 @@ aliases: [William Ackman, Ackman]
 | Metric | Value |
 |--------|-------|
 | Fund | [[Pershing Square]] Capital Management |
-| AUM | ~$18B |
+| AUM | $30.7B (Dec 2025) |
 | Style | Concentrated activist |
 | Current bet | [[Fannie Mae]], [[Freddie Mac]] |
+| IPO filing | Mar 10, 2026 (NYSE: PS + PSUS) |
 
 ---
 
@@ -131,22 +132,35 @@ Mixed record but capable of massive wins.
 
 ---
 
+## Pershing Square IPO (Mar 10, 2026)
+
+Filed for combined dual listing on NYSE — [[Pershing Square]] management company (PS) and new closed-end fund Pershing Square USA (PSUS). PSUS targeting $5-10B at $50/share, no performance fees, 12-15 concentrated holdings. Sweetener: PSUS buyers get free PS shares (20 per 100 IPO shares, 30 per 100 private placement). $2.8B already committed. Building a "modern-day [[Berkshire Hathaway]]" permanent capital vehicle.
+
+Failed attempt in July 2024 targeting $25B was scrapped days before debut. This relaunch is more modest with the management company equity sweetener added.
+
+See [[Pershing Square]] for full details.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Fund | [[Pershing Square]] |
 | Style | Concentrated activist |
-| AUM | ~$18B |
-| Current focus | GSE privatization |
+| AUM | $30.7B (Dec 2025) |
+| Current focus | GSE privatization, NYSE IPO |
 
-*Created 2026-01-15*
+*Created 2026-01-15 · Updated 2026-03-10*
 
 ---
 
 ## Related
 
+- [[Pershing Square]] — management company (NYSE IPO filed Mar 2026)
+- [[Berkshire Hathaway]] — model for permanent capital vehicle
 - [[Fannie Mae]] — core position
 - [[Freddie Mac]] — core position
 - [[FHFA]] — regulator
 - [[John Paulson]] — fellow GSE investor
+- [[Howard Hughes Holdings]] — platform acquisition target

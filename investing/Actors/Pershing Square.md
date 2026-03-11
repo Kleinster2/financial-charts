@@ -1,71 +1,79 @@
 ---
-aliases: [Pershing Square Capital, PSTH]
+aliases: [Pershing Square Capital, Pershing Square Capital Management, PSTH, PS, PSUS]
 ---
 #actor #investor #activist #hedgefund #usa #public
 
-**Pershing Square** — [[Bill Ackman]]'s fund. ~$18B AUM. Public (PSH.AS). Chipotle, [[Netflix]] campaigns. High-profile.
+**Pershing Square** — [[Bill Ackman]]'s hedge fund management company. ~$30.7B AUM. Building a "modern-day [[Berkshire Hathaway]]" — permanent capital, concentrated bets, no performance fees on public vehicles. Filed for combined US IPO (NYSE: PS + PSUS) on Mar 10, 2026.
 
 ---
 
-## Why Pershing Square matters
+## Synopsis
+
+Pershing Square Capital Management is [[Bill Ackman]]'s two-decade-old activist hedge fund, now pivoting from a private fund manager into a publicly traded permanent capital vehicle modeled on [[Berkshire Hathaway]]. The Mar 10, 2026 filing is a combined dual listing: Pershing Square itself (NYSE: PS) — giving public investors a stake in the management company for the first time — and Pershing Square USA (NYSE: PSUS), a new closed-end fund targeting $5-10B at $50/share with no performance fees, aimed at both retail and institutional investors. The sweetener tying them together: every 100 PSUS shares purchased comes with 20 free PS shares (30 for private placement investors). The firm already has $2.8B in private placement commitments.
+
+The strategy is concentrated — 8-12 core holdings in undervalued large-cap North American companies. Current portfolio (end 2025): [[Brookfield]] (18.15%), [[Uber]] (15.90%), [[Amazon]] (14.28%), [[Alphabet]] (12.46%), with [[Meta]] added in Feb 2026 (~10% of capital). PSH generated 20.9% NAV performance and 33.9% total shareholder return in 2025. AUM: $30.7B at Dec 2025 ($28.3B as of Feb 2026). The previous attempt to launch PSUS in 2024 (targeting $25B) was scrapped days before debut. This time Ackman is betting that market volatility from the US-Israel war on Iran actually helps — better entry points for the fund's acquisition program.
+
+---
+
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Founded | 2004 |
-| Founder | **[[Bill Ackman]]** |
-| AUM | ~$18B |
-| Public vehicle | PSH (Euronext) |
-| Style | Concentrated activist |
+| Founder | [[Bill Ackman]] |
+| AUM | $30.7B (Dec 2025) |
+| Public vehicles | PSH (Euronext Amsterdam), PS + PSUS (NYSE, filed Mar 2026) |
+| 2024 valuation | $10.5B (10% stake sale) |
+| 2025 NAV performance | 20.9% |
+| 2025 total shareholder return | 33.9% |
+| Style | Concentrated activist, 8-12 holdings |
 
 ---
 
-## [[Bill Ackman]]
+## US IPO filing (Mar 10, 2026)
 
-| Fact | Detail |
-|------|--------|
-| Background | Gotham Partners |
-| Style | Public, concentrated |
-| Twitter/X | Very active |
-| Politics | Vocal (shifted right 2023+) |
+Pershing Square filed for a combined dual listing on the [[New York Stock Exchange|NYSE]]:
 
----
+| Detail | PS (management company) | PSUS (new closed-end fund) |
+|--------|------------------------|---------------------------|
+| Ticker | PS | PSUS |
+| Exchange | NYSE | NYSE |
+| Structure | Management company equity | Closed-end fund |
+| Target raise | — | $5-10B |
+| Share price | — | $50 |
+| Performance fees | — | None |
+| Portfolio | — | 12-15 undervalued North American companies |
 
-## Notable campaigns
+**Sweetener structure:** PSUS investors receive free PS shares — a stake in the management company itself:
+- IPO investors: 20 PS shares per 100 PSUS shares
+- Private placement investors: 30 PS shares per 100 PSUS shares
 
-| Company | Outcome |
-|---------|---------|
-| **Chipotle** | [[Home]] run (board, CEO change) |
-| **[[Netflix]]** | Quick flip win |
-| **Canadian Pacific** | CEO change, massive gains |
-| **Herbalife** | Short, lost to Icahn |
-| **Valeant** | Disaster |
-| **Universal Music** | SPAC failed |
+**Private placement:** $2.8B already committed from family offices, pension funds, and insurance companies.
 
----
+**Bookrunners:** [[Citigroup]], [[UBS]], [[Bank of America]], [[Jefferies]], [[Wells Fargo]]
 
-## Chipotle case study
+**Permanent capital thesis:** Unlike a traditional hedge fund, closed-end funds don't face redemptions during market stress. Ackman: "Permanent capital allows us to take a long-term view and be opportunistic during periods of market volatility, without being exposed to the need to raise capital by selling assets to meet redemptions."
 
-| Timeline | Detail |
-|----------|--------|
-| 2016 | Built stake during food safety crisis |
-| 2018 | Installed new CEO (Brian Niccol) |
-| 2024 | Niccol to [[Starbucks]] |
-| Return | Multi-billion profit |
+**Why now (Ackman's argument):** Market volatility from the US-Israel war on Iran is actually beneficial — better entry points for PSUS's acquisition program. The opposite of normal IPO timing logic, which favors calm markets.
 
-Ackman's best activist win.
+**Failed 2024 attempt:** Ackman tried to launch PSUS in July 2024 targeting $25B but scrapped it days before debut. This relaunch is more modest ($5-10B) with the PS equity sweetener added.
+
+**Berkshire model:** Ackman explicitly models the strategy on [[Warren Buffett]]'s career arc — private partnerships → permanent capital vehicle → public compounding machine. PSUS is Ackman's first fund marketed to both US retail and institutional investors, leveraging his 2M+ X followers.
 
 ---
 
-## Herbalife short (failure)
+## Portfolio (end 2025)
 
-| Aspect | Detail |
-|--------|--------|
-| Thesis | Pyramid scheme |
-| Opponent | Carl Icahn (went long) |
-| Duration | 5 years |
-| Outcome | Ackman lost ~$1B |
+| Holding | Weight | Notes |
+|---------|--------|-------|
+| [[Brookfield]] | 18.15% | Largest position |
+| [[Uber]] | 15.90% | — |
+| [[Amazon]] | 14.28% | — |
+| [[Alphabet]] | 12.46% | Class C |
+| [[Meta]] | ~10% | Added Feb 2026 |
+| [[Howard Hughes Holdings]] | — | Seeking majority stake, "modern-day Berkshire" platform |
 
-Most public hedge fund battle ever.
+Concentrated: 8-12 core holdings, all large-cap.
 
 ---
 
@@ -75,28 +83,75 @@ Most public hedge fund battle ever.
 |--------|-------|
 | Ticker | PSH (Euronext Amsterdam) |
 | Structure | Closed-end fund |
-| Discount | Trades below NAV |
-| Access | Public way to invest with Ackman |
+| Discount to NAV | Persistent, narrowing |
+| 2025 NAV return | 20.9% |
+| 2025 total shareholder return | 33.9% (discount narrowing) |
+| Launched | Dec 2012, IPO Oct 2014 ($3B) |
+
+London-listed closed-end fund, bulk of AUM. The NAV discount has been a persistent frustration — the PSUS launch is partly designed to create a US-listed vehicle without the same discount dynamics.
 
 ---
 
-## Quick stats
+## [[Bill Ackman]]
 
-| Metric | Value |
-|--------|-------|
-| Founded | 2004 |
-| AUM | ~$18B |
-| Founder | [[Bill Ackman]] |
-| Public | PSH (Euronext) |
+| Fact | Detail |
+|------|--------|
+| Background | Gotham Partners |
+| Style | Public, concentrated |
+| Twitter/X | 2M+ followers, very active |
+| Politics | Vocal (shifted right 2023+) |
+| Model | [[Warren Buffett]] / [[Berkshire Hathaway]] |
+
+---
+
+## Notable campaigns
+
+| Company | Outcome |
+|---------|---------|
+| **Chipotle** | Home run (board, CEO change, multi-billion profit) |
+| **Canadian Pacific** | CEO change, massive gains |
+| **COVID hedges (2020)** | $2.6B profit in weeks |
+| **[[Netflix]]** | Quick flip win |
+| **Herbalife** | Short, lost to [[Carl Icahn]] (~$1B loss) |
+| **Valeant** | Disaster (~$4B loss) |
+| **Universal Music SPAC** | Failed |
+
+---
+
+## Investment case
+
+**Bull:**
+- 20.9% NAV return in 2025
+- Permanent capital model reduces volatility risk
+- No performance fees on PSUS attracts retail
+- Concentrated portfolio = high conviction
+- Ackman's track record on best trades (COVID hedges, Chipotle) is exceptional
+- 2M+ X following = built-in retail demand
+
+**Bear:**
+- Closed-end fund discount risk (PSH has persistent NAV discount)
+- Key-man risk — Ackman's public persona is the brand
+- Political commentary adds reputational risk
+- Failed 2024 PSUS launch raises execution concerns
+- Concentrated portfolio = high drawdown risk (Valeant, Herbalife)
+- $10.5B management company valuation is rich for ~$30B AUM
 
 ---
 
 ## Related
 
+- [[Bill Ackman]] — founder/CEO
+- [[Berkshire Hathaway]] — Ackman's model
+- [[Warren Buffett]] — inspiration
+- [[Howard Hughes Holdings]] — platform acquisition target
+- [[Brookfield]] — largest portfolio holding
+- [[Uber]] — portfolio holding
+- [[Amazon]] — portfolio holding
+- [[Alphabet]] — portfolio holding
+- [[Meta]] — portfolio holding (Feb 2026)
 - [[Elliott Management]] — peer
 - [[Third Point]] — peer
 - [[Carl Icahn]] — rival (Herbalife)
+- [[Fannie Mae]] — Ackman's GSE trade
 
----
-
-*Created 2026-01-16*
+*Created 2026-01-16 · Updated 2026-03-10*
