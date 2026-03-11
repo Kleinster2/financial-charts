@@ -122,6 +122,25 @@ Slower construction → delayed revenue recognition, higher execution risk, pote
 
 ---
 
+## Private equity return drag — currency + tax (Mar 2026)
+
+India is a consensus EM allocation for PE — stronger managers, deeper deal pipeline, healthier IPO exit environment — but two structural drags are capping dollar-denominated returns:
+
+| Drag | Impact |
+|------|--------|
+| **[[Indian rupee]] depreciation** | -1.9% YTD 2026, after -4.2% (2025), -2.4% (2024) — ~8.5% cumulative USD erosion in 3 years |
+| **Capital gains tax** | 10-15% at exit — competing markets don't necessarily levy this |
+
+**Leverage constraints compound the problem.** RBI rules restrict bank financing for share acquisitions. Corporate law limits using target company assets to fund purchases. This kills the leveraged buyout playbook that juices PE returns in the US and Europe. India PE returns must come from operational value creation, not financial engineering.
+
+**Silver lining:** Lower leverage = less exposure to rate shocks and refinancing risk. India deals are "better positioned" for macro turbulence (Aksia).
+
+**"More and more deals get priced to perfection"** — Rohit Agarwal (Aksia, VP/Head of Asian PE). The question: can operational returns outpace the combined drag from currency weakness and taxes?
+
+*Source: Reuters, IVCA conclave, Mar 10, 2026. Speakers: Amit Chandra (57 Stars), Rohit Agarwal (Aksia)*
+
+---
+
 ## Related
 
 - [[India]] — hub

@@ -19,14 +19,18 @@
 
 ---
 
-## Recent moves (Jan 2026)
+## Recent moves
 
-| Metric | Value |
-|--------|-------|
-| USD/INR | 91.98 (record low, Jan 31) |
-| Monthly move | Worst since Sep 2022 |
-| Key drivers | US tariff uncertainty, foreign outflows |
-| RBI response | Heavy dollar sales, rate cuts |
+| Period | Depreciation vs USD | Notes |
+|--------|-------------------|-------|
+| 2024 | -2.4% | Fed hikes, oil pressure |
+| 2025 | -4.2% | Tariff fears, foreign outflows |
+| YTD 2026 | -1.9% | Continued structural weakness |
+| **3-year cumulative** | **~8.5%** | Major drag on foreign PE/FDI returns |
+
+USD/INR hit 91.98 (record low, Jan 31, 2026). Worst monthly move since Sep 2022. Driven by US tariff uncertainty and foreign outflows. RBI responding with heavy dollar sales and rate cuts.
+
+**PE return impact:** 57 Stars and Aksia flagged at IVCA conclave (Mar 2026) that rupee depreciation + 10-15% capital gains tax at exit are capping dollar-denominated PE returns. Combined with leverage constraints (RBI restricts bank financing for share acquisitions), India PE must rely on operational value creation — no LBO playbook available.
 
 ---
 
