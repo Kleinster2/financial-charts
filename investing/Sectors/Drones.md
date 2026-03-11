@@ -97,6 +97,9 @@ First flight January 11, 2026. Heavy cargo drone from [[Norinco]] subsidiary Xi'
 | [[AeroVironment]] | AVAV | Military small UAVs |
 | [[Ehang]] | EH | Air taxi (China) |
 | **Kratos Defense** | KTOS | Military drones |
+| [[Powerus]] | PUSA (expected) | Heavy-lift UAS, defense roll-up; Trump family-backed |
+| [[Unusual Machines]] | UMAC | Drone components; Trump Jr. adviser |
+| [[XTEND]] | — (via JFB.O) | Israeli AI drones; Eric Trump-backed |
 
 **Private:** [[Zipline]], [[Wing]] (Alphabet), [[Skydio]], [[DJI]]
 
@@ -137,6 +140,11 @@ See [[2026 Iran conflict market impact]] for full cross-sector reaction.
 - [[Joby Aviation]] — US leader (JOBY)
 - [[Archer Aviation]] — US competitor (ACHR)
 - [[Ehang]] — Chinese, first certified (EH)
+
+### Trump family drone investments
+- [[Powerus]] — roll-up targeting Pentagon contracts (PUSA, expected summer 2026)
+- [[XTEND]] — Israeli AI drone maker, $1.5B reverse merger (Feb 2026)
+- [[Unusual Machines]] — drone components, Trump Jr. adviser (UMAC)
 
 ### Context
 - [[Aerospace]] — parent sector
