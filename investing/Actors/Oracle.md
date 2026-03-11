@@ -237,7 +237,9 @@ Context: Part of broader AI infrastructure pivot — redirecting headcount costs
 
 ## Q3 FY2026 earnings (Mar 10, 2026)
 
-**Across-the-board beat. Stock +9% after hours.** First quarter in 15+ years where organic total revenue and non-GAAP EPS both grew 20%+ in USD.
+**Across-the-board beat. Stock +8.3% after hours.** First quarter in 15+ years where organic total revenue and non-GAAP EPS both grew 20%+ in USD.
+
+**eMarketer (Jacob Bourne):** "Oracle's quarter is a beat and a stress test result for the AI trade. As the most debt-exposed major player in AI infrastructure, Oracle is the canary in the coal mine and this report suggests there's underlying health in AI spending beyond the hype."
 
 ### Results vs consensus
 
@@ -440,7 +442,7 @@ Context: Part of broader AI infrastructure pivot — redirecting headcount costs
 | Mar 9, 2026 | [[Barclays]] | Buy | $230 | Cut from $310 |
 | Mar 9, 2026 | [[Scotiabank]] | Sector Outperform | $215 | Cut from $220 |
 | Mar 2026 | [[Baird]] | Outperform | $200 | Cut from $300 |
-| **Mar 10, 2026** | — | — | — | **Q3 FY26 beat: Rev $17.19B vs $16.91B, EPS $1.79 vs $1.70. Stock +9% AH.** |
+| **Mar 10, 2026** | — | — | — | **Q3 FY26 beat: Rev $17.19B vs $16.91B, EPS $1.79 vs $1.70. Stock +8.3% AH.** |
 
 **Coverage summary (LSEG, pre-Q3):** 33 Buy / 11 Hold / 1 Sell. Avg PT $253. Range $155-$400.
 
