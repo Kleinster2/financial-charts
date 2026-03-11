@@ -39,6 +39,7 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **Mar 6, 2026** | **OWL short interest hits all-time high** — most shorted stock on EquiLend. Broader **bearish bets against alt managers at record** |
 | **Mar 6, 2026** | **Publicly-traded BDCs at or near all-time lows** — [[BlackRock]] TCP Capital Corp closes at $3.82 (record low, **>50% drop in one year**). Multiple public BDCs trading at steep NAV discounts |
 | **Mar 11, 2026** | **[[JPMorgan Chase\|JPMorgan]] marks down private credit collateral** — trading division reduces value of software loans used as collateral by private credit funds, restricting back-leverage. First major bank to remark collateral. Dimon flagged prudence on software assets at leveraged finance conference the prior week. ARES -4.5%, OWL/KKR/CG ~-2.6%. Stress escalates from fund-level (redemptions) to bank-funding layer |
+| **Mar 11, 2026** | [[Jeff Currie]] ([[Carlyle]]) on Bloomberg: oil at $120 sustained → **crowds out $150B of private credit** — Treasury must issue that as public debt, directly competing for capital. A macro squeeze layered on top of the micro (software defaults, redemptions, collateral markdowns). See [[Iran conflict energy disruption]] |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. **>$100B in funds** to disclose Q1 data ([[Barclays]]) |
 
 ---
@@ -294,7 +295,11 @@ Many lenders hold the same borrowers. A forced sale by one fund depresses marks 
 ### 5. Regulatory vacuum
 No widespread stress testing, limited disclosure requirements. Sen. Warren's call for regulation (Feb 19) could change this — but if regulators force disclosure, the opacity that's been hiding problems gets blown open all at once.
 
-### 6. PE-insurance convergence as amplifier
+### 6. Oil shock → public debt crowding out private credit
+
+[[Jeff Currie]] ([[Carlyle]], Mar 11): oil at $120 sustained forces the Treasury to issue ~$150B in additional public debt (higher transfer payments, interest costs, headline inflation). That $150B directly crowds out private credit issuance — the government competes for the same capital pool. This creates a macro-level squeeze on top of the micro-level stress (software defaults, redemptions, collateral markdowns). The [[Iran conflict energy disruption|Iran-Hormuz disruption]] has pushed WTI above $100 as of March 9. If Currie's regime change thesis is right (sustained commodity supercycle, not a temporary spike), private credit faces a prolonged capital starvation environment — higher rates, tighter fiscal, and a government that outcompetes private borrowers for funding.
+
+### 7. PE-insurance convergence as amplifier
 KKR's Global Atlantic illustrates the risk. As PE firms shift insurer portfolios toward private assets, investment volatility spikes:
 
 ![[kkr-global-atlantic-investment-volatility.png]]
@@ -426,6 +431,7 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 | **401(k) access** | Trump executive order signed; DOL guidance enabling alternative assets in 401(k)s expected soon. Retail funnel about to get wider just as existing retail investors flee | Imminent |
 | **Warren legislation** | Capital requirements, disclosure, stress tests | Congressional calendar |
 | **Insurance/pension exposure** | They're buying the loans Blue Owl is selling — are they the new bag holders? | Ongoing |
+| **Oil above $120 sustained** | Currie ([[Carlyle]]): crowds out $150B of private credit via public debt issuance. Macro squeeze on top of micro stress | If Iran/Hormuz persists |
 
 ---
 
@@ -484,5 +490,7 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 - [[Nomura]] — Maeda: significant contraction unlikely
 - [[Marathon Asset Management]] — Richards: loudest software bear, 15% default prediction, HALO strategy
 - [[Starwood Capital Group]] — SREIT targeted by Saba/Cox tender offer (Mar 5, 2026)
+- [[Iran conflict energy disruption]] — oil at $120 crowds out $150B private credit (Currie/Carlyle)
+- [[Jeff Currie]] — regime change thesis: asset-heavy cycle, oil shock amplifies private credit stress
 - [[March 2020 liquidity crisis]] — prior liquidity event (different mechanism)
 - [[PE-insurance convergence]] — structural context (retail push)

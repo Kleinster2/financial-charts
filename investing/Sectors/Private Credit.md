@@ -184,6 +184,7 @@ Private credit was historically institutional-only. From 2020-2025, PE firms agg
 | **Opacity / valuation lag** | 🟡 Structural | [[BlackRock]] marked [[Renovo Home Partners]] at 100 cents; bankrupt one month later, total loss on $150M |
 | **Bank interconnection** | 🟡 Escalating | US bank exposure: **$300B** (Moody's). **JPM marking down collateral (Mar 11)** — first bank to restrict back-leverage |
 | **Insurer interconnection** | 🟡 Growing | US life insurer exposure to illiquid credit: **$2T** (Moody's). [[PE-insurance convergence]] deepening |
+| **Oil shock → capital crowding** | 🟡 Emerging | [[Jeff Currie]] ([[Carlyle]], Mar 11): oil at $120 sustained → Treasury issues ~$150B more public debt → directly crowds out private credit. Macro squeeze on top of micro stress. WTI above $100 as of Mar 9 |
 | **Ratings shopping** | 🟡 Emerging | SEC probing [[Egan-Jones]] — rated 3,000+ private credit investments with ~20 analysts. UBS Chairman Kelleher: "massive growth in small rating agencies ticking the box" |
 | **Regulatory** | 🟡 Emerging | Warren calling for capital requirements + stress tests. BOE running first private markets stress test |
 
