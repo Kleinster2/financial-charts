@@ -346,6 +346,23 @@ Asian governments (South Korea, Taiwan, Japan, China) responded to the crisis by
 
 ---
 
+## Currie: "Regime change, not a trade" (March 11)
+
+[[Jeff Currie]] ([[Carlyle]]) on Bloomberg, his most urgent appearance. Framed the disruption as a structural regime shift — not a spike to trade around.
+
+- Net disruption: ~18M bbl/day — "no policy response can stop this"
+- SPR release is a "PR campaign" — 400M bbl at 2M/day max flow = minuscule
+- Hoarding already happening at sovereign level ([[Japan]], [[South Korea]]) and consumer level — could add 3M bbl/day demand on top of 18M disruption
+- Jet fuel in Singapore hit $230/bbl. 900K bbl/day refinery bombed in the Gulf
+- Called this a "revenge of the old economy" replay — 2014-2024 asset-light cycle ending, flipping to asset-heavy like 2001-2014
+- "The paradox of energy dominance": US is a net exporter at income level, but at wealth level energy = 3% of equity market at 12x vs energy-short sectors = 53% at 36x. "You're in trouble at the wealth level"
+- Post-2022 sanctions turned petrodollar recycling into a shock amplifier — EM surpluses buy [[Gold]] not Treasuries
+- Oil at $120 sustained → crowds out $150B of [[Private Credit|private credit]]
+
+[Source](https://youtu.be/Au6Exwc2R6s)
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note

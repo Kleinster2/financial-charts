@@ -217,6 +217,22 @@ Sable's Plan B if the onshore pipeline stays blocked:
 
 ---
 
+## Macro context: Iran conflict energy shock
+
+The entire Sable thesis changes complexion under the [[Iran conflict energy disruption|2026 Iran-Hormuz energy shock]]. As of March 11:
+
+- WTI above $100/bbl, Brent ~$93. Jet fuel in Singapore hit $230/bbl
+- ~18M bbl/day of global supply disrupted (net) — [[Strait of Hormuz]] traffic down 86%
+- [[Jeff Currie]] ([[Carlyle]]): "no policy response can stop this" — calls it a structural regime change, not a trade
+- California's argument that SYU production is unnecessary ("contributes ~0.05% to crude oil production — a drop in the bucket") becomes politically untenable with oil above $100
+- The Trump administration's national energy emergency declaration, combined with DOJ DPA opinion, gains urgency when there's an actual energy emergency
+- Domestic offshore production in federal waters becomes a national security argument, not just an economic one
+- If Currie's "revenge of the old economy" thesis plays out (sustained commodity supercycle like 2001-2014), SYU's 50,000 bbl/day capacity at $80-100+ oil is worth dramatically more than at $65-70
+
+**The bear counterpoint:** Even in an energy emergency, California courts and regulators may not yield. Federal preemption via DPA has never been tested at this scale. And Sable's balance sheet may not survive long enough to benefit — $98M cash against $943M debt with -$769M annual FCF means time is the enemy.
+
+---
+
 ## Analyst timeline
 
 | Date | Source | Rating | PT | Context |

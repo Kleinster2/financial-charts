@@ -48,7 +48,45 @@ Supply side: Thinning inventories, stalled mine output, political/financial chal
 
 ---
 
-## Current views (Feb 2026)
+## Current views (Mar 2026)
+
+### Bloomberg (Mar 11, 2026) — "Regime change, not a trade"
+
+Currie's most urgent appearance yet. Called the Iran/Hormuz disruption a structural regime shift — not a temporary spike. Key claims:
+
+**Scale of disruption:**
+- Net disruption: ~18M bbl/day — dwarfs any policy response
+- SPR release is a "PR campaign" — 400M barrels at max 2M bbl/day flow = 200 days. "Minuscule" vs 18M disruption
+- Jet fuel in Singapore hit $230/barrel. A 900K bbl/day Gulf refinery was bombed
+- "There is no policy response that can stop this"
+
+**Hoarding is the amplifier:**
+- [[Japan]], [[South Korea]] hoarding "anything they can get their hands on"
+- Consumer-level: people filling gas tanks at half instead of quarter — meaningful demand add
+- 1970s hoarding added ~2M bbl/day to demand; this time could be 3M bbl/day on top of 18M disruption
+- "Keep the hoarding down" — but it's already happening
+
+**The regime change framework:**
+- 2014-2024: "new economy boom" — asset-light, tech-driven, like dot-com
+- This geopolitical shock flips to an asset-heavy cycle like 2001-2014
+- Drew direct parallel: Bush Jr. traded [[China]] WTO admission for UN Security Council votes to use force in the Middle East → triggered 13-year commodity supercycle
+- "Revenge of the old economy" — coined it in 2004, applying it again now
+- "Own the hard assets, own the HALOs (high asset, low obsolescence), own metal, own gold, own oil"
+
+**The paradox of energy dominance:**
+- US is a net energy exporter at the income/cash flow level (~$80B on a $30T economy)
+- But at the wealth level: energy = 3% of equity market at 12-13x multiples; sectors that are "short" energy = 53% of the market at 36x multiples
+- "You're long three, short 53 at the wealth level... you're in trouble"
+- At the credit level: post-2022 sanctions on [[Russia]] turned petrodollar recycling (shock absorber) into a shock amplifier — EM surpluses now buy [[Gold]], not Treasuries
+- Oil at $120 sustained → crowds out $150B of private credit (must be issued as public credit instead)
+
+**Metals:** Straight line up since 2020. But cost structures rising too — when oil went 63x in the 2000s, company returns actually *fell* because industry costs rose faster. Repricing everything.
+
+[Source: Bloomberg Television, Mar 11, 2026](https://youtu.be/Au6Exwc2R6s)
+
+---
+
+## Earlier views (Feb 2026)
 
 **Metals:** Bullish across the board. [[Gold]] bull market broadening through commodities. [[Silver]] rally driven by [[China]] buying and industrial demand. On Odd Lots (Jan 30, 2026): explained the metals surge and why the supercycle has years to run.
 
