@@ -164,11 +164,24 @@ Samsung offering integrated solution to hyperscalers:
 
 ---
 
+## Taiwan panel-to-packaging conversion (2025-2026)
+
+Taiwan's dying LCD panel industry is being cannibalized for cleanroom capacity. [[Innolux]] and [[AUO]] are selling old panel fabs to semiconductor packagers ([[TSMC]], [[ASE]], ChipMOS, Powertech) who need instant capacity for AI chips. Building greenfield packaging plants takes 3-5 years; buying a panel fab with existing cleanrooms, power, and water treatment = months.
+
+Key deals: Innolux Fab 4 → TSMC ($538M, for CoWoS), Innolux Fab 2 → ChipMOS ($28M), AUO L3C → Powertech ($217M), Innolux Fab 5 → ASE (rumored).
+
+**TSMC buying panel fabs for CoWoS is the clearest signal of how severe the packaging capacity crunch is.**
+
+See [[Taiwan panel-to-packaging conversion]] for full details.
+
+---
+
 ## Implications
 
 - Packaging is a **separate moat** from foundry
 - AI chip supply chain has multiple bottlenecks: foundry AND packaging
 - SK Hynix U.S. packaging could benefit from [[CHIPS Act]] and [[N-2 rule]] constraints on TSMC
+- Panel fab conversions are accelerating capacity additions but still won't close the 15-20% supply-demand gap near-term
 
 ---
 
@@ -194,6 +207,9 @@ Samsung offering integrated solution to hyperscalers:
 - [[Supply chain bottlenecks]] — context (packaging as constraint layer)
 - [[Semiconductor Test]] — downstream (packaging complexity drives test steps)
 - [[Semiconductor bonding equipment]] — equipment for hybrid bonding
+- [[Taiwan panel-to-packaging conversion]] — panel fabs being bought for packaging capacity
+- [[Innolux]] — panel fab seller (TSMC, ChipMOS, ASE)
+- [[AUO]] — panel fab seller (Powertech)
 
 ## Sources
 
