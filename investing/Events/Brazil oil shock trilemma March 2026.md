@@ -105,4 +105,10 @@ The speed of the collapse would create its own volatility — just as the >$20 i
 
 ---
 
+## Developments
+
+**Mar 10 — Diesel shortage materializing:** [[Petrobras]] refusing extra diesel orders to distributors (prices at record discount to international benchmarks). Shortages reported in Rio Grande do Sul during record soybean harvest. Emergency auction of 20M liters scheduled for Mar 12 — a political sidestep allowing market-adjacent pricing without formally raising posted prices. The pricing conundrum is now creating physical supply disruption.
+
+---
+
 *Created 2026-03-10*

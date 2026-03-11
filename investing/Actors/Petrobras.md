@@ -149,6 +149,26 @@ If Petrobras holds prices below international parity: importers stop importing, 
 
 See [[Brazil oil shock trilemma March 2026]] for the full analysis.
 
+### Diesel shortage & auction (Mar 10, 2026)
+
+The pricing conundrum is now creating **physical supply disruption.** Petrobras is holding domestic diesel prices at a record discount to international benchmarks — and the predictable consequence has arrived:
+
+| Development | Detail |
+|-------------|--------|
+| **Petrobras refusing extra diesel orders** | Rejecting additional volumes to distributors to prevent arbitrage |
+| **Shortage reports** | Rio Grande do Sul state reporting diesel shortages during **record soybean harvest** |
+| **Emergency auction** | 20 million liters of diesel to be auctioned Wed Mar 12 in RS |
+| **Pickup begins** | Monday Mar 17 |
+| **Mechanism** | Auction allows Petrobras to sell at higher/market-adjacent prices without formally raising posted prices |
+
+**Why Petrobras is rationing:** At current posted prices (below international parity), distributors have an incentive to stockpile diesel and wait for an inevitable price hike — buying cheap from Petrobras today, selling at market tomorrow. Petrobras knows this, so it's refusing extra volumes. But refusing volumes during harvest season risks crop losses.
+
+**The auction workaround:** By auctioning, Petrobras sells at market-driven prices without officially raising its posted price — a clever political sidestep. The posted price stays low (important for inflation optics and Lula's approval ratings), while the auction price moves toward parity on the marginal barrel. This is exactly the kind of Dilma-era pricing gymnastics the oil shock trilemma analysis warned about.
+
+**Farm sector impact:** Diesel is the single largest input cost for Brazilian agriculture. Farmers are harvesting a record soybean crop and planting corn — delays from diesel shortages could mean billions in losses. The Iran war is now directly threatening Brazilian food production via the diesel supply chain.
+
+*Source: Reuters, Mar 10, 2026*
+
 ---
 
 ## Management
