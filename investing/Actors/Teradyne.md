@@ -64,16 +64,81 @@ The Q1 guidance surge partly reflects robotics demand. AI-driven automation inve
 
 ---
 
+## Custom AI ASIC test dominance (Mar 2026)
+
+Teradyne has captured **~45-50% of the custom AI ASIC test market**, with related revenue growing **350%+ YoY**. The ASIC customers are primarily hyperscalers designing their own silicon:
+
+| Customer | Chip | Application |
+|----------|------|-------------|
+| [[Google]] | TPU | AI training/inference |
+| [[Amazon]] | Trainium / Inferentia | AI training/inference |
+
+This is the least-discussed part of the AI test story. The market focuses on GPU test (Advantest-dominated for NVIDIA), but hyperscaler ASICs are a separate, fast-growing segment where Teradyne leads.
+
+*Source: Jimi Finance / FOMO Society analysis (March 2026)*
+
+---
+
+## HBM4 test design wins
+
+Teradyne has secured **HBM4 test design orders**, competing directly with [[Advantest]] (which dominates current HBM test). HBM test equipment characteristics:
+
+- **Higher gross margins** than standard memory test
+- **Higher technical barriers** — 3D stacking, ultra-high bandwidth, thermal management during test
+- Once established, strong moat — customers rarely switch test platforms mid-generation
+
+This positions Teradyne for the next memory supercycle as HBM4 ramps with [[NVIDIA]] Rubin and next-gen AI accelerators.
+
+*Source: Jimi Finance analysis (March 2026)*
+
+---
+
+## AI test demand: non-linear growth
+
+AI is creating a **structural upgrade** in test economics, not a cyclical bump. Three drivers:
+
+**1. Chip complexity explosion:**
+Modern AI GPUs have hundreds of billions of transistors, ultra-high-speed interconnects, and [[Advanced packaging]] designs. More complexity = more test steps = longer test times per chip.
+
+**2. HBM + 3D packaging:**
+AI chips paired with [[HBM]] require testing of 3D-stacked memory (8-16 DRAM dies), high bandwidth interfaces, and high power designs. Each packaging layer adds test steps.
+
+**3. Test intensity multiplying:**
+- Old flow: chip → test → ship
+- New flow: chip → **multi-stage test** → **post-packaging test** → **system-level test**
+- Each chip tested multiple times. Test demand growing as a **multiple** of chip volume, not 1:1.
+
+This is the structural case for re-rating Teradyne from "cyclical semi equipment" to "AI infrastructure."
+
+---
+
+## Robotics as free call option
+
+Market treats Universal Robots as a drag on valuation. Counterargument:
+
+| Development | Detail |
+|-------------|--------|
+| Restructured | Lowered breakeven point significantly |
+| Large customer win | Speculated to be [[Amazon]] |
+| Partnership | [[Honeywell]] collaboration |
+| Upside | If profitable, triggers valuation re-rating |
+
+If the robot business turns profitable while semi test continues accelerating, the multiple expands on both segments simultaneously.
+
+---
+
 ## AI exposure
 
 | Driver | Impact |
 |--------|--------|
+| **Custom ASIC test** | **~45-50% market share, 350%+ YoY growth** |
 | AI accelerators | Complex chips need more test time |
-| HBM testing | Memory test demand surge |
+| **HBM4 test** | **Design wins secured, competing with Advantest** |
 | Advanced packaging | CoWoS, chiplets need system-level test |
+| Test intensity | Multi-stage testing = multiplier on chip volumes |
 | Edge AI | Proliferation of AI chips |
 
-Teradyne is a second-derivative AI play — doesn't make AI chips but benefits from their complexity.
+Teradyne is a second-derivative AI play — doesn't make AI chips but benefits from their complexity. The ASIC test dominance and HBM4 wins suggest the market is underestimating the structural shift.
 
 ---
 
@@ -98,7 +163,7 @@ Teradyne and Advantest dominate semiconductor ATE market.
 | Gross margin | ~58% |
 | HQ | North Reading, MA |
 
-*Updated 2026-02-03*
+*Updated 2026-03-10*
 
 ---
 
@@ -132,3 +197,9 @@ Strongest 12-week momentum of the five picks. AI chip complexity = more test ste
 - [[Advanced packaging]] — driver (system-level test)
 - [[Semiconductors]] — sector
 - [[WFE]] — adjacent (equipment peers)
+- [[Google]] — customer (TPU ASIC test)
+- [[Amazon]] — customer (Trainium/Inferentia ASIC test; speculated Universal Robots customer)
+- [[Honeywell]] — robotics partner
+- [[Final test bottleneck]] — thesis (test as AI constraint)
+- [[Semiconductor Test]] — sector context
+- [[Taiwan panel-to-packaging conversion]] — upstream (more packaging = more test)
