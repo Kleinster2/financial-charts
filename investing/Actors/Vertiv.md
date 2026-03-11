@@ -150,19 +150,44 @@ Key partnerships: [[CoreWeave]], [[Dell]], [[Oklo]] (nuclear for data centers).
 
 ---
 
+## S&P 500 inclusion (Mar 6, 2026)
+
+Vertiv added to the S&P 500 in the March quarterly rebalance, effective **March 23, 2026**. Added alongside [[Lumentum]], [[Coherent]], and [[EchoStar]]. Replacing [[Match Group]], [[Molina Healthcare]], [[Lamb Weston]], and [[Paycom]].
+
+Stock surged +8.6% on Monday (Mar 9) on the announcement, hitting a new 52-week high of $264.86. Added another +9.3% on Tuesday (Mar 10) to close at ~$264. Up **49% YTD**, +195% over the past year.
+
+The inclusion signals AI infrastructure has moved from speculative to structurally embedded in the US economy — three of four additions (Vertiv, Lumentum, Coherent) are AI data center infrastructure plays. Over $7T is benchmarked to the S&P 500, forcing passive buying ahead of the March 23 effective date.
+
+Goldman Sachs raised PT from $204 to $277 (Buy). Polymarket had 71% odds on inclusion before the announcement.
+
+---
+
+## Capital markets (Mar 2026)
+
+**$2.1B senior unsecured notes offering** — Vertiv's debut investment-grade bond issuance, enabled by recent credit-rating upgrades. Proceeds used to fully repay existing secured term loan.
+
+**$2.5B revolving credit facility** — new unsecured facility, replacing prior secured credit.
+
+Transition from leveraged/secured capital structure to investment-grade/unsecured reflects the company's transformation from PE-backed turnaround (Platinum Equity took it public via SPAC in 2020) to S&P 500 constituent in 6 years.
+
+**Generate Capital partnership** — new offering to help DC operators deploy capacity faster in power-constrained markets, targeting AI/high-density computing demand.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | VRT |
-| Market cap | ~$70B |
+| Market cap | ~$100B |
+| S&P 500 | **Joining March 23, 2026** |
 | HQ | Columbus, OH |
 | Focus | DC thermal + power |
 | Key growth | Liquid cooling |
 | Backlog | $15.0B |
 | 2026E revenue | $13.25B–$13.75B |
 
-*Updated 2026-02-11*
+*Updated 2026-03-10*
 
 ---
 
@@ -177,3 +202,7 @@ Key partnerships: [[CoreWeave]], [[Dell]], [[Oklo]] (nuclear for data centers).
 - [[CoreWeave]] — customer (AI cloud)
 - [[Dell]] — partner
 - [[Oklo]] — partner (nuclear for data centers)
+- [[Lumentum]] — fellow S&P 500 addition (March 2026)
+- [[Coherent]] — fellow S&P 500 addition (March 2026)
+- [[Schneider Electric]] — competitor (broad electrical)
+- [[Eaton]] — competitor (power)
