@@ -113,6 +113,7 @@ Two distinct waves, both feeding the same narrative:
 - **Will systems-of-record SaaS capture agent revenue or lose it?** [[Salesforce]] Agentforce and [[ServiceNow]] AI agents are early attempts to stay relevant
 - **Is the selloff overdone?** B2B data providers ([[S&P Global|SPGI]], [[MSCI]], [[Intercontinental Exchange|ICE]]) and wealth management firms caught in the crossfire may not face the same agent displacement risk
 - **Does security SaaS actually benefit?** Agents with credentials create new attack surfaces — could be a tailwind for [[CrowdStrike]], [[Okta]], [[Palo Alto Networks]]
+- **Is the credit market next?** No major software-backed debt deal has priced since [[Oracle]]'s $25B on Feb 2. [[Goldman Sachs]] is pitching hedge funds total return swaps to short software loans (Mar 9). See [[Private Credit Software Concentration]]
 
 ---
 

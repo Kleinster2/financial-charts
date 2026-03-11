@@ -137,6 +137,26 @@ The difference: private credit is smaller ($3T vs $10T+ mortgage market) and bet
 
 ---
 
+## Goldman total return swap — shorting software loans (Mar 9, 2026)
+
+**[[Goldman Sachs]] is now packaging the instrument to short software company debt.** The bank is pitching hedge funds a total return swap product that allows them to take short (or long) positions on corporate loans — specifically targeting software company debt that has come under pressure. No trades executed yet as of Mar 9 — this is the product pitch phase.
+
+**Why this matters for the concentration thesis:**
+
+The progression is textbook credit cycle deterioration:
+1. ✅ **Equity repricing** (Jan-Feb 2026) — SaaS stocks -25% to -50%
+2. ✅ **Primary market freeze** (Feb-Mar 2026) — no major software-backed debt deal has priced since [[Oracle]]'s $25B package on Feb 2. Over 5 weeks of zero issuance
+3. ✅ **Retail BDC gate** (Feb 19) — [[Blue Owl]] OBDC II halts redemptions, sells $1.4B in loans
+4. ⬅️ **Derivative instruments created to short the loans** — Goldman TRS (Mar 9). This is the stage where sophisticated money builds tools to profit from further deterioration
+
+The primary market freeze is the most telling signal. If lenders won't underwrite new software debt, existing software loans are effectively marked to a market that doesn't exist. The Goldman TRS product gives hedge funds a way to express the short without needing to own the underlying loans — creating price discovery for credit risk that private credit has been able to keep opaque.
+
+**Historical parallel:** Credit default swaps on mortgage-backed securities in 2006-2007 served a similar function — Goldman and other banks created instruments for hedge funds to bet against housing debt, establishing visible pricing for risk that was previously hidden in bank balance sheets. The scale is far smaller here ($597-681B vs $10T+ mortgage market), but the structural pattern is identical: Wall Street profits from both sides of the trade.
+
+*Source: Reuters/FT, Mar 9, 2026*
+
+---
+
 ## Sources
 
 - [CNBC — Blue Owl curbs investor liquidity, shares plunge 8%](https://www.cnbc.com/2026/02/19/blue-owl-private-debt-investor-loan-liquidity-restriction-market-shares.html) (Feb 19, 2026)
@@ -157,3 +177,5 @@ The difference: private credit is smaller ($3T vs $10T+ mortgage market) and bet
 - [[Wesleyan Endowment]] — institutional allocator with VC/PE software exposure
 - [[SaaSpocalypse]] — related thesis on AI disrupting SaaS
 - [[Blue Owl OBDC II redemption gate]] — event (first retail BDC gate, Feb 2026)
+- [[Goldman Sachs]] — pitching TRS product to short software loans (Mar 2026)
+- [[Oracle]] — last major software debt deal to price (Feb 2, $25B)
