@@ -122,6 +122,23 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 - Testing first in-house training chip ([[RISC-V]] based, Mar 2025)
 - Open-source AI (Llama) drives broader GPU demand ecosystem
 
+### MTIA roadmap — 4 generations by end 2027 (March 11, 2026)
+
+Meta unveiled four new chip generations, the most aggressive custom silicon roadmap of any hyperscaler:
+
+| Chip | Codename | Status | Focus |
+|------|----------|--------|-------|
+| MTIA 300 | — | In production | Ranking/recommendations training |
+| MTIA 400 | Iris | Lab-tested, deploying | Ranking/recommendations |
+| MTIA 450 | Arke | Mass deploy 2027 | GenAI inference (primary), then ranking |
+| MTIA 500 | Astrid | Mass deploy 2027 | GenAI inference (primary), then ranking |
+
+**Cadence:** New chip every 6 months or less — modular, reusable designs. Industry norm is 1-2 years. MTIA 450/500 optimized first for GenAI inference, then repurposed for training and recommendations.
+
+**Strategic context:** Announced one week after signing multiyear deals with both [[NVIDIA]] (millions of processors) and [[AMD]] (6GW of Instinct GPUs). Custom chips complement, not replace, vendor GPUs — Meta is building optionality across all three vectors.
+
+*Source: Bloomberg, CNBC, Meta blog (Mar 11, 2026)*
+
 ### NVIDIA multiyear deal (Feb 17, 2026)
 
 Signed multiyear pact to deploy "millions" of [[NVIDIA]] processors:

@@ -200,6 +200,8 @@ Formally released at NPC (Mar 5, 2026). Significantly more protectionist and sec
 |-----------|--------|
 | R&D / GDP | >3.2% (record, aimed at "chokepoint" technologies) |
 | Core tech focus | Semiconductors, AI, robotics, biotech, quantum, 6G |
+| **Six future industries** | Quantum technology, biomanufacturing, hydrogen/nuclear fusion, brain-computer interfaces, embodied AI ([[Humanoid robotics\|humanoids]]), 6G |
+| Future industry output (2024) | 11.7T yuan ($1.68T), growing ~15%/yr |
 | AI deployment | Embedded across manufacturing, healthcare, education, logistics |
 | Self-reliance | End dependence on Western supply chains in AI/semis |
 | Non-fossil energy | 25% of consumption by 2030 (from 21.7% in 2025) |

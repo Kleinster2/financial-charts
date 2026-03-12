@@ -64,7 +64,7 @@
 ![[ewz-vs-inda-vs-ewt-vs-ewy-vs-eww-vs-ewh-vs-eido-vs-eza-vs-tur-vs-epol-vs-eis-2025.png]]
 *[[EWZ]] · [[INDA]] · [[EWT]] · [[EWY]] · [[EWW]] · [[EWH]] · [[EIDO]] · [[EZA]] · [[TUR]] · [[EPOL]] · [[EIS]]*
 
-![[xlk-vs-xlf-vs-xle-vs-xlv-vs-xli-vs-xly-vs-xlp-vs-xlu-vs-xlre-vs-xlb-vs-xlc-2025.png]]
+![[xlk-vs-xlf-vs-xle-vs-xlv-vs-xli-vs-xly-vs-xlp-vs-xlu-vs-xlre-vs-xlb-vs-xlc-2025.png|697]]
 *[[XLK]] · [[XLF]] · [[XLE]] · [[XLV]] · [[XLI]] · [[XLY]] · [[XLP]] · [[XLU]] · [[XLRE]] · [[XLB]] · [[XLC]]*
 
 ![[dprime-vs-ita-2025.png]]

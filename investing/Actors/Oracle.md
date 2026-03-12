@@ -237,7 +237,7 @@ Context: Part of broader AI infrastructure pivot — redirecting headcount costs
 
 ## Q3 FY2026 earnings (Mar 10, 2026)
 
-**Across-the-board beat. Stock +8.3% after hours.** First quarter in 15+ years where organic total revenue and non-GAAP EPS both grew 20%+ in USD.
+**Across-the-board beat. Stock +8.3% after hours, +9.2% regular session close at $163.12 (Mar 11).** First quarter in 15+ years where organic total revenue and non-GAAP EPS both grew 20%+ in USD.
 
 **eMarketer (Jacob Bourne):** "Oracle's quarter is a beat and a stress test result for the AI trade. As the most debt-exposed major player in AI infrastructure, Oracle is the canary in the coal mine and this report suggests there's underlying health in AI spending beyond the hype."
 

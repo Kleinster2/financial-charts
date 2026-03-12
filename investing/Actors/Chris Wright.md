@@ -28,6 +28,18 @@ aliases: [Christopher Wright]
 
 ---
 
+## Iran conflict — deleted Hormuz escort post (March 2026)
+
+Oil fell sharply on Tuesday (Mar 11) after Wright posted on X claiming the US Navy had escorted an oil tanker through the [[Strait of Hormuz]]. The message was **deleted minutes later**. The White House denied that the Navy had escorted a ship through the waterway. [[PVM]] oil brokerage analyst [[John Evans]] (Mar 12): unclear if Wright's post was *"another case of total incompetence or more seriously, shenaniganry."*
+
+Wright said Thursday (Mar 12) that naval escorts were unlikely to begin before end of month.
+
+The episode occurred amid speculation that the [[Scott Bessent|Treasury]] was intervening in oil futures markets — [[CME Group]] CEO [[Terry Duffy]] warned such intervention would be a "biblical disaster." The combination of the deleted post and unexplained large sell orders in crude (Brent swung from ~$120 to <$100 on Mar 10) rattled trader confidence in the administration's energy messaging.
+
+*Source: FT (Mar 12, 2026)*
+
+---
+
 ## Related
 
 - [[Liberty Energy]] — founded, former CEO

@@ -67,6 +67,16 @@ AI = post-oil economy.
 
 ---
 
+## 2026 Iran War Impact
+
+The war introduces a potential structural shift in PIF's capital deployment:
+
+- [[Ryan Bohl]] (RANE): Gulf SWFs may shift capital home for reconstruction, rehabilitation, and restoring the "safe haven" brand. Saudi pledges to invest **$1T in the US** may slow — "priorities will be shifting closer to Gulf Arab homelands."
+- [[Marc Lynch]] (GWU, *Foreign Policy*, March 5, 2026): the Saudi-Emirati split — Saudi building a rival alliance (Turkey, Qatar, Egypt, Pakistan) against the UAE/Israel axis — was underway before the war. Iran's attacks paused it temporarily. Post-war, the direction of Saudi strategic capital depends on how this rivalry resolves.
+- Companies in PIF's portfolio with Gulf operations face new security risk premiums. Tourism and services investments need expensive subsidies to recover.
+- **Oil windfall offset**: with oil above $90, PIF's funding source is flush. The fiscal math improves even as the strategic environment deteriorates.
+- **Net effect**: PIF may slow US/European deployments and redirect toward domestic reconstruction, regional alliance-building, and defense-industrial capacity. Watch for changes in PIF allocation patterns in H2 2026.
+
 ## Challenges
 
 | Challenge | Impact |

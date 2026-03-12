@@ -248,6 +248,20 @@ Investor tension: Some frustrated that Dario "antagonized rather than cultivated
 
 ---
 
+### Mar 11 — Pentagon CIO exemption memo
+
+Pentagon CIO [[Kirsten Davies]] signed a March 6 memo allowing Anthropic use to continue beyond the 180-day ramp-down in "rare and extraordinary circumstances" where use is "mission-critical" and "no viable alternative exists." Exemptions require a comprehensive risk mitigation plan.
+
+The memo also reaffirmed:
+- Ban extends to defense contractors — contracting officers have 30 days to notify, contractors must certify full compliance by 180-day deadline
+- Priority removal from systems supporting **nuclear weapons and ballistic missile defense**
+
+**Significance:** The exemption clause effectively acknowledges that some Pentagon systems are too deeply integrated with Claude to rip out in 6 months. The supply-chain risk designation remains in force — this is a managed retreat, not a reversal.
+
+*Source: Reuters, CBS News, Yahoo Finance (Mar 11, 2026)*
+
+---
+
 ### Trump AI Czar endorsement at Davos (Jan 23, 2026)
 
 [[David Sacks]] (White House AI/[[Crypto]] Czar) highlighted Claude Code at Davos as the product "everyone's going crazy over":

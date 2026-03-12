@@ -83,8 +83,28 @@ Partnership legitimizes battery swap model.
 - New models: ES9 flagship SUV, Onvo L80, next-gen ES7
 
 **Profitability:**
-- Losses narrowing in 2025
-- Breakeven target: 2026
+- **First-ever quarterly profit achieved Q4 2025** (reported Mar 10, 2026)
+- Breakeven ahead of 2026 target
+
+---
+
+## Q4 2025 earnings — first-ever quarterly profit (reported Mar 10, 2026)
+
+**Milestone quarter.** NIO achieved its first operating profit since inception. Stock **+15.4%** to $5.70.
+
+| Metric | Q4 2025 | Q4 2024 | YoY |
+|--------|---------|---------|-----|
+| Revenue | **$4.9B** | $2.8B | +76% |
+| Operating profit | **$115.4M** (RMB 807.3M) | — | First ever |
+| Adj. operating profit (non-GAAP) | **$178.9M** (RMB 1.25B) | — | Beat upper guidance of RMB 1.2B |
+| Deliveries | **124,807** | 72,689 | +71.7% |
+| Vehicle margin | **18.1%** | 13.1% | +500 bps |
+
+All three brands hit record quarterly highs (NIO, Onvo, Firefly). Vehicle margin expansion driven by favorable product mix — higher-margin models like the all-new ES8.
+
+**Q1 2026 guidance:** 80,000-83,000 deliveries (+90-97% YoY).
+
+*Source: CnEVPost, AlphaStreet (Mar 10, 2026)*
 
 ---
 
@@ -99,7 +119,7 @@ Partnership legitimizes battery swap model.
 
 **Bear:**
 - Brutal [[China]] price war
-- Still unprofitable
+- Q4 profitability may not sustain — one quarter doesn't make a trend
 - BYD/Tesla price pressure
 - ADR delisting risk
 - Speculative valuation
@@ -113,12 +133,12 @@ Partnership legitimizes battery swap model.
 | Metric | Value |
 |--------|-------|
 | Ticker | NIO (NYSE) |
-| Stock price | ~$5 |
-| Market cap | ~$10B |
+| Stock price | ~$5.70 (Mar 11, +15.4%) |
+| Market cap | ~$11.5B |
 | Cumulative deliveries | ~1M |
 | Key differentiator | Battery swap |
 
-*Created 2026-01-05*
+*Updated 2026-03-11*
 
 ---
 

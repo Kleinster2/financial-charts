@@ -436,6 +436,16 @@ See [[Short interest]] for interpretation framework.
 
 ---
 
+## Digital Optimus / Macrohard joint project (March 11, 2026)
+
+[[Elon Musk]] announced "Digital Optimus" — a joint [[Tesla]]-[[xAI]] project using Grok as an AI agent that controls computers. Architecture: xAI's Grok handles high-level reasoning (Kahneman System 2) while a Tesla-built AI processes real-time screen video + keyboard/mouse actions from the past 5 seconds (System 1). Runs on Tesla's AI4 chip ($650). Musk called it "Macrohard" — a jab at [[Microsoft]].
+
+**Shareholder lawsuit implications:** Directly contradicts Musk's September 2024 statement that Tesla had "no need to license anything from xAI." The $2B Tesla-xAI investment agreement is now producing a joint product, blurring the corporate boundaries between entities Musk controls.
+
+*Sources: CNBC, Electrek (Mar 11, 2026)*
+
+---
+
 ## Related
 
 - [[SpaceX xAI merger]] — Feb 2026 (Tesla excluded, but $2B invested in xAI)

@@ -285,7 +285,32 @@ Hegseth's push to apply AI expansively in defense led to a clash with [[Anthropi
 | Employees | 7,000+ |
 | HQ | Costa Mesa, CA |
 
-*Updated 2026-03-03*
+*Updated 2026-03-11*
+
+---
+
+## ExoAnalytic Solutions acquisition (March 11, 2026)
+
+Anduril acquiring [[ExoAnalytic Solutions]] — a space surveillance firm operating **400 telescopes** worldwide to track spacecraft in high orbits. Anduril's first space acquisition. Terms undisclosed.
+
+| Detail | Value |
+|--------|-------|
+| ExoAnalytic employees | 130 (doubles Anduril's 120 space team to 250+) |
+| Integration | Direct — not a separate subsidiary |
+| Telescope network | 400 globally |
+| Founded | 2008 |
+| SBIR grants | $26M since 2010 |
+| Founder/CEO | Doug Hendrix |
+
+**Strategic rationale:** ExoAnalytic's space domain awareness capabilities directly support [[Golden Dome]] — tracking thousands of satellites for missile defense requires real-time orbital awareness. Machine vision algorithms for spotting satellites also applicable to interceptors tracking incoming threats. Anduril received a Pentagon contract (late 2025) to develop a space-based missile interceptor.
+
+**Planned space launches (2026):** Three internally funded R&D spacecraft — infrared tracking satellite (with [[Apex Space]]), two high-orbit missions (with [[Impulse Space]] and Argo Space).
+
+Anduril VP [[Gokul Subramanian]]: *"The DoD deserves the best catalog of everything going on in space."*
+
+Anduril simultaneously raising $4B from [[Thrive Capital]] and [[Andreessen Horowitz]] (Reuters, Mar 2026).
+
+*Source: TechCrunch, CNBC, Bloomberg, Breaking Defense (Mar 11, 2026)*
 
 ---
 
@@ -307,6 +332,8 @@ Hegseth's push to apply AI expansively in defense led to a clash with [[Anthropi
 - [[Peter Thiel]] — investor ([[Founders Fund]])
 - [[Erebor Bank]] — Luckey's bank venture, HQ near Arsenal-1 in Columbus
 - [[Anthropic]] — Hegseth clashed with over classified systems
+- [[ExoAnalytic Solutions]] — space surveillance acquisition (Mar 2026, 400 telescopes)
+- [[Golden Dome]] — missile defense positioning via ExoAnalytic + interceptor contracts
 - [[Rare earth leverage]] — supply chain risk (drone magnets)
 - [[China retaliatory toolkit]] — REE military denial risk
 

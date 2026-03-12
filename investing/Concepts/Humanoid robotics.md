@@ -77,6 +77,52 @@ Deploying at scale creates a data collection flywheel: physical AI lacks public 
 
 ---
 
+## China's state-funded robot training farms (Mar 2026)
+
+Dozens of state-funded "robot training farms" have emerged across [[China]] to build large-scale robot-specific training data. The push addresses the key bottleneck: physical AI lacks public training datasets (no equivalent of Wikipedia/Reddit for robot interaction).
+
+**Hubei Humanoid Robot Innovation Center (Wuhan):**
+
+| Metric | Value |
+|--------|-------|
+| Facility | 12,000 sqm |
+| Cost | Rmb200M ($29M) |
+| Instructors | 70 (young graduates, 8-hour shifts) |
+| Robots | 46 (purchased from [[AGIBOT]] at Rmb350,000 each) |
+| Daily data output | ~100 hours of usable data |
+| Method | Remote controls + sensor-equipped handheld devices; video labeled with annotations ("pivot left", "extending arm") |
+| Data target | "Vision language action" (VLA) models |
+
+**Policy escalation:**
+- "Embodied intelligence" identified as **one of six future industries** in [[China]]'s **2026-30 five-year plan** (announced Mar 2026)
+- [[MIIT]] strategy document for humanoid robotics to end of 2027: large-scale training databases and multimodal data "central to building the brain" of humanoid robots
+- Hubei province: **Rmb10B** state fund for humanoids
+- Local governments from Hangzhou to Mianyang pouring money into training farms
+
+**Data collection as demand driver:** [[Bernstein]] estimates data collection sales made up **~20%** of [[China]]'s >20,000 humanoid robot shipments in 2025. Training centers are sustaining manufacturers while real-world demand is still emerging.
+
+**[[China]] 2025 humanoid shipments by end market** (>20,000 units total, [[Bernstein]]):
+
+| End market | Share |
+|-----------|-------|
+| Education and R&D | 42% |
+| Data collection | 19% |
+| Human-robot interaction services | 19% |
+| Entertainment | 16% |
+| Industrial and logistics | 4% |
+
+[[Bernstein]] analyst Jay Huang (head of Asia industrial technologies): "China is becoming smarter in how it supports emerging industries facing bottlenecks." Government-funded data is shared, benefiting all participants.
+
+**Simulation approach:** [[Motphys]] (Wuhan startup, co-founder Zhao Xiang) uses VR headsets for more efficient data collection. Zhao: "An intelligence breakthrough may require hundreds of millions or even billions of hours of data."
+
+**Key challenge — data transferability:** Data collected from one robot cannot easily power another with different hardware. Hardware evolves so fast that today's data may not work for next year's model. [[Google DeepMind]]'s robotics AI models show early promise in cross-platform transfer but it remains an active research area.
+
+**Potemkin risk:** At one training center the FT visited, a dozen humanlike robots hung motionless in a lobby — staff explained they were "the ones that perform when officials come to visit," not used for actual data collection.
+
+*Source: FT (Ryan McMorrow in Wuhan), Mar 11, 2026*
+
+---
+
 ## Adoption timeline
 
 | Phase | Timeframe |
@@ -104,6 +150,8 @@ Deploying at scale creates a data collection flywheel: physical AI lacks public 
 - [[Hyundai]] — Boston Dynamics owner
 
 **Concepts:**
+- [[Motphys]] — Wuhan simulation startup (VR-based data collection)
+- [[AGIBOT]] — sold robots to training centers (Rmb350K each)
 - [[Embodied AI]] — AI in physical robots
 - [[Automation]] — Broader category
 - [[Manufacturing automation]] — Key use case

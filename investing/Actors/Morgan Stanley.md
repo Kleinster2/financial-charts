@@ -122,6 +122,16 @@ Morgan Stanley pivoted to wealth; Goldman stayed IB-focused.
 
 ---
 
+## North Haven private credit fund — withdrawals limited (Mar 11, 2026)
+
+[[Morgan Stanley]]'s **$7.6B North Haven Private Income Fund** limited withdrawals after redemption requests surged to **10.9%** in Q1 2026. Fulfilled **45.8%** of requests. Hours after [[Cliffwater]] gated its $33B fund on the same day.
+
+Part of an industry-wide wave of semi-liquid fund gates. See [[Private Credit Software Concentration]] for the full timeline: [[Blue Owl]] OBDC II (Feb 19), [[Blackstone]] BCRED (early Mar), [[HPS Investment Partners]] (Mar 10), [[Cliffwater]] and Morgan Stanley (Mar 11).
+
+*Source: FT (Eric Platt), Mar 11, 2026*
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -168,4 +178,6 @@ Morgan Stanley pivoted to wealth; Goldman stayed IB-focused.
 - [[TeraWulf]], [[Cipher Mining]], [[Applied Digital]] — led junk bond offerings
 - [[Basis trade]] — research on $1.5T Treasury basis trade risk
 - [[Oracle]] — flagged CDS spike risk from AI borrowing
+- [[Private Credit Software Concentration]] — North Haven fund limited withdrawals (Mar 2026)
+- [[Cliffwater]] — gated same day as Morgan Stanley (Mar 11, 2026)
 

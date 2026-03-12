@@ -100,10 +100,19 @@ Cuban's current passion project.
 
 ---
 
+## AI investments
+
+| Company | Role | Date |
+|---------|------|------|
+| [[AMI Labs]] | Angel investor | Mar 2026 |
+
+---
+
 ## Related
 
 - [[Cost Plus Drugs]] — founded
 - [[Dallas Mavericks]] — former owner
+- [[AMI Labs]] — angel investor ($1.03B seed round)
 
 ---
 

@@ -77,6 +77,16 @@ Strategic context: Response to industry skepticism about whether humanoid roboti
 
 ---
 
+## Training farm revenue (Mar 2026)
+
+A key revenue source for [[AGIBOT]] and other Chinese humanoid manufacturers: state-funded robot training farms across [[China]] are purchasing robots en masse. The Hubei Humanoid Robot Innovation Center (Wuhan, Rmb200M facility) bought dozens of [[AGIBOT]] robots at **Rmb350,000 each**.
+
+[[Bernstein]] estimates data collection sales made up **~20%** of [[China]]'s >20,000 humanoid robot shipments in 2025. Training centers are sustaining manufacturers while real-world commercial demand is still emerging. See [[Humanoid robotics]].
+
+*Source: FT (Ryan McMorrow), Mar 11, 2026*
+
+---
+
 ## Competitive position
 
 | vs. Others | AGIBOT |

@@ -22,6 +22,8 @@ tags: [actor, government, usa]
 | FY2025 new commitments | ~$3.5B (down from ~$12B in FY2024) |
 | FY2025 approved projects | ~$4B |
 | Gulf reinsurance facility | $20B rolling basis (announced Mar 6, 2026) |
+| Lead underwriter | [[Chubb]] (announced Mar 11, 2026) |
+| Estimated Gulf coverage need | ~$352B (JPMorgan, 329 vessels) |
 
 ---
 
@@ -54,6 +56,20 @@ Program details:
 
 This is unprecedented — DFC was designed for development lending in emerging markets, not wartime reinsurance in an active conflict zone. Critics note American taxpayers are on the hook if vessels are destroyed. The legal basis rests on DFC's political risk insurance authority, stretched to cover kinetic military risk.
 
+### Chubb partnership (March 11, 2026)
+
+On March 11, DFC announced [[Chubb]] as lead underwriter for the maritime reinsurance plan. [[Evan Greenberg]] (Chubb chairman and CEO): *"Chubb is proud to lead and manage this program in partnership with the United States Government."* DFC and Chubb have identified "several American insurance companies" to provide reinsurance policies behind Chubb and alongside DFC to expand market capacity. [[AIG]], [[Liberty Mutual]], and [[Lloyd's]] have all "acknowledged active participation in negotiations with the DFC" (Clark Hill), though the formal partner list has not been officially released. Interested parties directed to maritime@dfc.gov. The government assumes first-loss or extreme risk, allowing private insurers to continue writing policies they would otherwise abandon.
+
+Coverage will initially focus on hull & machinery and cargo, with war-risk policies separate from standard coverage. Policies apply only to vessels meeting eligibility criteria (details still pending).
+
+### Scale gap and statutory risk
+
+[[JPMorgan]] analysts estimate 329 vessels currently operating in the Gulf, requiring ~$352B in total coverage — far exceeding DFC's $205B statutory cap. Coverage beyond the cap would require Congressional action. The gap between what the market needs ($352B) and what DFC can legally provide ($205B) means the program can restore partial confidence but cannot fully replace the private war-risk market.
+
+### Criticism
+
+[[Center for Global Development]] senior fellow Clemence Landers (Mar 2026): *"public sector subsidizing potentially a massive payout to private investors."* Rep. Joaquin Castro flagged the risk of "subsidizing and protecting oil shipments to China" — raising the question of whether the US taxpayer is backstopping energy flows to a strategic competitor. The program represents what analysts call a "profound departure" from DFC's historical development-focused mission toward conservation and economic growth projects in emerging markets.
+
 ---
 
 ## Key investments
@@ -74,3 +90,9 @@ This is unprecedented — DFC was designed for development lending in emerging m
 - [[Strait of Hormuz]] — geographic chokepoint, ~3 tankers/day during crisis
 - [[Scott Bessent]] — Treasury Secretary, co-announced reinsurance plan
 - [[Leon Black]] — Apollo co-founder, Ben Black's father
+- [[Chubb]] — lead underwriter for Gulf maritime reinsurance (announced Mar 11, 2026)
+- [[Evan Greenberg]] — Chubb chairman/CEO, leading the program
+- [[AIG]] — in negotiations as reinsurance partner behind Chubb
+- [[Liberty Mutual]] — in negotiations as reinsurance partner
+- [[Lloyd's]] — in negotiations as reinsurance partner
+- [[JPMorgan]] — analyst coverage of Gulf shipping insurance gap ($352B needed vs $205B cap)

@@ -24,7 +24,7 @@ The next frontier in AI — systems that understand how the physical world works
 
 | Company | Product | Status | Funding |
 |---------|---------|--------|---------|
-| **AMI Labs** ([[Yann LeCun]]) | VL-JEPA | In development | €500M @ €3B valuation |
+| **[[AMI Labs]]** ([[Yann LeCun]]) | JEPA | In development | **$1.03B** @ $3.5B valuation (Mar 2026) |
 | **[[World Labs]]** ([[Fei-Fei Li]]) | **Marble** | Commercial (free-$95/mo) | $230M raised, **$5B valuation** (Jan 2026) |
 | **[[Google DeepMind]]** | **Genie 3** | Released | Internal |
 
@@ -104,8 +104,8 @@ Commercial world model product:
 | [[Google]] | Direct | DeepMind Genie |
 | [[NVIDIA]] | Picks & shovels | Compute for 3D generation |
 | [[Meta]] | Indirect | LeCun departed, but JEPA research continues |
-| World Labs | Private | $1B valuation |
-| AMI Labs | Private | €3B valuation |
+| [[World Labs]] | Private | $5B valuation (Jan 2026) |
+| [[AMI Labs]] | Private | $3.5B pre-money valuation, $1.03B raised (Mar 2026) |
 
 ---
 

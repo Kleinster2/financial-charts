@@ -131,6 +131,10 @@ Goldman research frequently cited for AI infrastructure sizing.
 
 See [[AI infrastructure financing]] for market context.
 
+**Total return swap — shorting software loans (Mar 9, 2026):** Goldman pitched hedge funds a TRS product allowing short (or long) positions on corporate loans, specifically targeting software company debt under AI pressure. No trades executed as of Mar 9. Creates price discovery for credit risk that private credit had kept opaque. See [[Private Credit Software Concentration]].
+
+**Iran "distraction" remark (Mar 12, 2026):** Co-CEO of Goldman Sachs International [[Kunal Shah]] (global co-head of FICC), on a client call titled "Strikes in Iran — End of the Beginning . . .?", said some private markets clients were "just glad there's something to talk about that isn't software exposures and private credit." Call also featured Sir [[Alex Younger]] (former [[MI6]] chief, paid GS adviser since 2021). Goldman told the FT Shah "was asked a question about what he was hearing from clients and shared his observations from multiple points of view."
+
 ---
 
 ## Competitive position
@@ -178,3 +182,6 @@ See [[AI infrastructure financing]] for market context.
 - [[Blue Owl]] — competitor (DC financing)
 - [[JPMorgan Chase]] — peer (banking)
 - [[AI hyperscalers]] — research coverage
+- [[Private Credit Software Concentration]] — TRS short product + "glad" remark (Mar 2026)
+- [[Kunal Shah]] — co-CEO GS International, FICC co-head
+- [[Alex Younger]] — former MI6 chief, paid GS adviser

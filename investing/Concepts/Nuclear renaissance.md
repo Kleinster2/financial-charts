@@ -143,6 +143,24 @@ Key statements:
 
 *Source: Reuters, IAEA Nuclear Energy Summit, Paris, Mar 10, 2026*
 
+### Urenco: enrichment demand as leading indicator (FT, Mar 12)
+
+[[Urenco]] CEO Boris Schucht told the *Financial Times* that a "nuclear renaissance" was already under way and would **accelerate** due to Middle East energy supply disruptions. Urenco compiled a record **€21.3bn order book** for uranium enrichment products (+14% YoY, fourth consecutive year of growth). Revenue rose 11% to €2.09bn; net income jumped 33%+ to €248.5mn.
+
+Key argument: nuclear fuel supply chains are structurally more stable than fossil fuels — volumes are small, resupply is infrequent, fuel is easily stored, and utilities typically hold **~2 years of fuel stocks**. No maritime chokepoint dependency.
+
+Urenco expanding enrichment capacity **15% by 2030** and building HALEU capability at Capenhurst (UK) for next-gen SMRs. Signed first HALEU supply deal with [[Radiant Industries]], a US microreactor company.
+
+[[Lightbridge Corporation]] CEO Seth Grae compared the crisis to the 1970s oil shocks that prompted [[France]] to build its nuclear fleet: *"Governments realise they need to not rely on anyone for their energy."*
+
+[[Jefferies]] analyst Julien Dumoulin-Smith: *"People will now think more about subsidising nuclear and solar, which are less reliant on imported fuels."*
+
+**Japan** is also accelerating restart of mothballed reactors, coinciding with the 15th anniversary of Fukushima (Mar 11, 2026).
+
+**Investment read:** The enrichment order book is the strongest leading indicator of nuclear deployment conviction — utilities contract years in advance. Four consecutive years of order book growth, now at record levels, signals sustained structural demand beyond any single catalyst. The Iran crisis adds a third pillar (energy security) to the existing two (AI power demand + climate targets). Beneficiaries: [[Urenco]] (private), [[Centrus Energy]] (HALEU), [[Cameco]] (uranium + Westinghouse), [[Constellation Energy]] (operator), reactor designers.
+
+*Source: Financial Times, Mar 12, 2026 (Jamie Smyth)*
+
 ### Global pipeline
 
 | Metric | Value |
@@ -204,7 +222,7 @@ Hyperscalers interested but patient.
 | TMI restart | 2028 target |
 | SMR timeline | 2030s |
 
-*Updated 2026-01-21*
+*Updated 2026-03-12*
 
 ---
 
@@ -216,8 +234,13 @@ Hyperscalers interested but patient.
 - [[Vistra]] — winner (Texas nuclear + gas, +260% in 2024)
 - [[Cameco]] — upstream (uranium mining, Westinghouse stake)
 - [[Centrus Energy]] — upstream (HALEU enrichment)
+- [[Urenco]] — upstream (enrichment, record €21.3bn order book)
+- [[Lightbridge Corporation]] — nuclear fuel technology
+- [[Radiant Industries]] — US microreactor, first Urenco HALEU customer
 - [[NuScale]] — SMR (only NRC-approved)
 - [[Oklo]] — SMR ([[Sam Altman]] backed)
 - [[Microsoft]] — catalyst (TMI restart deal)
 - [[Nuclear power for AI]] — context (detailed analysis)
+- [[Strait of Hormuz]] — March 2026 energy crisis accelerating thesis
+- [[Iran conflict energy disruption]] — broader market impact
 

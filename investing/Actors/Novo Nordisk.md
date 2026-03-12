@@ -80,6 +80,10 @@ Lilly's Mounjaro/Zepbound gaining share rapidly.
 
 **70% US price reduction** announced to improve access and counter compounding pharmacies.
 
+### Hims & Hers distribution deal (March 2026)
+
+Novo dropped its copyright lawsuit against [[Hims & Hers]] (filed Feb 2026 over compounded oral semaglutide) and signed a distribution partnership. Hims distributes branded Ozempic and Wegovy at Novo's self-pay prices; stops advertising compounded GLP-1s except rare clinical cases. CEO [[Mike Doustdar]] (Mar 9): *"We reserve [the right] to bring [legal proceedings] back if need be."* Oral Wegovy now has 600,000+ scripts. HIMS +41% on deal; NVO Copenhagen +2.1%.
+
 ---
 
 ## Generic threat (2026)

@@ -47,6 +47,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 |-------|------|-------------|
 | **Defense** | [[Iran conflict defense repricing]] | Hardware/kinetic names led (+2-6%); AVAV reversed -17% on SCAR recompetition; defense IT flat |
 | **Energy** | [[Iran conflict energy disruption]] | Hormuz effectively closed; ~40M bbl disrupted in 2 days; European gas +23%; Qatar LNG halted |
+| **Airlines** | [[Iran conflict airline disruption]] | 46K+ flights canceled; Bloomberg Airlines Index -11%; Gulf hub model exposed; European/Asian carriers gaining |
 | **Insurance** | [[Iran conflict insurance impact]] | Coverage withdrawal, not repricing; P&I clubs canceling Gulf war risk; equities sold on tail risk |
 | **FX** | [[Iran conflict FX dynamics]] | Dollar rally is positioning squeeze; EUR/USD hit 3-month low; de-dollarization accelerating |
 
@@ -62,7 +63,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | IAG | -13% | Europe-listed (source-reported; not yfinance-verified) |
 | [[Booking Holdings]] (BKNG) | **-1.4%** | |
 
-Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspace closures/route disruptions. [[Emirates]], [[Qatar Airways]] face existential route disruption if conflict continues (Gulf hub model depends on overflying Iran/Gulf airspace).
+Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspace closures/route disruptions. [[Emirates]], [[Qatar Airways]] face existential route disruption if conflict continues (Gulf hub model depends on overflying Iran/Gulf airspace). 46,000+ flights canceled Feb 28 - Mar 11 ([[Cirium]]). Bloomberg World Airlines Index -11%+. See [[Iran conflict airline disruption]] for full deep dive.
 
 ---
 
@@ -356,6 +357,7 @@ Wall Street's worst week since October marks the transition from "short war, buy
 - [[US-Iran nuclear escalation February 2026]] — pre-strike market reaction and scenario analysis (Feb 18)
 - [[Iran conflict defense repricing]] — defense sector deep dive
 - [[Iran conflict energy disruption]] — energy/oil/LNG deep dive
+- [[Iran conflict airline disruption]] — airline/aviation deep dive
 - [[Iran conflict insurance impact]] — insurance sector deep dive
 - [[Iran conflict FX dynamics]] — dollar, euro, yen, EM currency dynamics
 - [[Iran conflict long-short basket]] — thesis

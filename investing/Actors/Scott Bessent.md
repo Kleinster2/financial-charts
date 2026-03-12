@@ -87,6 +87,20 @@ Bessent removed himself from consideration.
 
 ---
 
+## Iran conflict — oil futures intervention speculation (March 2026)
+
+Reuters reported the Treasury was considering measures to lower oil prices during the [[2026 Iran conflict market impact|Iran war]], including direct intervention in oil futures markets. Wild price action on March 10 — Brent crude swung from ~$120 to below $100 intraday — fueled speculation among energy traders that Treasury was behind large unexplained sell orders. [[Energy Aspects]], [[Rapidan Energy Group]], and traders at [[CME Group]] all fielded client calls asking "who the big seller was."
+
+Treasury declined to comment. A person familiar with Bessent's thinking said the agency had **not** intervened in oil markets. [[CME Group]] CEO [[Terry Duffy]] publicly warned such intervention would be a "biblical disaster" for market confidence.
+
+Bessent made his name on the other side of a failed government market intervention — at [[Soros Fund Management]] in 1992, he helped profit $1B when the Bank of England spent £3.3B trying to defend sterling and lost. He knows the mechanics of what happens when a government tries to hold a price the market doesn't believe in.
+
+Whether Bessent's team actually sold futures is unconfirmed, but the market now believes Treasury intervention is at least *possible* — itself a shift in how oil is priced.
+
+*Source: FT (Mar 12, 2026)*
+
+---
+
 ## Related
 
 - [[Federal Reserve]] — Fed Chair selection

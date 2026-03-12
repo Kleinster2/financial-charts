@@ -96,6 +96,16 @@ CME benefits from uncertainty.
 
 ---
 
+## Iran conflict — oil futures intervention warning (March 2026)
+
+CEO [[Terry Duffy]] warned the [[Trump II|Trump administration]] at a Boca Raton conference that intervention in oil derivatives markets to suppress crude prices during the [[2026 Iran conflict market impact|Iran war]] would be a "biblical disaster." Duffy: *"Markets do not like it when governments intervene in pricing."* The warning followed Reuters reporting that the [[Scott Bessent|Treasury]] was considering measures including direct oil futures intervention, and wild price action on March 10 (Brent swung from ~$120 to below $100 intraday) that energy traders speculated may have reflected government selling. Treasury denied intervention.
+
+The episode underscores CME's existential interest: [[NYMEX]] hosts WTI crude futures, CME's most politically sensitive product. Government intervention in commodity pricing would fundamentally threaten the exchange's credibility and franchise value. CME's 2025 record ADV of 28.1M contracts depends on market confidence that prices reflect supply/demand, not policy.
+
+*Source: FT (Mar 12, 2026)*
+
+---
+
 ## Investment case
 
 **Bull:**

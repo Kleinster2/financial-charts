@@ -168,9 +168,20 @@ Showcasing purpose-built robotaxi alongside major mobility players.
 
 ---
 
+## Uber partnership (March 11, 2026)
+
+Zoox's first third-party platform deal. Multiyear agreement to offer Zoox robotaxis on the [[Uber]] app, starting in **Las Vegas (summer 2026)**, expanding to **Los Angeles (mid-2027)**. Zoox continues operating its own app in both cities. Riders matched with Zoox robotaxis on eligible trips.
+
+**Strategic significance:** Validates Zoox's readiness for commercial scale. Uber provides demand aggregation; Zoox provides the autonomous fleet. The deal follows Uber's $100M+ investment in AV charging infrastructure (Feb 2026).
+
+*Source: TechCrunch, Bloomberg, CNBC (Mar 11, 2026)*
+
+---
+
 ## Related
 
 - [[Amazon]] — parent
+- [[Uber]] — platform partner (Mar 2026, Las Vegas + LA)
 - [[Waymo]] — market leader
 - [[Cruise]] — paused competitor
 - [[Aurora]] — trucking focus

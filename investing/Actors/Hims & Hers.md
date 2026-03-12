@@ -75,8 +75,34 @@ The [[GLP-1 receptor agonists|GLP-1]] story is the reason HIMS trades at 2.3x re
 - Sep 2025: FDA warning letter over misleading semaglutide claims on forhers.com.
 - Feb 5, 2026: Launches compounded oral semaglutide pill at $49/month.
 - Feb 6-7, 2026: FDA restricts compounded GLP-1 ingredients, HHS refers Hims to DOJ. Stock drops ~16%.
+- **Mar 7-9, 2026:** [[Novo Nordisk]] drops lawsuit, signs distribution deal. Hims will sell branded Ozempic and Wegovy (injectable + oral) at Novo's self-pay prices. In return, Hims stops advertising compounded GLP-1s except for "rare, clinically necessary cases." FDA Commissioner Makary endorsed the deal. Stock +41% on Mar 9.
 
 2025 weight loss guidance: $725M (~31% of total revenue), but this includes non-semaglutide products (liraglutide generic, oral meds, "personalized" dosing). The compounding loophole is actively closing. Generic semaglutide not available in US until ~2032 due to [[Novo Nordisk]] patents.
+
+## Novo Nordisk deal resolution (March 2026)
+
+The GLP-1 overhang lifts. [[Novo Nordisk]] CEO [[Mike Doustdar]] announced March 9, 2026 that Novo is dropping its copyright lawsuit against Hims and entering a distribution partnership. Under the agreement:
+
+- Hims distributes branded Ozempic and Wegovy (injectable + oral semaglutide) at Novo's standard self-pay prices
+- Hims stops advertising compounded GLP-1s on its platform and marketing — reserves compounding for "rare cases where clinically needed"
+- Novo retains the right to re-initiate legal proceedings if terms are violated
+- FDA Commissioner [[Marty Makary]] endorsed the deal: products stay affordable, compounded GLP-1 advertising stops
+
+Doustdar (Mar 9): *"Hims & Hers have agreed that upon receiving our products, they will no longer advertise, promote, market compounded products to the masses."*
+
+Hims CEO [[Andrew Dudum]] (Mar 9): *"The demand will continue to accelerate with the new assortment that's coming out."* Also in conversations with other biotech/pharma companies for additional therapies.
+
+Why this is different from the Apr 2025 deal that collapsed:
+- Apr 2025: Hims continued promoting compounded semaglutide alongside Wegovy → Novo terminated after 2 months
+- Mar 2026: Hims explicitly agrees to stop compounded GLP-1 advertising. Novo's leverage is stronger (DOJ referral, FDA crackdown). Business model pivot is structural, not cosmetic
+
+Market reaction:
+- HIMS +41% (Mar 9), +14.8% (Mar 11) to ~$26
+- NVO Copenhagen +2.1% (Mar 9)
+- [[Barclays]] ([[Glen Santangelo]]): raised PT to $29, maintains Overweight — deal clears legal overhang, market underestimating new product opportunity
+- [[Bank of America]], [[Citigroup|Citi]]: upgraded Hold → Buy
+
+Thesis shift: The investment case pivots from "can they survive the regulatory crackdown" to "how much can they grow through branded GLP-1 distribution + existing non-semaglutide platform." The ~$725M compounded GLP-1 revenue stream is being replaced by branded distribution revenue at lower margins but dramatically lower legal/regulatory risk.
 
 ## Price
 
@@ -117,13 +143,14 @@ Key differentiator: vertical integration (own pharmacy, fulfillment, medical gro
 - $1.1B cash, minimal debt — fortress balance sheet
 - ARPU rising 19% YoY; multi-condition subscribers growing 80% YoY
 - International expansion (ZAVA) adds large addressable markets
-- At ~2.3x EV/revenue, cheap for a 50%+ grower if GLP-1 risk is contained
+- Novo Nordisk deal (Mar 2026) removes the single largest overhang — legal risk eliminated, branded distribution replaces compounding liability
 - Personalized treatment plans and multi-condition model reduce single-product dependency
+- Dudum actively pursuing additional pharma partnerships (Lilly orforglipron pending FDA approval Q2 2026)
 
 ## Bear case
 
-- Regulatory existential risk: FDA crackdown + DOJ referral could eliminate a $725M+ revenue stream and expose company to legal liability
-- Novo Nordisk hostility: Terminated partnership, threatening lawsuits, lobbying FDA
+- Margin compression risk: branded distribution at Novo's prices yields lower margins than compounded products — $725M at 70%+ margin replaced by pass-through at ~10-15% take rate?
+- Novo deal execution risk: Apr 2025 partnership collapsed in 2 months. Doustdar: "we reserve [the right] to bring that back if need be"
 - Gross margin compression: 82% (2023) to 74% (Q3 2025) — weight loss mix and fulfillment costs
 - Growth deceleration: 111% (Q1 2025) to 49% (Q3 2025) to guided 26-30% (Q4 2025)
 - No moat: No proprietary IP, patents, or diagnostics. 39% of revenue spent on marketing.
@@ -132,7 +159,7 @@ Key differentiator: vertical integration (own pharmacy, fulfillment, medical gro
 
 ## Related
 
-- [[Novo Nordisk]] — GLP-1 maker, on-again-off-again partner/adversary
+- [[Novo Nordisk]] — GLP-1 maker, distribution partner (Mar 2026 deal — lawsuit dropped, branded Ozempic/Wegovy on platform)
 - [[Eli Lilly]] — Competitor via LillyDirect, tirzepatide
 - [[Amazon]] — One Medical entry into telehealth/pharmacy
 - [[GLP-1 receptor agonists]] — drug class driving growth and regulatory risk

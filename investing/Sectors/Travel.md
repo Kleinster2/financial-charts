@@ -96,6 +96,12 @@ COVID devastated, now recovered.
 
 ---
 
+## Iran conflict disruption (March 2026)
+
+The [[Operation Epic Fury|2026 Iran conflict]] exposed the fragility of the Gulf hub model. 46,000+ flights canceled Feb 28 - Mar 11 ([[Cirium]]). Bloomberg World Airlines Index -11%+. Gulf carriers ([[Emirates]], [[Qatar Airways]], [[Etihad Airways]]) operating severely reduced schedules. European/Asian carriers ([[British Airways]], [[Deutsche Lufthansa]], [[Air France-KLM]], [[Air India]], [[Cathay Pacific]]) gaining market share from rerouted passengers. Hedging dispersion: China's Big Three and [[IndiGo]] most exposed to fuel-price swings; [[Cathay Pacific]] ~30% hedged. See [[Iran conflict airline disruption]] for full deep dive.
+
+---
+
 ## Key themes
 
 | Theme | Impact |

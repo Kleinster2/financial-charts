@@ -141,7 +141,7 @@ ETF_TICKERS = [
     # -- Bitcoin spot ETFs
     "IBIT", "FBTC", "ARKB", "BITB", "HODL", "BTCO", "EZBC", "BRRR", "GBTC",
     # -- Bitcoin futures/inverse ETFs
-    "BITO", "BTF", "XBTF", "BITI",
+    "BITO", "BTF", "BITI",  # Removed XBTF — delisted (Mar 2026)
     # -- Blockchain/crypto industry ETFs
     "BLOK", "DAPP", "BKCH", "BITQ"
 ]
@@ -211,8 +211,7 @@ MUTUAL_FUND_TICKERS = [
     "BREIX",            # Real Estate Fund
     "BRIFX",            # Real Estate Income Fund
     "BFTHX",            # Fifth Avenue Growth Fund
-    "BTECX",            # Technology Fund
-    "BFIUX",            # FinTech Fund
+    # Removed BTECX, BFIUX — no longer on yfinance (Mar 2026)
     # Additional tracked mutual funds
     "BFGIX",            # Baron Fifth Avenue Growth Institutional
     "PRSCX",            # T. Rowe Price Small-Cap Stock
@@ -245,9 +244,10 @@ STABLECOIN_TICKERS = ["USDT-USD", "USDC-USD", "DAI-USD"]
 CRYPTO_TICKERS = [
     "BTC-USD", "ETH-USD", "BNB-USD", "XRP-USD", "SOL-USD", "ADA-USD", "DOGE-USD", "TON-USD",
     "TRX-USD", "AVAX-USD", "SHIB-USD", "DOT-USD", "LINK-USD", "ATOM-USD", "LTC-USD", "BCH-USD", "UNI7083-USD",
-    "XLM-USD", "ETC-USD", "FIL-USD", "ICP-USD", "APT-USD", "HBAR-USD", "ARB-USD", "MKR-USD", "VET-USD", "NEAR-USD",
-    "OP-USD", "IMX-USD", "KAS-USD", "RENDER-USD", "AAVE-USD", "LDO-USD", "ALGO-USD", "QNT-USD", "EGLD-USD", "SAND-USD",
-    "AXS-USD", "XTZ-USD", "THETA-USD", "MANA-USD", "GRT-USD", "CHZ-USD", "FLOW-USD", "XEC-USD", "DASH-USD", "HYPE-USD"
+    "XLM-USD", "ETC-USD", "FIL-USD", "ICP-USD", "HBAR-USD", "ARB-USD", "MKR-USD", "VET-USD", "NEAR-USD",
+    "OP-USD", "KAS-USD", "RENDER-USD", "AAVE-USD", "LDO-USD", "ALGO-USD", "QNT-USD", "EGLD-USD", "SAND-USD",
+    "AXS-USD", "XTZ-USD", "THETA-USD", "MANA-USD", "CHZ-USD", "FLOW-USD", "XEC-USD", "DASH-USD",
+    # Removed: APT-USD, IMX-USD, GRT-USD, HYPE-USD — yfinance stopped serving (Mar 2026)
 ]
 
 # High-profile non-S&P 500 U.S. stocks to track
@@ -1040,6 +1040,25 @@ EXCLUDED_TICKERS = [
     "SULA11.SA", # No Yahoo data
     "OB",        # Removed from static lists
     "FSR",       # Removed from static lists
+    # Delisted / acquired / bankrupt (Mar 2026 cleanup)
+    "PLL",       # Piedmont Lithium — delisted
+    "K",         # Kellanova — acquired by Mars
+    "IPG",       # Interpublic — acquired by Omnicom
+    "FREYR",     # FREYR Battery — delisted
+    "NOVA",      # Sunnova Energy — bankruptcy
+    "IRBT",      # iRobot — delisted
+    "GIGA",      # Giga-tronics — delisted
+    "ABML",      # American Battery Technology — delisted
+    "STLHF",     # Standard Lithium — delisted OTC
+    "NOVRF",     # Nouveau Monde Graphite — delisted OTC
+    "GPH",       # Graphite One — delisted
+    "CEO",       # CNOOC (old ADR) — delisted
+    "PTR",       # PetroChina (old ADR) — delisted
+    "SNP",       # Sinopec (old ADR) — delisted
+    "RDFN",      # Redfin — delisted
+    "SKX",       # Skechers — taken private (3G Capital)
+    "ECHO",      # Echo Global Logistics — acquired
+    "SOND",      # Sonder Holdings — delisted
 ]
 
 # Foreign exchange tickers (major + EM pairs)
@@ -1056,8 +1075,9 @@ def build_fx_tickers():
     # USD-EM pairs, both directions
     fx += make_pairs(["USD"], EM_CCY)
     fx += make_pairs(EM_CCY, ["USD"])
-    # Precious metals as currencies
-    fx += ["XAUUSD=X", "XAGUSD=X", "XPTUSD=X", "XPDUSD=X"]
+    # Precious metals as currencies — yfinance stopped serving these (Mar 2026)
+    # Historical data preserved in DB; use GLD/SLV ETFs or GC=F/SI=F/PL=F/PA=F futures instead
+    # fx += ["XAUUSD=X", "XAGUSD=X", "XPTUSD=X", "XPDUSD=X"]
     return unique_preserve(fx)
 
 def make_pairs(bases, quotes, suffix="=X"):

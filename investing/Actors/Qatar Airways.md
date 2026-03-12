@@ -20,7 +20,15 @@ Qatar Airways — State-owned flag carrier of [[Qatar]]. Global top-5 airline. H
 
 ---
 
+## Iran conflict impact (March 2026)
+
+Operating an even smaller number of flights than [[Emirates]] during [[Operation Epic Fury|2026 Iran conflict]]. Aircraft parked for several days at Barcelona airport, unable to return (photographed Mar 9). [[QatarEnergy]] declared force majeure on LNG operations at [[Ras Laffan]] — airline faces compounding home-base disruption. 46,000+ Middle East flights canceled Feb 28 - Mar 11 across all carriers ([[Cirium]]). See [[Iran conflict airline disruption]].
+
+---
+
 ## Related
 
 - [[Qatar]] — parent state
 - [[Boeing]] — major aircraft supplier
+- [[Emirates]], [[Etihad Airways]] — Gulf rivals
+- [[Iran conflict airline disruption]] — conflict impact

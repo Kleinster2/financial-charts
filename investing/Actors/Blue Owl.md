@@ -289,6 +289,24 @@ Stock +2.6% on Mar 4 in broad market rally. Coming off steepest monthly decline 
 
 ---
 
+## Glendon challenges OBDC valuations (Mar 12, 2026)
+
+[[Glendon Capital Management]] ($5B, founded by [[Oaktree]] veteran [[Holly Kim]]) told investors that [[Blue Owl]] and rivals had "misrepresented" loss rates and were sitting on "larger losses than reported."
+
+**Key finding:** OBDC marked junior tranches of debt at prices above the public trading levels of more senior debt in the same companies — a logical impossibility since junior claims have lower recovery priority. Example: $235M in [[Cornerstone OnDemand]] junior preferred + 2nd lien marked at ~90¢, while the [[Clearlake Capital]]-owned company's senior tranche traded at 78¢ (distress level). Similar disconnects in [[Barracuda]] ([[KKR]]-owned), [[Peraton]] ([[Veritas Capital]]-owned), and [[Conair Holdings]].
+
+Questioned loans = **3%** of OBDC's $17B assets. OBDC share price at **25% discount** to reported NAV (end 2025).
+
+**Blue Owl defense:** Marks were done at end-2025; loan prices fell sharply in 2026. Senior debts were marked below where they traded at year-end, justifying the valuations.
+
+**Industry-wide:** [[Ares Management]] and [[KKR]] had debt funds with similar or higher marks on the same names. Multiple BDCs (KKR-sponsored, [[BlackRock]]-sponsored) cut dividends or sharply reduced marks recently.
+
+**Loss rate critique:** BDCs advertised loss rates of **<0.1%** in marketing materials. Glendon called this misleading — borrowers "were forced to turn to private credit after rejection by public markets." Junior junk bond yields at <7% are cheaper than senior private credit at ~10%+ — a yield inversion suggesting mispriced risk in the entire asset class.
+
+*Source: FT (Sujeet Indap, Antoine Gara), Mar 12, 2026*
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -360,3 +378,8 @@ Sources:
 - [[PE-insurance convergence]] — structural model
 - [[Saba Capital]] — tender offer for OBDC II, OTIC, OCIC at 20-35% NAV discount (Feb 2026)
 - [[Cox Capital Partners]] — co-purchaser with Saba, secondary liquidity specialist
+- [[Glendon Capital Management]] — challenged OBDC valuations (Mar 2026)
+- [[Cornerstone OnDemand]] — OBDC holding, junior debt marked above senior (Glendon)
+- [[Clearlake Capital]] — PE owner of Cornerstone OnDemand
+- [[Veritas Capital]] — PE owner of Peraton (Glendon flagged)
+- [[Conair Holdings]] — OBDC holding flagged by Glendon

@@ -111,6 +111,23 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-18/uber-to-s
 
 ---
 
+## Zoox partnership (March 11, 2026)
+
+Multiyear deal with [[Amazon]]'s [[Zoox]] to offer robotaxis on the Uber app:
+
+| Detail | Value |
+|--------|-------|
+| Launch market | Las Vegas (summer 2026) |
+| Second market | Los Angeles (mid-2027) |
+| Zoox's first third-party platform deal | Yes |
+| Zoox fleet | Custom-built, bidirectional robotaxis |
+
+Zoox continues operating its own app alongside the Uber integration. This is Uber's sixth AV partner (after [[Waymo]], [[WeRide]], Aurora, Motional, Nuro) — reinforcing the platform aggregation strategy. For [[Amazon]]/Zoox, the deal signals confidence in readiness for commercial scale after years of development.
+
+*Source: TechCrunch, Bloomberg, CNBC (Mar 11, 2026)*
+
+---
+
 ## Waymo partnership
 
 Robotaxi on Uber platform:

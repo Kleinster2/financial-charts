@@ -247,6 +247,16 @@ Beyond energy, the conflict threatens the [[GCC]]'s post-oil economic diversific
 - **Airport disruptions** are the most psychologically impactful for expat populations — 90% of [[UAE]] and [[Qatar]] populations are non-nationals. Sustained conflict risks an expat exodus that would hollow out the services economy
 - Gulf economic model depends on perception of stability and safety; that perception is now shattered
 
+### Gulf capital repatriation risk (Lynch, *Foreign Policy*, March 5)
+
+[[Marc Lynch]] (George Washington University) adds the political economy dimension to Young's GCC existential threat analysis:
+
+- Gulf sovereign wealth funds ([[Saudi PIF]], [[Abu Dhabi Investment Authority|ADIA]], [[Mubadala]]) may shift capital home for reconstruction, rehabilitation, and restoring their "safe haven" brand ([[Ryan Bohl]], RANE) — reducing outbound investment flows that have been a major driver of US/European asset demand.
+- Saudi pledges to invest **$1T in the US** may slow — "priorities will be shifting closer to Gulf Arab homelands" (Bohl).
+- Tourism/services sectors will need expensive subsidies to recover. Companies will demand better terms (lower taxes, cheaper visas) given new security risk.
+- The Saudi-Emirati split — paused by the war but not resolved — creates uncertainty about which Gulf model wins post-war. Saudi was building a rival alliance (Turkey, Qatar, Egypt, Pakistan) and pushing back against the UAE/Israel axis. This has implications for which Gulf SWFs are buying what, and where capital flows post-war.
+- **Investment implication**: Gulf SWF flows into US equities, real estate, and tech may decelerate. Companies with large Gulf revenue exposure (defense contractors, luxury brands, consulting firms) face both opportunity (reconstruction) and risk (brand damage, security costs).
+
 ### Defense supply chain — munitions burn rate (market relevant)
 
 US and Gulf allies burning through American-supplied interceptor stocks at unsustainable rates. [[UAE]], [[Saudi Arabia]], [[Bahrain]], and [[Kuwait]] all use US equipment — [[Patriot]], [[THAAD]], [[NASAMS]]. Industry meetings ongoing to accelerate resupply. This creates demand pressure on [[RTX]], [[Lockheed Martin]], [[Northrop Grumman]], and [[L3Harris]] beyond what's reflected in their already-elevated prices. The constraint is manufacturing capacity, not orders — defense primes can't ramp interceptor production fast enough.
@@ -363,10 +373,76 @@ Asian governments (South Korea, Taiwan, Japan, China) responded to the crisis by
 
 ---
 
+## IEA record 400M barrel strategic reserve release (March 11)
+
+**Largest emergency stock release in IEA history.** [[IEA]] Executive Director [[Fatih Birol]] announced the unanimous decision from Paris. The 400M barrel release dwarfs the 182M barrel Ukraine-era release (2022).
+
+| Country | Contribution |
+|---------|-------------|
+| US (SPR) | 172M bbl (starting next week) |
+| South Korea | 22.46M bbl |
+| UK | 13.5M bbl |
+| Japan | Releasing from national reserves (next week) |
+| Germany, Austria | Partial releases confirmed |
+
+**IEA emergency stocks available:** 1.2B bbl public + 600M bbl industry (government-obligated) = 1.8B bbl total across 32 member countries.
+
+**Birol's assessment:** Middle East producers cutting production, refinery operations disrupted (900K bbl/day refinery bombed in the Gulf — see Currie section above), diesel and jet fuel supplies particularly affected. LNG supply reduced 20% — Asian and European economies competing for cargoes.
+
+**Why it won't be enough:** As [[Jeff Currie]] noted earlier in the day — 400M bbl at 2M bbl/day max flow rate is "minuscule" against an 18M bbl/day disruption. The release is a confidence signal, not a supply solution. Brent moved from ~$120 to ~$90 on the week but structural tightness persists until [[Strait of Hormuz]] tanker traffic resumes.
+
+**Oil price action (week of Mar 9-11):** Brent crude rallied to nearly $120 at the start of the week, fell back to ~$90 after the IEA announcement. Extreme volatility.
+
+*Source: CNBC, Al Jazeera, Axios, NPR (Mar 11, 2026)*
+
+---
+
+## CME warns against oil futures intervention — "biblical disaster" (March 12)
+
+*Source: FT, Jamie Smyth, Jill R Shah, Claire Jones, Malcolm Moore (Mar 12, 2026)*
+
+[[CME Group]] CEO [[Terry Duffy]] warned the [[Trump II|Trump administration]] it would risk a "biblical disaster" if it attempted to lower oil prices by intervening in derivative markets. Speaking at a conference in Boca Raton, Florida: *"Markets do not like it when governments intervene in pricing."* The warning followed a Reuters report that the [[Scott Bessent|US Treasury]] was considering measures to lower oil prices, including direct intervention in futures markets.
+
+### SPR release (Mar 12)
+
+The administration announced the release of millions of barrels from the [[Strategic Petroleum Reserve]] on Wednesday (Mar 12) — its latest attempt to contain the crude rally. Other options under consideration: temporarily suspending federal gasoline taxes, relaxing environmental fuel rules, temporarily banning US oil exports.
+
+### Unexplained trades spark speculation (Mar 10-12)
+
+Wild price action raised suspicion among energy traders that Treasury may have already intervened. On Monday (Mar 10), Brent crude leapt to nearly **$120/bbl** before reversing sharply to fall **below $100** — an intraday swing of ~$20+. Several large unexplained sell orders triggered speculation.
+
+[[Energy Aspects]] head of derivatives Tim Skirrow (Mar 12): *"We were being pushed by clients as to who the big seller was. The speculation was that it could be from the US Treasury."* He noted the government has previously intervened in other markets (currencies).
+
+[[Rapidan Energy Group]] (founded by former White House energy adviser [[Bob McNally]]): While such a move would be "unprecedented," they wrote, *"Given the current panic situation, we cannot completely rule it out."*
+
+**Treasury response:** Declined to comment. A person familiar with [[Scott Bessent]]'s thinking said the agency had **not** intervened in oil markets. [[Department of Energy]] said it had not been involved in oil derivatives trading or advising other agencies on such a course.
+
+### Chris Wright's deleted Hormuz post (Mar 11)
+
+Oil fell sharply on Tuesday (Mar 11) after a post on X by Energy Secretary [[Chris Wright]] that surprised traders by claiming the US Navy had escorted an oil tanker through the [[Strait of Hormuz]]. The message was **deleted minutes later**, and the White House denied the Navy had escorted a ship through the waterway.
+
+[[PVM]] oil brokerage analyst [[John Evans]] (London, Mar 12): unclear if Wright's post was *"another case of total incompetence or more seriously, shenaniganry."*
+
+Wright said Thursday (Mar 12) that naval escorts were unlikely to begin before the end of the month.
+
+### Price action context
+
+| Date | Brent | Move | Catalyst |
+|------|-------|------|----------|
+| Mar 9 (Mon open) | ~$90 | WTI crosses $100 | IEA 400M bbl release announced |
+| Mar 10 (Mon intraday) | ~$120 → <$100 | ~$20 swing | Unexplained large sells |
+| Mar 11 (Tue) | Sharp drop | — | Wright deleted Hormuz escort post |
+| Mar 12 (Wed) | — | — | SPR release announced; CME warning |
+
+The $120-to-below-$100 reversal on Mar 10 is the most volatile single session in the Brent crude market in years. Whether it was Treasury intervention, algorithmic selling, or profit-taking remains unresolved — but the mere speculation has shifted trader psychology. If markets conclude the government is willing to sell futures to suppress prices, the credibility of oil as a freely-priced commodity comes into question.
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note
 - [[Strait of Hormuz]] — oil chokepoint
+- [[IEA]] — coordinating body for reserve release
 - [[Shell]], [[Exxon]], [[Chevron]], [[ConocoPhillips]]
 - [[Saudi Aramco]] — Ras Tanura attack
 - [[Gold]] — safe haven

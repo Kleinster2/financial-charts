@@ -112,6 +112,21 @@ AI may be more achievable than mirrored cities in the desert.
 
 ---
 
+## 2026 Iran War Impact
+
+The war creates a double-edged effect on Vision 2030:
+
+**Positive — fiscal math**: Oil above $90 is well above the ~$96 breakeven. If sustained, it eases the deficit pressure that was forcing project deferrals. Revenue windfall could fund accelerated diversification.
+
+**Negative — the model itself is under threat**:
+- [[Marc Lynch]] (GWU, *Foreign Policy*, March 5, 2026): Iran's attacks shattered the Gulf's self-image as immune from regional violence. The wealthy Gulf states "had good reason to feel that they were detaching from the region's problems, that they had more in common with wealthy Asian states than with the shattered Middle East." That perception is now broken.
+- Data centers in the UAE and Bahrain were directly targeted by Iranian strikes — the tech/AI hub model that underpins Vision 2030's diversification strategy is physically threatened.
+- Airport disruptions are psychologically devastating for expat populations (90% of UAE/Qatar residents are non-nationals). Sustained conflict risks an expat exodus that would hollow out the services economy ([[Karen Young]], MEI).
+- [[Ryan Bohl]] (RANE): Gulf SWFs may shift capital home for reconstruction and rehabilitation rather than continuing outbound investment. Saudi's $1T US investment pledge may slow.
+- The pre-war Saudi-Emirati split (Saudi building an alliance with Turkey, Qatar, Egypt, Pakistan against the UAE/Israel axis) creates post-war uncertainty about the regional competitive landscape — relevant for which Gulf model (Saudi diversification vs UAE tech hub) investors should weight.
+
+**Net assessment**: Short-term oil windfall benefits the fiscal side of Vision 2030. But the medium-term damage to the Gulf's safe-haven brand, expat confidence, and tech infrastructure may be more consequential for the diversification thesis. Vision 2030's success depends on attracting global talent and capital — both of which require the perception of security that the war has destroyed.
+
 ## Investment implications
 
 Direct exposure:

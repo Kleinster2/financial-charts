@@ -55,12 +55,7 @@ FUTURES_TICKERS: list[str] = [
     "PL=F",  # Platinum
     "PA=F",  # Palladium
     "TIO=F", # Iron Ore 62%, CFR China (TSI)
-    "AL=F",  # Aluminum
-    "ZI=F",  # Zinc
-    "NI=F",  # Nickel
-    "HRN00", # HRC Steel (Hot-Rolled Coil) Futures
-    "HRC00", # HRC Steel (Hot-Rolled Coil) Futures
-    "HRE00", # HRC Steel (Hot-Rolled Coil) Futures
+    # Removed: AL=F, ZI=F, NI=F, HRN00, HRC00, HRE00 — yfinance never served these (Mar 2026)
     "DBB",   # Invesco DB Base Metals Fund
 
     # US Treasuries
@@ -68,7 +63,7 @@ FUTURES_TICKERS: list[str] = [
     "ZN=F",  # 10-Year Note
     "ZF=F",  # 5-Year Note
     "ZT=F",  # 2-Year Note
-    "FGBL=F",  # Euro-Bund (Germany 10Y)
+    # Removed: FGBL=F — yfinance never served Euro-Bund (Mar 2026)
 
     # Currency futures (CME)
     "DX=F",   # US Dollar Index Futures (ICE)
@@ -103,7 +98,7 @@ FUTURES_TICKERS: list[str] = [
     "HO=F",  # Heating Oil
 
     # Volatility
-    "VX=F",  # VIX Futures
+    # Removed: VX=F — yfinance never served VIX futures (Mar 2026); use ^VIX index instead
 
     # Lumber
     "LBR=F",  # Random Length Lumber
