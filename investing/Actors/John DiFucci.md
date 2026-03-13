@@ -4,20 +4,20 @@ aliases: [DiFucci]
 
 #actor #person #analyst #usa
 
-John DiFucci — Senior Managing Director and Senior Research Analyst at [[Guggenheim Partners|Guggenheim Securities]], covering software equities globally. #1-ranked software analyst by Institutional Investor (2013). Known for contrarian calls — long-running [[Oracle]] bull, [[Salesforce]] Sell. Army engineer turned Wall Street analyst.
+John DiFucci — Senior Managing Director and Senior Research Analyst at [[Guggenheim Partners|Guggenheim Securities]], covering software equities globally. number 1-ranked software analyst by Institutional Investor (2013). Known for contrarian calls — long-running [[Oracle]] bull, [[Salesforce]] Sell. Army engineer turned Wall Street analyst.
 
 ---
 
 ## Quick stats
 
-| Metric | Value |
-|--------|-------|
-| Firm | [[Guggenheim Partners|Guggenheim Securities]] (Feb 2022–) |
-| Coverage | Software (infrastructure, cloud, SaaS, AI-adjacent) |
-| II rank | #1 Software (2013), three-time runner-up |
-| TipRanks rank | #162 / 10,084 analysts |
-| Success rate | 62%, ~18% avg. return per rating |
-| Education | B.S./M.S. Mechanical Engineering (Union College), MBA Finance ([[NYU Stern]]) |
+| Metric        | Value                                                                         |                                     |
+| ------------- | ----------------------------------------------------------------------------- | ----------------------------------- |
+| Firm          | [[Guggenheim Partners                                                         | Guggenheim Securities]] (Feb 2022–) |
+| Coverage      | Software (infrastructure, cloud, SaaS, AI-adjacent)                           |                                     |
+| II rank       | #1 Software (2013), three-time runner-up                                      |                                     |
+| TipRanks rank | #162 / 10,084 analysts                                                        |                                     |
+| Success rate  | 62%, ~18% avg. return per rating                                              |                                     |
+| Education     | B.S./M.S. Mechanical Engineering (Union College), MBA Finance ([[NYU Stern]]) |                                     |
 
 ---
 

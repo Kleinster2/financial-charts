@@ -24,6 +24,16 @@ charts:
     primary: NU
   bptrx-vs-spacex_private-price-chart.png:
     skip: true
+  es-vs-nq-vs-cl-vs-gc-futures-2025.png:
+    skip: true
+  fed-rate-expectations.png:
+    skip: true
+  fed-fomc-probabilities.png:
+    skip: true
+  cl-contango-spread.png:
+    skip: true
+  cl-term-structure.png:
+    skip: true
 ---
 
 # Chart Registry
