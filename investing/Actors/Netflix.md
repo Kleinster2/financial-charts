@@ -312,6 +312,7 @@ Revenue CAGR 2018-2024: ~16%. Net income inflected upward sharply in 2024 on ope
 - 2023 — Password crackdown added tens of millions of paying subscribers; ad tier ramped to 40M+ MAU
 - 2024 — Pushed into live events (NFL Christmas games, WWE Raw, boxing); 10:1 stock split. Revenue crossed $39B
 - 2025-2026 — Bid $83B for [[Warner Bros Discovery]] studios + HBO (Dec 2025); walked away Feb 2026 after [[Paramount Global]] outbid at $31/share. Collected $2.8B breakup fee. Demonstrated capital discipline over empire-building
+- 2026 — Acquired [[InterPositive]] (AI post-production tools, up to $600M) and signed first-look deal with [[Artists Equity]] ([[Ben Affleck]]/[[Matt Damon]]). Pivoted from mega-M&A to targeted capability buys + talent partnerships
 
 ---
 
@@ -332,11 +333,44 @@ Revenue CAGR 2018-2024: ~16%. Net income inflected upward sharply in 2024 on ope
 - [[Streaming wars]] — competitive landscape
 
 ### Acquisitions
+- [[InterPositive]] — acquired [[Ben Affleck]]'s AI post-production startup (Mar 2026, up to $600M)
 - [[Warner Bros Discovery]] — bid $83B for studios + HBO (Dec 2025); walked away Feb 2026
+
+### Production partnerships
+- [[Artists Equity]] — first-look streaming deal with Affleck/[[Matt Damon]] company (Mar 2026)
 
 ### Events
 - [[WBD bidding war 2025-2026]] — full arc: Netflix bid → Paramount competing bid → Netflix walks away
 - [[Netflix-WB Senate Antitrust Hearing 2026-02-03]] — Senate hearing on deal
+
+---
+
+## InterPositive acquisition + Artists Equity deal (Mar 2026)
+
+Two related deals announced the same week, both involving [[Ben Affleck]]:
+
+### InterPositive acquisition (Mar 5, 2026)
+
+| Detail | Value |
+|--------|-------|
+| Target | [[InterPositive]] — AI post-production startup |
+| Founder | [[Ben Affleck]] |
+| Price | Up to **$600M** (with earnouts) |
+| Team | 16 employees → integrated into Netflix |
+| Affleck role | Senior adviser to Netflix |
+
+InterPositive builds AI tools for post-production — relighting, continuity fixes, environment adjustment, VFX — trained on a production's own dailies. Not generative AI. At Netflix's $20B/year content spend, post-production cost reduction at scale is a meaningful margin lever. One of Netflix's largest acquisitions ever.
+
+### Artists Equity first-look deal (Mar 2026)
+
+| Detail | Value |
+|--------|-------|
+| Partner | [[Artists Equity]] ([[Ben Affleck]], [[Matt Damon]], [[Gerry Cardinale]]) |
+| Type | Multi-year first-look streaming, production, distribution |
+| Scope | Straight-to-streaming titles only |
+| Theatrical | Separate deal with [[Sony|Sony Pictures]] remains |
+
+Triggered by The Rip (Jan 2026) — 112.3M views in 6 weeks, 3 weeks at #1. First time Netflix paid performance-based bonuses to cast and crew (~1,200 people). Artists Equity's profit-sharing model (all crew participate in upside) could become a template for Netflix talent deals.
 
 ---
 
@@ -353,4 +387,4 @@ See: [[Major Pending M&A Deals Feb 2026]]
 
 ---
 
-*Updated 2026-02-27*
+*Updated 2026-03-13*

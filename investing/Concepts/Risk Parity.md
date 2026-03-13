@@ -110,7 +110,13 @@ Full research lives in the dedicated Risk Parity vault (`C:\Users\klein\obsidian
 ## Related
 
 - [[Stock-Bond Correlation Regime]] — the macro variable that determines whether risk parity works
+- [[Iran conflict portfolio hedging]] — Mar 2026: second correlation breakdown in four years, practitioner hedging strategies
 - [[Bridgewater]] — largest risk parity practitioner
 - [[AQR]] — academic leader in risk parity research
 - [[Ray Dalio]] — invented All Weather
 - [[Analysts and Strategists]] — macro thinkers on correlation regimes
+
+### Cross-vault
+- [Risk Parity vault](obsidian://open?vault=Risk%20Parity&file=Home) — full research vault: theory, backtests, fund tracking (RPAR/UPAR/ALLW), regime analysis
+- [Risk Parity: Performance by Regime](obsidian://open?vault=Risk%20Parity&file=06%20-%20Historical%20Performance%2FPerformance%20by%20Regime) — four-quadrant framework, RP advantage in stagflation (+5.7pp vs 60/40)
+- [Risk Parity: 2022 Rate Shock](obsidian://open?vault=Risk%20Parity&file=06%20-%20Historical%20Performance%2F2022%20Rate%20Shock) — RPAR fund attribution, post-2022 recovery tracking, regime change verdict

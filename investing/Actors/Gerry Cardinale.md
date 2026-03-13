@@ -44,6 +44,7 @@ aliases: [Gerard Cardinale, [[RedBird Capital]], RedBird]
 
 | Asset | Role |
 |-------|------|
+| **[[Artists Equity]]** | Co-founder (with [[Ben Affleck]], [[Matt Damon]]) |
 | [[Skydance Media]] | Investor |
 | [[Paramount Global]] deal | Co-investor with Ellisons |
 | Fenway Sports Group | Previous investor |
@@ -98,6 +99,8 @@ aliases: [Gerard Cardinale, [[RedBird Capital]], RedBird]
 
 | Relationship | Context |
 |--------------|---------|
+| [[Ben Affleck]] | [[Artists Equity]] co-founder |
+| [[Matt Damon]] | [[Artists Equity]] co-founder |
 | [[Larry Ellison]] | Paramount co-investor |
 | [[David Ellison]] | Skydance partner |
 | Dwayne Johnson | XFL co-owner |
@@ -128,6 +131,7 @@ aliases: [Gerard Cardinale, [[RedBird Capital]], RedBird]
 
 ## Related
 
+- [[Artists Equity]] — co-founder (with [[Ben Affleck]], [[Matt Damon]])
 - [[Skydance Media]] — investment
 - [[Paramount Global]] — co-acquiring
 - [[David Ellison]] — partner

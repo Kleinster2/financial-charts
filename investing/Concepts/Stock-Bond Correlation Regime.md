@@ -61,5 +61,10 @@ When bonds stop hedging, investors search for alternatives:
 
 ## Related
 
-- [[Risk Parity]] — strategy most sensitive to correlation regime (see Risk Parity vault: `Diversification vs Correlation`, `Central Question of Risk Parity`)
+- [[Risk Parity]] — strategy most sensitive to correlation regime
+- [[Iran conflict portfolio hedging]] — Mar 2026 live case study of positive correlation regime
+
+### Cross-vault
+- [Risk Parity: Correlation Regimes](obsidian://open?vault=Risk%20Parity&file=03%20-%20Risk%20Measures%2FCorrelation%20Regimes) — regime detection code, DCC-GARCH models, correlation lookup tables, stress testing framework
+- [Risk Parity: 2022 Rate Shock](obsidian://open?vault=Risk%20Parity&file=06%20-%20Historical%20Performance%2F2022%20Rate%20Shock) — detailed 2022 attribution, RPAR fund positioning, "outlier vs regime change" verdict
 - [[Federal Reserve]] — policy regime determines correlation regime

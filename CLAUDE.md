@@ -29,7 +29,7 @@ If CI fails, fix forward or `git revert HEAD && git push origin main`.
 ## Tools & Locations
 
 **Tools:**
-- gh CLI: `/c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe`
+- gh CLI: `gh` (installed via winget, on PATH)
 - Playwright: `npx playwright install chromium` (first-time)
 - SEC filings: `python scripts/parse_sec_filing.py TICKER --save filing.txt`
   - WebFetch gets 403'd by SEC — use this script instead

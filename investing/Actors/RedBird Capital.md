@@ -47,6 +47,7 @@ aliases: [RedBird, RedBird Capital Partners]
 
 | Asset | Role | Notes |
 |-------|------|-------|
+| **[[Artists Equity]]** | Backer ($100M+) | Co-founded by [[Gerry Cardinale]], [[Ben Affleck]], [[Matt Damon]] |
 | **[[Skydance Media]]** | Investor | Co-investor in Paramount deal |
 | **[[Paramount Global]]** | Acquiring | With Ellisons |
 | **On Location** | Owner | Experiential/hospitality |

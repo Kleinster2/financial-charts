@@ -50,6 +50,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | **Airlines** | [[Iran conflict airline disruption]] | 46K+ flights canceled; Bloomberg Airlines Index -11%; Gulf hub model exposed; European/Asian carriers gaining |
 | **Insurance** | [[Iran conflict insurance impact]] | Coverage withdrawal, not repricing; P&I clubs canceling Gulf war risk; equities sold on tail risk |
 | **FX** | [[Iran conflict FX dynamics]] | Dollar rally is positioning squeeze; EUR/USD hit 3-month low; de-dollarization accelerating |
+| **Portfolio hedging** | [[Iran conflict portfolio hedging]] | 60/40 broken; bond-equity positive correlation; fund managers deploying options overlays, dollar cash, Hormuz commodities |
 
 ---
 
@@ -360,6 +361,7 @@ Wall Street's worst week since October marks the transition from "short war, buy
 - [[Iran conflict airline disruption]] — airline/aviation deep dive
 - [[Iran conflict insurance impact]] — insurance sector deep dive
 - [[Iran conflict FX dynamics]] — dollar, euro, yen, EM currency dynamics
+- [[Iran conflict portfolio hedging]] — 60/40 breakdown, cross-asset hedging strategies
 - [[Iran conflict long-short basket]] — thesis
 - [[Defense]] — sector hub
 - [[Strait of Hormuz]] — oil chokepoint

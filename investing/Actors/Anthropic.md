@@ -32,7 +32,7 @@ The arc: seven OpenAI defectors → Constitutional AI → FTX-funded safety lab 
 
 | Metric | Value |
 |--------|-------|
-| Revenue | ~$20B annualized run rate (as of ~Mar 6; was $14B mid-Feb, $9B Jan, $87M early 2024) |
+| Revenue | ~$20B annualized run rate (as of ~Mar 6; was $14B mid-Feb, $9B Jan, $87M early 2024). **$6B single-month revenue in Feb 2026** (28-day month) — more than Databricks or Snowflake's full-year revenue after 12 years |
 | Claude Code run rate | $2.5B (launched publicly May 2025) |
 | Revenue mix | 80% enterprise, 20% consumer |
 | Business customers | 300,000+ |
@@ -45,6 +45,8 @@ The arc: seven OpenAI defectors → Constitutional AI → FTX-funded safety lab 
 | Valuation | $380B (Series G close, Feb 12 2026) |
 
 Burning 14x less cash than OpenAI before profitability. CFO [[Krishna Rao]]: "Claude is increasingly becoming critical to how businesses work."
+
+[[NVIDIA]] CEO [[Jensen Huang]] (Mar 2026): expects his recent $40B investment across Anthropic and [[OpenAI]] to be his "last money in" — both companies will go public this year. [[Brad Gerstner]] ([[Altimeter]]): Opus 4.6 crossed a threshold where models compete with **labor budgets**, not IT budgets — "you could not possibly have a $6B month by displacing IT budgets."
 
 ---
 
