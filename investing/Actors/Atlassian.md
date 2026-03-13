@@ -9,7 +9,7 @@ aliases: [TEAM]
 
 ## Synopsis
 
-**Atlassian** is the dominant developer collaboration platform — [[Jira]] is the de facto standard for issue tracking, [[Confluence]] for enterprise wikis, [[Trello]] for kanban, [[Bitbucket]] for code repos. Revenue hit $1.59B in Q2 FY2026 (+23% YoY) with the first-ever $1B+ cloud quarter, RPO at $3.8B (+44% YoY), and 600+ customers above $1M ARR. The financials look strong on paper.
+Atlassian is the dominant developer collaboration platform — [[Jira]] is the de facto standard for issue tracking, [[Confluence]] for enterprise wikis, [[Trello]] for kanban, [[Bitbucket]] for code repos. Revenue hit $1.59B in Q2 FY2026 (+23% YoY) with the first-ever $1B+ cloud quarter, RPO at $3.8B (+44% YoY), and 600+ customers above $1M ARR. The financials look strong on paper.
 
 The March 11, 2026 layoff of 1,600 workers (~10% of headcount) is the company's third round in two years and by far the largest. CEO [[Mike Cannon-Brookes]] framed it as proactive "self-funding" for AI and enterprise sales, but the stock's collapse from $242 to ~$73 (70% drawdown) tells a different story. R&D took the heaviest hit (900+ of 1,600 cuts), CTO [[Rajeev Rajan]] is stepping down, and [[Professionals Australia]] accused the company of "AI washing" — using AI as cover for cost cuts. The [[Block AI layoffs February 2026|Block comparison]] is apt: [[Block]] cut 40% of its workforce a month earlier with the same AI framing. The pattern is spreading across SaaS.
 
@@ -209,7 +209,7 @@ Revenue has compounded at ~24% annually over 7 years. Net losses every year sinc
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Developer ecosystem lock-in (Jira is deeply embedded in enterprise workflows)
 - Rovo AI differentiation — 5M+ users, bundled free
 - Cloud migration tailwind (26% YoY cloud growth)
@@ -217,7 +217,7 @@ Revenue has compounded at ~24% annually over 7 years. Net losses every year sinc
 - $225M+ in cost savings from restructuring
 - Trading at ~13x forward revenue — cheap for SaaS
 
-**Bear:**
+Bear:
 - AI lowers barriers for competitors ([[Linear]], [[Notion]], [[GitHub]]) to replicate
 - Third layoff round in two years — organizational instability
 - CTO departure during critical AI pivot
