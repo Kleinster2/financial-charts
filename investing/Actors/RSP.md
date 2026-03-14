@@ -10,6 +10,21 @@
 | Yield | 1.4% |
 | Inception | Apr 2003 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.92 |
+| Financials | XLF | 0.88 |
+| [[Consumer]] | XLY | 0.85 |
+| *S&P 500* | *SPY* | *0.91* |
+
+RSP trades as a core Industrials name (XLI r = 0.92).
+
+---
+
 ## Why It Matters
 
 RSP vs [[SPY]] spread is the purest measure of market breadth. When SPY outperforms RSP, mega-caps are carrying the index. When RSP leads, the average stock is doing well.

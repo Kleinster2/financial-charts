@@ -438,6 +438,74 @@ The $120-to-below-$100 reversal on Mar 10 is the most volatile single session in
 
 ---
 
+## Southeast Asia emergency measures (March 9-13)
+
+The energy shock is now forcing real-economy responses across Asia. Governments are ordering work-from-home, closing schools, capping fuel prices, and restricting exports — emergency measures not seen since the 2022 Russia-Ukraine energy crisis, but in some cases more drastic.
+
+84% of crude through the [[Strait of Hormuz]] is bound for Asia. 83% of LNG. [[China]], [[India]], [[Japan]], [[South Korea]] together account for ~70% of Hormuz oil shipments; the rest of Asia adds ~15%. Southeast Asia's exposure is acute because most countries lack strategic reserves — [[Vietnam]] has fewer than 20 days of supply.
+
+### Country-by-country measures
+
+| Country | Reserve buffer | Key measures | Fuel price impact |
+|---------|---------------|-------------|-------------------|
+| [[Thailand]] | ~65 days (seeking 30 more) | Civil servants WFH, 26°C AC mandate, diesel cap 30 baht/L for 15 days, cooking gas frozen til May, oil export ban (except Cambodia/Laos), overseas travel banned for officials | — |
+| [[Vietnam]] | <20 days | WFH urged by Ministry of Industry & Trade, petroleum tariffs scrapped (Mar 9), procuring 4M bbl from non-ME sources (6 days supply), oil exports restricted | Gasoline +32%, diesel +56%, kerosene +80% since late Feb |
+| [[Philippines]] | 50-60 days (commercial) | 4-day workweek for government (presidential directive), excise tax cuts on petroleum, travel limited to essential functions | Jeepney driver protests in Quezon City (Mar 9) |
+| [[Pakistan]] | ~1 month | 4-day workweek for government offices, 50% WFH mandate for public/private (non-essential), schools closed | — |
+| [[Indonesia]] | 21-23 days | 381.3T rupiah ($22.6B) energy subsidy package, [[Pertamina]] maintaining price controls | PT Chandra Asri Pacific declared force majeure |
+| [[India]] | — | Suspended LPG to commercial operators, invoked Essential Commodities Act, prioritized household cooking gas | ~1M delivery workers (Swiggy/Zomato) affected by restaurant closures |
+| [[Bangladesh]] | — | Brought forward Eid-al-Fitr holiday (Mar 9), closed universities early | — |
+| Myanmar | — | Alternating driving days imposed | — |
+| [[South Korea]] | 208 days | Price cap on petroleum products (President Lee Jae Myung) | 70% of oil from ME; ~1.7M bbl/day held back |
+| [[Japan]] | 254 days | Industry Minister Akazawa did not rule out accessing national reserves | 90% of oil from ME |
+
+### Thailand — details
+
+PM Anutin Charnvirakul and Energy Minister Auttapol Rerkpiboon announced the package on March 10. Government offices set AC to 26°C, relaxed dress code (short sleeves instead of suits), reduced photocopier use. Thailand's largest petrochemical disruption: Rayong Olefins (Siam Cement Group unit) suspended operations — cannot source naphtha or propane. Thailand is also maximizing natural gas production from Gulf of Thailand reserves. The Thai bulk carrier *Mayuree Naree* was attacked near the Strait on March 11.
+
+### Vietnam — details
+
+The Ministry of Industry and Trade issued the WFH guidance on March 10: "Joint efforts to save fuel are essential." Vietnam scrapped tariffs and duties on imported petroleum products the day before. Motorists in Hanoi reported waiting nearly an hour at fuel stations. Vietnam's sub-20-day reserve buffer makes it the most vulnerable major economy in the region — it has essentially no strategic petroleum reserve, only commercial inventories. The 4M barrel emergency procurement from non-Middle Eastern sources covers just 6 days of consumption.
+
+### India — the LPG dimension
+
+[[India]]'s crisis is distinct — less about gasoline and more about cooking gas. Suspending commercial LPG and invoking the Essential Commodities Act signals genuine shortage fear, not just precaution. [[Infosys]] (300,000+ employees) trimmed cafeteria menus and asked staff to bring food from home. The Gig Workers Association (Mar 11) urged platforms not to penalize delivery workers whose earnings are cratering from restaurant closures.
+
+### Analyst context
+
+- Simon Flowers ([[Wood Mackenzie]]): "$200/bbl is not outside the realms of possibility in 2026 — supply volumes at risk this time are dimensionally bigger, and real"
+- Priyanka Kishore (Asia Decoded, Singapore): "They're trying to manage the supply situation before it even comes close to hitting them"
+- Sam Reynolds ([[IEEFA]]): "All countries are scrambling to replace disrupted supplies, but short-term alternatives are limited by refinery configurations and operational risks of using different crude grades"
+
+The pattern is unmistakable: governments with thin reserves (Vietnam <20 days, Indonesia 21-23 days, Pakistan ~30 days) are taking the most drastic action. Countries with deep buffers ([[Japan]] 254 days, [[South Korea]] 208 days) can afford to wait. The WFH mandates serve a dual purpose — fuel conservation and political signaling that the government is acting. If Hormuz stays closed into Week 4, the conservation measures will escalate from voluntary guidance to mandatory rationing.
+
+*Sources: Fortune, Al Jazeera, Malay Mail, Rest of World, HR Brew (Mar 10-13, 2026)*
+
+---
+
+## Watch for
+
+Second-order effects not yet tracked in the vault. Check these during each news ingestion session.
+
+| Effect | Why it matters | Status |
+|--------|---------------|--------|
+| Mandatory fuel rationing (SE Asia) | Vietnam <20 days, Indonesia 21-23 — voluntary conservation → rationing if Hormuz stays closed Week 4+ | Untracked |
+| Airline route/capacity cuts | Jet fuel at $230/bbl in Singapore. Airlines cutting routes or grounding planes | Tracked — see [[Iran conflict airline disruption]] (46K flights canceled, $150-200/bbl jet fuel, KLM/Lufthansa/BA/Cathay suspensions through Apr) |
+| Fertilizer shortage → food prices | ~34% of global fertilizer transits Hormuz. Planting season in Northern Hemisphere | Untracked |
+| Manufacturing shutdowns beyond Rayong Olefins | Petrochemical feedstock (naphtha, propane, ethylene) shortages across Asia | PT Chandra Asri force majeure (Indonesia) |
+| Sovereign credit actions | Rating agencies reassessing oil-import-dependent sovereigns (Pakistan, Bangladesh, Sri Lanka) | Untracked |
+| Consumer spending shifts | Gasoline crowds out discretionary — retail, restaurants, travel | India restaurant closures tracked |
+| Gig economy / labor disruption | Delivery workers, ride-hail drivers, trucking | India (~1M workers) tracked |
+| Power grid stress | Countries dependent on oil/gas generation (Pakistan, Bangladesh, Myanmar) | Untracked |
+| SPR drawdown pace vs. refill | IEA 400M bbl release — how fast are buffers actually depleting? | IEA release tracked, pace not |
+| Insurance market pricing | War-risk premiums making Gulf shipping permanently uneconomic | Mentioned, not quantified |
+| Asian refinery crude-grade mismatch | Refineries configured for Gulf sour crude can't easily switch to non-ME grades | Reynolds/IEEFA flagged |
+| Sovereign energy subsidy fiscal strain | Indonesia $22.6B, others scaling — impact on fiscal deficits | Indonesia tracked, others not |
+
+*Last reviewed: 2026-03-13*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note
@@ -447,6 +515,8 @@ The $120-to-below-$100 reversal on Mar 10 is the most volatile single session in
 - [[Saudi Aramco]] — Ras Tanura attack
 - [[Gold]] — safe haven
 - [[US-Iran nuclear escalation February 2026]] — pre-strike scenario
+- [[Vietnam]], [[Thailand]], [[Philippines]], [[Pakistan]], [[Indonesia]] — emergency measures
+- [[India]] — LPG crisis, Essential Commodities Act
 
 ---
 

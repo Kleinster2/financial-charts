@@ -46,6 +46,7 @@ aliases: [Steven A. Cohen, Steven Cohen]
 | Sep 2020 | Purchased controlling interest in NY Mets ($2.4B, record at time) |
 | Oct 2024 | Launched Turion AI fund |
 | 2025 | Expanding into private credit |
+| Dec 2025 | Won NY casino license for [[Metropolitan Park]] ($8.1B, with [[Hard Rock International]]) |
 
 ---
 
@@ -161,6 +162,12 @@ aliases: [Steven A. Cohen, Steven Cohen]
 
 ---
 
+## Metropolitan Park casino
+
+Cohen is co-developing [[Metropolitan Park]], an $8.1B integrated casino-entertainment complex at Willets Point, Queens — on the 50 acres of Citi Field parking lots he controls through New Green Willets LLC. Partnered with [[Hard Rock International]] ([[Seminole Tribe of Florida]]). Won one of three NY downstate casino licenses December 15, 2025 (30-year term). Project includes 5,000 slots, 375 tables, ~2,300 hotel rooms, 5,650-seat Hard Rock Live venue, and 25 acres of public parkland. Target opening: June 2030. This is a personal investment, not through [[Point72]].
+
+---
+
 ## Investment relevance
 
 **Why track Steve Cohen**:
@@ -171,7 +178,7 @@ aliases: [Steven A. Cohen, Steven Cohen]
 
 3. **Pod shop performance** — Point72 outperforming Millennium and [[Citadel]] in 2024-2025.
 
-4. **Mets ownership** — High-profile position; sports franchise as wealth diversification.
+4. **Mets ownership + casino** — High-profile NYC presence; sports franchise + casino as real estate/entertainment diversification.
 
 5. **Talent magnet** — Despite scandal history, continues attracting top PMs.
 
@@ -187,8 +194,9 @@ aliases: [Steven A. Cohen, Steven Cohen]
 - [[Izzy Englander]] — [[Millennium]] founder, pod shop peer
 - [[Ken Griffin]] — [[Citadel Securities]] founder, pod shop peer
 
-### Sports
+### Sports & entertainment
 - NY Mets — MLB team, 97%+ ownership
+- [[Metropolitan Park]] — $8.1B casino project at Citi Field (with [[Hard Rock International]])
 
 ---
 

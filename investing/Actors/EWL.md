@@ -14,6 +14,21 @@ iShares MSCI Switzerland ETF — tracks the MSCI Switzerland 25/50 Index. Concen
 | Inception | March 1996 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.75 |
+| [[Real estate|Real Estate]] | XLRE | 0.73 |
+| Industrials | XLI | 0.71 |
+| *S&P 500* | *SPY* | *0.67* |
+
+EWL trades as a core Healthcare name (XLV r = 0.75).
+
+---
+
 ## Related
 
 - [[Switzerland]] — country exposure

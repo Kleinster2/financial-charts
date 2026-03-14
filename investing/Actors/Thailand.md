@@ -80,6 +80,28 @@ Government spending 12B baht to subsidize 100,000 EVs.
 
 ---
 
+## Iran conflict energy crisis (March 2026)
+
+PM Anutin Charnvirakul and Energy Minister Auttapol Rerkpiboon announced emergency energy conservation measures on March 10 in response to the [[Strait of Hormuz]] closure.
+
+| Measure | Detail |
+|---------|--------|
+| Government WFH | Civil servants ordered to work from home |
+| AC temperature | Set to 26°C in government offices |
+| Dress code | Relaxed — short sleeves instead of suits |
+| Diesel price cap | 30 baht ($0.94)/litre for 15 days |
+| Cooking gas | Prices frozen until May |
+| Oil exports | Banned (except to Cambodia and Laos) |
+| Travel | Officials barred from overseas trips |
+
+Thailand holds ~65 days of petroleum reserves and is seeking an additional 30 days. The government is maximizing natural gas production from Gulf of Thailand fields and encouraging biodiesel alternatives.
+
+Industrial impact: Rayong Olefins (Siam Cement Group unit) suspended plant operations — cannot source naphtha or propane. The Thai bulk carrier *Mayuree Naree* was attacked near the Strait on March 11.
+
+See [[Iran conflict energy disruption#Southeast Asia emergency measures (March 9-13)]] for regional context.
+
+---
+
 ## Related
 
 **Peers:**

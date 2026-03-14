@@ -7,6 +7,19 @@ BHP — World's largest mining company by market cap (~$161B). [[Iron ore]] (~50
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.63 |
+| Oil & Gas E&P | XOP | 0.60 |
+| [[Banks|Regional Banks]] | KRE | 0.58 |
+| *S&P 500* | *SPY* | *0.61* |
+
+BHP shows moderate Industrials correlation (XLI r = 0.63).
+
+---
+
 ## Why BHP matters
 
 | Metric | Value |

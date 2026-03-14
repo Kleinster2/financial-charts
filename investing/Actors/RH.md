@@ -9,6 +9,19 @@ Luxury home furnishings platform built around immersive Design Galleries, a memb
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.83 |
+| Oil & Gas E&P | XOP | 0.74 |
+| [[Consumer]] | XLY | 0.71 |
+| *S&P 500* | *SPY* | *0.67* |
+
+RH trades as a core Regional Banks name (KRE r = 0.83).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

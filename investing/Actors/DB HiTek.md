@@ -9,6 +9,24 @@ ticker: 000990.KS
 ---
 South Korea's second-largest semiconductor foundry behind [[Samsung Electronics]], specializing in 200mm (8-inch) legacy chips. As TSMC and Samsung pivot to advanced nodes for AI, DB HiTek is filling the gap in mature-node fabrication for power management ICs (PMICs), display driver ICs (DDIs), and image sensors.
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> 000990.KS does not trade tightly with any sector ETF (max r = 0.28 with XLU).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Utilities | XLU | 0.28 |
+| [[Energy and Utilities|Energy]] | XLE | 0.15 |
+| China Internet | KWEB | 0.15 |
+| *S&P 500* | *SPY* | *0.03* |
+
+000990.KS trades between Utilities and Energy without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

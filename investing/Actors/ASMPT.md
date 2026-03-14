@@ -10,6 +10,21 @@ ticker: 0522.HK
 
 Hong Kong-listed semiconductor equipment company, one of the world's largest in assembly/packaging and SMT (surface mount technology). Gaining share in HBM TC bonders at [[SK Hynix]]'s expense of [[Hanmi Semiconductor]], but profitability has collapsed post-2021.
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.51 |
+| [[Semiconductors]] | SMH | 0.31 |
+| Industrials | XLI | 0.29 |
+| *S&P 500* | *SPY* | *0.25* |
+
+0522.HK shows moderate China Internet correlation (KWEB r = 0.51).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

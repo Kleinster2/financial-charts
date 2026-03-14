@@ -9,6 +9,19 @@ tags: [actor, finance, insurance, usa, public]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.56 |
+| [[Banks|Regional Banks]] | KRE | 0.55 |
+| Oil & Gas E&P | XOP | 0.54 |
+| *S&P 500* | *SPY* | *0.44* |
+
+AIG shows moderate Financials correlation (XLF r = 0.56).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

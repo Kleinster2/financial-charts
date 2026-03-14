@@ -17,6 +17,21 @@ iShares MSCI Hong Kong ETF — tracks the MSCI Hong Kong 25/50 Index, providing 
 | Inception | March 1996 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.75 |
+| [[Defense]] | ITA | 0.72 |
+| Financials | XLF | 0.68 |
+| *S&P 500* | *SPY* | *0.71* |
+
+EWH trades as a core Industrials name (XLI r = 0.75).
+
+---
+
 ## Top 10 Holdings
 
 | Company | Weight |

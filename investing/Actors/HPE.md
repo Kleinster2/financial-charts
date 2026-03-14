@@ -7,6 +7,19 @@ aliases: [Hewlett Packard Enterprise]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.79 |
+| Oil & Gas E&P | XOP | 0.78 |
+| Industrials | XLI | 0.75 |
+| *S&P 500* | *SPY* | *0.76* |
+
+HPE trades as a core Regional Banks name (KRE r = 0.79).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

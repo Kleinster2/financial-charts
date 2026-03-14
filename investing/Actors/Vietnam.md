@@ -81,6 +81,24 @@
 
 ---
 
+## Iran conflict energy crisis (March 2026)
+
+Vietnam is the most vulnerable major Southeast Asian economy to the [[Strait of Hormuz]] closure — fewer than 20 days of petroleum reserves, no strategic petroleum reserve, only commercial inventories.
+
+The Ministry of Industry and Trade urged employers to allow remote work on March 10: "Joint efforts to save fuel are essential." The government scrapped tariffs and duties on imported petroleum products (effective March 9) and restricted oil exports to conserve domestic supply. Emergency procurement of ~4M barrels from non-Middle Eastern sources covers just 6 days of consumption.
+
+| Fuel | Price change since late Feb |
+|------|---------------------------|
+| Gasoline | +32% |
+| Diesel | +56% |
+| Kerosene | +80% |
+
+Motorists in Hanoi reported waiting nearly an hour at fuel stations. Four-day workweeks encouraged. The thin reserve buffer means Vietnam hits crisis faster than neighbors — if Hormuz stays closed into Week 4, voluntary conservation shifts to mandatory rationing.
+
+See [[Iran conflict energy disruption#Southeast Asia emergency measures (March 9-13)]] for regional context.
+
+---
+
 ## Related
 
 **Peers:**

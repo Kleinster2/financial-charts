@@ -7,6 +7,19 @@ aliases: [Sociedad Química y Minera]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.57 |
+| Technology | XLK | 0.55 |
+| Industrials | XLI | 0.49 |
+| *S&P 500* | *SPY* | *0.52* |
+
+SQM shows moderate Semiconductors correlation (SMH r = 0.57).
+
+---
+
 ## Why SQM matters
 
 | Metric | Value |

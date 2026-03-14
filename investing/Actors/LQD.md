@@ -11,6 +11,21 @@
 | Duration | ~8 years |
 | Inception | Jul 2002 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.62 |
+| Utilities | XLU | 0.46 |
+| [[Consumer Staples]] | XLP | 0.45 |
+| *S&P 500* | *SPY* | *0.40* |
+
+LQD shows moderate Real Estate correlation (XLRE r = 0.62).
+
+---
+
 ## What It Tracks
 
 Investment grade US corporate bonds (BBB- and above). Mix of interest rate risk (long duration) and credit spread risk. More rate-sensitive than [[HYG]] due to longer duration.

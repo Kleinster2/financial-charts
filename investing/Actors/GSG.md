@@ -9,6 +9,21 @@
 | Exposure | S&P GSCI futures |
 | Inception | Jul 2006 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.72 |
+| [[Energy and Utilities|Energy]] | XLE | 0.70 |
+| Technology | XLK | 0.44 |
+| *S&P 500* | *SPY* | *0.46* |
+
+GSG trades as a core Oil & Gas E&P name (XOP r = 0.72).
+
+---
+
 ## Composition
 
 Very energy-heavy: ~60% energy (WTI dominant), ~15% agriculture, ~15% industrial metals, ~10% precious metals and livestock. More energy-weighted than [[DBC]].

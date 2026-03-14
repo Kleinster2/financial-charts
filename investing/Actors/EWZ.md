@@ -14,6 +14,21 @@ iShares MSCI Brazil ETF — tracks the MSCI Brazil 25/50 Index, providing exposu
 | Inception | July 2000 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.68 |
+| [[Semiconductors]] | SMH | 0.61 |
+| Industrials | XLI | 0.60 |
+| *S&P 500* | *SPY* | *0.60* |
+
+EWZ shows moderate China Internet correlation (KWEB r = 0.68).
+
+---
+
 ## Related
 
 - [[Brazil]] — country exposure

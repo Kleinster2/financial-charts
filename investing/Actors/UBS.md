@@ -7,6 +7,19 @@ aliases: [UBS Group, UBS AG]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.66 |
+| Technology | XLK | 0.62 |
+| Financials | XLF | 0.61 |
+| *S&P 500* | *SPY* | *0.64* |
+
+UBS shows moderate Regional Banks correlation (KRE r = 0.66).
+
+---
+
 ## Why UBS matters
 
 | Metric | Value |

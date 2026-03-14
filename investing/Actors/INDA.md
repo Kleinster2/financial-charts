@@ -14,6 +14,21 @@ iShares MSCI India ETF — tracks the MSCI India Index, providing exposure to la
 | Inception | February 2012 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.64 |
+| Financials | XLF | 0.57 |
+| Communications | XLC | 0.57 |
+| *S&P 500* | *SPY* | *0.60* |
+
+INDA shows moderate Real Estate correlation (XLRE r = 0.64).
+
+---
+
 ## Related
 
 - [[India]] — country exposure

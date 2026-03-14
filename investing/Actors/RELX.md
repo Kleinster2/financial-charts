@@ -5,6 +5,24 @@ aliases: [RELX plc, LexisNexis, Elsevier, Reed Elsevier]
 
 RELX — global information analytics company. Owns LexisNexis (legal), Elsevier (scientific publishing), LexisNexis Risk Solutions (insurance/financial risk), and RX (exhibitions). £9.6B revenue, ~£70B market cap. The incumbent that AI legal startups are trying to displace — and so far, defending well.
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> RELX does not trade tightly with any sector ETF (max r = 0.45 with XLC).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.45 |
+| Software | IGV | 0.45 |
+| Financials | XLF | 0.41 |
+| *S&P 500* | *SPY* | *0.37* |
+
+RELX trades between Communications and Software without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

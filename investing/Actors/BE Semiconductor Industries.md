@@ -11,6 +11,24 @@ aliases:
 ---
 Dutch semiconductor equipment company, global leader in die attach and the frontrunner in hybrid bonding — the next-gen packaging technology for HBM4 and advanced logic. [[Applied Materials]] took a 9% stake in April 2025, signaling strategic importance.
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> BESI.AS does not trade tightly with any sector ETF (max r = 0.23 with SMH).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.23 |
+| [[Banks|Regional Banks]] | KRE | 0.23 |
+| [[Consumer]] | XLY | 0.17 |
+| *S&P 500* | *SPY* | *0.09* |
+
+BESI.AS trades between Semiconductors and Regional Banks without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

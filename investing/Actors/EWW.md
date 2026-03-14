@@ -14,6 +14,21 @@ iShares MSCI Mexico ETF — tracks the MSCI Mexico IMI 25/50 Index, providing ex
 | Inception | March 1996 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.57 |
+| Industrials | XLI | 0.56 |
+| [[Semiconductors]] | SMH | 0.55 |
+| *S&P 500* | *SPY* | *0.54* |
+
+EWW shows moderate China Internet correlation (KWEB r = 0.57).
+
+---
+
 ## Related
 
 - [[Mexico]] — country exposure

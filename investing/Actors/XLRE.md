@@ -11,6 +11,21 @@
 | Yield | 3.2% |
 | Inception | Oct 2015 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.77 |
+| Utilities | XLU | 0.72 |
+| Oil & Gas E&P | XOP | 0.68 |
+| *S&P 500* | *SPY* | *0.60* |
+
+XLRE trades as a core Consumer Staples name (XLP r = 0.77).
+
+---
+
 ## Top Holdings
 
 [[Prologis]] (~12%), [[American Tower]] (~10%), [[Equinix]] (~8%), [[Welltower]] (~6%), [[Simon Property Group]] (~5%). Mix of industrial, tower, data center, healthcare, and retail REITs.

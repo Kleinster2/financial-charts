@@ -9,6 +9,19 @@ aliases: [TJX Companies, TJ Maxx, Marshalls, HomeGoods]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.56 |
+| [[Healthcare]] | XLV | 0.49 |
+| Financials | XLF | 0.47 |
+| *S&P 500* | *SPY* | *0.38* |
+
+TJX shows moderate Consumer Staples correlation (XLP r = 0.56).
+
+---
+
 ## Overview
 
 | Metric | Value |

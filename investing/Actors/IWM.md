@@ -11,6 +11,21 @@
 | Yield | 1.2% |
 | Inception | May 2000 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.88 |
+| [[Banks|Regional Banks]] | KRE | 0.87 |
+| Financials | XLF | 0.82 |
+| *S&P 500* | *SPY* | *0.86* |
+
+IWM trades as a core Industrials name (XLI r = 0.88).
+
+---
+
 ## What It Tracks
 
 The Russell 2000 — small-cap US stocks. No single holding exceeds 0.5%. Much more diversified and domestically-focused than [[SPY]] or [[QQQ]].

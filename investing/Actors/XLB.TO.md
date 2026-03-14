@@ -10,6 +10,24 @@
 | Yield | 4.0% |
 | Inception | Nov 2006 |
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> XLB.TO does not trade tightly with any sector ETF (max r = 0.28 with XLRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.28 |
+| [[Healthcare]] | XLV | 0.25 |
+| Industrials | XLI | 0.25 |
+| *S&P 500* | *SPY* | *0.16* |
+
+XLB.TO trades between Real Estate and Healthcare without a tight sector fit.
+
+---
+
 ## Composition
 
 Fixed-rate, investment-grade Canadian bonds with at least 10 years remaining maturity. Mix of federal, provincial, and corporate issuers. Duration ~14 years. Monthly distributions.

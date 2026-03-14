@@ -7,6 +7,19 @@ aliases: []
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.56 |
+| [[Semiconductors]] | SMH | 0.50 |
+| Software | IGV | 0.50 |
+| *S&P 500* | *SPY* | *0.49* |
+
+OKLO shows moderate Technology correlation (XLK r = 0.56).
+
+---
+
 ## Why Oklo matters
 
 Sam Altman's nuclear bet:

@@ -7,6 +7,19 @@ aliases: [Mitsubishi UFJ Financial Group, MUFG Bank, Bank of Tokyo-Mitsubishi UF
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.69 |
+| Oil & Gas E&P | XOP | 0.63 |
+| Financials | XLF | 0.62 |
+| *S&P 500* | *SPY* | *0.68* |
+
+MUFG shows moderate Industrials correlation (XLI r = 0.69).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

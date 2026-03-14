@@ -11,6 +11,21 @@
 | Duration | ~7 years |
 | Inception | Dec 2007 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.71 |
+| Industrials | XLI | 0.63 |
+| Communications | XLC | 0.63 |
+| *S&P 500* | *SPY* | *0.69* |
+
+EMB trades as a core Real Estate name (XLRE r = 0.71).
+
+---
+
 ## What It Tracks
 
 USD-denominated EM government bonds. Key distinction: no local currency risk (all USD), but country/credit risk from sovereigns like Mexico, Indonesia, Saudi Arabia, Turkey, Brazil.

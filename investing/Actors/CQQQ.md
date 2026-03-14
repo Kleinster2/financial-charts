@@ -5,6 +5,21 @@ tags: [etf, china, technology]
 
 Broadest US-listed China technology ETF with 157 holdings spanning hardware, software, internet, semiconductors, and robotics. Includes both offshore (HK/US) and A-share names via Stock Connect, capped at 25% per constituent. The most diversified of the three China tech ETFs tracked here.
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.89 |
+| Technology | XLK | 0.61 |
+| [[Semiconductors]] | SMH | 0.60 |
+| *S&P 500* | *SPY* | *0.60* |
+
+CQQQ trades as a core China Internet name (KWEB r = 0.89).
+
+---
+
 ## Quick stats
 
 | Field | Value |

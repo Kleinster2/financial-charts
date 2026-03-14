@@ -18,6 +18,19 @@
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.83 |
+| [[Consumer]] | XLY | 0.77 |
+| Industrials | XLI | 0.73 |
+| *S&P 500* | *SPY* | *0.74* |
+
+KRE trades as a core Financials name (XLF r = 0.83).
+
+---
+
 ## Index Composition
 
 **S&P Regional [[Banks]] Select Industry Index** — Pure regional bank exposure, excludes large diversified banks (JPM, BAC, C, WFC).

@@ -9,6 +9,24 @@
 | Exposure | Henry Hub NG futures |
 | Inception | Apr 2007 |
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> UNG does not trade tightly with any sector ETF (max r = 0.31 with XOP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.31 |
+| [[Energy and Utilities|Energy]] | XLE | 0.30 |
+| [[Consumer Staples]] | XLP | 0.16 |
+| *S&P 500* | *SPY* | *0.14* |
+
+UNG trades between Oil & Gas E&P and Energy without a tight sector fit.
+
+---
+
 ## Caveats
 
 Natural gas futures curve is frequently in steep contango. UNG has lost ~95% of its value since inception due to persistent roll costs. Not suitable as a long-term natural gas position.

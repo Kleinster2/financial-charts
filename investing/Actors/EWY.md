@@ -14,6 +14,21 @@ iShares MSCI South Korea ETF — tracks the MSCI Korea 25/50 Index. Heavily weig
 | Inception | May 2000 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.65 |
+| Industrials | XLI | 0.60 |
+| Technology | XLK | 0.57 |
+| *S&P 500* | *SPY* | *0.55* |
+
+EWY shows moderate Semiconductors correlation (SMH r = 0.65).
+
+---
+
 ## Related
 
 - [[South Korea]] — country exposure

@@ -47,6 +47,18 @@ Airlines responded by:
 - Hiking fares with fuel surcharges to cover ballooning costs
 - Panic-buying oil derivatives to hedge against further price swings
 
+### Updated cost data (Mar 10-13)
+
+Jet fuel prices surged to $150-200/bbl (from $85-90 pre-conflict). US Gulf Coast jet fuel hit $4.12/gal — a four-year high.
+
+- Rerouting cost per flight: up to $60,000 additional on a single long-haul sector
+- Flight time added: 90-120 minutes per rerouted long-haul flight, 300-800 nautical miles added
+- [[Cathay Pacific]] announced doubling of fuel surcharges on tickets starting Mar 18
+- Industry-wide cost estimate: could exceed $1B if conflict extends
+- 1M+ passengers stranded; [[Qatar Airways]] used [[Oman|Muscat]] as relief hub, scheduling repatriation flights to LHR, CDG, MAD, FCO, FRA (Mar 7)
+
+*Source: TIME, CNBC, Al Jazeera, The National (Mar 10-13, 2026)*
+
 ### Hedging exposure
 
 Hedging practices vary widely across the global airline sector and are limited in Asia ([[Bloomberg Intelligence]]):
@@ -112,6 +124,21 @@ Beyond immediate operational disruption, sustained high oil prices threaten long
 Thousands of passengers were stranded in the early days. Social media filled with accounts of elaborate, costly journeys to reach airports in [[Saudi Arabia]] and [[Oman]] to escape the conflict zone. The Gulf carriers' hub-and-spoke model amplified the stranding effect — when flights canceled, passengers, crews, and aircraft were all out of position with no easy rerouting.
 
 [[Qatar Airways]] and [[Etihad Airways]] aircraft were spotted parked for several days at Barcelona airport, unable to fly back due to the war (photographed Mar 9).
+
+---
+
+## Airline-specific route actions (updated Mar 13)
+
+| Carrier | Routes affected | Duration |
+|---------|----------------|----------|
+| [[Air France-KLM\|KLM]] | Dubai suspended | Through Mar 28+ |
+| [[Deutsche Lufthansa\|Lufthansa Group]] | Dubai, Abu Dhabi, Dammam suspended until Mar 15. Amman, Erbil until Mar 15. Beirut until Mar 28. Tel Aviv until Apr 2. Tehran until Apr 30 | Through Apr 30 |
+| [[Cathay Pacific]] | Dubai and Riyadh suspended | Through Mar 14 |
+| [[Air India]] | Canceled Mumbai-London, Delhi-Birmingham, Delhi-Amsterdam, Delhi-Zurich, Delhi-Milan, Delhi-Vienna, Delhi-Copenhagen, Bengaluru-London, Delhi-London, Delhi-Frankfurt. ~750 international flights cut over two days | Ongoing |
+| [[Qantas]] | Perth-London rerouted via Singapore for refueling | Ongoing |
+| [[British Airways]] | Tel Aviv, Bahrain canceled. Dubai, Doha, Abu Dhabi, Amman suspended. Repatriation flights from Muscat (Mar 5-7) | Ongoing |
+
+*Source: TIME, CNBC, Al Jazeera, The National (Mar 10-13, 2026)*
 
 ---
 

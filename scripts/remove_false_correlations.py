@@ -6,24 +6,26 @@ from pathlib import Path
 
 ACTORS_DIR = Path(__file__).parent.parent / 'investing' / 'Actors'
 
-# Notes where alias collided with wrong ticker
+# Notes where alias or filename collided with wrong ticker
 FALSE_MATCHES = [
-    'Air India',
-    'Balyasny',
-    'British Airways',
-    'China Media Group',
-    'Maison Margiela',
-    'Midjourney',
-    'Moelis',
-    'Neuberger Berman',
-    'New Balance',
-    'Oman Air',
-    'Sapir Organization',
-    'Supermercados Dia',
-    'Tenneco',
-    'Vonage',
-    'Suzhou TFC Optical Communication',
-    'Nu Holdings',  # already had correct section as Nubank
+    'Air India',        # AI → C3.ai
+    'Balyasny',         # BAM → Brookfield
+    'British Airways',  # BA → Boeing
+    'China Media Group', # CMG → Chipotle
+    'Maison Margiela',  # MMM → 3M
+    'Midjourney',       # MJ → ETF
+    'Moelis',           # MC → LVMH
+    'Neuberger Berman', # NB → wrong ticker
+    'New Balance',      # NB → wrong ticker
+    'Oman Air',         # WY → Weyerhaeuser
+    'Sapir Organization', # SPIR → Spire Global
+    'Supermercados Dia', # DIA → SPDR Dow Jones ETF
+    'Tenneco',          # DRIV → Global X ETF
+    'Vonage',           # VG → wrong ticker
+    'Suzhou TFC Optical Communication', # TFC → Truist
+    'Nu Holdings',      # duplicate of Nubank.md which has the correct section
+    'Kellogg',          # K → Kellanova (renamed)
+    'Ramp',             # RAMP → LiveRamp (different company)
 ]
 
 

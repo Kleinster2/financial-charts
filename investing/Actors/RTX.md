@@ -7,6 +7,19 @@ aliases: [[[Raytheon]], RTX Corp, RTX Corporation]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.80 |
+| Industrials | XLI | 0.65 |
+| Financials | XLF | 0.49 |
+| *S&P 500* | *SPY* | *0.54* |
+
+RTX trades as a core Defense name (ITA r = 0.80).
+
+---
+
 ## Trump defense policy (Jan 2026)
 
 ### Budget ($1.5T) — Jan 7

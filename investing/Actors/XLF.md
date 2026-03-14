@@ -13,6 +13,21 @@
 | Yield | 1.3% |
 | Inception | Dec 1998 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.83 |
+| Industrials | XLI | 0.82 |
+| Communications | XLC | 0.79 |
+| *S&P 500* | *SPY* | *0.85* |
+
+XLF trades as a core Regional Banks name (KRE r = 0.83).
+
+---
+
 ## Composition
 
 Banks, insurance, capital markets, consumer finance, mortgage REITs. Mix of:

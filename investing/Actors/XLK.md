@@ -11,6 +11,21 @@
 | Yield | 0.6% |
 | Inception | Dec 1998 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.95 |
+| Software | IGV | 0.86 |
+| Industrials | XLI | 0.80 |
+| *S&P 500* | *SPY* | *0.94* |
+
+XLK trades as a core Semiconductors name (SMH r = 0.95).
+
+---
+
 ## Top Holdings
 
 | Company | Weight |

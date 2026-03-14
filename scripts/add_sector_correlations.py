@@ -90,36 +90,43 @@ def calculate_all_correlations(returns_df, stock_tickers):
 
 
 def parse_aliases(filepath):
-    """Extract aliases list and full text from a note."""
+    """Extract aliases list (plus ticker: field) and full text from a note."""
     text = filepath.read_text(encoding='utf-8')
     m = re.match(r'^---\n(.*?)\n---', text, re.DOTALL)
     if not m:
         return [], text
 
     fm_text = m.group(1)
+    aliases = []
 
     # Inline list: aliases: [A, B, C]
     inline = re.search(r'aliases:\s*\[([^\]]*)\]', fm_text)
     if inline:
         aliases = [a.strip().strip('"').strip("'") for a in inline.group(1).split(',')]
-        return [a for a in aliases if a], text
+        aliases = [a for a in aliases if a]
+    else:
+        # Multi-line list
+        multi = re.search(r'aliases:\s*\n((?:\s+-\s+.+\n?)+)', fm_text)
+        if multi:
+            aliases = [a.strip().strip('"').strip("'") for a in re.findall(r'-\s+(.+)', multi.group(0))]
+        else:
+            # Single value: aliases: A
+            single = re.search(r'aliases:\s+(\S+)', fm_text)
+            if single:
+                aliases = [single.group(1).strip('"').strip("'")]
 
-    # Multi-line list
-    multi = re.search(r'aliases:\s*\n((?:\s+-\s+.+\n?)+)', fm_text)
-    if multi:
-        aliases = re.findall(r'-\s+(.+)', multi.group(0))
-        return [a.strip().strip('"').strip("'") for a in aliases], text
+    # Also check ticker: field in frontmatter
+    ticker_match = re.search(r'^ticker:\s*(\S+)', fm_text, re.MULTILINE)
+    if ticker_match:
+        ticker_val = ticker_match.group(1).strip()
+        if ticker_val not in aliases:
+            aliases.insert(0, ticker_val)
 
-    # Single value: aliases: A
-    single = re.search(r'aliases:\s+(\S+)', fm_text)
-    if single:
-        return [single.group(1).strip('"').strip("'")], text
-
-    return [], text
+    return aliases, text
 
 
-def extract_ticker(aliases, db_tickers):
-    """Find a DB-matching ticker from aliases."""
+def extract_ticker(aliases, db_tickers, filename_stem=None):
+    """Find a DB-matching ticker from aliases, then filename as fallback."""
     for alias in aliases:
         clean = alias.strip()
         if clean in db_tickers:
@@ -131,15 +138,19 @@ def extract_ticker(aliases, db_tickers):
         alt = clean.replace('.', '-')
         if alt in db_tickers:
             return alt
+    # Fallback: try filename stem (e.g., SPY.md → SPY)
+    if filename_stem:
+        if filename_stem in db_tickers:
+            return filename_stem
+        up = filename_stem.upper()
+        if up in db_tickers:
+            return up
     return None
 
 
 def should_skip(text):
     """Check if note should be skipped (ETFs, funds, people, countries, etc.)."""
     tags_area = text[:500]
-    # Skip ETFs and funds — need benchmark comparison, not sector correlation
-    if re.search(r'#(etf|fund|index)\b', tags_area):
-        return True
     # Skip non-company entities
     skip_tags = (
         r'person|analyst|investor|country|institution|central.?bank|regulator|'
@@ -157,7 +168,7 @@ def should_skip(text):
             yaml_tags = [t.strip() for t in tags_line.group(1).split(',')]
             skip_set = {'person', 'analyst', 'investor', 'country', 'institution',
                         'university', 'nonprofit', 'consortium', 'ngo', 'government',
-                        'military', 'etf', 'fund', 'index', 'politician', 'journalist',
+                        'military', 'politician', 'journalist',
                         'academic', 'lobbyist'}
             if skip_set & set(yaml_tags):
                 return True
@@ -300,7 +311,7 @@ def main():
         ticker_upper = args.ticker.upper()
         for f in ACTORS_DIR.glob('*.md'):
             aliases, text = parse_aliases(f)
-            t = extract_ticker(aliases, db_tickers)
+            t = extract_ticker(aliases, db_tickers, f.stem)
             if t and t.upper() == ticker_upper:
                 if has_correlation_section(text):
                     print(f"Already has section: {f.name}")
@@ -322,7 +333,7 @@ def main():
                 skipped_has_section += 1
                 continue
 
-            ticker = extract_ticker(aliases, db_tickers)
+            ticker = extract_ticker(aliases, db_tickers, f.stem)
             if not ticker:
                 skipped_no_db.append(f.stem)
                 continue

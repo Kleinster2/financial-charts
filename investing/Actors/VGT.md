@@ -11,6 +11,21 @@ Vanguard Information Technology ETF — tracks the MSCI US IMI/Information Techn
 | Yield | 0.4% |
 | Inception | Jan 2004 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 1.00 |
+| [[Semiconductors]] | SMH | 0.94 |
+| Software | IGV | 0.87 |
+| *S&P 500* | *SPY* | *0.94* |
+
+VGT trades as a core Technology name (XLK r = 1.00).
+
+---
+
 ## Top Holdings
 
 | Company | Weight |

@@ -33,6 +33,7 @@ The structural advantage: traditional CPG brands spend 15-25% of revenue on mark
 | [[Rhode]] | [[Hailey Bieber]] | Skincare | $212M (TTM Mar 2025) | **$1B** (acquired by [[e.l.f. Beauty]], May 2025) | Acquired |
 | [[Kylie Cosmetics]] | [[Kylie Jenner]] | Beauty | ~$200M (est.) | **$1.2B** (51% sold to [[Coty]] for $600M, 2020) | Subsidiary of Coty |
 | [[Chamberlain Coffee]] | [[Emma Chamberlain]] | Coffee | ~$50M (est.) | Unknown | Private |
+| [[David]] | [[Peter Rahal]] | Protein bars | $140-180M (2025E) | **$725M** (May 2025 Series A) | Private, DTC + 3,000 retail doors |
 | [[Honest Company]] | [[Jessica Alba]] | Baby/household | $346M (2023) | **$200M** (mkt cap, ~$6/share) | Public (HNST), IPO'd 2021 at $1.4B |
 
 ---

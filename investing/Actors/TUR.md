@@ -14,6 +14,24 @@ iShares MSCI Turkey ETF — tracks the MSCI Turkey IMI 25/50 Index, providing ex
 | Inception | March 2008 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> TUR does not trade tightly with any sector ETF (max r = 0.26 with SMH).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.26 |
+| Technology | XLK | 0.23 |
+| China Internet | KWEB | 0.23 |
+| *S&P 500* | *SPY* | *0.22* |
+
+TUR trades between Semiconductors and Technology without a tight sector fit.
+
+---
+
 ## Related
 
 - [[Turkey]] — country exposure

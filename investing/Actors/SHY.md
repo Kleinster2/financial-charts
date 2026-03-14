@@ -10,6 +10,21 @@
 | Yield | 4.3% |
 | Inception | Jul 2002 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.53 |
+| [[Consumer Staples]] | XLP | 0.52 |
+| Utilities | XLU | 0.41 |
+| *S&P 500* | *SPY* | *0.04* |
+
+SHY shows moderate Real Estate correlation (XLRE r = 0.53).
+
+---
+
 ## Use Case
 
 Short-term rate proxy. SHY tracks near the fed funds rate with a slight lag. In the dashboard yield curve, SHY sits between [[BIL]] (cash) and [[IEI]] (intermediate). SHY vs [[TLT]] spread = yield curve slope.

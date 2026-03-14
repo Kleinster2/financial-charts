@@ -17,6 +17,22 @@ aliases: [CACI International]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CACI does not trade tightly with any sector ETF (max r = 0.31 with ITA).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.31 |
+| Industrials | XLI | 0.27 |
+| Software | IGV | 0.27 |
+| *S&P 500* | *SPY* | *0.24* |
+
+CACI trades between Defense and Industrials without a tight sector fit.
+
+---
+
 ## Business focus
 
 | Domain | Capabilities |

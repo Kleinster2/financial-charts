@@ -7,6 +7,19 @@ aliases: [General Motors]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.54 |
+| Industrials | XLI | 0.53 |
+| [[Banks|Regional Banks]] | KRE | 0.51 |
+| *S&P 500* | *SPY* | *0.49* |
+
+GM shows moderate Consumer correlation (XLY r = 0.54).
+
+---
+
 ## Jan 27, 2026: Strong guidance lifts stock
 
 **Stock +9%** — hit new 52-week high at $87.14 after Q4 earnings beat and raised 2026 outlook.

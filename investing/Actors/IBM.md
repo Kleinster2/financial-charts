@@ -7,6 +7,19 @@ aliases: [International Business Machines]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.62 |
+| Communications | XLC | 0.55 |
+| [[Banks|Regional Banks]] | KRE | 0.51 |
+| *S&P 500* | *SPY* | *0.53* |
+
+IBM shows moderate Financials correlation (XLF r = 0.62).
+
+---
+
 ## Why IBM matters
 
 ![[ibm-vs-peers.png]]

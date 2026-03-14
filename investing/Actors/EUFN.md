@@ -12,6 +12,21 @@
 | Inception | Jan 2010 |
 | Holdings | ~80 stocks |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.83 |
+| Financials | XLF | 0.82 |
+| [[Defense]] | ITA | 0.80 |
+| *S&P 500* | *SPY* | *0.84* |
+
+EUFN trades as a core Industrials name (XLI r = 0.83).
+
+---
+
 ## Top 10 Holdings
 
 | Company | Weight |

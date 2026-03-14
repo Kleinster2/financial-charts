@@ -10,6 +10,20 @@
 | Yield | 1.2% |
 | Inception | Jan 1993 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.94 |
+| Industrials | XLI | 0.90 |
+| [[Consumer]] | XLY | 0.89 |
+
+SPY trades as a core Technology name (XLK r = 0.94).
+
+---
+
 ## What It Tracks
 
 The [[S&P 500]] — 500 largest US public companies by market cap. Cap-weighted, so mega-caps dominate. Top 10 holdings are ~35% of the fund.

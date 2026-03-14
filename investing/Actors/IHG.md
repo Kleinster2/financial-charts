@@ -7,6 +7,19 @@ aliases: [InterContinental Hotels Group, InterContinental]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.76 |
+| Technology | XLK | 0.71 |
+| [[Banks|Regional Banks]] | KRE | 0.71 |
+| *S&P 500* | *SPY* | *0.74* |
+
+IHG trades as a core Consumer name (XLY r = 0.76).
+
+---
+
 
 ![[ihg-employees-chart.png]]
 *Headcount: 7,387 (2024) — up 1.3% YoY*

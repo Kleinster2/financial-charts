@@ -9,6 +9,21 @@
 | Exposure | 14 commodity futures |
 | Inception | Feb 2006 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.71 |
+| [[Energy and Utilities|Energy]] | XLE | 0.70 |
+| Technology | XLK | 0.44 |
+| *S&P 500* | *SPY* | *0.45* |
+
+DBC trades as a core Oil & Gas E&P name (XOP r = 0.71).
+
+---
+
 ## Composition
 
 Energy-heavy: ~55% energy (WTI, Brent, heating oil, natural gas, gasoline), ~25% metals (gold, silver, aluminum, zinc), ~20% agriculture (corn, wheat, soybeans, sugar).

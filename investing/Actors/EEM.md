@@ -11,6 +11,21 @@
 | Yield | 2.5% |
 | Inception | Apr 2003 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.71 |
+| Industrials | XLI | 0.67 |
+| [[Real estate|Real Estate]] | XLRE | 0.67 |
+| *S&P 500* | *SPY* | *0.71* |
+
+EEM trades as a core Semiconductors name (SMH r = 0.71).
+
+---
+
 ## Composition
 
 China-heavy (~27%), followed by [[India]] (~20%), [[Taiwan]] (~17%), [[South Korea]] (~12%), [[Brazil]] (~5%). Top holdings include [[TSMC]], [[Samsung]], [[Tencent]], [[Alibaba]].

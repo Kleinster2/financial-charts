@@ -11,6 +11,21 @@
 | Duration | ~3.5 years |
 | Inception | Apr 2007 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.79 |
+| [[Banks|Regional Banks]] | KRE | 0.77 |
+| Oil & Gas E&P | XOP | 0.73 |
+| *S&P 500* | *SPY* | *0.76* |
+
+HYG trades as a core Real Estate name (XLRE r = 0.79).
+
+---
+
 ## What It Tracks
 
 Below-investment-grade US corporate bonds (BB and below). Credit spread proxy — HYG vs [[LQD]] spread measures the market's pricing of default risk.

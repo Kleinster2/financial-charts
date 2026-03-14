@@ -5,6 +5,21 @@ tags: [etf, china, internet]
 
 Largest US-listed China equity ETF ($7.5B AUM, Feb 2026). Tracks the CSI Overseas China Internet Index — offshore-listed Chinese internet and e-commerce companies. Concentrated portfolio of 34 holdings, heavily weighted toward the mega-cap platform companies.
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.58 |
+| [[Semiconductors]] | SMH | 0.57 |
+| Communications | XLC | 0.55 |
+| *S&P 500* | *SPY* | *0.59* |
+
+KWEB shows moderate Technology correlation (XLK r = 0.58).
+
+---
+
 ## Quick stats
 
 | Field | Value |

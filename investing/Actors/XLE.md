@@ -11,6 +11,21 @@
 | Yield | 3.2% |
 | Inception | Dec 1998 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.97 |
+| [[Banks|Regional Banks]] | KRE | 0.68 |
+| Industrials | XLI | 0.64 |
+| *S&P 500* | *SPY* | *0.64* |
+
+XLE trades as a core Oil & Gas E&P name (XOP r = 0.97).
+
+---
+
 ## Top Holdings
 
 [[ExxonMobil]] (~23%) and [[Chevron]] (~16%) dominate — nearly 40% combined. Rest includes [[ConocoPhillips]], [[Schlumberger]], [[EOG Resources]], [[Marathon Petroleum]].

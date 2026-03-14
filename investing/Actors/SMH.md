@@ -13,6 +13,21 @@
 | Beta | 1.70 |
 | Inception | Dec 2011 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.95 |
+| Industrials | XLI | 0.78 |
+| [[Consumer]] | XLY | 0.74 |
+| *S&P 500* | *SPY* | *0.88* |
+
+SMH trades as a core Technology name (XLK r = 0.95).
+
+---
+
 ## Top 10 Holdings
 
 | Company | Weight |

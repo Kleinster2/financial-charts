@@ -14,6 +14,21 @@ iShares MSCI Poland ETF — tracks the MSCI Poland IMI 25/50 Index, providing ex
 | Inception | May 2010 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.75 |
+| [[Consumer]] | XLY | 0.74 |
+| [[Semiconductors]] | SMH | 0.74 |
+| *S&P 500* | *SPY* | *0.80* |
+
+EPOL trades as a core Industrials name (XLI r = 0.75).
+
+---
+
 ## Related
 
 - [[Poland]] — country exposure

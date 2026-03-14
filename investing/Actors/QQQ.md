@@ -14,6 +14,21 @@
 | Yield | 0.45% |
 | Inception | Mar 1999 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.98 |
+| [[Semiconductors]] | SMH | 0.93 |
+| [[Consumer]] | XLY | 0.87 |
+| *S&P 500* | *SPY* | *0.97* |
+
+QQQ trades as a core Technology name (XLK r = 0.98).
+
+---
+
 ## Top 10 Holdings
 
 | Company | Weight |

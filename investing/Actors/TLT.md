@@ -10,6 +10,24 @@
 | Yield | 4.5% |
 | Inception | Jul 2002 |
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> TLT does not trade tightly with any sector ETF (max r = 0.39 with XLRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.39 |
+| Utilities | XLU | 0.28 |
+| [[Consumer Staples]] | XLP | 0.25 |
+| *S&P 500* | *SPY* | *0.11* |
+
+TLT trades between Real Estate and Utilities without a tight sector fit.
+
+---
+
 ## What It Tracks
 
 US Treasury bonds with 20+ years to maturity. Pure interest rate bet — no credit risk, just duration. Moves ~16% for every 1% move in long-term yields (inverse).

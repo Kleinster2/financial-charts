@@ -11,6 +11,21 @@
 | Yield | 2.5% |
 | Inception | Dec 1998 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.77 |
+| Utilities | XLU | 0.65 |
+| [[Healthcare]] | XLV | 0.54 |
+| *S&P 500* | *SPY* | *0.39* |
+
+XLP trades as a core Real Estate name (XLRE r = 0.77).
+
+---
+
 ## Top Holdings
 
 [[Procter & Gamble]] (~15%), [[Costco]] (~14%), [[Walmart]] (~10%), [[Coca-Cola]] (~9%), [[PepsiCo]] (~8%). Companies selling things people buy regardless of the economy.

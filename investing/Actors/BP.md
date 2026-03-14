@@ -7,6 +7,19 @@ aliases: [British Petroleum]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.83 |
+| [[Energy and Utilities|Energy]] | XLE | 0.80 |
+| [[Banks|Regional Banks]] | KRE | 0.52 |
+| *S&P 500* | *SPY* | *0.48* |
+
+BP trades as a core Oil & Gas E&P name (XOP r = 0.83).
+
+---
+
 ## Why BP matters
 
 | Metric | Value |

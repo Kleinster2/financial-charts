@@ -10,6 +10,24 @@
 | Yield | 4.3% |
 | Inception | Dec 2006 |
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> IGLT.L does not trade tightly with any sector ETF (max r = 0.24 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.24 |
+| Industrials | XLI | 0.20 |
+| [[Healthcare]] | XLV | 0.18 |
+| *S&P 500* | *SPY* | *0.10* |
+
+IGLT.L trades between China Internet and Industrials without a tight sector fit.
+
+---
+
 ## Composition
 
 Sterling-denominated UK government bonds (gilts) across all maturities, excluding index-linked bonds. Uses sampling replication. Semi-annual distributions.

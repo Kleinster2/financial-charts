@@ -14,6 +14,21 @@ iShares MSCI Israel ETF — tracks the MSCI Israel Capped Investable Market Inde
 | Inception | March 2008 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.76 |
+| [[Consumer]] | XLY | 0.76 |
+| Technology | XLK | 0.74 |
+| *S&P 500* | *SPY* | *0.78* |
+
+EIS trades as a core Industrials name (XLI r = 0.76).
+
+---
+
 ## Related
 
 - [[Israel]] — country exposure

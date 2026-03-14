@@ -9,6 +9,22 @@ ticker: 7779.T
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> 7779.T does not trade tightly with any sector ETF (max r = 0.26 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.26 |
+| China Internet | KWEB | 0.14 |
+| [[Real estate|Real Estate]] | XLRE | 0.13 |
+| *S&P 500* | *SPY* | *0.04* |
+
+7779.T trades between Healthcare and China Internet without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

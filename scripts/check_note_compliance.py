@@ -115,8 +115,8 @@ class NoteChecker:
             issues.extend(self._check_product_chart(content, filepath))
             issues.extend(self._check_chart_captions(content, filepath))
 
-        # Sector correlation (public companies only, not ETFs/products)
-        if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+        # Sector correlation (public companies and ETFs, not people/geographies/products)
+        if (is_public or is_etf) and not is_person and not is_geography and not is_product:
             issues.extend(self._check_sector_correlation(content, filepath))
 
         # Fundamentals chart (public companies only, not ETFs/products)

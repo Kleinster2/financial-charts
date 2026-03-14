@@ -23,7 +23,7 @@ The key risks are the E175-E2 scope clause freeze (blocking the large US regiona
 |--------|-------|
 | Ticker | EMBJ (NYSE ADR, formerly ERJ) / EMBR3 ([[B3]]) |
 | Market cap | ~$10B (Mar 2026) |
-| Share price | ~$56 (52-week range: $38.78-$80.75) |
+| Share price | ~$56 (52-week range: $38.78-$80.75, -22% from Mar 2 peak) |
 | Revenue (FY2025) | $7,578M |
 | Adj. EBITDA (FY2025) | $922M (12.1% margin) |
 | Adj. EBIT (FY2025) | $708M (8.7% margin) |
@@ -269,7 +269,8 @@ Bear:
 
 ## Analyst timeline
 
-- Mar 6, 2026: FY2025 results — revenue $7.58B (+18%), adj. EBIT $708M (8.7%), adj. FCF $491M. Backlog $31.6B. 2026 guidance: $8.2-8.5B revenue, 8.7-9.3% EBIT margin. Stock -6.2% on results (sell-the-news).
+- Mar 12, 2026: Stock -13% in single session ($65 → $57) as Brazilian market sells off — Bovespa -2.55% on industrials weakness, EMBJ hit 5x harder as high-beta ADR. Broader EM risk-off from Iran conflict (oil higher, rates up). Cumulative drawdown from Mar 2 peak: $72 → $56 (-22%).
+- Mar 6, 2026: FY2025 results — revenue $7.58B (+18%), adj. EBIT $708M (8.7%), adj. FCF $491M. Backlog $31.6B. 2026 guidance: $8.2-8.5B revenue, 8.7-9.3% EBIT margin. Stock -6.2% on results (sell-the-news). Market wanted beat-and-raise; FCF guide ($200M+) implied 58% step-down from $491M.
 - Feb 2026: [[Northrop Grumman]] MOU for KC-390 tanker variant with autonomous boom. [[Uzbekistan]] revealed as C-390 customer.
 - Dec 2025: [[Eve Air Mobility]] full-scale prototype first hover flight.
 - Nov 2025: Turboprop program cancelled. [[Sweden]] orders 4 C-390 + 7 options.

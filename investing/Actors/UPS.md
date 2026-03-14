@@ -7,6 +7,19 @@ aliases: [United Parcel Service]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.61 |
+| [[Banks|Regional Banks]] | KRE | 0.61 |
+| [[Consumer]] | XLY | 0.57 |
+| *S&P 500* | *SPY* | *0.54* |
+
+UPS shows moderate Industrials correlation (XLI r = 0.61).
+
+---
+
 ## Why UPS matters
 
 | Metric | Value |

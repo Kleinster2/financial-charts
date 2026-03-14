@@ -17,6 +17,19 @@
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 1.00 |
+| Financials | XLF | 0.86 |
+| [[Consumer]] | XLY | 0.78 |
+| *S&P 500* | *SPY* | *0.76* |
+
+KBE trades as a core Regional Banks name (KRE r = 1.00).
+
+---
+
 ## Index Composition
 
 **S&P [[Banks]] Select Industry Index** covers:

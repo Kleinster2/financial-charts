@@ -11,6 +11,21 @@
 | Yield | 3.0% |
 | Inception | Aug 2001 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.78 |
+| Industrials | XLI | 0.69 |
+| Oil & Gas E&P | XOP | 0.67 |
+| *S&P 500* | *SPY* | *0.70* |
+
+EFA trades as a core Real Estate name (XLRE r = 0.78).
+
+---
+
 ## Composition
 
 [[Japan]] (~22%), [[UK]] (~14%), [[France]] (~11%), [[Switzerland]] (~9%), [[Germany]] (~8%), [[Australia]] (~6%). Top holdings include [[Novo Nordisk]], [[ASML]], [[Nestlé]], [[SAP]], [[Toyota]].

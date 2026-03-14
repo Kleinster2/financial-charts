@@ -18,6 +18,19 @@ The March 2026 correlation breakdown — bonds and stocks falling together on st
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.73 |
+| [[Defense]] | ITA | 0.71 |
+| [[Real estate|Real Estate]] | XLRE | 0.70 |
+| *S&P 500* | *SPY* | *0.74* |
+
+ALLW trades as a core Industrials name (XLI r = 0.73).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

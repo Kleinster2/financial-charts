@@ -5,7 +5,7 @@ aliases: [ULTA, Ulta]
 
 # Ulta Beauty
 
-**Largest US beauty retailer** — unique mass + prestige model under one roof. ~$12.3B revenue (FY25E), 1,473 stores, 44M+ loyalty members. Lost market share for the first time in FY24, but "Ulta Unleashed" turnaround under CEO Kecia Steelman showing results: Q3 FY25 comps +6.3%, raised guidance twice. Acquired [[Space]] NK ([[UK]], 83 stores). Expanding to [[Mexico]], Middle East.
+**Largest US beauty retailer** — unique mass + prestige model under one roof. $12.4B revenue (FY25, +9.7%), 1,473 stores, 44M+ loyalty members. Lost market share for the first time in FY24, but "Ulta Unleashed" turnaround under CEO Kecia Steelman delivered: FY25 comps swung from -1.2% to positive, Q4 revenue $3.90B (+11.8%) beat consensus. FY26 guidance of +6-7% revenue disappointed the Street — stock fell 10.3% on Mar 13, 2026. Acquired [[Space]] NK ([[UK]], 83 stores). Expanding to [[Mexico]], Middle East.
 
 ---
 
@@ -31,9 +31,9 @@ ULTA trades between Communications and Consumer without a tight sector fit.
 |--------|-------|
 | Ticker | ULTA ([[Nasdaq]]) |
 | Market cap | ~$20B |
-| Revenue (FY25E, ending Jan 2026) | ~$12.3B |
+| Revenue (FY25, ended Jan 2026) | $12.4B (+9.7%) |
 | Revenue (FY24, ended Feb 2025) | $11.3B (+0.8%) |
-| EPS (FY25E) | $25.20-25.50 |
+| EPS (FY25) | $25.64 (+1.2%) |
 | Stores | 1,473 (US) + 83 ([[Space]] NK, [[UK]]/Ireland) |
 | CEO | Kecia Steelman (from 2024) |
 | Loyalty members | 44M+ |
@@ -42,16 +42,33 @@ ULTA trades between Communications and Consumer without a tight sector fit.
 
 ## Financial performance
 
-| Metric | FY22 | FY23 | FY24 |
-|--------|------|------|------|
-| Revenue ($B) | 10.2 | 11.2 | 11.3 |
-| Revenue growth | +18% | +10% | +0.8% |
-| Comp sales | +15.6% | +5.7% | -1.2% |
+| Metric | FY22 | FY23 | FY24 | FY25 |
+|--------|------|------|------|------|
+| Revenue ($B) | 10.2 | 11.2 | 11.3 | 12.4 |
+| Revenue growth | +18% | +10% | +0.8% | +9.7% |
+| Comp sales | +15.6% | +5.7% | -1.2% | positive |
+| EPS | — | — | — | $25.64 |
 
-### FY25 (in progress):
-- Q3: Revenue $2.9B (+12.9%), comps +6.3%
-- 9-month: Revenue $8.5B (+8.8%), EPS $17.65 (+4.3%)
-- Full-year guidance raised to ~$12.3B, EPS $25.20-25.50
+### Q4 FY2025 (ended Jan 31, 2026, reported Mar 12)
+
+| Metric | Q4 FY25 |
+|--------|---------|
+| Revenue | $3.90B (+11.8% YoY, beat $3.80B consensus) |
+| EPS | $8.01 (slight miss vs $8.03 consensus) |
+| Comp sales | +5.8% (4.2% avg ticket + 1.6% transactions) |
+
+Revenue beat driven by strong comp sales across categories. EPS narrowly missed on margin pressure.
+
+### FY2026 guidance
+
+| Metric | FY26 guide |
+|--------|------------|
+| Revenue growth | +6-7% |
+| Comp sales | +2.5-3.5% |
+| EPS | $28.05-28.55 |
+| Capex | $400-450M |
+
+Stock fell -10.30% on Mar 13 after earnings: revenue beat but guidance disappointed — the Street wanted more from a turnaround quarter. Comp deceleration from +5.8% in Q4 to a guided +2.5-3.5% for FY26 signaled the turnaround's fastest phase may be over.
 
 ---
 

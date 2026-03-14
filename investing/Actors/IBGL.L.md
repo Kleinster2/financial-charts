@@ -10,6 +10,24 @@
 | Yield | 3.4% |
 | Inception | Dec 2006 |
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> IBGL.L does not trade tightly with any sector ETF (max r = 0.31 with ITA).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.31 |
+| [[Healthcare]] | XLV | 0.29 |
+| Utilities | XLU | 0.28 |
+| *S&P 500* | *SPY* | *0.13* |
+
+IBGL.L trades between Defense and Healthcare without a tight sector fit.
+
+---
+
 ## Composition
 
 Euro-denominated investment-grade government bonds with 15-30 year maturities. Top sovereign exposures: France, Germany, Italy, Spain. Effective duration ~16.8 years — highly rate-sensitive.

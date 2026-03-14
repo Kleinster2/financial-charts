@@ -7,6 +7,22 @@ aliases: [Iris Energy]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> IREN does not trade tightly with any sector ETF (max r = 0.47 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.47 |
+| [[Banks|Regional Banks]] | KRE | 0.46 |
+| [[Semiconductors]] | SMH | 0.44 |
+| *S&P 500* | *SPY* | *0.41* |
+
+IREN trades between Technology and Regional Banks without a tight sector fit.
+
+---
+
 ## Why IREN matters
 
 Best-performing crypto-to-AI pivot:

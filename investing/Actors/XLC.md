@@ -7,6 +7,19 @@ aliases: [Communication Services Select Sector SPDR]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.82 |
+| Financials | XLF | 0.79 |
+| Industrials | XLI | 0.78 |
+| *S&P 500* | *SPY* | *0.88* |
+
+XLC trades as a core Consumer name (XLY r = 0.82).
+
+---
+
 ## Why XLC matters
 
 | Metric | Value |

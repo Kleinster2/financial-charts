@@ -10,6 +10,24 @@
 | Yield | 1.7% |
 | Inception | Nov 2014 |
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CBON does not trade tightly with any sector ETF (max r = 0.47 with ITA).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.47 |
+| Technology | XLK | 0.28 |
+| Utilities | XLU | 0.28 |
+| *S&P 500* | *SPY* | *0.29* |
+
+CBON trades between Defense and Technology without a tight sector fit.
+
+---
+
 ## Composition
 
 Fixed-rate, RMB-denominated bonds issued by Chinese government, policy banks, and quasi-governmental entities with 0-10 year maturities. Top holdings include China Cinda Asset Management, Central Huijin Investment, State Power Investment Corp. Monthly distributions. Very small AUM ($18M) — niche and thinly traded.

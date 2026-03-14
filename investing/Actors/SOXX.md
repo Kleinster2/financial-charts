@@ -13,6 +13,21 @@
 | Beta | 1.74 |
 | Inception | Jul 2001 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.99 |
+| Technology | XLK | 0.94 |
+| Industrials | XLI | 0.84 |
+| *S&P 500* | *SPY* | *0.89* |
+
+SOXX trades as a core Semiconductors name (SMH r = 0.99).
+
+---
+
 ## Top 10 Holdings
 
 | Company | Weight |

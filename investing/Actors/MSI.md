@@ -7,6 +7,22 @@ aliases: [Micro-Star International, Micro-Star]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> MSI does not trade tightly with any sector ETF (max r = 0.49 with ITA).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.49 |
+| [[Consumer Staples]] | XLP | 0.48 |
+| Utilities | XLU | 0.47 |
+| *S&P 500* | *SPY* | *0.39* |
+
+MSI trades between Defense and Consumer Staples without a tight sector fit.
+
+---
+
 ## Why MSI matters
 
 | Metric | Value |

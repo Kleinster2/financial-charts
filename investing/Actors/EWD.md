@@ -14,6 +14,21 @@ iShares MSCI Sweden ETF — tracks the MSCI Sweden 25/50 Index, providing exposu
 | Inception | March 1996 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.83 |
+| [[Defense]] | ITA | 0.79 |
+| Communications | XLC | 0.77 |
+| *S&P 500* | *SPY* | *0.81* |
+
+EWD trades as a core Industrials name (XLI r = 0.83).
+
+---
+
 ## Related
 
 - [[Sweden]] — country exposure

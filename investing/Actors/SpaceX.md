@@ -94,6 +94,29 @@ Under current rules, newly listed companies wait up to a year for major index in
 
 [[Dual-class shares]] structure (Feb 13, 2026): Bloomberg reports SpaceX weighing a formal dual-class share structure for the IPO. Musk already holds ~42% equity with ~79% voting control — a dual-class IPO would formalize this for public markets, ensuring he retains control post-dilution from the $25-50B raise. Follows the [[Google]]/[[Meta]]/[[Snap]] playbook. Key institutional concern: "key-man risk" amplified when that key man can't be checked by shareholders. S&P reversed its dual-class ban in April 2023, so index inclusion no longer blocked — but governance-focused investors may still push for sunset provisions.
 
+### S&P 500 seasoning rule review (Mar 3, 2026)
+
+[[S&P Dow Jones Indices]] (subsidiary of [[S&P Global]]) published a blog post titled "Seasoning to Taste" (Mar 3, 2026) signaling they are considering changing the 12-month "seasoning" requirement — the rule that a company must be publicly listed for at least 12 months before [[S&P 500]] inclusion. No decision yet; formal consultation would take several weeks.
+
+This is the primary structural barrier for SpaceX on the S&P side — separate from the [[Nasdaq 100]] fast-track covered above. If the seasoning rule is removed or shortened, SpaceX could join the S&P 500 within days or weeks of IPO rather than waiting 12+ months.
+
+Current S&P 500 inclusion requirements:
+
+| Requirement | Threshold |
+|-------------|-----------|
+| Domicile | US |
+| Market cap | $22.7B minimum |
+| Public listing | 12-month seasoning (under review) |
+| Public float | 50% minimum |
+| Earnings | Positive trailing four quarters |
+| Final decision | Committee discretion |
+
+~$24T in assets is benchmarked to the S&P 500. Index funds tracking it must buy newly added stocks. Immediate inclusion at SpaceX's $1-1.75T target valuation would trigger massive passive buying flows — a structural demand event that dwarfs any active investor allocation.
+
+Scale context: if the 10 largest venture-backed US companies all listed and joined the S&P 500, they would make up ~4.5% of the index — more than the entire energy sector.
+
+*Source: Bloomberg, Seeking Alpha, Benzinga, S&P Indexology Blog (Mar 3-12, 2026)*
+
 Purpose: Fund space-based data centers and AI infrastructure. Not just a rocket bet — framed as AI infrastructure play.
 
 Bull case: Ark Invest sees $2.5T+ by 2030 if [[Starlink]] and space AI scale.
@@ -417,3 +440,5 @@ Jan 10, 2026: FCC approved 7,500 additional Gen2 [[Starlink]] satellites.
 - [[SpaceSail]] — China's state-backed Starlink competitor (Qianfan constellation, Anatel-licensed in Brazil)
 - [[Nasdaq]] — preferred exchange for IPO listing (leaning, Mar 2026)
 - [[Nasdaq Fast Entry Rule]] — proposed rule enabling ~1 month index inclusion for megacap IPOs
+- [[S&P Dow Jones Indices]] — reviewing 12-month seasoning rule that blocks immediate S&P 500 inclusion
+- [[S&P 500]] — ~$24T benchmarked; immediate post-IPO inclusion would trigger massive passive flows

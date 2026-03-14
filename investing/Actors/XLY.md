@@ -11,6 +11,21 @@
 | Yield | 0.8% |
 | Inception | Dec 1998 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.82 |
+| Industrials | XLI | 0.81 |
+| Technology | XLK | 0.80 |
+| *S&P 500* | *SPY* | *0.89* |
+
+XLY trades as a core Communications name (XLC r = 0.82).
+
+---
+
 ## Top Holdings
 
 [[Amazon]] (~23%) and [[Tesla]] (~15%) dominate — nearly 40% combined. Also includes [[Home Depot]], [[McDonald's]], [[Nike]], [[Starbucks]].

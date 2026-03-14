@@ -14,6 +14,21 @@ iShares MSCI Canada ETF — tracks the MSCI Canada Custom Capped Index, providin
 | Inception | March 1996 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.79 |
+| Technology | XLK | 0.77 |
+| Financials | XLF | 0.76 |
+| *S&P 500* | *SPY* | *0.80* |
+
+EWC trades as a core Industrials name (XLI r = 0.79).
+
+---
+
 ## Related
 
 - [[Canada]] — country exposure

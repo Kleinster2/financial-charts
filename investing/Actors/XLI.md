@@ -11,6 +11,21 @@
 | Yield | 1.3% |
 | Inception | Dec 1998 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.85 |
+| Financials | XLF | 0.82 |
+| [[Consumer]] | XLY | 0.81 |
+| *S&P 500* | *SPY* | *0.90* |
+
+XLI trades as a core Defense name (ITA r = 0.85).
+
+---
+
 ## Top Holdings
 
 [[GE Aerospace]] (~5%), [[Caterpillar]] (~5%), [[RTX]] (~4%), [[Union Pacific]] (~3%), [[Honeywell]] (~3%). Diverse mix of capital goods, transportation, and services.

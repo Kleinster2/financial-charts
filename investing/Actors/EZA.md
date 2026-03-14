@@ -14,6 +14,21 @@ iShares MSCI South Africa ETF — tracks the MSCI South Africa 25/50 Index, prov
 | Inception | February 2003 |
 | Issuer | [[BlackRock]] (iShares) |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.69 |
+| Technology | XLK | 0.67 |
+| Industrials | XLI | 0.67 |
+| *S&P 500* | *SPY* | *0.66* |
+
+EZA shows moderate Semiconductors correlation (SMH r = 0.69).
+
+---
+
 ## Related
 
 - [[South Africa]] — country exposure

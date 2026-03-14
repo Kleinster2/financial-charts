@@ -9,6 +9,24 @@ ticker: 042700.KS
 ---
 Korean semiconductor equipment maker, dominant in thermal compression (TC) bonders used for HBM packaging. The picks-and-shovels play on AI memory demand — but facing share erosion to [[BE Semiconductor Industries|BESI]] and [[ASMPT]].
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> 042700.KS does not trade tightly with any sector ETF (max r = 0.18 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.18 |
+| Utilities | XLU | 0.16 |
+| [[Defense]] | ITA | 0.15 |
+| *S&P 500* | *SPY* | *0.07* |
+
+042700.KS trades between China Internet and Utilities without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

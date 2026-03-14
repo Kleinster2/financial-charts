@@ -5,6 +5,21 @@ tags: [etf, china, ai]
 
 US-listed ETF tracking the BITA China Generative AI Select Index — 25 Chinese companies with significant generative AI revenue across model training, application software, infrastructure/hardware, and general AI applications. Listed in the US, Hong Kong, or accessible via Stock Connect. Modified free-float market cap weighted, rebalanced quarterly.
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.69 |
+| Technology | XLK | 0.37 |
+| Software | IGV | 0.35 |
+| *S&P 500* | *SPY* | *0.35* |
+
+DRGN shows moderate China Internet correlation (KWEB r = 0.69).
+
+---
+
 ## Quick stats
 
 | Field | Value |

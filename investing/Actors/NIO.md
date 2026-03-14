@@ -7,6 +7,19 @@ aliases: [NIO Inc]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.55 |
+| [[Consumer]] | XLY | 0.31 |
+| [[Semiconductors]] | SMH | 0.31 |
+| *S&P 500* | *SPY* | *0.30* |
+
+NIO shows moderate China Internet correlation (KWEB r = 0.55).
+
+---
+
 ## Why NIO matters
 
 | Metric | Value |

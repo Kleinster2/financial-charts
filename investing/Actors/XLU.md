@@ -11,6 +11,21 @@
 | Yield | 2.8% |
 | Inception | Dec 1998 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.72 |
+| [[Consumer Staples]] | XLP | 0.65 |
+| Oil & Gas E&P | XOP | 0.54 |
+| *S&P 500* | *SPY* | *0.50* |
+
+XLU trades as a core Real Estate name (XLRE r = 0.72).
+
+---
+
 ## Top Holdings
 
 [[NextEra Energy]] (~14%), [[Southern Company]] (~8%), [[Duke Energy]] (~7%), [[Constellation Energy]] (~6%), [[Sempra]] (~4%).

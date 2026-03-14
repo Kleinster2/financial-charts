@@ -11,6 +11,21 @@
 | Yield | 1.7% |
 | Inception | Dec 1998 |
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.83 |
+| Oil & Gas E&P | XOP | 0.78 |
+| Financials | XLF | 0.75 |
+| *S&P 500* | *SPY* | *0.78* |
+
+XLB trades as a core Industrials name (XLI r = 0.83).
+
+---
+
 ## Top Holdings
 
 [[Linde]] (~18%), [[Sherwin-Williams]] (~8%), [[Freeport-McMoRan]] (~6%), [[Ecolab]] (~5%), [[Air Products]] (~5%). Mix of industrial gases, specialty chemicals, and miners.
