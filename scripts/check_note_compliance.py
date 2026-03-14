@@ -115,6 +115,10 @@ class NoteChecker:
             issues.extend(self._check_product_chart(content, filepath))
             issues.extend(self._check_chart_captions(content, filepath))
 
+        # Sector correlation (public companies only, not ETFs/products)
+        if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+            issues.extend(self._check_sector_correlation(content, filepath))
+
         # Fundamentals chart (public companies only, not ETFs/products)
         if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_fundamentals_chart(content, filepath))
@@ -279,6 +283,23 @@ class NoteChecker:
                 "warning",
                 "structure",
                 "Correlation structure missing average correlation value"
+            ))
+
+        return issues
+
+    def _check_sector_correlation(self, content: str, filepath: Path) -> list[Issue]:
+        """Check that public company actor notes have a sector correlation section.
+
+        Fix: python scripts/add_sector_correlations.py --ticker TICKER
+        """
+        issues = []
+
+        if "## Sector correlation" not in content and "## Volatility correlation" not in content:
+            issues.append(Issue(
+                "error",
+                "sector-correlation",
+                "Missing '## Sector correlation' section — run: "
+                "python scripts/add_sector_correlations.py --ticker TICKER"
             ))
 
         return issues

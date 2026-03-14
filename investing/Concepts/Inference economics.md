@@ -327,7 +327,171 @@ As [[Anthropic]] scales toward $70B revenue by 2028, training costs become a sma
 
 ---
 
+## Token price deflation curve (March 2026)
+
+[[Epoch AI]] tracks the fastest sustained price collapse in computing history:
+
+| Metric | Rate |
+|--------|------|
+| Median price decline (all benchmarks) | **50× per year** |
+| Median post-Jan 2024 | **200× per year** |
+| Range across benchmarks | 9× to 900× per year |
+| GPQA Diamond (PhD-level science) | 40× per year |
+| GPT-3.5-equivalent performance | $20/MTok (Nov 2022) → $0.07/MTok (Oct 2024) = **280×** in 18 months |
+| Frontier-equivalent performance | $60/MTok (2021) → $0.06/MTok (2025) |
+
+The fastest trends (900×/yr) emerged after January 2024 — driven by [[DeepSeek]], mixture-of-experts architectures, quantization advances, and hyperscaler competition. [[Epoch AI]] flags uncertainty on whether these rates persist.
+
+Reasoning models are excluded from per-token price comparisons because they generate far more tokens than standard models — making headline $/MTok misleading for the actual cost of a task.
+
+*Source: [Epoch AI inference price trends](https://epoch.ai/data-insights/llm-inference-price-trends)*
+
+---
+
+## The Jevons paradox in AI (March 2026)
+
+Despite token prices falling ~1,000×, total enterprise AI spending surged **320% in 2025**. This is the textbook [[Jevons paradox]] — efficiency gains expand the addressable market faster than they reduce unit costs.
+
+The mechanism: at $20/MTok, only high-value enterprise applications justified LLM deployment. At $0.40/MTok, every SaaS product, internal tool, and consumer app embeds AI. The addressable market expanded by orders of magnitude.
+
+Structural amplifier: as prices fall, firms increase architectural complexity — reasoning depth, agentic loops, multi-step chains. Token intensity per task rises even as cost per token falls. The architecture-induced demand growth dominates the price effect.
+
+[[Microsoft]] CEO [[Satya Nadella]] acknowledged this when [[DeepSeek]] launched its low-cost model: "Jevons paradox strikes again."
+
+The implication for sovereign AI consumption: falling prices don't mean falling spend. Countries that build inference capacity will consume more, not less. The question isn't whether nations can afford tokens — it's whether they're building the capacity to consume them at the scale the technology demands.
+
+---
+
+## Global inference market by region (March 2026)
+
+### Market sizing
+
+| Region | 2024 | 2034 est. | Share (2024) |
+|--------|------|-----------|-------------|
+| North America | $35.4B | $123.9B | **38-45%** |
+| Asia-Pacific | $20.4B | $71.6B | **22-29%** |
+| Europe | $17.3B | $60.6B | **19-28%** |
+| Global total | $97.2B (2024) → $113.5B (2025) → **$255B (2030)** | | |
+
+*Sources: MarketsandMarkets, Polaris, Grand View Research (ranges reflect differing methodologies)*
+
+### Country-level token consumption (OpenRouter, 100T token study)
+
+The best empirical proxy for country-level consumption comes from [[OpenRouter]], which routes traffic across 300+ models from 60+ providers and processes 100+ trillion tokens. Their data captures ~1% of global inference. Billing-address-based geography:
+
+| Rank | Country | Share of token volume |
+|------|---------|----------------------|
+| 1 | United States | **47.17%** |
+| 2 | [[Singapore]] | **9.21%** |
+| 3 | [[Germany]] | **7.51%** |
+| 4 | [[China]] | **6.01%** |
+| 5 | [[South Korea]] | **2.88%** |
+| 6 | Netherlands | **2.65%** |
+| 7 | [[United Kingdom]] | **2.52%** |
+| 8 | Canada | **1.90%** |
+| 9 | [[Japan]] | **1.77%** |
+| 10 | [[India]] | **1.62%** |
+
+Regional trend: Asia's share doubled from ~13% (early 2024) to ~31% (late 2025).
+
+**Continental breakdown:** North America 47.22%, Asia 28.61%, Europe 21.32%, South America 1.21%, Oceania 1.18%, Africa 0.46%.
+
+**Caveats:** OpenRouter skews developer/startup. Enterprise consumption via direct API contracts (OpenAI, Anthropic, Google) is invisible here. China's domestic consumption (via [[DeepSeek]], [[Qwen]], [[Baidu]]) is massively undercounted — most Chinese inference never touches Western routers. Singapore's outsized share likely reflects regional corporate billing addresses, not per-capita AI usage.
+
+*Source: [OpenRouter State of AI 2025](https://openrouter.ai/state-of-ai), [a16z analysis](https://a16z.com/state-of-ai/)*
+
+### Model ecosystem share
+
+| Model family | Tokens processed (Nov 2024-Nov 2025) | Origin |
+|-------------|---------------------------------------|--------|
+| [[DeepSeek]] | **14.37T** | China |
+| [[Qwen]] (Alibaba) | **5.59T** | China |
+| [[Llama]] (Meta) | 3.96T | US |
+| [[Mistral]] | 2.92T | France |
+| [[OpenAI]] | 1.65T | US |
+
+Chinese open-source models grew from ~1.2% of global usage (late 2024) to **~30%** (late 2025). [[Qwen]] surpassed 700M downloads on Hugging Face by January 2026. Simplified Chinese is the second-largest language by token volume (~5%), after English (82.87%).
+
+Proprietary models still handle ~70% of total tokens. Open-source ~30%, of which Chinese OSS averages ~13% (spiking to 30% some weeks when new models drop).
+
+Programming became the largest and fastest-growing use category — from ~11% of tokens (early 2025) to exceeding 50% by late 2025. Reasoning models crossed 50% of all token usage by year-end 2025.
+
+---
+
+## China's invisible inference (March 2026)
+
+China's domestic AI inference consumption is largely invisible to Western measurement:
+
+| What's visible | What's not |
+|---------------|------------|
+| OpenRouter routes (6% share) | Domestic API consumption (Baidu, Alibaba, ByteDance) |
+| Hugging Face downloads (Qwen 700M+) | On-premise enterprise deployments |
+| Export-facing API pricing | Government/military AI inference |
+| State grid expansion plans ($722B) | Actual GPU utilization rates |
+
+Self-hosting economics favor China: [[DeepSeek]] V3 breaks even on self-hosting at 15-40M tokens/month. Below that threshold, their APIs are already 10-30× cheaper than [[OpenAI]]. Chinese enterprises with even moderate volume have strong incentives to self-host, making their consumption permanently invisible to API-based trackers.
+
+[[Alibaba]] committed RMB 380B (~$53B) over three years for AI and cloud. [[ByteDance]] targeting RMB 160B (~$23B) in 2026 capex, with ~$13B earmarked for AI processors. These are capacity commitments — the consumption they enable is untracked.
+
+China's AI compute self-sufficiency could improve from ~33% (2024) to **90% by 2029**, translating to an $81B localization opportunity (from $6B). As domestic chips improve, the inference they power becomes even harder to track externally.
+
+---
+
+## Sovereign AI: capex vs. consumption (March 2026)
+
+Nobody is systematically tracking "Country X consumed Y tokens at $Z cost." The entire sovereign AI discourse is supply-side — who's building what, for how much — not demand-side (who's burning how many tokens, for what purpose).
+
+### What sovereign commitments look like
+
+| Country | Commitment | % of GDP | Type |
+|---------|------------|----------|------|
+| China | $722B grid expansion | ~4% | Infrastructure |
+| [[Saudi Arabia]] | $100B+ across initiatives | ~10% | Capex + partnerships |
+| [[Qatar]] | $20B AI data centers | **9%** | Capex |
+| [[South Korea]] | SWF targeting AI/chips | 5.7% (over 5 yrs) | Investment vehicle |
+| [[India]] | $1.2B AI Mission | <0.1% | Government program |
+| [[Japan]] | $50B+ semiconductors | ~1% | Industrial policy |
+| [[Brazil]] | $4B AI initiative | <0.1% | Government program |
+
+*Source: [Moody's sovereign AI fiscal risk analysis](https://fortune.com/2026/02/27/ai-spending-fiscal-risk-productivity-moodys/) (Feb 2026)*
+
+### The measurement gap
+
+Why nobody tracks sovereign token consumption:
+1. API providers don't disclose by geography
+2. Self-hosted inference generates no billing trail
+3. Capex ≠ consumption — a $20B data center at 10% utilization consumes far fewer tokens than the investment implies
+4. Token prices falling 50-200×/yr make spending a moving target even if volume were known
+5. Military and government AI inference is classified in most countries
+
+[[Gartner]] projects sovereign cloud IaaS at $80B globally in 2026 (+35.6% YoY). [[McKinsey]] estimates sovereign AI could be a $600B market by 2030, with 30-40% of all AI workloads pushed to sovereign environments by regulation. But these are infrastructure estimates, not consumption metrics.
+
+The closest thing to a country-level token consumption tracker would combine:
+- Cloud provider regional revenue splits (AWS, Azure, GCP)
+- [[Epoch AI]] GPU cluster database (500+ clusters by country)
+- OpenRouter-style routing data (developer segment only)
+- Electricity consumption by AI data centers, by geography
+- Enterprise surveys (Gartner, IDC)
+
+Nobody has assembled this. It's a thesis-worthy research gap.
+
+---
+
 ## Related
+
+- [[NVIDIA]] - player (acquired Groq $20B for inference)
+- [[Groq]] - acquired (LPUs for fast inference)
+- [[OpenAI]] - exposed (GPT-5 $30/$60 vs [[DeepSeek]] $0.27/$1.10)
+- [[Anthropic]] - exposed (API pricing pressure)
+- [[Open source commoditization]] - driver ([[DeepSeek]], [[Llama]], [[Mistral]])
+- [[Model lab economics]] - context (training vs inference margins)
+- [[CUDA moat]] - context (NVIDIA trying to own inference)
+- [[Separately Managed Accounts]] - parallel unit economics (fee structure vs true cost-to-serve)
+- [[Sovereign AI race]] - context (national strategies, GPU stockpiling)
+- [[Hyperscaler capex]] - supply side ($600B+ in 2026)
+- [[AI infrastructure financing risk]] - bear case (circular capital flows)
+- [[DeepSeek]] - disruptor (14.37T tokens on OpenRouter, 10-30× cheaper than OpenAI)
+- [[Qwen]] - disruptor (700M+ downloads, Alibaba-backed)
 
 - [[NVIDIA]] - player (acquired Groq $20B for inference)
 - [[Groq]] - acquired (LPUs for fast inference)
