@@ -9,6 +9,19 @@ Raymond James — US wealth management and brokerage firm. Ticker RJF. Heavy adv
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.85 |
+| Financials | XLF | 0.78 |
+| Industrials | XLI | 0.69 |
+| *S&P 500* | *SPY* | *0.72* |
+
+RJF trades as a core Regional Banks name (KRE r = 0.85).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

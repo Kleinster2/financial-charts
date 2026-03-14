@@ -22,6 +22,19 @@ Every leading edge chip (sub-7nm) requires ASML EUV machines. Period.
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.85 |
+| Technology | XLK | 0.76 |
+| Industrials | XLI | 0.62 |
+| *S&P 500* | *SPY* | *0.71* |
+
+ASML trades as a core Semiconductors name (SMH r = 0.85).
+
+---
+
 ## Why the moat is durable
 
 - **20+ years of R&D**: Can't be replicated quickly

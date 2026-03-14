@@ -16,6 +16,19 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.84 |
+| Technology | XLK | 0.77 |
+| Industrials | XLI | 0.63 |
+| *S&P 500* | *SPY* | *0.70* |
+
+MU trades as a core Semiconductors name (SMH r = 0.84).
+
+---
+
 ## Market position
 
 | Segment | Position |

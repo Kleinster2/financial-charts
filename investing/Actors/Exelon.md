@@ -7,6 +7,19 @@ aliases: [EXC]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Utilities | XLU | 0.61 |
+| [[Consumer Staples]] | XLP | 0.45 |
+| [[Real estate|Real Estate]] | XLRE | 0.32 |
+| *S&P 500* | *SPY* | *-0.03* |
+
+EXC shows moderate Utilities correlation (XLU r = 0.61).
+
+---
+
 ## Why Exelon matters
 
 | Metric | Value |

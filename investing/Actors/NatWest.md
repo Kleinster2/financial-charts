@@ -7,6 +7,19 @@ aliases: [NatWest Group, NWG, Royal Bank of Scotland, RBS]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.75 |
+| Industrials | XLI | 0.70 |
+| [[Defense]] | ITA | 0.70 |
+| *S&P 500* | *SPY* | *0.72* |
+
+NWG trades as a core Financials name (XLF r = 0.75).
+
+---
+
 ## Why NatWest matters
 
 | Metric | Value |

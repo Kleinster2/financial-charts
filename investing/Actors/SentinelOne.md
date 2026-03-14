@@ -7,6 +7,19 @@ aliases: [S]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.68 |
+| [[Consumer]] | XLY | 0.58 |
+| Technology | XLK | 0.55 |
+| *S&P 500* | *SPY* | *0.56* |
+
+S shows moderate Software correlation (IGV r = 0.68).
+
+---
+
 ## Why SentinelOne matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [BIDU, 9888]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.75 |
+| Technology | XLK | 0.39 |
+| [[Semiconductors]] | SMH | 0.39 |
+| *S&P 500* | *SPY* | *0.38* |
+
+BIDU trades as a core China Internet name (KWEB r = 0.75).
+
+---
+
 ## Why Baidu matters
 
 Baidu was [[China]]'s AI first mover and leads in autonomous driving:

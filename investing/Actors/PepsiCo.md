@@ -7,6 +7,19 @@ aliases: [PEP, Pepsi]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.64 |
+| [[Real estate|Real Estate]] | XLRE | 0.36 |
+| Utilities | XLU | 0.34 |
+| *S&P 500* | *SPY* | *0.21* |
+
+PEP shows moderate Consumer Staples correlation (XLP r = 0.64).
+
+---
+
 ## Why PepsiCo matters
 
 | Metric | Value |

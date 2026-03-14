@@ -7,6 +7,19 @@ aliases: [COP]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.93 |
+| [[Energy and Utilities|Energy]] | XLE | 0.92 |
+| [[Banks|Regional Banks]] | KRE | 0.65 |
+| *S&P 500* | *SPY* | *0.60* |
+
+COP trades as a core Oil & Gas E&P name (XOP r = 0.93).
+
+---
+
 ## Why ConocoPhillips matters
 
 | Metric | Value |

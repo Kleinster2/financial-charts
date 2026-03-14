@@ -9,6 +9,19 @@ aliases: [PCAR, PACCAR Inc]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.67 |
+| [[Consumer]] | XLY | 0.65 |
+| [[Banks|Regional Banks]] | KRE | 0.64 |
+| *S&P 500* | *SPY* | *0.61* |
+
+PCAR shows moderate Industrials correlation (XLI r = 0.67).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

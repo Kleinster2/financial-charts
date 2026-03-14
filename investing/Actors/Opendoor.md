@@ -7,6 +7,22 @@ aliases: [OPEN, Opendoor Technologies]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> OPEN does not trade tightly with any sector ETF (max r = 0.27 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.27 |
+| [[Consumer]] | XLY | 0.25 |
+| Financials | XLF | 0.22 |
+| *S&P 500* | *SPY* | *0.17* |
+
+OPEN trades between China Internet and Consumer without a tight sector fit.
+
+---
+
 
 ![[open-employees-chart.png]]
 *Headcount: 1,470 (2024) — down 25.8% YoY*

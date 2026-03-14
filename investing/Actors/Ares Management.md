@@ -7,6 +7,19 @@ aliases: [Ares, ARES]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.79 |
+| Financials | XLF | 0.74 |
+| Technology | XLK | 0.68 |
+| *S&P 500* | *SPY* | *0.72* |
+
+ARES trades as a core Regional Banks name (KRE r = 0.79).
+
+---
+
 ## Why Ares matters
 
 World's largest [[direct lender]]. As banks retreated from [[middle-market]] lending post-[[GFC]] ([[Basel III]] constraints, risk aversion), Ares filled the gap. [[Private credit]] grew from niche to $2T market; Ares commands ~12% global market share.

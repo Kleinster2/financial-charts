@@ -7,6 +7,19 @@ aliases: [CMCSA, NBCUniversal, NBCU, Xfinity]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.62 |
+| Financials | XLF | 0.56 |
+| [[Consumer]] | XLY | 0.53 |
+| *S&P 500* | *SPY* | *0.49* |
+
+CMCSA shows moderate Communications correlation (XLC r = 0.62).
+
+---
+
 ## Why Comcast matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [STT]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.85 |
+| [[Banks|Regional Banks]] | KRE | 0.82 |
+| Industrials | XLI | 0.74 |
+| *S&P 500* | *SPY* | *0.78* |
+
+STT trades as a core Financials name (XLF r = 0.85).
+
+---
+
 ## Overview
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [LMT, Lockheed]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.52 |
+| Industrials | XLI | 0.44 |
+| Utilities | XLU | 0.41 |
+| *S&P 500* | *SPY* | *0.33* |
+
+LMT shows moderate Defense correlation (ITA r = 0.52).
+
+---
+
 ## Relevance to semis/AI
 
 - [[Defense]] AI applications (autonomous systems, targeting)

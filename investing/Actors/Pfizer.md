@@ -7,6 +7,19 @@ aliases: [PFE]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.67 |
+| Industrials | XLI | 0.46 |
+| Financials | XLF | 0.44 |
+| *S&P 500* | *SPY* | *0.39* |
+
+PFE shows moderate Healthcare correlation (XLV r = 0.67).
+
+---
+
 ## Why Pfizer matters
 
 | Metric | Value |

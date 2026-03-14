@@ -7,6 +7,19 @@ Penn Entertainment -- Regional casino operator with 43 properties and digital sp
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.62 |
+| Financials | XLF | 0.60 |
+| Oil & Gas E&P | XOP | 0.60 |
+| *S&P 500* | *SPY* | *0.58* |
+
+PENN shows moderate Consumer correlation (XLY r = 0.62).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

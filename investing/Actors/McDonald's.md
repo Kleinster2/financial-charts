@@ -7,6 +7,19 @@ McDonald's — Global QSR leader. Franchise model, real estate. AI for drive-thr
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.64 |
+| [[Healthcare]] | XLV | 0.53 |
+| [[Real estate|Real Estate]] | XLRE | 0.44 |
+| *S&P 500* | *SPY* | *0.19* |
+
+MCD shows moderate Consumer Staples correlation (XLP r = 0.64).
+
+---
+
 ## Why McDonald's matters
 
 | Metric | Value |

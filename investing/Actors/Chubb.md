@@ -7,6 +7,22 @@ aliases: [CB]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CB does not trade tightly with any sector ETF (max r = 0.47 with XLP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.47 |
+| Financials | XLF | 0.46 |
+| [[Energy and Utilities|Energy]] | XLE | 0.41 |
+| *S&P 500* | *SPY* | *0.29* |
+
+CB trades between Consumer Staples and Financials without a tight sector fit.
+
+---
+
 ## Why Chubb matters
 
 | Metric | Value |

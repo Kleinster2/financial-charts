@@ -7,6 +7,19 @@ aliases: [RIOT]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.62 |
+| Technology | XLK | 0.60 |
+| [[Semiconductors]] | SMH | 0.56 |
+| *S&P 500* | *SPY* | *0.53* |
+
+RIOT shows moderate Regional Banks correlation (KRE r = 0.62).
+
+---
+
 ## Why Riot matters
 
 One of largest Bitcoin miners, now pivoting:

@@ -7,6 +7,22 @@ aliases: [EXAS]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> EXAS does not trade tightly with any sector ETF (max r = 0.46 with XOP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.46 |
+| [[Banks|Regional Banks]] | KRE | 0.41 |
+| Financials | XLF | 0.29 |
+| *S&P 500* | *SPY* | *0.32* |
+
+EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
+
+---
+
 ## Why Exact Sciences matters
 
 | Metric | Value |

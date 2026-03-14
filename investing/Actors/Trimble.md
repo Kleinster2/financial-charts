@@ -7,6 +7,19 @@ aliases: [TRMB]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.80 |
+| Technology | XLK | 0.76 |
+| Financials | XLF | 0.76 |
+| *S&P 500* | *SPY* | *0.78* |
+
+TRMB trades as a core Software name (IGV r = 0.80).
+
+---
+
 ## Why Trimble matters
 
 Software for the physical world — construction, agriculture, transportation, geospatial:

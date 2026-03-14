@@ -7,6 +7,19 @@ aliases: [DASH]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.65 |
+| [[Consumer]] | XLY | 0.63 |
+| Technology | XLK | 0.61 |
+| *S&P 500* | *SPY* | *0.62* |
+
+DASH shows moderate Software correlation (IGV r = 0.65).
+
+---
+
 ## Why DoorDash matters
 
 | Metric | Value |

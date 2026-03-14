@@ -7,6 +7,19 @@ aliases: [HAS]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.78 |
+| [[Consumer]] | XLY | 0.67 |
+| Industrials | XLI | 0.63 |
+| *S&P 500* | *SPY* | *0.62* |
+
+HAS trades as a core Regional Banks name (KRE r = 0.78).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

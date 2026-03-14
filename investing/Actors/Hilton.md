@@ -7,6 +7,19 @@ aliases: [HLT, Hilton Worldwide, Hilton Hotels]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.76 |
+| Financials | XLF | 0.67 |
+| [[Consumer]] | XLY | 0.66 |
+| *S&P 500* | *SPY* | *0.63* |
+
+HLT trades as a core Regional Banks name (KRE r = 0.76).
+
+---
+
 
 ![[hlt-employees-chart.png]]
 *Headcount: 182,000 (2025) — up 0.6% YoY*

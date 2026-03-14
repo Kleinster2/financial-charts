@@ -7,6 +7,19 @@ aliases: [GE, [[General Electric]] Aerospace]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.87 |
+| Industrials | XLI | 0.80 |
+| Technology | XLK | 0.67 |
+| *S&P 500* | *SPY* | *0.71* |
+
+GE trades as a core Defense name (ITA r = 0.87).
+
+---
+
 ## Why GE Aerospace matters
 
 | Metric | Value |

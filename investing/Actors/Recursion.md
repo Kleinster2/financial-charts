@@ -7,6 +7,19 @@ aliases: [RXRX, Recursion Pharmaceuticals]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.55 |
+| [[Consumer]] | XLY | 0.53 |
+| Financials | XLF | 0.52 |
+| *S&P 500* | *SPY* | *0.56* |
+
+RXRX shows moderate Technology correlation (XLK r = 0.55).
+
+---
+
 ## Why Recursion matters
 
 | Metric | Value |

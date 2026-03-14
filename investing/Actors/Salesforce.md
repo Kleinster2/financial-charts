@@ -9,6 +9,19 @@ World's #1 CRM platform with ~$193B market cap, $41.5B FY2026 revenue, and 150,0
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.74 |
+| [[Consumer]] | XLY | 0.53 |
+| Technology | XLK | 0.50 |
+| *S&P 500* | *SPY* | *0.50* |
+
+CRM trades as a core Software name (IGV r = 0.74).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

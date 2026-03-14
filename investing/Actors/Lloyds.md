@@ -7,6 +7,19 @@ aliases: [Lloyds Banking Group, LYG, LLOY]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.76 |
+| Technology | XLK | 0.74 |
+| Financials | XLF | 0.73 |
+| *S&P 500* | *SPY* | *0.76* |
+
+LYG trades as a core Semiconductors name (SMH r = 0.76).
+
+---
+
 ## Why Lloyds matters
 
 | Metric | Value |

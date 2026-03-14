@@ -7,6 +7,22 @@ Nestle — Swiss multinational, world's largest food and beverage company by rev
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> NSRGY does not trade tightly with any sector ETF (max r = 0.35 with XLP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.35 |
+| [[Real estate|Real Estate]] | XLRE | 0.28 |
+| Utilities | XLU | 0.26 |
+| *S&P 500* | *SPY* | *0.06* |
+
+NSRGY trades between Consumer Staples and Real Estate without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -7,6 +7,19 @@ Edinburgh Worldwide Investment Trust — [[Baillie Gifford]]-managed trust on th
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.81 |
+| [[Defense]] | ITA | 0.81 |
+| Financials | XLF | 0.78 |
+| *S&P 500* | *SPY* | *0.84* |
+
+EWI trades as a core Industrials name (XLI r = 0.81).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

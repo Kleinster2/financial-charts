@@ -7,6 +7,19 @@ aliases: [MRVL]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.67 |
+| Technology | XLK | 0.66 |
+| Industrials | XLI | 0.61 |
+| *S&P 500* | *SPY* | *0.65* |
+
+MRVL shows moderate Semiconductors correlation (SMH r = 0.67).
+
+---
+
 ## Why Marvell matters
 
 Key AI infrastructure enabler:

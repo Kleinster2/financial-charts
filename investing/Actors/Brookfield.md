@@ -7,6 +7,19 @@ aliases: [Brookfield Corp, BAM, Brookfield Asset Management, BN]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.79 |
+| Financials | XLF | 0.75 |
+| [[Consumer]] | XLY | 0.70 |
+| *S&P 500* | *SPY* | *0.73* |
+
+BAM trades as a core Regional Banks name (KRE r = 0.79).
+
+---
+
 ## Why Brookfield matters
 
 Brookfield is one of world's largest infrastructure investors:

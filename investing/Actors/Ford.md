@@ -7,6 +7,19 @@ aliases: [F]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.66 |
+| Industrials | XLI | 0.57 |
+| [[Consumer]] | XLY | 0.56 |
+| *S&P 500* | *SPY* | *0.55* |
+
+F shows moderate Regional Banks correlation (KRE r = 0.66).
+
+---
+
 ## Why Ford matters
 
 | Metric | Value |

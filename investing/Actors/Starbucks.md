@@ -11,6 +11,19 @@ aliases: [SBUX]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.72 |
+| [[Consumer]] | XLY | 0.70 |
+| [[Banks|Regional Banks]] | KRE | 0.69 |
+| *S&P 500* | *SPY* | *0.71* |
+
+SBUX trades as a core Oil & Gas E&P name (XOP r = 0.72).
+
+---
+
 ## Overview
 
 | Metric | Value |

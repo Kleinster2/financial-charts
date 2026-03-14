@@ -7,6 +7,19 @@ aliases: [ZIM, Zim]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.65 |
+| Oil & Gas E&P | XOP | 0.61 |
+| Industrials | XLI | 0.58 |
+| *S&P 500* | *SPY* | *0.58* |
+
+ZIM shows moderate Regional Banks correlation (KRE r = 0.65).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -7,6 +7,19 @@ GlobalFoundries — Third-largest foundry globally. Spun off from AMD (2009). Fo
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.71 |
+| Technology | XLK | 0.69 |
+| Industrials | XLI | 0.67 |
+| *S&P 500* | *SPY* | *0.69* |
+
+GFS trades as a core Semiconductors name (SMH r = 0.71).
+
+---
+
 ## Why GlobalFoundries matters
 
 GF occupies a strategic niche between leading-edge and commodity:

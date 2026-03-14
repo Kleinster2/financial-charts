@@ -7,6 +7,19 @@ aliases: [LUV, Southwest]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.71 |
+| Industrials | XLI | 0.69 |
+| Financials | XLF | 0.68 |
+| *S&P 500* | *SPY* | *0.61* |
+
+LUV trades as a core Regional Banks name (KRE r = 0.71).
+
+---
+
 ## Why Southwest matters
 
 | Metric | Value |

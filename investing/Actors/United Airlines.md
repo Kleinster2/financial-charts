@@ -7,6 +7,19 @@ aliases: [UAL, United]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.81 |
+| Industrials | XLI | 0.76 |
+| Financials | XLF | 0.75 |
+| *S&P 500* | *SPY* | *0.78* |
+
+UAL trades as a core Regional Banks name (KRE r = 0.81).
+
+---
+
 ## Why United matters
 
 | Metric | Value |

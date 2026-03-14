@@ -7,6 +7,19 @@ aliases: [Snapchat, SNAP]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.64 |
+| [[Consumer]] | XLY | 0.61 |
+| Technology | XLK | 0.59 |
+| *S&P 500* | *SPY* | *0.60* |
+
+SNAP shows moderate Software correlation (IGV r = 0.64).
+
+---
+
 ## Why Snap matters
 
 | Metric | Value |

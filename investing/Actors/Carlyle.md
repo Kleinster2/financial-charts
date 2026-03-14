@@ -7,6 +7,19 @@ aliases: [Carlyle Group, CG]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.86 |
+| Financials | XLF | 0.78 |
+| Industrials | XLI | 0.71 |
+| *S&P 500* | *SPY* | *0.72* |
+
+CG trades as a core Regional Banks name (KRE r = 0.86).
+
+---
+
 ## Leadership
 
 | Role | Name | Since |

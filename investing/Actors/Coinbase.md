@@ -9,6 +9,19 @@ Largest US crypto exchange with ~$35B market cap, $7.2B FY2025 revenue (+9% YoY)
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.63 |
+| Software | IGV | 0.62 |
+| [[Consumer]] | XLY | 0.59 |
+| *S&P 500* | *SPY* | *0.60* |
+
+COIN shows moderate Technology correlation (XLK r = 0.63).
+
+---
+
 
 ![[coin-employees-chart.png]]
 *Headcount: 4,951 (2025) — up 31.3% YoY*

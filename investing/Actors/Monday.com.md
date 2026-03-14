@@ -7,6 +7,19 @@ aliases: [Monday, MNDY]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.76 |
+| [[Banks|Regional Banks]] | KRE | 0.63 |
+| Technology | XLK | 0.60 |
+| *S&P 500* | *SPY* | *0.59* |
+
+MNDY trades as a core Software name (IGV r = 0.76).
+
+---
+
 ## Why Monday matters
 
 | Metric | Value |

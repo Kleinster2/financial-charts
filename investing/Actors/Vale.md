@@ -7,6 +7,19 @@ Vale — World's largest [[Iron ore|iron ore]] producer (328 Mt in FY2024, targe
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.63 |
+| Oil & Gas E&P | XOP | 0.54 |
+| Industrials | XLI | 0.52 |
+| *S&P 500* | *SPY* | *0.52* |
+
+VALE shows moderate Regional Banks correlation (KRE r = 0.63).
+
+---
+
 ## Why Vale matters
 
 | Metric | Value |

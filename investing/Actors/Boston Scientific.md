@@ -7,6 +7,19 @@ aliases: [BSX]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.51 |
+| [[Banks|Regional Banks]] | KRE | 0.38 |
+| Communications | XLC | 0.37 |
+| *S&P 500* | *SPY* | *0.37* |
+
+BSX shows moderate Defense correlation (ITA r = 0.51).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

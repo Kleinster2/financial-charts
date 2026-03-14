@@ -7,6 +7,19 @@ aliases: [CORZ]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.64 |
+| [[Semiconductors]] | SMH | 0.61 |
+| Industrials | XLI | 0.52 |
+| *S&P 500* | *SPY* | *0.55* |
+
+CORZ shows moderate Technology correlation (XLK r = 0.64).
+
+---
+
 ## Why Core Scientific matters
 
 Post-bankruptcy AI pivot, rejected CoreWeave acquisition:

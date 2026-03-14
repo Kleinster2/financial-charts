@@ -14,6 +14,22 @@ aliases:
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CRCL does not trade tightly with any sector ETF (max r = 0.45 with IGV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.45 |
+| Technology | XLK | 0.42 |
+| Financials | XLF | 0.42 |
+| *S&P 500* | *SPY* | *0.46* |
+
+CRCL trades between Software and Technology without a tight sector fit.
+
+---
+
 ## Why Circle matters
 
 Circle issues the second-largest stablecoin:

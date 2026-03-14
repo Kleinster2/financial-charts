@@ -7,6 +7,19 @@ aliases: [Schwab, SCHW]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.79 |
+| [[Banks|Regional Banks]] | KRE | 0.70 |
+| [[Defense]] | ITA | 0.67 |
+| *S&P 500* | *SPY* | *0.69* |
+
+SCHW trades as a core Financials name (XLF r = 0.79).
+
+---
+
 ## Why Schwab matters
 
 Schwab is the scale player in retail brokerage:

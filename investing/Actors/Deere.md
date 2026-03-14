@@ -7,6 +7,19 @@ aliases: [DE, John Deere]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.62 |
+| Oil & Gas E&P | XOP | 0.59 |
+| [[Defense]] | ITA | 0.55 |
+| *S&P 500* | *SPY* | *0.50* |
+
+DE shows moderate Industrials correlation (XLI r = 0.62).
+
+---
+
 ## Why Deere matters
 
 | Metric | Value |

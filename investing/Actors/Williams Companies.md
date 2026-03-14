@@ -7,6 +7,19 @@ aliases: [WMB, Williams]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Energy and Utilities|Energy]] | XLE | 0.57 |
+| Oil & Gas E&P | XOP | 0.57 |
+| Utilities | XLU | 0.49 |
+| *S&P 500* | *SPY* | *0.42* |
+
+WMB shows moderate Energy correlation (XLE r = 0.57).
+
+---
+
 ## Why Williams Companies matters
 
 | Metric | Value |

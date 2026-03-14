@@ -7,6 +7,22 @@ aliases: [CI, Cigna Group]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CI does not trade tightly with any sector ETF (max r = 0.35 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.35 |
+| [[Consumer Staples]] | XLP | 0.26 |
+| Financials | XLF | 0.22 |
+| *S&P 500* | *SPY* | *0.18* |
+
+CI trades between Healthcare and Consumer Staples without a tight sector fit.
+
+---
+
 ## Why Cigna matters
 
 | Metric | Value |

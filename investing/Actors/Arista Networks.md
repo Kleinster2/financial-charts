@@ -7,6 +7,19 @@ aliases: [ANET, Arista]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.68 |
+| [[Semiconductors]] | SMH | 0.63 |
+| Software | IGV | 0.56 |
+| *S&P 500* | *SPY* | *0.59* |
+
+ANET shows moderate Technology correlation (XLK r = 0.68).
+
+---
+
 ## Why Arista matters
 
 Critical AI infrastructure:

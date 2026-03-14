@@ -7,6 +7,22 @@ aliases: [LGES, 373220.KS]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> 373220.KS does not trade tightly with any sector ETF (max r = -0.14 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | -0.14 |
+| Communications | XLC | -0.14 |
+| [[Defense]] | ITA | -0.14 |
+| *S&P 500* | *SPY* | *-0.12* |
+
+373220.KS trades between Healthcare and Communications without a tight sector fit.
+
+---
+
 ## Why LG Energy matters
 
 | Metric | Value |

@@ -9,6 +9,19 @@ S&P 500 experiential REIT. Owns 93 properties (54 gaming, 39 other experiential)
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.64 |
+| [[Consumer Staples]] | XLP | 0.56 |
+| [[Banks|Regional Banks]] | KRE | 0.51 |
+| *S&P 500* | *SPY* | *0.40* |
+
+VICI shows moderate Real Estate correlation (XLRE r = 0.64).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

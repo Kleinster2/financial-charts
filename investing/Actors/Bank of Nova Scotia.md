@@ -7,6 +7,22 @@ aliases: [Scotiabank, BNS]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> BNS does not trade tightly with any sector ETF (max r = 0.48 with XLI).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.48 |
+| Financials | XLF | 0.47 |
+| Communications | XLC | 0.42 |
+| *S&P 500* | *SPY* | *0.47* |
+
+BNS trades between Industrials and Financials without a tight sector fit.
+
+---
+
 ## Why Scotiabank matters
 
 | Metric | Value |

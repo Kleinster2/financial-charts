@@ -7,6 +7,19 @@ aliases: [Royal Bank of Canada, RY]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.60 |
+| Communications | XLC | 0.57 |
+| Industrials | XLI | 0.56 |
+| *S&P 500* | *SPY* | *0.60* |
+
+RY shows moderate Financials correlation (XLF r = 0.60).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

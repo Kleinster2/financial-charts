@@ -9,6 +9,22 @@ aliases: [Itaú, Itau, ITUB, Banco Itaú]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> ITUB does not trade tightly with any sector ETF (max r = 0.47 with XLI).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.47 |
+| [[Semiconductors]] | SMH | 0.46 |
+| Technology | XLK | 0.45 |
+| *S&P 500* | *SPY* | *0.45* |
+
+ITUB trades between Industrials and Semiconductors without a tight sector fit.
+
+---
+
 ## Overview
 
 | Metric | Value |

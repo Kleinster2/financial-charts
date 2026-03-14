@@ -7,6 +7,19 @@ aliases: [FANUY, 6954.T]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.56 |
+| Industrials | XLI | 0.55 |
+| [[Defense]] | ITA | 0.52 |
+| *S&P 500* | *SPY* | *0.50* |
+
+FANUY shows moderate Oil & Gas E&P correlation (XOP r = 0.56).
+
+---
+
 ## Why Fanuc matters
 
 | Metric | Value |

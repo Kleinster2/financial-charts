@@ -7,6 +7,22 @@ aliases: [Elbit, ESLT]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> ESLT does not trade tightly with any sector ETF (max r = 0.45 with ITA).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.45 |
+| Software | IGV | 0.32 |
+| Industrials | XLI | 0.27 |
+| *S&P 500* | *SPY* | *0.23* |
+
+ESLT trades between Defense and Software without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

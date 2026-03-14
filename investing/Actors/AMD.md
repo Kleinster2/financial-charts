@@ -13,6 +13,19 @@ AMD has closed the hardware gap with NVIDIA but the [[CUDA moat]] kept them lock
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.79 |
+| Technology | XLK | 0.77 |
+| Industrials | XLI | 0.59 |
+| *S&P 500* | *SPY* | *0.68* |
+
+AMD trades as a core Semiconductors name (SMH r = 0.79).
+
+---
+
 ## Leadership
 
 | Role | Name | Since |

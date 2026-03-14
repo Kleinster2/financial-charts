@@ -12,6 +12,21 @@ tags:
 
 Legacy records management company turned **AI-era data center REIT**. One of the more unlikely transformation stories in the market — went from storing boxes of paper in underground vaults to operating 424+ MW of data center capacity with 1.2 GW in the development pipeline. NYSE: IRM.
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.67 |
+| Industrials | XLI | 0.66 |
+| [[Defense]] | ITA | 0.61 |
+| *S&P 500* | *SPY* | *0.64* |
+
+IRM shows moderate Real Estate correlation (XLRE r = 0.67).
+
+---
+
 ## Quick stats
 
 | Metric | Value | Source |

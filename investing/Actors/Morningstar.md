@@ -7,6 +7,19 @@ aliases: [MORN, Morningstar Inc, PitchBook]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.67 |
+| [[Banks|Regional Banks]] | KRE | 0.60 |
+| Software | IGV | 0.58 |
+| *S&P 500* | *SPY* | *0.56* |
+
+MORN shows moderate Financials correlation (XLF r = 0.67).
+
+---
+
 ## Overview
 
 | Metric | Value |

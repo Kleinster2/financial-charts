@@ -9,6 +9,19 @@ Accenture — global IT services and consulting firm. Ticker ACN. ~$200B market 
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.58 |
+| Financials | XLF | 0.56 |
+| [[Consumer]] | XLY | 0.54 |
+| *S&P 500* | *SPY* | *0.49* |
+
+ACN shows moderate Software correlation (IGV r = 0.58).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

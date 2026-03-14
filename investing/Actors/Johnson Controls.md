@@ -7,6 +7,19 @@ aliases: [JCI]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.73 |
+| [[Semiconductors]] | SMH | 0.64 |
+| Technology | XLK | 0.62 |
+| *S&P 500* | *SPY* | *0.68* |
+
+JCI trades as a core Industrials name (XLI r = 0.73).
+
+---
+
 ## Why Johnson Controls matters
 
 | Metric | Value |

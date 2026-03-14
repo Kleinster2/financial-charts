@@ -7,6 +7,19 @@ aliases: [MGNI, Rubicon Project, Telaria]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.66 |
+| Software | IGV | 0.66 |
+| Communications | XLC | 0.64 |
+| *S&P 500* | *SPY* | *0.59* |
+
+MGNI shows moderate Consumer correlation (XLY r = 0.66).
+
+---
+
 ## Why Magnite matters
 
 | Metric | Value |

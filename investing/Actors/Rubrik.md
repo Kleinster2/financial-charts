@@ -7,6 +7,19 @@ aliases: [RBRK]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.64 |
+| Technology | XLK | 0.53 |
+| [[Consumer]] | XLY | 0.51 |
+| *S&P 500* | *SPY* | *0.52* |
+
+RBRK shows moderate Software correlation (IGV r = 0.64).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

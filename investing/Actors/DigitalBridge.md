@@ -13,6 +13,19 @@ aliases: [DBRG]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.71 |
+| Oil & Gas E&P | XOP | 0.71 |
+| Communications | XLC | 0.50 |
+| *S&P 500* | *SPY* | *0.46* |
+
+DBRG trades as a core Regional Banks name (KRE r = 0.71).
+
+---
+
 ## SoftBank acquisition (Dec 2025)
 
 | Detail | Value |

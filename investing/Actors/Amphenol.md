@@ -7,6 +7,19 @@ aliases: [APH]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.66 |
+| [[Semiconductors]] | SMH | 0.65 |
+| [[Defense]] | ITA | 0.60 |
+| *S&P 500* | *SPY* | *0.59* |
+
+APH shows moderate Technology correlation (XLK r = 0.66).
+
+---
+
 ## Why Amphenol matters
 
 | Metric | Value |

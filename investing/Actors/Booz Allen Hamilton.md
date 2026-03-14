@@ -17,6 +17,22 @@ aliases: [BAH, Booz Allen]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> BAH does not trade tightly with any sector ETF (max r = 0.29 with IGV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.29 |
+| Financials | XLF | 0.25 |
+| [[Healthcare]] | XLV | 0.21 |
+| *S&P 500* | *SPY* | *0.13* |
+
+BAH trades between Software and Financials without a tight sector fit.
+
+---
+
 ## Why Booz Allen matters
 
 **\#1 AI supplier to U.S. government** — not just an IT contractor, but the government's AI partner.

@@ -54,6 +54,18 @@ Domestic power mix target: 50% renewables + 50% gas (eliminating crude burn). Ke
 
 ---
 
+## Iran conflict equity performance (March 2026)
+
+[[Tadawul|Tadawul All Share Index]] +1.7% since [[Operation Epic Fury|conflict start]] (~Feb 28), outperforming [[Dubai Financial Market]] (-17%) and [[Qatar]] exchange. Key drivers:
+
+- **Domestic investor bid:** Saudi investors' free-float share rose to 85.81% (week ended Mar 5). Saudi corporates/GREs net buyers of ~3B SAR ($800M) — a reversal from 12 months of net selling ([[Jefferies]], Mar 13).
+- **[[Saudi Aramco]] anchor:** +7.6% in March, 16% of Tadawul benchmark. Oil economy benefits from higher crude.
+- **Red Sea advantage:** Saudi exports can bypass [[Strait of Hormuz]] entirely via Red Sea coast, unlike [[UAE]]/[[Qatar]] whose economies depend on Hormuz-transiting trade.
+
+See [[2026 Iran conflict market impact#Day 14 — March 13 (Gulf equity divergence)|full data]].
+
+---
+
 ## Related
 
 - [[Saudi Aramco]] — actor (national oil company)
@@ -63,3 +75,5 @@ Domestic power mix target: 50% renewables + 50% gas (eliminating crude burn). Ke
 - [[Jafurah]] — product (flagship gas project)
 - [[Ghawar]] — product (largest oil field)
 - [[GCC]] — region (Gulf Cooperation Council)
+- [[Tadawul]] — actor (stock exchange)
+- [[2026 Iran conflict market impact]] — event (equity outperformance during conflict)

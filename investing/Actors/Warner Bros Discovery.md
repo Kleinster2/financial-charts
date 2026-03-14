@@ -7,6 +7,19 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.62 |
+| [[Consumer]] | XLY | 0.62 |
+| Industrials | XLI | 0.57 |
+| *S&P 500* | *SPY* | *0.60* |
+
+WBD shows moderate Communications correlation (XLC r = 0.62).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -16,6 +16,19 @@ tags:
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.74 |
+| [[Energy and Utilities|Energy]] | XLE | 0.63 |
+| Industrials | XLI | 0.61 |
+| *S&P 500* | *SPY* | *0.61* |
+
+DOW trades as a core Oil & Gas E&P name (XOP r = 0.74).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

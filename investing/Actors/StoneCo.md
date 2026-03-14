@@ -9,6 +9,22 @@ aliases: [STNE, Stone]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> STNE does not trade tightly with any sector ETF (max r = 0.45 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.45 |
+| Industrials | XLI | 0.39 |
+| [[Defense]] | ITA | 0.38 |
+| *S&P 500* | *SPY* | *0.37* |
+
+STNE trades between China Internet and Industrials without a tight sector fit.
+
+---
+
 ## Overview
 
 | Metric | Value |

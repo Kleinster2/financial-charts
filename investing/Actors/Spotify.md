@@ -7,6 +7,19 @@ Spotify — Music streaming leader. 713M MAUs, 281M premium. First profitable ye
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.51 |
+| Communications | XLC | 0.47 |
+| [[Defense]] | ITA | 0.41 |
+| *S&P 500* | *SPY* | *0.39* |
+
+SPOT shows moderate Software correlation (IGV r = 0.51).
+
+---
+
 ## Overview
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [MA]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.78 |
+| Communications | XLC | 0.67 |
+| Industrials | XLI | 0.61 |
+| *S&P 500* | *SPY* | *0.62* |
+
+MA trades as a core Financials name (XLF r = 0.78).
+
+---
+
 ## Why Mastercard matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [PWR]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.68 |
+| Technology | XLK | 0.67 |
+| [[Semiconductors]] | SMH | 0.67 |
+| *S&P 500* | *SPY* | *0.61* |
+
+PWR shows moderate Industrials correlation (XLI r = 0.68).
+
+---
+
 ## Why Quanta Services matters
 
 | Metric | Value |

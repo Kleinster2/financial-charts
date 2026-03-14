@@ -7,6 +7,22 @@ tags: [actor, company, semiconductor-equipment, china, public]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> 002371.SZ does not trade tightly with any sector ETF (max r = 0.49 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.49 |
+| [[Consumer]] | XLY | 0.29 |
+| Oil & Gas E&P | XOP | 0.29 |
+| *S&P 500* | *SPY* | *0.25* |
+
+002371.SZ trades between China Internet and Consumer without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

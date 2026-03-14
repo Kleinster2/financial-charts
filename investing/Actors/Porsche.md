@@ -9,6 +9,19 @@ German luxury sports car and SUV manufacturer. Unlike [[Ferrari]]'s scarcity mod
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.60 |
+| [[Consumer]] | XLY | 0.60 |
+| Industrials | XLI | 0.57 |
+| *S&P 500* | *SPY* | *0.61* |
+
+POAHY shows moderate Communications correlation (XLC r = 0.60).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

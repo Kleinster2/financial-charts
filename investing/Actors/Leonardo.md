@@ -7,6 +7,22 @@ aliases: [Leonardo SpA, LDO.MI, Finmeccanica]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> LDO.MI does not trade tightly with any sector ETF (max r = 0.35 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.35 |
+| [[Defense]] | ITA | 0.28 |
+| Utilities | XLU | 0.27 |
+| *S&P 500* | *SPY* | *0.12* |
+
+LDO.MI trades between China Internet and Defense without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

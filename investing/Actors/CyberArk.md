@@ -9,6 +9,19 @@ aliases: [CYBR]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.67 |
+| Technology | XLK | 0.57 |
+| [[Defense]] | ITA | 0.51 |
+| *S&P 500* | *SPY* | *0.54* |
+
+CYBR shows moderate Software correlation (IGV r = 0.67).
+
+---
+
 
 ![[cybr-employees-chart.png]]
 *Headcount: 1,205 (2024) — down 60.1% YoY*

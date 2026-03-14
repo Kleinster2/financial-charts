@@ -7,6 +7,19 @@ aliases: [BE]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.52 |
+| [[Semiconductors]] | SMH | 0.52 |
+| [[Defense]] | ITA | 0.44 |
+| *S&P 500* | *SPY* | *0.41* |
+
+BE shows moderate Technology correlation (XLK r = 0.52).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

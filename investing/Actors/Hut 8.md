@@ -7,6 +7,19 @@ aliases: [HUT]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.56 |
+| [[Semiconductors]] | SMH | 0.53 |
+| [[Banks|Regional Banks]] | KRE | 0.52 |
+| *S&P 500* | *SPY* | *0.51* |
+
+HUT shows moderate Technology correlation (XLK r = 0.56).
+
+---
+
 ## Why Hut 8 matters
 
 Major AI infrastructure pivot with Google + Anthropic backing:

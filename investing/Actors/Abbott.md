@@ -7,6 +7,22 @@ aliases: [ABT, Abbott Laboratories]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> ABT does not trade tightly with any sector ETF (max r = 0.42 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.42 |
+| [[Real estate|Real Estate]] | XLRE | 0.35 |
+| [[Consumer Staples]] | XLP | 0.32 |
+| *S&P 500* | *SPY* | *0.19* |
+
+ABT trades between Healthcare and Real Estate without a tight sector fit.
+
+---
+
 
 ![[abt-employees-chart.png]]
 *Headcount: 115,000 (2025) — up 0.9% YoY*

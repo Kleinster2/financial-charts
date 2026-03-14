@@ -7,6 +7,22 @@ aliases: [UUUU, Energy Fuels Inc]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> UUUU does not trade tightly with any sector ETF (max r = 0.34 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.34 |
+| Technology | XLK | 0.33 |
+| [[Semiconductors]] | SMH | 0.30 |
+| *S&P 500* | *SPY* | *0.26* |
+
+UUUU trades between Regional Banks and Technology without a tight sector fit.
+
+---
+
 ## Why Energy Fuels matters
 
 Unique positioning across two critical supply chains:

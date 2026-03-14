@@ -7,6 +7,19 @@ aliases: [ADBE]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.65 |
+| Communications | XLC | 0.53 |
+| [[Consumer]] | XLY | 0.53 |
+| *S&P 500* | *SPY* | *0.49* |
+
+ADBE shows moderate Software correlation (IGV r = 0.65).
+
+---
+
 ## Why Adobe matters
 
 | Metric | Value |

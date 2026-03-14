@@ -274,6 +274,58 @@ The NFP print reframes the conflict from a short-duration energy shock to a pote
 
 ---
 
+## Day 14 — March 13 (Gulf equity divergence)
+
+### Saudi outperformance
+
+![[ksa-vs-uae-vs-qat-price-chart.png]]
+*Gulf equity ETF divergence since Feb 1 — KSA (blue) holding vs UAE collapse. UAE was outperforming pre-conflict (+7%), then cratered on Hormuz closure and foreign outflows.*
+
+![[gulf-equity-divergence-iran-conflict.png]]
+*Direct index comparison: Saudi stocks hold, Dubai and Qatar fall (Bloomberg, Mar 13)*
+
+The [[Tadawul|Tadawul All Share Index]] is **+1.7%** since the war started two weeks ago. By contrast, the [[Dubai Financial Market]] index has plunged **-17%** as Iranian missiles and drones struck targets across the region and [[Strait of Hormuz]] traffic ground to a near halt. [[Qatar]] equities also declined.
+
+| Index / ETF proxy | Move since ~Feb 28 | Move YTD (Feb 1) | Driver |
+|-------------------|-------------------|-------------------|--------|
+| [[Tadawul]] (TASI) / KSA | **+1.7%** | -5% | Domestic buying, Aramco anchor |
+| [[Dubai Financial Market]] / UAE | **-17%** | -14% | Foreign outflows, trade/tourism exposure |
+| [[Qatar]] exchange / QAT | Down | -5% | LNG disruption, Hormuz dependency |
+
+### Domestic investor flows — the mechanism
+
+![[saudi-ownership-shift-iran-conflict.png]]
+*Saudi ownership of main market free float rising as GCC and foreign investors sell (Saudi Exchange data, Bloomberg Mar 13)*
+
+Saudi investors flipped from sending capital abroad to supporting local equities. Week ended Mar 5:
+
+| Investor type | Free-float share | Change |
+|---------------|-----------------|--------|
+| Saudi investors (total) | 85.81% | +0.16pp |
+| Saudi corporates | 40.57% | +0.40pp |
+| GCC investors | ~1.52% | Down from ~1.55% |
+| Foreign investors | ~12.65% | Down from ~12.80% |
+
+Saudi corporates and government-related entities were net buyers of ~3 billion riyal ($800 million) in the week ended Mar 5. [[Jefferies]] analyst Naresh Bilandani (head of CEEMEA equity research, Mar 13): *"Considering that Saudi institutions have generally been net sellers over the past 12 months, the reversal in their behavior is perceived as a supportive signal."*
+
+The [[Saudi PIF]] had gathered about a dozen prominent families for a Red Sea summit in December to assess appetite for participating in future investment opportunities — pre-positioning that may now be paying off as domestic capital stays home.
+
+[[Saudi Aramco]] accounts for 16% of the Tadawul benchmark and is up 7.6% in March — a significant single-stock anchor for index performance.
+
+### UAE — higher foreign ownership = more vulnerable
+
+[[UAE]] citizens were net purchasers of 2.2 billion dirhams ($611 million) of stocks in the first 13 days of March, but a higher share of foreign ownership means the market is more vulnerable to outflows.
+
+[[SICO Bank]] analyst Chiro Ghosh (VP sell-side research, Mar 13): *"Investors have been rebalancing portfolios away from the UAE market as they reassess the relatively low risk premium, particularly following the strong market rally earlier in the year prior to the conflict."*
+
+The structural divergence: UAE's economy is more exposed to international trade and tourism (both disrupted by the conflict), while [[Saudi Arabia]]'s oil-dominated economy benefits from higher crude prices and its ability to ship from its Red Sea coast, bypassing Hormuz entirely. Reopening of the [[Strait of Hormuz]] is the key variable for UAE normalization.
+
+### European defense — MCM spotlight (Mar 13)
+
+[[Exail Technologies]] (Euronext Paris: EXA) +5.8% to €131.40 in two weeks since conflict erupted. French naval defense specialist making mine-destroying drones, AUVs, and autonomous surface vehicles — exactly the capabilities needed to reopen a mined [[Strait of Hormuz]]. Now the most expensive defense stock in Western Europe at 59x estimated earnings (5-year pre-2025 average: 24x). Stock 7x since end-2024 on [[European defense spending]] surge. Backlog >€1B (FY2025), order intake €844M (+87% YoY). Existing clients include [[UAE]] and [[Qatar]]. [[TP ICAP]] analyst [[Julien Thomas]]: *"It could have a significant indirect impact on Exail's offering, which would suddenly become highly strategic for a number of countries with which the group already works."*
+
+---
+
 ## Portfolio implications
 
 | Theme | Action | Rationale |
@@ -366,6 +418,11 @@ Wall Street's worst week since October marks the transition from "short war, buy
 - [[Defense]] — sector hub
 - [[Strait of Hormuz]] — oil chokepoint
 - [[Gold]]
+- [[Saudi Arabia]] — actor (Gulf equity outperformer, domestic investor flows)
+- [[UAE]] — actor (Dubai -17%, trade/tourism exposure)
+- [[Tadawul]] — actor (Saudi exchange, +1.7% during conflict)
+- [[Dubai Financial Market]] — actor (UAE exchange, -17% during conflict)
+- [[Exail Technologies]] — actor (French MCM drone specialist, +5.8% on Hormuz mine threat)
 
 ### Cross-vault
 - [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — military timeline, casualties, diplomatic responses
@@ -376,6 +433,8 @@ Wall Street's worst week since October marks the transition from "short war, buy
 
 - Robin J. Brooks: [The Blockade of the Straits of Hormuz](https://robinjbrooks.substack.com/p/the-blockade-of-the-straits-of-hormuz) (March 9, 2026)
 - Robin J. Brooks: [Oil Tanker Traffic in the Straits of Hormuz](https://robinjbrooks.substack.com/p/oil-tanker-traffic-in-the-straits) (March 8, 2026)
+- Bloomberg: "Saudi Equities Rise Despite War Backed by Local Investors" (March 13, 2026)
+- Bloomberg: "Exail Technologies Stock Soars as Iran War Thrusts Seagoing Drones Into Spotlight" (March 13, 2026)
 
 ---
 

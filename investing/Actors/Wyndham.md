@@ -7,6 +7,19 @@ aliases: [WH, Wyndham Hotels]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.80 |
+| Industrials | XLI | 0.76 |
+| Communications | XLC | 0.75 |
+| *S&P 500* | *SPY* | *0.76* |
+
+WH trades as a core Consumer name (XLY r = 0.80).
+
+---
+
 
 ![[wh-employees-chart.png]]
 *Headcount: 2,000 (2025) — down 9.1% YoY*

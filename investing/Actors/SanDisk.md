@@ -7,6 +7,19 @@ aliases: [SNDK]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.64 |
+| [[Semiconductors]] | SMH | 0.61 |
+| Technology | XLK | 0.60 |
+| *S&P 500* | *SPY* | *0.56* |
+
+SNDK shows moderate Oil & Gas E&P correlation (XOP r = 0.64).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

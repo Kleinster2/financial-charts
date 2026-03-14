@@ -7,6 +7,22 @@ aliases: [TRI]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> TRI does not trade tightly with any sector ETF (max r = 0.39 with IGV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.39 |
+| Financials | XLF | 0.34 |
+| Communications | XLC | 0.26 |
+| *S&P 500* | *SPY* | *0.27* |
+
+TRI trades between Software and Financials without a tight sector fit.
+
+---
+
 ## Overview
 
 | Metric | Value |

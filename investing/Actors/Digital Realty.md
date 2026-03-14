@@ -13,6 +13,19 @@ aliases: [DLR]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.61 |
+| Industrials | XLI | 0.58 |
+| Technology | XLK | 0.57 |
+| *S&P 500* | *SPY* | *0.57* |
+
+DLR shows moderate Real Estate correlation (XLRE r = 0.61).
+
+---
+
 ## Why Digital Realty matters
 
 Digital Realty is the \#2 data center REIT, focused on larger deployments:

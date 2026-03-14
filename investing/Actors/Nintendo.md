@@ -7,6 +7,22 @@ aliases: [NTDOY, 7974]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> NTDOY does not trade tightly with any sector ETF (max r = 0.41 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.41 |
+| Technology | XLK | 0.40 |
+| [[Consumer]] | XLY | 0.39 |
+| *S&P 500* | *SPY* | *0.40* |
+
+NTDOY trades between Regional Banks and Technology without a tight sector fit.
+
+---
+
 ## Why Nintendo matters for this vault
 
 Nintendo is the clearest victim of AI-driven memory reallocation:

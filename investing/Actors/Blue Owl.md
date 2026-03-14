@@ -14,6 +14,19 @@ aliases: [OWL, Owl Rock, Owl Rock Capital]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.76 |
+| Financials | XLF | 0.75 |
+| Technology | XLK | 0.70 |
+| *S&P 500* | *SPY* | *0.72* |
+
+OWL trades as a core Regional Banks name (KRE r = 0.76).
+
+---
+
 ## Price: OWL vs peers
 
 ![[owl-vs-arcc-price-chart.png]]

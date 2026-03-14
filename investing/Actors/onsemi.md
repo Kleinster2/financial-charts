@@ -7,6 +7,19 @@ aliases: [ON Semiconductor, ON]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.78 |
+| Technology | XLK | 0.72 |
+| Industrials | XLI | 0.70 |
+| *S&P 500* | *SPY* | *0.72* |
+
+ON trades as a core Semiconductors name (SMH r = 0.78).
+
+---
+
 ## Why onsemi matters
 
 | Metric | Value |

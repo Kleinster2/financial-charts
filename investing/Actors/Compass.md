@@ -7,6 +7,22 @@ aliases: [COMP, Compass Real Estate]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> COMP does not trade tightly with any sector ETF (max r = 0.38 with XLC).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.38 |
+| [[Banks|Regional Banks]] | KRE | 0.38 |
+| [[Healthcare]] | XLV | 0.37 |
+| *S&P 500* | *SPY* | *0.31* |
+
+COMP trades between Communications and Regional Banks without a tight sector fit.
+
+---
+
 
 ![[comp-employees-chart.png]]
 *Headcount: 2,566 (2024) — up 0.7% YoY*

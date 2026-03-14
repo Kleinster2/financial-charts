@@ -7,6 +7,19 @@ aliases: [MS]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.86 |
+| [[Banks|Regional Banks]] | KRE | 0.81 |
+| Technology | XLK | 0.77 |
+| *S&P 500* | *SPY* | *0.81* |
+
+MS trades as a core Financials name (XLF r = 0.86).
+
+---
+
 ## Why Morgan Stanley matters
 
 | Metric | Value |

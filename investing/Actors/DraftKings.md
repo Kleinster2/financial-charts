@@ -7,6 +7,19 @@ DraftKings — Sports betting platform. [[Nasdaq]]: DKNG. Daily fantasy + sports
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.51 |
+| [[Consumer]] | XLY | 0.48 |
+| Financials | XLF | 0.46 |
+| *S&P 500* | *SPY* | *0.45* |
+
+DKNG shows moderate Software correlation (IGV r = 0.51).
+
+---
+
 ## Why DraftKings matters
 
 | Metric | Value |

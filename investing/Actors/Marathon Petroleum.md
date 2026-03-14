@@ -7,6 +7,19 @@ aliases: [MPC]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.80 |
+| [[Energy and Utilities|Energy]] | XLE | 0.77 |
+| [[Banks|Regional Banks]] | KRE | 0.69 |
+| *S&P 500* | *SPY* | *0.59* |
+
+MPC trades as a core Oil & Gas E&P name (XOP r = 0.80).
+
+---
+
 ## Why [[Marathon]] Petroleum matters
 
 | Metric | Value |

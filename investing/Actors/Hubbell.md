@@ -7,6 +7,19 @@ tags: [actor, company, grid, infrastructure]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.72 |
+| [[Semiconductors]] | SMH | 0.72 |
+| Technology | XLK | 0.68 |
+| *S&P 500* | *SPY* | *0.67* |
+
+HUBB trades as a core Industrials name (XLI r = 0.72).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

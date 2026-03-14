@@ -7,6 +7,19 @@ aliases: [DB]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.65 |
+| Financials | XLF | 0.60 |
+| Industrials | XLI | 0.60 |
+| *S&P 500* | *SPY* | *0.65* |
+
+DB shows moderate Technology correlation (XLK r = 0.65).
+
+---
+
 ## Why Deutsche Bank matters
 
 | Metric | Value |

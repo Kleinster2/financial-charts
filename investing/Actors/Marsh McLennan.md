@@ -7,6 +7,19 @@ aliases: [MMC, Marsh & McLennan, Marsh]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.51 |
+| Communications | XLC | 0.45 |
+| [[Healthcare]] | XLV | 0.42 |
+| *S&P 500* | *SPY* | *0.30* |
+
+MMC shows moderate Financials correlation (XLF r = 0.51).
+
+---
+
 ## Why Marsh McLennan matters
 
 | Metric | Value |

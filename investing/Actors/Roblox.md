@@ -7,6 +7,19 @@ aliases: [RBLX]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.52 |
+| Software | IGV | 0.47 |
+| Industrials | XLI | 0.46 |
+| *S&P 500* | *SPY* | *0.49* |
+
+RBLX shows moderate Technology correlation (XLK r = 0.52).
+
+---
+
 ## Why Roblox matters
 
 | Metric | Value |

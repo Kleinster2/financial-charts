@@ -7,6 +7,19 @@ aliases: [LEU]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.52 |
+| [[Defense]] | ITA | 0.48 |
+| [[Semiconductors]] | SMH | 0.47 |
+| *S&P 500* | *SPY* | *0.44* |
+
+LEU shows moderate Technology correlation (XLK r = 0.52).
+
+---
+
 ## Why Centrus matters
 
 Advanced SMRs need HALEU fuel. Centrus is the only US source:

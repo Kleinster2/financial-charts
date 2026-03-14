@@ -7,6 +7,19 @@ aliases: [SMCI, Supermicro]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.62 |
+| [[Semiconductors]] | SMH | 0.58 |
+| Industrials | XLI | 0.54 |
+| *S&P 500* | *SPY* | *0.60* |
+
+SMCI shows moderate Technology correlation (XLK r = 0.62).
+
+---
+
 ## Why Supermicro matters
 
 \#1 AI server company (with drama):

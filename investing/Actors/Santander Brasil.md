@@ -11,6 +11,19 @@ aliases:
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.52 |
+| [[Defense]] | ITA | 0.50 |
+| [[Semiconductors]] | SMH | 0.47 |
+| *S&P 500* | *SPY* | *0.45* |
+
+BSBR shows moderate China Internet correlation (KWEB r = 0.52).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

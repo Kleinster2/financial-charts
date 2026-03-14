@@ -7,6 +7,22 @@ aliases: [UEC]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> UEC does not trade tightly with any sector ETF (max r = 0.41 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.41 |
+| [[Semiconductors]] | SMH | 0.41 |
+| Industrials | XLI | 0.35 |
+| *S&P 500* | *SPY* | *0.36* |
+
+UEC trades between Technology and Semiconductors without a tight sector fit.
+
+---
+
 ## Why UEC matters
 
 UEC is the largest pure-play US uranium producer:

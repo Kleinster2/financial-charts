@@ -1,0 +1,2688 @@
+{
+  "raw_data": [
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.943521435546875,
+      "daily_return": null,
+      "date": "2025-01-15 00:00:00",
+      "securities_value": 23702.8564453125,
+      "total_value": 5647.8564453125
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.9530974395751953,
+      "daily_return": -0.16955112299761127,
+      "date": "2025-01-16 00:00:00",
+      "securities_value": 22745.25604248047,
+      "total_value": 4690.256042480469
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.9513835266113281,
+      "daily_return": 0.036541991489248735,
+      "date": "2025-01-17 00:00:00",
+      "securities_value": 22916.647338867188,
+      "total_value": 4861.6473388671875
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -1.18055,
+      "daily_return": -4.713761764588831,
+      "date": "2025-01-18 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -18055.0
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -1.18055,
+      "daily_return": 0.0,
+      "date": "2025-01-19 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -18055.0
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -1.18055,
+      "daily_return": 0.0,
+      "date": "2025-01-20 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -18055.0
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.9586975677490235,
+      "daily_return": -1.2287589712045226,
+      "date": "2025-01-21 00:00:00",
+      "securities_value": 22185.243225097656,
+      "total_value": 4130.243225097656
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.9575117614746094,
+      "daily_return": 0.028710325513239602,
+      "date": "2025-01-22 00:00:00",
+      "securities_value": 22303.823852539062,
+      "total_value": 4248.8238525390625
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.9576811492919922,
+      "daily_return": -0.003986698984510448,
+      "date": "2025-01-23 00:00:00",
+      "securities_value": 22286.88507080078,
+      "total_value": 4231.885070800781
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.958558056640625,
+      "daily_return": -0.020721435813163023,
+      "date": "2025-01-24 00:00:00",
+      "securities_value": 22199.1943359375,
+      "total_value": 4144.1943359375
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -1.18055,
+      "daily_return": -5.356697233870331,
+      "date": "2025-01-25 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -18055.0
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -1.18055,
+      "daily_return": 0.0,
+      "date": "2025-01-26 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -18055.0
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.9515030944824219,
+      "daily_return": -1.2686065107592253,
+      "date": "2025-01-27 00:00:00",
+      "securities_value": 22904.690551757812,
+      "total_value": 4849.6905517578125
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.9431328247070313,
+      "daily_return": 0.17259389410643422,
+      "date": "2025-01-28 00:00:00",
+      "securities_value": 23741.717529296875,
+      "total_value": 5686.717529296875
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.9420367095947265,
+      "daily_return": 0.019275005425497455,
+      "date": "2025-01-29 00:00:00",
+      "securities_value": 23851.329040527344,
+      "total_value": 5796.329040527344
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.9438004425048828,
+      "daily_return": -0.030428447001962945,
+      "date": "2025-01-30 00:00:00",
+      "securities_value": 23674.95574951172,
+      "total_value": 5619.955749511719
+    },
+    {
+      "cash_balance": -18055.0,
+      "cumulative_return": -0.9453848083496094,
+      "daily_return": -0.028191785048560528,
+      "date": "2025-01-31 00:00:00",
+      "securities_value": 23516.519165039062,
+      "total_value": 5461.5191650390625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -7.739882968027033,
+      "date": "2025-02-01 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-02-02 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9365593658447265,
+      "daily_return": -1.1723461943908542,
+      "date": "2025-02-03 00:00:00",
+      "securities_value": 43154.063415527344,
+      "total_value": 6344.063415527344
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9310652557373047,
+      "daily_return": 0.08660238316620268,
+      "date": "2025-02-04 00:00:00",
+      "securities_value": 43703.47442626953,
+      "total_value": 6893.474426269531
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9309366088867187,
+      "daily_return": 0.0018662120525999536,
+      "date": "2025-02-05 00:00:00",
+      "securities_value": 43716.339111328125,
+      "total_value": 6906.339111328125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9289311767578124,
+      "daily_return": 0.02903755660675334,
+      "date": "2025-02-06 00:00:00",
+      "securities_value": 43916.88232421875,
+      "total_value": 7106.88232421875
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9375197998046875,
+      "daily_return": -0.12084937747747407,
+      "date": "2025-02-07 00:00:00",
+      "securities_value": 43058.02001953125,
+      "total_value": 6248.02001953125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -6.891466398144099,
+      "date": "2025-02-08 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-02-09 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9360222564697266,
+      "daily_return": -1.1738053342305717,
+      "date": "2025-02-10 00:00:00",
+      "securities_value": 43207.774353027344,
+      "total_value": 6397.774353027344
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9314522491455078,
+      "daily_return": 0.07143120516678245,
+      "date": "2025-02-11 00:00:00",
+      "securities_value": 43664.77508544922,
+      "total_value": 6854.775085449219
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9284060760498047,
+      "daily_return": 0.04443870233130338,
+      "date": "2025-02-12 00:00:00",
+      "securities_value": 43969.39239501953,
+      "total_value": 7159.392395019531
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9230115447998047,
+      "daily_return": 0.07534900941807204,
+      "date": "2025-02-13 00:00:00",
+      "securities_value": 44508.84552001953,
+      "total_value": 7698.845520019531
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9209982696533203,
+      "daily_return": 0.02615035126044804,
+      "date": "2025-02-14 00:00:00",
+      "securities_value": 44710.17303466797,
+      "total_value": 7900.173034667969
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -5.659391615660613,
+      "date": "2025-02-15 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-02-16 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-02-17 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9205262542724609,
+      "daily_return": -1.215902596380166,
+      "date": "2025-02-18 00:00:00",
+      "securities_value": 44757.374572753906,
+      "total_value": 7947.374572753906
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9175762725830078,
+      "daily_return": 0.037118946168292956,
+      "date": "2025-02-19 00:00:00",
+      "securities_value": 45052.37274169922,
+      "total_value": 8242.372741699219
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9155273681640625,
+      "daily_return": 0.02485818687353998,
+      "date": "2025-02-20 00:00:00",
+      "securities_value": 45257.26318359375,
+      "total_value": 8447.26318359375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9197529693603516,
+      "daily_return": -0.0500233164807273,
+      "date": "2025-02-21 00:00:00",
+      "securities_value": 44834.703063964844,
+      "total_value": 8024.703063964844
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -5.587085616325961,
+      "date": "2025-02-22 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-02-23 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9203044372558594,
+      "daily_return": -1.2165051962622675,
+      "date": "2025-02-24 00:00:00",
+      "securities_value": 44779.55627441406,
+      "total_value": 7969.5562744140625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9234037261962891,
+      "daily_return": -0.03888910290250198,
+      "date": "2025-02-25 00:00:00",
+      "securities_value": 44469.627380371094,
+      "total_value": 7659.627380371094
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9291555725097657,
+      "daily_return": -0.07509303035049071,
+      "date": "2025-02-26 00:00:00",
+      "securities_value": 43894.44274902344,
+      "total_value": 7084.4427490234375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9357956024169922,
+      "daily_return": -0.09372691886234615,
+      "date": "2025-02-27 00:00:00",
+      "securities_value": 43230.43975830078,
+      "total_value": 6420.439758300781
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9290444427490234,
+      "daily_return": 0.1051510476247424,
+      "date": "2025-02-28 00:00:00",
+      "securities_value": 43905.555725097656,
+      "total_value": 7095.555725097656
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -6.187754338930709,
+      "date": "2025-03-01 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-03-02 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9370803924560547,
+      "daily_return": -1.1709307458406555,
+      "date": "2025-03-03 00:00:00",
+      "securities_value": 43101.96075439453,
+      "total_value": 6291.960754394531
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9391154724121094,
+      "daily_return": -0.03234412984272533,
+      "date": "2025-03-04 00:00:00",
+      "securities_value": 42898.45275878906,
+      "total_value": 6088.4527587890625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9331215301513672,
+      "daily_return": 0.09844770910129108,
+      "date": "2025-03-05 00:00:00",
+      "securities_value": 43497.84698486328,
+      "total_value": 6687.846984863281
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9355883422851563,
+      "daily_return": -0.03688499661209715,
+      "date": "2025-03-06 00:00:00",
+      "securities_value": 43251.165771484375,
+      "total_value": 6441.165771484375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9336412750244141,
+      "daily_return": 0.030228491701952943,
+      "date": "2025-03-07 00:00:00",
+      "securities_value": 43445.872497558594,
+      "total_value": 6635.872497558594
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -6.547122855893145,
+      "date": "2025-03-08 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-03-09 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9517551513671875,
+      "daily_return": -1.1310645167965567,
+      "date": "2025-03-10 00:00:00",
+      "securities_value": 41634.48486328125,
+      "total_value": 4824.48486328125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9582344604492188,
+      "daily_return": -0.13430053706551612,
+      "date": "2025-03-11 00:00:00",
+      "securities_value": 40986.553955078125,
+      "total_value": 4176.553955078125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9606799255371093,
+      "daily_return": -0.05855222066309643,
+      "date": "2025-03-12 00:00:00",
+      "securities_value": 40742.00744628906,
+      "total_value": 3932.0074462890625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9702043090820313,
+      "daily_return": -0.24222699664291752,
+      "date": "2025-03-13 00:00:00",
+      "securities_value": 39789.569091796875,
+      "total_value": 2979.569091796875
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9615255828857422,
+      "daily_return": 0.29127454101274836,
+      "date": "2025-03-14 00:00:00",
+      "securities_value": 40657.44171142578,
+      "total_value": 3847.4417114257812
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -10.567396405430918,
+      "date": "2025-03-15 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-03-16 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9609470611572266,
+      "daily_return": -1.1060932867231008,
+      "date": "2025-03-17 00:00:00",
+      "securities_value": 40715.293884277344,
+      "total_value": 3905.2938842773438
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.964834878540039,
+      "daily_return": -0.09955249202793152,
+      "date": "2025-03-18 00:00:00",
+      "securities_value": 40326.512145996094,
+      "total_value": 3516.5121459960938
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9601485534667968,
+      "daily_return": 0.13326628428052054,
+      "date": "2025-03-19 00:00:00",
+      "securities_value": 40795.14465332031,
+      "total_value": 3985.1446533203125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9617740875244141,
+      "daily_return": -0.04078983823743606,
+      "date": "2025-03-20 00:00:00",
+      "securities_value": 40632.591247558594,
+      "total_value": 3822.5912475585938
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9554119201660156,
+      "daily_return": 0.16643598403208337,
+      "date": "2025-03-21 00:00:00",
+      "securities_value": 41268.80798339844,
+      "total_value": 4458.8079833984375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -9.255569680743228,
+      "date": "2025-03-22 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-03-23 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9520511108398437,
+      "daily_return": -1.1302604975826032,
+      "date": "2025-03-24 00:00:00",
+      "securities_value": 41604.888916015625,
+      "total_value": 4794.888916015625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9480020690917969,
+      "daily_return": 0.08444495417865652,
+      "date": "2025-03-25 00:00:00",
+      "securities_value": 42009.79309082031,
+      "total_value": 5199.7930908203125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9528026519775391,
+      "daily_return": -0.09232257518509941,
+      "date": "2025-03-26 00:00:00",
+      "securities_value": 41529.734802246094,
+      "total_value": 4719.734802246094
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9501843811035157,
+      "daily_return": 0.05547495746535203,
+      "date": "2025-03-27 00:00:00",
+      "securities_value": 41791.56188964844,
+      "total_value": 4981.5618896484375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9619894195556641,
+      "daily_return": -0.2369746419627751,
+      "date": "2025-03-28 00:00:00",
+      "securities_value": 40611.058044433594,
+      "total_value": 3801.0580444335938
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -10.684145721980197,
+      "date": "2025-03-29 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-03-30 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9594688049316407,
+      "daily_return": -1.110109196056396,
+      "date": "2025-03-31 00:00:00",
+      "securities_value": 40863.11950683594,
+      "total_value": 4053.1195068359375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9550231872558593,
+      "daily_return": 0.10968385383858853,
+      "date": "2025-04-01 00:00:00",
+      "securities_value": 41307.68127441406,
+      "total_value": 4497.6812744140625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9543498168945312,
+      "daily_return": 0.01497150020742296,
+      "date": "2025-04-02 00:00:00",
+      "securities_value": 41375.018310546875,
+      "total_value": 4565.018310546875
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9794986358642578,
+      "daily_return": -0.55090291558357,
+      "date": "2025-04-03 00:00:00",
+      "securities_value": 38860.13641357422,
+      "total_value": 2050.1364135742188
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.000884408569336,
+      "daily_return": -1.043139010822897,
+      "date": "2025-04-04 00:00:00",
+      "securities_value": 36721.559143066406,
+      "total_value": -88.44085693359375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 415.21034978933966,
+      "date": "2025-04-05 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-04-06 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.008774087524414,
+      "daily_return": -0.9761638480727681,
+      "date": "2025-04-07 00:00:00",
+      "securities_value": 35932.591247558594,
+      "total_value": -877.4087524414062
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.0194363037109375,
+      "daily_return": 1.215193734602672,
+      "date": "2025-04-08 00:00:00",
+      "securities_value": 34866.36962890625,
+      "total_value": -1943.63037109375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9751681915283203,
+      "daily_return": -2.2775993234611756,
+      "date": "2025-04-09 00:00:00",
+      "securities_value": 39293.18084716797,
+      "total_value": 2483.1808471679688
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.98813173828125,
+      "daily_return": -0.5220540730134264,
+      "date": "2025-04-10 00:00:00",
+      "securities_value": 37996.826171875,
+      "total_value": 1186.826171875
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9768829284667969,
+      "daily_return": 0.9478060124577269,
+      "date": "2025-04-11 00:00:00",
+      "securities_value": 39121.70715332031,
+      "total_value": 2311.7071533203125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -16.92329718196774,
+      "date": "2025-04-12 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-04-13 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9728424926757813,
+      "daily_return": -1.0737775260098308,
+      "date": "2025-04-14 00:00:00",
+      "securities_value": 39525.750732421875,
+      "total_value": 2715.750732421875
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.974257958984375,
+      "daily_return": -0.05212062696680021,
+      "date": "2025-04-15 00:00:00",
+      "securities_value": 39384.2041015625,
+      "total_value": 2574.2041015625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9891442352294922,
+      "daily_return": -0.5782865560691733,
+      "date": "2025-04-16 00:00:00",
+      "securities_value": 37895.57647705078,
+      "total_value": 1085.5764770507812
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9883492065429688,
+      "daily_return": 0.07323562211695266,
+      "date": "2025-04-17 00:00:00",
+      "securities_value": 37975.079345703125,
+      "total_value": 1165.079345703125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -32.594414694378756,
+      "date": "2025-04-18 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-04-19 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-04-20 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9964748474121093,
+      "daily_return": -1.009576616647353,
+      "date": "2025-04-21 00:00:00",
+      "securities_value": 37162.51525878906,
+      "total_value": 352.5152587890625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9860742584228516,
+      "daily_return": 2.950393984358362,
+      "date": "2025-04-22 00:00:00",
+      "securities_value": 38202.574157714844,
+      "total_value": 1392.5741577148438
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9774542785644531,
+      "daily_return": 0.6189961095173176,
+      "date": "2025-04-23 00:00:00",
+      "securities_value": 39064.57214355469,
+      "total_value": 2254.5721435546875
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9672609039306641,
+      "daily_return": 0.45212013565099785,
+      "date": "2025-04-24 00:00:00",
+      "securities_value": 40083.909606933594,
+      "total_value": 3273.9096069335938
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9640860076904297,
+      "daily_return": 0.09697568416398776,
+      "date": "2025-04-25 00:00:00",
+      "securities_value": 40401.39923095703,
+      "total_value": 3591.3992309570312
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -11.249487075317695,
+      "date": "2025-04-26 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-04-27 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9635719085693359,
+      "daily_return": -1.098962486907536,
+      "date": "2025-04-28 00:00:00",
+      "securities_value": 40452.809143066406,
+      "total_value": 3642.8091430664062
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9610694976806641,
+      "daily_return": 0.06869453738565676,
+      "date": "2025-04-29 00:00:00",
+      "securities_value": 40703.050231933594,
+      "total_value": 3893.0502319335938
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9591747833251953,
+      "daily_return": 0.04866914739314027,
+      "date": "2025-04-30 00:00:00",
+      "securities_value": 40892.52166748047,
+      "total_value": 4082.5216674804688
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9433390899658203,
+      "daily_return": 0.38789000155259457,
+      "date": "2025-05-01 00:00:00",
+      "securities_value": 42476.09100341797,
+      "total_value": 5666.091003417969
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9463667694091797,
+      "daily_return": -0.05343506557753804,
+      "date": "2025-05-02 00:00:00",
+      "securities_value": 42173.32305908203,
+      "total_value": 5363.323059082031
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -7.863282258872595,
+      "date": "2025-05-03 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-05-04 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9523675476074219,
+      "daily_return": -1.1294008486622606,
+      "date": "2025-05-05 00:00:00",
+      "securities_value": 41573.24523925781,
+      "total_value": 4763.2452392578125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9541716552734375,
+      "daily_return": -0.03787559899596379,
+      "date": "2025-05-06 00:00:00",
+      "securities_value": 41392.83447265625,
+      "total_value": 4582.83447265625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9564062133789063,
+      "daily_return": -0.04875930210443715,
+      "date": "2025-05-07 00:00:00",
+      "securities_value": 41169.378662109375,
+      "total_value": 4359.378662109375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9527675872802734,
+      "daily_return": 0.08346662175182984,
+      "date": "2025-05-08 00:00:00",
+      "securities_value": 41533.241271972656,
+      "total_value": 4723.241271972656
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9514510894775391,
+      "daily_return": 0.027872762091286123,
+      "date": "2025-05-09 00:00:00",
+      "securities_value": 41664.891052246094,
+      "total_value": 4854.891052246094
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -8.582044499838986,
+      "date": "2025-05-10 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-05-11 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9336985870361328,
+      "daily_return": -1.1801179379621494,
+      "date": "2025-05-12 00:00:00",
+      "securities_value": 43440.14129638672,
+      "total_value": 6630.141296386719
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9316207824707031,
+      "daily_return": 0.03133876749447324,
+      "date": "2025-05-13 00:00:00",
+      "securities_value": 43647.92175292969,
+      "total_value": 6837.9217529296875
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9303267150878907,
+      "daily_return": 0.01892486386317686,
+      "date": "2025-05-14 00:00:00",
+      "securities_value": 43777.32849121094,
+      "total_value": 6967.3284912109375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9306965423583984,
+      "daily_return": -0.005308021158674201,
+      "date": "2025-05-15 00:00:00",
+      "securities_value": 43740.345764160156,
+      "total_value": 6930.345764160156
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9303172698974609,
+      "daily_return": 0.005472634033627637,
+      "date": "2025-05-16 00:00:00",
+      "securities_value": 43778.273010253906,
+      "total_value": 6968.273010253906
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -6.282514038389942,
+      "date": "2025-05-17 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-05-18 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9304982391357421,
+      "daily_return": -1.1888121729537022,
+      "date": "2025-05-19 00:00:00",
+      "securities_value": 43760.17608642578,
+      "total_value": 6950.176086425781
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9327654663085938,
+      "daily_return": -0.03262114721495515,
+      "date": "2025-05-20 00:00:00",
+      "securities_value": 43533.453369140625,
+      "total_value": 6723.453369140625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9403254791259765,
+      "daily_return": -0.11244240723200129,
+      "date": "2025-05-21 00:00:00",
+      "securities_value": 42777.452087402344,
+      "total_value": 5967.452087402344
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9399115386962891,
+      "daily_return": 0.006936635998491778,
+      "date": "2025-05-22 00:00:00",
+      "securities_value": 42818.846130371094,
+      "total_value": 6008.846130371094
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9483307739257812,
+      "daily_return": -0.14011400935926835,
+      "date": "2025-05-23 00:00:00",
+      "securities_value": 41976.922607421875,
+      "total_value": 5166.922607421875
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -8.12416321992618,
+      "date": "2025-05-24 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-05-25 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-05-26 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9381500030517578,
+      "daily_return": -1.1680249849178,
+      "date": "2025-05-27 00:00:00",
+      "securities_value": 42994.99969482422,
+      "total_value": 6184.999694824219
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9396025177001953,
+      "daily_return": -0.02348447405184199,
+      "date": "2025-05-28 00:00:00",
+      "securities_value": 42849.74822998047,
+      "total_value": 6039.748229980469
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9394130645751954,
+      "daily_return": 0.0031367718948876228,
+      "date": "2025-05-29 00:00:00",
+      "securities_value": 42868.69354248047,
+      "total_value": 6058.693542480469
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9376754699707032,
+      "daily_return": 0.028679361190808883,
+      "date": "2025-05-30 00:00:00",
+      "securities_value": 43042.45300292969,
+      "total_value": 6232.4530029296875
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -6.906181720535515,
+      "date": "2025-05-31 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-06-01 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9360227447509766,
+      "daily_return": -1.1738040077398082,
+      "date": "2025-06-02 00:00:00",
+      "securities_value": 43207.725524902344,
+      "total_value": 6397.725524902344
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9339553466796875,
+      "daily_return": 0.032314579036596285,
+      "date": "2025-06-03 00:00:00",
+      "securities_value": 43414.46533203125,
+      "total_value": 6604.46533203125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9339555755615234,
+      "daily_return": -3.4655619256177663e-06,
+      "date": "2025-06-04 00:00:00",
+      "securities_value": 43414.442443847656,
+      "total_value": 6604.442443847656
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9342412200927734,
+      "daily_return": -0.004325036271852004,
+      "date": "2025-06-05 00:00:00",
+      "securities_value": 43385.877990722656,
+      "total_value": 6575.877990722656
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9296071716308594,
+      "daily_return": 0.07047041426942297,
+      "date": "2025-06-06 00:00:00",
+      "securities_value": 43849.28283691406,
+      "total_value": 7039.2828369140625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -6.229225881785575,
+      "date": "2025-06-07 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-06-08 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9308913055419922,
+      "daily_return": -1.1877443478891818,
+      "date": "2025-06-09 00:00:00",
+      "securities_value": 43720.86944580078,
+      "total_value": 6910.869445800781
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9305861907958984,
+      "daily_return": 0.004414997975097698,
+      "date": "2025-06-10 00:00:00",
+      "securities_value": 43751.380920410156,
+      "total_value": 6941.380920410156
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9336231781005859,
+      "daily_return": -0.043751918235140574,
+      "date": "2025-06-11 00:00:00",
+      "securities_value": 43447.682189941406,
+      "total_value": 6637.682189941406
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9300837799072266,
+      "daily_return": 0.053322802931464526,
+      "date": "2025-06-12 00:00:00",
+      "securities_value": 43801.622009277344,
+      "total_value": 6991.622009277344
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9347824645996093,
+      "daily_return": -0.06720450113218392,
+      "date": "2025-06-13 00:00:00",
+      "securities_value": 43331.75354003906,
+      "total_value": 6521.7535400390625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -6.644187529321988,
+      "date": "2025-06-14 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-06-15 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9307281127929687,
+      "daily_return": -1.188187685974005,
+      "date": "2025-06-16 00:00:00",
+      "securities_value": 43737.188720703125,
+      "total_value": 6927.188720703125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9340540710449219,
+      "daily_return": -0.048013102949150385,
+      "date": "2025-06-17 00:00:00",
+      "securities_value": 43404.59289550781,
+      "total_value": 6594.5928955078125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9320169464111329,
+      "daily_return": 0.030890832323807838,
+      "date": "2025-06-18 00:00:00",
+      "securities_value": 43608.30535888672,
+      "total_value": 6798.305358886719
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -6.41458467320567,
+      "date": "2025-06-19 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9290196166992187,
+      "daily_return": -1.19282907715507,
+      "date": "2025-06-20 00:00:00",
+      "securities_value": 43908.038330078125,
+      "total_value": 7098.038330078125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -6.185939873558678,
+      "date": "2025-06-21 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-06-22 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9242272430419922,
+      "daily_return": -1.2058482938277855,
+      "date": "2025-06-23 00:00:00",
+      "securities_value": 44387.27569580078,
+      "total_value": 7577.275695800781
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9233742614746093,
+      "daily_return": 0.011257100858234876,
+      "date": "2025-06-24 00:00:00",
+      "securities_value": 44472.57385253906,
+      "total_value": 7662.5738525390625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9210374542236328,
+      "daily_return": 0.030496374925016095,
+      "date": "2025-06-25 00:00:00",
+      "securities_value": 44706.25457763672,
+      "total_value": 7896.254577636719
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9190110717773438,
+      "daily_return": 0.02566257744561652,
+      "date": "2025-06-26 00:00:00",
+      "securities_value": 44908.892822265625,
+      "total_value": 8098.892822265625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9196849151611328,
+      "daily_return": -0.008320191396242705,
+      "date": "2025-06-27 00:00:00",
+      "securities_value": 44841.50848388672,
+      "total_value": 8031.508483886719
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -5.5831987943299035,
+      "date": "2025-06-28 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-06-29 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9148657623291016,
+      "daily_return": -1.2312801892716612,
+      "date": "2025-06-30 00:00:00",
+      "securities_value": 45323.423767089844,
+      "total_value": 8513.423767089844
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9148943725585937,
+      "daily_return": -0.0003360602065033511,
+      "date": "2025-07-01 00:00:00",
+      "securities_value": 45320.562744140625,
+      "total_value": 8510.562744140625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9107588134765625,
+      "daily_return": 0.04859325060353395,
+      "date": "2025-07-02 00:00:00",
+      "securities_value": 45734.11865234375,
+      "total_value": 8924.11865234375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9057814270019531,
+      "daily_return": 0.055774543890697366,
+      "date": "2025-07-03 00:00:00",
+      "securities_value": 46231.85729980469,
+      "total_value": 9421.857299804688
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -4.90687301120163,
+      "date": "2025-07-04 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-07-05 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-07-06 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.909936441040039,
+      "daily_return": -1.2446714451506682,
+      "date": "2025-07-07 00:00:00",
+      "securities_value": 45816.355895996094,
+      "total_value": 9006.355895996094
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9104256072998047,
+      "daily_return": -0.005431344990298362,
+      "date": "2025-07-08 00:00:00",
+      "securities_value": 45767.43927001953,
+      "total_value": 8957.439270019531
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9058575225830078,
+      "daily_return": 0.05099766327287547,
+      "date": "2025-07-09 00:00:00",
+      "securities_value": 46224.24774169922,
+      "total_value": 9414.247741699219
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9056023040771485,
+      "daily_return": 0.0027109814067131136,
+      "date": "2025-07-10 00:00:00",
+      "securities_value": 46249.769592285156,
+      "total_value": 9439.769592285156
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9059323974609375,
+      "daily_return": -0.0034968372963132283,
+      "date": "2025-07-11 00:00:00",
+      "securities_value": 46216.76025390625,
+      "total_value": 9406.76025390625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -4.913143208334058,
+      "date": "2025-07-12 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-07-13 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.908619287109375,
+      "daily_return": -1.2482496954377207,
+      "date": "2025-07-14 00:00:00",
+      "securities_value": 45948.0712890625,
+      "total_value": 9138.0712890625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9067321258544921,
+      "daily_return": 0.020651636381318072,
+      "date": "2025-07-15 00:00:00",
+      "securities_value": 46136.78741455078,
+      "total_value": 9326.787414550781
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9057831512451172,
+      "daily_return": 0.010174721125245104,
+      "date": "2025-07-16 00:00:00",
+      "securities_value": 46231.68487548828,
+      "total_value": 9421.684875488281
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9028879791259765,
+      "daily_return": 0.030728815041063257,
+      "date": "2025-07-17 00:00:00",
+      "securities_value": 46521.202087402344,
+      "total_value": 9711.202087402344
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9025529571533203,
+      "daily_return": 0.0034498506944969287,
+      "date": "2025-07-18 00:00:00",
+      "securities_value": 46554.70428466797,
+      "total_value": 9744.704284667969
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -4.777436331025024,
+      "date": "2025-07-19 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-07-20 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9012494445800782,
+      "daily_return": -1.2682710008691167,
+      "date": "2025-07-21 00:00:00",
+      "securities_value": 46685.05554199219,
+      "total_value": 9875.055541992188
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9017226806640625,
+      "daily_return": -0.004792237187649323,
+      "date": "2025-07-22 00:00:00",
+      "securities_value": 46637.73193359375,
+      "total_value": 9827.73193359375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9016728912353515,
+      "daily_return": 0.0005066217622475462,
+      "date": "2025-07-23 00:00:00",
+      "securities_value": 46642.710876464844,
+      "total_value": 9832.710876464844
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8995615631103515,
+      "daily_return": 0.02147249269836241,
+      "date": "2025-07-24 00:00:00",
+      "securities_value": 46853.843688964844,
+      "total_value": 10043.843688964844
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8980289855957031,
+      "daily_return": 0.015258874611243483,
+      "date": "2025-07-25 00:00:00",
+      "securities_value": 47007.10144042969,
+      "total_value": 10197.101440429688
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -4.609849349350877,
+      "date": "2025-07-26 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-07-27 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8984632049560547,
+      "daily_return": -1.2758402473348147,
+      "date": "2025-07-28 00:00:00",
+      "securities_value": 46963.67950439453,
+      "total_value": 10153.679504394531
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9012051177978515,
+      "daily_return": -0.027004130282132405,
+      "date": "2025-07-29 00:00:00",
+      "securities_value": 46689.488220214844,
+      "total_value": 9879.488220214844
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9030881591796875,
+      "daily_return": -0.01906011060353274,
+      "date": "2025-07-30 00:00:00",
+      "securities_value": 46501.18408203125,
+      "total_value": 9691.18408203125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8944531036376953,
+      "daily_return": 0.08910217233416022,
+      "date": "2025-07-31 00:00:00",
+      "securities_value": 47364.68963623047,
+      "total_value": 10554.689636230469
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9043245025634765,
+      "daily_return": -0.09352618850957278,
+      "date": "2025-08-01 00:00:00",
+      "securities_value": 46377.549743652344,
+      "total_value": 9567.549743652344
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -4.847380048838716,
+      "date": "2025-08-02 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-08-03 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8976000457763672,
+      "daily_return": -1.2781851513817788,
+      "date": "2025-08-04 00:00:00",
+      "securities_value": 47049.99542236328,
+      "total_value": 10239.995422363281
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.9019681182861328,
+      "daily_return": -0.04265697717233472,
+      "date": "2025-08-05 00:00:00",
+      "securities_value": 46613.18817138672,
+      "total_value": 9803.188171386719
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8930524993896485,
+      "daily_return": 0.09094611610646262,
+      "date": "2025-08-06 00:00:00",
+      "securities_value": 47504.750061035156,
+      "total_value": 10694.750061035156
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.888326821899414,
+      "daily_return": 0.04418689042067218,
+      "date": "2025-08-07 00:00:00",
+      "securities_value": 47977.317810058594,
+      "total_value": 11167.317810058594
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.878418374633789,
+      "daily_return": 0.08872718977067431,
+      "date": "2025-08-08 00:00:00",
+      "securities_value": 48968.162536621094,
+      "total_value": 12158.162536621094
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -4.0275956493529455,
+      "date": "2025-08-09 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-08-10 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8804631591796875,
+      "daily_return": -1.3247401271945463,
+      "date": "2025-08-11 00:00:00",
+      "securities_value": 48763.68408203125,
+      "total_value": 11953.68408203125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.874264306640625,
+      "daily_return": 0.05185725585956049,
+      "date": "2025-08-12 00:00:00",
+      "securities_value": 49383.5693359375,
+      "total_value": 12573.5693359375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8749071746826171,
+      "daily_return": -0.005112852403452026,
+      "date": "2025-08-13 00:00:00",
+      "securities_value": 49319.28253173828,
+      "total_value": 12509.282531738281
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8745087524414062,
+      "daily_return": 0.0031850127311464044,
+      "date": "2025-08-14 00:00:00",
+      "securities_value": 49359.124755859375,
+      "total_value": 12549.124755859375
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8768518615722656,
+      "daily_return": -0.018671494438409677,
+      "date": "2025-08-15 00:00:00",
+      "securities_value": 49124.81384277344,
+      "total_value": 12314.813842773438
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -3.9890829427032544,
+      "date": "2025-08-16 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-08-17 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8790843597412109,
+      "daily_return": -1.3284858469404757,
+      "date": "2025-08-18 00:00:00",
+      "securities_value": 48901.564025878906,
+      "total_value": 12091.564025878906
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8830733276367188,
+      "daily_return": -0.03298967682733553,
+      "date": "2025-08-19 00:00:00",
+      "securities_value": 48502.667236328125,
+      "total_value": 11692.667236328125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8896449981689453,
+      "daily_return": -0.0562033486406672,
+      "date": "2025-08-20 00:00:00",
+      "securities_value": 47845.50018310547,
+      "total_value": 11035.500183105469
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8910800109863282,
+      "daily_return": -0.013003604671945097,
+      "date": "2025-08-21 00:00:00",
+      "securities_value": 47701.99890136719,
+      "total_value": 10891.998901367188
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.886725,
+      "daily_return": 0.03998357900845431,
+      "date": "2025-08-22 00:00:00",
+      "securities_value": 48137.5,
+      "total_value": 11327.5
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -4.249613771794306,
+      "date": "2025-08-23 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-08-24 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8888099914550781,
+      "daily_return": -1.3020646795569732,
+      "date": "2025-08-25 00:00:00",
+      "securities_value": 47929.00085449219,
+      "total_value": 11119.000854492188
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8877699981689453,
+      "daily_return": 0.009353298014296355,
+      "date": "2025-08-26 00:00:00",
+      "securities_value": 48033.00018310547,
+      "total_value": 11223.000183105469
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8842399993896485,
+      "daily_return": 0.03145325422528955,
+      "date": "2025-08-27 00:00:00",
+      "securities_value": 48386.000061035156,
+      "total_value": 11576.000061035156
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8807199951171875,
+      "daily_return": 0.03040777689963289,
+      "date": "2025-08-28 00:00:00",
+      "securities_value": 48738.00048828125,
+      "total_value": 11928.00048828125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8826149993896485,
+      "daily_return": -0.01588702376666314,
+      "date": "2025-08-29 00:00:00",
+      "securities_value": 48548.500061035156,
+      "total_value": 11738.500061035156
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -4.135835056319276,
+      "date": "2025-08-30 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-08-31 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-09-01 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8858200012207031,
+      "daily_return": -1.3101874457465277,
+      "date": "2025-09-02 00:00:00",
+      "securities_value": 48227.99987792969,
+      "total_value": 11417.999877929688
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8769549957275391,
+      "daily_return": 0.07764061646470666,
+      "date": "2025-09-03 00:00:00",
+      "securities_value": 49114.500427246094,
+      "total_value": 12304.500427246094
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8743350006103515,
+      "daily_return": 0.02129298245531362,
+      "date": "2025-09-04 00:00:00",
+      "securities_value": 49376.499938964844,
+      "total_value": 12566.499938964844
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8809099975585938,
+      "daily_return": -0.05232162479749153,
+      "date": "2025-09-05 00:00:00",
+      "securities_value": 48719.000244140625,
+      "total_value": 11909.000244140625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -4.090939562127474,
+      "date": "2025-09-06 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-09-07 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8811199890136718,
+      "daily_return": -1.3229557484007828,
+      "date": "2025-09-08 00:00:00",
+      "securities_value": 48698.00109863281,
+      "total_value": 11888.001098632812
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8845449920654297,
+      "daily_return": -0.02881058828428025,
+      "date": "2025-09-09 00:00:00",
+      "securities_value": 48355.50079345703,
+      "total_value": 11545.500793457031
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8911250091552735,
+      "daily_return": -0.05699204571163099,
+      "date": "2025-09-10 00:00:00",
+      "securities_value": 47697.499084472656,
+      "total_value": 10887.499084472656
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8875649963378907,
+      "daily_return": 0.0326981686956922,
+      "date": "2025-09-11 00:00:00",
+      "securities_value": 48053.50036621094,
+      "total_value": 11243.500366210938
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.879079995727539,
+      "daily_return": 0.07546582766920841,
+      "date": "2025-09-12 00:00:00",
+      "securities_value": 48902.000427246094,
+      "total_value": 12092.000427246094
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -4.044161321484781,
+      "date": "2025-09-13 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-09-14 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8737200103759766,
+      "daily_return": -1.3430589231839811,
+      "date": "2025-09-15 00:00:00",
+      "securities_value": 49437.998962402344,
+      "total_value": 12627.998962402344
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8754300018310547,
+      "daily_return": -0.013541270158235879,
+      "date": "2025-09-16 00:00:00",
+      "securities_value": 49266.99981689453,
+      "total_value": 12456.999816894531
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8741,
+      "daily_return": 0.010676742800067331,
+      "date": "2025-09-17 00:00:00",
+      "securities_value": 49400.0,
+      "total_value": 12590.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8759949890136719,
+      "daily_return": -0.01505154101407367,
+      "date": "2025-09-18 00:00:00",
+      "securities_value": 49210.50109863281,
+      "total_value": 12400.501098632812
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8636350036621093,
+      "daily_return": 0.09967327330768287,
+      "date": "2025-09-19 00:00:00",
+      "securities_value": 50446.49963378906,
+      "total_value": 13636.499633789062
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -3.6993730787621417,
+      "date": "2025-09-20 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-09-21 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8547950073242188,
+      "daily_return": -1.394471591077917,
+      "date": "2025-09-22 00:00:00",
+      "securities_value": 51330.499267578125,
+      "total_value": 14520.499267578125
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8590550018310547,
+      "daily_return": -0.02933779636866758,
+      "date": "2025-09-23 00:00:00",
+      "securities_value": 50904.49981689453,
+      "total_value": 14094.499816894531
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.860715005493164,
+      "daily_return": -0.011777669897299888,
+      "date": "2025-09-24 00:00:00",
+      "securities_value": 50738.499450683594,
+      "total_value": 13928.499450683594
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.857715005493164,
+      "daily_return": 0.021538572842121653,
+      "date": "2025-09-25 00:00:00",
+      "securities_value": 51038.499450683594,
+      "total_value": 14228.499450683594
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8569099975585938,
+      "daily_return": 0.005657714907749016,
+      "date": "2025-09-26 00:00:00",
+      "securities_value": 51119.000244140625,
+      "total_value": 14309.000244140625
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -3.5725067700011595,
+      "date": "2025-09-27 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-09-28 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.85637001953125,
+      "daily_return": -1.390192829309291,
+      "date": "2025-09-29 00:00:00",
+      "securities_value": 51172.998046875,
+      "total_value": 14362.998046875
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8544949890136718,
+      "daily_return": 0.013054590075545412,
+      "date": "2025-09-30 00:00:00",
+      "securities_value": 51360.50109863281,
+      "total_value": 14550.501098632812
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8527949920654296,
+      "daily_return": 0.011683425448501714,
+      "date": "2025-10-01 00:00:00",
+      "securities_value": 51530.50079345703,
+      "total_value": 14720.500793457031
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8531,
+      "daily_return": -0.0020719942809682293,
+      "date": "2025-10-02 00:00:00",
+      "securities_value": 51500.0,
+      "total_value": 14690.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8514050231933594,
+      "daily_return": 0.0115383036531016,
+      "date": "2025-10-03 00:00:00",
+      "securities_value": 51669.49768066406,
+      "total_value": 14859.497680664062
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": -3.477203522693708,
+      "date": "2025-10-04 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -1.3681,
+      "daily_return": 0.0,
+      "date": "2025-10-05 00:00:00",
+      "securities_value": 0.0,
+      "total_value": -36810.0
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8471249938964843,
+      "daily_return": -1.4153083567061007,
+      "date": "2025-10-06 00:00:00",
+      "securities_value": 52097.50061035156,
+      "total_value": 15287.500610351562
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8496299987792969,
+      "daily_return": -0.01638596750809806,
+      "date": "2025-10-07 00:00:00",
+      "securities_value": 51847.00012207031,
+      "total_value": 15037.000122070312
+    },
+    {
+      "cash_balance": -36810.0,
+      "cumulative_return": -0.8476150146484375,
+      "daily_return": 0.013400173668296477,
+      "date": "2025-10-08 00:00:00",
+      "securities_value": 52048.49853515625,
+      "total_value": 15238.49853515625
+    },
+    {
+      "cash_balance": 100000.0,
+      "cumulative_return": 0.0,
+      "daily_return": null,
+      "date": "2025-10-09",
+      "securities_value": 0.0,
+      "total_value": 100000.0
+    }
+  ],
+  "time": [
+    1736917200,
+    1737003600,
+    1737090000,
+    1737176400,
+    1737262800,
+    1737349200,
+    1737435600,
+    1737522000,
+    1737608400,
+    1737694800,
+    1737781200,
+    1737867600,
+    1737954000,
+    1738040400,
+    1738126800,
+    1738213200,
+    1738299600,
+    1738386000,
+    1738472400,
+    1738558800,
+    1738645200,
+    1738731600,
+    1738818000,
+    1738904400,
+    1738990800,
+    1739077200,
+    1739163600,
+    1739250000,
+    1739336400,
+    1739422800,
+    1739509200,
+    1739595600,
+    1739682000,
+    1739768400,
+    1739854800,
+    1739941200,
+    1740027600,
+    1740114000,
+    1740200400,
+    1740286800,
+    1740373200,
+    1740459600,
+    1740546000,
+    1740632400,
+    1740718800,
+    1740805200,
+    1740891600,
+    1740978000,
+    1741064400,
+    1741150800,
+    1741237200,
+    1741323600,
+    1741410000,
+    1741496400,
+    1741579200,
+    1741665600,
+    1741752000,
+    1741838400,
+    1741924800,
+    1742011200,
+    1742097600,
+    1742184000,
+    1742270400,
+    1742356800,
+    1742443200,
+    1742529600,
+    1742616000,
+    1742702400,
+    1742788800,
+    1742875200,
+    1742961600,
+    1743048000,
+    1743134400,
+    1743220800,
+    1743307200,
+    1743393600,
+    1743480000,
+    1743566400,
+    1743652800,
+    1743739200,
+    1743825600,
+    1743912000,
+    1743998400,
+    1744084800,
+    1744171200,
+    1744257600,
+    1744344000,
+    1744430400,
+    1744516800,
+    1744603200,
+    1744689600,
+    1744776000,
+    1744862400,
+    1744948800,
+    1745035200,
+    1745121600,
+    1745208000,
+    1745294400,
+    1745380800,
+    1745467200,
+    1745553600,
+    1745640000,
+    1745726400,
+    1745812800,
+    1745899200,
+    1745985600,
+    1746072000,
+    1746158400,
+    1746244800,
+    1746331200,
+    1746417600,
+    1746504000,
+    1746590400,
+    1746676800,
+    1746763200,
+    1746849600,
+    1746936000,
+    1747022400,
+    1747108800,
+    1747195200,
+    1747281600,
+    1747368000,
+    1747454400,
+    1747540800,
+    1747627200,
+    1747713600,
+    1747800000,
+    1747886400,
+    1747972800,
+    1748059200,
+    1748145600,
+    1748232000,
+    1748318400,
+    1748404800,
+    1748491200,
+    1748577600,
+    1748664000,
+    1748750400,
+    1748836800,
+    1748923200,
+    1749009600,
+    1749096000,
+    1749182400,
+    1749268800,
+    1749355200,
+    1749441600,
+    1749528000,
+    1749614400,
+    1749700800,
+    1749787200,
+    1749873600,
+    1749960000,
+    1750046400,
+    1750132800,
+    1750219200,
+    1750305600,
+    1750392000,
+    1750478400,
+    1750564800,
+    1750651200,
+    1750737600,
+    1750824000,
+    1750910400,
+    1750996800,
+    1751083200,
+    1751169600,
+    1751256000,
+    1751342400,
+    1751428800,
+    1751515200,
+    1751601600,
+    1751688000,
+    1751774400,
+    1751860800,
+    1751947200,
+    1752033600,
+    1752120000,
+    1752206400,
+    1752292800,
+    1752379200,
+    1752465600,
+    1752552000,
+    1752638400,
+    1752724800,
+    1752811200,
+    1752897600,
+    1752984000,
+    1753070400,
+    1753156800,
+    1753243200,
+    1753329600,
+    1753416000,
+    1753502400,
+    1753588800,
+    1753675200,
+    1753761600,
+    1753848000,
+    1753934400,
+    1754020800,
+    1754107200,
+    1754193600,
+    1754280000,
+    1754366400,
+    1754452800,
+    1754539200,
+    1754625600,
+    1754712000,
+    1754798400,
+    1754884800,
+    1754971200,
+    1755057600,
+    1755144000,
+    1755230400,
+    1755316800,
+    1755403200,
+    1755489600,
+    1755576000,
+    1755662400,
+    1755748800,
+    1755835200,
+    1755921600,
+    1756008000,
+    1756094400,
+    1756180800,
+    1756267200,
+    1756353600,
+    1756440000,
+    1756526400,
+    1756612800,
+    1756699200,
+    1756785600,
+    1756872000,
+    1756958400,
+    1757044800,
+    1757131200,
+    1757217600,
+    1757304000,
+    1757390400,
+    1757476800,
+    1757563200,
+    1757649600,
+    1757736000,
+    1757822400,
+    1757908800,
+    1757995200,
+    1758081600,
+    1758168000,
+    1758254400,
+    1758340800,
+    1758427200,
+    1758513600,
+    1758600000,
+    1758686400,
+    1758772800,
+    1758859200,
+    1758945600,
+    1759032000,
+    1759118400,
+    1759204800,
+    1759291200,
+    1759377600,
+    1759464000,
+    1759550400,
+    1759636800,
+    1759723200,
+    1759809600,
+    1759896000,
+    1759982400
+  ],
+  "value": [
+    5647.8564453125,
+    4690.256042480469,
+    4861.6473388671875,
+    -18055.0,
+    -18055.0,
+    -18055.0,
+    4130.243225097656,
+    4248.8238525390625,
+    4231.885070800781,
+    4144.1943359375,
+    -18055.0,
+    -18055.0,
+    4849.6905517578125,
+    5686.717529296875,
+    5796.329040527344,
+    5619.955749511719,
+    5461.5191650390625,
+    -36810.0,
+    -36810.0,
+    6344.063415527344,
+    6893.474426269531,
+    6906.339111328125,
+    7106.88232421875,
+    6248.02001953125,
+    -36810.0,
+    -36810.0,
+    6397.774353027344,
+    6854.775085449219,
+    7159.392395019531,
+    7698.845520019531,
+    7900.173034667969,
+    -36810.0,
+    -36810.0,
+    -36810.0,
+    7947.374572753906,
+    8242.372741699219,
+    8447.26318359375,
+    8024.703063964844,
+    -36810.0,
+    -36810.0,
+    7969.5562744140625,
+    7659.627380371094,
+    7084.4427490234375,
+    6420.439758300781,
+    7095.555725097656,
+    -36810.0,
+    -36810.0,
+    6291.960754394531,
+    6088.4527587890625,
+    6687.846984863281,
+    6441.165771484375,
+    6635.872497558594,
+    -36810.0,
+    -36810.0,
+    4824.48486328125,
+    4176.553955078125,
+    3932.0074462890625,
+    2979.569091796875,
+    3847.4417114257812,
+    -36810.0,
+    -36810.0,
+    3905.2938842773438,
+    3516.5121459960938,
+    3985.1446533203125,
+    3822.5912475585938,
+    4458.8079833984375,
+    -36810.0,
+    -36810.0,
+    4794.888916015625,
+    5199.7930908203125,
+    4719.734802246094,
+    4981.5618896484375,
+    3801.0580444335938,
+    -36810.0,
+    -36810.0,
+    4053.1195068359375,
+    4497.6812744140625,
+    4565.018310546875,
+    2050.1364135742188,
+    -88.44085693359375,
+    -36810.0,
+    -36810.0,
+    -877.4087524414062,
+    -1943.63037109375,
+    2483.1808471679688,
+    1186.826171875,
+    2311.7071533203125,
+    -36810.0,
+    -36810.0,
+    2715.750732421875,
+    2574.2041015625,
+    1085.5764770507812,
+    1165.079345703125,
+    -36810.0,
+    -36810.0,
+    -36810.0,
+    352.5152587890625,
+    1392.5741577148438,
+    2254.5721435546875,
+    3273.9096069335938,
+    3591.3992309570312,
+    -36810.0,
+    -36810.0,
+    3642.8091430664062,
+    3893.0502319335938,
+    4082.5216674804688,
+    5666.091003417969,
+    5363.323059082031,
+    -36810.0,
+    -36810.0,
+    4763.2452392578125,
+    4582.83447265625,
+    4359.378662109375,
+    4723.241271972656,
+    4854.891052246094,
+    -36810.0,
+    -36810.0,
+    6630.141296386719,
+    6837.9217529296875,
+    6967.3284912109375,
+    6930.345764160156,
+    6968.273010253906,
+    -36810.0,
+    -36810.0,
+    6950.176086425781,
+    6723.453369140625,
+    5967.452087402344,
+    6008.846130371094,
+    5166.922607421875,
+    -36810.0,
+    -36810.0,
+    -36810.0,
+    6184.999694824219,
+    6039.748229980469,
+    6058.693542480469,
+    6232.4530029296875,
+    -36810.0,
+    -36810.0,
+    6397.725524902344,
+    6604.46533203125,
+    6604.442443847656,
+    6575.877990722656,
+    7039.2828369140625,
+    -36810.0,
+    -36810.0,
+    6910.869445800781,
+    6941.380920410156,
+    6637.682189941406,
+    6991.622009277344,
+    6521.7535400390625,
+    -36810.0,
+    -36810.0,
+    6927.188720703125,
+    6594.5928955078125,
+    6798.305358886719,
+    -36810.0,
+    7098.038330078125,
+    -36810.0,
+    -36810.0,
+    7577.275695800781,
+    7662.5738525390625,
+    7896.254577636719,
+    8098.892822265625,
+    8031.508483886719,
+    -36810.0,
+    -36810.0,
+    8513.423767089844,
+    8510.562744140625,
+    8924.11865234375,
+    9421.857299804688,
+    -36810.0,
+    -36810.0,
+    -36810.0,
+    9006.355895996094,
+    8957.439270019531,
+    9414.247741699219,
+    9439.769592285156,
+    9406.76025390625,
+    -36810.0,
+    -36810.0,
+    9138.0712890625,
+    9326.787414550781,
+    9421.684875488281,
+    9711.202087402344,
+    9744.704284667969,
+    -36810.0,
+    -36810.0,
+    9875.055541992188,
+    9827.73193359375,
+    9832.710876464844,
+    10043.843688964844,
+    10197.101440429688,
+    -36810.0,
+    -36810.0,
+    10153.679504394531,
+    9879.488220214844,
+    9691.18408203125,
+    10554.689636230469,
+    9567.549743652344,
+    -36810.0,
+    -36810.0,
+    10239.995422363281,
+    9803.188171386719,
+    10694.750061035156,
+    11167.317810058594,
+    12158.162536621094,
+    -36810.0,
+    -36810.0,
+    11953.68408203125,
+    12573.5693359375,
+    12509.282531738281,
+    12549.124755859375,
+    12314.813842773438,
+    -36810.0,
+    -36810.0,
+    12091.564025878906,
+    11692.667236328125,
+    11035.500183105469,
+    10891.998901367188,
+    11327.5,
+    -36810.0,
+    -36810.0,
+    11119.000854492188,
+    11223.000183105469,
+    11576.000061035156,
+    11928.00048828125,
+    11738.500061035156,
+    -36810.0,
+    -36810.0,
+    -36810.0,
+    11417.999877929688,
+    12304.500427246094,
+    12566.499938964844,
+    11909.000244140625,
+    -36810.0,
+    -36810.0,
+    11888.001098632812,
+    11545.500793457031,
+    10887.499084472656,
+    11243.500366210938,
+    12092.000427246094,
+    -36810.0,
+    -36810.0,
+    12627.998962402344,
+    12456.999816894531,
+    12590.0,
+    12400.501098632812,
+    13636.499633789062,
+    -36810.0,
+    -36810.0,
+    14520.499267578125,
+    14094.499816894531,
+    13928.499450683594,
+    14228.499450683594,
+    14309.000244140625,
+    -36810.0,
+    -36810.0,
+    14362.998046875,
+    14550.501098632812,
+    14720.500793457031,
+    14690.0,
+    14859.497680664062,
+    -36810.0,
+    -36810.0,
+    15287.500610351562,
+    15037.000122070312,
+    15238.49853515625,
+    100000.0
+  ]
+}

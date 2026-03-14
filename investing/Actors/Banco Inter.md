@@ -7,6 +7,22 @@ Banco Inter — Brazilian digital bank / super-app. Founded 1994 as Intermedium 
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> INTR does not trade tightly with any sector ETF (max r = 0.38 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.38 |
+| [[Semiconductors]] | SMH | 0.36 |
+| [[Consumer]] | XLY | 0.34 |
+| *S&P 500* | *SPY* | *0.35* |
+
+INTR trades between Technology and Semiconductors without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

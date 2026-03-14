@@ -7,6 +7,19 @@ Uber — Global mobility and delivery platform. Autonomous vehicle partnerships.
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.65 |
+| Software | IGV | 0.64 |
+| Communications | XLC | 0.63 |
+| *S&P 500* | *SPY* | *0.64* |
+
+UBER shows moderate Defense correlation (ITA r = 0.65).
+
+---
+
 ## Q4 2025 earnings (Feb 4, 2026)
 
 Beat on revenue, soft guidance. Stock -6%.

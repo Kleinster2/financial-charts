@@ -7,6 +7,22 @@ aliases: [ILMN]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> ILMN does not trade tightly with any sector ETF (max r = 0.46 with XLY).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.46 |
+| Software | IGV | 0.41 |
+| Communications | XLC | 0.39 |
+| *S&P 500* | *SPY* | *0.36* |
+
+ILMN trades between Consumer and Software without a tight sector fit.
+
+---
+
 ## Why Illumina matters
 
 | Metric | Value |

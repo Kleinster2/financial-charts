@@ -7,6 +7,19 @@ aliases: [LLY, Lilly]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.62 |
+| Financials | XLF | 0.32 |
+| Industrials | XLI | 0.31 |
+| *S&P 500* | *SPY* | *0.26* |
+
+LLY shows moderate Healthcare correlation (XLV r = 0.62).
+
+---
+
 ## Q4 2025 earnings (Feb 4, 2026)
 
 **Blowout quarter. Stock soaring.**

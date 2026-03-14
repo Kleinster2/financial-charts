@@ -7,6 +7,19 @@ aliases: [MRK, Merck & Co]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.76 |
+| [[Consumer Staples]] | XLP | 0.52 |
+| Industrials | XLI | 0.42 |
+| *S&P 500* | *SPY* | *0.32* |
+
+MRK trades as a core Healthcare name (XLV r = 0.76).
+
+---
+
 ## Why Merck matters
 
 | Metric | Value |

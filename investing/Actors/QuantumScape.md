@@ -7,6 +7,22 @@ aliases: [QS]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> QS does not trade tightly with any sector ETF (max r = 0.47 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.47 |
+| [[Semiconductors]] | SMH | 0.46 |
+| Industrials | XLI | 0.44 |
+| *S&P 500* | *SPY* | *0.45* |
+
+QS trades between Technology and Semiconductors without a tight sector fit.
+
+---
+
 ## Why QuantumScape matters
 
 | Metric | Value |

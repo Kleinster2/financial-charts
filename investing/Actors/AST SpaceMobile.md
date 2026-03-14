@@ -9,6 +9,19 @@ Direct-to-cell satellite broadband company. Building "cell towers in the sky" â€
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.52 |
+| [[Semiconductors]] | SMH | 0.49 |
+| Industrials | XLI | 0.48 |
+| *S&P 500* | *SPY* | *0.47* |
+
+ASTS shows moderate Technology correlation (XLK r = 0.52).
+
+---
+
 ## Why it matters
 
 Only pure-play direct-to-cell satellite company with carrier deals spanning ~3B subscribers globally. If the technology works at scale, it eliminates dead zones worldwide without requiring new handsets â€” a TAM measured in billions of unconnected people.

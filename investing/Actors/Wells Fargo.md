@@ -14,6 +14,19 @@ aliases: [WFC]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.85 |
+| Financials | XLF | 0.83 |
+| Industrials | XLI | 0.67 |
+| *S&P 500* | *SPY* | *0.67* |
+
+WFC trades as a core Regional Banks name (KRE r = 0.85).
+
+---
+
 ## Overview
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [BMY, BMS, Bristol-Myers]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.53 |
+| Industrials | XLI | 0.35 |
+| Financials | XLF | 0.31 |
+| *S&P 500* | *SPY* | *0.22* |
+
+BMY shows moderate Healthcare correlation (XLV r = 0.53).
+
+---
+
 ## Why BMS matters
 
 | Metric | Value |

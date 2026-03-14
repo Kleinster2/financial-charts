@@ -9,6 +9,22 @@ Satellite communications company and [[Apple]]'s exclusive partner for iPhone Em
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> GSAT does not trade tightly with any sector ETF (max r = 0.39 with SMH).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.39 |
+| Technology | XLK | 0.37 |
+| Industrials | XLI | 0.36 |
+| *S&P 500* | *SPY* | *0.35* |
+
+GSAT trades between Semiconductors and Technology without a tight sector fit.
+
+---
+
 ## Why it matters
 
 Apple dependency defines the story. 85% of network capacity allocated to Apple under expanded partnership. The $1.5B Apple investment transformed Globalstar from a struggling LEO operator into a strategic infrastructure play. Band 53 spectrum provides optionality beyond Apple.

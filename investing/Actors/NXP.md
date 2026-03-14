@@ -7,6 +7,19 @@ aliases: [NXP Semiconductors, NXPI]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.77 |
+| Technology | XLK | 0.73 |
+| Industrials | XLI | 0.72 |
+| *S&P 500* | *SPY* | *0.74* |
+
+NXPI trades as a core Semiconductors name (SMH r = 0.77).
+
+---
+
 ## Q4 2025 earnings (Feb 2, 2026)
 
 **Beat estimates, stock -5% on soft Q1 guidance.**

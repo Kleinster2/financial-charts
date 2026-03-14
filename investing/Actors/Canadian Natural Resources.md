@@ -18,6 +18,19 @@ Canada's largest oil and natural gas producer by volume. Operates the Horizon oi
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.93 |
+| [[Energy and Utilities|Energy]] | XLE | 0.90 |
+| [[Consumer]] | XLY | 0.76 |
+| *S&P 500* | *SPY* | *0.76* |
+
+CNQ.TO trades as a core Oil & Gas E&P name (XOP r = 0.93).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

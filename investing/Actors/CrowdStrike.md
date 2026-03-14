@@ -7,6 +7,19 @@ aliases: [CRWD]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.82 |
+| Technology | XLK | 0.72 |
+| [[Consumer]] | XLY | 0.63 |
+| *S&P 500* | *SPY* | *0.68* |
+
+CRWD trades as a core Software name (IGV r = 0.82).
+
+---
+
 ## Why CrowdStrike matters
 
 | Metric | Value |

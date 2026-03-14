@@ -7,6 +7,19 @@ Robinhood — Retail brokerage that democratized trading. Now pushing into crypt
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.78 |
+| Software | IGV | 0.73 |
+| [[Semiconductors]] | SMH | 0.72 |
+| *S&P 500* | *SPY* | *0.75* |
+
+HOOD trades as a core Technology name (XLK r = 0.78).
+
+---
+
 ## Why Robinhood matters
 
 Robinhood is the gateway for retail into new asset classes:

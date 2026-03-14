@@ -7,6 +7,22 @@ aliases: [Man Group PLC, MAN.L, EMG.L]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> EMG.L does not trade tightly with any sector ETF (max r = 0.36 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.36 |
+| Financials | XLF | 0.29 |
+| [[Healthcare]] | XLV | 0.24 |
+| *S&P 500* | *SPY* | *0.21* |
+
+EMG.L trades between Regional Banks and Financials without a tight sector fit.
+
+---
+
 ## Why Man Group matters
 
 | Metric | Value |

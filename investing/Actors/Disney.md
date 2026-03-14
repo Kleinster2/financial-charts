@@ -7,6 +7,19 @@ aliases: [DIS, Walt Disney, Walt Disney Company]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.74 |
+| Financials | XLF | 0.73 |
+| [[Consumer]] | XLY | 0.72 |
+| *S&P 500* | *SPY* | *0.71* |
+
+DIS trades as a core Industrials name (XLI r = 0.74).
+
+---
+
 ## Q1 FY2026 earnings (Feb 2, 2026)
 
 **Beat on both lines, CEO succession imminent.**

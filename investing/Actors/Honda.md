@@ -5,6 +5,21 @@ aliases: [Honda Motor, Honda Motor Co, HMC, 7267.T]
 
 Japanese automaker and motorcycle manufacturer, one of the world's largest by volume.
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.63 |
+| Financials | XLF | 0.57 |
+| [[Healthcare]] | XLV | 0.57 |
+| *S&P 500* | *SPY* | *0.57* |
+
+HMC shows moderate Industrials correlation (XLI r = 0.63).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

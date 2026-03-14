@@ -7,6 +7,22 @@ aliases: [PGR]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> PGR does not trade tightly with any sector ETF (max r = 0.41 with XLF).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.41 |
+| [[Consumer Staples]] | XLP | 0.40 |
+| [[Healthcare]] | XLV | 0.35 |
+| *S&P 500* | *SPY* | *0.23* |
+
+PGR trades between Financials and Consumer Staples without a tight sector fit.
+
+---
+
 ## Why Progressive matters
 
 | Metric | Value |

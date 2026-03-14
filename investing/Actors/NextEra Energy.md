@@ -7,6 +7,19 @@ aliases: [NEE]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Utilities | XLU | 0.69 |
+| [[Consumer Staples]] | XLP | 0.54 |
+| [[Real estate|Real Estate]] | XLRE | 0.47 |
+| *S&P 500* | *SPY* | *0.38* |
+
+NEE shows moderate Utilities correlation (XLU r = 0.69).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -7,6 +7,22 @@ Toto — Japanese washlet/toilet manufacturer with a hidden semiconductor materi
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> TOTDY does not trade tightly with any sector ETF (max r = 0.31 with XLI).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.31 |
+| China Internet | KWEB | 0.29 |
+| [[Healthcare]] | XLV | 0.28 |
+| *S&P 500* | *SPY* | *0.27* |
+
+TOTDY trades between Industrials and China Internet without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

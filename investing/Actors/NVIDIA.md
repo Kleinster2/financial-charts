@@ -9,6 +9,19 @@ Dominant AI accelerator company with >90% data center AI training market share, 
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.88 |
+| [[Semiconductors]] | SMH | 0.86 |
+| Software | IGV | 0.68 |
+| *S&P 500* | *SPY* | *0.79* |
+
+NVDA trades as a core Technology name (XLK r = 0.88).
+
+---
+
 ## Leadership
 
 | Role | Name | Background |

@@ -7,6 +7,19 @@ aliases: [AZN]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.60 |
+| Utilities | XLU | 0.30 |
+| [[Consumer Staples]] | XLP | 0.30 |
+| *S&P 500* | *SPY* | *0.28* |
+
+AZN shows moderate Healthcare correlation (XLV r = 0.60).
+
+---
+
 ## Why AstraZeneca matters
 
 | Metric | Value |

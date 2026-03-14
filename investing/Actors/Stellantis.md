@@ -9,6 +9,19 @@ aliases: [STLA, Stellantis NV]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.63 |
+| [[Consumer]] | XLY | 0.60 |
+| Communications | XLC | 0.57 |
+| *S&P 500* | *SPY* | *0.51* |
+
+STLA shows moderate Regional Banks correlation (KRE r = 0.63).
+
+---
+
 ## Overview
 
 | Metric | Value |

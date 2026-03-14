@@ -7,6 +7,19 @@ aliases: [USB, US Bank]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.91 |
+| Financials | XLF | 0.82 |
+| Industrials | XLI | 0.75 |
+| *S&P 500* | *SPY* | *0.73* |
+
+USB trades as a core Regional Banks name (KRE r = 0.91).
+
+---
+
 ## Why US Bancorp matters
 
 | Metric | Value |

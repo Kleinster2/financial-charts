@@ -7,6 +7,19 @@ Occidental Petroleum — Major US oil and gas producer focused on the [[Permian 
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.89 |
+| [[Energy and Utilities|Energy]] | XLE | 0.82 |
+| [[Banks|Regional Banks]] | KRE | 0.60 |
+| *S&P 500* | *SPY* | *0.54* |
+
+OXY trades as a core Oil & Gas E&P name (XOP r = 0.89).
+
+---
+
 
 ![[oxy-employees-chart.png]]
 *Headcount: 10,412 (2025) — down 21.8% YoY*

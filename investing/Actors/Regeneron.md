@@ -7,6 +7,22 @@ aliases: [REGN]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> REGN does not trade tightly with any sector ETF (max r = 0.41 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.41 |
+| Oil & Gas E&P | XOP | 0.30 |
+| Industrials | XLI | 0.24 |
+| *S&P 500* | *SPY* | *0.23* |
+
+REGN trades between Healthcare and Oil & Gas E&P without a tight sector fit.
+
+---
+
 ## Why Regeneron matters
 
 | Metric | Value |

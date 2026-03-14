@@ -7,6 +7,19 @@ aliases: [Fifth Third Bancorp, Fifth Third Bank, FITB]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.93 |
+| Financials | XLF | 0.76 |
+| Industrials | XLI | 0.70 |
+| *S&P 500* | *SPY* | *0.66* |
+
+FITB trades as a core Regional Banks name (KRE r = 0.93).
+
+---
+
 ## Why Fifth Third matters
 
 | Metric | Value |

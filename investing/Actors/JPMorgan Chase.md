@@ -16,6 +16,19 @@ aliases:
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.85 |
+| [[Banks|Regional Banks]] | KRE | 0.79 |
+| Industrials | XLI | 0.73 |
+| *S&P 500* | *SPY* | *0.73* |
+
+JPM trades as a core Financials name (XLF r = 0.85).
+
+---
+
 ## Financials
 
 ### Annual results (10 years)

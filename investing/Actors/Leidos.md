@@ -17,6 +17,19 @@ aliases: [LDOS]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.58 |
+| Financials | XLF | 0.49 |
+| Industrials | XLI | 0.46 |
+| *S&P 500* | *SPY* | *0.39* |
+
+LDOS shows moderate Defense correlation (ITA r = 0.58).
+
+---
+
 ## Business segments
 
 | Segment | Focus |

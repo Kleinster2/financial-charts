@@ -9,6 +9,22 @@ Largest pure-play streaming company with ~$365B market cap, 325M subscribers, $3
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> NFLX does not trade tightly with any sector ETF (max r = 0.45 with XLC).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.45 |
+| Software | IGV | 0.42 |
+| [[Defense]] | ITA | 0.38 |
+| *S&P 500* | *SPY* | *0.39* |
+
+NFLX trades between Communications and Software without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

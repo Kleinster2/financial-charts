@@ -7,6 +7,19 @@ aliases: [GD]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.76 |
+| Industrials | XLI | 0.71 |
+| Financials | XLF | 0.61 |
+| *S&P 500* | *SPY* | *0.60* |
+
+GD trades as a core Defense name (ITA r = 0.76).
+
+---
+
 ## Why General Dynamics matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [XOM, ExxonMobil]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Energy and Utilities|Energy]] | XLE | 0.91 |
+| Oil & Gas E&P | XOP | 0.87 |
+| [[Banks|Regional Banks]] | KRE | 0.54 |
+| *S&P 500* | *SPY* | *0.49* |
+
+XOM trades as a core Energy name (XLE r = 0.91).
+
+---
+
 ## Why Exxon matters for AI thesis
 
 [[Oil]] majors have relevance to AI infrastructure:

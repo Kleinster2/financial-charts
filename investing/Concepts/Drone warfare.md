@@ -65,6 +65,7 @@ Drone business "red hot" — backlogs surging (William Blair, Jan 2026).
 | Company | Focus | Status |
 |---------|-------|--------|
 | [[Helsing]] | AI-powered drones (HX-2), autonomous combat vehicles | €12B, manufacturing 6,000 for Ukraine |
+| [[Exail Technologies|Exail]] | MCM drones ([[K-STER C]]), AUVs, USVs ([[DriX]]) | ~€2.2B, 59x P/E. Naval/subsea specialist |
 | Baykar (Turkey) | Bayraktar TB2/Akinci — pioneered affordable combat drones | Private, iconic Ukraine role |
 | Dassault/[[Airbus]] | Eurodrone MALE program | Development |
 
@@ -90,7 +91,7 @@ Drone business "red hot" — backlogs surging (William Blair, Jan 2026).
 | **ISR/reconnaissance** | [[Puma]], Raven, ScanEagle | Persistent surveillance |
 | **MALE** | MQ-9 Reaper, Akinci, Eurodrone | Long-endurance strike/ISR |
 | **Swarm** | Developmental | Coordinated mass, overwhelm defenses |
-| **Naval/maritime** | Ukrainian sea drones | Anti-ship, mine countermeasures |
+| **Naval/maritime** | Ukrainian sea drones, [[Exail Technologies|Exail]] MCM drones | Anti-ship, mine countermeasures. Exail's [[K-STER C]], [[Inspector USV]], [[DriX]] |
 | **Counter-drone** | EW systems, laser interceptors | Drone-on-drone defense |
 
 ---

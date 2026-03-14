@@ -7,6 +7,19 @@ aliases: [ELV, Anthem, Anthem Inc, Wellpoint]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.50 |
+| China Internet | KWEB | 0.20 |
+| Financials | XLF | 0.16 |
+| *S&P 500* | *SPY* | *0.09* |
+
+ELV shows moderate Healthcare correlation (XLV r = 0.50).
+
+---
+
 ## Why Elevance matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [ROK, Rockwell]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.75 |
+| [[Consumer]] | XLY | 0.69 |
+| Financials | XLF | 0.66 |
+| *S&P 500* | *SPY* | *0.70* |
+
+ROK trades as a core Industrials name (XLI r = 0.75).
+
+---
+
 ## Why Rockwell Automation matters
 
 | Metric | Value |

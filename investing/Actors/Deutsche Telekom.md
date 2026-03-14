@@ -7,6 +7,19 @@ aliases: [DTE, DTEGY]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Utilities | XLU | 0.78 |
+| [[Consumer Staples]] | XLP | 0.57 |
+| [[Real estate|Real Estate]] | XLRE | 0.49 |
+| *S&P 500* | *SPY* | *0.30* |
+
+DTE trades as a core Utilities name (XLU r = 0.78).
+
+---
+
 ## Why Deutsche Telekom matters
 
 T-Mobile's parent:

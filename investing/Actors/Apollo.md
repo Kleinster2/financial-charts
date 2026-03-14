@@ -7,6 +7,19 @@ aliases: [APO, Apollo Global Management]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.83 |
+| [[Banks|Regional Banks]] | KRE | 0.79 |
+| Industrials | XLI | 0.70 |
+| *S&P 500* | *SPY* | *0.75* |
+
+APO trades as a core Financials name (XLF r = 0.83).
+
+---
+
 ## Why Apollo matters
 
 | Metric | Value |

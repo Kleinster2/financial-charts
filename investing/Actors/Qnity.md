@@ -7,6 +7,19 @@ aliases: [Qnity Electronics, Q, DuPont Electronics]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.66 |
+| Technology | XLK | 0.65 |
+| Industrials | XLI | 0.64 |
+| *S&P 500* | *SPY* | *0.67* |
+
+Q shows moderate Semiconductors correlation (SMH r = 0.66).
+
+---
+
 ## Why Qnity matters
 
 The largest US-based semiconductor materials company, now a pure-play:

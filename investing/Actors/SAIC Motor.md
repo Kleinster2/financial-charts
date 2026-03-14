@@ -7,6 +7,22 @@ aliases: [SAIC, Shanghai Automotive]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> SAIC does not trade tightly with any sector ETF (max r = 0.33 with ITA).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.33 |
+| Software | IGV | 0.33 |
+| [[Banks|Regional Banks]] | KRE | 0.31 |
+| *S&P 500* | *SPY* | *0.16* |
+
+SAIC trades between Defense and Software without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

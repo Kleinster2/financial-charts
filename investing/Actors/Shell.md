@@ -7,6 +7,19 @@ aliases: [SHEL, Royal Dutch Shell]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Energy and Utilities|Energy]] | XLE | 0.81 |
+| Oil & Gas E&P | XOP | 0.79 |
+| Industrials | XLI | 0.53 |
+| *S&P 500* | *SPY* | *0.55* |
+
+SHEL trades as a core Energy name (XLE r = 0.81).
+
+---
+
 ## Why Shell matters
 
 | Metric | Value |

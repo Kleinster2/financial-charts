@@ -7,6 +7,19 @@ aliases: [GLW]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.64 |
+| Technology | XLK | 0.60 |
+| Industrials | XLI | 0.56 |
+| *S&P 500* | *SPY* | *0.56* |
+
+GLW shows moderate Semiconductors correlation (SMH r = 0.64).
+
+---
+
 ## Why Corning matters
 
 | Metric | Value |

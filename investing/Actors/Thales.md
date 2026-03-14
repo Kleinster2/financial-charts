@@ -7,6 +7,22 @@ aliases: [Thales Group, HO.PA]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> HO.PA does not trade tightly with any sector ETF (max r = 0.13 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.13 |
+| [[Consumer Staples]] | XLP | 0.12 |
+| [[Defense]] | ITA | 0.12 |
+| *S&P 500* | *SPY* | *0.01* |
+
+HO.PA trades between China Internet and Consumer Staples without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

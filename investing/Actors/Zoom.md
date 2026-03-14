@@ -7,6 +7,19 @@ aliases: [Zoom Video, ZM]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.52 |
+| Software | IGV | 0.49 |
+| Technology | XLK | 0.46 |
+| *S&P 500* | *SPY* | *0.49* |
+
+ZM shows moderate Consumer correlation (XLY r = 0.52).
+
+---
+
 ## Why Zoom matters
 
 | Metric | Value |

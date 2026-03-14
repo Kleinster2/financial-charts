@@ -7,6 +7,22 @@ aliases: [UHS]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> UHS does not trade tightly with any sector ETF (max r = 0.40 with XLU).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Utilities | XLU | 0.40 |
+| [[Consumer Staples]] | XLP | 0.40 |
+| [[Healthcare]] | XLV | 0.38 |
+| *S&P 500* | *SPY* | *0.34* |
+
+UHS trades between Utilities and Consumer Staples without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

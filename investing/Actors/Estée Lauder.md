@@ -9,6 +9,19 @@ aliases: [EL, Estee Lauder Companies, ELC]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.70 |
+| Industrials | XLI | 0.66 |
+| [[Consumer]] | XLY | 0.63 |
+| *S&P 500* | *SPY* | *0.64* |
+
+EL trades as a core Regional Banks name (KRE r = 0.70).
+
+---
+
 ## Overview
 
 | Metric | Value |

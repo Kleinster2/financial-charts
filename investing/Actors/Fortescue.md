@@ -7,6 +7,19 @@ Fortescue — [[Australia]]'s third-largest [[Iron ore|iron ore]] producer, ~95%
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.55 |
+| Industrials | XLI | 0.54 |
+| Technology | XLK | 0.52 |
+| *S&P 500* | *SPY* | *0.55* |
+
+FSUGY shows moderate Oil & Gas E&P correlation (XOP r = 0.55).
+
+---
+
 ## Why Fortescue matters
 
 | Metric | Value |

@@ -7,6 +7,22 @@ aliases: [CVS, Aetna, Caremark]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CVS does not trade tightly with any sector ETF (max r = 0.38 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.38 |
+| Communications | XLC | 0.33 |
+| Financials | XLF | 0.30 |
+| *S&P 500* | *SPY* | *0.28* |
+
+CVS trades between Healthcare and Communications without a tight sector fit.
+
+---
+
 ## Why CVS matters
 
 | Metric | Value |

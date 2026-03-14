@@ -12,6 +12,21 @@ tags:
 
 **Procter & Gamble** is a consumer goods multinational and the world's largest advertiser, operating across five segments: Beauty, Grooming, Health Care, Fabric & Home Care, and Baby/Feminine/Family Care.
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.69 |
+| [[Healthcare]] | XLV | 0.47 |
+| [[Real estate|Real Estate]] | XLRE | 0.45 |
+| *S&P 500* | *SPY* | *0.25* |
+
+PG shows moderate Consumer Staples correlation (XLP r = 0.69).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

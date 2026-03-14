@@ -7,6 +7,19 @@ aliases: [SE]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.54 |
+| [[Semiconductors]] | SMH | 0.51 |
+| [[Defense]] | ITA | 0.51 |
+| *S&P 500* | *SPY* | *0.50* |
+
+SE shows moderate Technology correlation (XLK r = 0.54).
+
+---
+
 ## Why Sea Group matters
 
 SEA's largest tech company:

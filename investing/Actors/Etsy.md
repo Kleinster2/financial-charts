@@ -7,6 +7,22 @@ aliases: [ETSY]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> ETSY does not trade tightly with any sector ETF (max r = 0.48 with XLY).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.48 |
+| Software | IGV | 0.48 |
+| Financials | XLF | 0.46 |
+| *S&P 500* | *SPY* | *0.43* |
+
+ETSY trades between Consumer and Software without a tight sector fit.
+
+---
+
 ## Why Etsy matters
 
 | Metric | Value |

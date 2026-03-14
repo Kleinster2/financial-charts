@@ -34,6 +34,19 @@ Wei is first to hold both Chairman and CEO roles since founder Morris Chang. Liu
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.87 |
+| Technology | XLK | 0.82 |
+| Industrials | XLI | 0.69 |
+| *S&P 500* | *SPY* | *0.74* |
+
+TSM trades as a core Semiconductors name (SMH r = 0.87).
+
+---
+
 ## Charts
 
 ![[tsm-90d.png]]

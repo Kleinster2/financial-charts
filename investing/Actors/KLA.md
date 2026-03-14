@@ -9,6 +9,19 @@ U.S. semiconductor equipment company specializing in process control — inspect
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.86 |
+| Technology | XLK | 0.79 |
+| Industrials | XLI | 0.70 |
+| *S&P 500* | *SPY* | *0.73* |
+
+KLAC trades as a core Semiconductors name (SMH r = 0.86).
+
+---
+
 ## Core thesis
 
 KLA benefits from increasing complexity and shrinking margins for error. At advanced nodes, defect detection becomes critical — one defect can kill an expensive chip. More complexity = more KLA tools.

@@ -7,6 +7,22 @@ Rivian — US EV startup. R1T truck, R1S SUV, Amazon delivery vans. R2 mass-mark
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> RIVN does not trade tightly with any sector ETF (max r = 0.44 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.44 |
+| [[Consumer]] | XLY | 0.40 |
+| Industrials | XLI | 0.35 |
+| *S&P 500* | *SPY* | *0.34* |
+
+RIVN trades between Regional Banks and Consumer without a tight sector fit.
+
+---
+
 ## Why Rivian matters
 
 | Metric | Value |

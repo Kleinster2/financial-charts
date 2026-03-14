@@ -9,6 +9,19 @@ aliases: [ROST, Ross Dress for Less, dd's DISCOUNTS]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.58 |
+| Industrials | XLI | 0.50 |
+| Communications | XLC | 0.49 |
+| *S&P 500* | *SPY* | *0.52* |
+
+ROST shows moderate Consumer correlation (XLY r = 0.58).
+
+---
+
 ## Overview
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [INTU]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.73 |
+| Financials | XLF | 0.50 |
+| Technology | XLK | 0.46 |
+| *S&P 500* | *SPY* | *0.46* |
+
+INTU trades as a core Software name (IGV r = 0.73).
+
+---
+
 ## Why Intuit matters
 
 | Metric | Value |

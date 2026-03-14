@@ -7,6 +7,22 @@ aliases: [FLNC]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> FLNC does not trade tightly with any sector ETF (max r = 0.44 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.44 |
+| [[Semiconductors]] | SMH | 0.42 |
+| [[Banks|Regional Banks]] | KRE | 0.40 |
+| *S&P 500* | *SPY* | *0.40* |
+
+FLNC trades between Technology and Semiconductors without a tight sector fit.
+
+---
+
 ## Why Fluence matters
 
 Battery storage solves solar intermittency — essential for AI data centers:

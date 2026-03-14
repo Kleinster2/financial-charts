@@ -7,6 +7,19 @@ Constellation Software — Canadian vertical market software conglomerate. Found
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.70 |
+| Software | IGV | 0.69 |
+| Communications | XLC | 0.65 |
+| *S&P 500* | *SPY* | *0.67* |
+
+CSU.TO trades as a core Consumer name (XLY r = 0.70).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

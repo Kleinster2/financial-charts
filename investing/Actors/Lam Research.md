@@ -9,6 +9,19 @@ U.S. semiconductor equipment company specializing in deposition and etch.
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.89 |
+| Technology | XLK | 0.81 |
+| Industrials | XLI | 0.69 |
+| *S&P 500* | *SPY* | *0.73* |
+
+LRCX trades as a core Semiconductors name (SMH r = 0.89).
+
+---
+
 ## Core thesis
 
 Lam benefits from increasing process complexity at advanced nodes. More deposition and etch steps per wafer = more Lam tools. Memory exposure ([[HBM]] buildout) adds cyclical upside.

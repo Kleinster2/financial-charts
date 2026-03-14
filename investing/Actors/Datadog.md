@@ -7,6 +7,19 @@ aliases: [DDOG]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.56 |
+| [[Banks|Regional Banks]] | KRE | 0.54 |
+| Technology | XLK | 0.45 |
+| *S&P 500* | *SPY* | *0.41* |
+
+DDOG shows moderate Software correlation (IGV r = 0.56).
+
+---
+
 ## Why Datadog matters
 
 | Metric | Value |

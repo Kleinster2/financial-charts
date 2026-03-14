@@ -7,6 +7,19 @@ aliases: [MDT]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.70 |
+| Financials | XLF | 0.53 |
+| [[Consumer Staples]] | XLP | 0.52 |
+| *S&P 500* | *SPY* | *0.47* |
+
+MDT trades as a core Healthcare name (XLV r = 0.70).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

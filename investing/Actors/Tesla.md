@@ -9,6 +9,19 @@ World's most valuable automaker with ~$97.7B FY2025 revenue (flat YoY, first ann
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.85 |
+| Technology | XLK | 0.76 |
+| Communications | XLC | 0.73 |
+| *S&P 500* | *SPY* | *0.80* |
+
+TSLA trades as a core Consumer name (XLY r = 0.85).
+
+---
+
 ## Relevance to semis
 
 Tesla is both an automotive semiconductor consumer and a custom AI chip designer.

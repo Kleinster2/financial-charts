@@ -7,6 +7,19 @@ aliases: [HIVE]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.59 |
+| Technology | XLK | 0.53 |
+| [[Consumer]] | XLY | 0.52 |
+| *S&P 500* | *SPY* | *0.52* |
+
+HIVE shows moderate Regional Banks correlation (KRE r = 0.59).
+
+---
+
 ## Why HIVE matters
 
 Investing directly in NVIDIA GPUs for AI:

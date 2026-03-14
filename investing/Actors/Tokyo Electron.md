@@ -7,6 +7,19 @@ aliases: [TEL, 8035]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.73 |
+| Technology | XLK | 0.72 |
+| [[Semiconductors]] | SMH | 0.72 |
+| *S&P 500* | *SPY* | *0.70* |
+
+TEL trades as a core Industrials name (XLI r = 0.73).
+
+---
+
 ## Why Tokyo Electron matters
 
 TEL is the largest Japanese WFE company and \#3 globally:

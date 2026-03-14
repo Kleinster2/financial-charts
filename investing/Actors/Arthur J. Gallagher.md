@@ -9,6 +9,22 @@ tags: [actor, finance, insurance, broker, usa, public]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> AJG does not trade tightly with any sector ETF (max r = 0.49 with XLF).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.49 |
+| [[Healthcare]] | XLV | 0.46 |
+| [[Consumer Staples]] | XLP | 0.37 |
+| *S&P 500* | *SPY* | *0.27* |
+
+AJG trades between Financials and Healthcare without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

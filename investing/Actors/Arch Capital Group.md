@@ -11,6 +11,21 @@ tags:
 
 Bermuda-based specialty insurance and reinsurance company trading on NASDAQ as ACGL, with a market cap of ~$35B.
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.57 |
+| [[Banks|Regional Banks]] | KRE | 0.52 |
+| [[Healthcare]] | XLV | 0.51 |
+| *S&P 500* | *SPY* | *0.46* |
+
+ACGL shows moderate Financials correlation (XLF r = 0.57).
+
+---
+
 ## Quick stats
 
 | Field | Value |

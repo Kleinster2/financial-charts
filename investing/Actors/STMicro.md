@@ -7,6 +7,19 @@ aliases: [STMicroelectronics, ST Micro, STM]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.70 |
+| [[Banks|Regional Banks]] | KRE | 0.68 |
+| [[Consumer]] | XLY | 0.67 |
+| *S&P 500* | *SPY* | *0.69* |
+
+STM trades as a core Semiconductors name (SMH r = 0.70).
+
+---
+
 ## Why STMicro matters
 
 STMicro is a key EV/automotive semi supplier:

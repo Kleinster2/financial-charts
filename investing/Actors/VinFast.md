@@ -7,6 +7,19 @@ VinFast — Vietnamese EV maker. Subsidiary of [[Vingroup]] (Vietnam's largest c
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.59 |
+| [[Semiconductors]] | SMH | 0.56 |
+| Technology | XLK | 0.55 |
+| *S&P 500* | *SPY* | *0.56* |
+
+VFS shows moderate Industrials correlation (XLI r = 0.59).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

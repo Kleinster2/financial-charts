@@ -16,6 +16,22 @@ The world's largest ammonia producer with ~10.4 Mt/year capacity. Headquartered 
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CF does not trade tightly with any sector ETF (max r = 0.48 with XLE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Energy and Utilities|Energy]] | XLE | 0.48 |
+| Oil & Gas E&P | XOP | 0.48 |
+| Utilities | XLU | 0.26 |
+| *S&P 500* | *SPY* | *0.16* |
+
+CF trades between Energy and Oil & Gas E&P without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

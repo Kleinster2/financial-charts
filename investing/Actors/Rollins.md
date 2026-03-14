@@ -7,6 +7,22 @@ Rollins — Pest control services. NYSE: ROL. Largest pest control company in No
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> ROL does not trade tightly with any sector ETF (max r = 0.43 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.43 |
+| Financials | XLF | 0.42 |
+| [[Consumer Staples]] | XLP | 0.41 |
+| *S&P 500* | *SPY* | *0.30* |
+
+ROL trades between Healthcare and Financials without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

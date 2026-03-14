@@ -9,6 +9,19 @@ Companhia Siderurgica Nacional — [[Brazil]]'s largest integrated steel produce
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.50 |
+| [[Consumer]] | XLY | 0.49 |
+| Industrials | XLI | 0.46 |
+| *S&P 500* | *SPY* | *0.47* |
+
+SID shows moderate Regional Banks correlation (KRE r = 0.50).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

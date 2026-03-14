@@ -7,6 +7,19 @@ aliases: [GEV]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.68 |
+| [[Defense]] | ITA | 0.66 |
+| Technology | XLK | 0.64 |
+| *S&P 500* | *SPY* | *0.61* |
+
+GEV shows moderate Industrials correlation (XLI r = 0.68).
+
+---
+
 ## Why GE Vernova matters
 
 GE Vernova is THE chokepoint for fast-deploying AI data center power:

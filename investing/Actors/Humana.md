@@ -7,6 +7,22 @@ aliases: [HUM]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> HUM does not trade tightly with any sector ETF (max r = 0.44 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.44 |
+| Financials | XLF | 0.25 |
+| Industrials | XLI | 0.22 |
+| *S&P 500* | *SPY* | *0.14* |
+
+HUM trades between Healthcare and Financials without a tight sector fit.
+
+---
+
 ## Why Humana matters
 
 | Metric | Value |

@@ -11,6 +11,19 @@ World's most valuable company with $416B FY2025 revenue and $112B net income, an
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.81 |
+| Financials | XLF | 0.78 |
+| Industrials | XLI | 0.77 |
+| *S&P 500* | *SPY* | *0.86* |
+
+AAPL trades as a core Communications name (XLC r = 0.81).
+
+---
+
 ## Core thesis
 
 Apple's silicon team extracts more value from TSMC nodes than any competitor. The A-series and M-series chips demonstrate design excellence that compounds TSMC's process advantages.

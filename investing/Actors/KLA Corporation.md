@@ -8,6 +8,19 @@ tags: [actor, company, semiconductors, equipment, public, usa]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.86 |
+| Technology | XLK | 0.79 |
+| Industrials | XLI | 0.70 |
+| *S&P 500* | *SPY* | *0.73* |
+
+KLAC trades as a core Semiconductors name (SMH r = 0.86).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

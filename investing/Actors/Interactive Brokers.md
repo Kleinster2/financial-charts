@@ -7,6 +7,19 @@ aliases: [IBKR, IB]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.78 |
+| [[Semiconductors]] | SMH | 0.75 |
+| Industrials | XLI | 0.73 |
+| *S&P 500* | *SPY* | *0.77* |
+
+IBKR trades as a core Technology name (XLK r = 0.78).
+
+---
+
 ## Why IBKR matters
 
 IBKR is the broker for serious traders:

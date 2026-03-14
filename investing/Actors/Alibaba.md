@@ -7,6 +7,19 @@ aliases: [BABA, 9988]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.82 |
+| Technology | XLK | 0.38 |
+| [[Semiconductors]] | SMH | 0.38 |
+| *S&P 500* | *SPY* | *0.38* |
+
+BABA trades as a core China Internet name (KWEB r = 0.82).
+
+---
+
 ## Why Alibaba matters
 
 Alibaba is reinventing itself as an AI company:

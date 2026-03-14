@@ -7,6 +7,22 @@ aliases: [HCA, Hospital Corporation of America]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> HCA does not trade tightly with any sector ETF (max r = 0.37 with XLP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.37 |
+| Utilities | XLU | 0.31 |
+| [[Healthcare]] | XLV | 0.29 |
+| *S&P 500* | *SPY* | *0.20* |
+
+HCA trades between Consumer Staples and Utilities without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

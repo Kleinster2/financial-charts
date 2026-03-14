@@ -9,6 +9,19 @@ Industrial manufacturing company (compressors, power tools, fluid management). N
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.80 |
+| [[Banks|Regional Banks]] | KRE | 0.80 |
+| Financials | XLF | 0.68 |
+| *S&P 500* | *SPY* | *0.67* |
+
+IR trades as a core Industrials name (XLI r = 0.80).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

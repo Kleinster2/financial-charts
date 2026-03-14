@@ -7,6 +7,19 @@ aliases: [HII, Huntington Ingalls Industries]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.70 |
+| Industrials | XLI | 0.59 |
+| Oil & Gas E&P | XOP | 0.47 |
+| *S&P 500* | *SPY* | *0.46* |
+
+HII trades as a core Defense name (ITA r = 0.70).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

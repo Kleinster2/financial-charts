@@ -7,6 +7,19 @@ aliases: [ERO]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.56 |
+| Industrials | XLI | 0.55 |
+| [[Defense]] | ITA | 0.52 |
+| *S&P 500* | *SPY* | *0.52* |
+
+ERO shows moderate Regional Banks correlation (KRE r = 0.56).
+
+---
+
 ## Why Ero matters
 
 | Metric | Value |

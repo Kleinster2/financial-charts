@@ -7,6 +7,22 @@ aliases: [Aramco, 2222.SR]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> 2222.SR does not trade tightly with any sector ETF (max r = -0.17 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | -0.17 |
+| [[Defense]] | ITA | -0.13 |
+| Financials | XLF | -0.12 |
+| *S&P 500* | *SPY* | *-0.07* |
+
+2222.SR trades between Regional Banks and Defense without a tight sector fit.
+
+---
+
 ## Why Saudi Aramco matters
 
 | Metric | Value |

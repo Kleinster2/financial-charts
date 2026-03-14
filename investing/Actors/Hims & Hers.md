@@ -23,6 +23,24 @@ Direct-to-consumer telehealth platform offering virtual consultations, prescript
 ![[hims-employees-chart.png]]
 *Headcount: 2,442 (2025) — up 49.2% YoY*
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> HIMS does not trade tightly with any sector ETF (max r = 0.48 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.48 |
+| Communications | XLC | 0.46 |
+| [[Consumer]] | XLY | 0.45 |
+| *S&P 500* | *SPY* | *0.47* |
+
+HIMS trades between Technology and Communications without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

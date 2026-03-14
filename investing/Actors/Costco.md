@@ -7,6 +7,19 @@ aliases: [COST]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.62 |
+| Utilities | XLU | 0.50 |
+| [[Healthcare]] | XLV | 0.45 |
+| *S&P 500* | *SPY* | *0.45* |
+
+COST shows moderate Consumer Staples correlation (XLP r = 0.62).
+
+---
+
 ## Why Costco matters
 
 | Metric | Value |

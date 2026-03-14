@@ -57,6 +57,7 @@ First flight January 11, 2026. Heavy cargo drone from [[Norinco]] subsidiary Xi'
 | MALE (Medium-altitude long-endurance) | MQ-9 Reaper, Wing Loong | ISR, strike |
 | HALE (High-altitude long-endurance) | RQ-4 Global Hawk | Strategic ISR |
 | Tactical | Bayraktar TB2, Switchblade | Battlefield ISR, loitering munitions |
+| Loitering munition | [[Shahed-136]], [[LoongUAV]] M9 | Expendable strike, one-way attack |
 | Cargo | Tianma-1000 | Logistics, resupply |
 
 **Ukraine lessons:** Cheap drones (FPV, Bayraktar) reshaping warfare. See [[Ukraine war]].
@@ -145,6 +146,11 @@ See [[2026 Iran conflict market impact]] for full cross-sector reaction.
 - [[Powerus]] — roll-up targeting Pentagon contracts (PUSA, expected summer 2026)
 - [[XTEND]] — Israeli AI drone maker, $1.5B reverse merger (Feb 2026)
 - [[Unusual Machines]] — drone components, Trump Jr. adviser (UMAC)
+
+### Chinese drone proliferation
+- [[LoongUAV]] — private tactical drone/loitering munition maker (LOONG M9)
+- [[AVIC]] — state-owned, Wing Loong MALE/HALE family (688297.SS)
+- [[Shahed-136]] — Iranian loitering munition (comparator class)
 
 ### Context
 - [[Aerospace]] — parent sector

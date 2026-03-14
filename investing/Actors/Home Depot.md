@@ -7,6 +7,19 @@ aliases: [HD]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.63 |
+| [[Banks|Regional Banks]] | KRE | 0.57 |
+| Industrials | XLI | 0.56 |
+| *S&P 500* | *SPY* | *0.50* |
+
+HD shows moderate Consumer correlation (XLY r = 0.63).
+
+---
+
 ## Why [[Home]] Depot matters
 
 | Metric | Value |

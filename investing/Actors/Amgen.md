@@ -7,6 +7,19 @@ aliases: [AMGN]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.69 |
+| Industrials | XLI | 0.39 |
+| [[Consumer Staples]] | XLP | 0.39 |
+| *S&P 500* | *SPY* | *0.37* |
+
+AMGN shows moderate Healthcare correlation (XLV r = 0.69).
+
+---
+
 ## Why Amgen matters
 
 | Metric | Value |

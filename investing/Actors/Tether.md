@@ -7,6 +7,22 @@ aliases: [USDT, USDT-USD, Tether Limited, Tether Holdings]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> USDT-USD does not trade tightly with any sector ETF (max r = 0.46 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.46 |
+| Technology | XLK | 0.23 |
+| Oil & Gas E&P | XOP | 0.23 |
+| *S&P 500* | *SPY* | *0.21* |
+
+USDT-USD trades between Regional Banks and Technology without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

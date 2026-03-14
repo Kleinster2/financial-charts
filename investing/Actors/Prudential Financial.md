@@ -7,6 +7,19 @@ aliases: [PRU, Prudential, Prudential Financial Inc]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.88 |
+| Financials | XLF | 0.83 |
+| Industrials | XLI | 0.74 |
+| *S&P 500* | *SPY* | *0.76* |
+
+PRU trades as a core Regional Banks name (KRE r = 0.88).
+
+---
+
 ## Why Prudential matters
 
 | Metric | Value |

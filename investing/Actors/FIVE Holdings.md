@@ -17,6 +17,19 @@ The strategic bet is that the hotel + nightlife + music label + fashion line mod
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.72 |
+| Oil & Gas E&P | XOP | 0.68 |
+| Industrials | XLI | 0.63 |
+| *S&P 500* | *SPY* | *0.61* |
+
+FIVE trades as a core Regional Banks name (KRE r = 0.72).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

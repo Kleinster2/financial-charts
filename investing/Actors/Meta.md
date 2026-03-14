@@ -9,6 +9,19 @@ Largest social media company with 3.5B daily active users, $200.9B FY2025 revenu
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.78 |
+| [[Consumer]] | XLY | 0.70 |
+| [[Banks|Regional Banks]] | KRE | 0.69 |
+| *S&P 500* | *SPY* | *0.70* |
+
+META trades as a core Communications name (XLC r = 0.78).
+
+---
+
 ## Leadership
 
 | Role | Name | Since |

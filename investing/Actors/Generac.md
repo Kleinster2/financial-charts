@@ -7,6 +7,19 @@ aliases: [GNRC]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.68 |
+| [[Semiconductors]] | SMH | 0.62 |
+| Industrials | XLI | 0.61 |
+| *S&P 500* | *SPY* | *0.57* |
+
+GNRC shows moderate Regional Banks correlation (KRE r = 0.68).
+
+---
+
 ## Price performance
 
 ![[generac-price-chart.png]]

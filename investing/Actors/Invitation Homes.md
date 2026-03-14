@@ -7,6 +7,19 @@ aliases: [INVH]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.63 |
+| Financials | XLF | 0.51 |
+| [[Banks|Regional Banks]] | KRE | 0.47 |
+| *S&P 500* | *SPY* | *0.41* |
+
+INVH shows moderate Real Estate correlation (XLRE r = 0.63).
+
+---
+
 ## Why Invitation Homes matters
 
 Largest single-family landlord:

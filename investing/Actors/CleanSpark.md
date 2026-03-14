@@ -7,6 +7,19 @@ aliases: [CLSK]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.56 |
+| Technology | XLK | 0.50 |
+| [[Semiconductors]] | SMH | 0.48 |
+| *S&P 500* | *SPY* | *0.47* |
+
+CLSK shows moderate Regional Banks correlation (KRE r = 0.56).
+
+---
+
 ## Why CleanSpark matters
 
 Large miner with clean energy angle:

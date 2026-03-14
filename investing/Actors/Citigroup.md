@@ -14,6 +14,19 @@ aliases: [C, Citi]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.84 |
+| [[Banks|Regional Banks]] | KRE | 0.81 |
+| Industrials | XLI | 0.72 |
+| *S&P 500* | *SPY* | *0.74* |
+
+C trades as a core Financials name (XLF r = 0.84).
+
+---
+
 ## Financials
 
 ### Annual (10 years)

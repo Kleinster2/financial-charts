@@ -9,6 +9,19 @@ Largest semiconductor equipment company by revenue. Broadest portfolio across WF
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.85 |
+| Technology | XLK | 0.76 |
+| Industrials | XLI | 0.63 |
+| *S&P 500* | *SPY* | *0.68* |
+
+AMAT trades as a core Semiconductors name (SMH r = 0.85).
+
+---
+
 ## Core thesis
 
 Applied Materials is the most diversified WFE play. Exposure across deposition, etch, implant, and inspection. Benefits from any fab buildout regardless of memory vs logic mix.

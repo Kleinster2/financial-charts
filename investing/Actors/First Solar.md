@@ -9,6 +9,22 @@ The only US-headquartered solar manufacturer at scale, using proprietary thin-fi
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> FSLR does not trade tightly with any sector ETF (max r = 0.32 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.32 |
+| [[Consumer]] | XLY | 0.31 |
+| Utilities | XLU | 0.26 |
+| *S&P 500* | *SPY* | *0.26* |
+
+FSLR trades between China Internet and Consumer without a tight sector fit.
+
+---
+
 ## Why First Solar matters
 
 First Solar is the only US-headquartered solar manufacturer at scale:

@@ -7,6 +7,19 @@ Twilio — cloud communications platform providing APIs for SMS, voice, video, e
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.66 |
+| [[Banks|Regional Banks]] | KRE | 0.56 |
+| Technology | XLK | 0.55 |
+| *S&P 500* | *SPY* | *0.52* |
+
+TWLO shows moderate Software correlation (IGV r = 0.66).
+
+---
+
 ## Why Twilio matters
 
 | Metric | Value |

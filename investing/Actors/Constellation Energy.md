@@ -7,6 +7,19 @@ aliases: [CEG]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.74 |
+| [[Semiconductors]] | SMH | 0.71 |
+| Industrials | XLI | 0.66 |
+| *S&P 500* | *SPY* | *0.71* |
+
+CEG trades as a core Technology name (XLK r = 0.74).
+
+---
+
 ## Why Constellation matters
 
 Nuclear renaissance for AI:

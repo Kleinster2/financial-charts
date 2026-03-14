@@ -9,6 +9,19 @@ Leading global restructuring advisory firm. Expanded [[Brazil]] team in 2023 ant
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.82 |
+| Financials | XLF | 0.66 |
+| Industrials | XLI | 0.66 |
+| *S&P 500* | *SPY* | *0.64* |
+
+HLI trades as a core Regional Banks name (KRE r = 0.82).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -7,6 +7,24 @@ aliases: [EBAY]
 
 Online marketplace pioneer, now focused on **C2C resale and pre-owned goods**. Pivoting from general marketplace to curated verticals (fashion, collectibles, motors, luxury).
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> EBAY does not trade tightly with any sector ETF (max r = 0.44 with XLC).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.44 |
+| [[Consumer]] | XLY | 0.39 |
+| China Internet | KWEB | 0.39 |
+| *S&P 500* | *SPY* | *0.37* |
+
+EBAY trades between Communications and Consumer without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [MARA, [[Marathon]]]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.54 |
+| [[Semiconductors]] | SMH | 0.53 |
+| [[Consumer]] | XLY | 0.52 |
+| *S&P 500* | *SPY* | *0.51* |
+
+MARA shows moderate Technology correlation (XLK r = 0.54).
+
+---
+
 ## Why [[Marathon]] matters
 
 Largest Bitcoin miner staying Bitcoin-focused:

@@ -7,6 +7,19 @@ aliases: [ISRG, da Vinci]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.62 |
+| [[Consumer]] | XLY | 0.60 |
+| Financials | XLF | 0.59 |
+| *S&P 500* | *SPY* | *0.66* |
+
+ISRG shows moderate Technology correlation (XLK r = 0.62).
+
+---
+
 ## Why Intuitive matters
 
 | Metric | Value |

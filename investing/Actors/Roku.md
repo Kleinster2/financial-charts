@@ -7,6 +7,19 @@ aliases: [ROKU]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.75 |
+| Communications | XLC | 0.73 |
+| Software | IGV | 0.67 |
+| *S&P 500* | *SPY* | *0.71* |
+
+ROKU trades as a core Consumer name (XLY r = 0.75).
+
+---
+
 ## Why Roku matters
 
 | Metric | Value |

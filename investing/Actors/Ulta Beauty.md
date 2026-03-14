@@ -9,6 +9,22 @@ aliases: [ULTA, Ulta]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> ULTA does not trade tightly with any sector ETF (max r = 0.46 with XLC).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.46 |
+| [[Consumer]] | XLY | 0.46 |
+| Industrials | XLI | 0.44 |
+| *S&P 500* | *SPY* | *0.47* |
+
+ULTA trades between Communications and Consumer without a tight sector fit.
+
+---
+
 ## Overview
 
 | Metric | Value |

@@ -7,6 +7,22 @@ aliases: [Gucci parent, KER.PA]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> KER.PA does not trade tightly with any sector ETF (max r = 0.18 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.18 |
+| [[Energy and Utilities|Energy]] | XLE | 0.15 |
+| Oil & Gas E&P | XOP | 0.14 |
+| *S&P 500* | *SPY* | *0.00* |
+
+KER.PA trades between Regional Banks and Energy without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

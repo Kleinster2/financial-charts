@@ -7,6 +7,19 @@ On Running — Swiss performance running brand co-founded by [[Roger Federer]]. 
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.61 |
+| [[Consumer]] | XLY | 0.52 |
+| Industrials | XLI | 0.50 |
+| *S&P 500* | *SPY* | *0.50* |
+
+ONON shows moderate Regional Banks correlation (KRE r = 0.61).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

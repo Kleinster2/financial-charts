@@ -7,6 +7,22 @@ aliases: [MultiPlan, MPLN, CTEV]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CTEV does not trade tightly with any sector ETF (max r = 0.27 with XLY).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.27 |
+| Communications | XLC | 0.24 |
+| Financials | XLF | 0.23 |
+| *S&P 500* | *SPY* | *0.24* |
+
+CTEV trades between Consumer and Communications without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

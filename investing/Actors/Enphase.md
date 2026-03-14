@@ -7,6 +7,22 @@ aliases: [ENPH, Enphase Energy]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> ENPH does not trade tightly with any sector ETF (max r = 0.44 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.44 |
+| [[Consumer]] | XLY | 0.36 |
+| Financials | XLF | 0.34 |
+| *S&P 500* | *SPY* | *0.29* |
+
+ENPH trades between Regional Banks and Consumer without a tight sector fit.
+
+---
+
 ## Why Enphase matters
 
 Enphase dominates residential solar electronics:

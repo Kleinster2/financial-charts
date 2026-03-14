@@ -7,6 +7,22 @@ aliases: [BA.L, BAE]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> BA.L does not trade tightly with any sector ETF (max r = 0.30 with XLU).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Utilities | XLU | 0.30 |
+| [[Defense]] | ITA | 0.30 |
+| China Internet | KWEB | 0.30 |
+| *S&P 500* | *SPY* | *0.13* |
+
+BA.L trades between Utilities and Defense without a tight sector fit.
+
+---
+
 ## Why BAE matters
 
 | Metric | Value |

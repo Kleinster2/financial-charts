@@ -7,6 +7,22 @@ aliases: [COR, CoreSite Realty]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> COR does not trade tightly with any sector ETF (max r = 0.16 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.16 |
+| Software | IGV | -0.12 |
+| [[Healthcare]] | XLV | 0.11 |
+| *S&P 500* | *SPY* | *-0.02* |
+
+COR trades between China Internet and Software without a tight sector fit.
+
+---
+
 ## Why Coresite matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [WULF]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.56 |
+| Technology | XLK | 0.48 |
+| [[Semiconductors]] | SMH | 0.43 |
+| *S&P 500* | *SPY* | *0.44* |
+
+WULF shows moderate Regional Banks correlation (KRE r = 0.56).
+
+---
+
 ## Why TeraWulf matters
 
 Significant HPC capacity with [[Google]]-backed Fluidstack + Anthropic:

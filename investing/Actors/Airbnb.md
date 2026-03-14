@@ -7,6 +7,19 @@ Airbnb — [[Home]]-sharing marketplace. 133M+ nights booked. $4.5B FCF. ~$12B r
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.78 |
+| Communications | XLC | 0.77 |
+| Software | IGV | 0.77 |
+| *S&P 500* | *SPY* | *0.79* |
+
+ABNB trades as a core Consumer name (XLY r = 0.78).
+
+---
+
 ## Why Airbnb matters
 
 | Metric | Value |

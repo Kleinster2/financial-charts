@@ -7,6 +7,19 @@ aliases: [0700, TCEHY]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.82 |
+| Technology | XLK | 0.39 |
+| [[Semiconductors]] | SMH | 0.37 |
+| *S&P 500* | *SPY* | *0.38* |
+
+TCEHY trades as a core China Internet name (KWEB r = 0.82).
+
+---
+
 ## Why Tencent matters
 
 Tencent is [[China]]'s largest company by market cap and a major AI investor:

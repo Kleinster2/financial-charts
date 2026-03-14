@@ -7,6 +7,19 @@ aliases: [OMC, Omnicom Group]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.52 |
+| Financials | XLF | 0.45 |
+| [[Healthcare]] | XLV | 0.45 |
+| *S&P 500* | *SPY* | *0.41* |
+
+OMC shows moderate Communications correlation (XLC r = 0.52).
+
+---
+
 ## Overview
 
 | Metric | Value |

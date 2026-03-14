@@ -7,6 +7,19 @@ aliases: [NET, Cloudflare Inc]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.70 |
+| Technology | XLK | 0.64 |
+| [[Consumer]] | XLY | 0.60 |
+| *S&P 500* | *SPY* | *0.61* |
+
+NET trades as a core Software name (IGV r = 0.70).
+
+---
+
 ## Overview
 
 | Metric | Value |

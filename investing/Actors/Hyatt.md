@@ -7,6 +7,19 @@ aliases: [H, Hyatt Hotels]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.77 |
+| Financials | XLF | 0.67 |
+| Industrials | XLI | 0.67 |
+| *S&P 500* | *SPY* | *0.67* |
+
+H trades as a core Regional Banks name (KRE r = 0.77).
+
+---
+
 
 ![[h-employees-chart.png]]
 *Headcount: 50,000 (2025) — down 3.8% YoY*

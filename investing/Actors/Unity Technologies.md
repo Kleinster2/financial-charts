@@ -7,6 +7,19 @@ aliases: [Unity, U]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.64 |
+| [[Banks|Regional Banks]] | KRE | 0.62 |
+| [[Consumer]] | XLY | 0.53 |
+| *S&P 500* | *SPY* | *0.50* |
+
+U shows moderate Software correlation (IGV r = 0.64).
+
+---
+
 ## Why Unity matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ tags: [actor, nuclear, fuel, public]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.56 |
+| [[Semiconductors]] | SMH | 0.51 |
+| Industrials | XLI | 0.46 |
+| *S&P 500* | *SPY* | *0.48* |
+
+LTBR shows moderate Technology correlation (XLK r = 0.56).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

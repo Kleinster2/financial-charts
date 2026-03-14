@@ -14,6 +14,19 @@ aliases: [TXN, TI]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.67 |
+| [[Consumer]] | XLY | 0.61 |
+| Technology | XLK | 0.60 |
+| *S&P 500* | *SPY* | *0.63* |
+
+TXN shows moderate Semiconductors correlation (SMH r = 0.67).
+
+---
+
 ## Overview
 
 | Metric | Value |

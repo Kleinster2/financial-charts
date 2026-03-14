@@ -7,6 +7,19 @@ aliases: [EQIX]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Real estate|Real Estate]] | XLRE | 0.57 |
+| [[Defense]] | ITA | 0.53 |
+| Utilities | XLU | 0.51 |
+| *S&P 500* | *SPY* | *0.48* |
+
+EQIX shows moderate Real Estate correlation (XLRE r = 0.57).
+
+---
+
 ## Why Equinix matters
 
 Equinix is the largest publicly traded data center company:

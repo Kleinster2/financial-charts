@@ -7,6 +7,19 @@ aliases: [TER]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.75 |
+| Technology | XLK | 0.69 |
+| [[Banks|Regional Banks]] | KRE | 0.68 |
+| *S&P 500* | *SPY* | *0.63* |
+
+TER trades as a core Semiconductors name (SMH r = 0.75).
+
+---
+
 ## Why Teradyne matters
 
 Test equipment is a picks-and-shovels play on semiconductor complexity:

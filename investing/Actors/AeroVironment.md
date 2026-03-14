@@ -9,6 +9,19 @@ tags: [actor, company, drones, defense, loitering-munitions, counter-uas, space,
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.56 |
+| Software | IGV | 0.53 |
+| Technology | XLK | 0.50 |
+| *S&P 500* | *SPY* | *0.45* |
+
+AVAV shows moderate Defense correlation (ITA r = 0.56).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

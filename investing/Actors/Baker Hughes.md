@@ -7,6 +7,19 @@ aliases: [BKR]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Energy and Utilities|Energy]] | XLE | 0.76 |
+| Oil & Gas E&P | XOP | 0.75 |
+| Industrials | XLI | 0.72 |
+| *S&P 500* | *SPY* | *0.67* |
+
+BKR trades as a core Energy name (XLE r = 0.76).
+
+---
+
 ## Why Baker Hughes matters
 
 | Metric | Value |

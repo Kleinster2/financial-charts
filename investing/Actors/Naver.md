@@ -7,6 +7,22 @@ aliases: [035420.KS]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> 035420.KS does not trade tightly with any sector ETF (max r = -0.15 with XOP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | -0.15 |
+| [[Healthcare]] | XLV | -0.14 |
+| [[Defense]] | ITA | -0.11 |
+| *S&P 500* | *SPY* | *-0.06* |
+
+035420.KS trades between Oil & Gas E&P and Healthcare without a tight sector fit.
+
+---
+
 ## Why Naver matters
 
 Korea's internet giant:

@@ -7,6 +7,22 @@ aliases: [BLDP, Ballard Power]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> BLDP does not trade tightly with any sector ETF (max r = 0.39 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.39 |
+| [[Semiconductors]] | SMH | 0.37 |
+| [[Consumer]] | XLY | 0.36 |
+| *S&P 500* | *SPY* | *0.37* |
+
+BLDP trades between Technology and Semiconductors without a tight sector fit.
+
+---
+
 ## Why Ballard matters
 
 Ballard is the focused fuel cell play:

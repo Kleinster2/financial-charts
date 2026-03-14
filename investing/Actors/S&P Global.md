@@ -7,6 +7,19 @@ aliases: [SPGI, S&P, Standard & Poor's, Capital IQ]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.62 |
+| [[Banks|Regional Banks]] | KRE | 0.62 |
+| Software | IGV | 0.61 |
+| *S&P 500* | *SPY* | *0.49* |
+
+SPGI shows moderate Financials correlation (XLF r = 0.62).
+
+---
+
 ## Overview
 
 | Metric | Value |

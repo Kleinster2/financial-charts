@@ -10,6 +10,22 @@ aliases: [ENR, ENR.DE, Siemens Energy AG]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> ENR.DE does not trade tightly with any sector ETF (max r = 0.31 with ITA).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.31 |
+| Oil & Gas E&P | XOP | 0.31 |
+| Technology | XLK | 0.26 |
+| *S&P 500* | *SPY* | *0.19* |
+
+ENR.DE trades between Defense and Oil & Gas E&P without a tight sector fit.
+
+---
+
 ## Why [[Siemens]] Energy matters
 
 [[Siemens]] Energy is the main GE Vernova competitor — same bottleneck dynamics:

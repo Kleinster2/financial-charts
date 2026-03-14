@@ -7,6 +7,19 @@ aliases: [ENTG]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.78 |
+| Technology | XLK | 0.74 |
+| Industrials | XLI | 0.72 |
+| *S&P 500* | *SPY* | *0.75* |
+
+ENTG trades as a core Semiconductors name (SMH r = 0.78).
+
+---
+
 ## Why Entegris matters
 
 Controls contamination = controls yield. Entegris provides the materials and equipment that keep fabs clean:

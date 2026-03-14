@@ -7,6 +7,19 @@ aliases: [BCS, Barclays PLC]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.78 |
+| Industrials | XLI | 0.77 |
+| [[Semiconductors]] | SMH | 0.76 |
+| *S&P 500* | *SPY* | *0.78* |
+
+BCS trades as a core Financials name (XLF r = 0.78).
+
+---
+
 ## Why Barclays matters
 
 | Metric | Value |

@@ -9,6 +9,22 @@ tags: [actor, finance, insurance, broker, usa, public]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> RYAN does not trade tightly with any sector ETF (max r = 0.38 with XLF).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.38 |
+| Industrials | XLI | 0.32 |
+| [[Consumer Staples]] | XLP | 0.29 |
+| *S&P 500* | *SPY* | *0.22* |
+
+RYAN trades between Financials and Industrials without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

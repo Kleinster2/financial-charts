@@ -7,6 +7,22 @@ aliases: [LCID, Lucid Motors]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> LCID does not trade tightly with any sector ETF (max r = 0.41 with XLI).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.41 |
+| Financials | XLF | 0.36 |
+| China Internet | KWEB | 0.36 |
+| *S&P 500* | *SPY* | *0.34* |
+
+LCID trades between Industrials and Financials without a tight sector fit.
+
+---
+
 ## Why Lucid matters
 
 | Metric | Value |

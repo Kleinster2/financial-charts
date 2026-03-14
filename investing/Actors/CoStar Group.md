@@ -7,6 +7,22 @@ aliases: [CSGP, CoStar, Homes.com, LoopNet]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CSGP does not trade tightly with any sector ETF (max r = 0.46 with XLY).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.46 |
+| Software | IGV | 0.45 |
+| Financials | XLF | 0.43 |
+| *S&P 500* | *SPY* | *0.40* |
+
+CSGP trades between Consumer and Software without a tight sector fit.
+
+---
+
 ## Why it matters
 
 | Metric | Value |

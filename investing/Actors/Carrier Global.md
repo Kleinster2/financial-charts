@@ -7,6 +7,19 @@ aliases: [CARR, Carrier]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.69 |
+| [[Consumer]] | XLY | 0.59 |
+| Communications | XLC | 0.58 |
+| *S&P 500* | *SPY* | *0.59* |
+
+CARR shows moderate Industrials correlation (XLI r = 0.69).
+
+---
+
 ## Price performance
 
 ![[carrier-price-chart.png]]

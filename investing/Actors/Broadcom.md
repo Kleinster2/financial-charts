@@ -9,6 +9,19 @@ Fabless chip designer that enables hyperscaler custom AI silicon. Also major net
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.82 |
+| [[Semiconductors]] | SMH | 0.81 |
+| Software | IGV | 0.66 |
+| *S&P 500* | *SPY* | *0.74* |
+
+AVGO trades as a core Technology name (XLK r = 0.82).
+
+---
+
 ## Role in AI supply chain
 
 Broadcom sits between hyperscalers and foundries:

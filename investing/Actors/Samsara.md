@@ -14,6 +14,19 @@ Connected Operations Platform for physical operations — fleet management, indu
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.62 |
+| Technology | XLK | 0.48 |
+| [[Consumer]] | XLY | 0.44 |
+| *S&P 500* | *SPY* | *0.45* |
+
+IOT shows moderate Software correlation (IGV r = 0.62).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

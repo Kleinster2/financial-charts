@@ -7,6 +7,19 @@ aliases: [FOX, FOXA, Fox News, Fox Sports]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.64 |
+| Financials | XLF | 0.62 |
+| Communications | XLC | 0.61 |
+| *S&P 500* | *SPY* | *0.57* |
+
+FOX shows moderate Regional Banks correlation (KRE r = 0.64).
+
+---
+
 ## Why Fox matters
 
 | Metric | Value |

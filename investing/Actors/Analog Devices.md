@@ -7,6 +7,19 @@ aliases: [ADI]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.82 |
+| Industrials | XLI | 0.79 |
+| [[Consumer]] | XLY | 0.78 |
+| *S&P 500* | *SPY* | *0.82* |
+
+ADI trades as a core Semiconductors name (SMH r = 0.82).
+
+---
+
 ## Why Analog Devices matters
 
 | Metric | Value |

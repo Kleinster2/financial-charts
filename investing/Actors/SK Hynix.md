@@ -16,6 +16,22 @@ SK Hynix dominates [[HBM]] but depends on [[TSMC]] for [[Advanced packaging|pack
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> 000660.KS does not trade tightly with any sector ETF (max r = 0.19 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.19 |
+| Oil & Gas E&P | XOP | 0.15 |
+| [[Semiconductors]] | SMH | 0.13 |
+| *S&P 500* | *SPY* | *0.01* |
+
+000660.KS trades between China Internet and Oil & Gas E&P without a tight sector fit.
+
+---
+
 ## Key strengths
 
 - **[[HBM]] leadership**: Supplies NVIDIA, [[AMD]] with [[HBM]] for AI accelerators

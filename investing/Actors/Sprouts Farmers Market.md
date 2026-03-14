@@ -7,6 +7,22 @@ aliases: [Sprouts, SFM]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> SFM does not trade tightly with any sector ETF (max r = 0.33 with XOP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.33 |
+| Communications | XLC | 0.27 |
+| [[Consumer]] | XLY | 0.26 |
+| *S&P 500* | *SPY* | *0.24* |
+
+SFM trades between Oil & Gas E&P and Communications without a tight sector fit.
+
+---
+
 
 ![[sfm-employees-chart.png]]
 *Headcount: 36,000 (2025) — up 2.9% YoY*

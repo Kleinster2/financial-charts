@@ -15,6 +15,19 @@ tags:
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.65 |
+| [[Consumer]] | XLY | 0.56 |
+| Oil & Gas E&P | XOP | 0.56 |
+| *S&P 500* | *SPY* | *0.51* |
+
+IP shows moderate Regional Banks correlation (KRE r = 0.65).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

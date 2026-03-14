@@ -7,6 +7,22 @@ aliases: [LEN]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> LEN does not trade tightly with any sector ETF (max r = 0.49 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.49 |
+| [[Real estate|Real Estate]] | XLRE | 0.47 |
+| Industrials | XLI | 0.43 |
+| *S&P 500* | *SPY* | *0.29* |
+
+LEN trades between Regional Banks and Real Estate without a tight sector fit.
+
+---
+
 ## Why Lennar matters
 
 Second largest US homebuilder:

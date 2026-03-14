@@ -9,6 +9,19 @@ Most vertically integrated AI hyperscaler: owns DeepMind (Gemini), designs custo
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.65 |
+| Technology | XLK | 0.60 |
+| [[Consumer]] | XLY | 0.59 |
+| *S&P 500* | *SPY* | *0.64* |
+
+GOOGL shows moderate Communications correlation (XLC r = 0.65).
+
+---
+
 ## Leadership
 
 | Role | Name | Background |

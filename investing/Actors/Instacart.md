@@ -7,6 +7,22 @@ aliases: [CART, Maplebear]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CART does not trade tightly with any sector ETF (max r = 0.34 with IGV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.34 |
+| [[Real estate|Real Estate]] | XLRE | 0.32 |
+| Oil & Gas E&P | XOP | 0.32 |
+| *S&P 500* | *SPY* | *0.26* |
+
+CART trades between Software and Real Estate without a tight sector fit.
+
+---
+
 ## Why Instacart matters
 
 | Metric | Value |

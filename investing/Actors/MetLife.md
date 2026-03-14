@@ -7,6 +7,19 @@ aliases: [MET, MetLife Inc]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.89 |
+| Financials | XLF | 0.88 |
+| Industrials | XLI | 0.76 |
+| *S&P 500* | *SPY* | *0.77* |
+
+MET trades as a core Regional Banks name (KRE r = 0.89).
+
+---
+
 ## Why MetLife matters
 
 | Metric | Value |

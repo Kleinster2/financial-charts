@@ -7,6 +7,19 @@ ServiceNow — Enterprise workflow automation platform. \#1 in IT service manage
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.83 |
+| [[Consumer]] | XLY | 0.57 |
+| Technology | XLK | 0.53 |
+| *S&P 500* | *SPY* | *0.55* |
+
+NOW trades as a core Software name (IGV r = 0.83).
+
+---
+
 
 ![[now-employees-chart.png]]
 *Headcount: 29,187 (2025) — up 11.0% YoY*

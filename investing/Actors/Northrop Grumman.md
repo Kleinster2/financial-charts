@@ -7,6 +7,19 @@ aliases: [NOC]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.58 |
+| Industrials | XLI | 0.45 |
+| [[Consumer Staples]] | XLP | 0.40 |
+| *S&P 500* | *SPY* | *0.31* |
+
+NOC shows moderate Defense correlation (ITA r = 0.58).
+
+---
+
 ## Why Northrop matters
 
 | Metric | Value |

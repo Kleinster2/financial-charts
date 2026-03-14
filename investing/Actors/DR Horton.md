@@ -7,6 +7,22 @@ aliases: [D.R. Horton, DHI]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> DHI does not trade tightly with any sector ETF (max r = 0.48 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.48 |
+| [[Real estate|Real Estate]] | XLRE | 0.41 |
+| [[Consumer]] | XLY | 0.40 |
+| *S&P 500* | *SPY* | *0.24* |
+
+DHI trades between Regional Banks and Real Estate without a tight sector fit.
+
+---
+
 ## Why DR Horton matters
 
 America's biggest homebuilder:

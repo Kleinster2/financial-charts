@@ -7,6 +7,19 @@ aliases: [MAR, Marriott International]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.79 |
+| Financials | XLF | 0.70 |
+| [[Consumer]] | XLY | 0.69 |
+| *S&P 500* | *SPY* | *0.65* |
+
+MAR trades as a core Regional Banks name (KRE r = 0.79).
+
+---
+
 
 ![[mar-employees-chart.png]]
 *Headcount: 414,000 (2025) — down 1.0% YoY*

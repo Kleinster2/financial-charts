@@ -7,6 +7,19 @@ aliases: [CMG]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.60 |
+| [[Consumer]] | XLY | 0.57 |
+| Oil & Gas E&P | XOP | 0.55 |
+| *S&P 500* | *SPY* | *0.53* |
+
+CMG shows moderate Regional Banks correlation (KRE r = 0.60).
+
+---
+
 ## Q4 2025 earnings (Feb 3, 2026)
 
 **Traffic decline continues. Stock -6%.**

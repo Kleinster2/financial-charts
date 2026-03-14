@@ -7,6 +7,19 @@ aliases: [Toast Inc, TOST]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.70 |
+| Software | IGV | 0.70 |
+| Financials | XLF | 0.65 |
+| *S&P 500* | *SPY* | *0.61* |
+
+TOST trades as a core Consumer name (XLY r = 0.70).
+
+---
+
 ## Why Toast matters
 
 | Metric | Value |

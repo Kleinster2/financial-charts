@@ -7,6 +7,19 @@ aliases: [AAL, American]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.75 |
+| [[Consumer]] | XLY | 0.70 |
+| Industrials | XLI | 0.68 |
+| *S&P 500* | *SPY* | *0.70* |
+
+AAL trades as a core Regional Banks name (KRE r = 0.75).
+
+---
+
 ## Jan 27, 2026: Earnings miss on shutdown + storm
 
 **Stock -5%** — missed Q4 earnings despite record revenue. External shocks hit harder than peers.

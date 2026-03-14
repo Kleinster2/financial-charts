@@ -7,6 +7,22 @@ aliases: [SNPS]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> SNPS does not trade tightly with any sector ETF (max r = 0.45 with XLY).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.45 |
+| [[Semiconductors]] | SMH | 0.43 |
+| Technology | XLK | 0.42 |
+| *S&P 500* | *SPY* | *0.43* |
+
+SNPS trades between Consumer and Semiconductors without a tight sector fit.
+
+---
+
 ## Why Synopsys matters
 
 Every advanced chip needs Synopsys tools:

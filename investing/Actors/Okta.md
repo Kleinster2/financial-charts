@@ -7,6 +7,19 @@ aliases: [OKTA]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.73 |
+| Technology | XLK | 0.59 |
+| [[Consumer]] | XLY | 0.58 |
+| *S&P 500* | *SPY* | *0.57* |
+
+OKTA trades as a core Software name (IGV r = 0.73).
+
+---
+
 ## Why Okta matters
 
 | Metric | Value |

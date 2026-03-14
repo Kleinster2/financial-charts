@@ -18,6 +18,19 @@ The Q3 FY26 beat (Mar 10, 2026) offered the first proof point: revenue $17.19B v
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.52 |
+| Technology | XLK | 0.50 |
+| [[Semiconductors]] | SMH | 0.42 |
+| *S&P 500* | *SPY* | *0.39* |
+
+ORCL shows moderate Software correlation (IGV r = 0.52).
+
+---
+
 ## Why Oracle matters
 
 Oracle is punching above its weight in AI infrastructure:

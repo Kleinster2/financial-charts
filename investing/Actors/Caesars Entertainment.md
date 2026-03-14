@@ -7,6 +7,19 @@ Caesars Entertainment -- Largest US casino operator by property count (50+ casin
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.57 |
+| Oil & Gas E&P | XOP | 0.57 |
+| Financials | XLF | 0.54 |
+| *S&P 500* | *SPY* | *0.47* |
+
+CZR shows moderate Consumer correlation (XLY r = 0.57).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

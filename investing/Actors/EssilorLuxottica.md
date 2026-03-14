@@ -7,6 +7,21 @@ aliases: [Essilor, Luxottica, ESLX, ESLOY, EL]
 
 World's largest eyewear company. Controls lens manufacturing (Essilor) + frame brands (Luxottica: Ray-Ban, Oakley, Persol) + retail (LensCrafters, Sunglass Hut). Near-monopoly in premium eyewear.
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.70 |
+| Industrials | XLI | 0.66 |
+| [[Consumer]] | XLY | 0.63 |
+| *S&P 500* | *SPY* | *0.64* |
+
+EL trades as a core Regional Banks name (KRE r = 0.70).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

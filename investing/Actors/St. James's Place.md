@@ -7,6 +7,22 @@ St. James's Place — UK's largest wealth manager. ~5,000 financial advisers, £
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> STJ.L does not trade tightly with any sector ETF (max r = 0.38 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.38 |
+| Financials | XLF | 0.25 |
+| Oil & Gas E&P | XOP | 0.24 |
+| *S&P 500* | *SPY* | *0.14* |
+
+STJ.L trades between Regional Banks and Financials without a tight sector fit.
+
+---
+
 ## Price performance
 
 ![[stjl-price-chart.png]]

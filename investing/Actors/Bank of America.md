@@ -14,6 +14,19 @@ aliases: [BAC, BofA, BoA]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.86 |
+| Financials | XLF | 0.85 |
+| Industrials | XLI | 0.70 |
+| *S&P 500* | *SPY* | *0.70* |
+
+BAC trades as a core Regional Banks name (KRE r = 0.86).
+
+---
+
 ## Overview
 
 | Metric | Value |

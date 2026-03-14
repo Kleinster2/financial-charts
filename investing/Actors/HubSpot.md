@@ -7,6 +7,19 @@ aliases: [HUBS]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.72 |
+| [[Banks|Regional Banks]] | KRE | 0.53 |
+| [[Consumer]] | XLY | 0.49 |
+| *S&P 500* | *SPY* | *0.45* |
+
+HUBS trades as a core Software name (IGV r = 0.72).
+
+---
+
 ## Why HubSpot matters
 
 | Metric | Value |

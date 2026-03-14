@@ -7,6 +7,19 @@ aliases: [ARM, Arm]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.81 |
+| [[Semiconductors]] | SMH | 0.80 |
+| Industrials | XLI | 0.72 |
+| *S&P 500* | *SPY* | *0.78* |
+
+ARM trades as a core Technology name (XLK r = 0.81).
+
+---
+
 ## Why Arm matters
 
 Arm doesn't make chips — it licenses the architecture that others use:

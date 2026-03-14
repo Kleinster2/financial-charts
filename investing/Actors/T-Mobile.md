@@ -7,6 +7,19 @@ T-Mobile — Fastest growing US carrier. [[Deutsche Telekom]] subsidiary. Nokia 
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.53 |
+| Utilities | XLU | 0.42 |
+| [[Real estate|Real Estate]] | XLRE | 0.35 |
+| *S&P 500* | *SPY* | *0.19* |
+
+TMUS shows moderate Consumer Staples correlation (XLP r = 0.53).
+
+---
+
 ## Why T-Mobile matters
 
 US wireless disruptor:

@@ -7,6 +7,19 @@ aliases: [SONO]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.70 |
+| [[Consumer]] | XLY | 0.59 |
+| Financials | XLF | 0.57 |
+| *S&P 500* | *SPY* | *0.58* |
+
+SONO trades as a core Regional Banks name (KRE r = 0.70).
+
+---
+
 ## Why Sonos matters
 
 Defined the premium wireless audio category:

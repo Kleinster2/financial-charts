@@ -7,6 +7,19 @@ aliases: [Repsol SA, REP.MC, REPYY]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.69 |
+| [[Energy and Utilities|Energy]] | XLE | 0.63 |
+| [[Banks|Regional Banks]] | KRE | 0.44 |
+| *S&P 500* | *SPY* | *0.35* |
+
+REPYY shows moderate Oil & Gas E&P correlation (XOP r = 0.69).
+
+---
+
 ## Why Repsol matters
 
 | Metric | Value |

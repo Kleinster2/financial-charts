@@ -7,6 +7,22 @@ aliases: [MCK]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> MCK does not trade tightly with any sector ETF (max r = 0.25 with XLP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.25 |
+| [[Healthcare]] | XLV | 0.23 |
+| Utilities | XLU | 0.21 |
+| *S&P 500* | *SPY* | *0.07* |
+
+MCK trades between Consumer Staples and Healthcare without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

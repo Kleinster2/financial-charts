@@ -7,6 +7,19 @@ Vertiv — Data center thermal management and power. Cooling = critical constrai
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.79 |
+| [[Semiconductors]] | SMH | 0.76 |
+| Software | IGV | 0.68 |
+| *S&P 500* | *SPY* | *0.69* |
+
+VRT trades as a core Technology name (XLK r = 0.79).
+
+---
+
 ## Why Vertiv matters
 
 AI chips generate massive heat — Vertiv provides the cooling:

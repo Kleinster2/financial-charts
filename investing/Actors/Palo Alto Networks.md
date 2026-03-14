@@ -7,6 +7,19 @@ Palo Alto Networks — Enterprise cybersecurity leader. Platform consolidation s
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.78 |
+| Technology | XLK | 0.65 |
+| [[Consumer]] | XLY | 0.59 |
+| *S&P 500* | *SPY* | *0.65* |
+
+PANW trades as a core Software name (IGV r = 0.78).
+
+---
+
 ## Why Palo Alto matters
 
 | Metric | Value |

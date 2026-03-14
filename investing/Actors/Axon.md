@@ -9,6 +9,19 @@ Axon — Public safety technology company. Makes TASERs, body cameras, and evide
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.63 |
+| [[Defense]] | ITA | 0.54 |
+| Technology | XLK | 0.51 |
+| *S&P 500* | *SPY* | *0.47* |
+
+AXON shows moderate Software correlation (IGV r = 0.63).
+
+---
+
 
 ![[axon-employees-chart.png]]
 *Headcount: 4,100 (2024) — down 3.8% YoY*

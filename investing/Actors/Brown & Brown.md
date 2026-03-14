@@ -9,6 +9,22 @@ tags: [actor, finance, insurance, broker, usa, public]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> BRO does not trade tightly with any sector ETF (max r = 0.43 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.43 |
+| Financials | XLF | 0.41 |
+| [[Consumer Staples]] | XLP | 0.39 |
+| *S&P 500* | *SPY* | *0.23* |
+
+BRO trades between Healthcare and Financials without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

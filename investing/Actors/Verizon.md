@@ -7,6 +7,22 @@ aliases: [VZ]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> VZ does not trade tightly with any sector ETF (max r = 0.42 with XLP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.42 |
+| [[Healthcare]] | XLV | 0.32 |
+| Utilities | XLU | 0.25 |
+| *S&P 500* | *SPY* | *0.11* |
+
+VZ trades between Consumer Staples and Healthcare without a tight sector fit.
+
+---
+
 ## Why Verizon matters
 
 Premium US network:

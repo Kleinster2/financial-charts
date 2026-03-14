@@ -11,6 +11,21 @@ tags:
 
 **Danaher** is a life sciences and diagnostics conglomerate operating through three segments: Biotechnology ([[Cytiva]], [[Pall]]), Life Sciences ([[Beckman Coulter]], [[Leica Microsystems]]), and Diagnostics ([[Cepheid]], [[Radiometer]]).
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.72 |
+| Industrials | XLI | 0.66 |
+| [[Defense]] | ITA | 0.64 |
+| *S&P 500* | *SPY* | *0.62* |
+
+DHR trades as a core Healthcare name (XLV r = 0.72).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

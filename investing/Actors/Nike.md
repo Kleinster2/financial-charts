@@ -9,6 +9,19 @@ aliases: [NKE, Nike Inc]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.63 |
+| [[Consumer]] | XLY | 0.57 |
+| Industrials | XLI | 0.53 |
+| *S&P 500* | *SPY* | *0.50* |
+
+NKE shows moderate Regional Banks correlation (KRE r = 0.63).
+
+---
+
 ## Overview
 
 | Metric | Value |

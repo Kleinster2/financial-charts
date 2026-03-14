@@ -7,6 +7,19 @@ aliases: [ABBV]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.61 |
+| [[Defense]] | ITA | 0.38 |
+| Industrials | XLI | 0.37 |
+| *S&P 500* | *SPY* | *0.36* |
+
+ABBV shows moderate Healthcare correlation (XLV r = 0.61).
+
+---
+
 ## Why AbbVie matters
 
 | Metric | Value |

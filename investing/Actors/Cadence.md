@@ -7,6 +7,19 @@ Cadence Design Systems — \#2 EDA company. Custom IC design leader. Duopoly wit
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.71 |
+| Technology | XLK | 0.68 |
+| [[Semiconductors]] | SMH | 0.65 |
+| *S&P 500* | *SPY* | *0.67* |
+
+CDNS trades as a core Software name (IGV r = 0.71).
+
+---
+
 ## Why Cadence matters
 
 Critical chip design infrastructure:

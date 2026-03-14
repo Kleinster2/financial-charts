@@ -7,6 +7,19 @@ aliases: [Booking, Booking.com, BKNG, Priceline]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.62 |
+| Communications | XLC | 0.59 |
+| [[Consumer]] | XLY | 0.59 |
+| *S&P 500* | *SPY* | *0.57* |
+
+BKNG shows moderate Software correlation (IGV r = 0.62).
+
+---
+
 ## Why Booking matters
 
 | Metric | Value |

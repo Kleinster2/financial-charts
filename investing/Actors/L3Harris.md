@@ -7,6 +7,19 @@ aliases: [LHX, L3, Harris]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.67 |
+| Industrials | XLI | 0.59 |
+| Oil & Gas E&P | XOP | 0.43 |
+| *S&P 500* | *SPY* | *0.45* |
+
+LHX shows moderate Defense correlation (ITA r = 0.67).
+
+---
+
 ## Why L3Harris matters
 
 | Metric | Value |

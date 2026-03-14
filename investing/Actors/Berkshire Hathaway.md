@@ -7,6 +7,19 @@ aliases: [BRK, BRK.A, BRK.B]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.72 |
+| Communications | XLC | 0.60 |
+| Oil & Gas E&P | XOP | 0.59 |
+| *S&P 500* | *SPY* | *0.57* |
+
+BRK-B trades as a core Financials name (XLF r = 0.72).
+
+---
+
 ## Why Berkshire matters
 
 | Metric | Value |

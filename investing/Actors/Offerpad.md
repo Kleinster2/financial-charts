@@ -7,6 +7,22 @@ aliases: [OPAD, Offerpad Solutions]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> OPAD does not trade tightly with any sector ETF (max r = 0.22 with IGV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.22 |
+| [[Consumer]] | XLY | 0.19 |
+| Communications | XLC | 0.17 |
+| *S&P 500* | *SPY* | *0.15* |
+
+OPAD trades between Software and Consumer without a tight sector fit.
+
+---
+
 
 ![[opad-employees-chart.png]]
 *Headcount: 200 (2024) — down 42.9% YoY*

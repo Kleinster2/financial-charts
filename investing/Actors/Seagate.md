@@ -7,6 +7,19 @@ aliases: [STX]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.62 |
+| Technology | XLK | 0.56 |
+| [[Banks|Regional Banks]] | KRE | 0.54 |
+| *S&P 500* | *SPY* | *0.49* |
+
+STX shows moderate Semiconductors correlation (SMH r = 0.62).
+
+---
+
 ## Why Seagate matters
 
 HDDs are the "cold storage" layer of AI infrastructure:

@@ -9,6 +9,22 @@ Pluri Inc. (Nasdaq: PLUR, TASE: PLUR) — Israeli biotech pioneering mass-scale 
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> PLUR does not trade tightly with any sector ETF (max r = 0.37 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.37 |
+| Communications | XLC | 0.26 |
+| Financials | XLF | 0.24 |
+| *S&P 500* | *SPY* | *0.22* |
+
+PLUR trades between Regional Banks and Communications without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

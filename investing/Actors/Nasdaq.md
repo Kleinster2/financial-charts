@@ -7,6 +7,19 @@ aliases: [NASDAQ, Nasdaq Inc, NDAQ]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.74 |
+| [[Defense]] | ITA | 0.70 |
+| Software | IGV | 0.70 |
+| *S&P 500* | *SPY* | *0.65* |
+
+NDAQ trades as a core Financials name (XLF r = 0.74).
+
+---
+
 ## Why Nasdaq matters
 
 [[Home]] of tech giants:

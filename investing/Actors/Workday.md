@@ -7,6 +7,19 @@ aliases: [WDAY]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.64 |
+| Financials | XLF | 0.49 |
+| [[Consumer]] | XLY | 0.46 |
+| *S&P 500* | *SPY* | *0.45* |
+
+WDAY shows moderate Software correlation (IGV r = 0.64).
+
+---
+
 ## Why Workday matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [Planet, PL]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.58 |
+| [[Defense]] | ITA | 0.55 |
+| Technology | XLK | 0.49 |
+| *S&P 500* | *SPY* | *0.47* |
+
+PL shows moderate Regional Banks correlation (KRE r = 0.58).
+
+---
+
 ## Why Planet matters
 
 | Business | Scale |

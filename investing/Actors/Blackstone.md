@@ -7,6 +7,19 @@ aliases: [BX]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.78 |
+| Financials | XLF | 0.75 |
+| [[Consumer]] | XLY | 0.73 |
+| *S&P 500* | *SPY* | *0.74* |
+
+BX trades as a core Regional Banks name (KRE r = 0.78).
+
+---
+
 ## Why Blackstone matters
 
 Blackstone is the largest alternative asset manager — and increasingly an AI infrastructure play:

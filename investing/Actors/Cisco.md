@@ -7,6 +7,19 @@ Cisco — Legacy networking giant. Playing catch-up in AI data centers. Acquirin
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.66 |
+| [[Banks|Regional Banks]] | KRE | 0.66 |
+| [[Semiconductors]] | SMH | 0.64 |
+| *S&P 500* | *SPY* | *0.64* |
+
+CSCO shows moderate Technology correlation (XLK r = 0.66).
+
+---
+
 ## Why Cisco matters
 
 Largest networking company, AI pivot:

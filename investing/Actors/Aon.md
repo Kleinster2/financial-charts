@@ -7,6 +7,19 @@ aliases: [AON, Aon plc]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.51 |
+| Communications | XLC | 0.47 |
+| [[Healthcare]] | XLV | 0.46 |
+| *S&P 500* | *SPY* | *0.31* |
+
+AON shows moderate Financials correlation (XLF r = 0.51).
+
+---
+
 ## Why Aon matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [ETN]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.80 |
+| Technology | XLK | 0.78 |
+| Industrials | XLI | 0.78 |
+| *S&P 500* | *SPY* | *0.75* |
+
+ETN trades as a core Semiconductors name (SMH r = 0.80).
+
+---
+
 ## Why Eaton matters
 
 | Metric | Value |

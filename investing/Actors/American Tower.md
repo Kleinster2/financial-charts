@@ -7,6 +7,22 @@ aliases: [AMT]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> AMT does not trade tightly with any sector ETF (max r = 0.43 with XLP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.43 |
+| [[Real estate|Real Estate]] | XLRE | 0.42 |
+| Utilities | XLU | 0.37 |
+| *S&P 500* | *SPY* | *0.02* |
+
+AMT trades between Consumer Staples and Real Estate without a tight sector fit.
+
+---
+
 ## Why American Tower matters
 
 | Metric | Value |

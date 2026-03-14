@@ -9,6 +9,19 @@ aliases: [CMI, Cummins Inc]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.78 |
+| [[Defense]] | ITA | 0.71 |
+| [[Banks|Regional Banks]] | KRE | 0.71 |
+| *S&P 500* | *SPY* | *0.70* |
+
+CMI trades as a core Industrials name (XLI r = 0.78).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -9,6 +9,22 @@ tags: [actor, tobacco, consumer, smoke-free]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> PM does not trade tightly with any sector ETF (max r = 0.36 with XLP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.36 |
+| Utilities | XLU | 0.24 |
+| [[Real estate|Real Estate]] | XLRE | 0.18 |
+| *S&P 500* | *SPY* | *0.09* |
+
+PM trades between Consumer Staples and Utilities without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

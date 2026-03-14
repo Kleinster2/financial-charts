@@ -9,6 +9,19 @@ aliases: [BILL, BILL Holdings, Bill Holdings]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.70 |
+| Technology | XLK | 0.56 |
+| [[Semiconductors]] | SMH | 0.50 |
+| *S&P 500* | *SPY* | *0.52* |
+
+BILL trades as a core Software name (IGV r = 0.70).
+
+---
+
 ## Overview
 
 | Metric | Value |

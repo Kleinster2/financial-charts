@@ -9,6 +9,19 @@ Fast-growing US [[LNG]] exporter. Ticker: VG. Operates Calcasieu Pass (Louisiana
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.68 |
+| [[Energy and Utilities|Energy]] | XLE | 0.54 |
+| Technology | XLK | 0.50 |
+| *S&P 500* | *SPY* | *0.47* |
+
+VG shows moderate Oil & Gas E&P correlation (XOP r = 0.68).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

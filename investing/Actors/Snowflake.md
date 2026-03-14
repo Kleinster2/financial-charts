@@ -7,6 +7,19 @@ aliases: [SNOW]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.68 |
+| Technology | XLK | 0.60 |
+| [[Semiconductors]] | SMH | 0.53 |
+| *S&P 500* | *SPY* | *0.54* |
+
+SNOW shows moderate Software correlation (IGV r = 0.68).
+
+---
+
 ## Why Snowflake matters
 
 Major data infrastructure, margin inflection underway:

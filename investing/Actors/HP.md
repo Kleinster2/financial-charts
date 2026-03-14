@@ -12,6 +12,21 @@ tags:
 
 **HP** (formerly Hewlett-Packard) is the PC and printer business that resulted from the 2015 split of the original Hewlett-Packard into HP Inc (HPQ) and [[Hewlett Packard Enterprise]] (HPE, servers/enterprise). Mark Hurd served as CEO from 2005 to 2010 before joining [[Oracle]] as co-president.
 
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.74 |
+| Oil & Gas E&P | XOP | 0.67 |
+| Financials | XLF | 0.65 |
+| *S&P 500* | *SPY* | *0.64* |
+
+HPQ trades as a core Regional Banks name (KRE r = 0.74).
+
+---
+
 ## Quick stats
 
 | Field | Value |

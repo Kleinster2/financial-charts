@@ -7,6 +7,19 @@ Devon Energy — Multi-basin US E&P with core operations in the [[Permian Basin]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.95 |
+| [[Energy and Utilities|Energy]] | XLE | 0.91 |
+| [[Banks|Regional Banks]] | KRE | 0.69 |
+| *S&P 500* | *SPY* | *0.64* |
+
+DVN trades as a core Oil & Gas E&P name (XOP r = 0.95).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

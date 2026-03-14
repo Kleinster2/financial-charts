@@ -7,6 +7,19 @@ aliases: [TT, Trane]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.71 |
+| [[Semiconductors]] | SMH | 0.59 |
+| [[Defense]] | ITA | 0.57 |
+| *S&P 500* | *SPY* | *0.59* |
+
+TT trades as a core Industrials name (XLI r = 0.71).
+
+---
+
 ## Price performance
 
 ![[trane-price-chart.png]]

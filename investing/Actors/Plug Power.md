@@ -7,6 +7,22 @@ aliases: [PLUG]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> PLUG does not trade tightly with any sector ETF (max r = 0.38 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.38 |
+| Financials | XLF | 0.33 |
+| [[Consumer]] | XLY | 0.31 |
+| *S&P 500* | *SPY* | *0.29* |
+
+PLUG trades between Regional Banks and Financials without a tight sector fit.
+
+---
+
 ## Why Plug Power matters
 
 Plug is the largest pure-play hydrogen company:

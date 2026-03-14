@@ -7,6 +7,22 @@ aliases: [GME]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> GME does not trade tightly with any sector ETF (max r = 0.38 with XLY).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.38 |
+| Software | IGV | 0.38 |
+| Technology | XLK | 0.34 |
+| *S&P 500* | *SPY* | *0.31* |
+
+GME trades between Consumer and Software without a tight sector fit.
+
+---
+
 ## Why GameStop matters
 
 GameStop is the ur-meme stock — the event that permanently elevated retail investor participation, exposed market structure vulnerabilities, and forced Wall Street to adapt:

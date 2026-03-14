@@ -9,6 +9,19 @@ aliases: [PDD, Pinduoduo, Temu]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.67 |
+| Technology | XLK | 0.49 |
+| [[Semiconductors]] | SMH | 0.48 |
+| *S&P 500* | *SPY* | *0.50* |
+
+PDD shows moderate China Internet correlation (KWEB r = 0.67).
+
+---
+
 ## Overview
 
 | Metric | Value |

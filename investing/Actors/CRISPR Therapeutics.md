@@ -7,6 +7,19 @@ aliases: [CRSP, CRISPR]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.50 |
+| [[Consumer]] | XLY | 0.49 |
+| Software | IGV | 0.44 |
+| *S&P 500* | *SPY* | *0.43* |
+
+CRSP shows moderate Industrials correlation (XLI r = 0.50).
+
+---
+
 ## Why CRISPR Therapeutics matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [SMR]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.57 |
+| [[Semiconductors]] | SMH | 0.52 |
+| Software | IGV | 0.49 |
+| *S&P 500* | *SPY* | *0.51* |
+
+SMR shows moderate Technology correlation (XLK r = 0.57).
+
+---
+
 ## Why NuScale matters
 
 SMR pure play:

@@ -7,6 +7,19 @@ aliases: [DOCU]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.57 |
+| Financials | XLF | 0.46 |
+| [[Consumer]] | XLY | 0.43 |
+| *S&P 500* | *SPY* | *0.43* |
+
+DOCU shows moderate Software correlation (IGV r = 0.57).
+
+---
+
 ## Why DocuSign matters
 
 | Metric | Value |

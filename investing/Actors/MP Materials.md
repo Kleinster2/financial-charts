@@ -7,6 +7,22 @@ aliases: [MP, Mountain Pass]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> MP does not trade tightly with any sector ETF (max r = 0.30 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.30 |
+| [[Defense]] | ITA | 0.28 |
+| Software | IGV | 0.27 |
+| *S&P 500* | *SPY* | *0.23* |
+
+MP trades between Technology and Defense without a tight sector fit.
+
+---
+
 ## Why MP Materials matters
 
 MP Materials is the Western answer to [[China]]'s rare earth dominance:

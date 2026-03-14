@@ -7,6 +7,22 @@ aliases: [IRBT, Roomba]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> IRBT does not trade tightly with any sector ETF (max r = 0.42 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.42 |
+| Industrials | XLI | 0.29 |
+| Financials | XLF | 0.28 |
+| *S&P 500* | *SPY* | *0.21* |
+
+IRBT trades between Regional Banks and Industrials without a tight sector fit.
+
+---
+
 ## Why iRobot matters
 
 | Metric | Value |

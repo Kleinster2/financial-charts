@@ -7,6 +7,22 @@ aliases: [CBOE Global Markets, Chicago Board Options Exchange, Cboe]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> CBOE does not trade tightly with any sector ETF (max r = 0.31 with XLP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.31 |
+| Utilities | XLU | 0.21 |
+| [[Semiconductors]] | SMH | -0.21 |
+| *S&P 500* | *SPY* | *-0.06* |
+
+CBOE trades between Consumer Staples and Utilities without a tight sector fit.
+
+---
+
 ## Why CBOE matters
 
 Invented modern options trading:

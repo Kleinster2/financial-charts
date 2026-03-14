@@ -9,6 +9,19 @@ North America's largest residential property manager and essential property serv
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.60 |
+| Oil & Gas E&P | XOP | 0.57 |
+| Financials | XLF | 0.46 |
+| *S&P 500* | *SPY* | *0.39* |
+
+FSV shows moderate Regional Banks correlation (KRE r = 0.60).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

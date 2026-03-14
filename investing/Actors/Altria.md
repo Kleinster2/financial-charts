@@ -9,6 +9,22 @@ tags: [actor, tobacco, consumer]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> MO does not trade tightly with any sector ETF (max r = 0.48 with XLP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.48 |
+| Utilities | XLU | 0.31 |
+| [[Energy and Utilities|Energy]] | XLE | 0.19 |
+| *S&P 500* | *SPY* | *0.10* |
+
+MO trades between Consumer Staples and Utilities without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

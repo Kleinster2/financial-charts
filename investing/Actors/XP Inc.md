@@ -7,6 +7,22 @@ XP Inc — Brazil's largest independent investment platform. Open-architecture b
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> XP does not trade tightly with any sector ETF (max r = 0.47 with XLI).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.47 |
+| [[Defense]] | ITA | 0.47 |
+| [[Semiconductors]] | SMH | 0.46 |
+| *S&P 500* | *SPY* | *0.45* |
+
+XP trades between Industrials and Defense without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

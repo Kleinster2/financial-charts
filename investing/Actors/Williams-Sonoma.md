@@ -9,6 +9,19 @@ Multi-brand home furnishings retailer. Brands include Pottery Barn, West Elm, Wi
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.75 |
+| Industrials | XLI | 0.68 |
+| [[Consumer]] | XLY | 0.67 |
+| *S&P 500* | *SPY* | *0.66* |
+
+WSM trades as a core Regional Banks name (KRE r = 0.75).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [UNP]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.74 |
+| [[Banks|Regional Banks]] | KRE | 0.71 |
+| Financials | XLF | 0.67 |
+| *S&P 500* | *SPY* | *0.63* |
+
+UNP trades as a core Industrials name (XLI r = 0.74).
+
+---
+
 ## Why Union Pacific matters
 
 | Metric | Value |

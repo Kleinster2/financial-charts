@@ -7,6 +7,22 @@ aliases: [Newmont Corp, NEM]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> NEM does not trade tightly with any sector ETF (max r = 0.39 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.39 |
+| Industrials | XLI | 0.39 |
+| [[Semiconductors]] | SMH | 0.38 |
+| *S&P 500* | *SPY* | *0.36* |
+
+NEM trades between Technology and Industrials without a tight sector fit.
+
+---
+
 ## Why Newmont matters
 
 | Metric | Value |

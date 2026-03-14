@@ -7,6 +7,19 @@ aliases: [ZS]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.72 |
+| Technology | XLK | 0.53 |
+| [[Banks|Regional Banks]] | KRE | 0.52 |
+| *S&P 500* | *SPY* | *0.52* |
+
+ZS trades as a core Software name (IGV r = 0.72).
+
+---
+
 ## Why Zscaler matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [ALB]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.66 |
+| [[Semiconductors]] | SMH | 0.65 |
+| Oil & Gas E&P | XOP | 0.64 |
+| *S&P 500* | *SPY* | *0.66* |
+
+ALB shows moderate Technology correlation (XLK r = 0.66).
+
+---
+
 ## Why Albemarle matters
 
 | Metric | Value |

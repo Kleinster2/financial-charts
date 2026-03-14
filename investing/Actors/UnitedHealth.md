@@ -7,6 +7,22 @@ aliases: [UNH, UnitedHealthcare, Optum]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> UNH does not trade tightly with any sector ETF (max r = 0.42 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.42 |
+| Financials | XLF | 0.19 |
+| Software | IGV | 0.18 |
+| *S&P 500* | *SPY* | *0.16* |
+
+UNH trades between Healthcare and Financials without a tight sector fit.
+
+---
+
 ## Why UnitedHealth matters
 
 | Metric | Value |

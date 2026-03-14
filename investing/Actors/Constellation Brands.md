@@ -9,6 +9,19 @@ aliases: [STZ, Constellation]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.55 |
+| Industrials | XLI | 0.45 |
+| [[Real estate|Real Estate]] | XLRE | 0.45 |
+| *S&P 500* | *SPY* | *0.42* |
+
+STZ shows moderate Consumer Staples correlation (XLP r = 0.55).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

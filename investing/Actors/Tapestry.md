@@ -9,6 +9,19 @@ aliases: [TPR, Coach parent, Coach Inc]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.69 |
+| Industrials | XLI | 0.66 |
+| [[Defense]] | ITA | 0.63 |
+| *S&P 500* | *SPY* | *0.61* |
+
+TPR shows moderate Regional Banks correlation (KRE r = 0.69).
+
+---
+
 ## Overview
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [QCOM]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.78 |
+| Technology | XLK | 0.75 |
+| Industrials | XLI | 0.74 |
+| *S&P 500* | *SPY* | *0.79* |
+
+QCOM trades as a core Consumer name (XLY r = 0.78).
+
+---
+
 ## Why it matters
 
 Qualcomm has:

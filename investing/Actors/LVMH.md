@@ -7,6 +7,19 @@ aliases: [MC, MC.PA, Louis Vuitton, Moet Hennessy]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.85 |
+| Financials | XLF | 0.77 |
+| Industrials | XLI | 0.70 |
+| *S&P 500* | *SPY* | *0.71* |
+
+MC trades as a core Regional Banks name (KRE r = 0.85).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

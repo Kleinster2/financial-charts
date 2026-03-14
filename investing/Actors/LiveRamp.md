@@ -7,6 +7,19 @@ LiveRamp — data connectivity platform enabling companies to connect, control, 
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.67 |
+| Financials | XLF | 0.57 |
+| [[Consumer]] | XLY | 0.57 |
+| *S&P 500* | *SPY* | *0.54* |
+
+RAMP shows moderate Software correlation (IGV r = 0.67).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

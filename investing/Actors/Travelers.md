@@ -7,6 +7,19 @@ aliases: [TRV, Travelers Companies, The Travelers Companies]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.62 |
+| [[Consumer Staples]] | XLP | 0.53 |
+| Communications | XLC | 0.51 |
+| *S&P 500* | *SPY* | *0.45* |
+
+TRV shows moderate Financials correlation (XLF r = 0.62).
+
+---
+
 ## Why Travelers matters
 
 | Metric | Value |

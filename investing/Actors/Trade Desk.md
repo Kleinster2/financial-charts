@@ -7,6 +7,19 @@ aliases: [TTD, The Trade Desk]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.58 |
+| Software | IGV | 0.55 |
+| Communications | XLC | 0.53 |
+| *S&P 500* | *SPY* | *0.53* |
+
+TTD shows moderate Consumer correlation (XLY r = 0.58).
+
+---
+
 ## Why [[Trade]] Desk matters
 
 | Metric | Value |

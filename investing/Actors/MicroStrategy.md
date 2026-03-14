@@ -10,6 +10,19 @@ MicroStrategy — Enterprise software company turned Bitcoin treasury vehicle un
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.61 |
+| Software | IGV | 0.61 |
+| Technology | XLK | 0.60 |
+| *S&P 500* | *SPY* | *0.57* |
+
+MSTR shows moderate Regional Banks correlation (KRE r = 0.61).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

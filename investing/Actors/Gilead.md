@@ -7,6 +7,19 @@ aliases: [GILD, Gilead Sciences]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.56 |
+| [[Consumer Staples]] | XLP | 0.36 |
+| Industrials | XLI | 0.28 |
+| *S&P 500* | *SPY* | *0.23* |
+
+GILD shows moderate Healthcare correlation (XLV r = 0.56).
+
+---
+
 ## Why Gilead matters
 
 | Metric | Value |

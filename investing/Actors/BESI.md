@@ -7,6 +7,22 @@ aliases: [BE Semiconductor, BESI.AS]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> BESI.AS does not trade tightly with any sector ETF (max r = 0.23 with SMH).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.23 |
+| [[Banks|Regional Banks]] | KRE | 0.23 |
+| [[Consumer]] | XLY | 0.17 |
+| *S&P 500* | *SPY* | *0.09* |
+
+BESI.AS trades between Semiconductors and Regional Banks without a tight sector fit.
+
+---
+
 ## Why BESI matters
 
 Advanced packaging equipment specialist:

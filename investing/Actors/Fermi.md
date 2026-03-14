@@ -7,6 +7,22 @@ aliases: [Fermi Inc, Fermi America, FRMI]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> FRMI does not trade tightly with any sector ETF (max r = 0.45 with XLK).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.45 |
+| [[Semiconductors]] | SMH | 0.42 |
+| Utilities | XLU | 0.28 |
+| *S&P 500* | *SPY* | *0.34* |
+
+FRMI trades between Technology and Semiconductors without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

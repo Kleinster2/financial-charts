@@ -5,6 +5,24 @@ aliases: [VITL, Vital Farms Inc]
 
 **Vital Farms** — Pasture-raised eggs and butter. \#1 U.S. brand by retail dollar sales. Asset-light farmer network model. Certified B Corp.
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> VITL does not trade tightly with any sector ETF (max r = 0.19 with XLF).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.19 |
+| [[Real estate|Real Estate]] | XLRE | 0.19 |
+| Communications | XLC | 0.18 |
+| *S&P 500* | *SPY* | *0.18* |
+
+VITL trades between Financials and Real Estate without a tight sector fit.
+
+---
+
 ## Why Vital Farms matters
 
 | Metric | Value |

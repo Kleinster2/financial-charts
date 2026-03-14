@@ -7,6 +7,19 @@ aliases: [INFY]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.59 |
+| Software | IGV | 0.56 |
+| Financials | XLF | 0.52 |
+| *S&P 500* | *SPY* | *0.51* |
+
+INFY shows moderate Regional Banks correlation (KRE r = 0.59).
+
+---
+
 ## Why Infosys matters
 
 | Metric | Value |

@@ -7,6 +7,22 @@ MercadoLibre — Latin America's largest e-commerce and fintech platform. Operat
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> MELI does not trade tightly with any sector ETF (max r = 0.45 with IGV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.45 |
+| [[Defense]] | ITA | 0.43 |
+| Technology | XLK | 0.42 |
+| *S&P 500* | *SPY* | *0.40* |
+
+MELI trades between Software and Defense without a tight sector fit.
+
+---
+
 
 ![[meli-employees-chart.png]]
 *Headcount: 18,282 (2024) — down 68.6% YoY*

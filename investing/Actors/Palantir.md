@@ -9,6 +9,19 @@ Rare profitable AI applications company at scale with ~$180B+ market cap, 63% Yo
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.73 |
+| Software | IGV | 0.73 |
+| [[Defense]] | ITA | 0.69 |
+| *S&P 500* | *SPY* | *0.70* |
+
+PLTR trades as a core Technology name (XLK r = 0.73).
+
+---
+
 ## Q4 2025 earnings (Feb 2, 2026)
 
 Beat + massive guidance raise. Stock +11%.

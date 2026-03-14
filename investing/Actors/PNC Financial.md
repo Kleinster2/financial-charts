@@ -7,6 +7,19 @@ aliases: [PNC, PNC Bank]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.93 |
+| Financials | XLF | 0.79 |
+| Industrials | XLI | 0.70 |
+| *S&P 500* | *SPY* | *0.68* |
+
+PNC trades as a core Regional Banks name (KRE r = 0.93).
+
+---
+
 ## Why PNC matters
 
 | Metric | Value |

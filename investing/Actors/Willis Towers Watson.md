@@ -9,6 +9,19 @@ tags: [actor, finance, insurance, broker, usa, public]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.59 |
+| [[Defense]] | ITA | 0.49 |
+| [[Healthcare]] | XLV | 0.45 |
+| *S&P 500* | *SPY* | *0.38* |
+
+WTW shows moderate Financials correlation (XLF r = 0.59).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

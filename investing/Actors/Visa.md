@@ -7,6 +7,19 @@ aliases: [V]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.76 |
+| Communications | XLC | 0.63 |
+| Industrials | XLI | 0.61 |
+| *S&P 500* | *SPY* | *0.63* |
+
+V trades as a core Financials name (XLF r = 0.76).
+
+---
+
 ## Why Visa matters
 
 | Metric | Value |

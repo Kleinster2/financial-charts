@@ -7,6 +7,19 @@ aliases: [W]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.64 |
+| [[Consumer]] | XLY | 0.61 |
+| Technology | XLK | 0.58 |
+| *S&P 500* | *SPY* | *0.59* |
+
+W shows moderate Regional Banks correlation (KRE r = 0.64).
+
+---
+
 ## Why Wayfair matters
 
 | Metric | Value |

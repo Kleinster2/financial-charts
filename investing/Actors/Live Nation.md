@@ -7,6 +7,19 @@ aliases: [LYV, Ticketmaster, Live Nation Entertainment]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.56 |
+| [[Consumer]] | XLY | 0.55 |
+| Industrials | XLI | 0.54 |
+| *S&P 500* | *SPY* | *0.56* |
+
+LYV shows moderate Communications correlation (XLC r = 0.56).
+
+---
+
 ## Why Live Nation matters
 
 | Metric | Value |

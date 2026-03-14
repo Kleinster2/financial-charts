@@ -9,6 +9,22 @@ Dominant GLP-1 franchise with ~$33B annualized semaglutide revenue across Ozempi
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> NVO does not trade tightly with any sector ETF (max r = 0.49 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.49 |
+| Technology | XLK | 0.36 |
+| [[Semiconductors]] | SMH | 0.35 |
+| *S&P 500* | *SPY* | *0.38* |
+
+NVO trades between Healthcare and Technology without a tight sector fit.
+
+---
+
 ## Why Novo Nordisk matters
 
 | Metric | Value |

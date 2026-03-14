@@ -7,6 +7,19 @@ aliases: [VST]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Technology | XLK | 0.70 |
+| [[Semiconductors]] | SMH | 0.68 |
+| Industrials | XLI | 0.64 |
+| *S&P 500* | *SPY* | *0.65* |
+
+VST trades as a core Technology name (XLK r = 0.70).
+
+---
+
 ## Why Vistra matters
 
 Top AI power play:

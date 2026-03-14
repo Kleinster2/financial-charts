@@ -7,6 +7,19 @@ aliases: [HON]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.77 |
+| [[Defense]] | ITA | 0.69 |
+| Financials | XLF | 0.65 |
+| *S&P 500* | *SPY* | *0.66* |
+
+HON trades as a core Industrials name (XLI r = 0.77).
+
+---
+
 ## Why Honeywell matters
 
 | Metric | Value |

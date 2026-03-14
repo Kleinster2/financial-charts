@@ -7,6 +7,19 @@ aliases: [DELL, Dell Technologies]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.63 |
+| Technology | XLK | 0.61 |
+| Industrials | XLI | 0.61 |
+| *S&P 500* | *SPY* | *0.62* |
+
+DELL shows moderate Oil & Gas E&P correlation (XOP r = 0.63).
+
+---
+
 ## Leadership
 
 | Name | Role | Background |

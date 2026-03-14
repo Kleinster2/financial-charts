@@ -23,6 +23,19 @@ The bull case rests on Rovo (AI assistant, 5M+ MAU), cloud migration tailwinds, 
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.69 |
+| [[Banks|Regional Banks]] | KRE | 0.54 |
+| [[Consumer]] | XLY | 0.51 |
+| *S&P 500* | *SPY* | *0.48* |
+
+TEAM shows moderate Software correlation (IGV r = 0.69).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

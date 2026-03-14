@@ -7,6 +7,19 @@ aliases: [Truist Financial, TFC, BB&T, SunTrust]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.95 |
+| Financials | XLF | 0.84 |
+| Industrials | XLI | 0.74 |
+| *S&P 500* | *SPY* | *0.73* |
+
+TFC trades as a core Regional Banks name (KRE r = 0.95).
+
+---
+
 ## Why Truist matters
 
 | Metric | Value |

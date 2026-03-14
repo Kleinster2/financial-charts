@@ -7,6 +7,22 @@ aliases: [T]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> T does not trade tightly with any sector ETF (max r = 0.41 with XLP).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.41 |
+| Utilities | XLU | 0.33 |
+| [[Healthcare]] | XLV | 0.30 |
+| *S&P 500* | *SPY* | *0.11* |
+
+T trades between Consumer Staples and Utilities without a tight sector fit.
+
+---
+
 ## Why AT&T matters
 
 US connectivity backbone:

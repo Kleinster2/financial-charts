@@ -7,6 +7,19 @@ Phillips 66 — Major US refiner and midstream operator. Gulf Coast heavy crude 
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.89 |
+| [[Energy and Utilities|Energy]] | XLE | 0.85 |
+| [[Banks|Regional Banks]] | KRE | 0.72 |
+| *S&P 500* | *SPY* | *0.62* |
+
+PSX trades as a core Oil & Gas E&P name (XOP r = 0.89).
+
+---
+
 ## Why Phillips 66 matters for Venezuela
 
 Gulf Coast refineries configured for heavy crude:

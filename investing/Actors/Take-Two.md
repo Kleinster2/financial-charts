@@ -7,6 +7,19 @@ aliases: [TTWO, Take-Two Interactive, Rockstar, 2K]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.57 |
+| Communications | XLC | 0.54 |
+| Technology | XLK | 0.51 |
+| *S&P 500* | *SPY* | *0.49* |
+
+TTWO shows moderate Software correlation (IGV r = 0.57).
+
+---
+
 ## Why Take-Two matters
 
 | Metric | Value |

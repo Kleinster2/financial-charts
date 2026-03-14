@@ -7,6 +7,19 @@ Rio Tinto — World's second-largest mining company. [[Iron ore]] cash cow (~70%
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.57 |
+| Industrials | XLI | 0.54 |
+| [[Banks|Regional Banks]] | KRE | 0.52 |
+| *S&P 500* | *SPY* | *0.53* |
+
+RIO shows moderate Oil & Gas E&P correlation (XOP r = 0.57).
+
+---
+
 ## Why Rio Tinto matters
 
 | Metric | Value |

@@ -10,6 +10,24 @@ tags:
 
 Fraudulent hotel operator that collapsed after short seller exposed fake lease announcements. Filed Chapter 11 Sept 2025, converted to Chapter 7 liquidation 37 days later.
 
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> LUXH does not trade tightly with any sector ETF (max r = 0.09 with ITA).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.09 |
+| Communications | XLC | 0.07 |
+| China Internet | KWEB | 0.07 |
+| *S&P 500* | *SPY* | *0.06* |
+
+LUXH trades between Defense and Communications without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

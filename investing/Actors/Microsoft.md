@@ -9,6 +9,19 @@ Tier 1 AI hyperscaler and largest enterprise cloud with $281.7B FY2025 revenue, 
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.73 |
+| Technology | XLK | 0.66 |
+| [[Consumer]] | XLY | 0.55 |
+| *S&P 500* | *SPY* | *0.62* |
+
+MSFT trades as a core Software name (IGV r = 0.73).
+
+---
+
 ## Leadership
 
 | Role | Name | Background |

@@ -7,6 +7,22 @@ aliases: [SEDG]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> SEDG does not trade tightly with any sector ETF (max r = 0.44 with XLY).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.44 |
+| [[Banks|Regional Banks]] | KRE | 0.43 |
+| Technology | XLK | 0.40 |
+| *S&P 500* | *SPY* | *0.42* |
+
+SEDG trades between Consumer and Regional Banks without a tight sector fit.
+
+---
+
 ## Why SolarEdge matters
 
 SolarEdge is a cautionary tale in clean energy:

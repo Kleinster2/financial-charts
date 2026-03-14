@@ -7,6 +7,22 @@ aliases: [MDB]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> MDB does not trade tightly with any sector ETF (max r = 0.49 with IGV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.49 |
+| Technology | XLK | 0.46 |
+| [[Semiconductors]] | SMH | 0.41 |
+| *S&P 500* | *SPY* | *0.41* |
+
+MDB trades between Software and Technology without a tight sector fit.
+
+---
+
 ## Why MongoDB matters
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [KHC, Kingdom Holding Company]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer Staples]] | XLP | 0.62 |
+| [[Real estate|Real Estate]] | XLRE | 0.43 |
+| [[Healthcare]] | XLV | 0.38 |
+| *S&P 500* | *SPY* | *0.28* |
+
+KHC shows moderate Consumer Staples correlation (XLP r = 0.62).
+
+---
+
 ## Why Kingdom Holding matters
 
 | Metric | Value |

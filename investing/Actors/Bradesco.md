@@ -12,6 +12,22 @@ aliases:
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> BBD does not trade tightly with any sector ETF (max r = 0.44 with ITA).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.44 |
+| China Internet | KWEB | 0.43 |
+| Industrials | XLI | 0.39 |
+| *S&P 500* | *SPY* | *0.37* |
+
+BBD trades between Defense and China Internet without a tight sector fit.
+
+---
+
 ## Overview
 
 | Metric | Value |

@@ -7,6 +7,22 @@ Moderna — mRNA platform company. COVID vaccine pioneer. Using AI for mRNA sequ
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> MRNA does not trade tightly with any sector ETF (max r = 0.48 with XLV).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.48 |
+| Industrials | XLI | 0.42 |
+| Oil & Gas E&P | XOP | 0.37 |
+| *S&P 500* | *SPY* | *0.34* |
+
+MRNA trades between Healthcare and Industrials without a tight sector fit.
+
+---
+
 ## Why Moderna matters
 
 | Metric | Value |

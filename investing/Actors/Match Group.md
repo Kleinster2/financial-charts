@@ -7,6 +7,19 @@ aliases: [MTCH, Tinder, Hinge]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.56 |
+| Communications | XLC | 0.54 |
+| [[Consumer]] | XLY | 0.51 |
+| *S&P 500* | *SPY* | *0.53* |
+
+MTCH shows moderate Financials correlation (XLF r = 0.56).
+
+---
+
 ## Q4 2025 earnings (Feb 3, 2026)
 
 **Hinge shines, Tinder struggles. Stock +7%.**

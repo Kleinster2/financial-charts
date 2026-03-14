@@ -7,6 +7,22 @@ aliases: [Saab AB, SAAB-B.ST]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> SAAB-B.ST does not trade tightly with any sector ETF (max r = 0.30 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.30 |
+| Utilities | XLU | 0.26 |
+| [[Consumer Staples]] | XLP | 0.19 |
+| *S&P 500* | *SPY* | *0.08* |
+
+SAAB-B.ST trades between China Internet and Utilities without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

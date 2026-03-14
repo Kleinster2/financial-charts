@@ -9,6 +9,19 @@ aliases: [BRZE]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Software | IGV | 0.57 |
+| [[Consumer]] | XLY | 0.49 |
+| Financials | XLF | 0.44 |
+| *S&P 500* | *SPY* | *0.41* |
+
+BRZE shows moderate Software correlation (IGV r = 0.57).
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -7,6 +7,19 @@ aliases: [VLO, Valero Energy]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Oil & Gas E&P | XOP | 0.84 |
+| [[Energy and Utilities|Energy]] | XLE | 0.77 |
+| [[Banks|Regional Banks]] | KRE | 0.68 |
+| *S&P 500* | *SPY* | *0.60* |
+
+VLO trades as a core Oil & Gas E&P name (XOP r = 0.84).
+
+---
+
 ## Why Valero matters for Venezuela
 
 **Gulf Coast refineries built for heavy crude:**

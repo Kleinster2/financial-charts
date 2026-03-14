@@ -11,6 +11,19 @@ Largest cloud provider (AWS, $200B backlog) and Tier 1 AI hyperscaler with $716.
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.82 |
+| Technology | XLK | 0.70 |
+| Software | IGV | 0.70 |
+| *S&P 500* | *SPY* | *0.72* |
+
+AMZN trades as a core Consumer name (XLY r = 0.82).
+
+---
+
 ## Why it matters
 
 Amazon is central to multiple vault theses:

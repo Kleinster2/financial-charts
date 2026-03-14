@@ -7,6 +7,22 @@ Kodiak AI -- autonomous trucking and off-road industrial autonomy. Dual focus: h
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> KDK does not trade tightly with any sector ETF (max r = 0.34 with KRE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Banks|Regional Banks]] | KRE | 0.34 |
+| Oil & Gas E&P | XOP | 0.32 |
+| Software | IGV | 0.26 |
+| *S&P 500* | *SPY* | *0.22* |
+
+KDK trades between Regional Banks and Oil & Gas E&P without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

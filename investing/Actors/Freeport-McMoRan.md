@@ -7,6 +7,19 @@ aliases: [FCX, Freeport]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Industrials | XLI | 0.71 |
+| [[Semiconductors]] | SMH | 0.68 |
+| Technology | XLK | 0.67 |
+| *S&P 500* | *SPY* | *0.69* |
+
+FCX trades as a core Industrials name (XLI r = 0.71).
+
+---
+
 ## Why Freeport matters
 
 Freeport is the bellwether for copper:

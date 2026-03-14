@@ -7,6 +7,19 @@ aliases: [ALL]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.52 |
+| [[Healthcare]] | XLV | 0.48 |
+| [[Defense]] | ITA | 0.48 |
+| *S&P 500* | *SPY* | *0.37* |
+
+ALL shows moderate Financials correlation (XLF r = 0.52).
+
+---
+
 ## Why Allstate matters
 
 | Metric | Value |

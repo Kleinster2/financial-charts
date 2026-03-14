@@ -7,6 +7,19 @@ aliases: [NVS]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Healthcare]] | XLV | 0.64 |
+| [[Real estate|Real Estate]] | XLRE | 0.37 |
+| [[Consumer Staples]] | XLP | 0.36 |
+| *S&P 500* | *SPY* | *0.25* |
+
+NVS shows moderate Healthcare correlation (XLV r = 0.64).
+
+---
+
 ## Why Novartis matters
 
 | Metric | Value |

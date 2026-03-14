@@ -7,6 +7,19 @@ aliases: [EA, EA Sports]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.55 |
+| Financials | XLF | 0.52 |
+| Technology | XLK | 0.51 |
+| *S&P 500* | *SPY* | *0.53* |
+
+EA shows moderate Communications correlation (XLC r = 0.55).
+
+---
+
 ## Why Electronic Arts matters
 
 | Metric | Value |

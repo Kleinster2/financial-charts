@@ -7,6 +7,19 @@ aliases: [Moody's Ratings, Moody's Corporation, MCO]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.74 |
+| Software | IGV | 0.72 |
+| [[Defense]] | ITA | 0.70 |
+| *S&P 500* | *SPY* | *0.67* |
+
+MCO trades as a core Financials name (XLF r = 0.74).
+
+---
+
 ## Why Moody's matters
 
 | Metric | Value |
