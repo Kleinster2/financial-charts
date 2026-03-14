@@ -94,7 +94,52 @@ Second-generation Blade Battery launched alongside world's most powerful mass-pr
 
 For context: 1,500 kW is >3x the fastest US chargers. 400 km range in 5 minutes. This is the infrastructure moat — BYD selling the car AND the gas station.
 
+**Key constraint:** 1,500 kW speeds require BYD's own Blade Battery 2.0 — non-BYD vehicles charge at standard rates. This is a proprietary ecosystem play, analogous to [[Tesla]]'s early Supercharger lock-in.
+
 *Sources: CnEVPost, Electrek, CarNewsChina, Mar 5 2026*
+
+### Post-launch developments (Mar 6-13, 2026)
+
+**Overseas rollout confirmed (Mar 6):** Flash Charging deployment begins overseas by end of 2026, starting with [[Europe]]. ~3,000 stations targeted for Europe by year-end. [[Denza Z9 GT]] announced for European launch Apr 8 at Paris's Palais Garnier — carries 122 kWh Blade Battery 2.0, up to 800 km WLTP range (RWD), triple-motor variant with 960+ PS. BYD stated Flash Charging is "only weeks away from its global rollout."
+
+*Source: CarNewsChina, GlobeNewsWire, Electrive, Mar 6-13 2026*
+
+**[[JD.com]] partnership (Mar 13):** First jointly developed fast-charging station unveiled in [[Shenzhen]]. [[JD.com]] provides retail infrastructure (convenience store, coffee shop). JD.com's office parks and logistics sites will support future charger deployment.
+
+*Source: Yahoo Finance, Mar 13 2026*
+
+**Competitive threat to battery swap (Mar 8):** 5-minute charging directly threatens [[NIO]] and [[CATL]]'s battery swap business models. [[NIO]] CEO William Li responded that ultra-fast charging and battery swapping "address different use cases." But the numbers tell the story: NIO built 3,753 swap stations over 8 years; BYD built 4,239 charging stations in 2 months.
+
+*Source: CarNewsChina, GlobalChinaEV, Mar 8 2026*
+
+**InsideEVs** named Flash Charging its "Technology of the Year" for 2026.
+
+### Station-within-a-station model
+
+The infrastructure economics are the real story. BYD's "station-within-a-station" design embeds 200-300 kWh energy storage per pile, drawing from the existing grid to top up storage batteries, then delivering megawatt-level charging without grid upgrades. Wang Chuanfu: *"installation is as simple as fitting an air conditioner."* BYD claims ~60% cost reduction vs traditional high-power setups.
+
+| Deployment type | Count | Notes |
+|----------------|-------|-------|
+| Station-within-a-station | 18,000 target | Leverages existing infrastructure, fast to deploy |
+| Highway stations | 2,000 target | 1/3 of service areas, one station per 100 km |
+| Pre-May Day highway batch | 1,000 | First priority |
+| Europe (year-end 2026) | ~3,000 | Starting Apr 2026 |
+
+Run rate: 4,239 stations in ~2 months = ~2,100/month. If sustained, overshoots the 20,000 target.
+
+### Competitive charging landscape
+
+| System | Peak power | 10-80% time | Stations | Model |
+|--------|-----------|-------------|----------|-------|
+| **BYD Flash Charging 2.0** | 1,500 kW | ~5-6 min (10-70%) | 4,239 (target 20K) | Plug-in |
+| [[Tesla]] Supercharger V4 | 500 kW (China) / 325 kW (US/EU) | 15-20 min | ~7,000+ globally | Plug-in |
+| [[Xpeng]] S4 Supercharger | 480 kW | ~15 min | ~1,000+ in China | Plug-in |
+| [[CATL]] Choco Swap | N/A (swap) | 70-80 sec/swap | Target 3,000+ by end-2026 | Battery swap |
+| [[NIO]] Power Swap Gen 4 | N/A (swap) | <3 min/swap | 3,753 (8 years) | Battery swap |
+
+BYD's 1,500 kW is ~3x Tesla V4 in China and ~5-6x what most Tesla vehicles actually draw in the US/EU (~250 kW).
+
+*Context: February 2026 saw BYD's steepest monthly domestic sales decline in six years, though overseas shipments hit 100,600 units (+50% YoY). The charging infrastructure push reads partly as a response — lock customers into the ecosystem when unit sales face headwinds.*
 
 ---
 

@@ -87,6 +87,8 @@ RNGD uses tensor contraction as primary operation rather than matrix multiplicat
 
 **Hot Chips 2024 keynote:** Paik debuted RNGD as solution for "sustainable AI computing" — framing inference efficiency as existential for AI scaling.
 
+**On existing DC infrastructure (FT, Mar 14):** *"Many enterprises want to do inference using their existing data centres, but the vast majority of today's data centres . . . can't support the latest liquid-cooled GPUs."* — arguing inference chips that deploy into air-cooled facilities have a built-in adoption advantage over NVIDIA's latest GPUs.
+
 ---
 
 ## Customers and partnerships

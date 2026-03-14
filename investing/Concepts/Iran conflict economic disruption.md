@@ -1,11 +1,11 @@
 ---
-aliases: [Iran energy disruption, Iran oil shock 2026, Hormuz disruption 2026]
-tags: [concept, energy, oil, lng, geopolitics, iran]
+aliases: [Iran conflict energy disruption, Iran energy disruption, Iran oil shock 2026, Hormuz disruption 2026]
+tags: [concept, energy, oil, lng, geopolitics, iran, fertilizer, food]
 ---
 
-# Iran conflict energy disruption
+# Iran conflict economic disruption
 
-Energy market impact of [[Operation Epic Fury|2026 Iran conflict]] — oil, LNG, tankers, and infrastructure attacks. Part of [[2026 Iran conflict market impact]].
+Economic disruption from the [[Operation Epic Fury|2026 Iran conflict]] — oil, LNG, fertiliser, tankers, food security, and infrastructure attacks. Part of [[2026 Iran conflict market impact]].
 
 ---
 
@@ -56,9 +56,11 @@ IRGC declared Hormuz closed. ~150 ships stalled. As of March 2, traffic effectiv
 If sustained:
 - Barclays analyst: Brent could hit $100/bbl
 - Most significant supply disruption since 1973 Arab oil embargo
-- [[OPEC|OPEC+]] only unwinding 206K bbl/day — "insignificant" given scale ([[FGE]])
+- [[OPEC|OPEC+]] only unwinding 206K bbl/day — "insignificant" given scale ([[FGE]]); [[Helima Croft]] ([[RBC Capital]], Mar 2) called it *"an entirely moot point"* — supply exists but can't reach market
 - Market expecting IEA emergency stock release from OECD countries
 - [[Japan]], [[South Korea]], Thailand implementing export restrictions and inventory draws
+
+[[Helima Croft]] ([[RBC Capital]], Mar 2): *"This absolutely dwarfs what we saw in the Russia-Ukraine crisis."* Framed the closure as an insurance event, not a military one — Iran's drone strikes near the Strait caused insurers to refuse transit, achieving de facto closure without a physical blockade. JPMorgan estimated $350B needed to backstop shipping insurance vs the $20B [[DFC]] facility offered (Croft, NPR, Mar 7).
 
 ---
 
@@ -403,9 +405,11 @@ Asian governments (South Korea, Taiwan, Japan, China) responded to the crisis by
 
 [[CME Group]] CEO [[Terry Duffy]] warned the [[Trump II|Trump administration]] it would risk a "biblical disaster" if it attempted to lower oil prices by intervening in derivative markets. Speaking at a conference in Boca Raton, Florida: *"Markets do not like it when governments intervene in pricing."* The warning followed a Reuters report that the [[Scott Bessent|US Treasury]] was considering measures to lower oil prices, including direct intervention in futures markets.
 
-### SPR release (Mar 12)
+### SPR release (Mar 12-13)
 
 The administration announced the release of millions of barrels from the [[Strategic Petroleum Reserve]] on Wednesday (Mar 12) — its latest attempt to contain the crude rally. Other options under consideration: temporarily suspending federal gasoline taxes, relaxing environmental fuel rules, temporarily banning US oil exports.
+
+**DOE emergency exchange RFP (Mar 13):** The [[Department of Energy]] formalized the first tranche — **86M barrels** (of 172M total US commitment) from [[Bryan Mound]], [[West Hackberry]], and [[Bayou Choctaw]]. Bid deadline: 5:00 PM CT, Tuesday March 17, 2026. Early deliveries expected by end of the following week. This is an exchange, not a sale — companies return borrowed crude plus premium barrels, netting the SPR additional inventory at no taxpayer cost. [[Kyle Haustveit]], Assistant Secretary of HGEO (Mar 13): *"Today's action reflects President Trump's continued commitment to safeguarding U.S. energy security and contributing constructively to global market stability."*
 
 ### Unexplained trades spark speculation (Mar 10-12)
 
@@ -483,6 +487,71 @@ The pattern is unmistakable: governments with thin reserves (Vietnam <20 days, I
 
 ---
 
+## Fertiliser supply crisis (March 14)
+
+*Source: FT, Susannah Savage, March 14, 2026*
+
+The conflict has triggered a [[Fertilizer|fertiliser]] supply crisis experts say could be worse than the 2022 Russia-Ukraine shock. Unlike 2022 — which initially hit Ukrainian grain, then compounded through energy and fertiliser costs — this disruption is hitting multiple parts of the food system simultaneously during northern hemisphere planting season.
+
+![[ft-hormuz-fertiliser-exports-kpler-mar13.png]]
+*Daily fertiliser transits through the [[Strait of Hormuz]] by country of origin. Source: [[Kpler]] / FT (as of Mar 13, 2026). Exports collapsed from ~100-200 units/day pre-conflict to near zero by Mar 10.*
+
+![[ft-nitrogen-fertiliser-trade-flows-lseg.png]]
+*Nitrogen fertiliser trade flows (megatonnes). Gulf countries export 12.5M mt — largest single source. South Asia (8.3M mt) and EU+UK (13.5M mt) are the biggest importers. Source: LSEG / FT.*
+
+### Scale of disruption
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Urea normally loaded for export (2 weeks) | ~2.1M tonnes | FT |
+| Urea disrupted | ~50% (~1.05M tonnes) | FT |
+| Fertiliser stuck in Gulf (loading/on ships) | >1.1M tonnes (incl. 570K urea) | [[Kpler]] |
+| Global urea exports transiting Hormuz | ~1/3 | CRU |
+| Global sulphur exports transiting Hormuz | ~45% | CRU |
+| Urea price increase since conflict | >40% | CRU |
+| Global urea market | 196M mt/year (57M mt traded internationally) | FT |
+
+### Production shutdowns
+
+| Country | Facility/Impact | Detail |
+|---------|----------------|--------|
+| [[Qatar]] | [[QAFCO]] 5.6M mt/year urea plant shut | Gas supply halted after [[QatarEnergy]] LNG shutdown |
+| [[India]] | All 32 ammonia plants ordered to 70% gas | Government mandate to conserve LNG |
+| [[Pakistan]] | Agritech Limited halted urea production | LNG import-dependent; Qatar supplies near-100% |
+| [[Bangladesh]] | Multiple plants halted | Qatar accounts for ~2/3 of LNG imports |
+
+### South Asia LNG dependency — the transmission mechanism
+
+The link from Hormuz closure to food production runs through [[LNG]]. South Asian countries import Gulf gas to make [[Ammonia|ammonia]], which becomes [[urea]], which feeds rice paddies. Cut the gas, kill the fertiliser, threaten the harvest.
+
+| Country | Qatar share of LNG imports | Fertiliser impact |
+|---------|---------------------------|-------------------|
+| [[Pakistan]] | Near 100% (Qatar + UAE) | Production halted |
+| [[Bangladesh]] | ~2/3 | Plants halted |
+| [[India]] | >40% | Ordered 30% gas cut across 32 ammonia plants |
+
+Chris Lawson (CRU, Mar 14): situation could escalate — producers can only operate while they have storage for unsold cargoes. Long disruptions force more shutdowns, potentially permanent. Restarting ammonia/urea plants takes weeks (temperature/pressure control).
+
+Veronica Nigh ([[The Fertilizer Institute]], Mar 14): *"If the disruption continues, this will be much worse than 2022."*
+
+Alvaro Lario ([[IFAD]]/UN, Mar 14): *"Even a temporary spike in fertiliser prices can leave lasting scars on global food production."*
+
+Alzbeta Klein ([[IFA]], Mar 14): regions with smallholder/subsistence farmers — particularly Africa and South Asia — disproportionately exposed.
+
+Raj Patel (LBJ School of Public Affairs): higher fuel and power costs push up food prices before fertiliser shortages even affect harvests — through transport, processing, and cooking costs.
+
+### Why potentially worse than 2022
+
+| Factor | 2022 (Russia-Ukraine) | 2026 (Iran conflict) |
+|--------|----------------------|---------------------|
+| Initial shock | Ukrainian grain (Black Sea) | Multiple inputs simultaneously |
+| Fertiliser impact | Secondary (energy costs) | Primary (production + transit shut) |
+| Timing | Mid-season | Start of planting season |
+| Scope | Potash (Russia/Belarus) + gas costs | Nitrogen (urea) + sulphur (phosphate input) + gas |
+| Duration risk | Sanctions — predictable | Military — unpredictable |
+
+---
+
 ## Watch for
 
 Second-order effects not yet tracked in the vault. Check these during each news ingestion session.
@@ -491,7 +560,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 |--------|---------------|--------|
 | Mandatory fuel rationing (SE Asia) | Vietnam <20 days, Indonesia 21-23 — voluntary conservation → rationing if Hormuz stays closed Week 4+ | Untracked |
 | Airline route/capacity cuts | Jet fuel at $230/bbl in Singapore. Airlines cutting routes or grounding planes | Tracked — see [[Iran conflict airline disruption]] (46K flights canceled, $150-200/bbl jet fuel, KLM/Lufthansa/BA/Cathay suspensions through Apr) |
-| Fertilizer shortage → food prices | ~34% of global fertilizer transits Hormuz. Planting season in Northern Hemisphere | Untracked |
+| Fertilizer shortage → food prices | ~34% of global fertilizer transits Hormuz. Planting season in Northern Hemisphere | **Tracked** — see [[Fertilizer]] sector note. ~50% of 2-week urea exports disrupted, QAFCO shut, India/Pakistan/Bangladesh plants cut. Urea +40%. FT: "worse than 2022" |
 | Manufacturing shutdowns beyond Rayong Olefins | Petrochemical feedstock (naphtha, propane, ethylene) shortages across Asia | PT Chandra Asri force majeure (Indonesia) |
 | Sovereign credit actions | Rating agencies reassessing oil-import-dependent sovereigns (Pakistan, Bangladesh, Sri Lanka) | Untracked |
 | Consumer spending shifts | Gasoline crowds out discretionary — retail, restaurants, travel | India restaurant closures tracked |
@@ -502,7 +571,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Asian refinery crude-grade mismatch | Refineries configured for Gulf sour crude can't easily switch to non-ME grades | Reynolds/IEEFA flagged |
 | Sovereign energy subsidy fiscal strain | Indonesia $22.6B, others scaling — impact on fiscal deficits | Indonesia tracked, others not |
 
-*Last reviewed: 2026-03-13*
+*Last reviewed: 2026-03-14*
 
 ---
 

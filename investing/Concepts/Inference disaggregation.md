@@ -251,6 +251,14 @@ The 3 Rubin variants + networking chips make standalone competition nearly impos
 
 ---
 
+## Market sizing
+
+[[Bank of America]] estimates the AI data centre market will reach ~$1.2T by 2030, with inference accounting for 75% of spending (vs ~50% in 2025). This shift from training-dominated to inference-dominated spend is the economic driver behind disaggregation — optimizing decode becomes the higher-value problem as the market matures.
+
+*Source: BofA note, Mar 2026*
+
+---
+
 ## What to watch
 
 - [ ] Groq GroqCloud growth post-NVIDIA deal

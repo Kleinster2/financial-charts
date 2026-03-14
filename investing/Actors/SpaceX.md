@@ -94,11 +94,15 @@ Under current rules, newly listed companies wait up to a year for major index in
 
 [[Dual-class shares]] structure (Feb 13, 2026): Bloomberg reports SpaceX weighing a formal dual-class share structure for the IPO. Musk already holds ~42% equity with ~79% voting control — a dual-class IPO would formalize this for public markets, ensuring he retains control post-dilution from the $25-50B raise. Follows the [[Google]]/[[Meta]]/[[Snap]] playbook. Key institutional concern: "key-man risk" amplified when that key man can't be checked by shareholders. S&P reversed its dual-class ban in April 2023, so index inclusion no longer blocked — but governance-focused investors may still push for sunset provisions.
 
-### S&P 500 seasoning rule review (Mar 3, 2026)
+### S&P 500 seasoning rule review (Mar 3–14, 2026)
 
-[[S&P Dow Jones Indices]] (subsidiary of [[S&P Global]]) published a blog post titled "Seasoning to Taste" (Mar 3, 2026) signaling they are considering changing the 12-month "seasoning" requirement — the rule that a company must be publicly listed for at least 12 months before [[S&P 500]] inclusion. No decision yet; formal consultation would take several weeks.
+[[S&P Dow Jones Indices]] (subsidiary of [[S&P Global]]) published a blog post titled "Seasoning to Taste" (Mar 3, 2026) signaling they are considering changing the 12-month "seasoning" requirement — the rule that a company must be publicly listed for at least 12 months before [[S&P 500]] inclusion.
+
+Bloomberg (Mar 14): S&P is now actively engaging with stakeholders to determine whether there's demand for changing the rules — an escalation from the blog-post stage to direct consultation. No decision has been made. A formal public consultation would last several weeks before any change can take effect.
 
 This is the primary structural barrier for SpaceX on the S&P side — separate from the [[Nasdaq 100]] fast-track covered above. If the seasoning rule is removed or shortened, SpaceX could join the S&P 500 within days or weeks of IPO rather than waiting 12+ months.
+
+Size context: at $1.75T, SpaceX would be larger than all but five S&P 500 companies — [[Nvidia]], [[Apple]], [[Microsoft]], [[Amazon]], and [[Alphabet]] — and bigger than both [[Meta]] and [[Tesla]].
 
 Current S&P 500 inclusion requirements:
 
@@ -115,7 +119,7 @@ Current S&P 500 inclusion requirements:
 
 Scale context: if the 10 largest venture-backed US companies all listed and joined the S&P 500, they would make up ~4.5% of the index — more than the entire energy sector.
 
-*Source: Bloomberg, Seeking Alpha, Benzinga, S&P Indexology Blog (Mar 3-12, 2026)*
+*Source: Bloomberg (Mar 3, 14), Seeking Alpha, Benzinga, S&P Indexology Blog (Mar 3, 2026)*
 
 Purpose: Fund space-based data centers and AI infrastructure. Not just a rocket bet — framed as AI infrastructure play.
 

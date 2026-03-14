@@ -84,6 +84,10 @@ The small-model decision enables faster iteration: model updates that would take
 
 **Generalization better than expected:** Tasks not in training data performed flawlessly.
 
+### Macrohard leadership churn (Feb-Mar 2026)
+
+Macrohard has burned through two leaders in under a month. [[Toby Pohlen]] (ex-[[DeepMind]]) was appointed to run the project, left 16 days later. Musk then redeployed [[Ashok Elluswamy]], head of AI software at [[Tesla]], to reboot the effort and audit previous work.
+
 ### "Digital Optimus" announcement (March 11, 2026)
 
 Musk publicly announced the joint [[Tesla]]-xAI project, branding it "Digital Optimus." Architecture: Grok serves as "master conductor/navigator" (Kahneman System 2) while Tesla-built AI handles real-time screen/input processing from the past 5 seconds (System 1). Runs on Tesla AI4 chip ($650) + xAI's Nvidia-based cloud. Musk: "the only real-time smart AI system" — claims it could "emulate the function of entire companies."
@@ -312,11 +316,24 @@ See [[AI infrastructure financing]].
 
 *Prior CFO Mike Liberatore resigned Oct 2025 after 3 months.*
 
-### Recent departures (Jan 2026)
+### Co-founder attrition (2025-2026)
+
+Of 11 original co-founders (Mar 2023), only [[Manuel Kroiss]] ("Makro") and [[Ross Nordeen]] remain as of Mar 2026.
+
+| Co-founder | Departed | Context |
+|-----------|----------|---------|
+| [[Igor Babuschkin]] | Aug 2025 | Built Colossus, led Grok dev |
+| [[Greg Yang]] | Jan 21, 2026 | Cited Lyme disease. Key recruiting force |
+| [[Tony Wu]] | ~Feb 2026 | Removed in Musk's leadership overhaul |
+| [[Jimmy Ba]] | ~Feb 2026 | Removed in Musk's leadership overhaul |
+| [[Zihang Dai]] | ~Mar 12, 2026 | Most senior technical staff. Had publicly acknowledged xAI was behind on coding |
+| [[Guodong Zhang]] | Mar 13, 2026 | Ran Grok pre-training. Blamed for coding product issues, relieved of primary duties by Musk |
+
+**Other departures:**
 
 **Sulaiman Ghori** — Macrohard engineer (Mar 2025 - Jan 2026). Left Jan 20, 2026 — days after appearing on *Relentless* podcast where he described xAI culture, Macrohard project, and regulatory shortcuts. Neither xAI nor Ghori commented on circumstances.
 
-**Greg Yang** — Co-founder. Departed Jan 21, 2026 citing Lyme disease. Was key recruiting force (personally reached out to engineers).
+**[[Toby Pohlen]]** — Former [[DeepMind]] researcher. Put in charge of Macrohard project by Musk (~late Feb 2026). Left 16 days later.
 
 ---
 
@@ -363,6 +380,28 @@ See [[SpaceX xAI merger]] for full analysis.
 
 ---
 
+## Coding product ("Grok Code Fast")
+
+xAI's coding product has failed to gain traction against [[Anthropic]]'s [[Claude Code]] and [[OpenAI]]'s Codex. Musk identified training data quality as the key issue (FT, Mar 14 2026). [[Zihang Dai]], the most senior technical staff member, had publicly acknowledged xAI was behind on coding before departing. [[Guodong Zhang]], who ran Grok pre-training, was blamed for the data quality problems and relieved of duties.
+
+**Cursor poach (Mar 2026):** xAI hired [[Andrew Milich]] and [[Jason Ginsberg]] from [[Cursor]] to improve Grok Code Fast. Musk welcomed them on X, adding: "Orbital space centres and mass drivers on the Moon will be incredible."
+
+---
+
+## SpaceX/Tesla audit (Mar 2026)
+
+After the [[SpaceX xAI merger|SpaceX merger]], Musk parachuted managers from [[SpaceX]] and [[Tesla]] into xAI to audit employees. The "fixers" reviewed work output and fired staff deemed inadequate (FT, Mar 14 2026).
+
+Employees were sent a memo (Mar 12) denying mass layoffs. However, researchers continued quitting — burnout from "extremely hardcore" work demands and better offers from rivals. Recruiters began contacting previously rejected candidates to fill gaps, often on better financial terms.
+
+Musk (Mar 14): "Many talented people over the past few years were declined an offer or even an interview at xAI. My apologies." Said he would go through company interview history and re-contact promising candidates.
+
+Musk (Mar 13 on X): "xAI was not built right first time around, so is being rebuilt from the foundations up. Same thing happened with Tesla."
+
+*Source: FT, Mar 14, 2026*
+
+---
+
 ## Samsung connection
 
 Musk controls both [[Tesla]] and xAI. Combined, they could be a major anchor customer for [[Samsung]] Taylor fab.
@@ -389,7 +428,7 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 | xAI new debt | ~$5B (Morgan Stanley, incl. $3B HY bonds at 12.5%) |
 | **Combined debt** | **$17.5B** |
 
-*Updated 2026-03-04*
+*Updated 2026-03-14*
 
 ---
 
@@ -470,6 +509,13 @@ Shotwell: "I've been in the space industry for nearly 40 years... I have never s
 - [[Apollo]] — SPV partner for chip purchases
 - [[Valor Equity Partners]] — lead investor, CRO origin, SPV partner
 - [[AI hyperscalers]] — category (tier 2)
+- [[Ashok Elluswamy]] — Tesla AI software head, redeployed to reboot Macrohard (Mar 2026)
+- [[Zihang Dai]] — co-founder, departed Mar 2026 (senior technical staff)
+- [[Guodong Zhang]] — co-founder, departed Mar 2026 (Grok pre-training lead)
+- [[Toby Pohlen]] — ex-DeepMind, ran Macrohard briefly (~16 days)
+- [[Manuel Kroiss]] — co-founder, one of two remaining (as of Mar 2026)
+- [[Ross Nordeen]] — co-founder, one of two remaining (as of Mar 2026)
+- [[Cursor]] — AI coding competitor (xAI poached Andrew Milich, Jason Ginsberg)
 - [[Microsoft]] — competitor (Macrohard jab)
 - [[TVA]] — power source (Colossus location)
 - [[Power constraints]] — context (2GW target)
@@ -488,3 +534,4 @@ Shotwell: "I've been in the space industry for nearly 40 years... I have never s
 - [CNBC - xAI turbine permit controversy](https://www.cnbc.com/2025/07/16/musks-xai-permits-challenged-by-naacp-environmental-groups-memphis.html) (Jul 2025)
 - [CNBC - EPA closes turbine loophole](https://www.cnbc.com/2026/01/16/musks-xai-faces-tougher-road-expanding-memphis-area-after-epa-update.html) (Jan 2026)
 - [Bloomberg - Musk's Relentless AI Pursuit](https://www.bloomberg.com/news/articles/2026-01-30/musk-s-ai-pursuit-has-him-on-the-hunt-for-capital) (Jan 30, 2026) — merger speculation, xAI burn rates, Tesla FCF forecast
+- [FT - Musk orders new round of xAI job cuts](https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5) (Mar 14, 2026) — coding product failure, SpaceX/Tesla auditors, co-founder exodus (9 of 11 departed)

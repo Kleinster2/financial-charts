@@ -69,7 +69,7 @@ Production → Liquefaction → [[Shipping]] → Regasification → Distribution
 | Company | Ticker | Role |
 |---------|--------|------|
 | Cheniere | LNG | Largest US exporter |
-| Venture Global | Private/IPO | Fast-growing US |
+| Venture Global | VG | 2nd-largest US exporter, CP2 $8.6B expansion |
 | NextDecade | NEXT | Rio Grande LNG |
 | Tellurian | TELL | Driftwood (challenged) |
 

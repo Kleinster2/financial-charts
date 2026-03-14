@@ -158,6 +158,12 @@ Nigeria (12.4% share), South Africa, and Egypt lead consumption. [[OCP Group]] i
 
 ---
 
+## Iran conflict fertiliser shock (March 2026)
+
+The [[Strait of Hormuz]] closure triggered a fertiliser supply crisis — ~50% of 2-week urea exports disrupted, [[QAFCO]] shut, South Asian plants curtailed. Urea +40%. Full analysis in [[Iran conflict energy disruption#Fertiliser supply crisis (March 14)]].
+
+---
+
 ## Investment considerations
 
 ### Bull case

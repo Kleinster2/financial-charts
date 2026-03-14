@@ -219,6 +219,14 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 
 Jonathan Ross (now at NVIDIA) said GPUs are outstanding for training but Groq's chips are faster, lower cost, and more energy-efficient for inference. This is NVIDIA effectively admitting GPUs aren't optimal for decode -- after years of claiming otherwise.
 
+**FT confirmation (Mar 14):** Chip will use SRAM instead of the dynamic RAM used for [[HBM]] — more readily available and better suited to speeding up AI "reasoning" tasks. Groq had been working with [[Samsung]] to manufacture its LPUs before the NVIDIA deal. The move represents NVIDIA breaking with its longstanding approach of pitching the same processor for many tasks — the growing sophistication of [[Agentic AI|agentic]] coding systems forced Huang to abandon the "one GPU for any workload" mantra.
+
+[[Bank of America]] analysts estimate the AI data centre market will hit ~$1.2T by 2030, with inference accounting for 75% of spending (vs ~50% in 2025).
+
+[[FuriosaAI]] CEO [[June Paik]] (Mar 14): *"Many enterprises want to do inference using their existing data centres, but the vast majority of today's data centres . . . can't support the latest liquid-cooled GPUs."*
+
+[[Creative Strategies]] analyst Ben Bajarin: *"The future of the data centre is not going to be a one-size-fits-all world."*
+
 The competitive pressure is real:
 - [[OpenAI]] signed a multibillion-dollar inference deal with [[Cerebras]] last month
 - [[Anthropic]]'s Claude Code runs primarily on AWS and Google chips, not NVIDIA

@@ -7,6 +7,14 @@ aliases: [Meta Training and Inference Accelerator]
 
 ---
 
+## March 2026: four inference-focused processors
+
+[[Meta]] announced a new family of four inference-focused processors (week of Mar 10, 2026), part of the broader industry shift toward dedicated inference silicon. Comes as [[NVIDIA]] itself is debuting a [[Groq]]-based inference chip at GTC, and [[Bank of America]] estimates inference will account for 75% of AI DC spending by 2030.
+
+*Source: FT, Mar 14 2026*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
