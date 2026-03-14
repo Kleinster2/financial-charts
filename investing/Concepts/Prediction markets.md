@@ -125,12 +125,32 @@ The 2024 US election was prediction markets' public validation:
 
 ---
 
+## Brazil
+
+[[Brazil]] is emerging as a major prediction markets jurisdiction (2026). Multiple entrants:
+
+| Platform | Approach |
+|----------|----------|
+| [[B3]] | [[CVM]]-approved event contract derivatives (Feb 2026). Professional investors only (>R$10M) |
+| [[Kalshi]] | Launched March 9, 2026 via [[XP]] International/Clear Corretora. Offshore accounts, sidesteps domestic regulation |
+| [[VoxFi]] | Domestic startup (beta). Founded by [[Fernando Carvalho]] (ex-[[QR Capital]], first LatAm crypto ETF) |
+| Previas | Structuring under CVM Resolution 88 (collective investment contracts) |
+| Futuriza | B2C/B2B model, announced March 2026 launch |
+| [[Polymarket]] | Already live (crypto-based). 217 active Brazil markets |
+
+Regulatory jurisdiction unresolved: SPA (sports betting regulator under [[Lei das Bets]]) vs [[CVM]] (securities/derivatives). The CVM's B3 approval suggests it may claim prediction markets as derivatives, not gambling.
+
+---
+
 ## Related
 
 - [[Kalshi]] — first CFTC-regulated prediction market
 - [[Polymarket]] — largest crypto-based platform
+- [[VoxFi]] — Brazilian prediction market startup
 - [[Crypto.com]] — sports event contracts via CDNA
 - [[CFTC]] — federal regulator
 - [[Michael Selig]] — CFTC chairman driving rulemaking
 - [[Crypto]] — blockchain infrastructure for Polymarket
 - [[Derivatives]] — prediction markets are a form of derivative
+- [[Brazil]] — emerging prediction markets jurisdiction (2026)
+- [[Lei das Bets]] — Brazilian sports betting law, regulatory overlap

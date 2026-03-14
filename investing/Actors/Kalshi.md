@@ -94,6 +94,16 @@ Massachusetts injunction stayed through Super Bowl 2026 pending appeal. If state
 
 ---
 
+## International expansion
+
+### Brazil (March 2026)
+
+Kalshi launched in [[Brazil]] on March 9, 2026 via a partnership with [[XP]] International / Clear Corretora. Brazilian investors access Kalshi through XP's offshore international investment accounts, sidestepping domestic regulatory uncertainty (SPA vs [[CVM]] jurisdiction over prediction markets is unresolved). Initial contracts focus on economic indicators — inflation, interest rates.
+
+Co-founder [[Luana Lopes Lara]] is Brazilian (trained at a Bolshoi-affiliated ballet academy in Brazil before MIT). The Brazil launch competes with [[B3]] (CVM-approved for event contract derivatives, Feb 2026, professional investors only) and domestic startups including [[VoxFi]], Previas, and Futuriza.
+
+---
+
 ## Media partnerships
 
 - **CNN** (2025) — prediction market data integration
@@ -127,3 +137,5 @@ Massachusetts injunction stayed through Super Bowl 2026 pending appeal. If state
 - [[Michael Selig]] — CFTC chairman
 - [[Sequoia Capital]] — lead investor
 - [[Crypto.com]] — competitor (CDNA)
+- [[VoxFi]] — Brazilian prediction market startup
+- [[Brazil]] — international expansion market (Mar 2026 via XP)
