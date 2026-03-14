@@ -273,6 +273,36 @@ Two more major funds gated:
 
 ---
 
+## S&P Global Ratings: "Disruption Without Dislocation — Yet" (Mar 12, 2026)
+
+S&P Global Ratings published the rating agency counter-narrative to the SaaSpocalypse panic: "AI Impact on Business and Technology Services: Disruption Without Dislocation — Yet," alongside a Credit FAQ on software sectors, private markets, and US credit conditions.
+
+Core thesis: AI will impact software companies on a case-by-case basis rather than triggering a sector-wide credit downgrade wave. S&P characterized the environment as "structural technological evolution rather than an abrupt macroeconomic shock."
+
+### S&P's reasoning
+
+1. Gradual, not abrupt — multi-year technology transition gives companies time to adapt, integrate AI into their own products
+2. Proprietary data moats — companies with unique datasets and deep domain expertise have defensible positions; AI models need their training data
+3. Case-by-case differentiation — horizontal, rule-based workflow tools face existential risk; vertical SaaS with proprietary data, regulatory compliance, and industry-specific logic does not
+4. Refinancing timeline matters most — near-term credit risk is whether companies can refinance before disruption materializes. Only 0.5% of software loans mature in 2026; 6% in 2027 ([[Fitch]] data, Brendan Hoelmer)
+
+### Contrasting views across rating agencies and banks
+
+| Agency/Bank | View |
+|-------------|------|
+| S&P Global Ratings | No mass downgrades; case-by-case; gradual |
+| [[Moody's]] | More cautious: lower-rated companies with upcoming maturities face "greater refinancing and default risk in 2026" |
+| [[Fitch]] (Brendan Hoelmer) | Structural data: tech = 17% of leveraged loans ($260B), software = 60% of tech borrowers, 50% rated B- or below |
+| [[JPMorgan Chase]] (Mar 11) | Marked down software loan portfolios — concrete bearish action, directly contradicting S&P |
+| UBS (Matthew Mish) | Most aggressive: 25-35% of private credit AI-exposed; worst-case 13% default rate |
+| PineBridge Investments | Hesitant: "Technology is changing so quickly that you've really got to be confident" |
+
+The report was a direct response to the Feb-Mar 2026 panic: IGV -28% from Sept peak, ~$830B in software market cap evaporated in 7 days after [[Anthropic]] Claude Cowork launch. S&P was essentially telling the market that credit fundamentals do not support a panic-driven downgrade cycle, even if the equity selloff reflects real long-term disruption risk.
+
+*Sources: S&P Global Ratings (Mar 12, 2026), PYMNTS, S&P Global Market Intelligence, Moody's Outlooks 2026, Reuters*
+
+---
+
 ## Sources
 
 - [CNBC — Blue Owl curbs investor liquidity, shares plunge 8%](https://www.cnbc.com/2026/02/19/blue-owl-private-debt-investor-loan-liquidity-restriction-market-shares.html) (Feb 19, 2026)
@@ -310,3 +340,6 @@ Two more major funds gated:
 - [[Clearlake Capital]] — PE owner of Cornerstone OnDemand
 - [[Veritas Capital]] — PE owner of Peraton (Glendon flagged)
 - [[HPS Investment Partners]] — capped flagship fund redemptions at 5% (Mar 2026)
+- [[S&P Global Ratings]] — "Disruption Without Dislocation" counter-narrative (Mar 12, 2026)
+- [[Moody's]] — more cautious: refinancing risk for lower-rated companies
+- [[Fitch]] — structural data on software share of leveraged loans

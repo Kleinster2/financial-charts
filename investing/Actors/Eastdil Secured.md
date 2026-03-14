@@ -85,7 +85,7 @@ aliases: [Eastdil, Eastdil Realty]
 ## Recent deals (2024-2025)
 
 - Advised on Crusoe conventional debt (Jun 2025)
-- Advised on [[Paramount]] Group acquisition by [[Rithm Capital]] (Sep 2025)
+- Advised on [[Paramount Group]] acquisition by [[Rithm Capital]] (Sep 2025)
 - ~$10B Florida transaction volume in 2025
 - Ongoing: $2.5B+ in distressed/lender-assisted marketing
 

@@ -264,6 +264,28 @@ The memo also reaffirmed:
 
 ---
 
+### Claude in Project Maven / Iran war deployment (Mar 2026)
+
+July 2025: [[Pentagon]] awarded Anthropic a two-year prototype agreement with $200M ceiling for "frontier AI capabilities advancing US national security." [[Claude]] is embedded in [[Project Maven]] for intelligence processing, summarization, and generating target recommendations — making Anthropic a direct participant in the most significant AI weapons deployment in history.
+
+| Detail | Value |
+|--------|-------|
+| Contract | Two-year prototype agreement (Jul 2025) |
+| Ceiling | $200M |
+| Scope | "Frontier AI capabilities advancing US national security" |
+| Role in Maven | Intelligence processing, summarization, target recommendation generation |
+| Integration | Via [[Palantir]] Maven Smart System |
+
+[[Operation Epic Fury]] results: 1,000+ targets struck in first 24 hours, 5,500 strikes over 11 days. [[Project Maven]] aggregated 150+ data sources. Claude's role in the pipeline — even if focused on processing and summarization rather than direct targeting decisions — means Anthropic's technology is part of the system that produced those strike packages.
+
+The Shajareh Tayyebeh school strike (170+ killed, mostly children, outdated intelligence suspected) creates acute reputational risk. Democratic lawmakers demanded the [[Pentagon]] explain AI's role in the targeting pipeline. House Defense Committee leaders from both parties said they did not know how AI was being used in the Iran strikes. Claude's involvement in the processing chain — regardless of how far upstream from the actual strike decision — will be scrutinized in any congressional investigation.
+
+This creates a direct tension with Anthropic's public safety positioning. The company markets itself as the "safety-focused" AI lab, held two red lines against the Pentagon (no autonomous weapons, no mass surveillance of Americans), and was designated a supply-chain risk for refusing broader military deployment. Yet Claude was already embedded in the targeting system that produced the deadliest AI-assisted military operation to date. The distinction between "processing/summarization" and "targeting" may not survive political scrutiny.
+
+*Sources: Responsible Statecraft, DefenseScoop, NBC News (Mar 11-13, 2026)*
+
+---
+
 ### Trump AI Czar endorsement at Davos (Jan 23, 2026)
 
 [[David Sacks]] (White House AI/[[Crypto]] Czar) highlighted Claude Code at Davos as the product "everyone's going crazy over":
@@ -660,6 +682,8 @@ At the [[India AI Impact Summit 2026]] (Feb 16-20), [[Anthropic]] announced its 
 - [[Public First Action]] - $20M AI safety PAC donation (Feb 2026)
 - [[Clean energy for AI]] - grid infrastructure pledge context
 - [[Palantir]] - Pentagon contract partner (~$200M)
+- [[Project Maven]] - Claude embedded for intelligence processing/summarization in Maven Smart System; deployed in [[Operation Epic Fury]]
+- [[Pentagon]] - $200M prototype agreement (Jul 2025), supply-chain risk designation (Feb 2026)
 - [[Maduro capture 2026]] - Claude used in operation via Palantir
 - [[Pentagon AI access dispute 2026]] - ultimatum, DPA threat, classified access at stake
 - [[Pete Hegseth]] - Defense Secretary, issued Friday deadline

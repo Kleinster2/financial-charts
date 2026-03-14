@@ -20,3 +20,5 @@ Office buildings, retail, hotels, industrial properties. Facing structural shift
 
 - [[Hotel industry]]
 - [[Regional banks]]
+- [[Rithm Capital]] — acquired [[Paramount Group]] Class A office portfolio ($1.6B, Dec 2025)
+- [[Vornado Realty Trust]] — NYC office REIT

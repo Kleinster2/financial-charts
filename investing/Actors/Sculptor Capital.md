@@ -3,7 +3,7 @@ aliases: [Sculptor, Och-Ziff, OZM]
 ---
 #actor #investor #hedgefund #multistrat #usa #public
 
-**Sculptor Capital** — Formerly Och-Ziff. ~$34B AUM. Multi-strategy. Acquired by Rithm Capital 2023.
+**Sculptor Capital** — Formerly Och-Ziff. ~$38B AUM (2025). Multi-strategy. Acquired by [[Rithm Capital]] 2023.
 
 ---
 
@@ -13,8 +13,8 @@ aliases: [Sculptor, Och-Ziff, OZM]
 |--------|-------|
 | Founded | 1994 |
 | Founder | **Daniel Och** |
-| AUM | ~$34B |
-| Status | Acquired by Rithm (2023) |
+| AUM | ~$38B (2025; up from $34B) |
+| Status | Acquired by [[Rithm Capital]] (2023) |
 | Former ticker | OZM (NYSE) |
 
 ---
@@ -27,7 +27,7 @@ aliases: [Sculptor, Och-Ziff, OZM]
 | 2007 | IPO as Och-Ziff |
 | 2016 | [[Africa]] bribery scandal |
 | 2019 | Renamed to Sculptor |
-| 2023 | Acquired by Rithm Capital |
+| 2023 | Acquired by [[Rithm Capital]] |
 
 ---
 
@@ -70,10 +70,10 @@ Led to name change and Och departure.
 
 | Aspect | Detail |
 |--------|--------|
-| Buyer | Rithm Capital |
+| Buyer | [[Rithm Capital]] |
 | Price | ~$720M |
 | Rationale | Alt asset platform |
-| Status | Operating within Rithm |
+| Status | Operating within [[Rithm Capital]] |
 
 ---
 
@@ -83,8 +83,8 @@ Led to name change and Och departure.
 |--------|-------|
 | Founded | 1994 |
 | Founder | Daniel Och |
-| AUM | ~$34B |
-| Status | Part of Rithm |
+| AUM | ~$38B (2025) |
+| Status | Part of [[Rithm Capital]] |
 
 ---
 

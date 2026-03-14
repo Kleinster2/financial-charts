@@ -211,6 +211,34 @@ See [[Pentagon AI access dispute 2026]] for full context on the Anthropic ban.
 
 ---
 
+## Project Maven in the Iran war (Mar 2026)
+
+[[Palantir]] is the prime contractor for [[Project Maven]] (Maven Smart System) — the AI-enabled targeting platform used in [[Operation Epic Fury]]. Initial contract: $480M. Expanded May 2025 to ~$1.3B ($795M added).
+
+| Detail | Value |
+|--------|-------|
+| Program | [[Project Maven]] (Maven Smart System) |
+| Role | Prime contractor |
+| Initial contract | $480M |
+| May 2025 expansion | +$795M (~$1.3B total) |
+| Data sources aggregated | 150+ (satellite imagery, drone feeds, intercepted comms, signals intelligence) |
+
+Maven presented military commanders with 1,000+ strike options on day one of [[Operation Epic Fury]]. In the first 24 hours, 1,000+ targets were struck — 2x the pace of 2003 Iraq "shock and awe." Over 11 days, 5,500 strikes were executed. [[Cameron Stanley]] ([[Pentagon|DoD]] Chief Digital and AI Officer) called Maven "revolutionary." [[Pentagon]] sources described it as a "force multiplier" — fewer analysts needed to process significantly more data than any previous conflict.
+
+| Metric | Value |
+|--------|-------|
+| Strike options generated (day 1) | 1,000+ |
+| Targets struck (first 24 hrs) | 1,000+ (2x 2003 Iraq "shock and awe") |
+| Total strikes (11 days) | 5,500 |
+
+This is Palantir's most significant real-world deployment and the strongest validation of its defense AI thesis. The scale of the Iran campaign — processing 150+ data sources and generating actionable targeting packages faster than any human-only intelligence pipeline — demonstrates the operational gap between AI-enabled and traditional military intelligence.
+
+Controversy: the Shajareh Tayyebeh school strike killed 170+ (mostly children). Outdated intelligence is suspected. Democratic lawmakers demanded the [[Pentagon]] explain AI's role in the targeting pipeline. The incident creates political risk for defense AI contracts — if congressional scrutiny leads to restrictions on AI-enabled targeting, Palantir's Maven contract and future defense AI work face regulatory headwinds.
+
+*Sources: The Register, Nature, DefenseScoop, NBC News (Mar 11-13, 2026)*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -232,6 +260,7 @@ See [[Pentagon AI access dispute 2026]] for full context on the Anthropic ban.
 - [[Scale AI]] — peer (AI infrastructure)
 - [[a16z]] — investor (Thiel connections)
 - [[Dan Ives]] — Wedbush analyst ("Messi of AI," +523% call)
+- [[Project Maven]] — prime contractor for Maven Smart System; $480M initial contract, expanded to ~$1.3B (May 2025). Deployed in [[Operation Epic Fury]] (1,000+ targets struck in first 24 hours)
 - [[Anthropic]] — Pentagon AI partnership (~$200M contract), Claude deployed via Palantir. Maven Smart Systems uses Claude code — now requires rebuild after supply-chain risk designation (Mar 2026)
 - [[Maduro capture 2026]] — Claude used in operation via Palantir platform
 - [[Pentagon AI access dispute 2026]] — Anthropic designated supply-chain risk; Palantir must replace Claude in Maven

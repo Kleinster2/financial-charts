@@ -84,6 +84,52 @@ Source: [School of War Ep. 282](https://youtu.be/Vt6Mvxnf_TI)
 
 ---
 
+## Pacific defense gap — two-front strain (March 12, 2026)
+
+The US is pulling advanced air/missile defense systems and naval assets from the Indo-Pacific to sustain [[Operation Epic Fury]]. Stars and Stripes/Bloomberg (Mar 12) brought the two-front problem into sharp focus: the US cannot sustain a Middle East war and maintain credible deterrence against China simultaneously.
+
+### Assets redirected from Indo-Pacific
+
+| Asset | Detail |
+|-------|--------|
+| THAAD battery components | Relocated from South Korea to Middle East |
+| [[USS Abraham Lincoln]] CSG | Redirected from Pacific to Arabian Sea (5th time in 2 years) |
+| Japan-based destroyers | At least 2 Yokosuka-based destroyers participated in Iran strikes |
+| Naval surface fleet | ~1/3 of total deployed to Middle East |
+| F-22 Raptors | 12 deployed to Ovda Airbase, Israel |
+
+### Munitions consumption (hard numbers)
+
+| Metric | Figure |
+|--------|--------|
+| THAAD interceptors consumed | 92 (~14% of 632-round stockpile, ~$1.17B) |
+| Patriot+ interceptors (first 36 hrs) | 300+ US, 280+ allied |
+| Patriot annual production rate | ~620/year ([[Lockheed Martin]]) |
+| THAAD production mandate | Quadrupled: 96 → 400 units/year |
+| Tomahawk production target | 1,000+/year ([[RTX]]) |
+| Daily operational cost | ~$900M |
+| CSIS rebuild estimate | 6+ years at surge rates |
+
+If tempo continues 4 weeks: ~215 THAAD interceptors consumed (one-third of stockpile), interceptor spending reaching $3.5-3.7B.
+
+### Allied reactions
+
+South Korean President Lee Jae Myung publicly opposed THAAD redeployment: "While we have expressed opposition, the reality is that we cannot fully impose our position." Korea Times flagged a "high-altitude defense gap."
+
+Taiwan lawmaker Chen Kuan-ting: "Military assets cannot be deployed in two places at the same time." [[Heritage Foundation]] warned high-end interceptors would be "exhausted within days" of sustained PLA salvoes.
+
+[[Japan]] set a record FY2026 defense budget (+9.4%), fourth year of the 5-year doubling program toward 2% GDP. Acquiring Tomahawk cruise missiles, integrating F-35Bs on converted Izumo-class carriers. [[Japan]]-[[Philippines]] Reciprocal Access Agreement in force since Sep 2025.
+
+### Investment read-through
+
+The two-front strain is the single most powerful driver of the [[Long global rearmament]] thesis: it forces both US replenishment spending AND allied self-sufficiency spending simultaneously. Multiple analysts described the THAAD removal as "a massive win for Beijing." CRS report (IN12668, Mar 13) formally assessed how depleted stockpiles "may affect the U.S. ability to erect a strong denial defense along the First Island Chain."
+
+[[Lockheed Martin]] hit ATH $692 by Mar 9 (+44% in 3 months) on the THAAD mandate. Asia-Pacific defense spending accelerating: the region was the second-largest arms importer globally 2021-2025.
+
+*Sources: Stars and Stripes (Mar 12), Newsweek, Asia Times, CNAS, CNBC (Mar 10), Korea Times (Mar 11), CRS IN12668 (Mar 13)*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note

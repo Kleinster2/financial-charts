@@ -8,7 +8,7 @@ tags:
 
 #actor #government #defense-tech
 
-**Emil Michael** — Under Secretary of Defense for Research and Engineering (sworn in Nov 2025). The Pentagon's top technology officer — oversees R&D, prototyping, and technology strategy for the Department of Defense. Former SVP of Business at Uber (2013–2017, Travis Kalanick era). Harvard BA, Stanford JD.
+**Emil Michael** — Under Secretary of Defense for Research and Engineering (sworn in Nov 2025). The Pentagon's top technology officer — oversees R&D, prototyping, and technology strategy for the Department of Defense. Former SVP of Business at [[Uber]] (2013–2017, [[Travis Kalanick]] era). Harvard BA, Stanford JD.
 
 Represents the pipeline from Silicon Valley operators into defense technology leadership.
 

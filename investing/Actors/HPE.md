@@ -135,6 +135,38 @@ Expands HPE networking vs [[Cisco]], [[Arista]].
 
 ---
 
+## Q1 FY2026 earnings (March 9, 2026)
+
+| Metric | Actual | Consensus | Beat/Miss |
+|--------|--------|-----------|-----------|
+| Revenue | $9.3B (+18% YoY) | $9.32B | Slight miss |
+| Non-GAAP EPS | $0.65 (record) | $0.59 | Beat by 10% |
+| Non-GAAP operating margin | 12.7% (+280 bps YoY) | — | — |
+| GAAP EPS | $0.31 | — | Down YoY (Juniper costs) |
+
+### Segment breakdown (reorganized post-Juniper)
+
+Networking: $2.7B (+151.5% YoY) — now 30% of revenue, >50% of operating profit. [[Juniper Networks]] routing added $780M (vs $1M prior year). Campus & Branch $1.2B (+42%), Data Center Networking $444M (+383%), Security $255M (+114%).
+
+Cloud & AI: $6.3B (-2.7% YoY). Server $4.2B (-2.7%), Storage $1.1B (+0.6%), Financial Services $900M (+0.3%). Server decline attributed to supply constraints — AI backlog exceeded $5B, with 64% from enterprise/sovereign customers. CEO Neri: "We don't have enough supply for all the demand we are seeing."
+
+[[GreenLake]] ARR reached $3.2B (+63% YoY), approaching 50,000 customers, on track for $3.5B by FY end.
+
+### FY2026 guidance (raised)
+
+| Metric | New | Prior |
+|--------|-----|-------|
+| Non-GAAP EPS | $2.30–$2.50 | $2.25–$2.45 |
+| GAAP EPS | $1.02–$1.22 | $0.62–$0.82 |
+| Free cash flow | ≥$2.0B | $1.7B–$2.0B |
+| Revenue growth | 17-22% YoY | Reaffirmed |
+
+[[Juniper Networks]] synergy target: $400M–$450M annual cost savings, accretive to non-GAAP EPS in year one. CFO Marie Myers expects most AI hardware orders to ship in H2 FY2026.
+
+Stock +3.2% on Mar 10 — muted reaction as market digested server decline alongside EPS beat and raised guide.
+
+---
+
 ![[hpe-employees-chart.png]]
 *Headcount: 67,000 (2025) — up 12.4% YoY*
 
