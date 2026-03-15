@@ -130,3 +130,18 @@ Wayfair dropped **-9.8%** to $73.47 on March 4, 2026. Multiple headwinds converg
 Piper Sandler reiterated rating, calling the decline "shorter-term trading dynamics" and expecting sales growth to accelerate in March/April from tax refunds.
 
 *Created 2026-01-16*
+
+---
+
+## AI operations (OpenAI partnership)
+
+[[OpenAI]] case study (Mar 2026): Wayfair using AI across catalog management and supplier support.
+
+| Application | Result |
+|-------------|--------|
+| Catalog error correction | 2.5M errors fixed (product descriptions, images, metadata) |
+| Supplier ticket resolution | 70% automated (complex supplier tickets, previously manual) |
+
+Drop-ship model makes catalog accuracy critical — Wayfair lists products from thousands of suppliers without holding inventory, so data quality is the product experience. 2.5M fixes at scale is significant for a 22M+ active customer base.
+
+*Source: OpenAI case study via GAI Insights (Mar 13, 2026)*

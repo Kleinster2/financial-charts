@@ -32,4 +32,4 @@ Largest US [[LNG]] exporter. Ticker: LNG. Operates Sabine Pass (Louisiana) and C
 - [[LNG]] — commodity/concept
 - [[Venture Global]] — competitor
 - [[ExxonMobil]] — LNG peer
-- [[Iran conflict energy disruption]] — conflict context
+- [[Iran conflict economic disruption]] — conflict context

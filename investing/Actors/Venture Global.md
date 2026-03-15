@@ -34,7 +34,7 @@ VG shows moderate Oil & Gas E&P correlation (XOP r = 0.68).
 
 ## Iran conflict beneficiary (Mar 2026)
 
-Soared **17%** in the first days of the [[2026 Iran conflict market impact|Iran conflict]] (Investopedia) — largest single-name LNG move. Benefits from [[QatarEnergy]] force majeure creating structural supply gap. See [[Iran conflict energy disruption]].
+Soared **17%** in the first days of the [[2026 Iran conflict market impact|Iran conflict]] (Investopedia) — largest single-name LNG move. Benefits from [[QatarEnergy]] force majeure creating structural supply gap. See [[Iran conflict economic disruption]].
 
 ---
 
@@ -50,4 +50,4 @@ CP2 would be Venture Global's third facility after Calcasieu Pass and Plaquemine
 
 - [[LNG]] — commodity/concept
 - [[Cheniere]] — competitor
-- [[Iran conflict energy disruption]] — conflict context
+- [[Iran conflict economic disruption]] — conflict context

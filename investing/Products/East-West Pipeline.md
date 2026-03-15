@@ -56,4 +56,4 @@ An additional complication: crude shipped from Yanbu exits via the Red Sea, requ
 - [[Habshan-Fujairah Pipeline]] — UAE's parallel bypass (1.5 mb/d)
 - [[IPSA Pipeline]] — defunct Iraqi bypass through Saudi Arabia
 - [[Oil]] — commodity
-- [[Iran conflict energy disruption]] — current event (bypass capacity stress-tested)
+- [[Iran conflict economic disruption]] — current event (bypass capacity stress-tested)

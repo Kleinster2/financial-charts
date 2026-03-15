@@ -219,7 +219,7 @@ Sable's Plan B if the onshore pipeline stays blocked:
 
 ## Macro context: Iran conflict energy shock
 
-The entire Sable thesis changes complexion under the [[Iran conflict energy disruption|2026 Iran-Hormuz energy shock]]. As of March 11:
+The entire Sable thesis changes complexion under the [[Iran conflict economic disruption|2026 Iran-Hormuz energy shock]]. As of March 11:
 
 - WTI above $100/bbl, Brent ~$93. Jet fuel in Singapore hit $230/bbl
 - ~18M bbl/day of global supply disrupted (net) — [[Strait of Hormuz]] traffic down 86%

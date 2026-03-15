@@ -199,7 +199,7 @@ Bear:
 
 - [[Hapag-Lloyd]] — acquirer
 - [[Israel]] — HQ, national identity
-- [[Iran conflict energy disruption]] — Hormuz/shipping context
+- [[Iran conflict economic disruption]] — Hormuz/shipping context
 - [[2026 Iran conflict market impact]] — broader conflict impact
 - [[Maersk]] — competitor, also suspended Hormuz transits
 - [[Strait of Hormuz]] — chokepoint

@@ -86,6 +86,12 @@ Beyond chatbots:
 
 GDM is more research-oriented than OpenAI.
 
+### Auto Harness (Mar 2026)
+
+Research paper: "Improving LLM Agents by Automatically Synthesizing a Code Harness." [[Gemini]] Flash 2.5 (small model) auto-generates code harnesses for evaluating and validating AI agent outputs. A meta-layer on agent reliability — the model creates its own testing framework to ensure correctness before deployment. Addresses the core enterprise concern: how do autonomous agents behave in production?
+
+*Source: Google DeepMind paper via GAI Insights (Mar 13, 2026)*
+
 ### [[Genie 3]] (Feb 2026)
 
 World model that constructs virtual environments from text prompts. Triggered selloff in game dev/graphics companies when demos released.

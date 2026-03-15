@@ -41,7 +41,7 @@ The [[UAE]] and [[Qatar]] said they were able to establish safe air corridors am
 
 ## Fuel cost shock
 
-The [[Strait of Hormuz]] closure drove jet fuel prices parabolic. [[Jeff Currie]] ([[Carlyle]]) noted Singapore jet fuel hit $230/bbl by March 11 — see [[Iran conflict energy disruption]] for the full energy picture.
+The [[Strait of Hormuz]] closure drove jet fuel prices parabolic. [[Jeff Currie]] ([[Carlyle]]) noted Singapore jet fuel hit $230/bbl by March 11 — see [[Iran conflict economic disruption]] for the full energy picture.
 
 Airlines responded by:
 - Hiking fares with fuel surcharges to cover ballooning costs
@@ -145,7 +145,7 @@ Thousands of passengers were stranded in the early days. Social media filled wit
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note
-- [[Iran conflict energy disruption]] — oil, LNG, jet fuel surge
+- [[Iran conflict economic disruption]] — oil, LNG, jet fuel surge
 - [[Iran conflict long-short basket]] — thesis (airlines are short leg)
 - [[Strait of Hormuz]] — chokepoint
 - [[Travel]] — sector hub

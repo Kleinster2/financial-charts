@@ -26,7 +26,7 @@ tags: [actor, geography, chokepoint]
 - [[Global oil trade flows]] — Red Sea chokepoint
 - [[Suez Canal]] — Bab el-Mandeb controls southern access
 - [[Strait of Hormuz]] — linked disruption risk (Gulf → Red Sea route)
-- [[Iran conflict energy disruption]] — Houthi proxy attacks
+- [[Iran conflict economic disruption]] — Houthi proxy attacks
 - [[Yemen]] — Houthi-controlled northern shore
 
 ---

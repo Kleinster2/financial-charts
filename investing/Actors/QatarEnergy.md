@@ -59,4 +59,4 @@ Reuters (Mar 4): Liquefaction restart will take **weeks**. The cooling process i
 - [[Strait of Hormuz]] — shipping chokepoint
 - [[LNG]] — global trade context
 - [[2026 Iran conflict market impact]] — market reaction hub
-- [[Iran conflict energy disruption]] — energy sector deep dive
+- [[Iran conflict economic disruption]] — energy sector deep dive

@@ -29,6 +29,6 @@ Head of derivatives Tim Skirrow (Mar 12): *"We were being pushed by clients as t
 ## Related
 
 - [[CME Group]] — exchange where the contested trades occurred
-- [[Iran conflict energy disruption]] — broader energy context
+- [[Iran conflict economic disruption]] — broader energy context
 
 *Created 2026-03-12*

@@ -64,7 +64,7 @@ Q4 2025 catastrophe charges: $125M (vs $325M Q4 2024).
 
 ## Iran conflict exposure (March 2026)
 
-AIG stock dropped 3.02% on March 3 (vs insurance sector -2.13%) as the [[Iran conflict energy disruption|Iran conflict]] drove industry-wide war risk coverage cancellations for Gulf vessels. Drivers:
+AIG stock dropped 3.02% on March 3 (vs insurance sector -2.13%) as the [[Iran conflict economic disruption|Iran conflict]] drove industry-wide war risk coverage cancellations for Gulf vessels. Drivers:
 - Geopolitical tensions led to insurers canceling war risk coverage
 - North American retail property and personal NPW already contracting due to "reduced market appetite and higher reinsurance costs"
 - Rising Treasury yields linked to inflation/energy price concerns

@@ -21,6 +21,6 @@ aliases: [PVM Oil Associates, PVM Oil]
 ## Related
 
 - [[CME Group]] — exchange where PVM clients trade
-- [[Iran conflict energy disruption]] — Evans quoted on Chris Wright's deleted Hormuz post
+- [[Iran conflict economic disruption]] — Evans quoted on Chris Wright's deleted Hormuz post
 
 *Created 2026-03-12*

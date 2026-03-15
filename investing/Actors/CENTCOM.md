@@ -22,7 +22,7 @@ tags: [actor, government, military, usa]
 ## Related
 
 - [[US Development Finance Corporation]] — development counterpart in CENTCOM AOR
-- [[Iran conflict energy disruption]] — primary theater for Iran-related military operations
+- [[Iran conflict economic disruption]] — primary theater for Iran-related military operations
 
 ---
 

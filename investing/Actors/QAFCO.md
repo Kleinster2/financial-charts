@@ -25,4 +25,4 @@ tags: [actor, company, fertilizer, qatar]
 - [[QatarEnergy]] — LNG supplier
 - [[Fertilizer]] — sector
 - [[urea]] — product
-- [[Iran conflict energy disruption]] — conflict context
+- [[Iran conflict economic disruption]] — conflict context

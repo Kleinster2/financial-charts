@@ -39,12 +39,42 @@ class NoteChecker:
 
     @staticmethod
     def _has_tag(content: str, tag: str) -> bool:
-        """Check if content contains a hashtag as a whole token (not substring).
+        """Check if content contains a tag as a hashtag token or in YAML frontmatter.
 
-        Matches #tag followed by whitespace, newline, or end-of-string.
-        Prevents #private from matching #privateequity, etc.
+        Checks two places:
+        1. Body hashtags: #tag as whole token (not substring)
+        2. YAML frontmatter tags: both inline [a, b, c] and block (- item) formats
+
+        The tag parameter includes the # prefix (e.g. "#etf"), which is stripped
+        for frontmatter matching.
         """
-        return bool(re.search(rf'(?<!\w){re.escape(tag)}(?=\s|$)', content, re.MULTILINE))
+        # Strip # prefix for frontmatter matching
+        bare = tag.lstrip("#")
+
+        # Check body hashtags
+        if re.search(rf'(?<!\w){re.escape(tag)}(?=\s|$)', content, re.MULTILINE):
+            return True
+
+        # Check YAML frontmatter
+        if content.startswith("---"):
+            end = content.find("---", 3)
+            if end != -1:
+                fm = content[3:end]
+                # Inline: tags: [actor, etf, risk-parity]
+                inline = re.search(r'^tags:\s*\[([^\]]*)\]', fm, re.MULTILINE)
+                if inline:
+                    items = [t.strip().strip('"').strip("'") for t in inline.group(1).split(",")]
+                    if bare in items:
+                        return True
+                # Block: tags:\n  - actor\n  - etf
+                block = re.search(r'^tags:\s*\n((?:\s+-\s+.+\n?)+)', fm, re.MULTILINE)
+                if block:
+                    items = re.findall(r'^\s+-\s+(.+?)$', block.group(1), re.MULTILINE)
+                    items = [t.strip().strip('"').strip("'") for t in items]
+                    if bare in items:
+                        return True
+
+        return False
 
     def _index_existing_notes(self) -> set[str]:
         """Index all existing note names (without .md extension)."""

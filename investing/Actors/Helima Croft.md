@@ -58,7 +58,7 @@ Croft's core argument through the crisis has three pillars:
 ## Related
 
 - [[RBC Capital]] — employer
-- [[Iran conflict energy disruption]] — crisis coverage
+- [[Iran conflict economic disruption]] — crisis coverage
 - [[Strait of Hormuz]] — the chokepoint
 - [[Oil]] — commodity
 - [[LNG]] — commodity

@@ -41,6 +41,6 @@ The irony of the March 2026 conflict: the pipeline Iran built to bypass Hormuz i
 
 - [[Strait of Hormuz]] — bypass target
 - [[Oil]] — commodity
-- [[Iran conflict energy disruption]] — current event (pipeline non-operational during crisis)
+- [[Iran conflict economic disruption]] — current event (pipeline non-operational during crisis)
 - [[East-West Pipeline]] — Saudi bypass (operational, ~3 mb/d usable)
 - [[Habshan-Fujairah Pipeline]] — UAE bypass (1.5 mb/d, compromised by attacks on Fujairah)

@@ -163,7 +163,7 @@ Airlines face a dual headwind: fuel cost surge + route/hub disruption. [[Emirate
 
 US gasoline at ~$3/gallon (same as year ago) suggests the product market tightness hasn't fully passed through to US consumers yet — but jet fuel's thinner market and fewer hedging options make it more volatile than gasoline.
 
-See [[Iran conflict energy disruption]] for the full energy market analysis and [[2026 Iran conflict market impact]] for cross-asset impact.
+See [[Iran conflict economic disruption]] for the full energy market analysis and [[2026 Iran conflict market impact]] for cross-asset impact.
 
 ---
 

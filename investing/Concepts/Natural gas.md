@@ -154,6 +154,12 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 
 The US-Europe price disconnect is structural: Henry Hub is insulated from global shocks by abundant domestic shale production. TTF is exposed to every supply disruption that touches LNG shipping or pipeline flows. This is why the [[2026 Iran conflict market impact|Iran conflict]] barely moved US gas prices while European gas surged — the [[Strait of Hormuz]] closure and [[QatarEnergy]] force majeure hit Europe's import-dependent supply chain directly.
 
+### China LNG vulnerability
+
+[[China]] imports ~1/3 of its LNG from the Middle East — almost entirely from [[QatarEnergy]], with small volumes from [[UAE]] and [[Oman]] (Oman lies outside [[Strait of Hormuz|Hormuz]]). Unlike oil, China has no strategic gas reserve of comparable scale. The Hormuz closure cut Qatari and UAE LNG flows to China entirely. Spot LNG prices surged to levels where unnamed traders at major Chinese state companies told industry press they would not buy on the spot market (Downs, Mar 4 2026).
+
+Short-term response mechanisms are limited: find ways to use less gas (demand destruction via price), increase domestic production, or source replacement cargoes from non-Hormuz suppliers (Australia, US, Russia). China's unconventional gas production (43% of total in 2025, including shale and tight gas) provides some domestic buffer but cannot replace the scale of Qatari LNG imports.
+
 ---
 
 ## vs Oil
@@ -179,5 +185,5 @@ The US-Europe price disconnect is structural: Henry Hub is insulated from global
 - [[Clean energy for AI]] — gas as bridge fuel
 - [[Strait of Hormuz]] — chokepoint for LNG/gas flows
 - [[QatarEnergy]] — world's largest LNG producer
-- [[Iran conflict energy disruption]] — TTF spike context
+- [[Iran conflict economic disruption]] — TTF spike context
 - [[EQT]] — largest US gas producer

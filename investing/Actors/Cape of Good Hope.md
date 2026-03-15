@@ -25,7 +25,7 @@ tags: [actor, geography, chokepoint]
 - [[Global oil trade flows]] — emergency rerouting corridor
 - [[Strait of Hormuz]] — 2026 closure drove Cape rerouting
 - [[Bab el-Mandeb]] — 2024 Houthi disruption drove Cape rerouting
-- [[Iran conflict energy disruption]] — Cape route as bypass during Gulf conflict
+- [[Iran conflict economic disruption]] — Cape route as bypass during Gulf conflict
 
 ---
 

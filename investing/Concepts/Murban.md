@@ -36,6 +36,6 @@ During [[Operation Epic Fury]], Murban/Dubai surged to **>$103/bbl** — hitting
 - [[Oil]] — parent commodity
 - [[ADNOC]] — producer
 - [[Strait of Hormuz]] — pricing driver
-- [[Iran conflict energy disruption]] — Mar 2026 crisis pricing
+- [[Iran conflict economic disruption]] — Mar 2026 crisis pricing
 
 *Created 2026-03-08*

@@ -97,7 +97,7 @@ The golden share transfer is the political flashpoint — the Israeli government
 - [[ZIM Integrated Shipping]] — acquisition target
 - [[Maersk]] — competitor (#2 global)
 - [[Shipping]] — sector hub
-- [[Iran conflict energy disruption]] — Hormuz/shipping context
+- [[Iran conflict economic disruption]] — Hormuz/shipping context
 - [[Strait of Hormuz]] — chokepoint
 
 ---

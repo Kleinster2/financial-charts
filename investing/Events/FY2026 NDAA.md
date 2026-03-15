@@ -110,5 +110,5 @@ See [[US Development Finance Corporation]] for full details and the March 2026 G
 - [[Defense Production Act]] — amended by COINS Act for outbound investment restrictions
 - [[China]] — primary target of COINS Act restrictions
 - [[NVIDIA]] — GAIN AI Act (dropped) would have restricted chip sales to China
-- [[Iran conflict energy disruption]] — DFC reauthorization enabled $20B Gulf reinsurance
+- [[Iran conflict economic disruption]] — DFC reauthorization enabled $20B Gulf reinsurance
 - [[Columbia]] — submarine program authorized

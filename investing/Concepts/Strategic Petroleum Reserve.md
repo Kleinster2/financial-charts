@@ -77,7 +77,11 @@ All 31+ IEA member states must hold reserves equal to 90 days of the previous ye
 | [[India]] | ~39M bbl (govt) | ~9.5 days imports | Three underground facilities; expanding |
 | [[Germany]] | ~282M bbl (total) | ~90 days | Mix of govt and industry |
 
-China's SPR is opaque — Beijing does not publish official figures. The 1.2B barrel Barclays estimate is one of the higher credible estimates. China built reserves in three phases starting 2004, targeting 90 days of import cover by 2020. Actual fill levels are debated.
+China's SPR is opaque — Beijing does not publish official figures. The 1.2B barrel Barclays estimate covers strategic reserves; total including commercial stockpiles is higher. [[Erica Downs]] ([[Columbia Center on Global Energy Policy]], Mar 4 2026) estimates ~120 days of net crude oil import cover at 2025 levels when combining strategic and commercial stockpiles — exceeding the IEA's 90-day benchmark.
+
+China built reserves in three phases starting 2004. Internal debates persisted for years about whether the country could afford 90 days of coverage given rapidly growing imports. But the combination of the Ukraine war (2022), US actions in [[Venezuela]] (2026), and the [[2026 Iran conflict market impact|Iran conflict/Hormuz closure]] (2026) has vindicated the investment.
+
+Additional buffers beyond formal reserves: Iranian and Russian crude in floating storage off the coast of China and Malaysia (had been building up pre-conflict), plus Iranian oil sitting in bonded storage at Chinese ports — all available to draw on during supply disruptions.
 
 ---
 
@@ -87,7 +91,7 @@ China's SPR is opaque — Beijing does not publish official figures. The 1.2B ba
 SPR releases put downward pressure on oil prices by increasing short-term supply. The 2022 releases were credited with moderating the Brent spike from ~$130 to sub-$100. But SPRs are finite — every barrel released is a barrel not available for the next crisis. The US SPR at 415M barrels is still only 58% of authorized capacity.
 
 ### Current relevance: 2026 Iran conflict
-The [[Iran conflict energy disruption|Strait of Hormuz disruption]] has removed up to 15+ mb/d of crude and 4+ mb/d of products from transit.
+The [[Iran conflict economic disruption|Strait of Hormuz disruption]] has removed up to 15+ mb/d of crude and 4+ mb/d of products from transit.
 
 IEA coordinated release (Mar 11): [[IEA]] Executive Director [[Fatih Birol]] announced the largest emergency stock release in IEA history — 400M barrels across 32 member countries. US commitment: 172M barrels. Dwarfs the 182M barrel Ukraine-era release (2022).
 
@@ -128,6 +132,6 @@ Relevance to 2026: The exchange mechanism's key risk — hidden discount to trad
 
 - [[Oil]] — underlying commodity (crude oil stockpiles)
 - [[Jet fuel]] — derivative product (SPR releases reduce crude cost, indirectly lowering refined product prices)
-- [[Iran conflict energy disruption]] — current event (Hormuz closure raising urgency of SPR deployment)
+- [[Iran conflict economic disruption]] — current event (Hormuz closure raising urgency of SPR deployment)
 - [[IATA]] — industry body (airline fuel costs affected by SPR release decisions)
 - [[Saudi Aramco]] — producer (Saudi pipeline alternatives partially substitute for SPR function)

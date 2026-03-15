@@ -158,7 +158,7 @@ Even maxing out Yanbu loading, bypass capacity covers a fraction of the 15+ mb/d
 
 Shutins are not risk-free. Older wells in [[Iraq]] and [[Kuwait]] may not restart cleanly — reservoir damage, water intrusion, and equipment degradation mean some production could be permanently impaired. This is a structural supply risk that outlasts the conflict.
 
-For full market impact details, see [[2026 Iran conflict market impact]] and [[Iran conflict energy disruption]].
+For full market impact details, see [[2026 Iran conflict market impact]] and [[Iran conflict economic disruption]].
 
 ---
 
@@ -172,7 +172,9 @@ For full market impact details, see [[2026 Iran conflict market impact]] and [[I
 | Moderate | 2030s | EV adoption gradual |
 | Bearish | Late 2020s | Rapid EV + policy |
 
-**Reality:** Oil demand still growing, but growth slowing. [[Transport]] ~50% of demand. Peak oil date keeps receding — the [[IEA]] now sees demand potentially growing until 2050 (as of Feb 2026). [[Citigroup]] notes European oil stocks have repriced from "very negative" to "much less negative" terminal values.
+**Reality:** Oil demand still growing globally, but growth slowing. [[Transport]] ~50% of demand. Peak oil date keeps receding — the [[IEA]] now sees demand potentially growing until 2050 (as of Feb 2026). [[Citigroup]] notes European oil stocks have repriced from "very negative" to "much less negative" terminal values.
+
+**China peak oil demand:** The biggest single-country demand story. Chinese diesel demand has already peaked (driven by the property/construction collapse). Gasoline demand is peaking now due to rapid EV uptake. The IEA and Chinese national oil companies have moved their forecasts for China's overall oil demand peak forward to **2027** (from ~2030). [[Sinopec]] at one point projected a peak as early as 2025. China will still need oil for petrochemicals — feedstocks for EVs, solar panels, and lithium-ion batteries — but transport fuel demand is structurally declining. This is the most consequential demand-side development for global oil markets: if China's ~15M bpd consumption trajectory flattens and then falls, the long-term supply-demand balance shifts materially bearish.
 
 ---
 

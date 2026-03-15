@@ -118,6 +118,10 @@ AI monetization — Now Assist (gen AI across platform) drives upsell to existin
 
 Monetization shift — Moving AI Agents into Pro Plus and Enterprise Plus SKUs. Forgoing upfront subscriptions to drive adoption, monetizing usage over time.
 
+Internal deployment results (Mar 2026): ServiceNow now deflects 90% of its own IT support tickets using AI — made an acquisition to achieve this. Strongest self-referencing case study in enterprise AI: the ITSM leader automating its own ITSM.
+
+*Source: GAI Insights (Mar 13, 2026)*
+
 ---
 
 ## Recent M&A

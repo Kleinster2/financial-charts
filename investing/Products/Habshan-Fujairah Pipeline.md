@@ -54,4 +54,4 @@ However, during the [[Operation Epic Fury|March 2026 Iran conflict]], this strat
 - [[Strait of Hormuz]] — bypass target
 - [[East-West Pipeline]] — Saudi Arabia's parallel bypass (5 mb/d pipe, ~3 mb/d port)
 - [[Oil]] — commodity
-- [[Iran conflict energy disruption]] — current event (Fujairah attacked, bypass compromised)
+- [[Iran conflict economic disruption]] — current event (Fujairah attacked, bypass compromised)

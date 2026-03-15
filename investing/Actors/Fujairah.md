@@ -28,7 +28,7 @@ During [[Operation Epic Fury]], Iranian strikes targeted Fujairah directly, maki
 
 - [[UAE]] — parent state
 - [[Strait of Hormuz]] — bypass target
-- [[Iran conflict energy disruption]] — context (Mar 2026 crisis)
+- [[Iran conflict economic disruption]] — context (Mar 2026 crisis)
 - [[Saudi Aramco]] — comparison ([[Yanbu]] Red Sea alternative)
 
 *Created 2026-03-08*

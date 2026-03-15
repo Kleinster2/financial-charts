@@ -98,7 +98,7 @@ Thailand holds ~65 days of petroleum reserves and is seeking an additional 30 da
 
 Industrial impact: Rayong Olefins (Siam Cement Group unit) suspended plant operations — cannot source naphtha or propane. The Thai bulk carrier *Mayuree Naree* was attacked near the Strait on March 11.
 
-See [[Iran conflict energy disruption#Southeast Asia emergency measures (March 9-13)]] for regional context.
+See [[Iran conflict economic disruption#Southeast Asia emergency measures (March 9-13)]] for regional context.
 
 ---
 

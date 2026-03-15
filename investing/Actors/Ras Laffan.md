@@ -25,7 +25,7 @@ World's largest [[LNG]] export terminal, located in [[Qatar]]. Operated by [[Qat
 
 Shut down operations on March 2, 2026 after Iranian drone strikes on Qatari energy infrastructure during the [[2026 Iran conflict market impact|Iran conflict]]. [[QatarEnergy]] declared force majeure on LNG shipments on March 4 (Reuters). Liquefaction plants require gradual re-cooling to -260°F — restart expected to take **weeks minimum**.
 
-The shutdown removed ~20% of global LNG supply from the market. European gas prices surged 54% ([[Bloomberg]]). See [[Iran conflict energy disruption]].
+The shutdown removed ~20% of global LNG supply from the market. European gas prices surged 54% ([[Bloomberg]]). See [[Iran conflict economic disruption]].
 
 ---
 
@@ -35,4 +35,4 @@ The shutdown removed ~20% of global LNG supply from the market. European gas pri
 - [[Qatar]] — host country
 - [[LNG]] — commodity
 - [[Strait of Hormuz]] — shipping route
-- [[Iran conflict energy disruption]] — market impact
+- [[Iran conflict economic disruption]] — market impact

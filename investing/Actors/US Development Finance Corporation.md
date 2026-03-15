@@ -5,7 +5,7 @@ tags: [actor, government, usa]
 
 # US Development Finance Corporation
 
-**US Development Finance Corporation** — US government development finance institution created in 2019 (BUILD Act), successor to OPIC. Provides financing, political risk insurance, and equity investments for private-sector projects in developing countries. Reauthorized through December 2031 with portfolio cap tripled to $205B (FY2026 NDAA). Under CEO [[Ben Black]] (confirmed October 2025), DFC has been repurposed as a tool of wartime economic statecraft — deploying a $20B maritime reinsurance facility for Gulf shipping amid the [[Iran conflict energy disruption|Iran conflict]], far outside its traditional development finance mandate.
+**US Development Finance Corporation** — US government development finance institution created in 2019 (BUILD Act), successor to OPIC. Provides financing, political risk insurance, and equity investments for private-sector projects in developing countries. Reauthorized through December 2031 with portfolio cap tripled to $205B (FY2026 NDAA). Under CEO [[Ben Black]] (confirmed October 2025), DFC has been repurposed as a tool of wartime economic statecraft — deploying a $20B maritime reinsurance facility for Gulf shipping amid the [[Iran conflict economic disruption|Iran conflict]], far outside its traditional development finance mandate.
 
 ---
 
@@ -84,7 +84,7 @@ Coverage will initially focus on hull & machinery and cargo, with war-risk polic
 ## Related
 
 - [[Ben Black]] — CEO (confirmed Oct 2025), son of [[Leon Black]] (Apollo)
-- [[Iran conflict energy disruption]] — context for Gulf reinsurance facility
+- [[Iran conflict economic disruption]] — context for Gulf reinsurance facility
 - [[Iran conflict insurance impact]] — March 2026 Gulf shipping insurance crisis
 - [[Operation Earnest Will]] — 1980s tanker escort precedent
 - [[Strait of Hormuz]] — geographic chokepoint, ~3 tankers/day during crisis

@@ -1,6 +1,6 @@
 #concept #energy #oil #trade
 
-**Global oil trade flows** — the physical movement of ~100M bbl/day of crude oil and refined products across maritime routes, pipelines, and chokepoints. Understanding who produces, who refines, who consumes, and how the barrels move between them is the foundation for pricing any energy disruption — from the [[Iran conflict energy disruption|2026 Hormuz closure]] to sanctions rerouting to refinery margin shifts. About 60% of globally traded oil moves by sea, making maritime chokepoints and tanker economics central to oil pricing.
+**Global oil trade flows** — the physical movement of ~100M bbl/day of crude oil and refined products across maritime routes, pipelines, and chokepoints. Understanding who produces, who refines, who consumes, and how the barrels move between them is the foundation for pricing any energy disruption — from the [[Iran conflict economic disruption|2026 Hormuz closure]] to sanctions rerouting to refinery margin shifts. About 60% of globally traded oil moves by sea, making maritime chokepoints and tanker economics central to oil pricing.
 
 ---
 
@@ -148,7 +148,7 @@ The Feb 28, 2026 closure of the [[Strait of Hormuz]] is the largest oil flow dis
 - [[US Development Finance Corporation\|DFC]] deployed $20B maritime reinsurance facility to break insurance paralysis
 - Rerouting: Saudi oil to [[Yanbu]] → Red Sea (but Bab el-Mandeb also under Houthi threat); Russia/US/Brazil/W. Africa/Norway crude gains share as non-Hormuz supply
 
-See [[Iran conflict energy disruption]] for full crisis analysis.
+See [[Iran conflict economic disruption]] for full crisis analysis.
 
 ---
 
@@ -167,7 +167,7 @@ The trade flow map determines who wins and who loses from any disruption:
 
 - [[Oil]] — benchmarks, production, crude types, OPEC dynamics
 - [[Strait of Hormuz]] — chokepoint, 20M bbl/day, 2026 closure
-- [[Iran conflict energy disruption]] — current crisis disrupting all Gulf flows
+- [[Iran conflict economic disruption]] — current crisis disrupting all Gulf flows
 - [[Shadow fleet]] — ~3,300 tankers carrying sanctioned crude outside Western systems
 - [[OPEC]] — production management, spare capacity
 - [[Strategic Petroleum Reserve]] — government reserves, drawdown capacity

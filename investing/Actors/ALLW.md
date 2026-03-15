@@ -93,6 +93,13 @@ All figures deleveraged. Leverage ramp-up: 0.78x at launch → 1.71x at 1 year. 
 
 ---
 
+## Price performance
+
+![[allw-vs-rpar-price-chart.png]]
+*ALLW vs RPAR normalized since inception (March 2025). RPAR's heavier commodity allocation (~27% vs 8.5%) drove outperformance through the Iran conflict commodity spike. Both sold off in March 2026 as bonds and equities fell together.*
+
+---
+
 ## Peer comparison
 
 | Feature | ALLW | [[RPAR ETF|RPAR]] | [[UPAR ETF|UPAR]] |

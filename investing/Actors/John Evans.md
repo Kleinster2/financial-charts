@@ -29,6 +29,6 @@ aliases: []
 
 - [[PVM]] — employer
 - [[Chris Wright]] — subject of quote
-- [[Iran conflict energy disruption]] — context
+- [[Iran conflict economic disruption]] — context
 
 *Created 2026-03-12*

@@ -395,7 +395,7 @@ Chinese tech stocks testing how far AI-fueled rally can run. Key listings:
 
 ## Energy exposure — Strait of Hormuz (March 2026)
 
-China is the most exposed major economy to the [[Iran conflict energy disruption|Strait of Hormuz disruption]], per Barclays (March 2026):
+China is the most exposed major economy to the [[Iran conflict economic disruption|Strait of Hormuz disruption]], per Barclays (March 2026):
 
 | Metric | Value |
 |--------|-------|
@@ -409,11 +409,42 @@ China is the most exposed major economy to the [[Iran conflict energy disruption
 China is the world's largest LNG importer, with ~30% of LNG imports tied to Hormuz transit ([[QatarEnergy]] volumes). The March 2026 closure hit Asian gas markets hard — South Korea, Taiwan, Japan, and China all moved to ban refined fuel exports and hoard domestic supply.
 
 Barclays estimates $100/bbl oil in 2026 would add ~0.3pp to Chinese headline inflation with modest growth drag. But several buffers exist:
-- 1.2B barrel [[Strategic Petroleum Reserve]] (~104 days)
+- 1.2B barrel [[Strategic Petroleum Reserve]] (~104 days per Barclays; ~120 days including commercial stockpiles per [[Erica Downs]])
 - Ability to replace Iranian crude with Russian, Brazilian, Malaysian, Angolan, and Canadian supply
 - Accelerating renewables shift reducing oil's share of total energy mix
+- Iranian/Russian crude in floating storage off China/Malaysia coast, plus Iranian oil in bonded storage at Chinese ports
 
 The US relaxed sanctions on Russian crude exports to India in early March 2026 to ensure supply — Russia is winning the sanctions arbitrage while squeezing Europe harder on gas.
+
+### Peak oil demand
+
+China's oil demand is peaking faster than expected:
+
+| Fuel | Status | Driver |
+|------|--------|--------|
+| Diesel | Already peaked | Property collapse, construction decline |
+| Gasoline | Peaking now | Rapid EV uptake |
+| Overall oil demand peak | **2027** (moved forward from ~2030) | IEA, Chinese national oil companies |
+
+[[Sinopec]] at one point projected overall demand peaking as early as 2025. China will still need oil for petrochemicals — feedstocks for EVs, solar panels, lithium-ion batteries. But the structural decline in transport fuel demand is underway.
+
+### LNG vulnerability
+
+China imports ~1/3 of its LNG from the Middle East, almost entirely from [[QatarEnergy]] (with small volumes from [[UAE]] and [[Oman]]). Unlike oil, China has no strategic gas reserve of equivalent scale. The [[Strait of Hormuz]] closure cut Qatari LNG flows entirely. Spot LNG prices surged to levels where Chinese state traders refused to buy. In the short term, the main response mechanism is demand destruction via price.
+
+### Shale evolution (not revolution)
+
+43% of China's natural gas production came from unconventional sources in 2025 — a significant share, but the buildup was gradual. On paper, China's shale resources rival the US. But structural differences prevented a US-style revolution: state-owned companies (not nimble independents) control upstream assets; no private landowner compensation mechanism; and strategic priority went to renewables, not shale. Downs (Mar 4 2026): *"It's going to be more of a shale evolution."*
+
+### Green tech superpower positioning
+
+China's energy transition serves three goals simultaneously: decarbonization, energy supply security, and maintaining dominance as supplier of green technologies globally. The strategic calculation: countries that don't want to spend foreign exchange on energy imports can buy Chinese solar panels, EVs, and batteries instead. Pakistan is the proof of concept — individual households and businesses buying Chinese rooftop solar to get affordable, reliable energy, conserving foreign exchange previously spent on fuel oil imports.
+
+This positions China as the alternative to US "energy dominance" (LNG/oil exports as leverage). Downs: the US approach is more of a "stick," while China offers something "quite appealing to a lot of countries in the world."
+
+### Historical precedent: Sino-Soviet energy cutoff
+
+China has firsthand experience with energy supply weaponization. In the 1960s, as the Sino-Soviet relationship deteriorated, China was heavily reliant on the USSR for refined products — particularly jet fuel for its military. The Soviet Union cut back refined oil product exports to China as leverage. This historical memory underpins both the [[Strategic Petroleum Reserve]] program and the construction of overland pipelines from Russia and Kazakhstan to reduce seaborne import dependency.
 
 ---
 

@@ -20,6 +20,21 @@ aliases: [Microsoft Copilot, GitHub Copilot, Microsoft 365 Copilot]
 
 ---
 
+## Copilot Health (preview, Mar 2026)
+
+New health-focused AI assistant. [[Microsoft]] citing 50M daily health-related interactions across its software as the market signal. Features:
+- Aggregates personal health data (history, results, records) in one place
+- Longitudinal tracking (e.g. sleep patterns over time)
+- Pre-visit preparation for doctor/specialist appointments
+
+Currently in preview (sign-up for early access). Competes with what millions already do informally via [[ChatGPT]] for health queries — Microsoft trying to formalize and capitalize on the behavior with a dedicated, data-integrated product.
+
+Key risk: consumer trust in Microsoft handling health data. Panel consensus (GAI Insights, Mar 13 2026): optional — hospitals don't make data portable (despite mandates), and users already get this from general-purpose chatbots.
+
+*Source: Microsoft announcement via GAI Insights (Mar 13, 2026)*
+
+---
+
 ## Related
 
 - [[Microsoft]] — parent company

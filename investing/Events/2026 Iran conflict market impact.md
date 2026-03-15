@@ -46,7 +46,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | Theme | Note | Key takeaway |
 |-------|------|-------------|
 | **Defense** | [[Iran conflict defense repricing]] | Hardware/kinetic names led (+2-6%); AVAV reversed -17% on SCAR recompetition; defense IT flat |
-| **Energy** | [[Iran conflict energy disruption]] | Hormuz effectively closed; ~40M bbl disrupted in 2 days; European gas +23%; Qatar LNG halted |
+| **Energy** | [[Iran conflict economic disruption]] | Hormuz effectively closed; ~40M bbl disrupted in 2 days; European gas +23%; Qatar LNG halted |
 | **Airlines** | [[Iran conflict airline disruption]] | 46K+ flights canceled; Bloomberg Airlines Index -11%; Gulf hub model exposed; European/Asian carriers gaining |
 | **Insurance** | [[Iran conflict insurance impact]] | Coverage withdrawal, not repricing; P&I clubs canceling Gulf war risk; equities sold on tail risk |
 | **FX** | [[Iran conflict FX dynamics]] | Dollar rally is positioning squeeze; EUR/USD hit 3-month low; de-dollarization accelerating |
@@ -409,7 +409,7 @@ Wall Street's worst week since October marks the transition from "short war, buy
 
 - [[US-Iran nuclear escalation February 2026]] — pre-strike market reaction and scenario analysis (Feb 18)
 - [[Iran conflict defense repricing]] — defense sector deep dive
-- [[Iran conflict energy disruption]] — energy/oil/LNG deep dive
+- [[Iran conflict economic disruption]] — energy/oil/LNG deep dive
 - [[Iran conflict airline disruption]] — airline/aviation deep dive
 - [[Iran conflict insurance impact]] — insurance sector deep dive
 - [[Iran conflict FX dynamics]] — dollar, euro, yen, EM currency dynamics
@@ -435,6 +435,7 @@ Wall Street's worst week since October marks the transition from "short war, buy
 - Robin J. Brooks: [Oil Tanker Traffic in the Straits of Hormuz](https://robinjbrooks.substack.com/p/oil-tanker-traffic-in-the-straits) (March 8, 2026)
 - Bloomberg: "Saudi Equities Rise Despite War Backed by Local Investors" (March 13, 2026)
 - Bloomberg: "Exail Technologies Stock Soars as Iran War Thrusts Seagoing Drones Into Spotlight" (March 13, 2026)
+- Bloomberg Odd Lots: "What War in Iran Means for Teapot Oil Refineries of China" (March 13, 2026, recorded Mar 4) — [[Erica Downs]] ([[Columbia Center on Global Energy Policy]]) on China energy vulnerability, teapot refineries, SPR, LNG exposure
 
 ---
 

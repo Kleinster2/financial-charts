@@ -152,7 +152,7 @@ The Hormuz dimension makes this potentially worse: Russia's oil found alternativ
 
 - [[2026 Iran conflict market impact]] — cross-asset hub
 - [[Iran conflict FX dynamics]] — dollar dynamics, positioning, de-dollarization
-- [[Iran conflict energy disruption]] — oil/Hormuz supply channel
+- [[Iran conflict economic disruption]] — oil/Hormuz supply channel
 - [[Iran conflict insurance impact]] — coverage withdrawal dynamics
 - [[Iran conflict long-short basket]] — thesis with stagflation scenario
 - [[Stock-Bond Correlation Regime]] — structural concept note; Iran conflict is the live case study of the post-2020 positive correlation regime

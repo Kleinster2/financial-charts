@@ -28,7 +28,7 @@ In a client note (Mar 12), Rapidan said while US Treasury selling front-month cr
 
 ## Related
 
-- [[Iran conflict energy disruption]] — broader energy context
+- [[Iran conflict economic disruption]] — broader energy context
 - [[CME Group]] — exchange where the contested trades occurred
 - [[Scott Bessent]] — Treasury Secretary (denied intervention)
 

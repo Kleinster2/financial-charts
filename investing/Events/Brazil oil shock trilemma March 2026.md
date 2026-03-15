@@ -92,7 +92,7 @@ The speed of the collapse would create its own volatility — just as the >$20 i
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note for conflict market effects
-- [[Iran conflict energy disruption]] — oil/LNG supply disruption detail
+- [[Iran conflict economic disruption]] — oil/LNG supply disruption detail
 - [[Petrobras]] — state oil company at the center of the pricing decision
 - [[Banco Central do Brasil]] — rate decision dynamics
 - [[Selic]] — policy rate context

@@ -29,7 +29,7 @@ Yanbu is [[Saudi Arabia]]'s insurance policy against Hormuz closure. The Petroli
 
 - [[Saudi Aramco]] — operator
 - [[Strait of Hormuz]] — bypass target
-- [[Iran conflict energy disruption]] — context (Mar 2026 crisis)
+- [[Iran conflict economic disruption]] — context (Mar 2026 crisis)
 - [[Oil]] — commodity
 
 *Created 2026-03-08*

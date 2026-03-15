@@ -162,7 +162,7 @@ The peace signal on March 4 (Iran outreach via NYT) triggered the biggest dollar
 
 - [[US dollar]] — reserve currency dynamics, DXY levels
 - [[2026 Iran conflict market impact]] — cross-asset hub
-- [[Iran conflict energy disruption]] — oil/Hormuz channel driving FX
+- [[Iran conflict economic disruption]] — oil/Hormuz channel driving FX
 - [[De-dollarization]] — structural trend accelerated by conflict
 - [[Dollar reserve status erosion]] — long-term reserve share decline
 - [[Cross-currency basis]] — funding stress indicator
