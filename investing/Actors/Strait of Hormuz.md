@@ -36,6 +36,30 @@ Strategic waterway between [[Iran]] and Oman connecting the Persian Gulf to the 
 
 [[Maersk]] blocked all vessels from transiting. Most shipping companies and insurers refusing to route through. The closure is **de facto, not physical** — [[Kpler]] analysis (Mar 1): "Insurance withdrawal is doing the work that physical blockade has not — the outcome for cargo flow is largely the same." War-risk premiums surged from 0.125% to 0.2-0.4% of ship insurance value per transit, adding ~$250K per VLCC crossing.
 
+### Iran-to-China oil flows through the "closed" strait (Mar 11)
+
+The blockade is selective by design. On March 5, [[IRGC]] declared Hormuz closed **only to US, Israeli, and Western-allied ships**. Iranian vessels — including the [[shadow fleet]] — keep transiting freely, all bound for [[China]].
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Iranian crude exported since Feb 28 | **13.7M bbl** (TankerTrackers) / **16.5M bbl** ([[Kpler]]) | CNBC, Reuters (Mar 11) |
+| Daily export rate (wartime) | ~1.1–1.5M bbl/day | CNBC |
+| Pre-war February rate | 2.17M bbl/day (highest since Jul 2018) | [[Kpler]] |
+| Pre-war record week (Feb 16) | **3.78M bbl/day** — more than double normal | [[Kpler]] |
+| Tankers departed Iran since Feb 28 | 6 crude + 2 LPG | TankerTrackers, [[Kpler]], [[Lloyd's List]] |
+| Iranian-flagged of those 6 | 3 | TankerTrackers |
+| Destination of all exports | **100% [[China]]** | CNBC, Reuters |
+
+**How they transit:** Iranian tankers sail within Iran's exclusive economic zone (12–24 nautical miles) — staying in Iranian waters provides protection. Many operate with AIS transponders off ("gone dark"). [[TankerTrackers]] uses satellite imagery to capture vessels that would otherwise go undetected. At least 4 supertankers carrying 8M bbl have arrived in waters around [[Singapore]].
+
+**Why the US isn't intercepting:** Unlike [[Venezuela]] — where the US set up a naval blockade and seized tankers (Jan 2026) — Washington has not moved against Iranian oil tankers. The logic is deterrence equilibrium: if the US starts seizing Iranian tankers, Iran has *less* incentive to keep Hormuz even partially open and could escalate to full mine warfare. David Tannenbaum (Blackstone Compliance): *"I'm surprised, given their successful seizures of Venezuela-related vessels, that the U.S. did not initiate a similar campaign."* James Lightbourn (Cavalier Shipping): *"If the U.S. were seizing tankers, it would give Iran less to lose by shutting the strait entirely."*
+
+**Jask bypass:** Iran resumed loading tankers at the **Jask oil terminal** on the Gulf of Oman — south of Hormuz, bypassing the strait entirely. Only the 5th loading there in 5 years. An Iranian vessel loaded 2M bbl of crude. Limitation: ~10 days to load a VLCC at Jask vs 1–2 days at [[Kharg Island]]. TankerTrackers' Samir Madani: *"Good domestic propaganda value, but not much in terms of a logistical advantage."*
+
+**China's pre-war stockpiling:** Beijing anticipated disruption. In Jan-Feb 2026, Chinese crude imports surged **15.8% YoY**. China holds an estimated **1.2B barrels** of crude stockpile (~104 days of import cover, per [[Atlantic Council]]). Iranian crude loadings hit a record **3.78M bbl/day** the week of Feb 16 — more than double the ~1.48M bbl/day weekly average — as both sides front-ran the conflict. 100% of Iranian exports went to China in February.
+
+*Sources: CNBC (Mar 11), Reuters (Mar 11), TankerTrackers.com, [[Kpler]], [[Atlantic Council]]*
+
 ### Vessels attacked (Feb 28 – Mar 7)
 
 17 vessels struck by Iranian forces as of March 7, including oil tankers, chemical tankers, bulk carriers, container ships, and a tugboat. 4 seafarers killed, 3 tankers significantly damaged. Flags of convenience (Palau, Marshall Islands, Liberia, Panama, Malta, Honduras) dominate the target list — Iran is not discriminating by cargo type or destination.

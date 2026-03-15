@@ -160,6 +160,28 @@ Sanctioned country loads tanker
 
 ---
 
+## 2026 Iran war — shadow fleet as the only game in town
+
+The [[Strait of Hormuz]] closure (Feb 28 onward) turned the shadow fleet from a sanctions-evasion mechanism into the **only functional oil transport through Hormuz**. [[IRGC]] declared the strait closed to US, Israeli, and Western-allied ships on March 5 — but Iranian-flagged and shadow fleet tankers keep transiting freely.
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Iranian crude exported since Feb 28 | 13.7–16.5M bbl | TankerTrackers / [[Kpler]] (Mar 11) |
+| Wartime export rate | ~1.1–1.5M bbl/day (vs 2.17 pre-war) | CNBC |
+| Destination | **100% [[China]]** | Reuters, CNBC |
+| Tankers departed since Feb 28 | 6 crude (3 Iranian-flagged) + 2 LPG | TankerTrackers |
+| Method | AIS off, Iranian EEZ transit (12-24 nm), STS near [[Singapore]] | Reuters |
+
+**Contrast with [[Venezuela]]:** The US naval blockade seized Venezuelan tankers in Jan 2026. No similar campaign against Iranian tankers — Washington tolerates Iranian shadow fleet flows to avoid triggering full Hormuz mine warfare. The shadow fleet's continued operation is now a deliberate US strategic choice, not an enforcement failure.
+
+**Pre-war surge:** Iran front-ran the conflict, hitting record exports of **3.78M bbl/day** the week of Feb 16. [[China]] accelerated stockpiling — crude imports up **15.8% YoY** in Jan-Feb 2026.
+
+The irony: Iran's [[Strait of Hormuz]] blockade devastated Gulf neighbors' exports (Saudi, UAE, Kuwait, Iraq forced to shut in production) while Iran's own shadow fleet kept revenue flowing. The blockade is weaponized against competitors, not against Iran itself.
+
+*Sources: CNBC, Reuters, TankerTrackers (Mar 11, 2026)*
+
+---
+
 ## Investment implications
 
 | Impact | Detail |
