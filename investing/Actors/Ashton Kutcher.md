@@ -1,29 +1,28 @@
 ---
 aliases:
   - Kutcher
-  - A-Grade Investments
 tags:
   - actor
-  - individual
+  - person
   - investor
   - AI
 ---
 
 # Ashton Kutcher
 
-Actor turned prolific tech investor. Co-founded A-Grade Investments and Sound Ventures with Guy Oseary. Notable AI investments include both [[OpenAI]] and [[Anthropic]] — a hedge bet on the two leading foundation model companies. Broader venture portfolio includes early investments in Uber, Airbnb, Spotify, and Skype. One of the most active celebrity tech investors, with a portfolio spanning 60+ companies.
+Actor and prolific tech investor. Co-founded Sound Ventures with Guy Oseary. Notable AI investments include [[OpenAI]] and [[Anthropic]] — one of the few individuals with stakes in both leading foundation model labs. Early investor in Uber, Airbnb, Spotify, and other tech companies through A-Grade Investments and Sound Ventures.
 
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Role | Actor, investor |
-| Funds | A-Grade Investments, Sound Ventures |
+| Role | Actor, VC investor |
+| Fund | Sound Ventures (w/ Guy Oseary) |
 | AI investments | [[OpenAI]], [[Anthropic]] |
-| Notable non-AI investments | Uber, Airbnb, Spotify, Skype, Robinhood |
+| Other investments | Uber, Airbnb, Spotify, Robinhood |
 
 ## Related
 
 - [[OpenAI]] — investor
 - [[Anthropic]] — investor
-- [[Celebrity AI Adoption]] — investing in both leading foundation model companies
+- [[Celebrity AI Adoption]] — investor in both leading AI labs

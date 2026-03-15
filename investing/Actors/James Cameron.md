@@ -3,25 +3,24 @@ aliases:
   - Cameron
 tags:
   - actor
-  - individual
-  - director
+  - person
   - AI
+  - film
 ---
 
 # James Cameron
 
-Director of Titanic, Avatar franchise, Terminator, and Aliens. Board member at [[Stability AI]], one of the most prominent Hollywood figures to take an operational role in an AI company. Cameron's involvement lends credibility to generative AI image/video tools given his pioneering work in visual effects (he co-founded Digital Domain). Has spoken publicly about AI as both a creative tool and existential risk — notably made the Terminator franchise about AI-driven extinction.
+Filmmaker (Terminator, Avatar, Titanic) and member of the board of directors at [[Stability AI]]. One of the most prominent Hollywood figures to take a governance role at an AI company rather than just lending a voice or investing passively. His involvement lends credibility to Stability AI's creative tools positioning.
 
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Role | Director, producer, board member |
+| Role | Filmmaker, Stability AI board member |
 | AI role | Board of Directors, [[Stability AI]] |
-| Company | Digital Domain (co-founder), Lightstorm Entertainment |
-| Notable films | Titanic, Avatar (1 & 2), Terminator, Aliens |
+| Notable films | Terminator, Avatar, Titanic |
 
 ## Related
 
 - [[Stability AI]] — board member
-- [[Celebrity AI Adoption]] — most prominent Hollywood figure in AI governance role
+- [[Celebrity AI Adoption]] — governance role at AI company

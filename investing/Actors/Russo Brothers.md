@@ -5,24 +5,23 @@ aliases:
   - AGBO
 tags:
   - actor
-  - individual
-  - director
+  - person
   - AI
+  - film
 ---
 
 # Russo Brothers
 
-Directors Anthony and Joe Russo (Avengers: Infinity War, Endgame). Building AI creative tools at AGBO, their production and technology company. Represent the "AI product builder" tier of [[Celebrity AI Adoption]] — not just using or endorsing AI, but actively developing tools for the entertainment industry.
+Filmmakers (Avengers: Infinity War, Endgame) building AI creative tools through their production company AGBO. Unlike most Hollywood figures who partner with or invest in existing AI companies, the Russos are building proprietary AI tools — positioning AGBO as a tech-forward production studio.
 
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Roles | Directors, producers, AI tool builders |
-| Company | AGBO (production + technology) |
-| AI activity | Building AI creative tools |
-| Notable films | Avengers: Infinity War, Avengers: Endgame |
+| Role | Filmmakers, AGBO founders |
+| AI involvement | Building AI creative tools at AGBO |
+| Notable films | Avengers: Infinity War, Endgame |
 
 ## Related
 
-- [[Celebrity AI Adoption]] — building AI creative tools at AGBO
+- [[Celebrity AI Adoption]] — building proprietary AI creative tools

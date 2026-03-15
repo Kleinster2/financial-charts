@@ -1,27 +1,25 @@
 ---
 aliases:
   - Spielberg
-  - Amblin Entertainment
 tags:
   - actor
-  - individual
-  - director
+  - person
   - AI
+  - film
 ---
 
 # Steven Spielberg
 
-Director (Jaws, Schindler's List, Jurassic Park, E.T.). Advisor to [[Autodesk]] Flow. One of the most influential filmmakers in history, his advisory role at Autodesk signals the convergence of legacy VFX expertise with AI-powered design/production tools.
+Filmmaker (Jaws, Schindler's List, Jurassic Park) and advisor to Autodesk Flow. One of Hollywood's most respected directors taking an advisory role at an AI-powered creative tools company, lending credibility to AI's role in professional filmmaking and design workflows.
 
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Role | Director, producer, Autodesk advisor |
+| Role | Filmmaker, Autodesk advisor |
 | AI role | Advisor to [[Autodesk]] Flow |
-| Company | Amblin Entertainment |
 
 ## Related
 
 - [[Autodesk]] — advisor to Flow product
-- [[Celebrity AI Adoption]] — advisor role
+- [[Celebrity AI Adoption]] — advisory role at AI tools company

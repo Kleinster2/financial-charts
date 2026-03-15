@@ -1,26 +1,25 @@
 ---
 aliases:
   - Tahliah Barnett
+  - FKA twigs
 tags:
   - actor
-  - individual
-  - musician
+  - person
   - AI
+  - music
 ---
 
 # FKA Twigs
 
-British musician and visual artist (real name Tahliah Barnett). Created an authorized AI deepfake of herself to handle press and media obligations — inverting the typical "deepfakes are a threat" narrative. Rather than fighting unauthorized AI use of her likeness, she built her own AI twin as a productivity tool. This "deepfake yourself first" strategy could become standard for public figures managing media demands.
+Musician and artist who "deepfaked herself" — created an AI twin to handle her own press and media obligations. One of the most creative and subversive uses of AI by a public figure, using the technology to reclaim time and autonomy rather than to scale content production.
 
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Role | Musician, visual artist |
-| AI activity | Created authorized AI twin for press/media |
-| Notable for | Inverting the deepfake threat narrative |
+| Role | Musician, artist |
+| AI involvement | Created AI deepfake of herself for press duties |
 
 ## Related
 
-- [[Celebrity AI Adoption]] — "deepfake yourself" model
-- [[ElevenLabs]] — AI voice/likeness technology
+- [[Celebrity AI Adoption]] — AI as personal autonomy tool

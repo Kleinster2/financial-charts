@@ -4,26 +4,25 @@ aliases:
   - c (musician)
 tags:
   - actor
-  - individual
-  - musician
+  - person
   - AI
+  - music
 ---
 
 # Grimes
 
-Canadian musician, producer, and visual artist (real name Claire Boucher). Established the most important precedent in creator-AI economics by offering a **50/50 royalty split** for anyone using her AI-generated voice. Rather than fighting AI voice cloning, Grimes embraced it as a distribution mechanism — anyone can create songs with her AI voice and split revenue equally. Former partner of [[Elon Musk]]. Mother of X Æ A-12 Musk and Exa Dark Sideræl Musk.
+Musician and AI pioneer in the music industry. Made waves in 2023 by offering a 50/50 royalty split to anyone who creates music using her AI-cloned voice — the first major artist to open-source their vocal identity. Former partner of [[Elon Musk]]. Her approach to AI voice rights has become a reference point for the debate over artist consent and compensation in AI-generated music.
 
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Role | Musician, producer, AI voice licensor |
-| AI model | 50/50 royalty split for AI voice use |
-| Notable for | First major artist to open-license AI voice |
-| Personal | Former partner of [[Elon Musk]] |
+| Role | Musician, AI voice pioneer |
+| AI involvement | 50/50 royalty split for AI voice usage |
+| Significance | First major artist to open-source vocal identity |
 
 ## Related
 
-- [[Celebrity AI Adoption]] — established 50/50 AI voice royalty model
-- [[ElevenLabs]] — AI voice platform (key infrastructure for AI voice cloning)
-- [[Suno]] — AI music generation platform
+- [[Celebrity AI Adoption]] — pioneer in AI voice rights/licensing
+- [[Suno]] — AI music platform (related ecosystem)
+- [[ElevenLabs]] — voice cloning technology
