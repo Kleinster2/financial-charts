@@ -188,15 +188,27 @@ See [[Sector rotation]] for current rotation dynamics.
 
 ---
 
-## Current status (Jan 2026)
+## Current status (Feb 2026)
+
+| Indicator | Reading | [[Signal]] |
+|-----------|---------|--------|
+| S&P sectors up | **7 of 11** | Decent sector-level breadth |
+| Mag 7 YTD | **-5.6%** | Cap-weighted drag on index |
+| S&P stocks beating index | **60%+** | More stocks up than down — but "beating a flat index" is a low bar |
+
+**Interpretation (updated Feb 27):** Not a bearish divergence — the index is flat, not making new highs while breadth deteriorates. But the headline numbers need unpacking. 60%+ of stocks outperforming the index sounds like strong breadth, but the index is roughly flat — so "outperforming" mostly means "positive." The real story is **dispersion**, not breadth: [[Citadel Securities]] data shows single-stock dispersion at its highest since 2009, with >20% of S&P constituents moving ±20% YTD. That's extreme idiosyncratic repricing — big winners AND big losers — which is a different phenomenon from broad participation. Rotation (capital moving between sectors) can produce high dispersion without improving breadth if the buy side is narrow.
+
+**What would confirm genuine breadth improvement:** A/D line making new highs, % above 200 DMA expanding, new highs broadening — not just "most stocks beat a flat index." Need to check actual breadth indicators, not just infer breadth from rotation and dispersion data.
+
+See [[Sector rotation]] for the dispersion and rotation data (Feb 27 update).
+
+### Previous reading (Jan 2026)
 
 | Indicator | Reading | [[Signal]] |
 |-----------|---------|--------|
 | Russell 2000 vs S&P | 9-day outperformance streak | Rotation underway |
 | S&P 500 breadth (Jan 14) | 300+ up on down day | Healthy rotation |
 | Mag 7 vs S&P 493 | Mag 7 lagging since Oct 2025 | Leadership broadening |
-
-**Interpretation:** Not a bearish divergence (top forming) — this is rotation (leadership change). Breadth is improving as concentration decreases.
 
 ---
 
@@ -224,4 +236,4 @@ See [[Sector rotation]] for current rotation dynamics.
 - [CMT Association - Breadth Reveals What Indexes Conceal](https://cmtassociation.org/chartadvisor/beneath-the-surface-what-breadth-reveals-that-indexes-conceal/)
 - [[[Fidelity]] - Advance Decline Indicator](https://www.fidelity.com/learning-center/trading-investing/advance-decline)
 
-*Created 2026-01-14*
+*Created 2026-01-14, updated 2026-02-27*
