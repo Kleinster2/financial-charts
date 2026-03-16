@@ -20,10 +20,12 @@ import pandas as pd
 import re
 from datetime import datetime
 
-# Narrow-format dual-write
+# Narrow-format support
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'charting_app'))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from constants import USE_NARROW
 try:
-    from sqlite_queries import sync_wide_to_narrow, check_narrow_available
+    from sqlite_queries import sync_wide_to_narrow, upsert_prices_long, check_narrow_available
     NARROW_SYNC = check_narrow_available()
 except ImportError:
     NARROW_SYNC = False
@@ -123,68 +125,99 @@ def add_tickers(tickers, database_path='market_data.db'):
 
     # Step 2: Update price table
     print()
-    print("Step 2: Updating stock_prices_daily table...")
+    print("Step 2: Updating price data...")
     print("-" * 60)
 
+    # Print summary for each ticker
+    for ticker in tickers:
+        if ticker in close_data.columns:
+            count = close_data[ticker].notna().sum()
+            if count > 0:
+                first_date = close_data[ticker].dropna().index[0].strftime('%Y-%m-%d')
+                last_date = close_data[ticker].dropna().index[-1].strftime('%Y-%m-%d')
+                latest = close_data[ticker].dropna().iloc[-1]
+                print(f"{ticker:12s} - {count:,} data points")
+                print(f"  Range: {first_date} to {last_date}")
+                print(f"  Latest: ${latest:.2f}")
+            else:
+                print(f"{ticker:12s} - NO DATA AVAILABLE")
+
     try:
-        # Read existing table
-        existing = pd.read_sql('SELECT * FROM stock_prices_daily', conn, index_col='Date', parse_dates=['Date'])
+        # Narrow-first path: write directly to prices_long (no column limit)
+        if USE_NARROW and NARROW_SYNC:
+            print()
+            print("Writing to narrow table (prices_long)...")
+            for ticker in tickers:
+                if ticker not in close_data.columns:
+                    continue
+                series = close_data[ticker].dropna()
+                if series.empty:
+                    continue
+                df_narrow = pd.DataFrame({
+                    'Date': series.index.strftime('%Y-%m-%d %H:%M:%S'),
+                    'Ticker': ticker,
+                    'Close': series.values.astype(float),
+                })
+                upsert_prices_long(df_narrow)
 
-        # Add/update new tickers
-        for ticker in tickers:
-            if ticker in close_data.columns:
-                existing[ticker] = close_data[ticker]
-                count = close_data[ticker].notna().sum()
+            # Also update wide table if ticker already exists there (keep dual-write)
+            pragma = cursor.execute("PRAGMA table_info(stock_prices_daily)").fetchall()
+            wide_cols = {row[1] for row in pragma}
+            wide_tickers = [t for t in tickers if t in wide_cols]
+            if wide_tickers:
+                print(f"  Also updating wide table for existing tickers: {', '.join(wide_tickers)}")
+                for ticker in wide_tickers:
+                    series = close_data[ticker].dropna()
+                    for dt, val in zip(series.index, series.values):
+                        date_str = dt.strftime('%Y-%m-%d %H:%M:%S')
+                        cursor.execute(
+                            f'UPDATE stock_prices_daily SET "{ticker}" = ? WHERE Date = ?',
+                            (float(val), date_str)
+                        )
+                conn.commit()
 
-                if count > 0:
-                    first_date = close_data[ticker].dropna().index[0].strftime('%Y-%m-%d')
-                    last_date = close_data[ticker].dropna().index[-1].strftime('%Y-%m-%d')
-                    latest = close_data[ticker].dropna().iloc[-1]
+            print("[OK] Price data updated (narrow)")
+        else:
+            # Legacy wide-table path
+            print()
+            print("Writing to wide table (stock_prices_daily)...")
+            existing = pd.read_sql('SELECT * FROM stock_prices_daily', conn, index_col='Date', parse_dates=['Date'])
 
-                    print(f"{ticker:12s} - {count:,} data points")
-                    print(f"  Range: {first_date} to {last_date}")
-                    print(f"  Latest: ${latest:.2f}")
-                else:
-                    print(f"{ticker:12s} - NO DATA AVAILABLE")
+            for ticker in tickers:
+                if ticker in close_data.columns:
+                    existing[ticker] = close_data[ticker]
 
-        # Write to staging table
-        print()
-        print("Writing to staging table...")
-        cursor.execute('DROP TABLE IF EXISTS stock_prices_daily_staging')
-        cursor.execute('DROP INDEX IF EXISTS ix_stock_prices_daily_staging_Date')
-        conn.commit()
+            cursor.execute('DROP TABLE IF EXISTS stock_prices_daily_staging')
+            cursor.execute('DROP INDEX IF EXISTS ix_stock_prices_daily_staging_Date')
+            conn.commit()
 
-        # Build CREATE TABLE with properly quoted column names (handles dots in tickers)
-        float_cols = existing.columns.tolist()
-        col_defs = ', '.join([f'"{col}" REAL' for col in float_cols])
-        cursor.execute(f'CREATE TABLE stock_prices_daily_staging ("Date" TEXT, {col_defs})')
-        conn.commit()
+            float_cols = existing.columns.tolist()
+            col_defs = ', '.join([f'"{col}" REAL' for col in float_cols])
+            cursor.execute(f'CREATE TABLE stock_prices_daily_staging ("Date" TEXT, {col_defs})')
+            conn.commit()
 
-        # Insert data in chunks
-        placeholders = ', '.join(['?'] * (len(float_cols) + 1))
-        insert_sql = f'INSERT INTO stock_prices_daily_staging VALUES ({placeholders})'
-        df_out = existing.astype(float)
-        for i in range(0, len(df_out), 5000):
-            chunk = df_out.iloc[i:i+5000]
-            rows = [(idx.strftime('%Y-%m-%d %H:%M:%S') if hasattr(idx, 'strftime') else str(idx), *vals)
-                    for idx, vals in zip(chunk.index, chunk.values.tolist())]
-            cursor.executemany(insert_sql, rows)
-        conn.commit()
+            placeholders = ', '.join(['?'] * (len(float_cols) + 1))
+            insert_sql = f'INSERT INTO stock_prices_daily_staging VALUES ({placeholders})'
+            df_out = existing.astype(float)
+            for i in range(0, len(df_out), 5000):
+                chunk = df_out.iloc[i:i+5000]
+                rows = [(idx.strftime('%Y-%m-%d %H:%M:%S') if hasattr(idx, 'strftime') else str(idx), *vals)
+                        for idx, vals in zip(chunk.index, chunk.values.tolist())]
+                cursor.executemany(insert_sql, rows)
+            conn.commit()
 
-        # Atomic swap
-        cursor.execute('DROP TABLE IF EXISTS stock_prices_daily_old')
-        cursor.execute('ALTER TABLE stock_prices_daily RENAME TO stock_prices_daily_old')
-        cursor.execute('ALTER TABLE stock_prices_daily_staging RENAME TO stock_prices_daily')
-        conn.commit()
+            cursor.execute('DROP TABLE IF EXISTS stock_prices_daily_old')
+            cursor.execute('ALTER TABLE stock_prices_daily RENAME TO stock_prices_daily_old')
+            cursor.execute('ALTER TABLE stock_prices_daily_staging RENAME TO stock_prices_daily')
+            conn.commit()
 
-        print("[OK] Price data updated")
+            print("[OK] Price data updated (wide)")
 
-        # Sync to narrow-format table
-        if NARROW_SYNC:
-            try:
-                sync_wide_to_narrow(existing, table='prices_long', value_col='Close', verbose=True)
-            except Exception as e:
-                print(f"  [Narrow] Warning: sync failed: {e}")
+            if NARROW_SYNC:
+                try:
+                    sync_wide_to_narrow(existing, table='prices_long', value_col='Close', verbose=True)
+                except Exception as e:
+                    print(f"  [Narrow] Warning: sync failed: {e}")
 
     except Exception as e:
         print(f"Error updating price table: {e}")
@@ -207,7 +240,10 @@ def add_tickers(tickers, database_path='market_data.db'):
             clean_name = clean_company_name(raw_name)
 
             # Get date range from database
-            cursor.execute(f'SELECT MIN(Date), MAX(Date), COUNT(*) FROM stock_prices_daily WHERE "{ticker}" IS NOT NULL')
+            if USE_NARROW and NARROW_SYNC:
+                cursor.execute('SELECT MIN(Date), MAX(Date), COUNT(*) FROM prices_long WHERE Ticker = ?', (ticker,))
+            else:
+                cursor.execute(f'SELECT MIN(Date), MAX(Date), COUNT(*) FROM stock_prices_daily WHERE "{ticker}" IS NOT NULL')
             first_date, last_date, data_points = cursor.fetchone()
 
             if not first_date:
@@ -218,23 +254,24 @@ def add_tickers(tickers, database_path='market_data.db'):
             cursor.execute('SELECT ticker FROM ticker_metadata WHERE ticker = ?', (ticker,))
             exists = cursor.fetchone()
 
+            tbl_name = 'prices_long' if (USE_NARROW and NARROW_SYNC) else 'stock_prices_daily'
             if exists:
                 cursor.execute('''
                     UPDATE ticker_metadata
                     SET name = ?,
-                        table_name = 'stock_prices_daily',
+                        table_name = ?,
                         data_type = 'stock',
                         first_date = ?,
                         last_date = ?,
                         data_points = ?
                     WHERE ticker = ?
-                ''', (clean_name, first_date, last_date, data_points, ticker))
+                ''', (clean_name, tbl_name, first_date, last_date, data_points, ticker))
                 action = 'Updated'
             else:
                 cursor.execute('''
                     INSERT INTO ticker_metadata (ticker, name, table_name, data_type, first_date, last_date, data_points)
-                    VALUES (?, ?, 'stock_prices_daily', 'stock', ?, ?, ?)
-                ''', (ticker, clean_name, first_date, last_date, data_points))
+                    VALUES (?, ?, ?, 'stock', ?, ?, ?)
+                ''', (ticker, clean_name, tbl_name, first_date, last_date, data_points))
                 action = 'Added'
 
             print(f"{action} {ticker:12s}")
@@ -256,7 +293,10 @@ def add_tickers(tickers, database_path='market_data.db'):
     print("-" * 60)
 
     for ticker in tickers:
-        cursor.execute(f'SELECT Date, "{ticker}" FROM stock_prices_daily WHERE "{ticker}" IS NOT NULL ORDER BY Date DESC LIMIT 1')
+        if USE_NARROW and NARROW_SYNC:
+            cursor.execute('SELECT Date, Close FROM prices_long WHERE Ticker = ? ORDER BY Date DESC LIMIT 1', (ticker,))
+        else:
+            cursor.execute(f'SELECT Date, "{ticker}" FROM stock_prices_daily WHERE "{ticker}" IS NOT NULL ORDER BY Date DESC LIMIT 1')
         price_row = cursor.fetchone()
 
         cursor.execute('SELECT name, data_points FROM ticker_metadata WHERE ticker = ?', (ticker,))
@@ -264,7 +304,7 @@ def add_tickers(tickers, database_path='market_data.db'):
 
         if price_row and meta_row:
             print(f"{ticker:12s} - {meta_row[0]}")
-            print(f"  Latest: {price_row[0][:10]} - ${price_row[1]:.2f}")
+            print(f"  Latest: {str(price_row[0])[:10]} - ${float(price_row[1]):.2f}")
             print(f"  Total: {meta_row[1]:,} data points")
         else:
             print(f"{ticker:12s} - VERIFICATION FAILED")
