@@ -12,7 +12,20 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from flask import Blueprint, jsonify, request
 import sqlite3
 from datetime import datetime
-from constants import DB_PATH
+from constants import DB_PATH, USE_NARROW
+
+# Narrow-format support
+if USE_NARROW:
+    try:
+        from sqlite_queries import (
+            get_price_data_wide as narrow_get_price_data_wide,
+            check_narrow_available,
+        )
+        NARROW_AVAILABLE = check_narrow_available()
+    except ImportError:
+        NARROW_AVAILABLE = False
+else:
+    NARROW_AVAILABLE = False
 
 thesis_bp = Blueprint('thesis', __name__)
 
@@ -25,6 +38,12 @@ def get_db():
 def get_current_price(ticker):
     """Get the latest price for a ticker from stock_prices_daily"""
     try:
+        if USE_NARROW and NARROW_AVAILABLE:
+            df = narrow_get_price_data_wide([ticker])
+            if df.empty or ticker not in df.columns:
+                return None
+            series = df[ticker].dropna()
+            return float(series.iloc[-1]) if not series.empty else None
         conn = get_db()
         cursor = conn.cursor()
         cursor.execute(f'SELECT "{ticker}" FROM stock_prices_daily WHERE "{ticker}" IS NOT NULL ORDER BY Date DESC LIMIT 1')
@@ -492,6 +511,18 @@ def get_price_history(ticker, start_date, end_date=None):
 
     Returns list of (date, price) tuples.
     """
+    if USE_NARROW and NARROW_AVAILABLE:
+        try:
+            df = narrow_get_price_data_wide([ticker], start_date=start_date)
+            if df.empty or ticker not in df.columns:
+                return []
+            df = df.reset_index()
+            if end_date:
+                df = df[df['Date'] <= end_date]
+            return [(row['Date'], row[ticker]) for _, row in df.iterrows() if row[ticker] is not None]
+        except Exception:
+            return []
+
     conn = get_db()
     cursor = conn.cursor()
 

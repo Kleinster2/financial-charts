@@ -20,6 +20,12 @@ Usage:
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent / 'charting_app'))
+try:
+    from sqlite_queries import upsert_prices_long, check_narrow_available
+    NARROW_SYNC = check_narrow_available()
+except ImportError:
+    NARROW_SYNC = False
 
 import sqlite3
 import pandas as pd
@@ -191,6 +197,16 @@ def store_index(df: pd.DataFrame):
     ''', (df['Date'].min(), df['Date'].max(), len(df)))
 
     conn.commit()
+
+    # Sync to narrow-format table
+    if NARROW_SYNC:
+        try:
+            df_narrow = df[['Date', 'AITW']].rename(columns={'AITW': 'Close'}).copy()
+            df_narrow['Ticker'] = 'AITW'
+            upsert_prices_long(df_narrow[['Date', 'Ticker', 'Close']])
+        except Exception as e:
+            print(f"  [Narrow] Warning: sync failed: {e}")
+
     conn.close()
 
     print(f"[SUCCESS] AITW index stored successfully")

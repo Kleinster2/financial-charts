@@ -4,10 +4,19 @@ Update economic indicators from FRED.
 Run this after the main market data update to keep macro indicators current.
 """
 
+import os
 import sys
 import pandas as pd
 from datetime import datetime, timedelta
 from constants import DB_PATH, get_db_connection
+
+# Narrow-format dual-write
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'charting_app'))
+try:
+    from sqlite_queries import sync_wide_to_narrow, check_narrow_available
+    NARROW_SYNC = check_narrow_available()
+except ImportError:
+    NARROW_SYNC = False
 from fred_utils import download_from_fred
 
 # FRED economic indicators currently in database
@@ -187,6 +196,13 @@ def update_fred_indicators(lookback_days=60):
         conn.commit()
 
         print("SUCCESS: Database updated")
+
+        # Sync to narrow-format table
+        if NARROW_SYNC:
+            try:
+                sync_wide_to_narrow(combined_df, table='prices_long', value_col='Close', verbose=True)
+            except Exception as e:
+                print(f"  [Narrow] Warning: sync failed: {e}")
 
         # Verify
         print("\nVerification:")

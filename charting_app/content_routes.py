@@ -14,8 +14,22 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from flask import Blueprint, jsonify, request, send_from_directory
 import pandas as pd
-from constants import (get_db_connection, WORKSPACE_FILENAME, WORKSPACE_TEMP_SUFFIX)
+from constants import (get_db_connection, USE_NARROW, WORKSPACE_FILENAME, WORKSPACE_TEMP_SUFFIX)
 from helpers import basedir
+
+# Narrow-format support
+if USE_NARROW:
+    try:
+        from sqlite_queries import (
+            get_price_data_wide as narrow_get_price_data_wide,
+            get_available_tickers as narrow_get_available_tickers,
+            check_narrow_available,
+        )
+        NARROW_AVAILABLE = check_narrow_available()
+    except ImportError:
+        NARROW_AVAILABLE = False
+else:
+    NARROW_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
 
@@ -130,11 +144,19 @@ def commentary():
     except ValueError:
         t_to = 10**12
 
-    conn = get_db_connection()
-    safe_cols = '"' + '", "'.join(tickers) + '"'
-    query = f'SELECT Date, {safe_cols} FROM stock_prices_daily ORDER BY Date ASC'
-    df = pd.read_sql_query(query, conn, parse_dates=['Date'])
-    conn.close()
+    if USE_NARROW and NARROW_AVAILABLE:
+        df = narrow_get_price_data_wide(tickers)
+        if not df.empty:
+            df = df.reset_index()
+            df['Date'] = pd.to_datetime(df['Date'])
+        else:
+            df = pd.DataFrame(columns=['Date'] + tickers)
+    else:
+        conn = get_db_connection()
+        safe_cols = '"' + '", "'.join(tickers) + '"'
+        query = f'SELECT Date, {safe_cols} FROM stock_prices_daily ORDER BY Date ASC'
+        df = pd.read_sql_query(query, conn, parse_dates=['Date'])
+        conn.close()
 
     # Limit range
     ts = (df['Date'].astype('int64') // 10**9)
@@ -229,14 +251,25 @@ def etf_series():
             shares_series = []
             if not df_hold.empty:
                 # Check price column exists for ETF
-                try:
-                    cols = {row['name'] for row in conn.execute("PRAGMA table_info(stock_prices_daily)").fetchall()}
-                except sqlite3.OperationalError:
-                    cols = set()
+                if USE_NARROW and NARROW_AVAILABLE:
+                    cols = narrow_get_available_tickers()
+                else:
+                    try:
+                        cols = {row['name'] for row in conn.execute("PRAGMA table_info(stock_prices_daily)").fetchall()}
+                    except sqlite3.OperationalError:
+                        cols = set()
                 logger.info(f"/api/etf/series shares: df_hold rows={len(df_hold)}; price_col_exists={etf in cols}")
                 if etf in cols:
-                    q_price = f'SELECT Date, "{etf}" as price FROM stock_prices_daily ORDER BY Date ASC'
-                    df_price = pd.read_sql_query(q_price, conn, parse_dates=['Date'])
+                    if USE_NARROW and NARROW_AVAILABLE:
+                        _pdf = narrow_get_price_data_wide([etf])
+                        if not _pdf.empty:
+                            df_price = _pdf.reset_index().rename(columns={etf: 'price'})
+                            df_price['Date'] = pd.to_datetime(df_price['Date'])
+                        else:
+                            df_price = pd.DataFrame(columns=['Date', 'price'])
+                    else:
+                        q_price = f'SELECT Date, "{etf}" as price FROM stock_prices_daily ORDER BY Date ASC'
+                        df_price = pd.read_sql_query(q_price, conn, parse_dates=['Date'])
                     logger.info(f"/api/etf/series shares: df_price rows={len(df_price)}")
                     if not df_price.empty:
                         if from_str or to_str:

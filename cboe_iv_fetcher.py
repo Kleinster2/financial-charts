@@ -4,6 +4,8 @@ Fetches options data and calculates at-the-money implied volatility for stocks.
 Also provides access to VIX and other CBOE volatility indices.
 """
 
+import os
+import sys
 import sqlite3
 from typing import Dict, List, Optional, Tuple
 from datetime import datetime, timedelta
@@ -14,6 +16,14 @@ import numpy as np
 import requests
 from io import StringIO
 from constants import DB_PATH
+
+# Narrow-format dual-write
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'charting_app'))
+try:
+    from sqlite_queries import upsert_prices_long, check_narrow_available
+    NARROW_SYNC = check_narrow_available()
+except ImportError:
+    NARROW_SYNC = False
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -292,6 +302,20 @@ class CBOEImpliedVolatilityFetcher:
                 values_updated += 1
 
             conn.commit()
+
+            # Sync to narrow-format table
+            if NARROW_SYNC and values_updated > 0:
+                try:
+                    rows = []
+                    for date_str, row in df.iterrows():
+                        close_value = row['CLOSE']
+                        if pd.notna(close_value):
+                            rows.append({'Date': date_str + ' 00:00:00', 'Ticker': symbol, 'Close': float(close_value)})
+                    if rows:
+                        upsert_prices_long(pd.DataFrame(rows), verbose=False)
+                except Exception as e:
+                    logger.warning(f"[Narrow] sync failed for {symbol}: {e}")
+
             logger.info(f"Updated {symbol}: {values_updated} values")
             updated += 1
 

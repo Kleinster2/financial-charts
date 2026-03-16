@@ -22,6 +22,15 @@ if USE_DUCKDB:
 else:
     DUCKDB_AVAILABLE = False
 
+# Narrow-format dual-write (always active once tables exist)
+import sys as _sys
+_sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'charting_app'))
+try:
+    from sqlite_queries import sync_wide_to_narrow, check_narrow_available
+    NARROW_SYNC = check_narrow_available()
+except ImportError:
+    NARROW_SYNC = False
+
 # --- CONFIG ---
 # Include data starting from December 30th, 2022
 START_DATE = DEFAULT_START_DATE
@@ -1569,6 +1578,19 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         else:
             vprint("Skipping stock_metadata update (stocks not selected).")
         vprint(f"Database updated. Now contains {combined_df.shape[1]} securities with {combined_df.shape[0]} daily prices.")
+
+        # Sync to narrow-format tables (dual-write)
+        if NARROW_SYNC:
+            vprint("\n" + "="*60)
+            vprint("[Narrow] Syncing to narrow-format tables...")
+            vprint("="*60)
+            try:
+                sync_wide_to_narrow(combined_df, table='prices_long', value_col='Close', verbose=verbose)
+                if not combined_vol_df.empty:
+                    sync_wide_to_narrow(combined_vol_df, table='volumes_long', value_col='Volume', verbose=verbose)
+                vprint("[Narrow] Sync completed successfully")
+            except Exception as e:
+                vprint(f"[Narrow] Warning: sync failed: {e}")
 
         # Write to DuckDB if enabled (Phase 1: shadow database)
         if USE_DUCKDB and DUCKDB_AVAILABLE:

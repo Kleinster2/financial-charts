@@ -12,7 +12,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from flask import Blueprint, jsonify, request
 import pandas as pd
 import numpy as np
-from constants import (get_db_connection, USE_DUCKDB, TICKER_ALIASES)
+from constants import (get_db_connection, USE_DUCKDB, USE_NARROW, TICKER_ALIASES)
 from helpers import DUCKDB_AVAILABLE
 
 # Conditional DuckDB imports
@@ -20,6 +20,24 @@ if USE_DUCKDB and DUCKDB_AVAILABLE:
     from duckdb_queries import (
         get_price_data, get_volume_data, get_all_tickers_list,
     )
+
+# Conditional narrow-format imports
+if USE_NARROW:
+    try:
+        from sqlite_queries import (
+            get_price_data as narrow_get_price_data,
+            get_volume_data as narrow_get_volume_data,
+            get_all_tickers_list as narrow_get_all_tickers_list,
+            get_available_tickers as narrow_get_available_tickers,
+            get_futures_tickers as narrow_get_futures_tickers,
+            get_bond_tickers as narrow_get_bond_tickers,
+            check_narrow_available,
+        )
+        NARROW_AVAILABLE = check_narrow_available()
+    except ImportError:
+        NARROW_AVAILABLE = False
+else:
+    NARROW_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
 
@@ -47,7 +65,32 @@ def get_tickers():
             logger.info(f"[DuckDB] Found {len(tickers)} tickers")
             return jsonify(tickers)
 
-        # SQLite fallback
+        # Use narrow-format tables if enabled
+        if USE_NARROW and NARROW_AVAILABLE:
+            tickers_set = set()
+            tickers_set.update(narrow_get_available_tickers())
+            tickers_set.update(narrow_get_futures_tickers())
+            tickers_set.update(narrow_get_bond_tickers())
+            # FRED series still wide — read via PRAGMA
+            conn = get_db_connection()
+            try:
+                cursor = conn.execute("PRAGMA table_info(fred_series)")
+                tickers_set.update(row[1] for row in cursor.fetchall() if row[1] != 'Date')
+            except sqlite3.OperationalError:
+                pass
+            # Add portfolios
+            try:
+                cursor = conn.execute("SELECT portfolio_id FROM portfolios ORDER BY portfolio_id")
+                for row in cursor.fetchall():
+                    tickers_set.add(f"PORTFOLIO_{row[0]}")
+            except sqlite3.OperationalError:
+                pass
+            conn.close()
+            tickers = sorted(tickers_set)
+            logger.info(f"[Narrow] Found {len(tickers)} tickers")
+            return jsonify(tickers)
+
+        # SQLite wide-format fallback
         conn = get_db_connection()
         tickers_set = set()
 
@@ -283,7 +326,31 @@ def get_data():
         logger.info(f"[DuckDB] /api/data: returned {len(chart_data)} tickers")
         return jsonify(chart_data)
 
-    # SQLite fallback
+    # Use narrow-format tables if enabled
+    if USE_NARROW and NARROW_AVAILABLE:
+        chart_data = narrow_get_price_data(tickers)
+
+        # Apply interval resampling if needed
+        if interval in ('weekly', 'monthly'):
+            for ticker in chart_data:
+                if not chart_data[ticker]:
+                    continue
+                df = pd.DataFrame(chart_data[ticker])
+                df['Date'] = pd.to_datetime(df['time'], unit='s')
+                df = df.set_index('Date')
+
+                if interval == 'weekly':
+                    df = df.resample('W-FRI')['value'].last().dropna().reset_index()
+                else:
+                    df = df.resample('M')['value'].last().dropna().reset_index()
+
+                df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
+                chart_data[ticker] = df[['time', 'value']].to_dict(orient='records')
+
+        logger.info(f"[Narrow] /api/data: returned {len(chart_data)} tickers")
+        return jsonify(chart_data)
+
+    # SQLite wide-format fallback
     conn = get_db_connection()
 
     # --- Determine which tickers belong to which table ---
@@ -408,7 +475,13 @@ def get_volume():
         logger.info(f"[DuckDB] /api/volume: returned {len(out)} tickers")
         return jsonify(out)
 
-    # SQLite fallback
+    # Use narrow-format tables if enabled
+    if USE_NARROW and NARROW_AVAILABLE:
+        out = narrow_get_volume_data(tickers)
+        logger.info(f"[Narrow] /api/volume: returned {len(out)} tickers")
+        return jsonify(out)
+
+    # SQLite wide-format fallback
     conn = get_db_connection()
 
     # Determine which requested tickers are present in the stock and futures volume tables

@@ -19,9 +19,24 @@ import matplotlib.dates as mdates
 
 from flask import Blueprint, jsonify, request, Response
 import pandas as pd
-from constants import (get_db_connection, HTTP_BAD_REQUEST, HTTP_NOT_FOUND,
+from constants import (get_db_connection, USE_NARROW, HTTP_BAD_REQUEST, HTTP_NOT_FOUND,
                       HTTP_INTERNAL_ERROR, resolve_ticker_alias)
 from helpers import basedir, _check_playwright, fiscal_to_calendar_quarter
+
+# Narrow-format support
+if USE_NARROW:
+    try:
+        from sqlite_queries import (
+            get_available_tickers as narrow_get_available_tickers,
+            get_futures_tickers as narrow_get_futures_tickers,
+            get_price_data_wide as narrow_get_price_data_wide,
+            check_narrow_available,
+        )
+        NARROW_AVAILABLE = check_narrow_available()
+    except ImportError:
+        NARROW_AVAILABLE = False
+else:
+    NARROW_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
 
@@ -63,38 +78,53 @@ def get_chart_image():
     try:
         conn = get_db_connection()
 
-        # Wide format table: Date column + ticker columns
-        # Check if ticker column exists in stock_prices_daily or futures_prices_daily
-        cursor = conn.cursor()
-        cursor.execute("PRAGMA table_info(stock_prices_daily)")
-        stock_columns = [row[1] for row in cursor.fetchall()]
-
-        cursor.execute("PRAGMA table_info(futures_prices_daily)")
-        futures_columns = [row[1] for row in cursor.fetchall()]
-
-        if ticker in stock_columns:
-            source_table = 'stock_prices_daily'
-        elif ticker in futures_columns:
-            source_table = 'futures_prices_daily'
-        else:
+        # Narrow path: read from prices_long / futures_prices_long
+        if USE_NARROW and NARROW_AVAILABLE:
+            stock_tickers = narrow_get_available_tickers()
+            futures_tickers = narrow_get_futures_tickers()
+            if ticker not in stock_tickers and ticker not in futures_tickers:
+                conn.close()
+                return jsonify({'error': f'Ticker {ticker} not found in database'}), HTTP_NOT_FOUND
+            df = narrow_get_price_data_wide([ticker], start_date=start_date)
             conn.close()
-            return jsonify({'error': f'Ticker {ticker} not found in database'}), HTTP_NOT_FOUND
+            if not df.empty:
+                df = df.reset_index()
+                df = df.rename(columns={ticker: ticker})  # already named
+            # Apply end_date filter
+            if end_date and not df.empty:
+                df = df[df['Date'] <= end_date]
+        else:
+            # Wide format table: Date column + ticker columns
+            cursor = conn.cursor()
+            cursor.execute("PRAGMA table_info(stock_prices_daily)")
+            stock_columns = [row[1] for row in cursor.fetchall()]
 
-        # Build query for wide format
-        query = f'SELECT Date, "{ticker}" FROM {source_table} WHERE "{ticker}" IS NOT NULL'
-        params = []
+            cursor.execute("PRAGMA table_info(futures_prices_daily)")
+            futures_columns = [row[1] for row in cursor.fetchall()]
 
-        if start_date:
-            query += " AND Date >= ?"
-            params.append(start_date)
-        if end_date:
-            query += " AND Date <= ?"
-            params.append(end_date)
+            if ticker in stock_columns:
+                source_table = 'stock_prices_daily'
+            elif ticker in futures_columns:
+                source_table = 'futures_prices_daily'
+            else:
+                conn.close()
+                return jsonify({'error': f'Ticker {ticker} not found in database'}), HTTP_NOT_FOUND
 
-        query += " ORDER BY Date"
+            # Build query for wide format
+            query = f'SELECT Date, "{ticker}" FROM {source_table} WHERE "{ticker}" IS NOT NULL'
+            params = []
 
-        df = pd.read_sql_query(query, conn, params=params)
-        conn.close()
+            if start_date:
+                query += " AND Date >= ?"
+                params.append(start_date)
+            if end_date:
+                query += " AND Date <= ?"
+                params.append(end_date)
+
+            query += " ORDER BY Date"
+
+            df = pd.read_sql_query(query, conn, params=params)
+            conn.close()
 
         if df.empty:
             return jsonify({'error': f'No data found for {ticker}'}), HTTP_NOT_FOUND
@@ -531,66 +561,121 @@ def get_chart_lw():
             return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
 
     try:
-        conn = get_db_connection()
-        cursor = conn.cursor()
-
-        # Get available columns from all wide-format price tables
-        stock_cols = set()
-        futures_cols = set()
-        fred_cols = set()
-        for tbl, col_set in [('stock_prices_daily', stock_cols),
-                             ('futures_prices_daily', futures_cols),
-                             ('fred_series', fred_cols)]:
+        # Narrow path: read from narrow tables
+        if USE_NARROW and NARROW_AVAILABLE:
+            stock_tickers = narrow_get_available_tickers()
+            futures_tickers = narrow_get_futures_tickers()
+            # FRED still wide
+            conn = get_db_connection()
             try:
-                cursor.execute(f"PRAGMA table_info({tbl})")
-                col_set.update(row[1] for row in cursor.fetchall())
+                cursor = conn.cursor()
+                cursor.execute("PRAGMA table_info(fred_series)")
+                fred_cols = {row[1] for row in cursor.fetchall()}
             except Exception:
-                pass
+                fred_cols = set()
 
-        # Assign each ticker to its source table
-        table_tickers = {}  # table_name -> [ticker, ...]
-        for t in tickers:
-            if t in futures_cols and t.endswith('=F'):
-                table_tickers.setdefault('futures_prices_daily', []).append(t)
-            elif t in stock_cols:
-                table_tickers.setdefault('stock_prices_daily', []).append(t)
-            elif t in futures_cols:
-                table_tickers.setdefault('futures_prices_daily', []).append(t)
-            elif t in fred_cols:
-                table_tickers.setdefault('fred_series', []).append(t)
+            valid_tickers = [t for t in tickers if t in stock_tickers or t in futures_tickers or t in fred_cols]
+            if not valid_tickers:
+                conn.close()
+                return jsonify({'error': f'No valid tickers found. Requested: {tickers}'}), HTTP_NOT_FOUND
 
-        valid_tickers = [t for group in table_tickers.values() for t in group]
-        if not valid_tickers:
+            # Get narrow tickers (stocks + futures)
+            narrow_tickers = [t for t in valid_tickers if t in stock_tickers or t in futures_tickers]
+            fred_tickers = [t for t in valid_tickers if t in fred_cols and t not in stock_tickers and t not in futures_tickers]
+
+            dfs = []
+            if narrow_tickers:
+                ndf = narrow_get_price_data_wide(narrow_tickers, start_date=start_date)
+                if not ndf.empty:
+                    ndf = ndf.reset_index()
+                    if end_date:
+                        ndf = ndf[ndf['Date'] <= end_date]
+                    dfs.append(ndf)
+
+            if fred_tickers:
+                cols_sql = ', '.join([f'"{t}"' for t in fred_tickers])
+                q = f'SELECT Date, {cols_sql} FROM fred_series WHERE 1=1'
+                params = []
+                if start_date:
+                    q += " AND Date >= ?"
+                    params.append(start_date)
+                if end_date:
+                    q += " AND Date <= ?"
+                    params.append(end_date)
+                q += " ORDER BY Date"
+                dfs.append(pd.read_sql_query(q, conn, params=params))
+
             conn.close()
-            return jsonify({'error': f'No valid tickers found. Requested: {tickers}'}), HTTP_NOT_FOUND
 
-        # Query each table and merge on Date
-        dfs = []
-        for table_name, t_list in table_tickers.items():
-            columns_sql = ', '.join([f'"{t}"' for t in t_list])
-            query = f'SELECT Date, {columns_sql} FROM {table_name} WHERE 1=1'
-            params = []
-            if start_date:
-                query += " AND Date >= ?"
-                params.append(start_date)
-            if end_date:
-                query += " AND Date <= ?"
-                params.append(end_date)
-            query += " ORDER BY Date"
-            dfs.append(pd.read_sql_query(query, conn, params=params))
-
-        conn.close()
-
-        if len(dfs) == 1:
-            df = dfs[0]
+            if not dfs:
+                return jsonify({'error': 'No data found for specified tickers/date range'}), HTTP_NOT_FOUND
+            if len(dfs) == 1:
+                df = dfs[0]
+            else:
+                for d in dfs:
+                    d['Date'] = pd.to_datetime(d['Date']).dt.strftime('%Y-%m-%d')
+                df = dfs[0]
+                for d in dfs[1:]:
+                    df = df.merge(d, on='Date', how='outer')
+                df = df.sort_values('Date').reset_index(drop=True)
         else:
-            # Normalize Date columns to date-only strings for merge
-            for d in dfs:
-                d['Date'] = pd.to_datetime(d['Date']).dt.strftime('%Y-%m-%d')
-            df = dfs[0]
-            for d in dfs[1:]:
-                df = df.merge(d, on='Date', how='outer')
-            df = df.sort_values('Date').reset_index(drop=True)
+            # Wide-format fallback
+            conn = get_db_connection()
+            cursor = conn.cursor()
+
+            stock_cols = set()
+            futures_cols = set()
+            fred_cols = set()
+            for tbl, col_set in [('stock_prices_daily', stock_cols),
+                                 ('futures_prices_daily', futures_cols),
+                                 ('fred_series', fred_cols)]:
+                try:
+                    cursor.execute(f"PRAGMA table_info({tbl})")
+                    col_set.update(row[1] for row in cursor.fetchall())
+                except Exception:
+                    pass
+
+            table_tickers = {}
+            for t in tickers:
+                if t in futures_cols and t.endswith('=F'):
+                    table_tickers.setdefault('futures_prices_daily', []).append(t)
+                elif t in stock_cols:
+                    table_tickers.setdefault('stock_prices_daily', []).append(t)
+                elif t in futures_cols:
+                    table_tickers.setdefault('futures_prices_daily', []).append(t)
+                elif t in fred_cols:
+                    table_tickers.setdefault('fred_series', []).append(t)
+
+            valid_tickers = [t for group in table_tickers.values() for t in group]
+            if not valid_tickers:
+                conn.close()
+                return jsonify({'error': f'No valid tickers found. Requested: {tickers}'}), HTTP_NOT_FOUND
+
+            dfs = []
+            for table_name, t_list in table_tickers.items():
+                columns_sql = ', '.join([f'"{t}"' for t in t_list])
+                query = f'SELECT Date, {columns_sql} FROM {table_name} WHERE 1=1'
+                params = []
+                if start_date:
+                    query += " AND Date >= ?"
+                    params.append(start_date)
+                if end_date:
+                    query += " AND Date <= ?"
+                    params.append(end_date)
+                query += " ORDER BY Date"
+                dfs.append(pd.read_sql_query(query, conn, params=params))
+
+            conn.close()
+
+            if len(dfs) == 1:
+                df = dfs[0]
+            else:
+                for d in dfs:
+                    d['Date'] = pd.to_datetime(d['Date']).dt.strftime('%Y-%m-%d')
+                df = dfs[0]
+                for d in dfs[1:]:
+                    df = df.merge(d, on='Date', how='outer')
+                df = df.sort_values('Date').reset_index(drop=True)
 
         if df.empty:
             return jsonify({'error': 'No data found for specified tickers/date range'}), HTTP_NOT_FOUND

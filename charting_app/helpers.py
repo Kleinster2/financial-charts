@@ -33,14 +33,53 @@ if USE_DUCKDB:
 else:
     DUCKDB_AVAILABLE = False
 
+# --- Narrow-format SQLite support ---
+from constants import USE_NARROW
+if USE_NARROW:
+    try:
+        from sqlite_queries import (
+            check_narrow_available,
+            get_price_data as narrow_get_price_data,
+            get_price_data_wide as narrow_get_price_data_wide,
+            get_volume_data as narrow_get_volume_data,
+            get_all_tickers_list as narrow_get_all_tickers_list,
+            get_available_tickers as narrow_get_available_tickers,
+            get_futures_tickers as narrow_get_futures_tickers,
+            get_bond_tickers as narrow_get_bond_tickers,
+            get_metadata as narrow_get_metadata,
+            get_dashboard_prices as narrow_get_dashboard_prices,
+            get_volume_tickers as narrow_get_volume_tickers,
+        )
+        NARROW_AVAILABLE = check_narrow_available()
+    except ImportError:
+        NARROW_AVAILABLE = False
+else:
+    NARROW_AVAILABLE = False
+
 # --- Schema cache ---
 _schema_cache = {}
 _schema_cache_time = 0
 
 
 def get_table_columns(table_name, conn=None, force_refresh=False):
-    """Get column names for a table with caching."""
+    """Get column names for a table with caching.
+
+    When USE_NARROW is active and the table is stock_prices_daily,
+    returns ticker names from prices_long instead of PRAGMA columns.
+    """
     global _schema_cache, _schema_cache_time
+
+    # Narrow path: return tickers from narrow table instead of PRAGMA columns
+    if USE_NARROW and NARROW_AVAILABLE and table_name == 'stock_prices_daily':
+        cache_key = 'stock_prices_daily__narrow'
+        if cache_key in _schema_cache and not force_refresh and time.time() - _schema_cache_time <= SCHEMA_CACHE_TTL:
+            return _schema_cache[cache_key]
+        tickers = narrow_get_available_tickers()
+        tickers.add('Date')  # callers expect Date in the set
+        _schema_cache[cache_key] = tickers
+        _schema_cache_time = time.time()
+        logger.info(f"Cached narrow tickers for {table_name}: {len(tickers)} tickers")
+        return tickers
 
     # Check if cache needs refresh
     if force_refresh or time.time() - _schema_cache_time > SCHEMA_CACHE_TTL:
@@ -76,6 +115,10 @@ def get_table_columns(table_name, conn=None, force_refresh=False):
 def fetch_ticker_data(table_name, tickers, date_column='Date', value_columns=None, conn=None):
     """Fetch ticker data from any table with consistent interface.
 
+    When USE_NARROW is active and the table is stock_prices_daily,
+    delegates to sqlite_queries.get_price_data_wide() which reads
+    from prices_long and pivots to the same wide format.
+
     Args:
         table_name: Name of the table to query
         tickers: List of ticker symbols
@@ -86,13 +129,31 @@ def fetch_ticker_data(table_name, tickers, date_column='Date', value_columns=Non
     Returns:
         dict: {ticker: DataFrame} mapping
     """
+    if value_columns is None:
+        value_columns = tickers
+
+    # Narrow path: read from prices_long and pivot
+    if USE_NARROW and NARROW_AVAILABLE and table_name == 'stock_prices_daily':
+        result = {}
+        try:
+            start_time = time.time()
+            df = narrow_get_price_data_wide(value_columns)
+            query_time = time.time() - start_time
+            if query_time > 1.0:
+                logger.warning(f"Slow narrow query ({query_time:.2f}s): {len(value_columns)} tickers")
+            if not df.empty:
+                df.index = pd.to_datetime(df.index)
+                for ticker in value_columns:
+                    if ticker in df.columns:
+                        result[ticker] = df[[ticker]].dropna()
+        except Exception as e:
+            logger.error(f"Error fetching from narrow tables: {e}")
+        return result
+
     close_conn = False
     if conn is None:
         conn = get_db_connection()
         close_conn = True
-
-    if value_columns is None:
-        value_columns = tickers
 
     result = {}
     try:

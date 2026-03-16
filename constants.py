@@ -23,6 +23,9 @@ DEMO_MODE = os.environ.get('DEMO_MODE', '0') == '1'
 # DuckDB toggle - set USE_DUCKDB=1 environment variable to enable
 USE_DUCKDB = os.environ.get('USE_DUCKDB', '0') == '1'
 
+# Narrow-format SQLite toggle - set USE_NARROW=1 to read from prices_long/volumes_long
+USE_NARROW = os.environ.get('USE_NARROW', '0') == '1'
+
 # API Configuration
 DEFAULT_PORT = 5000
 CACHE_CONTROL_MAX_AGE = 0  # No caching for API responses

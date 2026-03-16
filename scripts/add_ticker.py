@@ -13,11 +13,20 @@ Usage:
 """
 
 import sys
+import os
 import sqlite3
 import yfinance as yf
 import pandas as pd
 import re
 from datetime import datetime
+
+# Narrow-format dual-write
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'charting_app'))
+try:
+    from sqlite_queries import sync_wide_to_narrow, check_narrow_available
+    NARROW_SYNC = check_narrow_available()
+except ImportError:
+    NARROW_SYNC = False
 
 
 def clean_company_name(name):
@@ -169,6 +178,13 @@ def add_tickers(tickers, database_path='market_data.db'):
         conn.commit()
 
         print("[OK] Price data updated")
+
+        # Sync to narrow-format table
+        if NARROW_SYNC:
+            try:
+                sync_wide_to_narrow(existing, table='prices_long', value_col='Close', verbose=True)
+            except Exception as e:
+                print(f"  [Narrow] Warning: sync failed: {e}")
 
     except Exception as e:
         print(f"Error updating price table: {e}")

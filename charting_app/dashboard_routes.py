@@ -16,9 +16,22 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from flask import Blueprint, jsonify, request, Response
 import pandas as pd
-from constants import (get_db_connection, WORKSPACE_FILENAME,
+from constants import (get_db_connection, USE_NARROW, WORKSPACE_FILENAME,
                       HTTP_OK, HTTP_BAD_REQUEST, HTTP_INTERNAL_ERROR)
 from helpers import basedir, get_table_columns, FRED_INDICATORS
+
+# Narrow-format support
+if USE_NARROW:
+    try:
+        from sqlite_queries import (
+            get_price_data_wide as narrow_get_price_data_wide,
+            check_narrow_available,
+        )
+        NARROW_AVAILABLE = check_narrow_available()
+    except ImportError:
+        NARROW_AVAILABLE = False
+else:
+    NARROW_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
 
@@ -160,7 +173,7 @@ def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
         except Exception as e:
             logger.warning(f"Could not load fundamentals: {e}")
 
-        # Get column names from stock_prices_daily
+        # Get column names from stock_prices_daily (or narrow tables)
         columns = get_table_columns('stock_prices_daily', conn)
         # Exclude FRED indicators - they go in the Macro Dashboard
         valid_tickers = [t for t in all_tickers if t in columns and t not in FRED_INDICATORS]
@@ -169,17 +182,29 @@ def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
             return []
 
         # Get latest prices and previous day prices for all tickers
-        ticker_cols = ', '.join([f'"{t}"' for t in valid_tickers])
-
-        # Get last 252 rows for calculating changes
-        query = f'''
-            SELECT Date, {ticker_cols}
-            FROM stock_prices_daily
-            ORDER BY Date DESC
-            LIMIT 252
-        '''
-        cursor.execute(query)
-        rows = cursor.fetchall()
+        if USE_NARROW and NARROW_AVAILABLE:
+            # Narrow path: read from prices_long, pivot to wide, convert to row tuples
+            wide_df = narrow_get_price_data_wide(valid_tickers)
+            if wide_df.empty:
+                return []
+            wide_df = wide_df.sort_index(ascending=False).head(252)
+            wide_df = wide_df.reset_index()
+            # Ensure columns match valid_tickers order
+            cols_order = ['Date'] + valid_tickers
+            for c in valid_tickers:
+                if c not in wide_df.columns:
+                    wide_df[c] = None
+            rows = [tuple(row) for row in wide_df[cols_order].values]
+        else:
+            ticker_cols = ', '.join([f'"{t}"' for t in valid_tickers])
+            query = f'''
+                SELECT Date, {ticker_cols}
+                FROM stock_prices_daily
+                ORDER BY Date DESC
+                LIMIT 252
+            '''
+            cursor.execute(query)
+            rows = cursor.fetchall()
 
         # Process price data
         result = []
@@ -541,15 +566,27 @@ def get_macro_dashboard():
         metadata = {row['ticker']: row['name'] for row in cursor.fetchall()}
 
         # Get price data
-        indicator_cols = ', '.join([f'"{t}"' for t in valid_indicators])
-        query = f'''
-            SELECT Date, {indicator_cols}
-            FROM stock_prices_daily
-            ORDER BY Date DESC
-            LIMIT 252
-        '''
-        cursor.execute(query)
-        rows = cursor.fetchall()
+        if USE_NARROW and NARROW_AVAILABLE:
+            wide_df = narrow_get_price_data_wide(valid_indicators)
+            if wide_df.empty:
+                conn.close()
+                return jsonify([])
+            wide_df = wide_df.sort_index(ascending=False).head(252).reset_index()
+            cols_order = ['Date'] + valid_indicators
+            for c in valid_indicators:
+                if c not in wide_df.columns:
+                    wide_df[c] = None
+            rows = [tuple(row) for row in wide_df[cols_order].values]
+        else:
+            indicator_cols = ', '.join([f'"{t}"' for t in valid_indicators])
+            query = f'''
+                SELECT Date, {indicator_cols}
+                FROM stock_prices_daily
+                ORDER BY Date DESC
+                LIMIT 252
+            '''
+            cursor.execute(query)
+            rows = cursor.fetchall()
 
         result = []
         for indicator in valid_indicators:
@@ -700,18 +737,22 @@ def dashboard_sparklines():
             conn.close()
             return jsonify({}), HTTP_OK
 
-        # Fetch data for all valid tickers in one query
-        # Use date() to normalize mixed date formats and filter nulls
-        cols_str = ', '.join([f'MAX("{t}") as "{t}"' for t in valid_tickers])
-        query = f"""
-            SELECT date(Date) as Date, {cols_str}
-            FROM stock_prices_daily
-            WHERE date(Date) >= ?
-            GROUP BY date(Date)
-            ORDER BY date(Date) ASC
-        """
-
-        df = pd.read_sql_query(query, conn, params=[cutoff_str], parse_dates=['Date'])
+        # Fetch data for all valid tickers
+        if USE_NARROW and NARROW_AVAILABLE:
+            df = narrow_get_price_data_wide(valid_tickers, start_date=cutoff_str)
+            if not df.empty:
+                df = df.reset_index()
+                df['Date'] = pd.to_datetime(df['Date'])
+        else:
+            cols_str = ', '.join([f'MAX("{t}") as "{t}"' for t in valid_tickers])
+            query = f"""
+                SELECT date(Date) as Date, {cols_str}
+                FROM stock_prices_daily
+                WHERE date(Date) >= ?
+                GROUP BY date(Date)
+                ORDER BY date(Date) ASC
+            """
+            df = pd.read_sql_query(query, conn, params=[cutoff_str], parse_dates=['Date'])
 
         if df.empty:
             conn.close()

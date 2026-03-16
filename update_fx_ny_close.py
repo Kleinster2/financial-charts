@@ -5,12 +5,22 @@ This script downloads hourly FX data and extracts the 21:00 UTC (4pm EST) close 
 which aligns with the NY stock market close time for proper comparison.
 """
 
+import os
+import sys
 import yfinance as yf
 import pandas as pd
 import sqlite3
 from datetime import datetime, timedelta
 import pytz
 from constants import DB_PATH
+
+# Narrow-format dual-write
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'charting_app'))
+try:
+    from sqlite_queries import sync_wide_to_narrow, check_narrow_available
+    NARROW_SYNC = check_narrow_available()
+except ImportError:
+    NARROW_SYNC = False
 
 
 def get_fx_tickers_from_db(db_path=None, include_crypto=True):
@@ -186,6 +196,14 @@ def update_database(fx_df, db_path=None, verbose=True):
         pass
     existing.to_sql('stock_prices_daily', conn, if_exists='replace', index=True)
     conn.close()
+
+    # Sync to narrow-format table
+    if NARROW_SYNC:
+        try:
+            sync_wide_to_narrow(existing, table='prices_long', value_col='Close', verbose=verbose)
+        except Exception as e:
+            if verbose:
+                print(f"  [Narrow] Warning: sync failed: {e}")
 
     if verbose:
         print(f"Updated {updated_count} FX values in database")
