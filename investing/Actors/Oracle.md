@@ -149,6 +149,8 @@ Connection to Ellison IP thesis: The same [[ByteDance]] whose [[Seedance]] 2.0 g
 |------|-------|-------|
 | [[Larry Ellison]] | Co-founder, CTO, Executive Chairman | Owns ~41% of shares. 80+. Drives AI infrastructure strategy, nuclear DC permits, personal relationships with [[Elon Musk]] and Stargate JV partners. Backing son [[David Ellison]]'s $108B bid for [[Warner Bros Discovery]] |
 | [[Safra Catz]] | CEO | CEO since 2014 (co-CEO with Mark Hurd until Hurd's death Oct 2019, sole CEO since). Former investment banker ([[Donaldson, Lufkin & Jenrette]]). Runs finance, operations, M&A execution. Oversaw Cerner integration, $57B debt issuance |
+| [[Clay Magouyrk]] | Co-CEO | Runs OCI. Led Nashville all-hands post-Q3 FY26 earnings alongside Sicilia |
+| [[Mike Sicilia]] | Co-CEO | Led Nashville all-hands post-Q3 FY26 earnings alongside Magouyrk |
 | Mark Hurd | Former co-CEO | Died October 2019. Previously CEO of [[HP]]. Ran sales and go-to-market 2014-2019 |
 
 ---
@@ -207,19 +209,34 @@ Bear case:
 
 ---
 
-## Reported layoffs (Feb 2026)
+## Restructuring and AI-driven workforce reduction
 
-Oracle reportedly planning 20,000-30,000 layoffs to fund AI data center expansion.
+Oracle is systematically cutting headcount to fund AI infrastructure and claims AI coding tools justify smaller teams. The restructuring has accelerated across FY2026.
 
-| Detail | Value |
+### Restructuring charges (SEC filing, Mar 11, 2026)
+
+| Metric | Value |
 |--------|-------|
-| Layoff range | 20K-30K employees |
-| Rationale | Fund AI DC expansion |
-| Status | Reported, not confirmed |
+| Additional restructuring provision | $500M (Q3 FY26 filing) |
+| Total restructuring funds (FY26) | $2.1B |
+| Used to date | ~$982M (largely severance) |
+| Remaining for cuts by May 31 | ~$1.1B |
 
-Context: Part of broader AI infrastructure pivot — redirecting headcount costs to capex.
+$2.1B is significantly higher than prior fiscal years. [[RBC Capital]] analyst [[Rishi Jaluria]] (Mar 11): *"You don't increase the scope of your restructuring plan by $500mn for the coming quarter without planning to reduce headcount."*
 
-*Source: Media reports, Feb 2026*
+### Timeline
+
+- Aug-Sep 2025: 3,000+ employees laid off across US, Canada, India. Eliminated "whole middle management layer in sales and marketing."
+- Feb 2026: [[TD Cowen]] analysts reported Oracle exploring plans to shed up to 30,000 employees and sell some business units to finance AI investment.
+- Mar 10, 2026 (Q3 earnings statement): Oracle told investors AI coding tools were "enabling us to build more software in less time with fewer people."
+- Mar 11, 2026 (Nashville all-hands): Co-CEOs [[Clay Magouyrk]] and [[Mike Sicilia]] gave upbeat presentation — no mention of layoff plans. Packed room in Nashville offices (soon to become HQ). But told staff AI could automate many coding functions and mock up products faster.
+- Post all-hands: Staff nervous about redundancies within two weeks. Employees in legacy and support operations outside core cloud business feel most exposed.
+
+### Framing
+
+Oracle is the most explicit major tech company in framing layoffs as a direct consequence of AI efficiency gains. The earnings statement language — "fewer people" — goes further than most peers, who typically frame AI as augmenting existing workers. The $1.1B remaining restructuring reserve suggests a second wave at least as large as the Aug-Sep 2025 cuts (3,000+).
+
+*Sources: FT (Mar 11, 2026), TD Cowen (Feb 2026), SEC filing (Mar 11, 2026), Bloomberg*
 
 ---
 
@@ -424,7 +441,7 @@ Competitive wins over [[Workday]] and [[SAP]]: Memorial Hermann Health, Universi
 
 ## Debt profile
 
-~$133B pro forma face value (Feb 2026) — largest non-financial IG issuer. Rated BBB/Baa2 with negative outlooks (two notches above junk). $57B issued in 18 months (Sep 2024-Feb 2026) for AI infrastructure. Cash-flow negative at operating/capex level. See [[Oracle bonds]] for full inventory.
+~$133B pro forma face value (Feb 2026) — largest non-financial IG issuer. ~$143B including operating leases (after $25B bond sale in Feb 2026). Rated BBB/Baa2 with negative outlooks (two notches above junk). $57B issued in 18 months (Sep 2024-Feb 2026) for AI infrastructure. Cash-flow negative at operating/capex level. See [[Oracle bonds]] for full inventory.
 
 ---
 

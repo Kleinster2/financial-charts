@@ -98,6 +98,9 @@ All figures deleveraged. Leverage ramp-up: 0.78x at launch → 1.71x at 1 year. 
 ![[allw-vs-rpar-price-chart.png]]
 *ALLW vs RPAR normalized since inception (March 2025). RPAR's heavier commodity allocation (~27% vs 8.5%) drove outperformance through the Iran conflict commodity spike. Both sold off in March 2026 as bonds and equities fell together.*
 
+![[allw-vs-spy-tlt-tip-gld-price-chart.png]]
+*ALLW vs its four component proxies: [[SPY]] (equities), [[TLT]] (nominal bonds), [[TIP]] (TIPS), [[GLD]] (gold/commodities). GLD (+80%) is the runaway performer but ALLW allocates only 8.5% to commodities. The fund tracks SPY (+22%) most closely, confirming equities dominate risk contribution at 40%. TLT (-2%) is a drag; TIP (+6.5%) provides modest inflation linkage. ALLW at +18% is effectively diluted SPY with bond ballast — the "all weather" diversification benefit is muted by the commodity underweight.*
+
 ---
 
 ## Peer comparison

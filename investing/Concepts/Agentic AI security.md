@@ -135,10 +135,35 @@ Security tooling for agentic AI is an emerging category with real M&A activity:
 | Monitoring | Agent observability, anomaly detection | Emerging |
 | Sandboxing | Isolated execution environments | Emerging |
 | Supply chain | Plugin/skill verification | Emerging |
+| Offensive testing | AI agent-driven pentesting | [[CodeWall]] (one-person firm), [[Promptfoo]] (acquired by [[OpenAI]]) |
 
-[[Check Point]]'s acquisition of [[Cyata]] is the first major M&A signal that agentic identity governance is a real enterprise need, not just a research concern.
+[[Check Point]]'s acquisition of [[Cyata]] is the first major M&A signal that agentic identity governance is a real enterprise need, not just a research concern. The [[McKinsey]] Lilli breach (Feb 2026) validates the category from the other direction — a one-person firm's AI agent breached the world's largest consultancy's AI platform in 2 hours.
 
 See [[Cloudflare agentic infrastructure]] for picks-and-shovels thesis.
+
+---
+
+## Case Study: McKinsey Lilli Breach (Feb 2026)
+
+[[CodeWall]], a one-person cybersecurity firm (founder Paul Price), used its own AI agent to breach [[McKinsey]]'s internal AI platform Lilli — used by all 40,000 staff for strategy, data analysis, and client work.
+
+**Timeline:** AI agent gained full read/write access to Lilli's entire production database within 2 hours. McKinsey security alerted end of February, patched within hours, development environment taken offline.
+
+**Scope exposed:**
+- 46.5M chat messages
+- 57,000 user accounts, 384,000 AI assistants, 94,000 workspaces
+- 728,000 "sensitive" file names (Excel, PowerPoint, Word)
+- System prompts and AI model configurations — guardrails laid bare
+
+McKinsey says files were stored separately and "never at risk." Third-party forensics found "no evidence" of client data compromise.
+
+**What makes this notable:**
+1. **AI agent attacking AI system.** CodeWall's agent autonomously selected McKinsey as a target, probed Lilli, and self-reported when it found the vulnerabilities. CodeWall: "AI agents autonomously selecting and attacking targets will become the new normal."
+2. **Enterprise scale.** This isn't an open-source hobby project — it's the largest consulting firm in the world, with 40% of revenue from AI consulting. If McKinsey can't secure its own AI platform, the enterprise AI security gap is real.
+3. **System prompt exposure.** Access to Lilli's model configurations and guardrails reveals the firm's entire AI behavioral architecture. For competitors, this is intelligence gold.
+4. **Single-point-of-failure pattern.** One vulnerability in the AI platform = access to the entire organizational knowledge base (46.5M messages spanning client strategy work).
+
+Source: FT (Mar 12, 2026) — Ellesheva Kissin and Stephen Foley.
 
 ---
 
@@ -148,6 +173,7 @@ See [[Cloudflare agentic infrastructure]] for picks-and-shovels thesis.
 2. Will enterprise security requirements kill consumer agent adoption?
 3. Who builds the "App Store for agent skills" with real security review?
 4. Does agent security become a moat for incumbents (Google, Microsoft) vs open-source?
+5. If autonomous AI agents can breach enterprise AI platforms in hours, does the offense-defense asymmetry make enterprise AI deployment fundamentally harder to insure?
 
 ---
 
@@ -161,6 +187,14 @@ See [[Cloudflare agentic infrastructure]] for picks-and-shovels thesis.
 - [[Cyata]] — First agentic identity startup acquired ([[Check Point]], Feb 2026)
 - [[Check Point]] — Acquirer, entering agentic security via M&A
 - [[CyberTech Global Tel Aviv 2026]] — Conference context
+- [[McKinsey]] — Lilli breach (Feb 2026), enterprise AI security failure
+- [[CodeWall]] — AI agent that autonomously breached Lilli
+
+### Concepts
+- [[Enterprise AI knowledge centralization]] — the concentration risk that creates the attack surface
+
+### Events
+- [[Clawdbot viral growth]] — Case study in open-source agent security failures
 
 ---
 
