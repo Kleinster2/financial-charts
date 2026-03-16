@@ -114,12 +114,6 @@ Three insights the aggregate "86% decline" headline misses:
 
 3. **Mar 8 outbound spike** (~45 vessels, ~25 Iranian-flagged) suggests a coordinated convoy or fleet movement — possibly Iranian tankers making a push to get crude out. Reversed immediately, back to ~5-10/day by Mar 12-13.
 
-### Impact beyond oil
-
-~25% of global LNG transits Hormuz. European gas prices surged +23% on March 2, then **+54%** by March 7 after [[QatarEnergy]] declared force majeure and shut [[Ras Laffan]] — the world's largest LNG terminal. TTF (Dutch gas benchmark) spiked from ~$10.72 to $16.65 in under 10 days. UK gas prices surged **50% in a single day** on Mar 2 — biggest move since Russia's Ukraine invasion.
-
-~4M tons/day of LPG and naphtha to Asian petrochemical sectors ([[Japan]], [[South Korea]], [[China]]) at risk — not easily replaceable. [[FGE]]'s Iman Nasseri: "Gas and LNG perhaps is not as easily replaceable if the situation prolongs." Asian petrochemical plants may shut in if disruption continues.
-
 ### Hormuz dependency — not just oil
 
 | Commodity | % of global supply transiting Hormuz |
@@ -129,24 +123,7 @@ Three insights the aggregate "86% decline" headline misses:
 | Crude oil | ~20%+ |
 | Petrochemicals / pharma inputs | Significant (unquantified) |
 
-**Pipeline bypass — quantified (MEI briefing, Mar 8):**
-
-| Pipeline | Capacity | Effective limit | Current use | Constraint |
-|----------|----------|-----------------|-------------|------------|
-| [[Saudi Aramco\|Saudi]] East-West (Petroline) to [[Yanbu]] | 5-7 mb/d | **~3 mb/d** | 1.9 mb/d | Yanbu port loading infrastructure |
-| [[UAE]] Habshan-[[Fujairah]] | **400k bpd** | Minimal | Near zero | Tankers reluctant after Fujairah attacks |
-
-Even maxing Yanbu adds only ~1.1 mb/d incremental — a fraction of 15+ mb/d normally transiting Hormuz. Bab el-Mandeb Strait already disrupted by Houthi attacks. Cape of Good Hope adds weeks but **no alternative exists for Hormuz-dependent LNG flows**. [[Iraq]] shut down Rumaila — the world's largest oilfield — on Mar 4 after storage tanks reached critical levels. Iraq has now shut in **>1.5 mb/d** total, [[Kuwait]] following. If Gulf shutins reach 9 mb/d = >10% of global supply offline. Wells may not restart cleanly — reservoir damage and water intrusion risk permanent production impairment.
-
-### IEA/OPEC response
-
-Market expecting emergency stock release from OECD countries. [[Japan]], [[South Korea]], Thailand implementing export restrictions and inventory draws. [[OPEC|OPEC+]] only unwinding 206K bbl/day — inadequate given scale of disruption. [[FGE]] assessment: both OPEC and OECD can bring supply if prices reflect the pressure, but LNG has no easy cure.
-
-### US government response (Mar 7)
-
-Trump administration announced a plan to offer insurance to ships crossing the strait — had little effect on markets. Trump signaling "unconditional surrender" of Iran, ruling out negotiations. No SPR release announced.
-
-The most significant oil supply disruption since the 1973 Arab oil embargo. See [[2026 Iran conflict market impact]].
+For pipeline bypass options, production shutins, IEA/OPEC response, and US government measures, see [[Iran conflict economic disruption]]. For market impact and oil price action, see [[2026 Iran conflict market impact]].
 
 ---
 
@@ -161,7 +138,10 @@ The most significant oil supply disruption since the 1973 Arab oil embargo. See 
 - [[LNG]] — 25% of global LNG transits Hormuz
 - [[QatarEnergy]] — Ras Laffan shutdown, force majeure
 - [[Kpler]] — traffic analysis
+- [[Shadow fleet]] — Iran-to-China oil transit mechanism
+- [[Iran conflict economic disruption]] — energy disruption deep dive
+- [[China]] — sole buyer of wartime Iranian crude
 
 ---
 
-*Updated 2026-03-08*
+*Updated 2026-03-15*
