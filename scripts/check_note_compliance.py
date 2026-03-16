@@ -32,10 +32,18 @@ class Issue(NamedTuple):
 
 
 class NoteChecker:
+    # Cross-vault directories to check for matching notes
+    CROSS_VAULTS = {
+        "geopolitics": Path("C:/Users/klein/obsidian/geopolitics"),
+        "technologies": Path("C:/Users/klein/obsidian/technologies"),
+        "history": Path("C:/Users/klein/obsidian/history"),
+    }
+
     def __init__(self, vault_root: Path, suggest_links: bool = False):
         self.vault_root = vault_root
         self.suggest_links = suggest_links
         self.existing_notes = self._index_existing_notes()
+        self.cross_vault_index = self._index_cross_vaults()
 
     @staticmethod
     def _has_tag(content: str, tag: str) -> bool:
@@ -88,6 +96,143 @@ class NoteChecker:
             notes.add(md_file.stem)
         return notes
 
+    def _index_cross_vaults(self) -> dict[str, list[tuple[str, str, str]]]:
+        """Index notes in cross-vaults by name and aliases.
+
+        Returns dict mapping lowercased name/alias -> list of (vault_name, note_stem, relative_path).
+        Only indexes vaults that exist on disk.
+        """
+        index: dict[str, list[tuple[str, str, str]]] = {}
+
+        for vault_name, vault_path in self.CROSS_VAULTS.items():
+            if not vault_path.exists():
+                continue
+            for md_file in vault_path.rglob("*.md"):
+                # Skip changelog, daily, templates, meta
+                rel = str(md_file.relative_to(vault_path))
+                skip_dirs = ("Daily", "Meta", "Templates", "templates", ".obsidian")
+                if any(rel.startswith(d) for d in skip_dirs):
+                    continue
+                if md_file.stem.startswith("."):
+                    continue
+
+                stem = md_file.stem
+                rel_path = rel.replace("\\", "/").replace(".md", "")
+
+                # Index by filename
+                key = stem.lower()
+                if key not in index:
+                    index[key] = []
+                index[key].append((vault_name, stem, rel_path))
+
+                # Index by aliases from frontmatter
+                try:
+                    content = md_file.read_text(encoding="utf-8", errors="ignore")
+                except (OSError, UnicodeDecodeError):
+                    continue
+
+                if content.startswith("---"):
+                    end = content.find("---", 3)
+                    if end != -1:
+                        fm = content[3:end]
+                        # Inline: aliases: [A, B, C]
+                        inline = re.search(r'^aliases:\s*\[([^\]]*)\]', fm, re.MULTILINE)
+                        if inline:
+                            for alias in inline.group(1).split(","):
+                                alias = alias.strip().strip('"').strip("'")
+                                if alias:
+                                    akey = alias.lower()
+                                    if akey not in index:
+                                        index[akey] = []
+                                    index[akey].append((vault_name, stem, rel_path))
+                        # Block: aliases:\n  - A\n  - B
+                        block = re.search(r'^aliases:\s*\n((?:\s+-\s+.+\n?)+)', fm, re.MULTILINE)
+                        if block:
+                            for alias in re.findall(r'^\s+-\s+(.+?)$', block.group(1), re.MULTILINE):
+                                alias = alias.strip().strip('"').strip("'")
+                                if alias:
+                                    akey = alias.lower()
+                                    if akey not in index:
+                                        index[akey] = []
+                                    index[akey].append((vault_name, stem, rel_path))
+
+        return index
+
+    # Cross-vault files to ignore (config files, not real counterparts)
+    CROSS_VAULT_IGNORE = {"claude", "home", "edit-log", "vault-architecture", "changelog"}
+
+    def _check_cross_vault_links(self, content: str, filepath: Path) -> list[Issue]:
+        """Check if this note has a counterpart in another vault without a cross-vault link.
+
+        Filtering rules to avoid false positives:
+        - Config files (CLAUDE.md etc.) are skipped via CROSS_VAULT_IGNORE.
+        - Alias-only matches (where the investing note's stem didn't match the
+          cross-vault key) require that the investing note stem matches the
+          cross-vault note stem. This prevents alias collisions like
+          StoneCo→"Stone" matching technologies/Stone (raw material), or
+          Gap→"GPS" matching technologies/GPS.
+        """
+        issues = []
+        note_name = filepath.stem.lower()
+
+        # Also check aliases of this note
+        aliases = set()
+        if content.startswith("---"):
+            end = content.find("---", 3)
+            if end != -1:
+                fm = content[3:end]
+                inline = re.search(r'^aliases:\s*\[([^\]]*)\]', fm, re.MULTILINE)
+                if inline:
+                    for alias in inline.group(1).split(","):
+                        alias = alias.strip().strip('"').strip("'")
+                        if alias:
+                            aliases.add(alias.lower())
+                block = re.search(r'^aliases:\s*\n((?:\s+-\s+.+\n?)+)', fm, re.MULTILINE)
+                if block:
+                    for alias in re.findall(r'^\s+-\s+(.+?)$', block.group(1), re.MULTILINE):
+                        alias = alias.strip().strip('"').strip("'")
+                        if alias:
+                            aliases.add(alias.lower())
+
+        names_to_check = {note_name} | aliases
+
+        # Find matches in cross-vaults, tracking whether match was via stem
+        matches = {}  # vault_name -> (note_stem, rel_path, matched_via_stem)
+        for name in names_to_check:
+            if name in self.CROSS_VAULT_IGNORE:
+                continue
+            if name in self.cross_vault_index:
+                for vault_name, stem, rel_path in self.cross_vault_index[name]:
+                    if stem.lower() in self.CROSS_VAULT_IGNORE:
+                        continue
+                    is_stem_match = (name == note_name)
+                    if vault_name not in matches:
+                        matches[vault_name] = (stem, rel_path, is_stem_match)
+                    elif is_stem_match and not matches[vault_name][2]:
+                        # Upgrade alias match to stem match
+                        matches[vault_name] = (stem, rel_path, True)
+
+        if not matches:
+            return issues
+
+        # Check if content already has cross-vault links for each matched vault
+        for vault_name, (stem, rel_path, via_stem) in matches.items():
+            # For alias-only matches, require stems to refer to the same entity
+            if not via_stem and note_name != stem.lower():
+                continue
+
+            uri_pattern = f"obsidian://open?vault={re.escape(vault_name)}"
+            if uri_pattern not in content:
+                encoded_path = rel_path.replace(" ", "%20").replace("/", "%2F")
+                uri = f"obsidian://open?vault={vault_name}&file={encoded_path}"
+                issues.append(Issue(
+                    "warning", "cross-vault",
+                    f"Counterpart exists in {vault_name} vault: \"{stem}\" — "
+                    f"consider adding: [{vault_name.title()}: {stem}]({uri})"
+                ))
+
+        return issues
+
     def check_note(self, filepath: Path) -> list[Issue]:
         """Check a single note for compliance issues."""
         issues = []
@@ -101,6 +246,7 @@ class NoteChecker:
         # Universal checks (all note types)
         issues.extend(self._check_bold_formatting(content, filepath))
         issues.extend(self._check_dead_links(content, filepath))
+        issues.extend(self._check_cross_vault_links(content, filepath))
         if note_type in ("actor", "etf", "benchmark", "concept", "event", "thesis"):
             issues.extend(self._check_missing_links(content, filepath))
 
