@@ -136,6 +136,8 @@ Both [[Kalshi]] and [[Polymarket]] began offering 15-minute "up-down" bets on [[
 
 **Margin trading:** [[Kalshi]] is seeking US regulatory approval to allow margin trading on its platform, though no current plans for leveraged 15-minute crypto contracts specifically. Source: FT (Mar 13, 2026).
 
+See [[Ultra-short-term contracts]] for the full analytical framework — the three-party extraction structure (platforms, HFT, retail), the [[0DTE options]] parallel, and why these instruments have no informational or hedging utility at their actual durations.
+
 ---
 
 ## Risks and critiques
@@ -175,6 +177,7 @@ Regulatory jurisdiction unresolved: SPA (sports betting regulator under [[Lei da
 - [[CFTC]] — federal regulator
 - [[Michael Selig]] — CFTC chairman driving rulemaking
 - [[Crypto]] — blockchain infrastructure for Polymarket
+- [[Ultra-short-term contracts]] — 5/15-minute crypto bets, 0DTE parallel, three-party extraction framework
 - [[Derivatives]] — prediction markets are a form of derivative
 - [[Brazil]] — emerging prediction markets jurisdiction (2026)
 - [[Lei das Bets]] — Brazilian sports betting law, regulatory overlap
