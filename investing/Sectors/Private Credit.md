@@ -280,6 +280,8 @@ The biggest emerging risk — software/tech is now the largest sector concentrat
 
 **Key gap:** No widespread moves to regulate like deposit-taking banks. Governments see private credit as absorbing risk inappropriate for banks.
 
+**Basel III Endgame (Mar 12, 2026):** [[Michelle Bowman]] announced final US framework — net *decrease* in capital requirements for big banks. Explicitly framed as correcting rules that "push activity into the less-regulated nonbank sector." The deregulatory intent is to re-arm banks to compete with private credit for lending market share. [[Bank of England]] and EU delayed their own Basel reforms pending US approach; lenient US outcome likely to trigger similar easing in Europe. See [[Basel III]].
+
 ---
 
 ## Recession resilience — unknown
@@ -337,7 +339,7 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 - Covenant-lite erosion removes early warning tools
 - Opacity masks real losses until too late
 - Regulatory crackdown could constrain fundraising
-- Banks re-entering the market (JPMorgan, Goldman, SocGen)
+- Banks re-entering the market (JPMorgan, Goldman, SocGen) — **accelerated by Basel III Endgame** (Mar 2026): lower capital requirements free banks to lend more aggressively
 - "Slow burn" risk — losses hidden in insurer balance sheets and disappointed savers (Phalippou)
 
 ---

@@ -78,6 +78,10 @@ aliases: [Bowman, Miki Bowman]
 - International spillover: [[Bank of England]] and EU delayed their own reforms pending US approach; lenient outcome likely to intensify European bank lobbying for similar easing
 - Full regulatory details expected the following week. Source: FT (Mar 12, 2026)
 
+**Prior deregulatory actions (2025):**
+- Made Fed annual stress test more transparent
+- Eased leverage ratio rules
+
 ---
 
 *Created 2026-01-17*
@@ -92,3 +96,5 @@ aliases: [Bowman, Miki Bowman]
 - [[Kevin Hassett]] — rival candidate
 - [[Chris Waller]] — rival candidate
 - [[Fed independence]] — policy context
+- [[Basel III]] — announced Endgame framework (Mar 2026)
+- [[Michael Barr]] — predecessor as Vice Chair for Supervision
