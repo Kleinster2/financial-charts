@@ -123,6 +123,10 @@ Three insights the aggregate "86% decline" headline misses:
 | Crude oil | ~20%+ |
 | Petrochemicals / pharma inputs | Significant (unquantified) |
 
+### Kharg Island strike — oil infrastructure explicitly spared (Mar 15)
+
+US bombed military targets on [[Kharg Island]] (air defenses, naval base, airport) but Trump explicitly stated he "chose NOT to wipe out the oil infrastructure." Threatened to "immediately reconsider" if Iran interferes with Hormuz passage. Market-relevant: Iran's ~90% crude export capacity remains intact. This preserves the Iran-to-China flow channel — destroying Kharg would have eliminated Iran's incentive to keep Hormuz partially open. Also called on [[China]], [[France]], [[Japan]], [[South Korea]], and [[UK]] to send warships to help reopen the strait — an admission the US cannot do it alone.
+
 For pipeline bypass options, production shutins, IEA/OPEC response, and US government measures, see [[Iran conflict economic disruption]]. For market impact and oil price action, see [[2026 Iran conflict market impact]].
 
 ---

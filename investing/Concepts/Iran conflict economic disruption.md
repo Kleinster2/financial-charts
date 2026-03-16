@@ -552,6 +552,28 @@ Raj Patel (LBJ School of Public Affairs): higher fuel and power costs push up fo
 
 ---
 
+## US policy response — Heritage wargame scorecard (March 15)
+
+A 2007 Heritage Foundation wargame predicted this exact scenario and recommended a mitigation package. Bill Beach (former BLS commissioner, who ran the numbers): *"We've been stuck in this Groundhog Day with Iran for the past 20 years."*
+
+| Recommendation (2007) | Status (March 15, 2026) | Market assessment |
+|---|---|---|
+| Deploy forces for freedom of navigation | ❌ Failing — 22+ vessels attacked, no escort ops, Navy decommissioned minesweepers in Jan 2026 | Blockade persists; no credible reopening timeline |
+| Release SPR | ✅ Done — 172M bbl of 400M IEA total | But SPR only half-full (415M of 714M capacity); one more release at most |
+| Emergency defense appropriation ($30B) | ❌ Not proposed | |
+| Relax energy regulations | ❌ Not done | |
+| Consumer energy assistance (LIHEAP) | ❌ Not done | |
+
+The wargame modeled that implementing all five measures would neutralize most unemployment impact and keep GDP and disposable income at non-crisis rates. Implementing only the SPR release addresses price, not the physical blockade.
+
+CNN (March 12): Pentagon and NSC **significantly underestimated Iran's willingness to close Hormuz**. The Venezuela operation's quick success may have created overconfidence.
+
+Robin Mills (Qamar Energy, The National, March 15): the US response is "becoming a farce" — decommissioning minesweepers weeks before the war, dispatching drones and Marines 2 weeks late, calling on adversaries ([[China]]) to send warships. Contrast with Gulf states who had bypass pipelines activated and strategic stocks protected.
+
+*Sources: Washington Examiner (March 12), CNN (March 12), The National (March 15)*
+
+---
+
 ## Watch for
 
 Second-order effects not yet tracked in the vault. Check these during each news ingestion session.
