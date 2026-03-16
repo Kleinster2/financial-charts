@@ -114,6 +114,44 @@ Biggest chip ever made.
 
 ---
 
+## GPT-5.3-Codex-Spark: first non-NVIDIA GPT model (Feb 2026)
+
+The OpenAI deal's first concrete output — and a landmark for the inference market:
+
+| Detail | Value |
+|--------|-------|
+| Model | GPT-5.3-Codex-Spark |
+| Hardware | Cerebras Wafer Scale Engine 3 |
+| Speed | **1,000+ tokens/sec** |
+| Benchmark | 77.3% on Terminal-Bench 2.0 (vs 64% for GPT-5.2-Codex) |
+| Context | 128K, text-only |
+| Availability | ChatGPT Pro, Codex app/CLI/VS Code |
+| Significance | **OpenAI's first GPT model that does not run on [[NVIDIA]]** |
+
+The model is optimized for real-time code editing — developers get immediate feedback on targeted edits to code, logic, or interfaces. Complements long-running frontier models (which work autonomously for hours/days) with a latency-first tier for interactive work.
+
+**Infrastructure integration:** Cerebras's low-latency path was integrated into OpenAI's production serving stack alongside GPU infrastructure. OpenAI's framing: GPUs remain fundamental for training and broad inference; Cerebras excels where extremely low latency matters. Not a replacement — a dedicated tier.
+
+**Latency improvements shipped alongside Codex-Spark:**
+- WebSocket connection reduced per-roundtrip overhead by 80%
+- Per-token overhead down 30%
+- Time-to-first-token cut in half
+- WebSocket path default for Codex-Spark, rolling out to all models
+
+*Source: [Techzine](https://www.techzine.eu/news/analytics/138754/openai-swaps-nvidia-for-cerebras-with-gpt-5-3-codex-spark/) (Feb 2026), [Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-lauches-gpt-53-codes-spark-on-cerebras-chips) (Feb 2026)*
+
+---
+
+## Andrew Feldman vs NVIDIA (Mar 2026)
+
+Cerebras CEO has been publicly attacking [[NVIDIA]]'s inference position on LinkedIn for months:
+
+Core argument: [[CUDA moat|CUDA]] is only needed for training, not inference. As the industry shifts to inference-dominant workloads, NVIDIA's software lock-in dissolves. The mental moat that kept enterprises on GPUs doesn't apply when the workload is fundamentally different.
+
+This is aggressive positioning ahead of GTC, where NVIDIA plans to unveil its [[Groq]]-based inference platform — a direct competitive response to Cerebras's OpenAI wins.
+
+---
+
 ## IPO filing
 
 **Filed September 2024:**

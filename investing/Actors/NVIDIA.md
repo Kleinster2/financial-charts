@@ -606,6 +606,47 @@ Stock reaction (Feb 3): Modest; market treating as manageable. Inference is smal
 
 ---
 
+## The inference crisis (March 2026)
+
+WSJ framing on the eve of GTC 2026: NVIDIA built its empire on training, but the AI industry has "definitively moved into a new phase" where inference — running models and generating profit from end-users — is what matters. For the first time, GTC won't be squarely about GPUs.
+
+**The core problem:** Grace Blackwell servers consume huge amounts of energy and don't come with enough memory to efficiently serve AI queries. The chips spend disproportionate time retrieving data from external memory rather than computing. This is structurally fine for training (big parallel batch jobs) but inefficient for inference (billions of small, latency-sensitive queries).
+
+**Jensen's own framing:** "The inflection we're seeing sat in plain sight for quite a long time — it's basically the ability for AI to use files, access files and use tools." [[Agentic AI]] relies almost entirely on inference, and coding agents ([[Codex]], [[Claude Code]]) produce thousands of times more inference tokens than the chatbot era.
+
+"Inference equals revenues now for our customers, because agents are generating so many tokens and the results are so effective. We need to inference at a much higher speed, and when you're inferencing at a much higher speed, and each one of those tokens are dollarized, it directly translates into revenues."
+
+**The competitive landscape:**
+
+| Competitor | Approach |
+|------------|----------|
+| [[Cerebras]] | WSE-3 wafer-scale, OpenAI $10B+ deal, ships GPT-5.3-Codex-Spark |
+| [[Google]] | TPU inference, targeting 10% of NVIDIA's business |
+| [[Amazon]] | Trainium, custom inference silicon |
+| [[SambaNova]] | New chip + $350M funding + Intel partnership |
+| [[Meta]] | Deployed first CPU-only system (Vera, no GPU) for ad-targeting agents |
+
+**Paul Kedrosky (MIT/VC):** "NVIDIA is in a weird moment. For a long time, Jensen was saying, 'We don't need to have dedicated, stand-alone inference chips, you can just throw a Blackwell at it.' But that ship has sailed, and there's a host of new competitors."
+
+**Margin compression thesis:** Kedrosky argues NVIDIA's 73% gross margins will compress because: (1) inference economics demand efficiency — hardware can't be too pricey or the companies selling AI won't make money, and (2) more competitors have figured out cheaper inference chips. "NVIDIA became the first $4T company selling the silicon equivalent of fast, powerful and expensive Ferrari sports cars, but now the world wants Priuses and Model Ys."
+
+**[[Cerebras]] CEO Andrew Feldman's argument:** CUDA is only needed for training, not inference — so NVIDIA's software lock-in dissolves as the industry shifts to inference-dominant workloads.
+
+**[[Bank of America]] estimate:** AI data center market hits ~$1.2T by 2030, with inference accounting for 75% of spending (vs ~50% in 2025).
+
+**NVIDIA's response — the portfolio pivot:**
+- GPUs for training (unchanged)
+- [[Groq]] LPU integration for dedicated inference (GTC 2026 unveil)
+- Vera CPUs for lightweight agentic workloads
+- $30B investment in [[OpenAI]] to lock in the customer
+- No longer defending "GPUs do everything"
+
+This is the defining strategic challenge: can NVIDIA extend its dominance into inference, or does the shift create space for an entirely new competitive landscape?
+
+*Source: [WSJ](https://www.wsj.com/tech/ai/nvidia-plans-new-chip-to-speed-ai-processing-shake-up-computing-market-51c9b86e) (Mar 16, 2026), [SiliconANGLE](https://siliconangle.com/2026/03/01/report-nvidia-working-top-secret-ai-inference-chip-debut-next-month/) (Mar 1, 2026)*
+
+---
+
 ## Recent developments (Dec 2025)
 
 Groq acquisition details:
