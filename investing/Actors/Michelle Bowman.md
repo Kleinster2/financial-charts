@@ -67,6 +67,17 @@ aliases: [Bowman, Miki Bowman]
 - Announced 30% staff cuts in supervision division
 - Deregulatory approach to bank oversight
 
+**Basel III Endgame announcement (Mar 12, 2026):**
+- Announced final framework for US adoption of [[Basel III]] Endgame rules
+- Net effect: "decrease the requirements by a small amount" for biggest US banks ([[JPMorgan]], [[Bank of America]], [[Citigroup]], [[Goldman Sachs]], [[Morgan Stanley]])
+- [[G-SIB]] surcharge buffer reduced by lowering short-term funding component and adjusting for inflation/growth
+- Basel adoption itself produces "small increase" but offset by surcharge reform — net decrease
+- Smaller banks get "slightly larger reductions" than Wall Street peers
+- Represents a victory for Wall Street lobbying after 2023 proposal would have raised requirements 19%
+- Framed as eliminating "overlapping requirements" and right-sizing "calibrations to match actual risk"
+- International spillover: [[Bank of England]] and EU delayed their own reforms pending US approach; lenient outcome likely to intensify European bank lobbying for similar easing
+- Full regulatory details expected the following week. Source: FT (Mar 12, 2026)
+
 ---
 
 *Created 2026-01-17*

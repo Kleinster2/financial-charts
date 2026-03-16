@@ -97,6 +97,23 @@ Media started displaying Polymarket probabilities alongside polls. CNN, Bloomber
 
 ---
 
+## Ultra-short-term crypto contracts (2025-2026)
+
+[[Polymarket]] launched 15-minute "up-down" bets on [[Bitcoin]], [[Ethereum]], [[Solana]], and [[XRP]] in late 2025, then added 5-minute contracts. These are binary bets on whether token prices will be higher or lower at expiry.
+
+**Volume:** Short-term crypto markets now represent more than half of all crypto trading on the platform, reaching ~$100M+ daily (7-day rolling average) by March 2026.
+
+![[polymarket-short-term-crypto-volume-ft-mar26.png]]
+*Short-term crypto volume grew rapidly despite January fee introduction. Source: Polymarket, FT Analysis (Mar 13, 2026)*
+
+**Fee introduction:** Added per-trade fees on 15-minute crypto bets in January 2026, which helped deter bot-driven arbitrage. Subsequently expanded fees up to 1.56% to all crypto contracts.
+
+**Arbitrage:** [[Keyrock]] researcher Amir Hajian reported latency arbitrage was "rampant" on 15-minute markets before the fee introduction — sophisticated traders exploiting time lags between Polymarket and [[Binance]]. Five-minute markets still exhibit "microstructure inefficiencies" targeted by HFT firms.
+
+Source: FT (Mar 13, 2026)
+
+---
+
 ## The bull case
 
 1. **Global access** — no geographic restrictions (except US)

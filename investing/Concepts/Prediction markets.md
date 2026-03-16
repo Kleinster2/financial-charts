@@ -114,6 +114,30 @@ The 2024 US election was prediction markets' public validation:
 
 ---
 
+## 2025-2026: Ultra-short-term crypto contracts
+
+Both [[Kalshi]] and [[Polymarket]] began offering 15-minute "up-down" bets on [[Bitcoin]], [[Ethereum]], [[Solana]], and [[XRP]] in late 2025 — binary contracts on whether a token's price will be higher or lower in 15 minutes. [[Polymarket]] subsequently added 5-minute contracts on the same tokens.
+
+**Scale:** ~$70M combined daily volume across both platforms by March 2026. These contracts now represent more than half of all crypto trading on both platforms.
+
+![[kalshi-15min-crypto-volume-ft-mar26.png]]
+*Kalshi: 15-minute crypto markets approaching half of all crypto volume. Source: Kalshi, FT Analysis (Mar 13, 2026)*
+
+![[polymarket-short-term-crypto-volume-ft-mar26.png]]
+*Polymarket: short-term crypto volume grew rapidly despite January 2026 fee introduction. Source: Polymarket, FT Analysis (Mar 13, 2026)*
+
+**Retail demand persists despite headwinds.** Volume continues to grow even with BTC down >40% from its October 2025 peak and despite [[Polymarket]]'s introduction of fees on 15-minute crypto in January 2026 (later expanded to all crypto contracts, up to 1.56% per trade).
+
+**HFT arbitrage:** [[Keyrock]] researcher Amir Hajian: latency arbitrage was "rampant" on 15-minute markets before [[Polymarket]] added fees. Sophisticated traders exploit tiny time lags between Polymarket price signals and [[Binance]]. Five-minute markets still show "microstructure inefficiencies" that large trading firms target.
+
+**Tradfi convergence:** [[Nasdaq]] filed with regulators (week of Mar 10, 2026) to introduce binary "yes-no" options on whether the [[Nasdaq 100]] trades at, above, or below a pre-determined price. Initial contracts would expire over a few days, with potential expansion to zero-day (24-hour) alternatives. Amanda Fischer ([[Better Markets]], former SEC chief of staff): "Everyone is in a race to become the next super app to rule them all. Trad-fi is copying crypto, and vice versa."
+
+**AI-assisted trading:** Retail traders are using LLMs to inform ultra-short bets. Max Wojcik, an engineer, described using three AI chatbots (Claude, Gemini, ChatGPT) to scrape price data, "converse" among themselves, and generate odds — claims to have doubled his money over two months.
+
+**Margin trading:** [[Kalshi]] is seeking US regulatory approval to allow margin trading on its platform, though no current plans for leveraged 15-minute crypto contracts specifically. Source: FT (Mar 13, 2026).
+
+---
+
 ## Risks and critiques
 
 | Risk | Description |

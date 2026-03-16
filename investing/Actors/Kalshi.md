@@ -111,6 +111,24 @@ Co-founder [[Luana Lopes Lara]] is Brazilian (trained at a Bolshoi-affiliated ba
 
 ---
 
+## Ultra-short-term crypto contracts (2025-2026)
+
+[[Kalshi]] began offering 15-minute "up-down" bets on [[Bitcoin]], [[Ethereum]], [[Solana]], and [[XRP]] in late 2025 — binary contracts on whether token prices will be higher or lower at expiry.
+
+**Volume:** 15-minute crypto markets now account for nearly half of all crypto trading on Kalshi, with the 15-minute segment reaching ~$15M daily (7-day rolling average) and total crypto ~$35M daily by March 2026.
+
+![[kalshi-15min-crypto-volume-ft-mar26.png]]
+*15-minute crypto markets approaching half of Kalshi's crypto volume. Source: Kalshi, FT Analysis (Mar 13, 2026)*
+
+![[kalshi-volume-breakdown-ft-mar26.png]]
+*Overall Kalshi volume: ~$300M daily, sports dominant, crypto small but growing rapidly. Source: Kalshi, FT Analysis (Mar 13, 2026)*
+
+**Margin trading:** Kalshi is seeking US regulatory approval to allow margin trading on its platform. No current plans to allow leveraged bets on 15-minute crypto contracts specifically.
+
+Source: FT (Mar 13, 2026)
+
+---
+
 ## The bull case
 
 1. **Selig rulemaking includes federal preemption** — states can't block

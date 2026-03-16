@@ -31,14 +31,40 @@ Banks retreated; [[direct lender]]s and [[Private credit]] filled gap.
 
 ## Basel III Endgame
 
-US implementation delayed/modified. Banks lobbied against stricter rules. Final rules expected 2025-2026.
+US implementation of the final Basel III reforms, repeatedly delayed by bank lobbying.
+
+**2023:** Fed proposed rules that would have raised minimum capital requirements for big US banks by 19%. Banks launched aggressive lobbying campaign including Super Bowl halftime TV ads warning rules would hurt consumers by cutting lending and raising credit costs.
+
+**2024:** Fed agreed to dilute proposals following lobbying pressure.
+
+**Mar 12, 2026:** [[Michelle Bowman]] (Fed Vice Chair for Supervision) announced the final framework in a speech. Key elements:
+
+| Component | Effect |
+|-----------|--------|
+| Basel Endgame adoption | "Small increase" in capital requirements |
+| [[G-SIB]] surcharge reform | "Modest decrease" — offsets Basel increase |
+| Short-term funding component | Reduced within G-SIB buffer |
+| Inflation/growth adjustment | Prevents buffer creeping up as balance sheets grow |
+| Net effect (big banks) | "Decrease requirements by a small amount" |
+| Net effect (smaller banks) | "Slightly larger reductions" than big banks |
+
+Affected G-SIBs: [[JPMorgan]], [[Bank of America]], [[Citigroup]], [[Goldman Sachs]], [[Morgan Stanley]].
+
+Three major US banking trade bodies called it "a thoughtful, bottom-up approach" representing "a welcome focus on risk-sensitivity."
+
+**International spillover:** [[Bank of England]] and EU had delayed their own Basel reforms to see how Washington would apply them. The lenient US outcome is likely to intensify pressure from European banks to ease their rules in response — competitive deregulation dynamic.
+
+Bowman framed it as correcting "unintended consequences" from overcalibrating low-risk activities: "Continuously increasing capital levels without a specific purpose imposes real economic cost... constrains credit availability, pushes activity into the less-regulated nonbank sector." Fed and other regulators plan to present full details the following week. Source: FT (Mar 12, 2026)
 
 ---
 
 ## Related
 
 - [[GFC]] — catalyst for Basel III
-- [[Private credit]] — beneficiary
+- [[Private credit]] — beneficiary of bank retreat from lending
 - [[Direct lender]] — emerged as banks retreated
+- [[Michelle Bowman]] — announced Mar 2026 Endgame framework
+- [[Federal Reserve]] — primary US regulator
+- [[G-SIB]] — systemically important banks subject to surcharges
 
 *Created 2026-02-05*
