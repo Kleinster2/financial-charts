@@ -121,3 +121,7 @@ US farmers facing 10-year high gap between costs and prices received:
 ---
 
 *Created Jan 2026.*
+
+### Cross-vault
+- [Technologies: Agriculture](obsidian://open?vault=technologies&file=Agriculture) — crop science, precision agriculture, biotech applications
+

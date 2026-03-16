@@ -10,7 +10,7 @@ The bear thesis is wrong in a supply-constrained world. [[Dylan Patel]] ([[SemiA
 
 The depreciation argument only holds if you can build infinite quantities of the next-generation chip. You can't — [[ASML]] makes ~70 [[EUV lithography|EUV]] tools per year, growing to ~100 by 2030. So older chips get repriced to the value they can extract from newer models, not to the comparative price of newer hardware that doesn't exist in sufficient quantity. H100 rental prices have *inflected upward* — labs are signing deals as high as $2.40/hr for 2-3 year terms on hardware that costs $1.40/hr to deploy over five years.
 
-**Position:** The depreciation bears are fighting the wrong model. In a chip-constrained world with rapidly improving models, GPU useful life extends, not shrinks. Long-term contract holders at old prices have locked in massive margin advantages.
+Position: The depreciation bears are fighting the wrong model. In a chip-constrained world with rapidly improving models, GPU useful life extends, not shrinks. Long-term contract holders at old prices have locked in massive margin advantages.
 
 ---
 
@@ -42,7 +42,7 @@ The TAM expansion per chip generation: GPT-4 tokens maybe $10B-$30B addressable.
 
 In a world where [[ASML]] EUV tool production (~70/year) limits total chip output to ~200 GW by end of decade, you can't build enough Rubin to replace all Hopper. So Hopper gets repriced to the value of the models running on it, not the theoretical price of newer hardware.
 
-[[SemiAnalysis]] (Mar 2026): labs have signed H100 rental deals at **$2.40/hr for 2-3 years** — well above the $1.40/hr 5-year TCO. That's 70%+ gross margin for whoever locked in the supply.
+[[SemiAnalysis]] (Mar 2026): labs have signed H100 rental deals at $2.40/hr for 2-3 years — well above the $1.40/hr 5-year TCO. That's 70%+ gross margin for whoever locked in the supply.
 
 ### 3. Long-term contracts create margin lock-in
 

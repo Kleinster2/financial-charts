@@ -125,3 +125,7 @@ Domestic alternative (SMEE) attempting EUV via laser-driven plasma, but years be
 - [[Semiconductor manufacturing]] — where EUV fits
 
 *Created 2026-01-28*
+
+### Cross-vault
+- [Technologies: EUV Lithography](obsidian://open?vault=technologies&file=EUV%20Lithography) — optics physics, 13.5nm wavelength, pellicle challenges, High-NA roadmap
+

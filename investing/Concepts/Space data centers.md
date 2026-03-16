@@ -201,4 +201,42 @@ High orbits needed to avoid congestion but add significant delay.
 
 See [[SpaceX xAI merger]] for full analysis.
 
-*Created 2026-01-15 | Updated 2026-02-03*
+## SemiAnalysis skepticism — "not this decade" (Mar 2026)
+
+[[Dylan Patel]] ([[SemiAnalysis]], Mar 13 2026) gave the most detailed technical pushback on space data centers to date:
+
+### Core argument: chips, not power, are the bottleneck
+
+In a chip-constrained world, it doesn't matter where you put the data center. The same [[ASML]] EUV production ceiling (~200 GW total by end of decade) applies whether chips are on Earth or in orbit. Moving to space doesn't create more chips — it just makes deployment harder.
+
+### Deployment time cost
+
+Test-deconstruct-launch-reassemble cycle adds ~6 months to GPU deployment. If a GPU's useful life is 5 years, that's 10% of its life wasted. And compute is most valuable NOW (models are most constrained today, revenue is highest per token today). Patel: "We see some clouds taking six months to deploy GPUs right here on Earth. I don't see how you could test them all on Earth, deconstruct them, and ship them to space without it taking significantly longer."
+
+### Networking
+
+- Starlink intersatellite links: ~100 Gbps
+- InfiniBand per GPU: 400 GB/s = 3,200 Gbps — then multiply by 72 GPUs per scale-up
+- Modern models split across 160+ GPUs; sparse MoEs want hundreds or thousands of chips
+- Space lasers more expensive and less reliable than pluggable optical transceivers (produced in millions)
+- Optical transceivers are "more unreliable than the GPUs" and need constant cleaning/replugging — impossible in orbit
+
+### GPU reliability
+
+~15% of [[Blackwell]] GPUs need RMA on deployment. You have to take them out, sometimes ship back to [[NVIDIA]]. This is routine on Earth — impossible in orbit.
+
+### Cooling
+
+Higher watts/mm² (denser chips, more performance per wafer) requires exotic liquid cooling or immersion — solved problems on Earth, much harder in space. Patel: "On Earth, these are solved problems."
+
+### Energy is cheap relative to compute
+
+Even if power costs double on Earth, it adds ~$0.10/hr to GPU cost ($1.40 → $1.50). The model improvement far exceeds that delta. Energy is 10-15% of cluster TCO. Space solves the wrong problem.
+
+### When space data centers could make sense
+
+"Space data centers will eventually be a 10X gain as Earth's resources get more and more contentious, but that's not this decade." Once chips are no longer the bottleneck (perhaps 2035+), and as ASICs reduce NVIDIA's 70%+ margins (making energy a larger % of cluster cost), then space power becomes a real advantage. But "Elon doesn't win by doing 20% gains."
+
+---
+
+*Created 2026-01-15 | Updated 2026-03-16*

@@ -375,7 +375,45 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-15/rampant-a
 
 ---
 
-*Updated 2026-02-18*
+## SemiAnalysis smartphone volume projections (Mar 2026)
+
+[[Dylan Patel]] ([[SemiAnalysis]], Mar 13 2026) provided the sharpest projections yet on consumer electronics demand destruction:
+
+| Metric | Value |
+|--------|-------|
+| Global smartphone sales (pre-shortage) | ~1.4B/year |
+| Current level | ~1.1B |
+| SemiAnalysis 2026 projection | **~800M** |
+| SemiAnalysis 2027 projection | **500-600M** |
+| Source | SemiAnalysis analysts in Asia (Singapore, HK, Taiwan) tracking [[Xiaomi]], [[Oppo]] |
+
+Chinese OEMs ([[Xiaomi]], [[Oppo]]) cutting low-end and mid-range volumes by **half**. The decline is concentrated in low/mid-range — not high-end. [[Apple]] volumes won't fall as much, but the cheap end of the market is being destroyed.
+
+### iPhone BOM impact
+
+| Component | Previous cost | Current cost | Increase |
+|-----------|-------------|-------------|----------|
+| DRAM (12GB) | ~$50 ($3-4/GB) | ~$150 ($12/GB) | +$100 |
+| NAND | Also rising | Also rising | +$50 est. |
+| **Total memory BOM increase** | — | — | **~$150** |
+
+Apple either passes this to consumers or eats the margin. Patel: "I don't see Apple reducing their margin too much." Consumer likely pays $250 more for the next iPhone (some markup on the $150 cost increase).
+
+Apple has some lag protection (3-month to 1-year memory contracts) but will feel the full impact at the next iPhone release.
+
+### Why the halving is worse than it sounds
+
+The decline hits low/mid-range disproportionately. So the bits released are far less than half — cheap phones have less memory. High-end phones (where margin exists) survive. The consumer DRAM released by smartphone volume decline gets absorbed by AI — hyperscalers sign longer-term contracts at higher margins.
+
+### 30% of Big Tech CapEx goes to memory
+
+Of the ~$600B in hyperscaler CapEx in 2026, roughly a third — ~$200B — goes to memory. Some of this is NVIDIA margin stacking (their GPU margins applied to the memory component), but the underlying dynamic is that memory is now the largest single cost category in AI infrastructure.
+
+*Source: Dylan Patel on Dwarkesh Patel podcast, Mar 13, 2026.*
+
+---
+
+*Updated 2026-03-16*
 
 ## Related
 

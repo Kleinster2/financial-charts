@@ -162,3 +162,7 @@ Over **30M tonnes/year** new alumina capacity coming online in China, Indonesia,
 ---
 
 *Created Jan 2026.*
+
+### Cross-vault
+- [Technologies: Aluminum](obsidian://open?vault=technologies&file=Aluminum) — metallurgy, smelting processes, alloy properties
+

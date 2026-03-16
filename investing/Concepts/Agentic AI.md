@@ -186,6 +186,10 @@ Bloomberg Businessweek (Feb 26 2026) documented the emerging pattern: AI agents 
 - [[Anthropic]] — Claude Code, Claude powers many agents
 - [[OpenAI]] — GPT-4 agent capabilities
 
+
+### Cross-vault
+- [Technologies: Agentic AI](obsidian://open?vault=technologies&file=Agentic%20AI) — technical foundations: tool use, planning loops, memory architectures
+
 ## Recent industry developments (Jan 2026)
 
 | Date | Company | Development |

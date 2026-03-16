@@ -49,3 +49,7 @@ No technical solution exists. The model processes text; it can't know which text
 ---
 
 *Created 2026-02-07*
+
+### Cross-vault
+- [Technologies: Prompt Injection](obsidian://open?vault=technologies&file=Prompt%20Injection) — attack vectors, defense mechanisms, alignment implications
+

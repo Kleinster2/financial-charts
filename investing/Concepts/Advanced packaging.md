@@ -211,6 +211,10 @@ See [[Taiwan panel-to-packaging conversion]] for full details.
 - [[Innolux]] — panel fab seller (TSMC, ChipMOS, ASE)
 - [[AUO]] — panel fab seller (Powertech)
 
+
+### Cross-vault
+- [Technologies: Advanced Packaging](obsidian://open?vault=technologies&file=Advanced%20Packaging) — full technical breakdown: CoWoS generations, interposer stitching, hybrid bonding, TSV mechanics
+
 ## Sources
 
 - Jason's Chips: [Short n Casual Intro to Packaging](https://jasonschips.substack.com/p/short-n-casual-advanced-packaging) — technical evolution primer (March 2026)

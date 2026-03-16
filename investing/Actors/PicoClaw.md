@@ -82,3 +82,7 @@ PicoClaw's niche is the bottom of the market — but in hardware, the bottom of 
 - [[Zo Computer]] — managed cloud competitor
 - Sipeed — parent company (RISC-V hardware)
 - [[RISC-V]] — chip architecture, China sovereignty play
+
+### Cross-vault
+- [Technologies: PicoClaw](obsidian://open?vault=technologies&file=PicoClaw) — technical architecture and agent capabilities
+

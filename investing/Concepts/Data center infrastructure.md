@@ -137,3 +137,7 @@
 - [[Honeywell]] — automation, security
 - [[Palo Alto Networks]] — cybersecurity
 - [[Fortinet]] — cybersecurity
+
+### Cross-vault
+- [Technologies: Data Center Infrastructure](obsidian://open?vault=technologies&file=Data%20Center%20Infrastructure) — power delivery, cooling architectures, networking topology
+

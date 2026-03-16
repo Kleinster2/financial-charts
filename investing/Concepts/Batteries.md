@@ -112,3 +112,7 @@ See [[Battery supply chain]] for detailed breakdown.
 - [[Clean energy for AI]] — storage for datacenters
 
 *Updated 2026-01-11*
+
+### Cross-vault
+- [Technologies: Batteries](obsidian://open?vault=technologies&file=Batteries) — cell chemistry, energy density curves, manufacturing processes
+

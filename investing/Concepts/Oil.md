@@ -189,3 +189,7 @@ For full market impact details, see [[2026 Iran conflict market impact]] and [[I
 - [[Power constraints]] — energy for AI
 - [[Venezuela oil rebuild]] — investment thesis
 
+### Cross-vault
+- [Technologies: Oil](obsidian://open?vault=technologies&file=Oil) — refining processes, hydrocarbon chemistry, extraction technology
+
+

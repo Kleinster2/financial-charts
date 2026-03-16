@@ -292,3 +292,7 @@ This is the same pattern as [[Teleperformance]]: the **threat of AI replacement*
 - [[Illinois Quantum and Microelectronics Park]] — quantum partner
 - [[Chicago Quantum Exchange]] — quantum research investor
 - [[Quantum computing]] — quantum computing player
+
+### Cross-vault
+- [Technologies: IBM](obsidian://open?vault=technologies&file=IBM) — technical history: mainframes, System/360, Watson, patent portfolio
+

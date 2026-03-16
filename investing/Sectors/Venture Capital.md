@@ -112,3 +112,7 @@
 ---
 
 *Created 2026-01-16*
+
+### Cross-vault
+- [Technologies: Venture Capital](obsidian://open?vault=technologies&file=Venture%20Capital) — fund structures, LP/GP mechanics, vintage year analysis
+

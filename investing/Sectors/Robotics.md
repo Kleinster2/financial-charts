@@ -295,6 +295,10 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 
 ---
 
+
+### Cross-vault
+- [Technologies: Robotics](obsidian://open?vault=technologies&file=Robotics) — actuators, control systems, perception stack, manipulation
+
 ## Sources
 
 - [Top Robotics Stocks 2026](https://www.levelfields.ai/news/best-robotics-stocks-to-watch-in-2026)

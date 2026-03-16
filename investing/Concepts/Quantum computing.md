@@ -197,3 +197,7 @@ This is the same "bottleneck → springboard" pattern seen in semiconductors ([[
 - [[2026 Two Sessions]] — China quantum self-sufficiency push, dilution refrigerator independence
 - Bluefors — Finnish dilution refrigerator market leader
 - Oxford Instruments — UK cryogenics supplier
+
+### Cross-vault
+- [Technologies: Quantum Computing](obsidian://open?vault=technologies&file=Quantum%20Computing) — qubit architectures, error correction, decoherence challenges
+

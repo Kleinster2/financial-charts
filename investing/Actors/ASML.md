@@ -240,11 +240,11 @@ Bank of America: 20% guidance implies 48% YoY decline from China.
 
 **Production targets:**
 
-| System | Current | 2025-2026 | 2027-2028 |
-|--------|---------|-----------|-----------|
-| Low-NA EUV | — | 90/year | — |
-| High-NA EUV | — | — | 20/year |
-| DUV | 300+ | 500-600/year | — |
+| System | Current | 2025-2026 | 2027-2028 | 2030 |
+|--------|---------|-----------|-----------|------|
+| Low-NA EUV | ~70/year | 90/year | — | ~100/year |
+| High-NA EUV | — | — | 20/year | — |
+| DUV | 300+ | 500-600/year | — | — |
 
 **Veldhoven expansion:**
 - New campus: 50 football fields, near existing HQ
@@ -252,6 +252,30 @@ Bank of America: 20% guidance implies 48% YoY decline from China.
 - Brainport Industries Campus: employees moving in by 2028 (accelerated)
 
 **2030 targets:** €44-60B revenue, 56-60% gross margin, double EUV output.
+
+### EUV as the binding AI compute constraint (SemiAnalysis, Mar 2026)
+
+[[Dylan Patel]] ([[SemiAnalysis]]) quantified the relationship between EUV tools and AI compute capacity:
+
+| Metric | Value |
+|--------|-------|
+| EUV tools per GW of [[Rubin]] capacity | **~3.5** |
+| EUV passes per GW (total) | ~2M (across 3nm logic, 5nm, and DRAM) |
+| 3nm wafers per GW | ~55,000 (20 EUV passes each = 1.1M passes) |
+| DRAM wafers per GW | ~170,000 |
+| Tool throughput | ~75 wafers/hr, ~90% uptime |
+| Cumulative installed base by 2030 | **~700 tools** |
+| Theoretical AI max (if 100% allocated) | **~200 GW** |
+
+At ~$50B per GW of data center CapEx vs ~$1.2B for the EUV tools — the cheapest component in the stack is the hardest to scale.
+
+**Why ASML can't scale faster:** The EUV tool has four major components, each with irreducible supply chain complexity. [[Carl Zeiss SMT|Zeiss]] makes 18 multilayer mirrors per tool (~1,000/year total) with <1,000 specialized employees. Cymer's EUV source requires hitting tin droplets three times in sequence with lasers. The reticle stage moves at 9 Gs. Sub-nanometer accuracy required across all components. ASML's supply chain includes 10,000+ companies.
+
+**ASML's "generosity":** Despite an absolute monopoly, ASML has "never raised the price more than they've increased the capability of the tool." EUV tools went from $150M to $400M, but capabilities more than doubled. [[NVIDIA]] and memory makers capture the margin ASML leaves on the table.
+
+**Not AGI-pilled:** ASML views going from 60 to 100 tools/year as aggressive growth. The AI labs want capacity for 200+ GW/year. This gap is the central tension in AI scaling through 2030. See [[Lithography as binding constraint]].
+
+*Source: Dylan Patel on Dwarkesh Patel podcast, Mar 13, 2026.*
 
 ---
 
@@ -428,7 +452,7 @@ See [[Rare earth leverage]] for geopolitical context.
 **Analysts:**
 - [[Morgan Stanley]] — top European semi pick
 
-*Updated 2026-03-03*
+*Updated 2026-03-16*
 
 ---
 

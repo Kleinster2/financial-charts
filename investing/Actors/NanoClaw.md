@@ -66,3 +66,7 @@ The story of NanoClaw is the story of security anxiety converting into a movemen
 - [[Zo Computer]] — managed cloud competitor
 - [[Agentic AI]] — the broader trend
 - [[Andrej Karpathy]] — viral endorsement on X catalyzed growth
+
+### Cross-vault
+- [Technologies: NanoClaw](obsidian://open?vault=technologies&file=NanoClaw) — technical architecture and agent capabilities
+

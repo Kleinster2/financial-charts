@@ -162,6 +162,10 @@ Design → Foundry → Packaging → Test → System integration
 - [[Memory shortage 2025-2026]] — near-term theme (→ Memory sub-sector)
 - [[Taiwan]] — geographic risk (→ Foundry sub-sector)
 
+
+### Cross-vault
+- [Technologies: Semiconductors](obsidian://open?vault=technologies&file=Semiconductors) — fabrication processes, transistor physics, node scaling
+
 ## Sources
 
 - TBD

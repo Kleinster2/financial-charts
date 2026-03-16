@@ -19,3 +19,7 @@ Venture capital — asset class focused on funding early-stage, high-growth comp
 - [[Sequoia Capital]] — major VC firm
 - [[Founders Fund]] — major VC firm
 - [[Y Combinator]] — accelerator/seed investor
+
+### Cross-vault
+- [Technologies: Venture Capital](obsidian://open?vault=technologies&file=Venture%20Capital) — fund structures, LP/GP mechanics, vintage year analysis
+

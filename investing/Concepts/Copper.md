@@ -138,3 +138,7 @@ The rally started in fall 2025 and accelerated into 2026. Common catalysts: copp
 ---
 
 *Created Jan 2026.*
+
+### Cross-vault
+- [Technologies: Copper](obsidian://open?vault=technologies&file=Copper) — metallurgy, conductivity properties, extraction processes
+

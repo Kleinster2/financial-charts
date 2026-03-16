@@ -184,6 +184,10 @@ See [[China-Japan relations]], [[Critical minerals]].
 
 ---
 
+
+### Cross-vault
+- [Technologies: Sensors](obsidian://open?vault=technologies&file=Sensors) — MEMS, LiDAR, image sensors, signal processing
+
 ## Sources
 
 - TBD

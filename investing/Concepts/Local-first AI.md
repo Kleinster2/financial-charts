@@ -169,6 +169,10 @@ Strategic land-grab: Tunnels became free in April 2021 to capture developers, up
 - [[Anthropic]] — Claude Code, Claude powers agents ($183B valuation)
 - [[Apple]] — Mac Mini demand from local AI
 
+
+### Cross-vault
+- [Technologies: Local-first AI](obsidian://open?vault=technologies&file=Local-first%20AI) — on-device inference, model compression, edge deployment architectures
+
 ## Moltbot → OpenClaw naming history
 
 | Date | Name | Event |

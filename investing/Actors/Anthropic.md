@@ -540,6 +540,8 @@ Multi-cloud approach - AWS Trainium + Google TPUs + NVIDIA GPUs. Diversified to 
 
 Largest expansion of Anthropic's TPU usage to date. Separate from Broadcom direct purchases.
 
+**Backstory (Patel, Mar 2026):** Anthropic's compute team — both ex-Google — saw the dislocation before Google did. In early Q3 2025, over six weeks, TPU capacity requests went up multiple times. Google had to go to [[TSMC]] to explain why they needed a sudden capacity increase. Much of it was for selling to Anthropic. [[Google DeepMind]] people "were like, 'This is insane. Why did we do this?'" But Google Cloud saw it differently. Then Gemini 3 caused Google's user metrics to skyrocket, leadership woke up, went to TSMC for more — "Sorry, sold out. Maybe 5-10% more for 2026, really working on 2027."
+
 ### AWS partnership (Project Rainier)
 
 | Metric | Value |
@@ -571,6 +573,20 @@ Why direct purchase matters:
 | Broadcom direct | TPUv7 | Owned | Core training clusters |
 
 All roads lead to [[TSMC]] - TPUs and Trainium fabbed there.
+
+### Compute capacity and the cost of conservatism (Mar 2026)
+
+[[Dylan Patel]] ([[SemiAnalysis]], Mar 13 2026) laid out the compute race in stark terms. Anthropic is at ~2-2.5 GW of compute capacity in early 2026 and needs to get to 5-6 GW by year-end — "way above their initial plans." The problem: [[Dario Amodei]] was explicitly conservative on compute commitments. On Dwarkesh's podcast, he said he didn't want to "go crazy on compute" and risk bankruptcy. He purposely undershot estimates.
+
+The result: Anthropic "screwed the pooch compared to [[OpenAI]]," whose approach was to sign aggressive deals (5-year contracts with [[CoreWeave]], [[Oracle]], [[SoftBank]], NScale) before having the money to pay. OpenAI got roasted in H2 2025 — credit markets panicked, stocks tanked — then raised $110B and validated the entire strategy. OpenAI has "way more access to compute than Anthropic by the end of the year."
+
+Anthropic is now going to "lower-quality providers that they would not have gone to before" and paying premium rates. H100 spot deals at $2.40/hr for 2-3 year terms — on hardware that costs $1.40/hr to deploy over 5 years. Plus revenue share costs (~50% markup) for capacity served through Bedrock, Vertex, or Foundry.
+
+The revenue math is brutal: at current trajectory ($4B Jan, $6B Feb in revenue adds), Anthropic will add ~$60B of revenue over the next 10 months. At sub-50% gross margins, that's ~$40B of compute spend. At ~$10-13B per GW in rental costs, that's ~4 GW of inference capacity needed just for revenue growth — plus the training fleet. Patel thinks Anthropic can reach 5-6 GW by year-end through a combination of owned compute, Bedrock, Vertex, and Foundry. OpenAI will be slightly higher.
+
+Both targeting ~10 GW by end of 2027.
+
+See [[Anthropic vs OpenAI compute race]] for the full strategic comparison.
 
 ---
 
