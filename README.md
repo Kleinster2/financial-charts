@@ -13,7 +13,7 @@ Interactive financial charting application for visualizing stock prices, fundame
 
 ## Technology Stack
 
-- **Frontend**: Vanilla JavaScript with [LightweightCharts](https://tradingview.github.io/lightweight-charts/) v5.0.9
+- **Frontend**: Vanilla JavaScript with [LightweightCharts](https://tradingview.github.io/lightweight-charts/) v5.1.0
 - **Backend**: Flask (Python)
 - **Database**: SQLite with wide-column schema (~311 MB), optional DuckDB backend
 - **Data Sources**: yfinance, FRED, Alpha Vantage (fundamentals)

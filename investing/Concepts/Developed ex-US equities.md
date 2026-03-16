@@ -1,5 +1,5 @@
 ---
-aliases: [EAFE, EFA, international equities, developed international, VEA, developed ex-US]
+aliases: [EAFE, EFA, international equities, developed international, developed ex-US]
 ---
 #concept #equities #developed-markets
 

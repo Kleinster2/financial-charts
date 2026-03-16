@@ -118,6 +118,24 @@ See [[Vibe coding]] for full market analysis.
 
 ---
 
+## Open training projects (2025-2026)
+
+Karpathy's thesis: the full LLM stack is simple enough for one person to own end-to-end. He's been systematically proving it.
+
+| Project | What | Lines | Hardware | Cost | Released |
+|---------|------|-------|----------|------|----------|
+| [[NanoChat]] | Full ChatGPT pipeline (pretrain → SFT → RLHF → chat) | ~8,000 | 8xH100 | ~$73 | Oct 2025 |
+| MicroGPT | Complete LLM in pure Python, zero dependencies | 200 | CPU | $0 | Feb 2026 |
+| AutoResearch | AI agents autonomously improve training code | 629 (train.py) | 1xH100 | — | Mar 2026 |
+
+NanoChat trains a GPT-2-class model in ~1.65 hours on a single 8xH100 node — down from OpenAI's original 168 hours (99% reduction). Six-stage pipeline: tokenizer training, pretraining, midtraining, SFT, RL (GRPO on GSM8K), eval + inference. Configurable from d12 (~180M params) to d26 (~850M). GitHub: 48.9k stars.
+
+AutoResearch is the most interesting development: an AI agent reads `train.py`, hypothesizes improvements, edits the code, runs 5-minute experiments, commits wins / resets failures via git, and repeats indefinitely. A 2-day run made ~700 autonomous changes, found ~20 additive improvements that transferred from small (d12) to large (d24) models, and cut time-to-GPT-2 by 11%. Karpathy said the agent "caught oversights in attention scaling and regularization that he had missed manually."
+
+AI Job Exposure Map (Mar 15, 2026): scored all 342 BLS occupations on AI displacement (0-10). Key finding: 42% of jobs score 7+, representing 59.9M workers and $3.7T in wages. Jobs earning >$100k average 6.7 exposure; <$35k average 3.4. Software developers: 8-9. Physical/manual jobs: low. Went viral, [[Elon Musk]] commented.
+
+---
+
 ## Angel investments
 
 Active investor since leaving OpenAI (2024):
@@ -176,8 +194,15 @@ Active investor since leaving OpenAI (2024):
 ### Commentary
 - [[Moltbook]] — called it "most incredible sci-fi takeoff-adjacent thing I have seen recently" (Jan 2026)
 
+### Open training
+- [[NanoChat]] — full ChatGPT pipeline, $73 to train GPT-2 equivalent
+- AutoResearch — AI agents autonomously improving LLM training code
+
 ### Beneficiaries of vibe coding
 - [[Supabase]] — infrastructure for vibe-coded apps
 - [[Lovable]] — $6.6B vibe coding leader
 - [[Vercel]] — deployment platform
+
+### Cross-vault
+- [Technologies: Open LLM Training](obsidian://open?vault=technologies&file=Open%20LLM%20Training) — technical deep dive on NanoChat, MicroGPT, AutoResearch
 
