@@ -13,7 +13,7 @@ Unmanned aerial vehicles (UAVs) — military, commercial, and consumer applicati
 
 | Segment | Key players | Use cases |
 |---------|-------------|-----------|
-| **Military** | [[Norinco]], [[General Atomics]], [[Northrop Grumman]], Turkish Aerospace | ISR, strike, logistics |
+| **Military** | [[Norinco]], [[General Atomics]], [[Northrop Grumman]], Turkish Aerospace, [[Swarmer]] | ISR, strike, logistics, swarm autonomy |
 | **Cargo/logistics** | [[Zipline]], [[Wing]], Amazon, [[Norinco]] | Delivery, resupply |
 | **Commercial/industrial** | [[DJI]], [[Skydio]], Autel | Inspection, mapping, agriculture |
 | **Consumer** | [[DJI]], Autel, Parrot | Photography, hobby |
