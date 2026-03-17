@@ -20,6 +20,16 @@ XOM trades as a core Energy name (XLE r = 0.91).
 
 ---
 
+## Iran conflict impact (Mar 2026)
+
+[[Rystad Energy|Rystad]] estimates ~20% of Exxon's expected 2026 free cash flow comes from Middle East operations — second-most exposed among the supermajors after [[BP]] (>21%). Stock lagged peers: +2% to $156.12 since conflict began Feb 28, vs [[BP]] +11%, [[Shell]] +9%. The gap reflects Exxon's lack of a large trading arm (which boosted BP and Shell earnings from volatility).
+
+CEO [[Darren Woods]] (Mar 11, to FT): *"I think our size and scale has given us some advantage with respect to sourcing . . . We are optimising our operations."* He described the [[Strait of Hormuz]] closure as the loss of a *"central source of supply for the world."*
+
+See [[2026 Iran conflict market impact#Day 15 — March 14 (oil nears $100, US producer windfall)|Iran conflict market impact — Day 15]] for full supermajor exposure table.
+
+---
+
 ## Why Exxon matters for AI thesis
 
 [[Oil]] majors have relevance to AI infrastructure:

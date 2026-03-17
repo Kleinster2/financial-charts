@@ -95,6 +95,7 @@ See [[Battery supply chain]] for detailed breakdown.
 | **Technology shifts** | Solid-state disruption |
 | **Overcapacity** | Price pressure |
 | **[[Trade]] restrictions** | IRA requirements, tariffs |
+| **[[Lithium-ion shipping fires]]** | 250 container ship fires in 2024 (decade high); no extinguishing solution; port shutdowns |
 
 ---
 
@@ -111,7 +112,7 @@ See [[Battery supply chain]] for detailed breakdown.
 - [[BYD]] — vertically integrated
 - [[Clean energy for AI]] — storage for datacenters
 
-*Updated 2026-01-11*
+*Updated 2026-03-16*
 
 ### Cross-vault
 - [Technologies: Batteries](obsidian://open?vault=technologies&file=Batteries) — cell chemistry, energy density curves, manufacturing processes

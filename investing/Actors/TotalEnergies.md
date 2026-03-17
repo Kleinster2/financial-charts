@@ -113,6 +113,18 @@ Acquired 42.5% operated stake in PEL 104, following December's 40% stake in [[Ga
 
 ---
 
+## SAF mandate skepticism (Jan 2026)
+
+CEO [[Patrick Pouyanné]] said he expected the EU's ReFuelEU [[Sustainable Aviation Fuel|SAF]] 2% blending mandate to be watered down, drawing parallels with revisions to EU car emissions policy. This matters to [[Neste]] and other SAF producers who invested billions on the basis of mandated demand. TotalEnergies operates its own SAF production at Grandpuits. *(FT, Mar 15, 2026)*
+
+---
+
+## Iran conflict impact (Mar 2026)
+
+Trading update (Mar 14): higher oil price "more than offsets the loss of Middle East production." [[Rystad Energy|Rystad]] estimates 14% of TotalEnergies' expected 2026 free cash flow comes from Middle East oil, gas, and LNG operations — lower exposure than [[BP]] (>21%) or [[Exxon]] (~20%), but higher than [[Shell]] (13%) and [[Chevron]] (5%). The company has equity stakes in facilities affected by the [[Strait of Hormuz]] closure. See [[2026 Iran conflict market impact#Day 15 — March 14 (oil nears $100, US producer windfall)|Iran conflict market impact — Day 15]].
+
+---
+
 ## Investment case
 
 Bull:

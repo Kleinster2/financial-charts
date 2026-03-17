@@ -47,6 +47,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 |-------|------|-------------|
 | **Defense** | [[Iran conflict defense repricing]] | Hardware/kinetic names led (+2-6%); AVAV reversed -17% on SCAR recompetition; defense IT flat |
 | **Energy** | [[Iran conflict economic disruption]] | Hormuz effectively closed; ~40M bbl disrupted in 2 days; European gas +23%; Qatar LNG halted |
+| **Fuel oil** | [[Fuel oil]] | Bunker fuel at $140-175/bbl (all-time record); crude-fuel oil spread broken; Asian bunkering ports running dry |
 | **Airlines** | [[Iran conflict airline disruption]] | 46K+ flights canceled; Bloomberg Airlines Index -11%; Gulf hub model exposed; European/Asian carriers gaining |
 | **Insurance** | [[Iran conflict insurance impact]] | Coverage withdrawal, not repricing; P&I clubs canceling Gulf war risk; equities sold on tail risk |
 | **FX** | [[Iran conflict FX dynamics]] | Dollar rally is positioning squeeze; EUR/USD hit 3-month low; de-dollarization accelerating |
@@ -405,6 +406,108 @@ Wall Street's worst week since October marks the transition from "short war, buy
 
 ---
 
+## Day 15 — March 14 (oil nears $100, US producer windfall)
+
+### Oil price update
+
+![[us-oil-fcf-scenarios-rystad.png]]
+*US oil companies' aggregate free cash flow from oil operations under various WTI price scenarios (Rystad Energy, Mar 14)*
+
+| Metric | Level | Change since Day 9 (Mar 7) | Change since pre-strike |
+|--------|-------|---------------------------|------------------------|
+| WTI crude | **$98.71** | +$7.81 (+8.6%) | **+52%** from ~$65 |
+| Brent crude | **>$100** (Thu Mar 13) | +$7.31+ (+7.9%) | **+47%** from ~$68 |
+| Hormuz traffic | 2mn of 20mn bbl/day | — | 18mn bbl/day blocked |
+| Global LNG offline | ~20% | — | [[QatarEnergy]] force majeure continues |
+
+Brent breached $100 on Thursday (Mar 13) for the first time since mid-2022. [[Mojtaba Khamenei]], [[Iran]]'s new supreme leader, vowed the military would keep [[Strait of Hormuz]] closed — seeking leverage against the US and Israel. [[Goldman Sachs]]: 18mn of 20mn bbl/day normally passing through the waterway remain blocked.
+
+[[RBC Capital Markets]] (Mar 14): expects the conflict to drag on into the spring and that Brent could exceed **$128** within three to four weeks.
+
+### US producer windfall
+
+[[Jefferies]] modeling estimates American producers are generating an extra **$5bn/month** in cash flow since the ~47% oil price rise. [[Rystad Energy|Rystad]] projects a **$63.4bn** boost if WTI averages $100 for the year.
+
+| WTI scenario | US oil FCF ($bn) |
+|-------------|-----------------|
+| $62 (pre-conflict) | 78.2 |
+| $70 | 98.6 |
+| $75 | 110.9 |
+| $80 | 121.4 |
+| $85 | 131.5 |
+| $100 | 162.0 |
+
+The windfall accrues disproportionately to US shale companies with no Middle East operations. Trump (social media, Mar 13): *"The United States is the largest Oil Producer in the World, by far, so when oil prices go up, we make a lot of money."*
+
+### Supermajor Middle East exposure
+
+![[oil-majors-mideast-exposure-rystad.png]]
+*Supermajor FCF exposure to Middle East oil, gas, and LNG operations — includes Qatar, UAE, Oman, Iraq, Israel, Saudi-Kuwait Neutral Zone (Rystad Energy, Mar 14)*
+
+| Company | ME % of 2026E FCF | Stock since Feb 28 | Notes |
+|---------|-------------------|-------------------|-------|
+| [[BP]] | **>21%** | **+11%** | Most exposed, but trading arm profits offset |
+| [[Exxon]] | **~20%** | **+2%** ($156.12) | Lagging — CEO citing "size and scale" advantage |
+| [[TotalEnergies]] | **14%** | — | Trading update (Mar 14): higher price "more than offsets" lost ME production |
+| [[Shell]] | **13%** | **+9%** | Force majeure on [[QatarEnergy]] Ras Laffan LNG; trading arm profits |
+| [[Chevron]] | **5%** | — | Least exposed supermajor |
+| [[Equinor]] | **0%** | Best performer | No ME exposure + major European gas supplier |
+
+[[BP]] and [[Shell]] shares outperformed despite high ME exposure because their trading arms profit from volatility. [[Exxon]] lagged because it lacks a comparable trading operation. [[Equinor]] outperformed all Western majors — zero ME exposure plus structural European gas demand as [[QatarEnergy]] LNG stays offline.
+
+The supermajors recently expanded in the region — signing deals in [[Syria]], [[Libya]], and several other countries to boost reserves and grow production. That expansion is now a liability.
+
+[[Bank of America]] analyst Christopher Kuplent (Mar 14): *"The share price does not just reflect the next quarter or two."* He noted the market expects oil to fall back to $75 *"within the space of months, not years."*
+
+### Refiners and oilfield services
+
+[[Neste]] and [[Repsol]] had strong share price moves after Middle East supplies of [[Jet fuel|jet fuel]] and other refined products were cut off. Refiners without ME crude dependency benefit from higher product margins and reduced competition from ME-based refining.
+
+[[Schlumberger|SLB]] issued a profit warning (Mar 13) — the first major oilfield services company to formally warn on the conflict's operational impact.
+
+### Key quotes
+
+[[Exxon]] CEO [[Darren Woods]] (Mar 11, to FT): *"I think our size and scale has given us some advantage with respect to sourcing . . . We are optimising our operations."* He described the [[Strait of Hormuz]] closure as the loss of a *"central source of supply for the world."*
+
+Martin Houston (chair, [[Omega Oil and Gas]], Mar 14): *"There are no winners in this situation — and it certainly isn't the international oil companies. They would rather the status quo from two weeks ago than a crisis that temporarily raises oil prices."*
+
+[[Rystad Energy|Rystad]] analyst Thomas Liles (Mar 14): *"The closure of the strait will hurt Middle Eastern national oil companies, while the [western] oil majors — who account for around 20 per cent of total upstream production from Qatar, UAE, Iraq and the neutral zone — could also see material impacts."*
+
+Liles (Mar 14): *"Any players without too many eggs in the Middle East basket stand to benefit from higher prices."*
+
+### Structural risk — demand destruction thesis
+
+Paul Sankey ([[Sankey Research]], Mar 14): *"This could become a demand destruction event where everyone loses."* He noted some of the worst-hit countries in Asia such as [[Taiwan]] could rethink their aversion to nuclear energy.
+
+Sankey (Mar 14): *"The market has been seeing the unprecedented closure of the strait as an aberration whereas oil historians are viewing this as a structural change in the risk of oil."*
+
+The structural argument: the crisis will drive a much more aggressive push toward domestic energy sources free from supply disruption risk. Bullish for US shale, nuclear, and renewables — bearish for any asset priced on stable, cheap Middle Eastern supply.
+
+*Source: FT, "US oil groups in line for $63bn windfall from Gulf war disruption" (March 14, 2026)*
+
+---
+
+## War duration — Gass assessment (March 12)
+
+Sir [[Simon Gass]] (former UK ambassador to Iran, former JIC chair, [[JCPOA]] lead negotiator) — the most credentialed Western analyst on Iranian decision-making — assessed the conflict's trajectory on FT's *Rachman Review* (March 12, 2026):
+
+**Duration**: Doesn't expect a long war. Military leaders will tell Trump: "We've attacked pretty much all of our primary targets... Boss, if you want us to keep going, we'll keep going. But we are not honestly sure that it's gonna have a great deal of additional effect." War "not popular with the MAGA base"; midterm elections in November. Oil price is "an important determinant in the question of how long this conflict goes on for."
+
+**Iran's endgame**: Regime aims for narrative victory ("small nation took on the combined might of the United States") + demonstrated Hormuz capability as permanent future deterrent. After a US ceasefire, Iran may fire drones "another 24, 36 hours... to show they are ending the war on their terms."
+
+**Market implications:**
+- Supports the "short war" thesis that equity markets priced on Days 3-5 — but with an important caveat: even a short war leaves a **permanent Hormuz risk premium**. Iran proved it can close the strait; future crises will price this differently.
+- [[Gideon Rachman]] (FT, March 16): "Iran has discovered a powerful future deterrent that is quite independent of nuclear weapons. If the regime survives this war, it may yet emerge in a stronger position internationally." This means Hormuz risk doesn't revert to pre-war baseline even if this war ends quickly. Oil, shipping, and insurance markets will carry a structural Hormuz premium indefinitely.
+- War aims have collapsed to a single objective: reopen Hormuz. Rachman: "A conflict with Iran that started with vague war aims now has one clear and overriding objective: reopen the Strait of Hormuz." This clarifies the endgame for duration pricing — the war ends when the strait reopens, not when military targets are exhausted.
+- Escalation signals: Kharg Island occupation and ground troops near the strait are being mooted. Either would escalate market risk significantly.
+- Gulf states "extraordinarily angry" at Iran, Israel, *and* the US — questioning "what is the value of a US security blanket." Some in UAE and Bahrain questioning whether Abraham Accords were the right bet. This is bearish for Gulf FDI confidence and long-term Gulf equity risk premiums if the security framework frays.
+- Gass's "existential trigger" thesis: Trump's Day 1 "free the Iranian people" rhetoric (not the strikes alone) is what activated the Hormuz closure. Implies that a ceasefire + face-saving off-ramp that avoids regime-change language could de-escalate faster than the military situation alone suggests.
+- **Nuclear fatwa lapsed**: Ali Khamenei's anti-nuclear weapons fatwa died with him. Successor [[Mojtaba Khamenei]] has not reissued it. This creates a longer-term nuclear risk premium for the region — even if the current war ends soon.
+
+*Source: FT, The Rachman Review (March 12, 2026)*
+
+---
+
 ## Related
 
 - [[US-Iran nuclear escalation February 2026]] — pre-strike market reaction and scenario analysis (Feb 18)
@@ -423,6 +526,15 @@ Wall Street's worst week since October marks the transition from "short war, buy
 - [[Tadawul]] — actor (Saudi exchange, +1.7% during conflict)
 - [[Dubai Financial Market]] — actor (UAE exchange, -17% during conflict)
 - [[Exail Technologies]] — actor (French MCM drone specialist, +5.8% on Hormuz mine threat)
+- [[Equinor]] — actor (zero ME exposure, best-performing Western major since Feb 28)
+- [[Exxon]] — actor (~20% ME FCF, lagging peers +2%, CEO Woods on supply adaptation)
+- [[Schlumberger|SLB]] — actor (first oilfield services profit warning on conflict, Mar 13)
+- [[Neste]] — actor (refiner beneficiary of ME refined product supply cuts)
+- [[Repsol]] — actor (refiner beneficiary)
+- [[Fuel oil]] — bunker fuel crisis ($140-175/bbl, record; Asian ports running dry)
+- [[Vincent Clerc]] — Maersk CEO warning of "dry supply points in Asia"
+- [[Rystad Energy]] — source (US producer FCF modeling, supermajor ME exposure data)
+- [[Jefferies]] — source ($5bn/month US producer windfall estimate)
 
 ### Cross-vault
 - [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — military timeline, casualties, diplomatic responses

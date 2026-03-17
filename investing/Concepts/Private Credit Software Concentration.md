@@ -12,6 +12,7 @@ The largest single-sector concentration risk in the $3T [[Private credit]] marke
 | Metric | Value | Source |
 |--------|-------|--------|
 | Software share of BDC investments | ~17% by deal count (#2 sector) | PitchBook |
+| Software share of private credit borrowers | ~20% | S&P Global Ratings |
 | Software in speculative-grade credit | $597B-$681B | Deutsche Bank |
 | Software as % of spec-grade universe | 14-16% ("all-time concentration") | Deutsche Bank (Steve Caprio) |
 | Software share of PIK loans | #1 sector | PitchBook LCD |
@@ -285,6 +286,9 @@ Core thesis: AI will impact software companies on a case-by-case basis rather th
 2. Proprietary data moats — companies with unique datasets and deep domain expertise have defensible positions; AI models need their training data
 3. Case-by-case differentiation — horizontal, rule-based workflow tools face existential risk; vertical SaaS with proprietary data, regulatory compliance, and industry-specific logic does not
 4. Refinancing timeline matters most — near-term credit risk is whether companies can refinance before disruption materializes. Only 0.5% of software loans mature in 2026; 6% in 2027 ([[Fitch]] data, Brendan Hoelmer)
+5. Resilience caveat — S&P noted that credit quality of software issuers in private credit "has remained resilient," but flagged this was based on deals reviewed in 2025: "this year's trends could look different"
+
+S&P analysts (Mar 11): *"We believe less-differentiated, rule-based, point-solutions software providers may face higher margin pressure and displacement than established platform leaders with deep domain expertise and proprietary data."*
 
 ### Contrasting views across rating agencies and banks
 

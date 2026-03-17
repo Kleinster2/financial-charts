@@ -92,6 +92,14 @@ Meituan's food delivery business requires massive last-mile logistics. Investing
 
 ---
 
+## International expansion — [[Keeta]]
+
+Meituan's international food delivery arm. Launched in [[Brazil]] (Santos) in October 2025, targeting [[iFood]]'s ~80% market share in a R$100B annual market. Part of a combined R$7.6B ($1.5B) investment pledge alongside [[Didi]]'s [[99]]. CEO Tony Qiu. The push comes as domestic margins face pressure from [[Alibaba]]'s Ele.me instant commerce competition.
+
+[[iFood]] alleges corporate espionage via foreign consultancies targeting ~500 employees. Meituan acknowledged engaging one consultancy "for several years on sector studies" but called it standard practice. [[Keeta]] itself claims to have been targeted — imposters visited Santos restaurants day after launch, photographing systems and shutting down accounts. See [[Chinese entry into Brazil food delivery 2025]].
+
+---
+
 ## Competitive landscape
 
 | Company | Position |
@@ -99,7 +107,7 @@ Meituan's food delivery business requires massive last-mile logistics. Investing
 | **Meituan** | \#1 food delivery (60-70%) |
 | Ele.me ([[Alibaba]]) | \#2 food delivery |
 | JD.com | Grocery, logistics |
-| Didi | Ride-hailing |
+| [[Didi]] | Ride-hailing (co-investor in Brazil via [[99]]) |
 
 ---
 
@@ -128,11 +136,14 @@ Meituan's food delivery business requires massive last-mile logistics. Investing
 
 ## Related
 
+- [[Keeta]] — international food delivery subsidiary (Brazil)
 - [[X Square Robot]] — portfolio (¥1B+ invested, lead)
 - [[Alibaba]] — competitor (Ele.me instant commerce)
 - [[ByteDance]] — peer (China tech, co-investor in X Square)
 - [[China]] — geographic context
+- [[Brazil]] — international expansion market
 - [[Robotics]] — investment theme
+- [[Chinese entry into Brazil food delivery 2025]] — event context
 
 ---
 

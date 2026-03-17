@@ -11,6 +11,7 @@
 | F-35 | ~$80M | Must survive every mission |
 | Reaper (MQ-9) | ~$30M | Expensive, limited numbers |
 | **Valkyrie (XQ-58)** | ~$[[3M]] | Designed to be lost |
+| **[[LUCAS]]** | ~$35K | One-way attack, 500 mi range, reverse-engineered [[Shahed-136]] |
 | **Switchblade 600** | ~$50K | One-use, anti-armor |
 | **FPV drone (Ukraine)** | ~$500 | Disposable, mass-produced |
 
@@ -142,6 +143,8 @@ Every drone capability creates counter-drone demand:
 - [[European defense spending]] — [[3M]] drones/year requirement
 - [[Defense supply chain]] — production scaling constraints
 - [[Long defense AI]] — thesis overlap
+- [[LUCAS]] — first US long-range loitering munition in combat ($35K, [[SpektreWorks]])
+- [[SpektreWorks]] — LUCAS manufacturer (Phoenix, AZ, private)
 
 ---
 

@@ -48,7 +48,7 @@ Nuclear power is the only scalable, baseload solution for AI data center demand.
 | **[[Uranium]]** | [[Cameco]], [[Energy Fuels]] | Upstream fuel supply |
 | **Materials** | [[EnergyX]], [[Centrus Energy]] | Li isotopes, HALEU |
 | **Startups** | [[Fermi]] | Nuclear-powered DC (11GW target) |
-| **Fusion** | [[Inertia Enterprises]], [[Commonwealth Fusion Systems]], [[Helion Energy]] | ICF, tokamak, pulsed FRC |
+| **Fusion** | [[Inertia Enterprises]], [[Commonwealth Fusion Systems]], [[Helion Energy]], [[UK Fusion Energy]] | ICF, tokamak, pulsed FRC, gov-backed integrator |
 
 ---
 
@@ -100,6 +100,7 @@ Nuclear power is the only scalable, baseload solution for AI data center demand.
 | 2026-01 | Fermi IPO +55% first day | Market enthusiasm |
 | 2026-01 | [[EnergyX]] launches NUKE-it platform | Materials supply chain forming |
 | 2026-02 | [[Inertia Enterprises]] $450M Series A | ICF fusion commercializing, [[Jeff Lawson]] (ex-[[Twilio]]) |
+| 2026-03 | [[UK Fusion Energy]] restructured for private investment | Government fusion going commercial; £1.3bn backing, STEP reactor targets grid by 2040 |
 
 ---
 

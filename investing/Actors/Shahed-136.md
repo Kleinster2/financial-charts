@@ -35,5 +35,6 @@ Iranian-made one-way attack drone (loitering munition) produced by Iran Aircraft
 - [[Iran]] — country of origin
 - [[Russia]] — primary foreign operator (Geran-2 variant)
 - [[Ukraine war]] — primary theater of use
+- [[LUCAS]] — US reverse-engineered derivative (FLM-136 Block 1, [[SpektreWorks]])
 - [[LoongUAV]] — Chinese competitor (LOONG M9)
 - [[Drone warfare]] — tactical drone proliferation

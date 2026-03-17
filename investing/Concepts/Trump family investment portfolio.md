@@ -19,8 +19,11 @@ The [[Donald Trump|Trump]] family is systematically building a commercial portfo
 | **Defense/Drones** | [[Powerus]] | Eric, Don Jr. | Drone roll-up; AGH reverse merger (PUSA); $9M placement + $50M KCGI; targeting Pentagon Drone Dominance |
 | **Defense/Drones** | [[XTEND]] | Eric Trump | $152M PIPE, Israeli "low cost-per-kill" drones, $1.5B Nasdaq merger |
 | **Defense/Drones** | [[Unusual Machines]] | Don Jr. | Shareholder & advisory board member; drone components (UMAC); Pentagon motor contracts |
+| **Defense/Drones** | Aureus Greenway Holdings (AGH) | Eric, Don Jr. | Golf club operator merging with unnamed Pentagon drone company (announced Mar 10, 2026); [[Dominari Securities]] + Revere Securities advising |
+| **PE / Gulf capital** | [[Affinity Partners]] | Jared Kushner | ~$5B AUM; $2B PIF anchor; $1.5B QIA/Lunate; "first look" rights with PIF; EA $52.5B LBO; Gaza "Board of Peace" |
 | **AI/VC** | [[1789 Capital]] | Trump's son (partner) | Pro-Trump VC, declined [[Anthropic]] on ideological grounds |
 | **Real estate** | Trump Organization | Family | Pre-existing, ongoing |
+| **Real estate** | [[Kushner Companies]] | [[Jared Kushner]], [[Charles Kushner]] | 666 Fifth Avenue ($1.8B, bailed out by [[Brookfield]]/QIA) |
 | **Media** | Trump Media & Technology Group | Donald | Parent of Truth Social |
 
 ---
@@ -60,6 +63,7 @@ A new dynamic: investment decisions driven by political alignment rather than pu
 - "Trump premium" reverses if administration changes
 - Reputational risk for co-investors
 - Legal exposure (emoluments-style challenges)
+- Broker-dealer network (Dominari, Revere, D Boral) under bipartisan congressional probe for facilitating Chinese IPO fraud — reputational contagion risk
 - Companies may be overvalued on political access rather than fundamentals
 
 **For the broader market:**
@@ -69,17 +73,20 @@ A new dynamic: investment decisions driven by political alignment rather than pu
 
 ---
 
-## The drone trifecta (Feb-Mar 2026)
+## The drone quartet (Feb-Mar 2026)
 
-Three drone investments in one month, each through a different structure:
+Four drone investments in two months, each through a different structure:
 
 | Deal | Date | Structure | Scale | Status |
 |------|------|-----------|-------|--------|
 | [[Unusual Machines]] | Pre-existing | Don Jr. advisory board + shares (~$4M) | Pentagon motor contracts (3,500 units, 20K expected) | Trading (UMAC) |
 | [[XTEND]] | Feb 2026 | Eric Trump backs $1.5B reverse merger via JFB Construction | Israeli "low cost-per-kill" AI drones | Pending |
 | [[Powerus]] | Mar 2026 | Both brothers via American Ventures; AGH reverse merger | US heavy-lift, Ukrainian tech licensing | Pending (PUSA, summer 2026) |
+| AGH drone deal | Mar 2026 | Trump Jr. + Eric as "notable investors"; Dominari + Revere advising | Golf club operator merging with unnamed Pentagon drone company | Announced Mar 10 |
 
 **The circular structure:** [[Unusual Machines]] is a Powerus investor *and* reportedly a Powerus supplier. [[Dominari Securities]] advises the Powerus deal *and* has both Trump brothers as ~6% shareholders. [[1789 Capital]] portfolio companies have won $735M+ in Trump admin contracts in 2026 alone.
+
+**Broker-dealer nexus under congressional scrutiny (Mar 9, 2026):** The bipartisan [[House Select Committee on China|House China Committee]] (John Moolenaar, R + Ro Khanna, D) sent letters to [[Dominari Securities]], Revere Securities, and D Boral Capital demanding information about their role underwriting US IPOs of Chinese small-cap companies implicated in "ramp-and-dump" stock manipulation by organized crime networks aligned with the CCP. [[SEC]] launched a gatekeeper task force in September 2025 targeting auditors and underwriters; FBI reported 300% YoY increase in ramp-and-dump complaints; DOJ secured 10 criminal indictments and seized $214M in fraudulent proceeds. Several Dominari-underwritten Chinese IPOs experienced 80%+ price collapses or SEC trading suspensions. D Boral Capital (formerly EF Hutton) also took [[Truth Social|Trump Media]] public via the Digital World Acquisition Corp SPAC. The same broker-dealers advising Trump family drone deals are simultaneously under probe for facilitating Chinese securities fraud.
 
 ---
 
@@ -98,5 +105,8 @@ Three drone investments in one month, each through a different structure:
 - [[Pete Hegseth]] — Defense Secretary, AI policy gatekeeper
 - [[xAI]] — beneficiary of Musk-Trump alignment
 - [[Drones]] — sector most concentrated with Trump family exposure
+- [[Affinity Partners]] — Kushner's Gulf-funded PE ($5B AUM, "first look" with PIF)
+- [[Jared Kushner]] — son-in-law, Special Envoy + Affinity founder
+- [[Kushner Companies]] — family real estate (666 Fifth Ave)
 
-*Created 2026-02-18 · Updated 2026-03-10*
+*Created 2026-02-18 · Updated 2026-03-17*

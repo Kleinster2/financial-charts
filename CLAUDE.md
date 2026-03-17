@@ -8,6 +8,14 @@ This project is an integrated system: **database → charts → vault**.
 
 ---
 
+## Daily Note Rules
+
+When updating or creating notes, ALWAYS update TODAY's daily note (based on current date), never yesterday's. Before writing to a daily note, run `date` to confirm the current date.
+
+After creating or expanding any entity note, ALWAYS log it in the daily note's summary section before finishing. Every stub created must also be logged. This is the #1 cause of compliance hook failures.
+
+---
+
 ## Code Changes — Explore First
 
 **Before modifying any code file, explore the surrounding codebase first.** Check for existing patterns, utility scripts, and similar implementations elsewhere in the project. Never edit a file you haven't explored the context of. The sequence is always: explore → understand existing patterns → write code that follows them.
@@ -204,6 +212,10 @@ Use `/earnings TICKER` to process earnings — check DB, find latest data, inser
 - **Daily notes as inbox** — capture first, extract when mature
 - **Event notes for multi-actor stories** — when a single event touches 3+ actor notes (e.g., a deal, a policy announcement, a market event), create a dedicated event note in `Events/` with the full detail. Actor notes carry short summaries + `[[link]]` to the event note. Prevents duplication, keeps actors focused.
 
+### Terse Prompts
+
+When the user gives a terse entity name (e.g., 'fermi america', 'nikki beach'), assume they want to check if a note exists and potentially create one. Do not ask for clarification on what the entity is — research it.
+
 ### Edit Gates (CRITICAL)
 
 1. **Pre-edit — Entity linking:** Before editing ANY note, check if mentioned entities have notes (including aliases). If missing → create stub. Always use `[[wikilinks]]`.
@@ -233,8 +245,9 @@ Use `/earnings TICKER` to process earnings — check DB, find latest data, inser
 
 ### Note Formatting
 
-- Do NOT use bold (`**text**`) inside note bodies except for section headers and the note name on its first appearance in the body
-- All entity references must use `[[wikilinks]]`
+- **Bold formatting is banned** in note bodies except for section headers and the note name on its first appearance. Not for emphasis, not for key terms, not for evolution bullet openers. This is a hard rule — compliance hooks catch it.
+- **All entity references must use `[[wikilinks]]`** — every company, person, product, concept, country mentioned in a note gets linked, no exceptions. If the target note doesn't exist, link it anyway (it becomes a stub candidate).
+- **Every note must have frontmatter** — aliases, tags, and relevant metadata. Notes without frontmatter fail compliance checks.
 - Private companies must be tagged appropriately in frontmatter
 - Always include a funding rounds table where funding data exists — this applies to private companies and to the pre-IPO history of public companies
 

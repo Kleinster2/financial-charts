@@ -1,0 +1,134 @@
+[
+  {
+    "path": "investing/Actors/SBB.md",
+    "name": "SBB",
+    "lines": 12,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Sebastian Raschka.md",
+    "name": "Sebastian Raschka",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Social Capital.md",
+    "name": "Social Capital",
+    "lines": 20,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Steve Faulkner.md",
+    "name": "Steve Faulkner",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Sun Hung Kai Properties.md",
+    "name": "Sun Hung Kai Properties",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/SunFi.md",
+    "name": "SunFi",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Swissquote.md",
+    "name": "Swissquote",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Techtronic Industries.md",
+    "name": "Techtronic Industries",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/The Weather Company.md",
+    "name": "The Weather Company",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Tom Brown.md",
+    "name": "Tom Brown",
+    "lines": 17,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Tyler Cowen.md",
+    "name": "Tyler Cowen",
+    "lines": 19,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/University of California.md",
+    "name": "University of California",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Verint.md",
+    "name": "Verint",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Visible Alpha.md",
+    "name": "Visible Alpha",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Concepts/Hong Kong dollar.md",
+    "name": "Hong Kong dollar",
+    "lines": 15,
+    "refs": 1
+  },
+  {
+    "path": "investing/Concepts/Information asymmetry.md",
+    "name": "Information asymmetry",
+    "lines": 13,
+    "refs": 1
+  },
+  {
+    "path": "investing/Concepts/Insurance float.md",
+    "name": "Insurance float",
+    "lines": 15,
+    "refs": 1
+  },
+  {
+    "path": "investing/Concepts/Marcellus.md",
+    "name": "Marcellus",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Chris Olah.md",
+    "name": "Chris Olah",
+    "lines": 17,
+    "refs": 0
+  },
+  {
+    "path": "investing/Concepts/Stocks and shares ISA.md",
+    "name": "Stocks and shares ISA",
+    "lines": 25,
+    "refs": 0
+  },
+  {
+    "path": "investing/Daily/2026-02-28.md",
+    "name": "2026-02-28",
+    "lines": 22,
+    "refs": 0
+  },
+  {
+    "path": "investing/Portfolio/Trade_Log.md",
+    "name": "Trade_Log",
+    "lines": 22,
+    "refs": 0
+  }
+]

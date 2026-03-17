@@ -67,6 +67,14 @@ Most-read investor letters in finance.
 
 ---
 
+## Data centre infrastructure
+
+[[Oaktree Capital]] backs [[Pure Data Centres]] Group, a UK-based DC operator that launched Europe's first off-grid data centre microgrid in Dublin (Mar 2026). The 110MW facility runs on biomethane with HVO backup, bypassing [[Ireland]]'s strained grid entirely. Pure's exec chair Gary Wojtaszek: "Europe has been energy constrained for a long time. I see this as something that's really going to explode everywhere." Five more microgrids are under construction in Dublin. See [[Global DC grid strain]].
+
+*Source: FT, Mar 17 2026*
+
+---
+
 ## Track record
 
 | Period | Performance |
@@ -95,6 +103,9 @@ Most-read investor letters in finance.
 - [[Ares Management]] — peer (credit)
 - [[Baupost Group]] — peer (distressed)
 - [[Brookfield]] — parent company
+- [[Pure Data Centres]] — Oaktree-backed, launched Europe's first off-grid DC microgrid (Dublin, Mar 2026)
+- [[Global DC grid strain]] — DC power constraint context
+- [[Ireland]] — Dublin microgrid location
 
 ---
 

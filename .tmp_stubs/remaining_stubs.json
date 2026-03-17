@@ -1,0 +1,1634 @@
+[
+  {
+    "path": "investing/Actors/Al Jazeera.md",
+    "name": "Al Jazeera",
+    "lines": 25,
+    "refs": 12
+  },
+  {
+    "path": "investing/Actors/Ashok Elluswamy.md",
+    "name": "Ashok Elluswamy",
+    "lines": 24,
+    "refs": 12
+  },
+  {
+    "path": "investing/Actors/Gafisa.md",
+    "name": "Gafisa",
+    "lines": 25,
+    "refs": 12
+  },
+  {
+    "path": "investing/Actors/Observe.md",
+    "name": "Observe",
+    "lines": 25,
+    "refs": 9
+  },
+  {
+    "path": "investing/Products/Trello.md",
+    "name": "Trello",
+    "lines": 21,
+    "refs": 9
+  },
+  {
+    "path": "investing/Actors/Jim McKelvey.md",
+    "name": "Jim McKelvey",
+    "lines": 15,
+    "refs": 8
+  },
+  {
+    "path": "investing/Actors/Kim-Eva Wempe.md",
+    "name": "Kim-Eva Wempe",
+    "lines": 24,
+    "refs": 8
+  },
+  {
+    "path": "investing/Actors/Rajeev Rajan.md",
+    "name": "Rajeev Rajan",
+    "lines": 21,
+    "refs": 8
+  },
+  {
+    "path": "investing/Actors/Worldline.md",
+    "name": "Worldline",
+    "lines": 24,
+    "refs": 8
+  },
+  {
+    "path": "investing/Actors/Afterpay.md",
+    "name": "Afterpay",
+    "lines": 18,
+    "refs": 7
+  },
+  {
+    "path": "investing/Actors/AIA Group.md",
+    "name": "AIA Group",
+    "lines": 25,
+    "refs": 7
+  },
+  {
+    "path": "investing/Actors/Bloomingdale's.md",
+    "name": "Bloomingdale's",
+    "lines": 25,
+    "refs": 7
+  },
+  {
+    "path": "investing/Actors/Jamie Raskin.md",
+    "name": "Jamie Raskin",
+    "lines": 19,
+    "refs": 7
+  },
+  {
+    "path": "investing/Actors/Simon Freakley.md",
+    "name": "Simon Freakley",
+    "lines": 22,
+    "refs": 7
+  },
+  {
+    "path": "investing/Actors/Zhu Qiuguo.md",
+    "name": "Zhu Qiuguo",
+    "lines": 14,
+    "refs": 7
+  },
+  {
+    "path": "investing/Concepts/Hang Seng Index.md",
+    "name": "Hang Seng Index",
+    "lines": 17,
+    "refs": 7
+  },
+  {
+    "path": "investing/Concepts/Laffer curve.md",
+    "name": "Laffer curve",
+    "lines": 24,
+    "refs": 7
+  },
+  {
+    "path": "investing/Actors/Al Koch.md",
+    "name": "Al Koch",
+    "lines": 24,
+    "refs": 6
+  },
+  {
+    "path": "investing/Actors/Alstom.md",
+    "name": "Alstom",
+    "lines": 23,
+    "refs": 6
+  },
+  {
+    "path": "investing/Actors/Arbutus Biopharma.md",
+    "name": "Arbutus Biopharma",
+    "lines": 24,
+    "refs": 6
+  },
+  {
+    "path": "investing/Actors/China Media Group.md",
+    "name": "China Media Group",
+    "lines": 24,
+    "refs": 6
+  },
+  {
+    "path": "investing/Actors/DISA.md",
+    "name": "DISA",
+    "lines": 24,
+    "refs": 6
+  },
+  {
+    "path": "investing/Actors/Guodong Zhang.md",
+    "name": "Guodong Zhang",
+    "lines": 24,
+    "refs": 6
+  },
+  {
+    "path": "investing/Actors/Labour Party (Norway).md",
+    "name": "Labour Party (Norway)",
+    "lines": 18,
+    "refs": 6
+  },
+  {
+    "path": "investing/Actors/Medallia.md",
+    "name": "Medallia",
+    "lines": 18,
+    "refs": 6
+  },
+  {
+    "path": "investing/Actors/NetJets.md",
+    "name": "NetJets",
+    "lines": 24,
+    "refs": 6
+  },
+  {
+    "path": "investing/Actors/A&O Shearman.md",
+    "name": "A&O Shearman",
+    "lines": 25,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/Brian & Barry Group.md",
+    "name": "Brian & Barry Group",
+    "lines": 22,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/Bugatti.md",
+    "name": "Bugatti",
+    "lines": 25,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/Corbin Capital Partners.md",
+    "name": "Corbin Capital Partners",
+    "lines": 22,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/ESPN.md",
+    "name": "ESPN",
+    "lines": 23,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/eToro.md",
+    "name": "eToro",
+    "lines": 23,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/Francisco Gomes Neto.md",
+    "name": "Francisco Gomes Neto",
+    "lines": 23,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/FS KKR Capital Corp.md",
+    "name": "FS KKR Capital Corp",
+    "lines": 21,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/Guilherme Benchimol.md",
+    "name": "Guilherme Benchimol",
+    "lines": 24,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/Heineken.md",
+    "name": "Heineken",
+    "lines": 23,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/Karthik Rao.md",
+    "name": "Karthik Rao",
+    "lines": 24,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/Latvia.md",
+    "name": "Latvia",
+    "lines": 24,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/McLaren.md",
+    "name": "McLaren",
+    "lines": 23,
+    "refs": 5
+  },
+  {
+    "path": "investing/Actors/Andrew Milich.md",
+    "name": "Andrew Milich",
+    "lines": 23,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Andy Rubin.md",
+    "name": "Andy Rubin",
+    "lines": 24,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Bill Gross.md",
+    "name": "Bill Gross",
+    "lines": 19,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Brian Armstrong.md",
+    "name": "Brian Armstrong",
+    "lines": 24,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Brittany Bagley.md",
+    "name": "Brittany Bagley",
+    "lines": 22,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/bwin.md",
+    "name": "bwin",
+    "lines": 25,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Carnegie Mellon University.md",
+    "name": "Carnegie Mellon University",
+    "lines": 25,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Changi Airport.md",
+    "name": "Changi Airport",
+    "lines": 25,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Chris Liddell.md",
+    "name": "Chris Liddell",
+    "lines": 13,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Lead Edge.md",
+    "name": "Lead Edge",
+    "lines": 22,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Lee Jae Myung.md",
+    "name": "Lee Jae Myung",
+    "lines": 22,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Mast Brothers.md",
+    "name": "Mast Brothers",
+    "lines": 25,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Oman Investment Authority.md",
+    "name": "Oman Investment Authority",
+    "lines": 25,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Oxford Nanopore.md",
+    "name": "Oxford Nanopore",
+    "lines": 24,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Peng Liyuan.md",
+    "name": "Peng Liyuan",
+    "lines": 24,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Pipedream.md",
+    "name": "Pipedream",
+    "lines": 23,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/Red Bull.md",
+    "name": "Red Bull",
+    "lines": 22,
+    "refs": 4
+  },
+  {
+    "path": "investing/Actors/ABA.md",
+    "name": "ABA",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Arvind Krishna.md",
+    "name": "Arvind Krishna",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Aston Villa.md",
+    "name": "Aston Villa",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Atlas Elektronik.md",
+    "name": "Atlas Elektronik",
+    "lines": 14,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/BambooHR.md",
+    "name": "BambooHR",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Bar Mercer.md",
+    "name": "Bar Mercer",
+    "lines": 15,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Barack Obama.md",
+    "name": "Barack Obama",
+    "lines": 20,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Ben Buchanan.md",
+    "name": "Ben Buchanan",
+    "lines": 13,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Bimbo.md",
+    "name": "Bimbo",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/BMO Capital.md",
+    "name": "BMO Capital",
+    "lines": 23,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Boehringer Ingelheim.md",
+    "name": "Boehringer Ingelheim",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Cal-Maine Foods.md",
+    "name": "Cal-Maine Foods",
+    "lines": 20,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Cemex.md",
+    "name": "Cemex",
+    "lines": 23,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/CoreData Research.md",
+    "name": "CoreData Research",
+    "lines": 22,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Costa Rica.md",
+    "name": "Costa Rica",
+    "lines": 22,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/David Risher.md",
+    "name": "David Risher",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Day Job.md",
+    "name": "Day Job",
+    "lines": 19,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Dean Ball.md",
+    "name": "Dean Ball",
+    "lines": 13,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/DHL.md",
+    "name": "DHL",
+    "lines": 20,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Elsevier.md",
+    "name": "Elsevier",
+    "lines": 22,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Etron Technology.md",
+    "name": "Etron Technology",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Evan Spiegel.md",
+    "name": "Evan Spiegel",
+    "lines": 21,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Finimize.md",
+    "name": "Finimize",
+    "lines": 23,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Fireman's Fund.md",
+    "name": "Fireman's Fund",
+    "lines": 17,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/FKA Twigs.md",
+    "name": "FKA Twigs",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/FTI Consulting.md",
+    "name": "FTI Consulting",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/GAC.md",
+    "name": "GAC",
+    "lines": 12,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Gallup.md",
+    "name": "Gallup",
+    "lines": 21,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/GfK.md",
+    "name": "GfK",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Haun Ventures.md",
+    "name": "Haun Ventures",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Inchcape Shipping Services.md",
+    "name": "Inchcape Shipping Services",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/IShowSpeed.md",
+    "name": "IShowSpeed",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/IWG.md",
+    "name": "IWG",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Jared Kaplan.md",
+    "name": "Jared Kaplan",
+    "lines": 18,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Jim Keller.md",
+    "name": "Jim Keller",
+    "lines": 14,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Jimmy Ba.md",
+    "name": "Jimmy Ba",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Kai Cenat.md",
+    "name": "Kai Cenat",
+    "lines": 23,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Li Shufu.md",
+    "name": "Li Shufu",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Loro Piana.md",
+    "name": "Loro Piana",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Matt Knight.md",
+    "name": "Matt Knight",
+    "lines": 23,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Melius.md",
+    "name": "Melius",
+    "lines": 21,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Michelle Obama.md",
+    "name": "Michelle Obama",
+    "lines": 19,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/New Mountain Finance.md",
+    "name": "New Mountain Finance",
+    "lines": 18,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Oppenheimer.md",
+    "name": "Oppenheimer",
+    "lines": 21,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Piaget.md",
+    "name": "Piaget",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/PieceMakers Technology.md",
+    "name": "PieceMakers Technology",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Precious Shipping.md",
+    "name": "Precious Shipping",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Prepared.md",
+    "name": "Prepared",
+    "lines": 22,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Qiming Venture Partners.md",
+    "name": "Qiming Venture Partners",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Qin Gang.md",
+    "name": "Qin Gang",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Quilter Cheviot.md",
+    "name": "Quilter Cheviot",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Rebekah Neumann.md",
+    "name": "Rebekah Neumann",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Reese Witherspoon.md",
+    "name": "Reese Witherspoon",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Richard Koo.md",
+    "name": "Richard Koo",
+    "lines": 17,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Rishi Jaluria.md",
+    "name": "Rishi Jaluria",
+    "lines": 20,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/River Plate.md",
+    "name": "River Plate",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Sarah Guo.md",
+    "name": "Sarah Guo",
+    "lines": 22,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Senegal.md",
+    "name": "Senegal",
+    "lines": 22,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Serena Williams.md",
+    "name": "Serena Williams",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Siemens Healthineers.md",
+    "name": "Siemens Healthineers",
+    "lines": 22,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Standard Bank.md",
+    "name": "Standard Bank",
+    "lines": 22,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Steven Spielberg.md",
+    "name": "Steven Spielberg",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Tarun Chhabra.md",
+    "name": "Tarun Chhabra",
+    "lines": 13,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Tegus.md",
+    "name": "Tegus",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/The Hour Glass.md",
+    "name": "The Hour Glass",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Thomas Helaine.md",
+    "name": "Thomas Helaine",
+    "lines": 13,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Tony Wu.md",
+    "name": "Tony Wu",
+    "lines": 23,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Tucker Carlson.md",
+    "name": "Tucker Carlson",
+    "lines": 21,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/USDA.md",
+    "name": "USDA",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Wachtell Lipton.md",
+    "name": "Wachtell Lipton",
+    "lines": 21,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Wealthfront.md",
+    "name": "Wealthfront",
+    "lines": 22,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Wedbush.md",
+    "name": "Wedbush",
+    "lines": 21,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Zabar's.md",
+    "name": "Zabar's",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Zane Rowe.md",
+    "name": "Zane Rowe",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Zealand Pharma.md",
+    "name": "Zealand Pharma",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Concepts/B Corp.md",
+    "name": "B Corp",
+    "lines": 23,
+    "refs": 3
+  },
+  {
+    "path": "investing/Concepts/Teenage Mutant Ninja Turtles.md",
+    "name": "Teenage Mutant Ninja Turtles",
+    "lines": 25,
+    "refs": 3
+  },
+  {
+    "path": "investing/Products/Denza Z9 GT.md",
+    "name": "Denza Z9 GT",
+    "lines": 22,
+    "refs": 3
+  },
+  {
+    "path": "investing/Products/GreenLake.md",
+    "name": "GreenLake",
+    "lines": 24,
+    "refs": 3
+  },
+  {
+    "path": "investing/Products/Purple AI.md",
+    "name": "Purple AI",
+    "lines": 23,
+    "refs": 3
+  },
+  {
+    "path": "investing/Actors/Accretech.md",
+    "name": "Accretech",
+    "lines": 23,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Ahmad Al-Dahle.md",
+    "name": "Ahmad Al-Dahle",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Altair.md",
+    "name": "Altair",
+    "lines": 21,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Aphex.md",
+    "name": "Aphex",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Arkady Volozh.md",
+    "name": "Arkady Volozh",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Avataar AI.md",
+    "name": "Avataar AI",
+    "lines": 11,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Bedrock Capital.md",
+    "name": "Bedrock Capital",
+    "lines": 23,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Bobby Murphy.md",
+    "name": "Bobby Murphy",
+    "lines": 21,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/BOC Hong Kong.md",
+    "name": "BOC Hong Kong",
+    "lines": 24,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Borr Drilling.md",
+    "name": "Borr Drilling",
+    "lines": 23,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Bowery Meat Company.md",
+    "name": "Bowery Meat Company",
+    "lines": 15,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Brandon Johnson.md",
+    "name": "Brandon Johnson",
+    "lines": 24,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Brendan Carr.md",
+    "name": "Brendan Carr",
+    "lines": 21,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Brock Pierce.md",
+    "name": "Brock Pierce",
+    "lines": 23,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Cory Booker.md",
+    "name": "Cory Booker",
+    "lines": 19,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/CPChem.md",
+    "name": "CPChem",
+    "lines": 24,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/David Solomon.md",
+    "name": "David Solomon",
+    "lines": 24,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/DEA.md",
+    "name": "DEA",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Deborah Hersman.md",
+    "name": "Deborah Hersman",
+    "lines": 24,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Dedrone.md",
+    "name": "Dedrone",
+    "lines": 21,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/DFJ Growth.md",
+    "name": "DFJ Growth",
+    "lines": 23,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/FinecoBank.md",
+    "name": "FinecoBank",
+    "lines": 24,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Fractal Analytics.md",
+    "name": "Fractal Analytics",
+    "lines": 11,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Fred Ehrsam.md",
+    "name": "Fred Ehrsam",
+    "lines": 23,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Fundstrat.md",
+    "name": "Fundstrat",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Gan AI.md",
+    "name": "Gan AI",
+    "lines": 11,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/GenLoop.md",
+    "name": "GenLoop",
+    "lines": 11,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Guotai Haitong Securities.md",
+    "name": "Guotai Haitong Securities",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Harmony Korine.md",
+    "name": "Harmony Korine",
+    "lines": 21,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/IIM Ahmedabad.md",
+    "name": "IIM Ahmedabad",
+    "lines": 23,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/IntelliHealth.md",
+    "name": "IntelliHealth",
+    "lines": 11,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Jeanne Shaheen.md",
+    "name": "Jeanne Shaheen",
+    "lines": 19,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Kinetic Partners.md",
+    "name": "Kinetic Partners",
+    "lines": 20,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Kristalina Georgieva.md",
+    "name": "Kristalina Georgieva",
+    "lines": 24,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Kyrsten Sinema.md",
+    "name": "Kyrsten Sinema",
+    "lines": 19,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Legendary Ventures.md",
+    "name": "Legendary Ventures",
+    "lines": 21,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Lenovo Capital.md",
+    "name": "Lenovo Capital",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Majorel.md",
+    "name": "Majorel",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Mirae Asset.md",
+    "name": "Mirae Asset",
+    "lines": 23,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Monness Crespi.md",
+    "name": "Monness Crespi",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/MotoGP.md",
+    "name": "MotoGP",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/MultiPlan.md",
+    "name": "MultiPlan",
+    "lines": 7,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/My First Million.md",
+    "name": "My First Million",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/NYU Stern.md",
+    "name": "NYU Stern",
+    "lines": 20,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Old Mutual.md",
+    "name": "Old Mutual",
+    "lines": 24,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Pentamaster.md",
+    "name": "Pentamaster",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Perry Creek Capital.md",
+    "name": "Perry Creek Capital",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/RJ Scaringe.md",
+    "name": "RJ Scaringe",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Rosenblatt Securities.md",
+    "name": "Rosenblatt Securities",
+    "lines": 21,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Sam McCandlish.md",
+    "name": "Sam McCandlish",
+    "lines": 17,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Semgrep.md",
+    "name": "Semgrep",
+    "lines": 23,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Shodh AI.md",
+    "name": "Shodh AI",
+    "lines": 11,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Sky Sports.md",
+    "name": "Sky Sports",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/SoundField.md",
+    "name": "SoundField",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Space.VC.md",
+    "name": "Space.VC",
+    "lines": 24,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Standard Life.md",
+    "name": "Standard Life",
+    "lines": 24,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Subaru.md",
+    "name": "Subaru",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Suntory.md",
+    "name": "Suntory",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Tao Group.md",
+    "name": "Tao Group",
+    "lines": 14,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Tasting Table.md",
+    "name": "Tasting Table",
+    "lines": 14,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Ultra Ethernet Consortium.md",
+    "name": "Ultra Ethernet Consortium",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/W Hotels.md",
+    "name": "W Hotels",
+    "lines": 14,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Xavier Meyer.md",
+    "name": "Xavier Meyer",
+    "lines": 22,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Xora Innovation.md",
+    "name": "Xora Innovation",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/ZenteiQ.md",
+    "name": "ZenteiQ",
+    "lines": 11,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Zhiyuan Robot.md",
+    "name": "Zhiyuan Robot",
+    "lines": 25,
+    "refs": 2
+  },
+  {
+    "path": "investing/Concepts/Digital Advertising.md",
+    "name": "Digital Advertising",
+    "lines": 15,
+    "refs": 2
+  },
+  {
+    "path": "investing/Concepts/Factor investing.md",
+    "name": "Factor investing",
+    "lines": 13,
+    "refs": 2
+  },
+  {
+    "path": "investing/Concepts/Insider trading.md",
+    "name": "Insider trading",
+    "lines": 14,
+    "refs": 2
+  },
+  {
+    "path": "investing/Concepts/INSS.md",
+    "name": "INSS",
+    "lines": 21,
+    "refs": 2
+  },
+  {
+    "path": "investing/Concepts/Israeli shekel.md",
+    "name": "Israeli shekel",
+    "lines": 12,
+    "refs": 2
+  },
+  {
+    "path": "investing/Events/Avian Influenza.md",
+    "name": "Avian Influenza",
+    "lines": 21,
+    "refs": 2
+  },
+  {
+    "path": "investing/Products/AgentKit.md",
+    "name": "AgentKit",
+    "lines": 23,
+    "refs": 2
+  },
+  {
+    "path": "investing/Actors/Aberdeen Investcorp Infrastructure Partners.md",
+    "name": "Aberdeen Investcorp Infrastructure Partners",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Alesia Haas.md",
+    "name": "Alesia Haas",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Autodesk Foundation.md",
+    "name": "Autodesk Foundation",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Autopilot Fund.md",
+    "name": "Autopilot Fund",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/BG2Pod.md",
+    "name": "BG2Pod",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Bill Gurley.md",
+    "name": "Bill Gurley",
+    "lines": 18,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Carlos Slim.md",
+    "name": "Carlos Slim",
+    "lines": 21,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/CLP Holdings.md",
+    "name": "CLP Holdings",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Conor Gleeson.md",
+    "name": "Conor Gleeson",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Danone.md",
+    "name": "Danone",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Des Traynor.md",
+    "name": "Des Traynor",
+    "lines": 17,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Ducati.md",
+    "name": "Ducati",
+    "lines": 12,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Dun & Bradstreet.md",
+    "name": "Dun & Bradstreet",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Emilie Choi.md",
+    "name": "Emilie Choi",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Eoghan McCabe.md",
+    "name": "Eoghan McCabe",
+    "lines": 18,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/FMO.md",
+    "name": "FMO",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/GIZ.md",
+    "name": "GIZ",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/H Partners Management.md",
+    "name": "H Partners Management",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Hebbia.md",
+    "name": "Hebbia",
+    "lines": 21,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/HQ Trivia.md",
+    "name": "HQ Trivia",
+    "lines": 19,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Hustle Fund.md",
+    "name": "Hustle Fund",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Indiana.md",
+    "name": "Indiana",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Jan-Erik Asplund.md",
+    "name": "Jan-Erik Asplund",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Jared Leto.md",
+    "name": "Jared Leto",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Jason Kwon.md",
+    "name": "Jason Kwon",
+    "lines": 8,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Jorge Amar.md",
+    "name": "Jorge Amar",
+    "lines": 21,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Lenny's Podcast.md",
+    "name": "Lenny's Podcast",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Liftoff Mobile.md",
+    "name": "Liftoff Mobile",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Link REIT.md",
+    "name": "Link REIT",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Lori Systems.md",
+    "name": "Lori Systems",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Murata Manufacturing.md",
+    "name": "Murata Manufacturing",
+    "lines": 12,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/NASCAR.md",
+    "name": "NASCAR",
+    "lines": 21,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Oleksii Kuchaiev.md",
+    "name": "Oleksii Kuchaiev",
+    "lines": 8,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Paul Grewal.md",
+    "name": "Paul Grewal",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Petco.md",
+    "name": "Petco",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Postmates.md",
+    "name": "Postmates",
+    "lines": 20,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/RCMP.md",
+    "name": "RCMP",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Rockefeller Foundation.md",
+    "name": "Rockefeller Foundation",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Rocket Software.md",
+    "name": "Rocket Software",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Sabra Dipping Company.md",
+    "name": "Sabra Dipping Company",
+    "lines": 21,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Samsonite.md",
+    "name": "Samsonite",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/SBB.md",
+    "name": "SBB",
+    "lines": 12,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Sebastian Raschka.md",
+    "name": "Sebastian Raschka",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Social Capital.md",
+    "name": "Social Capital",
+    "lines": 20,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Steve Faulkner.md",
+    "name": "Steve Faulkner",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Sun Hung Kai Properties.md",
+    "name": "Sun Hung Kai Properties",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/SunFi.md",
+    "name": "SunFi",
+    "lines": 22,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Swissquote.md",
+    "name": "Swissquote",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Techtronic Industries.md",
+    "name": "Techtronic Industries",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/The Weather Company.md",
+    "name": "The Weather Company",
+    "lines": 24,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Tom Brown.md",
+    "name": "Tom Brown",
+    "lines": 17,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Tyler Cowen.md",
+    "name": "Tyler Cowen",
+    "lines": 19,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/University of California.md",
+    "name": "University of California",
+    "lines": 23,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Verint.md",
+    "name": "Verint",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Visible Alpha.md",
+    "name": "Visible Alpha",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Concepts/Hong Kong dollar.md",
+    "name": "Hong Kong dollar",
+    "lines": 15,
+    "refs": 1
+  },
+  {
+    "path": "investing/Concepts/Information asymmetry.md",
+    "name": "Information asymmetry",
+    "lines": 13,
+    "refs": 1
+  },
+  {
+    "path": "investing/Concepts/Insurance float.md",
+    "name": "Insurance float",
+    "lines": 15,
+    "refs": 1
+  },
+  {
+    "path": "investing/Concepts/Marcellus.md",
+    "name": "Marcellus",
+    "lines": 25,
+    "refs": 1
+  },
+  {
+    "path": "investing/Actors/Chris Olah.md",
+    "name": "Chris Olah",
+    "lines": 17,
+    "refs": 0
+  },
+  {
+    "path": "investing/Concepts/Stocks and shares ISA.md",
+    "name": "Stocks and shares ISA",
+    "lines": 25,
+    "refs": 0
+  },
+  {
+    "path": "investing/Daily/2026-02-28.md",
+    "name": "2026-02-28",
+    "lines": 22,
+    "refs": 0
+  },
+  {
+    "path": "investing/Portfolio/Trade_Log.md",
+    "name": "Trade_Log",
+    "lines": 22,
+    "refs": 0
+  }
+]

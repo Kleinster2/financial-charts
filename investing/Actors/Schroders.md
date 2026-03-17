@@ -98,6 +98,16 @@ RBC: "The deal acts as a statement in the value of traditional asset management.
 
 ---
 
+## Greencoat Renewables — DC green energy parks
+
+Schroders' Greencoat Renewables vehicle invested in its first combined renewables generation + data centre site (Mar 2026), in Drogheda, County Louth, north of Dublin. The model collocates renewable generation with DC load on a single site — a response to [[Ireland]]'s CRU requirement that new DCs source 80% of power from additional Irish renewables within 6 years.
+
+Paul O'Donnell (investment manager, Schroders Greencoat): even scaling back to 2-3GW of new DCs "is the big economic investment Ireland is going to unlock." See [[Global DC grid strain]].
+
+*Source: FT, Mar 17 2026*
+
+---
+
 ## Related
 
 - [[Nuveen]] — acquirer ($13.5B deal)
@@ -106,3 +116,5 @@ RBC: "The deal acts as a statement in the value of traditional asset management.
 - [[Amundi]] — Europe's largest fund manager (slightly above combined Nuveen-Schroders)
 - [[Aberdeen]] — peer, potential next target
 - [[Asset Management Consolidation]] — sector theme
+- [[Global DC grid strain]] — Greencoat Renewables investing in Irish DC green energy parks
+- [[Ireland]] — first Greencoat DC site (Drogheda)

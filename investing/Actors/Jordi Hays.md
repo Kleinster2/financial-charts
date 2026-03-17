@@ -1,10 +1,14 @@
 ---
-aliases: [Hays]
+aliases:
+  - Hays
+tags:
+  - actor
+  - person
+  - usa
+  - media
 ---
 
-#actor #person #usa
-
-Jordi Hays — entrepreneur and co-host/co-founder of [[TBPN]]. Previously founded Branded Native (YouTube ad network), co-founded Party Round (rebranded to Capital, backed by [[Andreessen Horowitz]] and [[GV|Google Ventures]], exited to [[Rho]]). Created NY Tech Week.
+**Jordi Hays** is an entrepreneur and co-host/co-founder of [[TBPN]]. A serial founder in the creator economy and fintech space, he built Branded Native (a YouTube ad network), co-founded Party Round (a cap table and fundraising platform later rebranded to Capital, backed by [[Andreessen Horowitz]] and [[GV|Google Ventures]], which exited via acquisition to [[Rho]]), and created NY Tech Week. Alongside co-host [[John Coogan]], TBPN has grown into a notable tech media platform covering startup economics, venture dynamics, and business analysis.
 
 ## Quick stats
 
@@ -12,7 +16,8 @@ Jordi Hays — entrepreneur and co-host/co-founder of [[TBPN]]. Previously found
 |--------|-------|
 | Based in | Los Angeles |
 | Known for | Co-host of [[TBPN]] |
-| Previous | Branded Native (founder); Party Round/Capital (co-founder, exited to [[Rho]]) |
+| Previous ventures | Branded Native (founder); Party Round/Capital (co-founder, exited to [[Rho]]) |
+| Created | NY Tech Week |
 
 ## Related
 
@@ -21,3 +26,4 @@ Jordi Hays — entrepreneur and co-host/co-founder of [[TBPN]]. Previously found
 - [[Andreessen Horowitz]] — Party Round investor
 - [[GV|Google Ventures]] — Party Round investor
 - [[Rho]] — acquired Party Round/Capital
+- [[Y Combinator]] — adjacent network

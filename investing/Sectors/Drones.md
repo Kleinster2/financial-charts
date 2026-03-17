@@ -57,7 +57,7 @@ First flight January 11, 2026. Heavy cargo drone from [[Norinco]] subsidiary Xi'
 | MALE (Medium-altitude long-endurance) | MQ-9 Reaper, Wing Loong | ISR, strike |
 | HALE (High-altitude long-endurance) | RQ-4 Global Hawk | Strategic ISR |
 | Tactical | Bayraktar TB2, Switchblade | Battlefield ISR, loitering munitions |
-| Loitering munition | [[Shahed-136]], [[LoongUAV]] M9 | Expendable strike, one-way attack |
+| Loitering munition | [[Shahed-136]], [[LUCAS]], [[LoongUAV]] M9 | Expendable strike, one-way attack |
 | Cargo | Tianma-1000 | Logistics, resupply |
 
 **Ukraine lessons:** Cheap drones (FPV, Bayraktar) reshaping warfare. See [[Ukraine war]].
@@ -121,6 +121,22 @@ See [[2026 Iran conflict market impact]] for full cross-sector reaction.
 
 ---
 
+## LUCAS — first US long-range loitering munition combat use (Feb 28, 2026)
+
+[[SpektreWorks]] (Phoenix, AZ) reverse-engineered [[Iran]]'s [[Shahed-136]] into [[LUCAS]] (Low-cost Uncrewed Combat Attack System) — a $35,000 one-way attack drone. First combat use confirmed by CENTCOM on February 28, 2026 during [[Operation Epic Fury]], fired by Task Force Scorpion Strike against IRGC targets.
+
+| Spec | LUCAS | Shahed-136 | Tomahawk |
+|------|-------|------------|----------|
+| Unit cost | $35K | $20-50K est. | $2.5M |
+| Range | 500 mi | 1,500+ km | 1,000+ mi |
+| Weight | 81.5 kg | 200 kg | 1,440 kg |
+
+18 months from concept to deployment. Government owns the IP — designed for multi-vendor production (up to 20 manufacturers). Part of the $1.1B Drone Dominance Program targeting 200,000+ drones by 2028.
+
+SpektreWorks is private, ~5-15 employees, ~$2M pre-LUCAS revenue. Not investable directly, but validates the cheap-drone thesis that benefits [[AeroVironment]], [[Kratos]], and the broader attritable munitions supply chain.
+
+---
+
 ## Related
 
 ### Military
@@ -146,6 +162,12 @@ See [[2026 Iran conflict market impact]] for full cross-sector reaction.
 - [[Powerus]] — roll-up targeting Pentagon contracts (PUSA, expected summer 2026)
 - [[XTEND]] — Israeli AI drone maker, $1.5B reverse merger (Feb 2026)
 - [[Unusual Machines]] — drone components, Trump Jr. adviser (UMAC)
+- **Aureus Greenway Holdings** (AGH) — golf club operator announced merger with unnamed Pentagon drone company (Mar 10, 2026). Trump Jr. and Eric Trump described as "notable investors." Dominari Securities and Revere Securities advising — both firms simultaneously under [[House China Committee]] probe for underwriting Chinese pump-and-dump IPOs
+
+### US low-cost / one-way attack
+- [[SpektreWorks]] — LUCAS manufacturer (private, Phoenix AZ)
+- [[LUCAS]] — $35K one-way attack drone, reverse-engineered Shahed-136
+- [[Griffon Aerospace]] — MQM-172 Arrowhead (competing Shahed derivative)
 
 ### Chinese drone proliferation
 - [[LoongUAV]] — private tactical drone/loitering munition maker (LOONG M9)

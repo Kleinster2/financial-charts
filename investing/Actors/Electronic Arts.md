@@ -36,7 +36,7 @@ EA shows moderate Communications correlation (XLC r = 0.55).
 
 | Detail | Value |
 |--------|-------|
-| Acquirers | PIF, [[Silver Lake]], Affinity Partners |
+| Acquirers | PIF, [[Silver Lake]], [[Affinity Partners]] |
 | Enterprise value | **$55B** |
 | Structure | All-cash |
 | Status | Announced Sep 2025 |

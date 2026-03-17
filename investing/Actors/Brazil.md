@@ -123,6 +123,7 @@ aliases: [Brasil, BRL, Brazilian]
 - Soybean exporter
 - China slowdown = Brazil commodity risk
 - **Chinese M&A:** [[Chinalco]] near acquiring [[Companhia Brasileira de Alumínio|CBA]] ($1.15B, Jan 2026) — securing non-China aluminum supply
+- **Chinese tech entry:** [[Meituan]]'s [[Keeta]] and [[Didi]]'s [[99]] launched food delivery in 2025, investing R$7.6B combined to challenge [[iFood]]'s ~80% monopoly. Lula government welcomed the investment, but corporate espionage allegations create friction. See [[Chinese entry into Brazil food delivery 2025]]
 
 ### Currency as swing factor
 - BRL volatility creates timing opportunities
@@ -227,8 +228,16 @@ See [[Brazil oil shock trilemma March 2026]] for full analysis.
 - [[Companhia Brasileira de Alumínio|CBA]] — largest aluminum producer (480K t/yr), [[Votorantim]] subsidiary, [[Chinalco]] acquisition target
 - [[Votorantim]] — major conglomerate (69% CBA owner)
 
+### Delivery / Tech
+- [[iFood]] — dominant food delivery (~80% share), [[Prosus]] subsidiary
+- [[Keeta]] — [[Meituan]] food delivery entrant (launched Oct 2025)
+- [[99]] — [[Didi]] ride-hailing + food delivery (relaunched 2025)
+
+### Events
+- [[Chinese entry into Brazil food delivery 2025]] — espionage allegations, R$7.6B Chinese investment
+
 ### Regional
-- [[China]] — commodity trade partner, [[Chinalco]] CBA acquisition
+- [[China]] — commodity trade partner, [[Chinalco]] CBA acquisition, tech investment
 
 ---
 

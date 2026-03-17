@@ -1,25 +1,30 @@
+---
+aliases:
+  - Lenke
+tags:
+  - actor
+  - person
+  - founder
+  - germany
+---
+
 # Michael Lenke
 
-#actor #person #founder
+German inventor who created the Womanizer, the first clitoral suction vibrator, in 2014 in Bavaria. The device uses air pulse technology — pressure waves rather than direct vibration — creating an entirely new product category in the sexual wellness industry. Development took approximately two years; his wife Brigitte helped test prototypes. The invention was inspired by research showing ~50% of women have difficulty reaching orgasm through penetration alone.
 
-German inventor who created the Womanizer — first clitoral suction vibrator. Sold company to Johannes Plettenberg; now part of [[Lovehoney Group]].
+Lenke sold the company to Johannes Plettenberg in 2017, who scaled it into a global brand. Plettenberg merged Womanizer with We-Vibe to form WOW Tech Group (2018), which then merged with [[Lovehoney Group]] in 2021 to create the world's largest sexual wellness company. Lenke is no longer involved in management, but the air pulse technology he invented now drives a significant portion of industry revenue, with competitors like [[Satisfyer]] (owned by Triple A Internetshops) building copycat products that dominate the mass market.
 
-## Background
+## Quick stats
 
-Created the first Womanizer in **2014** in Bavaria, Germany. Inspired by a study showing ~50% of women have difficulty orgasming. Development took ~2 years; wife Brigitte helped test prototypes.
-
-## The invention
-
-**Air pulse technology:** Instead of vibration, Womanizer uses air pressure waves for clitoral stimulation. Novel mechanism that created a new product category — now copied by [[Satisfyer]] and others.
-
-## Exit
-
-Sold Womanizer to **Johannes Plettenberg** (2017), who built it into a global brand. Plettenberg merged it with We-Vibe to form WOW Tech Group (2018), which later merged with Lovehoney (2021).
-
-Lenke is no longer involved in management but the technology he invented now drives a significant portion of the sexual wellness industry.
+| Field | Value |
+|-------|-------|
+| Invention | Womanizer (first air pulse vibrator, 2014) |
+| Technology | Air pulse / pressure wave stimulation |
+| Exit | Sold to Johannes Plettenberg (2017) |
+| Current owner | [[Lovehoney Group]] (via WOW Tech merger, 2021) |
 
 ## Related
 
 - [[Lovehoney Group]] — owns Womanizer brand
-- [[Satisfyer]] — competitor using similar technology
-- Womanizer — the product he invented
+- [[Satisfyer]] — competitor using similar air pulse technology
+- [[Germany]] — home country, Bavaria-based invention

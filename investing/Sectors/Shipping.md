@@ -52,6 +52,18 @@ Global maritime shipping: container lines, ports, and port equipment.
 
 ---
 
+## Bunker fuel crisis (March 2026)
+
+The [[Strait of Hormuz]] closure has produced an acute [[Fuel oil|fuel oil]] shortage at the world's most important bunkering ports. [[Singapore]] (#1, 54.9M metric tons) and [[Fujairah]] (#3, 7.5M metric tons) are both running very low. Fuel oil — the "bottom of the barrel" residual that powers container ships — has decoupled from crude: $140/bbl in Singapore, ~$160 in Fujairah, vs ~$100 Brent crude. Low-sulfur grades ([[VLSFO]]) fetch up to $175. These are all-time highs, exceeding 2008 and 2022 peaks.
+
+Persian Gulf refineries produce 20% of globally traded fuel oil ([[IEA]]), and Gulf crude (Arab Light) yields ~50% residue vs 33% for [[WTI|US crude]] — so replacing Gulf barrels with US or Russian supply produces structurally less fuel oil per barrel processed. With SPRs already tapped, only demand destruction can rebalance the market.
+
+[[Maersk]] CEO [[Vincent Clerc]] (Le Monde, Mar 2026): *"If we do nothing, we risk ending with dry supply points in Asia."* The industry is shuttling fuel oil from Rotterdam, Gibraltar, Long Beach, and Panama into Asia.
+
+If bunkering ports run dry, ships halt — cascading through global supply chains.
+
+---
+
 ## Key concepts
 
 - [[Port automation]] — automation tech and investment implications
@@ -79,6 +91,7 @@ Global maritime shipping: container lines, ports, and port equipment.
 | **Overcapacity** | Container rate collapse |
 | **Cybersecurity regulation** | ZPMC revenue at risk |
 | **Red Sea / Suez** | Rerouting costs; Horn of Africa escalation risk (see below) |
+| **[[Lithium-ion shipping fires]]** | 250 fires in 2024 (decade high); 70% of LA port shut for 2 days in one incident; no extinguishing solution exists |
 
 ---
 
@@ -106,6 +119,10 @@ Beyond the ongoing Houthi shipping disruption, the Horn of Africa faces potentia
 - [[Yangshan Deep Water Port]] — world's busiest port
 - [[Port automation]] — efficiency driver
 - [[Northern Sea Route]] — Arctic corridor
+- [[Fuel oil]] — bunker fuel pricing crisis (Mar 2026)
+- [[Vincent Clerc]] — Maersk CEO, warned of dry supply points
 - [[Transport]] — broader sector
+- [[Wallenius Wilhelmsen]] — world's largest car carrier fleet
+- [[World Shipping Council]] — industry body, cargo safety
 
-*Updated 2026-01-11*
+*Updated 2026-03-17*

@@ -238,6 +238,30 @@ This is the same pattern as [[Teleperformance]]: the **threat of AI replacement*
 
 ---
 
+## Confluent acquisition ($11B, March 2026)
+
+IBM completed its acquisition of [[Confluent]] on March 17, 2026 — its largest deal since Red Hat ($34B, 2019).
+
+| Detail | Value |
+|--------|-------|
+| Target | [[Confluent]] (NASDAQ: CFLT) |
+| Price | **$31/share** (all-cash) |
+| Enterprise value | **~$11B** |
+| Premium | 34% over pre-announcement price |
+| Announced | December 8, 2025 |
+| Closed | March 17, 2026 |
+| CFLT | Delisted from Nasdaq |
+
+**Strategic rationale:** [[Agentic AI]] systems need real-time data streams. Confluent owns the commercial ecosystem around Apache Kafka — the dominant event streaming platform used by 80%+ of Fortune 100. Combined with watsonx (AI) and Red Hat (hybrid cloud), IBM now owns a full vertical stack: hardware (IBM Z) → data streaming (Confluent/Kafka) → AI (watsonx).
+
+**Competitive impact:** [[Amazon]] (MSK), [[Microsoft]] (Azure Event Hubs), and [[Google]] (Pub/Sub) all offer managed Kafka services. Their upstream technology partner is now a direct competitor in hybrid cloud.
+
+**Financials:** Confluent had ~$777M revenue (FY2024), cloud revenue growing 28-38% YoY, 4,900+ customers. Non-GAAP operating margin had turned positive. IBM paying ~14x revenue — rich but defensible if Confluent becomes the data layer for enterprise AI.
+
+**$1.1B in 0% convertible notes** (due 2027) triggered Fundamental Change provisions. Employee RSUs converted to IBM equity awards.
+
+---
+
 ## Investment implications
 
 **Bull case:**
@@ -285,6 +309,7 @@ This is the same pattern as [[Teleperformance]]: the **threat of AI replacement*
 - [[TSMC]] — research partner
 - [[Samsung]] — research partner
 - [[GlobalFoundries]] — former subsidiary (spun off)
+- [[Confluent]] — acquired ($11B, Mar 2026) for real-time data streaming (Apache Kafka)
 - [[Anthropic]] — COBOL disruption threat (Feb 2026), Claude Code modernization claims
 - [[February 2026 AI Disruption Cascade]] — IBM -13% on COBOL shock (Week 3)
 - [[Teleperformance]] — parallel: AI threat destroys equity value before actual replacement
