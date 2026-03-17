@@ -179,4 +179,8 @@ Bear:
 - [Inter&Co Investor Relations](https://investors.inter.co/en/inter-co/our-story/)
 - [StockAnalysis — INTR](https://stockanalysis.com/stocks/intr/market-cap/)
 
+## March 2026 selloff
+
+INTR -8.0% (-2.5 sigma) on March 13, 2026. Brazilian fintech super app with 36M+ customers dropped from $9.25 to $8.51. No specific company catalyst — likely [[Brazil]] macro pressure including BRL weakness and interest rate concerns affecting the entire Brazilian financial sector.
+
 *Created 2026-02-23*

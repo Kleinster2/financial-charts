@@ -192,13 +192,12 @@ Bear:
 - [[Waterworks]] — luxury bath/kitchen subsidiary (acquired 2016)
 - [[Luxury housing dynamics]] — RH revenue tracks existing home sales
 
-## March 2026: conflict-driven consumer discretionary selloff
+## March 2026: continued pressure
 
-RH dropped **-8.8%** to $189.38 on March 4, 2026. Part of a broader consumer discretionary selloff driven by:
-- Oil/inflation fears from [[2026 Iran conflict market impact|Iran conflict]] squeezing high-end consumer spending
-- Rising real yields pressuring housing (RH's key demand driver)
-- Sold off alongside [[Wayfair]] (-9.8%) and [[Estée Lauder]] (-8.5%)
+RH -8.8% on March 13 (-2.6 sigma) — continued pressure on the stock, falling from $207 to $189. No specific catalyst found — likely macro/consumer discretionary weakness hitting the highly leveraged luxury furniture company.
 
-For a company with $3.9B net debt and negative equity, an inflation-driven consumer slowdown is particularly dangerous.
+Previous selloff (March 4): -8.8% to $189.38 from oil/inflation fears from [[2026 Iran conflict market impact|Iran conflict]]. Sold off alongside [[Wayfair]] (-9.8%) and [[Estée Lauder]] (-8.5%).
+
+For a company with $3.9B net debt and negative equity, ongoing consumer pressure is particularly dangerous.
 
 *Created 2026-02-23*

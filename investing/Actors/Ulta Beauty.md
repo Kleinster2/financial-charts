@@ -59,16 +59,37 @@ ULTA trades between Communications and Consumer without a tight sector fit.
 
 Revenue beat driven by strong comp sales across categories. EPS narrowly missed on margin pressure.
 
+### Q4 FY2025 earnings update (March 12, 2026)
+
+Revenue: $3.9B (+11.8% YoY), beat $3.81B estimate. Strong performance across all categories driven by comp sales acceleration.
+
+EPS: $8.01 vs $8.04 expected (slight miss), down from $8.46 prior year Q4. Miss attributed to margin pressure from elevated SG&A.
+
+Key metrics:
+- Comp sales: +5.8% (4.2% average ticket increase + 1.6% transaction growth)
+- SG&A spiked 23% to $1B (advertising spend + Space NK integration costs)
+- Operating margin contracted to 12.2% from 14.8% prior year
+- Full year: net sales rose ~10% to $12.4B, comp sales +5.4%
+- Loyalty: record 46.7M active members (+6.7M additions during year)
+- Record fragrance sales, successful Cecred (Beyoncé) hair care launch
+
+Consumer headwinds:
+CEO Kecia Steelman noted "picky" consumer base trading down and waiting for promotions. Beauty category showing stress from high interest rates and elevated credit card debt levels.
+
+Competitive pressure intensifies:
+[[Sephora]]/[[LVMH]] partnership with Kohl's now at 850+ locations, encroaching on [[Ulta Beauty]]'s suburban stronghold. Analysts seeing "beauty boom" thesis under pressure as lipstick effect weakens.
+
+Stock reaction:
+-14.2% on March 13 (worst S&P 500 performer), -7.8 sigma move. Stock hit $536 vs 52-week high of $715. Sympathy selling hit e.l.f. Beauty (-9.65%).
+
 ### FY2026 guidance
 
 | Metric | FY26 guide |
 |--------|------------|
-| Revenue growth | +6-7% |
-| Comp sales | +2.5-3.5% |
-| EPS | $28.05-28.55 |
-| Capex | $400-450M |
+| Comp sales | +2.5-3.5% (sharp deceleration) |
+| Buyback | $1B planned |
 
-Stock fell -10.30% on Mar 13 after earnings: revenue beat but guidance disappointed — the Street wanted more from a turnaround quarter. Comp deceleration from +5.8% in Q4 to a guided +2.5-3.5% for FY26 signaled the turnaround's fastest phase may be over.
+Tepid guidance signals management expects continued consumer pressure. Comp deceleration from +5.8% in Q4 to guided +2.5-3.5% for FY26 disappointed the Street expecting stronger turnaround momentum.
 
 ---
 

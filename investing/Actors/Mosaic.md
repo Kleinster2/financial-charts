@@ -41,6 +41,16 @@ MOS shows moderate Oil & Gas E&P correlation (XOP r = 0.58).
 | P2O5 capacity | ~4.5 Mt/year |
 | Market position | Largest US phosphate producer, ~60% of North American capacity |
 
+## March 2026 headwinds
+
+MOS -6.5% (-2.3 sigma) on March 13, 2026. Multiple negative catalysts pressuring the fertilizer company:
+
+- Barclays downgraded to Equal Weight from Overweight (March 3)
+- DOJ investigating possible fertilizer price fixing (March 4) 
+- Scotiabank cut price target to $35 from $36
+
+Combination of regulatory pressure and analyst downgrades weighing on the largest US phosphate producer.
+
 ## Related
 
 - [[Sulfuric Acid]] -- integrated acid production for phosphate processing

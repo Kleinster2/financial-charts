@@ -186,6 +186,12 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Blackstone]] announced a
 
 ---
 
+## March 2026 update
+
+Stock +4.6% (+2.2 sigma) on March 13, 2026. Broader rebound in private credit-related names as market sentiment improved. [[Blackstone]] acquired Advanced Cooling Technologies (ACT) during the month — expanding energy portfolio to capitalize on data center cooling demand driven by AI infrastructure buildout.
+
+---
+
 ## Related
 
 - [[F&G Annuities]] — insurance partnership ($1B sidecar, Aug 2025)
@@ -205,3 +211,4 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Blackstone]] announced a
 - [[Lightstone Group]] — sold Extended Stay Hotels ($8B, 2007)
 - [[India AI Impact Summit 2026]] — Neysa majority stake ($600M equity + $600M debt)
 - [[India]] — AI compute expansion
+- [[Advanced Cooling Technologies]] — acquired March 2026 (energy portfolio)

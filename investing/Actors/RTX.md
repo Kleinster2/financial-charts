@@ -81,6 +81,24 @@ See [[Trump defense budget]] for full context.
 
 RTX is key contractor for Trump's missile-defense system. $151B initial contract, potentially **$1T+ total** (Bloomberg). RTX provides radar, missiles, sensors.
 
+### Iran war: Tomahawk depletion (March 2026)
+
+The [[2026 Iran conflict market impact|2026 Iran conflict]] exposed the Tomahawk production-consumption mismatch. CSIS estimated 168 Tomahawks used in first 100 hours of [[Operation Epic Fury]] (reported, CSIS via FT, March 12). Additionally, 124 used against Houthis and Iranian targets in 2024-2025 — including 24+ on Isfahan alone.
+
+| Metric | Figure |
+|--------|--------|
+| Tomahawks used, first 100 hours | 168 (CSIS estimate) |
+| Unit cost | $3.6 million |
+| Purchased in past 5 years | 322 total |
+| FY2026 procurement | 57 units ($206.6 million) |
+| Used in 2024-25 (Houthis/Iran) | 124 |
+
+"A massive expenditure of Tomahawks. The navy will be feeling this expenditure for several years" (person familiar with military munitions use, FT).
+
+Pentagon preparing to request up to $50 billion in supplemental military spending — the replenishment cycle is multi-year and RTX is the sole-source manufacturer. Production target raised to 1,000+/year but current capacity far below that. This is the strongest demand signal for RTX's missiles division since the post-9/11 buildup.
+
+*Source: Financial Times (March 12, 2026)*
+
 ### SM-6 delivery issues
 
 RTX fell behind on 600+ SM-6 air-defense missiles to US Navy. Company's view: supply chain issues, not lack of investment. Trump's view: underinvestment in production.

@@ -84,24 +84,15 @@ ADBE shows moderate Software correlation (IGV r = 0.65).
 
 ---
 
-## CEO transition (Mar 12, 2026)
+## CEO transition (March 12, 2026)
 
-[[Shantanu Narayen]] announced he will step down as CEO after 18 years, remaining in role until a successor is named, then becoming Chairman. Narayen joined [[Adobe]] in 1998 and became CEO in 2007 — he led the company's transformation from boxed software to cloud subscriptions and oversaw the push into AI with [[Firefly]].
+[[Shantanu Narayen]] stepping down as CEO after 18 years, marking the end of an era for [[Adobe]]. His 100th earnings call (Q1 FY26) was his last as CEO. He will remain as board chair while Adobe conducts a search for his successor.
 
-The announcement came alongside record Q1 FY26 earnings, but the timing reads as a managed exit: stock down ~23% YTD 2026, the failed [[Figma]] acquisition ($20B → abandoned), and persistent market skepticism that Adobe can defend its creative monopoly against AI-native competitors. Shares fell -6.16% on Mar 13.
+Leadership transition comes at a critical juncture: [[Adobe]] shares down -23% YTD 2026 amid broader software selloff driven by AI disruption fears. Stock dropped -7.6% on March 13 (-2.8 sigma move) despite record Q1 revenue of $6.4B (+12% YoY).
 
-The successor choice will signal whether Adobe doubles down on AI-first product strategy or pivots toward enterprise/marketing.
+Timing raises questions about whether legacy software companies can successfully navigate the AI transition at the top. Narayen led [[Adobe]]'s transformation from boxed software to cloud subscriptions (2012-2017) and AI integration with [[Firefly]], but the market remains skeptical of Adobe's positioning against AI-native competitors.
 
----
-
-## Q1 FY2026 earnings (reported Mar 12, 2026)
-
-| Metric | Q1 FY26 |
-|--------|---------|
-| Revenue | $6.4B (+12% YoY) — record quarter |
-| Stock reaction | -6.16% on Mar 13 |
-
-Record revenue overshadowed by the CEO departure announcement and broader AI anxiety. The market is pricing Adobe as an AI loser despite 12% growth and >33% AI-influenced ARR.
+FY2026 guidance was also tepid/lackluster alongside the announcement, suggesting management sees headwinds ahead. No successor named yet — board conducting external search.
 
 ---
 

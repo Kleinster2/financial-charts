@@ -3,7 +3,7 @@ aliases: [Carlyle Group, CG]
 ---
 #actor #privateequity #usa #public
 
-**Carlyle** — Global private equity giant. $474B AUM. Public (NASDAQ: CG).
+**Carlyle** — Global private equity giant. ~$480B AUM. Public (NASDAQ: CG).
 
 ---
 
@@ -64,12 +64,60 @@ Plouffe (Deputy CIO Global Credit since 2007) backfilled CFO. Michael Wand becam
 
 ---
 
+## European buyout fund
+
+Carlyle's flagship European PE fund has been the firm's most visible weak spot. The 2018 vintage (€6bn) has negative overall IRR as of Dec 2025. Exits valued at just 1.1x cost — barely returning invested capital.
+
+### 2018 vintage problems
+
+Consumer deals drove the worst losses. [[Apollo]]-restructured End Clothing — a luxury streetwear retailer Carlyle bought for ~$1bn in 2021 — was handed over to [[Apollo]] as part of a 2024 restructuring. The fund has struggled to sell most of its remaining holdings.
+
+### Fundraising halt and team overhaul
+
+Carlyle started raising the next European buyout vintage in 2023 but only reached $1.2bn by first close in 2024 — a fraction of the predecessor's €6bn. Rather than deploying, Carlyle halted fundraising entirely to rebuild the investment team.
+
+Co-heads Marco De Benedetti and Jonathan Zafrani were replaced by [[Michael Wand]], the firm's longtime European technology co-head (formally became Head of EMEA Investments in the Jul 2025 restructure). Wand has helmed some of Carlyle's best-performing PE vehicles.
+
+In 2025, Carlyle hired 9 people to the European buyout fund team, with 2 more senior hires expected to complete the rebuild. The $1.2bn raised remains undeployed as of Mar 2026 but Wand intends to begin deploying in the next few months.
+
+### Strategy pivot
+
+Wand is moving the European fund away from consumer investments toward:
+- Technology
+- Healthcare
+- Professional services
+- Advanced industrials
+
+He has also pushed the European buyout team to work more closely with portfolio companies and Carlyle's capital markets and operating teams — a shift toward more hands-on value creation.
+
+The hiring spree signals Carlyle expects to restart European fundraising after the two-year hiatus. *(FT, Mar 13, 2026)*
+
+---
+
+## Notable investments
+
+| Company | Sector | Status |
+|---------|--------|--------|
+| [[ManTech]] | [[Defense]]/IT | Private ($4.2B, Sep 2022) |
+| Booz Allen Hamilton | [[Defense]] | Public (BAH) |
+| Veritas | Tech | Private |
+| ZoomInfo | Tech | Public (ZI) |
+| Getty Images | [[Media]] | Public (GETY) |
+| CommScope | [[Telecom]] | Private |
+| Pharmaceutical Product Development | [[Healthcare]] | Sold |
+
+## Defense/government strength
+
+DC-headquartered with deep government relationships. [[Defense]] portfolio includes Booz Allen Hamilton and [[ManTech]]. Advisory board has included former government officials. Carlyle = PE with government expertise.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | CG (NASDAQ) |
-| AUM | $474B |
+| AUM | ~$480B |
 | Founded | 1987 |
 | Founders | [[David Rubenstein]], [[William Conway Jr.]], [[Daniel D'Aniello]] |
 | HQ | Washington, D.C. |
@@ -83,7 +131,7 @@ Plouffe (Deputy CIO Global Credit since 2007) backfilled CFO. Michael Wand becam
 | Blackstone | $1T+ |
 | Apollo | ~$650B |
 | **KKR** | ~$578B |
-| **Carlyle** | $474B |
+| **Carlyle** | ~$480B |
 
 ---
 
@@ -94,6 +142,9 @@ Plouffe (Deputy CIO Global Credit since 2007) backfilled CFO. Michael Wand becam
 
 ![[cg-fundamentals.png]]
 *Revenue volatile ($800M-$1.6B quarterly) — typical PE cyclicality from lumpy realizations. Net income swung negative in 2020 and late 2023 on markdowns.*
+
+![[cg-employees-chart.png]]
+*Headcount: 2,300 (2024) — up 4.5% YoY*
 
 ---
 
@@ -130,11 +181,16 @@ CEO Schwartz exceeded 2025 targets — FRE growth was double the goal. Wealth or
 
 - [[KKR]] — peer
 - [[Blackstone]] — peer
-- [[Apollo]] — peer
+- [[Apollo]] — peer (also took over End Clothing from Carlyle European fund, 2024)
 - [[Warburg Pincus]] — peer
 - [[Private Equity]] — category
 - [[David Rubenstein]] — co-founder
 - [[Kewsong Lee]] — former CEO (2018-2022)
+- [[Michael Wand]] — Head of EMEA Investments, leading European buyout fund rebuild
+- [[ManTech]] — defense/IT contractor ($4.2B acquisition Sep 2022)
+- [[Fortitude Re]] — reinsurance platform ($106B assets, FCA Re [[Asia]] sidecar)
+- [[Reinsurance sidecars]] — permanent capital model via insurance
+- [[Defense]] — major sector focus
 
 ---
 

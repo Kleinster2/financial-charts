@@ -84,6 +84,33 @@ Source: [School of War Ep. 282](https://youtu.be/Vt6Mvxnf_TI)
 
 ---
 
+## $50B supplemental and Tomahawk inventory crisis (FT, March 12)
+
+FT reported the Pentagon is preparing a formal request for up to **$50 billion** in supplemental military spending — setting up the largest defense supplemental since the early Iraq War. The request is overwhelmingly driven by munitions consumption.
+
+**Tomahawk-specific data:**
+- CSIS estimated **168 Tomahawks** used in first 100 hours (+ 124 used against Houthis/Iran in 2024-2025).
+- US Navy bought only **322 Tomahawks in 5 years**; FY2026 procurement: 57 units ($206.6M). Unit cost: $3.6M each ([[RTX]]).
+- Person familiar: "a massive expenditure of Tomahawks. The navy will be feeling this expenditure for several years."
+- Pentagon officials told senators the war cost **>$11 billion in first 6 days** — "overwhelmingly" for munitions.
+
+**Cost asymmetry:** Sen. [[Mark Kelly]] (D-AZ, former Navy combat pilot): each Patriot/THAAD round costs millions while Iranians fire $30,000 Shaheds. "The math on this doesn't work."
+
+**Congressional dynamics on supplemental:**
+- Sen. Lisa Murkowski (R-AK, Appropriations): warned against blank check, demands justification.
+- Former Majority Leader McConnell: urging approval regardless of war position — "overdue opportunity to invest."
+- House razor-thin Republican majority; fiscal conservatives and anti-war Democrats both likely to resist.
+- The supplemental battle could drag weeks — creating uncertainty around timing of replenishment orders.
+
+**Investment read-through:**
+- $50B supplemental = largest defense spending catalyst since FY2023 Ukraine supplementals. If passed, direct tailwind for [[RTX]] (Tomahawk sole source), [[Lockheed Martin]] (THAAD, Patriot components), [[Northrop Grumman]] (B-21 sustainment).
+- Political risk: passage not guaranteed. Fiscal hawks + war opponents = bipartisan obstacle. Market may need to price in delay.
+- The Tomahawk production-consumption mismatch is structural: even at the 1,000+/year target, replacing what was expended in days will take years. This is a multi-year procurement cycle, not a one-time order.
+
+*Source: Financial Times (March 12, 2026) — Hauslohner, Chavez, Fedor, Politi*
+
+---
+
 ## Pacific defense gap — two-front strain (March 12, 2026)
 
 The US is pulling advanced air/missile defense systems and naval assets from the Indo-Pacific to sustain [[Operation Epic Fury]]. Stars and Stripes/Bloomberg (Mar 12) brought the two-front problem into sharp focus: the US cannot sustain a Middle East war and maintain credible deterrence against China simultaneously.

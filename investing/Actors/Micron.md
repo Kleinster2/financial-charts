@@ -288,6 +288,16 @@ Cheapest P/E of the five picks with the highest growth — classic memory cycle 
 
 ---
 
+## Taiwan expansion (March 16, 2026)
+
+[[Micron]] plans to build second manufacturing facility at Tongluo site in [[Taiwan]]. Acquired site from [[Powerchip Semiconductor]] ($1.8B acquisition completed) for advanced DRAM production including [[HBM]].
+
+Construction scheduled to begin by end of fiscal 2026. Expansion targets growing demand for high-bandwidth memory used in AI training and inference. Stock up ~5% on the news.
+
+Earnings coming later this week — consensus $8.66 EPS on ~$19B revenue. Key read on whether HBM demand continues accelerating at AI buildout pace or if supply is finally catching up to hyperscaler demand.
+
+---
+
 ## Related
 
 ### Sectors
