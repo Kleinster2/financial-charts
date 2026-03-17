@@ -487,6 +487,97 @@ The structural argument: the crisis will drive a much more aggressive push towar
 
 ---
 
+## Kpler supply gap analysis (March 16, 2026)
+
+[[Kpler]]'s [[Matt Smith]] provided the most detailed supply/demand arithmetic for the Hormuz disruption on CNBC International (March 16, 2026). The analysis reveals a **massive unfilled gap** that markets are "not coming to terms with" — setting up an "oh dear" moment when current in-transit barrels fail to arrive and aren't replaced.
+
+### Supply/demand math table
+
+| Component | Volume (M bbl/day) | Notes |
+|-----------|-------------------|-------|
+| **Hormuz disruption** | **8-10** | Crude effectively off market |
+| **IEA SPR release** | **~2** | Jeff Curry/Goldman estimate of drip rate |
+| **Alternative pipelines** | **~5.5** | Saudi east-west to Red Sea + UAE pipe to Fujairah |
+| **Shadow fleet** | **~1** | Estimated continued flow |
+| **Total alternatives** | **8.5** | SPR + pipelines + shadow fleet |
+| **UNFILLED GAP** | **~1.5** | Market "not coming to terms with this fact" |
+
+**Additional complications:**
+- Oil producers in the Gulf shutting in production because "there aren't tankers to load onto"
+- IEA coordinated release: ~400M barrels total, 72% crude / 28% products
+- US can physically release max ~1.5M bbl/day (logistics constraint), not 2M
+- Countries releasing SPR keep oil domestically — "doesn't help Asia"
+
+### The "oh dear" moment thesis
+
+Pre-conflict cargoes currently on the water (loaded before February 28 crisis) are masking the supply loss. Both [[Saudi Arabia]] and [[Iran]] likely ramped exports in February anticipating disruption — creating a false buffer.
+
+**Timeline:** The physical shortage hits "over the coming weeks" when those in-transit deliveries are supposed to arrive and replacements don't show up. Not just crude — **jet fuel, diesel, gasoline, fuel oil ALL disrupted**. Smith: *"That's when the oh dear moment really kicks in."*
+
+**Physical vs psychological impact:** SPR releases serve to keep prices "in check" psychologically, but physical relief is slow — "takes weeks to reach market physically."
+
+### China's massive exposure
+
+| Metric | Volume | Impact |
+|--------|--------|--------|
+| **China onshore storage** | **1.2B barrels** | Strategic cushion |
+| **China daily consumption** | **~15M bbl/day** | Refining + consumption |
+| **ME flows to China** | **5M bbl/day** | **45% of seaborne flows** — HUGE dependency |
+| **Storage duration** | **~80 days** | At current consumption if no imports |
+
+**Supply losses already hitting China:**
+- Venezuelan crude (sanctions)
+- Russian flows redirected to [[India]] (waiver granted) 
+- Iranian crude at risk
+
+**China's response:** Will likely cut refinery runs and draw inventories. Does NOT want to buy at elevated prices. Smith: *"Very difficult to make the argument that this isn't affecting China."*
+
+### SPR release limitations exposed
+
+**Physical constraints:**
+- US max release rate: ~1.5M bbl/day (logistics constraint)
+- 172M barrel release "cannot flood market — slow drip"
+- Takes weeks to reach market physically
+- Purpose: price psychology, not supply replacement
+
+**Geographic mismatch:**
+- Countries releasing SPR keep oil domestically
+- Doesn't help Asian markets where the shortage is most acute
+- Regional price dislocations will persist
+
+### Fujairah escalation signal
+
+UAE's export alternative (pipeline to Fujairah) struck by drone debris — export loadings affected. This shows Iran can threaten the bypass routes too, eliminating alternatives and forcing more volume through the blocked strait.
+
+### Marines mission: coastal degradation vs Kharg seizure
+
+2,500 Marines arriving in ~2 weeks. [[Kpler]] speculates mission: secure southern Iran coast to prevent drone/missile attacks on strait transit. Opening strait requires degrading Iran's coastal threat capability first.
+
+**Strategic logic:** Not necessarily seizing [[Kharg Island]] — if resolution comes, Kharg exports would flow to Western countries again anyway. Strait won't reopen just with naval escorts and insurance — need Iran "degraded enough" so no risk to tankers.
+
+### Iran's gatekeeper dynamics
+
+**Critical insight:** Iran NOT blocking the strait entirely — it IS the gatekeeper. Iran's own tankers continue to move through (half dozen VLCCs this month), all heading to Asia.
+
+**Export constraints:**
+- [[JASP terminal]] (outside strait) loaded for first time — Iran has limited alternatives but is using them
+- But 90%+ of exports go through [[Kharg Island]] → through strait, can't reroute
+- Iran maintains selective access while denying it to competitors
+
+### Oil price psychology breakdown
+
+- Market "finding it difficult to fathom" the scale of supply loss
+- $100/bbl feels like psychological resistance 
+- Oil settled above $96 on March 16
+- The physical math suggests much higher prices if the gap persists
+
+**Kpler's assessment:** The market is underpricing both the immediate supply gap and the duration risk. The 1.5M bbl/day unfilled gap compounds daily, and alternatives (SPR, pipelines, shadow fleet) are insufficient to close it while Hormuz remains functionally blocked.
+
+*Source: Kpler (Matt Smith) on CNBC International, March 16, 2026*  
+*URL: https://youtu.be/kBAXJzvuEeU*
+
+---
+
 ## War duration — Gass assessment (March 12)
 
 Sir [[Simon Gass]] (former UK ambassador to Iran, former JIC chair, [[JCPOA]] lead negotiator) — the most credentialed Western analyst on Iranian decision-making — assessed the conflict's trajectory on FT's *Rachman Review* (March 12, 2026):
