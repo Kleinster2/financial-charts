@@ -9,7 +9,7 @@ import time
 # Import constants
 from constants import (DB_PATH, get_db_connection, DEFAULT_START_DATE, BATCH_SIZE,
                       RETRY_LIMIT, RETRY_DELAY, TICKER_CATEGORIES,
-                      FUTURES_SYMBOLS)
+                      FUTURES_SYMBOLS, USE_NARROW)
 
 # DuckDB support - imports USE_DUCKDB from constants (set via USE_DUCKDB=1 env var)
 from constants import USE_DUCKDB, duckdb_available
@@ -22,14 +22,14 @@ if USE_DUCKDB:
 else:
     DUCKDB_AVAILABLE = False
 
-# Narrow-format dual-write (always active once tables exist)
+# Narrow-format write support (canonical path when USE_NARROW=1)
 import sys as _sys
 _sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'charting_app'))
 try:
-    from sqlite_queries import sync_wide_to_narrow, check_narrow_available
-    NARROW_SYNC = check_narrow_available()
+    from sqlite_queries import sync_wide_to_narrow
+    NARROW_AVAILABLE = True
 except ImportError:
-    NARROW_SYNC = False
+    NARROW_AVAILABLE = False
 
 # --- CONFIG ---
 # Include data starting from December 30th, 2022
@@ -1478,119 +1478,130 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
                 vprint("  The merge would corrupt historical data. Please investigate.")
                 return
 
-        # Write to staging table first
-        staging_table = "stock_prices_daily_staging"
-        vprint(f"  Writing to staging table: {staging_table}")
-        # Clean up any leftover staging artifacts (indexes from previous failed runs)
-        cursor.execute(f"DROP TABLE IF EXISTS {staging_table}")
-        cursor.execute(f"DROP INDEX IF EXISTS ix_{staging_table}_Date")
-        conn.commit()
         # Normalize datetime index to consistent string format (prevents duplicate date entries)
         combined_df.index = pd.to_datetime(combined_df.index).strftime('%Y-%m-%d %H:%M:%S')
         # Remove any duplicate dates (keep last occurrence which has the freshest data)
         combined_df = combined_df[~combined_df.index.duplicated(keep='last')]
-        # Convert NA/None to NaN before casting to float (fixes pandas NAType issue)
-        combined_df.fillna(np.nan).astype(float).to_sql(staging_table, conn, if_exists="replace", index=True, index_label=index_label)
+        # Recompute row count after dedup (used by wide staging validation)
+        new_rows = combined_df.shape[0]
 
-        # Validate staging table
-        cursor = conn.cursor()
-        cursor.execute(f"SELECT COUNT(*) FROM {staging_table}")
-        staging_row_count = cursor.fetchone()[0]
-
-        if staging_row_count != new_rows:
-            vprint(f"  ERROR: Staging table row count mismatch ({staging_row_count} != {new_rows}). Aborting.")
-            cursor.execute(f"DROP TABLE IF EXISTS {staging_table}")
-            conn.commit()
-            return
-
-        vprint(f"  [OK] Staging table validated ({staging_row_count} rows)")
-
-        # Atomic swap: Rename staging -> main with VERSIONED BACKUPS
-        vprint("  Performing atomic table swap...")
-
-        # Keep last 3 backups with timestamps instead of just _old
-        backup_timestamp = datetime.today().strftime('%Y%m%d_%H%M%S')
-        backup_table = f"stock_prices_daily_backup_{backup_timestamp}"
-
-        if table_exists:
-            # Create timestamped backup
-            cursor.execute(f"ALTER TABLE stock_prices_daily RENAME TO {backup_table}")
-            vprint(f"  [OK] Backup created: {backup_table}")
-
-            # Clean up old backups, keep only last 3
-            cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name LIKE 'stock_prices_daily_backup_%' ORDER BY name DESC")
-            backup_tables = [row[0] for row in cursor.fetchall()]
-            if len(backup_tables) > 3:
-                for old_backup in backup_tables[3:]:
-                    cursor.execute(f"DROP TABLE IF EXISTS [{old_backup}]")
-                    vprint(f"  [OK] Removed old backup: {old_backup}")
-
-        # Also keep _old for backward compatibility (points to most recent backup)
-        cursor.execute("DROP TABLE IF EXISTS stock_prices_daily_old")
-        if table_exists:
-            cursor.execute(f"CREATE TABLE stock_prices_daily_old AS SELECT * FROM {backup_table}")
-
-        cursor.execute(f"ALTER TABLE {staging_table} RENAME TO stock_prices_daily")
-        cursor.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_prices_date ON stock_prices_daily(Date)")
-
-        conn.commit()
-        vprint(f"  [OK] Prices table updated successfully")
-
-        # Same pattern for volumes
         if not combined_vol_df.empty:
-            staging_vol_table = "stock_volumes_daily_staging"
-            vprint(f"  Writing volumes to staging table: {staging_vol_table}")
-            # Clean up any leftover staging artifacts
-            cursor.execute(f"DROP TABLE IF EXISTS {staging_vol_table}")
-            cursor.execute(f"DROP INDEX IF EXISTS ix_{staging_vol_table}_Date")
-            conn.commit()
-            # Normalize datetime index to consistent string format (prevents duplicate date entries)
             combined_vol_df.index = pd.to_datetime(combined_vol_df.index).strftime('%Y-%m-%d %H:%M:%S')
-            # Convert NA to NaN before astype to avoid TypeError
-            vol_df_clean = combined_vol_df.fillna(pd.NA).infer_objects(copy=False)
-            vol_df_clean = vol_df_clean.apply(pd.to_numeric, errors='coerce')
-            vol_df_clean.to_sql(staging_vol_table, conn, if_exists="replace", index=True, index_label=index_label)
+            combined_vol_df = combined_vol_df[~combined_vol_df.index.duplicated(keep='last')]
 
-            cursor.execute(f"SELECT COUNT(*) FROM {staging_vol_table}")
-            staging_vol_row_count = cursor.fetchone()[0]
-            vprint(f"  [OK] Volume staging table validated ({staging_vol_row_count} rows)")
-
-            # Versioned backup for volumes too
-            vol_backup_table = f"stock_volumes_daily_backup_{backup_timestamp}"
-            if vol_table_exists:
-                cursor.execute(f"ALTER TABLE stock_volumes_daily RENAME TO {vol_backup_table}")
-                # Clean up old volume backups
-                cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name LIKE 'stock_volumes_daily_backup_%' ORDER BY name DESC")
-                vol_backup_tables = [row[0] for row in cursor.fetchall()]
-                if len(vol_backup_tables) > 3:
-                    for old_backup in vol_backup_tables[3:]:
-                        cursor.execute(f"DROP TABLE IF EXISTS [{old_backup}]")
-
-            cursor.execute("DROP TABLE IF EXISTS stock_volumes_daily_old")
-            if vol_table_exists:
-                cursor.execute(f"CREATE TABLE stock_volumes_daily_old AS SELECT * FROM {vol_backup_table}")
-
-            cursor.execute(f"ALTER TABLE {staging_vol_table} RENAME TO stock_volumes_daily")
-            conn.commit()
-            vprint(f"  [OK] Volumes table updated successfully")
-        if 'stocks' in selected_set:
-            sp500.to_sql("stock_metadata", conn, if_exists="replace", index=False)
-        else:
-            vprint("Skipping stock_metadata update (stocks not selected).")
-        vprint(f"Database updated. Now contains {combined_df.shape[1]} securities with {combined_df.shape[0]} daily prices.")
-
-        # Sync to narrow-format tables (dual-write)
-        if NARROW_SYNC:
+        # ── NARROW WRITE (canonical) ─────────────────────────────────────
+        if USE_NARROW and NARROW_AVAILABLE:
             vprint("\n" + "="*60)
-            vprint("[Narrow] Syncing to narrow-format tables...")
+            vprint("[Narrow] Writing to canonical narrow tables...")
             vprint("="*60)
             try:
                 sync_wide_to_narrow(combined_df, table='prices_long', value_col='Close', verbose=verbose)
                 if not combined_vol_df.empty:
                     sync_wide_to_narrow(combined_vol_df, table='volumes_long', value_col='Volume', verbose=verbose)
-                vprint("[Narrow] Sync completed successfully")
+                vprint("[Narrow] Canonical write completed successfully")
             except Exception as e:
-                vprint(f"[Narrow] Warning: sync failed: {e}")
+                vprint(f"[Narrow] FATAL: Narrow write failed: {e}")
+                vprint("[Narrow] ABORTING — narrow table is the canonical store.")
+                return
+
+        # ── WIDE WRITE (compat) ──────────────────────────────────────────
+        try:
+            staging_table = "stock_prices_daily_staging"
+            vprint(f"  Writing to staging table: {staging_table}")
+            # Clean up any leftover staging artifacts (indexes from previous failed runs)
+            cursor.execute(f"DROP TABLE IF EXISTS {staging_table}")
+            cursor.execute(f"DROP INDEX IF EXISTS ix_{staging_table}_Date")
+            conn.commit()
+            # Convert NA/None to NaN before casting to float (fixes pandas NAType issue)
+            combined_df.fillna(np.nan).astype(float).to_sql(staging_table, conn, if_exists="replace", index=True, index_label=index_label)
+
+            # Validate staging table
+            cursor = conn.cursor()
+            cursor.execute(f"SELECT COUNT(*) FROM {staging_table}")
+            staging_row_count = cursor.fetchone()[0]
+
+            backup_timestamp = datetime.today().strftime('%Y%m%d_%H%M%S')
+
+            if staging_row_count != new_rows:
+                vprint(f"  [Wide] Warning: Staging row count mismatch ({staging_row_count} != {new_rows}). Skipping wide write.")
+                cursor.execute(f"DROP TABLE IF EXISTS {staging_table}")
+                conn.commit()
+            else:
+                vprint(f"  [OK] Staging table validated ({staging_row_count} rows)")
+
+                # Atomic swap: Rename staging -> main with VERSIONED BACKUPS
+                vprint("  Performing atomic table swap...")
+
+                backup_table = f"stock_prices_daily_backup_{backup_timestamp}"
+
+                if table_exists:
+                    # Create timestamped backup
+                    cursor.execute(f"ALTER TABLE stock_prices_daily RENAME TO {backup_table}")
+                    vprint(f"  [OK] Backup created: {backup_table}")
+
+                    # Clean up old backups, keep only last 3
+                    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name LIKE 'stock_prices_daily_backup_%' ORDER BY name DESC")
+                    backup_tables = [row[0] for row in cursor.fetchall()]
+                    if len(backup_tables) > 3:
+                        for old_backup in backup_tables[3:]:
+                            cursor.execute(f"DROP TABLE IF EXISTS [{old_backup}]")
+                            vprint(f"  [OK] Removed old backup: {old_backup}")
+
+                # Also keep _old for backward compatibility (points to most recent backup)
+                cursor.execute("DROP TABLE IF EXISTS stock_prices_daily_old")
+                if table_exists:
+                    cursor.execute(f"CREATE TABLE stock_prices_daily_old AS SELECT * FROM {backup_table}")
+
+                cursor.execute(f"ALTER TABLE {staging_table} RENAME TO stock_prices_daily")
+                cursor.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_prices_date ON stock_prices_daily(Date)")
+
+                conn.commit()
+                vprint(f"  [OK] Prices table updated successfully")
+
+            # Same pattern for volumes
+            if not combined_vol_df.empty:
+                staging_vol_table = "stock_volumes_daily_staging"
+                vprint(f"  Writing volumes to staging table: {staging_vol_table}")
+                # Clean up any leftover staging artifacts
+                cursor.execute(f"DROP TABLE IF EXISTS {staging_vol_table}")
+                cursor.execute(f"DROP INDEX IF EXISTS ix_{staging_vol_table}_Date")
+                conn.commit()
+                # Convert NA to NaN before astype to avoid TypeError
+                vol_df_clean = combined_vol_df.fillna(pd.NA).infer_objects(copy=False)
+                vol_df_clean = vol_df_clean.apply(pd.to_numeric, errors='coerce')
+                vol_df_clean.to_sql(staging_vol_table, conn, if_exists="replace", index=True, index_label=index_label)
+
+                cursor.execute(f"SELECT COUNT(*) FROM {staging_vol_table}")
+                staging_vol_row_count = cursor.fetchone()[0]
+                vprint(f"  [OK] Volume staging table validated ({staging_vol_row_count} rows)")
+
+                # Versioned backup for volumes too
+                vol_backup_table = f"stock_volumes_daily_backup_{backup_timestamp}"
+                if vol_table_exists:
+                    cursor.execute(f"ALTER TABLE stock_volumes_daily RENAME TO {vol_backup_table}")
+                    # Clean up old volume backups
+                    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name LIKE 'stock_volumes_daily_backup_%' ORDER BY name DESC")
+                    vol_backup_tables = [row[0] for row in cursor.fetchall()]
+                    if len(vol_backup_tables) > 3:
+                        for old_backup in vol_backup_tables[3:]:
+                            cursor.execute(f"DROP TABLE IF EXISTS [{old_backup}]")
+
+                cursor.execute("DROP TABLE IF EXISTS stock_volumes_daily_old")
+                if vol_table_exists:
+                    cursor.execute(f"CREATE TABLE stock_volumes_daily_old AS SELECT * FROM {vol_backup_table}")
+
+                cursor.execute(f"ALTER TABLE {staging_vol_table} RENAME TO stock_volumes_daily")
+                conn.commit()
+                vprint(f"  [OK] Volumes table updated successfully")
+        except Exception as e:
+            vprint(f"  [Wide] Warning: wide table write failed: {e}")
+            vprint(f"  [Wide] Narrow tables are canonical — continuing.")
+
+        if 'stocks' in selected_set:
+            sp500.to_sql("stock_metadata", conn, if_exists="replace", index=False)
+        else:
+            vprint("Skipping stock_metadata update (stocks not selected).")
+        vprint(f"Database updated. Now contains {combined_df.shape[1]} securities with {combined_df.shape[0]} daily prices.")
 
         # Write to DuckDB if enabled (Phase 1: shadow database)
         if USE_DUCKDB and DUCKDB_AVAILABLE:

@@ -286,18 +286,37 @@ def upsert_prices_long(df_long: pd.DataFrame, table: str = 'prices_long',
         conn.close()
 
 
+def _ensure_narrow_table(table: str, value_col: str):
+    """Create narrow table with indexes if it doesn't exist."""
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        conn.execute(f'''CREATE TABLE IF NOT EXISTS {table} (
+            Date TEXT NOT NULL,
+            Ticker TEXT NOT NULL,
+            {value_col} REAL,
+            PRIMARY KEY (Date, Ticker)
+        )''')
+        conn.execute(f'CREATE INDEX IF NOT EXISTS idx_{table}_ticker ON {table}(Ticker)')
+        conn.execute(f'CREATE INDEX IF NOT EXISTS idx_{table}_date ON {table}(Date)')
+        conn.commit()
+    finally:
+        conn.close()
+
+
 def sync_wide_to_narrow(df_wide: pd.DataFrame, table: str = 'prices_long',
                         value_col: str = 'Close', verbose: bool = True):
     """
     Melt a wide DataFrame (Date index, ticker columns) to long format
     and upsert into a narrow table.
 
-    This is the main dual-write entry point — call after every wide-table write.
+    This is the canonical write entry point. Creates the table if needed.
     """
     if df_wide.empty:
         if verbose:
             print(f"  [Narrow] Skipping {table} — empty DataFrame")
         return
+
+    _ensure_narrow_table(table, value_col)
 
     df = df_wide.reset_index()
     if 'index' in df.columns:
