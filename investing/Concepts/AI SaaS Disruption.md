@@ -70,6 +70,20 @@ Not all SaaS is equally exposed. AI disrupts each segment through a different me
 
 **The pattern:** segments where the value is "organizing human workflows" are most exposed. Segments where the value is "proprietary data" or "infrastructure plumbing" are insulated or benefit.
 
+### Horizontal SaaS sub-segmentation
+
+Within horizontal — the most exposed segment — there's a gradient from "dead" to "adapting":
+
+| Sub-segment | Examples | AI threat | Why |
+|-------------|----------|-----------|-----|
+| **Analytics/BI** | Tableau, Looker, Domo | Highest | Natural language → SQL is solved. "Show me revenue by region for Q4" doesn't need a $70/user/month dashboard product. Dead man walking. |
+| **Workflow orchestration** | [[ServiceNow]], Jira, Asana, Monday | Very high | These ARE coordination tools — and AI agents ARE coordinators. Why click through a ticketing system when an agent routes, prioritizes, resolves autonomously? ServiceNow pivoting to "agent orchestration" but competing directly with [[OpenAI]] Frontier and [[NemoClaw]]. |
+| **Communication/engagement** | [[HubSpot]], Braze, Klaviyo, Mailchimp | High | AI writes emails, segments audiences, personalizes at scale. The middleware evaporates when an agent calls the email API directly. |
+| **Systems of record** | [[Salesforce]] CRM, [[Workday]] HCM, [[SAP]] ERP | Medium | The database of truth persists even when agents handle workflows. You still need somewhere to store customer records, employee data, financial transactions. UI layer commoditized but data layer is sticky. Survive by becoming the API backend agents call, not the interface humans click. |
+| **Security/compliance** | [[CrowdStrike]], [[Palo Alto Networks]], [[Zscaler]] | Beneficiary | The exception. More agents = more endpoints = more attack surface = more security spend. Every [[NemoClaw]] deployment needs guardrails. Horizontal SaaS disguised as infrastructure. |
+
+**The pricing model death:** The deeper issue across all horizontal SaaS is that per-seat pricing breaks when the "user" is an AI agent making API calls. [[ServiceNow]] at $100/user/month makes sense for 10,000 employees. It doesn't make sense when 50 agents replace 9,000 of those employees. Companies scrambling toward consumption-based or outcome-based pricing — but that reprices the entire revenue model downward. The revenue per unit of work done collapses even if total usage grows.
+
 ### China's leapfrog risk
 
 Bob Chen's "SaaS never took root in China" thesis (see [[AI labor displacement]]) maps differently by segment:
