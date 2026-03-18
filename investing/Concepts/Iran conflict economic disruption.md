@@ -589,7 +589,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Gig economy / labor disruption | Delivery workers, ride-hail drivers, trucking | India (~1M workers) tracked |
 | Power grid stress | Countries dependent on oil/gas generation (Pakistan, Bangladesh, Myanmar) | Untracked |
 | SPR drawdown pace vs. refill | IEA 400M bbl release — how fast are buffers actually depleting? | IEA release tracked, pace not |
-| Insurance market pricing | War-risk premiums making Gulf shipping permanently uneconomic | Mentioned, not quantified |
+| Insurance market pricing | War-risk premiums making Gulf shipping permanently uneconomic | Mentioned, not quantified; see [[Nitrogen Trap]] for full insurance fracture architecture |
 | Asian refinery crude-grade mismatch | Refineries configured for Gulf sour crude can't easily switch to non-ME grades | Reynolds/IEEFA flagged |
 | Sovereign energy subsidy fiscal strain | Indonesia $22.6B, others scaling — impact on fiscal deficits | Indonesia tracked, others not |
 
@@ -599,6 +599,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 
 ## Related
 
+- [[Nitrogen Trap]] — the full 14-channel cascading framework for how Hormuz fertilizer disruption propagates through food, chemicals, pharmaceuticals, sovereign debt, and monetary policy
 - [[2026 Iran conflict market impact]] — hub note
 - [[Strait of Hormuz]] — oil chokepoint
 - [[IEA]] — coordinating body for reserve release

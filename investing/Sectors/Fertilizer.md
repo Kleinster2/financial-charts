@@ -162,6 +162,8 @@ Nigeria (12.4% share), South Africa, and Egypt lead consumption. [[OCP Group]] i
 
 The [[Strait of Hormuz]] closure triggered a fertiliser supply crisis — ~50% of 2-week urea exports disrupted, [[QAFCO]] shut, South Asian plants curtailed. Urea +40%. Full analysis in [[Iran conflict economic disruption#Fertiliser supply crisis (March 14)]].
 
+See [[Nitrogen Trap]] for the full 14-channel cascading framework — the crisis propagates far beyond fertilizer pricing into sulfur/phosphate, petrochemicals, pharmaceuticals, sovereign debt, insurance architecture fracture, and the nonlinear quadratic yield response that concentrates damage in the Global South. The market is pricing ~45-day disruption; structural indicators point to 120+ days. USDA Prospective Plantings (March 31) is the first hard data point for acreage shift quantification.
+
 ---
 
 ## Investment considerations
