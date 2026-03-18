@@ -50,6 +50,24 @@ Reuters (Mar 4): Liquefaction restart will take **weeks**. The cooling process i
 
 ---
 
+## March 18 — Ras Laffan missile strike and diplomatic break with Iran
+
+### The escalation chain
+
+1. [[Israel]] struck [[Iran]]'s South Pars gas field (world's largest, shared with Qatar's North Field) — coordinated with and approved by the Trump administration
+2. Iran retaliated by launching five missiles at Qatar — four intercepted, one struck [[Ras Laffan]]
+3. Physical damage confirmed at [[Shell]] Pearl GTL plant and Ras Laffan Condensate Refinery
+4. QatarEnergy confirmed "extensive damage"
+5. Qatar expelled Iranian military/security attachés, declared Iran's actions a "direct threat to national security"
+
+This escalation transforms the crisis from a shipping/access problem to a physical infrastructure damage problem. Prior to Mar 18, Ras Laffan was offline because Hormuz was blocked and QatarEnergy declared force majeure. Now there is actual missile damage to process — Shell Pearl GTL (~140K bbl/day, ~$19B installed capacity) and the condensate refinery were hit. Even after a ceasefire + Hormuz reopening, these facilities need physical repair before resuming operations.
+
+Iran's IRGC also explicitly named Qatar's Mesaieed petrochemical complex as a further target, warning personnel to evacuate.
+
+*Sources: Guardian, Reuters, Axios, QatarEnergy statement (all Mar 18, 2026)*
+
+---
+
 ## Related
 
 - [[Qatar]] — parent state

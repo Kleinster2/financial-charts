@@ -638,6 +638,30 @@ Sir [[Simon Gass]] (former UK ambassador to Iran, former JIC chair, [[JCPOA]] le
 
 *Source: CFR panel, "The Geoeconomic Ripple Effects of the Iran War" (March 17, 2026). URL: https://youtu.be/lBd4YTJmGvI*
 
+### Day 19 evening — South Pars / Ras Laffan escalation
+
+The war crossed a critical threshold on March 18 when energy infrastructure became a direct target for the first time.
+
+**Cause:** [[Israel]] struck [[Iran]]'s South Pars gas field — the world's largest natural gas reserve, shared with [[Qatar]]'s North Field. The strike was coordinated with and approved by the Trump administration (Axios, confirmed by US defense official). This was the first targeted attack on Iran's fossil fuel production since the war began.
+
+**Iran's retaliation:** Five missiles launched at [[Qatar]]. Four intercepted. One struck [[Ras Laffan]] Industrial City. NASA FIRMS satellite imagery confirmed fires at [[Shell]] Pearl GTL (world's largest gas-to-liquids plant, ~140K bbl/day, ~$19B) and [[QatarEnergy]] Ras Laffan Condensate Refinery. LNG liquefaction trains appeared to sustain limited damage.
+
+**Iran's threat:** IRGC named additional targets for "coming hours" — [[Saudi Arabia]]'s Samref refinery and Jubail petrochemical complex, [[UAE]]'s al-Hosn gasfield, [[Qatar]]'s Mesaieed petrochemical complex. Warned all personnel to evacuate immediately. Eskandar Pasalar (governor of Asaluyeh): "the pendulum of war has swung to a full-scale economic war."
+
+**Qatar's response:** Expelled Iranian military/security attachés (24 hours). Called it "flagrant violation of sovereignty." Strongest language from Doha since the war began. Qatar had been trying to stay neutral — that is now over.
+
+**Market impact (Mar 18):**
+- Brent crude: $107.38 (+3.83%), hit $108.60 intraday (+5%)
+- European gas benchmark: jumped 7.5%+ to over €55.50/MWh
+- Dow: -768 pts (-1.63%) — new 2026 closing low
+- S&P 500: -1.36% to 6,624.70
+- Fed held rates at 3.5-3.75%; Powell acknowledged Middle East uncertainty
+- PPI came in hot (+0.7% vs +0.3% est) — structural tariff inflation layered on top of energy shock
+
+**Why this matters structurally:** Prior to March 18, Ras Laffan was offline because Hormuz was blocked (a shipping problem). Now there is physical missile damage to Shell Pearl GTL and the condensate refinery. Even if Hormuz reopens tomorrow, these facilities need physical repair — weeks to months. The Goldman Sachs estimate of -14% GDP contraction for Qatar just got worse. Iran explicitly naming Saudi, UAE, and Qatari facilities as targets means the conflict has entered a **full-scale energy infrastructure war** — exactly the scenario the market was most afraid of.
+
+*Sources: Guardian, Reuters, Axios, JPost, Bloomberg/Javier Blas, NASA FIRMS, QatarEnergy statement (all Mar 18, 2026)*
+
 ---
 
 ## Related
