@@ -119,6 +119,35 @@ This suggests displacement won't be uniform. Some roles get eliminated entirely.
 
 ---
 
+## China's AI anxiety wave (March 2026)
+
+China flipped from AI optimism to mass anxiety in a matter of weeks. The trigger was [[OpenClaw]].
+
+**The numbers:** WeChat Index for "AI焦虑" (AI anxiety) spiked from a baseline of ~20,000 to over 2 million on March 10, 2026. Briefly hit Weibo trending. KPMG's 47-country survey had 69% of Chinese saying AI benefits outweigh risks (vs 35% of Americans) — that number is now stale.
+
+**What happened:**
+- OpenClaw mania swept China in Feb-March 2026. 1,000 people lined up outside Tencent HQ in Shenzhen for a free install session. Longgang district government offered 2-10M yuan for approved OpenClaw projects. Corporate pile-on: ByteDance (ArkClaw), Tencent (WeChat suite), Alibaba (JVS Claw), Baidu, Zhipu.ai, Moonshot all launched OpenClaw-adjacent products
+- Market frenzy: Hangzhou Shunwang +21%, Talkweb +12%, Beijing Vrv Software +15%, [[MiniMax]] +27.4% (now +600% from IPO), [[Tencent]] +8.9% in a week — all vs CSI 300 +0.9%
+- Then the backlash: central government warned SOEs and agencies against installing OpenClaw (data leakage, unauthorized access). Same people who charged hundreds of yuan to install it started charging 299 yuan to uninstall it
+
+**Why the mood shifted from excitement to anxiety:**
+
+1. **Job insecurity meets reality gap.** Most Chinese people knew AI as chatbots (Doubao, Qwen). Claude Code and Codex aren't available in China. Then suddenly media claims OpenClaw can "handle a wide range of tasks autonomously." The gap between what people experienced and what they were told deepened the sense of being left behind.
+
+2. **Job market context.** Peking University study (Bloomberg): sectors with higher AI exposure (accounting, editing, sales, programming) saw larger recruitment declines across 1M+ job postings (2018-2024). Record 12.7M university graduates entering the market in 2026. Government building an "employment-friendly growth model" (FT).
+
+3. **The [[Citrini 2028 Global Intelligence Crisis|Citrini 2028 report]] went viral in Chinese.** Bob Chen (BroadVision Fund, ex-CASS economist) published a response arguing China would be insulated because SaaS never took off there — China's economy is built on heavy staffing, offline relationships, and customized solutions with leaders making final calls and workers as "atomized information processors relying on Excel." That structure is better suited to AI efficiency gains than AI replacement. Reassuring thesis, but the anxiety ran deeper.
+
+4. **Pace anxiety.** A RedNote post: "I haven't figured out Claude Code, and Skills is already out. I haven't understood Skills, and Clawdbot is out. I haven't installed Clawdbot, and the Mac Mini price is already up." Jensen's quote circulates widely in China: "You're not going to lose your job to AI, but you're going to lose your job to someone who uses AI."
+
+5. **AI in warfare.** US military use of AI in Iran operations + the Anthropic/DoD saga made Chinese citizens reconsider AI as a civilian technology. Despite China's civil-military fusion policy, ordinary people had maintained a mental separation between AI and violence. That separation is dissolving.
+
+**The structural question:** Will Beijing prioritize employment stability or national AI competitiveness? The tension is real — 12.7M graduates hitting a job market where AI-exposed sectors are already shrinking recruitment, while the government simultaneously backs AI development as strategic imperative.
+
+*Source: [Recode China AI](https://recodechinaai.substack.com/p/ai-anxiety-is-blooming-in-china) (Mar 17, 2026)*
+
+---
+
 ## Related
 
 - [[AI disintermediation]] — business model disruption (the market side)
@@ -128,3 +157,5 @@ This suggests displacement won't be uniform. Some roles get eliminated entirely.
 - [[Klarna]] — the original proof point
 - [[AI adoption curve]] — 84% have never used AI; displacement running ahead of adoption
 - [[Citrini 2028 Global Intelligence Crisis]] — the scenario exercise
+- [[OpenClaw]] — trigger for China's AI anxiety wave (March 2026)
+- [[China]] — AI anxiety, employment tension, SOE security concerns
