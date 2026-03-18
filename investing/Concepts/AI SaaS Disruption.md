@@ -56,6 +56,33 @@ The structural argument is compelling: most SaaS products are CRUD apps (Create,
 3. **Build for AI agents, not humans** — next wave of SaaS customers are autonomous agents calling APIs, not people clicking buttons
 4. **Moat = data + models** — UI is no longer defensible
 
+## AI disruption by SaaS segment
+
+Not all SaaS is equally exposed. AI disrupts each segment through a different mechanism:
+
+| Segment | Examples | AI threat level | Mechanism |
+|---------|----------|----------------|-----------|
+| **Horizontal SaaS** | [[Salesforce]], [[Workday]], [[ServiceNow]] | High | Core value = structured workflow for humans. AI agents manage CRM pipelines, generate reports, route tickets without a UI. $150/seat/month starts looking like overhead. |
+| **Vertical SaaS** | Veeva (pharma), Procore (construction), Toast (restaurants) | Low-medium | Value = domain knowledge + compliance frameworks + data moats. AI can't easily replace Veeva's FDA submission workflows. Regulatory lock-in persists. |
+| **Infrastructure SaaS** | [[Snowflake]], [[Datadog]], [[Confluent]] (pre-IBM) | Beneficiary | AI doesn't replace these — AI *needs* them. More agents = more data pipelines, monitoring, infra. This segment grows with AI adoption. |
+| **SMB SaaS** | [[Shopify]], [[Block]], Gusto | High | Price-sensitive customers, simple enough workflows for agents to handle. Shopify adapting by becoming the agent commerce platform. Others get eaten. |
+| **Collaboration SaaS** | Slack, [[Notion]], Asana, Monday | High | The "coordination tax" layer. AI agents manage tasks, summarize threads, orchestrate workflows without humans clicking through a project management UI. |
+
+**The pattern:** segments where the value is "organizing human workflows" are most exposed. Segments where the value is "proprietary data" or "infrastructure plumbing" are insulated or benefit.
+
+### China's leapfrog risk
+
+Bob Chen's "SaaS never took root in China" thesis (see [[AI labor displacement]]) maps differently by segment:
+
+- **Horizontal + Collaboration:** Chen is right — China runs on [[WeChat]] groups and personal relationships, not Salesforce/Slack. There's no SaaS middle layer to displace.
+- **Infrastructure:** Irrelevant to the thesis — China needs data infrastructure regardless. [[Alibaba]] Cloud, [[Tencent]] Cloud, [[ByteDance]] Volcano Engine all building it.
+- **Vertical:** Never existed in China at scale — relationship-driven industries, less regulatory standardization.
+- **SMB:** China's equivalent is [[WeChat]] mini-programs + Alibaba ecosystem — already more platform-dependent than SaaS-dependent.
+
+The real question: do AI agents leapfrog the SaaS layer entirely in China — going straight from "guy with Excel and WeChat" to "AI agent with Excel and WeChat"? That would be displacement by a different mechanism than Chen's model accounts for. The agent doesn't replace SaaS (which doesn't exist) — it replaces the human coordination work that SaaS was supposed to automate but never did.
+
+---
+
 ## Insights
 
 - The "SaaS funding down 60%" stat tracks with VC data — but the decline is concentrated in horizontal/generic SaaS. Vertical AI-native startups are still raising

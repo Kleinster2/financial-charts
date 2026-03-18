@@ -79,6 +79,20 @@ China's SaaS market operates under fundamentally different dynamics:
 
 ---
 
+## Segment taxonomy
+
+| Segment | Value proposition | AI exposure | Examples |
+|---------|-------------------|-------------|----------|
+| **Horizontal** | Broad business functions across industries (CRM, HR, ITSM) | High — agents commoditize the workflow UI | [[Salesforce]], [[Workday]], [[ServiceNow]] |
+| **Vertical** | Industry-specific, deeply embedded, often regulatory-driven | Low — domain knowledge + compliance = durable moat | Veeva, Procore, Toast, [[Shopify]] (commerce vertical) |
+| **Infrastructure** | Data plumbing, monitoring, developer tools | Beneficiary — more AI = more infra demand | [[Snowflake]], [[Datadog]], [[Confluent]], [[Supabase]] |
+| **Collaboration** | Team coordination, project management, messaging | High — AI agents replace the "coordination tax" | Slack, [[Notion]], Asana, Monday |
+| **SMB** | Small business operations (payments, payroll, storefront) | High — simple workflows, price-sensitive customers | [[Block]], Gusto, [[Shopify]] |
+
+See [[AI SaaS Disruption]] for full analysis of how AI disrupts each segment differently, including the China leapfrog risk.
+
+---
+
 ## Investment themes
 
 - Vertical SaaS — industry-specific solutions with higher switching costs and deeper workflow integration
