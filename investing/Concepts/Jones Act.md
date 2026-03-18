@@ -25,7 +25,7 @@ The Jones Act creates an artificial wall between America's energy-surplus region
 
 [[Ed Morse]] noted during the March 17, 2026 [[Council on Foreign Relations|CFR]] panel on the [[2026 Iran conflict market impact|Iran war's geoeconomic effects]] that "the Jones Act lifting has failed every time the government has done it, except for a small emergency." The political economy: the maritime lobby (shipbuilders, unions, military readiness advocates) blocks waivers. Even Hurricane Maria (2017) only got a 10-day waiver for Puerto Rico after intense political pressure.
 
-During the 2026 [[Strait of Hormuz]] closure, the Jones Act was not waived despite East Coast product tightness — reinforcing the structural vulnerability.
+On March 18, 2026, after Israel struck Iran's South Pars gas field and Iran retaliated by hitting Qatar's [[Ras Laffan]], the Trump administration issued a **60-day Jones Act waiver** — allowing foreign-flagged vessels to move fuel, fertilizer, and other goods between US ports. This was the first meaningful waiver in decades, issued the same day [[Ed Morse]] told the CFR panel that Jones Act waivers "have failed every time." The waiver itself validates Morse's [[US Energy Independence Six Countries|"six countries" framework]]: the coasts need foreign-flagged vessels because the domestic fleet physically cannot serve them.
 
 ## Economics
 

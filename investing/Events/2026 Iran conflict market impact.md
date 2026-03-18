@@ -660,7 +660,34 @@ The war crossed a critical threshold on March 18 when energy infrastructure beca
 
 **Why this matters structurally:** Prior to March 18, Ras Laffan was offline because Hormuz was blocked (a shipping problem). Now there is physical missile damage to Shell Pearl GTL and the condensate refinery. Even if Hormuz reopens tomorrow, these facilities need physical repair — weeks to months. The Goldman Sachs estimate of -14% GDP contraction for Qatar just got worse. Iran explicitly naming Saudi, UAE, and Qatari facilities as targets means the conflict has entered a **full-scale energy infrastructure war** — exactly the scenario the market was most afraid of.
 
-*Sources: Guardian, Reuters, Axios, JPost, Bloomberg/Javier Blas, NASA FIRMS, QatarEnergy statement (all Mar 18, 2026)*
+### US emergency supply measures (Mar 18 — same day)
+
+The administration pulled four emergency levers in a single day — the most aggressive supply-side response since the war began:
+
+| Measure | Detail | Impact |
+|---------|--------|--------|
+| [[Jones Act]] waiver (60-day) | Foreign-flagged vessels allowed to move fuel, fertilizer, and goods between US ports | First meaningful waiver in decades. Addresses the exact "six countries" coastal import problem [[Ed Morse]] described hours earlier at CFR |
+| Summer-blend gasoline waiver | Federal smog-cutting restrictions on summer-blend gasoline temporarily lifted | Marginal impact on gasoline futures — mainly political signal |
+| [[Venezuela]] PDVSA general license | US issued general license authorizing certain deals involving [[PDVSA]] | Brings Venezuelan barrels back — reverses January sanctions |
+| Iraq-KRG pipeline restart | [[Iraq]]'s Kirkuk crude exports to Turkey's Ceyhan port resumed at 250K bpd; SOMO signed contracts to export via Turkey, Jordan, Syria | First non-Hormuz Iraqi crude in weeks; politically significant (Baghdad-KRG agreement) |
+
+VP [[JD Vance]] meeting with the American Petroleum Institute on Thursday — likely pressuring US producers to increase output.
+
+The fact that four emergency measures came on the same day as the South Pars / Ras Laffan escalation tells the story: the administration recognizes that the war has entered a full-scale energy infrastructure phase and the previous tools (SPR releases, insurance subsidies, naval escorts) are insufficient.
+
+The Jones Act waiver is particularly notable — [[Ed Morse]] said on the CFR panel *that morning* that "the Jones Act lifting has failed every time the government has done it, except for a small emergency." Hours later, the government did it. The irony: the waiver proves Morse's "six countries" framework was correct — the coasts need foreign-flagged vessels because the domestic fleet can't serve them.
+
+### Oil price action (Mar 18 verified)
+
+| Benchmark | Close | Day move | Intraday high | Notes |
+|-----------|-------|----------|---------------|-------|
+| Brent crude | **$107.38** | **+3.83%** (+$3.96) | **$109.95** | Above $100 two straight sessions — first time since war began |
+| WTI crude | **$96.32** | **+0.11%** (+$0.11) | **$99.41** | Nearly breached $100; WTI-Brent spread widest since May 2019 |
+| European gas (TTF) | >**€55.50/MWh** | **+7.5%** | — | Ras Laffan physical damage added to existing force majeure |
+
+The widening WTI-Brent spread reflects the market pricing a protracted conflict: Brent (global seaborne) surges on Middle East supply loss while WTI (US domestic) lags because the Jones Act waiver and domestic production partially insulate US supply.
+
+*Sources: Reuters (Mar 18), Guardian (Mar 18), Axios (Mar 18), JPost (Mar 18), Bloomberg/Javier Blas (Mar 18), NASA FIRMS, QatarEnergy statement (Mar 18), CNBC (Mar 18)*
 
 ---
 
