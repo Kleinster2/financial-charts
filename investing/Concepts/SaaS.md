@@ -93,6 +93,49 @@ See [[AI SaaS Disruption]] for full analysis of how AI disrupts each segment dif
 
 ---
 
+## Correlation structure
+
+SaaS is far less monolithic than the market treats it. 252-day rolling correlations reveal distinct clusters:
+
+### Individual stock vs IGV (SaaS ETF)
+
+| Ticker | Company | Segment | vs IGV | vs SPY | vs QQQ |
+|--------|---------|---------|--------|--------|--------|
+| WDAY | [[Workday]] | Systems of record | 0.29 | -0.10 | -0.07 |
+| PANW | [[Palo Alto Networks]] | Security | 0.21 | 0.11 | 0.13 |
+| NOW | [[ServiceNow]] | Workflow | 0.18 | 0.15 | 0.17 |
+| MNDY | Monday.com | Workflow | 0.17 | -0.17 | -0.11 |
+| BRZE | Braze | Comms | 0.17 | 0.04 | 0.04 |
+| CRWD | [[CrowdStrike]] | Security | 0.14 | 0.05 | 0.06 |
+| ZS | [[Zscaler]] | Security | 0.14 | 0.05 | 0.09 |
+| CRM | [[Salesforce]] | Systems of record | 0.13 | 0.15 | 0.16 |
+| DDOG | [[Datadog]] | Infrastructure | 0.12 | 0.06 | 0.08 |
+| ADBE | [[Adobe]] | Creative | 0.11 | 0.08 | 0.06 |
+| HUBS | [[HubSpot]] | Comms | 0.10 | -0.02 | 0.01 |
+| PLTR | [[Palantir]] | Analytics | 0.09 | -0.01 | 0.02 |
+| SNOW | [[Snowflake]] | Infrastructure | 0.08 | 0.09 | 0.12 |
+| SHOP | [[Shopify]] | SMB | 0.02 | 0.04 | 0.02 |
+| SAP | [[SAP]] | Systems of record | 0.02 | 0.30 | 0.32 |
+| SQ | [[Block]] | SMB | 0.00 | 0.04 | 0.02 |
+| ORCL | [[Oracle]] | Systems of record | -0.02 | 0.05 | 0.06 |
+
+*Notably low correlations across the board.* IGV is a poor proxy for any individual SaaS name. SAP correlates more with SPY (0.30) than with its own sector ETF (0.02) — it's a European industrial bellwether, not a growth SaaS stock.
+
+### Intra-segment clustering
+
+| Segment | Stocks | Avg pairwise r | Interpretation |
+|---------|--------|----------------|----------------|
+| Security | PANW, CRWD, ZS | **0.67** | Tightest cluster. Trades as a group. |
+| Infrastructure | SNOW, DDOG | **0.62** | Strong co-movement. Data infra basket. |
+| Systems of record | CRM, WDAY, SAP, ORCL | **0.11** | Barely correlated. SAP/ORCL trade like value; CRM/WDAY trade like growth. |
+| SMB | SHOP, SQ | **0.00** | Zero correlation. Different businesses wearing the same label. |
+
+**Key insight:** "SaaS" is not a coherent sector for portfolio construction. Security and infrastructure cluster tightly and can be traded as baskets. Systems of record and SMB are idiosyncratic — each stock trades on its own fundamentals. The Feb 2026 selloff hit them all indiscriminately, which created dispersion opportunities for investors who understood the segment differences.
+
+*Data: 252-day rolling returns, market_data.db as of March 14, 2026*
+
+---
+
 ## Investment themes
 
 - Vertical SaaS — industry-specific solutions with higher switching costs and deeper workflow integration
