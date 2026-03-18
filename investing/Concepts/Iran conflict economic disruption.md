@@ -552,6 +552,127 @@ Raj Patel (LBJ School of Public Affairs): higher fuel and power costs push up fo
 
 ---
 
+## Container shipping disruption
+
+### Week 1 — stranded fleets, port pressure (March 5)
+
+*Source: FT, Alice Hancock & Kana Inagaki, March 5, 2026*
+
+![[ft-containership-hormuz-transits-mar2026.png]]
+*Containership transits through the [[Strait of Hormuz]] collapsed from ~100-140K TEU (3-day average) to near zero by March 1-3. Source: [[Clarksons Research]] / FT. Data to March 3.*
+
+90 container ships stuck in the Gulf out of 425 that were due to cross Hormuz. 100+ tankers also stranded. Most ships left seeking other ports after transshipment hubs [[Jebel Ali]] and [[Salalah]] (Oman) suspended operations due to strikes. Drone attacks on Gulf ports made discharging cargo there "off the cards" — [[Peter Sand]] ([[Xeneta]], Mar 5).
+
+[[MSC]] invoked the Bills of Lading Act (1855) on Tuesday (Mar 4) — all containers to be taken to nearest available port and left for customers to collect at their own expense, plus an $800 per-container deviation fee.
+
+Johan Sigsgaard ([[Maersk]] chief product officer, Mar 5): *"The first critical supply chain we need to deal with is refrigerated cargo because of the much shorter shelf life. Anywhere between the Gulf and going back to Latin America . . . we're looking for storage options."*
+
+### Congestion spreading to secondary hubs
+
+Pressure cascading to ports far from the Gulf:
+
+| Port | Exposure | Detail |
+|------|----------|--------|
+| [[Singapore]] | Already congested from US tariffs + China rerouting | Wait time 6.5 days to dock (up from 2.9 day YTD avg) — [[Flexport]] data |
+| [[Tanjung Pelepas]] (Malaysia) | Major transshipment hub | Expected to absorb rerouted Gulf cargo |
+| [[Colombo]] (Sri Lanka) | Major transshipment hub | Expected to absorb rerouted Gulf cargo |
+| [[Tangier]] (Morocco) | Med gateway | Expected to absorb rerouted Gulf cargo |
+| [[Algeciras]] (Spain) | Med gateway | Expected to absorb rerouted Gulf cargo |
+
+As containers build up, efficiency drops at these ports — "ripple effects throughout the system" (Sand).
+
+### Car carriers
+
+~15 car carriers stranded, 20 more waiting outside or en route. [[Lasse Kristoffersen]] ([[Wallenius Wilhelmsen]] CEO, Mar 5): ports that can manage additional automotive cargo *"will be well outside the region and could even be in east Asia."*
+
+### Air cargo grounded
+
+13% of global air cargo capacity grounded ([[Flexport]]). Landing rights don't allow easy rerouting; airports lack space for extra cargo planes carrying perishables and healthcare products. [[Sanne Manders]] (Flexport president, Mar 5): *"It has a severe impact on air cargo capacity and you will see that in higher prices."* [[Turkish Airlines]] as winner — [[Istanbul]] hub not closed.
+
+### DHL land bridge
+
+[[Oscar de Bok]] ([[DHL]] Global Forwarding CEO, Mar 5): chartered "hundreds" of lorries to move shipments out of the region by land. Recovery math: *"To recover a week [of disruption] it will probably take four weeks. And if this is going to be four weeks, then we're talking about months to be recovered."*
+
+[[Rolf Habben Jansen]] ([[Hapag-Lloyd]] CEO, Mar 5): *"Everyone's looking for space now. We believe that we are securing a fair bit of space and once that is done we will advise customers on how we will handle the cargo."*
+
+Israel warned Wednesday (Mar 5) it expected the war to continue for "several long weeks."
+
+### Week 3 — "wild west" (March 18)
+
+*Source: FT, Alice Hancock, March 18, 2026*
+
+![[ft-container-rates-gulf-shanghai-mar2026.png]]
+*Container freight rates: Shanghai–N.Europe vs Shanghai–Persian Gulf (Dubai). Gulf rates spiked to ~$3,300/TEU from ~$900 in late 2025, while Europe-bound rates rose modestly to ~$1,618. Source: [[Clarksons Research]], Shanghai Shipping Index / FT.*
+
+By Week 3, all four major carriers ([[MSC]], [[Maersk]], [[CMA CGM]], [[Hapag-Lloyd]]) have told customers they reserve the right to invoke the 19th-century maritime rule to leave containers at the nearest available port at the client's expense — [[MSC]]'s $800 deviation fee from Week 1 now industry standard.
+
+### Rate impact (as of Mar 18)
+
+| Route | Pre-conflict | Current | Change |
+|-------|-------------|---------|--------|
+| UK → [[Jebel Ali]] (household goods, TEU) | ~$1,500 | ~$6,000 | ~4x |
+| Shanghai → N.Europe (TEU) | ~$1,457 | $1,618 | +11% |
+| Shanghai → Persian Gulf/Dubai (TEU) | ~$900 | ~$3,300+ | ~3.5x |
+
+Craig Reilly (Dubai Arabian Shipping Agency, Mar 18): additional land transport, storage costs, port charges, and import fees mean *"unplanned additional cost can readily reach the low four-figure range per container above the original quotation."*
+
+Gulf-bound rates have soared ~4x while Shanghai–Europe rose only 11% — the dispersion tells you the market is pricing a regional shutdown, not a systemic crisis. Rates remain "well down" from Covid-era peaks of ~$8,000/TEU ([[Clarksons Research]]).
+
+### Containers dumped at alternative ports
+
+Carriers are abandoning containers at whichever port is reachable:
+
+| Original destination | Dumped at | Source |
+|---------------------|-----------|--------|
+| Middle East (general) | [[Nhava Sheva]], [[India]] | David Ozard, John Mason International |
+| [[Saudi Arabia]] | [[Khor Fakkan]], [[UAE]] | David Ozard, John Mason International |
+
+Ozard (Mar 18): *"At the moment it's a complete wild west. If we don't [pay], shipping lines put our accounts on hold and hold us to ransom."*
+
+### Surcharges and fuel
+
+All four major carriers added blanket fuel surcharges of $160–$400/TEU across all routes — not the usual route-by-route pricing.
+
+[[Lars Jensen]] ([[Vespucci Maritime]], Mar 18): fuel surcharges are normally set by route, distance, and vessel size. The blanket application across all routes is unusual — it signals carriers are using the crisis to reprice structurally, not just covering incremental cost.
+
+[[Hapag-Lloyd]]: surcharges cover war risk, fuel prices, and an additional "contingency surcharge" for Red Sea cargoes. [[Maersk]] cited "reshuffling in our fuel supply chain, rerouting of vessels and equipment shortage."
+
+Charter rates for container ships at highest level since Covid ([[Clarksons Research]]) — rerouting absorbs vessel capacity.
+
+### Jebel Ali fire and congestion
+
+Debris from aerial strikes on Sunday (Mar 16) caused fire at [[Jebel Ali]] — [[Dubai]]'s main hub port, operated by [[DP World]] — triggering further cancellations and congestion at safer ports. ~3,200 vessels now stuck in the Gulf (up from ~700 on Mar 7, 90 container ships + 100 tankers on Mar 5).
+
+### Fresh produce and halal meat
+
+Philippe Binard ([[Freshfel]], Mar 18): March is peak month for European fresh produce exports to the Middle East. Refrigerated containers rerouted to [[Jeddah]], then overland — but border controls and competition for land transport add cost and delay. Fruit shipments require specific documents that must be reissued for alternate destinations. Margins in fresh produce are "extremely thin."
+
+Halal meat supply chain disrupted — four livestock carriers heading for [[Jeddah]] port ([[S&P Global]]). Live animal transport is harder to reroute than dry cargo.
+
+### CMA CGM partial workaround
+
+[[CMA CGM]] has reopened Gulf bookings and is managing some logistics by truck from [[Jeddah]] and [[Oman]], including pharmaceutical goods. A person at the group (Mar 18): *"It's not as fast obviously."*
+
+### Carrier oligarchy charge
+
+[[Beko]] CEO [[Hakan Bulgurlu]] (Mar 18): shipping lines are *"pretty much an oligarchy"* and *"very opportunistic."* Beko insulated from immediate surcharges via long-term contracts, but the ripple effects through global supply chains create a *"whack-a-mole situation."*
+
+### China summons carriers (March 10)
+
+*Source: FT, March 10, 2026*
+
+[[China]]'s transport ministry summoned [[Maersk]] and [[MSC]] executives to complain about freight charge hikes and service suspensions. State planner ([[NDRC]]) also held talks. China exported >$30B in goods to the Middle East in Jan-Feb 2026 alone. ME exports growing at ~2x the rate of China's rest-of-world exports — the region has become strategically important as Western trade tensions escalate.
+
+[[Maersk]] emergency fees: $1,800/TEU (20ft), $3,000/TEU (40ft) for existing bookings and in-transit cargo. [[MSC]] added emergency fuel surcharges + temporarily raised Asia–Europe and Africa rates.
+
+Precedent: Beijing hauled in shipping companies during Covid when container rates spiked similarly. The pattern reveals China's dual exposure — as the world's largest exporter, it is simultaneously the biggest beneficiary and biggest victim of the carrier oligopoly's pricing power.
+
+### Investment read
+
+Container shipping is a distinct disruption channel from tankers/crude. The dispersion matters: Gulf-bound rates ~4x vs Europe-bound +11% confirms this is a regional logistics crisis, not yet a global supply chain repeat of 2020-21. But the "whack-a-mole" dynamic — Gulf congestion → rerouting to India/Oman/Saudi Red Sea → port congestion there → cascading delays globally — is already materializing: Singapore wait times doubled by Week 1, 13% of air cargo grounded, and de Bok's recovery math (1 week disruption = 4 weeks recovery) implies months of tail effects. The carrier oligopoly structure (top 4 = ~59% market share) means pricing power flows one way. Watch for: whether container rate inflation spreads from Gulf-specific routes to Asia-Europe and transpacific benchmarks. If it does, this becomes a macro-relevant inflation input.
+
+---
+
 ## US policy response — Heritage wargame scorecard (March 15)
 
 A 2007 Heritage Foundation wargame predicted this exact scenario and recommended a mitigation package. Bill Beach (former BLS commissioner, who ran the numbers): *"We've been stuck in this Groundhog Day with Iran for the past 20 years."*
@@ -589,11 +710,12 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Gig economy / labor disruption | Delivery workers, ride-hail drivers, trucking | India (~1M workers) tracked |
 | Power grid stress | Countries dependent on oil/gas generation (Pakistan, Bangladesh, Myanmar) | Untracked |
 | SPR drawdown pace vs. refill | IEA 400M bbl release — how fast are buffers actually depleting? | IEA release tracked, pace not |
+| Container shipping rates | Gulf-bound rates ~4x, blanket surcharges, containers dumped at alternative ports | **Tracked** — see Container shipping section above. Regional, not yet systemic |
 | Insurance market pricing | War-risk premiums making Gulf shipping permanently uneconomic | Mentioned, not quantified; see [[Nitrogen Trap]] for full insurance fracture architecture |
 | Asian refinery crude-grade mismatch | Refineries configured for Gulf sour crude can't easily switch to non-ME grades | Reynolds/IEEFA flagged |
 | Sovereign energy subsidy fiscal strain | Indonesia $22.6B, others scaling — impact on fiscal deficits | Indonesia tracked, others not |
 
-*Last reviewed: 2026-03-14*
+*Last reviewed: 2026-03-18*
 
 ---
 

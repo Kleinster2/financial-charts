@@ -64,6 +64,14 @@ If bunkering ports run dry, ships halt — cascading through global supply chain
 
 ---
 
+## Container rate crisis (March 2026)
+
+The Hormuz closure has now hit container shipping. Gulf-bound container rates spiked ~4x (UK–[[Jebel Ali]] from ~$1,500 to ~$6,000/TEU; Shanghai–Gulf from ~$900 to ~$3,300+) while Shanghai–N.Europe rose only 11% to $1,618/TEU — regional shutdown pricing, not systemic. All four major carriers ([[MSC]], [[Maersk]], [[CMA CGM]], [[Hapag-Lloyd]]) invoked a 19th-century maritime rule to dump containers at nearest available port at client's expense. Blanket fuel surcharges of $160–$400/TEU applied across all routes. Charter rates at highest since Covid. ~3,200 vessels stuck in the Gulf. [[Jebel Ali]] fire from aerial strike debris (Mar 16) compounded congestion. [[CMA CGM]] partially reopened Gulf bookings via truck from [[Jeddah]]/[[Oman]].
+
+Full detail: [[Iran conflict economic disruption#Container shipping — "wild west" (March 18)]].
+
+---
+
 ## Key concepts
 
 - [[Port automation]] — automation tech and investment implications

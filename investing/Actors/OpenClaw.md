@@ -176,6 +176,65 @@ China MIIT flagged OpenClaw as potential security risk when improperly configure
 
 ---
 
+## China adoption frenzy (Mar 2026)
+
+*(Source: Financial Times, Mar 18, 2026 — Ryan McMorrow, Tina Hu, Nian Liu)*
+
+OpenClaw adoption in China went beyond the developer community, reaching general users seeking productivity gains. "Raising a lobster" (养龙虾) — a nod to the crustacean logo and the time needed to install and train agents — became a mainstream buzzword.
+
+### Branded clones
+
+Chinese big tech raced to release simplified OpenClaw derivatives, each funneling users toward the company's own LLM tokens and cloud services:
+
+| Company | Product | Strategy |
+|---------|---------|----------|
+| [[ByteDance]] | ArkClaw | Routes to ByteDance models |
+| [[Tencent]] | QClaw | Routes to Tencent models |
+| [[Alibaba]] | CoPaw | Routes to Alibaba models |
+| [[Moonshot AI]] | Kimi Claw | Routes to Kimi models |
+
+[[Tencent]] launched a nationwide "lobster" tour across 17 cities to help people install OpenClaw. A cottage industry of OpenClaw consultants emerged on [[Alibaba]]'s Xianyu marketplace — and has since expanded to include removal services.
+
+[[Bernstein]] analyst Robin Zhu (Mar 2026): *"OpenClaw by itself is not consumer-grade tech, so it makes sense for tech companies to make apps with a smoother onboarding experience and safety guardrails in place."* Estimated the AI agent market could reach $100bn annual revenue by 2030.
+
+Bao Linghao, [[Trivium China]] (Mar 2026): OpenClaw adoption had become a "frenzy" that "tends to feed on itself," driven by local government promotion and social media hype.
+
+### Local government subsidies
+
+| City | Subsidy | Detail |
+|------|---------|--------|
+| Hefei | Up to RMB 13M ($1.8M) | Computing power vouchers + subsidized office space for "single-person companies" built on OpenClaw |
+| Hangzhou | Up to RMB 20M/year | Help companies pay for computing power |
+| Wuxi | Large grants | For OpenClaw projects |
+
+The subsidies reflect Chinese local government enthusiasm for AI-driven economic growth — same playbook as earlier chip and EV subsidy programs.
+
+### Stock moves
+
+[[MiniMax]] (HK-listed LLM provider) shares rose as much as 50% in a single week on OpenClaw token consumption expectations. [[Alibaba]] HK shares down 7% over the past month; [[Tencent]] up 7%.
+
+Data from OpenRouter indicates Chinese LLM providers benefiting from rapid growth amid the frenzy.
+
+### Central government caution
+
+China's cyber security regulators issued warnings about data breach risks, noting OpenClaw's requirement for extensive system permissions. Consistent with the MIIT warning from Feb 2026.
+
+### User stories (FT, Mar 2026)
+
+Guo, 38, HR head at a media company: trained a network of OpenClaw agents to collect resumes, build candidate profiles, match/evaluate candidates, generate interview questions, and conduct preliminary interviews. Spent ~RMB 5,700 on hardware and LLM tokens — said the workload would have required two full-time employees. *"There is still a step where humans are involved to get a feel for the candidate, but that could change if the culture of an organisation can also be quantified and fed into AI."*
+
+Chris Yang, 34, finance professional: installed on three computers for presentations and research. Most valuable use case: agent reads and summarizes social media comments. *"There is a lot of value in the comments."*
+
+Mason Mei, 31, employee at a state-owned financial institution: spent ~RMB 40 in tokens to summarize corporate reports. Disappointed with results, felt "completely exposed" after the software began accessing personal files and reading private WeChat messages. Deleted it immediately.
+
+A 21-year-old consultant reported already fielding more requests for deletion than installation: *"Some people fantasised about what OpenClaw might do, but in reality it doesn't work very well, and they worry it could create security risks or take up storage."*
+
+### Jensen Huang / GTC endorsement
+
+At [[NVIDIA]]'s GTC conference (Mar 17, 2026), [[Jensen Huang]] compared OpenClaw to Linux — framing it as a foundational open-source platform for the agent era. This is the highest-profile corporate endorsement to date.
+
+---
+
 ## Financials
 
 Currently **losing $10-20K/month** on the project. All sponsorship goes to dependencies (supports every individual-maintained dependency except Slack). [[OpenAI]] helping with tokens. If it's more, wants to buy contributors merch. *(Source: Lex Fridman Podcast #491)*

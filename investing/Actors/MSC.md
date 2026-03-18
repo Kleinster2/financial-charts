@@ -36,6 +36,18 @@ MSC's terminal arm (TiL - Terminal Investment Limited) is acquiring [[Hutchison 
 - Excludes China/Hong Kong assets
 - Would make MSC/TiL the largest terminal operator globally
 
+## Iran conflict response (Mar 2026)
+
+Invoked the Bills of Lading Act (1855) on Mar 4 — all containers taken to nearest available port and left for customers at their own expense, plus $800 per-container deviation fee. Announced emergency fuel surcharges on key routes and temporarily raised rates on Asia–Europe and African routes. Both MSC and [[Maersk]] continue to sail to some [[Saudi Arabia]] and [[Oman]] ports; MSC highlighted an overland route to Gulf countries via Saudi Red Sea ports.
+
+### China regulatory pressure (Mar 10)
+
+[[China]]'s transport ministry summoned MSC and [[Maersk]] executives over freight charge hikes and service suspensions. State planner ([[NDRC]]) also held talks. China exported >$30B in goods to the Middle East in Jan-Feb 2026; the region grew at ~2x the rate of China's rest-of-world exports. Precedent: Beijing hauled in shipping companies during Covid for the same reason.
+
+*Source: FT, Mar 10, 2026*
+
+---
+
 ## Investment Angle
 
 **Not directly investable** — private company.
