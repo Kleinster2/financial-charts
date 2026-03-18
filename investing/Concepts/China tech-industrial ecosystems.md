@@ -17,6 +17,37 @@ The investment implication is that export controls and tariffs targeting individ
 
 ---
 
+## The ecosystem map
+
+![[china-tech-industrial-ecosystems.png]]
+*China's overlapping tech-industrial ecosystems. Source: Kyle Chan, High Capacity (Mar 2026)*
+
+The diagram maps 10 overlapping technology domains — drones, lidar, batteries, EVs, autonomous vehicles, AI, semiconductors, smartphones, humanoid robots, industrial robots — with ~40 Chinese companies positioned by their cross-domain reach.
+
+**Hub companies** (spanning 4+ domains):
+- [[Huawei]]: the most central node — lidar, drones, autonomous vehicles, AI, smartphones, semiconductors. The ultimate generalist.
+- [[Xiaomi]]: EVs + smartphones + humanoid robots + industrial robots
+- [[BYD]]: batteries + EVs + semiconductors
+
+**Bridge companies** (connecting 2-3 domains):
+- [[Baidu]]: autonomous vehicles ↔ AI (Apollo platform)
+- Horizon Robotics: autonomous vehicles ↔ AI ↔ semiconductors (autonomous driving chips)
+- SenseTime/Megvii: AI ↔ smartphones ↔ autonomous vehicles (computer vision)
+- [[Li Auto]]: EVs ↔ humanoid robots
+- [[DJI]]: drones ↔ lidar (Livox)
+
+**Domain specialists:**
+- AI pure plays: [[DeepSeek]], [[01.AI]], Zhipu, [[Alibaba]], [[ByteDance]], [[Tencent]]
+- Semiconductors: [[SMIC]], [[YMTC]], CXMT
+- Humanoid robots: [[Unitree]], Zhiyuan, Fourier
+- EVs: [[XPeng]], [[NIO]], [[Geely]], Chery
+- Lidar: [[Hesai]]
+- Industrial robots: Siasun, Inovance
+
+The critical insight: the more domains a company spans, the more it functions as a technology transfer conduit across China's industrial system. [[Huawei]]'s position at the center of 5-6 domains is why sanctions couldn't kill it — the surrounding ecosystem provided alternative pathways for every blocked input.
+
+---
+
 ## The four compounding mechanisms
 
 | Mechanism | How it works | Example |
