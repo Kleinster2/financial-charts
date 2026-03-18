@@ -142,7 +142,26 @@ China flipped from AI optimism to mass anxiety in a matter of weeks. The trigger
 
 5. **AI in warfare.** US military use of AI in Iran operations + the Anthropic/DoD saga made Chinese citizens reconsider AI as a civilian technology. Despite China's civil-military fusion policy, ordinary people had maintained a mental separation between AI and violence. That separation is dissolving.
 
-**The structural question:** Will Beijing prioritize employment stability or national AI competitiveness? The tension is real — 12.7M graduates hitting a job market where AI-exposed sectors are already shrinking recruitment, while the government simultaneously backs AI development as strategic imperative.
+**The Bob Chen "SaaS immunity" thesis — and its weakness:**
+
+Chen's argument has a structural logic: the US automated its first layer of knowledge work via SaaS (Salesforce, Workday, ServiceNow). AI's next move is replacing the SaaS itself. China skipped that step — enterprise software penetration is famously low. Companies run on WeChat groups, personal relationships, and Excel. A sales team in the US has a CRM pipeline with automated follow-ups. A sales team in China has a guy with 5,000 WeChat contacts and a boss who makes the calls.
+
+If you never automated the first layer (SaaS), there's no second layer for AI to eat. AI becomes a productivity tool for the existing human-heavy model rather than a replacement.
+
+The weakness: this assumes the human-relationship model is durable. But AI agents don't just replace software — they replace coordination work. If an AI agent can manage 5,000 WeChat contacts, draft personalized messages, follow up, and report to the boss... why do you need the guy? Chen's thesis may hold for a few years. It's a delay argument, not a permanent immunity.
+
+**The corporate incentive layer (the part nobody's saying out loud):**
+
+The OpenClaw frenzy wasn't organic — it was amplified by companies who profit from adoption:
+- Cloud companies ([[Tencent]], [[Baidu]], [[ByteDance]]): OpenClaw needs cloud backends. Free install sessions = customer acquisition funnels dressed as community support
+- LLM companies ([[MiniMax]], [[Moonshot]]): OpenClaw needs a model to run on. Whichever becomes default picks up token usage at a scale no chatbot can match
+- Local governments: backing OpenClaw projects = pro-innovation governance optics + startup attraction
+
+The anxiety was a side effect they didn't plan for but arguably benefited from — urgency drives adoption. Same dynamic as crypto bull runs: infrastructure providers hype the wave, retail absorbs the risk. The 299-yuan install/uninstall grift is the perfect coda.
+
+**Investment implication:** This is the first evidence that AI anxiety has jumped from elite/tech circles to mass culture in a major economy. If China's 1.4 billion people start feeling AI displacement before it fully arrives, the political response (regulation, protectionism, employment mandates) could reshape the AI investment landscape — especially for companies dependent on China's market or Chinese token consumption.
+
+**The policy trap:** Beijing is simultaneously pushing AI as national strategic priority, building an "employment-friendly growth model," dealing with politically sensitive youth unemployment, and warning SOEs not to install OpenClaw. These goals conflict. You can't be the world's AI superpower AND protect 12.7M new graduates from AI displacement. Something gives.
 
 *Source: [Recode China AI](https://recodechinaai.substack.com/p/ai-anxiety-is-blooming-in-china) (Mar 17, 2026)*
 
