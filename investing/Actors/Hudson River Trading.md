@@ -73,11 +73,18 @@ aliases: [HRT, Hudson River]
 
 ---
 
+## Notable alumni
+
+- [[Jeff Yan]] — former HRT trader, co-founded [[Hyperliquid]] (2022)
+
+---
+
 ## Related
 
 - [[Citadel]] — competitor
 - [[Jane Street]] — peer (quant)
 - [[Virtu Financial]] — peer (market maker)
+- [[Hyperliquid]] — founded by ex-HRT trader Jeff Yan
 
 ---
 

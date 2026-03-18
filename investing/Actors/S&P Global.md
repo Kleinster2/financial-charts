@@ -109,13 +109,30 @@ Created diversified data/analytics giant. IHS Markit brought:
 S&P Ratings is one of three major credit rating agencies (with Moody's and Fitch). Issuers *must* get rated to access bond markets. 62% operating margins reflect pricing power.
 
 **Index licensing:**
-S&P 500 is the benchmark. Every ETF tracking it pays licensing fees. High-margin, recurring revenue.
+S&P 500 is the benchmark. Every ETF tracking it pays licensing fees. High-margin, recurring revenue. Now extending into crypto infrastructure — licensed to [[Centrifuge]] for a tokenized index fund on [[Base]] (Sep 2025) and to [[trade.xyz]] for the first officially licensed [[S&P 500]] [[Perpetuals|perpetual]] on [[Hyperliquid]] (Mar 2026).
 
 **Data network effects:**
 Capital IQ data feeds into ratings analysis, which feeds into index construction. Cross-selling across segments.
 
 ---
 
+## Digital-asset infrastructure push
+
+S&P is systematically extending its index and ratings franchise into crypto and tokenized finance:
+
+| Date | Action |
+|------|--------|
+| Sep 2025 | Licensed [[S&P 500]] to [[Centrifuge]] for tokenized index fund on [[Base]] blockchain |
+| 2025-2026 | Rated tokenized treasury funds |
+| 2025-2026 | Assigned credit rating to a DeFi protocol |
+| 2025-2026 | Evaluated structured finance deal backed by [[Bitcoin]] |
+| Mar 2026 | Licensed S&P 500 to [[trade.xyz]] for first officially licensed perpetual on [[Hyperliquid]] |
+
+Cameron Drinkwater, chief product and operations officer at S&P Dow Jones Indices (Mar 18, 2026): *"We believe digitally-native investors should demand the institutional-quality standards that define our indices."*
+
+S&P's standard disclaimer notes it does not sponsor these products or vouch for their suitability — the reputational calculus is carefully hedged.
+
+---
 
 ![[spgi-employees-chart.png]]
 *Headcount: 44,500 (2025) — up 5.1% YoY*
@@ -128,5 +145,8 @@ Capital IQ data feeds into ratings analysis, which feeds into index construction
 - [[Refinitiv]] — data competitor
 - [[IHS Markit]] — merged 2022
 - [[Financial data industry]] — sector context
+- [[Hyperliquid]] — first decentralized platform with licensed S&P 500 derivative
+- [[trade.xyz]] — builder of licensed S&P 500 perpetual on Hyperliquid
+- [[Centrifuge]] — tokenized S&P 500 index fund on Base
 
 *Sources: [S&P Global IR](https://www.spglobal.com/en/annual-reports/2024), [Wikipedia](https://en.wikipedia.org/wiki/S%26P_Global)*
