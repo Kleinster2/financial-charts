@@ -674,6 +674,9 @@ Sir [[Simon Gass]] (former UK ambassador to Iran, former JIC chair, [[JCPOA]] le
 - [[Brad Setser]] — actor (CFR, former Treasury)
 - [[Karen Young]] — actor (Columbia CGEP, Gulf political economy)
 - [[Council on Foreign Relations]] — source (March 17 geoeconomic panel)
+- [[Jones Act]] — concept (maritime shipping constraint that makes US coasts behave like importers)
+- [[Gulf Sovereign Capital Reallocation]] — concept (how GCC sovereign funds are shifting capital allocation post-conflict)
+- [[Hormuz Permanent Risk Premium]] — concept (structural risk premium on oil, LNG, shipping, insurance that won't revert)
 
 ### Cross-vault
 - [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — military timeline, casualties, diplomatic responses
