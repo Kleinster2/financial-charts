@@ -37,6 +37,12 @@ Major existential risk from lawsuits.
 
 ---
 
+## Streaming fraud vector
+
+AI music generation tools including Suno are being used for large-scale streaming fraud. [[Deezer]] reported (Mar 2026) that 80%+ of AI-generated music streams on its platform are fraudulent — bots playing thousands of AI-generated songs to extract royalties. 60,000+ AI tracks are uploaded daily to Deezer alone (39% of daily intake), with 13mn+ tagged as AI-created in 2025. Industry estimate: 5-10% of content across all streaming platforms is fraudulent AI. [[IFPI]] CEO Victoria Oakley: *"This is theft."*
+
+---
+
 ## Products
 
 - [[Suno]] — music generation platform
@@ -48,3 +54,5 @@ Major existential risk from lawsuits.
 - [[Suno]] — product
 - [[Udio]] — competitor
 - [[Generative AI]] — category
+- [[Deezer]] — streaming platform reporting AI fraud data
+- [[IFPI]] — music industry body

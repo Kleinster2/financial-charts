@@ -753,7 +753,7 @@ First $200B revenue year. Q4 revenue $68.1B (+73% Y/Y, +20% Q/Q), beating $66.2B
 
 **Networking:** $10.98B (+263% Y/Y) on NVLink and Spectrum-X.
 
-**Customer mix:** Hyperscalers "slightly over 50%" of DC revenue; growth led by non-hyperscaler customers (AI model makers, enterprises, sovereigns).
+**Customer mix:** Hyperscalers "slightly over 50%" of DC revenue; growth led by non-hyperscaler customers (AI model makers, enterprises, sovereigns). Sovereign customer revenue was $30B in FY2026 (14% of group total). FT (Mar 14): if NVIDIA captured 25% of [[McKinsey]]'s estimated ~$400B physical sovereign infrastructure spend, at 75% GM, earnings would increase ~50%. [[Palantir]] is NVIDIA's partner for the sovereign push.
 
 **Supply chain diversification:** Blackwell GPUs at [[TSMC]] Arizona. Rack systems at new [[Foxconn]] Mexico plant. Memory shortage headwind to Gaming.
 

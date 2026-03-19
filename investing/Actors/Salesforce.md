@@ -27,7 +27,7 @@ CRM trades as a core Software name (IGV r = 0.74).
 | Metric | Value |
 |--------|-------|
 | Ticker | CRM (NYSE) |
-| Market cap | ~$193B |
+| Market cap | ~$180B (Mar 2026, down ~25% YTD) |
 | Revenue (FY2026) | $41.5B |
 | Position | \#1 CRM globally |
 | Customers | 150,000+ |
@@ -155,7 +155,8 @@ Bull:
 Bear:
 - [[Microsoft]] Copilot competition
 - Organic growth only ~7-8% ex-[[Informatica]]
-- Stock -5.6% on FY2027 guidance miss
+- Stock -5.6% on FY2027 guidance miss, -25% YTD 2026
+- $25bn new debt for ASR — [[Moody's]] downgrade A1 → A2
 - Premium valuation compressing (forward P/E ~14.5x)
 - Saks write-off (minor)
 
@@ -226,6 +227,32 @@ Revenue includes $388M from [[Informatica]] (acquired).
 Stock -5.6% AH on guidance miss despite strong beat. The gap between Q4 execution (12% growth, 25% EPS beat) and FY2027 guide (~7-8% organic) drove the sell-off.
 
 *Updated 2026-02-25*
+
+---
+
+## $25bn bond issuance and ASR (Mar 2026)
+
+Salesforce sold $25bn in bonds (~week of Mar 10) and immediately announced an accelerated share repurchase (ASR) of the same amount — using derivatives to record an immediate reduction in shares outstanding, with actual repurchases to be executed over time. The deal came with the stock down ~25% YTD 2026, market cap ~$180bn.
+
+| Term | Value |
+|------|-------|
+| Bond issuance | $25bn |
+| ASR size | $25bn |
+| Coupons | 4.5% – 6.7% |
+| Pre-deal net debt | ~$10bn |
+| Annual FCF | ~$15bn |
+| Moody's action | Downgrade A1 → A2 |
+
+[[Moody's]] downgraded from A1 to A2 — called the bonds financial engineering rather than productive investment. Stock only +2% post-announcement. [[Marc Benioff]] framed the repurchase as a vote of confidence.
+
+Context: the bond sale landed in a week that saw $112bn of US high-grade debt issuance — matched only by March 2020. [[Amazon]] and [[Honeywell]] also tapped conservative investors.
+
+The tension: if Benioff is right that the valuation is unjustly depressed, the leverage juices equity returns. If [[AI agents]] disruption materializes, the interest bill (~4.5-6.7% coupons on $25bn) becomes a burden on top of an existential threat.
+
+![[crm-10yr-bond-price-ft-mar2026.png]]
+*Salesforce 10-year bond (due 2031) fell from ~89 to ~87 cents on the dollar, Dec 2025–Mar 2026. Source: FT, Mar 17*
+
+*Source: FT (Mar 17, 2026)*
 
 ---
 

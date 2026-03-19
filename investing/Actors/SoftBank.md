@@ -210,7 +210,11 @@ Bear case:
 
 ## SB Energy — $33B Portsmouth gas plant (Feb 2026)
 
-SB Energy, a SoftBank subsidiary, will operate the Portsmouth Powered Land Project — a $33B, 9.2 GW [[Natural gas|natural gas]] generation facility in Portsmouth, Ohio. Described as "the largest natural gas generation facility in history." Part of the $36B US-Japan deal (first tranche of [[Japan]]'s $550B total commitment under the Trump trade deal).
+SB Energy, a SoftBank subsidiary, will operate the Portsmouth Powered Land Project — a $33B, 9.2 GW [[Natural gas|natural gas]] generation facility in Portsmouth, Ohio. Described as "the largest natural gas generation facility in history." First project under the [[US-Japan Investment Framework|US-Japan $550B deal]] — [[Japan]]'s tariff relief exchange with [[Donald Trump]].
+
+SoftBank holds no equity in the plant. It is financed entirely by Japan (via [[JBIC]] and commercial lenders, with [[Nexi]] guaranteeing 90%+ of the commercial portion) and owned 50/50 by the US and Japan via an SPV. SoftBank's only compensation was a proposed developer/operator fee of ¥1tn ($6.3B) — cut by more than 90% after panicked Japanese officials intervened (FT, Mar 18, 2026). Final fee payable over 15-20 years if 9.2 GW target capacity is reached. Senior Tokyo official: "Why do we have to pay a fee? They don't have to put up any of the money."
+
+SoftBank has placed $10B in orders for ~170 turbines from [[GE Vernova]] and plans to sell the electricity to data centers it will also operate, serving customers including [[OpenAI]]. Japanese officials still pushing for plant operation to be put out to tender, given SoftBank's limited power sector experience.
 
 | Metric | Value |
 |--------|-------|
@@ -283,6 +287,22 @@ Bloomberg Intelligence: SoftBank has relied on debt and asset sales to fund $70B
 
 ---
 
+## Share price collapse (Oct 2025 – Mar 2026)
+
+[[SoftBank]] shares fell nearly 50% after hitting a record high in October 2025, missing out on the global AI-driven tech rally. Over the same period, the Nikkei 225 rose over 4%, lifted partly by the "[[Sanae Takaichi|Takaichi]] trade."
+
+| Metric | Value |
+|--------|-------|
+| Peak | Record high (Oct 2025) |
+| Decline | ~50% from peak |
+| Nikkei 225 (same period) | +4% |
+
+Analysts attribute the reversal to concerns over [[OpenAI]]'s potential overextension and rising competition from [[Google|Gemini]]. The race among US chatbot platforms has also been impacted by the growing battlefield role of AI amid the [[Iran conflict economic disruption|Iran conflict]].
+
+*Source: Nikkei Asia (Jada Nagumo), Mar 19, 2026*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -315,5 +335,8 @@ Bloomberg Intelligence: SoftBank has relied on debt and asset sales to fund $70B
 - [[Power constraints]] — Portsmouth plant LCOE analysis
 - [[CreditSights]] — overbuild warning (Andy DeVries)
 - [[PJM]] — grid operator for Ohio plant region
-- [[GE Vernova]] — gas turbine supplier (4yr+ backlog)
+- [[GE Vernova]] — gas turbine supplier ($10B / ~170 turbines for Portsmouth)
 - [[Natural gas]] — LCOE converging with nuclear
+- [[US-Japan Investment Framework]] — $550B deal framework (SoftBank as developer/architect)
+- [[JBIC]] — Japan policy bank funding Portsmouth plant
+- [[Nexi]] — export credit guarantor (90%+ of commercial lending)

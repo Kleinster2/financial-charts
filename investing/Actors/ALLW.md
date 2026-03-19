@@ -118,7 +118,7 @@ Key patterns: (1) risk contribution shifted from balanced 35/35/15/15 to equity-
 ![[allw-vs-rpar-price-chart.png]]
 *ALLW vs RPAR normalized since inception (March 2025). RPAR's heavier commodity allocation (~27% vs 8.5%) drove outperformance through the Iran conflict commodity spike. Both sold off in March 2026 as bonds and equities fell together.*
 
-![[allw-vs-spy-tlt-tip-gld-price-chart.png]]
+![[allw-vs-spy-vs-tlt-vs-tip-vs-gld-price-chart.png]]
 *ALLW vs all proxy ETFs used in replication analysis. Original four: [[SPY]] (+22%), [[TLT]] (-2%), [[TIP]] (+6%), [[GLD]] (+80%). International additions: [[BNDX]] (~flat), [[VGK]] (+30%), [[EWJ]] (+8%), [[GSG]] (-13%). GLD is the runaway performer but ALLW allocates only 8.5% to commodities. VGK outperformed SPY — explaining why ALLW's heavy European equity futures helped. But BNDX (flat) massively lagged ALLW's actual Euro-Bund/Gilt futures, and GSG (-13%) was a drag vs ALLW's BCOMTR swap. These two mismatches explain why the 11-ETF replication performed worse than 4-ETF: the ETF proxies for international bonds and broad commodities don't track the actual futures ALLW holds.*
 
 ![[allw-replication-comparison-chart.png]]

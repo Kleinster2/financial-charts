@@ -11,7 +11,7 @@ tags:
   - nitrogen
   - ammonia
 ---
-
+	
 # CF Industries
 
 The world's largest ammonia producer and the S&P 500's #1 performer in March 2026. CF's structural cost advantage — North American natural gas feedstock at ~$3.34/MMBtu vs multiples of that in Europe/Asia — turned the [[Strait of Hormuz]] disruption into a windfall: stock hit an all-time high of $136 on March 12 before settling at $129.57 on March 13, up ~77% YTD. Revenue surged to $7.08B in FY2025 (+19.1%), with adj. EBITDA of $2.89B. The company is also building a second act through blue ammonia — the $4B Blue Point Complex JV with [[JERA]] and [[Mitsui]] targets 1.4M mt/year of low-carbon ammonia by 2029. The bull case: irreplaceable domestic nitrogen capacity in a world where ~20% of European ammonia production is curtailed. The bear case: geopolitical premium fades, Senator Hawley's price-gouging accusations introduce regulatory risk, and nat gas input costs aren't zero.
@@ -34,7 +34,7 @@ CF trades between Energy and Oil & Gas E&P without a tight sector fit. Moves on 
 
 ---
 
-![[cf-vs-mos-xle-price-chart.png]]
+![[cf-vs-mos-vs-xle-price-chart.png]]
 *CF (blue) dramatically outperforming peer [[Mosaic]] and the energy sector benchmark XLE since early 2026, driven by the Iran/Hormuz nitrogen supply disruption. The 2022 spike reflects the prior energy crisis premium.*
 
 ---
@@ -191,13 +191,42 @@ CF shipped its first certified low-carbon ammonia cargoes to Envalior (Belgium) 
 
 ## The Hormuz trade (March 2026)
 
-The Iran conflict's disruption of the [[Strait of Hormuz]] created the thesis: roughly one-third of global fertilizer trade flows through the strait. With European ammonia/urea production already curtailed (~20% and ~25% respectively), CF is one of the few large-scale producers positioned to fill the gap at a structural cost advantage.
+### Why the stock is this strong
 
-Urea price action: Surged ~32% in 12 days, from ~$516/mt to ~$683/mt.
+Four things rarely align this cleanly:
 
-Stock action: CF rose from ~$73 at year-start to $136 all-time high on March 12 (+86% in 10 weeks), before settling to $129.57 on March 13. #1 S&P 500 performer for March 2026.
+*Inelastic demand inside a biological deadline.* Corn requires 150-200 lbs/acre of nitrogen — there is no substitute input. The US Corn Belt planting window runs mid-April to late May. Farmers *must* buy nitrogen before then regardless of price. This is not discretionary demand that can be deferred — miss the window, lose the crop. CF gets to name its price for the next 4-6 weeks, and buyers have no choice but to pay.
 
-Reddit led the call: Retail sentiment on r/stocks flagged the fertilizer angle before mainstream coverage, with posts noting "not just oil — one third passes through the Hormuz." Prediction markets assign only ~19.5% probability to Iran conflict resolution by March 31.
+*Every alternative supplier is offline simultaneously.* The Gulf (~49% of traded urea) is trapped behind the [[Strait of Hormuz]]. [[China]] — the world's largest urea producer — halted ALL fertilizer exports on Mar 16, not just phosphate. [[Russia]] is capped at 18.7M mt through May with Ukrainian drone strikes constraining capacity. European producers (~20% of ammonia, ~25% of urea) are curtailed from energy costs. CF's Donaldsonville complex — the world's largest ammonia plant — is one of the few large-scale nitrogen facilities still running at full capacity with cheap feedstock. There is nowhere else to go.
+
+*The margin expansion is mechanical, not speculative.* CF's input cost is North American natural gas at ~$3.34/MMBtu — that hasn't moved. Its output prices have roughly doubled: urea from pre-war consensus $350-380/t to ~$700/t (NOLA barges at $673-675/st as of Mar 18). The spread widens automatically. No new customers to win, no product to develop, no execution required. Every dollar of urea price increase drops almost entirely to the bottom line.
+
+*The market is still underpricing duration.* [[BofA]]'s DeYoe expects nitrogen prices to peak by mid-Q2 and subside — that's the consensus view, and it's why he maintains Underperform at $103. But the [[Nitrogen Trap]] analysis says 120+ days, not 45. Iran's FM (Mar 15): *"We never asked for a ceasefire."* [[Mojtaba Khamenei]] (Mar 12): *"The lever of blocking the Strait of Hormuz must definitely continue to be used."* Insurance architecture takes 30-60 days *after* a ceasefire to recover. If duration is longer than consensus, [[BofA]]'s +29% EBITDA raise is the first revision, not the last.
+
+### Why 2026 is not 2022
+
+Bears anchor to the 2022 mean-reversion: CF surged on Ukraine, then revenue fell -40.7% in 2023 as European gas normalized. But the analogy fails on the mechanism:
+
+| Dimension | 2022 Russia-Ukraine | 2026 Hormuz |
+|-----------|--------------------|--------------------|
+| Physical flow | Molecules rerouted via shadow fleet over months | Molecules physically trapped behind a mined chokepoint |
+| Onset | Gradual, allowing adaptation | Instantaneous, inside the planting window |
+| Alternative supply | China exported freely; Russia found new buyers | China halted ALL exports; Russia capped |
+| Insurance | Repriced but ships kept moving | Fractured — capacity contracted, ships stopped |
+| Duration precedent | Gas prices normalized in ~12 months | Red Sea: 26 months, premiums never returned |
+
+In 2022, the supply shock was financial — prices adjusted, trade routes adapted. In 2026, the supply shock is physical — the molecules cannot move.
+
+### Price action
+
+| Date | Event |
+|------|-------|
+| Year-start | ~$73 |
+| Mar 12 | $136 all-time high (+86% in 10 weeks, biggest intraday jump since 2020 at +14%) |
+| Mar 13 | $129.57 |
+| March overall | #1 S&P 500 performer; +37% YTD |
+
+Reddit led the call: retail sentiment on r/stocks flagged the fertilizer angle before mainstream coverage, noting *"not just oil — one third passes through the Hormuz."* Prediction markets assign only ~19.5% probability to Iran conflict resolution by March 31.
 
 ### Political risk
 
@@ -209,21 +238,25 @@ This is reputational and regulatory risk — potential hearings, scrutiny. Not y
 
 ## Investment case
 
+The core question is duration. The [[Wells Fargo]] $150 vs [[BofA]] $103 gap is a duration bet: if you think 45 days, sell; if you think 120+, the stock isn't done.
+
 Bull:
-- Irreplaceable North American nitrogen capacity in a supply-constrained world
-- Structural cost advantage widens in every global energy crisis
-- Blue ammonia platform creates valuation floor independent of geopolitics
+- Inelastic demand inside a biological deadline — buyers can't wait
+- Every alternative supplier offline simultaneously (Gulf, China, Russia constrained, Europe curtailed)
+- Mechanical margin expansion: $3.34/MMBtu input vs ~$700/t urea output
+- Duration thesis (120+ days) means earnings revision cycle hasn't started — BofA's +29% EBITDA raise may be the first of several
+- Irreplaceable capacity: Donaldsonville is world's largest ammonia complex, can't be replicated in months
 - Aggressive buybacks — retired ~30% of float, $2B new authorization
 - ~$2.2B cash fortress, $1.79B free cash flow
+- Blue ammonia platform creates valuation floor independent of geopolitics
 - Section 45Q credits ($85/mt CO2) create high-margin green revenue stream
-- Asian demand for clean ammonia (maritime fuel, power gen) is secular
 
 Bear:
-- Geopolitical premium is inherently fragile — Hormuz resolution crashes the trade
-- Price-gouging accusations could escalate to hearings/regulation
-- 2022 energy crisis showed how fast revenue can mean-revert (-40.7% in 2023)
+- Geopolitical premium is inherently fragile — Hormuz resolution crashes the trade overnight
+- 2022 showed how fast revenue can mean-revert (-40.7% in 2023) — but see above on why the mechanism differs
+- Price-gouging accusations could escalate to hearings/regulation (Hawley deadline Mar 27, DOJ inquiry Mar 4)
 - Natural gas feedstock costs can rise (already $3.34/MMBtu, was lower)
-- Blue Point Complex ($4B) execution risk — 2029 is a long way out
+- Blue Point Complex ($4B) execution risk — 2029 is far away
 - Blue ammonia economics unproven at scale
 - Insider selling at all-time highs
 
@@ -235,6 +268,7 @@ Bear:
 |------|---------|--------|----|---------|
 | Mar 2026 | [[Wells Fargo]] | Overweight | $150 | Raised from $113; nitrogen market tailwinds |
 | Mar 2026 | [[Barclays]] | — | $120 | Raised on nitrogen supply forecasts; stock already blown past |
+| Mar 2026 | [[BofA]] (Matthew DeYoe) | Underperform | $103 | Raised 2026 EBITDA forecast +29%; views spike as cyclical, expects nitrogen prices to peak by mid-Q2 then subside |
 
 ---
 
@@ -251,5 +285,6 @@ Bear:
 - [[Nutrien]] — peer
 - [[Yara]] — peer
 - [[Iran]] — conflict driving Hormuz disruption
+- [[Nitrogen Trap]] — systemic framework for the fertilizer supply crisis; Perera's positioning: indicative target $175, hard stop $115
 
-*Updated 2026-03-13*
+*Updated 2026-03-19*

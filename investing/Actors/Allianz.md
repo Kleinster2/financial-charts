@@ -110,13 +110,28 @@ Allianz is a capital return machine underpinned by two self-reinforcing business
 - Natural catastrophe exposure: P&C book is directly exposed to climate-driven loss trends
 - Interest rate sensitivity: life insurance guarantees and bond portfolios both move with rates
 
+## Alternative capital reinsurance (Dec 2025)
+
+Allianz has increased the amount of risk it cedes to reinsurers and has begun partnering with alternative capital providers to diversify counterparty credit risk. Head of reinsurance Thorsten Fromhold (Dec 2025): *"We're buying ever more reinsurance."* The concern: exposure to a handful of traditional reinsurers ([[Munich Re]], [[Swiss Re]], [[Hannover Re]]) creates concentration risk — if a reinsurer collapses, claims revert to the primary insurer.
+
+First deal: [[Oaktree Capital]] ([[Brookfield]] subsidiary) set up a new vehicle at [[Lloyd's of London]] to reinsure Allianz risks. Oaktree funds a portion of payouts on claims, deal value in the hundreds of millions. The Lloyd's AA credit rating reduces collateral requirements for Oaktree. Structure mirrors the [[Blackstone]]-[[AIG]] deal (Syndicate 2479).
+
+Fromhold: *"This is one of the rationales for why we said: 'Let's partner with alternative capital.'"*
+
+*Source: FT, Dec 8 2025*
+
+---
+
 ## Related
 - [[PIMCO]] — crown jewel subsidiary, $2.26T AUM
 - [[Allianz Global Investors]] — second asset management arm, lost US license after Structured Alpha
 - [[Private Credit]] — CFO Coste-Lepoutre "very comfortable" with exposure (Feb 2026)
+- [[Oaktree Capital]] — reinsurance partner via [[Lloyd's of London]] vehicle (Dec 2025)
+- [[Lloyd's of London]] — venue for alt capital reinsurance vehicle
 - [[Axa]] — European insurance peer ([[France]])
-- [[Munich Re]] — historic partner since founding, shares Munich HQ
+- [[Munich Re]] — historic partner since founding, shares Munich HQ; counterparty concentration risk driver
 - [[Generali]] — European insurance rival ([[Italy]])
 - [[Commerzbank]] — buyer of [[Dresdner Bank]] from Allianz (2008-09)
 - [[Germany]] — home market, DAX constituent
 - [[SEC]] — $675M civil penalty in Structured Alpha case (2022)
+- [[Reinsurance sidecars]] — structural model for alt capital partnerships

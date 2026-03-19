@@ -22,27 +22,27 @@ DIS trades as a core Industrials name (XLI r = 0.74).
 
 ## Q1 FY2026 earnings (Feb 2, 2026)
 
-**Beat on both lines, CEO succession imminent.**
+Beat on both lines, CEO succession imminent.
 
 | Metric | Actual | Expected |
 |--------|--------|----------|
-| EPS (adj) | **$1.63** | $1.57 |
-| Revenue | **$25.98B** | $25.74B |
+| EPS (adj) | $1.63 | $1.57 |
+| Revenue | $25.98B | $25.74B |
 | Net income | $2.48B | — |
 
-**Segment highlights:**
-- **Experiences** crossed $10B quarterly revenue for first time (+7% YoY domestic, +7% international)
-- **Streaming** operating income $450M (+72% YoY), revenue +13%
-- **Sports** operating income -23% to $191M — YouTube TV dispute cost $110M
-- **Box office:** Zootopia 2 = highest-grossing animated film ever ($1.7B+)
+Segment highlights:
+- Experiences crossed $10B quarterly revenue for first time (+7% YoY domestic, +7% international)
+- Streaming operating income $450M (+72% YoY), revenue +13%
+- Sports operating income -23% to $191M — YouTube TV dispute cost $110M
+- Box office: Zootopia 2 = highest-grossing animated film ever ($1.7B+)
 
-**FY2026 guidance:**
+FY2026 guidance:
 - Double-digit EPS growth
 - $19B operating cash flow
 - $7B stock buyback on track
 - Q2 streaming OI ~$500M (+$200M YoY)
 
-**CEO succession:** Board meeting this week expected to name Iger successor. Josh D'Amaro (Experiences Chairman) seen as frontrunner.
+CEO succession: [[Josh D'Amaro]] (Experiences Chairman) confirmed as Iger successor. Named CEO Feb 2026.
 
 *Source: CNBC, company filings, Feb 2 2026*
 
@@ -81,7 +81,7 @@ Most valuable entertainment IP portfolio globally.
 | Hulu | 50M+ | General entertainment |
 | ESPN+ | 25M+ | Sports |
 
-Combined streaming now profitable.
+Combined streaming now profitable. Cumulative Disney+ operating losses exceeded $8bn through early 2026 (FT, Feb 8).
 
 ---
 
@@ -139,10 +139,11 @@ ESPN is crown jewel but faces cord-cutting.
 
 | Person | Role | Since |
 |--------|------|-------|
-| Bob Iger | CEO | 2022 (returned) |
+| [[Josh D'Amaro]] | CEO | Feb 2026 |
 | Hugh Johnston | CFO | 2023 |
+| [[Bob Iger]] | Former CEO | 2005–2020, returned 2022–Feb 2026 |
 
-Iger returned to fix streaming losses, succession unclear.
+D'Amaro named CEO Feb 2026 after running Experiences (parks) division. Previously seen as frontrunner. Second former parks head to become CEO — [[Bob Chapek]], the last one, lasted less than three years (2020–2022).
 
 ---
 
@@ -166,6 +167,23 @@ Iger returned to fix streaming losses, succession unclear.
 
 ---
 
+## Big Tech M&A speculation (FT Lex, Feb 8)
+
+FT Lex framed D'Amaro succession as opening the door to a potential sale to Big Tech — where Iger expanded through acquisitions (Pixar, Marvel, Lucasfilm, Fox), D'Amaro could end up selling.
+
+Candidate logic:
+- [[Alphabet]]: 2026 planned capex alone ≈ Disney's entire market cap (~$200B). Currently spending on data centers but developing real-world AI applications — movie/TV production a logical fit. [[Google]] Project Genie "world model" for video game builders signals AI encroachment on traditional studios.
+- [[Meta]]: similar financial firepower, same AI application ambitions.
+- [[Apple]]: fantasy deal that has circulated for years. Having sat out the AI infrastructure boom, Apple has capital to spare and a strategic reason to zag. Would bolster Apple TV+ with Disney's customers and content.
+
+Obstacles: [[Netflix]] at $340B market cap is 80% larger than Disney but would still need an enormous premium. Hollywood's most storied asset passing to a tech company would face shareholder resistance.
+
+Near-term D'Amaro moves more likely include spinning off declining cable TV assets — rivals have done similar deals.
+
+HundredX data: households score Disney+ higher than [[Warner Bros Discovery|WBD]]'s HBO Max on original content, new releases, and quantity of programming.
+
+---
+
 ## Catalysts
 
 | Catalyst | Timeline |
@@ -173,7 +191,7 @@ Iger returned to fix streaming losses, succession unclear.
 | ESPN direct-to-consumer | 2025 |
 | Streaming margin expansion | Ongoing |
 | Park expansions | Multi-year |
-| Succession announcement | Expected |
+| Cable TV spin-off | Potential near-term under D'Amaro |
 
 ---
 
@@ -208,4 +226,4 @@ Iger returned to fix streaming losses, succession unclear.
 
 ---
 
-*Updated 2026-02-03 (Q1 FY26 earnings)*
+*Updated 2026-03-19 (FT Lex M&A angle, D'Amaro CEO confirmation)*

@@ -31,8 +31,11 @@ The core instruments that apply test patterns and measure chip responses.
 |---------|--------|----|-------|
 | **[[Advantest]]** | 6857.T | Japan | Better AI positioning (CoWoS exposure); dominant in HBM test |
 | **[[Teradyne]]** | TER | US | Strong in logic; also robotics (Universal Robots) |
+| **[[Chroma ATE]]** | 2360.TW | Taiwan | Power electronics, EV/battery testing |
 
-Both report AI-related test demand contributing meaningfully to bookings, particularly high-end logic and HBM.
+All three ATE makers reported record or near-record results for FY2025/CY2025, with shares more than tripling over the past year (Mar 2026). [[Advantest]] expects +37% revenue and 2x+ net profit for FY ending Mar 2026. [[Teradyne]] posted strong revenue rebound and 26%-above-consensus Q1 2026 guidance. [[Chroma ATE]] posted record revenue and earnings for CY2025.
+
+*Source: Nikkei Asia (Mar 19, 2026)*
 
 ### Wafer Probers
 

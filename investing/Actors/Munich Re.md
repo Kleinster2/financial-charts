@@ -57,6 +57,8 @@ Munich Re's strength is in **P&C catastrophe** — natural disaster risk that PE
 
 Munich Re also participates in the ILS/sidecar market as a sponsor — its own ILS vehicles provide capacity for peak catastrophe risks.
 
+Munich Re warned (2025) that the trend of alternative capital entering reinsurance "could amplify volatility in insurance markets." The competitive pressure is growing: [[Oaktree Capital]], [[Blackstone]], and [[Elliott Management]] have all set up vehicles at [[Lloyd's of London]] to reinsure commercial risks from [[Allianz]], [[AIG]], and [[The Fidelis Partnership]]. Reinsurance prices have been falling as capital outpaces growth of insured risks — pressuring traditional reinsurers' pricing power.
+
 ---
 
 ## Key metrics

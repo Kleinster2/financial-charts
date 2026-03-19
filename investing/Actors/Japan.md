@@ -97,6 +97,18 @@ The salaryman stereotype is outdated. Since ~2015-2016, roughly 1 in 3 new gradu
 - **2025**: Record carve-out/spin-off activity — 280 in H1 alone, ¥35T deal volume. Delistings surge to 125 (from ~50 historically). Corporate Japan restructuring portfolios
 - **2026 Feb**: Takaichi landslide (LDP supermajority, first time without [[Komeito]] in 26 years). Nikkei hits 58,000. Buffett's Japan bet worth $24B gain. [[Apollo]] convenes 200 partners in Tokyo
 
+## US-Japan $550B Investment Framework (2025-2026)
+
+Japan committed $550B in US investment in exchange for tariff relief under [[Donald Trump]]. The [[US-Japan Investment Framework]] is structured as 50/50 ownership via SPVs, but governance tilts heavily toward Washington: Trump holds ultimate decision-making power over project selection, and Japan must fund within 45 business days of announcement. Profits split 50/50 until Japan recoups principal, then 90% US / 10% Japan. Funding comes from [[JBIC]] and commercial lenders, with [[Nexi]] guaranteeing 90%+ of the commercial portion.
+
+The first project — a $33B gas plant in Portsmouth, Ohio, developed by [[SoftBank]] — exposed governance tensions. SoftBank proposed a ¥1tn ($6.3B) developer fee despite holding no equity; Japanese officials cut it 90%+ but remain alarmed that Tokyo is getting "edged out" of project selection. [[Masayoshi Son]]'s direct access to Trump is both asset and liability — he can propose deals at scale, but bypasses normal government channels.
+
+PM [[Sanae Takaichi]]'s March 19, 2026 summit with Trump is described by officials as "make or break" — she will unveil Tranche 2 (copper smelting, display manufacturing, [[Westinghouse]] nuclear) while pushing for greater Japanese governance input.
+
+*Source: Financial Times (Mar 18, 2026)*
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -145,6 +157,11 @@ The salaryman stereotype is outdated. Since ~2015-2016, roughly 1 in 3 new gradu
 - [[Sony]] — entertainment transformation
 - [[SMBC]] — megabank, Apollo partnership
 - [[Private Credit]] — emerging financing channel for Japan
+- [[US-Japan Investment Framework]] — $550B deal, governance tensions
+- [[JBIC]] — government policy bank, deal funder
+- [[Nexi]] — export credit agency, deal guarantor
+- [[SoftBank]] — first project developer (Portsmouth gas plant)
+- [[Masayoshi Son]] — deal architect, direct Trump access
 - [[GPIF]] — $1.7T pension fund
 
 ### Cross-vault

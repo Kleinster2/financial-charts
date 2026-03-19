@@ -28,6 +28,19 @@ CEO [[Darren Woods]] (Mar 11, to FT): *"I think our size and scale has given us 
 
 See [[2026 Iran conflict market impact#Day 15 — March 14 (oil nears $100, US producer windfall)|Iran conflict market impact — Day 15]] for full supermajor exposure table.
 
+### Direct Qatar LNG exposure (Mar 19 update)
+
+[[QatarEnergy]] CEO [[Saad al-Kaabi]] confirmed Exxon holds partner stakes in both LNG trains damaged by Iran's March 18 missile strike on [[Ras Laffan]]:
+
+| Facility | Exxon stake | Affected contracts | Repair timeline |
+|----------|------------|-------------------|-----------------|
+| LNG Train S4 | **34%** | [[Edison SpA]] (Italy), [[EDFT]] (Belgium) | 3-5 years |
+| LNG Train S6 | **30%** | [[KOGAS]] (South Korea), EDFT, [[Shell]] (China) | 3-5 years |
+
+The two trains represent 12.8 mtpa of capacity — 17% of Qatar's total. Force majeure extended to multi-year. Total construction cost of the damaged units: ~$26B. Exxon's proportional exposure to the write-down could be significant — roughly $8-9B at construction cost, though accounting treatment will depend on insurance recovery and impairment methodology.
+
+*Source: Reuters Exclusive, March 19, 2026*
+
 ---
 
 ## Why Exxon matters for AI thesis

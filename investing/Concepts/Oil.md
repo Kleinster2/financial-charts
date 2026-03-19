@@ -109,7 +109,7 @@ Refinery match: complex refineries (Gulf Coast) designed for heavy sour crude.
 
 | Factor | Status |
 |--------|--------|
-| Price (Mar 18) | Brent $108.78 (+5.6% on day); WTI $96.16; Brent YTD ~+66%; WTI YTD ~+68% |
+| Price (Mar 19) | Brent ~$113.54 (+5.8% on Mar 19); WTI ~$99; Brent YTD ~+73%; WTI YTD ~+72% |
 | Physical (Mar 17) | Cash Dubai $157.66, Oman $152.58 (record), Murban ~$153 — physical at $130-170, futures at ~$100 |
 | Brent-WTI spread | ~$10/bbl (vs normal $2-5) |
 | Brent backwardation | Front-month $14.20 premium over next month (record) |
@@ -125,7 +125,29 @@ The defining feature of the March 2026 oil market. Futures (~$100 Brent) are tra
 
 Drivers: stranded tankers (150+ anchored outside Hormuz), canceled war-risk insurance (P&I clubs withdrew coverage), rerouting around Africa (+10-14 days), and immediate regional shortages. Middle Eastern crude exports to Asia fell to 11.67M bbl/day from 19M (-32%). CFTC data showed managed money had built a 15-year net short extreme in Jan — short covering into a physical squeeze amplified the dislocation.
 
-Pre-conflict Wall Street consensus: Brent ~$59/bbl (BofA, Citi, Goldman, JPM, MS average). [[IEA]] projected 3.84M bbl/day surplus. Post-disruption revisions remain modest — [[Goldman Sachs]] Q4 target only $71 (assumes 21-day disruption + 30-day recovery). [[JPMorgan]] still sees reversion to ~$60. The market debate: is this a temporary geopolitical spike or a structural repricing of energy security risk?
+[[Natasha Kaneva]] ([[JPMorgan]], Mar 18): called the apparent stability in Brent/WTI a "mirage" — regional inventory buffers and benchmark pricing structures mask the severity. Global crude loss from Hormuz blockade: 11-16M bbl/day (3x Russia-Ukraine war disruption). Warning: "If the Strait does not reopen, this divergence is unlikely to persist — Brent and WTI will ultimately reprice higher." Kaneva revised Brent forecast from $58 → $63 → $68, still well below the $155 cash Dubai price.
+
+Pre-conflict Wall Street consensus: Brent ~$59/bbl (BofA, Citi, Goldman, JPM, MS average). [[IEA]] projected 3.84M bbl/day surplus. Post-disruption revisions remain modest — [[Goldman Sachs]] Q4 target only $71 (assumes 21-day disruption + 30-day recovery). [[JPMorgan]] revised to $68 (Mar 18) from $58 pre-crisis. The market debate: is this a temporary geopolitical spike or a structural repricing of energy security risk?
+
+### $200 oil — analyst roundup (Al Jazeera, Mar 19)
+
+Multiple analysts no longer dismissing $200/bbl. Benchmark Middle Eastern crudes (Oman, Dubai) already past $150; the question is whether Atlantic Basin benchmarks follow. Historical comparison: 2008 peak $147.50/bbl = ~$224 in 2026 dollars.
+
+| Analyst | Firm | View |
+|---------|------|------|
+| Vandana Hari | [[Vanda Insights]] | $200 "already within sight" |
+| — | [[Wood Mackenzie]] | Brent could "soon hit $150"; $200 "not outside the realms of possibility" |
+| Chad Norville | [[Rigzone]] | Prices "well above $100, even approaching $200, are plausible" |
+| [[Bob McNally]] | [[Rapidan Energy Group]] | "Nobody knows" the demand destruction level, "but it may well be above previous nominal highs at $147" |
+| Adi Imsirovic | University of Oxford | $200 "perfectly possible"; would be "a major handbrake to the world economy" |
+| Sasha Foss | Marex | Called $200 "pretty outlandish"; cited US/Canadian/Argentine/Brazilian/Guyanese production + Saudi East-West Pipeline |
+| — | [[OCBC]] | Global market faces ~10M bbl/day shortfall even after strategic reserves |
+
+[[IMF]] macro formula: every 10% sustained oil price increase = +0.4pp global inflation, -0.15pp economic growth.
+
+[[IEA]]-coordinated strategic reserves release: 400M barrels committed — cannot fully offset Hormuz halt. The bull case rests on duration; the bear case rests on production response and demand destruction.
+
+*Source: Al Jazeera, Mar 19 2026*
 
 ---
 
@@ -147,13 +169,13 @@ Pre-conflict Wall Street consensus: Brent ~$59/bbl (BofA, Citi, Goldman, JPM, MS
 
 ### Pricing impact
 
-| Benchmark | Pre-crisis (~Feb 9) | Pre-strike (Feb 27) | Mar 8 | Mar 18 |
-|-----------|---------------------|---------------------|-------|--------|
-| Brent | $65 | ~$70 | ~$92 | $108.78 (+67% from Feb 9) |
-| WTI | ~$60 | ~$65 | ~$91 | $96.16 (+60%+) |
-| Dubai/Murban (physical) | — | — | >$103 | $153-158 (record) |
-| Brent-WTI spread | $2-5 | — | — | ~$10 |
-| VLCC tanker rates | — | — | +~200% | — |
+| Benchmark | Pre-crisis (~Feb 9) | Pre-strike (Feb 27) | Mar 8 | Mar 18 | Mar 19 |
+|-----------|---------------------|---------------------|-------|--------|--------|
+| Brent | $65 | ~$70 | ~$92 | $108.78 | ~$113.54 (+75% from Feb 9) |
+| WTI | ~$60 | ~$65 | ~$91 | $96.16 | ~$99 |
+| Dubai/Murban (physical) | — | — | >$103 | $153-158 (record) | — |
+| Brent-WTI spread | $2-5 | — | — | ~$10 | ~$14.50 |
+| VLCC tanker rates | — | — | +~200% | — | — |
 
 Physical market premiums over futures widened explosively — Cash Dubai at $56/bbl over swaps (vs $0.90 in Feb). Product markets ([[Jet fuel|jet fuel]], diesel) seeing the sharpest increases; Singapore jet fuel hit $230/bbl (per [[Jeff Currie]], Mar 11).
 
@@ -201,6 +223,9 @@ China peak oil demand: the biggest single-country demand story. Chinese diesel d
 - [[Power constraints]] — energy for AI
 - [[Venezuela oil rebuild]] — investment thesis
 - [[Jeff Currie]] — structural bull, paper-physical disconnect thesis
+- [[Natasha Kaneva]] — [[JPMorgan]], "misalignment" flash note (Mar 18), revised to $68 Brent
+- [[Ed Yardeni]] — meltdown odds 35%, stagflation framework
+- [[Rapidan Energy Group]] / [[Bob McNally]] — demand destruction "may well be above $147"
 - [[Nitrogen Trap]] — fertilizer cascade from oil/gas supply disruption
 - [[TotalEnergies]] — dominant physical buyer during Mar 2026 dislocation
 

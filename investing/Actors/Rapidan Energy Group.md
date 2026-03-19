@@ -24,6 +24,10 @@ In a client note (Mar 12), Rapidan said while US Treasury selling front-month cr
 
 *Source: FT (Mar 12, 2026)*
 
+[[Bob McNally]] in Al Jazeera analyst roundup (Mar 19) on $200 oil question: "Nobody knows" the demand destruction level, "but it may well be above previous nominal highs at $147."
+
+*Source: Al Jazeera, Mar 19 2026*
+
 ---
 
 ## Related

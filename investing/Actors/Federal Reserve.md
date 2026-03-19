@@ -16,7 +16,7 @@ aliases: [Fed, FOMC, Federal Reserve System]
 | Chair | [[Jerome Powell]] (term ends May 2026) |
 | Mandate | Maximum employment + price stability (2% inflation) |
 | Balance sheet | ~$7T (down from $9T peak) |
-| Fed funds rate | 3.50-3.75% (Jan 28, 2026) |
+| Fed funds rate | 3.50-3.75% (Mar 19, 2026) |
 
 ---
 
@@ -68,6 +68,7 @@ At risk under Warsh? [[Martin Sandbu]] argues (Jan 2026) that Warsh's tolerance 
 | Pause | Jul 2023 - Sep 2024 | Held at 5.25-5.50% |
 | Cutting | Sep 2024 - Jan 2026 | 175bp cuts to 3.50-3.75% |
 | Pause | Jan 28, 2026 | First hold since July |
+| Pause | Mar 19, 2026 | Second consecutive hold; Iran oil shock |
 
 Jan 28-29, 2026 decision:
 - Rates held at 3.50-3.75% — first pause since July
@@ -82,9 +83,44 @@ Jan 28-29, 2026 decision:
 - Services disinflation continuing
 - Fed hasn't yet complied with DOJ subpoenas (Bill Pulte was instigator)
 
-**Feb 20 data:** Q4 GDP 1.4% (vs 2.9% expected), core PCE +3.0% YoY — stagflationary. See [[US economic indicators]] for full release.
+Feb 20 data: Q4 GDP 1.4% (vs 2.9% expected), core PCE +3.0% YoY — stagflationary. See [[US economic indicators]] for full release.
 
 Jan 24 rate check: NY Fed conducted rare "rate check" with currency traders on USD/JPY — reportedly at [[Treasury]]'s request. Markets interpreted this as possible coordinated intervention to weaken dollar. DXY fell 2.26% over 5 days to 4-year low (96.16). See [[US dollar]].
+
+### March 19, 2026 decision
+
+Rates held at 3.50-3.75% — second consecutive hold. Balancing [[Iran]] conflict inflation impulse against weakening labor market.
+
+- [[Stephen Miran]] sole dissenter (backed 25bp cut) — [[Chris Waller]] rejoined majority
+- [[Jerome Powell]]: *"higher energy prices will push up overall inflation, but it is too soon to know the scope and duration of the potential effects on the economy"*
+- Powell: *"The thing I really want to emphasise is that nobody knows"*
+- "Several" FOMC members suggested the Fed's next move could be to raise rates
+
+Summary of Economic Projections (SEP) — March 2026 vs December 2025:
+
+| Metric | Mar 2026 | Dec 2025 | Direction |
+|--------|----------|----------|-----------|
+| PCE inflation (2026 YE) | 2.7% | 2.4% | ↑ |
+| GDP growth (2026) | 2.4% | 2.3% | ↑ |
+| Rate path | One 25bp cut | One 25bp cut | Unchanged |
+
+![[fomc-sep-projections-mar-2026.png]]
+*FT: FOMC median projections for GDP, core PCE, and unemployment — 2026 vs 2027. Core PCE expectations have ratcheted higher at every meeting since Dec 2024.*
+
+Dot plot: 12 of 19 members predict at least one cut in 2026; 7 predict no change. Distribution tighter than Dec but still divided — significant cluster at current rate level.
+
+![[fomc-dot-plot-mar-2026.png]]
+*FT: FOMC dot plot — rate projections from Jun 2025 through Mar 2026. Dots for 2026 remain clustered near the current rate band, reflecting deep uncertainty over Iran shock duration.*
+
+Market reaction (Mar 19):
+- 2Y Treasury yield +10bp to 3.77% — highest since August 2025
+- S&P 500 -1.4%
+- [[Oil|WTI]] jumped to ~$99/bbl
+- Fed funds futures pricing next cut July 2027 (was two cuts pre-Iran war)
+
+AlphaSimplex chief research strategist Kathryn Kaminski: *"Energy shocks are inflationary, which is negative for bonds across the board, and Powell's comments today didn't reassure anyone"*
+
+Labor market backdrop: US lost 92,000 jobs last month. Q4 GDP revised to 0.7% annualized (from Q3's 4.4%). The tension between weakening growth and Iran-driven inflation creates a classic stagflationary bind that limits Fed optionality.
 
 ---
 
@@ -96,6 +132,7 @@ Jan 24 rate check: NY Fed conducted rare "rate check" with currency traders on U
 | Trump stance | Will not reappoint Powell |
 | Nominee | [[Kevin Warsh]] (Jan 30, 2026) |
 | Confirmation | Pending Senate |
+| Powell on staying | Will remain temporarily if Warsh not confirmed by May; won't leave board until DOJ HQ probe resolved |
 
 ### Warsh nomination (Jan 30, 2026)
 
@@ -173,7 +210,9 @@ QT pace: ~$60B/month Treasury runoff, ~$35B/month MBS runoff
 
 ---
 
-*Updated 2026-01-31*
+Powell on succession (Mar 19 presser): expects to remain as chair temporarily if [[Kevin Warsh]] not confirmed by Senate before his May term end. On the DOJ probe over $2.5bn HQ refurbishment: *"I have no intention of leaving the board until the investigation is well and truly over with transparency and finality."* Has not decided whether he will continue as governor after the investigation concludes and after his term expires in 2028.
+
+*Updated 2026-03-19*
 
 ---
 
@@ -194,6 +233,8 @@ QT pace: ~$60B/month Treasury runoff, ~$35B/month MBS runoff
 - [[Gold]] — safe haven, independence barometer
 - [[Treasury]] — fiscal counterpart
 - [[Credit markets]] — Fed policy transmission
+- [[Iran conflict economic disruption]] — oil shock constraining rate path (2026)
+- [[Oil]] — energy price transmission channel to PCE
 
 ### Context
 - [[Trump II]] — political pressure, appointing authority

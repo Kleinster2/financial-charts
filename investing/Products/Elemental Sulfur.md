@@ -166,7 +166,19 @@ The sulfur dust market was valued at ~$1.2B in 2023.
 
 Pricing agencies: CRU/Fertecon (now part of S&P Global Commodity Insights), Argus, ICIS.
 
-### Current prices (Q1 2025)
+### Current prices (March 2026)
+
+| Market | Price | Change |
+|--------|-------|--------|
+| Africa CFR | ~$650+/Mt | +~20% in March alone (Platts) |
+| Middle East FOB | ~$500-520/Mt | Strait of Hormuz closure (~1/3 of global sulfur originates in ME) |
+| China CFR | ~$550/Mt | Tracking Africa spike |
+| General benchmark | >$500/Mt (late 2025) | vs historical norm of $200 or less |
+
+![[sulphur-prices-by-region-2025-2026.png]]
+*Sulfur prices by region ($/metric tonne). Middle East is FOB; China and Africa are CFR. All three markets converged at ~$500+ by early 2026 before Africa spiked to ~$650 on Hormuz closure. Source: Platts via FT (Mar 11, 2026)*
+
+### Previous prices (Q1 2025)
 
 | Market | Price | Change |
 |--------|-------|--------|
@@ -191,6 +203,21 @@ Pricing agencies: CRU/Fertecon (now part of S&P Global Commodity Insights), Argu
 | Late 2022 | Crash to ~$90/Mt | Demand weakness, crude oil uncertainty |
 | 2024 | Recovery $69-165/lt Tampa | Q1 low → Q4 higher; tightening supply |
 | Q1 2025 | $165/lt Tampa | Strong uptrend; Middle East spot at $310/Mt |
+| Late 2025 | >$500/Mt | Exceeded norm ($200 or less); Russian export curbs + tightening supply |
+| Mar 2026 | ~$500-650/Mt | [[Strait of Hormuz]] closure. Africa CFR +~20% in March alone (Platts). [[Mosaic]] idled Brazil plants late 2025 on high sulfur costs |
+
+### Strait of Hormuz disruption (Feb-Mar 2026)
+
+The Hormuz closure hit sulfur harder than oil. Roughly one-third of global sulfur supply originates in the Middle East (vs one-fifth of oil transiting the Strait). The closure simultaneously removed:
+- Saudi Aramco, ADNOC, and Qatar sulfur exports (world's top 3 exporters)
+- African buyers most exposed — mining sector (ore leaching) and fertilizer production depend on Middle Eastern sulfur. Africa CFR prices up ~20% in March alone (Platts)
+- Even before the closure, Russian export curbs had already tightened the market
+
+Real-world effects already visible: [[Mosaic]] idled phosphate plants in [[Brazil]] at end of 2025 because sulfur input costs exceeded $500/Mt. The US imports one-third of its solid sulfur and acid needs, mostly from [[Canada]], providing partial insulation — but brimstone prices boomed domestically too.
+
+The Hormuz crisis provides an "accidental glimpse" of the post-oil future: the same structural inversion the Maslin study predicts for 2040 — sulfur supply disappearing while demand persists — is playing out in compressed form via geopolitical disruption.
+
+*Source: FT Lex, "Rising sulphur prices carry whiff of unintended consequences" (Mar 11, 2026)*
 
 ### What drives price swings
 

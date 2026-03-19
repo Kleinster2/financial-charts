@@ -31,11 +31,11 @@ Expanded in 2020 to 180 days for minerals with high geopolitical risk (e.g., tho
 
 ## Overseas investment portfolio
 
-100+ projects in 15 countries since 2004. Over $600M invested. Key partnerships:
+$11B total spending (2023), half on investments and loans. 100+ projects in 15 countries since 2004. Key partnerships:
 
 | Partner | Country | Mineral | Investment | Notes |
 |---------|---------|---------|------------|-------|
-| [[Lynas Rare Earths]] | [[Australia]] | Rare earths (NdPr) | $250M (2011) + $134M (2023) | Supplies 90% of Japan's NdPr |
+| [[Lynas Rare Earths]] (with [[Sojitz]]) | [[Australia]] | Rare earths (NdPr) | $250M (2011) + $134M (2023) | Supplies 90% of Japan's NdPr. Australian ore refined in [[Malaysia]]; deliveries began late 2025 |
 | Namibia Critical Metals | Namibia | Heavy rare earths | $17–20M for 40–50% stake | Lofdal project |
 | Caremag / Carester | [[France]] | Heavy rare earths (Dy, Tb) | EUR 110M (with Iwatani) | First non-China heavy REE refinery, operational end 2026 |
 | REAlloys | US/[[Canada]] | Rare earths + magnets | MoU, financing under discussion | First JOGMEC partnership with US producer |
@@ -77,6 +77,16 @@ Japan's Minamitorishima (Marcus Island) deep-sea deposit contains massive rare e
 
 ---
 
+## International influence — the JOGMEC model goes global
+
+FT (Mar 9, 2026): [[Germany]] is the latest country copying JOGMEC's playbook. [[BMW]] and [[Rheinmetall]] want a Berlin-backed trading house modeled on Japanese sōgō shōsha ([[Mitsubishi]], [[Sojitz]]) to secure critical minerals supply. Germany already has a €1B Raw Materials Fund and Federal Institute for Geosciences (which works with JOGMEC directly), plus a leading role in the EU stockpiling initiative. The [[UK]] also has a Critical Minerals Strategy with domestic lending and strategic bodies.
+
+FT contrasts this favorably with the US approach of stake-building in specific domestic companies ([[MP Materials]], etc.) — "takes longer and involves relying on a handful of companies, hardly a recipe for resilience."
+
+[[Mitsubishi]] invested $600M in an Arizona copper mine earlier in 2026 — the trading house model gives access to production data and shipment flow intelligence, not just physical commodity.
+
+---
+
 ## Investment case (for portfolio context)
 
 JOGMEC is not investable directly — it's a government agency. But its activities create investable signals:
@@ -103,4 +113,4 @@ JOGMEC is not investable directly — it's a government agency. But its activiti
 
 ---
 
-*Created 2026-02-09*
+*Updated 2026-03-19*

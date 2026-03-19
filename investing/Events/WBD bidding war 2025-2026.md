@@ -259,6 +259,57 @@ Use this as a live dashboard. If 2+ red flags trigger simultaneously, raise brea
 - **2 red flags:** shift probability mass from base → delay.
 - **3+ red flags:** treat break scenario as live tail risk, not just background noise.
 
+## Eve-of-vote financial analysis (FT Lex, Mar 18)
+
+With the shareholder vote on March 20, FT Lex dissected the revenue math Ellison needs to make work.
+
+### Valuation
+
+~13x forecast EBITDA — roughly 2x the average multiple WBD traded at over the past decade. Ellison fought hard and is paying for it.
+
+### Cost story (plausible)
+
+$6B/yr savings target = ~1/4 of combined expenses, excluding the ~$32B/yr content spend. Plenty of overlap, straightforward to execute.
+
+### Revenue story (straining)
+
+Management guides "mid single digits" average annual revenue growth 2026-2030. Analysts had pencilled in 1.7% combined growth (Visible Alpha).
+
+Revenue mix makes this target mechanically demanding:
+
+| Segment | Share of revenue | Growth outlook |
+|---------|-----------------|----------------|
+| Cable TV | ~50% | Shrinking |
+| Studios | ~25% | ~4%/yr (analyst consensus) |
+| Streaming | ~25% | Must carry the math |
+
+FT Lex math: even if cable merely stops contracting, streaming would need ~12%/yr growth through 2030 to deliver a 5% group rate. That is faster than analyst consensus for [[Netflix]].
+
+### Consensus revenue growth forecasts 2026-2030 (Visible Alpha / FT)
+
+![[psky-wbd-revenue-growth-consensus-ft.png]]
+*Consensus annualized revenue growth 2026-2030. PSky/WBD streaming needs ~7% just to match analyst expectations, but management's "mid single digit" group target implies ~12%. Cable contracting at ~5%/yr is the anchor dragging the whole equation.*
+
+| Entity | CAGR 2026-2030 |
+|--------|----------------|
+| [[Netflix]] | ~10% |
+| PSky/WBD streaming | ~7% |
+| PSky/WBD studios | ~3.5% |
+| [[Disney]] | ~4% |
+| [[Fox Corporation]] | ~3% |
+| [[Versant]] | ~-1% |
+| PSky/WBD cable | ~-5% |
+
+### Subscriber churn risk
+
+[[Wells Fargo]] analysts estimate ~20% of [[Paramount Global|Paramount+]] global streaming revenue could evaporate during platform merger with [[Warner Bros Discovery|HBO Max]]. Price increases may be necessary — [[Netflix]] has done this without subscriber loss, but [[Disney]] has found higher prices turn some users off.
+
+### Balance sheet
+
+$75B net debt post-close, ~6x EBITDA. At least $4B/yr in interest payments — more than [[Netflix]], [[Disney]], and [[Google|Alphabet]] collectively paid in 2025. Servicing and paying down that debt (acknowledged priority) constrains Ellison's firepower if rivals escalate a content war.
+
+---
+
 ## Related
 
 ### Actors
@@ -280,4 +331,4 @@ Use this as a live dashboard. If 2+ red flags trigger simultaneously, raise brea
 
 ---
 
-*Created 2026-02-26. Updated 2026-02-27 with formal deal terms, financing structure, tick-tock timeline.*
+*Created 2026-02-26. Updated 2026-02-27 with formal deal terms, financing structure, tick-tock timeline. Updated 2026-03-19 with FT Lex eve-of-vote financial analysis.*

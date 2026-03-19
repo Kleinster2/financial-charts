@@ -24,7 +24,7 @@ aliases: [Oaktree, Howard Marks]
 | Fact | Detail |
 |------|--------|
 | Net worth | ~$2B |
-| Famous for | Investor memos |
+| Known for | Investor memos |
 | Book | *[[The Most Important Thing]]* |
 | Style | Contrarian, patient |
 | Philosophy | "Second-level thinking" |
@@ -86,6 +86,27 @@ Most-read investor letters in finance.
 
 ---
 
+## Lloyd's of London reinsurance — Allianz deal (Dec 2025)
+
+[[Oaktree Capital]] set up a new vehicle at [[Lloyd's of London]] to reinsure risks covered by [[Allianz]]. Under the structure, Oaktree funds a portion of payouts on claims underwritten by Allianz — deal value in the hundreds of millions of dollars. The structure benefits from Lloyd's AA credit rating, which reduces the collateral Oaktree must post.
+
+| Aspect | Detail |
+|--------|--------|
+| Counterparty | [[Allianz]] |
+| Venue | [[Lloyd's of London]] |
+| Scale | Hundreds of millions of dollars |
+| Structure | Oaktree funds portion of Allianz claims payouts |
+| Rationale (Allianz) | Diversify counterparty risk away from traditional reinsurers |
+| Similar deals | [[Blackstone]]-[[AIG]] (Syndicate 2479), [[Blackstone]]-[[The Fidelis Partnership]] ($170M) |
+
+This marks Oaktree's entry into commercial reinsurance — a new asset class for the firm beyond its core distressed debt and credit strategies. The deal is part of a broader wave of alternative capital entering insurance via [[Lloyd's of London|Lloyd's]], seeking [[Insurance float|float]].
+
+[[Allianz]] head of reinsurance Thorsten Fromhold (Dec 2025): *"We're buying ever more reinsurance... Let's partner with alternative capital"* — citing counterparty credit risk concentration with [[Munich Re]], [[Swiss Re]], and [[Hannover Re]].
+
+*Source: FT, Dec 8 2025*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -99,6 +120,10 @@ Most-read investor letters in finance.
 
 ## Related
 
+- [[Allianz]] — reinsurance deal via [[Lloyd's of London]] (Dec 2025)
+- [[Lloyd's of London]] — venue for Allianz reinsurance vehicle
+- [[Reinsurance sidecars]] — structural concept for the insurance deal
+- [[Insurance float]] — what the Lloyd's vehicle provides access to
 - [[Apollo]] — peer (credit)
 - [[Ares Management]] — peer (credit)
 - [[Baupost Group]] — peer (distressed)

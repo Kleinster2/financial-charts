@@ -41,18 +41,18 @@ MU trades as a core Semiconductors name (SMH r = 0.84).
 
 ## Key strengths
 
-- **U.S.-based**: Less geopolitical risk than Korea/[[Taiwan]]
-- **Memory shortage tailwind**: Same pricing power as Korean peers
-- **[[HBM]] ramp**: Catching up, NVIDIA qualified
-- **Less [[China]] exposure**: Not subject to same [[Export controls]] pressure on [[China]] fabs
+- U.S.-based: Less geopolitical risk than Korea/[[Taiwan]]
+- Memory shortage tailwind: Same pricing power as Korean peers
+- [[HBM]] ramp: Catching up, NVIDIA qualified
+- Less [[China]] exposure: Not subject to same [[Export controls]] pressure on [[China]] fabs
 
 ---
 
 ## Key weaknesses
 
-- **[[HBM]] behind**: SK Hynix has the lead, Samsung \#2
-- **Scale disadvantage**: Smaller than Samsung in memory
-- **Technology gap**: Historically trailed Korean leaders on density/cost
+- [[HBM]] behind: SK Hynix has the lead, Samsung \#2
+- Scale disadvantage: Smaller than Samsung in memory
+- Technology gap: Historically trailed Korean leaders on density/cost
 
 ---
 
@@ -62,9 +62,9 @@ MU trades as a core Semiconductors name (SMH r = 0.84).
 - Qualified with NVIDIA — ramping supply
 - Key question: Can they catch up on [[HBM]] margins?
 
-**HBM4 milestone (Feb 11, 2026):** CFO Mark Murphy announced at Wolfe Research Conference that HBM4 is in mass production and shipping to customers — a full year ahead of schedule. Denied rumors of exclusion from [[NVIDIA]] next-gen supply chain. Stock +10% to $410.34. Analyst upgrades: TD Cowen $600 PT (Street high), Deutsche Bank $500, Morgan Stanley $450. Triggered global semiconductor rally ([[Samsung]] +2%, [[SK Hynix]] +2.7%, SMH +2.7%).
+HBM4 milestone (Feb 11, 2026): CFO Mark Murphy announced at Wolfe Research Conference that HBM4 is in mass production and shipping to customers — a full year ahead of schedule. Denied rumors of exclusion from [[NVIDIA]] next-gen supply chain. Stock +10% to $410.34. Analyst upgrades: TD Cowen $600 PT (Street high), Deutsche Bank $500, Morgan Stanley $450. Triggered global semiconductor rally ([[Samsung]] +2%, [[SK Hynix]] +2.7%, SMH +2.7%).
 
-**CEO [[Sanjay Mehrotra]] — Davos & earnings call (Jan 2026):**
+CEO [[Sanjay Mehrotra]] — Davos & earnings call (Jan 2026):
 - Memory is now a "strategic asset, not just a component in the system"
 - AI-driven demand is "accelerating and irreversible"
 - Customers "concerned about long-term access to memory" — lining up for multi-year contracts
@@ -113,13 +113,14 @@ MU trades as a core Semiconductors name (SMH r = 0.84).
 | HQ | Boise, Idaho, USA |
 | Position | \#3 DRAM, \#4 NAND |
 | [[HBM]] | Ramping, \#3 — share now in line with DRAM share |
-| **Stock 2025** | **+239%** |
-| **Stock Jan 2026** | +27% MTD |
-| **US investment** | **$200B** ($150B mfg + $50B R&D) |
-| **FQ1 2026 revenue** | $13.6B (+57% YoY), record |
-| **FQ2 2026 guide** | $18.7B, ~68% GM (record) |
+| Stock 2025 | +239% |
+| Stock Jan 2026 | +27% MTD |
+| US investment | $200B ($150B mfg + $50B R&D) |
+| FQ1 2026 revenue | $13.6B (+57% YoY), record |
+| FQ2 2026 actual | $23.86B rev (+75% seq), 81% GM, EPS $12.20 |
+| FQ3 2026 guide | $33.5B ±$750M, ~81% GM, EPS $19.15 |
 
-*Updated 2026-03-04*
+*Updated 2026-03-19*
 
 ---
 
@@ -128,12 +129,12 @@ MU trades as a core Semiconductors name (SMH r = 0.84).
 [[Apple]] raised MacBook Air/Pro prices by $100-$400, explicitly driven by memory costs. This is the most visible consumer-facing confirmation of the [[Memory shortage 2025-2026]]:
 
 - Q1 2026 contract DRAM prices: +55-60% QoQ
-- LPDDR4X/5X: **+90% QoQ**
+- LPDDR4X/5X: +90% QoQ
 - NAND: +33-38% QoQ
 - Demand growing ~35% in 2026 vs supply growth ~23% — widest gap in decades
-- AI forecast to consume **20% of global DRAM wafer capacity** in 2026
+- AI forecast to consume 20% of global DRAM wafer capacity in 2026
 - Gartner: memory = 23% of PC BOM in 2026 (vs 16% in 2025), average PC prices +17% YoY
-- Meaningful consumer memory relief not expected until **2028-2029**
+- Meaningful consumer memory relief not expected until 2028-2029
 
 Micron exiting Crucial consumer brand (Feb 2026) + Apple passing costs to consumers = the squeeze is real and accelerating. Every HBM wafer for an [[NVIDIA]] GPU is a wafer denied to LPDDR5X for consumer devices.
 
@@ -147,7 +148,7 @@ Micron exiting Crucial consumer brand (Feb 2026) + Apple passing costs to consum
 | Gross margin | 56.8% | 68% |
 | FY26 capex | $20B (raised from $18B) | |
 
-**Key quotes:**
+Key quotes:
 - "Largest ever seen supply-demand gap"
 - Only meeting 50-67% of demand from key customers
 - Tightness to persist through and beyond CY2026
@@ -156,7 +157,7 @@ Micron exiting Crucial consumer brand (Feb 2026) + Apple passing costs to consum
 
 ## Strategic pivot: Crucial exit (Dec 2025)
 
-**Killing consumer memory brand by Feb 2026.**
+Killing consumer memory brand by Feb 2026.
 
 Why:
 - [[Consumer]] DDR5 prices 3-4x higher in 6 months
@@ -164,23 +165,23 @@ Why:
 - Enterprise/AI margins much higher
 - Shortage makes consumer allocation irrational
 
-**Implication**: Full pivot to enterprise/AI memory. [[Consumer]] PC/gaming market will feel the squeeze even more.
+Implication: Full pivot to enterprise/AI memory. [[Consumer]] PC/gaming market will feel the squeeze even more.
 
 Validates [[Memory shortage 2025-2026]] — when suppliers exit consumer, shortage is severe.
 
-**[[HBM]]:**
+[[HBM]]:
 - CY26 [[HBM]] supply fully contracted (price AND volume)
 - HBM4 on track for 2Q26 ramp
 - [[HBM]] TAM: $35B (2025) → $100B (2028) — 40% CAGR
 - DDR5 being bundled with [[HBM]] in some LTAs
 - Singapore [[HBM]] packaging on track for CY27
 
-**Pricing:**
+Pricing:
 - DRAM ASP +20% q/q
 - Both [[HBM]] and non-[[HBM]] have strong profitability
 - Margins expected to expand for DRAM and NAND
 
-**Capacity:**
+Capacity:
 - Idaho Fab 1 pulled in to mid-CY27
 - Idaho Fab 2 starts construction '26, operational end of '28
 - NY Fab supply expected 2030+
@@ -190,27 +191,27 @@ Validates [[Memory shortage 2025-2026]] — when suppliers exit consumer, shorta
 
 ## Syracuse groundbreaking (Jan 17, 2026)
 
-**Clay, NY facility:**
+Clay, NY facility:
 - Largest private investment in NY state history
 - 4 chip fabrication plants planned
 - 50,000 jobs expected
 - Attendees: [[Howard Lutnick]], Gov. Hochul, Chuck Schumer, CEO [[Sanjay Mehrotra]]
 
-**$200B US investment commitment:**
+$200B US investment commitment:
 - $150B manufacturing
 - $50B R&D
 
-**Lutnick context:** Commerce Secretary used event to threaten Korean memory makers with 100% tariffs. Micron = domestic champion benefiting from "industrial policy."
+Lutnick context: Commerce Secretary used event to threaten Korean memory makers with 100% tariffs. Micron = domestic champion benefiting from "industrial policy."
 
-**Stock reaction:** +7.8% Friday, +27% MTD, +239% in 2025.
+Stock reaction: +7.8% Friday, +27% MTD, +239% in 2025.
 
 ---
 
 ## Capex trajectory
 
-- **FY24-FY27**: 4 straight years of capex growth — first time in 25+ years
-- **Capital intensity**: Dropping below 30% in FY26 (vs 35% through-cycle guidance)
-- **FY26 timing**: 2H weighted — aligns with semicap acceleration
+- FY24-FY27: 4 straight years of capex growth — first time in 25+ years
+- Capital intensity: Dropping below 30% in FY26 (vs 35% through-cycle guidance)
+- FY26 timing: 2H weighted — aligns with semicap acceleration
 
 Revenue growing faster than capex = improving returns on investment. Bullish signal for memory cycle and [[Long WFE]].
 
@@ -233,34 +234,34 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 
 ## Market expectations
 
-**Priced in:**
+Priced in:
 - Memory shortage benefits
 - [[HBM]] revenue growth
 - Cyclical recovery
-- **Stock +229% YTD — market has recognized the thesis**
+- Stock +229% YTD — market has recognized the thesis
 
-**Not priced in (potential surprises):**
+Not priced in (potential surprises):
 - [[HBM]] share gains vs SK Hynix
 - Shortage worse than expected → pricing power
 - Mobile squeeze stronger than expected
 - U.S. fab incentives ([[CHIPS Act]])
 
-**Risk**: At +229%, a lot of good news is priced in. Disappointment risk rising.
+Risk: At +229%, a lot of good news is priced in. Disappointment risk rising.
 
 ---
 
 ## For theses
 
-**[[Long memory]]**:
+[[Long memory]]:
 - Benefits from same shortage dynamics as Korea
 - U.S.-based = geopolitical diversification
 - \#3 [[HBM]] but ramping
 
-**[[Short TSMC long Korea]]**:
+[[Short TSMC long Korea]]:
 - Complicates the thesis — Micron benefits from same drivers
 - Alternative: Long Korea + Long Micron for diversification
 
-**[[Memory squeeze thesis]]**:
+[[Memory squeeze thesis]]:
 - Exited Crucial consumer brand (Feb 2026) — validates squeeze
 - Full pivot to enterprise/AI memory
 - HBM supply locked to hyperscalers
@@ -284,7 +285,7 @@ Ranked #1 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
 
 Cheapest P/E of the five picks with the highest growth — classic memory cycle leverage.
 
-**Zacks detail:** Rank #1 (Strong Buy). Growth Score A, Momentum B, Value D. Market cap $463B. Last Q EPS growth +61.2%, last EPS surprise +22.3%. Next earnings: **March 19, 2026**. Record revenue across DRAM, NAND, and data center products. Cloud memory and DC units at highs with pricing strength. Supply constraints and lead times sustaining conditions. TAM projected at $100B by 2028. HBM3E ramp driving estimate inflection.
+Zacks detail: Rank #1 (Strong Buy). Growth Score A, Momentum B, Value D. Market cap $463B. Last Q EPS growth +61.2%, last EPS surprise +22.3%. Q2 FY26 reported March 18, 2026: massive beat — see section above. Record revenue across DRAM, NAND, and data center products. Cloud memory and DC units at highs with pricing strength. Supply constraints and lead times sustaining conditions. TAM projected at $100B by 2028. HBM3E ramp driving estimate inflection.
 
 ---
 
@@ -294,7 +295,48 @@ Cheapest P/E of the five picks with the highest growth — classic memory cycle 
 
 Construction scheduled to begin by end of fiscal 2026. Expansion targets growing demand for high-bandwidth memory used in AI training and inference. Stock up ~5% on the news.
 
-Earnings coming later this week — consensus $8.66 EPS on ~$19B revenue. Key read on whether HBM demand continues accelerating at AI buildout pace or if supply is finally catching up to hyperscaler demand.
+Q2 FY26 reported March 18: $23.86B revenue, EPS $12.20 — demolished consensus ($20.07B / $9.31). Q3 guide $33.5B. See Q2 FY2026 section below.
+
+---
+
+## Q2 FY2026 earnings (March 18, 2026)
+
+Record quarter — blew past already-raised guidance on every metric.
+
+| Metric | Q2 FY26 Actual | Q2 FY26 Guide | Consensus | Beat |
+|--------|---------------|---------------|-----------|------|
+| Revenue | $23.86B | $18.7B | $20.07B | +$3.79B vs est (+19%) |
+| Gross margin | ~81% | ~68% | — | +1,300bp vs guide |
+| GAAP net income | $13.79B | — | — | — |
+| GAAP EPS | $12.07 | — | — | — |
+| Non-GAAP EPS | $12.20 | — | $9.31 | +$2.89 (+31%) |
+
+Revenue up 75% sequentially — the largest sequential revenue jump in Micron's history. Every segment contributed: DRAM, NAND, and [[HBM]] all at record levels.
+
+### Q3 FY2026 guidance
+
+| Metric | Q3 Guide |
+|--------|----------|
+| Revenue | $33.5B ±$750M |
+| Gross margin | ~81% |
+| Operating expenses | ~$1.4B |
+| EPS | $19.15 ±$0.40 |
+| Share count | ~1.15B |
+
+The $33.5B guide implies another ~40% sequential acceleration — driven by higher pricing, lower costs, and favorable mix (HBM + enterprise shifting toward premium products). Gross margin holding at 81% at this revenue scale means operating leverage is extraordinary.
+
+### What drove the beat
+
+Three reinforcing dynamics:
+1. [[HBM]] revenue accelerating — HBM4 mass production confirmed ahead of schedule (Feb), now flowing into revenue. HBM TAM expanding as [[NVIDIA]], [[AMD]], and hyperscalers pull demand forward
+2. DRAM pricing power — contract prices continuing to rise as [[Memory shortage 2025-2026]] deepens. The Crucial exit (Feb 2026) freed capacity for higher-margin enterprise
+3. AI demand broadening — not just training (data center) but inference, edge AI, and automotive all growing. CEO [[Sanjay Mehrotra]]: AI demand is "accelerating and irreversible"
+
+### Market reaction
+
+Stock rose ~8% after hours on Mar 18 (pre-market ~$460, from ~$425 close). This came against a brutal tape — Dow -768pts on [[Federal Reserve]] holding rates, Brent crude +5.8% on Gulf attacks. The beat was large enough to override macro headwinds.
+
+Context: MU was already +239% in 2025 and +27% MTD in Jan 2026. At $460, market cap approaches ~$530B. The Q3 guide at $33.5B annualizes to ~$134B revenue run rate — a memory company generating more revenue than [[Intel]] at peak.
 
 ---
 

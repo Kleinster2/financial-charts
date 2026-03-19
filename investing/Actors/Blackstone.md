@@ -192,9 +192,20 @@ Stock +4.6% (+2.2 sigma) on March 13, 2026. Broader rebound in private credit-re
 
 ---
 
+## The Fidelis Partnership — Lloyd's syndicate (Dec 2025)
+
+[[Blackstone]] agreed to invest in a [[Lloyd's of London|Lloyd's]] syndicate with [[The Fidelis Partnership]], committing up to $170M over three years. Fidelis CEO Richard Brindle: *"We do the actual underwriting and they hold the capital — they hold us to account."* This is Blackstone's second Lloyd's vehicle, after Syndicate 2479 with [[AIG]].
+
+The deal is part of a broader wave of alternative capital entering [[Lloyd's of London]] for P&C reinsurance — alongside [[Oaktree Capital]]/[[Allianz]] (hundreds of millions) and [[Elliott Management]] among others. Reinsurance prices have been falling as capital pours into the sector.
+
+*Source: FT, Dec 8 2025*
+
+---
+
 ## Related
 
 - [[F&G Annuities]] — insurance partnership ($1B sidecar, Aug 2025)
+- [[The Fidelis Partnership]] — Lloyd's syndicate partner ($170M over 3 years, Dec 2025)
 - [[Reinsurance sidecars]] — capital-light insurance model
 - [[QTS]] — platform ($10B acquisition, data centers)
 - [[Blue Owl]] — peer (AI infrastructure financing)

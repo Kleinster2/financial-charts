@@ -97,9 +97,15 @@ Son controls [[SoftBank]], which has made enormous AI bets:
 ## Political connections
 
 - Close to Shinzo Abe (deceased)
-- Trump relationship (early meetings post-2016)
+- Trump relationship (early meetings post-2016, direct access)
 - [[Japan]] Inc. support
 - [[Saudi PIF]] (Vision Fund LP)
+
+### US-Japan $550B deal architect
+
+Son conceived the [[US-Japan Investment Framework]] — originally pitching [[Howard Lutnick]] on a joint US-Japan sovereign wealth fund before the creation of the $550B investment pot. He remains one of the few people in Japan who can credibly propose deals large enough to use the framework. His direct line to Trump is viewed within the Japanese government as "a huge asset, but also a potential liability" — he can get deals done, but Tokyo fears being railroaded into backing projects selected by Son and Trump without adequate Japanese input. The first project (Portsmouth gas plant) is a SoftBank subsidiary operation funded entirely by Japanese public money, with a proposed ¥1tn fee cut 90%+ after officials revolted.
+
+*Source: Financial Times (Mar 18, 2026)*
 
 ---
 
@@ -146,3 +152,6 @@ Son controls [[SoftBank]], which has made enormous AI bets:
 - [[Helion Energy]] — investor ($425M round)
 - [[AI infrastructure financing risk]] — key risk (ARM concentration)
 - [[AI infrastructure financing]] — major capital source
+- [[US-Japan Investment Framework]] — deal architect, pitched sovereign fund concept to [[Howard Lutnick]]
+- [[Howard Lutnick]] — Commerce Secretary, received sovereign fund pitch
+- [[Sanae Takaichi]] — Japanese PM, navigating deal governance

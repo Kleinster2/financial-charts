@@ -160,6 +160,16 @@ SK Hynix isn't a foundry, but:
 
 ---
 
+## Shortage may persist through 2030 (Mar 2026)
+
+[[SK Group]] chair Tae-won Chey at [[NVIDIA]]'s [[GTC]] (San Jose, Mar 2026): global memory chip shortage could persist through 2030. Industry needs 4-5 years to expand wafer capacity. SK Hynix prioritising [[HBM]] and higher-value products for [[NVIDIA]] and other AI customers.
+
+On overseas expansion: will focus on new plants in [[South Korea]] for now. Electricity and water resources remain the main hurdle for building abroad.
+
+*Source: Nikkei Asia (Yifan Yu), Mar 19, 2026*
+
+---
+
 ## Quick stats
 
 | Metric | Value |

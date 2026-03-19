@@ -79,6 +79,7 @@ Concentration risk: two countries ([[United States]], [[Qatar]]) produce ~69% of
 | Mar 6 | C&EN reports ~33% of global helium removed from market; spot prices already rising |
 | Mar 16 | Spot prices up 70-100% from pre-war levels; [[SK Hynix]] begins emergency diversification |
 | Mar 18 | Iranian missiles hit Ras Laffan (1 of 5 struck); [[Shell]] Pearl GTL and [[QatarEnergy]] condensate refinery "extensively damaged"; physical damage extends restart timeline to potentially 1+ year |
+| Mar 19 | [[QatarEnergy]] CEO quantifies: helium output down **14%**, two LNG trains (S4, S6) offline 3-5 years, North Field expansion halted. Force majeure extended to multi-year on Italy/Belgium/South Korea/China contracts |
 
 Pre-crisis buffer: ~15% global supply surplus existed before the shutdown. With 30% capacity removed, the net shortage is ~15%.
 
@@ -141,6 +142,7 @@ Distributors are assessing surcharges (Phil Kornbluth reported unnamed major sup
 | 2-8 weeks | Industrial gas firms forced to rework logistics, contracts, relocate containers; fabs begin rationing |
 | 2-6 months | Severe shortage; fab throughput reductions possible; recycling investment accelerates |
 | 6+ months / physical damage | Equipment repair at Ras Laffan could take 1+ year; structural supply deficit; new non-Gulf capacity needed |
+| **3-5 years (confirmed)** | **Al-Kaabi's Mar 19 damage assessment: two trains offline 3-5 years, helium output -14%. This is now the base case, not a tail scenario.** |
 
 The March 18 missile strike on Ras Laffan shifts the scenario distribution toward the longer end. Physical damage to liquefaction infrastructure is fundamentally different from a temporary production halt — equipment must be rebuilt, not just restarted.
 

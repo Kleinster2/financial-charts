@@ -204,19 +204,19 @@ Events:
 
 ## AI strategy
 
-India is betting on **application-led innovation** over frontier model development. India's Economic Survey (Jan 2026) urged focus on large-scale deployment rather than chasing mega-models. No globally dominant frontier AI model yet — competitive edge is scale of deployment + talent. India ranked **3rd globally** in Stanford's 2025 Global AI Index.
+India is betting on **application-led innovation** over frontier model development. India's Economic Survey (Jan 2026) urged focus on large-scale deployment rather than chasing mega-models. No globally dominant frontier AI model yet — competitive edge is scale of deployment + talent. India ranked 3rd globally in Stanford's 2025 Global AI Index.
 
-**Three pillars: infrastructure, users, talent.**
+Three pillars: infrastructure, users, talent.
 
 ### Infrastructure
 
-- **$70B in DC spending** already in early execution stages (tech minister Ashwini Vaishnaw, Feb 2026)
-- [[Google]]: **$15B** in southeastern India DCs (Oct 2025)
-- [[Microsoft]]: **$17.5B** (largest-ever Asia investment) for cloud/AI infra (Dec 2025)
-- [[Amazon]]: **$35B** across India operations over 5 years (Dec 2025)
-- [[Adani Group]]: **$100B** AI data centers with renewable energy by 2035 (announced at [[India AI Impact Summit 2026]])
-- India approved **$18B** in semiconductor projects to build domestic chip supply chain
-- **$1.1B** earmarked for state-backed VC fund targeting AI and advanced manufacturing startups
+- $70B in DC spending already in early execution stages (tech minister Ashwini Vaishnaw, Feb 2026)
+- [[Google]]: $15B in southeastern India DCs (Oct 2025)
+- [[Microsoft]]: $17.5B (largest-ever Asia investment) for cloud/AI infra (Dec 2025)
+- [[Amazon]]: $35B across India operations over 5 years (Dec 2025)
+- [[Adani Group]]: $100B AI data centers with renewable energy by 2035 (announced at [[India AI Impact Summit 2026]])
+- India approved $18B in semiconductor projects to build domestic chip supply chain
+- $1.1B earmarked for state-backed VC fund targeting AI and advanced manufacturing startups
 - New Indian data localization rules helped attract foreign investment
 - India accounts for a tiny share of $226B in global AI VC funding (CB Insights, 2025)
 - US has 75% and China 15% of AI supercomputing clusters ([[Epoch AI]])
@@ -226,7 +226,7 @@ India is betting on **application-led innovation** over frontier model developme
 - 100M+ weekly [[ChatGPT]] users ([[Sam Altman]], Feb 2026) — India is [[OpenAI]]'s #2 market after the US, largest student user base globally
 - India is [[Anthropic]]'s 2nd largest market for [[Claude]] after the US
 - No major domestic chatbot rival — US labs competing for users and training data via free tiers
-- Sovereign LLM push: [[Sarvam AI]] and [[IIT Bombay]]-led **BharatGen** developing sovereign LLMs
+- Sovereign LLM push: [[Sarvam AI]] and [[IIT Bombay]]-led BharatGen developing sovereign LLMs
 
 ### Talent
 
@@ -237,16 +237,16 @@ India is betting on **application-led innovation** over frontier model developme
 
 ### Frugal AI model
 
-India positioning its approach — affordable, localized AI tools — as a blueprint for the developing world. Government subsidizes compute access (under $1/hour for startups/researchers from a pool of AI chips). Key example: **Adalat AI**, trained on Indian case law and fluent in Indian languages, recording witness depositions and producing hearing records in thousands of courts — solving the 50M pending cases backlog. Adalat AI CTO Arghya Bhattacharya: "You don't need large models. You need models smaller and customized for every setting." [[Anthropic]] opened India office and is partnering with Adalat AI to provide case updates via [[Claude]] in local languages. Adalat AI also accessed [[Microsoft]] grants for supercomputing power housed in India.
+India positioning its approach — affordable, localized AI tools — as a blueprint for the developing world. Government subsidizes compute access (under $1/hour for startups/researchers from a pool of AI chips). Key example: Adalat AI, trained on Indian case law and fluent in Indian languages, recording witness depositions and producing hearing records in thousands of courts — solving the 50M pending cases backlog. Adalat AI CTO Arghya Bhattacharya: "You don't need large models. You need models smaller and customized for every setting." [[Anthropic]] opened India office and is partnering with Adalat AI to provide case updates via [[Claude]] in local languages. Adalat AI also accessed [[Microsoft]] grants for supercomputing power housed in India.
 
 ### IT services disruption risks
 
-- India's $283B IT sector faces AI disruption — [[Jefferies]] predicts call centres could face **50% revenue hit** by 2030
+- India's $283B IT sector faces AI disruption — [[Jefferies]] predicts call centres could face 50% revenue hit by 2030
 - [[Vinod Khosla]]: IT services and BPOs "can almost completely disappear within five years"
 - HCL CEO: Indian IT companies "will focus on turning profits and not being job creators"
 - Indian IT stocks dipping on AI disruption fears
 
-**Counter-narrative — [[Raghuram Rajan]] (March 2026):**
+Counter-narrative — [[Raghuram Rajan]] (March 2026):
 - Cost differential doesn't disappear when both sides adopt AI: Indian worker at $50K vs US at $250K — "so long as both have access to AI, that differential doesn't change"
 - GCCs evolving from back-office to front-office work (Qualcomm does chip design from India). Companies rebranding as "Global Capability Centres"
 - AI + human > AI alone in most service contexts (MOOCs have <10% completion without human support; nursing, agricultural extension, legal discovery all benefit from human-AI pairing)
@@ -268,8 +268,22 @@ Chip access as geopolitical tool — US controls 75% of AI supercomputing cluste
 
 ## February 2026: India AI Impact Summit
 
-[[India]] hosted the [[India AI Impact Summit 2026]] (Feb 16–20) at Bharat Mandapam, New Delhi — the **first AI summit held in the developing world**. 250,000+ visitors, 840+ exhibitors, 100+ countries, 15–20 heads of government. See [[India AI Impact Summit 2026]] for full event coverage.
+[[India]] hosted the [[India AI Impact Summit 2026]] (Feb 16–20) at Bharat Mandapam, New Delhi — the first AI summit held in the developing world. 250,000+ visitors, 840+ exhibitors, 100+ countries, 15–20 heads of government. See [[India AI Impact Summit 2026]] for full event coverage.
 
 ---
 
-*Created 2026-01-10 · Updated 2026-03-04*
+## Market crash (March 19, 2026)
+
+Sensex plunged ~1,900 points to intraday low of 75,072. Nifty 50 fell below 23,200. Triple catalyst:
+
+| Factor | Detail |
+|--------|--------|
+| [[HDFC Bank]] -9% | Chairman Atanu Chakraborty resigned citing "ethical concerns" — stock hit 52-week low; heaviest-weighted index stock dragged both Sensex and Nifty |
+| Global risk-off | [[Federal Reserve]] held rates, raised inflation forecast to 2.7% PCE; Dow -768pts the prior session |
+| Oil surge | Brent ~$113.54 on Gulf infrastructure attacks — India imports ~85% of crude needs; every $10/bbl costs India ~$15B in annual import bill |
+
+HDFC Bank's near-9% crash is the single largest contributor to the index decline — illustrates concentration risk in Indian benchmarks. The resignation's "ethical concerns" framing without further detail spooked markets; the timing during a global risk-off session amplified the move.
+
+The oil dimension is the structural worry: India's current account deficit widens ~0.4% of GDP per $10/bbl oil increase. With Brent at $113 vs the budget assumption of ~$75, the fiscal math deteriorates fast — see [[India FY2026 budget]].
+
+*Created 2026-01-10 · Updated 2026-03-19*

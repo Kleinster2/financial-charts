@@ -101,10 +101,12 @@ Bull:
 - Skydance merger resolved governance overhang
 
 Bear:
-- WBD deal massively leverages a company that's already struggling
+- WBD deal at ~13x forecast EBITDA — 2x WBD's average trading multiple over past decade
+- $75B net debt post-close (~6x EBITDA), $4B+/yr interest — more than [[Netflix]] + [[Disney]] + [[Google|Alphabet]] combined (2025)
+- Revenue growth requires streaming at ~12%/yr to 2030 — faster than [[Netflix]] consensus — while cable (~50% of revenue) shrinks
+- [[Wells Fargo]]: ~20% of Paramount+ streaming revenue may evaporate during HBO Max platform merger
 - Q4 2025 earnings miss (-$0.12 adj EPS vs -$0.01 est)
 - [[Linear TV]] networks declining across both companies
-- Heavy combined debt ($15B Paramount + WBD's debt)
 - Integration complexity of two struggling media empires
 - PSKY at $11.18 — stock down ~40% from post-Skydance peak
 
@@ -140,7 +142,11 @@ Timeline: initial $30 bid (Feb 10) → $30 rejected, 7-day window (Feb 17) → $
 
 Open risks: $1.5B junior lien financing fee, combined debt load, [[Larry Ellison]] equity guarantee certainty, activist shareholder dynamics at March 20 vote.
 
-Mar 2 analyst call added key execution details: management guided to ~**$79B net debt** at close, reiterated **no near-term cable asset spin/sale**, and confirmed Paramount+ + HBO Max platform consolidation as the core integration path. Synergy target remains **$6B+**, with emphasis on non-labor savings early (streaming stack/cloud/procurement).
+Mar 2 analyst call added key execution details: management guided to ~$79B net debt at close, reiterated no near-term cable asset spin/sale, and confirmed Paramount+ + HBO Max platform consolidation as the core integration path. Synergy target remains $6B+, with emphasis on non-labor savings early (streaming stack/cloud/procurement).
+
+### Revenue challenge (FT Lex, Mar 18)
+
+Management guides "mid single digits" average annual revenue growth 2026-2030; analysts had pencilled in 1.7% combined (Visible Alpha). ~13x forecast EBITDA for WBD — roughly 2x the average multiple over the prior decade. Cost savings ($6B/yr, ~1/4 of combined expenses ex-content) are plausible; revenue growth is where the pitch strains. Nearly half of combined revenue comes from shrinking cable. FT Lex math: even if cable merely stops contracting, streaming divisions would need ~12%/yr growth through 2030 to deliver a 5% group rate — faster than [[Netflix]] consensus. [[Wells Fargo]] analysts estimate ~20% of Paramount+ global streaming revenue could evaporate during platform merger with HBO Max. Post-close: $75B net debt (~6x EBITDA), $4B+/yr interest — more than [[Netflix]], [[Disney]], and [[Google|Alphabet]] collectively paid in 2025. See [[WBD bidding war 2025-2026#Eve-of-vote financial analysis (FT Lex, Mar 18)]] for full data.
 
 Full arc: [[WBD bidding war 2025-2026]]
 
@@ -225,4 +231,4 @@ Revenue flat at ~$29B. Chronic streaming losses and content write-downs have pro
 
 ---
 
-*Updated 2026-02-26*
+*Updated 2026-03-19*

@@ -693,6 +693,18 @@ The widening WTI-Brent spread reflects the market pricing a protracted conflict:
 
 *Sources: Reuters (Mar 18), Guardian (Mar 18), Axios (Mar 18), JPost (Mar 18), Bloomberg/Javier Blas (Mar 18), NASA FIRMS, QatarEnergy statement (Mar 18), CNBC (Mar 18)*
 
+### Day 20 — March 19: QatarEnergy damage assessment (17% of LNG capacity offline 3-5 years)
+
+[[QatarEnergy]] CEO [[Saad al-Kaabi]] quantified the damage in a Reuters exclusive. Two of Qatar's 14 LNG trains (S4 and S6) destroyed — 12.8 mtpa offline, 17% of Qatar's 77 mtpa total capacity. Repair timeline: 3-5 years. [[Shell]] Pearl GTL: up to 1 year to repair. Total construction cost of damaged units: ~$26B. Estimated annual revenue loss: ~$20B. Force majeure on long-term contracts extended from short-term to multi-year — affecting [[Italy]] ([[Edison SpA]]), [[Belgium]] ([[EDFT]]), [[South Korea]] ([[KOGAS]]), and [[China]] ([[Shell]]).
+
+[[Exxon]] directly exposed: 34% stake in Train S4, 30% stake in Train S6.
+
+Byproduct cascade: condensate production -24%, helium -14% (compounds [[Helium supply crisis 2026|helium crisis]] — hits [[SK Hynix]], [[Samsung Electronics]] fabs), [[LPG]] -13%, naphtha -6%, sulphur -6% (compounds the [[Nitrogen Trap]]).
+
+North Field expansion ($80B+ project, target 142 mtpa by 2030) halted — could be delayed 1+ year. Al-Kaabi: damage "has set the region back 10 to 20 years." Called for all countries to "stay away from oil and gas facilities."
+
+*Source: Reuters Exclusive, March 19, 2026*
+
 ---
 
 ## Related

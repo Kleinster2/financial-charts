@@ -83,6 +83,36 @@ See [[Venezuela oil rebuild]] for rare earths section.
 
 ---
 
+## Rare earth refining — IEA projections
+
+![[rare-earth-refining-by-country-2024-2030.png]]
+
+*Rare earths refined material production by country (%). China drops from ~90% (2024) to ~75% (2030) as [[Malaysia]], [[Australia]], [[Vietnam]], and rest of world expand. Source: IEA via FT.*
+
+| Country | 2024 | 2030 (IEA) |
+|---------|------|------------|
+| [[China]] | ~90% | ~75% |
+| [[Malaysia]] | ~8% | ~10% |
+| [[Australia]] | ~1% | ~5% |
+| [[Vietnam]] | ~1% | ~2% |
+| Rest of world | ~1% | ~8% |
+
+---
+
+## Three models for raw materials security (FT, Mar 9)
+
+FT compares three approaches to critical mineral supply chain resilience:
+
+| Model | Approach | Strengths | Weaknesses |
+|-------|----------|-----------|------------|
+| [[Japan]] | State agency ([[JOGMEC]]) + private trading houses ([[Mitsubishi]], [[Sojitz]]). $11B spending (2023), half on investments/loans. Reduced China dependence from 90% → ~60% | Data-rich (trading houses see production/shipment flows), patient capital for dirty/slow permitting work, decades of institutional knowledge | Trading house fossil fuel holdings don't incentivize renewables |
+| [[Germany]] | Copying Japan — [[BMW]], [[Rheinmetall]] want Berlin-backed trading house. Already has €1B Raw Materials Fund, Federal Institute for Geosciences, leading role in EU stockpiling | Leveraging existing industrial base, patchwork of EU institutions | New — untested, slower to build institutional capability |
+| US | Stake-building in specific domestic companies ([[MP Materials]], etc.) | Direct domestic supply | Takes longer, relies on handful of companies — not resilient |
+
+[[Germany]] and the [[UK]] (Critical Minerals Strategy) already match [[Japan]] with institutional patchwork but lack the integrated state-plus-private model Japan has refined over decades.
+
+---
+
 ## Investment implications
 
 **If [[China]] restricts:**
@@ -129,4 +159,4 @@ See [[Venezuela oil rebuild]] for rare earths section.
 
 ---
 
-*Updated 2026-02-02*
+*Updated 2026-03-19*

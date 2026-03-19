@@ -75,6 +75,44 @@ Program structure: DFC provides the sovereign backstop (first-loss or extreme ri
 - Rep. Joaquin Castro: flagged risk of "subsidizing and protecting oil shipments to China"
 - Analysts describe the program as a "profound departure" from DFC's historical development-focused mission
 
+### March 11: Lloyd's pushback — "not an insurance issue" (FT)
+
+*Source: FT, Lee Harris & George Parker, March 11, 2026*
+
+Lloyd's head of underwriting [[Patrick Davison]] (Mar 11): *"All the insurers at Lloyd's are still quoting business, and will still provide cover to basically anyone who asks."* The vessel traffic slowdown is *"not an insurance issue — it's a question of vessel and crew safety."*
+
+[[Sir Charles Roxburgh]] (Lloyd's chair) met UK chancellor [[Rachel Reeves]] on March 11. Reeves agreed there is "not really a problem with insurance" — cover remains available — and argued the priority is de-escalation for crew safety.
+
+London market defense: higher prices reflect heightened physical risk + elevated oil prices increasing insured vessel value — not price gouging or capital shortage. Senior figures framed the conflict as a growth opportunity: political violence insurance demand surging from Gulf data centers and other infrastructure.
+
+On the DFC: London figures learned of Trump's plan from a Truth Social post, lacked detail. Some doubted the facility would be set up. Several said additional cover was "not needed" but would welcome a US taxpayer-funded subsidy. The untested question is convoy insurance — whether the market has appetite to cover 20 oil tankers at once under US Navy escort. *"That's where the DFC could potentially help."*
+
+### March 19: DFC as competitive weapon — Lloyd's vs Washington (FT)
+
+*Source: FT, John Gapper, "Trump sails into battle with Lloyd's of London," March 19, 2026*
+
+Pricing has moved further since the March 5 data. London underwriters now quoting Hormuz transit at 3-7% of hull value (some even higher) — up from <0.5% pre-conflict. An $80M oil tanker (hull only, excluding cargo) could still obtain cover this week, but at those rates the premium alone runs $2.4M-$5.6M per transit. Pricing changing every few hours depending on Gulf news. One broker: *"When you have your vessel pointed [at the strait] with the engines on, call us and we'll find cover."*
+
+The DFC-backed program has shifted from a supplement to direct competition with [[Lloyd's of London]]. Key dynamics:
+
+| Dimension | Lloyd's market | DFC/Chubb program |
+|-----------|---------------|-------------------|
+| Pricing | 3-7% of hull value | ~1% expected (Navy-escorted) |
+| Backing | Private syndicates | US government reinsurance |
+| Intelligence | Private networks | US military intelligence |
+| Escort requirement | None | US Navy-escorted ships may be required to take DFC-backed insurance |
+| Framing | Historic expertise | "A level of security no other policy can provide" |
+
+The intelligence asymmetry is the structural threat. London's war insurers rely on private intelligence networks — if US military intelligence about shipping movements and dangers is filtered only to DFC-backed providers, Lloyd's loses its information edge. This would be "formidable" for London to compete against (Gapper).
+
+[[Sir Charles Roxburgh]] (Lloyd's chair) publicly reassuring that the market remains open and cancellations are "just the first step in a well-worn procedure." Lloyd's has publicly welcomed DFC capacity but privately views it as competitive encroachment.
+
+Ukrainian precedent: government-backed insurance through [[Lloyd's of London|Lloyd's]] underwriters reduced vessel policy prices heavily when launched in 2023 to guarantee grain supplies during the Russia-Ukraine war. Trump is now using the same model — government backstop to suppress premiums — but against Lloyd's rather than through it.
+
+Trump urged captains to "show some guts" and transit the Strait. Most are instead waiting — crew safety, not insurance availability, is the binding constraint for vessel operators.
+
+The competitive risk for London is structural: if DFC-backed insurance becomes permanent, the center of marine war risk could shift from London to Washington. Lloyd's Joint War Committee (which defines zones where standard policies stop) has centuries of institutional memory, but government-subsidized pricing plus exclusive military intelligence is hard to compete with.
+
 ---
 
 ## Adjacent coverage gaps
@@ -123,6 +161,8 @@ Taiwan's largest life insurers conducting internal reviews of Middle East exposu
 - [[Evan Greenberg]] — Chubb CEO, leading implementation
 - [[AIG]] — in negotiations as DFC reinsurance partner
 - [[Liberty Mutual]] — in negotiations as DFC reinsurance partner
+- [[Lloyd's of London]] — historic marine war risk hub; DFC program now competing directly with London market (Mar 19)
+- [[Sir Charles Roxburgh]] — Lloyd's chair, reassuring market that cancellations are standard procedure
 
 ---
 

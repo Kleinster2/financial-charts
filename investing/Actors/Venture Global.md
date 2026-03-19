@@ -46,8 +46,17 @@ CP2 would be Venture Global's third facility after Calcasieu Pass and Plaquemine
 
 ---
 
+## "Big swing supplier" (Bloomberg, Mar 19)
+
+[[Michael Sable]] to Bloomberg (Mar 19): *"The big swing suppliers were us and Qatar. And so we still have availability and then there's incremental supply slowly coming online."*
+
+With [[QatarEnergy]] under force majeure and physically damaged, Venture Global and [[Cheniere]] are the only LNG exporters with meaningful uncommitted capacity. Asian countries already knocking for supply — [[Taiwan]], [[Bangladesh]], [[Japan]] all seeking additional US LNG. Next US project to come online: [[Golden Pass]] (QatarEnergy/[[Exxon]] JV in Texas).
+
+---
+
 ## Related
 
 - [[LNG]] — commodity/concept
 - [[Cheniere]] — competitor
+- [[Golden Pass]] — next US LNG project
 - [[Iran conflict economic disruption]] — conflict context

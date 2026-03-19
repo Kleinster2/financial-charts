@@ -139,6 +139,109 @@ Europe's gas restocking season starts in April. If [[QatarEnergy]] can't resume 
 
 ---
 
+## Week 3 — "doomsday gas crisis" (Bloomberg, March 19)
+
+*Source: Bloomberg, Ruth Liao / Stephen Stapczynski / Priscila Azevedo Rocha, March 19, 2026*
+
+### Framing
+
+Three weeks into the conflict, Bloomberg frames [[LNG]] as the most acute pain point in the expanding energy crisis — worse than oil because there is virtually no spare capacity, no strategic reserves, and no easy replacements. The expected 2026 global gas glut has been erased. A second gas calamity in four years may be destroying industrial demand in emerging economies "perhaps irreparably."
+
+Saul Kavonic ([[MST Financial|MST Marquee]]): *"We are now well on our way to a doomsday gas crisis scenario. Even once the war ends, the disruption to LNG supply could last for months or even years — depending how long it takes to repair the damage."*
+
+### Hormuz LNG dependence by country
+
+![[hormuz-lng-dependence-by-country.png]]
+*Economies relying on LNG through the [[Strait of Hormuz]] as share of total gas consumption. Source: GIGNL, Energy Institute / Bloomberg (Mar 19, 2026).*
+
+| Country | Hormuz LNG as % of total gas consumption |
+|---------|------------------------------------------|
+| [[Taiwan]] | 27% |
+| [[Pakistan]] | 26% |
+| [[Kuwait]] | 24% |
+| [[Singapore]] | 18% |
+| [[India]] | 7% |
+| [[Thailand]] | 7% |
+| [[South Korea]] | 6% |
+| [[China]] | 6% |
+| [[Europe]] | 3% |
+| [[Japan]] | 0% |
+
+[[Pakistan]] relies on [[Qatar]] for 99% of its LNG imports. Officials warn there may not be enough gas to meet power requirements from mid-April. Textiles — Pakistan's biggest export — face a double hit: gas is used for both on-site power generation and heat during processing. Aamir Sheikh (fabrics business, Punjab): *"Production will decrease, reducing exports. The viability of remaining exports will also be reduced due to increases in cost. The bottom line is that industry is very worried."*
+
+### Supply deficit timeline
+
+[[Morgan Stanley]]: an interruption beyond one month "quickly brings a deficit." If that stretches to three months, it will be the biggest LNG outage in the industry's half-century history.
+
+A single LNG cargo heading to Asia now costs ~$80M — more than double the pre-war rate. [[Vietnam]] and [[Philippines]] have paused additional purchases until prices ease. [[India]]n firms pushed into some of their costliest purchases in years.
+
+Toby Copson (Davenport Energy, China-based portfolio manager): *"South and Southeast Asia are going to be the immediate casualties."* If disruption extends for months: *"we see indices going parabolic again."*
+
+### EM demand destruction — coal substitution
+
+Price-sensitive emerging economies are reconsidering ambitious LNG expansion plans. The shock is pushing countries toward coal, not renewables:
+- [[Philippines]] in talks with [[Indonesia]] to secure more coal
+- [[India]] expects record coal burn in 2026 to meet peak summer power demand
+- Coal is replacing LNG not by choice but by price — the supposed "bridge fuel" narrative is collapsing for the countries that needed it most
+
+Evan Tan ([[ICIS]]): *"Instead of looking at how high gas prices can go, we are looking at the price point at which South Asian buyers drop out of the spot market entirely."*
+
+### European restocking crisis
+
+![[europe-gas-inventories-seasonal-low-2026.png]]
+*Europe's gas inventories near seasonal low (2026 vs 2021-2025 range). Source: Gas Infrastructure Europe / Bloomberg (Mar 19, 2026).*
+
+Europe's gas restocking season starts April. Inventories are near seasonal lows after a cold winter. A six-month [[Ras Laffan]] outage means developed countries in Europe and Asia face pressure to cut back if prices test 2022 highs ([[Rystad Energy]]), especially going into winter restocking.
+
+Francisco Blanch ([[Bank of America]]): *"Ultimately we will need more demand rationing because there's not enough gas. Inventories in Europe are very low coming out of a cold winter. And you need to rebuild those stocks in the next two, three months and that's when the pressure is gonna start coming in."*
+
+European chemical plant closures have surged sixfold since 2022; investments in the sector have tumbled 80%+ (Roland Berger report for Cefic).
+
+### Scramble for alternatives
+
+[[Taiwan]] — a chip-manufacturing hub whose energy vulnerabilities are left particularly exposed by its LNG import dependence — is rushing to secure shipments, buying enough for April and half of May requirements. [[South Korea]] is scrambling to replace lost Qatari shipments and lifting its operating cap for coal power plants.
+
+### US and Australia — beneficiary but capacity-limited
+
+Upheaval benefits other producers, especially the US. Asian countries already knocking — [[Taiwan]] seeking to boost US LNG purchases from June, [[Bangladesh]] exploring additional shipments, [[Japan]]'s energy minister asked [[Australia]] to unlock more supply (Australia maxed out).
+
+[[Michael Sable]] ([[Venture Global]] CEO): *"The big swing suppliers were us and Qatar. And so we still have availability and then there's incremental supply slowly coming online."*
+
+Next US project to come online: [[Golden Pass]] in Texas (co-developed by [[QatarEnergy]] and [[Exxon]]). The disruption at [[Ras Laffan]] may force Qatar to expand overseas investments to hedge against future disruptions.
+
+[[Doug Burgum]] (US Interior Secretary) on Alaska LNG — previously dismissed as fanciful but now gaining traction: shipping distance of 8 days to Tokyo vs 24-28 from the Middle East. *"Eight days, but five days — over half the trip — you're still in US waters."*
+
+Saul Kavonic (MST Marquee): *"A global gas crisis only increases US export revenue and drives more gas-intensive manufacturing and jobs into the US."*
+
+### Russia — pipeline leverage
+
+[[Russia]] steadily ferrying LNG to [[China]] to work around Western restrictions. China's latest five-year plan (published early Mar 2026) calls for advancing work on the China-Russia central-route natural gas pipeline — a likely reference to Power of Siberia 2. Until recently Moscow promoted the project with far greater enthusiasm than Beijing, which had been more concerned with diversifying supply. The crisis may be flipping Beijing's calculus.
+
+### Atlantic vs Pacific price war
+
+Europe and Asia risk competing for scarce supply — raising the prospect of a price war between the Atlantic and Pacific basins. Europe secures much of its supply from the spot market, making it susceptible to price shocks or diversions if Asia is willing to pay up. Some officials are anxious about a situation that pits them against Asia (Bloomberg, citing people with knowledge).
+
+The competition creates incentives for traders to walk away from long-term contracts to capture higher spot prices — as seen in 2022.
+
+Menelaos Ydreos ([[International Gas Union]]): *"Once the price spikes set in, the more affluent countries can continue to bid. The less affluent countries get squeezed out. We cannot make up what's lost coming out of the Strait."*
+
+### Yukio Kani (JERA) — Fukushima parallel
+
+[[Yukio Kani]] ([[JERA]] CEO, Tokyo conference, Mar 15): compares this crisis to 2022 (Russia-Ukraine) and the 2011 Fukushima disaster, which forced Japan to shut nuclear plants almost overnight and dramatically increased LNG consumption. *"It has only just started, so we don't yet know whether it will surpass those events or not."*
+
+### Why LNG is worse than oil
+
+| Factor | Oil | LNG |
+|--------|-----|-----|
+| Strategic reserves | OECD has 1.8B bbl (IEA) | No global strategic LNG reserves |
+| Spare capacity | OPEC+ has some | Virtually none |
+| Storage | Cheap, stable (tanks, caverns) | Super-chilled, slowly evaporates, expensive |
+| Infrastructure | Fungible (ships, pipelines) | Hyper-specialized (ships, terminals) |
+| Substitution | Tight but possible | No drop-in replacement at scale |
+| Speed of new supply | Months (shale) | Years (liquefaction plants) |
+
+---
+
 ## Investment case
 
 **Bull:**

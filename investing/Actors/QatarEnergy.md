@@ -80,6 +80,62 @@ Terminal operator [[Fluxys]] confirmed the slots were made available by a long-t
 
 ---
 
+## March 19 — Damage assessment: 17% of LNG capacity offline for 3-5 years
+
+CEO [[Saad al-Kaabi]] gave an exclusive Reuters interview quantifying the damage from the March 18 strikes — the numbers are worse than the market expected.
+
+### Damage specifics
+
+| Facility | Damage | Partner stakes | Affected contracts |
+|----------|--------|---------------|-------------------|
+| LNG Train S4 | Damaged (3-5 year repair) | [[Exxon]] 34% | [[Edison SpA]] (Italy), [[EDFT]] (Belgium) |
+| LNG Train S6 | Damaged (3-5 year repair) | [[Exxon]] 30% | [[KOGAS]] (South Korea), EDFT, [[Shell]] (China) |
+| [[Shell]] Pearl GTL | Damaged (up to 1 year repair) | Shell partner | — |
+
+Two of Qatar's 14 LNG trains knocked out — 12.8 mtpa of capacity offline, representing 17% of Qatar's total 77 mtpa. The $26B in construction cost for the damaged units is now a repair bill.
+
+### Financial impact
+
+| Metric | Value |
+|--------|-------|
+| LNG capacity lost | 12.8 mtpa (17% of 77 mtpa) |
+| Estimated annual revenue loss | ~$20B |
+| Construction cost of damaged units | ~$26B |
+| Force majeure duration | 3-5 years on affected long-term contracts |
+| Affected destinations | [[Italy]], [[Belgium]], [[South Korea]], [[China]] |
+
+### Byproduct cascade
+
+The damage extends well beyond LNG. These are byproducts of natural gas processing at the same facilities:
+
+| Product | Production drop | Downstream impact |
+|---------|----------------|-------------------|
+| Condensate | -24% | Refinery feedstock, petrochemicals |
+| Helium | -14% | Semiconductor fabrication ([[SK Hynix]], [[Samsung Electronics]]), MRI cooling |
+| [[LPG]] | -13% | Cooking fuel (India restaurant sector), heating |
+| Naphtha | -6% | Petrochemical feedstock |
+| Sulphur | -6% | Fertilizer production (compounds the [[Nitrogen Trap]]) |
+
+The helium cut is particularly damaging — Qatar produces ~33% of global helium, and the semiconductor industry is now helium's largest consumer. See [[Helium supply crisis 2026]] for the full chokepoint analysis.
+
+### North Field Expansion halted
+
+No work is currently taking place on the massive North Field expansion ($80B+ project to nearly double capacity to 142 mtpa by 2030). Al-Kaabi said the expansion could be delayed by more than a year. The expansion was Qatar's flagship project — the foundation of its economic strategy and long-term LNG contract commitments to Europe and Asia.
+
+### Strategic framing
+
+Al-Kaabi: *"I never in my wildest dreams would have thought that Qatar would be — Qatar and the region — in such an attack, especially from a brotherly Muslim country in the month of Ramadan, attacking us in this way."*
+
+On the broader precedent: *"Everybody in the world, whether it's Israel, whether it's the U.S., whether it's any other country, everybody should stay away from oil and gas facilities."*
+
+Al-Kaabi said the damage "has set the region back 10 to 20 years" — not just in infrastructure terms, but in the perception of the Gulf as a safe haven for investment and personnel. This directly threatens the Gulf sovereign wealth diversification thesis (see [[Gulf Sovereign Capital Reallocation]]).
+
+Restart requires hostilities to cease first. Even after that, the damaged trains need 3-5 years of repair. The force majeure that was initially declared as short-term (March 4) is now extended to a multi-year commitment.
+
+*Source: Reuters Exclusive, March 19, 2026 (Maha El Dahan, Andrew Mills, Yousef Saba)*
+
+---
+
 ## Related
 
 - [[Qatar]] — parent state

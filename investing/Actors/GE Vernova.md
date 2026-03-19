@@ -52,6 +52,7 @@ GE Vernova is THE chokepoint for fast-deploying AI data center power:
 
 | Partner | Deal | Capacity |
 |---------|------|----------|
+| **[[SoftBank]]** | ~170 turbines ($10B order) | 9.2 GW (Portsmouth, OH) |
 | **[[Crusoe Energy]]** | 29 LM2500XPRESS turbines | ~1 GW |
 | **[[Chevron]]** | 7 HA turbines | 4 GW by 2027 |
 | **NRG Energy** | JV | Up to 5.4 GW |
@@ -140,6 +141,7 @@ This is the template for gas-powered AI infrastructure.
 
 ## Related
 
+- [[SoftBank]] — customer ($10B / ~170 turbines for Portsmouth gas plant under [[US-Japan Investment Framework]])
 - [[Crusoe Energy]] — customer (29 LM2500XPRESS turbines)
 - [[NextEra Energy]] — partner (collaboration deal)
 - [[Siemens Energy]] — competitor (oligopoly)

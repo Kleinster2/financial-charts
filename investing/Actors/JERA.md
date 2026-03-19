@@ -27,6 +27,16 @@ tags:
 
 ---
 
+## Iran conflict LNG exposure (Mar 2026)
+
+Japan's largest LNG importer. CEO [[Yukio Kani]] (30+ years in the industry) compared the [[2026 Iran conflict market impact|Iran conflict]] LNG crisis to both the 2022 Russia-Ukraine energy shock and the 2011 Fukushima disaster, which forced Japan to shut nuclear plants and dramatically increased LNG consumption (Tokyo conference, Mar 15, 2026):
+
+*"It has only just started, so we don't yet know whether it will surpass those events or not."*
+
+Japan's Hormuz LNG dependence is ~0% (most supply from [[Australia]], [[Malaysia]], US) — better positioned than most Asian importers. But as the world's second-largest LNG importer, JERA is exposed to global price spikes regardless of source diversification. Japan's energy minister asked Australia to unlock more supply. Bloomberg (Mar 19): gas prices have surged but not yet hit the 2022 peak.
+
+---
+
 ## Related
 
 - [[Ammonia]] — co-firing fuel and Blue Point JV

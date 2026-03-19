@@ -95,6 +95,53 @@ The private debt drawdown fundraising data tells a complementary story: $234.1B 
 
 ---
 
+## FT Lex: "half the ingredients of a financial crisis" (Mar 13)
+
+FT frames private credit as having contagion but not runs — half of a classic crisis. Gates prevent the chaotic unwinding that killed [[Silicon Valley Bank]] in 2023, but they perversely *accelerate* contagion: former [[PIMCO]] chief [[Mohamed El-Erian]]: *"If you can't sell what you want, you sell what you can."* Quotas on redemptions incentivize investors to ask for more than they want.
+
+Funds facing withdrawal requests (as of Mar 13): [[Blue Owl]] Capital Corp II, [[Cliffwater]] Corporate Lending Fund, [[Morgan Stanley]] North Haven Private Income Fund.
+
+### SVB 2023 parallel (distinct from the 2007 parallel below)
+
+| SVB crisis (2023) | Private credit (2026) |
+|--------------------|----------------------|
+| Online depositor run | Redemption requests hitting gates |
+| Bond holdings fell in value | Loan valuations questioned |
+| Contagion: investors scanned for similar banks | Contagion: investors scanning for similar funds |
+| CRE lending focus spread fear | Software concentration spreading fear |
+| Resolution: transparency + falling rates; CRE write-offs peaked <0.3% mid-2024 | Resolution unclear — harder to admit assets aren't fairly valued |
+
+FT's sharpest distinction: in 2023 banks had to convince investors their assets *were* fairly valued. Private credit's task is to admit they're *not*.
+
+### Middle-market refinancing wall
+
+![[midmarket-debt-maturity-wall-2026-2031.png]]
+
+*Middle-market US companies' debt coming due each year ($bn). Data as of Sep 30, 2025. Source: LSEG, PitchBook, LCD, Morgan Stanley Investment Management via FT.*
+
+| Year | Debt maturing ($bn) |
+|------|-------------------|
+| 2026 | ~$160 |
+| 2027 | ~$195 |
+| 2028 | ~$220 (peak) |
+| 2029 | ~$215 |
+| 2030 | ~$190 |
+| 2031 | ~$140 |
+
+Software companies alone need to refinance $40B in 2028 ([[Apollo]] data). If investors shun private credit broadly, these borrowers lose their financial lifeblood — non-bank lending is the growth engine for midsized companies.
+
+### Bank and insurer exposure
+
+[[Truist Securities]]: 10% of loans at banks they cover were to "non-depository financial institutions" at end of 2025. Some insurers holding large private credit as long-term investments may find balance sheet holes if fund assets fall.
+
+### Valuation transparency
+
+[[Apollo]] says it wants to update private credit holdings daily — doesn't yet do so. Some vehicles give line-by-line detail; others are vague. [[JPMorgan Chase|JPMorgan]] has already marked down holdings of private lender clients (see Mar 11 section below). If some funds start selling loans at cut prices, transparency will come the hard way.
+
+*Source: FT Lex (Mar 13, 2026)*
+
+---
+
 ## The fundamental contradiction
 
 Private credit's retail push was built on an inherent mismatch:
@@ -337,7 +384,7 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 ## Key voices
 
-**Mohamed El-Erian:** August 2007 parallel — *"canary in the coalmine"*
+**Mohamed El-Erian:** August 2007 parallel — *"canary in the coalmine."* Also (FT, Mar 13): *"If you can't sell what you want, you sell what you can"* — gates perversely accelerate contagion by incentivizing over-redemption
 
 **Craig Packer (Blue Owl):** *"We aren't halting redemptions... we are in fact accelerating redemptions."* Returning 30% at book value in 45 days.
 

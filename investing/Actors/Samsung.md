@@ -22,7 +22,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 
 ## Key events
 
-- **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns Korean memory makers face 100% tariffs unless they build in US. Samsung committed $40B+ US investment, including $17B Texas [[HBM]] packaging facility.
+- Lutnick 100% tariff threat (Jan 17, 2026) — [[Howard Lutnick]] warns Korean memory makers face 100% tariffs unless they build in US. Samsung committed $40B+ US investment, including $17B Texas [[HBM]] packaging facility.
 - [[Samsung Taylor pivot]] — the 4nm→2nm mid-construction leap
 
 ---
@@ -50,24 +50,24 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 
 ## Memory capacity expansion (Jan 2026)
 
-**Samsung planning ~50% capacity expansion in 2026:**
+Samsung planning ~50% capacity expansion in 2026:
 
 | Metric | Detail |
 |--------|--------|
-| Capacity increase | **~50%** for 2026 |
-| Server DRAM pricing | Seeking **+70% price hikes** (with SK Hynix) |
+| Capacity increase | ~50% for 2026 |
+| Server DRAM pricing | Seeking +70% price hikes (with SK Hynix) |
 | New fabs | P5 (Pyeongtaek) — operational 2028 |
 | Stargate commitment | 900K DRAM wafers/month (with SK Hynix) |
-| HBM4 production | **February 2026** (with SK Hynix) |
+| HBM4 production | February 2026 (with SK Hynix) |
 
-**Supercycle context:** BoA calls this a "supercycle similar to 1990s boom" — DRAM revenue +51%, NAND +45% YoY. Global semi market heading to $975B-$1T (+26-30%). [[IDC]] warns shortage may persist through 2027.
+Supercycle context: BoA calls this a "supercycle similar to 1990s boom" — DRAM revenue +51%, NAND +45% YoY. Global semi market heading to $975B-$1T (+26-30%). [[IDC]] warns shortage may persist through 2027.
 
-**P5 facility (Pyeongtaek, Gyeonggi):**
+P5 facility (Pyeongtaek, Gyeonggi):
 - Under construction
 - Expected operational: 2028
 - Focus: Advanced memory for AI
 
-**Context:** Korea back to \#2 in global chip equipment spending ($29.66B, +27.2% YoY).
+Context: Korea back to \#2 in global chip equipment spending ($29.66B, +27.2% YoY).
 
 ## Open questions
 
@@ -91,14 +91,14 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 
 | Metric | Value |
 |--------|-------|
-| Foundry share | **6.8%** (Q3 2025) |
+| Foundry share | 6.8% (Q3 2025) |
 | Leading edge | 2nm targeting July 2026 (Taylor) |
-| 2nm yields | **55-60%** (Dec 2025, up from 40%) |
-| Taylor construction | **93.6% complete** |
-| Taylor capacity | **50K wafers/month** (up from 20K) |
+| 2nm yields | 55-60% (Dec 2025, up from 40%) |
+| Taylor construction | 93.6% complete |
+| Taylor capacity | 50K wafers/month (up from 20K) |
 | Taylor investment | $44-50B (expanded from $17B) |
 | [[CHIPS Act]] | $6.4B |
-| Q4 2025 operating profit | **KRW 20T+ (~$14B)**, 30% above consensus |
+| Q4 2025 operating profit | KRW 20T+ (~$14B), 30% above consensus |
 
 *Updated 2026-02-12*
 
@@ -115,24 +115,24 @@ What consensus assumes (update when you see estimates):
 | Major customer win | Low probability | |
 | Foundry profitability | Negative near-term | |
 
-**Priced in:**
+Priced in:
 - Continued yield struggles
 - No major customer wins
 - TSMC dominance continues
 
-**Not priced in (potential surprises):**
-- **AMD deal close** — reportedly nearing SF2P (2nm) deal for EPYC Venice server CPUs (TrendForce, Dec 2025). Would establish AMD dual-foundry strategy
-- **[[NVIDIA]] second foundry** — After [[Groq]] licensing deal, industry sources say [[NVIDIA]] exploring Samsung as backup to TSMC (Dec 2025)
-- ~~Yields improve faster than expected~~ **CONFIRMED: 55-60% (Dec 2025)**
+Not priced in (potential surprises):
+- AMD deal close — reportedly nearing SF2P (2nm) deal for EPYC Venice server CPUs (TrendForce, Dec 2025). Would establish AMD dual-foundry strategy
+- [[NVIDIA]] second foundry — After [[Groq]] licensing deal, industry sources say [[NVIDIA]] exploring Samsung as backup to TSMC (Dec 2025)
+- ~~Yields improve faster than expected~~ CONFIRMED: 55-60% (Dec 2025)
 - [[Taiwan]] disruption revalues Samsung capacity
-- **TSMC overflow customers** — Google, [[Qualcomm]], AMD, Amazon exploring Samsung (Jan 2026)
-- **Exynos 2600** — World's first 2nm mobile chip (Galaxy S26), proof point for 2nm viability
+- TSMC overflow customers — Google, [[Qualcomm]], AMD, Amazon exploring Samsung (Jan 2026)
+- Exynos 2600 — World's first 2nm mobile chip (Galaxy S26), proof point for 2nm viability
 
 ---
 
 ## Turnkey bundle strategy (Jan 2026)
 
-**Samsung offering integrated solution to hyperscalers:**
+Samsung offering integrated solution to hyperscalers:
 
 | Component | Samsung offering |
 |-----------|------------------|
@@ -141,7 +141,7 @@ What consensus assumes (update when you see estimates):
 | Memory | [[HBM]] from Samsung |
 | Integration | Single vendor, Texas facilities |
 
-**[[Target]] customers:**
+[[Target]] customers:
 
 | Customer | Product | Status |
 |----------|---------|--------|
@@ -149,12 +149,12 @@ What consensus assumes (update when you see estimates):
 | [[AMD]] | GPU/CPU | Exploring |
 | [[Amazon]] | Custom chips | Exploring |
 
-**Why "turnkey" matters:** TSMC doesn't make memory. Samsung can bundle foundry + packaging + [[HBM]] as one-stop solution — differentiation vs TSMC's logic-only approach.
+Why "turnkey" matters: TSMC doesn't make memory. Samsung can bundle foundry + packaging + [[HBM]] as one-stop solution — differentiation vs TSMC's logic-only approach.
 
-**Recently confirmed:**
-- **[[xAI]] Taylor deal finalized** (Dec 2025) — Custom AI chips, production early 2026, full scale 2027
-- **Q4 2025 beat** — 30% above consensus, memory + foundry both contributing
-- **Yields approaching TSMC** — 55-60% vs TSMC ~65%
+Recently confirmed:
+- [[xAI]] Taylor deal finalized (Dec 2025) — Custom AI chips, production early 2026, full scale 2027
+- Q4 2025 beat — 30% above consensus, memory + foundry both contributing
+- Yields approaching TSMC — 55-60% vs TSMC ~65%
 
 *Multiple catalysts materializing. Thesis strengthening.*
 
@@ -162,38 +162,62 @@ What consensus assumes (update when you see estimates):
 
 ## [[Consumer]] electronics / Display ([[CES 2026]])
 
-**Samsung is also world's \#1 TV maker.** Non-semiconductor revenue diversification:
+Samsung is also world's \#1 TV maker. Non-semiconductor revenue diversification:
 
-**Micro RGB technology (Jan 2026):**
+Micro RGB technology (Jan 2026):
 - New LCD backlighting tech — individual R/G/B backlights vs white/blue
 - Improves color accuracy vs standard LCD
 - 115-inch Micro RGB TV at $30,000
 - Expanding to 55-130 inch range
 
-**OLED competition with LG:**
+OLED competition with LG:
 - S95H flagship: 35% brighter than prior gen
 - S90H: Added glare-free screen, 15% brighter
 - "Quantum dot" OLED panels from Samsung Display
 - Re-entered OLED in 2022 after years of LCD-only
 
-**AI integration:**
+AI integration:
 - Compatible with Bixby, [[Microsoft]], [[Perplexity]] [[AI agents]]
 - AI Sound Controller for dialogue/music/effects adjustment
 - Automatic picture/sound optimization
 
-**Market trend:** "Super big screens" (98-130 inch) fastest-growing TV segment, expected to double in 2026.
+Market trend: "Super big screens" (98-130 inch) fastest-growing TV segment, expected to double in 2026.
 
 ---
 
-## Q4 FY2025 earnings (reported Jan 2026)
+## Q4 FY2025 earnings (reported Jan 29, 2026)
 
 | Metric | Q4 FY2025 | YoY |
 |--------|-----------|-----|
-| Revenue | ₩93.8T | +24% |
+| Revenue | ₩93.8T ($65.58B) | +24% (record) |
+| Operating profit | ₩20.1T | >200% (all-time record, surpassing ₩17.6T Q3 2018) |
 | Device Solutions | ₩44.0T | +46% |
 | Memory | ₩37.1T | +62% |
+| Display profit | ₩2T | >2x |
+| Mobile OP | ₩1.9T | -9.5% YoY, -45% QoQ |
 
-Foundry began mass production of first-gen 2nm products and shipped 4nm [[HBM]] base-die.
+Foundry began mass production of first-gen 2nm products and shipped 4nm [[HBM]] base-die. Capex declined for full year 2025 (conservative approach); expected to ramp memory investments in 2026.
+
+---
+
+## March 17, 2026 — shareholder meeting (AI demand confirmation)
+
+Co-CEO Jun Young-hyun at annual meeting: "We expect a favourable business environment due to the increasing demand for AI and the resulting continued shortage of memory supply." Acknowledged "concerns regarding overheating in investment in AI infrastructure" but said it is "extremely important for the chip business to minimise mid-to-long-term business uncertainties."
+
+| Development | Detail |
+|-------------|--------|
+| HBM production target | ~250K wafers/month by end of 2026 (from ~170K, +47%) |
+| GTC 2026 announcement | Plans to boost HBM production by >300% |
+| 2026 HBM supply | Sold out |
+| HBM sales 2026 vs 2025 | Expected to more than triple |
+| HBM4 mass production | Started Feb 2026, Pyeongtaek campus |
+| HBM4 customer feedback | [[NVIDIA]] CEO Jensen Huang praised Samsung HBM4 at GTC |
+| Contract structure | Pursuing 3-to-5 year multi-year contracts (shift from quarterly/annual) |
+| Stock reaction | +7.5% on announcement; +62% YTD |
+
+Samsung shares +62% since January 2026, confirming the [[Memory shortage 2025-2026|memory shortage]] tailwind.
+
+*Source: Samsung shareholder meeting, Mar 17 2026*
 
 ---
 
@@ -203,13 +227,13 @@ Samsung foundry entering a significant recovery phase:
 
 | Development | Detail |
 |-------------|--------|
-| **AMD EPYC Venice** | Reportedly nearing SF2P (2nm) deal — dual-foundry with [[TSMC]] |
-| **Apple CIS deal** | Manufacturing iPhone camera sensors at Austin, TX — breaking [[Sony]] exclusivity. SemiAnalysis: 20-30% of Apple CIS volume by 2027 ($1-1.5B/yr) |
-| **2nm pricing** | Wafer price reportedly cut to $20K — **undercutting [[TSMC]] by 33%** |
-| **TSMC overflow** | Rising TSMC prices + capacity constraints making Samsung increasingly attractive |
-| **Taylor, TX fab** | On track for 2026 opening, ~1,500 permanent employees by year-end. $17B — largest single foreign investment in Texas. [[Tesla]] as anchor client through 2033 |
+| AMD EPYC Venice | Reportedly nearing SF2P (2nm) deal — dual-foundry with [[TSMC]] |
+| Apple CIS deal | Manufacturing iPhone camera sensors at Austin, TX — breaking [[Sony]] exclusivity. SemiAnalysis: 20-30% of Apple CIS volume by 2027 ($1-1.5B/yr) |
+| 2nm pricing | Wafer price reportedly cut to $20K — undercutting [[TSMC]] by 33% |
+| TSMC overflow | Rising TSMC prices + capacity constraints making Samsung increasingly attractive |
+| Taylor, TX fab | On track for 2026 opening, ~1,500 permanent employees by year-end. $17B — largest single foreign investment in Texas. [[Tesla]] as anchor client through 2033 |
 
-**Galaxy S26 Unpacked (Feb 25, 2026):** S26 Ultra with Snapdragon 8 Elite Gen 5, privacy display. New Bixby AI assistant with [[Perplexity]] integration. Galaxy S26 Edge cancelled, S26 Plus revived.
+Galaxy S26 Unpacked (Feb 25, 2026): S26 Ultra with Snapdragon 8 Elite Gen 5, privacy display. New Bixby AI assistant with [[Perplexity]] integration. Galaxy S26 Edge cancelled, S26 Plus revived.
 
 ---
 
@@ -227,13 +251,13 @@ This contributes to [[HBM economics]] — consumer DRAM getting squeezed as capa
 
 ### HBM4 pricing (Feb 27, 2026)
 
-Samsung negotiating **~$700/unit** for HBM4 — **30% above** previous generation (Chosun Ilbo). Stock hit fresh record high (+5.4%).
+Samsung negotiating ~$700/unit for HBM4 — 30% above previous generation (Chosun Ilbo). Stock hit fresh record high (+5.4%).
 
 | Metric | Value |
 |--------|-------|
-| HBM4 unit price | **~$700** (Samsung) |
+| HBM4 unit price | ~$700 (Samsung) |
 | vs HBM3E | +30% |
-| Operating margin | **50-60%** (Bloomberg Intelligence, Masahiro Wakasugi) |
+| Operating margin | 50-60% (Bloomberg Intelligence, Masahiro Wakasugi) |
 | [[SK Hynix]] HBM4 price | Mid-$500s (set Aug 2025 for [[NVIDIA]]) — may raise to match |
 | Samsung HBM4 status | Mass production started, commercial shipments underway |
 
@@ -241,7 +265,7 @@ Bloomberg Intelligence: "The gap between ASPs for Samsung and [[SK Hynix]] will 
 
 Samsung regaining pricing leverage at the premium end after initially falling behind [[SK Hynix]] in HBM. Saxo Markets (Charu Chanana): "sign that the AI memory market is still tight."
 
-**Korea market context:** Kospi **+34% YTD** — world's best-performing stock market, driven by [[Memory shortage 2025-2026|memory shortage]] tailwind.
+Korea market context: Kospi +34% YTD — world's best-performing stock market, driven by [[Memory shortage 2025-2026|memory shortage]] tailwind.
 
 *Source: Bloomberg, Feb 27 2026*
 

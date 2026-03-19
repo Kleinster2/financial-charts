@@ -65,6 +65,20 @@ Asset manager (often PE sponsor) manages the float
 - Ark's Outrigger Re: $230M for 2025 underwriting year
 - SageSure/Anchor Re: $50M debut sidecar (Seawall Re, Bermuda)
 
+**Lloyd's of London as alt capital venue (Dec 2025):**
+
+A distinct channel is emerging at [[Lloyd's of London]], where alternative investors benefit from Lloyd's AA credit rating (reduces collateral requirements) rather than setting up standalone Bermuda vehicles:
+
+| Deal | Parties | Scale |
+|------|---------|-------|
+| Allianz reinsurance vehicle | [[Oaktree Capital]] / [[Allianz]] | Hundreds of millions |
+| Fidelis syndicate | [[Blackstone]] / [[The Fidelis Partnership]] | Up to $170M over 3 years |
+| Syndicate 2479 | [[Blackstone]] / [[AIG]] | — |
+
+[[Allianz]] head of reinsurance Thorsten Fromhold: *"We're buying ever more reinsurance"* — citing counterparty credit risk concentration with [[Munich Re]], [[Swiss Re]], [[Hannover Re]]. [[Elliott Management]] also among hedge funds entering Lloyd's for [[Insurance float|float]]. [[Munich Re]] warned the trend could amplify volatility. Critics argue it encourages "originate to distribute" — insurers facing fewer incentives for rigorous underwriting when passing risk to third parties. Reinsurance prices falling as capital outpaces growth of insured risks.
+
+*Source: FT, Dec 8 2025*
+
 ---
 
 ## Life/annuity sidecars (the PE revolution)
@@ -159,7 +173,9 @@ Global retirement protection gap estimated at $51T (GFIA, 2023). The thesis: agi
 - [[Brookfield]] — [[American Equity]], fixed indexed annuities
 - [[Hedge fund capital concentration]] — parallel trend of alternative asset scaling
 - [[Hyperscaler capex]] — competing demand for institutional capital
-- [[Munich Re]] — traditional reinsurer, sidecar sponsor/competitor
+- [[Lloyd's of London]] — AA-rated marketplace, emerging alt capital venue (Oaktree/Allianz, Blackstone/Fidelis)
+- [[The Fidelis Partnership]] — Blackstone Lloyd's syndicate partner ($170M, Dec 2025)
+- [[Munich Re]] — traditional reinsurer, sidecar sponsor/competitor; warned alt capital amplifies volatility
 - [[Swiss Re]] — traditional reinsurer, alternative capital participant
 - [[Marsh McLennan]] — broker, Guy Carpenter places sidecar capacity
 - [[Aon]] — broker, publishes sidecar market data ($19.6B)

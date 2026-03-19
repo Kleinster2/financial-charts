@@ -67,6 +67,22 @@ Every chip must be tested. Advantest dominates:
 
 ---
 
+## FY March 2026 forecast
+
+[[Advantest]] expects record results for the fiscal year ending March 2026:
+
+| Metric | FY Mar 2026E |
+|--------|-------------|
+| Revenue growth | +37% YoY |
+| Net profit | More than doubled YoY |
+| Share performance | More than tripled over past year |
+
+Testing demand surging as chip structures become increasingly complex, making quality control more important at each manufacturing step. The number and sophistication of testing steps is increasing.
+
+*Source: Nikkei Asia (Cheng Ting-Fang), Mar 19, 2026*
+
+---
+
 ## Investment case
 
 **Bull:**

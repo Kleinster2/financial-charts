@@ -57,13 +57,19 @@ Turbulent history — nuclear economics challenging.
 
 ## Nuclear renaissance context
 
-**AI power demand:**
+AI power demand driving renewed interest:
 - Data centers need baseload power
 - Nuclear = carbon-free, 24/7
 - SMRs emerging but AP1000 proven
 - Westinghouse positioned for new builds
 
 See [[Nuclear renaissance]], [[Long nuclear]].
+
+### US-Japan Investment Framework — Tranche 2
+
+Westinghouse nuclear project expected to be announced at PM [[Sanae Takaichi]]'s March 19, 2026 summit with [[Donald Trump]] as part of the [[US-Japan Investment Framework]]'s second round of investments (alongside copper smelting and display manufacturing). Funded by [[Japan]] via [[JBIC]] and commercial lenders.
+
+*Source: Financial Times (Mar 18, 2026)*
 
 ---
 
@@ -110,4 +116,7 @@ See [[Nuclear renaissance]], [[Long nuclear]].
 - [[Nuclear renaissance]] — context
 - [[NuScale]] — competitor (SMRs)
 - [[Oklo]] — competitor (SMRs)
+- [[US-Japan Investment Framework]] — Tranche 2 nuclear project
+- [[Sanae Takaichi]] — Japan PM, announcing project at Mar 19 summit
+- [[JBIC]] — Japan policy bank, potential funder
 

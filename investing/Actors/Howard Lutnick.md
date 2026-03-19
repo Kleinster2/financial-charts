@@ -97,6 +97,7 @@ September 11, 2001: [[Cantor Fitzgerald]] occupied floors 101-105 of the North T
 - [[Jamie Raskin]] — House investigation of tariff refund dealings
 
 ### Events and concepts
+- [[US-Japan Investment Framework]] — received [[Masayoshi Son]]'s pitch for joint US-Japan sovereign wealth fund, which became the $550B deal
 - [[Tariff refund claims market]] — the conflict-of-interest scandal
 - [[Learning Resources v Trump]] — SCOTUS ruling striking down IEEPA tariffs (Feb 2026)
 - [[Jeffrey Epstein]] — business dealings contradicting public statements

@@ -60,9 +60,20 @@ Bond markets reacted nervously when she floated the food consumption tax suspens
 
 Takaichi has identified the defense industry as a priority industrial policy sector for the first time — an attempt to make Japan a player in defense exports. She has also raised the possibility of constitutional amendments (Japan's Constitution has never been amended). The amendments she's identified are "not really that far reaching" (Solís), but achieving any amendment would be historic given the supermajority political requirements.
 
+## US-Japan $550B deal — March 19 summit
+
+Takaichi's summit with [[Donald Trump]] on March 19, 2026, is described by senior Japanese officials as "make or break." She is set to unveil a second round of at least three investments under the [[US-Japan Investment Framework]]: copper smelting, display manufacturing, and a nuclear power project with [[Westinghouse]].
+
+The stakes are governance: the framework's terms grant Trump ultimate decision-making power and oblige Japan to fund within 45 business days of project announcement. Japanese officials fear being edged out of project selection and railroaded into backing companies lacking necessary experience (the first project — a $33B [[SoftBank]] gas plant — exemplifies this tension). Takaichi needs to reclaim governance input before further tranches are committed.
+
+*Source: Financial Times (Mar 18, 2026)*
+
+---
+
 ## Related
 
 - [[Japan]] — country
+- [[US-Japan Investment Framework]] — $550B deal, Mar 19 summit
 - [[Abenomics]] — predecessor reform framework (comparison)
 - [[Shinzo Abe]] — predecessor reformer
 - [[Japan corporate governance revolution]] — deepening with tax incentives
@@ -72,3 +83,7 @@ Takaichi has identified the defense industry as a priority industrial policy sec
 - [[Nikkei 225]] — "Takaichi Trade" (+5% post-election)
 - [[Tokyo Stock Exchange]] — governance reform partner
 - [[NISA]] — expanded retail investment accounts
+- [[Donald Trump]] — summit partner, deal authority
+- [[Masayoshi Son]] — deal architect, governance concern
+- [[SoftBank]] — first project developer (Portsmouth gas plant)
+- [[Westinghouse]] — nuclear project in Tranche 2

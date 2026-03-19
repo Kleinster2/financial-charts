@@ -27,12 +27,12 @@ LULU shows moderate Consumer correlation (XLY r = 0.50).
 | Metric | Value |
 |--------|-------|
 | Ticker | LULU ([[Nasdaq]]) |
-| Market cap | ~$30B |
-| Revenue (FY24, ended Jan 2025) | $10.6B (+10%) |
-| EPS (FY24) | $14.64 |
-| Gross margin | 59.2% |
-| Operating margin | 24.3% |
-| CEO | Calvin McDonald (departing Jan 2026) |
+| Market cap | ~$20B |
+| Revenue (FY25, ended Jan 2026) | ~$10.6B |
+| EPS (FY25) | $13.26 |
+| Gross margin (Q4 FY25) | 54.9% |
+| Operating margin (Q4 FY25) | 22.3% |
+| CEO | Interim co-CEOs (Meghan Frank, Andre Maestrini) |
 | Stores | 700+ globally |
 | HQ | Vancouver, [[Canada]] |
 
@@ -48,19 +48,66 @@ LULU shows moderate Consumer correlation (XLY r = 0.50).
 | Gross margin | 55.4% | 58.3% | 59.2% |
 | Operating margin | 21.5% | 23.5% | 24.3% |
 
-**The deceleration:** Double-digit growth every year since IPO (2007) — but the era of easy high-teens growth is ending. FY25 guided 5-7%.
+The deceleration: Double-digit growth every year since IPO (2007) — but the era of easy high-teens growth is ending. FY25 guided 5-7%.
 
 ---
 
-## FY25 guidance & challenges
+## Q4 FY2025 earnings (reported Mar 17, 2026)
 
-| Metric | FY25 Guidance |
-|--------|---------------|
-| Revenue | $11.15-11.30B (+5-7%) |
-| EPS | $14.95-15.15 (+2-3%) |
+| Metric | Q4 FY25 | YoY | vs Estimate |
+|--------|---------|-----|-------------|
+| Revenue | $3.64B | +1% (+6% ex-53rd week) | Beat ($3.58B est) |
+| EPS (diluted) | $5.01 | — | Beat ($4.78 est) |
+| Gross margin | 54.9% | -550bps | |
+| Operating margin | 22.3% | -660bps | |
+
+### Geographic breakdown (Q4)
+
+| Region | Growth | Notes |
+|--------|--------|-------|
+| Americas | Flat (constant FX); comps -2% | US revenue -1%, [[Canada]] +3% |
+| [[China]] Mainland | +28%, comps +26% | Standout — still accelerating |
+| Rest of World | +12%, comps +5% | |
+| International total | +17% | |
+
+### FY2026 guidance (the weak guide)
+
+| Metric | FY26 Guide | vs Consensus | vs FY25 |
+|--------|-----------|--------------|---------|
+| Revenue | $11.35-11.50B (+2-4%) | Below $11.52B | |
+| EPS | $12.10-12.30 | Below $12.58 | Down from $13.26 |
+| Q1 revenue | $2.40-2.43B (+1-3%) | Below $2.47B | |
+| Q1 EPS | $1.63-1.68 | Below $2.07 | |
+| Americas 2026 | Decline 1-3% | | |
+| China 2026 | ~+20% | | |
+| Rest of World 2026 | Mid-teens | | |
+
+### Tariff impact
+
+| Year | Gross tariff cost | Offsets | Net impact |
+|------|-------------------|---------|------------|
+| FY2025 | $275M | $62M | $213M |
+| FY2026 | $380M | $160M | $220M |
+
+### CEO transition update
+
+Calvin McDonald departed January 2026 after ~7 years. Interim co-CEOs: Meghan Frank (CFO) and Andre Maestrini (Chief Commercial Officer). [[Chip Bergh]] (former [[Levi Strauss|Levi's]] CEO) added to board. CEO search ongoing.
+
+Stock reaction: slipped ~1.3% after hours on weak guide; next-day mixed (premarket -8%, closed ~+1.3% at ~$162). Down ~51% over the past year, near 52-week low of $156.64.
+
+*Source: CNBC, Mar 17 2026*
+
+---
+
+## FY25 results & prior guidance
+
+| Metric | FY25 Actual/Guidance |
+|--------|---------------------|
+| Revenue | $10.6B (+10%) → actual in line with $11.15-11.30B guide |
+| EPS | $13.26 (FY25 actual) |
 | US growth | Low-single-digit |
 | International | +20%+ |
-| Tariff impact | -$240M profit headwind |
+| Tariff impact | $213M net headwind |
 
 ### Q3 FY25:
 - EPS $2.59 (down from $2.87 prior year)
@@ -82,12 +129,12 @@ LULU shows moderate Consumer correlation (XLY r = 0.50).
 ### International (20% of revenue) — booming
 | Market | Growth | Stores |
 |--------|--------|--------|
-| **China** | +22% (Q1 FY25) | 130+ (from 10 in 2018) |
+| China | +22% (Q1 FY25) | 130+ (from 10 in 2018) |
 | [[Europe]] | Double-digit | Expanding |
 | APAC | Strong | New markets |
 | New entries | Italy, Denmark, Belgium, Turkey, Czech [[Republic]], [[India]] (2026) |
 
-**The bull thesis:** Only 20% international today. If Lululemon reaches Nike/Adidas-level international mix (50%+), revenue doubles from here.
+The bull thesis: Only 20% international today. If Lululemon reaches Nike/Adidas-level international mix (50%+), revenue doubles from here.
 
 ---
 
@@ -99,7 +146,7 @@ LULU shows moderate Consumer correlation (XLY r = 0.50).
 | Operating margin | 24.3% | Among best in apparel |
 | DTC mix | ~90% | Controls distribution |
 
-**Why margins are high:** Premium pricing ($100+ leggings), minimal wholesale, no discounting culture, strong brand loyalty.
+Why margins are high: Premium pricing ($100+ leggings), minimal wholesale, no discounting culture, strong brand loyalty.
 
 ---
 
@@ -119,16 +166,16 @@ LULU shows moderate Consumer correlation (XLY r = 0.50).
 | Metric | Current | Historical |
 |--------|---------|-----------|
 | Forward P/E | ~14x | Was 40x+ |
-| Stock decline (2025) | **-50%** | S&P +10% |
+| Stock decline (2025) | -50% | S&P +10% |
 | From ATH (~$516) | Down ~60% | — |
 
-**De-rating:** Market no longer paying growth premium as US saturates and growth decelerates to mid-single-digit.
+De-rating: Market no longer paying growth premium as US saturates and growth decelerates to mid-single-digit.
 
 ---
 
 ## Investment case
 
-**Bull:**
+Bull:
 - International runway massive (only 20% today)
 - China $1B and growing +20%+
 - 59% gross margins, 24% operating margins
@@ -136,7 +183,7 @@ LULU shows moderate Consumer correlation (XLY r = 0.50).
 - Brand loyalty extremely high
 - [[India]] entry 2026 = next China-like opportunity
 
-**Bear:**
+Bear:
 - US stalling (-1% comps), 70% of revenue
 - Growth deceleration (10% → 5-7% → ?)
 - CEO departure adds uncertainty

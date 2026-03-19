@@ -96,10 +96,12 @@ $18B total financing package to fund the take-private. Largest junk bond and loa
 
 | Tranche | Size | Pricing | Notes |
 |---------|------|---------|-------|
-| Leveraged loans (USD + EUR) | $5.75B | 3.5-3.75pp above benchmark, 98.5 cents | Expected BB/Ba3 rating |
+| Leveraged loans (USD + EUR) | $5.75B | 3.5-3.75pp above benchmark (3.6%), 98.5 cents | Expected BB/Ba3 rating |
 | Secured high-yield bonds | Part of $9B | ~7.5% yield | Similar to loan yields |
-| Unsecured high-yield bonds | Part of $9B | ~8.5% yield | Higher risk tranche |
+| Unsecured high-yield bonds | $2B | Above 8.5% yield | Higher risk tranche |
 | Bank-held term loan | $3.25B | — | Launched late Jan 2026 |
+
+Total leverage: ~6x annual EBITDA.
 
 Lead arranger: [[JPMorgan Chase]] (12+ banks in syndicate). JPM privately asking largest asset management clients for $500M+ minimum commitments. JPM organized one-on-one investor meetings with CEO Andrew Wilson during its annual leveraged finance conference in Miami (early Mar 2026).
 
@@ -123,6 +125,8 @@ Institutional investor (declined, Mar 18): *"Anything that has AI disruption ris
 ### Market headwinds
 
 Video game stocks under pressure as new AI models unveiled, including [[Google]]'s Project Genie debut — an AI "world model" prototype that creates video game-like virtual worlds from short text prompts. Broader software debt sell-off pushing up junk borrowing costs.
+
+Comp: [[Take-Two]] EV down one-fifth since September 2025; LSEG analyst estimates of 2027 EBITDA shrank 10% over the same period. Another multibillion-dollar syndication — for software maker [[Qualtrics]] — was halted on Mar 18, underscoring how deals without a thick equity layer and political tailwinds face much tougher execution. FT Lex (Mar 18): *"A big equity layer and an association with the Trump family are useful assets in a turbulent market; those without either may have to wait."*
 
 ---
 
@@ -228,6 +232,7 @@ Bear:
 - [[Nintendo]] — gaming peer, PIF also holds stake
 - [[Neuberger Berman]] — institutional credit investor (quoted)
 - [[Google]] — AI disruption threat via [[Project Genie]]
+- [[Qualtrics]] — debt syndication halted same week; contrast in deal execution
 - [[Consumer]] — sector
 - [[UFC]] — Silver Lake sports portfolio comp
 
@@ -238,5 +243,6 @@ Bear:
 - [EA FY25 Results](https://ir.ea.com/press-releases/press-release-details/2025/Electronic-Arts-Reports-Q4-and-FY25-Results/)
 - FT, "How Jared Kushner brokered the $55bn takeover of Electronic Arts" — Sep 29, 2025
 - FT, "Banks prepare to offload $18bn in debt tied to EA take-private deal" — Mar 18, 2026
+- FT Lex, "Ingredients for a successful LBO: lots of equity, and some Trump stardust" — Mar 18, 2026
 
-*Created 2026-01-09. Updated 2026-03-18.*
+*Created 2026-01-09. Updated 2026-03-19.*

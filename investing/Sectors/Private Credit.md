@@ -184,7 +184,7 @@ Private credit was historically institutional-only. From 2020-2025, PE firms agg
 | **Software concentration** | 🟡 Elevated | 14-16% of spec-grade. AI disruption compressing valuations |
 | **Covenant erosion / LMEs** | 🟡 Trending | 33 creditor-harming restructurings in 2024, 23 in 2025 ($500M+ debt each). Cov-lite creeping into middle market |
 | **Opacity / valuation lag** | 🟡 Structural | [[BlackRock]] marked [[Renovo Home Partners]] at 100 cents; bankrupt one month later, total loss on $150M |
-| **Bank interconnection** | 🟡 Escalating | US bank exposure: **$300B** (Moody's). **JPM marking down collateral (Mar 11)** — first bank to restrict back-leverage |
+| **Bank interconnection** | 🟡 Escalating | US bank exposure: **$300B** (Moody's); [[Truist Securities]]: 10% of bank loans to NDFIs (end 2025). **JPM marking down collateral (Mar 11)** — first bank to restrict back-leverage |
 | **Insurer interconnection** | 🟡 Growing | US life insurer exposure to illiquid credit: **$2T** (Moody's). [[PE-insurance convergence]] deepening |
 | **Oil shock → capital crowding** | 🟡 Emerging | [[Jeff Currie]] ([[Carlyle]], Mar 11): oil at $120 sustained → Treasury issues ~$150B more public debt → directly crowds out private credit. Macro squeeze on top of micro stress. WTI above $100 as of Mar 9 |
 | **Ratings shopping** | 🟡 Emerging | SEC probing [[Egan-Jones]] — rated 3,000+ private credit investments with ~20 analysts. UBS Chairman Kelleher: "massive growth in small rating agencies ticking the box" |
@@ -355,6 +355,7 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 | **Quarterly** | ARCC, OBDC earnings | Credit quality indicators |
 | **TBD** | Warren legislation | Capital requirements, disclosure, stress tests |
 | **Ongoing** | Software default rates | Currently 4.55%. Deutsche Bank models 13% worst case |
+| **2028** | Mid-market refinancing wall peak | ~$220B maturing; software alone $40B (Apollo). If investors shun private credit, borrowers lose funding |
 | **Ongoing** | PIK loan growth | Software is #1 PIK sector — borrowers can't service cash interest |
 
 ---
