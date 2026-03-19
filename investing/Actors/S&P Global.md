@@ -130,7 +130,7 @@ S&P is systematically extending its index and ratings franchise into crypto and 
 
 Cameron Drinkwater, chief product and operations officer at S&P Dow Jones Indices (Mar 18, 2026): *"We believe digitally-native investors should demand the institutional-quality standards that define our indices."*
 
-S&P's standard disclaimer notes it does not sponsor these products or vouch for their suitability — the reputational calculus is carefully hedged.
+S&P's standard disclaimer notes it does not sponsor these products or vouch for their suitability. The pattern is consistent with how the Indices segment has always operated: license the benchmark to anyone willing to pay, collect high-margin fees (68% operating margin), and disclaim responsibility for what the licensee builds. The venue changes — from ETF issuers to decentralized exchanges — but the rent-extraction model doesn't.
 
 ---
 

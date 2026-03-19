@@ -87,7 +87,11 @@ During the [[2026 Iran conflict market impact|Iran conflict]] ([[Iran]] crisis, 
 
 ## Founding context
 
-[[Jeff Yan]] built Hyperliquid in direct response to the [[FTX]] collapse (November 2022). Unlike most crypto ventures of its generation, it took no venture capital funding. In an industry where easy VC money fueled the leverage and fraud that caused the 2022 blowups, the self-funded model was both philosophical and practical — no outside investors meant no misaligned incentives.
+[[Jeff Yan]] built Hyperliquid in direct response to the [[FTX]] collapse (November 2022). As a trader at [[Hudson River Trading]] — a major market maker that used FTX as a venue — Yan had a front-row seat to the implosion. What he saw was a structural failure, not just a fraud: the 2020-2021 cycle's VC-funded exchanges raised billions from [[Sequoia Capital|Sequoia]], [[SoftBank]], [[Tiger Global]], and others, creating misaligned incentives at every level. VCs pressured growth at all costs, founders juiced metrics for the next round, and nobody scrutinized the black box because the token price kept rising. [[Sam Bankman-Fried]] was commingling customer funds while his cap table read like a who's-who of institutional validation.
+
+Hyperliquid was built as the structural opposite: no outside capital, no pressure to grow recklessly, no investors to impress, no early token allocations to dump on retail. The on-chain orderbook made execution transparent rather than opaque. In post-2022 crypto culture, "no VC" became a tribal identity marker — the community viewed VC-backed projects with suspicion after watching insiders get discounted token allocations, pump narratives, and exit before collapse. Hyperliquid's zero-VC stance signals alignment with users over investors. The absence of external capital is the product differentiator.
+
+The irony is that this anti-establishment identity is now being validated by the most establishment institution imaginable: [[S&P Dow Jones Indices]] licensing its flagship benchmark for use on the platform. Built as a rejection of TradFi-funded crypto, Hyperliquid now carries TradFi's highest imprimatur.
 
 ---
 

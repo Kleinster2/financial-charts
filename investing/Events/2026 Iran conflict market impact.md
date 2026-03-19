@@ -687,6 +687,10 @@ The Jones Act waiver is particularly notable — [[Ed Morse]] said on the CFR pa
 
 The widening WTI-Brent spread reflects the market pricing a protracted conflict: Brent (global seaborne) surges on Middle East supply loss while WTI (US domestic) lags because the Jones Act waiver and domestic production partially insulate US supply.
 
+### QatarEnergy releases Zeebrugge LNG slots for April (Mar 18 evening)
+
+[[QatarEnergy]] released five [[LNG]] unloading/storage/regasification slots at [[Belgium]]'s Zeebrugge terminal for April 2026, offered on the secondary market via the EMIX platform. Zeebrugge normally receives up to three Qatari cargoes per month under long-term contracts — releasing five slots (more than the usual monthly allocation) is a contractual signal that Qatar does not expect to resume LNG exports in April. Terminal operator [[Fluxys]] confirmed the slots were made available by a long-term capacity holder. Energy Minister [[Saad al-Kaabi]] had previously told the FT that returning to normal deliveries would take "weeks to months, even if the war ended today" — but releasing terminal capacity is a harder signal than a verbal estimate. [[Europe]]'s gas restocking season starts in April; Qatar won't be there for it.
+
 *Sources: Reuters (Mar 18), Guardian (Mar 18), Axios (Mar 18), JPost (Mar 18), Bloomberg/Javier Blas (Mar 18), NASA FIRMS, QatarEnergy statement (Mar 18), CNBC (Mar 18)*
 
 ---

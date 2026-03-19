@@ -66,6 +66,18 @@ Iran's IRGC also explicitly named Qatar's Mesaieed petrochemical complex as a fu
 
 *Sources: Guardian, Reuters, Axios, QatarEnergy statement (all Mar 18, 2026)*
 
+### March 18 (evening) — Zeebrugge terminal slots released
+
+QatarEnergy released five [[LNG]] unloading/storage/regasification slots at [[Belgium]]'s Zeebrugge terminal for April 2026, offered on the secondary market via the EMIX platform. Zeebrugge normally receives up to three Qatari cargoes per month under long-term contracts — releasing five slots means QatarEnergy is offloading more capacity than its usual monthly allocation.
+
+The signal is unambiguous: Qatar does not expect to resume LNG exports in April. This aligns with Energy Minister [[Saad al-Kaabi]]'s earlier statement that returning to normal deliveries would take "weeks to months, even if the war ended today." But the Zeebrugge release goes further — it's not just a verbal timeline, it's a contractual restructuring of European terminal commitments around an extended outage.
+
+For [[Europe]]'s gas markets, this is a direct hit. Zeebrugge is a key Northwest European LNG hub; if Qatar's long-term contract volumes aren't arriving, European buyers must compete harder for spot cargoes from [[Cheniere|US LNG]], [[Australia]], and other suppliers — all of whom are already running near capacity. Europe's gas restocking season starts in April, and this confirms the worst-case scenario: Qatar won't be there for it.
+
+Terminal operator [[Fluxys]] confirmed the slots were made available by a long-term capacity holder (declining to name QatarEnergy directly). The slots cover unloading, storage, and regasification — the full import chain.
+
+*Source: Reuters, March 18, 2026 (Marwa Rashad)*
+
 ---
 
 ## Related
