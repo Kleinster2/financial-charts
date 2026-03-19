@@ -695,6 +695,45 @@ Robin Mills (Qamar Energy, The National, March 15): the US response is "becoming
 
 ---
 
+## European refusal on Hormuz naval support (March 19)
+
+*Source: Bloomberg TV, Will Kennedy (Bloomberg News Director for Energy), March 19, 2026*
+
+Trump asked European allies for naval help in the [[Strait of Hormuz]]; most rebuffed. Kennedy's reporting from London and Paris on the European position:
+
+1. Not consulted about the war starting
+2. Dubious about its strategy and endgame
+3. Dubious about what a military solution to Hormuz looks like — opening it to commercial shipping and keeping it open during active conflict would be "an enormous naval task" that "probably the US Navy, let alone smaller European navies, are not equipped for"
+4. View: this might work after the war ends, but not while the conflict is ongoing — "turn your mind to finding a way to end the conflict"
+
+European stance summarized: "we did not ask to be in this conflict and the way that you are asking us to be involved is not realistic."
+
+[[Macron]] has spoken to the Iranian president — diplomatic channels are open. Gulf states maintaining conversations with European allies ([[UAE]]-[[UK]] channel active). But Europe's leverage is limited — only the antagonists can end it.
+
+### Industrial passthrough — BASF 30% price hike (March 19)
+
+[[BASF]] announced it will raise prices on some products by 30% at its Ludwigshafen Verbund — the world's largest integrated chemical complex. This is one of the first concrete examples of energy cost passthrough from the Hormuz crisis into European industrial output.
+
+The passthrough chain: Hormuz closure → naphtha/feedstock shortage → petrochemical plant curtailment → price hikes to downstream customers. Kennedy: naphtha prices "moonshoting" — chemical plants "will slow down, if not close" as feedstock runs out.
+
+### "Happening now, just not evenly distributed" (Kennedy, March 19)
+
+Kennedy's core analytical frame: the market has been complacent, focused on flat crude ($108 Brent), but the real disruption is already unfolding in product markets:
+
+| Market | Signal |
+|--------|--------|
+| US diesel | $5/gallon — trucking and agriculture hit |
+| [[Vietnam]], [[Thailand]] | Fuel rationing underway |
+| [[Japan]] | Refineries cutting runs |
+| [[China]] | Keeping fuel domestic |
+| Naphtha | Prices parabolic — petrochemical feedstock crisis |
+
+The Israel/US strike on [[Iran]]'s gas field (domestic-use, not export-relevant) is the escalation signal: Iran reads it as "the energy system is fair game" — expect intensified attacks on refineries, oilfields, export terminals, and the Strait. [[Qatar]] called the gas field strike an "irresponsible step."
+
+Kennedy: *"Don't concentrate just on the flat price of crude. Yes, 108 is a big number, but look at jet fuel markets, fuel oil markets, diesel markets."* The consumer impact is arriving via fuel costs → price passthrough, with a lag — same dynamic as the Ukraine war, but across more channels simultaneously.
+
+---
+
 ## Watch for
 
 Second-order effects not yet tracked in the vault. Check these during each news ingestion session.
@@ -704,7 +743,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Mandatory fuel rationing (SE Asia) | Vietnam <20 days, Indonesia 21-23 — voluntary conservation → rationing if Hormuz stays closed Week 4+ | Untracked |
 | Airline route/capacity cuts | Jet fuel at $230/bbl in Singapore. Airlines cutting routes or grounding planes | Tracked — see [[Iran conflict airline disruption]] (46K flights canceled, $150-200/bbl jet fuel, KLM/Lufthansa/BA/Cathay suspensions through Apr) |
 | Fertilizer shortage → food prices | ~34% of global fertilizer transits Hormuz. Planting season in Northern Hemisphere | **Tracked** — see [[Fertilizer]] sector note. ~50% of 2-week urea exports disrupted, QAFCO shut, India/Pakistan/Bangladesh plants cut. Urea +40%. FT: "worse than 2022" |
-| Manufacturing shutdowns beyond Rayong Olefins | Petrochemical feedstock (naphtha, propane, ethylene) shortages across Asia | PT Chandra Asri force majeure (Indonesia) |
+| Manufacturing shutdowns beyond Rayong Olefins | Petrochemical feedstock (naphtha, propane, ethylene) shortages across Asia | PT Chandra Asri force majeure (Indonesia); [[BASF]] +30% price hike (Ludwigshafen) |
 | Sovereign credit actions | Rating agencies reassessing oil-import-dependent sovereigns (Pakistan, Bangladesh, Sri Lanka) | Untracked |
 | Consumer spending shifts | Gasoline crowds out discretionary — retail, restaurants, travel | India restaurant closures tracked |
 | Gig economy / labor disruption | Delivery workers, ride-hail drivers, trucking | India (~1M workers) tracked |
@@ -715,7 +754,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Asian refinery crude-grade mismatch | Refineries configured for Gulf sour crude can't easily switch to non-ME grades | Reynolds/IEEFA flagged |
 | Sovereign energy subsidy fiscal strain | Indonesia $22.6B, others scaling — impact on fiscal deficits | Indonesia tracked, others not |
 
-*Last reviewed: 2026-03-18*
+*Last reviewed: 2026-03-19*
 
 ---
 
@@ -732,6 +771,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 - [[Vietnam]], [[Thailand]], [[Philippines]], [[Pakistan]], [[Indonesia]] — emergency measures
 - [[India]] — LPG crisis, Essential Commodities Act
 - [[Helium supply crisis 2026]] — ~30% of global helium removed; semiconductor supply chain at risk; the Hormuz-to-AI transmission channel
+- [[BASF]] — 30% price hike at Ludwigshafen; first major European industrial passthrough from Hormuz energy shock
 
 ---
 
