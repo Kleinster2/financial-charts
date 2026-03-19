@@ -286,4 +286,18 @@ HDFC Bank's near-9% crash is the single largest contributor to the index decline
 
 The oil dimension is the structural worry: India's current account deficit widens ~0.4% of GDP per $10/bbl oil increase. With Brent at $113 vs the budget assumption of ~$75, the fiscal math deteriorates fast — see [[India FY2026 budget]].
 
+---
+
+## Russian crude import surge (March 2026)
+
+India had been winding down Russian crude purchases since late 2025 under US pressure, replacing with [[Saudi Arabia|Saudi]] and [[Iraq]]i barrels — which then became unavailable when the [[Strait of Hormuz]] closed (Feb 28). Purchases dropped from a peak of >2M bpd in mid-2024 to an average of 1.06M bpd in February 2026 ([[Kpler]]).
+
+The US granted India a waiver (mid-March 2026) allowing purchases of [[Russia]]n crude loaded before March 5, so long as delivery is to India and purchased by an Indian firm. Indian refiners immediately snapped up ~30M barrels — all unsold Russian spot cargoes. [[Indian Oil]] took ~10M barrels; [[Reliance Industries]] at least as much (Bloomberg, March 19).
+
+Russian crude (Urals, ESPO, Varandey grades) offered at $2–$8/bbl premium to Dated Brent — a reversal from the pre-conflict discount. At least seven tankers diverted mid-voyage from [[China]] to India ([[Vortexa]]). Named vessels include Aqua Titan (Urals, arriving New Mangalore March 21), Zouzou N. (CPC Blend, arriving Sikka March 25), Maylo, Sarah (Urals, diverted from Singapore), Oasis, Noble Walker (ESPO, diverted from China).
+
+US Ambassador Sergio Gor called India "a great partner in maintaining stable oil prices" (X, March 19). [[Japan]] and [[South Korea]] subsequently also permitted to resume Russian purchases.
+
+See [[Iran conflict economic disruption]] for the full Hormuz crisis context and [[Global oil trade flows]] for the rerouting dynamics.
+
 *Created 2026-01-10 · Updated 2026-03-19*

@@ -27,9 +27,10 @@ aliases: [Henry Hub, NatGas, TTF, Dutch TTF]
 
 | Source | [[Target]] | View |
 |--------|--------|------|
-| EIA | $4.00/MMBtu avg | +16% vs 2025 |
-| [[Bank of America]] | $4.00/MMBtu | Neutral |
-| Bernstein | $5.00/MMBtu | "Faith in five" — new equilibrium |
+| EIA | $4.00/MMBtu avg (HH) | +16% vs 2025 |
+| [[Bank of America]] | $4.00/MMBtu (HH) | Neutral |
+| Bernstein | $5.00/MMBtu (HH) | "Faith in five" — new equilibrium |
+| [[HSBC]] | $14.00/MMBtu avg (TTF) | +40% vs prior HSBC; Hormuz supply shortfall |
 
 **Bernstein thesis:** $5/mcf represents new equilibrium after decade+ at ~$3.50/mcf.
 
@@ -141,6 +142,8 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 | Feb 27, 2026 | ~€35 | Pre-Iran conflict |
 | Mar 3, 2026 | €54.29 | Qatar LNG shutdown spike |
 | Mar 6, 2026 | €53.38 | Sustained elevation |
+| Mar 9, 2026 | €61.75 (touched €69.50) | +67% weekly — biggest since 2022 |
+| Mar 19, 2026 | €63.40 (intraday peak ~€70) | +35% on day after Ras Laffan missile damage — more than double pre-war levels |
 
 ### TTF vs Henry Hub
 
@@ -152,7 +155,30 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 | Geopolitical sensitivity | Low | **Very high** |
 | Iran conflict impact | Minimal | **+55% in 10 days** |
 
+![[bloomberg-ttf-gas-surge-mar19-2026.png]]
+*Dutch TTF front-month gas (EUR/MWh), ICE. The Mar 19 spike to ~€70 came after Iranian missile strikes caused "extensive damage" to [[Ras Laffan]] — more than double pre-war levels (~€35). Source: Bloomberg/ICE.*
+
+Susan Sakmar (visiting assistant professor, [[University of Houston]] Law Center, Mar 19): *"This could be a game changer for the LNG industry, akin to the attack on Nord Stream or possibly even worse. This is a sudden disruption, with no indication that Qatar could restart anytime soon."*
+
+The disruption timing compounds the problem: Europe is emerging from winter with storage tanks depleted. Summer 2026 refill season requires heavy LNG buying — Europe must now compete with Asian buyers for fewer available cargoes. [[Goldman Sachs]] warned a monthlong halt risks driving TTF toward €74/MWh — the level that triggered demand destruction during the 2022 crisis.
+
 The US-Europe price disconnect is structural: Henry Hub is insulated from global shocks by abundant domestic shale production. TTF is exposed to every supply disruption that touches LNG shipping or pipeline flows. This is why the [[2026 Iran conflict market impact|Iran conflict]] barely moved US gas prices while European gas surged — the [[Strait of Hormuz]] closure and [[QatarEnergy]] force majeure hit Europe's import-dependent supply chain directly.
+
+### HSBC revised European gas forecast (March 19)
+
+[[HSBC]] raised its European gas price projections 40% for 2026, citing the Iran war and Hormuz closure as a sustained supply shortfall driver.
+
+| Year | HSBC forecast ($/MMBtu) | Context |
+|------|------------------------|---------|
+| 2026 | $14 avg | +40% vs prior HSBC projection |
+| 2027 | $10 avg | Elevated — supply chain still healing |
+| 2028+ | $8.50 avg | Long-term equilibrium |
+
+Key drivers: ~20% of global LNG flows through Hormuz, now effectively closed. Asian countries source ~26% of their LNG from [[Qatar]] and [[UAE]] — forced to scramble for alternative cargoes, competing with Europe. Europe entering the disruption with storage levels ~15 percentage points below the five-year average after a cold winter.
+
+US Henry Hub barely budged — stockpiles ample, US LNG export terminals already at max capacity. The insulation is structural: the world's largest gas exporter cannot physically increase supply to help, so the global shock stays concentrated in import-dependent markets.
+
+*Source: HSBC Holdings PLC report, March 19, 2026*
 
 ### China LNG vulnerability
 
@@ -173,7 +199,7 @@ Short-term response mechanisms are limited: find ways to use less gas (demand de
 
 ---
 
-*Created 2026-01-05. Updated 2026-03-07.*
+*Created 2026-01-05. Updated 2026-03-19.*
 
 ---
 

@@ -143,6 +143,18 @@ Iran tariff approach is novel — using trade policy instead of financial sancti
 
 ---
 
+## 2026 Hormuz-driven export rerouting
+
+The [[Strait of Hormuz]] closure (Feb 28, 2026) inverted Russia's sanctions predicament. With Gulf barrels offline (~16-17M bpd gap), the US granted waivers for [[India]], then [[Japan]] and [[South Korea]], to resume Russian crude purchases. India had been Russia's second-largest buyer (peaked >2M bpd mid-2024) but cut to 1.06M bpd avg in February under US pressure ([[Kpler]]).
+
+Within one week of the waiver, Indian refiners bought ~30M barrels of Russian oil. [[Indian Oil]] ~10M barrels, [[Reliance Industries]] at least 10M barrels (Bloomberg, March 19). At least seven tankers diverted mid-voyage from [[China]] to India ([[Vortexa]]). Russian crude (Urals, ESPO, Varandey) offered at $2–$8/bbl premium to Dated Brent — a premium flip from the pre-conflict discount.
+
+The return of India, Japan, and South Korea as buyers erodes China's position as Moscow's importer of last resort and narrows the sanctions discount that made the China trade viable. Washington is accepting higher Russian crude revenues as the price of keeping allied nations supplied.
+
+See [[Iran conflict economic disruption]] and [[Global oil trade flows]] for full context.
+
+---
+
 ## Investment implications
 
 | Scenario | Impact |

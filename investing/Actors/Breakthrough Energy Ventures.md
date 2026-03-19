@@ -47,7 +47,7 @@ Only backs "hard tech" — not software or incremental improvements.
 | [[Form Energy]] | Iron-air batteries | [[Grid storage]] |
 | Impossible Foods | Alt protein | [[Consumer]] products |
 | Lilium | eVTOL | Public (LILM) |
-| Fervo Energy | Geothermal | [[Google]] partnership |
+| [[Fervo Energy]] | Geothermal | [[Google]] partnership |
 | Boston Metal | Green steel | Industrial |
 
 ---
@@ -99,7 +99,7 @@ Several BEV portfolio companies relevant to AI power needs:
 |---------|--------------|
 | [[Commonwealth Fusion Systems]] | Fusion for data centers |
 | [[TerraPower]] | Nuclear for hyperscalers |
-| Fervo Energy | Geothermal for [[Google]] |
+| [[Fervo Energy]] | Geothermal for [[Google]] |
 | [[Form Energy]] | [[Grid storage]] |
 
 BEV positioned at intersection of climate tech and AI infrastructure buildout.

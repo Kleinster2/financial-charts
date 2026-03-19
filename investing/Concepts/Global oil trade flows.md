@@ -119,6 +119,10 @@ Sanctions have reshaped global crude flows more than any event since the 1973 em
 - [[Venezuela]]: US licensed [[Chevron]] to resume limited exports (2022-23); post-Maduro capture (Jan 2026) opens path to rebuild. [[Gulf Coast refiners]] positioned for heavy sour
 - Net effect: Asia (especially China/India) absorbs discounted sanctioned crude; Europe pays premiums for alternative supply; freight rates elevated as ton-miles increase from longer routes
 
+### 2026 Hormuz-driven diversions: China → India
+
+The [[Strait of Hormuz]] closure (Feb 28, 2026) triggered a second sanctions rerouting. The US gave [[India]] a temporary green light to increase [[Russia]]n crude purchases to backfill lost Gulf supply. At least seven tankers switched mid-voyage from [[China]] to [[India]] ([[Vortexa]], March 19). Indian refiners bought ~30M barrels of Russian oil in one week. [[Japan]] and [[South Korea]] also permitted to resume. China, which had been Moscow's importer of last resort, now faces competition for Russian barrels — narrowing the discount that made the China trade work. See [[Iran conflict economic disruption]] for full crisis context.
+
 ---
 
 ## Tanker economics

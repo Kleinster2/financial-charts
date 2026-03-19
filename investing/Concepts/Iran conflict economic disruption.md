@@ -62,6 +62,34 @@ If sustained:
 
 [[Helima Croft]] ([[RBC Capital]], Mar 2): *"This absolutely dwarfs what we saw in the Russia-Ukraine crisis."* Framed the closure as an insurance event, not a military one — Iran's drone strikes near the Strait caused insurers to refuse transit, achieving de facto closure without a physical blockade. JPMorgan estimated $350B needed to backstop shipping insurance vs the $20B [[DFC]] facility offered (Croft, NPR, Mar 7).
 
+### Hormuz operational status — Week 3 (March 19)
+
+*Source: Bloomberg, Julian Lee & Alex Longley, March 19, 2026*
+
+![[hormuz-traffic-plunge-kpler-bloomberg.png]]
+*Hormuz vessel transits collapsed from ~50/day to near zero by early March. Iran dominates the remaining crude exports — "Others" (Saudi, Iraq, UAE) down >95%. Daily count of visible commercial ships based on AIS signals. Source: [[Kpler]], vessel tracking data compiled by Bloomberg.*
+
+![[hormuz-crude-destinations-2025-bloomberg.png]]
+*Hormuz crude oil and condensate destination breakdown (2025): [[China]] ~35%, [[India]] ~10%, [[Japan]] ~10%, [[South Korea]] ~10%, Other Asia ~10%, [[Europe]] ~15%, US ~5%. Source: vessel tracking data compiled by Bloomberg.*
+
+![[hormuz-bypass-pipelines-map-bloomberg.png]]
+*Hormuz bypass alternatives: Saudi East-West Pipeline to [[Yanbu]] (only meaningful bypass) and UAE Habshan-[[Fujairah]] Pipeline (functionally compromised by attacks). Source: CIA, US Department of Energy / Bloomberg.*
+
+By Week 3, the strait remains at a "near-standstill" — effectively closed to all but Iran-approved vessels. Key developments:
+
+| Development | Detail |
+|-------------|--------|
+| GPS jamming | 1,000+ ships in Persian Gulf affected by signal jamming ([[Windward]]). Dual-purpose: disrupts shipping navigation AND impedes drones/missiles finding targets |
+| Selective passage | Some vessels transiting by "hugging the Iranian coast" — Tehran allowing certain crossings on its terms. Indian LPG vessel *Nanda Devi* arrived at Vadinar Port (Gujarat, [[India]]) on Mar 17 after being allowed through |
+| Iran's own exports | Only "slightly" down from pre-war levels ([[Kpler]], mid-March). All other Gulf exporters ([[Saudi Arabia]], [[Iraq]], [[UAE]]) down >95% |
+| Sea mine threat | UK Defense Secretary [[John Healey]]: Iran "may have started" to lay sea mines. [[Trump II|Trump]] warned against this course of action |
+| US countermeasures | Claims 30+ Iranian mine-laying vessels destroyed or damaged; bunker-busting bombs dropped on Iranian missile sites near the waterway |
+| Backlog | Even if naval escorts provided and traffic resumes, "could still take weeks to clear the backlog on either side of the strait" |
+
+Naval escort assessment remains grim. [[Bob McNally]] ([[Rapidan Energy Group]]): *"Until we've neutralized Iran's layered, asymmetric capabilities — mines, fast attack craft, submarines and drones — we won't want to put commercial or even escort ships through."* Military analysts largely agree escorts would be risky without a ceasefire — the 2-mile-wide shipping lanes leave convoys vulnerable to attack and limit escort capacity. Energy Secretary [[Chris Wright]] said the Navy couldn't be ready until end of March; even then, unclear whether escorts would cover all vessels, just US-tied ones, or only US-flagged ships.
+
+[[Iraq]] is resuming flows through the Kurdish pipeline to Turkey's Mediterranean port of [[Ceyhan]], but this route can't carry all Iraqi exports. [[Kuwait]], [[Qatar]], and [[Bahrain]] have no alternative sea route.
+
 ---
 
 ## Beyond oil — LNG and petrochemicals
@@ -111,7 +139,7 @@ UK gas prices surged 50% in a single day on Mar 2 — the biggest one-day move s
 
 ### No good alternatives
 
-- East-West Pipeline (Saudi): can reroute some crude to Red Sea, but limited spare capacity
+- East-West Pipeline (Saudi): can reroute some crude to Red Sea, but limited spare capacity (see Mar 19 update — Saudi exceeded this estimate, hitting 4.19 mb/d avg via [[Yanbu]])
 - Bab el-Mandeb Strait: Houthi attacks already disrupting Red Sea shipping
 - Cape of Good Hope: works for Red Sea bypass but adds weeks; no alternative exists for Hormuz-dependent flows
 
@@ -230,6 +258,29 @@ Two new developments in the last 48 hours:
 - [[Russia]] squeezing [[Europe]] harder on gas — with [[Qatar]] offline, Europe's LNG alternatives are limited. US exporters ([[Cheniere]], [[Venture Global]]) are near capacity. Russia's leverage increases
 
 *Note: Russia also reportedly providing targeting intelligence to Iran — see geopolitics vault for the military dimension.*
+
+### Mid-voyage tanker diversions: China → India (March 2026)
+
+The US concession on Russian crude to [[India]] triggered immediate physical rerouting. Indian refiners bought ~30M barrels of Russian oil in the week following the US green light (Bloomberg, March 19). [[Indian Oil]] purchased ~10M barrels; [[Reliance Industries]] at least as much. All unsold Russian spot cargoes were snapped up. At least seven tankers switched destinations mid-voyage from [[China]] to [[India]] ([[Vortexa]]).
+
+The US waiver covers transactions related to Russian crude and petroleum products loaded onto vessels before March 5, so long as it is delivered to India and purchased by an Indian firm. US Ambassador to India Sergio Gor called India "a great partner in maintaining stable oil prices around the world" (post on X, March 19).
+
+Russian crude — Urals, ESPO, and Varandey grades — was offered at premiums of $2–$8/bbl to London's Dated Brent benchmark. Before the Hormuz closure, Russian oil traded at discounts to the same marker. The premium flip is the clearest price signal that the sanctions discount regime is breaking down.
+
+| Vessel | Class | Cargo | Origin | Original dest. | New dest. | ETA |
+|--------|-------|-------|--------|---------------|-----------|-----|
+| Aqua Titan | Aframax | Urals | Baltic Sea (loaded late Jan) | Rizhao, China | New Mangalore, India | March 21 |
+| Zouzou N. | Suezmax | CPC Blend (Kazakh) | Novorossiysk (Black Sea) | Rizhao, China | Sikka, India | March 25 |
+| Maylo | — | Urals | Russia western ports | Singapore | India | — |
+| Sarah | — | Urals | Russia western ports | Singapore | India | — |
+| Oasis | — | ESPO | Russia Far East | China | India | — |
+| Noble Walker | — | ESPO | Russia Far East | China | India | — |
+
+India had been winding down Russian purchases since late 2025 under US pressure, replacing with Saudi and Iraqi barrels — only to lose that supply when Hormuz closed. Purchases peaked at >2M bpd in mid-2024, then dropped to an average of 1.06M bpd in February 2026 ([[Kpler]]). The waiver reverses that trajectory.
+
+The US subsequently expanded the concession beyond India — [[Japan]] and [[South Korea]] are also now allowed to resume Russian crude purchases. This paves the way for further diversions from China, which had served as Moscow's importer of last resort. The return of multiple buyers is likely to push Russian crude prices higher, further eroding the discount that made China the default destination.
+
+The dynamic is a direct consequence of the Hormuz closure: lost Gulf barrels (~16-17M bpd gap) must be backfilled. Russia is the only sanctioned producer with spare export capacity that doesn't transit Hormuz. Washington is accepting higher Russian crude revenues as the price of keeping allies supplied.
 
 ### US mitigation tools — limited
 
@@ -695,6 +746,82 @@ Robin Mills (Qamar Energy, The National, March 15): the US response is "becoming
 
 ---
 
+## Consumer and industrial ripple — global survey (Bloomberg, March 15)
+
+*Source: Bloomberg, Alisha Sachdev, Nicholas Lua, Will Kubzansky, March 15, 2026*
+
+![[bloomberg-oil-spending-household-share-2026.png]]
+*Oil spending for road fuel and residential buildings as share of household consumption — $65/bbl vs $100/bbl. [[Indonesia]] most exposed (~4% at $65, ~6% at $100), followed by [[Vietnam]] and [[India]]. Developed economies ([[UK]], [[France]], US) under 2%. Source: Bloomberg Economics / BloombergNEF (2024 data), World Bank/OECD.*
+
+![[bloomberg-gulf-oil-exports-treemap-vortexa-2025.png]]
+*Persian Gulf oil product exports by destination (2025, >1B barrels to Asia alone). [[India]] and [[China]] together import most of the LPG. [[Naphtha]] (plastics feedstock) concentrated in [[South Korea]], [[Japan]], [[Singapore]]. Source: Bloomberg / [[Vortexa]].*
+
+![[bloomberg-india-oil-supply-flow-iea-2023.png]]
+*[[India]]: crude oil imports 10.9M TJ, oil product imports 2M TJ. Heavily dependent on Persian Gulf — acute LPG shortage + short on crude for its export refinery complex ([[Reliance Industries|Jamnagar]]). Source: [[IEA]] (2023 data).*
+
+![[bloomberg-brazil-oil-supply-flow-iea-2023.png]]
+*[[Brazil]]: an oil producer but still imports diesel and gasoline. Most goods move by road — higher fuel prices rapidly feed through to consumers. Source: [[IEA]] (2023 data).*
+
+![[bloomberg-france-oil-supply-flow-iea-2023.png]]
+*[[France]]: fewer refineries than it once had, reliant on overseas suppliers. Middle East is a crucial source of aviation fuel. Source: [[IEA]] (2023 data).*
+
+The [[IEA]] called the conflict *"the largest supply disruption in the history of the global oil market."* Despite the 400M barrel emergency reserve release, Brent remained above $100 at week's end.
+
+### Oxford Economics recession scenarios (March 13)
+
+| Scenario | Oil price | Duration | Growth impact | Inflation |
+|----------|-----------|----------|---------------|-----------|
+| Base case | ~$100/bbl | 2 months | Growth tarnished, no global recession | Stagflation risk — complicates central bank rate path |
+| Adverse | $140/bbl | 2 months | Parts of world pushed into recession, tighter financial conditions | "Enough disruption" — second-round effects push up costs across the board |
+
+The energy surge comes just as the world was pulling clear of years of crisis-fighting (Covid, Russia-Ukraine, worst inflation in 40 years, US tariff hikes). Government fiscal room is constrained: global borrowing hit a record $348T in 2025 ([[Institute of International Finance]]).
+
+### India LPG black market (Week 3)
+
+Commercial LPG cylinders selling at 2-3x normal price (~₹1,900/$20) on the black market in New Delhi. [[India]] takes 90% of its LPG imports from the Middle East — US alternatives take 40+ days to arrive and cost more. 80% of the country's restaurants use LPG ([[National Restaurant Association of India]]). Most only have storage for a few days of cylinders.
+
+Sree Annapoorna (15 banquet halls, Coimbatore, Tamil Nadu) — CEO Jegan Damodarasamy spent the week calling families to warn menus would be cut. March 15 is an auspicious Hindu wedding date; venues booked months in advance. Damodarasamy: *"There have been some very angry clients. They say, 'you committed, you could have planned'. But LPG is not in our control."* Chain serves tens of thousands daily; chefs without enough work, falling sales, dosa off the menu. *"We've been in business for about 58 years. This is the first time we've done that."*
+
+LPG-laden trucks becoming targets for thieves. Heated arguments at energy dealerships spilling into scuffles. India has secured at least two cargoes through Hormuz since the acute shortages began — a fraction of consumption.
+
+Smugglers racing to exploit price differentials — [[Bangladesh]] considering rationing as LPG flows illicitly across borders.
+
+### US gasoline and diesel
+
+Average retail gasoline up >$0.70/gal since war started — highest in 2+ years. Diesel up $1.21/gal. Trucking companies exposed to historic wholesale volatility. Kate Childs (Tuxis-Ohr's Fuel, Connecticut): *"These swings are crazy. It's hard to know what's really going on."*
+
+### EU aviation fuel
+
+~50% of EU aviation fuel imports transit the [[Strait of Hormuz]]. Jet fuel spiked to record >$1,640/mt ($208/bbl) on March 13. Higher airfares already here. See [[Iran conflict airline disruption]].
+
+### Aluminium Bahrain smelter shutdown (March 16)
+
+[[Aluminum|Aluminium]] Bahrain BSC (Alba) announced phased production shutdown at the world's largest single-site smelter on Sunday. Deepens disruption to the aluminum industry alongside the naphtha/petrochemical shutdowns — aluminum prices soaring.
+
+### Brazil — fuel tax cuts and election pressure
+
+[[Brazil]] cut federal taxes on fuel imports and sales. The country imports 30% of its diesel and 13% of its gasoline; most goods move by road, so higher crude costs rapidly feed through to transport and food prices. President [[Lula]] faces elections in October 2026. Even as a major oil producer, [[Brazil]] is not insulated from global price shocks — the refinery configuration and product import dependency create a direct transmission channel.
+
+### Africa — refining gap exposure
+
+Africa contains half of [[OPEC]] members but lacks sufficient refining capacity to process oil domestically as demand grows. East and southern Africa import ~75% of fuel from Middle Eastern suppliers. [[Kenya]] monitoring deliveries. The refining gap means even oil-producing African nations face product shortages when seaborne trade is disrupted.
+
+### China — factory-level naphtha impact
+
+Chemical fibers (polyester, acrylic) rose >10% in just over a week. Toy manufacturer Lin Qian (factories in [[Vietnam]] and Shenzhen): plastic parts costs jumped as much as 50% in the first week of the war. Some suppliers refusing to provide cost estimates until orders are placed — citing volatile markets and a supply rush creating "traffic jams at factory gates." Current raw material inventories support ~2 weeks of existing orders. *"This is absolutely crazy. Plastic materials are food to feed our factories."*
+
+### Indonesia — Eid al-Fitr timing
+
+Disruption coincides with annual Lebaran festival marking end of Ramadan — >100M people expected to travel home in the largest temporary migration outside China's lunar new year. Guaranteed fuel demand spike. Trinh Nguyen ([[Natixis]]): fuel subsidies shield consumers but artificially support demand. *"When you are a rich country, you have more money to throw at the problem. When you are in a poorer position, it's not going to be as easy."*
+
+### Investment read
+
+Haris Khurshid (CIO, Karobaar Capital, Chicago): *"Higher fuel prices tend to ripple through the whole economy. It costs more to move goods, run factories and fly planes, and that usually shows up as higher prices for everyday items."* Politically, *"energy prices are very visible to voters — sustained spikes at the pump tend to become a domestic issue fairly quickly."*
+
+The household spending chart quantifies the vulnerability dispersion: [[Indonesia]] at ~6% of household consumption (at $100 oil) vs [[UK]]/US at ~1.5%. The countries most exposed are the ones with the thinnest fiscal buffers to subsidize — the poor-country trap Nguyen identifies.
+
+---
+
 ## European electricity price divergence (March 19)
 
 *Source: FT, "Spain is a role model in weathering Iranian oil shocks," March 19, 2026*
@@ -775,6 +902,10 @@ Both sides ratcheted up strikes on energy facilities, marking the first direct a
 | Shah oil field ([[UAE]]) | [[Iran]] | Drone strike sparked fire at Abu Dhabi field |
 | Iranian gas pipeline to [[Iraq]] | Consequence | Gas flows halted; Iraqi Ministry of Electricity confirmed 3,100 MW forced offline — immediate power generation impact |
 
+### Trump retaliation threat
+
+[[Trump II|President Trump]] said in a social media post (Mar 19) the US will retaliate if [[Qatar]]'s LNG facilities are attacked again — the first explicit US security guarantee for Gulf energy infrastructure since the conflict began. Abu Dhabi's Habshan gas facilities were also shut after being hit by falling debris from an intercepted strike.
+
 ### Escalation significance
 
 This is a qualitative shift. Pre-March 18, Iran had attacked Gulf shipping, ports ([[Jebel Ali]], [[Fujairah]]), and military targets. The Ras Laffan and UAE energy facility strikes target the production and processing infrastructure itself — harder to repair, longer recovery timeline, and directly threatens the economic model of [[Qatar]] and [[UAE]].
@@ -819,6 +950,73 @@ Asia LNG exposure from Middle East ([[Invesco]] data):
 
 ---
 
+## US polyethylene/ethylene boom — Hormuz beneficiary trade (March 19)
+
+*Source: Bloomberg, Christopher Charleston, March 19, 2026*
+
+![[bloomberg-ethylene-price-surge-mar2026.png]]
+*US Gulf Coast spot ethylene prices surging on Iran disruptions. Source: PolymerUpdate / Bloomberg.*
+
+US producers of [[Polyethylene|polyethylene]] are loading up on [[Ethylene|ethylene]] feedstock as global supply tightens — a direct beneficiary of the Hormuz disruption. The dynamic is the inverse of the Asian/European crisis: Middle East petrochemical exports are blocked, Asian producers face outages and feedstock shortages, and North American producers are ramping to fill the gap.
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| US Gulf Coast spot ethylene (Mar 19) | 30.25 cents/lb | [[Enterprise Products]] Mont Belvieu hub |
+| Prior level (Monday, Mar 17) | ~27 cents/lb | Already a 1-year high |
+| Current vs. historical | Highest since Feb 2025 | Bloomberg |
+| North American PE producer operating rates | Climbing toward ~100% (from ~90%) | Harrison Jacoby, [[ICIS]] |
+| US ethane cracker utilization | Low 90% range (from ~85% pre-conflict) | Bloomberg |
+| March contract price increase push | ~+10 cents/lb | [[ICIS]] |
+| North American share of global net PE exports | >40% | [[ICIS]] data |
+
+Harrison Jacoby (Director, PE Americas, [[ICIS]]): US polyethylene producers *"may set production records in March as export demand ramps up."*
+
+North American producers — including [[LyondellBasell]] and [[Dow]] — are the primary beneficiaries. The transmission: Hormuz closure → Middle East petrochemical exports blocked → Asian plants hit by outages and feedstock shortages → global PE availability tightens → US export demand surges → ethylene spot prices spike → crackers ramp to maximum utilization.
+
+This is the flip side of the [[BASF]] and Asian plant closure story. While European and Asian petrochemical producers face feedstock crisis (naphtha parabolic, plants shutting), US producers are advantaged by cheap domestic ethane (from shale gas), functioning export infrastructure, and surging global demand. The ~+12% ethylene price jump in two days (27→30.25 cents) signals the margin expansion is accelerating.
+
+Investment read: [[Enterprise Products]] (EPD) as the infrastructure play — owns the Mont Belvieu hub where ethylene is priced and traded. [[LyondellBasell]] (LYB) and [[Dow]] (DOW) as the producer plays. If the Hormuz disruption persists into April, the operating rate ceiling (~100%) becomes the constraint, and spot ethylene could overshoot further.
+
+---
+
+## Saudi Yanbu ramp-up — pipeline bypass exceeding estimates (March 19)
+
+*Source: Bloomberg, Julian Lee & Jack Wittels, March 19, 2026*
+
+![[bloomberg-yanbu-crude-exports-mar2026.png]]
+*Yanbu crude exports surging — 5-day rolling average hit 4.19 mb/d by Mar 17, up from ~1.4 mb/d pre-war. Jan-Feb are daily averages; March data is rolling 5-day average on selected dates. Source: vessel tracking data compiled by Bloomberg.*
+
+![[bloomberg-yanbu-tanker-buildup-mar2026.png]]
+*At least 32 VLCCs and Suezmax vessels waiting off [[Yanbu]] to load crude (Mar 19). Source: Bloomberg / IHS Markit.*
+
+[[Saudi Arabia]] has restored more than half its pre-war oil exports through the [[Yanbu]] bypass — a significant early success for the kingdom's contingency plan to reroute crude via the 1,200 km East-West Pipeline (Petroline) to its Red Sea coast.
+
+| Metric | Value |
+|--------|-------|
+| Yanbu 5-day avg exports (Mar 17) | ~4.19 mb/d |
+| Yanbu pre-war exports | ~1.4 mb/d |
+| Ramp-up factor | ~3x |
+| Peak single-day loading | 4.65 mb/d (achieved on 3 occasions in March) |
+| Total Saudi pre-war exports | ~7 mb/d |
+| Restored via Yanbu | >50% of pre-war total |
+| Tankers waiting off Yanbu | 32+ (VLCCs and Suezmaxes) |
+
+### Exceeding the bottleneck estimate
+
+The [[Middle East Institute|MEI]] briefing (Mar 8) estimated [[Yanbu]] port could only load ~3 mb/d — calling port infrastructure, not pipe capacity, the bottleneck. Two weeks later, Bloomberg tracking data shows 4.19 mb/d sustained and 4.65 mb/d peak. [[Saudi Aramco]] either had more loading capacity than analysts believed or has added temporary infrastructure (floating storage, ship-to-ship transfers, or expanded berth utilization).
+
+The 32+ tanker armada converging on the Red Sea coast is itself a logistical feat — [[Saudi Aramco]] has been offering long-term customers the option of receiving supply from Yanbu and the tanker buildup suggests strong take-up.
+
+### UAE comparison — Fujairah functionally compromised
+
+The [[UAE]]'s Habshan-Fujairah pipeline is the only other bypass, but its flows have been repeatedly disrupted as [[Fujairah]] port was forced to stop loading on several occasions due to drone attacks. Saudi Arabia's Red Sea coast, further from Iranian strike range, gives Yanbu a relative security advantage.
+
+### What it means
+
+The Yanbu ramp is the single most positive supply development since the war started. At ~4.2 mb/d, it partially offsets the ~15 mb/d Hormuz disruption — not enough to balance the market (the ~11 mb/d gap remains enormous), but enough to keep Saudi Arabia solvent and its customers at least partially supplied. The question is whether 4.65 mb/d is the ceiling or whether further infrastructure improvisation can push it higher.
+
+---
+
 ## Watch for
 
 Second-order effects not yet tracked in the vault. Check these during each news ingestion session.
@@ -828,7 +1026,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Mandatory fuel rationing (SE Asia) | Vietnam <20 days, Indonesia 21-23 — voluntary conservation → rationing if Hormuz stays closed Week 4+ | Untracked |
 | Airline route/capacity cuts | Jet fuel at $230/bbl in Singapore. Airlines cutting routes or grounding planes | Tracked — see [[Iran conflict airline disruption]] (46K flights canceled, $150-200/bbl jet fuel, KLM/Lufthansa/BA/Cathay suspensions through Apr) |
 | Fertilizer shortage → food prices | ~34% of global fertilizer transits Hormuz. Planting season in Northern Hemisphere | Tracked — see [[Fertilizer]] sector note. ~50% of 2-week urea exports disrupted, QAFCO shut, India/Pakistan/Bangladesh plants cut. Urea +40%. FT: "worse than 2022" |
-| Manufacturing shutdowns beyond Rayong Olefins | Petrochemical feedstock (naphtha, propane, ethylene) shortages across Asia | PT Chandra Asri force majeure (Indonesia); [[BASF]] +30% price hike (Ludwigshafen) |
+| Manufacturing shutdowns beyond Rayong Olefins | Petrochemical feedstock (naphtha, propane, ethylene) shortages across Asia | PT Chandra Asri force majeure (Indonesia); [[BASF]] +30% price hike (Ludwigshafen); European chemical plant closures sixfold since 2022 (Roland Berger/Cefic, Bloomberg Mar 19). US is the inverse: PE producers ramping to ~100% operating rates, ethylene 30.25c/lb (highest since Feb 2025), [[Enterprise Products]]/[[LyondellBasell]]/[[Dow]] beneficiaries |
 | Sovereign credit actions | Rating agencies reassessing oil-import-dependent sovereigns (Pakistan, Bangladesh, Sri Lanka) | Untracked |
 | Consumer spending shifts | Gasoline crowds out discretionary — retail, restaurants, travel | India restaurant closures tracked |
 | Gig economy / labor disruption | Delivery workers, ride-hail drivers, trucking | India (~1M workers) tracked |
@@ -838,6 +1036,9 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Insurance market pricing | War-risk premiums making Gulf shipping permanently uneconomic | Mentioned, not quantified; see [[Nitrogen Trap]] for full insurance fracture architecture |
 | Asian refinery crude-grade mismatch | Refineries configured for Gulf sour crude can't easily switch to non-ME grades | Reynolds/IEEFA flagged |
 | Sovereign energy subsidy fiscal strain | Indonesia $22.6B, others scaling — impact on fiscal deficits | Indonesia tracked, others not |
+| European reindustrialization derailed | LNG/naphtha cost surge may reverse EU industrial recovery narrative | Flagged: [[Omnis Investments]] CIO — LNG "more negative implications for European reindustrialization." [[BASF]] +30% price hike. Chemical closures sixfold. Not yet dedicated section |
+| Fed stagflation bind | Oil shock persists → dual mandate stuck (inflation vs unemployment) | Flagged: [[Ed Yardeni]] (Mar 9) 35% meltdown odds; [[Federal Reserve]] held Mar 19, "several" members suggested hikes. Not dedicated section |
+| Paper-physical convergence event | Atlantic basin inventories drawn down → Brent/WTI forced repricing to $150+ | Flagged: [[Natasha Kaneva]] (Mar 18) warned convergence "unlikely" to be avoided if Strait stays closed. [[Jeff Currie]]: "haven't started rebalancing." No timeline section |
 
 *Last reviewed: 2026-03-19*
 
@@ -857,6 +1058,11 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 - [[India]] — LPG crisis, Essential Commodities Act
 - [[Helium supply crisis 2026]] — ~30% of global helium removed; semiconductor supply chain at risk; the Hormuz-to-AI transmission channel
 - [[BASF]] — 30% price hike at Ludwigshafen; first major European industrial passthrough from Hormuz energy shock
+- [[Enterprise Products]] — Mont Belvieu ethylene hub; infrastructure beneficiary of US petrochemical export surge
+- [[LyondellBasell]], [[Dow]] — North American PE producers ramping to record operating rates on Hormuz-driven export demand
+- [[Vortexa]] — cargo tracking firm documenting mid-voyage tanker diversions
+- [[Indian Oil]], [[Reliance Industries]] — Indian refiners absorbing ~30M barrels of Russian crude post-waiver
+- [[Global oil trade flows]] — structural rerouting context
 
 ---
 

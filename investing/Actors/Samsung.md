@@ -235,6 +235,10 @@ Samsung foundry entering a significant recovery phase:
 
 Galaxy S26 Unpacked (Feb 25, 2026): S26 Ultra with Snapdragon 8 Elite Gen 5, privacy display. New Bixby AI assistant with [[Perplexity]] integration. Galaxy S26 Edge cancelled, S26 Plus revived.
 
+Galaxy Z TriFold discontinued (Mar 19, 2026): $2,899 tri-fold device wound down after ~3 months on market. Debuted South Korea Dec 12 (₩3.59M), US in January. Two hinges, unfolds to 10-inch tablet. Never sold through carriers or retailers — Samsung direct only. COO Won-Joon Choi: no decision on sequel, citing manufacturing complexity, but widescreen benefits could migrate to cheaper foldables. Always a technology showcase, not a volume product.
+
+*Source: Bloomberg, Mar 19 2026*
+
 ---
 
 ## HBM supply locks

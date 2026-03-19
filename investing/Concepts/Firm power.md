@@ -31,12 +31,12 @@ The AI buildout has elevated firm power from an engineering detail to an **inves
 |--------|----------------|-------------|----------|-------------|
 | [[Nuclear power for AI\|Nuclear]] (existing fleet) | ~93% | Limited (plant restarts) | 1-3 years | [[Constellation Energy]], [[Talen Energy]] |
 | [[Nuclear power for AI\|Nuclear]] (SMR) | ~93% (projected) | High (modular) | 2028-2032 | [[TerraPower]], [[Kairos Power]], NuScale, [[Oklo]] |
-| Geothermal | ~90% | Geography-limited | 2-5 years | Fervo Energy, Sage Geosystems |
+| Geothermal | ~90% | Geography-limited | 2-5 years | [[Fervo Energy]], Sage Geosystems |
 | Large hydro (reservoir) | ~40-60% | Geography-limited | Existing only | Regional utilities |
 
 **Nuclear is the consensus winner** — highest capacity factor, zero-carbon, scalable (eventually). Every major hyperscaler has signed nuclear deals. See [[Nuclear power for AI]].
 
-**Geothermal is the sleeper** — 24/7 firm availability like nuclear, but faster to deploy and no waste/proliferation concerns. Fervo Energy's enhanced geothermal (EGS) uses fracking techniques to unlock sites beyond traditional volcanic areas. [[Google]] signed a 115 MW Fervo PPA (2026 delivery).
+Geothermal is the sleeper — 24/7 firm availability like nuclear, but faster to deploy and no waste/proliferation concerns. [[Fervo Energy]]'s enhanced geothermal (EGS) uses fracking techniques to unlock sites beyond traditional volcanic areas. [[Google]] signed a 115 MW Fervo PPA (2026 delivery).
 
 ### Tier 2 — Low-carbon firm (bridge)
 
@@ -110,7 +110,7 @@ Not all "firm" power is equally firm. A useful framework:
 | Thesis | Expression | Risk |
 |--------|-----------|------|
 | Long nuclear utilities | [[Constellation Energy]], [[Vistra]] | Regulatory/restart delays |
-| Long geothermal | Fervo Energy (private), Ormat Technologies | Technology/scale risk |
+| Long geothermal | [[Fervo Energy]] (private), [[Ormat Technologies]] | Technology/scale risk |
 | Long gas bridge | [[GE Vernova]], [[Siemens Energy]] | Carbon commitments conflict |
 | Long storage | [[Tesla]] Megapack, Form Energy (iron-air) | Duration/cost not yet proven |
 | Short intermittent-only claims | Companies with only wind/solar PPAs | Market may not penalize yet |
@@ -148,5 +148,5 @@ Not all "firm" power is equally firm. A useful framework:
 - [[Equinix Brasil]] — Brazil firm power case study (hydro + wind PPA)
 - [[Constellation Energy]] — largest US nuclear fleet (firm power leader)
 - [[Google]] — 24/7 CFE hourly matching pioneer
-- [[Geothermal]] — zero-carbon firm power (Fervo Energy)
+- [[Fervo Energy]] — EGS pioneer, enhanced geothermal for data centers
 - [[Latin America AI competitiveness]] — regional firm power dynamics

@@ -1,6 +1,6 @@
 #actor #fintech #private
 
-**Kalshi** — First federally regulated [[prediction markets|prediction market]] in the US. CFTC-licensed Designated Contract Market (DCM) since 2020. Founded by [[Tarek Mansour]] and [[Luana Lopes Lara]]. $11B valuation (Jan 2026).
+**Kalshi** — First federally regulated [[prediction markets|prediction market]] in the US. CFTC-licensed Designated Contract Market (DCM) since 2020. Founded by [[Tarek Mansour]] and [[Luana Lopes Lara]]. $22B valuation (Mar 2026, [[Coatue Management]]-led Series F). ~$1.5B annualized revenue.
 
 ---
 
@@ -8,8 +8,10 @@
 
 | Metric | Value |
 |--------|-------|
-| **Valuation** | $11B (Jan 2026) |
-| **Total raised** | $1.59B |
+| **Valuation** | $22B (Mar 2026) |
+| **Total raised** | ~$2.6B |
+| **Ann. revenue** | ~$1.5B run rate (Mar 2026) |
+| **Open interest** | $400M+ (Mar 2026) |
 | **Founded** | 2018 |
 | **HQ** | New York |
 | **Regulatory status** | CFTC DCM |
@@ -55,8 +57,10 @@ Lopes Lara: former professional ballet dancer (Bolshoi-affiliated academy in Bra
 | Series C | 2023 | $185M | $2B | — |
 | Series D | Oct 2025 | $300M | $5B | — |
 | Series E | Dec 2025 | $1B | $11B | Paradigm |
+| Series E (add-on) | Feb 2026 | Undisclosed | $11B | [[Tradeweb]] |
+| Series F | Mar 2026 | $1B+ | $22B | [[Coatue Management]] |
 
-**Key investors:** [[Sequoia Capital]], Paradigm, [[Andreessen Horowitz]], CapitalG ([[Google]]), [[Charles Schwab]] (individual, large shareholder), [[Henry Kravis]]
+**Key investors:** [[Sequoia Capital]], [[Paradigm]], [[Andreessen Horowitz]], CapitalG ([[Google]]), [[Charles Schwab]] (individual, large shareholder), [[Henry Kravis]], [[Tradeweb]] (strategic, Feb 2026), [[Coatue Management]] (Series F lead, Mar 2026)
 
 ---
 
@@ -72,6 +76,7 @@ Lopes Lara: former professional ballet dancer (Bolshoi-affiliated academy in Bra
 | **Nov 2025** | Nevada federal judge reverses Kalshi's injunction — state can enforce |
 | **Jan 20, 2026** | Massachusetts preliminary injunction — first court to block sports contracts |
 | **Jan 29, 2026** | [[Michael Selig]] announces CFTC rulemaking; withdraws proposed sports ban |
+| **Mar 2026** | Arizona AG files criminal charges — "illegal gambling operation" |
 
 ---
 
@@ -85,6 +90,7 @@ Lopes Lara: former professional ballet dancer (Bolshoi-affiliated academy in Bra
 | **Nevada** | Injunction dissolved | State enforcement active |
 | **Ohio** | Citing MA ruling | "Domino effect" risk |
 | **New Jersey** | Coordinating with Ohio | — |
+| **Arizona** | Criminal charges filed (Mar 2026) | First criminal (not civil) action |
 
 **Kalshi's argument:** Event contracts are derivatives under Commodity Exchange Act; federal law preempts state gambling laws.
 
@@ -129,6 +135,28 @@ Source: FT (Mar 13, 2026)
 
 ---
 
+## Tradeweb strategic partnership (Feb 2026)
+
+[[Tradeweb]] (Nasdaq: TW) announced a minority investment in Kalshi's Series E and a strategic partnership on Feb 19, 2026. The deal aims to integrate prediction market data and analytics into Tradeweb's electronic trading platform, giving Kalshi access to 3,000+ institutional clients globally.
+
+The pitch: probabilistic, forward-looking risk signals embedded directly in institutional trading workflows — macro traders see real-time event probabilities alongside rates and credit. This is Kalshi's institutional legitimacy play — moving beyond retail/sports into the kind of data product that desks would actually pay for.
+
+Source: Tradeweb press release (Feb 19, 2026)
+
+---
+
+## Series F — $1B+ at $22B (Mar 2026)
+
+[[Coatue Management]]-led round closed at $22B valuation, doubling from $11B in three months (Bloomberg, Mar 19). Annualized revenue run rate: $1.5B. Open interest: $400M+ vs [[Polymarket]]'s $360M.
+
+The round closed despite escalating state-level legal attacks (see below) — investor appetite for prediction market exposure outweighing regulatory risk. [[Polymarket]] independently pursuing a similar ~$20B valuation (WSJ, Mar 7).
+
+Valuation trajectory: $5B (Oct 2025) → $11B (Dec 2025) → $22B (Mar 2026). 4.4x in five months.
+
+Source: Bloomberg (Tsekova/Beyoud, Mar 19, 2026)
+
+---
+
 ## The bull case
 
 1. **Selig rulemaking includes federal preemption** — states can't block
@@ -155,5 +183,7 @@ Source: FT (Mar 13, 2026)
 - [[Michael Selig]] — CFTC chairman
 - [[Sequoia Capital]] — lead investor
 - [[Crypto.com]] — competitor (CDNA)
+- [[Tradeweb]] — strategic investor + institutional distribution partner (Feb 2026)
+- [[Coatue]] — Series F lead ($22B, Mar 2026)
 - [[VoxFi]] — Brazilian prediction market startup
 - [[Brazil]] — international expansion market (Mar 2026 via XP)
