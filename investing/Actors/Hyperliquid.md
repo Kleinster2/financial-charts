@@ -81,7 +81,7 @@ S&P's standard disclaimer notes it does not sponsor the products built on its li
 
 ## Iran conflict weekend trading
 
-During the [[2026 Iran conflict market impact|Iran conflict]] ([[Iran]] crisis, Mar 2026), Hyperliquid perpetuals — particularly oil, gold, and silver contracts built by [[trade.xyz]] — served as one of the few open windows into how traders were pricing the conflict when traditional markets were closed during weekends. The oil tracking contract accumulated ~$500M in daily trading volume. This is exactly the 24/7 access value proposition that the [[S&P 500]] perpetual extends to equity index exposure.
+During the [[2026 Iran conflict market impact|Iran conflict]] ([[Iran]] crisis, Mar 2026), Hyperliquid perpetuals — particularly oil, gold, and silver contracts built by [[trade.xyz]] — served as one of the few open windows into how traders were pricing the conflict when traditional markets were closed during weekends. The oil tracking contract accumulated ~$500M in daily trading volume. This is exactly the 24/7 access value proposition that the [[S&P 500]] perpetual extends to equity index exposure. For traditional investors, the signal value may exceed the trading value — the perp functions as a real-time proxy for how the market should open, repricing within minutes of a weekend event while CME futures are still closed.
 
 ---
 
