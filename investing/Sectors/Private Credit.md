@@ -32,6 +32,8 @@ $1.8T market of non-bank lending to corporates. The fastest-growing corner of al
 | Experienced manager share | **91.7%** — near-record |
 | First-time fund managers | 14 funds, $2.4B — **record low** |
 | Private debt dry powder | **$618.1B** (June 2025) |
+| **European private debt fundraising** | **$79.4B** (2025) — **+40% YoY** (PitchBook) |
+| North America private debt fundraising | $148.2B (2025) — **-15% YoY**, share fell 71.9% → 63.3% of global total |
 | **Evergreen fund net AUM** | **$493.4B** (2025), up >20%/yr since 2022 |
 | Direct lending evergreen AUM | **$209.4B** — #1 strategy, grew 55%→66%→28% (2023-25) |
 | New evergreen fund launches (2025) | **107** (record, smashing 71 in 2023) |
@@ -396,6 +398,6 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 - [[GIC]] — sovereign wealth, private credit lender
 - [[Permira]] — PE sponsor extracting cov-lite terms
 
-*Updated 2026-03-11*
+*Updated 2026-03-18*
 
-*Sources: Bloomberg Markets (Feb/Mar 2026 issue), Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8 2026), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, FT, Fitch Ratings*
+*Sources: Bloomberg Markets (Feb/Mar 2026 issue), Bloomberg Going Private newsletter (Mar 2026), Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8 2026), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, FT, Fitch Ratings*

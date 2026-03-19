@@ -94,6 +94,8 @@ Nuttall and Bae became Co-CEOs in 2021 succession from founders.
 
 **[[Arctos]] acquisition:** Acquiring sports/entertainment PE firm for $1.4B equity/cash + up to $550M performance equity. Adds ~$15B AUM, creates "KKR Solutions" vertical.
 
+**[[UOB]] asset management bid (Mar 2026):** Competing against [[Amundi]] and [[Temasek]]'s Seviora unit to acquire [[UOB]]'s asset management arm. UOB AM has ~S$41B ($32B) AUM with presence across Brunei, Indonesia, Japan, Malaysia, Taiwan, Thailand, and Vietnam. UOB is streamlining its business. Talks ongoing, no final decision.
+
 **Dividend:** 7th consecutive annual increase post-C-corp conversion. Rising to $0.78/share (+5%).
 
 **2026 targets:** $7+ EPS, >$350M Strategic Holdings operating earnings.
@@ -194,6 +196,7 @@ Nuttall and Bae became Co-CEOs in 2021 succession from founders.
 - [[Global Atlantic]] — insurance/retirement platform (100% owned, >$200B assets)
 - [[Reinsurance sidecars]] — permanent capital model via insurance
 - [[Arctos]] — acquiring for $1.4B (sports/entertainment PE, ~$15B AUM)
+- [[UOB]] — bidding for asset management arm (~S$41B AUM), competing with [[Amundi]] and [[Temasek]]
 - [[Skydance Media]] — portfolio company
 - [[Blackstone]] — peer
 - [[Apollo]] — peer
@@ -201,4 +204,4 @@ Nuttall and Bae became Co-CEOs in 2021 succession from founders.
 
 ---
 
-*Updated 2026-02-06 — Q4 2025 earnings, Arctos acquisition*
+*Updated 2026-03-18 — UOB AM bid*

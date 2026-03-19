@@ -14,11 +14,13 @@ The structural vulnerability of global food production to concentrated fertilize
 
 ## Synthesis
 
-The Nitrogen Trap is the food-security analog of the 1973 oil embargo — except there is no Strategic Fertilizer Reserve, no doctrine, and no institutional preparedness. The world built petroleum reserves because the 1970s oil shocks made the vulnerability politically obvious. No equivalent catalyst forced fertilizer dependency into political consciousness, because the dependency is too abstract: people understand their cars need gasoline; they do not understand their bread needs [[Ammonia]], their rice needs [[urea]], their vegetables need phosphate processed with Gulf [[Elemental Sulfur|sulfur]].
+This is a structural break disguised as a price spike. The world optimized its food system for cost efficiency and parked ~49% of global urea exports, ~30% of ammonia, and ~50% of sulfur trade behind a single chokepoint — the [[Strait of Hormuz]]. No Strategic Fertilizer Reserve exists anywhere. Nobody built one because the dependency is too abstract: people understand their cars need gasoline; they do not understand their bread needs [[Ammonia]], their rice needs [[urea]], their vegetables need phosphate processed with Gulf [[Elemental Sulfur|sulfur]].
 
-The March 2026 [[Strait of Hormuz]] closure exposed this asymmetry. The crisis propagates through at least 14 distinct transmission channels that interact reflexively — nitrogen disrupts food, sulfur disrupts phosphate and base metals, petrochemicals disrupt packaging and pharmaceuticals, insurance fractures compound physical blockade, and biological planting deadlines create irreversible time constraints that no diplomatic breakthrough can unwind retroactively. The nonlinear yield response curve (quadratic, not linear) means the damage concentrates where it is least absorbable — the Global South — while developed-world buffers create a false sense of aggregate manageability.
+The March 2026 Hormuz closure exposed this asymmetry — and then [[China]] closed the only exit. On Mar 16, Beijing halted ALL fertilizer exports: not just phosphate (banned through August) but urea and nitrogen-potassium blends. China is the world's largest urea producer. The backup plan evaporated. [[India]] formally asked China for urea (Bloomberg, Mar 12); the ask has gone unanswered. Urea has roughly doubled from pre-war consensus ($350-380/t to ~$700/t). The crisis now propagates through at least 14 distinct transmission channels that interact reflexively — nitrogen disrupts food, sulfur disrupts phosphate and base metals, petrochemicals disrupt packaging and pharmaceuticals, insurance fractures compound physical blockade, and biological planting deadlines create irreversible time constraints that no diplomatic breakthrough can unwind retroactively.
 
-Key investable takeaway: the market is pricing a ~45-day disruption duration; structural indicators (insurance architecture recovery, naval readiness, mine clearance timelines, Red Sea precedent of 26+ months) point to 120+ days. [[CF Industries]], [[Nutrien]], [[Yara]] benefit from widening cost advantages, but the deeper story is the cascading second- and third-order effects through sulfur, petrochemicals, pharmaceuticals, and sovereign debt that consensus models have not mapped.
+What separates this from an oil disruption is the biological clock. Oil shocks are financial — prices adjust, demand adjusts, molecules find new routes. Nitrogen has hard deadlines: US Corn Belt needs nitrogen by mid-April, India's kharif prep starts May, Australia's winter crop needs urea April-June. A diplomatic breakthrough on April 15 does not help a farmer who needed nitrogen on April 1. Time converts uncertainty into irreversible yield loss — and there is no diplomatic off-ramp visible. Iran's FM stated explicitly on Mar 16: *"We don't ask for ceasefire, but this war must end"* (Iran International). The nonlinear yield response curve (quadratic, not linear) means the damage concentrates where it is least absorbable — the Global South — while developed-world buffers create a false sense of aggregate manageability.
+
+Key investable takeaway: the market is pricing a ~45-day disruption duration; structural indicators (insurance architecture recovery, naval readiness, mine clearance timelines, Red Sea precedent of 26+ months, Iran's explicit rejection of ceasefire) point to 120+ days. [[CF Industries]], [[Nutrien]], [[Yara]] benefit from widening cost advantages, but the deeper story is the cascading second- and third-order effects through sulfur, petrochemicals, pharmaceuticals, and sovereign debt that consensus models have not mapped.
 
 ---
 
@@ -77,9 +79,9 @@ The sulfur cascade propagates laterally into non-agricultural systems:
 
 [[OCP Group]] (Morocco, world's largest phosphate exporter) imports ~3.7M mt of Gulf sulfur annually. [[China]] imports ~4M mt.
 
-### Layer 3: Chinese phosphate export ban
+### Layer 3: China halts ALL fertilizer exports
 
-[[China]] suspended phosphate fertilizer exports through August 2026, removing ~4.5M mt from global availability. The triple pincer: Hormuz disrupts nitrogen, sulfur shortage pressures Chinese domestic phosphate production, and Beijing's export restrictions administratively constrain phosphate for the rest of the world.
+[[China]] initially suspended phosphate fertilizer exports through August 2026, removing ~4.5M mt from global availability. On Mar 16, Beijing escalated: authorities told exporters to halt shipments of nitrogen-potassium blends and urea as well (Bloomberg). China is the world's largest urea producer — the full export halt compounds the Gulf disruption by removing the only alternative source large enough to partially offset Hormuz losses. The triple pincer is now a quadruple pincer: Hormuz disrupts Gulf nitrogen, sulfur shortage pressures Chinese domestic phosphate production, Beijing's export restrictions administratively constrain both phosphate and nitrogen for the rest of the world, and India's diplomatic ask for Chinese urea (Mar 12, Bloomberg) has gone unanswered.
 
 ---
 
@@ -88,7 +90,7 @@ The sulfur cascade propagates laterally into non-agricultural systems:
 The consensus framework treats this as a single channel (supply disrupted → prices rise → food prices follow). The actual crisis propagates through at least 14 interacting domino chains:
 
 ### 1. Nitrogen (direct)
-Benchmark prices surged 25-44% within two weeks. NOLA urea barges $600-620/st (Mar 12), spot peaks $683/st — +30% from pre-conflict $475 baseline. North America Fertilizer Price Index topped $810/st on Mar 9 (new cycle high). Anhydrous ammonia $895/ton (+19% YoY). SE Asian granular urea above $700/t for Apr-May delivery. Australian urea above A$1,200/t (+45% from pre-war A$830-840).
+Benchmark prices surged 25-44% within two weeks and have continued climbing. NOLA urea barges $673-675/st for second-half March (DTN Mar 18), up from $600-620/st on Mar 12. Spot peaked at $683/st. Pre-conflict baseline: $475. All 8 retail fertilizers higher as of Mar 18 per DTN: retail urea $674/ton (+12% m/m), anhydrous ammonia $924/ton (+7% m/m, first time above $900 since May 2023), UAN28 +13% m/m, UAN32 $489/ton (+5% m/m). SE Asian granular urea $710/t fob (Brunei tender, Mar 12) with larger cargoes pushing $750/t. Australian urea above A$1,200/t (+45% from pre-war A$830-840). Pre-war analyst consensus had urea at $350-380/t for 2026 — current spot is roughly double.
 
 ### 2. Sulfur → phosphate → copper → nickel → energy transition
 The sulfur deficit could reach several million tonnes in 2026. Creates a triple bind between food security, base metal production, and critical minerals for the energy transition. See Layer 2 above.
@@ -162,12 +164,14 @@ At current prices, planting corn is structurally unprofitable across much of the
 
 | Projection | Acres (M) |
 |------------|-----------|
-| USDA pre-crisis corn | 94 |
-| Post-crisis corn (projected) | 92-93 (1-2M shift) |
-| USDA pre-crisis soybeans | 85 |
+| USDA Ag Outlook (Feb 19) corn | 94.0 (down 4.8M from 2025) |
+| Post-crisis corn (projected) | 92-93 (1-2M additional shift) |
+| USDA Ag Outlook soybeans | ~85.0 (up 3.8M from 2025) |
 | Post-crisis soybeans (projected) | 86-87 |
 
-USDA Prospective Plantings report (March 31) will be the first survey-based confirmation — a critical data point for translating the fertilizer crisis into a quantifiable grain supply revision.
+The pre-war baseline already showed a major shift toward soybeans — driven by lower input costs and biofuel demand (renewable diesel/SAF feedstock). The nitrogen price spike amplifies this. CoBank projects soybean acreage to rise 6% as corn, rice, and cotton decline. Dec 2026 corn futures rose from $4.69 (Feb 27) to $4.90 (Mar 13) but have since pulled back. farmdoc (U of Illinois) analysis confirms the corn-soybean profitability gap is widening as nitrogen costs spike.
+
+USDA Prospective Plantings report (March 31) will be the first survey-based confirmation — a critical data point for translating the fertilizer crisis into a quantifiable grain supply revision. The Feb 19 Ag Outlook numbers were set before the war started (Feb 28), so additional corn-to-soybean shifts are likely.
 
 ---
 
@@ -201,11 +205,11 @@ The marginal tonne of urea flows to the highest bidder, not the most calorie-sen
 
 ### India
 
-The most strategically consequential case. Indian fertilizer plants operating at ~60% capacity after Mar 9 Natural Gas Supply Regulation Order capped gas at 70% of historical averages. National Fertilizers Ltd plants in Punjab halted entirely. Stockpiles at 17.7M mt (+36.5% YoY per S&P Global) provide a genuine near-term buffer — but not immunity. The fiscal strain: Union Budget allocates ₹1.71 lakh crore (~$18.6B) for fertilizer subsidies in FY2026-27, yet urea is sold at ₹242/45kg against international prices far above. If crisis persists through June monsoon onset, Kharif preparations face severe disruption. Skymet assigns 60% likelihood of below-normal monsoon (El Niño emerging) — simultaneous fertilizer scarcity and water deficiency would be without modern precedent.
+The most strategically consequential case. Indian fertilizer plants operating at ~60% capacity after Mar 9 Natural Gas Supply Regulation Order capped gas at 70% of historical averages. National Fertilizers Ltd plants in Punjab halted entirely. Government publicly claims "no shortage" — stockpiles at 62 lakh tons urea, 25 lakh tons DAP, 56 lakh tons NPK (163 LMT total, +26.8% YoY). But urea covers only ~1.8 months at kharif consumption rates. The actions contradict the rhetoric: India formally asked [[China]] to ease urea export restrictions and allow sales to India (Bloomberg, Mar 12) — a significant diplomatic move that reveals the true urgency. China has not yet allocated 2026 export allowances, and the Mar 16 full export halt makes fulfillment unlikely. India's urea imports from China hit a 3-year high in FY26 (21.24 lakh tons through Feb), with 9.8M tons total urea imported and only 1.7M tons scheduled for the remaining 3 months. The fiscal strain: Union Budget allocates ₹1.71 lakh crore (~$18.6B) for fertilizer subsidies in FY2026-27, yet urea is sold at ₹242/45kg against international prices far above. If crisis persists through June monsoon onset, Kharif preparations face severe disruption. Skymet assigns 60% likelihood of below-normal monsoon (El Niño emerging) — simultaneous fertilizer scarcity and water deficiency would be without modern precedent.
 
 ### Bangladesh
 
-More immediately vulnerable. 4-5 major urea factories shut from gas rationing after Qatar LNG force majeure. Only Shahjalal Fertilizer reportedly operational. Daily capacity lost: >7,000 tonnes. Coincides with Boro rice season (>50% of ~40M tonne annual grain output). Stockpiles (468K-525K tonnes) measured in weeks, not months. Garment sector (~85% of export earnings) faces simultaneous cotton supply constraints, petrochemical shortages, and 37% US tariffs.
+More immediately vulnerable. 5 of 6 major urea factories confirmed shut from gas rationing after Qatar LNG force majeure (Daily Star). Only Shahjalal Fertilizer reportedly operational; privately run KAFCO also suspended production. Shutdowns initially announced for 15 days. Daily capacity lost: >7,000 tonnes. BCIC stockpile: ~4.68 lakh tons — officials say sufficient for near-term Boro rice needs, but prolonged shutdown forces reliance on imported fertilizer at war-inflated prices. Coincides with Boro rice season (>50% of ~40M tonne annual grain output). Garment sector (~85% of export earnings) faces simultaneous cotton supply constraints, petrochemical shortages, and 37% US tariffs.
 
 ### Egypt
 
@@ -214,6 +218,10 @@ Triple vulnerability: world's largest wheat importer (~12.7M mt), significant ni
 ### Sub-Saharan Africa
 
 [[Sudan]]: 54% of fertilizer from Gulf (UNCTAD), confirmed famine in El Fasher and Kadugli, +25 days WFP shipping time from rerouting. Somalia, Kenya, Tanzania, Mozambique: 22-31% fertilizer imports from Gulf. ~$90B regional debt wall in 2026, sovereign rates >10%. WFP: 318M people globally facing crisis-level hunger — Hormuz could push 100-200M more into acute food insecurity within 6-12 months.
+
+### Australia
+
+National Cabinet convened an emergency meeting on food and input security (Mar 17-18). Government appointed a logistics coordinator for supply chain management and established priority allocation frameworks for fuel and fertilizer imports at WA ports. Officials acknowledged sufficient near-term supply but warned of shortfalls by late May/June without new arrivals. NSW monitoring for fuel/urea price gouging. [[Australia]] imports virtually all its urea, ~2/3 from the Gulf — [[Oman]] is now the only Gulf source accessible. The vulnerability extends beyond agriculture: AdBlue (diesel exhaust fluid) depends on urea, and a shortage could paralyze heavy freight.
 
 ---
 
@@ -244,7 +252,9 @@ P&I clubs (covering ~90% of ocean-going tonnage) issued coordinated 72-hour war-
 | Insurance cost for $50M vessel | ~$25K | Up to $2M |
 | Urea cargo margin impact | Manageable | Prohibitive |
 
-The DFC $20B sovereign-backed reinsurance plan (Mar 6, [[Chubb]] as lead partner) has not yet visibly restored fertilizer shipping at scale (as of Mar 16). Insurance compensates for financial loss but does not intercept missiles, sweep mines, or prevent crew deaths.
+The DFC $20B sovereign-backed reinsurance plan (Mar 6, [[Chubb]] as lead partner) has not yet visibly restored fertilizer shipping at scale. At least 21 ships carrying ~1M mt of fertilizer remain stranded in the Gulf (Mar 13). [[Industries Qatar]] and [[SABIC]] Agri-Nutrients declared force majeure on shipments to South America and Asia (~Mar 6). Insurance compensates for financial loss but does not intercept missiles, sweep mines, or prevent crew deaths.
+
+A selective workaround is emerging: Windward tracked at least 5 bulk carriers (Mar 15-16) re-routing through Iranian territorial waters, hugging Iran's coastline rather than using the standard international traffic separation scheme. These vessels had previously called at Iran's Imam Khomeini port, suggesting permitted passage for ships with Iranian port relationships. Iran has selectively allowed safe passage based on flag state — creating a two-tier shipping system (Al Jazeera). CNBC (Mar 18) reported traffic "trickling through" at massively reduced volumes. This selective passage undercuts the clean narrative of total blockade, but the volumes are a fraction of pre-war flows.
 
 Recovery timeline post-ceasefire: 30-60 days minimum for affordable premiums (risk model recalibration → reinsurer re-engagement → treaty renewal → individual vessel re-underwriting). Red Sea precedent: 26 months after Houthi attacks began, war-risk premiums never returned to pre-crisis levels.
 
@@ -252,15 +262,17 @@ Recovery timeline post-ceasefire: 30-60 days minimum for affordable premiums (ri
 
 ## Equity positioning and mispricing
 
-Capital has surged into visible beneficiaries (as of Mar 12-14):
+Capital has surged into visible beneficiaries (as of Mar 12-18):
 
 | Company | Price | Performance | Notes |
 |---------|-------|-------------|-------|
-| [[CF Industries]] | $136.00 | #1 S&P 500 performer for the month | ~35% above consensus PT ($94-97) |
-| [[Nutrien]] | $84.64 | — | |
-| [[Yara]] | ~559 NOK | New 52-week high | |
+| [[CF Industries]] | — | #1 S&P 500 performer for March; +37% YTD | Record high Mar 12 (biggest intraday jump since 2020, +14%). BofA raised 2026 EBITDA forecast +29%, PT $103, maintains Underperform (views spike as cyclical). 2025 capital return: $1.69B ($1.3B buybacks, $2.00/share dividend) |
+| [[Nutrien]] | — | +20% YTD; hit highest in 3+ years | -6.1% on Mar 17, +2% Mar 18. Canadian potash/N footprint insulated from Gulf |
+| [[Yara]] | ~559 NOK | New 52-week high | Most challenged among majors — relies on ME urea for blending, plus EU CBAM costs squeezing margins vs NA peers |
 | [[Dow]] | +44% YTD | Petrochemical advantage from cheap domestic gas | |
 | [[LyondellBasell]] | +48% YTD | Same thesis | |
+
+BofA (Matthew DeYoe) expects nitrogen prices to peak by mid-Q2, then subside. Hedge fund positioning on CF shows range-trading: buying dips toward $95, trimming near $115.
 
 ### Core mispricing: duration anchor
 
@@ -287,7 +299,7 @@ Senator Josh Hawley letter to CF Industries (Mar 12) alleging price gouging, res
 |----------|----------|------------|
 | US produces 65-75% of its own fertilizer | Strong for US specifically | Does not address Global South |
 | Many US farmers pre-ordered autumn 2025 | Strong near-term | Only covers first application |
-| Iran executing selective (not total) blockade | Real — Chinese/some Indian vessels transit | Devastating to Western shipping; uncertain durability |
+| Iran executing selective (not total) blockade | Real — ships hugging Iranian coast via Imam Khomeini port route getting through; flag-state-based two-tier system | Volumes are a fraction of pre-war flows; CNBC Mar 18 calls it "trickling" |
 | Global potash supply expanding (Belarus +56%) | Real | Potash is not the bottleneck — nitrogen and sulfur are |
 | Russia exporting >33M mt/year | Real | Capped at 18.7M mt through May; Ukraine strikes constrain capacity |
 | CoBank: commodity shocks typically short-lived | Historical base rate | Fails on structural dimensions (insurance, mine clearance, planting deadlines) |

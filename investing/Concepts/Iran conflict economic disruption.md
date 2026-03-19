@@ -731,6 +731,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 - [[US-Iran nuclear escalation February 2026]] — pre-strike scenario
 - [[Vietnam]], [[Thailand]], [[Philippines]], [[Pakistan]], [[Indonesia]] — emergency measures
 - [[India]] — LPG crisis, Essential Commodities Act
+- [[Helium supply crisis 2026]] — ~30% of global helium removed; semiconductor supply chain at risk; the Hormuz-to-AI transmission channel
 
 ---
 

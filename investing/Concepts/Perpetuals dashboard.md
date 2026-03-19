@@ -1,7 +1,6 @@
 ---
 aliases:
   - perps dashboard
-  - intraday dashboard
   - Hyperliquid dashboard
 tags:
   - concept

@@ -52,7 +52,7 @@ aliases: [crude oil, petroleum, WTI, Brent]
 | Light sour | High API | High | Moderate | Mars |
 | Heavy sour | Low API | High | Discount | Venezuela, [[Canada]] |
 
-**Refinery match:** Complex refineries (Gulf Coast) designed for heavy sour crude.
+Refinery match: complex refineries (Gulf Coast) designed for heavy sour crude.
 
 ---
 
@@ -109,25 +109,36 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 | Factor | Status |
 |--------|--------|
-| Price | ~$70-75 Brent pre-crisis → WTI >$100, Brent $92+ (Mar 9); Dubai/Murban >$103 (Mar 8) |
+| Price (Mar 18) | Brent $108.78 (+5.6% on day); WTI $96.16; Brent YTD ~+66%; WTI YTD ~+68% |
+| Physical (Mar 17) | Cash Dubai $157.66, Oman $152.58 (record), Murban ~$153 — physical at $130-170, futures at ~$100 |
+| Brent-WTI spread | ~$10/bbl (vs normal $2-5) |
+| Brent backwardation | Front-month $14.20 premium over next month (record) |
 | Supply | [[Strait of Hormuz]] effectively closed since Feb 28 — see crisis section below |
-| [[OPEC]]+ | Managing cuts; 206K bbl/day unwinding — inadequate vs disruption scale |
-| US shale | Disciplined, not flooding market |
+| [[OPEC]]+ | Managing cuts; 206K bbl/day unwinding in Apr — inadequate vs disruption scale |
+| US shale | Disciplined, not flooding market. US production ~13.6M bbl/day (EIA 2026) |
 | [[Venezuela]] | [[Maduro capture 2026]] — potential supply increase |
-| Demand | Moderate growth; stagflation risk from oil shock + weak US payrolls |
+| Demand | [[IEA]] cut growth forecast by 210k bbl/day to 640k bbl/day for 2026 |
+
+### Paper-physical disconnect
+
+The defining feature of the March 2026 oil market. Futures (~$100 Brent) are trading $30-70/bbl below physical delivered crude ($130-170). [[Jeff Currie]] ([[Carlyle]]): paper markets "entirely disconnected" from physical realities. The Brent-Dubai EFS widened to $10.42 from $0.69 at start of 2026. S&P Global Platts launched an emergency methodology review of its Dubai benchmark.
+
+Drivers: stranded tankers (150+ anchored outside Hormuz), canceled war-risk insurance (P&I clubs withdrew coverage), rerouting around Africa (+10-14 days), and immediate regional shortages. Middle Eastern crude exports to Asia fell to 11.67M bbl/day from 19M (-32%). CFTC data showed managed money had built a 15-year net short extreme in Jan — short covering into a physical squeeze amplified the dislocation.
+
+Pre-conflict Wall Street consensus: Brent ~$59/bbl (BofA, Citi, Goldman, JPM, MS average). [[IEA]] projected 3.84M bbl/day surplus. Post-disruption revisions remain modest — [[Goldman Sachs]] Q4 target only $71 (assumes 21-day disruption + 30-day recovery). [[JPMorgan]] still sees reversion to ~$60. The market debate: is this a temporary geopolitical spike or a structural repricing of energy security risk?
 
 ---
 
 ## Strait of Hormuz crisis (March 2026)
 
-[[Operation Epic Fury]] — US-Israeli strikes on [[Iran]] beginning Feb 28 — triggered the most significant oil supply disruption since the 1973 Arab oil embargo. [[IRGC]] declared the [[Strait of Hormuz]] closed. As of March 8, only **3 tankers per day exiting** vs normal ~50/day (MEI briefing, Dr. Karen Young).
+[[Operation Epic Fury]] — US-Israeli strikes on [[Iran]] beginning Feb 28 — triggered the most significant oil supply disruption since the 1973 Arab oil embargo. [[IRGC]] declared the [[Strait of Hormuz]] closed. As of March 8, only 3 tankers per day exiting vs normal ~50/day (MEI briefing, Dr. Karen Young).
 
 ### Scale of disruption
 
 | Metric | Normal | Crisis (Mar 8) |
 |--------|--------|----------------|
-| Hormuz crude transit | ~15 mb/d | Near zero |
-| Hormuz product transit | ~4 mb/d | Near zero |
+| Hormuz crude transit | ~15 mb/d | near zero |
+| Hormuz product transit | ~4 mb/d | near zero |
 | Hormuz LNG share | ~20% of global | Halted — [[QatarEnergy]] force majeure |
 | Ships idle | 0 | ~700 |
 | [[Iraq]] production shut in | — | >1.5 mb/d |
@@ -136,20 +147,21 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 ### Pricing impact
 
-| Benchmark | Pre-crisis (~Feb 9) | Pre-strike (Feb 27) | Mar 8 | Move |
-|-----------|---------------------|---------------------|-------|------|
-| Brent | $65 | ~$70 | **~$92** | +41% from Feb 9 |
-| WTI | — | ~$65 | **~$91** | +40%+ |
-| Dubai/Murban | — | — | **>$103** | Triple digits |
-| VLCC tanker rates | — | — | **+~200%** | |
+| Benchmark | Pre-crisis (~Feb 9) | Pre-strike (Feb 27) | Mar 8 | Mar 18 |
+|-----------|---------------------|---------------------|-------|--------|
+| Brent | $65 | ~$70 | ~$92 | $108.78 (+67% from Feb 9) |
+| WTI | ~$60 | ~$65 | ~$91 | $96.16 (+60%+) |
+| Dubai/Murban (physical) | — | — | >$103 | $153-158 (record) |
+| Brent-WTI spread | $2-5 | — | — | ~$10 |
+| VLCC tanker rates | — | — | +~200% | — |
 
-Dubai/Murban above $103 reflects physical market tightness more than Brent — the Middle East benchmarks where actual Gulf crude trades are already in triple digits. Product markets ([[Jet fuel|jet fuel]], diesel) seeing the **sharpest increases**.
+Physical market premiums over futures widened explosively — Cash Dubai at $56/bbl over swaps (vs $0.90 in Feb). Product markets ([[Jet fuel|jet fuel]], diesel) seeing the sharpest increases; Singapore jet fuel hit $230/bbl (per [[Jeff Currie]], Mar 11).
 
 ### Pipeline bypass — bottlenecked
 
 | Route | Capacity | Effective limit | Current use |
 |-------|----------|-----------------|-------------|
-| Saudi East-West (Petroline) to [[Yanbu]] | 5-7 mb/d pipe | **~3 mb/d** (Yanbu loading) | 1.9 mb/d |
+| Saudi East-West (Petroline) to [[Yanbu]] | 5-7 mb/d pipe | ~3 mb/d (Yanbu loading) | 1.9 mb/d |
 | UAE Habshan-[[Fujairah]] | 400k bpd | Minimal | Tankers reluctant (Fujairah attacked) |
 
 Even maxing out Yanbu loading, bypass capacity covers a fraction of the 15+ mb/d normally transiting Hormuz.
@@ -164,7 +176,7 @@ For full market impact details, see [[2026 Iran conflict market impact]] and [[I
 
 ## Long-term outlook
 
-**Peak demand debate:**
+Peak demand debate:
 
 | View | Timeline | Driver |
 |------|----------|--------|
@@ -172,9 +184,9 @@ For full market impact details, see [[2026 Iran conflict market impact]] and [[I
 | Moderate | 2030s | EV adoption gradual |
 | Bearish | Late 2020s | Rapid EV + policy |
 
-**Reality:** Oil demand still growing globally, but growth slowing. [[Transport]] ~50% of demand. Peak oil date keeps receding — the [[IEA]] now sees demand potentially growing until 2050 (as of Feb 2026). [[Citigroup]] notes European oil stocks have repriced from "very negative" to "much less negative" terminal values.
+Reality: oil demand still growing globally, but growth slowing. [[Transport]] ~50% of demand. Peak oil date keeps receding — the [[IEA]] now sees demand potentially growing until 2050 (as of Feb 2026). [[Citigroup]] notes European oil stocks have repriced from "very negative" to "much less negative" terminal values.
 
-**China peak oil demand:** The biggest single-country demand story. Chinese diesel demand has already peaked (driven by the property/construction collapse). Gasoline demand is peaking now due to rapid EV uptake. The IEA and Chinese national oil companies have moved their forecasts for China's overall oil demand peak forward to **2027** (from ~2030). [[Sinopec]] at one point projected a peak as early as 2025. China will still need oil for petrochemicals — feedstocks for EVs, solar panels, and lithium-ion batteries — but transport fuel demand is structurally declining. This is the most consequential demand-side development for global oil markets: if China's ~15M bpd consumption trajectory flattens and then falls, the long-term supply-demand balance shifts materially bearish.
+China peak oil demand: the biggest single-country demand story. Chinese diesel demand has already peaked (driven by the property/construction collapse). Gasoline demand is peaking now due to rapid EV uptake. The IEA and Chinese national oil companies have moved their forecasts for China's overall oil demand peak forward to 2027 (from ~2030). [[Sinopec]] at one point projected a peak as early as 2025. China will still need oil for petrochemicals — feedstocks for EVs, solar panels, and lithium-ion batteries — but transport fuel demand is structurally declining. This is the most consequential demand-side development for global oil markets: if China's ~15M bpd consumption trajectory flattens and then falls, the long-term supply-demand balance shifts materially bearish.
 
 ---
 
@@ -188,6 +200,9 @@ For full market impact details, see [[2026 Iran conflict market impact]] and [[I
 - [[Valero]], [[Phillips 66]], [[PBF Energy]] — refiners
 - [[Power constraints]] — energy for AI
 - [[Venezuela oil rebuild]] — investment thesis
+- [[Jeff Currie]] — structural bull, paper-physical disconnect thesis
+- [[Nitrogen Trap]] — fertilizer cascade from oil/gas supply disruption
+- [[TotalEnergies]] — dominant physical buyer during Mar 2026 dislocation
 
 ### Cross-vault
 - [Technologies: Oil](obsidian://open?vault=technologies&file=Oil) — refining processes, hydrocarbon chemistry, extraction technology

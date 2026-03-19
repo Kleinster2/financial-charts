@@ -1,8 +1,65 @@
 # Code Changelog
 
-Structured log of code changes: what changed, why, how the bug was found, and what was done about it.
+Project evolution journal — what changed, why, and how.
 
 Newest entries first.
+
+---
+
+## 2026-03-18 — Intraday chart blueprint
+
+**Files:** `charting_app/intraday_routes.py` (new, 267 lines), `charting_app/app.py`
+
+**Change:** Added two new endpoints for sub-daily charting:
+- `/api/chart/intraday` — line chart overlay of 30-minute candles, supports ETFs and Hyperliquid perps (`HL:` prefix routes to `perp_candles` table, everything else to `intraday_candles`)
+- `/api/chart/intraday/funding` — funding rate chart for Hyperliquid perps, converts raw hourly rates to basis points, drops outliers >10 bps/hr
+
+Both endpoints reuse the existing Playwright + `chart_render.html` pipeline with an `isIntraday: true` flag. Follows the blueprint pattern from the March refactor.
+
+**Motivation:** Perpetuals dashboard work needed intraday price overlays (ETF vs perp) and funding rate visualization. Daily candles too coarse for funding rate analysis.
+
+---
+
+## 2026-03-16 — Narrow-format migration (Phases 0–2)
+
+**Files:** `scripts/add_ticker.py`, `scripts/download_all_assets.py`, `charting_app/helpers.py`, multiple route files
+
+**Change:** Migrated price storage from wide format (`stock_prices_daily` — one column per ticker) to narrow/long format (`prices_long` — ticker as a row field). Three phases:
+1. Phase 0: Created `prices_long` table, backfilled from wide table
+2. Phase 1: `add_ticker.py` writes to narrow table when `USE_NARROW=1`
+3. Phase 2: `download_all_assets.py` flipped to write narrow-first; read path defaults to `USE_NARROW=1`
+
+**Motivation:** Wide table hit ~2000 columns — SQLite practical limit. Every new ticker required an `ALTER TABLE ADD COLUMN`. Narrow format scales indefinitely.
+
+---
+
+## 2026-03-16 — `quick_movers`: sigma-based detection + DuckDB backend
+
+**Files:** `scripts/quick_movers.py`
+
+**Change:** Two improvements:
+1. Replaced fixed 8% threshold with sigma-based detection — each ticker's move is measured against its own rolling standard deviation, surfacing unusual moves even for low-vol names
+2. Added DuckDB backend with auto-selection (uses DuckDB if available, falls back to SQLite)
+
+**Motivation:** Fixed threshold missed meaningful moves in low-vol stocks and flagged routine moves in high-vol names. DuckDB speeds up the scan across the full ticker universe.
+
+---
+
+## 2026-03-16 — `/replicate` skill + replication utilities
+
+**Files:** `.claude/skills/replicate/SKILL.md` (new), `scripts/replicate_fund.py` (new)
+
+**Change:** Added a skill and shared utilities for ETF/fund replication analysis — maps holdings to available tickers, builds replicating portfolios, compares tracking error. Used for ALLW and RPAR analysis.
+
+---
+
+## 2026-03-15 — Cross-vault link detection in compliance checker
+
+**Files:** `scripts/check_note_compliance.py`
+
+**Change:** Added detection of cross-vault `obsidian://` URI links. The compliance checker now recognizes these as valid links rather than flagging them as dead. Includes false-positive filtering for URL-encoded vault paths.
+
+**Motivation:** After adding 20 cross-vault links (investing ↔ technologies), the compliance checker was treating them all as dead links, generating noise.
 
 ---
 

@@ -13,6 +13,9 @@ Airline and aviation impact of [[Operation Epic Fury|2026 Iran conflict]] — ai
 
 More than 46,000 scheduled flights to and from the Middle East were canceled between February 28 and March 11, according to [[Cirium]] ([[Bloomberg]], Mar 12).
 
+![[iran-conflict-flight-cancellations-cirium.png]]
+*Rolling cancellations across Middle East airports, Feb 28 – Mar 11. Source: Cirium via Bloomberg*
+
 | Carrier group | Status (as of ~Mar 11) |
 |--------------|------------------------|
 | [[Emirates]] | Reduced schedule, significantly fewer destinations than normal |
@@ -29,6 +32,9 @@ The conflict has funneled global long-haul traffic through an increasingly narro
 
 [[Azerbaijan]] briefly shut airspace over parts of the country, leaving only a ~50-mile path for aircraft to pass through. [[Flightradar24]] data confirmed the bottleneck.
 
+![[iran-conflict-congested-routes-map.png]]
+*London–Asia flights now bypass Russian, Iranian, and Gulf airspace, funneling through a narrow Georgia–Azerbaijan corridor. Source: Flightradar24 via Bloomberg*
+
 ### Dubai airport disruption
 
 On at least four occasions since [[Dubai]] resumed air traffic, inbound aircraft were placed in holding patterns as drones hit the airport or missiles were being intercepted overhead (Flightradar24 data). This is not normal operational disruption — it's active combat interfering with civilian aviation.
@@ -42,6 +48,9 @@ The [[UAE]] and [[Qatar]] said they were able to establish safe air corridors am
 ## Fuel cost shock
 
 The [[Strait of Hormuz]] closure drove jet fuel prices parabolic. [[Jeff Currie]] ([[Carlyle]]) noted Singapore jet fuel hit $230/bbl by March 11 — see [[Iran conflict economic disruption]] for the full energy picture.
+
+![[jet-fuel-jetkspot-iran-spike.png]]
+*JETKSPOT Index spiked from ~$80/bbl to $250/bbl after Hormuz closed Feb 28. Source: Bloomberg*
 
 Airlines responded by:
 - Hiking fares with fuel surcharges to cover ballooning costs
@@ -76,6 +85,9 @@ China's Big Three and IndiGo are among the carriers with the greatest vulnerabil
 ## Stock market damage
 
 [[Bloomberg]] World Airlines Index has fallen more than 11% since the war started (~two weeks). Billions of dollars in market capitalization wiped out.
+
+![[bloomberg-world-airlines-index-iran.png]]
+*Bloomberg World Airlines Index fell from ~2,850 to ~2,350 after the conflict began. Source: Bloomberg*
 
 ### US airline sell-off (verified closes, Days 3-4)
 
