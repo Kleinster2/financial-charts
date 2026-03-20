@@ -219,7 +219,13 @@ The US moved from **pure restriction** to **controlled access + monetization**:
 
 ## SEA diversion route
 
-Despite controls, chips may be reaching China through [[Southeast Asia]]. See [[SEA chip diversion]] for full analysis.
+Controls are being circumvented through [[Southeast Asia]]. See [[SEA chip diversion]] for full analysis.
+
+### SMCI indictment (Mar 19, 2026) — largest prosecution to date
+
+Three [[Super Micro Computer]] affiliates — including co-founder Yih-Shyan "Wally" Liaw — charged with diverting $2.5B in [[NVIDIA]]-powered servers to [[China]] through an unnamed SEA company. The pipeline: US assembly → Taiwan → SEA staging → unmarked reboxing → China. DOJ has surveillance video of workers using hair dryers to swap serial numbers onto dummy servers for compliance audits. Liaw allegedly pushed for [[Blackwell]] B200 allocation and accelerated shipments ahead of new export rules. $510M shipped in a three-week sprint (Apr-May 2025 alone). SMCI stock fell 12% after hours.
+
+This is the smoking gun for the SEA diversion thesis — not speculation, not circumstantial import data, but a DOJ-documented transshipment pipeline with $2.5B in confirmed volume through the exact route the data suggested.
 
 **[[Taiwan]] → SEA chip exports (Jan-Oct 2025):**
 
@@ -399,6 +405,8 @@ Mixed:
 
 ## What to watch
 
+- [ ] **SMCI corporate liability** — not named as defendant yet; "cooperating" could mean immunity or could escalate
+- [ ] **NVIDIA exposure** — did NVIDIA know about unusual SEA allocation patterns? Compliance liability?
 - [ ] VEU case-by-case approval patterns (Q1 2026)
 - [ ] Congress push for stricter allied coordination
 - [ ] Rare earth control escalation risk

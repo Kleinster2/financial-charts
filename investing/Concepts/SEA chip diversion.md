@@ -49,10 +49,26 @@ NVIDIA publicly claims "zero [[China]] forecast" while chips reach [[China]] thr
 
 ## Legal enforcement
 
-**Recent action (Jan 2026):**
+### SMCI co-founder indictment (Mar 19, 2026)
+
+The largest export control prosecution yet. Three [[Super Micro Computer]] affiliates charged with diverting $2.5B in [[NVIDIA]] AI servers to [[China]] through an unnamed SEA company (2024-2025):
+
+| Defendant | Role | Status |
+|-----------|------|--------|
+| Yih-Shyan "Wally" Liaw | SMCI co-founder, board member, SVP | Arrested |
+| Ruei-Tsang "Steven" Chang | SMCI Taiwan general manager | Fugitive |
+| Ting-Wei "Willy" Sun | Third-party contractor | Arrested |
+
+The scheme matches the exact pattern the SEA import data suggested: US assembly → Taiwan staging → SEA company (fake end-user) → unmarked reboxing → China. DOJ has surveillance video of workers using hair dryers to swap serial numbers onto thousands of dummy servers. Liaw pushed for [[Blackwell]] B200 allocation and accelerated shipments ahead of new export rules.
+
+$510M diverted in a three-week sprint (Apr-May 2025). Total: $2.5B.
+
+This confirms the SEA diversion thesis is not speculation — it's a documented, industrial-scale pipeline operating through a major US-listed server maker.
+
+**Prior action (Jan 2026):**
 - US District Court, Northern District of California
 - Charged individuals with NVIDIA GPU smuggling from US
-- Validates that enforcement views smuggling as real, not speculation
+- Smaller scale than SMCI case
 
 ---
 
@@ -162,8 +178,9 @@ Does SEA's legitimate AI compute demand justify $23B+ in chip imports? Or is sur
 
 ## Related
 
-- [[NVIDIA]] — primary company at risk
-- [[Export controls]] — policy being circumvented
+- [[NVIDIA]] — primary company at risk; chips at center of SMCI indictment
+- [[Super Micro Computer]] — co-founder indicted for $2.5B diversion (Mar 2026)
+- [[Export controls]] — policy being circumvented at industrial scale
 - [[Southeast Asia tech race]] — region as transit/destination
 - [[Malaysia Tech]] — largest import corridor ($12B)
 - [[Singapore Tech]] — removed from reporting
