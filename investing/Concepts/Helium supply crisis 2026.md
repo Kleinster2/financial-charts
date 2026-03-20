@@ -79,7 +79,8 @@ Concentration risk: two countries ([[United States]], [[Qatar]]) produce ~69% of
 | Mar 6 | C&EN reports ~33% of global helium removed from market; spot prices already rising |
 | Mar 16 | Spot prices up 70-100% from pre-war levels; [[SK Hynix]] begins emergency diversification |
 | Mar 18 | Iranian missiles hit Ras Laffan (1 of 5 struck); [[Shell]] Pearl GTL and [[QatarEnergy]] condensate refinery "extensively damaged"; physical damage extends restart timeline to potentially 1+ year |
-| Mar 19 | [[QatarEnergy]] CEO quantifies: helium output down **14%**, two LNG trains (S4, S6) offline 3-5 years, North Field expansion halted. Force majeure extended to multi-year on Italy/Belgium/South Korea/China contracts |
+| Mar 19 | [[QatarEnergy]] CEO quantifies: helium output down 14%, two LNG trains (S4, S6) offline 3-5 years, North Field expansion halted. Force majeure extended to multi-year on Italy/Belgium/South Korea/China contracts |
+| Mar 19 | CNBC deep-dive: spot prices +70-100% (Kornbluth); [[Barclays]] reports South Korea 55% / Taiwan 69% GCC helium dependency; [[JPMorgan]] upgrades [[Linde]], [[Wells Fargo]] upgrades [[Air Products]]; contract prices "have not really moved yet" but force majeure declarations imminent |
 
 Pre-crisis buffer: ~15% global supply surplus existed before the shutdown. With 30% capacity removed, the net shortage is ~15%.
 
@@ -115,7 +116,16 @@ Allocation hierarchy during shortage:
 | [[Intel]] | [[United States]] | Moderate | US-sourced helium partially buffers |
 | Japanese fabs | [[Japan]] | High | Dependent on Qatar supply chain |
 
-Semiconductor industry recently became helium's largest consumer, surpassing MRI scanners. Advanced AI chips (with tens of billions of transistors) require precise thermal control during etching — helium enables superior throughput that no cheaper substitute can match.
+GCC sourcing dependency ([[Barclays]], Mar 19):
+
+| Country | GCC helium share | Year |
+|---------|-----------------|------|
+| [[South Korea]] | 55% | 2025 |
+| [[Taiwan]] | 69% | 2024 |
+
+South Korea and Taiwan account for 18% of global semiconductor production capacity each. Their combined GCC helium dependency makes them the most structurally exposed nodes.
+
+Semiconductor industry recently became helium's largest consumer, surpassing MRI scanners (confirmed Oct 2025, Gasworld Helium Super Summit — [[TechCET]] CEO Lita Shon-Roy). Advanced AI chips (with tens of billions of transistors) require precise thermal control during etching — helium enables superior throughput that no cheaper substitute can match.
 
 Recycling gap: helium recycling is technically feasible but not implemented in chipmaking. When helium was cheap and abundant, the economics never justified the capital investment. This crisis may force structural adoption of recycling systems — a multi-year retrofit cycle.
 
@@ -131,6 +141,15 @@ Recycling gap: helium recycling is technically feasible but not implemented in c
 | [[Air Products]] | APD | US-based; helium distributor |
 
 Distributors are assessing surcharges (Phil Kornbluth reported unnamed major supplier already evaluating). These companies benefit from pricing power during shortages but face physical allocation challenges.
+
+Wall Street positioning (Mar 2026):
+- [[JPMorgan]] upgraded [[Linde]] (Jeffrey Zekauskas) — LIN +15% YTD through Mar 19, vs S&P -3%
+- [[Wells Fargo]] upgraded [[Air Products]] to overweight (Michael Sison) — APD +14% YTD
+- [[Deutsche Bank]], [[Wells Fargo]], [[JPMorgan]] all pointed to tightening helium as positive catalyst for industrial gas suppliers
+- [[Bank of America]]: helium typically low-to-mid single digit % of gas company revenues; shortage is "neutral to modest net positive" for a few weeks, "more earnings upside" if longer
+- [[UBS]] Global Wealth Management: "Any lengthy disruption will not only impact energy prices, but also food prices and industrial production"
+
+*Source: CNBC, Mar 19 2026*
 
 ---
 
