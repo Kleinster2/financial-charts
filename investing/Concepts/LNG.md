@@ -240,6 +240,31 @@ Menelaos Ydreos ([[International Gas Union]]): *"Once the price spikes set in, t
 | Substitution | Tight but possible | No drop-in replacement at scale |
 | Speed of new supply | Months (shale) | Years (liquefaction plants) |
 
+### 2022 vs 2026 — structural comparison (FT, March 19)
+
+![[ttf-gas-prices-2021-2026-ft.png]]
+*European gas prices at the TTF hub, €/MWh. Current levels ~€50-60 vs 2022 peak >€300. Source: FT (Mar 19, 2026).*
+
+In 2022-2023, [[Europe]] lost ~120 bcm/yr of [[Russia]]n natural gas supply. European gas prices briefly rose 10x to >€300/MWh. 120 bcm is the theoretical upper limit of the annual shortfall the Middle East conflict could cause — equivalent to losing 100% of LNG exports from [[Qatar]] and [[UAE]] plus some from [[Iran]] and [[Israel]].
+
+But the FT argues the 2026 crisis is structurally less severe than 2022:
+
+| Factor | 2022 (Russia) | 2026 (Hormuz) |
+|--------|---------------|---------------|
+| Supply lost | ~120 bcm/yr | 120 bcm upper limit; ~18 bcm confirmed offline for years ([[QatarEnergy]] facility damage) |
+| Strait outlook | N/A | Unlikely to remain completely shut; plausible reopening at reduced rate over time |
+| New supply entering | Limited | Up to 40 bcm from new US liquefaction plants in 2026 ([[IEA]]) |
+| Coal switching (Asia) | — | ~19 bcm equivalent ([[ICIS]] estimate) |
+| Coal switching (Europe) | Already utilized | ~10 bcm from restarting existing/retired plants in [[Germany]] and [[Italy]] ([[Argus Media]]) |
+| Import infrastructure | Europe had limited LNG terminals, poor interconnections | Largely fixed since 2022 — FSRUs, new terminals, better pipeline links |
+| Complication | — | Iran conflict also disrupts oil market and gas condensates from Qatar, making fuel switching harder |
+
+The FT's core thesis: even worst-case, European prices unlikely to reach 2022 levels. The market started from a different position — pre-conflict, observers worried about a gas glut, not shortage. The combination of new US supply (~40 bcm), coal switching capacity (~29 bcm combined), and improved European infrastructure creates buffers that didn't exist in 2022.
+
+Losers in a supply crunch: poorer import-dependent countries, Middle East petrochemical producers (large consumers of natgas feedstock), and non-US chemical/fertiliser producers — US rivals with cheap shale gas take their clients.
+
+*Source: FT, "This gas crisis is bad — but not as bad as the last one," March 19, 2026.*
+
 ---
 
 ## Investment case

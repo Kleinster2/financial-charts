@@ -112,6 +112,7 @@ See [[US auto affordability]].
 | China | Most competitive, EV leader |
 | Japan | Hybrid focus, EV laggard |
 | India | ICE dominant, EV transition blocked |
+| South Africa | Import-crushed, factory closures |
 
 ### India — losing to China
 
@@ -133,6 +134,23 @@ Nepal case study (Jan 2026):
 Why: India's 0.6% R&D spending (flat for 27 years) means no indigenous EV capability. Chinese tech transfer blocked. Pattern may repeat across South Asia.
 
 *Source: Bloomberg Opinion (Andy Mukherjee), Jan 2026*
+
+### South Africa — crushed by imports
+
+[[South Africa]]'s auto sector is the largest share of manufacturing and rivals mining in GDP contribution. But [[China]]/[[India]] imports are devastating local production:
+
+| Metric | Value |
+|--------|-------|
+| Top-10 sellers SA-built | <1 in 3 (was 9/10 a decade ago) |
+| [[China]] car import share | 27% (2025, from 21% in 2024) |
+| [[China]] truck import share | ~50% (from ~30%) |
+| Nelson Mandela Bay jobs lost (2024) | 41,000 |
+
+[[Chery]] entered 2021, now #3 seller (displaced [[Volkswagen]]). [[Nissan]] exiting after 60+ years, selling plant to Chery. [[Stellantis]], [[Mercedes-Benz]], [[Ford]] all cutting workers or pausing investment. [[Goodyear]] and potentially [[Continental AG]] closing tire factories.
+
+See [[South Africa]] for full detail.
+
+*Source: Bloomberg (Parker/Hill), March 18, 2026*
 
 ---
 
@@ -159,6 +177,7 @@ Why: India's 0.6% R&D spending (flat for 27 years) means no indigenous EV capabi
 - [[Japan]] — auto exports
 - [[Germany]] — premium OEMs
 - [[India]] — losing EV transition
+- [[South Africa]] — auto industry crisis, Chinese/Indian import surge
 
 ---
 

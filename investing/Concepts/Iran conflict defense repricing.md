@@ -157,6 +157,44 @@ The two-front strain is the single most powerful driver of the [[Long global rea
 
 ---
 
+## PrSM first combat use and land-based missile validation (WSJ, March 18)
+
+The US fired Lockheed Martin's **Precision Strike Missile (PrSM)** in combat for the first time on Feb 28 — from HIMARS truck launchers positioned in Gulf states. ATACMS (also LMT) subsequently used to sink Iranian naval vessels and a submarine in port.
+
+Gen. Dan Caine (JCS chairman): the strikes "made history."
+
+**Program significance for LMT:**
+- PrSM is LMT's next-generation tactical missile, replacing ATACMS
+- Range: ~310 miles (500 km); future models up to ~620 miles (~1,000 km)
+- 2 rounds per HIMARS pod (vs. 1 ATACMS)
+- Pentagon accelerated operational readiness by delaying some testing (2025 GAO report)
+- Combat validation removes procurement risk premium — the weapon works as designed under fire
+- Video-verified launches from Bahrain; Iran accused US of firing from UAE at Kharg Island
+
+**Pacific signaling enhances procurement case:**
+Same missiles planned for Philippines and Pacific island deployment to counter Chinese naval forces in a [[Taiwan]] scenario. Combat-proven performance strengthens the case for accelerated procurement across both theaters. Grant Rumley (Washington Institute): use against Iran "will give Chinese military planners another wrinkle to consider."
+
+**Bloomberg production data (March 10-11) — additional rates:**
+
+| System | Current rate | Target | Company |
+|--------|-------------|--------|---------|
+| PAC-3 | ~650/year | 2,000+/year (Jan 2026 framework) | [[Lockheed Martin]] |
+| SM-6/SM-3 | 96/year | 360/year ($225M allocated) | [[RTX]] |
+| Tomahawk | <100/year | — | [[RTX]] |
+| JDAM | 500,000+ in arsenal | — | [[Boeing]] |
+
+>1,000 PAC-3 interceptors consumed in opening days — nearly 2x annual production. Rheinmetall estimated $4B in munitions in first 72 hours. Washington Post: $5.6B in munitions in first 2 days.
+
+**Investment read-through:**
+- PrSM combat validation = reduced program risk, accelerated procurement path
+- PAC-3 tripling (650 → 2,000/year) is LMT's largest production ramp in decades — multi-year revenue driver
+- RTX faces structural Tomahawk problem: <100/year production vs. hundreds consumed in days. Replacement orders are a multi-year tailwind but production capacity is the bottleneck
+- Combined with $50B supplemental, this is the deepest kinetic-driven procurement cycle since the early Iraq War
+
+*Sources: WSJ (March 18, 2026); Bloomberg (March 10-11, 2026)*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note

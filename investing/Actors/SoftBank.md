@@ -181,14 +181,18 @@ US ADR (SFTBY) +3% on results.
 |--------|-------|
 | Ticker | 9984.T (Tokyo) |
 | Market cap | ~$100B |
+| Gross portfolio | ~$320B (S&P, Mar 2026) |
 | NAV | ~$150B+ |
 | Net debt | ~$40B |
-| LTV ratio | ~15% |
+| LTV ratio | ~15% → ~37% (S&P projected, post-OpenAI round) |
+| Arm liquid value | ~$80B (FT, Mar 9) — down from ~$150B+ at peak |
+| Unlisted share | >50% of portfolio (S&P, Mar 2026) |
 
 Discount to NAV: SoftBank typically trades at 30-50% discount due to:
 - Conglomerate structure
 - Masa execution risk
 - Vision Fund volatility
+- Illiquidity of core holdings ([[OpenAI]] position ~$64.6B, per FT, rivals [[Arm Holdings|Arm]] but is private)
 
 ---
 
@@ -232,6 +236,8 @@ SoftBank has placed $10B in orders for ~170 turbines from [[GE Vernova]] and pla
 
 The $3,600/kW implied cost represents a new level in surge pricing for combined-cycle gas turbines. Turbine backlog from [[GE Vernova]], [[Siemens Energy]], and [[Mitsubishi]] has stretched to 4+ years as demand surges alongside AI electricity forecasts.
 
+Eric Gimon ([[Energy Innovation]], non-partisan think-tank) decomposed the $33B: combined-cycle turbines at $2,200-$3,000/kW and combustion turbines (peak-demand units) at $900-$1,700/kW put machine costs alone at $23B-$25B. Remaining $8B-$10B likely goes to gas pipelines, transmission line upgrades, and battery backup. Given the project's scale, most expect phased construction to manage permitting, insurance, and surrounding infrastructure — Gimon: "It could turn into a real morass" if attempted in one shot. Commercial banks are struggling with the risk of concentrating so much funding behind a single project (FT, Mar 12).
+
 Neither [[PJM]] nor Ohio regulators were reportedly aware of the plans, adding to doubts about whether the project is real vs. political signaling.
 
 The LCOE problem: at ~$75-80/MWh, the plant's levelized cost already exceeds prevailing [[PJM]] futures (<$60). Add transmission and the all-in cost approaches ~$100/MWh — similar to what hyperscalers have paid for nuclear PPAs in the region. Gas generation is being priced like nuclear, without nuclear's zero-carbon advantage.
@@ -246,6 +252,14 @@ US gas-fired LCOE jumped 48% in H2 2025 YoY (Bloomberg NEF). The historical cost
 Denning's argument: the old model of building giant power plants to meet peak demand forecasts is unsustainable — economically, environmentally, and politically. A modular approach (smaller gas plants, renewables + [[Batteries|batteries]], demand management) hedges better against demand uncertainty. When gas power is priced like nuclear, developers should focus on demand management — avoiding grid use for a handful of peak hours/year — rather than chasing peaks with expensive, underutilized capacity.
 
 *Source: Bloomberg Opinion (Liam Denning), Feb 25 2026*
+
+### Emissions and political optics
+
+[[Rhodium Group]] (John Larsen) estimates the plant would emit 16.2M tonnes of CO₂/year — the 3rd largest emitting power plant in the US. The top-20 emitting US plants are currently all coal-fired. Gimon estimates 24M-45M tonnes/year including upstream methane leakage — equivalent to 5M-10M cars.
+
+Japanese officials acknowledge the $33B headline is partly political: a number large enough to impress Ohio voters in the 2026 US midterm elections. [[Howard Lutnick]]: "massive America first trade win." One Japanese negotiator involved in discussions: "Son always has big ideas and concepts. Materialising them is not so easy."
+
+*Sources: FT (Harry Dempsey, Jamie Smyth), Mar 12 2026; [[Rhodium Group]]*
 
 ---
 
@@ -264,7 +278,7 @@ Seeking record dollar-denominated bridge loan to fund additional $30B investment
 | OpenAI pre-money | $730B |
 | OpenAI post-money | ~$840B |
 
-**Funding chain:** SoftBank already completed $41B into OpenAI by Dec 2025 (~11% stake). This new $30B would push total investment to ~$71B and stake to ~13%. Combined with $70B+ of AI investments since 2025, the company's balance sheet is now deeply tethered to AI adoption and a potential OpenAI IPO.
+SoftBank already completed $41B into OpenAI by Dec 2025 (~11% stake). This new $30B would push stake to ~13%. FT (Mar 9) reports total input at $64.6B — implying earlier rounds may have involved different terms or the $41B includes unrealized gains. Combined with $70B+ of AI investments since 2025, the company's balance sheet is now deeply tethered to AI adoption and a potential OpenAI IPO.
 
 Asset sales to fund: liquidated entire [[NVIDIA]] stake ($5.8B), sold [[T-Mobile]] stake ($12.7B Jun-Dec 2025), expanded [[Arm Holdings|Arm]] margin loan ($13.5B → $20B). Using Arm as collateral — not selling it.
 
@@ -297,9 +311,13 @@ Bloomberg Intelligence: SoftBank has relied on debt and asset sales to fund $70B
 | Decline | ~50% from peak |
 | Nikkei 225 (same period) | +4% |
 
+On Mar 9, shares fell 9.8% in a single session — more than double the broader Japanese market decline — after reports that [[OpenAI]] and [[Oracle]] had scrapped plans to expand the Abilene [[Project Stargate|Stargate]] campus. Other OpenAI-adjacent stocks similarly punished: [[Oracle]] and [[CoreWeave]] both down 40%+ from SoftBank's late October peak.
+
 Analysts attribute the reversal to concerns over [[OpenAI]]'s potential overextension and rising competition from [[Google|Gemini]]. The race among US chatbot platforms has also been impacted by the growing battlefield role of AI amid the [[Iran conflict economic disruption|Iran conflict]].
 
-*Source: Nikkei Asia (Jada Nagumo), Mar 19, 2026*
+FT (Mar 9, 2026): SoftBank's 2021 share collapse presaged a broader tech bear market that began 8 months later. SoftBank's "size, notoriety and willingness to use debt make it an unusually liquid means of gaining exposure to Big Tech themes" — first to get cut when AI sentiment wavers. Currently "one of the most direct ways for regular investors to make a leveraged bet on [[OpenAI]] — in either direction."
+
+*Sources: FT (Mar 9, 2026); Nikkei Asia (Jada Nagumo, Mar 19, 2026)*
 
 ---
 

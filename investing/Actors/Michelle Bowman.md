@@ -78,6 +78,13 @@ aliases: [Bowman, Miki Bowman]
 - International spillover: [[Bank of England]] and EU delayed their own reforms pending US approach; lenient outcome likely to intensify European bank lobbying for similar easing
 - Full regulatory details expected the following week. Source: FT (Mar 12, 2026)
 
+**Basel III Endgame formal proposals (Mar 19, 2026):**
+- Fed voted 6-1 to issue proposals; [[Michael Barr]] sole dissenter
+- Largest banks: 2.4% less capital (~$20B aggregate); 4.8% with stress-test revisions
+- Midsize banks: 5.2% less (with stress-test revisions); smaller banks: 7.8% less
+- Bowman: *"An important benefit of these proposals is that they would reduce incentives for traditional lending activities — like mortgage origination, mortgage servicing, and lending to businesses — to migrate outside of the regulated banking sector"*
+- 60-day comment period before finalization. Source: WSJ (Mar 19, 2026)
+
 **Prior deregulatory actions (2025):**
 - Made Fed annual stress test more transparent
 - Eased leverage ratio rules

@@ -510,6 +510,7 @@ The energy shock is now forcing real-economy responses across Asia. Governments 
 | [[Indonesia]] | 21-23 days | 381.3T rupiah ($22.6B) energy subsidy package, [[Pertamina]] maintaining price controls | PT Chandra Asri Pacific declared force majeure |
 | [[India]] | — | Suspended LPG to commercial operators, invoked Essential Commodities Act, prioritized household cooking gas | ~1M delivery workers (Swiggy/Zomato) affected by restaurant closures |
 | [[Bangladesh]] | — | Brought forward Eid-al-Fitr holiday (Mar 9), closed universities early | — |
+| [[Sri Lanka]] | — | Four-day workweek to curb diesel use and stretch stocks | — |
 | Myanmar | — | Alternating driving days imposed | — |
 | [[South Korea]] | 208 days | Price cap on petroleum products (President Lee Jae Myung) | 70% of oil from ME; ~1.7M bbl/day held back |
 | [[Japan]] | 254 days | Industry Minister Akazawa did not rule out accessing national reserves | 90% of oil from ME |
@@ -1017,6 +1018,106 @@ The Yanbu ramp is the single most positive supply development since the war star
 
 ---
 
+## Environmental pollution — Tehran oil depot strikes (Mar 8)
+
+Israeli drone strikes hit oil depots and refineries on Tehran's outskirts on March 8, setting fuel ablaze and sending columns of black smoke over the capital metro area (~18.5M people). The smoke mixed with rain clouds, producing toxic black rain that Iranian authorities initially warned could cause chemical burns and lung damage — a recommendation echoed by the [[WHO]]. Senior Iranian officials and state TV later reversed course, urging residents outdoors for state-organized rallies.
+
+The [[Conflict and Environment Observatory]] (CEOBS), a UK nonprofit tracking environmental consequences of conflict, identified 300+ incidents entailing environmental risk from the hostilities as of mid-March. CEOBS CEO Doug Weir: *"it's extremely rare for [oil facility attacks] to be close to a large city like Tehran"* — called the Tehran strike the war's single biggest pollution incident.
+
+### Pre-existing pollution baseline
+
+Tehran was already heavily polluted before the war. Researchers including [[Nejat Rahmanian]] (U of Bradford, chemical/petroleum engineering) have detected high levels of fine particulate matter and heavy metals — lead, cadmium, chromium, nickel — in the city's water and air. The [[Alborz Mountains]] block air circulation and create a thermal inversion that traps pollutants for weeks or months. [[Dimitris Kaskaoutis]] (National Observatory of Athens, decade of Iran pollution research): rain normally washes pollution away, but on March 8 it amplified toxicity — *"these pollutants diluted in the water are much more toxic and can easily be absorbed in our bodies — the nervous system, the blood system, and might affect kidneys, liver and other organs."*
+
+### Health exposure
+
+[[David González]] (UC Berkeley): expects *"acute impacts on respiratory health"* — young children and pregnant women especially vulnerable to the air pollutants from oil fires. With phone and internet communications in [[Iran]] cut since Feb 28 and no environmental sampling possible, the scale of pollution exposure is unknown.
+
+### Gulf War parallel
+
+[[Nejat Rahmanian|Rahmanian]] compared the black rain to a similar event he experienced in Tehran 35 years ago — Iraqi forces set hundreds of Kuwait oil wells ablaze during the 1991 Gulf War, and plumes of soot, hydrocarbons, and sulfur dioxide blew ~1,290 km to Iran. A 2018 study (Jiamao Zhou, Chinese Academy of Sciences) found those plumes accelerated Himalayan glacier melting. The current strikes released pollutants far closer to Tehran, with proportionally greater impact on the metro population.
+
+### Investment-relevant implications
+
+| Channel | Detail |
+|---------|--------|
+| Remediation costs | Unquantified; documentation ongoing ([[Nazanine Moshiri]], Berghof Foundation: *"necessary for accountability and cleanup when the conflict ends"*) |
+| Agricultural contamination | Heavy metals in soil and water near Tehran could persist decades; affects food production in Alborz foothill farmland |
+| Health system burden | Acute respiratory illness in 18.5M population; chronic exposure effects (kidney, liver, nervous system) over years |
+| Regional infrastructure risk | Researchers watching for further attacks on the region's refineries, depots, marine platforms, nuclear sites, and desalination plants |
+
+*Source: Bloomberg, March 14, 2026 (Laura Millan, Aaron Clark). Corrected March 14.*
+
+---
+
+## "Demand destruction has begun" — JPMorgan (March 20)
+
+*Source: FT/JPMorgan (Robin Wigglesworth), March 20, 2026. Report by [[Natasha Kaneva]], Lyuba Savinova, Artem Fakhretdinov.*
+
+[[JPMorgan]]'s commodities team published a comprehensive assessment of Asian demand destruction — the first attempt to quantify the aggregate impact across refined products, petrochemicals, and airlines. The headline: demand isn't being managed. It's collapsing.
+
+### Refined product flows — aggregate data
+
+| Metric | Value |
+|--------|-------|
+| Asian refined product shipments vs 5-month baseline (past 10 days) | Down ~30% |
+| Last week of data (preliminary) | Down ~35% |
+| Jet fuel shipments | Down >40% |
+| Gasoline shipments | Down >30% |
+| Diesel shipments | Down >20% |
+
+Diesel has emerged as the "region's immediate choke point" — surging prices slowing both travel and freight simultaneously.
+
+### Price elasticity of demand — JPMorgan estimates
+
+Short-run global oil demand elasticity: −0.024 — meaning a ~40% price increase above 12-month highs is needed to reduce total consumption by 1%. But elasticity varies sharply by product:
+
+| Product | Elasticity | Why |
+|---------|-----------|-----|
+| Naphtha | Most elastic | Petrochemical plants can partially substitute ethane in cracking |
+| Jet fuel | Relatively responsive | Airlines cancel lightly loaded flights when fuel spikes |
+| Fuel oil | Least elastic | Essential services: home heating, marine transport, power generation |
+
+If Brent averages $100 in March, the price effect alone would trim global demand by ~1 mbd in April — before accounting for grounded Middle Eastern flights and physical shortages.
+
+### Petrochemical shutdowns — country-by-country escalation
+
+The damage is no longer just prices. Physical absence of feedstock is forcing production cuts across Asia. Over 50% of Asian naphtha comes from the Middle East.
+
+[[Japan]]: [[Mitsubishi Chemical]] and [[Mitsui Chemicals]] reduced ethylene runs. [[Sumitomo Chemical]] may delay restarting [[Keiyo Ethylene]], expects reduced rates even after restart. Japan imports over half its naphtha — roughly two-thirds from the Middle East.
+
+[[South Korea]]: [[YNCC]] (Yeochun NCC) declared force majeure, running cracker at significantly reduced rates. [[Lotte Chemical]] and [[LG Chem]] warned customers they may follow. Government designated naphtha an "economic security item" to manage dwindling stocks.
+
+[[China]]: [[Sinopec]] cut March refinery runs by ~10% to conserve crude stocks. [[Shell]]–[[CNOOC]] JV shut Huizhou ethylene cracker, [[Polyethylene|PE]] shipments suspended indefinitely (effective Mar 5). [[Wanhua Chemical]] declared force majeure for Middle Eastern customers amid LPG feedstock disruptions.
+
+[[Taiwan]]: [[Formosa Plastics Group]]'s Taiwan Petrochemical declared force majeure Mar 10, indicated volumes will be allocated based on actual availability if shortages worsen.
+
+[[India]]: Suspended LPG shipments to commercial operators to prioritize households, leading to warnings from hotels and restaurants of forced closures.
+
+[[Indonesia]]: [[Chandra Asri]] operating at reduced rates, declared force majeure after halt in feedstock arrivals.
+
+### Airlines — from cost management to service withdrawal
+
+As jet fuel approaches $200/bbl, carriers are shifting from surcharges to outright route cancellations.
+
+| Carrier | Action |
+|---------|--------|
+| [[Air India]] | $125-200 surcharge per passenger (Asia → Europe/NA long-haul); $4.30 on domestic flights |
+| [[Qantas]], [[Cathay Pacific]], [[IndiGo]] | Phased fuel surcharges introduced |
+| [[SAS]] (Scandinavian Airlines) | Among first carriers to cancel or reduce flights |
+| [[Air New Zealand]] | Among first carriers to cancel or reduce flights |
+
+The Air India surcharges effectively price out leisure travelers for the upcoming summer season.
+
+### "They never knew they could"
+
+The FT reported the most consequential quote of the crisis — from a western official, on Iran's Hormuz strategy:
+
+*"They never knew [they could] until they tried it. Now they know, and it's pretty effective. The risk is they will keep holding the world hostage."*
+
+This reframes the crisis from a one-off disruption to a permanent capability revelation. Even if Hormuz reopens, Iran now has a proven playbook for shutting global energy trade — the [[Hormuz Permanent Risk Premium]] thesis.
+
+---
+
 ## Watch for
 
 Second-order effects not yet tracked in the vault. Check these during each news ingestion session.
@@ -1024,9 +1125,10 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Effect | Why it matters | Status |
 |--------|---------------|--------|
 | Mandatory fuel rationing (SE Asia) | Vietnam <20 days, Indonesia 21-23 — voluntary conservation → rationing if Hormuz stays closed Week 4+ | Untracked |
-| Airline route/capacity cuts | Jet fuel at $230/bbl in Singapore. Airlines cutting routes or grounding planes | Tracked — see [[Iran conflict airline disruption]] (46K flights canceled, $150-200/bbl jet fuel, KLM/Lufthansa/BA/Cathay suspensions through Apr) |
+| Airline route/capacity cuts | Jet fuel approaching $200/bbl. Airlines shifting from surcharges to outright service withdrawal | Tracked — see [[Iran conflict airline disruption]]. JPMorgan (Mar 20): [[Air India]] $125-200 surcharge/pax (long-haul), [[SAS]]/[[Air New Zealand]] first to cancel routes. Asian refined product flows down 35% |
 | Fertilizer shortage → food prices | ~34% of global fertilizer transits Hormuz. Planting season in Northern Hemisphere | Tracked — see [[Fertilizer]] sector note. ~50% of 2-week urea exports disrupted, QAFCO shut, India/Pakistan/Bangladesh plants cut. Urea +40%. FT: "worse than 2022" |
-| Manufacturing shutdowns beyond Rayong Olefins | Petrochemical feedstock (naphtha, propane, ethylene) shortages across Asia | PT Chandra Asri force majeure (Indonesia); [[BASF]] +30% price hike (Ludwigshafen); European chemical plant closures sixfold since 2022 (Roland Berger/Cefic, Bloomberg Mar 19). US is the inverse: PE producers ramping to ~100% operating rates, ethylene 30.25c/lb (highest since Feb 2025), [[Enterprise Products]]/[[LyondellBasell]]/[[Dow]] beneficiaries |
+| Manufacturing shutdowns — petrochemical cascade | Naphtha/propane/ethylene shortages now forcing force majeures across Asia | Escalated significantly (Mar 20 JPMorgan): [[YNCC]] force majeure ([[South Korea]]), [[Lotte Chemical]]/[[LG Chem]] may follow, [[Sinopec]] refinery runs -10%, [[Wanhua Chemical]] force majeure, [[Formosa Plastics Group]] force majeure (Mar 10). Japan: [[Mitsubishi Chemical]]/[[Mitsui Chemicals]] reduced runs, [[Sumitomo Chemical]] Keiyo delay. [[BASF]] +30% Ludwigshafen. US inverse: PE producers at ~100%, ethylene 30.25c/lb |
+| Environmental remediation costs | Post-conflict cleanup of oil depot fires, heavy metal contamination, agricultural land damage — decades-long timeline | Partially tracked — see Environmental pollution section above |
 | Sovereign credit actions | Rating agencies reassessing oil-import-dependent sovereigns (Pakistan, Bangladesh, Sri Lanka) | Untracked |
 | Consumer spending shifts | Gasoline crowds out discretionary — retail, restaurants, travel | India restaurant closures tracked |
 | Gig economy / labor disruption | Delivery workers, ride-hail drivers, trucking | India (~1M workers) tracked |
@@ -1040,7 +1142,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Fed stagflation bind | Oil shock persists → dual mandate stuck (inflation vs unemployment) | Flagged: [[Ed Yardeni]] (Mar 9) 35% meltdown odds; [[Federal Reserve]] held Mar 19, "several" members suggested hikes. Not dedicated section |
 | Paper-physical convergence event | Atlantic basin inventories drawn down → Brent/WTI forced repricing to $150+ | Flagged: [[Natasha Kaneva]] (Mar 18) warned convergence "unlikely" to be avoided if Strait stays closed. [[Jeff Currie]]: "haven't started rebalancing." No timeline section |
 
-*Last reviewed: 2026-03-19*
+*Last reviewed: 2026-03-20*
 
 ---
 
@@ -1061,6 +1163,11 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 - [[Enterprise Products]] — Mont Belvieu ethylene hub; infrastructure beneficiary of US petrochemical export surge
 - [[LyondellBasell]], [[Dow]] — North American PE producers ramping to record operating rates on Hormuz-driven export demand
 - [[Vortexa]] — cargo tracking firm documenting mid-voyage tanker diversions
+- [[Conflict and Environment Observatory]] — 300+ environmental risk incidents tracked from hostilities
+- [[YNCC]] — South Korea's largest ethylene producer; force majeure declared (Mar 20 JPMorgan)
+- [[Wanhua Chemical]] — China's largest MDI producer; force majeure on ME customers (LPG feedstock)
+- [[Mitsui Chemicals]], [[Mitsubishi Chemical]] — Japanese ethylene producers cutting runs
+- [[Sri Lanka]] — four-day workweek imposed to stretch diesel stocks
 - [[Indian Oil]], [[Reliance Industries]] — Indian refiners absorbing ~30M barrels of Russian crude post-waiver
 - [[Global oil trade flows]] — structural rerouting context
 

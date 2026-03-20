@@ -106,6 +106,18 @@ See [[EU-China EV tariffs]] for full deal details.
 
 ---
 
+## South Africa — make or break
+
+VW has been operating in [[South Africa]] since 1951, building VW Polos for all markets outside South America at its plant in Kariega (near Nelson Mandela Bay). ~4,000 direct employees. Made successful SA-only models like the CitiGolf. But the operation faces a "make-or-break year" (VW Group Africa chair Martina Biene, Mar 2026).
+
+VW needs to decide in coming weeks on a large investment to produce a new light pick-up truck — which would keep the line running into the next decade. But the current economic and policy environment doesn't justify proceeding. SA labor costs are 2x [[India]]'s, infrastructure/logistics costs are high, and cheaper [[China]]/India imports are surging: [[Chery]] entered SA in 2021 and by 2025 displaced VW as the country's #3 automaker.
+
+Biene: *"We get beaten up by the imports, mainly from India and China. Which is not a train smash if the playing field would be level."*
+
+*Source: Bloomberg (Parker/Hill), March 18, 2026*
+
+---
+
 ## Investment case
 
 **Bull:**

@@ -68,9 +68,19 @@ Already has major global tech investors as shareholders.
 
 **Bear:**
 - Regulatory risk ([[India]] telecom)
-- Competition (Airtel, Vi)
+- Competition ([[Bharti Airtel]], [[Vodafone Idea]])
 - Profitability of digital ventures unclear
 - Valuation expectations high
+
+---
+
+## Spectrum position
+
+[[Jio Platforms]] was the top bidder in the 2022 spectrum auction, when the government raised ₹1.5T ($17.9B). Since then, demand has cratered — 2024 revenue dropped to ₹113B and the government sold less than 25% of offered spectrum. TRAI proposed a 40% cut in reserve prices across nine frequency bands (Mar 9, 2026), including a 50% cut on the 900MHz band for Delhi/Mumbai.
+
+With the market consolidated to two real players (Jio + [[Bharti Airtel]]), spectrum pricing leverage has shifted decisively to operators.
+
+*Source: FT, Mar 9 2026*
 
 ---
 

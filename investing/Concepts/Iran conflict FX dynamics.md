@@ -92,12 +92,24 @@ USD/JPY range: ¥156.85-158.00, with ¥158 as the intervention line in the sand.
 |----------|--------------------|--------|
 | USD/MXN | +1.8% (peso weaker) | 4th straight dollar advance; risk-off |
 | USD/CNH | +0.4% | Controlled; PBOC setting reference rates lower |
-| USD/INR | Record highs (~92.30) | Gap higher on reopening; RBI intervening |
+| USD/INR | -2.3% (record low ~93.2) | Energy import shock, FPI exits, RBI burning reserves |
+| USD/THB | Worst Asian performer YTD | Thai baht most vulnerable alongside INR |
+| USD/PHP | Weakening | Philippines grouped with India/Thailand by Goldman |
 | KOSPI | -12% (Mar 4 session) | Asia risk-off, but still +21% YTD |
 
 **BBVA (Alejandro Cuadrado):** "EM and Latam currencies are suffering from risk-off exacerbation with the double whammy of higher oil and the new jump in real yields."
 
 Key divergence: oil *exporters* (MXN should benefit from higher crude but peso still weakened — risk-off sentiment overwhelming fundamentals) vs oil *importers* (INR, KRW getting hammered on terms-of-trade deterioration).
+
+### India — the acute case (March 2026)
+
+India is the most detailed case study of the oil-importer FX trap. The [[Reserve Bank of India]] has burned through >$20B in FX reserves in under three weeks defending the [[Indian rupee]], which hit a record low of ~93.2/USD on Mar 19. The RBI's net-short book (forward dollar sales) has grown to >$100B. Despite ₹1T ($10.7B) in government bond purchases in March alone, the 10Y yield has climbed ~0.2pp YTD to ~6.7%.
+
+[[Goldman Sachs]] ranks India alongside [[Thailand]] and [[Philippines]] as the most vulnerable Asian economies to war fallout, forecasting INR at 95/USD over 12 months. Foreign portfolio investors have pulled ~$10B from Indian equities YTD (~$8B in March alone). [[Standard Chartered]] sees the current account deficit widening to 2.5% of GDP from a prior top-end estimate of ~1%, with import cover falling from 10 months toward the 9-month threshold where RBI appetite to defend wanes.
+
+The Gulf dimension is uniquely punishing for India: the region is India's largest trading partner and the source of >$50B in annual remittances from millions of Indian workers — a crucial buffer for external accounts now at risk. See [[Indian rupee]] for the full RBI defense toolkit and analyst views.
+
+*Source: FT, Mar 19 2026*
 
 ---
 

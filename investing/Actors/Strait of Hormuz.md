@@ -77,6 +77,16 @@ The blockade is selective by design. On March 5, [[IRGC]] declared Hormuz closed
 
 Iranian tankers **ironically still getting through** — Tehran's own crude exports continue while blocking everyone else's transit.
 
+### Scale of disruption — Goldman Sachs analysis (Mar 12)
+
+[[Goldman Sachs]] analyst Daan Struyven: ~18M of the 20M bbl/day that normally transit the strait are currently blocked. ~3M bbl/day can be redirected via pipelines, leaving ~15M bbl/day stranded. Producers have shut in ~6.5M bbl/day of crude and ~2M bbl/day of refined products. The shock is also hitting LNG — about 1/5 of global production is halted.
+
+Struyven: *"At the peak of the Russia energy crisis in April of 2022 there was a 1M barrels per day hit to Russian oil production. We already have a 6M barrels per day hit to production. So six times bigger, and from an export perspective, the shock is 15 times bigger than the 2022 shock."*
+
+Iran attacked 3 additional vessels near the strait on Mar 11, even as the US claims its military campaign is working — bringing total vessels attacked to 20+ since Feb 28.
+
+*Source: FT (Jamie Smyth), Mar 12 2026*
+
 ### Vessel transit data — MarineTraffic (as of Mar 13)
 
 ![[hormuz-vessel-traffic-ft-mar13.png]]
@@ -148,4 +158,4 @@ For pipeline bypass options, production shutins, IEA/OPEC response, and US gover
 
 ---
 
-*Updated 2026-03-15*
+*Updated 2026-03-20*

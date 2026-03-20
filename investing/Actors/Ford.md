@@ -128,6 +128,14 @@ Ford led electric pickups despite strategic retreat.
 
 ---
 
+## South Africa operations
+
+[[Ford]] manufactures the Ranger pick-up in Silverton, Pretoria, with capacity for 200,000 units/year. The plant is 600 km from the nearest export terminal. SA CEO Neale Hill: *"it's still cheaper to truck our vehicles than put them on the rail"* — rail costs $37 more per vehicle via state-owned [[Transnet]], which "adds up" at plant capacity. Ford cut 470 jobs at its Silverton and Nelson Mandela Bay factories amid the broader SA auto industry crisis driven by cheaper [[China]]/[[India]] imports.
+
+*Source: Bloomberg (Parker/Hill), March 18, 2026*
+
+---
+
 ## Investment case
 
 **Bull:**

@@ -160,13 +160,40 @@ Strategic partnership announcement expected during PM [[Narendra Modi]] visit th
 
 ---
 
+## RBI FX defense (March 2026)
+
+The [[Reserve Bank of India]] is fighting the most intense FX defense in years, defending the [[Indian rupee]] against [[Operation Epic Fury|Iran conflict]] fallout. Key data from FT (Mar 19):
+
+| Metric | Value |
+|--------|-------|
+| FX reserves burned | >$20B since Feb 28 (~$10B in first week alone) |
+| Reserves level | $563B (down from near all-time $730B incl. gold at end-Feb) |
+| RBI net-short book | >$100B (forward dollar sales) |
+| Bond purchases (Mar) | ₹1T ($10.7B) — record pace |
+| 10Y yield | ~6.7% (+0.2pp YTD) |
+| INR depreciation | -2.3% since Feb 28; record low ~93.2/USD (Mar 19) |
+| FPI equity exits | ~$10B YTD; ~$8B in March |
+| Current account deficit | Could widen to 2.5% of GDP ([[Standard Chartered]]) |
+| Import cover | 10 months; 9-month threshold where RBI defense appetite wanes |
+
+RBI governor [[Sanjay Malhotra]] (FT, Dec 2025): favourable conditions would allow rates to stay low for a "long period" after 1.25pp of cuts. The Iran conflict has reversed both growth/inflation tailwinds.
+
+[[Goldman Sachs]]: INR to 95/USD over 12 months. India ranked alongside [[Thailand]] and [[Philippines]] as most vulnerable Asian economies. [[Emkay Global Financial Services|Emkay Global]]: RBI "cannot hold out if this situation persists." [[Standard Chartered]]: *"India runs the risk of a third year of a balance of payments deficit. The rupee has to be the shock absorber."*
+
+See [[Indian rupee]] for full toolkit and analyst views. See [[Iran conflict FX dynamics]] for the Asia-wide picture.
+
+*Source: FT, Mar 19 2026*
+
+---
+
 ## Risks
 
 | Risk | Impact |
 |------|--------|
 | [[Trump II]] tariffs | Reduced to 18% from 50% (Feb 2026 interim deal) — agri concessions required |
 | [[India sectors]] | Can't build batteries, EVs domestically — lithium finds years from production |
-| [[Indian rupee]] | Persistent depreciation |
+| [[Indian rupee]] | Record low ~93.2; RBI burning reserves at >$20B in 3 weeks |
+| Iran conflict | Energy import bill surging, LPG shortages, FPI flight |
 | Real estate | Construction slowdown — see [[India macro]] |
 
 ---
@@ -191,6 +218,9 @@ Sectors:
 
 Companies:
 - [[Reliance Industries]] — largest company
+- [[Jio Platforms]] — largest telecom (Reliance subsidiary), 400M+ subs
+- [[Bharti Airtel]] — #2 telecom
+- [[Vodafone Idea]] — distant #3, beleaguered
 - [[Larsen & Toubro]] — infrastructure
 - [[HDFC Bank]], [[ICICI Bank]] — top banks
 - [[TCS]], [[Infosys]] — IT services
@@ -199,6 +229,7 @@ Companies:
 
 Events:
 - [[India AI Impact Summit 2026]] — first Global South AI summit (Feb 2026)
+- [[Iran conflict FX dynamics]] — rupee among most exposed EM currencies
 
 ---
 
@@ -288,6 +319,26 @@ The oil dimension is the structural worry: India's current account deficit widen
 
 ---
 
+## LPG crisis — consumer impact (Week 3, March 2026)
+
+India takes 90% of LPG imports from the Middle East. The [[Strait of Hormuz]] closure (Feb 28) created an acute shortage — government invoked the Essential Commodities Act, suspended commercial LPG supply, and prioritized household cooking gas.
+
+| Metric | Detail |
+|--------|--------|
+| Black market LPG price | 2-3x normal (~₹1,900/$20) in New Delhi |
+| Restaurant LPG dependency | 80% of restaurants use LPG (NRAI) |
+| Storage buffer | Most restaurants carry only days of supply |
+| Alternative supply transit time | US LPG: 40+ days to arrive |
+| Emergency supply | At least 2 cargoes secured through Hormuz — fraction of consumption |
+
+The restaurant sector is the visible casualty. Sree Annapoorna (58-year-old chain, 15 banquet halls, Coimbatore) cut its menu and turned away wedding clients on an auspicious Hindu date (Mar 15). CEO Jegan Damodarasamy (Bloomberg, Mar 15): *"We've been in business for about 58 years. This is the first time we've done that."* ~1M delivery workers ([[Swiggy]]/[[Zomato]]) affected by restaurant closures. [[Infosys]] (300,000+ employees) trimmed cafeteria menus, asked staff to bring food from home.
+
+LPG-laden trucks becoming theft targets. Heated arguments at dealerships spilling into scuffles. Smugglers exploiting price differentials across borders (from [[Malaysia]], [[Bangladesh]]).
+
+See [[Iran conflict economic disruption]] for the full Hormuz crisis and [[Nitrogen Trap]] for the fertilizer dimension.
+
+---
+
 ## Russian crude import surge (March 2026)
 
 India had been winding down Russian crude purchases since late 2025 under US pressure, replacing with [[Saudi Arabia|Saudi]] and [[Iraq]]i barrels — which then became unavailable when the [[Strait of Hormuz]] closed (Feb 28). Purchases dropped from a peak of >2M bpd in mid-2024 to an average of 1.06M bpd in February 2026 ([[Kpler]]).
@@ -300,4 +351,21 @@ US Ambassador Sergio Gor called India "a great partner in maintaining stable oil
 
 See [[Iran conflict economic disruption]] for the full Hormuz crisis context and [[Global oil trade flows]] for the rerouting dynamics.
 
-*Created 2026-01-10 · Updated 2026-03-19*
+---
+
+## Telecom & spectrum
+
+India's telecom market consolidated from a dozen operators to effectively two: [[Jio Platforms]] (400M+ subs, Mukesh Ambani) and [[Bharti Airtel]], with [[Vodafone Idea]] a distant, beleaguered third. The consolidation killed spectrum demand.
+
+| Year | Spectrum revenue | % of offered sold |
+|------|-----------------|-------------------|
+| 2022 | ₹1.5T ($17.9B) — [[Jio Platforms]] top bidder | — |
+| 2024 | ₹113B | <25% |
+
+The regulator (TRAI) proposed a 40% cut in reserve prices across all nine frequency bands (Mar 9, 2026). The 900MHz band — most efficient for mobile broadband — got a 50% reserve price cut even for Delhi and Mumbai. The government is sitting on a large pile of unsold spectrum; in 2016 it sold 40% of what it offered, by 2024 less than a quarter.
+
+Satellite spectrum is the next battleground. The telecom department is considering a 5% adjusted gross revenue levy on satellite communication spectrum, above the 4% regulators recommended — risking the same overpricing dynamic that killed terrestrial demand.
+
+*Source: FT India Business Briefing, Mar 9 2026*
+
+*Created 2026-01-10 · Updated 2026-03-20*

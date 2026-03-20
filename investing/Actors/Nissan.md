@@ -29,6 +29,16 @@ Nissan has been one of Mexico's largest automakers for decades:
 
 ---
 
+## South Africa exit
+
+[[Nissan]] abruptly announced it will cease local manufacturing in June 2026 after 60+ years of operations. Facilities sold to [[Chery]] (beginning of 2026). Part of the broader global restructuring that also includes Mexico plant closures.
+
+The exit reflects a pattern of legacy OEMs retreating from SA manufacturing as Chinese and Indian imports capture market share — [[Chery]] entered SA in 2021 and by 2025 displaced [[Volkswagen]] as #3 seller. [[GM]] exited in 2017 after 90 years.
+
+*Source: Bloomberg (Parker/Hill), March 18, 2026*
+
+---
+
 ## Related
 
 - [[Honda]] — failed merger partner (2024-2025)
@@ -38,5 +48,7 @@ Nissan has been one of Mexico's largest automakers for decades:
 - [[Japan]] — home market
 - [[COMPAS Mexico plant sale 2026]] — plant sale event
 - [[Mexico]] — major manufacturing base
+- [[South Africa]] — exiting after 60+ years
+- [[Chery]] — acquiring SA manufacturing facilities
 
 *Created 2026-02-13*
