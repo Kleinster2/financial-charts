@@ -155,6 +155,27 @@ The two-front strain is the single most powerful driver of the [[Long global rea
 
 *Sources: Stars and Stripes (Mar 12), Newsweek, Asia Times, CNAS, CNBC (Mar 10), Korea Times (Mar 11), CRS IN12668 (Mar 13)*
 
+### PIPIR response — distributed manufacturing in the Pacific (March 20)
+
+The **Partnership for Indo-Pacific Industrial Resilience (PIPIR)** — set up by the Pentagon in May 2024 — held a virtual meeting on March 19 and announced concrete steps to build weapons production capacity closer to flashpoints. Membership expanded from 14 to **16 countries** (added **Thailand** and the **United Kingdom**).
+
+Three programs announced:
+
+| Program | Lead | Significance |
+|---------|------|--------------|
+| **Solid rocket motor production** | [[Japan]] | Addresses the single biggest munitions bottleneck — rocket motors. US relies on Radford AAP (Virginia) as primary production facility. Japanese-led line creates first allied rocket motor capacity in the Pacific. |
+| **Drone common standards & shared supply chains** | Multi-member | Batteries, small motors, multi-use military drones. Building the distributed drone industrial base the Iran war proved essential. |
+| **30mm ammunition assembly facility** | [[Philippines]] | Load, assemble, package 30mm cannon rounds (Apache, A-10, CIWS). Puts manufacturing at the First Island Chain's tip — pre-positioning production, not just weapons. |
+
+**Why this matters for the two-front thesis:**
+The Iran war demonstrated that munitions consumption outpaces production by orders of magnitude (>1,000 PAC-3 interceptors in opening days vs ~650/year production). If the US simultaneously faced a Pacific contingency, stockpiles would be exhausted faster than domestic industrial base can replenish. PIPIR's answer: don't ship from the US — build it *there*.
+
+UK's inclusion bridges NATO and Indo-Pacific industrial bases. Thailand is a strategic addition — a non-treaty ally with manufacturing capacity and geographic position between the South China Sea and Indian Ocean.
+
+**Investment read-through:** Structural tailwind for defense primes with international co-production programs ([[Lockheed Martin]], [[RTX]], [[Northrop Grumman]]). Japanese defense-industrial expansion benefits [[Mitsubishi Heavy Industries]], [[IHI Corporation]] (Japan's primary rocket motor producer). Philippines 30mm line likely benefits [[General Dynamics]] (30mm is GD-OTS domain) or [[Nammo]] (Norwegian, 30mm specialist). The broader signal: Pacific allied defense spending is being institutionalized through multinational manufacturing, not just procurement — stickier revenue with longer tails.
+
+*Source: Reuters (March 20, 2026)*
+
 ---
 
 ## PrSM first combat use and land-based missile validation (WSJ, March 18)

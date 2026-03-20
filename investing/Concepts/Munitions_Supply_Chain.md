@@ -173,6 +173,17 @@ Raw Materials → Energetics/Propellant → Metal Components → Assembly → QA
 **Strategic Implications:**
 Countries with vertically integrated munitions capacity (South Korea, increasingly Germany) possess significant strategic advantages in both defense capability and export potential. The Western model's over-reliance on single-point-of-failure facilities creates vulnerability that requires either massive redundant investment or acceptance of strategic dependence on allies.
 
+## Indo-Pacific distributed manufacturing (PIPIR, March 2026)
+
+The 2026 Iran conflict exposed the fatal flaw in the centralized GOCO model: when munitions consumption outpaces domestic production by 2-3x, the US can't simultaneously supply a Middle East war and maintain Pacific deterrence. PIPIR (Partnership for Indo-Pacific Industrial Resilience, est. May 2024) is the institutional fix — building production capacity *at* the flashpoints rather than shipping from US factories.
+
+Key March 20 announcements:
+- **Japan-led solid rocket motor production** — directly addresses the Radford AAP single-point-of-failure problem. First allied rocket motor capacity in the Pacific theater.
+- **Philippines 30mm ammunition assembly** — load/assemble/package facility at the First Island Chain. Pre-positioned manufacturing, not just pre-positioned weapons.
+- **Multi-nation drone supply chains** — common standards for batteries, small motors, platforms across 16 member states (US, Japan, Australia, India, South Korea, Philippines, Thailand, UK, and others).
+
+This represents a structural shift from the traditional model (produce in US → ship to allies) toward distributed manufacturing (co-produce in-theater). The investment implication: defense revenue shifts from pure US procurement toward multinational co-production contracts with longer tails and stickier relationships. See [[Iran conflict defense repricing#PIPIR response]].
+
 ## Related
 
 - [[Munitions]] - Broader munitions sector overview
