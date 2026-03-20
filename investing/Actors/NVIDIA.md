@@ -797,6 +797,34 @@ This effectively ends the H200-for-China chapter that began with the Jan 14 appr
 
 ---
 
+## GTC 2026: Open model strategy + Nemotron 3 (March 17-20)
+
+### Nemotron 3 family
+
+NVIDIA launched the [[Nemotron 3]] family of open-weight models — the flagship product of a $26B five-year open model investment (confirmed by Wired). The logic: NVIDIA is the only company that can afford to give away frontier models because it makes the money back on hardware.
+
+**[[Nemotron 3|Nemotron 3 Super]]** (available now): 120B params / 12B active, hybrid Mamba-Transformer MoE, 1M context window, NVFP4 on Blackwell. #1 on DeepResearch Bench I & II, SWE-Bench Verified 60.47%. 5x throughput vs previous gen. Adopted by [[Perplexity]], [[Palantir]], [[Siemens]], [[Cadence]], [[Dassault Systèmes]]. Available on [[Google Cloud]], [[Oracle]], [[AWS]], [[Microsoft]] Azure.
+
+**[[Nemotron 3|Nemotron 3 Ultra]]** (coming soon): Jensen called it "the best base model the world's ever created." Foundation for [[Sovereign AI race|sovereign AI]] — any country can fine-tune it without dependence on closed providers. Released with 10T+ tokens of training data, 15 RL environments, and full eval recipes.
+
+Also: Nemotron 3 Omni (multimodal), VoiceChat (real-time conversation), safety models, and retrieval pipeline.
+
+### Nemotron Coalition
+
+[[Nemotron Coalition]]: eight AI labs collaborating to build open frontier models using NVIDIA [[DGX Cloud]] compute. Founding members: [[Black Forest Labs]], [[Cursor]], [[LangChain]], [[Mistral]], [[Perplexity]], [[Reflection AI]], [[Sarvam]], [[Thinking Machines Lab]] ([[Mira Murati]]). First project: base model co-developed with [[Mistral]] (toward Nemotron 4), open-sourced on release.
+
+Strategic parallel to CUDA: give away the model ecosystem, sell the inference silicon. Every organization fine-tuning Nemotron models on NeMo runs best on NVIDIA GPUs.
+
+### NemoClaw
+
+[[NemoClaw]] — enterprise-grade agent platform built on [[OpenClaw]]. Jensen compared OpenClaw to Linux, HTTP, and Kubernetes ("every company needs an OpenClaw strategy"). NemoClaw adds enterprise security, privacy controls, and NeMo/NIM integration. NVIDIA uses OpenClaw internally. Built in collaboration with [[Peter Steinberger]].
+
+### Open model portfolio (nine domains)
+
+NVIDIA now claims frontier models in every major AI domain: Nemotron (language/agentic), [[Cosmos]] (physical AI), Alpamayo (autonomous vehicles), [[Groot]] (humanoid robotics), [[BioNeMo]] (biology), Earth2 (climate), plus financial services, healthcare, and telecom models. Jensen: "We are now at the frontier of every single domain of AI models."
+
+---
+
 ## Related
 
 - [[Jensen Huang]] — CEO and founder
@@ -838,3 +866,9 @@ This effectively ends the H200-for-China chapter that began with the Jan 14 appr
 - [[India AI Impact Summit 2026]] — [[Jensen Huang]] withdrew Feb 14 ("unforeseen circumstances")
 - [[Deepwater Asset Management]] — [[Gene Munster]]'s firm, owns NVDA, Pressure Points podcast
 - [[Jensen 1000x compute thesis]] — 1,000x compute demand vs traditional infrastructure (Q4 FY26 call)
+- [[Nemotron 3]] — open model family (Super, Ultra, Omni, VoiceChat) — $26B open model investment
+- [[Nemotron Coalition]] — eight-lab consortium for open frontier models (GTC 2026)
+- [[NemoClaw]] — enterprise OpenClaw agent platform (GTC 2026)
+- [[Mistral]] — Nemotron Coalition partner, co-developing Nemotron 4
+- [[Thinking Machines Lab]] — Nemotron Coalition partner ([[Mira Murati]])
+- [[Sovereign AI race]] — Nemotron Ultra positioned for national AI fine-tuning

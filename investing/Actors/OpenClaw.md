@@ -229,9 +229,17 @@ Mason Mei, 31, employee at a state-owned financial institution: spent ~RMB 40 in
 
 A 21-year-old consultant reported already fielding more requests for deletion than installation: *"Some people fantasised about what OpenClaw might do, but in reality it doesn't work very well, and they worry it could create security risks or take up storage."*
 
-### Jensen Huang / GTC endorsement
+### Jensen Huang / GTC endorsement — "What's your OpenClaw strategy?"
 
-At [[NVIDIA]]'s GTC conference (Mar 17, 2026), [[Jensen Huang]] compared OpenClaw to Linux — framing it as a foundational open-source platform for the agent era. This is the highest-profile corporate endorsement to date.
+At [[NVIDIA]]'s GTC conference (Mar 17, 2026), [[Jensen Huang]] gave extended treatment to OpenClaw, placing it alongside Linux, HTTP/HTML, and Kubernetes as foundational open-source infrastructure. His exact framing: "For the CEOs, the question is, what's your OpenClaw strategy? We need it. We all have a Linux strategy. We all needed to have an HTTP/HTML strategy, which started the internet. We all needed to have a Kubernetes strategy, which made it possible for mobile cloud to happen. Every company in the world today needs to have an OpenClaw strategy, an agentic systems strategy."
+
+He described OpenClaw as the fastest-adopted open-source project in history — "surpassing what Linux achieved in thirty years within a matter of weeks."
+
+NVIDIA responded with [[NemoClaw]] — an enterprise-grade agent platform built on OpenClaw, adding security, privacy controls, and integration with NVIDIA's NeMo AI suite and NIM microservices. Jensen said OpenClaw is already used throughout NVIDIA internally. Built in collaboration with [[Peter Steinberger]].
+
+Also announced: [[Nemotron 3]] open model family and the [[Nemotron Coalition]] (eight AI labs including [[Mistral]], [[Perplexity]], [[Cursor]], [[Thinking Machines Lab]]) to build frontier open models — the model layer that runs inside OpenClaw-style agents.
+
+This is the highest-profile corporate endorsement to date. Jensen is doing what he does best: declaring an open-source project as inevitable infrastructure, then positioning NVIDIA as the enterprise layer on top.
 
 ---
 
