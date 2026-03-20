@@ -65,6 +65,26 @@ Paul Sankey ([[Sankey Research]], March 14): *"The market has been seeing the un
 | Gold | [[GLD]], [[Newmont|NEM]] | Geopolitical risk bid doesn't fully revert |
 | Nuclear | [[Constellation Energy|CEG]], [[Cameco|CCJ]] | Domestic energy security narrative strengthens |
 
+## Hormuz bypass — the pipeline question
+
+Netanyahu pitched (March 19, 2026) building oil and gas pipelines "west through the Arabian Peninsula, right up to Israel, right up to our Mediterranean ports" to permanently bypass Hormuz and Bab el-Mandeb. This is the market-relevant structural question: if the Hormuz risk premium is permanent, who profits from bypass infrastructure?
+
+**Existing bypass capacity:**
+- **Eilat-Ashkelon Pipeline (EAPC):** Built 1968 for Iranian Shah-era oil (Red Sea → Mediterranean). Operational but minimal throughput; politically dormant since the Revolution. Netanyahu's proposal is essentially a revival/expansion of this concept with Saudi/Gulf oil.
+- **East-West Pipeline (Petroline):** Saudi Arabia, 5M bbl/day capacity, Abqaiq → Yanbu (Red Sea). Already operational — Saudi's existing Hormuz bypass.
+- **Abu Dhabi Crude Oil Pipeline (ADCOP):** UAE, 1.5M bbl/day, Habshan → Fujairah (Indian Ocean, outside the Strait). Operational since 2012.
+- **Iraq-Turkey Pipeline (Kirkuk-Ceyhan):** 1.6M bbl/day capacity (historically). Currently ~450K bbl/day. Mediterranean terminus. Damaged repeatedly but repairable.
+
+**Why a new Israel-terminus pipeline is politically near-impossible now:**
+1. Gulf states whose infrastructure was just destroyed by Iranian retaliation *triggered by Israel's strike* are not routing critical infrastructure through Israel.
+2. Route crosses Saudi Arabia — MBS requires Palestinian statehood for normalization, which Netanyahu's coalition rejects.
+3. Israel's Mediterranean ports (Ashkelon, Haifa) are themselves within range of Hezbollah and future adversary missiles — the pipeline doesn't actually eliminate the vulnerability, it redistributes it.
+4. Construction timeline: 5-10 years minimum for a transnational pipeline of this scale. The risk premium reprices now; infrastructure arrives (if ever) in the 2030s.
+
+**What *could* actually get built:** Expansion of existing Saudi Petroline and UAE ADCOP capacity. These are sovereign-territory pipelines with no Israeli political risk. If the Hormuz premium persists, Saudi Arabia and UAE have strong incentive to increase Red Sea/Indian Ocean export capacity — which they control end-to-end.
+
+**Investment implication:** The bypass question favors Saudi/UAE sovereign infrastructure plays over the Netanyahu vision. Watch for Saudi Aramco capex allocation toward Yanbu terminal expansion and UAE investment in Fujairah as a non-Hormuz export hub. For listed equities, pipeline/terminal operators and Red Sea port infrastructure names benefit.
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — the event that created the premium
