@@ -176,7 +176,15 @@ Blowout quarter — first time crossing $1B quarterly net income.
 | Key customers | [[Microsoft]], [[Meta]] |
 | Q1 2026 guide | $2.6B |
 
-*Updated 2026-02-13*
+*Updated 2026-03-20*
+
+---
+
+## OFC 2026
+
+Launched eXtra-dense Pluggable Optics (XPO) transceivers — 4× per-rack bandwidth vs OSFP with 75% smaller footprint. Mass production 2027. 40+ MSA members backing the XPO standard. Targeting hyperscaler AI training networks specifically. See [[OFC 2026]].
+
+XPO is Arista's answer to the density wall: current OSFP cages are too large for next-gen switch linecards that need 51.2T+ bandwidth. By shrinking the transceiver form factor, Arista can pack more optical ports per switching ASIC — critical for AI cluster scale-out where every GPU needs multiple high-bandwidth links.
 
 ---
 
@@ -192,4 +200,6 @@ Blowout quarter — first time crossing $1B quarterly net income.
 - [[AI hyperscalers]] — customer category
 - [[Data Centers]] — customer vertical
 - [[AI infrastructure]] — growth driver
+- [[OFC 2026]] — XPO launch
+- [[Ciena]] — competing CPO approach (Vesta)
 

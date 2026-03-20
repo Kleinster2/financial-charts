@@ -80,7 +80,13 @@ Lightmatter betting on photonics winning long-term.
 | HQ | Mountain View, CA |
 | CEO | Nick Harris |
 
-*Updated 2026-01-05*
+*Updated 2026-03-20*
+
+---
+
+## OFC 2026
+
+Demonstrated 800Gbps bidirectional link on a single fiber using microring transceivers — a different approach to optical interconnect than the incumbent pluggable/CPO architectures. Microring resonators are Lightmatter's core IP: they modulate light on-chip at the silicon level, potentially enabling tighter integration with compute ASICs than external laser approaches. CPO startup to watch. See [[OFC 2026]].
 
 ---
 
@@ -91,3 +97,4 @@ Lightmatter betting on photonics winning long-term.
 - [[Groq]] — alternative AI chip approach
 - [[Cerebras]] — alternative AI chip approach
 - [[Power constraints]] — photonics = power efficiency
+- [[OFC 2026]] — 800Gbps microring demo

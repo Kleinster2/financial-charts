@@ -128,7 +128,24 @@ Jensen sees telecom as AI enabler.
 | NVIDIA stake | $1B / 2.9% |
 | Focus | [[5G]]/6G AI-RAN |
 
-*Updated 2026-01-01*
+*Updated 2026-03-20*
+
+---
+
+## OFC 2026
+
+Unveiled modular "building block" coherent transport suite targeting 2027. See [[OFC 2026]].
+
+| Product | Spec |
+|---------|------|
+| Pluggables | 1.6T and 2.4T |
+| Coherent lite | 3.2T for campus |
+| CPO | Double-sided pluggables |
+| Multi-rail amplifier | 160 fiber pairs per rack (40× density improvement) |
+| Shipping | H2 2026 |
+| TCO target | 70% reduction |
+
+The differentiator is vertical integration — Nokia designs both the DSP and the optical front-end, unlike competitors who source components separately. The multi-rail amplifier (160 fiber pairs per rack vs traditional ~4) is the headline spec.
 
 ---
 
@@ -138,4 +155,5 @@ Jensen sees telecom as AI enabler.
 - [[Arista Networks]] — peer (network infrastructure)
 - [[Cisco]] — competitor (enterprise networking)
 - [[Marvell]] — partner (custom silicon for networking)
+- [[OFC 2026]] — modular coherent transport launch
 

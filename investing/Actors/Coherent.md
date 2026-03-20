@@ -116,7 +116,23 @@ Coherent + II-VI merger created dominant optical player.
 | Focus | Optical components |
 | Key product | 800G transceivers |
 
-*Updated 2026-03-02*
+*Updated 2026-03-20*
+
+---
+
+## OFC 2026
+
+Went all-in on co-packaged optics (CPO), demonstrating three distinct architectures — the broadest CPO portfolio shown by any vendor. See [[OFC 2026]].
+
+| Demo | Architecture |
+|------|-------------|
+| 6.4T (32×200G) socketed silicon photonics CPO | External laser source |
+| Multimode VCSEL socketed CPO | Short-reach |
+| 400G InP modulator on silicon | III-V on silicon integration |
+
+Also showed 400mW CW lasers for CPO, 200G EMLs for 1.6T pluggables, and differential EMLs targeting 400G/lane for future 3.2T. Co-founded the Open CPX MSA (with [[Ciena]], [[Marvell]], Molex, Samtec, TeraHop) to standardize optical engine specs.
+
+Added to the S&P 500 during OFC week. Stock ~$247.
 
 ---
 
@@ -136,3 +152,5 @@ Recent financials: Q2 FY2026 revenue $1.69B (+17% YoY), non-GAAP EPS $1.29 (beat
 - [[NVIDIA]] — adjacent (GPU clusters need optical)
 - [[AI hyperscalers]] — end customers (800G/1.6T demand)
 - [[Broadcom]] — competitor (silicon photonics)
+- [[OFC 2026]] — three CPO architectures, S&P 500 addition
+- [[Ciena]] — Open CPX MSA co-member

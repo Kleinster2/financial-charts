@@ -125,10 +125,18 @@ EML technology leadership = differentiated position.
 
 ---
 
+## OFC 2026
+
+Joint demo with [[Marvell]]: COLORZ 800 ZR/ZR+ DCI interop with Lumentum's R300 Optical Circuit Switch — demonstrating end-to-end data center interconnect with optical switching. The R300 is Lumentum's play to replace electrical patch panels in AI clusters with programmable optical switching fabric. See [[OFC 2026]].
+
+---
+
 ## Related
 
 - [[Coherent]] — customer (transceiver maker)
 - [[Fabrinet]] — contract manufacturer
 - [[Arista Networks]] — adjacent (network OEM)
-- [[NVIDIA]] — adjacent (GPU clusters need optical)
+- [[NVIDIA]] — strategic investor ($2B, GPU clusters need optical)
 - [[AI hyperscalers]] — end customers (800G/1.6T demand)
+- [[Marvell]] — COLORZ 800 / R300 joint demo at OFC 2026
+- [[OFC 2026]] — R300 Optical Circuit Switch demo

@@ -182,9 +182,26 @@ Bear:
 | Focus | Custom silicon, networking |
 | Strength | Optical DSPs |
 
-*Updated 2026-03-10*
+*Updated 2026-03-20*
 
 ![[mrvl-price-chart.png]]
+
+---
+
+## OFC 2026
+
+20+ demos spanning the full AI connectivity stack — the broadest showing of any silicon vendor at the conference. See [[OFC 2026]].
+
+| Product | Spec | Layer |
+|---------|------|-------|
+| Aquila | 1.6T coherent-lite DSP | Data center interconnect |
+| Ara | 1.6T PAM4 optical DSP (industry-first 8×200G TRO) | Rack-to-rack |
+| Die-to-die | 3nm interconnect | Chiplet |
+| SerDes | PCIe 8.0 at 256GT/s | I/O |
+| CXL | Memory expansion | Memory disaggregation |
+| COLORZ 800 | ZR/ZR+ DCI interop with [[Lumentum]] R300 Optical Circuit Switch | DCI |
+
+Co-founded the Open CPX MSA (with [[Ciena]], [[Coherent]], Molex, Samtec, TeraHop) for co-packaged/near-package interconnect optical engine specs. The message: Marvell owns the silicon layer from chip-to-chip through rack-to-rack.
 
 ---
 
@@ -199,4 +216,7 @@ Bear:
 - [[XConn Technologies]] — acquisition (CXL switches)
 - [[Advanced packaging]] — context (EMIB exploration for Marvell chips)
 - [[Intel]] — potential packaging partner (EMIB)
+- [[OFC 2026]] — 20+ demos, full-stack AI connectivity
+- [[Ciena]] — Open CPX MSA co-member
+- [[Lumentum]] — COLORZ 800 / R300 joint demo
 
