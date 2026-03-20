@@ -28,6 +28,14 @@ OPEC member and 5th largest oil producer globally (~4.5M bbl/day). Rumaila is th
 
 ---
 
+## Force majeure declaration (Mar 20, 2026)
+
+Baghdad declared force majeure on ALL oilfields operated by foreign companies — [[Exxon]] (West Qurna), [[BP]] (Rumaila, world's largest oilfield), [[Shell]], [[TotalEnergies]], [[Eni]] — because it cannot ship crude through the [[Strait of Hormuz]]. This is a legal/contractual break, not just a transit disruption: triggers clauses that may allow operators to suspend investment and creates uncertainty around revenue-sharing agreements. Iraq depends on oil for ~90% of government revenue.
+
+The Kirkuk-Ceyhan pipeline (restarted Mar 18 at 250K bpd) is the only alternative, but cannot handle Iraq's 4.5M bbl/day output. Kuwait and Qatar — also 100% Hormuz-dependent — have no pipeline bypass at all.
+
+---
+
 ## Related
 
 - [[Fuel oil]] — major consumer for power generation

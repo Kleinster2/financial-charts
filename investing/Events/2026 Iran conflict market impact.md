@@ -707,6 +707,81 @@ North Field expansion ($80B+ project, target 142 mtpa by 2030) halted — could 
 
 ---
 
+## Day 22 — March 20 (Iraq force majeure, Kuwait strikes, fourth losing week)
+
+### Conflict developments (Mar 20)
+
+- **[[Iraq]] declared force majeure on ALL oilfields operated by foreign companies** — cannot ship crude through [[Strait of Hormuz]] (Reuters, citing Iraq oil ministry sources). This strands ~4.5M bbl/day of production beyond what the Kirkuk-Ceyhan pipeline (250K bpd) can reroute
+- **Drones struck [[Kuwait]]'s Mina Al-Ahmadi and Mina Abdullah refineries** (Thursday night) — first direct hits on Kuwaiti refining infrastructure since the war began. [[Kuwait]] has no pipeline bypass; 100% Hormuz-dependent
+- **Iran and Israel exchanged strikes overnight** — no de-escalation signal
+- **Pentagon sending thousands of additional Marines** to the Middle East (WSJ, citing US officials). CBS News: "heavy preparations" for sending ground troops to Iran, citing multiple sources
+- **Netanyahu:** Israel helping US "in intel and other means" to open the Strait of Hormuz; claimed Iran lost ability to enrich uranium and make ballistic missiles
+- **Six European leaders + Japan** issued joint statement on "readiness to contribute to safe passage through the Strait"
+
+### Market snapshot (Mar 20 closes)
+
+| Asset | Close | Day move | Notes |
+|-------|-------|----------|-------|
+| S&P 500 | 6,506.48 | **-1.51%** | Came back from worse intraday |
+| Dow | 45,577.47 | **-0.96%** (-444 pts) | |
+| Nasdaq | 21,647.61 | **-2.01%** | |
+| Russell 2000 | — | **-2%+** | Slipped into correction territory (10% from highs) |
+| Brent crude | **$112.19** | **+3.26%** (+$3.54) | **+8.7% for the week** |
+| WTI crude | **$98.32** | **+2.27%** (+$2.18) | |
+
+Fourth consecutive losing week. 80% of S&P 500 stocks traded in the red. At their lows, both the Dow and Nasdaq briefly entered correction territory before recovering slightly.
+
+### Iraq force majeure — why it matters
+
+Iraq's force majeure is qualitatively different from the existing Hormuz blockade. Until now, Iraqi crude was *blocked* from shipping — a transit problem. The force majeure is a *legal and contractual* declaration that Iraq cannot fulfill its obligations to foreign operators ([[Exxon]] at West Qurna, [[BP]] at Rumaila, [[Shell]], [[TotalEnergies]], [[Eni]]). This:
+
+- Triggers contractual provisions that may allow operators to suspend investment/operations
+- Creates legal uncertainty around revenue-sharing agreements
+- Signals Baghdad believes the blockade has no near-term resolution — you don't declare force majeure for a week-long disruption
+- Could accelerate the push to restart the northern KRG pipeline route, but political constraints between Baghdad and Erbil limit capacity
+
+### Oil — approaching the "oh dear" moment
+
+Brent at $112.19 validates the [[Kpler]] supply gap thesis from Day 16. Matt Smith's "oh dear moment" — when pre-conflict cargoes in transit are exhausted and replacements don't arrive — appears to be materializing. The trajectory:
+
+| Date | Brent | WTI | Key catalyst |
+|------|-------|-----|-------------|
+| Pre-strike (~Feb 27) | ~$70 | ~$65 | Baseline |
+| Day 9 (Mar 7) | $92.69 | $90.90 | Worst week since October |
+| Day 15 (Mar 14) | >$100 | $98.71 | Breached $100, US producer windfall |
+| Day 18 (Mar 18) | $107.38 | $96.32 | South Pars/Ras Laffan escalation |
+| **Day 22 (Mar 20)** | **$112.19** | **$98.32** | Iraq FM + Kuwait strikes |
+
+Brent has risen **+60%** from pre-strike levels. [[RBC Capital Markets]] target of $128 (set on Day 15) now looks conservative if the Iraq FM + Kuwait refinery damage compounds the existing supply gap.
+
+### Ground troops — the escalation signal
+
+The Marines deployment shifts the conflict from air/naval operations to potential ground engagement. If ground troops enter Iran — even for coastal degradation operations to secure Hormuz transit — the duration premium reprices significantly upward. The [[Simon Gass]] "short war" thesis (Day 19) assumed air strikes exhausting target lists; ground operations suggest Washington has concluded air power alone won't reopen the strait.
+
+Baird strategist Ross Mayfield: "If this is an escalation involving troops on the ground, then we're probably in for at least a couple more weeks of this sort of market."
+
+B. Riley's Art Hogan: "It's not unusual in the environment we're in, with the amount of uncertainty we have, to have a 10% correction in any index."
+
+### Other notable movers (Mar 20)
+
+| Ticker | Move | Catalyst |
+|--------|------|----------|
+| [[Super Micro Computer\|SMCI]] | **-30.4%** | Co-founder indicted for $2.5B chip smuggling to China (unrelated to conflict) |
+| [[Venture Global]] | +10% | LNG stocks surging on supply disruption (+20% this week) |
+| [[NextDecade]] | +9% | LNG play (+37% this week) |
+| [[Cheniere Energy]] | +2% | LNG (+14% this week, +22% MTD) |
+| [[FedEx]] | Up | Raised full-year profit forecast |
+
+LNG stocks are the clearest conflict trade — [[QatarEnergy]]'s multi-year force majeure (17% of capacity offline 3-5 years) is redirecting global LNG contracts toward US exporters.
+
+### Day 22 synthesis
+
+The Iraq force majeure, Kuwait refinery strikes, and Marines deployment collectively signal that the conflict is deepening, not resolving. Each represents a new layer of escalation: Iraq's FM is a legal/contractual break (not just a transit disruption); Kuwait strikes extend Iran's targeting to infrastructure that was previously untouched; ground troops preparation implies air power has reached its limits for reopening Hormuz. The fourth consecutive losing week and the Russell 2000 entering correction territory suggest equity markets are finally abandoning the "short war, buy the dip" thesis that held through Days 3-5. The next threshold to watch: S&P 500 correction (currently -7% from highs, needs -10%), and Brent $120 (RBC's $128 target increasingly in range).
+
+*Source: CNBC (Mar 20), Reuters (Iraq FM), CBS News (Marines)*
+
+---
+
 ## Related
 
 - [[US-Iran nuclear escalation February 2026]] — pre-strike market reaction and scenario analysis (Feb 18)

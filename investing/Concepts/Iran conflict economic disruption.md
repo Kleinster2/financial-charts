@@ -1108,6 +1108,30 @@ As jet fuel approaches $200/bbl, carriers are shifting from surcharges to outrig
 
 The Air India surcharges effectively price out leisure travelers for the upcoming summer season.
 
+---
+
+## Iraq force majeure + Kuwait refinery strikes (March 20)
+
+Two developments on the same day that extend the conflict's economic damage into new dimensions.
+
+### Iraq force majeure — all foreign-operated oilfields
+
+[[Iraq]]'s oil ministry declared force majeure on ALL oilfields operated by foreign companies (Reuters, citing ministry sources). Baghdad cannot ship crude through the [[Strait of Hormuz]]. Affected operators: [[Exxon]] (West Qurna), [[BP]] (Rumaila — world's largest oilfield), [[Shell]], [[TotalEnergies]], [[Eni]].
+
+This is qualitatively different from the existing Hormuz blockade. Force majeure is a legal/contractual declaration — it triggers clauses that may allow operators to suspend investment, creates uncertainty around revenue-sharing agreements, and signals Baghdad believes the blockade has no near-term resolution. Iraq depends on oil for ~90% of government revenue.
+
+The Kirkuk-Ceyhan pipeline (restarted Mar 18 at 250K bpd) is the only alternative route, but it cannot handle Iraq's 4.5M bbl/day output. The gap is ~4.25M bbl/day of stranded production.
+
+Oil prices jumped on the news: Brent closed $112.19 (+3.26%), WTI $98.32 (+2.27%). The afternoon selloff in equities accelerated after the Reuters headline.
+
+### Kuwait refinery strikes
+
+Drones struck [[Kuwait]]'s Mina Al-Ahmadi and Mina Abdullah refineries on Thursday night — the first direct hits on Kuwaiti refining infrastructure since the war began. Combined capacity: ~640K bbl/day. Kuwait has no pipeline bypass and is 100% dependent on [[Strait of Hormuz]] for exports.
+
+Iran extending its targeting to Kuwait — which had been spared physical infrastructure attacks until now — signals the conflict is widening geographically. The IRGC had named Kuwaiti facilities as potential targets alongside Saudi and Qatari sites on March 18.
+
+---
+
 ### "They never knew they could"
 
 The FT reported the most consequential quote of the crisis — from a western official, on Iran's Hormuz strategy:
@@ -1142,7 +1166,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Fed stagflation bind | Oil shock persists → dual mandate stuck (inflation vs unemployment) | Flagged: [[Ed Yardeni]] (Mar 9) 35% meltdown odds; [[Federal Reserve]] held Mar 19, "several" members suggested hikes. Not dedicated section |
 | Paper-physical convergence event | Atlantic basin inventories drawn down → Brent/WTI forced repricing to $150+ | Flagged: [[Natasha Kaneva]] (Mar 18) warned convergence "unlikely" to be avoided if Strait stays closed. [[Jeff Currie]]: "haven't started rebalancing." No timeline section |
 
-*Last reviewed: 2026-03-20*
+*Last reviewed: 2026-03-20 (updated with Iraq FM, Kuwait strikes)*
 
 ---
 
@@ -1170,6 +1194,8 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 - [[Sri Lanka]] — four-day workweek imposed to stretch diesel stocks
 - [[Indian Oil]], [[Reliance Industries]] — Indian refiners absorbing ~30M barrels of Russian crude post-waiver
 - [[Global oil trade flows]] — structural rerouting context
+- [[Kuwait]] — Mina Al-Ahmadi + Mina Abdullah refineries struck (Mar 20); 100% Hormuz-dependent
+- [[Iraq]] — force majeure on all foreign-operated oilfields (Mar 20); ~4.5M bbl/day stranded
 
 ---
 
