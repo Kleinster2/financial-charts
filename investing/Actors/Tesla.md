@@ -249,6 +249,31 @@ Previous solar efforts: 2016 SolarCity acquisition (~$2B) failed to scale beyond
 
 *Source: Bloomberg (Ludlow, Chediak, Hull), Feb 6 2026*
 
+### $2.9B Chinese solar equipment deal (Mar 20, 2026)
+
+Reuters exclusive: Tesla in advanced talks to purchase ~20B yuan ($2.9B) worth of solar manufacturing equipment from Chinese suppliers. The deal crystallizes the decoupling paradox — reshoring US solar manufacturing requires Chinese capital equipment because nobody else makes it.
+
+| Supplier | Product | Status |
+|----------|---------|--------|
+| [[Suzhou Maxwell Technologies]] (300751.SZ) | Screen-printing lines (world's largest producer) | Advanced talks; seeking Beijing export approval |
+| [[Shenzhen S.C New Energy]] (300724.SZ) | Solar manufacturing equipment | Advanced talks |
+| [[Laplace Renewable Energy]] (688726.SS) | Solar manufacturing equipment | Advanced talks |
+
+All three Chinese suppliers jumped 7%+ on the news.
+
+Key details:
+- Equipment to be delivered before autumn 2026, shipped to Texas
+- Some equipment (including screen-printing lines) requires Chinese commerce ministry export approval — Beijing has a lever
+- Solar capacity mainly for Tesla's own use, some for [[SpaceX]] satellites
+- Equipment excluded from US tariffs (Biden-era exemption extended by Trump) at urging of US solar makers who have no alternative source
+- Tesla still relies on 400 China-based suppliers globally; 60 supply its US plants
+
+The political tension: Musk has publicly criticized solar tariffs as making deployment "artificially high" while Trump pushes fossil fuel maximalism and slashes solar/wind subsidies. The $2.9B Chinese equipment buy underscores that US energy independence — whether from oil or solar — still runs through Chinese manufacturing capacity.
+
+Scale context: US currently produces ~3 GW/year of solar cells. Tesla's 100 GW target by 2028 would represent a 33x increase in national capacity. Job postings specify "solar manufacturing from raw materials on American soil."
+
+*Source: Reuters Exclusive, March 20, 2026*
+
 ---
 
 ## [[Automotive]] exposure
