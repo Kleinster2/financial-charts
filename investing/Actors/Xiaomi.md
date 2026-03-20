@@ -140,6 +140,50 @@ Non-vertically-integrated Android OEMs hurt most.
 
 ---
 
+## AI: MiMo-V2 family (March 2026)
+
+Xiaomi launched three AI models on March 18-19, 2026, entering the frontier AI race as a serious contender rather than a follower.
+
+### [[MiMo-V2-Pro]] — trillion-parameter reasoning flagship
+
+| Metric | Value |
+|--------|-------|
+| Total params | ~1 trillion (MoE) |
+| Active params | 42B at inference |
+| Context | 1M tokens |
+| Architecture | Hybrid attention (7:1 ratio), multi-token prediction |
+| Pricing | $1/$3 per 1M tokens (≤256K context) |
+
+Led by Fuli Luo, ex-[[DeepSeek]] core contributor (R1, V-series). First appeared anonymously as "Hunter Alpha" on OpenRouter in early March — topped usage charts, processed 1T+ tokens during stealth testing. Community thought it was [[DeepSeek]].
+
+Benchmarks (Artificial Analysis verified):
+- Intelligence Index: 49 (#10 global, #2 Chinese — same tier as [[GPT-5|GPT-5.2]] Codex)
+- ClawEval: 61.5 (#3 global, approaching [[Claude Opus 4.6|Claude Opus 4.6]]'s 66.3, beating GPT-5.2's 50.0)
+- GDPval-AA: Elo 1426 (best Chinese model in agentic tasks)
+- Terminal-Bench 2.0: 86.7
+
+Pricing is ~1/7th the cost of GPT-5.2 or Claude Opus 4.6. Plans to open-source a variant "when the models are stable enough."
+
+### MiMo-V2-Omni — multimodal agent
+
+Native text + image + video + audio processing. 10+ hours continuous audio understanding. Outperforms [[Gemini 3 Pro]] on MM-BrowserComp (52.0). Pricing: $0.40/$2.00 per 1M tokens.
+
+Live demos: autonomous online shopping (search → reviews → bargaining → purchase) and autonomous TikTok video creation (script → film → edit → voice → upload).
+
+### MiMo-V2-TTS — expressive voice
+
+Trained on hundreds of millions of hours. Emotion control per-sentence, singing support, Chinese dialect coverage. Free during launch period.
+
+### Strategic significance
+
+Xiaomi is now a vertically integrated AI + hardware + EV company. The MiMo models are positioned as "brains" for complex systems — the same architectural DNA as [[DeepSeek]] (Luo brought R1 architectural patterns), applied to consumer hardware, EVs, and enterprise agentic workflows. The agent-first design (browser control, multi-step execution, cross-modal chaining) rather than chat-first marks the shift to the "Agent Era."
+
+The pricing aggression ($1/$3 vs $7/$30 for Western equivalents) is the [[DeepSeek]] playbook: commoditize the model layer, monetize via ecosystem (Xiaomi hardware, cloud, IoT).
+
+*Source: VentureBeat (Mar 18), Quasa.io (Mar 19), Artificial Analysis*
+
+---
+
 ## Investment case
 
 **Bear:**
@@ -149,13 +193,14 @@ Non-vertically-integrated Android OEMs hurt most.
 - [[China]] market saturation
 - EV overcapacity, pricing pressure
 
-**Bull:**
+Bull:
 - EV profitable faster than Tesla
 - 550K EV target for 2026
 - Strong brand in emerging markets
 - If memory normalizes
 - Xring chip = vertical integration step
-- **US market access via Ford JV (speculative)**
+- US market access via Ford JV (speculative)
+- [[MiMo-V2-Pro]]: frontier AI at 1/7th Western cost — ecosystem play for hardware + cloud + IoT
 
 ---
 
@@ -181,3 +226,6 @@ Non-vertically-integrated Android OEMs hurt most.
 - [[Apple]] — competitor (premium absorbs cost)
 - [[Tesla]] — EV competitor (Xiaomi profitable faster)
 - [[BYD]] — [[China]] EV leader
+- [[MiMo-V2-Pro]] — trillion-parameter reasoning model (Mar 2026)
+- [[DeepSeek]] — architectural DNA via Fuli Luo hire
+- [[Fuli Luo]] — MiMo division lead, ex-DeepSeek R1 core contributor
