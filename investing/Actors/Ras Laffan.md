@@ -57,6 +57,10 @@ South Pars and Qatar's North Field are the same geological reservoir. Israel hit
 - Qatar "reserves its right to respond" — strongest language from Doha since the war began
 - Qatar had been trying to remain neutral throughout the conflict
 
+### Al-Kaabi force majeure warning (March 20)
+
+[[Saad Al-Kaabi]] ([[QatarEnergy]] CEO) warned publicly that force majeure on some LNG contracts could last up to five years — the first official signal that infrastructure damage may prevent fulfillment of long-term supply agreements for years, not months (Bloomberg, Mar 19-20).
+
 ### Market-critical implication
 
 Ras Laffan was already offline under force majeure from the March 2 shutdown — but that was a *shipping* problem (Hormuz blocked, no tankers). Physical infrastructure damage means even if Hormuz reopens tomorrow, Ras Laffan doesn't come back online for weeks or months longer. Shell Pearl GTL alone represents ~140K bbl/day of liquids capacity. The Goldman Sachs estimate of -14% GDP contraction for Qatar just got worse.

@@ -132,6 +132,10 @@ Al-Kaabi said the damage "has set the region back 10 to 20 years" — not just i
 
 Restart requires hostilities to cease first. Even after that, the damaged trains need 3-5 years of repair. The force majeure that was initially declared as short-term (March 4) is now extended to a multi-year commitment.
 
+### March 20 — Al-Kaabi: force majeure "up to five years" on some contracts
+
+Al-Kaabi escalated the public timeline further on March 20, explicitly warning of force majeure lasting up to five years on some long-term contracts (Bloomberg). This is the first time QatarEnergy has publicly framed the outage in half-decade terms — a signal that the physical damage assessment is even worse than the initial Reuters exclusive implied, or that repair timelines are lengthening as engineers complete more thorough inspections.
+
 *Source: Reuters Exclusive, March 19, 2026 (Maha El Dahan, Andrew Mills, Yousef Saba)*
 
 ---

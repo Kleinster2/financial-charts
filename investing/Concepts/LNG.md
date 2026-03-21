@@ -125,9 +125,11 @@ Production → Liquefaction → [[Shipping]] → Regasification → Distribution
 
 [[Kpler]] (Mar 5): "The cessation of LNG transit through the Strait of Hormuz and Qatar's facility shutdowns have triggered one of the most significant global gas supply disruptions in recent years."
 
-### QatarEnergy force majeure (Mar 4)
+### QatarEnergy force majeure (Mar 4–20)
 
-[[QatarEnergy]] declared force majeure on LNG shipments after [[Ras Laffan]] — the world's largest LNG export terminal — shut down following Iranian drone strikes. Liquefaction plants require a gradual cooling process to restart, taking **weeks minimum** (Reuters). This removes ~20% of global LNG supply from the market for an extended period. With [[Russia]] sanctioned and Qatar offline, [[Europe]] must source replacement gas from US LNG exporters — but they're running near capacity.
+[[QatarEnergy]] declared force majeure on LNG shipments after [[Ras Laffan]] — the world's largest LNG export terminal — shut down following Iranian drone strikes. Liquefaction plants require a gradual cooling process to restart, taking **weeks minimum** (Reuters). This removes ~20% of global LNG supply from the market for an extended period.
+
+[[Saad Al-Kaabi]] ([[QatarEnergy]] CEO, March 20): warned of force majeure lasting up to five years on some contracts — the first official acknowledgment from Qatar that physical infrastructure damage may prevent fulfillment of long-term supply agreements for years, not months. This shifts the crisis from a shipping disruption (Hormuz closure) to a structural supply loss (destroyed capacity). With [[Russia]] sanctioned and Qatar offline, [[Europe]] must source replacement gas from US LNG exporters — but they're running near capacity.
 
 ### US LNG exporters — beneficiaries
 
