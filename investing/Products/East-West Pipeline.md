@@ -48,6 +48,27 @@ An additional complication: crude shipped from Yanbu exits via the Red Sea, requ
 
 ---
 
+---
+
+## MEI panel assessment (March 20, 2026 — Connelly/Mulroy)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert) confirmed the East-West Pipeline is actively rerouting exports, with ~7 million bbl/d capacity (including surge capability) and lots of exports now flowing through. The pipeline is under some Iranian attack or disruption attempts — [[Iran]] is "very aware" of bypass routes and "sees them as leverage points."
+
+Both Connelly and [[Mick Mulroy]] discussed pipeline alternatives as the structural post-war response:
+
+| Pipeline | Status |
+|----------|--------|
+| East-West Pipeline expansion | Likely |
+| [[Habshan-Fujairah Pipeline|ADCO pipeline]] expansion | Likely |
+| Iraq-Turkey pipeline improvements | Possible |
+| Iraq-Aqaba ([[Jordan]]) pipeline | Possible — would allow Red Sea + northbound Suez Canal exports |
+
+But [[Iraq]] isn't exporting much oil right now (force majeure on all foreign-operated oilfields). Pipelines are expensive to build, take time, and still need assurance of protection. Longer term, expect more pipeline construction to get around the strait.
+
+Source: MEI panel, March 20 2026 — Connelly
+
+---
+
 ## Related
 
 - [[Yanbu]] — western terminus (Red Sea port, loading bottleneck)
@@ -57,3 +78,4 @@ An additional complication: crude shipped from Yanbu exits via the Red Sea, requ
 - [[IPSA Pipeline]] — defunct Iraqi bypass through Saudi Arabia
 - [[Oil]] — commodity
 - [[Iran conflict economic disruption]] — current event (bypass capacity stress-tested)
+- [[Kharg Island]] — 90% of Iran's oil exports, potential target

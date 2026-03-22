@@ -47,9 +47,21 @@ However, during the [[Operation Epic Fury|March 2026 Iran conflict]], this strat
 
 ---
 
+---
+
+## MEI panel assessment (March 20, 2026 — Connelly)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert) confirmed the ADCO pipeline carries just under 2 million bbl/d to [[Fujairah]], but Fujairah is being bombarded. [[Iran]] targets it specifically because it's an alternate export route for the [[UAE]]. Iran is "very aware" of bypass routes and "sees them as leverage points." Both the Fujairah route and the [[East-West Pipeline|Saudi East-West pipeline]] to [[Yanbu]] are under some Iranian attack or disruption attempts.
+
+ADCO pipeline expansion is considered likely as a post-war structural response, but the current reality is that [[Fujairah]]'s port operations are severely compromised by sustained Iranian bombardment — making the pipeline's capacity functionally useless regardless of the pipeline's physical integrity.
+
+Source: MEI panel, March 20 2026 — Connelly
+
+---
+
 ## Related
 
-- [[Fujairah]] — eastern terminus (Gulf of Oman port)
+- [[Fujairah]] — eastern terminus (Gulf of Oman port, under bombardment)
 - [[ADNOC]] — parent operator
 - [[Strait of Hormuz]] — bypass target
 - [[East-West Pipeline]] — Saudi Arabia's parallel bypass (5 mb/d pipe, ~3 mb/d port)

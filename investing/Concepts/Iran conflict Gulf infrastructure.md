@@ -223,6 +223,40 @@ This reframes the crisis from a one-off disruption to a permanent capability rev
 
 ---
 
+## MEI panel — comprehensive facility damage assessment (March 20, 2026 — Connelly)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert, speaking from Dubai) provided the most comprehensive catalog of Gulf infrastructure damage to date. Attacks on tankers, oil storage, and refining had already been happening before the South Pars strike — but really escalated after [[Israel]] struck [[Iran]]'s South Pars gas infrastructure.
+
+### Iran's retaliation targeted 6-7 facilities across the Gulf
+
+| Facility | Country | Detail |
+|----------|---------|--------|
+| [[Ras Laffan]] Industrial City | [[Qatar]] | Home to ~20% of world's [[LNG]] capacity. "Very heavily damaged." 17% of [[QatarEnergy]] capacity now offline |
+| Habshan gas facility | [[UAE]] | Attacked. [[Occidental Petroleum]] is part of the assets — "that's not a coincidence, probably why it was targeted" |
+| Bu Hasa oil field | [[UAE]] | Attacked |
+| Mina Abdullah refinery | [[Kuwait]] | Attacked multiple times, attacked again on March 20 (day of the panel) |
+| Mina Ahmedi refinery | [[Kuwait]] | Attacked multiple times, attacked again on March 20 |
+| Samraf refinery | [[Saudi Arabia]] | Attacked |
+| [[Fujairah]] | [[UAE]] | Under "intense bombardment" throughout the conflict. Iran targeting it specifically because it's an alternate export route for the UAE |
+
+Connelly emphasized that [[Occidental Petroleum]]'s involvement in the [[UAE]] assets that were attacked was likely deliberate targeting — Iran choosing facilities with US corporate exposure to maximize political and financial impact.
+
+### Refined products crisis — distinct from crude supply loss
+
+[[Kuwait]] became a "huge exporter of refined products" post-Russia-Ukraine war. European markets sourced much more [[Jet fuel|jet fuel]] and refined products from Kuwait as a result. With Kuwait's refineries now attacked, this disrupts that supply chain — a distinct problem from crude supply loss, because refined product shortfalls require different and harder-to-find replacements.
+
+### Air defense success and failure
+
+Connelly noted air defenses in the Gulf have been a "huge success story" — he is living through it firsthand in the [[UAE]], seeing it work. But acknowledged that some things always get through — the continued attacks on infrastructure prove that air defense success does not mean zero damage.
+
+### Investor confidence fundamentally changed
+
+[[Kuwait]] was opening its oil sector to international investment for the first time — and lost a major investor. [[Occidental Petroleum]] is involved in [[UAE]] assets that were attacked. [[Exxon]]'s portfolio includes liquefaction capacity at [[Ras Laffan]] — enormous potential losses. Connelly does not expect US firms to pull out entirely, but restoring confidence requires assurance "this doesn't happen again" — and the assessment is very far from that. The above-ground risk landscape has fundamentally changed.
+
+Source: MEI panel, March 20 2026 — Connelly
+
+---
+
 ## Related
 
 - [[Iran conflict economic disruption]] — hub note
@@ -237,7 +271,9 @@ This reframes the crisis from a one-off disruption to a permanent capability rev
 - [[Iran conflict defense repricing]] — munitions burn rate equity implications
 - [[Goreh-Jask Pipeline]] — Iran's own Hormuz bypass
 - [[Yanbu]] — Saudi pipeline bypass terminal
+- [[Occidental Petroleum]] — exposed in UAE Habshan assets
+- [[Fujairah]] — under intense bombardment, alternate export route targeted
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21*
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel).*

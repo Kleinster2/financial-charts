@@ -387,7 +387,30 @@ The FT editorial board (Mar 20) made the volume comparison explicit: a prolonged
 
 The observation reinforces the structural point: energy markets are pricing physical disruption correctly (Brent +50% since Feb 28). Financial markets are discounting the duration and second-order effects. If Tooze's Feb 2020 analogy holds, the gap closes violently. If markets "see through it," it validates the buffers thesis (IEA release, SPR, pipeline bypasses). The lack of any concrete thesis among professional investors is itself a signal — no one is positioned for a defined outcome, which means any crystallizing event (Hormuz mine, tanker sinking, refinery hit) could trigger cascading repositioning.
 
-*Last reviewed: 2026-03-21 (updated with Tooze market positioning)*
+---
+
+## MEI panel — price data and demand destruction (March 20, 2026 — Connelly)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert, speaking from Dubai) provided updated price benchmarks as of March 20:
+
+| Benchmark | Level | Notes |
+|-----------|-------|-------|
+| [[Brent]] crude | ~$110/bbl | Maybe slightly lower |
+| Dubai / [[Oman]] / [[Murban]] (ME benchmarks) | $150-160/bbl | The crudes heavily demanded by Asian refiners — significantly above Brent |
+| European natural gas (TTF) | +50% since start of war | +35% since [[Ras Laffan]] attack |
+| JKM (Japan-Korea LNG marker) | +90% since start of war | +25% after Ras Laffan attack |
+| Asian jet fuel | +80% | — |
+| Fuel oil (maritime shipping, cruise) | +30-40% | — |
+
+The $40-50/bbl gap between Brent (~$110) and Middle East benchmarks ($150-160) is critical. Asian refiners pay the regional price, not Brent — meaning the headline price vastly understates the pain for the world's largest crude-consuming region. The price of moving people and goods is spiking across multiple channels simultaneously.
+
+Oil indexation compounds the gas crisis: natural gas sold under long-term contracts linked to crude oil prices sees indexed gas prices rise as oil rises — a secondary amplifier on top of the direct LNG supply loss.
+
+Demand destruction is already materializing: SE Asian governments ordering public sector employees to work from home. [[Sri Lanka]] made Wednesday a public holiday every week. The [[IEA]] recommended implementing work from home globally on the day of the panel (March 20). Connelly drew COVID parallels — downtown businesses, restaurants, and tourism industries worldwide will take a hit from the jet fuel spike.
+
+Source: MEI panel, March 20 2026 — Connelly
+
+*Last reviewed: 2026-03-22 (updated with MEI panel pricing and demand destruction)*
 
 ---
 

@@ -85,6 +85,20 @@ Netanyahu pitched (March 19, 2026) building oil and gas pipelines "west through 
 
 **Investment implication:** The bypass question favors Saudi/UAE sovereign infrastructure plays over the Netanyahu vision. Watch for Saudi Aramco capex allocation toward Yanbu terminal expansion and UAE investment in Fujairah as a non-Hormuz export hub. For listed equities, pipeline/terminal operators and Red Sea port infrastructure names benefit.
 
+## MEI panel — deterrence equation broken (March 20, 2026)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert, speaking from Dubai) articulated the most consequential framing of the permanent premium on March 20: the pre-war assumption that [[Iran]] shuts the strait = regime gets overthrown has been proven false. Iran CAN shut the strait, attack Gulf infrastructure, and cause global economic pain WITHOUT bringing down the regime. This is a fundamental change in the deterrence equation.
+
+Connelly: "We've demonstrated to them they can screw around with the strait and oil and gas in ways they probably didn't believe before this war." The pre-war deterrence worked precisely because Iran's leadership believed using Hormuz would be suicidal for the regime. Now that assumption is shattered — they have used it, the regime survives, and they know it works.
+
+[[Mick Mulroy]] (fmr Deputy Assistant Secretary of Defense for Middle East, ex-Marine) reinforced the structural dimension: since the intelligence assessment is that no regime change is coming, Gulf states hosting US bases are asking whether this is "just a pause" before it happens again. The Kissinger paraphrase applies: Iran "just needs to not lose to win."
+
+This permanently elevates the risk premium because any future crisis involving [[Iran]] now has a proven Hormuz closure template that the regime knows it can survive. The asymmetric cost structure — a few drones costing thousands threatening tankers worth hundreds of millions — hasn't changed, but Iran's willingness to use it has been demonstrated beyond doubt.
+
+Source: MEI panel, March 20 2026 — Mulroy/Connelly
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — the event that created the premium

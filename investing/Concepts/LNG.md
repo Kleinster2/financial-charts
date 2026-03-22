@@ -269,6 +269,27 @@ Losers in a supply crunch: poorer import-dependent countries, Middle East petroc
 
 ---
 
+## MEI panel assessment (March 20, 2026 — Connelly)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert, speaking from Dubai) provided updated pricing data and structural framing on the LNG crisis.
+
+Price benchmarks as of March 20:
+
+| Benchmark | Move since war start | Move since Ras Laffan attack |
+|-----------|---------------------|------------------------------|
+| JKM (Japan-Korea LNG marker) | +90% | +25% after [[Ras Laffan]] attack |
+| European natural gas (TTF) | +50% | +35% since Ras Laffan attack |
+
+Oil indexation is compounding the gas crisis: natural gas sold under long-term contracts linked to crude oil prices sees indexed gas prices rise as oil goes up. With [[Brent]] at ~$110 and Middle East benchmarks ([[Dubai]], [[Oman]], [[Murban]]) at $150-160/barrel, the oil-indexed gas contracts are repricing significantly higher, adding another layer to the LNG cost shock for Asian and European buyers.
+
+The ~14 million tons/year of LNG lost from [[Qatar]] assumes no further incidents — the actual loss could be higher if additional facilities are targeted. [[QatarEnergy]]'s planned capacity doubling to 142 mtpa by 2030 is now halted with no restart timeline. Connelly: the damage is "absolutely a four-alarm fire now" with "no sign of improvement."
+
+Asian demand destruction is materializing as Middle East crude benchmarks (the crudes heavily demanded by Asian refiners) hit $150-160/barrel — far above [[Brent]]'s ~$110 headline. This divergence between Brent and regional benchmarks matters because Asian buyers pay the regional price, not Brent.
+
+Source: MEI panel, March 20 2026 — Connelly
+
+---
+
 ## Investment case
 
 **Bull:**

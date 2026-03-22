@@ -209,6 +209,40 @@ Son of [[Ali Shamkhani]] (former IRGC naval commander, defense minister, Khamene
 
 ---
 
+---
+
+## Post-war strategic dynamics — MEI panel (March 20, 2026 — Mulroy)
+
+[[Mick Mulroy]] (fmr Deputy Assistant Secretary of Defense for Middle East, ex-CIA officer, ex-Marine, [[Middle East Institute|MEI]] Distinguished Military Fellow) provided the most detailed public assessment of Iran's post-war trajectory:
+
+### Leadership change — hardliner consolidation
+
+Killing [[Ali Khamenei]] (Ayatollah) + [[Ali Larijani]] eliminated the pragmatists. Only hardliners remain in charge. The former Supreme Leader was believed to NOT want a nuclear weapon — it was the [[IRGC]] pushing. He's gone. The post-war "I told you so" faction now has a viable argument: "If we had a nuclear weapon, we'd be [[North Korea]] not [[Libya]]/Gaddafi." There is a significant push inside the remaining regime to somehow get to a nuclear weapon.
+
+### Nuclear sprint logic
+
+This elevates the urgency of seizing enriched uranium: ~1,000 lbs (441 kg) of up to 60% enriched uranium — enough for ~10 weapons. Possession doesn't mean a weapon soon — Iran would still need to turn the material into a core, build a triggering mechanism, and develop a delivery mechanism. But the political incentive to attempt a sprint has never been stronger.
+
+### Ground operation to seize HEU — extremely risky
+
+Mulroy assessed the ground operation to recover highly enriched uranium as very risky. Elite forces ([[JSOC]]) train for this, but the US dropped massive ordnance penetrators on these facilities — they're collapsed/demolished. Forces trained on INTACT facilities, and may now need earth movers. Not a pinpoint operation like catching Maduro — could be an extended ground presence. Extraction may need fixed-wing aircraft → need airfields → may need to make airfields. Would take the majority of JSOC force plus extensive air assets plus ground elements to cordon off against Iranian army onslaught. Even bigger decision than seizing [[Kharg Island]].
+
+### Pain asymmetry and war termination
+
+Iran endured the maximum pressure campaign for 6-7 years. They can endure more. Iran knows the US has a democracy — midterms coming. They don't. Even if the US hits [[Kharg Island]], Iran could retaliate harder — attack [[Qatar]]'s gas even more, mine the [[Strait of Hormuz]] with all 5,000 mines, kick [[Houthis]] to threaten Red Sea lanes. Bluster won't work. Iran understands asymmetric pain tolerance.
+
+Mulroy advocates ceasefire urgently — possibly unilateral or with [[Israel]]. Then use intelligence back channels to talk to the regime. Iran was in negotiations (toward new [[JCPOA]]) when the war was launched — "they might have a legitimate reason to say they don't trust negotiations." Regional partners who can talk to Iran (they have trust-building capability the US doesn't) are needed.
+
+### Kharg Island vulnerability
+
+90% of Iran's oil exports go through [[Kharg Island]]. Mulroy discussed two possible 31st MEU missions: secure islands around the strait, or seize Kharg Island — 400 miles up from the strait, near [[Kuwait]], close to mainland Iran. Only a 7-mile-long island with ~15,000 people. The ground component is a battalion landing team — 600 Marines. But what if Iran doesn't care? "Great, you have our stuff, we're still keeping the straits closed." That's a potential tactical victory for Iran.
+
+[[Colby Connelly]] (MEI energy expert) posed the key question: what South Pars is to Iran's domestic gas, Kharg Island is to its oil exports. If the US/Israel acts against Kharg, Iran's retaliation could be even MORE forceful than the South Pars response. Given how Iran has already responded to infrastructure attacks, the risk of escalation from Kharg action is "hard to overstate."
+
+Source: MEI panel, March 20 2026 — Mulroy/Connelly
+
+---
+
 ## Related
 
 ### Elite wealth & oil networks

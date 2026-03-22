@@ -137,7 +137,32 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Tech-concentrated equity correction | Higher rates + energy uncertainty → portfolios heavily concentrated in highly-valued tech stocks face severe correction. Private markets under strain | Flagged: FT editorial board (Mar 20). Connects to Yardeni 35% meltdown scenario |
 | Paper-physical convergence event | Atlantic basin inventories drawn down → Brent/WTI forced repricing to $150+ | Flagged: [[Natasha Kaneva]] (Mar 18) warned convergence "unlikely" to be avoided if Strait stays closed |
 
-*Last reviewed: 2026-03-21*
+---
+
+## MEI panel — demand destruction and COVID parallels (March 20, 2026 — Connelly)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert, speaking from Dubai) framed the demand destruction as already materializing rather than theoretical:
+
+- SE Asian governments ordering public sector employees to work from home
+- [[Sri Lanka]] made Wednesday a public holiday every week to reduce fuel consumption
+- The [[IEA]] recommended implementing work from home globally on the day of the panel (March 20)
+- COVID parallels: downtown businesses and restaurants take the same hit as during pandemic-era shutdowns
+- Tourism industries worldwide facing significant impact from the +80% spike in Asian jet fuel prices
+- Asian demand destruction accelerating as Middle East crude benchmarks (the crudes actually demanded by Asian refiners) hit $150-160/bbl — far above Brent's ~$110 headline
+
+The refined products crisis is distinct from crude supply loss: [[Kuwait]] became a "huge exporter of refined products" post-Russia-Ukraine war, with European markets sourcing much more [[Jet fuel|jet fuel]] and refined products from Kuwait. Kuwait's refineries are now attacked — disrupting that supply chain at a time when no easy replacements exist.
+
+### Pentagon $200B request — war cost signal
+
+[[Mick Mulroy]] (fmr Deputy Assistant Secretary of Defense for Middle East, [[Middle East Institute|MEI]]) noted the Pentagon is requesting $200B more — roughly 1/4 of current defense budget, and roughly 1/4 of entire [[Iraq]] war cost ($800B over 8 years). The war is not even a month old. This $200B request signals the Pentagon's own plan is NOT for 2-3 weeks — this is a sustained conflict budget.
+
+### Sanctions paradox — lifting sanctions mid-war
+
+The US is discussing lifting sanctions on [[Russia]]n AND [[Iran]]ian oil mid-war. Neither Mulroy nor the panel moderator could think of another war in history where you lifted sanctions on the enemy during combat. 100-140 million barrels of Iranian oil are in floating storage — waivers would apply to these. This emboldens hardliners who think they're winning. [[Russia]] benefits enormously: sanctions removed + oil prices soaring. See [[Iran conflict sanctions paradox]] for the full analysis.
+
+Source: MEI panel, March 20 2026 — Mulroy/Connelly
+
+*Last reviewed: 2026-03-22 (updated with MEI panel demand destruction and cost signals)*
 
 ---
 

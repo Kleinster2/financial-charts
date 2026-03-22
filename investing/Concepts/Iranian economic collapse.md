@@ -546,6 +546,20 @@ JCPOA (Iran nuclear deal) lifted sanctions, but:
 
 ---
 
+## Wartime vulnerability — South Pars and Kharg (MEI panel, March 20)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert) and [[Mick Mulroy]] (fmr Deputy Assistant Secretary of Defense for Middle East) identified two critical pressure points on Iran's wartime economy:
+
+South Pars: gigantic offshore gas field shared with [[Qatar]] (where it's called North Field). Not crucial to global gas markets directly, but Iran consumes massive amounts of gas domestically. South Pars alone satisfies 75% of Iran's domestic gas requirements. [[Israel]]'s strike on South Pars gas infrastructure was viewed by Iran as an enormous escalation — measurable by how forcefully they retaliated (striking [[Ras Laffan]] and 6-7 other Gulf facilities).
+
+[[Kharg Island]]: 90% of Iran's oil exports go through this terminal. What South Pars is to Iran's domestic gas, Kharg is to its oil exports. If the US/Israel acts against Kharg, Iran's retaliation could be even MORE forceful than the South Pars response. Iran has very few alternatives to Kharg for oil exports (the Jask terminal loaded for only the 5th time in 5 years during the war).
+
+These represent the two pillars of Iran's economic survival — domestic energy (South Pars) and export revenue (Kharg). Both are now demonstrated to be vulnerable, creating existential pressure on whatever remains of the regime's economic planning.
+
+Source: MEI panel, March 20 2026 — Connelly/Mulroy
+
+---
+
 ## Related
 
 ### Actors

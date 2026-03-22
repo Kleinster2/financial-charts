@@ -71,6 +71,16 @@ Oil hit $108.60/bbl intraday (+5%). European gas benchmark jumped 7.5%+ to over 
 
 ---
 
+## MEI panel assessment (March 20, 2026 — Connelly)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert, speaking from Dubai) characterized the damage as "absolutely a four-alarm fire now" with "no sign of improvement." Connelly emphasized that even opening the [[Strait of Hormuz]] is no longer sufficient — the damage to Gulf infrastructure far exceeds the blockade itself. Opening the strait would have helped "stem the bleeding" earlier, but the conflict is now past that point, with billions of dollars in damage to infrastructure that is "the lifeblood of these economies."
+
+Connelly confirmed ~20% of world's [[LNG]] capacity is housed at Ras Laffan, with 17% of [[QatarEnergy]] capacity now offline. The ~14 million tons/year of LNG lost from [[Qatar]] (assuming no further incidents) represents a structural gap that the planned capacity doubling to 142 mtpa by 2030 — already halted — may never recover from on the original timeline. [[Exxon]]'s portfolio includes liquefaction capacity at Ras Laffan, representing enormous potential losses. Restoring investor confidence requires assurance "this doesn't happen again" — a condition Connelly assessed as very far from being met.
+
+Source: MEI panel, March 20 2026 — Connelly
+
+---
+
 ## Related
 
 - [[QatarEnergy]] — operator
@@ -81,3 +91,4 @@ Oil hit $108.60/bbl intraday (+5%). European gas benchmark jumped 7.5%+ to over 
 - [[Shell]] — Pearl GTL (~$19B facility) struck by missile
 - [[Israel]] — struck South Pars, triggering Iran's retaliation on Ras Laffan
 - [[2026 Iran conflict market impact]] — Day 19 escalation
+- [[Exxon]] — liquefaction capacity exposure at Ras Laffan

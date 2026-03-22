@@ -149,4 +149,16 @@ European leaders at their Thursday summit (March 20) called on the Commission to
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21*
+## MEI panel — European nuclear U-turn and gas dependence (March 20, 2026 — Connelly)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert) identified [[Europe]] as making noise about a U-turn on nuclear energy in response to the crisis — extremely exposed to natural gas price fluctuations from the [[Qatar]] impact. The broader push to transition away from hydrocarbons may accelerate, but the Gulf's resource base isn't going away — until a transition is made, Gulf resources remain critical.
+
+The force majeure on European contracts is particularly significant. [[Saad Al-Kaabi]] ([[QatarEnergy]] CEO) told Reuters the force majeure on supply contracts with European customers could last ~5 years, at an estimated cost of $20B/year in lost revenue. European buyers who had deepened Qatari LNG dependency as a [[Russia]] replacement since 2022 now face the collapse of that strategy. The JKM (Japan-Korea LNG marker) is up +90% since the start of the war, and European TTF is up +50%, with oil indexation on long-term gas contracts adding a secondary amplifier.
+
+Connelly's framing: the damage to Gulf infrastructure far exceeds the [[Strait of Hormuz]] blockade itself. Opening the strait would have helped "stem the bleeding" earlier, but the conflict is now past that point. Even reopening Hormuz doesn't fix the European gas problem — [[Ras Laffan]] LNG trains need 3-5 years of repair, and the infrastructure that European energy security was increasingly built upon is physically damaged.
+
+Source: MEI panel, March 20 2026 — Connelly
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel).*

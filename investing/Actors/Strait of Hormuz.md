@@ -141,6 +141,34 @@ For pipeline bypass options, production shutins, IEA/OPEC response, and US gover
 
 ---
 
+## MEI panel assessment — mine warfare and reopening (March 20, 2026 — Mulroy)
+
+[[Mick Mulroy]] (former Deputy Assistant Secretary of Defense for Middle East, ex-CIA officer, ex-Marine, [[Middle East Institute|MEI]] Distinguished Military Fellow) provided a comprehensive military assessment of the strait challenge:
+
+### Mine warfare — the core problem
+
+Closure has been a US strategic concern since the 1980s. Iranian Parliament approved closing the strait BEFORE the US started the conflict. The physical facts make mining trivially easy: 21 miles wide, only 2 miles navigable. Sea mining takes only a few hours with small speedboats to deploy naval mines. [[Iran]] has an estimated 5,000 mines available.
+
+The US decommissioned the Avenger-class minesweepers — the most critical and effective ships for this mission. The Navy is now relying on [[Littoral Combat Ship|Littoral Combat Ships (LCS)]] with drones — untested in this mission. Mulroy: "unfortunately" we will find out whether this was a good decision in real-time. See [[Iran conflict mine warfare]] for full analysis.
+
+Even if the US Navy clears mines, commercial shipping and insurers won't trust it. "It isn't just a military issue." Coastal missiles, drones, and suicide boats all pose additional threats beyond mines that shipping companies must be convinced are neutralized.
+
+### Iran's 1,000-mile coastline
+
+Mulroy put the scale in perspective: [[Iran]]'s coastline is roughly equivalent to the entire US coast. Even the most significant military in the world cannot cover a 1,000-mile coastline. Iran can reseed mines in hours even after forcible opening. The US will never eliminate 100% of Iran's military capacity — Iran is 4x the size of [[Iraq]], 2x the population, and extraordinarily mountainous.
+
+### No allies helping
+
+The US has no allies helping with Hormuz. "We didn't engage them before the war. I can understand why." This compounds every operational challenge — from mine clearance to coastal suppression to sustained escort operations.
+
+### Phased operations
+
+Phase 1: A-10 Thunderbolts taking out small boats — related to mine-laying and suicide drone boats. Phase 2: The 31st MEU (Marine Expeditionary Unit) is being redirected from the Indo-Pacific to the Middle East. If this was planned, it would already be there — its redeployment indicates an added contingency plan. "You would not be pulling a national asset from the Far East." The 31st MEU is "special operations capable" with two possible missions: secure islands around the strait, or seize [[Kharg Island]].
+
+Source: MEI panel, March 20 2026 — Mulroy
+
+---
+
 ## Related
 
 - [[Iran]] — controls northern shore
@@ -155,7 +183,9 @@ For pipeline bypass options, production shutins, IEA/OPEC response, and US gover
 - [[Shadow fleet]] — Iran-to-China oil transit mechanism
 - [[Iran conflict economic disruption]] — energy disruption deep dive
 - [[China]] — sole buyer of wartime Iranian crude
+- [[Iran conflict mine warfare]] — 5,000 mines, Avenger decommission, LCS untested
+- [[Kharg Island]] — 31st MEU target, 90% of Iran's oil exports
 
 ---
 
-*Updated 2026-03-20*
+*Updated 2026-03-22*

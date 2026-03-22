@@ -28,6 +28,16 @@ During [[Operation Epic Fury]], Iranian strikes targeted Fujairah directly, maki
 
 ---
 
+## MEI panel assessment (March 20, 2026 — Connelly)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert, speaking from Dubai) confirmed Fujairah has been under "intense bombardment" throughout the conflict. [[Iran]] is targeting it specifically because it is an alternate export route for the [[UAE]] — the terminus of the [[Habshan-Fujairah Pipeline]]. By hitting Fujairah, Iran negates the bypass function that was the entire strategic rationale for the pipeline's construction.
+
+The [[Habshan-Fujairah Pipeline|ADCO pipeline]] carries just under 2 million bbl/d to Fujairah, but with the port under sustained attack, the pipeline's capacity is rendered moot. Iran is "very aware" of bypass routes and "sees them as leverage points." Both the Fujairah route and the [[East-West Pipeline|Saudi East-West pipeline]] to [[Yanbu]] are under some Iranian attack or disruption attempts.
+
+Source: MEI panel, March 20 2026 — Connelly
+
+---
+
 ## Related
 
 - [[UAE]] — parent state
@@ -35,5 +45,7 @@ During [[Operation Epic Fury]], Iranian strikes targeted Fujairah directly, maki
 - [[Iran conflict economic disruption]] — context (Mar 2026 crisis)
 - [[Fuel oil]] — bunker fuel pricing crisis ($160/bbl, record)
 - [[Saudi Aramco]] — comparison ([[Yanbu]] Red Sea alternative)
+- [[Habshan-Fujairah Pipeline]] — 2M bbl/d pipeline under bombardment
+- [[Iran conflict Gulf infrastructure]] — comprehensive facility damage catalog
 
-*Created 2026-03-08*
+*Created 2026-03-08. Updated 2026-03-22 (MEI panel).*

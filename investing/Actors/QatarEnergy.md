@@ -140,6 +140,18 @@ Al-Kaabi escalated the public timeline further on March 20, explicitly warning o
 
 ---
 
+## MEI panel assessment (March 20, 2026 — Connelly)
+
+[[Colby Connelly]] ([[Middle East Institute|MEI]] Senior Fellow, energy expert) on the Reuters interview and March 20 panel: [[Saad Al-Kaabi]] told Reuters that force majeure on some supply contracts with European customers could last ~5 years, at an estimated cost of $20B/year in lost revenue. 17% of QatarEnergy capacity is now offline. Connelly underscored that Qatari LNG was expected to double capacity by 2030 — that plan is now in question. The ~14 million tons/year of LNG lost from [[Qatar]] (assuming no further incidents) is a structural gap, not a temporary outage.
+
+The force majeure on European contracts is particularly significant — [[Europe]] had been deepening its dependency on Qatari LNG as a replacement for [[Russia]]n gas since 2022. With long-term contracts now under force majeure for up to five years, European buyers must compete harder for spot cargoes from [[Cheniere|US LNG]], [[Australia]], and other suppliers already running near capacity.
+
+Connelly also emphasized that restoring international investor confidence in Qatari energy assets requires assurance "this doesn't happen again" — a condition he assessed as very far from being met. The above-ground risk landscape for Gulf energy investment has fundamentally changed.
+
+Source: MEI panel, March 20 2026 — Connelly
+
+---
+
 ## Related
 
 - [[Qatar]] — parent state
@@ -150,3 +162,4 @@ Al-Kaabi escalated the public timeline further on March 20, explicitly warning o
 - [[LNG]] — global trade context
 - [[2026 Iran conflict market impact]] — market reaction hub
 - [[Iran conflict economic disruption]] — energy sector deep dive
+- [[Ras Laffan]] — world's largest LNG terminal, physically damaged
