@@ -121,6 +121,9 @@ The David A. Graham (Atlantic) warning: now that Trump *knows* about TACO, he ma
 - [[Iran conflict oil price timeline]] — price action during TACO's biggest stress test
 - [[Hormuz Permanent Risk Premium]] — thesis that even post-conflict, the risk premium persists
 
+### Cross-vault
+- [Geopolitics: Trump TACO](obsidian://open?vault=geopolitics&file=Concepts%2FTrump%20TACO) — deterrence credibility analysis, Schelling mixed strategies, adversary adaptation, theoretical placement in coercive diplomacy framework
+
 ---
 
 *Sources: Robert Armstrong (FT, May 2 2025), Wikipedia "Trump Always Chickens Out," Nate Silver (Silver Bulletin, Mar 18 2026), Slate (Ben Mathis-Lilley, Mar 11 2026), Kobeissi Letter (X article, Mar 3 2026). Updated 2026-03-22.*
