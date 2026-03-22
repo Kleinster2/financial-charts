@@ -63,6 +63,7 @@ If CI fails, fix forward or `git revert HEAD && git push origin main`.
 - Root: `investing/`
 - Actors: `investing/Actors/` (companies, orgs, people, **countries**)
 - Products: `investing/Products/` (chips, AI models, drugs, vehicles — things made by Actors)
+- Infrastructure: `investing/Infrastructure/` (chokepoints, pipelines, terminals, ports — fixed physical assets enabling trade/energy flows)
 - Regions: `investing/Regions/` (multi-country only: LATAM, GCC, Southeast Asia)
 - Concepts: `investing/Concepts/`
 - Events: `investing/Events/`
@@ -73,6 +74,8 @@ If CI fails, fix forward or `git revert HEAD && git push origin main`.
 **Countries go in Actors, not Regions.** See `India.md` for hub template (~100-150 lines max).
 
 **Products vs Actors:** Products lack agency — the parent Actor makes decisions. NVIDIA (Actor) → H100 (Product). See `[[Linking and hierarchy]]`.
+
+**Infrastructure vs Products vs Actors:** Infrastructure is for fixed physical assets that enable trade/energy flows but don't have agency: straits (Hormuz, Malacca, Danish Straits, Turkish Straits), pipelines (East-West, Habshan-Fujairah, SUMED, IPSA, Goreh-Jask), terminals/hubs (Ras Laffan, Kharg Island). Products are manufactured goods. Actors are entities with agency (companies, countries, people). An emirate like Fujairah stays in Actors (it has a government); its pipeline stays in Infrastructure.
 
 **Sector hubs vs subsector notes:** Sector hub notes (e.g., `Defense.md`) are for structure — correlation data, sub-sector taxonomy, key programs. Market reaction data (price moves, catalyst analysis) goes in subsector notes (e.g., `Defense Primes.md`, `Drones.md`). Don't put live market data in the hub.
 

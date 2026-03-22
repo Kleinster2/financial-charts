@@ -25,6 +25,7 @@ Guidelines for folder structure, note hierarchy, and linking.
 |--------|---------|
 | Actors | Companies, orgs, people, countries — entities with agency |
 | Products | Things made by Actors — chips, models, drugs, vehicles |
+| Infrastructure | Fixed physical assets enabling trade/energy flows — chokepoints, pipelines, terminals |
 | Concepts | Ideas, dynamics, phenomena, categories |
 | Sectors | Industry hubs with value chains |
 | Theses | Investment theses (Long/Short/Pairs) |
@@ -48,6 +49,25 @@ Products are made by Actors but lack agency. The parent Actor makes all decision
 - NVIDIA (Actor) → H100 (Product) → AI accelerators (Concept)
 - Anthropic (Actor) → Claude (Product) → Frontier models (Concept)
 - Novo Nordisk (Actor) → Ozempic (Product) → GLP-1 drugs (Concept)
+
+### Infrastructure vs Products vs Actors
+
+Infrastructure is for fixed physical assets that enable trade or energy flows but lack agency. They don't make decisions, aren't manufactured goods, and can't be invested in directly (unlike pipeline companies, which are Actors).
+
+| Test | Actor | Product | Infrastructure |
+|------|-------|---------|---------------|
+| Does it make decisions? | Yes | No | No |
+| Is it manufactured? | N/A | Yes | No (natural or built-in-place) |
+| Does it enable flow/transit? | Sometimes | No | Yes |
+| Can you invest in it directly? | Usually | No | No |
+
+**Examples:**
+- Iran (Actor) → Kharg Island (Infrastructure) — terminal handling 90% of Iran's oil exports
+- QatarEnergy (Actor) → Ras Laffan (Infrastructure) — industrial hub with 20% of world LNG capacity
+- Saudi Arabia (Actor) → East-West Pipeline (Infrastructure) — 7M bbl/d bypass route
+- Plains All American Pipeline (Actor) stays in Actors — it's a company with agency, not the physical pipe
+
+**Chokepoints** are Infrastructure: Strait of Hormuz, Strait of Malacca, Danish Straits, Turkish Straits, SUMED pipeline.
 
 ---
 
