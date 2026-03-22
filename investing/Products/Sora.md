@@ -68,7 +68,9 @@ HD video costs ~$0.50/sec via API.
 
 ## Sora iOS App
 
-Launched as dedicated social app — direct TikTok competitor for AI-generated content. Create, remix, share short-form video.
+Launched September 2025 as dedicated social app — direct TikTok competitor for AI-generated content. Briefly hit #1 on Apple App Store but usage flatlined in the months that followed (WSJ, Mar 2026). [[OpenAI]] is now looking to integrate video-generation features back into the main [[ChatGPT]] app rather than maintaining a standalone product. Part of a broader deprioritization of "side quests" led by [[Fidji Simo]].
+
+*Source: WSJ (Berber Jin, Mar 16 2026)*
 
 ---
 

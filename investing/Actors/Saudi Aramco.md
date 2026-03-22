@@ -112,7 +112,7 @@ With the [[Strait of Hormuz]] effectively closed, the Saudi East-West pipeline (
 
 Even maximizing Yanbu loading to ~3 mb/d adds only ~1.1 mb/d of incremental flow — a fraction of the 15+ mb/d normally transiting Hormuz. The pipeline was never designed to replace Hormuz; it was emergency redundancy for Aramco's own exports. US Embassy in Riyadh warned of imminent drone/rocket attacks on Dhahran — home of Aramco HQ — adding operational risk on top of the shipping disruption.
 
-See [[Iran conflict economic disruption#Pipeline alternatives — severely bottlenecked]] for the full bypass analysis.
+See [[Iran conflict Gulf infrastructure#Pipeline alternatives — severely bottlenecked]] for the full bypass analysis.
 
 ---
 

@@ -66,7 +66,7 @@ The story of OpenAI is the story of a nonprofit research lab that accidentally c
 
 - Jan-Feb 2026 (the mega-round and its obligations): The $110B round closed February 27, 2026 — the largest private financing in history. [[Amazon]] committed $50B ($15B immediate in Series C preferred, $35B conditional on milestones including IPO/listing, terminates Dec 2028 if uninvested). [[SoftBank]] and [[NVIDIA]] each committed $30B. In exchange, OpenAI committed to $100B in AWS spending over 8 years and 2 GW of Amazon Trainium compute. NVIDIA's participation came with friction: Reuters reported (Feb 2) that OpenAI was dissatisfied with NVIDIA chips for inference workloads, targeting ~10% of inference from alternatives. The $10B+ Cerebras deal (2026-2028, 750 MW, inference-focused) formalized the diversification. GPT-5.4 launched March 5 with agentic capabilities. The Stargate Abilene expansion (1.2 GW to 2 GW) was cancelled March 6, though the core 4.5 GW Oracle contract remained intact. The Mission Alignment team was disbanded in February; its leader Joshua Achiam was moved to a "chief futurist" role.
 
-- March 2026 (current state): [[NVIDIA]] CEO [[Jensen Huang]] said he expects his recent $40B investment across OpenAI and [[Anthropic]] to be his "last money in" — both companies will go public this year. The paradox is sharp. OpenAI has the most users (900M+), the most capital ($168B raised), and the highest valuation ($840B) of any private company ever. But it also has no CTO, no chief scientist, a disbanded safety team, co-founders scattered across competitors (Sutskever at SSI, Schulman at Anthropic, Brockman on indefinite sabbatical), gross margins compressing, losses deepening, and a $134B Musk lawsuit heading to jury trial in April. The acquisition of [[Promptfoo]] (announced Mar 9) — an AI security testing platform used by 25%+ of the Fortune 500 — signals the enterprise agent push is serious: as Frontier agents access CRMs and internal tools, security becomes a procurement gate. Promptfoo's 23-person team and open-source framework ($23.6M raised, $86M last valuation) join the Frontier platform. The bet is that scale — user scale, compute scale, capital scale — creates a moat before the models commoditize. The risk is that it doesn't, and OpenAI becomes the most expensive proof that distribution without differentiation is a losing position.
+- March 2026 (current state — the focus pivot): [[NVIDIA]] CEO [[Jensen Huang]] said he expects his recent $40B investment across OpenAI and [[Anthropic]] to be his "last money in" — both companies will go public this year. The paradox is sharp. OpenAI has the most users (900M+), the most capital ($168B raised), and the highest valuation ($840B) of any private company ever. But it also has no CTO, no chief scientist, a disbanded safety team, co-founders scattered across competitors (Sutskever at SSI, Schulman at Anthropic), gross margins compressing, losses deepening, and a $134B Musk lawsuit heading to jury trial in April. The acquisition of [[Promptfoo]] (announced Mar 9) — an AI security testing platform used by 25%+ of the Fortune 500 — signals the enterprise agent push is serious. And now, under pressure from [[Anthropic]]'s [[Claude Code]] and [[Claude Cowork]] dominance, OpenAI is making its most significant strategic pivot since the for-profit conversion. [[Fidji Simo]] (CEO of applications, hired Aug 2024) told staff they "cannot miss this moment because we are distracted by side quests" and announced plans to merge [[ChatGPT]], [[Codex]], and Atlas browser into a desktop "superapp." [[Greg Brockman]] returned from sabbatical to help oversee the product revamp. Simo called Anthropic's success a "wake-up call." The organizational diagnosis is damning: compute resources shifting between teams at the last minute, [[Sora]] housed under research despite being a consumer product, no clear strategic direction. [[Sam Altman]]'s earlier framing of "betting on a series of startups" inside OpenAI — which launched Sora (standalone app that flatlined), Atlas browser, hardware, and e-commerce features in 2025 — is now acknowledged as the problem. [[Codex]] recovered some ground (2M+ WAU, up 4x since January) after GPT-5.4 launched, but Anthropic remains the "dominant AI provider for businesses" (WSJ). The bet is that scale — user scale, compute scale, capital scale — creates a moat before the models commoditize. The risk is that OpenAI's year of distraction gave Anthropic an enterprise lead that a superapp consolidation can't close.
 
 ---
 
@@ -87,8 +87,9 @@ The story of OpenAI is the story of a nonprofit research lab that accidentally c
 ### Consumer and enterprise
 
 - [[ChatGPT]] — consumer/enterprise interface (Free/$8 Go/$20 Plus/$200 Pro/Team/Enterprise/Edu)
-- Codex — coding agent (GPT-5.2-Codex), MacOS app launched Feb 2026, repo-scale reasoning
-- [[Sora]] — video generation (Sora 2/Sora 2 Pro with improved temporal coherence)
+- [[Codex]] — coding agent (GPT-5.2-Codex), MacOS app launched Feb 2026, repo-scale reasoning. 2M+ WAU (Mar 2026, up 4x since Jan). Centerpiece of "superapp" strategy
+- [[Sora]] — video generation (Sora 2/Sora 2 Pro); standalone app launched Sep 2025 but usage flatlined, now being reintegrated into ChatGPT
+- Atlas — web browser (being merged into "superapp")
 - Deep Research — o3-powered comprehensive web research agent (launched Feb 2, 2025)
 - Whisper — speech-to-text
 - AgentKit — SDK for building/deploying AI agents (announced Oct 2025 Dev Day)
@@ -179,8 +180,10 @@ Microsoft receives 20% of OpenAI revenue through 2032. Sam Altman reportedly not
 | Role | Person |
 |------|--------|
 | CEO | [[Sam Altman]] (co-founder) |
-| President | [[Greg Brockman]] (co-founder; extended sabbatical since late 2024) |
+| CEO of Applications | [[Fidji Simo]] (joined Aug 2024; oversees product, finance, strategy) |
+| President | [[Greg Brockman]] (co-founder; returned from sabbatical, now leads computing + product revamp) |
 | COO | Brad Lightcap |
+| Chief Research Officer | Mark Chen |
 | CTO of Applications | Vijaye Raji (joined via Statsig acquisition) |
 | Board chair | [[Bret Taylor]] |
 | CTO | Vacant since Sep 2024 |

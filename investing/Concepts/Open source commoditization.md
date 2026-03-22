@@ -79,6 +79,20 @@ No single provider wins. Commoditization is the outcome.
 
 ---
 
+## "By accident, in an okay spot" (Karpathy, Mar 2026)
+
+[[Andrej Karpathy]] (No Priors, Mar 20 2026) assessed the open-source gap at roughly 6-8 months behind frontier, down from 18 months. He views this as a healthy, possibly optimal, equilibrium rather than a threat to either side:
+
+> "I want there to be a thing that's behind but that is kind of a common working space for intelligences that the entire industry has access to."
+
+Linux analogy: Linux runs on ~60% of computers because the industry demands a common open platform. Open-source AI fills the same structural role. The difference: massive capex makes sustaining open-source models harder than sustaining open-source software.
+
+His equilibrium model: frontier closed labs push boundaries on the hardest problems (Nobel Prize-level work, "move Linux from C to Rust"-scale projects). Open source eats through basic use cases and eventually runs locally. Current frontier intelligence becomes open source within months.
+
+"Centralization has a very poor track record." He sees structural risk in closed-only intelligence and wants more labs, not fewer — "ensembles always outperform any individual model."
+
+---
+
 ## Related
 
 - [[OpenAI]] — threatened (pricing power eroding)
@@ -86,3 +100,5 @@ No single provider wins. Commoditization is the outcome.
 - [[Model lab economics]] — context (margin compression)
 - [[Inference economics]] — mechanism (10-30x price gap)
 - [[Meta]] — enabler ([[Llama]] open source)
+- [[Andrej Karpathy]] — 6-8 month gap assessment, "by accident in an okay spot" (Mar 2026)
+- [[AutoResearch]] — distributed auto research could further democratize AI improvement

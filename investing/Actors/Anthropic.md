@@ -214,7 +214,7 @@ Anthropic did not comply by the Friday 5:01 PM deadline. [[Pete Hegseth]] follow
 - **Feb 27:** Trump ordered all US government agencies to stop using Claude.
 - **Feb 28:** [[OpenAI]] swooped in to take Anthropic's contract **hours after the ban**, agreeing to "any lawful purpose" military deployment. [[Sam Altman]]: "Anthropic seemed more focused on specific prohibitions in the contract, rather than citing applicable laws, which we felt comfortable with." OpenAI's deal does **not** explicitly prohibit bulk collection of Americans' publicly available information — the exact issue Anthropic flagged.
 
-**Anthropic's response:** Will challenge the designation in court. Dario: "We cannot in good conscience accede to their request." The company argues the designation is "legally unsound" and "sets a dangerous precedent for any American company that negotiates with the government."
+**Anthropic's response:** Dario: "We cannot in good conscience accede to their request." The company argues the designation is "legally unsound" and "sets a dangerous precedent for any American company that negotiates with the government." Anthropic has formally filed suit against the US government over the designation (WSJ, Mar 16 2026). The Pentagon designation is making "some businesses more hesitant" to buy Anthropic technology (WSJ).
 
 **Legal analysis (Lawfare):** The supply-chain designation is legally novel and unlikely to survive court challenge. It punishes a domestic company for **negotiating contract terms**, not for any security violation.
 
@@ -610,6 +610,14 @@ Anthropic is capturing the "agentic code orchestrator" niche:
 - 55% of enterprise AI spend is coding - largest category
 
 See [[Long Anthropic]] for full thesis.
+
+### OpenAI's acknowledgment (March 2026)
+
+WSJ (Berber Jin, Mar 16 2026): Anthropic has become "the dominant AI provider for businesses thanks to the viral success of its Claude Code and Cowork offerings." [[Fidji Simo]], [[OpenAI]]'s CEO of applications, told staff that Anthropic's success should serve as a "wake-up call" and that OpenAI must regain the lead. OpenAI is now deprioritizing consumer "side quests" (Sora standalone app, Atlas browser, hardware) and refocusing on coding/enterprise — merging products into a "superapp" centered on [[Codex]]. WSJ's Ben Cohen (Mar 20 2026) framed Anthropic's focus strategy as the Steve Jobs playbook: saying no to everything except coders and enterprise, letting a side project ([[Boris Cherny]]'s Claude Code prototype) become the breakout product precisely because the company's identity was clear.
+
+[[Codex]] has recovered some ground: 2M+ WAU (up 4x since Jan) after [[OpenAI GPT-5.4]] launch. But Anthropic retains the enterprise lead — 80% enterprise revenue mix, 300K+ business customers, 8 of Fortune 10.
+
+*Sources: WSJ (Berber Jin, Mar 16, 19 2026; Ben Cohen, Mar 20 2026)*
 
 ---
 

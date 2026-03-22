@@ -276,6 +276,14 @@ Scale context: US currently produces ~3 GW/year of solar cells. Tesla's 100 GW t
 
 ---
 
+## Semi truck (mass production summer 2026)
+
+[[Tesla Semi]] — Class 8 BEV truck, centered driving position, 500-mile range, 60% charge in 30 minutes. Under $300K (~2x diesel, ~$100K less than competing BEV trucks). Mass production starting summer 2026 from Nevada Gigafactory. Expected 5,000-15,000 deliveries in 2026, ramping to 50,000/year (Tigress Financial Partners). California carriers secured $195M in grants for 1,002 units in six months — roughly double the zero-emission big rigs currently operating in Southern California (Calstart data, Mar 2026).
+
+*Source: WSJ (Paul Berger, Mar 19, 2026)*
+
+---
+
 ## [[Automotive]] exposure
 
 Major consumer of automotive semiconductors:
@@ -508,3 +516,5 @@ See [[Short interest]] for interpretation framework.
 - [[Waymo]] — robotaxi competitor
 - [[First Solar]] — solar competitor (Tesla 100 GW target vs FSLR 14 GW)
 - [[Tesla Energy]] — energy division (Megapack + solar)
+- [[Tesla Semi]] — Class 8 BEV truck (mass production summer 2026)
+- [[Nikola]] — BEV/hydrogen truck competitor (bankrupt Feb 2025)

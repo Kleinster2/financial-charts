@@ -9,7 +9,7 @@ parent_actor: "[[Anthropic]]"
 
 # Claude Code
 
-[[Anthropic]]'s terminal-based coding agent. Agentic AI that edits files, runs commands, creates PRs. Part of the [[Claude]] product family. Hit $2.5B run rate by Feb 2026 — more than half from enterprise.
+[[Anthropic]]'s terminal-based coding agent. Agentic AI that edits files, runs commands, creates PRs. Part of the [[Claude]] product family. Hit $2.5B run rate by Feb 2026 — more than half from enterprise. Created by [[Boris Cherny]], who built it as a side project in 2024 and shared it via Slack — it spread organically inside Anthropic before launching publicly in May 2025.
 
 ---
 
@@ -71,25 +71,37 @@ UC Berkeley study (200-person org): workers offloading to AI agents but simultan
 
 ---
 
+## Origin
+
+[[Boris Cherny]] built Claude Code as an internal tool in 2024 and shared it on Slack: "I wanted to show off a new tool I've been hacking on." It spread organically — "before long, everyone inside the company was using his new tool." Anthropic's existing focus on coders and enterprise meant Cherny had clarity on the user base from the start. WSJ's Ben Cohen (Mar 20 2026): Claude Code "conquered Silicon Valley, jolted Wall Street and even managed to scramble Anthropic's fiercest rival." Cherny is now head of Claude Code.
+
+*Source: WSJ (Ben Cohen, Mar 20 2026)*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
+| Creator | [[Boris Cherny]] |
 | Parent | [[Anthropic]] |
 | Product family | [[Claude]] |
 | Category | AI coding agent |
 | Run rate | $2.5B (Feb 2026) |
 | Revenue mix | >50% enterprise |
-| Launch | May 2025 (public) |
+| Prototype | 2024 (internal Slack) |
+| Public launch | May 2025 |
 
-*Updated 2026-02-17*
+*Updated 2026-03-21*
 
 ---
 
 ## Related
 
 - [[Anthropic]] — parent company
+- [[Boris Cherny]] — creator and head
 - [[Claude]] — product family
+- [[Codex]] — [[OpenAI]] competitor
 - [[Cursor]] — competitor
 - [[GitHub Copilot]] — competitor
 - [[Agentic AI]] — category

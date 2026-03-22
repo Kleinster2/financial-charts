@@ -11,6 +11,7 @@
 | [[Propaganda thru Force]] | Visible action as messaging — the action *is* the message |
 | [[Donroe Doctrine]] | Trump's Monroe — Western Hemisphere is US sphere |
 | [[Regime Compliance Doctrine]] | Fear → compliance, not regime change — keep regime, change behavior |
+| [[Trump TACO]] | "Trump Always Chickens Out" — escalate → market pain → reverse/deal. Wall Street's framework for the negotiation cycle |
 
 ---
 

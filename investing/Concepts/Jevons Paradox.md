@@ -78,7 +78,17 @@
 
 ---
 
-*Updated 2026-01-04*
+## Application to software engineering jobs
+
+[[Andrej Karpathy]] (No Priors, Mar 20 2026) applied the paradox to the AI-jobs debate. His canonical example: ATMs and bank tellers. ATMs were expected to eliminate tellers, but they reduced branch operating costs so much that banks opened more branches, creating more teller positions.
+
+He sees the same dynamic for software engineering: AI agents make software dramatically cheaper to produce, which unlocks latent demand for software that was previously too expensive. Code becomes "ephemeral and modifiable" — people aren't forced to subscribe to imperfect existing tools. The demand for software "rewiring everything" could be enormous.
+
+Karpathy is "cautiously optimistic" near-term but uncertain long-term. He points out that frontier lab researchers are actively automating themselves away — the very people building the tools acknowledge they're building their own replacement.
+
+---
+
+*Updated 2026-03-21*
 
 ---
 
@@ -89,3 +99,5 @@
 - [[Long NVIDIA]] — thesis (demand durability)
 - [[Agentic AI]] — driver (agents multiply inference demand)
 - [[Open source commoditization]] — driver (cheaper models = more deployment)
+- [[AutoResearch]] — cheaper research → more research
+- [[Andrej Karpathy]] — ATM/bank teller analogy for AI jobs (Mar 2026)

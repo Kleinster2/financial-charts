@@ -437,7 +437,7 @@ JCPOA (Iran nuclear deal) lifted sanctions, but:
 | 2024 | ~40% |
 | 2025 | 36-42% (annualized) |
 
-**Real wages:** Collapsed. Minimum wage increases lag inflation by double digits.
+**Real wages:** Collapsed. Minimum wage increases lag inflation by double digits. In March 2026, Iran announced a 60% minimum wage increase — a war economy move aimed at buying popular support and preventing the cost-of-living protests from spiraling into political meltdown ([[Adam Tooze]], Mar 20). The increase is reactive (trails real inflation) and likely signals how severe the squeeze has become.
 
 ### GDP and living standards
 

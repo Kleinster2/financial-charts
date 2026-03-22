@@ -209,6 +209,25 @@ Bloomberg Businessweek (Feb 26 2026) documented the emerging pattern: AI agents 
 - [Claude Code Documentation](https://code.claude.com/docs/en/overview)
 - [Cloudflare Moltworker Blog](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/)
 
+## "Claws" — persistent autonomous agents (Mar 2026)
+
+[[Andrej Karpathy]] (No Priors, Mar 20 2026) described "claws" as the next layer above coding agents: persistent agents that keep looping autonomously, have their own sandbox, act on your behalf even when you're not looking, and maintain sophisticated memory systems beyond simple context compaction.
+
+The progression as he sees it:
+1. LLMs (taken for granted)
+2. Agents — single interactive sessions (taken for granted)
+3. Multiple parallel agents — macro actions over repositories
+4. Claws — persistent, autonomous, memory-equipped, always running
+5. Meta-optimization — optimizing the instructions to the claws themselves
+
+[[OpenClaw]] is the leading implementation. Karpathy praised its personality (soul.md), memory system, and single WhatsApp portal — said creator [[Peter Steinberger]] "innovated simultaneously in like five different ways." The key insight: what people expect from "AI" isn't a raw token generator but a persona with identity, persistence, and memory behind a messaging interface.
+
+Karpathy's "Dobby the elf claw" (home automation via WhatsApp) demonstrates the pattern: agent discovers devices, builds APIs, creates dashboards, runs security cameras with vision models, replaces six separate apps with natural language control. The prediction: this is "table stakes" within 1-2 years for any AI, including open-source models.
+
+The implication for the SaaS meltdown thesis: if claws can replicate and unify the functionality of multiple apps through direct API access, the app layer itself may be the casualty — not just individual SaaS products.
+
+---
+
 ## SaaS stock meltdown (Feb 2026)
 
 The market's most dramatic response to agentic AI so far. [[Anthropic]] and [[OpenAI]] repositioning code-generation tools as general-purpose agents for non-technical workers triggered a sector-wide repricing of [[SaaS]] stocks. Large-cap SaaS names fell -25% to -40% YTD while SPY sat flat. The *Financial Times* editorial board (Feb 15) framed agents as a new computing layer that could usurp established software, drawing a taxonomy: non-essential workflow SaaS (highest risk), systems of record (medium), agent infrastructure (beneficiary). See [[SaaS stock meltdown 2026]] for full data.

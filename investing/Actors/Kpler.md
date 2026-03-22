@@ -34,7 +34,7 @@ The firm's value is highest when market structure breaks. During the Iran war, K
 Kpler's Matt Smith framed the market's core mistake as a timing problem: traders were seeing disruption headlines but not yet feeling the physical shortage because pre-conflict cargoes were still on the water.
 
 Key Kpler calls:
-- Iran was acting as **gatekeeper**, not full blocker — its own barrels kept moving while rivals' exports stalled
+- Iran was acting as gatekeeper, not full blocker — its own barrels kept moving while rivals' exports stalled
 - China remained deeply exposed despite large storage buffers
 - Bypass infrastructure (Saudi east-west, Fujairah, shadow fleet, SPR releases) did not fully close the supply gap
 - The real shortage would hit when cargoes expected to arrive in Asia simply failed to show up — the "oh dear" moment

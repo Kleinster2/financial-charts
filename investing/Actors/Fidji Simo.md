@@ -1,59 +1,11 @@
 ---
 aliases: []
----
-#actor #executive #ai #usa
-
-**Fidji Simo** — OpenAI executive. Former [[Instacart]] CEO. Ex-Meta executive.
-
+tags: [actor, executive, ai, usa]
 ---
 
-## Why Fidji Simo matters
+# Fidji Simo
 
-| Metric | Value |
-|--------|-------|
-| Current | Executive, [[OpenAI]] |
-| Previous | CEO, [[Instacart]] (2021-2024) |
-| Before | VP Product, Meta/Facebook |
-| Focus | Product/operations leadership |
-
----
-
-## Career
-
-| Period | Role |
-|--------|------|
-| 2011-2021 | Meta/Facebook (rose to VP Product) |
-| 2021-2024 | CEO, [[Instacart]] |
-| 2024+ | Executive, OpenAI |
-
-Transitioned from Big Tech → startup CEO → frontier AI.
-
----
-
-## OpenAI role
-
-**Responsibilities:**
-- Barret Zoph reports directly to her
-- Product/operations leadership
-- Part of senior executive team
-
-**Thinking Machines re-hires (Jan 2026):**
-- Announced hiring of Zoph, Metz, Schoenholz
-- Addressed internal concerns about Zoph's departure from TML
-- Stated OpenAI does "not share" concerns about alleged ethical issues
-
----
-
-## [[Instacart]] tenure
-
-| Metric | Value |
-|--------|-------|
-| Period | 2021-2024 |
-| Role | CEO |
-| IPO | Led [[Instacart]] to public markets (Sept 2023) |
-| Ticker | CART |
-
-Successfully navigated post-pandemic normalization.
+[[OpenAI]] CEO of applications. Hired August 2024 by [[Sam Altman]] to bring operational discipline to a company that had been "betting on a series of startups" internally. Former [[Instacart]] CEO (led to IPO), former [[Meta]] VP Product. Now leading OpenAI's most significant strategic pivot: consolidating ChatGPT, [[Codex]], and Atlas browser into a desktop "superapp" and refocusing the company on coding and enterprise after [[Anthropic]]'s [[Claude Code]] and [[Claude Cowork]] took the lead.
 
 ---
 
@@ -61,12 +13,45 @@ Successfully navigated post-pandemic normalization.
 
 | Metric | Value |
 |--------|-------|
-| Current | OpenAI executive |
-| Previous | [[Instacart]] CEO |
-| Before | Meta VP Product |
-| Style | Product-focused operator |
+| Title | CEO of applications, [[OpenAI]] |
+| Hired | August 2024 |
+| Reports | Oversees product, finance, strategy |
+| Previous | CEO, [[Instacart]] (2021-2024) |
+| Before | VP Product, [[Meta]]/Facebook (2011-2021) |
 
-*Created 2026-01-15*
+---
+
+## OpenAI strategy shift (March 2026)
+
+Simo is leading OpenAI's most consequential organizational change since the for-profit conversion. In a March 2026 all-hands, she previewed plans to deprioritize "side quests" and refocus on coding and enterprise productivity:
+
+WSJ all-hands remarks (Mar 16 2026): "We cannot miss this moment because we are distracted by side quests. We really have to nail productivity in general and particularly productivity on the business front."
+
+On Anthropic's success: called it a "wake-up call" — OpenAI must regain the lead among software developers and enterprise customers.
+
+Internal note (Mar 19 2026): "We realized we were spreading our efforts across too many apps and stacks, and that we need to simplify our efforts. That fragmentation has been slowing us down and making it harder to hit the quality bar we want."
+
+"Superapp" plan: unifying [[ChatGPT]], [[Codex]], and Atlas browser into a single desktop app. [[Greg Brockman]] will help oversee the product revamp and org changes. Mobile ChatGPT remains unchanged. Codex gets expanded agentic capabilities beyond coding first, then ChatGPT and Atlas merge in.
+
+On competitive posture: "We are very much acting as if it's a code red."
+
+*Sources: WSJ (Berber Jin, Mar 16, 19 2026; Ben Cohen, Mar 20 2026)*
+
+---
+
+## Career
+
+| Period | Role |
+|--------|------|
+| 2011-2021 | [[Meta]]/Facebook (rose to VP Product — led Facebook app, gaming, video) |
+| 2021-2024 | CEO, [[Instacart]] (IPO Sept 2023, CART) |
+| Aug 2024- | CEO of applications, [[OpenAI]] |
+
+---
+
+## Thinking Machines re-hires (Jan 2026)
+
+Announced hiring of Barret Zoph, Luke Metz, Sam Schoenholz from [[Thinking Machines Lab]]. Addressed internal concerns about Zoph's departure from TML. Stated OpenAI does "not share" concerns about alleged ethical issues.
 
 ---
 
@@ -74,5 +59,15 @@ Successfully navigated post-pandemic normalization.
 
 - [[OpenAI]] — current employer
 - [[Sam Altman]] — CEO at OpenAI
+- [[Greg Brockman]] — co-leading product revamp
+- [[Codex]] — key product in superapp strategy
+- [[ChatGPT]] — consumer product being consolidated
+- [[Anthropic]] — rival whose success triggered the strategic pivot
+- [[Claude Code]] — Anthropic product that catalyzed OpenAI's refocus
 - [[Thinking Machines Lab]] — hired team members from
 - [[Meta]] — previous employer
+- [[Instacart]] — previous company (CEO, led to IPO)
+
+---
+
+*Created 2026-01-15 | Updated 2026-03-21*

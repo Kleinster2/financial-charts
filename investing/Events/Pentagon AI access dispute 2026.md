@@ -16,6 +16,7 @@
 | Ultimatum deadline | 5:01 PM ET, Friday February 28, 2026 |
 | Threatened penalties | Defense Production Act + supply-chain risk designation |
 | Outcome (Feb 27) | Anthropic designated supply-chain risk; Trump orders government-wide phaseout |
+| Anthropic lawsuit | Filed suit against US government over designation (confirmed WSJ Mar 16) |
 | OpenAI reversal (Mar 3) | Altman admits deal "opportunistic," amends contract to prohibit domestic surveillance |
 | Public reaction | Claude surged to #1 on Apple App Store; all-time sign-up records |
 | Anthropic revenue run rate | ~$20B (as of ~Mar 6, up from $14B in mid-Feb) |
@@ -70,8 +71,9 @@ This triggered a fundamental reassessment inside DOD. Pentagon officials began c
 | Mar 3 | Altman admits Pentagon deal "looked opportunistic and sloppy." OpenAI amends contract to prohibit domestic surveillance — the same safeguard Anthropic demanded |
 | Mar 4 | ITI letter (NVIDIA, Amazon, Apple, OpenAI members) expresses concern over supply-chain risk designation. Anthropic investors mobilize — Lightspeed, Iconiq coordinating solutions. Revenue run rate hits ~$19B (up from $14B weeks ago). Palantir's Maven Smart Systems revealed to use Claude code; will need to rebuild. Lockheed Martin pledges compliance. OpenAI pursuing NATO contract (unclassified networks). Jensen Huang says $10B Anthropic and $30B OpenAI investments likely his last |
 | Mar 8 | [[Caitlin Kalinowski]], head of [[OpenAI]] robotics, resigns over Pentagon deal. Posted on X: "surveillance of Americans without judicial oversight and lethal autonomy without human authorization are lines that deserved more deliberation." First internal departure directly attributed to the Pentagon deal. Joined OpenAI Nov 2024 from [[Meta]] (led AR glasses development). OpenAI confirmed, reaffirmed "no domestic surveillance and no autonomous weapons" red lines |
+| By Mar 16 | Anthropic formally suing the US government over the supply-chain risk designation (WSJ). Pentagon designation making "some businesses more hesitant" to buy Anthropic technology |
 
-*Sources: Axios (Feb 13, 15, 16, 24, 26, Mar 1), Reuters (Jan 30, Feb 12, 25, Mar 3-4), WSJ (Feb 14, 18), NBC (Feb 13, 18), Semafor (Jan 16, Feb 24), CNN (Feb 24), CNBC (Feb 18, 24, 26, 27, Mar 3), TechCrunch (Feb 23, 24, Mar 1-2), Fortune (Feb 25, 28, Mar 3), NPR (Feb 24, 27), Lawfare (Mar 1)*
+*Sources: Axios (Feb 13, 15, 16, 24, 26, Mar 1), Reuters (Jan 30, Feb 12, 25, Mar 3-4), WSJ (Feb 14, 18, Mar 16), NBC (Feb 13, 18), Semafor (Jan 16, Feb 24), CNN (Feb 24), CNBC (Feb 18, 24, 26, 27, Mar 3), TechCrunch (Feb 23, 24, Mar 1-2), Fortune (Feb 25, 28, Mar 3), NPR (Feb 24, 27), Lawfare (Mar 1)*
 
 ---
 

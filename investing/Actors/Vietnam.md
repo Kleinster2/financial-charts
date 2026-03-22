@@ -95,7 +95,7 @@ The Ministry of Industry and Trade urged employers to allow remote work on March
 
 Motorists in Hanoi reported waiting nearly an hour at fuel stations. Four-day workweeks encouraged. The thin reserve buffer means Vietnam hits crisis faster than neighbors — if Hormuz stays closed into Week 4, voluntary conservation shifts to mandatory rationing.
 
-See [[Iran conflict economic disruption#Southeast Asia emergency measures (March 9-13)]] for regional context.
+See [[Iran conflict supply chain cascade#Southeast Asia emergency measures (March 9-13)]] for regional context.
 
 ---
 
