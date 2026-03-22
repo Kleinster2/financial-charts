@@ -12,7 +12,7 @@
 | Rebranded | 2021 (Banco Master) |
 | Liquidated | November 17, 2025 |
 | Owner | Daniel Vorcaro |
-| FGC payout | R$41B ($7.6B) — record |
+| FGC payout | R$41B ($7.6B) — record; combined orbit R$52B |
 | Depositors affected | 1.6 million |
 | Alleged fraud | R$12.2B |
 | BRB injection | R$16.7B (2024-2025) |
@@ -27,9 +27,9 @@
 | Father | Henrique Vorcaro (founder of Multipar real estate group) |
 | Education | MBA, Ibmec (2005-2007) |
 | Acquired Banco Máxima | 2018 (with Conte brothers) |
-| Arrested | November 17, 2025 (Guarulhos Airport, fleeing to Malta via Dubai) |
+| Arrested | November 17, 2025 (Guarulhos Airport, fleeing to Malta via Dubai); second arrest March 4, 2026 |
 | Released | November 28, 2025 (11 days), ankle monitor |
-| Charges | Fraudulent management, reckless management, criminal organization, money laundering |
+| Charges | Fraudulent management, reckless management, criminal organization, money laundering; "Sicario" intimidation plot |
 
 ### Family background
 
@@ -321,6 +321,11 @@ Banco Master sponsored forums in New York, London, Paris, Rome, and Cambridge (U
 | Jan 14, 2026 | Second probe phase — warrants for Vorcaro, Tanure, Mansur, Antonio Conte; 42 warrants |
 | Jan 15, 2026 | Central Bank liquidates [[Reag Investimentos]] (ex-Reag DTVM) |
 | Jan 2026 | Finance Minister Haddad: "may be Brazil's biggest banking fraud" |
+| Feb 2026 | [[Banco Pleno]] liquidated — third institution in Master orbit to fail; Central Bank announces regulatory overhaul; Economist publishes STF entanglement piece |
+| Mar 4, 2026 | Justice André Mendonça orders Vorcaro's second arrest citing obstruction risk |
+| Mar 5, 2026 | Federal Police reveal BCB officials [[Paulo Sergio Neves de Souza]] and [[Belline Santana]] secretly advised Vorcaro; bribery charges via sham consulting; "Sicario" intimidation plot revealed |
+| Mar 13, 2026 | Reuters deep dive: Vorcaro spent $120M on trips/parties (2024-2025); bank had only R$4M cash when R$3-4B expected; cellphone contents leaked by lawmakers |
+| Mar 20, 2026 | Lula blames Banco Master collapse on Bolsonaro at campaign event |
 
 ---
 
@@ -434,6 +439,40 @@ Two [[Bank cronyism]] collapses one month apart — one democratic, one authorit
 **Key insight:** Same pattern, different outcomes. Both Vorcaro and Ansari were outsiders who learned to plug into mature political networks. The structures taught them what was possible.
 
 See [[Ayandeh-Master comparison]] for full analysis.
+
+---
+
+## Phase 3: Central Bank corruption and political fallout (Feb-March 2026)
+
+The Master scandal deepened in early 2026 with revelations of Central Bank corruption and high-level political connections that reached the presidency.
+
+**February 2026:** [[Banco Pleno]] became the third institution in the Master orbit to fail, bringing total FGC exposure to R$52 billion — about a third of the fund's available resources. The Central Bank announced a regulatory overhaul of how banks raise money through digital platforms. The Economist published a major investigation into STF entanglement on February 24.
+
+**March 4, 2026:** Supreme Court Justice André Mendonça ordered Vorcaro's second arrest, citing the risk he would meddle in investigations. This was Vorcaro's second detention — the first was his dramatic airport arrest on November 17, 2025.
+
+**March 5, 2026:** Federal Police revealed that two senior Central Bank officials had secretly advised Vorcaro throughout the scheme:
+
+- **[[Paulo Sergio Neves de Souza]]** — former Director of Supervision who sat on Copom for nearly 6 years (2017-2023). Appointed under Temer, served through Bolsonaro into early Lula term (left July 2023). Career BCB employee since 1998.
+- **[[Belline Santana]]** — former head of banking supervision department.
+
+Both were accused of helping Vorcaro with regulatory matters and providing prior review of filings to the Central Bank. Court rulings cited evidence of bribes paid through sham consulting contracts. Both remained at the BCB in different roles until January 2026, then stepped down amid an internal probe and were suspended by court order.
+
+The Federal Police also revealed Vorcaro was charged with plotting to attack and intimidate people with an associate he called "Sicario" (named after Mexican cartel hit men). Targets included former employees, domestic workers, and journalists. Despite the possible interference from Souza and Santana, the Central Bank ultimately blocked the BRB acquisition and liquidated Master.
+
+**March 13, 2026:** Reuters published a deep dive titled "How an obscure banker slipped into Brazil's political inner circle," based on cellphone contents leaked by lawmakers who obtained Federal Police investigation files. Key revelations:
+
+- **April 2024:** Vorcaro funded a $6 million "ideas forum" in London that attracted Supreme Court justices and the head of the Federal Police. It closed with a $640,000 Macallan whisky tasting.
+- **$120 million in luxury spending:** Vorcaro spent at least $120 million on luxurious trips and parties between 2024 and April 2025, with unclear provenance of funds.
+- **Saint-Tropez party:** In 2025, he flew 30+ guests on private jets for his girlfriend's party.
+- **R$4 million cash discovery:** When regulators examined Master's books in 2024, the bank had only R$4 million in cash — expected was R$3-4 billion in unencumbered securities for a bank with R$80B in assets. Central Bank official Ailton de Aquino Santos testified about this finding.
+- **Last texts before arrest:** Vorcaro's final messages on November 17 were "Did you manage to block it?" sent to an unidentified number. O Globo later reported the texts were sent to Justice Alexandre de Moraes (which Moraes denies).
+- **Presidential meeting:** Vorcaro met with President Lula in December 2024 (arranged by Mantega) to discuss his "struggle against big banks." Lula says he told Vorcaro there would be no political interference.
+- **CPI pressure:** Senator Alessandro Vieira is pushing for a parliamentary inquiry, stating: "There are very powerful figures in the Republic with clear involvement."
+- **Toffoli steps down:** Justice Toffoli stepped down from overseeing the Federal Police investigation after press revealed his family company's financial links to Vorcaro.
+
+**March 20, 2026:** At a campaign event, President Lula shifted blame for the Banco Master collapse onto former President Bolsonaro.
+
+**Total FGC cost:** The combined Master orbit (Master, [[Will Bank]], [[Banco Pleno]], [[Reag]]) is now estimated at R$52 billion — about a third of FGC's available resources.
 
 ---
 
