@@ -1036,12 +1036,80 @@ Brazil's Nova República produced two landmark corruption scandals before Banco 
 
 ---
 
+## Addendum: Banco Digimais — the sequel that compounds everything (March 2026)
+
+The [[Banco Master]] collapse wasn't an isolated failure — it was the first domino. By March 2026, the Master orbit had consumed four institutions (Master, [[Will Bank]], [[Banco Pleno]], [[Reag Investimentos]]) at a combined [[FGC]] cost of R$52 billion (~43% of pre-crisis reserves). Then came [[Banco Digimais]].
+
+### The same scheme, different protection channel
+
+Digimais — controlled by Bishop [[Edir Macedo]] (founder of [[Igreja Universal do Reino de Deus]], owner of TV Record) — operated the same playbook: above-market CDB rates (125% of CDI), [[FGC]] guarantee as marketing bait, distribution through [[XP Inc]] and [[BTG Pactual]], and inflated fund portfolios. Estimated negative equity: R$8.5 billion after four consecutive years of losses.
+
+The fraud connection to Master is direct, not analogical. An audit of Digimais's EXP1 fund (R$720 million FIDC) revealed that 22,000 of 55,000 credit contracts were fictitious — originated by [[Reag Investimentos]] and [[Banco Master]]. When confronted, Digimais confirmed the credits didn't exist. The broker now administering Digimais's funds (ID corretora) has ex-Master executives among its partners and is suspected of absorbing Reag's 600+ liquidated funds.
+
+### What Digimais adds to the comparison
+
+| Dimension | Ayandeh ([[Iran]]) | Master ([[Brazil]]) | Digimais (Brazil) |
+|-----------|-------------------|--------------------|--------------------|
+| Protection channel | Mojtaba Khamenei (Supreme Leader's son) | STF justices + Centrão bosses | Evangelical caucus (bancada evangélica) |
+| Religious dimension | Regime legitimation (Shia Islam) | Incidental (Vorcaro's Lagoinha Baptist ties) | Central (Macedo's Igreja Universal = political machine) |
+| Controller | [[Ali Ansari]] | [[Daniel Vorcaro]] | [[Edir Macedo]] |
+| Deposit guarantee cost | None (inflation absorbs) | R$41B (R$52B combined orbit) | R$8.5B+ potential |
+| Political calculus blocking action | Always (no independent institutions) | Three years of delay before liquidation | Election year (2026) — Lula needs evangelical/Centrão votes |
+
+### The religious protection parallel deepens
+
+The original comparison noted religion as moral cover for extraction. Digimais makes the parallel sharper:
+
+| | Iran | Brazil (Master) | Brazil (Digimais) |
+|--|------|-----------------|-------------------|
+| Religious figure | Supreme Leader (Shia authority) | Incidental | [[Edir Macedo]] (evangelical authority) |
+| Church as institution | Mosques, bonyads, shrines | — | [[Igreja Universal]], TV Record |
+| Political vehicle | Velayat-e faqih | Centrão (secular) | [[Republicanos]] party (evangelical) |
+| Congregation as base | Friday prayers | — | 8 million+ church members |
+| Moral legitimacy | "Islamic economy" | — | "Family values," anti-corruption rhetoric |
+
+In Iran, banking cronyism runs through religious institutional channels from the start — Ansari donated carpets to shrines, the bonyad system is quasi-religious. In Brazil, Banco Master's protection was secular-political (Centrão bosses, STF justices). Digimais introduces the religious-political channel that was missing from the Brazilian case: an evangelical bishop's bank, protected by the evangelical caucus, in a country where the bancada evangélica is a decisive electoral force.
+
+The irony compounds: Macedo (far-right evangelical) hired [[Aldemir Bendine]] (PT-linked, ex-Banco do Brasil/Petrobras, [[Lava Jato]] arrestee) to negotiate with [[Gabriel Galípolo]]'s left-leaning Central Bank. Cross-ideological survival instinct — the same impulse that made Ansari distribute shares to every Iranian faction.
+
+### The FGC as deposit guarantee stress test
+
+The combined strain puts the comparison in material terms:
+
+| Metric | FGC (Brazil) | Iran (no formal DGS) |
+|--------|-------------|---------------------|
+| Pre-crisis resources | ~R$120B | N/A — CBI prints money |
+| Master orbit cost | R$52B (43%) | — |
+| Digimais potential | R$8.5B+ (7%+) | — |
+| Combined | R$60B+ (50%+) | — |
+| Who pays | Bank industry (via FGC contributions) | All rial holders (via inflation) |
+
+Brazil's deposit guarantee system — which distinguishes its democratic resolution from Iran's inflationary absorption — is now being stress-tested to its limits. If Digimais were liquidated, the FGC would have paid out more than half its pre-crisis reserves in under six months. At some point, the FGC's ability to absorb serial failures from the same interconnected ecosystem becomes the systemic risk itself.
+
+Iran's "resolution" was simpler and more destructive: merge [[Ayandeh Bank]] into Bank Melli, print rials, let depositors absorb losses through inflation. No fund, no visible payout, no accountability. Brazil's FGC creates the appearance of depositor protection — but when the system generates serial frauds faster than the fund can replenish, the democratic advantage narrows.
+
+### The 40-year pattern holds
+
+The original thesis: mature political structures (~40 years) generate extraction as a feature, not a bug, and outsiders learn to plug into established networks. Digimais confirms rather than contradicts this:
+
+- Macedo entered banking in 2009 — 24 years after the Nova República's founding
+- Like Ansari and Vorcaro, he wasn't a banker by origin (he's a media/religious empire builder)
+- Like both, he learned that banking + political connections = extraction
+- Like both, his protection comes from distributing access across the political spectrum (Republicanos spans Centrão coalition dynamics)
+
+The difference is the protection *channel*: Ansari through the Supreme Leader's family, Vorcaro through the judiciary and Centrão bosses, Macedo through the evangelical caucus. Three different institutional paths, same destination. The system doesn't prescribe how you access it — it just requires that you do.
+
+---
+
 ## Related
 
 ### Actors
 - [[Ayandeh Bank]] — Iran case
 - [[Banco Master]] — Brazil case
+- [[Banco Digimais]] — Brazil sequel
 - [[Ali Ansari]] — Ayandeh founder
+- [[Daniel Vorcaro]] — Master founder
+- [[Edir Macedo]] — Digimais controller
 - [[Iran]] — country context
 - [[Brazil]] — country context
 
@@ -1050,10 +1118,11 @@ Brazil's Nova República produced two landmark corruption scandals before Banco 
 - [[Crony capitalism]] — broader framework
 - [[Brazilian cronyism]] — country-specific
 - [[Iranian banking]] — sector capture
+- [[FGC]] — deposit guarantee fund under strain
 
 ### Drafts
 - [[Bank Robbers]] — post synthesizing terminal phase thesis
 
 ---
 
-*Created 2026-01-19*
+*Created 2026-01-19 · Digimais addendum 2026-03-22*
