@@ -228,4 +228,29 @@ Same missiles planned for Philippines and Pacific island deployment to counter C
 
 ---
 
+## Zakaria's "New Arithmetic of War" — the macro framing (March 20, 2026)
+
+Fareed Zakaria's Washington Post column (syndicated in Foreign Policy) crystallized the drone economics thesis under the label **"Iran and the New Arithmetic of War."**
+
+**Key numbers from the column:**
+- In the first week of Tehran's retaliation, **drones accounted for 71% of recorded strikes** on Gulf states
+- UAE alone faced **1,422 detected drones and 246 missiles in 8 days**
+- Shahed drone: ~$35K. Patriot interceptor: ~$4M. Ratio: **115:1**
+- US now fielding [[LUCAS]] — a low-cost attack drone modeled on [[Shahed-136]]. "The world's most advanced military is, in effect, learning from a sanctioned rogue regime."
+
+**Broader military architecture shift:** Not just drones — cheap autonomous systems + AI-assisted targeting + commercial satellite imagery + resilient comms + integrated sensors + cyber tools. The aim: compress time — find, decide, hit faster than the enemy can move, hide, or recover.
+
+**Kathleen Hicks (2023):** Called for systems that are "small, smart, cheap and many" — the Pentagon's Replicator initiative. "Lots of good stuff will beat small numbers of great stuff."
+
+**Deeper implications Zakaria flags:**
+- Drones everywhere = soldiers get no respite; battlefield is omnipresent
+- Human beings far from battlefront → war easier to contemplate, easier to deadlock
+- Deadly weapons easy to produce → terror groups, drug cartels, gangs can wage war once reserved for organized armies
+
+**Bottom line:** "In 1991, the Gulf War taught the world that advanced technology could make war precise. In 2026, Iran is teaching the world something more consequential: Precision will now be mass-produced."
+
+*Source: Fareed Zakaria, Washington Post / Foreign Policy (March 20, 2026)*
+
+---
+
 *Created 2026-03-03*

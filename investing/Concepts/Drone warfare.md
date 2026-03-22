@@ -17,6 +17,8 @@
 
 **The math:** For the cost of one F-35, you get 26 Valkyries or 1,600 Switchblades. Quantity has a quality all its own.
 
+**"Precise mass" framing:** Michael Horowitz (CFR) coined the term — for decades, precision meant a handful of Tomahawks or stealth bombers. Now it means one-way drones built from commercial parts, launched in swarms. Precise mass will become "a regular feature of warfare, just like machine guns or tanks." *(Source: Zakaria/WashPost, Mar 20, 2026)*
+
 ---
 
 ## Ukraine as proving ground
@@ -33,6 +35,10 @@ Ukraine validated drone warfare as decisive, not supplementary:
 
 **Production scale:** Ukraine producing ~50,000 FPV drones/month domestically. The "drone as munition" paradigm is established.
 
+**STING interceptor drone:** Ukraine's STING costs ~$2,000/unit, flies up to 280 km/h, and has downed 3,000+ Shaheds since mid-2025 (per manufacturer). Production: 10,000+/month. Learning curve: 3-4 days for experienced FPV pilots. This is the model for cost-effective counter-drone — drone-on-drone, not million-dollar interceptors. *(Source: Reuters, cited in Zakaria column Mar 20, 2026)*
+
+**Battlefield data as strategic asset:** Ukraine opened access to battlefield drone data for allies to train AI — pattern recognition, target detection. Defense Minister Fedorov: Ukraine possesses "a unique array of battlefield data that is unmatched anywhere else in the world," including "millions of annotated images" from "tens of thousands of combat flights." The war's most valuable output may be data, not hardware. *(Source: Zakaria/WashPost, Mar 20, 2026)*
+
 ---
 
 ## Demand drivers (Jan 2026)
@@ -46,6 +52,10 @@ Ukraine validated drone warfare as decisive, not supplementary:
 | Export demand | Allies buying loitering munitions, ISR drones |
 
 Drone business "red hot" — backlogs surging (William Blair, Jan 2026).
+
+**Russian Shahed production:** Moscow producing 404 Shahed-type drones/day, aiming for 1,000/day (Ukraine's top commander, per Zakaria Mar 20). vs. [[Lockheed Martin]] producing ~600 Patriot interceptors in 2025, targeting 2,000 by 2027. The production asymmetry is now the strategic problem, not the technology gap.
+
+**USAF AI targeting experiment:** In a 2025 experiment, USAF said machines generated targeting recommendations in under 10 seconds and produced 30x more options than human-only teams — compressing the find-decide-hit cycle faster than adversaries can move, hide, or recover. *(Source: Zakaria/WashPost, Mar 20, 2026)*
 
 ---
 
