@@ -199,7 +199,21 @@ Short-term response mechanisms are limited: find ways to use less gas (demand de
 
 ---
 
-*Created 2026-01-05. Updated 2026-03-19.*
+### Waha negative prices — the geographic disconnect (March 2026)
+
+The Iran conflict's energy distortion in one data point: Waha hub (West Texas) hit **-$9.75/MMBtu** in the week of March 17 — record low weekly average — while TTF surged to €70/MWh (~$20+/MMBtu) and Asian JKM hit $26/MMBtu (spring), projected $30-40 if Hormuz stays closed.
+
+**Why negative**: Permian oil drilling produces associated gas, but pipeline capacity to market is insufficient. Oil at ~$100/bbl (WTI +47% in 3 weeks) makes drilling profitable despite gas losses. Flaring at 5-year highs. Negative prices more often than positive YTD 2026.
+
+**Why the gap can't close**: US LNG export terminals running at capacity. The surplus is physically trapped. The world's largest gas exporter cannot increase deliveries to help global buyers.
+
+Asian response: coal-fired power plants at full capacity (Thailand ordered it; South Korea lifting coal caps; Taiwan preparing). Countries that can switch from gas to coal are doing so — 2022 playbook reprised. Henning Gloystein (Eurasia Group): "Asia is in full price competition, with any country that can switch from gas to coal doing so."
+
+See [[Permian Basin]] for Waha hub detail.
+
+*Source: Bloomberg (Mar 21, 2026), Fortune (Mar 22, 2026), NYT (Mar 18, 2026)*
+
+*Created 2026-01-05. Updated 2026-03-22.*
 
 ---
 

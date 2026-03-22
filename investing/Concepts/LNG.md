@@ -290,6 +290,50 @@ Source: MEI panel, March 20 2026 — Connelly
 
 ---
 
+## Week 4 — negative Waha, Asian coal switching (Fortune, March 22)
+
+The geographic arbitrage failure becomes undeniable: gas is **negative** in Texas while Asia rations energy.
+
+### Waha hub record negative
+
+| Metric | Value |
+|--------|-------|
+| Waha spot (week of Mar 17) | **-$9.75/MMBtu** (record low weekly avg) |
+| Expected floor | Could hit **-$10** during pipeline maintenance |
+| YTD 2026 trend | Negative more often than positive |
+| Flaring | 5-year seasonal highs |
+
+Producers won't cut: WTI at ~$100/bbl (+47% in 3 weeks) makes oil profitable enough to absorb gas losses. The associated gas is an unavoidable byproduct of Permian oil drilling.
+
+### Asia coal switching accelerating
+
+Countries reverting to 2022 playbook — coal substitution for gas:
+
+| Country | Action |
+|---------|--------|
+| **Thailand** | Government ordered coal-fired power plants to full capacity |
+| **Bangladesh** | Boosted coal consumption |
+| **South Korea** | Lifting coal power operating caps; scrambling to replace Qatari LNG |
+| **Taiwan** | Preparing to rely more on coal; racing to secure June US LNG shipments |
+
+Henning Gloystein (Eurasia Group, to NYT): "Asia is in full price competition, with any country that can switch from gas to coal doing so."
+
+**Semiconductor supply chain risk**: South Korea and Taiwan — which produce the majority of the world's advanced semiconductors — are both signaling coal dependence. Energy rationing in these countries would directly impact global chip supply.
+
+### Price trajectory
+
+Analysts (to Bloomberg): prolonged Hormuz closure could send Asian LNG spot above **$30/MMBtu** this summer (from $26 spring). If shut for six months: **$40+/MMBtu**.
+
+European TTF jumped 35% on Thursday to ~€70/MWh (~$20+/MMBtu) — double prewar levels. Far below 2022 peak (€345) but timing is worse: Europe must restock depleted inventories this summer.
+
+### The structural trap
+
+The US is simultaneously the world's largest gas exporter and home to the world's cheapest gas. LNG terminals are at max capacity. The surplus is physically trapped in Texas — the global shock stays concentrated in import-dependent markets. This is the infrastructure bottleneck made visible by war.
+
+*Source: Fortune/Bloomberg (Mar 22, 2026), NYT (Mar 18, 2026)*
+
+---
+
 ## Investment case
 
 **Bull:**

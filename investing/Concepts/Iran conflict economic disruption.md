@@ -162,7 +162,15 @@ The US is discussing lifting sanctions on [[Russia]]n AND [[Iran]]ian oil mid-wa
 
 Source: MEI panel, March 20 2026 — Mulroy/Connelly
 
-*Last reviewed: 2026-03-22 (updated with MEI panel demand destruction and cost signals)*
+### Week 4 — negative Waha, Asian coal switching (Fortune/Bloomberg, March 22)
+
+The geographic disconnect crystallized: Waha hub (West Texas) hit **-$9.75/MMBtu** — record low weekly average — while European TTF surged to ~€70/MWh ($20+/MMBtu) and Asian JKM at $26 heading to $30-40. Flaring at 5-year highs. Oil at ~$100/bbl means Permian producers won't cut.
+
+Asian coal reversion accelerating: Thailand ordered coal plants to full capacity. Bangladesh boosted coal consumption. South Korea and Taiwan — which produce most of the world's semiconductors — signaling coal dependence. Semiconductor supply chain implications if energy rationing intensifies.
+
+The structural trap: US LNG terminals at max capacity. The surplus is physically trapped in Texas while Asia rations energy and Europe must restock depleted inventories for summer. See [[LNG]], [[Natural gas]], [[Permian Basin]].
+
+*Last reviewed: 2026-03-22 (updated with Waha negative prices and Asian coal switching)*
 
 ---
 
