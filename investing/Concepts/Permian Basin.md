@@ -45,6 +45,16 @@ The starkest illustration of the Iran conflict's energy market distortion:
 
 The world's largest gas exporter (US) cannot physically increase deliveries fast enough to help — LNG export terminals are at capacity. The surplus stays trapped in Texas while Asia and Europe scramble.
 
+### The $30 spread
+
+The Waha-to-TTF spread is ~$30/MMBtu — a producer in Texas is paying $10 to dispose of gas that a buyer in Europe would pay $20+ for. This isn't a market inefficiency that arbitrage can close. It's a **physical infrastructure constraint**: the molecules can't get there. US LNG export terminals are running at capacity. The next major facility ([[Golden Pass]], co-developed by [[QatarEnergy]] and [[Exxon]]) isn't online yet.
+
+### Why it gets worse
+
+Pipeline operators perform seasonal maintenance in spring/summer, tightening capacity further. Traders expect Waha could hit -$10/MMBtu during maintenance windows. Meanwhile the Iran conflict keeps oil prices high (~$100 WTI), so Permian drilling stays profitable, so more associated gas keeps coming, so the surplus deepens. It's a self-reinforcing loop with no release valve.
+
+**In one sentence**: Texas is literally burning off gas that Asia is rationing and switching to coal to replace.
+
 *Source: Bloomberg (Mar 21, 2026), Fortune (Mar 22, 2026)*
 
 *Created 2026-02-12*

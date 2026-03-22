@@ -22,6 +22,7 @@ Economic disruption from the [[Operation Epic Fury|2026 Iran conflict]] — oil,
 | [[Iran conflict defense repricing]] | Defense equity moves, munitions burn rate |
 | [[Iran conflict FX dynamics]] | Currency moves, EM exposure |
 | [[Iran conflict portfolio hedging]] | Cross-asset positioning, 60/40 failure |
+| [[Iran conflict semiconductor energy risk]] | LNG shock → fab power instability → chip supply → AI capex |
 
 ---
 

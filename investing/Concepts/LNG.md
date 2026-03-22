@@ -318,7 +318,7 @@ Countries reverting to 2022 playbook — coal substitution for gas:
 
 Henning Gloystein (Eurasia Group, to NYT): "Asia is in full price competition, with any country that can switch from gas to coal doing so."
 
-**Semiconductor supply chain risk**: South Korea and Taiwan — which produce the majority of the world's advanced semiconductors — are both signaling coal dependence. Energy rationing in these countries would directly impact global chip supply.
+**Semiconductor supply chain risk**: South Korea and Taiwan — which produce the majority of the world's advanced semiconductors — are both signaling coal dependence. Energy rationing in these countries would directly impact global chip supply. See [[Iran conflict semiconductor energy risk]] for the full chain: Hormuz → LNG → fab power → wafer losses → AI capex shock.
 
 ### Price trajectory
 
