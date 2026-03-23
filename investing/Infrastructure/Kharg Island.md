@@ -62,6 +62,14 @@ Brooks' position: the US should embargo Iranian oil, same logic as his 2022 stan
 
 ---
 
+## Seizure doesn't stop oil or open Hormuz — Sen (March 23)
+
+[[Amrita Sen]] ([[Energy Aspects]], CNBC, March 23) pushed back on the [[Robin J. Brooks|Brooks]] embargo framing from a practical standpoint: even if US troops seize Kharg, "it is not that simple to just say that Iranian oil stops flowing. That means that other oil will be able to flow through Hormuz." [[Iran]] maintains "control of the seas" regardless of Kharg's status. A ceasefire between the parties plus a coalition escort operation is required for sustained safe passage — unilateral military action on Kharg alone doesn't resolve the commercial shipping freeze.
+
+*Source: CNBC International, March 23, 2026*
+
+---
+
 ## Related
 
 - [[Iran]] — parent state
@@ -77,4 +85,6 @@ Brooks' position: the US should embargo Iranian oil, same logic as his 2022 stan
 ### Cross-vault
 - [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — military timeline, 31st MEU redeployment
 
-*Created 2026-03-22 (MEI panel ingestion). Updated 2026-03-23 (Brooks Substack).*
+- [[Amrita Sen]] — seizure doesn't stop oil or open Hormuz
+
+*Created 2026-03-22 (MEI panel ingestion). Updated 2026-03-23 (Brooks Substack, Sen CNBC).*

@@ -457,6 +457,54 @@ Brooks' position: full [[Iran]]ian oil embargo. Same logic as his 2022 Ukraine s
 
 ---
 
+## Sen: "Reverse COVID" — 11M bbl/day supply shock (March 23)
+
+*Source: [[Amrita Sen]], [[Energy Aspects]], CNBC International, March 23, 2026.*
+
+Sen (in the US, in conversation with [[Jeff Currie]]) framed the crisis as a "reverse COVID" — the closest analogy to the current disruption. COVID was a demand shock with supply intact; this is a supply shock with demand intact.
+
+| Metric | Iran conflict (2026) | Russia-Ukraine (2022) | Ratio |
+|--------|---------------------|----------------------|-------|
+| Supply shut-in (crude) | ~11M bbl/day | ~3M bbl/day (fear, not actual) | ~4x |
+| Including refined products | ~15-16M bbl/day | — | — |
+| IEA SPR release | 270M bbl (2022) | 400M bbl (2026) | — |
+
+The 2022 Russia comparison is instructive: the IEA released 270M barrels against a feared ~3M bbl/day supply loss. This time, 400M barrels against ~11M bbl/day actual shut-in — nearly 4x the magnitude. "There is no other analogy," Sen said.
+
+### Three-tier pricing structure
+
+Sen identified three distinct tiers reflecting regional exposure:
+
+| Tier | Benchmark | Status |
+|------|-----------|--------|
+| 1 — Tightest | [[Dubai crude]] / [[Murban]] at $150-160 | Genuine physical tightness; 90% of Gulf crude goes to Asia |
+| 2 — Mispriced | [[Brent crude]] — "most mispriced benchmark" | Should be trading much closer to Dubai |
+| 3 — Most shielded | [[WTI]] — disconnecting from global benchmarks | US production + SPR release + expected intervention |
+
+Sen expects the WTI-Brent spread to widen further, not narrow. Brent's discount to Dubai reflects futures market positioning, not physical reality.
+
+### Physical vs paper convergence timeline
+
+Physical differentials (Angolan crude, North Sea crude, and all Middle East benchmarks) at significant premiums to futures. Sen attributed the paper market lag to "fatigue" — traders not taking positions after a brutal year. Convergence catalyst: product shortages. Jet fuel shortages already appearing in parts of Asia; [[LPG]] and [[Naphtha]] next. Once product shortages manifest visibly, paper markets catch up.
+
+### Central bank dilemma
+
+The shock is "extremely inflationary." Sen and Currie discussed two scenarios:
+- If central banks raise rates → economic growth crushed further
+- If central banks cut rates → "even more bullish for oil" (monetary easing into a supply shock)
+
+Neither option resolves the supply constraint. Both paths lead to higher oil prices in different ways.
+
+### Hormuz reopening — end of April at earliest
+
+[[Energy Aspects]] pushed their [[Strait of Hormuz]] reopening estimate from end of March to end of April. Key obstacle: commercial confidence. "Every company CEO I'm speaking with is saying that I don't want to be the first one to send my ship through even if there is a ceasefire." A coalition (US plus others) escorting vessels through the straits is required — not just a ceasefire declaration. Even one-off ad hoc attacks would freeze traffic again.
+
+On [[Kharg Island]]: even if US troops seize the island, Iranian oil doesn't stop flowing — and other oil can't flow through Hormuz safely. [[Iran]] "has control of the seas." Energy Secretary [[Chris Wright]] confirmed export bans are "not going to happen."
+
+[[Iran]] reportedly reaching out to the US through third parties for ceasefire talks (Axios). Up to 5,000 US Marines arriving in region within days. [[Robin J. Brooks]] ([[Brookings Institution|Brookings]]) calling for "literally an oil embargo."
+
+---
+
 ## Related
 
 - [[Iran conflict economic disruption]] — hub note
@@ -473,6 +521,8 @@ Brooks' position: full [[Iran]]ian oil embargo. Same logic as his 2022 Ukraine s
 - [[Vortexa]] — cargo tracking
 - [[Robin J. Brooks]] — near-peak thesis, price elasticity framework
 - [[Trump TACO]] — additional price cap mechanism
+- [[Amrita Sen]] — "reverse COVID" framing, three-tier pricing, Brent mispricing
+- [[Energy Aspects]] — Hormuz reopening pushed to end of April
 
 ---
 

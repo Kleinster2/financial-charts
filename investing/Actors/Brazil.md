@@ -187,6 +187,28 @@ See [[Brazil oil shock trilemma March 2026]] for full analysis.
 
 ---
 
+## Rare earths and critical minerals
+
+[[Brazil]] holds the world's second-largest rare earth reserves (~22M metric tons, behind only [[China]]'s ~44M) but produces almost nothing — a gap now drawing intense diplomatic attention from the US, [[EU]], and [[India]]. Only ~30% of Brazilian territory has been geologically mapped (Geological Survey of Brazil), suggesting undiscovered deposits.
+
+**The geopolitical repositioning:** The 2025 confrontation with the US (50% tariff over [[Jair Bolsonaro|Bolsonaro]] trial) catalyzed a strategic rethink. [[Roberto Goulart Menezes]] (University of Brasilia): "[[Brazil]] began to reposition its understanding of the importance of these elements beyond their commercial dimension, recognizing their geopolitical relevance." [[Brazil]] is now playing the US, [[EU]], and [[India]] against each other — the classic resource-holder leverage play.
+
+**Diplomatic timeline:**
+- Oct 2025: Gabriel Escobar (US top diplomat) met [[Ibram]] (mining association)
+- Late 2025: National Mining Policy Council launched with critical minerals focus
+- Dec 2025: Initial US-[[Brazil]] talks (FT)
+- Feb 21, 2026: [[India]]-[[Brazil]] MOU on rare earths signed (Lula state visit to New Delhi). Non-binding, covering reciprocal investment, exploration, mining, AI. 11 ministers + business delegation. See [[India-Brazil critical minerals MOU 2026-02]]
+- Mar 2026: [[EU]]'s [[Ursula von der Leyen]] confirmed discussions with Brasília on critical raw materials
+- Mar 20, 2026: NYT reports US pushing partnership on "reluctant" [[Brazil]]
+
+**Active producers:** [[Serra Verde]] (only active producer, ~$465M US financing, targeting 5,000 tonnes REO/yr). Pipeline: [[Mosaic]]/[[Rainbow Rare Earths]] phosphogypsum project (Minas Gerais), [[Aclara Resources]] (early stages), [[Verde AgriTech]] ($4.5M for testing).
+
+[[Oliver Stuenkel]] (Getulio Vargas Foundation): the deal-making is part of a broader strategy for strategic autonomy from *both* [[China]] and the US — [[Brazil]] doesn't want to swap one dependency for another.
+
+See [[Rare earth leverage]] → Brazil section for full analysis.
+
+---
+
 ## Risks
 
 | Risk | Impact |
@@ -236,8 +258,16 @@ See [[Brazil oil shock trilemma March 2026]] for full analysis.
 ### Events
 - [[Chinese entry into Brazil food delivery 2025]] — espionage allegations, R$7.6B Chinese investment
 
+### Critical minerals
+- [[Rare earth leverage]] — [[Brazil]] as reluctant diversification play
+- [[Critical minerals]] — [[Brazil]] added to emerging non-[[China]] sources
+- [[India-Brazil critical minerals MOU 2026-02]] — Feb 2026 MOU signed during Lula state visit
+- [[Serra Verde]] — only active Brazilian rare earth producer
+- [[Niobium]] — [[Brazil]] controls ~90% of global supply ([[CBMM]])
+
 ### Regional
 - [[China]] — commodity trade partner, [[Chinalco]] CBA acquisition, tech investment
+- [[India]] — rare earths MOU, $15B bilateral trade (2025), target $20B
 
 ---
 

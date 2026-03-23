@@ -113,6 +113,14 @@ Straight line up since 2020. But cost structures rising too — when oil went 63
 
 ---
 
+### "Reverse COVID" framing — with Amrita Sen (CNBC, March 23)
+
+[[Amrita Sen]] ([[Energy Aspects]]) confirmed on CNBC that she and Currie have been exchanging notes and converging on the "reverse COVID" as the best analogy: ~11M bbl/day shut in on the supply side, ~15-16M bbl/day including refined products — nearly 4x the Russia-Ukraine supply fear (~3M bbl/day). COVID was demand destruction with supply intact; this is supply destruction with demand intact. In both cases, paper markets priced the event as temporary.
+
+The shared Currie-Sen framework extends to central banks: the supply shock is "extremely inflationary" — if central banks cut rates (protecting growth), that's "even more bullish for oil." This aligns with Currie's credit mechanism reversal thesis from "A Crude Awakening": monetary easing into a supply shock accelerates the petrodollar-to-gold recycling that amplifies rather than absorbs the shock.
+
+*Source: CNBC International, March 23, 2026*
+
 ### Bloomberg (Mar 2, 2026) — "Risks to energy supply chains never been higher"
 
 Before the full Hormuz closure materialized. Currie reacting to early attacks near the Strait and tankers sheltering inside the Gulf: *"The risks are to the upside."* *"The hoarding situation is going to become more extreme."* Called the direction before the magnitude was clear.
@@ -242,6 +250,7 @@ The fundamental disagreement: bears see a structurally oversupplied market where
 - [[Carlyle]] — employer
 - [[Goldman Sachs]] — 27-year career
 - [[Francisco Blanch]] — [[Bank of America]] counterpart (more bearish oil)
+- [[Amrita Sen]] — [[Energy Aspects]], exchanges notes regularly, shared "reverse COVID" framing
 - [[Natasha Kaneva]] — [[JPMorgan]] counterpart
 - [[Ewa Manthey]] — [[ING]] counterpart (agrees on metals, bearish energy)
 - [[Copper]] — highest-conviction trade

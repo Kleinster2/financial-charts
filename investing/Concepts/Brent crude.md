@@ -47,6 +47,8 @@ The Brent-WTI spread captures the relative position of Atlantic Basin vs US supp
 
 Brooks' near-peak thesis: ~10M bbl/day [[Strait of Hormuz]] shortfall × consensus price elasticity of demand = 60-70% Brent rise implied. At +64%, the market is approximately at fair value for the current disruption level. Reaching $150-200 requires either full Strait shutdown or significantly lower elasticity than consensus.
 
+[[Amrita Sen]] ([[Energy Aspects]], CNBC, March 23) called Brent "the most mispriced benchmark" — it should be trading much closer to [[Dubai crude]] ($150-160). The three-tier structure (Dubai > Brent > WTI) reflects regional exposure: Dubai captures genuine Asian physical tightness, Brent lags due to futures market positioning, WTI disconnects entirely due to US production and [[Strategic Petroleum Reserve|SPR]] release. Sen expects the WTI-Brent spread to widen further. Physical differentials on Angolan and North Sea crude already trading at significant premiums to Brent futures — "fatigue in the trading community" keeping paper depressed.
+
 ---
 
 ## Related
@@ -58,5 +60,7 @@ Brooks' near-peak thesis: ~10M bbl/day [[Strait of Hormuz]] shortfall × consens
 - [[Strait of Hormuz]] — disruption driver
 - [[Iran conflict oil price timeline]] — full chronological price action
 - [[Robin J. Brooks]] — near-peak elasticity framework
+- [[Amrita Sen]] — "most mispriced benchmark"
+- [[Energy Aspects]] — Brent mispricing thesis
 
 *Created 2026-03-23*

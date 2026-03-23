@@ -41,6 +41,8 @@ The +123% move — versus Brent's +64% — is the single most important data poi
 
 [[Robin J. Brooks]] (March 23) used this same comparison to show Brent-watchers are systematically underestimating the shock. Dubai at +123% means Asian economies — [[Japan]], [[South Korea]], [[China]], [[India]] — are paying roughly double the percentage increase that the headline Brent figure suggests.
 
+[[Amrita Sen]] ([[Energy Aspects]], CNBC, March 23) confirmed Dubai at $150-160 as the truest signal of physical tightness. Sen placed Dubai at the top of a three-tier pricing system: Dubai (genuine Asian physical tightness, 90% of Gulf crude goes to Asia) > [[Brent crude]] ("most mispriced," should be closer to Dubai) > [[WTI]] (disconnected, shielded by US production and SPR). Physical differentials on even non-Gulf crudes (Angolan, North Sea) trading at significant premiums to futures — confirming the paper-physical disconnect extends beyond the Gulf. Product-level shortages in [[Jet fuel|jet fuel]] (parts of Asia), [[LPG]], and [[Naphtha]] are the catalyst that will force paper markets to converge toward physical.
+
 ---
 
 ## Related
@@ -52,5 +54,7 @@ The +123% move — versus Brent's +64% — is the single most important data poi
 - [[Strait of Hormuz]] — disruption driver
 - [[Iran conflict oil price timeline]] — full chronological price action
 - [[Robin J. Brooks]] — Dubai vs Brent comparison
+- [[Amrita Sen]] — three-tier pricing, Dubai as truest signal
+- [[Energy Aspects]] — physical vs paper convergence timeline
 
 *Created 2026-03-23*

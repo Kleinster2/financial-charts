@@ -38,6 +38,12 @@ The episode occurred amid speculation that the [[Scott Bessent|Treasury]] was in
 
 *Source: FT (Mar 12, 2026)*
 
+### Export ban ruled out (March 23)
+
+Wright confirmed that oil export bans "are not going to happen" — addressing persistent market rumors that the [[Trump II|Trump administration]] might restrict US crude exports to lower domestic prices. [[Amrita Sen]] ([[Energy Aspects]], CNBC, March 23) had independently assessed the same — the market continues to price some probability of US intervention keeping [[WTI]] below global benchmarks, but formal export restrictions are off the table.
+
+*Source: CNBC International (Mar 23, 2026)*
+
 ---
 
 ## Related
@@ -49,4 +55,4 @@ The episode occurred amid speculation that the [[Scott Bessent|Treasury]] was in
 - [[Ratepayer Protection Pledge]] — key administration figure at signing (Mar 4, 2026)
 - [[Power constraints]] — policy context
 
-*Created 2026-03-04*
+*Created 2026-03-04. Updated 2026-03-23 (export ban denial).*

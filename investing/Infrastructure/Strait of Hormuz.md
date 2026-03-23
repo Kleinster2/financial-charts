@@ -169,6 +169,18 @@ Source: MEI panel, March 20 2026 — Mulroy
 
 ---
 
+## Reopening timeline — end of April at earliest (Energy Aspects, March 23)
+
+[[Amrita Sen]] ([[Energy Aspects]], CNBC, March 23) pushed the firm's reopening estimate from end of March to end of April. The binding constraint is commercial confidence, not military control: *"Every company CEO I'm speaking with is saying that I don't want to be the first one to send my ship through even if there is a ceasefire."*
+
+Requirements for resumption go beyond a ceasefire: a coalition (US plus others) must be able to escort vessels through the straits on a sustained basis. One-off ad hoc attacks would freeze traffic again. Even [[Kharg Island]] seizure by US troops wouldn't open Hormuz — [[Iran]] "has control of the seas."
+
+Iran reportedly reaching out to the US through third parties for ceasefire talks (Axios, March 23). Up to 5,000 US Marines arriving in region within days (second amphibious unit). But Sen sees this as "unlikely to get better anytime soon."
+
+*Source: CNBC International, March 23, 2026*
+
+---
+
 ## Related
 
 - [[Iran]] — controls northern shore
@@ -185,7 +197,9 @@ Source: MEI panel, March 20 2026 — Mulroy
 - [[China]] — sole buyer of wartime Iranian crude
 - [[Iran conflict mine warfare]] — 5,000 mines, Avenger decommission, LCS untested
 - [[Kharg Island]] — 31st MEU target, 90% of Iran's oil exports
+- [[Amrita Sen]] — reopening timeline pushed to end of April
+- [[Energy Aspects]] — commercial confidence as binding constraint
 
 ---
 
-*Updated 2026-03-22*
+*Updated 2026-03-23 (Energy Aspects reopening timeline)*

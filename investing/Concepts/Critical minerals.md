@@ -70,6 +70,7 @@ See [[China retaliatory toolkit]] for full countermeasure list.
 
 | Country | Potential | Status |
 |---------|-----------|--------|
+| **[[Brazil]]** | ~22M metric tons (world \#2) | US and [[EU]] competing for partnership; [[India]] MOU signed Feb 2026. [[Serra Verde]] only active producer (~$465M US financing). Only ~30% territory mapped |
 | **[[Venezuela]]** | ~300K metric tons (claimed) | US control post-Maduro; unverified reserves |
 | **Ukraine** | Rare earths, lithium | Part of US deal structure |
 | **[[Canada]]** | Processing capacity | REalloys building first NA heavy rare earth refinery (Saskatchewan) |
@@ -159,4 +160,6 @@ FT compares three approaches to critical mineral supply chain resilience:
 
 ---
 
-*Updated 2026-03-19*
+**[[Brazil]] detail:** See [[Rare earth leverage]] → Brazil section. [[Brazil]] is repositioning rare earths as geopolitical leverage — the [[India]]-[[Brazil]] MOU (Feb 2026) was a "pilot" before negotiating with the US. Innovative phosphogypsum extraction route ([[Mosaic]]/[[Rainbow Rare Earths]]) eliminates primary mining. Late 2025: National Mining Policy Council launched. FT (Jan 2026): officials see "chance of a deal."
+
+*Updated 2026-03-23*

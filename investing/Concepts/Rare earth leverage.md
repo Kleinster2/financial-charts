@@ -156,6 +156,7 @@ In response to [[Export controls]] on semiconductors:
 |------------|--------|
 | US rare earth mining ([[MP Materials]]) | Small scale |
 | **US gallium (ATALCO)** | **$150M Pentagon equity (Jan 2026)** |
+| **[[Brazil]] partnership** | **US/EU competing for deal; [[India]] MOU signed Feb 2026** |
 | [[Australia]] processing | Early stage |
 | [[EU]] Critical Raw Materials Act | Policy phase |
 | Recycling programs | Nascent |
@@ -282,6 +283,55 @@ See [[China-Japan relations]] for full escalation timeline.
 
 ---
 
+## [[Brazil]]: the reluctant diversification play
+
+[[Brazil]] holds the world's second-largest rare earth reserves (~22M metric tons vs [[China]]'s ~44M) but produces almost nothing. Only ~30% of Brazilian territory has been thoroughly mapped for mineralogy (Geological Survey of Brazil). The gap between endowment and output is the story — and both the US and [[EU]] are competing to close it.
+
+### Diplomatic timeline
+
+| Date | Event |
+|------|-------|
+| Oct 2025 | Gabriel Escobar (US top diplomat in [[Brazil]]) held rare earth discussions with [[Ibram]] (Brazilian mining industry association) — Reuters |
+| Late 2025 | [[Brazil]] launched National Mining Policy Council — focus on critical minerals and rare earths |
+| Dec 2025 | Initial US-[[Brazil]] talks on rare earths (FT sources) |
+| Jan 18, 2026 | FT reports formal partnership talks. Official: "There's nothing but opportunity here. [[Brazil]]'s government is open to a deal on critical minerals." |
+| Feb 21, 2026 | [[India]]-[[Brazil]] non-binding MOU on rare earths signed during Lula state visit to New Delhi. See [[India-Brazil critical minerals MOU 2026-02]] |
+| Mar 2026 | [[EU]]'s [[Ursula von der Leyen]] confirmed discussions with Brasília on critical raw materials partnerships |
+| Mar 20, 2026 | NYT reports US pushing partnership on a "reluctant" [[Brazil]] |
+
+### Why [[Brazil]] is reluctant
+
+[[Oliver Stuenkel]] (Getulio Vargas Foundation): deal is part of broader strategy for strategic autonomy from *both* [[China]] and US through diversification — [[Brazil]] doesn't want to swap one dependency for another.
+
+[[Roberto Goulart Menezes]] (University of Brasilia): the 2025 US confrontation (50% tariff over [[Jair Bolsonaro|Bolsonaro]] trial) germinated [[Brazil]]'s idea of treating rare earths as geopolitical bargaining chips. "[[Brazil]] began to reposition its understanding of the importance of these elements beyond their commercial dimension, recognizing their geopolitical relevance."
+
+The [[India]] MOU was explicitly a "pilot before negotiating with a country with which [[Brazil]] has an asymmetrical relationship" — meaning the US comes next, on [[Brazil]]'s terms.
+
+### Active projects
+
+| Project | Operator | Status | Capacity |
+|---------|----------|--------|----------|
+| Goiás mine | [[Serra Verde]] | Active — only Brazilian producer | ~5,000 tonnes REO/yr target |
+| Uberaba phosphogypsum | [[Mosaic]] + [[Rainbow Rare Earths]] | Economic analysis phase | 1,900 mt/yr Nd/Pr oxide + 600 mt/yr Sm/Eu/Gd/heavy REE |
+| [[Aclara Resources]] (Canada) | Aclara | Early stages, Virginia Tech pilot plant | First light REO by May 2026 (pilot); full production later this decade |
+| Potash-adjacent deposit | [[Verde AgriTech]] | Raised $4.5M for drilling/metallurgy | TBD |
+
+[[Serra Verde]] has secured ~$465M in US financing to expand. The phosphogypsum extraction route ([[Mosaic]]/[[Rainbow Rare Earths]]) is the innovative play — REE from fertilizer waste eliminates primary mining requirements and addresses environmental waste management simultaneously. Preliminary economics are extraordinary: $916M NPV, 45% IRR, 1.7-year payback on $279M capex. See [[Phosphogypsum rare earth extraction]] for the full technology and economics.
+
+### Hurdles
+
+- Bureaucratic and investment bottlenecks: mineral projects historically slow in [[Brazil]]
+- Only ~30% of territory geologically mapped
+- [[Capital Economics]] (Nov 2025): [[Brazil]] could become a mid-sized producer but will "probably remain at the lower value-added end of the supply chain" — mining ore, not processing magnets
+- US vs [[EU]] competition: both courting Brasília simultaneously, giving [[Brazil]] leverage but also complicating negotiations
+- Trump diplomatic baggage: support for [[Jair Bolsonaro|Bolsonaro]], 2025 tariff confrontation
+
+### The leverage window
+
+[[Brazil]]'s bargaining power has a shelf life. The [[Phosphogypsum rare earth extraction]] route — if Uberaba succeeds — proves a technology that [[Mosaic]] could replicate on its own Florida feedstock (~200,000 tonnes REE in 1+ billion tonnes of phosphogypsum stacks). Florida faces harder regulatory friction (EPA NORM rules, Floridan Aquifer) and the process needs re-engineering for different rock chemistry, but the direction erodes [[Brazil]]'s position over time. Goulart Menezes calling the [[India]] MOU a "pilot before negotiating with the US" reads as [[Brazil]] extracting maximum concessions while the window is open.
+
+---
+
 ## Investment implications
 
 **Beneficiaries of diversification:**
@@ -325,5 +375,10 @@ A less obvious but critical dependency:
 - [[MP Materials]] — Only US rare earth mine at scale
 - [[Anduril]] — [[Defense]] exposure to rare earth supply
 - [[Adamas Intelligence]] — Rare earth research firm
+- [[Brazil]] — World #2 reserves (~22M tons), reluctant diversification target
+- [[India-Brazil critical minerals MOU 2026-02]] — Feb 2026 cooperation deal
+- [[Serra Verde]] — Brazil's only active producer (~$465M US financing)
+- [[Rainbow Rare Earths]] — Phosphogypsum extraction project with [[Mosaic]]
+- [[Aclara Resources]] — Canadian company, Brazil pipeline + Virginia Tech pilot
 
-*Updated 2026-01-15*
+*Updated 2026-03-23*
