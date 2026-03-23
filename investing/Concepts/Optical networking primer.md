@@ -226,6 +226,42 @@ CPO: [[Switch]] ASIC + optics on same package → fiber
 
 ---
 
+## Silicon photonics ecosystem
+
+### Market sizing
+
+Silicon photonics market scaling rapidly as AI infrastructure demands drive adoption:
+- Yole Group: $278M (2024) → $2.7B by 2030 (46% CAGR)
+- Verified Market Research: $10.5B by 2032 (25.5% CAGR)
+
+Both projections show silicon photonics transitioning from niche to mainstream over this decade.
+
+### EDA/EPDA convergence
+
+Electronic Design Automation (EDA) merging with Electronic-Photonic Design Automation (EPDA). Traditional chip designers now must think optically:
+- Ansys/Lumerical merged with [[Synopsys]] creating unified electronic-photonic design platform
+- [[Cadence]] integrating optical PDKs (Process Design Kits) into standard flows
+- Paradigm shift: system architects becoming more important than component designers
+
+### Foundry landscape
+
+Silicon photonics leverages legacy 65nm-130nm nodes where optical wavelengths align with process capabilities:
+- [[TSMC]] COUPE (Compact Universal Photonic Engine) platform
+- [[GlobalFoundries]] silicon photonics process
+- [[Tower Semiconductor]] on Intel's depreciated 65nm Fab 11X
+- Economic advantage: fully-depreciated fabs producing cutting-edge optical chips
+
+### Testing bottleneck
+
+Wafer-level optical testing remains the key constraint. Unlike electronic circuits probed electrically, silicon photonics requires measuring light at wafer stage:
+- Fiber coupling at wafer level is slow and complex
+- [[FormFactor]] (via Keystone Photonics acquisition) addresses KGD (Known Good Die) yield
+- Testing scales are critical for silicon photonics mass production economics
+
+See [[Co-Packaged Optics]] for comprehensive analysis of the CPO transition driving silicon photonics adoption.
+
+---
+
 ## Linear-drive optics (LPO)
 
 Remove DSP retiming from transceiver. Let host handle it.

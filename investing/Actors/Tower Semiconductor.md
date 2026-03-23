@@ -41,6 +41,12 @@ Total investment: $920M (including additional $270M announced Q4 2025) for silic
 
 Over 70% of capacity presold through 2028, backed by customer prepayments. This is the highest-conviction capex cycle in the specialty foundry space — customers are prepaying for capacity years ahead.
 
+## Legacy Process Economic Moat
+
+Tower Semi's silicon photonics advantage stems from a fundamental physics insight: optical wavelengths (1.31µm, 1.55µm) are far larger than transistor gate lengths, so 65nm-130nm depreciated processes work perfectly for world-class optical chips. This "recycling" of existing assets without billions in new CAPEX is the essence of silicon photonics cost competitiveness — a massive structural moat.
+
+Tower Semi runs silicon photonics on Intel's depreciated 65nm Fab 11X as part of the Intel NM relationship. The $920M SiPho buildout benefits from this legacy process economics, where fully-depreciated fabs can produce cutting-edge optical chips at costs impossible for leading-edge foundries to match.
+
 ---
 
 ## Intel dispute
@@ -71,4 +77,7 @@ Bear:
 - [[TSMC]] — peer (but different segment)
 - [[Broadcom]] — customer (optical interconnects)
 - [[Data Centers]] — end market (SiPho for AI connectivity)
+- [[Co-Packaged Optics]] — key silicon photonics application
 - [[Israel]] — home market
+
+*Source: Photon Capital PC101, March 2026.*

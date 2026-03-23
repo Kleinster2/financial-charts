@@ -147,13 +147,22 @@ Unveiled modular "building block" coherent transport suite targeting 2027. See [
 
 The differentiator is vertical integration — Nokia designs both the DSP and the optical front-end, unlike competitors who source components separately. The multi-rail amplifier (160 fiber pairs per rack vs traditional ~4) is the headline spec.
 
+## Infinera Acquisition
+
+Nokia completed the acquisition of [[Infinera]] in 2025, adding coherent optical networking technology to its portfolio. This combination gives Nokia both silicon photonics technology AND a global telecommunications infrastructure sales network, positioning it to compete with [[Cisco]] for next-gen optical network market supremacy. The Infinera assets strengthen Nokia's optical transport capabilities beyond traditional RAN equipment.
+
 ---
 
 ## Related
 
 - [[NVIDIA]] — investor ($1B stake, AI-RAN partnership)
 - [[Arista Networks]] — peer (network infrastructure)
-- [[Cisco]] — competitor (enterprise networking)
+- [[Cisco]] — competitor (enterprise networking, optical networks)
 - [[Marvell]] — partner (custom silicon for networking)
+- [[Silicon Photonics]] — technology via Infinera acquisition
+- [[Co-Packaged Optics]] — next-gen optical infrastructure
+- [[Infinera]] — 2025 acquisition for optical networking
 - [[OFC 2026]] — modular coherent transport launch
+
+*Source: Photon Capital PC101, March 2026.*
 
