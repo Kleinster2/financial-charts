@@ -131,8 +131,8 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 
 **Dutch TTF** (Title Transfer Facility) is the European gas benchmark, priced in EUR/MWh. Structurally higher than Henry Hub due to import dependency — Europe lacks domestic production at scale and relies on pipeline gas (Norway, formerly Russia) and LNG imports.
 
-![[ttf-price-2022.png]]
-*Dutch TTF Natural Gas futures (EUR/MWh) since 2022. The 2022 Russia-Ukraine shock sent TTF to ~€300/MWh. Post-crisis normalization to €25-50 range, with the March 2026 Iran conflict driving a +55% spike in 10 days.*
+![[ttf-price-2021-2026.png]]
+*Dutch TTF Natural Gas futures (EUR/MWh) since 2021. The 2022 Russia-Ukraine shock sent TTF to ~€340/MWh — dwarfing the 2026 Iran conflict spike (€28→€55+). Europe's structural vulnerability is lower than 2022 (diversified supply, LNG terminals, reduced demand) but still significant. Source: yfinance/TTF=F.*
 
 | Date | TTF Close (EUR/MWh) | Context |
 |------|-------------------|---------|
@@ -155,8 +155,8 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 | Geopolitical sensitivity | Low | **Very high** |
 | Iran conflict impact | Minimal | **+55% in 10 days** |
 
-![[bloomberg-ttf-gas-surge-mar19-2026.png]]
-*Dutch TTF front-month gas (EUR/MWh), ICE. The Mar 19 spike to ~€70 came after Iranian missile strikes caused "extensive damage" to [[Ras Laffan]] — more than double pre-war levels (~€35). Source: Bloomberg/ICE.*
+![[ttf-price-2026.png]]
+*Dutch TTF Natural Gas futures (EUR/MWh), Oct 2025–Mar 2026. The Iran conflict triggered a vertical spike from ~€28 pre-war to €55+ by early March — more than doubling in weeks. Source: yfinance/TTF=F.*
 
 Susan Sakmar (visiting assistant professor, [[University of Houston]] Law Center, Mar 19): *"This could be a game changer for the LNG industry, akin to the attack on Nord Stream or possibly even worse. This is a sudden disruption, with no indication that Qatar could restart anytime soon."*
 
@@ -198,6 +198,11 @@ Short-term response mechanisms are limited: find ways to use less gas (demand de
 | AI relevance | Direct (power gen) | Indirect |
 
 ---
+
+### TTF vs UNG — the divergence
+
+![[ttf-vs-ung-divergence-2026.png]]
+*TTF (European gas, blue) vs UNG (US natural gas ETF, red), normalized from Oct 2025. By mid-March 2026, a ~60 percentage point spread: TTF up ~50% while UNG down ~7%. The Iran conflict hit European import-dependent markets directly while US domestic gas was insulated by abundant shale production. Source: yfinance.*
 
 ### Waha negative prices — the geographic disconnect (March 2026)
 

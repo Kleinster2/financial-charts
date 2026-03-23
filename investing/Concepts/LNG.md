@@ -290,6 +290,13 @@ Source: MEI panel, March 20 2026 — Connelly
 
 ---
 
+### TTF vs oil — gas leads the shock
+
+![[ttf-vs-oil-2026.png]]
+*TTF (European gas, blue) vs USO (oil ETF, red), normalized YTD 2026. Gas moved first and faster — TTF +85% before oil caught up at +75%. The initial shock was LNG/gas-specific (Hormuz closure, Qatar offline) before broadening to crude flows. Source: yfinance.*
+
+---
+
 ## Week 4 — negative Waha, Asian coal switching (Fortune, March 22)
 
 The geographic arbitrage failure becomes undeniable: gas is **negative** in Texas while Asia rations energy.

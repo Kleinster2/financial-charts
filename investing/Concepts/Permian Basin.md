@@ -20,6 +20,9 @@ aliases: [Permian Basin, Permian]
 
 ## Waha hub — negative gas prices (March 2026)
 
+![[wti-crude-uso-2026.png]]
+*USO (WTI crude oil ETF), Oct 2025–Mar 2026. The Iran conflict sent oil surging ~47% in three weeks to ~$100/bbl — making Permian drilling extremely profitable and ensuring associated gas production continues despite negative gas prices. Source: yfinance.*
+
 The Permian's defining infrastructure bottleneck: prolific oil drilling produces associated natural gas, but pipeline capacity to move that gas to market is insufficient. When pipelines fill, producers must **pay someone to take the gas** — negative prices.
 
 | Date/period | Waha spot price | Context |
