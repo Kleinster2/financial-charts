@@ -1,5 +1,5 @@
 ---
-aliases: [crude oil, petroleum, WTI, Brent]
+aliases: [crude oil, petroleum]
 ---
 #concept #energy #commodity
 

@@ -1,0 +1,56 @@
+---
+aliases: [Dubai crude oil, Dubai/Oman, Oman crude, Dubai benchmark]
+tags: [concept, energy, oil, benchmark]
+---
+
+# Dubai crude
+
+The benchmark for crude oil pricing in Asia — the price that Asian refiners (the world's largest crude-consuming region) actually pay for Middle East barrels. Traded on the Dubai Mercantile Exchange (DME) and via Platts (S&P Global) assessments. Dubai and [[Murban]] together form the physical pricing backbone for eastbound Gulf crude.
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Grade | Medium sour |
+| API gravity | ~31° |
+| Sulfur | ~2% |
+| Assessment | Platts (S&P Global) |
+| Exchange | Dubai Mercantile Exchange (DME) |
+| Key differential | Dubai-Brent spread (widens during Gulf supply stress) |
+
+---
+
+## Why the Dubai-Brent spread matters
+
+Dubai crude is heavier and sourer than [[Brent crude|Brent]] or [[WTI]] — it matches the refinery configuration of Asian mega-refineries designed for Gulf crude. When the [[Strait of Hormuz]] is disrupted, the Dubai-Brent spread blows out because Dubai reflects physical scarcity in the Gulf while Brent reflects global futures sentiment. This makes Dubai the truer measure of the energy shock's severity for Asia.
+
+---
+
+## March 2026 — Iran conflict
+
+| Metric | Value |
+|--------|-------|
+| Move since hostilities | +123% (as of Mar 21) |
+| Brent comparison | +64% — Dubai nearly double Brent's move |
+| Murban/Dubai level (~Mar 8) | >$103/bbl |
+| Murban/Dubai level (~Mar 20) | $150-160/bbl |
+
+The +123% move — versus Brent's +64% — is the single most important data point for understanding the true severity of the energy shock. Headlines report Brent; Asian refiners pay Dubai. [[Colby Connelly]] (MEI panel, March 20) flagged the $40-50 gap between Brent (~$110) and Middle East benchmarks ($150-160) as critical: the headline price vastly understates the pain for the world's largest crude-consuming region.
+
+[[Robin J. Brooks]] (March 23) used this same comparison to show Brent-watchers are systematically underestimating the shock. Dubai at +123% means Asian economies — [[Japan]], [[South Korea]], [[China]], [[India]] — are paying roughly double the percentage increase that the headline Brent figure suggests.
+
+---
+
+## Related
+
+- [[Oil]] — parent commodity
+- [[Brent crude]] — global benchmark (Dubai-Brent spread)
+- [[Murban]] — Abu Dhabi benchmark (fellow Gulf physical price)
+- [[WTI]] — US benchmark
+- [[Strait of Hormuz]] — disruption driver
+- [[Iran conflict oil price timeline]] — full chronological price action
+- [[Robin J. Brooks]] — Dubai vs Brent comparison
+
+*Created 2026-03-23*
