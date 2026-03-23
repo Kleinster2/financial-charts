@@ -89,6 +89,9 @@ See [[Venezuela oil rebuild]] and [[Monroe Doctrine]].
 - African members struggling
 - US shale complicates cuts (fills any gap)
 
+**Russia's OPEC+ trap ([[Sergey Vakulenko]], March 2026):**
+OPEC+ membership has become politically valuable for [[Russia]] as "one of Russia's last multilateral forums" — creating incentives to maintain quotas even when they constrain profitable production. Russia's production lagging quota by up to 400K bpd, but the quotas have destroyed Russia's project pipeline by making development uneconomic. The political lock-in prevents Russia from leaving despite economic costs, trapping Russia in a declining production trajectory. OPEC+ quotas are effectively accelerating Russia's structural oil sector decline.
+
 ---
 
 ## Investment implications

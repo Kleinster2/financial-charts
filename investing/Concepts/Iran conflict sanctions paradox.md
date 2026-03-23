@@ -66,6 +66,16 @@ Brooks' position: embargo Iranian oil. No guarantee it ends the [[Strait of Horm
 
 ---
 
+## Vakulenko's Russian windfall assessment (March 2026)
+
+[[Sergey Vakulenko]]'s March 2026 Carnegie analysis quantifies the Russian benefit: the Iran war windfall provides [[Russia]] with "tens of billions of extra revenues per annum" while changing nothing about Russia's structural oil sector decline trajectory. This crystallizes the sanctions paradox irony — the war the US is fighting to contain Iranian regional ambitions is funding Russia's budget while Russia's OPEC+ constraints and investment climate continue driving long-term production decline.
+
+The structural irony: higher oil prices from the Iran conflict solve Russia's short-term fiscal pressures but don't change the fundamental economics driving Russia's ~3%/year production decline after 2030. Russia gets the cash windfall without needing to reform its punitive fiscal take (58.4% above $13.5/bbl) or investment climate. The war provides Russia with exactly what it needed — higher oil revenues — without requiring any structural changes that would benefit long-term energy market stability.
+
+*Source: [[Sergey Vakulenko]], "A Tight Spot: Challenges Facing the Russian Oil Sector Through 2035," Carnegie Russia Eurasia Center, March 20, 2026*
+
+---
+
 ## Related
 
 - [[Iran conflict economic disruption]] — hub note
