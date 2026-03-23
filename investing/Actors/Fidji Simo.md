@@ -31,6 +31,8 @@ On Anthropic's success: called it a "wake-up call" — OpenAI must regain the le
 
 Internal note (Mar 19 2026): "We realized we were spreading our efforts across too many apps and stacks, and that we need to simplify our efforts. That fragmentation has been slowing us down and making it harder to hit the quality bar we want."
 
+Internal note (Mar 19 2026): "This is an opportunity to combine the strongest AI consumer app and brand with the strongest agentic app and really leverage our consumer scale to give agentic capabilities to everyone."
+
 "Superapp" plan: unifying [[ChatGPT]], [[Codex]], and Atlas browser into a single desktop app. [[Greg Brockman]] will help oversee the product revamp and org changes. Mobile ChatGPT remains unchanged. Codex gets expanded agentic capabilities beyond coding first, then ChatGPT and Atlas merge in.
 
 On competitive posture: "We are very much acting as if it's a code red."

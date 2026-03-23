@@ -257,6 +257,35 @@ Source: MEI panel, March 20 2026 — Connelly
 
 ---
 
+## Bloomberg assessment — pipeline bypass and alternatives (March 22)
+
+*Source: Bloomberg (Di Paola, Longley, Prem, El Wardany), March 22, 2026*
+
+### Updated Yanbu throughput
+
+[[Yanbu]] crude exports hit a 5-day rolling average of 3.66 mb/d on March 20 — down from the 4.19 mb/d peak on March 17, reflecting a brief halt in loadings on Thursday (March 19) after [[Iran]] struck the [[Samref]] refinery at [[Yanbu]]. Samref is a joint venture between [[Saudi Aramco]] and [[Exxon]]. Pre-war [[Yanbu]] exports were below 800K bbl/day — the ramp represents a fourfold-plus increase.
+
+[[Saudi Aramco]] cut crude oil production by as much as 2.5 mb/d. Ras Tanura refinery — the country's biggest — was forced to shut down temporarily. ~2 mb/d flowing through the pipeline feeds domestic refineries on the Red Sea coast.
+
+### Trump 48-hour ultimatum (March 22)
+
+On Saturday March 22, [[Trump II|President Trump]] issued [[Iran]] a 48-hour ultimatum to unblock the [[Strait of Hormuz]] or face attacks on its power plants. [[Iran]] responded by threatening to strike US and Israeli infrastructure — including energy assets — in the region.
+
+### Alternative bypass routes — status
+
+| Route | Operator | Capacity | Status (Mar 22) |
+|-------|----------|----------|-----------------|
+| [[East-West Pipeline]] → [[Yanbu]] | [[Saudi Aramco]] | 7 mb/d (pipe) | 3.66 mb/d flowing; loadings briefly halted Mar 19 |
+| [[Habshan-Fujairah Pipeline]] | [[ADNOC]] | 1.5 mb/d | Resumed Friday after mid-week suspension due to attacks |
+| [[Iraq]]-[[Kurdistan]] → Turkey Mediterranean | [[Iraq]] | Limited | Agreement announced; far short of 3M+ bbl/day Iraq normally exports via Gulf |
+| [[Oman]] Duqm port | Government-backed | Future capacity | Offered as alternative hub; currently supplied by ship; pipeline from [[Abqaiq]] possible |
+
+### Oil price
+
+[[Brent]] closed at $112.19/bbl on Friday March 21 — up 55% in the three weeks since the war began. The [[East-West Pipeline]] ramp, [[IEA]] coordinated [[SPR]] releases, and temporary US waivers on sanctioned [[Iran]]ian and [[Russia]]n oil have prevented even higher prices.
+
+---
+
 ## Related
 
 - [[Iran conflict economic disruption]] — hub note

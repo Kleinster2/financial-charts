@@ -432,6 +432,49 @@ Asian countries high, Western countries low. Sacks attributes to: (1) media doom
 
 ---
 
+## The mechanism design critique (Fryer, Mar 2026)
+
+[[Roland Fryer]] ([[Harvard]], [[Manhattan Institute]] senior fellow, founder of Equal Opportunity Ventures) argues in the WSJ (Mar 20, 2026) that current AI regulation is built on the wrong model: more surveillance, more audits, more inspectors. The economics literature on asymmetric information — starting with Baron-Myerson (1982) — shows this intuition is wrong.
+
+### Core argument: menus beat mandates
+
+The fundamental problem is asymmetric information. Regulators can't observe a firm's true costs, motivations, or day-to-day behavior. Firms know this and behave strategically. Baron and Myerson showed that rather than demanding information (which agents can falsify), regulators should offer a *menu of regulatory options* designed so firms self-select honestly.
+
+| Track | Transparency | Liability | Who self-selects |
+|-------|-------------|-----------|-----------------|
+| Option A | Full transparency to certified auditor | No penalties unless harm documented; lighter compliance | Genuinely safe firms (auditor finds nothing damaging) |
+| Option B | No transparency required | Strict liability for documented discrimination, penalties calibrated to social cost | Risky firms (auditor *would* find problems; accept liability exposure instead) |
+
+A risky firm pretending to be safe faces ruinous liability under Option A when the auditor discovers what it's hiding. It rationally self-selects Option B. The safe firm earns its lighter burden honestly. Every AI law currently on the books creates none of these incentives — they create paperwork.
+
+### Illinois as case study
+
+Illinois prohibits using AI in hiring with discriminatory outcomes — reasonable goal — but defines AI so broadly that nearly any recommendation system, including statistical methods going back centuries, may be implicated. Under the statute, a company must send applicants a notice: "We use AI in our hiring process." The regulator learns nothing. The applicant gets no meaningful protection. The algorithm may or may not discriminate. The regulation creates no incentive for a risky system to reveal itself.
+
+Fryer reports working with companies that have *abandoned* hiring algorithms producing more meritocratic outcomes than human judgment alone — not because the algorithms were flawed, but because the legal exposure wasn't worth it. The regulation designed to reduce discrimination is increasing it.
+
+### New York RAISE Act
+
+Requires developers of "frontier" AI systems to report safety incidents within 72 hours. Combined with EU AI Act penalties of up to 7% global revenue for violations, the regulatory architecture is vast, fragmented, and largely incoherent.
+
+### The policing analogy: hidden type + hidden action
+
+Laffont and Tirole extended Baron-Myerson to address the combination of hidden type *and* hidden action. Fryer's own policing research illustrates: the Justice Department, unable to observe officer type or effort, triggers investigations based on complaint patterns. But a bad cop in an easy situation produces identical statistics to a good cop in a difficult one.
+
+Fryer and [[Tanaya Devi]] (2020 study) found federal investigations caused police effort to collapse — officer-initiated contact in [[Chicago]] fell 89% in a single month. They estimated ~1,000 excess homicides, predominantly Black lives, in the following two years. Not because of bad actors — because of bad regulatory design.
+
+### Limitations acknowledged
+
+The menu works best for established firms that know what they've built. Newer entrants may still be learning their own systems. A fuller mechanism would need a provisional track — reduced liability in exchange for mandatory monitoring and transparency. Baron and Myerson were writing about monopolists, not startups. Extending the logic to dynamic markets is the next research frontier.
+
+### Investment implication
+
+The current patchwork guarantees regulators learn *less* about deployed AI systems, not more. Companies rationally reduce exposure — abandoning meritocratic algorithms, minimizing disclosure, avoiding high-risk applications entirely. The compliance industry benefits ([[AI compliance tools]], [[AI auditing]]), but actual safety and fairness outcomes may be worse than unregulated deployment with liability.
+
+*Source: Roland Fryer, "The Economics of Regulating AI," WSJ, Mar 20, 2026*
+
+---
+
 ## What to watch
 
 ### Global
@@ -483,11 +526,19 @@ Asian countries high, Western countries low. Sacks attributes to: (1) media doom
 - [[Baidu]] — China compliance advantage
 - [[Alibaba]] — China compliance advantage
 
+### Academic/analytical
+- [[Roland Fryer]] — mechanism design critique of current AI regulation (Harvard, Manhattan Institute)
+- [[Tanaya Devi]] — co-author on policing study showing regulatory design causing effort collapse
+
 ### Concepts
 - [[AI Infrastructure]] — deployment affected by regulation
 - [[Export controls]] — AI chip restrictions (different vector)
 - [[LGPD]] — Brazil data protection (Marco Legal integration)
 - [[GDPR]] — EU data protection (AI Act parallel)
+- [[Mechanism design]] — Baron-Myerson framework for regulation under asymmetric information
+
+### Cross-vault
+- [History: Regulatory Backfire](obsidian://open?vault=history&file=Themes%2FRegulatory%20Backfire) — 300-year pattern: Prohibition, Smoot-Hawley, rent control, drug war, Sarbanes-Oxley, policing investigations — same asymmetric information failure recurring across domains
 
 ---
 
@@ -498,4 +549,4 @@ Asian countries high, Western countries low. Sacks attributes to: (1) media doom
 - [Colorado General Assembly: SB24-205](https://leg.colorado.gov/bills/sb24-205)
 - [Schellman: Colorado AI Act](https://www.schellman.com/blog/ai-services/what-you-need-to-know-about-the-colorado-ai-act)
 
-*Created 2026-01-14, updated 2026-01-31*
+*Created 2026-01-14, updated 2026-03-22*
