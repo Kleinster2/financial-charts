@@ -88,25 +88,28 @@ If volume shifts to Zebrafish, Broadcom loses ASP and margin. This is existentia
 
 ## Optical/Interconnect business
 
-Silicon photonics:
-- Acquiring silicon photonics technology
+**[[Co-Packaged Optics]] leadership:** Bailly CPO switch represents the industry's first volume production CPO switching platform — integrating 8 optical engines with Tomahawk 5 silicon for 51.2Tbps aggregate bandwidth. This positions [[Broadcom]] ahead of competitors in the CPO transition while maintaining dominance in traditional switching silicon.
+
+**Power efficiency claims:** At 800Gbps ports, [[Broadcom]] data shows pluggable transceivers consuming 15W versus CPO at 5.5W — roughly 3× power reduction. However, CEO Hock Tan cautioned on March 2026 earnings: "We're not quite there yet" regarding CPO readiness for mass deployment.
+
+**Silicon photonics platform:**
 - Alternative to traditional optical (InP)
-- Data center interconnects
+- Data center interconnect integration
 - Competing with [[Coherent]], [[Lumentum]]
 
-Networking silicon:
-- Tomahawk switch chips (Ethernet)
+**Networking silicon dominance:**
+- Tomahawk switch chips (Ethernet) — powers [[Arista Networks]] switches
 - Jericho routing chips
-- High-speed SerDes
-- Powers [[Arista Networks]] switches
+- High-speed SerDes development
+- 224G SerDes current generation, 448G+ facing physics challenges
 
-AI cluster connectivity:
+**AI cluster connectivity:**
 - Ethernet fabric silicon
-- Competing with InfiniBand (NVIDIA)
-- NVLink alternatives
-- Scale-out networking
+- Competing with InfiniBand ([[NVIDIA]])
+- NVLink alternatives for scale-out
+- Scale-out networking leadership
 
-Broadcom is both ASIC designer AND networking/optical player.
+[[Broadcom]] uniquely combines ASIC design capability with networking and optical integration — enabling both custom AI chips and the interconnects that connect them.
 
 ---
 
@@ -260,6 +263,7 @@ CEO Hock Tan: line of sight to installed capacity approaching 10GW by 2027 and A
 - [[MediaTek]] — competitor (Zebrafish threat)
 - [[Coherent]] — competitor (optical)
 - [[Lumentum]] — competitor (optical)
+- [[Co-Packaged Optics]] — Bailly CPO switch, first volume production platform
 - [[Arista Networks]] — customer (networking silicon)
 - [[TeraWulf]], [[Hut 8]], [[Cipher Mining]] — DC partners for Anthropic TPUs
 - [[FluidStack]] — deployment partner for Anthropic

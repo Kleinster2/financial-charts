@@ -205,7 +205,7 @@ Integrate optical components on silicon chips (like semiconductors).
 
 **Players:** [[Intel]] (Altera), [[Cisco]], Marvell, [[Broadcom]].
 
-**Trend:** Co-packaged optics — transceivers integrated into switch ASICs. Reduces power, latency.
+**Trend:** [[Co-Packaged Optics]] — transceivers integrated into switch ASICs. Reduces power, latency. See [[Co-Packaged Optics]] for the full deep dive.
 
 ---
 
@@ -238,7 +238,7 @@ Remove DSP retiming from transceiver. Let host handle it.
 | Cost | Higher | Lower |
 | Distance | Longer | Shorter |
 
-**Use case:** Within data center (<500m) where link conditions are controlled.
+**Use case:** Within data center (<500m) where link conditions are controlled. See [[Co-Packaged Optics]] for LPO's role in the CPO transition timeline.
 
 ---
 

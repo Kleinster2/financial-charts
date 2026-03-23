@@ -180,11 +180,30 @@ Blowout quarter — first time crossing $1B quarterly net income.
 
 ---
 
-## OFC 2026
+## Optical networking innovations
 
-Launched eXtra-dense Pluggable Optics (XPO) transceivers — 4× per-rack bandwidth vs OSFP with 75% smaller footprint. Mass production 2027. 40+ MSA members backing the XPO standard. Targeting hyperscaler AI training networks specifically. See [[OFC 2026]].
+### XPO (eXtra-dense Pluggable Optics) - OFC 2026
 
-XPO is Arista's answer to the density wall: current OSFP cages are too large for next-gen switch linecards that need 51.2T+ bandwidth. By shrinking the transceiver form factor, Arista can pack more optical ports per switching ASIC — critical for AI cluster scale-out where every GPU needs multiple high-bandwidth links.
+Unveiled at OFC 2026 (March 13), [[Arista Networks]] launched XPO to counter [[Co-Packaged Optics]] density arguments:
+
+**XPO specifications:**
+- 12.8Tbps per module (8× current OSFP capacity)
+- 64 lanes at 200Gbps per lane
+- 204.8Tbps per rack unit (4× OSFP per RU)  
+- Integrated liquid cooling cold plate (400W per module)
+- 45 founding members in Multi-Source Agreement
+- [[Microsoft]] backing provides hyperscaler credibility
+- Volume production targeted 2027
+
+**System impact:** In a 400MW data center with 128,000 GPUs, typical 1,400+ OSFP switch racks would drop by 75% with XPO density. This directly challenges the "pluggables have a density ceiling" narrative that CPO proponents use.
+
+### LPO power efficiency - OFC 2025
+
+Andy Bechtolsheim presented power comparison data at OFC 2025:
+- At 1.6Tbps: DSP pluggable consumes 25W, CPO ~10W, LPO ~10W
+- LPO matches CPO on power consumption while preserving pluggable serviceability
+- LPO removes DSP from the pluggable module, shifts signal conditioning to switch chip
+- Already deployed in [[NVIDIA]] Spectrum-X and [[Meta]] networks
 
 ---
 
@@ -202,4 +221,5 @@ XPO is Arista's answer to the density wall: current OSFP cages are too large for
 - [[AI infrastructure]] — growth driver
 - [[OFC 2026]] — XPO launch
 - [[Ciena]] — competing CPO approach (Vesta)
+- [[Co-Packaged Optics]] — XPO directly counters CPO density claims
 

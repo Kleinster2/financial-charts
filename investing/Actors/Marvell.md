@@ -127,8 +127,8 @@ Stock +14% after-hours on the beat. Closed Mar 6 at **+22.1%** — one of the la
 
 ## Acquisitions powering the thesis
 
-### Celestial AI (2025-2026)
-Photonic interconnect technology — enables optical data transfer between chips inside data centers at lower latency and power. Complements Marvell's CXL (Compute Express Link) supply chain. Photonic fabric replaces copper/electrical interconnects for AI-scale data movement.
+### Celestial AI ($3.25B acquisition, 2025-2026)
+Photonic interconnect technology — enables optical data transfer between chips inside data centers at lower latency and power. The $3.25B acquisition price signals Marvell's massive commitment to [[Co-Packaged Optics]] and optical interconnect technology. Complements Marvell's CXL (Compute Express Link) supply chain. Photonic fabric replaces copper/electrical interconnects for AI-scale data movement.
 
 ### XConn Technologies (2025-2026)
 Scalable networking and CXL switch technology — enables low-latency communication across large AI clusters. Combined with Celestial AI's photonics, Marvell is building a full-stack optical interconnect offering for next-gen data centers.
@@ -212,7 +212,8 @@ Co-founded the Open CPX MSA (with [[Ciena]], [[Coherent]], Molex, Samtec, TeraHo
 - [[Amazon]], [[Google]], [[Microsoft]] — hyperscaler customers
 - [[TSMC]] — foundry
 - [[AI hyperscalers]] — customer base
-- [[Celestial AI]] — acquisition (photonic interconnect)
+- [[Celestial AI]] — acquisition ($3.25B, photonic interconnect)
+- [[Co-Packaged Optics]] — Celestial AI acquisition enables optical interconnect technology
 - [[XConn Technologies]] — acquisition (CXL switches)
 - [[Advanced packaging]] — context (EMIB exploration for Marvell chips)
 - [[Intel]] — potential packaging partner (EMIB)

@@ -98,3 +98,4 @@ Demonstrated 800Gbps bidirectional link on a single fiber using microring transc
 - [[Cerebras]] — alternative AI chip approach
 - [[Power constraints]] — photonics = power efficiency
 - [[OFC 2026]] — 800Gbps microring demo
+- [[Co-Packaged Optics]] — photonic fabric alternative approach to CPO
