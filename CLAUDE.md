@@ -40,11 +40,11 @@ This repo is the hub of a multi-vault research ecosystem. Full map in `~/.claude
 
 - **Geopolitics vault** (`~/obsidian/geopolitics/`, vault `geopolitics`) — Geopolitical events that move markets. Bidirectional cross-vault links via `obsidian://` URIs.
 - **History vault** (`~/obsidian/history/`, vault `history`) — Historical precedents for current macro dynamics.
-- **Brazil vault** (`~/obsidian/Brazil News & Analysis/`, vault `Brazil News & Analysis`) — Brazilian politics/economy affecting BRL, B3, Brazilian ADRs, BCB rates.
-- **Risk Parity vault** (`~/obsidian/Risk Parity/`, vault `Risk Parity`) — Risk parity strategy research. Draws market data from this repo's database.
+- **Brazil vault** (`~/obsidian/brazil/`, vault `Brazil News & Analysis`) — Brazilian politics/economy affecting BRL, B3, Brazilian ADRs, BCB rates.
+- **Risk Parity vault** (`~/obsidian/risk-parity/`, vault `Risk Parity`) — Risk parity strategy research. Draws market data from this repo's database.
 - **Art vault** (`~/obsidian/art/`, vault `art`) — Art-as-asset-class, alternative investments.
 - **Technologies vault** (`~/obsidian/technologies/`, vault `technologies`) — Tech foundations behind AI/semiconductor investment theses.
-- **portuguese-drills-expanded** (`~/Projects/portuguese-drills-expanded/`) — Gil's Portuguese tutoring platform (separate business domain).
+- **portuguese** (`~/portuguese/`) — Gil's Portuguese tutoring platform (separate business domain).
 
 ---
 
@@ -376,6 +376,6 @@ Flag relevant vaults to the user. Don't silently skip — the default is to ask.
 
 **History vault reference:** The **history vault** (`C:\Users\klein\obsidian\history\`) covers long-arc economic history — trade, institutions, innovation from prehistory to modernity. When writing about a topic with deep historical roots (sanctions, trade wars, infrastructure control, monetary policy, commodity economics, Monroe Doctrine, etc.), check the history vault for relevant precedent. When an event represents a genuine structural break or first-of-its-kind precedent (novel sanctions mechanism, new form of economic statecraft, industry-reshaping consolidation), flag it for the history vault — today's inflection points become tomorrow's history.
 
-**Brazil vault gate:** The **Brazil vault** (`C:\Users\klein\obsidian\Brazil News & Analysis\`) covers domestic Brazilian politics, economy, and institutions. When a story involves Brazilian actors (Lula, BCB, Petrobras, B3, STF, Congress), Brazilian markets (BRL, DI curve, Ibovespa, Brazilian ADRs), or Brazil-specific policy (fiscal framework, tax reform, Mercosul), flag it for the Brazil vault. The investing vault keeps the market-impact angle; the Brazil vault keeps the domestic political/institutional angle. Both need the core facts.
+**Brazil vault gate:** The **Brazil vault** (`C:\Users\klein\obsidian\brazil\`) covers domestic Brazilian politics, economy, and institutions. When a story involves Brazilian actors (Lula, BCB, Petrobras, B3, STF, Congress), Brazilian markets (BRL, DI curve, Ibovespa, Brazilian ADRs), or Brazil-specific policy (fiscal framework, tax reform, Mercosul), flag it for the Brazil vault. The investing vault keeps the market-impact angle; the Brazil vault keeps the domestic political/institutional angle. Both need the core facts.
 
 **Technologies vault gate:** The **technologies vault** (`C:\Users\klein\obsidian\technologies\`) covers tech foundations — semiconductors, AI architectures, quantum, crypto infrastructure. When a story involves foundational tech shifts (new chip architectures, fab capacity, AI model breakthroughs, supply chain restructuring) rather than just company earnings, flag it for the technologies vault. The investing vault covers the companies and trades; the technologies vault covers the underlying technology and its trajectory.
