@@ -301,6 +301,30 @@ Company, country, and institution actor notes should include an **Evolution** se
 - When a company's evolution connects to a broader theme in the history vault, add a cross-vault URI link
 - Stubs don't need an Evolution section — add it when the note matures beyond a stub
 
+### Concept Note Structure: Story + Reference
+
+Concept notes (non-stub) must follow a **story + reference** structure. The narrative exposition leads; structured reference material supports.
+
+**Structure:**
+1. **One-liner** — frontmatter + single paragraph: what it is, why it matters, current state. Dense, self-contained.
+2. **The story** — the full narrative arc as connected analytical prose. This is the core value of the note. Each paragraph exists because the previous one demanded it. Trace the causal chain: physics/fundamentals → economics → ecosystem/players → implications. A reader who knows nothing about the domain should be able to follow the full arc and understand the investment case by the end.
+3. **Reference** — tables, specs, quick stats, company lists, timeline data, key quotes. Scannable, precise, linkable. Everything the vault already does well, but positioned as the supporting layer you drill into for specifics.
+4. **Related** — wikilinks to connected notes.
+
+**Writing rules for "The story" section:**
+- Sharp analytical prose, not bullet points or tables. No headers within the story — it reads as continuous exposition.
+- Each section explains WHY something matters and how it leads to the next thing. Cause → effect chains, not isolated facts.
+- Hard numbers inline with sources. "[[Broadcom]]'s numbers: 800Gbps port, pluggable at 15W versus CPO at 5.5W" — not "CPO is more power-efficient."
+- All entity references get `[[wikilinks]]` even within prose.
+- Don't editorialize without evidence. Show the reader what happened and let them draw conclusions.
+- The story should be self-contained — a reader who reads only this section understands the full picture.
+
+**Length:** Scale to complexity. A narrow concept (a single mechanism or pattern) might need 5-8 paragraphs. A broad technology transition with multiple domains, competing approaches, and ecosystem dynamics might need 15-20. The story section can be the longest section in the note.
+
+**Reference:** See [[Co-Packaged Optics]] for the template — narrative traces fermion/boson physics → power wall → two-domain analysis → engineering challenges → pluggable counterattack → timeline → investment read. Reference section below carries NVIDIA roadmap table, power comparison data, XPO specs, key quotes, industry player matrix, adoption timeline.
+
+**When to use this structure:** Any concept note where the reader benefits from understanding the causal chain, not just the facts. Technology transitions, market dynamics, structural themes, policy mechanisms. Not every concept note needs a 15-paragraph story — some (e.g., a narrow technical definition) are fine as structured reference. Use judgment.
+
 ### Detailed References
 
 | Topic | Location |
