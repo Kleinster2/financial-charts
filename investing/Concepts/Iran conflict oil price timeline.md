@@ -415,6 +415,48 @@ Source: MEI panel, March 20 2026 — Connelly
 ---
 
 
+## Brooks: "Near the peak" — price elasticity framework (March 23)
+
+*Source: [[Robin J. Brooks]], Substack, "Q&A on the Energy Shock," March 23, 2026. Follow-up to [Krugman podcast](https://substack.com/home/post/p-191616330).*
+
+Brooks published a comprehensive Q&A framing the price action against the [[Russia]]-[[Ukraine]] 2022 invasion as the closest comparable. All data as of Friday March 21.
+
+### Price comparison — Iran conflict vs Russia 2022 invasion
+
+| Benchmark | Move since hostilities | Comparable move (Russia 2022) |
+|-----------|----------------------|-------------------------------|
+| [[Brent]] | +64% | ~similar trajectory early on |
+| Dubai crude | +123% | — |
+| WTI | +46% | — |
+| US gasoline (pump) | +32% | Peaked at $5/gal in 2022 |
+| Dutch [[TTF]] (nat gas) | Larger than 2022 on same timescale | 2022 eventually peaked €345/MWh |
+
+The Dubai-Brent gap (+123% vs +64%) confirms the MEI panel observation from March 20 — Middle East physical benchmarks vastly exceed Brent, meaning Asian refiners are paying far more than the headline suggests.
+
+### WTI is the price to watch
+
+Brooks' key analytical point: US gasoline prices track WTI, not Brent or Dubai. Iran's strategy is to spike oil prices enough to undercut US domestic support for the war — so WTI is the politically decisive benchmark. US energy independence limits Iran's leverage over WTI specifically. Gasoline still below $4/gallon — well below the $5 peak in 2022. This works in [[Trump II|Trump]]'s favor.
+
+### European gas — worse than 2022 on the same timescale
+
+TTF natural gas rise is already *bigger* than the post-Ukraine invasion spike on a comparable time horizon. Europe traded one dependency ([[Russia]] pipeline gas) for another (Gulf [[LNG]]). This validates the [[Colby Connelly|Connelly]] framing from the MEI panel: the force majeure on European contracts could last ~5 years.
+
+### Near-peak thesis — elasticity math
+
+Brooks estimates the [[Strait of Hormuz]] is currently running ~10M bbl/day below normal traffic. Using consensus price elasticity of demand, the implied Brent rise is 60-70% — which is approximately where the market already sits. To reach $150-200 from current levels requires either:
+1. Full Strait shutdown again (traffic currently at reduced but non-zero levels), or
+2. Price elasticity significantly lower than consensus
+
+Brooks' base case: prices are near peak. Additional cap: [[Trump TACO]] risk — the market is pricing some probability that Trump backs down, which limits the upside.
+
+### [[Kharg Island]] paradox
+
+US supertankers — each carrying 2M barrels — continue to load at [[Kharg Island]]. Brooks draws the direct parallel to 2022: the West feared embargoing Russian oil, allowed exports to continue, and the mixed messages capped prices but prolonged the conflict. The same pattern is repeating with Iran. As long as Kharg loads, Iran's revenue continues, and price upside is capped by the implicit supply guarantee.
+
+Brooks' position: full [[Iran]]ian oil embargo. Same logic as his 2022 Ukraine stance. No guarantee it ends the [[Strait of Hormuz]] blockade, but worth trying.
+
+---
+
 ## Related
 
 - [[Iran conflict economic disruption]] — hub note
@@ -429,6 +471,8 @@ Source: MEI panel, March 20 2026 — Connelly
 - [[Hormuz Permanent Risk Premium]] — structural thesis
 - [[Indian Oil]], [[Reliance Industries]] — Russian crude tanker diversions
 - [[Vortexa]] — cargo tracking
+- [[Robin J. Brooks]] — near-peak thesis, price elasticity framework
+- [[Trump TACO]] — additional price cap mechanism
 
 ---
 

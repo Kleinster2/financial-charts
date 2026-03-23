@@ -161,4 +161,16 @@ Source: MEI panel, March 20 2026 — Connelly
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel).*
+---
+
+## Brooks: European gas spike already exceeds 2022 pace (March 23)
+
+[[Robin J. Brooks]] (Brookings) confirmed the TTF trajectory with a direct comparison chart: the Dutch TTF natural gas rise since the start of the Iran conflict is already *larger* than the equivalent period after [[Russia]]'s 2022 invasion of [[Ukraine]]. Europe's pivot from Russian pipeline gas to Gulf [[LNG]] replaced one dependency with another. Brooks' data shows Europe is facing "another big shock, the result of its pivot to LNG from the Persian Gulf."
+
+This validates the [[Colby Connelly|Connelly]] assessment from the MEI panel (March 20): the force majeure on European LNG contracts could last ~5 years at $20B/year lost revenue, and even reopening [[Strait of Hormuz|Hormuz]] doesn't fix the supply chain — [[Ras Laffan]] needs 3-5 years of repair.
+
+*Source: Robin J. Brooks, Substack, "Q&A on the Energy Shock," March 23, 2026*
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack).*

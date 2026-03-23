@@ -52,6 +52,16 @@ Source: MEI panel, March 20 2026 — Mulroy/Connelly
 
 ---
 
+## Kharg still loading — Brooks' Ukraine parallel (March 23)
+
+[[Robin J. Brooks]] (Brookings) highlighted that supertankers — each carrying 2M barrels of oil — continue to fill at Kharg Island as of late March 2026. Brooks drew a direct parallel to the 2022 [[Russia]]-[[Ukraine]] invasion: the West feared embargoing Russian oil, allowed exports to continue, and the resulting mixed messages capped oil prices but prolonged the conflict. The same dynamic is repeating with [[Iran]].
+
+Brooks' position: the US should embargo Iranian oil, same logic as his 2022 stance. As long as Kharg loads, Iran's revenue stream continues and the price ceiling holds — but so does Iran's ability to sustain the [[Strait of Hormuz]] blockade. The key variable: whether the US stance on Iranian oil exports changes.
+
+*Source: Robin J. Brooks, Substack, "Q&A on the Energy Shock," March 23, 2026*
+
+---
+
 ## Related
 
 - [[Iran]] — parent state
@@ -62,8 +72,9 @@ Source: MEI panel, March 20 2026 — Mulroy/Connelly
 - [[Iran conflict economic disruption]] — energy disruption hub
 - [[2026 Iran conflict market impact]] — Kharg strike (Mar 15) spared oil infrastructure
 - [[Iranian economic collapse]] — Kharg as economic lifeline
+- [[Robin J. Brooks]] — Kharg loading / Ukraine parallel
 
 ### Cross-vault
 - [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — military timeline, 31st MEU redeployment
 
-*Created 2026-03-22 (MEI panel ingestion)*
+*Created 2026-03-22 (MEI panel ingestion). Updated 2026-03-23 (Brooks Substack).*

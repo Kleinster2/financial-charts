@@ -56,6 +56,16 @@ Source: MEI panel, March 20 2026 — Mulroy/Connelly
 
 ---
 
+## Brooks: embargo Iran — the 2022 playbook repeated (March 23)
+
+[[Robin J. Brooks]] (Brookings) made the same argument from the energy-market side: the US has given its blessing to continued Iranian oil exports for fear of further price spikes. Supertankers continue loading at [[Kharg Island]]. Brooks draws the explicit parallel to 2022: the West refused to embargo Russian oil, fearing a price spike, and Russia continued funding its war. The same mixed messages are now enabling Iran.
+
+Brooks' position: embargo Iranian oil. No guarantee it ends the [[Strait of Hormuz]] blockade, but the current posture — fighting a war while allowing the enemy to export — confirms the paradox Mulroy identified. The revenue flowing through Kharg is the economic oxygen sustaining Iran's ability to maintain the Hormuz closure.
+
+*Source: Robin J. Brooks, Substack, "Q&A on the Energy Shock," March 23, 2026*
+
+---
+
 ## Related
 
 - [[Iran conflict economic disruption]] — hub note
@@ -66,7 +76,9 @@ Source: MEI panel, March 20 2026 — Mulroy/Connelly
 - [[Shadow fleet]] — Iran-to-China export mechanism
 - [[Oil]] — commodity price dynamics
 - [[Hormuz Permanent Risk Premium]] — structural risk thesis
+- [[Robin J. Brooks]] — embargo advocacy, 2022 parallel
+- [[Kharg Island]] — supertankers still loading
 
 ---
 
-*Created 2026-03-22 (MEI panel ingestion)*
+*Created 2026-03-22 (MEI panel ingestion). Updated 2026-03-23 (Brooks Substack).*
