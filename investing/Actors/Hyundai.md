@@ -17,6 +17,12 @@ Korean automotive conglomerate and the world's #4 automaker by volume, increasin
 
 The stock story has completely changed. After a decade in the wilderness, [[Boston Dynamics]]' Atlas humanoid robot debut at CES 2026 sent Hyundai from 300K to 674K KRW in weeks. The rerating thesis is sum-of-parts: BNP Paribas calculates the core auto business trades at just 10.3x PE after stripping out stakes in [[Hyundai Motor India]] and [[Boston Dynamics]]. If a BD IPO (potentially 2027 Nasdaq) prices anywhere near analyst estimates — KB Securities at 128T won, Hanwha at 150T won, even conservative 40-60T won — the auto business is essentially free at current levels. Chairman [[Chung Euisun]] holds 22.6% of BD personally (paid ~$220M in 2021, now potentially worth $13.6B+), and IPO proceeds give him the war chest to unwind Hyundai's circular ownership structure — the only major Korean chaebol that still has it. Resolution of the Korea discount is a second catalyst. The bear case: 22% earnings cuts on US tariff risk (25% on Korean imports, deal to lower to 15% not yet ratified), Chinese EVs eating market share outside US/India, and $20B in US investment commitments that are capital-heavy political insurance.
 
+![[hyundai-vs-toyota-tsla-price-chart.png]]
+*Hyundai (blue) +225% vs Tesla (green) +55% vs Toyota (red) +30% since Jan 2024. The Atlas CES debut in Jan 2026 triggered a parabolic rerating — Hyundai decoupled from legacy auto comps entirely. 27% pullback from 674K KRW peak creates potential entry.*
+
+![[hyundai-price-chart.png]]
+*Solo price: 155K KRW (early 2024) → 690K KRW peak (Jan 2026) → 492K KRW (Mar 24). The decade-long 100K-300K range is decisively broken.*
+
 ## Quick stats
 
 | Metric | Value |
