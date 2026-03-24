@@ -1,6 +1,6 @@
 # Portfolio Dashboard
 
-**Summary:** Central view of active risk and high-conviction targets.
+Central view of active risk and high-conviction targets.
 
 ---
 
@@ -12,24 +12,34 @@
 ---
 
 ## Top Conviction (Long)
-| Ticker | Company | Thesis | Allocation | Note |
-|--------|---------|--------|------------|------|
-| **NVDA** | [[NVIDIA]] | [[Long NVIDIA]] | High | Core AI infra play. |
-| **XOM** | [[Exxon]] | [[Long Energy]] | Medium | Defensive + AI power. |
-| **CVX** | [[Chevron]] | [[Venezuela oil rebuild]] | Medium | Geopolitical alpha. |
+
+| Ticker | Company | Thesis | Allocation | Price (Mar 24) | Note |
+|--------|---------|--------|------------|----------------|------|
+| NVDA | [[NVIDIA]] | [[Long NVIDIA]] | High | $175.20 | Core AI infra play |
+| XOM | [[Exxon]] | Energy security + AI power | Medium | $165.38 | Defensive + Iran conflict beneficiary |
+| CVX | [[Chevron]] | [[Venezuela oil rebuild]] | Medium | $206.79 | Only US operator in Venezuela |
 
 ## Top Conviction (Short)
-| Ticker | Company | Thesis | Allocation | Note |
-|--------|---------|--------|------------|------|
-| **INTC** | [[Intel]] | [[Short TSMC long Korea]] | Low | Structural decline. |
+
+| Ticker | Company | Thesis | Allocation | Price (Mar 24) | Note |
+|--------|---------|--------|------------|----------------|------|
+| INTC | [[Intel]] | Structural decline | Low | $44.06 | Foundry struggles vs [[TSMC]] |
+
+---
+
+## Concept Portfolios
+- [[AI trade portfolio]] — consensus AI long positioning (NVDA, ORCL, GOOGL, CRWV)
+- [[Iran conflict portfolio hedging]] — strategies for 60/40 breakdown under stagflation (options overlays, dollar cash, Hormuz commodities)
+- [[Iran conflict long-short basket]] — thesis with stagflation scenario
+- [[Trump family investment portfolio]] — tracking Trump family commercial interests and policy feedback loops
 
 ---
 
 ## Action Items
-- [ ] Monitor **Venezuela** news for Chevron contract expansion.
-- [ ] Watch **Jan 14** Supreme Court ruling on tariffs (impacts AAPL).
-- [ ] Check **Stargate** permitting news (Bullish for Nuclear/Gas).
+- [ ] Review Iran conflict hedging positions — Hormuz still closed, oil elevated
+- [ ] Monitor PLTR for pullback entry (currently $154.78, richly valued)
+- [ ] Track Amogy / ammonia-to-power space for energy transition thesis
 
 ---
 
-*Last Updated: 2026-01-09*
+*Last Updated: 2026-03-24*

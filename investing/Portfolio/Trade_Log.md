@@ -8,15 +8,14 @@ Historical record of closed positions and portfolio moves.
 
 | Date | Ticker | Action | Price | P&L | Rationale |
 |------|--------|--------|-------|-----|-----------|
-| 2026-01-05 | CVX | **Buy** | ~$150 | — | Opened position on [[Maduro capture 2026]] news. |
-| | | | | | |
+| 2026-01-05 | CVX | Buy | ~$150 | Open (+38%) | Opened position on [[Maduro capture 2026]] news |
 
 ## 2025
 
 | Date | Ticker | Action | Price | P&L | Rationale |
 |------|--------|--------|-------|-----|-----------|
-| 2025-12-XX | ... | ... | ... | ... | ... |
+| — | — | — | — | — | No entries recorded |
 
 ---
 
-*Last Updated: 2026-01-09*
+*Last Updated: 2026-03-24*
