@@ -90,6 +90,8 @@ Liraglutide's patent cliff is relevant because it set the precedent for the comp
 | CagriSema | [[Novo Nordisk]] | GLP-1 + amylin (cagrilintide + semaglutide) | Filed for FDA approval 2025 | ~22.7% weight loss at 68 weeks; FDA response expected 2026, launch ~2027 |
 | Amycretin | [[Novo Nordisk]] | Dual GLP-1/amylin (single molecule) | Phase 2; Phase 3 launching early 2026 | 22% weight loss in 36 weeks; potential best-in-class |
 | Survodutide | [[Boehringer Ingelheim]]/[[Zealand Pharma]] | Dual GLP-1/glucagon | Phase 3 | Also in Phase 3 for MASH; approval trajectory 2027-28 |
+| Petrelintide | [[Roche]]/[[Zealand Pharma]] | Amylin analog (feel full faster) | Phase 2 (Mar 2026) | 10.7% weight loss at 42 weeks; clean safety but below ~13% competitive bar. Roche licensed for up to $5.3B. Earliest launch 2029 |
+| Eloralintide | [[Eli Lilly]] | Amylin analog | Phase 2 | 20.1% weight loss at upper end; fewer GI side effects than GLP-1s |
 | Retatrutide | [[Eli Lilly]] | Triple agonist (GIP/GLP-1/glucagon) | Phase 3 (7 more readouts in 2026) | 28.7% weight loss (~71 lbs) in TRIUMPH-4; 18% discontinuation rate at high dose |
 | Oral Wegovy | [[Novo Nordisk]] | Oral semaglutide 25mg | Launched Jan 2026 | 16.6% weight loss at 64 weeks; 170K+ patients in first 4 weeks |
 
@@ -225,6 +227,10 @@ Critical distinction: Semaglutide is a biologic peptide, so competitors must fil
 | [[Indiana]] | Narrowed bill to follow federal guidelines + state reporting system |
 | Massachusetts | S1497 (Jan 2026): Compounding under "patient safety" umbrella with board enforcement |
 | Alabama, Connecticut | State AGs pursuing enforcement against compounders and raw API distributors |
+
+### Peptide deregulation (RFK Jr)
+
+Separately from the compounding crackdown, US health secretary [[Robert F. Kennedy Jr.]] signaled in Feb 2026 that the FDA would make "about 14" non-GLP-1 peptides "more accessible." The success of GLP-1 peptide drugs drove broader consumer interest in the peptide category — fitness, recovery, cognitive enhancement — creating a parallel deregulatory push. See [[Enhanced Games]] and [[Competitive deregulation]] for the market-level implications.
 
 ### FTC
 

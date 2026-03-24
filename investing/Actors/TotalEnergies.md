@@ -46,11 +46,11 @@ TTE trades as a core Oil & Gas E&P name (XOP r = 0.77).
 
 Unlike peers, maintained transition commitment:
 - 35 GW renewable capacity target (2025)
-- Large solar/wind project pipeline
+- Large solar/wind project pipeline (ex-US offshore wind — fully exited Mar 2026)
 - Battery storage investments
 - Kept long-term oil decline targets
 
-But still investing heavily in oil/gas projects.
+But still investing heavily in oil/gas projects. The March 2026 US offshore wind exit — $928M reimbursed by the Interior Department, redirected to [[LNG]] and Gulf oil — marks a significant tilt toward fossil fuels in the US specifically.
 
 ---
 
@@ -125,6 +125,18 @@ Trading update (Mar 14): higher oil price "more than offsets the loss of Middle 
 
 ---
 
+## US offshore wind exit (Mar 23, 2026)
+
+[[Doug Burgum]], US Interior Secretary, announced at CeraWeek in Houston that the Interior Department will reimburse [[TotalEnergies]] $928M — the full cost of its two US offshore wind leases — in exchange for cancelling the leases and reinvesting the capital in oil and gas. The leases, off the coasts of New York and North Carolina, had ~4 GW combined capacity. The New York project, Attentive Energy, was a joint venture with [[Corio Generation]] and [[Rise Light and Power]], though they joined after Total won the leases in 2022.
+
+Total paused development of both projects in November 2024 after [[Donald Trump]] won the election. The leases were not part of Trump's December 2024 cancellation of wind leases under construction (these were pre-construction). Under the deal, Total has also pledged not to develop any new offshore wind projects in the US.
+
+CEO [[Patrick Pouyanné]] said the $928M would fund the Rio Grande [[LNG]] project (gas for [[Europe]] and US data centers), Gulf of America oil production, and shale gas. "Considering that the development of offshore wind projects is not in the country's interest, we have decided to renounce offshore wind development in the US, in exchange for the reimbursement of the lease fees." Burgum called offshore wind "expensive, unreliable, environmentally disruptive."
+
+The deal comes as Trump faces pressure to limit energy price increases driven by the [[2026 Iran conflict market impact|Iran war]], which have pushed up pump prices. *(FT, Mar 23, 2026)*
+
+---
+
 ## Investment case
 
 Bull:
@@ -169,3 +181,7 @@ Bear:
 - [[Venezuela]] — context (full exit 2022)
 - [[Chevron]] — peer (US supermajor)
 - [[ConocoPhillips]] — peer (US E&P)
+- [[Doug Burgum]] — counterparty ($928M wind-to-oil deal, Mar 2026)
+- [[Donald Trump]] — context (offshore wind cancellations, Iran war energy pressure)
+- [[Corio Generation]] — former JV partner (Attentive Energy, exited)
+- [[Rise Light and Power]] — former JV partner (Attentive Energy, exited)

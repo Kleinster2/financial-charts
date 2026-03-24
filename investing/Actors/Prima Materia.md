@@ -74,7 +74,7 @@ They describe themselves as financing "moonshots" with ambitious scientists and 
 |------|-------|
 | Harry Stebbings' fund | VC |
 | [[Pale Blue Dot]] | Climate |
-| Air Street Capital | Life sciences/AI |
+| [[Air Street Capital]] | Life sciences/AI |
 
 ---
 

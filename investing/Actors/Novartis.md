@@ -108,12 +108,24 @@ NVS shows moderate Healthcare correlation (XLV r = 0.64).
 
 ---
 
+## Dealmaking (2024-2026)
+
+| Date | Target | Value | Area |
+|------|--------|-------|------|
+| 2024 | Monte Rosa Therapeutics | $5.76B | Molecular glue (AI) |
+| Q4 2025 | [[Avidity Biosciences]] | $12B | RNA medicine |
+
+The [[Avidity Biosciences]] deal (FT, Feb 24, 2026) fits the broader biopharma M&A wave driven by patent cliff anxiety and big pharma firepower. Novartis acquiring RNA muscle-targeting technology.
+
+---
+
 ## Related
 
 - [[Biopharma]] — sector
 - [[Roche]] — Swiss peer
 - [[Eli Lilly]] — pharma peer
 - [[Isomorphic Labs]] — $3B deal
+- [[Avidity Biosciences]] — $12B RNA medicine acquisition (Q4 2025)
 
 ---
 

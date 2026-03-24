@@ -308,6 +308,60 @@ The dynamic is a direct consequence of the Hormuz closure: lost Gulf barrels (~1
 
 The DFC (US International Development Finance Corporation) facility is an attempt to restart shipping by backstopping insurance, but $20B is inadequate for the scale of trade at risk. The tanker escort question exposes a fundamental tension: the US has strategic interest in keeping Hormuz open, but the primary beneficiaries are Asian importers.
 
+## Kpler supply gap analysis (March 16)
+
+*Source: [[Kpler]] ([[Matt Smith]]) on CNBC International, March 16, 2026. URL: https://youtu.be/kBAXJzvuEeU*
+
+The most detailed supply/demand arithmetic for the Hormuz disruption. The analysis reveals a massive unfilled gap that markets are "not coming to terms with" — setting up an "oh dear" moment when current in-transit barrels fail to arrive and aren't replaced.
+
+### Supply/demand math
+
+| Component | Volume (M bbl/day) | Notes |
+|-----------|-------------------|-------|
+| Hormuz disruption | 8-10 | Crude effectively off market |
+| IEA SPR release | ~2 | [[Jeff Currie]]/Goldman estimate of drip rate |
+| Alternative pipelines | ~5.5 | Saudi east-west to Red Sea + UAE pipe to Fujairah |
+| Shadow fleet | ~1 | Estimated continued flow |
+| Total alternatives | 8.5 | SPR + pipelines + shadow fleet |
+| UNFILLED GAP | ~1.5 | Market "not coming to terms with this fact" |
+
+Additional complications: oil producers in the Gulf shutting in production because "there aren't tankers to load onto." IEA coordinated release: ~400M barrels total, 72% crude / 28% products. US can physically release max ~1.5M bbl/day (logistics constraint), not 2M. Countries releasing SPR keep oil domestically — "doesn't help Asia."
+
+### The "oh dear" moment thesis
+
+Pre-conflict cargoes currently on the water (loaded before February 28 crisis) are masking the supply loss. Both [[Saudi Arabia]] and [[Iran]] likely ramped exports in February anticipating disruption — creating a false buffer.
+
+Timeline: The physical shortage hits "over the coming weeks" when those in-transit deliveries are supposed to arrive and replacements don't show up. Not just crude — jet fuel, diesel, gasoline, fuel oil ALL disrupted. Smith: *"That's when the oh dear moment really kicks in."*
+
+SPR releases serve to keep prices "in check" psychologically, but physical relief is slow — "takes weeks to reach market physically."
+
+### China's massive exposure
+
+| Metric | Volume | Impact |
+|--------|--------|--------|
+| China onshore storage | 1.2B barrels | Strategic cushion |
+| China daily consumption | ~15M bbl/day | Refining + consumption |
+| ME flows to China | 5M bbl/day | 45% of seaborne flows — huge dependency |
+| Storage duration | ~80 days | At current consumption if no imports |
+
+Supply losses already hitting China: Venezuelan crude (sanctions), Russian flows redirected to [[India]] (waiver granted), Iranian crude at risk. China will likely cut refinery runs and draw inventories. Does NOT want to buy at elevated prices. Smith: *"Very difficult to make the argument that this isn't affecting China."*
+
+### SPR release limitations exposed
+
+Physical constraints: US max release rate ~1.5M bbl/day (logistics constraint). 172M barrel release "cannot flood market — slow drip." Takes weeks to reach market physically. Purpose: price psychology, not supply replacement.
+
+Geographic mismatch: countries releasing SPR keep oil domestically. Doesn't help Asian markets where the shortage is most acute. Regional price dislocations will persist.
+
+### Iran's gatekeeper dynamics
+
+Iran NOT blocking the strait entirely — it IS the gatekeeper. Iran's own tankers continue to move through (half dozen VLCCs this month), all heading to Asia. [[JASP terminal]] (outside strait) loaded for first time — Iran has limited alternatives but is using them. But 90%+ of exports go through [[Kharg Island]] → through strait, can't reroute. Iran maintains selective access while denying it to competitors.
+
+### Assessment
+
+Market "finding it difficult to fathom" the scale of supply loss. $100/bbl feels like psychological resistance. Oil settled above $96 on March 16. The physical math suggests much higher prices if the gap persists. The 1.5M bbl/day unfilled gap compounds daily, and alternatives (SPR, pipelines, shadow fleet) are insufficient to close it while Hormuz remains functionally blocked.
+
+---
+
 ## "Demand destruction has begun" — JPMorgan (March 20)
 
 *Source: FT/JPMorgan (Robin Wigglesworth), March 20, 2026. Report by [[Natasha Kaneva]], Lyuba Savinova, Artem Fakhretdinov.*

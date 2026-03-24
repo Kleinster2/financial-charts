@@ -86,6 +86,8 @@ Pre-crisis buffer: ~15% global supply surplus existed before the shutdown. With 
 
 Monthly shortfall: estimated 5.2M cubic meters/month offline.
 
+South Korean chipmakers reportedly have around six months of helium supplies on hand (FT, Parikh, Mar 22) — a more comfortable buffer than Taiwan's 11-day LNG reserve, but finite. The asymmetry matters: helium buffers buy time for fab operations; LNG buffers buy time for everything else (power generation, industrial processes, heating).
+
 ---
 
 ## Supply chain mechanics
@@ -185,6 +187,8 @@ Each previous shortage triggered calls for recycling, strategic reserves, and su
 [[Kornbluth Helium Consulting]] president Phil Kornbluth (Mar 6): *"The world can't compensate for the loss of a third of its helium supply."*
 
 Phil Kornbluth (Mar 18): *"Depending on how long this lasts, it could become a severe shortage, and prices could go up a lot."*
+
+Phil Kornbluth (Mar 22, FT): Even if the conflict ended tomorrow, it would take "four to five weeks" for [[Qatar]] to resume gas and helium production from its plants, and "an additional two to three months after that to restore the helium supply chain to what it was pre-crisis." This sets the minimum recovery timeline at ~3.5-4 months from ceasefire — well into July/August 2026 even in the best case.
 
 TECHCET CEO Lita Shon-Roy: *"Helium can leak out about 0.1 to 1 percent per month, depending on how good the gaskets are."*
 

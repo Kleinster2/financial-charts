@@ -68,6 +68,25 @@ GILD shows moderate Healthcare correlation (XLV r = 0.56).
 
 ---
 
+## Dealmaking spree (2024-2026)
+
+With GILD near all-time highs ($137.34 on Mar 23, 2026, market cap ~$170B — eclipsing [[Pfizer]] and [[Bristol Myers Squibb]]) and no imminent patent cliffs, CEO [[Daniel O'Day]] has kicked off an acquisition spree to diversify beyond HIV/oncology:
+
+| Date | Target | Value | Area |
+|------|--------|-------|------|
+| 2020 | [[Immunomedics]] | $21B | Oncology (Trodelvy) |
+| 2024 | [[CymaBay Therapeutics]] | $4.3B | Liver disease |
+| Feb 2026 | [[Arcellx]] | $7.8B | Cell therapy (multiple myeloma) |
+| Mar 2026 | [[Ouro Medicines]] | ~$2.2B ($1.7B upfront + $500M milestones) | Autoimmune (T-cell engager) |
+
+[[Ouro Medicines]] acquisition (FT, Mar 23): Privately held biotech founded early 2025 with $120M from [[TPG]] ventures, [[GSK]], Monograph Capital, and Norwest. Lead drug is an antibody T-cell engager in early-stage trials for four autoimmune diseases, with potential in multiple myeloma. [[RBC Capital Markets]] analyst Evan Seigerman called it a "pipeline-in-a-product" opportunity. Gilead in advanced discussions with [[Galapagos]] (Belgian biotech, Gilead is largest shareholder) to co-develop some of Ouro's medicines.
+
+CMO [[Dietmar Berger]]: Ouro's portfolio "complements our expanding inflammation pipeline and reflects our strategy to invest in innovative science that may redefine standards of care."
+
+The autoimmune push represents a new therapeutic leg alongside HIV and oncology — the deal flow signals management confidence in using the elevated share price (GILD +28% YoY) as strategic currency.
+
+---
+
 ## Financial performance
 
 | Metric | 2025E |
@@ -90,9 +109,15 @@ GILD shows moderate Healthcare correlation (XLV r = 0.56).
 
 ---
 
-## TCJA repatriation (2018)
+## Tax profile
+
+### TCJA repatriation (2018)
 
 Gilead repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into buybacks and dividends.
+
+### FY2025 disclosures (March 2026)
+
+Gilead was identified by the [[Fact Coalition]] as one of 10 pharma/biotech companies contributing to ~$5bn in collective federal tax savings through income booked in low-tax jurisdictions. Specific country-level breakdown not published in initial analysis. See [[Pharma jurisdictional tax arbitrage]].
 
 ---
 
@@ -131,6 +156,12 @@ Gilead repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]]
 
 - [[Biopharma]] — sector
 - [[Tax Cuts and Jobs Act]] — repatriation (2018)
+- [[Pharma jurisdictional tax arbitrage]] — FY2025 tax disclosure cohort
+- [[Ouro Medicines]] — $2.2B autoimmune acquisition (Mar 2026)
+- [[Arcellx]] — $7.8B cell therapy acquisition (Feb 2026)
+- [[Galapagos]] — Belgian biotech, Gilead is largest shareholder, Ouro collaboration
+- [[CymaBay Therapeutics]] — $4.3B liver disease acquisition (2024)
+- [[Immunomedics]] — $21B oncology acquisition (2020, yielded Trodelvy)
 
 ---
 

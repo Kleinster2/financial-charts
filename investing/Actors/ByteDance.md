@@ -71,6 +71,22 @@ AI applications:
 
 ---
 
+## Gaming retreat
+
+ByteDance spent billions from ~2019 onward trying to challenge [[Tencent]] in gaming, acquiring and backing 12+ studios through its Nuverse gaming unit. The push failed — [[Tencent]]'s dominance in Chinese gaming proved unassailable — and ByteDance began unwinding:
+
+| Date | Event |
+|------|-------|
+| 2019-2021 | Gaming push — acquired 12+ studios including [[Moonton]] (~$4B, Mar 2021) |
+| Late 2023 | Began cutting gaming division jobs |
+| Mar 2026 | Agreed to sell [[Moonton]] to [[Savvy Games Group]] for $6B |
+
+[[Moonton]] was the crown jewel — creator of [[Mobile Legends|Mobile Legends: Bang Bang]] (110M MAU), the dominant mobile MOBA in Southeast Asia. The $6B sale gives ByteDance ~$2B return on its $4B investment, but the broader gaming push was a costly failure. ByteDance's core strengths remain content algorithms ([[TikTok]], [[Douyin]]) and AI ([[Doubao]], [[Seedance]]), not game development.
+
+The buyer, [[Savvy Games Group]] ([[Saudi Arabia]]'s [[Public Investment Fund]] gaming arm), leveraged US-China geopolitical tensions to position as a neutral acquirer for Chinese gaming assets.
+
+---
+
 ## TikTok situation
 
 US ban/divestiture:
@@ -236,6 +252,10 @@ Irony: ByteDance's [[Seedance]] pirates American IP while its [[TikTok]] US oper
 ---
 
 ## Related
+
+### Gaming (divested)
+- [[Moonton]] — sold to [[Savvy Games Group]] ($6B, Mar 2026)
+- [[Mobile Legends]] — Moonton's flagship (110M MAU)
 
 ### Products
 - [[Douyin]] — China short video (766M DAU, 65% of revenue)

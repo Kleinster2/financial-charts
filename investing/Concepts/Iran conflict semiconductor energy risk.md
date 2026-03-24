@@ -81,6 +81,8 @@ The critical question: does the energy shock stay at the "expensive but availabl
 
 Taiwan's summer electricity demand regularly approaches system capacity even in normal years. Adding an LNG supply shock on top of seasonal peak demand creates the scenario where rationing moves from theoretical to operational.
 
+Buffer status (as of Mar 22): Taiwan has secured over half its LNG needs for May, but keeps only ~11 days of LNG in reserve and depends on just-in-time deliveries for the rest. South Korean chipmakers reportedly have around six months of [[Helium supply crisis 2026|helium]] supplies — a more comfortable buffer, but helium is only one of several chemical inputs at risk (see below).
+
 Even if fabs themselves are protected, their **supply chains** may not be — packaging, testing, substrate manufacturing, chemical suppliers, and water treatment facilities all need power too.
 
 ---
@@ -109,6 +111,26 @@ This is not a feedback loop that planners appear to have modeled. The Heritage F
 
 ---
 
+## Beyond energy — chemical input vulnerabilities
+
+The semiconductor supply chain's exposure to the Hormuz closure goes beyond LNG. Two additional chemical inputs transit the conflict zone:
+
+### Sulphur
+
+Roughly half of global seaborne sulphur transits the [[Strait of Hormuz]] (FT, Tej Parikh, Mar 22). Sulphur is used in chip cleaning and etching processes. Even before the war, sulphur was facing a supply squeeze from accelerating demand in the tech and electric vehicle industries — the [[Mosaic|Mosaic FY2025 results]] showed sulfur costs +80% YoY in their Phosphates segment. The war converts a gradual tightening into an acute shortage.
+
+### Bromine
+
+The [[Dead Sea]] is the world's largest source of bromine, a chemical used to score (lithographic patterning) on silicon wafers. [[South Korea]] imports virtually all of its bromine supply from [[Israel]] — specifically from [[ICL Group]], the world's #1 bromine producer. While Israel is not party to the Hormuz closure, it is a combatant in the Iran conflict. Bromine supply chains face both direct conflict risk (attacks on Israeli facilities) and indirect risk (shipping disruption, insurance withdrawal on Israel-origin cargo).
+
+### Wafer transport bottleneck
+
+The freight division of [[Cathay Pacific|Cathay Pacific Airways]] handles approximately 30% of global wafer transport — a concentration that mirrors the chip production concentration in East Asia. [[Cathay Pacific]]'s regional hub in [[Dubai]] has limited access due to the conflict, creating a logistics bottleneck even for wafers that have been successfully fabricated. Chip deliveries are already facing delays from air and shipping transportation bottlenecks across the region.
+
+*Source: FT, Tej Parikh, March 22 2026*
+
+---
+
 ## Investment read-through
 
 | Position | Rationale |
@@ -118,6 +140,18 @@ This is not a feedback loop that planners appear to have modeled. The Heritage F
 | **Short AI infrastructure timeline** | The 69GW buildout ([[Power constraints]]) gets harder if the chips arrive slower |
 | **Long US onshoring** | Every disruption strengthens the case for [[TSMC Arizona expansion]], Samsung Taylor TX, Intel Ohio |
 | **Watch memory** | [[SK Hynix]] HBM production in South Korea — HBM is the bottleneck chip for AI training |
+
+## The mid-April cliff — Papic timeline
+
+[[Marko Papic]], chief strategist at [[BCA Research]], who predicted a US attack on Iran as a tail risk for 2026 in January (FT Free Lunch newsletter, Jan 11), frames a hard deadline:
+
+*"There is no way for the US to replace the oil and natural gas out of the strait on any timeline that avoids a global recession. In my estimation, the US, Israel and Iran have about until mid-April to conclude hostilities and begin returning shipping through Hormuz, or else the world will see its first post-Covid-19 break in supply chains."*
+
+This aligns with [[Amrita Sen]]'s [[Energy Aspects]] reopening estimate (end of April at earliest) and Phil Kornbluth's helium restart timeline (4-5 weeks to resume production + 2-3 months to restore supply chain — see [[Helium supply crisis 2026]]). The convergence of multiple independent expert timelines on an April/May inflection point adds credibility to the framing.
+
+Gulf sovereign wealth funds may also redirect planned AI investments to local security needs — reducing the data center buildout pipeline in the region even after hostilities end.
+
+*Source: FT, Tej Parikh, March 22 2026*
 
 ---
 
@@ -135,6 +169,10 @@ This is not a feedback loop that planners appear to have modeled. The Heritage F
 - [[Precise Mass]] — military tech that depends on these chips
 - [[Iran conflict defense repricing]] — defense spending that requires chip supply
 - [[TSMC Arizona expansion]] — onshoring response
+- [[ICL Group]] — Dead Sea bromine supplier; South Korea's primary source for lithographic patterning chemical
+- [[Cathay Pacific]] — handles ~30% of global wafer transport; Dubai hub access limited
+- [[BCA Research]] — Papic mid-April deadline for supply chain break
+- [[Helium supply crisis 2026]] — helium is only one of several chemical inputs disrupted (also sulphur, bromine)
 
 ---
 

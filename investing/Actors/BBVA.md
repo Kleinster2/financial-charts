@@ -70,9 +70,16 @@ See [[Venezuela]].
 
 ---
 
+## Sabadell takeover bid
+
+[[BBVA]] launched an aggressive takeover offer for [[Sabadell]] in 2025. The bid was complicated when [[Santander]] acquired [[TSB]] from [[Sabadell]] — the windfall from the sale helped [[Sabadell]] bolster its standalone defense and fend off BBVA's approach.
+
+---
+
 ## Related
 
 - [[Venezuela]] — only major foreign bank with presence
+- [[Sabadell]] — takeover target (2025 bid, complicated by Santander's TSB purchase)
+- [[Santander]] — Spanish arch-rival (TSB acquisition undercut BBVA's Sabadell bid)
 - [[JPMorgan Chase]] — peer (dormant Venezuela office)
 - [[Citigroup]] — peer (exited Venezuela 2021)
-- [[Santander]] — peer (Spanish bank)

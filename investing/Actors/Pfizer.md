@@ -84,9 +84,15 @@ Major revenue at risk from generics.
 
 ---
 
-## TCJA repatriation (2018)
+## Tax profile
+
+### TCJA repatriation (2018)
 
 Pfizer repatriated $24B under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into M&A and buybacks.
+
+### FY2025 country-by-country disclosures (March 2026)
+
+New FASB-mandated disclosures: Pfizer paid $1bn in taxes to [[Ireland]] versus $2.7bn to the US in 2025. A Senate Finance Committee investigation led by Senator Ron Wyden examined Pfizer's 2019 tax return and found US taxable profit had been reduced to zero by booking all income offshore. Pfizer disputed the analysis as "not accurate" and cited $15.7bn in US income tax paid over the past five years. See [[Pharma jurisdictional tax arbitrage]].
 
 ---
 
@@ -97,8 +103,9 @@ Pfizer repatriated $24B under the [[Tax Cuts and Jobs Act]] one-time tax holiday
 | Seagen (2023) | $43B | Oncology pipeline |
 | Arena (2022) | $6.7B | Immunology |
 | Biohaven (2022) | $12B | Migraine |
+| [[Metsera]] (Q4 2025) | $10B | Obesity/metabolic |
 
-Using COVID cash for pipeline acquisitions.
+Using COVID cash for pipeline acquisitions. The [[Metsera]] bid (FT, Feb 24, 2026) signals Pfizer re-entering the obesity race after discontinuing oral danuglipron.
 
 ---
 
@@ -179,6 +186,9 @@ Missing the GLP-1 wave is significant.
 - [[Merck]] — pharma peer
 - [[Moderna]] — vaccine competitor
 
+### Acquisitions
+- [[Metsera]] — $10B obesity/metabolic bid (Q4 2025)
+
 ### Sectors
 - [[Healthcare]] — industry
 - [[Biotech]] — pipeline competition
@@ -186,6 +196,7 @@ Missing the GLP-1 wave is significant.
 ### Concepts
 - [[AI drug discovery]] — R&D application
 - [[Tax Cuts and Jobs Act]] — $24B repatriation (2018)
+- [[Pharma jurisdictional tax arbitrage]] — $1B Ireland vs $2.7B US (FY2025); Wyden investigation (2019 US profit = zero)
 
 ---
 

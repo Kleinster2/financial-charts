@@ -40,6 +40,13 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **Mar 6, 2026** | **Publicly-traded BDCs at or near all-time lows** — [[BlackRock]] TCP Capital Corp closes at $3.82 (record low, **>50% drop in one year**). Multiple public BDCs trading at steep NAV discounts |
 | **Mar 11, 2026** | **[[JPMorgan Chase\|JPMorgan]] marks down private credit collateral** — trading division reduces value of software loans used as collateral by private credit funds, restricting back-leverage. First major bank to remark collateral. Dimon flagged prudence on software assets at leveraged finance conference the prior week. ARES -4.5%, OWL/KKR/CG ~-2.6%. Stress escalates from fund-level (redemptions) to bank-funding layer |
 | **Mar 11, 2026** | [[Jeff Currie]] ([[Carlyle]]) on Bloomberg: oil at $120 sustained → **crowds out $150B of private credit** — Treasury must issue that as public debt, directly competing for capital. A macro squeeze layered on top of the micro (software defaults, redemptions, collateral markdowns). See [[Iran conflict economic disruption]] |
+| **Mar 23, 2026** | **[[Apollo]] Debt Solutions BDC caps redemptions.** Investors sought $1.6B (11.2% of $15B NAV) — well above 5% threshold. Apollo honored $730M (~46%). Fund posted first monthly loss in 3+ years in February (-0.07%). Past-year return dropped to 7%. $724M new commitments partially offset — net flows roughly flat. Apollo: portfolio *"underweight software exposure relative to the broader private credit markets"* |
+| **Mar 23, 2026** | **FT aggregate tracking:** Across 7 funds, $11.7B in Q1 2026 redemption requests. Only **66% fulfilled** ($7.8B). Cliffwater (~14% of NAV) and Apollo/Morgan Stanley (~11%) worst hit. Every tracked fund saw Q1 requests double or triple vs Q3 2025 |
+| **~Mar 17-21, 2026** | **[[Davidson Kempner]] publishes report** diagnosing "growing risks in the private capital industry." Tony Yoseloff (managing partner/CIO): *"A substantial portion of the private equity industry is already stressed or distressed. You're not looking at a problem five years from now, you're looking at a problem that exists today."* Hedge fund ($38B AUM) positioning to profit from forced asset dumps. Made ~$3B from [[Lehman Brothers]] collapse |
+| **~Mar 17-21, 2026** | **[[Goldman Sachs]] CEO David Solomon** escalates tone: concerns about private credit *"should serve as a reminder to investors that the credit cycle has not been repealed"* — upgrade from "watching for frothiness" (~Mar 5) to explicit warning |
+| **~Mar 17-21, 2026** | **[[Bank of America]] pitches shorts** against [[Deutsche Bank]] and [[Partners Group]] as "most exposed to private credit shocks" — then apologized for the note |
+| **~Mar 17-21, 2026** | **House of Lords votes against** UK government bill to allow ministers to force pension funds to invest minimum amounts in private assets — indicates fierce resistance to expanding retail/pension PE exposure |
+| **~Mar 17-21, 2026** | **[[Bain & Company]]**: PE firms had record backlog of almost **$4T in unsold investments** in 2025, even as dealmaking began recovering |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. **>$100B in funds** to disclose Q1 data ([[Barclays]]) |
 
 ---
@@ -297,6 +304,61 @@ JPM marks down software loan collateral values
 
 *Sources: FT, Reuters, Bloomberg, CNBC (Mar 11, 2026)*
 
+### Apollo Debt Solutions BDC — capped at ~46% (Mar 23, 2026)
+
+![[ft-private-credit-redemption-requests-q1-2026.png]]
+
+*Quarterly redemption requests as % of NAV across 7 tracked private credit funds. Q1 2026 requests roughly tripled from Q3 2025 at every manager. Source: company filings, FT research.*
+
+| Manager | Q3 2025 | Q4 2025 | Q1 2026 |
+|---------|---------|---------|---------|
+| [[Apollo]] (ADS) | ~3% | ~5% | **11.2%** |
+| [[BlackRock]] | ~1.5% | ~2.5% | ~4.5% |
+| [[Blackstone]] (BCRED) | ~2% | ~4.5% | ~8% |
+| [[Cliffwater]] | ~3% | ~5.5% | **~14%** |
+| [[HPS Investment Partners\|HPS]] | ~1.5% | ~4% | ~9.5% |
+| Monroe | ~1.5% | ~2.5% | ~5.5% |
+| [[Morgan Stanley]] | ~3% | ~5.5% | **~11%** |
+
+Apollo Debt Solutions ($25B portfolio, $15B NAV) — investors sought **$1.6B in Q1** (11.2% of NAV). Apollo honored **$730M** (~46% of requests) — the worst fulfillment rate among tracked funds. Fund received $724M in new commitments, leaving net flows roughly flat.
+
+Fund posted its **first monthly loss in 3+ years** in February (-0.07%), driven by a sell-off in more liquid loans used to mark its illiquid private loan portfolio. Past-year return dropped to **7%**, below long-term average.
+
+Apollo positioned defensively: *"Apollo has consciously chosen to create portfolios that are underweight software exposure relative to the broader private credit markets."* Also slashed riskier software loans in 2025 and wagered several large software loans would decline.
+
+**Valuation language (notable):** *"When spreads widen in public markets or within a specific sector, we work closely with independent third-party valuation providers to ensure those conditions are appropriately reflected in our marks."* Translation: Apollo is marking private loans down when public equivalents fall — a pre-emptive admission that marks lag reality.
+
+**Key quote:** *"Today's decision reflects our ongoing commitment to long-term value creation for the fund's shareholders. Apollo has long believed that periods of complexity and uncertainty can create some of the most attractive investment opportunities, but only for those with the flexibility to act decisively."*
+
+**Aggregate FT tracking (7 funds, Q1 2026):** $11.7B in total redemption requests. Only **66% fulfilled** ($7.8B). The fulfillment rate is falling as requests accelerate — managers hitting caps more frequently.
+
+*Source: FT (Eric Platt, Mar 23, 2026)*
+
+### Rated note feeders — insurance capital arbitrage (FT, Mar 23)
+
+Specialized investment vehicles that convert stakes in PE or private credit funds into investment-grade bonds for insurance buyers. An SPV sits between the insurer and the underlying fund — it issues rated notes, invests proceeds into the fund, and pays the insurer interest plus principal at redemption.
+
+**Why they matter for this crisis:** They solve two problems simultaneously — give insurers a regulatory capital workaround (rated bonds require a fraction of the capital vs holding loans or equity directly), and give small/new private credit managers a fundraising channel before they have diversified offerings or track records. For PE managers, they open another source of capital at a time when institutional investors are pulling back.
+
+**Scale:**
+| Year | KBRA-graded feeder issuance |
+|------|----------------------------|
+| 2019 | ~$0.5B |
+| 2020 | ~$1.5B |
+| 2021 | ~$4.5B |
+| 2022 | ~$2.5B |
+| 2023 | ~$5B |
+| 2024 | $8B |
+| 2025 | **$17B** (2x prior year) |
+
+*Source: [[KBRA]] (Kroll Bond Rating Agency) via FT*
+
+Established players ([[Ares Management|Ares]], [[Carlyle Group|Carlyle]], [[KKR]]) have used these for years. The recent boom is driven by small, recently launched credit managers flooding insurers with pitches. The rating challenge: at inception the SPV may hold no assets or very few — *"so you have to look at the manager's track record"* (Peter Gargiulo, [[Fitch Ratings]]).
+
+The risk layering: rated note feeders give private credit a conduit to the multitrillion-dollar US insurance industry. If the underlying private credit funds suffer losses, the rated notes may be downgraded — potentially forcing insurers to dump them (capital charges spike on sub-investment-grade holdings). This is the same credit-transmutation mechanism (repackaging risky assets as investment-grade) that amplified losses in 2007-08 via CDOs. The scale is far smaller ($17B/yr vs trillions in CDOs), but the directional parallel is there.
+
+*Source: FT Asset Management (Alan Livsey, Mar 23, 2026)*
+
 ### Ares ARCC (watching)
 - **$26B+** — largest publicly traded BDC
 - Canary for broader BDC market health
@@ -450,7 +512,11 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 **Glenn Schorr ([[Evercore ISI]], Mar 8):** *"Semi-liquid funds were designed and marketed as products offering limited liquidity, especially during times of stress. It's important to retrain the investor base on the nature of private assets."*
 
-**David Solomon ([[Goldman Sachs]] CEO, Bloomberg TV ~Mar 5):** Watching for *"frothiness"* but not yet alarmed: *"While there have been a bunch of idiosyncratic events where there have been problems, the broad portfolios are performing reasonably well."*
+**David Solomon ([[Goldman Sachs]] CEO, Bloomberg TV ~Mar 5):** Watching for *"frothiness"* but not yet alarmed: *"While there have been a bunch of idiosyncratic events where there have been problems, the broad portfolios are performing reasonably well."* **Escalated ~Mar 21:** concerns about private credit *"should serve as a reminder to investors that the credit cycle has not been repealed"* — a step beyond "frothiness" to explicit systemic framing.
+
+**Tony Yoseloff ([[Davidson Kempner]] managing partner/CIO, report ~Mar 17-21):** *"A substantial portion of the private equity industry is already stressed or distressed. You're not looking at a problem five years from now, you're looking at a problem that exists today."* Hedge fund ($38B AUM) argues excessive leverage, weak cash flows, and loose debt contracts create a ripe environment for corporate defaults. Davidson Kempner positioning to profit from forced asset dumps — made ~$3B from [[Lehman Brothers]] collapse. Founded 1983 by Marvin Davidson (joined by Thomas Kempner 1984); Yoseloff joined 1999. Problems existed *"even before recent fears surfaced about how AI could upend the software industry."*
+
+**[[Bank of America]] (~Mar 17-21):** Pitched clients a bet against [[Deutsche Bank]] and [[Partners Group]], arguing they are *"among the most exposed to private credit shocks"* — European financials/alt managers as the highest-beta proxies for the crisis. Then apologized for the note.
 
 **Scott Nuttall ([[KKR]] co-CEO, Bloomberg Deals ~Mar 5):** Sizing up investment spree amid volatility: *"It's all about being ready. You've got to create your shopping lists."* Investors showing *"PTSD from the financial crisis."* Predicts **"K-shaped industry"** — winners vs "apology tour" losers. Expects *"more BlackRock-type acquisitions"* of alternative players, smaller firms merging for asset diversity. *"We're very calm. I think we're actually enjoying this period."*
 
@@ -478,6 +544,9 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 | **401(k) access** | Trump executive order signed; DOL guidance enabling alternative assets in 401(k)s expected soon. Retail funnel about to get wider just as existing retail investors flee | Imminent |
 | **Warren legislation** | Capital requirements, disclosure, stress tests | Congressional calendar |
 | **Insurance/pension exposure** | They're buying the loans Blue Owl is selling — are they the new bag holders? | Ongoing |
+| **Rated note feeder downgrades** | $17B issued in 2025 via KBRA alone. If underlying funds suffer losses → note downgrades → insurers forced to dump (capital charges spike). Credit transmutation risk at smaller scale than CDOs but same mechanism | Ongoing |
+| **European bank/alt-manager contagion** | BofA already pitching shorts on DB and [[Partners Group]]. If US private credit stress hits European balance sheets, watch for ECB response | Ongoing |
+| **UK pension PE mandates** | House of Lords blocked forced PE allocation — but government may try again. Expansion of retail/pension funnel would add to structural mismatch | UK parliamentary calendar |
 | **Oil above $120 sustained** | Currie ([[Carlyle]]): crowds out $150B of private credit via public debt issuance. Macro squeeze on top of micro stress | If Iran/Hormuz persists |
 
 ---
@@ -496,11 +565,16 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 | US private credit default rate | **5.8%** (12mo through Jan 2026 — Fitch, record since Aug 2024 tracker start) |
 | UBS worst-case default scenario | **15%** (Arougheti: "actually irresponsible") |
 | Funds facing Q1 disclosure | **>$100B** (Barclays) |
+| FT aggregate Q1 redemptions (7 funds) | **$11.7B requested, 66% fulfilled** ($7.8B) |
+| Apollo ADS redemptions (Q1 2026) | **$1.6B requested** (11.2% NAV), $730M honored (~46%) |
+| Cliffwater Q1 redemptions | **~14% of NAV** — highest tracked |
+| PE unsold investment backlog (2025) | **~$4T** (record — Bain & Company) |
+| Rated note feeder issuance (KBRA, 2025) | **$17B** (2x from $8B in 2024) |
 | Alt manager contagion | OWL -8.7%, APO/BX/ARES -6%, KKR -4% |
 | Publicly-traded BDC lows | BlackRock TCP $3.82 (record, -50% YoY) |
 
-*Sources: Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8; "Twice shy" newsletter ~Mar 7; Feb 26 roundup; Feb 24-25 UBS/Loeb/Michele; Fishlow/DiMauro/Brown/Scigliuzzo, Feb), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, Robert A Stanger & Co., Deutsche Bank, UBS (Mish), Fitch Ratings, Barclays, BofA, Citigroup, KKR filings*
-*Updated 2026-03-11*
+*Sources: Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8; "Twice shy" newsletter ~Mar 7; Feb 26 roundup; Feb 24-25 UBS/Loeb/Michele; Fishlow/DiMauro/Brown/Scigliuzzo, Feb), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), FT (Eric Platt, Mar 23, 2026; Alan Livsey, Mar 23, 2026), Reuters, CNBC, Robert A Stanger & Co., Deutsche Bank, UBS (Mish), Fitch Ratings, Barclays, BofA, Citigroup, KKR filings, Bain & Company, KBRA*
+*Updated 2026-03-23*
 
 ---
 
@@ -537,6 +611,11 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 - [[Nomura]] — Maeda: significant contraction unlikely
 - [[Marathon Asset Management]] — Richards: loudest software bear, 15% default prediction, HALO strategy
 - [[Starwood Capital Group]] — SREIT targeted by Saba/Cox tender offer (Mar 5, 2026)
+- [[Davidson Kempner]] — Yoseloff: "substantial portion" of PE already stressed/distressed, positioning to profit from dumps ($38B AUM)
+- [[Bain & Company]] — ~$4T unsold PE investment backlog (2025 record)
+- [[Partners Group]] — BofA: "most exposed to private credit shocks" (alongside Deutsche Bank)
+- [[Deutsche Bank]] — BofA short pitch target for private credit exposure
+- [[KBRA]] — rated $17B in note feeders in 2025 (2x from 2024)
 - [[Iran conflict economic disruption]] — oil at $120 crowds out $150B private credit (Currie/Carlyle)
 - [[Jeff Currie]] — regime change thesis: asset-heavy cycle, oil shock amplifies private credit stress
 - [[March 2020 liquidity crisis]] — prior liquidity event (different mechanism)

@@ -269,6 +269,7 @@ Bear:
 - [[Amazon]] — investor (~20% stake), EDV customer
 - [[Volkswagen]] — software JV partner ($1.56B revenue in 2025)
 - [[Ford]] — former investor (sold stake)
+- [[Uber]] — robotaxi fleet customer (tens of thousands of SUVs) + equity investment (Mar 2026)
 - [[Lucid]] — competitor (luxury EV)
 - [[Lithium]] — battery input
 

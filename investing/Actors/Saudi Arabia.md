@@ -66,6 +66,17 @@ See [[2026 Iran conflict market impact#Day 14 — March 13 (Gulf equity divergen
 
 ---
 
+## Gaming strategy
+
+[[Saudi PIF]] earmarked ~$40B for gaming via [[Savvy Games|Savvy Games Group]]. Key milestones:
+- [[Scopely]] acquired for $4.9B (2023) — [[Monopoly Go!]] (~$2.2B player spend, 2024)
+- [[Scopely]] acquired [[Pokémon Go]] from [[Niantic]] for $3.5B (March 2025)
+- Portfolio stakes in [[Nintendo]], [[Electronic Arts]], [[Activision Blizzard]], [[Take-Two]]
+- Hosting Olympic Esports Games 2027 (12-year [[IOC]] deal)
+- Target: 250 gaming companies, 39,000 jobs by 2030
+
+---
+
 ## Related
 
 - [[Saudi Aramco]] — actor (national oil company)

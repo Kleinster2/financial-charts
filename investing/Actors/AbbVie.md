@@ -94,6 +94,12 @@ ABBV shows moderate Healthcare correlation (XLV r = 0.61).
 
 ---
 
+## Tax profile (FY2025 disclosures)
+
+New FASB-mandated country-by-country disclosures (March 2026): AbbVie cut $1.6bn from its US federal tax bill through operations in [[Puerto Rico]], where manufacturing is concentrated. AbbVie was one of 10 pharma/biotech companies identified by the [[Fact Coalition]] as contributing to ~$5bn in collective tax savings. See [[Pharma jurisdictional tax arbitrage]].
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -131,6 +137,7 @@ ABBV shows moderate Healthcare correlation (XLV r = 0.61).
 - [[Merck]] — facing similar cliff ([[Keytruda]] Dec 2028)
 - [[Bristol-Myers Squibb]] — steeper cliff, cheaper valuation
 - [[Biopharma]] — sector
+- [[Pharma jurisdictional tax arbitrage]] — $1.6B saved via Puerto Rico (FY2025)
 - [[Amgen]] — biosimilar competitor
 
 ---

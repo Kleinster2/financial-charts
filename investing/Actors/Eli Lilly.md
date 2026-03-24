@@ -77,6 +77,12 @@ Mounjaro and Zepbound driving volume growth. CEO Ricks: "2025 was an important y
 
 ---
 
+## Tax profile (FY2025 disclosures)
+
+New FASB-mandated country-by-country tax disclosures (March 2026) revealed Lilly paid $6.6bn in income tax to [[Ireland]] in 2025 — double the $3.3bn it paid to the US, despite the US being its largest revenue market. Lilly attributed the disparity to "significantly higher" manufacturing in the EU and said US capital investments would "generate increased US taxable income and higher US tax payments in future years." See [[Pharma jurisdictional tax arbitrage]].
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -103,5 +109,6 @@ Mounjaro and Zepbound driving volume growth. CEO Ricks: "2025 was an important y
 
 - [[Agentic AI]] — drug discovery applications
 - [[Novo Nordisk]] — GLP-1 competitor (losing patent protection)
+- [[Pharma jurisdictional tax arbitrage]] — $6.6B Ireland vs $3.3B US (FY2025)
 
 *Updated 2026-02-04 (Q4 2025 earnings)*

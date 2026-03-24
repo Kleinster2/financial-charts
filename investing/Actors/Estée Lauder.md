@@ -27,7 +27,7 @@ EL trades as a core Regional Banks name (KRE r = 0.70).
 | Metric | Value |
 |--------|-------|
 | Ticker | EL (NYSE) |
-| Market cap | ~$25B (from ~$130B peak) |
+| Market cap | $28.7B (March 23, from ~$130B peak) |
 | Revenue (FY25, ended Jun 2025) | $14.3B (-8%) |
 | Revenue (FY24) | $15.6B (-2%) |
 | Revenue (FY22 peak) | $17.7B |
@@ -108,15 +108,20 @@ EL trades as a core Regional Banks name (KRE r = 0.70).
 
 ---
 
-## Recovery plan (Profit Recovery & Growth)
+## Recovery plan ("Beauty Reimagined")
 
-| [[Target]] | Detail |
+| Metric | Detail |
 |--------|--------|
-| Net profit improvement | $1.1-1.4B over FY24 levels |
-| Cost savings | Restructuring underway |
-| Strategic review | Portfolio optimization |
-| New CEO | Stéphane de La Faverie (internal, from Jan 2025) |
-| Fragrance focus | Fastest-growing category |
+| Net profit improvement target | $1.1-1.4B over FY24 levels |
+| Cost savings plan | $1B, cutting 5,800-7,000 jobs |
+| Adj. operating profit (FY25) | $1.15B (-28%) |
+| CEO | [[Stéphane de La Faverie]] (internal, from Jan 2025) |
+| Q1 FY26 organic sales | +3% (first growth after -8% annual decline) |
+| Fragrance growth (Q1 FY26) | Double-digit |
+
+[[Stéphane de La Faverie]] (Nov 2025, FT): *"The next [[China]] is [[China]]. There's an enormous amount of new consumers that are coming into the middle class."* Shifting away from [[China]]'s travel retail hubs toward mainland consumer strategy. Launched [[The Ordinary]] in [[China]], opened [[Aveda]] flagship in Shanghai, new [[Le Labo]] stores. *"The biggest lesson for us has been diversification... we cannot be a global company with only one region."*
+
+[[HSBC]] analyst [[Erwan Rambourg]] (Nov 2025): *"After months of investors lacking interest, the market seems once again to have called the bottom. This time, it's credible."* Shares had rallied +21% YTD by Nov 2025, valuing company at $32.4bn — before falling back on the March 2026 Iran conflict selloff and merger news.
 
 ---
 
@@ -151,6 +156,22 @@ EL trades as a core Regional Banks name (KRE r = 0.70).
 - [[Beiersdorf]] — skincare competitor (La Prairie peer)
 - [[China]] — key demand driver
 - [[Consumer]] — parent sector
+
+## March 2026: Jo Malone lawsuit
+
+EL filed legal action (March 12) against perfumer [[Jo Malone]], her brand [[Jo Loves]], and [[Zara]] UK for breach of contract, trademark infringement, and "passing off." Jo Malone sold her eponymous brand and name rights to EL in 1999, stepped down as creative director in 2006, and was bound to a five-year non-compete plus a permanent block on using "Jo Malone" commercially. After the non-compete expired in 2011, she launched Jo Loves. The trigger: Jo Loves' affordable fragrance collaboration with [[Zara]] included packaging reading "A creation by Jo Malone CBE, founder of Jo Loves." EL claims this breaches the original agreement and undermines Jo Malone London's brand equity. Malone has called selling her name *"the biggest mistake of my life."* Precedent: [[Bobbi Brown]] similarly sold her name to EL and launched [[Jones Road]]; [[Kate Spade]] legally changed her name to Kate Valentine after selling to [[Liz Claiborne]].
+
+---
+
+## March 2026: Puig merger talks
+
+[[Estée Lauder]] confirmed (March 23) it is in "business combination" discussions with [[Puig]], the Spanish fragrance and fashion house behind [[Charlotte Tilbury]], [[Jean Paul Gaultier]], [[Carolina Herrera]], and [[Rabanne]]. The combined entity would create a >$40bn beauty company with over $20bn in combined sales — reported by the FT as nearing a deal that could come together imminently.
+
+EL shares closed -7.7% on March 23 at a $28.7bn market cap. [[Citigroup]] analysts said the drop was consistent with negative investor reactions to other large consumer tie-ups ([[Keurig Dr Pepper]]'s $18bn acquisition of [[JDE Peet's]], [[Kimberly-Clark]]'s $48.7bn takeover of [[Kenvue]]). Citi: *"EL is in the early stages of a business turnaround with a deal of this size creating complexity and execution risk."*
+
+Puig's US-listed shares rose 11%, pushing its market cap above $11bn. Puig said no final decision had been made and no agreement had been reached.
+
+The strategic logic: EL gets Puig's fast-growing fragrance portfolio (73% of revenue, +13.6% growth) and Charlotte Tilbury, addressing its weakest category. Puig gets global scale, US distribution, and the prestige skincare/makeup brands it lacks. The risk: merging two family-controlled companies (Lauder family ~37% economic/majority voting; Puig family 92.5% voting) with different cultures and a target company mid-turnaround.
 
 ## March 2026: conflict-driven consumer selloff
 

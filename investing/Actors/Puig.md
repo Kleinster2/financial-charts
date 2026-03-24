@@ -18,7 +18,8 @@ aliases: [PUIG, Puig Brands]
 | Revenue (2024) | €4,790M (+10.9% LFL) |
 | Adj. EBITDA (2024) | €969M (20.2% margin) |
 | Net profit (2024) | €531M (+14.1%) |
-| CEO | Marc Puig (Executive Chairman) |
+| CEO | José Manuel Albesa (from March 2026, first non-family CEO) |
+| Executive Chairman | Marc Puig (CEO 2004-2026, 3rd-gen family) |
 | Family voting rights | 92.5% |
 | HQ | Barcelona, Spain |
 
@@ -26,15 +27,15 @@ aliases: [PUIG, Puig Brands]
 
 ## Financial performance
 
-| Metric | 2022 | 2023 | 2024 |
-|--------|------|------|------|
-| Revenue (€B) | 3.62 | 4.30 | 4.79 |
-| Revenue growth (LFL) | +26% | +19% | +10.9% |
-| Adj. EBITDA (€M) | ~700 | 863 | 969 |
-| Adj. EBITDA margin | ~19% | 20.0% | 20.2% |
-| Net profit (€M) | ~380 | 465 | 531 |
+| Metric | 2022 | 2023 | 2024 | 2025 |
+|--------|------|------|------|------|
+| Revenue (€B) | 3.62 | 4.30 | 4.79 | >5.0 |
+| Revenue growth (LFL) | +26% | +19% | +10.9% | ~+8% |
+| Adj. EBITDA (€M) | ~700 | 863 | 969 | — |
+| Adj. EBITDA margin | ~19% | 20.0% | 20.2% | — |
+| Net profit (€M) | ~380 | 465 | 531 | — |
 
-Consistent double-digit growth with expanding margins. IPO year (2024) showed margin expansion to 20.2%.
+Growth decelerating (26% → 19% → 11% → 8%) but still solid. IPO year (2024) showed margin expansion to 20.2%.
 
 ---
 
@@ -94,7 +95,17 @@ Puig is the purest-play fragrance investment globally — more concentrated than
 
 ---
 
-## 2025 outlook
+## 2025 results
+
+| Metric | Value |
+|--------|-------|
+| Revenue | >€5B (+8% LFL) |
+
+Revenue exceeded €5bn, nearly 8% LFL growth per company reporting (FT, March 2026).
+
+---
+
+## 2026 outlook
 
 | Metric | 2025E |
 |--------|-------|
@@ -122,6 +133,18 @@ Growth moderating from +11% to +6-8% — still solid but decelerating as fragran
 - Fragrance boom may normalize/fade
 - No skincare franchise (highest-margin beauty category)
 - Small vs L'Oréal, LVMH — lacks scale advantages
+
+---
+
+## March 2026: Estée Lauder merger talks
+
+Puig confirmed (March 23) it is holding discussions with [[Estée Lauder]] over a potential "business combination" that would create a >$40bn beauty company with over $20bn in combined sales. Puig: *"No final decision has been made and no agreement has been reached. Until an agreement exists, it cannot be guaranteed that any transaction will take place or what its terms would be."*
+
+Puig's US-listed shares rose 11% on the news, pushing market cap above $11bn. EL shares closed -7.7% at a $28.7bn market cap — [[Citigroup]] analysts flagged execution risk given EL's ongoing turnaround.
+
+The deal would give Puig access to EL's global distribution, prestige skincare (La Mer, Clinique), and US scale. EL would gain Puig's fast-growing fragrance portfolio (73% of Puig revenue, +13.6%) and Charlotte Tilbury. Complexity: both companies are family-controlled (Lauder family majority voting; Puig family 92.5% voting), and EL is mid-turnaround under new CEO [[Stéphane de La Faverie]].
+
+Puig has completed 11 acquisitions of fragrance and fashion brands between 2011 and 2024 — M&A is core to the Puig playbook. But this would be a combination, not an acquisition, suggesting a more complex governance structure.
 
 ---
 

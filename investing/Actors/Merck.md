@@ -124,9 +124,15 @@ MRK trades as a core Healthcare name (XLV r = 0.76).
 
 ---
 
-## TCJA repatriation (2018)
+## Tax profile
+
+### TCJA repatriation (2018)
 
 Merck repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into M&A to address [[Keytruda]] patent cliff.
+
+### FY2025 country-by-country disclosures (March 2026)
+
+New FASB-mandated disclosures: Merck paid $2.1bn in taxes to [[Switzerland]] in 2025, compared with $1.6bn to the US — routing more tax dollars to a country of 9 million than to its home market. Merck said it had "paid additional foreign taxes" partly due to OECD Pillar Two global minimum tax rules. Cumulative US taxes 2023-2025: $4.8bn. See [[Pharma jurisdictional tax arbitrage]].
 
 ---
 
@@ -167,6 +173,7 @@ Merck repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] 
 - [[Bristol-Myers Squibb]] — steeper cliff, cheaper valuation
 - [[Pfizer]] — pharma peer
 - [[Tax Cuts and Jobs Act]] — repatriation (2018)
+- [[Pharma jurisdictional tax arbitrage]] — $2.1B Switzerland vs $1.6B US (FY2025)
 
 ---
 

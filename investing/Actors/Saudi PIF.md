@@ -77,6 +77,23 @@ The war introduces a potential structural shift in PIF's capital deployment:
 - **Oil windfall offset**: with oil above $90, PIF's funding source is flush. The fiscal math improves even as the strategic environment deteriorates.
 - **Net effect**: PIF may slow US/European deployments and redirect toward domestic reconstruction, regional alliance-building, and defense-industrial capacity. Watch for changes in PIF allocation patterns in H2 2026.
 
+## Gaming portfolio
+
+PIF's gaming strategy operates on two tracks:
+
+[[Savvy Games|Savvy Games Group]] (subsidiary, ~$40B earmarked, CEO [[Brian Ward]]):
+- ESL Gaming ($1.05B, 2022), [[VSPO]] ($265M, 2023), [[Scopely]] ($4.9B, 2023), [[Niantic]] games ($3.5B, 2025), [[Moonton]] ($6B, Mar 2026)
+- ~$16B deployed across five deals. EBITDA positive target 2026
+- Key properties: [[Monopoly Go!]], [[Pokémon Go]], [[Mobile Legends]] (110M MAU)
+
+Direct PIF stakes (separate from Savvy):
+- [[Electronic Arts]] take-private ($55B, Sep 2025) — PIF as majority equity owner with [[Silver Lake]] and [[Affinity Partners]], assembled by [[Jared Kushner]]
+- [[Nintendo]], [[Take-Two]], [[Activision Blizzard]] — minority stakes
+
+Combined gaming exposure exceeds $70B in deal value — the largest sovereign gaming portfolio in the world. National targets: 250 gaming companies, 39,000 jobs by 2030. Hosting Olympic Esports Games 2027 (12-year [[IOC]] deal)
+
+---
+
 ## Challenges
 
 | Challenge | Impact |
@@ -133,6 +150,12 @@ The war introduces a potential structural shift in PIF's capital deployment:
 - [[Saudi Arabia Tech]] — national context
 - [[NEOM]] — portfolio ($500B smart city)
 - [[Saudi Vision 2030]] — strategic framework (PIF is execution vehicle)
+- [[Savvy Games]] — gaming subsidiary (~$40B mandate, ~$16B deployed)
+- [[Electronic Arts]] — $55B take-private (PIF as majority owner)
+- [[Moonton]] — acquired via Savvy ($6B, Mar 2026)
+- [[Scopely]] — acquired via Savvy ($4.9B, 2023)
+- [[Pokémon Go]] — acquired via Scopely from [[Niantic]] ($3.5B, 2025)
+- [[Mohammed bin Salman]] — keen gamer, Vision 2030 driver
 - [[Future Investment Initiative]] — flagship summit ("Davos in the Desert")
 - [[Richard Attias & Associates]] — FII organizer (planning ~$1B IPO)
 

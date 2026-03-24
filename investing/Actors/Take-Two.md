@@ -38,10 +38,24 @@ TTWO shows moderate Software correlation (IGV r = 0.57).
 |--------|-------|
 | Launch date | **May 26, 2026** |
 | Development cost | **$1B+** |
-| GTA V lifetime sales | 215M+ copies |
+| GTA V lifetime sales | 225M copies |
 | GTA V lifetime revenue | ~$10B |
 
-**Catalyst:** Biggest game launch in history expected.
+Analyst estimates: ~$5B in sales by 2030, nearly 100M copies (Visible Alpha). GTA V still regularly sees 100,000+ simultaneous PC players a decade after release.
+
+![[gta-v-annual-sales-visible-alpha.png]]
+*GTA V annual sales (million units), 2014-2025. Source: Visible Alpha via FT.*
+
+---
+
+## AI disruption sell-off (Feb 2026)
+
+TTWO shares suffered sharp declines after [[Google]]'s [[Project Genie]] release alongside [[Roblox]], [[Ubisoft]], [[CD Projekt]], [[Nexon]], and [[Capcom]]. FT (Feb 12) argued the sell-off misread gaming as pure tech when it is equally a media business — consumers prefer professional entertainment over self-created worlds, the same way they watch movies despite having editing software on their phones. [[Project Genie]] co-lead described the goal as empowering creators, not replacing the existing experience.
+
+[[Unity Software]] most directly threatened — its engine-as-a-service model faces substitution risk. [[Roblox]] somewhat insulated by its user-generated content repository and in-game currency ecosystem.
+
+![[ttwo-vs-cdpr-genie-selloff.png]]
+*TTWO vs [[CD Projekt]] share prices rebased in $ terms, showing the [[Project Genie]] sell-off. Source: LSEG via FT.*
 
 ---
 
@@ -121,8 +135,12 @@ TTWO shows moderate Software correlation (IGV r = 0.57).
 
 ## Related
 
-- [[Electronic Arts]] — competitor
+- [[Electronic Arts]] — competitor, $55B take-private
 - [[Nintendo]] — gaming peer
+- [[Project Genie]] — AI disruption catalyst
+- [[World Models]] — underlying AI paradigm
+- [[Unity Software]] — most exposed to AI substitution
+- [[CD Projekt]] — European gaming peer, co-sold off
 - [[Consumer]] — sector
 
 ---

@@ -141,6 +141,30 @@ Zoox continues operating its own app alongside the Uber integration. This is Ube
 
 ---
 
+## Rivian robotaxi fleet deal (March 2026)
+
+Uber agreed to invest in [[Rivian]] and purchase tens of thousands of [[Rivian]] SUVs for its robotaxi fleet. Announced alongside an expanded partnership with [[NVIDIA]] for AV simulation and training data (building on existing millions-of-hours robotaxi driving data collaboration for world model development).
+
+| Detail | Value |
+|--------|-------|
+| Vehicle order | Tens of thousands of Rivian SUVs |
+| Uber investment | Equity stake in [[Rivian]] |
+| NVIDIA expansion | Extended existing AV data partnership |
+
+Context: Uber trading at 22x forward PE (Bloomberg), above its three-year average — market partially allayed by the platform aggregation strategy. But FT notes that even in the best case, Uber's competition shifts from [[Lyft]] (a fraction of its size) to [[Alphabet]]/[[Waymo]] and [[Tesla]] — two of the world's largest tech groups.
+
+*Source: FT (Mar 21, 2026)*
+
+---
+
+## New York AV regulatory setback (March 2026)
+
+[[New York]] Gov. [[Kathy Hochul]] reversed plans to expand autonomous vehicle access in the state after backlash from taxi drivers and labor groups — highlighting the city-by-city political challenge facing robotaxi scaling. NYC remains one of the largest untapped markets for both [[Waymo]] and Uber's AV partners.
+
+*Source: FT (Mar 21, 2026)*
+
+---
+
 ## Waymo partnership
 
 Robotaxi on Uber platform:
@@ -210,3 +234,6 @@ Bear:
 - [[Lime]] — strategic investment, demand channel for shared scooters/e-bikes
 - [[EVgo]] — charging partner (NY, LA, SF, Boston)
 - [[Lucid]] — AV investment
+- [[Rivian]] — robotaxi fleet vehicle supplier + equity investment (Mar 2026)
+- [[NVIDIA]] — AV simulation and training data partnership (expanded Mar 2026)
+- [[Kathy Hochul]] — NY governor, reversed AV expansion plans (Mar 2026)

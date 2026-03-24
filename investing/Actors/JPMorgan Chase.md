@@ -113,6 +113,28 @@ JPM trades as a core Financials name (XLF r = 0.85).
 
 ---
 
+## AWM: Athlete Council (Mar 2026)
+
+Launched "Athlete Council" targeting college athletes — now earning sizeable NIL (name, image and likeness) income after a series of lawsuits opened direct school payments and endorsement deals. [[Dwyane Wade]], [[Megan Rapinoe]], and [[Tom Brady]] recruited as council frontmen. Brady also spoke at JPMorgan's 2026 wealth management summit.
+
+| Metric | Value |
+|--------|-------|
+| NIL market (2025-26 season) | $2.75B (Opendorse) |
+| Direct to athletes | ~$2B |
+| JPM AWM ROE | 44% (highest division) |
+| JPM client AUM | $4.8T |
+| College athletes going pro | <2% of 500,000+ |
+
+The NIL market roughly tripled from ~$0.9B (2021-22) to $2.75B (2025-26) — four seasons of rapid growth since courts opened payments. But the addressable pool is small relative to JPM's $4.8T AUM. The real play is early capture: locking in the <2% who go pro and become genuinely wealthy.
+
+Competitive landscape: [[Bank of America]]/Merrill Lynch has a partnership with IMG Academy (access to promising young talent). [[UBS]] hired NFL veteran Adewale Ogunleye in 2020 for its sports and entertainers client group. [[Goldman Sachs]] has two-time Super Bowl champion Justin Tuck as MD — clients include athletes. 65% of college athletes surveyed received no financial education in high school (2021 study) — the advisory gap is real.
+
+Risks: client acquisition cost high for low conversion (<2% go pro), reputational blowback if investments underperform or athletes attract controversy (Brady's [[FTX]] promotion is the cautionary tale).
+
+*Source: FT, March 20, 2026*
+
+---
+
 ## Why JPMorgan matters for AI infra
 
 JPMorgan is the most active bank in AI data center financing:

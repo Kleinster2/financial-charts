@@ -48,7 +48,7 @@ Chinese firms already listed in mainland seeking HK capital:
 |---------|--------|----------|
 | [[Zhongji Innolight]] | **$3B+** | Optical modules (AI networking) |
 | [[Luxshare Precision]] | $1B+ | [[Apple]] supplier (AirPods) |
-| Muyuan Foods | $1B+ | Pig breeder |
+| [[Muyuan Foods]] | $1.4B | World's largest pig farmer, A+H dual listing |
 | Eastroc Beverage | $1B | Energy drinks |
 | Vipshop | TBD | Discount e-commerce |
 

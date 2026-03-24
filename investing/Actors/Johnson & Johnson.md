@@ -88,9 +88,15 @@ JNJ trades between Healthcare and Consumer Staples without a tight sector fit.
 
 ---
 
-## TCJA repatriation (2018)
+## Tax profile
+
+### TCJA repatriation (2018)
 
 J&J repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into diversified purposes including M&A and dividends.
+
+### FY2025 country-by-country disclosures (March 2026)
+
+New FASB-mandated disclosures: income booked in [[Ireland]] and [[Switzerland]] shaved $808mn — 2 percentage points — off J&J's US corporate tax rate, bringing the effective rate to 17.7%. See [[Pharma jurisdictional tax arbitrage]].
 
 ---
 
@@ -134,6 +140,7 @@ J&J repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] on
 - [[Pfizer]] — pharma peer
 - [[Medtronic]] — MedTech peer
 - [[Tax Cuts and Jobs Act]] — repatriation (2018)
+- [[Pharma jurisdictional tax arbitrage]] — $808M saved via Ireland/Switzerland, 17.7% effective rate (FY2025)
 
 ---
 

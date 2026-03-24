@@ -22,9 +22,15 @@ tags: [actor, aviation, hongkong]
 
 ---
 
+## Freight — wafer transport dominance
+
+Cathay Pacific's freight division handles approximately 30% of global semiconductor wafer transport (FT, Parikh, Mar 22). This concentration parallels the chip production concentration in East Asia — wafers manufactured at [[TSMC]] (Taiwan), [[Samsung Electronics|Samsung]], and [[SK Hynix]] (South Korea) rely on a Hong Kong-based logistics hub.
+
 ## Iran conflict impact (March 2026)
 
 Mounting extra services as existing flights sell out — benefiting from Gulf carrier cancellations. ~30% fuel hedged, better positioned than unhedged Asian carriers. See [[Iran conflict airline disruption]].
+
+Freight division has limited access to its regional hub in [[Dubai]], creating wafer delivery delays — a secondary bottleneck beyond the fab-level chemical input shortages. See [[Iran conflict semiconductor energy risk]].
 
 ---
 
@@ -33,3 +39,5 @@ Mounting extra services as existing flights sell out — benefiting from Gulf ca
 - [[Hong Kong]] — home base
 - [[Air India]] — Asian competitor adding services
 - [[Iran conflict airline disruption]] — conflict impact
+- [[Iran conflict semiconductor energy risk]] — wafer transport bottleneck
+- [[TSMC]], [[Samsung Electronics]], [[SK Hynix]] — wafer manufacturing clients

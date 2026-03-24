@@ -28,10 +28,17 @@ The firm's AUM and returns are not publicly disclosed, but its deal flow benefit
 | Political lean | Pro-Trump, conservative |
 | Notable | Declined nine-figure [[Anthropic]] investment (Feb 2026) |
 
+## Portfolio
+
+| Company | Sector | Notes |
+|---------|--------|-------|
+| [[Enhanced Games]] | Sports/consumer health | PED sports + peptide sales; SPAC listing pending on [[NYSE]]. [[Peter Thiel]] co-investor. |
+
 ## Related
 
 - [[Omeed Malik]] — founder and managing partner
 - [[Anthropic]] — declined investment
 - [[Donald Trump]] — political ties
+- [[Enhanced Games]] — portfolio company (sports + peptide consumer health)
 - [[Venture capital]] — asset class
 - [[Palantir]] — ideologically adjacent portfolio company

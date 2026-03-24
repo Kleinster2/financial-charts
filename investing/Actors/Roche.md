@@ -95,12 +95,24 @@ aliases: [ROG, Roche Holding]
 
 ---
 
+## Obesity push: petrelintide (March 2026)
+
+[[Roche]] licensed petrelintide, an amylin analog, from [[Zealand Pharma]] in 2025 for up to $5.3B if all milestones are met — one of the largest obesity deals in the sector. Petrelintide targets the amylin pathway (makes patients feel full faster), a distinct mechanism from the [[GLP-1 receptor agonists|GLP-1 drugs]] that dominate the obesity market.
+
+Phase 2 results (March 6, 2026) were disappointing: 10.7% body weight loss after 42 weeks, below the ~13% threshold [[Barclays]] analysts considered competitive and far below [[Eli Lilly]]'s rival amylin drug eloralintide (20.1% at upper end). [[Roche]] fell over 3% in Zurich on the readout; [[Zealand Pharma]] fell 34% in Copenhagen.
+
+The safety profile was clean — no vomiting, no GI-related discontinuation at max dose — but in a market where [[Novo Nordisk]] and [[Eli Lilly]] deliver up to 25% weight loss, tolerability alone does not make petrelintide competitive. Not expected on market before 2029 even if Phase 3 proceeds.
+
+*Source: FT, March 6, 2026*
+
 ## Related
 
+- [[Zealand Pharma]] — petrelintide partner (obesity, amylin analog)
 - [[Biopharma]] — sector
 - [[AstraZeneca]] — oncology competitor
 - [[Novartis]] — Swiss peer
 - [[Illumina]] — diagnostics ecosystem
+- [[GLP-1 receptor agonists]] — competitive landscape
 
 ---
 

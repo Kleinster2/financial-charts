@@ -34,6 +34,20 @@ aliases: [Banco Santander, Santander Brazil, Santander Brasil]
 
 ---
 
+## 2025-2026 M&A spree
+
+Over a nine-month period beginning May 2025, [[Ana Botín]] executed three deals that reshaped Santander's geographic mix:
+
+- Sold [[Bank Polska]] — capitalizing on a rich Polish bank valuation
+- Acquired [[Webster Financial]] in the [[United States]] — securing cheap US deposit funding
+- Acquired [[TSB]] in the [[United Kingdom]] — thwarted [[Barclays]] from a bolt-on; the windfall for seller [[Sabadell]] helped it fend off an aggressive takeover offer from [[BBVA]], Santander's Spanish arch-rival
+
+All three were opportunistic, not transformational. Whether the US and UK acquisitions deliver on ambitious cost savings — and whether Santander can buck a bleak record of US bank takeovers by Europeans — remains to be seen.
+
+Performance metrics (FY2025): 16.3% return on tangible equity, [[Ana Botín]] compensation €15M. Stock +44% over the past year, outperforming [[UniCredit]]'s +12% (though the longer-term record flips). The Botín-[[Andrea Orcel]] rivalry continues to animate European banking — the two avoid each other at industry events. A €43.4M Spanish Supreme Court compensation case from Botín's rescinded CEO appointment offer to Orcel drags on, with a final ruling expected in early 2027.
+
+---
+
 ## Geographic breakdown
 
 | Region | Contribution | Notes |
@@ -78,8 +92,18 @@ See [[Santander Brasil]] for full details on financials, investment banking, and
 ### Deals
 - [[Scala Data Centers]] — co-coordinator on green debentures
 
+### People
+- [[Ana Botín]] — Executive Chair, Botín dynasty
+- [[Andrea Orcel]] — former adviser, rescinded CEO appointment, ongoing €43.4M court case
+
 ### Peers
-- [[BBVA]] — Spanish peer
+- [[BBVA]] — Spanish arch-rival (Sabadell bid blocked in part by Santander's TSB deal)
+- [[UniCredit]] — European peer, Orcel rivalry
 - [[Itaú Unibanco]] — Brazil competitor
 - [[Bradesco]] — Brazil competitor
+
+### 2025-2026 M&A
+- [[Bank Polska]] — sold (May 2025)
+- [[Webster Financial]] — acquired (US deposits)
+- [[TSB]] — acquired (UK retail)
 

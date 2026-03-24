@@ -91,6 +91,29 @@ Part of broader industry push to bring [[Private credit]] to high-net-worth indi
 
 ---
 
+## Apollo Debt Solutions BDC — redemption cap (Mar 23, 2026)
+
+Apollo's flagship semi-liquid private credit vehicle capped investor withdrawals, becoming the latest in the [[Private credit retail liquidity crisis 2026]].
+
+| Metric | Value |
+|--------|-------|
+| Portfolio value | $25B |
+| NAV | $15B |
+| Q1 2026 redemption requests | $1.6B (11.2% of NAV) |
+| Honored | $730M (~46% of requests) |
+| New commitments (Q1) | $724M |
+| Net flows | Roughly flat |
+| February 2026 return | -0.07% (first monthly loss in 3+ years) |
+| Trailing 1-year return | 7% (below long-term average) |
+
+The 11.2% request rate was the third-highest among FT-tracked funds (behind [[Cliffwater]] at ~14% and level with [[Morgan Stanley]]). Apollo honored less than half — the worst fulfillment rate among tracked managers.
+
+Apollo positioned defensively: slashed riskier software loans in 2025, wagered value of several large software loans would decline. Portfolio described as *"underweight software exposure relative to the broader private credit markets."*
+
+*Source: FT (Eric Platt, Mar 23, 2026)*
+
+---
+
 ## Saks Global debt exposure
 
 Apollo affiliates provided $1.15B term loan to [[Saks Global]] as part of the 2024 [[Saks-Neiman merger]] financing.
@@ -248,6 +271,7 @@ Part of [[Patrick Drahi]]'s aggressive creditor management strategy as his telec
 - [[Permanent capital]] — Athene as primary source
 - [[Blackstone]] — peer (PE, real estate, private credit retail)
 - [[Blue Owl]] — peer (credit, AI infra)
+- [[Private credit retail liquidity crisis 2026]] — ADS BDC capped at ~46% fulfillment (Mar 2026)
 - [[Private credit]] — $500B credit AUM, retail expansion
 - [[Goldman Sachs]] — peer (European retail push)
 - [[Institutional homebuying ban]] — policy risk

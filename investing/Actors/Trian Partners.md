@@ -35,6 +35,7 @@ aliases: [Trian Fund Management, Trian]
 
 | Company | Year | Outcome |
 |---------|------|---------|
+| **[[Janus Henderson]]** | 2026 | All-cash $49/share ($7.4B) buyout with [[General Catalyst]]; board-recommended; competing bid from [[Victory Capital]] at $8.6B |
 | **P&G** | 2017 | Won board seat after proxy fight |
 | **[[Disney]]** | 2022-24 | Lost proxy fight (twice) |
 | **Wendy's** | 2005+ | Long-term board involvement |
@@ -88,6 +89,9 @@ High-profile failure despite valid criticisms.
 
 ## Related
 
+- [[Janus Henderson]] — leading $7.4B all-cash buyout with [[General Catalyst]] (2026)
+- [[General Catalyst]] — co-leading JHG acquisition
+- [[Victory Capital]] — competing bidder for JHG ($8.6B cash+stock)
 - [[Elliott Management]] — peer activist
 - [[Pershing Square]] — peer activist
 - [[Starboard Value]] — peer activist (operational)
@@ -95,4 +99,4 @@ High-profile failure despite valid criticisms.
 
 ---
 
-*Created 2026-01-16*
+*Created 2026-01-16. Updated 2026-03-23*

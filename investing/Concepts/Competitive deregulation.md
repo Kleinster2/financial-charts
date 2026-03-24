@@ -56,6 +56,10 @@ Bowman explicitly framed deregulation as correcting rules that "push activity in
 
 The 22-year deregulation arc (1986-2008) ended with the largest financial crisis since the Depression. Both jurisdictions "won" market share in the interim.
 
+### FDA peptide deregulation (2026)
+
+US health secretary [[Robert F. Kennedy Jr.]] announced on [[Joe Rogan]]'s podcast (Feb 2026) that the FDA would make "about 14" peptides "more accessible," praising his personal use. The FDA had historically restricted peptide sales and warned of significant safety risks, but the Trump-era ideological preference for deregulation is overriding the agency's risk-averse posture. [[Enhanced Games]] (backed by [[Peter Thiel]] and [[1789 Capital]]) became one of the first companies to exploit the signal, launching a direct-to-consumer peptide business (Mar 18, 2026). Eight of its pending products are flagged by the FDA as posing "potentially significant safety risks." The pattern: political appointee signals loosening → first movers rush in → regulatory framework follows the market rather than leading it. The FDA did not comment on Kennedy's proposal.
+
 ### Digital assets / crypto (2020s)
 
 Jurisdictions competing for crypto firms via regulatory clarity or laxity:

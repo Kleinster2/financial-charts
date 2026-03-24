@@ -44,7 +44,13 @@ The arc: seven OpenAI defectors → Constitutional AI → FTX-funded safety lab 
 | Break-even target | 2028 |
 | Valuation | $380B (Series G close, Feb 12 2026) |
 
-Burning 14x less cash than OpenAI before profitability. CFO [[Krishna Rao]]: "Claude is increasingly becoming critical to how businesses work."
+Burning 14x less cash than OpenAI before profitability. CFO [[Krishna Rao]]: "Claude is increasingly becoming critical to how businesses work." FT (Mar 21 2026): Anthropic is adding $1B in annualized revenue each week in 2026. Business customers purchasing AI for the first time are choosing Anthropic at 3x the rate of [[OpenAI]], per [[Ramp]] AI Index data from 50,000+ customers — a reversal of the companies' positions a year ago.
+
+![[ramp-anthropic-vs-openai-new-customers-mar2026.png]]
+*Share of new corporate AI clients: Anthropic ~80% vs OpenAI ~20% by Feb 2026. Source: Ramp AI Index (FT, Mar 21 2026)*
+
+![[ramp-anthropic-market-share-mar2026.png]]
+*Market share among companies paying for AI models: Anthropic ~30%, OpenAI ~25%, Google ~10% by Jan 2026. Source: Ramp AI Index (FT, Mar 21 2026)*
 
 [[NVIDIA]] CEO [[Jensen Huang]] (Mar 2026): expects his recent $40B investment across Anthropic and [[OpenAI]] to be his "last money in" — both companies will go public this year. [[Brad Gerstner]] ([[Altimeter]]): Opus 4.6 crossed a threshold where models compete with **labor budgets**, not IT budgets — "you could not possibly have a $6B month by displacing IT budgets."
 

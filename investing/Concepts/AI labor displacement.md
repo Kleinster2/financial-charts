@@ -40,6 +40,9 @@ Companies that have explicitly attributed layoffs to AI:
 | [[CrowdStrike]] | Feb 2026 | Undisclosed | — | — |
 | [[Amazon]] | Jan 2026 | 16,000 | ~3% | — |
 | [[Block]] | Feb 2026 | 4,000 | **40%** | **+24%** |
+| [[Clifford Chance]] | End 2025 | 10% back office | ~10% (back office) | Private |
+
+[[Clifford Chance]]'s cut is notable as the first Magic Circle law firm to explicitly link headcount reductions to AI anticipation — see [[AI in legal services]].
 
 **Not counting:** Companies that cite "efficiency" or "restructuring" without naming AI, even when AI is the obvious driver. The real number is much higher.
 

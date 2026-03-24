@@ -131,10 +131,20 @@ All-cash acquisition. Lilly acquiring Ventyx's **NLRP3 inflammasome inhibitor** 
 
 ---
 
-## 9. Pharma Bolt-Ons
+## 9. Biopharma Mega-Deals
 
-- **Sanofi / Dynavax** — vaccine adjuvant technology
-- **GSK / RAPT Therapeutics** — immunology pipeline
+| Acquirer | Target | Value | Area |
+|----------|--------|-------|------|
+| [[Novartis]] | [[Avidity Biosciences]] | $12B | RNA medicine |
+| [[Pfizer]] | [[Metsera]] | $10B | Obesity/metabolic |
+| [[Gilead]] | [[Arcellx]] | $7.8B | Cell therapy (myeloma) |
+
+Q4 2025 biopharma M&A nearly $95B (Biomedtracker). Patent cliff pressure ($61B/year at risk through 2030, Bernstein) is the primary driver. See [[Biopharma]] for full M&A landscape.
+
+## 10. Pharma Bolt-Ons
+
+- Sanofi / Dynavax — vaccine adjuvant technology
+- GSK / RAPT Therapeutics — immunology pipeline
 
 Both standard pharma acquisitions with minimal deal risk.
 

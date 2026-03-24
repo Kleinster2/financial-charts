@@ -90,19 +90,53 @@ aliases: [Biotech, Biotechnology, Pharma, Pharmaceuticals, Biopharmaceuticals]
 
 ---
 
-## M&A landscape (2025)
+## M&A landscape (2025-2026)
 
-**Drivers:**
-- Patent cliff anxiety
+Q4 2025 biopharma M&A nearly hit $95B (Biomedtracker). If that quarterly pace sticks, 2026 will be the best year in the past decade. Most of 2025 was paralysed by pharma tariff threats and uncertainty over how far the White House would push pricing concessions. The fog cleared after [[Donald Trump]] struck pricing agreements with 17 pharma companies — financial impact less onerous than feared — unlocking pent-up demand.
+
+### Firepower (Barclays estimates, at 2x EBITDA leverage)
+
+| Company | Estimated M&A capacity |
+|---------|----------------------|
+| [[Eli Lilly]] | $56B |
+| [[Merck]] | $38B |
+| [[AbbVie]] | $16B |
+
+[[Merck]] at the JPMorgan Healthcare conference (Jan 2026): seeking deals in the "multi tens of billion-dollar" range. Keytruda (~50% of revenue) loses exclusivity as early as 2028.
+
+### Major deals (2025-2026)
+
+| Date | Acquirer | Target | Value | Area |
+|------|----------|--------|-------|------|
+| Q4 2025 | [[Novartis]] | [[Avidity Biosciences]] | $12B | RNA medicine |
+| Q4 2025 | [[Pfizer]] | [[Metsera]] | $10B | Obesity/metabolic |
+| Feb 2026 | [[Gilead]] | [[Arcellx]] | $7.8B | Cell therapy (myeloma) |
+| Mar 2026 | [[Gilead]] | [[Ouro Medicines]] | $2.2B | Autoimmune |
+
+### XBI rally
+
+[[XBI]] Biotech Index climbed >40% in the past year as of Feb 2026, reaching levels last seen in late 2021. Higher target valuations mean bigger deal sizes for near-market drugs.
+
+![[ft-xbi-biotech-etf-2021-2026.png]]
+*XBI Biotech ETF (2021-2026). Source: S&P Capital IQ via FT*
+
+### China licensing pipeline
+
+Chinese biotechs running cheaper trials are a growing source of early-stage assets. Licensing deals between Chinese biotech firms and US large pharma (Barclays): ~16 (2020) → ~29 (2021) → ~43 (2022) → ~59 (2023) → ~95 (2024) → ~155 (2025).
+
+![[ft-china-biotech-licensing-barclays-2026.png]]
+*China-US biotech licensing deals (2020-2025). Source: Barclays via FT*
+
+### Patent cliff imperative
+
+$61B/year in global pharma sales at risk from patent expiries between now and 2030 (Bernstein). Companies will overpay for late-stage biotechs with near-market drugs to replace evaporating revenue.
+
+### Drivers
+- Patent cliff anxiety (Keytruda 2028, Eliquis 2026-28, multiple [[Bristol-Myers Squibb]] assets)
 - AI capability acquisition
 - Pipeline gaps
-- China asset licensing
-
-**Trends:**
-- 120 AI drug discovery deals in 2025
-- China as source of early-stage assets
-- Bispecific antibodies popular
-- Large pharma acquiring vs building
+- China asset licensing (155 deals in 2025, Barclays)
+- Clearing of Trump pricing uncertainty
 
 ---
 
