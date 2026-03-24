@@ -99,6 +99,29 @@ Mitigation:
 
 Hyundai Motor President Sung Kim (Feb 24) urged Korean legislature to swiftly pass the $350B US investment package legislation, warning Trump admin may escalate tariff pressure despite Supreme Court legal setback.
 
+![[hyundai-fundamentals.png]]
+*Revenue grew steadily from $80B (2015) to $127B (2024), but profitability tells the real story: a deep trough in 2017-2020 (China losses, emission scandals) followed by a sharp recovery to $14B pretax in 2023. The 2024 dip (-4.8%) signals tariff headwinds beginning to bite.*
+
+## Financials
+
+| Year | Revenue ($B) | Growth | Pretax Income ($B) | Growth | Op. Margin | Profit Margin |
+|------|-------------|--------|-------------------|--------|------------|---------------|
+| 2015 | $80.2 | -5.2% | $7.6 | -21.6% | — | — |
+| 2016 | $81.4 | +1.5% | $6.6 | -13.5% | — | — |
+| 2017 | $86.3 | +6.0% | $4.2 | -35.8% | — | — |
+| 2018 | $88.0 | +1.9% | $2.6 | -38.9% | — | — |
+| 2019 | $91.0 | +3.5% | $3.9 | +49.7% | — | — |
+| 2020 | $89.7 | -1.5% | $2.1 | -44.9% | 2.3% | 1.2% |
+| 2021 | $101.6 | +13.3% | $7.2 | +235% | 5.7% | 3.6% |
+| 2022 | $109.7 | +7.9% | $8.9 | +24.1% | 6.9% | 4.4% |
+| 2023 | $123.5 | +12.7% | $14.0 | +57.2% | 9.3% | 6.3% |
+| 2024 | $127.2 | +3.0% | $13.3 | -4.8% | 8.1% | 6.1% |
+| TTM | $131.0 | +3.0% | $11.2 | -16.2% | 8.0% | 6.0% |
+
+KRW financials (StockAnalysis, S&P Global): FY2024 revenue 175.2T KRW, net income 12.5T KRW (10.8T to common), EBITDA 17.4T KRW. Dividend 14,500 KRW/share (+27% YoY). FCF negative (-13.7T KRW) due to heavy capex (Georgia plant, EV investments, BD).
+
+The arc tells the story: 2015-2018 was a margin trough (China market share loss, emission scandals, product gaps). 2021-2023 was a recovery driven by US market share gains, hybrid demand, and Genesis premium brand. 2024 shows growth decelerating as tariff risk bites. TTM pretax income declining 16% signals the earnings downgrade cycle analysts flagged.
+
 ## Business segments
 
 | Segment | Description |
