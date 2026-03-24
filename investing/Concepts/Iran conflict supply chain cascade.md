@@ -271,6 +271,46 @@ The household spending chart quantifies the vulnerability dispersion: [[Indonesi
 
 ---
 
+## Global trade flow diversions — physical rerouting (Wiggen, March 23)
+
+*Source: [[Nadia Martin Wiggen]], [[Stellen Capital]], Other People's Money / Monetary Matters Network, March 23, 2026.*
+
+### Asian refiners redirect to Atlantic basin
+
+By Thursday/Friday of the first week (March 6-7), refiners from [[Japan]], [[Thailand]], and [[South Korea]] were redirecting ships away from the Gulf — heading for the US Gulf Coast, West Africa ([[Ghana]]), and the North Sea. These are not spot buyers normally; they operate on term contracts for Gulf crude. The redirection represents a fundamental break in decades-old trade patterns.
+
+Sailing times from USGC to Asia: ~30 days. From Europe/North Sea: ~20 days (vs a few days from the Gulf). Even from USGC, it is much shorter than waiting for the strait to reopen with no timeline.
+
+### Venezuelan crude — cheapest barrel in the world
+
+Going into the crisis in January-February, the cheapest crude available globally was at the US Gulf Coast — specifically [[Venezuela]]n heavy sour crude, which had become available after sanctions shifts. This heavier, sourer grade is a good substitute for lost [[Iraq]]i production. It trades on a [[WTI]] basis with a cheap physical differential. Asian refiners ([[South Korea]], [[Japan]], [[Thailand]]) and even [[China]] have been buying it.
+
+### China buying US crude
+
+[[China]] is purchasing US Gulf Coast barrels despite holding an estimated ~1.2B barrel strategic petroleum reserve. This signals Beijing views the disruption as long enough to justify diversifying sourcing rather than relying solely on drawdowns.
+
+### Australia — 32 to 10 days of cover
+
+[[Australia]] entered the crisis with ~32 days of fuel cover. By week 2, that dropped to ~15 days. By week 3 (March 23), down to ~10 days. Australia is now the single most acute supply vulnerability among OECD countries.
+
+Australia bought 3 cargoes of [[Gasoline|gasoline]] from the US Gulf Coast last week — a completely abnormal trading pattern given the distance. What Australia needs most is refined products from [[Japan]], [[South Korea]], and [[China]]. But Japan's SPR is releasing more crude than products, South Korea has imposed a partial diesel export ban, and China banned refined product exports entirely.
+
+Australian gold mines have started shutting down due to diesel shortages — the mining complex is the transmission mechanism from energy to metals to broader economic disruption.
+
+### Shipping rate dynamics — counterintuitive pattern
+
+Tanker rates initially surged (VLCCs, LNG carriers, LPG vessels) on the Hormuz disruption. Then rates fell — because there was no product to fill the ships. Once floating storage was exhausted and production was shut in, vessels sat empty. The rate drop then enabled Asian refiners to book cheaper ships for longer Atlantic basin voyages.
+
+### Post-resolution port congestion risk
+
+Even if the strait reopens in May/June, the trade flow diversions create a delayed problem. Ships already rerouted to Europe, USGC, and West Africa will be arriving in Asia simultaneously with newly reopened Gulf flows. Wiggen draws a parallel to having "the war in [[Ukraine]] and COVID at the same time" — logistics backup from rerouting combined with a sudden supply surge could produce severe port congestion in Asia, spiking demurrage costs and shipping rates.
+
+### Refinery maintenance timing compounds tightness
+
+By end of March, ~200K bpd of additional crude demand comes from refiners emerging from seasonal maintenance. Into April, another 600K bpd. This additional demand arrives at the worst possible time — crude stuck in the Middle East while refiners in Europe and Asia need to run.
+
+---
+
 ## US polyethylene/ethylene boom — Hormuz beneficiary trade (March 19)
 
 *Source: Bloomberg, Christopher Charleston, March 19, 2026*
@@ -343,7 +383,11 @@ Tehran was already heavily polluted before the war. Researchers including [[Neja
 - [[LyondellBasell]], [[Dow]] — US PE producer beneficiaries
 - [[BASF]] — European industrial passthrough
 - [[Conflict and Environment Observatory]] — environmental monitoring
+- [[Nadia Martin Wiggen]] — trade flow diversions, Australia crisis, post-resolution congestion
+- [[Stellen Capital]] — commodities/shipping hedge fund
+- [[Australia]] — 32→10 days of fuel cover, gold mines shutting
+- [[Venezuela]] — cheapest crude at USGC, substitute for Iraqi barrels
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21*
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-24 (Wiggen/Stellen Capital).*

@@ -74,6 +74,20 @@ Source: MEI panel, March 20 2026 — Connelly
 
 ---
 
+## Stellen Capital skeptical assessment — 2.5-3M bpd sustainable (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], commodities/shipping hedge fund) offered a significantly lower sustainable throughput estimate than the 4.65M bpd peak achieved in mid-March.
+
+Starting point: [[Saudi Aramco]] announced 7M bpd capacity through the pipeline. But Wiggen deducts ~1M bpd already committed to local Red Sea coast refineries and ~500K bpd flowing through the LPG pipeline — leaving ~5M bpd of crude export capacity. The binding constraint is port loading at [[Yanbu]]: it takes approximately 36 hours to load a VLCC. At 5M bpd, that requires loading 2.5 VLCCs per day, which Stellen does not believe is physically achievable on a sustained basis. Ships also must sail during daytime only through Red Sea waters due to potential [[Houthis|Houthi]] attacks.
+
+Stellen's sustainable estimate: 2.5-3M bpd. Blue sky scenario (everything goes perfectly for a couple of days): 4M bpd.
+
+This conflicts with the 4.65M bpd peak reported by Aramco in mid-March — either that peak was a burst achievable for days but not weeks, or Wiggen's loading time estimate is conservative. The truth likely sits between: the 4.65M peak was a surge effort (possibly using temporary infrastructure or [[Bahri]] supertanker queuing) while 2.5-3M bpd reflects what can be maintained without extraordinary measures.
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+---
+
 ## Expert assessments (March 2026)
 
 [[Jim Krane]] (Wallace S. Wilson Fellow for Energy Studies, [[Rice University]]): "The East-West pipeline is looking like a strategic masterstroke right now. The entire global economy is better off with the line in operation." Krane also warned that [[Houthis]] "now have a veto on Saudi oil exports via the [[Bab el-Mandeb]]" — if they resume attacks on Red Sea shipping, "oil markets will gyrate even more wildly." (Bloomberg, March 22, 2026)
@@ -100,3 +114,5 @@ Source: Bloomberg (Di Paola, Longley, Prem, El Wardany), March 22, 2026
 - [[Oil]] — commodity
 - [[Iran conflict economic disruption]] — current event (bypass capacity stress-tested)
 - [[Kharg Island]] — 90% of Iran's oil exports, potential target
+- [[Nadia Martin Wiggen]] — skeptical sustainable throughput estimate (2.5-3M bpd)
+- [[Stellen Capital]] — commodities/shipping hedge fund

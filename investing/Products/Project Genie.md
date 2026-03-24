@@ -13,7 +13,7 @@ Genie's release prompted investors to sell gaming stocks on fears that consumers
 
 Genie co-lead (Feb 2026): *"[The goal is to] empower creators and developers"* rather than *"replace the existing experience."*
 
-[[Unity Software]] identified as most directly threatened — its engine-as-a-service model faces substitution risk from AI world generators. [[Roblox]] somewhat insulated by its user-generated content repository and in-game currency.
+[[Unity Technologies]] identified as most directly threatened — its engine-as-a-service model faces substitution risk from AI world generators. [[Roblox]] somewhat insulated by its user-generated content repository and in-game currency.
 
 The [[Electronic Arts]] $55B take-private consortium may have benefited from timing — if they had waited, AI-driven valuation compression might have lowered the price.
 
@@ -39,7 +39,7 @@ The [[Electronic Arts]] $55B take-private consortium may have benefited from tim
 - [[World Models]] — underlying AI paradigm (also covers [[World Labs]] Marble)
 - [[Take-Two]] — sell-off victim, GTA VI at risk of perception overhang
 - [[Electronic Arts]] — $55B take-private, AI disruption cited in debt syndication
-- [[Unity Software]] — most directly threatened (engine-as-a-service)
+- [[Unity Technologies]] — most directly threatened (engine-as-a-service)
 - [[Roblox]] — sell-off victim, partially insulated by UGC moat
 - [[CD Projekt]] — European gaming, sharp decline
 

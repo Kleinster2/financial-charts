@@ -8,7 +8,7 @@
 
 | Fund | Country | AUM | Tech Focus |
 |------|---------|-----|------------|
-| Saudi PIF | Saudi Arabia | ~$930B | Vision Fund LP, Lucid |
+| [[Saudi PIF]] | [[Saudi Arabia]] | ~$1.15T | Vision Fund LP, [[Lucid]], [[Electronic Arts|EA]], [[HUMAIN]] |
 | [[Mubadala]] | UAE (Abu Dhabi) | ~$300B | Crusoe, Anthropic, G42 |
 | ADIA | UAE (Abu Dhabi) | ~$850B | Diversified |
 | QIA | Qatar | ~$500B | Tech selective |
@@ -21,13 +21,13 @@
 
 ## Middle East SWFs
 
-### Saudi PIF
+### [[Saudi PIF]]
 | Aspect | Detail |
 |--------|--------|
-| AUM | ~$930B |
+| AUM | ~$1.15T (2025) |
 | Vision 2030 | Diversify from oil |
-| Key deals | SoftBank Vision Fund ($45B LP), Lucid Motors |
-| Strategy | Mega-bets, transformation |
+| Key deals | [[SoftBank Vision Fund]] ($45B LP), [[Lucid]], [[Electronic Arts]] ($55B take-private), [[HUMAIN]] ($3B xAI) |
+| Strategy | Gaming, AI, giga-projects; pivoting to "precision finance" |
 
 ### Mubadala (Abu Dhabi)
 | Aspect | Detail |

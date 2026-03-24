@@ -446,6 +446,16 @@ This positions China as the alternative to US "energy dominance" (LNG/oil export
 
 China has firsthand experience with energy supply weaponization. In the 1960s, as the Sino-Soviet relationship deteriorated, China was heavily reliant on the USSR for refined products — particularly jet fuel for its military. The Soviet Union cut back refined oil product exports to China as leverage. This historical memory underpins both the [[Strategic Petroleum Reserve]] program and the construction of overland pipelines from Russia and Kazakhstan to reduce seaborne import dependency.
 
+### Refined product export ban — spare refining capacity weaponized (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23, 2026) highlighted [[China]]'s refined product export ban as the single most destabilizing action of the [[Strait of Hormuz]] crisis. In the first week of the conflict, China announced a ban on exporting gasoline and diesel. The global significance: since COVID, millions of barrels of refining capacity have been shut down in [[Europe]] and the US. The Middle East was building up as the new refinery center — but that capacity is now stuck behind the strait. China holds the world's spare refining capacity, and Beijing chose to keep it entirely domestic.
+
+[[South Korea]] followed with a partial diesel export ban. Wiggen's fear: if the hoarding mentality spreads — every country protecting its own citizens first — "that makes prices skyrocket like we saw in the 70s." The [[IEA]] "absolutely does not want to allow this to happen."
+
+The US administration has repeatedly denied export ban plans, understanding the counter-effect of raising global prices. The US normally imports additional gasoline in summer; [[Europe]] imports additional diesel from the US. An export ban would break these interdependencies.
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
 ---
 
 ## What to watch
@@ -494,3 +504,5 @@ Bulls on China exposure would say:
 - [[Chile-China Express]] — proposed submarine cable (Valparaiso → Hong Kong)
 - [[China Mobile]] — state telecom, cable operator
 - [[US Chile cable visa sanctions]] — US sanctions on Chilean officials over cable (Feb 2026)
+- [[Nadia Martin Wiggen]] — energy analyst, refined product export ban analysis (March 2026)
+- [[Stellen Capital]] — Wiggen's firm, Hormuz crisis energy commentary

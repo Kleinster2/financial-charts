@@ -332,6 +332,32 @@ Wayne Kaufman (Phoenix Financial): "There's a lot less risk for hardware than so
 
 ---
 
+## CEO succession (Bloomberg, Mar 23 2026)
+
+[[Mark Gurman]] reports [[John Ternus]], SVP Hardware Engineering, is the clear frontrunner to succeed [[Tim Cook]]. Ternus is 50 — 15 years younger than Cook, 10+ years younger than every other executive in contention. He has been at Apple for 25 years, SVP for ~5, and now oversees products generating ~80% of revenue plus both hardware and software design teams.
+
+Every other internal candidate has been eliminated: [[Jeff Williams]] (COO) retired end of 2025, [[Craig Federighi]] (software) publicly said he does not want the role, [[Eddy Cue]] (services) and [[Greg Joswiak]] (marketing) are over 60. Apple's track record with external hires is poor — [[Angela Ahrendts]] lasted 5 years, Carol Surface 2 years, [[John Giannandrea]] (from [[Google]]) described as "a complete disaster."
+
+Gurman estimates Cook departure in 1-5 years. The longer Cook stays, the more certain Ternus becomes — everyone else ages out. Apple has been positioning Ternus publicly: keynote appearances, government regulator meetings, global press tours.
+
+See [[John Ternus]] for full profile.
+
+---
+
+## Apple Maps search advertising (Bloomberg, Mar 23 2026)
+
+Apple expanding advertising into [[Apple Maps]] with search ads — restaurants and brand stores will bid on search queries (e.g., a coffee shop bidding on "coffee" in their locale), similar to [[Google]] Maps and [[Yelp]]. Highest bidder appears first as a sponsored result.
+
+Apple has been expanding its ad business across the App Store (search ads), [[Apple News]], and the Stocks app. Estimated ~$8B from iOS ads across 2026. Adding Maps could "roughly double" that figure. Part of the broader [[Apple]] Services revenue expansion.
+
+---
+
+## WWDC 2026 preview (Bloomberg, Mar 23 2026)
+
+Gurman confirms WWDC 2026 will be almost entirely focused on the [[Siri]] chatbot revamp — competing directly with [[ChatGPT]], [[Claude]], and [[Gemini]]. Will announce iOS 27 and other new OS versions, but non-Siri features will be "pretty minimal." This aligns with the [[Apple-Google AI deal|Campos/Siri]] upgrade timeline already tracked in this note.
+
+---
+
 ## For theses
 
 **[[Long TSMC]]**: Apple relationship proves co-design moat depth
@@ -460,3 +486,11 @@ The trade-off is clear: no MagSafe, no Touch ID on the base model, and an iPhone
 - [[Q.ai]] — acquired Jan 2026 (~$2B) for silent speech tech
 - [[Aviad Maizels]] — Q.ai CEO, previously sold PrimeSense (Face ID)
 - [[Apple bonds]] — $91.3B bond inventory (Aaa/AA+)
+- [[John Ternus]] — SVP Hardware Engineering, CEO succession frontrunner
+- [[Tim Cook]] — current CEO (departure est. 1-5 years)
+- [[Jeff Williams]] — former COO, retired end 2025
+- [[Craig Federighi]] — SVP Software Engineering, declined CEO
+- [[Eddy Cue]] — SVP Services
+- [[Greg Joswiak]] — SVP Marketing
+- [[Mark Gurman]] — Bloomberg reporter, primary Apple sourcing
+- [[Angela Ahrendts]] — former SVP Retail (left 2019)

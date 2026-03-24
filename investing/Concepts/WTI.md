@@ -48,6 +48,14 @@ The WTI-Brent spread widened during the conflict — WTI's relative insulation r
 
 ---
 
+## Pre-conflict positioning — extreme underweight (Wiggen, March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) quantified the pre-crisis positioning: a 10-year low in Brent longs and a 10-year high in WTI shorts. The world was maximally disinterested in oil heading into the conflict. This explains both the violence of the initial repricing and the sharp sell-offs on any de-escalation headline — "hot money" entered the trade rapidly and exits just as fast. The positioning swing (10-year extreme short → crisis buying) is the primary driver of volatility amplitude, not fundamentals.
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+---
+
 ## Related
 
 - [[Oil]] — parent commodity
@@ -58,4 +66,4 @@ The WTI-Brent spread widened during the conflict — WTI's relative insulation r
 - [[Robin J. Brooks]] — WTI as politically decisive benchmark
 - [[Amrita Sen]] — three-tier pricing (Dubai > Brent > WTI), WTI most shielded
 
-*Created 2026-03-23*
+*Created 2026-03-23. Updated 2026-03-24 (Wiggen positioning data).*

@@ -30,6 +30,12 @@ The investment significance of the Marcellus extends beyond its operators. It is
 
 ---
 
+## March 2026 — spare capacity in crisis
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23, 2026) noted the Marcellus is "not even at peak production" three weeks into the [[Strait of Hormuz]] crisis. A [[Henry Hub]] price signal in the mid-$3 to $4.50/MMBtu range would bring additional Marcellus volumes online. This spare capacity is one of the US economy's structural buffers against the global gas shock — unlike [[Europe]] and [[Asia]], where gas supply is fully committed and any additional molecule must be imported.
+
+---
+
 ## Related
 
 - [[EQT]] — largest Marcellus producer

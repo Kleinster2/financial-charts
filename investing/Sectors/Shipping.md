@@ -120,6 +120,16 @@ Beyond the ongoing Houthi shipping disruption, the Horn of Africa faces potentia
 
 ---
 
+## Iran conflict — shipping rate dynamics and post-resolution risk (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) described a counterintuitive rate pattern: tanker, LNG, and LPG vessel rates initially surged on the [[Strait of Hormuz]] disruption, then fell when the physical shortage meant there was no product to fill ships. Floating storage was exhausted, production was shut in, and empty vessels sat idle. The rate drop then enabled Asian refiners to book cheaper ships for the longer Atlantic basin voyages (USGC, West Africa, North Sea).
+
+Post-resolution congestion risk: even if the strait reopens in May/June, ships already diverted to the Atlantic will arrive in Asia simultaneously with newly reopened Gulf flows. Wiggen compared this to having "the war in [[Ukraine]] and COVID at the same time" — logistics backup from rerouting combined with a sudden supply surge could produce severe port congestion across Asian receiving terminals, spiking demurrage costs and charter rates well after the crisis itself ends.
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+---
+
 ## Related
 
 - [[SIPG]] — world's largest port operator

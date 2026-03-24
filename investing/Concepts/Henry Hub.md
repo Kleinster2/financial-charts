@@ -45,6 +45,16 @@ Compare: [[TTF]] doubled, [[JKM]] +90%. Henry Hub's +4% moves reflect the struct
 
 ---
 
+## Wiggen: spare Marcellus capacity + refiner feedstock advantage (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) noted Henry Hub pricing "just shy of $3" — confirming the benchmark's insulation even three weeks into the crisis. [[Marcellus]] is not at peak production; the formation has spare capacity that a price signal in the mid-$3 to $4.50 range would bring online.
+
+The structural advantage for US refiners: natural gas is a feedstock for refining operations. With Henry Hub at ~$3 versus European gas at €54-70/MWh, US refiners have an enormous cost advantage over European and Asian competitors. This incentivizes US refiners to keep running at maximum utilization while overseas competitors face margin compression from expensive gas.
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+---
+
 ## Related
 
 - [[Natural gas]] — parent commodity

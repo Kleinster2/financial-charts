@@ -559,6 +559,52 @@ On [[Kharg Island]]: even if US troops seize the island, Iranian oil doesn't sto
 
 ---
 
+## Wiggen: physical market mechanics and pricing floor (March 23)
+
+*Source: [[Nadia Martin Wiggen]], [[Stellen Capital]], Other People's Money / Monetary Matters Network, March 23, 2026.*
+
+[[Nadia Martin Wiggen]] (director, [[Stellen Capital]] — commodities/shipping hedge fund) provided the most granular physical pricing and flow data of the crisis, recorded the morning of March 23.
+
+### Dubai at $166 — physical pricing at session highs
+
+[[Dubai crude]] / [[Oman]] pricing reached $166/bbl the morning of March 23 — up from the $150-160 range in the MEI panel assessment (March 20). Only oil out of [[Oman]] is "reliably or semi-reliably loading" because even Omani ports were hit weeks prior.
+
+After Trump's Truth Social post claiming productive talks with [[Iran]], [[Brent crude|Brent]] dipped below $100/bbl briefly — the paper market's reflex to any de-escalation headline. Iran immediately denied the talks. The physical market didn't budge.
+
+### $100 floor, $130 before demand destruction
+
+Wiggen's pricing framework: ~$100 Brent is the floor while the strait remains closed. Brent could appreciate to $130/bbl and still incentivize refiners to buy crude, run it, and produce [[Diesel fuel|diesel]] and [[Gasoline|gasoline]] — because refining margins remain positive at that level. Demand destruction requires a prolonged period above that threshold, not a single spike.
+
+### SPR headline fatigue
+
+The first SPR announcement moved oil "quite a lot." By the actual IEA coordinated release — the fifth time the market had heard SPR headlines — price didn't move and then rose. A textbook example of decreasing marginal impact.
+
+### April loading gone, May loading in question
+
+April loading barrels from the Gulf are already gone. The market is "increasingly wondering if they're even going to get May loading." May loading barrel prices have "skyrocketed" — the real tightness signal for the Asian physical market, where cargoes are bought on term contracts months ahead.
+
+### Pre-conflict positioning — extreme underweight energy
+
+Going into the conflict, the oil market had a 10-year low in Brent longs and a 10-year high in WTI shorts. The world was maximally disinterested in energy. Wiggen: "a lot of hot money" has since entered oil, visible in violent drops whenever the market gets long. The positioning swing (10-year low longs → crisis buying) explains the volatility amplitude — each de-escalation headline triggers profit-taking by fast money, not structural selling.
+
+### Gold/silver weakness — rotation, not risk-off
+
+[[Gold]] and [[Silver]] have weakened throughout the crisis — counterintuitive during geopolitical stress. Wiggen's explanation: gold and silver were the hottest performers going in. Investors assessing risk took profits from their best-performing holdings ("it always feels better to take some profits") and reallocated toward oil. The gold weakness is a rotation trade, not a risk signal.
+
+### Base metals and demand destruction signal
+
+Base metals weakened overall, but [[Iron Ore|iron ore]] stayed steady — meaning [[China]] is still buying, and demand destruction hasn't materialized yet. On the Truth Social announcement, base metals weakened then recovered (tracking equities), while oil sold off differently. The divergence confirms the market reads oil as a geopolitical/supply trade and metals as a growth/demand trade.
+
+### S&P dip-buying — stagflation not priced
+
+General markets are "buying the dips in S&P." This signals the market is not pricing a 1970s stagflation scenario or a sustained very high oil price regime. If that repricing comes — and Wiggen sees May as the timeline when markets must confront it — the adjustment would be abrupt.
+
+### Emerging market subsidy trap
+
+Emerging markets ([[Philippines]] example) are subsidizing fuel prices as a temporary stopgap — allowing high wholesale prices (needed to incentivize refiners to run crude) while shielding consumers. Governments can do this temporarily but "will eventually run out of money." OECD countries ([[Germany]], [[Japan]], [[South Korea]], US) have larger fiscal budgets to sustain this longer, but the capacity gap between rich and poor countries widens with each week the strait remains closed.
+
+---
+
 ## Related
 
 - [[Iran conflict economic disruption]] — hub note
@@ -577,7 +623,9 @@ On [[Kharg Island]]: even if US troops seize the island, Iranian oil doesn't sto
 - [[Trump TACO]] — additional price cap mechanism
 - [[Amrita Sen]] — "reverse COVID" framing, three-tier pricing, Brent mispricing
 - [[Energy Aspects]] — Hormuz reopening pushed to end of April
+- [[Nadia Martin Wiggen]] — physical pricing mechanics, $166 Dubai, $100 floor, SPR fatigue, positioning data
+- [[Stellen Capital]] — commodities/shipping hedge fund
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21*
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-24 (Wiggen/Stellen Capital).*

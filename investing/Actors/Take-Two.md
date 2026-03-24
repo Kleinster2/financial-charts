@@ -52,7 +52,7 @@ Analyst estimates: ~$5B in sales by 2030, nearly 100M copies (Visible Alpha). GT
 
 TTWO shares suffered sharp declines after [[Google]]'s [[Project Genie]] release alongside [[Roblox]], [[Ubisoft]], [[CD Projekt]], [[Nexon]], and [[Capcom]]. FT (Feb 12) argued the sell-off misread gaming as pure tech when it is equally a media business — consumers prefer professional entertainment over self-created worlds, the same way they watch movies despite having editing software on their phones. [[Project Genie]] co-lead described the goal as empowering creators, not replacing the existing experience.
 
-[[Unity Software]] most directly threatened — its engine-as-a-service model faces substitution risk. [[Roblox]] somewhat insulated by its user-generated content repository and in-game currency ecosystem.
+[[Unity Technologies]] most directly threatened — its engine-as-a-service model faces substitution risk. [[Roblox]] somewhat insulated by its user-generated content repository and in-game currency ecosystem.
 
 ![[ttwo-vs-cdpr-genie-selloff.png]]
 *TTWO vs [[CD Projekt]] share prices rebased in $ terms, showing the [[Project Genie]] sell-off. Source: LSEG via FT.*
@@ -139,7 +139,7 @@ TTWO shares suffered sharp declines after [[Google]]'s [[Project Genie]] release
 - [[Nintendo]] — gaming peer
 - [[Project Genie]] — AI disruption catalyst
 - [[World Models]] — underlying AI paradigm
-- [[Unity Software]] — most exposed to AI substitution
+- [[Unity Technologies]] — most exposed to AI substitution
 - [[CD Projekt]] — European gaming peer, co-sold off
 - [[Consumer]] — sector
 

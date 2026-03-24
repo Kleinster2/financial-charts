@@ -181,6 +181,38 @@ Iran reportedly reaching out to the US through third parties for ceasefire talks
 
 ---
 
+## Stellen Capital physical market assessment — May reopening (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], commodities/shipping hedge fund, Other People's Money podcast, March 23) provided the most granular physical-market and military-readiness analysis of the strait timeline.
+
+### Shut-in scale
+
+Stellen estimates ~13M bpd of production shut in from the region, against pre-crisis peak flows of 23M bpd. [[Iran]] still exporting ~2M bpd — on its own ships or vessels granted bilateral approval. An [[India]]n LPG vessel, for example, transited with Iranian clearance. Ships initially stranded outside the strait have been depleting floating storage; once exhausted, the production shutins followed.
+
+### Military reopening — "not until May"
+
+May is the earliest date Stellen hears as a possibility for military reopening. Even then, it would not be "full throttle." Requirements: aircraft carriers, 2-3 planes at all times in the air (~64 available), coastal base to handle drones and mines, and — with increasing likelihood — American boots on the ground. The USS Ford is in maintenance in the Mediterranean, meaning the US is not at peak regional presence.
+
+Iran demonstrated hypersonic missile capability during the conflict — the strike on [[Qatar]]'s largest LNG facility ([[Ras Laffan]]) was delivered by what Wiggen described as a "potentially hypersonic missile that we were not really certain that the Iranians had possession of." This changes the military calculus from earlier assumptions about Iranian capability.
+
+### The go-quiet-then-strike problem
+
+Even after forcible reopening, Iran can simply go quiet for two weeks and then strike again — a single incident would reset commercial confidence, spike insurance premiums, and freeze shipping. This dynamic means the war risk premium becomes semi-permanent. Wiggen: "it increases the likelihood of the maritime community just saying I don't want to take the risk and go on that ship."
+
+The commercial trust problem aligns with [[Amrita Sen]]'s assessment from the same day: "every company CEO I'm speaking with is saying that I don't want to be the first one to send my ship through."
+
+### Mine warfare — fishing boat deployment
+
+Wiggen highlighted mines as "extremely difficult" — thousands of small fishing boats can deploy them, and this is where the military challenge is most acute. This complements [[Mick Mulroy]]'s assessment (MEI panel, March 20) of 5,000 Iranian mines and the decommissioned Avenger-class minesweepers.
+
+### US driving season as political deadline
+
+[[Trump II|Trump]] administration most concerned about US driving season starting end of May. This gives the political timeline: the administration needs to demonstrate progress by May, which aligns with the military feasibility window. See [[Iran conflict oil price timeline]] for pricing implications.
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+---
+
 ## Related
 
 - [[Iran]] — controls northern shore
@@ -199,7 +231,9 @@ Iran reportedly reaching out to the US through third parties for ceasefire talks
 - [[Kharg Island]] — 31st MEU target, 90% of Iran's oil exports
 - [[Amrita Sen]] — reopening timeline pushed to end of April
 - [[Energy Aspects]] — commercial confidence as binding constraint
+- [[Nadia Martin Wiggen]] — May reopening, physical market assessment, go-quiet-then-strike risk
+- [[Stellen Capital]] — commodities/shipping hedge fund
 
 ---
 
-*Updated 2026-03-23 (Energy Aspects reopening timeline)*
+*Updated 2026-03-24 (Stellen Capital physical market assessment)*

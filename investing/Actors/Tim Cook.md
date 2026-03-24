@@ -87,6 +87,16 @@ Cook has made multiple trips to China to meet top leaders and reaffirm Apple's c
 
 ---
 
+## Succession (Bloomberg, Mar 23 2026)
+
+[[Mark Gurman]] reports Cook's departure estimated in 1-5 years. [[John Ternus]], SVP Hardware Engineering, is the clear frontrunner — 15 years younger than Cook, 25-year Apple veteran, oversees ~80% of revenue. Every other internal candidate has been eliminated: [[Jeff Williams]] (COO) retired end 2025, [[Craig Federighi]] publicly declined, [[Eddy Cue]] and [[Greg Joswiak]] over 60.
+
+Gurman: "Everything in his world is Apple. So it's a hard position to move on from."
+
+See [[John Ternus]] for full succession analysis.
+
+---
+
 ## Personal
 
 - First openly gay Fortune 500 CEO (came out 2014)
@@ -103,9 +113,13 @@ Cook has made multiple trips to China to meet top leaders and reaffirm Apple's c
 ## Related
 
 - [[Apple]] — CEO
+- [[John Ternus]] — SVP Hardware Engineering, likely successor
+- [[Jeff Williams]] — former COO, retired 2025
+- [[Craig Federighi]] — SVP Software Engineering, declined CEO
 - [[Jensen Huang]] — fellow tech CEO engaging China
 - [[China]] — major market, manufacturing base
 - [[OpenAI]] — Apple Intelligence partnership
+- [[Mark Gurman]] — Bloomberg reporter, primary succession sourcing
 
 ---
 

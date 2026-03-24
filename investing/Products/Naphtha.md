@@ -53,6 +53,14 @@ South Korea designated naphtha an "economic security item" to manage dwindling s
 
 ---
 
+## Wiggen: global shortage — dual use bottleneck (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) identified a dual-use bottleneck: naphtha is needed both as a diluent for [[Venezuela]]n heavy sour crude (which is too thick to load onto ships without thinning) AND as petrochemical feedstock for plastics. With [[LPG]] also in global shortage, Asian petrochemical producers are "making big cuts" — not gradually reducing, but shutting capacity. Wiggen: the petchem industry in Asia "just doesn't have the LPG available." If feedstock shortages persist, recycled plastics become a potential beneficiary as the only alternative supply source for downstream manufacturing.
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+---
+
 ## Related
 
 - [[Oil]] — feedstock (crude → refining → naphtha)

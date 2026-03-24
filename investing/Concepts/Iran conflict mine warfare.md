@@ -45,6 +45,16 @@ Phase 2: The 31st MEU (Marine Expeditionary Unit) being redirected from the Indo
 
 ---
 
+## Stellen Capital — shipping perspective on mine warfare (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]]) reinforced the mine assessment from a commercial/shipping perspective. The mines are "extremely difficult" — not because of the mines themselves but because "thousands of little fishing boats" can deploy them. This makes suppression a near-impossible game of whack-a-mole along [[Iran]]'s coastline.
+
+The critical strategic dimension Wiggen adds: Iran can go quiet for two weeks, then strike something, and "that completely changes that feeling in the commercial shipping fleet." A single incident after an apparent all-clear resets the entire risk calculation — insurers reprice, crews refuse to sail, shipping companies pull back. The go-quiet-then-strike strategy makes mine warfare a permanent commercial weapon, not just a military tactic. Even if the US clears 100% of deployed mines, the threat of reseeding means the risk premium never returns to pre-war levels.
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+---
+
 ## Investment implications
 
 | Dimension | Impact |

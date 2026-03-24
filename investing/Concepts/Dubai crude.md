@@ -45,6 +45,16 @@ The +123% move — versus Brent's +64% — is the single most important data poi
 
 ---
 
+## Wiggen: Dubai/Oman at $166 (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]]) reported Dubai/Oman pricing at $166/bbl the morning of March 23 — up from the $150-160 range in the [[Colby Connelly|MEI panel]] assessment three days earlier. Only oil out of [[Oman]] is "reliably or semi-reliably loading" because even Omani ports were struck weeks prior.
+
+This $166 level makes Dubai/Oman the single most expensive major crude benchmark in the world. The spread to [[Brent crude|Brent]] (~$100 on March 23 after the Truth Social dip) exceeded $60 — a paper-physical disconnect without modern precedent.
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+---
+
 ## Related
 
 - [[Oil]] — parent commodity
@@ -57,4 +67,4 @@ The +123% move — versus Brent's +64% — is the single most important data poi
 - [[Amrita Sen]] — three-tier pricing, Dubai as truest signal
 - [[Energy Aspects]] — physical vs paper convergence timeline
 
-*Created 2026-03-23*
+*Created 2026-03-23. Updated 2026-03-24 (Wiggen $166).*

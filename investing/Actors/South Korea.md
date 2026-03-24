@@ -115,6 +115,18 @@ Limited US market access. Most exposure through [[Samsung]] OTC or ETFs.
 
 ---
 
+## Iran conflict energy impact
+
+### Partial diesel export ban and supply scramble (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23, 2026) confirmed [[South Korea]] has imposed a partial ban on diesel exports — following [[China]]'s complete refined product export ban. South Korean refiners are redirecting ships to the US Gulf Coast, West Africa, and the North Sea to replace lost Gulf crude supplies.
+
+South Korea is simultaneously scrambling to replace lost [[Qatar]]i [[LNG]] shipments and has lifted its operating cap for coal-fired power plants. The country's semiconductor fabs ([[Samsung Electronics|Samsung]], [[SK Hynix]]) face energy rationing risk if the LNG shortage deepens — see [[Iran conflict semiconductor energy risk]].
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+---
+
 ## Related
 
 **Companies:**
@@ -126,11 +138,15 @@ Limited US market access. Most exposure through [[Samsung]] OTC or ETFs.
 - [[HBM]] — High bandwidth memory
 - [[Memory supercycle]] — AI-driven demand
 - [[Semiconductor nationalism]] — Government investment
+- [[Iran conflict semiconductor energy risk]] — LNG shortage impact on Korean fabs
 
 **Peers:**
 - [[Taiwan]] — Foundry rival
 - [[Japan]] — Equipment, materials
 - [[China]] — Emerging competitor
+
+**People & sources:**
+- [[Nadia Martin Wiggen]] — [[Stellen Capital]], energy/commodities analyst
 
 ---
 

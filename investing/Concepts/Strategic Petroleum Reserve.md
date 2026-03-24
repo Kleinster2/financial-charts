@@ -128,6 +128,14 @@ Relevance to 2026: The exchange mechanism's key risk — hidden discount to trad
 
 ---
 
+## SPR headline fatigue — diminishing market impact (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) observed a textbook case of decreasing marginal impact from SPR announcements. The first SPR headline moved oil "quite a lot." By the time the IEA coordinated 400M barrel release was formally announced — the fifth iteration of SPR-related headlines — the oil price "didn't move and then just went higher." Each successive announcement conditioned the market, eliminating the surprise element. The SPR tool works as a psychological signal, but only once; repeated use depletes its market-moving power faster than it depletes barrels.
+
+*Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+---
+
 ## Related
 
 - [[Oil]] — underlying commodity (crude oil stockpiles)

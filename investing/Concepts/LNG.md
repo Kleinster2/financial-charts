@@ -341,6 +341,28 @@ The US is simultaneously the world's largest gas exporter and home to the world'
 
 ---
 
+## Wiggen: global LNG rebalancing mechanics (March 23)
+
+*Source: [[Nadia Martin Wiggen]], [[Stellen Capital]], Other People's Money / Monetary Matters Network, March 23, 2026.*
+
+### Scale: 19% of world LNG, 83% of Asia's demand
+
+What comes out of the Middle East is ~19% of the world's LNG and 83% of [[Asia]]'s LNG demand. These are long-term contract buyers, not spot — meaning the disruption doesn't just spike prices but breaks delivery schedules that Asian utilities and power companies have budgeted around for years.
+
+### Plaquemines and Golden Pass — US supply bright spots
+
+[[Plaquemines LNG]] (operated by [[Venture Global]]) was running above nameplate capacity across all 19 trains — a rare success story in LNG ramp-ups. [[Golden Pass]] in Texas (co-developed by [[QatarEnergy]] and [[Exxon]]) is also ramping up. But US export capacity is still insufficient to replace the Middle East shortfall. The incentives are there for US producers to maximize output — spot pricing is extremely profitable — but buyers "aren't fighting each other yet" to lock in supply.
+
+### Pakistan and Bangladesh — priced out
+
+[[Pakistan]] and [[Bangladesh]] are already being priced out of the LNG spot market. Countries like the [[Philippines]] are pausing additional purchases until prices ease. The bid stack is clear: wealthy nations ([[Japan]], [[South Korea]], [[Taiwan]], European utilities) crowd out poorer importers. [[India]]n firms are being pushed into some of their costliest purchases in years.
+
+### Offshore/onshore drilling diversification
+
+Wiggen's long-term view: offshore and onshore oil and gas production globally is "going to explode" as the world realizes the [[Strait of Hormuz]] is a real chokepoint requiring diversification. [[Ghana]], [[Namibia]], and other non-Gulf producers will see accelerated investment. The crisis shifts energy security from an abstract concern to a capital allocation priority.
+
+---
+
 ## Investment case
 
 **Bull:**

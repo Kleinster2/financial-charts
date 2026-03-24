@@ -163,6 +163,38 @@ Source: MEI panel, March 20 2026 — Connelly
 
 ---
 
+## Wiggen: European LNG — 70-day lag, Putin threat, curve mispricing (March 23)
+
+*Source: [[Nadia Martin Wiggen]], [[Stellen Capital]], Other People's Money / Monetary Matters Network, March 23, 2026.*
+
+### 70-day minimum LNG lag
+
+The earliest diverted [[LNG]] can reach Europe after the Hormuz disruption is 70 days from March 23. Even if the strait reopens in May and Gulf shipments resume by June, the Atlantic basin diversions already in progress will arrive at European terminals concurrently with resumed Gulf flows — creating potential receiving congestion rather than smooth supply normalization.
+
+### Putin's May 1 LNG cutoff threat
+
+[[Russia]] threatened to halt all LNG deliveries to Europe from May 1. Russian LNG represents 16% of European supply. Combined with the [[Qatar]] [[Ras Laffan]] damage (9% of European LNG imports, potentially offline for 3-5 years), Europe faces the loss of 25% of its LNG supply base heading into the summer filling season.
+
+European gas inventories are already 30% lower than the same point last year. European storage at full capacity covers 25% of winter demand — the remaining 75% depends on continuous deliveries. This means Europe cannot simply stockpile its way through winter; it must maintain flow throughout the year.
+
+### TTF curve mispricing — entire curve moved
+
+TTF was trading €20-30/MWh pre-crisis, popped to €65-70, then dropped to €54 on Trump's Truth Social announcement (March 23). Wiggen flagged that the entire TTF curve — not just front-month contracts — came down on the Truth Social post. This makes no structural sense: only the near-dated contracts should have been affected by a potential near-term de-escalation. The long-dated curve dropping suggests the market is still broadly underpricing the duration of the European gas problem.
+
+### EU policy incoherence — mandate relaxation trap
+
+The EU has spent the last two years relaxing its gas storage filling mandates (originally 90% by November 1, now recommended 80% by December 1). Each relaxation cycle discouraged traders from paying up for forward gas. Now, with inventories depleted and supply disrupted, the very traders who were told not to rush are unprepared. Wiggen: "nobody wants to pay up and then have the mandate be relaxed because it's political." The result is a market where no one is positioning for the worst case, increasing the probability of a disorderly spike if the worst case materializes.
+
+### Asia summer filling season competition
+
+Asia runs air conditioning off natural gas — summer is a filling season there, not just in Europe. The Atlantic vs Pacific price war flagged by Bloomberg (March 19) intensifies as both regions compete for scarce LNG supply simultaneously. European buyers source much of their supply on the spot market, making them especially susceptible to price shocks when Asia bids aggressively.
+
+### Renewables as relative beneficiary
+
+Wiggen noted a "complete repricing of the entire energy complex" — including renewables and non-fossil electricity producers. Wind and solar, once the infrastructure is built, produce power at near-zero marginal cost. This makes them increasingly competitive against gas-fired generation in Europe: "when the wind is blowing, if you've already built the infrastructure, then that's basically free." The repricing strengthens the long-term case for European renewable investment but doesn't solve the near-term gas deficit.
+
+---
+
 ## Brooks: European gas spike already exceeds 2022 pace (March 23)
 
 [[Robin J. Brooks]] (Brookings) confirmed the TTF trajectory with a direct comparison chart: the Dutch TTF natural gas rise since the start of the Iran conflict is already *larger* than the equivalent period after [[Russia]]'s 2022 invasion of [[Ukraine]]. Europe's pivot from Russian pipeline gas to Gulf [[LNG]] replaced one dependency with another. Brooks' data shows Europe is facing "another big shock, the result of its pivot to LNG from the Persian Gulf."
@@ -173,4 +205,4 @@ This validates the [[Colby Connelly|Connelly]] assessment from the MEI panel (Ma
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack).*
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital).*

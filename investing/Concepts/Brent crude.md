@@ -51,6 +51,12 @@ Brooks' near-peak thesis: ~10M bbl/day [[Strait of Hormuz]] shortfall × consens
 
 ---
 
+## Wiggen: $100 floor, Truth Social volatility (March 23)
+
+[[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) observed Brent dipping below $100 on Trump's Truth Social post claiming productive talks with [[Iran]] — immediately denied by Iranian authorities. The physical market didn't follow the paper sell-off. Wiggen places $100 as the approximate Brent floor while the [[Strait of Hormuz]] remains closed, with room for Brent to appreciate to ~$130 before reaching a demand destruction threshold (refiners remain profitable up to that level). The pre-crisis positioning — 10-year low in Brent longs, 10-year high in WTI shorts — means violent sell-offs on de-escalation headlines reflect "hot money" profit-taking rather than structural repricing.
+
+---
+
 ## Related
 
 - [[Oil]] — parent commodity
