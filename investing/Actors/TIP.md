@@ -27,7 +27,7 @@ The structural question is whether TIPS can hedge inflation when the [[Stock-Bon
 |--------|-----|-------------|
 | Utilities | XLU | 0.27 |
 | [[Consumer Staples]] | XLP | 0.27 |
-| [[Real estate|Real Estate]] | XLRE | 0.24 |
+| [[Real estate\|Real Estate]] | XLRE | 0.24 |
 | *S&P 500* | *SPY* | *0.00* |
 
 TIP trades between Utilities and Consumer Staples without a tight sector fit.

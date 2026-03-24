@@ -223,7 +223,7 @@ Net buyers: 178 institutions added, 115 decreased. Smart money piling in during 
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.58 |
+| [[Banks\|Regional Banks]] | KRE | 0.58 |
 | [[Defense]] | ITA | 0.55 |
 | Technology | XLK | 0.49 |
 | *S&P 500* | *SPY* | *0.47* |

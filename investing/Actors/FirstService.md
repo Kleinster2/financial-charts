@@ -13,7 +13,7 @@ North America's largest residential property manager and essential property serv
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.60 |
+| [[Banks\|Regional Banks]] | KRE | 0.60 |
 | Oil & Gas E&P | XOP | 0.57 |
 | Financials | XLF | 0.46 |
 | *S&P 500* | *SPY* | *0.39* |

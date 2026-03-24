@@ -12,7 +12,7 @@ PTC — American industrial software company. CAD (Creo), PLM (Windchill), IoT (
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Software | IGV | 0.77 |
-| [[Banks|Regional Banks]] | KRE | 0.65 |
+| [[Banks\|Regional Banks]] | KRE | 0.65 |
 | Financials | XLF | 0.63 |
 | *S&P 500* | *SPY* | *0.66* |
 

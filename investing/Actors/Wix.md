@@ -13,7 +13,7 @@ aliases: [WIX]
 |--------|-----|-------------|
 | Software | IGV | 0.52 |
 | [[Consumer]] | XLY | 0.47 |
-| [[Banks|Regional Banks]] | KRE | 0.43 |
+| [[Banks\|Regional Banks]] | KRE | 0.43 |
 | *S&P 500* | *SPY* | *0.37* |
 
 WIX shows moderate Software correlation (IGV r = 0.52).

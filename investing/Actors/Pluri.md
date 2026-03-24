@@ -16,7 +16,7 @@ Pluri Inc. (Nasdaq: PLUR, TASE: PLUR) — Israeli biotech pioneering mass-scale 
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.37 |
+| [[Banks\|Regional Banks]] | KRE | 0.37 |
 | Communications | XLC | 0.26 |
 | Financials | XLF | 0.24 |
 | *S&P 500* | *SPY* | *0.22* |

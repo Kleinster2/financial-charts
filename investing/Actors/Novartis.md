@@ -12,7 +12,7 @@ aliases: [NVS]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Healthcare]] | XLV | 0.64 |
-| [[Real estate|Real Estate]] | XLRE | 0.37 |
+| [[Real estate\|Real Estate]] | XLRE | 0.37 |
 | [[Consumer Staples]] | XLP | 0.36 |
 | *S&P 500* | *SPY* | *0.25* |
 

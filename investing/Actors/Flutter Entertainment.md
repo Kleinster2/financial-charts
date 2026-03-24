@@ -13,7 +13,7 @@ Flutter Entertainment -- World's largest online sports betting and gaming compan
 |--------|-----|-------------|
 | Software | IGV | 0.58 |
 | Financials | XLF | 0.56 |
-| [[Banks|Regional Banks]] | KRE | 0.55 |
+| [[Banks\|Regional Banks]] | KRE | 0.55 |
 | *S&P 500* | *SPY* | *0.49* |
 
 FLUT shows moderate Software correlation (IGV r = 0.58).

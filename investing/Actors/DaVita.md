@@ -16,7 +16,7 @@ aliases: [DVA]
 |--------|-----|-------------|
 | [[Defense]] | ITA | 0.37 |
 | [[Consumer Staples]] | XLP | 0.36 |
-| [[Banks|Regional Banks]] | KRE | 0.36 |
+| [[Banks\|Regional Banks]] | KRE | 0.36 |
 | *S&P 500* | *SPY* | *0.17* |
 
 DVA trades between Defense and Consumer Staples without a tight sector fit.

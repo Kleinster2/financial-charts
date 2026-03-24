@@ -11,7 +11,7 @@ aliases: [DAL, Delta]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.79 |
+| [[Banks\|Regional Banks]] | KRE | 0.79 |
 | Financials | XLF | 0.74 |
 | Industrials | XLI | 0.74 |
 | *S&P 500* | *SPY* | *0.76* |

@@ -11,7 +11,7 @@ aliases: [HAL]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Energy and Utilities|Energy]] | XLE | 0.80 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.80 |
 | Oil & Gas E&P | XOP | 0.79 |
 | Industrials | XLI | 0.69 |
 | *S&P 500* | *SPY* | *0.66* |

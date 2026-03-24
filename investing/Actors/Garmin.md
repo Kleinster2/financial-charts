@@ -11,7 +11,7 @@ Garmin — GPS/wearable/fitness/aviation technology company. Record-breaking Q4 
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.70 |
+| [[Banks\|Regional Banks]] | KRE | 0.70 |
 | [[Consumer]] | XLY | 0.67 |
 | Oil & Gas E&P | XOP | 0.63 |
 | *S&P 500* | *SPY* | *0.63* |

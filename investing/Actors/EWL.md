@@ -21,7 +21,7 @@ iShares MSCI Switzerland ETF — tracks the MSCI Switzerland 25/50 Index. Concen
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Healthcare]] | XLV | 0.75 |
-| [[Real estate|Real Estate]] | XLRE | 0.73 |
+| [[Real estate\|Real Estate]] | XLRE | 0.73 |
 | Industrials | XLI | 0.71 |
 | *S&P 500* | *SPY* | *0.67* |
 

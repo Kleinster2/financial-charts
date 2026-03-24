@@ -16,7 +16,7 @@ aliases: [RACE, Ferrari NV, Scuderia Ferrari]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Real estate|Real Estate]] | XLRE | 0.49 |
+| [[Real estate\|Real Estate]] | XLRE | 0.49 |
 | [[Defense]] | ITA | 0.49 |
 | Industrials | XLI | 0.48 |
 | *S&P 500* | *SPY* | *0.43* |

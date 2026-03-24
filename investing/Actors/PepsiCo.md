@@ -12,7 +12,7 @@ aliases: [PEP, Pepsi]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.64 |
-| [[Real estate|Real Estate]] | XLRE | 0.36 |
+| [[Real estate\|Real Estate]] | XLRE | 0.36 |
 | Utilities | XLU | 0.34 |
 | *S&P 500* | *SPY* | *0.21* |
 

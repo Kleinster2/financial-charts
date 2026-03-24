@@ -15,7 +15,7 @@ Nestle — Swiss multinational, world's largest food and beverage company by rev
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.35 |
-| [[Real estate|Real Estate]] | XLRE | 0.28 |
+| [[Real estate\|Real Estate]] | XLRE | 0.28 |
 | Utilities | XLU | 0.26 |
 | *S&P 500* | *SPY* | *0.06* |
 

@@ -11,7 +11,7 @@ aliases: [Pulte Homes, PHM]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.57 |
+| [[Banks\|Regional Banks]] | KRE | 0.57 |
 | Industrials | XLI | 0.51 |
 | [[Consumer]] | XLY | 0.48 |
 | *S&P 500* | *SPY* | *0.35* |

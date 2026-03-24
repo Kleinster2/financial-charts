@@ -25,7 +25,7 @@ The risk is structural: permanent lease obligations to VICI that escalate annual
 |--------|-----|-------------|
 | [[Consumer]] | XLY | 0.72 |
 | Financials | XLF | 0.71 |
-| [[Banks|Regional Banks]] | KRE | 0.68 |
+| [[Banks\|Regional Banks]] | KRE | 0.68 |
 | *S&P 500* | *SPY* | *0.67* |
 
 MGM trades as a core Consumer name (XLY r = 0.72).

@@ -14,7 +14,7 @@ Kodiak AI -- autonomous trucking and off-road industrial autonomy. Dual focus: h
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.34 |
+| [[Banks\|Regional Banks]] | KRE | 0.34 |
 | Oil & Gas E&P | XOP | 0.32 |
 | Software | IGV | 0.26 |
 | *S&P 500* | *SPY* | *0.22* |

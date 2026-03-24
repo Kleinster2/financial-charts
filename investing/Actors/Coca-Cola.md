@@ -13,7 +13,7 @@ aliases: [KO, Coke]
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.66 |
 | [[Healthcare]] | XLV | 0.38 |
-| [[Real estate|Real Estate]] | XLRE | 0.34 |
+| [[Real estate\|Real Estate]] | XLRE | 0.34 |
 | *S&P 500* | *SPY* | *0.14* |
 
 KO shows moderate Consumer Staples correlation (XLP r = 0.66).

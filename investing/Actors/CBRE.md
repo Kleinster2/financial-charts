@@ -12,7 +12,7 @@ aliases: [CBRE Group, CB Richard Ellis]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Financials | XLF | 0.61 |
-| [[Banks|Regional Banks]] | KRE | 0.60 |
+| [[Banks\|Regional Banks]] | KRE | 0.60 |
 | Software | IGV | 0.51 |
 | *S&P 500* | *SPY* | *0.50* |
 

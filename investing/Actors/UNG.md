@@ -19,7 +19,7 @@
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.31 |
-| [[Energy and Utilities|Energy]] | XLE | 0.30 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.30 |
 | [[Consumer Staples]] | XLP | 0.16 |
 | *S&P 500* | *SPY* | *0.14* |
 

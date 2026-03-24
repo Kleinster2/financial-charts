@@ -11,7 +11,7 @@ aliases: [BKR]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Energy and Utilities|Energy]] | XLE | 0.76 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.76 |
 | Oil & Gas E&P | XOP | 0.75 |
 | Industrials | XLI | 0.72 |
 | *S&P 500* | *SPY* | *0.67* |

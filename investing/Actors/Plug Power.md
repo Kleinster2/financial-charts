@@ -14,7 +14,7 @@ aliases: [PLUG]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.38 |
+| [[Banks\|Regional Banks]] | KRE | 0.38 |
 | Financials | XLF | 0.33 |
 | [[Consumer]] | XLY | 0.31 |
 | *S&P 500* | *SPY* | *0.29* |

@@ -15,7 +15,7 @@ aliases: [DEO]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.42 |
-| [[Real estate|Real Estate]] | XLRE | 0.35 |
+| [[Real estate\|Real Estate]] | XLRE | 0.35 |
 | [[Healthcare]] | XLV | 0.32 |
 | *S&P 500* | *SPY* | *0.21* |
 

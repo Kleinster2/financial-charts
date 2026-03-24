@@ -16,7 +16,7 @@ tags: [actor, finance, insurance, carrier, usa, public]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.41 |
+| [[Banks\|Regional Banks]] | KRE | 0.41 |
 | Financials | XLF | 0.40 |
 | Oil & Gas E&P | XOP | 0.40 |
 | *S&P 500* | *SPY* | *0.27* |

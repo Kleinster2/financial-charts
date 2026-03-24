@@ -12,7 +12,7 @@ aliases: [CCL, Carnival Corporation]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Industrials | XLI | 0.76 |
-| [[Banks|Regional Banks]] | KRE | 0.74 |
+| [[Banks\|Regional Banks]] | KRE | 0.74 |
 | Financials | XLF | 0.71 |
 | *S&P 500* | *SPY* | *0.72* |
 

@@ -12,8 +12,8 @@ aliases: [BG, Bunge Global SA, Bunge Limited]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.58 |
-| [[Energy and Utilities|Energy]] | XLE | 0.48 |
-| [[Real estate|Real Estate]] | XLRE | 0.47 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.48 |
+| [[Real estate\|Real Estate]] | XLRE | 0.47 |
 | *S&P 500* | *SPY* | *0.38* |
 
 BG shows moderate Oil & Gas E&P correlation (XOP r = 0.58).

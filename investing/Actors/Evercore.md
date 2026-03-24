@@ -11,7 +11,7 @@ Evercore (NYSE: EVR) — leading independent investment banking advisory firm. F
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.84 |
+| [[Banks\|Regional Banks]] | KRE | 0.84 |
 | Financials | XLF | 0.80 |
 | Industrials | XLI | 0.74 |
 | *S&P 500* | *SPY* | *0.76* |

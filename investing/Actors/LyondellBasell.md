@@ -14,7 +14,7 @@ aliases: [LYB, LyondellBasell Industries]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.72 |
-| [[Energy and Utilities|Energy]] | XLE | 0.64 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.64 |
 | [[Consumer]] | XLY | 0.57 |
 | *S&P 500* | *SPY* | *0.55* |
 

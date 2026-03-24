@@ -17,8 +17,8 @@
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Real estate|Real Estate]] | XLRE | 0.79 |
-| [[Banks|Regional Banks]] | KRE | 0.77 |
+| [[Real estate\|Real Estate]] | XLRE | 0.79 |
+| [[Banks\|Regional Banks]] | KRE | 0.77 |
 | Oil & Gas E&P | XOP | 0.73 |
 | *S&P 500* | *SPY* | *0.76* |
 

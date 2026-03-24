@@ -14,7 +14,7 @@ St. James's Place — UK's largest wealth manager. ~5,000 financial advisers, £
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.38 |
+| [[Banks\|Regional Banks]] | KRE | 0.38 |
 | Financials | XLF | 0.25 |
 | Oil & Gas E&P | XOP | 0.24 |
 | *S&P 500* | *SPY* | *0.14* |

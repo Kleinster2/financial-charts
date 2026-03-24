@@ -12,7 +12,7 @@ aliases: [MS]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Financials | XLF | 0.86 |
-| [[Banks|Regional Banks]] | KRE | 0.81 |
+| [[Banks\|Regional Banks]] | KRE | 0.81 |
 | Technology | XLK | 0.77 |
 | *S&P 500* | *SPY* | *0.81* |
 

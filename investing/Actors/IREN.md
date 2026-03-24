@@ -15,7 +15,7 @@ aliases: [Iris Energy]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Technology | XLK | 0.47 |
-| [[Banks|Regional Banks]] | KRE | 0.46 |
+| [[Banks\|Regional Banks]] | KRE | 0.46 |
 | [[Semiconductors]] | SMH | 0.44 |
 | *S&P 500* | *SPY* | *0.41* |
 

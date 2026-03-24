@@ -21,7 +21,7 @@
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 1.00 |
+| [[Banks\|Regional Banks]] | KRE | 1.00 |
 | Financials | XLF | 0.86 |
 | [[Consumer]] | XLY | 0.78 |
 | *S&P 500* | *SPY* | *0.76* |

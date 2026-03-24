@@ -13,7 +13,7 @@ aliases: [DUK]
 |--------|-----|-------------|
 | Utilities | XLU | 0.65 |
 | [[Consumer Staples]] | XLP | 0.49 |
-| [[Real estate|Real Estate]] | XLRE | 0.35 |
+| [[Real estate\|Real Estate]] | XLRE | 0.35 |
 | *S&P 500* | *SPY* | *-0.03* |
 
 DUK shows moderate Utilities correlation (XLU r = 0.65).

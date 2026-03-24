@@ -13,7 +13,7 @@ Luxury home furnishings platform built around immersive Design Galleries, a memb
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.83 |
+| [[Banks\|Regional Banks]] | KRE | 0.83 |
 | Oil & Gas E&P | XOP | 0.74 |
 | [[Consumer]] | XLY | 0.71 |
 | *S&P 500* | *SPY* | *0.67* |

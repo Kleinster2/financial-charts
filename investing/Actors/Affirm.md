@@ -12,7 +12,7 @@ aliases: [AFRM]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer]] | XLY | 0.72 |
-| [[Banks|Regional Banks]] | KRE | 0.69 |
+| [[Banks\|Regional Banks]] | KRE | 0.69 |
 | Software | IGV | 0.69 |
 | *S&P 500* | *SPY* | *0.65* |
 

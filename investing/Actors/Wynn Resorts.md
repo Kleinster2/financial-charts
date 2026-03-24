@@ -25,7 +25,7 @@ The balance sheet is the risk. Total debt: $10.55B. Total equity: negative $1.1B
 |--------|-----|-------------|
 | [[Consumer]] | XLY | 0.68 |
 | Industrials | XLI | 0.67 |
-| [[Banks|Regional Banks]] | KRE | 0.67 |
+| [[Banks\|Regional Banks]] | KRE | 0.67 |
 | *S&P 500* | *SPY* | *0.69* |
 
 WYNN shows moderate Consumer correlation (XLY r = 0.68).

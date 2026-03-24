@@ -12,7 +12,7 @@ aliases: [KHC, Kingdom Holding Company]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.62 |
-| [[Real estate|Real Estate]] | XLRE | 0.43 |
+| [[Real estate\|Real Estate]] | XLRE | 0.43 |
 | [[Healthcare]] | XLV | 0.38 |
 | *S&P 500* | *SPY* | *0.28* |
 

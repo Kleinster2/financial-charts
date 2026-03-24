@@ -16,8 +16,8 @@
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.68 |
-| [[Energy and Utilities|Energy]] | XLE | 0.65 |
-| [[Banks|Regional Banks]] | KRE | 0.35 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.65 |
+| [[Banks\|Regional Banks]] | KRE | 0.35 |
 | *S&P 500* | *SPY* | *0.31* |
 
 UGA shows moderate Oil & Gas E&P correlation (XOP r = 0.68).

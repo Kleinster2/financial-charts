@@ -16,8 +16,8 @@
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.61 |
-| [[Banks|Regional Banks]] | KRE | 0.46 |
-| [[Energy and Utilities|Energy]] | XLE | 0.45 |
+| [[Banks\|Regional Banks]] | KRE | 0.46 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.45 |
 | *S&P 500* | *SPY* | *0.42* |
 
 CPER shows moderate Oil & Gas E&P correlation (XOP r = 0.61).

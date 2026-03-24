@@ -11,9 +11,9 @@ aliases: [CVX]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Energy and Utilities|Energy]] | XLE | 0.92 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.92 |
 | Oil & Gas E&P | XOP | 0.90 |
-| [[Banks|Regional Banks]] | KRE | 0.59 |
+| [[Banks\|Regional Banks]] | KRE | 0.59 |
 | *S&P 500* | *SPY* | *0.55* |
 
 CVX trades as a core Energy name (XLE r = 0.92).

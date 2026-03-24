@@ -13,7 +13,7 @@ Leading global restructuring advisory firm. Expanded [[Brazil]] team in 2023 ant
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.82 |
+| [[Banks\|Regional Banks]] | KRE | 0.82 |
 | Financials | XLF | 0.66 |
 | Industrials | XLI | 0.66 |
 | *S&P 500* | *SPY* | *0.64* |

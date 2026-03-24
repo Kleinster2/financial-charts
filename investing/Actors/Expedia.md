@@ -11,7 +11,7 @@ aliases: [EXPE, Expedia Group]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.61 |
+| [[Banks\|Regional Banks]] | KRE | 0.61 |
 | Software | IGV | 0.61 |
 | Financials | XLF | 0.59 |
 | *S&P 500* | *SPY* | *0.55* |

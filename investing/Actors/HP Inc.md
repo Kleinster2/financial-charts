@@ -11,7 +11,7 @@ aliases: [HPQ, HP]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.74 |
+| [[Banks\|Regional Banks]] | KRE | 0.74 |
 | Oil & Gas E&P | XOP | 0.67 |
 | Financials | XLF | 0.65 |
 | *S&P 500* | *SPY* | *0.64* |

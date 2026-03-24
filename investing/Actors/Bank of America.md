@@ -18,7 +18,7 @@ aliases: [BAC, BofA, BoA]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.86 |
+| [[Banks\|Regional Banks]] | KRE | 0.86 |
 | Financials | XLF | 0.85 |
 | Industrials | XLI | 0.70 |
 | *S&P 500* | *SPY* | *0.70* |

@@ -18,8 +18,8 @@ The investment case is straightforward: world-class reserves, low-cost productio
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.67 |
-| [[Energy and Utilities|Energy]] | XLE | 0.65 |
-| [[Banks|Regional Banks]] | KRE | 0.43 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.65 |
+| [[Banks\|Regional Banks]] | KRE | 0.43 |
 | *S&P 500* | *SPY* | *0.41* |
 
 PBR shows moderate Oil & Gas E&P correlation (XOP r = 0.67).

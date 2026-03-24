@@ -26,7 +26,7 @@ aliases: [Sempra Energy, SRE]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Utilities | XLU | 0.79 |
-| [[Real estate|Real Estate]] | XLRE | 0.67 |
+| [[Real estate\|Real Estate]] | XLRE | 0.67 |
 | Industrials | XLI | 0.66 |
 | *S&P 500* | *SPY* | *0.65* |
 

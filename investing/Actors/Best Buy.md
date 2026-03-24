@@ -11,7 +11,7 @@ aliases: [BBY]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.71 |
+| [[Banks\|Regional Banks]] | KRE | 0.71 |
 | [[Consumer]] | XLY | 0.68 |
 | Industrials | XLI | 0.67 |
 | *S&P 500* | *SPY* | *0.67* |

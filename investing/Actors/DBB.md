@@ -15,9 +15,9 @@
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Real estate|Real Estate]] | XLRE | 0.56 |
+| [[Real estate\|Real Estate]] | XLRE | 0.56 |
 | Oil & Gas E&P | XOP | 0.53 |
-| [[Energy and Utilities|Energy]] | XLE | 0.51 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.51 |
 | *S&P 500* | *SPY* | *0.40* |
 
 DBB shows moderate Real Estate correlation (XLRE r = 0.56).

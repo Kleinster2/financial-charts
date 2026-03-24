@@ -14,8 +14,8 @@ aliases: [LEN]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.49 |
-| [[Real estate|Real Estate]] | XLRE | 0.47 |
+| [[Banks\|Regional Banks]] | KRE | 0.49 |
+| [[Real estate\|Real Estate]] | XLRE | 0.47 |
 | Industrials | XLI | 0.43 |
 | *S&P 500* | *SPY* | *0.29* |
 

@@ -11,7 +11,7 @@ aliases: [LZ]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.57 |
+| [[Banks\|Regional Banks]] | KRE | 0.57 |
 | Oil & Gas E&P | XOP | 0.47 |
 | Financials | XLF | 0.41 |
 | *S&P 500* | *SPY* | *0.38* |

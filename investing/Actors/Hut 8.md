@@ -13,7 +13,7 @@ aliases: [HUT]
 |--------|-----|-------------|
 | Technology | XLK | 0.56 |
 | [[Semiconductors]] | SMH | 0.53 |
-| [[Banks|Regional Banks]] | KRE | 0.52 |
+| [[Banks\|Regional Banks]] | KRE | 0.52 |
 | *S&P 500* | *SPY* | *0.51* |
 
 HUT shows moderate Technology correlation (XLK r = 0.56).

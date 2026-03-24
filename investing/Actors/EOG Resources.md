@@ -12,8 +12,8 @@ aliases: [EOG]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.92 |
-| [[Energy and Utilities|Energy]] | XLE | 0.88 |
-| [[Banks|Regional Banks]] | KRE | 0.63 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.88 |
+| [[Banks\|Regional Banks]] | KRE | 0.63 |
 | *S&P 500* | *SPY* | *0.58* |
 
 EOG trades as a core Oil & Gas E&P name (XOP r = 0.92).

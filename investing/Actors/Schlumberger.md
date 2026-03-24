@@ -11,7 +11,7 @@ aliases: [SLB, SLB Ltd]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Energy and Utilities|Energy]] | XLE | 0.79 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.79 |
 | Oil & Gas E&P | XOP | 0.77 |
 | Industrials | XLI | 0.73 |
 | *S&P 500* | *SPY* | *0.69* |

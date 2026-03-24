@@ -14,7 +14,7 @@ aliases: [Aramco, 2222.SR]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | -0.17 |
+| [[Banks\|Regional Banks]] | KRE | -0.17 |
 | [[Defense]] | ITA | -0.13 |
 | Financials | XLF | -0.12 |
 | *S&P 500* | *SPY* | *-0.07* |

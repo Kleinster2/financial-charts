@@ -18,7 +18,7 @@ Legacy records management company turned **AI-era data center REIT**. One of the
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Real estate|Real Estate]] | XLRE | 0.67 |
+| [[Real estate\|Real Estate]] | XLRE | 0.67 |
 | Industrials | XLI | 0.66 |
 | [[Defense]] | ITA | 0.61 |
 | *S&P 500* | *SPY* | *0.64* |

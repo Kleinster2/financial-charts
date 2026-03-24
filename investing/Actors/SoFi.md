@@ -13,7 +13,7 @@ aliases: [SoFi Technologies, SOFI]
 |--------|-----|-------------|
 | Technology | XLK | 0.74 |
 | [[Consumer]] | XLY | 0.74 |
-| [[Banks|Regional Banks]] | KRE | 0.72 |
+| [[Banks\|Regional Banks]] | KRE | 0.72 |
 | *S&P 500* | *SPY* | *0.74* |
 
 SOFI trades as a core Technology name (XLK r = 0.74).

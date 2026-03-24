@@ -12,7 +12,7 @@ aliases: [DDOG]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Software | IGV | 0.56 |
-| [[Banks|Regional Banks]] | KRE | 0.54 |
+| [[Banks\|Regional Banks]] | KRE | 0.54 |
 | Technology | XLK | 0.45 |
 | *S&P 500* | *SPY* | *0.41* |
 

@@ -11,7 +11,7 @@ aliases: [CLSK]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.56 |
+| [[Banks\|Regional Banks]] | KRE | 0.56 |
 | Technology | XLK | 0.50 |
 | [[Semiconductors]] | SMH | 0.48 |
 | *S&P 500* | *SPY* | *0.47* |

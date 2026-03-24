@@ -16,7 +16,7 @@ aliases: [CAH]
 |--------|-----|-------------|
 | [[Defense]] | ITA | 0.27 |
 | [[Consumer Staples]] | XLP | 0.24 |
-| [[Real estate|Real Estate]] | XLRE | 0.24 |
+| [[Real estate\|Real Estate]] | XLRE | 0.24 |
 | *S&P 500* | *SPY* | *0.18* |
 
 CAH trades between Defense and Consumer Staples without a tight sector fit.

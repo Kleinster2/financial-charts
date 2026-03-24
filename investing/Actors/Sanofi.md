@@ -12,7 +12,7 @@ aliases: [SNY]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Healthcare]] | XLV | 0.56 |
-| [[Real estate|Real Estate]] | XLRE | 0.32 |
+| [[Real estate\|Real Estate]] | XLRE | 0.32 |
 | China Internet | KWEB | 0.30 |
 | *S&P 500* | *SPY* | *0.27* |
 

@@ -13,7 +13,7 @@ aliases: [NKE, Nike Inc]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.63 |
+| [[Banks\|Regional Banks]] | KRE | 0.63 |
 | [[Consumer]] | XLY | 0.57 |
 | Industrials | XLI | 0.53 |
 | *S&P 500* | *SPY* | *0.50* |

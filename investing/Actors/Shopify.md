@@ -11,7 +11,7 @@ Shopify — E-commerce platform. NYSE: SHOP. Powers 10%+ of US e-commerce. Found
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.73 |
+| [[Banks\|Regional Banks]] | KRE | 0.73 |
 | Software | IGV | 0.68 |
 | Technology | XLK | 0.67 |
 | *S&P 500* | *SPY* | *0.65* |

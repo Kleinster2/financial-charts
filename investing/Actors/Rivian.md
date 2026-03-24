@@ -14,7 +14,7 @@ Rivian — US EV startup. R1T truck, R1S SUV, Amazon delivery vans. R2 mass-mark
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.44 |
+| [[Banks\|Regional Banks]] | KRE | 0.44 |
 | [[Consumer]] | XLY | 0.40 |
 | Industrials | XLI | 0.35 |
 | *S&P 500* | *SPY* | *0.34* |

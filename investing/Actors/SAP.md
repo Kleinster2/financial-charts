@@ -14,7 +14,7 @@ aliases: [SAP SE, SAP AG]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Software | IGV | 0.62 |
-| [[Banks|Regional Banks]] | KRE | 0.50 |
+| [[Banks\|Regional Banks]] | KRE | 0.50 |
 | Technology | XLK | 0.47 |
 | *S&P 500* | *SPY* | *0.46* |
 

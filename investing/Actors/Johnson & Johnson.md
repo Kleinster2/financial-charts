@@ -16,7 +16,7 @@ aliases: [JNJ, J&J]
 |--------|-----|-------------|
 | [[Healthcare]] | XLV | 0.49 |
 | [[Consumer Staples]] | XLP | 0.42 |
-| [[Real estate|Real Estate]] | XLRE | 0.23 |
+| [[Real estate\|Real Estate]] | XLRE | 0.23 |
 | *S&P 500* | *SPY* | *0.06* |
 
 JNJ trades between Healthcare and Consumer Staples without a tight sector fit.

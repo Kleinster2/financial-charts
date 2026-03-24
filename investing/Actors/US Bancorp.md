@@ -11,7 +11,7 @@ aliases: [USB, US Bank]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.91 |
+| [[Banks\|Regional Banks]] | KRE | 0.91 |
 | Financials | XLF | 0.82 |
 | Industrials | XLI | 0.75 |
 | *S&P 500* | *SPY* | *0.73* |

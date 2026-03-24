@@ -22,7 +22,7 @@ iShares MSCI United Kingdom ETF — tracks the MSCI United Kingdom Index, provid
 |--------|-----|-------------|
 | Industrials | XLI | 0.77 |
 | [[Defense]] | ITA | 0.77 |
-| [[Real estate|Real Estate]] | XLRE | 0.74 |
+| [[Real estate\|Real Estate]] | XLRE | 0.74 |
 | *S&P 500* | *SPY* | *0.77* |
 
 EWU trades as a core Industrials name (XLI r = 0.77).

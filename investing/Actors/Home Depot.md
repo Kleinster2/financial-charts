@@ -12,7 +12,7 @@ aliases: [HD]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer]] | XLY | 0.63 |
-| [[Banks|Regional Banks]] | KRE | 0.57 |
+| [[Banks\|Regional Banks]] | KRE | 0.57 |
 | Industrials | XLI | 0.56 |
 | *S&P 500* | *SPY* | *0.50* |
 

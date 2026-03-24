@@ -10,7 +10,7 @@ Global index provider. NYSE: MSCI.
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.65 |
+| [[Banks\|Regional Banks]] | KRE | 0.65 |
 | Financials | XLF | 0.61 |
 | Software | IGV | 0.57 |
 | *S&P 500* | *SPY* | *0.55* |

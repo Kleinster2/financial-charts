@@ -14,9 +14,9 @@ aliases: [Christian Dior, Christian Dior SE, CDI.PA]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.31 |
+| [[Banks\|Regional Banks]] | KRE | 0.31 |
 | Industrials | XLI | 0.29 |
-| [[Energy and Utilities|Energy]] | XLE | 0.25 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.25 |
 | *S&P 500* | *SPY* | *0.19* |
 
 CDI.PA trades between Regional Banks and Industrials without a tight sector fit.

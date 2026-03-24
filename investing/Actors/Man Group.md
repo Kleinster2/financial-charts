@@ -14,7 +14,7 @@ aliases: [Man Group PLC, MAN.L, EMG.L]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.36 |
+| [[Banks\|Regional Banks]] | KRE | 0.36 |
 | Financials | XLF | 0.29 |
 | [[Healthcare]] | XLV | 0.24 |
 | *S&P 500* | *SPY* | *0.21* |

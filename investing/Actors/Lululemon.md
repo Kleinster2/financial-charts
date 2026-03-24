@@ -14,7 +14,7 @@ aliases: [LULU, lululemon athletica]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer]] | XLY | 0.50 |
-| [[Banks|Regional Banks]] | KRE | 0.39 |
+| [[Banks\|Regional Banks]] | KRE | 0.39 |
 | Industrials | XLI | 0.37 |
 | *S&P 500* | *SPY* | *0.37* |
 

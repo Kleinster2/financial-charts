@@ -13,7 +13,7 @@ Vertically integrated smart-bed company selling direct-to-consumer through ~550 
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.51 |
+| [[Banks\|Regional Banks]] | KRE | 0.51 |
 | [[Consumer]] | XLY | 0.43 |
 | Oil & Gas E&P | XOP | 0.43 |
 | *S&P 500* | *SPY* | *0.37* |

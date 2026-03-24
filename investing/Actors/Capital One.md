@@ -14,7 +14,7 @@ aliases: [COF]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Financials | XLF | 0.88 |
-| [[Banks|Regional Banks]] | KRE | 0.88 |
+| [[Banks\|Regional Banks]] | KRE | 0.88 |
 | [[Consumer]] | XLY | 0.77 |
 | *S&P 500* | *SPY* | *0.79* |
 

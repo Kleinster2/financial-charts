@@ -11,7 +11,7 @@ aliases: [AAL, American]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.75 |
+| [[Banks\|Regional Banks]] | KRE | 0.75 |
 | [[Consumer]] | XLY | 0.70 |
 | Industrials | XLI | 0.68 |
 | *S&P 500* | *SPY* | *0.70* |

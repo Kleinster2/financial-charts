@@ -13,7 +13,7 @@ aliases: [CSX Corporation]
 |--------|-----|-------------|
 | Industrials | XLI | 0.70 |
 | Financials | XLF | 0.63 |
-| [[Banks|Regional Banks]] | KRE | 0.62 |
+| [[Banks\|Regional Banks]] | KRE | 0.62 |
 | *S&P 500* | *SPY* | *0.63* |
 
 CSX trades as a core Industrials name (XLI r = 0.70).

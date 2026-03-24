@@ -13,7 +13,7 @@ LPL Financial — largest independent broker-dealer in the US. Ticker LPLA. Serv
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.68 |
+| [[Banks\|Regional Banks]] | KRE | 0.68 |
 | Financials | XLF | 0.65 |
 | Oil & Gas E&P | XOP | 0.64 |
 | *S&P 500* | *SPY* | *0.63* |

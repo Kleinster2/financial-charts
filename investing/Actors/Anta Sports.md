@@ -17,8 +17,8 @@ aliases: [Anta, ANTA, 2020.HK]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | China Internet | KWEB | 0.31 |
-| [[Banks|Regional Banks]] | KRE | 0.28 |
-| [[Real estate|Real Estate]] | XLRE | 0.21 |
+| [[Banks\|Regional Banks]] | KRE | 0.28 |
+| [[Real estate\|Real Estate]] | XLRE | 0.21 |
 | *S&P 500* | *SPY* | *0.10* |
 
 2020.HK trades between China Internet and Regional Banks without a tight sector fit.

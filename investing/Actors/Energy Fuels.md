@@ -14,7 +14,7 @@ aliases: [UUUU, Energy Fuels Inc]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.34 |
+| [[Banks\|Regional Banks]] | KRE | 0.34 |
 | Technology | XLK | 0.33 |
 | [[Semiconductors]] | SMH | 0.30 |
 | *S&P 500* | *SPY* | *0.26* |

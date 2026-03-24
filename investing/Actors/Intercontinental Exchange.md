@@ -13,7 +13,7 @@ aliases: [ICE, NYSE, New York Stock Exchange]
 |--------|-----|-------------|
 | Financials | XLF | 0.62 |
 | [[Defense]] | ITA | 0.50 |
-| [[Banks|Regional Banks]] | KRE | 0.50 |
+| [[Banks\|Regional Banks]] | KRE | 0.50 |
 | *S&P 500* | *SPY* | *0.40* |
 
 ICE shows moderate Financials correlation (XLF r = 0.62).

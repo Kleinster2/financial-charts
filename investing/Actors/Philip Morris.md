@@ -18,7 +18,7 @@ tags: [actor, tobacco, consumer, smoke-free]
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.36 |
 | Utilities | XLU | 0.24 |
-| [[Real estate|Real Estate]] | XLRE | 0.18 |
+| [[Real estate\|Real Estate]] | XLRE | 0.18 |
 | *S&P 500* | *SPY* | *0.09* |
 
 PM trades between Consumer Staples and Utilities without a tight sector fit.

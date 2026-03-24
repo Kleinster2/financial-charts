@@ -20,7 +20,7 @@ tags:
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.69 |
 | [[Healthcare]] | XLV | 0.47 |
-| [[Real estate|Real Estate]] | XLRE | 0.45 |
+| [[Real estate\|Real Estate]] | XLRE | 0.45 |
 | *S&P 500* | *SPY* | *0.25* |
 
 PG shows moderate Consumer Staples correlation (XLP r = 0.69).

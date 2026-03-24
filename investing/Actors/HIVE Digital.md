@@ -11,7 +11,7 @@ aliases: [HIVE]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.59 |
+| [[Banks\|Regional Banks]] | KRE | 0.59 |
 | Technology | XLK | 0.53 |
 | [[Consumer]] | XLY | 0.52 |
 | *S&P 500* | *SPY* | *0.52* |

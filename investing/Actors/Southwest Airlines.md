@@ -11,7 +11,7 @@ aliases: [LUV, Southwest]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.71 |
+| [[Banks\|Regional Banks]] | KRE | 0.71 |
 | Industrials | XLI | 0.69 |
 | Financials | XLF | 0.68 |
 | *S&P 500* | *SPY* | *0.61* |

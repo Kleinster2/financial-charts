@@ -18,7 +18,7 @@ tags: [actor, tobacco, consumer]
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.48 |
 | Utilities | XLU | 0.31 |
-| [[Energy and Utilities|Energy]] | XLE | 0.19 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.19 |
 | *S&P 500* | *SPY* | *0.10* |
 
 MO trades between Consumer Staples and Utilities without a tight sector fit.

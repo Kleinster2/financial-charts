@@ -15,7 +15,7 @@ aliases: [EXAS]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.46 |
-| [[Banks|Regional Banks]] | KRE | 0.41 |
+| [[Banks\|Regional Banks]] | KRE | 0.41 |
 | Financials | XLF | 0.29 |
 | *S&P 500* | *SPY* | *0.32* |
 

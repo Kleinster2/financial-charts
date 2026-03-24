@@ -11,7 +11,7 @@ aliases: [HLT, Hilton Worldwide, Hilton Hotels]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.76 |
+| [[Banks\|Regional Banks]] | KRE | 0.76 |
 | Financials | XLF | 0.67 |
 | [[Consumer]] | XLY | 0.66 |
 | *S&P 500* | *SPY* | *0.63* |

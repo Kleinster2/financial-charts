@@ -13,7 +13,7 @@ Companhia Siderurgica Nacional — [[Brazil]]'s largest integrated steel produce
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.50 |
+| [[Banks\|Regional Banks]] | KRE | 0.50 |
 | [[Consumer]] | XLY | 0.49 |
 | Industrials | XLI | 0.46 |
 | *S&P 500* | *SPY* | *0.47* |

@@ -13,7 +13,7 @@ ResMed -- global leader in CPAP and sleep apnea devices. GLP-1 drugs are a parad
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Financials | XLF | 0.60 |
-| [[Banks|Regional Banks]] | KRE | 0.59 |
+| [[Banks\|Regional Banks]] | KRE | 0.59 |
 | [[Healthcare]] | XLV | 0.58 |
 | *S&P 500* | *SPY* | *0.53* |
 

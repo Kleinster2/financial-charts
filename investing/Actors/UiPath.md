@@ -15,7 +15,7 @@ aliases: [PATH, UI Path]
 |--------|-----|-------------|
 | Software | IGV | 0.53 |
 | Technology | XLK | 0.41 |
-| [[Banks|Regional Banks]] | KRE | 0.38 |
+| [[Banks\|Regional Banks]] | KRE | 0.38 |
 | *S&P 500* | *SPY* | *0.36* |
 
 PATH shows moderate Software correlation (IGV r = 0.53).

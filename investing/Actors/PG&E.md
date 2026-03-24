@@ -12,8 +12,8 @@ PG&E Corp — Largest US utility by customers (~5.5M electric, ~4.5M gas). North
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Utilities | XLU | 0.58 |
-| [[Real estate|Real Estate]] | XLRE | 0.56 |
-| [[Banks|Regional Banks]] | KRE | 0.50 |
+| [[Real estate\|Real Estate]] | XLRE | 0.56 |
+| [[Banks\|Regional Banks]] | KRE | 0.50 |
 | *S&P 500* | *SPY* | *0.34* |
 
 PCG shows moderate Utilities correlation (XLU r = 0.58).

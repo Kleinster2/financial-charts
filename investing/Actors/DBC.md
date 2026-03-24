@@ -16,7 +16,7 @@
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.71 |
-| [[Energy and Utilities|Energy]] | XLE | 0.70 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.70 |
 | Technology | XLK | 0.44 |
 | *S&P 500* | *SPY* | *0.45* |
 

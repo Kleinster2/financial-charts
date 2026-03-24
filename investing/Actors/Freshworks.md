@@ -12,7 +12,7 @@ Public SaaS company (NASDAQ: FRSH) offering customer service, IT, and CRM softwa
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Software | IGV | 0.72 |
-| [[Banks|Regional Banks]] | KRE | 0.62 |
+| [[Banks\|Regional Banks]] | KRE | 0.62 |
 | Financials | XLF | 0.53 |
 | *S&P 500* | *SPY* | *0.47* |
 

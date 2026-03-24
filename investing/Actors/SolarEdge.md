@@ -15,7 +15,7 @@ aliases: [SEDG]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer]] | XLY | 0.44 |
-| [[Banks|Regional Banks]] | KRE | 0.43 |
+| [[Banks\|Regional Banks]] | KRE | 0.43 |
 | Technology | XLK | 0.40 |
 | *S&P 500* | *SPY* | *0.42* |
 

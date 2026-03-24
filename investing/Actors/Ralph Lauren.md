@@ -13,7 +13,7 @@ aliases: [RL, Ralph Lauren Corporation, Polo]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.74 |
+| [[Banks\|Regional Banks]] | KRE | 0.74 |
 | [[Consumer]] | XLY | 0.73 |
 | Industrials | XLI | 0.69 |
 | *S&P 500* | *SPY* | *0.70* |

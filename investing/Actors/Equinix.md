@@ -11,7 +11,7 @@ aliases: [EQIX]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Real estate|Real Estate]] | XLRE | 0.57 |
+| [[Real estate\|Real Estate]] | XLRE | 0.57 |
 | [[Defense]] | ITA | 0.53 |
 | Utilities | XLU | 0.51 |
 | *S&P 500* | *SPY* | *0.48* |

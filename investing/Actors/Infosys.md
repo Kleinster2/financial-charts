@@ -11,7 +11,7 @@ aliases: [INFY]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.59 |
+| [[Banks\|Regional Banks]] | KRE | 0.59 |
 | Software | IGV | 0.56 |
 | Financials | XLF | 0.52 |
 | *S&P 500* | *SPY* | *0.51* |

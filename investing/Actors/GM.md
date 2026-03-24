@@ -13,7 +13,7 @@ aliases: [General Motors]
 |--------|-----|-------------|
 | [[Consumer]] | XLY | 0.54 |
 | Industrials | XLI | 0.53 |
-| [[Banks|Regional Banks]] | KRE | 0.51 |
+| [[Banks\|Regional Banks]] | KRE | 0.51 |
 | *S&P 500* | *SPY* | *0.49* |
 
 GM shows moderate Consumer correlation (XLY r = 0.54).

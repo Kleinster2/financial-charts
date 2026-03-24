@@ -13,7 +13,7 @@ aliases: [InterContinental Hotels Group, InterContinental]
 |--------|-----|-------------|
 | [[Consumer]] | XLY | 0.76 |
 | Technology | XLK | 0.71 |
-| [[Banks|Regional Banks]] | KRE | 0.71 |
+| [[Banks\|Regional Banks]] | KRE | 0.71 |
 | *S&P 500* | *SPY* | *0.74* |
 
 IHG trades as a core Consumer name (XLY r = 0.76).

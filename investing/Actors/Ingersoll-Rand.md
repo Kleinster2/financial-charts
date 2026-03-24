@@ -14,7 +14,7 @@ Industrial manufacturing company (compressors, power tools, fluid management). N
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Industrials | XLI | 0.80 |
-| [[Banks|Regional Banks]] | KRE | 0.80 |
+| [[Banks\|Regional Banks]] | KRE | 0.80 |
 | Financials | XLF | 0.68 |
 | *S&P 500* | *SPY* | *0.67* |
 

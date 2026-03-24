@@ -11,7 +11,7 @@ aliases: [FDX]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.74 |
+| [[Banks\|Regional Banks]] | KRE | 0.74 |
 | Industrials | XLI | 0.73 |
 | [[Consumer]] | XLY | 0.69 |
 | *S&P 500* | *SPY* | *0.67* |

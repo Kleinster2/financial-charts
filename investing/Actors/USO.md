@@ -16,8 +16,8 @@
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.61 |
-| [[Energy and Utilities|Energy]] | XLE | 0.60 |
-| [[Banks|Regional Banks]] | KRE | 0.26 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.60 |
+| [[Banks\|Regional Banks]] | KRE | 0.26 |
 | *S&P 500* | *SPY* | *0.22* |
 
 USO shows moderate Oil & Gas E&P correlation (XOP r = 0.61).

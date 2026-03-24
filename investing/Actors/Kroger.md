@@ -15,7 +15,7 @@ aliases: [KR, Kroger Co]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.42 |
-| [[Banks|Regional Banks]] | KRE | -0.40 |
+| [[Banks\|Regional Banks]] | KRE | -0.40 |
 | [[Semiconductors]] | SMH | -0.26 |
 | *S&P 500* | *SPY* | *-0.14* |
 

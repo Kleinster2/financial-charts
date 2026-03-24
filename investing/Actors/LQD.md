@@ -17,7 +17,7 @@
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Real estate|Real Estate]] | XLRE | 0.62 |
+| [[Real estate\|Real Estate]] | XLRE | 0.62 |
 | Utilities | XLU | 0.46 |
 | [[Consumer Staples]] | XLP | 0.45 |
 | *S&P 500* | *SPY* | *0.40* |

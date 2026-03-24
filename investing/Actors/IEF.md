@@ -19,9 +19,9 @@
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Real estate|Real Estate]] | XLRE | 0.37 |
+| [[Real estate\|Real Estate]] | XLRE | 0.37 |
 | Oil & Gas E&P | XOP | -0.37 |
-| [[Banks|Regional Banks]] | KRE | -0.35 |
+| [[Banks\|Regional Banks]] | KRE | -0.35 |
 | *S&P 500* | *SPY* | *-0.06* |
 
 IEF trades between Real Estate and Oil & Gas E&P without a tight sector fit.

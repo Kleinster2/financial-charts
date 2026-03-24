@@ -14,7 +14,7 @@ aliases: [NTDOY, 7974]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.41 |
+| [[Banks\|Regional Banks]] | KRE | 0.41 |
 | Technology | XLK | 0.40 |
 | [[Consumer]] | XLY | 0.39 |
 | *S&P 500* | *SPY* | *0.40* |

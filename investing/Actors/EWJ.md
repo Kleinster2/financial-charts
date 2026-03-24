@@ -22,7 +22,7 @@ iShares MSCI Japan ETF — tracks the MSCI Japan Index, providing broad exposure
 |--------|-----|-------------|
 | Industrials | XLI | 0.83 |
 | [[Defense]] | ITA | 0.77 |
-| [[Real estate|Real Estate]] | XLRE | 0.76 |
+| [[Real estate\|Real Estate]] | XLRE | 0.76 |
 | *S&P 500* | *SPY* | *0.79* |
 
 EWJ trades as a core Industrials name (XLI r = 0.83).

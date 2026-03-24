@@ -11,7 +11,7 @@ aliases: [TGT]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.66 |
+| [[Banks\|Regional Banks]] | KRE | 0.66 |
 | [[Consumer]] | XLY | 0.62 |
 | Industrials | XLI | 0.56 |
 | *S&P 500* | *SPY* | *0.57* |

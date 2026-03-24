@@ -17,7 +17,7 @@
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Real estate|Real Estate]] | XLRE | 0.71 |
+| [[Real estate\|Real Estate]] | XLRE | 0.71 |
 | Industrials | XLI | 0.63 |
 | Communications | XLC | 0.63 |
 | *S&P 500* | *SPY* | *0.69* |

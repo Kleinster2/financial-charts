@@ -14,7 +14,7 @@ Dayforce (formerly Ceridian) — HCM/payroll software. NYSE: DAY. Being taken pr
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Energy and Utilities|Energy]] | XLE | 0.34 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.34 |
 | Industrials | XLI | 0.26 |
 | [[Defense]] | ITA | 0.24 |
 | *S&P 500* | *SPY* | *0.14* |

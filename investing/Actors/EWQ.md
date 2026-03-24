@@ -22,7 +22,7 @@ iShares MSCI France ETF — tracks the MSCI France Index, providing exposure to 
 |--------|-----|-------------|
 | Industrials | XLI | 0.82 |
 | [[Defense]] | ITA | 0.77 |
-| [[Real estate|Real Estate]] | XLRE | 0.76 |
+| [[Real estate\|Real Estate]] | XLRE | 0.76 |
 | *S&P 500* | *SPY* | *0.82* |
 
 EWQ trades as a core Industrials name (XLI r = 0.82).

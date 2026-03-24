@@ -13,7 +13,7 @@ Stifel Financial — mid-cap US wealth management and investment banking firm. T
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.88 |
+| [[Banks\|Regional Banks]] | KRE | 0.88 |
 | Financials | XLF | 0.82 |
 | Industrials | XLI | 0.74 |
 | *S&P 500* | *SPY* | *0.78* |

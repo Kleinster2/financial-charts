@@ -13,7 +13,7 @@ aliases: [SONY, 6758]
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.56 |
 | Industrials | XLI | 0.52 |
-| [[Banks|Regional Banks]] | KRE | 0.51 |
+| [[Banks\|Regional Banks]] | KRE | 0.51 |
 | *S&P 500* | *SPY* | *0.52* |
 
 SONY shows moderate Oil & Gas E&P correlation (XOP r = 0.56).

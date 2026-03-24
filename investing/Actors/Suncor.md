@@ -21,9 +21,9 @@ Canadian integrated energy company and the largest oil sands producer. Operates 
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Energy and Utilities|Energy]] | XLE | 0.91 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.91 |
 | Oil & Gas E&P | XOP | 0.88 |
-| [[Real estate|Real Estate]] | XLRE | 0.74 |
+| [[Real estate\|Real Estate]] | XLRE | 0.74 |
 | *S&P 500* | *SPY* | *0.70* |
 
 SU.TO trades as a core Energy name (XLE r = 0.91).

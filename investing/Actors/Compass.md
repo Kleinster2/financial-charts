@@ -15,7 +15,7 @@ aliases: [COMP, Compass Real Estate]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Communications | XLC | 0.38 |
-| [[Banks|Regional Banks]] | KRE | 0.38 |
+| [[Banks\|Regional Banks]] | KRE | 0.38 |
 | [[Healthcare]] | XLV | 0.37 |
 | *S&P 500* | *SPY* | *0.31* |
 

@@ -15,7 +15,7 @@ aliases: [AMT]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.43 |
-| [[Real estate|Real Estate]] | XLRE | 0.42 |
+| [[Real estate\|Real Estate]] | XLRE | 0.42 |
 | Utilities | XLU | 0.37 |
 | *S&P 500* | *SPY* | *0.02* |
 

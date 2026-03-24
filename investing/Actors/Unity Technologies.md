@@ -12,7 +12,7 @@ aliases: [Unity, U]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Software | IGV | 0.64 |
-| [[Banks|Regional Banks]] | KRE | 0.62 |
+| [[Banks\|Regional Banks]] | KRE | 0.62 |
 | [[Consumer]] | XLY | 0.53 |
 | *S&P 500* | *SPY* | *0.50* |
 

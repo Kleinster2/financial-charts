@@ -11,7 +11,7 @@ aliases: [RIOT]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.62 |
+| [[Banks\|Regional Banks]] | KRE | 0.62 |
 | Technology | XLK | 0.60 |
 | [[Semiconductors]] | SMH | 0.56 |
 | *S&P 500* | *SPY* | *0.53* |

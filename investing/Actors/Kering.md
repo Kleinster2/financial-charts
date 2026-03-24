@@ -14,8 +14,8 @@ aliases: [Gucci parent, KER.PA]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.18 |
-| [[Energy and Utilities|Energy]] | XLE | 0.15 |
+| [[Banks\|Regional Banks]] | KRE | 0.18 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.15 |
 | Oil & Gas E&P | XOP | 0.14 |
 | *S&P 500* | *SPY* | *0.00* |
 

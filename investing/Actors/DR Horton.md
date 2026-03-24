@@ -14,8 +14,8 @@ aliases: [D.R. Horton, DHI]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.48 |
-| [[Real estate|Real Estate]] | XLRE | 0.41 |
+| [[Banks\|Regional Banks]] | KRE | 0.48 |
+| [[Real estate\|Real Estate]] | XLRE | 0.41 |
 | [[Consumer]] | XLY | 0.40 |
 | *S&P 500* | *SPY* | *0.24* |
 

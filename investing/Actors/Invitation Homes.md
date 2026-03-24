@@ -11,9 +11,9 @@ aliases: [INVH]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Real estate|Real Estate]] | XLRE | 0.63 |
+| [[Real estate\|Real Estate]] | XLRE | 0.63 |
 | Financials | XLF | 0.51 |
-| [[Banks|Regional Banks]] | KRE | 0.47 |
+| [[Banks\|Regional Banks]] | KRE | 0.47 |
 | *S&P 500* | *SPY* | *0.41* |
 
 INVH shows moderate Real Estate correlation (XLRE r = 0.63).

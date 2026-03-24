@@ -12,7 +12,7 @@ Diamondback Energy — Pure-play [[Permian Basin]] E&P. Acquired Endeavor Energy
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.92 |
-| [[Energy and Utilities|Energy]] | XLE | 0.90 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.90 |
 | Industrials | XLI | 0.67 |
 | *S&P 500* | *SPY* | *0.63* |
 

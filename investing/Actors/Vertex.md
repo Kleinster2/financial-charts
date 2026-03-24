@@ -16,7 +16,7 @@ aliases: [VRTX, Vertex Pharmaceuticals]
 |--------|-----|-------------|
 | [[Healthcare]] | XLV | 0.47 |
 | Industrials | XLI | 0.31 |
-| [[Real estate|Real Estate]] | XLRE | 0.28 |
+| [[Real estate\|Real Estate]] | XLRE | 0.28 |
 | *S&P 500* | *SPY* | *0.26* |
 
 VRTX trades between Healthcare and Industrials without a tight sector fit.

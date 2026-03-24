@@ -11,7 +11,7 @@ aliases: [SONO]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.70 |
+| [[Banks\|Regional Banks]] | KRE | 0.70 |
 | [[Consumer]] | XLY | 0.59 |
 | Financials | XLF | 0.57 |
 | *S&P 500* | *SPY* | *0.58* |

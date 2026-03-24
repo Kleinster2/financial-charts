@@ -12,7 +12,7 @@ aliases: [Monday, MNDY]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Software | IGV | 0.76 |
-| [[Banks|Regional Banks]] | KRE | 0.63 |
+| [[Banks\|Regional Banks]] | KRE | 0.63 |
 | Technology | XLK | 0.60 |
 | *S&P 500* | *SPY* | *0.59* |
 

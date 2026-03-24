@@ -12,7 +12,7 @@ aliases: [HUBS]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Software | IGV | 0.72 |
-| [[Banks|Regional Banks]] | KRE | 0.53 |
+| [[Banks\|Regional Banks]] | KRE | 0.53 |
 | [[Consumer]] | XLY | 0.49 |
 | *S&P 500* | *SPY* | *0.45* |
 

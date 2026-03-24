@@ -15,7 +15,7 @@ aliases: [ULVR, UL, Unilever PLC]
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.51 |
 | Utilities | XLU | 0.34 |
-| [[Real estate|Real Estate]] | XLRE | 0.33 |
+| [[Real estate\|Real Estate]] | XLRE | 0.33 |
 | *S&P 500* | *SPY* | *0.08* |
 
 UL shows moderate Consumer Staples correlation (XLP r = 0.51).

@@ -19,7 +19,7 @@ US-based crop protection company. $4.25B revenue (2024). Produces insecticides (
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.57 |
-| [[Banks|Regional Banks]] | KRE | 0.52 |
+| [[Banks\|Regional Banks]] | KRE | 0.52 |
 | [[Consumer]] | XLY | 0.42 |
 | *S&P 500* | *SPY* | *0.38* |
 

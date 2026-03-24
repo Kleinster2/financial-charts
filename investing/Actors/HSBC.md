@@ -11,7 +11,7 @@ aliases: [HSBC Holdings, Hongkong and Shanghai Banking Corporation]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.68 |
+| [[Banks\|Regional Banks]] | KRE | 0.68 |
 | Financials | XLF | 0.63 |
 | Industrials | XLI | 0.61 |
 | *S&P 500* | *SPY* | *0.62* |

@@ -13,7 +13,7 @@ aliases: [WDC, WD, [[SanDisk]]]
 |--------|-----|-------------|
 | [[Semiconductors]] | SMH | 0.71 |
 | Technology | XLK | 0.66 |
-| [[Banks|Regional Banks]] | KRE | 0.61 |
+| [[Banks\|Regional Banks]] | KRE | 0.61 |
 | *S&P 500* | *SPY* | *0.60* |
 
 WDC trades as a core Semiconductors name (SMH r = 0.71).

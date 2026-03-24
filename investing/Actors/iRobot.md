@@ -14,7 +14,7 @@ aliases: [IRBT, Roomba]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.42 |
+| [[Banks\|Regional Banks]] | KRE | 0.42 |
 | Industrials | XLI | 0.29 |
 | Financials | XLF | 0.28 |
 | *S&P 500* | *SPY* | *0.21* |

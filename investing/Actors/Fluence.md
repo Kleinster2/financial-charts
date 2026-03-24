@@ -16,7 +16,7 @@ aliases: [FLNC]
 |--------|-----|-------------|
 | Technology | XLK | 0.44 |
 | [[Semiconductors]] | SMH | 0.42 |
-| [[Banks|Regional Banks]] | KRE | 0.40 |
+| [[Banks\|Regional Banks]] | KRE | 0.40 |
 | *S&P 500* | *SPY* | *0.40* |
 
 FLNC trades between Technology and Semiconductors without a tight sector fit.

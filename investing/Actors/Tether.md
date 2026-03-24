@@ -14,7 +14,7 @@ aliases: [USDT, USDT-USD, Tether Limited, Tether Holdings]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.46 |
+| [[Banks\|Regional Banks]] | KRE | 0.46 |
 | Technology | XLK | 0.23 |
 | Oil & Gas E&P | XOP | 0.23 |
 | *S&P 500* | *SPY* | *0.21* |

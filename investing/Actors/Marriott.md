@@ -11,7 +11,7 @@ aliases: [MAR, Marriott International]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.79 |
+| [[Banks\|Regional Banks]] | KRE | 0.79 |
 | Financials | XLF | 0.70 |
 | [[Consumer]] | XLY | 0.69 |
 | *S&P 500* | *SPY* | *0.65* |

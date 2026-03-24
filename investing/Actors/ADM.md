@@ -13,7 +13,7 @@ aliases: [Archer Daniels Midland, Archer-Daniels-Midland]
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.57 |
 | [[Consumer Staples]] | XLP | 0.55 |
-| [[Real estate|Real Estate]] | XLRE | 0.55 |
+| [[Real estate\|Real Estate]] | XLRE | 0.55 |
 | *S&P 500* | *SPY* | *0.43* |
 
 ADM shows moderate Oil & Gas E&P correlation (XOP r = 0.57).

@@ -13,7 +13,7 @@ aliases: [CCJ]
 |--------|-----|-------------|
 | Technology | XLK | 0.50 |
 | [[Semiconductors]] | SMH | 0.49 |
-| [[Banks|Regional Banks]] | KRE | 0.44 |
+| [[Banks\|Regional Banks]] | KRE | 0.44 |
 | *S&P 500* | *SPY* | *0.44* |
 
 CCJ shows moderate Technology correlation (XLK r = 0.50).

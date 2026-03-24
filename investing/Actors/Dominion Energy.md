@@ -12,7 +12,7 @@ aliases: [D]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Utilities | XLU | 0.76 |
-| [[Real estate|Real Estate]] | XLRE | 0.62 |
+| [[Real estate\|Real Estate]] | XLRE | 0.62 |
 | [[Consumer Staples]] | XLP | 0.61 |
 | *S&P 500* | *SPY* | *0.41* |
 

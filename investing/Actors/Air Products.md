@@ -20,7 +20,7 @@ Global industrial gas company. 1/3 owner of the $8.4B NEOM Green Hydrogen Comple
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.64 |
+| [[Banks\|Regional Banks]] | KRE | 0.64 |
 | Oil & Gas E&P | XOP | 0.63 |
 | Financials | XLF | 0.52 |
 | *S&P 500* | *SPY* | *0.48* |

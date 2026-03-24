@@ -11,7 +11,7 @@ Destiny Tech100 -- publicly-traded closed-end fund (NYSE: DXYZ) offering retail 
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.52 |
+| [[Banks\|Regional Banks]] | KRE | 0.52 |
 | Oil & Gas E&P | XOP | 0.51 |
 | Technology | XLK | 0.47 |
 | *S&P 500* | *SPY* | *0.46* |

@@ -19,7 +19,7 @@ South Korea's second-largest semiconductor foundry behind [[Samsung Electronics]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Utilities | XLU | 0.28 |
-| [[Energy and Utilities|Energy]] | XLE | 0.15 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.15 |
 | China Internet | KWEB | 0.15 |
 | *S&P 500* | *SPY* | *0.03* |
 

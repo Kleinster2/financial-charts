@@ -13,7 +13,7 @@ aliases: [NVT, nVent]
 |--------|-----|-------------|
 | [[Semiconductors]] | SMH | 0.74 |
 | Technology | XLK | 0.73 |
-| [[Banks|Regional Banks]] | KRE | 0.73 |
+| [[Banks\|Regional Banks]] | KRE | 0.73 |
 | *S&P 500* | *SPY* | *0.69* |
 
 NVT trades as a core Semiconductors name (SMH r = 0.74).

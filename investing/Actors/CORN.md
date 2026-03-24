@@ -19,7 +19,7 @@
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Communications | XLC | 0.15 |
-| [[Banks|Regional Banks]] | KRE | -0.12 |
+| [[Banks\|Regional Banks]] | KRE | -0.12 |
 | Software | IGV | 0.11 |
 | *S&P 500* | *SPY* | *0.03* |
 

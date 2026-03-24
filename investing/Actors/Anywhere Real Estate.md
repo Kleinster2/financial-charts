@@ -11,9 +11,9 @@ aliases: [HOUS, Realogy, Anywhere]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Real estate|Real Estate]] | XLRE | 0.51 |
+| [[Real estate\|Real Estate]] | XLRE | 0.51 |
 | Communications | XLC | 0.44 |
-| [[Banks|Regional Banks]] | KRE | 0.44 |
+| [[Banks\|Regional Banks]] | KRE | 0.44 |
 | *S&P 500* | *SPY* | *0.40* |
 
 HOUS shows moderate Real Estate correlation (XLRE r = 0.51).

@@ -18,7 +18,7 @@
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.97 |
-| [[Banks|Regional Banks]] | KRE | 0.68 |
+| [[Banks\|Regional Banks]] | KRE | 0.68 |
 | Industrials | XLI | 0.64 |
 | *S&P 500* | *SPY* | *0.64* |
 

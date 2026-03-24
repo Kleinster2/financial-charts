@@ -11,7 +11,7 @@ aliases: [RCL, Royal Caribbean Group]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.71 |
+| [[Banks\|Regional Banks]] | KRE | 0.71 |
 | Industrials | XLI | 0.64 |
 | Financials | XLF | 0.63 |
 | *S&P 500* | *SPY* | *0.57* |

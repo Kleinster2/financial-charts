@@ -15,7 +15,7 @@ aliases: [ABT, Abbott Laboratories]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Healthcare]] | XLV | 0.42 |
-| [[Real estate|Real Estate]] | XLRE | 0.35 |
+| [[Real estate\|Real Estate]] | XLRE | 0.35 |
 | [[Consumer Staples]] | XLP | 0.32 |
 | *S&P 500* | *SPY* | *0.19* |
 

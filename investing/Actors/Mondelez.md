@@ -13,7 +13,7 @@ Mondelez International is a global snacking company spun out of Kraft Foods in 2
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.63 |
 | Utilities | XLU | 0.38 |
-| [[Real estate|Real Estate]] | XLRE | 0.36 |
+| [[Real estate\|Real Estate]] | XLRE | 0.36 |
 | *S&P 500* | *SPY* | *0.17* |
 
 MDLZ shows moderate Consumer Staples correlation (XLP r = 0.63).

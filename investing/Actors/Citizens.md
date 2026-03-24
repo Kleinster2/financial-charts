@@ -16,7 +16,7 @@ tags:
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.95 |
+| [[Banks\|Regional Banks]] | KRE | 0.95 |
 | Financials | XLF | 0.79 |
 | Industrials | XLI | 0.74 |
 | *S&P 500* | *SPY* | *0.71* |

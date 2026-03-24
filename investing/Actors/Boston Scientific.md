@@ -12,7 +12,7 @@ aliases: [BSX]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Defense]] | ITA | 0.51 |
-| [[Banks|Regional Banks]] | KRE | 0.38 |
+| [[Banks\|Regional Banks]] | KRE | 0.38 |
 | Communications | XLC | 0.37 |
 | *S&P 500* | *SPY* | *0.37* |
 

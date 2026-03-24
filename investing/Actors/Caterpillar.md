@@ -13,7 +13,7 @@ aliases: [CAT]
 |--------|-----|-------------|
 | Industrials | XLI | 0.75 |
 | [[Semiconductors]] | SMH | 0.73 |
-| [[Banks|Regional Banks]] | KRE | 0.69 |
+| [[Banks\|Regional Banks]] | KRE | 0.69 |
 | *S&P 500* | *SPY* | *0.66* |
 
 CAT trades as a core Industrials name (XLI r = 0.75).

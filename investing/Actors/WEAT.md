@@ -19,7 +19,7 @@
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Communications | XLC | 0.14 |
-| [[Energy and Utilities|Energy]] | XLE | 0.10 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.10 |
 | Oil & Gas E&P | XOP | 0.10 |
 | *S&P 500* | *SPY* | *0.00* |
 

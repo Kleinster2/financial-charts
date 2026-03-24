@@ -12,7 +12,7 @@ aliases: [MORN, Morningstar Inc, PitchBook]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Financials | XLF | 0.67 |
-| [[Banks|Regional Banks]] | KRE | 0.60 |
+| [[Banks\|Regional Banks]] | KRE | 0.60 |
 | Software | IGV | 0.58 |
 | *S&P 500* | *SPY* | *0.56* |
 

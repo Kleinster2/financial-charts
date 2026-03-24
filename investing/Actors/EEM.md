@@ -19,7 +19,7 @@
 |--------|-----|-------------|
 | [[Semiconductors]] | SMH | 0.71 |
 | Industrials | XLI | 0.67 |
-| [[Real estate|Real Estate]] | XLRE | 0.67 |
+| [[Real estate\|Real Estate]] | XLRE | 0.67 |
 | *S&P 500* | *SPY* | *0.71* |
 
 EEM trades as a core Semiconductors name (SMH r = 0.71).

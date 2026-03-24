@@ -12,7 +12,7 @@ aliases: [WMT]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.70 |
-| [[Real estate|Real Estate]] | XLRE | 0.57 |
+| [[Real estate\|Real Estate]] | XLRE | 0.57 |
 | Utilities | XLU | 0.53 |
 | *S&P 500* | *SPY* | *0.48* |
 

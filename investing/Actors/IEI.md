@@ -20,7 +20,7 @@
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | -0.46 |
-| [[Banks|Regional Banks]] | KRE | -0.43 |
+| [[Banks\|Regional Banks]] | KRE | -0.43 |
 | [[Consumer Staples]] | XLP | 0.38 |
 | *S&P 500* | *SPY* | *-0.13* |
 

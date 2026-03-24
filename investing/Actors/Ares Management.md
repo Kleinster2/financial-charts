@@ -11,7 +11,7 @@ aliases: [Ares, ARES]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.79 |
+| [[Banks\|Regional Banks]] | KRE | 0.79 |
 | Financials | XLF | 0.74 |
 | Technology | XLK | 0.68 |
 | *S&P 500* | *SPY* | *0.72* |

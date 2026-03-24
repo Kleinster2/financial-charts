@@ -17,7 +17,7 @@ aliases: [DBRG]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.71 |
+| [[Banks\|Regional Banks]] | KRE | 0.71 |
 | Oil & Gas E&P | XOP | 0.71 |
 | Communications | XLC | 0.50 |
 | *S&P 500* | *SPY* | *0.46* |

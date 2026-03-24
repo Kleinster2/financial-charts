@@ -14,7 +14,7 @@ Dassault Systèmes — French industrial software company. CAD/PLM/simulation. E
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.43 |
+| [[Banks\|Regional Banks]] | KRE | 0.43 |
 | Software | IGV | 0.38 |
 | [[Consumer]] | XLY | 0.34 |
 | *S&P 500* | *SPY* | *0.30* |

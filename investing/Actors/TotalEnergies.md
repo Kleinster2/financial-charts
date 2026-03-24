@@ -12,7 +12,7 @@ TotalEnergies — French oil major. Most aggressive integrated energy strategy. 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Oil & Gas E&P | XOP | 0.77 |
-| [[Energy and Utilities|Energy]] | XLE | 0.73 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.73 |
 | Industrials | XLI | 0.44 |
 | *S&P 500* | *SPY* | *0.45* |
 

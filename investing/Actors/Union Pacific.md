@@ -12,7 +12,7 @@ aliases: [UNP]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Industrials | XLI | 0.74 |
-| [[Banks|Regional Banks]] | KRE | 0.71 |
+| [[Banks\|Regional Banks]] | KRE | 0.71 |
 | Financials | XLF | 0.67 |
 | *S&P 500* | *SPY* | *0.63* |
 

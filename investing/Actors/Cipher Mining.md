@@ -13,7 +13,7 @@ aliases: [CIFR]
 |--------|-----|-------------|
 | Technology | XLK | 0.55 |
 | [[Semiconductors]] | SMH | 0.53 |
-| [[Banks|Regional Banks]] | KRE | 0.52 |
+| [[Banks\|Regional Banks]] | KRE | 0.52 |
 | *S&P 500* | *SPY* | *0.51* |
 
 CIFR shows moderate Technology correlation (XLK r = 0.55).

@@ -11,7 +11,7 @@ aliases: [Carlyle Group, CG]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.86 |
+| [[Banks\|Regional Banks]] | KRE | 0.86 |
 | Financials | XLF | 0.78 |
 | Industrials | XLI | 0.71 |
 | *S&P 500* | *SPY* | *0.72* |

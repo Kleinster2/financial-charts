@@ -11,7 +11,7 @@ aliases: [FOX, FOXA, Fox News, Fox Sports]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.64 |
+| [[Banks\|Regional Banks]] | KRE | 0.64 |
 | Financials | XLF | 0.62 |
 | Communications | XLC | 0.61 |
 | *S&P 500* | *SPY* | *0.57* |

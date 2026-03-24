@@ -14,7 +14,7 @@ aliases: [ENPH, Enphase Energy]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.44 |
+| [[Banks\|Regional Banks]] | KRE | 0.44 |
 | [[Consumer]] | XLY | 0.36 |
 | Financials | XLF | 0.34 |
 | *S&P 500* | *SPY* | *0.29* |

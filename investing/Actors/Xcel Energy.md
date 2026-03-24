@@ -13,7 +13,7 @@ Xcel Energy — Major US utility (Midwest/West), ~3.7M electric customers across
 |--------|-----|-------------|
 | Utilities | XLU | 0.71 |
 | [[Consumer Staples]] | XLP | 0.53 |
-| [[Real estate|Real Estate]] | XLRE | 0.48 |
+| [[Real estate\|Real Estate]] | XLRE | 0.48 |
 | *S&P 500* | *SPY* | *0.27* |
 
 XEL trades as a core Utilities name (XLU r = 0.71).

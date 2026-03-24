@@ -11,7 +11,7 @@ aliases: [KMI]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Energy and Utilities|Energy]] | XLE | 0.67 |
+| [[Energy and Utilities\|Energy]] | XLE | 0.67 |
 | Oil & Gas E&P | XOP | 0.66 |
 | Utilities | XLU | 0.54 |
 | *S&P 500* | *SPY* | *0.46* |

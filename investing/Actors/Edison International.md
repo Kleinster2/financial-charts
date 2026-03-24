@@ -12,7 +12,7 @@ Edison International — Parent of Southern California Edison (SCE), serving ~5M
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Utilities | XLU | 0.60 |
-| [[Real estate|Real Estate]] | XLRE | 0.55 |
+| [[Real estate\|Real Estate]] | XLRE | 0.55 |
 | Oil & Gas E&P | XOP | 0.53 |
 | *S&P 500* | *SPY* | *0.44* |
 

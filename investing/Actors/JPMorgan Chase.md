@@ -21,7 +21,7 @@ aliases:
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Financials | XLF | 0.85 |
-| [[Banks|Regional Banks]] | KRE | 0.79 |
+| [[Banks\|Regional Banks]] | KRE | 0.79 |
 | Industrials | XLI | 0.73 |
 | *S&P 500* | *SPY* | *0.73* |
 

@@ -242,6 +242,8 @@ Musk (Feb 2026): "SpaceX has already shifted focus to building a self-growing ci
 
 IPO implication: Moon-first is a more credible near-term narrative for institutional investors than Mars. Lunar infrastructure for AI satellites ties directly to the orbital data center thesis and gives the $50B IPO raise a tangible near-term use of proceeds story.
 
+See [[Lunar Mass Driver]] for full concept analysis (physics, O'Neill lineage, economics, skepticism).
+
 ---
 
 ## Semiconductor/chip relevance
@@ -432,6 +434,9 @@ Jan 10, 2026: FCC approved 7,500 additional Gen2 [[Starlink]] satellites.
 - [[Submarine Cables]] — terrestrial competition
 - [[Iran]] — Jan 2026 [[Starlink]] deployment discussion
 - [[Space data centers]] — 100GW orbital compute vision
+- [[Lunar Mass Driver]] — electromagnetic catapult for Moon-manufactured AI satellites
+- [[TERAFAB]] — $20-25B joint chip fab (Tesla/SpaceX/xAI) feeding lunar pipeline
+- [[Starship]] — super-heavy launch vehicle, Earth-to-Moon logistics
 - [[Power constraints]] — problem space DCs aim to solve
 - [[Blue Origin]] — competitor (Bezos space DC vision)
 - [[Baron Capital]] — largest outside investor (~$10B across funds)

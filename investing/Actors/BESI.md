@@ -15,7 +15,7 @@ aliases: [BE Semiconductor, BESI.AS]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Semiconductors]] | SMH | 0.23 |
-| [[Banks|Regional Banks]] | KRE | 0.23 |
+| [[Banks\|Regional Banks]] | KRE | 0.23 |
 | [[Consumer]] | XLY | 0.17 |
 | *S&P 500* | *SPY* | *0.09* |
 

@@ -12,7 +12,7 @@ aliases: [STMicroelectronics, ST Micro, STM]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Semiconductors]] | SMH | 0.70 |
-| [[Banks|Regional Banks]] | KRE | 0.68 |
+| [[Banks\|Regional Banks]] | KRE | 0.68 |
 | [[Consumer]] | XLY | 0.67 |
 | *S&P 500* | *SPY* | *0.69* |
 

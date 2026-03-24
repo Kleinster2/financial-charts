@@ -12,7 +12,7 @@ aliases: [KDP, Keurig Dr Pepper Inc, Green Mountain Coffee, GMCR]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Consumer Staples]] | XLP | 0.62 |
-| [[Real estate|Real Estate]] | XLRE | 0.45 |
+| [[Real estate\|Real Estate]] | XLRE | 0.45 |
 | [[Healthcare]] | XLV | 0.38 |
 | *S&P 500* | *SPY* | *0.24* |
 

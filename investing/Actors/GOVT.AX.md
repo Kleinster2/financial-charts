@@ -20,7 +20,7 @@
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | [[Healthcare]] | XLV | 0.35 |
-| [[Real estate|Real Estate]] | XLRE | 0.30 |
+| [[Real estate\|Real Estate]] | XLRE | 0.30 |
 | Industrials | XLI | 0.27 |
 | *S&P 500* | *SPY* | *0.21* |
 

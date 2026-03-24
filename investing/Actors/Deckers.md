@@ -13,7 +13,7 @@ aliases: [DECK, Deckers Outdoor, Deckers Brands, Hoka]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks|Regional Banks]] | KRE | 0.65 |
+| [[Banks\|Regional Banks]] | KRE | 0.65 |
 | [[Consumer]] | XLY | 0.52 |
 | Industrials | XLI | 0.48 |
 | *S&P 500* | *SPY* | *0.45* |

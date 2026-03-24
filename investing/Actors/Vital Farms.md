@@ -15,7 +15,7 @@ aliases: [VITL, Vital Farms Inc]
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Financials | XLF | 0.19 |
-| [[Real estate|Real Estate]] | XLRE | 0.19 |
+| [[Real estate\|Real Estate]] | XLRE | 0.19 |
 | Communications | XLC | 0.18 |
 | *S&P 500* | *SPY* | *0.18* |
 

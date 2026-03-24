@@ -374,9 +374,9 @@ At an xAI all-hands meeting, Musk told employees the company should build a fact
 
 **Context:** This represents Musk's Mars-to-Moon pivot. He spent years denigrating lunar missions as a "distraction" from Mars — now the Moon is "faster" for securing civilization. SpaceX filed for 1M satellite authorization (Jan 30, 2026). The "sentient sun" concept = vast constellation of AI satellites forming an orbital intelligence network.
 
-*Source: NYT, Feb 10 2026*
+See [[Lunar Mass Driver]] for full concept analysis. See [[SpaceX xAI merger]] for merger details.
 
-See [[SpaceX xAI merger]] for full analysis.
+*Source: NYT, Feb 10 2026*
 
 ---
 

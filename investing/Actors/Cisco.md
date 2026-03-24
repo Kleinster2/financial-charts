@@ -12,7 +12,7 @@ Cisco — Legacy networking giant. Playing catch-up in AI data centers. Acquirin
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
 | Technology | XLK | 0.66 |
-| [[Banks|Regional Banks]] | KRE | 0.66 |
+| [[Banks\|Regional Banks]] | KRE | 0.66 |
 | [[Semiconductors]] | SMH | 0.64 |
 | *S&P 500* | *SPY* | *0.64* |
 
