@@ -271,6 +271,7 @@ PIF did not commit to Vision Fund 2. The experience reshaped PIF's approach: sub
 - [[UAE G42]] — regional AI competitor
 - [[MGX]] — Abu Dhabi sovereign AI fund
 - [[Future Investment Initiative]] — flagship summit ("Davos in the Desert")
+- [[FII Priority Miami 2026]] — 4th Miami edition (March 25-27, Iran war context, Trump closing keynote)
 - [[Richard Attias & Associates]] — FII organizer (planning ~$1B IPO)
 - [[Gulf Sovereign Capital Reallocation]] — Iran war capital shift framework
 - [[Iran conflict Gulf equity divergence]] — market impact analysis

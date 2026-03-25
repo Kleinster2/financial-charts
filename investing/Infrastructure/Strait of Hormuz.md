@@ -213,6 +213,18 @@ Wiggen highlighted mines as "extremely difficult" — thousands of small fishing
 
 ---
 
+## Prediction market — 39% chance of normalization by April 30 (Polymarket, March 25)
+
+[[Polymarket]] is pricing a **39% probability** that Hormuz traffic returns to normal by end of April ($1.1M total volume, opened March 9). Resolution: [[IMF]] Portwatch 7-day moving average of transit calls ("Arrivals of Ships") ≥ 60 for any date through April 30, 2026.
+
+The market's 61% No aligns with the expert consensus: [[Amrita Sen]] pushed [[Energy Aspects]]' reopening estimate to end of April (March 23), and [[Nadia Martin Wiggen]] at [[Stellen Capital]] hears "not until May" as the earliest military reopening. The prediction market is effectively pricing in a ~40% chance the experts are wrong — or that a diplomatic breakthrough (Iran reportedly reaching out through third parties) accelerates the timeline.
+
+The resolution metric is revealing: 60 daily transit calls would still be well below the pre-crisis baseline of ~80-105 vessels/day exiting the Gulf. "Normal" here means partially recovered, not fully restored.
+
+*Source: Polymarket (polled March 25, 2026)*
+
+---
+
 ## Related
 
 - [[Iran]] — controls northern shore
@@ -233,6 +245,7 @@ Wiggen highlighted mines as "extremely difficult" — thousands of small fishing
 - [[Energy Aspects]] — commercial confidence as binding constraint
 - [[Nadia Martin Wiggen]] — May reopening, physical market assessment, go-quiet-then-strike risk
 - [[Stellen Capital]] — commodities/shipping hedge fund
+- [[Polymarket]] — 39% normalization by April 30 (prediction market)
 
 ---
 
@@ -246,4 +259,4 @@ See [[Hormuz Transit Regime]] for the full concept note covering transit fees, b
 
 ---
 
-*Updated 2026-03-25 (transit regime + fees + yuan condition)*
+*Updated 2026-03-25 (Polymarket normalization odds; transit regime + fees + yuan condition)*

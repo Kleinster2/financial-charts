@@ -230,6 +230,10 @@ Companies:
 Events:
 - [[India AI Impact Summit 2026]] — first Global South AI summit (Feb 2026)
 - [[Iran conflict FX dynamics]] — rupee among most exposed EM currencies
+- [[Iran conflict sanctions paradox]] — waiver enabling Iranian + Russian crude purchases
+
+Oil:
+- [[NIOC]] — seller of 5M barrels to [[Reliance Industries]] (March 2026 waiver)
 
 ---
 
@@ -350,6 +354,18 @@ Russian crude (Urals, ESPO, Varandey grades) offered at $2–$8/bbl premium to D
 US Ambassador Sergio Gor called India "a great partner in maintaining stable oil prices" (X, March 19). [[Japan]] and [[South Korea]] subsequently also permitted to resume Russian purchases.
 
 See [[Iran conflict economic disruption]] for the full Hormuz crisis context and [[Global oil trade flows]] for the rerouting dynamics.
+
+---
+
+## Iranian crude resumed — first purchase since 2019 (March 24, 2026)
+
+The [[Trump II|Trump]] administration's 30-day [[Iran]] oil sanctions waiver (March 20) opened a brief window for Indian refiners. [[NIOC]] and traders offered [[Iran]]ian crude at $6-8/bbl premium to ICE [[Brent crude|Brent]] — an inversion from the historical discount — driven by the narrow waiver window, [[Strait of Hormuz]] near-shutdown, and payment friction (Iran cut off from SWIFT). Payment sought in USD within 7 days; some accepting INR.
+
+Reuters reported [[Reliance Industries]] purchased 5M barrels from [[NIOC]] — [[India]]'s first Iranian crude purchase since May 2019. Reliance denied it. The waiver applies to oil loaded before March 20, discharged by April 19, including sanctioned [[Shadow fleet]] vessels.
+
+Combined with the 40M+ barrels of [[Russia]]n crude purchased under a separate waiver earlier in March, Indian refiners are aggressively sourcing from both sanctioned producers to fill the supply gap left by the Hormuz closure. See [[Iran conflict sanctions paradox]] for the strategic implications.
+
+*Source: Reuters, Zawya, BusinessToday (Mar 20-24, 2026)*
 
 ---
 

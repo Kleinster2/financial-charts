@@ -581,7 +581,11 @@ The first SPR announcement moved oil "quite a lot." By the actual IEA coordinate
 
 ### April loading gone, May loading in question
 
-April loading barrels from the Gulf are already gone. The market is "increasingly wondering if they're even going to get May loading." May loading barrel prices have "skyrocketed" — the real tightness signal for the Asian physical market, where cargoes are bought on term contracts months ahead.
+Gulf oil is sold on term contracts months ahead of [[Physical Oil Trading|physical loading]] — a refiner in [[Japan]] or [[South Korea]] buying April-loading barrels placed those orders weeks ago. The cargo gets loaded onto a tanker at a Gulf port in April and arrives 2-3 weeks later. With [[Strait of Hormuz|Hormuz]] closed since early March, no April-loading barrels are coming out of the Gulf. Those cargoes simply don't exist — buyers with April contracts face force majeure or scramble for alternative supply from the Atlantic basin, West Africa, or the [[USGC]] (see [[Iran conflict supply chain cascade]] for the diversion mechanics).
+
+The market is now looking at May loading. If the strait doesn't reopen by mid-to-late April, May loading barrels can't be scheduled either. May loading prices have "skyrocketed" — Asian refiners bidding aggressively for whatever non-Gulf crude they can find.
+
+This is the signal Wiggen trusts more than [[Brent crude|Brent]] futures. Paper Brent can swing $10 on a Truth Social post. But when a refiner in [[Thailand]] pays a massive premium to lock in a May cargo from the US Gulf Coast instead of waiting for Hormuz to reopen, that's real money making a real bet that the strait stays closed through April. The physical forward market shows what buyers actually believe, not what traders are hoping.
 
 ### Pre-conflict positioning — extreme underweight energy
 

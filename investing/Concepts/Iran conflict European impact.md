@@ -171,9 +171,9 @@ Source: MEI panel, March 20 2026 — Connelly
 
 The earliest diverted [[LNG]] can reach Europe after the Hormuz disruption is 70 days from March 23. Even if the strait reopens in May and Gulf shipments resume by June, the Atlantic basin diversions already in progress will arrive at European terminals concurrently with resumed Gulf flows — creating potential receiving congestion rather than smooth supply normalization.
 
-### Putin's May 1 LNG cutoff threat
+### Putin's LNG cutoff threat — pre-empting EU ban
 
-[[Russia]] threatened to halt all LNG deliveries to Europe from May 1. Russian LNG represents 16% of European supply. Combined with the [[Qatar]] [[Ras Laffan]] damage (9% of European LNG imports, potentially offline for 3-5 years), Europe faces the loss of 25% of its LNG supply base heading into the summer filling season.
+[[Putin]] signaled on March 4-5 (state TV remarks) that [[Russia]] would halt all LNG deliveries to [[Europe]] before the EU's own short-term LNG contract ban takes effect on April 25. The EU ban covers spot and sub-12-month contracts only — long-term deals (the majority of Russian LNG flow to Europe) would have continued. Putin's threat goes further: a full cutoff, reframing a European policy measure as a Russian initiative — cutting all supply on Moscow's terms rather than waiting for Brussels to impose a partial restriction. Russian LNG represents ~13% of European supply. Combined with the [[Qatar]] [[Ras Laffan]] damage (9% of European LNG imports, potentially offline for 3-5 years), Europe faces the loss of ~22% of its LNG supply base heading into the summer filling season.
 
 European gas inventories are already 30% lower than the same point last year. European storage at full capacity covers 25% of winter demand — the remaining 75% depends on continuous deliveries. This means Europe cannot simply stockpile its way through winter; it must maintain flow throughout the year.
 

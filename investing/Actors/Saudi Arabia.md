@@ -106,6 +106,8 @@ See [[2026 Iran conflict market impact#Day 14 — March 13 (Gulf equity divergen
 - [[GCC]] — region (Gulf Cooperation Council)
 - [[Tadawul]] — actor (stock exchange)
 - [[2026 Iran conflict market impact]] — event (equity outperformance during conflict)
+- [[Future Investment Initiative]] — flagship investor summit ("Davos in the Desert")
+- [[FII Priority Miami 2026]] — 4th Miami edition (March 25-27, Trump closing keynote amid Iran war)
 - [[Mohammed bin Salman]] — de facto ruler, Vision 2030 architect
 - [Geopolitics: Bernard Haykel](obsidian://open?vault=geopolitics&file=Thinkers%2FBernard%20Haykel) — Princeton scholar, primary source on MBS and Saudi transformation
 - [[Ahmed Zaki Yamani]] — former oil minister, "stone age" quote on energy transition

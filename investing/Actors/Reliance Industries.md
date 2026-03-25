@@ -100,6 +100,45 @@ Reliance halted lithium-ion cell manufacturing after [[Xiamen Hithium]] withdrew
 
 ---
 
+## Iranian crude purchase — March 24, 2026
+
+Reuters reported [[Reliance Industries]] purchased 5 million barrels of [[Iran]]ian crude from [[NIOC]] — the first Indian purchase of Iranian oil since May 2019 when shipments halted under [[US sanctions]]. Reliance subsequently denied the purchase.
+
+| Detail | Value |
+|--------|-------|
+| Volume | 5 million barrels |
+| Seller | [[NIOC]] (National Iranian Oil Company) |
+| Price | ~$7/bbl premium to ICE [[Brent crude|Brent]] futures |
+| Legal basis | 30-day [[US sanctions]] waiver (issued March 20) |
+| Window | Oil loaded before March 20, discharged by April 19 |
+| Delivery | Unclear — waiver deadline constrains to April 19 |
+| Payment sought | USD, 7 days after cargo arrival; some parties accepting INR |
+| Reliance response | Denied the purchase (despite Reuters sourcing) |
+
+### Why a premium — the price inversion
+
+Iranian crude historically trades at a deep discount to [[Brent crude|Brent]] (pre-2019: typically $3-5/bbl below). The $6-8/bbl premium over Brent is an extraordinary inversion driven by three factors:
+
+1. [[Strait of Hormuz]] near-shutdown — only scattered Iranian and Chinese tankers still transiting. 20% of global petroleum normally flows through. [[India]] faces acute supply gaps, especially [[LPG]] (90% of imports from Middle East).
+
+2. Narrow waiver window — the March 20 waiver applies only to oil loaded before that date, discharged by April 19. 30 days creates a seller's market. [[NIOC]] and traders can name their price.
+
+3. Payment and compliance friction — [[Iran]] is cut off from SWIFT. Indian refiners cautious on payment mechanisms. The friction premium is real — but buyers willing to pay because the alternative is no crude at all.
+
+### Waiver context
+
+The [[Trump II|Trump]] administration issued a 30-day general license on March 20 permitting purchase of Iranian oil already at sea — including from sanctioned [[Shadow fleet]] vessels — loaded on or before March 20, discharged by April 19. Treasury Secretary [[Scott Bessent]]: "narrowly tailored, short-term authorization." Claimed ~140 million barrels at sea. [[Goldman Sachs]] estimates 105M. [[Iran]] denies having floating crude.
+
+The waiver has no reporting requirements, no escrow mechanism, and no payment channel restrictions — in contrast to the [[Venezuela]] oil waiver precedent. The [[IEA]] executive director called the current energy crisis "worse than the two oil shocks of the 1970s put together."
+
+### India's broader crude scramble (March 2026)
+
+[[India]] bought 40M+ barrels of [[Russia]]n crude this month under a separate US waiver (pre-March 5 loadings), at $2-8/bbl premiums to Dated [[Brent crude|Brent]]. [[China]] remains the dominant Iranian buyer at 1.5+ mbd. See [[India]] for the Russian crude surge and [[Iran conflict sanctions paradox]] for the strategic incoherence of lifting sanctions mid-war.
+
+*Source: Reuters, Zawya, BusinessToday, Fortune (Mar 20-24, 2026)*
+
+---
+
 ## Related
 
 - [[Jio Platforms]] — telecom subsidiary
@@ -109,3 +148,7 @@ Reliance halted lithium-ion cell manufacturing after [[Xiamen Hithium]] withdrew
 - [[Battery supply chain]] — sector context
 - [[Gulf Coast refiners]] — refining cluster context
 - [[America First Refining]] — JV partner for Brownsville refinery
+- [[NIOC]] — seller of 5M bbl Iranian crude (March 2026 waiver)
+- [[Iran]] — sanctions waiver crude purchase
+- [[Iran conflict sanctions paradox]] — lifting sanctions mid-war
+- [[Shadow fleet]] — waiver applies to sanctioned vessels

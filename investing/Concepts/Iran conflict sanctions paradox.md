@@ -91,4 +91,38 @@ The structural irony: higher oil prices from the Iran conflict solve Russia's sh
 
 ---
 
-*Created 2026-03-22 (MEI panel ingestion). Updated 2026-03-23 (Brooks Substack).*
+## Waiver issued — March 20: the paradox made concrete
+
+What Mulroy and Brooks described as unprecedented actually happened. On March 20, the [[Trump II|Trump]] administration issued a 30-day general license permitting purchase of [[Iran]]ian oil already at sea — including from sanctioned [[Shadow fleet]] vessels — loaded on or before March 20, discharged by April 19. Treasury Secretary [[Scott Bessent]]: "narrowly tailored, short-term authorization."
+
+| Detail | Value |
+|--------|-------|
+| Duration | March 20 — April 19, 2026 |
+| Scope | All oil loaded on any vessel (including sanctioned) before March 20 |
+| Claimed volume at sea | ~140M barrels (Treasury); 105M ([[Goldman Sachs]]); zero ([[Iran]] denial) |
+| Geographic exclusions | Cuba, North Korea, Crimea |
+| Reporting requirements | None |
+| Escrow mechanism | None |
+| Payment channel restrictions | None |
+
+### Lack of guardrails
+
+The FDD flagged the absence of any safeguards compared to the [[Venezuela]] oil waiver precedent: no detailed reporting requirements on buy- or sell-side, no escrow mechanism, and no restrictions on payment channels. [[Scott Bessent]] asserted [[Iran]] "will have difficulty accessing any revenue" — but the structural safeguards to ensure that are absent. Congressional Democrats criticized the measure as economically beneficial to [[Iran]] amid active combat.
+
+### First transaction — Reliance (March 24)
+
+Reuters reported [[Reliance Industries]] purchased 5 million barrels from [[NIOC]] at ~$7/bbl premium to ICE [[Brent crude|Brent]] — [[India]]'s first Iranian crude purchase since May 2019. Reliance denied the transaction. [[NIOC]] seeking USD payment within 7 days of arrival; some parties accepting INR.
+
+The $6-8/bbl premium over [[Brent crude|Brent]] is itself an expression of the paradox: Iranian crude historically traded at a $3-5 discount. The premium exists because the narrow waiver window created a seller's market — [[Iran]] can name its price on oil that the US authorized for sale to cool its own energy crisis. The enemy profits from the lifting of its own sanctions at better-than-market prices.
+
+[[India]] separately bought 40M+ barrels of [[Russia]]n crude under a similar waiver (pre-March 5 loadings), also at premiums to Dated [[Brent crude|Brent]]. Both adversaries — the one the US is actively bombing and the one it was trying to economically strangle — are selling oil at premium prices because of US policy actions.
+
+### IEA assessment
+
+The [[IEA]] executive director stated: *"The current energy crisis is worse than the two oil shocks of the 1970s put together."* [[Brent crude|Brent]] above $112/bbl (+50% in March). Murban doubled. The scale of the crisis forced the waiver — the paradox is not optional, it's a structural consequence of fighting a war that disrupts 20% of global oil supply.
+
+*Source: Reuters, Zawya, CNBC, Fortune, FDD (Mar 20-24, 2026)*
+
+---
+
+*Created 2026-03-22 (MEI panel ingestion). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-25 (waiver issued, Reliance purchase).*

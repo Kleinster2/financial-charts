@@ -77,7 +77,8 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | 15 | Mar 14 | Brent >$100; US producer +$5B/month windfall | >$100 | — | RBC targets $128; [[Equinor]] best major |
 | 18 | Mar 18 | South Pars / Ras Laffan strikes; 4 emergency measures | $107.38 | -1.36% | Energy infrastructure war begins |
 | 19 | Mar 19 | QatarEnergy: 17% LNG capacity offline 3-5 years | ~$113 | — | $26B damage; ~$20B/yr revenue loss |
-| 20 | Mar 20 | Iraq force majeure; Kuwait refinery strikes | $112.19 | -1.51% | Fourth losing week; Marines deployment |
+| 20 | Mar 20 | Iraq force majeure; Kuwait refinery strikes; 30-day Iran oil waiver | $112.19 | -1.51% | Fourth losing week; Marines deployment; sanctions paradox made concrete |
+| 24 | Mar 24 | [[Reliance Industries]] buys 5M bbl Iranian crude from [[NIOC]] | ~$112 | — | First Indian purchase since 2019; $7/bbl premium to Brent; Reliance denies |
 
 ### Pattern shifts
 
@@ -85,6 +86,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 - **Days 8-9:** Pattern broke — NFP -92K + oil $92 = stagflation scare. Stocks sold off and stayed down for first time. Russell 2000 led declines.
 - **Days 14-15:** Brent hit $100; Gulf equity divergence revealed structural winners (Saudi) from losers (UAE, Qatar). US producers generating +$5B/month windfall.
 - **Days 18-22:** Energy infrastructure war — South Pars/Ras Laffan strikes, Iraq force majeure, Kuwait refinery hits. Four emergency measures in one day (Jones Act waiver, Venezuela PDVSA license, summer-blend waiver, Iraq-KRG pipeline restart). Ground troops preparation signals air power alone won't reopen Hormuz.
+- **Day 20+:** Sanctions paradox made concrete — 30-day Iran oil waiver (March 20) permits purchases from sanctioned shadow fleet vessels. [[Reliance Industries]] first buyer (5M bbl, $7/bbl premium). IEA: "worse than the two oil shocks of the 1970s put together." The enemy profits at premium prices from the lifting of its own sanctions.
 
 ---
 

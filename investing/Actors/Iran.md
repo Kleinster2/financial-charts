@@ -211,6 +211,29 @@ Son of [[Ali Shamkhani]] (former IRGC naval commander, defense minister, Khamene
 
 ---
 
+## 30-day oil sanctions waiver — March 20, 2026
+
+The [[Trump II|Trump]] administration issued a 30-day general license permitting purchase of [[Iran]]ian oil already at sea, in a bid to tame prices driven up by the war. Applies to oil loaded on any vessel — including sanctioned [[Shadow fleet]] tankers — on or before March 20, discharged by April 19.
+
+| Detail | Value |
+|--------|-------|
+| Duration | March 20 — April 19, 2026 |
+| Claimed volume at sea | ~140M barrels ([[Scott Bessent]]); 105M ([[Goldman Sachs]]) |
+| Iran's position | Denies having floating crude or surplus available for markets |
+| Guardrails | None — no reporting, no escrow, no payment restrictions |
+| Geographic exclusions | Cuba, North Korea, Crimea |
+| Rationale | Oil prices surged 50%+ in March; [[Brent crude|Brent]] above $112/bbl |
+
+[[NIOC]] and traders are offering Iranian crude at $6-8/bbl premium to ICE [[Brent crude|Brent]] — a total inversion from the pre-sanctions discount. Drivers: narrow 30-day window (seller's market), [[Strait of Hormuz]] near-shutdown, payment/compliance friction (Iran cut off from SWIFT). Payment sought in USD within 7 days of cargo arrival; some accepting INR.
+
+First confirmed transaction: [[Reliance Industries]] purchased 5M barrels from [[NIOC]] (Reuters, Mar 24). [[India]]'s first Iranian crude purchase since May 2019. Reliance denied it. [[China]] remains dominant buyer at 1.5+ mbd.
+
+[[IEA]] executive director: *"The current energy crisis is worse than the two oil shocks of the 1970s put together."* See [[Iran conflict sanctions paradox]] for the strategic incoherence of lifting sanctions on the enemy mid-war.
+
+*Source: CNBC, Reuters, Zawya, Fortune, FDD (Mar 20-24, 2026)*
+
+---
+
 ## Post-war strategic dynamics — MEI panel (March 20, 2026 — Mulroy)
 
 [[Mick Mulroy]] (fmr Deputy Assistant Secretary of Defense for Middle East, ex-CIA officer, ex-Marine, [[Middle East Institute|MEI]] Distinguished Military Fellow) provided the most detailed public assessment of Iran's post-war trajectory:
@@ -253,6 +276,10 @@ Source: MEI panel, March 20 2026 — Mulroy/Connelly
 - [[Hossein Shamkhani]] — "Hector," major oil trader
 - [[Ali Shamkhani]] — father, former security chief
 - [[Milavous Group]] — Shamkhani oil trading vehicle
+
+### Oil & trade
+- [[NIOC]] — state oil company, seller under March 2026 waiver
+- [[Reliance Industries]] — first Indian buyer of Iranian crude since 2019
 
 ### Sanctions & economy
 - [[Iranian economic collapse]] — currency as instability indicator

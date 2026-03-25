@@ -231,4 +231,18 @@ The irony: Iran's [[Strait of Hormuz]] blockade devastated Gulf neighbors' expor
 
 ---
 
-*Updated 2026-02-01. Created 2026-01-18.*
+## US waiver legitimizes shadow fleet transactions — March 20, 2026
+
+The [[Trump II|Trump]] administration's 30-day general license (March 20) explicitly permits purchase of Iranian oil from sanctioned vessels — loading before March 20, discharge by April 19. This is the first time the US has formally authorized transactions with the shadow fleet rather than pursuing enforcement.
+
+The waiver effectively converts shadow fleet cargoes into legitimate purchases for 30 days. [[NIOC]] and traders are offering this oil at $6-8/bbl premium to [[Brent crude|Brent]] — far above the historical discount. [[Reliance Industries]] reportedly purchased 5M barrels from [[NIOC]] under the waiver (Mar 24) — [[India]]'s first Iranian crude since 2019. Reliance denied it.
+
+Treasury claims ~140M barrels at sea. [[Goldman Sachs]] estimates 105M. [[Iran]] denies having floating crude. No reporting requirements, no escrow, no payment channel restrictions on waiver transactions.
+
+The policy paradox: the same fleet the US sanctioned 29 Iranian vessels from in December 2025 is now authorized for purchases three months later. See [[Iran conflict sanctions paradox]].
+
+*Source: CNBC, Fortune, FDD (Mar 20-24, 2026)*
+
+---
+
+*Updated 2026-03-25 (Iran oil waiver). Updated 2026-02-01. Created 2026-01-18.*

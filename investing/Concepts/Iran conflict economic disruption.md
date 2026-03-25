@@ -157,9 +157,9 @@ The refined products crisis is distinct from crude supply loss: [[Kuwait]] becam
 
 [[Mick Mulroy]] (fmr Deputy Assistant Secretary of Defense for Middle East, [[Middle East Institute|MEI]]) noted the Pentagon is requesting $200B more — roughly 1/4 of current defense budget, and roughly 1/4 of entire [[Iraq]] war cost ($800B over 8 years). The war is not even a month old. This $200B request signals the Pentagon's own plan is NOT for 2-3 weeks — this is a sustained conflict budget.
 
-### Sanctions paradox — lifting sanctions mid-war
+### Sanctions paradox — lifting sanctions mid-war (now executed)
 
-The US is discussing lifting sanctions on [[Russia]]n AND [[Iran]]ian oil mid-war. Neither Mulroy nor the panel moderator could think of another war in history where you lifted sanctions on the enemy during combat. 100-140 million barrels of Iranian oil are in floating storage — waivers would apply to these. This emboldens hardliners who think they're winning. [[Russia]] benefits enormously: sanctions removed + oil prices soaring. See [[Iran conflict sanctions paradox]] for the full analysis.
+What the panel discussed as unprecedented was enacted the same day (March 20): a 30-day general license permitting purchases of [[Iran]]ian oil at sea, including from sanctioned [[Shadow fleet]] vessels, through April 19. [[Reliance Industries]] purchased 5M barrels from [[NIOC]] (Mar 24) at $7/bbl premium to [[Brent crude|Brent]] — [[India]]'s first Iranian crude since 2019. The premium itself is the paradox distilled: the enemy sells at above-market prices because the US created a narrow window that makes the buyer desperate. [[Russia]]n crude also selling at premiums under a separate waiver. See [[Iran conflict sanctions paradox]] for the full analysis and waiver terms.
 
 Source: MEI panel, March 20 2026 — Mulroy/Connelly
 
