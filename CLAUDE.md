@@ -282,6 +282,24 @@ Stock price moves, analyst calls, and catalysts are evidence cited within this s
 
 **Sum-of-parts in prose.** When a SOTP argument exists, state it plainly with numbers inline as part of answering a valuation question: "BNP Paribas calculates the core auto business trades at just 10.3x PE after stripping out BD and India."
 
+**Voice and density: the Hyundai standard.** Every actor note should read like a sharp analyst briefing someone smart over coffee — not a Wikipedia article, not a consulting deck. Lead with what changed or what matters most. Stack catalysts with specific numbers and chain logic (BD IPO → governance restructuring → Korea discount unwind). Give the bear case equal weight with hard numbers, not a polite afterthought. Use analyst quotes as named evidence ("Samsung Securities analyst Esther Yim:"), not anonymous authority. State SOTP math in plain English ("core auto business essentially free at current levels"). The following Hyundai Motor summary is the gold standard for tone, density, and structure — all actor note Synopses and body sections should aspire to this voice:
+
+> The stock story has completely changed. Hyundai traded sideways at 100K-300K KRW for a decade. After the Atlas humanoid debut at CES 2026 (Jan 5), it doubled to 674K KRW. Now pulled back to 492K KRW (~27% off peak). Forward PE ~9.6x.
+>
+> Three catalysts stacked:
+>
+> 1. Boston Dynamics IPO (potentially 2027 Nasdaq). Hyundai owns 88% (affiliates 68% + Chairman Chung Euisun personally 22.6%). Valuations range wildly: KB Securities 128T won, Hanwha 150T won, others 40-60T won. Chung paid ~$220M for his 20% stake — could be worth $13.6B+. SoftBank holds 9.5% with a put option exercisable by June 2026. CEO Robert Playter just left, replaced by CFO Amanda McMaster — commercial pivot signal. Atlas production target: 30,000 units by 2028 at $130-140K each.
+> 2. Governance restructuring. BD IPO proceeds give Chung the war chest to unwind Hyundai's circular ownership (the only major Korean chaebol that still has it). Inheritance tax on his father's 7T+ won stake alone is ~4T won. This has been a decade-long investor complaint — resolution would trigger a Korea discount unwind.
+> 3. Google DeepMind partnership for Atlas AI + Nvidia for autonomous driving. Previously the knock on Atlas was Tesla Optimus had the data advantage. DeepMind collaboration changes that equation. Samsung Securities analyst: "If robotics and solid-state battery tech are validated, Tesla — not Toyota — becomes the valuation comp."
+>
+> The bear case is real though:
+> - Tariff risk: analysts cut 2026 earnings estimates 22%, tariffs at 25% on Korea (deal in place to reduce to 15% but Korean legislature hasn't ratified)
+> - Pulled IONIQ 6 from US market (tariff-exposed, made in Korea). IONIQ 5/9 safe (Georgia plant)
+> - Chinese EVs eating market share outside US/India
+> - $20B US investment + $5.8B Louisiana steel plant = political insurance but capital-heavy
+>
+> The sum-of-parts math is what makes it compelling. BNP Paribas: core auto business trading at 10.3x PE after stripping out Hyundai Motor India + Boston Dynamics. If BD IPO prices anywhere near the high estimates, Hyundai's auto business is essentially free at current levels.
+
 ### Synopsis Section (Actor Notes)
 
 Every actor note (non-stub) must include a **Synopsis** section immediately after the frontmatter/one-liner intro and before Quick stats. This is a 2-4 paragraph dense summary that frames the key economic value questions and gives the reader the full picture without scrolling: what the entity is, the questions that determine its value, the deal/structure mechanics if relevant, and the key risk. Write it as sharp prose with hard numbers — not a teaser, but a self-contained briefing. If someone reads only the synopsis, they should understand both the investment case and what questions remain open.
