@@ -268,9 +268,23 @@ When the user gives a terse entity name (e.g., 'fermi america', 'nikki beach'), 
 - Private companies must be tagged appropriately in frontmatter
 - Always include a funding rounds table where funding data exists — this applies to private companies and to the pre-IPO history of public companies
 
+### Actor Note Philosophy: Executive Brief + Comprehensive Primer
+
+An actor note serves two functions simultaneously:
+
+1. **Frame the key economic value questions.** The Synopsis distills the 3-5 durable questions that determine the entity's economic value — not "what's the stock doing" but "what determines whether this entity is worth more or less." These questions should still be relevant six months from now.
+
+2. **Provide everything the reader needs to answer those questions independently.** The body is a comprehensive primer: ownership structures, financials, competitive dynamics, regulatory context, technology, history. A complete actor note is self-contained — the reader shouldn't need to look elsewhere to understand the entity or evaluate its value.
+
+Stock price moves, analyst calls, and catalysts are evidence cited within this structure, not the organizing principle. A morning note that's stale by afternoon is not what we're building.
+
+**Synopsis framing: key economic questions, not market recap.** The Synopsis should center on the questions that matter: Is the core business durable? Is the valuation justified? What structural forces help or hurt? Not "the stock doubled after CES" but "the valuation depends on whether Boston Dynamics' robotics business is real or speculative optionality." Catalysts are evidence — "BD IPO → governance restructuring → Korea discount unwind" supports the question "can the structural discount close?" rather than standing as a standalone listicle.
+
+**Sum-of-parts in prose.** When a SOTP argument exists, state it plainly with numbers inline as part of answering a valuation question: "BNP Paribas calculates the core auto business trades at just 10.3x PE after stripping out BD and India."
+
 ### Synopsis Section (Actor Notes)
 
-Every actor note (non-stub) must include a **Synopsis** section immediately after the frontmatter/one-liner intro and before Quick stats. This is a 2-4 paragraph dense summary that gives the reader the full picture without scrolling: what the entity is, the deal/structure mechanics if relevant, why it matters (valuation unlock, thesis, market opportunity), and the key risk. Write it as sharp prose with hard numbers — not a teaser, but a self-contained briefing. If someone reads only the synopsis, they should understand the investment case.
+Every actor note (non-stub) must include a **Synopsis** section immediately after the frontmatter/one-liner intro and before Quick stats. This is a 2-4 paragraph dense summary that frames the key economic value questions and gives the reader the full picture without scrolling: what the entity is, the questions that determine its value, the deal/structure mechanics if relevant, and the key risk. Write it as sharp prose with hard numbers — not a teaser, but a self-contained briefing. If someone reads only the synopsis, they should understand both the investment case and what questions remain open.
 
 ### Evolution Section (Actor Notes)
 
