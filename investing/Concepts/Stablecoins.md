@@ -46,7 +46,7 @@ Stablecoin issuers are among the largest buyers of US Treasuries globally. [[Tet
 
 | Jurisdiction | Framework | Key feature |
 |-------------|-----------|-------------|
-| US | [[GENIUS Act]] (July 2025) | 1:1 reserves required. No yield. Monthly attestation. AML/KYC. |
+| US | [[GENIUS Act]] (July 2025) + [[SEC-CFTC Joint Crypto Taxonomy]] (March 2026) | 1:1 reserves required. Stablecoins now a formal regulatory category in the March 17, 2026 joint taxonomy. GENIUS Act-compliant stablecoins addressed; other arrangements may still be securities. [[CLARITY Act]] stablecoin yield compromise reached March 20 (Tillis-Alsobrooks): no passive holding rewards, activity-based rewards OK |
 | EU | [[MiCA]] (2024) | Licensing regime. Reserve requirements. |
 | [[Brazil]] | BCB resolutions (Feb 2026) | Classified as FX operations. Yield-bearing allowed. |
 | Offshore | Minimal | [[Tether]] operates from BVI/El Salvador |
@@ -198,6 +198,8 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-test
 
 ### Regulatory
 - [[GENIUS Act]] — US federal framework (Jul 2025). No yield. 1:1 reserves. Enabled Circle IPO and OCC charters
+- [[SEC-CFTC Joint Crypto Taxonomy]] — March 2026 release formally classifies stablecoins as their own regulatory category
+- [[CLARITY Act]] — pending legislation; stablecoin yield compromise (Tillis-Alsobrooks, March 20) is key provision
 - [[MiCA]] — EU framework (Dec 2024). 60% EU bank reserves. Forced USDT delisting
 - [[Anchorage Digital Bank]] — issues Tether's USAT (US-compliant alternative to USDT)
 

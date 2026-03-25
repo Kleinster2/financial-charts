@@ -94,9 +94,25 @@ Atkins is serving remainder of Gensler's term, which expires Jun 5, 2026. Trump 
 
 ---
 
+## Key actions (2026)
+
+| Date | Action |
+|------|--------|
+| Mar 17 | **[[SEC-CFTC Joint Crypto Taxonomy]]** — co-published 68-page interpretive release with [[CFTC]]. Five-category token taxonomy, 16 named digital commodities. Most significant US crypto regulatory action in a decade |
+| Mar 18 | Approved [[Nasdaq]] tokenized securities rule (Release 34-105047) — first US exchange approved for tokenized trading |
+| Mar 25 | House Financial Services Committee hearing: "Tokenization and the Future of Securities" |
+| Pending | Previewed possible exemptive rulemaking building on the taxonomy |
+
+**Term clock:** Atkins is serving the remainder of Gensler's term, expiring **June 5, 2026**. The [[CLARITY Act]] push and tokenization approvals are racing against this deadline. If Trump does not renominate him (or if the CLARITY Act doesn't pass before his term ends), the regulatory clarity could be reversed by a successor.
+
+---
+
 ## Related
 
 - [[SEC]] — agency he chairs
+- [[SEC-CFTC Joint Crypto Taxonomy]] — his signature achievement
+- [[CLARITY Act]] — legislation to make the taxonomy permanent
+- [[Tokenization]] — market structure shift he enabled
 - [[Michael Selig]] — CFTC counterpart, former SEC Crypto Task Force counsel
 - [[CFTC]] — joint crypto initiative
 - [[Crypto]] — key policy area
