@@ -494,6 +494,7 @@ See [[Short interest]] for interpretation framework.
 
 ## Related
 
+- [[TERAFAB]] — $20-25B joint fab with SpaceX/xAI, announced Mar 21 2026. Inference chips for vehicles + Optimus. Bernstein estimates full vision at $5-13T. Not yet in 2026 capex plan (already >$20B).
 - [[SpaceX xAI merger]] — Feb 2026 (Tesla excluded, but $2B invested in xAI)
 - [[Elon Musk]] — CEO
 - [[SpaceX]] — Musk sibling company (acquired xAI, 2026 IPO)
