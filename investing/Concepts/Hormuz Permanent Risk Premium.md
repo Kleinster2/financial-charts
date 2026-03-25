@@ -110,6 +110,7 @@ Source: MEI panel, March 20 2026 — Mulroy/Connelly
 - [[Jones Act]] — why US coasts can't source domestic crude cheaply
 - [[Robin J. Brooks]] — AIS vessel tracking analysis
 - [[Sankey Research]] — "structural change in the risk of oil"
+- [[Hormuz Transit Regime]] — transit fees, bilateral access, yuan settlement condition
 
 ---
 

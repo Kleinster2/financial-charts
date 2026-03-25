@@ -80,6 +80,10 @@ See [[BRICS]] for context.
 
 **Watch for:** Saudi pricing any oil in non-USD = major signal.
 
+## [[Hormuz Transit Regime]] — 2026 operational test
+
+The 2026 [[Strait of Hormuz]] crisis introduced the first operational attempt to fuse physical chokepoint control with currency settlement demands. A senior Iranian official told CNN (mid-March) that Tehran was considering allowing limited tanker passage only if cargo is traded in [[yuan|Chinese yuan]]. This goes beyond prior de-dollarization efforts (which were voluntary bilateral agreements between willing buyers and sellers) — it attempts to *mandate* non-dollar settlement as a condition of physical transit through the world's most critical energy bottleneck. Even if impractical at scale, the precedent matters: a state controlling geography can attempt to dictate the currency of commerce passing through it. See [[Hormuz Transit Regime]] for full analysis.
+
 ---
 
 ## [[Venezuela]] connection
@@ -100,3 +104,4 @@ See [[Monroe Doctrine]] and [[Venezuela oil rebuild]].
 - [[Saudi Arabia Tech]] — key petrodollar partner
 - [[Monroe Doctrine]] — US protecting dollar sphere
 - [[Russia]] — leading de-dollarization
+- [[Hormuz Transit Regime]] — 2026 operational test of yuan-for-passage

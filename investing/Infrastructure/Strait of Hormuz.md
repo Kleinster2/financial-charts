@@ -236,4 +236,14 @@ Wiggen highlighted mines as "extremely difficult" — thousands of small fishing
 
 ---
 
-*Updated 2026-03-24 (Stellen Capital physical market assessment)*
+## Transit regime — fees, bilateral access, yuan condition (March 24)
+
+The blockade has evolved from binary closure to a gatekeeping operation. [[Iran]] now grants passage on a bilateral, case-by-case basis to "friendly" countries — [[China]], [[India]], [[Pakistan]], [[Iraq]], [[Malaysia]], and potentially [[Japan]] — while charging ad hoc transit fees of up to $2M per vessel (Bloomberg, Mar 24). Iranian MP [[Alaeddin Boroujerdi]] (National Security Committee) claimed Iran had established "a new concept of sovereignty" over the strait after 47 years. Iran officially denied the fee policy, then Bloomberg confirmed it. Parliament reportedly considering legislation to codify the charges post-war.
+
+Separately, a senior Iranian official told CNN (mid-March) that Tehran was considering allowing limited tanker passage only if oil cargo is settled in [[yuan|Chinese yuan]] — fusing chokepoint control with monetary strategy. Chinese analysts reacted cautiously (SCMP), citing feasibility limits and risk to China-US ties.
+
+See [[Hormuz Transit Regime]] for the full concept note covering transit fees, bilateral access, yuan settlement, and the [[Petrodollar|petrodollar]] challenge.
+
+---
+
+*Updated 2026-03-25 (transit regime + fees + yuan condition)*
