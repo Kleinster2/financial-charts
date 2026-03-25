@@ -79,6 +79,9 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | 19 | Mar 19 | QatarEnergy: 17% LNG capacity offline 3-5 years | ~$113 | — | $26B damage; ~$20B/yr revenue loss |
 | 20 | Mar 20 | Iraq force majeure; Kuwait refinery strikes; 30-day Iran oil waiver | $112.19 | -1.51% | Fourth losing week; Marines deployment; sanctions paradox made concrete |
 | 24 | Mar 24 | [[Reliance Industries]] buys 5M bbl Iranian crude from [[NIOC]] | ~$112 | — | First Indian purchase since 2019; $7/bbl premium to Brent; Reliance denies |
+| 24 | Mar 23 | Trump postpones power plant strikes 5 days, claims Iran talks | $99.94 (-11%) | +2.5% | Brent crashes from $112; Dow +1,000 pts; dollar falls |
+| 25 | Mar 24 | Iran denies talks; 82nd Airborne deploying; Bushehr struck again | $104.05 (+4%) | — | Optimism fades; bounce reflects skepticism of deal |
+| 26 | Mar 25 | 15-point ceasefire plan via Pakistan; Iran military mocks it | $98.30 (-6%) | — | Market prices ceasefire hope despite Iran's rejection |
 
 ### Pattern shifts
 
@@ -87,6 +90,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 - **Days 14-15:** Brent hit $100; Gulf equity divergence revealed structural winners (Saudi) from losers (UAE, Qatar). US producers generating +$5B/month windfall.
 - **Days 18-22:** Energy infrastructure war — South Pars/Ras Laffan strikes, Iraq force majeure, Kuwait refinery hits. Four emergency measures in one day (Jones Act waiver, Venezuela PDVSA license, summer-blend waiver, Iraq-KRG pipeline restart). Ground troops preparation signals air power alone won't reopen Hormuz.
 - **Day 20+:** Sanctions paradox made concrete — 30-day Iran oil waiver (March 20) permits purchases from sanctioned shadow fleet vessels. [[Reliance Industries]] first buyer (5M bbl, $7/bbl premium). IEA: "worse than the two oil shocks of the 1970s put together." The enemy profits at premium prices from the lifting of its own sanctions.
+- **Days 24-26:** Diplomacy whiplash — Trump's ultimatum-to-talks pivot crashed Brent 11% in a single session ($112 → $100), the largest one-day oil move since the conflict began. Iran's categorical denial bounced prices back +4%. Then the 15-point ceasefire plan via Pakistan dropped Brent another 6% to $98. Markets are now oscillating on headline risk, not fundamentals — the strait remains closed, no escorts have begun, and the physical supply gap is unchanged. The price action is pure diplomacy premium/discount. **Insider trading alarm:** Reuters reported $500M in oil trades placed minutes before Trump's Truth Social post on Monday; financial experts raising concerns about possible front-running of the market-moving announcement.
 
 ---
 

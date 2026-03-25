@@ -609,6 +609,39 @@ Emerging markets ([[Philippines]] example) are subsidizing fuel prices as a temp
 
 ---
 
+## Headline whiplash — $112 to $98 in three sessions (March 23-25)
+
+The March 23-25 sequence produced the most violent oil moves of the conflict — driven entirely by diplomacy headlines against an unchanged physical backdrop.
+
+### Sequence
+
+| Date | Event | Brent | Move | Signal |
+|------|-------|-------|------|--------|
+| Mar 21 (Fri) | Pre-ultimatum close | $112.19 | — | Peak of conflict-driven rally |
+| Mar 23 (Mon) | Trump postpones power plant strikes, claims "productive" Iran talks | $99.94 | **-10.9%** | Largest single-day drop since conflict began |
+| Mar 24 (Tue) | Iran categorically denies talks; 82nd Airborne deploying; Bushehr struck | ~$104 | +4.1% | Skepticism bounce; physical market unchanged |
+| Mar 25 (Wed) | 15-point ceasefire plan via Pakistan reported; Iran military mocks it | $98.30 | -5.9% | Market prices ceasefire hope despite Iran's categorical rejection |
+
+Net three-session move: -$13.89/bbl (-12.4%). **None of the physical fundamentals changed** — Hormuz remains closed, no escorts operational, no minesweeping underway, April loading barrels still unavailable. The price swings are entirely diplomacy premium/discount layered on top of Wiggen's ~$100 structural floor.
+
+### Suspected insider trading — $500M pre-announcement
+
+Reuters reported (March 24) that approximately **$500 million** in oil futures trades were placed **minutes before** Trump's 7:02 AM EST Truth Social post on Monday March 23 announcing the postponement and Iran talks. Brent crashed from $112 to ~$99 on the announcement; WTI from ~$99 to $86.
+
+Financial market experts and CBS News raised concerns about possible front-running of the market-moving announcement. The timing — large short positions opened in a thin pre-market window, followed immediately by a presidential social media post that moved oil prices 11% — follows a pattern of suspicious trading activity around Trump's Iran-related posts throughout the conflict (cf. Chris Wright false escort post, March 10).
+
+No SEC investigation announced as of March 25. The absence of enforcement action is itself a signal — either the trades are explainable (institutional hedging) or the investigation is ongoing.
+
+*Sources: Reuters (March 24); CBS News (March 24); CNBC (March 23-24)*
+
+### The physical-paper disconnect deepens
+
+Wiggen's March 23 framework remains the best guide: paper Brent can swing $10 on a Truth Social post, but the physical forward market (Dubai at $166, May loading scrambles) shows what buyers actually believe. The three-session crash brought Brent back near $98 — almost exactly Wiggen's $100 floor. If ceasefire talks collapse (Iran's rhetoric suggests they will), the next move is back toward $110+.
+
+The key test is the **five-day pause expiration** (~Friday March 28). If no deal materializes — and Iran's "someone like us will never come to terms with someone like you" statement suggests it won't — Trump faces the same binary he faced on Saturday: strike power plants or back down. Either outcome moves oil violently.
+
+---
+
 ## Related
 
 - [[Iran conflict economic disruption]] — hub note
