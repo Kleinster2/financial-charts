@@ -98,11 +98,35 @@ Aylo's corporate structure spans at least six jurisdictions, a legacy of MindGee
 
 ---
 
-## Payment rails
+## Geo-blocking strategy
 
-The Visa/Mastercard suspension remains the single most important structural constraint on Aylo's business. When card networks pulled from Pornhub in December 2020, it severed the primary subscription payment mechanism. Aylo has partially worked around this through alternative payment processors and crypto, but the card networks' absence limits monetization of its massive free-tier traffic. The subscription model that generated $460M in 2021 revenue operated under fundamentally different payment conditions than what exists today.
+When states pass age verification laws requiring government ID or biometric checks before granting access, Aylo geo-blocks the entire state rather than building verification infrastructure. As of early 2026: 23 US states, France, and the UK — including France, historically a top-3 traffic country.
 
-The broader lesson: payment processors have become de facto content regulators. When Visa and Mastercard make compliance decisions, they have more immediate economic impact than any government fine. The $1.8M DPA and $15M FTC penalty are rounding errors compared to the revenue lost from payment rail access.
+The logic has three parts. First, privacy risk: collecting government IDs from porn viewers creates a honeypot where one breach links millions of people's sexual preferences to their real identities. Second, unilateral disarmament: the internet has thousands of porn sites, and when Aylo blocks Texas, the traffic migrates within days to smaller competitors who simply ignore the law — Aylo loses revenue while the law achieves nothing. Third, political pressure: by going dark, Aylo makes the law visible to millions of voters who suddenly lose access to a site they use regularly, theoretically creating constituent pressure on legislators.
+
+The strategy is failing. The age verification wave keeps spreading — more states every year, the EU Digital Services Act is expanding, and there is growing momentum for federal legislation. Indiana's attorney general has already argued that merely blocking access doesn't satisfy the law — the statutory obligation is to verify users, not to disappear. If courts agree, Aylo faces compliance costs anyway with zero competitive advantage, because it already surrendered the market. Meanwhile enforcement against smaller non-compliant sites has been minimal, so the companies that ignore the law face the least consequence. Aylo is caught in a trap inherent to being the dominant player in a legally hostile industry: too big and visible to ignore the law, too principled (or stubborn) to comply with it, and watching its traffic share erode to competitors who do neither.
+
+---
+
+## Payment rails and monetization
+
+The [[Visa]]/[[Mastercard]] suspension remains the single most important structural constraint on Aylo's business. When card networks pulled from [[Pornhub]] in December 2020, it severed the primary subscription payment mechanism. Aylo has partially worked around this through alternative payment processors and crypto, but the card networks' absence limits monetization of its massive free-tier traffic. The subscription model that generated $460M in 2021 revenue operated under fundamentally different payment conditions than what exists today.
+
+The ad-supported model, however, survives everywhere payment rails are blocked. The free tier ([[Pornhub]], [[RedTube]], [[YouPorn]]) runs on programmatic advertising, which requires no credit card processing. CPMs are low relative to mainstream media, but the volume — 4 billion monthly visits — compensates through sheer scale. This is the business model that sustains Aylo through the payment rail crisis.
+
+The content library provides a secondary moat. The 2020 purge removed ~10 million unverified videos (80% of the library), but what remains is verified, studio-produced, and exclusive. [[Brazzers]], [[Digital Playground]], [[Reality Kings]] — those are actual production brands with contractual talent and original content. Competitors can match on user-uploaded material but not on the professional catalog.
+
+The broader lesson: payment processors have become de facto content regulators. When [[Visa]] and [[Mastercard]] make compliance decisions, they have more immediate economic impact than any government fine. The $1.8M DPA and $15M FTC penalty are rounding errors compared to the revenue lost from payment rail access.
+
+---
+
+## Global resilience
+
+The geographic picture matters. Most of the world has no age verification framework — Latin America, Southeast Asia, Africa, much of Eastern Europe represent massive populations with growing internet penetration and zero enforcement infrastructure. [[Pornhub]] is the default brand in those markets the same way [[Google]] is the default search engine, and that kind of traffic dominance compounds.
+
+Even after losing 23 US states, France, and the UK, Aylo retains ~4 billion monthly visits globally. The regulatory assault is severe but geographically concentrated in the US and EU. If the age verification wave remains regional, Aylo can retreat to the rest of the world and still run a profitable business on advertising revenue alone. If verification becomes a global norm — or if payment processors extend restrictions beyond Pornhub to the entire industry — then the walls close in everywhere.
+
+This frames the $400M acquisition differently. ECP did not buy a broken company — they bought the globally dominant brand in a $100B+ industry at a distressed price, damaged in specific jurisdictions but unchallenged everywhere else. The bet is that regulatory pressure stays concentrated and the rest-of-world business sustains the enterprise through the crisis. Whether that bet pays depends on the speed of the global regulatory wave versus Aylo's ability to monetize the traffic it still controls.
 
 ---
 
