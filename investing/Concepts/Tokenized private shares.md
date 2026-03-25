@@ -152,6 +152,8 @@ If you can't answer these, stay away.
 
 ## Related
 
+- [[Tokenization]] — **hub note** (taxonomy, regulatory timeline, investment framework)
+- [[Tokenized public securities]] — institutional exchange tokenization (NYSE/Nasdaq, full shareholder rights)
 - [[OpenAI]] — most valuable private company ($500B)
 - [[Anthropic]] — private AI lab
 - [[Robinhood]] — tokenized shares platform

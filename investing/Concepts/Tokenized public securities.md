@@ -155,6 +155,7 @@ The exchange-level play (ICE vs NDAQ) is more about which tokenization architect
 
 ## Related
 
+- [[Tokenization]] — **hub note** (taxonomy, regulatory timeline, investment framework)
 - [[Tokenized private shares]] — derivative/crypto approach (no shareholder rights)
 - [[Intercontinental Exchange]] — NYSE parent, building blockchain venue
 - [[Nasdaq]] — first SEC-approved tokenized trading
