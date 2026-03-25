@@ -65,13 +65,15 @@ aliases: [Stargate, Stargate JV]
 | Developer | [[Crusoe Energy]] |
 | Outcome | Expansion scrapped; 1.2 GW continues |
 
-**[[Meta]] stepping in:** The collapsed talks created an opening for [[Meta]] to lease the planned expansion capacity from [[Crusoe Energy]]. [[NVIDIA]] put down a **$150M deposit** on the future capacity before approaching Meta about moving in — NVIDIA acting as matchmaker to ensure its GPUs get deployed regardless of which hyperscaler occupies the facility.
+**[[Microsoft]] leases the site (Mar 24, 2026):** After initial reports suggested [[Meta]] would step in (with [[NVIDIA]]'s $150M deposit acting as matchmaker), [[Microsoft]] ultimately signed the lease with [[Crusoe Energy]] for the ~700MW expansion site adjacent to the Stargate campus. Bloomberg reported the deal on March 24. MSFT struck the agreement after both Oracle and OpenAI walked away from negotiations. A source told Reuters that OpenAI's existing agreements with Oracle remain unchanged. Oracle disputed earlier reports of capacity delays at Abilene.
+
+The Microsoft pickup is revealing: the site was originally built for OpenAI's compute needs, and Microsoft — OpenAI's largest investor and cloud partner — ended up taking it. This creates an unusual configuration: Microsoft operating a ~700MW facility physically adjacent to the Stargate campus it doesn't participate in. Whether this capacity serves Azure AI (including OpenAI workloads routed through Azure) or Microsoft's own Maia/Cobalt custom silicon buildout remains unclear. At ~700MW, the facility could support thousands of Blackwell-class AI servers.
 
 **Core contract intact:** Despite the expansion cancellation, OpenAI has tapped Oracle to deploy **4.5 GW** of compute capacity. Oracle values this contract at **$300B over its lifetime** — still on track.
 
-The Abilene expansion collapse reveals the tension in Stargate: OpenAI's demand forecasts keep shifting as the AI lab pivots between custom silicon, NVIDIA hardware, and inference-vs-training compute ratios. The $500B headline number was always aspirational — this is the first concrete downsizing.
+The Abilene expansion collapse reveals the tension in Stargate: OpenAI's demand forecasts keep shifting as the AI lab pivots between custom silicon, NVIDIA hardware, and inference-vs-training compute ratios. The $500B headline number was always aspirational — this is the first concrete downsizing. Microsoft leasing the abandoned capacity underscores that demand for AI compute in Abilene isn't the problem — the Stargate JV's internal dynamics are.
 
-*Source: Bloomberg (Mar 6, 2026); Data Center Dynamics (Mar 7, 2026)*
+*Source: Bloomberg (Mar 6, 2026; Mar 24, 2026); Reuters (Mar 24, 2026); Data Center Dynamics (Mar 7, 2026)*
 
 ---
 
@@ -208,7 +210,8 @@ Reinforces [[Long memory]] thesis.
 | Sep 2025 | 5 new US sites announced |
 | Jan 2026 | Energy/community commitments announced |
 | Feb 2026 | HBM4 production begins (Samsung/SK Hynix) |
-| Mar 6, 2026 | Abilene expansion scrapped (1.2→2 GW); Meta/NVIDIA step in for Crusoe capacity |
+| Mar 6, 2026 | Abilene expansion scrapped (1.2→2 GW); Meta/NVIDIA initially in talks for Crusoe capacity |
+| Mar 24, 2026 | [[Microsoft]] leases ~700MW Abilene site from [[Crusoe Energy]] |
 | 2026 | UAE Stargate 200MW, [[UK]] first GPUs |
 | 2026-2028 | 7GW buildout target |
 | 2029 | $500B deployment target |

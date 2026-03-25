@@ -460,6 +460,18 @@ This is another data point in the gradually fraying Microsoft-OpenAI relationshi
 
 ---
 
+## Abilene data center lease (Mar 24, 2026)
+
+Microsoft signed a lease with [[Crusoe Energy]] for a ~700MW data center site in Abilene, Texas — directly adjacent to [[Oracle]] and [[OpenAI]]'s flagship [[Project Stargate|Stargate]] campus. The site was originally being developed for Oracle/OpenAI but both walked away after negotiations stalled over financing and OpenAI's shifting demand forecasts (Bloomberg, Mar 6). Microsoft stepped in after [[Meta]] (the initial expected tenant) did not close.
+
+The deal is strategically notable: Microsoft ends up operating a massive AI facility physically next to the Stargate campus it doesn't participate in, on a site originally built for its own portfolio company (OpenAI). Whether the 700MW serves Azure AI workloads, Maia/Cobalt custom silicon deployment, or general Azure expansion remains unclear. At this scale, the facility could support thousands of Blackwell-class servers.
+
+MSFT stock was down 2.69% on the day; ORCL down 4.42%.
+
+*Source: Bloomberg (Mar 24, 2026); Reuters (Mar 24, 2026)*
+
+---
+
 ## Related
 
 - [[AI hyperscalers]] — Tier 1 spender
@@ -477,3 +489,5 @@ This is another data point in the gradually fraying Microsoft-OpenAI relationshi
 - [[Tax Cuts and Jobs Act]] — ~$130B repatriation (2018)
 - [[Microsoft bonds]] — $46.2B bond inventory (AAA/Aaa, deleveraging)
 - [[India AI Impact Summit 2026]] — part of $68B combined commitment (with [[Google]], [[Amazon]]) for AI/cloud in [[India]] through 2030
+- [[Project Stargate]] — leased ~700MW Crusoe-developed Abilene site adjacent to Stargate campus (Mar 2026)
+- [[Crusoe Energy]] — Abilene lease counterparty

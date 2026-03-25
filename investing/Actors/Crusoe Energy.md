@@ -122,6 +122,14 @@ Crusoe wins on power cost; loses on location flexibility (tied to gas fields).
 
 ---
 
+## Abilene tenant saga (Mar 2026)
+
+The ~700MW expansion site adjacent to [[Oracle]]/[[OpenAI]]'s [[Project Stargate|Stargate]] campus — developed by Crusoe with [[Blue Owl]] financing — was originally intended for Oracle/OpenAI but both walked after negotiations stalled (Bloomberg, Mar 6). [[NVIDIA]] had put down a $150M deposit on the future capacity and initially approached [[Meta]] as a replacement tenant. Ultimately, [[Microsoft]] signed the lease (Bloomberg, Mar 24).
+
+This validates Crusoe's position as a landlord/developer rather than just a compute provider — the Abilene site attracted three different hyperscaler-class tenants in sequence. The 700MW lease with Microsoft is separate from the existing 1.2 GW Stargate campus that Oracle continues to operate.
+
+---
+
 ## Risks
 
 - Stranded gas supply limited
@@ -142,7 +150,7 @@ Crusoe wins on power cost; loses on location flexibility (tied to gas fields).
 | Key partner | [[Blue Owl]] |
 | Flagship | Abilene 1.2 GW |
 
-*Updated 2026-01-01*
+*Updated 2026-03-24*
 
 ---
 
@@ -155,3 +163,6 @@ Crusoe wins on power cost; loses on location flexibility (tied to gas fields).
 - [[Power constraints]] — competitive advantage (stranded gas = cheap)
 - [[AI hyperscalers]] — compete for same demand
 - [[Crypto-to-AI pivot]] — similar journey (started with Bitcoin)
+- [[Microsoft]] — leased ~700MW Abilene expansion site (Mar 2026)
+- [[Project Stargate]] — adjacent Abilene campus context
+- [[NVIDIA]] — $150M deposit on Abilene capacity, matchmaker role
