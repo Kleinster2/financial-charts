@@ -259,4 +259,55 @@ See [[Hormuz Transit Regime]] for the full concept note covering transit fees, b
 
 ---
 
-*Updated 2026-03-25 (Polymarket normalization odds; transit regime + fees + yuan condition)*
+---
+
+## IRGC vetting system formalizes — selective toll regime (March 25)
+
+The blockade is no longer a blockade — it's a gatekeeping operation evolving into a formalized transit regime. Bloomberg (March 25) detailed the mechanics:
+
+### How passage works now
+
+Vessels seeking transit must provide: crew manifests, cargo details, voyage histories, and bills of lading to IRGC intermediaries. Iran grants or denies passage case by case. Approved ships hug Iran's coastline, transiting within Iran's exclusive economic zone. The IRGC turned back a container ship on March 25 for "failing to comply with legal protocols."
+
+| Element | Detail |
+|---------|--------|
+| Documents required | Crew lists, cargo manifests, bills of lading, voyage details |
+| Fees | Up to $2M per transit (oil tankers, LNG carriers, high-value cargo) — not charged uniformly |
+| Who pays | Oil tankers and gas carriers primarily; bulk carriers sometimes exempt |
+| Who gets through | Iranian-flagged, Chinese-linked, Indian (negotiated bilaterally), some Gulf state vessels |
+| Who doesn't | Western-flagged, US/Israeli-linked, vessels without IRGC clearance |
+| Route | Iranian coastline (12-24nm EEZ), inside Iranian territorial waters for protection |
+
+### Insurance market reality — coverage available but repriced
+
+Lloyd's Market Association (LMA) issued a statement (March 22) explicitly pushing back on narratives that insurance was "cancelled or unaffordable":
+
+> "Three weeks since the start of the hostilities... we are still seeing reports that suggest insurance coverage is cancelled or unaffordable and that this is the reason that vessels are not transiting. **This is not accurate.**" — Neil Roberts, Head of Marine & Aviation, LMA
+
+Coverage remains available in the Lloyd's and London company market. What changed is pricing:
+
+| Metric | Pre-crisis (Feb 27) | Crisis peak | Current (late Mar) |
+|--------|---------------------|-------------|-------------------|
+| War risk additional premium (AWRP) | 0.2% of hull value | ~1.0% (48hrs post-strike) | ~0.8-1.0% (elevated) |
+| Cost per VLCC transit (~$150M hull) | ~$300K | ~$1.5M | ~$1.2-1.5M |
+| Coverage availability | Standard | Cancelled/renegotiated | Available at repriced rates |
+
+The Irregular Warfare Institute (March 23) published a detailed analysis arguing insurance — not mines or missiles — effectively closed the strait: "Within 48 hours of coordinated US-Israeli airstrikes, war risk premiums surged fivefold, major marine insurers terminated existing coverage and offered replacements at roughly sixty times pre-crisis rates." The insurance mechanism works in three phases: repricing → withdrawal/exclusion → de facto closure.
+
+The insurance reality matters for the reopening timeline: even if military operations clear the strait, commercial insurers must be convinced the risk profile has fundamentally changed before premiums return to levels that make transit economically viable. This is the "commercial confidence" constraint that [[Amrita Sen]] and [[Nadia Martin Wiggen]] both identify as the binding bottleneck.
+
+### India bilateral deal
+
+[[India]] negotiated direct passage for some LPG tankers through Delhi-Tehran talks. India's position: international law guarantees freedom of navigation, so no fees can legally be charged. A handful of Indian LPG tankers have made it through. India is experiencing severe LPG shortages from the disruption.
+
+### China's position
+
+Chinese government agencies are aware of protection fees paid by some Chinese vessels through local agents. Beijing sees "little basis" for the charges — partly because transit rights are guaranteed by international law, partly because China is Iran's economic lifeline (buying most Iranian crude exports). Chinese vessels are getting through, but the relationship is transactional, not frictionless.
+
+### What this means for oil prices
+
+The market on March 25 was pricing in the possibility that selective transit + bilateral deals could gradually reopen Hormuz *without* a ceasefire — the "toll road" thesis. Brent fell from $157+ peak to ~$111. But the mechanism is fragile: Iran can revoke transit permissions at will, the IRGC vetting system is idiosyncratic and inconsistent, and a single attack on a transiting vessel would reset commercial confidence to zero.
+
+*Sources: Bloomberg (March 24-25), Insurance Journal (March 25), Lloyd's Market Association (March 22), Irregular Warfare Institute (March 23), CNBC*
+
+*Updated 2026-03-25 (IRGC vetting system formalization, insurance market reality, India/China bilateral dynamics)*
