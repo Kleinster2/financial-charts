@@ -70,16 +70,19 @@ The papers existed for nearly a year before Google chose to formally unveil them
 
 ## Investment implications
 
-The memory stock selloff reflects a binary reading: less memory needed per model → less demand for DRAM/NAND. But the more likely outcome follows [[Jevons' Paradox]]:
+Memory stocks sold off immediately: [[Micron]] -3.9%, [[SanDisk]] -3.5%, [[Seagate]] down. The market's read is straightforward — 6x less memory per inference call means less DRAM/HBM demand at the margin.
 
-1. If inference costs drop 50%, usage scales — longer contexts, more concurrent users, cheaper agent orchestration
-2. Freed VRAM enables running models that previously required multi-GPU setups on single GPUs — expanding the addressable market
-3. Mobile/edge AI benefits most — smartphone NPUs can now run meaningfully larger models locally, which increases hardware upgrade cycles
-4. The real losers aren't memory makers but cloud inference providers with pricing power built on scarcity (i.e., GPU compute costs as moat)
+The counter-thesis rests on [[Jevons' Paradox]]: when you make a resource 6x more efficient, total consumption historically increases because the lower cost unlocks new use cases. If inference costs drop 50%:
+- Longer contexts and more concurrent agent sessions consume the freed capacity
+- Models that previously required multi-GPU setups fit on a single GPU — expanding the addressable market
+- Mobile/edge AI can run meaningfully larger models locally, potentially accelerating hardware upgrade cycles
+- Real-time vector search (TurboQuant's other application) creates new memory-intensive workloads
 
-VentureBeat: TurboQuant provides "the essential plumbing for the burgeoning Agentic AI era: the need for massive, efficient, and searchable vectorized memory that can finally run on the hardware users already own."
+But Jevons' is a historical pattern, not a law. Whether the demand response exceeds the efficiency gain — and on what timeline — is an open question. The market is pricing the first-order effect now; the second-order demand response, if it materializes, plays out over quarters.
 
-The semantic search application is underappreciated — TurboQuant achieves superior recall vs existing methods with near-zero indexing time, making it ideal for real-time vector databases where data is constantly added.
+VentureBeat framed it as "the essential plumbing for the burgeoning Agentic AI era: the need for massive, efficient, and searchable vectorized memory that can finally run on the hardware users already own."
+
+A separate angle: the semantic search application. TurboQuant achieves superior recall vs existing methods with near-zero indexing time, making it a candidate for real-time vector databases where data is constantly ingested. That's a new memory-intensive workload that didn't exist before this kind of compression was viable.
 
 ---
 
