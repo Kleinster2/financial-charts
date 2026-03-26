@@ -34,6 +34,7 @@ Only pure-play direct-to-cell satellite company with carrier deals spanning ~3B 
 |--------|-------|
 | Ticker | ASTS (NASDAQ) |
 | Market cap | ~$29-38B (Feb 2026) |
+| Revenue (Q4 2025) | $54.31M (beat consensus by 29%) |
 | Revenue (Q3 2025) | $14.7M (up from $1.1M YoY) |
 | Net loss (Q3 2025) | -$122.9M |
 | Cash position | ~$1.2B (Q3 2025) |
@@ -135,7 +136,25 @@ Uses "a segment" of both AT&T and Verizon's 850 MHz spectrum for US coverage.
 
 ## March 2026: UBS price target doubled
 
-UBS raised ASTS price target from $43 to $85 on March 4, 2026. Stock rose **+9.8%** to $86.92. The raise reflects increased conviction in the direct-to-cell broadband opportunity as constellation deployment progresses. War-driven demand for resilient communications infrastructure likely contributed to sentiment.
+UBS raised ASTS price target from $43 to $85 on March 4, 2026. Stock rose +9.8% to $86.92. The raise reflects increased conviction in the direct-to-cell broadband opportunity as constellation deployment progresses. War-driven demand for resilient communications infrastructure likely contributed to sentiment.
+
+---
+
+## Q4 2025 earnings (reported ~March 25, 2026)
+
+Revenue of $54.31M beat consensus by 28.56%. The company reiterated its target of 45-60 satellites in orbit by end of 2026, with BlueBird 7 awaiting orbital launch at Cape Canaveral.
+
+---
+
+## March 25, 2026: Space sector rally
+
+ASTS surged +10.4% on March 25, driven by two catalysts:
+
+1. [[SpaceX]] IPO filing reportedly imminent — The Information reported SpaceX may file its $75B IPO prospectus as soon as this week at a $1.75T valuation. The report lifted the entire space sector: [[Rocket Lab]] (RKLB) +10%, [[Firefly Aerospace]] (FLY) +16%, York Space (YSS) +5%. The logic: a SpaceX public listing validates the space sector and draws institutional capital toward space infrastructure broadly.
+
+2. NASA "Project Ignition" — a $20B plan for a semi-permanent moon base by 2032. While AST's core business is direct-to-cell connectivity on Earth with limited near-term ties to lunar infrastructure, investors extrapolated sector momentum. [[Intuitive Machines]] (LUNR) +14.5% holds the key NASA Earth-to-moon communications contract, narrowing AST's immediate opportunity beyond Earth.
+
+The connection between these catalysts and AST's actual revenue trajectory is indirect — the rally is sector sentiment, not fundamental. AST's value proposition remains the ~3B-subscriber carrier partnerships and BlueBird constellation buildout, not space exploration.
 
 ---
 
@@ -146,5 +165,8 @@ UBS raised ASTS price target from $43 to $85 on March 4, 2026. Stock rose **+9.8
 - [[Starlink]] — competitor (T-Mobile partnership)
 - [[Globalstar]] — Apple satellite partner
 - [[Satellite primer]] — industry context
+- [[SpaceX]] — IPO filing catalyst for space sector rally
+- [[Rocket Lab]] — space peer, also rallied March 25
+- [[Intuitive Machines]] — holds NASA lunar communications contract
 - [[Space]] — sector
 - [[Telecom]] — sector
