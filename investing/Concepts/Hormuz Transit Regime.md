@@ -31,7 +31,19 @@ The investment implications cascade across three timeframes. In the immediate te
 
 ## Reference
 
-### Countries with bilateral access (as of Mar 24)
+### IRGC clearance procedure (Lloyd's List, Mar 25)
+
+Ships must contact IRGC-connected intermediaries and submit: vessel identification number, full ownership chain, cargo manifest, destination, and complete crew list. Documentation is forwarded to IRGC Navy's Hormozgan Provincial Command for three checks:
+
+1. Sanctions screening
+2. Cargo alignment (oil currently prioritized over all other commodities)
+3. "Geopolitical vetting"
+
+If cleared, the IRGC issues a clearance code and route instructions. A pilot boat escorts the vessel through Iranian territorial waters around Larak Island. Since March 15, no vessel has used the normal (non-IRGC) route — all transits are IRGC-controlled.
+
+The legal exposure for compliant shippers is severe. The IRGC is classified as a Foreign Terrorist Organisation under US law. Claire McCleskey (former OFAC compliance official): any payments, even indirect, "risk criminal prosecution" under material support statutes. Manny Levitt (Holland & Knight): even if toll payments were covered under the recent US oil waiver for pre-March 20 loads, they "would not be protected under UK or EU sanctions" and do not shield companies from anti-terrorism liability. Despite the risks, Lloyd's List reports security firms have been "inundated" with requests from ship owners seeking legal clarity.
+
+### Countries with bilateral access (as of Mar 26)
 
 | Country | Status | Ships transited | Notes |
 |---------|--------|----------------|-------|
@@ -40,6 +52,7 @@ The investment implications cascade across three timeframes. In the immediate te
 | [[Pakistan]] | Active | At least 1 oil tanker | |
 | [[Iraq]] | In talks (Mar 17) | Unknown | Iraqi oil minister confirmed contact |
 | [[Malaysia]] | In talks | Unknown | |
+| [[Russia]] | Permitted (confirmed Mar 25) | Unknown | Named by Araghchi as "friendly nation" |
 | [[Japan]] | Offered access (Mar 21) | Unconfirmed | Al Jazeera; no formal confirmation of transit |
 | European nations | Not negotiating individually | 0 | France, Germany, Italy, Netherlands, UK, Japan joint statement (Mar 19) on reopening; no bilateral deals |
 
@@ -54,6 +67,10 @@ The investment implications cascade across three timeframes. In the immediate te
 | Current war-risk premium | 0.2-0.5%+ (~$250K-$500K per VLCC) |
 | Transit fee vs insurance | Fee ($2M) > insurance surcharge ($250-500K) |
 | Boroujerdi "sovereignty" claim | "47 years" (since 1979 revolution) |
+| Confirmed fee settlements | At least 2 vessels, paid in [[yuan]] (Lloyd's List, Mar 25) |
+| Traffic volume (Mar 25) | 4 ships crossed (vs 80-105/day pre-crisis) |
+| Controlled transits since Mar 13 | 26 total via IRGC route (Lloyd's List) |
+| Vessels staging at Larak Island | 10 large vessels waiting for clearance (Windward, Mar 26) |
 
 ### Legal framework
 
@@ -82,6 +99,8 @@ The investment implications cascade across three timeframes. In the immediate te
 | Feb 28 | Hormuz closure — binary blockade, Iranian-flagged only |
 | Early Mar | Selective blockade declared — "closed to US, Israeli, Western-allied ships" (Mar 5) |
 | ~Mar 10-14 | CNN report: senior Iranian official floats yuan settlement as condition for limited passage |
+| Mar 13 | First controlled transits begin — 26 vessel transits via IRGC-controlled route through Mar 26 (Lloyd's List) |
+| Mar 15 | Last vessel uses normal (non-IRGC) route; all subsequent transits IRGC-controlled |
 | Mar 16 | Indian LPG carrier Shivalik transits with Iranian approval |
 | Mar 17 | Iraqi oil minister confirms contact with Iran on passage |
 | Mar 19 | France, Germany, Italy, Netherlands, UK, Japan joint statement on reopening |
@@ -90,6 +109,14 @@ The investment implications cascade across three timeframes. In the immediate te
 | Mar 23 | Boroujerdi (Iranian MP): "$2M transit fees" from some vessels, "new sovereignty" |
 | Mar 23 | Iran officially denies fee policy (India Today) |
 | Mar 24 | Bloomberg confirms ad hoc fees up to $2M being charged; parliament considering legislation |
+| Mar 25 | [[Lloyd's List]] publishes detailed report calling it a "de facto toll booth regime"; confirms at least 2 ships paid tolls in [[yuan|Chinese yuan]] |
+| Mar 25 | Iran FM Araghchi confirms "friendly nations" (Pakistan, India, Iraq, China, Russia) permitted to use strait |
+| Mar 26 | [[GCC]] joint statement condemns Iran's actions as having "overcome all red lines"; GCC states declare readiness for self-defense |
+| Mar 26 | Iranian lawmaker Mohammadreza Rezaei Kouchi confirms parliament drafting legislation to codify Hormuz transit fees — "We provide its security, and it is natural that ships and oil tankers should pay such fees" (Fars, Tasnim) |
+| Mar 26 | Israel kills Commodore [[Alireza Tangsiri]], commander of [[IRGC]] Navy — key figure behind Hormuz blockade operations (Israeli Defense Minister Katz) |
+| Mar 26 | Only 4 ships crossed strait on Mar 25 (Windward data); 10 large vessels staging north of Larak Island awaiting controlled transit |
+| Mar 26 | Two cargo vessels entered Gulf without AIS, hugging Omani coast — pattern consistent with operators avoiding IRGC system entirely (Windward) |
+| Mar 26 | US: 2,500 Marines on USS Tripoli + 1,000 82nd Airborne paratroopers ordered to region; focus on possible Kharg Island seizure |
 
 ---
 
@@ -115,4 +142,4 @@ The investment implications cascade across three timeframes. In the immediate te
 
 ---
 
-*Sources: Bloomberg (Mar 24), Anadolu Agency (Mar 23), CNN (mid-Mar), SCMP (mid-Mar), Asia Times / William Pesek (Mar 24), Asia Times / Kashif Hasan Khan (Mar 23), India Today (Mar 23), FDD (Mar 24), NYT (Mar 20), Al Jazeera (Mar 21), Foreign Policy (Mar 23), Lloyd's List, Lawfare (Mar 22).*
+*Sources: Bloomberg (Mar 24), Anadolu Agency (Mar 23), CNN (mid-Mar), SCMP (mid-Mar), Asia Times / William Pesek (Mar 24), Asia Times / Kashif Hasan Khan (Mar 23), India Today (Mar 23), FDD (Mar 24), NYT (Mar 20), Al Jazeera (Mar 21), Foreign Policy (Mar 23), Lloyd's List (Mar 25), Lawfare (Mar 22), Fortune/AP (Mar 26), The Independent (Mar 26), GCC joint statement (Mar 26), Fars/Tasnim (Mar 26), Windward (Mar 26).*

@@ -65,13 +65,24 @@
 
 ## 2026 forecasts
 
-| Source | Core PCE 2026 | When to 2%? |
-|--------|---------------|-------------|
-| Fed (Dec 2025 SEP) | 2.4% | 2027 |
-| [[Goldman Sachs]] | 2.1% | Late 2026 |
-| CBO | 2.4% | 2027 |
+| Source | Headline CPI 2026 | Core 2026 | 2027 | When issued |
+|--------|-------------------|-----------|------|-------------|
+| [[OECD]] (Mar 26, 2026) | **4.2%** | 2.8% | 1.6% | Mar 26, 2026 |
+| OECD (prior) | 2.8% | — | — | Dec 2025 |
+| Fed (Mar 2026 SEP) | 2.7% | — | 2.2% | Mar 18, 2026 |
+| Fed (Dec 2025 SEP) | — | 2.4% (core PCE) | — | Dec 2025 |
+| [[Goldman Sachs]] | — | 2.1% (core PCE) | — | Late 2025 |
+| CBO | — | 2.4% | — | 2025 |
 
-**Consensus:** Inflation continues cooling but likely stays above 2% through most of 2026.
+**Mar 26 OECD revision:** The [[OECD]] raised its US inflation forecast from 2.8% to 4.2% — a 1.4pp jump driven almost entirely by the [[Iran]] war's impact on global energy prices ([[Strait of Hormuz]] closure, [[Brent crude]] above $107). This is 1.5pp above the [[Federal Reserve]]'s own March 18 projection of 2.7%. OECD also revised G20 inflation +1.2pp to 4.0% for 2026. Core inflation projected at 2.8% (above Fed's 2% target through 2027).
+
+The OECD sees the Fed holding rates flat through 2027: "reflecting rising headline inflation in the near-term, core inflation projected to remain above target through 2027, and solid projected GDP growth." But cautioned the Fed "need[s] to remain vigilant" — the current supply-induced energy shock "can be looked through provided inflation expectations remain well-anchored, but policy adjustment may be needed if there are signs of broader price pressures."
+
+OECD GDP forecast: US 2.0% in 2026, 1.7% in 2027 (down from Q4 2025's 0.7% annualized).
+
+German Defense Minister Boris Pistorius: "To make it crystal clear, this war is a catastrophe for world's economies."
+
+**Pre-Iran war consensus was that inflation was cooling toward 2%. The war has created a 1970s-style energy supply shock that has blown up the disinflation narrative.**
 
 ---
 

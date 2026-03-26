@@ -21,6 +21,12 @@ Alphabet — parent company of [[Google]], YouTube, Waymo, DeepMind, Google Clou
 
 ---
 
+## TurboQuant (March 2026)
+
+Google Research unveiled [[TurboQuant]] on March 25, 2026 — a KV-cache compression algorithm reducing LLM memory usage by 6x and speeding attention computation by 8x on [[NVIDIA]] H100 accelerators, with zero accuracy loss. The open-source release (free for commercial use) triggered a memory stock selloff ([[Micron]] -3.9%, [[SanDisk]] -3.5%) on fears of reduced AI memory demand. [[Goldman Sachs]] separately reiterated Buy on Apple and Dell, citing "autonomous AI agents like OpenClaw" as a PC hardware demand driver — a distinct but related efficiency-driven thesis.
+
+---
+
 ## Related
 
 - [[Google]] — core subsidiary
@@ -28,6 +34,7 @@ Alphabet — parent company of [[Google]], YouTube, Waymo, DeepMind, Google Clou
 - [[TSMC]] — TPU foundry
 - [[TERAFAB]] — hyperscaler capex context
 - [[Hyundai]] — DeepMind partnership for Atlas AI
+- [[TurboQuant]] — KV-cache compression algorithm (Mar 2026)
 - [[Waymo]] — autonomous vehicles
 
 *Stub created 2026-03-24*
