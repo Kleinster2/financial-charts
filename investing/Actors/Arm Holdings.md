@@ -98,60 +98,9 @@ Annualized contract value (ACV) grew 28% YoY in Q3 FY2026, reflecting licensing 
 
 On March 24, 2026, Arm announced the AGI CPU at an event in San Francisco — the first production silicon in the company's 35-year history. This is the most significant strategic shift since SoftBank's acquisition.
 
-### What it is
+The [[Arm AGI CPU]] is a 136-core Neoverse V3 data center CPU on [[TSMC]] 3nm, targeting [[Agentic AI]] inference. Co-developed with [[Meta]] as lead partner. 300W TDP, 2x performance per rack versus x86, 50% gross margin. Volume production H2 2026. Revenue target: $15B/yr by 2031 — nearly 4x Arm's entire current revenue. Customers include [[OpenAI]], [[Cerebras]], [[Cloudflare]], SAP, SK Telecom. 50+ ecosystem supporters. Citi called it the "most significant shift in the company's history."
 
-A data center CPU designed for agentic AI inference workloads — the always-on, reasoning, planning, and acting tasks that require sustained high-throughput CPU compute (as opposed to GPU-heavy training). The thesis is that agentic AI drives 4x more CPU demand per GW of data center capacity versus current workloads.
-
-### Specifications
-
-| Spec | Detail |
-|------|--------|
-| Cores | Up to 136 Neoverse V3 cores |
-| Process | [[TSMC]] 3nm (N3P) |
-| Architecture | Armv9.2 ISA, dual 128-bit SVE2 per core |
-| Clock | 3.2 GHz all-core, 3.7 GHz boost |
-| TDP | 300W |
-| Memory | 12 DDR5 channels, 800+ GB/s bandwidth, 6 GB/s per core, sub-100ns latency |
-| I/O | 96 PCIe Gen6 lanes, native CXL 3.0 |
-| Packaging | Two-die chiplet (single logical chip) |
-| Form factor | 1U dual-node server reference design |
-| Density (air-cooled) | 8,160 cores per rack |
-| Density (liquid-cooled) | 45,000+ cores per rack |
-| Performance claim | 2x per rack vs x86 CPUs |
-| CAPEX savings claim | Up to $10B per GW of AI DC capacity |
-
-### Economics
-
-- Gross margin: ~50% (per CFO Jason Child) — significantly below the ~95% IP business, but generating far more absolute profit at scale
-- Revenue target: $15B/yr by 2031 from AGI CPU alone
-- Total company target: $25B revenue, $9 EPS by 2031 (vs ~$4B / ~$1.75 EPS current)
-- IP business expected to double over roughly five years alongside silicon ramp
-- Citi: "$15B in revenue would drive $7.5B/$5B in incremental gross/operating profit"
-
-### Customers and ecosystem
-
-| Role | Partners |
-|------|----------|
-| Lead partner / co-developer | [[Meta]] (multi-generation roadmap commitment) |
-| Chip customers | [[OpenAI]], [[Cerebras]], [[Cloudflare]], F5, Positron, Rebellions, SAP, SK Telecom |
-| OEMs / ODMs | Lenovo, Supermicro, ASRock Rack, Quanta Computer |
-| Fabrication | [[TSMC]] (3nm N3P) |
-| Ecosystem supporters (50+) | [[Amazon|AWS]], [[Google]], [[Microsoft]], [[NVIDIA]], [[Broadcom]], [[Samsung]], SK hynix, Micron, Marvell, Cadence, Synopsys, Red Hat, Intel Foundry, and more |
-
-### Timeline
-
-- Development started 2023
-- Test chips received and functioning ("it's back, and it works" — Haas)
-- Early systems available now (March 2026)
-- Volume production: H2 2026
-- Future designs at 12-18 month cadence
-- Overseen by Mohamed Awad, SVP Cloud AI
-
-### Why it matters
-
-The AGI CPU targets companies that cannot afford to build their own custom Arm-based server chips — an entire market segment that Arm's IP-only model couldn't serve. [[Amazon]] (Graviton), [[Google]] (Axion), [[Microsoft]] (Cobalt), and [[NVIDIA]] (Grace/Vera) all have in-house Arm CPU programs. But most enterprises, cloud providers, and AI startups don't have that capability. Arm is positioning the AGI CPU as the "off-the-shelf Arm server chip" for everyone else.
-
-Citi called it the "most significant shift in the company's history." The revenue forecasts "well above even the highest of speculated estimates."
+See [[Arm AGI CPU]] for full specifications, competitive comparison, market discovery timeline, customer details, and the agentic AI thesis.
 
 ---
 
@@ -353,6 +302,7 @@ Management 5-year targets (by ~2031): $25B revenue, $9 EPS — implying the IP b
 - [[Cloudflare]] — AGI CPU customer
 - [[Ampere Computing]] — SoftBank-owned Arm server chip company ($6.5B acquisition)
 - [[RISC-V]] — open-source ISA, long-term competitive threat
+- [[Arm AGI CPU]] — first in-house production silicon (Product note)
 - [[Agentic AI]] — key demand driver for AGI CPU
 - [[Semiconductors]] — sector
 - [[Export controls]] — [[China]] licensing risk
