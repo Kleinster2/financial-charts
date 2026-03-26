@@ -102,6 +102,10 @@ The [[Arm AGI CPU]] is a 136-core Neoverse V3 data center CPU on [[TSMC]] 3nm, t
 
 See [[Arm AGI CPU]] for full specifications, competitive comparison, market discovery timeline, customer details, and the agentic AI thesis.
 
+### Market reaction (March 25)
+
+ARM surged 16.4% to $162.10, adding ~$29B in market cap — the stock's highest level since November. The semiconductor sector followed: [[AMD]] +7.3%, [[Intel]] +7.1%, [[NVIDIA]] +2.0%. Reuters noted ARM now trades at 63x forward P/E versus AMD at 27x and Intel at 71x. HSBC analysts forecast that by FY2029, server CPU revenue (AGI CPU silicon + server CPU royalties) will overtake smartphones as the dominant contributor to Arm's overall revenue mix — a structural shift in the business composition. Citi's assessment: "Arm has not taken a baby step — it has jumped in with both feet." The $15B revenue forecast was "well above even the highest of speculated estimates." On incremental economics: $15B silicon revenue at 50% gross margin → $7.5B incremental gross profit + $5B incremental operating profit, dwarfing any margin compression concern.
+
 ---
 
 ## Business model: the three layers

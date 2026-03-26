@@ -26,7 +26,7 @@ META trades as a core Communications name (XLC r = 0.78).
 
 | Role | Name | Since |
 |------|------|-------|
-| Founder, Chairman & CEO | **Mark Zuckerberg** | 2004 |
+| Founder, Chairman & CEO | Mark Zuckerberg | 2004 |
 | CFO | Susan Li | 2022 |
 | COO | Javier Olivan | 2022 |
 | Chief Product Officer | Chris Cox | 2014 (returned 2020) |
@@ -76,26 +76,36 @@ Superintelligence Labs co-heads: Alexandr Wang ([[Scale AI]]), [[Nat Friedman]],
 
 ## Q4 2025 earnings (Jan 28, 2026)
 
-**Strong beat, stock +10%:**
+Strong beat, stock +10%:
 
 | Metric | Actual | Expected |
 |--------|--------|----------|
-| EPS | **$8.88** | $8.16 |
-| Revenue | **$59.9B** | $58.4B |
+| EPS | $8.88 | $8.16 |
+| Revenue | $59.9B | $58.4B |
 | Reality Labs rev | $955M | $959M |
 | Reality Labs loss | ($6B) | - |
 
-**Q1 2026 guidance:** Revenue **$53.5B - $56.5B** (above consensus $51.3B).
+Q1 2026 guidance: Revenue $53.5B - $56.5B (above consensus $51.3B).
 
-**2026 capex guidance: $115B-$135B** - up from $72.2B in 2025 (60-87% increase).
+2026 capex guidance: $115B-$135B - up from $72.2B in 2025 (60-87% increase).
 
-**Engagement:** 3.5B daily active users across apps (record). Ad impressions +18%, average ad price +6%.
+Engagement: 3.5B daily active users across apps (record). Ad impressions +18%, average ad price +6%.
 
-**AI strategy shift:** Considering making next major AI model **proprietary**, moving away from open-weights approach. Signals defensive posture as Google Gemini 3 seen as leading.
+AI strategy shift: Considering making next major AI model proprietary, moving away from open-weights approach. Signals defensive posture as Google Gemini 3 seen as leading.
 
-**Reality Labs:** Job cuts in metaverse division; savings redirected to wearables/AI glasses.
+Reality Labs: Job cuts in metaverse division; savings redirected to wearables/AI glasses.
 
-**FTC:** Appealing its antitrust loss (Instagram/WhatsApp acquisition case).
+FTC: Appealing its antitrust loss (Instagram/WhatsApp acquisition case).
+
+---
+
+## $9T market cap executive compensation target (March 2026)
+
+Meta is tying executive pay to reaching a $9T market cap by 2031, roughly 5x its current ~$1.8T value. The new stock option plan could pay top leaders hundreds of millions if achieved. This underscores how central AI-driven growth has become to the company's strategy. Stock-based compensation surged in 2025, consuming about 96% of free cash flow, with billions spent on AI talent and buybacks to offset dilution. The aggressive target aligns incentives with the rapid AI scaling thesis but also highlights how expensive the talent war has become.
+
+## Arm AGI CPU partnership (March 2026)
+
+Meta is the lead customer and co-developer for the [[Arm AGI CPU]], Arm's first in-house production silicon announced March 24, 2026. The chip targets [[Agentic AI]] inference in data centers. Meta's role as anchor customer — alongside its $135B AI capex commitment for 2026 — positions the company at the center of the CPU inference buildout. See [[Arm AGI CPU]] and [[Arm Holdings]].
 
 ---
 
@@ -120,7 +130,7 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 | 2022 | $116.6B | $23.2B | $8.59 | $120 |
 | 2023 | $134.9B | $39.1B | $14.87 | $354 |
 | 2024 | $164.5B | $62.4B | $23.86 | $595 |
-| **2025** | **$200.9B** | **$78.5B** | **$30.22** | **$661** |
+| 2025 | $200.9B | $78.5B | $30.22 | $661 |
 | *2026* | *$250.9B* | *$75.9B* | *$29.58* | *-* |
 | *2027* | *$294.5B* | *$88.3B* | *$34.41* | *-* |
 
@@ -146,9 +156,9 @@ Meta unveiled four new chip generations, the most aggressive custom silicon road
 | MTIA 450 | Arke | Mass deploy 2027 | GenAI inference (primary), then ranking |
 | MTIA 500 | Astrid | Mass deploy 2027 | GenAI inference (primary), then ranking |
 
-**Cadence:** New chip every 6 months or less — modular, reusable designs. Industry norm is 1-2 years. MTIA 450/500 optimized first for GenAI inference, then repurposed for training and recommendations.
+Cadence: New chip every 6 months or less — modular, reusable designs. Industry norm is 1-2 years. MTIA 450/500 optimized first for GenAI inference, then repurposed for training and recommendations.
 
-**Strategic context:** Announced one week after signing multiyear deals with both [[NVIDIA]] (millions of processors) and [[AMD]] (6GW of Instinct GPUs). Custom chips complement, not replace, vendor GPUs — Meta is building optionality across all three vectors.
+Strategic context: Announced one week after signing multiyear deals with both [[NVIDIA]] (millions of processors) and [[AMD]] (6GW of Instinct GPUs). Custom chips complement, not replace, vendor GPUs — Meta is building optionality across all three vectors.
 
 *Source: Bloomberg, CNBC, Meta blog (Mar 11, 2026)*
 
@@ -156,10 +166,10 @@ Meta unveiled four new chip generations, the most aggressive custom silicon road
 
 Signed multiyear pact to deploy "millions" of [[NVIDIA]] processors:
 
-- **Scope:** Blackwell (current), Vera Rubin (next-gen AI accelerators), Grace/Vera CPUs, plus networking equipment
-- **CPU first:** Meta becomes first large DC operator to use NVIDIA Grace CPUs in **standalone servers** (not paired with GPU accelerators) - encroaching on [[Intel]] and [[AMD]] territory
-- **Grace CPU use cases:** backend data center workloads (databases, data manipulation, ML). NVIDIA claims 2x performance/watt vs incumbents
-- **No dollar figure or timeline disclosed**
+- Scope: Blackwell (current), Vera Rubin (next-gen AI accelerators), Grace/Vera CPUs, plus networking equipment
+- CPU first: Meta becomes first large DC operator to use NVIDIA Grace CPUs in standalone servers (not paired with GPU accelerators) - encroaching on [[Intel]] and [[AMD]] territory
+- Grace CPU use cases: backend data center workloads (databases, data manipulation, ML). NVIDIA claims 2x performance/watt vs incumbents
+- No dollar figure or timeline disclosed
 - Zuckerberg: expanding partnership to "deliver personal superintelligence to everyone in the world"
 - Meta also developing in-house chips (MTIA) and in talks with [[Google]] about using TPUs - deal signals NVIDIA retaining dominant share despite alternatives
 - Meta accounts for ~9% of NVIDIA revenue (~$13B annualized at current run rate)
@@ -168,12 +178,12 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-17/meta-deep
 
 ### AMD 6GW deal (Feb 24, 2026)
 
-One week after the NVIDIA deal, signed multiyear partnership with [[AMD]] for up to **6 gigawatts of Instinct GPUs**:
+One week after the NVIDIA deal, signed multiyear partnership with [[AMD]] for up to 6 gigawatts of Instinct GPUs:
 
-- **First shipments:** H2 2026 - custom MI450 in [[Helios]] rack-scale servers + AI-optimized [[EPYC]] CPUs
-- **Warrants:** 160M AMD shares (~10% of company), vesting on deployment milestones (1GW → 6GW) + stock price thresholds
-- **Same structure** as AMD's [[OpenAI]] deal (Oct 2025) - also 160M shares
-- **Signal:** Meta diversifying GPU supply across both major vendors while maintaining $135B capex plan
+- First shipments: H2 2026 - custom MI450 in [[Helios]] rack-scale servers + AI-optimized [[EPYC]] CPUs
+- Warrants: 160M AMD shares (~10% of company), vesting on deployment milestones (1GW → 6GW) + stock price thresholds
+- Same structure as AMD's [[OpenAI]] deal (Oct 2025) - also 160M shares
+- Signal: Meta diversifying GPU supply across both major vendors while maintaining $135B capex plan
 - AMD +7%, Meta flat on the news
 
 See [[Meta-AMD 6GW deal]] for full details.
@@ -182,58 +192,58 @@ See [[Meta-AMD 6GW deal]] for full details.
 
 ## AI leadership
 
-**Meta Superintelligence Labs** - New AI division (2025):
+Meta Superintelligence Labs - New AI division (2025):
 
 | Person | Role | Background |
 |--------|------|------------|
-| **Alexandr Wang** | Co-head | [[Scale AI]] founder |
-| **[[Nat Friedman]]** | Co-head, Product | GitHub CEO, NFDG fund |
-| **[[Daniel Gross]]** | Co-head, Compute | YC partner, NFDG fund, [[SSI]] co-founder |
+| Alexandr Wang | Co-head | [[Scale AI]] founder |
+| [[Nat Friedman]] | Co-head, Product | GitHub CEO, NFDG fund |
+| [[Daniel Gross]] | Co-head, Compute | YC partner, NFDG fund, [[SSI]] co-founder |
 
 Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring minority stake in NFDG (Friedman/Gross's $1.1B AI fund).
 
-**Vision:** Zuckerberg racing to build "personal superintelligence"
+Vision: Zuckerberg racing to build "personal superintelligence"
 
 ---
 
 ## Meta Compute (Jan 2026)
 
-**New infrastructure leadership team:**
+New infrastructure leadership team:
 
 | Person | Role | Reports to |
 |--------|------|------------|
-| **Dina Powell McCormick** | President & Vice Chairman | Zuckerberg |
-| **Santosh Janardhan** | Head of Infrastructure | Zuckerberg |
-| **[[Daniel Gross]]** | Capital Strategy & Partnerships | Zuckerberg |
+| Dina Powell McCormick | President & Vice Chairman | Zuckerberg |
+| Santosh Janardhan | Head of Infrastructure | Zuckerberg |
+| [[Daniel Gross]] | Capital Strategy & Partnerships | Zuckerberg |
 
-**Powell McCormick:**
+Powell McCormick:
 - Ex-[[Goldman Sachs]] (led global sovereign investment banking)
 - Trump deputy national security adviser (first term)
 - Husband Dave McCormick = Republican Senator (PA)
 - Focus: government and sovereign partnerships for AI infrastructure
 
-**Trump on Truth Social:** "She is a fantastic, and very talented, person, who served the Trump Administration with strength and distinction."
+Trump on Truth Social: "She is a fantastic, and very talented, person, who served the Trump Administration with strength and distinction."
 
-**$600B infrastructure commitment:** Meta planning "tens of gigawatts this decade, and hundreds of gigawatts or more over time."
+$600B infrastructure commitment: Meta planning "tens of gigawatts this decade, and hundreds of gigawatts or more over time."
 
-**Nuclear partnerships:** One of world's largest corporate buyers of nuclear power.
+Nuclear partnerships: One of world's largest corporate buyers of nuclear power.
 
 ---
 
 ## Nuclear energy (Feb 2026 update)
 
-**Meta becoming one of the largest corporate nuclear buyers in US history:**
+Meta becoming one of the largest corporate nuclear buyers in US history:
 
 | Partner | Deal | Capacity |
 |---------|------|----------|
-| **[[Constellation Energy]]** | $10B Louisiana data center | - |
-| **[[Vistra]]** | 20-year PPA, 3 OH/PA plants | 2.6 GW |
-| **[[TerraPower]]** | Advanced reactor partnership | TBD |
-| **[[Oklo]]** | SMRs (by 2032) | 690 MW |
+| [[Constellation Energy]] | $10B Louisiana data center | - |
+| [[Vistra]] | 20-year PPA, 3 OH/PA plants | 2.6 GW |
+| [[TerraPower]] | Advanced reactor partnership | TBD |
+| [[Oklo]] | SMRs (by 2032) | 690 MW |
 
-**Feb 2026 announcement:** Joel Kaplan stated these deals make "Meta one of the most significant corporate purchasers of nuclear energy in American history." Combined capacity up to **6.6 GW** over 20 years.
+Feb 2026 announcement: Joel Kaplan stated these deals make "Meta one of the most significant corporate purchasers of nuclear energy in American history." Combined capacity up to 6.6 GW over 20 years.
 
-**Vistra deal details (Jan 2026):**
+Vistra deal details (Jan 2026):
 - 20-year PPA at premium price
 - 2.6 GW total from three nuclear plants in Ohio and Pennsylvania
 - Only ~1/6 is expansion, ~5/6 is existing capacity
@@ -241,27 +251,27 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 - Vistra claims deal underwrites license extension applications
 - Stock fell on PJM's BYOG proposal - signals era of existing-capacity grabs may be ending
 
-**New nuclear capacity:** 2 SMRs under construction expected online by 2032 (690 MW combined).
+New nuclear capacity: 2 SMRs under construction expected online by 2032 (690 MW combined).
 
-**Context:** Hyperscalers racing to secure nuclear for AI data center power. See also [[Microsoft]] Constellation deal, [[Amazon]] nuclear investments, [[Oracle]] energy strategy.
+Context: Hyperscalers racing to secure nuclear for AI data center power. See also [[Microsoft]] Constellation deal, [[Amazon]] nuclear investments, [[Oracle]] energy strategy.
 
 ---
 
 ## Anduril defense partnership (Jan 2026)
 
-**AI-powered military helmet:**
+AI-powered military helmet:
 - Partnership with [[Anduril]] for US military products
 - VR/AR features for soldiers
 - Combines Meta Reality Labs hardware + Anduril defense AI
 
-**CTO Andrew Bosworth:**
+CTO Andrew Bosworth:
 > "Tides have turned" in Silicon Valley - more acceptable to support US military.
 
 > "There's a much stronger patriotic underpinning than I think people give Silicon Valley credit for... a return to grace."
 
-**Silicon Valley history:** Founded on military development (DARPA, etc.). Meta sees this as returning to roots.
+Silicon Valley history: Founded on military development (DARPA, etc.). Meta sees this as returning to roots.
 
-**Reality Labs:** Bosworth expects 2026 to be "particularly consequential" - market will determine if people adopt the technology
+Reality Labs: Bosworth expects 2026 to be "particularly consequential" - market will determine if people adopt the technology
 
 ---
 
@@ -269,14 +279,14 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 
 | Acquisition | Price | What | Date |
 |-------------|-------|------|------|
-| **Manus** | ~$2B+ | [[AI agents]] (Chinese-founded) | Jan 2026 |
-| **Rivos** | ~$2B | Custom chip design ([[RISC-V]]) | 2025 |
-| **[[Moltbook]]** | Undisclosed | AI agent social network (acqui-hire) | **Mar 10, 2026** |
+| Manus | ~$2B+ | [[AI agents]] (Chinese-founded) | Jan 2026 |
+| Rivos | ~$2B | Custom chip design ([[RISC-V]]) | 2025 |
+| [[Moltbook]] | Undisclosed | AI agent social network (acqui-hire) | Mar 10, 2026 |
 | PlayAI | - | AI audio | 2025 |
 | WaveForms | - | AI audio | 2025 |
 | Limitless | - | Wearables | 2025 |
 
-**Moltbook (Mar 10, 2026):**
+Moltbook (Mar 10, 2026):
 - Acqui-hire - [[Matt Schlicht]] (CEO) and [[Ben Parr]] (COO) join [[Meta Superintelligence Labs]]
 - Start date: March 16, 2026
 - AI-only social network (1.6M registered bots, 7.5M+ posts) built on [[OpenClaw]]
@@ -285,8 +295,8 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 - [[Andrew Bosworth]] said he didn't "find it particularly interesting" a month before the acquisition
 - See [[Meta Moltbook acquisition]] for full details
 
-**Manus (Jan 2026):**
-- **$2B** - outright acquisition (not acqui-hire)
+Manus (Jan 2026):
+- $2B - outright acquisition (not acqui-hire)
 - Chinese-founded AI agent startup (~100 staff)
 - Meta's 3rd largest acquisition ever (after Instagram, [[WhatsApp]])
 - "Leading autonomous general-purpose agent"
@@ -296,7 +306,7 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 - Signals aggressive catch-up in [[Agentic AI]]
 - Part of broader [[AI consolidation]] - Big Tech buying Chinese startups
 
-**Geopolitical angle:**
+Geopolitical angle:
 - Rare US acquisition of cutting-edge Chinese AI
 - Brain drain concerns: [[ZhenFund]] partner: "An incredible company and team are being sold to the United States"
 - Could raise hackles in Washington AND Beijing
@@ -305,18 +315,18 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 
 ## Smart glasses & wearables
 
-**Ray-Ban Meta (with [[EssilorLuxottica]]):**
+Ray-Ban Meta (with [[EssilorLuxottica]]):
 - Best-selling smart glasses ever
 - Camera + audio + Meta AI assistant
 - [[Consumer]]-friendly form factor (looks like normal Ray-Bans)
 - Entry point to AR ecosystem
 
-**Orion (AR glasses prototype):**
+Orion (AR glasses prototype):
 - Full holographic display
 - Years from consumer release
 - "The future" of Meta hardware
 
-**Wearables strategy:**
+Wearables strategy:
 - Acquired Limitless (wearables startup)
 - Start with audio/camera → graduate to full AR
 - Competing with 70+ Chinese entrants
@@ -336,23 +346,23 @@ See [[Wearable AI]] for competitive landscape.
 
 ## Stablecoin payments (Feb 2026)
 
-**Meta testing stablecoin-based payments for H2 2026 launch:**
+Meta testing stablecoin-based payments for H2 2026 launch:
 
 - Issued RFPs to external infrastructure firms for stablecoin integration across Facebook, Instagram, and WhatsApp
-- **[[Stripe]]** is leading candidate - CEO Patrick Collison joined Meta board April 2025
+- [[Stripe]] is leading candidate - CEO Patrick Collison joined Meta board April 2025
 - [[Stripe]] acquired Bridge (stablecoin infrastructure) for ~$1.1B in Oct 2024; Bridge received conditional OCC national trust bank charter Feb 2026
-- **Not issuing own token** - Meta as distribution channel, not issuer. "They want to do this, but at arm's length"
-- Focus: **creator payouts** and **~$100 cross-border transfers**
+- Not issuing own token - Meta as distribution channel, not issuer. "They want to do this, but at arm's length"
+- Focus: creator payouts and ~$100 cross-border transfers
 - New wallet implementation planned
 - Meta officially denied "re-entering" the stablecoin business - framing as payments integration
 
-**Scale:** 3.5B daily active users - if adopted, instantly the largest stablecoin payments network globally.
+Scale: 3.5B daily active users - if adopted, instantly the largest stablecoin payments network globally.
 
-**History:** Meta's 2019 Libra project (later rebranded Diem) was killed by regulatory opposition. [[Kevin Weil]] co-created Libra during his 2018-2021 tenure at Facebook/Novi. Diem assets sold to Silvergate for $182M in Jan 2022.
+History: Meta's 2019 Libra project (later rebranded Diem) was killed by regulatory opposition. [[Kevin Weil]] co-created Libra during his 2018-2021 tenure at Facebook/Novi. Diem assets sold to Silvergate for $182M in Jan 2022.
 
-**Regulatory context:** Friendlier US crypto environment under Trump. Congress actively working on stablecoin legislation. OCC granting bank charters to crypto firms.
+Regulatory context: Friendlier US crypto environment under Trump. Congress actively working on stablecoin legislation. OCC granting bank charters to crypto firms.
 
-**Open questions:** Which stablecoins supported, onchain vs abstracted payouts, wallet custody model, non-US markets first as regulatory sandbox.
+Open questions: Which stablecoins supported, onchain vs abstracted payouts, wallet custody model, non-US markets first as regulatory sandbox.
 
 Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-testing-stablecoin-payments-as-digital-currencies-take-off), [CoinDesk](https://www.coindesk.com/business/2026/02/24/mark-zuckerberg-s-meta-is-planning-stablecoin-comeback-in-the-second-half-of-this-year)
 
@@ -362,7 +372,7 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-test
 
 Meta is the clearest example of "shipped ≠ deployed" - see [[GPU deployment bottleneck]].
 
-**CIP surge (Q3'24 → Q3'25: +$20.7B YoY):**
+CIP surge (Q3'24 → Q3'25: +$20.7B YoY):
 
 | Quarter | CIP Balance | Notes |
 |---------|-------------|-------|
@@ -372,15 +382,15 @@ Meta is the clearest example of "shipped ≠ deployed" - see [[GPU deployment bo
 | Q4 2024 | $26.8B | Surge begins |
 | Q1 2025 | $32.4B | +$5.6B QoQ |
 | Q2 2025 | $36.0B | +$3.6B QoQ |
-| Q3 2025 | **$44.0B** | +$8B QoQ, excludes Hyperion |
+| Q3 2025 | $44.0B | +$8B QoQ, excludes Hyperion |
 
-**10-K disclosure:** "servers and network assets components stored by our suppliers until required" - $1.4B in Dec 2023, $2.2B in Dec 2022.
+10-K disclosure: "servers and network assets components stored by our suppliers until required" - $1.4B in Dec 2023, $2.2B in Dec 2022.
 
 ---
 
 ## Socrates South power generation (Jan 2026)
 
-**Meta building 200MW+ on-site gas power generation:**
+Meta building 200MW+ on-site gas power generation:
 
 | Equipment | Units | MW each | Total |
 |-----------|-------|---------|-------|
@@ -388,19 +398,19 @@ Meta is the clearest example of "shipped ≠ deployed" - see [[GPU deployment bo
 | [[Solar Turbines]] [[Titan]] 130 IGT | 9 | 16.5 MW | 148.5 MW |
 | [[Siemens Energy]] SGT-400 IGT | 3 | 14.3 MW | 42.9 MW |
 | [[Caterpillar]] 3520 fast-start | 15 | 3.1 MW | 46.5 MW |
-| **Gross total** | | | **~307 MW** |
+| Gross total | | | ~307 MW |
 
-**Design:** N+1+1 redundancy → operational capacity 200MW+
+Design: N+1+1 redundancy → operational capacity 200MW+
 
-**Key insight:** Hybrid fleet (4 turbine types) diversifies supplier risk. Solar Turbines is a [[Caterpillar]] subsidiary - essentially 2 vendors ([[Caterpillar]] + [[Siemens]]).
+Key insight: Hybrid fleet (4 turbine types) diversifies supplier risk. Solar Turbines is a [[Caterpillar]] subsidiary - essentially 2 vendors ([[Caterpillar]] + [[Siemens]]).
 
-**Pattern:** Another [[BYOP]] example - Meta joining OpenAI in on-site generation. See [[Power constraints]].
+Pattern: Another [[BYOP]] example - Meta joining OpenAI in on-site generation. See [[Power constraints]].
 
 ---
 
 ## Data center portfolio (Q3 2025)
 
-**On-balance-sheet (~$12.3-13.5B in CIP):**
+On-balance-sheet (~$12.3-13.5B in CIP):
 
 | Project | Location | Est. CIP | Status |
 |---------|----------|----------|--------|
@@ -412,24 +422,24 @@ Meta is the clearest example of "shipped ≠ deployed" - see [[GPU deployment bo
 | Montgomery | Alabama | $1.5B | Peak Build (up from $800M) |
 | Expansions | Various | ~$6.0B | Temple TX, Rosemount MN |
 
-**Off-balance-sheet:**
+Off-balance-sheet:
 
 | Project | Location | Meta Share | Structure |
 |---------|----------|------------|-----------|
-| **Hyperion** | Louisiana | $6B | $30B SPV with [[Blue Owl]], Meta 20% equity |
+| Hyperion | Louisiana | $6B | $30B SPV with [[Blue Owl]], Meta 20% equity |
 
-**Hyperion (Louisiana):**
+Hyperion (Louisiana):
 - 5GW eventual capacity
-- **$50B total** (per Trump announcement)
+- $50B total (per Trump announcement)
 - "Nearly the size of Manhattan" - Zuckerberg
 - First phase 2028
-- **Not included in $44B CIP**
+- Not included in $44B CIP
 
 ---
 
 ## Stock-based compensation
 
-Meta has the worst [[Stock-based compensation|SBC]] sterilization ratio among Mag 7. Over 10 years, **82% of $148B in buybacks** merely offset dilution from equity grants - only 18% actually reduced the float (3.9% net reduction).
+Meta has the worst [[Stock-based compensation|SBC]] sterilization ratio among Mag 7. Over 10 years, 82% of $148B in buybacks merely offset dilution from equity grants - only 18% actually reduced the float (3.9% net reduction).
 
 | Year | SBC Expense | % Revenue | Buyback $ |
 |------|-------------|-----------|-----------|
@@ -437,7 +447,7 @@ Meta has the worst [[Stock-based compensation|SBC]] sterilization ratio among Ma
 | 2024 | $16.7B | 10.1% | $29.7B |
 | 2025 | $20.4B | 10.2% | $30.1B |
 
-**SBC-adjusted FCF (2025):** $43.6B reported - $20.4B SBC = ~$23.2B. At ~$1.7T market cap, that's a ~1.4% adjusted FCF yield vs. ~2.6% headline.
+SBC-adjusted FCF (2025): $43.6B reported - $20.4B SBC = ~$23.2B. At ~$1.7T market cap, that's a ~1.4% adjusted FCF yield vs. ~2.6% headline.
 
 ### Mag 7 SBC comparison (most recent full year)
 
@@ -447,7 +457,7 @@ Meta has the worst [[Stock-based compensation|SBC]] sterilization ratio among Ma
 | [[NVIDIA]] | FY26 (Jan) | $6.4B | $96.7B | $90.3B | $4.5T | 2.1% | 2.0% | 16% |
 | [[Microsoft]] | FY25 (Jun) | $12.0B | $71.6B | $59.6B | $3.0T | 2.4% | 2.0% | 65% |
 | [[Alphabet]] | CY25 | $25.0B | $73.3B | $48.3B | $3.7T | 2.0% | 1.3% | 55% |
-| **[[Meta]]** | **CY25** | **$20.4B** | **$43.6B** | **$23.2B** | **$1.7T** | **2.6%** | **1.4%** | **68%** |
+| [[Meta]] | CY25 | $20.4B | $43.6B | $23.2B | $1.7T | 2.6% | 1.4% | 68% |
 | [[Amazon]] | CY25 | $19.5B | $7.7B | -$11.8B | $2.2T | 0.3% | neg | no buybacks |
 | [[Tesla]] | CY25 | $2.8B | $6.2B | $3.4B | $1.5T | 0.4% | 0.2% | no buybacks |
 
@@ -455,9 +465,9 @@ Meta has the worst [[Stock-based compensation|SBC]] sterilization ratio among Ma
 
 Among companies actively managing dilution through buybacks, Meta has the worst sterilization ratio - 68% of its $30.1B in repurchases merely offset SBC grants, vs. 14% at [[Apple]] and 16% at [[NVIDIA]]. [[Alphabet]] ($25.0B) has the largest SBC in absolute terms but better sterilization thanks to larger buybacks. [[Amazon]]'s SBC ($19.5B) exceeds its FCF ($7.7B), making adjusted FCF negative - masked by its decision not to buy back shares.
 
-**Equity award cuts:** Meta cut stock awards ~5% in Feb 2026 (after 10% cut in 2025), redirecting savings to AI capex. May accelerate employee churn to competitors.
+Equity award cuts: Meta cut stock awards ~5% in Feb 2026 (after 10% cut in 2025), redirecting savings to AI capex. May accelerate employee churn to competitors.
 
-**Why Meta borrows despite profitability:** Debt is partly to fund buybacks needed to sterilize SBC. Interest on AA-rated debt (~4-5%) is cheaper and tax-deductible vs. the dilution cost of letting SBC flow through. This explains the zero-to-$59B debt trajectory since 2021.
+Why Meta borrows despite profitability: Debt is partly to fund buybacks needed to sterilize SBC. Interest on AA-rated debt (~4-5%) is cheaper and tax-deductible vs. the dilution cost of letting SBC flow through. This explains the zero-to-$59B debt trajectory since 2021.
 
 ---
 
@@ -469,26 +479,26 @@ $59B face value across 20 tranches (Dec 2025) + $27.3B off-balance-sheet Hyperio
 
 ## $60B financing (Oct 2025)
 
-**Largest AI capital raise in history:**
+Largest AI capital raise in history:
 
 | Tranche | Size | Structure | Notes |
 |---------|------|-----------|-------|
-| **SPV (off-balance-sheet)** | $30B | [[Morgan Stanley]] → Blue Owl | Largest private capital deal ever |
-| **Corporate bonds** | $30B | Investment-grade | Largest IG offering of 2025 |
+| SPV (off-balance-sheet) | $30B | [[Morgan Stanley]] → Blue Owl | Largest private capital deal ever |
+| Corporate bonds | $30B | Investment-grade | Largest IG offering of 2025 |
 
-**Why off-balance-sheet matters:**
+Why off-balance-sheet matters:
 - Preserves debt capacity for M&A
 - Avoids earnings volatility from construction
 - Maintains credit ratings
 - Meta only responsible for lease payments, not construction risk
 
-**[[Moody's]] accounting gap warning (Feb 25, 2026):** The Hyperion SPV ("Beignet Investor") has a 4-year initial lease with options to renew up to 20 years, plus a **$28B residual value guarantee** if Meta doesn't renew and property value falls. None of this appears on Meta's balance sheet - GAAP thresholds ("reasonably certain" for renewal, "probable" for RVG) mean neither scenario triggers recognition. Meta's filing: "RVG payments are not probable and therefore, no liability has been recorded." Moody's will make independent probability adjustments for credit ratings.
+[[Moody's]] accounting gap warning (Feb 25, 2026): The Hyperion SPV ("Beignet Investor") has a 4-year initial lease with options to renew up to 20 years, plus a $28B residual value guarantee if Meta doesn't renew and property value falls. None of this appears on Meta's balance sheet - GAAP thresholds ("reasonably certain" for renewal, "probable" for RVG) mean neither scenario triggers recognition. Meta's filing: "RVG payments are not probable and therefore, no liability has been recorded." Moody's will make independent probability adjustments for credit ratings.
 
-**Context:** [[Morgan Stanley]] estimates $1.5T total external AI financing needed, $800B via private credit by 2028.
+Context: [[Morgan Stanley]] estimates $1.5T total external AI financing needed, $800B via private credit by 2028.
 
 See [[AI infrastructure financing]].
 
-**CFO warning:** Depreciation spike coming in 2026-2027 when CIP assets activate. Currently in "buy now, deploy later" mode.
+CFO warning: Depreciation spike coming in 2026-2027 when CIP assets activate. Currently in "buy now, deploy later" mode.
 
 ---
 
@@ -496,7 +506,7 @@ See [[AI infrastructure financing]].
 
 | Quarter | SI % float | Stock | Note |
 |---------|------------|-------|------|
-| **Q1 2026** | **1.27%** | ~$620 | Rose 14.8% - highest Mag 7 ex-[[Tesla]] |
+| Q1 2026 | 1.27% | ~$620 | Rose 14.8% - highest Mag 7 ex-[[Tesla]] |
 | Q4 2025 | 1.10% | $- | |
 | Q3 2025 | - | $- | |
 | Q2 2025 | - | $- | |
@@ -509,9 +519,9 @@ See [[Short interest]] for interpretation framework.
 
 | Metric | Value |
 |--------|-------|
-| 2025 AI capex | **$72.2B** (actual) |
-| 2026 AI capex | **$115B-$135B** (guidance) |
-| Total infra commitment | **$600B** (multi-year) |
+| 2025 AI capex | $72.2B (actual) |
+| 2026 AI capex | $115B-$135B (guidance) |
+| Total infra commitment | $600B (multi-year) |
 | H100 GPUs | 350,000 |
 | Blackwell GPUs | ~400,000 (ordered) |
 | CIP balance | $44B (Q3 2025) |
@@ -521,9 +531,9 @@ See [[Short interest]] for interpretation framework.
 | AI leads | Alexandr Wang + [[Nat Friedman]] |
 | Infra lead | Dina Powell McCormick (Jan 2026) |
 | Long-term debt | $59B face + $27.3B Hyperion SPV (Dec 2025). See [[Meta bonds]] |
-| Short interest | **1.27%** (Jan 2026) - highest Mag 7 ex-[[Tesla]] |
+| Short interest | 1.27% (Jan 2026) - highest Mag 7 ex-[[Tesla]] |
 
-**Equity award cuts (Feb 19, 2026):** Cut stock awards by ~5% for most employees - second consecutive year (10% cut in 2025). Redirecting to AI capex ($115-135B guidance for 2026). Reality Labs also laid off ~10% (~1,500 of 15,000) as Meta shifts from VR to wearables. Reality Labs has accumulated $70B+ in losses since 2021.
+Equity award cuts (Feb 19, 2026): Cut stock awards by ~5% for most employees - second consecutive year (10% cut in 2025). Redirecting to AI capex ($115-135B guidance for 2026). Reality Labs also laid off ~10% (~1,500 of 15,000) as Meta shifts from VR to wearables. Reality Labs has accumulated $70B+ in losses since 2021.
 
 *Updated 2026-02-20*
 
@@ -531,10 +541,10 @@ See [[Short interest]] for interpretation framework.
 
 ## For theses
 
-**[[Long TSMC]]**: NVIDIA GPUs = TSMC
-**[[AI hyperscalers]]**: Tier 1 spender, validates AI capex cycle
-**[[Agentic AI]]**: Manus + Moltbook acquisitions = competitive pressure on [[Anthropic]], [[OpenAI]]
-**[[Long Anthropic]]**: Meta now a direct competitor in agents
+[[Long TSMC]]: NVIDIA GPUs = TSMC
+[[AI hyperscalers]]: Tier 1 spender, validates AI capex cycle
+[[Agentic AI]]: Manus + Moltbook acquisitions = competitive pressure on [[Anthropic]], [[OpenAI]]
+[[Long Anthropic]]: Meta now a direct competitor in agents
 
 ---
 

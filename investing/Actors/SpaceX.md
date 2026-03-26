@@ -78,6 +78,10 @@ Why the Nasdaq 100 matters for this IPO:
 
 At $1.75T, SpaceX would slot into the Nasdaq 100's top 6 members by market cap — comfortably within the top-40 threshold required by Nasdaq's proposed [[Nasdaq Fast Entry Rule|Fast Entry rule]].
 
+### IPO filing imminent (Mar 25, 2026)
+
+The Information reported on March 25 that SpaceX may file its IPO prospectus as soon as this week. The filing would target raising over $75B — up from earlier estimates of $25-50B — at the $1.75T valuation. This would be the largest IPO in history. The report lifted the entire space sector: [[AST SpaceMobile]] (ASTS) +10.4%, [[Rocket Lab]] (RKLB) +10%, [[Firefly Aerospace]] (FLY) +16%, York Space (YSS) +5%. The filing timeline coincides with NASA's announcement of "Project Ignition," a $20B plan for a semi-permanent moon base, adding to sector euphoria. Combined with the [[xAI]] merger (Feb 2026, $1.25T combined valuation), the prospectus will present SpaceX-xAI as simultaneously a launch company, an internet infrastructure company, a defense contractor, and an AI compute platform.
+
 ### Nasdaq Fast Entry rule (Feb 2026)
 
 [[Nasdaq]] proposed a new index methodology rule (filed with SEC Feb 20, 2026, Federal Register Mar 6) specifically designed to attract megacap IPOs like SpaceX, [[Anthropic]], and [[OpenAI]]:
