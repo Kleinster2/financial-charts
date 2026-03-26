@@ -212,6 +212,23 @@ The story of Arm is the story of a Cambridge research project that became the in
 
 The coopetition dynamic is the core tension. Every hyperscaler with a custom Arm chip program is technically a competitor to the AGI CPU — but also a customer of Arm's IP. AWS's James Hamilton endorsed the AGI CPU launch enthusiastically (celebrating the partnership), but AWS will keep building Graviton. The AGI CPU isn't aimed at AWS — it's aimed at everyone who isn't AWS.
 
+### The coopetition problem
+
+For 35 years, Arm's business model was beautifully conflict-free: design the architecture, license it to everyone, collect royalties, compete with nobody. The AGI CPU breaks that.
+
+[[Amazon]], [[Google]], [[Microsoft]], and [[NVIDIA]] each spent hundreds of millions designing custom Arm-based server CPUs (Graviton, Axion, Cobalt, Grace/Vera). They did this partly because Arm didn't sell chips — Arm was the neutral Switzerland of computing. Now Arm is selling a finished chip that competes with those custom designs in the same data center racks.
+
+The intended wedge is a different customer segment: companies that can't afford custom silicon. [[Meta]] doesn't have a CPU team. [[OpenAI]] doesn't. [[Cloudflare]] doesn't. SAP doesn't. These companies currently buy [[Intel]] Xeon or [[AMD]] EPYC. The AGI CPU gives them an Arm option without spending $500M+ and 3-4 years on custom design. Mohamed Awad: "It expands our market to include customers that were not interested in an IP model."
+
+The tension is structural regardless of intent:
+
+- [[Qualcomm]] already sued over licensing control — and won (Sept 2025). Arm's ability to enforce IP terms on custom designs is weakened. If Arm can't prevent Qualcomm from using Nuvia-derived cores, the architecture license gives less leverage than the market assumed.
+- If the AGI CPU is genuinely 2x per rack versus x86, some hyperscalers will question why they're spending billions on custom designs when they could buy Arm's chip. The AGI CPU isn't aimed at AWS today — but competitive gravity pulls.
+- Conversely, if hyperscalers feel threatened by a supplier competing downstream, they could accelerate [[RISC-V]] adoption to reduce Arm dependency. The licensing business depends on trust that Arm won't use customer roadmap visibility (gained through IP licensing) to compete in silicon — an information asymmetry that makes partners uncomfortable.
+- AWS's James Hamilton publicly celebrated the AGI CPU launch. That's either genuine comfort that Graviton's lead is unassailable, or diplomatic positioning while AWS quietly evaluates alternatives. Either way, the relationship dynamics have permanently changed.
+
+The $15B AGI CPU revenue target by 2031 essentially requires Arm to capture a massive share of the "everyone who isn't a hyperscaler" market — enterprises, mid-tier cloud providers, AI startups, telcos. If they stay in that lane, the licensing business is safe. If the AGI CPU starts winning deals that would have gone to Graviton or Axion, coopetition becomes actual competition — and the 280B+ chip royalty machine is at risk.
+
 ### Mobile: still the cash cow
 
 Arm has a near-monopoly in mobile CPU IP. Every iPhone, every Android phone uses Arm architecture. The migration from Armv8 to Armv9 (and from bare IP to CSS) is raising royalty rates per chip, offsetting flat-to-declining unit volumes. The top four Android OEMs ship CSS-powered devices. This business generates the base revenue that funds everything else.
