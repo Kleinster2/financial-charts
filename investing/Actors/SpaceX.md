@@ -58,7 +58,7 @@ Targeting June 2026 (around Musk's birthday):
 | Metric | Value |
 |--------|-------|
 | [[Target]] valuation | **$1.75T** (would be 6th-largest US company) |
-| IPO raise target | $25-50B (would be largest IPO ever) |
+| IPO raise target | **$75B** (latest, The Information Mar 25; prev $50B) |
 | Preferred exchange | **[[Nasdaq]]** (leaning, not final) |
 | Index condition | Early [[Nasdaq 100]] inclusion required |
 | Recent internal valuation | $800B ($421/share, Dec 2025) |

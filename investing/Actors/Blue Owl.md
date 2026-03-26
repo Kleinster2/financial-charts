@@ -363,7 +363,11 @@ Blue Owl is differentiated by scale of AI-specific deals.
 | Largest deal | Meta $30B |
 | HQ | New York |
 
-*Updated 2026-02-21*
+## SpaceX position (March 2026)
+
+[[Blue Owl]] holds 50,000 [[SpaceX]] shares, carried at a valuation of ~$720B (~$195M position). At SpaceX's potential IPO valuation of $1.75T, the position could be worth ~$500M (Barron's, Mar 26). OWL stock trades at $9.03 — down from $51.84 high earlier in 2026, a -83% drawdown driven by OBDC II gate, Iran war contagion, and broader alternative manager selloff. A successful SpaceX IPO at the high-end valuation would represent meaningful upside relative to OWL's current ~$6B market cap.
+
+*Updated 2026-03-26*
 
 Sources:
 - [Bloomberg - How AI Companies Are Keeping Debt Off Their Balance Sheets](https://www.bloomberg.com/news/articles/2025-10-31/meta-xai-starting-trend-for-billions-in-off-balance-sheet-debt) (Oct 31, 2025)
@@ -396,3 +400,4 @@ Sources:
 - [[Clearlake Capital]] — PE owner of Cornerstone OnDemand
 - [[Veritas Capital]] — PE owner of Peraton (Glendon flagged)
 - [[Conair Holdings]] — OBDC holding flagged by Glendon
+- [[SpaceX]] — 50K shares ($195M book, potentially $500M at IPO)

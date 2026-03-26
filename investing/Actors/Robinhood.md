@@ -156,6 +156,12 @@ Analyst reaction: [[Barclays]] $124 PT (from $159), [[Goldman Sachs]] $130 (from
 
 ---
 
+## $1.5B share buyback (March 25, 2026)
+
+Board authorized $1.5B stock repurchase program (announced March 25). Stock popped 5% on the news. Jefferies initiated coverage with Buy rating and $88 price target (21% upside from ~$73 level), citing leverage to rising global retail participation, diversified revenue, and position as "primary beneficiary of the ongoing ~$100T generational wealth transfer" at 26x 2027E EPS.
+
+---
+
 ## Financials
 
 | Metric | Value |
@@ -199,4 +205,5 @@ Robinhood = retail-first, mobile-first, crypto-forward.
 - [[Prediction markets]] — event contracts platform
 - [[Barclays]] — analyst coverage ($124 PT)
 - [[Goldman Sachs]] — analyst coverage ($130 PT)
+- [[Jefferies]] — initiated Buy, $88 PT (Mar 2026)
 

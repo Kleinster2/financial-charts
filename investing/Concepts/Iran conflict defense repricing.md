@@ -253,4 +253,55 @@ Fareed Zakaria's Washington Post column (syndicated in Foreign Policy) crystalli
 
 ---
 
+## RUSI munitions depletion assessment (March 25, 2026)
+
+Three analysts — MacDonald Amoah (independent), Morgan D. Bazilian, and Lt. Col. Jahara Matisek (both Payne Institute for Public Policy) — published via [[RUSI]] the most specific depletion timeline yet.
+
+### Total expenditure (first 16 days)
+
+| Metric | Value |
+|--------|-------|
+| Total munitions fired (US + allies) | 11,294 |
+| Total cost | ~$26B |
+| First 4 days alone | ~5,000 munitions |
+| Estimated replenishment cost at speed | ~$50B |
+
+### Depletion timeline (at current tempo)
+
+| System | Estimated depletion date | Notes |
+|--------|--------------------------|-------|
+| Israel Arrow 2/3 interceptors | **March 28** (Friday) | Near-complete exhaustion by end of March |
+| US ATACMs + [[PrSM]] | **April 12** | Ground-attack missile stockpile |
+| US [[THAAD]] interceptors | **April 17** | ~1 month remaining from date of assessment |
+| Tomahawk cruise missiles | Estimated **5+ years** to replace 500+ consumed | RTX production: <100/year |
+
+### Key data points
+
+- After the first 4 days, Iranian missile launches dropped 86% and drone attacks 73% ([[Gen. Dan Caine]], JCS)
+- Daily average after initial drop: 33 Iranian missiles + 94 drones
+- Damaged radar/satellite terminals reduce interception efficiency: "using 10-11 interceptors for one missile or 8 Patriot missiles for one drone becomes unsustainable"
+- THAAD interceptors cost up to $15M each
+- US has 2-3 THAAD batteries deployed in Middle East (out of 5 outside CONUS total)
+- PrSM: at least 328 manufactured in last 2 years, 124 planned for FY2026 — combat debut Feb 28
+- Restocking 20mm air defense rounds (~500K fired) requires ~8,800 lbs of tungsten — [[China]] controls 80%+ of global supply
+- Industrial labor shortfall nearing 800,000 workers
+
+### "Command of the Reload"
+
+The authors introduced the concept of "Command of the Reload" — that superiority now depends less on controlling airspace or sea lanes than on the ability to replenish ammunition faster than the adversary:
+
+"Command of the commons remains necessary, but Epic Fury demonstrates it is increasingly insufficient without 'Command of the Reload.'"
+
+They recommended a "patchwork shield" approach: layering cheaper and more advanced air defenses that can be mixed and matched dynamically, reducing dependence on expensive single-system solutions.
+
+### Rare earth and tungsten dependency
+
+The tungsten requirement for 20mm round replenishment highlights a critical [[Rare earths|rare earth]]/critical mineral dependency. With China controlling 80%+ of global tungsten supply, the very materials needed to reload are sourced from a potential adversary. Telegraph noted: Tomahawk missiles rely on samarium-cobalt magnets (from rare earths) in actuators and guidance tail fins. This creates opportunity for domestic rare earth producers: [[MP Materials]], [[USA Rare Earth]] (USAR), and the VanEck Rare Earth/Strategic Metals ETF (REMX).
+
+US Army is separately seeking proposals to build a pilot plant in the US to refine rare earth elements — further validation of the supply chain vulnerability thesis.
+
+*Source: RUSI (March 25, 2026); Business Insider (March 26); The Telegraph (March 26); 247 Wall St (March 26)*
+
+---
+
 *Created 2026-03-03*

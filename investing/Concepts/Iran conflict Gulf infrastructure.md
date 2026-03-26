@@ -305,4 +305,28 @@ On Saturday March 22, [[Trump II|President Trump]] issued [[Iran]] a 48-hour ult
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel).*
+## GCC joint statement — shift from neutrality to self-defense (March 26, 2026)
+
+The [[UAE]], [[Kuwait]], [[Bahrain]], [[Saudi Arabia]], [[Qatar]], and [[Jordan]] issued a joint statement on March 26 condemning Iran's "blatant" and "criminal" attacks on Gulf energy infrastructure. Key quotes:
+
+- "Full and inherent right to self-defense against these criminal attacks" — invoking UN Charter Article 51
+- Called on [[Iraq]] to "immediately halt the attacks" from its territory by Iran-aligned armed factions
+- Reserved the right "to take all necessary measures to safeguard sovereignty, security, and stability"
+
+This is a qualitative shift. Previous GCC statements had encouraged de-escalation and maintained a neutral/conciliatory posture. The March 26 statement invokes the legal framework for military action (Article 51) and directly names Iraq-based proxy strikes as a grievance.
+
+Context from Gulf officials this week:
+- UAE Ambassador Yousef Al Otaiba (WSJ op-ed, Mar 25): "a simple ceasefire is not enough"
+- Sultan Al Jaber (ADNOC CEO, MEI speech): Iran's Hormuz control amounts to "extortion on a global scale"
+- Sheikh Nawaf al-Sabah (KPC CEO): Iran is imposing an "economic blockade" against the Persian Gulf
+- [[Saudi Aramco]] CEO Amin Nasser (earlier): "catastrophic consequences" for world economy
+
+The shift matters because GCC military involvement — even defensive — would dramatically expand the conflict's geographic scope and could draw in US/UK defense treaty obligations. UAE alone has advanced [[F-35]] squadrons and THAAD batteries. Saudi Arabia has the largest defense budget in the Middle East.
+
+Casualties from Iranian attacks on Gulf states through March 26: at least 20 killed (including 2 in Abu Dhabi on March 26 from falling shrapnel during missile interception). Bahrain: fire near Bahrain International Airport from Iranian strike.
+
+*Source: CNBC (March 26, 2026); Reuters; WSJ*
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-26 (GCC joint statement, infrastructure damage update).*
