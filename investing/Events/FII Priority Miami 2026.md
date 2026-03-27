@@ -188,6 +188,56 @@ The Trump orbit is deeply embedded in the summit's commercial infrastructure. [[
 
 ---
 
+## Day 2 — March 26
+
+### Al-Rumayyan opening keynote (8:35–8:55 AM ET)
+
+[[Yasir Al-Rumayyan]] delivered the first plenary session of the day. Core messages:
+
+PIF new five-year strategy releasing "within weeks." The strategy pivots from predominantly self-funded investment to "crowding in" private sector capital — targeting infrastructure, real estate, data centers, pharmaceuticals, and renewable energy. This is a structural admission that PIF's own balance sheet can no longer carry the Vision 2030 deployment pace alone, and reflects the fiscal constraints (cash at $15B pre-war, 20% portfolio spending cuts, [[Saudi Aramco|Aramco]] dividends cut by a third) now partially reversed by the war oil premium.
+
+On the Saudi-US technology partnerships: [[Microsoft]], [[Google]], and [[Oracle]] are all active. [[Saudi Aramco]] has cut drilling costs roughly 20% and improved delivery efficiency roughly 30% via AI integration — "We see AI as a tool," not a standalone sector. Confirmed [[BlackRock]] and [[Franklin Templeton]] have both begun establishing funds in partnership with PIF to invest directly in Saudi Arabia.
+
+On the geopolitical backdrop: described the Saudi macro position as "strong, stable and resilient" despite the Iran conflict. Repeated the framework of "bringing the world to Saudi" rather than Saudi reaching for international assets alone — citing [[Red Sea Global]] (19 international hotel operators signed) as the new model. On investment time horizons: "We measure not in quarters, but in decades."
+
+### Al-Jadaan on the economic shock (plenary panel)
+
+[[Mohammed Al-Jadaan]] delivered the most alarming macro statement of the day: "What we saw in the last few weeks is an impact beyond what we have seen even post-COVID, in terms of supply chain disruption, and if this continues, I think we will see even more severe impact." Called for urgent global action: "We really need to make sure we resolve the conflict very quickly and come together to do that for the global economy not to be impacted even more."
+
+Al-Jadaan pushed back on the oil-centric narrative: it is refined products — fertilizers, steel, aluminum — not just crude that have been most affected by the Hormuz closure. He highlighted Saudi Arabia's [[East-West Pipeline]] as a 50-year investment now paying off as a vital strategic alternative, "currently being used to manage global oil flows." The pipeline runs from the Eastern Province to Yanbu on the Red Sea coast, bypassing the strait entirely — a built-in hedge Saudi Arabia holds that no other GCC state matches.
+
+### Jared Kushner — Iran negotiation postmortem
+
+[[Jared Kushner]] appeared on stage (livestreamed), delivering the most substantive political remarks of the day. On Iranian bad faith pre-war: "We basically saw that there was no seriousness, and that they were trying to play different games to just get beyond President Trump in order to preserve their capabilities and pathway to get to a nuclear weapon in a way that would have been very, very hard to be stopped in the future." On Iranian public statements: "You have to … just ignore a lot of what they say publicly, because I think that their statements are usually more for their domestic audiences." On his current role: technically unpaid volunteer but working "with more intensity" than anticipated at Trump and [[Steven Witkoff]]'s request. Stated his "big focus is going to be on trying to see if we can get this war concluded."
+
+### Steven Witkoff — 15-point Iran peace framework
+
+[[Steven Witkoff]]'s Day 2 remarks were split between the summit and a White House Cabinet meeting. He presented a 15-point action framework to [[Iran]] via Pakistani mediators. At the Cabinet meeting: "Against the backdrop of our compelling military successes in [[Operation Epic Fury]], we have had multiple reach-outs from the region and others who want to play a role in ending this conflict peacefully." Assessed that Iran was "looking for an off-ramp." Warning to Tehran: "Don't miscalculate again." [[Donald Trump]] extended his pause on striking Iranian energy plants by 10 days to April 6, writing that talks are "going very well." Iran's Foreign Ministry denied ceasefire talks but confirmed it was "reviewing" the 15-point framework.
+
+Witkoff's previously-reported quote from the early days of the conflict was widely cited at the summit as context: "They bragged about having 60% enriched fuel, enough for 11 bombs. They told me and Jared, 'We're not going to give you diplomatically what you couldn't take militarily.'" The quote is disputed by Omani FM and third parties said to be present.
+
+### Stablecoins panel (11:50 AM ET)
+
+"How Will Stablecoins Redefine Global Finance?" — [[Brad Garlinghouse]] ([[Ripple]]), [[Zach Witkoff]] ([[World Liberty Financial]]), [[Maja Vujinovic]] (FG Nexus), moderated by Lydia Moynihan.
+
+Garlinghouse cited the [[CLARITY Act]] specifically as legislation he expects to pass H1 2026. [[Michael Novogratz]] (separately) claimed Senate Majority Leader Schumer told him: "We're going to pass the goddamn CLARITY Act." Major institutions — [[Franklin Templeton]], [[BlackRock]], even [[Vanguard]] — entering crypto. Garlinghouse described 2026 as a "transformational year" for digital assets regulation. The panel occurred the day after the invite-only Digital Assets Conclave (March 25, 1:30 PM ET) co-chaired by Witkoff and Vujinovic.
+
+WLF context: the USD1 stablecoin was the fifth-largest stablecoin as of May 2025. A February 2026 WSJ report revealed UAE firm Aryam Investment 1 — controlled by [[Sheikh Tahnoon bin Zayed Al Nahyan|Tahnoon bin Zayed Al Nahyan]] ("Spy Sheikh") — purchased a 49% stake in WLF for $500M just before Trump's inauguration, with approximately $187M directed to Trump family entities. The House Select Committee letter to WLF (February 4, 2026) adds formal congressional scrutiny.
+
+### Capital in Motion Index — launch
+
+The FII Institute launched the Capital in Motion Index (CMI) — a new global initiative to track and decode strategic capital flows. Full rollout is planned for FII10 in Riyadh (October 26–29, 2026). The CMI is designed to provide a systematic framework for measuring where sovereign, institutional, and private capital is actually moving versus where it is rhetorically committed.
+
+### Saudi Eksab — IDB Group LATAM agreement
+
+[[Saudi Eksab]] (PIF-affiliated investment platform) signed a cooperation agreement with [[Inter-American Development Bank|IDB Group]] ([[Ilan Goldfajn]], president) to advance equity investment in Latin America and the Caribbean, with an initial focus on Central America and the Caribbean. The agreement operationalizes the summit's stated LATAM corridor thesis — Saudi capital bridging the US-Gulf to LatAm investment gap.
+
+### UAE reaffirms $1.4T commitment
+
+[[Yousef Al Otaiba]] (UAE Ambassador to the US) reaffirmed the UAE's $1.4 trillion US investment commitment pledge — the commitment made during [[Donald Trump|Trump]]'s May 2025 Gulf visit. Al Otaiba: "a simple ceasefire is not enough." The combined Saudi ($600B→$1T framework) and UAE ($1.4T) commitments represent over $2T in announced Gulf capital directed at the US market.
+
+---
+
 ## FII PRIORITY Miami edition history
 
 | Edition | Dates | Theme | Key moments |
@@ -223,6 +273,16 @@ Joint statement timed to the 3rd Miami edition from [[Human Rights Watch]], DAWN
 ## Key quotes
 
 Richard Attias (March 12, 2026): "Miami is not just a location, it is a signal. At a moment when capital is being reallocated, re-priced, and re-imagined, FII PRIORITY Miami will move beyond dialogue to action."
+
+[[Yasir Al-Rumayyan]] (March 26, 2026): "In the past, we tried to bring Saudi to the world. Now we are in a stage where we want to bring the world to Saudi."
+
+[[Mohammed Al-Jadaan]] (March 26, 2026): "What we saw in the last few weeks is an impact beyond what we have seen even post-COVID, in terms of supply chain disruption, and if this continues, I think we will see even more severe impact."
+
+[[Jared Kushner]] (March 26, 2026): "We basically saw that there was no seriousness, and that they were trying to play different games to just get beyond President Trump in order to preserve their capabilities and pathway to get to a nuclear weapon."
+
+[[Steven Witkoff]] (March 26, 2026): "Against the backdrop of our compelling military successes in [[Operation Epic Fury]], we have had multiple reach-outs from the region and others who want to play a role in ending this conflict peacefully. Iran is looking for an off-ramp."
+
+Richard Attias (March 26, 2026): "Latin America is no longer a region of potential, it is a region of decision."
 
 ---
 
