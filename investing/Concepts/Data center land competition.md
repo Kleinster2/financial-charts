@@ -112,6 +112,7 @@ The irony: NIMBYs who blocked housing are now getting data centers instead, whic
 ### Concepts
 - [[Data center infrastructure]] — supply chain and hardware
 - [[AI power demand]] — energy competition angle
+- [[Data center boomtown effect]] — community disruption pattern (related but distinct: land competition vs. temporary worker displacement)
 
 ### Sectors
 - [[Data Centers]] — sector overview

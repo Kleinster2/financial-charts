@@ -430,8 +430,17 @@ Off-balance-sheet:
 
 Hyperion (Louisiana):
 - 5GW eventual capacity
+- **$27B** committed via [[Blue Owl]] JV (80% Blue Owl, 20% Meta). SPV: "Beignet Investor"
 - $50B total (per Trump announcement)
 - "Nearly the size of Manhattan" - Zuckerberg
+- **3,650 acres** total: 2,250 original (Franklin Farms megasite) + 1,400 acquired Feb 2026
+- 4 million sq ft, 3 GCs: Turner Construction, DPR Construction, Mortenson
+- $875M in Louisiana contracts (1st year, as of Dec 2025). $300M+ in local infrastructure (roads, water)
+- ~3,700 construction workers (Mar 2026), peak expected 5,000-8,000
+- Permanent operational jobs: ~500
+- Power: [[Entergy]] Louisiana (Smalling Substation funded by Meta, 3 gas facilities approved)
+- Sales tax exemption on equipment (50 jobs + $200M investment threshold by Jul 2029)
+- Community disruption: rent spikes (3x reported), housing displacement, road damage. See [[Data center boomtown effect]]
 - First phase 2028
 - Not included in $44B CIP
 
@@ -570,7 +579,9 @@ Equity award cuts (Feb 19, 2026): Cut stock awards by ~5% for most employees - s
 - [[BYOP]] - Socrates South on-site generation
 - [[Solar Turbines]] - power supplier (Socrates South)
 - [[Siemens Energy]] - power supplier (Socrates South)
-- [[Blue Owl]] - Hyperion DC JV partner
+- [[Blue Owl]] - Hyperion DC JV partner ($27B, 80/20 split)
+- [[Entergy]] — Hyperion power provider (Smalling Substation, 3 gas plants)
+- [[Data center boomtown effect]] — community disruption from Hyperion construction
 - [[Anduril]] - defense partnership (AI helmet, Jan 2026)
 - [[Corning]] - $6B fiber-optic deal for AI data centers (Jan 2026)
 

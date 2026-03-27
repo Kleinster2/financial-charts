@@ -49,14 +49,17 @@ Oracle not shown (fiscal year ends May, quarters don't align).
 | **MSFT** | $121-140B | Jefferies, Cantor |
 | **ORCL** | ~$50B+ | Already at $50B for FY26 |
 
-**Aggregate forecasts (Big 5):**
+**Aggregate forecasts (Big 5 + broader AI infrastructure):**
 
-| Source | 2025 | 2026 | YoY |
-|--------|------|------|-----|
-| CreditSights | ~$443B | **~$602B** | +36% |
-| [[Goldman Sachs]] | — | **$527B+** | — |
+| Source | 2025 | 2026 | YoY | Scope |
+|--------|------|------|-----|-------|
+| CreditSights | ~$443B | **~$602B** | +36% | Big 5 |
+| [[Goldman Sachs]] | — | **$527B+** | — | Big 5 |
+| Fortune/McKinsey | ~$400B | **$630-700B** | +62% | All AI DC capex (incl. neoclouds, startups) |
 
 ~75% of 2026 capex (~$450B) is AI infrastructure.
+
+**Cumulative through 2030:** $5.2T in AI-ready data center capex (McKinsey, Apr 2025), driven largely by GPUs and energy infrastructure. Traditional (non-AI) DC capex adds $1.5T, for $6.7T total compute infrastructure spend.
 
 ### Total AI infrastructure market ([[Gartner]], Jan 2026)
 
@@ -218,5 +221,7 @@ Every dollar of capex flows through the chip supply chain. $600B in 2026 = unpre
 - [[Power constraints]] — physical limits
 - [[BYOP]] — bring your own power trend
 - [[GPU deployment bottleneck]] — shipped ≠ deployed
+- [[Data center boomtown effect]] — community disruption from megaprojects
+- [[Data center land competition]] — land bidding dynamics
 
 *Created 2026-01-20*
