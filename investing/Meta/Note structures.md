@@ -516,14 +516,14 @@ This section answers: What's the non-obvious takeaway? What pattern does this re
 
 ---
 
-## Price note structure (tradeable concepts)
+## Prices note structure (Economics/Prices split)
 
-Tradeable concepts split into `[Thing] Market` and `[Thing] Price`. The Market note follows the standard concept structure. The Price note has its own structure:
+Any concept or actor with a tradeable price splits into `[Thing] Economics` and `[Thing] Prices`. The Economics note follows the standard concept structure. The Prices note has its own structure:
 
 ```markdown
-#concept #price #[commodity/asset]
+#concept #price #[commodity/asset/sector]
 
-# [Thing] Price
+# [Thing] Prices
 
 One-liner: current price level, recent direction, and the two dynamics this note tracks.
 
@@ -533,8 +533,8 @@ One-liner: current price level, recent direction, and the two dynamics this note
 
 Chronological explanatory chain: what put the price where it is today. Each entry states what happened and how it moved the number.
 
-| Period | Price | Event | Effect |
-|--------|-------|-------|--------|
+| Date | Price | Event | Effect |
+|------|-------|-------|--------|
 | 2023 Q1 | $51/lb | Kazatomprom cuts 2024 guidance 17% | Spot jumps $8 in two weeks |
 | ... | ... | ... | ... |
 
@@ -544,28 +544,29 @@ Narrative connecting the chain — cause → effect → next cause.
 
 ## Relative price
 
-Chronological explanatory chain for the price against correlated markets and peers (ratios, spreads). Each entry states the relationship and what moved it.
+Chronological explanatory chain for the price against correlated markets and peers (ratios, spreads). **All relative prices must be risk/beta-adjusted.** State the beta, adjust the ratio, then explain the residual.
 
-| Period | Ratio/Spread | Relationship | Event | Effect |
-|--------|-------------|--------------|-------|--------|
-| 2024 H1 | U3O8/CCJ | Spot up 40%, CCJ up 15% | Miners lagging physical | Gap widest since 2007 |
-| ... | ... | ... | ... | ... |
+| Date | Ratio/Spread | Beta-adj | Relationship | Event | Effect |
+|------|-------------|----------|--------------|-------|--------|
+| 2024 H1 | MU/SMH 0.54 | β=1.3, adj 0.42 | MU underperforming on risk-adj basis | AI hype in logic, not memory | Gap widest since 2020 |
+| ... | ... | ... | ... | ... | ... |
 
-Narrative connecting the chain.
+Narrative connecting the chain. Raw outperformance means nothing without the beta context — a 2x beta stock "outperforming" in a rally is just taking more risk, not generating alpha.
 
 ---
 
 ## Related
 
-- [[Thing Market]] — fundamentals, supply/demand, players
+- [[Thing Economics]] — how it works, supply/demand, structure
 - Related price notes, correlated assets
 ```
 
 **Key rules:**
 - Both sections are chronological narratives with hard numbers at each turn
-- The same event can appear in both `Market` and `Price` notes — different analytical lens
-- The price note ages episodically: the price moves, the explanation extends
+- The same event can appear in both `Economics` and `Prices` notes — different analytical lens
+- The prices note ages episodically: the price moves, the explanation extends
 - No editorial hierarchy between absolute and relative — two distinct dynamics
+- Relative prices are always risk/beta-adjusted — raw ratios without beta context are misleading
 - Charts belong here (price charts, ratio charts, spread charts) with dated interpretation
 
 ---

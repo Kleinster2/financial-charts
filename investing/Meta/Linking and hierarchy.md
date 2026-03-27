@@ -71,24 +71,26 @@ Infrastructure is for fixed physical assets that enable trade or energy flows bu
 
 ---
 
-## Market / Price split (tradeable concepts)
+## Economics / Prices split
 
-Tradeable concepts can split into two notes: `[Thing] Market` and `[Thing] Price`. Both live in `Concepts/`.
+Any concept or actor with a tradeable price can split into two notes: `[Thing] Economics` and `[Thing] Prices`. Both live in `Concepts/`.
 
 | Note | Contains | Ages as |
 |------|----------|---------|
-| `[Thing] Market` | Fundamentals, supply/demand, policy, players, dynamics | Encyclopedia — accumulates |
-| `[Thing] Price` | Absolute price chain + relative price chain | Episodic — extends as price moves |
+| `[Thing] Economics` | How it works — supply, demand, structure, players, mechanics, margins | Encyclopedia — accumulates |
+| `[Thing] Prices` | Absolute price chain + relative price chain (risk/beta-adjusted) | Episodic — extends as price moves |
 
-**Naming:** `Uranium Market` / `Uranium Price`. No parentheticals or suffixes.
+**Naming:** `Uranium Economics` / `Uranium Prices`, `Micron Economics` / `Micron Prices`. No parentheticals or suffixes.
 
-**Linking:** Each links to the other. Same event can appear in both — different lens. Market note treats a supply cut as a fundamental fact. Price note treats it as what moved the number.
+**Linking:** Each links to the other. Same event can appear in both — different lens. Economics note treats a supply cut as a structural fact. Prices note treats it as what moved the number.
 
-**When to split:** Commodities, rates, currencies, or any concept with a tradeable price to explain.
+**Applies to:** Commodities, rates, currencies, actors with tradeable equity, or any concept with a distinct price to explain.
 
-**When NOT to split:** Analytical concepts (Jevons Paradox), structural concepts (advanced packaging), concepts without a distinct price.
+**Does NOT apply to:** Analytical concepts (Jevons Paradox), structural concepts (advanced packaging), anything without a tradeable price.
 
-**Migration:** Existing notes like `Uranium.md` rename to `Uranium Market.md`. Create `Uranium Price.md` when there's enough to say — not all at once.
+**Relative prices must be risk/beta-adjusted.** Raw ratios are misleading — a high-beta stock outperforming a low-beta benchmark during a rally tells you nothing. State the beta, adjust, then explain the residual.
+
+**Migration:** Existing notes like `Uranium.md` rename to `Uranium Economics.md`. Create `Uranium Prices.md` when there's enough to say — not all at once.
 
 ---
 
