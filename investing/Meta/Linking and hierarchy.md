@@ -71,6 +71,27 @@ Infrastructure is for fixed physical assets that enable trade or energy flows bu
 
 ---
 
+## Market / Price split (tradeable concepts)
+
+Tradeable concepts can split into two notes: `[Thing] Market` and `[Thing] Price`. Both live in `Concepts/`.
+
+| Note | Contains | Ages as |
+|------|----------|---------|
+| `[Thing] Market` | Fundamentals, supply/demand, policy, players, dynamics | Encyclopedia — accumulates |
+| `[Thing] Price` | Absolute price chain + relative price chain | Episodic — extends as price moves |
+
+**Naming:** `Uranium Market` / `Uranium Price`. No parentheticals or suffixes.
+
+**Linking:** Each links to the other. Same event can appear in both — different lens. Market note treats a supply cut as a fundamental fact. Price note treats it as what moved the number.
+
+**When to split:** Commodities, rates, currencies, or any concept with a tradeable price to explain.
+
+**When NOT to split:** Analytical concepts (Jevons Paradox), structural concepts (advanced packaging), concepts without a distinct price.
+
+**Migration:** Existing notes like `Uranium.md` rename to `Uranium Market.md`. Create `Uranium Price.md` when there's enough to say — not all at once.
+
+---
+
 ## Sector composition rules
 
 Sectors are **correlation clusters**, not GICS categories. Three rules:

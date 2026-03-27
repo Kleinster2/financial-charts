@@ -516,6 +516,60 @@ This section answers: What's the non-obvious takeaway? What pattern does this re
 
 ---
 
+## Price note structure (tradeable concepts)
+
+Tradeable concepts split into `[Thing] Market` and `[Thing] Price`. The Market note follows the standard concept structure. The Price note has its own structure:
+
+```markdown
+#concept #price #[commodity/asset]
+
+# [Thing] Price
+
+One-liner: current price level, recent direction, and the two dynamics this note tracks.
+
+---
+
+## Absolute price
+
+Chronological explanatory chain: what put the price where it is today. Each entry states what happened and how it moved the number.
+
+| Period | Price | Event | Effect |
+|--------|-------|-------|--------|
+| 2023 Q1 | $51/lb | Kazatomprom cuts 2024 guidance 17% | Spot jumps $8 in two weeks |
+| ... | ... | ... | ... |
+
+Narrative connecting the chain — cause → effect → next cause.
+
+---
+
+## Relative price
+
+Chronological explanatory chain for the price against correlated markets and peers (ratios, spreads). Each entry states the relationship and what moved it.
+
+| Period | Ratio/Spread | Relationship | Event | Effect |
+|--------|-------------|--------------|-------|--------|
+| 2024 H1 | U3O8/CCJ | Spot up 40%, CCJ up 15% | Miners lagging physical | Gap widest since 2007 |
+| ... | ... | ... | ... | ... |
+
+Narrative connecting the chain.
+
+---
+
+## Related
+
+- [[Thing Market]] — fundamentals, supply/demand, players
+- Related price notes, correlated assets
+```
+
+**Key rules:**
+- Both sections are chronological narratives with hard numbers at each turn
+- The same event can appear in both `Market` and `Price` notes — different analytical lens
+- The price note ages episodically: the price moves, the explanation extends
+- No editorial hierarchy between absolute and relative — two distinct dynamics
+- Charts belong here (price charts, ratio charts, spread charts) with dated interpretation
+
+---
+
 ## Event note structure
 
 ```markdown

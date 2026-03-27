@@ -363,6 +363,31 @@ Concept notes (non-stub) must follow a **story + reference** structure. The narr
 
 **When to use this structure:** Any concept note where the reader benefits from understanding the causal chain, not just the facts. Technology transitions, market dynamics, structural themes, policy mechanisms. Not every concept note needs a 15-paragraph story — some (e.g., a narrow technical definition) are fine as structured reference. Use judgment.
 
+### Market / Price Split (Tradeable Concepts)
+
+Tradeable concepts get two notes: `[Thing] Market` and `[Thing] Price`.
+
+**The Market note** is the concept note — fundamentals, supply/demand, policy, players, dynamics. Follows the standard concept note structure (story + reference). Everything about what's actually happening in the world.
+
+**The Price note** has two aspects, both chronological explanatory chains:
+
+1. **Absolute price** — the number and what put it there. What sequence of events, flows, sentiment shifts, and structural moves explain why the price sits where it does today.
+2. **Relative price** — the price against correlated markets and peers (ratios, spreads). Its own chain of events explaining why the relationship is where it is.
+
+Both are prices. Both have chronological narratives with hard numbers. Two distinct dynamics, no hierarchy between them.
+
+**Naming:** `Uranium Market` / `Uranium Price`. The name does the work — no parentheticals or tags.
+
+**Folder:** Both live in `Concepts/`.
+
+**Linking:** Each links to the other. The same event can appear in both notes, wearing a different hat — Kazatomprom cuts output is a market fact; in the price note it's about how much that moved the number and whether it was priced in.
+
+**When to split:** Any concept where there's a tradeable price — commodities (uranium, copper, lithium, oil, gold), rates/currencies (treasuries, yen), or thematic baskets with clear price expression.
+
+**When NOT to split:** Concepts that are purely analytical (Moore's Law, Jevons Paradox), structural (advanced packaging, co-packaged optics), or where there's no distinct price to explain.
+
+**Existing notes:** A note like `Uranium.md` becomes `Uranium Market.md`, with a new `Uranium Price.md` alongside it. Not all tradeable concepts need the split immediately — create the price note when there's enough to say.
+
 ### Detailed References
 
 | Topic | Location |
