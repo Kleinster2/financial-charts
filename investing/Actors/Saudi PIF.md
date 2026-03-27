@@ -170,7 +170,7 @@ Protected priorities: [[Expo 2030]], 2034 [[FIFA World Cup]], [[HUMAIN]]/AI infr
 
 Deprioritized: [[NEOM]]/The Line (timelines extended, scope under review), Mukaab (deferred), advisory mandates.
 
-Financing shift: movement from pure sovereign funding to blended capital — debt financing (Amaala), public-private structures ([[Diriyah]]), portfolio restructuring ([[Qiddiya]]). Governor [[Yasir Al-Rumayyan]] indicated the revised 2026-2030 strategy (expected spring 2026) aims to make PIF "a more efficient and returns-driven investment vehicle."
+Financing shift: movement from pure sovereign funding to blended capital — debt financing (Amaala), public-private structures ([[Diriyah]]), portfolio restructuring ([[Qiddiya]]). Governor [[Yasir Al-Rumayyan]] indicated the revised 2026-2030 strategy (expected spring 2026) aims to make PIF "a more efficient and returns-driven investment vehicle." At [[FII Priority Miami 2026]] on March 27, Deputy Governor [[Yazeed Alhumied]] said [[Saudi Arabia]] now has 12 international asset managers operating with full licenses, six added in the prior year, with about $20B in committed capital and a $60B-$80B pipeline. [[King Street]] said its partnership with PIF is aimed at deploying capital across the Kingdom and the GCC.
 
 ---
 

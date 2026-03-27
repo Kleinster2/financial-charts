@@ -17,7 +17,7 @@ The war paradoxically strengthens PIF's hand. Pre-war, PIF was in fiscal trouble
 
 The stablecoin angle is the sleeper. The digital assets conclave pushes dollar-denominated stablecoins as "tools of economic statecraft" at the exact moment [[Iran]] is conditioning [[Strait of Hormuz|Hormuz]] transit on yuan settlement (see [[Hormuz Transit Regime]]). [[Saudi Arabia]] sitting between the US dollar system and Iran's yuan demands, hosting a conference that promotes dollar-backed tokenized finance, is positioning itself as the indispensable node in both settlement systems. The $30T tokenized asset projection by 2030 is aspirational, but the geopolitical framing is real: whoever controls the settlement rails controls the trade.
 
-Watch for: (1) whether concrete deals are announced or "Capital in Motion" stays aspirational, (2) whether the LATAM corridor produces actual capital deployment or remains thematic, (3) any post-summit shift in PIF allocation patterns as oil windfalls collide with reconstruction priorities (see [[Gulf Sovereign Capital Reallocation]]).
+By the summit's closing day, the story was not a single blockbuster deal but a set of institutional signals that the Saudi-US-LATAM corridor is being built in layers: [[Saudi Eksab]] signed a cooperation agreement with the [[IDB|Inter-American Development Bank]] on equity investment in Latin America and the Caribbean, FII launched a new capital-flow index to track where strategic money is actually moving, [[Yazeed Alhumied]] put hard numbers on the Saudi market-opening effort ($20B committed capital, $60B-$80B pipeline, 12 fully licensed international managers), and [[HUMAIN]] announced a partnership with [[Turing]] around an enterprise AI agent marketplace. The question after Miami is no longer whether Saudi capital remains present in the corridor — it does — but whether these institutional scaffolds convert into disclosed transactions once the Iran war premium, the Trump access cycle, and Vision 2030's domestic funding needs begin to pull capital in different directions. Watch next: Trump's closing keynote, whether the LATAM agreement develops into announced deals, and whether PIF's next five-year strategy formalizes the shift from balance-sheet deployment to crowding-in private capital (see [[Gulf Sovereign Capital Reallocation]]).
 
 ---
 
@@ -27,7 +27,7 @@ The FII Priority franchise exists to demonstrate that [[Saudi Arabia]] is open f
 
 The speaker list answers part of that question. [[Kenneth Griffin]] ([[Citadel]]), [[Nir Bar Dea]] ([[Bridgewater]]), [[Mary Callahan Erdoes]] ([[JPMorgan Chase]]), [[Robert F. Smith]] ([[Vista Equity Partners]]), [[William Ford]] ([[General Atlantic]]), [[Safra Catz]] ([[Oracle]]), [[Elon Musk]] ([[Tesla]]), [[Eric Schmidt]], [[Dara Khosrowshahi]] ([[Uber]]) — Wall Street and Silicon Valley are not boycotting. The Khashoggi-era reputational penalty is fully priced out. Trump's closing keynote on March 27 makes this the second consecutive FII PRIORITY where a sitting US president addresses PIF's audience, cementing the summit as the premier channel for Saudi-US economic diplomacy. The presence of [[Donald Trump Jr.]] (1789 Capital) and [[Zach Witkoff]] ([[World Liberty Financial]], co-chairing the digital assets conclave) alongside envoy [[Steven Witkoff]] underscores how thoroughly the Trump family orbit is intertwined with the Saudi investment apparatus.
 
-The LATAM angle is real, not decorative. The summit opens with "The New LATAM Order" special session, panels cover critical minerals, digital economy flows, and infrastructure investment across the Americas. [[Ilan Goldfajn]] ([[Inter-American Development Bank]]), [[Fernando Galletti de Queiroz]] ([[Minerva Foods]]), and [[Ricardo Salinas]] ([[Grupo Salinas]]) represent the corridor PIF is targeting. PIF's Invest Saudi office in Miami (opened at the 2025 edition) is the institutional anchor. The thesis: Saudi capital bridges the US-LATAM gap, particularly in energy, minerals, and digital infrastructure.
+The LATAM angle is real, not decorative. The summit opens with "The New LATAM Order" special session, panels cover critical minerals, digital economy flows, and infrastructure investment across the Americas. [[Ilan Goldfajn]] ([[IDB|Inter-American Development Bank]]), [[Fernando Galletti de Queiroz]] ([[Minerva Foods]]), and [[Ricardo Salinas]] ([[Grupo Salinas]]) represent the corridor PIF is targeting. PIF's Invest Saudi office in Miami (opened at the 2025 edition) is the institutional anchor. The thesis: Saudi capital bridges the US-LATAM gap, particularly in energy, minerals, and digital infrastructure.
 
 ---
 
@@ -86,7 +86,7 @@ Note: [[Khalid Al-Falih]] was relieved as Minister of Investment by Royal Decree
 | [[Travis Kalanick]] | CEO | City Storage Systems |
 | [[Fei-Fei Li]] | Co-Founder & CEO | World Labs |
 | [[Dina Powell McCormick]] | President & Vice Chairman | [[Meta]] |
-| [[Ilan Goldfajn]] | President | [[Inter-American Development Bank]] |
+| [[Ilan Goldfajn]] | President | [[IDB|Inter-American Development Bank]] |
 | [[Fernando Galletti de Queiroz]] | CEO | [[Minerva Foods]] |
 | [[Ricardo Salinas]] | Founder | [[Grupo Salinas]] |
 | [[Gianni Infantino]] | President | [[FIFA]] |
@@ -122,7 +122,7 @@ Invite-only session on March 25 at 1:30 PM ET, co-chaired by [[Zach Witkoff]] ([
 The FII Institute launched a "Digital Assets and Tokenized Finance" report at the summit with data points:
 - $8B in tokenized [[US Treasury]] funds
 - Tokenized assets projected to reach $30T by 2030
-- Stablecoins processing $30T+ annually
+- Stablecoins reached $300B in circulation and $33T in annual transactions in 2025
 - Tokenized gold: $3.4B market cap
 - Over $10B in tokenized bonds issued
 - Settlement shifting from T+2 to near-instant (T+0)
@@ -230,11 +230,33 @@ The FII Institute launched the Capital in Motion Index (CMI) — a new global in
 
 ### Saudi Eksab — IDB Group LATAM agreement
 
-[[Saudi Eksab]] (PIF-affiliated investment platform) signed a cooperation agreement with [[Inter-American Development Bank|IDB Group]] ([[Ilan Goldfajn]], president) to advance equity investment in Latin America and the Caribbean, with an initial focus on Central America and the Caribbean. The agreement operationalizes the summit's stated LATAM corridor thesis — Saudi capital bridging the US-Gulf to LatAm investment gap.
+[[Saudi Eksab]] (PIF-affiliated investment platform) signed a cooperation agreement with [[IDB|IDB Group]] ([[Ilan Goldfajn]], president) to advance equity investment in Latin America and the Caribbean, with an initial focus on Central America and the Caribbean. The agreement operationalizes the summit's stated LATAM corridor thesis — Saudi capital bridging the US-Gulf to LatAm investment gap.
 
 ### UAE reaffirms $1.4T commitment
 
 [[Yousef Al Otaiba]] (UAE Ambassador to the US) reaffirmed the UAE's $1.4 trillion US investment commitment pledge — the commitment made during [[Donald Trump|Trump]]'s May 2025 Gulf visit. Al Otaiba: "a simple ceasefire is not enough." The combined Saudi ($600B→$1T framework) and UAE ($1.4T) commitments represent over $2T in announced Gulf capital directed at the US market.
+
+---
+
+## Day 3 — March 27
+
+### Official live-coverage takeaways
+
+FII's official Day 1 live-coverage pieces added harder operational detail to the summit's earlier branding.
+
+[[Yasir Al-Rumayyan]] reiterated that "the Saudi macroeconomic position remains strong, stable, and resilient" and that PIF remains a long-term investor measuring returns "not in quarters, but in decades." [[Mohammed Al-Jadaan]] sharpened the supply-chain point: current regional disruption is hitting refined products, fertilizers, steel, aluminum, and petrochemicals — not just crude — reinforcing the argument that Gulf resilience is being pitched as infrastructure preparedness rather than commodity luck.
+
+The capital-markets opening story also became more concrete. [[Yazeed Alhumied]] said [[Saudi Arabia]] now has 12 international asset managers operating with full licenses, six of them added in the past year. Committed capital through the program is about $20 billion, with a total pipeline of $60 billion to $80 billion. [[King Street]]'s Brian Higgins said his firm's partnership with PIF is aimed at deploying capital across the Kingdom and the GCC.
+
+The tokenization theme moved from aspiration to quantified scale. According to FII's Digital Assets and Tokenized Finance Impact Report 2026, stablecoins reached $300 billion in circulation and $33 trillion in annual transactions in 2025. [[Michael Novogratz]] argued stablecoins already offer a better consumer savings product than traditional bank deposits because they can pass through something closer to policy rates.
+
+The AI track also became more specific on infrastructure and deployment. FII's official coverage said [[HUMAIN]] partnered with [[Turing]] to build what it described as the world's first enterprise AI agent marketplace on HUMAIN ONE, combining HUMAIN's infrastructure stack with Turing's model-evaluation and deployment capabilities. The same coverage emphasized that the investability question is increasingly about whether a country can assemble capital, energy, talent, regulation, and delivery into one system rather than just market ambition.
+
+Official coverage also widened the geographic aperture beyond the Gulf and Latin America. President [[Julius Maada Bio]] argued that Africa's demographic growth and critical-minerals base represent a major investment opportunity if paired with capital, skills development, and policy support.
+
+### Trump closing keynote
+
+The [[Palm Beach Post]] reported that [[Donald Trump]] remained scheduled to deliver the summit's closing address on March 27, with the [[FAA|Federal Aviation Administration]] posting presidential-level temporary flight restrictions over Palm Beach for March 27-29. The report pointed to a likely Mar-a-Lago weekend immediately after the summit and underlined that Trump's appearance was being treated as a live presidential-access event rather than a ceremonial prerecorded message.
 
 ---
 
