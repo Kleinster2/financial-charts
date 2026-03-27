@@ -50,6 +50,17 @@ Secretary of the Interior [[Doug Burgum]] called it the *"conclave of Silicon Va
 - **Government speakers:** [[Doug Burgum]] (Interior Secretary), [[Emil Michael]] (Under Secretary of Defense for R&E)
 - Attendee quote: *"There's no difference between Silicon Valley and DC. Silicon Valley IS DC."*
 
+### March 24, 2026 — "Capital, Competition, and the AI Race" (5th forum)
+- Held at the Andrew W. Mellon Auditorium, Washington, D.C.
+- China and AI dominated nearly every session. Bloomberg previewed the event as "shadowed by AI concerns, war in Iran."
+- **Keynote:** Speaker [[Mike Johnson]] urged tech executives to "keep American technology American" — keep data centers, chips, and infrastructure in the US and "out of the hands of America's adversaries and rivals." Called on founders to "accept some minor constraints, relative to competitors in foreign countries."
+- **Sen. [[Rick Scott]]** (R-FL): "We are competing against China. The government of China wants to destroy our way of life... We got to put ourselves in a position that we can outcompete, especially China, with regard to AI."
+- **Sen. [[Jim Banks]]** (R-IN), with [[Palantir]] CTO [[Shyam Sankar]] in session "Scale, Security, and Sovereignty: Competing with China's Defense-Industrial Model": called the AI race "a moral fight." Banks sponsors the bipartisan GAIN AI Act — would force US companies to certify domestic customers got first-buy access to advanced AI chips before export, and require export licenses for "countries of concern." Sankar: "By and large, AI is an American birthright. It came from the US. The Chinese only have it from distillation attacks."
+- **[[Trae Stephens]]** ([[Anduril]] co-founder), speech "Broken Bureaucracies vs. The Tyranny of Technologists: Who Will Save The West?" — warned neither government overregulation nor a "blank check" to Silicon Valley is the answer. Invoked FDR enlisting Ford to build 18,000 B-24 bombers. "In the early 2010s, when Chinese military documents first started talking about AI weapons... we were arguing about whether or not tech wanted to work with the Pentagon at all."
+- **[[Keith Rabois]]** ([[Khosla Ventures]]): "We will not invest in things that would help our rivals. We don't invest in China. We wouldn't consider investing in China, because we are in an existential AI race."
+- The unnamed but obvious tension throughout was [[Nvidia]]'s China chip sales. Fortune reported that recent Nvidia-to-China smuggling cases (including [[Super Micro Computer|Supermicro]] co-founder charged with orchestrating $2.5B in smuggled chips) hung over the discussion.
+- Bloomberg pre-event: the Iran war added another dimension — AI's role in military operations and the politics of tech-government cooperation during active conflict.
+
 ---
 
 ## What it represents
