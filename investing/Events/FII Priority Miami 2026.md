@@ -15,9 +15,13 @@ The Saudi-US investment alliance is no longer transactional — it's structural.
 
 The war paradoxically strengthens PIF's hand. Pre-war, PIF was in fiscal trouble: [[Brent crude|Brent]] at $60-65 vs. $90+ breakeven, [[Saudi Aramco|Aramco]] dividends cut by a third, cash at $15B, 20% spending cuts across 100+ portfolio companies. The [[Iran]] conflict sent oil above $110 — suddenly the fiscal math works again. [[Goldman Sachs]] projects 5% GDP contraction if the war drags on, but that's the non-oil economy. The oil windfall fills PIF's coffers precisely when it needs to demonstrate it can still write checks. Hosting FII Miami three weeks into a shooting war is the signal: not retreating, deploying.
 
-The stablecoin angle is the sleeper. The digital assets conclave pushes dollar-denominated stablecoins as "tools of economic statecraft" at the exact moment [[Iran]] is conditioning [[Strait of Hormuz|Hormuz]] transit on yuan settlement (see [[Hormuz Transit Regime]]). [[Saudi Arabia]] sitting between the US dollar system and Iran's yuan demands, hosting a conference that promotes dollar-backed tokenized finance, is positioning itself as the indispensable node in both settlement systems. The $30T tokenized asset projection by 2030 is aspirational, but the geopolitical framing is real: whoever controls the settlement rails controls the trade.
+Trump's closing keynote on March 27 confirmed the strategic bet. He called Iran "on the run" and claimed the war was transforming the Middle East in ways that would make the region "brighter than it's ever been." The most diplomatically charged moment: standing in front of 1,500 investors, he looked directly at [[Yasir Al-Rumayyan]] and said "I hope you're going to be getting into the [[Abraham Accords]] finally" and "Will you please go back and explain? It's time now." Al-Rumayyan gave no commitment. That exchange — a US president publicly pressuring the PIF governor in his own conference room — is the clearest signal yet that normalization with Israel is the price tag attached to the investment framework. The "Strait of Trump" joke ("They have to open up the Strait of Trump — I mean Hormuz") generated global headlines but also floated something more serious: the New York Post reported Friday that Trump is actively considering taking control of the strait. The Cuba aside ("Cuba is next, by the way, but pretend I didn't say that") extended the pattern of off-script territorial ambition. NATO was called "a paper tiger" in front of a Saudi audience that has been waiting 50 years for America to mean what it says about Gulf security.
 
-By the summit's closing day, the story was not a single blockbuster deal but a set of institutional signals that the Saudi-US-LATAM corridor is being built in layers: [[Saudi Eksab]] signed a cooperation agreement with the [[IDB|Inter-American Development Bank]] on equity investment in Latin America and the Caribbean, FII launched a new capital-flow index to track where strategic money is actually moving, [[Yazeed Alhumied]] put hard numbers on the Saudi market-opening effort ($20B committed capital, $60B-$80B pipeline, 12 fully licensed international managers), and [[HUMAIN]] announced a partnership with [[Turing]] around an enterprise AI agent marketplace. The question after Miami is no longer whether Saudi capital remains present in the corridor — it does — but whether these institutional scaffolds convert into disclosed transactions once the Iran war premium, the Trump access cycle, and Vision 2030's domestic funding needs begin to pull capital in different directions. Watch next: Trump's closing keynote, whether the LATAM agreement develops into announced deals, and whether PIF's next five-year strategy formalizes the shift from balance-sheet deployment to crowding-in private capital (see [[Gulf Sovereign Capital Reallocation]]).
+The stablecoin angle is the sleeper. The digital assets conclave pushes dollar-denominated stablecoins as "tools of economic statecraft" at the exact moment [[Iran]] is conditioning [[Strait of Hormuz|Hormuz]] transit on yuan settlement (see [[Hormuz Transit Regime]]). [[Saudi Arabia]] sitting between the US dollar system and Iran's yuan demands, hosting a conference that promotes dollar-backed tokenized finance, is positioning itself as the indispensable node in both settlement systems. The $30T tokenized asset projection by 2030 is aspirational, but the geopolitical framing is real: whoever controls the settlement rails controls the trade. [[Brad Garlinghouse]] named the [[CLARITY Act]] specifically as H1 2026 legislation; [[Michael Novogratz]] cited Senate Majority Leader Schumer directly. The regulatory window is narrower than the rhetoric.
+
+What the summit actually delivered: not a blockbuster deal, but a set of layered institutional scaffolds. [[Saudi Eksab]] signed with the [[IDB|Inter-American Development Bank]] on equity investment in Latin America and a separate framework agreement with [[BTG Pactual]] for a LatAm-focused alternative investment platform. [[Yazeed Alhumied]] put hard numbers on Saudi market-opening ($20B committed capital, $60B-$80B pipeline, 12 fully licensed international managers, six added in the past year). [[HUMAIN]] and [[Turing]] announced the world's first enterprise AI agent marketplace on HUMAIN ONE. A $1B Patel Family Office / AHQ hospitality platform for 50 Saudi hotels was signed. The FII Institute launched the Capital in Motion Index to track where strategic capital is actually moving versus where it is rhetorically committed — a tool that implicitly acknowledges the gap between Gulf pledge totals and disclosed transactions.
+
+The question after Miami is whether these scaffolds convert into disclosed transactions once the Iran war premium, the Trump access cycle, and Vision 2030's domestic funding needs begin to pull capital in different directions. The war is the wild card in both directions: it fills PIF's coffers with oil windfall revenue and simultaneously raises sovereign risk for long-term Gulf deployment. [[Mohammed Al-Jadaan]]'s warning — "beyond what we have seen even post-COVID" in supply-chain disruption — is the honest read underneath Al-Rumayyan's "strong, stable and resilient" talking points. The next test is PIF's five-year strategy, releasing within weeks: if it formalizes the shift from balance-sheet deployment to crowding-in private capital, that's a structural admission that Vision 2030 has outgrown what one sovereign fund can self-fund. See [[Gulf Sovereign Capital Reallocation]].
 
 ---
 
@@ -240,23 +244,45 @@ The FII Institute launched the Capital in Motion Index (CMI) — a new global in
 
 ## Day 3 — March 27
 
-### Official live-coverage takeaways
+### Trump closing keynote (~5:30 PM ET, Faena Forum)
 
-FII's official Day 1 live-coverage pieces added harder operational detail to the summit's earlier branding.
+[[Donald Trump]] delivered the summit's closing address at approximately 5:30 PM ET at the Faena Forum — his second consecutive year headlining this event. He previewed it on Truth Social as "a big speech on economics in Miami." The speech was combative and wide-ranging, running well beyond a standard investor address into active geopolitics.
 
-[[Yasir Al-Rumayyan]] reiterated that "the Saudi macroeconomic position remains strong, stable, and resilient" and that PIF remains a long-term investor measuring returns "not in quarters, but in decades." [[Mohammed Al-Jadaan]] sharpened the supply-chain point: current regional disruption is hitting refined products, fertilizers, steel, aluminum, and petrochemicals — not just crude — reinforcing the argument that Gulf resilience is being pitched as infrastructure preparedness rather than commodity luck.
+On [[Iran]] and [[Operation Epic Fury]]: "For 47 years Iran has been known as the bully of the Middle East. But not any longer. They are on the run." Trump claimed Iran's navy, air force, and leadership had been "decimated" and cited "3,554 targets" still remaining to hit — "That'll be done pretty quickly." He said Iran is "begging to make a deal," while Tehran publicly denies direct negotiations.
 
-The capital-markets opening story also became more concrete. [[Yazeed Alhumied]] said [[Saudi Arabia]] now has 12 international asset managers operating with full licenses, six of them added in the past year. Committed capital through the program is about $20 billion, with a total pipeline of $60 billion to $80 billion. [[King Street]]'s Brian Higgins said his firm's partnership with PIF is aimed at deploying capital across the Kingdom and the GCC.
+On the [[Strait of Hormuz]] — the summit's most-quoted moment: "They have to open up the Strait of Trump — I mean Hormuz. Excuse me, I'm so sorry." He then acknowledged the joke directly: "The fake news will say, 'He accidentally said' — No, there's no accidents with me, not too many." The New York Post reported Friday evening that Trump is actively considering taking control of the strait and renaming it. [[Steven Witkoff]] said US-Iran meetings could happen "this week."
 
-The tokenization theme moved from aspiration to quantified scale. According to FII's Digital Assets and Tokenized Finance Impact Report 2026, stablecoins reached $300 billion in circulation and $33 trillion in annual transactions in 2025. [[Michael Novogratz]] argued stablecoins already offer a better consumer savings product than traditional bank deposits because they can pass through something closer to policy rates.
+On the [[Abraham Accords]] — the most diplomatically charged moment of the keynote: Trump addressed [[Yasir Al-Rumayyan]] by name in the room. "I hope you're going to be getting into the Abraham Accords finally." "Will you please go back and explain? It's time now." Al-Rumayyan gave no public commitment. The public call-out in front of 1,500 delegates is the clearest signal that normalization with Israel is the explicit price attached to the $600B→$1T investment framework.
 
-The AI track also became more specific on infrastructure and deployment. FII's official coverage said [[HUMAIN]] partnered with [[Turing]] to build what it described as the world's first enterprise AI agent marketplace on HUMAIN ONE, combining HUMAIN's infrastructure stack with Turing's model-evaluation and deployment capabilities. The same coverage emphasized that the investability question is increasingly about whether a country can assemble capital, energy, talent, regulation, and delivery into one system rather than just market ambition.
+On the Middle East's future: "The Middle East will be transformed [as a result of the war] and the future of that region — I don't think it's ever been brighter." He pushed the post-war economic recovery thesis: "And I think you're going to see a rocket ship, because we won't have that dark cloud hanging over our head."
 
-Official coverage also widened the geographic aperture beyond the Gulf and Latin America. President [[Julius Maada Bio]] argued that Africa's demographic growth and critical-minerals base represent a major investment opportunity if paired with capital, skills development, and policy support.
+On [[NATO]]: "This is NATO, and I've always said there's a paper tiger." He lashed out at allies who have not formed a coalition to secure the strait. "We would have always been there for them, but now, based on their actions, I guess we don't have to be." Said before a Saudi audience that has been waiting decades for US commitment to Gulf security.
 
-### Trump closing keynote
+On Cuba: "And Cuba is next, by the way, but pretend I didn't say that please." Said after touting Venezuela and Iran successes — the off-script territorial aside followed a now-established pattern.
 
-The [[Palm Beach Post]] reported that [[Donald Trump]] remained scheduled to deliver the summit's closing address on March 27, with the [[FAA|Federal Aviation Administration]] posting presidential-level temporary flight restrictions over Palm Beach for March 27-29. The report pointed to a likely Mar-a-Lago weekend immediately after the summit and underlined that Trump's appearance was being treated as a live presidential-access event rather than a ceremonial prerecorded message.
+On [[Elon Musk]] and DOGE: Musk was in the audience, seated near Saudi Ambassador Princess [[Reema Bandar Al Saud]]. Trump acknowledged him publicly: "I signed an order creating the Department of Government Efficiency and put a man named Elon Musk in charge. Thank you, Elon, for doing it... And he's doing a great job." He floated a "DOGE dividend" concept: "a new concept where we give 20 percent of the DOGE savings to American citizens and 20 percent goes to paying down debt."
+
+On markets: Downplayed stock market declines — "It hasn't been that bad." Said oil prices would be higher than current levels. S&P 500 futures were down 0.72% as he spoke. European markets closed down: Stoxx Europe 600 -1.11%, FTSE 100 -1.25%.
+
+### Other Day 3 sessions and announcements
+
+[[Yazeed Alhumied]] hard numbers carried into Day 3 coverage: 12 international asset managers operating with full licenses in Saudi Arabia (six added in the past year), $20B committed capital through the market-opening program, $60B-$80B total pipeline. [[King Street]]'s Brian Higgins confirmed his firm's PIF partnership is aimed at deploying capital across the Kingdom and GCC.
+
+[[Julius Maada Bio]] ([[Sierra Leone]]) widened the geographic aperture beyond the Gulf-LatAm corridor: Africa's demographic growth and critical-minerals base represent a major investment opportunity if paired with capital, skills development, and policy support — the investability-conditions frame applied to a third corridor.
+
+HUMAIN one final announcement: the world's first enterprise AI agent marketplace on HUMAIN ONE, combining [[HUMAIN]]'s infrastructure stack with [[Turing]]'s model-evaluation and deployment capabilities. The partnership covers HR, finance, legal, operations, procurement, and industry-specific workflows.
+
+### Saudi Eksab x BTG Pactual — LATAM framework
+
+[[Saudi Eksab]] (PIF-affiliated) and [[BTG Pactual]] signed a framework agreement for a [[Latin America]]-focused alternative investment platform — the second LatAm structural agreement of the summit alongside the IDB Group deal announced on Day 2. Together these operationalize the corridor thesis with institutional infrastructure rather than a single transaction.
+
+### $1 billion hospitality platform
+
+Patel Family Office and AHQ announced a $1 billion platform to develop 50 hotels across [[Saudi Arabia]]. The deal is the most visible private-capital-into-Saudi transaction of the summit — fitting Al-Rumayyan's "bring the world to Saudi" framing of the new PIF strategy.
+
+### Security and logistics
+
+Presidential-level temporary flight restrictions were posted by the [[FAA|Federal Aviation Administration]] over Palm Beach for March 27-29, with Trump departing to Mar-a-Lago after the keynote. Magnetometers were installed throughout the Faena Hotel before his arrival — a security posture significantly more restrictive than the open Day 1-2 flow.
 
 ---
 
@@ -305,6 +331,14 @@ Richard Attias (March 12, 2026): "Miami is not just a location, it is a signal. 
 [[Steven Witkoff]] (March 26, 2026): "Against the backdrop of our compelling military successes in [[Operation Epic Fury]], we have had multiple reach-outs from the region and others who want to play a role in ending this conflict peacefully. Iran is looking for an off-ramp."
 
 Richard Attias (March 26, 2026): "Latin America is no longer a region of potential, it is a region of decision."
+
+[[Donald Trump]] (March 27, 2026): "For 47 years Iran has been known as the bully of the Middle East. But not any longer. They are on the run."
+
+[[Donald Trump]] (March 27, 2026): "They have to open up the Strait of Trump — I mean Hormuz. Excuse me, I'm so sorry." [Then, directly to [[Yasir Al-Rumayyan]]:] "I hope you're going to be getting into the Abraham Accords finally. Will you please go back and explain? It's time now."
+
+[[Donald Trump]] (March 27, 2026): "The Middle East will be transformed [as a result of the war] and the future of that region — I don't think it's ever been brighter."
+
+[[Donald Trump]] (March 27, 2026): "This is NATO, and I've always said there's a paper tiger."
 
 ---
 
