@@ -18,6 +18,8 @@ aliases: [ZS]
 
 ZS trades as a core Software name (IGV r = 0.72).
 
+2026-03-27: -4.5% on [[Claude Mythos]] leak — [[Anthropic]]'s Capybara-tier model flagged for autonomous vulnerability exploitation capability. See [[Cybersecurity]].
+
 ---
 
 ## Why Zscaler matters

@@ -100,6 +100,12 @@
 
 ---
 
+## Recent events
+
+- [[2026 HVAC antitrust lawsuit]] — March 26 selloff: CARR -4.0σ, TT -3.0σ, NVT -2.6σ (basket, not named), JCI -2.5σ. Triple headwind: Rubin chiller-free + antitrust + [[Watsco]] demand softness.
+
+---
+
 ## Related
 
 - [[AI datacenter architecture]] — design requirements
@@ -119,6 +125,9 @@
 - [[Generac]] — backup generators
 - [[Caterpillar]] — large generators
 - [[Siemens Energy]] — gas turbines
+
+### Events
+- [[2026 HVAC antitrust lawsuit]] — HVAC cartel class-action, March 2026
 
 ### Cooling & HVAC
 - [[Trane Technologies]] — HVAC, liquid cooling

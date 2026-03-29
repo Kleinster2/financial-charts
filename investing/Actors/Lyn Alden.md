@@ -62,6 +62,57 @@ She tracks [[global liquidity]] — [[M2 money supply]], [[Fed balance sheet]], 
 - Institutional crossover: Read by both retail and institutional investors
 - Book: *Broken Money* (2023) — well-received exploration of monetary history and Bitcoin
 
+## "A Flywheel of Chaos" — March 2026 newsletter
+
+Published March 22, 2026. The most significant update to Alden's "gradual print" thesis since the Iran war began. Core question: does the war push the Fed from a gradual balance sheet expansion into a big print?
+
+### Gradual print status
+
+Fed balance sheet up $120B from December low (~$420B annualized). Historical QE scale for context:
+
+| Round | Size | % of starting base |
+|-------|------|--------------------|
+| QE1 | $1.3T | ~140% |
+| QE2 | $600B | ~25% |
+| QE3 | $1.5T | ~50% |
+| QE4 | $4.8T | ~115% |
+| Current pace | ~$420B/yr | ~6% |
+
+The current pace and even the Pentagon's $200B supplemental request remain well within "gradual" territory. Alden's "big print" threshold: $2T+ of rapid expansion from a $6.5T starting base — even doubling the high-end Fed projection to $750B (for unforeseen circumstances) would only be an 11% gain, "still pretty modest."
+
+Current stress indicators: MOVE index elevated but not at break levels. Standing repo and swap line facilities not being used to material degree. Dollar shortages in major economies not yet acute.
+
+### The "toxic combo" scenario
+
+Where cascading effects could breach the gradual print ceiling:
+
+1. Sustained high energy prices → consumer displacement → some nations selling sovereign reserves (including Treasuries) to fund energy imports
+2. Treasury yields already rising sharply since war began (rate of change is significant) → upward pressure on mortgage rates and private credit
+3. Fed caught in stagflation trap: shortages + economic weakness + large deficits challenge both mandates simultaneously
+4. US stock market = 200% of GDP with concentrated ownership → sustained weakness hits tax receipts → "the tail wags the dog now"
+
+If enough of these cascade in sufficient magnitude, starting with sustained high energy prices, the base case shifts from gradual to big print later in 2026.
+
+### Flywheel of Chaos framework
+
+Sovereign debt crises and wars cluster — each leads to the other. The US is encumbered by both [[fiscal dominance]] and the [[Triffin Dilemma]], needing structural reforms. Empires don't voluntarily downsize — they "rage, rage against the dying of the light." US fiscal deficits will continue to run hot: "Nothing stops this train, and a handful of things, such as major war, can potentially accelerate it."
+
+### Pre-war economic data
+
+No net US jobs added since April 2025 (employment at stall speed). Weekly jobless claims show no acute stress. Consumer sentiment historically low, PMIs headed up. Mixed signals — nothing in pre-war data justifies a big print on its own.
+
+### Portfolio positioning
+
+Three-pillar framework unchanged: profitable equities + commodities/producers/hard monies + cash-equivalents. 60/40 has "no answer for stagflationary conditions with shortages in energy and raw materials." One change: sold VAL.
+
+### Convergence with energy analysts
+
+Alden's fiscal cascade framework complements the physical-market analysis from [[Helima Croft]] (RBC) and [[Jeff Currie]] (Carlyle). All three are arguing the market prices a quick, clean resolution that the evidence doesn't support — but from different angles. Croft: production restoration takes months-to-years even after a ceasefire. Currie: paper futures ($110 Brent) have disconnected from physical reality ($162 Oman spot, $200+ refined products). Alden: even if the war ends, the fiscal and monetary cascading effects (Treasury stress, stagflation trap, tax receipt collapse) have their own momentum. The convergence is on duration and depth — the second-order effects are what the market hasn't priced.
+
+*Source: [Lyn Alden, March 2026 newsletter](https://www.lynalden.com/march-2026-newsletter/)*
+
+---
+
 ## Related
 
 - [[Bitcoin]] · [[Fiscal Dominance]] · [[Federal Reserve]]

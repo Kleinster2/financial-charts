@@ -84,6 +84,7 @@ This repo is the hub of a multi-vault research ecosystem. Full map in `~/.claude
 - Theses: `investing/Theses/`
 - Daily: `investing/Daily/`
 - Sectors: `investing/Sectors/`
+- Assets: `investing/Assets/` (securities notes — tradeable instruments, price history, relative value, charts for actors)
 
 **Countries go in Actors, not Regions.** See `India.md` for hub template (~100-150 lines max).
 
@@ -280,35 +281,31 @@ An actor note serves two functions simultaneously:
 
 2. **Provide everything the reader needs to answer those questions independently.** The body is a comprehensive primer: ownership structures, financials, competitive dynamics, regulatory context, technology, history. A complete actor note is self-contained — the reader shouldn't need to look elsewhere to understand the entity or evaluate its value.
 
-Stock price moves, analyst calls, and catalysts are evidence cited within this structure, not the organizing principle. A morning note that's stale by afternoon is not what we're building.
+Stock price moves, analyst calls, and catalysts go in the securities note (`Assets/`), not the actor note. The actor note cites earnings numbers and business events; the securities note tracks how the market priced them. See the Actor/Securities Split section below.
 
 **Synopsis framing: key economic questions, not market recap.** The Synopsis should center on the questions that matter: Is the core business durable? Is the valuation justified? What structural forces help or hurt? Not "the stock doubled after CES" but "the valuation depends on whether Boston Dynamics' robotics business is real or speculative optionality." Catalysts are evidence — "BD IPO → governance restructuring → Korea discount unwind" supports the question "can the structural discount close?" rather than standing as a standalone listicle.
 
-**Answer your own questions.** The body must contain analytical sections that directly address the Synopsis questions — not just factual/historical sections that provide raw material. If the Synopsis asks "can the business survive the regulatory assault," the body needs a section that argues both sides with evidence, not just a timeline of regulatory events. History, ownership, and financials are inputs; the note isn't complete until those inputs are synthesized into arguments the reader can evaluate. A note that frames three questions and then provides only chronological facts is half a note.
+**Answer your own questions.** The body must contain analytical sections that directly address the Synopsis questions — not just factual/historical sections that provide raw material. If the Synopsis asks "can the business survive the regulatory assault," the body needs a section that presents the dynamics and evidence, not just a timeline of events. History, ownership, and financials are inputs; the note isn't complete until those inputs are synthesized into analysis the reader can evaluate. A note that frames three questions and then provides only chronological facts is half a note.
 
-**Sum-of-parts in prose.** When a SOTP argument exists, state it plainly with numbers inline as part of answering a valuation question: "BNP Paribas calculates the core auto business trades at just 10.3x PE after stripping out BD and India."
+**No bull/bear framing.** Do not organize analysis into "bull case" / "bear case" sections. This forces editorial binary thinking — reality is more nuanced, and the vault's job is to present dynamics and open questions, not pre-package conclusions. Instead: present what's happening (the dynamics driving the entity), what's structurally different or historically consistent (grounded in data), and what's unresolved (the open questions). The reader decides what it means for positioning. Same applies to "risks vs. opportunities," "positives vs. negatives," and any other binary editorial frame.
 
-**Voice and density: the Hyundai standard.** Every actor note should read like a sharp analyst briefing someone smart over coffee — not a Wikipedia article, not a consulting deck. Lead with what changed or what matters most. Stack catalysts with specific numbers and chain logic (BD IPO → governance restructuring → Korea discount unwind). Give the bear case equal weight with hard numbers, not a polite afterthought. Use analyst quotes as named evidence ("Samsung Securities analyst Esther Yim:"), not anonymous authority. State SOTP math in plain English ("core auto business essentially free at current levels"). The following Hyundai Motor summary is the gold standard for tone, density, and structure — all actor note Synopses and body sections should aspire to this voice:
+**Sum-of-parts in prose.** When a SOTP structure exists, state it plainly with numbers inline: "BNP Paribas calculates the core auto business trades at just 10.3x PE after stripping out BD and India."
 
-> The stock story has completely changed. Hyundai traded sideways at 100K-300K KRW for a decade. After the Atlas humanoid debut at CES 2026 (Jan 5), it doubled to 674K KRW. Now pulled back to 492K KRW (~27% off peak). Forward PE ~9.6x.
+**Voice and density: the Hyundai standard.** Every actor note should read like a sharp analyst briefing someone smart over coffee — not a Wikipedia article, not a consulting deck. Lead with what matters most. Stack dynamics with specific numbers and chain logic (BD IPO → governance restructuring → Korea discount unwind). Use analyst quotes as named evidence ("Samsung Securities analyst Esther Yim:"), not anonymous authority. State SOTP math in plain English. The following Hyundai Motor summary is the gold standard for tone, density, and structure — all actor note Synopses and body sections should aspire to this voice:
+
+> Hyundai traded sideways at 100K-300K KRW for a decade. After the Atlas humanoid debut at CES 2026 (Jan 5), it doubled to 674K KRW. Now pulled back to 492K KRW (~27% off peak). Forward PE ~9.6x.
 >
-> Three catalysts stacked:
+> Three dynamics are driving the repricing:
 >
 > 1. Boston Dynamics IPO (potentially 2027 Nasdaq). Hyundai owns 88% (affiliates 68% + Chairman Chung Euisun personally 22.6%). Valuations range wildly: KB Securities 128T won, Hanwha 150T won, others 40-60T won. Chung paid ~$220M for his 20% stake — could be worth $13.6B+. SoftBank holds 9.5% with a put option exercisable by June 2026. CEO Robert Playter just left, replaced by CFO Amanda McMaster — commercial pivot signal. Atlas production target: 30,000 units by 2028 at $130-140K each.
 > 2. Governance restructuring. BD IPO proceeds give Chung the war chest to unwind Hyundai's circular ownership (the only major Korean chaebol that still has it). Inheritance tax on his father's 7T+ won stake alone is ~4T won. This has been a decade-long investor complaint — resolution would trigger a Korea discount unwind.
 > 3. Google DeepMind partnership for Atlas AI + Nvidia for autonomous driving. Previously the knock on Atlas was Tesla Optimus had the data advantage. DeepMind collaboration changes that equation. Samsung Securities analyst: "If robotics and solid-state battery tech are validated, Tesla — not Toyota — becomes the valuation comp."
 >
-> The bear case is real though:
-> - Tariff risk: analysts cut 2026 earnings estimates 22%, tariffs at 25% on Korea (deal in place to reduce to 15% but Korean legislature hasn't ratified)
-> - Pulled IONIQ 6 from US market (tariff-exposed, made in Korea). IONIQ 5/9 safe (Georgia plant)
-> - Chinese EVs eating market share outside US/India
-> - $20B US investment + $5.8B Louisiana steel plant = political insurance but capital-heavy
->
-> The sum-of-parts math is what makes it compelling. BNP Paribas: core auto business trading at 10.3x PE after stripping out Hyundai Motor India + Boston Dynamics. If BD IPO prices anywhere near the high estimates, Hyundai's auto business is essentially free at current levels.
+> Open questions: Analysts cut 2026 earnings estimates 22% on tariffs at 25% on Korea (deal to reduce to 15% but Korean legislature hasn't ratified). Pulled IONIQ 6 from US market (tariff-exposed, made in Korea); IONIQ 5/9 safe (Georgia plant). Chinese EVs eating market share outside US/India. $20B US investment + $5.8B Louisiana steel plant is political insurance but capital-heavy. BNP Paribas calculates the core auto business trades at 10.3x PE after stripping out Hyundai Motor India + Boston Dynamics — the SOTP math hinges on what BD IPO actually prices at and whether the governance restructuring materializes.
 
-### Synopsis Section (Actor Notes)
+### Synopsis (Actor Notes)
 
-Every actor note (non-stub) must include a **Synopsis** section immediately after the frontmatter/one-liner intro and before Quick stats. This is a 2-4 paragraph dense summary that frames the key economic value questions and gives the reader the full picture without scrolling: what the entity is, the questions that determine its value, the deal/structure mechanics if relevant, and the key risk. Write it as sharp prose with hard numbers — not a teaser, but a self-contained briefing. If someone reads only the synopsis, they should understand both the investment case and what questions remain open.
+Every actor note (non-stub) must include a synopsis immediately after the frontmatter/one-liner intro and before Quick stats. No `## Synopsis` header — the position does the work (always between the one-liner and Quick stats). This is a 2-4 paragraph dense summary that frames the key economic dynamics and gives the reader the full picture without scrolling: what the entity is, the dynamics driving it, and the open questions. Write it as sharp prose with hard numbers — not a teaser, but a self-contained briefing. If someone reads only the synopsis, they should understand the entity and what questions remain unresolved.
 
 ### Evolution Section (Actor Notes)
 
@@ -363,30 +360,55 @@ Concept notes (non-stub) must follow a **story + reference** structure. The narr
 
 **When to use this structure:** Any concept note where the reader benefits from understanding the causal chain, not just the facts. Technology transitions, market dynamics, structural themes, policy mechanisms. Not every concept note needs a 15-paragraph story — some (e.g., a narrow technical definition) are fine as structured reference. Use judgment.
 
-### Economics / Prices Split
+### Actor / Securities Split
 
-Any concept or actor with a tradeable price can split into two notes: `[Thing] Economics` and `[Thing] Prices`.
+Actors with tradeable instruments get a two-note structure: the actor note (what the entity is and does) and a securities note (how the market prices it and how to express a view).
 
-**The Economics note** covers how the thing works — supply, demand, structure, players, mechanics, margin dynamics. Follows the standard concept note structure (story + reference). Everything about what's actually happening in the world.
+**The actor note** covers the entity itself — Synopsis, Evolution, business economics, financials, competitive dynamics, capex, strategy, management. Everything about what the entity IS and DOES, regardless of whether a stock exists. Earnings numbers go here; stock reactions go in securities.
+
+**The securities note** covers all tradeable instruments linked to the actor and their price dynamics:
+
+1. Instruments — what exists (stock, bonds, ETFs, options, derivatives, cross-listings)
+2. Price history — absolute price chain (chronological: what event, what price, what effect)
+3. Relative value — beta-adjusted ratios against sector/peers, with chronological explanatory chain
+4. Sector correlation — correlation table with relevant ETFs
+5. Earnings reactions — stock moves on results (the numbers themselves stay in the actor note)
+6. Analyst coverage — PTs, ratings, upgrades/downgrades
+7. Market expectations — what's priced in, what isn't
+8. Charts — all price/comparison charts
+
+The boundary is crisp: "Is this about the entity or about the market's pricing of the entity?"
+
+**Naming:** `[Actor name] securities` — lowercase "securities" keeps the actor name dominant. Examples: `Micron securities`, `Brazil securities`, `NVIDIA securities`.
+
+**Folder:** Securities notes live in `investing/Assets/`.
+
+**Linking:** Actor note links to securities note in Related under `### Securities`. Securities note links back to actor as first Related entry. The same event can appear in both — earnings numbers in the actor note, the stock move in the securities note.
+
+**Applies to:** Any actor with tradeable instruments — companies (stock, bonds, options), countries (ETFs, ADRs, FX, sovereign bonds, CDS), institutions.
+
+**Does NOT apply to:** Actors without tradeable instruments (most people, some private companies). Stubs don't need a securities note — create when there's enough market content to justify it.
+
+**Reference:** See [[Micron]] and [[Micron securities]] as the template.
+
+### Economics / Prices Split (Concepts Only)
+
+For non-actor concepts with tradeable prices (commodities, rates, currencies), the Economics/Prices split still applies. This is for things that don't have an "actor" — uranium, oil, gold, treasuries, yen.
+
+**The Economics note** covers how the thing works — supply, demand, structure, players, mechanics. Story + reference structure.
 
 **The Prices note** has two aspects, both chronological explanatory chains:
 
-1. **Absolute price** — the number and what put it there. What sequence of events, flows, sentiment shifts, and structural moves explain why the price sits where it does today.
-2. **Relative price** — the price against correlated markets and peers (ratios, spreads), always risk/beta-adjusted. Its own chain of events explaining why the relationship is where it is.
+1. Absolute price — the number and what put it there.
+2. Relative price — against correlated markets and peers, always risk/beta-adjusted.
 
-Both are prices. Both have chronological narratives with hard numbers. Two distinct dynamics, no hierarchy between them. Relative prices must be risk-adjusted — a stock outperforming its benchmark by 20% means nothing if its beta is 2x. State the beta, adjust the ratio, then explain the residual.
+Relative prices must be risk-adjusted — a stock outperforming its benchmark by 20% means nothing if its beta is 2x. State the beta, adjust the ratio, then explain the residual.
 
-**Naming:** `Uranium Economics` / `Uranium Prices`, `Micron Economics` / `Micron Prices`. The name does the work — no parentheticals or tags.
+**Naming:** `Uranium Economics` / `Uranium Prices`. The name does the work.
 
 **Folder:** Both live in `Concepts/`.
 
-**Linking:** Each links to the other. The same event can appear in both notes, wearing a different hat — Kazatomprom cuts output is an economics fact; in the prices note it's about how much that moved the number and whether it was priced in.
-
-**Applies to:** Commodities (uranium, copper, oil, gold), rates/currencies (treasuries, yen), actors with tradeable equity (Micron, TSMC), or any concept with a distinct price to explain.
-
-**Does NOT apply to:** Purely analytical concepts (Moore's Law, Jevons Paradox), structural concepts (advanced packaging, co-packaged optics), or anything without a tradeable price.
-
-**Migration:** Existing notes like `Uranium.md` become `Uranium Economics.md`, with a new `Uranium Prices.md` alongside. Not all need the split immediately — create the prices note when there's enough to say.
+**Does NOT apply to:** Purely analytical concepts (Moore's Law, Jevons Paradox), structural concepts (advanced packaging, co-packaged optics), or anything without a tradeable price. Also does not apply to actors — use the Actor/Securities split instead.
 
 ### Detailed References
 

@@ -123,7 +123,11 @@ Less dependent on DC than pure-plays like Modine.
 | HQ | Cork, Ireland (tax) |
 | Focus | Building tech, HVAC |
 
-*Updated 2026-01-15*
+## Antitrust risk (March 2026)
+
+Named defendant in [[2026 HVAC antitrust lawsuit]]. JCI -4.3% (-2.5σ) on March 26 — smallest excess move, reflecting diversification.
+
+*Updated 2026-03-27.*
 
 ---
 
@@ -134,3 +138,4 @@ Less dependent on DC than pure-plays like Modine.
 - [[Schneider Electric]] — competitor
 - [[NVIDIA]] — Rubin comment source
 - [[Power constraints]] — DC cooling context
+- [[2026 HVAC antitrust lawsuit]] — named defendant, -4.3% / -2.5σ on March 26

@@ -59,6 +59,24 @@ Wilson's 2023 miss is a case study in anchoring bias — his 2022 framework was 
 - Institutional weight: Morgan Stanley's equity research reaches most major institutional investors
 - Cautionary tale: His 2023 miss is now a standard example in discussions about strategist accountability
 
+## March 25, 2026 — "S&P Profit Boom Despite Iran War" (Bloomberg)
+
+Wilson's most bullish framing since the conflict began. Key data points:
+
+- S&P 500 earnings expected to rise 20% over next 12 months — historically, this reading was higher only coming out of recessions
+- Sell-side analysts now estimate S&P 500 Q1 profit growth at 11.9%, up from 10.9% before the war started
+- "The probability remains low for this oil spike to end the business cycle" (from March 23 client note)
+- ~50% of [[Russell 2000]] already down 20% from 52-week highs — Wilson sees the correction as late-stage
+- S&P 500 target ~6,300 by early April (from March 16 CNBC)
+
+Counterpoint cited in the same article: [[JPMorgan]] estimates that if oil stays at $110/bbl for the rest of the year, S&P 500 earnings estimates could shed up to 5 percentage points.
+
+This is the opposite call from [[Ed Yardeni]] (35% meltdown probability, "none and done") and [[Lyn Alden]] (fiscal cascade risk). Wilson sees the earnings cycle as self-sustaining; the bears see the oil shock as a regime-breaker.
+
+*Source: Bloomberg, March 25 2026*
+
+---
+
 ## Related
 
 - [[Morgan Stanley]] · [[S&P 500]] · [[Earnings Estimates]]

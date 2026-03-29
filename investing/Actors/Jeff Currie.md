@@ -113,6 +113,33 @@ Straight line up since 2020. But cost structures rising too — when oil went 63
 
 ---
 
+### Physical vs paper update — Rigzone/Bloomberg (Mar 23)
+
+Three weeks into the war, the paper-physical disconnect widened further. Bloomberg data compiled by Rigzone:
+
+| Benchmark | Price |
+|-----------|-------|
+| Oman crude (spot) | exceeded $162/bbl |
+| Murban crude (UAE spot) | topped $145/bbl |
+| Jet fuel (Singapore) | exceeded $200/bbl |
+| US retail gasoline | approaching $4/gallon |
+| US diesel | exceeded $5/gallon |
+| Brent futures | ~$110/bbl |
+
+Goldman Sachs estimated 17M bbl/day through the Persian Gulf face disruption. [[IEA]] characterized it as the "biggest-ever oil supply disruption." Goldman and [[Citigroup]] predicted futures could reach record highs surpassing the 2008 peak ($147.50) if conflict continues.
+
+[[Christof Ruhl]] (former [[BP]] economist, now [[Crystol Energy]]): "The US has almost exhausted the arsenal for stopping prices from rising, given this degree of uncertainty."
+
+Treasury Secretary [[Scott Bessent]] hinted at additional SPR releases and possible Iranian oil sanctions relief despite ongoing conflict.
+
+Asian refiners buying at premium from distant sources. Container shipping lines adding fuel surcharges. European airlines canceling flights on jet fuel costs. Trucking companies facing immediate cost increases (fuel = 30% of transport costs).
+
+*Source: [Bloomberg/Rigzone, Mar 23](https://www.rigzone.com/news/wire/the_oil_prices_you_see_do_not_tell_markets_real_story-23-mar-2026-183268-article/)*
+
+### CNBC full interview (Mar 24)
+
+Full CNBC interview reiterating the paper-physical disconnect and supercycle thesis. Called the current environment "a (c)rude awakening" for markets still pricing a quick resolution.
+
 ### "Reverse COVID" framing — with Amrita Sen (CNBC, March 23)
 
 [[Amrita Sen]] ([[Energy Aspects]]) confirmed on CNBC that she and Currie have been exchanging notes and converging on the "reverse COVID" as the best analogy: ~11M bbl/day shut in on the supply side, ~15-16M bbl/day including refined products — nearly 4x the Russia-Ukraine supply fear (~3M bbl/day). COVID was demand destruction with supply intact; this is supply destruction with demand intact. In both cases, paper markets priced the event as temporary.

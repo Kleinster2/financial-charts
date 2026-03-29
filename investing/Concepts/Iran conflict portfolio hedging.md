@@ -164,6 +164,7 @@ The Hormuz dimension makes this potentially worse: Russia's oil found alternativ
 - [[Pictet]] — multi-asset hedging response
 - [[Aberdeen]] — cautious repositioning
 - [[Invesco]] — commodities strategy
+- [[Lyn Alden]] — three-pillar stagflation portfolio (profitable equities + commodities/producers/hard monies + cash-equivalents). 60/40 has "no answer for stagflationary conditions with shortages in energy and raw materials." See [[Lyn Alden#Portfolio positioning|Lyn Alden § Portfolio positioning]]
 
 ### Cross-vault
 - [Risk Parity: Correlation Regimes](obsidian://open?vault=Risk%20Parity&file=03%20-%20Risk%20Measures%2FCorrelation%20Regimes) — framework for correlation breakdowns, regime detection code, historical extremes table

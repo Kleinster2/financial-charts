@@ -83,9 +83,13 @@ AI labs entering security directly, threatening to commoditize the detection lay
 |-------|------|--------|
 | **[[Claude Code Security]]** | Feb 20, 2026 | [[Anthropic]]'s AI vulnerability scanner. Opus 4.6 found 500+ bugs undetected for decades. Reasons about code contextually vs. pattern matching. Free for open-source. |
 | **[[Aardvark]]** | Oct 2025 | [[OpenAI]]'s autonomous vulnerability hunter. |
-| **Sector selloff** | Feb 20, 2026 | OKTA -9.2%, NET -8.1%, CRWD -8.0%, S -7.5% despite broader market rising. |
+| **Sector selloff #1** | Feb 20, 2026 | OKTA -9.2%, NET -8.1%, CRWD -8.0%, S -7.5% despite broader market rising. |
+| **[[Claude Mythos]] leak** | Mar 27, 2026 | [[Anthropic]]'s next-gen Capybara-tier model leaked via misconfigured CMS. Internal docs describe "step change" in cybersecurity capability — model can rapidly identify and exploit software vulnerabilities. |
+| **Sector selloff #2** | Mar 27, 2026 | CRWD -7%, PANW -6%, ZS -4.5%, OKTA -3%, S -3%, FTNT -3%. Market logic: if AI finds vulnerabilities at scale, incumbents face both a more dangerous threat landscape and disruption by AI-native alternatives. |
 
 See [[AI cybersecurity disruption basket]] for the full selloff breakdown and bear/bull cases.
+
+The Feb and Mar selloffs reveal a pattern: each step-function in AI capability — first a vulnerability scanner ([[Claude Code Security]]), now a model that can autonomously find *and exploit* vulnerabilities ([[Claude Mythos]]) — triggers a fresh repricing of incumbent cyber stocks. The question is whether the sector's structural demand tailwind (AI amplifies attackers → more spend needed) can offset the disruption risk (AI labs building the tools themselves).
 
 **Net read:** AI is both the disease and the cure. Spending *must* rise (bullish TAM), but it may flow to AI-native tools rather than legacy vendors (bearish for incumbents without AI integration).
 
@@ -136,7 +140,7 @@ Subscription/recurring = high visibility.
 | **Microsoft bundling** | Pricing pressure |
 | **Economic slowdown** | IT budget cuts |
 | **Breach at vendor** | Reputation (see CrowdStrike outage) |
-| **AI labs entering security** | [[Claude Code Security]], [[Aardvark]] — commoditize detection layer |
+| **AI labs entering security** | [[Claude Code Security]], [[Aardvark]], [[Claude Mythos]] — commoditize detection layer; Mythos escalates from scanning to autonomous exploitation |
 | **AI-accelerated attacks** | Faster breach cycles force faster vendor response or lose relevance |
 
 ---
@@ -152,6 +156,8 @@ Subscription/recurring = high visibility.
 - [[AI workflow disruption basket]] — sibling basket (SaaS disruption)
 - [[Claude Code Security]] — Anthropic's AI vulnerability scanner (Feb 2026 catalyst)
 - [[Aardvark]] — OpenAI's autonomous vulnerability hunter
+- [[Claude Mythos]] — Anthropic's Capybara-tier model, leaked Mar 2026 (cybersecurity selloff catalyst)
+- [[OpenAI Spud]] — OpenAI's next-gen model, competing announcement same week
 - [[Cybersecurity consolidation]] — sector M&A dynamics
 - [[Zero trust]] — architectural trend
 - [[Identity and Access Management]] — subsector
@@ -161,4 +167,7 @@ Subscription/recurring = high visibility.
 - Bloomberg, "Hackers Used AI to Breach 600 Firewalls in Weeks, Amazon Says" (Feb 20, 2026)
 - Sysdig, "Attackers Used AI to Breach an AWS Environment in 8 Minutes" (Feb 2026)
 
-*Updated 2026-02-21*
+- Fortune, 2026-03-26: "Anthropic 'Mythos' AI model representing 'step change' in power revealed in data leak"
+- Investing.com, 2026-03-27: "Cybersecurity stocks plunge as Claude Mythos leak sparks AI fear"
+
+*Updated 2026-03-27*

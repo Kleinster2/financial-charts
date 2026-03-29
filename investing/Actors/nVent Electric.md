@@ -123,7 +123,11 @@ Stock near 52-week highs (~$117 vs. $42 low).
 
 ---
 
-*Created 2026-02-01*
+## March 26 basket selling (not named in HVAC lawsuit)
+
+NVT -6.7% (-2.6σ) on March 26 — NOT named in [[2026 HVAC antitrust lawsuit]], caught in basket selling. Potential dislocation.
+
+*Created 2026-02-01. Updated 2026-03-27.*
 
 ---
 
@@ -135,3 +139,4 @@ Stock near 52-week highs (~$117 vs. $42 low).
 - [[Schneider Electric]] — competitor (broad)
 - [[Hyperscaler capex]] — demand driver
 - [[Thermal limits]] — liquid cooling driver
+- [[2026 HVAC antitrust lawsuit]] — NOT named, caught in basket selling (-6.7% / -2.6σ)

@@ -131,7 +131,11 @@ Spun out of United Technologies in 2020 alongside [[Otis]]. Named after Willis C
 
 ---
 
-*Created 2026-02-01*
+## Antitrust risk (March 2026)
+
+Named defendant in [[2026 HVAC antitrust lawsuit]]. CARR -7.7% (-4.0σ) on March 26 — largest sigma move in the HVAC cluster.
+
+*Created 2026-02-01. Updated 2026-03-27.*
 
 ---
 
@@ -144,3 +148,4 @@ Spun out of United Technologies in 2020 alongside [[Otis]]. Named after Willis C
 - [[Johnson Controls]] — competitor (buildings)
 - [[Hyperscaler capex]] — demand driver
 - [[Thermal limits]] — problem being solved
+- [[2026 HVAC antitrust lawsuit]] — named defendant, -7.7% / -4.0σ on March 26

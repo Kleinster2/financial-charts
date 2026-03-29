@@ -230,6 +230,7 @@ Powell on succession (Mar 19 presser): expects to remain as chair temporarily if
 - [[Risk on risk off]] — Fed as regime driver
 
 ### Macro
+- [[Lyn Alden]] — "A Flywheel of Chaos" (Mar 22): Fed balance sheet up $120B from Dec low (~$420B/yr annualized pace, ~6% of base). Still "gradual print" — big print threshold is $2T+ from $6.5T starting base. QE comparison: QE1 140%, QE2 25%, QE3 50%, QE4 115%, current 6%
 - [[Gold]] — safe haven, independence barometer
 - [[Treasury]] — fiscal counterpart
 - [[Credit markets]] — Fed policy transmission

@@ -88,6 +88,17 @@ CCL trades as a core Industrials name (XLI r = 0.76).
 
 ---
 
+## Q1 FY2026 earnings (March 27)
+
+| Metric | Estimate | Actual |
+|--------|----------|--------|
+| EPS (GAAP) | $0.18 | $0.31 (beat 63%) |
+| Revenue | $6.14B | $6.33B (beat 3%) |
+
+Stock -2% despite the beat — fuel cost fears dominating. [[Carnival]] is the only major cruise line that does not hedge fuel costs. Brent near $108/bbl from the [[Strait of Hormuz]] closure; fuel is ~8% of net revenues, and a 10% move in fuel prices impacts quarterly net income by ~$37M. CCL had dropped ~25% since late February on Iran fuel/travel impact. Net yields guided up just 1.6% YoY in constant currency for Q1 — sharp deceleration from 5.4% in Q4 2025.
+
+[[Bank of America]] cut forecasts ahead of the report: -$650M EBITDA, -$0.47 EPS from fuel costs. [[Barclays]] trimmed target to $36 (Overweight), [[Truist]] cut to $30 (Hold).
+
 ## Financials
 
 | Metric | Value |

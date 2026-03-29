@@ -107,6 +107,14 @@ First major external AI partner integration. Gives Perplexity access to 943M MAU
 
 ---
 
+## EU DSA investigation (March 26, 2026)
+
+The European Commission opened a formal [[Digital Services Act]] investigation into Snapchat — the first DSA probe of the platform. Five focus areas: age assurances (self-disclosure of being over 13 deemed "insufficient"), grooming and recruitment of minors, inadequate default account settings, dissemination of info on illegal drugs, and illegal content reporting. Penalties could reach 6% of global turnover or a ban. Investigation followed a review of risk assessments from 2023-2025. SNAP -10.69% to $4.01 on the day.
+
+Separately, NM AG [[Raúl Torrez]]'s child-exploitation suit against Snap (filed 2024) is in discovery, using the same design-liability strategy that bypassed [[Section 230]] in the [[Meta]] case and produced a $375M verdict. See [[2026 social media liability crisis]].
+
+---
+
 ## Recent developments
 
 **Jan 2026:**

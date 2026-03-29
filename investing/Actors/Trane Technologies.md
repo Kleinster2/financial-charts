@@ -120,7 +120,11 @@ Gives Trane direct-to-chip capabilities to complement air-cooled portfolio. Crit
 
 ---
 
-*Created 2026-02-01*
+## Antitrust risk (March 2026)
+
+Named defendant in [[2026 HVAC antitrust lawsuit]]. TT -6.2% (-3.0σ) on March 26.
+
+*Created 2026-02-01. Updated 2026-03-27.*
 
 ---
 
@@ -134,3 +138,4 @@ Gives Trane direct-to-chip capabilities to complement air-cooled portfolio. Crit
 - [[NVIDIA]] — customer (AI Factory reference)
 - [[Hyperscaler capex]] — demand driver
 - [[Thermal limits]] — problem being solved
+- [[2026 HVAC antitrust lawsuit]] — named defendant, -6.2% / -3.0σ on March 26

@@ -70,15 +70,22 @@ Jet fuel prices surged to $150-200/bbl (from $85-90 pre-conflict). US Gulf Coast
 
 ### Hedging exposure
 
-Hedging practices vary widely across the global airline sector and are limited in Asia ([[Bloomberg Intelligence]]):
+For the general framework on airline fuel hedging — instruments, benchmark choice, basis risk, rolling dynamics — see [[Hedging#Airline fuel hedging]].
 
-| Carrier | Hedging status |
-|---------|---------------|
-| [[Cathay Pacific]] | ~30% of near-term fuel consumption hedged |
-| China's Big Three (Air China, China Eastern, China Southern) | Most exposed to fuel-price swings |
-| [[IndiGo]] | Most exposed to fuel-price swings |
+Crisis-specific hedging status as of March 2026:
 
-China's Big Three and IndiGo are among the carriers with the greatest vulnerability to sustained high fuel prices.
+| Carrier | Hedge coverage | Benchmark | Crisis exposure |
+|---------|---------------|-----------|-----------------|
+| [[Ryanair]] | 70-80% | Jet fuel (rolling 12-month) | Well covered through early 2027 |
+| [[EasyJet]] | 70-80% | Jet fuel (rolling 12-month) | Well covered through early 2027 |
+| [[Cathay Pacific]] | ~30% | Crude oil (not jet fuel) | Basis risk: crack spread blew out ~2x, hedge underperforming |
+| [[Wizz Air]] | Low | — | Heavily exposed; recent entrant, weak hedging discipline |
+| China Big Three | Minimal | — | Most exposed to fuel-price swings ([[Bloomberg Intelligence]]) |
+| [[IndiGo]] | Minimal | — | Most exposed to fuel-price swings |
+
+Source: Bloomberg Intelligence; [[Adam Tooze]] (Columbia, [[Foreign Policy]] "Ones and Tooze," March 27).
+
+The delayed risk: with jet fuel at $150-200/bbl and volatility elevated, no carriers are taking out new 12-month hedges. Well-covered airlines face a coverage cliff in 2027 if hedges expire without renewal.
 
 ---
 
@@ -156,6 +163,7 @@ Thousands of passengers were stranded in the early days. Social media filled wit
 
 ## Related
 
+- [[Hedging#Airline fuel hedging]] — general framework: instruments, basis risk, rolling dynamics
 - [[2026 Iran conflict market impact]] — hub note
 - [[Iran conflict economic disruption]] — oil, LNG, jet fuel surge
 - [[Iran conflict long-short basket]] — thesis (airlines are short leg)
@@ -165,8 +173,11 @@ Thousands of passengers were stranded in the early days. Social media filled wit
 - [[Emirates]], [[Qatar Airways]], [[Etihad Airways]] — Gulf carriers (existential disruption)
 - [[British Airways]], [[Deutsche Lufthansa]], [[Air France-KLM]] — European beneficiaries
 - [[Air India]], [[Cathay Pacific]] — Asian beneficiaries
+- [[Ryanair]], [[EasyJet]] — 70-80% hedged, best positioned European budget carriers
+- [[Wizz Air]] — heavily exposed, weak hedging discipline
+- [[Adam Tooze]] — hedging analysis, crack spread divergence (Mar 27)
 
 ---
 
 *Source: Bloomberg, "Iran War Exposes the Fragility of Modern Air Travel," March 12, 2026*
-*Created 2026-03-12*
+*Created 2026-03-12. Updated 2026-03-28 — European hedging data, crack spread divergence (Tooze).*

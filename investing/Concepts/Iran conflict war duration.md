@@ -76,6 +76,25 @@ The Pentagon's $200B supplemental request cuts both ways: it signals duration co
 
 ---
 
+## Saudi economic incentive for prolonged conflict (March 26)
+
+[[Robin J. Brooks]] (Brookings, ex-Goldman chief FX strategist) published an analysis arguing [[Saudi Arabia]] benefits economically from continued conflict. WSJ reported the Saudis aren't happy with US peace overtures — stated reason: premature peace leaves Iran dangerous. Brooks adds a simpler explanation: the price-volume tradeoff favors war.
+
+The [[East-West Pipeline]] to [[Yanbu]] lets Saudi Arabia partially bypass the [[Strait of Hormuz]] disruption. Brooks's calculation:
+
+| Scenario | Brent | Saudi exports | Annual revenue |
+|----------|-------|---------------|----------------|
+| Pre-war | $60 | 7 mb/d | ~$150B |
+| Status quo (war) | $110 | 5 mb/d | ~$200B |
+
+That's a ~$50B windfall, or ~5% of Saudi GDP (~$1T). At $100 Brent, the windfall shrinks to ~3%. Brent would need to fall to $80 for Saudi to break even on revenues at 5 mb/d. Brooks: "more war for longer suits the Saudis just fine."
+
+Note: Brooks assumes 5 mb/d via Yanbu, but the [[East-West Pipeline]] note documents a port loading bottleneck at ~3 mb/d with a peak of 4.65 mb/d achieved in March 2026. At 4 mb/d (more realistic), the revenue at $110 is ~$160B — still above the $150B pre-war baseline, meaning the incentive holds even with conservative volumes. The windfall is smaller (~$10B or 1% of GDP) but directionally the same.
+
+*Source: [Robin Brooks, Mar 26](https://robinjbrooks.substack.com/p/do-the-saudis-want-this-war-to-end)*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note
@@ -88,6 +107,8 @@ The Pentagon's $200B supplemental request cuts both ways: it signals duration co
 - [[Gideon Rachman]] — FT columnist
 - [[Mojtaba Khamenei]] — successor Supreme Leader
 - [[Energy Aspects]] — Hormuz reopening timeline
+- [[Lyn Alden]] — "A Flywheel of Chaos" (Mar 22): fiscal cascade (energy → Treasuries → stagflation → tax receipts) means market effects persist beyond any ceasefire. Even a short war leaves second-order fiscal momentum.
+- [[Robin J. Brooks]] — Saudi windfall analysis (Mar 26): price-volume tradeoff favors prolonged conflict
 
 ### Cross-vault
 - [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — military timeline, diplomatic responses

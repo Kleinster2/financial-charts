@@ -11,6 +11,8 @@ aliases: [S]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
+2026-03-27: -3% on [[Claude Mythos]] leak — [[Anthropic]]'s Capybara-tier model flagged for autonomous vulnerability exploitation capability. See [[Cybersecurity]].
+
 | Software | IGV | 0.68 |
 | [[Consumer]] | XLY | 0.58 |
 | Technology | XLK | 0.55 |

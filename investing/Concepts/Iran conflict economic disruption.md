@@ -18,6 +18,7 @@ Economic disruption from the [[Operation Epic Fury|2026 Iran conflict]] — oil,
 | [[Iran conflict Gulf infrastructure]] | Ras Tanura, Gulf facility attacks, Iraq/Kuwait force majeures, pipeline bypass, production shutins |
 | [[Iran conflict European impact]] | European gas surge, electricity price divergence, naval refusal, BASF passthrough |
 | [[Iran conflict insurance impact]] | Marine war risk, Lloyd's/DFC, premium evolution, post-ceasefire lag |
+| [[Iran conflict country responses]] | SPR releases, export bans, sanctions waivers, demand destruction, diplomatic positioning — country-by-country |
 | [[Iran conflict airline disruption]] | Airline route cuts, jet fuel, air cargo grounding |
 | [[Iran conflict defense repricing]] | Defense equity moves, munitions burn rate |
 | [[Iran conflict FX dynamics]] | Currency moves, EM exposure |
@@ -175,6 +176,30 @@ The structural trap: US LNG terminals at max capacity. The surplus is physically
 
 ---
 
+## US economic impact — distributional, not aggregate (Tooze, Mar 27)
+
+[[Adam Tooze]] (Columbia, [[Foreign Policy]] "Ones and Tooze" podcast, March 27) framed the US impact as fundamentally distributional rather than aggregate. The US is a substantial fossil fuel producer and exporter, so GDP may in fact benefit marginally — unlike oil-importing economies where the shock is unambiguous (Europe 2022-23: 2-3% GDP hit from the Russia-Ukraine energy spike; poor import-dependent countries face outright shutdowns, as seen in [[Pakistan]] and parts of [[South Asia|Asia]]).
+
+The distributional split is stark: American oil producers and exporters win while consumers lose. The net effect is probably negative — households absorb the cost without the sector receiving durable stimulus. The [[Trump II|Trump]] administration will not deliberately sustain high oil prices because the political cost outweighs the industry benefit. "That's Trump windbaggery. That's not actual policy."
+
+Tooze flagged "truly scandalous action" in the oil futures market around Trump [[Truth Social]] posts and announcements — "quite clear that the Trump administration is leaking to insiders who are placing gigantic bets in the markets." Houston itself is not celebrating: short-term windfalls do not constitute a basis for long-term capital investment, especially given policy unpredictability.
+
+The [[Michigan Consumer Sentiment]] index, one of the most influential gauges, is "heavily swayed by the pump price of gas" — Tooze argued it over-samples men who know petrol prices but little else, giving energy an outsized impact on the headline number relative to its actual share of household budgets (~1.5% of consumption at $100/bbl per [[Bloomberg]] Economics data).
+
+---
+
+## Green transition acceleration — J-curve (Tooze, Mar 27)
+
+The crisis is not an advertisement for fossil fuel reliance. The J-curve effect applies: in the short run, fossil fuels dominate discourse and policy as prices surge, and it doesn't look like a world in transition. But in the medium term, the shock accelerates the shift toward electrification — and markets are already pricing it.
+
+The biggest equity gains from the crisis have not gone to oil majors (despite [[Chevron]] benefiting from low Gulf exposure) but to Chinese green energy champions — above all the battery makers. [[CATL]], the world's largest EV battery producer, saw tens of billions of dollars added to its market cap. [[BYD]] (both car maker and battery producer) similarly gained. Battery makers are "the hub of the green electric transition" because they sit at the intersection of EVs, grid storage backing solar, and industrial electrification.
+
+Tooze, speaking from Beijing (March 27), witnessed "a combined audience of Chinese and Arabs applauding the future of their collaboration" — [[Saudi Arabia]] sourcing Chinese solar panels and batteries for green hydrogen, green steel, and desalination programs. The [[UAE]] has similarly ambitious green electricity buildout. [[Texas]] — the largest renewable energy investor among US states, with the biggest wind and solar program — is the domestic analogue: during the daytime, its electric grid is increasingly dominated by renewables.
+
+This undermines the "metabolic cold war" framework (Neils Gilman, [[Foreign Policy]], March 2026) positing a petro-state vs. electro-state bloc division. Tooze's critique: the concept of a self-sufficient petro-state — one that can shape domestic demand adequate to its supply — is particular to the [[United States]]. [[Russia]] produces far too much for domestic absorption and is reduced to finding low-income discount buyers. The Gulf states produce even more relative to their populations. Neither can project a "fossil fuel forever" world through its own say-so. The putative coalition of petro-states is incoherent because its members' interests diverge: the Gulf states are rationally diversifying toward green technology, not entrenching fossil dependence.
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note
@@ -191,8 +216,12 @@ The structural trap: US LNG terminals at max capacity. The surplus is physically
 - [[Saudi Aramco]] — Ras Tanura, Yanbu bypass
 - [[Helima Croft]] — RBC Capital framing
 - [[Jeff Currie]] — Carlyle "regime change" framework
-- [[Adam Tooze]] — "Wile E. Coyote" market positioning
+- [[Adam Tooze]] — "Wile E. Coyote" market positioning; US distributional impact, green transition J-curve, petro-state critique (Mar 27)
+- [[CATL]] — battery maker, major beneficiary of green transition acceleration
+- [[BYD]] — EV/battery maker, green transition beneficiary
+- [[Michigan Consumer Sentiment]] — oversensitive to gas prices per Tooze
+- [[Lyn Alden]] — "A Flywheel of Chaos" (Mar 22): toxic combo cascade where sustained energy prices → Treasury stress → stagflation → tax receipt collapse could push the Fed from gradual (~$420B/yr) to big print ($2T+) later in 2026
 
 ---
 
-*Created 2026-03-03. Restructured 2026-03-21 — child notes split out.*
+*Created 2026-03-03. Restructured 2026-03-21 — child notes split out. Updated 2026-03-28 — Tooze US distributional impact, green transition J-curve, petro-state critique.*

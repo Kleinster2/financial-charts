@@ -670,6 +670,58 @@ Investment framing: The [[Horizontal vs vertical AI]] debate is now the central 
 
 ---
 
+## Claude Mythos / Capybara — data leak reveals next frontier model (March 26-28, 2026)
+
+Fortune reported (Mar 26) that Anthropic is developing and testing a new AI model more capable than any it has previously released. The model's existence was revealed through a data leak — an unsecured, publicly searchable data cache containing ~3,000 unpublished assets from Anthropic's content management system.
+
+### What was leaked
+
+A draft blog post described the model as "Claude Mythos" — "by far the most powerful AI model we've ever developed." The same post introduced a new model tier called "Capybara," described as "larger and more intelligent than our Opus models — which were, until now, our most powerful." Mythos and Capybara appear to be the same underlying model (Capybara is the tier name, Mythos the model name).
+
+| Detail | Value |
+|--------|-------|
+| Model name | Claude Mythos |
+| Tier | Capybara (new tier above Opus) |
+| Status | Training complete, early access testing with select customers |
+| Cost | "Expensive to run" — not ready for general release |
+| Capabilities | "Dramatically higher scores" than Opus 4.6 on coding, academic reasoning, cybersecurity |
+| Cybersecurity | "Currently far ahead of any other AI model in cyber capabilities" — unprecedented risks |
+| Release strategy | Early access to cyber defense organizations first |
+
+### Cybersecurity concern
+
+The draft blog stated Mythos "presages an upcoming wave of models that can exploit vulnerabilities in ways that far outpace the efforts of defenders." Anthropic plans to release early access specifically to security organizations — giving defenders a head start against the "impending wave of AI-driven exploits." This follows the pattern from Opus 4.6 (Feb 2026), which could surface previously unknown vulnerabilities in production codebases, and [[OpenAI]]'s GPT-5.3-Codex (Feb 2026), the first model OpenAI classified as "high capability" for cybersecurity under its Preparedness Framework.
+
+### The data leak itself
+
+The leak occurred via Anthropic's off-the-shelf CMS, which defaults to public access for uploaded assets. ~3,000 unpublished assets were publicly discoverable, including the draft blog, internal documents, and details of an invite-only CEO summit in the UK at an 18th-century English manor — targeting "Europe's most influential business leaders," with [[Dario Amodei]] attending and unreleased Claude capabilities being demonstrated. Anthropic attributed the leak to "human error" and removed public access after Fortune's notification.
+
+### Competitive context
+
+[[OpenAI]] is simultaneously trying to release its own next flagship model, codenamed "Spud," after completing pretraining. The Mythos/Spud race mirrors the Opus 4.6 / GPT-5.3 simultaneous releases in February.
+
+*Sources: Fortune (Mar 26, "Exclusive: Anthropic 'Mythos' AI model representing 'step change' in power revealed in data leak"); The Decoder (Mar 27); CoinDesk (Mar 28); Firstpost (Mar 27)*
+
+---
+
+## Q4 2026 IPO discussion (March 2026)
+
+Anthropic is in discussions about an initial public offering that could happen as soon as Q4 2026. Bankers vying to take the company public have said it could raise as much as **$60B** — which would be the second-largest IPO ever after [[SpaceX]]'s planned ~$75B raise.
+
+### AI lab fundraising race
+
+| Company | Latest round | Valuation | IPO timeline |
+|---------|------------|-----------|-------------|
+| [[SpaceX]] | — | $1.25T+ | June 2026 ($75B raise) |
+| [[OpenAI]] | $120B+ total raised (Mar 2026) | ~$300B | Late 2026-2027 |
+| **Anthropic** | $57B+ total raised | $380B | **Q4 2026 ($60B raise)** |
+
+[[OpenAI]] is simultaneously raising ~$10B more from [[Andreessen Horowitz]], [[MGX]], [[D.E. Shaw Ventures]], [[TPG]], and [[T. Rowe Price]], bringing total round to $120B+. OpenAI is also sweetening PE pitches with 17.5% guaranteed minimum preferred equity returns — significantly higher than typical preferred instruments — and early access to newest models. Anthropic's PE deal offered no such guaranteed returns.
+
+*Sources: Sophic Capital (Mar 28); Bloomberg (Mar 25-27)*
+
+---
+
 ## February 2026: India expansion
 
 At the [[India AI Impact Summit 2026]] (Feb 16-20), [[Anthropic]] announced its first [[India]] office in Bengaluru. [[India]] is [[Claude]]'s 2nd largest market after the US. [[Anthropic]] is partnering with [[Infosys]] to deploy [[Claude]] and [[Claude Code]] for enterprise AI agents - starting in the telecom sector - with a dedicated Anthropic Center of Excellence inside [[Infosys]].
@@ -730,3 +782,5 @@ At the [[India AI Impact Summit 2026]] (Feb 16-20), [[Anthropic]] announced its 
 - [[Model distillation]] - concept (technique, IP landscape, moat implications)
 - [[February 2026 AI Disruption Cascade]] - both caused it (Cowork Plugins) and reversed it (enterprise partnerships)
 - [[Gambit Security]] - discovered Claude Mexico hack (Feb 2026, Unit 8200 veterans)
+- [[Claude Mythos]] - next frontier model (Capybara tier), revealed via data leak Mar 26
+- [[OpenAI]] - competing with "Spud" model; raising $120B+ total; sweetening PE deals at 17.5% preferred returns

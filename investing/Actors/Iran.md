@@ -266,7 +266,23 @@ Source: MEI panel, March 20 2026 — Mulroy/Connelly
 
 ---
 
+## Missile program
+
+See [[Iranian missile arsenal]] for the full program analysis. Key facts: the [[IRGC]] Aerospace Force manages 3,000+ missiles across 16+ types. The longest-range confirmed system is the [[Khorramshahr]] (2,000 km at full payload, ~3,000 km with lightened warhead). The critical constraint is the [[range-payload tradeoff]] -- a first-generation nuclear device (~750-1,000 kg) limits the Khorramshahr to ~2,000-2,500 km, well short of [[Diego Garcia]] (~3,700 km) or [[Europe]]. The [[Qaem-100]] solid-fuel space launch vehicle offers a potential pathway to 3,000-4,000 km range with 1,000 kg payload, but its weaponization is unconfirmed. On March 21, 2026, Iran fired two IRBMs at [[Diego Garcia]] -- one broke up mid-flight, the other was intercepted by an [[SM-3]]. See [[Diego Garcia attack 2026]].
+
+[[Israel]]i strikes in October 2024 destroyed 12-20 planetary mixers for solid rocket fuel production. Post-June 2025 arsenal estimated at ~1,500 missiles and 200 launchers.
+
+---
+
 ## Related
+
+### Missile systems
+- [[Iranian missile arsenal]] -- full program analysis
+- [[Khorramshahr]] -- longest-range ballistic missile
+- [[Qaem-100]] -- SLV with weapon conversion potential
+- [[SM-3]] -- US interceptor that defeated Diego Garcia attack
+- [[Diego Garcia attack 2026]] -- March 21 attack on US/UK base
+- [[range-payload tradeoff]] -- physics constraint on nuclear delivery
 
 ### Elite wealth & oil networks
 - [[Mojtaba Khamenei]] — Supreme Leader's son, offshore billions

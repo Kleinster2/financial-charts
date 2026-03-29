@@ -18,6 +18,8 @@ Palo Alto Networks — Enterprise cybersecurity leader. Platform consolidation s
 
 PANW trades as a core Software name (IGV r = 0.78).
 
+2026-03-27: -6% on [[Claude Mythos]] leak — [[Anthropic]]'s Capybara-tier model flagged for autonomous vulnerability exploitation capability. See [[Cybersecurity]].
+
 ---
 
 ## Why Palo Alto matters

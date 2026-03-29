@@ -33,10 +33,22 @@ Follow-up to a podcast with [[Paul Krugman]]. Comprehensive price comparison of 
 
 *Source: [Q&A on the Energy Shock](https://robinjbrooks.substack.com/p/q-and-a-on-the-energy-shock), March 23, 2026*
 
+### "Do the Saudis want this war to end?" — Saudi windfall analysis (March 26)
+
+WSJ reports [[Saudi Arabia]] isn't happy with US peace overtures toward [[Iran]]. Brooks adds an economic explanation: the price-volume tradeoff favors continued conflict. Pre-war Saudi exports of 7 mb/d at $60 Brent = ~$150B/yr. Status quo: ~5 mb/d via [[East-West Pipeline]]/[[Yanbu]] at $110 Brent = ~$200B/yr — a ~$50B windfall (~5% of GDP). Brent would need to fall to $80 for Saudi to break even at reduced volumes. Conclusion: Saudi economic self-interest aligns with prolonged conflict.
+
+Vault note: Brooks assumes 5 mb/d via Yanbu, but the [[East-West Pipeline]] note documents a port loading bottleneck at ~3 mb/d (peak 4.65 mb/d). At realistic 4 mb/d, the windfall is smaller (~$10B) but directionally intact.
+
+*Source: [Do the Saudis want this war to end?](https://robinjbrooks.substack.com/p/do-the-saudis-want-this-war-to-end), March 26, 2026*
+
 ## Related
 
 - [[2026 Iran conflict market impact]]
 - [[Strait of Hormuz]]
+- [[Iran conflict war duration]] — Saudi windfall section
+- [[Iran conflict oil price timeline]]
+- [[East-West Pipeline]] — Yanbu bypass economics
+- [[Saudi Arabia]]
 
 ### Cross-vault
 - [Geopolitics: Robin J. Brooks](obsidian://open?vault=geopolitics&file=Analysts%2FRobin%20J.%20Brooks) — macro/energy analysis profile

@@ -28,6 +28,8 @@ For full cross-asset analysis, see [[2026 Iran conflict market impact]]. Key mov
 | [[Drones]] subsector | +15-25% | [[AeroVironment]], [[Kratos Defense]] |
 | Shipping | -12% | Strait closure, rerouting costs |
 
+On March 21, [[Iran]] fired two intermediate-range ballistic missiles at [[Diego Garcia]] (~3,700 km), the farthest-range strike Iran had ever attempted. One broke up mid-flight; the other was intercepted by an [[SM-3]]. Neither reached the target. The attack demonstrated Iran's attempt to break its ~2,000 km operational range ceiling but confirmed the capability remains unreliable. See [[Diego Garcia attack 2026]] and [[Iranian missile arsenal]].
+
 First confirmed combat use of [[LUCAS]] one-way attack drone — Task Force Scorpion Strike (SOCCENT) launched ground-based LUCAS against IRGC command/control, air defense, and [[Shahed-136]] manufacturing sites. The $35,000 drone, reverse-engineered from Iran's own Shahed by [[SpektreWorks]], went from public debut to combat in 43 weeks.
 
 ## Related

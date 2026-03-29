@@ -27,6 +27,12 @@ Google Research unveiled [[TurboQuant]] on March 25, 2026 — a KV-cache compres
 
 ---
 
+## Social media liability (March 2026)
+
+An LA Superior Court jury (Mar 26) found [[Alphabet|Google]]'s [[YouTube]] liable alongside [[Meta]]'s [[Instagram]] for causing mental health harms (depression) to a minor through negligent platform design. Combined damages: $6M (Google 30%). Alphabet will appeal. This is a bellwether case for 2,400+ consolidated lawsuits in N.D. California federal court expected to go to trial in H2 2026. GOOGL -3.45% on the day, compounding the broader Nasdaq selloff. See [[2026 social media liability crisis]].
+
+---
+
 ## Related
 
 - [[Google]] — core subsidiary

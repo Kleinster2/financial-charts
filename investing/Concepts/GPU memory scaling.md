@@ -92,6 +92,32 @@ HBM is ~5x ASP vs commodity DRAM. A B200 with 192GB HBM3e has **$2,000-3,000+ of
 
 ---
 
+## Inference serving math
+
+The memory required to serve inference scales with three components: model weights (fixed per instance), KV cache (scales with users × context length), and activations (temporary, per forward pass). KV cache dominates at scale.
+
+For a 70B-parameter model with grouped query attention (8 KV heads, 80 layers, 128 head dimension, FP16):
+
+| Component | Per token | Per user (128K context) | Formula |
+|-----------|-----------|------------------------|---------|
+| KV per layer | 4KB | 512MB | 2 (K+V) × 8 heads × 128 dim × 2 bytes |
+| KV all layers | 320KB | 40GB | 80 layers × 4KB |
+| Model weights | — | ~140GB total (sharded) | 70B × 2 bytes (FP16) |
+
+A single NVL72 rack has 13.4TB of [[HBM]] across 72 [[B200]] GPUs (source: Bloomberg, Feb 2026). After model weights, ~13.3TB remains for KV cache. At 40GB per user: ~330 concurrent 128K-context sessions per rack.
+
+| Quantization | KV per user (128K) | Users per NVL72 |
+|-------------|-------------------|-----------------|
+| FP16 | ~40GB | ~330 |
+| INT8 | ~20GB | ~660 |
+| INT4 | ~10GB | ~1,300 |
+
+The math scales linearly: double the context length, halve the users per rack. Double the users, double the racks. There is no architectural trick that breaks this relationship — techniques like PagedAttention ([[vLLM]]) improve utilization and reduce waste, but the fundamental memory-per-token requirement is set by the model architecture.
+
+This is why inference is memory-bound. The compute (matrix multiplications) takes nanoseconds per token during decode. The bottleneck is reading KV cache from HBM — bandwidth, not capacity or compute, gates throughput. See [[Inference economics]] and [[Inference disaggregation]] for the cost implications.
+
+---
+
 ## Investment implication
 
 The [[Long memory]] thesis is built on this trend:

@@ -18,6 +18,8 @@ aliases: [CRWD]
 
 CRWD trades as a core Software name (IGV r = 0.82).
 
+2026-03-27: -7% on [[Claude Mythos]] leak — [[Anthropic]]'s Capybara-tier model flagged for autonomous vulnerability exploitation capability. See [[Cybersecurity]].
+
 ---
 
 ## Why CrowdStrike matters

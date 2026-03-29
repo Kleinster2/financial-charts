@@ -115,6 +115,22 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 
 ---
 
+## Social media liability crisis (March 2026)
+
+Two jury verdicts in one week — the most significant legal setbacks in Meta's history on child safety:
+
+1. New Mexico (Mar 24): Jury found Meta willfully violated state consumer protection law. $375M damages. AG [[Raúl Torrez]] used a design-liability strategy that bypassed [[Section 230]]. Phase 2 bench trial (May 4) will determine if Meta created a public nuisance. Internal evidence: Zuckerberg's 2019 E2E encryption decision for Messenger would have impacted 7.5M CSAM reports to law enforcement.
+
+2. Los Angeles (Mar 26): Jury found Meta and [[Alphabet|Google]]'s YouTube liable for a plaintiff's depression linked to [[Instagram]] and YouTube addiction. $6M combined damages (Meta 70%). Bellwether for 2,400+ consolidated federal cases in N.D. California.
+
+Senator [[Dick Durbin]]: "Big Tech has become Big Tobacco." Stock -7.96% on March 26 (also weighed by AI capex skepticism and Reality Labs layoffs). META down 17% YTD.
+
+Torrez has a separate child-exploitation suit against [[Snap]] in discovery, using the same design-liability theory.
+
+See [[2026 social media liability crisis]] for full details.
+
+---
+
 ## Financials
 
 ### Annual (10 years)

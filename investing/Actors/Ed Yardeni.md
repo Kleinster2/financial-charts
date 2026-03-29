@@ -74,6 +74,20 @@ Weekly webcast with Eric Wallerstein. Tone noticeably moderated from Mar 9: "The
 
 ---
 
+## March 26, 2026 — "None and done" + stagflation bind (CNBC x2)
+
+Two CNBC appearances on the same day:
+
+1. "None and done is what we'll see from the Fed this year" (*The Exchange*): Yardeni predicts zero rate cuts in 2026 — the inflation battle is not over with oil sustaining above $100.
+
+2. "The Fed could struggle if the US enters stagflation due to Iran war": Fed faces a dual-mandate bind if stagflation materializes — inflation rising from oil while growth slows. Connects to his March 9 meltdown scenario (35% probability) but framed more specifically around the Fed's impossible position.
+
+The "none and done" call is a harder line than his March 18 tone moderation. Aligns with [[Lyn Alden]]'s assessment that the Fed is caught in a [[Stagflation|stagflation trap]] — both mandates challenged simultaneously.
+
+*Source: CNBC, March 26 2026*
+
+---
+
 ## AI fatigue call (Jan 2026)
 
 "I call it 'AI fatigue.' I'm tired of it and I suspect a lot of other people are wary of the whole issue."

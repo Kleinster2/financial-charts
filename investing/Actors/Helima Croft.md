@@ -53,6 +53,22 @@ Croft's core argument through the crisis has three pillars:
 
 3. Reserve releases are palliative. The [[IEA]]'s 400M barrel release and US [[Strategic Petroleum Reserve|SPR]] drawdowns address symptoms, not the structural problem. Only reopening the Strait resolves the crisis.
 
+## Extended conflict commentary (Mar 19-26, 2026)
+
+Croft escalated her warning through late March as the war entered its fourth week with no off-ramp visible.
+
+CNBC (Mar 19): Energy markets need to look at actions, not words. Administration officials spending "considerable manhours" trying to convince markets the disruption will be short-lived, but actions suggest otherwise.
+
+CNBC (Mar 20): "War in Iran looks like it could be an extended duration event."
+
+Bloomberg/Rigzone (Mar 23): "We see little relief for the deepening energy crisis as more energy facilities come under fire. Administration officials have spent considerable manhours working to convey to market participants that the disruption will be short-lived as the war will soon wind down. Yet nothing points to a limited engagement at this juncture."
+
+CNBC Squawk Box (Mar 26): "We have to brace for a potentially extended military operation." Discussed energy market state, Iran war endgame scenarios, and how long it would take to restore production capacity. Key topics: the damage to Iranian energy infrastructure means production restoration will take months-to-years even after a ceasefire — the market is pricing a clean resolution that the physical reality doesn't support.
+
+### Analytical shift
+
+Through March, Croft shifted from "this is unprecedented" (early March) to "this is structurally longer than the market prices" (late March). Her Mar 26 appearance is the most bearish on timeline — the gap between administration rhetoric (short war) and physical evidence (extended damage, no diplomatic progress) has widened rather than narrowed. Aligns with [[Robin J. Brooks]]'s Saudi windfall analysis and [[Jeff Currie]]'s paper-physical disconnect thesis.
+
 ---
 
 ## Related

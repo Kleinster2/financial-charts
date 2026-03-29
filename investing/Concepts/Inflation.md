@@ -151,6 +151,10 @@ German Defense Minister Boris Pistorius: "To make it crystal clear, this war is 
 - [[Economic forecasts]] — inflation projections
 - [[Consumer]] — spending vs saving tradeoff
 
+### Iran conflict (2026)
+- [[Lyn Alden]] — "A Flywheel of Chaos" (Mar 22): Fed caught in stagflation trap where shortages + economic weakness + large deficits challenge both mandates simultaneously. Oil shock → embedded inflation expectations vs. economic weakness = impossible position
+- [[Iran conflict economic disruption]] — energy price transmission driving inflation outlook
+
 ### Assets
 - [[Gold]] — inflation/real rate hedge
 - [[Treasury]] — real yields

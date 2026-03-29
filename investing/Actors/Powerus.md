@@ -40,9 +40,20 @@ Powerus is a drone roll-up with no disclosed revenue, a CEO with no drone indust
 |------|------|------------|
 | CEO & Chairman | Andrew Fox | ~30 years running NYC facilities management company; no prior drone experience |
 | Co-founder | [[Brett Velicovich]] | Former US Army Special Ops intelligence analyst, Delta Force veteran; drone adviser to US & Ukrainian military; Fox News contributor |
+| Executive-in-residence & senior adviser | [[CQ Brown]] | Former Chairman of the Joint Chiefs of Staff; retired Air Force general; fired by Trump Feb 2025 |
 | Interim CEO (AGH) | Matthew J. Saker | Managing the golf-course-to-drone-company transition |
 
 Fox told the WSJ the drone market "is certainly going to grow faster than, say, golf courses are."
+
+### CQ Brown hire (announced Mar 24, 2026)
+
+[[CQ Brown]], the 21st Chairman of the Joint Chiefs of Staff, joined Powerus as executive-in-residence and senior adviser. Trump fired Brown in February 2025, replacing him with Gen. [[Dan Caine]]; Defense Secretary [[Pete Hegseth]] said on Fox News that Brown was "not the right man for the moment." Brown will advise on defense strategy, autonomous systems deployment, and national security partnerships.
+
+Brown (Mar 24): *"The companies that will define the future of American defense are the ones building real capability right now, not waiting for permission."*
+
+[[Brett Velicovich|Velicovich]] (Mar 24): Brown's experience *"means that the operational realities of the battlefield and the strategic vision of U.S. defense leadership are now embedded in everything we build."*
+
+The hire adds a layer to the conflict-of-interest structure: the president's sons are paying a salary to the general the president fired, at a company seeking contracts from the president's Pentagon. Brown's Rolodex and credibility with career military procurement officials is the obvious value — he legitimizes the company in a way that political connections alone cannot.
 
 ---
 

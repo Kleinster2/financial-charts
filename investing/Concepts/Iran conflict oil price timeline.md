@@ -642,6 +642,70 @@ The key test is the **five-day pause expiration** (~Friday March 28). If no deal
 
 ---
 
+## The mid-April oil cliff — paper vs physical disconnect deepens (March 27-29)
+
+The March 27-28 sessions confirmed what the physical market was already screaming: the stopgap measures are losing effectiveness and a supply cliff is approaching.
+
+### March recap — record monthly oil surge
+
+Brent closed at $112.57 on Friday March 28 — up **51%** since the start of March, the biggest monthly gain on record, beating September 1990's +46% after Saddam Hussein invaded Kuwait. WTI gained 48%, its strongest month since May 2020 (Covid). [[BloombergNEF]] estimates **9M barrels/day** knocked off global oil supply by the conflict — nearly double the 4.5-5M bpd loss estimated just days earlier.
+
+| Metric | Mar 28 close | Since war start (Feb 27) |
+|--------|-------------|--------------------------|
+| Brent crude (paper) | $112.57/bbl | +55% (from $72.48) |
+| Brent intra-month high | $119.50/bbl | Highest since June 2022 |
+| WTI crude | ~$100.87/bbl | +48% in March |
+| Dubai physical | $126/bbl | +76% (from ~$72) |
+| Oman crude | $162/bbl | Physical delivery premium |
+| 10Y UST yield | ~4.4% | +50bp since war |
+| VIX | 31.05 | +13.16% on Friday |
+
+### The paper-physical gap
+
+The most important development in the late-March data is the widening gap between paper and physical prices. [[CNBC]] (Mar 28) laid out the divergence:
+
+- Brent futures +36% from Feb 27 through Mar 27
+- Dubai physical +76% over the same period — **more than twice** the paper price move
+- The Dubai price tracks actual physical delivery from Middle East sellers; Brent futures are financial instruments traded on exchanges
+
+Paper prices are being suppressed by what traders call "jawboning" — [[Trump II|Trump]]'s repeated claims of imminent de-escalation push futures lower, even as physical barrels keep getting more expensive. Chevron CEO [[Mike Wirth]] (CERAWeek, Mar 23): "There are very real, physical manifestations of the closure of the [[Strait of Hormuz]] that are working their way around the world." Shell CEO [[Wael Sawan]] (CERAWeek, Mar 25): disruptions that started in South Asia have "moved to Southeast Asia, Northeast Asia and then more so into Europe as we get into April."
+
+### The April cliff — [[BCA Research]] framework
+
+[[Marko Papic]] (BCA Research) published the most concrete timeline for the supply unraveling:
+
+| Period | Oil loss | Why |
+|--------|----------|-----|
+| Now through ~Apr 19 | 4.5-5M bpd | Partially offset by SPR + sanctions waivers |
+| Mid-April onward | **~9-10M bpd** | SPR + Russian/Iranian sanctions waivers exhaust; "the largest loss of crude supply" |
+
+The world will hit an oil cliff in mid-April because:
+1. The 400M barrel SPR release (largest on record) is being consumed
+2. Temporary sanctions waivers on Russian and Iranian oil expire
+3. Gulf producers are shutting in wells because they have no storage — [[Kuwait Petroleum]] CEO Sheikh Nawaf al-Sabah (CERAWeek): "three to four months to return to full production once the war ends"
+4. There is no substitute for reopening the strait. Pipelines ([[East-West Pipeline]], [[Habshan-Fujairah Pipeline]]) carry only a fraction of normal Hormuz volume
+
+### Gold collapse — not a safe haven
+
+Gold failed spectacularly as an inflation hedge. Spot gold fell **~15%** in March — worst month since 2008, fifth-biggest monthly fall in 50 years. Contributing factors:
+- Forced selling to cover losses/margin calls on other positions
+- [[Turkey]] Central Bank sold ~50 tonnes of gold ($3B) to stabilize the lira, cutting reserves to 772 tonnes
+- Risk-off rotation went to cash and energy, not gold
+
+### Bond market stress
+
+UK gilts heading for worst month since the Liz Truss mini-budget (September 2022). 10Y UK yield rose 17% to nearly 5%. Italian 2-year debt worst month since May 2018. Modupe Adegbembo ([[Jefferies]]): European governments are operating from a "much weaker fiscal starting point than in 2022" — meaning "more of the adjustment is likely to fall on demand," which is negative for growth.
+
+### Jawboning losing power
+
+Trump extended the Iran energy infrastructure strike deadline to April 6 — but the market shrugged. The S&P 500 rose 0.5% Tuesday on the extension, then fell 3.4% Wednesday through Friday. Fawad Razaqzada ([[City Index]]): "Markets appear to be placing less weight on White House jawboning and focusing more on the underlying supply risks."
+
+The Dow entered correction territory (10%+ below record high). S&P 500 five-week losing streak — longest since 2022. Markets priced in higher probability of rate hikes instead of cuts.
+
+*Sources: CNBC (Mar 28, "A new oil shock is building"); Guardian (Mar 29, "Oil on track for record monthly surge"); Reuters (Mar 27)*
+
+---
+
 ## Related
 
 - [[Iran conflict economic disruption]] — hub note
@@ -656,12 +720,18 @@ The key test is the **five-day pause expiration** (~Friday March 28). If no deal
 - [[Hormuz Permanent Risk Premium]] — structural thesis
 - [[Indian Oil]], [[Reliance Industries]] — Russian crude tanker diversions
 - [[Vortexa]] — cargo tracking
-- [[Robin J. Brooks]] — near-peak thesis, price elasticity framework
+- [[Robin J. Brooks]] — near-peak thesis, price elasticity framework, Saudi windfall analysis (Mar 26: $50B/yr at $110 Brent vs $60 pre-war, see [[Iran conflict war duration#Saudi economic incentive for prolonged conflict (March 26)]])
 - [[Trump TACO]] — additional price cap mechanism
 - [[Amrita Sen]] — "reverse COVID" framing, three-tier pricing, Brent mispricing
 - [[Energy Aspects]] — Hormuz reopening pushed to end of April
 - [[Nadia Martin Wiggen]] — physical pricing mechanics, $166 Dubai, $100 floor, SPR fatigue, positioning data
 - [[Stellen Capital]] — commodities/shipping hedge fund
+- [[Marko Papic]] — BCA Research, mid-April oil cliff framework (4.5-5M bpd → 9-10M bpd)
+- [[BCA Research]] — supply-loss timeline estimate
+- [[Mike Wirth]] — Chevron CEO, "real physical manifestations" (CERAWeek Mar 23)
+- [[Wael Sawan]] — Shell CEO, disruption moving east-to-west through April
+- [[City Index]] — "markets placing less weight on jawboning"
+- [[BloombergNEF]] — 9M bpd supply loss estimate (Mar 29)
 
 ---
 

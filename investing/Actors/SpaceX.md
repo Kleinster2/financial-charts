@@ -78,9 +78,23 @@ Why the Nasdaq 100 matters for this IPO:
 
 At $1.75T, SpaceX would slot into the Nasdaq 100's top 6 members by market cap — comfortably within the top-40 threshold required by Nasdaq's proposed [[Nasdaq Fast Entry Rule|Fast Entry rule]].
 
-### IPO filing imminent (Mar 25, 2026)
+### IPO filing imminent (Mar 25-28, 2026)
 
 The Information reported on March 25 that SpaceX may file its IPO prospectus as soon as this week. The filing would target raising over $75B — up from earlier estimates of $25-50B — at the $1.75T valuation. This would be the largest IPO in history. The report lifted the entire space sector: [[AST SpaceMobile]] (ASTS) +10.4%, [[Rocket Lab]] (RKLB) +10%, [[Firefly Aerospace]] (FLY) +16%, York Space (YSS) +5%. The filing timeline coincides with NASA's announcement of "Project Ignition," a $20B plan for a semi-permanent moon base, adding to sector euphoria. Combined with the [[xAI]] merger (Feb 2026, $1.25T combined valuation), the prospectus will present SpaceX-xAI as simultaneously a launch company, an internet infrastructure company, a defense contractor, and an AI compute platform.
+
+By March 28, additional structural details emerged:
+
+**Confidential filing**: SpaceX aiming to file a confidential S-1 with the SEC this week or next, formalizing the June 2026 listing target. The filing may show the company losing money after absorbing [[xAI]]'s ~$1B/month burn rate.
+
+**No standard lockup**: SpaceX will not have the standard six-month lockup period. Having raised ~$10B over two decades as a private company, advisers want to prevent a massive share dump. The custom lockup arrangement is still being finalized — unclear whether insiders wait longer or sell earlier than the six-month norm.
+
+**Retail investor allocation >20%**: Musk personally committed to giving individual investors a larger-than-normal allocation. Typical IPOs reserve ~10% for retail; SpaceX's portion may exceed 20%, including smaller investors via [[Robinhood]] and wealthy bank clients.
+
+**Banks in alphabetical order**: In a departure from Wall Street convention, the five advising banks — [[Bank of America]], [[Citigroup]], [[Goldman Sachs]], [[JPMorgan]], and [[Morgan Stanley]] — will likely be listed alphabetically on the prospectus rather than in the traditional "lead left" hierarchy. Banks are also dividing roles by geography and investor type (US institutional, US retail, international). Several international banks enlisted for overseas buyers.
+
+**Scale context**: The $75B raise would surpass all money raised by US IPOs in the entirety of 2025 ([[Renaissance Capital]]). The company was last valued at $1.25T; advisers won't finalize offering size and valuation until a few weeks before launch.
+
+*Sources: The Information (Mar 25); Bloomberg (Mar 25); Reuters (Mar 25); WSJ (Mar 27-28)*
 
 ### Nasdaq Fast Entry rule (Feb 2026)
 

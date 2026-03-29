@@ -54,6 +54,7 @@ Enterprise-focused: 80% of Anthropic's revenue from enterprise customers.
 | Claude 4.5 Haiku | 2025 | Fast/cheap tier |
 | [[Claude Opus|Claude Opus 4.6]] | Feb 5 2026 | 1M context, agent teams, 65.4% Terminal-Bench |
 | [[Claude Sonnet|Claude Sonnet 4.6]] | Feb 17 2026 | Opus-level reasoning at Sonnet pricing, 1M context (beta), 72.5% OSWorld |
+| [[Claude Mythos|Claude Mythos (Capybara)]] | TBD (leaked Mar 27 2026) | New tier above Opus. "Step change" in reasoning, coding, cybersecurity. In testing with early-access customers. |
 
 ---
 
@@ -158,5 +159,6 @@ Multi-cloud strategy reduces single-vendor dependency.
 - [[OpenClaw]] — open-source agent that uses Claude as backend; Anthropic C&D forced rebrand from "Clawdbot"
 - [[Agentic AI]] — Claude Code's category
 - [[AI agents]] — broader category
+- [[Claude Mythos]] — next-gen Capybara tier (leaked Mar 2026)
 - [[Claude Cowork disruption February 2026]] — $285B selloff catalyst
 - [[AI workflow disruption basket]] — tracking software disruption exposure
