@@ -101,13 +101,29 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 |-------|--------|-----------|
 | Defense hardware | Overweight | Munitions burn, replenishment cycle, NATO rearmament accelerates |
 | Energy/oil | Overweight | Supply disruption, Hormuz risk, inventory draws |
-| Gold | Hold/add | Safe haven, $5,400 already stretched but Hormuz closure = more upside |
+| Gold | **Underweight** | Safe-haven thesis failed: -15% in March (worst since 2008). Forced liquidation to cover margin calls + Turkey CB sold 50t. Not a hedge in a real supply shock |
 | Airlines/travel | Underweight | Fuel costs + route disruption, duration-dependent |
 | Shipping | Overweight (tankers) | Rate spike on route disruption |
 | Insurance (specialty) | Neutral/avoid | Coverage withdrawal > premium windfall; tail risk from correlated claims |
 | Broad equity | Cautious | VIX elevated, risk-off, earnings visibility reduced |
 
 Key variable is duration. A resolved conflict (days) = mean-reversion in oil/defense. A prolonged campaign (weeks+) = sustained repricing across all of these. See [[Iran conflict war duration]] for Polymarket probabilities and Gass assessment.
+
+### March 2026 cross-asset signature: nowhere to hide
+
+March produced the rarest cross-asset outcome — stocks, bonds, and gold all fell simultaneously while oil surged. This is the signature of a genuine supply shock: the problem is real-economy, not financial, so the normal rotation (stocks down → bonds up, gold up) breaks. The only "hedge" that worked was owning the thing causing the crisis (energy equities, crude).
+
+| Asset | March 2026 |
+|-------|-----------|
+| S&P 500 | -1.67% (Fri), 5-week losing streak, Dow in correction |
+| Brent crude | +51% (record monthly gain) |
+| Gold | -15% (worst since 2008) |
+| UK 10Y gilts | Yield to ~5% (worst since Truss Sep 2022) |
+| Italian 2Y | Worst month since May 2018 |
+| FTSE 100 | -8%+ (worst since Mar 2020 Covid) |
+| VIX | 31.05 |
+
+This pattern last occurred during the 1973 Arab oil embargo and briefly during the 2022 Russia invasion spike. The implication: portfolio diversification fails in real supply shocks because the inflationary impulse hits both equities (margins) and bonds (rate expectations) simultaneously.
 
 ---
 

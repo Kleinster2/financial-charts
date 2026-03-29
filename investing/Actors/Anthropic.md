@@ -718,6 +718,10 @@ Anthropic is in discussions about an initial public offering that could happen a
 
 [[OpenAI]] is simultaneously raising ~$10B more from [[Andreessen Horowitz]], [[MGX]], [[D.E. Shaw Ventures]], [[TPG]], and [[T. Rowe Price]], bringing total round to $120B+. OpenAI is also sweetening PE pitches with 17.5% guaranteed minimum preferred equity returns — significantly higher than typical preferred instruments — and early access to newest models. Anthropic's PE deal offered no such guaranteed returns.
 
+### 2026 IPO absorption test
+
+Three of the most valuable private companies in history are racing toward IPO in the same year: [[SpaceX]] ($75B raise), Anthropic ($60B), and [[OpenAI]] (timing TBD but likely late 2026-2027). Combined, they need public markets to absorb ~$200B in new equity — into a market where the Dow is in correction, oil is at $113, and the VIX is above 30. This is either going to redefine the IPO market or stress-test it to breaking point.
+
 *Sources: Sophic Capital (Mar 28); Bloomberg (Mar 25-27)*
 
 ---
