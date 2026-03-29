@@ -28,6 +28,22 @@ The [[Donald Trump|Trump]] family is systematically building a commercial portfo
 
 ---
 
+## Family wealth (Forbes, March 2026)
+
+Forbes pegs [[Donald Trump]]'s personal net worth at **$6.5B** (up $1.4B YoY). The presidency is the primary wealth engine — crypto ventures, licensing, and Mar-a-Lago's valuation premium all depend on holding office. See [[Donald Trump#Net worth: $6.5B (Forbes, March 2026)]] for the full asset-by-asset breakdown.
+
+Key numbers for the portfolio map:
+- Crypto & cash: ~$2.4B (meme coin ~$709M, [[World Liberty Financial]] stablecoin + tokens). Trump family receives **75% of WLF token sales** plus a portion of stablecoin returns (WSJ Dec 2025)
+- [[Trump Media]] (Truth Social): ~$2B, down $1.3B YoY (stock halved, company still bleeding)
+- Licensing & branding: ~$500M, up $400M (foreign developers seeking Trump brand while he's in office)
+- Total crypto-related family profits in first year of second term: ~$1.4B (per financial disclosures + market analysis)
+
+Sen. [[Chris Murphy]] (D-CT): "the biggest scandal in the history of the presidency — a backdoor bribery scheme in which any CEO or foreign oligarch can send money secretly through his crypto coin scam in exchange for favors."
+
+*Sources: Forbes (Mar 27, Dan Alexander); WSJ (Dec 2025); Newser (Mar 28)*
+
+---
+
 ## The pattern
 
 **During office:** Family members invest in sectors where the administration has policy leverage — defense procurement, crypto regulation, AI policy, social media governance. The drone sector is the sharpest example: within one month (Feb-Mar 2026), the Trump brothers backed three separate drone companies ([[XTEND]], [[Powerus]], [[Unusual Machines]]) while the Pentagon rolls out $1.1B in drone procurement and the FCC bans foreign competitors. This creates a feedback loop:
@@ -109,4 +125,4 @@ Four drone investments in two months, each through a different structure:
 - [[Jared Kushner]] — son-in-law, Special Envoy + Affinity founder
 - [[Kushner Companies]] — family real estate (666 Fifth Ave)
 
-*Created 2026-02-18 · Updated 2026-03-17*
+*Created 2026-02-18 · Updated 2026-03-29*
