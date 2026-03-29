@@ -90,13 +90,18 @@ The logic: investment accounting (CWAN's core) sits at the back of the value cha
 
 | Date | Event | Parties | Amount | Implied EV |
 |------|-------|---------|--------|------------|
-| 2004 | Founded | David Boren, Michael Boren, Bryce Baker | — | — |
+| 2004 | Founded | David Boren, Michael Boren, Bryce Baker | Bootstrapped | — |
 | Sep 2016 | Majority stake acquired | Welsh, Carson, Anderson & Stowe (WCAS) | Undisclosed | — |
-| Oct 2020 | Growth investment | [[Permira]], [[Warburg Pincus]], Dragoneer, Durable Capital | Undisclosed | — |
-| Sep 2021 | IPO (NYSE: CWAN) | Public markets | $18/share | ~$5B+ |
+| Aug 2020 | Explored sale | WCAS (seller), process run | — | **~$2B** (Reuters) |
+| Oct 2020 | Growth round (PE) | [[Permira]], [[Warburg Pincus]], Dragoneer, Durable Capital | Undisclosed | — |
+| Sep 2021 | IPO (NYSE: CWAN) | Public markets; 30M shares at $18 | **$540M** raised | **$5.9B** (day-one close) |
+| Jun 2025 | WCAS secondary sale | WCAS sells 14.1M shares; stake → ~1.7% | — | — |
+| Nov 2025 | Unsolicited offer | Thoma Bravo | Undisclosed | — |
 | Dec 2025 | Take-private agreed | [[Permira]] + [[Warburg Pincus]] (lead), Francisco Partners, [[Temasek]] | $24.55/share | **$8.4B** |
 
-WCAS remained majority shareholder through IPO and into 2025. The 2020 growth round brought in Permira and Warburg Pincus — the same firms that would later lead the take-private, suggesting they spent five years learning the business from the inside.
+**The WCAS arc:** WCAS bought majority control in 2016, explored a $2B sale in August 2020 (Reuters) but pulled it when the market was soft. Instead, they brought in Permira, Warburg, Dragoneer, and Durable as growth equity partners — retaining majority and control via super-voting Class C/D shares (10 votes per share). WCAS took the company public in September 2021, raising $540M at $18/share (above the $14-16 range), with a day-one closing valuation of $5.9B. WCAS maintained voting control post-IPO through the multi-class structure. By June 2025, WCAS sold 14.1M shares, dropping to ~1.7% ownership, which triggered automatic conversion of all super-voting shares to single-vote stock — effectively ending WCAS's nine-year control era. Five months later, Permira and Warburg (who'd been inside since 2020) led the $8.4B take-private.
+
+The valuation trajectory tells the story: ~$2B (2020 aborted sale) → $5.9B (IPO day close, 2021) → $8.4B (take-private, 2025). WCAS turned a 2016 majority buyout into a ~4x+ return across IPO proceeds and secondary sales.
 
 **Take-private details:**
 - Announced December 21, 2025
