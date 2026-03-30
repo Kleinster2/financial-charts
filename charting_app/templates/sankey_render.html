@@ -167,7 +167,7 @@
                 } else {
                     // Text outside node
                     svgContent += `<text x="${labelX}" y="${labelY - 8}" text-anchor="${anchor}" fill="#333" font-size="14" font-weight="700">${n.name}</text>`;
-                    svgContent += `<text x="${labelX}" y="${labelY + 8}" text-anchor="${anchor}" fill="#555" font-size="13" font-weight="600">${fmt(n.value)}</text>`;
+                    svgContent += `<text x="${labelX}" y="${labelY + 8}" text-anchor="${anchor}" fill="#555" font-size="14" font-weight="600">${fmt(n.value)}</text>`;
                     if (pct && n.id !== 'revenue') {
                         svgContent += `<text x="${labelX}" y="${labelY + 22}" text-anchor="${anchor}" fill="#888" font-size="12">${pct}</text>`;
                     }

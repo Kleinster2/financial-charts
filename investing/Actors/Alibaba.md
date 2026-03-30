@@ -205,26 +205,42 @@ Bloomberg Intelligence: "Alibaba can drive this new form of engagement at lower 
 
 ## Custom silicon efforts
 
-**Responding to export controls:**
-- T-Head (平头哥) semiconductor subsidiary
-- Custom AI accelerators
-- Yitian (倚天) ARM-based server CPU
-- Hanguang (含光) AI chip
+T-Head (平头哥) semiconductor subsidiary. Three-pillar stack: AI accelerators (GPU-class), RISC-V CPUs, ARM server CPUs.
+
+### Zhenwu 810E — AI accelerator (Jan 2026)
+
+| Spec | Value |
+|------|-------|
+| Type | AI accelerator (GPU-class) |
+| Memory | 96GB HBM2e |
+| Inter-chip bandwidth | 700 GB/s (proprietary ICN interconnect) |
+| Performance | Comparable to [[NVIDIA]] H20; in some respects superior to A800 |
+| Deployment | 10,000-card clusters on [[Alibaba]] Cloud |
+| Customers | 400+ (State Grid, Chinese Academy of Sciences, [[XPeng]]) |
+| Optimized for | [[Qwen]] training and inference |
+
+The [[Zhenwu 810E]] completes [[Alibaba]]'s vertical AI stack: own chip + own cloud + own model. Fully in-house architecture and software stack — no [[NVIDIA]] CUDA dependency.
 
 ### RISC-V: XuanTie chips
 
-| Chip | Launch | Capability |
-|------|--------|------------|
-| **XuanTie C930** | March 2025 | Server-grade, competes with [[Intel]]/[[AMD]] |
-| XuanTie C920 | 2023 | [[Autonomous vehicles]], AI |
-| XuanTie C907 | 2023 | Enterprise storage |
-| XuanTie R910 | 2023 | Network communications |
+| Chip | Launch | Target | Key spec |
+|------|--------|--------|----------|
+| [[XuanTie C950]] | Mar 2026 | Server AI inference | 5nm, 3.2 GHz, >70 SPECint2006 (RISC-V world record), native LLM inference |
+| XuanTie C930 | Mar 2025 | Server workloads | RVA23, dual 512-bit vector, 8 TOPS matrix engine |
+| XuanTie C925 | Mar 2026 | Edge computing | 11% more efficient, 32% smaller area vs C930 |
+| XuanTie C920 | 2023 | [[Autonomous vehicles]], AI | |
+| XuanTie C907 | 2023 | Enterprise storage | |
 
-**C930 specs:** 64-bit multi-core, RVA23 compatible, dual 512-bit vector units, 8 TOPS [[Matrix]] engine for AI.
+The [[XuanTie C950]] is the first CPU to natively run trillion-parameter LLMs ([[Qwen|Qwen3]]-235B, [[DeepSeek]] V3-671B) on [[RISC-V]]. Co-designed vector and matrix acceleration engines handle transformer inference without external GPUs. In absolute performance terms, Google researcher Laurie Kirk benchmarks it roughly at [[Apple]] M1 (2020) levels — years behind current Western server CPUs — but it runs on an architecture [[China]] fully controls.
 
-**Strategic value:** RISC-V = no ARM licensing, no US export restrictions on architecture. See [[RISC-V]].
+CEO Yongming Wu (Mar 2026): response to the gap is "more profound co-design with Alibaba's cloud infrastructure and the [[Qwen]] model to provide improved cost effectiveness."
 
-**Reality:** Still behind NVIDIA, but reducing dependency.
+### Other silicon
+
+- Yitian 710 (倚天) — ARM-based server CPU (2021)
+- [[Hanguang 800]] (含光) — AI inference chip (earlier generation)
+
+**Strategic value:** [[RISC-V]] = no ARM licensing, no US export restrictions on architecture. The Zhenwu 810E removes [[NVIDIA]] GPU dependency for training. Together, [[Alibaba]] can run its entire AI stack on self-designed silicon. See [[RISC-V]].
 
 ---
 
@@ -339,14 +355,16 @@ See [[Wearable AI]] for competitive landscape.
 | CEO | Eddie Wu (since 2023) |
 | Stock YTD (2025) | **+100%+** (doubled) |
 
-*Updated 2026-03-04*
+*Updated 2026-03-30*
 
 ---
 
 ## Related
 
 ### Subsidiaries/Products
-- [[Qwen]] — AI model (100M+ MAU, fastest growing)
+- [[Qwen]] — AI model (203M MAU, #3 globally)
+- [[XuanTie C950]] — RISC-V server CPU for AI inference (Mar 2026)
+- [[Zhenwu 810E]] — AI accelerator, 96GB HBM2e (Jan 2026)
 - [[Taobao]] — C2C e-commerce (892M MAU, ~51% China share)
 - [[Tmall]] — B2C e-commerce (brands)
 - [[Alipay]] — payments (1.3B users, Ant Group)

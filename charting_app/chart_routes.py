@@ -471,7 +471,7 @@ def get_chart_lw():
                         data_points = []
                         for _, row in df.iterrows():
                             try:
-                                date_str = fiscal_to_calendar_quarter(row['fiscal_date_ending'])
+                                date_str = row['fiscal_date_ending']
                                 value = row['metric_value']
                                 if pd.notna(value) and value != 0:
                                     data_points.append({'time': date_str, 'value': float(value)})

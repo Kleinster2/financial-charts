@@ -8,6 +8,21 @@ tags: [actor, memory, usa, dram, nand]
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Semiconductors]] | SMH | 0.83 |
+| Technology | XLK | 0.77 |
+| Industrials | XLI | 0.63 |
+| *S&P 500* | *SPY* | *0.69* |
+
+MU trades as a core Semiconductors name (SMH r = 0.83).
+
+![[mu-price-chart.png]]
+
+---
+
 Gross margin went from -9.1% (FY2023) to 81% (Q2 FY2026) in three years. Three dynamics are driving the company:
 
 1. HBM lock-in. Unlike commodity DRAM, [[HBM]] requires 6-42 month [[Qualification cycles|qualification cycles]] with each customer. [[NVIDIA]]'s Blackwell uses HBM qualified in 2023; Vera Rubin uses HBM being qualified now. HBM production cannibalizes standard DRAM at a 3:1 wafer ratio — every HBM wafer denies three wafers to commodity DDR5. More HBM production creates a worse shortage in standard memory. Micron is #3 with 21% share behind [[SK Hynix]] (62%) and [[Samsung]] (17%), but HBM4 mass production was announced ahead of schedule in February 2026 and is qualified with [[NVIDIA]].
@@ -163,6 +178,14 @@ CEO [[Sanjay Mehrotra]] at Davos (Jan 2026):
 Q2 FY2026 demolished consensus: revenue beat by $3.79B (+19% vs $20.07B est), EPS beat by $2.89 (+31% vs $9.31 est). Largest sequential revenue jump in Micron's history. Record across DRAM, NAND, and HBM. Three drivers: HBM revenue accelerating (HBM4 mass production flowing into revenue), DRAM pricing power deepening as [[Memory shortage 2025-2026]] worsens, and AI demand broadening beyond training to inference, edge, and automotive.
 
 Q1 FY2026 key quotes: "Largest ever seen supply-demand gap." Only meeting 50-67% of demand from key customers. Tightness to persist through and beyond CY2026.
+
+![[mu-fundamentals-chart.png]]
+
+![[mu-sankey-q2fy2026.png]]
+
+![[mu-sankey.png]]
+
+![[mu-sankey-fy2024.png]]
 
 ---
 

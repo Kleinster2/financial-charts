@@ -3,7 +3,7 @@ aliases: [EQT Partners, EQT AB]
 ---
 #actor #investor #privateequity #sweden #public
 
-**EQT** — Swedish PE giant. $250B+ AUM. Harvey, Zendesk investor. Public (EQT on Stockholm).
+**EQT** — Swedish PE giant. $250B+ AUM. Harvey, Zendesk investor. Public (EQT on Stockholm). Not to be confused with [[EQT Corporation]] (NYSE: EQT), the US natural gas producer.
 
 ---
 

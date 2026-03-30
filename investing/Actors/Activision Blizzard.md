@@ -93,6 +93,7 @@ Microsoft providing fresh start.
 ## Related
 
 - [[Microsoft]] — parent company
+- [[Call of Duty]] — flagship franchise, $35B+ lifetime revenue
 - [[Electronic Arts]] — competitor
 - [[Take-Two]] — competitor
 - [[Gaming]] — sector

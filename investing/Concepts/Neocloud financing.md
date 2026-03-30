@@ -14,6 +14,7 @@ NVIDIA invests in or finances "neoclouds" — GPU cloud providers that compete w
 | [[Lambda Labs]] | Financing involved | — |
 | [[IREN]] | Deal facilitation | Microsoft ties |
 | [[Nebius]] | Deal facilitation | Microsoft ties |
+| [[Nscale]] | ~$667M equity investor, priority allocation (630K GPUs) | $23B+ [[Microsoft]] contracts; Stargate Norway/UK |
 | [[Crusoe Energy]] | Customer | — |
 
 **The symbiosis:**

@@ -99,4 +99,20 @@ Revenue has nearly doubled from $11.9B in 2020.
 
 ---
 
-*Created 2026-01-28*
+## March 30: BSX -9% (2.7σ) on CHAMPION-AF trial results
+
+Boston Scientific fell 9% on March 30, 2026 ($69.17 to $62.93) after the CHAMPION-AF trial results for [[Watchman FLX]] disappointed investors despite meeting primary endpoints.
+
+The trial tested Watchman FLX as a first-line alternative to NOACs (novel oral anticoagulants) for stroke prevention in non-valvular [[atrial fibrillation]] patients:
+
+| Endpoint | Result |
+|----------|--------|
+| Primary safety (36 months) | Met — Watchman FLX statistically superior to NOACs |
+| Primary efficacy | Met |
+| Ischemic stroke rate | Slightly higher vs NOACs — the number that spooked the market |
+
+The trial met all primary and secondary safety and efficacy endpoints, but the slightly higher ischemic stroke rate compared to NOACs raised questions about whether Watchman FLX can expand beyond its current addressable market (patients who can't tolerate blood thinners) into the broader first-line stroke prevention population. That expansion was the growth thesis embedded in the stock's ~40x earnings multiple.
+
+Separately, on March 28 the HI-PEITHO trial for the EKOS Endovascular System showed a 61% reduction in the primary composite endpoint for intermediate-risk acute pulmonary embolism vs anticoagulation alone — a positive result that was overshadowed by the CHAMPION-AF reaction.
+
+*Updated 2026-03-30*

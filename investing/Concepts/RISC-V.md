@@ -60,7 +60,8 @@
 
 | Company | Product/Role | Status |
 |---------|--------------|--------|
-| **[[Alibaba]]** (T-Head/Damo) | XuanTie C930 server chip | Server-grade, competes with [[Intel]]/[[AMD]] |
+| **[[Alibaba]]** (T-Head/Damo) | [[XuanTie C950]] server CPU (Mar 2026) | 5nm, RISC-V world record SPECint2006 >70, native LLM inference |
+| **[[Alibaba]]** (T-Head/Damo) | XuanTie C930 server chip (Mar 2025) | Server-grade, RVA23, 8 TOPS matrix engine |
 | **VeriSilicon** | IP provider, acquiring Nuclei | Public (688521.SH) |
 | **Nuclei System** | RISC-V CPU IP specialist | Being acquired by VeriSilicon |
 | **[[SpacemiT]]** | K1 chip, edge/robotics | Series B ($86M, Jan 2026) |
@@ -75,6 +76,22 @@
 | [[Target]] | Nuclei System Technology |
 | Rationale | Consolidate RISC-V IP leadership |
 | VeriSilicon R&D investment | 1.3B yuan in R&D center |
+
+### Alibaba [[XuanTie C950]] (March 2026) — current flagship
+
+| Spec | Value |
+|------|-------|
+| Architecture | 64-bit multi-core RISC-V, out-of-order superscalar |
+| Profile | RVA23 (v23.1) |
+| Process | 5nm (reportedly [[TSMC]]) |
+| Clock | 3.2 GHz, 8-instruction decode, 16-stage pipeline |
+| AI acceleration | XuanTie Tensor Processing Engine (TPE), 8 TOPS, FP16 to INT4/FP8 |
+| LLM support | Natively runs [[Qwen|Qwen3]]-235B and [[DeepSeek]] V3-671B |
+| SPECint2006 | >70 (RISC-V world record, 3x C920) |
+| SPECInt 2017 | ~[[Apple]] M1 (2020) level per Google researcher |
+| [[Target]] | Data center AI inference, [[Agentic AI]] workloads |
+
+First CPU to natively run trillion-parameter models on RISC-V. The performance gap with Western CPUs is real (4-5 years behind), but the strategic value is that [[Alibaba]] co-designs chip + model + cloud on an architecture with zero US [[export controls]] exposure.
 
 ### Alibaba XuanTie C930 (March 2025)
 
@@ -107,7 +124,7 @@
 | **License** | Open/free | Per-chip royalty | Proprietary |
 | **Customization** | Full | Limited | None |
 | **Ecosystem** | Growing | Mature | Mature |
-| **Performance** | Catching up | Mobile leader | Server leader |
+| **Performance** | Catching up (~M1 level) | Mobile leader | Server leader |
 | **[[China]] access** | ✅ Unrestricted | ⚠️ Limited | ⚠️ Limited |
 
 ---
@@ -162,7 +179,7 @@ See [[DeepSeek]], [[US-China tech race]].
 ## Related
 
 ### Actors
-- [[Alibaba]] — XuanTie RISC-V chips via T-Head/Damo
+- [[Alibaba]] — XuanTie RISC-V chips via T-Head/Damo (see [[XuanTie C950]])
 - [[SpacemiT]] — K1 chip, Series B ($86M)
 - VeriSilicon — 688521.SH, acquiring Nuclei
 - [[Lenovo]] — SpacemiT investor
@@ -184,4 +201,4 @@ See [[DeepSeek]], [[US-China tech race]].
 - [Jamestown: [[China]] RISC-V Grand Strategy](https://jamestown.org/program/examining-chinas-grand-strategy-for-risc-v/)
 - [DigiTimes: VeriSilicon Nuclei Acquisition](https://www.digitimes.com/news/a20250829VL205/verisilicon-shanghai-risc-v-ip-cpu.html)
 
-*Created 2026-01-14*
+*Updated 2026-03-30*

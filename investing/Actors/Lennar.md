@@ -101,6 +101,23 @@ Stock dipped on Trump's institutional homebuying ban announcement:
 
 ---
 
+## Q1 2026 earnings (reported Mar 12, 2026)
+
+| Metric | Q1 2026 | Q1 2025 | Change |
+|--------|---------|---------|--------|
+| Revenue | $6.6B | — | |
+| Homes delivered | 16,863 | ~17,750 | -5% |
+| New orders | 18,515 | ~18,330 | +1% |
+| Avg sale price | $374,000 | ~$406,500 | -8% |
+| Gross margin | 15.2% | 18.7% | -350 bps |
+| Incentives | 14.1-14.5% of sale price | — | |
+
+Margin compression is the story. Lennar is buying volume with incentives in a 6.22% mortgage rate environment (30yr fixed, mid-March). Orders were barely positive (+1%) despite aggressive discounting. The structural housing deficit (4-5M units) hasn't translated into pricing power because affordability math at current rates caps what buyers can pay.
+
+LEN -6.0% on March 30 (2.5σ) — continued slide post-earnings. Stock near 52-week lows at ~11.5x PE, a discount to historical median. The market is pricing margin compression as structural, not cyclical.
+
+---
+
 ## Investment case
 
 **Bull:**

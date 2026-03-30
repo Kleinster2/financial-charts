@@ -164,7 +164,19 @@ See [[Apple MP Materials partnership]] for full details.
 
 MP surged **+8.3%** to $63.73 on March 4, 2026. The [[2026 Iran conflict market impact|Iran conflict]] amplified the critical minerals supply chain security narrative — rare earths are essential for defense electronics, guided munitions, and EV motors. Any escalation that disrupts global supply chains or heightens US-China tensions benefits the only integrated US rare earth mine-to-magnet operation.
 
-*Updated 2026-03-04*
+## March 30: -12% (2.8σ), stock halved from peak
+
+MP dropped 12% on March 30, 2026 ($51.80 to $45.59), a 2.8-sigma move. The stock has halved from its ~$100 peak — down ~19% in March alone. [[Benzinga]] flagged a "death cross" (short-term MA below long-term) on March 28.
+
+No single catalyst, but three dynamics converging:
+
+1. Trump visiting [[China]] late March — signals potential for US-China rare earth detente. If tensions ease and supply normalizes, MP's strategic premium evaporates. The entire investment case depends on [[China]] remaining an unreliable supplier.
+2. Broader risk-off: [[Nasdaq]] -2.15%, [[S&P 500]] -1.67% on Iran/oil fears. MP's low correlation (SPY r = 0.23) means it shouldn't trade with the index, but sentiment-driven selling doesn't respect correlation tables.
+3. Shifting rare earth funding landscape: [[USA Rare Earth]] (USAR) emerging as a US-backed competitor, fragmenting the "only domestic rare earth play" narrative that underpinned MP's valuation.
+
+The math hasn't changed — MP is still <1% of [[China]]'s NdFeB magnet output even at full scale. The question is whether the market reprices the strategic premium before or after MP proves it can actually produce magnets at commercial scale from Fort Worth.
+
+*Updated 2026-03-30*
 
 ---
 
