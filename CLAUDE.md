@@ -20,9 +20,9 @@ After creating or expanding any entity note, ALWAYS log it in the daily note's s
 
 **Before modifying any code file, explore the surrounding codebase first.** Check for existing patterns, utility scripts, and similar implementations elsewhere in the project. Never edit a file you haven't explored the context of. The sequence is always: explore → understand existing patterns → write code that follows them.
 
-## Workflow Changes — Map the Full System First
+## Map Before Acting
 
-**Before changing any workflow, search the entire repo for all components of that workflow.** That means scripts, skills (`.claude/skills/`), docs, hooks, and CLAUDE.md itself. Follow dependency chains: a pre-creation check implies a creation workflow exists; a compliance rule implies an enforcement point. The question is always "where is this workflow actually defined end-to-end?" — not "which files do I already know about?"
+**Before modifying, adding to, or answering questions about any part of this system: search the entire repo for all related components first.** Never assume you know what exists. Scripts, skills (`.claude/skills/`), docs, hooks, configs — search them all. Follow dependency chains: if something exists, ask what calls it, what it feeds into, and what else references it. The question is always "what's the full picture?" — not "which files do I already know about?"
 
 ---
 
