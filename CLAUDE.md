@@ -22,7 +22,7 @@ After creating or expanding any entity note, ALWAYS log it in the daily note's s
 
 ## Map Before Acting
 
-**Before modifying, adding to, or answering questions about any part of this system: search the entire repo for all related components first.** Never assume you know what exists. Scripts, skills (`.claude/skills/`), docs, hooks, configs — search them all. Follow dependency chains: if something exists, ask what calls it, what it feeds into, and what else references it. The question is always "what's the full picture?" — not "which files do I already know about?"
+**Before modifying, adding to, or answering questions about any part of this system: search for all related components first.** Never assume you know what exists — search everywhere relevant, not just the current directory or repo. That includes scripts, skills (`.claude/skills/`), docs, hooks, configs, related vaults, and cross-repo files. Follow dependency chains: if something exists, ask what calls it, what it feeds into, and what else references it. The question is always "what's the full picture?" — not "which files do I already know about?"
 
 ---
 
