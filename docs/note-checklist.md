@@ -13,7 +13,7 @@ Fix all errors before proceeding to manual checks.
 **Automated checks:**
 - Frontmatter (exists, has aliases)
 - Dead links (wikilinks to non-existent notes)
-- Missing price/fundamentals charts
+- Missing price/fundamentals/Sankey charts
 - Missing chart captions
 - Missing Related section
 - Missing Quick stats section
@@ -62,6 +62,8 @@ These cannot be automated. Review each one.
 ### Charts
 
 - [ ] Price chart has actor + peers/benchmark (not just actor alone)
+- [ ] Fundamentals chart exists (public companies)
+- [ ] Income statement Sankey exists (public companies with income data in DB)
 - [ ] **Open and verify chart images** — confirm legend matches caption
 - [ ] **No chart titles** — legend suffices
 - [ ] **Research major moves** — don't fabricate explanations; web search actual causes
