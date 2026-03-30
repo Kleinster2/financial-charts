@@ -33,8 +33,11 @@ Rare profitable AI applications company at scale with ~$180B+ market cap, 63% Yo
 
 ---
 
+![[pltr-sankey-2024.png]]
+*FY2024 — $2.9B revenue, 80% gross, 11% operating, 16% net. Other Income $173M (interest on ~$4B cash).*
+
 ![[pltr-sankey.png]]
-*Income statement Sankey — revenue flow through cost structure to net income.*
+*FY2025 — $4.5B revenue, 82% gross, 32% operating, 36% net. Operating leverage: revenue +56%, operating income +355%. SG&A ($1.7B) still the dominant cost.*
 
 ## Financials
 
