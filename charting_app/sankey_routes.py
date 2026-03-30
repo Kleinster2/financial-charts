@@ -192,7 +192,7 @@ def get_sankey_chart():
         # there's income from investments/other sources not captured in operating income.
         known_costs = interest + tax
         implied_net = operating_income - known_costs
-        non_op_income = max(0, net_income - implied_net) if has_below_detail else 0
+        non_op_income = max(0, net_income - implied_net)
 
         if has_below_detail:
             if interest > 0:
@@ -218,12 +218,20 @@ def get_sankey_chart():
                 nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3 + col_offset})
                 links.append({'source': 'operating', 'target': 'net', 'value': net_income, 'type': 'net'})
         else:
-            if total_below > 0:
-                nodes.append({'id': 'below', 'name': 'Tax & Other', 'value': total_below, 'nodeType': 'cost', 'col': 3 + col_offset})
-                links.append({'source': 'operating', 'target': 'below', 'value': total_below, 'type': 'cost'})
+            # Even without detailed below-the-line data, check if net > operating
+            # (e.g., interest income, investment gains, NOL tax benefits)
+            if non_op_income > revenue * 0.005:
+                nodes.append({'id': 'other_income', 'name': 'Other Income', 'value': non_op_income, 'nodeType': 'gross', 'col': 2 + col_offset})
+                links.append({'source': 'other_income', 'target': 'net', 'value': non_op_income, 'type': 'profit'})
+                nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3 + col_offset})
+                links.append({'source': 'operating', 'target': 'net', 'value': max(0, operating_income), 'type': 'net'})
+            else:
+                if total_below > 0:
+                    nodes.append({'id': 'below', 'name': 'Tax & Other', 'value': total_below, 'nodeType': 'cost', 'col': 3 + col_offset})
+                    links.append({'source': 'operating', 'target': 'below', 'value': total_below, 'type': 'cost'})
 
-            nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3 + col_offset})
-            links.append({'source': 'operating', 'target': 'net', 'value': net_income, 'type': 'net'})
+                nodes.append({'id': 'net', 'name': 'Net Income', 'value': net_income, 'nodeType': 'net', 'col': 3 + col_offset})
+                links.append({'source': 'operating', 'target': 'net', 'value': net_income, 'type': 'net'})
 
         # Margins
         gross_margin = gross_profit / revenue * 100 if revenue else 0
