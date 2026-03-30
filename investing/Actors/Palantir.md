@@ -33,6 +33,9 @@ Rare profitable AI applications company at scale with ~$180B+ market cap, 63% Yo
 
 ---
 
+![[pltr-sankey.png]]
+*Income statement Sankey — revenue flow through cost structure to net income.*
+
 ## Financials
 
 | Year | Revenue ($B) | Growth | Gross margin | Op margin | Net income ($B) |
@@ -55,8 +58,8 @@ FY2020 net income includes ~$1.1B in stock-based compensation around the direct 
 | Name | Role | Background |
 |------|------|------------|
 | [[Alex Karp]] | CEO (since founding) | PhD philosophy (Frankfurt), [[Stanford]] Law, Thiel's law school classmate. No tech background — chosen for political navigation skills. |
-| [[Peter Thiel]] | Co-founder, Chairman | [[PayPal]] mafia, Founders Fund. Provided initial $30M. Increasingly polarizing political profile. |
-| [[Joe Lonsdale]] | Co-founder | [[Stanford]], later founded 8VC, Addepar. Left Palantir early. |
+| [[Peter Thiel]] | Co-founder, Chairman | [[PayPal]] mafia, [[Founders Fund]]. Provided initial $30M. Increasingly polarizing political profile. |
+| [[Joe Lonsdale]] | Co-founder | [[Stanford]], later founded [[8VC]], Addepar. Left Palantir early. |
 | Stephen Cohen | Co-founder, President | [[Stanford]] CS. Technical co-founder, oversees product architecture. |
 | [[Shyam Sankar]] | CTO | Joined 2006. Runs technology and government business. Public face on defense AI. |
 | [[Cameron Stanley]] | Former government liaison | [[Pentagon]] connections, Maven program interface. |
@@ -265,7 +268,7 @@ See [[Pentagon AI access dispute 2026]] for full context on the Anthropic ban.
 
 ---
 
-## Project Maven in the Iran war (Mar 2026)
+## Project Maven in the [[Iran]] war (Mar 2026)
 
 [[Palantir]] is the prime contractor for [[Project Maven]] (Maven Smart System) — the AI-enabled targeting platform used in [[Operation Epic Fury]]. Initial contract: $480M. Expanded May 2025 to ~$1.3B ($795M added).
 
