@@ -53,95 +53,9 @@ The arc: greenhouse on Mars → laughed out of Russia → $100M personal bet →
 
 ## IPO (2026)
 
-Targeting June 2026 (around Musk's birthday):
+Targeting June 2026: $75B raise at $1.75T valuation on [[Nasdaq]] — would be the largest IPO in history. The deal is structurally unprecedented: no lead bank (five advisers listed alphabetically), no standard lockup, >20% retail allocation, and divided geographic roles. The S-1 may show a net loss after absorbing [[xAI]]'s ~$1B/month burn. Both [[Nasdaq]] and [[S&P Dow Jones Indices]] have rewritten index inclusion rules to accommodate the listing.
 
-| Metric | Value |
-|--------|-------|
-| [[Target]] valuation | **$1.75T** (would be 6th-largest US company) |
-| IPO raise target | **$75B** (latest, The Information Mar 25; prev $50B) |
-| Preferred exchange | **[[Nasdaq]]** (leaning, not final) |
-| Index condition | Early [[Nasdaq 100]] inclusion required |
-| Recent internal valuation | $800B ($421/share, Dec 2025) |
-| July 2025 valuation | $400B ($212/share) |
-| 2025 revenue | ~$16B |
-| 2026 revenue forecast | $22-24B |
-| Revenue driver | [[Starlink]] (majority) |
-
-### Exchange selection (Mar 10, 2026)
-
-SpaceX is leaning toward listing on [[Nasdaq]] over the [[New York Stock Exchange|NYSE]], per Reuters (four sources). The key condition: SpaceX wants **early inclusion in the [[Nasdaq 100]]** index, making fast-track index entry a prerequisite for the listing. Neither exchange has been formally notified of a decision — NYSE is still competing.
-
-Why the Nasdaq 100 matters for this IPO:
-- Inclusion triggers automatic buying from index funds and ETFs tracking the NDX — deepening liquidity and broadening the institutional shareholder base
-- For Musk and early investors, deeper liquidity reduces market impact of large sell orders when lockup periods expire (typically 90-180 days post-IPO)
-- NYSE has a comparable index (NYSE 100) but it's far less widely tracked — the Nasdaq 100 is the premier tech blue-chip benchmark
-
-At $1.75T, SpaceX would slot into the Nasdaq 100's top 6 members by market cap — comfortably within the top-40 threshold required by Nasdaq's proposed [[Nasdaq Fast Entry Rule|Fast Entry rule]].
-
-### IPO filing imminent (Mar 25-28, 2026)
-
-The Information reported on March 25 that SpaceX may file its IPO prospectus as soon as this week. The filing would target raising over $75B — up from earlier estimates of $25-50B — at the $1.75T valuation. This would be the largest IPO in history. The report lifted the entire space sector: [[AST SpaceMobile]] (ASTS) +10.4%, [[Rocket Lab]] (RKLB) +10%, [[Firefly Aerospace]] (FLY) +16%, York Space (YSS) +5%. The filing timeline coincides with NASA's announcement of "Project Ignition," a $20B plan for a semi-permanent moon base, adding to sector euphoria. Combined with the [[xAI]] merger (Feb 2026, $1.25T combined valuation), the prospectus will present SpaceX-xAI as simultaneously a launch company, an internet infrastructure company, a defense contractor, and an AI compute platform.
-
-By March 28, additional structural details emerged:
-
-**Confidential filing**: SpaceX aiming to file a confidential S-1 with the SEC this week or next, formalizing the June 2026 listing target. The filing may show the company losing money after absorbing [[xAI]]'s ~$1B/month burn rate.
-
-**No standard lockup**: SpaceX will not have the standard six-month lockup period. Having raised ~$10B over two decades as a private company, advisers want to prevent a massive share dump. The custom lockup arrangement is still being finalized — unclear whether insiders wait longer or sell earlier than the six-month norm.
-
-**Retail investor allocation >20%**: Musk personally committed to giving individual investors a larger-than-normal allocation. Typical IPOs reserve ~10% for retail; SpaceX's portion may exceed 20%, including smaller investors via [[Robinhood]] and wealthy bank clients.
-
-**Banks in alphabetical order**: In a departure from Wall Street convention, the five advising banks — [[Bank of America]], [[Citigroup]], [[Goldman Sachs]], [[JPMorgan]], and [[Morgan Stanley]] — will likely be listed alphabetically on the prospectus rather than in the traditional "lead left" hierarchy. Banks are also dividing roles by geography and investor type (US institutional, US retail, international). Several international banks enlisted for overseas buyers.
-
-**Scale context**: The $75B raise would surpass all money raised by US IPOs in the entirety of 2025 ([[Renaissance Capital]]). The company was last valued at $1.25T; advisers won't finalize offering size and valuation until a few weeks before launch.
-
-*Sources: The Information (Mar 25); Bloomberg (Mar 25); Reuters (Mar 25); WSJ (Mar 27-28)*
-
-### Nasdaq Fast Entry rule (Feb 2026)
-
-[[Nasdaq]] proposed a new index methodology rule (filed with SEC Feb 20, 2026, Federal Register Mar 6) specifically designed to attract megacap IPOs like SpaceX, [[Anthropic]], and [[OpenAI]]:
-
-| Detail | Value |
-|--------|-------|
-| Threshold | Market cap ranks in NDX top 40 (~$100B+) |
-| Timeline | Added after **15 trading days** (+ 5 days notice = ~1 month total) |
-| Exemptions | Waives 3-month seasoning period and liquidity requirements |
-| Status | Proposed, public comment closed Feb 27; implementation expected after March 2026 quarterly rebalance |
-| Contagion | [[FTSE Russell]] proposed its own fast-entry rule (Feb 18) for Russell US Equity Indexes — may relax 5% free float and voting-rights thresholds |
-
-Under current rules, newly listed companies wait up to a year for major index inclusion. Nasdaq created the Fast Entry rule to eliminate this delay for mega-IPOs — a direct competitive play to win SpaceX's listing. The rule also allows the Nasdaq 100 to temporarily exceed 100 members rather than immediately dropping an existing constituent.
-
-[[Dual-class shares]] structure (Feb 13, 2026): Bloomberg reports SpaceX weighing a formal dual-class share structure for the IPO. Musk already holds ~42% equity with ~79% voting control — a dual-class IPO would formalize this for public markets, ensuring he retains control post-dilution from the $25-50B raise. Follows the [[Google]]/[[Meta]]/[[Snap]] playbook. Key institutional concern: "key-man risk" amplified when that key man can't be checked by shareholders. S&P reversed its dual-class ban in April 2023, so index inclusion no longer blocked — but governance-focused investors may still push for sunset provisions.
-
-### S&P 500 seasoning rule review (Mar 3–14, 2026)
-
-[[S&P Dow Jones Indices]] (subsidiary of [[S&P Global]]) published a blog post titled "Seasoning to Taste" (Mar 3, 2026) signaling they are considering changing the 12-month "seasoning" requirement — the rule that a company must be publicly listed for at least 12 months before [[S&P 500]] inclusion.
-
-Bloomberg (Mar 14): S&P is now actively engaging with stakeholders to determine whether there's demand for changing the rules — an escalation from the blog-post stage to direct consultation. No decision has been made. A formal public consultation would last several weeks before any change can take effect.
-
-This is the primary structural barrier for SpaceX on the S&P side — separate from the [[Nasdaq 100]] fast-track covered above. If the seasoning rule is removed or shortened, SpaceX could join the S&P 500 within days or weeks of IPO rather than waiting 12+ months.
-
-Size context: at $1.75T, SpaceX would be larger than all but five S&P 500 companies — [[Nvidia]], [[Apple]], [[Microsoft]], [[Amazon]], and [[Alphabet]] — and bigger than both [[Meta]] and [[Tesla]].
-
-Current S&P 500 inclusion requirements:
-
-| Requirement | Threshold |
-|-------------|-----------|
-| Domicile | US |
-| Market cap | $22.7B minimum |
-| Public listing | 12-month seasoning (under review) |
-| Public float | 50% minimum |
-| Earnings | Positive trailing four quarters |
-| Final decision | Committee discretion |
-
-~$24T in assets is benchmarked to the S&P 500. Index funds tracking it must buy newly added stocks. Immediate inclusion at SpaceX's $1-1.75T target valuation would trigger massive passive buying flows — a structural demand event that dwarfs any active investor allocation.
-
-Scale context: if the 10 largest venture-backed US companies all listed and joined the S&P 500, they would make up ~4.5% of the index — more than the entire energy sector.
-
-*Source: Bloomberg (Mar 3, 14), Seeking Alpha, Benzinga, S&P Indexology Blog (Mar 3, 2026)*
-
-Purpose: Fund space-based data centers and AI infrastructure. Not just a rocket bet — framed as AI infrastructure play.
-
-Bull case: Ark Invest sees $2.5T+ by 2030 if [[Starlink]] and space AI scale.
+See **[[SpaceX IPO 2026]]** for full deal structure, index rule changes (Nasdaq Fast Entry, S&P seasoning review), dual-class governance, space sector contagion trade, PitchBook SOTP analysis, and the $200B mega-IPO absorption test ([[Anthropic]] $60B + [[OpenAI]] TBD in the same year).
 
 ---
 
@@ -393,7 +307,7 @@ Total shares outstanding: ~55.64M (preferred). [[Elon Musk]] holds ~42% equity w
 | Status | Private (2026 IPO planned, leaning [[Nasdaq]]) |
 | Valuation | $1.75T target (up from $1.25T combined, Feb 2026) |
 | IPO target | $1.75T |
-| IPO raise | $25-50B |
+| IPO raise | $75B (see [[SpaceX IPO 2026]]) |
 | Satellites | 9,000+ (1M applied for) |
 | 2025 revenue | ~$15B |
 | 2025 profit | ~$8B |
@@ -405,23 +319,7 @@ Total shares outstanding: ~55.64M (preferred). [[Elon Musk]] holds ~42% equity w
 
 ## PitchBook $1.75T valuation analysis (Mar 3, 2026)
 
-Senior analyst **Franco Granda** published *"When Venus and Jupiter Align"* — sum-of-the-parts places fair value between **$1.1T and $1.7T**, putting $1.75T IPO target at top of range but within it.
-
-**2025 segment breakdown:**
-
-| Segment | Revenue | EBITDA | Margin |
-|---------|---------|--------|--------|
-| [[Starlink]] | $10.6B | $5.8B | 54% |
-| Launch | $5.2B | $1.7B | 33% |
-| **Total** | **~$16B** | | |
-
-**Starlink metrics:** 9.2M subscribers (150+ countries, doubled 2 consecutive years). Direct-to-cell: 6M subscribers via 27 carrier partnerships in ~18 months. Acquired [[EchoStar]]'s wireless spectrum for $19.6B — converts D2C from carrier-dependent roaming into spectrum-owning platform.
-
-**2040 projections:** $150B total revenue. Starlink alone $120B at 70% EBITDA margin. D2C scaling to 1.1B subscribers. Launch $30B as Starship takes over. Implied forward multiple compresses from ~110x to ~12x.
-
-**IPO update:** Regulatory quiet period entered (SEC pre-S-1 step). Raise: $25-30B+, potentially beating [[Saudi Aramco]] 2019 record.
-
-**Key risk (PitchBook):** FAA environmental reviews for vehicle modifications proceeding slower than SpaceX's iteration cycle — single highest risk to 2026 launch cadence.
+See [[SpaceX IPO 2026]] for the full PitchBook SOTP analysis (Franco Granda, "When Venus and Jupiter Align"). Fair value range: $1.1T-$1.7T. Starlink $10.6B revenue at 54% EBITDA margin; 2040 projection $150B revenue. Key risk: FAA environmental review pace vs SpaceX iteration cycle.
 
 ---
 
@@ -444,6 +342,7 @@ Jan 10, 2026: FCC approved 7,500 additional Gen2 [[Starlink]] satellites.
 
 ## Related
 
+- [[SpaceX IPO 2026]] — full IPO event: deal structure, index rules, banks, sector contagion, $200B absorption test
 - [[SpaceX xAI merger]] — Feb 2026 acquisition, $1.25T combined
 - [[Elon Musk]] — CEO
 - [[Tesla]] — sibling company (not included in merger)
