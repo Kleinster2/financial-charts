@@ -43,6 +43,50 @@ Rolling dynamics create a second timing vulnerability. A 12-month hedge taken at
 
 ---
 
+## Oil producer hedging
+
+Oil producers face the mirror image of the airline problem: airlines need to cap the price they pay for fuel, producers need to floor the price they receive for crude. The asymmetry in how the industry approaches this reveals more about corporate strategy than about derivatives mechanics.
+
+[[Exxon]] does not hedge its oil production — one of the few major producers that treats financial hedging as a form of speculation. The logic: Exxon's entire business *is* oil exposure. Hedging would mean paying a counterparty to take the very risk that defines the company's equity value. With a fortress balance sheet ($30B+ cash, single-digit leverage), Exxon can absorb price downturns that would kill a leveraged independent. The market prices this in — during the 2026 [[Iran conflict economic disruption|Iran conflict]], Exxon stock rose just +2% versus [[BP]] +11% and [[Shell]] +9%. The gap reflects Exxon's lack of a large trading arm: BP and Shell earned windfall trading profits from volatility, while Exxon captured only the commodity uplift. The non-hedging posture sacrifices upside optionality in volatile periods.
+
+Most independent producers — the shale drillers of the [[Permian Basin]], the Appalachian gas operators — take the opposite view. They hedge because they must. Debt covenants require minimum cash flow coverage; banks won't extend reserve-based lending without hedged production. The standard instrument is the three-way collar: buy a put (floor protection), sell a call (cap on upside), and sell a deeper out-of-the-money put (premium offset). The structure provides a band of protected prices at minimal upfront cost. A typical shale producer might lock 50-70% of next year's production into a $60-90/bbl band, guaranteeing enough cash flow to fund the drilling program regardless of spot prices.
+
+The strategic tension is that hedging programs optimized for survival in downturns become opportunity costs in rallies. During the 2020 oil crash, hedged producers survived while unhedged ones filed for bankruptcy — the lesson pushed the industry toward aggressive hedging. But by 2022, when Russia's invasion of [[Ukraine]] sent crude above $120/bbl, many of those same producers were locked into $60-70 hedges and missed the windfall. The whipsaw teaches the same lesson the airline section illustrates: a hedge that "costs money" by capping upside is not a failure. It is the hedge doing its job. The producers that survived 2020 were alive to regret missing 2022.
+
+[[ConocoPhillips]], the largest pure-upstream US major (no refining, no chemicals), faces a structural version of this problem. Without downstream operations, there is no natural hedge against crude price declines — refining margins typically expand when crude falls, partially offsetting upstream losses for integrated majors like Exxon or [[Chevron]]. ConocoPhillips's own analysis flags the absence of a "downstream hedge" as a bear case. Pure-play exposure is attractive when oil rises; it is existential when oil crashes and there is no offsetting margin expansion to cushion the fall.
+
+---
+
+## Sovereign hedging
+
+Nations hedge the same risks as corporations — energy costs, currency exposure, fiscal revenue — but with instruments that range from financial derivatives to physical stockpiles to outright subsidies. The scale and the consequences of failure are different. A corporation that gets its hedge wrong loses money. A sovereign that gets it wrong loses political stability.
+
+[[Mexico]]'s annual oil hedge — the "Hacienda hedge" — is the gold standard. Since the early 2000s, Mexico's finance ministry has purchased put options on its oil production, locking in a minimum price for the following year's fiscal budget. The program is the world's largest single-entity derivatives trade: typically $1-1.5B in annual premium, executed through [[Wall Street]] banks and exchanges. The payoffs have been dramatic. In 2008-2009, Mexico bought puts at ~$70/bbl and collected approximately $5.1B when crude collapsed below $40 — a single trade that backstopped the national budget during the global financial crisis. Cumulative payouts over the program's life exceed $14B. The Hacienda hedge works because it is disciplined (every year, regardless of market conditions), sized to the fiscal exposure (hedging budgeted revenue, not speculating on price), and treated as insurance rather than a profit center. It is the sovereign equivalent of [[Ryanair]]'s rolling 12-month fuel program — unsexy, expensive in good years, indispensable in bad ones.
+
+The [[Strategic Petroleum Reserve]] is a physical hedge — barrels stored against future supply disruption rather than a financial contract. The 2026 [[Iran conflict country responses|Iran conflict]] stress-tested the system at scale: the [[IEA]] coordinated a 400M barrel release from 32 member nations, the largest in history. The [[United States]] contributed 172M barrels from an SPR at just 58% capacity (415M of 714M authorized). [[Japan]] released 80M barrels — its largest drawdown since 1978. The arithmetic is grim: 400M barrels against a ~15M bbl/day supply gap buys roughly 27 days. And the SPR's maximum flow rate (~1.5-2M bbl/day) means even a full drawdown takes months to deliver. The SPR addresses price volatility, not physical shortages — and repeated releases create "headline fatigue" where markets stop responding. [[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) noted the first IEA announcement moved oil "quite a lot," but by the fifth iteration the market showed no reaction at all.
+
+[[China]]'s approach is opacity as strategy. Its SPR is estimated at ~1.2B barrels ([[Barclays]]), providing roughly 104 days of import cover — the largest buffer of any single nation. But Beijing has never released from its SPR in coordination with the IEA and treats reserve levels as a state secret. The opacity itself is a form of hedging: uncertainty about China's reserves and intentions prevents markets from pricing in the buffer, preserving its shock value.
+
+Currency defense is sovereign hedging by another name. The [[Reserve Bank of India]] burned through >$20B in FX reserves defending the [[Indian rupee]] during the Iran conflict (record low ~93.2/USD), buying time for the economy to adjust. [[Indonesia]] spent $22.6B on fuel subsidies — a fiscal hedge that transfers the oil price shock from consumers to the government balance sheet, preserving social stability at the cost of the deficit. Both are hedges in the structural sense: absorbing a cost now to prevent a larger cost (political instability, demand collapse) later. But unlike financial hedges with defined premiums and expiration dates, sovereign hedges have open-ended costs and no natural maturity. The RBI can defend the rupee until reserves run out; Indonesia can subsidize fuel until the deficit triggers a debt crisis. The "premium" is paid in fiscal space consumed, and there is no counterparty to negotiate with — only the market.
+
+---
+
+## Dealer gamma hedging
+
+When an investor buys an option, the dealer who sells it inherits a directional exposure that must be neutralized. This neutralization — delta hedging — is the mechanical heartbeat of options markets, and its aggregate effect on prices is one of the least understood structural forces in modern markets.
+
+The mechanics are straightforward. A dealer who sells a call option on a stock is implicitly short the stock (if the stock rises, the dealer owes the difference). To neutralize this, the dealer buys shares proportional to the option's delta — the sensitivity of the option price to the underlying. If delta is 0.5, the dealer buys 50 shares per 100-share contract. As the stock rises, delta increases toward 1.0, and the dealer must buy more shares. As the stock falls, delta decreases, and the dealer sells. This continuous rebalancing is delta hedging. See [[Derivatives primer]] for the Greeks framework and [[Gamma squeeze]] for the full feedback loop mechanics.
+
+Gamma — the rate of change of delta — determines whether this rebalancing stabilizes or destabilizes prices. When dealers are long gamma (they own options), price moves reduce their delta exposure, so they sell into rallies and buy into dips. This is a mean-reverting force: dealer hedging acts as a damper on price movements. When dealers are short gamma (they have sold options, the typical posture since customers are net option buyers), the dynamic inverts. Price rises force dealers to buy, amplifying the rally. Price declines force dealers to sell, amplifying the selloff. Short gamma is a trend-reinforcing force — the market's accelerator pedal.
+
+The [[Silver crash January 2026|silver crash of January 2026]] demonstrated the unwind. [[SLV]] call option open interest built to record levels as silver ran to $121/oz. Dealers were massively short gamma, buying silver mechanically as calls moved into the money. When the reversal came, delta collapsed toward zero and dealers dumped their hedges simultaneously. Silver fell 26% in a single day. [[Alexander Campbell]]: *"As we squeeze up, they have to mechanically keep buying more...that would explain why we go up so fast, and down so fast."* The speed of both the rally and the crash was not driven by fundamental views about silver. It was driven by the mechanical hedging requirements of the dealers who had sold the options.
+
+The [[0DTE options]] explosion has compressed this dynamic into intraday timeframes. Zero-days-to-expiry options now account for ~50% of [[SPX]] options volume (up from ~5% before 2022, after [[CBOE]] introduced daily expirations). These options have maximal gamma — delta moves from 0 to 1 (or 1 to 0) within hours. Dealer hedging of 0DTE positions creates intense mechanical flows around key strike prices, particularly round numbers where open interest concentrates. The result is a market where intraday price action is increasingly driven by options mechanics rather than information. A 1% SPX move that triggers a wave of 0DTE delta hedging is a market event caused by the structure of hedging itself, not by any change in fundamentals.
+
+The analytical implication is that "the market" is not a single entity expressing a view. It is a composite of fundamental investors, systematic strategies, and mechanical hedging flows that interact in nonlinear ways. When a dealer's short gamma position is large enough, the tail wags the dog — hedging flow moves the price, which changes the delta, which requires more hedging, which moves the price further. Understanding who is hedging what, and in which direction, is as important for reading price action as understanding the underlying fundamentals. The vault tracks this through [[Gamma squeeze]] (mechanics and case studies), [[0DTE options]] (market structure), and [[Market Sentiment Indicators]] (VIX as the price of hedging).
+
+---
+
 ## Reference — hedging instruments
 
 See [[Derivatives primer]] for full mechanics. This table frames hedging-specific use cases.
@@ -105,7 +149,15 @@ See [[Derivatives primer]] for full mechanics. This table frames hedging-specifi
 - [[Wizz Air]] — unhedged exposure example
 - [[AIG]] — counterparty risk failure (2008)
 - [[Reinsurance sidecars]] — catastrophe risk transfer
+- [[Exxon]] — non-hedging as strategy (balance sheet absorbs volatility)
+- [[ConocoPhillips]] — pure upstream, no downstream hedge
+- [[Permian Basin]] — shale producer hedging dynamics
+- [[Mexico]], [[Pemex]] — Hacienda sovereign oil put program
+- [[Strategic Petroleum Reserve]] — physical sovereign hedge, headline fatigue
+- [[Iran conflict country responses]] — SPR deployment, RBI currency defense, Indonesia fiscal hedge
+- [[Silver crash January 2026]] — dealer gamma unwind case study (SLV -26% in a day)
+- [[Alexander Campbell]] — gamma mechanics commentary
 
 ---
 
-*Created 2026-03-28.*
+*Created 2026-03-28. Expanded 2026-03-30 — oil producer, sovereign, and dealer gamma sections.*

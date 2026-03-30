@@ -107,6 +107,29 @@ Two distinct waves, both feeding the same narrative:
 
 ---
 
+## Super-intelligence rerating framework (March 2026)
+
+[[Chamath Palihapitiya]] (All-In pod, Mar 27) framed the SaaS selloff as the leading edge of a broader capital markets reset: if super-intelligence is on the horizon, what is anything worth in year 10 or 15? If every business gets disrupted every 5-6 years, all you end up with is the cash. The rational employee response: demand more cash compensation, less equity — which then further compresses valuation multiples.
+
+His team charted free-cash-flow payback years (market cap / annual FCF) across SaaS and Mag 6:
+
+- [[Snowflake]]: ~100 years FCF payback in 2023, now cut in half
+- [[ServiceNow]], [[Workday]]: similar compression underway
+- But [[Apple]], [[Microsoft]], [[Meta]], [[Alphabet]]: market walking multiples UP — pricing these cash flows as "monopolistically durable forever"
+- [[NVIDIA]]: despite $200B revenue and highest margins, treated more like SaaS (compressed) than like Mag 6 (expanded)
+
+The dispersion is the insight: the market is simultaneously saying SaaS cash flows are fragile (compressing) while Mag 6 cash flows are permanent (expanding). [[NVIDIA]] is the outlier — best financial profile in the market but not getting the durability premium.
+
+[[David Sacks]] (Mar 27): *"I do think that there are still strong moats in a lot of different kinds of businesses and a lot of them are very subtle... network effects, the difficulty of producing physical world products."*
+
+Chamath's counter: *"I'm gonna bet that brands go to zero... [[Tesla]] killed [[BMW]], [[Mercedes]], [[Porsche]] pricing power. The Model Y wins because it's priced better and superior on every operational dimension."* He noted [[LVMH]] and [[Ferrari]] stock erosion as evidence even luxury pricing power is fading.
+
+[[David Friedberg]] cited [[Thoma Bravo]] LP slides showing selective dispersion — companies integrating AI into existing products with quality teams are reinventing themselves, not passively getting disrupted. The winners will win in every market, not just software.
+
+HALO thesis emerging: High Asset Low Obsolescence — physical experiences, nat gas production, space industry as counter-AI portfolio.
+
+---
+
 ## Open questions
 
 - **How fast can agents actually replace SaaS workflows?** Enterprise-grade deployment, security (especially [[prompt injection]]), and worker retraining are real barriers

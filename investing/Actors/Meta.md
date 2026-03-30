@@ -127,6 +127,8 @@ Senator [[Dick Durbin]]: "Big Tech has become Big Tobacco." Stock -7.96% on Marc
 
 Torrez has a separate child-exploitation suit against [[Snap]] in discovery, using the same design-liability theory.
 
+[[Chamath Palihapitiya]] (8090 Capital, Mar 27 2026): the two verdicts "opened the floodgates" — expects "death by a thousand cuts." The plaintiffs navigated around [[Section 230]] using product liability framing for the first time, and *"a map has been drawn"* for future litigation. [[David Friedberg]] noted US tort litigation costs $900B/year (3% GDP, growing ~10%/year), and trial lawyers are the largest donor class to judicial elections. Chamath supports a kill switch for kids under 18 but believes COPPA is broken: *"A six-year-old can vibe code their way around COPPA."* [[David Sacks]]: social media harms are *"much more unclear"* than smoking — supports parental empowerment and age assurance technology over blanket bans. Both Sacks and Friedberg distinguish AI chat apps (net positive for children learning) from social media (addictive by design).
+
 See [[2026 social media liability crisis]] for full details.
 
 ---

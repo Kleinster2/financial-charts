@@ -72,6 +72,12 @@ Launched September 2025 as dedicated social app — direct TikTok competitor for
 
 *Source: WSJ (Berber Jin, Mar 16 2026)*
 
+## Shutdown (March 2026)
+
+Sora app shut down entirely as part of [[OpenAI]]'s focus pivot. The cancellation killed a [[Disney]] partnership: Disney had committed $1B to OpenAI as part of a licensing deal to integrate Sora into Disney+. The investment and licensing deal were both cancelled. The billion is not going in.
+
+*Source: All-In Podcast (Jason Calacanis, Mar 27 2026)*
+
 ---
 
 ## Competitive position

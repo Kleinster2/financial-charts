@@ -29,11 +29,11 @@ Structure: One model family with generations (3, 3.5, 4, 4.5) and capability tie
 | Metric | Value |
 |--------|-------|
 | Professional users | ~18.9M |
-| Annualized revenue | $3B+ (summer 2025) |
+| Annualized revenue | $6B+ ARR added in Feb 2026 alone (All-In pod, Mar 27). $3B+ (summer 2025) |
 | Context window | 200K tokens (500K enterprise) |
 | Launch | March 2023 |
 
-Enterprise-focused: 80% of Anthropic's revenue from enterprise customers.
+Enterprise-focused: 80% of Anthropic's revenue from enterprise customers. [[Chamath Palihapitiya]] (8090 Capital, Mar 27 2026): *"From an enterprise lens, particularly through 8090, it's all Anthropic all the time... the quality of that technical team and what they create, it's head and shoulders above anything else."* [[Michael Dell]] called [[Claude Opus|Opus 4.6]] a model that *"hit a threshold that we haven't seen before in terms of real productivity in teams."*
 
 ---
 
@@ -142,7 +142,7 @@ Multi-cloud strategy reduces single-vendor dependency.
 | Pro price | $20/mo |
 | Context | 200K-1M tokens (1M beta) |
 
-*Updated 2026-02-17*
+*Updated 2026-03-30*
 
 ---
 

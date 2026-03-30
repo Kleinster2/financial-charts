@@ -238,6 +238,10 @@ Market read: this is the formal end of a unified global tech market. China insul
 
 **Sacks's concern:** China's AI optimism = competitive advantage. Less public resistance → less regulatory friction → faster deployment. US could "shoot ourselves in the foot" with overregulation driven by low AI optimism (1,200+ state AI bills in progress).
 
+### Scientific output overtaking US
+
+[[David Friedberg]] ([[PCAST 2026]] member, Mar 27 2026): 10 years ago, China published 50% of the number of scientific research papers in peer-reviewed journals as the [[United States]]. Last year, they published 50% more than the US. This is across all disciplines — physics, material science, chemistry, biochemistry, broad life sciences. China is no longer just a manufacturing copycat; in many subdomains of biotechnology and life sciences, China is becoming the scientific leader. Friedberg: *"China could end up engulfing the entire pharmaceutical industry and basically becoming the leader in things like medicine but most importantly foundational things like AI."* The race is now industrial, not just discovery.
+
 **Possible explanations (Sacks):** (1) Western media focuses on doom/gloom, (2) Hollywood dystopian portrayals (Terminator, 2001), (3) US tech leaders talking about eliminating 50% of knowledge workers sounds dystopian.
 
 - Less regulatory friction for deployment
