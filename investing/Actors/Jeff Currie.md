@@ -136,6 +136,22 @@ Asian refiners buying at premium from distant sources. Container shipping lines 
 
 *Source: [Bloomberg/Rigzone, Mar 23](https://www.rigzone.com/news/wire/the_oil_prices_you_see_do_not_tell_markets_real_story-23-mar-2026-183268-article/)*
 
+### CERAWeek by S&P Global (Mar 26) — "Turbocharges the energy transition"
+
+At CERAWeek in Houston, Currie made a surprising pivot: the war's biggest long-term consequence won't be higher oil prices — it will be accelerating the energy transition. The argument flips his own "revenge of the old economy" thesis on its head.
+
+The logic: the Hormuz disruption proves the vulnerability of oil-dependent energy systems so viscerally that countries will treat renewable energy not as a climate objective but as a national security imperative. "[[France]] has the lowest carbon footprints of any country in the world, and didn't get there because it wanted to save the planet. It got there to prevent precisely what is happening," Currie said, pointing to France's ~44% nuclear generation mix ([[IEA]] data).
+
+"One of the biggest predictions you can make out of what's currently happening is it's going to turbocharge the energy transition."
+
+This is not Currie abandoning the HALO thesis — it's layering a new timeline over it. The near-term (1-3 years) is still commodity-long, asset-heavy. The longer-term (5-10 years) now includes a security-driven acceleration of renewable deployment that the market hasn't priced. The 2022 Russia-Ukraine shock began this pivot; the 2026 Iran war is completing it.
+
+Supporting voices at CERAWeek: Geoffrey Pyatt (former US assistant secretary for energy resources): "wind plus solar plus batteries is becoming an increasingly compelling economic offer... pursued not as a climate objective but for economic energy access." Karim Fawaz ([[S&P Global]]): demand shifts from high oil prices — EVs, remote work — are "less likely to be reversible." German Federal Minister Katherina Reiche: energy scarcities possible in late April/May if war continues; phasing out nuclear was "a huge mistake." Lithuania: targeting 60% renewables in 2026 generation mix (up from 50% in 2025).
+
+The investment implication: Currie's HALO framework now has a time horizon qualifier. Heavy assets and low obsolescence for the transition period — but the transition itself is accelerating, which means the terminal value of fossil fuel assets starts to compress sooner than pre-crisis assumptions.
+
+*Source: [Reuters: Iran war seen boosting renewable energy investment](https://www.reuters.com/business/energy/ceraweek-iran-war-seen-boosting-renewable-energy-investment-with-focus-security-2026-03-26/) (March 26, 2026)*
+
 ### CNBC full interview (Mar 24)
 
 Full CNBC interview reiterating the paper-physical disconnect and supercycle thesis. Called the current environment "a (c)rude awakening" for markets still pricing a quick resolution.

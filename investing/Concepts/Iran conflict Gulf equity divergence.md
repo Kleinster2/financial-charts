@@ -17,11 +17,13 @@ The [[2026 Iran conflict market impact|2026 Iran conflict]] produced a striking 
 ![[gulf-equity-divergence-iran-conflict.png]]
 *Direct index comparison: Saudi stocks hold, Dubai and Qatar fall (Bloomberg, Mar 13)*
 
-| Index / ETF proxy | Move since ~Feb 28 | Move YTD (Feb 1) | Driver |
+| Index / ETF proxy | Move since ~Feb 28 | Move since Mar 1 (CNBC, Mar 27) | Driver |
 |-------------------|-------------------|-------------------|--------|
-| [[Tadawul]] (TASI) / KSA | +1.7% | -5% | Domestic buying, Aramco anchor |
-| [[Dubai Financial Market]] / UAE | -17% | -14% | Foreign outflows, trade/tourism exposure |
-| [[Qatar]] exchange / QAT | Down | -5% | LNG disruption, Hormuz dependency |
+| [[Oman]] MSX 30 | — | +9.3% | Safe-haven bid, Vision 2040 diversification |
+| [[Tadawul]] (TASI) / KSA | +1.7% (Mar 13) | +5.8% | Domestic buying, Aramco anchor, oil correlation |
+| [[Qatar]] exchange / QAT | Down | -4% | LNG disruption, Hormuz dependency |
+| [[Bahrain]] BAX | — | -7.2% | Small market, limited fiscal buffer |
+| [[Dubai Financial Market]] / UAE | -17% (Mar 13) | -16% | Foreign outflows, trade/tourism exposure |
 
 ---
 
@@ -81,4 +83,18 @@ The structural divergence: UAE's economy is more exposed to international trade 
 
 ---
 
-*Source: Bloomberg, "Saudi Equities Rise Despite War Backed by Local Investors" (March 13, 2026). Created 2026-03-23 from [[2026 Iran conflict market impact]] hub refactor.*
+---
+
+## March 27 update — Oman emerges as top performer (CNBC)
+
+CNBC reported Mar 27 that [[Oman]] surged to the top of the GCC league table, +9.3% since Mar 1 — beating even [[Saudi Arabia]] (+5.8%). The mechanism differs: while Saudi benefits from oil price correlation (Aramco = 16% of TASI) and domestic investor support, Oman's rally reflects a safe-haven bid. Damanick Dantes (Dantes Outlook): investors are rotating into Oman as the country's Vision 2040 diversification away from oil makes it appear more insulated from the conflict's long-term structural risks.
+
+[[Dubai Financial Market|Dubai]] closed the week of Mar 27 +2.4% — its Wednesday session was +4.2%, the biggest intraday gain since December 2024, powered by real estate and bank stocks. But the cumulative drawdown from Mar 1 remains -16%. Fahd Iqbal (head of investment services, [[UBP]], Dubai): "There are definitely investors that are seeking to take advantage of price dislocations... but we don't advise, and neither are our clients seeking, to take aggressive or very strong positions at this stage."
+
+The red line that would deepen the selloff further: attacks on energy infrastructure and water desalination — a direct threat to the physical functioning of Gulf economies beyond market pricing. Being dollar-pegged remains a major inflation risk for all GCC states, with traditional safe havens like [[Gold]] displaying risk-asset characteristics rather than hedging behavior.
+
+*Source: [CNBC: Gulf markets are splintering](https://www.cnbc.com/2026/03/27/iran-war-oil-markets-middle-east-gulf-turmoil-strait-hormuz-investors.html) (March 27, 2026)*
+
+---
+
+*Original source: Bloomberg, "Saudi Equities Rise Despite War Backed by Local Investors" (March 13, 2026). Created 2026-03-23 from [[2026 Iran conflict market impact]] hub refactor. Updated 2026-03-29.*

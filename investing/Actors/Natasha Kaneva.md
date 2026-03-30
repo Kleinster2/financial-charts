@@ -65,6 +65,55 @@ Noted precedent for DFC providing political risk insurance for war-related losse
 
 ---
 
+## March 20, 2026 — "Demand destruction has begun" (Oil Flash Note via FT)
+
+JPMorgan's Oil Flash Note (covered by FT Alphaville, March 20, Robin Wigglesworth) was the most detailed institutional documentation of real-time demand destruction in Asia. The subtitle was unambiguous: demand destruction has already begun. The note was not a forecast — it was an inventory of shutdowns already underway.
+
+### The two types of demand destruction
+
+The core analytical contribution: standard financial models capture only one type of demand destruction — the price-elasticity response (consumers adjust when prices rise). JPMorgan identified a second type that elasticity models miss entirely: demand destruction from the physical absence of inputs, regardless of what price buyers are willing to pay. This is what unfolded across Asia from mid-March as [[Strait of Hormuz]]-dependent feedstocks stopped arriving.
+
+Short-term global oil demand price elasticity: –0.024. At $100 Brent, the price effect alone trims ~1M bbl/day of global demand in April. But this is the floor — the note warned the real destruction is larger because it adds physical shortage and government intervention on top.
+
+### Product-by-product elasticity
+
+| Product | Elasticity | Mechanism |
+|---------|-----------|-----------|
+| Gasoline | Highest | Petrochemical crackers can partially substitute with ethane |
+| Jet fuel | Intermediate | Airlines cancel lightly booked flights |
+| Fuel oil | Lowest | Residential heating, maritime transport, power gen — no substitutes |
+
+### Asia shutdown inventory (as of Mar 19)
+
+**Petrochemicals (naphtha-dependent, >50% sourced from ME):**
+- [[Japan]]: [[Mitsubishi Chemical]], [[Mitsui Chemicals]] cut ethylene output; [[Sumitomo Chemical]] may delay Keiyo Ethylene restart
+- [[South Korea]]: YNCC declared force majeure, running at reduced rates; [[Lotte Chemical]], [[LG Chem]] warned they could follow. Government designated naphtha a strategic economic security item.
+- [[China]]: [[Sinopec]] reduced refinery runs ~10% to preserve crude inventories. [[Shell]]-[[CNOOC]] JV ethylene cracker in Huizhou shut down. [[Wanhua Chemical]] declared force majeure for ME customers (LPG feedstock disruption).
+- [[Indonesia]]: [[Chandra Asri]] operating at reduced rates, declared force majeure
+- [[Taiwan]]: [[Formosa Plastics]] Group declared force majeure (Mar 10)
+
+**Aviation (jet fuel near $200/bbl):**
+- [[Qantas]], [[Air India]], [[Cathay Pacific]], [[IndiGo]]: tiered fuel surcharges ($125-200/passenger on long-haul)
+- Scandinavian Airlines, Air New Zealand: outright route cancellations
+
+**Government emergency measures:**
+- [[Bangladesh]]: brought forward Eid al-Fitr, closed universities
+- [[Philippines]], [[Sri Lanka]]: four-day workweeks
+- [[Pakistan]]: closed schools, shifted universities to remote
+- [[Thailand]], [[Vietnam]]: encouraged work from home, limited vehicle use
+- [[Myanmar]]: alternating driving days
+- [[India]]: suspended LPG shipments to commercial operators, prioritized household supply
+
+JPMorgan's characterization: these government measures amount to "emergency demand management" — administrative demand destruction that standard price models do not capture.
+
+### Convergence warning
+
+The FT headline — "Demand destruction is the only solution" — captures the note's structural conclusion. With 11-16M bbl/day of crude offline and no adequate policy response ([[SPR]] releases are a "PR campaign" per [[Jeff Currie]]), the only mechanism that balances the market is demand falling. Not through voluntary conservation but through physical unavailability and economic pain. [[Kpler]] estimated transport demand destruction across Asia-Pacific could peak at 630K bbl/day in May — but that excludes industrial destruction from the petrochemical feedstock shortage.
+
+*Source: [FT Alphaville: "Demand destruction has begun"](https://www.ft.com/content/205bf040-cc91-40ac-a0fa-f43cd8fa9f99) (March 20, 2026); [Shale24 summary](https://www.shale24.com/en/oil-gas/energy-jpmorgan-warns-demand-destruction-has-already-begun-and-models-arent-measuring-it-properly-n809); [Atlantic Council: What Sri Lanka reveals](https://www.atlanticcouncil.org/dispatches/demand-destruction-has-begun-what-sri-lanka-reveals-about-the-global-energy-crisis/) (March 25, 2026)*
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -162,6 +162,44 @@ PISA rankings influence education policy globally.
 
 ---
 
+## March 2026 Interim Economic Outlook — Iran war shock
+
+The OECD's March 26, 2026 Interim Economic Outlook is the first major institutional assessment of the [[2026 Iran conflict market impact|Iran war's]] economic damage. The headline: the war entirely erased what would have been a ~0.3pp upward revision to global growth. Global GDP growth now 2.9% in 2026, 3.0% in 2027 — technically unchanged from December, but only because the war-driven downgrade exactly offset the pre-war upgrade.
+
+| Economy | 2026 GDP | 2027 GDP | Dec 2025 forecast | Change |
+|---------|----------|----------|-------------------|--------|
+| Global | 2.9% | 3.0% | 2.9% / 3.0% | Unchanged (but would have been +0.3pp) |
+| United States | 2.0% | 1.7% | 1.7% / 1.9% | +0.3pp / -0.2pp (post Supreme Court tariff ruling) |
+| Euro area | 0.8% | 1.2% | 1.2% / 1.4% | -0.4pp / -0.2pp (energy costs) |
+| [[China]] | 4.4% | 4.3% | 4.4% / 4.3% | Unchanged |
+| [[Japan]] | 0.9% | 0.9% | 0.9% / 0.9% | Unchanged |
+
+The inflation numbers are sharper:
+
+| Economy | 2026 headline inflation | Prior projection | Revision |
+|---------|------------------------|-----------------|----------|
+| G20 | 4.0% | 2.8% | +1.2pp |
+| United States | 4.2% | 2.8% (OECD Dec) / 2.7% (Fed Mar) | +1.4pp vs OECD |
+| US core | 2.8% | — | — |
+| US 2027 headline | 1.6% | — | Sharp decline (below Fed 2% target) |
+
+The 4.2% US headline forecast is significantly above the [[Federal Reserve]]'s own March projection of 2.7% — a 1.5pp gap between the two institutions. The divergence is driven by the OECD's more aggressive oil price assumptions. US core inflation at 2.8% suggests the energy pass-through is the dominant channel, not underlying demand pressure.
+
+Key analytical framing:
+- The baseline assumes energy disruption moderates over time, with oil, gas, and fertilizer prices declining gradually from mid-2026. This is an assumption, not a forecast.
+- Adverse scenario: if energy prices peak higher and stay elevated longer, global growth would be 0.5pp lower by the second year and inflation 0.9pp higher.
+- Two inflation drivers: Iran war energy shock + residual US tariff effects (effective tariff rate still above pre-2025 despite Supreme Court IEEPA ruling).
+- The OECD sees the Fed holding rates flat through 2027, reflecting "rising headline inflation in the near-term, core inflation projected to remain above target through 2027, and solid projected GDP growth."
+- Warning: "policy adjustment may be needed if there are signs of broader price pressures or weaker labour market conditions."
+
+OECD Secretary-General [[Mathias Cormann]]: "There's a high level of uncertainty around the duration and the magnitude of the current conflict in the Middle East and that means that this outlook is subject to significant downside risks that could result in lower growth and higher inflation."
+
+The 2027 US headline inflation collapse to 1.6% (below the Fed's 2% target) is notable — it implies the OECD expects the energy shock to be fully transitory if the conflict moderates, with a disinflationary overshoot. This sets up a potential rate-cutting window in late 2027 that's not in the Fed's current dot plot.
+
+*Source: [OECD Interim Economic Outlook](https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/oecd-economic-outlook-interim-report-march-2026_254a8d56/d4623013-en.pdf) (March 26, 2026); [Reuters](https://www.reuters.com/world/china/oecd-iran-war-erases-global-growth-upgrade-fans-inflation-2026-03-26/); [CNBC](https://www.cnbc.com/2026/03/26/global-forecasting-group-sees-us-inflation-at-4point2percent-this-year-much-higher-than-fed-estimate.html)*
+
+---
+
 ## Related institutions
 
 | Institution | Relationship |
