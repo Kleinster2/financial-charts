@@ -299,6 +299,10 @@ class NoteChecker:
         if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_fundamentals_chart(content, filepath))
 
+        # Sankey chart (public companies only, not ETFs/products)
+        if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+            issues.extend(self._check_sankey_chart(content, filepath))
+
         # Financials checks (not products - those go on parent company)
         if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_historical_financials(content, filepath))
@@ -846,6 +850,32 @@ aliases: []
                     f" and embed with ![[{slug}-fundamentals-chart.png]]"
                 )
             issues.append(Issue("error", "chart", f"Company missing fundamentals chart{fix_hint}"))
+
+        return issues
+
+    def _check_sankey_chart(self, content: str, filepath: Path) -> list[Issue]:
+        """Check for income statement Sankey chart embed."""
+        issues = []
+
+        has_sankey = bool(re.search(r'!\[\[.*sankey.*\.png\]\]', content, re.IGNORECASE))
+
+        # Allow same exemptions as fundamentals (pre-profit, limited disclosure, etc.)
+        has_exemption = bool(re.search(
+            r'(pre-profit|limited\s*(financial\s*)?disclosure|not\s*(yet\s*)?public|recently\s*ipo)',
+            content, re.IGNORECASE
+        ))
+
+        if not has_sankey and not has_exemption:
+            ticker = self._extract_ticker(content)
+            slug = filepath.stem.lower().replace(" ", "-")
+            fix_hint = ""
+            if ticker:
+                fix_hint = (
+                    f". Fix: generate via /api/chart/sankey?ticker={ticker}"
+                    f" -> save as investing/attachments/{slug}-sankey.png"
+                    f" and embed with ![[{slug}-sankey.png]]"
+                )
+            issues.append(Issue("error", "chart", f"Company missing income statement Sankey chart{fix_hint}"))
 
         return issues
 

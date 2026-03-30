@@ -10,6 +10,7 @@ Templates and required content for different note types.
 | ✓ | Quick stats exists |
 | ✓ | Price chart (public companies) |
 | ✓ | Fundamentals chart (public companies) |
+| ✓ | Sankey chart (public companies) |
 | ✓ | Chart captions (italicized) |
 | ✓ | Historical financials table |
 | ✓ | Cap table (private companies) |
@@ -496,6 +497,27 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome&
 **Primary parameter:** Use `primary=TICKER` to ensure the actor always gets the first color (blue #2962FF). This provides visual consistency — the actor is always blue in its own note.
 
 **Start date:** Pick a date that shows the relevant story — after major dips, IPO, or pivots.
+
+3. **Income statement Sankey** — flow diagram showing Revenue → COGS/Gross Profit → OpEx → Operating Income → Tax/Interest → Net Income
+
+```bash
+# Income statement Sankey (requires charting app running)
+curl "http://localhost:5000/api/chart/sankey?ticker=AAPL" \
+  -o investing/attachments/aapl-sankey.png
+```
+
+**Naming convention:** `{slug}-sankey.png` (lowercase, hyphenated).
+
+**Caption format:** Include revenue, net income, and net margin. Break out the major cost buckets as percentages.
+
+```markdown
+![[aapl-sankey.png]]
+*FY2025 income statement Sankey: $416.2B revenue → $112.0B net income (26.9% margin). COGS 53%, R&D 8%, Other OpEx 5%, Tax 5%.*
+```
+
+**When to include:** All public company actor notes with income statement data in the database. Same exemptions as fundamentals chart (pre-profit startups, limited disclosure, recent IPOs).
+
+**Placement:** After the fundamentals chart, before the Historical financials table.
 
 ---
 
