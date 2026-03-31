@@ -13,15 +13,17 @@ $1.8T market of non-bank lending to corporates. The fastest-growing corner of al
 
 | Metric | Value |
 |--------|-------|
+| **Total private capital** | **$22T** (FT, Mar 2026) — PE, credit, RE, infra combined |
 | **Leveraged finance total** | **$4.2T** (2025) — >40% of US corporate financing |
 | Private credit (US) | **$1.3T** (Dec 2024, NY Fed) — 30% of sub-IG debt (up from 13% post-GFC) |
-| Private credit (global) | **$1.8T** (2025) |
+| Private credit (global) | **$2T+** (Mar 2026, Preqin/BDC Collateral) — up from $1.8T (late 2025) |
 | 2028 forecast | $3.5T ([[BlackRock]]) |
-| Growth | $500B (2020) → $1.3T (2024) → $1.8T (2025) |
+| Growth | $500B (2020) → $1.3T (2024) → $1.8T (2025) → $2T+ (2026) |
 | Default rate | **5.8%** (12mo through Jan 2026, Fitch — record since Aug 2024 tracker); middle-market 4.55% |
 | Spread vs bank debt | +100-300 bps |
-| Bank exposure to private credit | **$300B** (Moody's, Oct 2025) |
+| Bank exposure to private credit | **$300B** (Moody's, Jun 2025); **$285B** to PE funds (Moody's); **up to $540B** (US Treasury OFR — higher estimate incl. all lenders) |
 | US life insurer illiquid credit | **$2T** (Moody's) |
+| Retail investors in private funds | **>$200B** across [[Blackstone]], [[Apollo]], [[Blue Owl]], [[Ares Management\|Ares]] et al. |
 | Retail BDC redemptions (Q4 2025) | **$2.9B** (+200% QoQ) |
 | Software concentration | 14-16% of spec-grade ("all-time" — Deutsche Bank) |
 | LMEs harming creditors ($500M+) | 33 (2024), 23 (2025) |
@@ -37,6 +39,14 @@ $1.8T market of non-bank lending to corporates. The fastest-growing corner of al
 | **Evergreen fund net AUM** | **$493.4B** (2025), up >20%/yr since 2022 |
 | Direct lending evergreen AUM | **$209.4B** — #1 strategy, grew 55%→66%→28% (2023-25) |
 | New evergreen fund launches (2025) | **107** (record, smashing 71 in 2023) |
+
+---
+
+## AUM growth
+
+![[ft-private-credit-aum-growth-2024.png]]
+
+*Private credit AUM by vehicle type: closed-end funds, BDCs, and dry powder. Grew from ~$0.3T (2012) to $2T+ (2024). Source: Preqin, BDC Collateral via FT (Mar 2026).*
 
 ---
 
@@ -99,10 +109,13 @@ Banks are fighting back — offering cheaper deals, fewer covenants, and creatin
 | Bank | Private credit activity |
 |------|------------------------|
 | [[JPMorgan Chase]] | Own fund, advisory |
+| [[HSBC]] | Fund-level lending |
 | Societe Generale | Own fund |
 | [[Goldman Sachs]] | Goldman Sachs AM |
 
 Competition between banks and private credit may encourage riskier deals ([[Moody's]] warning).
+
+**Regulatory arbitrage fuels bank participation.** [[HSBC]] CEO of corporate/institutional banking Michael Roberts told the UK Financial Services Regulation Committee (2025): lending into private credit on a secured basis gets *"preferable treatment"* — the bank may hold **20% of capital** against these loans vs **100%** for direct loans to the same borrowers. Banks channel risk through private credit to reduce capital charges.
 
 ### Data/research
 
@@ -362,7 +375,8 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 
 ## Related
 
-### Parent sector
+### Parent
+- [[Private markets]] — $22T universe; private credit is the fastest-growing segment at $2T+
 - [[Alternative Managers]] — broader sector (BX, KKR, APO, ARES, CG, TPG)
 
 ### Concepts & structures
@@ -399,6 +413,6 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 - [[GIC]] — sovereign wealth, private credit lender
 - [[Permira]] — PE sponsor extracting cov-lite terms
 
-*Updated 2026-03-18*
+*Updated 2026-03-30*
 
 *Sources: Bloomberg Markets (Feb/Mar 2026 issue), Bloomberg Going Private newsletter (Mar 2026), Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8 2026), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, FT, Fitch Ratings*

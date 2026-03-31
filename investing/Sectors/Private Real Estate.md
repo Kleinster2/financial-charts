@@ -202,9 +202,11 @@ Select retail formats recovering:
 ## Related
 
 **Sector hubs:**
+- [[Private markets]] — $22T parent universe; RE raised $94B (2025), still depressed
 - [[Data Centers]] — Blackstone/QTS, KKR/CyrusOne buildout
 - [[REITs]] — public real estate
 - [[Private Equity]] — parent category for REPE
+- [[Infrastructure]] — overlaps via DC REITs, mixed-use
 - [[Housing]] — residential real estate
 
 **Mega-managers:**

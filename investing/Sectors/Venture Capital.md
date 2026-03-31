@@ -105,9 +105,11 @@
 
 ## Related
 
+- [[Private markets]] — $22T parent universe; VC collapsed from 23.4% share (2022) to 9.7% (2025)
 - [[Growth Equity]] — later stage
 - [[Private Equity]] — buyouts
 - [[Corporate Venture Capital]] — strategic investors
+- [[Private market secondaries]] — record $119.9B (2025); VC stake sales dominant
 
 ---
 

@@ -186,6 +186,38 @@ See [[Indian rupee]] for full toolkit and analyst views. See [[Iran conflict FX 
 
 ---
 
+## Energy vulnerability — structural oil exposure
+
+India's households spend a disproportionately large share of income on energy compared to advanced economies — making oil shocks hit Indian consumers harder.
+
+| Country | % of household income on home energy (2021) |
+|---------|---------------------------------------------|
+| [[Italy]] | 7.2% |
+| [[India]] | 6.4% |
+| [[Spain]] | 6.5% |
+| [[Germany]] | 5.5% |
+| [[Japan]] | 5.2% |
+| [[China]] | ~5.0% |
+| [[UK]] | ~4.5% |
+| [[France]] | 3.7% |
+| [[South Korea]] | 3.3% |
+| [[US]] | 3.2% |
+| [[Canada]] | 3.1% |
+
+![[iea-household-energy-spending-by-country.png]]
+*Source: IEA, via FT Mar 9 2026*
+
+The US is structurally insulated: energy costs remain under 5% of disposable income even including fuel — barely moved since the post-2022 spike.
+
+![[fred-us-energy-share-of-income.png]]
+*Source: FRED (gasoline, other energy goods, electricity and gas services), via FT Mar 9 2026*
+
+This is the structural backdrop to India's acute vulnerability during the [[Operation Epic Fury|Iran conflict]]: ~85% crude import dependence, every $10/bbl costs ~$15B in annual import bill, and household energy budgets already stretched thin before the conflict began.
+
+Foreign Minister [[S. Jaishankar]] told parliament (Mar 8, 2026) that the region was "key to India's energy security" and that "supply chain disruptions and a climate of instability are serious issues."
+
+---
+
 ## Risks
 
 | Risk | Impact |
@@ -234,6 +266,9 @@ Events:
 
 Oil:
 - [[NIOC]] — seller of 5M barrels to [[Reliance Industries]] (March 2026 waiver)
+
+People:
+- [[S. Jaishankar]] — External Affairs Minister, energy security voice
 
 ---
 
@@ -384,4 +419,4 @@ Satellite spectrum is the next battleground. The telecom department is consideri
 
 *Source: FT India Business Briefing, Mar 9 2026*
 
-*Created 2026-01-10 · Updated 2026-03-20*
+*Created 2026-01-10 · Updated 2026-03-30*

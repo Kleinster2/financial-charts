@@ -75,6 +75,10 @@ Three of the world's biggest digital payments platforms all backing Japan's domi
 
 **Bookrunners:** [[Goldman Sachs]], [[JPMorgan Chase|JPMorgan]], [[Mizuho]], [[Morgan Stanley]]
 
+### IPO completion (Mar 2026)
+
+Successful listing with >$12B valuation (FT, Mar 23, 2026). Provided [[SoftBank]] a significant liquidity event amid the $30B [[OpenAI]] funding push. SoftBank retains 91.78% voting control post-IPO.
+
 ---
 
 ## SoftBank portfolio

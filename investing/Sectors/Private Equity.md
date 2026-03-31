@@ -92,10 +92,14 @@
 
 ## Related
 
+- [[Private markets]] — $22T parent universe; PE is the largest segment (~$5-6T)
 - [[Venture Capital]] — early-stage
 - [[Growth Equity]] — minority stakes
 - [[Leveraged Finance]] — PE debt
+- [[Private Credit]] — financing layer for PE buyouts
+- [[Infrastructure]] — fastest-growing segment; PE firms increasingly run infra arms
 - [[PE software talent drain]] — structural talent problem for PE-owned tech companies
+- [[Private credit retail liquidity crisis 2026]] — PE returns lagging public benchmarks; ~25% of funds since 2015 failing to earn carry
 
 ---
 

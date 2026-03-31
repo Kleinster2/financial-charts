@@ -47,6 +47,7 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **~Mar 17-21, 2026** | **[[Bank of America]] pitches shorts** against [[Deutsche Bank]] and [[Partners Group]] as "most exposed to private credit shocks" — then apologized for the note |
 | **~Mar 17-21, 2026** | **House of Lords votes against** UK government bill to allow ministers to force pension funds to invest minimum amounts in private assets — indicates fierce resistance to expanding retail/pension PE exposure |
 | **~Mar 17-21, 2026** | **[[Bain & Company]]**: PE firms had record backlog of almost **$4T in unsold investments** in 2025, even as dealmaking began recovering |
+| **Mar 30, 2026** | **FT panoramic** (Gara/Platt/Aliaj): comprehensive overview of $22T private capital risks. [[Guggenheim Partners]] exec chair [[Alan Schwartz]] (former [[Bear Stearns]] CEO): *"cracks in the foundation."* [[Blackstone]] chief [[Jon Gray]]: *"never seen something so disconnected from reality."* [[Diameter Capital]] co-founder Scott Goodwin: AI risk factor affects >50% of PE/credit deals from past decade. [[Partners Capital]] John Beil: *"PE has lagged public benchmarks by meaningful amounts"* over 5 years, predicts Q1 software writedowns. Former [[Goldman Sachs]] CEO [[Lloyd Blankfein]]: liquidity mismatch *"more likely"* given time since last major credit crash. [[Bank of England]] stress test this year; governor Bailey says *"alarm bells"* ringing. Treasury OFR estimates bank lending to private credit **up to $540B**. [[Davidson Kempner]]: ~25% of PE funds since 2015 failed to earn carry |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. **>$100B in funds** to disclose Q1 data ([[Barclays]]) |
 
 ---
@@ -526,6 +527,75 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 **Mark Zandi (Moody's):** *"The private credit industry is probably currently able to absorb any losses reasonably well, this may not be the case a year from now."*
 
+**Alan Schwartz ([[Guggenheim Partners]] executive chair, $300B AUM; former [[Bear Stearns]] CEO, Mar 30):** *"There are cracks in the foundation of the private debt market. Any time you get increased selling in illiquid assets that don't have transparent valuations, it can cause significant spasms in financial markets."* Added: *"while I'm sure there are excesses in the market, I don't think they're as deep and systemic"* as 2008. That the man who led Bear Stearns through its collapse sees "cracks" but stops short of systemic comparison is itself the signal.
+
+**Jon Gray ([[Blackstone]] chief, Mar 30):** *"I have never seen something so disconnected from reality in finance"* — on the 2008 comparison. PE funds borrow 1-2x investor capital (up to 3x at some funds) vs 15x at banks. Private capital is longer-term and harder to redeem than bank deposits. *"There will be defaults... we're not in a recessionary period. How this is creating incremental risk to the financial system, no one has yet explained this to me."*
+
+**Patrick Dwyer (NewEdge Wealth, Mar 30):** Told clients to cut PE exposure. *"Funds raised before 2022 are totally screwed."* Private capital firms *"grew too big too quickly and took in too much money, creating a glut of capital that was invested in ever shoddier deals."* Predicts a *"day of reckoning for private equity"* as firms capitulate by taking portfolio companies public at writedowns. *"There was too much money, everyone got greedy and they killed the golden goose."*
+
+**Mathieu Chabran ([[Tikehau Capital]] co-founder, Mar 30):** Father — retired 77-year-old doctor in Provence — received a brochure from his bank offering a [[Blackstone]] private debt fund for €25,000. *"That's when I realised that the wealth and growth of the juggernaut US managers was coming from retail channels."* Worries funds are mis-sold to unsophisticated investors. *"Obviously, there is a difference between my father and an Asian sovereign wealth fund in how they underwrite an investment."*
+
+**Scott Goodwin ([[Diameter Capital]] co-founder, Mar 30):** An *"AI risk factor"* affects over half of all PE/credit deals made in the past 10 years. Investors also worried about wealth managers and insurance brokerages for the same reason.
+
+**John Beil ([[Partners Capital]], head of PE, Mar 30):** Predicts wave of software writedowns when Q1 numbers finalize next month. *"There is no sugar coating the numbers. Private equity has lagged [behind] the public benchmarks by meaningful amounts"* over the past 5 years.
+
+**Lloyd Blankfein (former [[Goldman Sachs]] CEO, Mar 30):** Liquidity mismatch has become *"more likely given the length of time since the last major credit market crash. When something goes off you're going to find all the assets that have been carried at prices that can't be realised in the market."*
+
+**Michael Patterson ([[BlackRock]] senior exec, letter to investors Mar 2026):** *"This is an unsettling time for markets and investors. There's real impactful geopolitical uncertainty and well-founded anxiety about how artificial intelligence will reshape our personal and economic landscapes."*
+
+**Michael Arrougheti ([[Ares Management]] CEO, Mar 2026):** *"There's nothing that's flashing anything other than green right now."* Vaunted profitability of the hundreds of businesses Ares lends to, plus trillions in collateral. *"For the 30 plus years I've been investing in credit, there's nothing in those numbers that screams credit crisis is coming."*
+
+---
+
+## FT panoramic: industry data (Mar 30)
+
+### PE return deterioration
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| PE funds since 2015 failing to earn carry | **~25%** | [[Davidson Kempner]] |
+| PE fundraising (2021 peak) | **$1.2T** | FT |
+| PE fundraising decline from peak | **~50%** | FT |
+| PE-owned companies choosing PIK | **>10%** | FT |
+| PE purchase price multiple increase | **~2x** (decade to 2021 peak) | FT |
+| PE deals hard to exit | **~$4T** | [[Bain & Company]] |
+| Private credit annualized return since 2004 | **~10%** | FT |
+| Individuals in private funds | **>$200B** | FT |
+
+"Zombie funds" — midsized PE funds that will slowly die over the next decade due to lacklustre returns — are a growing cohort. Many have been unable to raise new capital as the gap between top-quartile managers and the rest widens.
+
+### Fraud blow-ups
+
+Fraud-related failures given outsized attention as the industry tries to frame stress as idiosyncratic rather than systemic:
+- [[First Brands Group]] — $10B US auto parts bankruptcy (Sept 2025), fraud alleged
+- Market Financial Solutions — UK property lender blow-up
+
+[[JPMorgan Chase|JPMorgan]] CEO [[Jamie Dimon]] on such scandals: *"When you see one cockroach, there's probably more."*
+
+### Redemption and default charts (FT/Morningstar/Stanger)
+
+![[ft-private-credit-redemption-spike-2026.png]]
+
+*Non-traded BDC redemption requests ($bn). Redemptions met (dark blue) vs unmet (light blue). Spike visible from mid-2025 through Jan 2026 — with unmet redemptions appearing for the first time. Source: RA Stanger via FT.*
+
+![[ft-distressed-borrower-vintage-2026.png]]
+
+*Distribution of CCC-to-C rated borrowers by vintage (%). Mar 2025 (blue) vs Mar 2026 (red). 2021 and 2022 vintages dominate the distressed pool — together accounting for ~70% of the most distressed borrowers. Source: Morningstar via FT.*
+
+![[ft-cumulative-default-rate-vintage-2026.png]]
+
+*Cumulative default rate by loan vintage (%). 2019-2022 vintages show highest defaults. The Jun 2025 → Feb 2026 shift shows defaults accelerating across all vintages, with 2021 vintage peaking at ~13%. Source: Morningstar via FT.*
+
+### Bank regulatory arbitrage
+
+[[HSBC]] CEO of corporate/institutional banking Michael Roberts (UK Financial Services Regulation Committee): banks lending to private credit on a secured basis hold **20% of capital** vs **100%** for direct loans to the same borrowers. Regulators are sometimes *"more comfortable"* with bank lending if channelled through private credit. This capital treatment advantage is a structural incentive for banks to maintain exposure even as risks rise.
+
+US Treasury OFR estimates bank lending to private credit funds could be **$540B** — significantly higher than [[Moody's]]' $300B estimate (which covers banks only, as of June 2025). Moody's separately estimates **$285B** in bank lending to PE funds, for a combined **$585B** in bank exposure to private markets.
+
+### 401(k) expansion
+
+Trump decision to allow 401(k) retirement savings accounts to invest in private markets — opening the largest-ever retail channel at the exact moment existing retail investors are fleeing. The industry's largest untapped capital pool (**$7T+ in 401(k) assets**) becomes accessible just as the credibility of the retail private credit model is under fire.
+
 ---
 
 ## What to watch
@@ -555,7 +625,8 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 | Metric | Value |
 |--------|-------|
-| Private credit market size | $1.8T |
+| Total private capital | $22T (PE, credit, RE, infra — FT Mar 2026) |
+| Private credit market size | $2T+ (Preqin, Mar 2026; was $1.8T in late 2025) |
 | Q4 2025 BDC redemptions (>$1B) | $2.9B (+200% QoQ) |
 | Q1 2026 weighted avg redemption requests | **~7.5%** (as of Mar 6, vs 5% cap) |
 | First fund gated | OBDC II ($1.7B, Feb 19, 2026) |
@@ -573,8 +644,8 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 | Alt manager contagion | OWL -8.7%, APO/BX/ARES -6%, KKR -4% |
 | Publicly-traded BDC lows | BlackRock TCP $3.82 (record, -50% YoY) |
 
-*Sources: Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8; "Twice shy" newsletter ~Mar 7; Feb 26 roundup; Feb 24-25 UBS/Loeb/Michele; Fishlow/DiMauro/Brown/Scigliuzzo, Feb), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), FT (Eric Platt, Mar 23, 2026; Alan Livsey, Mar 23, 2026), Reuters, CNBC, Robert A Stanger & Co., Deutsche Bank, UBS (Mish), Fitch Ratings, Barclays, BofA, Citigroup, KKR filings, Bain & Company, KBRA*
-*Updated 2026-03-23*
+*Sources: Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8; "Twice shy" newsletter ~Mar 7; Feb 26 roundup; Feb 24-25 UBS/Loeb/Michele; Fishlow/DiMauro/Brown/Scigliuzzo, Feb), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), FT (Eric Platt, Mar 23, 2026; Alan Livsey, Mar 23, 2026; Gara/Platt/Aliaj, Mar 30, 2026), Reuters, CNBC, Robert A Stanger & Co., Deutsche Bank, UBS (Mish), Fitch Ratings, Barclays, BofA, Citigroup, KKR filings, Bain & Company, KBRA, US Treasury OFR, Morningstar, Preqin/BDC Collateral*
+*Updated 2026-03-30*
 
 ---
 
@@ -620,3 +691,7 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 - [[Jeff Currie]] — regime change thesis: asset-heavy cycle, oil shock amplifies private credit stress
 - [[March 2020 liquidity crisis]] — prior liquidity event (different mechanism)
 - [[PE-insurance convergence]] — structural context (retail push)
+- [[Guggenheim Partners]] — Schwartz: "cracks in the foundation" (Mar 30). Former [[Bear Stearns]] CEO
+- [[Tikehau Capital]] — Chabran: retailisation anecdote (Mar 30)
+- [[Diameter Capital]] — Goodwin: AI risk factor >50% of PE/credit deals (Mar 30)
+- [[HSBC]] — regulatory arbitrage: 20% vs 100% capital requirement for private credit lending

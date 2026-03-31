@@ -184,7 +184,8 @@ US ADR (SFTBY) +3% on results.
 | Gross portfolio | ~$320B (S&P, Mar 2026) |
 | NAV | ~$150B+ |
 | Net debt | ~$40B |
-| LTV ratio | ~15% → ~37% (S&P projected, post-OpenAI round) |
+| LTV ratio | 16.5% (Sep 2025) → 20.6% (Dec 2025); CFO Goto projects 26-27% mid-2026; S&P projects ~37% post-round |
+| CDS spreads | Highest in nearly a year (Mar 2026) |
 | Arm liquid value | ~$80B (FT, Mar 9) — down from ~$150B+ at peak |
 | Unlisted share | >50% of portfolio (S&P, Mar 2026) |
 
@@ -271,8 +272,9 @@ Seeking record dollar-denominated bridge loan to fund additional $30B investment
 |--------|-------|
 | Loan size | Up to $40B |
 | Tenor | ~12 months (bridge) |
-| Lead underwriter | [[JPMorgan Chase]] |
-| Total underwriters | 4 banks |
+| Lead underwriter | [[JPMorgan Chase]]; main lenders include [[Mizuho]] |
+| Total underwriters | ~4 banks |
+| Installments | Three tranches: April, July, October 2026 |
 | Purpose | Fund $30B commitment to OpenAI $110B round |
 | Round participants | SoftBank $30B, [[NVIDIA]] $30B, [[Amazon]] $50B |
 | OpenAI pre-money | $730B |
@@ -299,6 +301,28 @@ Bloomberg Intelligence: SoftBank has relied on debt and asset sales to fund $70B
 
 *Source: Bloomberg (Mar 6, 2026); S&P Global (Mar 3, 2026)*
 
+### LTV stress and funding challenge (FT, Mar 23 2026)
+
+CFO Yoshimitsu Goto confirmed SoftBank's self-imposed 25% LTV limit may be breached: "I don't deny the possibility in the future that we may go temporarily beyond 25 per cent." Without action, Goto estimates LTV could reach 26-27%. SoftBank plans to bring it back below 25% "as quickly as possible" through asset sales, listings, and asset-backed financing.
+
+MST Financial analyst David Gibson framed the scale: "There's an estimated $50bn of funding, between OpenAI, investments and refinancing, that they have got to put in place in the course of 2026. The loan to value will hit 25 per cent or more."
+
+NAV >¥30tn (~$195B), providing balance sheet ammunition. Recent asset monetization:
+- [[PayPay]] IPO: >$12B valuation (successful, Mar 2026)
+- [[NVIDIA]] stake: $5.8B (sold in full)
+- [[T-Mobile]] stake: $12.7B (Jun-Dec 2025)
+- [[Arm Holdings|Arm]] margin loan: expanded to $20B
+
+Banks incentivized to participate in bridge financing by the prospect of roles in a potential [[OpenAI]] IPO. An OpenAI listing would also reduce SoftBank's ratio of private to public assets — currently >50% unlisted, up from 42% at end-2025.
+
+[[Project Stargate]] has been "scaled back," according to people familiar with the matter.
+
+Gibson on the Catch-22 of asset sales: after SoftBank sold its entire [[NVIDIA]] stake, "That made everyone think 'oh, you do have to sell stuff' . . . and therein lies the challenge."
+
+LTV as sentiment barometer — one Tokyo analyst: "If you don't like SoftBank as an investment, then the LTV going above 25 per cent matters. If you think SoftBank is making the right moves with OpenAI, then you can look through it."
+
+*Source: FT (David Keohane, Mar 23 2026)*
+
 ---
 
 ## Share price collapse (Oct 2025 – Mar 2026)
@@ -308,8 +332,17 @@ Bloomberg Intelligence: SoftBank has relied on debt and asset sales to fund $70B
 | Metric | Value |
 |--------|-------|
 | Peak | Record high (Oct 2025) |
-| Decline | ~50% from peak |
+| Decline | >45% from peak (FT, Mar 23) |
 | Nikkei 225 (same period) | +4% |
+
+![[softbank-vs-nikkei-share-price-oct25-mar26.png]]
+*SoftBank share price vs Nikkei 225, rebased in ¥ terms. Source: LSEG via FT (Mar 23, 2026).*
+
+![[softbank-ltv-quarterly-2020-2025.png]]
+*SoftBank LTV ratio, quarterly, 2020-2025. 25% normal limit; 35% emergency limit. Source: FT / company reports (Mar 23, 2026).*
+
+![[softbank-nav-composition-quarterly-2022-2025.png]]
+*SoftBank NAV composition by holding, quarterly, 2022-2025. Vision Funds (SVF1 + SVF2) becoming the most valuable part of portfolio. Source: FT / company reports (Mar 23, 2026).*
 
 On Mar 9, shares fell 9.8% in a single session — more than double the broader Japanese market decline — after reports that [[OpenAI]] and [[Oracle]] had scrapped plans to expand the Abilene [[Project Stargate|Stargate]] campus. Other OpenAI-adjacent stocks similarly punished: [[Oracle]] and [[CoreWeave]] both down 40%+ from SoftBank's late October peak.
 

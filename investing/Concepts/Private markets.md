@@ -3,7 +3,35 @@ aliases: [private equity, private companies, pre-IPO]
 ---
 #concept #fintech #private-markets
 
-**Private markets** — Companies that haven't gone public. Historically outperformed public markets but inaccessible to retail. Tokenization changing this.
+**Private markets** — The $22T universe of investments outside public markets: private equity, private credit, real estate, infrastructure, secondaries, venture capital. Grew from a cottage industry into a giant part of the financial system largely outside the purview of banking regulators. Now facing its first real stress test as the [[Private credit retail liquidity crisis 2026]] tests the retail model and PE returns lag public benchmarks.
+
+---
+
+## Market overview
+
+| Segment | AUM | Key metric |
+|---------|-----|------------|
+| **Total private capital** | **$22T** (FT, Mar 2026) | >40% growth since 2020 |
+| [[Private Equity]] | ~$5-6T | ~$4T in unsold investments ([[Bain & Company]], 2025) |
+| [[Private Credit]] | **$2T+** (Preqin, Mar 2026) | Fastest-growing segment; first gates in Feb 2026 |
+| Private real estate | ~$1.5T | Core/core+ collapsed; opportunistic dominant |
+| Infrastructure | ~$1.2T | Record fundraising ($206.6B in 2025); AI data centers driving |
+| Venture capital | ~$1T+ | Collapsed from 23.4% share (2022) to 9.7% (2025) |
+| Secondaries | ~$0.4T AUM | Record $119.9B raised (2025); transactions >$200B |
+| **Dry powder (all strategies)** | **~$1.7T+** | Capital committed but undeployed |
+
+*Note: segment AUMs are approximate and overlap exists (PE firms run credit, infra, RE). The $22T total is from FT (Mar 2026) citing industry data.*
+
+### Scale context
+
+| Comparison | Value |
+|------------|-------|
+| US banking system assets | ~$23T |
+| US public equity market cap | ~$50T |
+| Global bond market | ~$130T |
+| Private capital as % of US banking | **~95%** |
+
+Private capital is now roughly the size of the US banking system — but with a fraction of the regulatory oversight.
 
 ---
 
@@ -197,17 +225,27 @@ See [[Tokenized private shares]] for risks.
 
 ## Related
 
-- [[Private market secondaries]] — secondary transactions, VC SPVs
+### Segments (sector notes)
+- [[Private Equity]] — largest segment (~$5-6T); $414.2B raised (2025), weakest since 2020
+- [[Private Credit]] — fastest-growing ($2T+); $234.1B raised (2025), $618.1B dry powder
+- [[Infrastructure]] — record $206.6B raised (2025); AI DCs + energy transition driving
+- [[Private Real Estate]] — $94B raised (2025), still depressed; opportunistic dominant
+- [[Venture Capital]] — collapsed from 23.4% share (2022) to 9.7% (2025)
+- [[Private market secondaries]] — record $119.9B raised (2025), $200B+ transaction volume
+
+### Dynamics
+- [[Private credit retail liquidity crisis 2026]] — first stress test of semi-liquid retail model
+- [[Private Market Access]] — retail channel dynamics (ETFs, closed-end funds, interval funds)
 - [[Tokenized private shares]] — retail derivative access
-- [[Forge Global]] — secondary platform
+- [[Alternative asset manager valuation]] — fee-based valuation framework
+
+### Platforms
+- [[Forge Global]] — secondary platform (being acquired by [[Charles Schwab]])
 - [[Republic]] — crowdfunding platform
 - [[AngelList]] — syndicate/SPV platform
-- [[OpenAI]] — largest private company
-- [[Anthropic]] — private AI lab
-- [[Thrive Capital]] — SPV syndicator
-- [[Private Credit]] — $234.1B raised (2025), $618.1B dry powder, evergreen crisis
-- [[Private credit retail liquidity crisis 2026]] — evergreen fund stress test
-- [[Private market secondaries]] — $119.9B record (2025), $200B+ transaction volume
-- [[Private Market Access]] — retail channel dynamics
-- [[Private Real Estate]] — $94B raised, core/core+ collapsed
+
+### Key private companies
+- [[OpenAI]] — largest private company (~$500B seeking)
+- [[SpaceX]] — second largest (~$350B)
+- [[Anthropic]] — Constitutional AI (~$60B)
 
