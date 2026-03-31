@@ -115,11 +115,13 @@ The arc: a graphics card company that bet on general-purpose GPU computing in 20
 ## Charts
 
 ![[nvda-90d.png]]
+*NVDA vs SMH, 90 days*
 
 ![[nvda-vs-smh.png]]
-*[[Semiconductors|SMH]]*
+*NVDA vs [[Semiconductors|SMH]], 1-year normalized*
 
 ![[nvda-fundamentals.png]]
+*Revenue, net income, margins (FY2016-FY2026)*
 
 ![[nvda-sankey.png]]
 *FY2026 income statement Sankey: $215.9B revenue, 55.6% net margin. Gross: 71.1%, Operating: 60.4%.*
@@ -399,6 +401,7 @@ The math problem:
 - But Blackwell deployment only started 3-4 months prior
 
 Blackwell deployment challenges:
+
 | Factor | Change from Hopper |
 |--------|--------------------|
 | Cooling | Air → liquid |
@@ -458,8 +461,10 @@ See [[Short interest]] for interpretation framework.
 *Updated 2026-03-30*
 
 ![[nvda-price-chart.png]]
+*NVDA vs SMH, 2-year normalized*
 
 ![[nvda-fundamentals.png]]
+*Revenue, net income, margins (FY2016-FY2026)*
 
 ---
 

@@ -206,6 +206,12 @@ BAC trades as a core Regional Banks name (KRE r = 0.86).
 ### Risks
 - [[Credit card rate cap]] — Trump 10% proposal (Jan 2026)
 
+### Research notes
+
+**Semiconductor subsector ranking (Mar 2026):**
+BofA ranked semiconductor subsectors in client notes amid the [[TurboQuant]] memory sell-off, calling the panic "overdone" and drawing a parallel to the [[DeepSeek]] early 2025 episode. Ranking (most → least preferred): AI Computing ([[NVIDIA]], [[Broadcom]], [[AMD]]) → Semicap Equipment ([[Lam Research]], [[Applied Materials]], [[MKS Instruments|MKS]]) → AI Networking ([[Marvell]], [[Credo Technology Group|Credo]]) → Memory ([[Micron]]). BofA price target for MU implies 35%+ upside. Also raised WFE estimates after strong semicap earnings.
+
 ### Sources
 - [CNBC: Bank of America Q4 2025 Earnings](https://www.cnbc.com/2026/01/14/bank-of-america-bac-q4-2025-earnings.html)
+- [Business Insider: Memory sell-off overdone (Mar 28)](https://www.businessinsider.com/memory-stock-sell-off-micron-ai-stocks-analyst-pick-bofa-2026-3)
 

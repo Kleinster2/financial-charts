@@ -1,11 +1,11 @@
 ---
 aliases: [helium shortage 2026, helium crisis, Qatar helium shutdown, Hormuz helium disruption]
-tags: [concept, supply-chain, semiconductor, iran, helium]
+tags: [event, supply-chain, semiconductor, iran, helium]
 ---
 
 # Helium supply crisis 2026
 
-The removal of ~30% of global commercial helium supply following [[QatarEnergy]]'s [[Ras Laffan]] shutdown (March 2) and the [[Strait of Hormuz]] closure. Helium is a byproduct of natural gas processing — when LNG stops, helium stops. The semiconductor industry is now helium's largest consumer (surpassing MRI), making this a direct supply chain threat to AI chip fabrication.
+The removal of ~30% of global commercial [[Helium]] supply following [[QatarEnergy]]'s [[Ras Laffan]] shutdown (March 2) and the [[Strait of Hormuz]] closure. [[Helium]] is a byproduct of natural gas processing — when LNG stops, helium stops. The semiconductor industry is now helium's largest consumer (surpassing MRI), making this a direct supply chain threat to AI chip fabrication.
 
 ---
 
@@ -21,53 +21,11 @@ Cross-link: this compounds the [[Iran conflict economic disruption]] story beyon
 
 ---
 
-## Why this keeps happening — structural dysfunction
+## Why this crisis is different
 
-Helium is the only commodity Earth is permanently losing. Produced by radioactive decay of uranium and thorium over billions of years, trapped underground by geological accident, and too light for Earth's gravity to retain — once vented, it's gone. It cannot be synthesized economically.
+Three prior [[Helium#Shortage history|helium shortages]] (2006, 2011, 2019) were maintenance hiccups — each resolved without structural reform. The 2026 crisis is wartime destruction of production and shipping infrastructure, with no strategic buffer anywhere (the US [[Helium#US National Helium Reserve — and its liquidation|sold off its reserve]] in 1996). The policy failure that started three decades ago has arrived at its logical conclusion.
 
-The entire global supply is an accident of petroleum geology: helium collects in certain natural gas reservoirs, and we extract it as a byproduct during gas processing. No gas processing = no helium. This is why [[Qatar]]'s LNG shutdown is so devastating — helium production is physically tethered to LNG operations at [[Ras Laffan]].
-
-The U.S. understood this early. The Mineral Leasing Act of 1920 reserved all helium on federal lands to the government. The Helium Act of 1925 created the National Helium Reserve at the Cliffside Gas Field (Bush Dome) near Amarillo, Texas — the world's only strategic helium buffer. By 1964, 95% of global recoverable helium was produced within 250 miles of Amarillo. The reserve held over 1 billion cubic meters of crude helium by 1995.
-
-Then Congress sold it off. The Helium Privatization Act of 1996 directed the Department of the Interior to liquidate the stockpile to retire $1.4 billion in accrued program debt. Below-market government helium flooded the market for two decades, destroying incentives for new production investment or recycling technology. The Helium Stewardship Act of 2013 slowed the selloff but still mandated full disposal by 2021. By 2023, the reserve was effectively exhausted — the GSA auctioned the remaining facilities.
-
-The result: when the 2026 crisis removed 30% of global supply, there was no strategic buffer anywhere in the world. The parallel to petroleum is damning: after the 1973 oil embargo, the U.S. created the Strategic Petroleum Reserve and never sold it off. The difference is political visibility — oil shortages produce gas lines and angry voters; helium shortages produce delayed MRI installations and inconvenienced scientists. By the time helium became critical to semiconductor fabrication and the AI race, the buffer was already gone.
-
-The shortage cycle tells the story: 1.0 (2006-07), 2.0 (2011-13), 3.0 (2019-20), each triggered by maintenance hiccups at a handful of plants. Each time: prices spiked, headlines appeared, calls for recycling and diversification — then the crisis passed without structural reform. Helium prices nearly doubled from $7.57/m³ (2020) to a historic high of $14/m³ (2023). There is no spot market, no futures contract, no price transparency — just opaque bilateral contracts between industrial gas majors and end users.
-
-The 2026 crisis is categorically different: not a maintenance hiccup but wartime destruction of production and shipping infrastructure. The policy failure that started in 1996 has arrived at its logical conclusion.
-
----
-
-## Why helium matters
-
-Helium has no substitute for its two critical semiconductor applications:
-
-| Application | Why helium | Details |
-|-------------|-----------|---------|
-| Etching temperature control | Exceptional thermal conductivity | Performed hundreds of times per wafer; controls heat during selective material removal on advanced AI chips with tens of billions of transistors |
-| Dilution refrigerators | Helium-3 and helium-4 isotopes required | Cools superconducting quantum computers to ~10-15 millikelvin; see [[Quantum computing#Dilution refrigerators — the hidden chokepoint|Quantum computing — dilution refrigerators]] |
-
-Helium boils at -269degF (-269degC) — second only to absolute zero among elements. This makes it irreplaceable for cryogenic applications and extremely expensive to transport (specialized 11,000-gallon cryogenic containers required).
-
----
-
-## Global supply structure
-
-| Producer | Share of global supply | Annual production | Notes |
-|----------|----------------------|-------------------|-------|
-| [[United States]] | ~36% | ~81M cubic meters | Multiple sources: BLM reserve (depleting), private wells |
-| [[Qatar]] | ~33% | ~63M cubic meters | Three plants at [[Ras Laffan]]; two produce helium from LNG waste gas |
-| [[Algeria]] | ~6% | — | [[Sonatrach]] operations |
-| [[Russia]] | ~5% | — | Amur Gas Processing Plant ([[Gazprom]]) |
-| [[Australia]] | ~3% | — | Growing, Darwin LNG |
-| Others | ~17% | — | Tanzania (emerging), Canada, Poland |
-
-Total global production (2025): ~190M cubic meters — enough to fill roughly 76,000 Olympic-size swimming pools (WSJ, Mar 30).
-
-*Source: United States Geological Survey (2024 data)*
-
-Concentration risk: two countries ([[United States]], [[Qatar]]) produce ~69% of global helium. [[Qatar]] exports ~40% of the world's traded helium supply (German Mineral Resources Agency). All Qatar production exits through the [[Strait of Hormuz]].
+For helium's physical properties, industrial uses, [[Helium#Global supply structure|supply structure]], and [[Helium#Pricing|pricing]], see [[Helium]].
 
 ---
 
@@ -143,16 +101,9 @@ Recycling gap: helium recycling is technically feasible but not implemented in c
 
 ---
 
-## Industrial gas distributors
+## Industrial gas distributor positioning
 
-| Company | Ticker | Role |
-|---------|--------|------|
-| [[Linde]] | LIN | Global #1 industrial gas; helium distributor |
-| [[Air Liquide]] | AI.PA | Global #2; helium distributor |
-| Iwatani | 8088.T | Major Japanese helium distributor; directly exposed to Qatar supply |
-| [[Air Products]] | APD | US-based; helium distributor |
-
-Distributors are assessing surcharges (Phil Kornbluth reported unnamed major supplier already evaluating). These companies benefit from pricing power during shortages but face physical allocation challenges.
+[[Helium#Industrial gas distributors|Major distributors]] ([[Linde]], [[Air Liquide]], [[Air Products]], Iwatani) benefit from pricing power during shortages but face physical allocation challenges. Surcharges already being assessed.
 
 Wall Street positioning (Mar 2026):
 - [[JPMorgan]] upgraded [[Linde]] (Jeffrey Zekauskas) — LIN +15% YTD through Mar 19, vs S&P -3%
@@ -179,16 +130,9 @@ The March 18 missile strike on Ras Laffan shifts the scenario distribution towar
 
 ---
 
-## Historical precedent — Helium Shortages 1.0-3.0
+## Historical context
 
-| Shortage | Cause | Duration | Impact |
-|----------|-------|----------|--------|
-| 1.0 (2006-07) | BLM reserve maintenance + Algeria plant delays | ~18 months | MRI installations delayed |
-| 2.0 (2011-13) | BLM pipeline issues + Qatar plant commissioning delays | ~2 years | NMR labs shut instruments; research disrupted |
-| 3.0 (2019-20) | Russia Amur delays + Qatar maintenance + BLM auction changes | ~18 months | Prices doubled; party balloon shortages made headlines |
-| 4.0 (2026) | War — Qatar offline + Hormuz closed + Ras Laffan struck | Ongoing | First shortage driven by geopolitical destruction, not maintenance |
-
-Each previous shortage triggered calls for recycling, strategic reserves, and supply diversification. None materialized at scale. The 2026 crisis is categorically different: previous shortages were supply hiccups (maintenance, commissioning delays); this is a wartime destruction of production and shipping infrastructure.
+This is Shortage 4.0 — the first driven by geopolitical destruction rather than maintenance. See [[Helium#Shortage history]] for the full 1.0-3.0 cycle.
 
 ---
 
@@ -216,16 +160,12 @@ TECHCET CEO Lita Shon-Roy: *"Helium can leak out about 0.1 to 1 percent per mont
 
 ## Related
 
+- [[Helium]] — the commodity: properties, supply structure, shortage history, reserve liquidation
 - [[Nitrogen Trap]] — parallel chokepoint analysis for fertilizer inputs through [[Strait of Hormuz]]
 - [[Iran conflict economic disruption]] — parent disruption hub covering oil, LNG, fertilizer, shipping
 - [[2026 Iran conflict market impact]] — market reaction hub
 - [[Strait of Hormuz]] — transit chokepoint; ~86% traffic decline as of Mar 7
 - [[QatarEnergy]] — operator of Ras Laffan; declared force majeure Mar 4
-- [[Quantum computing]] — helium-3/4 dependency for [[Quantum computing#Dilution refrigerators — the hidden chokepoint|dilution refrigerators]]
-- [[Helion Energy]] — fusion startup dependent on helium-3
 - [[SK Hynix]] — first chipmaker publicly forced into supply diversification
 - [[TSMC]], [[Samsung Electronics]] — exposed advanced node fabs
 - [[Linde]], [[Air Liquide]], [[Air Products]] — industrial gas distributors managing allocation
-
-### Cross-vault
-- [History: Helium Economy](obsidian://open?vault=history&file=05%20-%20Modern%2FHelium%20Economy) — full arc from 1868 discovery through WWI strategic awakening, Cold War stockpile, 1996 privatization disaster, and the policy failure that left no buffer for 2026

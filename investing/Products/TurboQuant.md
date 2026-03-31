@@ -70,7 +70,19 @@ The papers existed for nearly a year before Google chose to formally unveil them
 
 ## Investment implications
 
-Memory stocks sold off immediately: [[Micron]] -3.9%, [[SanDisk]] -3.5%, [[Seagate]] down. The market's read is straightforward — 6x less memory per inference call means less DRAM/HBM demand at the margin.
+Memory stocks sold off immediately: [[Micron]] -3.9%, [[SanDisk]] -3.5%, [[Seagate]] down. The market's read is straightforward — 6x less memory per inference call means less DRAM/HBM demand at the margin. The sell-off dragged the Nasdaq Composite into correction territory by March 28.
+
+### BofA response (Mar 28-31, 2026)
+
+[[Bank of America]] called the sell-off "overdone" in a client note, arguing that compression tech isn't new — [[NVIDIA]] announced similar updates in the past year, and TurboQuant's underlying techniques were already known in the space. BofA drew a direct parallel to the [[DeepSeek]] panic of early 2025, when "ultimately unfounded fears trumped fundamentals" and drove dramatic but short-lived losses.
+
+BofA's core argument: "AI capex remains the ultimate proof point of AI spend/demand, not efficiency measures." With AI spending tracking toward $1T by 2030 on their "conservative" projections, the money pouring into AI infrastructure is a better demand indicator than any single compression technique.
+
+The bank reiterated its semiconductor subsector ranking:
+1. **AI Computing** — [[NVIDIA]], [[Broadcom]], [[AMD]]
+2. **Semicap Equipment** — [[Lam Research]], [[Applied Materials]], [[MKS Instruments|MKS]]
+3. **AI Networking** — [[Marvell]], [[Credo Technology Group|Credo]]
+4. **Memory** — [[Micron]] (trading at low end of historical valuation; BofA price target implies 35%+ upside)
 
 The counter-thesis rests on [[Jevons' Paradox]]: when you make a resource 6x more efficient, total consumption historically increases because the lower cost unlocks new use cases. If inference costs drop 50%:
 - Longer contexts and more concurrent agent sessions consume the freed capacity

@@ -69,7 +69,7 @@ Memory profits fund other bets (foundry, packaging). Taiwan specialty memory mak
 
 | Player | Why |
 |--------|-----|
-| [[Consumer]] electronics OEMs | Higher BoM costs |
+| [[investing/Concepts/Consumer]] electronics OEMs | Higher BoM costs |
 | PC/smartphone makers | Price increases or spec downgrades |
 | End consumers | Pay more, get less |
 
@@ -95,7 +95,7 @@ Weak consumer electronics demand could ease shortage — but only partially. AI/
 Pricing:
 - [[TrendForce]]: DRAM prices +50-55% QoQ in Q4 2025
 - Samsung raised some chip prices 60%
-- [[Consumer]] electronics prices expected to rise 5-20%
+- [[investing/Concepts/Consumer]] electronics prices expected to rise 5-20%
 
 Capacity:
 - Samsung/SK Hynix 2026 orders already exceed capacity
@@ -413,7 +413,38 @@ Of the ~$600B in hyperscaler CapEx in 2026, roughly a third — ~$200B — goes 
 
 ---
 
-*Updated 2026-03-16*
+## BofA: TurboQuant sell-off "overdone" (Mar 28-31, 2026)
+
+Google's [[TurboQuant]] announcement (Mar 25) triggered a memory stock sell-off — [[Micron]] -3.9%, [[SanDisk]] -3.5%, [[Seagate]] down — dragging the Nasdaq into correction territory. [[Bank of America]] pushed back forcefully in client notes:
+
+**BofA's counter-thesis:**
+- Compression tech isn't new — [[NVIDIA]] had similar announcements in the past year
+- TurboQuant's underlying techniques were already known in the space
+- Drew direct parallel to the [[DeepSeek]] panic of early 2025 — "ultimately unfounded fears trumped fundamentals"
+- "AI capex remains the ultimate proof point of AI spend/demand, not efficiency measures"
+- AI spending tracking toward $1T by 2030 on "conservative" estimates
+
+**BofA semiconductor subsector ranking (most → least preferred):**
+
+| Rank | Subsector | Top picks |
+|------|-----------|-----------|
+| 1 | AI Computing | [[NVIDIA]], [[Broadcom]], [[AMD]] |
+| 2 | Semicap Equipment | [[Lam Research]], [[Applied Materials]], [[MKS Instruments\|MKS]] |
+| 3 | AI Networking | [[Marvell]], [[Credo Technology Group\|Credo]] |
+| 4 | Memory | [[Micron]] |
+
+Memory is #4 but still "top" — BofA flagged [[Micron]] specifically as trading at low end of historical valuation, with their price target implying 35%+ upside from current levels.
+
+**Separately, BofA raised WFE estimates** after strong semicap earnings season:
+- [[Lam Research]]: guided +23% YoY sales growth in 2026
+- [[KLA]]: projected high-teens YoY sales growth
+- [[Applied Materials]]: forecast +20% YoY systems growth
+
+*Sources: Business Insider (Mar 28), Investing.com (Mar 31), Seeking Alpha (Mar 30)*
+
+---
+
+*Updated 2026-03-31*
 
 ## Related
 
