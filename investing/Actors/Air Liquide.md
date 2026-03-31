@@ -111,7 +111,17 @@ Air Liquide builds gas plants inside or adjacent to fabs.
 
 ---
 
-*Updated 2026-01-20*
+## Helium supply crisis (March 2026)
+
+Subsidiary Airgas declared force majeure in March 2026, citing the [[QatarEnergy]] outage. Per a letter to a customer reviewed by the Wall Street Journal (Mar 30):
+- Allocation capped at up to 50% of normal monthly helium demand
+- Surcharge of $13.50 per hundred cubic feet above contracted price
+
+See [[Helium supply crisis 2026]] for full context on the ~30% global helium supply loss following the [[Strait of Hormuz]] closure and [[Ras Laffan]] strikes.
+
+---
+
+*Updated 2026-03-31*
 
 ---
 

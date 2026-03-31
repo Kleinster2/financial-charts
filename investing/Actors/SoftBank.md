@@ -180,7 +180,7 @@ US ADR (SFTBY) +3% on results.
 | Metric | Value |
 |--------|-------|
 | Ticker | 9984.T (Tokyo) |
-| S&P rating | BB+ (junk); outlook negative (Mar 3, 2026). Downgrade trigger: LTV >35% |
+| S&P [[Credit rating mechanics|rating]] | BB+ (junk); outlook negative (Mar 3, 2026). Downgrade trigger: LTV >35% |
 | Market cap | ~$100B |
 | Gross portfolio | ~$320B (S&P, Mar 2026) |
 | NAV | ~$150B+ |

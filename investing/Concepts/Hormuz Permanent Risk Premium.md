@@ -55,6 +55,8 @@ Paul Sankey ([[Sankey Research]], March 14): *"The market has been seeing the un
 
 [[Brad Setser]] (CFR panel, March 17): Current $30/bbl price increase reflects a probability-weighted average between quick resolution and multi-month blockade. If the latter materializes, elasticity math implies **$170+** — meaning the market is structurally underpricing duration risk.
 
+[[Eric Nuttall]] ([[Ninepoint Partners]], March 30): Endorsed the permanent premium at **$10-20/bbl minimum** — and crystallized the asymmetric vulnerability with a memorable line: future Hormuz impairment can be triggered by "a mere $30,000 drone." Even with OPEC spare capacity, that capacity sat behind the strait; the $30K drone makes the buffer illusory. Nuttall's "day after" thesis: the pre-war glut expectation is dead, inventories at multi-year lows, and countries with long-dated reserves in politically secure areas (i.e., [[Canada]], US) have become "wildly more valuable."
+
 ## Structural winners from the permanent premium
 
 | Category | Names | Logic |

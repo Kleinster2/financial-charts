@@ -217,6 +217,70 @@ Bear:
 
 ---
 
+## Exposure routes
+
+SpaceX is private until the [[SpaceX IPO 2026|June 2026 IPO]]. Current ways to buy exposure, roughly ordered by directness:
+
+### Direct pre-IPO
+
+| Vehicle | Type | Notes |
+|---------|------|-------|
+| [[Private market secondaries]] | Private shares | ~$588/share (Jan 2026 secondary). Platforms: [[Forge Global]], [[EquityZen]]. Accredited investors only, $100K+ minimums |
+| [[Destiny Tech100]] (DXYZ) | Closed-end fund | SpaceX is top holding. Trades at persistent premium to NAV (often 2-3x) — you're paying for the access, not just the asset |
+
+### Mutual funds / ETFs with SpaceX allocations
+
+[[Baron Capital]] is the largest outside investor (~$10B). Its funds carry the heaviest public-market SpaceX concentration:
+
+| Fund | Ticker | SpaceX weight | Notes |
+|------|--------|---------------|-------|
+| Baron Partners Fund | BPTRX | ~32% | Highest concentration. SpaceX + [[Tesla]] = ~62% of assets |
+| Baron Focused Growth | BFGIX | ~19% | More diversified than BPTRX |
+| Baron First Principles ETF | RONB | ~22% | ETF wrapper (launched Dec 2025). ~5% [[xAI]] |
+
+Other fund families with smaller allocations:
+- [[Fidelity]] — Contrafund (FCNTX), Blue Chip Growth (FBGRX). SpaceX is a small % of massive AUM
+- [[T. Rowe Price]] — institutional funds
+- [[Scottish Mortgage]] (SMT.L) — [[Baillie Gifford]]'s listed investment trust on LSE. Holds SpaceX alongside other private tech
+
+### Post-IPO (June 2026)
+
+The IPO itself is designed for broad access: >20% retail allocation (vs ~10% typical), distribution via [[Robinhood]] and bank platforms. If the [[Nasdaq Fast Entry Rule]] passes, [[Nasdaq 100]] inclusion within ~1 month of listing — triggering passive fund buying almost immediately. S&P 500 inclusion timeline depends on whether [[S&P Dow Jones Indices]] drops the 12-month seasoning rule.
+
+### Vendor equity — [[EchoStar]] (SATS)
+
+The only confirmed public company that received SpaceX equity as payment for assets. EchoStar sold spectrum licenses critical to [[Starlink]] Direct-to-Cell:
+
+| Deal | Date | Consideration |
+|------|------|---------------|
+| AWS-4 + H-Block spectrum | Sep 2025 | ~$8.5B cash + ~$8.5B in SpaceX Class A at $212/share |
+| Unpaired AWS-3 spectrum | Nov 2025 | ~$2.6B in SpaceX stock at $212/share |
+
+Total SpaceX equity received: ~$11B (~51.9M Class A shares, ~2.8% of SpaceX). SpaceX also assumed ~$2B in EchoStar interest payments and will retire $9.8B in secured/convertible notes. Closing subject to FCC and DOJ approval, targeted ~Nov 2027.
+
+At the $1.75T IPO valuation, EchoStar's 2.8% stake would be worth ~$49B — multiples of EchoStar's own market cap. This makes SATS the highest-leverage public proxy for SpaceX. No other public company is confirmed to have received SpaceX equity as vendor/asset payment.
+
+### Other public holders (via investment, not vendor payment)
+
+| Ticker | Company | How | Approximate value |
+|--------|---------|-----|-------------------|
+| GOOGL | [[Google]] | $900M Series G (2015), Dec 2021 round. ~7% stake | $60-100B+ on paper |
+| OWL | [[Blue Owl]] | Investment. 50K shares at ~$720B valuation | ~$195M book, ~$500M at IPO |
+
+### Space sector proxies (public, indirect)
+
+These correlate with SpaceX sentiment but are independent businesses — no SpaceX equity held:
+
+| Ticker | Company | Angle |
+|--------|---------|-------|
+| RKLB | [[Rocket Lab]] | Launch competitor |
+| ASTS | [[AST SpaceMobile]] | Satellite-to-cell |
+| LUNR | [[Intuitive Machines]] | Lunar services |
+
+SATS, RKLB, ASTS, and LUNR all moved +10-20% on the IPO filing report alone (Mar 25-26, 2026).
+
+---
+
 ## Cap table
 
 ### Private market price history

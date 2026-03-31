@@ -732,7 +732,63 @@ The Dow entered correction territory (10%+ below record high). S&P 500 five-week
 - [[Wael Sawan]] — Shell CEO, disruption moving east-to-west through April
 - [[City Index]] — "markets placing less weight on jawboning"
 - [[BloombergNEF]] — 9M bpd supply loss estimate (Mar 29)
+- [[Eric Nuttall]] — "worst energy crisis of our lifetimes," 900M bbl loss > COVID, $177/bbl demand destruction threshold
+- [[Ninepoint Partners]] — Nuttall's firm
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-24 (Wiggen/Stellen Capital).*
+## Nuttall: "worst energy crisis of our lifetimes" — Brent $114, WTI $104 (March 30)
+
+*Source: [[Eric Nuttall]], [[Ninepoint Partners]], [YouTube interview](https://youtu.be/sFAd6Szmf28), March 30, 2026.*
+
+[[Eric Nuttall]] (Partner, Senior PM at [[Ninepoint Partners]]) gave the most forceful framing of the crisis from a Canadian energy fund manager. Called market complacency "astounding" and argued the West has "yet to feel the true impact."
+
+### Spot prices at time of interview
+
+| Benchmark | Level |
+|-----------|-------|
+| Brent crude | $114.37/bbl |
+| WTI crude | $104.10/bbl |
+
+### 900M barrels — worse than COVID
+
+Nuttall's headline number: the conflict will cost ~**900 million barrels** of Middle Eastern production in 2026. That exceeds COVID's cumulative demand destruction of **870-880 million barrels** — making this, in volume terms, the largest disruption in oil market history.
+
+The comparison is analytically distinct from the [[Amrita Sen]] "reverse COVID" framing (which compared daily disruption rates). Nuttall is comparing cumulative barrel losses — and argues the supply-side nature is structurally worse because "it's not going to be a matter of price — it's a matter of is the barrel actually available."
+
+Global oil production already down ~11M bbl/day. With Hormuz still effectively closed and 22M bbl/day of pre-war flows halted, the trajectory is toward physical unavailability, not just price rationing.
+
+### $177/bbl — demand destruction threshold
+
+Using the historical relationship that demand destruction kicks in when oil spending reaches ~**5.5% of global GDP**, Nuttall calculated the implied price at **$177/bbl**. This is where he sees oil going if the strait doesn't open — the highest named price target from any analyst during the crisis (above Wiggen's $130 refinery-margin ceiling and the Mar 20 Dubai $166 physical price).
+
+### Safety buffers — "rounding errors"
+
+The temporary measures absorbing the shock:
+- Unsanctioning of Russian barrels + floating storage
+- Unsanctioning of Iranian barrels
+- Global SPR releases (~400M bbl, largest on record)
+
+All insufficient relative to scale. Consistent with the [[Marko Papic|BCA Research]] mid-April cliff framework — Nuttall sees these buffers exhausting, at which point the question shifts from price to physical availability.
+
+### Paper vs physical — "invisible hand of government"
+
+Nuttall raised the WTI market specifically, suggesting "the invisible hand of government may or may not have been involved" in keeping WTI prices below physical reality. This echoes the [[Energy Aspects]] / [[Rapidan Energy Group]] speculation from March 10-12 about unexplained large sell orders.
+
+### Post-war structural thesis — "the day after"
+
+Nuttall's investment thesis isn't the geopolitical spike — it's the aftermath:
+
+1. **Glut thesis dead.** Pre-2026 consensus: biggest surplus in history. Now: multi-year inventory lows by end of March.
+2. **Permanent $10-20/bbl risk premium.** Iran has weaponized the world's most critical energy chokepoint. Hormuz "can always be impeded once again with a mere $30,000 drone." Aligns with the vault's [[Hormuz Permanent Risk Premium]] thesis.
+3. **Slow production recovery.** [[Kuwait]] said 3-4 months to ramp. [[Iraq]] in full force majeure — over 1M bbl/day at risk of **below-surface reservoir damage**, potential permanent capacity loss.
+4. **OPEC spare capacity behind the strait.** Pre-war estimate: 1.5M bbl/day spare. Much of it sat behind Hormuz — [[Saudi Aramco|Saudi]] Red Sea rerouting is a "rounding error."
+5. **Canada/US reserves repriced.** Countries with long-dated reserves, political security, and takeaway capacity are "wildly more valuable."
+
+### Assessment
+
+Nuttall is talking his book as a Canadian energy PM, but the 900M barrel COVID comparison is the strongest quantitative case yet for why markets are underpricing the disruption. The $177 target is extreme but mathematically grounded in historical demand-destruction thresholds. The "day after" framework aligns with the vault's existing analysis on permanent risk premiums and slow Gulf production restart.
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-31 (Nuttall/Ninepoint Partners).*

@@ -82,7 +82,7 @@ Context: Total 2025 semiconductor industry = $793B (+21% YoY). AI chips = ~1/3 o
 | 2023 | $27.0B | $4.4B | $0.17 | $145 |
 | 2024 | $60.9B | $29.8B | $1.19 | $490 |
 | 2025 | $130.5B | $72.9B | $2.94 | $135 |
-| **2026** | **$215.9B** | **$120.1B** | **$4.90** | **$196** |
+| 2026 | $215.9B | $120.1B | $4.90 | $196 |
 
 *Source: Company filings. Stock price = fiscal year-end close (Jan). Prices adjusted for 10:1 split (Jun 2024). FY2023 was crypto hangover. FY2026 = first $200B revenue year for any semiconductor company.*
 
@@ -91,6 +91,24 @@ Context: Total 2025 semiconductor industry = $793B (+21% YoY). AI chips = ~1/3 o
 ## Core thesis
 
 NVIDIA's moat isn't just GPUs — it's [[CUDA moat|CUDA]], the software ecosystem that locks in AI developers. Hardware can be challenged; rebuilding a decade of software tooling cannot.
+
+---
+
+## Evolution
+
+- 1993: [[Jensen Huang]], Chris Malachowsky, and Curtis Priem found NVIDIA in a Denny's booth in San Jose. The name derives from "NV" (next version) + "invidia" (Latin: envy). Jensen was 30, an engineer at LSI Logic.
+- 1995-1999: Early graphics chips (NV1, RIVA 128) competed against 3dfx and ATI. The GeForce 256 (1999) — marketed as the first "GPU" — established the term and the category. IPO on Jan 22, 1999 at $12 per share.
+- 2000-2006: Dominated consumer graphics. Acquired MediaQ (mobile, 2003) and ULi (chipsets, 2006). ATI merged into [[AMD]] (2006), leaving NVIDIA as the only independent GPU company.
+- 2006-2012: CUDA launched (Nov 2006) — the decision that built the moat. Initially targeted at scientific computing, it took years before the ML community adopted it. Tesla GPU line (not the car company) entered data centers. Revenue plateaued around $4-5B.
+- 2012-2016: [[AlexNet]] won ImageNet (2012) using NVIDIA GPUs — the catalyst that connected deep learning to GPU compute. Still mostly a gaming company by revenue ($5B FY2016), but researchers worldwide started building on CUDA. Jensen saw it before anyone else in the semiconductor industry.
+- 2016-2019: Data center revenue grew from near-zero to $3B. Pascal (P100) and Volta (V100) architectures became the training standard. Acquired Mellanox for $6.9B (2019) — the networking layer that connects GPU clusters. Gaming remained the larger segment through FY2019.
+- 2020-2022: Ampere (A100) became the foundation of every major AI training cluster. Revenue doubled from $10.9B to $26.9B. Attempted $40B [[ARM]] acquisition (Sep 2020) — blocked by regulators (Feb 2022). The crypto mining boom inflated gaming revenue, then the hangover cratered FY2023 to $27B and $4.4B net income.
+- 2023: The year everything changed. ChatGPT (launched Nov 2022) created explosive demand for AI training. Q1 FY24 guidance in May 2023 was $11B vs $7.2B expected — the single earnings call that repriced the entire AI supply chain. Data center revenue went from $15B (FY2023) to $47.5B (FY2024). Stock went from $14 to $48 in a year.
+- 2024: Hopper (H100/H200) shipped at massive scale. Revenue hit $60.9B (FY2024, ended Jan 2024) with $29.8B net income. 10:1 stock split (Jun 2024). Briefly became the most valuable company on earth. Blackwell architecture announced (GTC 2024). Market cap crossed $3T.
+- 2025: The year of Blackwell. FY2025 revenue $130.5B — first semiconductor company ever to cross $100B. Data center = 88% of revenue. [[DeepSeek]] selloff (Jan 27) wiped ~$600B in a day but was bought within weeks. Groq acquired for $20B. $5B [[Intel]] investment. H200 approved for [[China]], then blocked by Beijing. ATH close of $207.03 (Oct 29). Insider selling accelerated ($496M in 90 days).
+- 2026 (to date): FY2026 revenue $215.9B, $120.1B net income — first $200B semiconductor company. Inference competition emerges as the defining strategic challenge ([[Cerebras]], TPU, custom silicon). GTC 2026 pivots to open models ([[Nemotron 3]]) and software platform ([[NemoClaw]]). H200 China production halted, capacity shifted to [[Rubin|Vera Rubin]]. Stock -20% from ATH on tariff selloff + margin compression fears.
+
+The arc: a graphics card company that bet on general-purpose GPU computing in 2006 (CUDA), caught the deep learning wave in 2012, and found itself the sole supplier of the most valuable infrastructure in history by 2023. The question now is whether the training monopoly translates into an inference monopoly — or whether inference economics create the opening competitors have waited two decades for.
 
 ---
 
@@ -423,8 +441,8 @@ See [[Short interest]] for interpretation framework.
 
 | Metric | Value |
 |--------|-------|
-| Stock price | ~$196 |
-| Market cap | ~$4.8T |
+| Stock price | ~$165 |
+| Market cap | ~$4.0T |
 | FY2026 revenue | $215.9B (+65% Y/Y) |
 | FY2026 net income | $120.1B |
 | FY2026 FCF | $96.6B |
@@ -437,7 +455,7 @@ See [[Short interest]] for interpretation framework.
 | Inventories | $21.4B |
 | Short interest | 1.1% (Jan 2026) |
 
-*Updated 2026-02-25*
+*Updated 2026-03-30*
 
 ![[nvda-price-chart.png]]
 
@@ -610,13 +628,13 @@ Stock reaction (Feb 3): Modest; market treating as manageable. Inference is smal
 
 WSJ framing on the eve of GTC 2026: NVIDIA built its empire on training, but the AI industry has "definitively moved into a new phase" where inference — running models and generating profit from end-users — is what matters. For the first time, GTC won't be squarely about GPUs.
 
-**The core problem:** Grace Blackwell servers consume huge amounts of energy and don't come with enough memory to efficiently serve AI queries. The chips spend disproportionate time retrieving data from external memory rather than computing. This is structurally fine for training (big parallel batch jobs) but inefficient for inference (billions of small, latency-sensitive queries).
+The core problem: Grace Blackwell servers consume huge amounts of energy and don't come with enough memory to efficiently serve AI queries. The chips spend disproportionate time retrieving data from external memory rather than computing. This is structurally fine for training (big parallel batch jobs) but inefficient for inference (billions of small, latency-sensitive queries).
 
-**Jensen's own framing:** "The inflection we're seeing sat in plain sight for quite a long time — it's basically the ability for AI to use files, access files and use tools." [[Agentic AI]] relies almost entirely on inference, and coding agents ([[Codex]], [[Claude Code]]) produce thousands of times more inference tokens than the chatbot era.
+Jensen's own framing: "The inflection we're seeing sat in plain sight for quite a long time — it's basically the ability for AI to use files, access files and use tools." [[Agentic AI]] relies almost entirely on inference, and coding agents ([[Codex]], [[Claude Code]]) produce thousands of times more inference tokens than the chatbot era.
 
 "Inference equals revenues now for our customers, because agents are generating so many tokens and the results are so effective. We need to inference at a much higher speed, and when you're inferencing at a much higher speed, and each one of those tokens are dollarized, it directly translates into revenues."
 
-**The competitive landscape:**
+The competitive landscape:
 
 | Competitor | Approach |
 |------------|----------|
@@ -626,15 +644,15 @@ WSJ framing on the eve of GTC 2026: NVIDIA built its empire on training, but the
 | [[SambaNova]] | New chip + $350M funding + Intel partnership |
 | [[Meta]] | Deployed first CPU-only system (Vera, no GPU) for ad-targeting agents |
 
-**Paul Kedrosky (MIT/VC):** "NVIDIA is in a weird moment. For a long time, Jensen was saying, 'We don't need to have dedicated, stand-alone inference chips, you can just throw a Blackwell at it.' But that ship has sailed, and there's a host of new competitors."
+Paul Kedrosky (MIT/VC): "NVIDIA is in a weird moment. For a long time, Jensen was saying, 'We don't need to have dedicated, stand-alone inference chips, you can just throw a Blackwell at it.' But that ship has sailed, and there's a host of new competitors."
 
-**Margin compression thesis:** Kedrosky argues NVIDIA's 73% gross margins will compress because: (1) inference economics demand efficiency — hardware can't be too pricey or the companies selling AI won't make money, and (2) more competitors have figured out cheaper inference chips. "NVIDIA became the first $4T company selling the silicon equivalent of fast, powerful and expensive Ferrari sports cars, but now the world wants Priuses and Model Ys."
+Margin compression thesis: Kedrosky argues NVIDIA's 73% gross margins will compress because: (1) inference economics demand efficiency — hardware can't be too pricey or the companies selling AI won't make money, and (2) more competitors have figured out cheaper inference chips. "NVIDIA became the first $4T company selling the silicon equivalent of fast, powerful and expensive Ferrari sports cars, but now the world wants Priuses and Model Ys."
 
-**[[Cerebras]] CEO Andrew Feldman's argument:** CUDA is only needed for training, not inference — so NVIDIA's software lock-in dissolves as the industry shifts to inference-dominant workloads.
+[[Cerebras]] CEO Andrew Feldman's argument: CUDA is only needed for training, not inference — so NVIDIA's software lock-in dissolves as the industry shifts to inference-dominant workloads.
 
-**[[Bank of America]] estimate:** AI data center market hits ~$1.2T by 2030, with inference accounting for 75% of spending (vs ~50% in 2025).
+[[Bank of America]] estimate: AI data center market hits ~$1.2T by 2030, with inference accounting for 75% of spending (vs ~50% in 2025).
 
-**NVIDIA's response — the portfolio pivot:**
+NVIDIA's response — the portfolio pivot:
 - GPUs for training (unchanged)
 - [[Groq]] LPU integration for dedicated inference (GTC 2026 unveil)
 - Vera CPUs for lightweight agentic workloads
@@ -745,25 +763,25 @@ First $200B revenue year. Q4 revenue $68.1B (+73% Y/Y, +20% Q/Q), beating $66.2B
 | Pro Visualization | $1.32B | +159% |
 | Automotive | $604M | +6% (miss) |
 
-**Q1 FY27 guidance: $78B ±2% vs $72.6B consensus (+7.4% beat).** Zero China DC compute revenue assumed. SBC reclassification starting Q1 will mechanically reduce non-GAAP EPS by ~$0.08/quarter.
+Q1 FY27 guidance: $78B ±2% vs $72.6B consensus (+7.4% beat). Zero China DC compute revenue assumed. SBC reclassification starting Q1 will mechanically reduce non-GAAP EPS by ~$0.08/quarter.
 
-**Vera Rubin:** First samples shipped to customers this week. Production H2 2026. 10x token cost reduction vs Blackwell. 10x perf/watt. Six new chips. First deployers: [[AWS]], [[Google]], [[Microsoft]], [[Oracle]], [[CoreWeave]], [[Lambda Labs]], [[Nebius]].
+Vera Rubin: First samples shipped to customers this week. Production H2 2026. 10x token cost reduction vs Blackwell. 10x perf/watt. Six new chips. First deployers: [[AWS]], [[Google]], [[Microsoft]], [[Oracle]], [[CoreWeave]], [[Lambda Labs]], [[Nebius]].
 
-**Blackwell:** Supply commitments $95.2B (up from $50.3B Q3). Expects to EXCEED $500B combined Blackwell+Rubin manufacturing CY2025-2026. Blackwell Ultra: 50x perf, 35x lower cost for agentic AI vs Hopper.
+Blackwell: Supply commitments $95.2B (up from $50.3B Q3). Expects to EXCEED $500B combined Blackwell+Rubin manufacturing CY2025-2026. Blackwell Ultra: 50x perf, 35x lower cost for agentic AI vs Hopper.
 
-**Networking:** $10.98B (+263% Y/Y) on NVLink and Spectrum-X.
+Networking: $10.98B (+263% Y/Y) on NVLink and Spectrum-X.
 
-**Customer mix:** Hyperscalers "slightly over 50%" of DC revenue; growth led by non-hyperscaler customers (AI model makers, enterprises, sovereigns). Sovereign customer revenue was $30B in FY2026 (14% of group total). FT (Mar 14): if NVIDIA captured 25% of [[McKinsey]]'s estimated ~$400B physical sovereign infrastructure spend, at 75% GM, earnings would increase ~50%. [[Palantir]] is NVIDIA's partner for the sovereign push.
+Customer mix: Hyperscalers "slightly over 50%" of DC revenue; growth led by non-hyperscaler customers (AI model makers, enterprises, sovereigns). Sovereign customer revenue was $30B in FY2026 (14% of group total). FT (Mar 14): if NVIDIA captured 25% of [[McKinsey]]'s estimated ~$400B physical sovereign infrastructure spend, at 75% GM, earnings would increase ~50%. [[Palantir]] is NVIDIA's partner for the sovereign push.
 
-**Supply chain diversification:** Blackwell GPUs at [[TSMC]] Arizona. Rack systems at new [[Foxconn]] Mexico plant. Memory shortage headwind to Gaming.
+Supply chain diversification: Blackwell GPUs at [[TSMC]] Arizona. Rack systems at new [[Foxconn]] Mexico plant. Memory shortage headwind to Gaming.
 
-**FY26 totals:** Revenue $215.9B, net income $120.1B, FCF $96.6B, shareholder returns $41.1B, $17.5B invested in private companies.
+FY26 totals: Revenue $215.9B, net income $120.1B, FCF $96.6B, shareholder returns $41.1B, $17.5B invested in private companies.
 
 Jensen's "1000x manifesto" (final 7 min of call): Old compute = $350B/year of static "DVD-like" software. AI = real-time, generative, 1,000x more valuable → $350B × 1,000 = massive TAM. "The need is a lot more than $700 billion." See [[Jensen 1000x compute thesis]].
 
 Other Jensen quotes: "Our strategy is to introduce an entirely new AI infrastructure every single year." / OpenAI deal: "We continue to work with OpenAI toward a partnership agreement and believe we are close."
 
-**[[Gene Munster]] ([[Deepwater Asset Management]]) post-call:** Accelerating growth + flat stock mirrors [[Apple]]'s beat-and-fade pattern. Flagged [[Colette Kress]]'s supply/demand equilibrium confirmation as paradoxically negative — at equilibrium, "the numbers you see are what you get," removing the dream-bigger optics of supply constraints. CY2027 Street estimate of 28% "too conservative" — expects 50%+. Deepwater owns NVDA. Cited using [[OpenClaw]] and Claude Code agents as evidence AI utility has had "a meaningful step forward."
+[[Gene Munster]] ([[Deepwater Asset Management]]) post-call: Accelerating growth + flat stock mirrors [[Apple]]'s beat-and-fade pattern. Flagged [[Colette Kress]]'s supply/demand equilibrium confirmation as paradoxically negative — at equilibrium, "the numbers you see are what you get," removing the dream-bigger optics of supply constraints. CY2027 Street estimate of 28% "too conservative" — expects 50%+. Deepwater owns NVDA. Cited using [[OpenClaw]] and Claude Code agents as evidence AI utility has had "a meaningful step forward."
 
 Stock: +3.5% AH initially, settled ~+0.7%. 63 analysts: 60 Buy. Consensus PT $261.54.
 
@@ -803,9 +821,9 @@ This effectively ends the H200-for-China chapter that began with the Jan 14 appr
 
 NVIDIA launched the [[Nemotron 3]] family of open-weight models — the flagship product of a $26B five-year open model investment (confirmed by Wired). The logic: NVIDIA is the only company that can afford to give away frontier models because it makes the money back on hardware.
 
-**[[Nemotron 3|Nemotron 3 Super]]** (available now): 120B params / 12B active, hybrid Mamba-Transformer MoE, 1M context window, NVFP4 on Blackwell. #1 on DeepResearch Bench I & II, SWE-Bench Verified 60.47%. 5x throughput vs previous gen. Adopted by [[Perplexity]], [[Palantir]], [[Siemens]], [[Cadence]], [[Dassault Systèmes]]. Available on [[Google Cloud]], [[Oracle]], [[AWS]], [[Microsoft]] Azure.
+[[Nemotron 3|Nemotron 3 Super]] (available now): 120B params / 12B active, hybrid Mamba-Transformer MoE, 1M context window, NVFP4 on Blackwell. #1 on DeepResearch Bench I & II, SWE-Bench Verified 60.47%. 5x throughput vs previous gen. Adopted by [[Perplexity]], [[Palantir]], [[Siemens]], [[Cadence]], [[Dassault Systèmes]]. Available on [[Google Cloud]], [[Oracle]], [[AWS]], [[Microsoft]] Azure.
 
-**[[Nemotron 3|Nemotron 3 Ultra]]** (coming soon): Jensen called it "the best base model the world's ever created." Foundation for [[Sovereign AI race|sovereign AI]] — any country can fine-tune it without dependence on closed providers. Released with 10T+ tokens of training data, 15 RL environments, and full eval recipes.
+[[Nemotron 3|Nemotron 3 Ultra]] (coming soon): Jensen called it "the best base model the world's ever created." Foundation for [[Sovereign AI race|sovereign AI]] — any country can fine-tune it without dependence on closed providers. Released with 10T+ tokens of training data, 15 RL environments, and full eval recipes.
 
 Also: Nemotron 3 Omni (multimodal), VoiceChat (real-time conversation), safety models, and retrieval pipeline.
 
@@ -825,7 +843,43 @@ NVIDIA now claims frontier models in every major AI domain: Nemotron (language/a
 
 ---
 
+## Analyst timeline
+
+| Date | Firm | Analyst | Action | PT | Context |
+|------|------|---------|--------|-----|---------|
+| Dec 2025 | [[Morgan Stanley]] | — | Top Pick 2026 | — | Year-ahead call |
+| Feb 2026 | Rosenblatt | [[Hans Mosesmann]] | Buy | $280 | Street-high PT. First analyst with $1K+ pre-split target |
+| Feb 2026 | Bernstein | [[Stacy Rasgon]] | Outperform | $275 | Long-standing NVDA bull |
+| Feb 2026 | TD Cowen | — | Buy | $265 | Post-earnings |
+| Feb 2026 | [[Deepwater Asset Management]] | [[Gene Munster]] | Own | — | CY2027 growth "too conservative" at 28%, expects 50%+ |
+
+63 analysts cover NVDA: 60 Buy, 3 Hold. Consensus PT $261.54 (Feb 2026). No Sell ratings. At $165 (Mar 30, 2026), the stock trades 37% below consensus — the widest discount to consensus PT since the [[DeepSeek]] selloff.
+
+---
+
+## Ratings history
+
+| Agency | Rating | Outlook | Date |
+|--------|--------|---------|------|
+| S&P | AA- | Positive | Oct 22, 2025 |
+| Moody's | Aa2 | Positive | Mar 26, 2025 |
+| Fitch | Withdrawn (last: A) | — | Jan 5, 2021 |
+
+S&P AA- and Moody's Aa2 are equivalent (fourth-highest notch). Both agencies carry positive outlooks, signaling a potential upgrade to AA/Aa1.
+
+S&P upgrade path: A+ → AA- (Apr 30, 2024) → outlook to Positive (Oct 22, 2025). Moody's: Aa3 → Aa2 (Mar 26, 2025), positive outlook maintained. Fitch withdrew coverage in Jan 2021 for commercial reasons — last rated A, now stale.
+
+Credit profile: $62.6B cash + securities vs ~$8.5B debt. FCF $96.6B (FY2026). R&D run-rate ~$15B. The credit story mirrors the equity story — AI infrastructure dominance and massive cash generation. Risk factors flagged by agencies: U.S. export controls, [[TSMC]] supply concentration, customer concentration (~50% of DC revenue from major cloud providers).
+
+---
+
 ## Related
+
+### Securities
+
+- [[NVIDIA securities]] — price history, relative value, analyst coverage, earnings reactions
+
+### Core
 
 - [[Jensen Huang]] — CEO and founder
 - [[TSMC]] — primary foundry

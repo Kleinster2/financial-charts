@@ -5,7 +5,7 @@ tags: [concept, supply-chain, semiconductor, iran, helium]
 
 # Helium supply crisis 2026
 
-The removal of ~30% of global commercial helium supply following [[QatarEnergy]]'s Ras Laffan shutdown (March 2) and the [[Strait of Hormuz]] closure. Helium is a byproduct of natural gas processing — when LNG stops, helium stops. The semiconductor industry is now helium's largest consumer (surpassing MRI), making this a direct supply chain threat to AI chip fabrication.
+The removal of ~30% of global commercial helium supply following [[QatarEnergy]]'s [[Ras Laffan]] shutdown (March 2) and the [[Strait of Hormuz]] closure. Helium is a byproduct of natural gas processing — when LNG stops, helium stops. The semiconductor industry is now helium's largest consumer (surpassing MRI), making this a direct supply chain threat to AI chip fabrication.
 
 ---
 
@@ -63,6 +63,8 @@ Helium boils at -269degF (-269degC) — second only to absolute zero among eleme
 | [[Australia]] | ~3% | — | Growing, Darwin LNG |
 | Others | ~17% | — | Tanzania (emerging), Canada, Poland |
 
+Total global production (2025): ~190M cubic meters — enough to fill roughly 76,000 Olympic-size swimming pools (WSJ, Mar 30).
+
 *Source: United States Geological Survey (2024 data)*
 
 Concentration risk: two countries ([[United States]], [[Qatar]]) produce ~69% of global helium. [[Qatar]] exports ~40% of the world's traded helium supply (German Mineral Resources Agency). All Qatar production exits through the [[Strait of Hormuz]].
@@ -81,6 +83,11 @@ Concentration risk: two countries ([[United States]], [[Qatar]]) produce ~69% of
 | Mar 18 | Iranian missiles hit Ras Laffan (1 of 5 struck); [[Shell]] Pearl GTL and [[QatarEnergy]] condensate refinery "extensively damaged"; physical damage extends restart timeline to potentially 1+ year |
 | Mar 19 | [[QatarEnergy]] CEO quantifies: helium output down 14%, two LNG trains (S4, S6) offline 3-5 years, North Field expansion halted. Force majeure extended to multi-year on Italy/Belgium/South Korea/China contracts |
 | Mar 19 | CNBC deep-dive: spot prices +70-100% (Kornbluth); [[Barclays]] reports South Korea 55% / Taiwan 69% GCC helium dependency; [[JPMorgan]] upgrades [[Linde]], [[Wells Fargo]] upgrades [[Air Products]]; contract prices "have not really moved yet" but force majeure declarations imminent |
+| Late Mar | Airgas ([[Air Liquide]] subsidiary) declares force majeure: allocation capped at 50% of normal monthly demand, $13.50/100cf surcharge (letter reviewed by WSJ, Mar 30) |
+| Late Mar | [[South Korea]] KOTRA (Korea Trade-Investment Promotion Agency) approaches US helium suppliers for additional volumes (email reviewed by WSJ, Mar 30) |
+| Late Mar | Helium buyers in [[India]] and [[Brazil]] receive force majeure notices from suppliers (Cliff Cain, Pulsar Helium, Mar 30) |
+| Late Mar | German chemical industry group VCI flags raw material supply bottleneck concerns including helium (WSJ, Mar 30) |
+| Late Mar | Spot prices more than doubled from pre-war levels; buyers scrambling for scarce spot market cargoes (WSJ, Mar 30) |
 
 Pre-crisis buffer: ~15% global supply surplus existed before the shutdown. With 30% capacity removed, the net shortage is ~15%.
 
@@ -98,7 +105,7 @@ Three plants in [[Qatar]] produce helium:
 
 Transit: standard delivery from Qatar container stations to customers takes ~3 weeks. Helium shipped before March 2 is still arriving. The real shortage begins in late March/early April.
 
-Container crisis: ~2,000 specialized cryogenic containers (11,000-gallon capacity each) are stuck in [[Qatar]] or in transit. These containers leak 0.1-1% per month (TECHCET CEO Lita Shon-Roy). If the shutdown extends months, significant helium inventory will be lost to evaporation.
+Container crisis: hundreds of specialized cryogenic containers (~$1M each, 11,000-gallon capacity) stuck in the Middle East (Phil Kornbluth, Mar 30). Hold time before excessive boil-off: 35-48 days (Kornbluth) — meaning containers filled at the shutdown (Mar 2) are now approaching or past their effective shelf life. Containers leak 0.1-1% per month (TECHCET CEO Lita Shon-Roy), but the binding constraint is maximum pressure buildup, not slow leakage.
 
 Allocation hierarchy during shortage:
 1. Medical applications (MRI magnet cooling) — highest priority
@@ -115,15 +122,18 @@ Allocation hierarchy during shortage:
 | [[TSMC]] | [[Taiwan]] | High | World's largest contract chipmaker; advanced node fabs use helium for etching |
 | [[SK Hynix]] | [[South Korea]] | High | Already forced into emergency supply diversification (Mar 16) |
 | [[Samsung Electronics]] | [[South Korea]] | High | Memory + foundry operations |
+| [[GlobalFoundries]] | [[United States]]/[[Europe]]/[[Asia]] | Moderate | "Actively monitoring" but doesn't anticipate near-term impact; US/European footprint partially buffers (Mar 30) |
 | [[Intel]] | [[United States]] | Moderate | US-sourced helium partially buffers |
 | Japanese fabs | [[Japan]] | High | Dependent on Qatar supply chain |
 
-GCC sourcing dependency ([[Barclays]], Mar 19):
+GCC sourcing dependency:
 
-| Country | GCC helium share | Year |
-|---------|-----------------|------|
-| [[South Korea]] | 55% | 2025 |
-| [[Taiwan]] | 69% | 2024 |
+| Country | GCC helium share | Source | Year |
+|---------|-----------------|--------|------|
+| [[South Korea]] | 55% | [[Barclays]] | 2025 |
+| [[South Korea]] | ~67% (from Qatar alone) | [[Fitch Ratings]] | 2025 |
+| [[Taiwan]] | 69% | [[Barclays]] | 2024 |
+| [[Taiwan]] | "large chunk" from Qatar | [[Fitch Ratings]] | — |
 
 South Korea and Taiwan account for 18% of global semiconductor production capacity each. Their combined GCC helium dependency makes them the most structurally exposed nodes.
 
@@ -163,7 +173,7 @@ Wall Street positioning (Mar 2026):
 | 2-8 weeks | Industrial gas firms forced to rework logistics, contracts, relocate containers; fabs begin rationing |
 | 2-6 months | Severe shortage; fab throughput reductions possible; recycling investment accelerates |
 | 6+ months / physical damage | Equipment repair at Ras Laffan could take 1+ year; structural supply deficit; new non-Gulf capacity needed |
-| **3-5 years (confirmed)** | **Al-Kaabi's Mar 19 damage assessment: two trains offline 3-5 years, helium output -14%. This is now the base case, not a tail scenario.** |
+| 3-5 years (confirmed) | Al-Kaabi's Mar 19 damage assessment: two trains offline 3-5 years, helium output -14%. This is now the base case, not a tail scenario. |
 
 The March 18 missile strike on Ras Laffan shifts the scenario distribution toward the longer end. Physical damage to liquefaction infrastructure is fundamentally different from a temporary production halt — equipment must be rebuilt, not just restarted.
 
@@ -189,6 +199,14 @@ Each previous shortage triggered calls for recycling, strategic reserves, and su
 Phil Kornbluth (Mar 18): *"Depending on how long this lasts, it could become a severe shortage, and prices could go up a lot."*
 
 Phil Kornbluth (Mar 22, FT): Even if the conflict ended tomorrow, it would take "four to five weeks" for [[Qatar]] to resume gas and helium production from its plants, and "an additional two to three months after that to restore the helium supply chain to what it was pre-crisis." This sets the minimum recovery timeline at ~3.5-4 months from ceasefire — well into July/August 2026 even in the best case.
+
+Phil Kornbluth (Mar 30, WSJ): Most cryogenic containers have a hold time of 35-48 days before too much gas is lost to boil-off. Hundreds of containers (~$1M each) now stuck in the Middle East.
+
+Cliff Cain, manager of commercial and external affairs at Pulsar Helium (exploration projects in Minnesota and Greenland, Mar 30): *"This is the big one that we always feared would happen, it's the black swan event. It is just going to be a building crescendo of who's going to be able to get their molecules and who is not."* Also reported India and Brazil buyers receiving force majeure notices.
+
+[[S&P Global]] Energy research director Ralf Gubler (Mar 30): *"The helium shock highlights a deeper vulnerability in the AI build-out: extreme dependence on a small number of geopolitically exposed nodes."*
+
+Anish Kapadia, founder of UK-based AKAP Energy (Mar 30): Clients inundating with calls about impending impacts; gas suppliers likely to prioritize chipmakers and medical imaging. *"The first victims are party balloons: you can quite easily allocate less there and deal with a few angry parents. But clearly when you take a third of global supply off the market overnight, there's going to be a significant impact across the board."*
 
 TECHCET CEO Lita Shon-Roy: *"Helium can leak out about 0.1 to 1 percent per month, depending on how good the gaskets are."*
 
