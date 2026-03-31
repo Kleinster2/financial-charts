@@ -147,17 +147,44 @@ See [[Zhipu]] for company details.
 
 ---
 
+## GLM-OCR (Feb 2026)
+
+Lightweight OCR specialist — **0.9B parameters**, tops the OmniDocBench V1.5 leaderboard.
+
+| Spec | Details |
+|------|---------|
+| Parameters | 0.9B (0.4B CogViT encoder + 0.5B GLM decoder) |
+| OmniDocBench V1.5 | **94.62** (#1 overall) |
+| Nanonets-KIE | **93.7** (SOTA open source) |
+| Handwritten-KIE | **86.1** (SOTA open source) |
+| Throughput | 1.86 PDF pages/sec, 0.67 images/sec |
+| License | MIT (model), Apache 2.0 (pipeline) |
+| Deployment | vLLM, SGLang, Ollama, Cloud API |
+| Min VRAM | 8 GB |
+
+**Key innovations:**
+- **Multi-Token Prediction (MTP)**: Predicts multiple tokens per step, exploiting OCR's deterministic nature. Dramatically faster decoding.
+- **Full-task reinforcement learning**: Applied across entire pipeline, not just decoder.
+- **Two-stage pipeline**: PP-DocLayout-V3 layout analysis → parallel region-level recognition.
+
+**Competitive position:** Beats models 260× its size ([[Qwen]] 3-VL-235B) and all frontier lab models (Gemini 3 Pro: 90.3%). Neck-and-neck with [[Baidu]]'s PaddleOCR-VL-1.5 (94.50). [[DeepSeek]]-OCR-2 (3B params) trails at 91.09 but leads on token efficiency.
+
+**Significance:** Demonstrates the "specialist small model" thesis — task-specific training + architectural innovation can beat generalist giants at a fraction of the compute. Edge-deployable on 8 GB VRAM. OmniDocBench is now considered **saturated** (LlamaIndex, Feb 2026).
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Parent | [[Zhipu]] (Z.ai) |
-| Latest | GLM-4.7 |
+| Latest | GLM-5 (744B, Feb 2026) |
 | Price | $3/month or free |
 | SWE-Bench | 73.8% (best open source) |
 | Huawei-trained | GLM-Image |
+| OCR | GLM-OCR (0.9B, OmniDocBench #1) |
 
-*Created 2026-01-27*
+*Created 2026-01-27 · Updated 2026-03-31*
 
 ---
 
