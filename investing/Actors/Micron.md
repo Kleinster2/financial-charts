@@ -19,8 +19,6 @@ tags: [actor, memory, usa, dram, nand]
 
 MU trades as a core Semiconductors name (SMH r = 0.83).
 
-![[mu-price-chart.png]]
-
 ---
 
 Gross margin went from -9.1% (FY2023) to 81% (Q2 FY2026) in three years. Three dynamics are driving the company:
@@ -186,6 +184,25 @@ Q1 FY2026 key quotes: "Largest ever seen supply-demand gap." Only meeting 50-67%
 ![[mu-sankey.png]]
 
 ![[mu-sankey-fy2024.png]]
+
+---
+
+## Ratings history
+
+| Date | Agency | Action | Rating | Outlook |
+|------|--------|--------|--------|---------|
+| Apr 2018 | [[S&P]] | Upgrade | BB+ (from BB) | Stable |
+| Nov 2019 | [[S&P]] | Upgrade to IG | BBB- (from BB+) | Stable |
+| Jun 2021 | [[S&P]] | Outlook revision | BBB- | Positive |
+| Dec 2022 | [[S&P]] | Outlook revision | BBB- | Stable (from Positive) |
+| Apr 2024 | [[Fitch]] | Affirm | BBB | Stable |
+| Aug 2024 | [[Moody's]] | Affirm | Baa3 | Stable |
+| Nov 2024 | [[S&P]] | Affirm | BBB- | Stable |
+| Dec 2025 | [[Fitch]] | Affirm | BBB | Stable |
+| Jan 2026 | [[Moody's]] | Upgrade | Baa2 (from Baa3) | Stable |
+| Feb 2026 | [[S&P]] | Upgrade | BBB (from BBB-) | Stable |
+
+All three agencies now at solid investment grade (BBB/Baa2/BBB). The Jan-Feb 2026 upgrade wave reflects the [[Memory shortage 2025-2026]] supercycle: net cash position, $10B+ projected FCF in FY2026, and adjusted leverage near 0x.
 
 ---
 

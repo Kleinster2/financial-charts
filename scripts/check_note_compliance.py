@@ -262,6 +262,12 @@ class NoteChecker:
         if note_type in ("concept", "event"):
             issues.extend(self._check_synthesis(content, filepath))
 
+        # Hub checks (concept and sector notes)
+        if note_type in ("concept", "sector"):
+            issues.extend(self._check_oneliner_links(content, filepath))
+            issues.extend(self._check_table_cell_links(content, filepath))
+            issues.extend(self._check_bidirectional_related(content, filepath))
+
         # Remaining checks are actor-specific
         if note_type not in ("actor", "etf", "benchmark"):
             return issues
@@ -303,6 +309,10 @@ class NoteChecker:
         if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_sankey_chart(content, filepath))
 
+        # Actor/Securities split (public companies in Actors/, not people/geographies/products)
+        if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+            issues.extend(self._check_securities_split(content, filepath))
+
         # Financials checks (not products - those go on parent company)
         if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_historical_financials(content, filepath))
@@ -329,6 +339,10 @@ class NoteChecker:
         # Analyst timeline check (public companies, not ETFs/people/geographies/products)
         if is_public and not is_etf and not is_person and not is_geography and not is_product:
             issues.extend(self._check_analyst_timeline(content, filepath))
+
+        # Credit rating check (public companies, not ETFs/people/geographies/products)
+        if is_public and not is_etf and not is_person and not is_geography and not is_product:
+            issues.extend(self._check_credit_rating(content, filepath))
 
         return issues
 
@@ -798,17 +812,29 @@ aliases: []
         return fixed
 
     def _check_price_chart(self, content: str, filepath: Path, is_etf: bool) -> list[Issue]:
-        """Check for price chart embed."""
+        """Check for price chart embed.
+
+        Actor notes: fundamentals chart (which includes price overlay) satisfies this check.
+        Securities/ETF notes: still require a standalone price chart.
+        """
         issues = []
 
         # Look for price chart patterns
         has_price_chart = bool(re.search(r'!\[\[.*(-price|-vs-|price-chart).*\.png\]\]', content, re.IGNORECASE))
+
+        # Fundamentals chart includes price overlay — counts as price chart for actor notes
+        has_fundamentals = bool(re.search(r'!\[\[.*(fundamentals|financials).*\.png\]\]', content, re.IGNORECASE))
+        is_securities = 'securities' in filepath.stem.lower()
 
         # Allow for data quality / unavailable notes (recent IPOs, etc.)
         has_chart_exemption = bool(re.search(
             r'(chart(ing)?|price)\s*(data\s*)?(unavailable|quality|issues?|corrupt|manual\s*tracking)',
             content, re.IGNORECASE
         ))
+
+        # Actor notes with a fundamentals chart don't need a separate price chart
+        if has_fundamentals and not is_etf and not is_securities:
+            return issues
 
         if not has_price_chart and not has_chart_exemption:
             chart_type = "ETF" if is_etf else "Public company"
@@ -876,6 +902,35 @@ aliases: []
                     f" and embed with ![[{slug}-sankey.png]]"
                 )
             issues.append(Issue("error", "chart", f"Company missing income statement Sankey chart{fix_hint}"))
+
+        return issues
+
+    def _check_securities_split(self, content: str, filepath: Path) -> list[Issue]:
+        """Check that public company actor notes link to a securities note."""
+        issues = []
+
+        # Only applies to actor notes in Actors/ folder
+        if 'Actors' not in str(filepath):
+            return issues
+
+        # Skip stubs (< 15 non-empty lines in body)
+        body = content.split('---', 2)[-1] if content.count('---') >= 2 else content
+        non_empty = sum(1 for line in body.split("\n") if line.strip())
+        if non_empty < 15:
+            return issues
+
+        # Check for [[X securities]] link
+        name = filepath.stem
+        has_securities_link = bool(re.search(
+            r'\[\[' + re.escape(name) + r'\s+securities\]\]', content, re.IGNORECASE
+        ))
+
+        if not has_securities_link:
+            issues.append(Issue(
+                "warning", "securities-split",
+                f"Public company missing [[{name} securities]] link in Related."
+                f" Create investing/Assets/{name} securities.md and link from Related > ### Securities"
+            ))
 
         return issues
 
@@ -1249,6 +1304,72 @@ aliases: []
 
         return issues
 
+    def _check_credit_rating(self, content: str, filepath: Path) -> list[Issue]:
+        """Check for ratings history section in public company notes.
+
+        Looks for a dedicated ratings history section or table with S&P /
+        Moody's / Fitch ratings and dates.  Stubs (< 40 non-empty body
+        lines) are exempt.
+        """
+        issues = []
+
+        # Skip stubs
+        body = content
+        if content.startswith("---"):
+            second_dash = content.find("---", 3)
+            if second_dash != -1:
+                body = content[second_dash + 3:]
+
+        non_empty_lines = sum(1 for line in body.split("\n") if line.strip())
+        if non_empty_lines < 40:
+            return issues
+
+        # Check for ratings history section header or ratings history table
+        has_ratings_section = bool(re.search(
+            r'##\s*(?:Ratings?\s+history|Credit\s+ratings?\s+history|Ratings?)',
+            content, re.IGNORECASE
+        ))
+
+        # Also accept a table with multiple rating entries (agency + date pattern)
+        has_ratings_table = bool(re.search(
+            r'\|[^|]*(?:S&P|Moody|Fitch)[^|]*\|[^|]*\d{4}[^|]*\|',
+            content
+        ))
+
+        # Single rating mention in Quick stats still counts
+        has_rating_row = bool(re.search(
+            r'\|[^|]*(?:S&P\s+rating|Moody|Fitch|[Cc]redit\s+rating)[^|]*\|',
+            content
+        ))
+
+        if not has_ratings_section and not has_ratings_table and not has_rating_row:
+            issues.append(Issue("warning", "credit-rating",
+                "Public company missing ratings history section."
+                " Add ## Ratings history with S&P/Moody's/Fitch ratings and dates"))
+
+        # Check placement: Ratings history should come after Financials and before Related
+        if has_ratings_section:
+            headers = [(m.start(), m.group()) for m in
+                       re.finditer(r'^##\s+.+', content, re.MULTILINE)]
+            header_names = [h[1] for h in headers]
+
+            ratings_idx = next((i for i, h in enumerate(header_names)
+                                if re.search(r'##\s*Ratings?\s+history', h, re.IGNORECASE)), None)
+            financials_idx = next((i for i, h in enumerate(header_names)
+                                   if re.search(r'##\s*Financials', h, re.IGNORECASE)), None)
+            related_idx = next((i for i, h in enumerate(header_names)
+                                if re.search(r'##\s*Related', h, re.IGNORECASE)), None)
+
+            if ratings_idx is not None:
+                if financials_idx is not None and ratings_idx < financials_idx:
+                    issues.append(Issue("warning", "credit-rating-placement",
+                        "## Ratings history should come after ## Financials, not before"))
+                if related_idx is not None and ratings_idx > related_idx:
+                    issues.append(Issue("warning", "credit-rating-placement",
+                        "## Ratings history should come before ## Related"))
+
+        return issues
+
     def _check_synthesis(self, content: str, filepath: Path) -> list[Issue]:
         """Check that concept and event notes have a ## Synthesis section.
 
@@ -1270,6 +1391,141 @@ aliases: []
         if "## Synthesis" not in content:
             issues.append(Issue("warning", "synthesis",
                 "Concept/event note missing '## Synthesis' section"))
+
+        return issues
+
+    def _check_oneliner_links(self, content: str, filepath: Path) -> list[Issue]:
+        """Check that hub one-liners link to the entities they enumerate.
+
+        Hub notes (concepts, sectors) often enumerate sub-entities in their
+        opening one-liner. Any note name mentioned there should be wikilinked.
+        """
+        issues = []
+
+        # Extract the one-liner: first non-empty, non-frontmatter, non-tag line
+        body = content
+        if content.startswith("---"):
+            end = content.find("---", 3)
+            if end != -1:
+                body = content[end + 3:]
+
+        oneliner = ""
+        for line in body.split("\n"):
+            stripped = line.strip()
+            if not stripped:
+                continue
+            if stripped.startswith("#") and not stripped.startswith("##"):
+                continue  # skip tag lines like #concept #sector
+            oneliner = stripped
+            break
+
+        if not oneliner:
+            return issues
+
+        # Remove existing wikilinks from the one-liner for checking
+        oneliner_plain = re.sub(r'\[\[[^\]]+\]\]', '', oneliner)
+
+        # Check if any existing note names appear unlinked in the one-liner
+        for note_name in sorted(self.existing_notes, key=len, reverse=True):
+            if note_name == filepath.stem:
+                continue
+            if len(note_name) < 4:  # Skip very short names
+                continue
+            if re.search(rf'\b{re.escape(note_name)}\b', oneliner_plain):
+                issues.append(Issue("warning", "oneliner-link",
+                    f"One-liner mentions '{note_name}' without wikilink"))
+
+        return issues
+
+    def _check_table_cell_links(self, content: str, filepath: Path) -> list[Issue]:
+        """Check that table cells matching existing note names are wikilinked.
+
+        Scans markdown tables for cell values that exactly match (case-sensitive)
+        an existing vault note name but aren't wikilinked.
+        """
+        issues = []
+        seen = set()
+
+        for line in content.split("\n"):
+            # Only process table rows
+            if not line.strip().startswith("|"):
+                continue
+            # Skip separator rows
+            if re.match(r'^\s*\|[\s\-:|]+\|', line):
+                continue
+
+            # Split into cells
+            cells = [c.strip() for c in line.split("|")]
+            for cell in cells:
+                if not cell:
+                    continue
+                # Skip cells that already contain wikilinks
+                if "[[" in cell:
+                    continue
+                # Strip markdown formatting for matching
+                clean = re.sub(r'\*+', '', cell).strip()
+                if not clean or len(clean) < 3:
+                    continue
+                # Check if the cell text exactly matches a note name
+                if clean in self.existing_notes and clean != filepath.stem and clean not in seen:
+                    seen.add(clean)
+                    issues.append(Issue("warning", "table-cell-link",
+                        f"Table cell '{clean}' matches existing note — use [[{clean}]]"))
+
+        return issues
+
+    def _check_bidirectional_related(self, content: str, filepath: Path) -> list[Issue]:
+        """Check that Related section links are bidirectional.
+
+        If this note links to another concept/sector note in its Related section,
+        that target should link back. Only checks notes that exist and are
+        concept or sector type.
+        """
+        issues = []
+
+        # Extract Related section
+        related_match = re.search(r'^## Related\b.*?\n(.*?)(?=\n## |\Z)', content,
+                                  re.MULTILINE | re.DOTALL)
+        if not related_match:
+            return issues
+
+        related_text = related_match.group(1)
+
+        # Extract all wikilinks from the Related section
+        linked_names = set(re.findall(r'\[\[([^\]|]+?)(?:\|[^\]]+)?\]\]', related_text))
+
+        this_name = filepath.stem
+
+        for target_name in linked_names:
+            # Find the target file
+            target_path = None
+            for md_file in self.vault_root.rglob(f"{target_name}.md"):
+                target_path = md_file
+                break
+
+            if target_path is None or not target_path.exists():
+                continue
+
+            target_content = target_path.read_text(encoding="utf-8")
+            target_type = self._get_note_type(target_content)
+
+            # Only check concept and sector notes
+            if target_type not in ("concept", "sector"):
+                continue
+
+            # Check if target's Related section links back to this note
+            target_related = re.search(r'^## Related\b.*?\n(.*?)(?=\n## |\Z)',
+                                       target_content, re.MULTILINE | re.DOTALL)
+            if not target_related:
+                issues.append(Issue("suggestion", "bidirectional-related",
+                    f"[[{target_name}]] (Related) has no Related section linking back to [[{this_name}]]"))
+                continue
+
+            target_linked = set(re.findall(r'\[\[([^\]|]+?)(?:\|[^\]]+)?\]\]',
+                                           target_related.group(1)))
+            if this_name not in target_linked:
+                issues.append(Issue("suggestion", "bidirectional-related",
+                    f"[[{target_name}]] (Related) does not link back to [[{this_name}]]"))
 
         return issues
 

@@ -61,7 +61,7 @@ See [[India FY2026 budget]] for details.
 | Financials | [[HDFC Bank]], [[ICICI Bank]], SBI | Competition from fintechs |
 | [[Semiconductors]] | India Semiconductor Mission | Legacy nodes only (28nm+) |
 
-See [[India sectors]] for manufacturing constraints.
+See [[India Industry]] for manufacturing constraints.
 
 ---
 
@@ -102,7 +102,7 @@ Challenges:
 | Theme | Expression | Caveat |
 |-------|------------|--------|
 | Infrastructure boom | [[Larsen & Toubro]], cement, steel | Execution risk |
-| [[China+1]] manufacturing | Electronics, pharma | Assembly only — see [[India sectors]] |
+| [[China+1]] manufacturing | Electronics, pharma | Assembly only — see [[India Industry]] |
 | Digital / IT services | [[TCS]], [[Infosys]] | Talent competition |
 | [[India AI]] | Compute buildout | Behind US/China |
 
@@ -186,35 +186,11 @@ See [[Indian rupee]] for full toolkit and analyst views. See [[Iran conflict FX 
 
 ---
 
-## Energy vulnerability — structural oil exposure
+## Energy
 
-India's households spend a disproportionately large share of income on energy compared to advanced economies — making oil shocks hit Indian consumers harder.
+~85% crude import dependence, 6.4% of household income on energy (double the US), ~$15B annual import bill per $10/bbl. The Iran conflict exposed every dimension: LPG shortages, emergency Russian/Iranian crude purchases, fertilizer plant curtailments, and record FX reserve burn.
 
-| Country | % of household income on home energy (2021) |
-|---------|---------------------------------------------|
-| [[Italy]] | 7.2% |
-| [[India]] | 6.4% |
-| [[Spain]] | 6.5% |
-| [[Germany]] | 5.5% |
-| [[Japan]] | 5.2% |
-| [[China]] | ~5.0% |
-| [[UK]] | ~4.5% |
-| [[France]] | 3.7% |
-| [[South Korea]] | 3.3% |
-| [[US]] | 3.2% |
-| [[Canada]] | 3.1% |
-
-![[iea-household-energy-spending-by-country.png]]
-*Source: IEA, via FT Mar 9 2026*
-
-The US is structurally insulated: energy costs remain under 5% of disposable income even including fuel — barely moved since the post-2022 spike.
-
-![[fred-us-energy-share-of-income.png]]
-*Source: FRED (gasoline, other energy goods, electricity and gas services), via FT Mar 9 2026*
-
-This is the structural backdrop to India's acute vulnerability during the [[Operation Epic Fury|Iran conflict]]: ~85% crude import dependence, every $10/bbl costs ~$15B in annual import bill, and household energy budgets already stretched thin before the conflict began.
-
-Foreign Minister [[S. Jaishankar]] told parliament (Mar 8, 2026) that the region was "key to India's energy security" and that "supply chain disruptions and a climate of instability are serious issues."
+See [[India Energy]] for the full profile: refining capacity, crude sourcing, LPG crisis, SPR, energy mix, and diplomacy.
 
 ---
 
@@ -223,7 +199,7 @@ Foreign Minister [[S. Jaishankar]] told parliament (Mar 8, 2026) that the region
 | Risk | Impact |
 |------|--------|
 | [[Trump II]] tariffs | Reduced to 18% from 50% (Feb 2026 interim deal) — agri concessions required |
-| [[India sectors]] | Can't build batteries, EVs domestically — lithium finds years from production |
+| [[India Industry]] | Can't build batteries, EVs domestically — lithium finds years from production |
 | [[Indian rupee]] | Record low ~93.2; RBI burning reserves at >$20B in 3 weeks |
 | Iran conflict | Energy import bill surging, LPG shortages, FPI flight |
 | Real estate | Construction slowdown — see [[India macro]] |
@@ -243,7 +219,8 @@ Geopolitics:
 - [[Trump II]] — tariff reduced to 18% from 50% (Feb 2026 interim deal)
 
 Sectors:
-- [[India sectors]] — IT services, financials, pharma, manufacturing constraints
+- [[India Industry]] — IT services, financials, pharma, manufacturing constraints
+- [[India Energy]] — oil dependence, refining, LPG, renewables, crude diplomacy
 - [[China battery leverage]] — why battery manufacturing failed
 - [[Lithium]] — Reasi deposit, critical mineral exploration
 - [[India AI]] — $1.2B AI mission
@@ -263,9 +240,6 @@ Events:
 - [[India AI Impact Summit 2026]] — first Global South AI summit (Feb 2026)
 - [[Iran conflict FX dynamics]] — rupee among most exposed EM currencies
 - [[Iran conflict sanctions paradox]] — waiver enabling Iranian + Russian crude purchases
-
-Oil:
-- [[NIOC]] — seller of 5M barrels to [[Reliance Industries]] (March 2026 waiver)
 
 People:
 - [[S. Jaishankar]] — External Affairs Minister, energy security voice
@@ -355,52 +329,6 @@ Sensex plunged ~1,900 points to intraday low of 75,072. Nifty 50 fell below 23,2
 HDFC Bank's near-9% crash is the single largest contributor to the index decline — illustrates concentration risk in Indian benchmarks. The resignation's "ethical concerns" framing without further detail spooked markets; the timing during a global risk-off session amplified the move.
 
 The oil dimension is the structural worry: India's current account deficit widens ~0.4% of GDP per $10/bbl oil increase. With Brent at $113 vs the budget assumption of ~$75, the fiscal math deteriorates fast — see [[India FY2026 budget]].
-
----
-
-## LPG crisis — consumer impact (Week 3, March 2026)
-
-India takes 90% of LPG imports from the Middle East. The [[Strait of Hormuz]] closure (Feb 28) created an acute shortage — government invoked the Essential Commodities Act, suspended commercial LPG supply, and prioritized household cooking gas.
-
-| Metric | Detail |
-|--------|--------|
-| Black market LPG price | 2-3x normal (~₹1,900/$20) in New Delhi |
-| Restaurant LPG dependency | 80% of restaurants use LPG (NRAI) |
-| Storage buffer | Most restaurants carry only days of supply |
-| Alternative supply transit time | US LPG: 40+ days to arrive |
-| Emergency supply | At least 2 cargoes secured through Hormuz — fraction of consumption |
-
-The restaurant sector is the visible casualty. Sree Annapoorna (58-year-old chain, 15 banquet halls, Coimbatore) cut its menu and turned away wedding clients on an auspicious Hindu date (Mar 15). CEO Jegan Damodarasamy (Bloomberg, Mar 15): *"We've been in business for about 58 years. This is the first time we've done that."* ~1M delivery workers ([[Swiggy]]/[[Zomato]]) affected by restaurant closures. [[Infosys]] (300,000+ employees) trimmed cafeteria menus, asked staff to bring food from home.
-
-LPG-laden trucks becoming theft targets. Heated arguments at dealerships spilling into scuffles. Smugglers exploiting price differentials across borders (from [[Malaysia]], [[Bangladesh]]).
-
-See [[Iran conflict economic disruption]] for the full Hormuz crisis and [[Nitrogen Trap]] for the fertilizer dimension.
-
----
-
-## Russian crude import surge (March 2026)
-
-India had been winding down Russian crude purchases since late 2025 under US pressure, replacing with [[Saudi Arabia|Saudi]] and [[Iraq]]i barrels — which then became unavailable when the [[Strait of Hormuz]] closed (Feb 28). Purchases dropped from a peak of >2M bpd in mid-2024 to an average of 1.06M bpd in February 2026 ([[Kpler]]).
-
-The US granted India a waiver (mid-March 2026) allowing purchases of [[Russia]]n crude loaded before March 5, so long as delivery is to India and purchased by an Indian firm. Indian refiners immediately snapped up ~30M barrels — all unsold Russian spot cargoes. [[Indian Oil]] took ~10M barrels; [[Reliance Industries]] at least as much (Bloomberg, March 19).
-
-Russian crude (Urals, ESPO, Varandey grades) offered at $2–$8/bbl premium to Dated Brent — a reversal from the pre-conflict discount. At least seven tankers diverted mid-voyage from [[China]] to India ([[Vortexa]]). Named vessels include Aqua Titan (Urals, arriving New Mangalore March 21), Zouzou N. (CPC Blend, arriving Sikka March 25), Maylo, Sarah (Urals, diverted from Singapore), Oasis, Noble Walker (ESPO, diverted from China).
-
-US Ambassador Sergio Gor called India "a great partner in maintaining stable oil prices" (X, March 19). [[Japan]] and [[South Korea]] subsequently also permitted to resume Russian purchases.
-
-See [[Iran conflict economic disruption]] for the full Hormuz crisis context and [[Global oil trade flows]] for the rerouting dynamics.
-
----
-
-## Iranian crude resumed — first purchase since 2019 (March 24, 2026)
-
-The [[Trump II|Trump]] administration's 30-day [[Iran]] oil sanctions waiver (March 20) opened a brief window for Indian refiners. [[NIOC]] and traders offered [[Iran]]ian crude at $6-8/bbl premium to ICE [[Brent crude|Brent]] — an inversion from the historical discount — driven by the narrow waiver window, [[Strait of Hormuz]] near-shutdown, and payment friction (Iran cut off from SWIFT). Payment sought in USD within 7 days; some accepting INR.
-
-Reuters reported [[Reliance Industries]] purchased 5M barrels from [[NIOC]] — [[India]]'s first Iranian crude purchase since May 2019. Reliance denied it. The waiver applies to oil loaded before March 20, discharged by April 19, including sanctioned [[Shadow fleet]] vessels.
-
-Combined with the 40M+ barrels of [[Russia]]n crude purchased under a separate waiver earlier in March, Indian refiners are aggressively sourcing from both sanctioned producers to fill the supply gap left by the Hormuz closure. See [[Iran conflict sanctions paradox]] for the strategic implications.
-
-*Source: Reuters, Zawya, BusinessToday (Mar 20-24, 2026)*
 
 ---
 

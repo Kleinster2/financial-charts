@@ -130,7 +130,7 @@ Not everything fails. Some initiatives have delivered spectacularly:
 - [[India]] — country overview
 - [[India AI Impact Summit 2026]] — latest example
 - [[India macro]] — economic context
-- [[India sectors]] — sector-level analysis
+- [[India Industry]] — sector-level analysis
 - [[AI disintermediation]] — IT services disruption (one area where India *did* execute)
 - [[Tata Group]] — example of single-company execution capability
 - [[Adani Group]] — execution track record (infrastructure, ports — generally delivers)

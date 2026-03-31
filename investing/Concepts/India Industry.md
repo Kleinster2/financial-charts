@@ -1,6 +1,9 @@
-#concept #india #sectors #economy
+---
+aliases: [India sectors]
+---
+#concept #india #industry #economy
 
-**India sectors** — Sector landscape of the world's fastest-growing major economy.
+**India Industry** — Industrial and services landscape of the world's fastest-growing major economy: IT services, financials, pharma, infrastructure, manufacturing constraints, conglomerates.
 
 ---
 

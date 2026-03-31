@@ -3,7 +3,7 @@ aliases: [private equity, private companies, pre-IPO]
 ---
 #concept #fintech #private-markets
 
-**Private markets** — The $22T universe of investments outside public markets: private equity, private credit, real estate, infrastructure, secondaries, venture capital. Grew from a cottage industry into a giant part of the financial system largely outside the purview of banking regulators. Now facing its first real stress test as the [[Private credit retail liquidity crisis 2026]] tests the retail model and PE returns lag public benchmarks.
+**Private markets** — The $22T universe of investments outside public markets: [[Private Equity|private equity]], [[Private Credit|private credit]], [[Private Real Estate|real estate]], [[Infrastructure|infrastructure]], [[Private market secondaries|secondaries]], [[Venture Capital|venture capital]]. Grew from a cottage industry into a giant part of the financial system largely outside the purview of banking regulators. Now facing its first real stress test as the [[Private credit retail liquidity crisis 2026]] tests the retail model and PE returns lag public benchmarks.
 
 ---
 
@@ -14,10 +14,10 @@ aliases: [private equity, private companies, pre-IPO]
 | **Total private capital** | **$22T** (FT, Mar 2026) | >40% growth since 2020 |
 | [[Private Equity]] | ~$5-6T | ~$4T in unsold investments ([[Bain & Company]], 2025) |
 | [[Private Credit]] | **$2T+** (Preqin, Mar 2026) | Fastest-growing segment; first gates in Feb 2026 |
-| Private real estate | ~$1.5T | Core/core+ collapsed; opportunistic dominant |
-| Infrastructure | ~$1.2T | Record fundraising ($206.6B in 2025); AI data centers driving |
-| Venture capital | ~$1T+ | Collapsed from 23.4% share (2022) to 9.7% (2025) |
-| Secondaries | ~$0.4T AUM | Record $119.9B raised (2025); transactions >$200B |
+| [[Private Real Estate]] | ~$1.5T | Core/core+ collapsed; opportunistic dominant |
+| [[Infrastructure]] | ~$1.2T | Record fundraising ($206.6B in 2025); AI data centers driving |
+| [[Venture Capital]] | ~$1T+ | Collapsed from 23.4% share (2022) to 9.7% (2025) |
+| [[Private market secondaries\|Secondaries]] | ~$0.4T AUM | Record $119.9B raised (2025); transactions >$200B |
 | **Dry powder (all strategies)** | **~$1.7T+** | Capital committed but undeployed |
 
 *Note: segment AUMs are approximate and overlap exists (PE firms run credit, infra, RE). The $22T total is from FT (Mar 2026) citing industry data.*
@@ -56,7 +56,7 @@ Private capital is now roughly the size of the US banking system — but with a 
 
 ### Key shifts
 
-**Capital rotating away from PE/VC toward infrastructure, secondaries, and credit.** Of the 17 funds that closed on $10B+ in 2025, only 5 were primary PE — vs 11 of 20 in 2024. Infrastructure, secondaries, and private debt are now raising at PE-scale.
+Capital rotating away from [[Private Equity|PE]]/[[Venture Capital|VC]] toward [[Infrastructure|infrastructure]], [[Private market secondaries|secondaries]], and [[Private Credit|credit]]. Of the 17 funds that closed on $10B+ in 2025, only 5 were primary PE — vs 11 of 20 in 2024. Infrastructure, secondaries, and private debt are now raising at PE-scale.
 
 **Concentration accelerating across all strategies.** Experienced managers taking record shares. Emerging managers being squeezed out — PE: 88% to experienced GPs. Private debt: 91.7%. First-time debt managers raised just 14 funds ($2.4B) — record low. The big are getting bigger.
 
@@ -99,10 +99,10 @@ This is the retail pipeline that the [[Private credit retail liquidity crisis 20
 
 | Strategy | Dry powder (mid-2025) |
 |----------|-----------------------|
-| Private debt | **$618.1B** |
-| Real assets | $417.0B |
-| Real estate | $400.2B |
-| Secondaries | $303.7B |
+| [[Private Credit\|Private debt]] | **$618.1B** |
+| [[Infrastructure\|Real assets]] | $417.0B |
+| [[Private Real Estate\|Real estate]] | $400.2B |
+| [[Private market secondaries\|Secondaries]] | $303.7B |
 
 ---
 
@@ -110,7 +110,7 @@ This is the retail pipeline that the [[Private credit retail liquidity crisis 20
 
 | Metric | Reality |
 |--------|---------|
-| Performance | Private equity outperformed public for 25 years |
+| Performance | [[Private Equity]] outperformed public for 25 years |
 | Access | Historically limited to institutions, accredited |
 | AI companies | Best AI companies are private (OpenAI, Anthropic) |
 | Staying private longer | Companies IPO later, retail misses growth |

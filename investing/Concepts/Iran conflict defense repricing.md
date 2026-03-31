@@ -304,4 +304,14 @@ US Army is separately seeking proposals to build a pilot plant in the US to refi
 
 ---
 
+## Hegseth broker defense ETF inquiry (FT, March 30)
+
+[[Pete Hegseth]]'s [[Morgan Stanley]] broker contacted [[BlackRock]] in February about a multimillion-dollar investment in IDEF (BlackRock Defense Industrials Active ETF, $3.2bn AUM) — weeks before the US launched military action. IDEF's top holdings are [[RTX]], [[Lockheed Martin]], [[Northrop Grumman]], [[Palantir]]. The trade did not execute (fund not yet on Morgan Stanley's platform). Pentagon spokesperson [[Sean Parnell]] denied the report. See [[Pete Hegseth]] for full details.
+
+The episode underscores the political dimension of defense repricing: senior officials with advance knowledge of kinetic operations have brokers actively positioning in defense-focused instruments. Whether or not the intent was to front-run, the optics are damaging — and the pattern of pre-announcement trading scrutiny extends beyond Hegseth to broader Trump administration financial and prediction market activity.
+
+*Source: FT (Murphy, Agnew, Franklin, Politi — March 30, 2026)*
+
+---
+
 *Created 2026-03-03*

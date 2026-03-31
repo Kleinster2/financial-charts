@@ -446,7 +446,7 @@
 
         // Chart configuration will be injected via window.CHART_CONFIG
         function renderChart(config) {
-            const { data, title, width, height, showTitle, showLastDate, showLastValue, normalize, isFundamentals, forecastStart, labels, separatePanes, paneGroups, overlay, dualAxis, primaryTicker } = config;
+            const { data, title, width, height, showTitle, showLastDate, showLastValue, normalize, isFundamentals, forecastStart, labels, separatePanes, paneGroups, overlay, dualAxis, primaryTicker, leftAxisSeries } = config;
 
             // Use multi-pane rendering for fundamentals with multiple metrics
             if (separatePanes && paneGroups && Object.keys(paneGroups).length > 1) {
@@ -516,11 +516,11 @@
                     mode: isFundamentals ? 0 : 1  // Arithmetic for fundamentals, log for prices
                 },
                 leftPriceScale: {
-                    visible: !!overlay || !!dualAxis,
+                    visible: !!overlay || !!dualAxis || (leftAxisSeries && leftAxisSeries.length > 0),
                     borderColor: '#ccc',
                     scaleMargins: { top: 0.1, bottom: 0.1 },
                     autoScale: true,
-                    mode: isFundamentals ? 0 : 1
+                    mode: 1  // Log scale for price on left axis
                 },
                 crosshair: {
                     horzLine: { visible: false },
@@ -547,7 +547,8 @@
             let colorIndex = 0;
             for (const [ticker, points] of Object.entries(data)) {
                 const color = colors[colorIndex % colors.length];
-                const useLeftAxis = dualAxis && primaryTicker && ticker !== primaryTicker;
+                const isLeftAxisSeries = leftAxisSeries && leftAxisSeries.includes(ticker);
+                const useLeftAxis = isLeftAxisSeries || (dualAxis && primaryTicker && ticker !== primaryTicker);
 
                 // Add legend item (use custom label if provided)
                 const item = document.createElement('div');
@@ -569,6 +570,9 @@
                             return `${sign}${Math.abs(diff).toFixed(dec)}%`;
                         }
                     };
+                } else if (isLeftAxisSeries) {
+                    // Left axis series (price) uses standard price format
+                    priceFormat = { type: 'price', precision: 2, minMove: 0.01 };
                 } else if (isFundamentals) {
                     priceFormat = {
                         type: 'custom',

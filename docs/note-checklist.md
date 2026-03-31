@@ -22,6 +22,7 @@ Fix all errors before proceeding to manual checks.
 - Missing cap table (private)
 - Funding rounds table — exists, complete (no gaps/catch-all rows), individual rounds listed
 - Missing ownership % estimates table (private)
+- Missing credit rating in Financial position or Quick stats table (public companies)
 - Table formatting (blank lines before tables)
 
 **Exit codes:** 0 = pass, 1 = errors

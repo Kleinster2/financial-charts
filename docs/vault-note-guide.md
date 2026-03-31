@@ -77,6 +77,14 @@ Other rules:
 
 ---
 
+## Ratings History (Public Companies)
+
+Public company actor notes (non-stubs) should include a `## Ratings history` section with a table of S&P, Moody's, and Fitch actions: Date, Agency, Action (upgrade/downgrade/affirm/outlook revision), Rating, Outlook. Place it immediately after `## Financials` — ratings are a financial attribute, not operational detail. If the note has no Financials section yet, place it before `## Related`.
+
+Reference: See [[Micron]] for the template.
+
+---
+
 ## Concept Note Structure: Story + Reference
 
 Concept notes (non-stub) must follow a story + reference structure.

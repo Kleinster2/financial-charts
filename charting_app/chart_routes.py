@@ -300,7 +300,7 @@ def get_chart_lw():
     overlay_param = request.args.get('overlay', '').strip().lower()  # e.g., overlay=si for short interest
 
     metrics_param = request.args.get('metrics', '').strip().lower()
-    combine_panes = request.args.get('combine', 'false').lower() == 'true'  # Combine multiple metrics into single pane
+    combine_panes = request.args.get('combine', 'true').lower() == 'true'  # Combine multiple metrics into single pane (default true)
     product_param = product_param_early  # Already parsed above
     product_metrics_param = request.args.get('product_metrics', '').strip().lower()  # e.g., global_mau,revenue
 
@@ -485,6 +485,45 @@ def get_chart_lw():
             if not chart_data:
                 return jsonify({'error': 'No fundamentals data found'}), HTTP_NOT_FOUND
 
+            # Add price overlay on left axis (unless explicitly disabled)
+            no_price = request.args.get('no_price', 'false').lower() == 'true'
+            left_axis_series = []
+            if not no_price:
+                # Get date range from fundamentals data
+                all_dates = []
+                for pts in chart_data.values():
+                    all_dates.extend([p['time'] for p in pts])
+                if all_dates:
+                    price_start = min(all_dates)
+                    try:
+                        if USE_NARROW and NARROW_AVAILABLE:
+                            price_df = narrow_get_price_data_wide(tickers, start_date=price_start)
+                        else:
+                            conn2 = get_db_connection()
+                            ticker_cols = ', '.join([f'"{t}"' for t in tickers])
+                            price_df = pd.read_sql(
+                                f'SELECT Date, {ticker_cols} FROM stock_prices_daily WHERE Date >= ? ORDER BY Date',
+                                conn2, params=[price_start])
+                            price_df = price_df.set_index('Date')
+                            conn2.close()
+
+                        if not price_df.empty:
+                            price_df = price_df.reset_index()
+                            for ticker in tickers:
+                                if ticker in price_df.columns:
+                                    price_points = []
+                                    for _, row in price_df.iterrows():
+                                        val = row[ticker]
+                                        if pd.notna(val):
+                                            date_str = pd.to_datetime(row['Date']).strftime('%Y-%m-%d')
+                                            price_points.append({'time': date_str, 'value': float(val)})
+                                    if price_points:
+                                        price_label = f"{ticker} Price" if len(tickers) > 1 else "Price"
+                                        chart_data[price_label] = price_points
+                                        left_axis_series.append(price_label)
+                    except Exception as e:
+                        logger.warning(f"Could not add price overlay: {e}")
+
             # Sort series by last value (high to low) if requested
             if sort_by_last and chart_data:
                 def get_last_value(series_name):
@@ -533,7 +572,8 @@ def get_chart_lw():
                 'forecastStart': forecast_start if forecast_start else None,
                 'labels': labels if labels else None,
                 'separatePanes': len(metrics) > 1 and not combine_panes,
-                'paneGroups': pane_groups if (pane_groups and not combine_panes) else None
+                'paneGroups': pane_groups if (pane_groups and not combine_panes) else None,
+                'leftAxisSeries': left_axis_series if left_axis_series else None
             }
 
             # Render with Playwright
