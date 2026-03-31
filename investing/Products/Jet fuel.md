@@ -161,6 +161,10 @@ The [[GCC]] states are major jet fuel exporters. [[Saudi Arabia]], [[Kuwait]], [
 
 Airlines face a dual headwind: fuel cost surge + route/hub disruption. [[Emirates]], [[Qatar Airways]], and [[Etihad]] depend on Gulf hub models that route through the conflict zone. Even non-Gulf carriers face higher fuel costs — jet fuel is a global market, and the supply removal ripples worldwide.
 
+**[[Amos Hochstein]] analysis (Mar 31):** Jet fuel surcharges "already here" and "will surge going forward." Airlines face geographic constraints: "airlines have to fly to other countries where they have to fill up. And if there's no jet fuel there, then they won't fly there." This creates route cancellation risks beyond just cost pass-through.
+
+**[[Valero]] Texas refinery accident (late March):** Still not fully operational as of Mar 31, makes jet fuel — highlighting US production vulnerability despite overall energy independence.
+
 US gasoline at ~$3/gallon (same as year ago) suggests the product market tightness hasn't fully passed through to US consumers yet — but jet fuel's thinner market and fewer hedging options make it more volatile than gasoline.
 
 See [[Iran conflict economic disruption]] for the full energy market analysis and [[2026 Iran conflict market impact]] for cross-asset impact.

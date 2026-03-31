@@ -791,4 +791,75 @@ Nuttall is talking his book as a Canadian energy PM, but the 900M barrel COVID c
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-31 (Nuttall/Ninepoint Partners).*
+## Hochstein: shock propagating to US — "next week" (March 31)
+
+*Source: [[Amos Hochstein]] interview, Bloomberg Television, March 31, 2026. 8 minutes.*
+
+[[TWG Global]] Managing Partner [[Amos Hochstein]] (former senior advisor to President Biden on energy security) provided the most comprehensive analysis of shock propagation timing and US energy vulnerability.
+
+### Energy shock propagation order
+
+"The shock started in Asia" → Europe (approaching "Jimmy Carter sweater" moment) → US (coming spring). Sequential, not simultaneous, due to transit time and storage buffers.
+
+**Asia (current):** Flight cancellations, 4-day workweeks ([[Sri Lanka]]), work-from-home mandates ([[Thailand]], back to "COVID days"). Business sectors ordered to stay home.
+
+**Europe (imminent):** European Commission asking member states to consider cutting back on oil and gas consumption. "Very close" to telling people to travel less or bike to work — the "Jimmy Carter sweater" moment Hochstein worried about when he was at the White House.
+
+**US (this spring):** "Next week is gonna be that week where the shock in Asia to Europe starts playing out in The United States." Different expectation for Americans on gasoline, diesel, and air travel compared to before.
+
+### US NOT self-reliant despite rhetoric
+
+Critical vulnerability assessment: "We are more self reliant, but we're not entirely self reliant."
+
+- **California imports year-round** — not just summer
+- **East Coast imports in summer**
+- **Insufficient pipeline infrastructure** to move product domestically: "we don't always have the ability to move product around The United States. We don't have enough infrastructure pipelines to move things around."
+- **One accident = problem:** [[Valero]] refinery accident in Texas (last week of March), still not fully operational, makes jet fuel. "One accident in The United States and we have a problem."
+
+### Diesel more critical than gasoline
+
+"I told everybody from the president on down that we should worry much more about diesel" than gasoline. "Diesel prices have risen more than the gasoline. We're having a hard time making enough diesel in The United States."
+
+**Economic transmission mechanism:** "Diesel is what will determine ultimately the increase in prices on food and on everything we buy on Amazon or any other retailer. It comes to us on a truck." Trucking cost pass-through hits all consumer goods.
+
+**Current pricing:**
+- California gasoline: $6/gallon
+- California diesel: >$6/gallon, heading to $7-8
+- US psychological barrier already hit: "$4 is already a psychological barrier, not for the White House, but for the American people"
+
+### Jet fuel surcharges
+
+"Jet fuel surcharges are coming to the airlines, and they're already here, and they will surge going forward." Airlines face geographic constraints: "airlines have to fly to other countries where they have to fill up. And if there's no jet fuel there, then they won't fly there."
+
+### Weekly Trump negotiation pattern
+
+"Monday and Tuesday, the president talks about negotiations. We've had that now for two weeks in a row. Monday, Tuesday is about negotiations. By Thursday, the market realizes there's no real negotiation. The idea of ending the war with the straits closed is not really ending the war."
+
+### European fragmentation — Spain as outlier
+
+**European resentment:** "Europeans, though, fundamentally say... Their view is The United States wasn't attacked. This was a decision to go in a preemptive war that no one really understood, wasn't lobbied for. We didn't have months of explanation of why we're going to war. It was a decision and then an expectation that they join."
+
+**Core grievance:** "You took us for granted. You didn't even come and tell us why you were going to war and then told us we had to go."
+
+**Spain as anti-American outlier:**
+- "Anti American generally. And almost pro China."
+- Allowed [[Huawei]] into intelligence systems
+- **Summer 2025:** Granted Huawei wiretapping contract for intelligence community
+- Closed airspace to US aircraft during conflict
+- Hochstein assessment: "I don't believe we should be doing business with when it comes to sensitive technology"
+
+**Other European responses:**
+- **UK:** Said navy would help "after the conflict was over"
+- **Italy:** Reportedly blocked US aircraft landing
+
+### Iran making more money
+
+"Iran's making was making more money" before the war and "they're making more money since the war started. They're selling more oil at a significantly higher price without sanctions. With the unsanctioned Iran oil at sea."
+
+### Market assessment
+
+"We are still underpricing oil. We are underpricing economic impacts of this energy shock." The key divergence from consensus.
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-31 (Hochstein/Bloomberg, Nuttall/Ninepoint Partners).*

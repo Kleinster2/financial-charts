@@ -380,6 +380,18 @@ Diesel crack spreads are a leading indicator. Widening cracks signal refinery st
 
 ---
 
+## Iran conflict impact (March 2026)
+
+**[[Amos Hochstein]] assessment (Mar 31):** Diesel more important than gasoline for real economy impact — food and retail prices driven by trucking costs. "Diesel is what will determine ultimately the increase in prices on food and on everything we buy on Amazon or any other retailer. It comes to us on a truck."
+
+**Current pricing:**
+- California diesel: >$6/gallon, heading to $7-8
+- "Diesel prices have risen more than the gasoline. We're having a hard time making enough diesel in The United States"
+
+Diesel's economic transmission mechanism makes it more critical than gasoline for inflation: trucking cost pass-through hits all consumer goods, vs gasoline which primarily affects direct transportation costs.
+
+---
+
 ## Related
 
 - [[Jet fuel]] — sister distillate product (competes for same refinery cut)

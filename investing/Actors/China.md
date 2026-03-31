@@ -462,6 +462,76 @@ The US administration has repeatedly denied export ban plans, understanding the 
 
 ---
 
+## Iran conflict game theory — China Decode analysis (March 31, 2026)
+
+*Source: China Decode podcast, Prof G Pod, March 31, 2026. James King analysis.*
+
+[[James King]] framed China's Iran conflict strategy around three core principles:
+
+### 1. Economic power as prime weapon ("tiger's front paw")
+
+China uses economic power, not military/diplomatic muscle, as its primary tool. During the Iran crisis, China must prioritize keeping oil flowing through the [[Strait of Hormuz]] and avoid antagonizing the US to prevent economic reprisals (tariffs, sanctions). This economic-first approach limits diplomatic/military support for [[Iran]].
+
+### 2. Periphery diplomacy — focus on borders
+
+China's crucial theater of focus remains the areas around its borders: [[Taiwan]], [[South China Sea]], [[Japan]], and [[South Korea]]. Iran and Hormuz are important but secondary to these core interests. China doesn't spread itself thin globally, maintaining discipline on where it concentrates power. This has been consistent for "thousands of years."
+
+### 3. Transactional power — no allies except North Korea
+
+China has only one formal treaty ally: [[North Korea]] (1961 treaty). All other relationships are "strategic partnerships" that "mean nothing when push comes to shove" — these are often used "to flatter countries that China wants something from." Iran is a strategic partner, not an ally. China wanted cheap Iranian oil and got it, plus some strategic value undermining the US globally.
+
+### China's measured response pattern
+
+- **Moderated criticism:** Called US attack "unacceptable," described it as "law of the jungle" — but these are "fairly mild in diplomatic terms"
+- **No military support:** At no point offered Iran military support (money, technology, or combat reinforcement)
+- **Trump summit proceeds:** China-US summit rescheduled for May (delayed from April) — "hardly the action of a country that would be really annoyed" with the US
+
+### Game theory mechanics
+
+China's dominant strategy: have the Strait of Hormuz open but on its own terms, ideally through diplomatic means. [[Pakistan]] serves as back channel between Washington and Tehran (Pakistan is "effectively a client state of China"). China positions itself as diplomatic honest broker to both Gulf states and G7 countries.
+
+### Energy constraints and responses
+
+- Cutting exports of oil, fertilizers, petrochemicals
+- Oil price caps for consumers/corporates to protect domestic economy
+- ~100 days strategic reserves
+- China benefits from conflict geopolitically but faces economic difficulties
+
+### Iran tactical cooperation, strategic limits
+
+**Pre-conflict changes:**
+- Iran switched from GPS to Chinese BeiDou satellite navigation system
+- Unconfirmed reports of China selling precision missile technology to Iran (pre-war)
+
+**During conflict:** No evidence of financial or military aid. China maintains Iran as strategic asset for regional leverage but won't risk core US trade relationship.
+
+### Historical China-Russia comparison
+
+China-Russia relationship is deeper due to:
+- Shared border (several thousand miles vs none with Iran)
+- Fixed infrastructure (LNG pipelines from Russia)
+- Arctic access (shipping routes, supply lines)
+- Personal Xi-Putin relationship (slight departure from pure transactional approach)
+
+### Chinese exports — historic dominance (2026)
+
+China exports projected above $4T for first time in 2026, reaching 17-18% of global exports — a historic record surpassing US peak of 16% in 1968. Chinese exports as share of GDP also hitting abnormal levels (6% trade surplus vs US peak of 1% during 1870-1970 surplus era).
+
+### Suez analogy — China ascendant moment?
+
+Host [[Alice Han]] raised 1956 Suez Crisis analogy: Britain/France tried to stop Nasser from nationalizing Suez Canal, but US under Eisenhower economically coerced them to back down, paving the way for American dominance over British Empire. Question: "Is Iran the Suez crisis of today and does that mean that China is ascendant and the US is in decline?"
+
+The comparison suggests Iran conflict could be China's moment to overtake US global influence through diplomatic resolution while US military approach fails.
+
+### Summit prediction
+
+Alice Han predicted Trump-Xi summit won't happen in May due to:
+- China trade probes launched against America
+- Pending Taiwan arms sales (record-high package agreed by Congress)
+- US distraction with Iran escalation and lack of "homework" preparation
+
+---
+
 ## What to watch
 
 - [ ] VEU case-by-case approval patterns (Q1 2026)

@@ -166,6 +166,59 @@ BYD's 1,500 kW is ~3x Tesla V4 in China and ~5-6x what most Tesla vehicles actua
 
 ---
 
+## Blade Battery 2.0 and overseas ascendancy (March 2026)
+
+*Source: China Decode podcast, Prof G Pod, March 31, 2026.*
+
+### Critical turning point (February 2026)
+
+February 2026 marked a historic milestone: BYD's overseas sales (~100K units) exceeded domestic sales (~90K) for the first time ever. This represents a structural pivot from China-focused to globally-distributed revenue base.
+
+**Jan-Feb 2026 performance:**
+- Overseas sales +50% YoY
+- Germany registrations +10x YoY (January 2026)
+- Total vehicle sales: 2.26M (2025) vs Tesla 1.64M — largest margin yet
+- 7.7% increase in global sales despite domestic -8% (2025)
+- Ranks 6th globally in total auto sales (EVs + non-EVs) — ahead of Ford for first time
+
+### Financial trajectory and challenges
+
+**Net earnings:** Declined 19% to $4.7B (2025) — first profit decline since 2021, driven by domestic price war pressure. The overseas expansion is partly defensive: escaping brutal Chinese EV price competition by finding higher-margin international markets.
+
+**Geographic diversification:** Building plants in Hungary, Latin America, Southeast Asia to localize production and avoid tariffs. Similar to [[Tesla]]'s global manufacturing approach.
+
+### Market consolidation thesis
+
+[[AlixPartners]] projects Chinese EV brands could drop from ~130 to ~15 in five years (consolidation wave). BYD's overseas expansion positions it as one of the survivors rather than a domestic casualty.
+
+**China's battery/materials dominance:**
+- Power batteries: 70% global market share (Chinese companies)
+- Anode materials: >90% global market share
+- BYD leverages this supply chain advantage globally
+
+### European market positioning
+
+**BYD Atto 2 pricing:** €22,990 in Europe — competitive against European alternatives despite shipping costs and potential tariffs. This price point targets mass market European buyers, not just early adopters.
+
+### US energy shock catalyst
+
+Rising US gasoline prices (WTI heading toward $100+ in March 2026 Iran conflict) strengthen the EV value proposition globally. Higher fossil fuel costs make BYD's EVs relatively more attractive to cost-conscious buyers worldwide.
+
+**Strategic timing:** BYD's overseas expansion accelerates exactly when:
+1. Energy costs spike globally (Iran conflict)
+2. Chinese domestic market saturates
+3. Government subsidies shift toward overseas manufacturing
+4. European/other markets become more price-sensitive to fuel costs
+
+### Blade Battery 2.0 technical specs
+
+Blade Battery 2.0 unveiled March 2026:
+- 10% to 70% charge in 5 minutes (roughly equivalent to gas station fill-up time)
+- Eliminates the last practical barrier to EV adoption: charging speed
+- Combined with overseas sales pivot, addresses both technical and geographic scaling
+
+---
+
 ## Global expansion
 
 **Beyond China:**

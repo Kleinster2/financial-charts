@@ -97,6 +97,12 @@ VLO trades as a core Oil & Gas E&P name (XOP r = 0.84).
 
 ---
 
+## Operations update (March 2026)
+
+**Texas refinery accident (late March 2026):** Still not fully operational as of Mar 31, makes jet fuel. Incident highlighted during Iran conflict as US production vulnerability ([[Amos Hochstein]] reference on Bloomberg). Shows how "one accident in The United States" can create supply problems during energy shocks.
+
+---
+
 ## Related
 
 - [[Phillips 66]] — peer refiner

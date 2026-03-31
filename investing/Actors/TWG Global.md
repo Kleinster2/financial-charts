@@ -34,6 +34,10 @@ TWG Global — Mark Walter's multinational conglomerate. Co-chaired by Walter an
 
 ---
 
+## Company overview
+
+**Leadership:** Co-chaired by founder Mark Walter and Thomas Tull. [[Amos Hochstein]] joined as Global Managing Partner in March 2025, bringing energy and infrastructure expertise to support AI investments.
+
 ## Strategic partnerships
 
 In April 2025, [[Mubadala]] formed a partnership: TWG bought 5% of Mubadala Capital; Mubadala committed a $10B syndicated investment in TWG Global. Also has partnerships with [[Palantir]] and [[xAI]] for AI in financial services.

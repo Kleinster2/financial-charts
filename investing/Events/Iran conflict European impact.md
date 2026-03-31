@@ -205,4 +205,36 @@ This validates the [[Colby Connelly|Connelly]] assessment from the MEI panel (Ma
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital).*
+## Hochstein: European resentment over lack of consultation (March 31)
+
+*Source: [[Amos Hochstein]] interview, Bloomberg Television, March 31, 2026.*
+
+[[TWG Global]] Managing Partner [[Amos Hochstein]] (former senior advisor to President Biden on energy security) provided the most direct assessment of European diplomatic fragmentaiton during the crisis.
+
+### European core grievance
+
+"Europeans, though, fundamentally say, look. NATO and our alliance is when one is attacked, the other is attacked. You know, one for all and all for one. Their view is The United States wasn't attacked. This was a decision to go in a preemptive war that no one really understood, wasn't lobbied for. We didn't have months of of explanation of why we're going to war. It was a decision and then an expectation that they join."
+
+**Core statement:** "You took us for granted. You didn't even come and tell us why you were going to war and then told us we had to go." The resentment stems from process, not substance — lack of consultation before war initiation, followed by expectation of military support.
+
+### Spain as anti-American outlier
+
+Hochstein singled out [[Spain]] as an extreme case: "Spain is an outlier, and I will say Spain was an outlier during the Biden administration. It has taken a, this leadership, played with its own scandals, has been, taking a very hard line anti American generally. And almost pro China."
+
+**Intelligence security breach:** "This past summer, they granted them [[[Huawei]]] a, a contract for their wiretapping for their intelligence community." Hochstein's assessment: "I don't believe we should be doing business with when it comes to sensitive technology because they've opened. They've allowed [[Huawei]] into their intelligence systems."
+
+**Military non-cooperation:** Spain closed airspace to US aircraft during the conflict.
+
+### Other European responses
+
+- **UK:** Offered navy "after the conflict was over" — support contingent on ceasefire
+- **Italy:** "reportedly" blocked US aircraft landing rights
+- **General pattern:** Fragmented, non-unified EU position with no clear leadership structure
+
+### European energy situation
+
+European Commission asking member states to "consider coming cutting back on oil and gas." Europeans "coming very close" to telling people to travel less or bike to work — the "Jimmy Carter sweater" moment. Hochstein's worry: "Don't tell people to, you know Travel, basically. To travel or bike to work. But look for Americans, there is no doubt that this spring is gonna be a very different expectation."
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg).*

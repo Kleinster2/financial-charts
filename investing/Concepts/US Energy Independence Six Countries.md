@@ -38,6 +38,17 @@ The March 2026 [[Strait of Hormuz]] closure was the first real stress test of US
 
 [[Megan O'Sullivan]] ([[Belfer Center]], [[Harvard]]) added a complementary point on the same panel: energy independence never meant energy [[autarky]]. It meant the US was a net exporter in aggregate — but because oil is priced on the global market, Americans still experience every global supply shock. The Trump administration's decision to strike [[Iran]] may have been partially predicated on the assumption that US energy dominance provided insulation. It didn't.
 
+## Hochstein confirmation (March 31)
+
+[[Amos Hochstein]] confirmed the framework's core insight during a Bloomberg interview on March 31, 2026: "We are more self reliant, but we're not entirely self reliant."
+
+Specifically validated the Morse analysis:
+- "We import a lot into California during the year"
+- "We import in the summer into the East Coast"
+- "We don't always have the ability to move product around The United States. We don't have enough infrastructure pipelines to move things around"
+
+Hochstein's additional point: vulnerability extends beyond transportation constraints to production infrastructure. "One accident in The United States and we have a problem" — citing the [[Valero]] Texas refinery accident (late March 2026) that was still not fully operational as of March 31, affecting jet fuel production.
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — the crisis that exposed the framework

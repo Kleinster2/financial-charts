@@ -40,6 +40,9 @@ The $4 threshold is approximate but real — historically, sustained pump prices
 | Mar 6 | ~$2.90/gallon | +$0.20 in days (+7%) |
 | Mar 19 | $3.24/gallon (RBOB futures) | +4.6% on day |
 | Mar 21 (Fri) | +32% since hostilities | Brooks data |
+| Mar 31 | California over $6/gallon | [[Amos Hochstein]] data |
+
+**[[Amos Hochstein]] assessment (Mar 31):** $4/gallon "already a psychological barrier, not for the White House, but for the American people." California gasoline already over $6/gallon.
 
 US diesel at $5/gallon (Will Kennedy, Bloomberg, March 19) is running well ahead of gasoline — trucking and agriculture absorbing more of the shock than consumers at the pump. The refined product spread (diesel premium over gasoline) widening signals industrial pain arriving before consumer pain.
 
