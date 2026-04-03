@@ -5,12 +5,17 @@
   <title>Lightweight Charts Sandbox</title>
   
   <style>
-    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:1rem;background:#fafafa;}
+    /* ═══ Dark theme (global) ═══ */
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:1rem;background:#131722;color:#d1d4dc;}
+    h1,h2,h3{color:#d1d4dc;}
     #top-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:1rem;}
-    button{padding:4px 10px;font-size:1rem;}
-    .chart-box{width:100%;height:600px;border:1px solid #ccc;background:#fff;margin-top:1rem;position:relative;}
+    button{padding:4px 10px;font-size:1rem;background:#2a2e39;color:#d1d4dc;border:1px solid #444;border-radius:3px;cursor:pointer;}
+    button:hover{background:#363a45;}
+    select{background:#2a2e39;color:#d1d4dc;border:1px solid #444;border-radius:3px;padding:4px 6px;}
+    input[type="text"],input[type="number"]{background:#2a2e39;color:#d1d4dc;border:1px solid #444;border-radius:3px;}
+    .chart-box{width:100%;height:600px;border:1px solid #2a2e39;background:#131722;margin-top:1rem;position:relative;}
     /* layout tweaks */
-    .chart-card{margin-bottom:3rem;}
+    .chart-card{margin-bottom:3rem;background:#131722;}
     /* chip styles restored */
     .controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:4px;}
     .ticker-chips{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end;width:100%;margin-top:4px;}
@@ -18,91 +23,135 @@
     .chip--hidden{opacity:0.4;text-decoration:line-through;}
     .chip .close{margin-left:4px;cursor:pointer;font-weight:bold;}
     .tab-bar{display:flex;flex-wrap:wrap;gap:4px;margin-left:12px;flex:1 1 auto;}
-    .tab-bar .tab{padding:4px 8px;border:1px solid #666;border-radius:4px;background:#eee;cursor:pointer;font-size:0.9rem;}
-    .tab-bar .tab.active{background:#666;color:#fff;}
-      /* sticky chart navigation */
-    #chart-nav{position:sticky;top:0;z-index:200;background:#fff;padding:4px 8px;border-bottom:1px solid #ddd;margin-bottom:8px;}
+    .tab-bar .tab{padding:4px 8px;border:1px solid #444;border-radius:4px;background:#2a2e39;color:#d1d4dc;cursor:pointer;font-size:0.9rem;}
+    .tab-bar .tab:hover{background:#363a45;}
+    .tab-bar .tab.active{background:#2962ff;color:#fff;border-color:#2962ff;}
+    /* sticky chart navigation */
+    #chart-nav{position:sticky;top:0;z-index:200;background:#1e222d;padding:4px 8px;border-bottom:1px solid #2a2e39;margin-bottom:8px;}
     #chart-nav.hidden{display:none;}
-    #chart-nav a{margin-right:8px;text-decoration:none;color:#007bff;font-size:0.95rem;}
-    #chart-nav a:hover{text-decoration:underline;}
-    #chart-nav a.active{font-weight:bold;}
+    #chart-nav a{margin-right:8px;text-decoration:none;color:#2962ff;font-size:0.95rem;}
+    #chart-nav a:hover{text-decoration:underline;color:#5b8def;}
+    #chart-nav a.active{font-weight:bold;color:#d1d4dc;}
     #toggle-chart-nav-btn{margin-left:8px;}
     .static-legend{display:none !important;}
     /* Global search styles */
     #global-search-container{position:relative;flex:0 0 auto;margin-right:12px;}
-    #global-search-input{padding:6px 10px;font-size:0.95rem;border:1px solid #999;border-radius:4px;width:250px;outline:none;}
-    #global-search-input:focus{border-color:#007bff;box-shadow:0 0 0 2px rgba(0,123,255,0.1);}
-    #search-results{position:absolute;top:100%;left:0;right:0;background:#fff;border:1px solid #ddd;border-top:none;max-height:400px;overflow-y:auto;z-index:1000;box-shadow:0 4px 6px rgba(0,0,0,0.1);display:none;}
+    #global-search-input{padding:6px 10px;font-size:0.95rem;border:1px solid #444;border-radius:4px;width:250px;outline:none;background:#2a2e39;color:#d1d4dc;}
+    #global-search-input:focus{border-color:#2962ff;box-shadow:0 0 0 2px rgba(41,98,255,0.2);}
+    #search-results{position:absolute;top:100%;left:0;right:0;background:#1e222d;border:1px solid #2a2e39;border-top:none;max-height:400px;overflow-y:auto;z-index:1000;box-shadow:0 4px 12px rgba(0,0,0,0.5);display:none;}
     #search-results.show{display:block;}
-    .search-result-item{padding:8px 12px;cursor:pointer;border-bottom:1px solid #eee;font-size:0.9rem;}
-    .search-result-item:hover{background:#f0f0f0;}
+    .search-result-item{padding:8px 12px;cursor:pointer;border-bottom:1px solid #2a2e39;font-size:0.9rem;color:#d1d4dc;}
+    .search-result-item:hover{background:#2a2e39;}
     .search-result-item:last-child{border-bottom:none;}
-    .search-result-ticker{font-weight:bold;color:#007bff;margin-right:8px;}
-    .search-result-name{color:#666;margin-right:8px;font-size:0.85rem;}
-    .search-result-location{color:#999;font-size:0.8rem;}
-    .search-no-results{padding:12px;text-align:center;color:#999;font-style:italic;}
+    .search-result-ticker{font-weight:bold;color:#2962ff;margin-right:8px;}
+    .search-result-name{color:#787b86;margin-right:8px;font-size:0.85rem;}
+    .search-result-location{color:#555;font-size:0.8rem;}
+    .search-no-results{padding:12px;text-align:center;color:#555;font-style:italic;}
     /* Fundamentals panel styles */
-    .fundamentals-panel{background:#f8f9fa;border:1px solid #dee2e6;border-radius:4px;padding:12px;margin-top:8px;display:none;font-size:0.9rem;}
+    .fundamentals-panel{background:#1e222d;border:1px solid #2a2e39;border-radius:4px;padding:12px;margin-top:8px;display:none;font-size:0.9rem;}
     .fundamentals-panel.show{display:block;}
-    .fundamentals-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid #007bff;}
-    .fundamentals-title{font-size:1.1rem;font-weight:bold;color:#333;}
-    .fundamentals-title .alias-hint{font-weight:normal;font-size:0.85rem;color:#6c757d;margin-left:6px;}
-    .fundamentals-close{cursor:pointer;font-size:1.2rem;color:#999;padding:0 6px;}
-    .fundamentals-close:hover{color:#333;}
+    .fundamentals-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid #2962ff;}
+    .fundamentals-title{font-size:1.1rem;font-weight:bold;color:#d1d4dc;}
+    .fundamentals-title .alias-hint{font-weight:normal;font-size:0.85rem;color:#787b86;margin-left:6px;}
+    .fundamentals-close{cursor:pointer;font-size:1.2rem;color:#787b86;padding:0 6px;}
+    .fundamentals-close:hover{color:#d1d4dc;}
     .fundamentals-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:12px;}
-    .fundamentals-section{background:#fff;padding:10px;border-radius:4px;border:1px solid #e0e0e0;}
-    .fundamentals-section-title{font-weight:bold;margin-bottom:8px;color:#007bff;font-size:0.95rem;}
-    .fundamentals-metric{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid #f0f0f0;}
+    .fundamentals-section{background:#2a2e39;padding:10px;border-radius:4px;border:1px solid #363a45;}
+    .fundamentals-section-title{font-weight:bold;margin-bottom:8px;color:#2962ff;font-size:0.95rem;}
+    .fundamentals-metric{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid #363a45;}
     .fundamentals-metric:last-child{border-bottom:none;}
-    .fundamentals-metric-label{color:#666;}
-    .fundamentals-metric-value{font-weight:bold;color:#333;}
-    .fundamentals-metric-value.positive{color:#28a745;}
-    .fundamentals-metric-value.negative{color:#dc3545;}
+    .fundamentals-metric-label{color:#787b86;}
+    .fundamentals-metric-value{font-weight:bold;color:#d1d4dc;}
+    .fundamentals-metric-value.positive{color:#26a69a;}
+    .fundamentals-metric-value.negative{color:#ef5350;}
     .fundamentals-earnings{margin-top:12px;}
-    .fundamentals-earnings-title{font-weight:bold;margin-bottom:8px;color:#007bff;}
-    .fundamentals-earnings-table{width:100%;border-collapse:collapse;background:#fff;}
-    .fundamentals-earnings-table th{background:#007bff;color:#fff;padding:8px;text-align:left;font-size:0.85rem;}
-    .fundamentals-earnings-table td{padding:6px 8px;border-bottom:1px solid #e0e0e0;font-size:0.85rem;}
+    .fundamentals-earnings-title{font-weight:bold;margin-bottom:8px;color:#2962ff;}
+    .fundamentals-earnings-table{width:100%;border-collapse:collapse;background:#2a2e39;}
+    .fundamentals-earnings-table th{background:#2962ff;color:#fff;padding:8px;text-align:left;font-size:0.85rem;}
+    .fundamentals-earnings-table td{padding:6px 8px;border-bottom:1px solid #363a45;font-size:0.85rem;color:#d1d4dc;}
     .fundamentals-earnings-table tr:last-child td{border-bottom:none;}
-    .fundamentals-earnings-table tr:hover{background:#f8f9fa;}
-    .fundamentals-loading{text-align:center;padding:20px;color:#999;}
-    .fundamentals-error{text-align:center;padding:20px;color:#dc3545;}
+    .fundamentals-earnings-table tr:hover{background:#363a45;}
+    .fundamentals-loading{text-align:center;padding:20px;color:#787b86;}
+    .fundamentals-error{text-align:center;padding:20px;color:#ef5350;}
     /* Settings panel styles */
-    .settings-panel{display:none;}
+    .settings-panel{display:none;background:#1e222d !important;border-color:#2a2e39 !important;}
+    .settings-panel strong{color:#787b86 !important;}
     .settings-panel.settings-panel--open{display:block;}
-    .settings-toggle-btn.active{background:#007bff;color:#fff;}
+    .settings-toggle-btn.active{background:#2962ff;color:#fff;}
     /* Category dropdown styles */
-    .category-btn.active{background:#666;color:#fff;}
+    .category-btn.active{background:#2962ff;color:#fff;}
     .category-dropdown{margin-right:4px;}
+    /* Page title */
+    #page-title{border-bottom-color:#2962ff !important;}
   
     /* Grid layout styles */
-    .grid-layout { min-height: 0; height: calc(100vh - 160px); }
-    .grid-layout .chart-card { margin-bottom: 0; overflow: hidden; display: flex; flex-direction: column; min-height: 0; border: 1px solid #ddd; border-radius: 4px; background: #fff; }
+    .grid-layout { min-height: 0; height: calc(100vh - 200px); overflow: hidden; }
+    .grid-layout .chart-card {
+        margin-bottom: 0; overflow: hidden; display: flex; flex-direction: column; min-height: 0;
+        border: none; border-radius: 0; background: #131722;
+        border-right: 1px solid #2a2e39; border-bottom: 1px solid #2a2e39;
+        position: relative;
+    }
     .grid-layout .chart-card .chart-box { flex: 1 1 auto; height: auto !important; min-height: 150px; }
-    .grid-compact .controls { flex-wrap: nowrap; overflow: hidden; gap: 4px; font-size: 0.8rem; }
-    .grid-compact .controls .title-input { max-width: 120px; font-size: 0.8rem; }
-    .grid-compact .controls .add-chart-btn,
-    .grid-compact .controls .toggle-notes-btn,
-    .grid-compact .controls .export-btn,
-    .grid-compact .controls .tag-container { display: none; }
-    .grid-compact .settings-panel { font-size: 0.75rem; }
-    .grid-compact .settings-panel .settings-toggle-btn { font-size: 0.8rem; }
-    .grid-compact .ticker-chips { font-size: 0.8rem; }
-    .grid-compact .chip { font-size: 0.75rem !important; padding: 2px 4px !important; }
-    .grid-compact .chip .multiplier-input { width: 32px; font-size: 9px; }
+    /* Hide ALL controls and chrome in grid mode */
+    .grid-compact .controls { display: none; }
+    .grid-compact .settings-panel { display: none !important; }
+    .grid-compact .selected-tickers { display: none; }
     .grid-compact .notes-section { display: none !important; }
-    .grid-compact .selected-tickers { max-height: 28px; overflow: hidden; }
+    .grid-compact .fundamentals-panel { display: none !important; }
+    /* Show controls on hover */
+    .grid-compact:hover .controls {
+        display: flex; flex-wrap: nowrap; gap: 4px; font-size: 0.75rem;
+        position: absolute; top: 0; left: 0; right: 0; z-index: 100;
+        background: rgba(19, 23, 34, 0.92); padding: 4px 8px;
+        backdrop-filter: blur(4px); border-bottom: 1px solid #2a2e39;
+    }
+    .grid-compact:hover .controls .add-chart-btn,
+    .grid-compact:hover .controls .toggle-notes-btn,
+    .grid-compact:hover .controls .export-btn,
+    .grid-compact:hover .controls .tag-container,
+    .grid-compact:hover .controls .star-btn,
+    .grid-compact:hover .controls .settings-toggle-btn { display: none; }
+    .grid-compact:hover .controls .title-input {
+        max-width: 100px; font-size: 0.75rem; background: transparent;
+        border: 1px solid #444; color: #d1d4dc; border-radius: 2px; padding: 2px 4px;
+    }
+    .grid-compact:hover .controls button {
+        background: #2a2e39; color: #d1d4dc; border: 1px solid #444; border-radius: 2px;
+        padding: 2px 6px; font-size: 0.7rem;
+    }
+    .grid-compact:hover .controls .ticker-input {
+        background: #2a2e39; color: #d1d4dc; border: 1px solid #444; border-radius: 2px;
+        padding: 2px 4px; font-size: 0.75rem; width: 80px;
+    }
+    .grid-compact:hover .selected-tickers {
+        display: flex; position: absolute; top: 30px; left: 0; right: 0; z-index: 99;
+        background: rgba(19, 23, 34, 0.9); padding: 2px 8px; max-height: 26px; overflow: hidden;
+    }
+    .grid-compact:hover .chip { font-size: 0.7rem !important; padding: 1px 4px !important; }
+    .grid-compact:hover .chip .multiplier-input { width: 28px; font-size: 8px; }
+    /* Maximized chart in grid -- show controls, full space */
+    .grid-maximized .controls { display: flex !important; position: relative !important; background: #1e222d !important; }
+    .grid-maximized .controls button { background: #2a2e39; color: #d1d4dc; border: 1px solid #444; border-radius: 2px; }
+    .grid-maximized .controls .ticker-input { background: #2a2e39; color: #d1d4dc; border: 1px solid #444; }
+    .grid-maximized .controls .title-input { background: transparent; color: #d1d4dc; border: 1px solid #444; max-width: none !important; }
+    .grid-maximized .selected-tickers { display: flex !important; background: #1e222d; padding: 2px 8px; }
+    /* Hide floating legend in grid mode -- too noisy */
+    .grid-compact .floating-legend { font-size: 0.7rem !important; opacity: 0.7; }
+    .grid-compact .chart-box { background: #131722; }
+    .grid-compact .ticker-label { font-size: 8px !important; padding: 1px 3px !important; }
 
     /* Context menu for ticker chips */
     .chip-context-menu {
         position: fixed;
-        background: white;
-        border: 1px solid #ccc;
+        background: #1e222d;
+        border: 1px solid #2a2e39;
         border-radius: 4px;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.5);
         z-index: 10000;
         min-width: 150px;
         display: none;
+        color: #d1d4dc;
     }
     .chip-context-menu.visible { display: block; }
     .chip-context-menu-item {
@@ -110,9 +159,9 @@
         cursor: pointer;
         font-size: 13px;
     }
-    .chip-context-menu-item:hover { background: #f0f0f0; }
-    .chip-context-menu-item.active { background: #e0e0e0; font-weight: bold; }
-    .chip-context-menu-divider { border-top: 1px solid #eee; margin: 4px 0; }
+    .chip-context-menu-item:hover { background: #2a2e39; }
+    .chip-context-menu-item.active { background: #363a45; font-weight: bold; }
+    .chip-context-menu-divider { border-top: 1px solid #2a2e39; margin: 4px 0; }
     .chip-axis-indicator {
         font-size: 9px;
         margin-left: 3px;
@@ -123,21 +172,21 @@
 
     /* Tag system styles */
     .tag-container { display: flex; flex-wrap: wrap; gap: 3px; margin-left: 8px; align-items: center; }
-    .tag { display: inline-flex; align-items: center; background: #e0e0e0; border-radius: 12px; padding: 2px 8px; font-size: 0.75rem; color: #333; }
+    .tag { display: inline-flex; align-items: center; background: #2a2e39; border-radius: 12px; padding: 2px 8px; font-size: 0.75rem; color: #d1d4dc; }
     .tag .tag-remove { margin-left: 4px; cursor: pointer; font-weight: bold; opacity: 0.6; }
     .tag .tag-remove:hover { opacity: 1; }
-    .tag-add-btn { background: none; border: 1px dashed #999; border-radius: 12px; padding: 2px 8px; font-size: 0.75rem; color: #666; cursor: pointer; }
-    .tag-add-btn:hover { border-color: #007bff; color: #007bff; }
+    .tag-add-btn { background: none; border: 1px dashed #555; border-radius: 12px; padding: 2px 8px; font-size: 0.75rem; color: #888; cursor: pointer; }
+    .tag-add-btn:hover { border-color: #2962ff; color: #2962ff; }
     .tag-input-container { position: relative; display: inline-block; }
-    .tag-input { padding: 2px 6px; font-size: 0.75rem; border: 1px solid #007bff; border-radius: 12px; width: 80px; outline: none; }
-    .tag-suggestions { position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #ddd; border-radius: 4px; max-height: 150px; overflow-y: auto; z-index: 1000; min-width: 120px; display: none; }
+    .tag-input { padding: 2px 6px; font-size: 0.75rem; border: 1px solid #2962ff; border-radius: 12px; width: 80px; outline: none; background: #2a2e39; color: #d1d4dc; }
+    .tag-suggestions { position: absolute; top: 100%; left: 0; background: #1e222d; border: 1px solid #2a2e39; border-radius: 4px; max-height: 150px; overflow-y: auto; z-index: 1000; min-width: 120px; display: none; }
     .tag-suggestions.show { display: block; }
-    .tag-suggestion { padding: 4px 8px; cursor: pointer; font-size: 0.8rem; }
-    .tag-suggestion:hover { background: #f0f0f0; }
+    .tag-suggestion { padding: 4px 8px; cursor: pointer; font-size: 0.8rem; color: #d1d4dc; }
+    .tag-suggestion:hover { background: #2a2e39; }
     /* Tag filter in top controls */
     #tag-filter-container { display: flex; align-items: center; gap: 4px; margin-left: 8px; }
-    #tag-filter-container label { font-size: 0.85rem; color: #666; }
-    #tag-filter-select { padding: 4px 8px; font-size: 0.85rem; border: 1px solid #999; border-radius: 4px; }
+    #tag-filter-container label { font-size: 0.85rem; color: #888; }
+    #tag-filter-select { padding: 4px 8px; font-size: 0.85rem; border: 1px solid #444; border-radius: 4px; background: #2a2e39; color: #d1d4dc; }
 
 </style>
   <!-- Lightweight Charts library -->
@@ -152,7 +201,7 @@
       <input type="text" id="global-search-input" placeholder="Search tickers or companies...">
       <div id="search-results"></div>
     </div>
-    <button class="highlights-toggle-btn" onclick="toggleHighlightsMode()" style="margin-right: 10px; padding: 5px 10px; cursor: pointer; border-radius: 4px; border: 1px solid #ccc;">☆ Highlights</button>
+    <button class="highlights-toggle-btn" onclick="toggleHighlightsMode()" style="margin-right: 10px; padding: 5px 10px; cursor: pointer; border-radius: 4px; border: 1px solid #444; background: #2a2e39; color: #d1d4dc;">☆ Highlights</button>
             <div id="tag-filter-container">
       <label for="tag-filter-select">Tag:</label>
       <select id="tag-filter-select">
@@ -163,7 +212,7 @@
     <button id="toggle-chart-nav-btn">Hide Chart List</button>
     <div id="tab-bar" class="tab-bar"></div>
   </div>
-  <h1 id="page-title" style="margin: 0 0 1rem 0; padding: 0.5rem 0; border-bottom: 2px solid #007bff; color: #333;">Main</h1>
+  <h1 id="page-title" style="margin: 0 0 1rem 0; padding: 0.5rem 0; border-bottom: 2px solid #2962ff; color: #d1d4dc;">Main</h1>
   <nav id="chart-nav"></nav>
   <div id="pages-container">
     <div class="page" data-page="1">
@@ -182,12 +231,12 @@
   <script src="chart-series-manager.js?v=6"></script>
   <script src="chart-ticker-labels.js?v=1"></script>
   <script src="chart-volume.js?v=5"></script>
-  <script src="chart-dom-builder.js?v=19"></script>
+  <script src="chart-dom-builder.js?v=20"></script>
   <script src="card-event-binder.js?v=1"></script>
   <script src="chart-updaters.js?v=1"></script>
   <script src="chart-event-handlers.js?v=3"></script>
   <script src="chart-card-context.js?v=4"></script>
-  <script src="chart-card-plot.js?v=1"></script>
+  <script src="chart-card-plot.js?v=2"></script>
   <script src="chart-card-toggles.js?v=1"></script>
   <script src="chart-card-range.js?v=1"></script>
   <script src="chart-card-meta.js?v=1"></script>
@@ -195,17 +244,17 @@
   <script src="chart-card-nav.js?v=1"></script>
   <script src="chart-fundamentals.js?v=2"></script>
   <script src="chart-fundamentals-pane.js?v=3"></script>
-  <script src="pages.js?v=17"></script>
+  <script src="pages.js?v=18"></script>
   <script src="chart-card-registry.js?v=1"></script>
   <script src="card.js?v=69"></script>
-  <script src="global-search.js?v=12"></script>
+  <script src="global-search.js?v=13"></script>
   <script src="chart-nav-toggle.js?v=1"></script>
   <script src="dashboard-base.js?v=1"></script>
   <script src="chart-dashboard.js?v=16"></script>
   <script src="chart-macro-dashboard.js?v=2"></script>
   <script src="chart-dendrograms.js?v=5"></script>
   <script src="chart-thesis-performance.js?v=1"></script>
-  <script src="chart-grid-layout.js?v=1"></script>
+  <script src="chart-grid-layout.js?v=2"></script>
   <script src="sandbox-init.js?v=1"></script>
 
 

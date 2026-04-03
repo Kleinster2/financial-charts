@@ -248,11 +248,11 @@
     const btn = document.createElement('button');
     btn.className = 'category-btn';
     btn.textContent = categoryName + ' ▼';
-    btn.style.cssText = 'padding: 4px 10px; font-size: 0.9rem; cursor: pointer; border: 1px solid #666; border-radius: 4px; background: #eee;';
+    btn.style.cssText = 'padding: 4px 10px; font-size: 0.9rem; cursor: pointer; border: 1px solid #444; border-radius: 4px; background: #2a2e39; color: #d1d4dc;';
 
     const menu = document.createElement('div');
     menu.className = 'dropdown-menu';
-    menu.style.cssText = 'display: none; position: absolute; top: 100%; left: 0; background: #ffffff; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); z-index: 1000; min-width: 180px; max-height: 400px; overflow-y: auto;';
+    menu.style.cssText = 'display: none; position: absolute; top: 100%; left: 0; background: #1e222d; border: 1px solid #2a2e39; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); z-index: 1000; min-width: 180px; max-height: 400px; overflow-y: auto;';
 
     // Sort pages alphabetically by name
     const sortedPages = pageNums
@@ -264,9 +264,9 @@
       item.className = 'dropdown-item';
       item.dataset.page = num;
       item.textContent = name;
-      item.style.cssText = 'padding: 8px 12px; cursor: pointer; white-space: nowrap; background: #ffffff;';
-      item.addEventListener('mouseenter', () => item.style.background = '#e8e8e8');
-      item.addEventListener('mouseleave', () => item.style.background = '#ffffff');
+      item.style.cssText = 'padding: 8px 12px; cursor: pointer; white-space: nowrap; background: #1e222d; color: #d1d4dc;';
+      item.addEventListener('mouseenter', () => item.style.background = '#2a2e39');
+      item.addEventListener('mouseleave', () => item.style.background = '#1e222d');
       item.addEventListener('click', (e) => {
         e.stopPropagation();
         const target = pagesContainer.querySelector(`[data-page="${num}"]`);

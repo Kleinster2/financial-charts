@@ -38,13 +38,21 @@ window.GridLayout = (() => {
         const wrapper = getActiveWrapper();
         if (!wrapper) return;
 
+        // Toggle page-level chrome (title, nav) for grid mode
+        const pageTitle = document.getElementById('page-title');
+        const chartNav = document.getElementById('chart-nav');
+
         if (layout.id === '1x1') {
             // Default stacked layout
             wrapper.style.display = '';
             wrapper.style.gridTemplateColumns = '';
             wrapper.style.gridTemplateRows = '';
+            wrapper.style.gridAutoRows = '';
             wrapper.style.gap = '';
+            wrapper.style.overflow = '';
             wrapper.classList.remove('grid-layout');
+            if (pageTitle) pageTitle.style.display = '';
+            if (chartNav) chartNav.style.display = '';
 
             // Restore individual card heights
             wrapper.querySelectorAll('.chart-card').forEach(card => {
@@ -58,15 +66,22 @@ window.GridLayout = (() => {
             // Grid layout
             wrapper.style.display = 'grid';
             wrapper.style.gridTemplateColumns = `repeat(${layout.cols}, 1fr)`;
-            wrapper.style.gap = '8px';
+            wrapper.style.gap = '4px';
+            wrapper.style.overflow = 'hidden';
             wrapper.classList.add('grid-layout');
 
-            // Let rows auto-size based on content
+            // Set explicit rows; hide overflow cards via grid-auto-rows: 0
             if (layout.rows) {
                 wrapper.style.gridTemplateRows = `repeat(${layout.rows}, 1fr)`;
+                wrapper.style.gridAutoRows = '0';
             } else {
                 wrapper.style.gridTemplateRows = '';
+                wrapper.style.gridAutoRows = '';
             }
+
+            // Hide page chrome in grid mode
+            if (pageTitle) pageTitle.style.display = 'none';
+            if (chartNav) chartNav.style.display = 'none';
 
             // Compact mode for all cards in grid
             wrapper.querySelectorAll('.chart-card').forEach(card => {
@@ -74,26 +89,71 @@ window.GridLayout = (() => {
             });
         }
 
+        const isGrid = layout.id !== '1x1';
+
+        // Reset maximize state
+        maximizedCard = null;
+        wrapper.querySelectorAll('.chart-card').forEach(c => {
+            c.style.display = '';
+            c.classList.remove('grid-maximized');
+        });
+
         // Setup ResizeObserver for auto-resize in grid mode
-        setupResizeObserver(wrapper, layout.id !== '1x1');
+        setupResizeObserver(wrapper, isGrid);
 
         // Resize all charts to fit their new containers
         // Double rAF ensures the grid layout has been computed
         requestAnimationFrame(() => {
             requestAnimationFrame(() => {
+                applyThemeToCharts(wrapper, isGrid);
                 resizeAllCharts(wrapper);
                 // Setup crosshair sync for grid layouts
-                if (layout.id !== '1x1' && crosshairSyncEnabled) {
+                if (isGrid && crosshairSyncEnabled) {
                     setupCrosshairSync(wrapper);
                 } else {
                     teardownCrosshairSync(wrapper);
                 }
+                if (isGrid) setupMaximize(wrapper);
             });
         });
 
         // Persist
         saveLayoutForPage(pageNum || getActivePage());
         updateLayoutSelector();
+    }
+
+    const DARK_THEME = {
+        layout: { background: { type: 'solid', color: '#131722' }, textColor: '#d1d4dc' },
+        grid: { vertLines: { color: '#1e222d' }, horzLines: { color: '#1e222d' } },
+        crosshair: {
+            horzLine: { color: '#758696', labelBackgroundColor: '#2a2e39' },
+            vertLine: { color: '#758696', labelBackgroundColor: '#2a2e39' }
+        },
+        rightPriceScale: { borderColor: '#2a2e39' },
+        leftPriceScale: { borderColor: '#2a2e39' },
+        timeScale: { borderColor: '#2a2e39' }
+    };
+
+    const LIGHT_THEME = {
+        layout: { background: { type: 'solid', color: '#131722' }, textColor: '#d1d4dc' },
+        grid: { vertLines: { color: '#1e222d' }, horzLines: { color: '#1e222d' } },
+        crosshair: {
+            horzLine: { color: undefined, labelBackgroundColor: undefined },
+            vertLine: { color: undefined, labelBackgroundColor: undefined }
+        },
+        rightPriceScale: { borderColor: '#2a2e39' },
+        leftPriceScale: { borderColor: undefined },
+        timeScale: { borderColor: undefined }
+    };
+
+    function applyThemeToCharts(wrapper, dark) {
+        if (!wrapper) return;
+        const theme = dark ? DARK_THEME : LIGHT_THEME;
+        wrapper.querySelectorAll('.chart-card').forEach(card => {
+            const rt = card._ctx?.runtime;
+            if (!rt?.chart) return;
+            try { rt.chart.applyOptions(theme); } catch (_) {}
+        });
     }
 
     function resizeAllCharts(wrapper) {
@@ -226,6 +286,69 @@ window.GridLayout = (() => {
         });
     }
 
+    // ─── Maximize (double-click to expand a single chart) ─────────────
+
+    let maximizedCard = null;
+
+    function setupMaximize(wrapper) {
+        if (!wrapper) return;
+        wrapper.querySelectorAll('.chart-card').forEach(card => {
+            if (card._gridDblHandler) return; // already bound
+            const handler = (e) => {
+                // Ignore double-clicks on inputs/buttons
+                if (e.target.closest('input, button, select, .chip')) return;
+                if (currentLayout === '1x1') return;
+                toggleMaximize(card, wrapper);
+            };
+            card.addEventListener('dblclick', handler);
+            card._gridDblHandler = handler;
+        });
+    }
+
+    function toggleMaximize(card, wrapper) {
+        if (maximizedCard === card) {
+            // Restore grid
+            maximizedCard = null;
+            wrapper.querySelectorAll('.chart-card').forEach(c => {
+                c.style.display = '';
+                c.classList.remove('grid-maximized');
+            });
+            const layout = getLayout(currentLayout);
+            wrapper.style.gridTemplateColumns = `repeat(${layout.cols}, 1fr)`;
+            if (layout.rows) {
+                wrapper.style.gridTemplateRows = `repeat(${layout.rows}, 1fr)`;
+            }
+            requestAnimationFrame(() => resizeAllCharts(wrapper));
+        } else {
+            // Maximize this card
+            maximizedCard = card;
+            wrapper.querySelectorAll('.chart-card').forEach(c => {
+                if (c === card) {
+                    c.style.display = '';
+                    c.classList.add('grid-maximized');
+                } else {
+                    c.style.display = 'none';
+                }
+            });
+            wrapper.style.gridTemplateColumns = '1fr';
+            wrapper.style.gridTemplateRows = '1fr';
+            requestAnimationFrame(() => {
+                const chartBox = card.querySelector('.chart-box');
+                const rt = card._ctx?.runtime;
+                if (chartBox && rt?.chart) {
+                    const w = chartBox.clientWidth;
+                    const h = chartBox.clientHeight;
+                    if (w > 0 && h > 0) {
+                        try {
+                            rt.chart.resize(w, h);
+                            rt.chart.timeScale().fitContent();
+                        } catch (_) {}
+                    }
+                }
+            });
+        }
+    }
+
     // ─── Persistence ──────────────────────────────────────────────────
 
     function getActivePage() {
@@ -320,9 +443,9 @@ window.GridLayout = (() => {
         const buttons = document.querySelectorAll('#grid-layout-buttons button');
         buttons.forEach(btn => {
             const isActive = btn.dataset.layout === currentLayout;
-            btn.style.background = isActive ? '#666' : '#eee';
-            btn.style.color = isActive ? '#fff' : '#333';
-            btn.style.borderColor = isActive ? '#666' : '#999';
+            btn.style.background = isActive ? '#2962ff' : '#2a2e39';
+            btn.style.color = isActive ? '#fff' : '#d1d4dc';
+            btn.style.borderColor = isActive ? '#2962ff' : '#444';
         });
     }
 

@@ -243,7 +243,7 @@
         // Display page results first
         if (pageResults.length > 0) {
             const pageHeader = document.createElement('div');
-            pageHeader.style.cssText = 'padding: 6px 12px; font-size: 0.75rem; color: #999; text-transform: uppercase; background: #f5f5f5; border-bottom: 1px solid #eee;';
+            pageHeader.style.cssText = 'padding: 6px 12px; font-size: 0.75rem; color: #888; text-transform: uppercase; background: #1e222d; border-bottom: 1px solid #2a2e39;';
             pageHeader.textContent = 'Pages';
             searchResults.appendChild(pageHeader);
 
@@ -278,7 +278,7 @@
         // Display ticker results
         if (tickerResults.length > 0) {
             const tickerHeader = document.createElement('div');
-            tickerHeader.style.cssText = 'padding: 6px 12px; font-size: 0.75rem; color: #999; text-transform: uppercase; background: #f5f5f5; border-bottom: 1px solid #eee;';
+            tickerHeader.style.cssText = 'padding: 6px 12px; font-size: 0.75rem; color: #888; text-transform: uppercase; background: #1e222d; border-bottom: 1px solid #2a2e39;';
             tickerHeader.textContent = 'Tickers';
             searchResults.appendChild(tickerHeader);
 

@@ -396,8 +396,8 @@ window.ChartCardPlot = (() => {
             const priceFormat = window.ChartUtils.createPriceFormatter(ctx.useRaw, precision);
 
             rt.chart = LightweightCharts.createChart(chartBox, {
-                layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333', fontSize: (ctx.fontSize || (window.ChartConfig?.UI?.FONT_DEFAULT || 12)) },
-                grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
+                layout: { background: { type: 'solid', color: '#131722' }, textColor: '#d1d4dc', fontSize: (ctx.fontSize || (window.ChartConfig?.UI?.FONT_DEFAULT || 12)) },
+                grid: { vertLines: { color: '#1e222d' }, horzLines: { color: '#1e222d' } },
                 timeScale: { secondsVisible: false, rightOffset: 3, fixLeftEdge: true },
                 leftPriceScale: {
                     visible: true,

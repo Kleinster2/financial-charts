@@ -48,14 +48,14 @@ window.ChartDomBuilder = {
                 <button class="export-btn" title="Export chart as PNG for LinkedIn">📸 Export</button>
                 <button class="add-chart-btn">Add Chart</button>
                 <button class="remove-card-btn">Remove</button>
-                <input type="text" class="title-input" placeholder="Chart Title" value="${initialTitle}" style="margin-left: 10px; padding: 4px; border: 1px solid #ccc; border-radius: 3px;">
+                <input type="text" class="title-input" placeholder="Chart Title" value="${initialTitle}" style="margin-left: 10px; padding: 4px; border: 1px solid #444; border-radius: 3px; background: #2a2e39; color: #d1d4dc;">
                 <button class="toggle-notes-btn">Show Notes</button>
             </div>
-            <div class="settings-panel" style="padding: 12px; background: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; margin: 5px 0;">
+            <div class="settings-panel" style="padding: 12px; background: #1e222d; border: 1px solid #2a2e39; border-radius: 4px; margin: 5px 0;">
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
                     <!-- Column 1: Panes -->
                     <div style="display: flex; flex-direction: column; gap: 6px;">
-                        <strong style="font-size: 0.8rem; color: #666; text-transform: uppercase;">Panes</strong>
+                        <strong style="font-size: 0.8rem; color: #888; text-transform: uppercase;">Panes</strong>
                         <div style="display: flex; flex-wrap: wrap; gap: 4px;">
                             <button class="toggle-diff-btn">Show Diff Pane</button>
                             <button class="toggle-vol-btn">Hide Vol (σ) Pane</button>
@@ -73,7 +73,7 @@ window.ChartDomBuilder = {
                     </div>
                     <!-- Column 2: Data & Display -->
                     <div style="display: flex; flex-direction: column; gap: 6px;">
-                        <strong style="font-size: 0.8rem; color: #666; text-transform: uppercase;">Data & Display</strong>
+                        <strong style="font-size: 0.8rem; color: #888; text-transform: uppercase;">Data & Display</strong>
                         <div style="display: flex; flex-wrap: wrap; gap: 4px;">
                             <button class="toggle-raw-btn">Show Raw</button>
                             <button class="toggle-logscale-btn">Log Scale</button>
@@ -92,7 +92,7 @@ window.ChartDomBuilder = {
                     </div>
                     <!-- Column 3: Appearance -->
                     <div style="display: flex; flex-direction: column; gap: 6px;">
-                        <strong style="font-size: 0.8rem; color: #666; text-transform: uppercase;">Appearance</strong>
+                        <strong style="font-size: 0.8rem; color: #888; text-transform: uppercase;">Appearance</strong>
                         <div style="display: grid; grid-template-columns: 55px 1fr 32px; align-items: center; gap: 6px; font-size: 0.85rem;">
                             <span>Height</span>
                             <input type="range" class="height-slider" min="400" max="800" value="500" step="50">
@@ -113,7 +113,7 @@ window.ChartDomBuilder = {
             <div class="selected-tickers"></div>
             <div class="chart-box" style="height: ${initialHeight}px;"></div>
             <div class="notes-section" style="display: none; margin-top: 10px;">
-                <textarea class="notes-textarea" placeholder="Add notes about this chart..." style="width: 100%; min-height: 80px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 12px; resize: vertical;"></textarea>
+                <textarea class="notes-textarea" placeholder="Add notes about this chart..." style="width: 100%; min-height: 80px; padding: 8px; border: 1px solid #444; border-radius: 4px; font-family: inherit; font-size: 12px; resize: vertical; background: #2a2e39; color: #d1d4dc;"></textarea>
             </div>
         `;
 
