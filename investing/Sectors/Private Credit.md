@@ -155,15 +155,21 @@ The retail model is breaking. After 5 years of selling illiquid loans as "bond a
 
 | Fund | AUM | Status |
 |------|-----|--------|
-| OBDC II ([[Blue Owl]]) | $1.7B | 🔴 **Gated** (Feb 19) |
+| OBDC II ([[Blue Owl]]) | $1.7B | 🔴 **Permanently gated** (Feb 19) — winding down |
+| **OTIC ([[Blue Owl]])** | **$6.2B** | 🔴 **40.7% Q1 requests** (industry record) — capped at 5% |
+| **OCIC ([[Blue Owl]])** | **$36B** | 🔴 **21.9% Q1 requests** — capped at 5% |
 | HPS Corporate Lending Fund ([[BlackRock]]/[[HPS Investment Partners\|HPS]]) | $26B | 🔴 **Capped at 5%** (Mar 6) — ~10% requested |
+| Apollo Debt Solutions ([[Apollo]]) | $15B | 🔴 **11.2% Q1 requests** — honored ~46% |
 | BCRED ([[Blackstone]]) | $82B | 🟡 **Record 7.9% redeemed** (Mar 3) — firm + employee capital used |
+| K-FIT ([[KKR]]) | — | 🟡 **6.3% Q1 requests** — satisfied ~80% |
+| ARCC ([[Ares Management]]) | $26B+ | 🟡 **11.6% Q1 requests** — capped at 5% |
 | OBDC ([[Blue Owl]]) | $16B+ | 🟡 Watching |
-| ARCC ([[Ares Management]]) | $26B+ | 🟡 Watching — met ~5.6% in Q1 |
 
-**Latest escalation (Mar 11):** [[JPMorgan Chase|JPMorgan]] marks down software loan collateral values in its back-leverage business — first major bank to restrict funding to private credit. Stress moves from fund-level (redemptions) to bank-funding layer.
+**Latest escalation (Apr 2):** [[Blue Owl]] OTIC/OCIC report record redemption requests — 40.7% and 21.9% respectively. Combined ~$5.4B attempted withdrawals. [[KKR]] K-FIT also gated (Apr 1). House Financial Services Committee Democrats sent questions to [[Blackstone]], [[Ares Management|Ares]], and rivals.
 
-**Next test:** March 31 quarter-end. **>$100B in funds** to disclose Q1 data (Barclays). Q1 2026 weighted avg redemption requests already ~7.5% across tracked funds (Stanger, as of Mar 6).
+**Prior escalation (Mar 11):** [[JPMorgan Chase|JPMorgan]] marks down software loan collateral values in its back-leverage business — first major bank to restrict funding to private credit.
+
+**Next test:** Q2 quarter-end (June 30). After Q1's shock disclosures, the question is whether gating breeds more gating as investors who didn't tender now seek exits.
 
 **Key event notes:**
 - [[Private credit retail liquidity crisis 2026]] — master event
@@ -363,8 +369,10 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 
 | Date | Event | Why it matters |
 |------|-------|---------------|
-| **Mar 31, 2026** | Quarter-end redemption window | All semi-liquid funds face requests simultaneously |
-| **Apr 2026** | Stanger Q1 redemption report | Did $2.9B/quarter accelerate? |
+| **Apr 2, 2026** | Blue Owl OTIC/OCIC disclosure | **40.7% and 21.9%** — industry records. Combined ~$5.4B |
+| **Apr 1, 2026** | KKR K-FIT gated | 6.3% requests, satisfied ~80% |
+| **Apr 1, 2026** | House Dems send questions to BX, ARES, rivals | Congressional scrutiny escalation |
+| **June 30, 2026** | Q2 quarter-end redemption window | Does gating breed more gating? |
 | **Quarterly** | ARCC, OBDC earnings | Credit quality indicators |
 | **TBD** | Warren legislation | Capital requirements, disclosure, stress tests |
 | **Ongoing** | Software default rates | Currently 4.55%. Deutsche Bank models 13% worst case |
@@ -413,6 +421,6 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 - [[GIC]] — sovereign wealth, private credit lender
 - [[Permira]] — PE sponsor extracting cov-lite terms
 
-*Updated 2026-03-30*
+*Updated 2026-04-03*
 
 *Sources: Bloomberg Markets (Feb/Mar 2026 issue), Bloomberg Going Private newsletter (Mar 2026), Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8 2026), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, FT, Fitch Ratings*

@@ -9,8 +9,8 @@ aliases: [OWL, Owl Rock, Owl Rock Capital]
 |------|-----------|------|-----------|--------|
 | **OBDC** | Blue Owl Capital Corporation | $16B+ | Publicly traded BDC | Operating |
 | **OBDC II** | Blue Owl Capital Corp II | $1.7B | Non-traded retail BDC (finite-life) | 🔴 Redemptions permanently ended (Feb 2026) |
-| **OTIC** | Blue Owl Technology Income Corp | Smaller | Tech-focused BDC | Operating |
-| **OCIC** | Blue Owl Credit Income Corp | — | Non-traded BDC | Operating |
+| **OTIC** | Blue Owl Technology Income Corp | **$6.2B** | Tech-focused BDC | 🟡 40.7% Q1 redemption requests, capped at 5% |
+| **OCIC** | Blue Owl Credit Income Corp | **$36B** | Non-traded flagship BDC | 🟡 21.9% Q1 redemption requests, capped at 5% |
 
 ---
 
@@ -358,16 +358,47 @@ Blue Owl is differentiated by scale of AI-specific deals.
 | Metric | Value |
 |--------|-------|
 | Ticker | OWL |
-| AUM | $273B |
+| AUM | ~$300B |
 | Digital infra capital | $34B |
 | Largest deal | Meta $30B |
 | HQ | New York |
+| OTIC Q1 2026 redemption requests | **40.7%** (industry record) |
+| OCIC Q1 2026 redemption requests | **21.9%** |
+| Combined Q1 attempted withdrawals | ~$5.4B |
+| YTD market cap loss | ~45% |
+
+## OTIC/OCIC record redemption requests (Apr 2, 2026)
+
+The worst single-firm disclosure in the [[Private credit retail liquidity crisis 2026|private credit crisis]]. Blue Owl reported Q1 2026 redemption data for its two remaining non-traded BDCs:
+
+| Fund | AUM | Q4 2025 requests | Q1 2026 requests | Honored | Q4 comparison |
+|------|-----|-----------------|-----------------|---------|---------------|
+| **OTIC** | $6.2B | 17% (allowed 15.4%) | **40.7%** | 5% | +23.7pp |
+| **OCIC** | $36B | 5% | **21.9%** | 5% | +16.9pp |
+
+OTIC's 40.7% is the highest quarterly redemption request the non-traded BDC industry has **ever** seen. Combined ~$5.4B in attempted withdrawals (Reuters). Both capped at 5%.
+
+**Concentration detail:** 1% of OCIC shareholders = majority of tender requests. 90% of OCIC shareholders didn't tender. OTIC's higher percentage driven by a more concentrated shareholder base in specific wealth channels/regions. This suggests large institutional/wealth management clients, not broad retail panic.
+
+**Packer (shareholder letters):** *"Tender activity was elevated across the non-traded BDC industry in the first quarter of 2026, reflecting a period of heightened negative sentiment toward the asset class that intensified as peers have reported tender results."* Also: *"As public market dislocations and AI-related uncertainty reshape sentiment, dispersion is increasing across the sector, creating opportunities for experienced lenders to deploy capital selectively at improved terms."*
+
+**Market reaction:** OWL fell as much as 7%, hitting a **new all-time low**. ~45% of market cap lost since Jan 1, 2026. Peers slid: ARES, APO, BX, CG all down. Both funds saw gross inflows; combined with 5% gates = modest net outflows.
+
+**Context within the crisis:** For comparison, the prior worst Q1 requests were [[Cliffwater]] at ~14% and [[Apollo]] ADS at 11.2%. OTIC's 40.7% is nearly **3x the previous worst**. Blue Owl is unique in having two non-traded BDCs and was among the last to report Q1 data — its numbers are multiples higher than every peer.
+
+**Software exposure:** ~20% of BDC portfolio exposure in software (Jefferies). OTIC more exposed as a tech-focused vehicle. Blue Owl said the software downturn is creating opportunities to deploy capital selectively.
+
+**Saba/Cox**: [[Saba Capital]] and [[Cox Capital Partners]] had previously extended tender offers to locked-up OTIC and OCIC holders at steep discounts (Feb 2026).
+
+*Sources: Reuters (Isla Binnie, Apr 2, 2026), CNBC (Apr 2, 2026), Bloomberg (Apr 2, 2026)*
+
+---
 
 ## SpaceX position (March 2026)
 
 [[Blue Owl]] holds 50,000 [[SpaceX]] shares, carried at a valuation of ~$720B (~$195M position). At SpaceX's potential IPO valuation of $1.75T, the position could be worth ~$500M (Barron's, Mar 26). OWL stock trades at $9.03 — down from $51.84 high earlier in 2026, a -83% drawdown driven by OBDC II gate, Iran war contagion, and broader alternative manager selloff. A successful SpaceX IPO at the high-end valuation would represent meaningful upside relative to OWL's current ~$6B market cap.
 
-*Updated 2026-03-26*
+*Updated 2026-04-03*
 
 Sources:
 - [Bloomberg - How AI Companies Are Keeping Debt Off Their Balance Sheets](https://www.bloomberg.com/news/articles/2025-10-31/meta-xai-starting-trend-for-billions-in-off-balance-sheet-debt) (Oct 31, 2025)
@@ -401,3 +432,5 @@ Sources:
 - [[Veritas Capital]] — PE owner of Peraton (Glendon flagged)
 - [[Conair Holdings]] — OBDC holding flagged by Glendon
 - [[SpaceX]] — 50K shares ($195M book, potentially $500M at IPO)
+- [[CFRA Research]] — Stovall: "don't try this at home" (Apr 2, 2026)
+- [[Jefferies]] — ~20% software exposure estimate for BDC portfolios

@@ -34,7 +34,7 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **Mar 5, 2026** | **BlackRock TCP** writes down $25M Infinite Commerce loan **100 → 0 in one quarter**; second sudden wipeout (after Renovo in Nov); cuts dividend 25¢ → 17¢; 91% of valuation cuts from 2021-vintage deals |
 | **Mar 3-5, 2026** | **Bloomberg Invest week (NYC).** Marc Rowan ([[Apollo]]) warns **shakeout coming**. Arougheti ([[Ares Management\|Ares]]): UBS 15% forecast "actually irresponsible" — even 2008 only hit 8-10%. Zito (Apollo): turmoil could last *"well into next year."* Fitzpatrick ([[Soros Fund Management]]): **"painful" 18-24 months** ahead. Solomon ([[Goldman Sachs]]): watching for "frothiness." Nuttall ([[KKR]]): predicts **"K-shaped industry"** with consolidation, "more BlackRock-type acquisitions" |
 | **Mar 5, 2026** | **[[Saba Capital]] + [[Cox Capital Partners]]** launch tender offer for **[[Starwood Capital Group\|Starwood]] SREIT** shares — 5.4% of Class S and I at **24-29% discounts** to NAV. Second target after Blue Owl BDCs. Structural illiquidity arbitrage play. |
-| **Q1 2026** | [[Ares Management\|Ares]] fund meets redemptions of **~5.6%** — slightly above the 5% tender offer threshold |
+| **Q1 2026** | [[Ares Management\|Ares]] fund received redemption requests of **11.6%** — capped at 5% (revised from earlier ~5.6% reporting) |
 | **Mar 6, 2026** | **[[BlackRock]] HPS Corporate Lending Fund** ($26B) **caps redemptions at 5%** after investors requested **~10%** (nearly double). First major perpetual vehicle to gate since crisis began. [[HPS Investment Partners\|HPS]] co-president Mike Patterson: gating gives "dry powder in a market that we think is getting increasingly compelling" |
 | **Mar 6, 2026** | **OWL short interest hits all-time high** — **14.65%** of free float short (S3 Partners), above 14.3% December record. Most shorted stock on EquiLend. Broader **bearish bets against alt managers at record** |
 | **Mar 6, 2026** | **Publicly-traded BDCs at or near all-time lows** — [[BlackRock]] TCP Capital Corp closes at $3.82 (record low, **>50% drop in one year**). Multiple public BDCs trading at steep NAV discounts |
@@ -47,7 +47,13 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **~Mar 17-21, 2026** | **[[Bank of America]] pitches shorts** against [[Deutsche Bank]] and [[Partners Group]] as "most exposed to private credit shocks" — then apologized for the note |
 | **~Mar 17-21, 2026** | **House of Lords votes against** UK government bill to allow ministers to force pension funds to invest minimum amounts in private assets — indicates fierce resistance to expanding retail/pension PE exposure |
 | **~Mar 17-21, 2026** | **[[Bain & Company]]**: PE firms had record backlog of almost **$4T in unsold investments** in 2025, even as dealmaking began recovering |
-| **Mar 30, 2026** | **FT panoramic** (Gara/Platt/Aliaj): comprehensive overview of $22T private capital risks. [[Guggenheim Partners]] exec chair [[Alan Schwartz]] (former [[Bear Stearns]] CEO): *"cracks in the foundation."* [[Blackstone]] chief [[Jon Gray]]: *"never seen something so disconnected from reality."* [[Diameter Capital]] co-founder Scott Goodwin: AI risk factor affects >50% of PE/credit deals from past decade. [[Partners Capital]] John Beil: *"PE has lagged public benchmarks by meaningful amounts"* over 5 years, predicts Q1 software writedowns. Former [[Goldman Sachs]] CEO [[Lloyd Blankfein]]: liquidity mismatch *"more likely"* given time since last major credit crash. [[Bank of England]] stress test this year; governor Bailey says *"alarm bells"* ringing. Treasury OFR estimates bank lending to private credit **up to $540B**. [[Davidson Kempner]]: ~25% of PE funds since 2015 failed to earn carry |
+| **Mar 30, 2026** | **FT panoramic** (Gara/Platt/Aliaj): comprehensive overview of $22T private capital risks. See dedicated section below |
+| **Apr 1, 2026** | **[[KKR]] K-FIT caps redemptions.** Non-traded BDC KKR FS Income Trust received **6.3%** repurchase requests in Q1, satisfied ~80% (~5%). Sister fund K-FITS met all 3.7% requests; inflows exceeded outflows. First KKR non-traded fund to gate |
+| **Apr 1, 2026** | **House Financial Services Committee** (Democratic members) sends pointed questions to [[Blackstone]], [[Ares Management\|Ares]], and rivals on marketing, valuation, and redemption handling of private credit funds — first Congressional inquiry beyond Warren's solo calls |
+| **Apr 2, 2026** | **[[Blue Owl]] OTIC/OCIC — record-breaking redemption requests.** OTIC ($6.2B, tech lending): **40.7%** of shares tendered — highest quarterly request in industry history. OCIC ($36B, flagship direct lending): **21.9%** tendered. Combined ~$5.4B in attempted withdrawals (Reuters). Both capped at 5%. Q4 2025 comparison: OTIC allowed 15.4%, OCIC was 5%. Packer: *"heightened negative sentiment toward the asset class."* OWL hit **new all-time low**, fell as much as 7%. ~45% market cap loss YTD. Concentration detail: **1% of OCIC shareholders = majority of tender requests**; 90% didn't tender. OTIC requests amplified by concentrated shareholder base in specific wealth channels/regions. Both funds saw gross inflows; combined with 5% gates = modest net outflows. Software ~20% of BDC portfolio exposure (Jefferies). See [[Blue Owl]] |
+| **Apr 2, 2026** | **[[Ares Management\|Ares]] Q1 requests revised higher:** investors sought **11.6%** (prior reporting had ~5.6%), capped at 5%. Confirms industry-wide acceleration |
+| **~Apr 2, 2026** | **Stovall ([[CFRA Research]]):** *"Don't try this at home. Private credit does not have the kind of liquidity that public markets would have."* — representative of mounting analyst warnings to retail |
+| **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. [[Guggenheim Partners]] exec chair [[Alan Schwartz]] (former [[Bear Stearns]] CEO): *"cracks in the foundation."* [[Blackstone]] chief [[Jon Gray]]: *"never seen something so disconnected from reality."* [[Diameter Capital]] co-founder Scott Goodwin: AI risk factor affects >50% of PE/credit deals from past decade. [[Partners Capital]] John Beil: *"PE has lagged public benchmarks by meaningful amounts"* over 5 years, predicts Q1 software writedowns. Former [[Goldman Sachs]] CEO [[Lloyd Blankfein]]: liquidity mismatch *"more likely"* given time since last major credit crash. [[Bank of England]] stress test this year; governor Bailey says *"alarm bells"* ringing. Treasury OFR estimates bank lending to private credit **up to $540B**. [[Davidson Kempner]]: ~25% of PE funds since 2015 failed to earn carry |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. **>$100B in funds** to disclose Q1 data ([[Barclays]]) |
 
 ---
@@ -311,15 +317,19 @@ JPM marks down software loan collateral values
 
 *Quarterly redemption requests as % of NAV across 7 tracked private credit funds. Q1 2026 requests roughly tripled from Q3 2025 at every manager. Source: company filings, FT research.*
 
-| Manager | Q3 2025 | Q4 2025 | Q1 2026 |
-|---------|---------|---------|---------|
-| [[Apollo]] (ADS) | ~3% | ~5% | **11.2%** |
-| [[BlackRock]] | ~1.5% | ~2.5% | ~4.5% |
-| [[Blackstone]] (BCRED) | ~2% | ~4.5% | ~8% |
-| [[Cliffwater]] | ~3% | ~5.5% | **~14%** |
-| [[HPS Investment Partners\|HPS]] | ~1.5% | ~4% | ~9.5% |
-| Monroe | ~1.5% | ~2.5% | ~5.5% |
-| [[Morgan Stanley]] | ~3% | ~5.5% | **~11%** |
+| Manager | Q3 2025 | Q4 2025 | Q1 2026 | Notes |
+|---------|---------|---------|---------|-------|
+| [[Apollo]] (ADS) | ~3% | ~5% | **11.2%** | Honored $730M (~46%) |
+| [[Ares Management\|Ares]] | — | — | **11.6%** | Capped at 5% |
+| [[BlackRock]] | ~1.5% | ~2.5% | ~4.5% | |
+| [[Blackstone]] (BCRED) | ~2% | ~4.5% | ~8% | Accommodated 7.9% |
+| **[[Blue Owl]] (OCIC)** | — | **5%** | **21.9%** | **$36B fund. Capped at 5%** |
+| **[[Blue Owl]] (OTIC)** | — | **17%** (allowed 15.4%) | **40.7%** | **$6.2B tech fund. Industry record. Capped at 5%** |
+| [[Cliffwater]] | ~3% | ~5.5% | **~14%** | Allowed ~7% |
+| [[HPS Investment Partners\|HPS]] | ~1.5% | ~4% | ~9.5% | Capped at 5% |
+| [[KKR]] (K-FIT) | — | — | **6.3%** | Satisfied ~80% (~5%) |
+| Monroe | ~1.5% | ~2.5% | ~5.5% | |
+| [[Morgan Stanley]] | ~3% | ~5.5% | **~11%** | Met <50% |
 
 Apollo Debt Solutions ($25B portfolio, $15B NAV) — investors sought **$1.6B in Q1** (11.2% of NAV). Apollo honored **$730M** (~46% of requests) — the worst fulfillment rate among tracked funds. Fund received $724M in new commitments, leaving net flows roughly flat.
 
@@ -333,7 +343,9 @@ Apollo positioned defensively: *"Apollo has consciously chosen to create portfol
 
 **Aggregate FT tracking (7 funds, Q1 2026):** $11.7B in total redemption requests. Only **66% fulfilled** ($7.8B). The fulfillment rate is falling as requests accelerate — managers hitting caps more frequently.
 
-*Source: FT (Eric Platt, Mar 23, 2026)*
+**Updated aggregate (11 funds, Q1 2026 — as of Apr 2):** With Blue Owl OTIC/OCIC, KKR K-FIT, and revised Ares data, the industry-wide picture is dramatically worse. OTIC's 40.7% is nearly **3x the previous worst** (Cliffwater ~14%). OCIC at $36B with 21.9% requests = ~$7.9B attempted from a single fund. Every major non-traded BDC sponsor has now gated or accommodated above-cap requests.
+
+*Sources: FT (Eric Platt, Mar 23, 2026), Reuters (Isla Binnie, Apr 2, 2026), CNBC (Apr 2, 2026)*
 
 ### Rated note feeders — insurance capital arbitrage (FT, Mar 23)
 
@@ -359,6 +371,41 @@ Established players ([[Ares Management|Ares]], [[Carlyle Group|Carlyle]], [[KKR]
 The risk layering: rated note feeders give private credit a conduit to the multitrillion-dollar US insurance industry. If the underlying private credit funds suffer losses, the rated notes may be downgraded — potentially forcing insurers to dump them (capital charges spike on sub-investment-grade holdings). This is the same credit-transmutation mechanism (repackaging risky assets as investment-grade) that amplified losses in 2007-08 via CDOs. The scale is far smaller ($17B/yr vs trillions in CDOs), but the directional parallel is there.
 
 *Source: FT Asset Management (Alan Livsey, Mar 23, 2026)*
+
+### Blue Owl OTIC/OCIC — record redemption requests (Apr 2, 2026)
+
+The worst single-firm disclosure in the entire crisis. [[Blue Owl]] reported Q1 2026 redemption data for its two remaining non-traded BDCs:
+
+| Fund | Full name | AUM | Q4 2025 requests | Q1 2026 requests | Honored |
+|------|-----------|-----|-----------------|-----------------|--------|
+| **OTIC** | Blue Owl Technology Income Corp | **$6.2B** | 17% (allowed 15.4%) | **40.7%** | 5% |
+| **OCIC** | Blue Owl Credit Income Corp | **$36B** | 5% | **21.9%** | 5% |
+
+OTIC's 40.7% is the highest quarterly redemption request the non-traded BDC industry has **ever** seen (per person familiar, Reuters). The combined $42.2B in portfolios using leverage managed by these two vehicles saw ~$5.4B in attempted withdrawals.
+
+**Concentration detail:** 1% of OCIC shareholders represented the majority of tender requests — 90% of shareholders didn't tender. This suggests large institutional or wealth management clients (not broad retail panic) drove the exodus. OTIC's higher percentage was amplified by a more concentrated shareholder base, particularly within certain wealth channels and regions.
+
+**Software exposure:** ~20% of BDC portfolio exposure in software (Jefferies estimate), with OTIC more exposed as a tech-focused vehicle. The "heightened market concerns around AI-related disruption to software companies" that Blue Owl cited weigh heaviest on OTIC.
+
+**Packer (shareholder letters):** *"Tender activity was elevated across the non-traded BDC industry in the first quarter of 2026, reflecting a period of heightened negative sentiment toward the asset class that intensified as peers have reported tender results."* Also: *"As public market dislocations and AI-related uncertainty reshape sentiment, dispersion is increasing across the sector, creating opportunities for experienced lenders to deploy capital selectively at improved terms."*
+
+**Market reaction:** OWL fell as much as 7%, hitting a **new all-time low**. ~45% of market cap lost since Jan 1, 2026. Peers slid: ARES, APO, BX, CG all down. Both funds saw gross inflows that, combined with the 5% gates, resulted in modest net outflows.
+
+*Sources: Reuters (Isla Binnie, Apr 2, 2026), CNBC (Apr 2, 2026), Bloomberg (Apr 2, 2026)*
+
+### KKR K-FIT — capped at ~5% (Apr 1, 2026)
+
+[[KKR]]'s non-traded BDC **KKR FS Income Trust (K-FIT)** received repurchase requests of **6.3%** of outstanding shares in Q1 2026. Satisfied ~80% (~5%). Sister fund **K-FITS** (KKR FS Income Trust Select) met all 3.7% requests; inflows outpaced outflows. K-FITS returned 9.82% annualized (as of Feb 28) — 71% US direct lending, 25% asset-based finance.
+
+First KKR non-traded fund to gate. Adds KKR to the list alongside BlackRock/HPS, Apollo, Ares, and Blue Owl.
+
+*Source: Reuters (Utkarsh Shetti, Apr 1, 2026), Bloomberg (Apr 1, 2026)*
+
+### Congressional scrutiny — House Financial Services Committee (Apr 1, 2026)
+
+Democratic members of the House Financial Services Committee sent pointed questions to [[Blackstone]], [[Ares Management|Ares]], and rivals, probing how firms market, value, and handle redemptions in private credit funds. First formal Congressional inquiry beyond Sen. Warren's individual statements — escalates regulatory risk from Senate rhetoric to committee-level action.
+
+*Source: Bloomberg (Apr 1, 2026)*
 
 ### Ares ARCC (watching)
 - **$26B+** — largest publicly traded BDC
@@ -543,6 +590,8 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 **Michael Patterson ([[BlackRock]] senior exec, letter to investors Mar 2026):** *"This is an unsettling time for markets and investors. There's real impactful geopolitical uncertainty and well-founded anxiety about how artificial intelligence will reshape our personal and economic landscapes."*
 
+**Sam Stovall ([[CFRA Research]], chief investment strategist, Apr 2, 2026):** *"Don't try this at home. Private credit does not have the kind of liquidity that public markets would have and it's very difficult to get the money out as quickly as you might want it."* Said retail investors *"may want to think twice"* about investing in private equity. On OTIC/OCIC: *"It's another reminder about how illiquid this sector is."*
+
 **Michael Arrougheti ([[Ares Management]] CEO, Mar 2026):** *"There's nothing that's flashing anything other than green right now."* Vaunted profitability of the hundreds of businesses Ares lends to, plus trillions in collateral. *"For the 30 plus years I've been investing in credit, there's nothing in those numbers that screams credit crisis is coming."*
 
 ---
@@ -603,8 +652,9 @@ Trump decision to allow 401(k) retirement savings accounts to invest in private 
 | Signal | Why it matters | Timing |
 |--------|---------------|--------|
 | **Bank collateral markdowns spread** | JPM first to remark (Mar 11). If GS, MS, Citi, BofA follow → systemic tightening of back-leverage | Coming weeks |
-| **Q1 2026 final redemption data** | Already ~7.5% weighted avg (as of Mar 6) — how many funds gate? | April (Stanger report) |
-| **March 31 quarter-end** | Next redemption window for all semi-liquid funds. >$100B in funds face disclosure | Mar 31 |
+| **Q1 2026 final redemption data** | OTIC at 40.7%, OCIC at 21.9% — worst ever. Remaining funds still to disclose | April (Stanger report) |
+| **Q2 redemption window** | After Q1 shock, does gating breed more gating? Investors who didn't tender may now want out | June 30 |
+| **Congressional follow-up** | House Financial Services Dems sent questions to BX, ARES, rivals (Apr 1). Hearings possible | Coming weeks |
 | **Who gates, who accommodates** | Industry splitting — HPS/BlackRock gated, Blackstone accommodated. Each approach has systemic implications | Coming weeks |
 | **OBDC redemption requests** | Blue Owl's $16B+ fund — any spike = escalation | Quarterly |
 | **ARCC quarterly report** | Largest BDC ($26B+), industry canary | Next earnings |
@@ -636,16 +686,20 @@ Trump decision to allow 401(k) retirement savings accounts to invest in private 
 | US private credit default rate | **5.8%** (12mo through Jan 2026 — Fitch, record since Aug 2024 tracker start) |
 | UBS worst-case default scenario | **15%** (Arougheti: "actually irresponsible") |
 | Funds facing Q1 disclosure | **>$100B** (Barclays) |
-| FT aggregate Q1 redemptions (7 funds) | **$11.7B requested, 66% fulfilled** ($7.8B) |
+| FT aggregate Q1 redemptions (7 funds, Mar 23) | **$11.7B requested, 66% fulfilled** ($7.8B) |
+| **Blue Owl OTIC Q1 redemptions** | **40.7% of $6.2B** — industry all-time record |
+| **Blue Owl OCIC Q1 redemptions** | **21.9% of $36B** — ~$5.4B combined with OTIC |
 | Apollo ADS redemptions (Q1 2026) | **$1.6B requested** (11.2% NAV), $730M honored (~46%) |
-| Cliffwater Q1 redemptions | **~14% of NAV** — highest tracked |
+| Ares Q1 redemptions | **11.6%** (revised up from ~5.6%) |
+| Cliffwater Q1 redemptions | **~14% of NAV** |
+| KKR K-FIT Q1 redemptions | **6.3%**, satisfied ~80% |
 | PE unsold investment backlog (2025) | **~$4T** (record — Bain & Company) |
 | Rated note feeder issuance (KBRA, 2025) | **$17B** (2x from $8B in 2024) |
 | Alt manager contagion | OWL -8.7%, APO/BX/ARES -6%, KKR -4% |
 | Publicly-traded BDC lows | BlackRock TCP $3.82 (record, -50% YoY) |
 
-*Sources: Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8; "Twice shy" newsletter ~Mar 7; Feb 26 roundup; Feb 24-25 UBS/Loeb/Michele; Fishlow/DiMauro/Brown/Scigliuzzo, Feb), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), FT (Eric Platt, Mar 23, 2026; Alan Livsey, Mar 23, 2026; Gara/Platt/Aliaj, Mar 30, 2026), Reuters, CNBC, Robert A Stanger & Co., Deutsche Bank, UBS (Mish), Fitch Ratings, Barclays, BofA, Citigroup, KKR filings, Bain & Company, KBRA, US Treasury OFR, Morningstar, Preqin/BDC Collateral*
-*Updated 2026-03-30*
+*Sources: Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8; "Twice shy" newsletter ~Mar 7; Feb 26 roundup; Feb 24-25 UBS/Loeb/Michele; Fishlow/DiMauro/Brown/Scigliuzzo, Feb; Apr 1-2 KKR/Blue Owl/Congress), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), FT (Eric Platt, Mar 23, 2026; Alan Livsey, Mar 23, 2026; Gara/Platt/Aliaj, Mar 30, 2026), Reuters (Isla Binnie, Apr 2, 2026; Utkarsh Shetti, Apr 1, 2026), CNBC (Apr 2, 2026), Robert A Stanger & Co., Deutsche Bank, UBS (Mish), Fitch Ratings, Barclays, BofA, Citigroup, KKR filings, Bain & Company, KBRA, US Treasury OFR, Morningstar, Preqin/BDC Collateral*
+*Updated 2026-04-03*
 
 ---
 
@@ -667,7 +721,7 @@ Trump decision to allow 401(k) retirement savings accounts to invest in private 
 - [[Blackstone]] — BCRED ($82B), record 7.9% redemption, contagion (-6%)
 - [[Ares Management]] — ARCC ($26B+), contagion (-6%)
 - [[Apollo]] — contagion (-6%)
-- [[KKR]] — contagion (-4%)
+- [[KKR]] — contagion (-4%); K-FIT non-traded BDC gated at ~5% (Apr 1, 2026)
 - [[Carlyle Group]] — contagion (-5%)
 - [[HPS Investment Partners]] — HPS Corporate Lending Fund ($26B) gated at 5% (Mar 6, 2026); acquired by BlackRock
 - [[BlackRock]] — HPS fund gate, TCP Capital at record low ($3.82, -50% YoY)
