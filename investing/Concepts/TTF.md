@@ -40,6 +40,10 @@ Post-2022, Europe replaced Russian pipeline gas with LNG — much of it from [[Q
 | Mar 9 | €61.75 (touched €69.50) | +15.7% on day, +67% prior week |
 | Mar 19 | €66.3/MWh | +21% on day |
 | Mar 21 week | — | +21.5% weekly, doubled since conflict start |
+| Mar 23 | €56.68 | Pullback begins — down 8% from Mar 19 peak |
+| Mar 31 | €50.76 | -18% from peak; steady decline through late March |
+| Apr 1 | €47.51 | Lowest since pre-Ras Laffan missile strikes |
+| Apr 2 | €50.04 | Bounce; still +52% above pre-conflict ~€33 |
 
 [[Goldman Sachs]] estimated [[Qatar]]'s production pause would reduce near-term global LNG supply by ~19%. Goldman warned a monthlong halt to [[Strait of Hormuz|Hormuz]] flows risks driving TTF and [[JKM]] toward €74/MWh — the level that triggered demand destruction during the 2022 crisis (which peaked at €345/MWh in August 2022).
 
@@ -61,4 +65,4 @@ Brooks (March 23): on a comparable timescale, the TTF rise is already bigger tha
 - [[Iran conflict oil price timeline]] — includes TTF data
 - [[Robin J. Brooks]] — TTF exceeds 2022 pace comparison
 
-*Created 2026-03-23*
+*Created 2026-03-23. Updated 2026-04-03.*

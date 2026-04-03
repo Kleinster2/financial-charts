@@ -60,7 +60,8 @@ Brooks' near-peak thesis: ~10M bbl/day [[Strait of Hormuz]] shortfall × consens
 ## Related
 
 - [[Oil]] — parent commodity
-- [[WTI]] — US benchmark (Brent-WTI spread)
+- [[WTI]] — US benchmark
+- [[Brent-WTI spread]] — transatlantic spread dynamics, April 2026 inversion
 - [[Dubai crude]] — Middle East physical benchmark
 - [[Murban]] — Abu Dhabi benchmark
 - [[Strait of Hormuz]] — disruption driver

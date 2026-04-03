@@ -59,7 +59,8 @@ The WTI-Brent spread widened during the conflict — WTI's relative insulation r
 ## Related
 
 - [[Oil]] — parent commodity
-- [[Brent crude]] — global benchmark (WTI-Brent spread)
+- [[Brent crude]] — global benchmark
+- [[Brent-WTI spread]] — transatlantic spread dynamics, historical inversions
 - [[Dubai crude]] — Middle East benchmark
 - [[CME Group]] — exchange operator
 - [[Iran conflict oil price timeline]] — full chronological price action

@@ -143,7 +143,11 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 | Mar 3, 2026 | €54.29 | Qatar LNG shutdown spike |
 | Mar 6, 2026 | €53.38 | Sustained elevation |
 | Mar 9, 2026 | €61.75 (touched €69.50) | +67% weekly — biggest since 2022 |
-| Mar 19, 2026 | €63.40 (intraday peak ~€70) | +35% on day after Ras Laffan missile damage — more than double pre-war levels |
+| Mar 19, 2026 | €61.85 close (intraday peak ~€70) | +35% on day after Ras Laffan missile damage — more than double pre-war levels |
+| Mar 23, 2026 | €56.68 | Pullback begins — -8% from peak |
+| Mar 31, 2026 | €50.76 | Steady decline; -18% from peak |
+| Apr 1, 2026 | €47.51 | Lowest since early March Ras Laffan spike |
+| Apr 2, 2026 | €50.04 | Bounce; still +52% above pre-conflict ~€33 |
 
 ### TTF vs Henry Hub
 
@@ -218,7 +222,7 @@ See [[Permian Basin]] for Waha hub detail.
 
 *Source: Bloomberg (Mar 21, 2026), Fortune (Mar 22, 2026), NYT (Mar 18, 2026)*
 
-*Created 2026-01-05. Updated 2026-03-22.*
+*Created 2026-01-05. Updated 2026-04-03.*
 
 ---
 
