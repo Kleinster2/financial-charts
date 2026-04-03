@@ -75,6 +75,24 @@
     .category-btn.active{background:#666;color:#fff;}
     .category-dropdown{margin-right:4px;}
   
+    /* Grid layout styles */
+    .grid-layout { min-height: 0; height: calc(100vh - 160px); }
+    .grid-layout .chart-card { margin-bottom: 0; overflow: hidden; display: flex; flex-direction: column; min-height: 0; border: 1px solid #ddd; border-radius: 4px; background: #fff; }
+    .grid-layout .chart-card .chart-box { flex: 1 1 auto; height: auto !important; min-height: 150px; }
+    .grid-compact .controls { flex-wrap: nowrap; overflow: hidden; gap: 4px; font-size: 0.8rem; }
+    .grid-compact .controls .title-input { max-width: 120px; font-size: 0.8rem; }
+    .grid-compact .controls .add-chart-btn,
+    .grid-compact .controls .toggle-notes-btn,
+    .grid-compact .controls .export-btn,
+    .grid-compact .controls .tag-container { display: none; }
+    .grid-compact .settings-panel { font-size: 0.75rem; }
+    .grid-compact .settings-panel .settings-toggle-btn { font-size: 0.8rem; }
+    .grid-compact .ticker-chips { font-size: 0.8rem; }
+    .grid-compact .chip { font-size: 0.75rem !important; padding: 2px 4px !important; }
+    .grid-compact .chip .multiplier-input { width: 32px; font-size: 9px; }
+    .grid-compact .notes-section { display: none !important; }
+    .grid-compact .selected-tickers { max-height: 28px; overflow: hidden; }
+
     /* Context menu for ticker chips */
     .chip-context-menu {
         position: fixed;
@@ -187,6 +205,7 @@
   <script src="chart-macro-dashboard.js?v=2"></script>
   <script src="chart-dendrograms.js?v=5"></script>
   <script src="chart-thesis-performance.js?v=1"></script>
+  <script src="chart-grid-layout.js?v=1"></script>
   <script src="sandbox-init.js?v=1"></script>
 
 

@@ -95,7 +95,8 @@ New fees: $100/year asylum application, $250 non-immigrant visa increase.
 Largest IRA rollback. Reorients federal energy policy away from net-zero:
 
 Renewable credits phased out:
-- Wind/solar investment & production tax credits sunset after 2027 (loophole extends to 2030 for early-committed projects)
+- Wind/solar investment & production tax credits (worth ~30% of system costs) killed for projects that begin construction after Jul 4, 2026. Loophole extends to 2030 for early-committed projects
+- Capital gap effect: traditional financiers pulled back from smaller solar projects (<10 MW). [[Forest Road Company]] launched $750M CenterNode fund (Apr 2026) to fill the gap with mezzanine debt/preferred equity at 2-3x conventional returns
 - Tech-neutral clean electricity credits (geothermal, batteries, nuclear) phase out starting 2032
 
 Fossil fuel expansion:

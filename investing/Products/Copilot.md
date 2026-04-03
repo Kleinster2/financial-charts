@@ -17,6 +17,21 @@ aliases: [Microsoft Copilot, GitHub Copilot, Microsoft 365 Copilot]
 | GitHub Copilot | Launched 2022 |
 | M365 Copilot | Launched Nov 2023 |
 | Surfaces | Word, Excel, Teams, Azure, GitHub, Windows, Bing |
+| M365 paid seats | 15mn (~3% of Office users) — first disclosure (Mar 2026) |
+
+---
+
+## Cowork integration (Mar 12, 2026)
+
+[[Microsoft]] and [[Anthropic]] announced [[Claude Cowork]] integration into Copilot. [[Richard Waters]] (FT, Mar 12 2026): the deal reflects Copilot's underwhelming adoption (15mn paid seats after 2+ years) and Cowork's rapid ascent as the poster child for AI agents.
+
+Architecture shift: standalone Cowork operates at device level — users grant individual permissions to each app and service. Inside Copilot, Cowork runs in the cloud with full access to company data, context, and existing governance/security infrastructure. This makes the agent more useful and more deployable for IT administrators.
+
+For [[Anthropic]], the integration opens [[Microsoft]]'s massive enterprise user base. For [[Microsoft]], it fills the agent gap that Copilot hasn't closed on its own — an admission that [[OpenAI]]-powered Copilot hasn't delivered the agentic capability enterprises want.
+
+Tension: as both Copilot and Cowork compete to become the "front end to work," the alliance may strain. Cowork's plugin ecosystem could evolve into an independent platform for white-collar work — the same kind of platform power [[Microsoft]] itself has long held.
+
+*Source: FT (Richard Waters, Mar 12 2026)*
 
 ---
 
@@ -41,6 +56,8 @@ Key risk: consumer trust in Microsoft handling health data. Panel consensus (GAI
 - [[OpenAI]] — model provider
 - [[GitHub]] — GitHub Copilot (coding assistant)
 - [[Claude Code]] — competitor (coding agent)
+- [[Claude Cowork]] — integrated into Copilot (Mar 2026)
+- [[Anthropic]] — Cowork partner
 - [[Gemini]] — [[Google]] competitor
 
 ---

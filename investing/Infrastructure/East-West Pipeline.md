@@ -104,6 +104,24 @@ Source: Bloomberg (Di Paola, Longley, Prem, El Wardany), March 22, 2026
 
 ---
 
+## Construction partners — Cat Houston joint venture
+
+The western section was built by the [[Cat Group]]/Houston Contracting joint venture. [[Cat Group]] (a private Lebanese company founded in 1941) invested $35M in equipment and workers' camps. Houston Contracting Company (merged with Sedco in 1969) brought US pipeline expertise from Texas-Louisiana gas transmission systems. 1,200 workers deployed. 48-inch pipe sections (24m long) shipped through [[Yanbu]]. All welds 100% x-rayed. Pipes laid in tension to prevent buckling from 80 degrees Celsius crude. Yanbu tank farm: 11M barrel holding capacity.
+
+*Source: PeriscopeFilm / YouTube (1980s construction documentary)*
+
+---
+
+## Expansion planning and new bypass routes (Apr 2026)
+
+Saudi Arabia considering how to export more of its 10.2 mb/d production by pipeline rather than through Iranian-controlled waters — including expanding the East-West Pipeline further or building new routes. [[Amin Nasser]] told analysts (late March 2026) the pipeline is the *"main route that we are capitalising on right now."*
+
+Christopher Bush ([[Cat Group]] CEO) estimated replicating the East-West Pipeline today would cost at least $5B, reflecting the need to blast through Hijaz basalt. New Saudi Red Sea terminals — including the deepwater port at [[NEOM]] — are also being examined.
+
+See [[Gulf pipeline bypass planning 2026]] for the full landscape of proposed bypass routes.
+
+---
+
 ## Related
 
 - [[Yanbu]] — western terminus (Red Sea port, loading bottleneck)
@@ -111,8 +129,11 @@ Source: Bloomberg (Di Paola, Longley, Prem, El Wardany), March 22, 2026
 - [[Strait of Hormuz]] — bypass target
 - [[Habshan-Fujairah Pipeline]] — UAE's parallel bypass (1.5 mb/d)
 - [[IPSA Pipeline]] — defunct Iraqi bypass through Saudi Arabia
+- [[Cat Group]] — original western section builder, now advising on new routes
+- [[Gulf pipeline bypass planning 2026]] — post-Hormuz bypass network planning
 - [[Oil]] — commodity
 - [[Iran conflict economic disruption]] — current event (bypass capacity stress-tested)
 - [[Kharg Island]] — 90% of Iran's oil exports, potential target
 - [[Nadia Martin Wiggen]] — skeptical sustainable throughput estimate (2.5-3M bpd)
 - [[Stellen Capital]] — commodities/shipping hedge fund
+- [[NEOM]] — potential new Red Sea terminal

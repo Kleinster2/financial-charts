@@ -237,4 +237,10 @@ European Commission asking member states to "consider coming cutting back on oil
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg).*
+## Jørgensen: "long-lasting" crisis, fuel rationing under assessment (April 3)
+
+[[Dan Jørgensen]] escalated rhetoric from the March 21 storage letter — now framing the crisis as "structural, long-lasting" and assessing fuel rationing, [[Jet fuel]] spec harmonization with the US, and a possible second [[Strategic Petroleum Reserve|SPR]] release. No change to Russian [[LNG]] ban timeline. Full policy detail in [[EU#Iran conflict energy response (2026)]].
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg). Updated 2026-04-03 (Jørgensen/FT → [[EU]]).*

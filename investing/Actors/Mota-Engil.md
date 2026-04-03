@@ -143,7 +143,7 @@ Sold Polish operations (Sep 2025) to focus on higher-growth markets.
 
 Sources:
 - [Wikipedia - Mota-Engil](https://en.wikipedia.org/wiki/Mota-Engil)
-- [TradingView - H1 2025 Results](https://www.tradingview.com/news/reuters.com,2025:newsml_L8N3UJ06X:0-portugal-s-mota-engil-profit-rises-20-to-record-driven-by-african-projects/)
+- [[[TradingView]] - H1 2025 Results](https://www.tradingview.com/news/reuters.com,2025:newsml_L8N3UJ06X:0-portugal-s-mota-engil-profit-rises-20-to-record-driven-by-african-projects/)
 - [Bloomberg - Africa Boom](https://www.bloomberg.com/news/articles/2025-08-28/portugal-s-top-stock-mota-rides-a-construction-boom-in-africa)
 
 *Created 2026-01-29*

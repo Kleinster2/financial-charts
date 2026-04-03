@@ -246,6 +246,7 @@ The resolution metric is revealing: 60 daily transit calls would still be well b
 - [[Nadia Martin Wiggen]] — May reopening, physical market assessment, go-quiet-then-strike risk
 - [[Stellen Capital]] — commodities/shipping hedge fund
 - [[Polymarket]] — 39% normalization by April 30 (prediction market)
+- [[Gulf pipeline bypass planning 2026]] — structural bypass network planning (FT Apr 2)
 
 ---
 

@@ -88,7 +88,7 @@ Feb 2026: partnered with actor Gabriel Macht (Harvey Specter from Suits) for bra
 
 ## Competitive position
 
-Harvey is the most-funded pure-play legal AI company. JPMorgan (Feb 2026) assessed that [[Anthropic]]'s Claude Cowork "is just catching up" with Harvey and [[RELX]], noting Cowork lacks a complete legal library.
+Harvey is the most-funded pure-play legal AI company. JPMorgan (Feb 2026) assessed that [[Anthropic]]'s Claude Cowork "is just catching up" with Harvey and [[RELX]], noting Cowork lacks a complete legal library. CEO Weinberg (FT, Feb 4): *"Always been super vocal that we believe our long-term largest competition will be the model providers"* — not other legal tech startups. Harvey did not plan to include Anthropic's Cowork legal plug-in, saying its existing tools performed better.
 
 | Competitor | Approach | Harvey advantage |
 |------------|----------|-----------------|

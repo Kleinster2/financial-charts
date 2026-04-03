@@ -167,7 +167,13 @@ Airlines face a dual headwind: fuel cost surge + route/hub disruption. [[Emirate
 
 US gasoline at ~$3/gallon (same as year ago) suggests the product market tightness hasn't fully passed through to US consumers yet — but jet fuel's thinner market and fewer hedging options make it more volatile than gasoline.
 
-See [[Iran conflict economic disruption]] for the full energy market analysis and [[2026 Iran conflict market impact]] for cross-asset impact.
+### EU considering spec harmonization with US (April 3)
+
+[[EU]] Energy Commissioner [[Dan Jørgensen]] told the FT (Apr 3) the bloc is reviewing whether to relax the Jet-A1 freezing point spec (-47°C) to match the US Jet-A standard (-40°C), which would unlock US jet fuel imports currently incompatible with European requirements. Airlines raised "particular concerns" about supply. Jørgensen: *"We are looking at all possibilities"* but *"we're not there yet where we have remedied or changed any of our current rules."*
+
+The 7°C gap between Jet-A and Jet-A1 is a cold-weather safety margin — Jet-A1's lower freeze point prevents fuel gelling at high-altitude temperatures. Relaxing the spec would increase supply options but narrow the safety buffer on polar and high-altitude routes.
+
+See [[Iran conflict European impact]] for the full EU policy response and [[Iran conflict economic disruption]] for the broader energy market analysis and [[2026 Iran conflict market impact]] for cross-asset impact.
 
 ---
 

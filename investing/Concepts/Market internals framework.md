@@ -83,7 +83,7 @@ This combination — high breadth, high dispersion, low correlation, low VIX —
 
 | Dimension | Ticker | Source | What it measures | Free? |
 |-----------|--------|--------|-----------------|-------|
-| **Breadth** | MMTH ($SPXA200R) | TradingView / StockCharts | % of S&P 500 above 200 DMA | Yes |
+| **Breadth** | MMTH ($SPXA200R) | [[TradingView]] / StockCharts | % of S&P 500 above 200 DMA | Yes |
 | **Dispersion** | DSPX | [[CBOE]] | Implied dispersion from single-stock vs index option vols | Yes (delayed) |
 | **Correlation** | ICJ | CBOE | Implied correlation among S&P 500 constituents | Yes (delayed) |
 | **Volatility** | VIX | CBOE / everywhere | 30-day implied volatility of S&P 500 | Yes |

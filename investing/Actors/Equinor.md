@@ -66,6 +66,12 @@ Norwegian regulatory environment drives performance.
 
 ---
 
+## Arctic policy (2026)
+
+Submitted response to EU consultation calling for the bloc to drop its 2021 effective moratorium on Arctic oil and gas drilling. Part of a broader industry push (10+ companies) framing Arctic hydrocarbons as essential to European energy security. See [[Arctic#EU Arctic moratorium review (2026)]].
+
+---
+
 ## Investment case
 
 **Bull:**

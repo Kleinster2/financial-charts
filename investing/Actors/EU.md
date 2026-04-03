@@ -196,6 +196,50 @@ See [[Trade Agreements]] and [[Trade]] for bilateral tensions.
 
 ---
 
+## Iran conflict energy response (2026)
+
+The [[Operation Epic Fury|Iran conflict]] and near-closure of the [[Strait of Hormuz]] triggered Europe's second major energy crisis in four years. The EU's response has escalated in stages:
+
+### Gas storage target reduction (March 21)
+
+Energy Commissioner [[Dan Jørgensen]] instructed energy ministers to lower gas storage filling targets to 80% of capacity (from the 90% target introduced after [[Russia]]'s 2022 invasion of [[Ukraine]]), with deadline extended to December 1 from November 1. EU storage covers 25-30% of winter gas needs; the Netherlands at ~7% heading into filling season. See [[Iran conflict European impact#EU lowers gas storage targets (March 21)]].
+
+### "Long-lasting" crisis — policy tools under assessment (April 3)
+
+*Source: FT, Henry Foy, "Europe must prepare for 'long-lasting' energy shock, EU warns," April 3, 2026.*
+
+Jørgensen escalated rhetoric significantly from the March 21 letter, telling the FT the bloc is now preparing for "structural, long-lasting effects."
+
+Jørgensen (Apr 3): *"This will be a long crisis... energy prices will be higher for a very long time."*
+
+On critical products: *"We expect it to be even worse in the weeks to come."*
+
+On rhetoric shift: *"The rhetoric that we're using and the words we're using are more serious now than they were earlier in the crisis."* Analysis: "prolonged situation" — countries must ensure supply.
+
+On supply status: EU "not in a security of supply crisis, yet" — but assessing "all possibilities" including fuel rationing.
+
+#### Policy tools under assessment
+
+| Tool | Status | Detail |
+|------|--------|--------|
+| Fuel rationing (diesel, [[Jet fuel\|jet fuel]]) | "Not there yet" — contingency | *"Better to be prepared than to be sorry"* |
+| Jet fuel spec harmonization | Under review | EU [[Jet fuel\|Jet-A1]] freeze point -47°C vs US Jet-A -40°C; relaxing would unlock US imports |
+| Ethanol blending (automotive) | Under review | Higher blend ratios to stretch petrol supply |
+| [[Strategic Petroleum Reserve\|Strategic reserve]] release | Not excluded | *"If the situation becomes more dire"* — "exact right time" and "proportionate" |
+| Russian [[LNG]] ban change | Ruled out | No change to legislation ending Russian LNG imports this year |
+
+Airlines raised "particular concerns" about [[Jet fuel|jet fuel]] supply specifically.
+
+On legislative tools: *"We are looking at all possibilities and it's clear the more serious the situation gets, the more of course we will also have to look into legislative tools."* But: *"We're not there yet where we have remedied or changed any of our current rules."*
+
+On a second strategic reserves release: *"We need to keep our possibilities open, and if this is indeed, as I project, a long-lasting crisis, then we need those tools also at a later stage."* This follows the largest coordinated [[Strategic Petroleum Reserve|SPR]] release in IEA history (400M barrels, March 11).
+
+On Russian LNG: reiterated no change to the ban timeline. Relying on "the US and other partners" for additional supply — acceptable because they operate in "the free market." This contradicts [[Putin]]'s pre-emptive cutoff threat (March 4-5) by refusing to alter the legislative timeline, even as the loss of both Russian (~13% of European supply) and Qatari (~9%) LNG creates a ~22% supply gap.
+
+See [[Iran conflict European impact]] for full European crisis timeline.
+
+---
+
 ## Related
 
 - [[Europe]] — geographic hub
@@ -209,6 +253,8 @@ See [[Trade Agreements]] and [[Trade]] for bilateral tensions.
 - [[European defense spending]] — security
 - [[EFTA]] — non-EU alternative
 - [[Greenland]] — US annexation push straining relations
+- [[Iran conflict European impact]] — 2026 energy crisis timeline
+- [[Dan Jørgensen]] — EU Energy Commissioner
 
 ---
 

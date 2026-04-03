@@ -207,6 +207,20 @@ NET trades at a premium — but it has:
 
 ---
 
+## EmDash: Content layer for agentic web (April 2026)
+
+[[EmDash]] completes the platform story. Cloudflare now has:
+
+1. **Agent hosting** — Moltworker (Jan 2026)
+2. **Agent-built frameworks** — Vinext (Feb 2026)
+3. **Agent-built CMS** — EmDash (Apr 2026)
+
+EmDash is AI-native by design: MCP server, CLI admin, Skills config files, documentation structured for machine consumption. The x402 payment standard baked in means EmDash sites can charge AI agents for content access — a business model that doesn't exist in WordPress.
+
+Pattern: Cloudflare is systematically rebuilding web infrastructure primitives using AI, each one landing on Workers. If the web is being rebuilt for agents, Cloudflare is positioning to host the rebuilt version.
+
+---
+
 ## What to watch
 
 | Signal | Bullish | Bearish |

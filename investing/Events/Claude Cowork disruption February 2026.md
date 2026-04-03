@@ -146,6 +146,47 @@ Catalysts cited: [[Anthropic]] Cowork plugins, [[Google DeepMind]] [[Genie 3]] (
 
 ---
 
+## Contemporary coverage (FT, Feb 4 2026)
+
+FT (Heikkilä, Ring, Thomas) mapped the immediate reaction across sectors:
+
+### Why Anthropic was credible
+
+[[Anthropic]] pioneered reinforcement learning from AI feedback (RLAIF) — originally a safety technique (Constitutional AI), but inadvertently a way to automate model improvement at far larger scale than human labeling. 90% of the code behind [[Claude Code]] was generated using the tool itself; 70-90% of code across [[Anthropic]] now written with AI. Claude Code reached $1B revenue in six months — the fastest AI product ramp in history at the time.
+
+Aditya Agarwal, former [[Dropbox]] CTO (Feb 4): *"It was very clear that we will never ever write code by hand again. Something I was very good at is now free and abundant."*
+
+### [[MCP|Model Context Protocol]] as force multiplier
+
+[[MCP]] worked as a bridge between AI models and applications/databases, letting LLMs process information and take actions in real time in apps like [[Slack]]. Open source — anyone could adapt it. This was the technology that made Cowork plugins pluggable into existing enterprise workflows.
+
+### Legal sector pushback
+
+[[Harvey]] CEO Winston Weinberg (Feb 4): *"Always been super vocal that we believe our long-term largest competition will be the model providers"* — rather than other legal tech. Neither [[Harvey]] nor [[Legora]] planned to include Anthropic's plug-in; both said their existing tools performed better.
+
+[[Legora]] CEO Max Junestrand: a "big distinction" between Anthropic's plug-ins and Legora's dedicated platform trained to an individual firm's needs.
+
+Nick West, CSO/AI lead at [[Mishcon de Reya]] (Feb 4): *"If enterprises are already adopting Claude or are willing to do so... it could meaningfully compress pricing against, and reduce demand, for legal AI tools."* But cautioned: *"People will be testing to see whether the eye-catching demos turn out to be marketing fluff or evidence of high-quality repeatable outcomes when handling messy real-world contracts at scale."*
+
+### Advertising more exposed than legal
+
+[[Barclays]] buy-side survey (Feb 3): [[WPP]], [[Omnicom]], and [[Publicis]] ranked among top "AI losers." Analysts noted sales/marketing departments could build their own tools using Claude — higher risk to advertising than legal, where data moats and regulatory requirements offer some protection.
+
+![[ft-relx-publicis-infosys-wpp-cowork-selloff-feb4-2026.png]]
+*Data, software and advertising stocks under pressure, Jan 29 - Feb 4 2026. Share prices rebased. Source: LSEG via markets.ft.com (FT, Feb 4 2026)*
+
+### "Comprehension debt" warning
+
+Experts warned of a looming "comprehension debt" — junior coders becoming too reliant on AI tools and losing the ability to understand where things have gone wrong. AI-generated errors could have serious consequences in highly regulated industries like banking and law.
+
+### No-advertising pledge
+
+[[Anthropic]] pledged it would not run advertising, even as competitors like [[OpenAI]] embraced ads for revenue. Another differentiation from OpenAI's consumer model.
+
+*Source: FT (Heikkilä, Ring, Thomas), Feb 4 2026*
+
+---
+
 ## Practitioner positioning: Polar Capital (Feb 16, 2026)
 
 [[Polar Capital]]'s Nick Evans ($12B global tech fund, beat 99% of peers over 1 year) — one of the clearest articulations of the bear case from an active manager:

@@ -120,6 +120,10 @@ Relevance to 2026: The exchange mechanism's key risk — hidden discount to trad
 
 *Source: Paul Horsnell, "The Strategic Petroleum Blunder?", Oxford Institute for Energy Studies, 2000*
 
+### EU signals possible second release (April 3)
+
+[[EU]] Energy Commissioner [[Dan Jørgensen]] told the FT (Apr 3) he "will not exclude" another coordinated release of strategic reserves: *"We need to keep our possibilities open, and if this is indeed, as I project, a long-lasting crisis, then we need those tools also at a later stage."* He emphasized timing — "the exact right time" — and proportionality, echoing the [[Nadia Martin Wiggen|Wiggen]] observation on SPR headline fatigue: each successive release announcement carries less market impact.
+
 ### Structural concerns
 - US SPR at 415M barrels vs. 727M peak — significantly depleted heading into a major crisis
 - Max drawdown rate of 4.4 mb/d means even a full release cannot replace Hormuz transit volumes (15+ mb/d crude)

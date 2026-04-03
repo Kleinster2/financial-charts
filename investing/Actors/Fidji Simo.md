@@ -5,7 +5,7 @@ tags: [actor, executive, ai, usa]
 
 # Fidji Simo
 
-[[OpenAI]] CEO of applications. Hired August 2024 by [[Sam Altman]] to bring operational discipline to a company that had been "betting on a series of startups" internally. Former [[Instacart]] CEO (led to IPO), former [[Meta]] VP Product. Now leading OpenAI's most significant strategic pivot: consolidating ChatGPT, [[Codex]], and Atlas browser into a desktop "superapp" and refocusing the company on coding and enterprise after [[Anthropic]]'s [[Claude Code]] and [[Claude Cowork]] took the lead.
+[[OpenAI]] CEO of AGI deployment (rebranded from "CEO of applications"). Hired August 2024 by [[Sam Altman]] to bring operational discipline to a company that had been "betting on a series of startups" internally. Former [[Instacart]] CEO (led to IPO), former [[Meta]] VP Product. Now leading OpenAI's most significant strategic pivot: consolidating ChatGPT, [[Codex]], and Atlas browser into a desktop "superapp" and refocusing the company on coding and enterprise after [[Anthropic]]'s [[Claude Code]] and [[Claude Cowork]] took the lead.
 
 ---
 
@@ -13,7 +13,7 @@ tags: [actor, executive, ai, usa]
 
 | Metric | Value |
 |--------|-------|
-| Title | CEO of applications, [[OpenAI]] |
+| Title | CEO of AGI deployment, [[OpenAI]] (rebranded from "CEO of applications") |
 | Hired | August 2024 |
 | Reports | Oversees product, finance, strategy |
 | Previous | CEO, [[Instacart]] (2021-2024) |
@@ -66,10 +66,21 @@ Announced hiring of Barret Zoph, Luke Metz, Sam Schoenholz from [[Thinking Machi
 - [[ChatGPT]] — consumer product being consolidated
 - [[Anthropic]] — rival whose success triggered the strategic pivot
 - [[Claude Code]] — Anthropic product that catalyzed OpenAI's refocus
+- [[TBPN]] — acquired (Apr 2026), Simo initiated the deal
 - [[Thinking Machines Lab]] — hired team members from
 - [[Meta]] — previous employer
 - [[Instacart]] — previous company (CEO, led to IPO)
 
 ---
 
-*Created 2026-01-15 | Updated 2026-03-21*
+## TBPN acquisition (April 2026)
+
+Initiated and led [[OpenAI]]'s acquisition of [[TBPN]], the daily tech talk show. Appeared on TBPN in December 2025 for a model release, then reached out to hosts [[John Coogan]] and [[Jordi Hays]] in February 2026 with an offer to buy. Motivation: reaching terminally online tech audiences to shape the AI narrative. Rebranded her title from "CEO of applications" to "CEO of AGI deployment."
+
+Some [[OpenAI]] employees thought the acquisition was an April Fool's joke — Simo had told staff three weeks earlier to cut back on "side quests" and refocus on coding/enterprise.
+
+*Source: WSJ (Berber Jin, Isabella Simonetti, Apr 2 2026)*
+
+---
+
+*Created 2026-01-15 | Updated 2026-04-03*

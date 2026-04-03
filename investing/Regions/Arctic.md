@@ -140,6 +140,41 @@ Climate change opening previously inaccessible areas.
 
 ---
 
+## EU Arctic moratorium review (2026)
+
+*Source: FT, Attracta Mooney and Ian Johnston, "Oil and gas companies seize the chance to lobby for Arctic drilling," March 25, 2026.*
+
+In 2021 the [[EU]] committed to work towards an international moratorium on oil and gas drilling in the Arctic as part of its Arctic strategy. The strategy is now under review — driven by the post-[[Ukraine]] energy security recalculation.
+
+### Industry response to EU consultation
+
+More than 10 oil and gas companies and industry groups submitted responses to the EU consultation, framing Arctic hydrocarbons as essential to European energy security.
+
+| Respondent | Affiliation | Position |
+|------------|-------------|----------|
+| KonKraft | Norwegian industry group (incl. Offshore Norge, Federation of Norwegian Industries) | "No European energy security without Arctic energy" |
+| International Association of Oil & Gas Producers (IOGP) | Members incl. [[Shell]], [[TotalEnergies]], [[ConocoPhillips]] | Ban "would send the wrong signal at the worst possible time" |
+| [[Vår Energi]] | One of Norway's largest gas exporters | Norway is predictable supplier at time of strategic importance |
+| [[Equinor]] | Norwegian state oil company | Called for EU to drop effective ban |
+
+IOGP's Nareg Terzian (Europe head of strategy, Mar 25): *"Restricting production from regions like northern Norway would not reduce demand, but risks increasing reliance on supplies with higher emission intensity."*
+
+[[Vår Energi]] CEO Nick Walker noted a third of gas consumed in the EU originates from Norway, with about a third of that produced in the Norwegian Sea and the Barents Sea. Vår Energi's submission called for the Arctic to be more precisely defined, arguing the Barents Sea area is ice-free year-round.
+
+### Pushback
+
+InfluenceMap (corporate lobbying tracker) called the campaign an "alarming push" for development that risked undoing decades of climate work. Analyst Ella Westlake (Mar 25): industry was trying to take *"advantage of geopolitical instability to repeat misleading arguments that present fossil fuels rather than renewable energy."*
+
+### Timeline and context
+
+An EU official described policy discussions as "embryonic," with the aim to complete the review ahead of an EU-Arctic forum in September 2026.
+
+Parallel developments:
+- [[UK]] under pressure to reverse its ban on new North Sea oil and gas licences (post-Middle East war)
+- US (Trump administration) launched auctions for drilling in the National Petroleum Reserve in the Alaskan [[Arctic]], drawing $163M in bids (March 2026)
+
+---
+
 ## Investment angles
 
 | Theme | Vehicles |

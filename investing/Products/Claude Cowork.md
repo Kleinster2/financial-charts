@@ -26,6 +26,7 @@ Native macOS desktop app announced Feb 17 2026 (Windows coming) — reads/intera
 | Jan 30 | Plugins launch — 11 open-source job-specific plugins |
 | Feb 3-4 | $285B market selloff ("SaaSpocalypse") |
 | Feb 17 | Desktop app announced (macOS native, Windows coming) |
+| Mar 12 | Integrated into [[Copilot|Microsoft Copilot]] — cloud access + enterprise data |
 
 ---
 
@@ -49,6 +50,18 @@ Plugin launch triggered [[Claude Cowork disruption February 2026|$285B software 
 Software P/E compression: 33x → 23x (-30%). Hardest hit: [[Thomson Reuters]] (-18%), [[RELX]] (-14%), [[LegalZoom]] (-20%).
 
 See [[Claude Cowork disruption February 2026]] and [[AI workflow disruption basket]] for full analysis.
+
+---
+
+## Microsoft Copilot integration (Mar 12, 2026)
+
+[[Microsoft]] integrated Cowork into [[Copilot]], announced Mar 12. Standalone Cowork operates at device level — users grant per-app permissions. Inside Copilot, Cowork runs in the cloud with access to all company data and context [[Microsoft]] already holds, plus enterprise governance and security already in place.
+
+For [[Anthropic]]: access to Microsoft's enterprise base (only 15mn paid Copilot seats, but the broader M365 install base is ~500mn). For [[Microsoft]]: fills the agentic gap Copilot hasn't closed — [[OpenAI]] models power Copilot's chat but haven't delivered autonomous task execution.
+
+Competitive dynamic: Cowork inside Copilot is subordinate to Microsoft's environment. But for users whose companies don't run primarily on Microsoft software, a Copilot-only agent has limited value. As Cowork's plugin ecosystem grows, it could become an independent platform — direct competition with Microsoft's own platform power.
+
+*Source: FT (Richard Waters, Mar 12 2026)*
 
 ---
 

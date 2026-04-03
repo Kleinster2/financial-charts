@@ -86,6 +86,37 @@ Green energy park model:
 
 ## Grid connection backlogs
 
+### European DC grid connection wait times (Ember Energy, Nov 2025)
+
+| Country | Avg wait (years) | Notes |
+|---------|-----------------|-------|
+| Norway | ~2 | Fastest in Europe |
+| Italy | ~3 | Attracting hyperscaler share |
+| Spain | ~4 | |
+| Germany | ~7 | |
+| [[UK]] | ~9 | 125 GW combined queue (3x YoY) |
+| [[Ireland]] | ~10 | Effective ban (moratorium) |
+| Netherlands | ~10 | Effective ban |
+
+![[uk-dc-grid-queue-ember.png]]
+*Data centres' average waiting time for grid connection (years). Ireland and the Netherlands have effective bans. Source: Ember Energy*
+
+### UK queue crisis (Nov 2025)
+
+Combined needs of those awaiting [[UK]] grid connections — many data centers — tripled in one year to 125 GW. Wait times 8-10 years (Ember Energy); some face over a decade.
+
+The queue is self-gaming: long waits incentivize speculative applications from projects without firm plans, further lengthening waits for real projects. The energy system operator started addressing similar gaming on the supply queue (power generation applicants) and is expected to impose entry/membership requirements for the demand queue.
+
+FT editorial (Nov 23): countries with shorter wait times (Nordics, Italy) expected to attract greater hyperscaler share. The prospect of data centers — and thus data — escaping to other countries raises national security and resilience concerns.
+
+Proposed workaround: allow hyperscalers to build "micro-grids" with own power generation and batteries, gradually subsumed into the national grid. Operators building their own power may jump the queue for grid connection on the understanding they barely need it — but the two-way connection means surplus power feeds back into the grid. This mirrors the [[BYOP]] model emerging in the US.
+
+Drawback: DC builders may lean on gas-fired generation initially, slowing decarbonization. Regulator could steer toward renewables and insist on greener replacements once available.
+
+*Source: FT editorial, Nov 23 2025*
+
+### US backlogs
+
 | Region | Wait time |
 |--------|-----------|
 | West London | Until 2030 |

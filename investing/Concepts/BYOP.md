@@ -155,6 +155,29 @@ Both valid strategies — depends on risk tolerance and scale.
 
 ---
 
+## Overbuilding risk (Mar 2026)
+
+David Crane (CEO, [[Generate Capital]], $8B AUM, former under-secretary for infrastructure under Biden, former CEO of [[NRG Energy]]) warned that on-site power plants for data centers risk being overbuilt (FT, Mar 31 2026).
+
+Crane (Mar 31): *"As much as the data centre people tell you their demand for electricity is infinite, it feels to me like there will be a time when they'll be overbuilt. They're going to have spare electrons."*
+
+*"Someone's got to pay for the infrastructure that's put in place and then not being used . . . you need to have take-or-pay contracts, so if they suddenly don't need the power, it's on the back of the data centre company, not the power company."*
+
+Three drivers of potential overcapacity:
+- On-site plants must be oversized for reliability (N+1 redundancy). Once the data center gets grid connection, the excess generation has no buyer
+- AI chips getting more efficient could reduce per-rack power draw
+- Quantum computing breakthroughs could reduce compute power requirements
+
+Ben Hertz-Shargel (global head of grid edge, [[Wood Mackenzie]], Mar 31): *"The AI ship has sailed, but the energy cost of serving it is very much in question."*
+
+Crane's counterpoint: overbuilding could be an "opportunity" if planned for — underused plants could be integrated back into the grid to boost supply for regular customers and bring down prices.
+
+Demand backdrop: [[BloombergNEF]] estimates US data center power demand surges from 34.7 GW (2024) to 106 GW by 2035. Utility capex plans up 19% for 2026-2030 (Wolfe Research). [[NextEra Energy]] alone planning 15 GW of new plants for data centers over next 9 years.
+
+*Source: FT, Martha Muir (New York), Mar 31 2026*
+
+---
+
 ## Investment implications
 
 **Power suppliers win:**
@@ -206,3 +229,7 @@ Both valid strategies — depends on risk tolerance and scale.
 - [[Siemens Energy]] — power equipment
 - [[Constellation Energy]] — nuclear operator
 - [[Vistra]] — Texas power
+- [[Generate Capital]] — David Crane overbuilding warning (Mar 2026)
+- [[DC power prices]] — ratepayer impact of DC demand
+- [[Global DC grid strain]] — grid queue crisis driving BYOP adoption (UK: 125 GW queue, 8-10 yr waits)
+- [[Ratepayer Protection Pledge]] — Trump's take-or-pay formalization

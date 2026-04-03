@@ -121,6 +121,13 @@ Successfully transitioned US markets from T+2 to T+1:
 - Partnering with Digital Asset on Canton Network
 - MVP targeting H1 2026
 - Eligible: Russell 1000, Treasuries, major ETFs
+- Plans to tokenize some of the US Treasurys it custodies "later this year" (WSJ, Apr 2)
+
+**[[Nasdaq]] tokenized securities settlement:**
+- [[Nasdaq]]'s SEC-approved tokenized trading pilot (Mar 18, 2026) settles through DTCC — preserving DTC's role in the new architecture rather than bypassing it
+
+**Strategic posture (Apr 2026):**
+Nadine Chakar, global head of digital assets: *"This is no longer driven by FOMO. It's truly driven by real business cases, client demands"* (WSJ, Apr 2). On the long-term ambition: *"We are keeping an eye toward the future, where our ambition is to tokenize all $100 trillion in assets that we have. That is the ultimate goal that we're striving for"* (WSJ, Apr 2). This positions DTCC as a tokenization leader — not a threatened incumbent — with the Nasdaq settlement partnership as proof of concept.
 
 ---
 
@@ -179,4 +186,6 @@ Successfully transitioned US markets from T+2 to T+1:
 - [[SEC]] — primary regulator
 - [[Robinhood]] — GameStop margin call controversy
 - [[GameStop]] — meme stock clearing crisis
+- [[Tokenized public securities]] — exchange tokenization (Nasdaq settles through DTCC)
+- [[Tokenization]] — hub note
 

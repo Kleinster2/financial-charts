@@ -119,6 +119,28 @@ The SEC and CFTC have shifted from adversarial to accommodating under the Atkins
 
 ---
 
+## Early adoption reality (offshore markets, Apr 2026)
+
+The exchange plans above describe where tokenized equities are headed. The current offshore market is a much smaller, more constrained version.
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Total tokenized stocks in circulation | ~$900M | RWA.xyz (WSJ, Apr 2) |
+| Holders | ~200,000 | RWA.xyz (WSJ, Apr 2) |
+| Comparison: global stock markets | Trillions | — |
+
+Most tokenized stocks currently available to international investors are technically derivative contracts — price exposure to US equities without dividends, voting rights, or the legal protections of actual share ownership. Platforms like [[Ondo Finance|Ondo Global Markets]], Bungee Exchange, and [[MEXC]] offer these to non-US investors. The appeal is not 24/7 access per se — liquidity concentrates during US market hours, making off-hours execution poor. A Hong Kong-based investor managing a $6M tokenized Mag 7 basket told the WSJ he can only trade effectively during US hours (Apr 2).
+
+The real demand driver is stablecoin-denominated funding. Crypto-native investors can buy tokenized equities without selling crypto to fiat — avoiding capital gains events and operational friction. For investors in markets with limited brokerage access to US equities (Philippines, parts of Southeast Asia, Latin America), tokenized stocks offer borderless access that traditional brokerages cannot match.
+
+### Perpetuals vs. tokenized stocks
+
+During the [[2026 Iran conflict market impact|Iran conflict]], traders did not flock to tokenized equities for event-driven trading. Instead, perpetual futures — which never expire and offer leverage — captured the volume. Oil-linked perpetuals on [[Hyperliquid]] saw cumulative volume surge to $22.5B (as of Mar 30) from $339M on Feb 28 ([[Kaiko]], per WSJ Apr 2). [[Ostium Labs]] CEO Kaledora Kiernan-Linn: *"Tokenization is interesting for asset managers who want to sit on stuff, but for the majority of people on-chain today, they really just want to trade the thing"* (Apr 2).
+
+This is the early market's revealed preference: perpetuals for speculation, tokenized stocks for passive exposure. The NYSE/Nasdaq exchange-level products — with actual equity rights, same order book, institutional liquidity — are a fundamentally different proposition from these derivative tokens.
+
+---
+
 ## Investment implications
 
 | Play | Thesis | Ticker/entity |
@@ -155,11 +177,13 @@ The exchange-level play (ICE vs NDAQ) is more about which tokenization architect
 
 ## Related
 
-- [[Tokenization]] — **hub note** (taxonomy, regulatory timeline, investment framework)
+- [[Tokenization]] — hub note (taxonomy, regulatory timeline, investment framework)
 - [[Tokenized private shares]] — derivative/crypto approach (no shareholder rights)
 - [[Intercontinental Exchange]] — NYSE parent, building blockchain venue
 - [[Nasdaq]] — first SEC-approved tokenized trading
+- [[DTCC]] — clearing/settlement partner for Nasdaq pilot; $100T tokenization ambition
 - [[BlackRock]] — BUIDL fund, Securitize backer
+- [[Hyperliquid]] — perpetual futures competitor (Iran conflict volume surged while tokenized equities didn't)
 - [[Crypto]] — underlying technology
 - [[Private markets]] — broader context
 - [[Market structure]] — if it exists; otherwise general concept
@@ -179,7 +203,8 @@ The exchange-level play (ICE vs NDAQ) is more about which tokenization architect
 - Unchained: "NYSE Taps Securitize to Build Its 24/7 Tokenized Stock Trading Platform" (March 24, 2026)
 - CoinDesk: "Tokenization firm Securitize reports 841% revenue growth" (January 29, 2026)
 - PR Newswire: Securitize SPAC announcement (October 28, 2025)
+- WSJ: "Tokenized Stocks Are Sweeping the Globe and Coming Soon to America" — Vicky Ge Huang, Hannah Miao (April 2, 2026)
 
 ---
 
-*Created 2026-03-25.*
+*Created 2026-03-25. Updated 2026-04-03 (WSJ early-adoption data).*

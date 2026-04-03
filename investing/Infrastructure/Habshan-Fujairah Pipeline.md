@@ -59,11 +59,20 @@ Source: MEI panel, March 20 2026 — Connelly
 
 ---
 
+## Second pipeline — "plan B" (Apr 2026)
+
+A senior energy executive told the FT (April 2, 2026) that [[Abu Dhabi]] has *"always had a plan B for a second pipeline to [[Fujairah]]."* No decisions expected until the long-term status of the [[Strait of Hormuz]] becomes clear. [[ADNOC]] declined to comment.
+
+See [[Gulf pipeline bypass planning 2026]] for the full landscape.
+
+---
+
 ## Related
 
 - [[Fujairah]] — eastern terminus (Gulf of Oman port, under bombardment)
 - [[ADNOC]] — parent operator
 - [[Strait of Hormuz]] — bypass target
 - [[East-West Pipeline]] — Saudi Arabia's parallel bypass (5 mb/d pipe, ~3 mb/d port)
+- [[Gulf pipeline bypass planning 2026]] — post-Hormuz bypass network planning
 - [[Oil]] — commodity
 - [[Iran conflict economic disruption]] — current event (Fujairah attacked, bypass compromised)

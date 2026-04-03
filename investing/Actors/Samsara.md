@@ -108,7 +108,7 @@ New products: Asset Tag XS (5x smaller), updated asset tag with 50% longer batte
 
 Stock +17.38% on Mar 6 — the biggest post-earnings jump since the IPO run. Market rewarding the GAAP profitability inflection + above-consensus guide. At ~$28 post-earnings, still well below the ~$49 all-time high.
 
-*Source: Samsara press release (Mar 5, 2026); Benzinga, TradingView*
+*Source: Samsara press release (Mar 5, 2026); Benzinga, [[TradingView]]*
 
 ---
 

@@ -114,8 +114,62 @@ The extra yield investors demand for holding long-duration bonds beyond expected
 
 | Date | Event | Impact |
 |------|-------|--------|
+| 2026-04-03 | Fund managers buying sovereign bonds on growth fears | See below — shift from inflation to growth pricing |
 | 2026-01-30 | [[Kevin Warsh]] nominated Fed Chair | Curve steepened: 10Y +2bp (4.25%), 2Y -2bp (3.53%), 30Y +3bp (4.89%). Long end up on balance sheet concerns — Warsh opposes Fed holding bonds/MBS |
 | 2026-01-28 | FOMC holds at 3.50-3.75% | First pause since July. Waller/Miran dissented for 25bp cut |
+
+---
+
+## Iran conflict — inflation vs growth repricing (Apr 2026)
+
+*Source: FT, Apr 3 2026 (Emily Herbert, Ian Smith)*
+
+The [[Operation Epic Fury|Iran conflict]] triggered a two-phase sovereign bond dynamic: first an inflation-driven sell-off, now a growth-fear-driven buy.
+
+### Phase 1: Inflation sell-off (early March)
+
+[[Brent crude]] surged from ~$72 to ~$120, triggering a bond rout:
+
+| Market | Yield move | Peak level |
+|--------|-----------|------------|
+| 10Y UST | +50 bps | ~4.5% |
+| 10Y gilt | +90 bps | >5.1% |
+
+![[ft-5y-bond-yields-us-uk-iran-conflict-2026.png]]
+*5-year sovereign yields: UK (blue) and US (pink) since Jan 2026. UK yields rose faster — pre-existing fiscal fragility + higher energy import dependence. Source: LSEG*
+
+### Phase 2: Growth repricing (late March–April)
+
+Yields have come off conflict highs as managers argue the market over-priced inflation and under-priced the growth hit. The term structure of inflation expectations supports this: short-term expectations surged, but long-term remained anchored.
+
+| Metric | Pre-conflict | Post-conflict | Move |
+|--------|-------------|---------------|------|
+| 1Y US inflation swaps | ~2.5% | >3.1% | +60 bps |
+| 5Y5Y forward | ~2.4% | ~2.4% | Flat |
+
+The gap between short and long inflation expectations suggests markets see the oil shock as transitory — damaging to growth but not structurally inflationary.
+
+### Who's buying and what
+
+| Investor | Firm | Position | Rationale |
+|----------|------|----------|-----------|
+| Ben Nicholl | [[Royal London Asset Management]] | Buying 3-7yr gilts | *"Market is underpricing the probability that central banks will have to cut rates further out to offset the growth shock"* |
+| Iain Stealey | [[JPMorgan]] AM | Buying long-term debt globally (Europe, Asia, N. America) | Inflation focus "probably overdone"; central bankers will "wait and see" |
+| James Bilson | [[Schroders]] | Buying Canadian govt bonds | Rate rises priced by market "inconsistent with economic fundamentals" — soft labor market, cooling economy |
+| Andrew Chorlton | [[M&G]] | Added gilts when market priced >2 BoE rate hikes | *"Given the underlying weakness, we felt that was too much"* |
+| Steve Ryder | [[Aviva Investors]] | Adding short-dated gilts | Even if BoE hikes, *"those hikes would be reversed in the following years"* given UK's slow pre-crisis growth |
+| Andrew Sheets | [[Morgan Stanley]] | Bullish UST recommendation (late March) | *"Market previously overly focused on inflation risks"* and not reflecting the demand hit |
+| Arun Sai | [[Pictet]] AM | Bonds present value in both de-escalation and escalation scenarios | Asymmetric setup |
+
+### Caution
+
+Jamie Searle, [[Citi]] (European rates strategist): *"We're watchful, but not yet ready to say this is a great opportunity to buy. The risk is that we get a headline that prompts oil prices to jump sharply higher, and yields follow."*
+
+Even in a quick de-escalation, *"there would still be significant uncertainty over long-term disruption to energy supply. The market should pivot more to pricing the medium-term growth consequences."*
+
+### Implications
+
+This marks a regime shift from the [[Iran conflict portfolio hedging|early-conflict 60/40 breakdown]] where bonds and stocks fell together. If the growth repricing continues, the traditional bond hedge may reassert itself — but only if central banks prioritize growth over inflation. The UK is the test case: pre-existing fiscal weakness + energy import dependence makes gilts the highest-conviction "growth will win" trade.
 
 ---
 

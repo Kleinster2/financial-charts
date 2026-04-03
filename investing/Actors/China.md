@@ -108,6 +108,35 @@ As regulators dampened the equity rally, capital rotated from stocks back to bon
 
 *Source: Bloomberg, Feb 2026*
 
+### CGBs as lone war haven (March 2026)
+
+*Source: FT, Mar 31 2026 (William Sandlund)*
+
+While the [[Operation Epic Fury|Iran conflict]] drove sovereign yields higher across every major economy, Chinese 10-year CGBs *declined* marginally to 1.81% — making China the only major government bond market to rally during the war.
+
+![[ft-10y-yield-change-since-iran-war-china-haven.png]]
+*Change in 10-year yields since Feb 27 (conflict start). China flat/slightly negative while UK +70bps, Germany +40bps, US +38bps, Japan +25bps. Source: LSEG*
+
+| Market | 10Y yield change since Feb 27 | Level |
+|--------|------------------------------|-------|
+| [[UK]] | **+70 bps** | — |
+| [[Germany]] | **+40 bps** | — |
+| US | **+38 bps** | 4.34% |
+| [[Japan]] | **+25 bps** | — |
+| China | **~0 bps** | 1.81% |
+
+Three structural reasons for insulation:
+
+1. Energy mix: coal + renewables reduce oil import sensitivity vs Europe/Japan. Plus enormous strategic oil reserve and discounted [[Russia|Russian]] oil/gas access
+2. Starting inflation: CPI at 1.3% (Feb), well below 2% target — [[PBOC]] can ease while others tighten. Mitul Kotecha ([[Barclays]]): *"We're still looking at potential easing from China. It's a very different monetary backdrop"*
+3. Trapped capital: capital controls lock domestic investors into onshore assets, creating persistent demand regardless of global flows. Vincent Chung ([[T. Rowe Price]]): *"The demand base is trapped capital."* Wei Li ([[BNP Paribas]]): *"The majority of investors are domestic investors. It's very different from the Treasury market."*
+
+Global investors also drawn: Charles and Louis-Vincent Gave ([[Gavekal]]): *"Since 2012, investing in CGBs has been one of the only ways for global government bond investors to outperform US inflation. All other major bond markets have delivered meaningful real losses."*
+
+Jason Pang ([[JPMorgan]] AM): *"It offers a very uncorrelated investment option."*
+
+Policy predictability angle: Wei Li (BNP): *"Their monetary policy is quite predictable. When the central government wants the PBoC to cut yields, they cut yields."* Contrasts with [[Federal Reserve|Fed]] uncertainty around [[Kevin Warsh|new chair]], [[Donald Trump|Trump]] pressure.
+
 ---
 
 ### Stimulus (Jan 2026)

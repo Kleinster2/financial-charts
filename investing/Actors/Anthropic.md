@@ -149,6 +149,8 @@ Market dubbed it the "SaaSpocalypse." JPMorgan: software stocks "sentenced befor
 
 See [[Claude Cowork disruption February 2026]] and [[AI workflow disruption basket]] for full analysis.
 
+Feb 4: Pledged not to run advertising, differentiating from [[OpenAI]]'s embrace of ads. FT reported 90% of [[Claude Code]]'s own codebase was AI-generated; 70-90% of code across Anthropic now written with AI. The company's reinforcement learning from AI feedback (RLAIF) technique — originally designed for safety (Constitutional AI) — had become a way to automate model improvement at far larger scale than human labeling.
+
 ---
 
 ### Harness crackdown + Clawdbot OAuth cutoff (Jan 2026)
@@ -267,6 +269,18 @@ The memo also reaffirmed:
 **Significance:** The exemption clause effectively acknowledges that some Pentagon systems are too deeply integrated with Claude to rip out in 6 months. The supply-chain risk designation remains in force — this is a managed retreat, not a reversal.
 
 *Source: Reuters, CBS News, Yahoo Finance (Mar 11, 2026)*
+
+---
+
+### Cowork-Copilot integration (Mar 12, 2026)
+
+[[Microsoft]] integrated [[Claude Cowork]] into [[Copilot]], giving Cowork cloud-level access to enterprise data, context, and governance already in [[Microsoft]]'s environment. The deal reflects Copilot's underwhelming adoption: [[Microsoft]] disclosed for the first time that Copilot has only 15mn paid seats (~3% of Office users).
+
+For Anthropic: distribution through [[Microsoft]]'s massive enterprise base. [[Claude Code]] already fueled ARR growth from $9B (Dec 2025) to $19B (Mar 2026); the Copilot channel could extend that trajectory into non-coding white-collar work. For [[Microsoft]]: fills the agent gap that [[OpenAI]]-powered Copilot hasn't closed.
+
+Risk: as Cowork's plugin ecosystem matures, it could become an independent platform for white-collar work — competing directly with [[Microsoft]]'s own platform power.
+
+*Source: FT (Richard Waters, Mar 12 2026)*
 
 ---
 

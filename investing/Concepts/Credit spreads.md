@@ -45,6 +45,10 @@ This extreme tightness signaled:
 
 Spreads widened modestly through 2025 but remained historically tight, suggesting confidence despite tariff chaos.
 
+### 2026 context
+
+HY OAS widened from ~265 bps (late Jan) to 346 bps by end of March 2026 — widest since May 2025. IG remained relatively stable (~75-100 bps range). The divergence reflects stress concentrated in weaker credits: AI disruption fears hitting software-heavy leveraged loans, and [[Iran conflict European impact|Middle East war]] pressuring commodity-exposed issuers. Fund flows confirmed: $11B cumulative HY outflows YTD vs $5.2B/week IG inflows (JPMorgan, Feb 26–Mar 25 window). See [[Credit markets#March 2026 — Flight to quality accelerates]].
+
 ## Why spreads matter
 
 ### Leading indicator
@@ -82,7 +86,7 @@ This doesn't mean imminent crisis—spreads can stay tight for years—but risk/
 
 - **FRED:** ICE BofA indices (BAMLH0A0HYM2, BAMLH0A3HYC)
 - **Bloomberg:** CDX indices for CDS-based spreads
-- **TradingView:** Real-time OAS charts
+- **[[TradingView]]:** Real-time OAS charts
 
 ---
 

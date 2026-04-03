@@ -17,8 +17,8 @@ TBPN — Creator-led daily tech news show airing live weekdays 11am–2pm PT, st
 | Team | ~10 FTE |
 | 2025 ad revenue | ~$5M |
 | 2026 revenue target | ~$15M |
-| Funding | Bootstrapped, no outside investors |
-| YouTube subs | ~49K |
+| Funding | Bootstrapped → acquired by [[OpenAI]] (Apr 2026) |
+| YouTube subs | ~59K |
 | Episodes | ~376 (as of Feb 2026) |
 
 ## Business model
@@ -33,7 +33,7 @@ Dylan Abruscato (ex-[[Postmates]], [[HQ Trivia]]) hired to scale ad sales.
 
 | Platform | Notes |
 |----------|-------|
-| YouTube | Primary live + VOD (~49K subs) |
+| YouTube | Primary live + VOD (~59K subs) |
 | X (Twitter) | Simultaneous livestream |
 | Apple Podcasts | Full episodes |
 | Spotify | Full episodes |
@@ -75,8 +75,9 @@ Dylan Abruscato (ex-[[Postmates]], [[HQ Trivia]]) hired to scale ad sales.
 
 | Owner | Stake | Notes |
 |-------|-------|-------|
-| [[John Coogan]] | ~50% | Co-founder (estimated, not disclosed) |
-| [[Jordi Hays]] | ~50% | Co-founder (estimated, not disclosed) |
+| [[OpenAI]] | 100% | Acquired Apr 2026 |
+| [[John Coogan]] | — | Co-founder (pre-acquisition ~50% est.) |
+| [[Jordi Hays]] | — | Co-founder (pre-acquisition ~50% est.) |
 
 ## Funding rounds
 
@@ -84,7 +85,7 @@ Dylan Abruscato (ex-[[Postmates]], [[HQ Trivia]]) hired to scale ad sales.
 |------|-------|--------|-------|
 | Oct 2024 | Seed | Self-funded | No outside investors |
 
-Bootstrapped and profitable since inception. Hosts have stated they have no plans to raise outside capital.
+Bootstrapped and profitable since inception. Hosts had stated they had no plans to raise outside capital — until the [[OpenAI]] acquisition (Apr 2026).
 
 ## Key events
 
@@ -95,10 +96,28 @@ Bootstrapped and profitable since inception. Hosts have stated they have no plan
 | Mar 2025 | Rebranded to TBPN; visual identity by [[Day Job]] agency |
 | Late 2025 | Nearly sold out 2026 ad inventory |
 | Feb 9, 2026 | Regional Super Bowl LX ad (Bay Area / Silicon Valley) |
+| Feb 2026 | [[Fidji Simo]] reached out to hosts with acquisition offer |
+| Apr 2, 2026 | [[OpenAI]] acquisition announced (WSJ) |
 
 ## Brand and production
 
 Visual identity created by [[Day Job]], an LA-based creative agency. Aesthetic combines forest-green "country club" palette, VHS effects, and [[Formula 1]]-inspired sponsor logo density. The hosts ring a "size gong" on-air to mark major funding rounds and breakthroughs — a signature bit. Traveling gongs are signed by guests; Zuckerberg and Nadella have signed as of late 2025.
+
+## OpenAI acquisition (April 2026)
+
+[[Fidji Simo]] (CEO of applications, [[OpenAI]]) initiated the deal in February 2026, reaching out to [[John Coogan]] and [[Jordi Hays]] with an offer to buy. Simo — who recently rebranded her role to "CEO of AGI deployment" — had appeared on the show in December 2025 for an AI model release and liked how the hosts communicated OpenAI's message. Coogan had a prior relationship with [[Sam Altman]], who was among his early investors in [[Soylent]] (2013); Coogan's second company Lucy was backed by [[Y Combinator]] while Altman ran it.
+
+Simo wanted to reach terminally online tech audiences to shape the narrative around [[OpenAI]] and AI more broadly. [[Chris Lehane]], OpenAI's political messaging architect, had described the approach as getting into "the room where it happens." Simo doesn't watch full episodes but follows viral clips on X.
+
+OpenAI said TBPN would keep its editorial independence. Executives hope that giving Hays and Coogan access to OpenAI's latest research and culture will allow the company's messaging to be absorbed into the show's content. Some OpenAI employees initially thought the acquisition was an April Fool's joke — Simo had told staff three weeks earlier to cut back on "side quests."
+
+The deal carries risk: executives from rival AI companies ([[Meta]], [[Anthropic]]) might now think twice before appearing on a show owned by a competitor.
+
+WSJ's Kara Swisher on tech companies' media ambitions: "Most have ended up, well, ended without a trace." Prior examples: MSNBC (Microsoft JV), [[Amazon]] media operation, [[Andreessen Horowitz]]'s Future media arm (no longer active).
+
+*Source: WSJ (Berber Jin, Isabella Simonetti, Apr 2 2026)*
+
+---
 
 ## Competitive position
 
@@ -107,7 +126,7 @@ Part of a new wave of creator-led business media alongside shows like [[All-In P
 - Category-exclusive sponsorship creates advertiser lock-in and pricing power
 - Daily cadence at 3 hours — far more surface area than weekly competitors
 - Silicon Valley distribution channel — founder/VC appearances function as signaling
-- Bootstrapped and profitable — no VC pressure on editorial
+- Bootstrapped and profitable pre-acquisition — now [[OpenAI]]-owned (editorial independence claimed)
 - NYT called it "Silicon Valley's newest obsession"; profiled by Vanity Fair, WSJ, Adweek, The Information
 
 ## Related
@@ -123,6 +142,10 @@ Part of a new wave of creator-led business media alongside shows like [[All-In P
 - [[CrowdStrike]] — sponsor
 - [[AppLovin]] — sponsor
 - [[ElevenLabs]] — sponsor
+
+### Owner
+- [[OpenAI]] — parent company (acquired Apr 2026)
+- [[Fidji Simo]] — initiated acquisition
 
 ### Peers
 - [[All-In Podcast]] — peer tech/VC podcast

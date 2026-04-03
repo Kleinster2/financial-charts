@@ -205,6 +205,10 @@
         const cardId = `chart-${globalCardCounter}`;
         const card = window.ChartDomBuilder.createChartCard(cardId, initialTitle, initialHeight);
         wrapper.appendChild(card);
+        // Apply grid-compact if currently in grid mode
+        if (wrapper.classList.contains('grid-layout')) {
+            card.classList.add('grid-compact');
+        }
         // --- navigation link ---
         // Create nav link via ChartCardNav module
         const navLink = window.ChartCardNav.createNavLink(cardId, initialTitle, initialTickers, targetPage);

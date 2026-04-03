@@ -89,7 +89,7 @@ The two largest US exchanges are building competing tokenization architectures. 
 | **[[JPMorgan]]** | Kinexys (ex-Onyx): tokenized deposits, JPM Coin, tokenized repo. $1.5T notional, $300B repo | **JPM** | Institutional infrastructure; permissioned Ethereum → now also Base (public chain) |
 | **[[BNY Mellon\|BNY]]** | Tokenized deposits at ICE clearinghouses; custody | **BK** | World's largest custodian bank; critical for institutional adoption |
 | **[[Citigroup\|Citi]]** | Tokenized deposits at ICE clearinghouses | **C** | Working with ICE on 24/7 margin/settlement |
-| **DTCC** | Clearing/settlement for Nasdaq tokenized pilot | Private | Legacy clearinghouse adapting; existential risk if on-chain settlement displaces it |
+| **[[DTCC]]** | Clearing/settlement for Nasdaq tokenized pilot; plans to tokenize all $100.3T in custodied assets | Private | Positioning as tokenization leader, not threatened incumbent (Chakar, Apr 2026) |
 
 ### Exchanges
 

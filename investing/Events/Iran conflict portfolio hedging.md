@@ -165,6 +165,7 @@ The Hormuz dimension makes this potentially worse: Russia's oil found alternativ
 - [[Aberdeen]] — cautious repositioning
 - [[Invesco]] — commodities strategy
 - [[Lyn Alden]] — three-pillar stagflation portfolio (profitable equities + commodities/producers/hard monies + cash-equivalents). 60/40 has "no answer for stagflationary conditions with shortages in energy and raw materials." See [[Lyn Alden#Portfolio positioning|Lyn Alden § Portfolio positioning]]
+- [[China#CGBs as lone war haven (March 2026)|Chinese government bonds]] — only major sovereign market to rally during the conflict; uncorrelated due to energy mix, low starting inflation, and trapped domestic capital
 
 ### Cross-vault
 - [Risk Parity: Correlation Regimes](obsidian://open?vault=Risk%20Parity&file=03%20-%20Risk%20Measures%2FCorrelation%20Regimes) — framework for correlation breakdowns, regime detection code, historical extremes table
@@ -176,3 +177,15 @@ The Hormuz dimension makes this potentially worse: Russia's oil found alternativ
 *Source: Bloomberg, "Oil, Iran War Break Hedging Playbooks, Sending Stocks and Bonds Same Way" (March 13, 2026). Authors not bylined. All quotes dated March 12-13, 2026 unless otherwise noted.*
 
 *Created 2026-03-13.*
+
+---
+
+## April update — growth repricing begins
+
+*Source: FT, Apr 3 2026 (Emily Herbert, Ian Smith)*
+
+A month after the initial correlation breakdown, major fund managers are now *buying* government bonds — arguing the market over-priced inflation and under-priced the growth hit. [[Schroders]], [[M&G]], [[JPMorgan]] AM, Royal London AM, and [[Aviva Investors]] have added to sovereign debt. [[Morgan Stanley]] moved to bullish UST recommendation. [[Pictet]] AM sees asymmetric value in bonds under both escalation and de-escalation scenarios.
+
+Key evidence the trade is shifting: 1Y US inflation swaps jumped from 2.5% to >3.1%, but the 5Y5Y forward is flat at ~2.4% — the market reads the oil shock as transitory, not structurally inflationary. If correct, central banks will eventually cut to offset the growth drag, and the traditional bond hedge reasserts itself.
+
+This doesn't fully reverse the 60/40 breakdown above — stocks and bonds may still move together on headline risk — but it marks the beginning of a narrative shift from "inflation prevents cuts" to "growth demands them." See [[Treasuries#Iran conflict — inflation vs growth repricing (Apr 2026)]] for full positioning details.

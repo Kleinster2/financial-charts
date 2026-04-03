@@ -72,7 +72,7 @@ See [[Carry trade]] for August 2024 unwind specifics.
 
 **Direct yield data:**
 - `jgb_yields` table in database (FRED source, monthly, lagged)
-- Real-time: Bloomberg, TradingView "JP10Y"
+- Real-time: Bloomberg, [[TradingView]] "JP10Y"
 
 ## Current dynamics (Jan 2026)
 

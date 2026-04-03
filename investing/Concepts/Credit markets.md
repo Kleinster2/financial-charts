@@ -258,7 +258,70 @@ See [[AI Infrastructure]], [[Data Centers]], [[Power constraints]]
 - [[Amazon]] — $440B capex cohort
 - [[Meta]] — $440B capex cohort
 
-*Updated 2026-02-09*
+*Updated 2026-04-03*
+
+---
+
+## March 2026 — Flight to quality accelerates
+
+*Source: FT, Apr 3 2026 (Michelle Chan, Eric Platt)*
+
+[[AI]] disruption fears and the [[Iran conflict European impact|Middle East war]] drove a sharp rotation from high-yield into investment-grade and [[Treasuries]] through March 2026.
+
+### Fund flows (Feb 26 – Mar 25)
+
+![[weekly-fund-flows-feb-mar-2026-ft.png]]
+*Average weekly fund flows by credit quality. Source: JPMorgan*
+
+| Segment | Avg weekly flow | Prior 4-week avg |
+|---------|----------------|------------------|
+| IG bonds | **+$5.2B/week** inflows | — |
+| HY bonds | **-$2B/week** outflows | -$95M/week |
+| Leveraged loans | **-$887M/week** outflows | +$247M/week inflows |
+
+HY outflow pace surged 20x vs prior month. Total HY fund outflows YTD: ~$11B.
+
+### Spread widening
+
+![[hy-vs-ig-spread-widening-q1-2026-ft.png]]
+*HY spreads widened sharply while IG stayed flat (Jan–Mar 2026). Source: ICE BofA*
+
+| Metric | End of March | Month prior | Move |
+|--------|-------------|-------------|------|
+| IG total yield | **5.15%** | 4.7% | +45 bps |
+| HY total yield | **>7.4%** | — | — |
+| HY OAS | **346 bps** (Mar 31) | — | Widest since May 2025 |
+
+Rising Treasury yields + widening credit spreads combined to push IG total yields to 5.15% — making high-grade credit attractive on an absolute basis.
+
+### New deal pressure
+
+AI disruption and Middle East commodity risk hitting primary market:
+
+| Deal | Amount | Outcome |
+|------|--------|---------|
+| Qualtrics (customer service software) | >$5B debt sale | **Halted** — AI fears damped appetite |
+| Sealed Air (packaging) | $7.2B | Sweetened terms to clear — oil/commodity margin concerns |
+
+Hamza Lemssouguer ([[Arini Capital]]): fund managers sitting out new deals, complicating LBO financing. AI cooling software debt appetite; war pressuring chemicals/packaging margins.
+
+### Portfolio positioning
+
+| Investor | Action |
+|----------|--------|
+| Ali Hassan, [[Thornburg Investment Management]] | Reducing HY, adding Treasuries + IG |
+| Matt Walker, Income Research + Management | Favoring high-grade corporates for "very attractive" total returns |
+| Dan Carter, Fort Washington | Reduced HY, added IG including subordinated bank notes from highly-rated issuers |
+| Sanjay Chawla, FM (insurance) | Building cash allocation — "higher cash for a little bit longer until better visibility" |
+| George Catrambone, [[DWS]] | Favoring energy + utilities sectors |
+
+### Complacency risk
+
+Despite the rotation, HY index only down 0.6% YTD; single-B subset off just 0.4%.
+
+Lemssouguer: *"I would not take comfort just because the market is not reflecting the pain. Once liquidity is exhausted, prices will begin to drop."*
+
+Additional concerns: weakening US labor market, cracks in [[Private credit retail liquidity crisis 2026|private lending]]. Catrambone ([[DWS]]): *"These issues have been somewhat covered up behind the fog of this war."*
 
 ---
 

@@ -247,6 +247,25 @@ Launched **[[Vinext launch|Vinext]]** — AI-generated reimplementation of Next.
 
 ---
 
+## EmDash CMS launch (April 2026)
+
+Announced **April 1, 2026** — [[EmDash]], an open-source TypeScript CMS built on [[Astro]] 6.0, positioned as the "spiritual successor to WordPress." v0.1.0 developer beta. Two months of AI-assisted development by Matt Kane (Astro core team member).
+
+**Core innovations:**
+- **Sandboxed plugins** — each runs in its own Worker isolate with declared permissions (capabilities manifest). Addresses WordPress's fundamental security flaw (96% of WP vulnerabilities from plugins)
+- **Serverless-native** — scales to zero, runs on Workers
+- **AI-native** — built-in MCP server, CLI, Agent Skills files. Designed for AI agents to build and manage sites
+- **x402 payments** — HTTP-native micropayments for the agent era (no subscriptions needed)
+- **MIT license** — plugins can use any license (vs WordPress GPL inheritance debate)
+
+**Matt Mullenweg response (Apr 3):** Called it "very solid" engineering but rejected "spiritual successor" claim. Framed as Cloudflare upsell vehicle. Praised the Skills system as "brilliant." Predicted "tens of thousands of sites."
+
+**Sequence:** Vinext (Feb 2026, rebuilt Next.js in one week) → EmDash (Apr 2026, rebuilt WordPress in two months). Pattern: AI-generated reimplementations of dominant web frameworks, each landing on Cloudflare's platform.
+
+See [[EmDash]] for full product note.
+
+---
+
 ## Related
 
 ### Concepts
@@ -263,6 +282,10 @@ Launched **[[Vinext launch|Vinext]]** — AI-generated reimplementation of Next.
 - Akamai — legacy CDN competitor
 - Fastly — developer-focused competitor
 - [[Zscaler]] — Zero Trust competitor
+
+### Products
+- [[EmDash]] — open-source CMS, WordPress successor (Apr 2026)
+- [[Astro]] — web framework (acquired Jan 2026)
 
 ### Events
 - [[Clawdbot viral growth]] — AI agent adoption wave (2025)
