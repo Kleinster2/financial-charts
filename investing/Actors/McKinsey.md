@@ -26,6 +26,14 @@ tags: [actor, consulting, usa, private]
 
 ---
 
+## McKinsey Global Institute — trade research
+
+### Geopolitics and the geometry of global trade: 2026 update (Apr 2026)
+
+Preliminary evaluation of 2025 global trade, cited by [[Martin Wolf]] (FT, Apr 1 2026). Findings: world trade in goods grew faster than the world economy despite [[Trump II]] tariffs. AI-related shipments (semiconductors, data center equipment) rose 40% and accounted for one-third of global trade growth. [[China]] expanded as "factory to the factories" — intermediate/capital goods exports +$223B, offsetting -$130B in lost US sales. Direct [[US-China trade]] fell ~30%. [[ASEAN]] exports thrived. See [[Trade]] (2025 retrospective section) for full detail.
+
+---
+
 ## AI and Lilli
 
 McKinsey has leaned heavily into AI both as a revenue line and as internal infrastructure. The firm claimed in 2025 that consulting on AI and related technology accounted for 40% of revenue. Its CEO said in 2026 it had built 25,000 AI "agents" to support its 40,000 staff.

@@ -86,6 +86,16 @@ See [[Critical minerals]], [[China retaliatory toolkit]].
 
 Deficit down but supply chains often just rerouted (Vietnam, [[Mexico]] — still Chinese-owned).
 
+### 2025 trade adjustment ([[McKinsey]] Global Institute, Apr 2026)
+
+Direct US-[[China]] trade fell ~30% in 2025. The US replaced about two-thirds of lost Chinese imports with purchases from other exporters. Chinese consumer goods exporters (EVs, toys) cut prices by an average of 8% to find new buyers in non-US markets.
+
+Decomposition of trade balance changes (2024-25): US -$33B total, [[China]] +$189B total. [[China|China's]] losses from reduced US trade were more than offset by a $223B increase in intermediate and capital goods exports to third countries (see [[China plus one]]). Net effect: both US and Chinese total exports reached new highs despite bilateral decoupling.
+
+[[EU]] firms faced a double squeeze: diverted Chinese exports entering their markets at discounted prices, plus higher US tariffs on their own exports to America.
+
+*Source: [[McKinsey]] Global Institute, "Geopolitics and the geometry of global trade: 2026 update," cited in [[Martin Wolf]] (FT, Apr 1 2026)*
+
 ---
 
 ## Third-country leverage

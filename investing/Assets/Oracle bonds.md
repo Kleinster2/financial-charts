@@ -1,9 +1,9 @@
 ---
 aliases: [Oracle debt, ORCL bonds]
 ---
-#actor #reference #fixed-income
+#securities #reference #fixed-income
 
-Complete inventory of [[Oracle]] outstanding bonds. All bonds are senior unsecured. Oracle is the **largest non-financial investment-grade debt issuer** in the Bloomberg high-grade index — and the most leveraged hyperscaler.
+**Oracle bonds** — Complete inventory of [[Oracle]] outstanding bonds. All bonds are senior unsecured. Largest non-financial investment-grade debt issuer in the Bloomberg high-grade index and the most leveraged hyperscaler.
 
 Other credit facilities: revolving credit facility + commercial paper program (combined capacity up to $10B, [[Bank of America]] as agent); both undrawn as of Nov 2025.
 

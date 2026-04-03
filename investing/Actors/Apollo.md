@@ -253,6 +253,28 @@ Part of [[Patrick Drahi]]'s aggressive creditor management strategy as his telec
 
 ---
 
+## Intel Fab 34 buyback (Apr 1, 2026)
+
+Apollo sold back its stake in [[Intel]]'s Fab 34 semiconductor factory in [[Ireland]] for >$14B, earning a low to mid-teens return on the largest financing transaction in Apollo's history.
+
+| Detail | Value |
+|--------|-------|
+| Original investment (2024) | $11.2B (49% stake in JV) |
+| Sale price (2026) | >$14B |
+| Return | Low to mid-teens |
+| Key investor | [[Athene]] (per securities filings) |
+| Hold period | ~2 years |
+
+Jamshid Ehsani (Apollo partner): the deal came at an important stage in Intel's "advanced manufacturing roadmap, where our long-term strategic capital played a meaningful role in accelerating the production of next-generation chip technology."
+
+Demonstrates Apollo's core infrastructure financing playbook: create JVs to finance large capex (similar to [[AB InBev]], [[Air France-KLM]], [[EDF]]), keep the project off the client's balance sheet, use [[Athene]] float for cheap financing. Intel needed capex capital during its foundry transformation; Apollo provided it through a structure that didn't burden Intel's already-strained balance sheet.
+
+When the sale was struck (2024), Intel's financial and technical setbacks had left the future of the last remaining US manufacturer of cutting-edge chips in doubt. Since then: US government ~10% stake (Aug 2025), Intel stock roughly doubled, [[NVIDIA]] $5B investment, [[SoftBank]] investment.
+
+*Source: FT (Bradshaw/Gara/Platt), Apr 1 2026*
+
+---
+
 ## Related
 
 - [[Altice]] — $26B debt exposure, litigation
@@ -275,6 +297,7 @@ Part of [[Patrick Drahi]]'s aggressive creditor management strategy as his telec
 - [[Private credit]] — $500B credit AUM, retail expansion
 - [[Goldman Sachs]] — peer (European retail push)
 - [[Institutional homebuying ban]] — policy risk
+- [[Intel]] — Fab 34 JV ($11.2B → >$14B sale, low to mid-teens return, Apr 2026)
 - [[AI infrastructure financing]] — indirect exposure
 - [[Saks Global]] — $1.15B term loan exposure
 - [[Saks bankruptcy]] — credit impairment

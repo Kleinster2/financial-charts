@@ -927,7 +927,7 @@ aliases: []
 
         if not has_securities_link:
             issues.append(Issue(
-                "warning", "securities-split",
+                "error", "securities-split",
                 f"Public company missing [[{name} securities]] link in Related."
                 f" Create investing/Assets/{name} securities.md and link from Related > ### Securities"
             ))

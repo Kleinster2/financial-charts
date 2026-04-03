@@ -203,6 +203,35 @@ Cook's $100B Apple investment, Su's AMD commitment, Amon's Qualcomm commitment �
 
 ---
 
+## The Hormuz Template (April 2026)
+
+[[Eyck Freymann]] (Hoover/Stanford, FT April 1, 2026) argues that Iran's [[Strait of Hormuz]] closure provides a directly replicable playbook for [[China]] against [[Taiwan]] — and the economic damage would be far worse.
+
+**The insurance auto-trigger:** Standard commercial war-risk policies contain a "Five Powers Clause" that automatically terminates coverage in any conflict involving the US, UK, France, Russia, or China. For Hormuz, Iran had to *demonstrate* capability before insurers pulled coverage. For Taiwan, the clause means insurance evaporates at the mere *perception* of US-China confrontation — before a single shot is fired.
+
+**The coercion-without-combat mechanism:**
+1. China declares right to control Taiwan's maritime/air access (legal statement, not military action)
+2. Demonstrates resolve via missile tests, exclusion zones
+3. Five Powers Clause triggers — insurers pull war-risk coverage for Taiwan Strait
+4. Private carriers refuse to sail uninsured
+5. De facto blockade without physical interdiction
+
+**Why semiconductors are worse than oil:**
+- Oil has a strategic reserve (IEA SPR) — inadequate but real. No semiconductor strategic reserve exists.
+- Oil has bypass pipelines (Saudi East-West, UAE Fujairah). TSMC Arizona provides ~5% capacity — insufficient at scale.
+- Oil disruption is a price shock. Semiconductor disruption is a *supply absence* — you cannot bid for chips that don't exist.
+- Taiwan might curtail chip production deliberately to pressure the world into resupplying it — weaponizing its own concentration.
+
+**The stockpiling asymmetry:** China is building vast reserves of oil, chips, grain, and commodities — a "shadow fortress economy" designed to outlast democratic coalitions. The US and allies lack equivalent joint stockpiling or pre-positioned crisis logistics.
+
+**Investment implication:** The Hormuz crisis proved that the insurance/shipping mechanism works — a weak state shut down 96% of strait traffic without sinking a single vessel. Against China, the mechanism would activate at a lower threshold (Five Powers Clause) and affect a more concentrated supply chain. This strengthens the bear case for TSMC as Taiwan-based entity and the bull case for geographic diversification plays ([[Samsung Taylor pivot]], [[Intel Foundry Services]], [[GlobalFoundries]]).
+
+Freymann: "The Hormuz emergency has shown what improvisation looks like. A Taiwan crisis would not be so forgiving."
+
+### Cross-vault
+- [Geopolitics: Taiwan](obsidian://open?vault=geopolitics&file=Events%2FTaiwan) — full Hormuz-Taiwan template analysis, Five Powers Clause concept
+- [Geopolitics: Chokepoint Power](obsidian://open?vault=geopolitics&file=Concepts%2FChokepoint%20Power) — Hormuz as defining case, Taiwan as next application
+
 ## Related
 
 - [[TSMC]] — concentrated (~90% of advanced production)
@@ -210,3 +239,4 @@ Cook's $100B Apple investment, Su's AMD commitment, Amon's Qualcomm commitment �
 - [[Samsung Taylor pivot]] — mitigation (US-based alternative)
 - [[CHIPS Act]] — driver (subsidies for domestic buildout)
 - [[N-2 rule]] — limitation (constrains Arizona to older nodes)
+- [[Supply chain bottlenecks]] — constraints beyond geography

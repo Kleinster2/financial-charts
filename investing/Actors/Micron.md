@@ -116,6 +116,8 @@ Micron is #3 in [[HBM]] with approximately 21% market share (Q2 2025 data), behi
 
 HBM4 milestone (Feb 11, 2026): CFO Mark Murphy announced at Wolfe Research Conference that HBM4 is in mass production and shipping to customers — a full year ahead of schedule. Denied rumors of exclusion from [[NVIDIA]] next-gen supply chain.
 
+NVIDIA Vera Rubin contract (Mar 31, 2026): Micron secured the first-ever 5-year binding HBM supply agreement in the memory industry — entire HBM4 2026 production capacity committed to [[NVIDIA]] for the [[Vera Rubin]] GPU platform. The deal locks in volume and pricing through ~2031, a structural departure from the memory industry's historically short-cycle contracting. Announced alongside NVIDIA's $2B [[Marvell]] investment and NVLink Fusion architecture rollout.
+
 | Metric | Value |
 |--------|-------|
 | HBM share of DRAM bits (2023) | ~1.5% |

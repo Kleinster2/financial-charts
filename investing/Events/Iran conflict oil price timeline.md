@@ -862,4 +862,41 @@ Critical vulnerability assessment: "We are more self reliant, but we're not enti
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-31 (Hochstein/Bloomberg, Nuttall/Ninepoint Partners).*
+---
+
+## WTI closes above $100 — Day 32 (March 30)
+
+First close above $100/bbl since the conflict began.
+
+| Metric | Mar 30 level | Since conflict start (~Feb 27) |
+|--------|-------------|-------------------------------|
+| WTI crude | >$100/bbl | First close above $100 |
+| Dubai crude | $126/bbl | +76% (vs +46% WTI, +64% Brent) |
+| US national gas avg | $4.00/gal | Highest since 2022 |
+| California gasoline | $5.87/gal | — |
+
+The Brent-Dubai spread divergence is the physical market story: Dubai crude (which tracks actual Middle Eastern delivery) at $126 has disconnected from Brent at ~$113. The ~$13 premium reflects the physical scarcity of Gulf barrels vs paper market pricing — validates [[Jeff Currie]]'s thesis that futures are "entirely disconnected from physical market realities."
+
+Fereidun Fesharaki ([[FGE|FGE NexantECA]]): oil could spike to $150-200 if Hormuz stays shut for 6-8 weeks. Fesharaki is one of the most experienced Gulf energy analysts (Iranian-born, founded FGE/FACTS Global Energy). His $150-200 scenario requires sustained closure, not just the current partial disruption.
+
+[[Robin J. Brooks]] published quantitative analysis (Mar 30-31): an Iranian oil embargo removing 2M bbl/day spikes Brent by ~$10 at standard price elasticity (0.15). The existing ~10M bbl/day deficit already maps to a 67% Brent rise — the incremental embargo impact is moderate (67% → 80%). Calls the $150-200 scenarios "unrealistic" unless elasticity is much lower than consensus.
+
+## Trump signals willingness to end war — Day 33 (March 31)
+
+S&P 500 +1.14%, Dow +1.21%, Nasdaq +1.35%. VIX -10% to 27.57. Energy stocks (USO) -1.6% as ceasefire hopes dented the war premium. Defense stocks also underperformed.
+
+Trump told aides he is willing to end the US military campaign even if the [[Strait of Hormuz]] remains largely closed. Separately told allies including UK to *"go get your own oil"* — signaling US unwillingness to secure Hormuz transit for others.
+
+Iran rejected Trump's ceasefire proposal and issued 5 counter-conditions including war reparations and Iranian sovereignty over Hormuz. Iran FM: no intention to hold direct talks with US. The gap between market optimism (ceasefire rally) and diplomatic reality (no progress) echoes [[Helima Croft]]'s late-March warning that the market prices a clean resolution the physical reality doesn't support.
+
+[[Mike Wilson]] ([[Morgan Stanley]]): correction *"nearing its end stage,"* ~50% of [[Russell 3000]] already down 20% from highs. Sees buying opportunity. [[Ed Yardeni]]: maintains 35% meltdown odds, S&P 7,700 base case, "none and done" on Fed (zero rate changes 2026).
+
+Consumer confidence rose to 91.8 in March (up 0.8 from Feb) despite war and rising gas prices.
+
+### Foreign central bank Treasury selling (FT exclusive, Mar 31)
+
+International official holdings at the [[Federal Reserve|NY Fed]] fell to the lowest level since 2012. Foreign central banks are liquidating [[Treasuries]] to fund war-related costs — currency defense (Turkey, India, Brazil), oil purchase financing, and budget gap filling from subsidy programs. The selling adds upward pressure on yields at precisely the moment equities need rate relief. [[Eurozone]] inflation jumped to 2.5% in March (up from 2.3%), driven by the Middle East energy shock — further constraining the [[ECB]]'s ability to cut rates.
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-01 (Mar 30-31 price action, Trump ceasefire signals, Fesharaki/FGE, Brooks embargo analysis).*

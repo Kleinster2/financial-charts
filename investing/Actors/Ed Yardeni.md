@@ -88,6 +88,16 @@ The "none and done" call is a harder line than his March 18 tone moderation. Ali
 
 ---
 
+## March 29-30, 2026 — QuickTakes on Iran strikes & Hormuz
+
+Yardeni QuickTakes (Mar 29-30): Covered US-Israel strikes on Iranian nuclear and steel facilities, Iran retaliating across the [[Persian Gulf]], and [[Trump]] pushing back the deadline for Tehran to reopen [[Strait of Hormuz]] or face attacks on power infrastructure. No revision to scenario probabilities — 35% meltdown / 60% Roaring 2020s still stands.
+
+The March 29-30 QuickTakes maintain the same dual framing: (1) the oil shock is real and dangerous, but (2) a sharp sell-off (10-15%) remains a buying opportunity under the base case. Yardeni continues to see the Fed as paralyzed rather than hawkish — "none and done" (zero rate changes 2026) is the binding constraint on monetary policy response to the energy shock.
+
+*Source: Yardeni QuickTakes (Mar 29-30, 2026)*
+
+---
+
 ## AI fatigue call (Jan 2026)
 
 "I call it 'AI fatigue.' I'm tired of it and I suspect a lot of other people are wary of the whole issue."

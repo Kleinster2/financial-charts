@@ -84,6 +84,7 @@ This note covers Intel as a company. For the foundry business specifically, see 
 - **NVIDIA partnership (Jan 2026)** — $5B investment + strategic collaboration
 - **US government stake (~10%, Aug 2025)** — Trump administration took strategic position
 - **Manufacturing yields disappointing (Jan 2026)** — can't fill server demand, Q1 guidance missed badly, stock -14% AH
+- **Fab 34 buyback (Apr 2026)** — paying >$14B to reclaim full ownership of [[Ireland]] fab from [[Apollo]], raising >$6B in new debt
 
 ---
 
@@ -220,6 +221,31 @@ Tan had originally said 18A could only generate reasonable return for internal p
 
 ---
 
+## Fab 34 buyback (Apr 1, 2026)
+
+Intel will pay >$14B to regain full ownership of its Fab 34 semiconductor factory in [[Ireland]] from [[Apollo]], two years after selling a 49% stake for $11.2B to shore up finances during its worst period.
+
+| Detail | Value |
+|--------|-------|
+| Facility | Fab 34, Ireland |
+| Purchase price | >$14B |
+| Original sale (2024) | $11.2B to Apollo |
+| Apollo return | Low to mid-teens |
+| Financing | >$6B in new debt |
+| Stock reaction | INTC +8% |
+
+CFO David Zinsner: the 2024 agreement provided "meaningful flexibility" during the crisis, adding "today, we have a stronger balance sheet, improved financial discipline and an evolved business strategy."
+
+[[Apollo]]'s [[Athene]] subsidiary was a large investor in the JV (per securities filings). Apollo structured the deal as an off-balance-sheet JV to finance Intel's heavy capex on modernized fabs — consistent with Apollo's large-asset infrastructure financing model (similar deals with [[AB InBev]], [[Air France-KLM]], [[EDF]]).
+
+Jamshid Ehsani (Apollo partner): the deal came at an important stage in Intel's "advanced manufacturing roadmap, where our long-term strategic capital played a meaningful role in accelerating the production of next-generation chip technology."
+
+The buyback closes the loop on Intel's most significant balance-sheet relief transaction. Since the 2024 sale: US government ~10% stake (Aug 2025), [[NVIDIA]] $5B investment (Jan 2026), [[SoftBank]] investment — all stabilized Intel's position enough to bring the fab fully in-house again.
+
+*Source: FT (Bradshaw/Gara/Platt), Apr 1 2026*
+
+---
+
 ## Intel 18A launch (Jan 27, 2026)
 
 **TODAY:** 14 Core Ultra Series 3 SKUs available globally across 200+ PC designs.
@@ -289,6 +315,8 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 
 $47.2B face value (Dec 2025), fair value $41.8B (11.5% discount — credit deterioration). Rated BBB/Baa2 with Fitch negative outlook — two notches above junk, down from A+/A1 in 2022. Seven downgrades in under three years. Interest expense doubled from $496M (2022) to $1,034M (2024). Dividend suspended Q1 2025. See [[Intel bonds]] for full inventory.
 
+Apr 2026: raising >$6B in new debt to finance Fab 34 buyback from [[Apollo]] — adds to already-strained balance sheet.
+
 ---
 
 
@@ -339,4 +367,6 @@ $47.2B face value (Dec 2025), fair value $41.8B (11.5% discount — credit deter
 - [[Mobileye]] — subsidiary (ADAS)
 - [[CES 2026]] — Panther Lake (18A) launch
 - [[Lenovo]] — ThinkPad partner (Panther Lake)
+- [[Apollo]] — sold Fab 34 stake back to Intel for >$14B (Apr 2026); originally $11.2B (2024)
+- [[Athene]] — large investor in Apollo's Fab 34 JV
 - [[Intel bonds]] — $47.2B bond inventory (BBB/Baa2, unprecedented downgrade trajectory)

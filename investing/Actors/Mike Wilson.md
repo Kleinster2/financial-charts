@@ -75,6 +75,21 @@ This is the opposite call from [[Ed Yardeni]] (35% meltdown probability, "none a
 
 *Source: Bloomberg, March 25 2026*
 
+## March 30, 2026 — "Correction nearing its end stage" (Bloomberg / MS Podcast)
+
+Wilson's most explicitly bullish framing since the conflict began. Key points:
+
+- S&P 500 correction *"nearing its end stage"* even as the Iran war continues
+- ~50% of [[Russell 3000]] already down 20% from 52-week highs (expanded from his earlier [[Russell 2000]] stat)
+- Called this a potential buying opportunity
+- Warned that Fed rate hikes still pose a threat if oil stays elevated
+
+This doubles down on his March 25 thesis (earnings resilient, low probability oil ends the cycle) and puts him squarely opposite [[Ed Yardeni]] (35% meltdown odds, "none and done" on the Fed) and [[Lyn Alden]] (fiscal cascade / sovereign debt loop). Wilson sees the earnings cycle as self-sustaining; the bears see the oil shock as a regime-breaker.
+
+The March 31 market action (+1.14% S&P on Trump ceasefire signals) partially validates his call that the correction was bottoming.
+
+*Sources: Bloomberg (Mar 30, 2026), Morgan Stanley Thoughts on the Market podcast (Mar 30, 2026)*
+
 ---
 
 ## Related

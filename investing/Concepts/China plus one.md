@@ -27,6 +27,18 @@ For investors, the key sectors to watch are electronics assembly ([[Apple]] supp
 
 ---
 
+## 2025 data ([[McKinsey]] Global Institute, Apr 2026)
+
+The strategy's dynamics accelerated in 2025 as [[US-China trade]] decoupled. [[China]] expanded its role as a "factory to the factories" — while direct exports to the US fell $130B, [[China]] increased exports of machinery and inputs to neighboring and emerging economies. Intermediate and capital goods exports rose $223B in 2025, deepening its role as a supplier of inputs into production rather than an exporter of final goods.
+
+[[ASEAN]] exports thrived in this realignment. Several ASEAN countries replaced Chinese final goods in the US market while simultaneously importing more Chinese intermediate inputs. This pattern validates the China plus one thesis not as decoupling from [[China]], but as restructuring through it — China moves upstream in the value chain while third countries handle final assembly and export to the US.
+
+[[India]] stood out for a large increase in the geographical distance of its trade, driven by smartphone shipments to the US, consistent with [[JPMorgan Chase|JPMorgan]]'s identification of India as the largest structural beneficiary.
+
+*Source: [[McKinsey]] Global Institute, "Geopolitics and the geometry of global trade: 2026 update," cited in [[Martin Wolf]] (FT, Apr 1 2026)*
+
+---
+
 ## Related
 
 - [[India]] — largest structural beneficiary

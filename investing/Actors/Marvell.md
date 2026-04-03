@@ -205,10 +205,32 @@ Co-founded the Open CPX MSA (with [[Ciena]], [[Coherent]], Molex, Samtec, TeraHo
 
 ---
 
+## NVIDIA $2B strategic investment + NVLink Fusion (March 31, 2026)
+
+[[NVIDIA]] invested $2B in Marvell as part of a strategic partnership centered on NVLink Fusion — a new interconnect architecture that allows Marvell's custom XPUs (application-specific processors) to communicate directly with NVIDIA's [[Vera CPU]] and [[ConnectX]] NICs via NVIDIA's proprietary NVLink protocol.
+
+| Component | Provider |
+|-----------|----------|
+| Custom XPUs | Marvell |
+| Vera CPUs | [[NVIDIA]] |
+| ConnectX NICs | [[NVIDIA]] |
+| Spectrum-X switches | [[NVIDIA]] |
+| Silicon photonics interconnect | Marvell (via [[Celestial AI]]) |
+
+MRVL +9% premarket on the announcement.
+
+[[Jensen Huang]] framed the deal as ensuring NVIDIA stays central to AI infrastructure even as hyperscalers pursue custom silicon alternatives. For Marvell, it validates the custom ASIC thesis — NVIDIA is partnering rather than competing, positioning Marvell's XPUs as complementary to (not substitutes for) GPUs.
+
+Strategic context: this is NVIDIA's response to the custom silicon trend ([[Broadcom]], [[Amazon]] Trainium, [[Google]] TPU). Rather than fighting custom chips, NVIDIA is embracing them via NVLink Fusion — making custom silicon dependent on NVIDIA's interconnect fabric. For Marvell, the $2B investment cements a design partnership and likely secures multi-year NVLink integration contracts.
+
+*Source: NVIDIA Newsroom, CNBC, FT (March 31, 2026)*
+
+---
+
 ## Related
 
 - [[Broadcom]] — competitor (custom silicon, networking)
-- [[NVIDIA]] — different market (GPUs vs custom/networking)
+- [[NVIDIA]] — strategic investor ($2B), NVLink Fusion partner
 - [[Amazon]], [[Google]], [[Microsoft]] — hyperscaler customers
 - [[TSMC]] — foundry
 - [[AI hyperscalers]] — customer base

@@ -69,11 +69,32 @@ CNBC Squawk Box (Mar 26): "We have to brace for a potentially extended military 
 
 Through March, Croft shifted from "this is unprecedented" (early March) to "this is structurally longer than the market prices" (late March). Her Mar 26 appearance is the most bearish on timeline — the gap between administration rhetoric (short war) and physical evidence (extended damage, no diplomatic progress) has widened rather than narrowed. Aligns with [[Robin J. Brooks]]'s Saudi windfall analysis and [[Jeff Currie]]'s paper-physical disconnect thesis.
 
+## March 30, 2026 — Bab al-Mandeb closure (CNBC)
+
+Two CNBC appearances on the same day, escalating the chokepoint analysis from Hormuz alone to the dual-strait crisis:
+
+CNBC Power Lunch (Mar 30): Discussed [[Houthi]] escalation and the effective closure of the [[Bab el-Mandeb]], which she said effectively shuts in all Middle Eastern oil. Context: 4-5M bbl/day transits that strait, and with [[Strait of Hormuz]] already closed, the entire Persian Gulf is now isolated from global markets via both eastern and western exit routes.
+
+Full CNBC interview (Mar 30): Broader segment on the ramp-up of the Middle East conflict and the implications of a dual-chokepoint closure.
+
+### Analytical escalation
+
+Croft's framing has evolved across four phases:
+1. Early March: unprecedented disruption, insurance-driven closure
+2. Mid-March: structurally longer than market prices
+3. Late March (Mar 26): "extended military operation" — infrastructure damage means months-to-years restoration
+4. March 30: dual-chokepoint thesis — Bab al-Mandeb + Hormuz = complete isolation of Middle Eastern energy
+
+The dual-strait framing aligns with [[Robin J. Brooks]]'s argument that Iran's 2M bbl/day is a rounding error relative to the ~10M bbl/day already missing from the Gulf. [[Jeff Currie]]'s paper-physical disconnect thesis also gains explanatory power here — Brent at $110 cannot reflect a world where both exit routes from the Persian Gulf are closed.
+
+*Source: CNBC, March 30 2026 ([Bab al-Mandeb segment](https://www.cnbc.com/video/2026/03/30/bab-al-mandeb-strait-closing-effectively-shuts-in-all-middle-eastern-oil-says-rbcs-helima-croft.html))*
+
 ---
 
 ## Related
 
 - [[RBC Capital]] — employer
+- [[Bab el-Mandeb]] — dual-chokepoint thesis
 - [[Iran conflict economic disruption]] — crisis coverage
 - [[Strait of Hormuz]] — the chokepoint
 - [[Oil]] — commodity

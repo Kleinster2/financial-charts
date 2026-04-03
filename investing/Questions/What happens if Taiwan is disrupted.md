@@ -32,9 +32,15 @@ What are the second-order effects of a Taiwan semiconductor disruption (blockade
 | Samsung | [[Samsung Taylor pivot]] | Potentially first U.S. 2nm — valuable |
 | Intel | Ohio/Arizona fabs | Still ramping |
 
+## The Hormuz proof-of-concept (April 2026)
+
+Iran's [[Strait of Hormuz]] closure proved the coercion-without-combat mechanism works. [[Eyck Freymann]] (Hoover/Stanford, FT April 1) argues China can replicate this against Taiwan — and the Five Powers Clause in war-risk insurance auto-terminates coverage in any US-China conflict, making the threshold for disruption *lower* than Hormuz. No ships need to be sunk. A legal declaration + missile demonstrations + exclusion zones would collapse insurance and carrier willingness, creating a de facto blockade.
+
+Key difference from Hormuz: oil has SPR and bypass pipelines. Semiconductors have no strategic reserve. TSMC Arizona at ~5% capacity is not a substitute. The supply doesn't just get expensive — it disappears.
+
 ## Current view
 
-This is underpriced tail risk. Arizona fabs are "insurance" but the coverage is thin. A real disruption revalues Samsung and Intel dramatically.
+This is underpriced tail risk. Arizona fabs are "insurance" but the coverage is thin. A real disruption revalues Samsung and Intel dramatically. The Hormuz crisis (2026) demonstrated that the insurance/shipping mechanism activates faster and more completely than military planners expected — and China is a vastly more capable actor than Iran.
 
 ---
 

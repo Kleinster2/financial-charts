@@ -41,6 +41,46 @@ Vault note: Brooks assumes 5 mb/d via Yanbu, but the [[East-West Pipeline]] note
 
 *Source: [Do the Saudis want this war to end?](https://robinjbrooks.substack.com/p/do-the-saudis-want-this-war-to-end), March 26, 2026*
 
+### "Embargo Iran" — case for full oil blockade (March 29)
+
+Argues the [[Trump]] administration is repeating [[Biden]]'s 2022 mistake of pulling punches on oil sanctions. Advocates a full US naval blockade of all ship traffic in and out of Iran's ports — given US Navy superiority, no shots needed. Iran's economy (~15% of GDP from oil/gas exports) would implode overnight.
+
+Key point: Iran's oil exports have *risen* during the crisis (per WSJ) while the [[Strait of Hormuz]] is closed to everyone else — Iran is exploiting the very supply shock it created. India is clamoring for oil while Iranian tankers operate freely.
+
+Brooks: *"it's really hard to fight a war when your economy is imploding"* and *"In global geopolitics, as in economics, there's no free lunch."*
+
+*Source: [Embargo Iran](https://robinjbrooks.substack.com/p/embargo-iran), March 29, 2026*
+
+### "Pros and Cons of an Iran Oil Embargo" (March 30)
+
+Follow-up quantifying the embargo tradeoff. Key finding: with Brent at $110 and the [[Persian Gulf]] already running ~10M bbl/day below normal, the existing deficit maps to a 67% rise in Brent at consensus price elasticity (0.15). Adding a full Iranian embargo (removing Iran's 2M bbl/day) pushes the rise to 80% — an incremental impact of only ~13pp. The $150-200 scenarios require either full shutdown or much lower elasticity than consensus.
+
+Pros: (1) clear signal vs 2022 mixed messaging, (2) non-violent alternative to bombing power plants or taking [[Kharg Island]], (3) non-escalatory (Iran is already de facto embargoing Hormuz traffic), (4) leverage over [[China]] (biggest buyer of Iranian oil — builds trade negotiation leverage on rare earths).
+
+Cons: (1) moderate further oil spike (67% → 80%), (2) Iran's economy may not immediately implode, (3) US financial market accident risk — *"We have a lot of skeletons in the closet, from the basis trade to private credit"*, (4) [[Ukraine]] Baltic curveball (drone attacks on [[Russia]]'s Ust-Luga oil hub could add further supply disruption).
+
+Charts: oil price impact visualization (two red dots showing 67% vs 80% Brent rise); Iran economic structure (current account surplus, energy exports, import costs — all go to zero under embargo).
+
+*Source: [Pros and Cons of an Iran Oil Embargo](https://robinjbrooks.substack.com/p/pros-and-cons-of-an-iran-oil-embargo), March 30, 2026*
+
+### "How Much Does an Embargo Spike Oil?" (March 31)
+
+Quantitative complement to the March 30 pros/cons piece. An oil embargo removing Iran's 2 mb/d from global markets spikes Brent by ~$10/bbl at standard elasticity assumptions — modest relative to the existing disruption already priced in.
+
+*Source: [How Much Does an Embargo Spike Oil?](https://robinjbrooks.substack.com/p/how-much-does-an-embargo-spike-oil), March 31, 2026*
+
+### Turkey crisis — reserve depletion and Lira pressure (March 30)
+
+Two companion posts on [[Turkey]]'s vulnerability to the Iran oil shock.
+
+*Turkey Falls Back into Crisis:* The Lira is under severe depreciation pressure. [[Turkey]]'s central bank sold/swapped 50 tons of gold (~$8B) in the month since the war (Feb 27 – Mar 27). Official FX reserves rose only ~$5B after adjusting for FX valuation effects — meaning intervention is consuming reserves faster than gold sales replenish them. Scale rivals the March 2025 crisis (arrest of [[Ekrem Imamoglu]]). Brooks: *"Only very large FX intervention has stopped the Lira from tumbling — that can't last"* and *"the government will end up capitulating."*
+
+Chart finding: Turkish Lira outperformed [[BRL]] and Chilean Peso over Feb 27 – Mar 27 — counterintuitive for a commodity importer, explained only by massive intervention.
+
+*Turkey's Huge External Imbalance:* Structural backdrop. December 2025 "core" trade deficit (ex-gold, ex-energy) wider than pre-August 2018 BoP sudden stop. [[Erdogan]]'s political cycle of credit-fueled overheating means Turkey is perpetually vulnerable to external shocks. *"This kind of import spike always ends the same way for Turkey: Lira devaluation."*
+
+*Sources: [Turkey Falls Back into Crisis](https://robinjbrooks.substack.com/p/turkey-falls-back-into-crisis), [Turkey's Huge External Imbalance](https://robinjbrooks.substack.com/p/turkeys-huge-external-imbalance), March 30, 2026*
+
 ## Related
 
 - [[2026 Iran conflict market impact]]
