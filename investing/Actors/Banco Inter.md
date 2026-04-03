@@ -183,4 +183,8 @@ Bear:
 
 INTR -8.0% (-2.5 sigma) on March 13, 2026. Brazilian fintech super app with 36M+ customers dropped from $9.25 to $8.51. No specific company catalyst — likely [[Brazil]] macro pressure including BRL weakness and interest rate concerns affecting the entire Brazilian financial sector.
 
+## Apr 2, 2026 — EM risk-off
+
+INTR -8.0% (-2.5σ), $9.25 → $8.51. No company-specific catalyst found. Broader risk-off context: Trump's Liberation Day anniversary tariff barrage (100% pharma, metals overhaul), 50% tariff on select Brazilian exports + 10% reciprocal already in place, oil spiking ~40% on Iran war. Notably, larger-cap Brazilian banks rallied that session ([[Bradesco]] +2%, [[Itau Unibanco|Itau]] +1%, [[Banco do Brasil]] +2%, [[B3]] +8%) as lower bond yields helped — suggesting INTR's move was thin-liquidity, risk-off rotation out of smaller EM fintechs rather than sector-wide weakness.
+
 *Created 2026-02-23*

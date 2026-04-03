@@ -14,13 +14,13 @@ tags: [event, ipo, space, ai]
 | Detail | Value |
 |--------|-------|
 | Target valuation | **$1.75T** (would be 6th-largest US company) |
-| Raise | **$75B** (up from $50B earlier estimate; up from $25-30B initial) |
+| Raise | $75B (up from $50B earlier estimate; up from $25-30B initial) |
 | Exchange | [[Nasdaq]] (leaning, not final) |
-| Listing date | **June 2026** (around Musk's birthday) |
-| Filing | Confidential S-1 to SEC, expected late March / early April 2026 |
-| Lockup | **No standard 6-month lockup** — custom arrangement TBD |
-| Retail allocation | **>20%** (typical is ~10%; Musk personally pushed for this) |
-| Bank hierarchy | **Alphabetical order** — no "lead left" position |
+| Listing date | June 2026 (around Musk's birthday) |
+| Filing | Confidential S-1 filed April 1, 2026 |
+| Lockup | No standard 6-month lockup — custom arrangement TBD |
+| Retail allocation | >20% (typical is ~10%; Musk personally pushed for this) |
+| Bank hierarchy | Alphabetical order — no "lead left" position |
 | Advisers | [[Bank of America]], [[Citigroup]], [[Goldman Sachs]], [[JPMorgan]], [[Morgan Stanley]] (none formally hired, all preparing) |
 | International | Several international banks enlisted for overseas buyers |
 | Role division | By geography and investor type (US institutional, US retail, international) |
@@ -28,13 +28,13 @@ tags: [event, ipo, space, ai]
 
 ### What makes this IPO structurally unusual
 
-**No lead bank.** The five advising banks will be listed alphabetically on the prospectus. In normal IPOs, the "lead left" position is a massive status symbol — banks fight over it. Musk is telling five of the most powerful banks on earth that none of them are special. He can do it because they all want in badly enough to accept.
+No lead bank. The five advising banks will be listed alphabetically on the prospectus. In normal IPOs, the "lead left" position is a massive status symbol — banks fight over it. Musk is telling five of the most powerful banks on earth that none of them are special. He can do it because they all want in badly enough to accept.
 
-**No standard lockup.** Most IPOs have a 6-month lockup preventing insiders from selling. SpaceX raised ~$10B over 20 years as a private company, creating enormous pent-up demand for liquidity among early investors. Rather than a standard lockup, they're designing a custom arrangement to manage the selling — details still being finalized. It's unclear whether insiders wait longer than 6 months or get to sell earlier.
+No standard lockup. Most IPOs have a 6-month lockup preventing insiders from selling. SpaceX raised ~$10B over 20 years as a private company, creating enormous pent-up demand for liquidity among early investors. Rather than a standard lockup, they're designing a custom arrangement to manage the selling — details still being finalized. It's unclear whether insiders wait longer than 6 months or get to sell earlier.
 
-**20%+ retail allocation.** Normal IPOs reserve ~10% for retail. Musk personally pushed for more than 20%, including smaller investors via [[Robinhood]] and wealthy bank clients. This creates a built-in fan base of shareholders who'll defend the stock. The retail army play.
+20%+ retail allocation. Normal IPOs reserve ~10% for retail. Musk personally pushed for more than 20%, including smaller investors via [[Robinhood]] and wealthy bank clients. This creates a built-in fan base of shareholders who'll defend the stock. The retail army play.
 
-**Divided roles.** Banks aren't just co-managing — they're being assigned different territories and investor types. Some handle US institutional, some US retail, some international. The deal is so large that no single bank's distribution network can absorb it.
+Divided roles. Banks aren't just co-managing — they're being assigned different territories and investor types. Some handle US institutional, some US retail, some international. The deal is so large that no single bank's distribution network can absorb it.
 
 *Sources: The Information (Mar 25); Bloomberg (Mar 25); Reuters (Mar 25); WSJ (Mar 27-28)*
 
@@ -59,7 +59,7 @@ The SpaceX IPO triggered both [[Nasdaq]] and [[S&P Dow Jones Indices]] to rewrit
 | Detail | Value |
 |--------|-------|
 | Threshold | Market cap ranks in NDX top 40 (~$100B+) |
-| Timeline | Added after **15 trading days** (+ 5 days notice = ~1 month total) |
+| Timeline | Added after 15 trading days (+ 5 days notice = ~1 month total) |
 | Exemptions | Waives 3-month seasoning period and liquidity requirements |
 | Filed with SEC | Feb 20, 2026 (Federal Register Mar 6) |
 | Status | Proposed; public comment closed Feb 27; implementation expected after Mar 2026 quarterly rebalance |
@@ -83,7 +83,7 @@ Current S&P 500 requirements:
 |-------------|-----------|
 | Domicile | US |
 | Market cap | $22.7B minimum |
-| Public listing | **12-month seasoning (under review)** |
+| Public listing | 12-month seasoning (under review) |
 | Public float | 50% minimum |
 | Earnings | Positive trailing four quarters |
 | Final decision | Committee discretion |
@@ -125,13 +125,13 @@ The filing report coincided with NASA's "Project Ignition" announcement — a $2
 
 Three of the most valuable private companies in history are racing toward IPO in the same year:
 
-| Company | Raise | Valuation | Timeline |
-|---------|-------|-----------|----------|
-| **SpaceX** | $75B | $1.75T | June 2026 |
-| [[Anthropic]] | $60B | $380B | Q4 2026 |
-| [[OpenAI]] | TBD | $300B+ | Late 2026-2027 |
+| Company | Raise | Valuation | Timeline | Update |
+|---------|-------|-----------|----------|--------|
+| SpaceX | $75B | $1.75T | June 2026 | S-1 filed Apr 1 |
+| [[OpenAI]] | TBD | ~$1T | Q4 2026 / Q1 2027 | Closed $122B round Mar 31 at $852B post-money. $25B annualized revenue run rate (Feb 2026). S-1 expected Q3 2026 |
+| [[Anthropic]] | $60B+ | $400-500B | Oct 2026 | Engaged Wilson Sonsini + bank consortium ([[Goldman Sachs]], [[JPMorgan Chase|JPMorgan]], [[Morgan Stanley]]). Revenue surged from $9B (end-2025) to $19B+ (Mar 2026), driven largely by [[Claude Code]] adoption |
 
-Combined: ~$200B in new equity hitting public markets in a year where the Dow is in correction, oil is at $113, and the VIX is above 30. This is either going to redefine the IPO market or stress-test it to breaking point.
+Combined: $150B+ in new equity hitting public markets in a year where oil is at $110+, recession odds are rising toward 50%, and the VIX is above 30. This is either going to redefine the IPO market or stress-test it to breaking point.
 
 ---
 
@@ -143,7 +143,7 @@ Senior analyst Franco Granda published "When Venus and Jupiter Align" — SOTP p
 |---------|-------------|-------------|--------|
 | [[Starlink]] | $10.6B | $5.8B | 54% |
 | Launch | $5.2B | $1.7B | 33% |
-| **Total** | ~$16B | | |
+| Total | ~$16B | | |
 
 2040 projections: $150B revenue. Starlink $120B at 70% EBITDA margin. D2C to 1.1B subscribers. Launch $30B (Starship). Forward multiple compresses from ~110x to ~12x.
 

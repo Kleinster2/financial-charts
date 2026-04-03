@@ -38,9 +38,9 @@ Leading website builder for SMBs.
 
 | Segment | Description |
 |---------|-------------|
-| **Creative Subscriptions** | Website builder |
-| **Business Solutions** | E-commerce, bookings |
-| **Partners** | Agencies, developers |
+| Creative Subscriptions | Website builder |
+| Business Solutions | E-commerce, bookings |
+| Partners | Agencies, developers |
 
 Subscription + transaction revenue.
 
@@ -108,13 +108,13 @@ Different segments, some overlap.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - SMB digitization
 - Profitable growth
 - Studio platform
 - AI features
 
-**Bear:**
+Bear:
 - Competition from all sides
 - SMB churn
 - Squarespace/Shopify pressure
@@ -143,4 +143,18 @@ Different segments, some overlap.
 
 ---
 
-*Created 2026-01-16*
+## Apr 2, 2026 — Dutch auction + downgrades
+
+WIX -9.4% (-2.6σ) to $81.95.
+
+$1.722B modified Dutch auction tender offer: expired Apr 1, cleared at $92.00/share (top of $80-$92 range). Accepted 18.7M shares (~31.6% of outstanding). Stock traded below the clearing price — market read: overpaying and leaving Wix significantly levered.
+
+Analyst downgrades compounded:
+- [[UBS]]: downgraded to Neutral, PT cut to $96. Core business growth slowing from 12% (2025) to ~8% (2026). Profitability pressure from [[Base44]] spending.
+- [[JPMorgan Chase|JPMorgan]]: downgraded to Underweight on decelerating revenue growth and uncertainty around [[Base44]] venture.
+
+The combination of a massive buyback at the range ceiling plus two downgrades flagging slowing growth drove the selloff.
+
+---
+
+*Updated 2026-04-02*

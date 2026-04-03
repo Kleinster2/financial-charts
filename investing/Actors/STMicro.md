@@ -47,7 +47,7 @@ STMicro is a key EV/automotive semi supplier:
 
 ## Silicon carbide (SiC)
 
-**Critical EV component:**
+Critical EV component:
 
 | Metric | Value |
 |--------|-------|
@@ -56,7 +56,7 @@ STMicro is a key EV/automotive semi supplier:
 | Capacity | Ramping aggressively |
 | Competition | Wolfspeed, Infineon, ON Semi |
 
-**Why SiC matters:**
+Why SiC matters:
 - Higher efficiency than silicon
 - Longer EV range
 - Faster charging
@@ -68,7 +68,7 @@ Tesla's SiC usage = validation for STMicro.
 
 ## Tesla relationship
 
-**Strategic SiC supplier:**
+Strategic SiC supplier:
 
 | Aspect | Details |
 |--------|---------|
@@ -83,7 +83,7 @@ Tesla initially said they'd reduce SiC usage 75% — but still major STMicro cus
 
 ## MEMS sensors
 
-**\#1 globally in MEMS:**
+\#1 globally in MEMS:
 
 | Sensor type | Applications |
 |-------------|--------------|
@@ -98,7 +98,7 @@ Apple iPhone uses STMicro MEMS sensors.
 
 ## European manufacturing
 
-**Fabs in Europe:**
+Fabs in Europe:
 
 | Location | Focus |
 |----------|-------|
@@ -144,9 +144,9 @@ Significant diversification — STMicro had minimal hyperscale/data center expos
 
 FY2025 decline driven by automotive weakness and SiC headwinds. Power & Discrete segment -31.6% YoY in Q4. Bright spots: Analog/MEMS/Sensors +7.5%, RF/Optical +22.9%. Personal electronics and comms grew.
 
-**Q1 2026 guidance:** $3.04B revenue (-8.7% QoQ), ~33.7% gross margin (expected low point for year). ~220bps unused capacity charges. No full-year 2026 guidance given.
+Q1 2026 guidance: $3.04B revenue (-8.7% QoQ), ~33.7% gross margin (expected low point for year). ~220bps unused capacity charges. No full-year 2026 guidance given.
 
-**2026 outlook (qualitative):** CEO Chery expects excess inventory cleared by end Q2, organic growth returning H2. Growth drivers: ADAS ASICs, SiC recovery, MEMS/imaging (+ [[STMicro acquires NXP MEMS|NXP MEMS deal]]), data center photonics, LEO satellite comms, [[Apple]] content gains. CapEx plan $2.0-2.2B.
+2026 outlook (qualitative): CEO Chery expects excess inventory cleared by end Q2, organic growth returning H2. Growth drivers: ADAS ASICs, SiC recovery, MEMS/imaging (+ [[STMicro acquires NXP MEMS|NXP MEMS deal]]), data center photonics, LEO satellite comms, [[Apple]] content gains. CapEx plan $2.0-2.2B.
 
 Returned $688M to shareholders in 2025 ($321M dividends, $367M buybacks).
 
@@ -174,7 +174,7 @@ Returned $688M to shareholders in 2025 ($321M dividends, $367M buybacks).
 
 ## Investment implications
 
-**Bull case:**
+Bull case:
 - SiC leader in [[EV transition]]
 - Tesla relationship validated
 - MEMS monopoly in smartphones (now \#3 post-NXP deal)
@@ -182,7 +182,7 @@ Returned $688M to shareholders in 2025 ($321M dividends, $367M buybacks).
 - [[AWS]] deal opens hyperscale/data center TAM
 - H2 2026 cyclical recovery thesis
 
-**Bear case:**
+Bear case:
 - FY2025 showed -11% revenue decline, margin compression to 33.9%
 - 130-day inventory still elevated
 - No full-year 2026 guidance = limited visibility
@@ -208,7 +208,21 @@ Returned $688M to shareholders in 2025 ($321M dividends, $367M buybacks).
 | MEMS position | \#3 globally (post-NXP deal) |
 | Key customers | Tesla, [[Apple]], [[AWS]] |
 
-*Updated 2026-02-09*
+## Apr 2026 — industry-wide chip price increases
+
+STMicro raising prices effective Apr 26, 2026, part of a broad wave across European/US analog chipmakers. Drivers: rising raw material costs, energy, logistics, fab capacity and OSAT provider costs.
+
+| Company | Effective date | Detail |
+|---------|---------------|--------|
+| [[Texas Instruments]] | Apr 1 | Up to 85% on select products |
+| [[NXP]] | Apr 1 | Broad product-line adjustments |
+| [[Infineon]] | Apr 1 | Power switches/ICs +5-15%, high-end potentially more |
+| STMicro | Apr 26 | Percentage not disclosed |
+| [[onsemi]] | Apr 2026 | Confirmed, no specific date |
+
+Chinese analog chipmakers followed with their own increases — suggesting structural, not opportunistic, pricing. First coordinated industry-wide price increase cycle since 2021-22 shortage era.
+
+*Updated 2026-04-02*
 
 ---
 

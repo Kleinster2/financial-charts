@@ -79,9 +79,9 @@ Apple covers most costs to replenish/upgrade the constellation, reducing Globals
 | Total planned | Up to 57 | SpaceX launching |
 | HIBLEO-XL-1 | Next-gen filing | New orbital shells + frequency bands |
 
-**MDA (Canada)** building next-gen satellites at ~$11.4M each. [[SpaceX]] handling launches.
+MDA (Canada) building next-gen satellites at ~$11.4M each. [[SpaceX]] handling launches.
 
-**HIBLEO-XL-1** (announced Sep 2025): Next-era mobile satellite system filing — new satellites, orbital shells, and frequency bands for expanded capacity and advanced capabilities.
+HIBLEO-XL-1 (announced Sep 2025): Next-era mobile satellite system filing — new satellites, orbital shells, and frequency bands for expanded capacity and advanced capabilities.
 
 ---
 
@@ -89,13 +89,13 @@ Apple covers most costs to replenish/upgrade the constellation, reducing Globals
 
 Globalstar owns rare licensed mid-band spectrum at 2.4 GHz (2483.5-2495 MHz, 11.5 MHz bandwidth). FCC-licensed since 2016, now approved in 12 nations (870M+ people).
 
-**Advantages over alternatives:**
+Advantages over alternatives:
 - No interference (unlike Wi-Fi)
 - Greater range than Wi-Fi
 - No SAS requirement (unlike CBRS) — lower costs
 - Licensed = guaranteed quality
 
-**Partnerships:**
+Partnerships:
 | Partner | Use case |
 |---------|----------|
 | Boingo Wireless (Feb 2026) | Private 5G via XCOM RAN |
@@ -121,7 +121,7 @@ Globalstar owns rare licensed mid-band spectrum at 2.4 GHz (2483.5-2495 MHz, 11.
 |---------|---------|
 | Service revenue | $69.6M |
 | Subscriber equipment | $4.2M |
-| **Total** | **$73.8M** |
+| Total | $73.8M |
 
 Growth driven by wholesale capacity services (Apple) and Commercial IoT expansion.
 
@@ -133,16 +133,18 @@ Growth driven by wholesale capacity services (Apple) and Commercial IoT expansio
 |-----------|-------------|
 | [[Starlink]] | Dominant LEO broadband; potential acquirer? |
 | [[AST SpaceMobile]] | Direct-to-cell broadband (different market) |
-| [[Amazon]] LEO | Enterprise fixed broadband |
+| [[Amazon]] | Potential acquirer (~$9B, Apr 2026 report); also LEO competitor |
 | Iridium | Legacy satellite voice/data |
 
-**Deutsche Bank** initiated coverage Dec 2025 with Hold rating, $62 PT. Notes Globalstar's spectrum gained "material" strategic worth after EchoStar-SpaceX arrangement.
+Deutsche Bank initiated coverage Dec 2025 with Hold rating, $62 PT. Notes Globalstar's spectrum gained "material" strategic worth after EchoStar-SpaceX arrangement.
 
-**Acquisition rumors:** Reports of Globalstar exploring a sale. Some analysts speculate [[SpaceX]] could acquire Globalstar to secure Apple's business.
+Acquisition rumors: Reports of Globalstar exploring a sale. Some analysts speculate [[SpaceX]] could acquire Globalstar to secure Apple's business.
 
 ---
 
 ## Recent stock action
+
+Apr 2, 2026: GSAT +13.4% (2.8σ) to $77.73, hitting 18-year high. FT reported [[Amazon]] in talks to acquire Globalstar for ~$9B — aiming to challenge [[Starlink]] in satellite internet. Amazon wants Globalstar's internationally-cleared L-band and S-band spectrum licenses plus its functioning orbital network ("trading capital for time" rather than building from scratch). Complication: [[Apple]] owns 20% and has 85% of network capacity locked up for iPhone Emergency SOS — an Amazon acquisition would put Apple's satellite features on competitor-owned infrastructure. Hedge funds ([[Soros Fund Management]], [[AQR Capital]], [[Millennium Management]]) reportedly positioned ahead of the report. Secondary tailwind from [[SpaceX IPO 2026|SpaceX's confidential S-1 filing]] lifting the satellite sector broadly.
 
 Feb 4, 2026: GSAT fell ~7% alongside [[AST SpaceMobile]] (-11%) after AT&T announced Amazon LEO satellite partnership. Market feared big-tech vertical integration threat to smaller satellite players. Globalstar less directly affected (Apple relationship, not AT&T), but sentiment dragged sector.
 
@@ -150,12 +152,12 @@ Feb 4, 2026: GSAT fell ~7% alongside [[AST SpaceMobile]] (-11%) after AT&T annou
 
 ## Risks
 
-- **Apple concentration** — 85% of capacity to one customer; Apple has leverage
-- **Profitability** — still EPS-negative despite revenue growth
-- **Capital intensity** — $486M capex in 9 months; constellation refresh is expensive
-- **Competition** — Starlink/Amazon have vastly more capital
-- **Execution** — must deliver next-gen constellation on schedule
-- **Valuation** — 46x EV/EBITDA for a company still losing money
+- Apple concentration — 85% of capacity to one customer; Apple has leverage
+- Profitability — still EPS-negative despite revenue growth
+- Capital intensity — $486M capex in 9 months; constellation refresh is expensive
+- Competition — Starlink/Amazon have vastly more capital
+- Execution — must deliver next-gen constellation on schedule
+- Valuation — 46x EV/EBITDA for a company still losing money
 
 ---
 
@@ -164,7 +166,7 @@ Feb 4, 2026: GSAT fell ~7% alongside [[AST SpaceMobile]] (-11%) after AT&T annou
 - [ ] Q4 2025 earnings (Mar 4, 2026)
 - [ ] Apple Watch satellite service launch timing
 - [ ] Next-gen satellite delivery/launch schedule
-- [ ] Acquisition developments — sale process rumors
+- [ ] Amazon acquisition talks (~$9B) — outcome, Apple's response
 - [ ] Band 53 commercial traction (Boingo, enterprise)
 - [ ] HIBLEO-XL-1 constellation build progress
 

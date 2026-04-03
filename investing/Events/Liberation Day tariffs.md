@@ -57,6 +57,39 @@ The administration has signaled intent to replace IEEPA tariffs using Section 23
 
 ---
 
+## One-year anniversary actions (Apr 2, 2026)
+
+On the anniversary of the original Liberation Day, the administration used alternative statutory authorities to rebuild tariff revenue lost when the [[SCOTUS IEEPA ruling|Supreme Court struck down IEEPA tariffs]] in February 2026.
+
+### Pharmaceutical tariffs (Section 301)
+
+| Tier | Rate | Condition |
+|------|------|-----------|
+| Full compliance | 0% | Sign MFN pricing deal + commit to US manufacturing |
+| Building onshore | 20% (rising to 100% over 4 years) | Building US capacity but no pricing deal yet |
+| Non-compliant | 100% | No onshoring commitment |
+
+Country-specific bilateral rates:
+- [[EU]], [[Japan]], [[South Korea]], [[Switzerland]]: 15%
+- [[UK]]: 10% (under bilateral trade deal)
+
+### Steel, aluminum, copper overhaul
+
+Maintained 50% tariff on raw commodities, 25% on derivatives. Restructured from IEEPA authority to Section 232 (national security) to survive judicial review.
+
+### Economic scorecard (first year)
+
+| Metric | Value |
+|--------|-------|
+| Tariff revenue collected | $151B in first 5 months of FY2026 (4x prior year) |
+| US factory jobs lost since Apr 2025 | 89,000 |
+| Total goods trade deficit change | +2% to $1.24T |
+| Legal status of original tariffs | Struck down (Feb 2026, [[SCOTUS IEEPA ruling]]) |
+
+Market reaction (Apr 2): mixed — [[S&P 500]] +0.11%, pharma names sold off on uncertainty.
+
+---
+
 ## Related
 
 - [[SCOTUS IEEPA ruling]] — Feb 20, 2026 decision striking down IEEPA tariffs
