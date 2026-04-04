@@ -15,7 +15,7 @@ Tracking Wall Street recession probability estimates for the US economy in 2026,
 | [[EY]]-Parthenon (Greg Daco) | 40% | Mar 25 | |
 | [[HSBC]] (market-implied) | 35% | Mar 25 | |
 | [[Goldman Sachs]] | 30% | Late Mar | Raised 5pp; Brent $105-115 near-term |
-| [[Ed Yardeni]] | 35% (base) / 60% (meltdown) | Mar 29 | Raised from prior; ended 15-year tech overweight |
+| [[Ed Yardeni]] | 35% (base) / 60% (meltdown) | Apr 2 | Raised from 20%; still holds "Roaring 2020s" at 60% base case. CNBC Apr 2: "market bottom is in" |
 
 ---
 
@@ -33,20 +33,37 @@ Three reinforcing pressures:
 
 ## Labor market signals
 
-| Metric | Value | Source |
-|--------|-------|--------|
-| Feb 2026 nonfarm payrolls | -92,000 | [[BLS]] |
-| Unemployment rate | 4.4% | [[BLS]] |
-| Fed government employment | Trending down | [[DOGE]]-related |
-| Net US jobs added since Apr 2025 | ~0 (per [[Lyn Alden]]) | Mar 2026 newsletter |
+| Metric | Value | Date | Source |
+|--------|-------|------|--------|
+| Mar 2026 nonfarm payrolls | **+178,000** (vs 59K est) | Apr 3 | [[BLS]] |
+| Feb 2026 nonfarm payrolls (revised) | **-133,000** (from -92K) | Apr 3 revision | [[BLS]] |
+| Jan 2026 nonfarm payrolls (revised) | **+160,000** (+34K revision) | Apr 3 revision | [[BLS]] |
+| 3-month average | ~68,000 | Mar 2026 | [[BLS]] |
+| Unemployment rate | **4.3%** (from 4.4%) | Mar 2026 | [[BLS]] |
+| Labor force participation | **61.9%** (lowest since Nov 2021) | Mar 2026 | [[BLS]] |
+| Labor force change | **-396,000** (shrinkage) | Mar 2026 | [[BLS]] |
+| Household survey employment | **-64,000** | Mar 2026 | [[BLS]] |
+| U-6 (broad unemployment) | **8.0%** | Mar 2026 | [[BLS]] |
+| Avg hourly earnings (YoY) | **+3.5%** (lowest since May 2021) | Mar 2026 | [[BLS]] |
+| Avg hourly earnings (MoM) | **+0.2%** (below 0.3% est) | Mar 2026 | [[BLS]] |
+| Avg weekly hours | **34.2** (-0.1) | Mar 2026 | [[BLS]] |
+| Fed government employment | **-18,000** | Mar 2026 | [[BLS]] |
+| Net US jobs added since Apr 2025 | ~0 (per [[Lyn Alden]]) | Mar 2026 newsletter | |
+
+**March sector detail:** Healthcare +76K ([[Kaiser Permanente]] strike returnees ~35K of 54K ambulatory), construction +26K, transport/warehousing +21K. Financial activities -15K.
+
+**Interpretation:** Headline beat masks deterioration. The unemployment rate fell because the labor force shrank by 396K, not because more people found jobs — the household survey actually showed 64K *fewer* employed. Wage growth at 3.5% YoY is the slowest since May 2021. Heather Long ([[Navy Federal Credit Union]]): "rocky year... almost no hiring since last April." [[St. Louis Fed]] estimates as little as 15K/month needed to hold unemployment steady — the bar is now very low.
+
+**Fed implications:** [[CME FedWatch]]: 77.5% probability Fed holds through year-end. Virtually no chance of April 28-29 [[FOMC]] move. Strong headline + cooling wages + oil shock = Fed trapped between conflicting signals.
 
 ---
 
 ## Key upcoming catalysts
 
-- [ ] Apr 4: March jobs report (may be delayed — Good Friday)
+- [x] ~~Apr 3: March jobs report~~ → beat expectations but labor force shrank
 - [ ] Apr 6: Trump's [[Iran]] deadline
-- [ ] Apr 28: FOMC meeting
+- [ ] Apr 14-15: [[JPMorgan Chase|JPM]] / [[Bank of America|BAC]] Q1 earnings — first corporate read on oil/tariff impact
+- [ ] Apr 28-29: [[FOMC]] meeting
 - [ ] Q2 2026 earnings season (late Apr) — corporate guidance will reflect oil/tariff impact
 
 ---
