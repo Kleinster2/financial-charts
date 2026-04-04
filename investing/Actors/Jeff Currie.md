@@ -156,6 +156,16 @@ The investment implication: Currie's HALO framework now has a time horizon quali
 
 Full CNBC interview reiterating the paper-physical disconnect and supercycle thesis. Called the current environment "a (c)rude awakening" for markets still pricing a quick resolution.
 
+### Latest commentary (Mar 30-Apr 3, 2026)
+
+**"5-10M bbl/day demand loss" from Gulf** — "similar to the seventies"
+
+**"Paper markets completely detached from physical"** (Bloomberg)
+
+**"Turbocharging energy transition"** (CERAWeek)
+
+**Oil "not yet peaked"** due to Iran war
+
 ### "Reverse COVID" framing — with Amrita Sen (CNBC, March 23)
 
 [[Amrita Sen]] ([[Energy Aspects]]) confirmed on CNBC that she and Currie have been exchanging notes and converging on the "reverse COVID" as the best analogy: ~11M bbl/day shut in on the supply side, ~15-16M bbl/day including refined products — nearly 4x the Russia-Ukraine supply fear (~3M bbl/day). COVID was demand destruction with supply intact; this is supply destruction with demand intact. In both cases, paper markets priced the event as temporary.

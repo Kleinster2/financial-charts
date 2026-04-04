@@ -14,7 +14,19 @@ tags: [actor, company, biotech, healthcare, usa, public]
 | Ticker | BIIB (NASDAQ) |
 | Revenue | ~$9.5B |
 | HQ | Cambridge, MA |
-| Focus | Neuroscience (MS, Alzheimer's, rare disease) |
+| Focus | Neuroscience (MS, Alzheimer's, rare disease, immunology) |
+
+---
+
+## March 31, 2026 — [[Apellis Pharmaceuticals]] acquisition ($5.6B)
+
+$41/share cash tender (~$5.6B), 86% premium to 90-day VWAP
+
+Up to +$4/share contingent on Syfovre milestones
+
+Immunology + rare disease + nephrology. Apellis revenue ~$1.5B by 2030
+
+BIIB080 readout also in 2026
 
 ---
 

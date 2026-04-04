@@ -1,11 +1,11 @@
 ---
-aliases: [Henry Hub, NatGas, TTF, Dutch TTF]
+aliases: [Henry Hub, NatGas]
+tags: [concept, commodity, energy]
 ---
-#concept #commodity #energy
 
 # Natural gas
 
-**Natural gas** — US Henry Hub positioning for firmer 2026. AI power demand + LNG exports lifting floor. EIA expects $4.00/MMBtu avg in 2026.
+Natural gas — US [[Henry Hub]] positioning for firmer 2026. AI power demand + [[LNG]] exports lifting floor. [[EIA]] expects $4.00/MMBtu avg in 2026.
 
 ---
 
@@ -13,38 +13,34 @@ aliases: [Henry Hub, NatGas, TTF, Dutch TTF]
 
 | Metric | Value |
 |--------|-------|
-| Spot price | **~$3.50/MMBtu** |
+| Spot price | ~$3.50/MMBtu |
 | Jan 2026 contract | ~$4.02/MMBtu |
 | 12-month strip | ~$3.76/MMBtu |
-| 2026 avg forecast (EIA) | **$4.00/MMBtu** (+16% vs 2025) |
+| 2026 avg forecast ([[EIA]]) | $4.00/MMBtu (+16% vs 2025) |
 | Q4 2026 forecast | ~$4.50/MMBtu |
 
 ---
 
 ## 2026 outlook
 
-**Forecasts:**
-
-| Source | [[Target]] | View |
+| Source | Target | View |
 |--------|--------|------|
-| EIA | $4.00/MMBtu avg (HH) | +16% vs 2025 |
+| [[EIA]] | $4.00/MMBtu avg (HH) | +16% vs 2025 |
 | [[Bank of America]] | $4.00/MMBtu (HH) | Neutral |
-| Bernstein | $5.00/MMBtu (HH) | "Faith in five" — new equilibrium |
-| [[HSBC]] | $14.00/MMBtu avg (TTF) | +40% vs prior HSBC; Hormuz supply shortfall |
+| [[Bernstein]] | $5.00/MMBtu (HH) | "Faith in five" — new equilibrium |
+| [[HSBC]] | $14.00/MMBtu avg ([[TTF]]) | +40% vs prior HSBC; [[Strait of Hormuz|Hormuz]] supply shortfall |
 
-**Bernstein thesis:** $5/mcf represents new equilibrium after decade+ at ~$3.50/mcf.
+[[Bernstein]] thesis: $5/mcf represents new equilibrium after decade+ at ~$3.50/mcf.
 
 ---
 
 ## Demand drivers
 
-**Three pillars:**
-
 | Driver | Impact |
 |--------|--------|
-| **AI/data centers** | Growing electricity load |
-| **LNG exports** | New infrastructure coming online |
-| **Geopolitical** | [[Europe]] weaning off Russian gas |
+| AI/data centers | Growing electricity load |
+| [[LNG]] exports | New infrastructure coming online |
+| Geopolitical | [[Europe]] weaning off [[Russia|Russian]] gas |
 
 AI power demand increasingly material — see [[Power constraints]].
 
@@ -52,12 +48,12 @@ AI power demand increasingly material — see [[Power constraints]].
 
 ## Supply outlook
 
-**EIA projections:**
+[[EIA]] projections:
 
 | Year | Dry gas production |
 |------|-------------------|
 | 2023 | 103.6 bcfd (record) |
-| 2026 | **109.1 bcfd** |
+| 2026 | 109.1 bcfd |
 
 Production rising but demand growth may outpace.
 
@@ -65,7 +61,7 @@ Production rising but demand growth may outpace.
 
 ## LNG export impact
 
-**US LNG buildout:**
+US [[LNG]] buildout:
 - Multiple export terminals coming online
 - Increased global demand ([[Europe]], [[Asia]])
 - Tightens domestic supply
@@ -75,17 +71,17 @@ Production rising but demand growth may outpace.
 
 ## Investment thesis
 
-**Bull case:**
+Bull case:
 - AI electricity demand structural
-- LNG exports tightening supply
-- $5/mcf may be new floor (Bernstein)
+- [[LNG]] exports tightening supply
+- $5/mcf may be new floor ([[Bernstein]])
 - Production growth manageable
 - Winter volatility = upside
 
-**Bear case:**
+Bear case:
 - Warm weather = demand destruction
 - Production can ramp quickly
-- Permian associated gas growing
+- [[Permian Basin|Permian]] associated gas growing
 - Renewables displacing gas in power gen
 - Storage levels adequate
 
@@ -93,16 +89,16 @@ Production rising but demand growth may outpace.
 
 ## Investment vehicles
 
-**ETFs:**
+ETFs:
 
 | Ticker | Name | Exposure |
 |--------|------|----------|
-| UNG | US Natural Gas Fund | Futures-based |
+| [[UNG]] | US Natural Gas Fund | Futures-based |
 | BOIL | ProShares Ultra Bloomberg NG | 2x leveraged |
 | KOLD | ProShares UltraShort Bloomberg NG | -2x inverse |
 | FCG | First Trust Natural Gas ETF | Gas equities |
 
-**Producers:**
+Producers:
 
 | Company | Ticker | Notes |
 |---------|--------|-------|
@@ -117,7 +113,7 @@ Production rising but demand growth may outpace.
 
 ## Seasonality
 
-**Weather-driven:**
+Weather-driven:
 - Winter heating demand = price spikes
 - Summer cooling demand = secondary peak
 - Shoulder seasons = weakness
@@ -129,7 +125,7 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 
 ## European gas — TTF benchmark
 
-**Dutch TTF** (Title Transfer Facility) is the European gas benchmark, priced in EUR/MWh. Structurally higher than Henry Hub due to import dependency — Europe lacks domestic production at scale and relies on pipeline gas (Norway, formerly Russia) and LNG imports.
+[[TTF|Dutch TTF]] (Title Transfer Facility) is the European gas benchmark, priced in EUR/MWh. Structurally higher than [[Henry Hub]] due to import dependency — [[Europe]] lacks domestic production at scale and relies on pipeline gas ([[Norway]], formerly [[Russia]]) and [[LNG]] imports.
 
 ![[ttf-price-2021-2026.png]]
 *Dutch TTF Natural Gas futures (EUR/MWh) since 2021. The 2022 Russia-Ukraine shock sent TTF to ~€340/MWh — dwarfing the 2026 Iran conflict spike (€28→€55+). Europe's structural vulnerability is lower than 2022 (diversified supply, LNG terminals, reduced demand) but still significant. Source: yfinance/TTF=F.*
@@ -156,8 +152,8 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 | Unit | $/MMBtu | EUR/MWh |
 | Typical range | $2-5 | €25-50 |
 | Supply | Domestic shale | Imports (LNG, pipeline) |
-| Geopolitical sensitivity | Low | **Very high** |
-| Iran conflict impact | Minimal | **+55% in 10 days** |
+| Geopolitical sensitivity | Low | Very high |
+| [[Iran]] conflict impact | Minimal | +55% in 10 days |
 
 ![[ttf-price-2026.png]]
 *Dutch TTF Natural Gas futures (EUR/MWh), Oct 2025–Mar 2026. The Iran conflict triggered a vertical spike from ~€28 pre-war to €55+ by early March — more than doubling in weeks. Source: yfinance/TTF=F.*
@@ -188,7 +184,7 @@ US Henry Hub barely budged — stockpiles ample, US LNG export terminals already
 
 [[China]] imports ~1/3 of its LNG from the Middle East — almost entirely from [[QatarEnergy]], with small volumes from [[UAE]] and [[Oman]] (Oman lies outside [[Strait of Hormuz|Hormuz]]). Unlike oil, China has no strategic gas reserve of comparable scale. The Hormuz closure cut Qatari and UAE LNG flows to China entirely. Spot LNG prices surged to levels where unnamed traders at major Chinese state companies told industry press they would not buy on the spot market (Downs, Mar 4 2026).
 
-Short-term response mechanisms are limited: find ways to use less gas (demand destruction via price), increase domestic production, or source replacement cargoes from non-Hormuz suppliers (Australia, US, Russia). China's unconventional gas production (43% of total in 2025, including shale and tight gas) provides some domestic buffer but cannot replace the scale of Qatari LNG imports.
+Short-term response mechanisms are limited: find ways to use less gas (demand destruction via price), increase domestic production, or source replacement cargoes from non-Hormuz suppliers ([[Australia]], US, [[Russia]]). China's unconventional gas production (43% of total in 2025, including shale and tight gas) provides some domestic buffer but cannot replace the scale of Qatari LNG imports.
 
 ---
 
@@ -196,9 +192,9 @@ Short-term response mechanisms are limited: find ways to use less gas (demand de
 
 | Factor | Natural Gas | Oil |
 |--------|-------------|-----|
-| Storage visibility | High (weekly EIA) | Moderate |
+| Storage visibility | High (weekly [[EIA]]) | Moderate |
 | Weather sensitivity | Very high | Low |
-| Global pricing | Regional (Henry Hub) | Global (Brent) |
+| Global pricing | Regional ([[Henry Hub]]) | Global (Brent) |
 | AI relevance | Direct (power gen) | Indirect |
 
 ---
@@ -210,17 +206,17 @@ Short-term response mechanisms are limited: find ways to use less gas (demand de
 
 ### Waha negative prices — the geographic disconnect (March 2026)
 
-The Iran conflict's energy distortion in one data point: Waha hub (West Texas) hit **-$9.75/MMBtu** in the week of March 17 — record low weekly average — while TTF surged to €70/MWh (~$20+/MMBtu) and Asian JKM hit $26/MMBtu (spring), projected $30-40 if Hormuz stays closed.
+The [[Iran]] conflict's energy distortion in one data point: Waha hub (West [[Texas]]) hit -$9.75/MMBtu in the week of March 17 — record low weekly average — while [[TTF]] surged to €70/MWh (~$20+/MMBtu) and Asian [[JKM]] hit $26/MMBtu (spring), projected $30-40 if [[Strait of Hormuz|Hormuz]] stays closed.
 
-**Why negative**: Permian oil drilling produces associated gas, but pipeline capacity to market is insufficient. Oil at ~$100/bbl (WTI +47% in 3 weeks) makes drilling profitable despite gas losses. Flaring at 5-year highs. Negative prices more often than positive YTD 2026.
+Why negative: [[Permian Basin|Permian]] oil drilling produces associated gas, but pipeline capacity to market is insufficient. [[Oil]] at ~$100/bbl ([[WTI]] +47% in 3 weeks) makes drilling profitable despite gas losses. Flaring at 5-year highs. Negative prices more often than positive YTD 2026.
 
-**Why the gap can't close**: US LNG export terminals running at capacity. The surplus is physically trapped. The world's largest gas exporter cannot increase deliveries to help global buyers.
+Why the gap can't close: US [[LNG]] export terminals running at capacity. The surplus is physically trapped. The world's largest gas exporter cannot increase deliveries to help global buyers.
 
-Asian response: coal-fired power plants at full capacity (Thailand ordered it; South Korea lifting coal caps; Taiwan preparing). Countries that can switch from gas to coal are doing so — 2022 playbook reprised. Henning Gloystein (Eurasia Group): "Asia is in full price competition, with any country that can switch from gas to coal doing so."
+Asian response: coal-fired power plants at full capacity ([[Thailand]] ordered it; [[South Korea]] lifting coal caps; [[Taiwan]] preparing). Countries that can switch from gas to coal are doing so — 2022 playbook reprised. Henning Gloystein ([[Eurasia Group]]): "Asia is in full price competition, with any country that can switch from gas to coal doing so."
 
 See [[Permian Basin]] for Waha hub detail.
 
-*Source: Bloomberg (Mar 21, 2026), Fortune (Mar 22, 2026), NYT (Mar 18, 2026)*
+*Source: [[Bloomberg]] (Mar 21, 2026), Fortune (Mar 22, 2026), NYT (Mar 18, 2026)*
 
 *Created 2026-01-05. Updated 2026-04-03.*
 
@@ -235,4 +231,5 @@ See [[Permian Basin]] for Waha hub detail.
 - [[Strait of Hormuz]] — chokepoint for LNG/gas flows
 - [[QatarEnergy]] — world's largest LNG producer
 - [[Iran conflict economic disruption]] — TTF spike context
+- [[TTF]] — European gas benchmark
 - [[EQT]] — largest US gas producer

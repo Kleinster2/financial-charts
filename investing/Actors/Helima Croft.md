@@ -89,6 +89,14 @@ The dual-strait framing aligns with [[Robin J. Brooks]]'s argument that Iran's 2
 
 *Source: CNBC, March 30 2026 ([Bab al-Mandeb segment](https://www.cnbc.com/video/2026/03/30/bab-al-mandeb-strait-closing-effectively-shuts-in-all-middle-eastern-oil-says-rbcs-helima-croft.html))*
 
+## April 2026 — No near-term reopening outlook
+
+**CNBC Power Lunch (Apr 2):** "No indication of near-term plan to reopen Hormuz"
+
+**Carnegie Endowment (Apr 1):** "Crude Diplomacy" with Aaron David Miller
+
+**March 30 follow-up:** Bab al-Mandeb closing "effectively shuts in all Middle Eastern oil"
+
 ---
 
 ## Related

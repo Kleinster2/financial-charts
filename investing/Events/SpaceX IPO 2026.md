@@ -128,10 +128,10 @@ Three of the most valuable private companies in history are racing toward IPO in
 | Company | Raise | Valuation | Timeline | Update |
 |---------|-------|-----------|----------|--------|
 | SpaceX | $75B | $1.75T | June 2026 | S-1 filed Apr 1 |
-| [[OpenAI]] | TBD | ~$1T | Q4 2026 / Q1 2027 | Closed $122B round Mar 31 at $852B post-money. $25B annualized revenue run rate (Feb 2026). S-1 expected Q3 2026 |
-| [[Anthropic]] | $60B+ | $400-500B | Oct 2026 | Engaged Wilson Sonsini + bank consortium ([[Goldman Sachs]], [[JPMorgan Chase|JPMorgan]], [[Morgan Stanley]]). Revenue surged from $9B (end-2025) to $19B+ (Mar 2026), driven largely by [[Claude Code]] adoption |
+| [[OpenAI]] | TBD | ~$1T | H2 2026 IPO | $852B post-money, $122B round closed Mar 31, $25B ARR, SoftBank $10B tranche Apr 1 |
+| [[Anthropic]] | $60B+ | $400-500B | Oct 2026 listing | $400-500B target, $19B+ revenue, Wilson Sonsini + GS + JPM, Oct 2026 listing, $60B raise |
 
-Combined: $150B+ in new equity hitting public markets in a year where oil is at $110+, recession odds are rising toward 50%, and the VIX is above 30. This is either going to redefine the IPO market or stress-test it to breaking point.
+Combined: $150B+ in new equity hitting public markets in a year where oil is at $110+, recession odds are rising toward 50%, and the VIX is above 30. Three biggest VC-backed IPOs in one year. This is either going to redefine the IPO market or stress-test it to breaking point.
 
 ---
 

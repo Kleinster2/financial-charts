@@ -5,7 +5,7 @@ tags: [concept, energy, natural-gas, benchmark]
 
 # TTF
 
-Title Transfer Facility — the European benchmark for natural gas pricing. Operated by Gasunie Transport Services at the virtual trading point in the Netherlands. Traded on ICE and EEX. The reference price for European gas contracts, and increasingly the global LNG spot price anchor alongside [[JKM]].
+Title Transfer Facility — the [[Europe|European]] benchmark for [[Natural gas|natural gas]] pricing. Operated by Gasunie Transport Services at the virtual trading point in the [[Netherlands]]. Traded on ICE and EEX. The reference price for European gas contracts, and increasingly the global LNG spot price anchor alongside [[JKM]].
 
 ---
 
@@ -15,9 +15,9 @@ Title Transfer Facility — the European benchmark for natural gas pricing. Oper
 |--------|-------|
 | Unit | €/MWh (or $/MMBtu) |
 | Exchange | ICE Endex, EEX |
-| Operator | Gasunie Transport Services (Netherlands) |
+| Operator | Gasunie Transport Services ([[Netherlands]]) |
 | Role | European gas benchmark |
-| 2022 peak | €345/MWh (August 2022, post-Russia invasion) |
+| 2022 peak | €345/MWh (August 2022, post-[[Russia]] invasion) |
 | Pre-conflict 2026 | ~€33/MWh |
 
 ---
@@ -26,7 +26,7 @@ Title Transfer Facility — the European benchmark for natural gas pricing. Oper
 
 TTF is the price that determines European electricity costs in gas-dependent grids. In [[Italy]], gas sets the electricity price 89% of the time; in [[Germany]], ~40%; even in nuclear-heavy [[France]], TTF spikes ripple through interconnected markets. The pass-through is direct: TTF doubles → electricity costs surge → industrial production curtailed → inflation spikes.
 
-Post-2022, Europe replaced Russian pipeline gas with LNG — much of it from [[Qatar]] via the [[Strait of Hormuz]]. This traded one dependency for another, as [[Robin J. Brooks]] noted (March 23, 2026): the TTF surge from the Iran conflict is already larger than the equivalent period after Russia's 2022 invasion.
+Post-2022, [[Europe]] replaced [[Russia|Russian]] pipeline gas with [[LNG]] — much of it from [[Qatar]] via the [[Strait of Hormuz]]. This traded one dependency for another, as [[Robin J. Brooks]] noted (March 23, 2026): the TTF surge from the [[Iran]] conflict is already larger than the equivalent period after [[Russia]]'s 2022 invasion.
 
 ---
 
@@ -47,9 +47,9 @@ Post-2022, Europe replaced Russian pipeline gas with LNG — much of it from [[Q
 
 [[Goldman Sachs]] estimated [[Qatar]]'s production pause would reduce near-term global LNG supply by ~19%. Goldman warned a monthlong halt to [[Strait of Hormuz|Hormuz]] flows risks driving TTF and [[JKM]] toward €74/MWh — the level that triggered demand destruction during the 2022 crisis (which peaked at €345/MWh in August 2022).
 
-Brooks (March 23): on a comparable timescale, the TTF rise is already bigger than the post-Ukraine invasion spike. Europe's gas storage entering the crisis was low — Netherlands at ~7% — making the refill challenge acute. [[EU]] Energy Commissioner [[Dan Jørgensen]] lowered the storage target from 90% to 80% and pushed the deadline from November 1 to December 1.
+Brooks (March 23): on a comparable timescale, the TTF rise is already bigger than the post-[[Ukraine]] invasion spike. [[Europe]]'s gas storage entering the crisis was low — [[Netherlands]] at ~7% — making the refill challenge acute. [[EU]] Energy Commissioner [[Dan Jørgensen]] lowered the storage target from 90% to 80% and pushed the deadline from November 1 to December 1.
 
-[[Stifel]] analyst Chris Wheaton: "We are much more concerned about European gas prices than we are about oil prices."
+[[Stifel Financial|Stifel]] analyst Chris Wheaton: "We are much more concerned about European gas prices than we are about oil prices."
 
 ---
 

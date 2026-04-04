@@ -81,6 +81,14 @@ Chart finding: Turkish Lira outperformed [[BRL]] and Chilean Peso over Feb 27 â€
 
 *Sources: [Turkey Falls Back into Crisis](https://robinjbrooks.substack.com/p/turkey-falls-back-into-crisis), [Turkey's Huge External Imbalance](https://robinjbrooks.substack.com/p/turkeys-huge-external-imbalance), March 30, 2026*
 
+### Oil market structure and geopolitics (April 2026)
+
+**"How Big is the Oil Price Spike?" (Apr 3):** June Brent futures $112 is the key price. Spot much higher due to scramble. Futures embed war-ending expectation. "Paper vs physical disconnect" is "nonsense." WTI below Brent due to limited US export incentive.
+
+**"Egypt gets it right" (Apr 1):** Egypt letting pound depreciate early. Cites Calvo/Reinhart "Fear of Floating." Contrast: Turkey fighting, Pakistan pegging.
+
+**"Are Central Banks Selling Gold?" (Mar 29):** Turkey CB tapped ~50 tons gold (collateral for FX). Lira only -1% but massive hidden intervention. Turkey idiosyncratic, not broader EM trend.
+
 ## Related
 
 - [[2026 Iran conflict market impact]]

@@ -190,6 +190,12 @@ window.ChartTickerLabels = {
     updateAllLabels(container, priceSeriesMap, tickerColorMap, hiddenTickers, tickerDataSource, chart, labelsVisible, fontSize = 12, preventOverlap = true) {
         if (!container || !chart) return;
 
+        // Scale down labels in grid-compact mode
+        const card = container.closest('.chart-card');
+        if (card && card.classList.contains('grid-compact')) {
+            fontSize = 8;
+        }
+
         const existingLabels = new Set();
 
         // Helper to get data from either Map or Object

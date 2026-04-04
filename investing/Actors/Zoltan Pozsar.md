@@ -73,6 +73,16 @@ Pozsar writes long, dense dispatches packed with balance sheet diagrams and flow
 
 ---
 
+## Recent analysis (2026)
+
+Trump "methodically building portfolio of assets" — Venezuela, Panama Canal, Iran oil, Hormuz
+
+"When reserves can be frozen, they no longer function as reserves"
+
+Pozsar + Miran as key intellectual architects of Trump economic policy
+
+---
+
 ## Related
 
 - [[Bretton Woods]]

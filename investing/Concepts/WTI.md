@@ -39,6 +39,7 @@ As of March 21: WTI +46% since hostilities began — significantly less than Bre
 | Mar 7 | $90.90/bbl | +40%+ from pre-conflict |
 | Mar 9 | >$100/bbl | Triple digits |
 | Mar 21 (Fri) | +46% since hostilities | Brooks Q&A data point |
+| Apr 2 | $111.54 | +11% on Trump escalation threat |
 
 The WTI-Brent spread widened during the conflict — WTI's relative insulation reflects the physical reality that US crude doesn't transit [[Strait of Hormuz|Hormuz]] and US refining capacity can process domestic supply. The Cushing hub's pipeline connections to the Gulf Coast and Midcontinent refineries create a partially closed system.
 
@@ -53,6 +54,16 @@ The WTI-Brent spread widened during the conflict — WTI's relative insulation r
 [[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) quantified the pre-crisis positioning: a 10-year low in Brent longs and a 10-year high in WTI shorts. The world was maximally disinterested in oil heading into the conflict. This explains both the violence of the initial repricing and the sharp sell-offs on any de-escalation headline — "hot money" entered the trade rapidly and exits just as fast. The positioning swing (10-year extreme short → crisis buying) is the primary driver of volatility amplitude, not fundamentals.
 
 *Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
+
+## April 2, 2026 — Oil surge
+
+**WTI +11% to $111.54.** Trump speech: "hit Iran extremely hard" next 2-3 weeks, but "discussions ongoing"
+
+Iran-Oman draft "monitored transit" protocol (IRNA/Gharibabadi)
+
+IRGC: Strait "decisively under control"
+
+Oxford Analytica: US "washed its hands" of Strait navigation
 
 ---
 

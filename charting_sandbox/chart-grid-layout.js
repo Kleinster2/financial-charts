@@ -107,6 +107,11 @@ window.GridLayout = (() => {
             requestAnimationFrame(() => {
                 applyThemeToCharts(wrapper, isGrid);
                 resizeAllCharts(wrapper);
+                // Scale ticker labels for grid mode
+                wrapper.querySelectorAll('.ticker-label').forEach(lbl => {
+                    lbl.style.fontSize = isGrid ? '8px' : '';
+                    lbl.style.padding = isGrid ? '1px 3px' : '';
+                });
                 // Setup crosshair sync for grid layouts
                 if (isGrid && crosshairSyncEnabled) {
                     setupCrosshairSync(wrapper);

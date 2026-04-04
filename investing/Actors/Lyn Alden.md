@@ -111,6 +111,14 @@ Alden's fiscal cascade framework complements the physical-market analysis from [
 
 *Source: [Lyn Alden, March 2026 newsletter](https://www.lynalden.com/march-2026-newsletter/)*
 
+## April 2, 2026 — CNBC Morning Call
+
+**"Most portfolios not built for stagflation risks"**
+
+Cash as near-term safe haven. Fiscal dominance reshaping markets
+
+**McCormack interview (Mar 31):** "DEFCON 5... catastrophe" on debt crisis
+
 ---
 
 ## Related

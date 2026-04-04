@@ -90,6 +90,16 @@ The March 31 market action (+1.14% S&P on Trump ceasefire signals) partially val
 
 *Sources: Bloomberg (Mar 30, 2026), Morgan Stanley Thoughts on the Market podcast (Mar 30, 2026)*
 
+## March 30-April 2, 2026 — Hormuz reopening buy list
+
+**"Correction getting closer to ending."** S&P fwd P/E compressed 17%. Half of R3000 down ≥20%
+
+**11-stock buy list for Hormuz reopening:** BKNG, CHWY, HAS, W, C, MA, STT, ZION, JCI, TT, ROK
+
+**"Cumulative probability of resuming tanker flow much higher than recession probability"**
+
+S&P tactical floor at 6,300. Gold-to-equity ratio +12% since conflict
+
 ---
 
 ## Related

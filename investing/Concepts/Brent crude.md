@@ -42,6 +42,7 @@ The Brent-WTI spread captures the relative position of Atlantic Basin vs US supp
 | Mar 10 | ~$120 → <$100 | Unexplained large sells (Treasury speculation) |
 | Mar 20 | ~$113, spiked >$119 intraday | Tooze "Wile E. Coyote" |
 | Mar 21 (Fri) | +64% since hostilities | Brooks Q&A data point |
+| Apr 2 | $109.03 | +7.8% on Trump escalation threat |
 
 [[Robin J. Brooks]] comparison to 2022 [[Russia]]-[[Ukraine]] invasion: Brent +64% on a similar timescale, roughly matching early 2022 trajectory. But [[Dubai crude]] at +123% and [[Murban]] at $150-160 reveals that Brent *understates* the physical market pain for Asian refiners — the headline price is not the price the world's largest crude consumers are paying.
 
@@ -54,6 +55,16 @@ Brooks' near-peak thesis: ~10M bbl/day [[Strait of Hormuz]] shortfall × consens
 ## Wiggen: $100 floor, Truth Social volatility (March 23)
 
 [[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) observed Brent dipping below $100 on Trump's Truth Social post claiming productive talks with [[Iran]] — immediately denied by Iranian authorities. The physical market didn't follow the paper sell-off. Wiggen places $100 as the approximate Brent floor while the [[Strait of Hormuz]] remains closed, with room for Brent to appreciate to ~$130 before reaching a demand destruction threshold (refiners remain profitable up to that level). The pre-crisis positioning — 10-year low in Brent longs, 10-year high in WTI shorts — means violent sell-offs on de-escalation headlines reflect "hot money" profit-taking rather than structural repricing.
+
+## April 2, 2026 — Oil surge
+
+**Brent +7.8% to $109.03.** Trump speech: "hit Iran extremely hard" next 2-3 weeks, but "discussions ongoing"
+
+Iran-Oman draft "monitored transit" protocol (IRNA/Gharibabadi)
+
+IRGC: Strait "decisively under control"
+
+Oxford Analytica: US "washed its hands" of Strait navigation
 
 ---
 

@@ -96,6 +96,18 @@ The March 29-30 QuickTakes maintain the same dual framing: (1) the oil shock is 
 
 *Source: Yardeni QuickTakes (Mar 29-30, 2026)*
 
+## April 2, 2026 — Market bottom vs recession warning
+
+**CNBC Closing Bell (Apr 2):** "Market bottom is in"
+
+**BUT Thoughtful Money interview:** raised recession prob 20%→35%
+
+Roaring 2020s still 60% base case. Bond vigilantes concern
+
+Warns stagflationary "lost decade" if Hormuz stays constricted
+
+US energy independence as strategic buffer vs 1970s
+
 ---
 
 ## AI fatigue call (Jan 2026)

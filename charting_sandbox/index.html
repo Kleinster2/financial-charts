@@ -139,7 +139,10 @@
     /* Hide floating legend in grid mode -- too noisy */
     .grid-compact .floating-legend { font-size: 0.7rem !important; opacity: 0.7; }
     .grid-compact .chart-box { background: #131722; }
-    .grid-compact .ticker-label { font-size: 8px !important; padding: 1px 3px !important; }
+    .grid-compact .ticker-label { display: none !important; }
+    .grid-compact .fixed-legend { font-size: 9px !important; line-height: 1.2 !important; }
+    .grid-maximized .ticker-label { display: block !important; }
+    .grid-maximized .fixed-legend { font-size: 24px !important; }
 
     /* Context menu for ticker chips */
     .chip-context-menu {
@@ -229,7 +232,7 @@
   <script src="chart-fixed-legend.js?v=6"></script>
   <script src="chart-export.js?v=3"></script>
   <script src="chart-series-manager.js?v=6"></script>
-  <script src="chart-ticker-labels.js?v=1"></script>
+  <script src="chart-ticker-labels.js?v=2"></script>
   <script src="chart-volume.js?v=5"></script>
   <script src="chart-dom-builder.js?v=20"></script>
   <script src="card-event-binder.js?v=1"></script>
