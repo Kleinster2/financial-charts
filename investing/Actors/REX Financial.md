@@ -101,6 +101,14 @@ MicroSectors is the oldest and largest product line — ~$11.8B total across 20 
 
 **Structure note:** MicroSectors are ETNs (unsecured debt of BMO), not ETFs. Credit risk of issuer applies.
 
+### Thematic ETFs
+
+| Ticker | Name | AUM | Launch |
+|--------|------|-----|--------|
+| DRNZ | REX Drone ETF | ~$78M | Oct 2025 |
+
+DRNZ is the first pure-play drone/UAV ETF — 51 holdings across defense and commercial drones, 0.65% expense ratio. See [[Drones]] sector note.
+
 ### REX-Osprey (crypto spot ETFs)
 
 Collaboration with Osprey Funds (Greg King is CEO of both). Spot crypto ETFs for tokens beyond BTC/ETH.

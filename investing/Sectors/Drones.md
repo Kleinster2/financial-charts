@@ -89,6 +89,39 @@ First flight January 11, 2026. Heavy cargo drone from [[Norinco]] subsidiary Xi'
 
 ---
 
+## Sector benchmark: DRNZ
+
+**[[REX Financial|REX]] Drone ETF (DRNZ)** — first pure-play drone ETF. Launched Oct 29, 2025 on NASDAQ.
+
+| Metric | Value |
+|--------|-------|
+| **AUM** | ~$78M (Apr 2026) |
+| **Holdings** | 51 |
+| **Expense ratio** | 0.65% |
+| **NAV** | $24.30 (Apr 1, 2026) |
+| **Since inception** | –11.7% |
+
+**Top 10 holdings (Apr 1, 2026):**
+
+| Ticker | Name | Weight |
+|--------|------|--------|
+| AVAV | [[AeroVironment]] | 11.4% |
+| NXSN | Next Vision Stabilized Systems | 10.8% |
+| ONDS | Ondas Holdings | 10.0% |
+| DRO | DroneShield (ASX) | 7.5% |
+| ELS | Elsight (ASX) | 4.7% |
+| FLT | Volatus Aerospace (TSX) | 4.5% |
+| EH | [[Ehang]] | 4.5% |
+| RCAT | Red Cat Holdings | 4.0% |
+| UMAC | [[Unusual Machines]] | 3.6% |
+| 278A | Terra Drone (JPX) | 3.0% |
+
+Modified free-float market cap weighting. "Pureplay" companies (≥50% revenue from drones) capped at 15% each; "Diversified" companies capped at 5%. Global coverage — US, Australia, Canada, Japan, Israel.
+
+**Competitor:** UAV (AdvisorShares Drone Technology ETF) — functionally dead at ~$685K AUM.
+
+---
+
 ## Investment vehicles
 
 | Company | Ticker | Angle |
@@ -101,6 +134,8 @@ First flight January 11, 2026. Heavy cargo drone from [[Norinco]] subsidiary Xi'
 | [[Powerus]] | PUSA (expected) | Heavy-lift UAS, defense roll-up; Trump family-backed |
 | [[Unusual Machines]] | UMAC | Drone components; Trump Jr. adviser |
 | [[XTEND]] | — (via JFB.O) | Israeli AI drones; Eric Trump-backed |
+
+**ETF:** DRNZ (REX Drone ETF) — pure-play sector benchmark
 
 **Private:** [[Zipline]], [[Wing]] (Alphabet), [[Skydio]], [[DJI]]
 
