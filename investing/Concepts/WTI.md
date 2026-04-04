@@ -5,7 +5,7 @@ tags: [concept, energy, oil, benchmark]
 
 # WTI
 
-West Texas Intermediate — the US benchmark crude oil price. Traded on NYMEX (part of [[CME Group]]). Delivery point: Cushing, Oklahoma — a landlocked hub with ~76M barrels of storage capacity, connected to the Gulf Coast refining complex by pipeline.
+West Texas Intermediate — the US benchmark crude oil price. Traded on NYMEX (part of [[CME Group]]). Delivery point: [[Cushing]], Oklahoma — a landlocked hub with ~76M barrels of storage capacity, connected to the Gulf Coast refining complex by pipeline.
 
 ---
 
@@ -41,7 +41,7 @@ As of March 21: WTI +46% since hostilities began — significantly less than Bre
 | Mar 21 (Fri) | +46% since hostilities | Brooks Q&A data point |
 | Apr 2 | $111.54 | +11% on Trump escalation threat |
 
-The WTI-Brent spread widened during the conflict — WTI's relative insulation reflects the physical reality that US crude doesn't transit [[Strait of Hormuz|Hormuz]] and US refining capacity can process domestic supply. The Cushing hub's pipeline connections to the Gulf Coast and Midcontinent refineries create a partially closed system.
+The WTI-Brent spread widened during the conflict — WTI's relative insulation reflects the physical reality that US crude doesn't transit [[Strait of Hormuz|Hormuz]] and US refining capacity can process domestic supply. The [[Cushing]] hub's pipeline connections to the Gulf Coast and Midcontinent refineries create a partially closed system.
 
 [[Amrita Sen]] ([[Energy Aspects]], CNBC, March 23) identified WTI as the bottom of a three-tier pricing structure: [[Dubai crude]] at $150-160 (genuine Asian tightness), [[Brent crude]] ("most mispriced," should be closer to Dubai), then WTI (most shielded). The US remains the most insulated region — largest producer, [[Strategic Petroleum Reserve|SPR]] release providing a cushion, and market expectation of further US intervention keeping prices suppressed. Sen expects WTI-Brent to widen further, not narrow. Energy Secretary [[Chris Wright]] ruled out export bans, but the market continues to price some form of Trump intervention keeping WTI below global benchmarks.
 

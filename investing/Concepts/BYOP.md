@@ -60,6 +60,7 @@ Grid power availability is the binding constraint on AI infrastructure buildout.
 | [[Google]] | [[Kairos Power]] | 500MW | SMR development |
 | [[Oracle]] | Nuclear DC | TBD | Nuclear permits ([[Larry Ellison]]) |
 | [[xAI]] | Colossus | 2GW | Bitcoin miner partnerships |
+| [[Meta]] / [[EdgeConneX]] | Project Walleye (Ohio) | TBD | Island mode -- on-site gas microgrid, first combined DC + power financing ($3B) |
 
 ---
 
@@ -207,7 +208,7 @@ Demand backdrop: [[BloombergNEF]] estimates US data center power demand surges f
 | Microsoft TMI | 835MW (nuclear) |
 | Amazon Talen | 960MW (nuclear) |
 
-*Updated 2026-03-04*
+*Updated 2026-04-04*
 
 ---
 
@@ -230,6 +231,7 @@ Demand backdrop: [[BloombergNEF]] estimates US data center power demand surges f
 - [[Constellation Energy]] — nuclear operator
 - [[Vistra]] — Texas power
 - [[Generate Capital]] — David Crane overbuilding warning (Mar 2026)
+- [[EdgeConneX]] — Project Walleye operator ([[EQT]], first combined DC + power financing)
 - [[DC power prices]] — ratepayer impact of DC demand
 - [[Global DC grid strain]] — grid queue crisis driving BYOP adoption (UK: 125 GW queue, 8-10 yr waits)
 - [[Ratepayer Protection Pledge]] — Trump's take-or-pay formalization

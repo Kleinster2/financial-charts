@@ -27,7 +27,7 @@ The global benchmark for oil pricing. Originally named after the Brent oilfield 
 
 Brent is the *headline* oil price — the number that shows up in financial news, central bank models, and government budgets. But it can diverge significantly from physical crude pricing in specific regions. During supply disruptions in the Gulf, Middle East benchmarks ([[Dubai crude]], [[Murban]]) can trade at steep premiums to Brent because Brent reflects global futures sentiment while Gulf benchmarks reflect physical tightness.
 
-The Brent-WTI spread captures the relative position of Atlantic Basin vs US supply/demand. Historically Brent trades at a small premium to [[WTI]] because WTI delivery is landlocked at Cushing, Oklahoma, while Brent is seaborne.
+The Brent-WTI spread captures the relative position of Atlantic Basin vs US supply/demand. Historically Brent trades at a small premium to [[WTI]] because WTI delivery is landlocked at [[Cushing]], Oklahoma, while Brent is seaborne.
 
 ---
 

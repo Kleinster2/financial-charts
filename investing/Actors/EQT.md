@@ -31,11 +31,12 @@ aliases: [EQT Partners, EQT AB]
 
 ---
 
-## Notable tech investments
+## Notable investments
 
 | Company | Strategy | Status |
 |---------|----------|--------|
 | **[[Harvey]]** | Growth | $8B |
+| **[[EdgeConneX]]** | Buyout | Private -- hyperscale DC operator |
 | **Zendesk** | Buyout | Private |
 | **IFS** | Buyout | Private |
 | **Waystar** | Buyout | Public |
@@ -78,11 +79,21 @@ Sweden's most powerful business dynasty.
 
 ---
 
+## EdgeConneX -- AI infrastructure (Apr 2026)
+
+[[EdgeConneX]], an EQT portfolio company, is operating a [[Meta]]-backed data center campus ("Project Walleye") in New Albany, Ohio. The project is seeking $3B in construction loans with a novel structure: lenders fund both the data center and on-site natural gas power generation in a single transaction. EdgeConneX clients include [[NVIDIA]], [[Google]], [[Oracle]], and [[Meta]]. The deal signals EQT Infrastructure's positioning in AI data center buildout.
+
+*Source: FT (Apr 3, 2026)*
+
+---
+
 ## Related
 
 - [[Harvey]] — portfolio company
+- [[EdgeConneX]] — portfolio company (data center operator, Project Walleye)
 - [[KKR]] — peer (PE)
 - [[Blackstone]] — peer (PE)
+- [[AI infrastructure financing]] -- EdgeConneX/Meta deal (novel structure)
 
 ---
 

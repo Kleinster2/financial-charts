@@ -165,7 +165,7 @@ The retail model is breaking. After 5 years of selling illiquid loans as "bond a
 | ARCC ([[Ares Management]]) | $26B+ | 🟡 **11.6% Q1 requests** — capped at 5% |
 | OBDC ([[Blue Owl]]) | $16B+ | 🟡 Watching |
 
-**Latest escalation (Apr 2):** [[Blue Owl]] OTIC/OCIC report record redemption requests — 40.7% and 21.9% respectively. Combined ~$5.4B attempted withdrawals. [[KKR]] K-FIT also gated (Apr 1). House Financial Services Committee Democrats sent questions to [[Blackstone]], [[Ares Management|Ares]], and rivals.
+**Latest escalation (Apr 2):** [[Blue Owl]] OTIC/OCIC report record redemption requests — 40.7% and 21.9% respectively. Combined ~$5.4B attempted withdrawals. [[KKR]] K-FIT also gated (Apr 1). House Financial Services Committee Democrats sent questions to [[Blackstone]], [[Ares Management|Ares]], and rivals. [[Morgan Stanley]] forecasts annual private credit defaults of **8%** (H2 2026–H1 2027), led by software. [[Jerome Powell|Fed Chair Powell]] (Mar 30): *"has not seen anything"* threatening the financial system but is watching. Combined alt manager YTD market cap loss: **$132B** (Reuters).
 
 **Prior escalation (Mar 11):** [[JPMorgan Chase|JPMorgan]] marks down software loan collateral values in its back-leverage business — first major bank to restrict funding to private credit.
 

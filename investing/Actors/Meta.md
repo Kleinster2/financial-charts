@@ -406,6 +406,16 @@ CIP surge (Q3'24 → Q3'25: +$20.7B YoY):
 
 ---
 
+## Project Walleye -- New Albany, Ohio (Apr 2026)
+
+[[EdgeConneX]] (operated by [[EQT]]) campus seeking $3B in construction loans with a first-of-its-kind financing structure: lenders fund both building and on-site natural gas power assets in a single transaction. The campus will operate in "island mode" -- its own microgrid, independent from the main grid initially, with potential grid connection later. Debt pitched at SOFR + 250bp (slightly higher than typical Big Tech-backed projects due to "project-on-project risk" of underwriting two asset types). Expected to receive private investment-grade rating thanks to Meta lease agreement.
+
+The combined DC + power loan is a new template for [[BYOP]] financing. Prior deals separated construction and power into distinct instruments. See [[AI infrastructure financing]].
+
+*Source: FT, Michelle Chan, Antoine Gara, Eric Platt, Rafe Rosner-Uddin (Apr 3, 2026)*
+
+---
+
 ## Socrates South power generation (Jan 2026)
 
 Meta building 200MW+ on-site gas power generation:
@@ -445,6 +455,7 @@ Off-balance-sheet:
 | Project | Location | Meta Share | Structure |
 |---------|----------|------------|-----------|
 | Hyperion | Louisiana | $6B | $30B SPV with [[Blue Owl]], Meta 20% equity |
+| Project Walleye | New Albany, Ohio | Lease | $3B construction loan via [[EdgeConneX]] ([[EQT]]) |
 
 Hyperion (Louisiana):
 - 5GW eventual capacity
@@ -599,6 +610,7 @@ Equity award cuts (Feb 19, 2026): Cut stock awards by ~5% for most employees - s
 - [[Siemens Energy]] - power supplier (Socrates South)
 - [[Blue Owl]] - Hyperion DC JV partner ($27B, 80/20 split)
 - [[Entergy]] — Hyperion power provider (Smalling Substation, 3 gas plants)
+- [[EdgeConneX]] — Project Walleye operator (New Albany, Ohio; $3B combined DC + power financing, [[EQT]])
 - [[Data center boomtown effect]] — community disruption from Hyperion construction
 - [[Anduril]] - defense partnership (AI helmet, Jan 2026)
 - [[Corning]] - $6B fiber-optic deal for AI data centers (Jan 2026)

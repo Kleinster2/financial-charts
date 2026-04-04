@@ -398,7 +398,15 @@ OTIC's 40.7% is the highest quarterly redemption request the non-traded BDC indu
 
 [[Blue Owl]] holds 50,000 [[SpaceX]] shares, carried at a valuation of ~$720B (~$195M position). At SpaceX's potential IPO valuation of $1.75T, the position could be worth ~$500M (Barron's, Mar 26). OWL stock trades at $9.03 — down from $51.84 high earlier in 2026, a -83% drawdown driven by OBDC II gate, Iran war contagion, and broader alternative manager selloff. A successful SpaceX IPO at the high-end valuation would represent meaningful upside relative to OWL's current ~$6B market cap.
 
-*Updated 2026-04-03*
+![[bdc-redemption-requests-q1-2026-detail.jpg]]
+
+*Detailed Q1 2026 BDC redemption requests by fund. Blue Owl OTIC (far left) leads at ~40.7% requested, with only 5% honored. OCIC at 21.9%. Combined ~$5.4B in attempted withdrawals with ~$8B industry-wide stuck behind gates. Source: company filings.*
+
+**Morgan Stanley forecast (Apr 2):** Expects annual private credit defaults of **8%** between H2 2026 and H1 2027, led by stress in software companies. Barclays warned: *"Many private credit funds have become very concentrated in a handful of sectors, in particular software."*
+
+**Alt manager damage:** Major alt managers (APO, BX, ARES, KKR, CG, OWL) have lost a combined **$132 billion in market value** YTD 2026 (Reuters). OWL worst at ~45%.
+
+*Updated 2026-04-04*
 
 Sources:
 - [Bloomberg - How AI Companies Are Keeping Debt Off Their Balance Sheets](https://www.bloomberg.com/news/articles/2025-10-31/meta-xai-starting-trend-for-billions-in-off-balance-sheet-debt) (Oct 31, 2025)

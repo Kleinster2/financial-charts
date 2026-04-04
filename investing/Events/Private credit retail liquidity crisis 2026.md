@@ -53,6 +53,9 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **Apr 2, 2026** | **[[Blue Owl]] OTIC/OCIC — record-breaking redemption requests.** OTIC ($6.2B, tech lending): **40.7%** of shares tendered — highest quarterly request in industry history. OCIC ($36B, flagship direct lending): **21.9%** tendered. Combined ~$5.4B in attempted withdrawals (Reuters). Both capped at 5%. Q4 2025 comparison: OTIC allowed 15.4%, OCIC was 5%. Packer: *"heightened negative sentiment toward the asset class."* OWL hit **new all-time low**, fell as much as 7%. ~45% market cap loss YTD. Concentration detail: **1% of OCIC shareholders = majority of tender requests**; 90% didn't tender. OTIC requests amplified by concentrated shareholder base in specific wealth channels/regions. Both funds saw gross inflows; combined with 5% gates = modest net outflows. Software ~20% of BDC portfolio exposure (Jefferies). See [[Blue Owl]] |
 | **Apr 2, 2026** | **[[Ares Management\|Ares]] Q1 requests revised higher:** investors sought **11.6%** (prior reporting had ~5.6%), capped at 5%. Confirms industry-wide acceleration |
 | **~Apr 2, 2026** | **Stovall ([[CFRA Research]]):** *"Don't try this at home. Private credit does not have the kind of liquidity that public markets would have."* — representative of mounting analyst warnings to retail |
+| **Apr 2, 2026** | **[[Morgan Stanley]] default forecast:** expects annual private credit defaults of **8%** between H2 2026 and H1 2027, led by stress in software companies. Sits between UBS's 15% worst-case and current 5.8% (Fitch) |
+| **Apr 2, 2026** | **[[Barclays]] on software concentration:** *"Many private credit funds have become very concentrated in a handful of sectors, in particular software. As this risk [of software companies going obsolete] increases, so too will the probability of default"* |
+| **Apr 2, 2026** | **Alt manager YTD losses:** Combined **$132 billion in market value** lost by major alt managers in 2026 (Reuters calculation — APO, BX, ARES, KKR, CG, OWL) |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. [[Guggenheim Partners]] exec chair [[Alan Schwartz]] (former [[Bear Stearns]] CEO): *"cracks in the foundation."* [[Blackstone]] chief [[Jon Gray]]: *"never seen something so disconnected from reality."* [[Diameter Capital]] co-founder Scott Goodwin: AI risk factor affects >50% of PE/credit deals from past decade. [[Partners Capital]] John Beil: *"PE has lagged public benchmarks by meaningful amounts"* over 5 years, predicts Q1 software writedowns. Former [[Goldman Sachs]] CEO [[Lloyd Blankfein]]: liquidity mismatch *"more likely"* given time since last major credit crash. [[Bank of England]] stress test this year; governor Bailey says *"alarm bells"* ringing. Treasury OFR estimates bank lending to private credit **up to $540B**. [[Davidson Kempner]]: ~25% of PE funds since 2015 failed to earn carry |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. **>$100B in funds** to disclose Q1 data ([[Barclays]]) |
 
@@ -189,6 +192,10 @@ Private credit's retail push was built on an inherent mismatch:
 *Source: Robert A Stanger & Co.*
 
 **>$100B in funds** will disclose Q1 redemption data in coming weeks ([[Barclays]]).
+
+![[bdc-redemption-requests-q1-2026-detail.jpg]]
+
+*Detailed Q1 2026 BDC redemption requests by fund. Total requests (blue+light blue) vs amount redeemed (dark blue) as % of NAV. Blue Owl OTIC leads at ~40.7% requested, with only 5% honored — nearly 28% of NAV trapped behind gates. HPS, North Haven ([[Morgan Stanley]]), Apollo, and Ares at 5-15% range, mostly met. Across all tracked funds, ~$8B stuck behind gates in Q1 alone. Source: company filings.*
 
 Retail investors are running **before defaults even spike** — non-accruals at Blue Owl's funds are only 1.1%. The market is front-running AI disruption of software borrowers before credit losses materialize. But defaults are now rising: Fitch Ratings reports US private credit defaults climbed to **5.8%** in the 12 months through January 2026 — the highest since Fitch began tracking (August 2024).
 
@@ -689,6 +696,8 @@ Trump decision to allow 401(k) retirement savings accounts to invest in private 
 | FT aggregate Q1 redemptions (7 funds, Mar 23) | **$11.7B requested, 66% fulfilled** ($7.8B) |
 | **Blue Owl OTIC Q1 redemptions** | **40.7% of $6.2B** — industry all-time record |
 | **Blue Owl OCIC Q1 redemptions** | **21.9% of $36B** — ~$5.4B combined with OTIC |
+| Alt manager YTD market cap loss (combined) | **$132B** (Reuters, Apr 2) |
+| [[Morgan Stanley]] default forecast | **8%** annual (H2 2026–H1 2027), led by software |
 | Apollo ADS redemptions (Q1 2026) | **$1.6B requested** (11.2% NAV), $730M honored (~46%) |
 | Ares Q1 redemptions | **11.6%** (revised up from ~5.6%) |
 | Cliffwater Q1 redemptions | **~14% of NAV** |

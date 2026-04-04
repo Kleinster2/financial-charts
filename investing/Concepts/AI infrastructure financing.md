@@ -68,6 +68,7 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 | **[[AI financing structures]]** | PE takes 80%, hyperscaler leases back | Meta-Blue Owl $60B |
 | **[[GPU-as-collateral]]** | GPUs secure debt, 11-14% rates | CoreWeave $7.5B ("The Box") |
 | **Construction JV** | Bank finances build, long-term lease | Crusoe-JPMorgan $15B |
+| **Combined DC + power** | Single loan covers building and on-site generation | Meta/[[EdgeConneX]] "Walleye" $3B |
 | **Chip vendor equity** | [[NVIDIA]]/[[AMD]] invest for supply lock | OpenAI-[[NVIDIA]] $100B |
 
 See [[AI infrastructure deals]] for detailed capital stacks.
@@ -176,7 +177,7 @@ See [[Significant risk transfer]], [[AI infrastructure financing risk]].
 
 ---
 
-*Updated 2026-02-02*
+*Updated 2026-04-04*
 
 Sources:
 - Bloomberg (Oct 31, 2025) — off-balance-sheet trend
@@ -191,7 +192,8 @@ Sources:
 - [[Blue Owl]] — key financier
 - [[Blackstone]] — key financier
 - [[CoreWeave]] — GPU-collateral pioneer
-- [[Meta]] — SPV template deal
+- [[Meta]] — SPV template deal + Project Walleye (combined DC + power financing)
+- [[EdgeConneX]] — Meta-backed DC operator, first combined DC + power loan ($3B, [[EQT]])
 - [[OpenAI]] — 26 GW committed
 - [[Significant risk transfer]] — banks offloading exposure
 - [[Power constraints]] — capital alone isn't enough
