@@ -158,6 +158,23 @@ TECHCET CEO Lita Shon-Roy: *"Helium can leak out about 0.1 to 1 percent per mont
 
 ---
 
+## All-In E222 update (Apr 3)
+
+*Data from All-In Podcast Episode 222, April 3, 2026*
+
+**Qatar helium concentration:** 1/3 of world helium production from [[Qatar]], now disrupted — confirms the ~30% supply removal estimate from earlier analysis.
+
+**Critical industry applications:**
+- **MRI machines:** Magnetic resonance imaging requires liquid helium for superconducting magnets cooling
+- **Semiconductor manufacturing:** Essential for advanced chip fabrication processes and etching
+- **Mass spectrometry:** Laboratory analysis equipment requires helium as carrier gas
+
+**No substitute availability:** "No quick substitute" for helium in these critical applications — unlike other industrial gases where alternatives exist, helium's unique properties (lowest boiling point, inert, small molecular size) make it irreplaceable in high-tech manufacturing and medical applications.
+
+**Compounding effect:** Helium supply crisis compounds the broader energy crisis, creating multiple simultaneous supply chain pressures beyond oil and gas — affecting healthcare (MRI availability), technology manufacturing (chip production), and research capabilities (laboratory equipment).
+
+---
+
 ## Related
 
 - [[Helium]] — the commodity: properties, supply structure, shortage history, reserve liquidation

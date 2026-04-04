@@ -296,6 +296,20 @@ ChatGPT was integrated into Siri/iOS in 2024-2025 (no cash exchanged — Apple v
 
 ---
 
+## Apr 2026 — secondary market + IPO pressure
+
+*Data from All-In Podcast Episode 222, April 3, 2026*
+
+**Secondary market strain:** Bloomberg (Apr 2): investors can't find buyers at $850B valuation. $600M worth of shares seeking liquidity in private markets — sellers struggling to find bids at current pricing.
+
+**Scale paradox:** [[Chamath Palihapitiya|Chamath]]: "I've never seen a business like this... these are trillion dollar companies" in terms of revenue potential and market impact. However, capital absorption remains the primary constraint — the amount of money required to stay competitive is growing faster than the ability to deploy it efficiently.
+
+**Tech sector P/E convergence thesis:** Chamath prediction: after mega-IPOs from SpaceX, OpenAI, and [[Anthropic]], the entire tech sector's price-to-earnings multiples will converge DOWN toward non-tech sector P/E ratios. Reasoning: these AI companies' capabilities will erode existing tech companies' competitive moats. "It's going to be nasty" for incumbent tech valuations.
+
+**TBPN acquisition context:** The [[TBPN]] deal (already covered above) represents OpenAI's recognition that narrative control is as important as product leadership in the competitive landscape.
+
+---
+
 ## Related
 
 - [[ChatGPT]] — consumer/enterprise interface, 75% of revenue

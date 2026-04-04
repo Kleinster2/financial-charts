@@ -754,6 +754,20 @@ At the [[India AI Impact Summit 2026]] (Feb 16-20), [[Anthropic]] announced its 
 
 ---
 
+## Apr 2026 — secondary market
+
+*Data from All-In Podcast Episode 222, April 3, 2026*
+
+**Secondary market strength:** Strong demand at $600B valuation vs current $380B — representing 58% premium to latest Series G. Active secondary bids significantly above current valuation reflect investor appetite for exposure.
+
+**Internal leaks:** Leaked texts reference "version of AGI running inside Anthropic" — suggesting frontier capabilities beyond public releases. If accurate, positions Anthropic closer to AGI timeline than market realizes.
+
+**Claude Code advancement:** Feature-flagged improvements leaked — "actually much further ahead than models realized." Development pipeline suggests capabilities significantly beyond current public releases, supporting aggressive secondary market pricing.
+
+**Code transmutation incident:** [[Chamath Palihapitiya|Chamath]] referenced crypto community incident where someone took Anthropic code, translated to another programming language, and posted on GitHub. If Anthropic claims intellectual property violation ("can't do that"), it undermines their own legal argument about training AI models on copyrighted data — creating "training-on-data argument" contradiction that could impact ongoing copyright litigation.
+
+---
+
 ## Related
 
 - [[AI extensibility]] - MCP originator, Skills open standard, platform strategy

@@ -359,6 +359,32 @@ FAO FPI baseline: Feb 2026 at 125.3 points (down 21.8% from March 2022 peak). Th
 
 ---
 
+## All-In E222 update (Apr 3)
+
+*Data from All-In Podcast Episode 222, April 3, 2026*
+
+**Urea price escalation:** $350/ton pre-war → $700/ton (doubled), confirming the structural break beyond temporary spike. Price doubling validates thesis that this is supply destruction, not temporary disruption.
+
+**[[Strait of Hormuz]] fertilizer dependency:** 35% of world's nitrogen fertilizer transits Hormuz — slightly higher than previously estimated, reinforcing chokepoint vulnerability.
+
+**China double squeeze:** China simultaneously shut fertilizer exports AND stopped buying US corn — creating dual pressure on American farmers from both input costs (fertilizer) and demand destruction (export market).
+
+**[[Qatar]] infrastructure damage:** Main urea facility damaged by strikes requires 3-5 year repair timeline. New fertilizer facilities require 7 years to build — no quick supply replacement possible.
+
+**Zero spare capacity:** All global fertilizer facilities operating 24/7/365 at full capacity with zero spare production. No surge capacity exists to offset supply disruptions.
+
+**US farmer adaptation:** 1/3 of US farmers who didn't secure fertilizer pre-war are switching to soybeans for spring planting — confirming nitrogen-to-soybean substitution thesis.
+
+**Fall planting vulnerability:** "Fall planting in a couple of months will be worse" — spring substitution possible but autumn vulnerability remains acute.
+
+**Global hunger comparison:** Crisis could exceed Ukraine war's impact of 400M malnourished people — unprecedented scale for fertilizer-driven food disruption.
+
+**Strategic reserves absence:** World maintains <30 days of calories stored — no buffer against extended fertilizer disruption, confirming absence of strategic food/fertilizer reserves.
+
+**Natural gas linkage:** Natural gas is direct INPUT to nitrogen fertilizer via Haber-Bosch process. Gas disruption equals fertilizer disruption — energy-agriculture nexus fully exposed.
+
+---
+
 ## Related
 
 - [[Strait of Hormuz]] — the physical chokepoint

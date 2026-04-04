@@ -153,6 +153,30 @@ Ark Invest sees $2.5T+ by 2030 if Starlink and space AI scale.
 
 ---
 
+## All-In E222 (Apr 3)
+
+*Data from All-In Podcast Episode 222, April 3, 2026*
+
+**Revenue scale:** $15-16B total revenue (2025), with $8B profit (Reuters). [[Starlink]] generating ~$20B/yr (~50-80% of total revenue). Launch business ~$5B (2024).
+
+**xAI acquisition:** $250B deal included X/Twitter + xAI LLM infrastructure.
+
+**Global ranking:** IPO at $1.75T would make SpaceX the 8th largest company globally, behind [[TSMC]] and [[Saudi Aramco]]. Combined Tesla+SpaceX = $3.1T market cap = #4 globally, ahead of [[Microsoft]].
+
+**Tesla-SpaceX merger thesis:** [[Chamath Palihapitiya|Chamath]]: "99.999% probability Tesla-SpaceX eventually merge." Public mark-to-market validation simplifies governance complexity. "Once they're both public, the governance structure becomes much simpler."
+
+**"Thanksgiving dinner" theory:** Chamath: first major IPO gets the best investor appetite. "It's like Thanksgiving dinner — the first course gets the most attention." Risk increases for later entrants as appetite diminishes.
+
+**Polymarket IPO odds:** SpaceX 94%, [[Anthropic]] 41% (down from 70% in February), [[OpenAI]] 38%, [[Databricks]] 32%.
+
+**[[Vast Space]] partnership:** Jed McCaleb (Ripple founder) designing modular space stations with pre-booked SpaceX transportation. Space station commercial market development.
+
+**Moon mining infrastructure:** [[David Friedberg|Freeberg]]: mass drivers (electric rail systems, 100g acceleration, parachute landing) with robotic factories. 500 sq meters solar panels power 4km mass driver. Theoretical throughput: one ton every 10-15 minutes.
+
+**Artemis 2 milestone:** Moon orbit mission launched with crew of 4, validating lunar infrastructure roadmap.
+
+---
+
 ## Related
 
 - [[SpaceX]] — actor note (business, evolution, defense, Starlink)

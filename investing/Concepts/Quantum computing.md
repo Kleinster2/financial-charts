@@ -182,6 +182,32 @@ This is the same "bottleneck → springboard" pattern seen in semiconductors ([[
 
 ---
 
+## All-In E222 update (Apr 3) — Bitcoin threat timeline
+
+*Data from All-In Podcast Episode 222, April 3, 2026*
+
+**Timeline acceleration:** [[Chamath Palihapitiya|Chamath]]: Functional quantum chip now 5-7 years away, accelerated from previous estimates of 25-30 years. Major compression of expected timeline.
+
+**Shor's algorithm optimization:** Oded Regev (NYU, 2023) published improved [[Shor's algorithm]] — quantum operations required reduced from 28 million to 500,000. Order-of-magnitude efficiency improvement brings practical quantum cryptography attack within reach.
+
+**Market positioning:** Betting markets pricing quantum computers "within spitting distance of industrial scale" — suggesting commercial viability approaching faster than academic consensus.
+
+**Bitcoin honeypot thesis:** [[Bitcoin]] and cryptocurrency represent "obvious honeypot" target for first practical quantum computer deployment — encrypted wallets containing hundreds of billions in value create immediate economic incentive.
+
+**Non-state actor threat:** Key risk: non-state actor (criminal organization, rogue nation) could use quantum computer to drain crypto markets first, then publicly announce that encryption is broken — maximizing profit before revealing capability.
+
+**Bitcoin encryption history:** Bitcoin community has migrated encryption schemes before in early days, proving technical adaptability. However, current quantum threat represents "big technological lift" requiring changes across:
+- All wallet software
+- Transaction flow processing
+- Network validation nodes
+- Consensus mechanisms
+
+**5-7 year window:** Chamath's warning: "You have 5-7 years to get your shit in order." Timeline for crypto ecosystem to implement quantum-resistant cryptography before practical quantum computers become available.
+
+**Investment implications:** Quantum computing advancement creates both opportunity (quantum companies, quantum-safe cryptography) and existential threat (current blockchain/crypto infrastructure vulnerable).
+
+---
+
 ## Related
 
 - [[Illinois Quantum and Microelectronics Park]] — major US infrastructure project

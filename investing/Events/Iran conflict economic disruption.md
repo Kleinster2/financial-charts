@@ -200,6 +200,30 @@ This undermines the "metabolic cold war" framework (Neils Gilman, [[Foreign Poli
 
 ---
 
+## All-In E222 war cost update (Apr 3)
+
+*Data from All-In Podcast Episode 222, April 3, 2026*
+
+**Timeline:** Day 34 of war (started February 28).
+
+**Financial cost:** $70B total spent ($2B per day burn rate). Pentagon requested additional $200B from Congress — suggesting sustained conflict planning beyond initial budget.
+
+**US casualties:** 13 killed, 200+ injured, 50,000 troops deployed in theater.
+
+**Iranian casualties:** 3,500 killed (1,600 civilians, 200+ children).
+
+**Lebanese casualties:** 1,200 killed from Israeli strikes (spillover conflict).
+
+**Ceasefire betting markets:** Polymarket odds at 25% ceasefire by end of April, 47% by end of May — suggesting market expects extended conflict duration.
+
+**Ground invasion odds:** Polymarket at 63% ground invasion by end of April, 71% by end of December — indicating expected escalation.
+
+**Political impact:** Trump net approval at -17 (reported as "lowest ever"). Polymarket shows 51% odds Democrats take Senate, 86% take House in midterm elections — war creating political vulnerability.
+
+**Energy impact:** Gasoline over $4/gallon across US. Inflation "three handle coming back" — reversing disinflationary trend.
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note
