@@ -406,6 +406,22 @@ OTIC's 40.7% is the highest quarterly redemption request the non-traded BDC indu
 
 **Alt manager damage:** Major alt managers (APO, BX, ARES, KKR, CG, OWL) have lost a combined **$132 billion in market value** YTD 2026 (Reuters). OWL worst at ~45%.
 
+---
+
+## Why Blue Owl is worse off than peers
+
+Every major private credit manager faces redemption pressure in Q1 2026 — Ares at 11.6%, Apollo at 11.2%, HPS at ~10%, Blackstone BCRED at 7.9% — but Blue Owl's numbers (OTIC 40.7%, OCIC 21.9%) are in a different league. Five factors compound:
+
+1. **OTIC is a dedicated tech lending fund.** Most BDCs are diversified across industries. OTIC was purpose-built to lend to software/tech companies — ~20% software exposure (Jefferies) vs peers at 10-15%. When the dominant narrative is AI disruption killing software borrowers, the tech-focused fund is ground zero.
+
+2. **Concentrated shareholder base.** Blue Owl disclosed that 1% of OCIC shareholders filed the majority of tender requests. OTIC is even more concentrated — a handful of wealth management platforms, not thousands of retail individuals. When a single wealth channel decides to cut exposure, the percentage spikes in a way it wouldn't at [[Blackstone]]'s BCRED ($82B, massively diversified investor base).
+
+3. **OBDC II was the first to permanently gate (Feb 2026).** That precedent — plus the botched OBDC II → OBDC merger that would have imposed ~20% losses — destroyed trust across ALL Blue Owl vehicles. Investors in OTIC and OCIC watched OBDC II holders get trapped and thought "I'm next." Rational behavior that became self-reinforcing.
+
+4. **Three non-traded BDCs = three separate headlines.** Most competitors run one or two retail vehicles. Blue Owl had three — each disclosure feeding the next. OBDC II gated → OTIC allowed 15.4% in Q4 → OTIC hits 40.7% in Q1. A reputational cascade that no single fund number captures.
+
+5. **No balance sheet to buy time.** When BCRED hit record redemptions, [[Blackstone]] tapped $150M from 25+ senior leaders' personal capital plus $250M from the firm balance sheet to meet all requests. Blackstone's market cap and resources dwarf Blue Owl's. OWL has lost ~45% of its market cap (~$6B remaining) — it doesn't have the firepower to buy its way out of the problem. Blackstone can; Blue Owl can't.
+
 *Updated 2026-04-04*
 
 Sources:
