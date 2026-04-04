@@ -13,6 +13,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 7. **Price verification**: Never write price moves into notes without verifying against actual closing data. No secondary sources.
 8. **Entity linking**: Before editing any note, check if mentioned entities have notes. Missing → create stub. Always `[[wikilinks]]`.
 9. **Concept extraction**: After edits, scan for terms deserving their own concept note. If yes, create and wikilink in same pass. See `docs/note-checklist.md`.
+10. **No ephemeral notes**: Dated data releases (jobs reports, CPI prints, PMI, GDP, earnings beats) are NOT standalone concept notes. They are data points — fold them into the relevant existing concept or event note (e.g., NFP data → `2026 recession risk`). A note earns existence by being a durable, referenceable concept — not a single release date.
 
 ---
 
