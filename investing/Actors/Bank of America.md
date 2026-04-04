@@ -158,6 +158,12 @@ BAC trades as a core Regional Banks name (KRE r = 0.86).
 
 ---
 
+## Q1 2026 earnings preview (reports Apr 15)
+
+Consensus EPS ~$1.00-1.01. Focus on operating leverage and efficiency ratio target of 60%. NII likely plateauing but IB/M&A fee recovery provides offset. Massive retail deposit base ("sticky deposits") is a strength, but ability to match [[JPMorgan Chase|JPM]]'s investment banking muscle is the key question. Basel III capital relief (~$87.7B system-wide) supports expanded underwriting. Brian Moynihan has been positioning for this "normalization" from pure NII margin expansion toward diversified fee-based revenue.
+
+---
+
 ## Investment case
 
 **Bull:**
