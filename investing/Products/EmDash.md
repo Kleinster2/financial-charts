@@ -16,6 +16,24 @@ parent_actor: "[[Cloudflare]]"
 
 ---
 
+## The story
+
+Cloudflare built a WordPress replacement in ~2 months using AI coding agents, open-sourced it, and positioned it as the future of web publishing.
+
+**The setup:** WordPress is 24 years old, powers 42.5% of the web, and has a fundamental security problem — plugins run with unrestricted access to everything. 96% of WP security issues come from plugins. It's PHP, requires persistent servers, and has no native AI integration. Ripe for disruption but deeply entrenched.
+
+**The move:** Cloudflare's team (led by Matt Kane from the Astro core team) rebuilt the concept from scratch in TypeScript on [[Astro]] 6.0. Each plugin runs in its own V8 isolate with explicit permissions — like mobile app sandboxing vs. desktop's free-for-all. Serverless-native, scales to zero. And critically: built with an MCP server and CLI so AI agents can manage sites natively.
+
+**The business logic:** EmDash sits on top of Cloudflare's entire platform stack — Workers, D1, R2, Zero Trust. Every site that migrates is a full-stack [[Cloudflare]] customer. They also baked in x402 micropayments, betting that as AI agents browse the web (no human eyeballs for ads), publishers need a new revenue model. Every EmDash site ships with a built-in business model for the agent era.
+
+**The provocation:** They explicitly called it WordPress's "spiritual successor." Mullenweg fired back — called it a Cloudflare upsell vehicle, said "keep the WordPress name out of your mouth." But he also conceded it's solid work and praised the Skills system.
+
+**Why it fits the thesis:** This is the third domino in [[Cloudflare]]'s [[Cloudflare agentic infrastructure|agentic infrastructure]] play. Moltworker (agent hosting, Jan), Vinext (AI-rebuilt framework, Feb), now EmDash (AI-rebuilt CMS, Apr). They're systematically proving that AI can rebuild and run the web's core infrastructure — all on their platform.
+
+The risk is obvious: ecosystem is zero at v0.1, and the vendor lock-in critique has teeth.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
