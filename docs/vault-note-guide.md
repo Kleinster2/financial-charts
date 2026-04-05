@@ -164,6 +164,14 @@ When a major product launch catalyzes an actor update (new chip, platform, vehic
 
 See [[Arm AGI CPU]] as reference template.
 
+### The story (required for non-stub product notes)
+
+Every product note (non-stub) must include a narrative intro section (`## The story`) immediately after the one-liner and before Quick stats. This traces the arc: what problem exists → what the product does about it → the business logic → competitive/industry reaction → why it matters for the thesis. Connected analytical prose, not bullet points. Hard numbers inline. Self-contained — a reader who stops after this section still understands why the product matters.
+
+The story section follows the same philosophy as concept note stories and actor synopses: lead with narrative, follow with structured reference. The rest of the note (Quick stats, specs, competitive tables, market discovery timeline) provides the detail that backs the story.
+
+Reference: See [[EmDash]] for the template.
+
 ### Market discovery timeline (required for product notes)
 
 Every product note must include a "Market discovery timeline" — a chronological table tracking how information became public and how the market priced each disclosure: rumors/leaks, announcements, spec reveals, customer confirmations, revenue/guidance, and stock price reactions. The analytical value is in the gaps: what the market knew vs. what surprised it.
