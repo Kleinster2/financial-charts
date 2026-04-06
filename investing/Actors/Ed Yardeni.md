@@ -96,17 +96,15 @@ The March 29-30 QuickTakes maintain the same dual framing: (1) the oil shock is 
 
 *Source: Yardeni QuickTakes (Mar 29-30, 2026)*
 
-## April 2, 2026 — Market bottom vs recession warning
+## April 2, 2026 — Market bottom call
 
-**CNBC Closing Bell (Apr 2):** "Market bottom is in"
+**CNBC Closing Bell (Apr 2):** Called the market bottom at S&P 500 6,316 (Mon Mar 31 / early Apr) — a 9.1% pullback from the Jan 27 record high, short of his expected 10-15% correction. Year-end target maintained at 7,700.
 
-**BUT Thoughtful Money interview:** raised recession prob 20%→35%
+Tuesday's rally triggered by reports the US found "an exit ramp" from the Iran war. Consumer spending "surprisingly robust" despite persistent inflation. Initial jobless claims 4-week average at 207,800. Expects oil prices to peak within two months depending on Middle East resolution.
 
-Roaring 2020s still 60% base case. Bond vigilantes concern
+**Thoughtful Money interview (same day):** Raised recession probability 20%→35%. Roaring 2020s still 60% base case. Bond vigilantes concern. Warns of stagflationary "lost decade" if Hormuz stays constricted. US energy independence as strategic buffer vs 1970s.
 
-Warns stagflationary "lost decade" if Hormuz stays constricted
-
-US energy independence as strategic buffer vs 1970s
+*Sources: [CNBC Closing Bell, Apr 2](https://www.cnbc.com/video/2026/04/02/top-market-researcher-ed-yardeni-says-the-market-bottom-is-in.html); [Seeking Alpha](https://seekingalpha.com/news/4572401-u-s-markets-bottomed-monday-ed-yardeni); [Yardeni QuickTakes](https://www.yardeniquicktakes.com/stocks-was-that-the-bottom-on-monday/)*
 
 ---
 

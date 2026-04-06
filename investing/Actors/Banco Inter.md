@@ -185,6 +185,8 @@ INTR -8.0% (-2.5 sigma) on March 13, 2026. Brazilian fintech super app with 36M+
 
 ## Apr 2, 2026 — EM risk-off
 
-INTR -8.0% (-2.5σ), $9.25 → $8.51. No company-specific catalyst found. Broader risk-off context: Trump's Liberation Day anniversary tariff barrage (100% pharma, metals overhaul), 50% tariff on select Brazilian exports + 10% reciprocal already in place, oil spiking ~40% on Iran war. Notably, larger-cap Brazilian banks rallied that session ([[Bradesco]] +2%, [[Itau Unibanco|Itau]] +1%, [[Banco do Brasil]] +2%, [[B3]] +8%) as lower bond yields helped — suggesting INTR's move was thin-liquidity, risk-off rotation out of smaller EM fintechs rather than sector-wide weakness.
+INTR -8.0% (-2.5σ), $9.25 → $8.51. Pulled back from Jan 28 all-time high of $10.36. No company-specific catalyst — broad EM risk-off from [[2026 Strait of Hormuz crisis|Hormuz crisis]]/oil shock. Broader risk-off context: Trump's Liberation Day anniversary tariff barrage (100% pharma, metals overhaul), 50% tariff on select Brazilian exports + 10% reciprocal already in place, oil spiking ~40% on Iran war. Background tariff pressure: 50% threatened on [[Brazil]] earlier.
+
+Notably, larger-cap Brazilian banks rallied that session ([[Bradesco]] +2%, [[Itau Unibanco|Itau]] +1%, [[Banco do Brasil]] +2%, [[B3]] +8%) as lower bond yields helped — suggesting INTR's move was thin-liquidity, risk-off rotation out of smaller EM fintechs rather than sector-wide weakness. As a Brazilian digital bank ADR with thin US float, INTR amplifies EM risk-off moves disproportionately.
 
 *Created 2026-02-23*

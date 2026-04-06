@@ -52,7 +52,7 @@ Space economy — launch services, satellites, earth observation, exploration.
 | Planet Labs (PL) | Daily global imaging |
 | Maxar | High-resolution |
 | BlackSky | Real-time intelligence |
-| Spire Global | Weather, maritime |
+| [[Spire Global]] (SPIR) | Weather, RF geolocation, aviation |
 
 ### GPS/Navigation
 

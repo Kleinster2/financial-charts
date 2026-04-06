@@ -5,7 +5,7 @@ aliases: [GSAT]
 
 # Globalstar
 
-Satellite communications company and [[Apple]]'s exclusive partner for iPhone Emergency SOS via satellite. Transitioning from legacy satellite operator to capacity supplier for Apple's direct-to-device ecosystem. Also owns valuable Band 53/n53 licensed spectrum for terrestrial private networks.
+Satellite communications company (founded 1991) and [[Apple]]'s exclusive partner for iPhone Emergency SOS via satellite. Transitioning from legacy satellite operator to capacity supplier for Apple's direct-to-device ecosystem. Also owns valuable Band 53/n53 licensed spectrum for terrestrial private networks.
 
 ---
 
@@ -36,10 +36,10 @@ Apple dependency defines the story. 85% of network capacity allocated to Apple u
 | Metric | Value |
 |--------|-------|
 | Ticker | GSAT (NYSE) |
-| Market cap | ~$7.7B (Feb 2026) |
+| Market cap | ~$9B (Apr 2026) |
+| Revenue (FY 2025) | $273M (+9% YoY) |
+| Operating income (FY 2025) | $7.4M (first profit; narrow loss in 2024) |
 | Revenue (Q3 2025) | $73.8M (record, +11% YoY) |
-| Revenue (TTM) | ~$262M |
-| 2025 guidance | $260-285M revenue |
 | Adj. EBITDA margin | ~50-52% |
 | Operating cash flow (9mo) | $445.8M |
 | Cash position (Q3) | $346.3M |
@@ -144,7 +144,7 @@ Acquisition rumors: Reports of Globalstar exploring a sale. Some analysts specul
 
 ## Recent stock action
 
-Apr 2, 2026: GSAT +13.4% (2.8σ) to $77.73, hitting 18-year high. FT reported [[Amazon]] in talks to acquire Globalstar for ~$9B — aiming to challenge [[Starlink]] in satellite internet. Amazon wants Globalstar's internationally-cleared L-band and S-band spectrum licenses plus its functioning orbital network ("trading capital for time" rather than building from scratch). Complication: [[Apple]] owns 20% and has 85% of network capacity locked up for iPhone Emergency SOS — an Amazon acquisition would put Apple's satellite features on competitor-owned infrastructure. Hedge funds ([[Soros Fund Management]], [[AQR Capital]], [[Millennium Management]]) reportedly positioned ahead of the report. Secondary tailwind from [[SpaceX IPO 2026|SpaceX's confidential S-1 filing]] lifting the satellite sector broadly.
+Apr 2, 2026: GSAT +13.4% (3.8σ) to $77.73, hitting 18-year high. FT reported [[Amazon]] in advanced talks to acquire Globalstar for ~$9B — the deal is about Globalstar's globally licensed spectrum (scarce, regulated asset), not the satellites themselves. Positions [[Amazon]] directly against [[SpaceX]]'s [[Starlink]] in LEO communications. Amazon wants Globalstar's internationally-cleared L-band and S-band spectrum licenses plus its functioning orbital network ("trading capital for time" rather than building from scratch). Complication: [[Apple]] owns 20% and has 85% of network capacity locked up for iPhone Emergency SOS — an Amazon acquisition would put Apple's satellite features on competitor-owned infrastructure. Neither [[Amazon]] nor Globalstar confirmed. Stock traded above analyst target of $69, up 274% trailing year. Hedge funds ([[Soros Fund Management]], [[AQR Capital]], [[Millennium Management]]) reportedly positioned ahead of the report. Secondary tailwind from [[SpaceX IPO 2026|SpaceX's confidential S-1 filing]] lifting the satellite sector broadly. Sources: FT, 24/7 Wall St, Motley Fool.
 
 Feb 4, 2026: GSAT fell ~7% alongside [[AST SpaceMobile]] (-11%) after AT&T announced Amazon LEO satellite partnership. Market feared big-tech vertical integration threat to smaller satellite players. Globalstar less directly affected (Apple relationship, not AT&T), but sentiment dragged sector.
 

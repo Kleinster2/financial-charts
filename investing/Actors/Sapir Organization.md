@@ -1,5 +1,5 @@
 ---
-aliases: [Sapir Org, Sapir Corp, SPIR]
+aliases: [Sapir Org, Sapir Corp, SPIR.TA]
 ---
 #actor #realestate #nyc #private
 

@@ -89,6 +89,29 @@ Chart finding: Turkish Lira outperformed [[BRL]] and Chilean Peso over Feb 27 �
 
 **"Are Central Banks Selling Gold?" (Mar 29):** Turkey CB tapped ~50 tons gold (collateral for FX). Lira only -1% but massive hidden intervention. Turkey idiosyncratic, not broader EM trend.
 
+### "Asia's Dependence on Oil from the Persian Gulf" (Apr 5)
+
+UN Comtrade data mapping 10 Asian economies' Gulf oil dependency. Persian Gulf defined as [[Bahrain]], [[Iran]], [[Iraq]], [[Kuwait]], [[Oman]], [[Saudi Arabia]], [[UAE]]. [[China]]/[[Malaysia]] adjusted for transshipped Iranian crude.
+
+| Country | Oil imports (% GDP) | Gulf share (%) | Vulnerability |
+|---------|-------------------|----------------|---------------|
+| [[Indonesia]] | ~0.5% | ~20% | Low — diversified |
+| [[Philippines]] | ~0.7% | ~97% | Extreme — near-total Gulf dependency |
+| [[China]] | ~1.0% | ~60% | Moderate — scale matters |
+| [[Pakistan]] | ~1.7% | ~99% | Extreme — total dependency, high GDP share |
+| [[Japan]] | ~2.0% | ~93% | Severe — near-total, significant GDP share |
+| [[Malaysia]] | ~2.8% | ~70% | High |
+| [[India]] | ~3.2% | ~49% | Moderate — most diversified large importer |
+| [[South Korea]] | ~4.5% | ~72% | Severe — high on both dimensions |
+| [[Singapore]] | ~5.0% | ~55% | High GDP exposure, moderate Gulf share |
+| [[Thailand]] | ~6.3% | ~62% | Highest GDP exposure, moderate Gulf share |
+
+Caveats: (1) transshipment understates true Gulf dependency, (2) crude only — refined products excluded, (3) first Comtrade analysis (self-flagged error risk).
+
+Upper-right quadrant (high exposure + high Gulf share) = worst-hit: [[Japan]], [[South Korea]], [[Pakistan]]. [[Thailand]] has highest GDP exposure but more diversification options. [[Indonesia]] least exposed on both dimensions.
+
+*Source: [Asia's Dependence on Oil from the Persian Gulf](https://robinjbrooks.substack.com/p/asias-dependence-on-oil-from-the), April 5, 2026*
+
 ## Related
 
 - [[2026 Iran conflict market impact]]

@@ -114,6 +114,28 @@ The FT headline — "Demand destruction is the only solution" — captures the n
 
 ---
 
+## April 3, 2026 — "Largest oil supply shock in history"
+
+[[JPMorgan]] research note describing the [[2026 Strait of Hormuz crisis]] as triggering "the largest oil supply shock in history."
+
+### Inventory math
+
+| Metric | Value |
+|--------|-------|
+| Effective supply loss | ~14 mb/d from Hormuz closure |
+| OECD commercial crude draw (April) | ~166M barrels |
+| OECD commercial crude draw (early May) | ~67M barrels additional |
+| Operational minimum threshold | ~842M barrels (~30 days forward refinery demand) |
+| Timeline to operational minimum | Late April / early May 2026 |
+
+At operational minimum, "prices — not inventories — become the primary balancing tool." This shifts the clearing mechanism from physical buffer absorption to demand destruction via price.
+
+The 14 mb/d figure represents the effective net loss after accounting for bypass pipeline capacity (~7 mb/d combined) and selective transit leakage. The 166M barrel April draw implies OECD inventories burning through roughly 5.5M bbl/day of cushion.
+
+*Source: JPMorgan Commodities Research (Apr 3, 2026); via [BigGo Finance](https://finance.biggo.com/news/wrCSW50BOIb5XxavXJ5N), [Canadian Mining Report](https://www.canadianminingreport.com/blog/how-long-before-the-world-hits-crude-oil-operational-minimum-jpmorgan-s-math-and-what-it-means-for-canadian-mining-stocks-in-2026)*
+
+---
+
 ## Quick stats
 
 | Metric | Value |

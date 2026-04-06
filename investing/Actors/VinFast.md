@@ -67,15 +67,15 @@ Analyst consensus: 3 Buy, 0 Sell. Average PT $5.50-$8.00 vs $3.65 current — im
 - [[Vietnam]] — home market
 - [[Tesla]] — global EV competitor
 
-## Apr 2, 2026 — India expansion + momentum
+## Apr 2, 2026 — delivery milestone + India expansion
 
-VFS +10.7% (3.8σ) to $4.54. Three catalysts converged:
+VFS +10.7% (3.8σ) to $4.54. Multiple catalysts converged:
 
-1. India expansion: opened bookings for the VF MPV 7 (seven-seater EV) in [[India]] on Apr 2, with official launch and pricing set for Apr 15. India, [[Indonesia]], and the [[Philippines]] at the center of VinFast's Asian push beyond [[Vietnam]].
-2. Continued momentum from Q4 2025 blowout (revenue +139% YoY, 86,557 deliveries) and positive [[VF 9]] reviews.
-3. 2026 delivery target of 300,000+ affirmed — on track after 197K in 2025.
+1. Record 2025 deliveries: ~197,000 EVs (more than double prior year). Revenue hit ~$3.6B (nearly 2x prior year). 2026 target: 300,000 deliveries (+50% YoY). Breakeven postponed to after 2027.
+2. India expansion: opened bookings for the VF MPV 7 (seven-seater EV) in [[India]] on Apr 2, with official launch and pricing set for Apr 15. India, [[Indonesia]], and the [[Philippines]] at the center of VinFast's Asian push beyond [[Vietnam]].
+3. Continued momentum from Q4 2025 blowout (revenue +139% YoY, 86,557 deliveries) and positive [[VF 9]] reviews.
 
-Analyst consensus: 3 Buy, avg PT $5.83 (range $5.50-$6.00) vs $4.54 current.
+Analyst consensus: 3 Buy, avg PT $5.83 (range $5.50-$6.00) vs $4.54 current. Sources: StocksToTrade, TipRanks.
 
 ---
 

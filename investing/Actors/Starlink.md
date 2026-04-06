@@ -94,11 +94,14 @@ aliases: []
 | Competitor | Status |
 |------------|--------|
 | OneWeb | Operational, smaller |
-| [[Amazon]] Kuiper | Launching 2025+ |
+| [[Amazon]] Leo | 200+ satellites launched; ~700 targeted by mid-2026. Signed [[AT&T]], [[JetBlue]], [[Delta Air Lines]] |
+| [[Globalstar]] | [[Apple]]'s satellite partner; Amazon in talks to acquire for ~$9B (Apr 2026) |
 | Telesat Lightspeed | In development |
 | Traditional ISPs | Terrestrial competition |
 
 **Moat:** First-mover, scale, vertical integration with SpaceX launches.
+
+**LEO consolidation (2025-2026):** Smaller satellite operators becoming acquisition targets for hyperscaler-backed constellations. Bloomberg reported (Oct 2025) [[SpaceX]] held early acquisition talks with [[Globalstar]]; [[Amazon]] now in advanced talks. The endgame may be 2-3 vertically integrated platforms (rockets + satellites + cloud + ground stations) rather than a fragmented market of independent operators.
 
 ---
 

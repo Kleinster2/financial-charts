@@ -58,6 +58,33 @@ Blanch: *"The war is gonna transform the way we think about commodities, more fu
 March 16: Laid out "the path to $200 oil" — extreme tail scenario if conflict broadens.
 March 11: $170/bbl if war reaches Q3.
 
+### Early April — "Mild stagflation" revision
+
+Major upward revision from the March 27 $77.50 base case:
+
+| Metric | Previous (Mar 27) | Revised (early Apr) |
+|--------|-------------------|---------------------|
+| US GDP growth | — | 2.3% |
+| US headline inflation | — | 3.6% |
+| Global GDP growth | — | 3.1% |
+| Global inflation | — | 3.3% |
+| Brent base case | $77.50 avg 2026 | $92.50 avg 2026, ~$100 rest of 2026 |
+| Brent post-war (2027) | $65 | Below $70 by late 2027 |
+
+Escalation scenarios revised:
+
+| Scenario | Brent |
+|----------|-------|
+| Baseline: Q2 4M b/d deficit, smaller H2 shortfall | ~$100 |
+| War continues into Q3 | $160 |
+| Prolonged conflict | Could break $200 |
+
+Baseline still assumes "regime alteration" in [[Iran]] and energy flow normalization, but the appointment of [[Mojtaba Khamenei]] opened the door to "hard lining" — BofA introduced three new extended-conflict variants (Q2, Q3, Q4 continuation).
+
+Recession risk: growing *"by the week"* if war continues into April and May.
+
+*Sources: [Yahoo Finance](https://finance.yahoo.com/news/mild-stagflation-bank-of-america-rips-up-economic-forecasts-braces-for-100-oil-all-year-on-iran-war-disruptions-163951466.html), [Investing.com](https://www.investing.com/news/economy-news/bofa-cuts-global-growth-forecast-on-mild-stagflation-shock-4592549)*
+
 ### Analytical shift
 
 Blanch entered the conflict as one of the most bearish commodity voices on the Street ($60 Brent, 2M bpd surplus thesis). The Hormuz closure forced a complete framework revision. His March 27 $77.50 base is still well below [[Jeff Currie]] (who says $100 is mispriced low) and the physical market (Dubai at $126), reflecting residual pre-war surplus assumptions that may need further revision. Contrast with [[Helima Croft]]'s view that the disruption is structurally longer than the market prices.

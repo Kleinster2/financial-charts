@@ -58,11 +58,62 @@ Three reinforcing pressures:
 
 ---
 
+## Inflation trajectory
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| CPI (Feb 2026) | 2.4% YoY | [[BLS]] |
+| Cleveland Fed Nowcast (Mar) | 3.16% YoY | Cleveland Fed |
+| Fed Mar FOMC forecast | 2.7% (up from 2.4% Dec) | [[Federal Reserve]] |
+| [[Goldman Sachs]] PCE (Dec 2026E) | 3.1% | GS Research |
+| [[Bank of America]] headline inflation | 3.6% | [[Francisco Blanch]] |
+| PIIE upside scenario | Could exceed 4% by year-end | Peterson Institute |
+| Effective tariff rate | 10.5% (highest since 1943) | Various |
+| Tariff pass-through | ~50bp to headline by mid-year | Morningstar |
+
+Official March CPI release: April 10.
+
+---
+
+## Fed rate expectations
+
+| Source | View | Details |
+|--------|------|---------|
+| [[Goldman Sachs]] | Two 25bp cuts (Sep + Dec 2026) | Shifted from Mar/Jun after oil shock. Terminal 3.00-3.25% |
+| [[JPMorgan]] | No cuts 2026, potential hike 2027 | Most hawkish major bank |
+| [[Ed Yardeni]] | "None and done" — zero cuts 2026 | Inflation battle not over with oil >$100 |
+| [[CME FedWatch]] | 77.5% prob holds through year-end | As of Apr 3 |
+
+In recession scenario (30% odds), Goldman expects substantial cuts rather than hikes. Historical: no meaningful relationship between oil shock mentions in Fed speeches and tighter policy.
+
+---
+
+## Additional recession trackers
+
+| Source | Probability | Notes |
+|--------|------------|-------|
+| [[NY Fed]] yield curve model | 18.8% | Down from 32% in Nov 2025; lagging |
+| [[NY Fed]] DSGE model (Mar 2026) | 35.8% | Prob of 4-quarter output growth below -1.0% |
+| [[JPMorgan]] Research | 35% | Pre-Iran escalation; S&P target cut to 7,200 |
+| [[HSBC]] market-implied | ~35% | Equity market-implied |
+
+---
+
+## "TACO" dynamic
+
+TACO = "Trump Always Chickens Out" (coined by [[FT]]'s Robert Armstrong, not "Tariffs Are Cyclical and Overpriced"). Mechanism: buy selloffs from tariff threats, sell when Trump reverses. Worked through 2025 because tariffs were a reversible "toggle."
+
+2026 status: thesis under severe stress. The Iran war involves physical supply destruction, not reversible policy announcements. TACO may still apply to trade/tariff policy specifically, but the dominant macro risk (oil/war) is not a chickening-out situation.
+
+---
+
 ## Key upcoming catalysts
 
 - [x] ~~Apr 3: March jobs report~~ → beat expectations but labor force shrank
-- [ ] Apr 6: Trump's [[Iran]] deadline
+- [ ] Apr 8: Trump's [[Iran]] ultimatum deadline (8 PM ET)
+- [ ] Apr 10: March CPI release
 - [ ] Apr 14-15: [[JPMorgan Chase|JPM]] / [[Bank of America|BAC]] Q1 earnings — first corporate read on oil/tariff impact
+- [ ] Apr 16: [[TSMC]] Q1 earnings
 - [ ] Apr 28-29: [[FOMC]] meeting
 - [ ] Q2 2026 earnings season (late Apr) — corporate guidance will reflect oil/tariff impact
 
@@ -77,6 +128,9 @@ Three reinforcing pressures:
 - [[Lyn Alden]] — fiscal dominance framework
 - [[Goldman Sachs]] — 30% estimate
 - [[Oil and recessions]] — historical pattern
+- [[Francisco Blanch]] — "mild stagflation" revision
+- [[Natasha Kaneva]] — operational minimum timeline
+- [[Stagflation]] — framework note
 
 ---
 

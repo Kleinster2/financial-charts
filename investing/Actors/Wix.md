@@ -145,15 +145,15 @@ Bear:
 
 ## Apr 2, 2026 — Dutch auction + downgrades
 
-WIX -9.4% (-2.6σ) to $81.95.
+WIX -9.4% (-2.6σ) to $81.95, despite the positive capital return signal.
 
-$1.722B modified Dutch auction tender offer: expired Apr 1, cleared at $92.00/share (top of $80-$92 range). Accepted 18.7M shares (~31.6% of outstanding). Stock traded below the clearing price — market read: overpaying and leaving Wix significantly levered.
+$1.722B modified Dutch auction tender offer ($1.6B repurchase): expired Apr 1, cleared at $92.00/share (top of $80-$92 range). Accepted 18.7M shares (~31.6% of outstanding, repurchasing ~30% of shares). Event-driven/arb holders exited after tender closed, driving mechanical selling pressure. Stock had surged 27.8% in March leading into the tender.
 
 Analyst downgrades compounded:
-- [[UBS]]: downgraded to Neutral, PT cut to $96. Core business growth slowing from 12% (2025) to ~8% (2026). Profitability pressure from [[Base44]] spending.
+- [[UBS]]: downgraded to Neutral from Buy, PT cut $145 to $96. Core business growth decelerating from 12% (2025) to ~8% (2026). Profitability pressure from [[Base44]] spending.
 - [[JPMorgan Chase|JPMorgan]]: downgraded to Underweight on decelerating revenue growth and uncertainty around [[Base44]] venture.
 
-The combination of a massive buyback at the range ceiling plus two downgrades flagging slowing growth drove the selloff.
+The combination of arb unwind, a massive buyback at the range ceiling, and two downgrades flagging growth deceleration drove the selloff. Sources: Parameter.io, QuiverQuant.
 
 ---
 

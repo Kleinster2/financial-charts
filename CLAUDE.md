@@ -111,6 +111,8 @@ Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `no
 
 **Cross-vault gate:** After new events or major updates, flag relevant sibling vaults (geopolitics, Brazil, history, technologies). Don't silently skip. See `docs/cross-vault-rules.md`.
 
+**Full-entity sweep on ingestion:** When processing any source (article, transcript, filing), check ALL mentioned entities — not just primary subjects — for needed vault updates. Secondary mentions often reveal gaps: a company's existing note may be missing a partnership, a sector note may lack a competitive development, a Related section may be incomplete. The sweep includes: (1) reading each mentioned entity's note, (2) identifying missing facts or stale data, (3) updating secondary notes in the same pass. Don't extract data points from the primary subject and move on — process the full graph of entities touched by the source.
+
 **Private companies:** Tag appropriately in frontmatter. Include funding rounds table where data exists (also for pre-IPO history of public companies).
 
 ---

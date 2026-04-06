@@ -161,7 +161,7 @@ Anthropic using Trainium2/3 to train and deploy [[Claude]] models. Strategic ali
 | **Total planned constellation** | **~7,700 satellites** |
 | Gen1 FCC deadline | Half by Jul 30, 2026 (extension to Jul 2028 requested Jan 2026) |
 | Gen2 FCC deadline | 50% by Feb 10, 2032; 100% by Feb 10, 2035 |
-| Satellites in orbit | **200+** (as of Feb 12, 2026, 8 missions completed) |
+| Satellites in orbit | **200+** (as of Feb 12, 2026, 8 missions completed); ~700 targeted by mid-2026 |
 | Total investment | **$10B+** (launch contracts alone ~$10B; total Gen1 capex est. $16.5-20B) |
 | 2026 incremental spend | ~$1B additional |
 | 2026 launches planned | 20+ |
@@ -209,6 +209,17 @@ AT&T selected Amazon LEO as primary satellite layer for enterprise and public sa
 **Clarification:** AT&T stated the Amazon LEO deal does not impact plans with [[AST SpaceMobile]] for direct-to-cell. Different use cases: Amazon LEO = fixed broadband/backhaul; AST = "cell tower in the sky" for smartphones.
 
 **Strategic significance:** Secures guaranteed revenue base for LEO constellation during deployment. Serves as counterweight to [[Starlink]] dominance — Amazon betting on "high-integration" model vs SpaceX's satellite-count lead.
+
+### Airline partnerships
+
+Amazon Leo has signed in-flight internet deals with two major US carriers:
+
+| Airline | Service start | Details |
+|---------|---------------|---------|
+| [[JetBlue]] | 2027 | In-flight satellite internet |
+| [[Delta Air Lines]] | 2028 | In-flight satellite internet |
+
+*Source: FT (Apr 1, 2026)*
 
 ---
 

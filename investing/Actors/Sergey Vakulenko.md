@@ -31,6 +31,39 @@ His March 2026 paper "A Tight Spot: Challenges Facing the Russian Oil Sector Thr
 
 **Production trajectory:** Base case projects ~8M bpd by 2030, below 7M bpd by 2035, with steeper 4-5% annual declines after 2030.
 
+## April 4, 2026 — "Tanker Chaos or Tactical Hiccup?"
+
+Analysis of [[Ukraine]]'s late-March drone campaign against [[Russia]]'s two Baltic oil export terminals — [[Primorsk]] and [[Ust-Luga]], which together handle 2.2-2.5 mb/d of Russia's 5.5 mb/d seaborne exports. Attacks attributed to [[GUR]] (Ukrainian military intelligence).
+
+### Primorsk damage
+
+- 8 of 18 storage tanks destroyed across 2 raids
+- Each tank: 50,000 m3 capacity
+- Destroyed volume: ~400,000 m3 (~2.5M barrels)
+- Financial loss: ~$200M (at $77/bbl)
+- Core loading infrastructure (jetties, loading arms) intact
+- By Apr 3: returned to full operation, 5 tankers loading (satellite-confirmed)
+
+### Ust-Luga damage (4 separate raids, 3 facilities)
+
+| Facility | Damage |
+|----------|--------|
+| [[Novatek]] condensate plant | 4 storage tanks destroyed (30,000 m3 each) |
+| [[Rosneft]] base (RN-Bunker) | Pipeline manifold damaged, loading arm at 1 of 3 berths damaged |
+| [[Transneft]] terminal | 8 storage tanks destroyed (30,000 m3 each), possible berth damage |
+
+Aggregate Ust-Luga: 12 tanks destroyed. By Apr 4: no tankers loading per MarineTraffic.
+
+### Assessment
+
+Reuters "40% of Russian oil export capacity halted" is "correct but misleading" — same pattern as autumn 2025 when "38% of refining capacity hit" was loudly claimed. March total loadings were slightly above February despite late-month strikes. The immediate inventory loss (~2.5M bbl at Primorsk alone) equals roughly one day of total Russian seaborne exports.
+
+The real vulnerability is storage buffer loss, not throughput snapshots. [[Transneft]]'s pipeline system storage is "quite small" — sized for disruptions lasting days to a few weeks. Without port tank farm buffers, terminals cannot absorb weather/ice downtime. If [[Ust-Luga]] does not resume within days, forced production shutdowns become possible as the pipeline system backs up.
+
+Critical question: attack tempo vs repair cycle. *"If something is burning in Baltic ports every day, they will effectively stop functioning."* Past repairs took days. Terminals have workarounds (direct hose connections from trunk pipelines, at reduced rates). Specialized spare parts finite but adequate near-term.
+
+*Source: [Tanker Chaos or Tactical Hiccup?](https://svakulenko.substack.com/p/tanker-chaos-or-tactical-hiccup), April 4, 2026*
+
 ## Related
 
 - [[Russia]] - primary subject of analysis

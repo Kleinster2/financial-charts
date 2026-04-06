@@ -169,6 +169,7 @@ Four integrated layers from ground to space:
 | Varda [[Space]] | Reentry vehicles, testing |
 | Apex | [[Space]] architectures |
 | True Anomaly | [[Space]] interceptors |
+| [[Spire Global]] | Satellite data/sensors (weather, RF geolocation) |
 
 **2,100 contractors** selected for $151B pool (Dec 2025).
 

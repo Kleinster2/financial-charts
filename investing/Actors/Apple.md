@@ -443,6 +443,29 @@ The trade-off is clear: no MagSafe, no Touch ID on the base model, and an iPhone
 
 ---
 
+## Satellite partnership — Globalstar
+
+Apple is the anchor customer and 20% equity owner of [[Globalstar]], the LEO satellite operator that powers iPhone Emergency SOS.
+
+| Metric | Value |
+|--------|-------|
+| Equity stake | 20% ($400M) |
+| Cash prepayments | $1.1B (staggered) |
+| Total investment | ~$1.5B |
+| Network allocation | 85% of Globalstar capacity reserved for Apple |
+| Live since | iPhone 14 (Sep 2022) — Emergency SOS via satellite |
+| Expanding to | [[Apple Watch]] Ultra (off-grid texting), Roadside Assistance |
+
+Apple covers most costs to replenish/upgrade Globalstar's constellation, reducing Globalstar's capital risk. [[SpaceX]] handles launches. [[MDA]] (Canada) building 17 next-gen satellites ($327M contract).
+
+### Amazon acquisition risk (Apr 2026)
+
+[[Amazon]] is in talks to acquire [[Globalstar]] for ~$9B (FT, Apr 1, 2026). If completed, Apple's satellite features — Emergency SOS, Roadside Assistance, Apple Watch connectivity — would run on competitor-owned infrastructure. Apple's 20% stake and 85% capacity lock create a three-way negotiation dynamic: Amazon cannot close without Apple's cooperation.
+
+Strategic tension: Apple either renegotiates terms with a new Amazon-owned Globalstar, builds/acquires its own constellation, or accepts dependency on a competitor for a safety-critical feature. Earlier Bloomberg reporting (Oct 2025) indicated [[SpaceX]] also held early acquisition talks with Globalstar.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -494,3 +517,6 @@ The trade-off is clear: no MagSafe, no Touch ID on the base model, and an iPhone
 - [[Greg Joswiak]] — SVP Marketing
 - [[Mark Gurman]] — Bloomberg reporter, primary Apple sourcing
 - [[Angela Ahrendts]] — former SVP Retail (left 2019)
+- [[Globalstar]] — satellite partner (20% stake, $1.5B total, 85% capacity)
+- [[Amazon]] — potential Globalstar acquirer (strategic risk to satellite dependency)
+- [[Starlink]] — dominant LEO competitor; context for Apple satellite strategy

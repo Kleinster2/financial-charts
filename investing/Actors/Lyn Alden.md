@@ -111,11 +111,19 @@ Alden's fiscal cascade framework complements the physical-market analysis from [
 
 *Source: [Lyn Alden, March 2026 newsletter](https://www.lynalden.com/march-2026-newsletter/)*
 
-## April 2, 2026 — CNBC Morning Call
+## April 2, 2026 — CNBC: "Most portfolios not built for stagflation risks"
 
-**"Most portfolios not built for stagflation risks"**
+Reiterated three-pillar portfolio framework for a stagflation environment:
 
-Cash as near-term safe haven. Fiscal dominance reshaping markets
+1. Profitable equities (cash-generative, not speculative growth)
+2. Commodities/producers and hard monies ([[Gold]])
+3. Cash equivalents (near-term safe haven)
+
+Key framing: [[Stagflation]] = the [[Federal Reserve]]'s dual mandate simultaneously challenged (employment + prices). Gold does best in stagflationary environments where growth decelerates but inflation stays high. Cash is the near-term safe haven as [[Fiscal Dominance]] reshapes global markets.
+
+Connects to March 2026 newsletter finding: net US jobs added since April 2025 ≈ 0 (employment at "stall speed"). The labor market weakness preceded the oil shock.
+
+*Source: [CNBC, April 2 2026](https://www.cnbc.com/video/2026/04/02/lyn-alden-most-portfolios-are-not-built-for-stagflation-risks.html)*
 
 **McCormack interview (Mar 31):** "DEFCON 5... catastrophe" on debt crisis
 
