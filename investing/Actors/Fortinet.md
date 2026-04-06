@@ -101,6 +101,12 @@ High gross margins, growing recurring revenue.
 
 ---
 
+## Timeline
+
+2026-04-05: [[FortiClient]] EMS zero-day (CVE-2026-35616) exploited in the wild. Critical vulnerability in the endpoint management server — allows remote code execution without authentication. [[Fortinet]] released an emergency weekend patch. Source: BleepingComputer (Apr 5, 2026).
+
+---
+
 ## Related
 
 - [[Palo Alto Networks]] — competitor

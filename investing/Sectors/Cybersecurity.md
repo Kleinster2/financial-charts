@@ -145,6 +145,12 @@ Subscription/recurring = high visibility.
 
 ---
 
+## Policy & regulation
+
+2026-04-03: [[Trump]] administration proposes slashing $707M from [[CISA]] budget. Former CISA official warns the cut would weaken federal cyber risk management capabilities across critical infrastructure sectors. Source: The Register (Apr 3, 2026).
+
+---
+
 ## Related
 
 - [[Palo Alto Networks]] — platform leader
@@ -170,4 +176,4 @@ Subscription/recurring = high visibility.
 - Fortune, 2026-03-26: "Anthropic 'Mythos' AI model representing 'step change' in power revealed in data leak"
 - Investing.com, 2026-03-27: "Cybersecurity stocks plunge as Claude Mythos leak sparks AI fear"
 
-*Updated 2026-03-27*
+*Updated 2026-04-05*

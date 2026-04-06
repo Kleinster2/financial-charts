@@ -92,6 +92,24 @@ See [[Market forecasts]] for full details.
 
 ---
 
+## 2026 earnings season framing (Apr 2026)
+
+[[Goldman Sachs]] is the Street's primary source for the macro earnings frame heading into Q1 2026 reporting.
+
+| Metric | Goldman estimate |
+|--------|-----------------|
+| S&P 500 EPS growth (2026) | 12% |
+| S&P 500 year-end target | 7,600 |
+| Consensus Q1 EPS growth | +13.2% YoY |
+| Consensus Q1 revenue growth | +9.7% YoY |
+| Rate cuts expected | Two 25bp (Sep + Dec) |
+
+Sixth consecutive quarter of double-digit earnings growth if consensus holds. Goldman called bank earnings week (Apr 14 — [[JPMorgan Chase]], [[Citigroup]], [[Wells Fargo]], [[Morgan Stanley]], [[Bank of America]]) "the definitive litmus test" for the cycle. The question is whether forward guidance holds given [[2026 Strait of Hormuz crisis]] fuel costs and tariff uncertainty.
+
+*Source: various financial media, early Apr 2026*
+
+---
+
 ## Thematic baskets
 
 **[[GS AI Productivity Beneficiaries]]** (GSXUPROD) — "Most important trade of 2026." Non-tech companies benefiting from AI-driven labor productivity. ~60 names across banks, logistics, restaurants, retail, healthcare. Screened from Russell 1000 by wage cost exposure to AI automation.

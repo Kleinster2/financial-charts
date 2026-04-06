@@ -69,6 +69,25 @@ DAL trades as a core Regional Banks name (KRE r = 0.79).
 
 ---
 
+## Q1 2026 earnings preview
+
+Reports Apr 8 (before open) — first real corporate earnings test of the [[2026 Strait of Hormuz crisis]] oil shock.
+
+| Metric | Detail |
+|--------|--------|
+| Revenue guidance | $15.0-15.3B (raised) |
+| Jet fuel headwind | ~$400M Q1, fuel costs +70% in one month from Hormuz |
+| Corporate bookings | Record levels |
+| Premium cabin | Demand remains strong |
+
+[[Mike Wilson]]/[[Morgan Stanley]] has DAL on "Fresh Money Buy List."
+
+Forward guidance is the variable — headline beats matter less than how [[Ed Bastian]] frames the fuel cost trajectory and whether corporate travel demand is holding through the crisis.
+
+*Source: earnings calendar research, Apr 2026*
+
+---
+
 ## Quick stats
 
 | Metric | Value |

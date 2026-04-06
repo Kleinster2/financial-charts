@@ -95,6 +95,23 @@ TSM trades as a core Semiconductors name (SMH r = 0.87).
 - **Kumamoto Fab 2 pivot** (Dec 2025) — Scrapping 6nm plan, jumping to 2nm/3nm for autonomous/AI. JASM posted NT$6.2B loss H1 2025 vs Arizona's NT$4.7B profit.
 - **Nanjing VEU expiring Dec 31** — TSMC dismisses concerns, says Chinese clients can access advanced nodes globally. [[Xiaomi]] 3nm chip as proof.
 
+## Q1 2026 earnings preview
+
+Reports Apr 16.
+
+| Metric | Detail |
+|--------|--------|
+| Q1 revenue guidance | $34.6-35.8B (+38% YoY) |
+| Gross margin target | 63-65% |
+| 2026 capex budget | $56B |
+| 2nm GAA | Ramp underway |
+
+The capex budget rose from the $52-56B range guided in Jan to a firm $56B — consistent with accelerating AI demand and the Arizona/Japan buildout. Gross margin expansion from 59% (Q4 2024) to 63-65% reflects pricing power and HPC mix shift.
+
+*Source: earnings calendar research, Apr 2026*
+
+---
+
 ## Open questions
 
 - [[How durable is TSMC's moat]]
