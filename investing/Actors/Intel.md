@@ -84,7 +84,7 @@ This note covers Intel as a company. For the foundry business specifically, see 
 - **NVIDIA partnership (Jan 2026)** — $5B investment + strategic collaboration
 - **US government stake (~10%, Aug 2025)** — Trump administration took strategic position
 - **Manufacturing yields disappointing (Jan 2026)** — can't fill server demand, Q1 guidance missed badly, stock -14% AH
-- **Fab 34 buyback (Apr 2026)** — paying >$14B to reclaim full ownership of [[Ireland]] fab from [[Apollo]], raising >$6B in new debt
+- **Fab 34 buyback (Apr 1, 2026)** — paying $14.2B to reclaim full ownership of [[Ireland]] fab from [[Apollo]], funded by cash + ~$6.5B new debt. See [[#Fab 34 buyback (Apr 2026)]] below
 
 ---
 
@@ -223,16 +223,19 @@ Tan had originally said 18A could only generate reasonable return for internal p
 
 ## Fab 34 buyback (Apr 1, 2026)
 
-Intel will pay >$14B to regain full ownership of its Fab 34 semiconductor factory in [[Ireland]] from [[Apollo]], two years after selling a 49% stake for $11.2B to shore up finances during its worst period.
+Intel will pay $14.2B to regain full ownership of its Fab 34 semiconductor factory in [[Ireland]] from [[Apollo]], two years after selling a 49% stake for $11.2B to shore up finances during its worst period. Shares rose more than 10% on the day.
 
 | Detail | Value |
 |--------|-------|
-| Facility | Fab 34, Ireland |
-| Purchase price | >$14B |
-| Original sale (2024) | $11.2B to Apollo |
-| Apollo return | Low to mid-teens |
-| Financing | >$6B in new debt |
-| Stock reaction | INTC +8% |
+| Facility | Fab 34, Leixlip, Ireland |
+| Purchase price | $14.2B |
+| Original sale (Jun 2024) | $11.2B for 49% stake |
+| Apollo return | ~$3B profit (~27% over ~2 years) |
+| Financing | Cash on hand + ~$6.5B new debt |
+| Stock reaction | INTC +8.8% to $48.03 |
+| Profit/credit impact | Expects accretion + stronger credit profile from 2027 |
+
+Fab 34 produces chips on Intel 4 and Intel 3 process technologies, including Core Ultra processors for PCs and Xeon processors for servers. It was Intel's first high-volume manufacturing site for the Intel 4 node using [[ASML|EUV]] lithography.
 
 CFO David Zinsner: the 2024 agreement provided "meaningful flexibility" during the crisis, adding "today, we have a stronger balance sheet, improved financial discipline and an evolved business strategy."
 
@@ -240,9 +243,9 @@ CFO David Zinsner: the 2024 agreement provided "meaningful flexibility" during t
 
 Jamshid Ehsani (Apollo partner): the deal came at an important stage in Intel's "advanced manufacturing roadmap, where our long-term strategic capital played a meaningful role in accelerating the production of next-generation chip technology."
 
-The buyback closes the loop on Intel's most significant balance-sheet relief transaction. Since the 2024 sale: US government ~10% stake (Aug 2025), [[NVIDIA]] $5B investment (Jan 2026), [[SoftBank]] investment — all stabilized Intel's position enough to bring the fab fully in-house again.
+The buyback closes the loop on Intel's most significant balance-sheet relief transaction. Since the 2024 sale: US government ~10% stake (Aug 2025), [[NVIDIA]] $5B investment (Jan 2026), [[SoftBank]] investment — all stabilized Intel's position enough to bring the fab fully in-house again. The timing also aligns with CEO [[Lip-Bu Tan]]'s reversal on 18A external foundry customers (Mar 4) — reclaiming full fab ownership positions Intel to capture more manufacturing economics internally as demand for its process nodes rises from AI inference workloads.
 
-*Source: FT (Bradshaw/Gara/Platt), Apr 1 2026*
+*Sources: Reuters (Soni), Apr 1 2026; FT (Bradshaw/Gara/Platt), Apr 1 2026*
 
 ---
 

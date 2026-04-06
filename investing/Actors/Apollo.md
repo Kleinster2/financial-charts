@@ -255,12 +255,12 @@ Part of [[Patrick Drahi]]'s aggressive creditor management strategy as his telec
 
 ## Intel Fab 34 buyback (Apr 1, 2026)
 
-Apollo sold back its stake in [[Intel]]'s Fab 34 semiconductor factory in [[Ireland]] for >$14B, earning a low to mid-teens return on the largest financing transaction in Apollo's history.
+Apollo sold back its stake in [[Intel]]'s Fab 34 semiconductor factory in [[Ireland]] for $14.2B, earning ~$3B profit (~27% over ~2 years) on the largest financing transaction in Apollo's history.
 
 | Detail | Value |
 |--------|-------|
 | Original investment (2024) | $11.2B (49% stake in JV) |
-| Sale price (2026) | >$14B |
+| Sale price (2026) | $14.2B |
 | Return | Low to mid-teens |
 | Key investor | [[Athene]] (per securities filings) |
 | Hold period | ~2 years |
