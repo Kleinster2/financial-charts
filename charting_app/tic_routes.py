@@ -42,6 +42,7 @@ def get_tic_flows():
                    total_net_flow
             FROM tic_flows
             WHERE country = ?
+              AND total_net_flow IS NOT NULL
             ORDER BY date
         """, (country,))
 
@@ -77,8 +78,11 @@ def get_tic_flows():
                 if i < window - 1:
                     result.append(None)
                 else:
-                    s = sum(v for v in values[i - window + 1:i + 1] if v is not None)
-                    result.append(round(s / 1000, 2))  # millions -> billions
+                    window_vals = [v for v in values[i - window + 1:i + 1] if v is not None]
+                    if not window_vals:
+                        result.append(None)
+                    else:
+                        result.append(round(sum(window_vals) / 1000, 2))
             return result
 
         treasury_r = rolling_sum(treasury, rolling)
