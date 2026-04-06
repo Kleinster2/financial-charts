@@ -19,9 +19,10 @@ window.ChartTicDashboard = {
                 <h3>TIC — Foreign Capital Flows</h3>
                 <div class="dashboard-controls">
                     <select class="tic-rolling-select">
+                        <option value="1" selected>Monthly</option>
                         <option value="3">3-Month Rolling</option>
                         <option value="6">6-Month Rolling</option>
-                        <option value="12" selected>12-Month Rolling</option>
+                        <option value="12">12-Month Rolling</option>
                         <option value="24">24-Month Rolling</option>
                     </select>
                     <button class="dashboard-refresh-btn">Refresh</button>
