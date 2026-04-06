@@ -583,6 +583,23 @@ Bulls on China exposure would say:
 
 *Updated 2026-02-02*
 
+## US Treasury holdings
+
+Was the largest foreign holder of US [[Treasuries]] until 2019 (now #3 behind [[Japan]] and [[UK]]). Holdings: $59.4B (Mar 2000) → $1,316.7B peak (Nov 2013) → $694.4B (Jan 2026). Steady reduction over a decade — long predates tariff tensions or "[[Sell America trade]]" narratives.
+
+![[tic-holdings-china-mainland.png]]
+*China US Treasury holdings, Mar 2000 - Jan 2026. Peak-to-current drawdown of $622B (-47%). 2024 gap is a Treasury TIC data publication lag. Source: US Treasury TIC (mfhhis01 + slt_table5).*
+
+| Date | Holdings | Context |
+|------|----------|---------|
+| Mar 2000 | $59.4B | Earliest TIC data |
+| Nov 2013 | $1,316.7B | All-time peak |
+| Jan 2026 | $694.4B | -47% from peak, steady decline since 2013 |
+
+The decline reflects reserve diversification (into gold, bilateral currency swaps, [[BRICS]] mechanisms) rather than acute US risk aversion. Pace has not accelerated meaningfully during tariff escalations.
+
+---
+
 ## Related
 
 - [[PBOC]] — central bank, liquidity injections
@@ -591,6 +608,9 @@ Bulls on China exposure would say:
 - [[TSMC]] — customer (constrained by [[N-2 rule]])
 - [[Samsung]] — has China fabs (VEU risk)
 - [[SK Hynix]] — has China fabs (VEU risk)
+- [[Sell America trade]] — was #1 holder, now #3; steady seller since 2013
+- [[Treasuries]] — $694B in holdings (Jan 2026), -47% from 2013 peak
+- [[De-dollarization]] — reserve diversification into gold, bilateral swaps
 - [[NVIDIA]] — supplier (H200 approved, Blackwell blocked)
 - [[AMD]] — supplier (MI308)
 - [[ASML]] — equipment supplier (no EUV allowed)

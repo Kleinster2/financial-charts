@@ -53,6 +53,8 @@ window.GridLayout = (() => {
             // Restore individual card heights
             wrapper.querySelectorAll('.chart-card').forEach(card => {
                 card.classList.remove('grid-compact');
+                card.style.gridColumn = '';
+                card.style.overflow = '';
                 const chartBox = card.querySelector('.chart-box');
                 if (chartBox && card._ctx) {
                     chartBox.style.height = `${card._ctx.height || 500}px`;
@@ -78,7 +80,12 @@ window.GridLayout = (() => {
 
             // Compact mode for all cards in grid
             wrapper.querySelectorAll('.chart-card').forEach(card => {
-                card.classList.add('grid-compact');
+                if (card._fullWidth) {
+                    card.style.gridColumn = '1 / -1';
+                    card.style.overflow = 'visible';
+                } else {
+                    card.classList.add('grid-compact');
+                }
             });
         }
 

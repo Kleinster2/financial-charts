@@ -78,6 +78,16 @@ KO shows moderate Consumer Staples correlation (XLP r = 0.66).
 
 ---
 
+## CEO succession (Mar 2026)
+
+[[James Quincey]] stepped down Mar 31, 2026 after 9 years as CEO, transitioning to Executive Chairman. [[Henrique Braun]] (COO since Jan 2025) succeeded him.
+
+Quincey told CNBC (Mar 26): the company made significant progress pre-AI, but "now there's a huge new shift coming along" and Coca-Cola needs someone with the energy to pursue "a completely new transformation of the enterprise." He was 60 at departure. Under his tenure the company added 10+ billion-dollar brands.
+
+Braun, who had overseen all operating units worldwide as COO, inherits the AI transformation mandate alongside continued portfolio expansion.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -107,6 +117,7 @@ KO shows moderate Consumer Staples correlation (XLP r = 0.66).
 | Ticker | KO |
 | Revenue | ~$47B |
 | Dividend streak | 62+ years |
+| CEO | [[Henrique Braun]] (Mar 31, 2026) |
 | Key brand | Coca-Cola |
 
 ---

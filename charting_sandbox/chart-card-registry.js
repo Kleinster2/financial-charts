@@ -53,6 +53,20 @@ window.ChartCardRegistry = (() => {
             module: () => window.ChartThesisPerformance,
             create: (wrapper, opts) => window.ChartThesisPerformance.createThesisPerformanceCard(wrapper, { thesisId: opts.thesisId }),
             restore: (cardData, wrapper) => ({ type: 'thesis-performance', wrapperEl: wrapper, thesisId: cardData.thesisId })
+        },
+        'tic-dashboard': {
+            module: () => window.ChartTicDashboard,
+            create: (wrapper, opts) => window.ChartTicDashboard.createTicDashboardCard(wrapper, opts),
+            restore: (cardData, wrapper) => ({
+                type: 'tic-dashboard',
+                wrapperEl: wrapper,
+                rolling: cardData.rolling
+            }),
+            serialize: (card) => ({
+                type: 'tic-dashboard',
+                page: card.closest('.page')?.dataset.page || '1',
+                rolling: card._ticState?.rolling || 12
+            })
         }
     };
 

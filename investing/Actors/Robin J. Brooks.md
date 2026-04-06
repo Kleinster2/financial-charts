@@ -81,6 +81,24 @@ Chart finding: Turkish Lira outperformed [[BRL]] and Chilean Peso over Feb 27 �
 
 *Sources: [Turkey Falls Back into Crisis](https://robinjbrooks.substack.com/p/turkey-falls-back-into-crisis), [Turkey's Huge External Imbalance](https://robinjbrooks.substack.com/p/turkeys-huge-external-imbalance), March 30, 2026*
 
+### "What happened to 'Sell America?'" (Apr 6)
+
+Argues the [[Sell America trade]] never existed: foreign portfolio inflows into [[Treasuries]], corporate debt, and equities are at 25-year highs (TIC data through Jan 2026). Flows into corporate debt and equities are typically unhedged — maintaining implicit dollar exposure — which also debunks the "Hedge America" narrative.
+
+Despite no capital flight, forecasts 10% trade-weighted dollar decline this year. The mechanism: [[Federal Reserve]] politicization will maintain rate cuts despite rising inflation, suppressing nominal yields and depressing real yields. Parallel: 2010-2013 post-QE regime, when strong economic data coincided with dollar weakness because the Fed was capping rates.
+
+Supporting evidence: Friday's strong NFP (+178K vs 59K consensus) produced flat dollar performance rather than the appreciation that historical payrolls-surprise/dollar correlations would predict. Markets are trading a regime shift where strong US data weakens rather than strengthens the currency.
+
+Two charts: (1) TIC net foreign flows into US equities, corporate debt, agency debt, Treasury notes/bonds — all positive, 25-year highs; (2) payrolls surprise vs dollar move scatter showing the correlation breakdown.
+
+*Source: [What happened to 'Sell America?'](https://robinjbrooks.substack.com/p/what-happened-to-sell-america), April 6, 2026*
+
+### "Central Bank Gold Selling" (Apr 4)
+
+[[Turkey]] is the only EM central bank using gold holdings to bolster FX reserves during the Iran crisis. Not a broader EM trend.
+
+*Source: [Central Bank Gold Selling](https://robinjbrooks.substack.com/p/central-bank-gold-selling), April 4, 2026*
+
 ### Oil market structure and geopolitics (April 2026)
 
 **"How Big is the Oil Price Spike?" (Apr 3):** June Brent futures $112 is the key price. Spot much higher due to scramble. Futures embed war-ending expectation. "Paper vs physical disconnect" is "nonsense." WTI below Brent due to limited US export incentive.

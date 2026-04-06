@@ -19,8 +19,19 @@ aliases: [Ken Griffin]
 
 ---
 
+## AI stance
+
+Griffin has publicly expressed skepticism about GenAI's impact on the hedge fund industry, saying the technology "isn't helping hedge funds create market-beating returns and hasn't yet meaningfully impacted the industry."
+
+This aligns with [[Viking Global]]'s [[Andreas Halvorsen]], who wrote in an investor letter that AI's usefulness diminishes as you approach judgment calls. Both stand in contrast to [[Coatue]]'s aggressive AI positioning.
+
+*Source: Bloomberg*
+
+---
+
 ## Related
 
 - [[Citadel]] — hedge fund
 - [[Citadel Securities]] — market making
+- [[Viking Global]] — Halvorsen echoed AI skepticism in investor letter
 - [[Qatar Economic Forum 2026]] — confirmed plenary speaker

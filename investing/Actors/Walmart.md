@@ -106,6 +106,16 @@ Key dynamics:
 
 ---
 
+## CEO succession (Jan 2026)
+
+[[Doug McMillon]] stepped down Jan 31, 2026 after 12 years as CEO. [[John Furner]] (President and CEO of Walmart US) succeeded him Feb 1. McMillon remains on the board through Jun 2026 and as adviser through Jan 2027.
+
+McMillon told CNBC (Mar 26): "With what's happening with AI, I could start this next big set of transformations with AI, but I couldn't finish." He said he began thinking about the timing about a year earlier. Revenue grew from $486B to $681B under his tenure; stock +300%.
+
+Furner's mandate is AI-driven transformation of retail operations — extending the e-commerce, advertising, and marketplace buildout McMillon started.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -133,7 +143,7 @@ Key dynamics:
 | Ticker | WMT |
 | Market cap | ~$600B |
 | Employees | 2.1M+ |
-| CEO | Doug McMillon |
+| CEO | [[John Furner]] (Feb 1, 2026) |
 
 *Created 2026-01-06*
 

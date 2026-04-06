@@ -135,11 +135,28 @@ PM [[Sanae Takaichi]]'s March 19, 2026 summit with Trump is described by officia
 | iShares MSCI Japan | EWJ | Unhedged broad exposure |
 | Nikkei 225 futures | NKD | Direct index exposure |
 
+## US Treasury holdings
+
+Largest foreign holder of US [[Treasuries]]. Holdings: $325.8B (Mar 2000) → $1,325.5B peak (Nov 2021) → $1,225.3B (Jan 2026). Drawdowns in 2022-2024 coincided with [[BOJ]]/MOF yen intervention — selling Treasuries to fund dollar sales defending the yen, not a structural "Sell America" move. Holdings have since recovered.
+
+![[tic-holdings-japan.png]]
+*Japan US Treasury holdings, Mar 2000 - Jan 2026. 2024 gap is a Treasury TIC data publication lag. Source: US Treasury TIC (mfhhis01 + slt_table5).*
+
+| Date | Holdings | Context |
+|------|----------|---------|
+| Mar 2000 | $325.8B | Earliest TIC data |
+| Nov 2021 | $1,325.5B | All-time peak |
+| Jan 2026 | $1,225.3B | Current — recovered from intervention dips |
+
+---
+
 ## Related
 
 - [[Japan corporate governance revolution]] — TSE-led governance reform, PBR push
 - [[Japan-instead-of-China trade]] — institutional capital rotating from China
 - [[Japan lost decades]] — 1991-2024 deflation/stagnation context
+- [[Sell America trade]] — largest holder; dips are yen intervention, not capital flight
+- [[Treasuries]] — $1.2T+ in holdings
 - [[Abenomics]] — Abe-era reform framework (2012-2020)
 - [[BOJ]] — rate normalization under [[Kazuo Ueda]]
 - [[Tokyo Stock Exchange]] — governance reform implementer

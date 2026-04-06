@@ -10,7 +10,36 @@ But the fundamental case for actually divesting from the US is weak. US companie
 
 The trade works as a *tactical signal* — when DXY and Treasury yields decouple (correlation flips negative), capital is leaving America and traditional 60/40 portfolios lose their hedge. It's worth monitoring and trading around. But as a *structural allocation shift*, it faces a $7T revenue gap, a $4.3T R&D investment gap, and a negative feedback loop where European underinvestment erodes the very fundamentals that would justify reallocation. Europe's edge is valuation (lower multiples) and yield (higher dividends) — real advantages, enough for [[BlackRock]] and [[UBS]] to project higher near-term returns. But the long-term trajectory of European business points in an unfavorable direction without fresh capital and policy reform.
 
-**Watch for:** The trade re-fires on every new tariff threat, fiscal scare, or geopolitical provocation. The question isn't whether it happens again — it will — but whether it ever becomes *permanent* rather than episodic.
+[[Robin J. Brooks]] (Apr 6, 2026) challenges the entire framework: TIC data through January 2026 shows foreign portfolio inflows into Treasuries, corporate debt, and equities at 25-year highs — the opposite of "Sell America." His alternative explanation for dollar weakness: [[Federal Reserve]] politicization maintaining rate cuts through rising inflation, suppressing real yields. This is a [[Fiscal Dominance]] symptom, not a reserve-status erosion signal. If Brooks is right, the dollar falls but capital keeps flowing in — and the 60/40 correlation break is a monetary regime artifact, not structural US decline. The distinction matters: watch TIC flows for the tell. As long as inflows are at record levels, "Sell America" is a misnomer for what's really a "Sell the Dollar While Buying America" trade.
+
+**Watch for:** The trade re-fires on every new tariff threat, fiscal scare, or geopolitical provocation. The question isn't whether it happens again — it will — but whether it ever becomes *permanent* rather than episodic. Brooks' 25-year-high flows data reframes the risk: the trade is episodic *and the flows say it's not even happening structurally*. The canary is TIC data flipping to net outflows.
+
+## Brooks debunking (Apr 6, 2026)
+
+[[Robin J. Brooks]] argues the "Sell America" trade never existed — and its cousin the "Hedge America" trade doesn't either. His evidence: US Treasury TIC data through January 2026 shows foreign portfolio inflows into [[Treasuries]], corporate debt, and equities at 25-year highs. Flows are concentrated in corporate debt and equities, which are typically unhedged instruments with implicit dollar exposure — the opposite of hedging away from America.
+
+Brooks still forecasts a 10% trade-weighted dollar decline in 2026, but attributes it to a different mechanism: increasing [[Federal Reserve]] politicization maintaining rate cuts despite elevated and rising inflation. This suppresses nominal yields while growth stays strong, depressing real yields and weakening the dollar — a replay of the 2010-2013 post-QE regime.
+
+Supporting data point: Friday's NFP (+178K vs 59K consensus) produced flat dollar performance. Historical payrolls-surprise/dollar correlations would predict appreciation. Markets are trading a regime shift where strong US data weakens the currency — the same pattern that dominated 2010-2013.
+
+![[tic-net-foreign-flows.png]]
+*Net foreign purchases of US long-term securities by asset class, 12-month rolling sum ($B). All four categories positive, with Treasury and equity inflows at multi-year highs as of Jan 2026. Source: US Treasury TIC data (slt_table1).*
+
+12-month rolling net foreign purchases (Feb 2025 - Jan 2026, $B):
+
+| Asset class | 12-month net purchases |
+|-------------|----------------------|
+| Equities | +$754B |
+| [[Treasuries]] | +$479B |
+| Corporate debt | +$375B |
+| Agency debt | +$66B |
+| Total | +$1,673B |
+
+Note: April 2025 (Liberation Day) saw net outflows of -$67B — the only negative month in the trailing 12. By May, inflows surged to +$317B (largest single month in the dataset). The "Sell America" episode lasted exactly one month in the TIC data.
+
+Implication for the Sell America framework: the dollar weakness is real but the *channel* matters. Capital isn't leaving America (flows are at 25-year highs). The dollar is falling because the Fed is being politically pressured into cutting through rising inflation — a [[Fiscal Dominance]] symptom, not a reserve-status erosion symptom. The distinction matters for positioning: if inflows reverse, the trade becomes structural; as long as they're flowing in at record pace, the dollar weakness is a policy regime artifact, not a capital flight signal.
+
+*Source: [What happened to 'Sell America?'](https://robinjbrooks.substack.com/p/what-happened-to-sell-america), April 6, 2026*
 
 ---
 
@@ -50,15 +79,18 @@ The trade returned after Trump threatened tariffs on eight NATO countries over G
 
 **Foreign ownership vulnerability:** Foreigners hold ~30% of US [[Treasuries]] ($9.2T of $38T debt as of October 2025). Europe alone owns $8T in US equities and bonds—twice the rest of world combined (Deutsche Bank). When these flows reverse, all three assets move together.
 
-**Major holders (Oct 2025):**
+**Major holders (Jan 2026, TIC data):**
 
-| Country   | Holdings | Share |
+| Country   | Holdings | Trend |
 | --------- | -------- | ----- |
-| [[Japan]] | $1.2T    | 12.4% |
-| [[UK]]    | ~$750B   | 8.4%  |
-| [[China]] | $759B    | 8.9%  |
+| [[Japan]] | $1,225B  | Recovered from 2022-24 dip (yen intervention) |
+| [[UK]]    | $895B    | Steady accumulator |
+| [[China]] | $694B    | Declining from $1.3T peak (2013) — net seller for a decade |
 
-China and Japan have been net sellers, typically <$10B/month. The risk is acceleration.
+China's selling is real but has been ongoing since 2013 — it predates tariff tensions by years and hasn't accelerated materially. Japan's dips correlate with MOF/BOJ yen intervention, not US risk aversion.
+
+![[tic-holdings-top20.png]]
+*Top 20 foreign holders of US Treasury securities, Jan 2026. Japan #1, UK passed China for #2. Source: US Treasury TIC data (slt_table5).*
 
 ## Limitations and counterarguments
 
@@ -99,9 +131,14 @@ Normally negative (bonds hedge equity drawdowns). When **both fall together**, 6
 
 When gold/silver rally while DXY falls, capital is fleeing to hard assets rather than rotating within US markets. January 2026: gold/silver hit record highs as DXY dropped 1% in a day.
 
+### TIC data (definitive, 6-8 week lag)
+
+Monthly foreign holdings and net purchases of US long-term securities. Published by US Treasury. The vault ingests this data directly — see `scripts/fetch_tic_data.py`. Two tables in `market_data.db`: `tic_flows` (net purchases by asset class, Jan 2020+) and `tic_holdings` (country-level Treasury holdings, Mar 2000+).
+
+As of Jan 2026: $1.67T in trailing-12-month net foreign purchases. All four asset classes positive. The data flatly contradicts the "Sell America" narrative.
+
 ### Other indicators
 
-- **TIC data** — monthly foreign Treasury holdings (lagged but definitive)
 - **30-year yield** behavior during equity selloffs (should fall in normal risk-off)
 - **Term premium** — rising compensation for duration risk
 
@@ -175,3 +212,5 @@ European stock funds average US allocation: well below 50% (vs 63% of global mar
 - [[Developed ex-US equities]] — the "Buy Europe" investment vehicle (EFA)
 - [[Europe]] — regional context (defense rearmament, ASML, industrials)
 - [[Greenland]] — January 2026 trigger (NATO tariff threats)
+- [[Robin J. Brooks]] — debunks trade (Apr 2026): flows at 25-year highs, dollar weakness is Fed politicization not capital flight
+- [[Fiscal Dominance]] — Brooks' mechanism: Fed cutting through rising inflation = real yield suppression

@@ -59,6 +59,7 @@ _blueprints = [
     ('waterfall_routes', 'waterfall_bp', 'Waterfall'),
     ('sankey_routes', 'sankey_bp', 'Sankey'),
     ('intraday_routes', 'intraday_bp', 'Intraday'),
+    ('tic_routes', 'tic_bp', 'TIC'),
 ]
 
 for module_name, bp_name, label in _blueprints:
