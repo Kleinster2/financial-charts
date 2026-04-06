@@ -97,6 +97,7 @@ ETF_TICKERS = [
     "EWZ", "EWW", "EWJ", "EWU", "EWG", "EWQ", "EWC", "EWA", "EWL", "EWS", "EWI", "EWP", "EWN", "EWD", "EWO", "EWH", "EWK", "EWM", "EDEN", "EFNL", "EIRL", "EIS", "ENZL", "ENOR",
     # Single-country emerging market ETFs
     "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI", "GXC",  # added GXC for ALLW
+    "QAT", "UAE",  # iShares MSCI Qatar / UAE
     # Fixed income & alternative asset ETFs
     "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "AGG", "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX", "VCIT", "VCLT", "VCSH", "USHY", "SHYG", "IGOV",
     # Global bonds (Dashboard)

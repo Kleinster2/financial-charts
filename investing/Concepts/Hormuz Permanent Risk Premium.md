@@ -57,6 +57,8 @@ Before February 28, 2026, the Hormuz closure was a theoretical war-game scenario
 
 [[Eric Nuttall]] ([[Ninepoint Partners]], March 30): Endorsed the permanent premium at **$10-20/bbl minimum** — and crystallized the asymmetric vulnerability with a memorable line: future Hormuz impairment can be triggered by "a mere $30,000 drone." Even with OPEC spare capacity, that capacity sat behind the strait; the $30K drone makes the buffer illusory. Nuttall's "day after" thesis: the pre-war glut expectation is dead, inventories at multi-year lows, and countries with long-dated reserves in politically secure areas (i.e., [[Canada]], US) have become "wildly more valuable."
 
+[[Ruchir Sharma]] ([[Rockefeller International]], FT Apr 6, 2026): this oil shock is structurally different because governments enter with record deficits/debt — no policy ammunition to cushion elevated energy prices. Global debt hit $348tn (>3x GDP), the [[Federal Reserve|Fed]] missed its 2% target for 60 consecutive months, and bond markets are warning via rising term premium. Past oil shocks could be partially offset by fiscal stimulus and monetary easing; this one can't. The amplifier is fiscal, not just geopolitical. Most vulnerable: [[United States|US]], [[United Kingdom|UK]], [[Brazil]], [[Egypt]], [[Indonesia]]. See [[Fiscal Dominance#2026 oil shock — the regime's first test (Apr 2026)|Fiscal Dominance § 2026 oil shock]].
+
 ## Structural winners from the permanent premium
 
 | Category | Names | Logic |
@@ -101,6 +103,20 @@ Source: MEI panel, March 20 2026 — Mulroy/Connelly
 
 ---
 
+## April 5-6, 2026 -- Trump's Tuesday ultimatum
+
+Day 37 of the conflict. Trump issued a Truth Social ultimatum (Apr 5, Easter Sunday): Iran must reopen the [[Strait of Hormuz]] by Tuesday April 7 or face strikes on its power plants and bridges. Iran responded that the strait won't reopen until it is "fully compensated" for war damages. An F-15 was shot down over Iran Saturday (crew member rescued).
+
+Oil surged: WTI topped $114/bbl, Brent at $111.69. Europe began jet fuel rationing; airlines preemptively canceling flights. The Strait remains what [[Helima Croft]] calls "a parking lot." [[Jeff Currie]] ([[Carlyle]]): 5-10M bbl/day potential demand destruction, paper markets have "entirely disconnected from the physical markets."
+
+This is the sharpest escalation since the initial closure. The ultimatum forces a resolution or an expansion of the conflict within 48 hours. If Trump strikes power infrastructure, the humanitarian dimension escalates (civilians lose electricity) and Iran's incentive to negotiate drops further. If Iran doesn't comply and Trump doesn't follow through, the credibility of future threats erodes.
+
+The permanent premium thesis strengthens: each escalation cycle demonstrates that Hormuz closure is not a transient shock but an ongoing weapon in Iran's arsenal.
+
+*Sources: CNBC (Apr 5), Al Jazeera (Apr 5), Time (Apr 5), Fortune (Mar 26 original deadline extension reporting)*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — the event that created the premium
@@ -113,7 +129,9 @@ Source: MEI panel, March 20 2026 — Mulroy/Connelly
 - [[Robin J. Brooks]] — AIS vessel tracking analysis
 - [[Sankey Research]] — "structural change in the risk of oil"
 - [[Hormuz Transit Regime]] — transit fees, bilateral access, yuan settlement condition
+- [[Fiscal Dominance]] — why governments can't offset this shock with fiscal/monetary stimulus
+- [[Ruchir Sharma]] — policy ammunition exhaustion thesis
 
 ---
 
-*Sources: CFR panel (March 17, 2026); FT Rachman Review (March 12, 2026); Robin J. Brooks Substack (March 8-9, 2026); [[Paul Sankey]]/[[Sankey Research]] (March 14, 2026).*
+*Sources: CFR panel (March 17, 2026); FT Rachman Review (March 12, 2026); Robin J. Brooks Substack (March 8-9, 2026); [[Paul Sankey]]/[[Sankey Research]] (March 14, 2026); Ruchir Sharma FT column (April 6, 2026).*

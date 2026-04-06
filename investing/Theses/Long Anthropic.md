@@ -109,6 +109,7 @@ Anthropic is the Western DeepSeek — proving efficiency beats brute-force scali
 - [ ] **[[Meta]] Manus integration succeeds** — $2B acquisition, $100M ARR in 8 months
 - [ ] **Pentagon "supply-chain risk" designation sticks** — defense/intel market closed, chilling effect on government contracts broadly. If contractors must certify they don't use Claude, this extends beyond Pentagon to entire defense supply chain
 - [ ] **Political risk becomes fundraising risk** — [[1789 Capital]] already declined nine-figure investment on ideological grounds. If pro-Trump capital avoids Anthropic systematically, IPO pricing suffers
+- [ ] **Claude Code source leak enables open-source clones** — 512K lines of TypeScript leaked (Mar 31), Rust/Python rewrites hit 100K GitHub stars in hours. If clean-room clones replicate Claude Code's agentic harness, the product moat erodes. Compounded by IP contradiction: Anthropic's DMCA stance conflicts with its own fair-use defense on training data
 
 ---
 
@@ -144,6 +145,8 @@ Anthropic is the Western DeepSeek — proving efficiency beats brute-force scali
 | 2024-12 | $60B | Dec 2024 round |
 | 2025-09 | $183B | Series F ($13B round) |
 | 2025-11 | **$300-350B** | Post [[Microsoft]] $5B + [[NVIDIA]] $10B |
+| 2026-02 | **$380B** | Series G ($30B round) |
+| 2026-04 | **~$600B** (secondary bids) | 58% premium to Series G; $2B+ demand, "unlimited interest" |
 
 **Revenue trajectory:**
 - 2024: ~$850M
@@ -178,6 +181,8 @@ Anthropic is the Western DeepSeek — proving efficiency beats brute-force scali
 | **2026-01-11** | **Manus uses [[Claude]] as core reasoning engine** (3.5 Sonnet → 3.7 → 4) | **Even Meta-acquired harnesses pay Anthropic** |
 | **2026-03-12** | **Cowork integrated into [[Copilot\|Microsoft Copilot]]** — cloud-level enterprise data access. Copilot at only 15mn paid seats (~3% of Office users), Microsoft needs Anthropic's agent capability. Distribution play into non-coding white-collar work | **Enterprise expansion beyond coding — validates "rest of work" thesis** |
 | **2026-02-18** | **Pentagon designates Anthropic "supply-chain risk"** — may require contractors to certify no Claude use. [[1789 Capital]] (Trump-connected) declined nine-figure investment on ideological grounds. Rivals ([[OpenAI]], [[Google]], [[xAI]]) all agreed to unrestricted military deployment | **Major bear case: political risk now concrete. Safety stance that justifies $380B premium is same stance that could lock Anthropic out of defense/intel market and poison fundraising with politically-connected capital** |
+| **2026-03-31** | **Claude Code source leak** — 512K lines of TypeScript leaked via npm packaging error. "Claw Code" Rust/Python rewrites hit 100K GitHub stars in hours. Anthropic DMCA'd 8,100 repos (retracted to 96). IP contradiction: Anthropic argues fair use for training but claims copyright on code potentially written by Claude | **Bear case: agentic harness architecture now public. But secondary market demand (see below) suggests investors shrugging it off — code alone isn't the moat, the model + trust + enterprise contracts are** |
+| **2026-04-06** | **Secondary market demand at $600B** — $2B+ buyer demand, Hiive $1.6B registered, bids 58% above Series G. Meanwhile ~$600M in [[OpenAI]] shares can't find buyers at $850B. Goldman charges carry for Anthropic, zero-carry for OpenAI. Crawley (Augment): "essentially unlimited interest" | **Strongest secondary-market validation yet. Institutional capital voting with its feet — pivoting from OpenAI to Anthropic on risk-reward. Implied $600B pre-IPO floor supports aggressive IPO pricing. Notable: demand surging DESPITE source leak and Pentagon standoff — market pricing these as noise, not structural** |
 
 ---
 

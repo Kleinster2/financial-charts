@@ -117,7 +117,32 @@ For any domain query, enumerate canonical entities:
 
 Don't confuse infrastructure with foundations. Coinbase is crypto infrastructure; Bitcoin is a crypto foundation.
 
-## 7. Concept extraction
+## 7. Claims grounding
+
+After distributing facts from a source, check that every claim is supported by a concept note or current entity note.
+
+### Technical terms as claims
+
+If you write a technical term as a claim in 2+ notes (e.g., "yields rising on term premium, not inflation expectations"), verify:
+
+- [ ] **Concept note exists** — the term has a `[[wikilinked]]` concept note explaining the mechanism
+- [ ] **Mechanics are in the note** — not just a mention, but enough for a reader to understand *how you know* the claim is true
+
+If the concept note doesn't exist, create it in the same pass. Don't leave orphaned claims across multiple notes.
+
+### State assertions
+
+If you assert the state of a vault entity ("inflation expectations remain stable," "labor market weakening"), verify:
+
+- [ ] **Entity note is current** — open the note, check the last update date
+- [ ] **Data supports the claim** — the note has specific data (not just old data) backing the assertion
+- [ ] **Update if stale** — if the note is weeks/months behind, add the current data before or during the same pass
+
+Failure mode: asserting "X is stable" while the X note has Jan 2026 data and you're working in April. The claim may be true, but the vault can't prove it.
+
+---
+
+## 8. Concept extraction
 
 After creating or editing a note, scan for terms that deserve their own concept note. This requires domain judgment — pattern-matching can't catch it.
 
@@ -132,3 +157,5 @@ Ask: "Are there specific named frameworks, classifications, or mechanisms mentio
 - "independent federal agency" — description, not a concept
 
 If yes, create the concept note and wikilink it in the same editing pass — don't leave it for later cleanup.
+
+**Rule of thumb:** If the same term appears in 3+ notes as a claim (not just a mention), it almost certainly needs its own concept note. The repetition is the signal.

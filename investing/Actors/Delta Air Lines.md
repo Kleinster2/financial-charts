@@ -82,7 +82,7 @@ Reports Apr 8 (before open) — first real corporate earnings test of the [[2026
 
 [[Mike Wilson]]/[[Morgan Stanley]] has DAL on "Fresh Money Buy List."
 
-Forward guidance is the variable — headline beats matter less than how [[Ed Bastian]] frames the fuel cost trajectory and whether corporate travel demand is holding through the crisis.
+Forward guidance is the variable — headline beats matter less than how Ed Bastian frames the fuel cost trajectory and whether corporate travel demand is holding through the crisis.
 
 *Source: earnings calendar research, Apr 2026*
 

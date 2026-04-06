@@ -182,7 +182,7 @@ Bear:
 - Jan 2022 — [[Athene]] merger completed: Acquired remaining Athene shares for ~$11B all-stock. Athene became wholly owned subsidiary. Retirement Services SRE now exceeds fee-related earnings ($3.4B vs $2.5B in 2025).
 - 2022 — Josh Harris departs: Passed over for CEO in favor of Rowan. Left Apollo, founded [[26North]] (multi-asset alternatives). Acquired Washington Commanders for $6B (2023 record for U.S. sports franchise).
 - Apr 2025 — Jay Clayton resigns: Left board to become Interim U.S. Attorney, SDNY. Rowan took dual CEO/Chairman role; [[Gary Cohn]] became Lead Independent Director.
-- 2025 — Approaching $1T: AUM reached $938B (Dec 2025, +25% YoY). Record origination exceeded $300B. Rowan targeting $1.5T AUM by 2029 and doubling annual credit origination to $200–250B. Apollo now has ~4,000 professionals across 16 origination platforms.
+- 2025 — Approaching $1T: AUM reached $938B (Dec 2025, +25% YoY). Record origination exceeded $300B. Rowan targeting $1.5T AUM by 2029 and $275B/year in deal origination (up from earlier $200-250B target). Apollo now has ~4,000 professionals across 16 origination platforms.
 
 ---
 
@@ -269,6 +269,10 @@ Jamshid Ehsani (Apollo partner): the deal came at an important stage in Intel's 
 
 Demonstrates Apollo's core infrastructure financing playbook: create JVs to finance large capex (similar to [[AB InBev]], [[Air France-KLM]], [[EDF]]), keep the project off the client's balance sheet, use [[Athene]] float for cheap financing. Intel needed capex capital during its foundry transformation; Apollo provided it through a structure that didn't burden Intel's already-strained balance sheet.
 
+The Intel deal was structured as "private investment grade debt" — complicated structuring (one long legal document) meant Intel's accountants didn't treat the $11.2B infusion as debt, avoiding balance sheet obligations and credit rating pressure. Apollo won investment grade debt ratings for a large part of the financing, making it attractive to insurers ([[Athene]] and others). The debt worked its way onto insurance company balance sheets and into an exchange-traded fund offered by [[State Street]]. This structure triggered a stampede by [[KKR]], [[Blackstone]], and other rivals to emulate it. Apollo must now find replacement origination for the redeemed Intel debt — at the $275B/year target, that is solvable.
+
+*Source (additional detail): FT Due Diligence (Apr 2, 2026)*
+
 When the sale was struck (2024), Intel's financial and technical setbacks had left the future of the last remaining US manufacturer of cutting-edge chips in doubt. Since then: US government ~10% stake (Aug 2025), Intel stock roughly doubled, [[NVIDIA]] $5B investment, [[SoftBank]] investment.
 
 *Source: FT (Bradshaw/Gara/Platt), Apr 1 2026*
@@ -297,7 +301,8 @@ When the sale was struck (2024), Intel's financial and technical setbacks had le
 - [[Private credit]] — $500B credit AUM, retail expansion
 - [[Goldman Sachs]] — peer (European retail push)
 - [[Institutional homebuying ban]] — policy risk
-- [[Intel]] — Fab 34 JV ($11.2B → >$14B sale, low to mid-teens return, Apr 2026)
+- [[Intel]] — Fab 34 JV ($11.2B → >$14B sale, low to mid-teens return, Apr 2026; private investment grade debt structure)
+- [[State Street]] — ETF holding Apollo-originated Intel debt
 - [[AI infrastructure financing]] — indirect exposure
 - [[Saks Global]] — $1.15B term loan exposure
 - [[Saks bankruptcy]] — credit impairment

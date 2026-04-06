@@ -491,6 +491,12 @@ A hacker exploited [[Claude]] to breach multiple [[Mexico|Mexican]] government a
 
 *Source: The Register (Feb 13)*
 
+### Claude Code hedge fund adoption (Apr 2026)
+
+[[Epicenter Capital]], a 3-person long-only fund backed by [[Philippe Laffont]] (co-founder of [[Coatue]]), runs its entire operation through an AI agent system called "Eve" built on Claude Code. Eve autonomously builds sub-agents, scours 13,000+ company disclosures, generates daily podcasts, and recodes itself based on feedback. Eve's ClaudeCode suggested migrating from [[Amazon|AWS]] to [[Cloudflare]], cutting compute costs 90%. Fund costs "mere thousands" per year for Eve vs. hundreds of thousands for a human analyst.
+
+*Source: Bloomberg (Apr 2026)*
+
 ---
 
 ### IPO prep (Dec 2025)
@@ -756,15 +762,41 @@ At the [[India AI Impact Summit 2026]] (Feb 16-20), [[Anthropic]] announced its 
 
 ## Apr 2026 — secondary market
 
-*Data from All-In Podcast Episode 222, April 3, 2026*
+*Data from All-In Podcast Episode 222, April 3, 2026; Bloomberg, April 6, 2026*
 
-**Secondary market strength:** Strong demand at $600B valuation vs current $380B — representing 58% premium to latest Series G. Active secondary bids significantly above current valuation reflect investor appetite for exposure.
+Buyers have indicated $2B cash ready to deploy into Anthropic across secondary marketplaces. Hiive registered >$1.6B in demand at a premium. Next Round Capital and Augment both seeing bids at ~$600B — 58% premium to $380B Series G. Next Round Capital founder Ken Smythe: while ~$600M in [[OpenAI]] shares can't find buyers, Anthropic demand is unlimited. Augment co-founder Adam Crawley: *"It's just better risk-reward right now. People are betting that Anthropic's valuation will catch up with OpenAI's. But if you buy OpenAI shares, it's less clear what the return will be in the near term."* Hiive co-founder Prab Rattan: *"The demand is one of the highest we've ever seen — it's essentially unlimited interest."*
 
-**Internal leaks:** Leaked texts reference "version of AGI running inside Anthropic" — suggesting frontier capabilities beyond public releases. If accurate, positions Anthropic closer to AGI timeline than market realizes.
+[[Goldman Sachs]] charging usual carry (~15-20% of profits) for Anthropic shares, while offering [[OpenAI]] shares to wealth clients at zero carry fees. [[Morgan Stanley]] similarly zero-carry for OpenAI. The fee structure reflects where demand sits: sellers need incentives to move OpenAI shares, while Anthropic shares command premium intermediation.
 
-**Claude Code advancement:** Feature-flagged improvements leaked — "actually much further ahead than models realized." Development pipeline suggests capabilities significantly beyond current public releases, supporting aggressive secondary market pricing.
+Anthropic has dominated the higher-margin enterprise market; growth trajectory appears stronger than OpenAI's. OpenAI's soaring operating costs (committed to spend far more on infrastructure) make the gap between valuations ($852B vs $380B) look like better risk-reward on the Anthropic side. Both companies weighing IPO plans (Bloomberg, Apr 6).
 
-**Code transmutation incident:** [[Chamath Palihapitiya|Chamath]] referenced crypto community incident where someone took Anthropic code, translated to another programming language, and posted on GitHub. If Anthropic claims intellectual property violation ("can't do that"), it undermines their own legal argument about training AI models on copyrighted data — creating "training-on-data argument" contradiction that could impact ongoing copyright litigation.
+Leaked texts (All-In) reference "version of AGI running inside Anthropic." Feature-flagged Claude Code improvements leaked — "actually much further ahead than models realized." If accurate, supports aggressive secondary pricing.
+
+### Security incidents (Mar 26 - Mar 31, 2026)
+
+Two breaches in five days:
+
+Incident 1 — [[Claude Mythos]] / CMS leak (Mar 26): Security researchers Roy Paz (LayerX Security) and Alexandre Pauwels (University of Cambridge) discovered ~3,000 unpublished assets in Anthropic's CMS data lake — all public by default unless explicitly set private. Exposed: draft blog post announcing [[Claude Mythos]] (internal codename "Capybara"), described as "a step change" in AI performance and "the most capable [model] we've built to date," with "unprecedented cybersecurity risks." Also exposed: planned invite-only European CEO retreat with [[Dario Amodei]], internal images, marketing materials. Anthropic called it "human error" in CMS configuration. *(Fortune, Mar 26-27)*
+
+Incident 2 — [[Claude Code]] source leak (Mar 31): Claude Code v2.1.88 shipped with a 59.8 MB JavaScript source map (.map) file to the public npm registry — a missing `.npmignore` entry. The source map pointed to a zip archive on Anthropic's Cloudflare R2 storage bucket. Result: ~512,000 lines of TypeScript across 1,906 files became fully readable. Revealed: the full agentic harness architecture, feature flags for unshipped capabilities (session review, "persistent assistant" background mode, remote phone/browser control), an "Undercover Mode" of unclear purpose, and internal model performance data. Security researcher Chaofan Shou first disclosed on X. Paul Smith (Chief Commercial Officer) attributed both incidents to "the incredibly rapid release cycle that we've had around Claude Code." *(Axios, Fortune, Bloomberg, Mar 31 - Apr 1)*
+
+### Code rewrites and IP contradiction
+
+Within hours, developers began rewriting the leaked TypeScript in other languages — explicitly to be DMCA-proof:
+
+- Sigrid Jin (GitHub: instructkr): "Claw Code" — Python rewrite completed within hours using AI orchestration, then rebuilt in Rust. Became the fastest-growing repository in GitHub history: 100,000 stars (50,000 in the first two hours alone)
+- Kuberwastaken: "ClaURST" — Rust reimplementation, README explicitly citing *Phoenix Technologies v. IBM* (1984, clean-room BIOS engineering) and *Baker v. Selden* (1879, copyright protects expression not ideas) as legal precedent
+- Multiple additional Rust ports (claw-cli, soongenwong/claudecode, srothgan)
+
+Many used Claude itself to translate the code — as Plagiarism Today noted, "AI tools can quickly and effectively rewrite code in a way that generates a 'legally distinct' work."
+
+Anthropic issued DMCA takedowns against [[GitHub]], initially sweeping 8,100 repositories. Boris Cherny (Head of Claude Code) retracted the breadth, calling it "accidental," narrowing to 1 repo + 96 forks. But the damage was reputational.
+
+The IP contradiction ([[Chamath Palihapitiya|Chamath]], All-In, Apr 3): Anthropic has been sued for using pirated books from LibGen to train Claude — a court ordered $1.5B in damages. Internal communications referenced a "Project Panama" where Anthropic "scanned and destroyed millions of used physical books." The industry — Anthropic included — has argued that AI processing of copyrighted material is fair use and that AI-generated rewrites are not derivative works. The same logic applies to anyone using AI to rewrite Anthropic's leaked code. Additional wrinkle: if significant portions of Claude Code were written by Claude (as Anthropic's CEO has implied), AI-generated works are not eligible for copyright protection under the DC Circuit's March 2025 ruling — meaning Anthropic's DMCA claims may have no legal basis at all.
+
+As Futurism put it: "Anthropic wants all the benefits of copyright protection but none of the responsibilities." One cybersecurity firm (Systima) concluded: "The source is, for all practical purposes, permanently public."
+
+Also suing the [[Pentagon|US Department of Defense]] after supply-chain risk designation (Bloomberg, Apr 6).
 
 ---
 

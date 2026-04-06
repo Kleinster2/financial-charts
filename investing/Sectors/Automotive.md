@@ -52,7 +52,22 @@ Automotive — Global auto industry. $3T+ market. EV transition, autonomy, China
 | OEMs | Toyota, VW, Tesla, BYD |
 | Batteries | [[CATL]], LG Energy, Panasonic |
 | Semiconductors | [[Infineon]], NXP, [[ON Semiconductor]] |
-| Tier 1 suppliers | Bosch, Denso, Continental |
+| Tier 1 suppliers | [[Magna]], Bosch, Denso, Continental, [[Dana]], [[BorgWarner]] |
+
+### Tier 1 supplier crisis (2025-2026)
+
+EV pullback has stranded supplier capital. Suppliers typically absorb upfront tooling/factory costs expecting to recoup over years of parts shipments. When OEMs cancel EV programs, suppliers have little recourse.
+
+| Supplier | Impact |
+|----------|--------|
+| [[Magna]] | $575M St. Clair factory mostly empty; planned $2.5B/yr EV battery unit shelved |
+| [[Dana]] | Job cuts, plant closures |
+| [[BorgWarner]] | Job cuts, plant closures |
+| Smaller suppliers | Multiple shutdowns |
+
+[[General Motors|GM]] paid ~$400M to affected suppliers — partial compensation only, does not cover downtime or retooling costs. Auto attorney Catherine Karol (Butzel, Detroit): smaller suppliers are *"basically SOL"* when OEMs cancel programs.
+
+*Source: WSJ (Sharon Terlep), March 31, 2026*
 
 ---
 
@@ -166,6 +181,9 @@ See [[South Africa]] for full detail.
 ### Suppliers
 - [[CATL]] — batteries
 - [[Panasonic]] — batteries
+- [[Magna]] — largest NA parts supplier, stranded EV assets
+- [[Dana]] — Tier 1, EV pullback
+- [[BorgWarner]] — Tier 1, EV pullback
 
 ### Concepts
 - [[EV transition]] — industry shift

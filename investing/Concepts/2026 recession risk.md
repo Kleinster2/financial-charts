@@ -107,6 +107,22 @@ TACO = "Trump Always Chickens Out" (coined by [[FT]]'s Robert Armstrong, not "Ta
 
 ---
 
+## Fiscal vulnerability ranking (Sharma, Apr 2026)
+
+[[Ruchir Sharma]] ([[Rockefeller International]]) ranked economies by the combination of government deficit/debt levels and central bank inflation-target misses — the countries with least policy ammunition to absorb the oil shock:
+
+**Most vulnerable (developed):** [[United States|US]] (~6% deficit, >100% debt-to-GDP, 60 months of missed Fed target), [[United Kingdom|UK]]
+
+**Most vulnerable (emerging):** [[Brazil]], [[Egypt]], [[Indonesia]]
+
+**Relatively invulnerable:** [[Taiwan]], [[Vietnam]], [[Sweden]] (deficit <2% GDP despite generous welfare state)
+
+US paradox: energy self-sufficient but fiscally the most exposed developed country. Trump's proposed $1.5tn Pentagon budget (up $500bn) on top of new tax breaks could push the deficit to ~7% of GDP in 2026.
+
+Bond yields rising on term premium (fiscal fears), not inflation expectations — a novel mechanism. See [[Fiscal Dominance#2026 oil shock — the regime's first test (Apr 2026)|Fiscal Dominance § 2026 oil shock]].
+
+---
+
 ## Key upcoming catalysts
 
 - [x] ~~Apr 3: March jobs report~~ → beat expectations but labor force shrank
@@ -131,6 +147,8 @@ TACO = "Trump Always Chickens Out" (coined by [[FT]]'s Robert Armstrong, not "Ta
 - [[Francisco Blanch]] — "mild stagflation" revision
 - [[Natasha Kaneva]] — operational minimum timeline
 - [[Stagflation]] — framework note
+- [[Ruchir Sharma]] — fiscal vulnerability ranking (FT Apr 2026)
+- [[Fiscal Dominance]] — policy ammunition exhaustion as amplifier
 
 ---
 

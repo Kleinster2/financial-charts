@@ -13,6 +13,7 @@ window.ChartDashboard = {
     columnOrder: null, // Will be initialized with default order
     hiddenColumns: new Set(), // Columns to hide
     conditionalFormatting: false, // Toggle for background shading on % columns
+    columnFilters: {}, // Per-column filter expressions (e.g., {pe_ratio: '>20', sector: 'tech'})
     // Multi-select state
     selectedTickers: new Set(), // Selected ticker symbols
     // Pagination state
@@ -66,6 +67,7 @@ window.ChartDashboard = {
             { key: 'yearly_change', label: 'Year %' },
             { key: 'high_52w', label: '52w High' },
             { key: 'low_52w', label: '52w Low' },
+            { key: 'range_52w', label: '52w Range', noSort: true, noExport: true },
             { key: 'data_points', label: 'Data Pts' },
             // Fundamentals - Classification
             { key: 'sector', label: 'Sector' },
@@ -182,10 +184,135 @@ window.ChartDashboard = {
      * @returns {Array} Filtered and sorted data
      */
     _getFilteredSortedData(data = this.data) {
-        return window.DashboardBase.filterAndSortData({
+        let result = window.DashboardBase.filterAndSortData({
             data,
             ...this._getFilterSortConfig()
         });
+        // Apply column-level filters
+        const filters = this.columnFilters;
+        if (filters && Object.keys(filters).length > 0) {
+            result = result.filter(row => this._matchesColumnFilters(row, filters));
+        }
+        return result;
+    },
+
+    /**
+     * Parse a filter expression into a test function
+     * Supports: >20, <5, >=10, <=10, 10-50 (range), text substring
+     * @param {string} expr - Filter expression
+     * @param {boolean} isNumeric - Whether the column is numeric
+     * @returns {Function} Test function (value) => boolean
+     */
+    _parseFilterExpression(expr, isNumeric) {
+        if (!expr || !expr.trim()) return null;
+        expr = expr.trim();
+
+        if (isNumeric) {
+            // Operator match: >=, <=, >, <, =
+            const opMatch = expr.match(/^([<>]=?|=)\s*(-?\d+\.?\d*)$/);
+            if (opMatch) {
+                const op = opMatch[1];
+                const num = parseFloat(opMatch[2]);
+                if (op === '>') return v => v > num;
+                if (op === '>=') return v => v >= num;
+                if (op === '<') return v => v < num;
+                if (op === '<=') return v => v <= num;
+                if (op === '=') return v => Math.abs(v - num) < 0.005;
+            }
+            // Range match: 10-50 (but not -5 which is just a negative number)
+            const rangeMatch = expr.match(/^(-?\d+\.?\d*)\s*-\s*(\d+\.?\d*)$/);
+            if (rangeMatch) {
+                const lo = parseFloat(rangeMatch[1]);
+                const hi = parseFloat(rangeMatch[2]);
+                if (hi > lo) return v => v >= lo && v <= hi;
+            }
+            // Plain number = exact-ish match
+            const plain = parseFloat(expr);
+            if (!isNaN(plain)) return v => Math.abs(v - plain) < 0.005;
+            return null;
+        }
+
+        // Text: case-insensitive substring
+        const lower = expr.toLowerCase();
+        return v => String(v ?? '').toLowerCase().includes(lower);
+    },
+
+    /**
+     * Test whether a row passes all active column filters
+     * @param {Object} row - Data row
+     * @param {Object} filters - Map of column key → filter expression
+     * @returns {boolean}
+     */
+    _matchesColumnFilters(row, filters) {
+        const numericColumns = this._getFilterSortConfig().numericColumns;
+        for (const [col, expr] of Object.entries(filters)) {
+            if (!expr) continue;
+            const isNumeric = numericColumns.includes(col);
+            const testFn = this._parseFilterExpression(expr, isNumeric);
+            if (!testFn) continue;
+            const val = row[col];
+            if (val === null || val === undefined) return false;
+            if (!testFn(isNumeric ? Number(val) : val)) return false;
+        }
+        return true;
+    },
+
+    /**
+     * Render filter row below the header row
+     * @param {HTMLElement} thead - Table head element
+     * @param {Array} columns - Current column definitions
+     * @param {HTMLElement} card - Dashboard card element
+     */
+    _renderFilterRow(thead, columns, card) {
+        // Remove existing filter row if present
+        const existing = thead.querySelector('.dashboard-filter-row');
+        if (existing) existing.remove();
+
+        const numericColumns = this._getFilterSortConfig().numericColumns;
+        const tr = document.createElement('tr');
+        tr.className = 'dashboard-filter-row';
+
+        columns.forEach(col => {
+            const td = document.createElement('th');
+            td.className = 'filter-cell';
+            // Skip filter for fixed columns (select, actions) and non-filterable columns
+            if (col.fixed || col.key === 'range_52w' || col.key.startsWith('sparkline')) {
+                tr.appendChild(td);
+                return;
+            }
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.className = 'column-filter-input';
+            input.dataset.column = col.key;
+            const isNumeric = numericColumns.includes(col.key);
+            input.placeholder = isNumeric ? '>n <n n-n' : 'filter...';
+            input.title = isNumeric
+                ? 'Numeric filter: >20, <5, >=10, <=10, 10-50, =15'
+                : 'Text filter: substring match';
+            // Restore saved filter value
+            if (this.columnFilters[col.key]) {
+                input.value = this.columnFilters[col.key];
+            }
+            // Prevent sort when clicking filter input
+            input.addEventListener('click', e => e.stopPropagation());
+            input.addEventListener('mousedown', e => e.stopPropagation());
+            // Debounced filter on input
+            const debouncedFilter = window.ChartUtils.debounce(() => {
+                const val = input.value.trim();
+                if (val) {
+                    this.columnFilters[col.key] = val;
+                } else {
+                    delete this.columnFilters[col.key];
+                }
+                this.renderTable(card);
+                if (window.saveCards) window.saveCards();
+            }, 300);
+            input.addEventListener('input', debouncedFilter);
+            td.appendChild(input);
+            tr.appendChild(td);
+        });
+
+        thead.appendChild(tr);
     },
 
     /**
@@ -208,6 +335,7 @@ window.ChartDashboard = {
         if (options.hiddenColumns) this.hiddenColumns = new Set(options.hiddenColumns);
         if (options.columnWidths) this.columnWidths = options.columnWidths;
         if (options.conditionalFormatting !== undefined) this.conditionalFormatting = options.conditionalFormatting;
+        if (options.columnFilters) this.columnFilters = options.columnFilters;
 
         card.innerHTML = `
             <div class="dashboard-header">
@@ -859,6 +987,9 @@ window.ChartDashboard = {
             });
         }
 
+        // Render filter row below header
+        this._renderFilterRow(thead, columns, card);
+
         // Render body
         const container = tbody.closest('.dashboard-table-container');
         if (this.viewMode === 'grouped') {
@@ -1407,6 +1538,22 @@ window.ChartDashboard = {
             yearly_change: () => `<td class="price-cell ${yearlyChange.bgClass}">${yearlyChange.html}</td>`,
             high_52w: () => `<td class="price-cell">${formatPrice(row.high_52w)}</td>`,
             low_52w: () => `<td class="price-cell">${formatPrice(row.low_52w)}</td>`,
+            range_52w: () => {
+                const price = row.latest_price;
+                const high = row.high_52w;
+                const low = row.low_52w;
+                if (price == null || high == null || low == null || high === low) {
+                    return '<td class="range-52w-cell">-</td>';
+                }
+                const pct = ((price - low) / (high - low)) * 100;
+                const clamped = Math.max(0, Math.min(100, pct));
+                const fromHigh = ((high - price) / high * 100).toFixed(1);
+                // Color gradient: red (#ef5350) near low → green (#26a69a) near high
+                const r = Math.round(239 - (239 - 38) * (clamped / 100));
+                const g = Math.round(83 + (166 - 83) * (clamped / 100));
+                const b = Math.round(80 + (154 - 80) * (clamped / 100));
+                return `<td class="range-52w-cell" title="${fromHigh}% from 52w high"><div class="range-52w-bar"><div class="range-52w-fill" style="width:${clamped}%;background:rgb(${r},${g},${b})"></div></div></td>`;
+            },
             data_points: () => `<td class="price-cell">${row.data_points ? row.data_points.toLocaleString() : '-'}</td>`,
             // Fundamentals - Classification
             sector: () => `<td>${window.DashboardBase.escapeHtml(row.sector) || '-'}</td>`,
@@ -1538,6 +1685,7 @@ window.ChartDashboard = {
         this.columnOrder = null;  // Will be re-initialized on render
         this.hiddenColumns = new Set();
         this.columnWidths = {};
+        this.columnFilters = {};
 
         // Update UI
         filterInput.value = '';
@@ -2596,7 +2744,8 @@ window.ChartDashboard = {
             columnOrder: this.columnOrder,
             hiddenColumns: Array.from(this.hiddenColumns || []),
             columnWidths: this.columnWidths || {},
-            conditionalFormatting: this.conditionalFormatting
+            conditionalFormatting: this.conditionalFormatting,
+            columnFilters: this.columnFilters || {}
         };
     }
 };

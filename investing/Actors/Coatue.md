@@ -144,7 +144,15 @@ Full exits Q3: Chargepoint, [[Generac]], [[Eli Lilly]], Lucid Group, [[Philip Mo
 | [[Rippling]] | HR/Fintech | Series B, F investor |
 | ServiceTitan | Software | Pre-IPO |
 
-313 active private companies as of Feb 2026. 50+ AI-focused. 39 private deals completed through Nov 2025 (vs 43 in all of 2024, 28 in 2023) — deal pace accelerating.
+313 active private companies as of Feb 2026. 50+ AI-focused. 39 private deals completed through Nov 2025 (vs 43 in all of 2024, 28 in 2023) -- deal pace accelerating.
+
+---
+
+## Spin-outs
+
+| Person | Fund | Detail |
+|--------|------|--------|
+| Rahul Kishore | [[Epicenter Capital]] | SF-based long-only fund built around AI agent "Eve" ([[Anthropic]] ClaudeCode). 8 years at Coatue. Backed by [[Philippe Laffont]], Thomas Laffont, Jaimin Rangwalla, Daniel Senft. Philippe rarely backs spin-outs. Opened to outside investors Jul 2025 |
 
 ---
 
@@ -220,6 +228,7 @@ Coatue's 2022 losses were significant but less severe than peers. [[Tiger Global
 - [[UBS]] — CTEK distribution partner
 - [[Rippling]] — Series B, F investor
 - [[ByteDance]] — ongoing private stake
+- [[Epicenter Capital]] — Rahul Kishore spin-out, Laffont-backed AI-native fund
 
 ---
 

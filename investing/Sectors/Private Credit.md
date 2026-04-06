@@ -345,6 +345,29 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 
 ---
 
+## Distressed debt funds circling (Apr 2026)
+
+A decade of bull-market private credit left distressed-debt investors largely sidelined. Now, with redemptions accelerating and software borrowers wobbling, vulture funds see their best opportunity since the financial crisis.
+
+| Firm | AUM | Quote / stance |
+|------|-----|----------------|
+| [[Marblegate Asset Management]] | — | Andrew Milgram (founder, Apr 2026): *"This is not about a few bad loans, rather it is the systematic mischaracterisation of credit standards and asset quality... this is the greatest opportunity I've ever seen in my lifetime."* Raising new fund |
+| [[Strategic Value Partners]] | $22B | Victor Khosla (founder, Apr 2026): *"biggest opportunity since 2008"* |
+| [[Davidson Kempner]] | $38B | Published report diagnosing "growing risks in private capital industry" (Mar 2026). Positioning for forced asset dumps |
+
+Milgram was a lone contrarian at the 2023 Milken Conference, arguing private credit underwriting had turned sloppy and loans were broadly overvalued. Three years later the redemption crisis is vindicating the thesis.
+
+**Historical parallels for distressed-debt fortunes:**
+- [[Appaloosa]] (David Tepper): ~$7B during GFC buying beaten-down bank bonds/stocks, betting government would not nationalize
+- [[Davidson Kempner]] and [[King Street]]: traded bankruptcy claims after [[Lehman Brothers]] collapse — DK made ~$3B
+- [[Oaktree Capital]], [[Silver Point]], [[Farallon Capital]]: scooped up secondary claims in [[FTX]] collapse, turned large profits when crypto coins were found and sold
+
+These funds invest in companies with bad balance sheets but viable underlying businesses. The mechanism: buy private credit assets at distressed prices from forced sellers (gated BDCs, insurance company balance sheets under pressure, banks reducing back-leverage exposure). If the private credit downturn deepens through the 2028 refinancing wall, the opportunity set expands dramatically.
+
+*Source: FT Due Diligence (Apr 2, 2026)*
+
+---
+
 ## Sector dynamics
 
 **Bull case:**
@@ -421,6 +444,12 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 - [[GIC]] — sovereign wealth, private credit lender
 - [[Permira]] — PE sponsor extracting cov-lite terms
 
-*Updated 2026-04-03*
+### Distressed debt
+- [[Marblegate Asset Management]] — Andrew Milgram, contrarian since 2023, raising new fund (Apr 2026)
+- [[Strategic Value Partners]] — Victor Khosla, $22B AUM, "biggest since 2008"
+- [[Davidson Kempner]] — $38B, published private capital risk report (Mar 2026)
+- [[Oaktree Capital]] — Howard Marks, $190B, distressed core competency
+
+*Updated 2026-04-06*
 
 *Sources: Bloomberg Markets (Feb/Mar 2026 issue), Bloomberg Going Private newsletter (Mar 2026), Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8 2026), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, FT, Fitch Ratings*

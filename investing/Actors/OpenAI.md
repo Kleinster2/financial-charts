@@ -14,7 +14,7 @@ tags: [actor, ai, modellab, usa, private]
 | Metric | Value |
 |--------|-------|
 | Structure | Public benefit corporation (converted Oct 28, 2025) |
-| Valuation | $730B pre-money, ~$840B post-money (Feb 2026 round) |
+| Valuation | $852B post-money ($122B round closed Apr 1, 2026); secondary bids at ~$765B (10% discount) |
 | Revenue (2025) | ~$13.1B recognized; $20B exit-rate ARR |
 | Revenue (2024) | ~$3.7B recognized; $5.5B exit-rate ARR |
 | H1 2025 net loss | $13.5B (incl. R&D $6.7B, S&M $2B) |
@@ -149,9 +149,9 @@ Profitability timeline: massive losses projected through 2028, cash-flow positiv
 | Oct 2024 | Series | $6.6B | $157B | [[Microsoft]], [[NVIDIA]], [[Thrive Capital]] |
 | Mar 2025 | SoftBank-led | $40B | $300B post | [[SoftBank]] ($30B), Microsoft, [[Coatue]], [[Altimeter]], Thrive, [[Founders Fund]], Magnetar |
 | Oct 2025 | Employee secondary | ~$6.6B | $500B | SoftBank, Thrive, [[Dragoneer]], [[MGX]], T. Rowe Price |
-| Feb 27, 2026 | Mega-round | $110B | $730B pre / ~$840B post | [[Amazon]] ($50B), [[SoftBank]] ($30B), [[NVIDIA]] ($30B) |
+| Feb 27, 2026 | Mega-round | $122B | ~$852B post | [[Amazon]] ($50B), [[SoftBank]] ($30B), [[NVIDIA]] ($30B), plus tech giants, VCs, retail |
 
-Total raised: ~$168B across 11 rounds from 67 investors.
+Total raised: ~$180B+ across 11 rounds.
 
 ### Amazon $50B structure
 
@@ -298,9 +298,20 @@ ChatGPT was integrated into Siri/iOS in 2024-2025 (no cash exchanged — Apple v
 
 ## Apr 2026 — secondary market + IPO pressure
 
-*Data from All-In Podcast Episode 222, April 3, 2026*
+*Data from All-In Podcast Episode 222, April 3, 2026; Bloomberg, April 6, 2026*
 
-**Secondary market strain:** Bloomberg (Apr 2): investors can't find buyers at $850B valuation. $600M worth of shares seeking liquidity in private markets — sellers struggling to find bids at current pricing.
+~6 institutional investors (hedge funds, VCs holding large stakes) approached Next Round Capital in recent weeks looking to sell ~$600M in OpenAI shares. Next Round Capital founder Ken Smythe ($2.5B in total transactions handled): *"We literally couldn't find anyone in our pool of hundreds of institutional investors to take these shares."* Bids coming in at ~$765B — 10% discount from $850B. Last year, these shares would have been "snatched up within days."
+
+[[Morgan Stanley]] and [[Goldman Sachs]] offering OpenAI shares to wealth management clients with zero carry fees — through authorized channels OpenAI established to counter high-fee broker model. By contrast, Goldman charges usual carry (~15-20% of profits) for [[Anthropic]] shares. Zero-carry for OpenAI vs premium-carry for Anthropic signals where bank demand sits.
+
+Finalized largest-ever private fundraising ($122B, Apr 1) — $122B from tech giants, VCs, and retail investors. But primary fundraising and secondary sales don't follow the same playbook: existing investors often buy into new rounds to maintain stakes (to avoid founder friction), then sell exposure on the secondary market.
+
+![[openai-vs-anthropic-valuation-apr2026.png]]
+*OpenAI vs Anthropic valuation history. OpenAI at $852B is currently more than double Anthropic's $380B. Source: PitchBook, Bloomberg*
+
+Simultaneously, secondary marketplaces (Augment, Hiive, Next Round Capital) are seeing record demand for [[Anthropic]] shares. Buyers have $2B ready to deploy. Hiive registered >$1.6B in demand at a premium. Bids value Anthropic at ~$600B — 58% above its $380B Series G. Augment co-founder Adam Crawley: *"It's just better risk-reward right now. People are betting that Anthropic's valuation will catch up with OpenAI's."* Hiive co-founder Prab Rattan: *"The demand is one of the highest we've ever seen — it's essentially unlimited interest."* The gap between OpenAI's inability to find buyers and Anthropic's excess demand is the clearest secondary-market signal of competitive momentum shift.
+
+Some investors grown cautious over OpenAI's soaring operating costs — committed to spend far more than Anthropic on infrastructure. While OpenAI touts its consumer base, it's moving slowly on capturing enterprise clients. Anthropic has dominated the higher-margin enterprise market, and its growth trajectory appears stronger (Bloomberg, Apr 6).
 
 **Scale paradox:** [[Chamath Palihapitiya|Chamath]]: "I've never seen a business like this... these are trillion dollar companies" in terms of revenue potential and market impact. However, capital absorption remains the primary constraint — the amount of money required to stay competitive is growing faster than the ability to deploy it efficiently.
 

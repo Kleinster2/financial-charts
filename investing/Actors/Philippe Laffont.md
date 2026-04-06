@@ -155,6 +155,14 @@ Ranked 6th on Institutional Investor's 23rd Annual Ranking of Highest-Earning He
 
 ---
 
+## Investments outside Coatue
+
+| Investment | Detail |
+|------------|--------|
+| [[Epicenter Capital]] | Backed Rahul Kishore's AI-native long-only fund (SF, 3 people, opened Jul 2025). Rarely backs spin-outs from [[Coatue]]. Thomas Laffont, Jaimin Rangwalla, Daniel Senft also invested |
+
+---
+
 ## Related
 
 - [[Coatue]] — founder, PM of publics
@@ -169,6 +177,7 @@ Ranked 6th on Institutional Investor's 23rd Annual Ranking of Highest-Earning He
 - [[Tencent]] — biggest regret (sold too early, ~$20B foregone)
 - [[McKinsey]] — consultant, Madrid 1992-94
 - [[MIT]] — three degrees (SB CS&EE, SB Econ, SM CS&EE), 1985-91
+- [[Epicenter Capital]] — backed Rahul Kishore's AI-native fund (rarely backs spin-outs)
 
 ---
 

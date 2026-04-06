@@ -33,6 +33,28 @@ The US entered this territory gradually. Structural deficits driven by debt, dem
 
 ---
 
+## 2026 oil shock — the regime's first test (Apr 2026)
+
+[[Ruchir Sharma]] ([[Rockefeller International]], FT Apr 6, 2026): the Iran-Hormuz shock is the first major crisis where governments enter with zero fiscal or monetary ammunition. The structural shift since the 1970s oil shocks:
+
+| Metric | 1970s | 2026 |
+|--------|-------|------|
+| Typical G7 deficit | ~2% GDP | >4% GDP |
+| G7 avg government debt | 20% GDP | >100% GDP |
+| Global total debt | — | $348tn (>3x GDP; record; rose at fastest pace since pandemic in 2025) |
+| US federal deficit | — | ~6% GDP (highest in developed world; could approach 7% with proposed $1.5tn Pentagon budget) |
+| US interest payments vs defense | — | Interest payments now exceed defense budget |
+| Fed inflation miss | — | 60 consecutive months above 2% target |
+| Central banks missing targets | — | 3/4 developed, 1/2 emerging |
+
+The fiscal dominance regime is now being tested in real time. Bond yields rising not on inflation expectations (which remain stable) but on term premium — markets pricing fiscal overextension, not higher prices. This is a structural break from past oil shocks, where long rates rose on inflation expectations.
+
+Governments are responding as in prior shocks — [[United Kingdom|UK]], [[France]], [[Brazil]], [[India]] introducing price controls, rationing, fuel subsidies — but bond markets are actively warning against the spending. The central bank bind: even as the oil shock slows economies, central banks can't cut because the same shock pushes inflation upward.
+
+Sharma's framing: the world is more energy-efficient than in the 1970s (which should mitigate impact), but fiscal/monetary exhaustion amplifies any protracted price increase. This new vulnerability "will expose the global economy not only to fallout from the Iran war, but to every shock in the foreseeable future."
+
+---
+
 ## Related
 
 - [[Federal Reserve]] — the institution constrained by fiscal dominance
@@ -43,6 +65,8 @@ The US entered this territory gradually. Structural deficits driven by debt, dem
 - [[Triffin Dilemma]] — the reserve currency constraint that compounds fiscal dominance
 - [[Iran conflict economic disruption]] — 2026 energy shock as potential catalyst for regime shift from gradual to big print
 - [[Iran conflict portfolio hedging]] — 60/40 failure as a symptom of fiscal dominance + stagflation
+- [[Ruchir Sharma]] — policy ammunition exhaustion framework (FT Apr 2026)
+- [[Hormuz Permanent Risk Premium]] — geopolitical shock amplified by fiscal constraints
 
 ---
 

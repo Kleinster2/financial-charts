@@ -95,6 +95,16 @@ TSM trades as a core Semiconductors name (SMH r = 0.87).
 - **Kumamoto Fab 2 pivot** (Dec 2025) — Scrapping 6nm plan, jumping to 2nm/3nm for autonomous/AI. JASM posted NT$6.2B loss H1 2025 vs Arizona's NT$4.7B profit.
 - **Nanjing VEU expiring Dec 31** — TSMC dismisses concerns, says Chinese clients can access advanced nodes globally. [[Xiaomi]] 3nm chip as proof.
 
+## 3nm capacity crisis (Apr 2026)
+
+TSMC's 3nm fabs are sold out through 2028 across all process variants (N3E, N3P, N3X). AI chip demand -- primarily from [[NVIDIA]], [[Apple]], and hyperscaler custom silicon programs -- has consumed all available capacity. TSMC is planning a "GigaFab" expansion in Arizona (adjacent to the existing Fab 21 complex, on land acquired Jan 2026) and has launched 3nm production in Japan (Kumamoto Fab 2) to meet demand. Even with these expansions, lead times for new 3nm tape-outs extend into 2028+.
+
+Semiconductor industry capex reaching $200B in 2026 (+20% YoY), with advanced packaging (CoWoS) and HBM supply as the binding constraints alongside leading-edge node availability.
+
+*Source: Distill Intelligence semi briefing, Goldman Sachs (Apr 2026)*
+
+---
+
 ## Q1 2026 earnings preview
 
 Reports Apr 16.

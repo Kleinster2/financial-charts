@@ -64,13 +64,27 @@ The 2007-2010 cluster was structural — US was still a net crude importer and [
 
 ---
 
-## April 2, 2026 inversion
+## April 2, 2026 inversion — real or illusion?
 
-WTI closed at $111.54, Brent at $109.03. Spread: -$2.51.
+Front-month screens showed WTI at $111.54, Brent at $109.03 — an apparent -$2.51 inversion. But this compared different contract months: WTI May (CLC1) vs Brent June (LCOC1), because the two benchmarks roll on different schedules. With WTI in record backwardation (~$14-15 between May and June), the cross-month comparison created a misleading picture.
 
-This contradicted the prevailing analyst consensus. [[Amrita Sen]] (Mar 23) had predicted the WTI-Brent spread would *widen further*, not invert. [[Robin J. Brooks]] framed WTI as the politically decisive benchmark but expected it to remain below Brent. The inversion suggests either a US-specific supply tightness ([[Iran|Iran]]-related refinery demand, SPR dynamics, pipeline flows) or a speculative unwind of the short-WTI positioning that [[Nadia Martin Wiggen]] ([[Stellen Capital]]) identified as at 10-year extremes pre-crisis.
+Same-month comparison (June-to-June): Brent $109.24, WTI $97.72 — actual spread **+$11.52**, a healthy Brent premium. Brent's premium had actually *risen* sharply over the prior six weeks, not collapsed.
 
-The previous day (Apr 1) the spread was +$1.04 — nearly flat. The swing from +$1 to -$2.51 in a single session implies a sharp repositioning event, not gradual fundamental convergence.
+The previous day (Apr 1) the front-month spread was +$1.04 — nearly flat. The swing from +$1 to apparent -$2.51 in a single session was a repositioning event amplified by contract-roll mechanics, not a fundamental regime change. Multiple outlets (Cushing Today, OilPrice, CoinPaper) reported the inversion as real; [[HoweStreet]] published a correction identifying the contract-month mismatch.
+
+The inversions table (above) retains the -$2.51 front-month reading for completeness, but the same-contract spread did not invert.
+
+### What the episode reveals
+
+Even if the "inversion" was optical, the underlying dynamics are significant:
+
+**Record WTI backwardation.** [[Phil Flynn]] (PRICE Futures Group) reported "record backwardation in WTI" — the May-June spread of ~$14-15 signals extreme prompt-market tightness. Traders are paying a massive premium for immediately deliverable barrels over deferred supply.
+
+**Deliverability crisis framing.** With the [[Strait of Hormuz]] closed, seaborne crude (priced off Brent) faces physical delivery risk that pipeline-delivered WTI does not. This has introduced what analysts call a "security premium" into WTI prompt contracts — the market is pricing access and certainty of supply, not just the commodity itself. If persistent, this could structurally narrow the Brent-WTI spread even on a same-contract basis.
+
+**OECD inventory warning.** [[JPMorgan Chase]] analysts warned OECD crude stocks would fall to operational minimums, forcing price rationing rather than inventory draws to balance the 14M bbl/day Hormuz shortfall. This underpins the extreme backwardation — physical barrels are genuinely scarce.
+
+**Consensus contradicted.** [[Amrita Sen]] (Mar 23) had predicted the WTI-Brent spread would *widen further*, not narrow. [[Robin J. Brooks]] framed WTI as the politically decisive benchmark but expected it to remain well below Brent. The front-month compression — even if distorted by contract rolls — caught the analyst community off-guard.
 
 ![[brent-wti-spread-chart.png]]
 *WTI (blue) vs Brent (red) since 2024, with spread below. Green = normal Brent premium; red = WTI premium (inversion). The April 2 inversion visible at far right.*

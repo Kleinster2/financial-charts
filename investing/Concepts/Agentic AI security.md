@@ -44,7 +44,7 @@ Agent "skills" or plugins are unaudited code running with agent permissions.
 
 **Clawdbot case:** Researcher uploaded benign skill to marketplace, inflated download count to 4,000, watched developers from 7 countries install it. Marketplace had zero moderation; docs stated "all downloaded code will be treated as trusted code."
 
-2026-04-04: Suspected [[North Korea]]-linked actors used social engineering to hijack a maintainer account of the [[Axios]] npm package (~100M+ downloads/week). The lure was a fake [[Microsoft Teams]] error fix. With that access, attackers could inject malicious code into one of the most widely depended-on JavaScript libraries — a high-impact supply chain vector reaching millions of downstream projects. Source: BleepingComputer (Apr 4, 2026).
+2026-04-04: Suspected [[North Korea]]-linked actors used social engineering to hijack a maintainer account of the Axios npm package (~100M+ downloads/week). The lure was a fake [[Microsoft Teams]] error fix. With that access, attackers could inject malicious code into one of the most widely depended-on JavaScript libraries — a high-impact supply chain vector reaching millions of downstream projects. Source: BleepingComputer (Apr 4, 2026).
 
 ### 4. Credential Exposure
 

@@ -147,7 +147,7 @@ Subscription/recurring = high visibility.
 
 ## Policy & regulation
 
-2026-04-03: [[Trump]] administration proposes slashing $707M from [[CISA]] budget. Former CISA official warns the cut would weaken federal cyber risk management capabilities across critical infrastructure sectors. Source: The Register (Apr 3, 2026).
+2026-04-03: [[Donald Trump|Trump]] administration proposes slashing $707M from [[CISA]] budget. Former CISA official warns the cut would weaken federal cyber risk management capabilities across critical infrastructure sectors. Source: The Register (Apr 3, 2026).
 
 ---
 

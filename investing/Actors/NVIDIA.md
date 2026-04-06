@@ -534,6 +534,12 @@ Intel partnership (Jan 2026):
 
 See [[NVIDIA-Intel partnership]] for full analysis.
 
+Marvell strategic investment + NVLink Fusion (Mar 31, 2026):
+- $2B investment in [[Marvell]]
+- NVLink Fusion: new interconnect architecture letting Marvell custom XPUs communicate with NVIDIA [[Vera CPU]] and [[ConnectX]] NICs via NVLink protocol
+- Strategic response to custom silicon trend ([[Broadcom]], [[Amazon]] Trainium, [[Google]] TPU) -- rather than fighting custom chips, NVIDIA embraces them via NVLink Fusion, making custom silicon dependent on NVIDIA's interconnect fabric
+- MRVL +9% premarket on announcement
+
 Baseten investment ($150M, Jan 20):
 - $150M into AI inference startup [[Baseten]] as part of $300M round at $5B valuation
 - Round co-led by [[IVP]], [[CapitalG]] (Alphabet's growth fund)

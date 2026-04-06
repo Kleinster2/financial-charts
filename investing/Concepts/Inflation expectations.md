@@ -67,6 +67,23 @@ Short-term expectations spiked around Liberation Day (tariffs) but have "fully r
 
 ---
 
+## Iran shock update (Apr 2026)
+
+The [[2026 Strait of Hormuz crisis|Hormuz closure]] stress-tested anchoring. Oil surged from ~$72 to ~$120 ([[Brent crude|Brent]]), triggering a two-phase repricing:
+
+| Metric | Pre-conflict | Apr 2026 | Move |
+|--------|-------------|----------|------|
+| 1Y US inflation swaps | ~2.5% | >3.1% | +60 bps |
+| 5Y5Y forward | ~2.4% | ~2.4% | Flat |
+
+Short-term expectations surged (commodity pass-through priced in), but long-term remained anchored. The gap suggests markets see the oil shock as transitory — damaging to growth but not structurally inflationary. This is the key evidence [[Ruchir Sharma]] cited (FT Apr 6) for identifying the bond yield rise as [[Term premium|term premium]] rather than inflation expectations: if breakevens and 5Y5Y are stable while nominal yields climb, the residual is term premium. See [[Term premium#April 2026: fiscal term premium|Term premium § April 2026]].
+
+The [[Federal Reserve|Fed]] has now missed its 2% target for 60 consecutive months. Three of four developed-country central banks and one of two emerging-market central banks are missing their targets. Yet long-term expectations remain anchored — the miss is acknowledged but not projected forward. Either vindication of central bank credibility or a lag that hasn't caught up.
+
+*Sources: FT (Apr 3, 2026 — Herbert/Smith), Ruchir Sharma FT (Apr 6, 2026)*
+
+---
+
 ## Historical context
 
 | Period | Expectations | Outcome |
@@ -103,7 +120,7 @@ Since long-term expectations remain near 2%, Powell argues the moves reflect:
 | Fed target | 2.0% |
 | "Anchored" threshold | Long-term measures ≤3% |
 
-*Updated 2026-01-29*
+*Updated 2026-04-06*
 
 ---
 
@@ -115,3 +132,6 @@ Since long-term expectations remain near 2%, Powell argues the moves reflect:
 - [[Fed independence]] — independence enables anchoring
 - [[Monetary policy primer]] — broader context
 - [[Gold]] — alternative store of value when expectations unanchor
+- [[Term premium]] — how to distinguish inflation expectations from term premium in yield moves
+- [[Ruchir Sharma]] — used stable 5Y5Y as evidence for fiscal term premium (Apr 2026)
+- [[Fiscal Dominance]] — regime context for 2026 inflation/fiscal tension

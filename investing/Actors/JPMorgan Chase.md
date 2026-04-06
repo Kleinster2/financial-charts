@@ -400,6 +400,14 @@ Stock tumbled after Q4 results despite beat — investors worried about expense 
 
 ---
 
+## Oil market: OECD inventory warning (Apr 2026)
+
+JPMorgan analysts warned OECD crude oil stocks would fall to operational minimums under the [[Strait of Hormuz]] closure, forcing price rationing rather than inventory draws to balance the ~14M bbl/day supply shortfall. This underpins the record [[WTI]] backwardation (~$14-15 May-June spread) — physical barrels are genuinely scarce, and the market is rationing by price rather than drawing down strategic reserves.
+
+See [[Brent-WTI spread#April 2, 2026 inversion — real or illusion?]], [[Iran conflict oil price timeline]].
+
+---
+
 ## Q1 2026 earnings preview (reports Apr 14)
 
 Consensus EPS $5.41-5.50 (+3.4% YoY). Key drivers: [[Apple]] Card portfolio integration (added late 2025), AI-driven trading volatility revenue, and massive IB fee rebound. NII plateauing as [[Fed]] holds at 3.5-3.75%, but M&A advisory fees projected mid-to-high teens growth for 2026. Basel III capital relief (~$87.7B system-wide from softened framework late 2025) has unchained balance sheets for IPO underwriting. JPM positioned to capture outsized share of the [[SpaceX IPO 2026|SpaceX]], [[OpenAI]], and [[Anthropic]] IPO pipeline. [[Jamie Dimon]] on the [[Iran]] war (Apr 1): "finish this thing, finish it right."

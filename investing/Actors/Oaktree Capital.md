@@ -83,6 +83,7 @@ Most-read investor letters in finance.
 | 2008-09 | Major deployment |
 | 2010s | Consistent returns |
 | 2020s | Solid credit returns |
+| 2022-24 | [[FTX]] secondary claims: scooped up claims in collapsed crypto exchange alongside [[Silver Point]] and [[Farallon Capital]], turned large profits when crypto coins were found and sold |
 
 ---
 
@@ -128,6 +129,8 @@ This marks Oaktree's entry into commercial reinsurance — a new asset class for
 - [[Ares Management]] — peer (credit)
 - [[Baupost Group]] — peer (distressed)
 - [[Brookfield]] — parent company
+- [[FTX]] — secondary claims trade (bought post-collapse, profited from crypto recovery)
+- [[Private credit]] — core opportunity thesis (distressed debt from forced sellers)
 - [[Pure Data Centres]] — Oaktree-backed, launched Europe's first off-grid DC microgrid (Dublin, Mar 2026)
 - [[Global DC grid strain]] — DC power constraint context
 - [[Ireland]] — Dublin microgrid location

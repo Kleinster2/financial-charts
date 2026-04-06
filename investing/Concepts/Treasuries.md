@@ -83,15 +83,15 @@ Weak auctions (low bid-to-cover, large tail) can spike yields across the curve.
 
 ## Term premium
 
-The extra yield investors demand for holding long-duration bonds beyond expected future short rates. When term premium rises, long yields rise even if Fed expectations are unchanged.
+The extra yield investors demand for holding long-duration bonds beyond expected future short rates. When term premium rises, long yields rise even if Fed expectations are unchanged. For full decomposition mechanics (ACM model, Kim-Wright, how to isolate term premium from [[Inflation expectations|inflation expectations]]), see [[Term premium]].
 
 **Drivers:**
+- Fiscal deficit concerns (dominant in 2026)
 - Inflation uncertainty
-- Fiscal deficit concerns
 - Supply/demand imbalance
 - Safe-haven status erosion
 
-2025 saw elevated term premium on deficit fears and Moody's downgrade.
+2025 saw elevated term premium on deficit fears and Moody's downgrade. In Apr 2026, term premium rose further on fiscal overextension fears — yields climbing despite stable long-term inflation expectations and unchanged Fed rate path. See [[Term premium#April 2026: fiscal term premium|Term premium § April 2026]].
 
 ## Trading Treasuries
 
@@ -181,3 +181,6 @@ This marks a regime shift from the [[Iran conflict portfolio hedging|early-confl
 - [[Risk-on risk-off]] — Treasuries rally in risk-off
 - [[Federal Reserve]] — sets short-term rates
 - [[Credit spreads]] — corporate bonds priced as spread over Treasuries
+- [[Term premium]] — yield decomposition and what drives the non-expectations component
+- [[Inflation expectations]] — the other component of the decomposition
+- [[Fiscal Dominance]] — regime context for elevated term premium

@@ -55,15 +55,11 @@ The WTI-Brent spread widened during the conflict — WTI's relative insulation r
 
 *Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
 
-## April 2, 2026 — Oil surge
+## April 2, 2026 — Oil surge and backwardation record
 
-**WTI +11% to $111.54.** Trump speech: "hit Iran extremely hard" next 2-3 weeks, but "discussions ongoing"
+**WTI +11% to $111.54.** Trump speech: "hit Iran extremely hard" next 2-3 weeks, but "discussions ongoing." Iran-Oman draft "monitored transit" protocol (IRNA/Gharibabadi). IRGC: Strait "decisively under control." Oxford Analytica: US "washed its hands" of Strait navigation.
 
-Iran-Oman draft "monitored transit" protocol (IRNA/Gharibabadi)
-
-IRGC: Strait "decisively under control"
-
-Oxford Analytica: US "washed its hands" of Strait navigation
+[[Phil Flynn]] (PRICE Futures Group): "record backwardation in WTI" — the May-June spread blew out to ~$14-15, reflecting extreme prompt-market tightness. Traders paying a massive premium for immediately deliverable barrels. The backwardation drove an apparent [[Brent-WTI spread]] inversion on front-month screens (WTI May vs Brent June), but same-contract comparison showed Brent's premium actually widened. See [[Brent-WTI spread#April 2, 2026 inversion — real or illusion?]] for full breakdown.
 
 ---
 
