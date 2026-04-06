@@ -49,7 +49,7 @@ Before February 28, 2026, the Hormuz closure was a theoretical war-game scenario
 
 [[Gideon Rachman]] (FT, March 16, 2026): *"Iran has discovered a powerful future deterrent that is quite independent of nuclear weapons. If the regime survives this war, it may yet emerge in a stronger position internationally."*
 
-Paul Sankey ([[Sankey Research]], March 14): *"The market has been seeing the unprecedented closure of the strait as an aberration whereas oil historians are viewing this as a structural change in the risk of oil."*
+[[Paul Sankey]] ([[Sankey Research]], March 14): *"The market has been seeing the unprecedented closure of the strait as an aberration whereas oil historians are viewing this as a structural change in the risk of oil."*
 
 [[Ed Morse]] (CFR panel, March 17): The change won't be structural like 1973 (OPEC empowerment, nationalization of oil majors), but the demonstrated Hormuz capability means "the world now knows that they have the ability to close the Strait of Hormuz" — and that knowledge persists.
 
@@ -116,4 +116,4 @@ Source: MEI panel, March 20 2026 — Mulroy/Connelly
 
 ---
 
-*Sources: CFR panel (March 17, 2026); FT Rachman Review (March 12, 2026); Robin J. Brooks Substack (March 8-9, 2026); Paul Sankey/Sankey Research (March 14, 2026).*
+*Sources: CFR panel (March 17, 2026); FT Rachman Review (March 12, 2026); Robin J. Brooks Substack (March 8-9, 2026); [[Paul Sankey]]/[[Sankey Research]] (March 14, 2026).*
