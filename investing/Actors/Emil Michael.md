@@ -42,6 +42,18 @@ On the All-In podcast (~Mar 6, 2026), Michael claimed [[Dario Amodei]] *"apparen
 
 ---
 
+## Office of Strategic Capital / "Deal Team Six"
+
+Michael reportedly plans to deploy $200B through the Office of Strategic Capital to address defense supply chain bottlenecks. The team has been nicknamed "Deal Team Six."
+
+Focus areas: critical minerals, refining, supply chain bottlenecks (e.g., brushless motors for drones). Historical parallel: the Air Force bootstrapped the titanium supply chain in the 1950s-60s by strategically injecting capital.
+
+[[Trae Stephens]] ([[Anduril]], Apr 6, 2026): "There's a tremendous opportunity with the Office of Strategic Capital to think about what are the structural bottlenecks in production. You can have a lot of drone companies and they're all going to bottleneck on brushless motors."
+
+*Source: All-In Podcast, Apr 6, 2026*
+
+---
+
 ## Related
 
 - [[Hill and Valley Forum]] — speaker (2025)
@@ -50,3 +62,5 @@ On the All-In podcast (~Mar 6, 2026), Michael claimed [[Dario Amodei]] *"apparen
 - [[Anduril]] — defense tech beneficiary of his policy
 - [[Palantir]] — defense tech beneficiary of his policy
 - [[Uber]] — former employer
+- [[Office of Strategic Capital]] — $200B deployment plan
+- [[Defense supply chain]] — supply chain bottleneck focus

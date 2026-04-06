@@ -84,6 +84,32 @@ The [[Iran]] war and resulting gas price spike have not yet reversed buyer behav
 
 *Source: WSJ (Sharon Terlep), March 31, 2026*
 
+### Q1 2026: used EV sales surge
+
+*Source: FT, Peter Campbell, "US used electric vehicle sales surge," April 6, 2026*
+
+Used EV sales are surging as models bought during the post-pandemic boom flood back onto the market. First-quarter used EV sales rose 12% YoY and 17% QoQ ([[Cox Automotive]] estimates). New EV sales slumped 28% YoY following Trump administration's 2025 withdrawal of the $7,500 consumer tax credit.
+
+The driver: hundreds of thousands of cheap pre-owned EVs purchased on leases in the early 2020s are returning as those leases expire. [[Experian]]: EVs will account for 15% of all off-lease vehicles by end of 2026, up from 7.7% in Q1 2025.
+
+| Metric | Value |
+|--------|-------|
+| Q1 2026 used EV sales | +12% YoY, +17% QoQ |
+| Q1 2026 new EV sales | -28% YoY |
+| Used EV avg price change | -8.5% (Feb 2025 → Feb 2026) |
+| Used EV vs ICE price gap | $4,923 → $1,334 |
+| Off-lease EV share (end 2026) | 15% (vs 7.7% Q1 2025) |
+| US gas price | Past $4/gallon (first time since 2022) |
+| EV market share (US) | ~6.5% (down from 7.7% in 2024) |
+
+The 2022 $7,500 credit enabled lease deals where monthly payments on a $44,600 Chevrolet Blazer EV ($515/month) undercut the petrol-powered equivalent at $35,600 base ($586/month). Those leases powered the EV share surge from 2.6% (2021) to 7.7% (2024) — but also fed the [[Tesla]]-led price war that drove down used EV values.
+
+Cox Automotive director Stephanie Valdez Streaty: "We're seeing a meaningful reset in EV pricing." Edmunds head of insights Jessica Caldwell: the discounted used models flooding the market will act as a "gateway" to EV ownership.
+
+[[General Motors]] President (North America) Duncan Aldred told an automotive forum in New York (April 2026) that GM had seen "some peaking of interest" in EVs among buyers during the past month. However, analysts note persistent consumer concerns about long-journey charging infrastructure.
+
+Charging infrastructure build-out accelerated in 2025 despite the sales slowdown (EVs For All America). [[Ford]] and GM have announced plans for more affordable EVs due in the next few years.
+
 ---
 
 ## Winners and losers

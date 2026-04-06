@@ -43,6 +43,23 @@ Major defense contractors (excluding Boeing). Trades as a moderate cluster (0.49
 
 ---
 
+## Consolidation history (51 → 5)
+
+In 1989 (Berlin Wall still standing), 94% of spending on major weapon systems went to dual-purpose companies — manufacturers that also made consumer products. Only 6% went to pure-play defense specialists. Today: 86% goes to specialists. The industrial base hollowed out post-Cold War.
+
+| Year | Event |
+|------|-------|
+| 1989 | 51 major defense contractors. 6% of weapons spending to pure-play defense. |
+| 1993 | "Last Supper" — DoD invited 15 of 51 primes, told them budgets would be slashed. Consolidation or death. |
+| 1999 | [[Lockheed Martin]]–[[Northrop Grumman]] merger blocked by DOJ. Would have gone to 4. |
+| 2026 | 5 primes remain. 86% of weapons spending to defense specialists. |
+
+The consequence of losing dual-use companies: loss of volume, loss of R&D stimulus, loss of the ability to mobilize quickly. WWII mobilization took 18 months — and that was with factories that already existed. The US started ramping production for Britain and the Soviets before entering the war.
+
+*Source: [[Shyam Sankar]] (Palantir), All-In Podcast, Apr 6, 2026*
+
+---
+
 ## Key actors
 
 | Company | Ticker | Market Cap | Focus |

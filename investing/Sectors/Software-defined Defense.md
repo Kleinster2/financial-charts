@@ -37,7 +37,7 @@ Defense companies where the core value is software and AI, not hardware manufact
 
 | Company | Valuation | Focus | Key product |
 |---------|-----------|-------|-------------|
-| [[Anduril]] | ~$14B | Autonomous systems, counter-drone | Lattice OS |
+| [[Anduril]] | ~$60B (Series H) | Autonomous systems, counter-drone | Lattice OS |
 | [[Shield AI]] | $5.3B | Autonomous aircraft | Hivemind AI pilot |
 | [[Skydio]] | ~$2.2B | Autonomous drones | Skydio X10 |
 | [[Saronic]] | ~$1.5B | Autonomous surface vessels | USVs |
@@ -175,12 +175,14 @@ VC interest in defense surged post-Ukraine. Previously taboo sector now attracts
 
 | Company | Valuation | Revenue (est) | Multiple |
 |---------|-----------|---------------|----------|
-| [[Palantir]] | $180B | ~$3B | 60x |
-| [[Anduril]] | $14B | ~$1B | 14x |
+| [[Palantir]] | ~$400B | ~$4.5B (FY25) | 89x |
+| [[Anduril]] | ~$60B (Series H) | ~$2B (2025) | 30x |
 | [[Shield AI]] | $5.3B | ~$200M? | 25x+ |
 | [[Skydio]] | $2.2B | ~$200M? | 10x+ |
 
-Valuations reflect growth expectations and strategic premium. [[Palantir]] is public and trades at AI multiples. Private companies valued on last round (may be stale).
+Valuations reflect growth expectations and strategic premium. [[Palantir]] is public and trades at AI multiples. [[Anduril]] deliberately climbing down the revenue multiples tree each round — Series H at lower multiple than Series G. Private companies valued on last round (may be stale).
+
+*Updated 2026-04-06*
 
 ---
 

@@ -75,6 +75,8 @@ First flight January 11, 2026. Heavy cargo drone from [[Norinco]] subsidiary Xi'
 
 **DJI dominance:** Chinese company controls most of global drone market. US government agencies increasingly restricted from using DJI (security concerns).
 
+**The American drone birthright (lost):** The drone is an American invention — Abe Karem designed the Predator at [[General Atomics]]. But ITAR export controls classified drones as flying missiles, and the FAA banned beyond-line-of-sight operations. This killed the domestic commercial drone market. [[Shyam Sankar]] ([[Palantir]], Apr 6, 2026): "There was a counterfactual world where General Atomics had a consumer subsidiary called DJI and the consumer drone market was entirely owned by the US." The consumer market would have written the US down the price-production curve for defense applications — instead China captured that volume and that learning curve.
+
 ---
 
 ## Regulatory landscape

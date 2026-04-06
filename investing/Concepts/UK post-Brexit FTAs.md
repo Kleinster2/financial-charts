@@ -164,6 +164,31 @@ See [[CPTPP]].
 
 ---
 
+## UK-EU political realignment (2026)
+
+*Source: FT, Gideon Rachman, "Starmer's long road back to Europe," April 6, 2026*
+
+[[Keir Starmer]]'s April 2026 speech was the most pro-European since winning power — spoke of "the need to be bolder in building a partnership with the EU for the dangerous world that we must navigate together." Openly acknowledged "Brexit did deep damage to our economy."
+
+The US-American National Bureau of Economic Research estimated Brexit has cumulatively cost the UK up to 8% of GDP.
+
+| Poll (YouGov, April 2026) | % |
+|---------------------------|---|
+| Believe UK-US "special relationship" exists | 14% |
+| Want closer ties to US | 18% |
+| Want closer ties to [[EU]] | 57% |
+| Believe Brexit was a mistake | Majority |
+
+Starmer's formal position: ruled out rejoining the customs union or single market, let alone the EU itself. But senior government figures privately acknowledge a customs union alone would not provide significant economic gain — the ultimate goal has to be single market rejoining and eventually EU membership (Rachman sourcing, unnamed senior figures).
+
+Strategic drivers: [[Russia]]'s ongoing war in [[Ukraine]], Trump openly discussing leaving [[NATO]], denigrating European allies as "cowards." If the US pulls back from Europe, only collective European effort can deter Russia — UK military capacities are vital but armed forces are "alarmingly threadbare."
+
+Domestic politics have shifted: [[Labour]] trailing [[Reform UK]] in polls, but Reform and [[Nigel Farage]] are closely associated with two things now unpopular in the UK — Trump and Brexit.
+
+Obstacles to rejoining: UK would probably have to commit to joining the euro, would not get full restoration of the Thatcher budget rebate. EU itself would hesitate to negotiate re-entry without a clear national consensus.
+
+---
+
 ## Related
 
 - [[Trade Agreements]] — comparisons hub
@@ -172,7 +197,9 @@ See [[CPTPP]].
 - [[CPTPP]] — UK accession 2023
 - [[CETA]] — [[EU]]-[[Canada]] (UK rolled over)
 - [[Europe]] — regional context
+- [[NATO]] — UK-European defense cooperation
+- [[Iran conflict European impact]] — energy shock accelerating UK-EU convergence
 
 ---
 
-*Created 2026-01-10*
+*Created 2026-01-10. Updated 2026-04-06 (Starmer pro-EU speech, polling data, NBER Brexit cost estimate).*

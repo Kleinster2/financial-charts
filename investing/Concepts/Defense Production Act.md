@@ -39,12 +39,27 @@
 
 ---
 
+## Title III as defense supply chain tool
+
+[[CSIS]] (March 2026) recommended expanded use of DPA Title III — direct loans, loan guarantees, and grants — to shore up energy resilience for defense-critical industrial nodes. Recent precedents:
+
+| Recipient | Amount | Purpose |
+|-----------|--------|---------|
+| [[Constellium]] | $23M | Aluminum casting |
+| Arconic | $45.5M | High-purity aluminum |
+| [[Albemarle]] | $90M | Domestic lithium mining |
+
+Extends the DPA's scope beyond AI and pandemic response into industrial base energy infrastructure. See [[Defense energy vulnerability]] for the full CSIS framework.
+
+---
+
 ## Strategic significance
 
-1. **Broad definition of "defense"**: Includes infrastructure, technology, industrial capacity
-2. **Low threshold for invocation**: President determines what counts as "national defense"
-3. **Political tool**: Can be weaponized against private companies
-4. **AI as new frontier**: [[Anthropic]] case signals extension into AI/tech policy
+1. Broad definition of "defense": Includes infrastructure, technology, industrial capacity
+2. Low threshold for invocation: President determines what counts as "national defense"
+3. Political tool: Can be weaponized against private companies
+4. AI as new frontier: [[Anthropic]] case signals extension into AI/tech policy
+5. Industrial energy resilience: CSIS recommends Title III for grid hardening at smelters, fabs, and mills
 
 ---
 

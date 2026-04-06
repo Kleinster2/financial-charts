@@ -12,7 +12,7 @@ Rare profitable AI applications company at scale with ~$180B+ market cap, 63% Yo
 | Metric | Value |
 |--------|-------|
 | Ticker | PLTR ([[NYSE]] → [[Nasdaq]], Nov 2022) |
-| Market cap | ~$350B |
+| Market cap | ~$400B (Apr 2026) |
 | HQ | Denver, CO |
 | CEO | [[Alex Karp]] |
 | Founded | 2003 |
@@ -64,7 +64,7 @@ FY2020 net income includes ~$1.1B in stock-based compensation around the direct 
 | [[Peter Thiel]] | Co-founder, Chairman | [[PayPal]] mafia, [[Founders Fund]]. Provided initial $30M. Increasingly polarizing political profile. |
 | [[Joe Lonsdale]] | Co-founder | [[Stanford]], later founded [[8VC]], Addepar. Left Palantir early. |
 | Stephen Cohen | Co-founder, President | [[Stanford]] CS. Technical co-founder, oversees product architecture. |
-| [[Shyam Sankar]] | CTO | Joined 2006. Runs technology and government business. Public face on defense AI. |
+| [[Shyam Sankar]] | CTO | Joined 2006. Runs technology and government business. Public face on defense AI. Author of forthcoming book on defense re-industrialization. |
 | [[Cameron Stanley]] | Former government liaison | [[Pentagon]] connections, Maven program interface. |
 
 ---

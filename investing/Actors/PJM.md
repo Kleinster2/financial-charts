@@ -47,6 +47,23 @@ PJM warned of a potential **60 GW** power supply shortfall over the next decade 
 
 ---
 
+## Defense manufacturing concentration
+
+PJM's footprint hosts a disproportionate share of US defense-critical manufacturing capacity ([[CSIS]], March 2026):
+
+| Material | PJM share |
+|----------|-----------|
+| Titanium | 55% |
+| [[Aluminum]] | 50% |
+| Steel | 31% |
+| [[Semiconductors|Semiconductors]] | 12% |
+
+This creates a dual-demand problem: [[Data Centers|data centers]] (48.5 GW planned in PJM, ~30% of peak load) and defense mobilization compete for the same congested grid. NERC rates PJM at "elevated risk" now, "high risk" by 2029.
+
+See [[Defense energy vulnerability]] for full CSIS framework.
+
+---
+
 ## Related
 
 - [[Power infrastructure bottleneck]] — thesis this supports
@@ -60,3 +77,4 @@ PJM warned of a potential **60 GW** power supply shortfall over the next decade 
 - [[Exelon]] — major PJM utility
 - [[Data Centers]] — demand driver
 - [[GE Vernova]] — gas turbine supplier
+- [[Defense energy vulnerability]] — defense manufacturing grid concentration risk (CSIS, March 2026)

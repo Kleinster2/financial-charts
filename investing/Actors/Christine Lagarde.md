@@ -12,6 +12,8 @@ Christine Lagarde is the president of the [[ECB]] since November 2019, the first
 
 Her ECB tenure has been defined by the post-COVID inflation spike and the fastest rate-hiking cycle in eurozone history (0bp to 450bp in 14 months, July 2022 to September 2023), followed by a cautious easing cycle beginning June 2024. She has been vocal on AI's potential labor market disruption, warning in February 2026 about employment effects from AI automation.
 
+During the 2026 [[Iran]] war energy shock, Lagarde urged governments to keep fiscal responses "temporary, targeted and tailored" — warning that "broad-based and open-ended measures" risk fueling demand "excessively" and driving inflation. She endorsed targeted policies to reduce energy demand and compensate lower-income households, echoing the ECB's 2022 messaging during the [[Russia]]-Ukraine energy crisis. See [[Iran conflict European impact#EU fiscal response — "third crisis in six years" (April 6)]].
+
 ---
 
 ## Quick stats

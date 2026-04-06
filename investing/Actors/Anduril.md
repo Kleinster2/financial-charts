@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #defense #usa #private
 
-**Anduril** — [[Defense]] AI & autonomous systems founded by [[Palmer Luckey]]. ~$31B valuation, ~$2B revenue (2025), $6B+ in global contracts. Talking IPO. [[Meta]] partnership (Jan 2026).
+**Anduril** — [[Defense]] AI & autonomous systems founded by [[Palmer Luckey]]. Raising at ~$60B valuation (Series H), ~$2B revenue (2025), $20B Army contract. Arsenal-1 factory opened Apr 5, 2026. IPO discussions underway.
 
 ---
 
@@ -139,6 +139,7 @@ Disrupting Lockheed/[[Raytheon]] model.
 | Feb 2025 | Air Force autonomy SW | $99M | Software for autonomous systems control |
 | Feb 2025 | Army VR headset | — | Took over [[Microsoft]]'s IVAS contract |
 | Mar 2025 | USMC counter-drone | $642M | 10-year Marine Corps counter-drone systems |
+| 2026 | US Army | $20B | Reported by All-In Podcast (Apr 6, 2026) |
 
 ## Customers
 
@@ -227,9 +228,15 @@ Bear:
 
 ## Manufacturing
 
-Arsenal-1 — $1B factory planned near Columbus, Ohio. Up to 4,000 workers. Intended for scaled production of autonomous systems.
+Arsenal-1 — 5M sq ft factory campus in Columbus, Ohio. Opened April 5, 2026; producing Furies first. Designed as a modular contract-manufacturer model: can pivot production between Roadrunners, Barracudas, and Furies depending on conflict demand. Working with [[Palantir]]'s Foundry platform on some Arsenal programs.
 
-Anduril has talked about going public — IPO discussions underway as of early 2026. Also looking for additional funding.
+[[Trae Stephens]] on the design philosophy (Apr 6, 2026): "If we build out the factory campus and said we're just going to build one thing, that provides a tremendous limitation in a conflict. We're thinking about this more like contract manufacturers — build a skill set, hit network of scale, get lower costs on all parts."
+
+The counter-example: when Ukraine needed more Stingers and Javelins, the assembly lines didn't exist. The primes "were literally calling people out of retirement to come back and teach them how to build Stingers and Javelins again."
+
+Columbus, Ohio location is deliberate — tapping into the underemployed manufacturing workforce from closed factories (GM, Ford, Frigidaire, National Cash Register, Armco Steel all had Ohio plants that closed during globalization).
+
+Anduril has talked about going public — IPO discussions underway as of early 2026.
 
 ---
 
@@ -244,7 +251,8 @@ Anduril has talked about going public — IPO discussions underway as of early 2
 | Series E | 2022 | $1.5B | $8.5B |
 | Series F | 2024 | $1.5B | $14B |
 | Later rounds | 2024-25 | — | ~$31B |
-| Total | | ~$7B | |
+| Series H | 2026 | ~$4B (raising) | ~$60B |
+| Total | | ~$11B+ | |
 
 Key investors:
 
@@ -277,7 +285,7 @@ Hegseth's push to apply AI expansively in defense led to a clash with [[Anthropi
 | Metric | Value |
 |--------|-------|
 | Ticker | Private (IPO discussions underway) |
-| Valuation | ~$31B |
+| Valuation | ~$60B (Series H raising, Apr 2026) |
 | Founder | [[Palmer Luckey]] |
 | CEO | [[Brian Schimpf]] |
 | Focus | Autonomous defense |
@@ -285,7 +293,7 @@ Hegseth's push to apply AI expansively in defense led to a clash with [[Anthropi
 | Employees | 7,000+ |
 | HQ | Costa Mesa, CA |
 
-*Updated 2026-03-11*
+*Updated 2026-04-06*
 
 ---
 

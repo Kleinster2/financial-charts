@@ -143,9 +143,15 @@ European leaders at their Thursday summit (March 20) called on the Commission to
 - [[BASF]] — 30% Ludwigshafen price hike, first major European industrial passthrough
 - [[LNG]] — 20% of global supply halted
 - [[Spain]], [[France]], [[Germany]], [[Italy]] — electricity price divergence by energy mix
+- [[Poland]] — fuel tax cuts, €370mn/month fiscal cost
+- [[Portugal]], [[Austria]] — windfall tax letter signatories
 - [[Strait of Hormuz]] — chokepoint
 - [[Macron]] — diplomatic channel to Iran
-- [[Dan Jørgensen]] — EU Energy Commissioner, letter lowering storage targets
+- [[Dan Jørgensen]] — EU Energy Commissioner, storage targets + fiscal caution
+- [[Valdis Dombrovskis]] — EU Economy Commissioner, fiscal discipline messaging
+- [[Christine Lagarde]] — ECB, "temporary, targeted, tailored"
+- [[ECB]] — monetary policy during energy shock
+- [[Fiscal Dominance]] — EU debt-to-GDP 77.8% → 82.1%, constrained fiscal response
 
 ---
 
@@ -243,4 +249,38 @@ European Commission asking member states to "consider coming cutting back on oil
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg). Updated 2026-04-03 (Jørgensen/FT → [[EU]]).*
+## EU fiscal response — "third crisis in six years" (April 6)
+
+*Source: FT, Sam Fleming and Henry Foy, "EU officials urge caution on energy subsidies amid Iran war crisis," April 6, 2026*
+
+The European Commission is urging "co-ordination and caution" on energy subsidies, warning that the Iran-war oil shock could tip into a fiscal crisis. [[Dan Jørgensen]]: "What happens in one sector of the economy can spill over to the rest of society." The Commission is providing "technical advice and help to countries to form these policy tools and instruments" within existing fiscal room.
+
+EU officials frame this as the third economic crisis in six years — after Covid-19 and [[Russia]]'s 2022 invasion of [[Ukraine]] — both of which drove large stimulus programs and ballooning debt. EU general government gross debt-to-GDP: 77.8% (end-2019) → 82.1% (Q3 2025).
+
+[[Christine Lagarde]] (March 2026): "Targeted government policies can help smooth the shock by reducing energy demand and compensating lower-income households." But warned that "broad-based and open-ended measures" could fuel demand "excessively" and drive inflation. Urged "temporary, targeted and tailored" action.
+
+[[Valdis Dombrovskis]] (EU Economy Commissioner): only "coherent," short-term emergency measures should be adopted. Warned excessive spending would "have serious fiscal implications" given reduced fiscal firepower from Covid/Ukraine/defense spending surges.
+
+### Country-level fiscal responses
+
+| Country | Measure | Cost/Scale | Status |
+|---------|---------|------------|--------|
+| [[Italy]] | Extended 20% excise tax on fuel | Through May 1 | 2025 deficit at 3.1% of GDP (breaching 3% rule) |
+| [[Poland]] | Cut VAT and excise duties on fuel | €370mn/month in lost tax revenue | Planning offsetting windfall tax on energy profits |
+| [[Spain]] | Cut fuel taxes | — | Leading windfall tax push |
+
+[[Giancarlo Giorgetti]] (Italian Finance Minister): "inevitable" that Brussels will have to be more lenient enforcing the 3% deficit-to-GDP rule.
+
+### Five-country windfall tax push (April 4)
+
+Finance ministers of [[Germany]], [[Spain]], [[Italy]], [[Portugal]], and [[Austria]] jointly urged Brussels to impose an EU-wide windfall tax on energy companies. Letter published by [[Carlos Cuerpo]] (Spanish Finance Minister) cited the 2022 revenue cap on power companies during the Russia gas surge as precedent: "Given the current market distortions and fiscal constraints, the European Commission should swiftly develop a similar EU-wide contribution instrument."
+
+The 2022 cap: EU imposed a ceiling on revenues of power companies during the gas price surge caused by Russia's invasion. This pushed proceeds back to governments to fund consumer relief. The 2026 push extends the logic to oil/gas companies benefiting from the Iran conflict price spike.
+
+### Green policy tension
+
+Governments considering subsidies have been warned they must still comply with EU rules aimed at greening the economy and reducing fossil fuel reliance. Jørgensen: "The problem in a crisis like this is that we sometimes have to support and subsidise things that we would not normally dream about, but it has to be done in the short term. Otherwise people will freeze or production will close down."
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg). Updated 2026-04-03 (Jørgensen/FT → [[EU]]). Updated 2026-04-06 (EU fiscal response/windfall tax).*

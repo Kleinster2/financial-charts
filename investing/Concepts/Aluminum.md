@@ -158,6 +158,7 @@ Over **30M tonnes/year** new alumina capacity coming online in China, Indonesia,
 - [[Rio Tinto]] — diversified major with aluminum ops
 - [[China]] — dominant producer/consumer
 - [[Energy]] — critical input cost
+- [[Defense energy vulnerability]] — 50% of US aluminum capacity in PJM's stressed grid (CSIS, March 2026)
 
 ---
 

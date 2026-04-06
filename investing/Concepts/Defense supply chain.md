@@ -4,6 +4,27 @@
 
 ---
 
+## Industrial base erosion
+
+The current supply chain problem didn't start with Ukraine — it started with the end of the Cold War.
+
+| Year | Defense industrial base structure |
+|------|----------------------------------|
+| 1989 (Berlin Wall) | Only 6% of major weapons spending went to pure-play defense specialists. 94% to dual-purpose companies. |
+| 1993 ("Last Supper") | DoD brought 15 of 51 primes to dinner, told them budgets would be slashed. "We're not going to save you. You have our permission to consolidate." |
+| 1999 | DOJ blocked [[Lockheed Martin]]–[[Northrop Grumman]] merger — would have gone from 5 to 4. |
+| 2026 | 86% of weapons spending goes to defense specialists. Five primes remain. |
+
+The dual-use companies that won WWII and the early Cold War were not a defense industrial base — they were an American industrial base. Chrysler made the Minuteman ICBM and minivans. General Mills built torpedoes and inertial guidance systems from grain-processing R&D. [[Ford]] built satellites until 1990.
+
+[[Shyam Sankar]] ([[Palantir]]), Apr 6, 2026: "When we lost the American industrial base and got a defense industrial base, you lose volume. You lose the R&D stimulus to come up with creative ideas."
+
+The only company to build at-scale manufacturing capacity in the US this century: [[Tesla]].
+
+*Source: All-In Podcast (Apr 6, 2026) — Sankar and [[Trae Stephens]] (Anduril)*
+
+---
+
 ## The production gap
 
 Ukraine war consumed munitions faster than the West could produce them. Replenishment requires a manufacturing base that atrophied after the Cold War.
@@ -109,6 +130,36 @@ Missiles are even more constrained than shells:
 
 ---
 
+## Energy infrastructure as bottleneck
+
+Materials bottlenecks dominate the supply chain conversation, but [[CSIS]] (March 2026) identified energy infrastructure as a parallel vulnerability. War-rate mobilization demands 17.4 PJ/yr — trivial nationally (0.018% of US consumption) — but defense-critical manufacturing concentrates in grid regions already under stress. [[PJM]] alone hosts 55% of US titanium capacity, 50% of aluminum capacity, and 31% of steel capacity, while facing NERC "elevated risk" ratings and interconnection queues of 8 years. The same grid is absorbing 48.5 GW of planned data center additions.
+
+See [[Defense energy vulnerability]] for full CSIS framework: PSVI exposure data, gas deliverability risk, historical failures (Winter Storm Uri shut semiconductor fabs), and DCEI policy recommendations.
+
+---
+
+## Pharmaceutical supply chain vulnerability
+
+80% of APIs (active pharmaceutical ingredients) for generic drugs are produced by [[China]]. 50% of all new clinical trials now in China, not the US.
+
+[[Shyam Sankar]] (Apr 6, 2026): "What do you think the American people are going to think when they have to choose between defending the free world and their 5-year-old dying of an ear infection that we would have thought of as trivially curable?"
+
+This extends the supply chain vulnerability beyond munitions and minerals to essential civilian infrastructure. The globalist assumption — "we'll do the innovation, they'll do the production" — seeded structural dependence.
+
+---
+
+## The drone production gap
+
+| Metric | US vs China |
+|--------|-------------|
+| Drone production | 10,000:1 gap |
+| Shipbuilding capacity | 223x disadvantage |
+| Munitions on hand (vs China scenario) | 8 days vs ~800 days needed |
+
+The US invented the drone — Abe Karem and the Predator at [[General Atomics]]. Then ITAR export controls + FAA beyond-line-of-sight ban killed the domestic commercial drone market. [[DJI]] captured the consumer market that could have been American. [[Shyam Sankar]]: "There was a counterfactual world where General Atomics had a consumer subsidiary called DJI."
+
+---
+
 ## Related
 
 - [[Defense]] — sector hub
@@ -118,6 +169,13 @@ Missiles are even more constrained than shells:
 - [[L3Harris]] — missile spinoff, DoD $1B
 - [[Golden Dome]] — missile defense demand driver
 - [[Long global rearmament]] — thesis
+- [[Defense energy vulnerability]] — grid infrastructure as mobilization bottleneck (CSIS, March 2026)
+- [[Anduril]] — Arsenal-1 modular factory (Columbus, OH) addressing production gap
+- [[Palantir]] — defense software platform, working with Arsenal-1 via Foundry
+- [[DJI]] — captured US-invented drone market
+- [[General Atomics]] — Predator drone inventor (Abe Karem)
+- [[Tesla]] — only at-scale manufacturer founded this century in US
+- [[Office of Strategic Capital]] — $200B deployment for supply chain bottlenecks
 
 ---
 

@@ -611,3 +611,4 @@ The cost advantage of [[Natural gas|natural gas]] over other generation technolo
 - [[Groq]] — inference efficiency (acquired by NVIDIA Dec 2025)
 - [[Google]] — 12-year grid queue quote, colocation strategy
 - [[Intersect Power]] — Google's $4.75B acquisition to bypass grid queues
+- [[Defense energy vulnerability]] — defense manufacturing competes for same grid (CSIS, March 2026)
