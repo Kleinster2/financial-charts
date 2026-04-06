@@ -6,16 +6,16 @@
   
   <style>
     /* ═══ Dark theme (global) ═══ */
-    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:1rem;background:#131722;color:#d1d4dc;}
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:1rem;background:#000000;color:#d1d4dc;}
     h1,h2,h3{color:#d1d4dc;}
     #top-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:1rem;}
     button{padding:4px 10px;font-size:1rem;background:#2a2e39;color:#d1d4dc;border:1px solid #444;border-radius:3px;cursor:pointer;}
     button:hover{background:#363a45;}
     select{background:#2a2e39;color:#d1d4dc;border:1px solid #444;border-radius:3px;padding:4px 6px;}
     input[type="text"],input[type="number"]{background:#2a2e39;color:#d1d4dc;border:1px solid #444;border-radius:3px;}
-    .chart-box{width:100%;height:600px;border:1px solid #2a2e39;background:#131722;margin-top:1rem;position:relative;}
+    .chart-box{width:100%;height:600px;border:1px solid #2a2e39;background:#000000;margin-top:1rem;position:relative;}
     /* layout tweaks */
-    .chart-card{margin-bottom:3rem;background:#131722;}
+    .chart-card{margin-bottom:3rem;background:#000000;}
     /* chip styles restored */
     .controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:4px;}
     .ticker-chips{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end;width:100%;margin-top:4px;}
@@ -85,10 +85,10 @@
     #page-title{border-bottom-color:#2962ff !important;}
   
     /* Grid layout styles */
-    .grid-layout { min-height: 0; height: calc(100vh - 200px); overflow: hidden; }
+    .grid-layout { min-height: 0; overflow: visible; }
     .grid-layout .chart-card {
         margin-bottom: 0; overflow: hidden; display: flex; flex-direction: column; min-height: 0;
-        border: none; border-radius: 0; background: #131722;
+        border: none; border-radius: 0; background: #000000;
         border-right: 1px solid #2a2e39; border-bottom: 1px solid #2a2e39;
         position: relative;
     }
@@ -138,7 +138,7 @@
     .grid-maximized .selected-tickers { display: flex !important; background: #1e222d; padding: 2px 8px; }
     /* Hide floating legend in grid mode -- too noisy */
     .grid-compact .floating-legend { font-size: 0.7rem !important; opacity: 0.7; }
-    .grid-compact .chart-box { background: #131722; }
+    .grid-compact .chart-box { background: #000000; }
     .grid-compact .ticker-label { display: none !important; }
     .grid-compact .fixed-legend { font-size: 9px !important; line-height: 1.2 !important; }
     .grid-maximized .ticker-label { display: block !important; }
@@ -191,6 +191,25 @@
     #tag-filter-container label { font-size: 0.85rem; color: #888; }
     #tag-filter-select { padding: 4px 8px; font-size: 0.85rem; border: 1px solid #444; border-radius: 4px; background: #2a2e39; color: #d1d4dc; }
 
+    /* Auto-hide header */
+    #header-zone {
+        position: fixed; top: 0; left: 0; right: 0; z-index: 9000;
+        max-height: 8px; overflow: hidden;
+        transition: max-height 0.25s ease, background 0.25s ease;
+        background: transparent;
+    }
+    #header-zone:hover, #header-zone.pinned {
+        max-height: 400px; overflow: visible;
+        background: #000000; padding: 0.5rem 1rem; box-shadow: 0 2px 12px rgba(0,0,0,0.8);
+    }
+    #header-zone .header-grip {
+        height: 8px; cursor: pointer;
+        background: linear-gradient(to bottom, #2a2e39 0%, transparent 100%);
+    }
+    #header-zone:hover .header-grip { display: none; }
+    #header-zone.pinned .header-grip { display: none; }
+    body { padding-top: 12px; }
+
 </style>
   <!-- Lightweight Charts library -->
   <script src="https://unpkg.com/lightweight-charts@5.1.0/dist/lightweight-charts.standalone.development.js"></script>
@@ -198,25 +217,30 @@
   <script src="config.js"></script>
 </head>
 <body>
-  <h2>Lightweight Charts Sandbox</h2>
-  <div id="top-controls">
-    <div id="global-search-container">
-      <input type="text" id="global-search-input" placeholder="Search tickers or companies...">
-      <div id="search-results"></div>
+  <div id="header-zone">
+    <div class="header-grip"></div>
+    <h2 style="margin:0 0 0.5rem 0;">Lightweight Charts Sandbox</h2>
+    <div id="top-controls">
+      <div id="global-search-container">
+        <input type="text" id="global-search-input" placeholder="Search tickers or companies...">
+        <div id="search-results"></div>
+      </div>
+      <button id="undo-btn" onclick="window.undoDeleteCard()" title="Undo delete (Ctrl+Z)" style="font-size:1.1rem;padding:4px 8px;opacity:0.3;background:transparent;border:none;color:#d1d4dc;cursor:pointer;">&#x21B6;</button>
+      <button id="redo-btn" onclick="window.redoDeleteCard()" title="Redo delete (Ctrl+Y)" style="font-size:1.1rem;padding:4px 8px;opacity:0.3;background:transparent;border:none;color:#d1d4dc;cursor:pointer;">&#x21B7;</button>
+      <button class="highlights-toggle-btn" onclick="toggleHighlightsMode()" style="margin-right: 10px; padding: 5px 10px; cursor: pointer; border-radius: 4px; border: 1px solid #444; background: #2a2e39; color: #d1d4dc;">☆ Highlights</button>
+      <div id="tag-filter-container">
+        <label for="tag-filter-select">Tag:</label>
+        <select id="tag-filter-select">
+          <option value="">All</option>
+        </select>
+      </div>
+      <button id="new-page-btn">New Page</button>
+      <button id="toggle-chart-nav-btn">Hide Chart List</button>
+      <div id="tab-bar" class="tab-bar"></div>
     </div>
-    <button class="highlights-toggle-btn" onclick="toggleHighlightsMode()" style="margin-right: 10px; padding: 5px 10px; cursor: pointer; border-radius: 4px; border: 1px solid #444; background: #2a2e39; color: #d1d4dc;">☆ Highlights</button>
-            <div id="tag-filter-container">
-      <label for="tag-filter-select">Tag:</label>
-      <select id="tag-filter-select">
-        <option value="">All</option>
-      </select>
-    </div>
-    <button id="new-page-btn">New Page</button>
-    <button id="toggle-chart-nav-btn">Hide Chart List</button>
-    <div id="tab-bar" class="tab-bar"></div>
+    <h1 id="page-title" style="margin: 0 0 0.5rem 0; padding: 0.5rem 0; border-bottom: 2px solid #2962ff; color: #d1d4dc;">Main</h1>
+    <nav id="chart-nav"></nav>
   </div>
-  <h1 id="page-title" style="margin: 0 0 1rem 0; padding: 0.5rem 0; border-bottom: 2px solid #2962ff; color: #d1d4dc;">Main</h1>
-  <nav id="chart-nav"></nav>
   <div id="pages-container">
     <div class="page" data-page="1">
       <div id="charts-wrapper"></div>
@@ -249,7 +273,7 @@
   <script src="chart-fundamentals-pane.js?v=3"></script>
   <script src="pages.js?v=18"></script>
   <script src="chart-card-registry.js?v=1"></script>
-  <script src="card.js?v=69"></script>
+  <script src="card.js?v=70"></script>
   <script src="global-search.js?v=13"></script>
   <script src="chart-nav-toggle.js?v=1"></script>
   <script src="dashboard-base.js?v=1"></script>
@@ -257,7 +281,7 @@
   <script src="chart-macro-dashboard.js?v=2"></script>
   <script src="chart-dendrograms.js?v=5"></script>
   <script src="chart-thesis-performance.js?v=1"></script>
-  <script src="chart-grid-layout.js?v=2"></script>
+  <script src="chart-grid-layout.js?v=4"></script>
   <script src="sandbox-init.js?v=1"></script>
 
 

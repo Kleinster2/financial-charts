@@ -8,19 +8,15 @@
  */
 
 window.GridLayout = (() => {
-    // Available layouts: [cols, rows, label]
+    // Layouts = column counts. Rows are auto (scroll for more).
     const LAYOUTS = [
-        { id: '1x1', cols: 1, rows: null, label: '1\u00d71' },
-        { id: '2x1', cols: 2, rows: 1,    label: '2\u00d71' },
-        { id: '1x2', cols: 1, rows: 2,    label: '1\u00d72' },
-        { id: '2x2', cols: 2, rows: 2,    label: '2\u00d72' },
-        { id: '3x2', cols: 3, rows: 2,    label: '3\u00d72' },
-        { id: '2x3', cols: 2, rows: 3,    label: '2\u00d73' },
-        { id: '3x3', cols: 3, rows: 3,    label: '3\u00d73' },
-        { id: '4x3', cols: 4, rows: 3,    label: '4\u00d73' },
+        { id: '1', cols: 1, label: '1' },
+        { id: '2', cols: 2, label: '2' },
+        { id: '3', cols: 3, label: '3' },
+        { id: '4', cols: 4, label: '4' },
     ];
 
-    let currentLayout = '1x1';
+    let currentLayout = '1';
     let crosshairSyncEnabled = true;
     let isSyncing = false; // guard against infinite loops
     let resizeObserver = null;
@@ -67,17 +63,14 @@ window.GridLayout = (() => {
             wrapper.style.display = 'grid';
             wrapper.style.gridTemplateColumns = `repeat(${layout.cols}, 1fr)`;
             wrapper.style.gap = '4px';
-            wrapper.style.overflow = 'hidden';
+            wrapper.style.overflow = '';
             wrapper.classList.add('grid-layout');
 
-            // Set explicit rows; hide overflow cards via grid-auto-rows: 0
-            if (layout.rows) {
-                wrapper.style.gridTemplateRows = `repeat(${layout.rows}, 1fr)`;
-                wrapper.style.gridAutoRows = '0';
-            } else {
-                wrapper.style.gridTemplateRows = '';
-                wrapper.style.gridAutoRows = '';
-            }
+            // Row height: fit ~cols rows in viewport (square-ish cells), scroll for more
+            const visibleRows = layout.cols; // e.g. 2 cols → 2 rows visible
+            const rowHeight = Math.floor(window.innerHeight / visibleRows);
+            wrapper.style.gridTemplateRows = '';
+            wrapper.style.gridAutoRows = `${rowHeight}px`;
 
             // Hide page chrome in grid mode
             if (pageTitle) pageTitle.style.display = 'none';
@@ -89,7 +82,7 @@ window.GridLayout = (() => {
             });
         }
 
-        const isGrid = layout.id !== '1x1';
+        const isGrid = layout.cols > 1;
 
         // Reset maximize state
         maximizedCard = null;
@@ -128,7 +121,7 @@ window.GridLayout = (() => {
     }
 
     const DARK_THEME = {
-        layout: { background: { type: 'solid', color: '#131722' }, textColor: '#d1d4dc' },
+        layout: { background: { type: 'solid', color: '#000000' }, textColor: '#d1d4dc' },
         grid: { vertLines: { color: '#1e222d' }, horzLines: { color: '#1e222d' } },
         crosshair: {
             horzLine: { color: '#758696', labelBackgroundColor: '#2a2e39' },
@@ -140,7 +133,7 @@ window.GridLayout = (() => {
     };
 
     const LIGHT_THEME = {
-        layout: { background: { type: 'solid', color: '#131722' }, textColor: '#d1d4dc' },
+        layout: { background: { type: 'solid', color: '#000000' }, textColor: '#d1d4dc' },
         grid: { vertLines: { color: '#1e222d' }, horzLines: { color: '#1e222d' } },
         crosshair: {
             horzLine: { color: undefined, labelBackgroundColor: undefined },
@@ -320,9 +313,11 @@ window.GridLayout = (() => {
             });
             const layout = getLayout(currentLayout);
             wrapper.style.gridTemplateColumns = `repeat(${layout.cols}, 1fr)`;
-            if (layout.rows) {
-                wrapper.style.gridTemplateRows = `repeat(${layout.rows}, 1fr)`;
-            }
+            wrapper.style.height = '';
+            const visibleRows = layout.cols;
+            const rowHeight = Math.floor(window.innerHeight / visibleRows);
+            wrapper.style.gridTemplateRows = '';
+            wrapper.style.gridAutoRows = `${rowHeight}px`;
             requestAnimationFrame(() => resizeAllCharts(wrapper));
         } else {
             // Maximize this card
@@ -337,6 +332,8 @@ window.GridLayout = (() => {
             });
             wrapper.style.gridTemplateColumns = '1fr';
             wrapper.style.gridTemplateRows = '1fr';
+            wrapper.style.gridAutoRows = '';
+            wrapper.style.height = 'calc(100vh - 190px)';
             requestAnimationFrame(() => {
                 const chartBox = card.querySelector('.chart-box');
                 const rt = card._ctx?.runtime;
@@ -385,7 +382,14 @@ window.GridLayout = (() => {
 
     function loadLayoutForPage(pageNum) {
         const layouts = getPageLayouts();
-        return layouts[pageNum] || '1x1';
+        let id = layouts[pageNum] || '1';
+        // Migrate old NxM format to column-only
+        if (id.includes('x')) {
+            id = id.split('x')[0];
+        }
+        // Ensure valid
+        if (!LAYOUTS.find(l => l.id === id)) id = '1';
+        return id;
     }
 
     // ─── UI ───────────────────────────────────────────────────────────
@@ -396,8 +400,8 @@ window.GridLayout = (() => {
         container.style.cssText = 'display:flex;align-items:center;gap:4px;margin-left:8px;';
 
         const label = document.createElement('span');
-        label.textContent = 'Layout:';
-        label.style.cssText = 'font-size:0.85rem;color:#666;';
+        label.textContent = 'Columns:';
+        label.style.cssText = 'font-size:0.85rem;color:#888;';
         container.appendChild(label);
 
         const btnGroup = document.createElement('div');
@@ -408,7 +412,7 @@ window.GridLayout = (() => {
             const btn = document.createElement('button');
             btn.dataset.layout = layout.id;
             btn.textContent = layout.label;
-            btn.title = `${layout.cols} columns \u00d7 ${layout.rows || 'auto'} rows`;
+            btn.title = `${layout.cols} column${layout.cols > 1 ? 's' : ''}`;
             btn.style.cssText = 'padding:3px 7px;font-size:0.8rem;border:1px solid #999;border-radius:3px;background:#eee;cursor:pointer;min-width:36px;';
             btn.addEventListener('click', () => {
                 applyLayout(layout.id);
@@ -423,16 +427,16 @@ window.GridLayout = (() => {
         syncBtn.id = 'grid-sync-btn';
         syncBtn.textContent = '\u21c4 Sync';
         syncBtn.title = 'Toggle crosshair sync across charts';
-        syncBtn.style.cssText = 'padding:3px 7px;font-size:0.8rem;border:1px solid #007bff;border-radius:3px;background:#007bff;color:#fff;cursor:pointer;margin-left:4px;';
+        syncBtn.style.cssText = 'padding:3px 7px;font-size:0.8rem;border:1px solid #2962ff;border-radius:3px;background:#2962ff;color:#fff;cursor:pointer;margin-left:4px;';
         syncBtn.addEventListener('click', () => {
             crosshairSyncEnabled = !crosshairSyncEnabled;
-            syncBtn.style.background = crosshairSyncEnabled ? '#007bff' : '#eee';
-            syncBtn.style.color = crosshairSyncEnabled ? '#fff' : '#666';
-            syncBtn.style.borderColor = crosshairSyncEnabled ? '#007bff' : '#999';
+            syncBtn.style.background = crosshairSyncEnabled ? '#2962ff' : '#2a2e39';
+            syncBtn.style.color = crosshairSyncEnabled ? '#fff' : '#888';
+            syncBtn.style.borderColor = crosshairSyncEnabled ? '#2962ff' : '#444';
 
             const wrapper = getActiveWrapper();
             if (wrapper) {
-                if (crosshairSyncEnabled && currentLayout !== '1x1') {
+                if (crosshairSyncEnabled && getLayout(currentLayout).cols > 1) {
                     setupCrosshairSync(wrapper);
                 } else {
                     teardownCrosshairSync(wrapper);

@@ -115,6 +115,66 @@
     window.saveCardsImmediate = saveCardsImmediate;
     window.saveCards = window.ChartUtils.debounce(saveCards, 300);
 
+    // ─── Undo / Redo stacks ────────────────────────────────────────
+    const undoStack = [];
+    const redoStack = [];
+
+    function updateUndoRedoButtons() {
+        const undoBtn = document.getElementById('undo-btn');
+        const redoBtn = document.getElementById('redo-btn');
+        if (undoBtn) undoBtn.style.opacity = undoStack.length ? '1' : '0.3';
+        if (redoBtn) redoBtn.style.opacity = redoStack.length ? '1' : '0.3';
+    }
+
+    window.undoDeleteCard = function() {
+        if (!undoStack.length) return;
+        const state = undoStack.pop();
+        // Before restoring, serialize current cards so redo can remove it
+        redoStack.push(state);
+        window.ChartCardRegistry.restoreCard(state);
+        saveCards();
+        updateUndoRedoButtons();
+        if (window.toast) window.toast('Card restored');
+    };
+
+    window.redoDeleteCard = function() {
+        if (!redoStack.length) return;
+        const state = redoStack.pop();
+        // Find and remove the card that matches this state
+        const cards = document.querySelectorAll('.chart-card');
+        for (const card of cards) {
+            if (card._ctx && window.ChartCardContext?.serialize) {
+                const s = window.ChartCardContext.serialize(card._ctx);
+                if (JSON.stringify(s.tickers) === JSON.stringify(state.tickers) && s.page === state.page) {
+                    undoStack.push(state);
+                    if (card._unbindEvents) card._unbindEvents();
+                    if (card._escapeHandler) document.removeEventListener('keydown', card._escapeHandler);
+                    const navLink = card.querySelector('.chart-nav-link');
+                    if (navLink) window.ChartCardNav?.removeNavLink(navLink);
+                    card.parentElement?.removeChild(card);
+                    saveCards();
+                    updateUndoRedoButtons();
+                    if (window.toast) window.toast('Card removed again');
+                    return;
+                }
+            }
+        }
+    };
+
+    document.addEventListener('keydown', (e) => {
+        if (e.target.matches('input,textarea')) return;
+        if ((e.ctrlKey || e.metaKey) && e.key === 'z') {
+            e.preventDefault();
+            window.undoDeleteCard();
+        } else if ((e.ctrlKey || e.metaKey) && e.key === 'y') {
+            e.preventDefault();
+            window.redoDeleteCard();
+        }
+    });
+
+    // Expose for button init
+    window._updateUndoRedoButtons = updateUndoRedoButtons;
+
     // Tag filtering is now centralized in pages.js
     // The following globals are provided by pages.js:
     //   window.getAllTags, window.updateTagFilterDropdown, window.applyFilters, window.applyTagFilter
@@ -557,6 +617,15 @@
 
         // Remove card button handler (includes event cleanup)
         function handleRemoveCard() {
+            // Save state for undo before destroying
+            try {
+                if (card._ctx && window.ChartCardContext?.serialize) {
+                    undoStack.push(window.ChartCardContext.serialize(card._ctx));
+                    redoStack.length = 0; // new deletion clears redo
+                    updateUndoRedoButtons();
+                }
+            } catch (_) {}
+
             try {
                 // Cleanup bound event listeners first
                 if (card._unbindEvents) {
