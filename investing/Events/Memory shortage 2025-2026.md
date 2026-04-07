@@ -444,7 +444,50 @@ Memory is #4 but still "top" — BofA flagged [[Micron]] specifically as trading
 
 ---
 
-*Updated 2026-03-31*
+---
+
+## TechStock01 Q1-Q2 2026 pricing data (April 2026)
+
+Revenue growth has gone parabolic — TrendForce revisions keep climbing:
+
+| Quarter | DRAM YoY | NAND YoY | Source |
+|---------|----------|----------|--------|
+| Q1 2026 | +210% (MU) / +240% (TF) | +170% (MU) / +220% (TF) | Micron actuals + TrendForce |
+| Q2 2026 | +350-380% (TF est.) | +420% (TF est.) | TrendForce, Micron guidance |
+
+QoQ pricing moves:
+
+| Quarter | DRAM QoQ | NAND QoQ |
+|---------|----------|----------|
+| Q1 2026 | +80% | +85-90% |
+| Q2 2026 | +60% | +70% |
+
+TrendForce forecast revisions since January 2026:
+- Q1 DRAM: originally +60% QoQ → now +90%+
+- Q1 NAND: originally +35% QoQ → now +55%+
+- 2026 total memory market growth: revised from 130% → **200%+**
+
+Micron Q2 FY2026 guidance (Mar-May): total revenue +260% YoY.
+
+### The Strait of Hormuz analogy
+
+TechStock01 comparison: "It's like closing down the Hormuz strait. Supply declines 20%. Price doubles. Demand must adjust — demand has to decline by 20% as there is 20% less supply." DRAM price has doubled in one year. Sharp hikes lead to demand destruction — IDC and others cutting PC, smartphone, consumer electronics forecasts. Cheaper devices are being priced out of memory.
+
+### The commodity-to-foundry structural question
+
+Three big questions about whether memory's economics are permanently changing:
+
+**1. Is memory still a commodity?** HBM is performance-sensitive with meaningful differences between suppliers — plus qualifications. HBM logic base die customization starts in 2027. The era of pure commodity may be ending.
+
+**2. Has the spot market died?** ~90% of PC/smartphone/server memory now sold on monthly contracts (vs. historically large spot volumes). HBM is entirely on long-term agreements (LTAs) with guaranteed volumes and prices. Co-designed by [[NVIDIA]] and [[SK Hynix]] — shared IP, exclusivities, "secrets." HBM is becoming a "foundry" product like [[TSMC]].
+
+**3. Should memory stocks re-rate?** If HBM delivers lower volatility, higher visibility, high switching costs, and pricing power, the case for TSMC-like multiples (~20x EPS) strengthens. Memory still trades at cyclical commodity discounts despite structural evidence of change.
+
+*Source: TechStock01 Substack (April 6, 2026)*
+
+---
+
+*Updated 2026-04-07*
 
 ## Related
 
