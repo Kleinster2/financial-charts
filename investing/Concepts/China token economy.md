@@ -63,6 +63,29 @@ Agentic AI workloads consume 10-100x more tokens than conversational chat. A sim
 
 ---
 
+## Competitive dynamics — the four-way cloud war
+
+Four players, four theories of victory, four chosen metrics:
+
+| | [[Volcano Engine]] | [[Alibaba Cloud]] | [[Tencent Cloud]] | [[Huawei Cloud]] |
+|---|---|---|---|---|
+| Strategy | Commodity tokens | Vertical integration | Neutral aggregator | Domestic hardware |
+| Chosen metric | Token volume | Total AI revenue | Platform reach | Sovereignty |
+| Cloud share | 13% revenue, 49% tokens | **~35%** | ~20% | #2-3, declining |
+| Revenue trend | Explosive (small base) | **+36%** | +22% | **-3.5%** external |
+
+**Volume vs value** (Volcano Engine vs Alibaba): The central rivalry. Volcano Engine has 49% of tokens but 13% of revenue. Alibaba generates ¥43.28B quarterly vs Volcano Engine's ¥10B annual *target*. Alibaba counters that private [[Qwen]] deployments are invisible to MaaS stats. On self-developed models, Qwen leads (17.7% vs Doubao 14.1%, Frost & Sullivan).
+
+**Distribution moat** (Tencent): WeChat's 1.3B MAU is the asymmetric bet. If models commoditize — Tencent's explicit thesis — value shifts to the platform routing demand. TokenHub is the App Store of inference: take a cut regardless of which model wins.
+
+**Huawei's paradox**: Should be the biggest beneficiary (makes the chips, runs the cloud, has government relationships). Instead, external cloud revenue *fell* while competitors surged. [[ByteDance]] and [[Alibaba]] order Huawei's [[Ascend]] chips but run their own clouds on top. Huawei is becoming the chip supplier to the token economy rather than the cloud operator of it.
+
+**Open-source as weapon**: [[Alibaba]]'s [[Qwen]] (1B+ downloads, 100K+ derivatives) starves MaaS-only competitors of private deployment market while creating a funnel back to Alibaba Cloud. Neither [[Volcano Engine]] nor [[Tencent Cloud]] controls a comparable open-source ecosystem.
+
+**Subsidy sustainability**: All four subsidize at different points. ByteDance subsidizes tokens (99.3% price cut). Alibaba subsidizes through free Qwen downloads. Tencent subsidized ¥1B in red packets. Government subsidizes power. When subsidies stop, whose users stay? Tencent arguably has strongest retention (WeChat lock-in), ByteDance weakest (users came for free tokens).
+
+---
+
 ## Token metric: what it captures vs what it misses
 
 **What daily token counts measure:** raw computational throughput — how much inference is running across China's AI infrastructure. It captures adoption velocity, infrastructure utilization, and the shift from experimental to production workloads.
@@ -115,3 +138,8 @@ Agentic AI workloads consume 10-100x more tokens than conversational chat. A sim
 ### Concepts
 - [[Agentic AI]] — 10-100x token multiplier vs chat
 - [[National Data Administration]] — China's token tracking bureaucracy
+
+### Cloud platforms
+- [[Alibaba Cloud]] — #1 China, full-stack integration, Token Hub
+- [[Tencent Cloud]] — #2-3, TokenHub aggregator, WeChat distribution
+- [[Huawei Cloud]] — #2-3, domestic hardware play, declining external revenue
