@@ -101,6 +101,18 @@ CXMT and [[YMTC]] removed from the US Pentagon's Chinese Military Companies blac
 
 ---
 
+## 2025 record revenue (CNBC, Apr 3)
+
+CXMT posted 2025 revenue of 55B yuan (~$8B) — a 130% YoY increase, driven by AI demand and the domestic self-sufficiency drive fueled by US [[export controls]]. Among the highest growth rates of any chip firm globally.
+
+Planning [[HBM|HBM3]] production in 2026, which would make CXMT the first Chinese company to produce high-bandwidth memory. IPO at ~$40B valuation (300B yuan) reportedly moving forward, with a $4.2B fundraising target.
+
+The revenue surge validates the bull case: export controls are restricting capacity expansion but domestic demand (AI, smartphones) is driving revenue growth on existing capacity. The question is whether the ~240K wafer/month ceiling can hold at this revenue trajectory.
+
+*Sources: CNBC (Apr 3, 2026), ainvest*
+
+---
+
 ## Investment case
 
 **Bull:**

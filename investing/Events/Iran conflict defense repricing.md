@@ -216,6 +216,24 @@ Same missiles planned for Philippines and Pacific island deployment to counter C
 
 ---
 
+## Kharg Island #2 — defense leads again (Apr 7, 2026)
+
+Second US strike on [[2026 Kharg Island attack|Kharg Island]] (50+ military targets) ahead of Trump's 8 PM ET deadline for Iran to reopen the [[Strait of Hormuz]]. Defense and energy stocks lead; broad market sells off.
+
+| Segment | Apr 7 move | Notes |
+|---------|------------|-------|
+| [[Palantir]] (PLTR) | +6% (~$147) | Defense AI. [[IRGC]] designates PLTR "legitimate target" — first named tech company. Maven AI used in Kharg targeting. |
+| [[Northrop Grumman]] (NOC) | +2-4% | B-21 involvement in strikes |
+| [[RTX]] (RTX) | +2-4% | Missiles, Patriot |
+| [[L3Harris]] (LHX) | +2-4% | EW, communications |
+| Energy — MPC, APA, DVN, VLO, COP | +3-4% | Oil $113-115 |
+| S&P 500 futures | -0.5% | Risk-off on deadline approach |
+| Nasdaq futures | -0.6% | Tech down on risk-off |
+
+Pattern: defense AI ([[Palantir]]) now leads the defense sector on Iran escalation — outperforming traditional primes. This inverts the Mar 2 pattern where PLTR showed "no Iran-driven move." The IRGC targeting designation paradoxically validates Palantir's centrality to the US military campaign.
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note

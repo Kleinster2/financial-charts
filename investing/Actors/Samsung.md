@@ -43,8 +43,9 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 | 2023 | $197B | $8B | $8B | $55 |
 | 2024 | $219B | $27B | $27B | $46 |
 | 2025E | $230B | $35B | $30B | $52 |
+| Q1 2026 | ~$100B | ~$43B | — | — |
 
-*Source: Company filings (converted from KRW at year-end FX). Stock price = year-end close (005930.KS in USD equivalent). 2023 was memory downturn.*
+*Source: Company filings (converted from KRW at year-end FX). Stock price = year-end close (005930.KS in USD equivalent). 2023 was memory downturn. Q1 2026 is preliminary (Apr 7).*
 
 ---
 
@@ -68,6 +69,16 @@ P5 facility (Pyeongtaek, Gyeonggi):
 - Focus: Advanced memory for AI
 
 Context: Korea back to \#2 in global chip equipment spending ($29.66B, +27.2% YoY).
+
+## Q1 2026 preliminary results (Apr 7)
+
+Record quarter. KRW 57.2T operating profit (~$43B) — 8x YoY, 41% above LSEG consensus of KRW 40.6T. Revenue KRW 133T (~$100B). [[HBM]] revenue tripled YoY, driven by HBM3E and HBM4 sales to [[NVIDIA]]. Stock +5% on the Korea Exchange.
+
+This is the highest quarterly operating profit in Samsung history, eclipsing the Q3 2018 memory cycle peak (KRW 17.6T) by 3.2x. The DS (Device Solutions) division led, confirming the [[Memory shortage 2025-2026|memory supercycle]] thesis.
+
+Risk factor: [[2026 Strait of Hormuz crisis|Iran conflict]] disrupting helium shipments critical to semiconductor manufacturing. If the conflict extends, Samsung and [[SK Hynix]] face potential fab disruption.
+
+*Sources: CNBC, SamMobile, Bloomberg (Apr 7, 2026)*
 
 ## Open questions
 
@@ -99,8 +110,11 @@ Context: Korea back to \#2 in global chip equipment spending ($29.66B, +27.2% Yo
 | Taylor investment | $44-50B (expanded from $17B) |
 | [[CHIPS Act]] | $6.4B |
 | Q4 2025 operating profit | KRW 20T+ (~$14B), 30% above consensus |
+| Q1 2026 operating profit | KRW 57.2T (~$43B), 8x YoY, 41% above consensus |
+| Q1 2026 revenue | KRW 133T (~$100B) |
+| Q1 2026 HBM revenue | Tripled YoY |
 
-*Updated 2026-02-12*
+*Updated 2026-04-07*
 
 ---
 

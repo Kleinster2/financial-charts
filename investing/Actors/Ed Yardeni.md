@@ -108,6 +108,18 @@ Tuesday's rally triggered by reports the US found "an exit ramp" from the Iran w
 
 ---
 
+## April 6, 2026 — "Next two days make or break" + tech entry point
+
+Sunday evening note reaffirming the bottom call ahead of Trump's Kharg Island strike / 8 PM Tuesday deadline. S&P 500 retreated 9.1% from Jan 27 record close; Yardeni says bottom was March 30. Year-end target: 7,700 (unchanged).
+
+Historical precedent: S&P 500 higher by 31-44% two years after past four major US military engagements. The frame: even if the Iran conflict worsens short-term, equity markets historically recover.
+
+Separately, called tech stocks an "attractive entry point" — Mag 7 forward P/E fell from ~31x to ~22x; IT sector down 13% since October high. Moved to market-weight on tech (from underweight). This is notable given his January "AI fatigue" call — the correction he anticipated has arrived and he's now buying into it.
+
+*Sources: CNBC (Apr 6, 2026); Bloomberg (Apr 6, 2026)*
+
+---
+
 ## AI fatigue call (Jan 2026)
 
 "I call it 'AI fatigue.' I'm tired of it and I suspect a lot of other people are wary of the whole issue."

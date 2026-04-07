@@ -299,6 +299,16 @@ Controversy: the Shajareh Tayyebeh school strike killed 170+ (mostly children). 
 
 ---
 
+## IRGC designates Palantir as "legitimate target" (Apr 7, 2026)
+
+[[IRGC]] officially declared [[Palantir]] a "legitimate target" for retaliatory measures — the first named technology company designated by Iran for retaliation. The designation follows Palantir's role as prime contractor for [[Project Maven]], the AI targeting platform used in [[Operation Epic Fury]] and the [[2026 Kharg Island attack|second Kharg Island strike]] (Apr 7, 50+ targets). PLTR +6% on the session despite the designation, trading at ~$147-150 (~$433B market cap), as the defense demand tailwind outweighed the threat.
+
+The designation creates a novel risk category: state-sponsored cyber/physical targeting of a defense AI contractor. Unlike traditional defense primes (which have long been adversary targets), Palantir's value is in its software and data — potentially more vulnerable to cyber operations than hardware manufacturers.
+
+*Sources: Barchart, NBC News (Apr 7, 2026)*
+
+---
+
 ## Analyst timeline
 
 | Date | Analyst / Firm | Action | Price target | Notes |
@@ -322,3 +332,5 @@ Controversy: the Shajareh Tayyebeh school strike killed 170+ (mostly children). 
 - [[Pentagon AI access dispute 2026]] — Anthropic designated supply-chain risk; Palantir must replace Claude in Maven
 - [[Pete Hegseth]] — Defense Secretary, issued supply-chain risk designation
 - [[Alex Karp]] — CEO, warned of potential "nationalization" if AI labs refuse military
+- [[IRGC]] — designated Palantir as "legitimate target" for retaliation (Apr 7, 2026)
+- [[2026 Strait of Hormuz crisis]] — Palantir's Maven AI used in Kharg Island strikes

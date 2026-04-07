@@ -35,6 +35,8 @@ SMIC is the test case for [[China]]'s semiconductor independence:
 | Metric | Value |
 |--------|-------|
 | 2024 revenue | ~$8B |
+| 2025 revenue | $9.3B (+16%, record) |
+| 2026 revenue (est.) | >$11B (LSEG) |
 | Global foundry share | ~6% |
 | Wafer capacity | ~800K 8" equivalent/month |
 | Fabs | Shanghai, Beijing, [[Shenzhen]], Tianjin |
@@ -112,6 +114,16 @@ Co-CEO Zhao Haijun warned AI data center capacity "has not been fully thought th
 
 ---
 
+## 2025 annual results — record revenue (CNBC, Apr 3)
+
+SMIC reported 2025 revenue of $9.3B, a 16% increase YoY and a new record, driven by AI demand and the domestic self-sufficiency drive. Revenue expected to top $11B in 2026 (LSEG estimates). Alongside [[ChangXin Memory|CXMT]] ($8B, +130%) and [[Hua Hong]], Chinese chip firms collectively posted record revenues in 2025 despite US export restrictions — validating [[China]]'s semiconductor localization strategy.
+
+The technology gap persists: SMIC and Hua Hong remain unable to manufacture the most advanced chips at scale without access to [[ASML]] EUV tools. But at mature nodes (28nm, 14nm) and with aggressive 7nm multi-patterning, revenue growth is accelerating faster than restrictions can constrain it.
+
+*Source: CNBC (Apr 3, 2026)*
+
+---
+
 ## What to watch
 
 - [ ] 5nm progress and yield reports
@@ -129,6 +141,7 @@ Co-CEO Zhao Haijun warned AI data center capacity "has not been fully thought th
 |--------|-------|
 | Ticker | 0981.HK (HK), 688981.SS (Shanghai) |
 | Market cap | ~$30B |
+| 2025 annual revenue | $9.3B (+16% YoY, record) |
 | Revenue (Q4 2025) | $2.49B (+12.8% YoY) |
 | Global foundry share | ~6% |
 | Gross margin | ~20% |
@@ -136,7 +149,7 @@ Co-CEO Zhao Haijun warned AI data center capacity "has not been fully thought th
 
 ---
 
-*Updated 2026-01-15*
+*Updated 2026-04-07*
 
 ## Related
 

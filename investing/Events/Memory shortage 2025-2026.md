@@ -487,6 +487,26 @@ Three big questions about whether memory's economics are permanently changing:
 
 ---
 
+## Samsung Q1 2026 preliminary (Apr 7)
+
+[[Samsung]] released Q1 2026 preliminary results — the strongest validation yet that memory is in supercycle territory.
+
+| Metric | Q1 2026 | vs Q1 2025 |
+|--------|---------|------------|
+| Revenue | KRW 133T (~$100B) | — |
+| Operating profit | KRW 57.2T (~$43B) | **8x YoY** |
+| LSEG consensus (OP) | KRW 40.6T | Beat by 41% |
+| HBM revenue | — | **Tripled YoY** |
+| Stock reaction | +5% (Korea Exchange) | — |
+
+The DS (Device Solutions) division led, powered by [[HBM|HBM3E]] and HBM4 sales to [[NVIDIA]] and other AI accelerator customers. This is the highest quarterly operating profit in Samsung's history, eclipsing the Q3 2018 memory peak (KRW 17.6T).
+
+Helium supply risk: the [[2026 Strait of Hormuz crisis|Iran conflict]] has disrupted shipments of materials vital to semiconductor manufacturing, including helium. Samsung and [[SK Hynix]] face potential manufacturing disruption if the conflict extends. Helium is critical for cooling during advanced chip fabrication.
+
+*Sources: CNBC, SamMobile, Bloomberg (Apr 7, 2026)*
+
+---
+
 *Updated 2026-04-07*
 
 ## Related

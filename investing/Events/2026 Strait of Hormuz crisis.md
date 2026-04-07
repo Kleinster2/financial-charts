@@ -57,29 +57,34 @@ The 2026 Strait of Hormuz crisis is an ongoing disruption to global oil and LNG 
 - Apr 2: Brent at $112.96, WTI at $111.54.
 - Apr 3: French ship crosses the strait. [[Paul Sankey]] on [[Bloomberg]]: oil market stress threatening shortages in [[Asia]] and [[Europe]].
 - Apr 4: Trump reasserts 48-hour ultimatum: "face hell" if strait not opened. [[Sergey Vakulenko]] analysis: [[Ukraine]] drone campaign damaged [[Primorsk]] (8/18 tanks destroyed, ~$200M) and [[Ust-Luga]] (12 tanks across 3 facilities) — Russian Baltic export buffer under pressure.
-- Apr 5 (Easter): Trump posts on Truth Social: *"Open the F---in' Strait, you crazy bastards, or you'll be living in Hell."* Deadline: **Tuesday Apr 8, 8 PM ET** ("Power Plant Day and Bridge Day"). Fox News: *"I'm considering blowing everything up and taking over the oil."* WSJ: *"They're going to lose every power plant."*
+- Apr 5 (Easter): Trump posts on Truth Social: *"Open the F---in' Strait, you crazy bastards, or you'll be living in Hell."* Deadline: **Tuesday Apr 7, 8 PM ET** ("Power Plant Day and Bridge Day"). Fox News: *"I'm considering blowing everything up and taking over the oil."* WSJ: *"They're going to lose every power plant."*
 - Apr 5: Iran rejects ultimatum. Seyyed Mehdi Tabatabaei (Deputy Comms): *"obscenities and nonsense out of sheer desperation."* Strait reopens only after reparations + "new legal regime" with transit fees. [[Ali Akbar Velayati]] (adviser to [[Mojtaba Khamenei]]) threatens closure of [[Bab al-Mandab]] — second chokepoint front. Iran's military warns next retaliatory operations "much more devastating."
 - Apr 5: Iranian drones strike [[Kuwait]] — Shuwaikh Oil Sector Complex, [[Kuwait National Petroleum Company]] and Petrochemical Industries Co. facilities, Kuwait Petroleum HQ (set ablaze), 2 power/water desalination plants. No casualties. Kuwait oil exports remain halted. [[Bahrain]] oil storage also hit same day.
 - Apr 5: [[Oman]]-[[Iran]] meeting (undersecretary level) on transit protocol for smooth passage. Tehran drafting protocol with Muscat. Iran permitted [[Iraq]]i ships through, potentially adding ~3 mb/d.
 - Apr 5: [[Macron]] and South Korean President [[Lee Jae Myung]] agree to coordinate strait opening.
 - Apr 5: F-15E pilot rescued after 24+ hours — Delta Force and SEAL Team Six extraction from 7,000-ft ridgeline in southwestern Iran.
+- Apr 6: Markets rally — S&P 500 posts fourth consecutive gain on last-minute ceasefire hopes. Oil dips intraday on negotiation optimism.
+- Apr 7: **Second [[2026 Kharg Island attack|Kharg Island strike]]** — US strikes 50+ military targets on Kharg Island (first strike was Mar 13, 90+ sites). Oil infrastructure again spared. Multiple bridges struck across Iran; railway bridge in Kashan, [[Isfahan]] province hit (2 killed). Blasts reported in [[Damascus]]; Israeli air defenses intercept Iranian missiles.
+- Apr 7: Trump on Truth Social: *"A whole civilization will die tonight never to be brought back again. I don't want that to happen, but it probably will."* Threatens nuclear facilities, power plants, attacks every four hours. Deadline: **8 PM ET tonight**.
+- Apr 7: [[IRGC]] counter-threat: will target infrastructure of the US and allies, "aiming to deprive them of access to the region's oil and gas for years to come." IRGC designates [[Palantir]] as a "legitimate target" for retaliatory measures — first named tech company targeted.
+- Apr 7: WTI $113.58-$115.21/bbl. S&P 500 futures -0.5%, Nasdaq -0.6%. Defense stocks lead (PLTR +6%, [[Northrop Grumman|NOC]]/[[RTX]]/[[L3Harris|LHX]] +2-4%). Energy names up 3-4% ([[Marathon Petroleum|MPC]], [[APA Corporation|APA]], [[Devon Energy|DVN]], [[Valero|VLO]], [[ConocoPhillips|COP]]).
 
 ## Quantitative impact
 
 | Metric | Pre-crisis | Peak disruption | As of early April |
 |--------|-----------|----------------|-------------------|
 | Strait oil flow | ~20 mb/d | ~0 (Mar 2-4) | Trickle (selective) |
-| Brent crude | ~$75/bbl | $126/bbl (Mar 8) | ~$113/bbl |
-| Dubai crude | ~$75/bbl | $166/bbl (Mar 19, ATH) | ~$115/bbl |
+| Brent crude | ~$75/bbl | $126/bbl (Mar 8) | ~$114/bbl (Apr 7) |
+| Dubai crude | ~$75/bbl | $166/bbl (Mar 19, ATH) | ~$115/bbl (Apr 7) |
 | EU natural gas | ~30/MWh | 60/MWh (Mar 3) | Elevated |
 | War-risk insurance | 0.125% ship value | 0.2-0.4% (4-6x) | Elevated |
 | Iraqi production | 4.3M bbl/d | 1.3M bbl/d (-70%) | Partially restored |
 | Saudi production | 10M bbl/d | 8M bbl/d (-20%) | ~8M bbl/d |
-| Ship attacks (cumulative) | — | 28 incidents through Apr 4 | Ongoing |
+| Ship attacks (cumulative) | — | 28+ incidents through Apr 7 | Ongoing |
 | Crew killed/missing | — | 12+ | — |
 | Ships abandoned | — | 7 | — |
 | IEA strategic reserve release | — | 400M barrels (Mar 11) | Second release under consideration |
-| US gasoline (national avg) | ~$2.98/gal | — | $4.11/gal (Apr 5, AAA) |
+| US gasoline (national avg) | ~$2.98/gal | — | $4.11/gal (Apr 5, [[AAA]]) |
 | Transit volume vs pre-war | 100% | ~0% (Mar 2-4) | Down 93% |
 | OECD inventory trajectory | — | — | Operational minimum (~842M bbl) by late Apr (JPM) |
 

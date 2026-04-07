@@ -102,6 +102,16 @@ S&P tactical floor at 6,300. Gold-to-equity ratio +12% since conflict
 
 ---
 
+## April 6, 2026 — "Still a bull market" (MS podcast)
+
+"Thoughts on the Market" podcast (Apr 6): Maintains this is still a bull market that started April 2025 after the 2022-25 rolling recession. S&P 500 forward P/E declined 18% during pullback — "rare outside of a recession or Fed tightening cycle." Discusses late-stage correction positioning.
+
+This is the third consecutive weekly reaffirmation of his "correction nearing end" thesis (Mar 25 → Mar 30 → Apr 6). Each iteration has been more explicitly bullish. The Apr 7 Kharg Island strike and Trump's 8 PM deadline are the immediate test — if escalation forces a sharp sell-off through Wilson's 6,300 floor, the bull-market-correction framing comes under pressure.
+
+*Source: Morgan Stanley podcast (Apr 6, 2026); CapitalAI Daily*
+
+---
+
 ## Related
 
 - [[Morgan Stanley]] · [[S&P 500]] · [[Earnings Estimates]]
