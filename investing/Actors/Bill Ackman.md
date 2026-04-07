@@ -127,6 +127,7 @@ aliases: [William Ackman, Ackman]
 | COVID hedges (2020) | $2.6B profit in weeks |
 | [[Netflix]] (2022) | Quick loss, exited |
 | GSE (2025+) | In progress |
+| [[Pershing Square UMG takeover bid\|UMG takeover bid]] (2026) | Proposed — €55.8B ($64.4B) |
 
 Mixed record but capable of massive wins.
 
@@ -149,9 +150,9 @@ See [[Pershing Square]] for full details.
 | Fund | [[Pershing Square]] |
 | Style | Concentrated activist |
 | AUM | $30.7B (Dec 2025) |
-| Current focus | GSE privatization, NYSE IPO |
+| Current focus | GSE privatization, NYSE IPO, UMG takeover bid |
 
-*Created 2026-01-15 · Updated 2026-03-10*
+*Created 2026-01-15 · Updated 2026-04-07*
 
 ---
 
@@ -163,4 +164,5 @@ See [[Pershing Square]] for full details.
 - [[Freddie Mac]] — core position
 - [[FHFA]] — regulator
 - [[John Paulson]] — fellow GSE investor
+- [[Universal Music Group]] — takeover bid target (Apr 2026)
 - [[Howard Hughes Holdings]] — platform acquisition target

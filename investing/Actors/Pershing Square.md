@@ -114,7 +114,27 @@ London-listed closed-end fund, bulk of AUM. The NAV discount has been a persiste
 | **[[Netflix]]** | Quick flip win |
 | **Herbalife** | Short, lost to [[Carl Icahn]] (~$1B loss) |
 | **Valeant** | Disaster (~$4B loss) |
-| **Universal Music SPAC** | Failed |
+| **Universal Music SPAC** | Failed (2022) |
+| **[[Pershing Square UMG takeover bid\|UMG takeover bid]]** | Proposed (Apr 2026) |
+
+---
+
+## UMG takeover bid (Apr 7, 2026)
+
+Pershing Square submitted a non-binding takeover proposal for [[Universal Music Group]], valuing the company at ~€55.8B ($64.4B) — a 78% premium to UMG's Apr 2 close. The cash-and-stock offer (€5.05/share cash + 0.77 shares of New UMG) would merge UMG with Pershing Square SPARC Holdings into a NYSE-listed, US GAAP-reporting entity eligible for S&P 500 inclusion.
+
+| Detail | Value |
+|--------|-------|
+| Offer price | €30.40/share |
+| Enterprise value | ~€55.8B ($64.4B) |
+| Structure | Cash + stock merger with SPARC Holdings |
+| Proposed chairman | [[Michael Ovitz]] |
+
+**History:** Pershing Square acquired ~10% of UMG in 2021, sold 2.7% in Mar 2025 (~$1.4B), Ackman resigned from UMG board May 2025. Current stake: >4.5%.
+
+**Thesis:** UMG trades at deep discount due to [[Bolloré Group]] overhang (~18% stake), postponed US listing, and suboptimal shareholder communication. A US listing would unlock liquidity and index inclusion.
+
+See [[Pershing Square UMG takeover bid]] for full details.
 
 ---
 
@@ -153,5 +173,9 @@ London-listed closed-end fund, bulk of AUM. The NAV discount has been a persiste
 - [[Third Point]] — peer
 - [[Carl Icahn]] — rival (Herbalife)
 - [[Fannie Mae]] — Ackman's GSE trade
+- [[Universal Music Group]] — takeover bid target (Apr 2026)
+- [[Bolloré Group]] — key UMG shareholder
+- [[Michael Ovitz]] — proposed New UMG chairman
+- [[Spotify]] — stake funding UMG bid cash component
 
-*Created 2026-01-16 · Updated 2026-03-10*
+*Created 2026-01-16 · Updated 2026-04-07*

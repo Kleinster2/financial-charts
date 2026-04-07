@@ -19,9 +19,13 @@ tags:
 |--------|-------|
 | Known for | CAA co-founder, Disney president |
 | Kalanick connection | Scour board member |
+| UMG bid | Proposed chairman under [[Pershing Square]] takeover |
 
 ---
 
 ## Related
 
 - [[Travis Kalanick]] — Scour connection
+- [[Pershing Square]] — proposed chairman of New UMG
+- [[Universal Music Group]] — proposed chairman under takeover bid
+- [[Bill Ackman]] — Pershing Square founder

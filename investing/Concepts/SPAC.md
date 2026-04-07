@@ -181,7 +181,7 @@ Former [[Citigroup]] investment banker. Churchill IV merged with [[Lucid]] (now 
 
 ### [[Bill Ackman]] ([[Pershing Square]])
 
-Raised $4B — the largest SPAC ever (Pershing Square Tontine Holdings). Attempted to buy 10% of Universal Music Group; SEC objected. Discussions with [[Airbnb]] and [[Stripe]] failed. Liquidated Jul 2022, returned $4B. Proposed "SPARC" structure (investors commit capital only after target announced) — regulatorily uncertain.
+Raised $4B — the largest SPAC ever (Pershing Square Tontine Holdings). Attempted to buy 10% of Universal Music Group; SEC objected. Discussions with [[Airbnb]] and [[Stripe]] failed. Liquidated Jul 2022, returned $4B. Proposed "SPARC" structure (investors commit capital only after target announced) — regulatorily uncertain. In Apr 2026, Pershing Square SPARC Holdings became the vehicle for a [[Pershing Square UMG takeover bid|€55.8B takeover bid for UMG]].
 
 ---
 
