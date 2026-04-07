@@ -79,6 +79,27 @@ Tencent is [[China]]'s largest company by market cap and a major AI investor:
 
 ---
 
+## TokenHub — Neutral Aggregator Strategy
+
+On March 27, 2026, Tencent rebranded its MaaS platform as "TokenHub" and launched a unified billing system — the "Token Plan" — offering [[Hunyuan]], [[DeepSeek]], and [[MiniMax]] models through a single API. Where [[ByteDance]] plays commodity pricing and [[Alibaba]] plays vertical integration, Tencent's bet is the neutral aggregator: it doesn't need to win the model race if it controls the distribution chokepoint.
+
+SVP Dowson Tong framed the logic: "The capability gap between leading models is narrowing. What matters now is who can engineer models into reliable production systems." Model commoditization favors the platform with the largest captive audience — and WeChat's 1.3B+ MAU is unmatched.
+
+Tencent is doubling AI investment to $5.2B. Consumer traction is already visible: the Yuanbao AI assistant reached 50M DAU and 114M MAU by February 2026. Combined with WeChat integration, Tencent's distribution advantage in the [[China token economy|token economy]] is structural.
+
+| Metric | Value |
+|--------|-------|
+| TokenHub rebrand | Mar 27, 2026 |
+| Token Plan models | [[Hunyuan]] + [[DeepSeek]] + [[MiniMax]] (single API) |
+| AI investment | **$5.2B** (doubling) |
+| Yuanbao DAU | **50M** (Feb 2026) |
+| Yuanbao MAU | **114M** (Feb 2026) |
+| Strategy | Neutral aggregator — model-agnostic distribution |
+
+See [[China token economy]].
+
+---
+
 ## [[Gaming]] AI
 
 **Unique angle:**
@@ -142,8 +163,12 @@ Tencent is also a major tech investor, not just operator.
 | HQ | [[Shenzhen]], [[China]] |
 | WeChat MAU | 1.3B+ |
 | Cloud share | \#2 [[China]] (~20%) |
+| AI model | [[Hunyuan]] (via TokenHub) |
+| AI investment | **$5.2B** (doubling) |
+| Yuanbao DAU | **50M** (Feb 2026) |
+| Yuanbao MAU | **114M** (Feb 2026) |
 
-*Updated 2026-01-01*
+*Updated 2026-04-07*
 
 ---
 
@@ -154,7 +179,11 @@ Tencent is also a major tech investor, not just operator.
 
 ### Competitors/Peers
 - [[Alibaba]] — competitor (cloud \#1 vs \#2)
-- [[ByteDance]] — competitor ([[Doubao]] vs Hunyuan)
+- [[ByteDance]] — competitor ([[Doubao]] vs Hunyuan, [[Volcano Engine]] vs TokenHub)
 - [[Baidu]] — competitor ([[China]] AI)
+- [[DeepSeek]] — model partner (available via TokenHub)
+- [[MiniMax]] — model partner (available via TokenHub)
 - [[Export controls]] — constraint (GPU access limited)
 - [[AI hyperscalers]] — category ([[China]] tier)
+- [[China token economy]] — neutral aggregator strategy
+- [[Agentic AI]] — token demand multiplier

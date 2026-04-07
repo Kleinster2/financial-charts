@@ -87,6 +87,27 @@ The buyer, [[Savvy Games Group]] ([[Saudi Arabia]]'s [[Public Investment Fund]] 
 
 ---
 
+## Volcano Engine — Token Economy Strategy
+
+[[Volcano Engine]] is ByteDance's cloud platform, and it has become the backbone of China's [[China token economy|token economy]]. ByteDance restructured its cloud go-to-market around Model-as-a-Service (MaaS) — sales commissions now pay more for selling MaaS than traditional cloud infrastructure, making token delivery the primary product rather than compute.
+
+The growth trajectory is staggering: daily token consumption went from 120B at Volcano Engine's MaaS launch (May 2024) to 120T by April 2026 — a 1,000x increase in under two years. ByteDance is one of only three companies globally past 100T daily inference tokens (alongside [[OpenAI]] and [[Google]]). Individual user token consumption grew 16x in a single month as agent frameworks proliferated — agentic workloads consume 10-100x more tokens than conversational chat.
+
+IDC H1 2025 data put Volcano Engine at 49.2% MaaS market share by token volume, dwarfing [[Alibaba]] Cloud (27%) and [[Baidu]] (17%). The MaaS revenue target for 2026 is above ¥10B, already raised twice. ByteDance kicked off the pricing war in May 2024 with a 99.3% price cut on Doubao Pro-32K — from ¥0.12 to ¥0.0008 per 1K tokens — commoditizing inference to drive volume.
+
+| Metric | Value |
+|--------|-------|
+| Daily tokens (Apr 2026) | **120T** |
+| Growth | 1,000x since May 2024 launch |
+| MaaS market share (IDC H1 2025) | **49.2%** |
+| 2026 MaaS revenue target | >¥10B (raised twice) |
+| Doubao Pro-32K price (post-cut) | ¥0.0008/1K tokens (was ¥0.12) |
+| Global 100T+ daily inference club | OpenAI, Google, ByteDance |
+
+The bet: agent workloads are the volume multiplier. Whoever controls token delivery infrastructure at the lowest marginal cost holds the structural advantage in China's AI economy. ByteDance is playing the commodity game — flood the market with cheap tokens, capture distribution, monetize the ecosystem. See [[China token economy]].
+
+---
+
 ## TikTok situation
 
 US ban/divestiture:
@@ -264,6 +285,11 @@ Irony: ByteDance's [[Seedance]] pirates American IP while its [[TikTok]] US oper
 - [[CapCut]] — Video editing
 - Lark — Enterprise collaboration
 
+### Cloud / AI
+- [[Volcano Engine]] — MaaS platform (120T daily tokens, 49.2% market share)
+- [[China token economy]] — ByteDance as commodity pricing leader
+- [[Agentic AI]] — token demand multiplier (10-100x vs chat)
+
 ### Suppliers
 - [[NVIDIA]] — GPU supplier ($14B order)
 - [[SK Hynix]] — [[HBM]] supplier
@@ -272,6 +298,7 @@ Irony: ByteDance's [[Seedance]] pirates American IP while its [[TikTok]] US oper
 - [[Export controls]] — constraint (H200 only, no Blackwell)
 - [[China]] — geographic context
 - [[Alibaba]] — competitor (China AI/cloud)
+- [[Tencent]] — competitor (TokenHub vs Volcano Engine)
 - [[AI hyperscalers]] — peer category
 - [[Memory shortage 2025-2026]] — demand driver
 - [[Long memory]] — thesis ([[HBM]] demand)

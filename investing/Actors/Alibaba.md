@@ -122,6 +122,25 @@ Alibaba integrating its services into Qwen app to create one-stop AI platform:
 
 ---
 
+## Alibaba Token Hub
+
+CEO Eddie Wu elevated AI token production and distribution to a first-tier business group — "Alibaba Token Hub" — signaling that the [[China token economy|token economy]] is now a core strategic pillar, not a cloud add-on. The restructuring vertically integrates [[Alibaba]]'s entire AI stack: [[Qwen]] model lab → [[Alibaba]] Cloud → enterprise distribution → proprietary silicon ([[Zhenwu 810E]], [[XuanTie C950]]).
+
+Cloud AI revenue has posted triple-digit growth for 10 consecutive quarters (as of Q1 2026), and MaaS revenue is projected to reach 30%+ of total cloud income. The vertical integration play is distinct from [[ByteDance]]'s commodity pricing strategy — Alibaba owns the full stack from chip to model to distribution, reducing dependency on [[NVIDIA]] GPUs and controlling margins at every layer.
+
+The open-source [[Qwen]] strategy feeds this: by giving away the model, Alibaba drives IaaS demand (developers need cloud to run Qwen at scale), while MaaS-only competitors (those without their own cloud) get starved of the infrastructure layer. It's the AWS playbook applied to AI tokens — commoditize the complement.
+
+| Metric | Value |
+|--------|-------|
+| MaaS share of cloud revenue (projected) | **30%+** |
+| Cloud AI growth streak | **10 consecutive quarters** of triple-digit growth |
+| Vertical stack | Model ([[Qwen]]) → Cloud → Enterprise → Silicon ([[Zhenwu 810E]]) |
+| Strategy vs ByteDance | Full-stack integration vs commodity pricing |
+
+See [[China token economy]].
+
+---
+
 ## Qwen executive exodus (Mar 2026)
 
 Three senior [[Qwen]] executives have departed in 2026, raising questions about leadership stability at Alibaba's most strategically important AI division:
@@ -370,10 +389,14 @@ See [[Wearable AI]] for competitive landscape.
 - [[Alipay]] — payments (1.3B users, Ant Group)
 - [[Cainiao]] — logistics
 
+### Cloud / AI
+- [[China token economy]] — Alibaba Token Hub, vertical integration strategy
+- [[Agentic AI]] — Qwen app integrating Taobao, Alipay, Fliggy (Jan 2026)
+
 ### Competitors
-- [[ByteDance]] — competitor ([[Doubao]] has 159M MAU vs Qwen's 100M)
+- [[ByteDance]] — competitor ([[Doubao]] has 159M MAU vs Qwen's 100M; [[Volcano Engine]] MaaS leader)
 - [[DeepSeek]] — competitor (Qwen vs R1)
-- [[Tencent]] — competitor (WeChat super app, similar agentic potential)
+- [[Tencent]] — competitor (WeChat super app, TokenHub neutral aggregator)
 - [[Hangzhou]] — headquarters city
 - [[Export controls]] — constraint on GPU access
 - [[China]] — geographic context
@@ -381,4 +404,3 @@ See [[Wearable AI]] for competitive landscape.
 - [[AI hyperscalers]] — peer category
 - [[Wearable AI]] — DingTalk A1 hardware play
 - [[RISC-V]] — XuanTie chips via T-Head, China silicon sovereignty play
-- [[Agentic AI]] — Qwen app integrating Taobao, Alipay, Fliggy (Jan 2026)
