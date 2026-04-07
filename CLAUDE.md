@@ -41,7 +41,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 | Folder | Contents |
 |--------|----------|
 | `Actors/` | Companies, orgs, people, **countries** (not Regions). See `India.md` for hub template. |
-| `Products/` | Things made by Actors (chips, models, drugs). No agency — parent decides. See `[[Linking and hierarchy]]`. |
+| `Products/` | Things made by Actors (chips, models, drugs). No agency — parent decides. Every Product requires a parent Actor note. Don’t merge companies into product notes even if the company is small, acquired, or subsidiary — the taxonomy doesn’t care about salience. See `[[Linking and hierarchy]]`. |
 | `Infrastructure/` | Fixed physical assets enabling trade/energy flows: straits, pipelines, terminals. |
 | `Assets/` | Securities notes — tradeable instruments, price history, charts. See `docs/vault-note-guide.md`. |
 | `Concepts/` | Ideas, frameworks, technologies. |
