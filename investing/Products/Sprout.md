@@ -1,5 +1,5 @@
 ---
-aliases: [Fauna Robotics, Fauna]
+aliases: []
 ---
 #product #robotics #humanoid #amazon
 
@@ -21,19 +21,9 @@ aliases: [Fauna Robotics, Fauna]
 
 ---
 
-## Fauna Robotics
+## Context
 
-| Metric | Value |
-|--------|-------|
-| Founder | Josh Merel (ex-[[Meta]], ex-[[Google]] DeepMind) |
-| HQ | New York City |
-| Founded | ~2024 |
-| Acquired | March 24, 2026 by [[Amazon]] |
-| Early customers | [[Disney]], [[Hyundai]] division |
-| VC-backed | Yes (investors undisclosed) |
-| Mission | "Build capable, safe, and fun robots for everyone" |
-
-Sprout is positioned as a developer platform — "the development platform we always wished existed" — not a finished consumer product. The acquisition gives [[Amazon]] a humanoid robotics team and platform after [[Astro]]'s struggles with the wheeled home robot approach.
+Built by [[Fauna Robotics]] (NYC, founded ~2024, Josh Merel ex-Meta/DeepMind). Acquired by [[Amazon]] March 24, 2026. Positioned as a developer platform — "the development platform we always wished existed" — not a finished consumer product. Early customers: [[Disney]], [[Hyundai]] division. The acquisition gives Amazon a humanoid robotics team after [[Astro]]'s struggles.
 
 ---
 
