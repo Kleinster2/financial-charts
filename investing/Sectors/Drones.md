@@ -211,9 +211,22 @@ SpektreWorks is private, ~5-15 employees, ~$2M pre-LUCAS revenue. Not investable
 - [[AVIC]] — state-owned, Wing Loong MALE/HALE family (688297.SS)
 - [[Shahed-136]] — Iranian loitering munition (comparator class)
 
+### Maritime/Surface
+- [[Saronic]] — autonomous surface vessels for US Navy ($9.25B, 7 hull classes)
+- [[Exail Technologies]] — European MCM drones (K-STER C, Inspector USV, DriX)
+
+### Counter-drone
+- [[Counter-UAS]] — detection, defeat, directed energy market
+- [[Dedrone]] — airspace security (now [[Axon]])
+- [[Epirus]] — Leonidas high-power microwave
+
+### Ground
+- [[Unmanned ground vehicles]] — military UGVs, autonomy software
+
 ### Context
 - [[Aerospace]] — parent sector
 - [[Defense]] — military drone applications
 - [[Logistics]] — cargo drone use case
+- [[Collaborative Combat Aircraft]] — CCA/loyal wingman programs
 - [[Ukraine war]] — drone warfare lessons
 - [[China defense]] — Chinese military UAV development

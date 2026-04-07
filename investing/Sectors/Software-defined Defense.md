@@ -40,7 +40,7 @@ Defense companies where the core value is software and AI, not hardware manufact
 | [[Anduril]] | ~$60B (Series H) | Autonomous systems, counter-drone | Lattice OS |
 | [[Shield AI]] | $5.3B | Autonomous aircraft | Hivemind AI pilot |
 | [[Skydio]] | ~$2.2B | Autonomous drones | Skydio X10 |
-| [[Saronic]] | ~$1.5B | Autonomous surface vessels | USVs |
+| [[Saronic]] | ~$9.25B | Autonomous surface vessels | USVs. $1.75B Series D (Mar 2026), $392M Navy OTA |
 
 ### Private — software/AI
 
@@ -214,9 +214,13 @@ Primes have distribution (gov't relationships). Startups have technology. Expect
 - [[Shield AI]] — AI pilot
 - [[Palantir]] — data/AI platform
 - [[Skydio]] — autonomous drones
+- [[Saronic]] — autonomous surface vessels ($9.25B)
 
 **Concepts:**
 - [[Drone warfare]] — attritable, Ukraine lessons
+- [[Counter-UAS]] — detection, defeat, directed energy
+- [[Collaborative Combat Aircraft]] — CCA/loyal wingman programs
+- [[Unmanned ground vehicles]] — ground domain autonomy
 - [[AI agents]] — autonomous systems context
 - [[Agentic AI]] — broader AI autonomy trend
 

@@ -155,6 +155,10 @@ Every drone capability creates counter-drone demand:
 - [[Long defense AI]] — thesis overlap
 - [[LUCAS]] — first US long-range loitering munition in combat ($35K, [[SpektreWorks]])
 - [[SpektreWorks]] — LUCAS manufacturer (Phoenix, AZ, private)
+- [[Counter-UAS]] — the mirror image: detection, defeat, directed energy
+- [[Collaborative Combat Aircraft]] — CCA/loyal wingman (largest US drone procurement program)
+- [[Unmanned ground vehicles]] — ground domain parallel (Ukraine proving ground)
+- [[Saronic]] — autonomous surface vessels (maritime domain)
 
 ---
 
