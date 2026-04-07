@@ -29,19 +29,27 @@ The pricing collapse started in May 2024 when [[ByteDance]] cut [[Doubao]] Pro-3
 
 ---
 
-## Three corporate strategies
+## Four corporate strategies
 
 ### ByteDance — Commodity pricing play
 
-[[Volcano Engine]] is the market leader: 120T daily tokens by April 2026, 49.2% MaaS market share (IDC H1 2025). ByteDance restructured cloud sales commissions to pay more for MaaS than traditional infrastructure — making token delivery the primary product. The 99.3% price cut was intentional: flood the market, capture distribution, monetize the ecosystem around it. MaaS revenue target for 2026: above ¥10B (raised twice). One of only three companies globally past 100T daily inference (with [[OpenAI]] and [[Google]]).
+[[Volcano Engine]] is the market leader: 120T daily tokens by April 2026, 49.2% MaaS market share (IDC H1 2025). ByteDance restructured cloud sales commissions to pay more for MaaS than traditional infrastructure — making token delivery the primary product. The 99.3% price cut was intentional: flood the market, capture distribution, monetize the ecosystem around it. MaaS revenue target for 2026: above ¥10B (raised twice). One of only three companies globally past 100T daily inference (with [[OpenAI]] and [[Google]]). See [[Volcano Engine]].
 
 ### Alibaba — Vertical integration play
 
-CEO Eddie Wu created "Alibaba Token Hub" as a first-tier business group, vertically integrating the entire AI stack: [[Qwen]] model lab → [[Alibaba]] Cloud → enterprise distribution → proprietary silicon ([[Zhenwu 810E]], [[XuanTie C950]]). Cloud AI revenue has posted triple-digit growth for 10 consecutive quarters. MaaS projected to reach 30%+ of total cloud income. The open-source [[Qwen]] strategy drives IaaS demand — developers need Alibaba Cloud to run Qwen at scale — while starving MaaS-only competitors of the infrastructure layer.
+CEO Eddie Wu created "Alibaba Token Hub" as a first-tier business group, vertically integrating the entire AI stack: [[Qwen]] model lab → [[Alibaba Cloud]] → enterprise distribution → proprietary silicon ([[Zhenwu 810E]], [[XuanTie C950]]). Cloud AI revenue has posted triple-digit growth for 10 consecutive quarters. MaaS projected to reach 30%+ of total cloud income. The open-source [[Qwen]] strategy drives IaaS demand — developers need Alibaba Cloud to run Qwen at scale — while starving MaaS-only competitors of the infrastructure layer. See [[Alibaba Cloud]].
 
 ### Tencent — Neutral aggregator play
 
-On March 27, 2026, [[Tencent]] rebranded its MaaS platform as "TokenHub" and launched the "Token Plan" — unified billing for [[Hunyuan]], [[DeepSeek]], and [[MiniMax]] models via a single API. SVP Dowson Tong: "The capability gap between leading models is narrowing. What matters now is who can engineer models into reliable production systems." Tencent doesn't need to win the model race if it controls the distribution chokepoint — WeChat's 1.3B+ MAU. Doubling AI investment to $5.2B. Yuanbao AI assistant: 50M DAU, 114M MAU (February 2026).
+On March 27, 2026, [[Tencent]] rebranded its MaaS platform as "TokenHub" and launched the "Token Plan" — unified billing for [[Hunyuan]], [[DeepSeek]], and [[MiniMax]] models via a single API. SVP Dowson Tong: "The capability gap between leading models is narrowing. What matters now is who can engineer models into reliable production systems." Tencent doesn't need to win the model race if it controls the distribution chokepoint — WeChat's 1.3B+ MAU. Doubling AI investment to $5.2B. Yuanbao AI assistant: 50M DAU, 114M MAU (February 2026). See [[Tencent Cloud]].
+
+### Huawei — Domestic hardware stack play
+
+[[Huawei Cloud]] is the sovereignty bet: the only major Chinese cloud built entirely on domestic hardware ([[Ascend]] 910C, Kunpeng). Zero US dependency. Government and SOE customers where security mandates override price competition — State Grid, Chinese Academy of Sciences, military applications. But external cloud revenue *fell* 3.5% in 2025 while [[Alibaba Cloud]] grew 36%. The token economy rewards speed and developer velocity; Huawei's telecom DNA rewards reliability and security. [[ByteDance]] and [[Alibaba]] order Huawei's chips but run their own clouds on top — Huawei is becoming the chip supplier to the token economy rather than the cloud operator of it. Internationally, Huawei leverages telecom incumbency in SEA, Middle East, and Africa. See [[Huawei Cloud]].
+
+### Baidu — Productized enterprise AI
+
+[[Baidu]] holds 17% MaaS market share (IDC H1 2025) and takes a different approach: revenue from productized, industry-tailored AI solutions rather than raw token volume or cloud infrastructure. Claims first place in both contract volume and value for large model projects in H1 2025. Core strengths: [[Ernie]] model family, autonomous driving ([[Apollo Go]]), search (6B+ daily queries), and the Qingduo AI creative platform (2,000+ ad creatives/hour). Baidu's bet is that enterprise AI value accrues to solutions, not infrastructure — the integrator rather than the platform.
 
 ---
 
@@ -83,6 +91,18 @@ Four players, four theories of victory, four chosen metrics:
 **Open-source as weapon**: [[Alibaba]]'s [[Qwen]] (1B+ downloads, 100K+ derivatives) starves MaaS-only competitors of private deployment market while creating a funnel back to Alibaba Cloud. Neither [[Volcano Engine]] nor [[Tencent Cloud]] controls a comparable open-source ecosystem.
 
 **Subsidy sustainability**: All four subsidize at different points. ByteDance subsidizes tokens (99.3% price cut). Alibaba subsidizes through free Qwen downloads. Tencent subsidized ¥1B in red packets. Government subsidizes power. When subsidies stop, whose users stay? Tencent arguably has strongest retention (WeChat lock-in), ByteDance weakest (users came for free tokens).
+
+**Likely resolution — partitioned market, not winner-take-all**: The four strategies target different customer segments with different buying criteria. This probably doesn't resolve as a single winner:
+
+| Segment | Likely winner | Why |
+|---------|--------------|-----|
+| Government / SOEs | [[Huawei Cloud]] | Sovereignty mandates, domestic hardware requirement |
+| Large enterprises | [[Alibaba Cloud]] | Full-stack integration, decade of enterprise relationships |
+| Developers / startups | [[Volcano Engine]] | Cheapest tokens, fastest onboarding, MaaS-first |
+| Consumers / social | [[Tencent Cloud]] | WeChat distribution, Yuanbao embedded in daily workflow |
+| Vertical solutions | [[Baidu]] | Productized AI (search, auto, advertising) |
+
+The open question is which segment generates the most long-term value. Enterprise (Alibaba) has the highest margin. Developer (ByteDance) has the highest growth. Consumer (Tencent) has the deepest lock-in. Government (Huawei) has the most stability. All five coexist — but token volume alone won't determine who wins.
 
 ---
 
