@@ -45,7 +45,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 | `Infrastructure/` | Fixed physical assets enabling trade/energy flows: straits, pipelines, terminals. |
 | `Assets/` | Securities notes — tradeable instruments, price history, charts. See `docs/vault-note-guide.md`. |
 | `Concepts/` | Ideas, frameworks, technologies. |
-| `Events/` | Multi-actor stories (3+ actors → event note, actor notes carry summary + link). |
+| `Events/` | Discrete happenings with clear dates (a conflict, a policy change, a deal, a crisis). Actor notes carry summary + link. Number of actors is NOT a criterion — what matters is whether it’s a *dated occurrence* vs an ongoing dynamic. Ongoing competitive landscapes, structural trends, and frameworks belong in Concepts/. |
 | `Sectors/` | Hub structure only — live market data goes in subsector notes. |
 | `Regions/` | Multi-country only (LATAM, GCC, Southeast Asia). |
 | `Theses/` | Investment theses. See `[[Thesis conventions]]`. |
