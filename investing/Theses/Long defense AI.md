@@ -45,7 +45,7 @@
 |----------|---------|--------|
 | **Public** | [[Palantir]] | PLTR — only large public pure-play |
 | **Private** | [[Anduril]], [[Shield AI]], [[Helsing]] | Need secondary/pre-IPO access |
-| **ETF exposure** | None | No defense AI ETF yet |
+| **ETF exposure** | [[WDGF]], [[IDEF]] | [[Palantir]] is top-10 holding in both; [[WDEF]]/[[WDAF]] cover regional defense |
 
 ---
 

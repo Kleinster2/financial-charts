@@ -49,7 +49,7 @@ Broad-line firms with both passive and active products. Increasingly competing o
 | 10 | VanEck | $139B | 74 | 0.65% | GDX, SMH | Gold miners, semiconductors |
 | 11 | [[Capital Group]] (American Funds) | $121B | 25 | 0.39% | CGDV, CGXU | Traditional mutual fund giant; ETF push since 2022 |
 | 12 | American Century (Avantis) | $118B | 48 | 0.28% | AVUS, AVUV | Systematic factor tilts, fast-growing |
-| 13 | WisdomTree | $90B | 89 | 0.47% | DLN, DGS | Currency-hedged, dividend-weighted |
+| 13 | [[WisdomTree]] | $145B | 88 | 0.47% | DLN, DGS, [[WDEF]] | Currency-hedged, defense ETFs, tokenization |
 | 14 | Global X | $88B | 105 | 0.47% | BOTZ, LIT, COPX | Thematic ETFs (robotics, lithium, copper) |
 | 15 | [[ProShares]] | $84B | 163 | 0.85% | TQQQ, SQQQ, NOBL | Leveraged/inverse index ETFs; legacy player |
 

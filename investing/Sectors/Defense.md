@@ -225,6 +225,21 @@ See [[US-Iran nuclear escalation February 2026]] for full event coverage. See [[
 
 ---
 
+## Defense ETFs
+
+The defense ETF space expanded rapidly in 2025-2026, driven by rearmament flows.
+
+| Fund | Ticker | Issuer | Geography | AUM | Expense ratio |
+|------|--------|--------|-----------|-----|---------------|
+| [[IDEF]] | IDEF | [[BlackRock]] | US-focused (active) | ~$3.2B | — |
+| [[WDEF]] | WDEF | [[WisdomTree]] | Europe | ~$5.3B (UCITS) | 0.40-0.45% |
+| [[WDAF]] | WDAF | [[WisdomTree]] | Asia ex-China | ~$22M | 0.45-0.50% |
+| [[WDGF]] | WDGF | [[WisdomTree]] | Global | ~$10M | 0.40-0.45% |
+
+[[WDEF]] became the fastest equity ETF in European history to reach $3B AUM (~3.5 months after March 2025 launch). All three [[WisdomTree]] products have both US-listed and UCITS versions.
+
+---
+
 ## Risks
 
 | Risk | Impact |
@@ -284,10 +299,17 @@ Sector re-rated sharply in 2025 on rearmament thesis. Primes now trading well ab
 - [[Defense supply chain]] — munitions ramp, critical materials
 - [[Copper]] — critical material, munitions demand
 
+**ETFs:**
+- [[IDEF]] -- [[BlackRock]] Defense Industrials Active ETF
+- [[WDEF]] -- [[WisdomTree]] Europe Defense Fund
+- [[WDAF]] -- [[WisdomTree]] Asia Defense Fund
+- [[WDGF]] -- [[WisdomTree]] Global Defense Fund
+
 **Companies:**
-- [[Anduril]], [[Palantir]] — AI-first defense
-- [[Northrop Grumman]] — B-21, space
+- [[Anduril]], [[Palantir]] -- AI-first defense
+- [[Northrop Grumman]] -- B-21, space
+- [[WisdomTree]] -- defense ETF issuer
 
 ---
 
-*Updated 2026-03-02*
+*Updated 2026-04-08*

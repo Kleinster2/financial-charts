@@ -46,3 +46,5 @@ issuer: BlackRock
 - [[Defense]]
 - [[Iran conflict defense repricing]]
 - [[Pete Hegseth]]
+- [[WDEF]] -- [[WisdomTree]] Europe Defense Fund (competitor, ~$5.3B UCITS AUM)
+- [[WDGF]] -- [[WisdomTree]] Global Defense Fund (competitor)
