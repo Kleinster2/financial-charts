@@ -186,6 +186,14 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Blackstone]] announced a
 
 ---
 
+## $10B opportunistic credit raise (Apr 2026)
+
+Blackstone raised $10B for an opportunistic credit fund — positioned to capitalize on dislocation, distress, and capital solutions flowing from the [[Private Credit Software Concentration|software lending crisis]]. [[Marathon Asset Management]]'s Bruce Richards called it "exactly the right move. Brilliant job Blackstone" (Bloomberg, Apr 7). The fund targets the flip side of direct lending stress: as software loans default and other sectors face capital shortfalls, opportunistic credit provides rescue financing at much wider spreads and better terms.
+
+*Source: Bloomberg Television (Apr 7, 2026)*
+
+---
+
 ## March 2026 update
 
 Stock +4.6% (+2.2 sigma) on March 13, 2026. Broader rebound in private credit-related names as market sentiment improved. [[Blackstone]] acquired Advanced Cooling Technologies (ACT) during the month — expanding energy portfolio to capitalize on data center cooling demand driven by AI infrastructure buildout.

@@ -77,6 +77,28 @@ Other rules:
 
 ---
 
+## Synthesis Sections
+
+Distinct from Synopsis (which frames the key economic questions for actors). Synthesis is the "so what" — interpretation of where a thesis or situation stands now, derived from the accumulated data in the note.
+
+**Daily notes** open with `## Synthesis` — a narrative connecting all ingested stories, written after the session's work is done. What threads connect, what's accelerating, what the day means for positioning. Structure: `## Synthesis` → `---` → `## Notes created/expanded` → `## Edit log`.
+
+**Mature concept and event notes** get `## Synthesis` right after the one-liner and `---`. Not a summary of the note but the current state of the argument: what's confirmed, what's contradicted, where the position is. Updated as new data comes in — this is a living section, not a one-time write.
+
+**Actor notes** already have Synopsis serving this purpose. **Thesis notes** already lead with the thesis statement. Neither needs a separate Synthesis.
+
+Structure for concept/event: one-liner → `---` → `## Synthesis` → `---` → data sections.
+
+---
+
+## Event Notes to Unburden Actors
+
+When a single event touches 3+ actor notes, create a dedicated event note (in `Events/`) with the full detail. Actor notes carry short summaries + link to the event note. This prevents duplication and keeps actor notes focused on the entity, not on retelling shared events.
+
+The event note is the canonical location for the timeline, the market reaction, and the cross-cutting analysis. Each actor note references it with a one-line summary and a wikilink. If you find yourself writing the same paragraph in three actor notes, you need an event note.
+
+---
+
 ## Ratings History (Public Companies)
 
 Public company actor notes (non-stubs) should include a `## Ratings history` section with a table of S&P, Moody's, and Fitch actions: Date, Agency, Action (upgrade/downgrade/affirm/outlook revision), Rating, Outlook. Place it immediately after `## Financials` — ratings are a financial attribute, not operational detail. If the note has no Financials section yet, place it before `## Related`.
@@ -151,6 +173,23 @@ Naming: `Uranium Economics` / `Uranium Prices`.
 Folder: Both in `Concepts/`.
 
 Does NOT apply to: Purely analytical concepts, structural concepts, or actors (use Actor/Securities split).
+
+---
+
+## Updating Existing Notes
+
+The vault is not a collection of facts — it weaves facts into explanations and cross-references. When new data arrives, the goal is to make the existing note's argument stronger, not longer.
+
+**Do not append dated fact blocks.** A section called "### Apr 2026 update" sitting below the existing analysis turns the note into a timeline. The reader now has to mentally merge two sections to understand the current state. Instead:
+
+1. Update existing sections in place — revise numbers, strengthen or challenge the argument, add new evidence inline where it belongs thematically
+2. Connect new facts to the note's existing analytical threads — if the note argues that compute is the binding constraint, new compute data goes into that argument, not into a separate chronological appendix
+3. Cross-reference outward — what does this new data change in related notes? Update those too
+4. If the new data changes the thesis or conclusion, update the synthesis/synopsis — don't leave the old interpretation standing next to contradicting facts
+
+**When dated sections are appropriate:** Evolution sections are chronological by design. Event notes track timelines. Daily notes are dated. But analytical sections (Synopsis, Synthesis, competitive positioning, cost structure) should read as the current state of the argument, not as a log of when each fact was learned.
+
+**The test:** A reader opening the note for the first time should get a coherent analytical picture without needing to mentally reconcile "what the note said in March" with "what was appended in April."
 
 ---
 

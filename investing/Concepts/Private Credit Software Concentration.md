@@ -19,6 +19,9 @@ The largest single-sector concentration risk in the $3T [[Private credit]] marke
 | Private credit default rate — aggressive AI scenario | **13%** | UBS |
 | Leveraged loan default rate — same scenario | ~8% | UBS |
 | High yield default rate — same scenario | ~4% | UBS |
+| Software default rate prediction (3 consecutive years) | **15%** | Marathon AM (Richards, Apr 7) |
+| Software recovery rate prediction | 0-30¢ (avg 15-20¢) | Marathon AM (Richards, Apr 7) |
+| New software lending viable leverage | 3-4x (vs 8-10x original) | Marathon AM (Richards, Apr 7) |
 
 Private credit is 3x more exposed than high yield to software disruption in the worst case.
 
@@ -89,6 +92,8 @@ The incentive structures haven't changed — fees are earned on deployment, not 
 **Jeffrey Hooke** (Johns Hopkins): "Private credit loans to a lot of software companies. If they start going south, there's going to be problems in the portfolio."
 
 **Deutsche Bank** (Steve Caprio): Software concentration in speculative-grade credit is at "all-time" levels.
+
+**Bruce Richards** ([[Marathon Asset Management]], Apr 7, 2026): *"The default rate is going to go to, mark my words, 15% in software... it won't be 15% one year. It'll be double-digit default rates for three straight years."* Recovery rates: 0-30 cents on the dollar, averaging 15-20 cents — "not 70 to 80 cent recoveries." Loans transacting in the 70s, 60s, 50s, and 40s. New software lending only viable at 3-4x leverage (vs 8-10x original) and 700bps wider spreads. Called the crisis "early, early days" — valuations just reset in Q1 2026, maturities not until 2027-28.
 
 ---
 
@@ -335,6 +340,7 @@ The report was a direct response to the Feb-Mar 2026 panic: IGV -28% from Sept p
 - [[JPMorgan Chase]] — first major bank to mark down software loan collateral (Mar 11, 2026)
 - [[Goldman Sachs]] — pitching TRS product to short software loans (Mar 2026)
 - [[Oracle]] — last major software debt deal to price (Feb 2, $25B)
+- [[Marathon Asset Management]] — 1% software exposure, loudest bear voice: 15% defaults for 3 years, 15-20¢ recoveries (Apr 2026)
 - [[Partners Group]] — $185bn Swiss private capital group, chair warned of default rate doubling (Mar 2026)
 - [[Glendon Capital Management]] — $5B distressed debt fund, challenged Blue Owl valuations (Mar 2026)
 - [[Cliffwater]] — $33B CCLFX fund, capped redemptions at 7% (Mar 2026)

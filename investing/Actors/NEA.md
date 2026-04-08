@@ -87,6 +87,12 @@ aliases: [New Enterprise Associates]
 
 ---
 
+## Notable commentary
+
+Mustapa Neimucha (partner) on The Information (Apr 7 2026): detailed analysis of [[Anthropic]] vs [[OpenAI]] competitive dynamics. Compared Anthropic's Q1 2026 revenue growth ($9B → $30B ARR) to adding "five [[Palantir]]s" in a quarter. Said secondary tenders are happening at ~$500B, and "wouldn't be surprised if when they go public gets closer to the trillion dollar range." On OpenAI's advantages: ads (~$100M ARR), device strategy, custom chips, consumer brand. On compute: Anthropic's constraint is how much compute [[Dario Amodei]] secured, not demand. On Google: internal tension between Gemini and GCP over TPU allocation to Anthropic.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

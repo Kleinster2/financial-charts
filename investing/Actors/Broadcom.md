@@ -208,6 +208,12 @@ Andrew Rocco ([[Zacks]]): "regardless of which software companies win the AI rac
 
 Stock +3.8% after-hours (Mar 4), closed +4.8% on Mar 5.
 
+### TPU revenue locked through 2031 (Apr 2026)
+
+[[Anthropic]]'s expanded [[Google]] [[TPU]] deal (~3.5 GW starting 2027, confirmed by Anthropic and Google Cloud press releases Apr 6) includes a Broadcom supply assurance agreement through 2031. [[Mizuho]] estimates $80B+ cumulative revenue for Broadcom from this commitment — the longest confirmed ASIC design lock-in. AVGO +6% on announcement. [[MediaTek]]'s competing TPU design work faces delays: [[TSMC]] CoWoS packaging bottleneck plus Google engineering changes pushed tape-out to mid-2026, volume production unlikely before 2027 (Digitimes, SemiWiki). [[OpenAI]] is also working with Broadcom on custom chips, extending the customer base beyond Google/Anthropic.
+
+*Sources: Anthropic press release (Apr 6), Google Cloud press release (Apr 6), Bloomberg (Apr 6), Mizuho (Apr 7), Digitimes (Apr 7)*
+
 Earnings call customer detail (6 XPU customers confirmed):
 
 | Customer | Status | 2027 outlook |

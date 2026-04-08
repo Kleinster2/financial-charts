@@ -218,7 +218,15 @@ See [[Permian Basin]] for Waha hub detail.
 
 *Source: [[Bloomberg]] (Mar 21, 2026), Fortune (Mar 22, 2026), NYT (Mar 18, 2026)*
 
-*Created 2026-01-05. Updated 2026-04-03.*
+### IEA: "long shadow" on gas outlook (Apr 7)
+
+[[Fatih Birol]]/[[IEA]] (FT, Apr 7) warned the gas industry faces lasting reputational damage: "The gas industry presented natural gas as a secure, reliable and affordable fuel. But what happened in 2022, after Russia's invasion of Ukraine, and what is happening now is likely to cast a long shadow over the outlook for gas, particularly in gas-importing developing countries where the gas industry expected to import even larger volumes of gas. I think the natural gas industry will need to work hard to regain its reputation."
+
+Two supply shocks in four years ([[Russia]]-[[Ukraine]] 2022 + [[2026 Strait of Hormuz crisis|Hormuz]] 2026) undermines the core pitch that gas is a reliable bridge fuel. For gas-importing developing countries — the growth market the [[LNG]] industry needs — this may permanently redirect investment toward [[Nuclear renaissance|nuclear]], renewables, and domestic energy sources. The same countries most exposed to [[QatarEnergy]] LNG disruption (see [[#China LNG vulnerability|China LNG vulnerability]] above) are the ones Birol predicts will rethink gas import dependency.
+
+*Source: FT Energy Source, Apr 7, 2026 (Malcolm Moore)*
+
+*Created 2026-01-05. Updated 2026-04-07.*
 
 ---
 

@@ -124,6 +124,23 @@ Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `no
 
 ---
 
+## Memory vs Documentation Discipline
+
+When saving a feedback or workflow memory, apply this gate first:
+
+**Is this a durable rule that will apply across sessions?** → Put it in the relevant doc (`docs/research-workflow.md`, `docs/vault-note-guide.md`, `docs/chart-api.md`, etc.), not in memory. Memory entry should just point to the doc.
+
+**Is this a one-time correction, personal preference, or context-dependent judgment call?** → Memory is the right home.
+
+When MEMORY.md exceeds ~180 lines or at the end of sessions where multiple memories were created, audit for:
+- Memory entries that duplicate doc content → collapse to doc pointers
+- Durable rules that accumulated in memory instead of docs → promote
+- Stale entries that no longer apply → remove
+
+Docs are the source of truth for workflow rules. Memory is for context that helps apply those rules.
+
+---
+
 ## References
 
 | Topic | Location |

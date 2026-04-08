@@ -72,6 +72,26 @@ TPUs win on price and vertical integration. NVIDIA wins on ecosystem breadth and
 
 ---
 
+## Apr 2026: $3.5 GW expansion, MediaTek stumbles, Gemini tensions
+
+### $3.5 GW Anthropic deal
+
+[[Anthropic]] expanded its Google [[TPU]] partnership to ~3.5 GW starting 2027 (confirmed by press releases from both Anthropic and Google Cloud, Apr 6). [[Broadcom]] supply assurance agreement through 2031 ([[Mizuho]] estimates $80B+ cumulative revenue; AVGO +6%). ~$175B all-in at ~$50B/GW rule of thumb. Orders of magnitude beyond the original 1 GW commitment.
+
+### [[MediaTek]] struggling
+
+[[MediaTek]]'s Google TPU work faces delays. The bottleneck is [[TSMC]]'s limited CoWoS advanced packaging capacity plus Google engineering changes that pushed tape-out to mid-2026; volume production unlikely before 2027 (Digitimes, SemiWiki). If MediaTek can't deliver on schedule, the Zebrafish disintermediation path weakens — and [[Broadcom]]'s ~55% gross margin "tax" persists longer. Google's diversification strategy depends on MediaTek execution that is slipping.
+
+### Internal Google tension: Gemini vs GCP
+
+[[NEA]]'s Neimucha (The Information, Apr 7) characterized internal friction at [[Google]]: the [[Gemini]] / [[Google DeepMind]] team unhappy that GCP ([[Thomas Kurian]]) is allocating TPU capacity to [[Anthropic]] — a direct competitor. No independent corroboration of this claim found in Bloomberg, Reuters, or other reporting. However, the structural tension is plausible: GCP is incentivized on cloud revenue, DeepMind on frontier research progress, Search on defending ad revenue — different business models competing for the same TPU capacity. Neimucha: "this big tech aggregation political dynamic story ends up being a big part of whether they're able to work through it."
+
+Google has also been criticized for not booking enough [[TSMC]] capacity overall — a strategic undercommitment compared to [[OpenAI]]'s aggressive approach.
+
+*Sources: Anthropic press release (Apr 6), Google Cloud press release (Apr 6), Bloomberg (Apr 6), CNBC (Apr 6), Digitimes (Apr 7), Mizuho (Apr 7). Internal tension claim: Neimucha on The Information (Apr 7) only — uncorroborated.*
+
+---
+
 ## Related
 
 - [[TPU]] — product detail (architecture, versions, specs)

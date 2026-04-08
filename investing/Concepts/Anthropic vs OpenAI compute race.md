@@ -122,4 +122,32 @@ By year-end 2027: both OpenAI and Anthropic targeting ~10 GW each.
 
 *Source: [[Dylan Patel]] ([[SemiAnalysis]]) on Dwarkesh Patel podcast, Mar 13, 2026*
 
+---
+
+## Apr 2026 update: Anthropic overtakes on revenue, expands TPU deal
+
+[[Anthropic]] disclosed $30B+ ARR on Apr 6 alongside its Google/Broadcom deal (confirmed by Bloomberg, CNBC, TechCrunch). [[OpenAI]]'s latest: $25B ARR (The Information, Mar 5) / $2B/month (OpenAI's own disclosure, Apr 1). On headline run rate, Anthropic has overtaken for the first time — though revenue recognition differences persist (Anthropic reports gross; OpenAI reports net for cloud partner sales — see [[OpenAI]] note).
+
+### $3.5 GW Google TPU expansion
+
+Anthropic expanded its [[Google]] [[TPU]] partnership to ~3.5 GW starting 2027 (confirmed by press releases from both Anthropic and Google Cloud, Apr 6). [[Broadcom]] supply assurance agreement through 2031 ([[Mizuho]] estimates $80B+ cumulative revenue; AVGO +6% on announcement). ~$175B all-in at ~$50B/GW industry rule of thumb. Dwarfs the earlier 1 GW commitment.
+
+### Internal Google tension
+
+The deal is generating internal friction at [[Google]]. [[Google DeepMind]] / [[Gemini]] team is unhappy that GCP (Thomas Kurian) is selling TPU capacity to Anthropic — their direct competitor. In a zero-sum compute environment, every TPU sold to Anthropic both starves Gemini of capacity and helps a rival. This is the same dynamic identified in the Mar 2026 Patel analysis, but now confirmed by multiple sources and at a much larger scale.
+
+### [[MediaTek]] struggles
+
+[[MediaTek]] — Google's low-cost alternative to [[Broadcom]] for TPU design — faces delays. The bottleneck is [[TSMC]]'s limited CoWoS advanced packaging capacity plus Google engineering changes that pushed tape-out to mid-2026; volume production unlikely before 2027 (Digitimes, SemiWiki). Broadcom's position as the dominant custom silicon partner is strengthening, not weakening.
+
+### Multi-chip competence
+
+Anthropic touted its multi-chip workload in the Apr 6 press release: running on TPUs, [[Trainium]], and NVIDIA GPUs. Largest customer of Amazon Tranium, largest external customer of Google TPU, one of the largest NVIDIA customers globally (announced at GTC). Neimucha's framing: the diversification is less about supply-chain risk and more about an internal competence — kernel-level engineering across architectures. This cross-silicon fluency may compound over time as inference fragments.
+
+### Revised constraint for 2026
+
+The binding constraint for Anthropic in 2026 remains compute — specifically, how much compute [[Dario Amodei]] was able to secure given his historically conservative approach. Revenue growth is not the bottleneck. The question is whether the expanded TPU deal, plus Tranium and NVIDIA capacity, is enough to serve demand at its current trajectory.
+
+*Source: The Information (Apr 7 2026) — Mustapa Neimucha ([[NEA]])*
+
 *Created 2026-03-16*

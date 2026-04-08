@@ -246,11 +246,13 @@ Oracle partnership alone: $300B over 5 years for 4.5 GW capacity.
 
 | Company | Est. ARR (early 2026) | Funding | Key differentiator |
 |---------|----------------------|---------|-------------------|
-| OpenAI | $20B+ | ~$168B | Consumer scale, distribution, brand |
-| [[Anthropic]] | $14B | ~$57B | Enterprise trust, safety-first, capital efficiency |
+| OpenAI | ~$25B (latest known) | ~$180B+ | Consumer scale, distribution, brand |
+| [[Anthropic]] | ~$30B (Apr 2026) | ~$57B | Enterprise trust, safety-first, capital efficiency |
 | [[Google]] DeepMind | Not reported separately | Google internal | Workspace/Cloud distribution, Gemini |
 | [[xAI]] | Not reported | ~$12B | Speed, real-time search, X distribution |
 | [[Meta]] AI | Not reported | Internal | Open-source Llama, Superintelligence Lab |
+
+[[NEA]]'s Mustapa Neimucha (The Information, Apr 7 2026) identified four areas where OpenAI retains advantages over [[Anthropic]]: (1) ads (~$100M ARR, intent-based, benefiting from [[Gemini]] not monetizing); (2) device strategy (Apple ecosystem opportunity); (3) custom chips (working with [[Broadcom]]); (4) consumer brand (ChatGPT as the generic term outside tech/finance). On brand, Neimucha acknowledged Anthropic may have the edge among the informed ("Anthropic is a bit of a better brand right now") but OpenAI dominates mass consumer awareness — citing [[Sam Altman]]'s Super Bowl claim that "more people in Texas use ChatGPT than people in the world use Claude."
 
 Enterprise market share (Ramp data, Mar 2026): New corporate AI clients are choosing [[Anthropic]] at 3x the rate of OpenAI — a complete reversal from a year ago (FT, Mar 21 2026). Among companies paying for AI models, Anthropic holds ~30% share vs OpenAI ~25% and [[Google]] ~10% ([[Ramp]] AI Index, Feb 2026). OpenAI's spokesman called the [[Ramp]] methodology "insane" — "Large enterprise clients do not pay for multimillion dollar contracts with a credit card." Anthropic overtook OpenAI in enterprise preference surveys (Jul 2025, TechCrunch).
 

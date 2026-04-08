@@ -53,6 +53,12 @@ Google's TPUv8 "Zebrafish" uses MediaTek for supporting chips as Google attempts
 
 **Implication:** If Google succeeds, MediaTek becomes a pick for the hyperscaler vertical integration trend.
 
+### Apr 2026: execution concerns
+
+MediaTek's Google TPU work faces delays (Apr 2026). The bottleneck is [[TSMC]]'s limited CoWoS advanced packaging capacity plus Google engineering changes that pushed tape-out to mid-2026; volume production unlikely before 2027 (Digitimes, SemiWiki). Meanwhile, [[Broadcom]] locked in a supply assurance agreement with Google through 2031 via the expanded ~3.5 GW [[Anthropic]] deal ([[Mizuho]] estimates $80B+ cumulative Broadcom revenue). The longer MediaTek's TPU work slips, the deeper Broadcom's entrenchment and the weaker Google's Zebrafish disintermediation path becomes.
+
+*Sources: Digitimes (Apr 7 2026), SemiWiki, Anthropic/Google Cloud press releases (Apr 6)*
+
 ---
 
 ## Mobile SoC business

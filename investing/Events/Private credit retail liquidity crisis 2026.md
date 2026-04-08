@@ -55,6 +55,9 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **~Apr 2, 2026** | **Stovall ([[CFRA Research]]):** *"Don't try this at home. Private credit does not have the kind of liquidity that public markets would have."* — representative of mounting analyst warnings to retail |
 | **Apr 2, 2026** | **[[Morgan Stanley]] default forecast:** expects annual private credit defaults of **8%** between H2 2026 and H1 2027, led by stress in software companies. Sits between UBS's 15% worst-case and current 5.8% (Fitch) |
 | **Apr 2, 2026** | **[[Barclays]] on software concentration:** *"Many private credit funds have become very concentrated in a handful of sectors, in particular software. As this risk [of software companies going obsolete] increases, so too will the probability of default"* |
+| **Apr 7, 2026** | **[[Goldman Sachs]] private credit fund:** redemption requests hit **4.999%** — just under the 5% quarterly cap. Goldman said reliance on institutional (vs retail) investors helped keep requests below the gate threshold |
+| **Apr 7, 2026** | **[[Blackstone]] raises $10B** for opportunistic credit — positioned to capitalize on dislocation from the software lending crisis. [[Marathon Asset Management\|Marathon]]'s Richards: *"Exactly the right move. Brilliant job Blackstone"* |
+| **Apr 7, 2026** | **Richards ([[Marathon Asset Management\|Marathon]]) on Bloomberg:** escalates to 15% default rate for **three consecutive years** (up from two). Recovery rates averaging 15-20 cents (vs standard 70-80 cent assumption). "Early, early days" — maturities not until 2027-28. Fund structures are "perfect"; portfolio concentration is the problem: 20-26% software × 1x leverage = 52% of capital at risk |
 | **Apr 2, 2026** | **Alt manager YTD losses:** Combined **$132 billion in market value** lost by major alt managers in 2026 (Reuters calculation — APO, BX, ARES, KKR, CG, OWL) |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. [[Guggenheim Partners]] exec chair [[Alan Schwartz]] (former [[Bear Stearns]] CEO): *"cracks in the foundation."* [[Blackstone]] chief [[Jon Gray]]: *"never seen something so disconnected from reality."* [[Diameter Capital]] co-founder Scott Goodwin: AI risk factor affects >50% of PE/credit deals from past decade. [[Partners Capital]] John Beil: *"PE has lagged public benchmarks by meaningful amounts"* over 5 years, predicts Q1 software writedowns. Former [[Goldman Sachs]] CEO [[Lloyd Blankfein]]: liquidity mismatch *"more likely"* given time since last major credit crash. [[Bank of England]] stress test this year; governor Bailey says *"alarm bells"* ringing. Treasury OFR estimates bank lending to private credit **up to $540B**. [[Davidson Kempner]]: ~25% of PE funds since 2015 failed to earn carry |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. **>$100B in funds** to disclose Q1 data ([[Barclays]]) |
@@ -313,6 +316,24 @@ JPM marks down software loan collateral values
 **Pre-emptive, not reactive:** JPMorgan characterized the move as financial discipline — "rather than waiting until a crisis comes." No margin calls triggered. The bank did the same thing during early COVID. Dimon told investors at JPMorgan's leveraged finance conference the prior week that the bank was being "more prudent" in lending against software assets.
 
 **JPMorgan is potentially the first major bank to take this step** (FT). If Goldman, Morgan Stanley, Citi, and BofA follow — and competitive dynamics make it likely once one moves — the funding mechanism for the entire private credit industry tightens simultaneously.
+
+Bank exposure to private credit financing as a share of total loans (midyear 2025; Deutsche Bank as of YE'25):
+
+| Bank | Private credit / total loans |
+|------|-----|
+| [[PNC Financial]] | 8.99% |
+| [[Wells Fargo]] | 6.40% |
+| [[Truist]] | 6.09% |
+| [[Deutsche Bank]] | 5.41% |
+| [[Goldman Sachs]] | 5.38% |
+| [[Morgan Stanley]] | 4.53% |
+| [[Citigroup]] | 3.27% |
+| [[Bank of America]] | 2.88% |
+| [[JPMorgan Chase]] | 1.57% |
+
+*Source: Moody's, Bloomberg, Deutsche Bank (Apr 2026)*
+
+JPMorgan's position at the bottom of this table — lowest exposure at 1.57% — explains its willingness to be the first mover on collateral markdowns. PNC Financial at 8.99% has the most to lose from a tightening cycle. The mid-tier banks ([[Wells Fargo]], [[Truist]], [[Deutsche Bank]], [[Goldman Sachs]]) face the hardest decision: material enough exposure to hurt, not dominant enough to shape the market.
 
 **Market reaction:** ARES -4.5%, OWL/KKR/CG ~-2.6%, JPM -0.5%.
 

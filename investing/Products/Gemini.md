@@ -180,7 +180,15 @@ Designed for advanced math, coding, scientific analysis, and planning. New capab
 | Flagship | Gemini 3 (Flash, Deep Think) |
 | Context | 1M tokens |
 
-*Updated 2026-02-12*
+*Updated 2026-04-07*
+
+---
+
+## Internal tension: TPU allocation (Apr 2026)
+
+[[Google]]'s expanded TPU deal with [[Anthropic]] (~3.5 GW starting 2027, confirmed by press releases Apr 6) raises a structural question about internal compute allocation. [[NEA]]'s Neimucha (The Information, Apr 7) characterized friction: the Gemini / [[Google DeepMind]] team unhappy that GCP ([[Thomas Kurian]]) is allocating TPU capacity to a direct competitor. No independent corroboration of this claim found in other reporting, but the structural tension is plausible: GCP is incentivized on cloud revenue, DeepMind on frontier research progress, Search on defending ad revenue — different business models competing for the same TPU capacity. Gemini is reportedly not monetizing in the near term, preferring to capture distribution first.
+
+*Source: The Information (Apr 7 2026) — internal tension claim from Neimucha only. Deal confirmed by Anthropic and Google Cloud press releases (Apr 6).*
 
 ---
 

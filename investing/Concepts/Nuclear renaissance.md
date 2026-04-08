@@ -176,7 +176,7 @@ Urenco expanding enrichment capacity **15% by 2030** and building HALEU capabili
 **Small Modular Reactors:**
 - Factory-built, modular
 - On-site for data centers
-- 2030s deployment
+- 2030s deployment — [[Fatih Birol]]/[[IEA]] (Apr 7): could arrive "even faster" than mid-2030s, accelerated by [[2026 Strait of Hormuz crisis|Iran war]] energy shock. Third pillar (energy security) now joins AI power demand + climate targets as deployment drivers
 - High risk, high reward
 
 Hyperscalers interested but patient.

@@ -41,6 +41,8 @@ Three regimes dominate the historical record: (1) pre-2011, when the spread was 
 | Feb 2026 (pre-conflict) | +$5.14 to +5.54 | Normal range |
 | Mar 2026 (Iran conflict) | +$4.19 to +$16.97 | [[Strait of Hormuz]] closure; Brent spiked harder than WTI |
 | Apr 2, 2026 | -$2.51 | Inversion — WTI +11.4% in a day, Brent +7.8% |
+| Apr 6, 2026 | -$2.64 | Inversion persists; maturity-adjusted: +$11.30 |
+| Apr 7, 2026 | -$4.64 | Deepest headline inversion; adjusted: +$7.52 |
 
 ---
 
@@ -58,7 +60,7 @@ WTI above Brent is rare. Since 2007 (BZ=F data start):
 | 2016 | 7 | -$0.60 |
 | 2020 | 1 | -$0.16 |
 | 2022 | 4 | -$0.68 |
-| 2026 | 1 (Apr 2) | -$2.51 |
+| 2026 | 4+ (Apr 2-7) | -$4.64 (Apr 7, deepening) |
 
 The 2007-2010 cluster was structural — US was still a net crude importer and [[Cushing]] storage dynamics dominated WTI pricing. Post-shale, inversions became fleeting and shallow. The April 2026 inversion at -$2.51 is the deepest since 2010 and warrants monitoring for persistence.
 
@@ -85,6 +87,23 @@ Even if the "inversion" was optical, the underlying dynamics are significant:
 **OECD inventory warning.** [[JPMorgan Chase]] analysts warned OECD crude stocks would fall to operational minimums, forcing price rationing rather than inventory draws to balance the 14M bbl/day Hormuz shortfall. This underpins the extreme backwardation — physical barrels are genuinely scarce.
 
 **Consensus contradicted.** [[Amrita Sen]] (Mar 23) had predicted the WTI-Brent spread would *widen further*, not narrow. [[Robin J. Brooks]] framed WTI as the politically decisive benchmark but expected it to remain well below Brent. The front-month compression — even if distorted by contract rolls — caught the analyst community off-guard.
+
+### Apr 6-7 update: inversion deepens, adjusted spread compresses
+
+The headline inversion deepened from -$2.51 to -$4.64 by Apr 7 — the deepest since 2010. But the same-month (June-to-June) comparison tells a different story:
+
+| Date | Brent Jun | WTI May | WTI Jun | Headline | Adjusted (Jun-Jun) | WTI backwardation |
+|------|-----------|---------|---------|----------|-------------------|-------------------|
+| Apr 1 | $101.16 | $100.12 | $90.88 | +$1.04 | +$10.28 | $9.24 |
+| Apr 2 | $109.03 | $111.54 | $98.04 | -$2.51 | +$10.99 | $13.50 |
+| Apr 6 | $109.77 | $112.41 | $98.47 | -$2.64 | +$11.30 | $13.94 |
+| Apr 7 | $98.92 | $103.56 | $91.40 | -$4.64 | +$7.52 | $12.16 |
+
+The maturity-adjusted Brent premium *compressed* from $11.30 to $7.52 on Apr 7 (Kharg Island strike day). Both benchmarks fell hard — Brent -$10.85, WTI May -$8.85 — but Brent fell faster, narrowing the real premium. One reading: the market interpreted the Kharg strike (military targets only, oil infrastructure spared again) as marginally reducing the probability of a full energy infrastructure war.
+
+The WTI May-June backwardation remains extreme at $12/month — roughly 12x the normal cost-of-carry contango (~$1/month). This is the single largest distortion in the headline spread.
+
+WTI full curve (Apr 7): May $103.56 → Jun $91.40 → Jul $85.44 → Aug $80.28. The curve normalizes toward ~$5/month backwardation beyond the front spread, suggesting the extreme tightness is concentrated in the prompt month.
 
 ![[brent-wti-spread-chart.png]]
 *WTI (blue) vs Brent (red) since 2024, with spread below. Green = normal Brent premium; red = WTI premium (inversion). The April 2 inversion visible at far right.*

@@ -82,6 +82,12 @@ Domestic power mix target: 50% renewables + 50% gas (eliminating crude burn). Ke
 
 See [[2026 Iran conflict market impact#Day 14 — March 13 (Gulf equity divergence)|full data]].
 
+### Record crude premium (Apr 2026)
+
+[[Saudi Aramco]] posted record official selling prices (OSPs) — the premium charged over benchmarks for Saudi crude grades. [[Ruchir Sharma]] (FT, Easter 2026) noted the oil crisis has hit just as governments are "too broke to bail out consumers." Some traders suggested Riyadh could have charged even more given [[2026 Strait of Hormuz crisis|Hormuz closure]] circumstances (FT, Apr 7).
+
+*Source: FT Energy Source, Apr 7, 2026 (Malcolm Moore)*
+
 ---
 
 ## Gaming strategy

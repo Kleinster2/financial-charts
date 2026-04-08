@@ -37,6 +37,12 @@
 | Grid capacity | Investment needed |
 | Battery materials | Supply chain constraints |
 
+### Iran war energy shock — EV acceleration (Apr 2026)
+
+[[Fatih Birol]]/[[IEA]] (FT, Apr 7): "I expect a big push for electric cars, both for new and second-hand electric cars, including in [[Asia]], which is the main driver of global oil demand growth." Sustained $110+ [[Brent crude|Brent]] makes the TCO case for EVs unanswerable, particularly in Asia where oil import dependency is highest (see [[2026 Strait of Hormuz crisis#Demand-side vulnerability (Asia)|Hormuz Asian vulnerability data]]). Mirrors the 1970s fuel-efficiency standards response to oil shocks.
+
+*Source: FT Energy Source, Apr 7, 2026*
+
 ---
 
 ## Investment themes

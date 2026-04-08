@@ -10,7 +10,7 @@ tags: [actor, credit, private-credit, asset-management, private]
 
 ## Synopsis
 
-Marathon is a pure-play credit shop that has deliberately avoided the software lending boom that consumed its peers. While the average direct lending fund has 23% software exposure, Marathon carries just 1% — a positioning that looked contrarian until the [[SaaS stock meltdown 2026]] and [[Blue Owl OBDC II redemption gate]] validated the thesis. Richards' framing — software is 23% of direct lending but only 1% of private companies, meaning the industry massively over-indexed on a single sector — has become the standard critique. His 15% default rate prediction for software sits at the hawkish end of the spectrum, roughly 3x what he expects for direct lending overall and consistent with UBS's worst-case scenario (which [[Ares Management]]'s Arougheti called "absolutely wrong").
+Marathon is a pure-play credit shop that has deliberately avoided the software lending boom that consumed its peers. While the average direct lending fund has 23% software exposure, Marathon carries just 1% — a positioning that looked contrarian until the [[SaaS stock meltdown 2026]] and [[Blue Owl OBDC II redemption gate]] validated the thesis. Richards' framing — software is 23% of direct lending but only 1% of private companies, meaning the industry massively over-indexed on a single sector — has become the standard critique. His 15% default rate prediction for software has escalated: by April 2026 he's calling for double-digit defaults for three consecutive years (up from two), with recovery rates averaging just 15-20 cents on the dollar — catastrophically below the 70-80 cent assumption embedded in most lender models.
 
 The CVC acquisition (Jan 2026, up to $1.2B) is the bigger structural story. CVC gets a scaled US credit platform with $24B AUM, combining with CVC Credit to create ~EUR61B in fee-paying AUM. Richards gets permanent capital and CVC's global distribution. The deal values Marathon at a meaningful premium — $400M cash plus up to $800M in CVC equity, with an additional earn-out of up to $400M over FY2027-29. Richards joins CVC's Partner Board and remains co-head of credit strategies alongside Hanover.
 
@@ -85,6 +85,55 @@ Industry response (from [[Blue Owl OBDC II redemption gate]] coverage):
 | [[Blue Owl]] (Lipschultz) | "We don't have red flags... we actually have largely green flags" |
 
 Richards is on the hawkish end with Rowan. Arougheti is on the dovish end. The market hasn't decided who's right yet — but the [[Blue Owl OBDC II redemption gate]] and [[Private credit retail liquidity crisis 2026]] are scoring points for the bears.
+
+### Bloomberg interview — Apr 7, 2026
+
+Richards refined and escalated his warnings on Bloomberg Television, adding specificity on recovery rates, timeline, and transaction prices:
+
+Default timeline — "early, early days":
+- Valuations "just got reset in the last quarter" — the markdown phase began only in Q1 2026
+- Maturities don't hit until 2027-28
+- Predicts 15% default rate in software for three consecutive years (previously said two) — "double-digit default rates for three straight years"
+- *"The pig is still closer to the mouth of the python"*
+
+Recovery rates — catastrophically low:
+- Predicts 0-30 cents on the dollar, averaging 15-20 cents
+- "Not 70 to 80 cent recoveries" — the standard assumption for senior secured is wildly misapplied to software
+- Loans will transact at 70s, 60s, 50s, and 40s — marks are still above where deals can actually clear
+
+Refinancing wall — no exit:
+- New software lending only at 3-4x leverage (vs 8-10x original) and 700bps wider spreads
+- Even repriced lending may not compensate for risk
+- *"No one is going to refinance anywhere close to the levels of financing provided previously"*
+- Extend and pretend → distressed/defaults → massive losses — that's the sequence
+
+ARR as underwriting fiction:
+- Lenders justified 8-10x leverage "because they could justify it based upon ARR"
+- 20x revenue multiples allowed lenders to lend 10x — "it's way too much leverage"
+- Valuations cut in half → the math collapses
+
+Fund structures — "perfect" design, bad portfolios:
+- Interval/annual funds with 5% quarterly gates and 20% per annum redemption caps are "not a bug, it's actually the feature"
+- A solid portfolio generates 10% annual cash flow + 20% principal return from 5-year laddered maturities = 30% annual liquidity
+- The problem: funds with 20-26% software allocation, levered 1x → 52% of investor capital at risk in software
+- *"The problem is the underlying portfolio losses. That's why there's a run"*
+
+Opportunistic credit — the flip side:
+- [[Blackstone]]'s $10B opportunistic credit raise = *"exactly the right move. Brilliant job Blackstone"*
+- Marathon "very, very active" in opportunistic credit for the same reasons
+- Opportunities: capital solutions, dislocation, distress across all sectors (not just software)
+
+Next vintage:
+- Direct lending spreads 75bps wider — better return for taking risk
+- Better covenants, stronger documentation, less leverage
+- *"Lenders shouldn't be lending at all more than five or six turns of leverage"*
+
+HALO expanded:
+- Named specific assets: bulldozers, cranes, aircraft turbines, transformers, infrastructure assets
+- *"Much prefer things that are hardware and things that are software in this market environment"*
+- LTV-based lending with hard collateral — "no air in there"
+
+*Source: Bloomberg Television, Apr 7, 2026*
 
 ---
 

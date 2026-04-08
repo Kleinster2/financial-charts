@@ -127,16 +127,34 @@ The vault's purpose is not just to store facts — it's to interpret them. Matur
 
 ---
 
+## Two-Track Source Verification
+
+Every non-filing source contains two kinds of material that require different treatment:
+
+**Track 1 — Reporting (trust as fact):** A Bloomberg article says Anthropic disclosed $30B ARR. A press release confirms a deal. Reuters reports a stock move. These are factual claims from news organizations or companies — write them as fact with attribution. Do not hedge confirmed reporting just because it arrived inside a commentary format (e.g., a podcast guest citing a company's own disclosure is still Track 1).
+
+**Track 2 — Commentary (corroborate before trusting):** An investor on a podcast says a company "could approach a trillion dollar valuation." An analyst characterizes internal tension at a company. A guest estimates a deal's total cost using a rule of thumb. These are opinions, predictions, or secondhand characterizations — search for independent corroboration before writing as fact. If uncorroborated, attribute to the source and flag it.
+
+**The discipline:** When processing any source, first separate the Track 1 statements (what happened, what was disclosed, what was reported) from the Track 2 statements (what someone thinks it means, predicts will happen, or characterizes without direct knowledge). Verify Track 1 is real (quick search if the source seems unreliable). Corroborate Track 2 claims. Write Track 1 cleanly; attribute Track 2 to source.
+
+**Common mistakes:**
+- Over-hedging: writing "claimed" or "unverified" for a company's own press release because the information arrived via a podcast
+- Under-verifying: writing an investor's characterization of internal company dynamics as established fact
+- Conflating tracks: a single sentence can contain both ("Anthropic hit $30B ARR [Track 1] and could IPO at a trillion [Track 2]")
+
+---
+
 ## Fact-Checking Non-Filing Sources
 
 Transcripts, podcasts, YouTube videos, and press interviews often contain inflated or imprecise figures. These sources are valuable for data points and claims — but numbers must be verified before entering the vault as fact.
 
 **Process:**
 1. Extract facts from the source (dates, figures, events, attributed claims)
-2. Do not carry over the source's narrative structure, characterizations, or causal framing
-3. Identify all quantitative claims and dateable assertions
-4. Cross-reference each against filings, Bloomberg, or reputable financial press
-5. Mark each claim in the notes:
+2. Separate Track 1 (reporting) from Track 2 (commentary) — see above
+3. Do not carry over the source's narrative structure, characterizations, or causal framing
+4. Identify all quantitative claims and dateable assertions
+5. Cross-reference Track 2 claims against filings, Bloomberg, or reputable financial press
+6. Mark each claim in the notes:
    - Verified → state as fact with source
    - Contradicted → correct the figure, cite the better source
    - Unverifiable → keep the claim, mark as "argued" or "unverified"
@@ -220,6 +238,26 @@ Forward guidance often moves stocks more than backward-looking beats.
 - Add section to actor note (EPS, revenue, guidance, stock reaction)
 - Add to daily note
 - Note CEO changes, guidance surprises, strategic shifts
+
+---
+
+## Extracting Quotes and People
+
+Every source contains attributed statements and named individuals. Both are primary source facts — not editorial framing — and must be extracted.
+
+**Quotes:** A CEO saying "inflection point" on an earnings call, an analyst's risk assessment, a CIO's market reaction — these are factual statements attributed to named sources. Always extract them. All quotes must be dated. Format: `[[Firm]] analyst Name (Feb 13): *"quote text"*`
+
+**People and firms:** Every named person in a source is a fact: name, title, firm. Wikilink both the person and the firm. These become vault entities — analysts, executives, advisers, investors all get linked even if no standalone note exists yet. Quotes add vault scope: they introduce new persons, firms, and perspectives that expand the graph.
+
+---
+
+## Reporting Market Moves
+
+**Report at the subsector level, not the sector level.** Market moves are subsector-specific. "Defense up" is not an insight. Which subsectors moved and which didn't — that dispersion IS the insight, because it reveals what the market is actually pricing.
+
+Example: drones +10% > primes +5-7% > IT services flat tells you the market is pricing the unmanned systems thesis, not a broad defense spending increase. Report the dispersion, name the subsectors, include the percentages.
+
+This applies to any sector: semiconductors (HBM vs. legacy DRAM vs. equipment), energy (upstream vs. midstream vs. refiners), software (vertical SaaS vs. horizontal platforms).
 
 ---
 

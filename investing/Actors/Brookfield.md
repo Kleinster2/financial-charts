@@ -3,7 +3,7 @@ aliases: [Brookfield Corp, BAM, Brookfield Asset Management, BN]
 ---
 #actor #finance #infrastructure #canada
 
-**Brookfield** — Global infrastructure giant. $900B+ AUM. Data centers part of broader portfolio.
+**Brookfield** — Global infrastructure giant. $1T+ AUM. Data centers part of broader portfolio.
 
 ---
 
@@ -26,7 +26,7 @@ Brookfield is one of world's largest infrastructure investors:
 
 | Metric | Value |
 |--------|-------|
-| AUM | $900B+ |
+| AUM | $1T+ |
 | Structure | Brookfield Corp (BN) + Brookfield Asset Mgmt (BAM) |
 | Focus | Infrastructure, real estate, renewables, PE |
 | Data center exposure | Growing but not primary focus |
@@ -202,11 +202,11 @@ Brookfield is attempting what **J.P. Morgan did for railroads** and **infrastruc
 | Metric | Value |
 |--------|-------|
 | Tickers | BN (Corp), BAM (Asset Mgmt) |
-| AUM | $900B+ |
+| AUM | $1T+ |
 | HQ | Toronto |
 | Focus | Infrastructure, renewables, RE, PE |
 
-*Updated 2026-02-12*
+*Updated 2026-04-07*
 
 ---
 
@@ -216,6 +216,7 @@ Brookfield is attempting what **J.P. Morgan did for railroads** and **infrastruc
 - [[Bloom Energy]] — $5B fuel cell investment for data centers
 - [[American Equity]] — annuity platform ($130B assets, acquired $4.3B Apr 2024)
 - [[Reinsurance sidecars]] — permanent capital model via insurance
+- [[Oaktree Capital]] — wholly owned subsidiary (Sep 2025 full acquisition, $11.5B implied, $225B AUM)
 - [[Blackstone]] — peer (alternative asset manager)
 - [[Blue Owl]] — peer (AI infrastructure financing)
 - [[DigitalBridge]] — peer (digital infrastructure)

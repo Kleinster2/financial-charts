@@ -32,7 +32,7 @@ The arc: seven OpenAI defectors → Constitutional AI → FTX-funded safety lab 
 
 | Metric | Value |
 |--------|-------|
-| Revenue | ~$20B annualized run rate (as of ~Mar 6; was $14B mid-Feb, $9B Jan, $87M early 2024). **$6B single-month revenue in Feb 2026** (28-day month) — more than Databricks or Snowflake's full-year revenue after 12 years |
+| Revenue | ~$30B+ annualized run rate (Apr 6 2026, disclosed by Anthropic alongside Google/Broadcom deal; confirmed by Bloomberg, CNBC, TechCrunch). Was $20B mid-Mar, $14B mid-Feb, $9B end-2025. 1,000+ enterprise customers at $1M+ ARR (doubled since Feb) |
 | Claude Code run rate | $2.5B (launched publicly May 2025) |
 | Revenue mix | 80% enterprise, 20% consumer |
 | Business customers | 300,000+ |
@@ -42,9 +42,11 @@ The arc: seven OpenAI defectors → Constitutional AI → FTX-funded safety lab 
 | 2025 loss | $5.6B (confirmed Jan 2026) |
 | Burn rate | Dropping to 9% of revenue by 2027 |
 | Break-even target | 2028 |
-| Valuation | $380B (Series G close, Feb 12 2026) |
+| Valuation | $380B (Series G close, Feb 12 2026). Secondary tenders at ~$500B (Apr 2026). [[NEA]]'s Neimucha (Apr 7): "wouldn't be surprised if when they go public gets closer to the trillion dollar range" |
 
 Burning 14x less cash than OpenAI before profitability. CFO [[Krishna Rao]]: "Claude is increasingly becoming critical to how businesses work." FT (Mar 21 2026): Anthropic is adding $1B in annualized revenue each week in 2026. Business customers purchasing AI for the first time are choosing Anthropic at 3x the rate of [[OpenAI]], per [[Ramp]] AI Index data from 50,000+ customers — a reversal of the companies' positions a year ago.
+
+[[NEA]] partner Mustapa Neimucha (The Information, Apr 7): compared Anthropic's Q1 2026 growth to adding "five [[Palantir]]s in the first quarter" and "two [[Workday]]s in a quarter." At $30B ARR vs [[OpenAI]]'s latest reported $25B, Anthropic appears to have overtaken on headline run rate — though revenue recognition differences remain (see [[OpenAI]] note, Chamath on rev rec).
 
 ![[ramp-anthropic-vs-openai-new-customers-mar2026.png]]
 *Share of new corporate AI clients: Anthropic ~80% vs OpenAI ~20% by Feb 2026. Source: Ramp AI Index (FT, Mar 21 2026)*
@@ -553,18 +555,19 @@ OpenAI's commitments for comparison:
 
 ## Compute strategy
 
-Multi-cloud approach - AWS Trainium + Google TPUs + NVIDIA GPUs. Diversified to avoid single-vendor lock-in.
+Multi-cloud approach - AWS Trainium + Google TPUs + NVIDIA GPUs. Diversified to avoid single-vendor lock-in. As of April 2026, Anthropic is the largest customer of [[Amazon]] [[Trainium]], the largest external customer of [[Google]] [[TPU]], and one of the largest [[NVIDIA]] customers globally (announced at [[GTC]]).
 
-### Google Cloud deal (Oct 2025)
+### Google Cloud deal (expanded Apr 2026)
 
 | Metric | Value |
 |--------|-------|
 | TPU commitment | Up to 1M TPUs |
 | Deal value | "Tens of billions of dollars" |
-| Capacity | 1GW+ online in 2026 |
+| Capacity | 1GW+ online in 2026; expanded to ~3.5 GW starting 2027 (Apr 6 2026, confirmed by Anthropic and Google Cloud press releases). ~$175B all-in at ~$50B/GW industry rule of thumb |
 | Chip cost estimate | ~$35B of ~$50B total DC cost |
+| [[Broadcom]] lock-in | Supply assurance agreement through 2031 (confirmed; [[Mizuho]] estimates $80B+ cumulative revenue) |
 
-Largest expansion of Anthropic's TPU usage to date. Separate from Broadcom direct purchases.
+Largest expansion of Anthropic's TPU usage to date. Separate from Broadcom direct purchases. The 3.5 GW figure was confirmed by both Anthropic and Google Cloud press releases (Apr 6). $175B is estimated at ~$50B/GW industry rule of thumb.
 
 **Backstory (Patel, Mar 2026):** Anthropic's compute team — both ex-Google — saw the dislocation before Google did. In early Q3 2025, over six weeks, TPU capacity requests went up multiple times. Google had to go to [[TSMC]] to explain why they needed a sudden capacity increase. Much of it was for selling to Anthropic. [[Google DeepMind]] people "were like, 'This is insane. Why did we do this?'" But Google Cloud saw it differently. Then Gemini 3 caused Google's user metrics to skyrocket, leadership woke up, went to TSMC for more — "Sorry, sold out. Maybe 5-10% more for 2026, really working on 2027."
 
@@ -599,6 +602,10 @@ Why direct purchase matters:
 | Broadcom direct | TPUv7 | Owned | Core training clusters |
 
 All roads lead to [[TSMC]] - TPUs and Trainium fabbed there.
+
+### Multi-chip competence as moat (Apr 2026)
+
+[[NEA]]'s Neimucha (The Information, Apr 7): Anthropic's diversification is less about supply-chain risk management and more about an internal competence they are building — "handwriting kernels in some cases, making some of the NVIDIA architecture pieces more flexible, sometimes porting existing software." Once in the flow, Anthropic feels "pretty confident" about porting to any silicon: custom ASICs, new chip architectures, heterogeneous compute across training and inference. This cross-silicon fluency could become a durable advantage as inference fragments across providers.
 
 ### Compute capacity and the cost of conservatism (Mar 2026)
 

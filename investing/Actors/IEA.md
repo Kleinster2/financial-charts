@@ -190,6 +190,25 @@ The IEA-[[OPEC]] tension is the central fault line in global energy markets. The
 
 ---
 
+## Birol: six predictions on energy reshaping (FT, Apr 7)
+
+In an interview with the *Financial Times* (Energy Source newsletter), [[Fatih Birol]] laid out how the [[2026 Strait of Hormuz crisis|Iran war]] would reshape energy behavior — drawing explicit parallels to the twin oil crises of the 1970s, when countries built nuclear fleets, introduced fuel-efficiency standards, and the [[UK]] fast-tracked North Sea oil licences (basin went from "virtually nothing" to 6M bpd in 20 years).
+
+Birol urged countries not to hoard oil and fuel, warning that resource nationalism would worsen shortages.
+
+1. [[Nuclear renaissance|Nuclear/SMR acceleration]]: SMRs were expected mid-2030s; "it can be even faster"
+2. Renewables push: EU annual renewable installations 3x in three years post-Ukraine invasion; another push coming
+3. [[EV transition|EV adoption surge]]: "A big push for electric cars, both for new and second-hand," especially in [[Asia]] — the main driver of global oil demand growth
+4. [[Natural gas]] reputation damage: "The gas industry presented natural gas as a secure, reliable and affordable fuel. But what happened in 2022 . . . and what is happening now is likely to cast a long shadow over the outlook for gas, particularly in gas-importing developing countries." The gas industry "will need to work hard to regain its reputation"
+5. Higher [[Hormuz Permanent Risk Premium|geopolitical risk premium]]: "Importers will look not just at the product and the price, but also assess carefully who is selling." Affects fuel/technology choices and exporter relationships
+6. Coal comeback: after 1973, coal power capacity rose 50% globally in 10 years. "We may well see some countries increasing the use of coal again, at least temporarily, especially in emerging economies in [[Asia]] but also in [[Europe]] and [[North America]]"
+
+The six predictions map onto two opposing forces: the crisis accelerates the energy transition (nuclear, renewables, EVs) while simultaneously reviving coal — the same split that played out after the 1970s shocks.
+
+*Source: FT Energy Source, Apr 7, 2026 (Malcolm Moore)*
+
+---
+
 ## Related
 
 - [[OECD]] — parent organization
@@ -202,3 +221,7 @@ The IEA-[[OPEC]] tension is the central fault line in global energy markets. The
 - [[Chevron]], [[Exxon]] — majors affected by IEA transition guidance
 - [[Clean energy for AI]] — intersection of transition and tech power demand
 - [[Colombia]], [[Brazil]] — newest member and accession candidate
+- [[Nuclear renaissance]] — Birol predicts SMR acceleration from Iran crisis
+- [[EV transition]] — Birol predicts Asian EV adoption surge
+- [[Natural gas]] — Birol warns of lasting reputation damage
+- [[Ruchir Sharma]] — fiscal ammunition exhaustion framing (same news cycle)
