@@ -48,6 +48,7 @@ aliases: [DRW Trading, Don Wilson]
 | Options | Active |
 | FX | Significant |
 | [[Crypto]] | Cumberland desk |
+| [[Prediction markets]] | Dedicated desk (building, Jan 2026) |
 
 ---
 
@@ -61,6 +62,14 @@ aliases: [DRW Trading, Don Wilson]
 | Status | Still active |
 
 One of oldest institutional crypto desks.
+
+---
+
+## Prediction markets desk (Jan 2026)
+
+Building a "dedicated prediction markets desk" to trade [[Polymarket]] and [[Kalshi]]. Job posting (Jan 2026) for a trader to "monitor and trade active markets in real time" across both platforms, base salary up to $200k. Part of broader Wall Street push into cross-platform arbitrage on event contracts.
+
+Source: FT (Jan 14, 2026)
 
 ---
 
@@ -80,6 +89,9 @@ One of oldest institutional crypto desks.
 - [[Jump Trading]] — peer (Chicago)
 - [[Citadel]] — competitor
 - [[Susquehanna]] — competitor
+- [[Prediction markets]] — dedicated desk (Jan 2026)
+- [[Polymarket]] — trading venue
+- [[Kalshi]] — trading venue
 
 ---
 

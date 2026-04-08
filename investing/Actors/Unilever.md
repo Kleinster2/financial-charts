@@ -30,7 +30,7 @@ UL shows moderate Consumer Staples correlation (XLP r = 0.51).
 | Market cap | ~€120B (~$130B) |
 | Revenue (2024) | €60.8B (+4.2% underlying) |
 | Beauty & Wellbeing revenue | €13.2B (+6.5%) |
-| CEO | Hein Schumacher (since Jul 2023) |
+| CEO | Fernando Fernandez (since early 2025) |
 | HQ | London, [[UK]] |
 
 ---
@@ -95,6 +95,20 @@ After separation, Unilever will be ~€53B revenue, more focused on beauty/perso
 
 ---
 
+## Food business breakup (Apr 2026)
+
+[[Trian Partners|Trian]] founder [[Nelson Peltz]] (~1% of Unilever shares) pushed for years to separate the food business. Previous CEO Hein Schumacher resisted; the board dismissed him in February 2025. Chair Ian Meakins (appointed 2023) and new CEO Fernando Fernandez collaborated with Peltz on the deal.
+
+Unilever announced it would combine its food business (Hellmann's, Knorr — €13.2B revenue) with US spice maker [[McCormick]] into a combined $66bn entity. Shares fell 7% on the announcement.
+
+Peltz's activist track record informed the approach — he previously separated Tim Hortons from Wendy's (2006), pushed Cadbury to sell its drinks business (2007), and lobbied Kraft to spin off its international snacks business (2011, creating [[Mondelez]]).
+
+Peltz's bet: the slimmed-down beauty and personal care company will grow faster in higher-margin categories. But the market's 7% selloff suggests investors aren't yet convinced.
+
+*Source: FT Due Diligence (Apr 3, 2026)*
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -110,7 +124,7 @@ After separation, Unilever will be ~€53B revenue, more focused on beauty/perso
 - Food/Nutrition slower growth (~2%)
 - Prestige slowing (US beauty market soft)
 - Ben & Jerry's brand controversies
-- Competition from [[L'Oréal]], [[Estée Lauder]], [[P&G]]
+- Competition from [[L'Oréal]], [[Estée Lauder]], [[Procter & Gamble]]
 - Emerging market currency headwinds
 
 ---
@@ -122,5 +136,8 @@ After separation, Unilever will be ~€53B revenue, more focused on beauty/perso
 - [[L'Oréal]] — beauty competitor
 - [[Estée Lauder]] — prestige competitor
 - [[Beiersdorf]] — skincare competitor (Nivea vs Dove)
+- [[Nelson Peltz]] — activist who pushed food separation
+- [[Trian Partners]] — Peltz's fund (~1% stake)
+- [[McCormick]] — combined food entity partner ($66bn)
 
-*Created 2026-01-24*
+*Created 2026-01-24. Updated 2026-04-08 — food breakup with McCormick.*

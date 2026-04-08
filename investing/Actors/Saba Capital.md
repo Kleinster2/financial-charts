@@ -115,6 +115,18 @@ Extends Saba's closed-end fund activism playbook to a new asset class. Same patt
 
 ---
 
+## Prediction markets interest (Oct 2025)
+
+[[Boaz Weinstein]] spoke at a closed-door conference in October 2025 alongside [[Polymarket]] founder [[Shayne Coplan]], arguing that prediction markets could allow portfolio managers to hedge with a higher degree of specificity — enabling investors to go "bigger" on trades.
+
+Weinstein cited a pricing divergence: [[Polymarket]] showed a 50% recession probability while credit markets indicated ~2% risk. "You can come up with an infinite number of pair trades that you couldn't do before."
+
+As of January 2026, Saba had "done nothing yet in prediction markets but watch."
+
+Source: FT (Jan 14, 2026)
+
+---
+
 ## Timeline
 
 | Date | Event |
@@ -169,6 +181,7 @@ Extends Saba's closed-end fund activism playbook to a new asset class. Same patt
 - [[Blue Owl OBDC II redemption gate]] — catalyst for BDC tender offers
 - [[Starwood Capital Group]] — SREIT tender offer target (Mar 2026)
 - [[Private credit retail liquidity crisis 2026]] — market context for illiquidity arbitrage campaign
+- [[Prediction markets]] — Weinstein interested in hedging applications (Oct 2025 conference)
 
 ---
 

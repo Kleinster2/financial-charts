@@ -143,6 +143,16 @@ Yass is a major libertarian donor, historically focused on school choice and fre
 
 ---
 
+## Prediction markets (2025-2026)
+
+[[Susquehanna]] was the first market-maker on [[Kalshi]] and has an event contracts tie-up with [[Robinhood]]. Participants in Kalshi's market-maker programme receive financial benefits, reduced fees, differing position limits, and enhanced access as incentives for providing liquidity.
+
+As of January 2026, hiring traders to "detect incorrect fair values" and identify "unusual behaviours" and "inefficiencies" on prediction markets, plus a dedicated sports trading desk.
+
+Source: FT (Jan 14, 2026)
+
+---
+
 ## Investment relevance
 
 **Why track Susquehanna**:
@@ -171,6 +181,11 @@ Yass is a major libertarian donor, historically focused on school choice and fre
 ### Investments
 - [[ByteDance]] — 15% stake, [[TikTok]] parent
 - [[BlockFills]] — crypto lender/trading ($37M Series A lead, 2022). Suspended withdrawals Feb 2026.
+
+### Prediction markets
+- [[Kalshi]] — first market-maker on the platform
+- [[Robinhood]] — event contracts tie-up
+- [[Prediction markets]] — expanding into cross-platform arbitrage
 
 ### Peer trading firms (market makers)
 - [[Citadel Securities]] — largest US market maker, Ken Griffin

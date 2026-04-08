@@ -19,13 +19,15 @@ aliases: [Balyasny Asset Management, BAM]
 
 ---
 
-## 2025 Performance
+## Performance
 
-| Fund | 2025 | 2024 |
-|------|------|------|
-| Balyasny | **16.7%** | 13.6% |
+| Fund | 2025 | 2024 | Mar 2026 |
+|------|------|------|----------|
+| Balyasny | **16.7%** | 13.6% | -4.3% |
 
-Outperformed larger peers Millennium and Citadel Wellington.
+Outperformed larger peers Millennium and Citadel Wellington in 2025. The March 2026 [[2026 Iran conflict market impact|Iran conflict]] hit harder than peers — -4.3% vs [[Citadel]] Wellington -1.9% and [[Millennium]] -1.2%. The [[HFR]] industry index fell 3.1%, the worst month since March 2020.
+
+*Source: FT, Apr 8 2026*
 
 ---
 

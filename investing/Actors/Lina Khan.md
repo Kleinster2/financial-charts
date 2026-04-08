@@ -1,6 +1,6 @@
 #actor #government #antitrust #regulation #usa
 
-**Lina Khan** — Former Chair of the FTC (2021-2025). Known for aggressive "Neo-Brandeisian" antitrust enforcement against Big Tech. **Departed January 2026** (or late 2025) as part of the [[Trump II]] deregulation sweep.
+**Lina Khan** — Former Chair of the FTC (2021-2025). Known for aggressive "Neo-Brandeisian" antitrust enforcement against Big Tech. Departed January 2026 as part of the [[Trump II]] deregulation sweep. As of April 2026, leading a new Center for Law and the Economy at [[Columbia University]] alongside law professor Lev Menand.
 
 ---
 
@@ -18,6 +18,12 @@
 *   **M&A Boom:** Removal removes the primary regulatory headwind for large-cap M&A.
 *   **Big Tech:** Companies like [[Amazon]], [[Google]], and [[Microsoft]] face less immediate breakup risk (though DOJ cases continue).
 *   **Pharma:** [[Biopharma]] M&A (a key exit for biotech) becomes easier.
+
+---
+
+## Post-FTC (2026–)
+
+Khan joined [[Columbia University]] in April 2026, co-leading a new Center for Law and the Economy with law professor Lev Menand. The center positions her as an academic counterweight to the [[Trump II]] deregulation agenda — keeping the Neo-Brandeisian framework alive in policy discourse even after losing the enforcement lever. Whether the center produces actionable regulatory proposals or primarily serves as a thought-leadership vehicle remains to be seen.
 
 ---
 

@@ -172,14 +172,14 @@ Katsuyama and team founded IEX (Investors Exchange):
 - [[The Man Who Solved the Market]] — Quant trading context
 
 ### Actors
-- IEX — the exchange Katsuyama built
-- [[Citadel]] — major HFT/market maker
-- Virtu Financial — HFT firm
-- NYSE, NASDAQ — traditional exchanges
+- [[IEX]] — the exchange Katsuyama built
+- [[Citadel Securities]] — major HFT/market maker
+- [[Virtu Financial]] — HFT firm
+- [[Nasdaq]], NYSE — traditional exchanges
 
 ### Concepts
-- High-frequency trading — the practice
-- Market structure — the infrastructure
+- [[Latency arbitrage]] — the core practice exposed
+- [[Market structure]] — the infrastructure
 - Payment for order flow — related problem
 - Dark pools — private exchanges
 

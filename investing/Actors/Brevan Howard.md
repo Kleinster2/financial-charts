@@ -19,15 +19,19 @@ aliases: [Brevan Howard Asset Management]
 
 ---
 
-## 2025 Performance
+## Performance
 
-| Fund | 2025 | 2024 |
-|------|------|------|
-| Emerging Markets | 15.4% | 3.2% |
-| Alpha Strategies | 8.01% | 2.62% |
-| Master Fund | 0.75% | 5.14% |
+| Fund | 2025 | 2024 | Mar 2026 |
+|------|------|------|----------|
+| Emerging Markets | 15.4% | 3.2% | — |
+| Alpha Strategies | 8.01% | 2.62% | — |
+| Master Fund | 0.75% | 5.14% | -6.6% |
 
-Wide dispersion across funds. EM outperformed.
+Wide dispersion across funds in 2025. EM outperformed.
+
+The March 2026 [[2026 Iran conflict market impact|Iran conflict]] produced the master fund's worst month in years. As a macro fund trading rates and currencies, Brevan Howard was directly exposed to the violent repricing from expected rate cuts to rate hikes after oil surged above $110/bbl and [[Iran]] closed the [[Strait of Hormuz]]. [[Steepener trade|Steepener trades]] — bets on shorter-dated bonds outperforming longer-dated ones — were "brutal" according to people at multi-manager funds. [[Caxton Associates|Caxton]]'s macro fund fared even worse (-15% to Mar 20).
+
+*Source: FT, Apr 8 2026*
 
 ---
 

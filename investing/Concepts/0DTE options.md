@@ -18,6 +18,17 @@ aliases: [zero-day options, 0DTE, zero-day-to-expiry options]
 
 ---
 
+## US options volume growth
+
+![[us-options-daily-volume-2023-2025.png]]
+*Average number (mn) of contracts traded daily in the US. Source: Bloomberg Intelligence.*
+
+US options volumes have tripled since 2019. As of mid-2025, approximately 61mn contracts change hands daily (Bloomberg Intelligence), up from ~42mn in early 2023. The growth has been supercharged by the popularity of 0DTE products used to navigate daily market shifts, and has attracted new exchange entrants — [[IEX]] applied in Sep 2025 to add options, becoming the 19th platform.
+
+*Source: [[Financial Times]] (Sep 1, 2025), Bloomberg Intelligence*
+
+---
+
 ## Mechanics
 
 Prior to 2022, SPX options expired only on Mondays, Wednesdays, and Fridays. [[CBOE]] filled the gaps with Tuesday and Thursday expirations, enabling daily 0DTE trading. The result: a contract bought at market open expires worthless or in-the-money by 4 PM — binary-like payoffs at options pricing.
@@ -40,3 +51,6 @@ The magnitude of this risk is debated. [[CBOE]] and some academics argue 0DTE fl
 - [[Prediction markets]] — 5/15-minute crypto bets as the prediction market equivalent
 - [[CBOE]] — introduced daily SPX expirations enabling 0DTE
 - [[Derivatives]] — 0DTE options are a derivative instrument
+- [[IEX]] — new options platform application driven by volume boom
+- [[Latency arbitrage]] — amplified in options markets
+- [[Market structure]] — exchange competition context

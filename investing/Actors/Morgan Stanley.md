@@ -91,6 +91,16 @@ Morgan Stanley exploring [[Significant risk transfer]] tied to portfolio of AI i
 
 ---
 
+## Options market-making exit (Jul 2025)
+
+Sold its electronic options market-making unit to [[Citadel Securities]] in July 2025. Morgan Stanley was the last remaining major bank with a significant electronic options market-making operation. The exit reflects the impossibility of banks competing on speed with dedicated prop firms — the arms race in trading infrastructure has priced out institutions that can't justify hundreds of millions in latency optimization for a single business line.
+
+The sale strengthens [[Citadel Securities]]' already dominant options franchise (~40% market share) and removes the last big-bank competitor from electronic options market-making.
+
+*Source: [[Financial Times]] (Sep 1, 2025)*
+
+---
+
 ## EquityZen acquisition (2025)
 
 **Private shares marketplace:**
@@ -191,6 +201,8 @@ Part of an industry-wide wave of semi-liquid fund gates. See [[Private Credit So
 - [[TeraWulf]], [[Cipher Mining]], [[Applied Digital]] — led junk bond offerings
 - [[Basis trade]] — research on $1.5T Treasury basis trade risk
 - [[Oracle]] — flagged CDS spike risk from AI borrowing
+- [[Citadel Securities]] — acquired MS electronic options market-making unit (Jul 2025)
+- [[IEX]] — market structure context for the options exit
 - [[Private Credit Software Concentration]] — North Haven fund limited withdrawals (Mar 2026)
 - [[Cliffwater]] — gated same day as Morgan Stanley (Mar 11, 2026)
 

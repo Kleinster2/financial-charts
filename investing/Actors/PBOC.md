@@ -103,6 +103,16 @@ See [[China NCD]] for funding mechanics.
 
 ---
 
+## Gold purchases (March 2026)
+
+The [[PBOC]] bought 160,000 troy ounces of [[Gold]] in March 2026 — its biggest reported purchase in more than a year. The buying came as gold prices fell sharply (~$5,500 peak → ~$4,650), suggesting opportunistic accumulation at lower prices while other central banks ([[CBRT]], [[Russia]]) were selling.
+
+Shaokai Fan ([[World Gold Council]]): "We are seeing central banks take both sides in this movement of the gold price right now. The interest in gold among central banks has increased in the last few months — but it cuts both ways."
+
+China's accelerated buying contrasts with the selling by energy-shocked nations and underscores Beijing's long-term de-dollarization strategy. [[China]]'s long-term [[Treasuries]] holdings were at record lows as of October 2025.
+
+---
+
 ## Why it matters
 
 - PBOC liquidity injections directly impact global risk appetite
@@ -115,9 +125,11 @@ See [[China NCD]] for funding mechanics.
 ## Related
 
 - [[China]] — economy overview
+- [[Gold]] — bought 160k oz March 2026 (biggest in >1yr)
 - [[China NCD]] — bank funding benchmark
 - [[Pan Gongsheng]] — PBOC Governor
 - [[NDRC]] — fiscal policy coordination
 - [[CNY]] — currency
+- [[CBRT]] — contrast: selling gold while PBOC buying
 - [[Selic]] — comparison: Brazil's policy rate
 - [[Banco Central do Brasil]] — comparison: Brazil's central bank

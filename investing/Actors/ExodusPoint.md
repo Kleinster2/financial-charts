@@ -19,13 +19,15 @@ aliases: [ExodusPoint Capital Management]
 
 ---
 
-## 2025 Performance
+## Performance
 
-| Fund | 2025 | 2024 |
-|------|------|------|
-| ExodusPoint | **18.04%** | 11.3% |
+| Fund | 2025 | 2024 | Mar 2026 |
+|------|------|------|----------|
+| ExodusPoint | **18.04%** | 11.3% | -4.5% |
 
-Strong year, outperformed Millennium (founder's origin).
+Strong 2025 — outperformed [[Millennium]] (founder's origin). But the March 2026 [[2026 Iran conflict market impact|Iran conflict]] exposed the firm's macro and bond trading concentration. ExodusPoint specializes in macro bets and bond trading, and the violent repricing from rate cuts to rate hikes after oil surged above $110/bbl hit those strategies directly. The -4.5% loss was worse than diversified pod shops ([[Citadel]] -1.9%, [[Millennium]] -1.2%) though better than pure macro specialists ([[Caxton Associates|Caxton]] -15%, [[Brevan Howard]] -6.6%).
+
+*Source: FT, Apr 8 2026*
 
 ---
 

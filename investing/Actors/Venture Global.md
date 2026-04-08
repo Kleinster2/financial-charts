@@ -52,6 +52,21 @@ CP2 would be Venture Global's third facility after Calcasieu Pass and Plaquemine
 
 With [[QatarEnergy]] under force majeure and physically damaged, Venture Global and [[Cheniere]] are the only LNG exporters with meaningful uncommitted capacity. Asian countries already knocking for supply — [[Taiwan]], [[Bangladesh]], [[Japan]] all seeking additional US LNG. Next US project to come online: [[Golden Pass]] (QatarEnergy/[[Exxon]] JV in Texas).
 
+### US-Iran ceasefire impact (Apr 8, 2026)
+
+Shares fell sharply (-12%) on Trump's announcement of a two-week conditional ceasefire with [[Iran]], including [[Strait of Hormuz]] reopening. As the largest gainer during the conflict (soared 17% in early days), Venture Global faced the steepest selloff as geopolitical risk premium began unwinding from LNG markets.
+
+**Market dynamics:**
+- Conflict-driven supply shortage premium starts to erode as Strait reopening reduces immediate supply disruption fears
+- Still benefits from structural Qatar infrastructure damage requiring multi-year repairs
+- Position as "big swing supplier" (alongside [[Cheniere]]) remains intact due to limited global LNG capacity
+
+**Structural implications:**
+- **If ceasefire holds:** Reduced urgency for emergency LNG procurement, normalizing spot pricing from conflict highs while maintaining structural advantage from Qatar outages
+- **If ceasefire collapses:** Rapid re-escalation could drive LNG demand even higher than conflict peaks, given demonstrated vulnerability of Gulf infrastructure
+
+See [[2026 Strait of Hormuz crisis]] and [[Iran conflict economic disruption]] for broader context.
+
 ---
 
 ## Related

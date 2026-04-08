@@ -16,7 +16,7 @@ aliases: [Two Sigma Investments, Two Sigma Advisers]
 | AUM | $110B+ (Two Sigma Investments) |
 | Employees | ~2,300 |
 | Co-Chairmen | [[John Overdeck]], [[David Siegel]] |
-| Co-CEOs | Carter Lyons, Scott Hoffman (Sep 2024) |
+| Co-CEOs | Seth Platt, Carter Lyons (disputed, Mar 2026) |
 | Strategy | Quantitative / systematic |
 
 ---
@@ -24,12 +24,22 @@ aliases: [Two Sigma Investments, Two Sigma Advisers]
 ## Founder feud
 
 - [[John Overdeck]] and [[David Siegel]] no longer on speaking terms
-- **March 2023**: Disclosed rift as *material risk* in regulatory filing — unprecedented for a hedge fund
-- **August 2024**: Both stepped down as co-CEOs
-- **September 2024**: Carter Lyons and Scott Hoffman became co-CEOs
-- **January 2025**: Headed to arbitration
+- March 2023: Disclosed rift as *material risk* in regulatory filing — unprecedented for a hedge fund
+- August 2024: Both stepped down as co-CEOs
+- September 2024: Carter Lyons and Scott Hoffman (ex-[[Lazard]] GC) became co-CEOs
+- January 2025: Headed to arbitration
 - Remain co-chairmen and equal owners
-- **Overdeck divorce**: Laura Overdeck filed early 2022, no prenup — billions at stake
+- Overdeck divorce: Laura Overdeck filed early 2022, no prenup — billions at stake
+
+### March 2026 — co-CEO quits, governance deepens
+
+The 2024 fix lasted barely a year. Scott Hoffman quietly stepped down in March 2026 citing "ongoing governance challenges." His replacement, Seth Platt — who until recently worked for Siegel's family office (Shinrai Management) — is now trying to fire the other co-CEO, Carter Lyons. Siegel named Platt to the management committee and as co-CEO, though the co-CEO title is disputed.
+
+A new ADV filing disclosed that the management committee members still cannot agree on organizational structure, executive responsibilities, or succession plans — the same warnings first made in 2023. Two Sigma warned these impasses could affect employee retention.
+
+FT Alphaville called it "tragicomic." The performance has held up through the drama, but the governance risk is material and unresolved.
+
+*Source: FT Due Diligence (Apr 3, 2026)*
 
 ---
 

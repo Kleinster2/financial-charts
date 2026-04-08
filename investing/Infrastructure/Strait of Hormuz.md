@@ -312,3 +312,30 @@ The market on March 25 was pricing in the possibility that selective transit + b
 *Sources: Bloomberg (March 24-25), Insurance Journal (March 25), Lloyd's Market Association (March 22), Irregular Warfare Institute (March 23), CNBC*
 
 *Updated 2026-03-25 (IRGC vetting system formalization, insurance market reality, India/China bilateral dynamics)*
+
+---
+
+## Ceasefire logistics — vessel backlog and transit timelines (April 8)
+
+At the time of the US-Iran ceasefire (April 8), over 800 vessels remained stuck in the Gulf, 70% carrying oil, fuels, and oil products ([[Kpler]] data via Bloomberg). Pre-war baseline: ~140 ships/day crossed the Strait.
+
+### Post-ceasefire transit regime
+
+Iran set to monitor ships for weapons and demand tolls in cryptocurrency — a continuation of the gatekeeping regime established in late March, now with crypto settlement replacing the earlier ad hoc fee structure.
+
+### Recovery logistics
+
+| Phase | Timeline | Detail |
+|-------|----------|--------|
+| Round trip (in/out + loading) | Up to 9 days | [[Wood Mackenzie]] estimate |
+| Vessels to [[Asia]] | ~1 month | From Gulf exit to Asian ports |
+| Vessels to [[Europe]] | ~2 months | From Gulf exit to European ports |
+| Refined products recovery | Additional lag | Diesel/jet fuel storage was lower than crude pre-crisis |
+
+The ceasefire's two-week window creates a binary gamble: ships outside the Gulf must commit within days (given the 9-day round trip) or wait for certainty the ceasefire extends.
+
+### Cumulative disruption
+
+~600 million barrels lost over ~6 weeks of shortfall. At 1 million bbl/day of overproduction, buffer rebuild takes ~2 years — extended demand from storage restocking will sustain elevated oil prices beyond any ceasefire.
+
+*Source: FT, "How this oil shock unwinds" (Apr 8, 2026)*

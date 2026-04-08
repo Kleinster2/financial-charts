@@ -124,6 +124,30 @@ aliases: [Yield curve steepener, Curve steepener, 2s10s steepener]
 
 ---
 
+## March 2026 — Iran war unwind
+
+The [[2026 Iran conflict market impact|Iran conflict]] destroyed the steepener trade in weeks. After being the consensus position going into 2026 — [[Pimco]], [[Capital Group]], [[Vanguard]], and most of JPMorgan's top 25 bond funds were in — the trade suffered its worst reversal since at least the 2020 Covid shock.
+
+The mechanism: the [[Strait of Hormuz]] closure sent oil above $110/bbl, which violently repriced rate expectations from cuts to hikes. The [[ECB]] and [[Bank of England]] now have two rate hikes priced in (FT/FactSet, Apr 8). Short-dated bond yields surged (the leg steepener traders were long), and the entire yield curve shifted upward. Instead of the front end rallying on Fed cuts, it sold off on inflation fears.
+
+The damage to macro hedge funds was severe. Losses were "concentrated right at the beginning" according to a person at a large multi-manager fund — "just brutal." The [[HFR]] index fell 3.1% in March (worst since March 2020). Macro specialists took the worst hits:
+
+| Fund | March 2026 | Style |
+|------|-----------|-------|
+| [[Caxton Associates]] | -15% (to Mar 20) | Macro |
+| [[Citadel]] GFI | -8.2% | Fixed income |
+| [[Brevan Howard]] master | -6.6% | Macro |
+| [[ExodusPoint]] | -4.5% | Macro / bond |
+| [[Balyasny]] | -4.3% | Multi-strategy |
+| [[Citadel]] Wellington | -1.9% | Multi-strategy |
+| [[Millennium]] | -1.2% | Multi-strategy |
+
+The steepener's vulnerability: it worked under every scenario *except* a real-economy supply shock that raised both short- and long-end yields simultaneously. The Iran conflict produced exactly that scenario.
+
+*Source: FT (Mourselas & Pollard), Apr 8 2026*
+
+---
+
 ## Related
 
 - [[Fed independence]] — crisis driving long-end selloff
@@ -131,7 +155,12 @@ aliases: [Yield curve steepener, Curve steepener, 2s10s steepener]
 - [[Treasuries]] — underlying market
 - [[Inflation]] — key variable for Fed path
 - [[Structured products]] — SPXFP also a rates bet
+- [[2026 Iran conflict market impact]] — the event that broke the trade
+- [[Iran conflict portfolio hedging]] — 60/40 failure, same supply-shock mechanism
+- [[HFR]] — March 2026 index data
+- [[Caxton Associates]] — worst-hit macro fund (-15%)
+- [[Stagflation]] — the regime that kills steepeners
 
 ---
 
-*Created 2026-01-15*
+*Created 2026-01-15. Updated 2026-04-08 — March 2026 Iran war unwind.*

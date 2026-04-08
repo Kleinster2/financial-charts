@@ -153,6 +153,23 @@ Bear:
 - Morningstar FV estimate: $59/share (assumes $58 WTI, $4.52 HH)
 - Analyst consensus: Hold (50%), Buy (34%), Sell (17%)
 
+### US-Iran ceasefire impact (Apr 8, 2026)
+
+Shares fell intraday in the -5% to -7.5% range on Trump's announcement of a two-week conditional ceasefire with [[Iran]], including [[Strait of Hormuz]] reopening. The oil price crash (WTI -17.7% to $92.92, Brent -16.1% to $91.68) hit OXY particularly hard given its high commodity sensitivity and elevated debt burden relative to Permian peers.
+
+**Market dynamics:**
+- Still-leveraged balance sheet (~$18B debt post-OxyChem) amplifies sensitivity to oil price moves
+- War premium unwind reverses recent cash flow improvement that was supporting debt reduction plans
+- $800M annual Berkshire preferred dividend provides less flexibility during commodity downturns vs peers
+
+**Structural implications:**
+- **If ceasefire holds:** Normalized oil prices below recent highs delay debt reduction timeline and buyback restart, extending period of Berkshire preferred dilution
+- **If ceasefire collapses:** Operational leverage to oil prices could accelerate deleveraging if oil exceeds previous peaks, potentially enabling earlier redemption of costly preferred equity
+
+Buffett's ~28% common position and strategic patience may provide downside support during energy market volatility.
+
+See [[2026 Strait of Hormuz crisis]] and [[Hormuz Permanent Risk Premium]] for broader conflict context.
+
 ---
 
 ## Related

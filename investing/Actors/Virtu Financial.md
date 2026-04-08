@@ -72,6 +72,14 @@ Major recipient of retail order flow.
 
 ---
 
+## IEX options support (Sep 2025)
+
+Virtu publicly supports [[IEX]]'s application to add options trading, siding against rival [[Citadel Securities]] in the [[SEC]] comment letter process. Virtu's position focuses on reducing [[latency arbitrage]] and leveling the playing field — a notable stance given Virtu's own HFT operations, but consistent with Virtu being a smaller market maker that would benefit from speed-bump protections against Citadel's infrastructure advantage.
+
+*Source: [[Financial Times]] (Sep 1, 2025)*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -85,9 +93,11 @@ Major recipient of retail order flow.
 
 ## Related
 
-- [[Citadel]] — competitor (market making)
+- [[Citadel Securities]] — rival; opposes IEX options plan that Virtu supports
 - [[Susquehanna]] — competitor (options)
 - [[Jane Street]] — competitor (ETFs)
+- [[IEX]] — supports options application (Sep 2025)
+- [[Latency arbitrage]] — the practice IEX targets
 
 ---
 

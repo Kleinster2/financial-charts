@@ -402,6 +402,8 @@ OTIC's 40.7% is the highest quarterly redemption request the non-traded BDC indu
 
 *Detailed Q1 2026 BDC redemption requests by fund. Blue Owl OTIC (far left) leads at ~40.7% requested, with only 5% honored. OCIC at 21.9%. Combined ~$5.4B in attempted withdrawals with ~$8B industry-wide stuck behind gates. Source: company filings.*
 
+**Industry-wide Q1 2026:** Investors attempted to pull ~$19bn from direct lending funds across the industry (FT, Apr 3 2026). [[KKR]], [[Ares Management]], and [[Apollo]] also capped redemptions. US Treasury announced it would meet with insurance regulators to assess risks stemming from private credit — the first Washington-level response beyond Sen. Warren's earlier calls.
+
 **Morgan Stanley forecast (Apr 2):** Expects annual private credit defaults of **8%** between H2 2026 and H1 2027, led by stress in software companies. Barclays warned: *"Many private credit funds have become very concentrated in a handful of sectors, in particular software."*
 
 **Alt manager damage:** Major alt managers (APO, BX, ARES, KKR, CG, OWL) have lost a combined **$132 billion in market value** YTD 2026 (Reuters). OWL worst at ~45%.

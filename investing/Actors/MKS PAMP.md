@@ -51,6 +51,14 @@ Shiels on January 2026:
 
 Described the market as "parabolic," "frenzied," and "untradeable."
 
+### Central bank gold selling (Apr 2026)
+
+Shiels on the March 2026 gold selloff (FT, Apr 8):
+
+> "Central banks' sales are the dominant driver of the $1,000 price fall over the past few weeks. The market has always assumed that central banks have been the backstop... but the recent data flows and official statements are sort of refuting that."
+
+The [[CBRT]] sold 52 tonnes and arranged 79 tonnes of swaps in a single month. [[Russia]] disposed of 15 tonnes in Jan-Feb. The shift from central bank accumulation to selective liquidation — driven by the [[2026 Iran conflict market impact|Iran war]] energy shock — inverted the structural bid that had supported [[Gold]] through its multi-year rally to $5,500+.
+
 ---
 
 ## Market position
@@ -63,8 +71,10 @@ Described the market as "parabolic," "frenzied," and "untradeable."
 
 ## Related
 
+- [[Gold]] — primary product; Shiels on CB selling as dominant price driver (Apr 2026)
 - [[Silver crash January 2026]] — Shiels commentary
+- [[CBRT]] — Turkey gold sales context
+- [[2026 Iran conflict market impact]] — energy shock driving CB gold liquidation
 - [[Heraeus Precious Metals]] — competitor/peer
-- [[Gold]] — primary product
 - [[Silver]] — product
 - [[LBMA]] — accreditation body

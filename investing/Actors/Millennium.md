@@ -66,6 +66,19 @@ March 2026 was the industry's worst month since Covid ([[HFR]] index -3.1%). Mil
 | Losing years | 1 (2008: -3.5%) |
 | Sharpe ratio (2012-2022) | 2.5 (2x+ average hedge fund) |
 
+### Lifetime performance (Bloomberg)
+
+| Metric | Millennium (since 1989) | S&P 500 (same period) |
+|--------|-------------------------|-----------------------|
+| Total return as multiple of S&P | 2.7x | 1x |
+| Growth of $1mn | $89mn | $33mn |
+
+[[Citadel]] is 11.53x the S&P over a comparable span ($1mn → $415mn since 1990) — but the comparison understates Millennium's risk-adjusted edge. Citadel's higher absolute return came with more drawdown volatility; Millennium's only losing year in 35 remains 2008 (-3.5%). The Sharpe ratio gap (Millennium ~2.5 vs industry ~0.8) is what LPs actually pay for.
+
+![[citadel-millennium-sp500-multiple.png]]
+![[citadel-millennium-growth-1mn.png]]
+*Source: Bloomberg*
+
 ---
 
 ## 13F holdings (Q3 2025)

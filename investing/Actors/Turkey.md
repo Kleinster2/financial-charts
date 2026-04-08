@@ -20,6 +20,8 @@ Transcontinental country straddling Europe and Asia. ~85M population. NATO membe
 | Inflation | ~31% (Dec 2025, down from 75% peak in May 2024) |
 | 5Y CDS | ~222 bps (early 2026) |
 | Currency | Turkish lira (TRY) |
+| Net international reserves | ~$46bn (Apr 2026, down ~50% since Iran war) |
+| CBRT gold reserves | 440 tonnes (Mar 27, 2026) |
 
 ---
 
@@ -62,6 +64,16 @@ Risks: Erdogan has overridden [[Central bank independence]] before (fired three 
 
 ---
 
+## Iran war reserve pressure (March 2026)
+
+The [[2026 Iran conflict market impact|Iran war]] and resulting energy shock hit Turkey as an oil-importing nation. The [[CBRT]] sold 52 tonnes of [[Gold]] and arranged 79 tonnes of gold swaps ($20bn combined) between Feb 27–Mar 27 to generate dollar liquidity and defend the lira. Net international reserves fell by almost half to ~$46bn. Gold holdings dropped to 440 tonnes, the lowest in over two years.
+
+Currency stability remains the linchpin of the disinflation campaign. Any lira instability risks unraveling two years of orthodox policy normalization. The energy shock creates a bind: Turkey needs dollars to pay for oil imports, but selling reserves erodes the cushion that underpins lira confidence.
+
+See [[CBRT#Gold reserve liquidation (March 2026)]] for details.
+
+---
+
 ## Key sectors
 
 | Sector | Weight / Significance |
@@ -86,4 +98,4 @@ See [[Turkish Defense Industry]] for deep dive on defense sector.
 - [[Brazil]] — EM peer comparison
 - [[Brazil corporate bond rout February 2026]] — CDS peer context
 
-*Created 2026-02-10 · Expanded 2026-02-17*
+*Created 2026-02-10 · Expanded 2026-02-17 · Updated 2026-04-08 (reserve drawdown)*

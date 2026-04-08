@@ -140,6 +140,37 @@ See [[Ultra-short-term contracts]] for the full analytical framework — the thr
 
 ---
 
+## Wall Street institutionalization (2025-2026)
+
+Trading volumes surged from less than $100M/month in early 2024 to more than $8B in December 2025 (Token Terminal), driven primarily by sports contracts after the NFL season began in fall 2025.
+
+![[prediction-market-volumes-ft-jan26.png]]
+*[[Polymarket]] and [[Kalshi]] combined monthly volume. Source: Token Terminal / FT (Jan 14, 2026)*
+
+Wall Street trading firms began building dedicated prediction market operations:
+
+| Firm | Activity |
+|------|----------|
+| [[DRW]] | Building "dedicated prediction markets desk," hiring trader ($200k base) |
+| [[Susquehanna]] | First market-maker on [[Kalshi]]; event contracts tie-up with [[Robinhood]]; hiring traders to detect mispricing |
+| [[Tyr Capital]] | Hiring prediction markets trader; CIO Ed Hindi: "extremely bullish on prediction markets' prospects, especially the monetary policy and economics data side" |
+| [[Jump Trading]] | Increased prediction market trading |
+| [[Flow Traders]] | Increased prediction market trading |
+
+The dominant institutional strategy is cross-platform arbitrage — exploiting price discrepancies between platforms offering similar outcomes — not directional bets. This mimics how HFT firms arbitrage spreads across stock exchanges.
+
+[[Saba Capital]]'s [[Boaz Weinstein]] argued at a closed-door conference (Oct 2025, alongside [[Polymarket]]'s [[Shayne Coplan]]) that prediction markets enable more specific hedging, allowing portfolio managers to go "bigger" on trades. He cited a divergence: [[Polymarket]] showed 50% recession probability while credit markets indicated ~2% risk. Saba had "done nothing yet" but watch as of January 2026.
+
+Most large multi-manager hedge funds remained on the sidelines — relative lack of liquidity versus traditional asset classes makes it difficult to justify deployment.
+
+New entrants hiring prediction market traders also include Kirin (New York), Anti Capital (New York), Sfermion (Chicago), and G-20 Advisors (Switzerland).
+
+**Insider trading concerns.** Rep. Ritchie Torres proposed legislation to prohibit insiders from trading prediction market contracts tied to events they can influence.
+
+Source: FT (Jan 14, 2026)
+
+---
+
 ## Risks and critiques
 
 | Risk | Description |

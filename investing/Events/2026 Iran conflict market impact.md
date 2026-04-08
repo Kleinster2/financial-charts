@@ -101,7 +101,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 |-------|--------|-----------|
 | Defense hardware | Overweight | Munitions burn, replenishment cycle, NATO rearmament accelerates |
 | Energy/oil | Overweight | Supply disruption, Hormuz risk, inventory draws |
-| Gold | **Underweight** | Safe-haven thesis failed: -15% in March (worst since 2008). Forced liquidation to cover margin calls + Turkey CB sold 50t. Not a hedge in a real supply shock |
+| Gold | **Underweight** | Safe-haven thesis failed: -11.5% in March (worst since 2008). [[CBRT]] sold 52t + arranged 79t swaps (~$20bn); [[Russia]] sold 15t Jan-Feb; 4 weeks of ETF outflows. CB selling now the dominant price driver (Shiels, [[MKS PAMP]]). [[PBOC]] buying 160k oz contrarian. Not a hedge in a real supply shock |
 | Airlines/travel | Underweight | Fuel costs + route disruption, duration-dependent |
 | Shipping | Overweight (tankers) | Rate spike on route disruption |
 | Insurance (specialty) | Neutral/avoid | Coverage withdrawal > premium windfall; tail risk from correlated claims |
@@ -125,6 +125,22 @@ March produced the rarest cross-asset outcome — stocks, bonds, and gold all fe
 
 This pattern last occurred during the 1973 Arab oil embargo and briefly during the 2022 Russia invasion spike. The implication: portfolio diversification fails in real supply shocks because the inflationary impulse hits both equities (margins) and bonds (rate expectations) simultaneously.
 
+### Hedge fund performance (FT, Apr 8)
+
+The [[HFR]] flagship index fell 3.1% in March — the worst month since a 9.1% drop in March 2020. Macro hedge funds bore the brunt: the consensus pre-war [[Steepener trade]] (long short-end, short long-end) was crushed as markets repriced from rate cuts to rate hikes. Kenneth Heinz (HFR): "There were not enough long oil to offset the rapid repricing of the dovish interest rate and positive growth scenario."
+
+| Fund | Type | March 2026 |
+|------|------|-----------|
+| [[Caxton Associates]] macro | Macro | -15% (to Mar 20) |
+| [[Citadel]] GFI | Fixed income | -8.2% |
+| [[Brevan Howard]] master | Macro | -6.6% |
+| [[ExodusPoint]] | Macro / bonds | -4.5% |
+| [[Balyasny]] flagship | Multi-strategy | -4.3% |
+| [[Citadel]] Wellington | Multi-strategy | -1.9% |
+| [[Millennium]] flagship | Multi-strategy | -1.2% |
+
+The dispersion between macro specialists and diversified multi-managers is the clearest signal: pod shops' hundreds of uncorrelated strategies absorbed the shock, while concentrated rate bets amplified it. [[Gold]] failed as a hedge alongside bonds.
+
 ---
 
 ## Expert panels
@@ -144,6 +160,12 @@ Two major expert panels produced the deepest structural analysis:
 - [[Strait of Hormuz]] — oil chokepoint
 - [[Iran conflict long-short basket]] — thesis
 
+### Gold / reserves
+- [[Gold]] — safe-haven thesis failed; CB selling pivot
+- [[CBRT]] — sold 52t + 79t swaps ($20bn) to defend lira
+- [[PBOC]] — contrarian buyer (160k oz March)
+- [[World Gold Council]] — CB purchase/sales data
+
 ### Key actors
 - [[Saudi Arabia]], [[Tadawul]], [[Saudi Aramco]] — Gulf outperformer
 - [[UAE]], [[Dubai Financial Market]] — Gulf underperformer (-17%)
@@ -154,6 +176,16 @@ Two major expert panels produced the deepest structural analysis:
 - [[Exxon]] — ~20% ME FCF, lagging peers
 - [[Exail Technologies]] — European MCM drone specialist (+5.8%)
 - [[Schlumberger|SLB]] — first oilfield services profit warning
+
+### Hedge funds
+- [[HFR]] — HFRI -3.1% March (worst since Covid)
+- [[Citadel]] — Wellington -1.9%, GFI -8.2%
+- [[Millennium]] — flagship -1.2% (most resilient multi-manager)
+- [[Balyasny]] — flagship -4.3%
+- [[Caxton Associates]] — macro fund -15% (to Mar 20)
+- [[ExodusPoint]] — -4.5%
+- [[Brevan Howard]] — master fund -6.6%
+- [[Steepener trade]] — consensus positioning destroyed by rate repricing
 
 ### Key sources
 - [[Robin J. Brooks]] — Hormuz vessel tracking, near-peak thesis

@@ -110,6 +110,16 @@ Co-founder [[Luana Lopes Lara]] is Brazilian (trained at a Bolshoi-affiliated ba
 
 ---
 
+## Market-maker programme
+
+[[Susquehanna]] was the first market-maker on Kalshi (led by [[Jeff Yass]]). Programme participants receive financial benefits, reduced fees, differing position limits, and enhanced access as incentives for providing liquidity. Specific terms not publicly disclosed.
+
+As of January 2026, [[DRW]], [[Jump Trading]], and [[Flow Traders]] also trading on the platform. Kalshi's event contracts tie-up with [[Robinhood]] uses Susquehanna as liquidity provider.
+
+Source: FT (Jan 14, 2026)
+
+---
+
 ## Media partnerships
 
 - **CNN** (2025) — prediction market data integration
@@ -185,5 +195,7 @@ Source: Bloomberg (Tsekova/Beyoud, Mar 19, 2026)
 - [[Crypto.com]] — competitor (CDNA)
 - [[Tradeweb]] — strategic investor + institutional distribution partner (Feb 2026)
 - [[Coatue]] — Series F lead ($22B, Mar 2026)
+- [[Susquehanna]] — first market-maker
+- [[DRW]] — market participant
 - [[VoxFi]] — Brazilian prediction market startup
 - [[Brazil]] — international expansion market (Mar 2026 via XP)

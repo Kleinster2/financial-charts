@@ -22,8 +22,8 @@ aliases: [market microstructure, trading infrastructure]
 
 | Component | Examples |
 |-----------|----------|
-| Exchanges | NYSE, NASDAQ, [[CBOE]] |
-| Market makers | [[Citadel Securities]], Virtu, [[Jane Street]] |
+| Exchanges | NYSE, [[Nasdaq]], [[CBOE]], [[IEX]] |
+| Market makers | [[Citadel Securities]], [[Virtu Financial]], [[Jane Street]] |
 | Dark pools | Off-exchange venues |
 | Brokers | [[Robinhood]], [[Charles Schwab]], [[Fidelity]] |
 | Clearing | DTCC, OCC |
@@ -81,7 +81,10 @@ aliases: [market microstructure, trading infrastructure]
 ## Related
 
 - [[Citadel Securities]] — largest market maker
+- [[IEX]] — speed-bump exchange challenging HFT advantages
+- [[Latency arbitrage]] — the practice IEX targets
 - [[Robinhood]] — PFOF-based broker
 - [[Coinbase]] — crypto exchange
 - [[Interactive Brokers]] — professional trading
+- [[0DTE options]] — driving options market growth
 

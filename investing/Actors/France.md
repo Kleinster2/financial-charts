@@ -146,7 +146,14 @@ Three sources of German frustration with France:
 - [[FCAS]] — $115B 6th-gen fighter, technology sharing dispute
 - [[Dassault Aviation]] — FCAS technology sharing dispute
 - [[Italy]] — Merz-Meloni axis as counterweight
+- [[Gold]] — completed repatriation of all reserves from US (Apr 2026)
 
 ---
 
-*Created 2026-01-10. Updated 2026-02-27.*
+## Gold repatriation (completed Apr 2026)
+
+[[France]] completed a years-long programme to repatriate its [[Gold]] reserves and no longer holds any gold in the United States. France is part of a growing trend of central banks repatriating gold from foreign vaults, reflecting broader de-dollarization and sovereignty concerns in reserve management.
+
+---
+
+*Created 2026-01-10. Updated 2026-02-27. Updated 2026-04-08 (gold repatriation).*

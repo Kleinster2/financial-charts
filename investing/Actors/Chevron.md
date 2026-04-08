@@ -102,6 +102,21 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 
 **Jan 12, 2026 — Exxon exclusion benefits Chevron:** Trump said he's "inclined to keep Exxon out" after Woods called Venezuela "uninvestable." If [[Exxon]] excluded, Chevron's competitive position strengthens — less competition for contracts, expansion opportunities.
 
+### US-Iran ceasefire impact (Apr 8, 2026)
+
+Shares fell sharply on Trump's announcement of a two-week conditional ceasefire with [[Iran]], including [[Strait of Hormuz]] reopening. Stock declined intraday alongside broader energy sector selloff as oil prices crashed ~17% (biggest drop since COVID), reversing the war premium that had made Energy the top-performing S&P sector in Q1 (+37%).
+
+**Market dynamics:**
+- Oil crash (WTI -17.7% to $92.92, Brent -16.1% to $91.68) unwound months of accumulated war premium
+- Chevron's strong LNG position provides some insulation from pure oil price moves
+- Venezuela operations continue unaffected by Middle East developments
+
+**Structural implications:**
+- **If ceasefire holds:** Permanent normalization of energy markets reduces war premium contribution to cash flows, but stabilizes [[LNG]] demand patterns
+- **If ceasefire collapses:** Rapid re-escalation could drive oil above previous highs, with Chevron's diversified upstream/LNG portfolio potentially outperforming pure oil plays
+
+See [[2026 Strait of Hormuz crisis]] and [[Hormuz Transit Regime]] for broader conflict context.
+
 ---
 
 ## Hess acquisition (2024)

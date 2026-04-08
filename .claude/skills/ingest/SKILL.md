@@ -21,12 +21,14 @@ Detect source type and acquire content:
 | SEC filing | `python scripts/parse_sec_filing.py TICKER` (never WebFetch on sec.gov) |
 | User-pasted text | Use directly |
 
+**Entity sweep at triage.** Before deciding whether content is worth ingesting, check ALL named entities — headline actors, secondary firms, origin firms, counterparties — for vault presence. Report which have notes and which don't. A story may not deserve ingestion, but a missing vault note for a mentioned entity is a gap worth surfacing regardless.
+
 **Present before analyzing.** The user may not have read the source. Before any vault work, present:
 - Source metadata (title, speaker(s), date, duration/length)
 - Key points summary (5-10 bullets with exact figures)
 - Themes identified
 
-Wait for user to confirm direction before proceeding. The summary is their only preview.
+After presenting the summary, proceed immediately to Phase 1. Always assume full sweep — process every entity, every data point, every angle. Do not ask "what's the scope?" or "which slice?" — the answer is always "all."
 
 ## Phase 1: Full Enumeration
 

@@ -46,6 +46,20 @@ When Bloomberg, WSJ, or institutional research cites "hedge fund industry" figur
 
 ---
 
+## March 2026 — worst month since Covid
+
+The HFRI Fund Weighted Composite Index fell 3.1% in March 2026, the worst month since a 9.1% drop in March 2020 when Covid lockdowns shuttered the global economy. The [[2026 Iran conflict market impact|Iran conflict]] blindsided the industry — oil above $110/bbl, [[Strait of Hormuz]] closed, and a violent repricing from rate cuts to rate hikes that destroyed consensus positioning (see [[Steepener trade]]).
+
+Kenneth Heinz (HFR president): many large funds made money on oil, but lost more on other positions including bonds. "There were not enough long oil to offset the rapid repricing of the dovish interest rate and positive growth scenario that people had priced in for 2026."
+
+Macro funds suffered worst: [[Caxton Associates|Caxton]] -15% (to Mar 20), [[Brevan Howard]] master fund -6.6%, [[ExodusPoint]] -4.5%. Multi-manager flagships held up relatively better: [[Citadel]] Wellington -1.9%, [[Millennium]] -1.2%, though [[Balyasny]] was down 4.3%. [[Citadel]]'s fixed income fund GFI was down 8.2%.
+
+[[Gold]], traditionally a safe haven, did not protect portfolios — it fell alongside stocks and bonds in the rarest cross-asset signature: only energy worked. See [[Iran conflict portfolio hedging]] for the 60/40 breakdown and [[2026 Iran conflict market impact]] for the cross-asset signature.
+
+*Source: FT, Costas Mourselas & Amelia Pollard, Apr 8 2026*
+
+---
+
 ## Leadership
 
 | Name | Role | Background |

@@ -41,7 +41,7 @@ aliases: [Trian Fund Management, Trian]
 | **Wendy's** | 2005+ | Long-term board involvement |
 | **Sysco** | 2015 | Board seat, operational gains |
 | **GE** | 2015 | Pushed for breakup |
-| **[[Unilever]]** | 2022 | Lost bid for board |
+| **[[Unilever]]** | 2022-2026 | Pushed food separation; CEO Schumacher dismissed Feb 2025; food + [[McCormick]] = $66bn entity (Apr 2026) |
 
 ---
 
@@ -96,7 +96,9 @@ High-profile failure despite valid criticisms.
 - [[Pershing Square]] — peer activist
 - [[Starboard Value]] — peer activist (operational)
 - [[ValueAct Capital]] — peer activist (constructive)
+- [[Unilever]] — food breakup campaign (2022-2026, success)
+- [[McCormick]] — Unilever food entity partner
 
 ---
 
-*Created 2026-01-16. Updated 2026-03-23*
+*Created 2026-01-16. Updated 2026-04-08 — Unilever food breakup success.*

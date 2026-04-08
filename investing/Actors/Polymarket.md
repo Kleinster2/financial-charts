@@ -114,6 +114,21 @@ Source: FT (Mar 13, 2026)
 
 ---
 
+## Scrutiny and insider trading concerns (2025-2026)
+
+Polymarket has drawn scrutiny over suspicious trading patterns:
+
+| Incident | Details |
+|----------|---------|
+| **Venezuela/Maduro capture** (Jan 2026) | A mystery trader won more than $400,000 on a well-timed bet that Venezuelan strongman Nicolás Maduro would be captured by the US military |
+| **Nobel Peace Prize** (fall 2025) | A new user correctly predicted María Corina Machado as the Nobel Peace Prize winner just hours before the announcement |
+
+Rep. Ritchie Torres proposed legislation to prohibit insiders "from engaging in covered transactions involving prediction market contracts" — the first Congressional response to potential insider-driven manipulation on prediction markets.
+
+Source: FT (Jan 14, 2026)
+
+---
+
 ## The bull case
 
 1. **Global access** — no geographic restrictions (except US)

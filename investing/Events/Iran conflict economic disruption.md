@@ -138,6 +138,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Developing nation remittance flows | Gulf expat populations contracting → weaker remittance flows to South Asia, Africa, SE Asia. Combined with food shortages from fertilizer disruption | Flagged: FT editorial board (Mar 20). Untracked at country level |
 | Tech-concentrated equity correction | Higher rates + energy uncertainty → portfolios heavily concentrated in highly-valued tech stocks face severe correction. Private markets under strain | Flagged: FT editorial board (Mar 20). Connects to Yardeni 35% meltdown scenario |
 | Paper-physical convergence event | Atlantic basin inventories drawn down → Brent/WTI forced repricing to $150+ | Materializing: [[Rystad Energy]] (Apr 8) — [[Forties]] $34-35 above Brent, [[Atlantic basin]] barrels rerouting to Asia. ~10% of mainline [[VLCC]]s locked in Persian Gulf in first week. 2-4 week physical shortage persists even with ceasefire. See [[Iran conflict oil price timeline]] Apr 8 entry |
+| Buffer rebuild timeline | ~600M barrels lost over 6 weeks of shortfall. At 1M bbl/day overproduction: ~2 years to replenish. Storage demand keeps prices elevated beyond ceasefire | FT (Apr 8): 800+ vessels still stuck in Gulf at ceasefire. Refined products lag crude due to lower pre-crisis storage. [[Australia]] faces multi-step supply chain wait (crude → refiner confidence → product delivery) |
 
 ---
 

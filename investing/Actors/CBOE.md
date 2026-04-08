@@ -63,6 +63,26 @@ Invented modern options trading:
 
 ---
 
+## US options market share (Aug 2025)
+
+![[us-options-market-share-aug2025.png]]
+*US equity options market share (%) averaged over last five trading days. Exchanges grouped by parent company. Source: Cboe Global Markets.*
+
+| Exchange group | Market share | # of exchanges |
+|----------------|-------------|----------------|
+| Cboe | ~30% | 4 |
+| [[Nasdaq]] | ~27% | 6 |
+| MIAX | ~15% | 4 |
+| NYSE | ~14% | 4 |
+| BOX Options | ~8% | 1 |
+| MEMX | ~5% | 2 |
+
+Cboe remains the largest options exchange group by market share. The landscape has 18 platforms as of mid-2025, with [[IEX]] applying to become the 19th — and sparking a fight with [[Citadel Securities]] over its proposed anti-[[latency arbitrage]] features.
+
+*Source: [[Financial Times]] (Sep 1, 2025), Cboe Global Markets data*
+
+---
+
 ## SPX options
 
 **Cash-settled S&P 500 options:**
@@ -119,5 +139,8 @@ Invented modern options trading:
 
 - [[CME Group]] — competitor (futures, options)
 - [[Intercontinental Exchange]] — peer (NYSE)
-- [[Nasdaq]] — peer (equities)
+- [[Nasdaq]] — peer (equities, ~27% options share)
+- [[IEX]] — applying for options platform (Sep 2025)
+- [[Latency arbitrage]] — the practice IEX targets
+- [[0DTE options]] — driving volume growth
 

@@ -106,6 +106,28 @@ Citadel Securities, [[Jane Street]], and [[Hudson River Trading]] have all tappe
 
 ---
 
+## IEX options fight (Sep 2025)
+
+[[IEX]], the exchange built by Brad Katsuyama to combat [[latency arbitrage]] (chronicled in [[Flash Boys]]), applied to the [[SEC]] to add options trading to its existing stock exchange. IEX's proposed system would automatically delay, cancel, or reprice market-maker quotes if its software detects the best price is about to change — targeting [[latency arbitrage]] in options, where the problem is amplified by the complexity of hundreds of strikes and expiry dates per stock.
+
+Citadel Securities filed three comment letters opposing the plan. The core objection: under Reg NMS best-execution rules, all market makers would have to route trades to IEX when its price looks best — even if they believe IEX's software may cancel or tweak the trade before completion.
+
+[[Virtu Financial]] and CTC support IEX's plan, focusing on leveling the playing field. This is the third IEX-Citadel clash — Citadel twice previously opposed IEX's equities applications and lost (including on appeal). IEX's equities innovations didn't reshape markets as opponents feared.
+
+*Source: [[Financial Times]] (Sep 1, 2025)*
+
+---
+
+## Morgan Stanley options unit acquisition (Jul 2025)
+
+Acquired [[Morgan Stanley]]'s electronic options market-making unit in July 2025. [[Morgan Stanley]] was the last remaining major bank with a significant electronic options market-making operation — its exit underscores how tough the competition for speed has become, effectively leaving the business to dedicated firms like Citadel Securities, [[Virtu Financial]], and [[Susquehanna]].
+
+The acquisition expands Citadel Securities' already dominant options franchise (~40% of options volume).
+
+*Source: [[Financial Times]] (Sep 1, 2025)*
+
+---
+
 ## Investment case
 
 **Can't invest directly** (private), but relevant context for:
@@ -174,6 +196,8 @@ See [[Citadel Securities 2026 Global Intelligence Crisis]] for full analysis.
 
 ## Related
 
+- [[IEX]] — opponent in options market structure fight (Sep 2025); previously lost twice on equities
+- [[Latency arbitrage]] — the practice IEX's innovations target
 - [[Citadel Securities 2026 Global Intelligence Crisis]] — macro strategy paper (Feb 2026)
 - [[Citrini 2028 Global Intelligence Crisis]] — the thesis Citadel responded to
 - [[February 2026 AI Disruption Cascade]] — market context

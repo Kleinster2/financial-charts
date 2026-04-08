@@ -93,6 +93,21 @@ Known for shareholder-friendly approach.
 
 See [[Venezuela]], [[Maduro capture 2026]], [[WH oil executives Venezuela meeting 2026-01-09]].
 
+### US-Iran ceasefire impact (Apr 8, 2026)
+
+Shares fell intraday in the -5% to -7.5% range on Trump's announcement of a two-week conditional ceasefire with [[Iran]], including [[Strait of Hormuz]] reopening. As a pure-play upstream company, ConocoPhillips faces direct commodity exposure to the oil price crash (WTI -17.7% to $92.92, Brent -16.1% to $91.68) — the biggest single-day drop since COVID.
+
+**Market dynamics:**
+- Pure upstream model amplifies oil price moves vs integrated majors with downstream hedges
+- War premium unwind particularly impacts E&P companies that had benefited from elevated oil prices
+- No refining operations to provide margin offsets during commodity price volatility
+
+**Structural implications:**
+- **If ceasefire holds:** Permanent normalization below recent highs (>$119) reduces cash flow projections and return potential from recent capital allocation decisions
+- **If ceasefire collapses:** Pure commodity exposure could deliver outsized upside if oil prices exceed previous peaks, given operational leverage model
+
+See [[2026 Strait of Hormuz crisis]] and [[Hormuz Permanent Risk Premium]] for broader conflict context.
+
 ---
 
 ## Investment case

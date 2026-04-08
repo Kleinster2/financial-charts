@@ -21,10 +21,42 @@ The cautious easing cycle that began in late 2024 is the current investable ques
 | Stance | Cautious easing cycle |
 | Governor | Fatih Karahan (Feb 2024-present) |
 | Lira | ~36/USD (Mar 2026) |
+| Gold reserves | 440 tonnes (Mar 27, 2026) |
+| Net international reserves | ~$46bn (down ~50% since Iran war) |
+
+## Gold reserve liquidation (March 2026)
+
+The [[2026 Iran conflict market impact|Iran war]] forced the CBRT to liquidate gold reserves at scale to generate dollar liquidity and defend the lira. Between February 27 and March 27, the CBRT:
+
+| Action | Volume | Value |
+|--------|--------|-------|
+| Gold sales | 52 tonnes | ~$7.7bn |
+| Gold swaps (leased out) | ~79 tonnes | ~$11.7bn |
+| Combined | ~131 tonnes | ~$20bn |
+
+![[ft-turkey-bullion-holdings-2020-2026.png]]
+*CBRT net gold reserves (tonnes), 2020–2026. Annotations: Covid recovery (2021), election drawdown (2023), Iran war selloff (2026). Source: FT/Metals Focus, data as of Mar 27, 2026*
+
+Net holdings fell to 440 tonnes — lowest in more than two years. The CBRT had been holding 60–70% of reserves in gold, necessitating sales to raise dollar liquidity when the lira came under pressure from the energy shock.
+
+The pace accelerated toward month-end: 31 tonnes sold in the week ending March 27 alone (Metals Focus).
+
+Gold swaps involve leasing out bars to generate income and add downward pressure on [[Gold]] prices by increasing the supply available to markets.
+
+Uğur Gürses (former CBRT gold reserve management): the bank now has sufficient liquidity and no immediate need to sell more gold.
+
+The CBRT was also among global central banks selling US [[Treasuries]] to support its currency.
+
+Turkey's net international reserves fell by almost half to ~$46bn since the Iran war began (Bürümcekçi Research and Consulting, based on official data).
+
+The gold sales underscore Turkey's commitment to currency stability — a central plank in the country's campaign to curb inflation from 85%+ (2022) to ~31% (Dec 2025). Any lira instability risks unraveling the credibility built during the [[#Synopsis|orthodox pivot]].
 
 ## Related
 
 - [[Turkey]] — country, political risk driver
+- [[Gold]] — reserve asset; CBRT sold 52t + 79t swaps (March 2026)
+- [[2026 Iran conflict market impact]] — triggered reserve drawdown
 - [[Central bank independence]] — concept; CBRT is the negative case study
 - [[Emerging markets]] — monetary policy and carry trade context
 - [[Borsa Istanbul]] — Turkish equities, rate-sensitive
+- [[MKS PAMP]] — Nicky Shiels commentary on CB gold sales

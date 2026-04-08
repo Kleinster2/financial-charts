@@ -249,6 +249,12 @@ Full war mobilization + severe underinvestment could trigger 1988-95 style colla
 
 ---
 
+## Gold reserve sales (2026)
+
+[[Russia]] disposed of 15 tonnes of [[Gold]] in January and February 2026, part of a broader shift in central bank gold management triggered by the [[2026 Iran conflict market impact|Iran war]] energy shock and geopolitical pressures. Russia was among several central banks (alongside [[Turkey]]/[[CBRT]] and potentially [[Poland]]) choosing to sell gold to bolster fiscal position or currency.
+
+---
+
 ## Investment implications
 
 | Scenario | Impact |

@@ -41,6 +41,22 @@ The two trains represent 12.8 mtpa of capacity — 17% of Qatar's total. Force m
 
 *Source: Reuters Exclusive, March 19, 2026*
 
+### US-Iran ceasefire impact (Apr 8, 2026)
+
+Shares fell sharply on Trump's announcement of a two-week conditional ceasefire with [[Iran]], including [[Strait of Hormuz]] reopening. Stock dropped over 5% intraday alongside broader energy sector selloff as oil prices crashed ~17% (biggest drop since COVID), unwinding the war premium that had supported Energy as Q1's top-performing sector (+37%).
+
+**Market dynamics:**
+- Oil crash (WTI -17.7% to $92.92, Brent -16.1% to $91.68) reversed months of war premium accumulation since late February
+- Brent and WTI had risen ~51% and ~69% respectively since late Feb when Middle East tensions first disrupted Hormuz
+- Exxon's limited exposure to volatility trading (vs [[BP]], [[Shell]]) provided less upside protection during the war premium period
+- Qatar LNG damage remains multi-year headwind regardless of ceasefire duration
+
+**Structural implications:**
+- **If ceasefire holds:** War premium unwind becomes permanent, normalizing energy valuations and reducing cash flow projections from elevated oil prices that had driven Energy sector outperformance
+- **If ceasefire collapses:** Rapid re-escalation could drive oil above previous $119 highs, with markets potentially pricing higher risk premiums for demonstrated vulnerability of critical chokepoints
+
+See [[2026 Strait of Hormuz crisis]] and [[Hormuz Permanent Risk Premium]] for broader conflict context.
+
 ---
 
 ## Why Exxon matters for AI thesis

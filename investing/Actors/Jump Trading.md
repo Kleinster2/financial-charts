@@ -37,6 +37,7 @@ aliases: [Jump, Jump [[Crypto]]]
 | Options | Significant |
 | FX | Active |
 | [[Crypto]] | Was major (exited) |
+| [[Prediction markets]] | Increased trading (2025-2026) |
 
 ---
 
@@ -78,6 +79,8 @@ Built then exited crypto amid regulatory pressure.
 - [[Citadel]] — competitor
 - [[Susquehanna]] — competitor
 - [[DRW]] — peer (Chicago)
+- [[Prediction markets]] — increased trading (2025-2026)
+- [[Kalshi]] — trading venue
 
 ---
 

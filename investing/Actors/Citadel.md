@@ -50,9 +50,28 @@ Separate entities, both dominant.
 | 2023 | +15% | Strong |
 | 2024 | +15% | Consistent |
 | 2025 | +10-18% | Various funds |
+| 2026 (Mar) | -1.9% (Wellington) | [[2026 Iran conflict market impact|Iran war]] losses |
+| 2026 (Mar) | -8.2% (GFI) | Fixed income fund; rates repricing |
 | **Since 1990** | **19% net** | Annualized |
 
 One of best long-term track records.
+
+The March 2026 [[2026 Iran conflict market impact|Iran conflict]] hit the fixed income fund hardest — the GFI -8.2% loss reflected the violent repricing from rate cuts to rate hikes as oil surged above $110/bbl. Wellington's -1.9% was resilient relative to macro peers ([[Caxton Associates|Caxton]] -15%, [[Brevan Howard]] -6.6%).
+
+*Source: FT, Apr 8 2026*
+
+### Lifetime performance (Bloomberg)
+
+| Metric | Citadel (since 1990) | S&P 500 (same period) |
+|--------|----------------------|-----------------------|
+| Total return as multiple of S&P | 11.53x | 1x |
+| Growth of $1mn | $415mn | $36mn |
+
+The gap dwarfs [[Millennium]] (2.7x S&P, $1mn → $89mn since 1989). Different inception periods — the S&P 500 returned $36mn on Citadel's timeline vs $33mn on Millennium's — but the 4.3x ratio between the two funds reflects Wellington's higher annualized return (19% vs ~14%) compounding over a similar span.
+
+![[citadel-millennium-sp500-multiple.png]]
+![[citadel-millennium-growth-1mn.png]]
+*Source: Bloomberg*
 
 ---
 

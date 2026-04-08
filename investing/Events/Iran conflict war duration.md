@@ -95,6 +95,38 @@ Note: Brooks assumes 5 mb/d via Yanbu, but the [[East-West Pipeline]] note docum
 
 ---
 
+## Ceasefire unwinding timeline (FT, Apr 8)
+
+The two-week ceasefire agreed by the US and [[Iran]] was greeted with relief, but the oil shock will take far longer than two weeks to unwind. FT analysis laid out the phased recovery:
+
+### Phase 1: Logistics snarl-up (days to weeks)
+
+Over 800 vessels stuck in the Gulf as of ceasefire, 70% carrying oil, fuels, and oil products ([[Kpler]] data via Bloomberg). Pre-war, ~140 ships crossed the [[Strait of Hormuz]] daily. With Iran set to monitor ships for weapons and demand tolls in cryptocurrency, flow rates will be lower than normal even after reopening.
+
+The ceasefire's two-week window creates a dilemma: the round trip in and out of the Strait including loading takes up to 9 days ([[Wood Mackenzie]]). Ships huddling outside must either start engines immediately or wait for reasonable certainty the ceasefire extends.
+
+### Phase 2: Transit lag (weeks to months)
+
+Once vessels exit, ~1 month to reach [[Asia]]n markets, ~2 months to [[Europe]]. Seeing ships sail may ease crude sentiment, but refined products (diesel, jet fuel) — which suffered more severe disruption due to lower storage — will recover with a further lag.
+
+[[Australia]], a major fuel importer reliant on Asian refiners, faces a multi-step wait: suppliers must get crude, gain enough confidence to stop stockpiling, then deliver. [[China]] halted refined product exports during the crisis.
+
+### Phase 3: Infrastructure restart (months to years)
+
+Some Middle Eastern oilfields, gas liquefaction plants, and refineries were damaged during hostilities. [[QatarEnergy]]: two struck liquefaction trains require 3-5 years to repair. Producers with spare capacity — mainly [[Saudi Arabia]] — may fill some of the gap.
+
+### Phase 4: Buffer rebuild (~2 years)
+
+The world has suffered ~6 weeks of significant production shortfall, totaling ~600 million barrels lost. At 1 million bbl/day of overproduction, rebuilding buffers takes nearly two years. Extra demand from storage replenishment will keep oil prices elevated.
+
+### Risk premium persistence
+
+The pre-war benchmark of ~$60/bbl is unlikely to return soon. The "singed energy world" will price in risk for a long time — the demonstrated ability to disrupt global supply creates a [[Hormuz Permanent Risk Premium|permanent risk premium]] regardless of ceasefire durability.
+
+*Source: FT, "How this oil shock unwinds" (Apr 8, 2026)*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note
@@ -115,4 +147,4 @@ Note: Brooks assumes 5 mb/d via Yanbu, but the [[East-West Pipeline]] note docum
 
 ---
 
-*Created 2026-03-23. Extracted from [[2026 Iran conflict market impact]] during hub refactor.*
+*Created 2026-03-23. Extracted from [[2026 Iran conflict market impact]] during hub refactor. Updated 2026-04-08 (FT ceasefire unwinding timeline).*

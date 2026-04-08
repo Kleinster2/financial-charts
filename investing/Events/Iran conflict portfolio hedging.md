@@ -189,3 +189,7 @@ A month after the initial correlation breakdown, major fund managers are now *bu
 Key evidence the trade is shifting: 1Y US inflation swaps jumped from 2.5% to >3.1%, but the 5Y5Y forward is flat at ~2.4% — the market reads the oil shock as transitory, not structurally inflationary. If correct, central banks will eventually cut to offset the growth drag, and the traditional bond hedge reasserts itself.
 
 This doesn't fully reverse the 60/40 breakdown above — stocks and bonds may still move together on headline risk — but it marks the beginning of a narrative shift from "inflation prevents cuts" to "growth demands them." See [[Treasuries#Iran conflict — inflation vs growth repricing (Apr 2026)]] for full positioning details.
+
+### Hedge fund damage toll (FT, Apr 8)
+
+The [[HFR]] flagship index fell 3.1% in March — the worst month since March 2020. The [[Steepener trade]] — consensus pre-war positioning among [[Pimco]], [[Capital Group]], [[Vanguard]], and the 25 largest bond funds — was crushed as markets repriced from rate cuts to rate hikes. Macro specialists took the worst hits: [[Caxton Associates|Caxton]] -15% (to Mar 20), [[Brevan Howard]] master fund -6.6%, [[ExodusPoint]] -4.5%. Multi-manager pod shops absorbed the shock better: [[Citadel]] Wellington -1.9%, [[Millennium]] -1.2%. Kenneth Heinz ([[HFR]]): long oil gains were insufficient to offset the repricing of the "dovish interest rate and positive growth scenario." See [[2026 Iran conflict market impact#Hedge fund performance (FT, Apr 8)]] for the full fund-level table.

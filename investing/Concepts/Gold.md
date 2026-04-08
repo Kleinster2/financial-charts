@@ -7,22 +7,24 @@ aliases: [XAU, Gold price, Bullion]
 
 ---
 
-## Current status (Jan 30, 2026)
+## Current status (Apr 8, 2026)
 
 | Metric | Value |
 |--------|-------|
-| Spot price | **~$5,150/oz** (profit-taking from record) |
-| Jan 30 | **-4.6%** ("flash crash" on Warsh) |
-| YTD return | **+15%** monthly gain (strongest since 1980s) |
+| Spot price | ~$4,650/oz |
+| Jan 2026 peak | >$5,500/oz (record high) |
+| March 2026 | -11.5% (worst month since 2008) |
+| Peak-to-trough | ~-$1,000 from January high |
 | 2025 return | +65% (best since 1979) |
 | 2024 return | +27% |
-| Silver | $93.75/oz ATH (Jan 15), now ~$88 |
 
-**Jan 2026 catalysts:**
+The [[2026 Iran conflict market impact|Iran conflict]] broke gold's safe-haven thesis. March 2026 produced the rarest cross-asset outcome — stocks, bonds, and gold all fell simultaneously while oil surged. Central bank selling (led by [[Turkey]]/[[CBRT]]) replaced central bank buying as the dominant price driver. Four weeks of [[ETF]] outflows added selling pressure as investors took profits. Gold fell from ~$5,400 (March 2) to ~$4,650 — a supply-shock signature where the only hedge that worked was owning the thing causing the crisis (energy).
+
+**Jan 2026 catalysts (pre-conflict peak):**
 1. DOJ investigation of [[Jerome Powell]] (Jan 14) — Fed independence crisis
 2. NY Fed "rate check" (Jan 24) — market interpreted as coordinated dollar weakening
 3. Trump endorsed dollar decline (Jan 28) — "I think it's great"
-4. **[[Kevin Warsh]] nominated** (Jan 30) — safe haven unwind, "flash crash"
+4. [[Kevin Warsh]] nominated (Jan 30) — safe haven unwind, "flash crash"
 
 Gold surged +3% on Jan 28 as [[US dollar]] hit 4-year lows (DXY 96.16), then gave back gains on Warsh nomination.
 
@@ -53,33 +55,57 @@ Gold and silver sold off sharply when Trump nominated [[Kevin Warsh]] for Fed Ch
 
 ---
 
-## Central bank accumulation
+## Central bank accumulation — and the 2026 selling pivot
 
 **Historic shift:** For first time since 1996, gold now accounts for larger share of central bank reserves than US [[Treasuries]].
+
+![[ft-cb-gold-purchases-annual-2010-2024.png]]
+*Annual central bank net gold purchases, 2010–2024. Peaked ~1,082t in 2022, eased to ~860t in 2025. Source: Metals Focus, Refinitiv GFMS, ICE Benchmark Administration, [[World Gold Council]] via FT*
 
 | Year | CB net purchases | Notes |
 |------|------------------|-------|
 | 2022 | 1,082 tonnes | Post-sanctions surge |
 | 2023 | 1,037 tonnes | Continued accumulation |
 | 2024 | 1,000+ tonnes | Third consecutive year |
-| 2025 | ~1,000 tonnes | Estimate |
-| 2026E | ~755 tonnes | Forecast |
+| 2025 | ~860 tonnes | Down 20% YoY (World Gold Council) |
+| 2026E | ~755 tonnes | Forecast (pre-conflict) |
 
-**Key buyers:**
-- Poland — largest European buyer, approved additional 150 tonnes (Jan 2026)
-- Turkey — diversifying from USD
+### Buyers
+
+- [[PBOC]] — bought 160,000 troy oz in March 2026, biggest reported purchase in over a year. Shaokai Fan ([[World Gold Council]]): buying could reflect desire to take advantage of lower prices
+- [[Poland]] — largest European buyer, approved additional 150 tonnes (Jan 2026). But CB chief Adam Glapinski proposed selling gold to fund defense spending (government opposed, Apr 2026)
 - Uzbekistan — regional leader
-- [[China]] — strategic reserves (under-reported), long-term Treasury holdings at record low (Oct 2025)
-- [[India]] — gold reserves ~$25B (2019) → **~$100B** (2025), [[Treasuries]] cut 26% from 2023 peak to $174B (five-year low)
-- [[Brazil]] — long-term Treasury holdings at record low (Oct 2025)
+- [[China]] — strategic reserves (under-reported), long-term [[Treasuries]] holdings at record low (Oct 2025)
+- [[India]] — gold reserves ~$25B (2019) → ~$100B (2025), [[Treasuries]] cut 26% from 2023 peak to $174B (five-year low)
+- [[Brazil]] — long-term [[Treasuries]] holdings at record low (Oct 2025)
 
-**Why they're buying:**
+### Sellers (2026 pivot)
+
+The [[2026 Iran conflict market impact|Iran conflict]] triggered a structural shift. Countries hit by the energy shock are liquidating gold to raise dollar liquidity and defend currencies.
+
+- [[Turkey]]/[[CBRT]] — sold 52 tonnes + arranged 79 tonnes of swaps (Feb 27–Mar 27, ~$20bn combined). Holdings fell to 440 tonnes, lowest in 2+ years. Selling to generate dollar liquidity for lira defense. See [[CBRT#Gold reserve liquidation (March 2026)]]
+- [[Russia]] — disposed of 15 tonnes in Jan-Feb 2026
+- [[France]] — completed repatriation of all gold holdings from the US (no longer holds any gold in US vaults)
+- [[Poland]] — CB chief proposed selling for defense spending (government opposed)
+- Potential sellers: oil-importing countries hit by the energy crisis ([[India]], Central Asian nations with significant gold reserves)
+
+Nicky Shiels ([[MKS PAMP]]): "Central banks' sales are the dominant driver of the $1,000 price fall over the past few weeks. The market has always assumed that central banks have been the backstop... but the recent data flows and official statements are sort of refuting that."
+
+Shaokai Fan ([[World Gold Council]]): "We are seeing central banks take both sides in this movement of the gold price right now. The interest in gold among central banks has increased in the last few months — but it cuts both ways."
+
+### Why they were buying (structural, still operative)
+
 - De-dollarization post-[[Russia]] sanctions (2022 freeze was catalyst)
 - Geopolitical hedging (tariffs, sanctions weaponization)
 - Reserve diversification
 - No counterparty risk
 
 **OMFIF survey (Nov 2025):** ~60% of central banks plan to seek alternatives to dollar in next 1-2 years.
+
+### Gold repatriation trend
+
+A growing number of central banks are repatriating gold from foreign vaults (primarily the US):
+- [[France]] — completed a years-long programme (Apr 2026), no longer holds any gold in the US
 
 ---
 
@@ -137,13 +163,20 @@ Forecasts will likely be revised up given rate check/dollar weakness.
 
 ## Bear case / Risks
 
+**Central bank selling (2026 risk, live):**
+- The backstop assumption — that CBs would always be net buyers — broke in March 2026
+- Energy-shocked countries liquidating to raise dollar liquidity ([[Turkey]], [[Russia]])
+- Defense spending pressure could convert more buyers to sellers ([[Poland]])
+- Further sales could come from oil importers ([[India]]) and Central Asian nations
+- Four weeks of gold [[ETF]] outflows since Iran war began — profit-taking on winning trades
+
 **Opportunity cost:**
 - Real yields matter — high real rates historically negative for gold
 - Fed staying higher-for-longer delays rally
 
 **Not portfolio hedge:**
+- March 2026 proved gold fails as a hedge in real supply shocks — the inflationary impulse hit gold alongside stocks and bonds
 - [[BlackRock]]: "Tactical play; not long-term portfolio hedge"
-- Volatility can be high
 
 **Patience testing:**
 - Evercore ISI: "Wide-ranging frustration; testing patience"
@@ -160,7 +193,8 @@ Forecasts will likely be revised up given rate check/dollar weakness.
 | 2001-2011 | $250 → $1,900 | GFC, QE, [[Euro]] crisis |
 | 2012-2019 | $1,200-1,500 | Consolidation |
 | 2020-2024 | $1,500 → $2,700 | COVID, inflation, CB buying |
-| 2025-2026 | $2,700 → $5,300+ | Fed independence, de-dollarization, rate check |
+| 2025-Jan 2026 | $2,700 → $5,500+ | Fed independence, de-dollarization, rate check |
+| Feb-Apr 2026 | $5,500 → $4,650 | Iran war supply shock, CB selling, ETF outflows |
 
 ---
 
@@ -225,10 +259,17 @@ Forecasts will likely be revised up given rate check/dollar weakness.
 ## Related
 
 ### Drivers
-- [[Fed independence]] — current crisis driver
+- [[Fed independence]] — current crisis driver (Jan 2026 peak)
+- [[2026 Iran conflict market impact]] — supply shock that broke safe-haven thesis
+- [[CBRT]] — largest single seller (52t + 79t swaps, March 2026)
+- [[De-dollarization]] — structural CB buying trend (now contested)
 - [[Jerome Powell]] — DOJ investigation catalyst
 - [[Federal Reserve]] — institutional context
-- [[De-dollarization]] — structural CB buying trend
+
+### Industry
+- [[MKS PAMP]] — Nicky Shiels: CB sales dominant price driver
+- [[World Gold Council]] — industry body, CB purchase data
+- Metals Focus — consultancy, CBRT sales analysis
 
 ### Macro
 - [[Inflation]] — traditional hedge
@@ -249,4 +290,4 @@ Forecasts will likely be revised up given rate check/dollar weakness.
 
 ---
 
-*Updated 2026-01-28. Sources: Bloomberg, JPMorgan, [[State Street]], Julius Baer, Fortune.*
+*Updated 2026-04-08. Sources: FT (Hook/Rathbone, Apr 8 2026), Metals Focus, World Gold Council, Bloomberg, JPMorgan, [[State Street]], Julius Baer, Fortune.*
