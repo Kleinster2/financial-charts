@@ -402,6 +402,17 @@ These funds invest in companies with bad balance sheets but viable underlying bu
 | **2028** | Mid-market refinancing wall peak | ~$220B maturing; software alone $40B (Apollo). If investors shun private credit, borrowers lose funding |
 | **Ongoing** | PIK loan growth | Software is #1 PIK sector — borrowers can't service cash interest |
 
+### Rieder: tech credit vs equity (Apr 7, 2026)
+
+[[Rick Rieder]] ([[BlackRock]], Bloomberg TV) made a career-spanning observation on private credit in technology: recovery rates on tech debt and equity "become pretty equivalent numbers" in default, but equity upside is materially greater. For Rieder, this means the risk-reward of lending to tech companies at tight spreads is structurally inferior to equity exposure:
+
+- $14B+ in data center/AI infrastructure issuance coming to market in the next two weeks
+- Largest hyperscaler names pricing at tight IG levels — "from a return perspective, not that interesting"
+- Preferred alternatives: equity, convertibles, loans with warrants — anything capturing upside
+- Earlier-stage issuers pricing wider are "a bit more interesting"
+
+This is a different angle from [[Marathon Asset Management|Bruce Richards]]' focus on software defaults (same day). Rieder isn't concerned about defaults in tech credit — he's arguing the trade-off doesn't make sense. Even performing tech credit offers thin spread pickup when the same capital deployed in tech equity has asymmetric upside. The implication: the $14B issuance pipeline will clear (massive cash reserves support it), but the smart money is in equity participation, not lending.
+
 ---
 
 ## Related

@@ -131,6 +131,14 @@ aliases: [mortgage-backed securities, MBS, agency MBS, CMBS, RMBS]
 
 ---
 
+## BlackRock allocation (Apr 2026)
+
+[[Rick Rieder]]'s [[BINC]] allocates 16.5% to agency MBS (Apr 3, 2026) — the fund's third-largest sleeve after securitized products (36.6%) and HY & loans (27.7%). Rieder noted on Bloomberg (Apr 7) that he "moved some money into mortgages" recently, suggesting agency MBS is a relative-value rotation target as [[Credit spreads|IG corporate spreads]] remain tight and European credit looks unappealing.
+
+CMBS AAA sits at a 4.5% yield (35th percentile of its 8-year range, Mar 15, 2026) — less historically rich than [[CLO]] tranches but offering government-backed credit quality.
+
+---
+
 ## Related
 
 - [[Mortgage REITs]] — major MBS investors
@@ -140,5 +148,7 @@ aliases: [mortgage-backed securities, MBS, agency MBS, CMBS, RMBS]
 - [[Housing]] — collateral source
 - [[Rocket Companies]] — loan originator
 - [[UWM]] — loan originator
+- [[BINC]] — BlackRock active ETF, 16.5% agency MBS allocation
+- [[Rick Rieder]] — rotating into mortgages (Apr 2026)
 
-*Created 2026-01-16*
+*Updated 2026-04-07*

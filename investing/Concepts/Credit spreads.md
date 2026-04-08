@@ -49,6 +49,14 @@ Spreads widened modestly through 2025 but remained historically tight, suggestin
 
 HY OAS widened from ~265 bps (late Jan) to 346 bps by end of March 2026 — widest since May 2025. IG remained relatively stable (~75-100 bps range). The divergence reflects stress concentrated in weaker credits: AI disruption fears hitting software-heavy leveraged loans, and [[Iran conflict European impact|Middle East war]] pressuring commodity-exposed issuers. Fund flows confirmed: $11B cumulative HY outflows YTD vs $5.2B/week IG inflows (JPMorgan, Feb 26–Mar 25 window). See [[Credit markets#March 2026 — Flight to quality accelerates]].
 
+### April 2026: resilience through Iran crisis
+
+[[Rick Rieder]] ([[BlackRock]], Apr 7): credit markets have been "amazingly impressive" through the [[2026 Strait of Hormuz crisis|Iran escalation]]. As yields backed up, real buyers appeared — insurance companies and pension funds stepped in, absorbing new supply in size, particularly in investment grade. Not only have spreads held in, but new IG issuance is pricing tightly. A $14B+ data center/AI issuance pipeline (some new names) is expected to clear without difficulty.
+
+Rieder noted he would "like it to push out a bit more" — spreads haven't widened enough to be compelling on a valuation basis, even as the geopolitical backdrop worsened. The resilience is backed by $7.8T in [[Money market funds|money market funds]] waiting to deploy. HY fundamentals remain solid from a default perspective, but spread levels are "just okay." BlackRock has reduced European HY and IG credit in favor of securitized products and agency [[MBS market|MBS]]. See [[BINC]] for full allocation.
+
+---
+
 ## Why spreads matter
 
 ### Leading indicator

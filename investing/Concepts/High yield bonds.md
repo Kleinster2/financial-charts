@@ -129,6 +129,25 @@ Lower duration than IG bonds (typically 4-5 years vs 7-8 years) because:
 
 ---
 
+## April 2026: Rieder positioning
+
+[[Rick Rieder]] ([[BlackRock]], Apr 7 Bloomberg) on HY in the [[2026 Strait of Hormuz crisis|Iran crisis]] environment:
+
+- Fundamentals: "from a fundamental default perspective, I still feel very good about the high yield market"
+- Valuations: "just okay" — spreads haven't widened enough to be compelling
+- Action: reduced "a decent amount" of European HY and some US HY
+- European IG also reduced — "not that interesting in terms of where the levels are"
+- Redirected capital toward securitized products (36.6% of [[BINC]]) and agency [[MBS market|MBS]]
+- Using options overlays ("overwriting positions") to boost income on remaining HY holdings
+
+In [[BINC]]'s allocation, HY & loans remain the second-largest sleeve at 27.7% (Apr 3, 2026), but the direction of travel is toward securitized carry and away from tight-spread corporate credit.
+
+8-year yield percentile (Mar 15, 2026): HY BB at 6.1% (45th percentile), HY CCC at 10.5% (55th percentile). Compare with [[CLO]] BBB at 7.2% (75th percentile) — structured credit offers richer historical carry.
+
+Source: Bloomberg (Mar 15, 2026), Rieder Bloomberg TV (Apr 7, 2026).
+
+---
+
 ## Related
 
 - [[Credit spreads]] — spread analysis and signals
@@ -137,3 +156,6 @@ Lower duration than IG bonds (typically 4-5 years vs 7-8 years) because:
 - [[Treasuries]] — risk-free benchmark
 - [[Risk-on risk-off]] — HY as risk barometer
 - [[Business cycle]] — HY cycle sensitivity
+- [[BINC]] — BlackRock active ETF, HY 27.7% allocation
+- [[Rick Rieder]] — positioning commentary (Apr 2026)
+- [[CLO]] — structured alternative to corporate HY

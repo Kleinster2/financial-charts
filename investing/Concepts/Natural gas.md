@@ -241,3 +241,4 @@ Two supply shocks in four years ([[Russia]]-[[Ukraine]] 2022 + [[2026 Strait of 
 - [[Iran conflict economic disruption]] — TTF spike context
 - [[TTF]] — European gas benchmark
 - [[EQT]] — largest US gas producer
+- [[Coal]] — crisis substitute; Asian switching documented in Waha section

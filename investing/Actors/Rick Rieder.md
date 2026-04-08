@@ -34,12 +34,12 @@ aliases: [Rieder]
 
 | Issue | Rieder position |
 |-------|-----------------|
-| **Rates** | Dovish — Fed should cut to 3% |
-| **Neutral rate** | Believes ~3% is equilibrium |
-| **Labor market** | Warns restrictive rates threaten employment |
-| **[[Fed independence]]** | Respects "power of that institution" |
+| Rates | Dovish — Fed should cut to 3% |
+| Neutral rate | Believes ~3% is equilibrium |
+| Labor market | Warns restrictive rates threaten employment |
+| [[Fed independence]] | Respects "power of that institution" |
 
-**Quote:** "I think the Fed's got to get the rate down. The Fed's got to get the rate down to 3 percent."
+Quote (Jan 2026): "I think the Fed's got to get the rate down. The Fed's got to get the rate down to 3 percent."
 
 ---
 
@@ -83,12 +83,78 @@ aliases: [Rieder]
 
 ---
 
+## Bloomberg interview (Apr 7, 2026)
+
+Source: Bloomberg Television, "BlackRock's Rieder on Geopolitical Risk, Fed and Private Credit" (16m47s). Interviewed hours before Trump's 8 PM ET deadline on [[Iran]]. Context: [[2026 Strait of Hormuz crisis]] escalation, oil at ~$113-115.
+
+### Macro read
+
+Rieder described the uncertainty level as "extraordinary" with equity market depth "incredibly shallow." But the underlying economics remain solid:
+
+- US nominal GDP was running mid-to-high 5% before the Iran shock — fiscal tailwind still significant in 2026
+- The shock might shave ~50 bps off that, "very far from crisis"
+- More earnings revisions up than down since February (citing partner Russ Cacheris)
+- $7.8 trillion sitting in [[Money market funds|money market funds]] — massive dry powder on the sidelines
+- Technicals in the equity market "phenomenal" — good news would trigger a significant rally
+- Confidence is pulled back, but "things can change pretty quickly" — psychology can snap back fast
+
+### Fed bind
+
+Rieder sees the [[Federal Reserve|Fed]] caught between inflation and employment, with employment as the bigger structural problem:
+
+- Every central bank has inflation at the forefront, especially with sticky levels hard to reduce
+- But the bigger issue is maximum employment — companies cutting labor forces 20% for operating leverage, structural immigration changes reducing supply
+- Global context matters: [[RBA]], [[Bank of Canada|BoC]], [[ECB]], [[Bank of England|BoE]], [[Bank of Japan|BoJ]] all moving rates higher to combat inflation — the Fed operates in that environment
+- 3% inflation "is not infectious" — [[Inflation expectations|5Y5Y forwards]] barely moving, no structural unanchoring
+- The Fed will wait for more data, letting counteracting forces play out
+- A rate hike would require persistent structural inflation with longer-term forward expectations (2Y2Y, 5Y5Y) starting to move — not currently happening
+- Supply shock logic: raising mortgage rates on consumers already pressured by higher food and fuel prices "doesn't strike me as the right policy initiative"
+
+### Credit markets
+
+Credit resilience has been "amazingly impressive" through the geopolitical turmoil:
+
+- As yields backed up, real buyers appeared — insurance companies, pension funds
+- Not only have [[Credit spreads|spreads]] held in, new supply (particularly investment grade) is being absorbed in size
+- $14B+ data center/AI issuance pipeline will be absorbed — hyperscalers in "great shape from a leverage point of view," some are new issuers
+- From a fundamental default perspective, [[High yield bonds|high yield]] still looks solid
+- But valuations are "just okay" — spreads not compelling enough to lean in aggressively
+
+### Positioning (via [[BINC]])
+
+| Move | Rationale |
+|------|-----------|
+| Reduced European HY | Levels not interesting vs. alternatives |
+| Reduced some US HY | "Just okay" valuations |
+| Reduced European IG | Tight spreads, better carry elsewhere |
+| Added options overlays | Overwriting positions to boost income in high-vol environment |
+| Moved some capital to agency [[MBS market|MBS]] | Yield pickup |
+| Front-to-belly duration | Carry stability, Fed not raising |
+| Building cash reserves | Conservative through geopolitical uncertainty |
+
+[[BINC]] allocation (Apr 3, 2026): securitized products 36.6%, HY & loans 27.7%, agency MBS 16.5%, EM debt 13.6%, IG corporates 8.5%.
+
+### Tech: equity over debt
+
+Rieder's career-long view: technology investing is better done in equities than in debt.
+
+- In tech, recovery rates on debt and equity "become pretty equivalent numbers" — but equity upside is far greater
+- Some of the biggest AI/data center names issuing debt at very tight levels — "from a return perspective, not that interesting"
+- Preferred plays: equity, convertibles, loans with warrants — hybrid structures capturing upside
+- Earlier-stage issuers pricing to upside potential are "a bit more interesting" than tight-spread IG data center debt
+
+---
+
 ## Related
 
 - [[BlackRock]] — employer
+- [[BINC]] — flagship active fixed income ETF ($16.81B AUM)
 - [[Federal Reserve]] — potential role
 - [[Jerome Powell]] — would replace
 - [[Kevin Warsh]] — rival candidate
 - [[Chris Waller]] — rival candidate
 - [[Kevin Hassett]] — rival candidate
 - [[Michelle Bowman]] — rival candidate
+- [[Credit spreads]] — credit resilience commentary (Apr 2026)
+- [[Inflation expectations]] — 5Y5Y stability as Fed credibility evidence
+- [[CLO]] — securitized products largest allocation sleeve

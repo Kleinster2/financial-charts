@@ -110,17 +110,35 @@ Since long-term expectations remain near 2%, Powell argues the moves reflect:
 
 ---
 
+## NY Fed Survey of Consumer Expectations — April 2026
+
+![[nyfed-inflation-expectations-apr2026.png]]
+*Consumers see higher inflation in one year as gas and food prices rise. 1-year ahead (orange) spiking above 3-year ahead (white). Source: NY Fed SCE via Bloomberg, April 2026.*
+
+The NY Fed SCE showed a sharp divergence in early April 2026: the 1-year ahead measure spiked above 3%, reflecting gas and food price pass-through from the [[2026 Strait of Hormuz crisis|Iran conflict]]. The 3-year ahead measure also rose but remained more contained, tracking below the 1-year for the first time since the 2021-2022 inflation episode.
+
+[[Rick Rieder]] ([[BlackRock]], Apr 7): cited stable 5Y5Y forwards as evidence the system is not unanchoring. "3% is not at the Fed's 2% target, but I don't think 3% is infectious." He noted that if 2Y2Y and 5Y5Y forwards started moving, the Fed would need to react — but neither is showing that signal yet.
+
+The pattern echoes the 2022 dynamic: short-term expectations spike on commodity shock, long-term remain anchored. The question is whether a prolonged oil disruption (unlike the transitory 2022 episode) eventually feeds into the longer-dated measures. The Fed has now missed its 2% target for 60 consecutive months.
+
+Source: NY Fed SCE (via Bloomberg, Apr 7, 2026), Rieder Bloomberg TV (Apr 7, 2026).
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
+| NY Fed 1Y | >3% (Apr 2026, spiking) |
+| NY Fed 3Y | ~3% (Apr 2026, rising) |
 | Michigan 1Y | 4.0% (Jan 2026) |
 | Michigan 5Y | 3.3% (Jan 2026) |
 | 5Y breakeven | 2.42% (Jan 2026) |
+| 5Y5Y forward | ~2.4% (Apr 2026, stable) |
 | Fed target | 2.0% |
 | "Anchored" threshold | Long-term measures ≤3% |
 
-*Updated 2026-04-06*
+*Updated 2026-04-07*
 
 ---
 

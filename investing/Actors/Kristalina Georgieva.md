@@ -25,8 +25,17 @@ For the investing vault, Georgieva matters as the voice that sets the floor for 
 
 ---
 
+## Global growth downgrade (Apr 2026)
+
+Bloomberg interview (Apr 7, 2026): Georgieva confirmed the [[IMF]] will downgrade its global growth forecast when releasing the World Economic Outlook the following week. Not a surprise given the [[2026 Strait of Hormuz crisis|Iran conflict]], but the timing — days before the release — is the IMF's forward-leaning communication style that has become a market signal under Georgieva's leadership.
+
+[[Rick Rieder]] ([[BlackRock]], same day) argued the US economy may be more insulated than the downgrade implies, citing energy independence and nominal GDP running mid-to-high 5% before the shock. But acknowledged global trade flow disruption "creates a cloud over the system."
+
+---
+
 ## Related
 
 - [[IMF]] — institution she leads
 - [[Brazil oil shock trilemma March 2026]] — "brace for impact" warning
 - [[Strait of Hormuz]] — 2026 crisis trigger
+- [[Rick Rieder]] — counter-view on US insulation from global downgrade

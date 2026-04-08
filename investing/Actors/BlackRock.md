@@ -112,18 +112,36 @@ AI/ML used for risk analytics, portfolio optimization.
 
 ---
 
-## iShares AI exposure
+## iShares — key products
 
-**Key ETFs holding AI leaders:**
+| ETF | Focus | AUM |
+|-----|-------|-----|
+| IVV | S&P 500 (heavy tech) | — |
+| [[BINC]] | Active flexible income | $16.81B |
+| [[SOXX]] | [[Semiconductors]] | — |
+| IGV | Software | — |
+| IBIT | [[Bitcoin]] spot ETF | — |
 
-| ETF | Focus |
-|-----|-------|
-| IVV | S&P 500 (heavy tech) |
-| [[QQQ]]-competitor (IBB tech) | [[Nasdaq]] tracking |
-| [[SOXX]] | [[Semiconductors]] |
-| IGV | Software |
+[[BINC]] (iShares Flexible Income Active ETF) launched May 2023 and hit $16.81B AUM in under three years — one of the fastest-growing active fixed income ETFs ever. Managed by [[Rick Rieder]]. Yield to worst: 6.3%, cumulative return +22.36% since inception (as of Apr 3, 2026). See [[BINC]] for full allocation breakdown and positioning.
 
-Passive flows drive AI stock demand.
+---
+
+## Rieder fixed income allocation (Apr 3, 2026)
+
+[[Rick Rieder]]'s positioning via [[BINC]], reflecting BlackRock's house view on credit:
+
+![[blackrock-allocation-breakdown-apr2026.png]]
+*Source: BlackRock, as of April 3, 2026.*
+
+| Sleeve | Weight |
+|--------|--------|
+| Securitized products | 36.6% |
+| [[High yield bonds|HY]] & loans | 27.7% |
+| Agency [[MBS market|MBS]] | 16.5% |
+| EM debt | 13.6% |
+| [[Investment grade bonds|IG corporates]] | 8.5% |
+
+Key shifts (Apr 7 Bloomberg interview): reduced European HY and IG, added agency MBS, building cash, using options overlays for income. Credit markets "amazingly resilient" despite [[2026 Strait of Hormuz crisis|Iran crisis]]. $14B+ AI/data center issuance pipeline will be absorbed. See [[Rick Rieder#Bloomberg interview (Apr 7, 2026)|Rieder § Apr 7 interview]] for full commentary.
 
 ---
 
@@ -266,3 +284,5 @@ Abu Dhabi sovereign funds are among BlackRock's most important global clients �
 - [[Global Infrastructure Partners]] — acquired (infrastructure)
 - [[HPS Investment Partners]] — acquired (private credit)
 - [[Preqin]] — acquired (private markets data)
+- [[BINC]] — flagship active fixed income ETF ($16.81B AUM)
+- [[Rick Rieder]] — CIO Global Fixed Income, manages $2.4T+

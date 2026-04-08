@@ -102,6 +102,14 @@
 
 ## Recent events
 
+### $14B+ debt issuance pipeline (Apr 2026)
+
+[[Rick Rieder]] ([[BlackRock]], Apr 7 Bloomberg): ~$14B in data center/AI infrastructure debt issuance expected over the next couple of weeks. Rieder expects the market to absorb it without difficulty — hyperscalers are "in great shape from a leverage point of view" and some names will be new issuers entering the bond market for the first time. Credit markets have massive cash reserves ($7.8T in [[Money market funds|money market funds]]) and real institutional buyers (insurance companies, pension funds) stepping in as yields back up.
+
+Rieder's caveat: some of the biggest-name issuance is pricing at very tight spread levels — "from a return perspective, not that interesting." He prefers equity, convertibles, or loans-with-warrants for technology exposure, where upside potential is materially greater than the carry pickup on tight IG debt. Earlier-stage issuers pricing wider are more appealing.
+
+This pipeline connects to the [[AI infrastructure financing risk]] question: whether the pace of capital-intensive buildout can be sustained if geopolitical uncertainty ([[2026 Strait of Hormuz crisis|Iran crisis]]) persists and borrowing costs remain elevated.
+
 - [[2026 HVAC antitrust lawsuit]] — March 26 selloff: CARR -4.0σ, TT -3.0σ, NVT -2.6σ (basket, not named), JCI -2.5σ. Triple headwind: Rubin chiller-free + antitrust + [[Watsco]] demand softness.
 
 ---

@@ -122,6 +122,20 @@ AlphaSimplex chief research strategist Kathryn Kaminski: *"Energy shocks are inf
 
 Labor market backdrop: US lost 92,000 jobs last month. Q4 GDP revised to 0.7% annualized (from Q3's 4.4%). The tension between weakening growth and Iran-driven inflation creates a classic stagflationary bind that limits Fed optionality.
 
+### Rieder view on the Fed bind (Apr 7, 2026)
+
+[[Rick Rieder]] ([[BlackRock]], Bloomberg TV) argued employment is the bigger structural problem for the Fed, not inflation:
+
+- Companies cutting labor forces ~20% for operating leverage — "how powerful that is"
+- Immigration reduction creating structural supply constraints
+- 3% inflation "not infectious" — [[Inflation expectations|5Y5Y forwards]] barely moving
+- Global context: [[RBA]], [[Bank of Canada|BoC]], [[ECB]], [[Bank of England|BoE]], [[Bank of Japan|BoJ]] all raising rates — the Fed isn't operating in isolation
+- A supply shock (oil) logic is fundamentally different from a demand shock — raising mortgage rates on consumers already pressured by higher food and fuel "doesn't strike me as the right policy initiative"
+- The Fed will wait for more data; counteracting forces (weakening labor vs. rising commodity inflation) create paralysis
+- Would need persistent structural inflation with 2Y2Y and 5Y5Y forwards moving to justify a hike — neither showing that signal
+
+The front end of the yield curve is pricing no cuts. Rieder views this as "well priced" and is comfortable with front-to-belly carry through the uncertainty.
+
 ---
 
 ## Chair transition (May 2026)

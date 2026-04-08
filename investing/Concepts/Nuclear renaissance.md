@@ -242,5 +242,6 @@ Hyperscalers interested but patient.
 - [[Microsoft]] — catalyst (TMI restart deal)
 - [[Nuclear power for AI]] — context (detailed analysis)
 - [[Strait of Hormuz]] — March 2026 energy crisis accelerating thesis
-- [[Iran conflict economic disruption]] — broader market impact
+- [[Iran conflict economic disruption]] �� broader market impact
+- [[Coal]] — competing crisis response (immediate capacity, but dirty)
 

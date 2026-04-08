@@ -120,6 +120,7 @@ Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `no
 ## Workflows
 
 - `/news` — full ingestion workflow. See `.claude/skills/news/SKILL.md`.
+- `/ingest` — single-source ingestion (interview, article, filing, screenshots). See `.claude/skills/ingest/SKILL.md`.
 - `/earnings TICKER` — DB check, data insert, chart regen, note update. See `.claude/skills/earnings/SKILL.md`.
 
 ---
