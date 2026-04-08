@@ -76,6 +76,16 @@ As L/S hedge fund gross leverage rises, short squeeze vulnerability increases. [
 
 ---
 
+## Mid-frequency crowding and the HFT convergence
+
+The convergence of prop trading firms and stat-arb hedge funds into mid-frequency strategies (1-5 day holding periods) adds a new dimension to crowding risk. With [[Hudson River Trading]]'s Prism unit ($2bn+ profits), [[Tower Research Capital]] (25-30% of revenue from mid-freq), and [[Citadel Securities]] (holding positions "up to weeks"), the capital chasing similar signals in similar instruments is growing.
+
+The July 2025 "quant quiver" may have been an early warning: systematic strategies suffered a synchronized reversal, possibly exacerbated by this overlap. With ~2/3 of US equity volume now systematic, correlated drawdowns could be amplified.
+
+See [[HFT-hedge fund convergence]] for the full structural analysis.
+
+---
+
 ## What could break the pattern
 
 | Catalyst | Direction |
@@ -107,6 +117,9 @@ The question Bloomberg poses: does the convergence represent one bad year, or th
 - [[Millennium]] — pioneer of pod model, convergence in 2025
 - [[Point72]] — [[Steve Cohen]] pod shop
 - [[D.E. Shaw]] — quant multi-strat, outperformed pods in 2025 (+28%)
+- [[HFT-hedge fund convergence]] — prop firms entering stat-arb territory, amplifying crowding
+- [[Statistical arbitrage]] — strategy at center of convergence
+- [[Hudson River Trading]] — Prism unit as mid-freq convergence example
 - [[Hedge Funds]] — sector hub
 - [[Meme stocks]] — short squeeze dynamics
 - [[GameStop]] — 2021 squeeze origin, systemic near-miss

@@ -174,7 +174,12 @@ Renaissance employees span political spectrum:
 ### Peer quant funds
 - [[D.E. Shaw]] — quant peer
 - [[Two Sigma]] — quant peer
+- [[PDT Partners]] — quant peer (Morgan Stanley stat-arb lineage)
 - [[AQR]] — quant/factor peer
+
+### Concepts
+- [[Statistical arbitrage]] — Medallion reportedly consists mostly of stat-arb strategies
+- [[HFT-hedge fund convergence]] — structural trend in systematic trading
 
 ### Political connections
 - Robert Mercer — Breitbart, Trump donations

@@ -107,6 +107,16 @@ See [[Hedge fund capital concentration]] for the capital flow dynamics.
 
 ---
 
+## Convergence with prop trading firms
+
+Since ~2020, pod shops' [[Statistical arbitrage|stat-arb]] pods face growing competition from proprietary trading firms expanding into longer holding periods. [[Hudson River Trading]]'s Prism unit ($2bn+ profits, 2024) and [[Tower Research Capital]]'s mid-frequency expansion (25-30% of revenue) are encroaching on territory traditionally occupied by hedge fund quant pods.
+
+Simultaneously, hedge funds like [[Qube Research & Technologies]] are pushing toward faster signals, blurring the line from the other direction.
+
+See [[HFT-hedge fund convergence]] for the full structural analysis.
+
+---
+
 ## Criticisms
 
 | Criticism | Detail |
@@ -133,8 +143,10 @@ New fund launches contracted for 4 consecutive years (2021-2024) as capital conc
 
 ## Related
 
-### Concept
+### Concepts
 - [[Hedge fund capital concentration]] — the effect of pod shop dominance
+- [[HFT-hedge fund convergence]] — prop firms invading stat-arb territory
+- [[Statistical arbitrage]] — core quant strategy in convergence zone
 
 ### Pod shops
 - [[Millennium]] — pioneer, 1989

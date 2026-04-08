@@ -96,6 +96,16 @@ See [[Retail investor flows]] for the structural shift.
 
 ---
 
+## Convergence with stat-arb (Sep 2025)
+
+While Citadel Securities has remained primarily a market-maker (given that Ken Griffin's separate hedge fund [[Citadel]] already does prop trading), the firm has expanded its holding periods. A company spokesperson told FT Alphaville: "Depending on size, product, risk and liquidity dynamics, we warehouse this risk over a range of time durations, sometimes up to weeks."
+
+Citadel Securities, [[Jane Street]], and [[Hudson River Trading]] have all tapped debt markets to boost capital beyond retained profits, a shift from the traditional HFT model where firms operated largely independently of banks. See [[HFT-hedge fund convergence]].
+
+*Source: FT Alphaville (Sep 29 2025)*
+
+---
+
 ## Investment case
 
 **Can't invest directly** (private), but relevant context for:
@@ -172,4 +182,6 @@ See [[Citadel Securities 2026 Global Intelligence Crisis]] for full analysis.
 - [[Robinhood]] — largest PFOF client
 - [[Tokenized private shares]] — market structure context
 - [[Market structure]] — regulatory context
+- [[Statistical arbitrage]] — strategy space Citadel Securities is entering
+- [[HFT-hedge fund convergence]] — structural trend in systematic trading
 

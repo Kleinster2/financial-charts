@@ -52,6 +52,11 @@ Millennium pioneered the [[Multi-manager hedge funds|multi-manager "pod shop"]] 
 | 2023 | +10% | |
 | 2024 | +15% | |
 | 2025 | +10.5% | Lagged peers (Trump policy volatility in H1) |
+| 2026 (Mar) | -1.2% | [[2026 Iran conflict market impact|Iran war]] losses |
+
+March 2026 was the industry's worst month since Covid ([[HFR]] index -3.1%). Millennium's -1.2% was the most resilient among major multi-managers — [[Citadel]] Wellington was -1.9%, [[Balyasny]] -4.3%. The pod model's diversification across hundreds of uncorrelated strategies limited drawdowns relative to macro specialists like [[Caxton Associates|Caxton]] (-15%) and [[Brevan Howard]] (-6.6%).
+
+*Source: FT, Apr 8 2026*
 
 ### Track record
 
@@ -105,6 +110,16 @@ Millennium pioneered the [[Multi-manager hedge funds|multi-manager "pod shop"]] 
 |--------|------|-------|
 | [[Izzy Englander]] | Founder, CEO | $18.9B net worth |
 | Bobby Jain | Former co-CIO | Left 2024 to start Jain Global |
+
+---
+
+## Talent convergence with prop trading firms
+
+Millennium's poaching of two [[Jane Street]] traders illustrates the growing overlap between hedge funds and prop trading firms. As the two industries converge on mid-frequency [[Statistical arbitrage|stat-arb]] strategies (1-5 day holding periods), the talent pool has become a shared battleground.
+
+Hedge funds can offer $100mn PM packages; prop firms counter with partnership economics and equity upside. This competition is expected to intensify as the [[HFT-hedge fund convergence]] deepens.
+
+*Source: FT Alphaville (Sep 29 2025)*
 
 ---
 
@@ -192,6 +207,12 @@ See [[Hedge fund capital concentration]] for the structural dynamics.
 - [[D.E. Shaw]] — quant, multi-strategy
 - [[Two Sigma]] — quant
 - [[Bridgewater]] — macro
+- [[Qube Research & Technologies]] — quant
+
+### Prop trading convergence
+- [[Jane Street]] — poached two traders from (talent convergence)
+- [[HFT-hedge fund convergence]] — structural trend blurring hedge fund / prop firm boundary
+- [[Statistical arbitrage]] — core quant strategy
 
 ### Alumni
 - Bobby Jain — Jain Global (2024)

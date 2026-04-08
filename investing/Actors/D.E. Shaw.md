@@ -65,13 +65,25 @@ D.E. Shaw's most important legacy may be its alumni:
 
 ---
 
+## Stat-arb origins
+
+D.E. Shaw traces directly to [[Morgan Stanley]]'s Advanced Proprietary Trading (APT) desk, where Gerry Bamberger pioneered [[Statistical arbitrage|pairs trading]] in the early 1980s. David Shaw left APT in 1988 to found D.E. Shaw, making it one of the oldest continuously operating stat-arb operations.
+
+D.E. Shaw in turn birthed [[Two Sigma]] (founded by alumni [[John Overdeck]] and [[David Siegel]] in 2001). Together with [[PDT Partners]] (spun off from Morgan Stanley's successor to the APT desk in 2012), these three firms manage roughly $150bn, much of it in stat-arb strategies.
+
+D.E. Shaw's Valence fund, which houses some of the firm's most capacity-constrained systematic strategies, is heading toward an employee-only model similar to [[Renaissance Technologies]]' Medallion.
+
+*Source: FT Alphaville (Sep 29 2025)*
+
+---
+
 ## Strategies
 
 | Strategy | Description |
 |----------|-------------|
 | Systematic/quant | Original core competency |
 | Macro discretionary | ~$10B AUM; one of largest areas |
-| Statistical arbitrage | High-frequency patterns |
+| [[Statistical arbitrage]] | Core quant strategy, APT desk lineage |
 | Event-driven | M&A, corporate actions |
 | Fixed income | Rates, credit relative value |
 
@@ -144,10 +156,18 @@ Day-to-day management by Executive Committee; Shaw focused on D.E. Shaw Research
 - [[Two Sigma]] — quant peer (founded by alumni)
 - [[AQR]] — quant peer
 
+### Stat-arb trio
+- [[Two Sigma]] — co-descendant of APT desk (via alumni)
+- [[PDT Partners]] — co-descendant of APT desk (direct spinoff)
+
 ### Peer multi-strat
 - [[Millennium]] — multi-manager
 - [[Point72]] — multi-strategy
 - [[Citadel Securities]] — multi-strategy
+
+### Concepts
+- [[Statistical arbitrage]] — foundational strategy
+- [[HFT-hedge fund convergence]] — structural trend in systematic trading
 
 ---
 
