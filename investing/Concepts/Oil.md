@@ -131,7 +131,7 @@ Pre-conflict Wall Street consensus: Brent ~$59/bbl (BofA, Citi, Goldman, JPM, MS
 
 ### $200 oil — analyst roundup (Al Jazeera, Mar 19)
 
-Multiple analysts no longer dismissing $200/bbl. Benchmark Middle Eastern crudes (Oman, Dubai) already past $150; the question is whether Atlantic Basin benchmarks follow. Historical comparison: 2008 peak $147.50/bbl = ~$224 in 2026 dollars.
+Multiple analysts no longer dismissing $200/bbl. Benchmark Middle Eastern crudes (Oman, Dubai) already past $150; the question is whether [[Atlantic basin]] benchmarks follow. Historical comparison: 2008 peak $147.50/bbl = ~$224 in 2026 dollars.
 
 | Analyst | Firm | View |
 |---------|------|------|
@@ -214,6 +214,12 @@ China peak oil demand: the biggest single-country demand story. Chinese diesel d
 
 ## Related
 
+- [[Physical Oil Trading]] — pricing stack, paper-physical disconnect, BFOET basket
+- [[Atlantic basin]] — Western Hemisphere/North Sea oil trading region (~30M bbl/day)
+- [[Forties]] — North Sea blend, sets Dated Brent as cheapest BFOET grade
+- [[VLCC]] — supertanker class (~2M bbl capacity), 85% of ME crude exports
+- [[Global oil trade flows]] — trade routes, chokepoints, tanker economics
+- [[Brent-WTI spread]] — transatlantic spread dynamics
 - [[Natural gas]] — related energy commodity
 - [[LNG]] — liquefied natural gas
 - [[Venezuela]] — largest reserves, rebuild opportunity

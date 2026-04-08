@@ -897,6 +897,40 @@ Consumer confidence rose to 91.8 in March (up 0.8 from Feb) despite war and risi
 
 International official holdings at the [[Federal Reserve|NY Fed]] fell to the lowest level since 2012. Foreign central banks are liquidating [[Treasuries]] to fund war-related costs — currency defense (Turkey, India, Brazil), oil purchase financing, and budget gap filling from subsidy programs. The selling adds upward pressure on yields at precisely the moment equities need rate relief. [[Eurozone]] inflation jumped to 2.5% in March (up from 2.3%), driven by the Middle East energy shock — further constraining the [[ECB]]'s ability to cut rates.
 
+## Ceasefire headlines crash futures, physicals hold — Day 40 (April 8)
+
+A potential two-week ceasefire — details still being negotiated — sent futures sharply lower on Asian open. [[Rystad Energy]] analyst (CNBC, Apr 8) broke down the disconnect:
+
+| Metric | Move on Apr 8 | Since conflict start (Feb 28) |
+|--------|--------------|-------------------------------|
+| WTI crude | -16% | Still +68.5% (~$30 above pre-war ~$67) |
+| Brent crude | Similar | — |
+| Refined products | -14-15% | — |
+| Backwardation (M1-M3, all crudes & products) | -40 to -45% | Prompt month deescalated sharply |
+
+The prompt-month collapse signals how much geopolitical risk premium was concentrated in the front of the curve. Backwardation had built up over 5-6 weeks of sustained disruption — the ceasefire headline alone unwound nearly half of it.
+
+Rystad: the sell-off shows "how lucrative any headlines are on the downside risk of prices because the huge geopolitical risk that has been built up."
+
+### Physical market still elevated
+
+The paper sell-off masks a physical market that hasn't caught up. [[Forties]] crude (North Sea benchmark, [[Atlantic basin]]) traded $34-35 above [[Brent crude|Brent]] on Apr 7 — "fairly unnatural" at this time of year. The premium reflects [[Atlantic basin]] barrels being bid up as they reroute to [[Asia]] to replace lost Persian Gulf supply. Barrels that normally served European and US refineries are now heading east — to [[China]], [[India]], [[Japan]].
+
+This validates the "Paper-physical convergence event" flagged earlier by [[Natasha Kaneva]] (Mar 18): Atlantic inventories drawing down as physical barrels command premiums far above futures.
+
+### Ceasefire reality check
+
+The two-week ceasefire is still in the "ironing out details" stage. Rystad's assessment of what can happen in two weeks:
+
+- Vessels and insurers will be cautious in early phases — won't transit until confident the ceasefire holds and mines in the waterways are not activated
+- Persian Gulf producers ([[Saudi Arabia]], [[UAE]], [[Qatar]], [[Kuwait]]) have tiered asset restart systems: Tier 1 (shortest cycle) can come online within 2-3 weeks; Tier 3 takes longest
+- Even after restart, a 2-4 week physical shortage persists — time to load, transit from Atlantic basin to Asia, and clear the vessel backlog
+- The consumer base in [[Asia]] must be willing to take those barrels — confidence-dependent
+
+The binding constraint remains [[Amrita Sen|Sen]]'s "commercial confidence" problem: no CEO wants to be the first ship through.
+
+*Source: Rystad Energy analyst (CNBC International, April 8 2026)*
+
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-01 (Mar 30-31 price action, Trump ceasefire signals, Fesharaki/FGE, Brooks embargo analysis).*
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-08 (ceasefire pricing, physical-futures disconnect, tiered restart).*

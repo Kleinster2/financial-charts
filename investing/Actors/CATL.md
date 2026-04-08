@@ -3,7 +3,7 @@ aliases: [Contemporary Amperex Technology]
 ---
 #actor #battery #china #public
 
-**CATL** — \#1 global EV battery maker. 38% market share. Supplies Tesla, VW, [[BMW]]. Critical supply chain node.
+**CATL** — \#1 global EV battery maker. 39% market share (record, FY2025). Supplies Tesla, VW, [[BMW]]. Critical supply chain node; expanding into AI data center energy storage.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [Contemporary Amperex Technology]
 | Metric | Value |
 |--------|-------|
 | Ticker | 300750.SZ ([[Shenzhen]]), 3750.HK (Hong Kong) |
-| Market share | **38%** global EV batteries (2025) |
+| Market share | 39% global EV batteries (FY2025, record) |
 | Position | \#1 since 2017 |
 | Key customers | Tesla, VW, [[BMW]], Mercedes |
 
@@ -20,17 +20,17 @@ aliases: [Contemporary Amperex Technology]
 
 ## Market dominance
 
-**Global EV battery market (Jan-Oct 2025):**
+Global EV battery market (FY2025):
 
 | Rank | Company | Share |
 |------|---------|-------|
-| 1 | **CATL** | 38.1% |
-| 2 | BYD | 16.9% |
-| 3 | LG Energy Solution | 9.3% |
+| 1 | CATL | 39% |
+| 2 | [[BYD]] | 16.9% |
+| 3 | [[LG Energy Solution]] | 9.3% |
 | 4 | CALB | 4.7% |
 | 5 | Gotion | 4.1% |
 
-[[China]] controls 69% of global EV battery market (CATL + BYD + others).
+[[China]] controls ~69% of global EV battery market (CATL + BYD + others).
 
 ---
 
@@ -93,19 +93,41 @@ CATL operates with **negative working capital** — it collects from customers b
 
 ## Financials
 
-**Q3 2025:**
+FY2025 (reported March 10, 2026 — FT):
+
+| Metric | Value | YoY |
+|--------|-------|-----|
+| Revenue | RMB 423.7B | +17% |
+| Net profit | RMB 72.2B ($10.4B) | +42% |
+| EV battery revenue | — | +25% |
+| Energy storage revenue | — | +9% |
+| Overseas revenue | — | +18% |
+
+Shares surged ~10% (HK) and ~6% (Shenzhen) on the results, which beat analyst estimates. Energy storage growth driven partly by [[Data center infrastructure|AI data centre]] demand — CATL cited "increased energy demand from data centres and the need for flexible resource regulation" in overseas markets.
+
+Citi forecasts FY2026: sales +31% (ESS batteries +45%, EV batteries +27%). Management guides 20-30% CAGR for the battery industry over the next five years.
+
+Bernstein attributed earnings stability to upstream resource investments (lithium mines) providing a "natural hedge" against commodity swings. Solid-state and [[Sodium-ion batteries|sodium-ion]] R&D seen as reinforcing long-term technology moat.
+
+## Upstream lithium
+
+CATL's Jiangxi province mine is a significant upstream asset — expected to supply 58,500 tonnes of [[Lithium|lithium]] in 2025, roughly 4% of global supply (Morgan Stanley). In August 2025, production was suspended after a mining licence expired; CATL said it was working with government agencies on renewal and expected "minimal impact on the company's overall operations." The suspension briefly electrified [[Lithium|lithium carbonate]] prices (+30% from late June 2025), since the mine's output roughly equalled Bernstein's estimate of global oversupply. At the time, nearly half of global lithium production did not cover cash costs (Bernstein).
+
+Analysts read the suspension as part of Beijing's broader "anti-involution" campaign — Xi Jinping and party officials had become increasingly critical of excessive price competition across industries from lithium to solar. Kenny Ng (Everbright Securities International) called the move reflective of "China's broader anti-involution strategy." Spot lithium carbonate rose 3% on Aug 11 to Rmb75,500/tonne ($10,443). CATL's mainland shares were flat, but [[Ganfeng Lithium]] (+21% HK), [[Tianqi Lithium]] (+18% HK), and [[Liontown Resources]] (+18% ASX) surged. [[IGO]] (+8%), PLS (+19%), and Mineral Resources (+12%) also rallied in Australia.
+
+Q3 2025:
 
 | Metric | Value | YoY |
 |--------|-------|-----|
 | Revenue | RMB 104.2B ($14.6B) | +12.9% |
 | Net profit | RMB 18.5B | +41.2% |
 
-**Q1 2025:**
+Q1 2025:
 - Revenue: RMB 84.7B (~$12.1B), +6.2% YoY
 - Net profit: RMB 14B (~$2B), +32.9% YoY
 
-**Hong Kong IPO (May 2025):**
-- Raised HK$35.7B (~$4.57B / $5B) at ~$170B valuation
+Hong Kong IPO (May 2025):
+- Raised $5.3B in secondary listing at ~$170B valuation
 - Strengthens international footprint
 
 ---
@@ -141,7 +163,7 @@ CATL seen as leader in LFP (lithium iron phosphate) technology — Tesla's prefe
 | Project | Location | Investment | Status |
 |---------|----------|------------|--------|
 | **Arnstadt** | [[Germany]] | **$2B** | 2,000 employees, growing |
-| **Indonesia** | Karawang | **$6B** | Groundbreaking June 2025 |
+| [[Indonesia]] | Karawang | $6B | Groundbreaking June 2025 |
 | [[Stellantis]] JV | Spain | — | 50 GWh, 2026 |
 | Hungary | Debrecen | — | 100 GWh, operating |
 
@@ -151,9 +173,49 @@ CATL seen as leader in LFP (lithium iron phosphate) technology — Tesla's prefe
 
 **Indonesia:** Part of Chinese push to control EV battery supply chain from nickel refining to cell production.
 
-See [[Capital flow reversal]] — CATL exemplifies [[China]] building factories abroad rather than buying trophy assets.
+RMB 40B bond issuance planned (announced March 2026) to fund continued overseas expansion.
 
+The EU is developing a regulatory framework requiring increased local content in manufacturing — a direct threat to the cost advantage of Chinese battery operations in [[Europe]].
+
+See [[Capital flow reversal]] — CATL exemplifies [[China]] building factories abroad rather than buying trophy assets.
 ---
+
+## Marine battery business
+
+CATL has been exploring the marine battery sector since 2017. The company operates a dedicated subsidiary for marine powertrains and shore-side facilities, and has deployed batteries on ~900 ships — mostly smaller craft operating near the Chinese coastline, at ports, or on rivers.
+
+Su Yi, who leads the marine business unit, told the FT (Apr 5, 2026) she planned to more than double her team to ~500 in 2026. CATL declined to provide a marine sales target but said it was "very confident in the strong market potential."
+
+| Metric | Value |
+|--------|-------|
+| Ships with CATL batteries | ~900 |
+| Marine team (2026 target) | ~500 |
+| Exploration start | 2017 |
+| Current focus | Nearshore, ports, rivers |
+
+Su: "We will spare no effort in investing in R&D, human resources and materials to build the supply chain for this industry."
+
+CATL is seeking to collaborate with ports and governments to create a marine battery industry from scratch. [[Guangzhou]], one of [[China]]'s shipbuilding hubs, has started offering subsidies for battery-powered vessels.
+
+The company is working to expand a battery-swap model for vessel operators — similar to its highway network for commercial trucks — which removes the battery price from vessel acquisition costs.
+
+Founder Robin Zeng (Zeng Yuqun) majored in marine engineering as an undergraduate before moving to electronics for his master's. Su: "Ship engineering was his original discipline and passion."
+
+### Obstacles to deep-sea adoption
+
+Large-scale adoption of purely battery-powered deep-sea vessels has yet to materialize. A 2024 pre-feasibility study by the Maersk Mc-Kinney Moller Center for Zero Carbon Shipping found energy density too low compared with fuels, recommending a hybrid approach combining batteries with internal combustion engines.
+
+Fire and explosion risk at sea — where rescue or evacuation is harder than on land — remains a concern. Marine battery systems require greater maintenance and oversight than standardized EV batteries. See [[Lithium-ion shipping fires]].
+
+Scaling requires "system-level collaboration" across ship designers, shipyards, ports, and electricity grids. Su: "These silos must be broken down."
+
+### Strategic context
+
+The [[International Maritime Organization]] aims to halve global shipping emissions (3% of total CO2) by 2050. Batteries are one of several alternatives to heavy-fuel oil; [[China]] is also exploring green methanol, ammonia, and [[Green hydrogen|hydrogen]].
+
+[[Bernstein]]'s Neil Beveridge (China energy research lead) said the long-term consequence of the [[Strait of Hormuz]] closure would be an acceleration of "the global electrification megatrend." CATL shares rose ~13% from the start of the [[Operation Epic Fury|Iran war]].
+
+*Source: FT, Edward White, Apr 5 2026*
 
 ## Investment case
 
@@ -178,7 +240,7 @@ See [[Capital flow reversal]] — CATL exemplifies [[China]] building factories 
 |--------|-------|
 | Ticker | 300750.SZ, 3750.HK |
 | Market cap | ~$250B (RMB 1.8T) |
-| Market share | 38% (EV), 36.5% (ESS) |
+| Market share | 39% (EV, FY2025 record) |
 | Customers | Tesla, VW, [[BMW]], Mercedes |
 | Founded | 2011 |
 
@@ -195,7 +257,7 @@ Chairman Zeng Yuqun spoke at the [[2026 Two Sessions|CPPCC opening]] (March 4, 2
 
 Zeng: "The most important thing is to persist in independent innovation." CATL positioned as the model of China's self-sufficiency playbook — state-backed R&D at scale producing globally competitive products. The 15th Five-Year Plan (2026-2030) will intensify this approach across batteries, semiconductors, and quantum.
 
-*Updated 2026-03-05*
+*Updated 2026-04-08*
 
 ---
 
@@ -209,4 +271,8 @@ Zeng: "The most important thing is to persist in independent innovation." CATL p
 - [[NIO]] — customer (battery swap partnership)
 - [[Capital flow reversal]] — exemplar of [[China]] outbound investment
 - [[Ford]] — contrast (retreating from [[Europe]] as CATL expands)
+- [[Data center infrastructure]] — ESS demand from AI data centres driving growth
+- [[Operation Epic Fury|Iran conflict]] — underscores Beijing's energy self-sufficiency imperative, which runs through CATL's entire strategic rationale
+- [[Lithium-ion shipping fires]] — fire safety risk for marine battery adoption
+- [[Maersk]] — Mærsk Mc-Kinney Møller Center study on marine battery feasibility
 

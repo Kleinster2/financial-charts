@@ -57,6 +57,13 @@ Three layers emerging in agent infrastructure:
 | [[Microsoft]] | AutoGen | Multi-agent collaboration |
 | CrewAI | CrewAI | Role-based, lower learning curve |
 
+### Open-source persistent agents
+
+| Company | Product | Stars | Notes |
+|---------|---------|-------|-------|
+| — | [[OpenClaw]] | ~349K | Category creator, 247K devs, 5,700+ skills on ClawHub |
+| [[Nous Research]] | [[Hermes Agent]] | 36K | Self-improving learning loop, $5/mo VPS, crypto-native |
+
 ### Adjacent
 
 | Company | Product | Notes |
@@ -120,3 +127,5 @@ Three layers emerging in agent infrastructure:
 - [[Amazon]] — Q Developer
 - [[Google]] — building harness (Windsurf team)
 - [[Model Context Protocol]] — agent-tool connectivity standard
+- [[Nous Research]] — Hermes Agent (open-source persistent agent)
+- [[OpenClaw]] — largest open-source agent ecosystem

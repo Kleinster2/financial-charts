@@ -129,6 +129,9 @@ WTI futures: `CL=F` in `prices_long` (6,430 data points, from Aug 2000). Brent f
 - [[Amrita Sen]] — three-tier pricing, predicted widening
 - [[Robin J. Brooks]] — WTI as politically decisive benchmark
 - [[Nadia Martin Wiggen]] — pre-crisis positioning extremes
+- [[Atlantic basin]] — geographic region of Brent production and trade
+- [[Forties]] — North Sea blend, most common Dated Brent price-setter
+- [[VLCC]] — supertanker class, freight dynamics affect spread
 - [[Cushing]] — WTI delivery point, storage dynamics
 
 *Created 2026-04-03.*

@@ -68,6 +68,7 @@ The 2026 Strait of Hormuz crisis is an ongoing disruption to global oil and LNG 
 - Apr 7: Trump on Truth Social: *"A whole civilization will die tonight never to be brought back again. I don't want that to happen, but it probably will."* Threatens nuclear facilities, power plants, attacks every four hours. Deadline: **8 PM ET tonight**.
 - Apr 7: [[IRGC]] counter-threat: will target infrastructure of the US and allies, "aiming to deprive them of access to the region's oil and gas for years to come." IRGC designates [[Palantir]] as a "legitimate target" for retaliatory measures — first named tech company targeted.
 - Apr 7: WTI $113.58-$115.21/bbl. S&P 500 futures -0.5%, Nasdaq -0.6%. Defense stocks lead (PLTR +6%, [[Northrop Grumman|NOC]]/[[RTX]]/[[L3Harris|LHX]] +2-4%). Energy names up 3-4% ([[Marathon Petroleum|MPC]], [[APA Corporation|APA]], [[Devon Energy|DVN]], [[Valero|VLO]], [[ConocoPhillips|COP]]).
+- Apr 8: Two-week ceasefire proposed — details being negotiated. WTI -16% on Asian open, refined products -14-15%, backwardation (M1-M3) collapses 40-45%. Physical market still elevated: [[Forties]] crude $34-35 above [[Brent crude|Brent]], [[Atlantic basin]] barrels rerouting to Asia. [[Rystad Energy]] (CNBC): tiered restart in Persian Gulf — Tier 1 assets ([[Saudi Arabia]], [[UAE]], [[Qatar]], [[Kuwait]]) can come online in 2-3 weeks, but 2-4 week physical shortage persists. Vessels and insurers won't move until ceasefire holds and mines confirmed inactive. [[Bab el-Mandeb]] risk if Houthi involvement continues.
 
 ## Quantitative impact
 

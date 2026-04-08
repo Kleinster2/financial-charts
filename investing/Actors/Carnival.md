@@ -66,7 +66,24 @@ CCL trades as a core Industrials name (XLI r = 0.76).
 | Occupancy | Back to ~100%+ |
 | Pricing | Record high |
 | Demand | Strong (revenge travel) |
-| Debt | Elevated from COVID (~$30B) |
+| Net debt (end 2025) | ~$26bn (3.6x EBITDA, vs ~2x in 2019, down from ~7x in 2023) |
+| Net losses 2020-22 | >$25bn |
+
+Fuel consumption down 20% per day since 2019 through fleet efficiency and route optimization — larger gains than rivals (per [[BNP Paribas]]). Carnival expects ~$650mn in annual cost savings from lower fuel consumption in 2026 vs seven years ago.
+
+Pledged $14bn in shareholder returns by 2029.
+
+---
+
+## Fuel hedging — competitive exposure
+
+Carnival is the only major cruise line that does not hedge fuel costs. When oil prices are low and stable, unhedged operators save on hedge premiums. But when prices spike — as in the [[2026 Strait of Hormuz crisis]] — the asymmetry is punishing. CCL fell ~18% from the onset of the [[Iran]] conflict through early April 2026, vs ~11% for [[Royal Caribbean]] (which hedged ~60% of 2026 oil use).
+
+The strategic problem is not fuel cost per se but competitive parity. Hedged rivals face less pressure to surcharge passengers, making it difficult for Carnival to pass costs through without losing bookings. The FT Lex framing: hedging's point is "not so much to guess future prices, but to maintain a level competitive playing field."
+
+![[carnival-net-income-loss-2018-2026e.png]]
+
+*Carnival net income/loss ($bn), 2018-2026E. FY ends November; 2026 based on analyst estimates. Source: Visible Alpha*
 
 ---
 
@@ -80,9 +97,9 @@ CCL trades as a core Industrials name (XLI r = 0.76).
 - Caribbean dominance
 
 **Bear:**
+- Unhedged fuel exposure (unique among major cruise operators)
 - High debt load (COVID legacy)
 - Interest expense
-- Fuel cost exposure
 - Recession sensitivity
 - Environmental concerns
 

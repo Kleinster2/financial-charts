@@ -82,7 +82,20 @@ The two trains represent 12.8 mtpa of capacity — 17% of Qatar's total. Force m
 |------------|--------|
 | Carbon capture (CCS) | Major investments, Houston hub |
 | Hydrogen | Blue hydrogen projects |
-| [[Lithium]] | Entered lithium extraction (Arkansas) |
+| [[Lithium]] | Entered lithium extraction (Arkansas) via Saltwerx subsidiary |
+
+## Lithium — Saltwerx
+
+[[Exxon]] subsidiary Saltwerx is developing [[Direct lithium extraction|DLE]] in the Smackover Formation, Arkansas. In April 2025, Saltwerx won a contested brine-rights ruling before the Arkansas Oil and Gas Commission against [[Occidental Petroleum]].
+
+| Metric | Value |
+|--------|-------|
+| Subsidiary | Saltwerx |
+| Technology | [[Direct lithium extraction|DLE]] |
+| Location | Smackover Formation, SW Arkansas |
+| Target | Enough lithium for 1M+ EVs by 2030 |
+
+Dan Holton (SVP low carbon solutions): "Today the market is dominated by China and it's going to be a significant challenge for the US industry to compete." Holton stressed that the US needs full vertical integration — "from lithium extraction, processing, cathode active material production right up to the gigafactories producing batteries."
 | Biofuels | Renewable diesel |
 
 **Hedging:** Using oil cash flows to fund energy transition bets.
@@ -197,4 +210,7 @@ Exxon filed proxy proposal to redomicile from **New Jersey → Texas**, joining 
 - [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9 meeting, skeptical on return
 - [[Texas corporate migration]] — redomiciling from NJ to TX (2026)
 - [[Darren Woods]] — CEO
+- [[Lithium]] — Saltwerx lithium extraction (Smackover, Arkansas)
+- [[Direct lithium extraction]] — technology (DLE)
+- [[Standard Lithium]] — Smackover competitor
 

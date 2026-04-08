@@ -80,6 +80,25 @@ Short-term expectations surged (commodity pass-through priced in), but long-term
 
 The [[Federal Reserve|Fed]] has now missed its 2% target for 60 consecutive months. Three of four developed-country central banks and one of two emerging-market central banks are missing their targets. Yet long-term expectations remain anchored — the miss is acknowledged but not projected forward. Either vindication of central bank credibility or a lag that hasn't caught up.
 
+### Eurozone and UK breakevens — much worse (Giles, FT, Apr 7)
+
+Chris Giles (FT) put the US numbers in global context. After ~5 weeks of war, the US breakeven moves are modest, but Europe looks very different:
+
+| Region | 2Y breakeven change | 4Y breakeven change |
+|--------|-------------------|-------------------|
+| US | +0.30pp | +0.18pp |
+| Eurozone | +1.00pp | More persistent |
+| UK | +1.26pp | More persistent |
+
+![[inflation-expectations-5-weeks-2022-vs-2026.png]]
+*Annualized rise in breakeven inflation expectations after five weeks of war (% points). Bars = breakeven moves; dots = actual realized inflation over two and four years. In 2022, markets underestimated subsequent inflation at the equivalent stage. Source: FactSet, FT calculations.*
+
+The European persistence is structural: unlike the US (a small net energy exporter that could theoretically redistribute excess producer profits to consumers), Europe imports the shock directly. Giles noted that European inflation expectations are "more persistent for the rest of this decade" in market pricing.
+
+The 2022 parallel is the caution: at the same five-week point after Russia's invasion of [[Ukraine]], breakeven inflation expectations underestimated the subsequent realized inflation (visible in the chart as dots overshooting bars). If the pattern repeats, current European breakevens may still be understating what comes next.
+
+*Source: Chris Giles, FT (Apr 7, 2026)*
+
 *Sources: FT (Apr 3, 2026 — Herbert/Smith), Ruchir Sharma FT (Apr 6, 2026)*
 
 ---
@@ -121,6 +140,8 @@ The NY Fed SCE showed a sharp divergence in early April 2026: the 1-year ahead m
 
 The pattern echoes the 2022 dynamic: short-term expectations spike on commodity shock, long-term remain anchored. The question is whether a prolonged oil disruption (unlike the transitory 2022 episode) eventually feeds into the longer-dated measures. The Fed has now missed its 2% target for 60 consecutive months.
 
+[[Peter Kraus]] ([[Aperture Investors]], CNBC, Apr 8): predicted inflation needs 9-12 months to return to pre-war levels, conditional on war not reigniting and oil prices continuing to decline. Framed oil-driven inflation as "somewhat short term" with the broader economy "pretty strong" underneath.
+
 Source: NY Fed SCE (via Bloomberg, Apr 7, 2026), Rieder Bloomberg TV (Apr 7, 2026).
 
 ---
@@ -153,3 +174,7 @@ Source: NY Fed SCE (via Bloomberg, Apr 7, 2026), Rieder Bloomberg TV (Apr 7, 202
 - [[Term premium]] — how to distinguish inflation expectations from term premium in yield moves
 - [[Ruchir Sharma]] — used stable 5Y5Y as evidence for fiscal term premium (Apr 2026)
 - [[Fiscal Dominance]] — regime context for 2026 inflation/fiscal tension
+- [[Crack spread]] — refined product inflation outpacing crude (consumer-facing prices worse than breakevens imply)
+- [[Spencer Dale]] — supply shock sizing, price elasticity framework
+
+*Updated 2026-04-08 — Eurozone/UK breakeven data, 2022 parallel (Giles/FT).*

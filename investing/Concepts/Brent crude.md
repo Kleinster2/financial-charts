@@ -70,6 +70,8 @@ Oxford Analytica: US "washed its hands" of Strait navigation
 
 ## Related
 
+- [[Forties]] — most common price-setting grade in the BFOET basket
+- [[Atlantic basin]] — geographic region of Brent production
 - [[Oil]] — parent commodity
 - [[WTI]] — US benchmark
 - [[Brent-WTI spread]] — transatlantic spread dynamics, April 2026 inversion

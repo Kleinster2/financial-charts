@@ -139,6 +139,9 @@ Post-resolution congestion risk: even if the strait reopens in May/June, ships a
 - [[Northern Sea Route]] — Arctic corridor
 - [[Fuel oil]] — bunker fuel pricing crisis (Mar 2026)
 - [[Vincent Clerc]] — Maersk CEO, warned of dry supply points
+- [[VLCC]] — supertanker class, crude oil transport, rate dynamics
+- [[Atlantic basin]] — long-haul sourcing during Gulf disruptions
+- [[Physical Oil Trading]] — tanker economics, freight, paper-physical disconnect
 - [[Transport]] — broader sector
 - [[Wallenius Wilhelmsen]] — world's largest car carrier fleet
 - [[World Shipping Council]] — industry body, cargo safety

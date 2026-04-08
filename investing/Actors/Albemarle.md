@@ -118,7 +118,7 @@ Preparing for lithium winter, positioned for spring.
 - [[China]] oversupply risk
 - Price volatility
 - Still losing money in 2025
-- Competition from SQM, Ganfeng
+- Competition from [[SQM]], [[Ganfeng Lithium|Ganfeng]]
 - Lithium substitutes (sodium-ion)
 
 ---

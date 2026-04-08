@@ -70,6 +70,10 @@ RCL trades as a core Regional Banks name (KRE r = 0.71).
 
 **Outperformance:** RCL stock has outperformed CCL since COVID.
 
+### Fuel hedging advantage (2026)
+
+Royal Caribbean hedged ~60% of its 2026 oil use, insulating it from the [[2026 Strait of Hormuz crisis]] oil spike. RCL fell ~11% from the onset of the [[Iran]] conflict through early April 2026, vs ~18% for [[Carnival]] — which carries no fuel hedges. The gap illustrates the competitive function of hedging: maintaining pricing parity with peers, not predicting oil direction. (FT Lex, Apr 7 2026)
+
 ---
 
 ## Investment case

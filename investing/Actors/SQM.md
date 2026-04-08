@@ -72,6 +72,8 @@ Diversified but lithium is the story.
 
 Chile wants more control over "white gold."
 
+In 2023, [[Chile]] also announced a pivot toward [[Direct lithium extraction|DLE]] technology for environmental reasons — evaporation ponds deplete scarce water resources in the Atacama. [[Rio Tinto]] is investing $2.5B to expand its Rincon facility in neighboring [[Argentina]] using DLE.
+
 ---
 
 ## Competitive position
@@ -79,7 +81,7 @@ Chile wants more control over "white gold."
 | vs | SQM advantage | SQM disadvantage |
 |----|---------------|------------------|
 | [[Albemarle]] | Lower cost, larger reserves | Political risk |
-| Ganfeng ([[China]]) | Non-[[China]] supply | Scale |
+| [[Ganfeng Lithium|Ganfeng]] ([[China]]) | Non-[[China]] supply | Scale |
 | Pilbara ([[Australia]]) | Brine vs spodumene cost | Hard rock flexibility |
 
 ---
@@ -137,4 +139,5 @@ SQM benefits from any lithium price recovery.
 - [[CATL]] — customer
 - [[Tesla]] — end customer
 - [[BYD]] — end customer
+- [[Direct lithium extraction]] — technology shift (Chile DLE pivot)
 

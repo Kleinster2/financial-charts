@@ -76,6 +76,28 @@ These cannot be automated. Review each one.
 - [ ] Every entity in body text is `[[wikilinked]]`
 - [ ] Related section includes all linked entities
 
+### Hub linking (reverse direction)
+
+After creating or editing any note, check whether parent/hub notes need a backlink or update. This applies to all vault work — not just new notes. Adding a section to an existing actor note can introduce relationships that a sector or concept hub should reflect.
+
+- [ ] **Identify hub notes** — scan the note's Related section for broad parent notes (sector notes like [[Shipping]], concept hubs like [[Oil]]/[[LNG]], parent actors, event hubs)
+- [ ] **Read each hub's Related section** — if the note isn't listed (or a new relationship isn't reflected), add it with a one-line description
+- [ ] **Check for bare-text mentions** — grep the hub for unlinked mentions of entities introduced by the edit and wikilink them
+
+Examples:
+- New concept note → sector note, parent concept hub
+- New section in an actor note → sector note if it introduces a new sector relationship
+- New event note → actor notes for all involved parties, concept hubs for affected domains
+- Expanded Related in any note → check that the reverse link exists in the target
+
+Quick hub audit:
+```bash
+# Find notes that mention the new entity but don't wikilink it
+grep -rl "VLCC" investing/ | grep -v "VLCC.md"
+```
+
+---
+
 Quick link audit:
 ```bash
 grep -oE '\b[A-Z][a-z]+\b' note.md | sort -u

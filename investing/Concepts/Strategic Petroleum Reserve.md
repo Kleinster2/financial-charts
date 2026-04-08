@@ -124,6 +124,12 @@ Relevance to 2026: The exchange mechanism's key risk — hidden discount to trad
 
 [[EU]] Energy Commissioner [[Dan Jørgensen]] told the FT (Apr 3) he "will not exclude" another coordinated release of strategic reserves: *"We need to keep our possibilities open, and if this is indeed, as I project, a long-lasting crisis, then we need those tools also at a later stage."* He emphasized timing — "the exact right time" — and proportionality, echoing the [[Nadia Martin Wiggen|Wiggen]] observation on SPR headline fatigue: each successive release announcement carries less market impact.
 
+### Global observed oil stocks — highest since Covid
+
+Chris Giles (FT, Apr 7) noted global observed oil stocks at 8.21 billion barrels — the highest level since the Covid-19 pandemic. This is one of several mitigations that reduce the net supply shock from a full 20mn b/d (theoretical Hormuz closure) to ~10-15mn b/d (roughly half of Covid). Combined with production that significantly exceeded consumption in 2025 and non-Gulf production expected to rise ~1mn b/d in 2026, the stock buffer provides a time cushion — but it is finite, not a solution if the disruption persists.
+
+*Source: Chris Giles, FT (Apr 7, 2026)*
+
 ### Structural concerns
 - US SPR at 415M barrels vs. 727M peak — significantly depleted heading into a major crisis
 - Max drawdown rate of 4.4 mb/d means even a full release cannot replace Hormuz transit volumes (15+ mb/d crude)

@@ -31,6 +31,28 @@ The [[Iran conflict economic disruption|Iran conflict]] created textbook stagfla
 
 ---
 
+## Consumer confidence divergence — five weeks in (Giles, FT, Apr 7)
+
+![[consumer-confidence-2022-vs-2026.png]]
+*Consumer confidence change from January level: 2026 (pink) vs 2022 (blue). US and Japan confidence rising despite the war; Europe declining but less than in 2022. Sources: Conference Board, EC, GfK, Cabinet Office Japan / FT.*
+
+Chris Giles (FT) surveyed consumer confidence indicators ~5 weeks into the conflict. The results diverge from the 2022 Russia-Ukraine shock:
+
+| Region | 2026 trend | vs 2022 |
+|--------|-----------|---------|
+| US | Up | Reversed from 2022 |
+| Japan | Up | Reversed from 2022 |
+| Eurozone | Down | Less than 2022 |
+| UK | Down | Less than 2022 |
+
+The US-Europe split reflects the distributional asymmetry [[Adam Tooze]] identified: the US is a small net energy exporter, so the aggregate GDP effect may be muted even as consumers face higher pump prices. Europe imports the shock directly — estimated ~0.7% GDP hit for the UK alone (Giles's calculation).
+
+Giles reads this as more inflationary than recessionary: consumers are not yet retreating from spending (especially in the US), which means the risk of persistent inflation from income defense is higher than the risk of an unnecessary downturn. This aligns with the 2022 experience — markets underestimated the inflation side at the equivalent five-week mark.
+
+*Source: Chris Giles, FT (Apr 7, 2026)*
+
+---
+
 ## Historical precedents
 
 | Episode | Trigger | Duration | Policy response |
@@ -55,7 +77,9 @@ The key difference in 2026: the [[Federal Reserve|Fed]] entered this shock with 
 - [[Iran conflict economic disruption]] — the 2026 supply shock
 - [[Stock-Bond Correlation Regime]] — the positive correlation that stagflation produces
 - [[Oil]] — the transmission channel
+- [[Crack spread]] — refined product margins amplifying crude shock for consumers
+- [[Spencer Dale]] — "half of Covid" framing, price elasticity of demand 0.1
 
 ---
 
-*Created 2026-03-27.*
+*Created 2026-03-27. Updated 2026-04-08 — consumer confidence divergence (Giles/FT).*

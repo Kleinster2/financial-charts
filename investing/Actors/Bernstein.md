@@ -3,6 +3,7 @@ aliases:
   - Sanford C. Bernstein
   - AB Bernstein
   - Bernstein Research
+  - AllianceBernstein
 tags:
   - actor
   - research
@@ -27,7 +28,7 @@ The firm's integration into [[AllianceBernstein]] (a ~$700B AUM asset manager, t
 | Parent | [[AllianceBernstein]] (AB) |
 | Type | Sell-side equity research, brokerage |
 | Known for | Independent, data-driven research |
-| Key analyst | [[Stacy Rasgon]] (semiconductors) |
+| Key analysts | [[Stacy Rasgon]] (semiconductors), Neil Beveridge (China energy) |
 
 ## Related
 

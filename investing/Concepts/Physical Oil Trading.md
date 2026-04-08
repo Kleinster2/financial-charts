@@ -186,6 +186,9 @@ Contango and backwardation take on different meaning in the physical market. In 
 - [[CME Group]] — parent of NYMEX, WTI futures
 - [[CFTC]] — US futures regulator, positioning data
 - [[Contango]] — storage economics, forward curve structure
+- [[VLCC]] — supertanker class, ~2M barrel capacity, 85% of ME crude exports
+- [[Forties]] — North Sea blend, most common price-setter in BFOET basket
+- [[Atlantic basin]] — Western Hemisphere/North Sea oil trading region
 - [[Strait of Malacca]] — 24M bbl/day chokepoint for Gulf-Asia flows
 
 *Created 2026-03-25*

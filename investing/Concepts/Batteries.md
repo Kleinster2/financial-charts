@@ -14,6 +14,8 @@ Hub for battery technology, manufacturers, and energy storage.
 | **Grid storage** | [[Tesla Energy]], [[Fluence]], [[BYD]] | Utility demand surge |
 | **Long-duration** | [[Form Energy]] | Iron-air emerging |
 | **[[Consumer]] electronics** | [[Samsung SDI]], [[LG Energy Solution]], [[Panasonic]] | Mature market |
+| Marine | [[CATL]] | Nascent; ~900 ships deployed (nearshore/river). Deep-sea limited by energy density |
+| Data center UPS | Lithium-ion (incumbent), organic flow (emerging) | Near-total lithium-ion reliance; US imported $15.3B in lithium batteries from [[China]] (2024). Alternatives gaining traction |
 
 ---
 
@@ -29,6 +31,7 @@ See [[LFP batteries]] for details including [[BYD]] Blade Battery.
 | **Solid-state** | Next-gen (2027+?) | Safety, density | Not yet commercialized |
 | **Iron-air** | Long-duration storage | 100+ hour duration | Low power density |
 | **Sodium-ion** | Low-cost EV, storage | No lithium needed | Lower density |
+| **Organic flow** | Data center UPS, grid | Non-toxic, non-flammable, no lithium/cobalt/nickel | Early-stage; Prometheus Hyperscale deploying at scale (2025) |
 
 ---
 
@@ -67,7 +70,7 @@ See [[Battery supply chain]] for detailed breakdown.
 
 | Stage | Key players |
 |-------|-------------|
-| **Mining** | [[Albemarle]], [[SQM]], Ganfeng, [[Chile]], [[Australia]] |
+| **Mining** | [[Albemarle]], [[SQM]], [[Ganfeng Lithium|Ganfeng]], [[Chile]], [[Australia]] |
 | **Processing** | [[China]] dominance (~80% refining) |
 | **Cell manufacturing** | [[CATL]], [[BYD]], [[LG Energy Solution]] |
 | **Pack assembly** | OEMs, battery makers |

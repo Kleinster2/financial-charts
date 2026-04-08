@@ -193,4 +193,7 @@ The trade flow map determines who wins and who loses from any disruption:
 - [[Gulf Coast refiners]] — US heavy crude processing complex
 - [[Chinese teapot refineries]] — independent refiners, Shandong province
 - [[Cheniere]] — largest US LNG exporter
+- [[VLCC]] — supertanker class, long-haul crude transport
+- [[Forties]] — North Sea blend, sets Dated Brent
+- [[Atlantic basin]] — Western oil trading region, ~30M bbl/day
 - [[Permian Basin]] — largest US producing region, export-grade light sweet

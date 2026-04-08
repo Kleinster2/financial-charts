@@ -134,10 +134,10 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Asian refinery crude-grade mismatch | Refineries configured for Gulf sour crude can't easily switch to non-ME grades | Reynolds/IEEFA flagged |
 | Sovereign energy subsidy fiscal strain | Indonesia $22.6B, others scaling — impact on fiscal deficits | Indonesia tracked, others not |
 | European reindustrialization derailed | LNG/naphtha cost surge may reverse EU industrial recovery narrative | Tracked — see [[Iran conflict European impact]] |
-| Central bank bind | Oil shock persists → dual mandate stuck (inflation vs unemployment). All three major CBs held: [[Federal Reserve]] (Mar 19), [[ECB]] (Mar 20 week), [[Bank of England]] (Mar 20 week) | [[Ed Yardeni]] (Mar 9) 35% meltdown odds; Fed "several" members suggested hikes. FT editorial board (Mar 20): risk of embedded inflation expectations vs. economic uncertainty knock-on |
+| Central bank bind | Oil shock persists → dual mandate stuck (inflation vs unemployment). All three major CBs held in March. By Apr 8: two [[ECB]] hikes and two [[Bank of England|BoE]] hikes priced in (FT/FactSet); [[Federal Reserve|Fed]] still on hold; [[BOJ]] continuing normalization regardless | [[Ed Yardeni]] (Mar 9) 35% meltdown odds; Fed "several" members suggested hikes. FT editorial board (Mar 20): embedded inflation risk. FT (Giles/Suss, Apr 8): rate expectations chart confirms divergence — [[Andrew Bailey]] pushing back but market not listening. [[Rick Rieder]] ([[BlackRock]], Apr 7): global peers "all moving rates higher" — largely confirmed |
 | Developing nation remittance flows | Gulf expat populations contracting → weaker remittance flows to South Asia, Africa, SE Asia. Combined with food shortages from fertilizer disruption | Flagged: FT editorial board (Mar 20). Untracked at country level |
 | Tech-concentrated equity correction | Higher rates + energy uncertainty → portfolios heavily concentrated in highly-valued tech stocks face severe correction. Private markets under strain | Flagged: FT editorial board (Mar 20). Connects to Yardeni 35% meltdown scenario |
-| Paper-physical convergence event | Atlantic basin inventories drawn down → Brent/WTI forced repricing to $150+ | Flagged: [[Natasha Kaneva]] (Mar 18) warned convergence "unlikely" to be avoided if Strait stays closed |
+| Paper-physical convergence event | Atlantic basin inventories drawn down → Brent/WTI forced repricing to $150+ | Materializing: [[Rystad Energy]] (Apr 8) — [[Forties]] $34-35 above Brent, [[Atlantic basin]] barrels rerouting to Asia. ~10% of mainline [[VLCC]]s locked in Persian Gulf in first week. 2-4 week physical shortage persists even with ceasefire. See [[Iran conflict oil price timeline]] Apr 8 entry |
 
 ---
 
@@ -200,6 +200,42 @@ This undermines the "metabolic cold war" framework (Neils Gilman, [[Foreign Poli
 
 ---
 
+## "Half of Covid" — supply shock sizing (Giles, FT, Apr 7)
+
+Chris Giles (FT) framed the net supply shock on a zero-to-Covid scale. Global consumption is ~100mn b/d; the [[Strait of Hormuz]] carried 20mn. Full closure with no mitigation would equal a complete Covid-scale shock (spring 2020 lockdowns reduced global liquid fuel consumption by just under 20%).
+
+![[global-liquid-fuel-production-consumption-2014-2026.png]]
+*Global liquid fuel production vs consumption 2014-2026. The world produced more than it consumed in 2025 but just lost 20mn b/d that normally transited Hormuz. Source: EIA / FT.*
+
+Mitigations cut the net shock roughly in half:
+
+| Mitigation | Volume |
+|-----------|--------|
+| [[Saudi Arabia]] Abqaiq-Yanbu pipeline to Red Sea | 3-5mn b/d |
+| [[UAE]] pipeline to Gulf of Oman | 700K b/d |
+| [[Iran]] ships still passing + Jask terminal | Some (unquantified) |
+| Cancelled Middle East-bound flights | ~1mn b/d |
+| [[IEA]] 400mn barrel strategic reserve release | Temporary buffer |
+| Non-Gulf production growth | ~1mn b/d expected in 2026 |
+| Global observed oil stocks | 8.21bn barrels — highest since Covid |
+
+Net supply shock: ~10-15mn b/d, or roughly half of Covid.
+
+[[Spencer Dale]] (visiting professor, [[LSE]], formerly [[BP]] chief economist), speaking at a [[NIESR]] webinar, provided the key analytical framework: if consumption must fall 10% (~10mn b/d) to balance supply and demand, price needs to rise ~100%, given a price elasticity of demand of ~0.1.
+
+Spot crude and European natural gas have risen ~60%. But the [[Crack spread|refined product surge]] tells the real story — the 3-2-1 crack spread jumped from a 23% premium to 56%, with EU wholesale diesel at ~$150/bbl equivalent. Normal people don't consume crude; they consume refined products. The headline crude price understates the consumer-facing shock.
+
+Food prices have not yet risen significantly — good news for emerging and developing nations, though the fertilizer disruption (34% of global supply transits Hormuz) creates lag risk for the planting season.
+
+![[brent-ttf-spot-futures-iran-war-2026.png]]
+*Brent crude (left axis) and TTF natural gas (right axis): spot and futures prices on log scale. Spot up ~60%; futures curves expect temporary disruption. Gas futures price a longer supply disruption than oil. Source: FactSet / FT.*
+
+Giles's assessment: more concerned about the "-flation" than the "stag-" side. Markets underestimated subsequent inflation at the equivalent 5-week stage of the 2022 Russia-Ukraine shock, and refined product prices are already pricing in the severity that crude has not yet reflected.
+
+*Source: Chris Giles, FT "The Iran war shock is about half the size of Covid-19" (Apr 7, 2026); Spencer Dale, NIESR webinar*
+
+---
+
 ## All-In E222 war cost update (Apr 3)
 
 *Data from All-In Podcast Episode 222, April 3, 2026*
@@ -245,6 +281,9 @@ This undermines the "metabolic cold war" framework (Neils Gilman, [[Foreign Poli
 - [[BYD]] — EV/battery maker, green transition beneficiary
 - [[Michigan Consumer Sentiment]] — oversensitive to gas prices per Tooze
 - [[Lyn Alden]] — "A Flywheel of Chaos" (Mar 22): toxic combo cascade where sustained energy prices → Treasury stress → stagflation → tax receipt collapse could push the Fed from gradual (~$420B/yr) to big print ($2T+) later in 2026
+- [[Spencer Dale]] — "half of Covid" supply shock framing, price elasticity of demand 0.1, crack spread analysis (NIESR webinar, Apr 2026)
+- [[Crack spread]] — refinery margin blowout: 3-2-1 from 23% to 56% premium; refined products reflect consumer pain better than crude headline
+- [[NIESR]] — hosted Dale webinar
 
 ---
 
