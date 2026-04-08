@@ -42,6 +42,29 @@ Enumerate three lists:
 
 Present enumeration to user as a table before vault work begins.
 
+## Phase 1.5: Verification
+
+Classify every data point from Phase 1 before writing anything into the vault:
+
+**Verifiable facts** — numbers, dates, policy decisions, market data that can be independently checked:
+- Central bank rates → check each CB's actual latest decision
+- AUM/fund flow figures → check ICI, fund filings, or provider data
+- GDP/economic data → check BEA, FRED, or official releases
+- Earnings revisions → check FactSet, Bloomberg, or S&P data
+- Prices, yields, spreads → check against DB or market data sources
+
+For each verifiable fact: research it. If confirmed, write with attribution to both the source speaker and the confirming data. If contradicted, flag the discrepancy in the note — "Rieder cited X; [source] shows Y." If unverifiable (no accessible source), write as a claim attributed to the speaker, not as established fact.
+
+**Sourced opinions** — views, predictions, frameworks, interpretive claims:
+- Market positioning rationale ("credit markets amazingly resilient")
+- Policy predictions ("employment is the bigger structural problem")
+- Strategic preferences ("tech investing better in equities")
+- Macro interpretations ("very far from crisis")
+
+For each opinion: attribute to the speaker. Note whether it aligns with or contradicts existing vault views (check the relevant concept note for other voices). If contrarian, say so. If consensus, say so. Don't present one person's view as established truth.
+
+**The gate:** Do not write unverified factual claims as facts. The vault's value depends on accuracy — a wrong number written confidently is worse than a gap.
+
 ## Phase 2: Vault Survey
 
 For each enumerated entity:

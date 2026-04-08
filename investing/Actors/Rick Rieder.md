@@ -91,10 +91,10 @@ Source: Bloomberg Television, "BlackRock's Rieder on Geopolitical Risk, Fed and 
 
 Rieder described the uncertainty level as "extraordinary" with equity market depth "incredibly shallow." But the underlying economics remain solid:
 
-- US nominal GDP was running mid-to-high 5% before the Iran shock — fiscal tailwind still significant in 2026
+- Rieder cited US nominal GDP running "mid-to-high 5%" before the Iran shock. This is hard to reconcile with Q4 2025 real GDP of 1.4% annualized + ~3% inflation (~4.4% nominal). May be referencing a different period or trailing measure. Fiscal tailwind still significant in 2026.
 - The shock might shave ~50 bps off that, "very far from crisis"
-- More earnings revisions up than down since February (citing partner Russ Cacheris)
-- $7.8 trillion sitting in [[Money market funds|money market funds]] — massive dry powder on the sidelines
+- Rieder claimed more earnings revisions up than down since February (citing partner Russ Cacheris). FactSet data is more nuanced: aggregate Q1 EPS estimates rose 0.4% since Dec 31, but only 3 sectors (Tech, Energy, Financials) saw upward revisions — most sectors were cut. 59 companies issued positive guidance vs. 51 negative (FactSet, Q1 2026).
+- $7.8 trillion sitting in [[Money market funds|money market funds]] — confirmed: ICI reported $7.86T as of March 18, 2026
 - Technicals in the equity market "phenomenal" — good news would trigger a significant rally
 - Confidence is pulled back, but "things can change pretty quickly" — psychology can snap back fast
 
@@ -104,7 +104,7 @@ Rieder sees the [[Federal Reserve|Fed]] caught between inflation and employment,
 
 - Every central bank has inflation at the forefront, especially with sticky levels hard to reduce
 - But the bigger issue is maximum employment — companies cutting labor forces 20% for operating leverage, structural immigration changes reducing supply
-- Global context matters: [[RBA]], [[Bank of Canada|BoC]], [[ECB]], [[Bank of England|BoE]], [[Bank of Japan|BoJ]] all moving rates higher to combat inflation — the Fed operates in that environment
+- Global context matters: Rieder claimed [[RBA]], [[Bank of Canada|BoC]], [[ECB]], [[Bank of England|BoE]], [[Bank of Japan|BoJ]] "all moving rates higher" — this overstates: BoJ hiking, RBA/BoC approaching hikes, but ECB on hold and BoE expected to cut. Directional pressure real but not uniform.
 - 3% inflation "is not infectious" — [[Inflation expectations|5Y5Y forwards]] barely moving, no structural unanchoring
 - The Fed will wait for more data, letting counteracting forces play out
 - A rate hike would require persistent structural inflation with longer-term forward expectations (2Y2Y, 5Y5Y) starting to move — not currently happening

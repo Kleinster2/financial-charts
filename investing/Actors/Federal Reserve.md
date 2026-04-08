@@ -129,7 +129,7 @@ Labor market backdrop: US lost 92,000 jobs last month. Q4 GDP revised to 0.7% an
 - Companies cutting labor forces ~20% for operating leverage — "how powerful that is"
 - Immigration reduction creating structural supply constraints
 - 3% inflation "not infectious" — [[Inflation expectations|5Y5Y forwards]] barely moving
-- Global context: [[RBA]], [[Bank of Canada|BoC]], [[ECB]], [[Bank of England|BoE]], [[Bank of Japan|BoJ]] all raising rates — the Fed isn't operating in isolation
+- Global context: Rieder claimed [[RBA]], [[Bank of Canada|BoC]], [[ECB]], [[Bank of England|BoE]], [[Bank of Japan|BoJ]] are "all moving rates higher." This overstates the picture: the [[Bank of Japan|BoJ]] is hiking (toward 1.0%), the [[RBA]] and [[Bank of Canada|BoC]] are approaching hikes but haven't yet, the [[ECB]] is on hold, and the [[Bank of England|BoE]] is expected to cut. The directional pressure from global peers is real but not uniform.
 - A supply shock (oil) logic is fundamentally different from a demand shock — raising mortgage rates on consumers already pressured by higher food and fuel "doesn't strike me as the right policy initiative"
 - The Fed will wait for more data; counteracting forces (weakening labor vs. rising commodity inflation) create paralysis
 - Would need persistent structural inflation with 2Y2Y and 5Y5Y forwards moving to justify a hike — neither showing that signal
