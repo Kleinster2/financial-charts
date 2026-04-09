@@ -1,8 +1,11 @@
 """Quick vault mover check — scans actor aliases against market data.
 
-Uses standard deviations of daily returns (rolling 60-day window) to flag
-statistically unusual moves, not arbitrary percentage thresholds. A 3% move
-on PG is a 3-sigma event; an 8% move on a volatile biotech might be 1-sigma.
+Uses beta-adjusted excess returns to flag statistically unusual *idiosyncratic*
+moves. A stock that rises 5% on a +3% market day when its beta is 1.2 had an
+excess return of +1.4% — that's what gets z-scored, not the raw +5%.
+
+Beta is computed over a longer window (120 days) for stability; idiosyncratic
+volatility uses a shorter window (60 days) for responsiveness.
 
 Supports both DuckDB (long format: Date/Ticker/Close) and SQLite (wide format:
 Date + ticker columns). Tries DuckDB first if it has fresher data.
@@ -26,7 +29,9 @@ DUCK_DB = Path(__file__).parent.parent / "market_data.duckdb"
 SKIP = {"AI","US","UK","EU","HQ","PE","RE","DC","VC","CEO","CTO","COO","CFO","IPO",
         "SA","SE","AG","NV","AB","LP","NA","AM","GP","BE","IT","OR","ON","TD","BN","BAM"}
 DEFAULT_SIGMA = 2.5
-LOOKBACK = 60  # trading days for rolling volatility
+VOL_LOOKBACK = 60    # trading days for idiosyncratic volatility
+BETA_LOOKBACK = 120  # trading days for beta estimation
+BENCHMARK = "SPY"
 
 
 def get_vault_tickers():
@@ -88,11 +93,10 @@ def pick_backend():
         return None, None
 
 
-def compute_sigma_duckdb(candidates, lookback=LOOKBACK):
+def compute_sigma_duckdb(candidates, vol_lookback=VOL_LOOKBACK, beta_lookback=BETA_LOOKBACK):
     """Compute sigma moves using DuckDB long-format prices table."""
     conn = duckdb.connect(str(DUCK_DB), read_only=True)
 
-    # Get tickers that exist in DB
     db_tickers = set(r[0] for r in conn.execute("SELECT DISTINCT Ticker FROM prices").fetchall())
     ticker_map = {t: a for t, a in candidates.items() if t in db_tickers}
 
@@ -100,36 +104,47 @@ def compute_sigma_duckdb(candidates, lookback=LOOKBACK):
         conn.close()
         return ticker_map, []
 
+    # Need enough days for beta window
+    fetch_days = beta_lookback + 2
     tickers = list(ticker_map.keys())
-    # Get the last (lookback+1) dates
     dates = conn.execute(
-        f"SELECT DISTINCT Date FROM prices ORDER BY Date DESC LIMIT {lookback + 1}"
+        f"SELECT DISTINCT Date FROM prices ORDER BY Date DESC LIMIT {fetch_days}"
     ).fetchall()
     if len(dates) < 10:
         conn.close()
         return ticker_map, []
 
     min_date = dates[-1][0]
-    ticker_list = ", ".join(f"'{t}'" for t in tickers)
 
+    # Fetch stock prices
+    ticker_list = ", ".join(f"'{t}'" for t in tickers)
     rows = conn.execute(f"""
         SELECT Ticker, Date, Close FROM prices
         WHERE Ticker IN ({ticker_list}) AND Date >= '{min_date}'
         ORDER BY Ticker, Date DESC
     """).fetchall()
+
+    # Fetch benchmark prices
+    bench_rows = conn.execute(f"""
+        SELECT Date, Close FROM prices
+        WHERE Ticker = '{BENCHMARK}' AND Date >= '{min_date}'
+        ORDER BY Date DESC
+    """).fetchall()
     conn.close()
 
-    # Group by ticker
     from collections import defaultdict
     by_ticker = defaultdict(list)
     for ticker, date, close in rows:
         if close is not None:
             by_ticker[ticker].append((str(date), close))
 
-    return ticker_map, _compute_from_prices(by_ticker, ticker_map)
+    bench_prices = [(str(d), c) for d, c in bench_rows if c is not None]
+
+    return ticker_map, _compute_from_prices(by_ticker, ticker_map, bench_prices,
+                                            vol_lookback, beta_lookback)
 
 
-def compute_sigma_sqlite(candidates, lookback=LOOKBACK):
+def compute_sigma_sqlite(candidates, vol_lookback=VOL_LOOKBACK, beta_lookback=BETA_LOOKBACK):
     """Compute sigma moves using SQLite wide-format stock_prices_daily table."""
     conn = sqlite3.connect(str(SQLITE_DB))
     cols = set(r[1] for r in conn.execute("PRAGMA table_info(stock_prices_daily)").fetchall())
@@ -139,66 +154,149 @@ def compute_sigma_sqlite(candidates, lookback=LOOKBACK):
         conn.close()
         return ticker_map, []
 
+    # Need enough days for beta window
+    fetch_days = beta_lookback + 2
     tickers = list(ticker_map.keys())
-    col_str = ", ".join(f"[{t}]" for t in tickers)
+
+    # Always include benchmark
+    need_bench = BENCHMARK not in tickers
+    all_cols = tickers + ([BENCHMARK] if need_bench and BENCHMARK in cols else [])
+    col_str = ", ".join(f"[{t}]" for t in all_cols)
+
     rows = conn.execute(
-        f'SELECT date, {col_str} FROM stock_prices_daily ORDER BY date DESC LIMIT {lookback + 1}'
+        f'SELECT date, {col_str} FROM stock_prices_daily ORDER BY date DESC LIMIT {fetch_days}'
     ).fetchall()
     conn.close()
 
     if len(rows) < 10:
         return ticker_map, []
 
-    # Convert wide to per-ticker price lists
     from collections import defaultdict
     by_ticker = defaultdict(list)
+    bench_prices = []
+
     for row in rows:
         date = str(row[0])[:10]
-        for idx, ticker in enumerate(tickers):
+        for idx, ticker in enumerate(all_cols):
             val = row[idx + 1]
             if val is not None:
-                by_ticker[ticker].append((date, val))
+                if ticker == BENCHMARK and need_bench:
+                    bench_prices.append((date, val))
+                else:
+                    by_ticker[ticker].append((date, val))
+        # If benchmark is also a vault ticker, grab it for bench_prices too
+        if not need_bench and BENCHMARK in tickers:
+            bench_idx = tickers.index(BENCHMARK)
+            val = row[bench_idx + 1]
+            if val is not None:
+                bench_prices.append((date, val))
 
-    return ticker_map, _compute_from_prices(by_ticker, ticker_map)
+    return ticker_map, _compute_from_prices(by_ticker, ticker_map, bench_prices,
+                                            vol_lookback, beta_lookback)
 
 
-def _compute_from_prices(by_ticker, ticker_map):
-    """Shared sigma computation from per-ticker price lists (date desc order)."""
+def _compute_returns(price_list):
+    """Compute returns from a price list in date-descending order."""
+    prices = [p for _, p in price_list]
+    returns = []
+    for i in range(len(prices) - 1):
+        if prices[i + 1] and prices[i + 1] > 0:
+            returns.append((prices[i] - prices[i + 1]) / prices[i + 1])
+        else:
+            returns.append(None)
+    return returns
+
+
+def _compute_beta(stock_returns, bench_returns, n):
+    """Compute beta using up to n historical return pairs (skipping today's return)."""
+    # stock_returns[0] is today, [1:] is history (most recent first)
+    pairs = []
+    for i in range(1, min(len(stock_returns), len(bench_returns), n + 1)):
+        sr = stock_returns[i]
+        br = bench_returns[i]
+        if sr is not None and br is not None:
+            pairs.append((sr, br))
+
+    if len(pairs) < 20:
+        return None
+
+    mean_s = sum(s for s, _ in pairs) / len(pairs)
+    mean_b = sum(b for _, b in pairs) / len(pairs)
+
+    cov = sum((s - mean_s) * (b - mean_b) for s, b in pairs) / len(pairs)
+    var_b = sum((b - mean_b) ** 2 for _, b in pairs) / len(pairs)
+
+    if var_b < 1e-12:
+        return None
+
+    return cov / var_b
+
+
+def _compute_from_prices(by_ticker, ticker_map, bench_prices, vol_lookback, beta_lookback):
+    """Compute beta-adjusted sigma moves from per-ticker price lists."""
+    # Compute benchmark returns
+    bench_returns = _compute_returns(bench_prices) if bench_prices else []
+
     results = []
     for ticker, price_list in by_ticker.items():
+        if ticker == BENCHMARK:
+            continue
         if len(price_list) < 10:
             continue
 
-        prices = [p for _, p in price_list]
-        returns = []
-        for i in range(len(prices) - 1):
-            if prices[i + 1] and prices[i + 1] > 0:
-                returns.append((prices[i] - prices[i + 1]) / prices[i + 1])
-
-        if len(returns) < 5:
+        stock_returns = _compute_returns(price_list)
+        if len(stock_returns) < 5:
             continue
 
-        today_return = returns[0]
-        curr, prev = prices[0], prices[1]
+        today_return = stock_returns[0]
+        if today_return is None:
+            continue
+
+        curr, prev = price_list[0][1], price_list[1][1]
         date = price_list[0][0]
         pct = today_return * 100
 
-        hist_returns = returns[1:]
-        if len(hist_returns) < 5:
+        # Compute beta over longer window
+        beta = _compute_beta(stock_returns, bench_returns, beta_lookback)
+
+        # Compute excess returns
+        excess_returns = []
+        for i in range(len(stock_returns)):
+            sr = stock_returns[i]
+            br = bench_returns[i] if i < len(bench_returns) else None
+            if sr is not None and br is not None and beta is not None:
+                excess_returns.append(sr - beta * br)
+            elif sr is not None:
+                # Fallback: use raw return if no benchmark data
+                excess_returns.append(sr)
+
+        if len(excess_returns) < 5:
             continue
 
-        mean = sum(hist_returns) / len(hist_returns)
-        variance = sum((r - mean) ** 2 for r in hist_returns) / len(hist_returns)
-        std = math.sqrt(variance)
+        today_excess = excess_returns[0]
 
-        if std < 1e-10:
+        # Use vol_lookback window for idiosyncratic vol (skip today)
+        hist_excess = excess_returns[1:vol_lookback + 1]
+        if len(hist_excess) < 5:
             continue
 
-        z_score = (today_return - mean) / std
-        annualized_vol = std * math.sqrt(252) * 100
+        mean_ex = sum(hist_excess) / len(hist_excess)
+        variance = sum((r - mean_ex) ** 2 for r in hist_excess) / len(hist_excess)
+        std_ex = math.sqrt(variance)
+
+        if std_ex < 1e-10:
+            continue
+
+        z_score = (today_excess - mean_ex) / std_ex
+        annualized_vol = std_ex * math.sqrt(252) * 100
+
+        # Also compute raw annualized vol for display
+        raw_hist = [r for r in stock_returns[1:vol_lookback + 1] if r is not None]
+        raw_vol = math.sqrt(sum(r ** 2 for r in raw_hist) / len(raw_hist)) * math.sqrt(252) * 100 if raw_hist else annualized_vol
 
         actor = ticker_map.get(ticker, ticker)
-        results.append((ticker, actor, prev, curr, pct, z_score, annualized_vol, date))
+        results.append((ticker, actor, prev, curr, pct, z_score, annualized_vol, date,
+                         beta if beta is not None else 0.0, raw_vol))
 
     return results
 
@@ -207,10 +305,14 @@ def main():
     parser = argparse.ArgumentParser(description="Check vault actors for statistically unusual moves.")
     parser.add_argument("--sigma", type=float, default=DEFAULT_SIGMA,
                         help=f"Standard deviation threshold (default: {DEFAULT_SIGMA})")
-    parser.add_argument("--lookback", type=int, default=LOOKBACK,
-                        help=f"Rolling window for volatility calc (default: {LOOKBACK} days)")
+    parser.add_argument("--vol-lookback", type=int, default=VOL_LOOKBACK,
+                        help=f"Rolling window for idiosyncratic vol (default: {VOL_LOOKBACK} days)")
+    parser.add_argument("--beta-lookback", type=int, default=BETA_LOOKBACK,
+                        help=f"Window for beta estimation (default: {BETA_LOOKBACK} days)")
     parser.add_argument("--pct", type=float, default=None,
                         help="Optional: also flag moves above this %% regardless of sigma")
+    parser.add_argument("--raw", action="store_true",
+                        help="Use raw returns instead of beta-adjusted (original behavior)")
     args = parser.parse_args()
 
     backend, latest_date = pick_backend()
@@ -218,34 +320,58 @@ def main():
         print("No market data found (checked DuckDB and SQLite).")
         return
 
-    print(f"Using {backend} (latest data: {latest_date})")
+    mode = "raw" if args.raw else f"beta-adjusted (beta:{args.beta_lookback}d, vol:{args.vol_lookback}d)"
+    print(f"Using {backend} (latest data: {latest_date}) — {mode}")
     candidates = get_vault_tickers()
 
     if backend == "duckdb":
-        ticker_map, all_results = compute_sigma_duckdb(candidates, args.lookback)
+        ticker_map, all_results = compute_sigma_duckdb(candidates, args.vol_lookback, args.beta_lookback)
     else:
-        ticker_map, all_results = compute_sigma_sqlite(candidates, args.lookback)
+        ticker_map, all_results = compute_sigma_sqlite(candidates, args.vol_lookback, args.beta_lookback)
 
     print(f"Found {len(ticker_map)} trackable tickers (in DB + vault).")
 
+    # Get benchmark return for display
+    bench_return = None
+    if all_results:
+        # Pull benchmark from the data we already have
+        conn = sqlite3.connect(str(SQLITE_DB)) if backend == "sqlite" else None
+        if conn:
+            try:
+                rows = conn.execute(
+                    f"SELECT [{BENCHMARK}] FROM stock_prices_daily ORDER BY date DESC LIMIT 2"
+                ).fetchall()
+                if len(rows) == 2 and rows[0][0] and rows[1][0]:
+                    bench_return = (rows[0][0] - rows[1][0]) / rows[1][0] * 100
+            except Exception:
+                pass
+            finally:
+                conn.close()
+
+    if bench_return is not None:
+        print(f"{BENCHMARK}: {bench_return:+.1f}% on {latest_date}")
+
     movers = []
-    for ticker, actor, prev, curr, pct, z_score, vol, date in all_results:
+    for item in all_results:
+        ticker, actor, prev, curr, pct, z_score, vol, date = item[:8]
+        beta = item[8] if len(item) > 8 else 0.0
+        raw_vol = item[9] if len(item) > 9 else vol
         flagged = abs(z_score) >= args.sigma
         if args.pct and abs(pct) >= args.pct:
             flagged = True
         if flagged:
-            movers.append((ticker, actor, prev, curr, pct, z_score, vol, date))
+            movers.append((ticker, actor, prev, curr, pct, z_score, vol, date, beta, raw_vol))
     movers.sort(key=lambda x: abs(x[5]), reverse=True)
 
     if movers:
-        print(f"\n** VAULT ACTORS WITH UNUSUAL MOVES (>={args.sigma} sigma):\n")
-        hdr = f"{'Ticker':<8} {'Actor':<30} {'Prev':>8} {'Last':>8} {'Change':>8} {'Sigma':>7} {'AnnVol':>7}"
+        print(f"\n** VAULT ACTORS WITH UNUSUAL MOVES (>={args.sigma} sigma, beta-adjusted):\n")
+        hdr = f"{'Ticker':<8} {'Actor':<30} {'Prev':>8} {'Last':>8} {'Change':>8} {'Sigma':>7} {'Beta':>6} {'IdioVol':>8}"
         print(hdr)
         print("-" * len(hdr))
-        for t, a, p, c, pct, z, vol, d in movers:
+        for t, a, p, c, pct, z, vol, d, beta, raw_vol in movers:
             sign = "+" if pct > 0 else ""
             zsign = "+" if z > 0 else ""
-            print(f"{t:<8} {a:<30} ${p:>7.2f} ${c:>7.2f} {sign}{pct:>6.1f}% {zsign}{z:>5.1f}s {vol:>5.0f}%")
+            print(f"{t:<8} {a:<30} ${p:>7.2f} ${c:>7.2f} {sign}{pct:>6.1f}% {zsign}{z:>5.1f}s {beta:>5.2f}x {vol:>6.0f}%")
     else:
         print(f"\nNo vault actors exceeded +/-{args.sigma} sigma in the last session.")
 
