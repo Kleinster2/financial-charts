@@ -1491,6 +1491,10 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             combined_vol_df = combined_vol_df[~combined_vol_df.index.duplicated(keep='last')]
 
         # ── NARROW WRITE (canonical) ─────────────────────────────────────
+        # Close main connection first — narrow write opens its own connection,
+        # and two concurrent SQLite writers cause "database is locked" errors.
+        conn.close()
+        narrow_ok = True
         if USE_NARROW and NARROW_AVAILABLE:
             vprint("\n" + "="*60)
             vprint("[Narrow] Writing to canonical narrow tables...")
@@ -1503,7 +1507,13 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             except Exception as e:
                 vprint(f"[Narrow] FATAL: Narrow write failed: {e}")
                 vprint("[Narrow] ABORTING — narrow table is the canonical store.")
-                return
+                narrow_ok = False
+
+        # Reopen connection for wide write
+        conn = get_db_connection(row_factory=None)
+        cursor = conn.cursor()
+        if not narrow_ok:
+            return
 
         # ── WIDE WRITE (compat) ──────────────────────────────────────────
         try:

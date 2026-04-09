@@ -272,7 +272,7 @@ def upsert_prices_long(df_long: pd.DataFrame, table: str = 'prices_long',
     if df_long.empty:
         return
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB_PATH, timeout=30)
     try:
         rows = list(zip(df_long['Date'], df_long['Ticker'], df_long[value_col]))
         conn.executemany(
@@ -288,7 +288,7 @@ def upsert_prices_long(df_long: pd.DataFrame, table: str = 'prices_long',
 
 def _ensure_narrow_table(table: str, value_col: str):
     """Create narrow table with indexes if it doesn't exist."""
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB_PATH, timeout=30)
     try:
         conn.execute(f'''CREATE TABLE IF NOT EXISTS {table} (
             Date TEXT NOT NULL,
