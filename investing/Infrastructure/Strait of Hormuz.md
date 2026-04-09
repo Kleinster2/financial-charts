@@ -247,6 +247,10 @@ The resolution metric is revealing: 60 daily transit calls would still be well b
 - [[Stellen Capital]] — commodities/shipping hedge fund
 - [[Polymarket]] — 39% normalization by April 30 (prediction market)
 - [[Gulf pipeline bypass planning 2026]] — structural bypass network planning (FT Apr 2)
+- [[BWET]] — tanker shipping ETF; 2026 best-performing US-listed fund; flow paradox vs BNO
+- [[Breakwave Advisors]] — BWET / BDRY issuer
+- [[Sinokor Group]] — concentrated tanker ownership pre-crisis
+- [[Xeneta]] — freight analytics, schedule disruption commentary
 
 ---
 
@@ -339,3 +343,17 @@ The ceasefire's two-week window creates a binary gamble: ships outside the Gulf 
 ~600 million barrels lost over ~6 weeks of shortfall. At 1 million bbl/day of overproduction, buffer rebuild takes ~2 years — extended demand from storage restocking will sustain elevated oil prices beyond any ceasefire.
 
 *Source: FT, "How this oil shock unwinds" (Apr 8, 2026)*
+
+---
+
+## ETF flow paradox — BWET vs BNO (April 2026)
+
+Despite [[BWET]] (Breakwave Tanker Shipping ETF, [[Breakwave Advisors]]) being the single best-performing US-listed fund of the year — tracking the record tanker rate spike captured in the [[VLCC]] note (TD3C $423,736/day on Mar 3) — it gathered only ~$25M in net inflows through April 2026. Over the same window, the United States Brent Oil Fund (BNO) attracted ~$720M despite delivering "a fraction" of BWET's return (Bloomberg, April 2026).
+
+The flow gap reveals the narrowness of the investable Hormuz thesis: ETF speculators defaulted to the Brent ticker they already knew rather than cross the tax and complexity frictions (3.5% headline fee, K-1 treatment, futures collateral) into the rate-exposed vehicle that actually captured the dislocation. [[Todd Sohn]] ([[Strategas Securities]]): "The arbitrage opportunity has largely played out… it's a pretty niche exposure; oil is one thing, but tanker freight is a more specialized bet."
+
+[[John Kartsonas]] (Breakwave founder) frames a post-ceasefire transition from war thesis to fundamental thesis: concentrated tanker ownership ([[Sinokor Group]]), [[Russia]] / [[Iran]] sanctions shrinking the compliant fleet, aging global vessel base, and logistical aftershocks at [[Mundra]], [[Nhava Sheva]], and [[Khor Fakkan]]. [[Destine Ozuygur]] ([[Xeneta]]): schedule disruption at those ports "not going to go away overnight."
+
+See [[BWET]] for the full flow paradox breakdown.
+
+*Source: Bloomberg, April 2026.*

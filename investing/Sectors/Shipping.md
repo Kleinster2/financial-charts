@@ -88,6 +88,9 @@ Full detail: [[Iran conflict supply chain cascade#Container shipping disruption]
 | China port dominance | [[SIPG]] (600018.SS) |
 | Equipment monopoly | [[ZPMC]] (600320.SS) |
 | Western alternatives | Liebherr, Konecranes (long-dated) |
+| Crude tanker rate exposure (ETF) | [[BWET]] — [[Breakwave Advisors]] futures-based tanker ETF |
+| Crude tanker rate exposure (equities) | [[Frontline]] (FRO), [[DHT Holdings]] (DHT), [[International Seaways]] (INSW) |
+| Dry bulk rate exposure (ETF) | [[BDRY]] — [[Breakwave Advisors]] dry bulk ETF |
 
 ---
 
@@ -120,6 +123,14 @@ Beyond the ongoing Houthi shipping disruption, the Horn of Africa faces potentia
 
 ---
 
+## Tanker ETF flow paradox — BWET vs BNO (April 2026)
+
+[[BWET]] (Breakwave Tanker Shipping ETF) was the single best-performing US-listed fund in early 2026, tracking the record [[VLCC]] rate spike during the [[Strait of Hormuz]] closure. Yet it gathered only ~$25M in net inflows through April, vs ~$720M into the United States Brent Oil Fund (BNO) which delivered "a fraction" of BWET's return (Bloomberg, April 2026). The gap exposes the narrowness of the investable tanker thesis: even macro-hunting ETF speculators defaulted to Brent over rate exposure.
+
+[[John Kartsonas]] ([[Breakwave Advisors]] founder) argues the thesis can transition from war-driven to fundamentals-driven on the back of: concentrated tanker ownership ([[Sinokor Group]]), [[Russia]] / [[Iran]] sanctions shrinking the compliant fleet, aging global vessel base, and post-ceasefire logistical aftershocks at [[Mundra]], [[Nhava Sheva]], and [[Khor Fakkan]] ([[Destine Ozuygur]], [[Xeneta]]: disruption "not going to go away overnight"). [[Todd Sohn]] ([[Strategas Securities]]) counters that the arbitrage has "largely played out" and tanker freight is "a pretty niche exposure." See [[BWET]] for detail.
+
+---
+
 ## Iran conflict — shipping rate dynamics and post-resolution risk (March 23)
 
 [[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) described a counterintuitive rate pattern: tanker, LNG, and LPG vessel rates initially surged on the [[Strait of Hormuz]] disruption, then fell when the physical shortage meant there was no product to fill ships. Floating storage was exhausted, production was shut in, and empty vessels sat idle. The rate drop then enabled Asian refiners to book cheaper ships for the longer Atlantic basin voyages (USGC, West Africa, North Sea).
@@ -145,5 +156,10 @@ Post-resolution congestion risk: even if the strait reopens in May/June, ships a
 - [[Transport]] — broader sector
 - [[Wallenius Wilhelmsen]] — world's largest car carrier fleet
 - [[World Shipping Council]] — industry body, cargo safety
+- [[BWET]] — tanker freight futures ETF, 2026's best-performing US-listed fund
+- [[BDRY]] — dry bulk freight futures ETF
+- [[Breakwave Advisors]] — BWET / BDRY issuer
+- [[Sinokor Group]] — Seoul-based tanker operator, concentrated pre-crisis capacity
+- [[Xeneta]] — freight rate analytics platform
 
-*Updated 2026-03-17*
+*Updated 2026-04-09*
