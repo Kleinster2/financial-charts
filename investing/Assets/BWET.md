@@ -38,7 +38,7 @@ Mechanical note: "If rates decline, the fund will also decline." BWET is pure fr
 | YTD comparator — BNO inflows | ~$720M (Bloomberg) |
 | 2026 return | "Up multiples" YTD (exact figure not cited) |
 
-*Bloomberg inflow figures are reported as approximations. Price data not yet ingested into the local database — ticker add pending.*
+*Price data not yet ingested into the local database — ticker add pending.*
 
 ---
 
