@@ -306,6 +306,11 @@ See [[Iranian missile arsenal]] for the full program analysis. Key facts: the [[
 - [[Chinese teapot refineries]] — primary oil buyers
 - [[US-China tariffs]] — could escalate to 74%+ via Iran link
 
+### Ceasefire & market impact
+- [[2026 Iran conflict market impact]] — market reaction hub
+- [[Short interest]] — April 8 ceasefire triggered historic short squeeze (GS PB data: 7.6:1 short/long, fastest covering since Mar 2020)
+- [[Nitrogen Trap]] — fertilizer supply chain from Hormuz closure
+
 ### Geopolitics
 - [[Oil]] — Iran supply dynamics
 - [[Israel]] — regional adversary

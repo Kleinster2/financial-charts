@@ -359,6 +359,22 @@ FAO FPI baseline: Feb 2026 at 125.3 points (down 21.8% from March 2022 peak). Th
 
 ---
 
+## Crown popularization (Nicholas Crown, TikTok, Apr 9)
+
+Nicholas Crown (@nicholas_crown) brought the nitrogen trap thesis to a mass audience on TikTok, distilling the transmission chain:
+
+> Hormuz closes → urea spikes 40% in 2 weeks → Midwest farmers can't afford nitrogen for corn → USDA projects corn acreage drops 99M→93M → farmers pivot to soybeans → less corn = less livestock feed → meat/grain inflation late 2026-2027
+
+Crown emphasized that no strategic nitrogen reserve exists — the core vulnerability this note documents. His numbers align with the USDA Ag Outlook projections above (94M baseline → 92-93M post-crisis) with slight rounding differences.
+
+Market signals he flagged: [[CF Industries]] up 13% in early March on nitrogen exposure, [[Nutrien]] up 20% since January. Corn futures repricing on acreage compression, soybean futures absorbing the acreage pivot.
+
+The popularization matters because it reached retail investors who hadn't connected the Hormuz closure to agricultural commodity chains — potentially broadening the capital flow into fertilizer equities.
+
+*Source: Nicholas Crown (@nicholas_crown) TikTok (April 9, 2026)*
+
+---
+
 ## All-In E222 update (Apr 3)
 
 *Data from All-In Podcast Episode 222, April 3, 2026*

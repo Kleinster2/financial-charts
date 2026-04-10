@@ -236,6 +236,29 @@ This is reputational and regulatory risk — potential hearings, scrutiny. Not y
 
 ---
 
+## Crown acreage thesis — corn-to-soybean pivot (Apr 2026)
+
+Nicholas Crown (@nicholas_crown, TikTok, April 9 2026) articulated the agricultural transmission chain from [[Strait of Hormuz]] closure to US food inflation, with CF at the center:
+
+| Step | Mechanism |
+|------|----------|
+| Hormuz closure | ~30% global fertilizer supply cut |
+| No strategic nitrogen reserve | No buffer exists anywhere globally |
+| Urea spike | +40% within 2 weeks of closure |
+| Midwest economics | Farmers can't afford nitrogen for corn |
+| USDA acreage shift | Corn acreage projected: 99M → 93M acres |
+| Farmer pivot | Soybeans (less N-intensive) substitute for corn |
+| Feed chain | Less corn = less livestock feed |
+| Inflation tail | Meat/grain inflation late 2026-2027 |
+
+**CF's position in this chain:** As the world's largest ammonia producer with North American gas feedstock at $3.34/MMBtu, CF is the domestic nitrogen producer of last resort. Every acre that switches from soybeans back to corn requires CF's nitrogen. The company benefits regardless of which way acreage pivots — either corn farmers pay elevated prices for nitrogen, or the corn supply contracts and residual nitrogen demand commands scarcity pricing.
+
+Corn futures are already repricing on acreage compression; soybean futures absorbing the pivot. The thesis aligns with [[BofA]]'s view that nitrogen prices peak mid-Q2, but the [[Nitrogen Trap]] framework suggests duration is being underpriced (120+ days vs consensus 45).
+
+*Source: Nicholas Crown (@nicholas_crown) TikTok (April 9, 2026)*
+
+---
+
 ## Investment case
 
 The core question is duration. The [[Wells Fargo]] $150 vs [[BofA]] $103 gap is a duration bet: if you think 45 days, sell; if you think 120+, the stock isn't done.

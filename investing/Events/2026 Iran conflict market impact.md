@@ -177,6 +177,28 @@ The [[HFR]] flagship index fell 3.1% in March — the worst month since a 9.1% d
 
 The dispersion between macro specialists and diversified multi-managers is the clearest signal: pod shops' hundreds of uncorrelated strategies absorbed the shock, while concentrated rate bets amplified it. [[Gold]] failed as a hedge alongside bonds.
 
+### April 8-9 ceasefire short squeeze — Goldman Sachs PB data
+
+[[Trump II|Trump]]'s ceasefire announcement on April 8 triggered the largest short squeeze since March 2020. [[Goldman Sachs]] prime brokerage data revealed the pre-squeeze positioning:
+
+| Metric | Value |
+|--------|-------|
+| Selling pace pre-ceasefire | Fastest in 13 years |
+| Short:long ratio | **7.6 to 1** |
+| ETF short concentration | 76% of shorts in index/ETF products |
+| US-listed ETF shorts | +17.2% |
+| Gross leverage | **2.9x books** (highest in 5 years) |
+| GS most-shorted basket | **+7.1% in single session** |
+| Short covering pace | Fastest since March 2020 |
+
+Goldman's head of equities execution services: *"This is the offramp the market has been waiting for."* Clients see high likelihood this marks "the beginning of the end" of the conflict.
+
+**Sector rotation during covering:** Funds bought tech, media, telecom for first time in 4 months (covering-driven, not conviction). Selling continued in cyclicals (industrials, materials, financials). Energy, healthcare, consumer staples saw net purchases.
+
+Critical context: the rally is mechanical covering, not fundamental conviction. Gross leverage at 2.9x means the system remains fragile — the next shock (if ceasefire breaks) could produce equally violent selling. Single-stock positioning remains fragile even as ETFs are being repurchased.
+
+*Source: [[Goldman Sachs]] PB data, Bloomberg (April 8, 2026), ainvest.com, Nicholas Crown (@nicholas_crown) TikTok (April 9)*
+
 ---
 
 ## Expert panels

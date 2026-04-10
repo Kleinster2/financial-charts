@@ -110,6 +110,43 @@ Sixth consecutive quarter of double-digit earnings growth if consensus holds. Go
 
 ---
 
+## Prime brokerage data — April 2026 short squeeze (Apr 8-9)
+
+Goldman's prime brokerage desk produced the most granular positioning data on the short squeeze triggered by [[Trump II|Trump]]'s temporary ceasefire announcement with [[Iran]] on April 8.
+
+### Pre-ceasefire short buildup
+
+| Metric | Value | Context |
+|--------|-------|---------|
+| **Selling pace** | Fastest in 13 years | Hedge funds sold global equities at record clip |
+| **Short:long ratio** | **7.6 to 1** | Short sales outpaced long purchases |
+| **ETF short concentration** | 76% of shorts in index/ETF products | Macro-level de-risking, not stock-picking |
+| **US-listed ETF shorts** | +17.2% | Systematic, not fundamental |
+| **Gross leverage** | **2.9x books** | Highest in 5 years — amplifies systemic risk regardless of net positioning |
+| **Single-stock de-risking** | Fastest in 2+ years | Reminiscent of March 2020 panic |
+
+### The squeeze
+
+When [[Trump II|Trump]] announced the ceasefire (late Tuesday April 8), covering began immediately. Goldman's most-shorted basket surged **7.1% in a single session**. Bloomberg (April 8) reported hedge funds closing short bets at the fastest pace since March 2020.
+
+Goldman's head of equities execution services: *"This is the offramp the market has been waiting for."* Clients see high likelihood this marks "the beginning of the end" of the [[2026 Strait of Hormuz crisis|Iran conflict]].
+
+### Sector rotation during covering
+
+| Sector | Flow | Notes |
+|--------|------|-------|
+| Tech, media, telecom | **Net bought** | First time in 4 months — covering-driven, not conviction |
+| Energy, healthcare, consumer staples | **Net bought** | Defensive rebalancing |
+| Industrials, materials, financials | **Net sold** | Cyclical selling continued |
+
+### Analytical implications
+
+The rally is covering, not conviction — sustainability depends entirely on ceasefire durability. Once shorts get stopped out this violently, they don't immediately reload. But gross leverage at 2.9x means the next shock (if ceasefire breaks) could be equally violent in the opposite direction. The market is a patchwork: ETFs being repurchased but single-stock positioning remains fragile.
+
+*Source: [[Goldman Sachs]] PB data, Bloomberg (April 8, 2026), ainvest.com, Nicholas Crown (@nicholas_crown) TikTok (April 9)*
+
+---
+
 ## Thematic baskets
 
 **[[GS AI Productivity Beneficiaries]]** (GSXUPROD) — "Most important trade of 2026." Non-tech companies benefiting from AI-driven labor productivity. ~60 names across banks, logistics, restaurants, retail, healthcare. Screened from Russell 1000 by wage cost exposure to AI automation.
@@ -203,3 +240,6 @@ See [[AI infrastructure financing]] for market context.
 - [[Private Credit Software Concentration]] — TRS short product + "glad" remark (Mar 2026)
 - [[Kunal Shah]] — co-CEO GS International, FICC co-head
 - [[Alex Younger]] — former MI6 chief, paid GS adviser
+- [[Short interest]] — GS PB data on April 2026 short squeeze mechanics
+- [[2026 Iran conflict market impact]] — ceasefire-driven squeeze context
+- [[Hedge fund capital concentration]] — leverage and positioning data

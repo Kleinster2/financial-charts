@@ -126,12 +126,22 @@ Bond yields rising on term premium (fiscal fears), not inflation expectations �
 ## Key upcoming catalysts
 
 - [x] ~~Apr 3: March jobs report~~ → beat expectations but labor force shrank
-- [ ] Apr 8: Trump's [[Iran]] ultimatum deadline (8 PM ET)
+- [x] ~~Apr 8: Trump's [[Iran]] ultimatum deadline~~ → temporary ceasefire announced; triggered historic [[Short interest|short squeeze]]
 - [ ] Apr 10: March CPI release
 - [ ] Apr 14-15: [[JPMorgan Chase|JPM]] / [[Bank of America|BAC]] Q1 earnings — first corporate read on oil/tariff impact
 - [ ] Apr 16: [[TSMC]] Q1 earnings
 - [ ] Apr 28-29: [[FOMC]] meeting
 - [ ] Q2 2026 earnings season (late Apr) — corporate guidance will reflect oil/tariff impact
+
+---
+
+## April 8 ceasefire and short squeeze context
+
+[[Trump II|Trump]]'s ceasefire announcement with [[Iran]] on April 8 catalyzed the largest short squeeze since March 2020. [[Goldman Sachs]] PB data revealed hedge funds had been selling global equities at the fastest pace in 13 years, with short sales outpacing longs 7.6 to 1 and 76% concentrated in ETFs/indices.
+
+The rally is covering, not conviction. Gross leverage at 2.9x books (highest in 5 years) means the system remains fragile — a ceasefire collapse would produce equally violent selling. The fear-driven shorting that built up reflects how deeply recession risk had been priced by fast money: the recession was the consensus trade.
+
+See [[Short interest#April 2026 short squeeze — Goldman Sachs PB data|Short interest § April 2026 short squeeze]] for full mechanics.
 
 ---
 
@@ -142,13 +152,15 @@ Bond yields rising on term premium (fiscal fears), not inflation expectations �
 - [[Fed]] — policy bind (inflation vs growth)
 - [[Ed Yardeni]] — raised odds, ended tech overweight
 - [[Lyn Alden]] — fiscal dominance framework
-- [[Goldman Sachs]] — 30% estimate
+- [[Goldman Sachs]] — 30% estimate; PB data on April 2026 short squeeze
 - [[Oil and recessions]] — historical pattern
 - [[Francisco Blanch]] — "mild stagflation" revision
 - [[Natasha Kaneva]] — operational minimum timeline
 - [[Stagflation]] — framework note
 - [[Ruchir Sharma]] — fiscal vulnerability ranking (FT Apr 2026)
 - [[Fiscal Dominance]] — policy ammunition exhaustion as amplifier
+- [[Short interest]] — April 2026 squeeze mechanics
+- [[Hedge fund capital concentration]] — 2.9x gross leverage as systemic fragility indicator
 
 ---
 

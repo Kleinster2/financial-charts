@@ -339,3 +339,23 @@ The ceasefire's two-week window creates a binary gamble: ships outside the Gulf 
 ~600 million barrels lost over ~6 weeks of shortfall. At 1 million bbl/day of overproduction, buffer rebuild takes ~2 years — extended demand from storage restocking will sustain elevated oil prices beyond any ceasefire.
 
 *Source: FT, "How this oil shock unwinds" (Apr 8, 2026)*
+
+### Crown fertilizer/acreage thesis (Nicholas Crown, TikTok, Apr 9)
+
+Nicholas Crown (@nicholas_crown) laid out the agricultural transmission chain from the Hormuz closure:
+
+| Step | Effect |
+|------|--------|
+| Hormuz closure | ~30% global fertilizer supply cut |
+| Urea response | Spikes ~40% within 2 weeks |
+| US farm economics | Midwest farmers can't afford nitrogen for corn |
+| USDA acreage forecast | Corn acreage drops 99M → 93M acres |
+| Farmer pivot | Soybeans substitute for corn (less nitrogen-intensive) |
+| Feed chain | Less corn = less livestock feed |
+| Inflation | Meat/grain inflation late 2026-2027 |
+
+**No strategic nitrogen reserve exists anywhere.** This is the core vulnerability the [[Nitrogen Trap]] concept describes. The transmission chain runs: Hormuz closes → urea spikes → farmers can't buy nitrogen → corn acreage compresses → soybeans absorb the pivot → livestock feed shortage → food inflation.
+
+Market signals already confirming: [[CF Industries]] up 13% in early March on nitrogen exposure; [[Nutrien]] up 20% since January. Corn futures repricing on acreage compression; soybean futures absorbing the acreage pivot.
+
+*Source: Nicholas Crown (@nicholas_crown) TikTok (April 9, 2026)*

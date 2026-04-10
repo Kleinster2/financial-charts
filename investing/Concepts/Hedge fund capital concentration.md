@@ -74,6 +74,25 @@ In 2025, private credit was dogged by concerns about distressed companies in por
 
 As L/S hedge fund gross leverage rises, short squeeze vulnerability increases. [[Goldman Sachs]]'s basket of most-shorted stocks surged **+18% YTD** (Jan 2026). Allocators are concerned that crowded shorts could force covering and generate large losses — echoing the [[GameStop]] dynamics of 2021 but across a broader set of positions.
 
+### April 2026 squeeze — the thesis confirmed
+
+The Jan 2026 warning proved prophetic. [[Goldman Sachs]] PB data from April 8-9 revealed the most extreme short-side crowding since 2013:
+
+| Metric | Value |
+|--------|-------|
+| Selling pace | Fastest in 13 years |
+| Short:long ratio | **7.6 to 1** |
+| ETF short concentration | 76% of shorts in index/ETF products |
+| US-listed ETF shorts | +17.2% |
+| Gross leverage | **2.9x books** (highest in 5 years) |
+| Single-stock de-risking | Fastest pace in 2+ years (reminiscent of March 2020) |
+
+When [[Trump II|Trump]]'s ceasefire with [[Iran]] was announced April 8, GS's most-shorted basket surged **7.1% in a single session**. Hedge funds closed shorts at the fastest pace since March 2020 (Bloomberg).
+
+The 2.9x gross leverage is the systemic risk indicator: it amplifies moves in both directions. The squeeze was violent, but if the ceasefire breaks, the same leverage structure produces equally violent selling. The market is structurally fragile regardless of net positioning.
+
+*Source: [[Goldman Sachs]] PB data, Bloomberg (April 8, 2026), ainvest.com*
+
 ---
 
 ## Mid-frequency crowding and the HFT convergence
@@ -124,6 +143,9 @@ The question Bloomberg poses: does the convergence represent one bad year, or th
 - [[Meme stocks]] — short squeeze dynamics
 - [[GameStop]] — 2021 squeeze origin, systemic near-miss
 - [[Retail investor flows]] — structural shift in market participation
+- [[Short interest]] — April 2026 squeeze framework (7.6:1 ratio, 2.9x leverage)
+- [[2026 Iran conflict market impact]] — ceasefire as squeeze catalyst
+- [[Crowded trade risk]] — positioning unwind meta-framework
 
 ---
 
