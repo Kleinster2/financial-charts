@@ -54,6 +54,24 @@ aliases: [Stargate, Stargate JV]
 
 **Status (Jan 2026):** Per SemiAnalysis, Abilene "not going BRRR" — progressing slower than OpenAI's UAE Stargate site which uses on-site gas turbines ([[BYOP]]).
 
+### Strategic retreat (Mar-Apr 2026)
+
+OpenAI's infrastructure ambitions contracted sharply across multiple fronts in March-April 2026, driven by financing constraints and a strategic pivot from building to renting.
+
+**Own data center plans abandoned (Mar 2026):** OpenAI had aimed to directly lease or own some DC campuses and develop large portions of Stargate itself (The Information). Two things killed it: lenders would not back a company with $13.1B revenue and $13.5B losses against $1.4T in commitments; and construction reality proved harder than expected. [[Sam Altman]] at [[BlackRock]]'s US Infrastructure Summit (Mar 11): "Anything at this scale, it's just like so much stuff goes wrong" — cited severe weather at Abilene that temporarily "brought things down," plus supply chain challenges. OpenAI pivoted to renting from [[Microsoft]] Azure, [[Amazon]] AWS, and [[Google]] Cloud. The 1.9 GW achieved by end-2025 was built through JV partners ([[Oracle]], [[Crusoe Energy]]); OpenAI does not currently own any data centers and may not for the foreseeable future (CNBC, Mar 22). IPO pressure compounded the pivot — Wall Street wants fiscal discipline, not a capital-intensive builder story. See [[OpenAI Infrastructure Spend]] for full detail.
+
+**Infrastructure leadership restructured:** Sachin Katti — formerly CTO and AI Officer at [[Intel]], joined OpenAI November 2025 — now leads all infrastructure teams, reorganized into three groups: technical design, commercial partnerships, and facility operations. Infrastructure group leaders previously reported to [[Greg Brockman]]. Keith Heyde, Director of Physical Infrastructure and a vocal proponent of the in-house data center approach, quietly departed ahead of the restructuring.
+
+**Key departures (Apr 10, 2026):** Peter Hoeschele (who helped launch the Stargate program), Shamez Hemani, and Anuj Saharan — all directly involved in compute strategy, partnerships, and scaling — left OpenAI for the same unnamed new company. OpenAI confirmed the departures with a boilerplate statement. These exits, combined with Heyde's departure, represent a near-complete turnover of the infrastructure leadership that built Stargate's first phase. See [[OpenAI talent exodus]].
+
+**UK Stargate paused (Apr 9, 2026):** OpenAI paused the UK Stargate data center project, citing energy costs and regulatory hurdles — specifically the UK government's decision to delay copyright changes that would have eased AI training on copyrighted content (FT, Apr 9). Partners [[NVIDIA]] and [[Nscale]] were already engaged on the buildout. OpenAI statement: "We continue to explore Stargate UK and will move forward when the right conditions such as regulation and the cost of energy enable long-term infrastructure investment." OpenAI said London remains its largest international research hub. [[Nscale]] board member [[Nick Clegg]] (former UK Deputy PM) had been brought on partly for political connectivity on this project. UK government response: continuing to work with OpenAI and others to "strengthen UK compute capacity."
+
+**Wisconsin site progressing:** Despite the broader retreat, a Wisconsin site with [[Oracle]] has its first steel beams erected. Over half a dozen sites remain under development across multiple states. The core 4.5 GW [[Oracle]] contract ($300B lifetime value) is reportedly still on track.
+
+Two distinct retreats are happening simultaneously. First, OpenAI abandoned plans to build and own its own data centers (separate from the Stargate JV) after lenders refused to underwrite construction for a company not yet profitable. Second, the Stargate JV itself is contracting at the edges — the Abilene expansion collapsed over demand-forecasting disagreements with [[Oracle]], the UK buildout paused on energy/regulatory costs. But the core JV commitments continue: the Abilene 1.2 GW campus, the 4.5 GW Oracle contract ($300B lifetime), and the Wisconsin site are all proceeding. The $500B headline was always aspirational — OpenAI's path to compute now runs through JV partner-built facilities and hyperscaler rentals, not OpenAI-owned infrastructure.
+
+*Sources: CNBC (Apr 9), NewsBytesApp (Apr 10), The Deep Dive (Mar 17), The Register (Mar 7), Electronics Weekly (Apr 9)*
+
 ### Abilene expansion collapse (Mar 6, 2026)
 
 [[Oracle]] and [[OpenAI]] abandoned plans to expand the flagship Abilene site from 1.2 GW to 2 GW. Negotiations stalled on financing and OpenAI's "frequently changing demand forecasting and shifting view of Stargate" (Bloomberg).
@@ -112,7 +130,7 @@ The Abilene expansion collapse reveals the tension in Stargate: OpenAI's demand 
 | **Texas, USA** | Part of $500B | Multiple GW | Oracle | Under construction |
 | **Stargate UAE** | Part of $500B | **1 GW** | [[G42]], Oracle, NVIDIA, [[Cisco]], [[SoftBank]] | 200MW by 2026 |
 | **Stargate Norway** | TBD | **230 MW** | TBD | Narvik, hydropower |
-| **Stargate [[UK]]** | TBD | 8K→31K GPUs | NVIDIA, [[Nscale]] | Early 2026 start |
+| **Stargate [[UK]]** | TBD | 8K→31K GPUs | NVIDIA, [[Nscale]] | **Paused** (Apr 9, 2026) — energy costs, regulation |
 | **Argentina** | $25B | 500MW | Sur Energy | LOI signed (Oct 2025) |
 | **South Korea** | TBD | TBD | TBD | In progress |
 | **[[Germany]]** | TBD | TBD | TBD | In progress |
@@ -211,8 +229,11 @@ Reinforces [[Long memory]] thesis.
 | Jan 2026 | Energy/community commitments announced |
 | Feb 2026 | HBM4 production begins (Samsung/SK Hynix) |
 | Mar 6, 2026 | Abilene expansion scrapped (1.2→2 GW); Meta/NVIDIA initially in talks for Crusoe capacity |
+| Mar 17, 2026 | OpenAI abandons own DC plans; pivots to renting from Azure/AWS/GCP |
 | Mar 24, 2026 | [[Microsoft]] leases ~700MW Abilene site from [[Crusoe Energy]] |
-| 2026 | UAE Stargate 200MW, [[UK]] first GPUs |
+| Apr 9, 2026 | UK Stargate paused — energy costs, regulatory hurdles |
+| Apr 10, 2026 | Hoeschele, Hemani, Saharan depart for same unnamed startup |
+| 2026 | UAE Stargate 200MW; Wisconsin site under construction ([[Oracle]]) |
 | 2026-2028 | 7GW buildout target |
 | 2029 | $500B deployment target |
 
@@ -265,7 +286,7 @@ Stargate forces all hyperscalers to respond.
 
 ---
 
-*Updated 2026-03-06*
+*Updated 2026-04-10*
 
 ---
 
@@ -283,5 +304,8 @@ Stargate forces all hyperscalers to respond.
 - [[Memory shortage 2025-2026]] — Demand driver
 - [[Section 232 semiconductor tariff]] — Hyperscaler exemption relevant
 - [[Argentina]] — Stargate Argentina (500MW, Patagonia)
-- [[Crusoe Energy]] — Abilene expansion developer; Meta in talks to lease capacity
-- [[Meta]] — potential Abilene expansion tenant (via Crusoe/NVIDIA)
+- [[Crusoe Energy]] — Abilene expansion developer; Microsoft leased ~700MW
+- [[Meta]] — initially in talks for Abilene capacity (via Crusoe/NVIDIA)
+- [[Nscale]] — UK Stargate builder (paused Apr 2026)
+- [[OpenAI talent exodus]] — infrastructure leadership departures (Apr 2026)
+- [[OpenAI Infrastructure Spend]] — $600B revised target, own DC plans abandoned

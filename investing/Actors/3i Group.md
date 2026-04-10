@@ -5,7 +5,7 @@ ticker: III.L
 ---
 #actor #private-equity #uk
 
-**3i Group** is Britain's oldest private equity firm, founded in 1945 as the Industrial and Commercial Finance Corporation (ICFC) by the [[Bank of England]] and the major clearing banks to fill the "Macmillan Gap" in SME financing. Listed on the LSE (III), FTSE 100 constituent. Unlike traditional GP/LP fund managers ([[Blackstone]], [[KKR]], [[Apollo]]), 3i deploys proprietary capital from its own balance sheet — capturing 100% of returns (and risk) without third-party fund structures.
+**3i Group** is Britain's oldest private equity firm, founded in 1945 as the Industrial and Commercial Finance Corporation (ICFC) by the [[Bank of England]] and the major clearing banks to fill the "Macmillan Gap" in SME financing. Listed on the LSE (III), FTSE 100 constituent. Operates a [[Proprietary capital model]] — unlike GP/LP fund managers ([[Blackstone]], [[KKR]], [[Apollo]]), 3i deploys its own balance sheet, capturing 100% of returns (and risk) without third-party fund structures.
 
 The firm is effectively a single-asset bet: [[Action]], the Dutch discount retailer, represents 74% of portfolio value at GBP 22.4B.
 
@@ -205,6 +205,7 @@ NAV discount context: 3i at -11% is the least discounted UK PE trust (HgCapital 
 - 3i Infrastructure (3IN) — separately listed infrastructure trust, 29% owned
 
 ### Concepts
+- [[Proprietary capital model]] — the structural model; comparison to GP/LP firms, NAV discount dynamics
 - [[Private credit retail liquidity crisis 2026]] — broader PE/alt manager de-rating context
 - [[Redemption gate]] — not directly affected (permanent capital model) but caught in sector sell-off
 

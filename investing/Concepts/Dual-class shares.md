@@ -131,3 +131,4 @@ Key concern for institutional investors: Musk's "key-man risk" is amplified when
 - [[Council of Institutional Investors]] — "one share, one vote" advocacy
 - [[MFW framework]] — Delaware standard for when controllers exercise their power (squeeze-outs, self-dealing)
 - [[Warner Music Group]] — Blavatnik 98% voting control via [[Access Industries]]
+- [[Swedish spheres]] — Nordic variant: A/B shares (10x votes) enabling family control of Swedish industry

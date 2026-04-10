@@ -48,8 +48,8 @@ aliases: [EQT Partners, EQT AB]
 
 | Fact | Detail |
 |------|--------|
-| Founders | Investor AB (Wallenberg family) |
-| Relationship | Spin-out from Wallenbergs |
+| Founders | [[Investor AB]] (Wallenberg family) |
+| Relationship | Spin-out from [[Swedish spheres\|Wallenberg sphere]] |
 | IPO | 2019 (Stockholm) |
 
 Sweden's most powerful business dynasty.
@@ -94,6 +94,8 @@ Sweden's most powerful business dynasty.
 - [[KKR]] — peer (PE)
 - [[Blackstone]] — peer (PE)
 - [[AI infrastructure financing]] -- EdgeConneX/Meta deal (novel structure)
+- [[Investor AB]] — founding parent (Wallenberg sphere)
+- [[Swedish spheres]] — governance system; EQT as Wallenberg spin-out
 
 ---
 

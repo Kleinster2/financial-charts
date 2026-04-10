@@ -112,5 +112,7 @@ Ferrari, Stellantis, CNH, Juventus, Economist, etc.
 - [[Permira]] — bought Valentino from Marzotto after Agnelli exit
 - [[Luxury]] — Ferrari positioning
 - [[Consumer]] — sector context
+- [[Proprietary capital model]] — Exor uses the holdco/balance sheet model; -50% NAV discount is among the deepest in the European universe
+- [[3i Group]] — peer (proprietary capital, single-asset concentration)
 
 *Created 2026-01-24*

@@ -219,7 +219,13 @@ The prospectus will need to address: the Arkon defaults, customer concentration 
 
 ---
 
-*Created 2026-01-05. Substantially expanded 2026-03-30 with FT Alphaville investigation (Ashworth & Healy, Mar 23 2026) and comprehensive research.*
+## UK Stargate pause (Apr 9, 2026)
+
+OpenAI paused the UK Stargate data center project, citing energy costs and regulatory hurdles — specifically the UK's decision to delay copyright changes that would have eased AI training on copyrighted content (FT, Apr 9). Nscale was the builder, with [[NVIDIA]] supplying GPUs. OpenAI's statement left the door open: "we continue to explore Stargate UK and will move forward when the right conditions such as regulation and the cost of energy enable long-term infrastructure investment." OpenAI said London remains its largest international research hub.
+
+The pause follows OpenAI's broader infrastructure retreat — abandoning own data center plans entirely and losing key infrastructure leaders (see [[Project Stargate]], [[OpenAI Infrastructure Spend]]). For Nscale, the UK site (Loughton, 50MW scalable to 90MW, 23K GB300 GPUs for [[Microsoft]]) is one of eight sites in the portfolio. The [[Microsoft]] contract for Loughton GPUs is separate from the OpenAI/Stargate relationship and may not be affected. But the "Stargate UK" branding — which gave Nscale political cover and sovereign AI credibility — loses its anchor tenant. Whether [[NVIDIA]]'s endorsement of Nscale as a UK "national champion" survives the Stargate brand retrenchment is an open question heading into the H2 2026 IPO.
+
+*Created 2026-01-05. Substantially expanded 2026-03-30 with FT Alphaville investigation (Ashworth & Healy, Mar 23 2026) and comprehensive research. Updated 2026-04-10 with UK Stargate pause.*
 
 ---
 

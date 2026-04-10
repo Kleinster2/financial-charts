@@ -392,3 +392,4 @@ FT (Mar 9, 2026): SoftBank's 2021 share collapse presaged a broader tech bear ma
 - [[US-Japan Investment Framework]] — $550B deal framework (SoftBank as developer/architect)
 - [[JBIC]] — Japan policy bank funding Portsmouth plant
 - [[Nexi]] — export credit guarantor (90%+ of commercial lending)
+- [[Proprietary capital model]] — balance sheet investor; ~40% NAV discount, most volatile in the holdco universe

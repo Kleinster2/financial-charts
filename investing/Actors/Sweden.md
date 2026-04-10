@@ -45,6 +45,8 @@ Sweden — Nordic country. Clean energy abundance (hydro, wind, nuclear) making 
 
 - [[Europe]] — continent
 - [[EU]] — member state
+- [[Swedish spheres]] — Wallenberg/Lundberg/Stenbeck control of Swedish industry
+- [[Investor AB]] — Wallenberg holding vehicle; largest Swedish holdco
 - [[EcoDataCenter]] — AI data center provider
 - [[Mistral]] — €1.2B data center investment
 - [[Northvolt]] — battery startup (collapsed Dec 2024)

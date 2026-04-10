@@ -77,6 +77,40 @@ Other rules:
 
 ---
 
+## Leadership Section (Actor Notes — Triggered)
+
+An optional "Leadership (current)" table for actor notes where organizational structure is itself an investable signal. Not default — triggered by either condition:
+
+1. **3+ senior leadership changes in 12 months** (C-suite, function heads, board-level)
+2. **Org structure is the thesis** — a safety vacuum, strategic pivot readable through personnel, founder/key-man risk, or leadership churn that signals execution risk
+
+**Placement:** Between Quick stats and Synopsis. Replaces any CEO/COO/CTO rows that were in Quick stats (avoid duplication).
+
+**Format:**
+
+```markdown
+## Leadership (current, [month year])
+
+| Function | Leader | Since | Prior | Notes |
+|----------|--------|-------|-------|-------|
+| CEO | [[Name]] | Date | Previous employer/role | — |
+| [Function] | Vacant | Date | Last holder → where they went | Duration of vacancy |
+| [Function] | Disbanded | Date | Last leader → reassigned role | Why it was eliminated |
+```
+
+**Rules:**
+- Include vacancies and disbanded functions — absences are signals
+- "Prior" column shows where the person came from (for new hires) or where they went (for vacancies)
+- One interpretive paragraph below the table tying org structure to strategy
+- Update the date in the header when the table changes
+- If the company stabilizes (no changes for 12+ months), the section can stay but mark it "(stable)" in the header
+
+**Examples of companies that qualify:** [[OpenAI]] (CTO vacant 19 months, safety team disbanded, infra leadership turnover, apps consolidation), [[Intel]] (CEO transition, foundry spinoff leadership), [[Oracle]] (co-CEO split, Ellison key-man risk at 80+).
+
+**Companies that don't need it:** Stable leadership where the org chart isn't the story. Most actor notes.
+
+---
+
 ## Synthesis Sections
 
 Distinct from Synopsis (which frames the key economic questions for actors). Synthesis is the "so what" — interpretation of where a thesis or situation stands now, derived from the accumulated data in the note.

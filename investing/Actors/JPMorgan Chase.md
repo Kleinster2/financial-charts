@@ -451,8 +451,13 @@ See [[Venezuela]].
 - [[Citigroup]] — peer
 - [[Goldman Sachs]] — peer (investment banking)
 
+### Consumer payments
+- [[Chase Pay In 4]] -- debit-card BNPL ($50--$400, 4 biweekly payments, interest-free)
+- [[Chase Pay Over Time]] -- credit card installments ($100+, 3--24 months)
+- [[Klarna]] -- merchant acquiring partnership (900,000+ merchants via Commerce Solutions Platform)
+
 ### Risks
-- [[Credit card rate cap]] — Trump 10% proposal, [[Apple]] Card exposure
+- [[Credit card rate cap]] -- Trump 10% proposal, [[Apple]] Card exposure
 
 ### Other
-- [[Venezuela]] — 60-year presence, trade finance opportunity
+- [[Venezuela]] -- 60-year presence, trade finance opportunity

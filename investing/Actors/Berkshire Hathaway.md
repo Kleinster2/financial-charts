@@ -121,6 +121,7 @@ More likely a combination: Reg FD removed information advantages, but size const
 - [[Progressive]] — competitor (auto)
 - [[Travelers]] — P&C peer (DJIA component)
 - [[Munich Re]] — reinsurance peer
+- [[Proprietary capital model]] — the archetype; insurance float-funded, no NAV discount (unique)
 - [[Permanent capital]] — original insurance float model
 - [[Insurance]] — sector hub
 - [[Buffett's Alpha]] — academic decomposition of Berkshire's returns

@@ -36,6 +36,7 @@ aliases: [Naspers, PRX]
 - [[Tencent]] — largest holding (~25% stake)
 - [[Naspers]] — parent / cross-holding
 - [[Chinese entry into Brazil food delivery 2025]] — threat to iFood position
+- [[Proprietary capital model]] — balance sheet investor; ~30% NAV discount despite open-ended buyback program
 
 ---
 

@@ -84,6 +84,27 @@ Anthropic = OpenAI's safety-focused spinout.
 
 ---
 
+## Infrastructure leadership exodus (Apr 2026)
+
+A second wave of departures — distinct from the research/safety exodus — hit OpenAI's infrastructure organization in March-April 2026, as the company abandoned plans to own data centers and restructured under new leadership.
+
+| Person | Role | Left | Destination |
+|--------|------|------|-------------|
+| Peter Hoeschele | Helped launch [[Project Stargate|Stargate]] program | Apr 2026 | Same unnamed startup |
+| Shamez Hemani | Compute strategy, partnerships, scaling | Apr 2026 | Same unnamed startup |
+| Anuj Saharan | Compute strategy, partnerships, scaling | Apr 2026 | Same unnamed startup |
+| Keith Heyde | Director of Physical Infrastructure | Early 2026 | Unknown |
+
+Hoeschele, Hemani, and Saharan all left for the same unnamed new company — suggesting a coordinated departure, not individual poaching. Heyde, a vocal proponent of OpenAI's in-house data center approach, departed quietly ahead of a restructuring that eliminated his strategic vision.
+
+Sachin Katti (ex-[[Intel]] CTO/AI Officer, joined OpenAI November 2025) now leads all infrastructure teams, reorganized into three groups: technical design, commercial partnerships, and facility operations. The reorg reflects OpenAI's pivot from building to renting compute.
+
+The infrastructure exodus differs from the research exodus in motive: the researchers left over safety concerns and founder ambition; the infrastructure team left after their strategic vision (own and operate hyperscale DCs) was abandoned in favor of renting from [[Microsoft]], [[Amazon]], and [[Google]]. Both waves erode institutional knowledge at a company that has lost most of its original leadership across every function.
+
+*Source: NewsBytesApp (Apr 10, 2026), The Deep Dive (Mar 17, 2026)*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -93,7 +114,7 @@ Anthropic = OpenAI's safety-focused spinout.
 | Key departures | Sutskever, Murati, Leike |
 | Pattern | Safety concerns cited |
 
-*Updated 2026-01-01*
+*Updated 2026-04-10*
 
 ---
 
@@ -108,4 +129,10 @@ Anthropic = OpenAI's safety-focused spinout.
 - [[Anthropic]] — destination (safety-focused, Leike joined)
 - [[Dario Amodei]] — precedent (earlier OpenAI→Anthropic founder)
 - [[Andrej Karpathy]] — departed (independent, AI education)
+- Peter Hoeschele — departed (Apr 2026, infrastructure, [[Project Stargate|Stargate]] launch lead)
+- Shamez Hemani — departed (Apr 2026, compute strategy)
+- Anuj Saharan — departed (Apr 2026, compute strategy)
+- Keith Heyde — departed (early 2026, Director of Physical Infrastructure)
+- [[OpenAI Infrastructure Spend]] — infrastructure pivot context
+- [[Project Stargate]] — infrastructure program these leaders built
 

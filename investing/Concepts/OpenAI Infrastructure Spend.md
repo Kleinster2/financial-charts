@@ -24,6 +24,31 @@ The spending plan is meant to more directly tie to expected revenue growth — w
 
 ---
 
+## Own data center plans abandoned (Mar 2026)
+
+OpenAI scrapped plans to build and own data centers, pivoting to renting server capacity from [[Microsoft]] Azure, [[Amazon]] AWS, and [[Google]] Cloud. Per The Information, OpenAI had aimed to directly lease or own some data center campuses and develop large portions of [[Project Stargate]] itself. Two things killed the plan:
+
+1. Financing: lenders would not back a company with $13.1B revenue, $13.5B H1 2025 net loss, and $1.4T in stated commitments. No specific banks named in reporting — sourcing is "struggled to secure backing from lenders" (CNBC, Mar 22) and "lenders refused to underwrite" (The Deep Dive, Mar 17).
+
+2. Construction reality: [[Sam Altman]] at [[BlackRock]]'s US Infrastructure Summit (Mar 11): "Anything at this scale, it's just like so much stuff goes wrong." Cited severe weather at the Abilene campus that temporarily "brought things down," plus supply chain challenges and tight deadlines. Virginia Tech engineering professor Walid Saad noted 1 GW DCs take 3-10 years start to finish — permitting, power access, site selection, hardware delivery all introduce delays OpenAI cannot control.
+
+IPO pressure compounded both: Daniel Newman (Futurum Group CEO) to CNBC: "The market wants to see OpenAI's revenues rolling at a pace in which the spending can be justified." The pivot is about Wall Street optics as much as financing — public market investors won't buy a company burning cash on physical infrastructure it has no track record building. [[Gartner]] analyst Arun Chandrasekaran: "They're starting to say, 'You know what, let's try to secure the capacity that we can from the providers that are willing to give us that capacity now.'"
+
+OpenAI does not currently own any data centers and may not for the foreseeable future (CNBC, citing unnamed sources).
+
+| Metric | Old plan | New reality |
+|--------|----------|-------------|
+| Approach | Build and own DCs | Rent from hyperscalers + JV partners |
+| Achieved capacity (2025) | 1.9 GW | Available via JV partners |
+| Financing | Self-funded + JV | Lenders refused; pivoting to opex |
+| IPO readiness | Capital-intensive builder | Asset-light consumer of compute |
+
+The pivot triggered a leadership overhaul. Sachin Katti (ex-[[Intel]] CTO/AI Officer, joined Nov 2025) now heads all infrastructure, reorganized into three groups: technical design, commercial partnerships, and facility operations. Keith Heyde (Director of Physical Infrastructure, the main advocate for in-house ownership) departed ahead of the restructuring. Three more infrastructure leaders — Peter Hoeschele, Shamez Hemani, Anuj Saharan — left together for the same unnamed startup (Apr 10, 2026). See [[OpenAI talent exodus]].
+
+This is distinct from the [[Project Stargate]] JV, which continues: the Abilene 1.2 GW campus, the 4.5 GW Oracle contract ($300B lifetime), and the Wisconsin site are all proceeding under partner ownership. What was abandoned is OpenAI building and owning facilities as principal — a separate initiative from the JV. The net effect: OpenAI's $600B compute-spend target now flows entirely through Stargate JV partner-built facilities ([[Oracle]], [[Crusoe Energy]]), hyperscaler rental agreements (Azure, AWS, GCP), and dedicated inference deals ([[Cerebras]]). This reduces capital intensity but increases dependency on partners whose incentives may not always align.
+
+---
+
 ## Stargate infrastructure
 
 ### UAE Stargate (per SemiAnalysis, Jan 2026)
@@ -87,11 +112,18 @@ The spending plan is meant to more directly tie to expected revenue growth — w
 | [[Cerebras]] | Commercial deal signed (Jan 2026) |
 | [[Groq]] | Talks shut down after [[NVIDIA]] acquisition |
 
-**Impact on Nvidia investment:**
-- Nvidia's proposed $100B stake (announced Sept 2025) delayed for months
-- Expected to close "within weeks" — still in negotiations
-- [[Jensen Huang]]: Investment "was never a commitment" (Bloomberg)
-- Huang denies drama: "There's no drama involved" (CNBC Feb 3)
+**NVIDIA $100B deal — dead (Mar 2026):**
+The original Sep 2025 deal — $100B investment tied to deployment of 10 GW of NVIDIA systems — collapsed in stages:
+- Nov 2025: NVIDIA quarterly filing disclosed the deal "may not come to fruition"
+- Jan 2026: WSJ reported deal was "on ice"
+- Feb 2026: NVIDIA filing said "no assurance" on investment and partnership agreement
+- Mar 2026: [[Jensen Huang]] at conference said the $100B opportunity is "probably not in the cards"
+
+What replaced it: NVIDIA invested $30B as part of the Feb 2026 mega-round — a standalone investment with no deployment milestones attached, distinct from the original deal structure. Huang called it "might be the last time" NVIDIA invests before OpenAI's IPO. OpenAI agreed to use 3 GW of dedicated inference capacity and 2 GW of training capacity on NVIDIA's forthcoming [[Rubin|Vera Rubin]] systems as part of the arrangement.
+
+The earlier timeline for context:
+- [[Jensen Huang]]: Investment "was never a commitment" (Bloomberg, Feb 2026)
+- Huang: "There's no drama involved" (CNBC Feb 3)
 
 **[[Sam Altman]] response (Feb 2):** Nvidia makes "the best AI chips in the world." OpenAI hopes to remain "gigantic customer for a very long time."
 
@@ -100,7 +132,7 @@ The spending plan is meant to more directly tie to expected revenue growth — w
 - Hired away Groq chip designers
 - Non-exclusive licensing deal — Groq pivoting to cloud software
 
-*Updated 2026-02-04*
+*Updated 2026-04-10*
 
 ---
 
