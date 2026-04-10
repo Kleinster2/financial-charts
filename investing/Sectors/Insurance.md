@@ -157,6 +157,7 @@ PE-owned platforms earn spread by investing in private credit/alternatives rathe
 | **Japan/Asia expansion** | KKR, Apollo tapping $5.8T pool | Life/annuity |
 | **Bermuda regulation** | BMA, IAIS reviewing PE-owned reinsurers | Life/annuity |
 | **[[AI disintermediation]]** | Insurify ChatGPT app → broker selloff (Feb 2026) | Brokers |
+| **Activist/hedge fund insurance plays** | [[Bill Ackman]]'s [[Howard Hughes Holdings]] acquired [[Vantage Risk]] ($2.1B, Dec 2025) for P&C float; [[Third Point]] (Dan Loeb) converted to [[Malibu Life Reinsurance]] (Cayman, US fixed annuities). Berkshire replication expanding beyond PE | P&C, life/annuity |
 | **War risk / Iran conflict** | P&I clubs canceling Gulf coverage (Mar 5); marine hull rates +25-50%; Lloyd's systemic exposure; stocks sold on tail risk not bought on premiums. See [[2026 Iran conflict market impact]] | Marine, aviation, reinsurance |
 
 ---
@@ -184,8 +185,10 @@ PE-owned platforms earn spread by investing in private credit/alternatives rathe
 - [[Private Equity]] — sector hub for PE firms
 - [[AI disintermediation]] — AI disruption threat to broker layer
 - [[Insurify insurance broker selloff February 2026]] — Feb 2026 broker selloff
+- [[Howard Hughes Holdings]] — Ackman's P&C float play (via [[Vantage Risk]])
+- [[Howard Hughes Vantage Risk acquisition]] — $2.1B deal (Dec 2025)
 
 ---
 
-*Updated 2026-03-02*
+*Updated 2026-04-10*
 

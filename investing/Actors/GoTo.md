@@ -91,6 +91,16 @@ GoTo = Indonesia specialist.
 
 ---
 
+## Grab merger talk (April 2026)
+
+[[Indonesia]] government revived [[Grab]]-GoTo merger discussion — the 3rd or 4th time in six years, per Grab COO Alex Hungate. The initiative came from the Indonesian government this round, not the companies. Hungate was publicly skeptical at a Ho Chi Minh City forum, citing Grab's strong organic growth as making the bar "very high."
+
+A combination would create a dominant [[Southeast Asia]] super-app but faces monopoly concerns in Indonesia. Key asymmetry: [[Grab]] is now sustainably profitable (first full-year net income FY2025) with 20% revenue CAGR guidance through 2028, while GoTo's profitability remains uncertain — shifting leverage toward Grab's standalone case.
+
+*Source: Nikkei Asia (Lien Hoang) / FT, April 2026*
+
+---
+
 ## Investment case
 
 **Bull:**

@@ -23,7 +23,7 @@ The strategy is concentrated — 8-12 core holdings in undervalued large-cap Nor
 | Founder | [[Bill Ackman]] |
 | AUM | $30.7B (Dec 2025) |
 | Public vehicles | PSH (Euronext Amsterdam), PS + PSUS (NYSE, filed Mar 2026) |
-| 2024 valuation | $10.5B (10% stake sale) |
+| 2024 valuation | $10.5B (10% stake sale — comparable to [[TPG]] at listing, below [[CVC Capital Partners]] at €15B) |
 | 2025 NAV performance | 20.9% |
 | 2025 total shareholder return | 33.9% |
 | Style | Concentrated activist, 8-12 holdings |
@@ -71,7 +71,8 @@ Pershing Square filed for a combined dual listing on the [[New York Stock Exchan
 | [[Amazon]] | 14.28% | — |
 | [[Alphabet]] | 12.46% | Class C |
 | [[Meta]] | ~10% | Added Feb 2026 |
-| [[Howard Hughes Holdings]] | — | Seeking majority stake, "modern-day Berkshire" platform |
+| [[Hilton]] | — | Long-held position |
+| [[Howard Hughes Holdings]] | — | Majority stake; [[Howard Hughes Vantage Risk acquisition\|acquired Vantage Risk]] ($2.1B, Dec 2025) — PS manages Vantage assets |
 
 Concentrated: 8-12 core holdings, all large-cap.
 
@@ -84,11 +85,12 @@ Concentrated: 8-12 core holdings, all large-cap.
 | Ticker | PSH (Euronext Amsterdam) |
 | Structure | Closed-end fund |
 | Discount to NAV | Persistent, narrowing |
+| Management fee | 1.5% of assets |
 | 2025 NAV return | 20.9% |
 | 2025 total shareholder return | 33.9% (discount narrowing) |
 | Launched | Dec 2012, IPO Oct 2014 ($3B) |
 
-London-listed closed-end fund, bulk of AUM. The NAV discount has been a persistent frustration — the PSUS launch is partly designed to create a US-listed vehicle without the same discount dynamics.
+London-listed closed-end fund, $15B+ AUM, bulk of Pershing Square's overall assets as the traditional hedge fund shrank over time. The NAV discount has been a persistent frustration — the PSUS launch is partly designed to create a US-listed vehicle without the same discount dynamics.
 
 ---
 
@@ -116,6 +118,16 @@ London-listed closed-end fund, bulk of AUM. The NAV discount has been a persiste
 | **Valeant** | Disaster (~$4B loss) |
 | **Universal Music SPAC** | Failed (2022) |
 | **[[Pershing Square UMG takeover bid\|UMG takeover bid]]** | Proposed (Apr 2026) |
+
+---
+
+## Howard Hughes / Vantage Risk (Dec 18, 2025)
+
+[[Howard Hughes Holdings]] acquired [[Vantage Risk]], a Bermuda-based P&C insurer, for $2.1B. Pershing Square financed the deal (cash + up to $1B in HHH stock) and manages Vantage's investment portfolio. The acquisition is Ackman's first concrete step toward transforming Howard Hughes from a real estate company into a diversified [[Insurance float]]-funded holding company — the "modern-day [[Berkshire Hathaway]]" he has described.
+
+Vantage specializes in lawsuits, political violence, and cyber risk — P&C float, not the life/annuity model used by [[Apollo]]/[[Athene]] and [[KKR]]/[[Global Atlantic]].
+
+See [[Howard Hughes Vantage Risk acquisition]] for full deal details.
 
 ---
 
@@ -163,7 +175,10 @@ See [[Pershing Square UMG takeover bid]] for full details.
 - [[Bill Ackman]] — founder/CEO
 - [[Berkshire Hathaway]] — Ackman's model
 - [[Warren Buffett]] — inspiration
-- [[Howard Hughes Holdings]] — platform acquisition target
+- [[Howard Hughes Holdings]] — Berkshire platform (Vantage Risk acquisition Dec 2025)
+- [[Vantage Risk]] — $2.1B P&C insurer acquired for HHH
+- [[Howard Hughes Vantage Risk acquisition]] — deal event
+- [[Insurance float]] — mechanism behind the Berkshire model
 - [[Brookfield]] — largest portfolio holding
 - [[Uber]] — portfolio holding
 - [[Amazon]] — portfolio holding
@@ -178,4 +193,4 @@ See [[Pershing Square UMG takeover bid]] for full details.
 - [[Michael Ovitz]] — proposed New UMG chairman
 - [[Spotify]] — stake funding UMG bid cash component
 
-*Created 2026-01-16 · Updated 2026-04-07*
+*Created 2026-01-16 · Updated 2026-04-10*

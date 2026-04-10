@@ -131,6 +131,18 @@ UMG and Spotify's "artist-centric" model is the current direction — it's pro-r
 
 ---
 
+## The financialisation debate
+
+The [[Pershing Square UMG takeover bid]] (Apr 2026) crystallized a tension that has been building since Wall Street money began flowing into music: the gap between the industry's value as an asset class (catalogue deals booming — Britney Spears, Tina Turner) and its valuation as a going concern (UMG stock down ~1/3 since IPO).
+
+Mark Mulligan (Midia Research) called Ackman's bid a "bellwether for the financialisation of the music business." The paradox: investors are eager to buy individual songs at 15-20x royalties, but less willing to back the company that owns most of them. UMG's "success as a label is not enough in today's financialised music business."
+
+Hartwig Masuch, former CEO of [[BMG]], argued the major labels' model "is based on an old paradigm" — a more "rational" approach focused on maximizing catalogue value could support much higher valuations.
+
+Skeptics counter that financial engineering and music have a poor track record. Matt Pincus (MUSIC, an investment firm): "There's a long history of people who think they can use Wall Street money to hack the music business." The question is whether [[Bill Ackman]]'s proposal — US listing, leverage, share cancellation — addresses the structural issues (AI, [[Bolloré Group]] overhang) or just rearranges the financial furniture.
+
+---
+
 ## Related
 
 - [[Universal Music Group]] — #1, 35% share, sets industry direction
@@ -151,4 +163,8 @@ UMG and Spotify's "artist-centric" model is the current direction — it's pro-r
 - Variety — Music Catalog Market (2025)
 - Goldman Sachs — Superfan Monetization Forecast (2025)
 
-*Created 2026-02-27*
+- [[Bolloré Group]] — ~28% UMG shareholder, overhang on stock
+- [[BMG]] — #4 publisher, "old paradigm" critique
+- [[Pershing Square UMG takeover bid]] — financialisation test case
+
+*Created 2026-02-27 · Updated 2026-04-10*

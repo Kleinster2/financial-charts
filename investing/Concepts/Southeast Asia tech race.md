@@ -49,7 +49,7 @@ Each has distinct positioning.
 | [[Sea Group]] | Singapore | E-commerce, gaming |
 | [[GoTo]] | Indonesia | Indonesia depth |
 
-Singapore-based dominate regionally.
+Singapore-based dominate regionally. Indonesian government revived [[Grab]]-[[GoTo]] merger talk in April 2026 (3rd or 4th round in six years) — Grab's COO skeptical given standalone profitability trajectory.
 
 ---
 

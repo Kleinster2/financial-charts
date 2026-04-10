@@ -3,7 +3,7 @@ aliases: [Turing AI, Turing.com]
 tags: [actor, ai, private]
 ---
 
-**Turing** — private AI engineering and model-evaluation company. At [[FII Priority Miami 2026]], [[HUMAIN]] said it would partner with Turing to build an enterprise AI agent marketplace on HUMAIN ONE.
+**Turing** — private AI engineering and model-evaluation company (Turing.com). At [[FII Priority Miami 2026]], [[HUMAIN]] said it would partner with Turing to build an enterprise AI agent marketplace on HUMAIN ONE. Not to be confused with [[Turing Inc]] (Japanese autonomous driving startup).
 
 ---
 

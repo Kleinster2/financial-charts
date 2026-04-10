@@ -55,7 +55,7 @@
 
 | Shareholder | Stake | Position |
 |-------------|-------|----------|
-| [[Bolloré Group]] | ~18% | Key variable — Cyrille Bolloré stepped down from UMG board Jul 2025 amid French regulator dispute |
+| [[Bolloré Group]] | ~28% | Largest holder — key variable. Cyrille Bolloré stepped down from UMG board Jul 2025 amid French regulator dispute |
 | [[Tencent]] consortium | ~20% | No comment |
 | [[Pershing Square]] | >4.5% | Bidder |
 | Public | ~57% | — |
@@ -70,9 +70,39 @@
 
 ---
 
+## Backstory: Beverly Hills dinner (late Mar 2026)
+
+The bid was set in motion at a private dinner at [[Michael Ovitz]]'s Beverly Hills home, less than two weeks before the Apr 7 announcement. Ackman, Ovitz, UMG CEO [[Lucian Grainge]], and Grainge's lawyer attended. The conversation was kept high level to avoid triggering disclosure requirements. Grainge listened but did not offer a substantive reaction (FT, Apr 9). Those involved described it as an early sounding-out rather than a negotiation.
+
+Ovitz later told Grainge he would act as a "bridge" between UMG management and Ackman. Ackman spoke to [[Bolloré Group|Cyrille Bolloré]] before making his approach public but did not contact [[Tencent]], UMG's second-largest shareholder (FT, Apr 9).
+
+---
+
+## Shareholder dynamics
+
+The deal requires approval from two-thirds of shareholders voting at a meeting. UMG's board is meeting to consider the proposal, with a response expected soon. Under Dutch corporate governance rules, directors must weigh the interests of the company, its employees, and other stakeholders — not just the headline offer price.
+
+On an investor call in the week of Apr 7, Ackman was blunt: the stock is "trading at the lowest valuation in its history." He argued that UMG "has never graduated from being a private company."
+
+---
+
 ## Analyst commentary
 
 **ING:** Called the bid non-binding and possibly likely to fail, but said it "has the merit of raising valid questions and making the case for dramatic changes." Flagged risk that UMG management could leave, given management's plans for ~€1B/year in emerging-market M&A.
+
+**Clay Griffin (MoffettNathanson):** A US listing could have a "material positive impact" by broadening the investor base, but would not be "transformative" on its own.
+
+---
+
+## Industry reaction
+
+The bid has reignited the broader debate about financialisation of the music business. Ackman's proposal focuses on financial structures (US listing, capital structure, share cancellation) rather than changes to UMG's underlying business. The creative side would remain under [[Lucian Grainge]] — Ackman's camp describes it as Grainge "gets total ability to run the creative business" while Ackman "will financially engineer what needs to be done."
+
+Mark Mulligan (Midia Research) called it a "bellwether for the financialisation of the music business." He noted UMG's success as a label "is not enough in today's financialised music business." He also described a paradox: investors are eager to buy individual songs (catalogue deals booming — Britney Spears, Tina Turner) but less willing to back the company that owns most of them.
+
+Hartwig Masuch, former CEO of BMG, argued a more "rational" model focused on maximizing catalogue value could support much higher valuations: "The business model they run right now is based on an old paradigm."
+
+Matt Pincus, founder of investment firm MUSIC, was skeptical: "There's a long history of people who think they can use Wall Street money to hack the music business. More often than not it ends painfully."
 
 ---
 
@@ -84,8 +114,11 @@
 - [[Bolloré Group]] — key UMG shareholder (~18%)
 - [[Tencent]] — UMG shareholder (~20%)
 - [[Michael Ovitz]] — proposed chairman
+- [[Lucian Grainge]] — UMG CEO, attended Beverly Hills dinner
 - [[Vivendi]] — former UMG parent
 - [[Spotify]] — Pershing Square stake used to fund cash component
 - [[SPAC]] — prior failed PSTH/UMG structure
+- [[BMG]] — former CEO Masuch critiqued label business model
+- [[Music label competitive dynamics]] — financialisation debate context
 
-*Created 2026-04-07*
+*Created 2026-04-07 · Updated 2026-04-10*

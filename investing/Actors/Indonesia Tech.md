@@ -50,6 +50,8 @@ Gojek + Tokopedia merger = GoTo.
 
 Listed on IDX (GOTO.JK).
 
+In April 2026, the Indonesian government revived [[GoTo]]-[[Grab]] merger talk — the 3rd or 4th round in six years. A combination would create a dominant [[Southeast Asia]] super-app but faces domestic monopoly concerns. [[Grab]] COO was publicly skeptical, citing the company's standalone profitability trajectory.
+
 ---
 
 ## Sovereign wealth

@@ -102,3 +102,4 @@ His equilibrium model: frontier closed labs push boundaries on the hardest probl
 - [[Meta]] — enabler ([[Llama]] open source)
 - [[Andrej Karpathy]] — 6-8 month gap assessment, "by accident in an okay spot" (Mar 2026)
 - [[AutoResearch]] — distributed auto research could further democratize AI improvement
+- [[Chinese open models]] — Alibaba/Meta pivoting leading models to proprietary (Apr 2026)

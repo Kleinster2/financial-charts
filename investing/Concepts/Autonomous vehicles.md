@@ -219,6 +219,17 @@ Aurora commercial before Waymo profitable.
 
 ---
 
+## Japan
+
+| Company | Approach | Status |
+|---------|----------|--------|
+| [[Turing Inc]] | End-to-end generative AI (Heron, 70B params) | Series A ($63M, Nov 2025), demo vehicle 2026, Level 5 target 2029-2030 |
+| [[Tier IV]] | Open-source modular (Autoware), rule-based + sensor-fusion | Est. 2015, ~400 employees, OEM partnerships |
+
+Turing takes the same end-to-end bet as [[Tesla]] and [[Wayve]] — a single neural network from camera input to driving commands. [[Tier IV]] mirrors the traditional modular pipeline. [[Denso]] ([[Toyota]] group) is investing in and co-developing with Turing. Government backing via JIC Venture Growth Investments and METI/NEDO selection.
+
+---
+
 ## Related
 
 - [[Waymo]] — Robotaxi leader
@@ -228,5 +239,9 @@ Aurora commercial before Waymo profitable.
 - [[Mobileye]] — ADAS chips
 - [[Tesla]] — Camera-only approach
 - [[Baidu]] — [[China]] leader
+- [[Turing Inc]] — Japan end-to-end AI approach
+- [[Wayve]] — UK end-to-end AI approach
+- [[Tier IV]] — Japan open-source modular approach
+- [[Denso]] — Toyota group ADAS/AV supplier, Turing investor
 - [[Automotive semiconductors]] — ADAS chip market
 - [[NVIDIA]] — Drive platform

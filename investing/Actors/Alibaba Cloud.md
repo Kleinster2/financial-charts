@@ -106,3 +106,6 @@ Alibaba's competitive theory: own every layer and monetize the total stack, not 
 - [[China token economy]] — market framework
 - [[Export controls]] — GPU access constraint
 - [[Agentic AI]] — enterprise demand driver
+
+### Risk
+- [[People's Liberation Army]] — White House memo alleges Alibaba Cloud supports PLA operations (Nov 2025, see [[Alibaba#White House PLA allegations (Nov 2025)]])

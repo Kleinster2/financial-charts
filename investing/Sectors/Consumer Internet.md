@@ -33,12 +33,18 @@
 
 ### Food / Delivery
 
-| Company | Orders | Market cap | Focus |
-|---------|--------|------------|-------|
-| [[DoorDash]] | 500M+ | ~$60B | US delivery leader |
-| [[Uber]] (Eats) | — | ~$150B | Global delivery |
-| Instacart | — | ~$10B | Grocery |
-| Grubhub | — | Just Eat sub | US \#3 |
+| Company | Market cap | Geography | Position |
+|---------|------------|-----------|----------|
+| [[DoorDash]] | ~$60B | US, intl expanding | ~65% US share |
+| [[Uber]] (Eats) | ~$150B | Global | \#1 or \#2 in most markets |
+| [[Meituan]] | ~$100B+ | [[China]] | ~60-70% China share |
+| [[iFood]] | Private ([[Prosus]] sub) | [[Brazil]] | ~80% Brazil share |
+| [[Grab]] (GrabFood) | ~$15B | [[Southeast Asia]] | 8 countries, 1.7x grocery growth |
+| [[Instacart]] | ~$10B | US | Grocery, ad platform |
+| [[Keeta]] | [[Meituan]] sub | [[Brazil]] (launched Oct 2025) | Chinese entry challenging [[iFood]] |
+| [[Didi]] (food) | OTC | [[China]], [[Brazil]] via [[99]] | Relaunched Brazil delivery |
+| Grubhub | Just Eat sub | US | \#3, declining |
+| Deliveroo | ~$2B | UK, Europe | Amazon-backed, UK leader |
 
 ---
 
@@ -48,8 +54,8 @@
 |---------|-------|------------|-----------|
 | [[Uber]] | 2B+ | ~$150B | Global |
 | [[Lyft]] | 200M+ | ~$5B | US only |
-| Grab | — | ~$15B | Southeast Asia |
-| DiDi | — | ~$20B | China |
+| [[Grab]] | — | ~$15B | [[Southeast Asia]] |
+| [[Didi]] | — | OTC | [[China]] |
 
 ---
 

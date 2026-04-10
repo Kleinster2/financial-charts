@@ -126,6 +126,9 @@ aliases: [William Ackman, Ackman]
 | Chipotle (2016) | Won |
 | COVID hedges (2020) | $2.6B profit in weeks |
 | [[Netflix]] (2022) | Quick loss, exited |
+| General Growth Properties (2008-2012) | Created [[Howard Hughes Holdings]] from GGP's non-core properties |
+| [[Howard Hughes Holdings\|HHH control deal]] (May 2025) | Assumed control with $900M investment, diversified conglomerate pivot |
+| [[Howard Hughes Vantage Risk acquisition\|HHH/Vantage Risk]] (Dec 2025) | $2.1B P&C insurer acquisition — "modern Berkshire" pivot |
 | GSE (2025+) | In progress |
 | [[Pershing Square UMG takeover bid\|UMG takeover bid]] (2026) | Proposed — €55.8B ($64.4B) |
 
@@ -150,9 +153,9 @@ See [[Pershing Square]] for full details.
 | Fund | [[Pershing Square]] |
 | Style | Concentrated activist |
 | AUM | $30.7B (Dec 2025) |
-| Current focus | GSE privatization, NYSE IPO, UMG takeover bid |
+| Current focus | GSE privatization, NYSE IPO, UMG takeover bid, HHH/Vantage transformation |
 
-*Created 2026-01-15 · Updated 2026-04-07*
+*Created 2026-01-15 · Updated 2026-04-10*
 
 ---
 
@@ -165,4 +168,6 @@ See [[Pershing Square]] for full details.
 - [[FHFA]] — regulator
 - [[John Paulson]] — fellow GSE investor
 - [[Universal Music Group]] — takeover bid target (Apr 2026)
-- [[Howard Hughes Holdings]] — platform acquisition target
+- [[Howard Hughes Holdings]] — Berkshire platform (Vantage Risk acquisition Dec 2025)
+- [[Vantage Risk]] — $2.1B P&C insurer for HHH
+- [[Howard Hughes Vantage Risk acquisition]] — deal event

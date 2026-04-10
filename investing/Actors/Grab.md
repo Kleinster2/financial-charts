@@ -128,6 +128,17 @@ Key moves:
 
 ---
 
+## GoTo merger talk (April 2026)
+
+Indonesian government revived [[GoTo]]-Grab merger discussion — the 3rd or 4th time in six years, per Grab President/COO Alex Hungate. Speaking at a forum in Ho Chi Minh City, Hungate said the bar for a deal would be "very high" given Grab's current organic growth trajectory. A combination would create a dominant [[Southeast Asia]] ride-hailing/delivery player but faces monopoly scrutiny in [[Indonesia]], where [[GoTo]] subsidiary Gojek is the local champion.
+
+Context: Grab posted its first full-year net profit in FY2025 and guided 20% revenue CAGR through 2028. The standalone path looks increasingly credible, which weakens GoTo's negotiating position relative to earlier rounds of speculation when both were loss-making.
+
+![[grab-net-profit-loss-ft-2026-04.png]]
+*Grab's quarterly net profit/loss, 2023-2025. Source: FT/company data. Deep losses in early 2023 gave way to consistent profitability by Q1 2025.*
+
+---
+
 ## Investment case
 
 **Bull:**

@@ -119,6 +119,7 @@ Uses insurance premiums as a permanent, low-cost source of investable capital. P
 | [[Berkshire Hathaway]] | GEICO, Gen Re, Berkshire Re (~$170B float) | BNSF, Berkshire Energy, Apple, BofA | The archetype. No NAV discount. |
 | [[Apollo]] / Athene | Athene (life/annuities) | Direct lending, PE | GP/LP hybrid moving toward this model |
 | Fairfax Financial | Allied World, Odyssey Group | Global equity/bond portfolio | Prem Watsa. Canadian-listed |
+| [[Howard Hughes Holdings]] | [[Vantage Risk]] (P&C, Bermuda) | [[Pershing Square]] manages float | Ackman's "modern Berkshire." Real estate base + insurance bolt-on (Dec 2025). Earliest stage. |
 
 This is the only subtype that consistently avoids or eliminates the NAV discount, because the insurance float generates compounding returns on capital the holdco doesn't own. Buffett's insight: insurance float is better than debt (no maturity, no covenants) and better than equity (no dilution).
 
@@ -332,6 +333,7 @@ Some firms are moving between the two models:
 | Wendel | Holdco → hybrid | EUR 50B+ in third-party AUM alongside principal investments; -51% discount |
 | [[KKR]] | GP/LP → balance sheet | Increasingly deploying own capital alongside funds; "more credit than equity" now |
 | [[Apollo]] | GP/LP → balance sheet (insurance) | Athene insurance float funds direct investments; the Berkshire model adapted |
+| [[Howard Hughes Holdings]] | Real estate → insurance-float holdco | Ackman assumed control May 2025, acquired [[Vantage Risk]] (P&C) Dec 2025; PS manages float. Transitioning from subtype 3 (operating) to subtype 4 (insurance-funded). |
 
 The direction of travel is convergence: holdcos want fee income (recurring, high-margin), and GP/LP firms want permanent capital (no forced exits, no redemptions). The ideal is both — which is why [[BlackRock]] acquiring [[HPS Investment Partners]] and [[Apollo]]'s insurance strategy represent structural evolution.
 
@@ -346,6 +348,7 @@ The direction of travel is convergence: holdcos want fee income (recurring, high
 - [[Prosus]] — Tencent bet, EUR ~90-107B, -30% discount
 - [[SoftBank]] — Arm Holdings, JPY ~21T, -40% discount
 - [[Berkshire Hathaway]] — the archetype, no discount
+- [[Howard Hughes Holdings]] — Ackman's Berkshire play, transitioning real estate → insurance-float holdco (Vantage Risk, Dec 2025)
 - [[CK Hutchison]] — Li Ka-shing, HKD 233B, -40 to -53% discount, ports sale stalled
 - [[Ayala Corporation]] — Zobel de Ayala, PHP 358B, Philippines' oldest conglomerate (1834)
 - Itaúsa — Setúbal family, R$156B, Brazil's Berkshire analog ([[Itaú Unibanco]] ~90% of value)

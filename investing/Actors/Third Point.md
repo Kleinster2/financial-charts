@@ -67,6 +67,12 @@ Famous for scathing public letters to CEOs.
 
 ---
 
+## Malibu Life Reinsurance (2025)
+
+Loeb converted his London-listed vehicle into Malibu Life Reinsurance, a Cayman Islands-domiciled reinsurer focused on winning US fixed annuity market share. The move was contested by some shareholders but ultimately approved. The strategy mirrors the broader [[PE-insurance convergence]] — using annuity float as [[Permanent capital]] to fund investments. Part of a wave alongside [[Bill Ackman]]'s [[Howard Hughes Vantage Risk acquisition|Howard Hughes/Vantage Risk deal]] and the established PE-insurer platforms ([[Apollo]]/[[Athene]], [[KKR]]/[[Global Atlantic]]).
+
+---
+
 ## Related
 
 - [[Disney]] — activist target
@@ -74,7 +80,10 @@ Famous for scathing public letters to CEOs.
 - [[Starboard Value]] — peer
 - [[Private credit retail liquidity crisis 2026]] — launching BDC April 2, 2026 during crisis
 - [[Private Credit]] — entering as direct lender
+- [[Malibu Life Reinsurance]] — Cayman reinsurer (converted from London-listed vehicle, 2025)
+- [[PE-insurance convergence]] — Loeb joining the insurance-funded permanent capital trend
+- [[Howard Hughes Holdings]] — peer (Ackman's parallel Berkshire play)
 
 ---
 
-*Updated 2026-03-09*
+*Updated 2026-04-10*

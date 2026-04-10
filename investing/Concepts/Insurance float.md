@@ -36,6 +36,18 @@ The catch: float is only an advantage if underwriting discipline holds. Insurers
 
 ---
 
+## Berkshire replication wave
+
+The success of Berkshire's float model has spawned a wave of imitations. The PE-insurance convergence ([[Apollo]]/[[Athene]], [[KKR]]/[[Global Atlantic]]) is the largest-scale version, though using life/annuity float rather than P&C. More recent entrants are closer to the original Berkshire blueprint:
+
+- [[Bill Ackman]]'s [[Howard Hughes Holdings]] acquired [[Vantage Risk]] ($2.1B, Dec 2025) — a Bermuda P&C insurer (lawsuits, political violence, cyber). Pershing Square manages the float. The closest structural analog to early Berkshire.
+- [[Third Point]] (Dan Loeb) converted his London-listed vehicle into [[Malibu Life Reinsurance]] (Cayman, US fixed annuities) — life insurance variant.
+- [[JAB Holding]] pivoted from consumer brands to insurance via [[Prosperity Life Group]] ($30B AUM) — private family version.
+
+See [[PE-insurance convergence]] for the broader PE-insurer landscape.
+
+---
+
 ## Related
 
 - [[Berkshire Hathaway]] — $171B float, gold standard for float-funded investing
@@ -46,3 +58,5 @@ The catch: float is only an advantage if underwriting discipline holds. Insurers
 - [[Permanent capital]] — related concept (float as non-callable capital)
 - [[Insurance]] — sector hub
 - [[Munich Re]] — global reinsurance peer, large float pool
+- [[Howard Hughes Holdings]] — Ackman's P&C float play (via [[Vantage Risk]], Dec 2025)
+- [[PE-insurance convergence]] — PE firms scaling the float model via life/annuity

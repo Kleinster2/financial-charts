@@ -75,11 +75,10 @@ Alibaba is reinventing itself as an AI company:
 - Powers Quark app, cloud customers, partnerships
 - **700M+ downloads** on [[Hugging Face]] (Jan 2026) — leads China open-source
 
-**Open source strategy:**
-- Default in China (vs closed in US)
-- Can't charge for API access like [[OpenAI]]
-- But gets massive adoption and ecosystem
-- 16M developers on ModelScope building on Qwen
+**Open source strategy (evolving — see [[#Qwen leadership transition — open-source to revenue pivot (2026)|leadership transition]]):**
+- Default in China through 2025 (vs closed in US)
+- Drove massive adoption — 1B+ downloads, 16M developers on ModelScope
+- As of April 2026, Alibaba pivoting to keep leading models proprietary for cloud customers while continuing open-source in select areas
 
 **Vs competitors:**
 | Company | Model | Approach | MAU |
@@ -141,9 +140,9 @@ See [[China token economy]].
 
 ---
 
-## Qwen executive exodus (Mar 2026)
+## Qwen leadership transition — open-source to revenue pivot (2026)
 
-Three senior [[Qwen]] executives have departed in 2026, raising questions about leadership stability at Alibaba's most strategically important AI division:
+Three senior [[Qwen]] executives departed in early 2026:
 
 | Name | Role | Departure |
 |------|------|-----------|
@@ -151,19 +150,22 @@ Three senior [[Qwen]] executives have departed in 2026, raising questions about 
 | Yu Bowen | Post-training head | Mar 3, 2026 (per LatePost, same day as Lin) |
 | Hui Binyuan | Staff research scientist (coding focus) | Jan 2026 |
 
-The departures come at a contradictory moment — [[Qwen]] mobile app MAU surged from 31M in January to 203M in February 2026, making it the #3 AI app globally:
+The departures followed internal disagreements over strategy. Lin was the leading proponent of Qwen's open-source approach — free, downloadable models running efficiently on devices at low cost. That strategy drove global developer adoption (1B+ downloads, 400+ models since 2023) but raised concerns internally about the lack of a clear path to commercialization. Lin had come under increasing pressure from senior management about the large resources being spent training open-source models, particularly after [[MiniMax]], [[Zhipu]], and [[Moonshot AI]] released models around Lunar New Year that outperformed Qwen in coding — a fast-growing area of AI demand.
 
-| App | Feb 2026 MAU |
-|-----|-------------|
-| [[ChatGPT]] | #1 |
-| [[Doubao]] ([[ByteDance]]) | #2 |
-| **Qwen** ([[Alibaba]]) | **#3 — 203M** (up from 31M in Jan) |
+Zhou Jingren, former CTO of [[Alibaba Cloud]], has taken control of the AI division. Zhou's mandate: align model development with the company's cloud and revenue goals. A new leadership committee on AI strategy, headed directly by CEO Eddie Wu, now oversees the direction. An Alipay AI engineer who worked with Zhou described him as "highly technical" and well-positioned to redirect training efforts.
 
-The MAU surge came from aggressive user acquisition campaigns during the Lunar New Year holidays. Alibaba has released 400+ open-source Qwen models since 2023, accumulating 1B+ downloads across platforms.
+The result is an explicit strategic shift:
 
-Alibaba shares fell 4% on Mar 4 (vs [[Hong Kong]] market -2.8% on [[2026 Iran conflict market impact|Iran war selloff]]). The executive exodus adds a talent-flight discount on top of the geopolitical drag.
+- Alibaba released a flurry of closed-source models in April 2026, keeping its leading models proprietary for cloud customers
+- MaaS (model-as-a-service), where companies pay based on usage, is positioned as a key revenue driver — small share of cloud revenue today, but Wu flagged it in the Q1 2026 earnings call as the next growth engine
+- Open-source releases continue in some areas — [[Happy Horse]], a popular anonymous AI video generation model released in early April 2026, was developed by Alibaba
+- [[Meta]] has made a parallel shift, pulling focus away from [[Llama]] open-source toward its proprietary [[Muse Spark]] line
 
-*Source: Reuters (Mar 4, 2026)*
+Duncan Clark (BDA consultancy): the pivot amounts to "an attempt to reposition itself as the 'Google of China' — anchoring its business around cloud infrastructure, proprietary models and in-house chips."
+
+The departures came at a contradictory moment — [[Qwen]] mobile app MAU had surged from 31M in January to 203M in February 2026, making it the #3 AI app globally. The MAU surge came from aggressive Lunar New Year campaigns. Alibaba shares fell 4% on Mar 4 (vs [[Hong Kong]] market -2.8% on [[2026 Iran conflict market impact|Iran war selloff]]).
+
+*Sources: FT (Apr 10, 2026); Reuters (Mar 4, 2026)*
 
 ---
 
@@ -219,6 +221,27 @@ Bloomberg Intelligence: "Alibaba can drive this new form of engagement at lower 
 - EUV-manufactured chips
 
 **[[Gap]] widening:** US competitors train on Blackwell while Alibaba stuck on H200.
+
+---
+
+## White House PLA allegations (Nov 2025)
+
+A [[US Government|White House]] national security memo, provided to the FT, cited declassified "top secret" intelligence alleging that [[Alibaba]] provides tech support for [[People's Liberation Army|PLA]] "operations" against targets in the [[United States]]. The memo also claims Alibaba provides the Chinese government and PLA with access to customer data — IP addresses, WiFi information, and payment records — along with AI-related services. It further alleges that employees transferred knowledge about zero-day exploits (previously unknown software vulnerabilities) to the PLA.
+
+Alibaba rejected the claims: "The claims purportedly based on US intelligence that was leaked by your source are complete nonsense. This is plainly an attempt to manipulate public opinion and malign Alibaba."
+
+The allegations reflect broader US concerns about [[China|Chinese]] cloud services, AI, and [[Beijing]]'s ability to access and exploit sensitive data in the US. They follow a pattern of US officials raising similar concerns about Chinese tech companies with purported PLA links. The FT could not independently verify the intelligence claims.
+
+| Allegation | Detail |
+|-----------|--------|
+| Tech support for PLA operations | Against targets in [[United States|US]] |
+| Customer data sharing | IPs, WiFi, payment records to PLA |
+| Zero-day transfer | Employees shared exploit knowledge with PLA |
+| AI services | Various AI services provided to PLA |
+
+Potential investment implications: increased sanctions/delisting risk for BABA/9988, possible restrictions on [[Alibaba Cloud]] serving US-adjacent customers, and further acceleration of the US push to restrict Chinese cloud services globally.
+
+*Source: FT (Demetri Sevastopulo, Nov 20, 2025)*
 
 ---
 
@@ -349,7 +372,7 @@ See [[Wearable AI]] for competitive landscape.
 **Bear:**
 - Export controls cap AI capability
 - China regulatory risk
-- Geopolitics (delisting risk?)
+- Geopolitics (delisting risk?) — [[#White House PLA allegations (Nov 2025)|PLA allegations]] heighten sanctions/Entity List risk
 - Competition from ByteDance, [[Huawei]]
 - Growth deceleration
 
@@ -374,7 +397,7 @@ See [[Wearable AI]] for competitive landscape.
 | CEO | Eddie Wu (since 2023) |
 | Stock YTD (2025) | **+100%+** (doubled) |
 
-*Updated 2026-03-30*
+*Updated 2026-04-10*
 
 ---
 
@@ -392,6 +415,7 @@ See [[Wearable AI]] for competitive landscape.
 ### Cloud / AI
 - [[China token economy]] — Alibaba Token Hub, vertical integration strategy
 - [[Agentic AI]] — Qwen app integrating Taobao, Alipay, Fliggy (Jan 2026)
+- [[Happy Horse]] — open-source AI video generation (Apr 2026, anonymous release)
 
 ### Competitors
 - [[ByteDance]] — competitor ([[Doubao]] has 159M MAU vs Qwen's 100M; [[Volcano Engine]] MaaS leader)
@@ -404,3 +428,4 @@ See [[Wearable AI]] for competitive landscape.
 - [[AI hyperscalers]] — peer category
 - [[Wearable AI]] — DingTalk A1 hardware play
 - [[RISC-V]] — XuanTie chips via T-Head, China silicon sovereignty play
+- [[People's Liberation Army]] — White House memo alleges Alibaba provides PLA with tech support, customer data, zero-day exploits (Nov 2025, FT/Sevastopulo)

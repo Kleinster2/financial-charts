@@ -9,8 +9,9 @@
 | Metric | Value |
 |--------|-------|
 | Ticker | UMG (Euronext), UMGNF (OTC) |
-| Market cap | ~€45B |
-| Revenue (TTM) | €12.2B (~$14B) |
+| Market cap | ~€36B (post-bid, Apr 2026) |
+| Revenue (FY2025) | €12.5B (+6% YoY) |
+| Net profit (FY2025) | €1.9B (+7% YoY) |
 | Streaming % | ~70% of recorded music |
 | Market share | ~32% global |
 
@@ -31,10 +32,10 @@
 | Label | Notable artists |
 |-------|-----------------|
 | Interscope | Billie Eilish, Kendrick Lamar |
-| Republic | Taylor Swift, The Weeknd, Drake |
+| Republic | Taylor Swift, The Weeknd, Drake, Bad Bunny |
 | Def Jam | Rihanna, Kanye (catalog) |
 | Capitol | Katy Perry, Sam Smith |
-| Island | Shawn Mendes, Demi Lovato |
+| Island | Sabrina Carpenter, Shawn Mendes, Demi Lovato |
 
 ---
 
@@ -55,12 +56,12 @@ UMG pushing DSPs to pay more per stream for "real" artists vs. noise/fraud.
 
 | Owner | Stake | Notes |
 |-------|-------|-------|
-| [[Tencent]] consortium | ~20% | — |
-| [[Bolloré Group]] | ~18% | Cyrille Bolloré stepped down from board Jul 2025 |
+| [[Bolloré Group]] | ~28% | Biggest hurdle for Pershing Square bid. Cyrille Bolloré stepped down from board Jul 2025 |
+| [[Tencent]] consortium | ~20% | Not contacted by Ackman before bid went public |
 | [[Pershing Square]] | >4.5% | Down from ~10% (sold 2.7% in Mar 2025); bidder |
-| Public | ~57% | — |
+| Public | ~48% | — |
 
-Spun out of [[Vivendi]] in Sept 2021. US listing planned but postponed.
+Spun out of [[Vivendi]] in Sept 2021. US listing planned but postponed. Shares dipped under €16 in late March 2026 before surging on the Pershing Square bid.
 
 ---
 
@@ -110,9 +111,10 @@ See [[Pershing Square UMG takeover bid]] for full details.
 | Metric | Value |
 |--------|-------|
 | Ticker | UMG (Amsterdam) |
-| Revenue | €12.2B |
+| Revenue | €12.5B (FY2025) |
+| Net profit | €1.9B (FY2025) |
 | Streaming growth | 8-10% target |
-| Key owner | Tencent (20%) |
+| Key owners | [[Bolloré Group]] (~28%), [[Tencent]] (~20%) |
 
 ---
 
@@ -125,7 +127,8 @@ See [[Pershing Square UMG takeover bid]] for full details.
 - [[Live Nation]] — concert promotion
 - [[Pershing Square]] — shareholder, takeover bidder (Apr 2026)
 - [[Bill Ackman]] — Pershing Square founder
-- [[Bolloré Group]] — ~18% shareholder
+- [[Lucian Grainge]] — CEO
+- [[Bolloré Group]] — ~28% shareholder (largest)
 - [[Vivendi]] — former parent (2021 spinoff)
 - [[Michael Ovitz]] — proposed chairman under Pershing Square bid
 - [[Media]] — sector
@@ -136,4 +139,4 @@ See [[Pershing Square UMG takeover bid]] for full details.
 
 - [UMG Investor Relations](https://investors.universalmusic.com/)
 
-*Created 2026-02-02 · Updated 2026-04-07*
+*Created 2026-02-02 · Updated 2026-04-10*

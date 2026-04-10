@@ -37,13 +37,23 @@ DeepSeek secretive in communication but open in technical reports. Others like M
 
 Gap motivated [[ATOM Project]] and renewed US focus on open models. July 2025: China released 4-5 DeepSeek-caliber models, US released zero.
 
-## Business model uncertainty
+## Business model uncertainty — and the proprietary pivot
 
-No clear business model — same as US open models. Consolidation expected eventually but not in 2026. More open model builders coming than 2025.
+Through 2025, no Chinese open model had a clear path to revenue — same as US open models. That changed in early 2026:
+
+[[Alibaba]] began shifting its leading [[Qwen]] models to proprietary (closed-source) in April 2026, keeping them exclusive for cloud customers. Zhou Jingren (former [[Alibaba Cloud]] CTO) replaced Lin Junyang as AI division head after internal disagreements over commercialization. The trigger: Alibaba was spending heavily on open-source training while rivals ([[MiniMax]], [[Zhipu]], [[Moonshot AI]]) outperformed Qwen in coding — a fast-growing revenue area. MaaS (model-as-a-service) is now positioned as a key cloud revenue driver. Open-source continues for select models and areas (e.g. [[Happy Horse]] video generation).
+
+[[Meta]] made a parallel shift in the US, with [[Muse Spark]] (proprietary, from [[Meta Superintelligence Labs]]) replacing [[Llama]] as the flagship line.
+
+The broader industry consensus: with value shifting to AI applications (coding, agents), building powerful open models alone is not enough. The question is whether the developer ecosystem built on open weights will tolerate the bait-and-switch — or migrate to alternatives that remain open.
+
+*Source: FT (Apr 10, 2026)*
 
 ## Related
 
 - [[ATOM Project]] — US response
 - [[DeepSeek]] — started the movement
 - [[Export controls]] — constraints on Chinese compute
-- [[Llama]] — US open model struggling to compete
+- [[Llama]] — US open model, Meta now pivoting to proprietary [[Muse Spark]]
+- [[Alibaba]] — Qwen pivot to proprietary (Apr 2026)
+- [[Open source commoditization]] — broader commoditization dynamics
