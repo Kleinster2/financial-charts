@@ -101,9 +101,23 @@ Whether Bessent's team actually sold futures is unconfirmed, but the market now 
 
 ---
 
+## The $10T rollover wall
+
+33% of US government debt matures next year, requiring ~$10T in Treasury sales to refinance. This makes Bessent's market management the single most consequential variable in fixed income for 2026-2027.
+
+The challenge is compounded by a structural shift in the buyer base. [[Federal Reserve|NY Fed]] research (2026) shows leveraged hedge funds — largely domiciled in the [[Cayman Islands]] — absorbed 37% of net Treasury notes/bonds issuance between 2022 and 2024, nearly matching all other foreign investors combined. These are price-sensitive, spread-driven buyers who will exit if [[Basis trade|basis-trade]] economics deteriorate. Meanwhile, non-US central banks have sold $82B in Treasuries since the [[2026 Iran conflict market impact|Iran war]] began (Fed custody data), and foreign ownership overall has dropped below 30% (from 46% in 2008).
+
+During the Iran war's early volatility, some crowded hedge fund trades were "flushed out" but the selling did not accelerate. [[Gillian Tett]] (FT, Apr 3 2026) credits Bessent with deploying "numerous tricks" to maintain calm. Long-term asset owners (insurers) have held. Whether this stability persists through the rollover depends on whether the war drags on, raises inflation further, or produces additional geopolitical shocks.
+
+*Source: FT (Gillian Tett, Apr 3 2026)*
+
+---
+
 ## Related
 
-- [[Federal Reserve]] — Fed Chair selection
+- [[Federal Reserve]] — Fed Chair selection; NY Fed research on hedge fund Treasury flows
 - [[Jerome Powell]] — current Fed Chair
 - [[Trump II]] — administration
 - [[Tariffs]] — trade policy
+- [[Basis trade]] — hedge fund Treasury demand, $10T rollover risk
+- [[2026 Iran conflict market impact]] — oil intervention speculation, market management

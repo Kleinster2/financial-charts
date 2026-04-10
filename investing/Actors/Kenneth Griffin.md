@@ -29,9 +29,21 @@ This aligns with [[Viking Global]]'s [[Andreas Halvorsen]], who wrote in an inve
 
 ---
 
+## Treasury market defense
+
+Griffin has argued publicly that hedge fund demand for Treasuries has been a net positive for market stability. His case: hedge fund purchases softened the impact of [[Federal Reserve|Fed]] bond sales during the exit from [[Quantitative easing|quantitative easing]], and provided liquidity as large banks reduced their traditional market-making activities.
+
+The argument is self-serving — [[Citadel]] is one of the largest players in Treasury markets — but contains a structural truth. As [[Gillian Tett]] noted (FT, Apr 3 2026), the advantage of hedge fund demand is that it's driven purely by financial calculations, not political bias, unlike some governments. The danger is the mirror image: if economic fundamentals change in a way that makes the trades less compelling, the same funds will all exit simultaneously.
+
+*Source: FT (Gillian Tett, Apr 3 2026)*
+
+---
+
 ## Related
 
 - [[Citadel]] — hedge fund
 - [[Citadel Securities]] — market making
 - [[Viking Global]] — Halvorsen echoed AI skepticism in investor letter
 - [[Qatar Economic Forum 2026]] — confirmed plenary speaker
+- [[Basis trade]] — Citadel's Treasury market participation
+- [[Hedge fund capital concentration]] — structural role of hedge funds as marginal Treasury buyers

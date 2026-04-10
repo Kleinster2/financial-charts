@@ -64,6 +64,16 @@ No single indicator reliably predicts the timing of an unwind, but several measu
 | FX vol smile | Options markets | Risk reversal skew reveals directional consensus |
 | [[Factor investing|Factor]] return compression | Quant analytics | Realized returns falling toward zero despite high conviction = capacity exhausted |
 
+## Fixed income crowding: the basis-trade buyer problem
+
+The equity and FX crowding episodes above have a fixed income parallel. [[Federal Reserve|NY Fed]] research (2026) revealed that hedge funds — largely Cayman-domiciled — absorbed 37% of net Treasury notes/bonds issuance between 2022 and 2024, with positions reaching $2.4T long / $1.6T short by late 2025 (OFR data). This makes leveraged hedge funds the marginal buyer of US government debt. The positions are driven by [[Basis trade|basis-trade]] and swap-trade economics, not conviction about creditworthiness.
+
+[[Gillian Tett]] (FT, Apr 3 2026) framed the risk: if economic or financial fundamentals suddenly change — higher rates, wider repo spreads, regulatory tightening — many funds may all head for the exit, creating the same reflexive unwind pattern seen in equities. March 2020 and April 2025 ([[Liberation Day tariffs]]) both demonstrated this in practice. The [[2026 Iran conflict market impact|Iran war]] was the third test; some trades were flushed out but the unwinding did not accelerate.
+
+The difference from equity crowding: the stakes are higher because Treasury market liquidity is the foundation of all other markets. A disorderly basis-trade unwind doesn't just affect the funds involved — it reprices the risk-free rate for everything.
+
+*Source: NY Fed research, OFR, FT (Gillian Tett, Apr 3 2026)*
+
 ## The asymmetry
 
 Crowding creates an asymmetry that favors catalysts over fundamentals in the short run. A position can be fundamentally sound and still lose 20% in a week because every holder is hitting the same risk limit simultaneously. Conversely, the opposite of the crowded trade often rallies far beyond what fundamentals justify — the [[S&P 500]] was flat during the Feb–Mar 2026 Iran unwind while non-US indices collapsed, not because American companies benefited from the war but because capital fled from crowded non-US longs back into the familiar.

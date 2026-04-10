@@ -94,6 +94,14 @@ These rules govern how much capital banks worldwide must hold.
 
 ---
 
+## Hedge fund swap trade research (2026)
+
+BIS data flagged an explosion in hedge fund "swap" trades (exchanging Treasuries for other securities), complementing the [[Basis trade|basis-trade]] expansion tracked by [[Morgan Stanley]] and the [[Federal Reserve|NY Fed]]. The swap data, alongside NY Fed research showing TIC undercounting of ~$1.4T in cross-border hedge fund flows, reframed the understanding of who actually holds US government debt. See [[Basis trade]] and [[Hedge fund capital concentration]] for the full picture.
+
+*Source: FT (Gillian Tett, Apr 3 2026)*
+
+---
+
 ## Related
 
 - [[Hyun Song Shin]] — Economic Adviser
@@ -101,3 +109,4 @@ These rules govern how much capital banks worldwide must hold.
 - [[Federal Reserve]], [[ECB]], [[Bank of Japan]] — key members
 - [[Financial stability]] — core mandate
 - [[CBDC]] — Innovation Hub focus
+- [[Basis trade]] — BIS swap-trade data cited alongside basis-trade research

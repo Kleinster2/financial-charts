@@ -119,6 +119,20 @@ The question Bloomberg poses: does the convergence represent one bad year, or th
 
 ---
 
+## The Cayman Islands as largest foreign Treasury holder
+
+The concentration of hedge fund capital has a parallel in fixed income that went undetected until 2026. [[Federal Reserve|NY Fed]] research revealed that official TIC data undercounts cross-border hedge fund Treasury flows by ~$1.4T because most leveraged funds are domiciled in the [[Cayman Islands]]. Correcting for this, the Cayman Islands is the largest foreign holder of US Treasuries — surpassing [[China]], [[Japan]], and the [[United Kingdom]].
+
+Between 2022 and 2024, hedge funds absorbed 37% of net notes/bonds issuance, nearly equal to all other foreign investors combined (OFR data). Meanwhile, [[Basis trade|basis trades]] and "swap" trades ([[Bank for International Settlements|BIS]] data) pushed hedge fund Treasury positions to $2.4T long / $1.6T short by late 2025 — triple the level three years earlier.
+
+This is the fixed-income version of the equity-side concentration story: just as a handful of multi-manager platforms absorb most hedge fund AUM, a Cayman-domiciled cohort of leveraged funds has become the marginal buyer of US government debt. The stability implications are significant. [[Scott Bessent]] must roll over ~$10T (33% of outstanding debt) next year. If the economics of basis trades deteriorate — wider repo spreads, higher rates, regulatory tightening — the marginal buyer could disappear precisely when supply peaks.
+
+[[Kenneth Griffin]] of [[Citadel]] argues this is net positive: hedge fund demand softened the [[Quantitative easing|QE]] unwind and provides apolitical liquidity. The counterargument: March 2020 and April 2025 ([[Liberation Day tariffs]]) both demonstrated that leveraged positions unwind violently under stress.
+
+*Source: NY Fed research, OFR, BIS, FT (Gillian Tett, Apr 3 2026)*
+
+---
+
 ## Investment relevance
 
 **Not directly investable** (most are private), but the dynamic matters for:

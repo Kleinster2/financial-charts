@@ -100,6 +100,20 @@ See [[Basis trade]], [[March 2020 liquidity crisis]]
 
 ---
 
+## The TIC undercounting problem (NY Fed research, 2026)
+
+NY Fed economists discovered that TIC data systematically undercounts cross-border hedge fund Treasury flows by ~$1.4T. Most leveraged funds are domiciled in the [[Cayman Islands]] for tax and regulatory reasons, but TIC reporting fails to capture the full scale of their positions. See [[Treasury International Capital]] for the dedicated concept note.
+
+Correcting for this, the Cayman Islands — not [[Japan]] or [[China]] — is the largest foreign holder of US Treasuries. Between 2022 and 2024, hedge funds absorbed 37% of net notes/bonds issuance, nearly matching all other foreign investors combined (OFR data). Foreign ownership overall has dropped below 30% (from 46% in 2008), but the headline masks a compositional shift: demand has migrated from price-insensitive central banks to price-sensitive leveraged funds running [[Basis trade|basis]] and swap trades.
+
+This reframes the custody data above. The $82B in central bank selling is real and concerning — but the deeper question is who is replacing that demand. If the answer is predominantly hedge funds running 10-20x leveraged spread trades, the Treasury market's "buyer of last resort" has moved from entities that hold through volatility (central banks) to entities that amplify it (hedge funds). [[Scott Bessent|Bessent]]'s $10T rollover next year depends on this fragile demand base persisting.
+
+[[Kenneth Griffin]] of [[Citadel]] argues hedge fund demand is net positive — it softened the QE unwind and provides apolitical liquidity. The counterargument: March 2020, April 2025, and the early [[2026 Iran conflict market impact|Iran war]] all showed these positions unwind violently under stress, even if the thesis is correct.
+
+*Source: NY Fed research, OFR, FT (Gillian Tett, Apr 3 2026)*
+
+---
+
 ## Why it matters for the vault
 
 The custody data connects three vault threads:

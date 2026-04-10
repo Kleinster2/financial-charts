@@ -21,7 +21,8 @@ The strategy is concentrated — 8-12 core holdings in undervalued large-cap Nor
 |--------|-------|
 | Founded | 2004 |
 | Founder | [[Bill Ackman]] |
-| AUM | $30.7B (Dec 2025) |
+| AUM | $30.7B (Dec 2025); $20.7B fee-earning |
+| 2025 revenue | $760M |
 | Public vehicles | PSH (Euronext Amsterdam), PS + PSUS (NYSE, filed Mar 2026) |
 | 2024 valuation | $10.5B (10% stake sale — comparable to [[TPG]] at listing, below [[CVC Capital Partners]] at €15B) |
 | 2025 NAV performance | 20.9% |
@@ -74,7 +75,37 @@ Pershing Square filed for a combined dual listing on the [[New York Stock Exchan
 | [[Hilton]] | — | Long-held position |
 | [[Howard Hughes Holdings]] | — | Majority stake; [[Howard Hughes Vantage Risk acquisition\|acquired Vantage Risk]] ($2.1B, Dec 2025) — PS manages Vantage assets |
 
-Concentrated: 8-12 core holdings, all large-cap.
+13 stocks total (as of Mar 2026). Core funds leveraged 1.25x. No short selling — unusual for a hedge fund of this scale.
+
+---
+
+## Economics and fee structure
+
+The firm is extraordinarily lean. Ackman claims "one of the highest ratios of fee-paying assets to investment professionals in the industry." For context: [[Millennium Management]] is 4x larger by AUM but employs 150x more people.
+
+| Metric | Value |
+|--------|-------|
+| Total AUM | $30.7B (Dec 2025) |
+| Fee-earning AUM | $20.7B |
+| 2025 revenue | $760M |
+| Leverage | 1.25x (core funds) |
+| Short selling | None |
+| Holdings | 13 stocks |
+| Internal capital | $5.8B (staff invested in funds) |
+
+**Compensation (2025):**
+
+| Person | Compensation | Notes |
+|--------|-------------|-------|
+| [[Bill Ackman]] | $250M | Includes capital distributions + security detail cost |
+| Ryan Israel (CIO) | $49M | — |
+| Staff (fee rebates) | $78M total | On $5.8B invested in firm's funds |
+
+**PS shareholders vs. staff split:** Performance fees on the first 5% of returns flow to PS (management company) shareholders. Everything above 5% goes to staff. This resolves some of the three-way tension (fund investors / management company shareholders / employees) — but not all of it.
+
+**Rubinstein's critique:** Buffett ran everything through a single entity ([[Berkshire Hathaway]]). Ackman is wrapping the same concentrated portfolio in multiple vehicles (PSH, PSUS, PS, [[Howard Hughes Holdings]]), each with its own shareholder base, fee structure, and claim on his attention. "Whatever simplicity he cultivates in his portfolio is offset by complexity in his group's structures." The experience of Sculptor Capital Management — acquired and delisted in 2023 after 16 years as a public company — is a reminder that multi-stakeholder tensions can simmer regardless of planning.
+
+**2026 YTD (through Mar 20):** Investors had lost roughly two-thirds of what they made in 2025.
 
 ---
 
@@ -84,13 +115,14 @@ Concentrated: 8-12 core holdings, all large-cap.
 |--------|-------|
 | Ticker | PSH (Euronext Amsterdam) |
 | Structure | Closed-end fund |
-| Discount to NAV | Persistent, narrowing |
+| Discount to NAV | ~25% (Mar 2026) |
 | Management fee | 1.5% of assets |
+| Performance fee | 16% |
 | 2025 NAV return | 20.9% |
 | 2025 total shareholder return | 33.9% (discount narrowing) |
 | Launched | Dec 2012, IPO Oct 2014 ($3B) |
 
-London-listed closed-end fund, $15B+ AUM, bulk of Pershing Square's overall assets as the traditional hedge fund shrank over time. The NAV discount has been a persistent frustration — the PSUS launch is partly designed to create a US-listed vehicle without the same discount dynamics.
+London-listed closed-end fund, $15B+ AUM, bulk of Pershing Square's overall assets as the traditional hedge fund shrank over time. The ~25% NAV discount is partly driven by the 16% performance fee drag. PSUS has no performance fees — meaning PSH effectively subsidizes the US fund by paying them. Ackman promised to ratchet down London-sourced fees depending on US fundraising, but the subsidy won't disappear entirely (Rubinstein, FT, Mar 20 2026).
 
 ---
 
@@ -184,6 +216,8 @@ See [[Pershing Square UMG takeover bid]] for full details.
 - [[Amazon]] — portfolio holding
 - [[Alphabet]] — portfolio holding
 - [[Meta]] — portfolio holding (Feb 2026)
+- [[Hilton]] — portfolio holding (long-held)
+- [[Millennium Management]] — peer (4x larger, 150x more employees)
 - [[Elliott Management]] — peer
 - [[Third Point]] — peer
 - [[Carl Icahn]] — rival (Herbalife)
@@ -192,5 +226,7 @@ See [[Pershing Square UMG takeover bid]] for full details.
 - [[Bolloré Group]] — key UMG shareholder
 - [[Michael Ovitz]] — proposed New UMG chairman
 - [[Spotify]] — stake funding UMG bid cash component
+
+- [[Sculptor Capital Management]] — cautionary comp (hedge fund listed 16 yrs, acquired/delisted 2023)
 
 *Created 2026-01-16 · Updated 2026-04-10*

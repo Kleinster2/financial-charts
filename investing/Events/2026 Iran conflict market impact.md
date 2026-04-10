@@ -201,6 +201,22 @@ Critical context: the rally is mechanical covering, not fundamental conviction. 
 
 ---
 
+## Treasury market and capital flow effects
+
+The war produced a structural stress test for US government debt markets that extended well beyond the headline oil moves. [[Gillian Tett]] (FT, Apr 3 2026) outlined three interconnected dynamics:
+
+Central bank selling: Non-US central banks sold $82B in Treasuries since the war started ([[Federal Reserve|Fed]] custody data), pushing holdings to $2.7T — the lowest since 2012. Likely defensive (building liquid war chests), not anti-US sentiment. [[Poland]] sold gold for the same reason. But the selling came as 10Y yields rose ~48bp from the Feb 27 trough (3.96%) to the Mar 27 peak (4.44%).
+
+Hedge fund resilience: The leveraged funds that now dominate foreign Treasury demand (see [[Basis trade]] — $2.4T long, $1.6T short per OFR) did not unwind en masse. Some crowded trades were "flushed out" early, but [[Scott Bessent|Bessent]]'s market management and the stability of long-term asset owners (insurers) prevented acceleration. This was the third basis-trade stress episode after March 2020 and the [[Liberation Day tariffs]] of April 2025.
+
+De-dollarization signaling: [[Iran]] began demanding [[Strait of Hormuz]] passage payments in Chinese yuan or crypto, while Chinese state media ran cartoons mocking dollar dominance. Symbolic more than structural, but the optics matter when Fed custody data is simultaneously showing 2012-low holdings.
+
+The near-term question: whether Bessent's management holds through the ~$10T debt rollover (33% of outstanding) coming next year, given that hedge funds — not governments — are now the marginal buyer.
+
+*Source: FT (Gillian Tett, Apr 3 2026)*
+
+---
+
 ## Expert panels
 
 Two major expert panels produced the deepest structural analysis:
@@ -235,6 +251,13 @@ Two major expert panels produced the deepest structural analysis:
 - [[Exail Technologies]] — European MCM drone specialist (+5.8%)
 - [[Schlumberger|SLB]] — first oilfield services profit warning
 
+### Treasury market / capital flows
+- [[Basis trade]] — third stress test (after 2020, 2025); some crowded trades flushed out but no systemic unwinding
+- [[Scott Bessent]] — $10T rollover facing hedge-fund-dependent demand; "numerous tricks" to maintain calm
+- [[De-dollarization]] — central banks sold $82B Treasuries (Fed custody at 2012 low); Iran demanding yuan/crypto for Hormuz passage
+- [[Dollar reserve status erosion]] — foreign ownership <30% (from 46% in 2008); compositional shift to hedge funds
+- [[Hedge fund capital concentration]] — Cayman Islands as largest foreign UST holder (NY Fed); 37% of net issuance
+
 ### Hedge funds
 - [[HFR]] — HFRI -3.1% March (worst since Covid)
 - [[Citadel]] — Wellington -1.9%, GFI -8.2%
@@ -244,6 +267,7 @@ Two major expert panels produced the deepest structural analysis:
 - [[ExodusPoint]] — -4.5%
 - [[Brevan Howard]] — master fund -6.6%
 - [[Steepener trade]] — consensus positioning destroyed by rate repricing
+- [[Kenneth Griffin]] — defends hedge fund Treasury demand role (liquidity, QE buffer)
 
 ### Key sources
 - [[Robin J. Brooks]] — Hormuz vessel tracking, near-peak thesis

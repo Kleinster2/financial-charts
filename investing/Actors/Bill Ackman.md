@@ -12,7 +12,8 @@ aliases: [William Ackman, Ackman]
 | Metric | Value |
 |--------|-------|
 | Fund | [[Pershing Square]] Capital Management |
-| AUM | $30.7B (Dec 2025) |
+| AUM | $30.7B (Dec 2025); $20.7B fee-earning |
+| 2025 compensation | $250M (incl. capital distributions + security) |
 | Style | Concentrated activist |
 | Current bet | [[Fannie Mae]], [[Freddie Mac]] |
 | IPO filing | Mar 10, 2026 (NYSE: PS + PSUS) |

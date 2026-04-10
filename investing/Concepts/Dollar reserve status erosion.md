@@ -71,6 +71,16 @@ The key insight: the dollar isn't being replaced by one alternative — it's bei
 - **Emerging markets**: benefit from reduced dollar dependency and local currency borrowing
 - **US exorbitant privilege**: America's ability to borrow cheaply in its own currency, run persistent deficits, and fund military spending through foreign savings — all depend on reserve status
 
+## The Treasury ownership shift
+
+Foreign ownership of US Treasuries has dropped below 30%, down from 46% in 2008. But the headline masks a compositional shift more important than the level.
+
+[[Federal Reserve|NY Fed]] research (2026) revealed that official TIC data undercounts cross-border hedge fund flows by ~$1.4T. Correcting for this, the [[Cayman Islands]] — where most leveraged funds are domiciled — is the largest foreign holder of US Treasuries, surpassing [[China]], [[Japan]], and the [[United Kingdom]]. Between 2022 and 2024, hedge funds absorbed 37% of net Treasury notes/bonds issuance.
+
+The demand for Treasuries hasn't disappeared — it has migrated from central banks (price-insensitive, hold-to-maturity) to hedge funds (leveraged, spread-driven, will exit if [[Basis trade|basis-trade]] economics change). This means the rollover risk for the US government is less about total foreign demand and more about the fragility of marginal demand. Central bank selling ($82B since the [[2026 Iran conflict market impact|Iran war]] began, Fed custody at 2012 lows) compounds the picture.
+
+*Source: NY Fed research, FT (Gillian Tett, Apr 3 2026)*
+
 ## The counterpoint
 
 41% is still dominant — nothing else is close. The yuan is at 2-3% and constrained by capital controls. The euro has no fiscal union behind it. Crypto is negligible. The dollar still denominates ~88% of FX transactions and ~40% of international trade. Reserve status erodes slowly, then quickly — but we may still be in the "slowly" phase.

@@ -74,6 +74,20 @@ Limited by capital controls. See [[Currency swap lines]] for detailed network an
 
 ---
 
+## Iran war catalyst (2026)
+
+The [[2026 Iran conflict market impact|Iran war]] produced three de-dollarization signals simultaneously:
+
+1. Non-US central banks sold $82B in Treasuries since the war started ([[Federal Reserve|Fed]] custody data), pushing holdings to $2.7T — the lowest since 2012. Likely defensive (building war-chest liquidity), not anti-US sentiment per se. [[Poland]], for example, sold gold for the same reason.
+
+2. [[Iran]] began demanding passage through the [[Strait of Hormuz]] in [[China|Chinese]] yuan or cryptocurrency — a direct trolling of dollar hegemony over the world's most critical energy chokepoint.
+
+3. Chinese state media ran cartoons mocking dollar dominance, framing the conflict as evidence of US overextension.
+
+Whether these amount to a structural shift or opportunistic posturing is debatable. $82B is small relative to the $2.7T remaining. But the symbolism matters: when a country can charge tolls on 20% of global oil transit and specify non-dollar payment, the dollar's claim to commodity supremacy is being publicly challenged.
+
+*Source: FT (Gillian Tett, Apr 3 2026)*
+
 ## What to watch
 
 | [[Signal]] | Meaning |
@@ -82,6 +96,8 @@ Limited by capital controls. See [[Currency swap lines]] for detailed network an
 | [[Trade]] settlement changes | Invoicing currency |
 | BRICS summits | Policy announcements |
 | Sanctions expansion | Accelerates alternatives |
+| Fed custody data | Central bank Treasury holdings — now at 2012 lows |
+| Hormuz payment terms | Whether yuan/crypto demands persist post-ceasefire |
 
 ---
 

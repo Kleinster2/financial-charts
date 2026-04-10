@@ -74,16 +74,35 @@ See [[Howard Hughes Vantage Risk acquisition]] for full deal details.
 
 Howard Hughes owns and operates master-planned communities and mixed-use developments:
 
-| Property | Location |
-|----------|----------|
-| The Woodlands | Houston, TX |
-| Summerlin | Las Vegas, NV |
-| Ward Village | Honolulu, HI |
-| Columbia | Columbia, MD |
-| Seaport District | New York, NY |
-| Bridgeland | Houston, TX |
+| Property | Location | Notes |
+|----------|----------|-------|
+| The Woodlands | Houston, TX | Flagship MPC |
+| Summerlin | Las Vegas, NV | — |
+| Ward Village | Honolulu, HI | — |
+| Columbia | Columbia, MD | — |
+| Bridgeland | Houston, TX | — |
 
 The question for the Berkshire model is whether real estate is the right first operating business — it's illiquid, cyclical, and capital-intensive, unlike Berkshire's operating companies (BNSF, Berkshire Energy) which generate predictable cash flows.
+
+---
+
+## Seaport District (spun off Jul 2024)
+
+The South Street Seaport in lower Manhattan was HHH's most visible — and most expensive — project. ~$1.5B total capital invested over a decade. In July 2024, HHH spun it off as [[Seaport Entertainment Group]] (NYSE American: SEG), effectively admitting the project could not be sustained within the holding company's balance sheet.
+
+**What HHH built:** Pier 17 (~$425M rebuild, SHoP Architects, opened Jul 2018), the Tin Building food hall (~$200M+ renovation, opened Sep 2022), and acquired the 250 Water Street development site ($180M + $40M air rights).
+
+**What went wrong:**
+
+The Tin Building by Jean-Georges Vongerichten was a spectacular failure — 54,000 sq ft food hall that generated $32.4M revenue in 2023 against losses exceeding $100K/day. Total cumulative losses exceeded $100M before it closed on Feb 24, 2026. Remote location, seasonal foot traffic, $7 croissants, $25 cocktails. Now leased to Balloon Museum.
+
+250 Water Street became a years-long legal battle. HHH invested $220M+ (purchase + air rights + remediation). The Seaport Coalition (local residents) sued, alleging HHH won Landmarks Preservation Commission approval through a $40M quid pro quo (museum funding commitment). Justice Arthur Engoron halted construction twice (Oct 2022, Jan 2023) before the Appellate Division and Court of Appeals overturned his rulings (2023-2024). SEG ultimately sold the site to Tavros Capital for $143M (closed Feb 2026) — a significant loss.
+
+HHH took a $672.5M impairment charge on Seaport assets in 2023.
+
+**What survived:** Pier 17's rooftop concert venue (Live Nation 5-year deal), ESPN studios, iPic Theater. The neighborhood was 90% leased at year-end 2025 and losses are narrowing. But the investment returns for HHH shareholders were deeply negative.
+
+**Hurricane Sandy context:** The Seaport was devastated on Oct 29, 2012 — 5-7 feet of water on first floors, $20M+ damage to the South Street Seaport Museum. The rebuild happened in Sandy's aftermath, which added both cost and urgency.
 
 ---
 
@@ -109,6 +128,7 @@ The distinction: Apollo/KKR went for life/annuity float (long-duration, massive 
 - [[Bill Ackman]] — architect of the Berkshire transformation
 - [[Vantage Risk]] — $2.1B P&C acquisition (Dec 2025)
 - [[Berkshire Hathaway]] — the model
+- [[Seaport Entertainment Group]] — spun off Jul 2024 (South Street Seaport, Pier 17)
 - [[Insurance float]] — the mechanism
 - [[Permanent capital]] — what float provides
 - [[PE-insurance convergence]] — broader trend of investment firms acquiring insurers
@@ -119,4 +139,4 @@ The distinction: Apollo/KKR went for life/annuity float (long-duration, massive 
 ### Securities
 - [[Howard Hughes Holdings securities]] — NYSE: HHH
 
-*Created 2026-04-10 (source: FT, Dec 18 2025)*
+*Created 2026-04-10 · Updated 2026-04-10*

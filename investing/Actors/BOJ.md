@@ -98,6 +98,14 @@ The BOJ holds the distinction of being first to deploy nearly every major unconv
 - Yield curve control (2016) — explicitly targeting the 10-year [[JGB]] yield at ~0%, the only G7 central bank to target long-term rates directly
 - Direct equity purchases (2010-2024) — buying [[ETF]]s tracking the [[Nikkei 225]] and TOPIX, accumulating ~7% of the Japanese equity market. No other major central bank has purchased equities at this scale.
 
+## Hedge fund JGB purchases (2026)
+
+The [[Bank for International Settlements|BIS]] and BOJ data revealed an explosion in hedge fund purchases of Japanese government bonds, mirroring the pattern seen in US Treasuries. [[Gillian Tett]] (FT, Apr 3 2026) noted this attracted "scant attention" despite its scale. The dynamic parallels the [[Basis trade|basis-trade]] expansion in US Treasuries: leveraged funds exploiting spread opportunities in government bonds, replacing traditional holders (domestic banks, insurers) as marginal buyers.
+
+The pattern raises similar stability questions as the US Treasury case. If [[JGB]] yields move sharply — which BOJ normalization (from 0.75% toward the 1.0-1.25% range [[Vanguard]] and the IMF project) could trigger — hedge funds may unwind faster than the buy-and-hold institutional base they've partially displaced.
+
+*Source: BOJ, BIS, FT (Gillian Tett, Apr 3 2026)*
+
 ## Related
 
 - [[Japan]]
