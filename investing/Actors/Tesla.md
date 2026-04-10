@@ -136,6 +136,14 @@ Retail shareholder angle:
 
 Risk: Tesla excluded from SpaceX/xAI mega-deal while providing $2B capital. See [[SpaceX xAI merger]].
 
+### Tesla-SpaceX convergence (Deepwater framing, Apr 9, 2026)
+
+[[Deepwater Asset Management]] ([[Gene Munster]] + [[Doug Clinton]]) made an explicit case for eventual Tesla-SpaceX recombination as the natural completion of the sovereign AI stack rather than an arbitrary corporate move. The logic runs through three pieces. First, [[xAI]] (inside SpaceX since February) is the model-building layer, and [[Tesla]] owns the two biggest physical-AI footprints — FSD (self-driving cars) and [[Tesla Optimus|Optimus]] (humanoid robots). Model-building and robotics logically belong together and would benefit directly from one another. Second, Tesla's energy business — storage, solar, [[Megapack]] — completes the energy layer of the sovereign AI stack, which in SpaceX today is covered only by [[Colossus]]'s improvised gas-turbine setup in Memphis and Tesla Megapack deliveries. Third, there are durable manufacturing synergies between building rockets and building cars — both are physical products built under extreme tolerances, and Musk has historically rotated engineers between the two companies when one side has a problem the other side can solve.
+
+The Musk "physical AI is half of global GDP" framing is the backbone of the argument. In Deepwater's read, if we take that framing seriously, then a pure-software AI company cannot capture anything close to the available TAM — the physical layer has to be inside the same corporate envelope, because that is where most of the value sits. Tesla is the physical-AI piece, and pulling it inside SpaceX is what turns the sovereign AI stack from five layers to six.
+
+The obstacles are governance and fiduciary duty across three separate boards, not thesis. Deepwater's read is that once SpaceX is public and Tesla is mark-to-market against it, the complexity compresses and the merger becomes the default outcome. This echoes [[Chamath Palihapitiya|Chamath]]'s "99.999% probability Tesla-SpaceX eventually merge" call on All-In E222 (Apr 3, 2026), though Deepwater is more circumspect on timing — "next five years" rather than imminent. See [[Sovereign AI stack]] for the corporate framework and [[SpaceX IPO 2026]] for the valuation-layer implication of treating SpaceX primarily as an AI bet.
+
 ---
 
 ## Memory fab consideration (Feb 2026)
@@ -495,7 +503,10 @@ See [[Short interest]] for interpretation framework.
 ## Related
 
 - [[TERAFAB]] — $20-25B joint fab with SpaceX/xAI, announced Mar 21 2026. Inference chips for vehicles + Optimus. Bernstein estimates full vision at $5-13T. Not yet in 2026 capex plan (already >$20B).
+  - April 7: [[Intel]] signed on as Terafab foundry partner, contributing 18A process node and packaging. Two fabs on Giga Texas: auto/robotics (FSD, [[Cybercab]], [[Tesla Optimus]]) and AI datacenter/orbital. Initial 100K wafer starts/month, target 1M. See [[TERAFAB]] for full details.
 - [[SpaceX xAI merger]] — Feb 2026 (Tesla excluded, but $2B invested in xAI)
+- [[Sovereign AI stack]] — Deepwater framework: Tesla is the physical AI + energy layer that completes the stack
+- [[Deepwater Asset Management]] — source of the Tesla-SpaceX convergence framing (Gene Munster + Doug Clinton, Apr 9, 2026)
 - [[Elon Musk]] — CEO
 - [[SpaceX]] — Musk sibling company (acquired xAI, 2026 IPO)
 - [[xAI]] — now SpaceX subsidiary (Tesla holds preferred stock)

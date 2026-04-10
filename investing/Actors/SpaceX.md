@@ -134,6 +134,38 @@ Satellite internet constellation:
 
 ---
 
+## Sovereign AI stack (Apr 9, 2026)
+
+[[Deepwater Asset Management]] ([[Gene Munster]] + [[Doug Clinton]]) framed SpaceX as *the first sovereign AI company* — the only firm in the world positioned to own the full AI value chain end-to-end without relying on any third-party vendor at any layer. The argument is that current AI is a chain of shifting bottlenecks (3+ year wait on turbines, chip scarcity, memory constraints, optical transceiver reliability), and whoever depends on outside vendors at any layer eventually hits a ceiling set by someone else's capex cycle. SpaceX is the only actor with every piece on the board.
+
+The SpaceX-owned layers Deepwater maps to the stack:
+
+| Layer | SpaceX asset | Status |
+|-------|--------------|--------|
+| Launch | [[Starship]] / Falcon 9 | Dominant (reusable Falcon, Starship in iterative test cadence) |
+| Distribution | [[Starlink]] | 9M+ subscribers, globally end-to-end; no other AI company has a last-mile answer |
+| Model | [[Grok]] | [[xAI]] absorbed Feb 2026; Grok 5 Q1 2026 at 6T params |
+| Data | [[X]] (social graph, real-time pulse) | Inherited via xAI absorbing X; scientific content increasingly flowing through it |
+| Compute infrastructure | [[Colossus]] (Memphis), Colossus 2, orbital DCs (optionality) | 2GW on Earth target; [[Space data centers|orbital]] is upside, not load-bearing |
+| Chips (design) | [[TERAFAB]] D3 orbital processors | Announced Mar 21, 2026 |
+| Chips (fab) | [[TERAFAB]] + [[Intel]] 18A | Foundry partner confirmed Apr 7, 2026 |
+| Energy | (via [[Tesla]] sibling + Colossus gas-turbine improvisation) | Tesla Energy + Megapack at Colossus; long-term nuclear TBD |
+| Physical AI | [[Tesla Optimus]] + Tesla FSD (if recombined) | Currently separate company; see convergence section |
+
+Deepwater's point is that no other hyperscaler owns every layer. [[Google]] is closest but still fabs through [[Broadcom]] and [[TSMC]] and has no last-mile distribution answer — Google tried fiber and failed. [[OpenAI]], [[Meta]], [[Amazon]], [[Microsoft]] are all missing two or three layers and every one of them is net-long Nvidia exposure via [[TSMC]]. The Apple analogy governs the margin case: extreme vertical integration captured ~90% of the smartphone category's profit pool against a consensus the market would be commoditized; the bet is that SpaceX plays the same hand in AI and ends up the only player meaningfully profitable at scale.
+
+Investment reframe: treat the [[SpaceX IPO 2026|SpaceX IPO]] as an AI bet rather than a space bet. That changes which comparables govern the multiple — AI comps (Nvidia, [[Palantir]], private OpenAI rounds) support the [[SpaceX IPO 2026#Reuters valuation math (Apr 8, 2026)|56x forward revenue / 109x forward EBITDA]] Reuters ran the math on, where space-business comps would not.
+
+See [[Sovereign AI stack]] for the full framework, scorecard against each hyperscaler, and the Apple analogy.
+
+### Tesla-SpaceX convergence (Deepwater framing)
+
+Deepwater treats an eventual Tesla-SpaceX recombination as the natural completion of the stack rather than an arbitrary corporate maneuver. The logic: [[xAI]] (model building) and [[Tesla]] (robotics — FSD, [[Tesla Optimus|Optimus]]) logically belong together, because AI plus robotics is where most of the physical AI value sits, and Musk has publicly framed physical AI as roughly half of global GDP. Tesla's energy business — storage, solar, grid services — completes the energy layer of the sovereign AI stack, which is otherwise covered only by Colossus's improvised gas-turbine setup in Memphis. Bringing Tesla under the same roof makes the vertical integration actually end-to-end for the first time.
+
+There are also manufacturing synergies Deepwater flagged — rockets and cars are both physical products built under extreme tolerances, and Musk has historically rotated engineers between the two companies. The obstacles are governance and fiduciary duty across three separate boards, not thesis. Deepwater's read is that once both are public and mark-to-market, the complexity compresses and the merger becomes the default. This echoes [[Chamath Palihapitiya|Chamath]]'s "99.999% probability" call on All-In E222 (Apr 3). See [[Tesla]] for the Tesla-side framing and the $2B xAI investment that already created fiduciary entanglement.
+
+---
+
 ## [[Space]] data centers (Jan 2026)
 
 Musk's vision: 100GW orbital compute network
@@ -398,6 +430,12 @@ Jan 10, 2026: FCC approved 7,500 additional Gen2 [[Starlink]] satellites.
 
 ---
 
+## Terafab foundry partner announced (Apr 7, 2026)
+
+[[Intel]] joined [[TERAFAB]] as the primary foundry partner for the $25B joint fab (Tesla/SpaceX/xAI). SpaceX's role centers on demand: D3 orbital AI processors for [[Space data centers]] and specialized chips for satellite deployments. Intel's 18A process and advanced packaging resolve the fabrication question — SpaceX brings the demand side, not the manufacturing.
+
+---
+
 ## For theses
 
 [[AI capex arms race]]: $50B IPO to fund AI infrastructure (space data centers)
@@ -414,6 +452,8 @@ Jan 10, 2026: FCC approved 7,500 additional Gen2 [[Starlink]] satellites.
 - [[Samsung]] — chip partner (AI modem, 3nm)
 - [[Submarine Cables]] — terrestrial competition
 - [[Iran]] — Jan 2026 [[Starlink]] deployment discussion
+- [[Sovereign AI stack]] — Deepwater framework: SpaceX as the first company owning every layer end-to-end
+- [[Deepwater Asset Management]] — source of the sovereign AI framing (Gene Munster + Doug Clinton, Apr 9, 2026)
 - [[Space data centers]] — 100GW orbital compute vision
 - [[Lunar Mass Driver]] — electromagnetic catapult for Moon-manufactured AI satellites
 - [[TERAFAB]] — $20-25B joint chip fab (Tesla/SpaceX/xAI) feeding lunar pipeline

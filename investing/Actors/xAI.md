@@ -3,22 +3,22 @@ aliases: [Grok, Macrohard]
 ---
 #actor #ai #hyperscaler
 
-**xAI** — Elon Musk's AI company (Grok). **Now a SpaceX subsidiary** after Feb 2026 acquisition. Building massive GPU clusters. Macrohard project to simulate Microsoft with AI.
+**xAI** — Elon Musk's AI company (Grok). Now a SpaceX subsidiary after Feb 2026 acquisition. Building massive GPU clusters. Macrohard project to simulate Microsoft with AI.
 
 ---
 
 ## Origin story
 
-**Musk's return to AI (mid-2023):**
+Musk's return to AI (mid-2023):
 
 | Event | Date | Notes |
 |-------|------|-------|
 | Co-founded [[OpenAI]] | 2015 | Early backer and board member |
 | Left OpenAI | 2018 | Clashed with leadership over direction |
 | ChatGPT viral success | Nov 2022 | Musk watched from sidelines |
-| Founded xAI | **Mid-2023** | Nearly a year after ChatGPT |
+| Founded xAI | Mid-2023 | Nearly a year after ChatGPT |
 
-**Recruiting:** Lured AI researchers from [[Google]], [[Microsoft]], and [[Tesla]] to compete with Sam Altman's OpenAI.
+Recruiting: Lured AI researchers from [[Google]], [[Microsoft]], and [[Tesla]] to compete with Sam Altman's OpenAI.
 
 ---
 
@@ -30,7 +30,7 @@ xAI is emerging as a major AI infrastructure builder. Colossus cluster and expan
 
 ## Macrohard ("Human Emulators")
 
-**"Purely AI software company" (Aug 2025):**
+"Purely AI software company" (Aug 2025):
 
 Musk's vision: simulate a Microsoft-scale software business entirely with [[AI agents]].
 
@@ -42,13 +42,13 @@ Musk's vision: simulate a Microsoft-scale software business entirely with [[AI a
 | Products | Human emulators — digital Optimus for knowledge work |
 | Revenue target | $10-100B (working backwards from this target) |
 
-**Musk quote:** "In principle, given that software companies like Microsoft do not themselves manufacture any physical hardware, it should be possible to simulate them entirely with AI."
+Musk quote: "In principle, given that software companies like Microsoft do not themselves manufacture any physical hardware, it should be possible to simulate them entirely with AI."
 
 ### Human emulator architecture
 
-**The core concept:** Emulate anything a human does digitally — keyboard/mouse inputs + screen viewing + decision-making. No software adoption required. Can deploy anywhere a human currently works.
+The core concept: Emulate anything a human does digitally — keyboard/mouse inputs + screen viewing + decision-making. No software adoption required. Can deploy anywhere a human currently works.
 
-**Opposite approach from other labs:**
+Opposite approach from other labs:
 | Other labs | xAI (Macrohard) |
 |------------|-----------------|
 | Bigger models | Smaller models |
@@ -62,7 +62,7 @@ The small-model decision enables faster iteration: model updates that would take
 
 ### Tesla car computer deployment
 
-**The capital efficiency insight:** Tesla cars have compute that's idle 70-80% of the time.
+The capital efficiency insight: Tesla cars have compute that's idle 70-80% of the time.
 
 | Factor | Details |
 |--------|---------|
@@ -72,17 +72,17 @@ The small-model decision enables faster iteration: model updates that would take
 | Built-in | Power, cooling, networking |
 | Model | Lease time from owners, pay their car lease |
 
-**Implication:** Deploy 1M+ human emulators with purely software implementation — no data center buildout required. Tesla computer is more capital-efficient than AWS/Oracle VMs or buying NVIDIA hardware directly.
+Implication: Deploy 1M+ human emulators with purely software implementation — no data center buildout required. Tesla computer is more capital-efficient than AWS/Oracle VMs or buying NVIDIA hardware directly.
 
 ### Internal deployment
 
-**Virtual employees being tested internally:**
+Virtual employees being tested internally:
 - Appear in org chart
 - Can be asked for help like real employees
 - When someone says "come to my desk" → no one there
 - Engineers initially didn't know they were interacting with AI
 
-**Generalization better than expected:** Tasks not in training data performed flawlessly.
+Generalization better than expected: Tasks not in training data performed flawlessly.
 
 ### Macrohard leadership churn (Feb-Mar 2026)
 
@@ -100,9 +100,9 @@ Contradicts Musk's Sep 2024 statement that Tesla had "no need to license anythin
 
 Macrohard team operating in war room mode for 4+ months (as of Jan 2026). Originally in dedicated war room, now in converted gym space. Continuous push.
 
-**Value per commit:** $2.5M estimated (tied to revenue targets and timeline). Team doing 5+ commits/day.
+Value per commit: $2.5M estimated (tied to revenue targets and timeline). Team doing 5+ commits/day.
 
-**Business model:**
+Business model:
 - Licensable AI frameworks
 - Like Microsoft Windows licensing
 - Competing with Azure, AWS, GCP
@@ -112,40 +112,40 @@ Macrohard team operating in war room mode for 4+ months (as of Jan 2026). Origin
 
 ## Culture & Operations
 
-**Three layers of management:**
+Three layers of management:
 1. ICs (individual contributors)
 2. Co-founders / managers
 3. [[Elon Musk]]
 
 That's it. No middle management. Everyone an engineer — including sales team.
 
-**Engineer-first culture:**
+Engineer-first culture:
 - ~100 engineers when Grok 3 shipped
 - iOS team: 3 people (for millions of users)
 - Fuzzy team boundaries — anyone can fix anything, show to owner, get merged immediately
 - If you need something fixed in VM infrastructure, you fix it yourself and show the owner
 - No formal team assignments — HR software often wrong about who's on what team
 
-**Decision-making:**
+Decision-making:
 - No one says no to good ideas
 - Response to proposals: either "no that's dumb" or "why isn't it done already?"
 - Implement same day, show results, get answer that day
 - No deliberation, no bureaucracy
 
-**Speed culture:**
+Speed culture:
 - "No due dates. It's always yesterday."
 - Requirements challenged constantly — find the physical/fundamental limit, not artificial blockers
 - Delete something, add back if needed — frequently happens same day
 - Estimated timelines always wrong — look at assumptions, knock them out, get 2x improvement
 
-**Elon meetings:**
+Elon meetings:
 - Feedback at very high level (product direction) OR very low level (compute efficiency, latency)
 - Never middle
 - "How can I help? How can I make this faster?"
 - Makes phone call → software patch next day from vendors
 
-**AI agents for internal work:**
-- Core production APIs being rebuilt by **one person + 20 agents**
+AI agents for internal work:
+- Core production APIs being rebuilt by one person + 20 agents
 - (Context: [[Anthropic]] cut xAI's access to Claude models Jan 2026)
 
 ---
@@ -156,18 +156,18 @@ That's it. No middle management. Everyone an engineer — including sales team.
 - Current: 100k H100s
 - Branded as "Macrohard" on roof
 - One of highest single-site AI compute capacities in US
-- **Build time:** 122 days (0 → 100K GPUs)
+- Build time: 122 days (0 → 100K GPUs)
 
-**Speed secrets:**
+Speed secrets:
 - Land lease structured as "temporary" to fast-track permitting (similar to carnival/event permits)
 - Same-day training runs on new GPU racks (vs weeks at other companies)
 - 80+ mobile generators for power balancing
 - Battery packs for load switching (generators too slow to react to millisecond GPU demands)
 - When municipal load high → seamless switch to generators without interrupting training
 
-**The Cybertruck bet:** Tyler (engineer) bet Elon he could get a training run on new GPUs in 24 hours. He did. He got the Cybertruck.
+The Cybertruck bet: Tyler (engineer) bet Elon he could get a training run on new GPUs in 24 hours. He did. He got the Cybertruck.
 
-**Regulatory controversy (2024-2026):**
+Regulatory controversy (2024-2026):
 - 35 gas turbines installed without permits (classified as "non-road engines")
 - NAACP + environmental groups appealed
 - EPA closed the "non-road engine" loophole (Jan 2026)
@@ -183,10 +183,10 @@ That's it. No middle management. Everyone an engineer — including sales team.
 
 ### Mississippi expansion
 - Third building across state line from Memphis
-- Investment: **$20B+** per Gov. Tate Reeves
+- Investment: $20B+ per Gov. Tate Reeves
 - Brings total capacity to ~2GW
 
-**Musk claim:** "More AI compute than everyone else combined within five years"
+Musk claim: "More AI compute than everyone else combined within five years"
 
 ---
 
@@ -200,30 +200,30 @@ See [[SpaceX]] for full details.
 
 ## Financials (2025)
 
-**Bloomberg reported (Jan 2026):**
+Bloomberg reported (Jan 2026):
 
 | Quarter | Revenue | Gross Profit | EBITDA | Net Loss |
 |---------|---------|--------------|--------|----------|
 | Q1 | $43M | $14M | -$612M | ~$1.0B |
 | Q2 | $59M | $14M | -$861M | — |
 | Q3 | $107M | $63M | -$922M | $1.46B |
-| **Jan-Sep** | **$208M** | **$90M** | **-$2.4B** | — |
+| Jan-Sep | $208M | $90M | -$2.4B | — |
 
-- **Monthly burn rate:** ~$1B/month
-- **Cash burn:** $7.8B in first 9 months of 2025
-- **Full-year burn estimate:** ~$11B (per Bloomberg Intelligence)
-- **Stock-based comp:** ~$160M through September
-- **Revenue target:** $500M for 2025 → tracking ~$280M annualized (will miss)
-- **EBITDA projection:** -$2.2B for full year → already -$2.4B through Sep (exceeded losses)
+- Monthly burn rate: ~$1B/month
+- Cash burn: $7.8B in first 9 months of 2025
+- Full-year burn estimate: ~$11B (per Bloomberg Intelligence)
+- Stock-based comp: ~$160M through September
+- Revenue target: $500M for 2025 → tracking ~$280M annualized (will miss)
+- EBITDA projection: -$2.2B for full year → already -$2.4B through Sep (exceeded losses)
 - Revenue nearly doubled Q2→Q3; gross margin improving
 
-**DC buildout needs:** Told investors at least $18B required — now outdated estimate
+DC buildout needs: Told investors at least $18B required — now outdated estimate
 
 ---
 
 ## X (Twitter) debt burden
 
-**xAI merged with X in 2025 — inheriting significant debt:**
+xAI merged with X in 2025 — inheriting significant debt:
 
 | Metric | Value | Notes |
 |--------|-------|-------|
@@ -231,28 +231,28 @@ See [[SpaceX]] for full details.
 | Interest expense (9M 2025) | ~$1B | Almost half of X revenue |
 | 9M 2025 revenue | ~$2B | Interest = 50% of revenue |
 
-**Regulatory issues:** Grok chatbot "repeatedly used to digitally undress people online and post the images to X" — under intense scrutiny from regulators
+Regulatory issues: Grok chatbot "repeatedly used to digitally undress people online and post the images to X" — under intense scrutiny from regulators
 
 ---
 
 ## $20B off-balance-sheet SPV (Oct 2025)
 
-**Structure:** xAI financing Nvidia GPUs through an SPV — debt stays off xAI's balance sheet.
+Structure: xAI financing Nvidia GPUs through an SPV — debt stays off xAI's balance sheet.
 
 | Component | Party | Role |
 |-----------|-------|------|
-| **Lead equity** | [[Valor Equity Partners]] (Antonio Gracias) | SPV sponsor |
-| **Debt** | [[Apollo]] | Investment-grade lender |
-| **Chips** | [[NVIDIA]] | Equity investor + chip supplier |
-| **Lessee** | xAI | **5-year lease commitment only** |
+| Lead equity | [[Valor Equity Partners]] (Antonio Gracias) | SPV sponsor |
+| Debt | [[Apollo]] | Investment-grade lender |
+| Chips | [[NVIDIA]] | Equity investor + chip supplier |
+| Lessee | xAI | 5-year lease commitment only |
 
-**How it works:**
+How it works:
 1. SPV is a legal entity separate from xAI
 2. SPV buys Nvidia chips with Apollo debt + Valor/Nvidia equity
 3. SPV rents chips exclusively to xAI
-4. **xAI's only commitment: 5-year lease** — nothing else on balance sheet
+4. xAI's only commitment: 5-year lease — nothing else on balance sheet
 
-**Why this matters:**
+Why this matters:
 - xAI has limits on how much secured debt it can borrow
 - SPV structure allows billions in GPU financing without balance sheet impact
 - Model being copied by other AI companies
@@ -270,13 +270,13 @@ See [[AI infrastructure financing]].
 | Series C | Dec 2024 | $6B | $50B | [[Fidelity]], [[BlackRock]], Sequoia |
 | Series D | Sep 2025 | $10B | $200B | — |
 | Debt | Oct 2025 | $12.5B | — | [[Morgan Stanley]] arranged |
-| **Series E** | **Jan 2026** | **$20B** | **$230B** | Exceeded $15B target. Includes $3B from [[HUMAIN]] (Saudi [[PIF]]) |
+| Series E | Jan 2026 | $20B | $230B | Exceeded $15B target. Includes $3B from [[HUMAIN]] (Saudi [[PIF]]) |
 
-**Total raised:** ~$42B+ equity + debt
+Total raised: ~$42B+ equity + debt
 
-**Valuation trajectory:** $24B → $50B → $200B → **$230B** → **~$250B** (SpaceX merger implied)
+Valuation trajectory: $24B → $50B → $200B → $230B → ~$250B (SpaceX merger implied)
 
-**Note:** X Corp investors received 25% of xAI (announced Nov 2023).
+Note: X Corp investors received 25% of xAI (announced Nov 2023).
 
 ---
 
@@ -284,23 +284,23 @@ See [[AI infrastructure financing]].
 
 | Investor | Type | Rounds |
 |----------|------|--------|
-| **Elon Musk** | Founder | All |
-| **[[Valor Equity Partners]]** | Lead | Series B, E |
-| **[[Sequoia Capital]]** | VC | Series B, C |
-| **[[a16z]]** | VC | Series B |
-| **[[Fidelity]]** | Asset manager | Series C, E |
-| **[[NVIDIA]]** | Strategic | Series C, E |
-| **[[Cisco]]** | Strategic | Series E |
-| **[[BlackRock]]** | Asset manager | Series C |
-| **Qatar Investment Authority** | Sovereign | Series E |
-| **[[MGX]] (Abu Dhabi)** | Sovereign | Series C, E |
-| **[[Kingdom Holding]]** | Saudi (Prince Alwaleed) | Series B, C |
-| **[[HUMAIN]]** | Saudi ([[PIF]]) | Series E ($3B) — shares converted to SpaceX |
-| **[[Baron Capital]]** | Asset manager | Series E |
-| **[[StepStone Group]]** | PE | Series E |
-| **[[AMD]]** | Strategic | Series C |
+| Elon Musk | Founder | All |
+| [[Valor Equity Partners]] | Lead | Series B, E |
+| [[Sequoia Capital]] | VC | Series B, C |
+| [[a16z]] | VC | Series B |
+| [[Fidelity]] | Asset manager | Series C, E |
+| [[NVIDIA]] | Strategic | Series C, E |
+| [[Cisco]] | Strategic | Series E |
+| [[BlackRock]] | Asset manager | Series C |
+| Qatar Investment Authority | Sovereign | Series E |
+| [[MGX]] (Abu Dhabi) | Sovereign | Series C, E |
+| [[Kingdom Holding]] | Saudi (Prince Alwaleed) | Series B, C |
+| [[HUMAIN]] | Saudi ([[PIF]]) | Series E ($3B) — shares converted to SpaceX |
+| [[Baron Capital]] | Asset manager | Series E |
+| [[StepStone Group]] | PE | Series E |
+| [[AMD]] | Strategic | Series C |
 
-**35 total investors.** Heavy sovereign wealth (Qatar, UAE, Saudi) + strategic chip suppliers (NVIDIA, [[AMD]], [[Cisco]]).
+35 total investors. Heavy sovereign wealth (Qatar, UAE, Saudi) + strategic chip suppliers (NVIDIA, [[AMD]], [[Cisco]]).
 
 ---
 
@@ -329,40 +329,40 @@ Of 11 original co-founders (Mar 2023), only [[Manuel Kroiss]] ("Makro") and [[Ro
 | [[Zihang Dai]] | ~Mar 12, 2026 | Most senior technical staff. Had publicly acknowledged xAI was behind on coding |
 | [[Guodong Zhang]] | Mar 13, 2026 | Ran Grok pre-training. Blamed for coding product issues, relieved of primary duties by Musk |
 
-**Other departures:**
+Other departures:
 
-**Sulaiman Ghori** — Macrohard engineer (Mar 2025 - Jan 2026). Left Jan 20, 2026 — days after appearing on *Relentless* podcast where he described xAI culture, Macrohard project, and regulatory shortcuts. Neither xAI nor Ghori commented on circumstances.
+Sulaiman Ghori — Macrohard engineer (Mar 2025 - Jan 2026). Left Jan 20, 2026 — days after appearing on *Relentless* podcast where he described xAI culture, Macrohard project, and regulatory shortcuts. Neither xAI nor Ghori commented on circumstances.
 
-**[[Toby Pohlen]]** — Former [[DeepMind]] researcher. Put in charge of Macrohard project by Musk (~late Feb 2026). Left 16 days later.
+[[Toby Pohlen]] — Former [[DeepMind]] researcher. Put in charge of Macrohard project by Musk (~late Feb 2026). Left 16 days later.
 
 ---
 
 ## SpaceX acquisition (Feb 2, 2026)
 
-**xAI is now a SpaceX subsidiary:**
+xAI is now a SpaceX subsidiary:
 
 | Metric | Value |
 |--------|-------|
-| Combined valuation | **$1.25T** |
+| Combined valuation | $1.25T |
 | xAI implied value | ~$250B (up from $230B) |
 | Share price | $526.59/share |
 | IPO timing | Mid-2026 |
 
-**Why merger happened:**
+Why merger happened:
 - xAI burning ~$1B/month with minimal revenue
 - $230B valuation = premium to [[Anthropic]] despite lower revenue
 - Difficult to raise more independently
 - SpaceX's ~$8B 2025 profit can fund AI infrastructure buildout
 
-**Tesla excluded:** Tesla's $2B xAI investment converted to SpaceX subsidiary position — raising fiduciary concerns.
+Tesla excluded: Tesla's $2B xAI investment converted to SpaceX subsidiary position — raising fiduciary concerns.
 
-**Strategic vision:** Orbital data centers. SpaceX filed for 1 million satellite authorization (Jan 30, 2026). xAI = anchor customer for space-based AI compute.
+Strategic vision: Orbital data centers. SpaceX filed for 1 million satellite authorization (Jan 30, 2026). xAI = anchor customer for space-based AI compute.
 
-**Musk quote:** "Within 2 to 3 years, the lowest cost to generate AI compute will be in space."
+Musk quote: "Within 2 to 3 years, the lowest cost to generate AI compute will be in space."
 
 ### Lunar factory & MassDriver (Feb 10, 2026)
 
-At an xAI all-hands meeting, Musk told employees the company should build a factory on the Moon to manufacture AI satellites, and use a massive electromagnetic catapult (mass driver) dubbed **"MassDriver"** to launch them into orbit.
+At an xAI all-hands meeting, Musk told employees the company should build a factory on the Moon to manufacture AI satellites, and use a massive electromagnetic catapult (mass driver) dubbed "MassDriver" to launch them into orbit.
 
 | Element | Detail |
 |---------|--------|
@@ -372,7 +372,7 @@ At an xAI all-hands meeting, Musk told employees the company should build a fact
 | Moon city | Self-sustaining city on Moon in <10 years |
 | Mars | Pushed to 20+ years (was previously 5-7 year timeline) |
 
-**Context:** This represents Musk's Mars-to-Moon pivot. He spent years denigrating lunar missions as a "distraction" from Mars — now the Moon is "faster" for securing civilization. SpaceX filed for 1M satellite authorization (Jan 30, 2026). The "sentient sun" concept = vast constellation of AI satellites forming an orbital intelligence network.
+Context: This represents Musk's Mars-to-Moon pivot. He spent years denigrating lunar missions as a "distraction" from Mars — now the Moon is "faster" for securing civilization. SpaceX filed for 1M satellite authorization (Jan 30, 2026). The "sentient sun" concept = vast constellation of AI satellites forming an orbital intelligence network.
 
 See [[Lunar Mass Driver]] for full concept analysis. See [[SpaceX xAI merger]] for merger details.
 
@@ -384,7 +384,7 @@ See [[Lunar Mass Driver]] for full concept analysis. See [[SpaceX xAI merger]] f
 
 xAI's coding product has failed to gain traction against [[Anthropic]]'s [[Claude Code]] and [[OpenAI]]'s Codex. Musk identified training data quality as the key issue (FT, Mar 14 2026). [[Zihang Dai]], the most senior technical staff member, had publicly acknowledged xAI was behind on coding before departing. [[Guodong Zhang]], who ran Grok pre-training, was blamed for the data quality problems and relieved of duties.
 
-**Cursor poach (Mar 2026):** xAI hired [[Andrew Milich]] and [[Jason Ginsberg]] from [[Cursor]] to improve Grok Code Fast. Musk welcomed them on X, adding: "Orbital space centres and mass drivers on the Moon will be incredible."
+Cursor poach (Mar 2026): xAI hired [[Andrew Milich]] and [[Jason Ginsberg]] from [[Cursor]] to improve Grok Code Fast. Musk welcomed them on X, adding: "Orbital space centres and mass drivers on the Moon will be incredible."
 
 ---
 
@@ -410,23 +410,41 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 
 ---
 
+## Sovereign AI stack framing (Apr 9, 2026)
+
+[[Deepwater Asset Management]] ([[Gene Munster]] + [[Doug Clinton]]) named xAI as the model and data layer of SpaceX's broader sovereign AI stack — the corporate-level framework where a single company owns energy, chips, models, data, distribution, and physical AI without renting any layer from a third party. In Deepwater's read, xAI is the piece that turned SpaceX from a launch-plus-satellite business into a full-stack AI company the moment the February 2026 acquisition closed. [[Grok]] becomes the model, [[X]] becomes the real-time data layer (with an increasing amount of scientific content flowing through it), and [[Colossus]] plus future orbital compute becomes the execution venue.
+
+Deepwater specifically contrasted xAI's chip dependency with the rest of the stack — xAI today is heavily reliant on [[Nvidia]] just like everyone else, which is the hole that [[TERAFAB]] is meant to close. Until Terafab produces, xAI sits on the same [[TSMC]]-via-Nvidia supply chain as [[OpenAI]], [[Meta]], [[Anthropic]], and the rest of the tier-one model labs. The sovereignty claim is forward-looking — valid only after Terafab starts fabbing — but the fact that the capability is being built internally is what distinguishes the sovereign AI thesis from a standard hyperscaler bull case.
+
+On Grok's positioning, Clinton's "truth-seeking model" framing is worth writing down directly because it is an explicit product strategy rather than a retrofit: *all AI models at some level will be injected with some of the biases of the creator. The question is whether Grok will have the least bias of all the models, and whether the least-biased model is more valuable — and the logical answer is yes when you're getting into certain things that might touch on science, physics, math, where social constructs are irrelevant in the context of nature.* The bet is that Grok is positioned as the scientific / physics / math truth-seeking model specifically because human social and political biases do not govern those domains. See [[Grok]] for the full product-level framing.
+
+See [[Sovereign AI stack]] for the corporate framework and [[SpaceX IPO 2026]] for the valuation-layer implication.
+
+---
+
+## Terafab foundry resolution (Apr 7, 2026)
+
+[[Intel]] joined [[TERAFAB]] as foundry partner (18A node), resolving the open question of who fabricates the D3 orbital and datacenter chips. Intel's packaging ([[EMIB]], [[Foveros]]) also addresses the advanced packaging bottleneck. The Samsung anchor customer scenario (where Musk's combined demand backstops the Taylor fab) may still play out for memory or secondary nodes, but the leading-edge logic path now runs through Intel.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Status | **SpaceX subsidiary** (acquired Feb 2026) |
+| Status | SpaceX subsidiary (acquired Feb 2026) |
 | Founder | Elon Musk |
 | Product | Grok (LLM), Macrohard |
-| Implied valuation | **~$250B** (in SpaceX merger) |
-| Total raised | **~$40B** (equity + debt) |
+| Implied valuation | ~$250B (in SpaceX merger) |
+| Total raised | ~$40B (equity + debt) |
 | 2025 revenue (Jan-Sep) | $208M |
 | 2025 EBITDA (Jan-Sep) | -$2.4B |
-| **Monthly burn** | **~$1B** |
+| Monthly burn | ~$1B |
 | Current GPUs | [[NVIDIA]] H100/Blackwell |
 | [[Target]] capacity | 2GW + orbital |
 | X debt load | ~$12B (inherited from X acquisition) |
 | xAI new debt | ~$5B (Morgan Stanley, incl. $3B HY bonds at 12.5%) |
-| **Combined debt** | **$17.5B** |
+| Combined debt | $17.5B |
 
 *Updated 2026-03-14*
 
@@ -434,7 +452,7 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 
 ## $17.5B debt repayment plan (Mar 2, 2026)
 
-Bloomberg (via Morgan Stanley notifications to lenders): X and xAI plan to repay **$17.5B in debt in full.**
+Bloomberg (via Morgan Stanley notifications to lenders): X and xAI plan to repay $17.5B in debt in full.
 
 | Component | Amount | Detail |
 |-----------|--------|--------|
@@ -442,11 +460,11 @@ Bloomberg (via Morgan Stanley notifications to lenders): X and xAI plan to repay
 | xAI new debt | ~$5B | Morgan Stanley-led package |
 | — of which HY bonds | $3B | 12.5% coupon, sold at par, now trading at ~$1.17/dollar |
 
-**How:** Source "yet to be determined" but xAI raised **$20B Series E** (Jan 2026), providing ample liquidity. HY bonds will be redeemed early at ~17 cent premium.
+How: Source "yet to be determined" but xAI raised $20B Series E (Jan 2026), providing ample liquidity. HY bonds will be redeemed early at ~17 cent premium.
 
-**Why now:** Pre-IPO balance sheet cleanup. [[SpaceX]] IPO targeting mid-2026 — clean debt profile improves the $1.75T valuation narrative.
+Why now: Pre-IPO balance sheet cleanup. [[SpaceX]] IPO targeting mid-2026 — clean debt profile improves the $1.75T valuation narrative.
 
-**Revenue sources (consolidated xAI + X):**
+Revenue sources (consolidated xAI + X):
 
 | Stream | Scale |
 |--------|-------|
@@ -464,11 +482,11 @@ Bloomberg (via Morgan Stanley notifications to lenders): X and xAI plan to repay
 
 | Commitment | Detail |
 |-----------|--------|
-| Power per DC | **1.2 GW** as primary power source — same commitment for every additional data center |
+| Power per DC | 1.2 GW as primary power source — same commitment for every additional data center |
 | Megapack expansion | Expanding what is already the largest global megapack installation |
 | Grid backup | Sufficient backup power for the city of Memphis + town of South Haven, MS |
 | Grid infrastructure | Building new substations and electrical infrastructure |
-| Water recycling | ~**4.7 billion gallons/year** protected in Memphis aquifer |
+| Water recycling | ~4.7 billion gallons/year protected in Memphis aquifer |
 | Employment | Thousands of workers from Memphis area (TN + MS) |
 | Orbital data centers | Designing space-based DCs powered by solar — would free terrestrial plants for community use |
 
@@ -478,11 +496,11 @@ Shotwell: "I've been in the space industry for nearly 40 years... I have never s
 
 ## For theses
 
-**[[AI capex arms race]]**: Poster child of brutal AI economics (~$1B/mo burn)
-**[[Short Tesla]]**: xAI capital drain on Tesla cash
-**[[Short TSMC long Korea]]**: Musk as Samsung anchor = bullish Korea
-**[[AI hyperscalers]]**: Emerging tier 2 hyperscaler
-**[[Long TSMC]]**: Current GPUs = TSMC (via NVIDIA)
+[[AI capex arms race]]: Poster child of brutal AI economics (~$1B/mo burn)
+[[Short Tesla]]: xAI capital drain on Tesla cash
+[[Short TSMC long Korea]]: Musk as Samsung anchor = bullish Korea
+[[AI hyperscalers]]: Emerging tier 2 hyperscaler
+[[Long TSMC]]: Current GPUs = TSMC (via NVIDIA)
 
 ---
 
@@ -496,7 +514,7 @@ Shotwell: "I've been in the space industry for nearly 40 years... I have never s
 
 ### People/Partners
 - [[Elon Musk]] — founder and controller
-- [[SpaceX]] — **parent company** (acquired xAI Feb 2026)
+- [[SpaceX]] — parent company (acquired xAI Feb 2026)
 - [[Greg Yang]] — co-founder (departed Jan 2026), Tensor Programs, recruiting
 - [[Igor Babuschkin]] — co-founder (departed Aug 2025), built Colossus, led Grok dev
 - [[Tesla]] — Musk connection (Samsung anchor potential), car computer deployment
@@ -520,6 +538,8 @@ Shotwell: "I've been in the space industry for nearly 40 years... I have never s
 - [[TVA]] — power source (Colossus location)
 - [[Power constraints]] — context (2GW target)
 - [[AI infrastructure financing]] — $20B SPV structure
+- [[Sovereign AI stack]] — Deepwater framework: xAI is the model/data layer of SpaceX's full stack
+- [[Deepwater Asset Management]] — source of the sovereign AI framing (Gene Munster + Doug Clinton, Apr 9, 2026)
 
 ---
 

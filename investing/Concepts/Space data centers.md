@@ -184,6 +184,8 @@ High orbits needed to avoid congestion but add significant delay.
 - [[Google]] — Project Suncatcher
 - [[AI hyperscalers]] — potential customers
 - [[GPU deployment bottleneck]] — related constraint
+- [[Sovereign AI stack]] — Deepwater framework; orbital compute sits as optionality inside the stack
+- [[Deepwater Asset Management]] — possibility-vs-profitability framing
 
 ---
 
@@ -239,4 +241,22 @@ Even if power costs double on Earth, it adds ~$0.10/hr to GPU cost ($1.40 → $1
 
 ---
 
-*Created 2026-01-15 | Updated 2026-03-16*
+## Deepwater framing: optionality, not load-bearing (Apr 9, 2026)
+
+[[Deepwater Asset Management]] ([[Gene Munster]] + [[Doug Clinton]]) addressed the orbital data center debate head-on in their Pressure Points episode on the SpaceX sovereign AI thesis, with a deliberately disciplined framing that is worth capturing as its own perspective because it sits between the SpaceX bull case and the [[SemiAnalysis]] skepticism. Their read: orbital data centers are optionality inside the SpaceX thesis, not load-bearing. The sovereign AI stack works even if no orbital compute ever ships at scale, because the terrestrial pieces — [[Colossus]] gas turbines, [[TERAFAB]] chips, [[Starlink]] distribution, [[Grok]] models — are enough to clear the multiple on their own. Orbital is upside, not underwriting.
+
+Doug Clinton's two-question framework is the cleanest version of the decision tree:
+
+> Is it possible, and is it profitable. If it is possible, Elon will figure it out — that's a first-principles bet on execution. If it is profitable, they will deploy at scale. If it's not profitable, they won't. Those are the two questions, and they need to be answered in that order.
+
+On possibility, both Munster and Clinton expect at least one functional orbital data center — not at scale, proof-of-concept only — within five years. Clinton specifically carved this out: "something that has some functionality to it," not just an attempted launch. Munster was even more bullish on the five-year window than Clinton. On profitability, they were explicit that no one has the answer today because no one has ever built one, so the unit economics (capacity per satellite, deployment cost, repair logistics, networking overhead) are all forward-looking assumptions. Deepwater treats this uncertainty as a feature, not a bug — it is what lets SpaceX keep option value on space compute without having to commit to it.
+
+The "betting with Elon" argument runs underneath. Deepwater's framing: look at the 20-year track record — electrification and autonomous vehicles, orbital-class reusable rockets (everyone said impossible), and now Starship. Each of those was dismissed as fantasy before it shipped. That history matters because the orbital data center debate keeps looping back to "is this a serious program or a side quest," and Deepwater's answer is that Elon's side quests have a habit of becoming category-defining businesses. Betting against the execution-possibility side of the framework has a poor hit rate.
+
+This sits between the [[SpaceX]] bull case (100 GW orbital compute driving the 2040 revenue model) and the [[SemiAnalysis]] pushback (not this decade; chip scarcity, networking, repairs, cooling all make it impractical). Deepwater's position doesn't need to resolve that debate to underwrite SpaceX — the thesis holds either way, and orbital compute is the tail scenario that the base case treats as free optionality. See [[Sovereign AI stack]] for the broader framework.
+
+*Source: Deepwater Asset Management, "Pressure Points: SpaceX IPO & Sovereign AI" (Apr 9, 2026), https://youtu.be/ndPXc5s1ov8*
+
+---
+
+*Created 2026-01-15 | Updated 2026-03-16, 2026-04-09 (Deepwater framing)*
