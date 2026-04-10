@@ -96,8 +96,18 @@ See [[Physical Oil Trading]] for detailed loading operations, cargo sizes, and V
 
 ---
 
+## Retail exposure — BWET ETF
+
+The [[BWET]] ETF (Breakwave Tanker Shipping ETF, sub-advised by [[Breakwave Advisors]]) is the only US-listed retail instrument offering direct VLCC freight rate exposure, holding ~90% TD3C and ~10% TD20 FFAs. During the [[2026 Strait of Hormuz crisis]], BWET rose 836% YTD through April 9 ($18.73 → $175.29) as TD3C hit $423,736/day, becoming the best-performing US ETF of 2026. The fund's mechanics — and the Baltic Exchange's continued publication of TD3C assessments during the Hormuz closure — raised the question of whether the benchmark was tracking physical reality. See [[Imaginary freight rate]].
+
+---
+
 ## Related
 
+- [[BWET]] — retail VLCC freight futures ETF
+- [[Breakwave Advisors]] — sub-advisor of BWET
+- [[Baltic Exchange]] — TD3C index publisher
+- [[Imaginary freight rate]] — methodology during Hormuz closure
 - [[Physical Oil Trading]] — VLCC loading operations, freight economics, paper-physical disconnect
 - [[Global oil trade flows]] — tanker class table, route economics, chokepoints
 - [[Strait of Hormuz]] — 20M bbl/day chokepoint, 2026 closure
@@ -112,4 +122,4 @@ See [[Physical Oil Trading]] for detailed loading operations, cargo sizes, and V
 - [[Baltic Exchange]] — publishes TD3C and other rate indices
 - [[Fuel oil]] — VLCC bunker fuel, IMO 2020 scrubber economics
 
-*Created 2026-04-08*
+*Created 2026-04-08, updated 2026-04-09*

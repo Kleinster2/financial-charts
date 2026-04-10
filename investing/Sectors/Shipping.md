@@ -130,8 +130,21 @@ Post-resolution congestion risk: even if the strait reopens in May/June, ships a
 
 ---
 
+## Freight ETFs and imaginary rates (Mar-Apr 2026)
+
+The [[2026 Strait of Hormuz crisis]] produced the most extreme freight-ETF trade in history. [[BWET]] — the only retail-accessible crude tanker ETF, sub-advised by [[Breakwave Advisors]] — rose 836% YTD through April 9, 2026 ($18.73 → $175.29), making it the best-performing US-listed ETF of 2026. It holds near-dated [[Baltic Exchange]] TD3C (Middle East Gulf → China [[VLCC]]) and TD20 FFAs. Its sibling [[BDRY]] drew attention as the historical precedent — dry bulk ETF that rose ~390% in 2021 then gave it all back by end-2022.
+
+The twist: TD3C loads at [[Ras Tanura]] *inside* the [[Strait of Hormuz]], and during much of March-April 2026 the route was effectively closed. Baltic panellists kept publishing assessments based on hypothetical pricing — what an owner *would* charge *if* willing to transit. Lloyd's List (March 2026) called these [[Imaginary freight rate|imaginary rates]]. The Baltic launched emergency alternate **TD34** ([[Gulf of Oman]] → China) on trial but did not suspend TD3C. [[Frontline]] CEO [[Lars Barstad]] flagged the structural point on March 4: benchmark indices "have much wider market implications than they used to" given their role settling FFAs, ETFs, and charter contracts. See [[Imaginary freight rate]] for the full methodology debate and investment implications.
+
+---
+
 ## Related
 
+- [[BWET]] — crude tanker shipping ETF
+- [[BDRY]] — dry bulk shipping ETF
+- [[Breakwave Advisors]] — sub-advisor of BWET/BDRY
+- [[Imaginary freight rate]] — Baltic methodology during chokepoint closure
+- [[Baltic Exchange]] — freight index publisher
 - [[SIPG]] — world's largest port operator
 - [[ZPMC]] — port crane monopoly
 - [[Yangshan Deep Water Port]] — world's busiest port
@@ -146,4 +159,4 @@ Post-resolution congestion risk: even if the strait reopens in May/June, ships a
 - [[Wallenius Wilhelmsen]] — world's largest car carrier fleet
 - [[World Shipping Council]] — industry body, cargo safety
 
-*Updated 2026-03-17*
+*Updated 2026-04-09*
