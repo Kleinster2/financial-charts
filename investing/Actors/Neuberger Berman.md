@@ -60,7 +60,9 @@ Chairman & CEO since ~2008. Former Goldman Sachs partner (14 years). Led Neuberg
 
 ## SpaceX exposure
 
-Neuberger Quality Equity fund (managed by Dan Hanson) holds a concentrated position in [[SpaceX]]. Hanson owns only 35 stocks with ~10% annual turnover. The fund ranks in the top 10% of Morningstar's large blend category over 3 years.
+Neuberger Quality Equity Fund (managed by Daniel Hanson) holds a concentrated position in [[SpaceX]]. Hanson owns only 35 stocks with ~10% annual turnover. The fund ranks in the top 10% of Morningstar's large blend category over 3 years.
+
+Reuters (Apr 8, 2026) confirmed the position size: **close to 10% of the fund's $2.6B AUM** — a ~$260M private-name allocation, unusual for a long-only mutual fund nominally constrained to high-quality public businesses. Hanson's framing in the same piece: *"This is a set of proven juggernaut, mega-cap businesses. The launch business and the Starlink business are proven, here and now. xAI is about optionality."* The Quality Equity sponsor view is effectively that [[Starlink]] alone clears the quality bar; xAI and Starship are valued as call options on top.
 
 Also offers Next Generation Space Economy Fund (UCITS) investing in companies benefiting from the space economy.
 
@@ -78,7 +80,9 @@ McKinsey agreed to transfer MIO Partners (its in-house investment manager, ~$26B
 
 - [[Destiny Tech100]] -- competes for SpaceX retail access (NB offers at NAV)
 - [[SpaceX]] -- key holding in Quality Equity fund
+- [[SpaceX IPO 2026]] -- Reuters Apr 8 valuation analysis citing Hanson position
 - [[Fidelity]] -- peer offering private market exposure
 - [[Baron Capital]] -- peer offering private market exposure
 - [[Lehman Brothers]] -- former parent (2003-2008)
 - [[George Walker]] -- CEO
+- [[Daniel Hanson]] -- Quality Equity Fund PM

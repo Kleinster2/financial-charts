@@ -135,6 +135,42 @@ Combined: $150B+ in new equity hitting public markets in a year where oil is at 
 
 ---
 
+## Reuters valuation math (Apr 8, 2026)
+
+Reuters published a benchmarking exercise on April 8 setting the $1.75T target against listed comparables. The piece took SpaceX's 2025 results as reported in their January exclusive (~$8B EBITDA, $15-16B revenue), then "aggressively" doubled both for 2026 to make the multiples err on the low side. Even with that cushion, the math is extreme:
+
+| Metric | SpaceX at $1.75T | [[Tesla]] | [[Palantir]] |
+|--------|------------------|-----------|--------------|
+| Price / forward revenue | ~56x | ~12x | ~43x |
+| Price / forward EBITDA | ~109x | ~79x | ~75x |
+
+For context, SpaceX's revenue growth has run from 51% (2024) to 100% (2021) in recent years, so the assumed doubling is at the top end of the historical range — not a stretch but not conservative either. At 56x revenue, SpaceX would clear Tesla by ~4.5x and Palantir by ~1.3x on the sales multiple. At 109x EBITDA, it would be the most expensive megacap ever brought to market on a profitability basis.
+
+The note's framing is structural: Starlink is the only thing in the SpaceX portfolio that justifies the multiple on current cash flows. Everything else — [[Starship]], the data-center satellite plan, [[xAI]] — is being valued on a thesis, not a number. Shay Boloor (Futurum Equities): *"Starlink is the only reason this valuation is defensible. Its subscriber base is just growing at crazy levels."* Samuel Kerr (Mergermarket): *"It has almost no comparable listed peer to benchmark a valuation off of and would likely come at a significant premium to anything else that is listed in the space tech sector, given its size and market leadership."*
+
+### The Neuberger position
+
+Daniel Hanson, portfolio manager at Neuberger Quality Equity Fund, told Reuters his fund holds close to 10% of its $2.6B AUM in SpaceX — a ~$260M position in a single private name, for a fund whose name explicitly references quality. His framing: *"This is a set of proven juggernaut, mega-cap businesses. The launch business and the Starlink business are proven, here and now. xAI is about optionality."* The Neuberger position is worth flagging because Quality Equity is not a venture or hedge fund — it is a long-only mutual fund nominally constrained to high-quality businesses, and a 10% private-name allocation is unusual enough to signal the sponsor view that Starlink alone clears the quality bar. (See [[Neuberger Berman]] for the parent firm; they hold SpaceX stock at the parent level too.)
+
+### Secondary market mark vs IPO target
+
+The February [[SpaceX xAI merger|xAI merger]] valued the combined entity at $1.25T ($1T SpaceX + $250B xAI). As of early April 2026, the combined entity is trading on [[Nasdaq Private Market]] at $1.54T, per Greg Martin (co-founder, [[Rainmaker Securities]]): *"SpaceX is consistently one of the most actively traded names on our platform... Demand has also almost always outpaced supply, and that's been true even during periods where broader secondary market activity has been more muted."*
+
+The gap between secondary mark and IPO target has tightened sharply through 2026:
+
+| Reference point | Date | Implied SpaceX value |
+|-----------------|------|----------------------|
+| xAI merger valuation | Feb 2026 | $1.0T (standalone) / $1.25T combined |
+| Nasdaq Private Market secondary | Early Apr 2026 | $1.54T combined |
+| IPO target | Jun 2026 | $1.75T combined |
+| Reuters benchmarking analysis | Apr 8, 2026 | Implies 56x P/S, 109x P/EBITDA |
+
+The ~13.6% premium between secondary ($1.54T) and IPO target ($1.75T) is the slack the syndicate is asking institutional investors to underwrite. Given the scarcity premium ("there's nothing else like it in the private markets today"), the gap is plausibly closeable on day one, but it leaves no margin for any post-IPO disappointment on Starlink subscriber growth, Starship cadence, or xAI burn rate.
+
+*Source: Reuters (Apr 8, 2026), "How the math works on a $1.75 trillion SpaceX valuation"*
+
+---
+
 ## PitchBook valuation analysis (Mar 3, 2026)
 
 Senior analyst Franco Granda published "When Venus and Jupiter Align" — SOTP places fair value between $1.1T and $1.7T, putting $1.75T at the top of range but within it.
@@ -196,6 +232,11 @@ Ark Invest sees $2.5T+ by 2030 if Starlink and space AI scale.
 - [[Anthropic]] — competing mega-IPO ($60B, Q4 2026)
 - [[OpenAI]] — competing mega-IPO (late 2026-2027)
 - [[Baron Capital]] — largest outside investor (~$10B)
+- [[Neuberger Berman]] — Quality Equity Fund holds ~10% of $2.6B AUM in SpaceX (Hanson)
+- [[Nasdaq Private Market]] — $1.54T current secondary mark on combined entity
+- [[Rainmaker Securities]] — secondary trading platform, Greg Martin commentary
+- [[Tesla]] — valuation comparable (12x revenue / 79x EBITDA)
+- [[Palantir]] — valuation comparable (43x revenue / 75x EBITDA)
 - [[Space data centers]] — orbital compute thesis driving IPO narrative
 - [[Lunar Mass Driver]] — Moon-first pivot, near-term use of proceeds story
 
@@ -204,4 +245,4 @@ Ark Invest sees $2.5T+ by 2030 if Starlink and space AI scale.
 
 ---
 
-*Created 2026-03-29. Split from [[SpaceX]] actor note.*
+*Created 2026-03-29, updated 2026-04-09 with Reuters valuation math. Split from [[SpaceX]] actor note.*
