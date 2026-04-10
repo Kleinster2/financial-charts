@@ -140,6 +140,7 @@ Unlike other European markets where dual-class structures have faced regulatory 
 - [[Proprietary capital model]] — parent concept; spheres are the Nordic variant
 - [[3i Group]] — European peer (pure financial holdco subtype)
 - [[CK Hutchison]] — [[Hong Kong]] equivalent (family-controlled conglomerate)
-- [[Samsung|Samsung Group]] — Korean chaebol equivalent (pyramid control structure)
+- [[Chaebol]] — Korean equivalent (pyramid cross-shareholdings, not dual-class shares)
+- [[Samsung|Samsung Group]] — largest chaebol
 - [[Dual-class shares]] — the legal mechanism enabling disproportionate control
 - [[Berkshire Hathaway]] — insurance-float variant of proprietary capital; no NAV discount

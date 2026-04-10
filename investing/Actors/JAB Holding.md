@@ -326,6 +326,7 @@ JAB's closest strategic analog is [[3G Capital]] -- both are private, leverage-h
 - [[Illycaffè]] -- Italian coffee competitor
 - [[Nestle]] -- coffee competitor (Nespresso)
 - [[3G Capital]] -- closest strategic peer (leveraged consumer roll-ups)
+- [[Proprietary capital model]] -- JAB as private proprietary capital; own balance sheet, buy-and-hold, insurance pivot
 - [[Alfred Landecker Foundation]] -- Reimann family foundation (EUR250M commitment)
 - [[Peter Harf]] -- founding leader (1981-2025)
 - [[Olivier Goudet]] -- former CEO (2012-2023)

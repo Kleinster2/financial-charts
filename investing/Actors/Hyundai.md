@@ -186,5 +186,7 @@ Bear:
 - [[Solarstic]] — ZERO1NE venture, vehicle-integrated solar
 - [[CES 2026]] — Atlas debut
 - [[Humanoid robotics inflection]] — sector thesis
+- [[Chaebol]] — governance structure; only major chaebol retaining circular ownership
+- [[Lee Jae Myung]] — governance reform president; Hyundai restructuring in scope
 
 *Updated 2026-03-24*

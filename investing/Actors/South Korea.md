@@ -135,10 +135,14 @@ South Korea is simultaneously scrambling to replace lost [[Qatar]]i [[LNG]] ship
 - [[Hyundai]] — Automotive, robotics (Boston Dynamics)
 
 **Concepts:**
+- [[Chaebol]] — family conglomerate governance; Korea discount driver
 - [[HBM]] — High bandwidth memory
 - [[Memory supercycle]] — AI-driven demand
 - [[Semiconductor nationalism]] — Government investment
 - [[Iran conflict semiconductor energy risk]] — LNG shortage impact on Korean fabs
+
+**Policy:**
+- [[Lee Jae Myung]] — president; KOSPI 5,000 via chaebol governance reform
 
 **Peers:**
 - [[Taiwan]] — Foundry rival

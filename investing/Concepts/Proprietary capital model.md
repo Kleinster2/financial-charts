@@ -214,19 +214,17 @@ The Philippine model is distinctive: malls anchor property developments, banks f
 
 ### Korean chaebols
 
-The chaebol holding company is structurally distinct from every other model. Family control is achieved through pyramidal cross-shareholdings that leverage small equity stakes into disproportionate control:
+*Main article: [[Chaebol]]*
 
-| Firm | Ticker | Market cap | Control chain | Controlled empire | NAV discount | Family |
-|------|--------|-----------|---------------|-------------------|--------------|--------|
-| Samsung C&T | 028260 (KRX) | KRW ~49T (~$34B) | Lee Jae-yong (18.9%) → Samsung C&T → Samsung Life (19.3%) → Samsung Electronics (7.6%) | ~$400B+ Samsung Electronics | Control premium (stock +142% 1yr) | Lee family |
-| SK Inc | 034730 (KRX) | KRW ~22T (~$15B) | Chey Tae-won (17.9%) → SK Inc → SK Innovation (55.9%), SK Square (31.5%) → SK Hynix (20.1%) | SK Group | Narrowing (stock +189% 1yr) | Chey family |
-| LG Corp | 003550 (KRX) | KRW ~13T (~$9.4B) | Koo family (45.9%) → LG Corp → LG Electronics (34.3%), LG Chem (34%) → LG Energy Solution | LG Group | ~-30-40% | Koo/Huh families |
+The [[Chaebol]] holding company is structurally distinct from every other model. Family control is achieved through pyramidal cross-shareholdings that leverage small equity stakes into disproportionate control — Samsung's Lee family controls ~$400B with ~5% effective equity. The resulting governance opacity drives the "Korea discount" (30-50%), wider than European holdco discounts (typically 20-40%).
 
-Key structural differences from European holdcos:
-- Control leverage far greater: Samsung's Lee family controls $400B+ with ~5% equity. European families typically hold 20-40% direct stakes.
-- Korean holdcos historically used circular cross-shareholdings (banned for new structures since 2014); European holdcos use clean pyramids or dual-class shares.
-- "Korea discount" (30-50%) exceeds European discounts (typically 20-40%), reflecting governance concerns and geopolitical risk.
-- Korean inheritance tax at 50%+ forces periodic liquidity events — the Lee family paid KRW 12T (~$9B) in inheritance tax, reshaping control structures.
+| Firm | Ticker | Market cap | Control chain | Controlled empire | Family |
+|------|--------|-----------|---------------|-------------------|--------|
+| Samsung C&T | 028260 (KRX) | KRW ~49T (~$34B) | Lee (18.9%) → C&T → Samsung Life (19.3%) → Samsung Electronics (7.6%) | ~$400B+ | Lee |
+| SK Inc | 034730 (KRX) | KRW ~22T (~$15B) | Chey (17.9%) → SK Inc → SK Innovation (55.9%), SK Square (31.5%) → [[SK Hynix]] | $150B+ | Chey |
+| LG Corp | 003550 (KRX) | KRW ~13T (~$9.4B) | Koo (45.9%) → LG Corp → [[LG Electronics]] (34.3%), [[LG Chem]] (34%) → [[LG Energy Solution]] | LG Group | Koo/Huh |
+
+[[Lee Jae Myung]]'s KOSPI 5,000 pledge and the Value-Up program (modeled on [[Japan corporate governance revolution]]) are the current reform catalysts. Korean inheritance tax at 50%+ forces periodic liquidity events — the Lee family paid KRW 12T (~$9B), reshaping control structures.
 
 ### Latin American holding companies
 
@@ -305,6 +303,25 @@ Transparency and portfolio quality determine the discount, not the structure its
 
 ---
 
+## Private proprietary capital
+
+The listed holdcos above have public-market analogs in the private sphere — family-owned vehicles deploying their own balance sheets without third-party fund structures or public market pricing. These firms share the structural advantages (patience, no redemptions, permanent capital) without the NAV discount problem (no market price to discount). The trade-off is opacity and illiquidity for the family.
+
+| Firm | Family | Scale | Model | Notes |
+|------|--------|-------|-------|-------|
+| [[JAB Holding]] | [[Reimann]] (~95% via Agnaten SE) | $52B portfolio | Consumer roll-up → insurance pivot | Partners must co-invest personal capital; pivoting to [[Insurance float]] via [[Prosperity Life Group]] ($30B AUM). Closest private analog to [[Apollo]]'s Athene strategy. |
+| [[Mars]] | Mars family (100%) | ~$50B revenue | Pure operator | Petcare + confectionery; never taken outside capital; no leverage philosophy |
+| Koch Industries | Koch family | ~$125B revenue | Industrial conglomerate | Energy, chemicals, Molex, Georgia-Pacific; libertarian governance; no outside investors |
+| Cargill | Cargill/MacMillan families | ~$160B revenue | Agricultural/commodity trader | World's largest private company; 155 years family-controlled |
+| [[3G Capital]] | Lemann/Sicupira/Telles | Kraft Heinz, AB InBev | Leveraged consumer roll-ups | Closest peer to JAB; Brazilian; zero-based budgeting doctrine |
+| IKEA (Ingka Group) | Kamprad foundations (Stichting INGKA) | ~$50B revenue | Foundation-owned retailer | Dutch foundation structure; no family extraction possible |
+
+[[JAB Holding]]'s evolution is instructive: the Reimann family built a $50B+ coffee empire (2012-2018), then pivoted to insurance — replicating the [[Berkshire Hathaway]] insight that policyholder float is the cheapest form of permanent capital. The co-investment mandate (all managing partners invest personal capital alongside the family) creates alignment that neither public holdcos nor GP/LP firms can match. [[Peter Harf]] and [[Olivier Goudet]] became billionaires through this model.
+
+The private vehicles also illustrate why some families resist listing: a public market price creates a NAV discount problem that doesn't exist in private ownership. The Reimann, Mars, and Koch families capture 100% of compounding without the chronic 20-40% valuation penalty their European listed peers suffer.
+
+---
+
 ## Hybrid models (transitioning)
 
 Some firms are moving between the two models:
@@ -346,6 +363,7 @@ The direction of travel is convergence: holdcos want fee income (recurring, high
 - [[Alternative Managers]] — sector hub
 
 ### Concepts
+- [[Chaebol]] — Korean variant; pyramidal cross-shareholdings, Korea discount, reform trajectory
 - [[Swedish spheres]] — Nordic variant; dual-class shares, family control, cross-shareholdings
 - [[Redemption gate]] — the risk proprietary capital avoids
 - [[Private credit retail liquidity crisis 2026]] — stress test of the GP/LP semi-liquid model

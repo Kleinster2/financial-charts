@@ -67,6 +67,8 @@ Not all diversification destroys value. Key differentiator: decentralized operat
 
 - [[NAV discount]] — related valuation concept for funds and holdcos
 - [[Permanent capital]] — structure that avoids forced selling
+- [[Chaebol]] — Korean conglomerates; Korea discount (30-50%) partly a governance-driven conglomerate discount
+- [[Proprietary capital model]] — European holdcos with chronic NAV discounts
 - [[Alternative asset manager valuation]] — fee multiples affected by conglomerate discount
 - [[Elliott Management]] — activist breakup campaigns
 - [[Pershing Square UMG takeover bid]] — current example

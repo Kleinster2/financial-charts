@@ -35,5 +35,7 @@ When asked about expanding overseas manufacturing, Chey said [[SK Hynix]] will f
 - [[SK Telecom]] — largest subsidiary (telecom)
 - [[SK Hynix]] — DRAM/NAND manufacturer
 - [[South Korea]] — context
+- [[Chaebol]] — governance structure; Chey family pyramid (17.9% → SK Inc → subsidiaries)
+- [[Proprietary capital model]] — SK Inc as pyramidal control vehicle
 
 *Created 2026-03-04*

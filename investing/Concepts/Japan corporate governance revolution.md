@@ -76,3 +76,5 @@ Japan's uniquely interlocking ownership structure — where banks, insurers, and
 - [[Sony]] — entertainment transformation example
 - [[Mireya Solís]] — Brookings analyst tracking reform
 - [[Private credit]] — emerging financing channel
+- [[Chaebol]] — Korea's Value-Up program modeled on Japan's governance revolution
+- [[Lee Jae Myung]] — Korean president applying Japan's playbook to chaebols

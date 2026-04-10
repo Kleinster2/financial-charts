@@ -25,6 +25,8 @@ The investment case for Lee's presidency mirrors the early stages of Japan's "Ab
 
 ## Related
 - [[South Korea]] — country
+- [[Chaebol]] — governance reform target; Korea discount elimination is central policy
 - [[Samsung]] — largest chaebol, key governance reform target
-- [[Mixo Das]] — JPMorgan strategist tracking governance reform impact
 - [[Hyundai]] — chaebol affected by reform agenda
+- [[Mixo Das]] — JPMorgan strategist tracking governance reform impact
+- [[Japan corporate governance revolution]] — model for Korea's Value-Up program
