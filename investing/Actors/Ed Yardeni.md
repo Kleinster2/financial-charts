@@ -98,11 +98,11 @@ The March 29-30 QuickTakes maintain the same dual framing: (1) the oil shock is 
 
 ## April 2, 2026 — Market bottom call
 
-**CNBC Closing Bell (Apr 2):** Called the market bottom at S&P 500 6,316 (Mon Mar 31 / early Apr) — a 9.1% pullback from the Jan 27 record high, short of his expected 10-15% correction. Year-end target maintained at 7,700.
+CNBC Closing Bell (Apr 2): Called the market bottom at S&P 500 6,316 (Mon Mar 31 / early Apr) — a 9.1% pullback from the Jan 27 record high, short of his expected 10-15% correction. Year-end target maintained at 7,700.
 
 Tuesday's rally triggered by reports the US found "an exit ramp" from the Iran war. Consumer spending "surprisingly robust" despite persistent inflation. Initial jobless claims 4-week average at 207,800. Expects oil prices to peak within two months depending on Middle East resolution.
 
-**Thoughtful Money interview (same day):** Raised recession probability 20%→35%. Roaring 2020s still 60% base case. Bond vigilantes concern. Warns of stagflationary "lost decade" if Hormuz stays constricted. US energy independence as strategic buffer vs 1970s.
+Thoughtful Money interview (same day): Raised recession probability 20%→35%. Roaring 2020s still 60% base case. Bond vigilantes concern. Warns of stagflationary "lost decade" if Hormuz stays constricted. US energy independence as strategic buffer vs 1970s.
 
 *Sources: [CNBC Closing Bell, Apr 2](https://www.cnbc.com/video/2026/04/02/top-market-researcher-ed-yardeni-says-the-market-bottom-is-in.html); [Seeking Alpha](https://seekingalpha.com/news/4572401-u-s-markets-bottomed-monday-ed-yardeni); [Yardeni QuickTakes](https://www.yardeniquicktakes.com/stocks-was-that-the-bottom-on-monday/)*
 
@@ -117,6 +117,12 @@ Historical precedent: S&P 500 higher by 31-44% two years after past four major U
 Separately, called tech stocks an "attractive entry point" — Mag 7 forward P/E fell from ~31x to ~22x; IT sector down 13% since October high. Moved to market-weight on tech (from underweight). This is notable given his January "AI fatigue" call — the correction he anticipated has arrived and he's now buying into it.
 
 *Sources: CNBC (Apr 6, 2026); Bloomberg (Apr 6, 2026)*
+
+## April 7-8, 2026 — Ceasefire: recession odds cut
+
+Lowered recession probability from 35% to 20% on the ceasefire. Confirmed his call that the [[S&P 500]] bottomed on Monday (Apr 6). Key caveat: "A two-week pause is not a resolution. Financial markets will remain sensitive to any breakdown in talks." Also: "The US economy was on a resilient growth path heading into the latest oil price shock." Contrarian sentiment indicator still bearish — which he reads as bullish.
+
+*Sources: Yardeni QuickTakes (Apr 7), Benzinga (Apr 8)*
 
 ---
 

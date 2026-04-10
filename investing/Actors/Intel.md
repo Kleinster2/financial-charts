@@ -7,7 +7,7 @@ aliases: [INTC]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | **INTC** |
+| Ticker | INTC |
 
 ![[intc-vs-peers.png]]
 *Intel -20% since 2018 — massive underperformance vs [[Semiconductors|SMH]] (+330%). Lost process leadership to TSMC, AMD took CPU share.*
@@ -81,10 +81,10 @@ This note covers Intel as a company. For the foundry business specifically, see 
 - [[NVIDIA]] dominates AI, Intel's Gaudi struggling
 - Foundry transformation uncertain post-Gelsinger
 - [[CHIPS Act]] beneficiary (~$8B)
-- **NVIDIA partnership (Jan 2026)** — $5B investment + strategic collaboration
-- **US government stake (~10%, Aug 2025)** — Trump administration took strategic position
-- **Manufacturing yields disappointing (Jan 2026)** — can't fill server demand, Q1 guidance missed badly, stock -14% AH
-- **Fab 34 buyback (Apr 1, 2026)** — paying $14.2B to reclaim full ownership of [[Ireland]] fab from [[Apollo]], funded by cash + ~$6.5B new debt. See [[#Fab 34 buyback (Apr 2026)]] below
+- NVIDIA partnership (Jan 2026) — $5B investment + strategic collaboration
+- US government stake (~10%, Aug 2025) — Trump administration took strategic position
+- Manufacturing yields disappointing (Jan 2026) — can't fill server demand, Q1 guidance missed badly, stock -14% AH
+- Fab 34 buyback (Apr 1, 2026) — paying $14.2B to reclaim full ownership of [[Ireland]] fab from [[Apollo]], funded by cash + ~$6.5B new debt. See [[#Fab 34 buyback (Apr 2026)]] below
 
 ---
 
@@ -105,8 +105,8 @@ Part of broader US semiconductor sovereignty push. Government directly backing I
 
 | Project             | Status  |
 | ------------------- | ------- |
-| **Germany fab**     | Shelved |
-| **Poland facility** | Shelved |
+| Germany fab     | Shelved |
+| Poland facility | Shelved |
 
 Financial pressures and foundry transformation challenges led Intel to pause European expansion. Focus shifted to US facilities with CHIPS Act support.
 
@@ -114,21 +114,21 @@ Financial pressures and foundry transformation challenges led Intel to pause Eur
 
 ## NVIDIA partnership (Jan 2026)
 
-**Game-changing deal:**
+Game-changing deal:
 
 | Component | Details |
 |-----------|---------|
-| **Investment** | $5B in Intel stock @ $23.28/share |
-| **Shares** | ~217.4 million |
-| **Status** | FTC approved |
-| **Stock reaction** | INTC +6.7% |
+| Investment | $5B in Intel stock @ $23.28/share |
+| Shares | ~217.4 million |
+| Status | FTC approved |
+| Stock reaction | INTC +6.7% |
 
-**Strategic collaboration:**
+Strategic collaboration:
 - Joint development of custom data center + PC products
 - NVLink integration with Intel architectures
 - Multi-generation partnership
 
-**Why it matters:**
+Why it matters:
 - Capital injection during financial stress
 - Jensen backing Intel turnaround
 - Potential foundry relationship (Intel 18A for NVIDIA?)
@@ -141,39 +141,39 @@ See [[NVIDIA-Intel partnership]] for full analysis.
 
 ## Nvidia/Apple foundry talks (Jan 28, 2026)
 
-**Stock +11% on DigiTimes report that NVIDIA and Apple considering Intel Foundry.**
+Stock +11% on DigiTimes report that NVIDIA and Apple considering Intel Foundry.
 
 | Detail | Value |
 |--------|-------|
-| Stock move | **+11%** to $48.78 |
+| Stock move | +11% to $48.78 |
 | Catalyst | DigiTimes report |
 | NVIDIA | Considering Intel for "Feynman" next-gen GPU |
 | Apple | In discussions for entry-level processor |
 
-**Why it matters:**
+Why it matters:
 - Major validation for [[Intel Foundry Services]] strategy
 - If NVIDIA/Apple use Intel, others follow
 - Potential answer to [[TSMC]] CoWoS capacity constraints
 - EMIB packaging as alternative to CoWoS
 - US domestic manufacturing alignment
 
-**Context:** Comes after NVIDIA's $5B investment (Jan 2026), 18A launch (Jan 27), and government stake. Intel positioning as credible TSMC alternative.
+Context: Comes after NVIDIA's $5B investment (Jan 2026), 18A launch (Jan 27), and government stake. Intel positioning as credible TSMC alternative.
 
-**Analyst reaction:** Tigress Financial raised PT to $66 (from $52), maintained Buy.
+Analyst reaction: Tigress Financial raised PT to $66 (from $52), maintained Buy.
 
 ---
 
 ## Q4 2025 earnings (Jan 23, 2026)
 
-**Beat on revenue, missed badly on guidance.** Stock -14% after hours (to $46.75).
+Beat on revenue, missed badly on guidance. Stock -14% after hours (to $46.75).
 
 | Metric | Q4 actual | Estimate | Q1 guidance | Q1 estimate |
 |--------|-----------|----------|-------------|-------------|
-| Revenue | **$13.7B** (-4.1% YoY) | $13.4B | **$11.7-12.7B** | $12.6B |
-| EPS (adj) | **$0.15** | $0.09 | **Break-even** | $0.08 |
-| Gross margin (adj) | **37.9%** | — | **34.5%** | — |
+| Revenue | $13.7B (-4.1% YoY) | $13.4B | $11.7-12.7B | $12.6B |
+| EPS (adj) | $0.15 | $0.09 | Break-even | $0.08 |
+| Gross margin (adj) | 37.9% | — | 34.5% | — |
 
-**Segment breakdown (Q4):**
+Segment breakdown (Q4):
 
 | Segment | Revenue | vs estimate |
 |---------|---------|-------------|
@@ -181,20 +181,20 @@ See [[NVIDIA-Intel partnership]] for full analysis.
 | Data Center | $4.7B | Beat ($4.4B) |
 | [[Intel Foundry Services]] | $4.5B (+3.8% YoY) | — |
 
-**The problem — manufacturing yields:**
+The problem — manufacturing yields:
 - Demand is "quite strong" but yields too low to fill orders
 - Burned through inventory in Q4 — additional server chip supply not until end of Q1
 - "Our yield and production manufacturing are not up to my standards" — Tan
 - Can't shift production toward servers without hurting PC customers
 - Higher memory prices may weaken laptop demand
 
-**CapEx:** 2026 spend similar to 2025, but new machinery output boost not until 2027.
+CapEx: 2026 spend similar to 2025, but new machinery output boost not until 2027.
 
-**Context:** Stock had surged 84% in 2025 (best SOX performer in Jan). NVIDIA $5B investment, US government ~10% stake, [[SoftBank]] investment — all built Wall Street enthusiasm. Annual revenue $53B vs $78B peak (2021).
+Context: Stock had surged 84% in 2025 (best SOX performer in Jan). NVIDIA $5B investment, US government ~10% stake, [[SoftBank]] investment — all built Wall Street enthusiasm. Annual revenue $53B vs $78B peak (2021).
 
-**Analyst reaction:** Matt Bryson (Wedbush): "There's been a lot of optimism around Intel potentially turning a corner... Hearing that yields are difficult, that's not a great start."
+Analyst reaction: Matt Bryson (Wedbush): "There's been a lot of optimism around Intel potentially turning a corner... Hearing that yields are difficult, that's not a great start."
 
-**CFO Zinsner:** Current margins "by no means acceptable." Supply will increase each quarter in 2026.
+CFO Zinsner: Current margins "by no means acceptable." Supply will increase each quarter in 2026.
 
 *Source: Bloomberg, Jan 23 2026*
 
@@ -249,22 +249,36 @@ The buyback closes the loop on Intel's most significant balance-sheet relief tra
 
 ---
 
+## Terafab announcement (Apr 7, 2026)
+
+Intel announced participation in [[TERAFAB]], [[Elon Musk]]'s $25B joint chip fab between [[Tesla]], [[SpaceX]], and [[xAI]], via an X post: "Intel is proud to join the Terafab project... Our ability to design, fabricate, and package ultra-high-performance chips at scale will help accelerate Terafab's aim to produce 1 TW/year of compute." No formal agreement, SEC filing, or financial commitment was disclosed. [[TrendForce]] noted the collaboration structure "remains unclear."
+
+INTC +4.2% to $52.91 on Apr 7 (announcement). Additional +11.4% to $58.95 on Apr 8 included ceasefire rally (SPY +2.5%). Combined two-day volume 179.7M shares (64% above 3-month average).
+
+Intel's likely contribution: 18A process node and advanced packaging ([[EMIB]], [[Foveros]]). Capacity and facility details (two fabs, 100K→1M wafer starts/month) are from Musk's March 21 announcement, not from Intel's post.
+
+If a formal deal materializes, this is the anchor customer [[Intel Foundry Services]] has been pursuing since the IDM 2.0 strategy. The timing — weeks after [[Lip-Bu Tan]]'s March 4 reversal on offering 18A to external customers, days after Intel fully reacquired Fab 34 from [[Apollo]] — suggests the sequence is deliberate. [[Barclays]] had flagged Intel as the most likely partnership route in March, when Terafab was announced as a self-built project.
+
+*Sources: Intel X post (Apr 7), TrendForce (Apr 8), Electrek (Apr 7), TechCrunch (Apr 7), Bloomberg (Apr 7)*
+
+---
+
 ## Intel 18A launch (Jan 27, 2026)
 
-**TODAY:** 14 Core Ultra Series 3 SKUs available globally across 200+ PC designs.
+TODAY: 14 Core Ultra Series 3 SKUs available globally across 200+ PC designs.
 
 | Spec | Details |
 |------|---------|
-| **Process** | Intel 18A (first chips) |
-| **Top SKU** | 16 CPU cores, 12 Xe-cores, 50 [[NPU]] TOPS |
-| **Multithread** | +60% vs prior gen |
-| **[[Gaming]] (iGPU)** | +77% vs Lunar Lake |
-| **Battery** | Up to 27 hours |
-| **New tier** | Core Ultra X9/X7 — highest integrated Arc graphics |
-| **Platform** | Mobile only (desktop stays on Arrow Lake) |
-| **Edge systems** | Q2 2026 |
+| Process | Intel 18A (first chips) |
+| Top SKU | 16 CPU cores, 12 Xe-cores, 50 [[NPU]] TOPS |
+| Multithread | +60% vs prior gen |
+| [[Gaming]] (iGPU) | +77% vs Lunar Lake |
+| Battery | Up to 27 hours |
+| New tier | Core Ultra X9/X7 — highest integrated Arc graphics |
+| Platform | Mobile only (desktop stays on Arrow Lake) |
+| Edge systems | Q2 2026 |
 
-**Significance:** First 18A products shipping — "most advanced semiconductor process ever manufactured in the United States." Key turnaround milestone after years of process delays.
+Significance: First 18A products shipping — "most advanced semiconductor process ever manufactured in the United States." Key turnaround milestone after years of process delays.
 
 See [[CES 2026]] for event context.
 
@@ -288,19 +302,19 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 
 | Technology | Description |
 |------------|-------------|
-| **EMIB** | 2.5D, cheaper than CoWoS, good thermal, mature |
-| **Foveros** | 3D stacking |
+| EMIB | 2.5D, cheaper than CoWoS, good thermal, mature |
+| Foveros | 3D stacking |
 
-**Who's looking:**
+Who's looking:
 - [[Marvell]], [[MediaTek]] actively trying EMIB
 - [[Apple]], [[Qualcomm]] adding "EMIB familiarity" to job posts
 - Non-Intel customers already confirmed
 
-**Strategic angle:** If front-end foundry can't win customers, packaging could be beachhead into AI supply chain.
+Strategic angle: If front-end foundry can't win customers, packaging could be beachhead into AI supply chain.
 
-**New model:** TSMC front-end + Intel back-end. US-based back-end solves domestic production requirements (TSMC back-end ships to [[Taiwan]]).
+New model: TSMC front-end + Intel back-end. US-based back-end solves domestic production requirements (TSMC back-end ships to [[Taiwan]]).
 
-**Risk:** Window may be temporary — if Intel misses it, [[ASE]]/[[Amkor]]/SPIL take the overflow.
+Risk: Window may be temporary — if Intel misses it, [[ASE]]/[[Amkor]]/SPIL take the overflow.
 
 ---
 
@@ -308,9 +322,9 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 
 | Date | Firm | Rating | Price target | Note |
 |------|------|--------|--------------|------|
-| Jan 14, 2026 | **KeyBanc** | Upgrade to **Overweight** | **$60** | NVIDIA partnership, 18A progress |
+| Jan 14, 2026 | KeyBanc | Upgrade to Overweight | $60 | NVIDIA partnership, 18A progress |
 
-**Stock reaction:** +3.3% on upgrade.
+Stock reaction: +3.3% on upgrade.
 
 ---
 
@@ -332,7 +346,7 @@ Apr 2026: raising >$6B in new debt to finance Fab 34 buyback from [[Apollo]] —
 | Metric | Value |
 |--------|-------|
 | Ticker | INTC (NASDAQ) |
-| Price | **~$49** (Jan 28 close) |
+| Price | ~$49 (Jan 28 close) |
 | 2026 YTD | +24.5% |
 | Annual revenue | $53B (vs $78B peak 2021) |
 | HQ | Santa Clara, CA |
@@ -347,10 +361,10 @@ Apr 2026: raising >$6B in new debt to finance Fab 34 buyback from [[Apollo]] —
 
 ## For theses
 
-**[[Short TSMC long Korea]]**: Intel weakness = fewer competitors for Samsung
-**[[Long WFE]]**: Intel fabs = equipment demand regardless of outcome
-**[[Long OSAT and test equipment]]**: EMIB competes with traditional OSATs for CoWoS overflow — risk to ASE/[[Amkor]]
-**[[Advanced packaging]]**: Intel could carve out niche in tier-2 AI packaging
+[[Short TSMC long Korea]]: Intel weakness = fewer competitors for Samsung
+[[Long WFE]]: Intel fabs = equipment demand regardless of outcome
+[[Long OSAT and test equipment]]: EMIB competes with traditional OSATs for CoWoS overflow — risk to ASE/[[Amkor]]
+[[Advanced packaging]]: Intel could carve out niche in tier-2 AI packaging
 
 ---
 
@@ -373,3 +387,7 @@ Apr 2026: raising >$6B in new debt to finance Fab 34 buyback from [[Apollo]] —
 - [[Apollo]] — sold Fab 34 stake back to Intel for >$14B (Apr 2026); originally $11.2B (2024)
 - [[Athene]] — large investor in Apollo's Fab 34 JV
 - [[Intel bonds]] — $47.2B bond inventory (BBB/Baa2, unprecedented downgrade trajectory)
+- [[TERAFAB]] — foundry partner for Musk's $25B joint fab (Tesla/SpaceX/xAI), contributing 18A + packaging (Apr 2026)
+- [[Tesla]] — Terafab co-venture demand partner
+- [[xAI]] — Terafab co-venture demand partner
+- [[SpaceX]] — Terafab co-venture demand partner

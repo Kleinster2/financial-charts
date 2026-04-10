@@ -422,6 +422,24 @@ See [[Short interest]] for interpretation framework.
 
 ---
 
+## 2025 shareholder letter (Apr 9, 2026)
+
+Jassy's annual letter detailed AI and infrastructure ambitions. Stock +5.6% to $233.65 (3.1σ move).
+
+AWS AI services: $15B+ annualized run rate — "nearly 260 times larger than AWS at that same point" three years into cloud. Total AWS: $129B in 2025, $142B current run rate (+24%).
+
+Custom chips: run rate now ~$20B (triple-digit growth, up from $10B at Q4 earnings). Graviton used by 98% of top 1,000 EC2 customers; two large customers tried to reserve all 2026 capacity — Amazon declined. Trainium2 largely sold out. Trainium3 shipped early 2026 (30-40% improvement), nearly fully subscribed; [[Uber]] migrated workloads. Trainium4 ~18 months out, will include [[NVIDIA]] NVLink Fusion, already significantly reserved. Jassy: "If our chips business was a stand-alone business... annual run rate would be ~$50 billion."
+
+$200B capex defense: "We're not investing approximately $200 billion in capex in 2026 on a hunch." Cited [[OpenAI]] commitment ($100B+ over eight years including 2 GW of Trainium consumption). AWS added 3.9 GW of power capacity in 2025; expects to double total capacity by end of 2027. FCF fell $38B → $11B in 2025 due to buildout.
+
+[[Eli Lilly]] pharmacy partnership (Apr 8): Amazon Pharmacy same-day delivery of Foundayo (oral [[GLP-1]] pill). Coverage ~3,000 cities → ~4,500 by year-end. $25/month with insurance, $149/month cash-pay.
+
+Other highlights: Alexa+ driving 2x interaction, 3x purchase completions. 1M+ robots in fulfillment. [[Project Kuiper]] 200+ satellites launched, mid-2026 commercial launch. [[Delta Air Lines]] 500-plane deal starting 2028. Grocery $150B+ gross sales (second-largest US grocer). Prime Air drones targeting 30M customers by year-end.
+
+*Source: [Andy Jassy 2025 Letter to Shareholders](https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders), April 9, 2026.*
+
+---
+
 ## Debt profile
 
 $68.8B face value outstanding (Dec 2025), weighted-average life 14.1 years. Rated AA/AA-/A1 (Moody's positive outlook). May 2021 $18.5B deal set record for lowest-ever corporate bond spread. New shelf registration (S-3ASR) filed Feb 2026 signaling more issuance. $30B CP program, $15B revolver, $5B short-term revolver — all undrawn. See [[Amazon bonds]] for full inventory.
@@ -437,7 +455,8 @@ $68.8B face value outstanding (Dec 2025), weighted-average life 14.1 years. Rate
 | Revenue (FY 2025) | **$716.9B** |
 | AWS revenue (Q4 ann.) | ~$140B/year |
 | AWS backlog | **$244B** |
-| Custom chips run rate | **$10B** |
+| Custom chips run rate | **$20B** (triple-digit growth; $50B standalone valuation per Jassy) |
+| AWS AI run rate | **$15B+** (Apr 2026 letter) |
 | AI capex (2025) | $131.8B |
 | **AI capex (2026 guided)** | **$200B** |
 | P/E | ~40x |

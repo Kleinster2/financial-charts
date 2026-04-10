@@ -124,6 +124,12 @@ Stock -10% AH despite clean beat — billings/deferred revenue metrics disappoin
 
 ---
 
+## April 9, 2026 — AI disruption selloff continues
+
+ZS -11.3% (3.0σ) while S&P 500 +0.62%. Steepest single-day drop in the cybersecurity cluster alongside [[Okta]] -10.9%, [[Rubrik]] -10.6%, [[CrowdStrike]] -7.5%. No new catalyst — continuation of the [[February 2026 AI Disruption Cascade]] de-rating. Stock now -37% YTD despite accelerating AI Security ARR ($400M+, hit FY26 target three quarters early). The AI disruption discount persists even as ZS builds the AI security product the market fears will be commoditized.
+
+---
+
 ## Related
 
 - [[Palo Alto Networks]] — competitor (Prisma SASE)

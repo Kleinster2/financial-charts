@@ -18,7 +18,7 @@ For how the underlying shares trade, see [[Private market secondaries]]. For cry
 | [[Destiny Tech100]] | DXYZ | [[NYSE]] | $20/share | 2.50% | >2.50% | Live (Mar 2024) | [[SpaceX]] ~35%, [[OpenAI]], [[Anthropic]] |
 | [[Powerlaw Corp]] | PWRL | [[Nasdaq]] | ~$475M | 2.50% | 3.63% | Pending SEC | [[OpenAI]] 32%, [[SpaceX]], [[Anthropic]] |
 | [[Robinhood]] Ventures | RVI | [[NYSE]] | $1B target | 2.00% | TBD | Filing | [[Databricks]], Ramp, Revolut |
-| [[Fundrise]] Innovation | VCX | [[NYSE]] | ~$457M | 1.85% | TBD | Approved, Mar 2026 | [[OpenAI]], [[SpaceX]], [[Anthropic]], [[Stripe]] |
+| [[Fundrise]] Innovation | VCX | [[NYSE]] | $650M+ | 1.85% | TBD | Live (Mar 19, 2026) | [[OpenAI]], [[SpaceX]], [[Anthropic]], [[Stripe]] |
 
 ### US ETFs (daily liquidity, no minimums)
 
@@ -72,7 +72,7 @@ All Baillie Gifford trusts currently face activist pressure from [[Saba Capital]
 | XOVR ETF | 0.75% | Daily (Nasdaq) |
 | Schiehallion (MNTN) | ~0.80% | Daily (LSE) |
 | RONB ETF | 1.00% | Daily (NYSE) |
-| [[Fundrise]] VCX | 1.85% | Daily (NYSE, from Mar 2026) |
+| [[Fundrise]] VCX | 1.85% | Daily (NYSE, live Mar 19 2026) |
 | [[Robinhood]] RVI | 2.00% (1.00% first 6mo) | Daily (NYSE) |
 | [[Destiny Tech100]] DXYZ | >2.50% | Daily (NYSE) |
 | [[Powerlaw Corp]] PWRL | 3.63% | Daily (Nasdaq, when listed) |
@@ -149,7 +149,7 @@ This suggests the standalone secondary marketplace model is becoming infrastruct
 - [[Private markets]] — broader asset class
 - [[Destiny Tech100]] — first US-listed pure-play (DXYZ)
 - [[Powerlaw Corp]] — [[Akkadian Ventures]] fund (PWRL, pending)
-- [[Fundrise]] — Innovation Fund (VCX, approved for NYSE)
+- [[Fundrise]] — Innovation Fund (VCX, live on NYSE since Mar 19 2026; $112 at ~5.9x NAV)
 - [[Robinhood]] — Ventures Fund I (RVI, filing)
 - [[ARK Invest]] — ARK Venture Fund (ARKVX)
 - [[Baillie Gifford]] — manages SMT, MNTN, EWI, USA trusts

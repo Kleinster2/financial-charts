@@ -72,6 +72,16 @@ The gap between what OpenClaw demonstrated and what a non-technical user can saf
 - Peter's developer credibility pulls the open-source agent community toward OpenAI's ecosystem
 - "Kill 80% of apps" prediction plays out gradually — each app replaced is revenue for the agent platform
 
+## Anthropic's competing vision: Conway (Apr 2026)
+
+The [[Claude Code]] source leak revealed [[Conway]] — [[Anthropic]]'s unreleased always-on agent with its own extension ecosystem (CNW.zip), event-driven triggers, and browser control. Conway is the direct Anthropic counterpart to the personal agent product described in this thesis.
+
+Key difference: Conway sits inside a proprietary ecosystem (extensions only work in Conway), while [[OpenClaw]]'s open-source architecture is theoretically portable. But Conway has a distribution advantage — it would launch to millions of existing [[Claude]] subscribers with a built-in extension directory, while OpenClaw requires self-hosting and setup.
+
+This complicates the thesis. [[OpenAI]]'s window to ship a consumer personal agent before Anthropic's persistence layer becomes entrenched may be narrower than assumed. Both labs are now racing toward the same insight: the model is a loss leader, the persistent agent layer is the money product. See [[Intelligence portability]] for why whoever ships first has a structural advantage through behavioral lock-in.
+
+---
+
 ## Bear case
 
 - **Chromium risk**: Google dominates Chromium despite it being "open source." OpenAI could similarly absorb OpenClaw's direction, alienating the community
@@ -107,9 +117,13 @@ Peter's non-negotiable was open source. If OpenAI respects that, they get the ec
 - [[Steinberger OpenAI acqui-hire]] — the deal
 - [[Clawdbot viral growth]] — the phenomenon that created the opportunity
 
+### Products
+- [[Conway]] — Anthropic's competing always-on agent
+
 ### Concepts
 - [[Agentic AI]] — the category
 - [[AI extensibility]] — skills/platform layer
+- [[Intelligence portability]] — behavioral lock-in from persistent agents
 - [[Local-first AI]] — OpenClaw's architecture pattern
 
 ### Theses

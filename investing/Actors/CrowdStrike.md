@@ -136,6 +136,10 @@ Record ARR, record margins, record cash flow. The July 2024 outage is fully in t
 
 *Updated 2026-01-15*
 
+## April 9, 2026 — AI disruption selloff continues
+
+CRWD -7.5% (2.5σ) while S&P 500 +0.62%. Part of a sector-wide selloff: [[Zscaler]] -11.3%, [[Okta]] -10.9%, [[Rubrik]] -10.6%. No new catalyst — the de-rating that began with [[Anthropic]]'s [[Claude Code]] Security launch in February 2026 continues to compress cybersecurity multiples. Every relief rally gets sold. Market questioning whether autonomous AI agents commoditize traditional security tooling. The ceasefire-driven risk-on session (oil stocks down, broad market up) made the cybersecurity weakness more conspicuous.
+
 ---
 
 ## Related

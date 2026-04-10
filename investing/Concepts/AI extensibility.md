@@ -87,6 +87,18 @@ The stack bifurcates: model labs dominate the bottom, enterprise software domina
 
 ---
 
+## Conway extension model (Apr 2026)
+
+The [[Claude Code]] source leak revealed [[Conway]] — [[Anthropic]]'s unreleased always-on agent — with its own extension format: CNW.zip. Extensions are installable add-ons (interface panels, information handlers, tools) that work only inside Conway. Conway has a built-in extensions directory — effectively an app store.
+
+This creates a proprietary layer on top of [[Model Context Protocol|MCP]]. MCP remains the open foundation for tool connections, but the highest-value tooling (the kind with built-in distribution and discovery) would live in Conway's proprietary format. Same dynamic as Google Play Services sitting on top of Android's open-source kernel.
+
+The implication for the extensibility landscape: "open protocol" and "proprietary ecosystem" are not mutually exclusive. Each frontier lab is likely to adopt MCP at the protocol level while building proprietary extension/marketplace layers on top — fragmenting the ecosystem at the value-capture tier while maintaining interoperability at the basic tooling tier.
+
+See [[Conway]] for full product analysis and [[Intelligence portability]] for the lock-in implications.
+
+---
+
 ## MCP (Model Context Protocol)
 
 [[Anthropic]]'s open standard for connecting LLMs to data sources and tools. Key features:
@@ -145,7 +157,7 @@ Strategic bet: if MCP becomes standard, Anthropic positioned as ecosystem leader
 - [[Agentic AI security]] — risk surface from extensions
 
 ### Key players
-- [[Anthropic]] — MCP originator
+- [[Anthropic]] — MCP originator, [[Conway]] extension ecosystem
 - [[OpenAI]] — GPT Store approach
 - [[LangChain]] — SDK layer
 - [[AutoGen]] — Microsoft multi-agent

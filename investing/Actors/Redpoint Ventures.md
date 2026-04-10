@@ -54,11 +54,19 @@ aliases: [Redpoint]
 
 ---
 
+## Media
+
+Hosts the "Unsupervised Learning" AI podcast (Jacob Efron). [[Jakub Pachocki]]'s April 2026 interview on the show covered [[OpenAI]]'s research philosophy, compute allocation, and alignment strategy.
+
+---
+
 ## Related
 
 - [[Physical Intelligence]] — portfolio company
 - [[Stripe]] — portfolio company
 - [[Sequoia Capital]] — peer
+- [[OpenAI]] — portfolio company
+- [[Jakub Pachocki]] — Unsupervised Learning guest (Apr 2026)
 
 ---
 

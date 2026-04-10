@@ -193,7 +193,15 @@ Microsoft receives 20% of OpenAI revenue through 2032. Sam Altman reportedly not
 | CTO of Applications | Vijaye Raji (joined via Statsig acquisition) |
 | Board chair | [[Bret Taylor]] |
 | CTO | Vacant since Sep 2024 |
-| Chief Scientist | Vacant since May 2024 |
+
+### Research organization (Apr 2026)
+
+[[Jakub Pachocki]] (Unsupervised Learning, Apr 9 2026) on OpenAI's research structure: the company explicitly budgets a "large chunk" of compute to the most scalable methods — the approaches believed most responsible for driving general model intelligence. Three criteria for experiment prioritization: (1) empirical evidence, (2) do we understand why it works, (3) do we expect it to scale. This discipline resists the temptation to parcel compute across many smaller experiments even when individual allocations could be more efficient. The research org is shifting from pure capability hill-climbing to deployment urgency: "We believe the models are now capable enough — not as smart as people in all ways — but capable enough to actually materially change the economy."
+
+Research milestones being targeted: research-level intern capabilities by September 2026, fully automated AI researcher by March 2028. As of April 2026, both targets remain active. The majority of coding at OpenAI is now done via [[Codex]]. [[GPT|GPT-5.2 Pro]] has generated "minor but quite impactful" research ideas that OpenAI is using internally.
+
+Alignment research is viewed as "a core part of research" rather than a separate function. Pachocki champions [[Chain-of-thought monitoring]] — using reasoning models' hidden CoT as an interpretability tool — and participated in a cross-lab scheming collaboration with [[Anthropic]] and [[DeepMind]]. He described his belief in "a research path that actually gets us to an extremely happy world" as having "increased quite a lot," while acknowledging the industry must "be prepared to take trade-offs and possibly slow down development depending on what we see."
+| Chief Scientist | [[Jakub Pachocki]] (confirmed Apr 2026; joined OpenAI early 2017) |
 
 ### Board (post-restructuring)
 
@@ -337,6 +345,9 @@ Some investors grown cautious over OpenAI's soaring operating costs — committe
 - [[Steinberger OpenAI acqui-hire]] — [[Peter Steinberger]]/[[OpenClaw]] acquisition
 - [[OpenAI DevDay 2024]] — developer platform event
 - [[Sam Altman]] — CEO
+- [[Jakub Pachocki]] — Chief Scientist
+- [[Chain-of-thought monitoring]] — alignment technique (cross-lab, Pachocki-driven)
+- [[FrontierMath]] — research-level math benchmark
 - [[Microsoft]] — 27% owner, cloud partner, 20% revenue share through 2032
 - [[Amazon]] — $50B investor, AWS commitment
 - [[SoftBank]] — $30B+ investor, Stargate co-owner

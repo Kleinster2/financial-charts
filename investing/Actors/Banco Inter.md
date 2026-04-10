@@ -189,4 +189,8 @@ INTR -8.0% (-2.5σ), $9.25 → $8.51. Pulled back from Jan 28 all-time high of $
 
 Notably, larger-cap Brazilian banks rallied that session ([[Bradesco]] +2%, [[Itau Unibanco|Itau]] +1%, [[Banco do Brasil]] +2%, [[B3]] +8%) as lower bond yields helped — suggesting INTR's move was thin-liquidity, risk-off rotation out of smaller EM fintechs rather than sector-wide weakness. As a Brazilian digital bank ADR with thin US float, INTR amplifies EM risk-off moves disproportionately.
 
+## April 9, 2026 — repeat selloff
+
+INTR -8.0% (2.9σ), $9.25 → $8.51. Same price levels as the April 2 selloff — stock recovered to $9.25 in the interim, then gave it all back. Broad market was up (S&P +0.62%) but smaller EM fintechs continued to underperform. The ceasefire-driven risk-on session benefited large-cap names but thin-float Brazilian ADRs remained in the crosshairs. INTR's pattern of sharp drawdowns followed by partial recoveries reflects its amplifier role in EM risk-off: low US volume, concentrated ownership, and high beta to [[Brazil]] macro sentiment.
+
 *Created 2026-02-23*

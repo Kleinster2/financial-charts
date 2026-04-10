@@ -182,6 +182,7 @@ Anthropic is the Western DeepSeek — proving efficiency beats brute-force scali
 | **2026-03-12** | **Cowork integrated into [[Copilot\|Microsoft Copilot]]** — cloud-level enterprise data access. Copilot at only 15mn paid seats (~3% of Office users), Microsoft needs Anthropic's agent capability. Distribution play into non-coding white-collar work | **Enterprise expansion beyond coding — validates "rest of work" thesis** |
 | **2026-02-18** | **Pentagon designates Anthropic "supply-chain risk"** — may require contractors to certify no Claude use. [[1789 Capital]] (Trump-connected) declined nine-figure investment on ideological grounds. Rivals ([[OpenAI]], [[Google]], [[xAI]]) all agreed to unrestricted military deployment | **Major bear case: political risk now concrete. Safety stance that justifies $380B premium is same stance that could lock Anthropic out of defense/intel market and poison fundraising with politically-connected capital** |
 | **2026-03-31** | **Claude Code source leak** — 512K lines of TypeScript leaked via npm packaging error. "Claw Code" Rust/Python rewrites hit 100K GitHub stars in hours. Anthropic DMCA'd 8,100 repos (retracted to 96). IP contradiction: Anthropic argues fair use for training but claims copyright on code potentially written by Claude | **Bear case: agentic harness architecture now public. But secondary market demand (see below) suggests investors shrugging it off — code alone isn't the moat, the model + trust + enterprise contracts are** |
+| **2026-04-08** | **[[Conway]] revealed in source leak** — unreleased always-on agent with CNW.zip extension ecosystem (proprietary layer on [[Model Context Protocol\|MCP]]), event-driven triggers, browser control. Part of a 5-surface platform strategy: Claude Code Channels + Cowork + Conway + Marketplace + third-party ban. The "Active Directory play" — persistence layer that locks in behavioral context, not just data | **Platform moat thesis strengthened. Conway + Marketplace + Partner Network ($100M, Accenture 30K training) = coordinated ecosystem play compressing Microsoft's 1990s arc into ~15 months. Even if model differentiation compresses, behavioral lock-in from the persistence layer is a new moat category. See [[Intelligence portability]]** |
 | **2026-04-06** | **Secondary market demand at $600B** — $2B+ buyer demand, Hiive $1.6B registered, bids 58% above Series G. Meanwhile ~$600M in [[OpenAI]] shares can't find buyers at $850B. Goldman charges carry for Anthropic, zero-carry for OpenAI. Crawley (Augment): "essentially unlimited interest" | **Strongest secondary-market validation yet. Institutional capital voting with its feet — pivoting from OpenAI to Anthropic on risk-reward. Implied $600B pre-IPO floor supports aggressive IPO pricing. Notable: demand surging DESPITE source leak and Pentagon standoff — market pricing these as noise, not structural** |
 
 ---
@@ -196,6 +197,8 @@ Anthropic is the Western DeepSeek — proving efficiency beats brute-force scali
 - [[Google]] — investor (major, cloud partner)
 - [[Amazon]] — investor (Bedrock distribution)
 - [[DeepSeek]] — parallel (efficiency beats scale)
+- [[Conway]] — unreleased always-on agent (persistence layer moat)
+- [[Intelligence portability]] — new lock-in category from persistent agents
 - [[Jevons Paradox]] — counter-risk (efficiency → more demand)
 
 ---

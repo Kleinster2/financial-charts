@@ -5,7 +5,7 @@ aliases: [META]
 
 **Meta (Facebook)** - Tier 1 AI hyperscaler, massive NVIDIA buyer, open-source AI leader (Llama).
 
-Largest social media company with 3.5B daily active users, $200.9B FY2025 revenue (+22% YoY), and $78.5B net income. Q4 2025 beat estimates ($59.9B revenue, $8.88 EPS vs $8.16 expected) and guided Q1 2026 revenue $53.5-56.5B above consensus. AI capex guidance of $115-135B for 2026 (up 60-87% from $72.2B) makes Meta one of the largest NVIDIA GPU buyers - 350K H100s deployed, multiyear NVIDIA deal signed Feb 2026. Open-source Llama strategy may shift proprietary as Google Gemini 3 advances. The bull case: ad monetization compounding on engagement growth (+18% impressions), AI efficiency gains, and MTIA custom chips reducing GPU dependency. The bear case: Reality Labs burning $6B/quarter, $115-135B capex commitment with uncertain AI ROI, and FTC antitrust appeal on Instagram/WhatsApp acquisitions.
+Largest social media company with 3.5B daily active users, $200.9B FY2025 revenue (+22% YoY), and $78.5B net income. Q4 2025 beat estimates ($59.9B revenue, $8.88 EPS vs $8.16 expected) and guided Q1 2026 revenue $53.5-56.5B above consensus. AI capex guidance of $115-135B for 2026 (up 60-87% from $72.2B) makes Meta one of the largest NVIDIA GPU buyers - 350K H100s deployed, multiyear NVIDIA deal signed Feb 2026. [[Muse Spark]] (Apr 8 2026) confirmed the proprietary pivot flagged on the Q4 call — first model from [[Meta Superintelligence Labs]], closed source, breaking the [[Llama]] open-weights playbook. The bull case: ad monetization compounding on engagement growth (+18% impressions), AI efficiency gains, and MTIA custom chips reducing GPU dependency. The bear case: Reality Labs burning $6B/quarter, $115-135B capex commitment with uncertain AI ROI, FTC antitrust appeal on Instagram/WhatsApp acquisitions, and Muse Spark trailing [[GPT]]-5.4 and [[Gemini]] 3.1 Pro on coding and agentic benchmarks despite the nine-month rebuild.
 
 ---
 
@@ -210,17 +210,29 @@ See [[Meta-AMD 6GW deal]] for full details.
 
 ## AI leadership
 
-Meta Superintelligence Labs - New AI division (2025):
+[[Meta Superintelligence Labs]] - New AI division (2025):
 
 | Person | Role | Background |
 |--------|------|------------|
-| Alexandr Wang | Co-head | [[Scale AI]] founder |
+| [[Alexandr Wang]] | Chief AI Officer | [[Scale AI]] founder |
 | [[Nat Friedman]] | Co-head, Product | GitHub CEO, NFDG fund |
 | [[Daniel Gross]] | Co-head, Compute | YC partner, NFDG fund, [[SSI]] co-founder |
 
-Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring minority stake in NFDG (Friedman/Gross's $1.1B AI fund).
+Wang hired summer 2025 after Meta paid $14.3B for a 49% stake in [[Scale AI]]; Friedman and Gross joined June 2025. Meta also took a minority stake in NFDG (Friedman/Gross's $1.1B AI fund). [[Yann LeCun]] departed over the reorganization and started [[AMI Labs]].
 
 Vision: Zuckerberg racing to build "personal superintelligence"
+
+### [[Muse Spark]] launch (Apr 8 2026)
+
+First model from [[Meta Superintelligence Labs]], nine months after Wang took over. Proprietary (closed source), breaking with the [[Llama]] open-weights approach — Meta framed the closed release as temporary ("hope to open-source future versions") but rebuilt the architecture, infrastructure, and data pipelines from scratch. Codename *Avocado* in development.
+
+Placement on the Artificial Analysis Intelligence Index v4.0: 52, fourth behind [[GPT]]-5.4 (57), [[Gemini]] 3.1 Pro (57), and [[Claude Opus|Claude Opus 4.6]] (53). Leads HealthBench Hard (42.8), Humanity's Last Exam in Contemplating mode (50.2%), and chart understanding (CharXiv 86.4). Trails on coding ([[Terminal-Bench]] 59.0 vs GPT-5.4's 75.1), abstract reasoning (ARC-AGI-2 42.5 vs 76.1), and agentic tasks (GDPval-AA 1,444 vs 1,672). Token-efficient — completed the full eval in 58M output tokens vs Opus 4.6's 157M.
+
+Rollout: Meta AI app and meta.ai live day one; [[WhatsApp]], [[Instagram]], Facebook, Messenger, and Ray-Ban Meta glasses in the weeks following. API in private preview for select partners.
+
+[[Apollo Research]] flagged the highest "evaluation awareness" rate observed to date — Muse Spark frequently identifies eval scenarios as alignment traps. Meta deemed this "not a blocking concern for release."
+
+See [[Muse Spark]] for full benchmarks and positioning.
 
 ---
 

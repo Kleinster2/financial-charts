@@ -49,19 +49,49 @@ Musk also invoked national security, retweeting that Terafab is vital because th
 
 ---
 
+## Intel announces Terafab involvement (Apr 7, 2026)
+
+[[Intel]] announced its participation in Terafab via a post on X (Apr 7): "Intel is proud to join the Terafab project with @SpaceX, @xAI, and @Tesla to help refactor silicon fab technology. Our ability to design, fabricate, and package ultra-high-performance chips at scale will help accelerate Terafab's aim to produce 1 TW/year of compute to power future advances in AI and robotics."
+
+No formal agreement, SEC filing, press release, or financial commitment was disclosed. [[TrendForce]] noted the announcement "does not clarify how Intel will contribute to TeraFab" and called the collaboration structure "unclear." [[Barclays]] had flagged Intel partnership as the most likely route in March — the X post is directionally consistent but far short of a signed deal.
+
+Intel's likely contribution would center on its [[Intel 18A|18A process node]] (1.8nm class, in volume production) and advanced packaging ([[EMIB]], [[Foveros]]). [[TrendForce]] speculated on a possible licensing model where Intel provides process technology while Tesla funds and builds production infrastructure, but this is unconfirmed.
+
+The capacity and facility details below are from Musk's original March 21 announcement, not from Intel's April 7 post:
+
+| Detail | Value | Source |
+|--------|-------|--------|
+| Process node | Intel 18A (~1.8nm) | Intel X post (implied) |
+| Initial capacity | 100,000 wafer starts/month | Musk Mar 21 announcement |
+| Full-scale target | 1,000,000 wafer starts/month | Musk Mar 21 announcement |
+| Location | Two fabs on Giga Texas campus | Musk Mar 21 announcement |
+| Fab 1 scope | Automotive + robotics (FSD, [[Cybercab]], [[Tesla Optimus]]) | Musk Mar 21 announcement |
+| Fab 2 scope | AI datacenter + orbital processors ([[Space data centers|D3 satellites]]) | Musk Mar 21 announcement |
+
+INTC +4.2% to $52.91 on Apr 7 (announcement day). An additional +11.4% to $58.95 on Apr 8 included the broader ceasefire rally (SPY +2.5%) and should not be attributed solely to Terafab.
+
+If a formal foundry agreement materializes, it would give [[Intel Foundry Services]] the anchor customer it has pursued since [[Lip-Bu Tan]] reversed the external foundry strategy on March 4 — and would eliminate the utilization risk that has plagued every non-TSMC foundry. But as of Apr 8, 2026, no signed commitment exists in the public record.
+
+*Sources: Intel X post (Apr 7), TrendForce (Apr 8), Electrek (Apr 7), TechCrunch (Apr 7), Bloomberg (Apr 7)*
+
+---
+
 ## Related
 
+- [[Intel]] — foundry partner (18A process, packaging)
+- [[Intel Foundry Services]] — Intel's foundry business unit executing the deal
 - [[SpaceX]] — joint venture partner, orbital deployment, IPO catalyst
 - [[Tesla]] — joint venture partner, inference chip consumer, $20B+ 2026 capex plan
 - [[xAI]] — joint venture partner, D3 chip design (acquired by SpaceX Feb 2026)
 - [[TSMC]] — benchmark for fab scale, disciplined expansion Musk is pushing against
-- [[Intel]] — cautionary tale for IDM model
-- [[Samsung]] — potential partnership alternative (Barclays)
+- [[Samsung]] — alternative foundry (Musk controls potential anchor demand)
 - [[Tesla Optimus]] — inference chip end-use (hundreds of millions of robots annually, per Musk)
 - [[Lunar Mass Driver]] — lunar deployment chain for space-hardened chips
 - [[Space data centers]] — end use for D3 satellite processors
 - [[NVIDIA]] — AI accelerator demand driver, also constrained by TSMC capacity
 - [[Broadcom]] — flagged TSMC capacity limits
 - [[Synopsys]] — chip crunch through 2026-2027
+- [[Foundry Wars]] — competitive context
+- [[IDM model]] — structural economics of vertically-integrated fab
 
-*Created 2026-03-23 · Expanded 2026-03-24 (Bloomberg/Bernstein/Barclays/Prism data)*
+*Created 2026-03-23 · Expanded 2026-03-24 (Bloomberg/Bernstein/Barclays/Prism data) · Intel partnership 2026-04-08*

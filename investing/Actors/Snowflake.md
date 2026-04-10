@@ -203,6 +203,12 @@ At similar ~$5B revenue scale, the divergence is stark:
 
 ---
 
+## April 9, 2026 — leadership transition + class action
+
+SNOW -11.8% (3.6σ) while S&P 500 +0.62%. The largest sigma move among vault actors. Contributing factors: CEO and chief revenue officer transitions creating execution uncertainty, securities class action with April 27 deadline to lead, and the broader growth/cloud de-rating. Stock down 36% over three months and 31% YTD, trading at forward P/E of 83x (vs industry avg 18x). The [[Databricks]] competitive pressure (2x growth rate, 14x AI revenue) compounds the narrative — Snowflake is losing the AI data race while also losing its C-suite.
+
+---
+
 ## Related
 
 - [[Databricks]] — competitor (lakehouse vs warehouse, 14x AI revenue gap)

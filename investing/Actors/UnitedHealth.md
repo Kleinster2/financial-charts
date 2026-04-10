@@ -38,19 +38,19 @@ Largest US company by revenue after [[Walmart]].
 
 ## Jan 27, 2026: Historic crash
 
-**Stock fell ~20%** — from $352 to $285 — wiping ~$90B in market cap. Largest single-day decline in company history.
+Stock fell ~20% — from $352 to $285 — wiping ~$90B in market cap. Largest single-day decline in company history.
 
 Part of sector-wide [[Medicare Advantage]] rate shock — see concept note for full policy context.
 
 ### Company-specific impact
 
-**1. First revenue decline in 30+ years**
+1. First revenue decline in 30+ years
 2026 guidance: ">$439B" revenue — roughly 2% below 2025, well under analyst expectations of $454B.
 
-**2. Membership contraction**
-Guiding for **[[3M]]+ member decline** in 2026 — exiting unprofitable MA and ACA exchange members.
+2. Membership contraction
+Guiding for [[3M]]+ member decline in 2026 — exiting unprofitable MA and ACA exchange members.
 
-**3. V28 coding transition**
+3. V28 coding transition
 Final year of Medicare's new diagnosis weighting system — $6B revenue hit ($2B UHC, $4B Optum).
 
 ### Drivers of revenue decline
@@ -75,10 +75,10 @@ Management signaled aggressive cost-cutting — shedding unprofitable insurance 
 
 | Segment | Revenue | Description |
 |---------|---------|-------------|
-| **UnitedHealthcare** | ~$280B | [[Insurance]] (employer, Medicare, Medicaid) |
-| **Optum Health** | ~$100B | Care delivery, 90K+ physicians |
-| **Optum Rx** | ~$120B | PBM, specialty pharmacy |
-| **Optum Insight** | ~$15B | [[Healthcare]] analytics, IT |
+| UnitedHealthcare | ~$280B | [[Insurance]] (employer, Medicare, Medicaid) |
+| Optum Health | ~$100B | Care delivery, 90K+ physicians |
+| Optum Rx | ~$120B | PBM, specialty pharmacy |
+| Optum Insight | ~$15B | [[Healthcare]] analytics, IT |
 
 Optum growing faster than insurance.
 
@@ -86,7 +86,7 @@ Optum growing faster than insurance.
 
 ## Vertical integration
 
-**Full healthcare stack:**
+Full healthcare stack:
 - [[Insurance]] (UnitedHealthcare)
 - Care delivery (Optum Health physicians)
 - Pharmacy benefits (Optum Rx)
@@ -98,7 +98,7 @@ Controversial but highly profitable.
 
 ## CEO transition
 
-**Dec 2024 tragedy:**
+Dec 2024 tragedy:
 - Brian Thompson (UnitedHealthcare CEO) killed
 - Andrew Witty remains Group CEO
 - Increased scrutiny on healthcare industry
@@ -107,14 +107,14 @@ Controversial but highly profitable.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Scale advantages
 - Optum diversification (growing faster than insurance)
 - Cost-cutting could restore margins
 - Beaten-down valuation after 2025-26 selloff
 
-**Bear:**
-- Medicare Advantage rate pressure (CMS flat rates for 2027)
+Bear:
+- Medicare Advantage rate pressure (CMS 2027 rate +2.48% — better than feared but below historical growth)
 - Chart review rule change eliminates diagnosis mining
 - First revenue decline in 30 years
 - Membership contraction ([[3M]]+ in 2026)
@@ -163,6 +163,29 @@ Note: 2024 net income hit by Q1 2024 loss (-$1.4B) from Change [[Healthcare]] cy
 
 ---
 
+## April 7, 2026: CMS Medicare Advantage rate boost
+
+UNH +7.3% to $302 after the Centers for Medicare and Medicaid Services finalized the 2027 [[Medicare Advantage]] payment rate increase at ~2.48%, translating to $13B in additional industry payments. The final rate was dramatically higher than the 0.09% preliminary proposal — a surprise that repriced the entire managed care sector.
+
+| Metric | Value |
+|--------|-------|
+| 2027 MA rate increase | ~2.48% ($13B total) |
+| Prior proposal | 0.09% |
+| UNH stock reaction | +7.3% to $302 (4.0σ vs 60-day vol) |
+| Sector reaction | [[CVS Health]] +5%, [[Alignment Healthcare]] +15%, [[Evolent Health]] +11%, [[Humana]] +7% |
+
+[[Bank of America]] raised UNH price target to $337 from $315 following the announcement.
+
+The rate boost matters structurally: MA enrollment is ~33M (half of all Medicare), and the rate directly determines how much insurers can spend on benefits and still preserve margin. The January 2026 stock crash (-20% to $285) was driven by fears of exactly this kind of rate compression. The final rate partially reverses that narrative.
+
+The gap between the 0.09% preliminary rate and the 2.48% final rate reflects the Trump administration's recalibration after industry lobbying and bipartisan Congressional pressure. CMS cited higher-than-expected medical cost trends in the revision.
+
+*Sources: Motley Fool (Apr 7), Investing.com (Apr 7), FX Leaders (Apr 6), Yahoo Finance (Apr 8)*
+
+*Updated 2026-04-08*
+
+---
+
 ## Related
 
 - [[Medicare Advantage]] — key business segment, Jan 2026 rate shock
@@ -170,4 +193,7 @@ Note: 2024 net income hit by Q1 2024 loss (-$1.4B) from Change [[Healthcare]] cy
 - [[Cigna]] — competitor
 - [[Elevance Health]] — competitor (\#2 managed care, BCBS)
 - [[Humana]] — competitor (Medicare pure-play)
+- [[Alignment Healthcare]] — smaller MA player (+15% on CMS rate, Apr 7)
+- [[Evolent Health]] — value-based care (+11% on CMS rate, Apr 7)
+- [[Bank of America]] — raised PT to $337 (Apr 7)
 

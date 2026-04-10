@@ -55,7 +55,7 @@ A structural reallocation of institutional capital from [[China]] to [[Japan]] t
 - China stimulus surprise could reverse flows rapidly (as seen briefly in Sep 2024 when PBOC eased)
 - Japan's reform could stall at the small-cap level
 - Yen strengthening would hurt DXJ returns and reduce the "cheap Japan" argument
-- Crowded trade risk — "everyone is long Japan" narrative building
+- [[Crowded trade risk]] — "everyone is long Japan" narrative building
 
 ## Related
 
@@ -65,3 +65,4 @@ A structural reallocation of institutional capital from [[China]] to [[Japan]] t
 - [[Buffett Japan sogo shosha trade]]
 - [[Japan lost decades]]
 - [[US-China decoupling]]
+- [[Crowded trade risk]] — "everyone is long Japan" flagged as vulnerability

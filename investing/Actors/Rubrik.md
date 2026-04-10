@@ -72,6 +72,12 @@ Two-platform architecture: Rubrik Security Cloud (cyber resilience) + Rubrik Age
 
 ---
 
+## April 9, 2026 — AI disruption selloff continues
+
+RBRK -10.6% (3.0σ) while S&P 500 +0.62%. Part of sector-wide cybersecurity weakness: [[Zscaler]] -11.3%, [[Okta]] -10.9%, [[CrowdStrike]] -7.5%. Stock trading 48% below 52-week high despite strong FY2026 execution (+48% revenue, 10x FCF growth). The AI disruption discount applies even to data-security/backup players whose moat is arguably more defensible against AI automation.
+
+---
+
 ## Related
 
 - [[Dual-class shares]] — 10-year sunset provision at IPO

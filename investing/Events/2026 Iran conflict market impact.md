@@ -70,7 +70,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 |-----|------|-----------|-------|---------|--------|
 | 3 | Mar 2 | Strikes begin, Hormuz closure | ~$79 (+8%) | +0.06% | Massive intraday recovery; gold $5,400 |
 | 4 | Mar 3 | Israel ahead of schedule; Hezbollah front opens | ~$79 | -0.88% | Second dip-buy; gold -4.48% profit-taking |
-| 5 | Mar 4 | Iran peace outreach — first diplomatic signal | ~$76 | — | Dollar's biggest drop in a month |
+| 5 | Mar 4 | Iran peace outreach — first diplomatic signal | ~$76 | — | Dollar's biggest drop in a month; [[Kospi]] -12% record one-day drop; DXY best week in 4 months (+1.3%) |
 | 8 | Mar 6 | February NFP: -92K (vs +50K est) | ~$88 | -1.3% | Stagflation print; Russell -2.39% |
 | 9 | Mar 7 | 17 vessels attacked; Trump "unconditional surrender" | $92.69 | -1.3% | Worst week since Oct; dip-buy broke |
 | 14 | Mar 13 | Saudi +1.7% vs Dubai -17% | ~$100 | — | [[Iran conflict Gulf equity divergence|Gulf equity divergence]] |
@@ -108,6 +108,42 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | Broad equity | Cautious | VIX elevated, risk-off, earnings visibility reduced |
 
 Key variable is duration. A resolved conflict (days) = mean-reversion in oil/defense. A prolonged campaign (weeks+) = sustained repricing across all of these. See [[Iran conflict war duration]] for Polymarket probabilities and Gass assessment.
+
+### Global equity dispersion — popular trades unwind (FT, Mar 4)
+
+The strike flipped the 2026 leaderboard. Before the Feb 27 strike, the [[S&P 500]] was the year's laggard while [[Kospi]], [[Topix]], the FTSE 100, Stoxx Europe 600, and the major European benchmarks all sat on single- to double-digit YTD gains. In the week after, the ranking inverted — the former winners took the hardest selling while Wall Street was nearly flat. The mechanism was position squaring, not fundamentals: the most crowded trades of 2026 (short dollar, long non-US equities) were also the ones most exposed to forced unwinds.
+
+![[global-equity-dispersion-iran-strike-mar2026.png]]
+*US stocks shift from laggard to leader after Middle East strike. Left: YTD performance Dec 31–Feb 27 in local currency. Right: Feb 27–Mar 4. Kospi was the world's best-performing market pre-strike at ~+45% YTD; one week later it had dropped ~19%, including a record single-session -12% on Mar 4. Source: LSEG, FT calculations.*
+
+| Index | Before strike (Dec 31–Feb 27) | After strike (Feb 27–Mar 4) |
+|---|---|---|
+| [[Kospi]] ([[South Korea]]) | ~+45% | ~-19% (record -12% single day Mar 4) |
+| [[Topix]] ([[Japan]]) | ~+16% | ~-8% |
+| FTSE 100 ([[UK]]) | ~+10% | ~-4% |
+| Stoxx Europe 600 | ~+7% | -3.3% |
+| Ibex 35 ([[Spain]]) | ~+6% | ~-5% |
+| CAC 40 ([[France]]) | ~+5% | ~-5% |
+| [[DAX]] ([[Germany]]) | ~+3% | ~-5% |
+| CSI 300 ([[China]]) | ~+2% | ~-3% |
+| [[S&P 500]] ([[United States]]) | ~-1% | ~flat (marginally lower) |
+
+The US outperformance was anchored by two structural facts. First, the US is a net energy exporter since the shale revolution — Allspring's Matthias Scheiber put it directly: "The US will be in a better position to cushion any blow from sharply rising energy prices," while "Asia, Europe . . . they are all net energy importers." Second, US equity exposure had been *reduced* heading into the war on [[Sell America trade|"hedging America"]] flows, leaving fewer crowded positions to unwind. The foreign buy-in that had pushed [[Kospi]] above 20x trailing earnings and drove record February inflows into European equity funds became the vulnerability when [[Iran]] risk forced de-risking.
+
+Named voices (all March 2-4):
+
+- **Gerry Fowler** (head of derivatives strategy, [[UBS]]): "There isn't really anywhere to hide, everything is down" — the 2026 popular trades have been hit worst.
+- **Thys Louw** (EM debt PM, [[Ninety One]]): "The main thing that we have broadly seen in the recent sell-off is position squaring . . . That is true whether it is Korean equities or the Egyptian pound." "Diversifying from US markets or being short the dollar was a main theme . . . you've had hedge funds or fast money getting out of a lot of these trades."
+- **Sharon Bell** (senior equities strategist, [[Goldman Sachs]]): "a growing keenness to position into Europe has arguably made it vulnerable."
+- **Trevor Greetham** (head of multi-asset, [[Royal London Asset Management]]): "basically a reversal of the trades that were working" — selling Japanese and EM stocks this week.
+- **Matthias Scheiber** (head of multi-asset, [[Allspring Global Investments]]): reduced exposure to Asian stocks this week citing rising energy prices.
+- **Lee Hardman** (senior FX analyst, [[MUFG]]): de-risking was causing a "squeeze in crowded short dollar" positions.
+- **Kit Juckes** (chief FX strategist, [[Société Générale]]): expects the dollar bounce to last even if the conflict is short, because "the dollar index fell further [last year] than was justified by [relative interest] rate moves." "We think the reset in major exchange rates will persist."
+- **Luca Paolini** (chief strategist, [[Pictet]]): dollar as haven "in the chaotic phase of the market price action," but medium-term the conflict "will add to the diversification away from the US impulse."
+
+The dollar story is the tell — DXY rose 1.3% against major trading partners this week, its best week in four months, reversing in four sessions most of the 2026 short-dollar gains. This is the positioning-squeeze channel documented in [[Iran conflict FX dynamics]], visible at the equity level: forced unwind of crowded trades, not a structural re-rating.
+
+*Source: FT, "Iran war upends popular trades" (Emily Herbert, March 4, 2026).*
 
 ### March 2026 cross-asset signature: nowhere to hide
 
@@ -221,6 +257,7 @@ Two major expert panels produced the deepest structural analysis:
 - Bloomberg: "Exail Technologies Stock Soars as Iran War Thrusts Seagoing Drones Into Spotlight" (March 13, 2026)
 - Bloomberg Odd Lots: "What War in Iran Means for Teapot Oil Refineries of China" (March 13, 2026, recorded Mar 4) — [[Erica Downs]] ([[Columbia Center on Global Energy Policy]])
 - FT: "US oil groups in line for $63bn windfall from Gulf war disruption" (March 14, 2026)
+- FT (Emily Herbert): "Iran war upends popular trades" (March 4, 2026) — global equity dispersion, position-squaring narrative
 - FT, *The Rachman Review*: Simon Gass interview (March 12, 2026)
 - CFR: "The Geoeconomic Ripple Effects of the Iran War" panel (March 17, 2026)
 - MEI: Mulroy/Connelly panel (March 20, 2026)

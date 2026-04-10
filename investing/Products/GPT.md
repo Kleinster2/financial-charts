@@ -235,6 +235,8 @@ Pricing: $1.75/$14 per M tokens (40% increase over GPT-5.1).
 
 Codex backbone — powered the relaunched coding agent (Feb 2026, Windows+Mac). Professional knowledge work optimization tested across 44 occupations via GDP-Val benchmark.
 
+[[Jakub Pachocki]] (Unsupervised Learning, Apr 9 2026): GPT-5.2 Pro has generated "minor but quite impactful" research ideas that [[OpenAI]] is using internally. The first tangible signal of models contributing to their own improvement loop. "It's still very, very small compared to where I expect it to be."
+
 ### GPT-5.3 Instant (Mar 3, 2026)
 
 Fast tier release. Training cutoff: Aug 31, 2025. Context: 400K. Pricing: ~$0.30/$1.20 per M tokens (cheapest GPT-5 variant).

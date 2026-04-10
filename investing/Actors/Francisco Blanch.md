@@ -91,6 +91,12 @@ Blanch entered the conflict as one of the most bearish commodity voices on the S
 
 *Sources: CNBC (Mar 27, 2026), Yahoo Finance, Money.whatfinger.com*
 
+## April 8, 2026 — Ceasefire: "still extremely tight"
+
+On the two-week US-Iran ceasefire and WTI's ~17% crash: "Oil market still extremely tight even if futures markets are down." The financial move overstates the physical reality — vessels, insurers, and port authorities need weeks to resume normal transit. Baseline still assumes most flows revert under "regime alteration" scenario, but previous $200 Brent warning stands if conflict resumes.
+
+*Source: Bank of America research note (Apr 8, 2026)*
+
 ---
 
 ## Related

@@ -25,6 +25,8 @@ tags: [actor, asset-management, private-credit, usa]
 
 Capped Q1 2026 redemptions at 7% (5% standard + 2% SEC allowance) after withdrawal requests surged to 14% of shares. Part of industry-wide wave of semi-liquid private credit fund gates. Also raising $1B through loan portfolio sale and expects $3B in new commitments to offset outflows. See [[Private Credit Software Concentration]].
 
+FT firm-level data (Apr 10, 2026) confirms Cliffwater as the largest total outflow firm in Q1: ~$4.6B in combined requests across its flagship and Enhanced funds, with ~$2.3B honoured and ~$2.3B unmet. Together with its Enhanced fund (~$1.0B total), Cliffwater accounted for roughly $5.6B of the industry's $20bn+ in Q1 requests — the largest share of any manager. See [[Private credit retail liquidity crisis 2026#Q1 2026 firm-level redemptions]].
+
 ---
 
 ## Related

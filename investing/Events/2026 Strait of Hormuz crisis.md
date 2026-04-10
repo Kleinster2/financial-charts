@@ -64,11 +64,11 @@ The 2026 Strait of Hormuz crisis is an ongoing disruption to global oil and LNG 
 - Apr 5: [[Macron]] and South Korean President [[Lee Jae Myung]] agree to coordinate strait opening.
 - Apr 5: F-15E pilot rescued after 24+ hours — Delta Force and SEAL Team Six extraction from 7,000-ft ridgeline in southwestern Iran.
 - Apr 6: Markets rally — S&P 500 posts fourth consecutive gain on last-minute ceasefire hopes. Oil dips intraday on negotiation optimism.
-- Apr 7: **Second [[2026 Kharg Island attack|Kharg Island strike]]** — US strikes 50+ military targets on Kharg Island (first strike was Mar 13, 90+ sites). Oil infrastructure again spared. Multiple bridges struck across Iran; railway bridge in Kashan, [[Isfahan]] province hit (2 killed). Blasts reported in [[Damascus]]; Israeli air defenses intercept Iranian missiles.
-- Apr 7: Trump on Truth Social: *"A whole civilization will die tonight never to be brought back again. I don't want that to happen, but it probably will."* Threatens nuclear facilities, power plants, attacks every four hours. Deadline: **8 PM ET tonight**.
+- Apr 7: Second [[2026 Kharg Island attack|Kharg Island strike]] — US strikes 50+ military targets on Kharg Island (first strike was Mar 13, 90+ sites). Oil infrastructure again spared. Multiple bridges struck across Iran; railway bridge in Kashan, [[Isfahan]] province hit (2 killed). Blasts reported in [[Damascus]]; Israeli air defenses intercept Iranian missiles.
+- Apr 7: Trump on Truth Social: *"A whole civilization will die tonight never to be brought back again. I don't want that to happen, but it probably will."* Threatens nuclear facilities, power plants, attacks every four hours. Deadline: 8 PM ET tonight.
 - Apr 7: [[IRGC]] counter-threat: will target infrastructure of the US and allies, "aiming to deprive them of access to the region's oil and gas for years to come." IRGC designates [[Palantir]] as a "legitimate target" for retaliatory measures — first named tech company targeted.
 - Apr 7: WTI $113.58-$115.21/bbl. S&P 500 futures -0.5%, Nasdaq -0.6%. Defense stocks lead (PLTR +6%, [[Northrop Grumman|NOC]]/[[RTX]]/[[L3Harris|LHX]] +2-4%). Energy names up 3-4% ([[Marathon Petroleum|MPC]], [[APA Corporation|APA]], [[Devon Energy|DVN]], [[Valero|VLO]], [[ConocoPhillips|COP]]).
-- Apr 8: **Trump announces two-week conditional ceasefire with [[Iran]]**, including [[Strait of Hormuz]] reopening. Oil crashes ~17% (biggest drop since COVID): WTI -17.7% to $92.92, Brent -16.1% to $91.68. Energy stocks hammered: major oil companies down -5% to -7.5%, [[Venture Global]] -12%, [[Cheniere]] -5.9%. S&P Energy Index had been up 37% in Q1 (vs S&P 500 -4.6%) before the war premium unwind. Over 800 vessels remain stuck in Gulf ([[Kpler]]). Iran to monitor ships for weapons and demand tolls in cryptocurrency. Physical market still elevated: [[Forties]] crude $34-35 above [[Brent crude|Brent]], [[Atlantic basin]] barrels rerouting to Asia. [[Rystad Energy]] (CNBC): tiered restart in Persian Gulf — Tier 1 assets ([[Saudi Arabia]], [[UAE]], [[Qatar]], [[Kuwait]]) can come online in 2-3 weeks, but 2-4 week physical shortage persists. Vessels and insurers won't move until ceasefire holds and mines confirmed inactive. [[Bab el-Mandeb]] risk if Houthi involvement continues.
+- Apr 8: Trump announces two-week conditional ceasefire with [[Iran]], including [[Strait of Hormuz]] reopening. Oil crashes ~17% (biggest drop since COVID): WTI -17.7% to $92.92, Brent -16.1% to $91.68. Energy stocks hammered: major oil companies down -5% to -7.5%, [[Venture Global]] -12%, [[Cheniere]] -5.9%. S&P Energy Index had been up 37% in Q1 (vs S&P 500 -4.6%) before the war premium unwind. Over 800 vessels remain stuck in Gulf ([[Kpler]]). Iran to monitor ships for weapons and demand tolls in cryptocurrency. Physical market still elevated: [[Forties]] crude $34-35 above [[Brent crude|Brent]], [[Atlantic basin]] barrels rerouting to Asia. [[Rystad Energy]] (CNBC): tiered restart in Persian Gulf — Tier 1 assets ([[Saudi Arabia]], [[UAE]], [[Qatar]], [[Kuwait]]) can come online in 2-3 weeks, but 2-4 week physical shortage persists. Vessels and insurers won't move until ceasefire holds and mines confirmed inactive. [[Bab el-Mandeb]] risk if Houthi involvement continues.
 
 ## Quantitative impact
 
@@ -166,6 +166,24 @@ Most vulnerable quadrant (high GDP exposure + high Gulf share): [[Japan]], [[Sou
 - [ ] Insurance market repricing — P&I clubs' annual renewal decisions
 - [ ] SPR depletion trajectory — 400M bbl released, finite remaining capacity
 
+## Analyst reaction to ceasefire (Apr 8)
+
+The ceasefire exposed a sharp split between physical-market and financial-market analysts:
+
+Physical-market skeptics:
+- [[Helima Croft]] ([[RBC Capital]]): "The mechanics of this reopening are going to be messy." Ships won't move until insurers cover, naval escorts confirm, and port authorities clear.
+- [[Natasha Kaneva]] ([[JPMorgan]]): Mapped a 3-stage reopening — stage 1 (weeks 1-3) recovers ~6.3 mb/d. OECD inventories drawing ~166mb in April, hitting operational minimum (~842mb) by late April. US gas $5/gal risk if Hormuz stays closed past mid-April.
+- [[Francisco Blanch]] ([[Bank of America]]): "Oil market still extremely tight even if futures markets are down." Previously warned $200 Brent if conflict persists. Baseline: most flows revert under "regime alteration" scenario.
+
+Financial-market optimists:
+- [[Ed Yardeni]] (Yardeni Research): Cut recession probability from 35% to 20%. S&P 500 bottomed Monday. "Two-week pause is not a resolution."
+- [[Mike Wilson]] ([[Morgan Stanley]]): Adding length in cyclicals and quality growth. Oil stabilizes $80-90 on de-escalation. Fresh Money Buy List: [[Walmart]], [[Delta Air Lines]], [[Northrop Grumman]].
+
+Cross-cutting:
+- [[Lyn Alden]]: "Most portfolios are not built for stagflation risks." Three-pillar portfolio approach (equities, commodities/producers, cash). Economy absorbs $150 oil but $200+ breaks global systems.
+
+Consensus: unanimous that a two-week truce is not a resolution. The question is whether the financial move (WTI -17%) accurately prices the physical reality (ships still not moving, insurers not covering, 800+ vessels stuck in the Gulf).
+
 ## Related
 
 - [[Hormuz Permanent Risk Premium]] — structural repricing framework
@@ -180,3 +198,4 @@ Most vulnerable quadrant (high GDP exposure + high Gulf share): [[Japan]], [[Sou
 - [[Iran conflict economic disruption]] — supply/demand math
 - [[US Energy Independence Six Countries]] — US exposure despite "energy independence"
 - [[Gulf Sovereign Capital Reallocation]] — capital flow implications
+- [[War premium sector map]] — beta-adjusted sector dispersion on ceasefire (Apr 8): staples, insurers, European banks carried hidden premium; SaaS accumulated safety premium that reversed

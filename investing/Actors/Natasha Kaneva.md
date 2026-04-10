@@ -85,18 +85,18 @@ Short-term global oil demand price elasticity: –0.024. At $100 Brent, the pric
 
 ### Asia shutdown inventory (as of Mar 19)
 
-**Petrochemicals (naphtha-dependent, >50% sourced from ME):**
+Petrochemicals (naphtha-dependent, >50% sourced from ME):
 - [[Japan]]: [[Mitsubishi Chemical]], [[Mitsui Chemicals]] cut ethylene output; [[Sumitomo Chemical]] may delay Keiyo Ethylene restart
 - [[South Korea]]: YNCC declared force majeure, running at reduced rates; [[Lotte Chemical]], [[LG Chem]] warned they could follow. Government designated naphtha a strategic economic security item.
 - [[China]]: [[Sinopec]] reduced refinery runs ~10% to preserve crude inventories. [[Shell]]-[[CNOOC]] JV ethylene cracker in Huizhou shut down. [[Wanhua Chemical]] declared force majeure for ME customers (LPG feedstock disruption).
 - [[Indonesia]]: [[Chandra Asri]] operating at reduced rates, declared force majeure
 - [[Taiwan]]: [[Formosa Plastics]] Group declared force majeure (Mar 10)
 
-**Aviation (jet fuel near $200/bbl):**
+Aviation (jet fuel near $200/bbl):
 - [[Qantas]], [[Air India]], [[Cathay Pacific]], [[IndiGo]]: tiered fuel surcharges ($125-200/passenger on long-haul)
 - Scandinavian Airlines, Air New Zealand: outright route cancellations
 
-**Government emergency measures:**
+Government emergency measures:
 - [[Bangladesh]]: brought forward Eid al-Fitr, closed universities
 - [[Philippines]], [[Sri Lanka]]: four-day workweeks
 - [[Pakistan]]: closed schools, shifted universities to remote
@@ -133,6 +133,14 @@ At operational minimum, "prices — not inventories — become the primary balan
 The 14 mb/d figure represents the effective net loss after accounting for bypass pipeline capacity (~7 mb/d combined) and selective transit leakage. The 166M barrel April draw implies OECD inventories burning through roughly 5.5M bbl/day of cushion.
 
 *Source: JPMorgan Commodities Research (Apr 3, 2026); via [BigGo Finance](https://finance.biggo.com/news/wrCSW50BOIb5XxavXJ5N), [Canadian Mining Report](https://www.canadianminingreport.com/blog/how-long-before-the-world-hits-crude-oil-operational-minimum-jpmorgan-s-math-and-what-it-means-for-canadian-mining-stocks-in-2026)*
+
+---
+
+## April 8, 2026 — Ceasefire reopening timeline
+
+Mapped a 3-stage [[Strait of Hormuz]] reopening after the two-week US-Iran ceasefire. Stage 1 (weeks 1-3) recovers ~6.3 mb/d as [[Saudi Arabia]], [[UAE]], [[Qatar]], and [[Kuwait]] restart Tier 1 assets. OECD inventories still drawing ~166mb in April, hitting operational minimum (~842mb) by late April. US gasoline $5/gal risk if Hormuz stays closed past mid-April. Physical market lags the financial crash — insurers and naval escorts need to confirm before vessels transit.
+
+*Source: JPMorgan Commodities Research (Apr 8, 2026)*
 
 ---
 

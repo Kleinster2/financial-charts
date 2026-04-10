@@ -223,6 +223,21 @@ On narrative framing: If comedy (things work out) requires knowing the ending, a
 
 ---
 
+## Chartbook: "Why 2026 is not 2025" (Mar 16, 2026)
+
+Curated a Andy Haldane argument that 2026's oil shock will leave deeper scars than 2025's tariff shock. The core logic:
+
+In 2025, a tech wave swamped a tariff wave — by year-end equities were +19%, growth beat expectations, recession predictions proved wrong. In 2026, that buffer is gone:
+- Central banks can no longer ease — energy prices resurgent, markets pricing rate rises in the eurozone and UK, no immediate easing in the US
+- AI is the most energy-hungry technology invented — expensive/uncertain energy risks slowing the one engine (tech) that rescued 2025
+- 2025's waves were "neutralizing and pacifying"; 2026's are "amplifying and escalating"
+
+Also flagged: US oil companies stand to receive a $63.4B windfall if prices average $100/bbl ([[Rystad Energy]] estimate). [[Jefferies]] estimates $5B/month in extra cash flow. [[BP]] and [[Exxon]] more exposed to the Middle East than [[Chevron]].
+
+*Source: [Chartbook Top Links, March 16, 2026](https://adamtooze.substack.com/p/oil-profits-why-2026-is-not-2025). Original Haldane argument via FT.*
+
+---
+
 ## Analytical approach
 
 **What makes Tooze distinctive:**

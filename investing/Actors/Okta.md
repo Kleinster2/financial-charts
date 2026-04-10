@@ -139,9 +139,16 @@ Source: Reuters (Mar 4, 2026).
 
 ---
 
+## April 9, 2026 — AI disruption selloff continues
+
+OKTA -10.9% (3.4σ) while S&P 500 +0.62%. Cybersecurity cluster sold off together: [[Zscaler]] -11.3%, [[Rubrik]] -10.6%, [[CrowdStrike]] -7.5%. The identity/IAM space is particularly exposed to the AI agent narrative — if AI agents can autonomously manage authentication and access, the manual-configuration moat narrows. No specific April 9 catalyst; continuation of the post-Claude Code Security de-rating from February.
+
+---
+
 ## Related
 
 - [[CrowdStrike]] — security peer
+- [[Zscaler]] — security peer
 - [[SaaS]] — sector
 
 ---

@@ -93,9 +93,19 @@ The dual-strait framing aligns with [[Robin J. Brooks]]'s argument that Iran's 2
 
 **CNBC Power Lunch (Apr 2):** "No indication of near-term plan to reopen Hormuz"
 
-**Carnegie Endowment (Apr 1):** "Crude Diplomacy" with Aaron David Miller
+Carnegie Endowment (Apr 1): "Crude Diplomacy" with Aaron David Miller
 
-**March 30 follow-up:** Bab al-Mandeb closing "effectively shuts in all Middle Eastern oil"
+March 30 follow-up: Bab al-Mandeb closing "effectively shuts in all Middle Eastern oil"
+
+## April 8, 2026 — Ceasefire skepticism
+
+Croft questioned the logistics of Hormuz reopening despite the two-week US-Iran ceasefire: "Who's going to be comfortable moving ships when drones and missiles are still being fired around the region? The mechanics of this reopening are going to be messy." Physical supply recovery will lag the financial price crash — vessels need insurance, port clearances, and naval escort protocols before transiting.
+
+*Source: NYT/DNYUZ (Apr 8, 2026)*
+
+### April 9 — Croft's skepticism confirmed within 24 hours
+
+WTI rallied +3% to $97.87 as markets realized Hormuz remains effectively closed despite the ceasefire. Iran limiting transit to 4-9 ships/day, charging crypto tolls >$1M/vessel. Iran's parliamentary speaker accused the US of breaching the ceasefire (Israeli strikes on [[Lebanon]], drone in Iranian airspace, uranium enrichment denial). Exactly Croft's point: "Who's going to be comfortable moving ships when drones and missiles are still being fired around the region?"
 
 ---
 

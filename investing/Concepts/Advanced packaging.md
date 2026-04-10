@@ -213,7 +213,7 @@ See [[Taiwan panel-to-packaging conversion]] for full details.
 
 
 ### Cross-vault
-- [Technologies: Advanced Packaging](obsidian://open?vault=technologies&file=Advanced%20Packaging) — full technical breakdown: CoWoS generations, interposer stitching, hybrid bonding, TSV mechanics
+- [Technologies: Advanced Packaging](obsidian://open?vault=technologies&file=Advanced%20Packaging) — full technical breakdown: CoWoS generations, interposer stitching, hybrid bonding, TSV mechanics, Intel EMIB/Foveros (specs, generations, products)
 
 ## Sources
 

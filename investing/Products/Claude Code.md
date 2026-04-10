@@ -79,6 +79,16 @@ UC Berkeley study (200-person org): workers offloading to AI agents but simultan
 
 ---
 
+## Channels (Q1 2026)
+
+Claude Code Channels allows users to message Claude Code through Discord and Telegram and receive notifications when tasks finish. This extends Claude Code from a terminal tool to an async messaging-based workflow — users can assign tasks, go about their day, and get notified of results.
+
+The feature neutralized [[OpenClaw]]'s core appeal of agent interaction through everyday messaging platforms. Analyst Nate B Jones called it part of Anthropic's pattern: first copy community-built features into their closed harness, then lock out the open-source alternative.
+
+The Mar 31 2026 source leak that exposed Claude Code's architecture also revealed [[Conway]] — an unreleased always-on agent with its own extension ecosystem (CNW.zip format). Conway extends the Channels concept further: persistent, event-driven, browser-connected, with automatic triggers from external services.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -104,5 +114,6 @@ UC Berkeley study (200-person org): workers offloading to AI agents but simultan
 - [[Codex]] — [[OpenAI]] competitor
 - [[Cursor]] — competitor
 - [[GitHub Copilot]] — competitor
+- [[Conway]] — unreleased always-on agent (discovered in same source leak)
 - [[Agentic AI]] — category
 - [[AI agents]] — broader category

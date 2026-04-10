@@ -3,7 +3,7 @@ aliases: [DeepMind, GDM]
 ---
 #actor #ai #modellab #uk #usa
 
-Google DeepMind — Google's AI research lab. Merged DeepMind ([[UK]]) + Google Brain (US). Created AlphaGo, AlphaFold, [[Gemini]].
+**Google DeepMind** — [[Google]]'s AI research lab. Merged DeepMind ([[UK]]) + Google Brain (US). Created [[AlphaGo]], AlphaFold, [[Gemini]]. Founded 2010 by [[Demis Hassabis]], Shane Legg, and Mustafa Suleyman. Acquired by [[Google]] in Jan 2014 for ~$500M. Merged with Google Brain in Apr 2023. Led by Hassabis (CEO, Nobel Prize in Chemistry 2024 for AlphaFold).
 
 ---
 
@@ -137,4 +137,7 @@ Google's AI capabilities are underappreciated:
 - [[Demis Hassabis]] — CEO
 - [[AI hyperscalers]] — category
 - [[Waymo]] -- [[Genie 3]] applied to AV simulation (Feb 2026)
+- [[AlphaGo]] — Go-playing AI, defeated Lee Sedol 2016
+- [[Chain-of-thought monitoring]] — cross-lab alignment collaboration with [[OpenAI]] and [[Anthropic]]
+- [[Jakub Pachocki]] — cites AlphaGo and cross-lab collaboration
 

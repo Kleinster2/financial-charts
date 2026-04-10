@@ -35,10 +35,10 @@ DAL trades as a core Regional Banks name (KRE r = 0.79).
 
 | Strength | Detail |
 |----------|--------|
-| **Premium focus** | Best domestic first class |
-| **Loyalty** | SkyMiles, Amex partnership |
-| **Operational** | Best on-time performance |
-| **Corporate** | Strong business travel |
+| Premium focus | Best domestic first class |
+| Loyalty | SkyMiles, Amex partnership |
+| Operational | Best on-time performance |
+| Corporate | Strong business travel |
 
 ---
 
@@ -46,7 +46,7 @@ DAL trades as a core Regional Banks name (KRE r = 0.79).
 
 | Airline | Strategy |
 |---------|----------|
-| **Delta** | Premium, reliability |
+| Delta | Premium, reliability |
 | United | International, hubs |
 | American | Scale, network |
 | Southwest | Low-cost, domestic |
@@ -55,13 +55,13 @@ DAL trades as a core Regional Banks name (KRE r = 0.79).
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Premium positioning
 - Business travel recovery
 - Loyalty revenue
 - Operational excellence
 
-**Bear:**
+Bear:
 - Fuel price exposure
 - Labor costs rising
 - Recession risk
@@ -69,22 +69,26 @@ DAL trades as a core Regional Banks name (KRE r = 0.79).
 
 ---
 
-## Q1 2026 earnings preview
+## Q1 2026 earnings (Apr 8)
 
-Reports Apr 8 (before open) — first real corporate earnings test of the [[2026 Strait of Hormuz crisis]] oil shock.
+First real corporate earnings test of the [[2026 Strait of Hormuz crisis]] oil shock. Mixed results: revenue beat, EPS slight miss, but the stock surged 12% on the same-day ceasefire oil crash.
 
-| Metric | Detail |
-|--------|--------|
-| Revenue guidance | $15.0-15.3B (raised) |
-| Jet fuel headwind | ~$400M Q1, fuel costs +70% in one month from Hormuz |
-| Corporate bookings | Record levels |
-| Premium cabin | Demand remains strong |
+| Metric | Result | Estimate |
+|--------|--------|----------|
+| Adjusted EPS | $0.64 | $0.65 |
+| Revenue | $14.2B | $13.94B |
+| GAAP net income | -$289M (loss) | — |
+| Fuel costs | $2.6B (+Iran premium) | — |
+| Premium revenue | +14% YoY | — |
+| Main cabin revenue | Up YoY (first time since late 2024) | — |
 
-[[Mike Wilson]]/[[Morgan Stanley]] has DAL on "Fresh Money Buy List."
+GAAP loss of $289M (-$0.44/share) vs net income of $240M ($0.37/share) a year ago — the gap is almost entirely fuel. Adjusted for one-time items: $423M net income ($0.64/share) vs $291M ($0.45/share) prior year, a 45% improvement on the adjusted basis.
 
-Forward guidance is the variable — headline beats matter less than how Ed Bastian frames the fuel cost trajectory and whether corporate travel demand is holding through the crisis.
+Q2 guidance: $1B pretax profit, $300M benefit from the Monroe refinery. Ed Bastian told investors to "plan for pricier flights" — passing fuel costs through to consumers.
 
-*Source: earnings calendar research, Apr 2026*
+DAL +12% on Apr 8, driven by the ceasefire oil crash (WTI -17%) rather than the earnings per se. [[Mike Wilson]]/[[Morgan Stanley]] had DAL on "Fresh Money Buy List" going into the report.
+
+*Sources: CNBC (Apr 8), Benzinga (Apr 8), MarketBeat (Apr 8), GuruFocus (Apr 8)*
 
 ---
 
@@ -93,11 +97,12 @@ Forward guidance is the variable — headline beats matter less than how Ed Bast
 | Metric | Value |
 |--------|-------|
 | Ticker | DAL |
-| Market cap | ~$35B |
+| Market cap | ~$42B |
 | Hub | Atlanta |
 | CEO | Ed Bastian |
+| Q1 2026 rev | $14.2B |
 
-*Created 2026-01-08*
+*Updated 2026-04-08*
 
 ---
 

@@ -25,6 +25,7 @@ $1.8T market of non-bank lending to corporates. The fastest-growing corner of al
 | US life insurer illiquid credit | **$2T** (Moody's) |
 | Retail investors in private funds | **>$200B** across [[Blackstone]], [[Apollo]], [[Blue Owl]], [[Ares Management\|Ares]] et al. |
 | Retail BDC redemptions (Q4 2025) | **$2.9B** (+200% QoQ) |
+| Q1 2026 redemption requests | **$20bn+** across 12+ largest funds; ~$11bn returned, rest gated (FT, Apr 10) |
 | Software concentration | 14-16% of spec-grade ("all-time" — Deutsche Bank) |
 | LMEs harming creditors ($500M+) | 33 (2024), 23 (2025) |
 | AI DC spending by 2030 | **$7T** (McKinsey) |
@@ -165,7 +166,9 @@ The retail model is breaking. After 5 years of selling illiquid loans as "bond a
 | ARCC ([[Ares Management]]) | $26B+ | 🟡 **11.6% Q1 requests** — capped at 5% |
 | OBDC ([[Blue Owl]]) | $16B+ | 🟡 Watching |
 
-**Latest escalation (Apr 2):** [[Blue Owl]] OTIC/OCIC report record redemption requests — 40.7% and 21.9% respectively. Combined ~$5.4B attempted withdrawals. [[KKR]] K-FIT also gated (Apr 1). House Financial Services Committee Democrats sent questions to [[Blackstone]], [[Ares Management|Ares]], and rivals. [[Morgan Stanley]] forecasts annual private credit defaults of **8%** (H2 2026–H1 2027), led by software. [[Jerome Powell|Fed Chair Powell]] (Mar 30): *"has not seen anything"* threatening the financial system but is watching. Combined alt manager YTD market cap loss: **$132B** (Reuters).
+**Latest escalation (Apr 10):** FT comprehensive Q1 tracking: **$20bn+** attempted withdrawals from 12+ funds managing $300B+ combined. ~$11bn returned; [[BlackRock]]/[[HPS Investment Partners|HPS]], [[Apollo]], [[Ares Management|Ares]], [[Blue Owl]], [[Cliffwater]], [[Morgan Stanley]] all restricted outflows. Obenshain (Verdad): *"first chapter in most credit cycles."* [[Blackstone]] published "Myth vs. Fact" counter-narrative. See firm-by-firm chart in [[Private credit retail liquidity crisis 2026#Q1 2026 firm-level redemptions]].
+
+**Prior escalation (Apr 2):** [[Blue Owl]] OTIC/OCIC report record redemption requests — 40.7% and 21.9% respectively. Combined ~$5.4B attempted withdrawals. [[KKR]] K-FIT also gated (Apr 1). House Financial Services Committee Democrats sent questions to [[Blackstone]], [[Ares Management|Ares]], and rivals. [[Morgan Stanley]] forecasts annual private credit defaults of **8%** (H2 2026–H1 2027), led by software. [[Jerome Powell|Fed Chair Powell]] (Mar 30): *"has not seen anything"* threatening the financial system but is watching. Combined alt manager YTD market cap loss: **$132B** (Reuters).
 
 **Prior escalation (Mar 11):** [[JPMorgan Chase|JPMorgan]] marks down software loan collateral values in its back-leverage business — first major bank to restrict funding to private credit.
 
@@ -392,6 +395,7 @@ These funds invest in companies with bad balance sheets but viable underlying bu
 
 | Date | Event | Why it matters |
 |------|-------|---------------|
+| **Apr 10, 2026** | FT Q1 comprehensive | **$20bn+ requests, $11bn returned.** Firm-by-firm chart — Cliffwater/Blue Owl largest, Blackstone honoured ~95% |
 | **Apr 2, 2026** | Blue Owl OTIC/OCIC disclosure | **40.7% and 21.9%** — industry records. Combined ~$5.4B |
 | **Apr 1, 2026** | KKR K-FIT gated | 6.3% requests, satisfied ~80% |
 | **Apr 1, 2026** | House Dems send questions to BX, ARES, rivals | Congressional scrutiny escalation |
@@ -461,6 +465,6 @@ This is a different angle from [[Marathon Asset Management|Bruce Richards]]' foc
 - [[Davidson Kempner]] — $38B, published private capital risk report (Mar 2026)
 - [[Oaktree Capital]] — Howard Marks, $190B, distressed core competency
 
-*Updated 2026-04-06*
+*Updated 2026-04-10*
 
 *Sources: Bloomberg Markets (Feb/Mar 2026 issue), Bloomberg Going Private newsletter (Mar 2026), Bloomberg (Seligson/Fishlow/Ismail/Scigliuzzo/Benitez, Mar 8 2026), PitchBook Q4 2025 Annual Global Private Market Fundraising Report (Mar 3, 2026), Reuters, CNBC, FT, Fitch Ratings*

@@ -58,11 +58,44 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **Apr 7, 2026** | **[[Goldman Sachs]] private credit fund:** redemption requests hit **4.999%** — just under the 5% quarterly cap. Goldman said reliance on institutional (vs retail) investors helped keep requests below the gate threshold |
 | **Apr 7, 2026** | **[[Blackstone]] raises $10B** for opportunistic credit — positioned to capitalize on dislocation from the software lending crisis. [[Marathon Asset Management\|Marathon]]'s Richards: *"Exactly the right move. Brilliant job Blackstone"* |
 | **Apr 7, 2026** | **Richards ([[Marathon Asset Management\|Marathon]]) on Bloomberg:** escalates to 15% default rate for **three consecutive years** (up from two). Recovery rates averaging 15-20 cents (vs standard 70-80 cent assumption). "Early, early days" — maturities not until 2027-28. Fund structures are "perfect"; portfolio concentration is the problem: 20-26% software × 1x leverage = 52% of capital at risk |
+| **Apr 10, 2026** | **FT: Q1 redemption total revised to $20bn+.** Comprehensive tracking of "more than a dozen" largest interval funds and BDCs (managing $300B+ combined) confirms $20bn+ in Q1 redemption requests — up from ~$19bn reported Apr 3. ~$11bn returned; rest gated. [[BlackRock]]/[[HPS Investment Partners\|HPS]], [[Apollo]], [[Ares Management\|Ares]], [[Blue Owl]], [[Cliffwater]], [[Morgan Stanley]] all restricted outflows. Greg Obenshain (Verdad Advisers): *"first chapter in most credit cycles... the stress in direct lending is a flow story, not a default story."* Daniel Fannon ([[Jefferies]]): *"managers have consistently asserted that their portfolios do not have underlying credit issues — this has not dissuaded retail investors from lining up to get their money back."* [[Blackstone]] launched "Private Credit: Myth vs. Fact" counter-narrative. See chart below |
 | **~Apr 2, 2026** | **Industry-wide Q1 total:** Investors attempted to pull ~**$19bn** from direct lending funds across the industry (FT, Apr 3 2026). Far exceeds the $11.7B tracked across 7 named funds — suggests broad participation beyond the largest managers |
 | **~Apr 2, 2026** | **US Treasury announces** it will meet with insurance regulators to assess risks from private credit — first executive-branch response beyond Sen. Warren's solo calls and House committee letters. Signals Washington moving from rhetoric to supervisory coordination |
 | **Apr 2, 2026** | **Alt manager YTD losses:** Combined **$132 billion in market value** lost by major alt managers in 2026 (Reuters calculation — APO, BX, ARES, KKR, CG, OWL) |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. [[Guggenheim Partners]] exec chair [[Alan Schwartz]] (former [[Bear Stearns]] CEO): *"cracks in the foundation."* [[Blackstone]] chief [[Jon Gray]]: *"never seen something so disconnected from reality."* [[Diameter Capital]] co-founder Scott Goodwin: AI risk factor affects >50% of PE/credit deals from past decade. [[Partners Capital]] John Beil: *"PE has lagged public benchmarks by meaningful amounts"* over 5 years, predicts Q1 software writedowns. Former [[Goldman Sachs]] CEO [[Lloyd Blankfein]]: liquidity mismatch *"more likely"* given time since last major credit crash. [[Bank of England]] stress test this year; governor Bailey says *"alarm bells"* ringing. Treasury OFR estimates bank lending to private credit **up to $540B**. [[Davidson Kempner]]: ~25% of PE funds since 2015 failed to earn carry |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously. **>$100B in funds** to disclose Q1 data ([[Barclays]]) |
+
+---
+
+## Q1 2026 firm-level redemptions
+
+![[ft-private-credit-q1-redemptions-by-firm-apr2026.png]]
+
+*Quarterly redemptions fulfilled (dark blue) and left unmet (light blue), $bn. [[Cliffwater]] and [[Blue Owl]] had the largest total requests (~$4.5B each), but [[Blackstone]] fulfilled most of its ~$3.7B. [[Apollo]] honoured less than half of ~$2B requested. Smaller managers ([[Goldman Sachs]], [[Oaktree Capital]], [[Nuveen]], [[Fidelity]], [[TPG]], [[Bain Capital]]) had modest requests largely honoured. Source: Company filings, FT research (Apr 10, 2026).*
+
+| Firm | Honoured ($bn) | Unmet ($bn) | Total ($bn) | Fill rate |
+|------|---------------|-------------|-------------|-----------|
+| [[Cliffwater]] | ~2.3 | ~2.3 | ~4.6 | ~50% |
+| [[Blue Owl]] | ~2.3 | ~2.2 | ~4.5 | ~51% |
+| [[Blackstone]] | ~3.5 | ~0.2 | ~3.7 | ~95% |
+| [[Apollo]] | ~0.8 | ~1.3 | ~2.1 | ~38% |
+| [[Ares Management\|Ares]] | ~0.5 | ~0.5 | ~1.0 | ~50% |
+| [[Blue Owl]] (Tech) | ~0.3 | ~0.8 | ~1.1 | ~27% |
+| [[HPS Investment Partners\|HPS]] | ~0.5 | ~0.7 | ~1.2 | ~42% |
+| [[Cliffwater]] (Enhanced) | ~0.5 | ~0.5 | ~1.0 | ~50% |
+| [[Goldman Sachs]] | ~0.4 | — | ~0.4 | ~100% |
+| [[Oaktree Capital]] | ~0.3 | — | ~0.3 | ~100% |
+| [[Morgan Stanley]] | ~0.2 | ~0.1 | ~0.3 | ~67% |
+| Barings | ~0.1 | ~0.1 | ~0.2 | ~50% |
+| Monroe | ~0.15 | — | ~0.15 | ~100% |
+| [[KKR]] | ~0.1 | ~0.05 | ~0.15 | ~67% |
+| [[BlackRock]] | ~0.1 | — | ~0.1 | ~100% |
+| [[Nuveen]] | ~0.05 | — | ~0.05 | ~100% |
+| [[Fidelity]] | ~0.05 | — | ~0.05 | ~100% |
+| [[TPG]] | ~0.05 | — | ~0.05 | ~100% |
+| [[Bain Capital]] | minimal | — | minimal | ~100% |
+
+The pattern: [[Blackstone]], the largest fund, honoured nearly all requests — using firm and employee capital to avoid gating. The worst fill rates were at [[Blue Owl]] Tech (~27%) and [[Apollo]] (~38%), where software and PE-backed lending concentration is highest. Smaller managers with institutional-heavy investor bases ([[Goldman Sachs]], [[Oaktree Capital]], [[BlackRock]]) honoured 100% of modest requests.
 
 ---
 

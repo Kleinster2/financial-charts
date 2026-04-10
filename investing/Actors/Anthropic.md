@@ -650,7 +650,9 @@ WSJ (Berber Jin, Mar 16 2026): Anthropic has become "the dominant AI provider fo
 
 [[Codex]] has recovered some ground: 2M+ WAU (up 4x since Jan) after [[OpenAI GPT-5.4]] launch. But Anthropic retains the enterprise lead — 80% enterprise revenue mix, 300K+ business customers, 8 of Fortune 10.
 
-*Sources: WSJ (Berber Jin, Mar 16, 19 2026; Ben Cohen, Mar 20 2026)*
+[[Jakub Pachocki]], OpenAI's Chief Scientist (Unsupervised Learning, Apr 9 2026), acknowledged Anthropic was "kind of first to this market" with [[Claude Code]]. He attributed it to product prioritization, not research: "if you look at the prioritization we've had on our product side — we have been working on coding products but they have been a secondary thing compared to our main priorities." The research focus was on capabilities that are "increasingly decoupled from our short-term product strategies."
+
+*Sources: WSJ (Berber Jin, Mar 16, 19 2026; Ben Cohen, Mar 20 2026); Unsupervised Learning (Apr 9 2026)*
 
 ---
 
@@ -805,11 +807,48 @@ As Futurism put it: "Anthropic wants all the benefits of copyright protection bu
 
 Also suing the [[Pentagon|US Department of Defense]] after supply-chain risk designation (Bloomberg, Apr 6).
 
+### Conway discovery in leaked code (Apr 2026)
+
+The Claude Code source leak also revealed [[Conway]] — an unannounced always-on agent environment operating as a standalone sidebar inside the [[Claude]] interface. Conway is not on Anthropic's public roadmap; it was buried in the leaked TypeScript.
+
+Key architectural elements found in the code:
+- Extensions ecosystem using a proprietary CNW.zip format — sits on top of [[Model Context Protocol|MCP]] but creates a Conway-only tooling layer
+- Connectors allowing external service integration (including Chrome)
+- Automatic triggers — public webhook endpoints that let outside services wake the agent
+
+The feature flags for "persistent assistant" background mode and remote phone/browser control (noted above) align with Conway's architecture. See [[Conway]] for full analysis.
+
+---
+
+### Platform strategy (Q1 2026)
+
+The leak, combined with Q1 product launches, reveals a coordinated five-surface platform strategy:
+
+| Surface | Product | Function |
+|---------|---------|----------|
+| Developer tool | [[Claude Code]] + Channels | Coding agent + Discord/Telegram async messaging |
+| Enterprise tool | [[Claude Cowork]] | Non-technical user agent |
+| Always-on agent | [[Conway]] | Persistent, event-driven, extension ecosystem |
+| Distribution | Claude Marketplace | Enterprise procurement — partner apps ([[GitLab]], [[Harvey]], [[Snowflake]]) purchased through Anthropic billing, no commission (yet) |
+| Enforcement | Third-party tool ban | Subscription access restricted to Anthropic-built surfaces |
+
+Additional distribution: $100M committed to Claude Partner Network. [[Accenture]] training 30,000 professionals on Claude; [[Deloitte]], [[Cognizant]], and [[Infosys]] as anchor partners.
+
+[[Claude Code]] Channels — launched Q1 2026 — lets users message Claude Code through Discord and Telegram and receive notifications when tasks complete. This neutralized [[OpenClaw]]'s core appeal of async agent interaction through messaging platforms.
+
+[[Claude Cowork]] adoption reportedly outpaced [[Claude Code]] at the same stage, targeting the ~95% of enterprise employees who are not engineers.
+
+[[Peter Steinberger]]'s read on the pattern: first Anthropic copies popular community features into their closed harness, then they lock out open source. The Claude Code Channels → OpenClaw ban sequence fits this interpretation.
+
+The strategy parallels [[Microsoft]]'s 1990s arc — OS vendor to desktop owner to application layer to enterprise lock-in via Active Directory — but compressed from ~15 years to ~15 months. [[Conway]] is the Active Directory play: the piece that makes the stack sticky through accumulated behavioral context. See [[Intelligence portability]] for the lock-in implications.
+
 ---
 
 ## Related
 
 - [[AI extensibility]] - MCP originator, Skills open standard, platform strategy
+- [[Conway]] - unreleased always-on agent (discovered in code leak)
+- [[Intelligence portability]] - behavioral lock-in from persistent agents
 - [[Claude]] - flagship AI product
 - [[Dario Amodei]] - CEO and co-founder
 - [[OpenAI]] - competitor, origin (founders left OpenAI)

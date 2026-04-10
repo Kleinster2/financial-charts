@@ -52,4 +52,16 @@ Codex will be the centerpiece of OpenAI's "superapp" strategy — gaining expand
 
 ---
 
-*Created 2026-03-07 | Updated 2026-03-21*
+## Harness generalization and multi-day autonomy
+
+[[Jakub Pachocki]] (Unsupervised Learning, Apr 9 2026) on Codex's trajectory: "The implementation of the harness shouldn't really be a limitation for a very long time." Expects much more general harnesses that people can use "for all sorts of other domains" — legal, finance, healthcare — not just coding. Codex is "pretty good actually if you try using it for things beyond coding."
+
+On autonomy: "We're not very far from models that can work autonomously for a couple days, maybe use quite a bit more compute than they're using now, and produce much higher quality artifacts on their own."
+
+On whether software engineering skills remain necessary: for larger projects, "you probably still want to apply supervision, still want to have an overarching vision, recognize what building blocks fit." But the required skill set is shifting "toward more general vision setting" rather than line-by-line coding.
+
+The majority of coding at [[OpenAI]] is now done via Codex internally. Pachocki sees the product evolving as "a pretty continual evolution from where Codex is now — toward a bit more autonomy, running for a longer time."
+
+---
+
+*Created 2026-03-07 | Updated 2026-04-10*

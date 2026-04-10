@@ -127,6 +127,12 @@ Connects to March 2026 newsletter finding: net US jobs added since April 2025 �
 
 **McCormack interview (Mar 31):** "DEFCON 5... catastrophe" on debt crisis
 
+## April 8, 2026 — Ceasefire: stagflation risk persists
+
+On the two-week US-Iran ceasefire: "Most portfolios are not built for stagflation risks." Three-pillar portfolio approach unchanged (equities, commodities/producers, cash). The economy absorbs $150 oil but $200+ breaks global systems. A two-week truce doesn't resolve the structural risks — [[Fiscal Dominance]], sovereign debt stress, and the [[Federal Reserve]]'s stagflation trap persist regardless of the ceasefire's outcome.
+
+*Source: CNBC / social media commentary (Apr 8, 2026)*
+
 ---
 
 ## Related

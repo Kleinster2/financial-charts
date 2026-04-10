@@ -94,9 +94,9 @@ The March 31 market action (+1.14% S&P on Trump ceasefire signals) partially val
 
 **"Correction getting closer to ending."** S&P fwd P/E compressed 17%. Half of R3000 down ≥20%
 
-**11-stock buy list for Hormuz reopening:** BKNG, CHWY, HAS, W, C, MA, STT, ZION, JCI, TT, ROK
+11-stock buy list for Hormuz reopening: BKNG, CHWY, HAS, W, C, MA, STT, ZION, JCI, TT, ROK
 
-**"Cumulative probability of resuming tanker flow much higher than recession probability"**
+"Cumulative probability of resuming tanker flow much higher than recession probability"
 
 S&P tactical floor at 6,300. Gold-to-equity ratio +12% since conflict
 
@@ -109,6 +109,12 @@ S&P tactical floor at 6,300. Gold-to-equity ratio +12% since conflict
 This is the third consecutive weekly reaffirmation of his "correction nearing end" thesis (Mar 25 → Mar 30 → Apr 6). Each iteration has been more explicitly bullish. The Apr 7 Kharg Island strike and Trump's 8 PM deadline are the immediate test — if escalation forces a sharp sell-off through Wilson's 6,300 floor, the bull-market-correction framing comes under pressure.
 
 *Source: Morgan Stanley podcast (Apr 6, 2026); CapitalAI Daily*
+
+## April 8, 2026 — Ceasefire: adding cyclicals
+
+Adding length in cyclicals and quality growth on the ceasefire. Oil stabilizes $80-90 on de-escalation. Fresh Money Buy List: [[Walmart]], [[Delta Air Lines]], [[Northrop Grumman]]. This is the fourth consecutive week of bullish positioning (Mar 25 → Mar 30 → Apr 6 → Apr 8). The ceasefire validates his "correction nearing end" thesis — the question is whether a two-week truce holds.
+
+*Source: Morgan Stanley research (Apr 8, 2026)*
 
 ---
 

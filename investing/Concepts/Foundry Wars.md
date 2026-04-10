@@ -172,4 +172,10 @@ Uncertainties worth tracking:
 
 ---
 
-*Last updated: 2025-12-30*
+## Intel lands TERAFAB deal (Apr 7, 2026)
+
+[[Intel]] signed on as foundry partner for [[TERAFAB]], the $25B joint fab (Tesla/SpaceX/xAI) at Giga Texas. Intel contributes 18A process node and advanced packaging ([[EMIB]], [[Foveros]]). This is the largest external foundry customer win for [[Intel Foundry Services]] to date — two fabs (auto/robotics + AI datacenter/orbital), initial 100K wafer starts/month targeting 1M. Validates the IFS turnaround thesis, though execution on 18A HVM remains the key risk.
+
+---
+
+*Last updated: 2026-04-08*

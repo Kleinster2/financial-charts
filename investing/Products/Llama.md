@@ -16,7 +16,7 @@ parent_concept: "[[Frontier models]]"
 
 # Llama
 
-[[Meta]]'s open-weights LLM family. Most influential open-source AI model. Llama 4 (Apr 2025) has 10M token context (Scout). Free commercial use under Meta license.
+[[Meta]]'s open-weights LLM family. Most influential open-source AI model of 2023–2025. Llama 4 (Apr 2025) has 10M token context (Scout). Free commercial use under Meta license. Superseded as Meta's flagship by [[Muse Spark]] (Apr 8 2026), a proprietary ground-up rebuild from [[Meta Superintelligence Labs]]; Meta has said it "hopes to open-source future versions" of the Muse line but has not committed to continuing Llama as an open-weights family.
 
 ## Quick stats
 
@@ -40,7 +40,8 @@ parent_concept: "[[Frontier models]]"
 | **Llama 3** | Apr 2024 | 8B/70B, major quality leap |
 | Llama 3.1 | Jul 2024 | **405B**, 128K context |
 | Llama 3.3 | Dec 2024 | 70B matches 405B quality |
-| **Llama 4** | Apr 2025 | Scout/Maverick/Behemoth |
+| **Llama 4** | Apr 2025 | Scout/Maverick/Behemoth — underperformed expectations, triggered MSL reorg |
+| *[[Muse Spark]]* | *Apr 8 2026* | *Successor line, proprietary, ground-up rebuild under [[Alexandr Wang]]* |
 
 ---
 

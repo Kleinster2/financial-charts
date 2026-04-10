@@ -54,6 +54,22 @@ Three categories of third-party tool access:
 
 If Anthropic tightens enforcement from category 1 to category 2, OpenClaw would be directly affected. This is the primary existential risk to the project's Claude integration.
 
+## "Copy then lock" pattern (Apr 2026)
+
+[[Peter Steinberger]]'s characterization of [[Anthropic]]'s strategy, per analyst Nate B Jones (Apr 8 2026): first they copy popular community features into their closed harness, then they lock out the open source.
+
+The sequence:
+1. OpenClaw demonstrated async agent messaging via WhatsApp/Telegram/Discord
+2. Anthropic shipped Claude Code Channels (Discord/Telegram notifications) — neutralizing OpenClaw's core appeal
+3. Anthropic enforced third-party tool ban (Jan quietly, Feb TOS revision, then enforcement)
+4. The [[Claude Code]] source leak revealed [[Conway]] — an always-on agent with a proprietary extension format (CNW.zip) that creates a closed app store for agent capabilities
+
+Steinberger's framing: step one, build the first-party version of what the community built. Step two, make the first-party version free or subsidized inside the subscription. Step three, make the third-party version expensive or impossible. Step four, ship the proprietary format that ensures the ecosystem builds for your surface, not the open one.
+
+See [[Conway]] and [[Intelligence portability]].
+
+---
+
 ## Viral growth
 
 - Launched Nov 2025 as a personal project
@@ -257,6 +273,8 @@ Currently **losing $10-20K/month** on the project. All sponsorship goes to depen
 - [[Agentic AI]] - product category
 - [[Agentic AI security]] - security concerns
 - [[MCP]] - Anthropic's open agent protocol (parallel strategy)
+- [[Conway]] - Anthropic's competing always-on agent (proprietary)
+- [[Intelligence portability]] - what makes the lock-in stick
 - [[Skills]] - Anthropic's open instruction standard
 - [[Lex Fridman]] - 3-hour podcast interview (#491, Feb 12, 2026)
 - [[Playwright]] - browser automation library used for browser control
