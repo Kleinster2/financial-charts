@@ -129,6 +129,14 @@ Peltz's bet: the slimmed-down beauty and personal care company will grow faster 
 
 ---
 
+## Grüns acquisition (Apr 9, 2026)
+
+First acquisition post-McCormick food merger. [[Unilever]] will buy [[Grüns]], the #1 US greens supplement brand (gummies, 1M customers, 10M gummies/day), for an undisclosed amount (~$1.2B per Inc.). Grüns was founded in 2023 by Chad Janis and valued at $500M in its 2025 Series B — the ~2.4x markup in under a year reflects consumer health M&A dynamics where DTC brands with proven retention command premium valuations. The deal extends Unilever's supplements rollup: Olly Nutrition (2019), SmartyPants Vitamins (2020), Nutrafol (2022), now Grüns. Jostein Solheim (Wellbeing CEO): *"This combination of efficacy and experience is powerful, and together we see a significant opportunity to scale the brand within our well-being business."*
+
+Strategic signal: post-food, post-ice cream, Unilever is reshaping around beauty + wellbeing + personal care at ~€39B revenue. The Grüns deal moves the wellbeing vertical toward supplements scale, following the Liquid I.V. playbook (acquired 2020, hit $1B revenue by 2025 via Unilever distribution).
+
+---
+
 ## Related
 
 - [[Beauty]] — sector hub
@@ -139,5 +147,6 @@ Peltz's bet: the slimmed-down beauty and personal care company will grow faster 
 - [[Nelson Peltz]] — activist who pushed food separation
 - [[Trian Partners]] — Peltz's fund (~1% stake)
 - [[McCormick]] — combined food entity partner ($66bn)
+- [[Grüns]] — greens supplements acquisition (Apr 2026)
 
-*Created 2026-01-24. Updated 2026-04-08 — food breakup with McCormick.*
+*Created 2026-01-24. Updated 2026-04-10 — Grüns acquisition.*
