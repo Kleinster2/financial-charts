@@ -25,6 +25,8 @@ aliases: [Companhia Brasileira de Metalurgia e Mineracao]
 
 Expanding beyond steel alloys into niobium titanium oxide (NTO) battery anodes. Partnership with [[Toshiba]] and [[Sojitz]]. Targeting 25-30% of revenue from non-steel products by 2030. Launched world's first NTO anode production facility (Nov 2024).
 
+In March 2026, [[Drew Crawford]] highlighted [[CBMM]] in his allocator-facing Brazil thesis as one of the clearest examples of why Brazil matters strategically beyond agriculture and oil. His framing was straightforward: a single Brazilian company, controlled by the Moreira Salles family, sits on a near-monopoly in a mineral critical to high-performance steel, aerospace alloys, superconductors, and potentially next-generation batteries. That kind of supply concentration is exactly the sort of non-consensus strategic asymmetry foreign investors often miss when they think of [[Brazil]] only through public equities, rates, or electoral noise.
+
 ---
 
 ## Related
