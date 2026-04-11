@@ -184,6 +184,16 @@ Bear case: ING forecasts iron ore averaging $95/t for 2026, dam-related cash out
 
 ---
 
+## Critical minerals positioning
+
+Vale's portfolio — iron ore + nickel + copper — positions it as one of the few miners with exposure across both traditional steelmaking and energy transition minerals. Within [[Brazil]]'s broader mineral superpower positioning (~90% of global [[Niobium]], world's 2nd nickel/graphite reserves, 3rd rare earths outside Asia, 14% lithium, 3rd manganese, top-10 copper), Vale is the largest publicly traded vehicle for accessing [[Brazil]]'s mineral endowment.
+
+The VBM IPO (~$40B target) would create the first pure-play vehicle for [[Brazil]]'s energy transition minerals — copper (targeting 900 kt/yr) and nickel (targeting 300 kt/yr). For Western allocators seeking [[China]] alternatives in critical minerals supply chains, Vale/VBM offers scale that smaller [[Brazil]]ian producers ([[Serra Verde]], [[CBMM]]) cannot match in public markets.
+
+*Source (mineral superpower framing): Drew Crawford/[[Austral Continental]], "The Case for Brazil" (March 2026). Note: this is an LP marketing piece for Crawford's advisory firm.*
+
+---
+
 ## Investment case
 
 Bull:
@@ -235,7 +245,9 @@ Bear:
 - [[Iron ore]] — primary commodity (#1 globally)
 - [[China]] — primary demand driver
 - [[Brazil]] — HQ, operations, regulatory environment
+- [[Critical minerals]] — Brazil's mineral superpower positioning
+- [[Niobium]] — Brazil's concentrated critical mineral (via [[CBMM]], not Vale)
 
 ---
 
-*Created 2026-01-06. Updated 2026-02-15.*
+*Created 2026-01-06. Updated 2026-04-11.*

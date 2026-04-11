@@ -209,6 +209,36 @@ See [[Rare earth leverage]] → Brazil section for full analysis.
 
 ---
 
+## Resource superpower positioning
+
+[[Brazil]] is the only large democracy simultaneously endowed with surplus food production, freshwater, clean energy, hydrocarbons, and critical minerals — all exportable via Atlantic routes that bypass the [[Strait of Hormuz]], [[Suez Canal]], and [[Bab el-Mandeb]] chokepoints.
+
+### Agricultural expansion headroom
+
+[[Brazil]] is already the world's largest net food exporter, but the arable land base is far from fully utilized. An estimated 30-40M hectares of degraded Cerrado pasturelands could be converted to cropland without touching the Amazon — roughly doubling current cultivated area. [[Embrapa]]'s tropical soil science (liming acidic soils, no-till techniques, precision agriculture) drove 3-4% annual productivity gains over 20 years, transforming the Cerrado from barren scrubland into the country's agricultural heartland. The [[Bom Futuro Group]] farms 700,000+ hectares in Mato Grosso — the largest soybean operation in [[Brazil]]. Critically, [[Brazil]]ian agriculture is largely rainfed (not irrigation-dependent), backed by 12% of the world's renewable freshwater and the Guarani Aquifer.
+
+See [[Brazil food security]] for full analysis.
+
+### Clean energy matrix
+
+87% of [[Brazil]]'s electricity comes from renewable sources (~65% hydropower), with ~50% of total primary energy supply from renewables. Emissions intensity: 60 kg CO₂/MWh — vs US 400, [[China]] 650, [[EU]] OECD 350. This creates a structural advantage under carbon border pricing ([[CBAM]]): [[Brazil]]ian steel produced on Paraná hydroelectric competes against steel from Hebei on coal; [[Brazil]]ian pulp from Santa Catarina on biomass cogeneration competes against Nordic pulp on natural gas. As CBAM phases in, the emissions differential becomes a direct cost advantage for [[Brazil]]ian manufactured exports.
+
+See [[Brazil clean energy matrix]] for full analysis.
+
+### Carbon balance sheet
+
+The Amazon stores an estimated 150-200B metric tons of carbon. At voluntary market prices ($5-15/ton), that's $1-3T. At [[EU ETS]] regulated prices ($50-150/ton), it's $7.5-30T. Currently priced at approximately zero on institutional balance sheets. The direction of travel — biodiversity credits, ecosystem service payments, REDD+ — points toward eventual partial monetization, but enforcement mechanisms remain undeveloped.
+
+See [[Brazil carbon balance sheet]] for full analysis.
+
+### Friend-shoring catalyst
+
+For Western allocators seeking supply chain diversification from [[China]], [[Brazil]] is the only large-scale alternative that combines food/water/energy/mineral abundance with democratic governance and Atlantic export routes. The [[India]]-[[Brazil]] critical minerals MOU (Feb 2026), US and [[EU]] competition for mineral partnerships, and [[CBAM]] tailwinds all converge on [[Brazil]] as a structural beneficiary of friend-shoring and nearshoring trends.
+
+*Source (resource superpower framing): Drew Crawford/[[Austral Continental]], "The Case for Brazil" (March 2026). This is an LP marketing piece for Crawford's advisory firm — data points extracted and independently verified where possible.*
+
+---
+
 ## Risks
 
 | Risk | Impact |
@@ -264,6 +294,13 @@ See [[Rare earth leverage]] → Brazil section for full analysis.
 - [[India-Brazil critical minerals MOU 2026-02]] — Feb 2026 MOU signed during Lula state visit
 - [[Serra Verde]] — only active Brazilian rare earth producer
 - [[Niobium]] — [[Brazil]] controls ~90% of global supply ([[CBMM]])
+
+### Resource endowment
+- [[Embrapa]] — agricultural research corp that transformed the Cerrado
+- [[Brazil food security]] — unused arable land thesis, Cerrado expansion headroom
+- [[Brazil clean energy matrix]] — 87% renewable electricity, CBAM advantage
+- [[Brazil carbon balance sheet]] — Amazon carbon valuation ($1-30T range)
+- [[Austral Continental]] — Crawford advisory firm (source of resource superpower thesis)
 
 ### Regional
 - [[China]] — commodity trade partner, [[Chinalco]] CBA acquisition, tech investment

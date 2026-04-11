@@ -47,10 +47,10 @@ Beyond steel, niobium is the backbone of superconducting technology — niobium-
 | [[CMOC Group]] market share | ~11% |
 | [[Magris Performance Materials]] share | ~8-10% |
 | World total production | ~108,000 tonnes (2024) |
-| US domestic production | Zero since 1959 |
+| US domestic production | Zero since 1959 (USGS, confirmed annually through 2025) |
 | US import dependence | 100% |
 | [[China]] import dependence | 100% |
-| EU sourcing from Brazil | 92% |
+| EU sourcing from Brazil | 92% (EU critical raw materials dependency) |
 
 This is the most concentrated supply chain of any critical mineral — more concentrated than [[Gallium]] (99% [[China]]) because a single private company controls the majority.
 

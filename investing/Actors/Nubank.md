@@ -189,6 +189,14 @@ Vélez is Colombian, [[Stanford]]/Sequoia background.
 - [[Block]] — peer (fintech)
 - [[Fintech]] — sector
 
+### Financial inclusion context
+- [[Brazil]]'s ~215M population at ~$10K per capita inflection — the classic "emerging middle class digitization" sweet spot
+- [[Nubank]]'s 131M customers represent over half of [[Brazil]]'s adult population being brought into formal financial services
+- Broader fintech ecosystem ([[StoneCo]], [[PagSeguro]], [[PicPay]], Creditas, Contabilizei, XP) is formalizing credit and payments for previously unbanked/underbanked segments
+- FIDCs (Fundos de Investimento em Direitos Creditórios) enabling fintech credit origination at scale
+
+*Source (demographic inflection framing): Drew Crawford/[[Austral Continental]], "The Case for Brazil" (March 2026).*
+
 ---
 
-*Created 2026-01-16 | Updated 2026-02-26*
+*Created 2026-01-16 | Updated 2026-04-11*

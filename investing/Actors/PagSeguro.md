@@ -126,6 +126,14 @@ Management guidance:
 - [[Fintech]] — sector
 - [[Brazil]] — country context
 
+### Fintech formalization context
+
+[[PagSeguro]] exemplifies how [[Brazil]]'s fintech ecosystem is formalizing the economy from the ground up. The merchant-acquiring-to-banking pipeline — onboard small merchants with POS terminals, convert them to PagBank accounts, then cross-sell credit and financial services — is systematically bringing SMBs into the formal financial system. With [[Pix]], digital banking, and credit scoring, previously informal businesses gain access to recorded transaction histories that enable credit origination at scale.
+
+The broader ecosystem — [[Nubank]] (131M customers), [[StoneCo]], [[PicPay]], Creditas, Contabilizei, XP — is rewiring [[Brazil]]'s payments and credit infrastructure from a bank-branch model to a mobile-first model, reaching 215M people at the ~$10K per capita inflection point where financial services demand accelerates.
+
+*Source (demographic framing): Drew Crawford/[[Austral Continental]], "The Case for Brazil" (March 2026).*
+
 ---
 
-*Created 2026-01-27*
+*Created 2026-01-27. Updated 2026-04-11.*

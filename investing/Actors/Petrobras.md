@@ -103,6 +103,20 @@ The pre-salt province — Santos and Campos Basins — is the crown jewel. Sub-s
 
 Pre-salt went from first oil (2008-2009) to 2.2M boe/d own production and 3.2M boe/d operated by 2024 — 81% of Petrobras total. Búzios alone produces more than many national oil companies.
 
+### Environmental and logistical advantages
+
+**Low-carbon crude:** Pre-salt oil emits approximately 40% less CO₂ per barrel than the global average (Petrobras data; some sources cite up to 70% for the lightest grades). The crude is light and low-sulfur, commanding a quality premium. As carbon pricing mechanisms like [[CBAM]] expand, this emissions advantage becomes a direct competitive edge over heavier, dirtier crudes from [[Venezuela]], [[Canada]] oil sands, or some Middle Eastern producers.
+
+**Atlantic routing:** All [[Brazil]]ian oil exports transit the South Atlantic — no exposure to the [[Strait of Hormuz]], [[Suez Canal]], or [[Bab el-Mandeb]] chokepoints. During the [[2026 Iran conflict market impact|2026 Hormuz crisis]], this routing advantage translated directly into supply security for Atlantic Basin buyers. [[Brazil]]'s export routes go directly to US Gulf Coast, European, and West African markets without passing through any contested strait.
+
+### Production trajectory (Brazil total)
+
+[[Brazil]]'s total oil and gas production (all operators) reached a record 4.897M boe/d in 2025 — up 13.3% YoY (ANP data, Feb 2026). This includes [[Petrobras]] plus international operators in pre-salt production-sharing contracts.
+
+**Reserve estimates:** Proven reserves (1P) at 11.4B boe ([[Petrobras]] alone, rising to 12.1B boe in 2025). Industry estimates for total pre-salt recoverable resources range from 30-40B boe (Enverus) to higher figures — the Santos and Campos basins are still being explored. Note: the 30-40B figure represents estimated total pre-salt resources, not just Petrobras's proved reserves.
+
+*Source (routing/emissions framing): Drew Crawford/[[Austral Continental]], "The Case for Brazil" (March 2026); production data from ANP/Agência Brasil (Feb 2026); emissions data from Petrobras IR and US Trade.gov.*
+
 ---
 
 ## Ownership structure

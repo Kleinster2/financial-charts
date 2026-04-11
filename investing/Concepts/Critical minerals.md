@@ -162,4 +162,43 @@ FT compares three approaches to critical mineral supply chain resilience:
 
 **[[Brazil]] detail:** See [[Rare earth leverage]] → Brazil section. [[Brazil]] is repositioning rare earths as geopolitical leverage — the [[India]]-[[Brazil]] MOU (Feb 2026) was a "pilot" before negotiating with the US. Innovative phosphogypsum extraction route ([[Mosaic]]/[[Rainbow Rare Earths]]) eliminates primary mining. Late 2025: National Mining Policy Council launched. FT (Jan 2026): officials see "chance of a deal."
 
-*Updated 2026-03-23*
+---
+
+## [[China]]'s refining dominance (full picture)
+
+Beyond mining, [[China]]'s chokehold extends through refining and processing — where concentration is often even more extreme:
+
+| Stage | [[China]] share | Note |
+|-------|-------------|------|
+| Lithium refining | 65% | Despite [[Australia]]/Chile/[[Argentina]] mine dominance |
+| Graphite processing | 91% | Natural + synthetic |
+| Rare earth refining | 97% | Near-total |
+| Nickel processing | 70% | Indonesia mines, China refines |
+| Manganese processing | 90% | |
+| Cobalt refining | 77% | [[DRC]] mines, China refines |
+
+*The refining stage is where [[China]]'s leverage is strongest — building a mine takes 5-7 years, but building refining capacity takes 7-10 years and requires chemical engineering expertise that Western countries have largely lost.*
+
+---
+
+## [[Brazil]] as [[China]] alternative
+
+[[Brazil]]'s mineral endowment makes it a key diversification target for Western supply chains:
+
+| Mineral | [[Brazil]] position | Status |
+|---------|-------------------|--------|
+| [[Niobium]] | ~90% global supply ([[CBMM]]) | Active, dominant |
+| Nickel | 2nd largest reserves | Active ([[Vale]], Onca Puma) |
+| Graphite | 2nd largest reserves | Early-stage |
+| Rare earths | 3rd largest (∲22M tonnes), first outside Asia | [[Serra Verde]] only active producer |
+| Lithium | ~14% of global reserves | "Lithium Valley" in Minas Gerais — 11 active projects |
+| Manganese | 3rd largest | Active |
+| Copper | Top-10 | [[Vale]] scaling (348 kt → 900 kt target) |
+
+**Less than 50% of [[Brazil]]'s territory has been geologically mapped** (48% at 1:250,000 scale, only 27% at the more detailed 1:100,000 scale — Geological Survey of Brazil/PIIE, 2026). The Amazon region is estimated to host sizeable deposits of many critical minerals that remain unexplored.
+
+**National Policy on Strategic Minerals:** Launched late 2025 via the National Mining Policy Council. Signals [[Brazil]]'s shift from passive resource holder to active strategic mineral policy.
+
+*Sources: USGS Mineral Commodity Summaries; KPMG Brazil Country Mining Guide 2023; PIIE (Mar 2026); Geological Survey of Brazil; Crawford/[[Austral Continental]] (March 2026).*
+
+*Updated 2026-04-11*
