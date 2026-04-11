@@ -5,7 +5,7 @@ aliases: [Brasil, BRL, Brazilian]
 
 # Brazil
 
-**Largest LatAm economy** — ~$2T GDP, 215M population, ~$10K GDP per capita. High rates (Selic 15%), commodity exporter (iron ore, soybeans, oil), fintech leader ([[Pix]]: 87% adult adoption). More unused arable land than any other country — can double cultivated area via Cerrado degraded pasture conversion without touching Amazon. Cleanest energy matrix among G20 nations (87% renewable electricity, ~60 kg CO₂/MWh vs US ~400). Holds 12% of world's renewable freshwater (Amazon basin ~20% of all surface river water). Controls ~90% world niobium supply via [[CBMM]]. Less than 50% of territory geologically mapped. [[B3]] exchange, Ibovespa index. Key actors: [[Nubank]], [[StoneCo]], [[TOTVS]], [[Vale]], [[Petrobras]], [[CBMM]], Itaú.
+**Largest LatAm economy** — ~$2T GDP, 215M population. High rates (Selic 15%), commodity exporter (iron ore, soybeans, oil), fintech leader ([[Pix]]: 87% adult adoption). [[B3]] exchange, Ibovespa index. Key actors: [[Nubank]], [[StoneCo]], [[TOTVS]], [[Vale]], [[Petrobras]], Itaú.
 
 ---
 
@@ -36,12 +36,11 @@ aliases: [Brasil, BRL, Brazilian]
 
 | Metric | Current | [[Target]]/Outlook |
 |--------|---------|----------------|
-| Selic rate | 15.00% | COPOM holding — no easing imminent; market expects ~12% by year-end |
-| [[Inflation]] | 4.26% (Dec 2025) | [[Target]] 3% (±1.5pp tolerance) |
-| GDP growth | 3.2% avg (2022-24) | 2.0-2.2% (2025-27), signs of cooling |
-| GDP per capita | ~$10K | At same inflection point S. Korea passed in 1980s, China in early 2000s |
-| Public debt/GDP | ~78% | Rising; projected R$9.3-10.3T federal debt by year-end |
-| 10Y yield | ~13.6% | Sticky risk premia, election-year uncertainty |
+| **Selic rate** | 15.00% | COPOM holding — no easing imminent; market expects ~12% by year-end |
+| **[[Inflation]]** | 4.26% (Dec 2025) | [[Target]] 3% (±1.5pp tolerance) |
+| **GDP growth** | 3.2% avg (2022-24) | 2.0-2.2% (2025-27), signs of cooling |
+| **Public debt/GDP** | ~78% | Rising; projected R$9.3-10.3T federal debt by year-end |
+| **10Y yield** | ~13.6% | Sticky risk premia, election-year uncertainty |
 
 **Macro story:** 15% [[Selic]] crushing corporates — record bankruptcy filings, [[Raizen]] downgraded from investment grade to CCC in a single day (Feb 2026). [[Banco Central do Brasil]] holding firm despite political pressure. Easing timeline uncertain; 2026 presidential election reduces fiscal consolidation appetite. See [[Brazil corporate bond rout February 2026]].
 
@@ -51,16 +50,11 @@ aliases: [Brasil, BRL, Brazilian]
 
 | Factor | Investment relevance |
 |--------|---------------------|
-| Agricultural headroom | More unused arable land than any country; can double without touching Amazon |
-| Water security | 12% world freshwater, agriculture largely rainfed — climate-resilient |
-| Clean energy advantage | 87% renewable electricity; EU CBAM creates structural cost edge |
-| Carbon balance sheet | Amazon holds 150-200B tonnes carbon; voluntary ($5-15/ton) = $1-3T value |
-| Critical minerals | 90% niobium monopoly, 2nd in nickel/graphite, 3rd REE potential — <50% mapped |
-| [[Fintech]] hub | Highest adoption globally; [[Pix]] leapfrogged cards |
-| Commodity exporter | Iron ore, soybeans, oil — China-dependent |
-| High rates | Tough for growth stocks; opportunity when cycle turns |
-| Large domestic market | 215M people, growing middle class |
-| Currency volatility | BRL swings create entry/exit points |
+| **[[Fintech]] hub** | Highest adoption globally; [[Pix]] leapfrogged cards |
+| **Commodity exporter** | Iron ore, soybeans, oil — China-dependent |
+| **High rates** | Tough for growth stocks; opportunity when cycle turns |
+| **Large domestic market** | 215M people, growing middle class |
+| **Currency volatility** | BRL swings create entry/exit points |
 
 ---
 
@@ -83,76 +77,16 @@ aliases: [Brasil, BRL, Brazilian]
 
 ---
 
-## Agriculture: World's expansion potential
-
-Brazil has more unused arable land than any other country. Can approximately double cultivated area without touching Amazon rainforest via Cerrado degraded pasture conversion.
-
-| Metric | Value |
-|--------|-------|
-| Current status | #1 net food exporter globally |
-| GDP contribution | ~25% of GDP |
-| Export revenue | >40% of total export revenue |
-| Productivity growth | 3-4%/year for two decades ([[Embrapa]] research, precision ag) |
-| Water advantage | Agriculture largely rainfed (no irrigation dependency) |
-
-Technology drivers:
-- [[Embrapa]] (Brazilian Agricultural Research Corporation) — world-class tropical soil science R&D
-- Precision agriculture adoption accelerating (GPS-guided machinery, drone monitoring, soil analytics)
-- [[Bom Futuro Group]]: ~400K hectares in Mato Grosso (~1,500 sq mi — larger than Rhode Island)
-
-Expansion path: Cerrado savanna degraded pasture conversion. Avoids Amazon deforestation while accessing massive land bank.
-
----
-
-## Energy matrix
-
-Brazil's electricity mix is the cleanest of any major industrial economy.
-
-| Metric | Value |
-|--------|-------|
-| Renewable share of electricity | ~87% |
-| CO₂ per MWh | ~60 kg (vs US ~400, China ~650, EU avg ~350) |
-| Renewable share of total primary energy | ~50% |
-| Hydropower share of electricity | ~65% |
-
-Implication for carbon pricing: under EU CBAM and similar regimes, Brazilian industrial output (steel, pulp, aluminum) carries a structural cost advantage over competitors powered by fossil fuels. A steel beam from Paraná on hydroelectric power is cheaper under carbon pricing than one from Hebei on coal.
-
-Brazil is also a major oil producer — pre-salt fields (Santos/Campos basins, 30-40B barrels) emit up to 70% less CO₂/barrel than global average. [[Petrobras]] approaching 4M bpd. Exports transit the open Atlantic — no Hormuz/Suez/Bab el-Mandeb chokepoint risk.
-
----
-
-## Carbon balance sheet
-
-Amazon rainforest holds 150-200 billion tonnes of carbon — currently valued at approximately zero on institutional balance sheets.
-
-| Carbon price scenario | Total value | Per capita |
-|----------------------|-------------|------------|
-| Voluntary market ($5-15/ton) | $1-3 trillion | $5-15K |
-| Regulated market ($50-150/ton) | $7.5-30 trillion | $35-140K |
-| Current valuation | $0 | $0 |
-
-Emerging monetization mechanisms:
-- Voluntary carbon credits
-- Biodiversity credits (in development)
-- EU considering Amazon protection in trade deals
-- Direct ecosystem-service payments from developed nations
-
-Structural driver for eventual value capture as carbon pricing scales globally.
-
----
-
 ## Key sectors
 
 | Sector | Major players | Notes |
 |--------|---------------|-------|
-| [[Fintech]] | [[Nubank]], [[StoneCo]], [[PagSeguro]] | [[Pix]]-driven, high growth |
-| Software | [[TOTVS]], [[Linx]] | ERP, retail tech |
-| Banking | [[Itaú Unibanco]], [[Bradesco]], [[BTG Pactual]] | Competing with fintechs |
-| [[Commodities]] | [[Vale]], [[Petrobras]], [[CBMM]] | Iron ore, oil, niobium |
-| Agriculture | [[Embrapa]], [[Bom Futuro Group]] | Research, precision ag |
-| Critical Minerals | [[CBMM]], [[Companhia Brasileira de Alumínio\|CBA]] | Niobium 90% world supply, aluminum |
-| Protein | [[JBS]], BRF | Global meat exporters |
-| [[Aerospace]] | [[Embraer]] | Regional jets |
+| **[[Fintech]]** | [[Nubank]], [[StoneCo]], [[PagSeguro]] | [[Pix]]-driven, high growth |
+| **Software** | [[TOTVS]], [[Linx]] | ERP, retail tech |
+| **Banking** | [[Itaú Unibanco]], [[Bradesco]], [[BTG Pactual]] | Competing with fintechs |
+| **[[Commodities]]** | [[Vale]], [[Petrobras]], [[Companhia Brasileira de Alumínio\|CBA]] | Iron ore, oil, aluminum |
+| **Protein** | [[JBS]], BRF | Global meat exporters |
+| **[[Aerospace]]** | [[Embraer]] | Regional jets |
 
 ---
 
