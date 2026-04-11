@@ -96,4 +96,5 @@ This is why [[Luca Paolini]] of [[Pictet]] advised moving to "boring" and "uncro
 - [[Hedge fund capital concentration]] — multi-manager pods as crowding amplifiers
 - [[Multi-manager hedge funds]] — crowded shorts and squeeze risk from pod overlap
 - [[2026 Iran conflict market impact]] — the Feb–Mar 2026 popular-trades unwind
+- [[Prime brokerage]] — PB utilization as crowding detection signal
 - [[Meme stocks]] — retail crowding variant; [[GameStop]] squeeze as inverse case

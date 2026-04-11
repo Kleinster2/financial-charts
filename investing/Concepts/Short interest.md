@@ -162,6 +162,7 @@ Use US sources above — ADR short interest reported separately from local share
 - [[2026 Iran conflict market impact]] — ceasefire as squeeze catalyst
 - [[Hedge fund capital concentration]] — leverage dynamics
 - [[Crowded trade risk]] — meta-framework for positioning unwinds
+- [[Prime brokerage]] — PB desks as primary source for positioning data
 - [[GameStop]] — 2021 retail squeeze comparison
 
 ---

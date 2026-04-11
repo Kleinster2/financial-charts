@@ -145,6 +145,7 @@ New fund launches contracted for 4 consecutive years (2021-2024) as capital conc
 
 ### Concepts
 - [[Hedge fund capital concentration]] — the effect of pod shop dominance
+- [[Prime brokerage]] — pod shops as primary PB clients
 - [[HFT-hedge fund convergence]] — prop firms invading stat-arb territory
 - [[Statistical arbitrage]] — core quant strategy in convergence zone
 

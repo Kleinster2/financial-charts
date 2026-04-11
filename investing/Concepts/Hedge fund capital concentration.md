@@ -160,6 +160,7 @@ This is the fixed-income version of the equity-side concentration story: just as
 - [[Short interest]] — April 2026 squeeze framework (7.6:1 ratio, 2.9x leverage)
 - [[2026 Iran conflict market impact]] — ceasefire as squeeze catalyst
 - [[Crowded trade risk]] — positioning unwind meta-framework
+- [[Prime brokerage]] — PB data as source for leverage and positioning signals
 
 ---
 

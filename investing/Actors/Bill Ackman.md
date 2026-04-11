@@ -299,3 +299,8 @@ See [[Pershing Square]] for full details.
 - [[Canadian Pacific Railway]] — cleanest activist win ($2.6B profit)
 - [[Chipotle]] — E. coli recovery ($3B+ profit)
 - [[Target]] — REIT spinoff thesis, proxy loss ($1.8B loss)
+- [[Herbalife]] — $1B short loss (2012-2018)
+- [[Ackman-Icahn Herbalife feud]] — most public hedge fund battle in history
+- [[Valeant Pharmaceuticals]] — $4B loss (2015-2017)
+- [[Valeant Philidor scandal]] — triggered Valeant collapse (Oct 2015)
+- [[Allergan]] — hostile bid with Valeant (2014)

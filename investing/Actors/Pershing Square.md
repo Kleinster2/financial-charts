@@ -221,6 +221,10 @@ See [[Pershing Square UMG takeover bid]] for full details.
 - [[Elliott Management]] — peer
 - [[Third Point]] — peer
 - [[Carl Icahn]] — rival (Herbalife)
+- [[Herbalife]] — $1B short loss (2012-2018)
+- [[Ackman-Icahn Herbalife feud]] — most public hedge fund battle in history
+- [[Valeant Pharmaceuticals]] — $4B loss (2015-2017)
+- [[Valeant Philidor scandal]] — triggered Valeant collapse (Oct 2015)
 - [[Fannie Mae]] — Ackman's GSE trade
 - [[Universal Music Group]] — takeover bid target (Apr 2026)
 - [[Bolloré Group]] — key UMG shareholder
