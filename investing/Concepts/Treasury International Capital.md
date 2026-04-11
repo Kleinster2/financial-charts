@@ -28,6 +28,20 @@ The implication: the conventional narrative of declining foreign Treasury demand
 
 *Source: NY Fed research, FT (Gillian Tett, Apr 3 2026)*
 
+## Top foreign holders of US Treasuries (TIC data)
+
+![[tic-foreign-treasury-holders-2012-2026.png]]
+*Foreign Treasury holdings: [[Japan]], [[China]], [[United Kingdom]], [[Cayman Islands]]. The Cayman trajectory is a proxy for leveraged hedge fund demand — basis trades, swap trades, and other spread strategies domiciled offshore. TIC data; 2024 Cayman gap reflects reporting lag. Source: US Treasury.*
+
+| Holder | Jan 2018 | Jan 2026 | Change |
+|--------|----------|----------|--------|
+| [[Japan]] | $1,066B | $1,225B | +15% |
+| [[United Kingdom]] | $250B | $895B | +258% |
+| [[China]] | $1,168B | $694B | -41% |
+| [[Cayman Islands]] | $168B | $433B | +158% |
+
+The UK figure is inflated by custodial holdings for other countries. The Cayman figure is the one the NY Fed says is *understated* by ~$1.4T — the actual hedge fund Treasury position is far larger than what TIC reports.
+
 ---
 
 ## Related

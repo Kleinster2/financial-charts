@@ -53,6 +53,9 @@ This reframes the foreign demand picture. Official data shows foreign ownership 
 
 The distinction matters for stability. Central banks hold Treasuries for reserve management and rarely sell into volatility. Hedge funds hold them for arbitrage spreads and will exit the moment the trade economics change. [[Gillian Tett]] (FT, Apr 3 2026): what matters is not *whether* foreigners buy Treasuries, but *which* foreigners — and whether they'll stay when conditions deteriorate.
 
+![[tic-cayman-vs-china-indexed-2018.png]]
+*Cayman Islands (hedge fund proxy) vs China Treasury holdings, indexed to Jan 2018 = 100. The divergence visualizes the compositional shift: leveraged demand replacing sovereign demand. TIC data; 2024 Cayman gap reflects reporting lag. Source: US Treasury.*
+
 *Source: NY Fed research, OFR data, FT (Gillian Tett, Apr 3 2026)*
 
 ---
@@ -109,6 +112,9 @@ The distinction matters for stability. Central banks hold Treasuries for reserve
 Market stabilized by April 11, but yields remained elevated.
 
 ## Iran war stress test (Feb-Apr 2026)
+
+![[tnx-yield-iran-war-2026.png]]
+*10Y Treasury yield (^TNX), Feb-Apr 2026. Trough 3.96% (Feb 27) → peak 4.44% (Mar 27) = +48bp. "Now slightly reversed" per Tett — settling ~4.29% by early April.*
 
 The [[2026 Iran conflict market impact|Iran war]] provided the third stress episode in six years (after March 2020 and April 2025). 10Y yields rose ~48bp from trough (3.96% on Feb 27) to peak (4.44% on Mar 27) before partially reversing. Some crowded hedge fund trades were "flushed out" at the war's start, but the unwinding did not accelerate into a systemic event.
 

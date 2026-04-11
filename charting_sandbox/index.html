@@ -15,7 +15,7 @@
     input[type="text"],input[type="number"]{background:#2a2e39;color:#d1d4dc;border:1px solid #444;border-radius:3px;}
     .chart-box{width:100%;height:600px;border:1px solid #2a2e39;background:#000000;margin-top:1rem;position:relative;}
     /* layout tweaks */
-    .chart-card{margin-bottom:3rem;background:#000000;}
+    .chart-card{margin-bottom:3rem;background:#000000;position:relative;z-index:1;}
     /* chip styles restored */
     .controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:4px;}
     .ticker-chips{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end;width:100%;margin-top:4px;}
@@ -199,7 +199,7 @@
         background: transparent;
     }
     #header-zone:hover, #header-zone.pinned {
-        max-height: 400px; overflow: visible;
+        max-height: 400px; overflow: auto;
         background: #000000; padding: 0.5rem 1rem; box-shadow: 0 2px 12px rgba(0,0,0,0.8);
     }
     #header-zone .header-grip {
@@ -234,7 +234,6 @@
           <option value="">All</option>
         </select>
       </div>
-      <button onclick="window.createChartCard({type:'tic-dashboard'})" style="margin-right:4px;padding:5px 10px;cursor:pointer;border-radius:4px;border:1px solid #444;background:#2a2e39;color:#d1d4dc;">TIC Flows</button>
       <button id="new-page-btn">New Page</button>
       <button id="toggle-chart-nav-btn">Hide Chart List</button>
       <div id="tab-bar" class="tab-bar"></div>
