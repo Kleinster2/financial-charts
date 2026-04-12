@@ -103,6 +103,20 @@ Clean AI = [[Brazil]]'s pitch.
 
 **Why it matters:** Positions Brazil as LatAm's AI infrastructure hub. The 100% renewable + strict WUE requirements align with hyperscaler sustainability mandates. R$2T investment potential = decades of DC buildout — but hinges on Congressional action.
 
+### MP expired; PL 278/2026 pending Senate (Feb–Apr 2026)
+
+PM 1,318/2025 expired on February 25, 2026 without Congressional conversion — among six provisional measures that lost validity without being voted on by the 120-day deadline. To preserve the regime, the Chamber of Deputies passed PL 278/2026 as a replacement bill; the bill now awaits Senate action.
+
+| Milestone | Date |
+|-----------|------|
+| MP validity ended (expired, no vote) | February 25, 2026 |
+| PL 278/2026 passed Chamber | Q1 2026 |
+| Senate action on PL 278/2026 | Pending (as of April 2026) |
+
+REDATA tax benefits are in limbo. PIS/Cofins, IPI, and import-duty suspensions under PM 1,318/25 are no longer in force. Hyperscaler and DC-operator investment decisions that relied on the tax regime face uncertainty pending Senate conversion. R$2T investment potential timeline pushed out. Key beneficiaries affected: [[Scala Data Centers]], [[Elea Data Centers]] (Rio AI City 3.2GW), [[Ascenty]].
+
+*Sources: [Sindpd (Feb 27, 2026)](https://sindpd.org.br/2026/02/27/redata-perde-validade-governo-busca-saida/); [Senado Notícias (Mar 2, 2026)](https://www12.senado.leg.br/radio/1/noticia/2026/03/02/medidas-provisorias-perdem-a-validade-apos-nao-terem-sido-votadas)*
+
 ---
 
 ## Marco Legal (PL 2338/2023)
@@ -176,6 +190,7 @@ Balancing US and [[China]].
 | Challenge | Impact |
 |-----------|--------|
 | **REDATA conversion** | Must pass by Feb 25, 2026 or tax benefits expire |
+| **PL 278/2026 Senate vote** | MP 1,318/25 expired Feb 25, 2026; replacement bill passed Chamber, pending Senate |
 | **Marco Legal passage** | AI governance framework in Chamber; 2026 election pressure |
 | Infrastructure gaps | Connectivity |
 | Talent development | Skills shortage |
@@ -205,7 +220,7 @@ Balancing US and [[China]].
 | DC market 2029 | $5.96B |
 | AWS investment | $1.8B |
 
-*Updated 2026-01-31*
+*Updated 2026-04-12*
 
 ---
 

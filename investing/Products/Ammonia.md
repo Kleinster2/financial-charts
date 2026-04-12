@@ -383,6 +383,29 @@ Ammonia requires dedicated refrigerated gas carriers. The global fleet is relati
 
 ---
 
+## Nitrogen value chain
+
+![[nitrogen-value-chain-detail-aurelion.png]]
+*Natural gas feeds ammonia synthesis, which branches into two intermediate paths: direct [[urea]] / [[ammonia]] finished products, and nitric acid (which yields nitrates, calcium nitrate, and industrial N chemicals). End-uses span environmental products, industrial gases, and industrial nitrogen chemicals. Source: [[Yara]] via Aurelion Research.*
+
+Value chain economics — revenue and cost drivers by layer:
+
+![[nitrogen-value-chain-aurelion.png]]
+*Revenue drivers (global urea demand vs supply, marginal producer cost, crop prices, new capacity, urea price, cash crop prices) and cost drivers (gas demand, manning and maintenance, productivity, carbon cost) and their effects through the chain. Source: [[Yara]], Aurelion Research.*
+
+Gas is both feedstock and energy source, typically 70-80% of cash cost of ammonia production. Nitrogen fertilizer prices are fundamentally a function of regional gas prices, and producers with access to cheap gas ([[Middle East]], [[United States|US]], [[Russia]]) enjoy a large and persistent cost advantage over those relying on more expensive supply ([[Europe]], [[India]]). On the revenue side, [[urea]] is the benchmark price that pulls all other nitrogen products along.
+
+---
+
+## Nitrogen's share of fertilizer consumption
+
+![[nitrogen-share-of-nutrients-aurelion.png]]
+*Nitrogen makes up ~58% of global fertilizer nutrient consumption, vs. ~24% phosphate and ~18% potash. Source: Aurelion Research.*
+
+At 58% of global nutrient consumption, nitrogen dwarfs phosphate and potash. It is applied annually, demand is relatively stable, and farmers cannot skip it without immediate yield consequences. That combination of scale and inelasticity is precisely why the Persian Gulf disruption hits nitrogen prices hardest.
+
+---
+
 ## Related
 
 - [[Sulfuric Acid]] — co-industrial commodity; both are top-produced chemicals; sulfuric acid used in DAP/MAP fertilizer (which also requires ammonia)

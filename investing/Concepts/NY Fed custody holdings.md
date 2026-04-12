@@ -41,16 +41,16 @@ Caveat: TIC data (monthly, 2-month lag) and H.4.1 custody data (weekly) measure 
 | Dec 2002 | Series inception | — |
 | Mar 2021 | ~$3.14T (record) | Post-COVID reserve accumulation |
 | Mar 2025 | ~$2.91T | Pre-Iran war baseline |
-| Feb 25, 2026 | ~$2.78T | Day before Iran strikes |
-| Mar 25, 2026 | $2.694T | -$82B in one month, lowest since 2012 |
+| Feb 11, 2026 | $2.801T | Pre-Iran-conflict peak |
+| Mar 25, 2026 | $2.694T | Initial Iran war drawdown, -$82B |
+| Apr 8, 2026 | $2.693T | Latest, cumulative -$108B from Feb 11 |
 
-Week of March 25, 2026 (latest H.4.1):
+Latest H.4.1 (week ending Apr 8, 2026):
 
-| Category | Wednesday level | WoW change | YoY change |
-|----------|----------------|-----------|-----------|
-| Total securities | $2.990T | -$16.0B | -$288B |
-| Treasuries | $2.694T | -$15.4B | -$220B |
-| Agency/MBS | $217.2B | -$1.0B | -$59B |
+| Category | Wednesday level | Change since Feb 11 |
+|----------|----------------|---------------------|
+| Treasuries (WMTSECL1) | $2.693T | -$108B |
+| Total custody (Treasuries + MBS) | ~$2.98T | similar pace |
 
 ---
 
@@ -126,10 +126,36 @@ The $288B YoY decline also intersects with the [[China]] dedollarization narrati
 
 ---
 
+## Treasury market structure dashboard (four-lens framework)
+
+WMTSECL1 is most informative read alongside three other weekly/monthly series. Each answers a different question about the Treasury market; together they triangulate the [[Gillian Tett]] thesis on compositional fragility.
+
+| Lens | Series | What it answers |
+|------|--------|-----------------|
+| Foreign official demand | `WMTSECL1` (this note) | Are foreign central banks staying or leaving? |
+| Fed demand | [[Fed balance sheet QT\|TREAST]] | How fast is the Fed withdrawing from the market? |
+| Treasury runway | [[Treasury General Account\|WTREGEN]] | How much cash before forced issuance? |
+| Private composition | [[Treasury International Capital\|TIC holdings]] | Who's replacing exiting demand — stable or leveraged? |
+
+Current readings (Apr 8, 2026):
+- WMTSECL1: $2.693T, -$108B since Feb 11 (CBs exiting)
+- TREAST: $4.41T, -$1.36T from 2022 peak (Fed withdrawing via [[Fed balance sheet QT|QT]])
+- WTREGEN: $748B (moderate buffer — [[Scott Bessent|Bessent]] has runway but limited flexibility)
+- TIC composition: Cayman ($433B reported, ~$1.8T true) rising as Japan/China stagnate
+
+The pattern: two of the three traditional "sticky" demand sources (Fed and foreign CBs) are retreating simultaneously. The gap has been filled by leveraged [[Basis trade|hedge fund]] demand (37% of net issuance 2022-2024 per NY Fed research) — price-sensitive buyers who will exit if spreads deteriorate. With the $10T rollover landing in 2027, the dashboard's message is that the margin for error is narrowing from multiple sides simultaneously.
+
+This dashboard lives on page 68 of the sandbox workspace.
+
+---
+
 ## Related
 
 - [[Treasuries]] — the asset class
 - [[Federal Reserve]] — custodian, H.4.1 publisher
+- [[Fed balance sheet QT]] — parallel demand-side series in the same dashboard
+- [[Treasury General Account]] — Treasury runway series in the same dashboard
+- [[Treasury International Capital]] — ownership composition data
 - [[Basis trade]] — transmission channel for financial instability
 - [[March 2020 liquidity crisis]] — precedent for CB selling → basis trade unwind
 - [[FIMA Repo Facility]] — backstop created to prevent forced Treasury sales
@@ -138,3 +164,4 @@ The $288B YoY decline also intersects with the [[China]] dedollarization narrati
 - [[Turkey]] — $22B selling since Feb 27
 - [[China]] — structural decline from $1.3T peak
 - [[Robin J. Brooks]] — Turkey reserve analysis, financial stability concerns ("skeletons in the closet")
+- [[Gillian Tett]] — compositional fragility thesis

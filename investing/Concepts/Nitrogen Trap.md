@@ -401,6 +401,26 @@ The popularization matters because it reached retail investors who hadn't connec
 
 ---
 
+## Aurelion Research Primer (Mar 24)
+
+*Data from Aurelion Research "Global Fertilizer Primer 2026," March 24, 2026.*
+
+Aurelion's primer confirms and extends the Nitrogen Trap framework with segment-level supply/demand math. Key supplementary figures:
+
+Hormuz exposure breakdown by producer country: [[Saudi Arabia]] 20%, [[Qatar]] 11%, [[Iran]] 11%, [[Oman]] 4%, Other Gulf 3% — total 49% of seaborne urea exports. 45% of global urea trade is sourced from Persian Gulf producers. US sanctions announced March 2 risk the full corridor.
+
+Urea-corn correlation: corn futures and urea futures have tracked closely for six years. The 2022 episode saw urea triple and corn move above 1,000 cents/bu. In 1Q 2026, urea is spiking again at $662/t but corn at 467 cents/bu has lagged. Two paths: (1) Hormuz fades, urea unwinds, corn stays range-bound; (2) conflict drags on, Chinese exports stay offline, 2022 pattern repeats. Both outcomes point to higher grain prices. See [[urea]] for the chart.
+
+NPK ripple effect: blends account for 36% of [[Potash|potash]], 17% of nitrogen, and 26% of [[Phosphate|phosphate]] consumption. Nitrogen and phosphate supply constraints ripple through NPK production into all three segments — no nutrient is truly insulated. See [[Fertilizer]] for the chart.
+
+Capacity pipeline is not keeping up. 4.5M mt of new urea capacity came online in 2023 (the 2021-22 investment wave), then dropped to 0.7M mt (2024) and 0.3M mt (2025). 2026-27 picks up to 2.2 and 3.4M mt, but falls to 1.0-1.3M mt in 2029-30 — current tightness has not yet triggered enough fresh project sanctions. New urea plants take 3-5 years to build. By the time the market realizes it needs more capacity, it will be years before it arrives.
+
+[[Phosphate]] is the tightest setup. Four countries control DAP exports — [[China]], [[Morocco]], [[Saudi Arabia]], [[Russia]] — and three are constrained. DAP prices: $400/t (2023 floor) → $550 (2024) → $650 (1Q 2026 base). US phosphate imports fell from >3M mt (2018) to ~2M mt (2025). 64 US ag groups petitioned [[Mosaic]] and [[JR Simplot]] in March 2026 to drop Moroccan duty support — pressure from the buyer side.
+
+Peer equity valuations have compressed below 10-year means despite the structural tightness — the market is pricing a cyclical downturn that ignores the persistent deficits emerging across all three primary nutrient markets. See [[Fertilizer]] for the multi-year EV/EBITDA chart.
+
+---
+
 ## Related
 
 - [[Strait of Hormuz]] — the physical chokepoint
@@ -422,6 +442,10 @@ The popularization matters because it reached retail investors who hadn't connec
 - [[Bangladesh]] — most immediately vulnerable (4-5 factories shut, Boro rice at risk)
 - [[Egypt]] — triple vulnerability (wheat imports + N production + sovereign stress)
 - [[Fertilizer]] — sector note
+- [[Phosphate]] — tightest-supply segment (4-country DAP concentration, 3 constrained)
+- [[Potash]] — least Hormuz-exposed segment (Canada/Russia/Belarus/China production)
+- [[JR Simplot]] — US phosphate producer, co-signatory of Moroccan duties petition
+- [[Argus Media]] — pricing benchmark source cited by Aurelion
 
 ### Cross-vault
 - [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — military timeline, planning failures, diplomatic dynamics

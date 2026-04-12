@@ -53,6 +53,24 @@ Brooks (March 23): on a comparable timescale, the TTF rise is already bigger tha
 
 ---
 
+## HSBC multi-year forecast (March 16 — pre-ceasefire)
+
+[[HSBC]] raised its TTF forecast 40% for 2026 in a March 16 report, with elevated levels projected through 2027 before structural normalization.
+
+| Year | HSBC forecast | ~€/MWh equivalent | vs. pre-conflict (~$10.44/MMBtu, €33/MWh) |
+|------|---------------|-------------------|-------------------------------------------|
+| 2026 | $14/MMBtu | ~€44 | +34% |
+| 2027 | $10/MMBtu | ~€32 | -4% |
+| 2028+ | $8.50/MMBtu (unchanged) | ~€27 | -19% |
+
+The trajectory implies elevated 2026 pricing, near-normalization in 2027, and sustained oversupply by 2028 (consistent with US [[LNG]] capacity additions). The 2026 call is already tracking early-April spot: TTF closed €50/MWh on April 2 (~$14.65/MMBtu).
+
+Published 10 days before the Apr 8 ceasefire announcement from the [[2026 Strait of Hormuz crisis]]. The multi-year view's durability depends on [[Ras Laffan]] restart timing — [[Saad Al-Kaabi]] has flagged up to 5-year force majeure on some European contracts.
+
+*Source: Bloomberg, "Strait of Hormuz Closure Drives Up Europe Gas Price Outlook, HSBC Report Finds," March 16, 2026.*
+
+---
+
 ## Related
 
 - [[Natural gas]] — parent commodity
@@ -65,4 +83,4 @@ Brooks (March 23): on a comparable timescale, the TTF rise is already bigger tha
 - [[Iran conflict oil price timeline]] — includes TTF data
 - [[Robin J. Brooks]] — TTF exceeds 2022 pace comparison
 
-*Created 2026-03-23. Updated 2026-04-03.*
+*Created 2026-03-23. Updated 2026-04-03. Updated 2026-04-11 (HSBC Mar 16 multi-year forecast).*

@@ -3,7 +3,16 @@ aliases: [Fertilizers, Crop Nutrients, Ag Chemicals]
 ---
 #sector #commodities #agriculture
 
-**Fertilizer** — The industry that produces and distributes crop nutrients. Three segments: nitrogen (~60% of market), phosphate (~25%), potash (~15%). ~$182B global market (2024). Structurally tied to food security and population growth. See [[Ammonia]], [[urea]], [[Phosphoric Acid]] for the key input products.
+**Fertilizer** — The industry that produces and distributes crop nutrients. Three segments: nitrogen (~58% of nutrient consumption), phosphate (~24%), potash (~18%). ~$182B global market (2024). Structurally tied to food security and population growth. See [[Ammonia]], [[urea]], [[Phosphoric Acid]] for the key input products. See [[Nitrogen]], [[Phosphate]], [[Potash]] for segment-level concepts.
+
+---
+
+## Global product mix
+
+![[global-fertilizer-market-by-product-aurelion.png]]
+*Product mix by nutrient segment, % of global consumption. Nitrogen (109M mt N) is dominated by [[urea]] (50%) with NPK blends (17%), AN/CAN (8%), DAP/MAP overlap (6%), UAN, ammonia direct (3%), and other (10%). Phosphate (44M mt P₂O₅) is DAP/MAP (49%), NPK (26%), SSP (7%), TSP (4%), and other (15%). Potash (35M mt K₂O) is MOP/SOP (60%), NPK (36%), and other (5%). NPK blends appear in every segment, meaning constraints in any one nutrient ripple into blend production. Source: Nutrien, IFA via Aurelion Research.*
+
+The hidden link across segments: NPK blends account for 36% of potash, 17% of nitrogen, and 26% of phosphate consumption. They require inputs from all three nutrients. Supply constraints in any nutrient ripple into the others through blend production — no segment is truly insulated.
 
 ---
 
@@ -163,6 +172,46 @@ Nigeria (12.4% share), South Africa, and Egypt lead consumption. [[OCP Group]] i
 The [[Strait of Hormuz]] closure triggered a fertiliser supply crisis — ~50% of 2-week urea exports disrupted, [[QAFCO]] shut, South Asian plants curtailed. Urea +40%. Full analysis in [[Iran conflict supply chain cascade#Fertiliser supply crisis (March 14)]].
 
 See [[Nitrogen Trap]] for the full 14-channel cascading framework — the crisis propagates far beyond fertilizer pricing into sulfur/phosphate, petrochemicals, pharmaceuticals, sovereign debt, insurance architecture fracture, and the nonlinear quadratic yield response that concentrates damage in the Global South. The market is pricing ~45-day disruption; structural indicators point to 120+ days. USDA Prospective Plantings (March 31) is the first hard data point for acreage shift quantification.
+
+### Hormuz exposure — producer country breakdown
+
+![[hormuz-urea-corridor-aurelion-mar2026.png]]
+*Share of global urea exports by country, Strait of Hormuz exposure highlighted. 49% of global seaborne urea exports transit Hormuz. [[Saudi Arabia]] (20%), [[Qatar]] (11%), [[Iran]] (11%), [[Oman]] (4%), and other Gulf (3%) together represent roughly half of global supply. US sanctions announced 2 March 2026 risk disrupting this entire corridor. Source: Argus, HSBC, Aurelion Research estimates.*
+
+| Country | Share of global urea exports | Hormuz-exposed |
+|---------|------------------------------|----------------|
+| [[Saudi Arabia]] | 20% | Yes |
+| [[Qatar]] | 11% | Yes |
+| [[Iran]] | 11% | Yes |
+| [[Oman]] | 4% | Yes |
+| Other Gulf | 3% | Yes |
+| **Hormuz total** | **49%** | — |
+| [[China]] | 10% | No |
+| [[Russia]] | 8% | No |
+| [[Egypt]] | 6% | No |
+| [[Indonesia]] | 5% | No |
+| Rest of World | 22% | No |
+
+---
+
+## Peer equity valuation
+
+![[fertilizer-ev-ebitda-peer-comparison-aurelion.png]]
+*Fertilizer majors EV/EBITDA (NTM), 2006-2026: [[Nutrien]], [[Mosaic]], [[CF Industries]], [[PhosAgro]], [[Yara]]. As of Mar 2026: NTR 7.4x, MOS 4.0x, CF 8.8x, PHOR 7.3x, YAR 7.3x (Bloomberg). Multiples have compressed well below 10-year means for most names. Source: Bloomberg via Aurelion Research.*
+
+Despite the Hormuz tailwind and structural tightness across all three nutrients, forward EV/EBITDA multiples for majors have compressed below 10-year means — the market is pricing a cyclical downturn. This creates the tension Aurelion highlights: strong demand fundamentals with equity valuations at significant discount to historical averages.
+
+---
+
+## Demand drivers
+
+![[fertilizer-demand-caloric-intake-aurelion.png]]
+*Global caloric intake per capita has maintained a steady upward trajectory for over three decades, creating a persistent baseline for fertilizer demand. Driven by population growth + shifts toward protein-rich diets and higher fruit/vegetable consumption in developing economies. Source: Aurelion Research.*
+
+![[fertilizer-industrial-nox-demand-aurelion.png]]
+*Secondary demand vector: industrial nitrogen demand from tightening NOx emissions regulations (SCR/AdBlue in diesel, power plant emissions controls) reinforces the agricultural floor. Source: Aurelion Research.*
+
+The dual exposure — agricultural food-security demand plus industrial emissions-control demand — insulates overall nutrient consumption from isolated sector shocks and reinforces the case for sustained global capacity utilization.
 
 ---
 

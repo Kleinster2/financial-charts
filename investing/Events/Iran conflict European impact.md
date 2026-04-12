@@ -9,6 +9,14 @@ European energy, industrial, and policy impact from the [[Operation Epic Fury|20
 
 ---
 
+## HSBC: 40% TTF forecast upgrade through 2027 (March 16)
+
+[[HSBC]] raised its TTF forecast 40% for 2026 and projected elevated prices through 2027. Dutch futures now expected to average $14/MMBtu in 2026 (~€44/MWh) and $10/MMBtu in 2027 (~€32/MWh); 2028+ unchanged at $8.50/MMBtu (~€27/MWh). Full trajectory with pre-conflict comparison in [[TTF#HSBC multi-year forecast (March 16 — pre-ceasefire)|TTF]]. Published before the Apr 8 ceasefire; early-April spot (€50/MWh, ~$14.65/MMBtu) tracks the 2026 average forecast.
+
+*Source: Bloomberg, "Strait of Hormuz Closure Drives Up Europe Gas Price Outlook, HSBC Report Finds," March 16, 2026.*
+
+---
+
 ## European electricity price divergence (March 19)
 
 *Source: FT, "Spain is a role model in weathering Iranian oil shocks," March 19, 2026*
@@ -283,4 +291,4 @@ Governments considering subsidies have been warned they must still comply with E
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg). Updated 2026-04-03 (Jørgensen/FT → [[EU]]). Updated 2026-04-06 (EU fiscal response/windfall tax).*
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg). Updated 2026-04-03 (Jørgensen/FT → [[EU]]). Updated 2026-04-06 (EU fiscal response/windfall tax). Updated 2026-04-11 (HSBC Mar 16 forecast/Bloomberg).*
