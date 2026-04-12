@@ -7,7 +7,7 @@ window.ChartDomBuilder = {
     /**
      * Create the main chart card element with all controls
      */
-    createChartCard(cardId, initialTitle = '', initialHeight = 500) {
+    createChartCard(cardId, initialTitle = '', initialHeight = 500, initialNoteLink = '') {
         const card = document.createElement('div');
         card.id = cardId;
         card.className = 'chart-card';
@@ -45,6 +45,17 @@ window.ChartDomBuilder = {
                 <button class="star-btn" title="Add to Highlights">☆</button>
                 <div class="tag-container"></div>
                 <button class="settings-toggle-btn" title="Toggle Settings Panel">⚙️</button>
+                <div class="notelink-wrap">
+                    <button class="notelink-btn" title="Link to vault note" data-state="empty">📘</button>
+                    <div class="notelink-popover" hidden>
+                        <div class="notelink-tickers"></div>
+                        <div class="notelink-row">
+                            <input type="text" class="notelink-input" placeholder="Or type a note name" value="${initialNoteLink}" title="Type a vault note name (e.g., Apple, Fed balance sheet QT)">
+                            <button class="notelink-suggest" type="button" title="Suggest from primary ticker">🔍</button>
+                            <button class="notelink-popover-close" type="button" title="Close">✕</button>
+                        </div>
+                    </div>
+                </div>
                 <button class="export-btn" title="Export chart as PNG for LinkedIn">📸 Export</button>
                 <button class="add-chart-btn">Add Chart</button>
                 <button class="remove-card-btn">Remove</button>
@@ -314,6 +325,12 @@ window.ChartDomBuilder = {
             starBtn: card.querySelector('.star-btn'),
             tagContainer: card.querySelector('.tag-container'),
             titleInput: card.querySelector('.title-input'),
+            noteLinkBtn: card.querySelector('.notelink-btn'),
+            noteLinkPopover: card.querySelector('.notelink-popover'),
+            noteLinkTickers: card.querySelector('.notelink-tickers'),
+            noteLinkInput: card.querySelector('.notelink-input'),
+            noteLinkSuggest: card.querySelector('.notelink-suggest'),
+            noteLinkPopoverClose: card.querySelector('.notelink-popover-close'),
             removeCardBtn: card.querySelector('.remove-card-btn'),
             addChartBtn: card.querySelector('.add-chart-btn'),
             notesSection: card.querySelector('.notes-section'),

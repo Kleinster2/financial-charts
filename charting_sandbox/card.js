@@ -78,7 +78,8 @@
                 tickerColors: window.ChartUtils.mapToObject(card._tickerColorMap),
                 priceScaleAssignments: window.ChartUtils.mapToObject(card._priceScaleAssignmentMap),
                 starred: !!card._starred,
-                tags: card._tags || []
+                tags: card._tags || [],
+                noteLink: card._noteLink || ''
             };
         });
 
@@ -248,7 +249,8 @@
             revenuePaneStretchFactor: initialRevenuePaneStretchFactor = 1.0,
             fundamentalsPaneStretchFactor: initialFundamentalsPaneStretchFactor = 1.0,
             starred: initialStarred = false,
-            tags: initialTags = []
+            tags: initialTags = [],
+            noteLink: initialNoteLink = ''
         } = options;
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
@@ -263,7 +265,7 @@
         // Create card DOM
         globalCardCounter += 1;
         const cardId = `chart-${globalCardCounter}`;
-        const card = window.ChartDomBuilder.createChartCard(cardId, initialTitle, initialHeight);
+        const card = window.ChartDomBuilder.createChartCard(cardId, initialTitle, initialHeight, initialNoteLink);
         wrapper.appendChild(card);
         // Apply grid-compact if currently in grid mode
         if (wrapper.classList.contains('grid-layout')) {
@@ -277,7 +279,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRevenueMetricBtn, toggleNetIncomeMetricBtn, toggleEpsMetricBtn, toggleFcfMetricBtn, toggleRawBtn,
-            toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, reshuffleColorsBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleLegendTickersBtn, toggleNotesBtn, starBtn, heightSlider, heightValue, volPaneHeightSlider, volPaneHeightValue, fontSlider, fontValue, decimalsSlider, decimalsValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
+            toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, reshuffleColorsBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleLegendTickersBtn, toggleNotesBtn, starBtn, heightSlider, heightValue, volPaneHeightSlider, volPaneHeightValue, fontSlider, fontValue, decimalsSlider, decimalsValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, noteLinkBtn, noteLinkPopover, noteLinkTickers, noteLinkInput, noteLinkSuggest, noteLinkPopoverClose, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
 
         // ═══════════════════════════════════════════════════════════════
         // CONTEXT INITIALIZATION (State Object Pattern)
@@ -317,6 +319,7 @@
             initialFundamentalsPaneStretchFactor,
             initialStarred,
             initialTags,
+            initialNoteLink,
             cardId,
             targetPage,
             saveCards
@@ -593,6 +596,170 @@
             saveCards();
         }
 
+        // ─── Note link (Obsidian vault link) ───────────────────────────────
+        function updateNoteLinkUI() {
+            if (!noteLinkBtn) return;
+            const val = (ctx.noteLink || '').trim();
+            if (val) {
+                noteLinkBtn.dataset.state = 'set';
+                noteLinkBtn.title = `Open "${val}" in Obsidian · shift-click to edit`;
+            } else {
+                noteLinkBtn.dataset.state = 'empty';
+                noteLinkBtn.title = 'Link to vault note (click to set)';
+            }
+        }
+        function openNoteInObsidian() {
+            const val = (ctx.noteLink || '').trim();
+            if (!val) return false;
+            window.location.href = `obsidian://open?vault=investing&file=${encodeURIComponent(val)}`;
+            return true;
+        }
+        function stripCorporateSuffix(name) {
+            return String(name).replace(/\s+(Inc\.?|Corp\.?|Corporation|Co\.?|Ltd\.?|PLC|LLC|S\.?A\.?|N\.?V\.?|AG|SE|Group|Holdings?|Company|Limited)\s*$/gi, '').trim();
+        }
+        async function populateNoteLinkTickers() {
+            if (!noteLinkTickers) return;
+            noteLinkTickers.innerHTML = '';
+            const tickers = Array.from(selectedTickers || []);
+            if (tickers.length === 0) return;
+            let meta = {};
+            let metaOk = false;
+            try {
+                const base = window.API_BASE_URL || '';
+                const res = await fetch(`${base}/api/metadata?tickers=${encodeURIComponent(tickers.join(','))}`);
+                if (res.ok) {
+                    meta = await res.json();
+                    metaOk = true;
+                }
+            } catch (_) { meta = {}; }
+            tickers.forEach(t => {
+                const chip = document.createElement('button');
+                chip.type = 'button';
+                chip.className = 'notelink-ticker-chip';
+                const resolved = meta[t];
+                const noteName = resolved ? stripCorporateSuffix(resolved) : t;
+                const isFallback = !resolved;
+                const tk = document.createElement('span');
+                tk.className = 'tk';
+                tk.textContent = t;
+                chip.appendChild(tk);
+                if (noteName && noteName.toUpperCase() !== t.toUpperCase()) {
+                    const nm = document.createElement('span');
+                    nm.className = 'nm';
+                    nm.textContent = noteName;
+                    chip.appendChild(nm);
+                }
+                chip.title = isFallback
+                    ? `No metadata for ${t} — click to use ticker as note name`
+                    : `Link to "${noteName}"`;
+                if (isFallback) chip.classList.add('notelink-chip-fallback');
+                chip.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    if (isFallback && !metaOk) {
+                        if (window.toast) window.toast(`Metadata unavailable — linking as ${t}`);
+                    }
+                    if (noteLinkInput) noteLinkInput.value = noteName;
+                    ctx.noteLink = noteName;
+                    window.ChartCardContext.syncToCard(ctx);
+                    updateNoteLinkUI();
+                    saveCards();
+                    hideNoteLinkPopover();
+                    if (window.toast) window.toast(`Linked: ${noteName}`);
+                });
+                noteLinkTickers.appendChild(chip);
+            });
+        }
+        function showNoteLinkPopover() {
+            if (!noteLinkPopover) return;
+            noteLinkPopover.hidden = false;
+            if (noteLinkInput) {
+                noteLinkInput.value = ctx.noteLink || '';
+                noteLinkInput.focus();
+                noteLinkInput.select();
+            }
+            populateNoteLinkTickers();
+        }
+        function hideNoteLinkPopover() {
+            if (noteLinkPopover) noteLinkPopover.hidden = true;
+        }
+        function handleNoteLinkBtnClick(e) {
+            const val = (ctx.noteLink || '').trim();
+            if (val && !e.shiftKey) {
+                openNoteInObsidian();
+            } else {
+                if (noteLinkPopover && !noteLinkPopover.hidden) {
+                    hideNoteLinkPopover();
+                } else {
+                    showNoteLinkPopover();
+                }
+            }
+        }
+        function handleNoteLinkBtnContextMenu(e) {
+            e.preventDefault();
+            showNoteLinkPopover();
+        }
+        function handleNoteLinkChange() {
+            ctx.noteLink = noteLinkInput.value;
+            window.ChartCardContext.syncToCard(ctx);
+            updateNoteLinkUI();
+            saveCards();
+        }
+        function handleNoteLinkKeydown(e) {
+            if (e.key === 'Enter') {
+                hideNoteLinkPopover();
+            } else if (e.key === 'Escape') {
+                hideNoteLinkPopover();
+            }
+        }
+        async function handleNoteLinkSuggest() {
+            const tickers = Array.from(selectedTickers || []);
+            if (tickers.length === 0) {
+                if (window.toast) window.toast('Add a ticker first');
+                return;
+            }
+            const primary = tickers[0];
+            try {
+                const base = window.API_BASE_URL || '';
+                const res = await fetch(`${base}/api/metadata?tickers=${encodeURIComponent(primary)}`);
+                if (!res.ok) throw new Error(`metadata HTTP ${res.status}`);
+                const data = await res.json();
+                const resolved = data && data[primary];
+                if (!resolved) {
+                    if (window.toast) window.toast(`No metadata for ${primary}`);
+                    return;
+                }
+                const name = stripCorporateSuffix(resolved);
+                if (noteLinkInput) noteLinkInput.value = name;
+                ctx.noteLink = name;
+                window.ChartCardContext.syncToCard(ctx);
+                updateNoteLinkUI();
+                saveCards();
+                if (window.toast) window.toast(`Suggested: ${name}`);
+            } catch (e) {
+                console.warn('[NoteLink] suggest failed', e);
+                if (window.toast) window.toast('Suggest failed');
+            }
+        }
+        if (noteLinkBtn) {
+            noteLinkBtn.addEventListener('click', handleNoteLinkBtnClick);
+            noteLinkBtn.addEventListener('contextmenu', handleNoteLinkBtnContextMenu);
+        }
+        if (noteLinkInput) {
+            noteLinkInput.addEventListener('input', handleNoteLinkChange);
+            noteLinkInput.addEventListener('keydown', handleNoteLinkKeydown);
+        }
+        if (noteLinkSuggest) noteLinkSuggest.addEventListener('click', handleNoteLinkSuggest);
+        if (noteLinkPopoverClose) noteLinkPopoverClose.addEventListener('click', hideNoteLinkPopover);
+        // Click outside popover closes it — stored on card for removal in handleRemoveCard
+        card._noteLinkOutsideClick = (e) => {
+            if (!noteLinkPopover || noteLinkPopover.hidden) return;
+            if (noteLinkPopover.contains(e.target)) return;
+            if (noteLinkBtn && noteLinkBtn.contains(e.target)) return;
+            hideNoteLinkPopover();
+        };
+        document.addEventListener('click', card._noteLinkOutsideClick);
+        updateNoteLinkUI();
+
         // Add chart button handler
         function handleAddChart() {
             // Get the current active page wrapper
@@ -635,6 +802,11 @@
                 // Cleanup global keydown listener for settings panel
                 if (card._escapeHandler) {
                     document.removeEventListener('keydown', card._escapeHandler);
+                }
+
+                // Cleanup global click listener for note-link popover
+                if (card._noteLinkOutsideClick) {
+                    document.removeEventListener('click', card._noteLinkOutsideClick);
                 }
 
                 // Remove nav link

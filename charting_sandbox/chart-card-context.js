@@ -54,6 +54,7 @@ window.ChartCardContext = {
             initialFundamentalsPaneStretchFactor = 1.0,
             initialStarred = false,
             initialTags = [],
+            initialNoteLink = '',
             cardId = null,
             targetPage = '1',
             saveCards = () => {}
@@ -126,6 +127,7 @@ window.ChartCardContext = {
             manualInterval: initialManualInterval,
             starred: initialStarred,
             tags: [...initialTags],
+            noteLink: initialNoteLink,
 
             // ═══════════════════════════════════════════════════════════════
             // INTERNAL FLAGS
@@ -250,6 +252,7 @@ window.ChartCardContext = {
         card._decimalPrecision = ctx.decimalPrecision;
         card._starred = ctx.starred;
         card._tags = ctx.tags;
+        card._noteLink = ctx.noteLink;
     },
 
     /**
@@ -332,7 +335,8 @@ window.ChartCardContext = {
             revenuePaneStretchFactor: ctx?.revenuePaneStretchFactor ?? 1.0,
             fundamentalsPaneStretchFactor: ctx?.fundamentalsPaneStretchFactor ?? 1.0,
             starred: !!ctx?.starred,
-            tags: ctx?.tags || []
+            tags: ctx?.tags || [],
+            noteLink: ctx?.noteLink || ''
         };
     },
 
@@ -415,6 +419,7 @@ window.ChartCardContext = {
         ctx.title = cardData.title ?? '';
         ctx.notes = cardData.notes ?? '';
         ctx.manualInterval = cardData.manualInterval ?? null;
+        ctx.noteLink = cardData.noteLink ?? '';
 
         // ─── Numbers ───────────────────────────────────────────────────────
         ctx.height = toNumber(cardData.height, window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400);

@@ -1,10 +1,31 @@
+import math
 import os
 import sys
 import logging
 
 from flask import Flask
+from flask.json.provider import DefaultJSONProvider
 from flask_cors import CORS
 from flask_compress import Compress
+
+
+class SafeJSONProvider(DefaultJSONProvider):
+    """Replaces NaN/Inf floats with None so responses are valid JSON."""
+
+    @staticmethod
+    def _clean(obj):
+        if isinstance(obj, float):
+            if math.isnan(obj) or math.isinf(obj):
+                return None
+            return obj
+        if isinstance(obj, dict):
+            return {k: SafeJSONProvider._clean(v) for k, v in obj.items()}
+        if isinstance(obj, (list, tuple)):
+            return [SafeJSONProvider._clean(v) for v in obj]
+        return obj
+
+    def dumps(self, obj, **kwargs):
+        return super().dumps(self._clean(obj), **kwargs)
 
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -19,6 +40,7 @@ logging.basicConfig(
 )
 
 app = Flask(__name__)
+app.json = SafeJSONProvider(app)
 CORS(app)
 Compress(app)  # Enable gzip compression for responses
 

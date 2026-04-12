@@ -60,7 +60,7 @@ window.ChartTicDashboard = {
         });
 
         card._type = 'tic-dashboard';
-        card._fullWidth = true;
+        card._fullWidth = options.fullWidth !== false;
         card._ticState = { rolling: parseInt(rollingSelect.value) };
 
         wrapperEl.appendChild(card);

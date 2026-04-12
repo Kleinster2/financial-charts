@@ -298,6 +298,22 @@
     tabBar.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
   });
 
+  // Close dropdowns when cursor leaves the header area (prevents orphaned menus
+  // when the auto-hide header collapses). Small delay lets the user move between
+  // button and menu without triggering an accidental close.
+  const headerZone = document.getElementById('header-zone');
+  if (headerZone) {
+    let closeTimer = null;
+    headerZone.addEventListener('mouseleave', () => {
+      closeTimer = setTimeout(() => {
+        tabBar.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
+      }, 300);
+    });
+    headerZone.addEventListener('mouseenter', () => {
+      if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; }
+    });
+  }
+
   // Build the tab bar with category dropdowns
   function buildTabBar() {
     tabBar.innerHTML = '';

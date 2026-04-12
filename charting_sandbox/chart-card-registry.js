@@ -60,12 +60,14 @@ window.ChartCardRegistry = (() => {
             restore: (cardData, wrapper) => ({
                 type: 'tic-dashboard',
                 wrapperEl: wrapper,
-                rolling: cardData.rolling
+                rolling: cardData.rolling,
+                fullWidth: cardData.fullWidth !== false
             }),
             serialize: (card) => ({
                 type: 'tic-dashboard',
                 page: card.closest('.page')?.dataset.page || '1',
-                rolling: card._ticState?.rolling || 12
+                rolling: card._ticState?.rolling || 12,
+                fullWidth: card._fullWidth !== false
             })
         }
     };

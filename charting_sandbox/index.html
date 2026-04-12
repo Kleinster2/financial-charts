@@ -18,6 +18,46 @@
     .chart-card{margin-bottom:3rem;background:#000000;position:relative;z-index:1;}
     /* chip styles restored */
     .controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:4px;}
+    /* Note-link button (Obsidian vault link) — sits in .controls, opens popover or note */
+    .notelink-wrap{position:relative;display:inline-block;}
+    .notelink-btn{opacity:0.45;}
+    .notelink-btn[data-state="set"]{opacity:1;}
+    .notelink-btn[data-state="set"]::after{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:#4caf50;margin-left:3px;vertical-align:middle;}
+    .notelink-popover{
+        position:absolute;top:100%;left:0;z-index:400;
+        display:flex;flex-direction:column;gap:4px;
+        background:#131722;border:1px solid #2962ff;border-radius:4px;
+        padding:6px;margin-top:2px;min-width:320px;
+        box-shadow:0 4px 12px rgba(0,0,0,0.5);
+    }
+    .notelink-popover[hidden]{display:none;}
+    .notelink-popover .notelink-tickers{
+        display:flex;flex-wrap:wrap;gap:3px;
+    }
+    .notelink-popover .notelink-tickers:empty{display:none;}
+    .notelink-popover .notelink-ticker-chip{
+        background:#2a2e39;color:#d1d4dc;border:1px solid #444;border-radius:3px;
+        padding:3px 8px;font-size:11px;cursor:pointer;line-height:1.2;
+        display:inline-flex;align-items:center;gap:4px;
+    }
+    .notelink-popover .notelink-ticker-chip:hover{background:#2962ff;border-color:#2962ff;color:#fff;}
+    .notelink-popover .notelink-ticker-chip .tk{font-weight:600;}
+    .notelink-popover .notelink-ticker-chip .nm{opacity:0.7;font-size:10px;}
+    .notelink-popover .notelink-row{
+        display:flex;align-items:center;gap:4px;white-space:nowrap;
+    }
+    .notelink-popover .notelink-input{
+        background:#2a2e39;color:#d1d4dc;border:1px solid #444;border-radius:3px;
+        padding:3px 6px;font-size:12px;flex:1 1 auto;min-width:180px;outline:none;
+    }
+    .notelink-popover .notelink-input:focus{border-color:#2962ff;}
+    .notelink-popover .notelink-suggest,
+    .notelink-popover .notelink-popover-close{
+        background:#2a2e39;color:#d1d4dc;border:1px solid #444;border-radius:3px;
+        padding:2px 7px;font-size:12px;cursor:pointer;line-height:1.2;
+    }
+    .notelink-popover .notelink-suggest:hover,
+    .notelink-popover .notelink-popover-close:hover{background:#363a45;}
     .ticker-chips{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end;width:100%;margin-top:4px;}
     .chip{display:inline-block;border-radius:4px;padding:2px 6px;margin:2px;font-size:0.9rem;color:#fff;}
     .chip--hidden{opacity:0.4;text-decoration:line-through;}
@@ -199,7 +239,7 @@
         background: transparent;
     }
     #header-zone:hover, #header-zone.pinned {
-        max-height: 400px; overflow: auto;
+        max-height: 400px; overflow: visible;
         background: #000000; padding: 0.5rem 1rem; box-shadow: 0 2px 12px rgba(0,0,0,0.8);
     }
     #header-zone .header-grip {
@@ -258,11 +298,11 @@
   <script src="chart-series-manager.js?v=6"></script>
   <script src="chart-ticker-labels.js?v=2"></script>
   <script src="chart-volume.js?v=5"></script>
-  <script src="chart-dom-builder.js?v=20"></script>
+  <script src="chart-dom-builder.js?v=24"></script>
   <script src="card-event-binder.js?v=1"></script>
   <script src="chart-updaters.js?v=1"></script>
   <script src="chart-event-handlers.js?v=3"></script>
-  <script src="chart-card-context.js?v=4"></script>
+  <script src="chart-card-context.js?v=5"></script>
   <script src="chart-card-plot.js?v=2"></script>
   <script src="chart-card-toggles.js?v=1"></script>
   <script src="chart-card-range.js?v=1"></script>
@@ -271,15 +311,15 @@
   <script src="chart-card-nav.js?v=1"></script>
   <script src="chart-fundamentals.js?v=2"></script>
   <script src="chart-fundamentals-pane.js?v=3"></script>
-  <script src="pages.js?v=18"></script>
-  <script src="chart-card-registry.js?v=2"></script>
-  <script src="card.js?v=70"></script>
+  <script src="pages.js?v=19"></script>
+  <script src="chart-card-registry.js?v=4"></script>
+  <script src="card.js?v=75"></script>
   <script src="global-search.js?v=13"></script>
   <script src="chart-nav-toggle.js?v=1"></script>
   <script src="dashboard-base.js?v=2"></script>
   <script src="chart-dashboard.js?v=18"></script>
   <script src="chart-macro-dashboard.js?v=3"></script>
-  <script src="chart-tic-dashboard.js?v=8"></script>
+  <script src="chart-tic-dashboard.js?v=10"></script>
   <script src="chart-dendrograms.js?v=6"></script>
   <script src="chart-thesis-performance.js?v=1"></script>
   <script src="chart-grid-layout.js?v=6"></script>
