@@ -74,11 +74,13 @@ Context: Korea back to \#2 in global chip equipment spending ($29.66B, +27.2% Yo
 
 Record quarter. KRW 57.2T operating profit (~$43B) — 8x YoY, 41% above LSEG consensus of KRW 40.6T. Revenue KRW 133T (~$100B). [[HBM]] revenue tripled YoY, driven by HBM3E and HBM4 sales to [[NVIDIA]]. Stock +5% on the Korea Exchange.
 
-This is the highest quarterly operating profit in Samsung history, eclipsing the Q3 2018 memory cycle peak (KRW 17.6T) by 3.2x. The DS (Device Solutions) division led, confirming the [[Memory shortage 2025-2026|memory supercycle]] thesis.
+This is the highest quarterly operating profit in Samsung history, eclipsing the Q3 2018 memory cycle peak (KRW 17.6T) by 3.2x. The DS (Device Solutions) division led, confirming the [[Memory shortage 2025-2026|memory supercycle]] thesis. Samsung characterised the market as an "unprecedented supercycle" in memory chips.
+
+The print also served as a real-time counter-read on the [[TurboQuant]] sell-off. Samsung and [[SK Hynix]] shares had fallen sharply across the two weeks following [[Google]]'s Mar 25 unveiling of the KV-cache compression algorithm, on fears of reduced [[HBM]] demand. The Q1 guidance near all-time highs was read as evidence that memory-intensive AI workloads were still growing through the quarter (Financial Times, Daniel Tudor, Apr 12 2026).
 
 Risk factor: [[2026 Strait of Hormuz crisis|Iran conflict]] disrupting helium shipments critical to semiconductor manufacturing. If the conflict extends, Samsung and [[SK Hynix]] face potential fab disruption.
 
-*Sources: CNBC, SamMobile, Bloomberg (Apr 7, 2026)*
+*Sources: CNBC, SamMobile, Bloomberg (Apr 7, 2026), Financial Times (Apr 12, 2026)*
 
 ## Open questions
 

@@ -311,6 +311,92 @@ By end of March, ~200K bpd of additional crude demand comes from refiners emergi
 
 ---
 
+## Fortress China cracks — factory-gate inflation returns (FT, April 11)
+
+*Source: [[FT]], Edward White (Shanghai), April 11, 2026*
+
+Six weeks into the conflict, [[China]]'s supply chain system — widely credited as better-prepared than most economies in the opening weeks — is showing acute strain. In March, China recorded its first year-on-year increase in factory-gate prices ([[China PPI]]) since 2022. Beijing is now hoping the ceasefire holds beyond its initial two-week window so that oil and gas can resume flowing through the [[Strait of Hormuz]]. The FT ties the price breakout to the broader [[Fortress China]] thesis — Xi Jinping's years-long drive for economic self-sufficiency is being stress-tested in real time.
+
+![[ft-china-petchem-helium-prices-iran-war-apr2026.png]]
+*Domestic market prices (Rmb per tonne) across 2025-2026 for [[Polyethylene|LLDPE]], [[Polypropylene|PP]], [[Methanol]], and [[Petroleum benzene]]. All four drifted lower through 2025, then spiked sharply after the Iran war began. Source: [[NBS|National Bureau of Statistics]], Wind / FT (April 11, 2026). NBS tracks prices across 300+ markets covering ~2,000 wholesalers, agents, and dealers.*
+
+### Pre-war China Middle East dependency
+
+| Commodity | Middle East share of China imports |
+|-----------|-----------------------------------|
+| Crude oil | ~1/3 |
+| Natural gas (LNG) | ~25% |
+| [[Methanol]], [[Polyethylene]], sulphur | Key source (share not disclosed by FT) |
+
+### Commodity price moves since conflict start
+
+| Commodity | Move | End use | Attribution |
+|-----------|------|---------|-------------|
+| Some [[Polyethylene|polyethylenes]] (domestic) | ~2x (doubled) | Plastic bags, bottles, clothing, toys | [[Cameron Johnson]], [[Tidalwave Solutions]] |
+| Some [[Carbon fibre]] (domestic) | +20% | Auto, consumer goods | [[Cameron Johnson]], [[Tidalwave Solutions]] |
+| High-grade [[Helium]] (spot) | +110% since attacks | Semiconductors, medical | [[Trivium China]] |
+| Lower-grade liquid [[Helium]] | +65% YTD | Industrial | [[Trivium China]] |
+| Yiwu tent/camping-chair fabric | +20% | Export manufacturing | Zhu Yuelai (camping goods exporter) |
+
+[[Cameron Johnson]], senior partner at Shanghai supply chain consultancy [[Tidalwave Solutions]], said the disruptions could be "worse" than during the [[Covid-19]] pandemic. On the input squeeze: *"It's scarcity, it's supply tightness, it's a lack of visibility when things will be turned back on."*
+
+### Peng Shaozong — "abandon wishful thinking" (late March)
+
+[[Peng Shaozong]], former [[NDRC]] official and now vice-president of the [[China Society for Economic Reform]], published an unusually candid policy paper in late March warning China "must abandon wishful thinking" and start considering worst-case scenarios.
+
+| Channel | Reported cost increase | Transmission |
+|---------|----------------------|--------------|
+| Logistics, transportation | Up to +25% | Energy-intensive services — fuel pass-through |
+| Aviation, shipping | Up to +25% | Jet fuel, bunker prices |
+| Steel | Up to +25% | Coking coal, energy-intensive melt costs |
+
+Peng also flagged risk across high-end manufacturing dependent on imported [[Helium|industrial gases]] — particularly semiconductors and medical technology. His policy recommendation: release oil from China's strategic petroleum reserve in response to higher prices, not only to scarcity. Diversify oil supplies further. Severe pressure on smaller firms with no SOE buffer.
+
+### Beijing's export-ban escalation ladder
+
+In the opening days of the war, Beijing implemented a de facto ban on exports of diesel, jet fuel, and some [[Fertilizer|fertiliser]] products to protect domestic supply. Analysts and diplomats cited by the FT warn a protracted conflict could trigger further bans on:
+
+- Plastics (cf. [[Polyethylene]], [[Polypropylene]])
+- Fertiliser blends
+- Industrial sulphuric acid (upstream of [[Phosphate]])
+
+A next-rung ban would directly threaten third-country manufacturers that depend on Chinese industrial inputs — the channel by which the Gulf crisis transmits from [[China]]'s import pain into [[China]]'s export leverage.
+
+### Small-firm pass-through — Wenzhou and Yiwu
+
+| Firm | Location | Impact |
+|------|----------|--------|
+| Shelf maker (unnamed) | [[Wenzhou]] | Raising prices on all new orders citing "core plastics" surge |
+| Zhu Yuelai (camping goods exporter) | [[Yiwu]] | Fabric +20%; original 10,000-unit orders cut to 3,000 |
+
+Margin compression on exporters with pre-existing orders is asymmetric: the raw-material increase arrives immediately, while sell-through to Western wholesalers is fixed by earlier quotes. The 2021-22 containership-rate pattern repeating through a different cost channel.
+
+### Russian helium distributors benefit
+
+Several Chinese helium distributors sourcing from [[Russia]] told the FT they were enjoying higher prices as buyers exposed to Middle Eastern supply rushed to stockpile. Same displacement dynamic as [[Venezuela]]n heavy crude moving into the US Gulf Coast: a disruption that drives up Gulf prices creates windfall for every substitute source that was previously uneconomic or sanctioned.
+
+### State oil sector absorbing costs
+
+China's state-dominated oil sector ([[PetroChina]], [[Sinopec]], [[CNOOC]]) has been absorbing some of the price increases, meaning the full extent of surging oil prices has not yet been fully felt by consumers. Standard SOE-buffer mechanism: losses at the refinery/distribution layer delay political pressure at the pump. Peng's SPR recommendation reflects recognition that the state balance sheet cannot absorb forever.
+
+### Xi pivots to electrification (April 7)
+
+[[Xi Jinping]] on Monday (April 7) called on policymakers to accelerate renewable energy projects alongside nuclear technology and coal to boost energy security, per state broadcaster [[CCTV]]. Xi did not refer specifically to the Iran war. His framing: *"A greener, more diversified and resilient new energy system will provide a strong guarantee for China's energy security and economic development."* The war has accelerated the existing [[China solar buildout]] and [[China nuclear buildout]] from climate policy into national-security infrastructure.
+
+### Investment read
+
+Three layers stand out:
+
+1. The ceasefire window is short (initial two weeks). Beijing's supply buffers — strategic reserves, SOE absorption, export bans — assume the window holds.
+2. If it doesn't, the next-rung export bans (plastics, sulphuric acid, fertiliser blends) are on the table. That moves the crisis from China-as-victim to China-as-transmitter — a second-order cascade into European chemicals (cf. [[BASF]]) and global fertiliser.
+3. The structural response is electrification: solar + nuclear + coal as the self-sufficiency stack. Over multi-year horizons, that tightens Chinese domestic oil and gas demand, compounding problems for Gulf producers who rely on [[China]] as marginal buyer.
+
+Flip-side beneficiaries: Russian helium/petchem distributors, Chinese SOE oil refiners (short-term pain, multi-year buffer), domestic renewables/nuclear. Losers: smaller export manufacturers caught between fixed-price Western contracts and rising input costs; non-China manufacturers of anything downstream of the commodities on Beijing's next export-ban list.
+
+See [[Fortress China]] for the structural framework that Xi is defending.
+
+---
+
 ## US polyethylene/ethylene boom — Hormuz beneficiary trade (March 19)
 
 *Source: Bloomberg, Christopher Charleston, March 19, 2026*
@@ -334,7 +420,7 @@ Harrison Jacoby (Director, PE Americas, [[ICIS]]): US polyethylene producers *"m
 
 North American producers — including [[LyondellBasell]] and [[Dow]] — are the primary beneficiaries. The transmission: Hormuz closure → Middle East petrochemical exports blocked → Asian plants hit by outages and feedstock shortages → global PE availability tightens → US export demand surges → ethylene spot prices spike → crackers ramp to maximum utilization.
 
-This is the flip side of the [[BASF]] and Asian plant closure story. While European and Asian petrochemical producers face feedstock crisis (naphtha parabolic, plants shutting), US producers are advantaged by cheap domestic ethane (from shale gas), functioning export infrastructure, and surging global demand. The ~+12% ethylene price jump in two days (27→30.25 cents) signals the margin expansion is accelerating.
+This is the flip side of the [[BASF]] and Asian plant closure story. While European and Asian petrochemical producers face feedstock crisis (naphtha parabolic, plants shutting), US producers are advantaged by cheap domestic [[Ethane|ethane]] (from shale gas), functioning export infrastructure, and surging global demand. The ~+12% ethylene price jump in two days (27→30.25 cents) signals the margin expansion is accelerating. See [[Ethane]] for the full structural cost-advantage framework (Mont Belvieu pricing, export capacity, VLEC fleet, ethane-vs-naphtha cracker yield comparison).
 
 Investment read: [[Enterprise Products]] (EPD) as the infrastructure play — owns the Mont Belvieu hub where ethylene is priced and traded. [[LyondellBasell]] (LYB) and [[Dow]] (DOW) as the producer plays. If the Hormuz disruption persists into April, the operating rate ceiling (~100%) becomes the constraint, and spot ethylene could overshoot further.
 

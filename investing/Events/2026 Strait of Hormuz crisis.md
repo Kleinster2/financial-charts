@@ -70,6 +70,16 @@ The 2026 Strait of Hormuz crisis is an ongoing disruption to global oil and LNG 
 - Apr 7: WTI $113.58-$115.21/bbl. S&P 500 futures -0.5%, Nasdaq -0.6%. Defense stocks lead (PLTR +6%, [[Northrop Grumman|NOC]]/[[RTX]]/[[L3Harris|LHX]] +2-4%). Energy names up 3-4% ([[Marathon Petroleum|MPC]], [[APA Corporation|APA]], [[Devon Energy|DVN]], [[Valero|VLO]], [[ConocoPhillips|COP]]).
 - Apr 8: Trump announces two-week conditional ceasefire with [[Iran]], including [[Strait of Hormuz]] reopening. Oil crashes ~17% (biggest drop since COVID): WTI -17.7% to $92.92, Brent -16.1% to $91.68. Energy stocks hammered: major oil companies down -5% to -7.5%, [[Venture Global]] -12%, [[Cheniere]] -5.9%. S&P Energy Index had been up 37% in Q1 (vs S&P 500 -4.6%) before the war premium unwind. Over 800 vessels remain stuck in Gulf ([[Kpler]]). Iran to monitor ships for weapons and demand tolls in cryptocurrency. Physical market still elevated: [[Forties]] crude $34-35 above [[Brent crude|Brent]], [[Atlantic basin]] barrels rerouting to Asia. [[Rystad Energy]] (CNBC): tiered restart in Persian Gulf — Tier 1 assets ([[Saudi Arabia]], [[UAE]], [[Qatar]], [[Kuwait]]) can come online in 2-3 weeks, but 2-4 week physical shortage persists. Vessels and insurers won't move until ceasefire holds and mines confirmed inactive. [[Bab el-Mandeb]] risk if Houthi involvement continues.
 
+### Phase 5: Islamabad talks failure and US blockade announcement (Apr 10-12)
+
+- Apr 10-11: Pakistan-mediated US-Iran talks in Islamabad collapse after 21 hours. [[JD Vance]] leads US delegation; Iran fields Ghalibaf advisors. Gap: Iran's 10-point plan preserves civil-use enrichment under IAEA monitoring; US demands zero. No lasting framework. Ceasefire technically holds but incidents at sea resumed.
+- Apr 12 (morning): [[Trump]] announces US Navy will enforce a blockade of the [[Strait of Hormuz]] via Truth Social, citing Iranian "stalling" and $1M+ tanker tolls. First US naval blockade of a major chokepoint since the 1962 Cuban Missile Crisis. Oil futures gap higher in overnight trading (pending Monday open).
+- Apr 12 (CNN GPS panel analysis):
+  - [[Anthony Blinken]] (former SecState): war a "tactical success, strategic failure" — program dispersed not ended. Advises Trump "don't fight it again, negotiate, focus on Hormuz." Netanyahu's "willing customer" pitch to every administration; JCPOA had removed 97% of Iran's HEU. "Break glass" framing on blockade.
+  - [[James Stavridis]] (retired Admiral, former NATO SACEUR): Blockade needs 2 carrier strike groups + ~12 destroyers/frigates outside Gulf + ~6 warships inside; Emirati/Saudi navies bottle both sides. Iranian counters: smuggling (Confederate analogy), mines (~500 remain after CENTCOM destroyed 90+% of 5,000 pre-war stockpile), cyber (China/Russia assist).
+  - [[Tarek Masoud]] (Harvard Kennedy School): Disputes "MBS pushed Trump to war" narrative. Gulf states split: Oman mediator → Saudi/UAE/Qatar/Kuwait mixed → Bahrain hawkish. Two Gulf red lines: (1) Iran controls Hormuz + retained missiles; (2) Iranian failed state (Syria precedent).
+  - [[Karen Young]] (MEI Senior Fellow): Crude deficit ~7 mb/d + product deficit ~4 mb/d. Saudi East-West pipeline ~7 mb/d, UAE ADCOP ~1.8 mb/d, Iran shadow fleet ~1.6 mb/d. Relief not before 2027. Asia acute (Sri Lanka shortened school week, Thailand elevator restrictions). Europe jet fuel crunch imminent.
+
 ## Quantitative impact
 
 | Metric | Pre-crisis | Peak disruption | As of early April |
@@ -199,3 +209,11 @@ Consensus: unanimous that a two-week truce is not a resolution. The question is 
 - [[US Energy Independence Six Countries]] — US exposure despite "energy independence"
 - [[Gulf Sovereign Capital Reallocation]] — capital flow implications
 - [[War premium sector map]] — beta-adjusted sector dispersion on ceasefire (Apr 8): staples, insurers, European banks carried hidden premium; SaaS accumulated safety premium that reversed
+
+### Cross-vault
+- [geopolitics: Strait of Hormuz](obsidian://open?vault=geopolitics&file=Concepts%2FStrait%20of%20Hormuz) — chokepoint doctrine, blockade mechanics, Gulf political exposure
+- [geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — full conflict timeline including Islamabad failure and blockade announcement
+- [geopolitics: Anthony Blinken](obsidian://open?vault=geopolitics&file=Actors%2FAnthony%20Blinken) — "tactical success, strategic failure" frame; no-enrichment compromise architecture
+- [geopolitics: James Stavridis](obsidian://open?vault=geopolitics&file=Analysts%2FJames%20Stavridis) — blockade force-structure requirements and Iranian asymmetric counters
+- [geopolitics: Karen Young](obsidian://open?vault=geopolitics&file=Analysts%2FKaren%20Young) — three-variable normalization test; 2027 relief timeline
+- [geopolitics: Tarek Masoud](obsidian://open?vault=geopolitics&file=Analysts%2FTarek%20Masoud) — Gulf opinion spectrum and two red lines

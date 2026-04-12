@@ -46,6 +46,8 @@ For helium's physical properties, industrial uses, [[Helium#Global supply struct
 | Late Mar | Helium buyers in [[India]] and [[Brazil]] receive force majeure notices from suppliers (Cliff Cain, Pulsar Helium, Mar 30) |
 | Late Mar | German chemical industry group VCI flags raw material supply bottleneck concerns including helium (WSJ, Mar 30) |
 | Late Mar | Spot prices more than doubled from pre-war levels; buyers scrambling for scarce spot market cargoes (WSJ, Mar 30) |
+| Late Mar | [[Peng Shaozong]] (former [[NDRC]] official, vice-president [[China Society for Economic Reform]]) warns risk to high-end manufacturing from industrial gas shortages, naming semiconductors and medical technology ([[FT]], Apr 11) |
+| Apr 11 | [[Trivium China]] reports domestic Chinese spot prices for high-grade helium +110% since Iran strikes; lower-grade liquid helium tracking +65% YTD ([[FT]]) |
 
 Pre-crisis buffer: ~15% global supply surplus existed before the shutdown. With 30% capacity removed, the net shortage is ~15%.
 

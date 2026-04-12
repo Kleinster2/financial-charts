@@ -14,7 +14,9 @@ Invisible but essential — every chip goes through Disco equipment:
 | Metric | Value |
 |--------|-------|
 | Ticker | 6146.T (Tokyo) |
-| Market cap | ~¥2.5T (~$16B) |
+| Price (2026-04-10) | ¥66,890 |
+| Market cap | ~¥7.25T (~$48B) |
+| 1Y return | +145% |
 | Dicing share | ~70-80% |
 | Revenue | ~¥300B |
 | Founded | 1937 |
@@ -89,11 +91,13 @@ Invisible but essential — every chip goes through Disco equipment:
 | Metric | Value |
 |--------|-------|
 | Ticker | 6146.T |
-| Market cap | ~¥2.5T |
+| Price (2026-04-10) | ¥66,890 |
+| Market cap | ~¥7.25T (~$48B) |
+| 1Y return | +145% |
 | Dicing share | ~80% |
 | Earnings | 1/21 |
 
-*Updated 2026-01-04*
+*Updated 2026-04-12*
 
 ---
 

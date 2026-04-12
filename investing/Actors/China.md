@@ -58,6 +58,17 @@ Cement tells the construction story most clearly — after decades of growth, Ch
 
 **Policy stance:** "Moderately loose" — first use of this language since 2008 financial crisis.
 
+### Factory-gate inflation regime change (March 2026)
+
+[[China PPI]] (Producer Price Index) printed positive year-on-year for the first time since 2022 — not a demand-led recovery but the [[2026 Strait of Hormuz crisis]] pushing petrochemical feedstock costs through the factory gate. See [[Iran conflict supply chain cascade]] and [[Fortress China]] for the full transmission chain ([[Polyethylene]], [[Polypropylene]], [[Methanol]], [[Petroleum benzene]] all spiking 30-55% on FT/NBS/Wind data to April 11).
+
+| Metric | Pre-war | April 2026 |
+|--------|---------|-------------|
+| PPI yoy | Negative (3+ years running) | First positive since 2022 |
+| Driver | Overcapacity + property drag | Iran war feedstock pass-through |
+
+Significance: breaks the structural deflation narrative that had priced sustained Chinese industrial overcapacity, and puts [[PBOC]] in a bind — the "moderately loose" easing cycle now runs into imported cost inflation.
+
 ---
 
 ## Bond market dynamics (Feb 2026)

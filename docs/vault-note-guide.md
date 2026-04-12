@@ -123,6 +123,20 @@ Distinct from Synopsis (which frames the key economic questions for actors). Syn
 
 Structure for concept/event: one-liner → `---` → `## Synthesis` → `---` → data sections.
 
+### Synthesis voice — narrative arc, not bullets
+
+A Synthesis section (and the Synopsis in an actor note) reads as a story, not a list. The voice that works:
+
+- **Open with the central insight** — name what the story actually IS in the first two sentences. Not "here are the facts" but "the binding constraint is X." The reader should know the thesis before they know the data.
+- **Trace the constraint chain** — walk the causality from center outward. "Start at the center. Next is X. Then Y." Each paragraph reinforces the argument by adding a constrained link, not by switching topics.
+- **Embed specific figures in flowing prose** — "Micron returned +441%" inside a sentence, not as a bullet. Numbers do the work; they should live inside the argument, not beside it.
+- **End with a cautionary tale or counter-example** — the case that closes the loop by showing what happens when the thesis *doesn't* hold. (Example: Ajinomoto as the dilution counter-case to the packaging-scarcity thesis.) Symmetry is persuasive.
+- **Finish with a one-line version** — a tight takeaway that compresses the whole argument into a single sentence. Bold allowed here since it's a heading-equivalent.
+
+What to avoid: bullet lists for the analytical core (save bullets for reference tables and data), topic headers inside the Synthesis (it should flow as continuous prose), recapping what's already in the data sections below. Synthesis is argument, not summary.
+
+The test: can the reader close the note after the Synthesis and still understand the position? If yes, the Synthesis is doing its job.
+
 ---
 
 ## Event Notes to Unburden Actors

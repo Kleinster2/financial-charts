@@ -14,7 +14,9 @@ Hidden semiconductor bottleneck inside a food company:
 | Metric | Value |
 |--------|-------|
 | Ticker | 2802.T (Tokyo) |
-| Market cap | ~¥3T (~$20B) |
+| Price (2026-04-10) | ¥4,652 |
+| Market cap | ~¥4.5T (~$30B) |
+| 1Y return | +67% |
 | ABF share | ~90%+ |
 | Semi revenue | ~5% of total |
 | Main business | Food, amino acids |
@@ -73,6 +75,26 @@ Hidden semiconductor bottleneck inside a food company:
 
 ---
 
+## Dilution mechanic
+
+Ajinomoto illustrates the gap between owning a bottleneck and having that bottleneck drive the equity. Over the year to April 2026, the packaging complex repriced hard: [[BESI]] +172%, [[Disco]] +145%, ASMPT +132%, [[Advantest]] +345%, [[Micron]] +441%. Ajinomoto returned +67% — a clear laggard despite its ABF position being more concentrated than any of those names.
+
+The mechanic:
+
+| Factor | Effect on equity |
+|--------|------------------|
+| ABF semi revenue | ~5% of total |
+| Food/amino acids | ~95% of total |
+| Food segment growth | Low single-digit, staple-like |
+| Food valuation multiple | Consumer staples range |
+| Composite beta | Dominated by the ~95%, not the 5% |
+
+The AI/packaging tailwind flows through a small fraction of the P&L. The rest of the business trades on yen consumer-staples dynamics. The 2020-22 ABF shortage was visible in gross margin but never got a standalone multiple because the market never had to price ABF as a pure-play.
+
+Implications for the thesis: monopoly rent in the right product does not automatically produce monopoly-rent equity returns. For pure-play packaging exposure the listed names are [[BESI]], ASMPT, [[Advantest]] and the OSATs — each with >50% of revenue tied to the theme. For ABF specifically there is no public pure-play at scale; substrate fabricators (Ibiden, Shinko, Unimicron) are closer but step down the value chain.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -94,12 +116,14 @@ Hidden semiconductor bottleneck inside a food company:
 | Metric | Value |
 |--------|-------|
 | Ticker | 2802.T |
-| Market cap | ~¥3T |
+| Price (2026-04-10) | ¥4,652 |
+| Market cap | ~¥4.5T (~$30B) |
+| 1Y return | +67% |
 | ABF share | ~90% |
 | Semi exposure | ~5% revenue |
 | Earnings | 2/5 |
 
-*Updated 2026-01-04*
+*Updated 2026-04-12*
 
 ---
 

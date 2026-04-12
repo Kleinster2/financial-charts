@@ -60,6 +60,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | Semiconductors | [[Iran conflict semiconductor energy risk]] | Fab power vulnerability from energy shock |
 | Mine warfare | [[Iran conflict mine warfare]] | Hormuz mine threat; Exail MCM drones |
 | Fuel oil | [[Fuel oil]] | Bunker fuel $140-175/bbl record; Asian bunkering ports running dry |
+| Commodity traders | [[Commodity trading houses]] | [[Oliver Wyman]] 2026 report: "billions" in early-war losses at [[Vitol]], [[Trafigura]], [[Mercuria Energy Group\|Mercuria]] from short hedges + stranded cargo replacement; $7.5B new credit facilities |
 | Structural | [[Hormuz Permanent Risk Premium]] | Even a short war leaves permanent oil/shipping/insurance risk premium |
 
 ---
@@ -199,6 +200,27 @@ Critical context: the rally is mechanical covering, not fundamental conviction. 
 
 *Source: [[Goldman Sachs]] PB data, Bloomberg (April 8, 2026), ainvest.com, Nicholas Crown (@nicholas_crown) TikTok (April 9)*
 
+### April 10-12 — Islamabad failure and US Navy blockade announcement
+
+The two-week conditional ceasefire architecture broke down within 72 hours. Pakistan-mediated US-Iran talks in Islamabad ran 21 hours over April 10-11 without producing a framework — [[JD Vance]]'s delegation could not bridge the enrichment gap against Iran's 10-point plan (civil enrichment under IAEA monitoring preserved). On the morning of April 12, [[Trump]] announced via Truth Social that the [[US Navy]] would enforce a blockade of the [[Strait of Hormuz]], citing Iranian "stalling" and the $1M+ tanker tolls as justification. This is the first US naval blockade of a major chokepoint since the 1962 Cuban Missile Crisis, and it preempted any Monday open that could price the diplomatic off-ramp.
+
+**CNN GPS panel analysis (April 12).** Fareed Zakaria assembled four voices that map the full economic and military structure of the announcement:
+
+- [[Karen Young]] ([[MEI]] Senior Fellow / Columbia) on market arithmetic — the deficit is **two separate shortages stacked**: a crude deficit of ~7 mb/d (physical unavailability despite bypass pipelines) and a product deficit of ~4 mb/d (Gulf refineries dark or damaged, so diesel/jet/naphtha cannot be replaced regardless of crude bypass). Available substitutes: [[East-West Pipeline]] ~7 mb/d, [[ADCOP]] ~1.8 mb/d, Iran shadow fleet ~1.6 mb/d. Her three-variable normalization test requires traffic + infrastructure + a government-side resolution; **none are converging before 2027**. Asia is already rationing (Sri Lanka shortened school week, Thailand elevator restrictions); Europe's jet-fuel crunch is the next wave. This is the strongest public quantification yet of why the war's market premium is not a headline trade but a 12–18 month structural imbalance.
+- [[James Stavridis]] (retired Admiral, former NATO SACEUR) on blockade mechanics — 2 carrier strike groups + ~12 destroyers/frigates outside the Gulf + ~6 warships inside, with [[UAE]] and Saudi navies "bottling" both approaches. Iranian asymmetric counters: smuggling (his Confederate blockade analogy — porous over time), mines (~500 remain after CENTCOM destroyed 90+% of the pre-war 5,000-unit stockpile during the March campaign), cyber (with [[China]]/[[Russia]] technical assistance). Mine warfare is the dominant near-term risk because a single mining event inside the blockade perimeter would require MCM sweeps and pause traffic for days to weeks.
+- [[Tarek Masoud]] ([[Harvard Kennedy School]], Middle East Initiative director) on Gulf political exposure — disputes the "MBS pushed Trump to war" narrative. Gulf opinion runs Oman (mediator) → Saudi/UAE/Qatar/Kuwait (mixed and defensive) → Bahrain (hawkish). Two Gulf red lines that a blockade implicates: (1) Iran retains both Hormuz control and missile capacity; (2) Iran collapses into a Syria-style failed state. A blockade tightening without regime-change architecture raises both simultaneously. Shia-demographic exposure in Saudi Eastern Province (~30%) and Bahrain (~50%) is the transmission channel for internal unrest if the blockade stretches.
+- [[Anthony Blinken]] (former SecState) on strategic framing — war was a "tactical success, strategic failure": the Iranian program was dispersed, not ended. JCPOA architecture had removed 97% of HEU and bought 1-year breakout; Netanyahu's "willing customer" pitch to every administration was, in his telling, always the path of least resistance for Washington. His advice to Trump: don't fight it again, negotiate, focus on Hormuz as the durable leverage point. Blinken's read on the blockade announcement is "break glass" — structural, not tactical.
+
+**Market implications layered onto the Goldman PB short-squeeze context above.** The April 8 squeeze was mechanical covering on ceasefire hope; the April 12 blockade reverses the premise. Three positioning vulnerabilities:
+
+1. **Short-squeeze reversal risk.** The 2.9x gross leverage that carried into the ceasefire rally is now exposed to a blockade-driven repricing of oil and risk premium. If the weekend cash-equity futures reopen with crude gap higher, the same pod-shop books that absorbed the March shock could face a second repricing round.
+2. **Hedge-fund positioning.** Macro funds that got crushed on the [[Steepener trade]] in March and were finally seeing short-cover relief now face a second regime break — rates likely to stay higher on reinstated oil premium; the ECB/BoE rate-hike signal strengthens.
+3. **Physical vs financial gap.** The financial rally priced resolution; Young's deficit arithmetic says the physical shortage holds through 2027 regardless of announcement path. The gap between screen prices and the 800+ vessels still stuck in the Gulf (per [[Kpler]] April 8) now widens.
+
+This is the first major market-moving event where a blockade announcement — not a strike or a ceasefire — is the catalyst. Watch: Asian tape Monday (Japan/Korea energy importers; Saudi/UAE equities on the ADX/Tadawul); physical diffs ([[Forties]], [[Atlantic basin]]); insurance market response (P&I clubs' war-risk terms); and whether [[China]], [[Russia]], [[India]] publicly challenge the blockade legality.
+
+*Source: CNN Fareed Zakaria GPS, April 12, 2026.*
+
 ---
 
 ## Treasury market and capital flow effects
@@ -233,6 +255,10 @@ Two major expert panels produced the deepest structural analysis:
 - [[Iran]] — actor
 - [[Strait of Hormuz]] — oil chokepoint
 - [[Iran conflict long-short basket]] — thesis
+- [[Commodity trading houses]] — industry P&L concept, trader losses quantified
+- [[Vitol]], [[Trafigura]], [[Mercuria Energy Group]], [[Gunvor]] — top traders hit by early-war losses
+- [[Oliver Wyman]] — 2026 commodity trading report, public source for industry figures
+- [[Physical Oil Trading]] — paper-physical disconnect, hedge mechanics, supply-shock losses
 
 ### Gold / reserves
 - [[Gold]] — safe-haven thesis failed; CB selling pivot
@@ -275,12 +301,15 @@ Two major expert panels produced the deepest structural analysis:
 - [[Ed Morse]] — "six countries" framework, Hormuz reopening
 - [[Brad Setser]] — macro arithmetic, Russia windfall
 - [[Megan O'Sullivan]] — existential escalation miscalculation
-- [[Karen Young]] — Gulf GDP contraction estimates
+- [[Karen Young]] — Gulf GDP contraction estimates; April 12 deficit arithmetic and three-variable normalization test (2027 relief earliest)
 - [[Mick Mulroy]] — Pentagon budget duration signal
 - [[Kpler]], [[Matt Smith]] — supply gap analysis
 - [[Amrita Sen]], [[Energy Aspects]] — "reverse COVID" framing, Hormuz reopening timeline
 - [[Jeff Currie]] — "regime change, not a trade"
 - [[Rystad Energy]] — US producer FCF scenarios, supermajor ME exposure
+- [[James Stavridis]] — blockade force-structure and Iranian asymmetric counters (smuggling/mines/cyber)
+- [[Tarek Masoud]] — Gulf opinion spectrum, two red lines constraining Gulf posture on blockade
+- [[Anthony Blinken]] — "tactical success, strategic failure" frame; JCPOA removed 97% HEU; "focus on Hormuz" advice
 
 ### Concepts
 - [[US Energy Independence Six Countries]] — Morse's "six countries" framework
@@ -308,6 +337,7 @@ Two major expert panels produced the deepest structural analysis:
 - CFR: "The Geoeconomic Ripple Effects of the Iran War" panel (March 17, 2026)
 - MEI: Mulroy/Connelly panel (March 20, 2026)
 - Kpler (Matt Smith): CNBC International supply gap analysis (March 16, 2026)
+- CNN Fareed Zakaria GPS (April 12, 2026) — https://youtu.be/BgNJ1Ygo_d8 — Blinken interview, Stavridis blockade mechanics, Masoud Gulf opinion, Young energy arithmetic
 
 ---
 

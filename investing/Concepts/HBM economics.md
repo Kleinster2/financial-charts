@@ -74,7 +74,7 @@ The [[Memory squeeze thesis]] argues consumer-grade hardware window may be closi
 
 ## Structural vs cyclical
 
-This appears **structural**, not just a cycle:
+This appears structural, not just a cycle:
 
 | Factor | Implication |
 |--------|-------------|
@@ -85,7 +85,13 @@ This appears **structural**, not just a cycle:
 
 The memory industry has never seen demand this concentrated in high-capacity products.
 
-**Caveat:** TrendForce Feb 2026 notes "weak" spot market demand with suppliers lowering quotes — monitor for cyclical vs structural dynamics.
+Caveat: TrendForce Feb 2026 notes "weak" spot market demand with suppliers lowering quotes — monitor for cyclical vs structural dynamics.
+
+### Contract vs spot pricing — less cyclical regime (Apr 2026)
+
+Ray Wang ([[SemiAnalysis]], Seoul): "Memory is becoming a bit less cyclical, driven by accelerating and sustainable AI demand. Contract pricing now matters more than spot pricing" (Financial Times, Apr 12 2026). The mechanism is a growing share of HBM volume sold under multi-year agreements with AI service providers — [[Samsung]] co-CEO Jun Young-hyun confirmed at the Mar 17 AGM that the company is pursuing "contracts of three or five years with major clients, shifting from the existing quarterly and annual terms."
+
+The context for the quote was the [[TurboQuant]] sell-off: Wang's argument is that even if inference-side memory efficiency improves, committed contract volume cushions the blow. The cycle is not eliminated, but its amplitude around contract-priced floor volumes is smaller than a pure spot-market reading would suggest.
 
 ---
 
@@ -102,11 +108,14 @@ The memory industry has never seen demand this concentrated in high-capacity pro
 - [[Local-first AI]] — needs local memory, affected by squeeze
 - [[Agentic AI]] — drives hardware demand
 - [[Advanced packaging]] — HBM packaging bottleneck
+- [[TurboQuant]] — KV-cache compression feared to compress demand; contract structure cushions impact
+- [[Jevons Paradox]] — counter-framing for TurboQuant's demand implications
 
 ### Actors
 - [[SK Hynix]] — \#1 HBM, 50%+ share
 - [[Samsung]] — \#2 HBM, multi-year supply deals
 - [[Micron]] — \#3 HBM, exited consumer
+- [[SemiAnalysis]] — Ray Wang framed the less-cyclical regime
 
 ### Sectors
 - [[Memory]] — parent sector
@@ -115,4 +124,4 @@ The memory industry has never seen demand this concentrated in high-capacity pro
 - [TrendForce DRAMeXchange](http://www.dramexchange.com/)
 - [Yahoo Finance - MU](https://finance.yahoo.com/quote/MU/)
 
-*Created 2026-01-28 | Updated with Feb 2026 spot prices*
+*Created 2026-01-28 | Updated with Feb 2026 spot prices | Updated 2026-04-12 (contract-pricing regime)*

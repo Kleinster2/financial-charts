@@ -57,6 +57,10 @@ aliases: [National Development and Reform Commission, 国家发展和改革委�
 
 This signals pivot from investment-led to consumption-led growth model.
 
+### Late March 2026: Peng Shaozong energy-security warning
+
+[[Peng Shaozong]], former NDRC official and now vice-president of the [[China Society for Economic Reform]], published an unusually candid policy paper warning that China "must abandon wishful thinking" and should start considering worst-case scenarios in the wake of the [[2026 Strait of Hormuz crisis]]. Costs in energy-intensive sectors (logistics, transport, aviation, shipping, steel) had jumped as much as 25%; pressure severest on smaller firms without SOE cost-absorption buffer. Policy recommendation: release oil from the strategic petroleum reserve in response to higher prices, not only scarcity; accelerate oil supply diversification. Flagged industrial-gas dependencies (including [[Helium]]) for semiconductors and medical technology. See [[Iran conflict supply chain cascade#Peng Shaozong — "abandon wishful thinking" (late March)|supply chain cascade note]] for the data.
+
 ### 15th Five-Year Plan (2026-2030)
 
 | Theme | Focus |

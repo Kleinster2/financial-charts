@@ -4,6 +4,24 @@
 
 ---
 
+## Synthesis
+
+AI compute isn't limited by GPU design. It's limited by everything downstream of the wafer — and the market has figured this out. [[NVIDIA]] designs Blackwell, Rubin, Feynman, but a shippable AI accelerator is a system: logic die plus 8-16 [[HBM]] stacks plus silicon interposer plus [[Ajinomoto|ABF]] substrate plus package plus test. At every one of those steps sits a constrained link controlled by someone other than NVIDIA. Over the year to April 2026, the market repriced those links. NVDA returned +70%. The picks-and-shovels did multiples of that, a dispersion documented below in [Equity return dispersion](#equity-return-dispersion-1y-to-2026-04-10).
+
+Start at the center. [[TSMC]] has a monopoly on the 2.5D silicon interposer (CoWoS) that every modern AI accelerator requires. NVIDIA has locked more than half of that capacity through 2027 ([CoWoS allocation crisis](#cowos-allocation-crisis-jan-2026)), forcing [[Google]] to cut planned TPU production from 4M to 3M units and pushing [[AMD]] to hunt for [[Samsung|Samsung alternatives]]. Greenfield packaging takes 3-5 years, so TSMC is buying dying Taiwan LCD panel fabs for their cleanroom shells ([[Taiwan panel-to-packaging conversion|panel-to-packaging conversion]]) because that's faster than building new. JPMorgan pegs the 2026 supply-demand gap at 15-20%; panel conversions don't close it.
+
+Memory is the second bottleneck. [[HBM]] is a three-supplier oligopoly ([[SK Hynix]], [[Samsung]], [[Micron]]), each GB consumes ~4x the wafer area of standard DRAM ([[HBM economics]]), and HBM4 is fully sold out for 2026 before launch. That's why [[Micron]] returned +441% and [[SK Hynix]] +378% — they are the only way for a GPU to breathe. It's also why consumer DRAM is getting squeezed: the same fabs, competing for allocation. AI is eating consumer memory.
+
+Test is the quiet winner the consensus narrative keeps missing. Chiplets and HBM stacks multiply test steps: every die needs Known Good Die verification before assembly because there's no rework on a $10k+ CoWoS package. [[Teradyne]] +365%, [[Advantest]] +345%. Test intensity grows faster than die count grows.
+
+The US is trying to break TSMC's back-end monopoly through three parallel bets: [[Intel]] EMIB/Foveros in [New Mexico](#intel-emib-as-alternative-jan-2026-update), [[SK Hynix]] 2.5D in [Indiana 2028](#sk-hynix-challenge-dec-2025), [[Samsung]] [turnkey in Texas](#samsung-turnkey-bundle-jan-2026). Intel's 1Y +216% says the market is pricing the beachhead thesis. The next technological step is hybrid bonding — direct copper-to-copper at sub-nanometer flatness — where [[BESI]] leads, essential for HBM4 and logic-on-logic stacking.
+
+[[Ajinomoto]] is the cautionary counter-example that closes the loop: owning a ~90% share monopoly (ABF substrate) returned +67% because it's ~5% of the company's revenue. Monopoly rent in the right product, diluted equity wrapper. The market rewards pure-play constraints. For packaging-theme exposure, prioritize names where the theme is >50% of revenue ([[BESI]], ASMPT, [[Advantest]], the OSATs) over names where it's a segment inside a broader company.
+
+**The one-line version: the AI compute crunch is the packaging crunch, and scarcity rent flows to whoever can't be substituted — not to the chip designer who needs them all.**
+
+---
+
 ## Why it matters
 
 Modern AI accelerators aren't single chips — they're **systems** combining:
@@ -185,7 +203,50 @@ See [[Taiwan panel-to-packaging conversion]] for full details.
 
 ---
 
-*Updated 2026-03-10*
+## Equity return dispersion (1Y to 2026-04-10)
+
+The scarcity rent from the CoWoS/HBM crunch has flowed to the constrained links in the chain, not the end-customer GPU. [[NVIDIA]] returned +70% over the year to April 10, 2026. The picks-and-shovels did multiples of that.
+
+Ranked by 1Y total return:
+
+| Ticker | Role | 1Y% |
+|--------|------|----:|
+| [[Micron]] (MU) | HBM3E/4 supplier | +441% |
+| [[SK Hynix]] (000660.KS) | #1 HBM, Indiana 2.5D | +378% |
+| [[Teradyne]] (TER) | ATE for chiplets/HBM | +365% |
+| [[Advantest]] (6857.T) | ATE, memory test leader | +345% |
+| [[Lam Research]] (LRCX) | WFE | +293% |
+| [[Amkor]] (AMKR) | #2 OSAT, US-HQ | +255% |
+| [[KYEC]] (2449.TW) | Test OSAT (Taiwan) | +247% |
+| [[Intel]] (INTC) | EMIB/Foveros beachhead | +216% |
+| [[Samsung]] (005930.KS) | Turnkey foundry+HBM | +196% |
+| [[Applied Materials]] (AMAT) | WFE | +178% |
+| [[BESI]] (BESI.AS) | Hybrid bonding | +172% |
+| [[AMD]] | CoWoS customer | +162% |
+| [[KLA Corporation\|KLA]] (KLAC) | Inspection | +149% |
+| [[Disco]] (6146.T) | Wafer dicing ~80% | +145% |
+| [[TSMC]] (TSM) | CoWoS monopoly | +138% |
+| ASMPT (0522.HK) | BESI rival | +132% |
+| [[Tokyo Electron]] (8035.T) | WFE | +128% |
+| [[Accretech]] (7729.T) | Probers, grinders | +120% |
+| SUSS MicroTec (SMHN.DE) | Bonding, litho | +110% |
+| [[Marvell]] (MRVL) | Celestial AI acq | +111% |
+| [[Broadcom]] (AVGO) | CPO, Bailly switch | +102% |
+| [[NVIDIA]] (NVDA) | CoWoS customer | +70% |
+| [[Ajinomoto]] (2802.T) | ABF substrate ~90% | +67% |
+
+Two patterns stand out.
+
+*Test as the quiet winner.* [[Teradyne]] and [[Advantest]] returned +365% and +345% despite being further downstream than the HBM makers themselves. Chiplets and [[HBM]] stacking multiply test steps: every die needs Known Good Die verification before assembly (no rework once bonded into a $10k+ CoWoS package), every stack needs bandwidth burn-in. [[KYEC]] at +247% is the Taiwan downstream version. Hybrid bonding only raises test intensity further.
+
+*Ajinomoto as the dilution case.* +67% is the laggard of the entire complex despite ABF being a ~90% share monopoly. The ABF segment is ~5% of Ajinomoto revenue — the equity is priced on the food/amino-acids business that makes up the other ~95%. Monopoly rent in the right product, diluted equity wrapper. See [[Ajinomoto]] → "Dilution mechanic" for the full breakdown.
+
+The takeaway: for packaging-theme exposure, prioritize names where the theme is >50% of revenue ([[BESI]], ASMPT, [[Advantest]], the OSATs) over names where it's a segment inside a broader company.
+
+---
+
+*Updated 2026-04-12 (Equity return dispersion section added)*
+*Previously updated 2026-03-10*
 
 ---
 

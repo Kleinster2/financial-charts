@@ -83,6 +83,8 @@ Yuan is a managed float, not free-floating:
 - [[China]] — economy, PBOC policy
 - [[De-dollarization]] — CNY's role
 - [[PBOC]] — monetary policy
+- [[Digital Yuan]] — state-issued CBDC (e-CNY)
+- [[Offshore yuan stablecoins]] — private CNH-pegged stablecoin pipeline
 
 ---
 

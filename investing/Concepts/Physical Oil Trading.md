@@ -35,6 +35,16 @@ The paper-physical disconnect is not a bug — it is a structural feature of how
 
 Contango and backwardation take on different meaning in the physical market. In financial terms, backwardation (front month above back months) simply reflects market structure. In physical terms, backwardation means storage is being liquidated — it is more profitable to sell now than to store and sell later. Contango means storage pays — the spread between future and spot exceeds the cost of carry (storage + financing + insurance, roughly $0.50-1.00/bbl/month for onshore tanks, more for floating storage on tankers). The April 2020 super-contango, when front-month WTI went to -$37.63, was a physical market phenomenon: Cushing storage was full, and anyone holding a physically deliverable contract had nowhere to put the oil. The March 2026 situation is the mirror image: extreme backwardation (Brent front-month $14.20 premium over next month, a record) reflects acute physical scarcity — refiners will pay any premium for barrels available now.
 
+## Hedge mechanics and supply-shock losses
+
+The canonical commodity trader book is long a physical cargo and short the matching number of futures contracts. In theory, the book has no price risk — whatever the front-month future does, the physical cargo owned offsets it on the opposite ledger. In practice, the two sides of the hedge do not settle on the same schedule, and that mismatch creates the working-capital drain that dominates trading-house P&L during supply shocks.
+
+The futures leg of the hedge is marked to market and margined daily by the exchange. If Brent futures rise $10/bbl overnight and the trader is short, the trader must wire cash equal to $10 × contract size × number of contracts to the exchange the next morning. On a 2M-barrel VLCC cargo, a $20/bbl overnight spike means a $40M variation margin outflow within 24 hours. The physical side of the hedge does not settle until the cargo discharges at the refinery weeks later — so the trader is cash-flow-negative on the hedge long before the physical P&L offset arrives. In a stable market, this working-capital cost is absorbed by the trader's committed revolving credit facilities. In a price shock, it can exhaust those facilities within days.
+
+The second channel of loss — structurally worse than the margin-call squeeze — is the stranded-cargo problem. A trader with a cargo loading in the Gulf in late February 2026 had already been pre-sold to a refiner at April delivery, at a price negotiated weeks earlier. When Iran closed the [[Strait of Hormuz]] on March 2, the cargo was trapped behind the closure; the buyer still expected delivery. To honor the contract, the trader had to buy replacement barrels from outside the Gulf (North Sea, West African, US Gulf Coast), at post-shock prices. The trader is now double-long physical (the trapped cargo, the replacement cargo) and both positions were funded at pre-war prices against short hedges that have moved against them. This is why the [[2026 Iran conflict market impact|Iran war]] produced billions in early-week losses at [[Vitol]], [[Trafigura]], and [[Mercuria Energy Group|Mercuria]] even though their hedge books were structurally correct. See [[Commodity trading houses]] for the industry P&L view and the March 2026 credit-facility build-up ($3B each at Vitol and Trafigura, $1.5B at [[Gunvor]]).
+
+The Vitol naphtha loss on March 12, 2026 — two vessels trapped in the Gulf, set on fire by Iranian forces, one crew member killed — is the rare case where the physical hedge fails entirely: the underlying cargo is destroyed, leaving only the short futures and the sale obligation. Marine cargo insurance covers the hull loss but does not make the trader whole on the forward delivery commitment. This is the tail risk physical trading carries that pure financial players do not.
+
 ---
 
 ## Reference
@@ -179,8 +189,11 @@ Contango and backwardation take on different meaning in the physical market. In 
 - [[Vortexa]] — tanker tracking, physical cargo intelligence
 - [[Shadow fleet]] — ~3,300 tankers outside Western insurance
 - [[OPEC]] — production management, spare capacity
-- [[Vitol]] — world's largest independent oil trader
+- [[Vitol]] — world's largest independent oil trader; lost naphtha cargoes in Gulf Mar 12 2026
 - [[Trafigura]] — top 3 commodity trading house
+- [[Mercuria Energy Group]] — top 5 energy trader, early Iran war losses
+- [[Gunvor]] — top 5 energy trader, $1.5B liquidity facility Mar 2026
+- [[Commodity trading houses]] — industry P&L view, earnings cycle, 2026 Iran war case study
 - [[TotalEnergies]] — dominant physical buyer in Mar 2026 dislocation
 - [[ICE]] — Intercontinental Exchange, Brent futures
 - [[CME Group]] — parent of NYMEX, WTI futures

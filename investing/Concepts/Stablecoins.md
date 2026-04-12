@@ -123,6 +123,10 @@ One genuinely novel use case: AI agents executing autonomous transactions. No ca
 
 See [[Brazilian real stablecoins]] for the full landscape — 7 active tokens, ~$23M total circulation but $906M H1 2025 trading volume. Fastest-growing local stablecoin ecosystem globally (230x transaction growth since 2021).
 
+### CNH-pegged (offshore yuan)
+
+See [[Offshore yuan stablecoins]] for the full landscape. No sovereign-approved token live as of April 2026, but the pipeline is forming around [[Hong Kong]]'s Stablecoins Ordinance (effective Aug 1, 2025) and [[Kazakhstan]]'s AFSA. AxCNH ([[AnchorX]] on [[Conflux Network]]) has preliminary Kazakhstan approval — the first CNH-pegged token cleared anywhere. [[JD.com]] and [[Ant Group]] are among ~40 HK license applicants, negotiating in parallel with [[PBOC]]. Mainland ban on unauthorized yuan stablecoins reaffirmed by eight state regulators. Structurally distinct from [[Digital Yuan]] (state CBDC).
+
 ---
 
 ## Big Tech integration (Feb 2026)
@@ -206,6 +210,7 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-test
 ### Local currency stablecoins
 - [[Brazilian real stablecoins]] — 7 active BRL tokens, 230x growth since 2021
 - [[BRD]] — yield-bearing BRL stablecoin (regulatory arbitrage vs US no-yield rule)
+- [[Offshore yuan stablecoins]] — CNH-pegged pipeline ([[AnchorX]]/AxCNH, [[JD.com]], [[Ant Group]]); HK Stablecoins Ordinance + Kazakhstan AFSA as primary regulatory venues
 
 ### Geopolitical
 - [[Digital Yuan]] — CBDC competitor

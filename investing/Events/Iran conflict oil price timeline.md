@@ -734,6 +734,10 @@ The Dow entered correction territory (10%+ below record high). S&P 500 five-week
 - [[BloombergNEF]] — 9M bpd supply loss estimate (Mar 29)
 - [[Eric Nuttall]] — "worst energy crisis of our lifetimes," 900M bbl loss > COVID, $177/bbl demand destruction threshold
 - [[Ninepoint Partners]] — Nuttall's firm
+- [[Commodity trading houses]] — industry P&L concept, 2026 Iran war case study
+- [[Oliver Wyman]] — 2026 industry report, $92B 2024 earnings, "billions" in early-war losses
+- [[Vitol]], [[Trafigura]], [[Mercuria Energy Group]], [[Gunvor]] — top traders hit by early-war losses, $7.5B aggregate new credit facilities March 10–11
+- [[Physical Oil Trading]] — hedge mechanics and supply-shock loss channels
 
 ---
 
@@ -933,4 +937,71 @@ The binding constraint remains [[Amrita Sen|Sen]]'s "commercial confidence" prob
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-08 (ceasefire pricing, physical-futures disconnect, tiered restart).*
+## Commodity trader losses quantified — Oliver Wyman report (April 12)
+
+[[Oliver Wyman]]'s 2026 annual [[Commodity trading houses|commodity trading]] report, released mid-April and reported by the FT, put an industry-scale figure on the early-war damage: "billions of dollars" in losses at the major trading houses in the first weeks of the conflict. Alexander Franke ([[Oliver Wyman]] head of risk and trading): "For most participants the situation was a surprise. Before the war started, there was a strong conviction in the market that prices would fall, and because of the war, they spiked."
+
+### Two loss channels
+
+1. Short futures hedges against physical cargo ownership marked-to-market against traders. [[Vitol]], [[Trafigura]], and [[Mercuria Energy Group|Mercuria]] all nursed losses in the first week as the [[Brent crude]] move from ~$70 to $112 triggered $20–40/bbl variation-margin outflows on hedge books. Some reversed by April.
+2. Pre-sold Gulf cargoes stranded behind the [[Strait of Hormuz]] closure — 100+ fuel tankers trapped — forced traders to buy replacement barrels at post-shock prices to honor pre-war delivery commitments. Losses from physical cargo replacement also ran into the billions industrywide per Franke.
+
+### Credit facility build-up (March 10–11)
+
+| Firm | Additional revolving credit | Purpose |
+|---|---|---|
+| [[Vitol]] | $3B | Liquidity buffer for margin calls |
+| [[Trafigura]] | $3B | "Liquidity buffer, if required during a period of heightened commodity price volatility" |
+| [[Gunvor]] | $1.5B | Liquidity buffer |
+
+Aggregate $7.5B build-up was not distress financing — the working-capital requirement of a correctly hedged physical book scales with the daily price move, not with trading house P&L. A $20/bbl daily range on 10M barrels of in-flight cargo requires $200M of variation margin cycled through the exchange, even on a market-neutral position. See [[Physical Oil Trading#Hedge mechanics and supply-shock losses|Physical Oil Trading — Hedge mechanics and supply-shock losses]].
+
+### Industry backdrop from the same report
+
+- 2024 industry earnings: $92B (lowest since 2021). Oil desks –15%, metals desks +20%.
+- 2022 peak: $115B during the Russia-Ukraine energy shock.
+- "Seat cost" per trader +30% since 2021 (technology, data, compliance, talent).
+- Baseline forward earnings estimate: $90–110B/year excluding geopolitical shocks.
+
+Marc Zimmerlin (Oliver Wyman partner): "If you look at the past couple of years, it seems like we've had a lot of once-in-a-lifetime events. Obviously that's not part of anybody's business planning."
+
+The Franke quote is the cleanest attribution of the FT's loss narrative to the consensus pre-war short positioning. It is consistent with CFTC managed-money data for February 2026 (net long Brent near multi-year lows heading into the strike). The industry thesis — that volatility is the friend — breaks down on the short side of a supply shock: traders make money on basis, not on headline price, but their working-capital footprint is denominated in headline price moves.
+
+*Source: FT, "Commodity traders lost 'billions' in early days of Iran war", Leslie Hook, April 12, 2026.*
+
+---
+
+## April 10-12 — Islamabad failure and US Navy blockade announcement
+
+The April 8 ceasefire architecture broke inside 72 hours. Pakistan-mediated talks in Islamabad ran 21 hours over April 10-11 without producing a framework. [[JD Vance]]'s US delegation and Iran's team could not bridge the enrichment gap — Iran's 10-point plan preserved civil enrichment under IAEA monitoring; the US position was zero. On the morning of April 12, [[Trump]] announced via Truth Social that the [[US Navy]] would enforce a blockade of the [[Strait of Hormuz]], citing Iranian "stalling" and the $1M+ tanker tolls. First US naval blockade of a major chokepoint since the 1962 Cuban Missile Crisis.
+
+### Karen Young's April 12 arithmetic — structural deficit, 2027 relief earliest
+
+[[Karen Young]] ([[MEI]] Senior Fellow / Columbia professor) on CNN Fareed Zakaria GPS (April 12) gave the clearest public quantification yet of why the market premium is not a headline trade but a 12-18 month structural imbalance. The deficit is **two separate shortages stacked**:
+
+| Layer | Deficit | Substitute capacity |
+|---|---|---|
+| Crude (upstream) | ~7 mb/d physical unavailability | [[East-West Pipeline]] ~7 mb/d, [[ADCOP]] ~1.8 mb/d, Iran shadow fleet ~1.6 mb/d → aggregate ~10 mb/d but not all fungible for Gulf-priced grades |
+| Products (midstream/downstream) | ~4 mb/d | Virtually none — Gulf refineries dark or damaged; diesel/jet/naphtha cannot be replaced regardless of crude bypass |
+
+Her three-variable normalization test requires traffic (vessel movement resumes) + infrastructure (refineries and export terminals physically rebuilt) + a government-side resolution (legal transit regime or ceasefire durability). **None are converging before 2027.** Asia is already rationing (Sri Lanka shortened school week, Thailand elevator restrictions); Europe's jet-fuel crunch is the next wave.
+
+### Market implications
+
+The April 8 short-squeeze rally (see [[2026 Iran conflict market impact]]) was mechanical covering on ceasefire hope. The April 12 blockade reverses the premise:
+
+- **Physical-financial gap widens.** Financial markets had priced resolution; Young's 2027 relief timeline says the physical shortage holds through 2027 regardless of announcement path. The gap between screen prices and the 800+ vessels still stuck in the Gulf (per [[Kpler]] April 8) now widens.
+- **Insurance market repricing.** P&I clubs withdrew war-risk coverage in early March and had begun tentative reoffering under the ceasefire. A blockade announcement reopens the coverage question — and insurance timing (not ship positioning or mine clearance) is typically the binding constraint on when tankers physically move.
+- **ECB/BoE rate path.** The rate-hike repricing that crushed the [[Steepener trade]] in March reverses back to hikes on reinstated oil premium; energy-driven inflation prints through H2 2026.
+- **Gulf equity impact.** [[Tarek Masoud]]'s Gulf opinion spectrum (Oman mediator → Saudi/UAE/Qatar/Kuwait mixed → Bahrain hawkish) implies [[Tadawul]] could hold on Saudi domestic flows as in March while [[Dubai Financial Market]] re-tests March lows on infrastructure/tourism exposure. Shia-demographic exposure in Saudi Eastern Province (~30%) and Bahrain (~50%) is the transmission channel for internal unrest.
+- **Blockade durability.** [[James Stavridis]] (ret. Admiral, former NATO SACEUR): 2 carrier strike groups + ~12 destroyers/frigates outside Gulf + ~6 warships inside; Emirati/Saudi navies "bottle" both sides. Iranian counters layer: smuggling (Confederate analogy), mines (~500 remain after CENTCOM destroyed 90+% of pre-war 5,000 stockpile during March campaign), cyber (with China/Russia assist). Mining is the near-term risk — a single mining event inside the blockade perimeter pauses traffic for days to weeks.
+
+### Blinken framing
+
+[[Anthony Blinken]] (former SecState): war was a "tactical success, strategic failure" — program dispersed, not ended. JCPOA had removed 97% of Iran's HEU and bought 1-year breakout; Netanyahu's "willing customer" pitch to every administration was the path of least resistance. His advice to Trump: don't fight it again, negotiate, focus on Hormuz as the durable leverage point. Blinken's read on the blockade is "break glass" — structural, not tactical.
+
+*Source: CNN Fareed Zakaria GPS, April 12, 2026.*
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-08 (ceasefire pricing, physical-futures disconnect, tiered restart). 2026-04-12 trader-loss and credit-facility quantification added. 2026-04-12 Islamabad failure and blockade announcement added (Young/Stavridis/Masoud/Blinken via CNN GPS).*

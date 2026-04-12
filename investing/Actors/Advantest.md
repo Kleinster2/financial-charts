@@ -14,7 +14,9 @@ Every chip must be tested. Advantest dominates:
 | Metric | Value |
 |--------|-------|
 | Ticker | 6857.T (Tokyo), ATEYY (ADR) |
-| Market cap | ~¥4T (~$26B) |
+| Price (2026-04-10) | ¥24,990 |
+| Market cap | ~¥18.1T (~$120B) |
+| 1Y return | +345% |
 | Test equipment share | ~50%+ |
 | Revenue | ~¥600B |
 | Founded | 1954 |
@@ -105,11 +107,13 @@ Testing demand surging as chip structures become increasingly complex, making qu
 | Metric | Value |
 |--------|-------|
 | Ticker | 6857.T |
-| Market cap | ~¥4T |
+| Price (2026-04-10) | ¥24,990 |
+| Market cap | ~¥18.1T (~$120B) |
+| 1Y return | +345% |
 | ATE share | ~50% |
 | Earnings | 1/28 |
 
-*Updated 2026-01-04*
+*Updated 2026-04-12*
 
 ---
 

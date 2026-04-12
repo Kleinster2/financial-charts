@@ -170,6 +170,16 @@ On overseas expansion: will focus on new plants in [[South Korea]] for now. Elec
 
 ---
 
+## TurboQuant sell-off and demand debate (Mar-Apr 2026)
+
+[[Google]] Research's [[TurboQuant]] announcement (Mar 25, 2026) triggered two weeks of investor anxiety over Korean memory. SK Hynix and [[Samsung]] fell sharply on the first-order reading — that a 6x KV-cache compression would cut [[HBM]] demand. The sell-off was partially reversed by [[Samsung]]'s Apr 8 Q1 guidance (record ~$43B operating profit, HBM revenue tripled YoY), which served as a real-time data point against the near-term demand-destruction thesis.
+
+Ray Wang ([[SemiAnalysis]], Seoul-based memory analyst) on the dynamic: "Memory is becoming a bit less cyclical, driven by accelerating and sustainable AI demand. Contract pricing now matters more than spot pricing." Wang's framing implies that even if TurboQuant compressed per-inference memory needs at the margin, SK Hynix's fully-contracted 2026 HBM supply and 3-5 year agreements with hyperscalers cushion the impact. See [[HBM economics]] and [[Jevons Paradox]] for the full demand-side debate.
+
+*Source: Financial Times (Daniel Tudor), Apr 12 2026*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
