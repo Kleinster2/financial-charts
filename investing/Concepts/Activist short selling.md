@@ -96,6 +96,36 @@ Many firms have pivoted to:
 
 ---
 
+## The GameStop inflection (January 2021)
+
+[[Carson Block]] (WSJ *Take On the Week*, April 2026): GameStop was the structural break in activist short selling, not a one-off event. [[Andrew Left]] of Citron Research — who was publicly short GameStop when Reddit organized the squeeze — announced he was done with short selling afterward. The post-GameStop 12 months saw 2021's most speculative names collapse, validating the underlying shorts, but the career-risk lesson had already been set.
+
+Muddy Waters paused all new short activist campaigns for about two months, then relaunched in March 2021 with a short on SPAC XL Fleet (vehicle electrification claims). When they saw call-buying volume pick up and a handful of Twitter accounts floating "squeeze the shorts" messaging, they exited the position fast. Block: *"Risk management is first and foremost how this business of short selling works if you're going to stay in the game."*
+
+The permanent change: activist shorts now monitor social coordination signals (Twitter/X, Reddit, Discord, YouTube) as a first-order risk input, not a post-publication PR factor.
+
+---
+
+## Semi-annual reporting proposal (2026)
+
+The SEC's 2026 proposal to let US public companies move from quarterly to semi-annual reporting is, by Block's read, *"net-neutral"* for activist short sellers. Less frequent data but longer voids when the company is not speaking — and the campaigns Muddy Waters has run against European semi-annual reporters show the strategy works on that cadence.
+
+Block's framing of the broader question — is this good for markets? — *"it seems to me like it's a solution in search of a problem."* The argument that shorter reporting creates short-term pressure is undermined by the observation that post-GFC markets have rewarded missing growth more than missing margins, which is the opposite of the 1990s short-termism thesis.
+
+Block connects the policy receptivity to a generational story: two cohorts of investors have entered markets since GFC without experiencing a drawdown cycle that wasn't bailed out quickly. They undervalue transparency because they've never seen what happens when risk materializes in the dark.
+
+---
+
+## The China fraud era (closed)
+
+Muddy Waters made its name on China-listed US companies — Sino-Forest, Luckin Coffee, GSX Techedu. Block no longer focuses there. Structural reason: *"It's unpoliceable... consequence-free for people in China to defraud investors in America."* The US has no enforcement mechanism against persons and entities in mainland China.
+
+On auditors: a common misunderstanding is that auditors prepare financial statements. They don't — management does. The auditor's job is to check that standards were applied correctly. If management is committing what Block calls *"control fraud"* — cooking books at the most senior level — there is no structural reason for the audit to catch it. "Hundreds of confirmed frauds" from China listed in the US exited via going dark with investor capital.
+
+The frame generalizes: auditor signoff is not evidence of absence of fraud when the fraud is at the CEO/CFO level.
+
+---
+
 ## The ethics debate
 
 **Pro:**
@@ -120,7 +150,10 @@ The Andrew Left case may establish new legal boundaries for the practice.
 - [[Claritev]] — Muddy Waters SPAC target
 - [[SPAC]] — frequent short targets
 - [[Paulson & Co]] — victim of Sino-Forest fraud
+- [[AI workflow disruption basket]] — shorts expressing AI disruption thesis
+- [[Passive investing fragility]] — macro setup Block identifies for next short cycle
+- [[GameStop squeeze January 2021]] — inflection point for the strategy
 
 ---
 
-*Created 2026-01-28*
+*Created 2026-01-28. Updated 2026-04-12 with GameStop inflection, semi-annual reporting stance, and control-fraud frame from Carson Block interview.*

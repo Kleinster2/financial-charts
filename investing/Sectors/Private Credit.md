@@ -348,6 +348,22 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 
 ---
 
+## Carson Block structural critique (Apr 2026)
+
+[[Carson Block]] ([[Muddy Waters]], WSJ *Take On the Week*, April 12, 2026) doesn't run activist campaigns against private credit directly — *"you can't really bet against private credit except there's a spillover to public markets"* — but laid out three structural problems he thinks are under-priced:
+
+**1. Document forgery risk.** Private credit loan documentation is not publicly filed — it's private between parties. That creates an opportunity to forge documents and pledge the same collateral to multiple lenders. Block cited [[First Brands Group|First Brand]] as the template: collateral pledged multiple times, bankruptcy revealed the full extent only after the fact. His read of market practitioners: *"complacency... that's the sort of thing that it said in before the global financial crisis in terms of credit and documentation."*
+
+**2. PIK misalignment.** Managers are paid on AUM (management fees = percentage of AUM). If the fund can keep NAVs artificially high via [[PIK loans]] — where deferred interest compounds into paper returns without cash coming in — they clip more fees and scare away fewer investors. The incentive is to avoid markdowns, exactly the opposite of what disciplined credit requires. *"Just like we saw going into global financial crisis, when you have a misalignment of incentives you get bad outcomes."*
+
+**3. Insurance balance sheets.** Muddy Waters did unactioned work on US insurers in 2025-2026 concluding that a number of them are at risk, and one mechanism is that they have stuffed their balance sheets with private credit of questionable investment-grade quality. The question Block posed: *"Is it really investment grade? Like quite possibly not."* This aligns with the [[PE-insurance convergence]] dynamic captured in the structural risks table above.
+
+**Framing:** Block connects these to a broader observation — *"There's an inverse correlation in society between interest rates and the level of dishonesty. So the lower interest rates go, the more dishonesty you get. When money is cheaper, companies can BS investors and then just borrow cheaply, buy stuff, and it becomes really difficult to sort out... what's organic growth and what's acquired. Cheap money can be used to paper over a lot of sins."* He adds that two generations of investors have entered markets since GFC without experiencing a real drawdown cycle — they under-appreciate risk in general, and private credit rides on that.
+
+On the counter-argument that default rates are still low: Block notes *"a lot of these loans are PIK-ing"* — payment-in-kind accrual masks real stress — and that even if default rates reach 6% (the high-yield benchmark), the misaligned-incentives problem is already baked in.
+
+---
+
 ## Distressed debt funds circling (Apr 2026)
 
 A decade of bull-market private credit left distressed-debt investors largely sidelined. Now, with redemptions accelerating and software borrowers wobbling, vulture funds see their best opportunity since the financial crisis.

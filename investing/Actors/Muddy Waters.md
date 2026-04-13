@@ -51,6 +51,54 @@ Eight companies exposed by Block have been delisted; two others settled with reg
 
 ---
 
+## The AI + passive thesis (April 2026)
+
+On WSJ's *Take On the Week* (April 12, 2026), Block argued that everything happening in the foreground — Iran war, oil, even private credit — is a "complete distraction" from the structural setup that will "fundamentally change society and markets." His framework:
+
+**The mechanism.** AI displaces knowledge workers → 401k contributions stop → [[Target date funds]] become net sellers → taxable household selling compounds it → "there's not a lot of active money anymore there to catch the falling knife." Result: *"1929 magnitude correction at 2020 speed."*
+
+**The job-loss math.** Not speculation — already happening at the AI-leading tech companies, where the best users of AI have replaced seven of their colleagues (teams of eight → one + AI). 15% = one in seven. Block's claim: within 3-5 years, 15% of knowledge workers lose their jobs.
+
+**The capability argument.** AI progression is "no longer linear" because "this version of [[Claude]] and ChatGPT were coded by their predecessors and tested by their predecessors. These versions are coding and testing their successors." Exponential, not linear.
+
+**Not an internet-bubble analogy.** Hyperscalers ([[Microsoft]], [[Google]], [[Meta]]) are well-capitalized with manageable debt. They won't go bankrupt on AI capex. *"The most marginal player in that space by a long shot is [[CoreWeave]]."* But under the passive-flow-reversal scenario: *"the irony will be... the hyperscalers which are principally driving the index... will be their own stock price undoing as the AI they're developing displaces workers."*
+
+**The bailout tail.** Block thinks financial markets eventually reflate — *"the toothpaste back in the tube"* — but only after significant asset-value loss. Long-run view: *"QE forever, yield curve control forever. Financial assets get inflated."*
+
+Muddy Waters is running an "AI disruption basket" of shorts that was profitable at the time of the interview "but for the wrong reasons" — the Iran/oil narrative, not the thesis Block actually holds. See [[AI workflow disruption basket]].
+
+---
+
+## Private credit red flags
+
+Block doesn't run campaigns against private credit directly ("you can't really bet against private credit except there's a spillover to public markets"), but cited three structural problems:
+
+1. **Document forgery risk.** Private-credit docs aren't publicly filed — pledging the same collateral to multiple lenders is feasible. Block pointed to [[First Brands Group|First Brand]] as the template.
+2. **PIK misalignment.** Since managers clip fees on AUM and [[PIK loans]] keep NAVs artificially high, the incentive is to avoid markdowns. *"Just like we saw going into global financial crisis, when you have a misalignment of incentives you get bad outcomes."*
+3. **Insurance balance sheets.** Muddy Waters has done unactioned work on insurers stuffed with private credit of questionable investment-grade quality.
+
+Block's broader frame: *"There's an inverse correlation in society between interest rates and the level of dishonesty. So the lower interest rates go, the more dishonesty you get."* Cheap money papers over sins.
+
+See [[Private Credit]] and [[Private Credit Software Concentration]].
+
+---
+
+## Junior mining fund (2024-)
+
+Muddy Waters launched a junior mining fund in 2024 with a partner they had publicly shorted a company alongside in 2017. Their first public long in years — [[Snowline Gold]], a junior gold miner — was pitched at an investment conference in November 2025. Block's observation on going long: *"When you're long, the whole world is long back at you... as opposed [to being short when] I get off stage and I'm tense and... how long till the lawsuit hits."*
+
+Block is constructive on metals over the very long term under the QE-forever framework.
+
+---
+
+## On short selling today
+
+- **GameStop (January 2021)** was the inflection. [[Andrew Left]] of Citron (who was publicly short) quit short selling after the squeeze. Muddy Waters paused until March 2021, then shorted SPAC XL Fleet — and exited quickly when they spotted call buying and coordination signals on Twitter. *"Risk management is first and foremost how this business of short selling works if you're going to stay in the game."*
+- **SEC proposal to eliminate quarterly reporting** — net-neutral for activist shorts (less data but longer information voids to investigate). *"A solution in search of a problem."*
+- **China frauds** — no longer a focus. *"It's unpoliceable... consequence-free for people in China to defraud investors in America."* Control fraud by senior management is not something auditors are structurally equipped to catch.
+
+---
+
 ## Carson Block background
 
 | Detail | Value |
@@ -81,7 +129,14 @@ The timing of reports is strategic — Claritev report came exactly as the SPAC 
 - [[Claritev]] — 2020 short target
 - [[Activist short selling]] — strategy/sector
 - [[SPAC]] — frequent targets of short sellers
+- [[Snowline Gold]] — junior gold miner, core long position (2024-)
+- [[Passive investing fragility]] — Block's AI+passive crash thesis
+- [[AI labor displacement]] — Block's 15% knowledge-worker displacement claim
+- [[Private Credit]] — PIK misalignment, forgery risk, insurance exposure
+- [[First Brands Group]] — precedent Block cites for private credit doc risk
+- [[CoreWeave]] — "most marginal player" in AI space
+- [[AI workflow disruption basket]] — Muddy Waters runs a similar short basket
 
 ---
 
-*Created 2026-01-28*
+*Created 2026-01-28. Updated 2026-04-12 with WSJ *Take On the Week* interview.*
