@@ -130,8 +130,13 @@ Price/volume tables use wide format: one row per date, one column per ticker.
 
 ### Date Format
 
-Dates are stored as strings: `YYYY-MM-DD` or `YYYY-MM-DD HH:MM:SS`
-- Normalize on read: `pd.to_datetime(df['Date'])`
+**CRITICAL: Always `YYYY-MM-DD HH:MM:SS` — never date-only.**
+
+Mixing `YYYY-MM-DD` and `YYYY-MM-DD HH:MM:SS` in the same table creates silent duplicates: after `pd.to_datetime()` parses both to the same timestamp, merge operations produce NULLs or wipe existing values. The integrity check error "SPY was X, now NULL" is the tell.
+
+If you inherit a malformed table, normalize and de-dup (March 2026 incident cleaned 2,625 date-only rows + 2,622 duplicate entries). Shortening `--lookback` does NOT fix it.
+
+Normalize on read: `pd.to_datetime(df['Date'])`.
 
 ---
 
