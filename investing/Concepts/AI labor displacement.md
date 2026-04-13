@@ -92,6 +92,65 @@ Both things can be true simultaneously. AI is genuinely replacing some work. And
 
 ---
 
+## The interest-rate counter-narrative (ChangeNode, April 2026)
+
+Developer Will at ChangeNode (Apr 6, 2026) walked through four FRED charts of Indeed's Software Development Job Postings series in the US to argue the developer-job collapse is a monetary-policy story, not an AI one. The timing is the spine of his argument — popular AI- and Musk-driven causal stories are chronologically impossible given when the data turned.
+
+### Chart 1 — the trailing-year view
+
+![[fred-indeed-softdev-1yr.jpg]]
+*FRED: Software Development Job Postings on Indeed, US. Trailing 12 months through early 2026. Source: Indeed via FRED.*
+
+Postings ran from index ~62 (Feb 2020 = 100) to ~72 across 2025 into early 2026. A slow recovery — unambiguously up.
+
+### Chart 2 — the since-2022 view
+
+![[fred-indeed-softdev-since-2022.jpg]]
+*Same series, zoomed to Feb 2022 onward.*
+
+Same data, longer window: ~230 to ~60. Both charts are true. A recovery off a ~70% drawdown still leaves postings two-thirds below the peak.
+
+### Chart 3 — what didn't cause it
+
+![[fred-indeed-softdev-chatgpt-annotation.jpg]]
+*[[ChatGPT]] launch (Nov 2022) marked on the collapse.*
+
+[[ChatGPT]] launched November 2022. The crash started February 2022. You can't anchor a collapse on a catalyst that arrives nine months in. The [[Elon Musk]]–Twitter firing-spree thesis ("Musk fired everyone, Twitter stayed up, other CEOs copied him") fails for the same reason — the acquisition closed November 2022, also well after the turn.
+
+### Chart 4 — what did cause it
+
+![[fred-indeed-softdev-fed-funds-overlay.jpg]]
+*[[Federal Reserve]] Federal Funds Effective Rate overlaid on Software Development Job Postings.*
+
+Overlay the policy rate against the postings series and the shape fits. ZIRP from 2020 through early 2022 drove the hiring boom (index ~80 → ~230). The hiking cycle started Q1 2022; postings rolled over in lockstep. Tech hiring was the longest-duration bet in the labor market, and rates broke it first.
+
+### The AI-attribution tell
+
+Will's proposed test for whether a layoff is genuinely AI-driven: were employees asked to train their replacement, the way every prior outsourcing wave worked? Almost nowhere. "Bulk firings, no training period" is much more consistent with severance-driven cost cuts than with an actual workflow handover from human to model.
+
+Applied case: [[Oracle]]'s March 2026 layoffs were presented as AI-efficiency cuts, but they arrived inside a window where Oracle needed to reposition cash flow for [[David Ellison]]'s ~$108B [[Warner Bros Discovery]] bid backed by [[Larry Ellison]]. Take on $100B in debt for an acquisition, you want to change your cash-flow position. The AI language is a press-release layer; the mechanism is balance-sheet. See [[Oracle]] → "Counter-reading — debt management" subsection.
+
+### What would restart developer hiring
+
+1. [[Federal Reserve]] rate cuts at enough scale to reopen growth-stage financing.
+2. Macro-political stability that lets companies commit to 1–5 year headcount plans.
+3. A computer-science-graduate shortfall 2026–2028 as a generation of would-be CS students routed elsewhere, reversing the labor glut — the inverse of the 2020–2022 enrollment bulge.
+4. LLM compute collapse — training-cost reductions of 10× or more, inference baked into local hardware for near-instantaneous response. If that hits, the data-center capex thesis weakens and the marginal economics of AI tooling shift away from hyperscaler capex toward distributed, on-premises development.
+
+### Where this leaves the note
+
+The counter-narrative doesn't overturn the displacement evidence elsewhere in this note — [[Klarna]]'s chatbot is real, [[Teleperformance]]'s −85% is real, [[Block]]'s 40% cut is real. What it argues is that the *aggregate* labor signal in the developer-job series is rate-driven, and that AI-attribution at the individual-company level is frequently a narrative layer over decisions that would have happened anyway. Both readings have to coexist:
+
+- AI is genuinely replacing some workflows — see [[Klarna]], BPO (the scoreboard above), content farms.
+- Rates drove the aggregate postings collapse, and the AI frame gets bolted onto cuts that management had other reasons to make.
+- The [[Oxford Economics]] quote earlier in this note — "firms are trying to dress up layoffs as a good news story" — is Will's point in different language.
+
+The interesting residual question: what portion of the 55,000 "AI-attributed" layoffs tracked by [[Challenger, Gray and Christmas]] in 2025 would have happened under a neutral rate regime, and what portion are genuinely incremental to the rate cycle? Nobody has disaggregated that yet.
+
+*Source: [ChangeNode — "Developer Jobs Explained in Four Charts"](https://youtu.be/TbVhmxGe0Ic) (Apr 6, 2026)*
+
+---
+
 ## Macro implications
 
 - **55,000 AI-attributed layoffs in 2025** (Challenger data) — still tiny vs. 160M US workforce
@@ -111,6 +170,22 @@ Business Process Outsourcing is where AI displacement is furthest along. [[Telep
 | [[Teleperformance]] | €402 → ~€60 | -85% |
 | [[Concentrix]] | — | Significant |
 | [[TaskUs]] | — | Significant |
+
+---
+
+## Carson Block: 15% in 3-5 years
+
+[[Carson Block]] ([[Muddy Waters]], WSJ *Take On the Week*, April 12, 2026) put a specific number on the displacement trajectory: within 3-5 years, 15% of knowledge workers lose their jobs. The derivation is concrete, not speculative:
+
+- At the AI-leading tech companies, the best users of AI have replaced seven of their colleagues — teams of eight going to "one + AI"
+- 15% = one in seven. If the knowledge economy goes from seven employees to six, that's 15% displacement
+- "Is it unrealistic to assume that the knowledge worker industries go from seven employees to six with AI? I don't think that's unrealistic"
+
+Block's capability argument is that this is not a five-year linear extrapolation. AI progression has gone exponential because "this version of Claude and ChatGPT were coded by their predecessors and tested by their predecessors. These versions are coding and testing their successors, and that will continue to happen."
+
+The political frame: this is the first time human society has eliminated jobs at the *top* of the economic ladder — highest-paid people with college debt and promises. Block: "It's going to get bad. It's going to get crazy."
+
+The macro tail Block wires to this: see [[Passive investing fragility]] — the mechanism by which AI-driven knowledge-worker layoffs reverse passive flows and break the index.
 
 ---
 
@@ -181,3 +256,7 @@ The anxiety was a side effect they didn't plan for but arguably benefited from �
 - [[Citrini 2028 Global Intelligence Crisis]] — the scenario exercise
 - [[OpenClaw]] — trigger for China's AI anxiety wave (March 2026)
 - [[China]] — AI anxiety, employment tension, SOE security concerns
+- [[Passive investing fragility]] — Block's macro transmission mechanism
+- [[Muddy Waters]] — Carson Block's 15% / 3-5 year forecast
+- [[Federal Reserve]] — rate cycle as alternative driver of the developer-job collapse
+- [[Oracle]] — the applied counter-reading: layoffs as cash-flow management for the [[Warner Bros Discovery]] bid, not AI efficiency

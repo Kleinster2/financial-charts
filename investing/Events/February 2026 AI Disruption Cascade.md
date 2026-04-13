@@ -20,7 +20,7 @@ Four weeks in, the cascade has revealed its true structure: this is not a panic 
 
 The sell side initially called it overdone ([[JPMorgan]]: "sentenced before trial"). Then Anthropic's own partnership announcements on Feb 24 flipped the narrative from "AI replaces software" to "AI augments software," bouncing [[Thomson Reuters]] +11% and [[Salesforce]] +4% in a day. But the bounce didn't stick for application software — [[Polar Capital]]'s Nick Evans (99th percentile fund, $12B AUM) has liquidated all app software positions and says most companies will go the way of newspapers. [[Workday]] beat on every metric and still trades -50% from 2024 highs. The market is pricing terminal value destruction 3-5 years out while current fundamentals are fine — median public software GAAP net income margin is just 5%, so there's no earnings floor to catch the falling knife.
 
-The key distinction that's emerging: **application software** (seats, workflows — [[Intuit]], [[ServiceNow]], [[Salesforce]], [[Adobe]]) faces existential risk. **Infrastructure software** (plumbing — [[Cloudflare]], [[Datadog]], [[Snowflake]], [[Fastly]]) benefits from AI traffic growth and is recovering while the broader software ETF stays down 22%. SOX vs IGV divergence: ~77 percentage points. The rotation into hardware, energy, and infrastructure is accelerating.
+The key distinction initially looked clean: **application software** (seats, workflows — [[Intuit]], [[ServiceNow]], [[Salesforce]], [[Adobe]]) faced existential risk, while infrastructure software looked like the cleaner beneficiary. But Anthropic's Apr 2026 [[Anthropic Managed Agents]] launch broke the simple "apps lose, infra wins" frame. [[Cloudflare]], [[Fastly]], and [[Akamai]] sold off sharply as the market realized frontier labs can internalize parts of the runtime, orchestration, and hosting layer too. The rotation into hardware, power, chips, and hard-capacity infrastructure still holds better than the app layer, but the software stack is now being repriced by who owns the agent control plane, not by a simple front-end/back-end split.
 
 The structural vulnerability is the SBC vicious cycle: stock-based compensation loses value as shares fall → companies must pay more cash → free cash flow compressed → stock falls further. Add the cost of acquiring AI startups to stay competitive and many SaaS businesses face a financial squeeze even if revenues hold.
 
@@ -255,6 +255,20 @@ The SaaS stocks chart tells the story: [[ServiceNow]], [[SAP]], [[Salesforce]], 
 *Source: FT, Richard Waters, Feb 24 2026*
 
 ---
+
+## April 2026 aftershock: managed harnesses hit the edge layer
+
+On Apr 10, Anthropic triggered another mini-panic, but this time in infrastructure software rather than application software.
+
+| Stock | Apr 9 close | Apr 10 close | Move |
+|-------|-------------|--------------|------|
+| [[Cloudflare]] | $193.05 | $166.99 | -13.5% |
+| [[Fastly]] | $29.46 | $23.07 | -21.7% |
+| [[Akamai]] | $109.61 | $91.35 | -16.7% |
+
+The trigger was [[Anthropic Managed Agents]]: long-lived sessions, sandboxed code execution, checkpointing, credential management, scoped permissions, tracing, and evaluator loops bundled inside Anthropic's own runtime. February's working assumption had been that AI labs would destroy application software while feeding demand to neutral infrastructure. April showed the labs can move down-stack too.
+
+That does not mean CDNs or security platforms disappear. It means the fault line is now more precise: the market is distinguishing between the network fabric and the agent control plane. The latter captures the relationship, the workflow, and the margin structure. See [[Anthropic Managed Agents selloff April 2026]].
 
 ## The financial structure problem
 

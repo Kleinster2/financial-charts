@@ -20,7 +20,7 @@ NET trades as a core Software name (IGV r = 0.70).
 
 ---
 
-## Overview
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
@@ -178,6 +178,26 @@ Full stack: AI Gateway → Sandboxes → R2 → Browser Rendering → Zero Trust
 **AI Agents market context:** $7.63B (2025) → $182.97B (2033), 49.6% CAGR (Grand View Research).
 
 **Net new TAM:** Every developer running a local AI agent is a potential Cloudflare customer. This wasn't true two years ago.
+
+---
+
+## Anthropic Managed Agents selloff (Apr 10, 2026)
+
+Cloudflare fell 13.5% on Apr 10, 2026, from $193.05 to $166.99, after [[Anthropic]] launched [[Anthropic Managed Agents]].
+
+The market's concern was that Anthropic had moved beyond selling the model and into selling the runtime layer itself: long-lived sessions, sandboxed code execution, checkpointing, credential management, scoped permissions, tracing, and tool orchestration. That challenged the thesis that agent growth would automatically benefit neutral edge platforms.
+
+Why Cloudflare got hit:
+- its AI narrative had shifted toward being the neutral substrate for agentic workloads
+- Anthropic's hosted runtime threatened to absorb part of that control-plane narrative upstream
+- if the model vendor owns the agent runtime, networking and security vendors risk becoming lower-multiple components inside someone else's stack
+
+What did not change:
+- Managed Agents does not replace Cloudflare's global network, DDoS protection, Zero Trust edge, or multi-model traffic layer
+- Cloudflare still matters for public ingress, enterprise perimeter control, caching, and vendor-neutral deployment
+- the repricing was about value capture in the agent stack, not about edge demand disappearing
+
+This partially reversed the earlier "Cloudflare as agentic picks-and-shovels winner" narrative. [[Anthropic Managed Agents selloff April 2026]] showed that even inside infrastructure software, the highest-value layer may accrue to whoever owns the agent control plane.
 
 ---
 

@@ -155,6 +155,18 @@ Feb 4: Pledged not to run advertising, differentiating from [[OpenAI]]'s embrace
 
 ---
 
+### Managed Agents launch + edge/cloud selloff (Apr 2026)
+
+Apr 8: Anthropic launched [[Anthropic Managed Agents]], a public-beta hosted agent runtime. Developers define the model, tools, MCP servers, skills, and permissions once, then run long-lived cloud sessions with sandboxed code execution, checkpointing, credential management, scoped permissions, tracing, and evaluator loops.
+
+Anthropic's engineering post framed the architecture as "decoupling the brain from the hands". A planner model delegates execution to tool-running workers in parallel. The company said this cut time-to-first-token by 60% at p50 and 90% at p95 versus its earlier implementation. Internal structured file-generation tests improved task success rates by up to 10 points on harder problems.
+
+Early use cases surfaced immediately: [[Notion]] used Managed Agents for client onboarding flows, while [[Sentry]] used it to hand off from Seer root-cause analysis to a Claude-powered agent that writes the fix and opens a PR. The strategic point is bigger than the demos: Anthropic is no longer just selling the model or the coding assistant, but the hosted runtime layer around them.
+
+Apr 10 market reaction: [[Cloudflare]] fell 13.5% ($193.05 -> $166.99), [[Fastly]] 21.7% ($29.46 -> $23.07), and [[Akamai]] 16.7% ($109.61 -> $91.35) as investors realized the disruption thesis had moved down-stack. February's [[Claude Cowork disruption February 2026]] hit application software; Managed Agents hit parts of the agent infrastructure layer itself. See [[Anthropic Managed Agents selloff April 2026]].
+
+---
+
 ### Harness crackdown + Clawdbot OAuth cutoff (Jan 2026)
 
 Jan 9: Restricted Claude Code OAuth access, blocking third-party tools (OpenCode, [[OpenClaw|Clawdbot]], etc.) from using Max subscription benefits. This broke [[OpenClaw|Clawdbot]] integrations 18 days *before* the Jan 27 cease-and-desist over the "Clawdbot" name (Anthropic trademark claim on "Claude"). The OAuth cutoff - not the naming dispute - was the initial disruption that forced the project to adapt. Sources: HackerNoon, Business Insider, Reddit.

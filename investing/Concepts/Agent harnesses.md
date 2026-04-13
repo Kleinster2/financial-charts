@@ -10,11 +10,11 @@ Three layers emerging in agent infrastructure:
 
 | Layer | Role | Examples |
 |-------|------|----------|
-| **Runtime** | Execution, state management | LangGraph |
-| **Framework** | Abstractions, building blocks | LangChain, AutoGen, CrewAI |
-| **Harness** | Batteries-included, production-ready | Claude Code, Codex, Devin |
+| Runtime | Execution, state management | LangGraph |
+| Framework | Abstractions, building blocks | LangChain, AutoGen, CrewAI |
+| Harness | Batteries-included, production-ready | Claude Code, Codex, Devin |
 
-**Analogy:** Model = CPU, context window = RAM, harness = operating system.
+Analogy: model = CPU, context window = RAM, harness = operating system.
 
 ---
 
@@ -22,14 +22,14 @@ Three layers emerging in agent infrastructure:
 
 | Capability | Why it matters |
 |------------|----------------|
-| **Planning tools** | To-do lists for long-term coherence |
-| **Filesystem/memory** | Context management across sessions |
-| **Subagent spawning** | Task delegation, parallel work |
-| **Human-in-the-loop** | Approval gates for critical actions |
-| **Tool orchestration** | Right tools, right order, error handling |
-| **Self-testing loops** | Autonomous debugging and iteration |
+| Planning tools | To-do lists for long-term coherence |
+| Filesystem/memory | Context management across sessions |
+| Subagent spawning | Task delegation, parallel work |
+| Human-in-the-loop | Approval gates for critical actions |
+| Tool orchestration | Right tools, right order, error handling |
+| Self-testing loops | Autonomous debugging and iteration |
 
-**Key insight:** You can't download harnesses from Hugging Face. Manus took 6 months and 5 rewrites. LangChain spent a year on 4 architectures. This is where competitive moats form.
+Key insight: you can't download harnesses from Hugging Face. Manus took 6 months and 5 rewrites. LangChain spent a year on 4 architectures. This is where competitive moats form.
 
 ---
 
@@ -39,9 +39,9 @@ Three layers emerging in agent infrastructure:
 
 | Company | Product | Valuation/Status | Notes |
 |---------|---------|------------------|-------|
-| [[Anthropic]] | Claude Code, Agent SDK | Private | Production, proven |
+| [[Anthropic]] | Claude Code, [[Anthropic Managed Agents]], Agent SDK | Private | Production, moving from tool to hosted runtime |
 | [[OpenAI]] | Codex | Private | GPT-5-Codex, 7+ hr autonomous runs |
-| [[Meta]] | Manus | Acquired ~$2B+ | **Uses Claude as core engine** |
+| [[Meta]] | Manus | Acquired ~$2B+ | Uses Claude as core engine |
 | Cognition | Devin + Windsurf | $4B | SWE-1.5 model, 13x faster than Sonnet |
 | [[Anysphere]] | Cursor | $29.3B | $1B ARR, acquired Graphite |
 | [[Amazon]] | Q Developer | AWS | Agentic coding in IDE |
@@ -81,23 +81,38 @@ Three layers emerging in agent infrastructure:
 | Maintenance | Your problem | Provider's problem |
 | Customization | Maximum | Constrained but sufficient |
 
-**The shift:** As models improve, harnesses matter more. Better models make the "smart logic" developers wrote yesterday obsolete — harnesses let you rip it out and upgrade.
+The shift: as models improve, harnesses matter more. Better models make the "smart logic" developers wrote yesterday obsolete, and harnesses let you rip it out and upgrade.
+
+---
+
+## Managed harnesses (Apr 2026)
+
+[[Anthropic Managed Agents]] shows the next step in the category: the harness itself becomes an API product.
+
+Instead of just offering a local agent like [[Claude Code]], Anthropic now sells the hosted runtime too: sessions, sandboxed execution, checkpointing, permissions, credentials, tracing, and evaluator loops. Its engineering team described this as decoupling the brain from the hands, with execution workers handling tool use in parallel. Anthropic said this cut time-to-first-token by 60% at p50 and 90% at p95, while improving hard structured file-generation tasks by up to 10 points.
+
+Why this matters:
+- harness vendors are no longer competing only on UX or model quality, but on who owns production runtime
+- edge/cloud infrastructure names can be partially disintermediated if the model provider bundles orchestration, state, and execution
+- public ingress, security perimeter, caching, and vendor-neutral control still sit outside the managed harness
+
+The market saw the implication immediately: [[Cloudflare]], [[Fastly]], and [[Akamai]] sold off after launch because investors realized that "AI infrastructure" is not one layer. The highest-value layer may be the control plane, not the network fabric underneath it.
 
 ---
 
 ## Investment implications
 
-**Where value accrues:**
+Where value accrues:
 - Harness layer captures most value (direct user relationship)
 - Framework layer may commoditize (open source pressure)
 - Runtime layer is infrastructure (lower margins)
 
-**Winners likely:**
+Winners likely:
 - Vertically integrated (model + harness): Anthropic, OpenAI, Google
 - Category leaders with distribution: Cursor, Replit
 - Enterprise-focused: Amazon Q Developer
 
-**Watch for:**
+Watch for:
 - Consolidation (Google acqui-hiring Windsurf team, Meta buying Manus)
 - Open source harnesses threatening proprietary ones
 - Model providers competing with their own customers
@@ -139,7 +154,7 @@ His vision: models should "meet you where you are" — plugging into existing in
 
 On whether companies should build their own harnesses: in-context learning may be more efficient than custom RL. "I'm not sure if replicating the current RL pipeline is going to be the right way to go about it." The implication: general-purpose harnesses from frontier labs may obviate the need for domain-specific agent infrastructure.
 
-*Updated 2026-04-10*
+*Updated 2026-04-12*
 
 ## Related
 
@@ -155,3 +170,4 @@ On whether companies should build their own harnesses: in-context learning may b
 - [[Intelligence portability]] — lock-in from persistent agents
 - [[Nous Research]] — Hermes Agent (open-source persistent agent)
 - [[OpenClaw]] — largest open-source agent ecosystem
+- [[Anthropic Managed Agents]] — Anthropic's hosted harness/runtime product
