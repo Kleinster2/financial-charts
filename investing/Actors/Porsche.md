@@ -34,10 +34,18 @@ POAHY shows moderate Communications correlation (XLC r = 0.60).
 
 ---
 
+## March 2026 restructuring
+
+Porsche will contribute 1,900 job cuts to [[Volkswagen]] group's 50,000-by-2030 reduction announced March 10, 2026. Relatively light compared to the core VW brand (35,000) and [[Audi]] (7,500), consistent with Porsche's higher-margin premium positioning. See [[Volkswagen 50k job cuts March 2026]].
+
+---
+
 ## Related
 
 - [[Ferrari]] — luxury auto peer (opposite strategy: scarcity vs volume)
 - [[Volkswagen]] — 75% owner
 - [[Hermès]] — Ferrari's true scarcity-model peer, not Porsche
+- [[Audi]] — VW Group sibling brand
+- [[Volkswagen 50k job cuts March 2026]] — March 2026 restructuring event
 
 *Created 2026-02-15*

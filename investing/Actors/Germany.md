@@ -121,6 +121,34 @@ Germany has grown **0.1% since 2019** — worst five-year stretch in Federal Rep
 | **Italy** | >0.1% |
 | **Germany** | **+0.1%** |
 
+Annual GDP trajectory (Destatis):
+
+| Year | Real GDP change |
+|------|-----------------|
+| 2023 | -0.3% |
+| 2024 | -0.5% (revised from -0.2% preliminary) |
+| 2025 | +0.2% |
+
+---
+
+## Industrial crisis indicators (2025)
+
+The crisis is now visible in the hard employment, output, and insolvency data:
+
+| Indicator | 2025 value | Source |
+|-----------|-----------|--------|
+| Company insolvencies | 24,064 (+10.3% YoY) | DIHK — highest since 2014 |
+| Industrial jobs lost (12m to Sept 2025) | ~124,000 (-2.3%) | Destatis / EY |
+| Auto sector jobs lost (2025) | ~50,000 (-6.3% of sector) | Destatis |
+| Manufacturing share of GDP | ~19.4% | near multi-decade lows |
+| Mfg gross value added change (2025) | -3.0% | Destatis Q3 release |
+| Passenger car production (2025) | 4.15M (vs 5.6M in 2017) | VDA |
+| 2026 car production forecast | 4.11M (-1%) | VDA |
+
+[[Federation of German Industries|BDI]] president has characterized this as the "deepest crisis in the history of the Federal Republic." The BDI declared the industrial sector to be in its fourth consecutive year of production decline.
+
+[[Siemens]] has told the Bundestag that "nothing speaks in favor of investing in Germany" at current energy and regulatory cost levels — recent major capex decisions have gone to the US and Asia rather than German sites.
+
 **No tech dynamism:** Top R&D spenders are the same companies as 20 years ago, all clustered around automotive. No platform economy, no big tech equivalents.
 
 **Low working hours:** ~1,300 hrs/year vs US ~1,750 — Americans work 25-30% more. Rational explanations (childcare availability, work-life balance) rather than Merz's "lifestyle part-time work" framing.

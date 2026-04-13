@@ -34,6 +34,23 @@ Planned investment: €75B (2024) → €115B (2025) → €120B (2026). Source:
 
 ---
 
+## 2026 budget — the fiscal turn
+
+The 2026 budget crystallizes the scale of the fiscal shift. Total federal borrowing is projected at **€174.3B** in 2026, more than 3x the €50.5B of 2024. The headline deficit of **4.75% of GDP** is the largest peacetime fiscal stimulus since the 1970s, placing [[Germany]] simultaneously in violation of the EU fiscal rules it historically enforced on southern European members.
+
+| Item | 2024 | 2026 |
+|------|------|------|
+| Federal new borrowing | €50.5B | €174.3B |
+| Deficit / GDP | ~2.5% | 4.75% |
+| Federal investment | ~€70B | €126.7B (record) |
+| Of which: off-balance infrastructure fund | — | €58.9B |
+
+Investment spending of €126.7B is the highest in German history, but €58.9B sits in the off-balance-sheet infrastructure fund (outside the debt brake). The core on-budget deficit is roughly on par with pre-2008 expansionary peaks; the special-fund component is the structural novelty.
+
+*Source: OSW Centre for Eastern Studies (Dec 2025), Reuters cabinet approval coverage.*
+
+---
+
 ## The skeptic case
 
 [[Deutsche Bank]] economist Sebastian Becker (Jan 2026): expects **no significant strengthening of real growth potential** — large parts of extra debt going to social spending and subsidies.

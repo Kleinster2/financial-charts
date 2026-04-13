@@ -75,6 +75,25 @@ US production at Chattanooga, Tennessee.
 
 ---
 
+## 2025 results and March 2026 restructuring
+
+2025 was VW's worst financial year since the pandemic. Net profit fell 44% to €6.9bn; operating profit collapsed 53.5% to its lowest level since 2016; operating margin compressed to 2.8% (vs ~5.9% 2024). CEO Oliver Blume framed 2026 as a recovery year (margin guidance 4.0-5.5%) but only via structural cost action.
+
+On March 10, 2026, Blume announced in a letter to shareholders that the group will cut **50,000 jobs in [[Germany]] by 2030**:
+
+| Unit | Cuts by 2030 |
+|------|--------------|
+| Core Volkswagen brand | 35,000 |
+| [[Audi]] | 7,500 |
+| [[Porsche]] | 1,900 |
+| [[Cariad]] (software) | 1,600 |
+
+This exceeds the 35,000-job reduction already negotiated with unions in late 2024 by an additional 15,000. CFO Arno Antlitz cited a "challenging environment" of geopolitical tensions, new trade barriers, and intensifying Chinese competition. VW has also flagged roughly **€3B annual cost exposure** to US auto tariffs (25% peak, partially reduced to 15% vs the pre-2025 2.5% baseline).
+
+See [[Volkswagen 50k job cuts March 2026]] for full event detail.
+
+---
+
 ## [[China]] challenge
 
 | Issue | Impact |
@@ -159,4 +178,9 @@ Biene: *"We get beaten up by the imports, mainly from India and China. Which is 
 - [[CATL]] — battery supplier
 - [[Lithium]] — battery input
 - [[EU-China EV tariffs]] — Cupra Tavascan individual review
+- [[Volkswagen 50k job cuts March 2026]] — March 2026 restructuring event
+- [[Audi]] — group brand, 7,500 cuts
+- [[Porsche]] — group brand, 1,900 cuts
+- [[Cariad]] — software unit, 1,600 cuts
+- [[Schuldenbremse reform]] — fiscal backdrop to German industrial decline
 
