@@ -19,11 +19,11 @@ There is no cloud. There is only a concrete building connected to a power grid, 
 
 | Hyperscaler | 2025 actual | 2026 guided | vs Street consensus |
 |-------------|-------------|-------------|---------------------|
-| [[Alphabet]] / Google | $91.4B | $175-185B | +51% above Street |
+| [[Alphabet]] / [[Google]] | $91.4B | $175-185B | +51% above Street |
 | [[Amazon]] | $131.8B | ~$200B | Street est $146.6B |
 | [[Meta Platforms]] | $72.2B | $115-135B | ~2x 2025 |
 | [[Microsoft]] | — | $116-145B (est) | Varies by analyst |
-| **Big Five total** | — | **$600-650B** | 36-62% above 2025 |
+| Big Five total | — | $600-650B | 36-62% above 2025 |
 
 [[Goldman Sachs]] cumulative 2025-2027 capex projection: ~$1.4T (revised up from $1.15T). More than double the $477B spent 2022-2024. Capital intensity reaches 45-57% of revenue for some hyperscalers.
 
@@ -32,19 +32,19 @@ There is no cloud. There is only a concrete building connected to a power grid, 
 ## Construction economics
 
 ### Material intensity
-- Single hyperscale AI DC: up to **20,000 tons of steel** (~two Eiffel Towers)
-- US cement demand for AI DCs by 2028: **1 million metric tons** (American Cement Association)
-- Cement production = ~8% of global CO₂ emissions
+- Single hyperscale AI DC: up to 20,000 tons of steel (~two Eiffel Towers)
+- US cement demand for AI DCs by 2028: 1 million metric tons (American [[Cement]] Association)
+- [[Cement]] production = ~8% of global CO₂ emissions
 
 ### Land
-- US weighted average: $244K/acre (Oct 2024, Cushman & Wakefield)
-- [[Northern Virginia]] (Loudoun County): **$2-4M+/acre**
+- US weighted average: $244K/acre (Oct 2024, [[Cushman & Wakefield]])
+- [[Northern Virginia]] (Loudoun County): $2-4M+/acre
 - Prince William County: ~$1M/acre
 - Phoenix: $200-500K/acre
-- Average parcel size: **224 acres** (144% increase since 2022) — hyperscalers buying entire zip codes
+- Average parcel size: 224 acres (144% increase since 2022) — hyperscalers buying entire zip codes
 
 ### The unit of measurement
-The fundamental unit is the **megawatt (MW)**, not square footage. "I'm building a 100MW campus" is the standard. If you talk about square footage, you're revealing yourself as an amateur.
+The fundamental unit is the megawatt (MW), not square footage. "I'm building a 100MW campus" is the standard. If you talk about square footage, you're revealing yourself as an amateur.
 
 ---
 
@@ -54,19 +54,33 @@ Every project timeline in 2026 is dictated by transformer and generator procurem
 
 | Equipment | Lead time | Source |
 |-----------|-----------|--------|
-| Diesel generator (2MW) | 72-104 weeks | Stream Data Centers |
+| [[Diesel]] generator (2MW) | 72-104 weeks | Stream [[Data Centers]] |
 | Power transformer | 128 weeks | WoodMac Q2 2025 |
 | Generator step-up transformer | 144 weeks (~3 years) | WoodMac |
 | Large power transformer | up to 210 weeks | — |
-| Switchgear | 44-48 weeks | WoodMac / Cushman & Wakefield |
+| Switchgear | 44-48 weeks | WoodMac / [[Cushman & Wakefield]] |
 | HV circuit breaker | 150+ weeks | — |
-| Grid connection (primary markets) | **4-7+ years** | — |
+| Grid connection (primary markets) | 4-7+ years | — |
 
-WoodMac models a **30% shortfall** for power transformers across the US fleet. More than half of the nation's ~40M distribution transformers already beyond expected service life.
+WoodMac models a 30% shortfall for power transformers across the US fleet. More than half of the nation's ~40M distribution transformers already beyond expected service life.
 
-57% of DC projects faced delays of 3+ months in 2025 (JLL). Developers preordering critical equipment 24 months before breaking ground.
+57% of DC projects faced delays of 3+ months in 2025 ([[JLL]]). Developers preordering critical equipment 24 months before breaking ground.
 
-**Implication:** If you didn't order your switchgear two years ago, you aren't building a data center today. Massive barrier to entry favoring incumbents.
+Implication: If you didn't order your switchgear two years ago, you aren't building a data center today. Massive barrier to entry favoring incumbents.
+
+### April 2026 pipeline reality check
+
+Sightline Climate's February 2026 pipeline tracker, highlighted again by [[Bloomberg]] and summarized by Latitude [[Media]] in late February and early April, put a hard number on the energization problem:
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| 2026 announced pipeline | ~140 projects / ~16 GW | Large data centers and AI factories |
+| Already under construction | ~5 GW | Mostly US |
+| Announced but not visibly underway | ~11 GW | The gap between ambition and physical progress |
+| 2025 delayed share | 26% of 110 projects | Timelines spilled into 2026 |
+| Expected 2026 delay rate | 30-50% | Sightline / Latitude estimate |
+
+A quarter of the 2026 pipeline has not disclosed how it will be powered. That is the useful update. The bottleneck is not just capital formation or even GPU availability. It is energization: [[Large power transformers]], switchgear, batteries, substation work, labor, and local approvals. The financial stack can close before the electrical stack exists.
 
 ---
 
@@ -74,12 +88,12 @@ WoodMac models a **30% shortfall** for power transformers across the US fleet. M
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| Primary market vacancy | 1.6% (H1 2025) | CBRE |
-| Northern Virginia colocation vacancy | **0.72%** | CBRE H1 2025 |
-| Global occupancy | 97% | JLL |
+| Primary market vacancy | 1.6% (H1 2025) | [[CBRE]] |
+| Northern Virginia colocation vacancy | 0.72% | [[CBRE]] H1 2025 |
+| Global occupancy | 97% | [[JLL]] |
 | Under construction preleased | 74.3% | — |
-| Colocation pricing | >$200/kW/month | JLL |
-| Projected vacancy through 2027 | <5%, ~2% | JLL |
+| Colocation pricing | >$200/kW/month | [[JLL]] |
+| Projected vacancy through 2027 | <5%, ~2% | [[JLL]] |
 
 ---
 
@@ -89,21 +103,21 @@ WoodMac models a **30% shortfall** for power transformers across the US fleet. M
 
 | Rating | Design | Use case | Cost |
 |--------|--------|----------|------|
-| **N** | Bare minimum capacity | Crypto miners, amateurs | Cheapest |
-| **N+1** | One spare unit per system | Industry standard, most cloud | Moderate |
-| **2N** | Two completely independent power paths | Banks, HFT, military | ~2x hardware |
+| N | Bare minimum capacity | [[Crypto]] miners, amateurs | Cheapest |
+| N+1 | One spare unit per system | Industry standard, most cloud | Moderate |
+| 2N | Two completely independent power paths | [[Banks]], HFT, military | ~2x hardware |
 
-The cloud has actually **lowered** the average physical tier. [[AWS]] builds cheap N+1 "availability zones" and relies on software redundancy. Works great until a software bug takes down us-east-1.
+The cloud has actually lowered the average physical tier. [[AWS]] builds cheap N+1 "availability zones" and relies on software redundancy. Works great until a software bug takes down us-east-1.
 
 ### Uptime Institute tiers
 
 | Tier | Redundancy | Availability | Example |
 |------|-----------|--------------|---------|
-| I | N | 99.671% | Server closet |
-| III | N+1 | 99.982% | Standard colocation |
-| IV | 2N+1 | 99.995% | Banks, military |
+| I | N | [[99]].671% | Server closet |
+| III | N+1 | [[99]].982% | Standard colocation |
+| IV | 2N+1 | [[99]].995% | [[Banks]], military |
 
-Downtime cost for a large org: **$9,000/minute** ($540K/hour). For HFT firms, a minute of downtime is an extinction event.
+Downtime cost for a large org: $9,000/minute ($540K/hour). For HFT firms, a minute of downtime is an extinction event.
 
 ---
 
@@ -117,48 +131,48 @@ Computers are heaters that do a little math on the side. Nearly all electricity 
 |-----|-------------|----------------|
 | Legacy | 5-10 kW | Air (cold aisle/hot aisle) |
 | Pre-AI | 15-20 kW | Air (stressed) |
-| AI training | 40-120 kW | **Liquid required** |
+| AI training | 40-120 kW | Liquid required |
 
-**[[Thermal limits]]:** Air's specific heat capacity is garbage compared to water. You cannot cool a 100kW rack with air — you'd need hurricane-force wind, with fans consuming 20% of power.
+[[Thermal limits]]: Air's specific heat capacity is garbage compared to water. You cannot cool a 100kW rack with air — you'd need hurricane-force wind, with fans consuming 20% of power.
 
-At legacy 15 kW densities, thermal runaway (72°F → 90°F+) begins in **75 seconds** if cooling fails. At 120kW [[Blackwell]] densities, the window is far shorter.
+At legacy 15 kW densities, thermal runaway (72°F → 90°F+) begins in 75 seconds if cooling fails. At 120kW [[Blackwell]] densities, the window is far shorter.
 
 ### Liquid cooling transition
 
-Water conducts heat **23.5x better** than air. **3,500x** the heat-carrying capacity by volume.
+Water conducts heat 23.5x better than air. 3,500x the heat-carrying capacity by volume.
 
 Two approaches:
-- **Direct-to-chip (DTC):** Liquid piped directly to the processor
-- **Immersion cooling:** Server submerged in dielectric fluid
+- Direct-to-chip (DTC): Liquid piped directly to the processor
+- Immersion cooling: Server submerged in dielectric fluid
 
-Liquid cooling market doubled to **$3B** in 2025. [[Goldman Sachs]] forecasts 76% of AI servers liquid-cooled by end of 2026.
+Liquid cooling market doubled to $3B in 2025. [[Goldman Sachs]] forecasts 76% of AI servers liquid-cooled by end of 2026.
 
-**Retrofit nightmare:** You can't shove a liquid-cooled rack into an old air-cooled DC. Need plumbing, Coolant Distribution Units (CDUs), leak protection. Water and electricity famously don't mix.
+Retrofit nightmare: You can't shove a liquid-cooled rack into an old air-cooled DC. Need plumbing, Coolant Distribution Units (CDUs), leak protection. Water and electricity famously don't mix.
 
-**Stranded assets:** Portfolios of 10-year-old DCs designed for 5kW racks = Blockbuster in the Netflix era.
+Stranded assets: Portfolios of 10-year-old DCs designed for 5kW racks = Blockbuster in the [[Netflix]] era.
 
-### PUE (Power Usage Effectiveness)
+### [[PUE]] (Power Usage Effectiveness)
 
-PUE = Total facility power / IT equipment power. Industry average ~1.58, best-in-class <1.2.
+[[PUE]] = Total facility power / IT equipment power. Industry average ~1.58, best-in-class <1.2.
 
-**The scam:** PUE doesn't measure water. Evaporative cooling gets great PUE while draining millions of gallons from local aquifers. Arbitraging the electric grid against the water table. Look "green" on energy (low PUE) while drying the river (high WUE).
+The scam: [[PUE]] doesn't measure water. Evaporative cooling gets great [[PUE]] while draining millions of gallons from local aquifers. Arbitraging the electric grid against the water table. Look "green" on energy (low [[PUE]]) while drying the river (high WUE).
 
 ---
 
 ## Power availability crisis
 
-Global DC electricity demand projected to **double to ~945 TWh by 2030** (IEA Feb 2025). [[Goldman Sachs]] forecasts 175% growth by 2030.
+Global DC electricity demand projected to double to ~945 [[TWh]] by 2030 ([[IEA]] Feb 2025). [[Goldman Sachs]] forecasts 175% growth by 2030.
 
 ### Virginia regulatory shift (Feb 2026 update)
-- New GS-5 rate class (Jan 1, 2027): customers >25MW must sign **14-year contracts** with minimum demand charges regardless of usage
+- New GS-5 rate class (Jan 1, 2027): customers >25MW must sign 14-year contracts with minimum demand charges regardless of usage
 - [[Dominion Energy]] authorized rate increases: $775.6M across 2026-2027
 - HB155: SCC review required before grid connection for high-power facilities
-- 230+ organizations calling for a **national moratorium** on DC construction
+- 230+ organizations calling for a national moratorium on DC construction
 
-### PJM capacity crisis
-- 2026/2027 auction cleared at FERC cap of **$329.17/MW-day**
-- Data centers driving **40% of capacity costs**
-- NRDC estimates PJM consumers could pay **$163B extra** through 2033
+### [[PJM]] capacity crisis
+- 2026/2027 auction cleared at [[FERC]] cap of $329.17/MW-day
+- Data centers driving 40% of capacity costs
+- NRDC estimates [[PJM]] consumers could pay $163B extra through 2033
 - Long-term growth forecast: 3.6% annually (up from 3.1%), projecting 222 GW by 2036
 
 Geography is now dictated by electrons, not fiber. Developers moving to tertiary markets (Columbus, Hillsboro, Iowa cornfields) — wherever utilities will sell 500MW.
@@ -178,30 +192,30 @@ Geography is now dictated by electrons, not fiber. Developers moving to tertiary
 | Cleaning | Hidden plenum accumulates debris | Simpler |
 | Favored by | Colocation (tenant flexibility) | Hyperscalers (fixed deployments) |
 
-**Venturi effect risk:** In raised-floor plenums, high air velocity near CRAC units creates low-pressure zones that *suck warm air down* into the cold supply — starving servers of cooling despite CRAC units at full power.
+Venturi effect risk: In raised-floor plenums, high air velocity near CRAC units creates low-pressure zones that *suck warm air down* into the cold supply — starving servers of cooling despite CRAC units at full power.
 
 ### Structural loading
-- Standard cabinet: ~3,000 lbs on 8.8 sq ft = **340 PSF** point load
+- Standard cabinet: ~3,000 lbs on 8.8 sq ft = 340 PSF point load
 - Office building rating: 50-100 PSF (woefully insufficient)
 - [[Digital Realty]] portfolio average: 178 PSF
-- High-density facility (NJR3 Clifton): **400 PSF**
+- High-density facility (NJR3 Clifton): 400 PSF
 
 ---
 
 ## Nuclear for data centers
 
-Big tech nuclear commitments now exceed **10 GW**, but the [[HALEU]] fuel supply stands at ~1 metric ton produced via enrichment against a need for **40 tons** by end of decade. DOE planning to supplement through HEU downblending from defense stockpiles.
+Big tech nuclear commitments now exceed 10 GW, but the [[HALEU]] fuel supply stands at ~1 metric ton produced via enrichment against a need for 40 tons by end of decade. DOE planning to supplement through HEU downblending from defense stockpiles.
 
 ---
 
-## UPS architecture (double conversion)
+## [[UPS]] architecture (double conversion)
 
-The industry gold standard for critical loads: Online Double-Conversion UPS.
+The industry gold standard for critical loads: Online Double-Conversion [[UPS]].
 
-1. **Rectifier** (AC→DC): converts raw grid power, performs power factor correction
-2. **Battery bank:** charges from DC bus, provides instant bridge during failure
-3. **Inverter** (DC→AC): regenerates clean sine-wave power, isolated from grid noise
-4. **Static bypass:** failsafe path if UPS itself fails
+1. Rectifier (AC→DC): converts raw grid power, performs power factor correction
+2. Battery bank: charges from DC bus, provides instant bridge during failure
+3. Inverter (DC→AC): regenerates clean sine-wave power, isolated from grid noise
+4. Static bypass: failsafe path if [[UPS]] itself fails
 
 The IT load never touches raw utility power — complete electrical isolation.
 
@@ -209,10 +223,10 @@ The IT load never touches raw utility power — complete electrical isolation.
 
 ## Latency and speed of light
 
-Fiber optic refractive index: ~1.47 → light travels **31% slower** in glass vs vacuum.
-Air refractive index: ~1.0003 → microwaves travel at **99%** of *c*.
+Fiber optic refractive index: ~1.47 → light travels 31% slower in glass vs vacuum.
+Air refractive index: ~1.0003 → microwaves travel at [[99]]% of *c*.
 
-**HFT implication:** Chicago (CME) to New York (NYSE) — microwave beats fiber. The physics arbitrage that built the microwave tower industry between the two cities.
+HFT implication: Chicago (CME) to New York ([[NYSE]]) — microwave beats fiber. The physics arbitrage that built the microwave tower industry between the two cities.
 
 ---
 
@@ -227,8 +241,8 @@ Air refractive index: ~1.0003 → microwaves travel at **99%** of *c*.
 | Thermal runaway (15kW rack) | 75 seconds |
 | Blackwell rack power | 120 kW |
 | Water vs air heat capacity | 3,500x by volume |
-| DC electricity demand 2030 | ~945 TWh (2x current) |
-| PJM capacity auction | $329/MW-day (at cap) |
+| DC electricity demand 2030 | ~945 [[TWh]] (2x current) |
+| [[PJM]] capacity auction | $329/MW-day (at cap) |
 | Nuclear DC commitments | >10 GW |
 
 ---
