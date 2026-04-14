@@ -36,11 +36,23 @@ The BoE faces a tighter bind than the [[ECB]]: UK gas-fired plants set the elect
 
 ---
 
+## Anthropic Mythos cyber-risk coordination (Apr 2026)
+
+Reuters reported on April 12 that BoE officials were in urgent talks with the [[Financial Conduct Authority]] and the [[UK National Cyber Security Centre]] after [[Anthropic]]'s [[Claude Mythos|Claude Mythos Preview]] was described as capable of surfacing major vulnerabilities across widely used software. Major UK banks, insurers, and exchanges were expected to be briefed within a fortnight.
+
+The significance is not that the BoE became an AI regulator. It is that frontier-model cyber capability crossed into the BoE's operational-resilience and financial-stability perimeter.
+
+---
+
 ## Related
 
 - [[Federal Reserve]] — US counterpart (on hold)
 - [[ECB]] — Eurozone counterpart (also pricing hikes)
 - [[BOJ]] — Japan counterpart (continuing normalization)
+- [[Financial Conduct Authority]] — UK conduct regulator involved in the talks
+- [[UK National Cyber Security Centre]] — cyber agency involved in the talks
+- [[Anthropic]] — developer of Mythos Preview
+- [[Claude Mythos]] — model under review
 - [[Basel III]] — delayed reforms pending US approach
 - [[Private credit]] — running first private markets stress test
 - [[Iran conflict economic disruption]] — oil shock driving rate repricing

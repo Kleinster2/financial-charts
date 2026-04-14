@@ -1,5 +1,5 @@
 ---
-aliases: [Mythos, Capybara, Claude Capybara]
+aliases: [Mythos, Capybara, Claude Capybara, Claude Mythos Preview]
 tags: [product, ai]
 parent_actor: "[[Anthropic]]"
 ---
@@ -41,6 +41,14 @@ An [[Anthropic]] spokesperson confirmed they are "developing a general purpose m
 
 Leaked internal safety documents flagged that Mythos could significantly heighten cybersecurity risks by rapidly identifying and exploiting software vulnerabilities. The concern is acceleration of a cyber arms race — a model that finds vulnerabilities faster than defenders can patch them shifts the offense-defense balance. This extends the pattern established by [[Claude Code Security]] (Feb 2026), which found 500+ bugs undetected for decades.
 
+## Controlled rollout and regulatory response (Apr 2026)
+
+Rather than release Mythos broadly, [[Anthropic]] put the model behind [[Project Glasswing]], a controlled defensive-cyber program. Reuters reported on April 7 that launch partners included [[Amazon]], [[Microsoft]], [[Apple]], [[CrowdStrike]], [[Palo Alto Networks]], [[Google]], and [[NVIDIA]], with roughly 40 additional organizations responsible for critical software infrastructure also receiving access. Anthropic paired the rollout with up to $100M in usage credits and $4M in donations to open-source security groups.
+
+The more important signal was who reacted. Reuters reported on April 9 that U.S. officials briefed major bank CEOs on Mythos' cyber-risk potential. Three days later, the [[Bank of England]], [[Financial Conduct Authority]], and the [[UK National Cyber Security Centre]] were reported to be coordinating on whether Mythos-class models could expose vulnerabilities in critical financial IT systems, with UK banks, insurers, and exchanges due to be briefed within a fortnight.
+
+That is a different category of AI release. Mythos was not treated as a consumer launch or even a normal enterprise product cycle. It was treated as a controlled capability with potential financial-stability and operational-resilience implications.
+
 ---
 
 ## Model tier: Capybara
@@ -75,6 +83,7 @@ Leaked the same week [[OpenAI]] teased [[OpenAI Spud|Spud]], its next model. Bot
 ## Related
 
 - [[Anthropic]] — parent company
+- [[Project Glasswing]] — controlled early-access program for Mythos Preview
 - [[Claude]] — product family
 - [[Claude Opus]] — current top tier (Opus 4.6), which Mythos reportedly surpasses
 - [[Claude Code Security]] — Anthropic's existing AI vulnerability scanner

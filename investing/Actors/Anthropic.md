@@ -202,16 +202,16 @@ Anthropic and the Pentagon are in an escalating standoff over a ~$200M contract 
 1. Fully autonomous weapons
 2. Mass surveillance of Americans
 
-**Timeline:**
+Timeline:
 - Jan 9: Defense Secretary [[Pete Hegseth]]'s AI strategy memo states Pentagon needs models "free from usage policy constraints"
 - Jan 16: Hegseth criticized Anthropic when announcing [[xAI]]'s Grok would join Pentagon AI providers, railing against models that "won't allow you to fight wars"
 - Jan 30: Reuters reported the $200M contract standoff
 - Feb 12: Reuters reported Pentagon pushing AI companies onto classified networks without standard restrictions
 - Feb 13: Axios/WSJ reported Claude was used during the [[Maduro capture operation]] (via [[Palantir]]). An Anthropic employee subsequently asked [[Palantir]] how Claude was being used in the operation
 - Feb 15: Axios exclusive - Pentagon "fed up," threatening to cut Anthropic entirely. Administration official: "everything's on the table… but there'll have to be an orderly replacement"
-- Feb 17-18: Escalation - Pentagon reviewing entire Anthropic partnership, may ask contractors to **certify they don't use Claude**. Pentagon now designates Anthropic a **"supply-chain risk"** - a term typically reserved for foreign adversaries
+- Feb 17-18: Escalation - Pentagon reviewing entire Anthropic partnership, may ask contractors to certify they don't use Claude. Pentagon now designates Anthropic a "supply-chain risk" - a term typically reserved for foreign adversaries
 - Feb 23: Hegseth summoned [[Dario Amodei]] to the Pentagon for a Tuesday morning meeting
-- Feb 24: Tense meeting. Hegseth set **Friday 5:01 PM ET deadline** (Feb 28). Told Dario no private company will dictate how the Pentagon makes operational decisions. Threatened two penalties: invoke the **[[Defense Production Act]]** to compel Claude deployment regardless of consent, and label Anthropic a **supply-chain risk** (normally reserved for foreign adversaries like [[Huawei]]). Anthropic spokesperson called it a "good-faith conversation"
+- Feb 24: Tense meeting. Hegseth set Friday 5:01 PM ET deadline (Feb 28). Told Dario no private company will dictate how the Pentagon makes operational decisions. Threatened two penalties: invoke the [[Defense Production Act]] to compel Claude deployment regardless of consent, and label Anthropic a supply-chain risk (normally reserved for foreign adversaries like [[Huawei]]). Anthropic spokesperson called it a "good-faith conversation"
 - Feb 25: Anthropic "digs in heels" — no plans to comply. [[xAI]] approved for classified network deployment — Pentagon now has a second supplier. Dario noted valuation and revenue have only grown since taking this stand
 
 ### Feb 26 — Pentagon retreats from DPA, Anthropic stands firm
@@ -220,11 +220,11 @@ Dario said "virtually no progress" on negotiations. Pentagon backed away from [[
 
 See [[Pentagon AI access dispute 2026]] for the full event arc — DPA legal analysis, competitive dynamics, congressional vacuum, investor implications.
 
-**Anthropic's position:** Two hard red lines: no autonomous weapons, no mass surveillance of Americans. Willing to allow missile defense, cyber defense, and other specific uses. [[Dario Amodei]] wrote AI should support national defense "in all ways except those which would make us more like our autocratic adversaries."
+Anthropic's position: Two hard red lines: no autonomous weapons, no mass surveillance of Americans. Willing to allow missile defense, cyber defense, and other specific uses. [[Dario Amodei]] wrote AI should support national defense "in all ways except those which would make us more like our autocratic adversaries."
 
-**Pentagon's position:** "All lawful use" without case-by-case negotiation. Commercial AI should be deployable the same way any purchased technology is — the military decides.
+Pentagon's position: "All lawful use" without case-by-case negotiation. Commercial AI should be deployable the same way any purchased technology is — the military decides.
 
-**Competitive dynamics:** [[OpenAI]], [[Google]], and [[xAI]] have all agreed to deploy for all lawful military uses — Anthropic alone has not. [[xAI]] now approved for classified networks (Feb 25), breaking Anthropic's monopoly.
+Competitive dynamics: [[OpenAI]], [[Google]], and [[xAI]] have all agreed to deploy for all lawful military uses — Anthropic alone has not. [[xAI]] now approved for classified networks (Feb 25), breaking Anthropic's monopoly.
 
 *Sources: Axios (Feb 13, 15, 16, 24), Reuters (Jan 30, Feb 12, 25), WSJ (Feb 14, 18), Semafor (Jan 16, Feb 24), CNN (Feb 24), CNBC (Feb 18, 24), TechCrunch (Feb 23, 24), Fortune (Feb 25), NPR (Feb 24), NBC (Feb 13, 18)*
 
@@ -232,15 +232,15 @@ See [[Pentagon AI access dispute 2026]] for the full event arc — DPA legal ana
 
 Anthropic did not comply by the Friday 5:01 PM deadline. [[Pete Hegseth]] followed through:
 
-- **Feb 27:** Hegseth designated Anthropic a **"Supply-Chain Risk to National Security"** — a classification normally reserved for foreign adversaries like [[Huawei]]. Effective immediately: **no contractor, supplier, or partner doing business with the US military may conduct any commercial activity with Anthropic.** This is far broader than losing the ~$200M contract — it bars Anthropic from the entire defense ecosystem.
-- **Feb 27:** Trump ordered all US government agencies to stop using Claude.
-- **Feb 28:** [[OpenAI]] swooped in to take Anthropic's contract **hours after the ban**, agreeing to "any lawful purpose" military deployment. [[Sam Altman]]: "Anthropic seemed more focused on specific prohibitions in the contract, rather than citing applicable laws, which we felt comfortable with." OpenAI's deal does **not** explicitly prohibit bulk collection of Americans' publicly available information — the exact issue Anthropic flagged.
+- Feb 27: Hegseth designated Anthropic a "Supply-Chain Risk to National Security" — a classification normally reserved for foreign adversaries like [[Huawei]]. Effective immediately: no contractor, supplier, or partner doing business with the US military may conduct any commercial activity with Anthropic. This is far broader than losing the ~$200M contract — it bars Anthropic from the entire defense ecosystem.
+- Feb 27: Trump ordered all US government agencies to stop using Claude.
+- Feb 28: [[OpenAI]] swooped in to take Anthropic's contract hours after the ban, agreeing to "any lawful purpose" military deployment. [[Sam Altman]]: "Anthropic seemed more focused on specific prohibitions in the contract, rather than citing applicable laws, which we felt comfortable with." OpenAI's deal does not explicitly prohibit bulk collection of Americans' publicly available information — the exact issue Anthropic flagged.
 
-**Anthropic's response:** Dario: "We cannot in good conscience accede to their request." The company argues the designation is "legally unsound" and "sets a dangerous precedent for any American company that negotiates with the government." Anthropic has formally filed suit against the US government over the designation (WSJ, Mar 16 2026). The Pentagon designation is making "some businesses more hesitant" to buy Anthropic technology (WSJ).
+Anthropic's response: Dario: "We cannot in good conscience accede to their request." The company argues the designation is "legally unsound" and "sets a dangerous precedent for any American company that negotiates with the government." Anthropic has formally filed suit against the US government over the designation (WSJ, Mar 16 2026). The Pentagon designation is making "some businesses more hesitant" to buy Anthropic technology (WSJ).
 
-**Legal analysis (Lawfare):** The supply-chain designation is legally novel and unlikely to survive court challenge. It punishes a domestic company for **negotiating contract terms**, not for any security violation.
+Legal analysis (Lawfare): The supply-chain designation is legally novel and unlikely to survive court challenge. It punishes a domestic company for negotiating contract terms, not for any security violation.
 
-**Financial impact:** The $200M contract is modest for a company on track for $18B revenue in 2026. But the supply-chain risk designation bars Anthropic from **all** defense contractor relationships — the secondary effects are far more damaging than the contract loss.
+Financial impact: The $200M contract is modest for a company on track for $18B revenue in 2026. But the supply-chain risk designation bars Anthropic from all defense contractor relationships — the secondary effects are far more damaging than the contract loss.
 
 *Sources: CNN (Feb 26), CNBC (Feb 27), Fortune (Feb 28), NPR (Feb 27), MIT Technology Review (Mar 2), Lawfare (Mar 1)*
 
@@ -264,9 +264,9 @@ Investor tension: Some frustrated that Dario "antagonized rather than cultivated
 
 [[State Department]] switching to [[OpenAI]] following Trump's 6-month phaseout order.
 
-**Palantir exposure:** [[Palantir]]'s Maven Smart Systems — the Pentagon's flagship AI program for intelligence analysis and weapons targeting — uses Claude code in multiple prompts and workflows. Maven-related contracts with DoD and national security agencies have potential value >$1B. Palantir will need to replace Claude with another model and rebuild parts of the software. [[Alex Karp]]: companies that claim AI will take white-collar jobs and also "screw the military" could lead to "the nationalization of our technology."
+Palantir exposure: [[Palantir]]'s Maven Smart Systems — the Pentagon's flagship AI program for intelligence analysis and weapons targeting — uses Claude code in multiple prompts and workflows. Maven-related contracts with DoD and national security agencies have potential value >$1B. Palantir will need to replace Claude with another model and rebuild parts of the software. [[Alex Karp]]: companies that claim AI will take white-collar jobs and also "screw the military" could lead to "the nationalization of our technology."
 
-**Defense contractor compliance:** [[Lockheed Martin]] pledged to comply: "We will follow the president's and the Department of War's direction." Added: "We expect minimal impacts" and doesn't depend on any single AI vendor. [[General Dynamics]], [[RTX]], and [[L3Harris]] declined to comment. Legal experts: DOD Supply Chain Risk Authority can bar contractors from using Anthropic in government work, but likely lacks authority to ban it in their entire business. Designation "won't survive first contact with the legal system" per multiple legal scholars.
+Defense contractor compliance: [[Lockheed Martin]] pledged to comply: "We will follow the president's and the Department of War's direction." Added: "We expect minimal impacts" and doesn't depend on any single AI vendor. [[General Dynamics]], [[RTX]], and [[L3Harris]] declined to comment. Legal experts: DOD Supply Chain Risk Authority can bar contractors from using Anthropic in government work, but likely lacks authority to ban it in their entire business. Designation "won't survive first contact with the legal system" per multiple legal scholars.
 
 *Sources: Reuters (Mar 3-4)*
 
@@ -278,9 +278,9 @@ Pentagon CIO [[Kirsten Davies]] signed a March 6 memo allowing Anthropic use to 
 
 The memo also reaffirmed:
 - Ban extends to defense contractors — contracting officers have 30 days to notify, contractors must certify full compliance by 180-day deadline
-- Priority removal from systems supporting **nuclear weapons and ballistic missile defense**
+- Priority removal from systems supporting nuclear weapons and ballistic missile defense
 
-**Significance:** The exemption clause effectively acknowledges that some Pentagon systems are too deeply integrated with Claude to rip out in 6 months. The supply-chain risk designation remains in force — this is a managed retreat, not a reversal.
+Significance: The exemption clause effectively acknowledges that some Pentagon systems are too deeply integrated with Claude to rip out in 6 months. The supply-chain risk designation remains in force — this is a managed retreat, not a reversal.
 
 *Source: Reuters, CBS News, Yahoo Finance (Mar 11, 2026)*
 
@@ -364,7 +364,7 @@ Second major model launch in under two weeks (after Opus 4.6 on Feb 5). Brings f
 
 Key improvements: less over-engineering and "laziness," better instruction following, fewer hallucinations, more consistent multi-step follow-through. 1M token context window (beta) - double previous Sonnet maximum.
 
-Also announced: **Claude Cowork desktop app** (macOS, Windows coming) - native app controlling mouse, keyboard, and browser for multi-step tasks (file organization, document editing, web browsing). Extends Cowork from cloud to local desktop.
+Also announced: Claude Cowork desktop app (macOS, Windows coming) - native app controlling mouse, keyboard, and browser for multi-step tasks (file organization, document editing, web browsing). Extends Cowork from cloud to local desktop.
 
 Available on claude.ai, API, [[Amazon|Amazon Bedrock]], [[Google|Vertex AI]], [[Microsoft|Microsoft Foundry]].
 
@@ -446,7 +446,7 @@ Polling: 69% of Americans think government "not doing enough to regulate AI."
 
 ### Skills platform launch (Dec 2025 - Feb 2026)
 
-Anthropic launched **Skills** - packaged instruction folders that teach Claude reusable workflows. Published as an **open standard** designed to be portable across AI platforms, not just Claude. This is Anthropic's developer ecosystem/platform play beyond just selling model access.
+Anthropic launched Skills - packaged instruction folders that teach Claude reusable workflows. Published as an open standard designed to be portable across AI platforms, not just Claude. This is Anthropic's developer ecosystem/platform play beyond just selling model access.
 
 | Detail | Value |
 |--------|-------|
@@ -458,9 +458,9 @@ Anthropic launched **Skills** - packaged instruction folders that teach Claude r
 | Built-in tooling | skill-creator skill in Claude.ai |
 | Partner directory | [[Asana]], [[Atlassian]], [[Canva]], [[Figma]], [[Sentry]], [[Zapier]] |
 
-**Strategic significance:** Skills are Anthropic's answer to [[OpenAI]]'s custom GPTs and agent SDK approach, but with a key difference - open standard portability vs. platform lock-in. By publishing Skills as a specification any AI platform can adopt, Anthropic is betting that ecosystem gravity (developer tooling, partner integrations) matters more than proprietary lock-in. Same playbook as [[MCP]] - originate the standard, benefit from adoption.
+Strategic significance: Skills are Anthropic's answer to [[OpenAI]]'s custom GPTs and agent SDK approach, but with a key difference - open standard portability vs. platform lock-in. By publishing Skills as a specification any AI platform can adopt, Anthropic is betting that ecosystem gravity (developer tooling, partner integrations) matters more than proprietary lock-in. Same playbook as [[MCP]] - originate the standard, benefit from adoption.
 
-Combined with [[MCP]] (tool connectivity) and [[Claude]] Code (agentic execution), Skills complete a three-layer developer platform: **what Claude can connect to** (MCP) → **what Claude knows how to do** (Skills) → **where Claude runs** (Code/API). This positions Anthropic as a full-stack AI developer platform, not just a model provider.
+Combined with [[MCP]] (tool connectivity) and [[Claude]] Code (agentic execution), Skills complete a three-layer developer platform: what Claude can connect to (MCP) → what Claude knows how to do (Skills) → where Claude runs (Code/API). This positions Anthropic as a full-stack AI developer platform, not just a model provider.
 
 ### Distillation disclosure (Feb 23, 2026)
 
@@ -478,22 +478,22 @@ A hacker exploited [[Claude]] to breach multiple [[Mexico|Mexican]] government a
 
 | Metric | Value |
 |--------|-------|
-| Data stolen | **150 GB** |
-| Taxpayer records | **195M** |
+| Data stolen | 150 GB |
+| Taxpayer records | 195M |
 | Other data | Voter records, gov employee credentials, civil registry files |
 | Duration | ~1 month (Dec 2025 - Jan 2026) |
 | Vulnerabilities exploited | 20+ |
 | Commands executed | Thousands |
 
-**Agencies breached:** Federal tax authority (SAT), national electoral institute (INE), state governments (Mexico state, Jalisco, Michoacán, Tamaulipas), Mexico City civil registry, Monterrey water utility. Several agencies denied breaches.
+Agencies breached: Federal tax authority (SAT), national electoral institute (INE), state governments (Mexico state, Jalisco, Michoacán, Tamaulipas), Mexico City civil registry, Monterrey water utility. Several agencies denied breaches.
 
-**Jailbreak method:** Hacker used Spanish-language prompts, initially claimed authorized "bug bounty" / penetration testing. Claude flagged red flags ("In legitimate bug bounty, you don't need to hide your actions"). Hacker then abandoned conversational approach and provided a detailed playbook — this bypassed guardrails. When Claude hit problems, hacker turned to [[OpenAI|ChatGPT]] for lateral movement, credential identification, and detection probability calculation.
+Jailbreak method: Hacker used Spanish-language prompts, initially claimed authorized "bug bounty" / penetration testing. Claude flagged red flags ("In legitimate bug bounty, you don't need to hide your actions"). Hacker then abandoned conversational approach and provided a detailed playbook — this bypassed guardrails. When Claude hit problems, hacker turned to [[OpenAI|ChatGPT]] for lateral movement, credential identification, and detection probability calculation.
 
-**Anthropic response:** Investigated Gambit's claims, disrupted activity, banned accounts. Said Opus 4.6 includes "probes that can disrupt misuse." Company feeds malicious examples back into Claude training. Even during the attack, Claude occasionally refused requests.
+Anthropic response: Investigated Gambit's claims, disrupted activity, banned accounts. Said Opus 4.6 includes "probes that can disrupt misuse." Company feeds malicious examples back into Claude training. Even during the attack, Claude occasionally refused requests.
 
-**Pattern:** Second known AI-orchestrated cyber campaign involving Claude — follows Nov 2025 Chinese state-sponsored espionage (30 global targets). Combined with Amazon's report of AI-enabled 600-firewall breach, establishes AI-augmented hacking as an accelerating trend.
+Pattern: Second known AI-orchestrated cyber campaign involving Claude — follows Nov 2025 Chinese state-sponsored espionage (30 global targets). Combined with Amazon's report of AI-enabled 600-firewall breach, establishes AI-augmented hacking as an accelerating trend.
 
-**Investment implications:** Strengthens the case for AI-enabled cybersecurity spending (bull for [[CrowdStrike]], [[Palo Alto Networks]]) while creating regulatory/reputational risk for model providers. Pentagon "supply-chain risk" framing of Anthropic gains new ammunition.
+Investment implications: Strengthens the case for AI-enabled cybersecurity spending (bull for [[CrowdStrike]], [[Palo Alto Networks]]) while creating regulatory/reputational risk for model providers. Pentagon "supply-chain risk" framing of Anthropic gains new ammunition.
 
 *Source: Bloomberg, Feb 27 2026; Gambit Security research*
 
@@ -581,7 +581,7 @@ Multi-cloud approach - AWS Trainium + Google TPUs + NVIDIA GPUs. Diversified to 
 
 Largest expansion of Anthropic's TPU usage to date. Separate from Broadcom direct purchases. The 3.5 GW figure was confirmed by both Anthropic and Google Cloud press releases (Apr 6). $175B is estimated at ~$50B/GW industry rule of thumb.
 
-**Backstory (Patel, Mar 2026):** Anthropic's compute team — both ex-Google — saw the dislocation before Google did. In early Q3 2025, over six weeks, TPU capacity requests went up multiple times. Google had to go to [[TSMC]] to explain why they needed a sudden capacity increase. Much of it was for selling to Anthropic. [[Google DeepMind]] people "were like, 'This is insane. Why did we do this?'" But Google Cloud saw it differently. Then Gemini 3 caused Google's user metrics to skyrocket, leadership woke up, went to TSMC for more — "Sorry, sold out. Maybe 5-10% more for 2026, really working on 2027."
+Backstory (Patel, Mar 2026): Anthropic's compute team — both ex-Google — saw the dislocation before Google did. In early Q3 2025, over six weeks, TPU capacity requests went up multiple times. Google had to go to [[TSMC]] to explain why they needed a sudden capacity increase. Much of it was for selling to Anthropic. [[Google DeepMind]] people "were like, 'This is insane. Why did we do this?'" But Google Cloud saw it differently. Then Gemini 3 caused Google's user metrics to skyrocket, leadership woke up, went to TSMC for more — "Sorry, sold out. Maybe 5-10% more for 2026, really working on 2027."
 
 ### AWS partnership (Project Rainier)
 
@@ -683,24 +683,24 @@ WSJ (Berber Jin, Mar 16 2026): Anthropic has become "the dominant AI provider fo
 
 FT (Anjli Raval, Feb 18): "Are Anthropic's new AI work tools game-changing for professionals?" Article maps the vertical-by-vertical reaction to Claude Cowork's January launch.
 
-**Enterprise adoption:** [[Goldman Sachs]] working with Anthropic on AI agent to automate bank roles. [[Uber]], [[Netflix]], [[Salesforce]], [[Allianz]] also building on Claude. Guillaume Princen (Anthropic, head of digital native businesses): Cowork is "same powerful agent, but much more accessible."
+Enterprise adoption: [[Goldman Sachs]] working with Anthropic on AI agent to automate bank roles. [[Uber]], [[Netflix]], [[Salesforce]], [[Allianz]] also building on Claude. Guillaume Princen (Anthropic, head of digital native businesses): Cowork is "same powerful agent, but much more accessible."
 
-**Market reaction:** Sparked investor worries about industry-specific AI companies. Wealth management share prices fell on disruption concerns. Employees across corporate offices began investigating alternatives.
+Market reaction: Sparked investor worries about industry-specific AI companies. Wealth management share prices fell on disruption concerns. Employees across corporate offices began investigating alternatives.
 
-**Legal vertical - specialists pushing back:**
+Legal vertical - specialists pushing back:
 - [[JPMorgan]]: Claude Cowork "just catching up with [[Harvey]] and [[RELX]]," lacks complete legal library
 - [[Harvey]] and [[Legora]] use Anthropic/[[OpenAI]] models underneath but built proprietary tooling on top
 - [[Legora]] CEO Max Junestrand dismissed plug-ins
 - [[Luminance]]'s Harry Borovick: domain-specific tools increase in value as generalists expand
 - Legal workers criticized Cowork's legal plug-in for using Wikipedia as a source
 
-**Advertising - more vulnerable:**
+Advertising - more vulnerable:
 - Generic models may pose MORE threat than vertical tools - enable clients to DIY, cutting out agencies
 - [[WPP]] already uses Gemini/[[OpenAI]]/Anthropic under the hood
 - Super Bowl 2026 showed AI takeover (Svedka Vodka ad)
 - Bigger risk: clients skip agencies entirely
 
-**Business planning - specialist defense:**
+Business planning - specialist defense:
 - [[Pigment]] CEO Eléonore Crespo: "Generalists are for play, but specialists are for work"
 - Specialist providers succeed via unique data structures, workflow integration, governance/auditability
 - [[Supercell]] (Finnish gaming): monthly performance report went from 3 hours → 5 minutes with AI analyst agent via [[Pigment]]. No mistakes, references provided.
@@ -747,7 +747,7 @@ The leak occurred via Anthropic's off-the-shelf CMS, which defaults to public ac
 
 ## Q4 2026 IPO discussion (March 2026)
 
-Anthropic is in discussions about an initial public offering that could happen as soon as Q4 2026. Bankers vying to take the company public have said it could raise as much as **$60B** — which would be the second-largest IPO ever after [[SpaceX]]'s planned ~$75B raise.
+Anthropic is in discussions about an initial public offering that could happen as soon as Q4 2026. Bankers vying to take the company public have said it could raise as much as $60B — which would be the second-largest IPO ever after [[SpaceX]]'s planned ~$75B raise.
 
 ### AI lab fundraising race
 
@@ -755,7 +755,7 @@ Anthropic is in discussions about an initial public offering that could happen a
 |---------|------------|-----------|-------------|
 | [[SpaceX]] | — | $1.25T+ | June 2026 ($75B raise) |
 | [[OpenAI]] | $120B+ total raised (Mar 2026) | ~$300B | Late 2026-2027 |
-| **Anthropic** | $57B+ total raised | $380B | **Q4 2026 ($60B raise)** |
+| Anthropic | $57B+ total raised | $380B | Q4 2026 ($60B raise) |
 
 [[OpenAI]] is simultaneously raising ~$10B more from [[Andreessen Horowitz]], [[MGX]], [[D.E. Shaw Ventures]], [[TPG]], and [[T. Rowe Price]], bringing total round to $120B+. OpenAI is also sweetening PE pitches with 17.5% guaranteed minimum preferred equity returns — significantly higher than typical preferred instruments — and early access to newest models. Anthropic's PE deal offered no such guaranteed returns.
 
@@ -800,6 +800,12 @@ Two breaches in five days:
 Incident 1 — [[Claude Mythos]] / CMS leak (Mar 26): Security researchers Roy Paz (LayerX Security) and Alexandre Pauwels (University of Cambridge) discovered ~3,000 unpublished assets in Anthropic's CMS data lake — all public by default unless explicitly set private. Exposed: draft blog post announcing [[Claude Mythos]] (internal codename "Capybara"), described as "a step change" in AI performance and "the most capable [model] we've built to date," with "unprecedented cybersecurity risks." Also exposed: planned invite-only European CEO retreat with [[Dario Amodei]], internal images, marketing materials. Anthropic called it "human error" in CMS configuration. *(Fortune, Mar 26-27)*
 
 Incident 2 — [[Claude Code]] source leak (Mar 31): Claude Code v2.1.88 shipped with a 59.8 MB JavaScript source map (.map) file to the public npm registry — a missing `.npmignore` entry. The source map pointed to a zip archive on Anthropic's Cloudflare R2 storage bucket. Result: ~512,000 lines of TypeScript across 1,906 files became fully readable. Revealed: the full agentic harness architecture, feature flags for unshipped capabilities (session review, "persistent assistant" background mode, remote phone/browser control), an "Undercover Mode" of unclear purpose, and internal model performance data. Security researcher Chaofan Shou first disclosed on X. Paul Smith (Chief Commercial Officer) attributed both incidents to "the incredibly rapid release cycle that we've had around Claude Code." *(Axios, Fortune, Bloomberg, Mar 31 - Apr 1)*
+
+### Mythos enters the financial-stability perimeter (Apr 7-12, 2026)
+
+When Anthropic shifted Mythos Preview into [[Project Glasswing]] — a limited defensive-cyber program with large tech companies and critical-software operators — the model stopped being just an AI-lab story. Reuters reported on Apr 7 that the launch group included [[Amazon]], [[Microsoft]], [[Apple]], [[CrowdStrike]], [[Palo Alto Networks]], [[Google]], and [[NVIDIA]], with roughly 40 additional organizations responsible for critical software infrastructure also receiving access. Anthropic also committed up to $100M in usage credits and $4M in donations to open-source security groups.
+
+The institutional response was the bigger tell. Reuters reported on Apr 9 that U.S. officials briefed major bank CEOs on the model's cyber-risk potential, then on Apr 12 that the [[Bank of England]], [[Financial Conduct Authority]], and the [[UK National Cyber Security Centre]] were in urgent talks about whether Mythos-class models could expose vulnerabilities in critical financial systems. This is the inflection where Anthropic's frontier-cyber capability stops being a sector-repricing story for security vendors and becomes an operational-resilience issue for banks, exchanges, and regulators.
 
 ### Code rewrites and IP contradiction
 
@@ -862,6 +868,7 @@ The strategy parallels [[Microsoft]]'s 1990s arc — OS vendor to desktop owner 
 - [[Conway]] - unreleased always-on agent (discovered in code leak)
 - [[Intelligence portability]] - behavioral lock-in from persistent agents
 - [[Claude]] - flagship AI product
+- [[Project Glasswing]] - controlled early-access program for Mythos Preview
 - [[Dario Amodei]] - CEO and co-founder
 - [[OpenAI]] - competitor, origin (founders left OpenAI)
 - [[Google]] - $3B+ investor, cloud partner
