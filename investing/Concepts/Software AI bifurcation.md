@@ -11,6 +11,8 @@ tags:
 
 # Software AI bifurcation
 
+Plain English: "software" is no longer one clean AI trade. Some names are vulnerable because AI can compress seats, service labor, or information intermediation. Some are being treated more like AI platforms because they control data, distribution, identity, or compute access. And even the infrastructure layer is not automatically safe, because model vendors can absorb parts of the runtime and control plane themselves.
+
 Software no longer trades as one sector under AI. The market now has to separate workflow software whose seat economics can be compressed, integrated platforms that combine software distribution with data or compute access, and runtime-adjacent infrastructure names whose value can still migrate upstream to the model provider.
 
 ---

@@ -160,9 +160,10 @@ Reference: See [[Micron]] for the template.
 Concept notes (non-stub) must follow a story + reference structure.
 
 1. One-liner — frontmatter + single paragraph: what it is, why it matters, current state.
-2. The story — full narrative arc as connected analytical prose. Trace the causal chain: physics/fundamentals → economics → ecosystem/players → implications. No headers within the story — continuous exposition. Hard numbers inline with sources. Self-contained.
-3. Reference — tables, specs, quick stats, company lists, timeline data, key quotes.
-4. Related — wikilinks to connected notes.
+2. Plain-English preamble when needed — if the concept is taxonomy-heavy, abstract, or easy to misread, open with 1-3 spoken-English sentences that decode the note before the denser synthesis begins. Think: "what this means in normal language," not a second abstract summary.
+3. The story — full narrative arc as connected analytical prose. Trace the causal chain: physics/fundamentals → economics → ecosystem/players → implications. No headers within the story — continuous exposition. Hard numbers inline with sources. Self-contained.
+4. Reference — tables, specs, quick stats, company lists, timeline data, key quotes.
+5. Related — wikilinks to connected notes.
 
 Length: Scale to complexity. Narrow concept: 5-8 paragraphs. Broad technology transition: 15-20.
 
