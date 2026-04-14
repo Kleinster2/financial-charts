@@ -249,7 +249,8 @@ AIWD differentiation: Pure SaaS/data disruption exposure (legal, analytics, SaaS
 ## Related
 
 - [[Claude Cowork disruption February 2026]] — catalyst event
-- [[Software AI bifurcation]] — broader split between workflow victims and mixed software proxies
+- [[Software AI bifurcation]] — broader split between workflow victims, control-point platforms, and runtime-adjacent infra
+- [[AI control-point basket]] — the middle bucket inside software
 - [[AI disruption]] — macro theme
 - [[Indian IT services]] — removed from basket (margin compression thesis, not product replacement)
 - [[GS AI Productivity Beneficiaries]] — inverse basket (companies that benefit from same disruption)
@@ -261,4 +262,4 @@ AIWD differentiation: Pure SaaS/data disruption exposure (legal, analytics, SaaS
 - [[BVP Nasdaq Cloud Index]] — SaaS benchmark
 - [[JPMorgan JPAMAIDE]] — AI infrastructure bull basket
 
-*Created 2026-02-04 · Updated 2026-02-07 (move-weighted rebalance, 14 constituents)*
+*Created 2026-02-04 · Updated 2026-04-14 (linked taxonomy-derived companion baskets)*

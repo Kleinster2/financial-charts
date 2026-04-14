@@ -33,7 +33,7 @@ Verified against `prices_long` in `market_data.db`:
 | [[Fastly]] | $29.46 | $23.07 | -21.7% |
 | [[Akamai]] | $109.61 | $91.35 | -16.7% |
 
-This was not a "CDNs are obsolete" move. It was a control-plane move.
+This was not a "CDNs are obsolete" move. It was a control-plane move, and it now has a public internal tracker in [[Edge control-plane risk basket|ECPR]].
 
 ---
 
@@ -106,6 +106,7 @@ The next hard test is earnings, not headlines:
 - [[Cloudflare]] — selloff victim
 - [[Fastly]] — selloff victim
 - [[Akamai]] — selloff victim
+- [[Edge control-plane risk basket]] — internal tracker for the cluster hit by the event
 - [[Agent harnesses]] — concept note for the relevant stack layer
 - [[Software AI bifurcation]] — the broader frame linking app software, platforms, and runtime-adjacent infra
 - [[February 2026 AI Disruption Cascade]] — broader market regime

@@ -61,8 +61,10 @@ The market had been using a simple frame: if AI hurts application software, infr
 That matters for edge cloud because the sector had started to be valued as neutral picks-and-shovels for agentic traffic. The April move did **not** mean edge demand disappeared. It meant the control plane might accrue upstream to the model vendor, leaving delivery and perimeter functions with less narrative premium.
 
 The cleaner distinction after April:
-- **Still durable:** delivery, DDoS defense, caching, enterprise perimeter, vendor-neutral ingress
-- **Under pressure:** parts of the agent runtime and orchestration layer that model vendors can bundle themselves
+- Still durable: delivery, DDoS defense, caching, enterprise perimeter, vendor-neutral ingress
+- Under pressure: parts of the agent runtime and orchestration layer that model vendors can bundle themselves
+
+That is the split tracked by [[Edge control-plane risk basket]]: the cluster most exposed when the market decides that runtime and orchestration value may sit upstream with the model vendor rather than with the neutral edge platform.
 
 See also [[Agent harnesses]] and [[Software AI bifurcation]].
 
@@ -115,6 +117,7 @@ Not the same as [[Edge inference]], which is about where AI models run. Edge clo
 - [[Akamai]]
 - [[Fastly]]
 - [[Anthropic Managed Agents selloff April 2026]]
+- [[Edge control-plane risk basket]]
 - [[Anthropic Managed Agents]]
 - [[Agent harnesses]]
 - [[Software AI bifurcation]]
