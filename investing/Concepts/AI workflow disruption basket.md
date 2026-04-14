@@ -249,7 +249,7 @@ AIWD differentiation: Pure SaaS/data disruption exposure (legal, analytics, SaaS
 ## Related
 
 - [[Claude Cowork disruption February 2026]] — catalyst event
-- [[Software bear market]] — broader thesis
+- [[Software AI bifurcation]] — broader split between workflow victims and mixed software proxies
 - [[AI disruption]] — macro theme
 - [[Indian IT services]] — removed from basket (margin compression thesis, not product replacement)
 - [[GS AI Productivity Beneficiaries]] — inverse basket (companies that benefit from same disruption)

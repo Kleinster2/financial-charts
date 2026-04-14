@@ -426,6 +426,7 @@ Evans' distinction: application software (seats, workflows) is existentially thr
 - [[AI disintermediation]] — the core concept driving all sub-events
 - [[Polar Capital]] — Evans' fund ($12B, 99th percentile)
 - [[AI workflow disruption basket]] — the basket tracking correlated victims
+- [[Software AI bifurcation]] — why broad software proxies mixed victims with AI beneficiaries
 - [[Claude Cowork disruption February 2026]] — the initial trigger (Week 1)
 - [[Insurify insurance broker selloff February 2026]] — insurance contagion (Week 2)
 - [[Altruist wealth management selloff February 2026]] — wealth management contagion (Week 2)

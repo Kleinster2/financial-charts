@@ -50,7 +50,7 @@ IGV is commonly used as shorthand for "software stocks" but it's a poor AI disru
 
 This is why IGV (-5.4%) underperformed [[AI workflow disruption basket|AIWD]] (-11.5%) on Feb 3 — the winners dilute the signal.
 
-Our AIWD note shows AIWD -18% vs IGV -10% since Jan 2025, with the 8pp gap explained by IGV including software that *benefits* from AI.
+Our AIWD note shows AIWD -18% vs IGV -10% since Jan 2025, with the 8pp gap explained by IGV including software that *benefits* from AI. See [[Software AI bifurcation]] for the cleaner split inside the label.
 
 ---
 
@@ -67,6 +67,6 @@ Our AIWD note shows AIWD -18% vs IGV -10% since Jan 2025, with the 8pp gap expla
 ## Related
 
 - [[AI workflow disruption basket]] — purer disruption exposure
-- [[Software bear market]] — context
+- [[Software AI bifurcation]] — why broad software stopped trading as one factor
 - [[GS US Software Basket]] — Goldman's equivalent
 - [[BVP Nasdaq Cloud Index]] — SaaS-specific alternative

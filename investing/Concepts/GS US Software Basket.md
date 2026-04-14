@@ -20,7 +20,7 @@ tags: [basket, software, goldman]
 
 A broad US software sector basket maintained by GS equity research. Referenced in Bloomberg and Reuters coverage of the Feb 3-4 selloff. Ticker likely in the GSXU family but not publicly confirmed.
 
-**Key distinction:** This is a *sector* basket, not a *disruption* basket. It includes companies that benefit from AI (platforms, dev tools) alongside companies threatened by AI (legal, data analytics). This is why it fell -6% while purer disruption plays like [[Thomson Reuters]] fell -18%.
+**Key distinction:** This is a *sector* basket, not a *disruption* basket. It includes companies that benefit from AI (platforms, dev tools) alongside companies threatened by AI (legal, data analytics). This is why it fell -6% while purer disruption plays like [[Thomson Reuters]] fell -18%. See [[Software AI bifurcation]] for the broader framing.
 
 ---
 
@@ -48,4 +48,4 @@ A broad US software sector basket maintained by GS equity research. Referenced i
 - [[Goldman Sachs]] — source
 - [[GS AI Productivity Beneficiaries]] — other side of the trade
 - [[AI workflow disruption basket]] — disruption-specific alternative
-- [[Software bear market]] — context
+- [[Software AI bifurcation]] — why sector baskets mix AI winners and victims

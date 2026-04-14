@@ -107,6 +107,7 @@ The next hard test is earnings, not headlines:
 - [[Fastly]] — selloff victim
 - [[Akamai]] — selloff victim
 - [[Agent harnesses]] — concept note for the relevant stack layer
+- [[Software AI bifurcation]] — the broader frame linking app software, platforms, and runtime-adjacent infra
 - [[February 2026 AI Disruption Cascade]] — broader market regime
 
 ---
