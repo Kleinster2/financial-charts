@@ -11,6 +11,7 @@
 - [PORTFOLIO_GUIDE.md](guides/PORTFOLIO_GUIDE.md) - Portfolio tracking features
 - [MACRO_PAGES_GUIDE.md](guides/MACRO_PAGES_GUIDE.md) - Macro indicator pages
 - [IMPLIED_VOLATILITY_GUIDE.md](guides/IMPLIED_VOLATILITY_GUIDE.md) - Implied volatility charting
+- [CLUSTER_ANALYSIS_GUIDE.md](guides/CLUSTER_ANALYSIS_GUIDE.md) - Cluster methods, workflow, and note-design rules
 
 ## Data
 - [DATABASE_GUIDE.md](data/DATABASE_GUIDE.md) - Database schema and queries

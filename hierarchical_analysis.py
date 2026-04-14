@@ -47,6 +47,7 @@ import pandas as pd
 from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
 from scipy.spatial.distance import squareform
 import matplotlib.pyplot as plt
+import seaborn as sns
 from constants import DB_PATH, get_db_connection
 from pathlib import Path
 
@@ -524,11 +525,15 @@ def analyze_period(df_prices, period_name, suffix, min_data_points=MIN_DATA_POIN
     # Calculate correlation matrix
     corr_matrix = returns.corr().fillna(0)
 
+    def correlation_to_distance(corr_df):
+        """Convert a correlation matrix into a symmetric Ward-friendly distance matrix."""
+        dist_df = 1 - corr_df
+        dist_df = (dist_df + dist_df.T) / 2
+        np.fill_diagonal(dist_df.values, 0)
+        return dist_df.clip(lower=0, upper=2)
+
     # Convert to distance
-    dist_matrix = 1 - corr_matrix
-    dist_matrix = (dist_matrix + dist_matrix.T) / 2
-    np.fill_diagonal(dist_matrix.values, 0)
-    dist_matrix = dist_matrix.clip(lower=0, upper=2)
+    dist_matrix = correlation_to_distance(corr_matrix)
 
     dist_condensed = squareform(dist_matrix.values, checks=False)
 
@@ -573,9 +578,8 @@ def analyze_period(df_prices, period_name, suffix, min_data_points=MIN_DATA_POIN
     print(f"  Generating detailed dendrogram...")
     if len(top_tickers) >= 10:
         corr_subset = corr_matrix.loc[top_tickers, top_tickers]
-        dist_subset = 1 - corr_subset
-        np.fill_diagonal(dist_subset.values, 0)
-        dist_condensed_subset = squareform(dist_subset.values)
+        dist_subset = correlation_to_distance(corr_subset)
+        dist_condensed_subset = squareform(dist_subset.values, checks=False)
         Z_subset = linkage(dist_condensed_subset, method='ward')
 
         fig_height = max(12, len(top_tickers) * 0.15)
@@ -597,8 +601,32 @@ def analyze_period(df_prices, period_name, suffix, min_data_points=MIN_DATA_POIN
         plt.savefig(OUTPUT_DIR / f'dendrogram_detailed{suffix}.png', dpi=150)
         plt.close()
 
-    # --- Sector Dendrograms ---
-    def generate_sector_dendrogram(tickers, title, filename, name_map=None):
+        print(f"  Generating top-50 clustermap...")
+        fig_size = max(10, len(top_tickers) * 0.22)
+        g = sns.clustermap(
+            corr_subset,
+            method='ward',
+            cmap='RdYlGn',
+            center=0,
+            vmin=-1,
+            vmax=1,
+            figsize=(fig_size, fig_size),
+            dendrogram_ratio=0.15,
+            cbar_pos=(0.02, 0.8, 0.03, 0.15),
+            annot=len(top_tickers) <= 15,
+            fmt='.2f' if len(top_tickers) <= 15 else None,
+            annot_kws={'size': 7} if len(top_tickers) <= 15 else None,
+        )
+        g.ax_heatmap.set_title(
+            f'Top {len(top_tickers)} Most Connected Correlation - {period_name}\n{date_range}',
+            pad=20,
+        )
+        plt.tight_layout()
+        plt.savefig(OUTPUT_DIR / f'clustermap_top50{suffix}.png', dpi=150, bbox_inches='tight')
+        plt.close()
+
+    # --- Sector Dendrograms / Clustermaps ---
+    def generate_sector_cluster_outputs(tickers, title, base_name, name_map=None):
         valid_tickers = [t for t in tickers if t in corr_matrix.columns]
         if len(valid_tickers) < 3:
             return
@@ -607,9 +635,8 @@ def analyze_period(df_prices, period_name, suffix, min_data_points=MIN_DATA_POIN
         labels = [name_map.get(t, t) for t in valid_tickers] if name_map else valid_tickers
 
         corr_sub = corr_matrix.loc[valid_tickers, valid_tickers]
-        dist_sub = 1 - corr_sub
-        np.fill_diagonal(dist_sub.values, 0)
-        dist_cond = squareform(dist_sub.values)
+        dist_sub = correlation_to_distance(corr_sub)
+        dist_cond = squareform(dist_sub.values, checks=False)
         Z_sub = linkage(dist_cond, method='ward')
 
         fig_height = max(6, len(valid_tickers) * 0.15)
@@ -623,30 +650,54 @@ def analyze_period(df_prices, period_name, suffix, min_data_points=MIN_DATA_POIN
         plt.title(f'{title} Dendrogram - {period_name}\n{date_range}')
         plt.xlabel('Distance (1 - Correlation)')
         plt.tight_layout()
-        plt.savefig(OUTPUT_DIR / filename, dpi=150)
+        plt.savefig(OUTPUT_DIR / f'dendrogram_{base_name}{suffix}.png', dpi=150)
         plt.close()
 
-    print(f"  Generating sector dendrograms...")
-    generate_sector_dendrogram(TECH_TICKERS, 'Technology', f'dendrogram_tech{suffix}.png')
-    generate_sector_dendrogram(FIN_TICKERS, 'Financials', f'dendrogram_financials{suffix}.png')
-    generate_sector_dendrogram(ENERGY_TICKERS, 'Energy', f'dendrogram_energy{suffix}.png')
-    generate_sector_dendrogram(AI_TICKERS, 'AI & Data Centers', f'dendrogram_ai{suffix}.png')
-    generate_sector_dendrogram(CRYPTO_TICKERS, 'Crypto & Mining', f'dendrogram_crypto{suffix}.png')
-    generate_sector_dendrogram(CONSUMER_TICKERS, 'Consumer', f'dendrogram_consumer{suffix}.png')
-    generate_sector_dendrogram(DEFENSE_TICKERS, 'Defense & Aerospace', f'dendrogram_defense{suffix}.png')
-    generate_sector_dendrogram(REIT_TICKERS, 'REITs', f'dendrogram_reits{suffix}.png')
-    generate_sector_dendrogram(BRAZIL_TICKERS, 'Brazil', f'dendrogram_brazil{suffix}.png', name_map=BRAZIL_NAMES)
-    generate_sector_dendrogram(COUNTRY_INDEX_TICKERS, 'Country Indexes', f'dendrogram_countries{suffix}.png')
+        fig_size = max(8, len(valid_tickers) * 0.4)
+        corr_named = corr_sub.copy()
+        corr_named.columns = labels
+        corr_named.index = labels
+
+        g = sns.clustermap(
+            corr_named,
+            method='ward',
+            cmap='RdYlGn',
+            center=0,
+            vmin=-1,
+            vmax=1,
+            figsize=(fig_size, fig_size),
+            dendrogram_ratio=0.15,
+            cbar_pos=(0.02, 0.8, 0.03, 0.15),
+            annot=len(valid_tickers) <= 15,
+            fmt='.2f' if len(valid_tickers) <= 15 else None,
+            annot_kws={'size': 7} if len(valid_tickers) <= 15 else None,
+        )
+        g.ax_heatmap.set_title(f'{title} Correlation - {period_name}\n{date_range}', pad=20)
+        plt.tight_layout()
+        plt.savefig(OUTPUT_DIR / f'clustermap_{base_name}{suffix}.png', dpi=150, bbox_inches='tight')
+        plt.close()
+
+    print(f"  Generating sector dendrograms and clustermaps...")
+    generate_sector_cluster_outputs(TECH_TICKERS, 'Technology', 'tech')
+    generate_sector_cluster_outputs(FIN_TICKERS, 'Financials', 'financials')
+    generate_sector_cluster_outputs(ENERGY_TICKERS, 'Energy', 'energy')
+    generate_sector_cluster_outputs(AI_TICKERS, 'AI & Data Centers', 'ai')
+    generate_sector_cluster_outputs(CRYPTO_TICKERS, 'Crypto & Mining', 'crypto')
+    generate_sector_cluster_outputs(CONSUMER_TICKERS, 'Consumer', 'consumer')
+    generate_sector_cluster_outputs(DEFENSE_TICKERS, 'Defense & Aerospace', 'defense')
+    generate_sector_cluster_outputs(REIT_TICKERS, 'REITs', 'reits')
+    generate_sector_cluster_outputs(BRAZIL_TICKERS, 'Brazil', 'brazil', name_map=BRAZIL_NAMES)
+    generate_sector_cluster_outputs(COUNTRY_INDEX_TICKERS, 'Country Indexes', 'countries')
     # China A-Shares
-    generate_sector_dendrogram(CHINA_ALL_TICKERS, 'China A-Shares (All)', f'dendrogram_china{suffix}.png', name_map=CHINA_NAMES)
-    generate_sector_dendrogram(CHINA_FINANCIALS, 'China Financials', f'dendrogram_china_financials{suffix}.png', name_map=CHINA_NAMES)
-    generate_sector_dendrogram(CHINA_CONSUMER, 'China Consumer/Baijiu', f'dendrogram_china_consumer{suffix}.png', name_map=CHINA_NAMES)
-    generate_sector_dendrogram(CHINA_TECH, 'China Technology', f'dendrogram_china_tech{suffix}.png', name_map=CHINA_NAMES)
-    generate_sector_dendrogram(CHINA_EV_BATTERY, 'China EV & Battery', f'dendrogram_china_ev{suffix}.png', name_map=CHINA_NAMES)
-    generate_sector_dendrogram(CHINA_HEALTHCARE, 'China Healthcare', f'dendrogram_china_healthcare{suffix}.png', name_map=CHINA_NAMES)
-    generate_sector_dendrogram(CHINA_ENERGY, 'China Energy', f'dendrogram_china_energy{suffix}.png', name_map=CHINA_NAMES)
-    generate_sector_dendrogram(CHINA_INDUSTRIALS, 'China Industrials', f'dendrogram_china_industrials{suffix}.png', name_map=CHINA_NAMES)
-    generate_sector_dendrogram(CHINA_REAL_ESTATE, 'China Real Estate', f'dendrogram_china_realestate{suffix}.png', name_map=CHINA_NAMES)
+    generate_sector_cluster_outputs(CHINA_ALL_TICKERS, 'China A-Shares (All)', 'china', name_map=CHINA_NAMES)
+    generate_sector_cluster_outputs(CHINA_FINANCIALS, 'China Financials', 'china_financials', name_map=CHINA_NAMES)
+    generate_sector_cluster_outputs(CHINA_CONSUMER, 'China Consumer/Baijiu', 'china_consumer', name_map=CHINA_NAMES)
+    generate_sector_cluster_outputs(CHINA_TECH, 'China Technology', 'china_tech', name_map=CHINA_NAMES)
+    generate_sector_cluster_outputs(CHINA_EV_BATTERY, 'China EV & Battery', 'china_ev', name_map=CHINA_NAMES)
+    generate_sector_cluster_outputs(CHINA_HEALTHCARE, 'China Healthcare', 'china_healthcare', name_map=CHINA_NAMES)
+    generate_sector_cluster_outputs(CHINA_ENERGY, 'China Energy', 'china_energy', name_map=CHINA_NAMES)
+    generate_sector_cluster_outputs(CHINA_INDUSTRIALS, 'China Industrials', 'china_industrials', name_map=CHINA_NAMES)
+    generate_sector_cluster_outputs(CHINA_REAL_ESTATE, 'China Real Estate', 'china_realestate', name_map=CHINA_NAMES)
 
     print(f"  Completed {period_name} analysis")
     return corr_matrix

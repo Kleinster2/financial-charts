@@ -808,7 +808,7 @@ Persisted state stays on `ctx` directly (e.g., `ctx.showVolPane`, `ctx.visibleRa
 ```powershell
 python hierarchical_analysis.py
 ```
-Outputs PNGs to root directory (gitignored with `*.png`), served via Flask at `/sandbox/dendrograms/`.
+Outputs PNGs to `charting_sandbox/dendrograms/`, served via Flask at `/sandbox/dendrograms/`.
 
 ### Supported Groups
 - US sectors: ai, tech, consumer, crypto, defense, energy, financials, reits, top50
@@ -841,7 +841,9 @@ Functions accept `name_map` parameter to override default ticker labels.
 - Sparse data causes empty dendrograms - run `update_market_data.py` to backfill
 
 ### Frontend
-`charting_sandbox/chart-dendrograms.js` displays dendrograms via dropdown with time period selection.
+`charting_sandbox/chart-dendrograms.js` displays dendrograms and clustermaps via dropdown with time period selection.
+
+See [docs/guides/CLUSTER_ANALYSIS_GUIDE.md](docs/guides/CLUSTER_ANALYSIS_GUIDE.md) for the method map, current capability triage, and note-design workflow.
 
 ---
 
