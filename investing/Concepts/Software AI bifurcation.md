@@ -35,6 +35,7 @@ The durable read is that software is now being repriced by ownership of bottlene
 |--------|-----------------------------|----------------------|
 | Workflow software | Can AI reduce seats, shrink advisory labor, or weaken pricing power? | [[AI workflow disruption basket]], [[Intuit]], [[ServiceNow]], [[Thomson Reuters]], [[RELX]] |
 | Integrated AI platforms inside software | Does the company own enough data, distribution, or compute access to stay central as agents spread? | [[AI control-point basket]], [[Oracle]], [[Microsoft]], [[Salesforce]] |
+| [[Security control points]] | Do policy, telemetry, and recovery vendors still own mandatory control surfaces under AI? | [[Security control points]], [[CrowdStrike]], [[Fortinet]], [[Palo Alto Networks]], [[Zscaler]], [[Rubrik]], [[Cloudflare]] |
 | Neutral runtime / perimeter | Does value stay with the vendor-neutral layer, or migrate upstream to model providers? | [[Edge control-plane risk basket]], [[Edge cloud]], [[Cloudflare]], [[Fastly]], [[Akamai]], [[Agent harnesses]] |
 
 ---
@@ -69,6 +70,7 @@ The label is no longer enough.
 - [[AI workflow disruption basket]]
 - [[AI control-point basket]]
 - [[Edge control-plane risk basket]]
+- [[Security control points]]
 - [[IGV]]
 - [[GS US Software Basket]]
 - [[February 2026 AI Disruption Cascade]]

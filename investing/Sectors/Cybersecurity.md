@@ -93,6 +93,16 @@ The Feb and Mar selloffs reveal a pattern: each step-function in AI capability �
 
 **Net read:** AI is both the disease and the cure. Spending *must* rise (bullish TAM), but it may flow to AI-native tools rather than legacy vendors (bearish for incumbents without AI integration).
 
+## Security control-point cluster
+
+A separate cross-sectional read emerged on Apr 13, 2026. `scripts/cluster_movers.py` flagged a strong up-cluster in [[Fortinet]], [[Zscaler]], [[Palo Alto Networks]], [[CrowdStrike]], [[Cloudflare]], and [[Rubrik]], with [[Akamai]] screening as a looser adjacent member. Persistence checks across 60-day, 90-day, and 120-day windows suggested the durable core was not broad cybersecurity but a narrower set of names that still own traffic policy, telemetry, secure access, or recovery bottlenecks.
+
+That distinction matters because it separates the vendors most exposed to AI commoditizing point tools from the vendors that still sit on mandatory control surfaces. See [[Security control points]].
+
+## Correlation structure
+
+Cybersecurity no longer trades as one clean factor. The tighter market-implied cluster is the control-point layer: policy enforcement, secure access, endpoint telemetry, and recovery. Across the durability checks, the core group's average pairwise excess-return correlation held around 0.55 over 60 days, 0.49 over 90 days, and 0.47 over 120 days. That is why names like [[CrowdStrike]], [[Fortinet]], [[Palo Alto Networks]], [[Zscaler]], [[Rubrik]], and [[Cloudflare]] can move together more tightly than the broader sector, while more specialized or edge-adjacent names trade with looser attachment.
+
 ---
 
 ## Growth drivers
@@ -165,7 +175,8 @@ Subscription/recurring = high visibility.
 - [[Claude Mythos]] — Anthropic's Capybara-tier model, leaked Mar 2026 (cybersecurity selloff catalyst)
 - [[OpenAI Spud]] — OpenAI's next-gen model, competing announcement same week
 - [[Cybersecurity consolidation]] — sector M&A dynamics
-- [[Zero trust]] — architectural trend
+- [[Security control points]] — structural cluster inside the sector
+- [[Zero Trust|Zero trust]] — architectural trend
 - [[Identity and Access Management]] — subsector
 
 ## Sources

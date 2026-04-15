@@ -34,7 +34,7 @@ The edge cloud sits between centralized hyperscaler regions and the endpoint. It
 | Layer | What it does | Typical products |
 |------|---------------|------------------|
 | Delivery | Move content and APIs efficiently | CDN, DNS, load balancing, routing |
-| Security | Filter and authenticate traffic | WAF, DDoS protection, bot defense, [[Zero trust]] access |
+| Security | Filter and authenticate traffic | WAF, DDoS protection, bot defense, [[Zero Trust|Zero trust]] access |
 | Compute | Run code near traffic origin | Edge functions, workers, programmable delivery |
 | Control plane | Coordinate policy and observability | Traffic rules, logs, tracing, developer tooling |
 
@@ -49,6 +49,10 @@ The edge cloud sits between centralized hyperscaler regions and the endpoint. It
 | [[Fastly]] | Developer-heavy programmable edge | Configurability, API delivery, developer mindshare | Most exposed when the market questions edge-runtime monetization |
 
 These are not identical businesses. The market often groups them together, but the real split is between durable network/perimeter functions and higher-multiple runtime/control-plane functions.
+
+## Correlation structure
+
+The public edge cluster is real, but it is less cohesive than the label suggests. [[Cloudflare]] often bridges the edge and cyber clusters because it sells both perimeter security and programmable delivery. [[Akamai]] can screen with the security-control group, but usually as a weaker adjacent member, with the softest pairwise links to the cyber core running around 0.18 to 0.29 over 90-day to 120-day windows. [[Fastly]] is the most levered to the developer-runtime readthrough. So edge cloud can trade as one cluster on catalyst days, but its structural correlations are weaker than the tighter [[Security control points]] core, whose average pairwise correlations stayed closer to 0.47 to 0.55.
 
 ---
 
@@ -66,7 +70,9 @@ The cleaner distinction after April:
 
 That is the split tracked by [[Edge control-plane risk basket]]: the cluster most exposed when the market decides that runtime and orchestration value may sit upstream with the model vendor rather than with the neutral edge platform.
 
-See also [[Agent harnesses]] and [[Software AI bifurcation]].
+Subsequent cluster work suggested the more durable structural core was not pure edge delivery but a narrower cyber and control-plane group centered on [[Security control points]]. [[Cloudflare]] sits closest to both clusters because it bridges edge delivery and security policy. [[Akamai]] screens as adjacent to that cyber/control-point cluster, but not as one of its strongest core members.
+
+See also [[Agent harnesses]], [[Software AI bifurcation]], and [[Security control points]].
 
 ---
 
@@ -121,6 +127,7 @@ Not the same as [[Edge inference]], which is about where AI models run. Edge clo
 - [[Anthropic Managed Agents]]
 - [[Agent harnesses]]
 - [[Software AI bifurcation]]
-- [[Zero trust]]
+- [[Security control points]]
+- [[Zero Trust|Zero trust]]
 - [[Data Centers]]
 - [[Edge inference]]
