@@ -84,6 +84,11 @@ This is why the market can sell off cyber on one AI announcement and then rotate
 
 The cleanest read is that the durable market-implied grouping is cyber and control-plane heavy, not pure edge delivery.
 
+![[security-control-points-core-vs-akam-2026-price-chart.png]]
+*Normalized price chart for [[CrowdStrike]], [[Fortinet]], [[Cloudflare]], [[Palo Alto Networks]], [[Rubrik]], [[Zscaler]], and [[Akamai]], start 2026-01-01 = 100.*
+
+*The visual read matches the cluster work: the cyber and control-point names mostly travel together, while [[Akamai]] participates in the tape but remains a looser adjacent member than part of the tightest structural core.*
+
 ---
 
 ## Why this matters
