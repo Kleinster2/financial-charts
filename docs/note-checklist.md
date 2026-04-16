@@ -75,6 +75,8 @@ These cannot be automated. Review each one.
 - [ ] Every entity in tables is `[[wikilinked]]`
 - [ ] Every entity in body text is `[[wikilinked]]`
 - [ ] Related section includes all linked entities
+- [ ] **Named financing participants are swept explicitly** — when a source names strategic investors, founders, board members, or operator-investors in a round, check each one for an existing note instead of stopping at the lead firms
+- [ ] **Interpretive people get notes in the same pass** — if a named investor changes how the financing should be read (for example founder-operator capital vs generic VC capital), create at least a stub/actor note during the same ingestion pass
 
 ### Hub linking (reverse direction)
 
