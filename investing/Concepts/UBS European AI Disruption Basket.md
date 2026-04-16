@@ -4,7 +4,7 @@ tags: [basket, ai, disruption, ubs, europe]
 
 # UBS European AI Disruption Basket
 
-[[UBS]]-compiled basket of European stocks considered at risk of AI disruption. The closest Wall Street analog to our [[AI workflow disruption basket|AIWD basket]].
+[[UBS]]-compiled basket of European stocks considered at risk of AI disruption. UBS's European-listed view of the same repricing captured in [[February 2026 AI Disruption Cascade]].
 
 ---
 
@@ -27,7 +27,7 @@ Full list proprietary. These names were cited in coverage of the basket's Feb 3-
 |---------|--------|-------|
 | [[SAP]] | SAP | -13.8% over the week; most expensive company in Europe pre-selloff |
 | Sage Group | SGE.L | -4% to -8% |
-| [[RELX]] | REL.L | -14% on Feb 3; also in AIWD |
+| [[RELX]] | REL.L | -14% on Feb 3 |
 | Experian | EXPN.L | Data/credit analytics |
 | [[London Stock Exchange Group]] | LSEG.L | -12% on Feb 3 |
 | Pearson | PSON.L | Education/publishing |
@@ -40,16 +40,9 @@ Not publicly disclosed. UBS analysts estimated 25-35% of private credit market e
 
 ---
 
-## vs AIWD
+## Scope
 
-| | UBS Basket | [[AI workflow disruption basket|AIWD]] |
-|--|-----------|------|
-| **Geography** | Europe only | Global (US, Europe, India) |
-| **Sector** | Broad software/services | Curated: legal, data, IT services, advertising |
-| **Weighting** | Unknown | Modified equal weight by exposure |
-| **Accessibility** | UBS clients only | Our own, in database as AIWD ticker |
-
-The UBS basket is broader (includes SAP, Sage — enterprise software generalists) while AIWD is narrower and more thesis-specific (companies whose core product is directly substitutable by AI agents).
+The UBS basket is broad European software/services — it includes [[SAP]] and Sage (enterprise software generalists) alongside information-services names like [[RELX]] and [[London Stock Exchange Group|LSEG]]. That breadth is the point: UBS used it as a sell-side signal of which European names the AI disruption narrative was repricing on Feb 3-4, not a structural cluster. Persistence testing shows these event-derived, heterogeneous composites do not tend to co-move at baseline — see [[Software AI bifurcation]] for the broader read on why software no longer trades as one factor under AI.
 
 ---
 
@@ -64,7 +57,8 @@ The UBS basket is broader (includes SAP, Sage — enterprise software generalist
 
 ## Related
 
-- [[AI workflow disruption basket]] — our equivalent, global scope
+- [[February 2026 AI Disruption Cascade]] — the broader repricing this basket sat inside
+- [[Software AI bifurcation]] — why event-derived software baskets tend not to co-move at baseline
 - [[UBS]] — source
 - [[Software bear market]] — context
 - [[Claude Cowork disruption February 2026]] — catalyst

@@ -155,4 +155,9 @@ Hyperscalers AND AI labs paying premium for powered land.
 - [[FluidStack]] — deployment partner (operations for Anthropic)
 - [[Voltage Park]] — GPU cloud (crypto-to-AI lineage)
 - [[AI infrastructure financing risk]] — overbuild context
+- [[Bittensor]] — adjacent but distinct thesis: decentralized AI protocol (token-incentivized AI markets), not Bitcoin miners repurposing hardware
+- [[Ridges AI]] — flagship Bittensor subnet (AI software engineers)
+- [[DePIN]] — parent category (decentralized physical infrastructure networks, of which AI-focused DePIN is a subset)
+- [[GPU-as-a-Service]] — the business model miners are pivoting into
+- [[Shell company AI pivot]] — adjacent playbook trading on listing reuse rather than infrastructure reuse ([[NewBird AI]] case)
 

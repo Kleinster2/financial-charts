@@ -7,7 +7,7 @@ tags: [basket/internal, ai, disruption, cybersecurity]
 
 Cybersecurity stocks that sell off on AI capability announcements threatening traditional security tooling. The basket crystallized on Feb 20, 2026, when [[Anthropic]]'s [[Claude Code Security]] launch — an AI-powered vulnerability scanner that reasons about code like a human researcher — sent the sector sharply lower despite broader indices rising.
 
-This is the security-specific cousin of the [[AI workflow disruption basket]]. The thesis: if AI models can autonomously find and patch vulnerabilities better than rule-based static analysis tools, the moat around traditional AppSec/vulnerability management vendors narrows significantly.
+This is the security-specific counterpart to the broader software selloff in [[February 2026 AI Disruption Cascade]]. The thesis: if AI models can autonomously find and patch vulnerabilities better than rule-based static analysis tools, the moat around traditional AppSec/vulnerability management vendors narrows significantly.
 
 ---
 
@@ -58,6 +58,28 @@ Less direct competition but investors pricing in broader AI disruption of securi
 
 ---
 
+## Persistence check (2020-2026)
+
+Pairwise excess-return correlation (vs [[SPY]]) across multi-year periods. Uses 10 of the 13 constituents with sufficient history ([[Okta]], [[Cloudflare]], [[CrowdStrike]], [[SentinelOne]], [[Qualys]], [[Zscaler]], [[Fortinet]], [[Datadog]], [[Rapid7]], [[Tenable]], [[Palo Alto Networks]], [[CyberArk]], Gen Digital). Benchmark: [[Security control points]] core runs 0.30-0.51 historically.
+
+| Period | Avg pair corr | Read |
+|--------|---------------|------|
+| 2020 H2 | 0.43 | Moderate |
+| 2021 | 0.38 | Moderate |
+| 2022 | 0.40 | Moderate |
+| 2023 | 0.30 | Moderate |
+| 2024 H1 | 0.26 | Mild |
+| 2024 H2 | 0.35 | Moderate |
+| 2025 H1 | 0.23 | Weak |
+| 2025 H2 | 0.26 | Mild |
+| 2026 YTD | 0.55 | Elevated |
+
+AICD is a looser cluster than [[Security control points]]. The six-name SCP core ([[CrowdStrike]], [[Fortinet]], [[Cloudflare]], [[Palo Alto Networks]], [[Rubrik]], [[Zscaler]]) sits inside AICD; the extra names ([[Okta]], [[SentinelOne]], [[Qualys]], [[Datadog]], [[Rapid7]], [[Tenable]], [[CyberArk]], Gen Digital) dilute the average pairwise correlation by 5 to 15 points across every period tested.
+
+That is the expected result. AICD is catalyst-derived from the Feb 20, 2026 selloff — it captures which names sold off on a single AI-security announcement, which is a broader group than the names that structurally co-move. Running cluster derivation on this basket would trim it toward the SCP composition. AICD stays useful as a disruption-event basket, but it is not a tight structural cluster.
+
+---
+
 ## The bear thesis (for traditional security vendors)
 
 1. AI models can now find vulnerabilities that rule-based tools miss — and Opus 4.6 proved it by finding 500+ bugs undetected for decades
@@ -91,7 +113,7 @@ Monitor for:
 
 ## Related
 
-- [[AI workflow disruption basket]] — sibling basket (SaaS disruption)
+- [[February 2026 AI Disruption Cascade]] — broader software repricing that this basket sits inside
 - [[Claude Code Security]] — catalyst (Feb 20 announcement)
 - [[Claude Cowork disruption February 2026]] — prior AI-driven software selloff
 - [[Anthropic]] — disruptor

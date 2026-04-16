@@ -49,7 +49,7 @@ Plugin launch triggered [[Claude Cowork disruption February 2026|$285B software 
 
 Software P/E compression: 33x → 23x (-30%). Hardest hit: [[Thomson Reuters]] (-18%), [[RELX]] (-14%), [[LegalZoom]] (-20%).
 
-See [[Claude Cowork disruption February 2026]] and [[AI workflow disruption basket]] for full analysis.
+See [[Claude Cowork disruption February 2026]] and [[February 2026 AI Disruption Cascade]] for full analysis.
 
 ---
 
@@ -85,5 +85,5 @@ Competitive dynamic: Cowork inside Copilot is subordinate to Microsoft's environ
 - [[Claude]] — product family
 - [[Claude Code]] — sister product (coding agent)
 - [[Claude Cowork disruption February 2026]] — $285B selloff catalyst
-- [[AI workflow disruption basket]] — tracking software disruption exposure
+- [[February 2026 AI Disruption Cascade]] — event-level view of software disruption exposure
 - [[David Sacks]] — White House AI Czar endorsed Cowork at Davos (Jan 23)

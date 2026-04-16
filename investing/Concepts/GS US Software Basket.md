@@ -29,9 +29,9 @@ A broad US software sector basket maintained by GS equity research. Referenced i
 | Index | Type | Feb 3 move | AI purity |
 |-------|------|------------|-----------|
 | **GS Software Basket** | Sector | -6% | Mixed |
-| [[AI workflow disruption basket\|AIWD]] | Disruption-specific | -11.5% | Pure disruption |
 | IGV | ETF (software) | -5.4% | Mixed |
 | [[BVP Nasdaq Cloud Index\|EMCLOUD]] | SaaS/cloud | — | Mostly disruption-exposed |
+| [[February 2026 AI Disruption Cascade]] worst performers | Event-derived | Thomson Reuters -18%, LegalZoom worse | Pure disruption, but event-specific not structural |
 
 ---
 
@@ -47,5 +47,5 @@ A broad US software sector basket maintained by GS equity research. Referenced i
 
 - [[Goldman Sachs]] — source
 - [[GS AI Productivity Beneficiaries]] — other side of the trade
-- [[AI workflow disruption basket]] — disruption-specific alternative
+- [[February 2026 AI Disruption Cascade]] — event-based view of the disruption victims
 - [[Software AI bifurcation]] — why sector baskets mix AI winners and victims

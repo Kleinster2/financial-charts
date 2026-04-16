@@ -83,6 +83,7 @@ def render_html(md_path: Path) -> str:
 <style>{CSS}</style>
 </head><body>
 {body_html}
+<script>window.addEventListener('load', function () {{ setTimeout(function () {{ window.print(); }}, 500); }});</script>
 </body></html>"""
 
 

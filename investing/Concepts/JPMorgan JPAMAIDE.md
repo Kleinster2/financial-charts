@@ -29,10 +29,10 @@ Ogg's findings from 50+ investor meetings (Jan 2026): investors have "significan
 
 | Firm | Bull basket | Bear/disruption basket |
 |------|------------|----------------------|
-| **Goldman Sachs** | [[GS AI Productivity Beneficiaries\|GSXUPROD]], GSTMTAIP | [[GS US Software Basket]] (sector, not curated) |
-| **JPMorgan** | **JPAMAIDE** | None |
-| **UBS** | — | [[UBS European AI Disruption Basket]] (Europe) |
-| **Us** | — | [[AI workflow disruption basket\|AIWD]] (global, curated) |
+| Goldman Sachs | [[GS AI Productivity Beneficiaries\|GSXUPROD]], GSTMTAIP | [[GS US Software Basket]] (sector, not curated) |
+| JPMorgan | JPAMAIDE | None |
+| UBS | — | [[UBS European AI Disruption Basket]] (Europe) |
+| Our vault | — | [[AI financial disintermediation basket]] (financials-only); [[Security control points]] (cybersecurity cluster); event-level coverage in [[February 2026 AI Disruption Cascade]] |
 
 ---
 
@@ -48,6 +48,6 @@ Ogg's findings from 50+ investor meetings (Jan 2026): investors have "significan
 ## Related
 
 - [[JPMorgan Chase]] — source
-- [[AI workflow disruption basket]] — the disruption basket JPM didn't build
+- [[February 2026 AI Disruption Cascade]] — event-level disruption coverage (no JPM equivalent)
 - [[GS AI Productivity Beneficiaries]] — Goldman's beneficiary equivalent
 - [[AI infrastructure]] — JPAMAIDE's thesis

@@ -437,6 +437,20 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
                 )
             except Exception as e:
                 print(f"Warning: live futures fill failed: {e}")
+            # Sync wide futures_prices_daily -> narrow futures_prices_long (used by chart API)
+            if verbose:
+                print("[Orchestrator] Syncing futures wide -> narrow...")
+            try:
+                import sqlite3 as _sqlite3
+                import pandas as _pd
+                sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'charting_app'))
+                from sqlite_queries import sync_wide_to_narrow as _sync
+                _conn = _sqlite3.connect(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'market_data.db'))
+                _df = _pd.read_sql_query("SELECT * FROM futures_prices_daily", _conn, index_col='Date')
+                _sync(_df, table='futures_prices_long', value_col='Close', verbose=verbose)
+                _conn.close()
+            except Exception as e:
+                print(f"Warning: futures narrow sync failed: {e}")
 
         # Run implied volatility updater if requested
         if "iv" in assets_to_run:

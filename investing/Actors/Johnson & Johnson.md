@@ -29,7 +29,7 @@ JNJ trades between Healthcare and Consumer Staples without a tight sector fit.
 |--------|-------|
 | Ticker | JNJ |
 | Market cap | ~$500B |
-| 2025E revenue | **~$94B** |
+| 2025E revenue | ~$94B |
 | Segments | Innovative Medicine, MedTech |
 | Stock YTD | +38-40% |
 
@@ -45,12 +45,35 @@ JNJ trades between Healthcare and Consumer Staples without a tight sector fit.
 
 ---
 
+## Q1 2026 earnings (Apr 15, 2026)
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Revenue | $24.1B | +9.9% YoY, +5.8% operational |
+| Innovative Medicine | $15.2B | DARZALEX, TREMFYA, CARVYKTI strength |
+| MedTech | $8.9B | Electrophysiology + Abiomed |
+| Adj EPS | $2.77 | Beat consensus |
+| Raised FY26 guidance | $100.3-101.3B | Operational sales |
+| Operational EPS guidance | Raised | vs prior range |
+
+Stock: rose ~3-4% in early trade on beat-and-raise.
+
+Notable:
+- First quarter crossing $24B since Q3 2025; Q1 2026 is a run-rate inflection, not a pull-forward
+- Raised full-year guidance above prior range — implies management sees STELARA biosimilar cliff getting absorbed faster than feared
+- Tariff headwind of ~$400M reiterated; MedTech still absorbing the hit
+- CARVYKTI and DARZALEX doing the growth lifting on the Innovative Medicine side; [[TREMFYA]] continues to take share vs [[AbbVie]]'s [[Skyrizi]]/[[Humira]] franchise
+
+Passes along sector readthrough for [[Eli Lilly]], [[Merck]], [[Pfizer]] (all Q1 reporters later in the season) and for [[Medtronic]]/[[Boston Scientific]] on the MedTech side — if JNJ can print +9.9% headline with biosimilar cliff and tariffs, peers face a high bar.
+
+---
+
 ## Business segments
 
 | Segment | Q3 2025 | Growth drivers |
 |---------|---------|----------------|
-| **Innovative Medicine** | $15.6B | DARZALEX, TREMFYA, CARVYKTI |
-| **MedTech** | $8.4B | Electrophysiology, Abiomed |
+| Innovative Medicine | $15.6B | DARZALEX, TREMFYA, CARVYKTI |
+| MedTech | $8.4B | Electrophysiology, Abiomed |
 
 ---
 
@@ -58,12 +81,12 @@ JNJ trades between Healthcare and Consumer Staples without a tight sector fit.
 
 | Drug | Indication | Status |
 |------|------------|--------|
-| **DARZALEX** | Multiple myeloma | Blockbuster |
-| **TREMFYA** | Immunology | Growing |
-| **CARVYKTI** | CAR-T cancer | Growing |
-| **STELARA** | Immunology | Biosimilar pressure |
-| **ERLEADA** | Prostate cancer | Growing |
-| **SPRAVATO** | Depression | Neuroscience leader |
+| DARZALEX | Multiple myeloma | Blockbuster |
+| TREMFYA | Immunology | Growing |
+| CARVYKTI | CAR-T cancer | Growing |
+| STELARA | Immunology | Biosimilar pressure |
+| ERLEADA | Prostate cancer | Growing |
+| SPRAVATO | Depression | Neuroscience leader |
 
 ---
 
@@ -102,14 +125,14 @@ New FASB-mandated disclosures: income booked in [[Ireland]] and [[Switzerland]] 
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Diversified pharma + MedTech
 - DARZALEX, CARVYKTI growth
 - MedTech recovery (EP, Abiomed)
 - Dividend aristocrat
 - Post-Kenvue focus
 
-**Bear:**
+Bear:
 - STELARA biosimilar cliff
 - Talc litigation overhang
 - Patent expirations

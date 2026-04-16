@@ -159,7 +159,7 @@ Masad rejects the AGI-imminent / UBI-dystopia framing that dominates Silicon Val
 - [[Bolt.new]] — vibe coding competitor
 - [[Amjad Masad]] — CEO
 - [[Vibe coding]] — category
-- [[AI workflow disruption basket]] — exposure
+- [[February 2026 AI Disruption Cascade]] — exposure context
 
 ---
 

@@ -50,24 +50,40 @@ BE shows moderate Technology correlation (XLK r = 0.52).
 
 ## What makes Bloom, Bloom
 
-**Speed kills — and Bloom deploys in under 50 days.** While grid connections take 3-5 years and nuclear takes a decade, Bloom installs box-shaped fuel cell "energy servers" on-site at data centers in weeks. Solid oxide fuel cells convert natural gas to electricity electrochemically (no combustion) — more efficient than generators, cleaner than diesel, available 24/7 unlike solar/wind.
+Speed kills — and Bloom deploys in under 50 days. While grid connections take 3-5 years and nuclear takes a decade, Bloom installs box-shaped fuel cell "energy servers" on-site at data centers in weeks. Solid oxide fuel cells convert natural gas to electricity electrochemically (no combustion) — more efficient than generators, cleaner than diesel, available 24/7 unlike solar/wind.
 
-**The flywheel:** Grid can't deliver → hyperscalers need power NOW → Bloom delivers in weeks → proven reliability → more orders → manufacturing scale → costs come down → more competitive vs grid.
+The flywheel: Grid can't deliver → hyperscalers need power NOW → Bloom delivers in weeks → proven reliability → more orders → manufacturing scale → costs come down → more competitive vs grid.
 
-**Why now:** The 44 GW power gap identified by SemiAnalysis (Dec 2025) created a massive addressable market. Grid utilities are years behind on connections. Bloom is the fastest available solution for on-site baseload power.
+Why now: The 44 GW power gap identified by SemiAnalysis (Dec 2025) created a massive addressable market. Grid utilities are years behind on connections. Bloom is the fastest available solution for on-site baseload power.
 
 ---
 
-## Key deals (2025)
+## Key deals (2025-2026)
 
 | Partner | Value | Details |
 |---------|-------|---------|
-| **[[Brookfield]]** | $5B | Build and operate AI data centers with Bloom fuel cells |
-| **AEP** | $2.7B | 100 MW fuel cell supply |
-| **[[Equinix]]** | — | Existing on-site power customer |
-| **[[Oracle]]** | — | Expected order upsizing |
+| [[Oracle]] | ~2.8 GW (Apr 14, 2026) | Multi-year fuel cell deployment across OCI data centers |
+| [[Brookfield]] | $5B | Build and operate AI data centers with Bloom fuel cells |
+| AEP | $2.7B | 100 MW fuel cell supply |
+| [[Equinix]] | — | Existing on-site power customer |
 
 Customers include Fortune 100: [[Walmart]], [[AT&T]], [[Verizon]], plus DC operators [[Equinix]] and [[Oracle]].
+
+### Oracle 2.8 GW deal (Apr 14, 2026)
+
+Bloom Energy and [[Oracle]] announced a multi-year agreement for ~2.8 GW of solid oxide fuel cell capacity deployed across Oracle Cloud Infrastructure (OCI) sites. The deal is the largest single SOFC commitment to date — ~2x Bloom's global deployed base entering 2026, and requires the planned 2 GW annual manufacturing capacity (online end-2026) to run at full tilt through 2028+. Oracle gets grid-independent baseload to back its [[Stargate]] / OpenAI capacity commitments and its broader $50B FY26 capex cycle.
+
+| Term | Value |
+|------|-------|
+| Capacity | ~2.8 GW |
+| Deployment | Multi-year, across OCI data centers |
+| Signed | Apr 14, 2026 |
+| Bloom 2026 annual manufacturing target | 2 GW |
+| Scale vs installed base | ~2x currently deployed (1.5 GW) |
+
+Significance: Oracle is the first hyperscaler to commit to fuel cells at the multi-GW scale. Confirms the SemiAnalysis "44 GW power gap" thesis — grid connections can't deliver on AI timelines, so hyperscalers bypass the grid entirely. Bloom's order book now stretches multi-year with clear customer concentration ([[Brookfield]] + Oracle = dominant revenue tranche). Stock reaction: BE +10-15% expected on confirmation. Readthrough to peers: [[GE Vernova]], [[Caterpillar]] (gensets), [[Constellation Energy]] (nuclear) all relevant; [[NextEra Energy]]'s BYOG model validated by corporate willingness to sign multi-GW off-grid commitments.
+
+Cross-links: [[Power constraints]], [[Data center physical layer]], [[Large power transformers]] (the grid-equipment bottleneck the fuel cell deal is designed to bypass), [[Power infrastructure bottleneck]].
 
 ---
 
@@ -86,21 +102,21 @@ Customers include Fortune 100: [[Walmart]], [[AT&T]], [[Verizon]], plus DC opera
 | 2025E | ~$1.9B | Approaching breakeven |
 | 2026E | ~$2.46B | — |
 
-**Capital raise:** $2.2B convertible senior notes (dilutive but strengthens balance sheet).
+Capital raise: $2.2B convertible senior notes (dilutive but strengthens balance sheet).
 
 ---
 
 ## Manufacturing scale-up
 
-- **Current:** 1.5 GW deployed globally
-- **Expansion:** $100M investment (Aug 2025) to double capacity from 1 GW to 2 GW annual production by end 2026
-- **Speed advantage:** Installation in under 50 days vs years for grid/nuclear alternatives
+- Current: 1.5 GW deployed globally
+- Expansion: $100M investment (Aug 2025) to double capacity from 1 GW to 2 GW annual production by end 2026
+- Speed advantage: Installation in under 50 days vs years for grid/nuclear alternatives
 
 ---
 
 ## Technology
 
-**Solid oxide fuel cells (SOFC):**
+Solid oxide fuel cells (SOFC):
 - Electrochemical conversion (not combustion) — higher efficiency
 - Fuel: natural gas today, hydrogen-ready for future
 - Modular, scalable — box-shaped "energy servers"
@@ -114,13 +130,13 @@ Customers include Fortune 100: [[Walmart]], [[AT&T]], [[Verizon]], plus DC opera
 
 | Alternative | Deploy time | Baseload? | Grid needed? |
 |-------------|-------------|-----------|--------------|
-| **Bloom fuel cells** | ~50 days | Yes | No |
+| Bloom fuel cells | ~50 days | Yes | No |
 | Grid connection | 3-5 years | Yes | Yes |
 | [[Diesel]] generators | Days | Yes | No (dirty) |
 | Solar + storage | Months | Intermittent | No |
 | Nuclear ([[Oklo]], [[NuScale]]) | 5-10+ years | Yes | Partial |
 
-Bloom wins on **speed + reliability** when grid unavailable.
+Bloom wins on speed + reliability when grid unavailable.
 
 ---
 
@@ -132,7 +148,7 @@ Bloom published research showing data centers plan to reduce reliance on grid �
 
 ## Investment case
 
-**Bull:**
+Bull:
 - [[Power constraints]] = massive secular tailwind (44 GW gap)
 - Fastest deployment of any baseload solution (50 days)
 - $5B [[Brookfield]] + $2.7B AEP deals prove demand
@@ -141,7 +157,7 @@ Bloom published research showing data centers plan to reduce reliance on grid �
 - Ahead of [[Oklo]]/[[NuScale]] by years on commercialization
 - Hydrogen optionality for future carbon-free operation
 
-**Bear:**
+Bear:
 - Stock up 550% — valuation at 153x forward earnings, 48x book
 - Still losing money (Q3 2025 first operating profit quarter)
 - $2.2B convertible dilution

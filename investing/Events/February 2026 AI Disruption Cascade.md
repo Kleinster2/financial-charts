@@ -10,7 +10,7 @@ A rolling, sector-by-sector market panic triggered by a sequence of AI product l
 
 **Total estimated market cap destruction:** >$1 trillion across all sub-events.
 
-The unifying thesis: **AI is collapsing the value of intermediation** — businesses that sit between buyers and products/services, earning fees on information asymmetry, comparison complexity, or advisory work. Each sub-event hit a different sector but exposed the same underlying vulnerability.
+The unifying thesis: AI is collapsing the value of intermediation — businesses that sit between buyers and products/services, earning fees on information asymmetry, comparison complexity, or advisory work. Each sub-event hit a different sector but exposed the same underlying vulnerability.
 
 ---
 
@@ -20,7 +20,7 @@ Four weeks in, the cascade has revealed its true structure: this is not a panic 
 
 The sell side initially called it overdone ([[JPMorgan]]: "sentenced before trial"). Then Anthropic's own partnership announcements on Feb 24 flipped the narrative from "AI replaces software" to "AI augments software," bouncing [[Thomson Reuters]] +11% and [[Salesforce]] +4% in a day. But the bounce didn't stick for application software — [[Polar Capital]]'s Nick Evans (99th percentile fund, $12B AUM) has liquidated all app software positions and says most companies will go the way of newspapers. [[Workday]] beat on every metric and still trades -50% from 2024 highs. The market is pricing terminal value destruction 3-5 years out while current fundamentals are fine — median public software GAAP net income margin is just 5%, so there's no earnings floor to catch the falling knife.
 
-The key distinction initially looked clean: **application software** (seats, workflows — [[Intuit]], [[ServiceNow]], [[Salesforce]], [[Adobe]]) faced existential risk, while infrastructure software looked like the cleaner beneficiary. But Anthropic's Apr 2026 [[Anthropic Managed Agents]] launch broke the simple "apps lose, infra wins" frame. [[Cloudflare]], [[Fastly]], and [[Akamai]] sold off sharply as the market realized frontier labs can internalize parts of the runtime, orchestration, and hosting layer too. The rotation into hardware, power, chips, and hard-capacity infrastructure still holds better than the app layer, but the software stack is now being repriced by who owns the agent control plane, not by a simple front-end/back-end split.
+The key distinction initially looked clean: application software (seats, workflows — [[Intuit]], [[ServiceNow]], [[Salesforce]], [[Adobe]]) faced existential risk, while infrastructure software looked like the cleaner beneficiary. But Anthropic's Apr 2026 [[Anthropic Managed Agents]] launch broke the simple "apps lose, infra wins" frame. [[Cloudflare]], [[Fastly]], and [[Akamai]] sold off sharply as the market realized frontier labs can internalize parts of the runtime, orchestration, and hosting layer too. The rotation into hardware, power, chips, and hard-capacity infrastructure still holds better than the app layer, but the software stack is now being repriced by who owns the agent control plane, not by a simple front-end/back-end split.
 
 The structural vulnerability is the SBC vicious cycle: stock-based compensation loses value as shares fall → companies must pay more cash → free cash flow compressed → stock falls further. Add the cost of acquiring AI startups to stay competitive and many SaaS businesses face a financial squeeze even if revenues hold.
 
@@ -30,7 +30,7 @@ Unresolved: Is the Anthropic partnership model (AI labs *need* software companie
 
 ## Catalyst
 
-**January 30, 2026:** [[Anthropic]] launched **Cowork Plugins** — 11 open-source, job-specific plugins targeting legal, sales, marketing, financial, and data workflows. This made AI disruption of white-collar work tangible and immediate, not theoretical.
+January 30, 2026: [[Anthropic]] launched Cowork Plugins — 11 open-source, job-specific plugins targeting legal, sales, marketing, financial, and data workflows. This made AI disruption of white-collar work tangible and immediate, not theoretical.
 
 Prior Cowork milestones (Jan 12 research preview → Jan 16 Pro → Jan 23 Team/Enterprise) built capability. The Plugins launch on Jan 30 was the spark that hit the market on Feb 3.
 
@@ -40,20 +40,20 @@ Prior Cowork milestones (Jan 12 research preview → Jan 16 Pro → Jan 23 Team/
 
 ### Week 1: Software & Data (Feb 3-8)
 
-**[[Claude Cowork disruption February 2026|SaaSpocalypse]]**
+[[Claude Cowork disruption February 2026|SaaSpocalypse]]
 
 | Detail | |
 |--------|---|
 | Trigger | Cowork Plugins targeting legal, sales, marketing, data workflows |
-| Damage | **$611B** erased from software/services stocks |
+| Damage | $611B erased from software/services stocks |
 | Key victims | [[Thomson Reuters]] (legal data), [[RELX]] (analytics), [[FactSet]] (financial data), [[Morningstar]] (investment research), [[Intuit]] -34%, [[ServiceNow]] -28%, [[Salesforce]] -26% |
 | Pattern | Information intermediaries — companies that aggregate, present, or advise on data |
 
-Wall Street dubbed it the "SaaSpocalypse." The [[AI workflow disruption basket]] emerged as a distinct factor.
+Wall Street dubbed it the "SaaSpocalypse." See [[Software AI bifurcation]] for the structural split the cascade exposed between workflow software, integrated platforms, and neutral infrastructure.
 
 ### Week 2: Insurance (Feb 9)
 
-**[[Insurify insurance broker selloff February 2026|Insurify selloff]]**
+[[Insurify insurance broker selloff February 2026|Insurify selloff]]
 
 | Detail | |
 |--------|---|
@@ -65,7 +65,7 @@ Wall Street dubbed it the "SaaSpocalypse." The [[AI workflow disruption basket]]
 
 ### Week 2: Wealth Management (Feb 10)
 
-**[[Altruist wealth management selloff February 2026|Altruist selloff]]**
+[[Altruist wealth management selloff February 2026|Altruist selloff]]
 
 | Detail | |
 |--------|---|
@@ -76,11 +76,11 @@ Wall Street dubbed it the "SaaSpocalypse." The [[AI workflow disruption basket]]
 
 ### Week 2: Financial Data & Industrial Software (Feb 11)
 
-**Multiple concurrent hits:**
+Multiple concurrent hits:
 
-- **[[ION Group]]** bonds sold off — parent of [[Dealogic]] (deal league tables) and [[Mergermarket]] (M&A intelligence). Classic information intermediaries with leveraged debt structure
-- **[[Dassault Systèmes]]** crashed **-18 to 21%** — worst day in company history, ~€6B wiped. Biggest European SaaSpocalypse casualty. AI threatens CAD/PLM/simulation workflows
-- **European wealth management contagion** — Altruist selloff crossed the Atlantic: [[St. James's Place]], [[Quilter]] -5%, [[AJ Bell]] -6.5%, [[Rathbones]] -4%, [[Julius Baer]]
+- [[ION Group]] bonds sold off — parent of [[Dealogic]] (deal league tables) and [[Mergermarket]] (M&A intelligence). Classic information intermediaries with leveraged debt structure
+- [[Dassault Systèmes]] crashed -18 to 21% — worst day in company history, ~€6B wiped. Biggest European SaaSpocalypse casualty. AI threatens CAD/PLM/simulation workflows
+- European wealth management contagion — Altruist selloff crossed the Atlantic: [[St. James's Place]], [[Quilter]] -5%, [[AJ Bell]] -6.5%, [[Rathbones]] -4%, [[Julius Baer]]
 
 ### Week 3: Transport (early-mid Feb)
 
@@ -101,14 +101,14 @@ Wall Street dubbed it the "SaaSpocalypse." The [[AI workflow disruption basket]]
 
 ### Week 3 Climax: The Citrini Synthesis (Feb 22-23)
 
-**[[Citrini 2028 Global Intelligence Crisis]]**
+[[Citrini 2028 Global Intelligence Crisis]]
 
 | Detail | |
 |--------|---|
 | Trigger | Viral Substack scenario exercise tying all the threads together into one macro narrative |
-| Damage | **Dow -822 (-1.7%), S&P -1%, Nasdaq -1.1%.** IGV (software ETF) hit 52-week low, erased all post-ChatGPT gains |
-| Key victims | [[IBM]] **-13%** (worst day since 2000), [[Intuit]] -8%, [[CrowdStrike]] -10%, [[Zscaler]] -10%, [[American Express]] -7.7%, [[DoorDash]] -6.6%, [[Mastercard]] -6.3%, [[Apollo Global]] -5%, [[Salesforce]] -5.3% |
-| New contagion | **Private credit** — [[Blue Owl Capital]] -3.4%, [[Apollo Global]] -5%. Lenders from Wall Street banks to regionals sold off |
+| Damage | Dow -822 (-1.7%), S&P -1%, Nasdaq -1.1%. IGV (software ETF) hit 52-week low, erased all post-ChatGPT gains |
+| Key victims | [[IBM]] -13% (worst day since 2000), [[Intuit]] -8%, [[CrowdStrike]] -10%, [[Zscaler]] -10%, [[American Express]] -7.7%, [[DoorDash]] -6.6%, [[Mastercard]] -6.3%, [[Apollo Global]] -5%, [[Salesforce]] -5.3% |
+| New contagion | Private credit — [[Blue Owl Capital]] -3.4%, [[Apollo Global]] -5%. Lenders from Wall Street banks to regionals sold off |
 | Pattern | Citrini's "one long daisy chain of correlated bets on white-collar productivity growth" — the synthesis that connected all prior sub-events into a single macro risk |
 
 Flight to safety: 10Y Treasury → 4.026% (lowest since Nov), gold → $5,204/oz, silver → $86.52/oz.
@@ -117,7 +117,7 @@ Flight to safety: 10Y Treasury → 4.026% (lowest since Nov), gold → $5,204/oz
 
 ## The Common Thread
 
-Every sub-event hit the **distribution/advisory/middleware layer**, not the production/execution layer:
+Every sub-event hit the distribution/advisory/middleware layer, not the production/execution layer:
 
 | Layer hit | Example victims | Example survivors |
 |-----------|----------------|-------------------|
@@ -129,7 +129,7 @@ Every sub-event hit the **distribution/advisory/middleware layer**, not the prod
 | Customer service outsourcing | [[Teleperformance]], [[Concentrix]] | — |
 | Private credit to SaaS | Apollo, Blue Owl, KKR | — |
 
-The market learned to ask one question: **"Is this company's revenue a function of human friction?"** If yes, sell.
+The market learned to ask one question: "Is this company's revenue a function of human friction?" If yes, sell.
 
 ---
 
@@ -137,7 +137,7 @@ The market learned to ask one question: **"Is this company's revenue a function 
 
 | Stock | YTD return |
 |-------|-----------|
-| INTU | **-47%** |
+| INTU | -47% |
 | DOCU | -40% |
 | ZS | -37% |
 | NOW | -35% |
@@ -145,35 +145,35 @@ The market learned to ask one question: **"Is this company's revenue a function 
 | ADBE | -30% |
 | CRWD | -26% |
 
-IGV (software ETF): **-30% YTD**, back to pre-ChatGPT levels.
+IGV (software ETF): -30% YTD, back to pre-ChatGPT levels.
 
 ---
 
 ## Key quotes
 
-- **Citrini:** *"One long daisy chain of correlated bets on white-collar productivity growth"*
-- **UBS:** *"The key risk is speed of disruption rather than its existence. A rapid shock within 12 months could overwhelm contractual protections"*
-- **Jordan Rizzuto** (GammaRoad): *"Be careful what kind of rotation you wish for"*
-- **Jim Cramer:** *"I can't help but grow more pessimistic when I see how easily a piece of science fiction can crush the market as if it's science fact"*
-- **DoorDash co-founder Andy Fang:** *"The ground is shifting underneath our feet"*
-- **Jared Sleeper** (Avenir): *"If there was any effort to outsource your job to India, that's at risk"*
+- Citrini: *"One long daisy chain of correlated bets on white-collar productivity growth"*
+- UBS: *"The key risk is speed of disruption rather than its existence. A rapid shock within 12 months could overwhelm contractual protections"*
+- Jordan Rizzuto (GammaRoad): *"Be careful what kind of rotation you wish for"*
+- Jim Cramer: *"I can't help but grow more pessimistic when I see how easily a piece of science fiction can crush the market as if it's science fact"*
+- DoorDash co-founder Andy Fang: *"The ground is shifting underneath our feet"*
+- Jared Sleeper (Avenir): *"If there was any effort to outsource your job to India, that's at risk"*
 
 ---
 
 ## Ongoing: BPO sector (Feb 24+)
 
-**[[Teleperformance]] short interest surge**
+[[Teleperformance]] short interest surge
 
 | Detail | |
 |--------|---|
-| Signal | Short interest rose to **6.4%** (from 3.8% in late Jan), vs 2.4% EU tech-services avg |
-| Stock | Down **85% from €402 ATH** (Jan 2022) to ~€60 |
+| Signal | Short interest rose to 6.4% (from 3.8% in late Jan), vs 2.4% EU tech-services avg |
+| Stock | Down 85% from €402 ATH (Jan 2022) to ~€60 |
 | Context | The OG AI disruption victim — [[Klarna]] chatbot crash (Feb 2024) was the first concrete proof point |
 | Pattern | Labor intermediaries — companies profiting from cheap human labor that AI directly replaces |
 | Catalyst | Rising evidence from [[Klarna]], [[Insurify]], and others that AI chatbots handle 60-70% of customer interactions |
 | Upcoming | TEP earnings Thursday Feb 27 — next data point |
 
-Teleperformance is the **canary that's been dying longest**. Unlike the SaaSpocalypse stocks (which crashed suddenly in Feb 2026), TEP has been in a slow-motion collapse since early 2024. It validates the Citrini thesis: AI disruption doesn't need to be sudden — gradual replacement of intermediary labor is equally destructive to equity value.
+Teleperformance is the canary that's been dying longest. Unlike the SaaSpocalypse stocks (which crashed suddenly in Feb 2026), TEP has been in a slow-motion collapse since early 2024. It validates the Citrini thesis: AI disruption doesn't need to be sudden — gradual replacement of intermediary labor is equally destructive to equity value.
 
 See [[Teleperformance]] for full deep dive including bull/bear case.
 
@@ -187,16 +187,16 @@ The bears expected faster collapse. Revenue is declining but not collapsing. Doe
 
 ## Week 4: The Anthropic reversal (Feb 24)
 
-**Anthropic enterprise agents event — the same company that started the cascade now reverses it**
+Anthropic enterprise agents event — the same company that started the cascade now reverses it
 
 | Detail | |
 |--------|---|
 | Trigger | Anthropic announced Claude Cowork partnerships with [[Intuit]], [[Salesforce]]/Slack, [[DocuSign]], [[LegalZoom]], [[FactSet]], Gmail |
-| Market reaction | **Software stocks rallied sharply** — the first major bounce since the cascade began |
+| Market reaction | Software stocks rallied sharply — the first major bounce since the cascade began |
 
 | Stock | Feb 24 move |
 |-------|-------------|
-| [[Thomson Reuters]] | **+11%** |
+| [[Thomson Reuters]] | +11% |
 | [[FactSet]] | +6% |
 | [[Salesforce]] | +4% |
 | [[DocuSign]] | +2% |
@@ -206,18 +206,18 @@ The bears expected faster collapse. Revenue is declining but not collapsing. Doe
 
 ### The narrative flip
 
-Three weeks earlier, Anthropic's Cowork Plugins launch **triggered** the SaaSpocalypse — $611B wiped from software stocks. Now the same company's partnership announcements **reversed** it. The message shifted from "AI replaces software" to "AI augments software."
+Three weeks earlier, Anthropic's Cowork Plugins launch triggered the SaaSpocalypse — $611B wiped from software stocks. Now the same company's partnership announcements reversed it. The message shifted from "AI replaces software" to "AI augments software."
 
-**Wedbush:** AI competition risk is "overblown" — models can't replace workflows "deeply embedded" in software infrastructure. "These new AI tools will not rip and replace existing software ecosystems."
+Wedbush: AI competition risk is "overblown" — models can't replace workflows "deeply embedded" in software infrastructure. "These new AI tools will not rip and replace existing software ecosystems."
 
 ### Why it matters
 
 The Intuit deal is the template. Rather than Claude replacing TurboTax/QuickBooks, Anthropic is embedding Intuit's domain expertise *inside* Claude via [[MCP]] integrations. Both companies benefit:
-- **Intuit** gets distribution through Claude's user base + AI-powered agents on its platform
-- **Anthropic** gets trusted financial data/tools that make Claude more useful
-- **Mid-market businesses** get custom AI agents built on Intuit's compliance framework
+- Intuit gets distribution through Claude's user base + AI-powered agents on its platform
+- Anthropic gets trusted financial data/tools that make Claude more useful
+- Mid-market businesses get custom AI agents built on Intuit's compliance framework
 
-This is the **"if you can't beat them, join them"** moment. The market realized that AI labs need software companies' data, compliance, and domain expertise — creating partnership value, not just displacement.
+This is the "if you can't beat them, join them" moment. The market realized that AI labs need software companies' data, compliance, and domain expertise — creating partnership value, not just displacement.
 
 ### Caveat
 
@@ -278,7 +278,7 @@ Jared Sleeper (Avenir, growth investor, ex-Coatue public software) on Bloomberg 
 
 | Metric | Value |
 |--------|-------|
-| Median public software co GAAP net income margin | **5%** |
+| Median public software co GAAP net income margin | 5% |
 | Median growth rate (Q3 2025) | 18% (stable) |
 | Net revenue retention | ~110% (stable) |
 | Companies accelerating growth | Increasing each of last 3 quarters |
@@ -316,15 +316,15 @@ Gross margins on reselling intelligence: 20-80% range, ~50% considered "about ri
 
 ## Week 4: Block — the company confirms the thesis (Feb 26)
 
-**[[Block AI layoffs February 2026]]**
+[[Block AI layoffs February 2026]]
 
 | Detail | |
 |--------|---|
 | Trigger | [[Jack Dorsey]] cuts 4,000 employees (~40% of workforce), explicitly attributing to AI |
-| Stock reaction | **+24%** after-hours |
+| Stock reaction | +24% after-hours |
 | Q4 earnings | Gross profit +24% YoY, beat on EPS, guided up for FY2026 |
 | Restructuring charge | $450-500M |
-| Pattern | First major company to **confirm** the cascade thesis from inside — not market repricing, but corporate action |
+| Pattern | First major company to confirm the cascade thesis from inside — not market repricing, but corporate action |
 
 What sets this apart from every prior sub-event: the cascade started with the *market* repricing companies on AI disruption fears. Block is the first major company to say "the market is right — AI does replace these jobs" and act on it while posting record profits. Dorsey predicted "the majority of companies" would follow within a year.
 
@@ -336,21 +336,21 @@ See also: [[AI labor displacement]] for the broader pattern of explicit AI-attri
 
 ## Open questions
 
-1. **Is the market trigger-happy or prescient?** Transport stocks bounced back quickly. Will software/payments follow, or is this structural?
-2. **Salesforce earnings (Feb 25):** Q4 showed $800M [[Agentforce]] ARR (+169%) and fastest growth in 2 years, but FY27 guide barely missed ($46.0B vs $46.02B est). Organic growth ex-[[Informatica]] only ~7-8%. Seat compression risk vs AI consumption upside remains unresolved
-3. **Private credit marks** — the Citrini scenario's most actionable risk. PE-backed SaaS LBOs at peak multiples face a reckoning if revenues compress
-4. **Does the cascade continue?** Each week has hit a new sector. What's next — healthcare IT? Education tech? Consulting firms?
-5. **Policy response** — no government or central bank has addressed AI displacement risk. Will this cascade force the conversation?
+1. Is the market trigger-happy or prescient? Transport stocks bounced back quickly. Will software/payments follow, or is this structural?
+2. Salesforce earnings (Feb 25): Q4 showed $800M [[Agentforce]] ARR (+169%) and fastest growth in 2 years, but FY27 guide barely missed ($46.0B vs $46.02B est). Organic growth ex-[[Informatica]] only ~7-8%. Seat compression risk vs AI consumption upside remains unresolved
+3. Private credit marks — the Citrini scenario's most actionable risk. PE-backed SaaS LBOs at peak multiples face a reckoning if revenues compress
+4. Does the cascade continue? Each week has hit a new sector. What's next — healthcare IT? Education tech? Consulting firms?
+5. Policy response — no government or central bank has addressed AI displacement risk. Will this cascade force the conversation?
 
 ---
 
 ## Central bank response (Feb 26)
 
-**ECB President [[Christine Lagarde]]:** AI is boosting eurozone productivity but has "not yet" triggered a wave of layoffs. ECB will be "extremely attentive." First major central bank statement on AI employment effects since the cascade began.
+ECB President [[Christine Lagarde]]: AI is boosting eurozone productivity but has "not yet" triggered a wave of layoffs. ECB will be "extremely attentive." First major central bank statement on AI employment effects since the cascade began.
 
 Lagarde's "not yet" framing aligns with the [[Citadel Securities 2026 Global Intelligence Crisis|Citadel Securities]] data (flat AI adoption at work, SW eng jobs +11% Y/Y) rather than the [[Citrini 2028 Global Intelligence Crisis|Citrini]] displacement scenario. The macro data and the market data are telling opposite stories: employment is stable, but stocks are pricing in displacement.
 
-**Policy question #5 (updated):** The ECB is now watching. The cascade has forced the conversation — but monitoring is not intervention. If AI-driven layoffs materialize in H2 2026, Lagarde's "extremely attentive" becomes a policy constraint on rate decisions.
+Policy question #5 (updated): The ECB is now watching. The cascade has forced the conversation — but monitoring is not intervention. If AI-driven layoffs materialize in H2 2026, Lagarde's "extremely attentive" becomes a policy constraint on rate decisions.
 
 ---
 
@@ -360,7 +360,7 @@ Bloomberg Businessweek (Issie Lapowsky) profiled the cultural transformation dri
 
 | Signal | Data |
 |--------|------|
-| Working hours | UC Berkeley: people offloading to AI agents but **working longer hours** |
+| Working hours | UC Berkeley: people offloading to AI agents but working longer hours |
 | C-suite perception gap | 40%+ execs say AI saves 8+ hrs/week; 67% non-managers say <2 hrs |
 | Productivity gains | [[Intuit]] engineers 30% more productive (code velocity) |
 | "Task expansion" | Non-technical staff vibe-coding creates cleanup work for engineers |
@@ -421,11 +421,103 @@ Evans' distinction: application software (seats, workflows) is existentially thr
 
 ---
 
+## Thomson Reuters Q4 2025 (Feb 5, 2026)
+
+First Week-1 victim to report after the selloff. Key test of whether fundamentals justify the -18% move.
+
+| Metric | Q4 2025 | YoY |
+|--------|---------|-----|
+| Revenue | $2,009M | +5% |
+| Organic revenue | +7% | |
+| Adj EBITDA | $777M | +8% |
+| FY EBITDA margin | 39.2% | +100bp |
+| "Big 3" organic growth | +9% | Legal, Corporates, Tax |
+| 2026 organic guide | 7.5-8.0% | |
+| 2026 margin guide | +100bp | |
+| Dividend | +10% to $2.62 | 33rd consecutive raise |
+
+Fundamentals are fine. 7% organic growth, margin expanding, dividend growing. Nothing in the numbers says "business is being disrupted." But the stock was already down ~20% from the Feb 3 selloff before reporting — market is pricing in future disruption, not current weakness.
+
+The tension: TRI's CoCounsel AI tool generates $32B in efficiency savings for legal clients. This is both the bull case (TRI *is* the AI tool) and the bear case (if AI commoditizes legal research, why pay Westlaw premium pricing?).
+
+---
+
+## Positioning and valuation (Feb 8, 2026)
+
+Bloomberg reported the full-week damage from the SaaSpocalypse was wider than initially captured:
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Stocks hit | 164 across software, financial services, asset management | Bloomberg |
+| Total market cap erased | $611B (full week, vs $285B on Feb 3-4 alone) | Bloomberg |
+| Hedge fund net software exposure | Record low <3% (from 18% peak in 2023) | [[Goldman Sachs]] PB |
+| Software | Most net-sold sector YTD | GS PB data |
+| GS software basket P/E | Record low 21x (from 100+ in late 2021) | Bloomberg |
+| [[IGV]] RSI | 15 on Feb 6 (lowest in ~15 years; <30 = oversold) | Bloomberg |
+| [[Salesforce]] P/E | 14x forward (10-year avg: 46x) | Bloomberg |
+
+Fundamental disconnect: S&P 500 software/services earnings projected +19% for 2026 (up from +16% months ago). No fundamental deterioration visible yet — market pricing future disruption risk.
+
+*Source: Bloomberg (Wittenstein, Vlastelica), Feb 8 2026*
+
+---
+
+## Transition winners within the Week 1 universe
+
+Not every name in the initial selloff traded as a disruption victim. Two of the white-collar-services cohort re-rated as AI implementation beneficiaries and outperformed the S&P 500 through the cascade:
+
+- [[HCL Tech]] — engineering-services focus (vs commoditized BPO at [[TCS]] / [[Infosys]]), positioning as enterprise AI implementation partner. Benefits from the infrastructure buildout rather than being displaced by it.
+- [[Publicis]] — [[Epsilon]] first-party data moat, data-driven marketing pivot. Already repositioned before the AI wave hit, so the Feb 2026 repricing hit competitors harder.
+
+An equal-weighted HCL + Publicis pair returned roughly +70% from July 2021 through Feb 2026, versus +65% for SPY and roughly +7% for the broader white-collar-services cohort of Week 1 victims. The two-name result is small-sample and not a structural cluster (only one pairwise correlation exists and it swings from -0.27 to +0.79 across half-year windows), but the divergence is a useful reminder that the selloff was not indiscriminate — names with either a first-party data moat or an AI-adjacent delivery model escaped the repricing.
+
+---
+
+## April 13, 2026 rebound — oversold squeeze
+
+After two months of drift, application software staged its sharpest single-day rally of the cascade. Names with the most hedge-fund crowding and the deepest drawdowns led on the tape.
+
+| Ticker | Apr 10 close | Apr 13 close | 1-day move |
+|--------|-------------:|-------------:|-----------:|
+| [[Snowflake\|SNOW]] | 121.11 | 134.24 | +10.8% |
+| [[ServiceNow\|NOW]] | 83.00 | 89.06 | +7.3% |
+| [[Adobe\|ADBE]] | 225.35 | 240.11 | +6.5% |
+| [[IGV]] | 74.67 | 78.70 | +5.4% |
+| [[Intuit\|INTU]] | 350.94 | 369.44 | +5.3% |
+| [[Salesforce\|CRM]] | 164.96 | 172.82 | +4.8% |
+| [[Microsoft\|MSFT]] | 370.87 | 384.37 | +3.6% |
+
+Context: hedge fund net software exposure was at record lows entering the week (<3% per GS Prime Brokerage, vs 18% peak in 2023), IGV RSI bottomed at 15 on Feb 6 (~15-year extreme), and [[Salesforce]] was trading 14x forward vs a 10-year average of 46x. A bounce of this magnitude on no company-specific catalyst is the signature of a positioning squeeze — shorts covering into Q1 earnings season, systematic/CTA deleveraging bought back.
+
+Not a fundamental reversal: [[Polar Capital]]'s Nick Evans hasn't re-added application software, the SBC squeeze dynamics still apply, and the structural Anthropic Managed Agents question (infrastructure software losing control-plane premium) is unresolved. What changed Apr 13 is *positioning*, not *thesis*. The follow-through into Apr 14 was narrower — [[Microsoft]] extended +2.3%, most application-software names gave back part of the Monday rally.
+
+Readthrough: the cascade thesis is intact but the cohort can no longer be shorted as a block without positioning risk. Naming selectivity matters more from here — application vs infrastructure, control-plane owner vs dependent, first-party data moat vs pure workflow.
+
+---
+
+## Rotation beneficiary: energy
+
+The mirror image of the SaaSpocalypse is capital rotating into old-economy, asset-heavy sectors. US energy (XLE) is the clearest expression.
+
+![[xle-vs-igv-price-chart.png]]
+*XLE (energy) vs IGV (software), last 90 days. ~43pp divergence — steady drift from November, then violent acceleration in February as SaaSpocalypse capital rotates into picks-and-shovels names.*
+
+| Metric | XLE | IGV |
+|--------|-----|-----|
+| YTD 2026 | +17% | -20% |
+| 12-month | +24% | -20% |
+| Divergence | ~44pp since Jan 2025 | |
+
+US oil majors ([[Exxon]], [[Chevron]], [[ConocoPhillips]]) up 25% combined market cap over 12 months. Trading at >75% forward EV/EBITDA premium to European peers ([[Shell]], [[BP]], [[TotalEnergies]]). The market is repricing longevity — [[IEA]] now sees [[Oil|oil demand]] growing until 2050.
+
+*Source: Financial Times, Feb 5 2026*
+
+---
+
 ## Related
 
 - [[AI disintermediation]] — the core concept driving all sub-events
 - [[Polar Capital]] — Evans' fund ($12B, 99th percentile)
-- [[AI workflow disruption basket]] — the basket tracking correlated victims
 - [[Software AI bifurcation]] — why broad software proxies mixed victims with AI beneficiaries
 - [[Claude Cowork disruption February 2026]] — the initial trigger (Week 1)
 - [[Insurify insurance broker selloff February 2026]] — insurance contagion (Week 2)

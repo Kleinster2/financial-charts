@@ -118,6 +118,32 @@ Adding length in cyclicals and quality growth on the ceasefire. Oil stabilizes $
 
 ---
 
+## April 12-14, 2026 — "The lows are in"
+
+Wilson's clearest bullish capitulation of the cycle. Two-part sequence: a Sunday Start note (Apr 12) followed by a CNBC Squawk Box appearance (Apr 14).
+
+Apr 12 Sunday Start note:
+- S&P 500 "in the process of carving out a low" after hitting the bottom of Wilson's targeted correction range (6,300-6,500)
+- Correction framework intact: this is a pause within a bull market that started April 2025, not a regime break
+
+Apr 14 CNBC Squawk Box — key quotes and evidence:
+
+| Signal | Wilson's read |
+|--------|---------------|
+| "The lows are in" | Explicit call — first since March |
+| Sector rotation | Divergences, "rotation back into pro-cyclical parts of the market" |
+| Second-half outlook | "Things are going to resolve constructively in the second half of this year" |
+| Consumer sentiment | "We're seeing the worst of" it — Univ of Michigan hit a record low in April, historically a contrarian signal |
+| S&P/gold ratio | Bottomed and "turned up sharply the day the Iran war started" — market internals confirm the regime shift |
+
+Put the Apr 14 call next to the Apr 13 software rebound (SNOW +10.8%, NOW +7.3%, IGV +5.4%) — Wilson is calling the same positioning unwind that the tape already delivered over the prior 24 hours. The read is consistent with Robin Brooks' Apr 14 "Catalyst for oil prices to fall" piece (both strategists expect the oil-driven risk premium to compress into IMF/WB spring meetings). Opposite reads remain from [[Ed Yardeni]] (meltdown odds) and [[Lyn Alden]] (fiscal cascade), though this is now Wilson's fifth consecutive weekly bullish iteration (Mar 25 → Mar 30 → Apr 6 → Apr 8 → Apr 14) — the probabilistic weight has shifted.
+
+Watch: whether a single catalyst (oil spike from sanctions enforcement, banks Q1 disappointment, Jun FOMC surprise) re-tests the 6,300 floor before the second-half setup he's describing.
+
+*Sources: Morgan Stanley Sunday Start (Apr 12, 2026); [CNBC Squawk Box (Apr 14, 2026)](https://www.cnbc.com/video/2026/04/14/sp500-lows-are-in-for-the-year-for-the-sp-500-says-morgan-stanley-cio-mike-wilson.html); [TheStreet recap](https://www.thestreet.com/investing/morgan-stanley-has-a-blunt-message-on-sampp-500-market-correction)*
+
+---
+
 ## Related
 
 - [[Morgan Stanley]] · [[S&P 500]] · [[Earnings Estimates]]

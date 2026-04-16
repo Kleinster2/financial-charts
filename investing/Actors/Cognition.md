@@ -160,3 +160,4 @@ Enterprise = validation + revenue stability.
 - [[Anthropic]] — potential competitor ([[Claude]] for coding)
 - [[OpenAI]] — potential competitor (GPT for coding)
 - [[Agentic AI]] — thesis context (autonomous agents)
+- [[Ridges AI]] — decentralized competitor ([[Bittensor]] SN62, ~$12/mo)

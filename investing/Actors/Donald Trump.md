@@ -59,6 +59,27 @@ Forbes notes: with most of the second term remaining, "don't be surprised if bil
 
 ---
 
+## Energy cost campaign promise — inverted (April 15)
+
+During the 2024 campaign, Trump pledged to halve energy costs for Americans within the first year of the second term. As of April 15, 2026 — day 47 of the [[Iran conflict oil price timeline|2026 Iran conflict]] — the promise has inverted:
+
+| Energy metric | Apr 15 2026 | Trend vs inflation |
+|--------|-------------|--------------------|
+| US gasoline (AAA national avg) | $4.10/gal — $4 threshold breached | Rising faster than headline inflation |
+| US diesel (AAA national avg) | $5.63/gal (within $0.18 of ATH $5.81) | Rising faster than headline inflation |
+| US residential electricity | Rising | Above inflation rate |
+| Home heating oil | Rising | Above inflation rate |
+
+The vault flagged $4/gallon as the politically decisive threshold well before the conflict began (see [[Gasoline#Why gasoline is the political benchmark]]). Through most of March, WTI rose sharply but pump gasoline stayed below $4, giving Trump political room to maintain a hard posture on Iran (see [[Robin J. Brooks]] March 23 analysis). By the April 3 All-In Podcast E222 readout, gasoline was already "over $4/gallon across US" — the $4 threshold crossed somewhere between March 21 and early April. By April 15 the AAA national average sat at $4.10. Diesel near the all-time high creates a goods-inflation transmission channel ([[Amos Hochstein]] March 31 framework) that passes through to every trucked consumer good.
+
+The timing matters: the April 12 US Navy blockade of the [[Strait of Hormuz]] marked the hardest Trump foreign-policy posture of the conflict. Three days later, the FT paired the pump price directly with Trump's 2024 campaign promise for the first time — converting the already-crossed threshold into explicit electoral coverage. The vault's earlier framing that "the current crisis hasn't breached [$4], which limits the domestic political pressure on Trump to de-escalate" no longer holds.
+
+[[Rapidan Energy Group]] (April 15) separately flagged that if prices continue climbing toward $150/bbl, the administration is likely to consider US crude or refined-product export restrictions — a policy move that would invert the [[US Energy Independence Six Countries]] framework Trump has publicly championed and unwind one of the few second-term economic outperformance metrics.
+
+*Source: FT, Jamie Smyth, April 15, 2026.*
+
+---
+
 ## Relevance to vault
 
 Trump's industrial policy directly impacts:
@@ -79,9 +100,13 @@ Trump's industrial policy directly impacts:
 - [[World Liberty Financial]] — family crypto/DeFi venture
 - [[Donald Trump Jr.]] — crypto ventures defense
 - [[Mar-a-Lago]] — valued at $500M+ (presidency premium)
-- [[Iran conflict oil price timeline]] — jawboning oil markets, Apr 6 strike deadline
+- [[Iran conflict oil price timeline]] — jawboning oil markets, Apr 6 strike deadline, Apr 15 export surge
 - [[Trump TACO]] — "Trump Always Chickens Out" market pricing pattern
+- [[Gasoline]] — pump price $4 threshold breached Apr 15 (politically decisive)
+- [[Diesel fuel]] — near ATH Apr 15
+- [[US Energy Independence Six Countries]] — framework at risk if export controls activated
+- [[Rapidan Energy Group]] — $150 export-restriction trigger flagged Apr 15
 
 ---
 
-*Created 2026-02-02 from [[Project Vault]] research*
+*Created 2026-02-02 from [[Project Vault]] research. Updated 2026-04-15 — energy cost campaign promise inversion section added.*

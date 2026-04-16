@@ -37,6 +37,8 @@ FUTURES_TICKERS: list[str] = [
     "RTY=F",  # Russell 2000 E-Mini
     "MES=F",  # Micro E-mini S&P 500
     "MNQ=F",  # Micro E-mini Nasdaq 100
+    "MYM=F",  # Micro E-mini Dow
+    "M2K=F",  # Micro E-mini Russell 2000
 
     # Equity index futures - International
     "NIY=F",  # Nikkei 225 (Yen-denominated)
@@ -44,13 +46,17 @@ FUTURES_TICKERS: list[str] = [
 
     # Energy
     "CL=F",  # WTI Crude Oil
+    "MCL=F", # Micro WTI Crude Oil
     "BZ=F",  # Brent Crude Oil
     "NG=F",  # Natural Gas
     "RB=F",  # RBOB Gasoline
 
     # Precious & industrial metals
     "GC=F",  # Gold
+    "MGC=F", # Micro Gold (10 oz)
+    # Removed: YG=F — yfinance serves no data for Mini Gold (confirmed 2026-04-15); use GC=F/MGC=F
     "SI=F",  # Silver
+    "SIL=F", # Mini Silver (1,000 oz, E-mini)
     "HG=F",  # Copper
     "PL=F",  # Platinum
     "PA=F",  # Palladium
@@ -108,7 +114,12 @@ FUTURES_TICKERS: list[str] = [
     "GNF=F",  # Non-Fat Dry Milk
     "CB=F",   # Cash-Settled Butter
     "CSC=F",  # Cash-Settled Cheese
+
+    # Crypto (CME)
+    "MBT=F",  # Micro Bitcoin (0.1 BTC) — yfinance live-quote only; history builds forward from 2026-04-15
+    "MET=F",  # Micro Ether (0.1 ETH) — yfinance live-quote only; history builds forward from 2026-04-15
 ]
+# Note: MCL=F (Micro Crude) is live-quote only as well; history builds forward from 2026-04-15. For historical analysis use CL=F.
 
 TABLE_NAME = "futures_prices_daily"  # New destination table
 VOL_TABLE_NAME = "futures_volumes_daily"

@@ -543,7 +543,11 @@ China's dominant strategy: have the Strait of Hormuz open but on its own terms, 
 - Iran switched from GPS to Chinese BeiDou satellite navigation system
 - Unconfirmed reports of China selling precision missile technology to Iran (pre-war)
 
-**During conflict:** No evidence of financial or military aid. China maintains Iran as strategic asset for regional leverage but won't risk core US trade relationship.
+**During conflict:** Limited state-visible aid, but substantial commercial-channel support documented in April 2026. The [[Financial Times]] (April 14, 2026) reported that [[IRGC]] Aerospace Force acquired operational control of a Chinese commercial imaging satellite [[TEE-01B]] in late 2024 via [[Earth Eye Co]] ("in-orbit delivery" model, Rmb250mn / ~$36.6mn), with ground-segment services via [[Emposat]]. The IRGC tasked the satellite during the war against US bases and Gulf civilian infrastructure — see [[IRGC Chinese satellite targeting March 2026]]. China's Ministry of Foreign Affairs dismissed the FT reporting as "untrue" and said "certain forces have been keen to fabricate rumours and maliciously link them to China."
+
+This is the second documented case (after [[Chang Guang Satellite Technology]]/[[Houthis]], FT 2025) of a Chinese commercial-space operator supplying targeting-relevant imagery to a US-designated adversary. Both firms are flagged by the US House China Select Committee as closely tied to the [[People's Liberation Army]] Aerospace Force through [[Military-civil fusion]] funding and [[Seven sons of national defence]] talent pipelines. See [[Chinese dual-use commercial satellite exports]] for the framework.
+
+Separately in mid-April 2026, CNN reported that US intelligence had seen indications China was considering providing Iran with shoulder-fired missiles of the type Iran used to shoot down a US F-15. [[Trump II|Trump]] warned China would face "big problems" if it provided Iran with air defence systems. [[Scott Bessent]]'s April 14 [[Operation Economic Fury]] announcement included outreach to Chinese banks on [[Secondary sanctions]] exposure for dollar-settled Iranian oil purchases — the financial chokepoint on the commercial channel.
 
 ### Historical China-Russia comparison
 
@@ -640,3 +644,14 @@ The decline reflects reserve diversification (into gold, bilateral currency swap
 - [[US Chile cable visa sanctions]] — US sanctions on Chilean officials over cable (Feb 2026)
 - [[Nadia Martin Wiggen]] — energy analyst, refined product export ban analysis (March 2026)
 - [[Stellen Capital]] — Wiggen's firm, Hormuz crisis energy commentary
+
+### Dual-use commercial space exports
+- [[Chinese dual-use commercial satellite exports]] — framework
+- [[Earth Eye Co]] — commercial satellite supplier (TEE-01B to IRGC)
+- [[Emposat]] — ground-segment operator
+- [[Chang Guang Satellite Technology]] — Houthi-imagery precedent
+- [[Military-civil fusion]] — organising doctrine
+- [[Seven sons of national defence]] — university pipeline
+- [[China Academy of Space Technology]] — state origin of commercial-space talent
+- [[TEE-01B]] — the Chinese satellite transferred to IRGC
+- [[IRGC Chinese satellite targeting March 2026]] — dated surveillance campaign

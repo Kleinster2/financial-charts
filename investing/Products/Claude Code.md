@@ -117,3 +117,5 @@ The Mar 31 2026 source leak that exposed Claude Code's architecture also reveale
 - [[Conway]] — unreleased always-on agent (discovered in same source leak)
 - [[Agentic AI]] — category
 - [[AI agents]] — broader category
+- [[Ridges AI]] — decentralized competitor ([[Bittensor]] SN62, ~$12/mo)
+- [[Cognition]] — autonomous-agent competitor

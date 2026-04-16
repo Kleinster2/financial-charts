@@ -188,7 +188,31 @@ Chip sector 2x outperformance reflects policy premium + IPO wave.
 
 ---
 
-*Updated 2026-01-11*
+---
+
+## Bessent on the gap (April 14, 2026)
+
+At the WSJ CEO Council, [[Scott Bessent]] pushed back on assessments (the interviewer cited a Stanford-style annual AI report) that the US lead has evaporated. His framing:
+
+| Metric | Bessent claim |
+|---|---|
+| Current gap | "3 to 6 months ahead" |
+| Compounding advantage | [[Claude Mythos|Anthropic mythos model]] "a step function change" — learning is logarithmic, "x to the 10th to x to the 12th" hard to catch up |
+| US compute share (historical) | "We were in the 30s" |
+| US compute share (current) | "Now I think we're in the 50s" |
+| US compute share (projected) | 70-80% of global compute in "a few years" |
+| TSMC dependence | "90% of the high value chips are still made on the island of [[Taiwan]]" |
+| CHIPS Act under Biden | "No money went out the door. Nothing was created" |
+
+On the Arizona fab buildout: "Big facilities being built in Arizona… but it's a big ecosystem. The Taiwanese have the history but they really have the ecosystem — this surfeit of technicians with master's degrees in chip technology just because they've been there so long."
+
+This is the first senior administration source to explicitly endorse [[Claude Mythos|Mythos]] as the compounding-lead exemplar — a notable reference given the [[Project Glasswing]] controlled rollout and the Mythos cybersecurity-risk framing within the administration.
+
+*Source: WSJ Opinion, Paul Gigot interview, 2026-04-14*
+
+---
+
+*Updated 2026-04-15*
 
 ---
 

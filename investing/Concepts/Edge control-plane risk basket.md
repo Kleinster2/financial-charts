@@ -47,7 +47,7 @@ Total: 100% — 3 constituents, move-weighted
 |----------|--------------|
 | [[Amazon]], [[Microsoft]], [[Google]] | Hyperscalers are much broader than the edge-runtime readthrough |
 | [[CrowdStrike]], [[Palo Alto Networks]], [[Zscaler]] | Security names with overlapping AI narratives, but not the core edge-control-plane cluster |
-| [[AI control-point basket]] names like [[Oracle]], [[Microsoft]], [[Salesforce]] | Those are integrated software/control-point platforms, not neutral edge/runtime vendors |
+| Integrated software platforms like [[Oracle]], [[Microsoft]], [[Salesforce]] | Those are data / distribution / identity platforms, not neutral edge/runtime vendors — see [[Software AI bifurcation]] for the split |
 
 ---
 
@@ -78,6 +78,28 @@ That is a real factor move, not noise. The market was not saying edge demand dis
 
 ---
 
+## Persistence check (2020-2026)
+
+Pairwise excess-return correlation (vs [[SPY]]) across multi-year periods. Benchmark: [[Security control points]] core runs 0.30-0.51 historically.
+
+| Period | Avg pair corr | Read |
+|--------|---------------|------|
+| 2020 H2 | 0.20 | Weak |
+| 2021 | 0.29 | Mild |
+| 2022 | 0.32 | Moderate |
+| 2023 | 0.22 | Weak |
+| 2024 H1 | 0.12 | Weak |
+| 2024 H2 | 0.51 | Moderate |
+| 2025 H1 | 0.19 | Weak |
+| 2025 H2 | 0.22 | Weak |
+| 2026 YTD | 0.52 | Elevated (Apr 10 event + aftershocks) |
+
+ECPR is an intermittent cluster. [[Fastly]], [[Akamai]], and [[Cloudflare]] travel together in some windows (2022, 2024 H2, 2026 YTD) and diverge in others (2024 H1, 2025). That fits the business-model read: all three are edge vendors, but their customer bases, revenue mixes, and AI-narrative exposure differ enough that they do not behave as a permanent factor. The cluster tightens when the market is repricing edge runtime narrative as a group, then loosens back into three semi-independent stories.
+
+This is a weaker persistence pattern than [[Security control points]] and a stronger one than the event-derived cohort of [[February 2026 AI Disruption Cascade]] victims. The basket is most useful as a risk factor that turns on during control-plane narrative shocks, not as a claim that the three names always move together.
+
+---
+
 ## Why this matters
 
 This is the basket that tests the weakest part of the "AI infrastructure" umbrella. If future model launches keep hitting ECPR on execution and orchestration readthroughs, then the taxonomy is right: delivery and perimeter are durable, but runtime/control-plane narrative premium is fragile.
@@ -105,6 +127,5 @@ Watch for:
 - [[Cloudflare]]
 - [[Fastly]]
 - [[Akamai]]
-- [[AI control-point basket]]
 
 *Created 2026-04-14*

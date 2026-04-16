@@ -15,7 +15,7 @@ tags: [basket, ai, productivity, goldman]
 - **Filter:** Must have mentioned AI in context of productivity/efficiency on Q2 or Q3 2025 earnings calls
 - **Excludes:** Tech and AI-native companies (this is the "Phase 3" beneficiary layer, not infrastructure)
 
-**Thesis:** These companies' earnings will disproportionately benefit from AI adoption via labor cost reduction and margin expansion — the demand-side of the same disruption hitting [[AI workflow disruption basket|AIWD basket]] constituents on the supply side.
+**Thesis:** These companies' earnings will disproportionately benefit from AI adoption via labor cost reduction and margin expansion — the demand-side of the same disruption hitting workflow-software victims (see [[February 2026 AI Disruption Cascade]]) on the supply side.
 
 ---
 
@@ -137,16 +137,16 @@ These were cited alongside GSXUPROD in CNBC, finanzen.net, and ainvest coverage.
 
 ---
 
-## Relationship to AIWD basket
+## Relationship to the software disruption cohort
 
-| | GSXUPROD | [[AI workflow disruption basket|AIWD]] |
+| | GSXUPROD | [[February 2026 AI Disruption Cascade]] workflow-software victims |
 |--|---------|------|
-| **Thesis** | AI adoption = lower costs, higher margins | AI adoption = revenue displacement |
-| **Exposure** | Labor cost reduction (demand side) | Product substitution (supply side) |
-| **Sector tilt** | Banks, logistics, restaurants, retail | Legal, data analytics, IT services, ad agencies |
-| **Expected move on AI news** | ↑ (efficiency gains) | ↓ (disruption fears) |
+| Thesis | AI adoption = lower costs, higher margins | AI adoption = revenue displacement |
+| Exposure | Labor cost reduction (demand side) | Product substitution (supply side) |
+| Sector tilt | Banks, logistics, restaurants, retail | Legal, data analytics, IT services, ad agencies |
+| Expected move on AI news | ↑ (efficiency gains) | ↓ (disruption fears) |
 
-Same underlying force (AI automating white-collar tasks), opposite sides of the trade. GSXUPROD companies *buy* the automation; AIWD companies *sell* what gets automated.
+Same underlying force (AI automating white-collar tasks), opposite sides of the trade. GSXUPROD companies *buy* the automation; the cascade victims *sell* what gets automated.
 
 ---
 
@@ -164,7 +164,7 @@ Same underlying force (AI automating white-collar tasks), opposite sides of the 
 
 ## Related
 
-- [[AI workflow disruption basket]] — inverse exposure (disruption victims)
+- [[February 2026 AI Disruption Cascade]] — inverse exposure (the disruption victims)
 - [[Goldman Sachs]] — source research
 - [[AI disruption]] — macro theme
 - [[Software bear market]] — context

@@ -211,6 +211,21 @@ Son of [[Ali Shamkhani]] (former IRGC naval commander, defense minister, Khamene
 
 ---
 
+## Operation Economic Fury — April 14, 2026
+
+[[Scott Bessent]] publicly announced Operation Economic Fury at the WSJ CEO Council on April 14, 2026 — a named escalation of the maximum pressure campaign the president ordered in March 2025. Bessent described the arc of that campaign: pressure on Iranian assets globally → in December 2025 "one of their major banks going under" → [[Central Bank of Iran]] forced to print money → large inflation → street riots (see [[#2025-2026 protests and internet blackout]]).
+
+April 14 escalation mechanics:
+- [[Gulf]] partners — [[UAE]], [[Qatar]], [[Saudi Arabia]] — now willing to share Iranian regime bank accounts held in their territories after ~40 days of Iranian missile attacks. Bessent cited Qatar losing 14% of GDP from missile strikes and UAE absorbing "over 1,200 hits."
+- Treasury reaching out to banks including Chinese banks on [[Secondary sanctions]] exposure for dollar-settled Iranian oil purchases.
+- Stated goal: "finally put an end to the cash that is flowing into the IRGC coffers and into the country."
+
+The economic side of the war is now branded separately from [[Operation Epic Fury]] (the military operation). Regional willingness to cooperate marks a step-function change from prior Gulf tolerance of Iranian financial flows — see [[Gulf Sovereign Capital Reallocation]] for the broader shift.
+
+*Source: WSJ Opinion, Paul Gigot interview, 2026-04-14*
+
+---
+
 ## 30-day oil sanctions waiver — March 20, 2026
 
 The [[Trump II|Trump]] administration issued a 30-day general license permitting purchase of [[Iran]]ian oil already at sea, in a bid to tame prices driven up by the war. Applies to oil loaded on any vessel — including sanctioned [[Shadow fleet]] tankers — on or before March 20, discharged by April 19.
@@ -274,6 +289,16 @@ See [[Iranian missile arsenal]] for the full program analysis. Key facts: the [[
 
 ---
 
+## Satellite ISR — Chinese commercial acquisition
+
+In late 2024 the [[IRGC]] Aerospace Force acquired operational control of [[TEE-01B]], a [[China|Chinese]]-built 0.5-metre-resolution imaging satellite, via a Rmb250mn (~$36.6mn) "in-orbit delivery" contract with [[Earth Eye Co]]. Ground-segment operations run through [[Emposat]]'s third-country station network — an arrangement that preserves Iranian ISR capability even when [[Israel]] strikes domestic satellite infrastructure (as it did repeatedly in 2025 and, at the [[Iranian Space Agency]] main research centre, in mid-March 2026). TEE-01B represents roughly an order-of-magnitude improvement over Iran's indigenous [[Noor-3]] (~5m) and [[Noor-2]] (12-15m) satellites, giving Iranian analysts aircraft-identification and base-level infrastructure surveillance for the first time.
+
+During the March 2026 war the IRGC tasked TEE-01B across Gulf US military sites ([[Prince Sultan Air Base]], [[Muwaffaq Salti Air Base]], US Fifth Fleet Manama, [[Erbil International Airport]], [[Camp Buehring]], [[Ali Al Salem Air Base]], [[Camp Lemonnier]], [[Duqm International Airport]]) and civilian Gulf infrastructure ([[Khor Fakkan]], [[Qidfa]], [[Alba]]). [[Trump II|Trump]] confirmed five US Air Force refuelling planes damaged at Prince Sultan on March 14. Full timeline: [[IRGC Chinese satellite targeting March 2026]]. Framework: [[Chinese dual-use commercial satellite exports]].
+
+Policy implication: the transfer arrived via a nominally commercial channel ([[Belt and Road]]) with payment in renminbi, placing US response at the financial rather than export-control chokepoint. See [[Operation Economic Fury]] for [[Scott Bessent]]'s April 14 outreach to Chinese banks on [[Secondary sanctions]] exposure.
+
+---
+
 ## Related
 
 ### Missile systems
@@ -283,6 +308,15 @@ See [[Iranian missile arsenal]] for the full program analysis. Key facts: the [[
 - [[SM-3]] -- US interceptor that defeated Diego Garcia attack
 - [[Diego Garcia attack 2026]] -- March 21 attack on US/UK base
 - [[range-payload tradeoff]] -- physics constraint on nuclear delivery
+
+### Satellite / ISR
+- [[TEE-01B]] -- Chinese-built 0.5m satellite in IRGC hands since late 2024
+- [[Earth Eye Co]] -- satellite supplier
+- [[Emposat]] -- ground-segment operator
+- [[Iranian Space Agency]] -- civilian body; struck by [[Israel]] mid-March 2026
+- [[Noor-3]], [[Noor-2]] -- indigenous prior-generation satellites
+- [[IRGC Chinese satellite targeting March 2026]] -- wartime tasking
+- [[Chinese dual-use commercial satellite exports]] -- framework
 
 ### Elite wealth & oil networks
 - [[Mojtaba Khamenei]] — Supreme Leader's son, offshore billions

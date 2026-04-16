@@ -3,11 +3,11 @@ aliases: [WFC]
 ---
 #actor #finance #bank #usa #public
 
-**Wells Fargo** — Fourth-largest US bank. [[Consumer]] focus. Asset cap removed June 2025 — major catalyst realized. Q4 2025 revenue miss but adjusted EPS beat.
+**Wells Fargo** — Fourth-largest US bank. [[Consumer]] focus. Asset cap removed June 2025 — major catalyst realized. Q1 2026 EPS beat, but revenue and net interest income missed and the stock sold off.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | **WFC** |
+| Ticker | WFC |
 
 ![[wfc-vs-peers.png]]
 *WFC +45% since 2018 — lagging [[JPMorgan|JPM]] (+260%), [[Bank of America|BAC]] (+125%), [[Citigroup|C]] (+45%), and [[KBE]] benchmark (+70%). Scandal and asset cap drag visible.*
@@ -62,10 +62,10 @@ WFC trades as a core Regional Banks name (KRE r = 0.85).
 
 | Metric | 2022 | 2023 | 2024 | 2025 |
 |--------|------|------|------|------|
-| **NIM** | 2.5% | 2.9% | 2.7% | 2.7% |
-| **Efficiency ratio** | 68% | 64% | 63% | 62% |
-| **CET1 ratio** | 10.6% | 11.4% | 11.1% | 11.0% |
-| **NCO rate** | 0.2% | 0.4% | 0.5% | 0.5% |
+| NIM | 2.5% | 2.9% | 2.7% | 2.7% |
+| Efficiency ratio | 68% | 64% | 63% | 62% |
+| CET1 ratio | 10.6% | 11.4% | 11.1% | 11.0% |
+| NCO rate | 0.2% | 0.4% | 0.5% | 0.5% |
 
 ### Balance sheet
 
@@ -91,13 +91,13 @@ WFC trades as a core Regional Banks name (KRE r = 0.85).
 
 ## Scandal recovery
 
-**2016 fake accounts scandal:**
+2016 fake accounts scandal:
 - Unauthorized account openings
 - $3B+ in fines
 - Fed asset cap (still in place)
 - Multi-year remediation
 
-**[[Charlie Scharf]] (CEO since 2019):**
+[[Charlie Scharf]] (CEO since 2019):
 - Efficiency improvements
 - Risk management overhaul
 - Expense reduction
@@ -107,16 +107,16 @@ WFC trades as a core Regional Banks name (KRE r = 0.85).
 
 ## Asset cap — REMOVED (June 2025)
 
-**Fed restriction lifted:**
+Fed restriction lifted:
 
 | Date | Event |
 |------|-------|
 | 2018 | Asset cap imposed (~$1.95T) |
 | 2018-2025 | Multi-year remediation |
-| **June 2025** | **Asset cap removed** |
+| June 2025 | Asset cap removed |
 | Q4 2025 | Assets surpass $2T for first time |
 
-**Catalyst realized:** This was the bull case for years. Now playing out.
+Catalyst realized: This was the bull case for years. Now playing out.
 
 ---
 
@@ -124,10 +124,10 @@ WFC trades as a core Regional Banks name (KRE r = 0.85).
 
 | Metric | Actual | Estimate | Result |
 |--------|--------|----------|--------|
-| **EPS** | $1.62 | $1.66 | Miss |
-| **Adj. EPS** | $1.76 | $1.66 | Beat |
-| **Revenue** | $21.29B | $21.65B | Miss |
-| **NII** | $12.33B | $12.46B | Miss |
+| EPS | $1.62 | $1.66 | Miss |
+| Adj. EPS | $1.76 | $1.66 | Beat |
+| Revenue | $21.29B | $21.65B | Miss |
+| NII | $12.33B | $12.46B | Miss |
 
 ### Why the gap?
 
@@ -150,17 +150,42 @@ WFC trades as a core Regional Banks name (KRE r = 0.85).
 |--------|----------|-----------|
 | NII | ~$50B | $50.2B |
 
-**Stock reaction:** -4.8% to $89 (revenue miss weighed on sentiment).
+Stock reaction: -4.8% to $89 (revenue miss weighed on sentiment).
 
-**CEO [[Charlie Scharf]]:** "We have built a strong foundation and have made great progress in improving growth and returns, though we have operated with significant constraints."
+CEO [[Charlie Scharf]]: "We have built a strong foundation and have made great progress in improving growth and returns, though we have operated with significant constraints."
 
-**Context:** First full year freed from Fed asset cap — struggled to shift conversation away from expense jump (severance).
+Context: First full year freed from Fed asset cap — struggled to shift conversation away from expense jump (severance).
+
+---
+
+## Q1 2026 Earnings (Apr 14, 2026)
+
+| Metric | Actual | Estimate | Result |
+|--------|--------|----------|--------|
+| EPS | $1.60 | $1.58 | Beat |
+| Revenue | $21.45B | $21.8B | Miss |
+| NII | $12.1B | $12.3B | Miss |
+| Loan book | $1.0T+ | — | Up 11% |
+
+### Why the stock fell
+
+The quarter showed the post-asset-cap growth plan working on volume, but not yet on spread economics. Revenue and NII both missed even as EPS beat, so the market focused on margin pressure rather than the headline profit beat.
+
+### Key signals
+
+- Loan book pushed above $1 trillion as [[Wells Fargo]] expanded credit cards and auto lending after the asset-cap removal.
+- Management said consumers were still healthy, but higher energy prices were beginning to bite through gas spending and could weigh on broader consumption in the second half.
+- Headcount fell to 200,999 at March 31 from 205,198 at Dec. 31, extending the efficiency push.
+
+Stock reaction: `-5.7%` to $81.70 at the Apr 15 close (verified in DB).
+
+Readthrough: The market is still treating [[Wells Fargo]] as an NII repair story, not just an asset-cap release story. Balance-sheet growth alone is not enough if spreads compress and revenue undershoots.
 
 ---
 
 ## AI strategy (2025-2026)
 
-**Most aggressive headcount cuts among US big 4 banks — but catching up, not leading.**
+Most aggressive headcount cuts among US big 4 banks — but catching up, not leading.
 
 ### Why WFC is cutting hardest
 
@@ -168,12 +193,12 @@ WFC trades as a core Regional Banks name (KRE r = 0.85).
 
 | Bank | Employees | Net Income | NI/Employee |
 |------|-----------|------------|-------------|
-| JPMorgan | 317k | ~$60B | **$189k** |
+| JPMorgan | 317k | ~$60B | $189k |
 | Bank of America | 213k | ~$27B | $127k |
-| **Wells Fargo** | 210k | ~$20B | **$95k** |
+| Wells Fargo | 210k | ~$20B | $95k |
 | Citigroup | 229k | ~$13B | $57k |
 
-JPM generates **2x more profit per employee** than WFC. The AI-for-cost-cutting strategy is about catching up to peers, not extending a lead.
+JPM generates 2x more profit per employee than WFC. The AI-for-cost-cutting strategy is about catching up to peers, not extending a lead.
 
 The real efficiency benchmark: Singapore banks (DBS, OCBC) run 38-43% cost/income ratios vs WFC's 62%. See [[AI in banking]].
 
@@ -182,10 +207,10 @@ The real efficiency benchmark: Singapore banks (DBS, OCBC) run 38-43% cost/incom
 | Date | Employees | Change |
 |------|-----------|--------|
 | 2019 (Scharf joins) | 275,000 | — |
-| Sept 2025 | 210,000 | **-65,000 (-24%)** |
+| Sept 2025 | 210,000 | -65,000 (-24%) |
 | 2026+ | Further cuts expected | "Less people next year" |
 
-**Now smallest of big 4 by headcount** — down from largest five years ago.
+Now smallest of big 4 by headcount — down from largest five years ago.
 
 ### Key hire: Faraz Shafiq (Jan 2026)
 
@@ -196,7 +221,7 @@ The real efficiency benchmark: Singapore banks (DBS, OCBC) run 38-43% cost/incom
 | Reports to | [[Saul Van Beurden]] (head of AI + consumer) |
 | Focus | Companywide AI needs, [[agentic AI]], product consolidation |
 
-**Why regulated industry experience matters:** "If you never work for a regulated company, it's really a cold shower to come to a bank. It will not be a cold shower because he understands what it means to be regulated." — Van Beurden
+Why regulated industry experience matters: "If you never work for a regulated company, it's really a cold shower to come to a bank. It will not be a cold shower because he understands what it means to be regulated." — Van Beurden
 
 Previous: telecom, health-tech (both highly regulated).
 
@@ -225,14 +250,14 @@ See [[AI in banking]] for industry context.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Asset cap removed (June 2025) — catalyst realized
 - Efficiency gains continuing (severance = more cuts coming)
 - AI-driven productivity upside (30-35% coding efficiency already)
 - Rate sensitivity
 - Now can grow assets above $2T
 
-**Bear:**
+Bear:
 - Revenue miss suggests execution challenges
 - NII guidance slightly below consensus
 - Mortgage business weak

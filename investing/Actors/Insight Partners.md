@@ -70,6 +70,7 @@ Doubled fund size from XI to XII. One of largest growth funds globally.
 | Wiz | Cloud security |
 | Miro | Collaboration |
 | [[Notion]] | [[Productivity]] |
+| [[Tailscale]] | Mesh VPN (Series B co-lead, 2022) |
 
 ---
 

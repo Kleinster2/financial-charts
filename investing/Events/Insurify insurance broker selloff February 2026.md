@@ -125,7 +125,7 @@ The structural vulnerability is identical: businesses that sit between buyer and
 
 - [[Claude Cowork disruption February 2026]] — parallel event, one week earlier
 - [[AI disintermediation]] — common thesis linking both selloffs
-- [[AI workflow disruption basket]] — SaaS victims basket (potential insurance expansion)
+- [[February 2026 AI Disruption Cascade]] — umbrella event covering the SaaS and financial-services victims
 - [[Insurify]] — trigger company
 - [[OpenAI]] — ChatGPT app directory platform
 - [[Marsh McLennan]] — #1 broker, -6.1%

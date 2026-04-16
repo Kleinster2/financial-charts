@@ -258,7 +258,7 @@ Neither side has a model. Both are telling stories. The market, for now, is pric
 
 - [[Citadel Securities 2026 Global Intelligence Crisis]] — institutional counterpoint (Feb 24, 2026)
 - [[AI disintermediation]] — the core concept. Citrini's "habitual intermediation" and friction-collapse thesis is an extension of this
-- [[AI workflow disruption basket]] — the basket of stocks most exposed to Citrini's Phase 1 (SaaS compression)
+- [[AI disintermediation]] — the Phase 1 (SaaS compression) victims sit inside this thesis
 - [[Private credit risk]]
 - [[SaaS valuation compression]]
 - [[Taiwan concentration risk]] — Taiwan/Korea identified as winners in the Citrini scenario (convex to AI infra)

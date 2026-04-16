@@ -62,6 +62,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | Fuel oil | [[Fuel oil]] | Bunker fuel $140-175/bbl record; Asian bunkering ports running dry |
 | Commodity traders | [[Commodity trading houses]] | [[Oliver Wyman]] 2026 report: "billions" in early-war losses at [[Vitol]], [[Trafigura]], [[Mercuria Energy Group\|Mercuria]] from short hedges + stranded cargo replacement; $7.5B new credit facilities |
 | Structural | [[Hormuz Permanent Risk Premium]] | Even a short war leaves permanent oil/shipping/insurance risk premium |
+| Satellite ISR | [[IRGC Chinese satellite targeting March 2026]] | [[TEE-01B]] via [[Earth Eye Co]]/[[Emposat]] gave Iran 0.5m imagery of 10+ US bases + Gulf civilian infrastructure; dispersion strategy survives Israeli counter-space strikes |
 
 ---
 
@@ -276,6 +277,13 @@ Two major expert panels produced the deepest structural analysis:
 - [[Exxon]] — ~20% ME FCF, lagging peers
 - [[Exail Technologies]] — European MCM drone specialist (+5.8%)
 - [[Schlumberger|SLB]] — first oilfield services profit warning
+
+### Chinese commercial-space / ISR support to Iran
+- [[IRGC Chinese satellite targeting March 2026]] — dated tasking campaign
+- [[Chinese dual-use commercial satellite exports]] — framework
+- [[TEE-01B]] — the transferred satellite
+- [[Earth Eye Co]], [[Emposat]] — Chinese counterparties
+- [[Chang Guang Satellite Technology]] — precedent (Houthi Red Sea targeting)
 
 ### Treasury market / capital flows
 - [[Basis trade]] — third stress test (after 2020, 2025); some crowded trades flushed out but no systemic unwinding

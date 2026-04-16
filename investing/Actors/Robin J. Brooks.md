@@ -103,9 +103,35 @@ Two charts: (1) TIC net foreign flows into US equities, corporate debt, agency d
 
 **"How Big is the Oil Price Spike?" (Apr 3):** June Brent futures $112 is the key price. Spot much higher due to scramble. Futures embed war-ending expectation. "Paper vs physical disconnect" is "nonsense." WTI below Brent due to limited US export incentive.
 
-**"Egypt gets it right" (Apr 1):** Egypt letting pound depreciate early. Cites Calvo/Reinhart "Fear of Floating." Contrast: Turkey fighting, Pakistan pegging.
+"Egypt gets it right" (Apr 1): Egypt letting pound depreciate early. Cites Calvo/Reinhart "Fear of Floating." Contrast: Turkey fighting, Pakistan pegging.
 
-**"Are Central Banks Selling Gold?" (Mar 29):** Turkey CB tapped ~50 tons gold (collateral for FX). Lira only -1% but massive hidden intervention. Turkey idiosyncratic, not broader EM trend.
+"Are Central Banks Selling Gold?" (Mar 29): Turkey CB tapped ~50 tons gold (collateral for FX). Lira only -1% but massive hidden intervention. Turkey idiosyncratic, not broader EM trend.
+
+### "The Goal of the Iran Blockade" (Apr 13)
+
+Following Trump's Apr 12 blockade announcement, Brooks re-states his long-standing embargo advocacy in strategic terms. Characterizes Iran as "a gas station masquerading as a country" — same rhetorical framing he previously applied to Russia. The blockade's purpose is not military but economic: eliminate hard currency inflows, force currency collapse and hyperinflation, bring leadership to genuine negotiation. Oil-price calculation: removing Iran's ~2 mb/d raises Brent to ~$123/bbl, which Brooks considers manageable. Frames the shift from kinetic conflict to economic coercion as a strategic upgrade.
+
+Commenter pushback covers international-law status, evidence Iranian negotiators were already engaged, and the Russia-Ukraine disanalogy. Brooks stays on the economic-mechanism argument.
+
+*Source: [The Goal of the Iran Blockade](https://robinjbrooks.substack.com/p/the-goal-of-the-iran-blockade), April 13, 2026*
+
+### "This Week is a Catalyst for Oil Prices to Fall" (Apr 14)
+
+The single most actionable macro call Brooks has published on the Iran conflict. Thesis: the IMF/World Bank spring meetings in Washington this week will trigger market recognition that the conflict is ending, collapsing the war-risk premium in Brent.
+
+| Point | Detail |
+|-------|--------|
+| Brent premium | ~40% above pre-war level |
+| Historical precedent | IMF/WB meetings flipped Treasury yields (Oct 2023) and gold (Oct 2025) when a single issue captivated investors |
+| Strategy shift read | US moving from kinetic to economic coercion (the blockade itself) signals negotiation phase |
+| Blockade price risk | "unlikely to spike oil prices to any material degree" — Brooks is his own source on this (via Mar 30 and Apr 13 pieces) |
+| Expected direction | "plenty of room for oil prices to fall" |
+
+No explicit price targets, but the argument implies Brent retracing toward $70-80 if the war premium unwinds fully. Positioning implication: oil short/rotation into non-oil risk (equities, EM FX) may be the pair trade for the back half of April. Risk: if the Washington meetings don't produce visible de-escalation signals, the premium sticks.
+
+Cross-links to: [[2026 Iran conflict market impact]], [[2026 Strait of Hormuz crisis]], [[Iran conflict oil price timeline]], [[Helima Croft]] (who has been more cautious on assuming war resolution).
+
+*Source: [This Week is a Catalyst for Oil Prices to Fall](https://robinjbrooks.substack.com/p/this-week-is-a-catalyst-for-oil-prices), April 14, 2026*
 
 ### "Asia's Dependence on Oil from the Persian Gulf" (Apr 5)
 

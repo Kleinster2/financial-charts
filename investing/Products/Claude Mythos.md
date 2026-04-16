@@ -80,6 +80,14 @@ Leaked the same week [[OpenAI]] teased [[OpenAI Spud|Spud]], its next model. Bot
 
 ---
 
+## Treasury endorsement (April 2026)
+
+[[Scott Bessent]] cited Mythos as the exemplar of the US compounding lead in AI. Speaking at the WSJ CEO Council on April 14, 2026, he told [[Paul Gigot]]: "The Anthropic mythos model was a step function change." Used to argue that learning improvements compound logarithmically ("x to the 10th to x to the 12th") and are therefore difficult for [[China]] to close — a central justification for his claim that the US remains "3 to 6 months ahead" and is on track for 70-80% of global compute share. See [[US-China AI race#Bessent on the gap (April 14, 2026)]].
+
+This is the first senior administration source to publicly endorse Mythos as the compounding-lead exemplar — notable given the parallel [[Project Glasswing]] controlled rollout treating Mythos as a cybersecurity-risk capability.
+
+---
+
 ## Related
 
 - [[Anthropic]] — parent company
@@ -90,6 +98,8 @@ Leaked the same week [[OpenAI]] teased [[OpenAI Spud|Spud]], its next model. Bot
 - [[OpenAI Spud]] — OpenAI's competing next-gen model, teased the same week
 - [[AI cybersecurity disruption basket]] — tracks vendor disruption from AI labs
 - [[Cybersecurity]] — sector impact
+- [[Scott Bessent]] — Treasury endorsement April 2026
+- [[US-China AI race]] — Bessent uses Mythos to argue US 3-6 months ahead
 
 ### Cross-vault
 - [Technologies: Claude Mythos](obsidian://open?vault=technologies&file=Claude%20Mythos) — technical architecture, model tier taxonomy, leak mechanics

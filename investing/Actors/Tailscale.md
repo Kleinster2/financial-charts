@@ -3,7 +3,9 @@ aliases: [Tailscale Inc]
 ---
 #actor #company #infrastructure #vpn #networking
 
-**Tailscale** — Mesh VPN built on WireGuard. Founded 2019 by ex-Google engineers including Brad Fitzpatrick (LiveJournal, memcached). $272M raised through Series C (April 2025). Positioned as VPN replacement, not just tunneling. Tailscale Funnel feature competes with [[ngrok]] and [[Cloudflare]] Tunnels for [[Agentic AI]] exposure.
+**Tailscale** — Mesh VPN built on [[WireGuard]]. Founded 2019 by Avery Pennarun (CEO) with ex-Google engineers including Brad Fitzpatrick (LiveJournal, memcached, Go standard library). $272M raised through Series C (April 2025). Positioned as VPN replacement, not just tunneling. Tailscale Funnel feature competes with [[ngrok]] and [[Cloudflare]] Tunnels for [[Agentic AI]] exposure.
+
+Strategic framing: [[WireGuard]] turned VPNs from a plumbing problem (packet crypto, NAT traversal, key exchange) into a thin-client problem (identity, device enrollment, coordination). Tailscale built the orchestration layer on top — user identity, device inventory, ACLs, DNS — which is where the defensible product surface lives.
 
 ---
 
@@ -21,16 +23,16 @@ aliases: [Tailscale Inc]
 
 | Round | Date | Amount | Lead |
 |-------|------|--------|------|
-| Series A | Nov 2020 | $12M | Accel |
-| Series B | May 2022 | $100M | CRV, [[Insight Partners]] |
-| Series C | Apr 2025 | $160M | Accel |
+| Series A | Nov 2020 | $12M | [[Accel]] |
+| Series B | May 2022 | $100M | [[CRV]], [[Insight Partners]] |
+| Series C | Apr 2025 | $160M | [[Accel]] |
 | **Total** | | **$272M** | |
 
 ---
 
 ## What Tailscale does
 
-Creates encrypted mesh network across all your devices using WireGuard:
+Creates encrypted mesh network across all your devices using [[WireGuard]]:
 
 ```
 Device A ←→ Tailscale Network ←→ Device B
@@ -62,7 +64,7 @@ Encrypted file sharing between devices (like AirDrop).
 SSH without managing keys — authentication via Tailscale identity.
 
 ### Tailscale Funnel
-**Expose local services to public internet** — competes with [[ngrok]].
+Expose local services to public internet — competes with [[ngrok]].
 
 ---
 
@@ -89,7 +91,7 @@ Free tier is generous for personal use.
 | **Free tier** | Yes (with Personal) | Limited | Yes |
 | **Positioning** | Part of mesh VPN | Pure tunneling | Part of Cloudflare stack |
 
-**Key difference:** Tailscale is a VPN that *also* does public exposure. ngrok/Cloudflare are tunneling tools that don't give you a mesh network.
+Key difference: Tailscale is a VPN that *also* does public exposure. ngrok/Cloudflare are tunneling tools that don't give you a mesh network.
 
 ---
 
@@ -114,7 +116,7 @@ Less relevant than Cloudflare/ngrok for [[Clawdbot viral growth|OpenClaw]] use c
 
 | Component | Detail |
 |-----------|--------|
-| **Protocol** | WireGuard (kernel-level encryption) |
+| **Protocol** | [[WireGuard]] (kernel-level encryption) |
 | **Coordination** | Tailscale control plane |
 | **Relay (DERP)** | Falls back when P2P fails |
 | **Address space** | 100.x.x.x (CGNAT range) |
@@ -179,6 +181,7 @@ Strong pedigree in infrastructure/distributed systems.
 ## Related
 
 ### Concepts
+- [[WireGuard]] — underlying protocol; Tailscale builds orchestration on top
 - [[Agentic AI]] — mesh networking for agents
 - [[Local-first AI]] — architecture pattern
 - [[Zero Trust]] — Tailscale's security model
@@ -186,7 +189,9 @@ Strong pedigree in infrastructure/distributed systems.
 ### Actors
 - [[Cloudflare]] — competitor (Tunnels vs Funnel)
 - [[ngrok]] — competitor (tunneling)
-- [[Insight Partners]] — Series B investor
+- [[Accel]] — Series A and Series C lead
+- [[CRV]] — Series B co-lead
+- [[Insight Partners]] — Series B co-lead
 
 ### Events
 - [[Clawdbot viral growth]] — drove interest in tunneling/exposure tools

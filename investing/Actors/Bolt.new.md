@@ -116,7 +116,7 @@ Bolt.new is the AI layer on top of StackBlitz's WebContainer technology.
 - [[v0]] — [[Vercel]]'s vibe coding product
 - [[Claude]] — AI model powering Bolt
 - [[Vibe coding]] — category
-- [[AI workflow disruption basket]] — exposure
+- [[February 2026 AI Disruption Cascade]] — exposure context
 
 ---
 

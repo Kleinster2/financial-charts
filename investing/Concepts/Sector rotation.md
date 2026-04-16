@@ -31,7 +31,7 @@ Capital is leaving the AI/software narrative via two distinct channels with the 
 | **Thesis** | Peak oil repricing, AI-proof cash flows | Valuation gap at 25-year extreme |
 | **Driver** | Longevity repricing, leverage advantage | Earnings broadening, rate sensitivity |
 | **Expression** | XLE vs IGV | IWM vs QQQ |
-| **Tracking note** | [[AI workflow disruption basket]] | [[Small cap rotation 2026]] |
+| **Tracking note** | [[February 2026 AI Disruption Cascade]] | [[Small cap rotation 2026]] |
 
 | | XLE vs IGV (~43pp) | IWM vs QQQ (~12pp) |
 |---|---|---|
@@ -256,7 +256,7 @@ This is the rotation signal: when the index beats its biggest components, leader
 
 US energy sector +17% YTD. [[Exxon]], [[Chevron]], [[ConocoPhillips]] combined market cap +25% over 12 months. US oil majors trade at >75% forward EV/EBITDA premium to European peers ([[Shell]], [[BP]], [[TotalEnergies]]). Commodity is down ~10% over 12 months but stocks diverging upward — market repricing longevity, not current cash flows. [[IEA]] now sees [[Oil|oil demand]] potentially growing until 2050.
 
-See [[AI workflow disruption basket]] for the sell side of this trade.
+See [[February 2026 AI Disruption Cascade]] for the sell side of this trade.
 
 *Source: Financial Times, Feb 5 2026*
 
@@ -331,7 +331,7 @@ See [[AI workflow disruption basket]] for the sell side of this trade.
 - [[JPMorgan Chase]] — rotation beneficiary (financials)
 - [[Bank of America]] — rotation beneficiary (financials)
 - [[Ed Yardeni]] — coined "AI fatigue"
-- [[AI workflow disruption basket]] — SaaSpocalypse sell side
+- [[February 2026 AI Disruption Cascade]] — SaaSpocalypse sell side
 - [[Energy and Utilities]] — energy as rotation beneficiary
 - [[Small cap rotation 2026]] — parallel rotation episode
 - [[Oil]] — peak demand repricing

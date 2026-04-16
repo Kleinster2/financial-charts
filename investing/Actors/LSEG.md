@@ -34,7 +34,7 @@ tags: [actor, company, financial-data, uk]
 
 Two-thirds of revenue from data/analytics — the segment most exposed to AI commoditization. Refinitiv terminal competes with Bloomberg, FactSet. If AI agents can synthesize market data from multiple sources, the terminal business model erodes.
 
-Added to [[AI workflow disruption basket]] Feb 2026 after -13% move during [[Claude Cowork disruption February 2026|SaaSpocalypse]].
+Fell -13% during the [[Claude Cowork disruption February 2026|SaaSpocalypse]]. Tracked in [[February 2026 AI Disruption Cascade]] as a Week 2 data/analytics victim.
 
 ---
 
@@ -43,6 +43,6 @@ Added to [[AI workflow disruption basket]] Feb 2026 after -13% move during [[Cla
 - [[FactSet]] — competitor in financial data
 - [[Morningstar]] — competitor in investment research
 - [[Thomson Reuters]] — former Refinitiv owner
-- [[AI workflow disruption basket]] — AIWD constituent
+- [[February 2026 AI Disruption Cascade]] — Week 2 data/analytics victim
 
 *Created 2026-02-07*

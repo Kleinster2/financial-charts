@@ -66,4 +66,3 @@ The $100M raise at launch is aggressive for a 7-month-old model. The [[Fei-Fei L
 - [[Stanford]] — research origin
 - [[CVS Health|CVS]] — key customer
 - [[Gallup]] — polling partnership
-- [[AI Transition Winners basket]] — potential addition if public

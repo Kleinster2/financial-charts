@@ -169,7 +169,7 @@ Subscription/recurring = high visibility.
 - [[Microsoft]] — bundling threat
 - [[Long defense AI]] — government cyber spend
 - [[AI cybersecurity disruption basket]] — tracks vendor disruption from AI labs
-- [[AI workflow disruption basket]] — sibling basket (SaaS disruption)
+- [[February 2026 AI Disruption Cascade]] — the broader SaaS disruption event the cyber cohort sat inside
 - [[Claude Code Security]] — Anthropic's AI vulnerability scanner (Feb 2026 catalyst)
 - [[Aardvark]] — OpenAI's autonomous vulnerability hunter
 - [[Claude Mythos]] — Anthropic's Capybara-tier model, leaked Mar 2026 (cybersecurity selloff catalyst)

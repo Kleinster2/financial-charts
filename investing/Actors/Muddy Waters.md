@@ -65,7 +65,7 @@ On WSJ's *Take On the Week* (April 12, 2026), Block argued that everything happe
 
 **The bailout tail.** Block thinks financial markets eventually reflate — *"the toothpaste back in the tube"* — but only after significant asset-value loss. Long-run view: *"QE forever, yield curve control forever. Financial assets get inflated."*
 
-Muddy Waters is running an "AI disruption basket" of shorts that was profitable at the time of the interview "but for the wrong reasons" — the Iran/oil narrative, not the thesis Block actually holds. See [[AI workflow disruption basket]].
+Muddy Waters is running an "AI disruption basket" of shorts that was profitable at the time of the interview "but for the wrong reasons" — the Iran/oil narrative, not the thesis Block actually holds. See [[February 2026 AI Disruption Cascade]].
 
 ---
 
@@ -135,7 +135,7 @@ The timing of reports is strategic — Claritev report came exactly as the SPAC 
 - [[Private Credit]] — PIK misalignment, forgery risk, insurance exposure
 - [[First Brands Group]] — precedent Block cites for private credit doc risk
 - [[CoreWeave]] — "most marginal player" in AI space
-- [[AI workflow disruption basket]] — Muddy Waters runs a similar short basket
+- [[February 2026 AI Disruption Cascade]] — Muddy Waters runs a similar short basket
 
 ---
 

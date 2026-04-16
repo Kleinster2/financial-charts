@@ -92,6 +92,22 @@ See [[Nuclear power for AI]] for context.
 
 ---
 
+## Bloom Energy 2.8 GW fuel cell deal (Apr 14, 2026)
+
+Oracle signed a multi-year agreement with [[Bloom Energy]] for ~2.8 GW of solid oxide fuel cell capacity across OCI data centers — the largest single SOFC commitment to date.
+
+| Term | Value |
+|------|-------|
+| Capacity | ~2.8 GW |
+| Partner | [[Bloom Energy]] (BE) |
+| Signed | Apr 14, 2026 |
+| Deployment | Multi-year, across OCI sites |
+| Bloom 2026 manufacturing target | 2 GW annual (barely enough to cover the deal) |
+
+Fits the Ellison BYOP playbook: while nuclear permits work through multi-year timelines, fuel cells deploy in under 50 days and deliver grid-independent baseload. Oracle gets power for [[Stargate]]/[[OpenAI]] capacity commitments without waiting on grid interconnects. Connects to [[Power constraints]], [[Power infrastructure bottleneck]] (the 44 GW gap the grid can't close), and [[Data center physical layer]]. See [[Bloom Energy#Oracle 2.8 GW deal (Apr 14, 2026)|BE Apr 14 section]] for full deal terms.
+
+---
+
 ## Oracle Cloud Infrastructure (OCI)
 
 Fastest-growing major cloud:

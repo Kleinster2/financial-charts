@@ -67,6 +67,7 @@ Hermes Agent competes directly with [[OpenClaw]] in the persistent autonomous ag
 - [[Long agent harnesses]] — investment thesis
 - [[OpenClaw]] — primary competitor
 - [[OpenRouter]] — model distribution
+- [[Decentralized AI landscape]] — category context
 
 ### Cross-vault
 - [Technologies: Hermes Agent](obsidian://open?vault=technologies&file=Hermes%20Agent) — technical architecture, gateway, learning loop, skills hub

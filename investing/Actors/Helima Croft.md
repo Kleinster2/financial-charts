@@ -107,6 +107,25 @@ Croft questioned the logistics of Hormuz reopening despite the two-week US-Iran 
 
 WTI rallied +3% to $97.87 as markets realized Hormuz remains effectively closed despite the ceasefire. Iran limiting transit to 4-9 ships/day, charging crypto tolls >$1M/vessel. Iran's parliamentary speaker accused the US of breaching the ceasefire (Israeli strikes on [[Lebanon]], drone in Iranian airspace, uranium enrichment denial). Exactly Croft's point: "Who's going to be comfortable moving ships when drones and missiles are still being fired around the region?"
 
+## April 13, 2026 — "Be prepared for further oil disruptions"
+
+Croft's most cautious framing yet, coming the day Trump announced the US Navy blockade of Iranian ports after the second-round peace talks collapsed. WTI jumped ~7% above $100 on the announcement.
+
+Key framing (CNBC Closing Bell Overtime):
+- "Oil's game of chicken continues to escalate" — "I'm not sure either side is prepared to swerve"
+- "If President Trump does indeed back his blockade threat with actual boats, a convergence between the paper and physical markets may soon come" — directly contradicts [[Robin J. Brooks]]'s view that blockade price risk is modest
+- Trump may be calculating that [[China]] becomes more active in negotiations if Iranian cargoes to its refineries get cut off
+- Tehran is likely to increase attacks on regional energy facilities if the blockade is enforced — meaning the feedback loop escalates rather than settles
+
+Position relative to peers:
+- [[Robin J. Brooks]] (Apr 14): Spring meetings will catalyze oil *down* as war-premium compresses
+- [[Mike Wilson]] (Apr 14): "lows are in" — equity correction ending
+- Croft (Apr 13): "Be prepared for further oil disruptions if Trump can't close a deal soon"
+
+Croft is the clearest oil-bull/risk-off voice among the Apr 13-14 commentators. Her thesis has held through five straight escalation phases (insurance → OPEC stranded → reserves Band-Aid → extended military operation → dual chokepoint → blockade). Watch for whether the Apr 14 WTI retrace (below $92 on Vance/Trump considering further talks) is a real de-escalation signal or another leg of the game of chicken.
+
+*Sources: [CNBC Closing Bell Overtime (Apr 13, 2026)](https://money.whatfinger.com/2026/04/13/be-prepared-for-further-oil-disruptions-if-trump-cant-close-a-deal-soon-says-rbcs-helima-croft/), [CNBC Apr 13 coverage](https://www.cnbc.com/2026/04/13/trump-hormuz-blockade-oil-shock-china-iran-india-vessels-peace-talks.html), [CNBC Apr 14 oil retrace](https://www.cnbc.com/2026/04/14/oil-wti-brent-as-markets-hormuz-blockade-vance-trump.html)*
+
 ---
 
 ## Related

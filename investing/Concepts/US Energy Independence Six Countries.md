@@ -49,16 +49,41 @@ Specifically validated the Morse analysis:
 
 Hochstein's additional point: vulnerability extends beyond transportation constraints to production infrastructure. "One accident in The United States and we have a problem" — citing the [[Valero]] Texas refinery accident (late March 2026) that was still not fully operational as of March 31, affecting jet fuel production.
 
+## April 15 — export surge tests the framework in both directions
+
+*Source: FT, "US crude exports hit record as Iran war disrupts Middle East supplies", Jamie Smyth, April 15, 2026.*
+
+April 15 crystallized both halves of the Morse framework simultaneously. The Gulf Coast export apparatus delivered its most extreme performance on record — US crude exports hit 5.2 million barrels per day, +1 mb/d week-on-week, as Asian and European refiners scrambled to substitute for Gulf barrels stranded behind the April 12 [[Strait of Hormuz]] blockade announcement. US refiners also exported approximately 7.5 million barrels of refined products into the same supply gap. Edward Hayden-Briffett ([[The Officials]], a division of [[Onyx Capital Group]]): Asian and European buyers are looking to substitute Middle Eastern supply, so US supply is the obvious replacement; many tankers are booked for loading from the Gulf in coming weeks, so US exports can remain elevated for a while.
+
+This is the "Gulf Coast economy" doing exactly what Morse described — functioning as a global exporter connected to seaborne markets. It worked. US crude inventories drew down. WTI closed at $91.69 (Apr 15) — 18% below the Apr 7 pre-ceasefire peak and lower than the Apr 8 ceasefire close, because every marginal US barrel reaching Asia partially offset blockade losses.
+
+Simultaneously, the coastal import economies hit their pain threshold. The US national average gasoline (AAA) breached $4.10/gallon — the politically decisive $4 level the vault flagged as a trigger for domestic pressure on de-escalation. Diesel reached $5.63, within $0.18 of its all-time high of $5.81. California gasoline was already above $6 by March 31 ([[Amos Hochstein]]). Morse's argument — "East and West Coast consumers face global commodity pricing regardless of Permian or Gulf Coast output" — is now visible at the pump.
+
+### Export-restriction trigger emerges
+
+[[Rapidan Energy Group]] (April 15) flagged the policy risk Morse warned about. In a client note, Rapidan said there is an increasing probability the administration orders US crude or refined-product export restrictions if prices continue climbing toward $150/bbl. The administration has continually reassured industry it is not contemplating restrictions, but a breakdown in the current ceasefire could create enough desperation to put export controls into active consideration.
+
+Morse's original panel warning (March 17): emergency-driven export controls would be "gumming up the works" because the structural mismatch — Gulf Coast surplus, coasts deficit — means restrictions don't solve the problem. The April 15 mechanics demonstrate exactly why: US exports are the physical release valve partially offsetting blockade losses globally. An export ban would spike Brent and Dubai prices (~$95 and higher), collapse WTI domestically, strand Gulf Coast production behind insufficient domestic pipeline capacity to reach the coasts, and leave California and East Coast pump prices unchanged or higher because they still price against global seaborne markets.
+
+The framework's diagnostic value on April 15 is that it explains why an apparently logical policy response (ban exports, keep crude at home) would fail: the US is not one market. Shutting the Gulf Coast export valve punishes producers without relieving the coasts.
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — the crisis that exposed the framework
 - [[Strait of Hormuz]] — the chokepoint
 - [[Iran conflict economic disruption]] — supply/demand arithmetic
+- [[Iran conflict oil price timeline]] — April 15 US export surge data
 - [[Jones Act]] — maritime shipping constraint
 - [[LNG]] — Gulf Coast export infrastructure
 - [[Oil]] — global market pricing
+- [[WTI]] — domestic benchmark; April 15 soft prices despite blockade
+- [[Gasoline]] — $4 pump-price threshold breached Apr 15
+- [[Rapidan Energy Group]] — $150 export-restriction trigger (Apr 15)
+- [[The Officials]] — research division of Onyx Capital Group, Apr 15 quote
 - [[Ed Morse]] — originator of the "six countries" framework
 
 ---
 
 *Source: CFR panel, "The Geoeconomic Ripple Effects of the Iran War" (March 17, 2026). Panelists: [[Eddie Fishman]] (moderator), [[Megan O'Sullivan]], [[Ed Morse]], [[Brad Setser]], [[Karen Young]].*
+
+*Updated 2026-04-15 — April 15 export surge section added (FT/Smyth).*

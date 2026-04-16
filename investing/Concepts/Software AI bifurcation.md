@@ -19,7 +19,7 @@ Software no longer trades as one sector under AI. The market now has to separate
 
 ## Synthesis
 
-The February 2026 selloff established the first split. The hardest-hit names were the ones selling workflow seats, expert time, or information intermediation into tasks that agents could plausibly absorb. That is what [[AI workflow disruption basket]] captures: software as a claim on human friction. But broad software proxies like [[IGV]] and the [[GS US Software Basket]] never matched the pure-disruption move because they also contained companies the market was starting to treat as AI enablers rather than casualties.
+The February 2026 selloff established the first split. The hardest-hit names were the ones selling workflow seats, expert time, or information intermediation into tasks that agents could plausibly absorb — see [[February 2026 AI Disruption Cascade]] for the full sector-by-sector repricing. Broad software proxies like [[IGV]] and the [[GS US Software Basket]] never matched the pure-disruption move because they also contained companies the market was starting to treat as AI enablers rather than casualties.
 
 That distinction matters inside the same ETF. [[Oracle]] increasingly trades like levered AI infrastructure wearing a software ticker: database franchise, [[OCI]] capacity, and hyperscaler-adjacent capex. [[Microsoft]] sits in the middle as both a workflow vendor and a control-point owner through Azure, [[OpenAI]] distribution, and enterprise identity. [[Salesforce]] is more conflicted. It is exposed to seat compression in CRM and support, but it also has a live claim on enterprise data, workflow context, and agent distribution through [[Agentforce]]. Software is too blunt a label for any of those three.
 
@@ -33,9 +33,9 @@ The durable read is that software is now being repriced by ownership of bottlene
 
 | Bucket | What the market is testing | Representative notes |
 |--------|-----------------------------|----------------------|
-| Workflow software | Can AI reduce seats, shrink advisory labor, or weaken pricing power? | [[AI workflow disruption basket]], [[Intuit]], [[ServiceNow]], [[Thomson Reuters]], [[RELX]] |
-| Integrated AI platforms inside software | Does the company own enough data, distribution, or compute access to stay central as agents spread? | [[AI control-point basket]], [[Oracle]], [[Microsoft]], [[Salesforce]] |
-| [[Security control points]] | Do policy, telemetry, and recovery vendors still own mandatory control surfaces under AI? | [[Security control points]], [[CrowdStrike]], [[Fortinet]], [[Palo Alto Networks]], [[Zscaler]], [[Rubrik]], [[Cloudflare]] |
+| Workflow software | Can AI reduce seats, shrink advisory labor, or weaken pricing power? | [[Intuit]], [[ServiceNow]], [[Thomson Reuters]], [[RELX]], [[February 2026 AI Disruption Cascade]] |
+| Integrated AI platforms inside software | Does the company own enough data, distribution, or compute access to stay central as agents spread? | [[Oracle]], [[Microsoft]], [[Salesforce]] |
+| [[Security control points]] | Do policy, telemetry, and recovery vendors still own mandatory control surfaces under AI? | [[CrowdStrike]], [[Fortinet]], [[Palo Alto Networks]], [[Zscaler]], [[Rubrik]], [[Cloudflare]] |
 | Neutral runtime / perimeter | Does value stay with the vendor-neutral layer, or migrate upstream to model providers? | [[Edge control-plane risk basket]], [[Edge cloud]], [[Cloudflare]], [[Fastly]], [[Akamai]], [[Agent harnesses]] |
 
 ---
@@ -44,11 +44,11 @@ The durable read is that software is now being repriced by ownership of bottlene
 
 | Proxy | What it captures | What it misses |
 |------|------------------|----------------|
-| [[AI workflow disruption basket]] | Purest public basket for application-software and information-intermediation risk | Underweights software names that benefit from AI |
 | [[IGV]] | Broad software tape, including both victims and beneficiaries | Too mixed to serve as a clean AI disruption proxy |
 | [[GS US Software Basket]] | Sell-side shorthand for software | Same mixing problem as IGV, just with Goldman construction |
-| [[February 2026 AI Disruption Cascade]] | The first full market repricing of AI workflow risk | Predates the April runtime/control-plane repricing |
+| [[February 2026 AI Disruption Cascade]] | The first full market repricing of AI workflow risk | Event-driven, not a structural basket — the names that sold off together do not co-move at baseline |
 | [[Anthropic Managed Agents selloff April 2026]] | Shows that even infrastructure software is not one clean factor | Narrower than the full software complex |
+| [[Security control points]] | The one software subset that passes a multi-year persistence test as a real cluster | Cybersecurity-specific; does not speak to workflow or integrated-platform names |
 
 ---
 
@@ -67,8 +67,6 @@ The label is no longer enough.
 
 ## Related
 
-- [[AI workflow disruption basket]]
-- [[AI control-point basket]]
 - [[Edge control-plane risk basket]]
 - [[Security control points]]
 - [[IGV]]

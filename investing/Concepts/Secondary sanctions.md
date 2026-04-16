@@ -50,6 +50,10 @@ Effectiveness: Leaky — 27% of Russian crude moves via shadow fleet, revenues o
 
 See [[Russia]] for details.
 
+### Iran — Chinese bank pressure (April 2026)
+
+[[Scott Bessent]] at the WSJ CEO Council (April 14, 2026) said Treasury is "reaching out to banks including Chinese banks to remind them that any Iranian goods and the purchases thereof are forbidden and that the dollars would be sanctioned and that we will press for secondary sanctions if there's a problem." Part of the newly-branded [[Operation Epic Fury#Economic pressure campaign — Operation Economic Fury|Operation Economic Fury]]. The novelty is not the threat but the operational posture — Gulf partners ([[UAE]], [[Qatar]], [[Saudi Arabia]]) now sharing Iranian regime bank accounts in their jurisdictions after absorbing Iranian missile fire, removing a traditional sanctions-evasion pathway.
+
 ### Iran — Tariff-based approach (Jan 2026)
 
 | Tool | Detail |

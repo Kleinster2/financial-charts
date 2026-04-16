@@ -7,7 +7,7 @@ tags: [basket/internal, ai, disruption, insurance, wealth-management]
 
 Financial services stocks that correlate on AI capability announcements threatening advisory and intermediation business models. Emerged as a distinct factor during the [[Insurify insurance broker selloff February 2026]] (Feb 9) and [[Altruist wealth management selloff February 2026]] (Feb 10) — the second and third [[AI disintermediation]] shocks after the [[Claude Cowork disruption February 2026|SaaSpocalypse]].
 
-Companion to [[AI workflow disruption basket|AIWD]] (software/data victims). Together, AIWD + AIFD cover the full AI disintermediation spectrum: AIWD = product replacement (SaaS seats → agents), AIFD = advisory replacement (human middlemen → AI comparison/planning tools).
+AIFD isolates the advisory-replacement leg of the cascade: human middlemen (insurance brokers, wealth advisors) being pressured by AI comparison and planning tools, as distinct from the product-replacement leg that hit software in Week 1 (SaaS seats → agents). See [[February 2026 AI Disruption Cascade]] for the full sequence.
 
 ---
 
@@ -74,19 +74,16 @@ WTW, AJG, AON, RYAN, BRO, MMC, RJF, LPLA, SCHW, SF
 ![[aifd-index.png]]
 *AIFD basket since Jan 2024. Peaked early 2025 around 112, ground down through H2 2025, then Feb 9-10 catalysts accelerated the decline. Now at ~98 — below the base date.*
 
-### vs AIWD and S&P 500
+### vs the broader software cascade
 
-![[aifd-vs-aiwd-vs-spy-price-chart.png]]
-*AIFD (blue) vs AIWD (red) vs SPY (green) since Jan 2024. SPY +48%, AIFD roughly flat, AIWD -18%. AIWD already in freefall from the SaaSpocalypse — AIFD is where AIWD was a week ago. If the AI disintermediation thesis keeps expanding across sectors, AIFD may follow AIWD's trajectory.*
-
-Key insight: AIFD tracked with SPY through mid-2025, then started diverging. The Feb 9-10 drop is modest compared to AIWD's cliff — financial services intermediation is earlier in the repricing cycle than software. This could mean either (a) AIFD has more downside ahead, or (b) financial services middlemen have stronger moats than SaaS companies.
+As of early Feb 2026, AIFD sat at roughly flat relative to its Feb 7 base while the Week 1 software victims (Intuit, ServiceNow, Salesforce, Thomson Reuters) were already down 20-40%. Financial services intermediation was earlier in the repricing cycle than software. Open question: does AIFD follow the software trajectory, or do licensing moats, fiduciary duties, and long enterprise relationships create a floor that software lacked?
 
 ---
 
-## AIFD vs AIWD: structural differences
+## AIFD vs the software cascade: structural differences
 
-| Dimension | AIWD (software) | AIFD (financial services) |
-|-----------|-----------------|--------------------------|
+| Dimension | Software (Week 1 victims) | AIFD (financial services) |
+|-----------|---------------------------|---------------------------|
 | Revenue model | Per-seat subscription | Commission/AUM fees |
 | Switching costs | Low-medium | High (relationships, contracts) |
 | Regulatory moat | Low | High (licensing, fiduciary duties) |
@@ -94,7 +91,7 @@ Key insight: AIFD tracked with SPY through mid-2025, then started diverging. The
 | Speed of disruption | Fast (software can switch tools quickly) | Slow (enterprise relationships, compliance) |
 | Feb 2026 drawdown | -18% from peak | ~-12% from peak |
 
-AIFD constituents may be structurally more defensible than AIWD — insurance brokers have 90%+ retention rates, licensed regulatory requirements, and complex commercial relationships that resist commoditization. But the personal lines / simple advisory wedge is real, and margin compression doesn't require full replacement.
+AIFD constituents may be structurally more defensible than the Week 1 software victims — insurance brokers have 90%+ retention rates, licensed regulatory requirements, and complex commercial relationships that resist commoditization. But the personal lines / simple advisory wedge is real, and margin compression doesn't require full replacement.
 
 ---
 
@@ -115,12 +112,13 @@ Watch for:
 
 ## Related
 
-- [[AI workflow disruption basket]] — companion basket (software/data victims)
+- [[February 2026 AI Disruption Cascade]] — the broader repricing this basket sits inside
+- [[Software AI bifurcation]] — why AIFD persists as a cluster while event-derived software composites do not
 - [[Alternative asset managers basket]] — control group (sold off in Wave 1 as collateral damage, then recovered)
-- [[AI disintermediation]] — thesis driving both baskets
+- [[AI disintermediation]] — thesis driving the financial-services advisory leg
 - [[Insurify insurance broker selloff February 2026]] — insurance catalyst (Feb 9)
 - [[Altruist wealth management selloff February 2026]] — wealth management catalyst (Feb 10)
-- [[Claude Cowork disruption February 2026]] — original SaaSpocalypse (AIWD catalyst)
+- [[Claude Cowork disruption February 2026]] — original SaaSpocalypse catalyst
 - [[Insurify]] — insurance AI trigger
 - [[Altruist]] — wealth management AI trigger
 - [[Insurance]] — sector note

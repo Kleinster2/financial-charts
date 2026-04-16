@@ -129,4 +129,4 @@ Companies like [[Goldman Sachs]] building directly on Claude suggest the winning
 - [[Publicis]] — advertising, AI disruption exposure
 - [[Goldman Sachs]] — building AI agents on Claude
 - [[AI-native enterprise learning]] — vertical where specialists clearly win
-- [[AI workflow disruption basket]] — tracking horizontal disruption exposure
+- [[February 2026 AI Disruption Cascade]] — horizontal disruption exposure playing out across sectors

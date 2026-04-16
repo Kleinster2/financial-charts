@@ -26,7 +26,7 @@ Alibaba is reinventing itself as an AI company:
 
 | Metric | Value |
 |--------|-------|
-| AI investment | **$53B+** pledged (2025) |
+| AI investment | $53B+ pledged (2025) |
 | Cloud position | \#1 in China (~35% share) |
 | AI model | Qwen (通义千问) — open source |
 | Developers | 16M on ModelScope |
@@ -37,13 +37,13 @@ Alibaba is reinventing itself as an AI company:
 
 ## Alibaba Cloud
 
-**China's largest cloud:**
+China's largest cloud:
 - ~35% China cloud market share
 - Competitor to Tencent Cloud, [[Huawei]] Cloud
 - Enterprise + government customers
 - International expansion (limited)
 
-**AI infrastructure:**
+AI infrastructure:
 - Building GPU clusters
 - Limited to H200/older chips (export controls)
 - Can't access Blackwell
@@ -53,7 +53,7 @@ Alibaba is reinventing itself as an AI company:
 
 ## AI transformation under Eddie Wu
 
-**CEO since 2023** — reorienting Alibaba around AI:
+CEO since 2023 — reorienting Alibaba around AI:
 
 | Priority | Action |
 |----------|--------|
@@ -62,29 +62,29 @@ Alibaba is reinventing itself as an AI company:
 | Divesting non-core | Selling businesses to fund AI |
 | Startup mindset | Return to aggressive innovation |
 
-**DeepSeek response:** When DeepSeek R1 dropped (Jan 2025), Qwen team canceled Chinese New Year, stayed 8 days in office, shipped Qwen 2.5 to match it.
+DeepSeek response: When DeepSeek R1 dropped (Jan 2025), Qwen team canceled Chinese New Year, stayed 8 days in office, shipped Qwen 2.5 to match it.
 
 ---
 
 ## Qwen AI model
 
-**Alibaba's open-source LLM family:**
+Alibaba's open-source LLM family:
 - Qwen series (通义千问) — text, images, translation
-- **Open source** — developers can modify, redistribute, commercialize free
+- Open source — developers can modify, redistribute, commercialize free
 - Qwen3 (April 2025) — most advanced version
 - Powers Quark app, cloud customers, partnerships
-- **700M+ downloads** on [[Hugging Face]] (Jan 2026) — leads China open-source
+- 700M+ downloads on [[Hugging Face]] (Jan 2026) — leads China open-source
 
-**Open source strategy (evolving — see [[#Qwen leadership transition — open-source to revenue pivot (2026)|leadership transition]]):**
+Open source strategy (evolving — see [[#Qwen leadership transition — open-source to revenue pivot (2026)|leadership transition]]):
 - Default in China through 2025 (vs closed in US)
 - Drove massive adoption — 1B+ downloads, 16M developers on ModelScope
 - As of April 2026, Alibaba pivoting to keep leading models proprietary for cloud customers while continuing open-source in select areas
 
-**Vs competitors:**
+Vs competitors:
 | Company | Model | Approach | MAU |
 |---------|-------|----------|-----|
-| [[ByteDance]] | [[Doubao]] | Mixed | **172M** |
-| **Alibaba** | Qwen | Open source | **203M** (Feb 2026, up from 31M Jan) |
+| [[ByteDance]] | [[Doubao]] | Mixed | 172M |
+| Alibaba | Qwen | Open source | 203M (Feb 2026, up from 31M Jan) |
 | [[Baidu]] | [[Ernie]] | Closed | — |
 | Tencent | [[Hunyuan]] | Mixed | — |
 
@@ -92,31 +92,31 @@ Alibaba is reinventing itself as an AI company:
 
 ## Qwen App — Agentic AI super app (Jan 2026)
 
-**Biggest step into consumer-facing AI:**
+Biggest step into consumer-facing AI:
 
 Alibaba integrating its services into Qwen app to create one-stop AI platform:
 
 | Service | Function | Integration status |
 |---------|----------|-------------------|
-| **Taobao** | Shopping | Jan 2026 (testing) |
-| **Alipay** | Payments | Jan 2026 (testing) |
-| **Fliggy** | [[Travel]] booking | Jan 2026 (testing) |
-| **Amap** | Navigation | Jan 2026 (testing) |
-| **Ele.me** | Food delivery | In progress |
+| Taobao | Shopping | Jan 2026 (testing) |
+| Alipay | Payments | Jan 2026 (testing) |
+| Fliggy | [[Travel]] booking | Jan 2026 (testing) |
+| Amap | Navigation | Jan 2026 (testing) |
+| Ele.me | Food delivery | In progress |
 
-**Qwen app stats:**
+Qwen app stats:
 - Launched November 2025
-- **203M MAU** (Feb 2026) — up from 100M (Jan), 31M (Dec)
+- 203M MAU (Feb 2026) — up from 100M (Jan), 31M (Dec)
 - #3 globally behind [[ChatGPT]] and [[Doubao]]
 - Surge driven by aggressive Lunar New Year holiday campaigns
 - Goal: All-around personal assistant
 
-**"Task assistant" feature (invite-only):**
+"Task assistant" feature (invite-only):
 - Make phone calls to restaurants
 - Build web applications
 - Complex multi-step tasks
 
-**VP Wu Jia (Jan 2026):**
+VP Wu Jia (Jan 2026):
 > "AI is evolving from intelligence to agency. What we are launching today represents a shift from models that understand to systems that act — deeply connected to real-world services."
 
 ---
@@ -131,8 +131,8 @@ The open-source [[Qwen]] strategy feeds this: by giving away the model, Alibaba 
 
 | Metric | Value |
 |--------|-------|
-| MaaS share of cloud revenue (projected) | **30%+** |
-| Cloud AI growth streak | **10 consecutive quarters** of triple-digit growth |
+| MaaS share of cloud revenue (projected) | 30%+ |
+| Cloud AI growth streak | 10 consecutive quarters of triple-digit growth |
 | Vertical stack | Model ([[Qwen]]) → Cloud → Enterprise → Silicon ([[Zhenwu 810E]]) |
 | Strategy vs ByteDance | Full-stack integration vs commodity pricing |
 
@@ -169,39 +169,59 @@ The departures came at a contradictory moment — [[Qwen]] mobile app MAU had su
 
 ---
 
+## Dual-track AI video strategy (Apr 13, 2026)
+
+Recode China AI documented Alibaba's deliberate "bankrolling-while-competing" posture in Chinese AI video. Alibaba is simultaneously developing its own leading model ([[Happy Horse|HappyHorse-1.0]], now No. 1 on Artificial Analysis blind-test leaderboards) while leading the Series B rounds of two direct competitors.
+
+| Company / Model | Alibaba investment | Date |
+|-----------------|-------------------|------|
+| AISphere / [[PixVerse]] | $60M Series B lead | Sep 2025 |
+| ShengShu Technology / [[Vidu]] | $290M Series B lead (Alibaba Cloud) | Apr 2026 |
+| In-house [[Happy Horse]] | ATH AI Innovation Unit | Launch Apr 2026 |
+
+Strategic read: Alibaba wants to be relevant at every layer of the AI-video stack regardless of which specific model wins. The pattern mirrors its [[large language model|LLM]] play — [[Qwen]] competes with [[ByteDance]]'s Seed series while Alibaba also backs MiniMax, Moonshot AI, and Zhipu AI. The cloud compute tailwind is the same story: video generation is the most compute-intensive consumer AI workload, and all three of these products buy Alibaba Cloud capacity. AI-workload growth drove [[Alibaba Cloud]]'s 36% quarterly revenue growth.
+
+Competitor context: ByteDance's [[Seedance]] 2.0 was recently forced to pause rollout following Hollywood/streaming-studio copyright disputes — removing Alibaba's strongest in-market competitor at a critical moment. Kuaishou's Kling AI reached $300M ARR by Jan 2026 (up from $150M 2025 revenue). Global competition: Runway raised $315M in Feb 2026 at a $5.3B valuation.
+
+Forward framing: both [[PixVerse]] and [[Vidu]] position video generation as "the on-ramp to world models," the next AI paradigm. AISphere's R1 model does real-time interactive world modeling (2-second latency) with gaming-industry traction; ShengShu developed Motus, an embodied-AI model for robotics and industrial automation.
+
+*Source: [Alibaba is Bankrolling China's AI Video Race—Then Racing Against It](https://recodechinaai.substack.com/p/alibaba-is-bankrolling-chinas-ai), Recode China AI, April 13, 2026.*
+
+---
+
 ## Agentic AI advantage
 
-**Why super apps have edge:**
+Why super apps have edge:
 
 Bloomberg Intelligence: "Alibaba can drive this new form of engagement at lower incremental investment than Chinese and global tech peers."
 
 | Company | Agentic readiness | Notes |
 |---------|------------------|-------|
-| **Alibaba** | High | Full execution stack (shopping, payments, logistics) |
-| **Tencent** | High | WeChat super app |
+| Alibaba | High | Full execution stack (shopping, payments, logistics) |
+| Tencent | High | WeChat super app |
 | [[Amazon]] | Medium | Shopping + payments, less integrated |
 | [[Google]]/[[OpenAI]] | Lower | Need to build commerce layer |
 | JD.com | Medium | Commerce but narrower |
 | [[Meituan]] | Medium | Local services focused |
 
-**Key insight:** Agentic shopping requires full execution stack — not just AI model. Alibaba already has shopping, payments, delivery, travel in one ecosystem.
+Key insight: Agentic shopping requires full execution stack — not just AI model. Alibaba already has shopping, payments, delivery, travel in one ecosystem.
 
 ---
 
 ## AI product stack
 
-**ModelScope** — Alibaba's AI app store:
+ModelScope — Alibaba's AI app store:
 - Hundreds of pre-trained models
 - 16M developers
 - Thousands of models built on platform
 - Plug AI into business without starting from scratch
 
-**Quark** — [[Consumer AI]] assistant:
+Quark — [[Consumer AI]] assistant:
 - ~150M monthly active users
 - AI toolbox for business/life
 - "Operating system for life run on smart AI"
 
-**Aliyun (Alibaba Cloud)** — AI distribution hub:
+Aliyun (Alibaba Cloud) — AI distribution hub:
 - Businesses run Qwen on cloud
 - Powers chatbots, enterprise tools
 - Positioning as AWS/Azure rival for AI
@@ -210,17 +230,17 @@ Bloomberg Intelligence: "Alibaba can drive this new form of engagement at lower 
 
 ## Export control impact
 
-**What Alibaba can access:**
+What Alibaba can access:
 - H200 (approved Dec 2025)
 - Older NVIDIA GPUs
 - [[AMD]] alternatives
 
-**What Alibaba can't access:**
+What Alibaba can't access:
 - Blackwell (B200)
 - Future cutting-edge
 - EUV-manufactured chips
 
-**[[Gap]] widening:** US competitors train on Blackwell while Alibaba stuck on H200.
+[[Gap]] widening: US competitors train on Blackwell while Alibaba stuck on H200.
 
 ---
 
@@ -282,7 +302,7 @@ CEO Yongming Wu (Mar 2026): response to the gap is "more profound co-design with
 - Yitian 710 (倚天) — ARM-based server CPU (2021)
 - [[Hanguang 800]] (含光) — AI inference chip (earlier generation)
 
-**Strategic value:** [[RISC-V]] = no ARM licensing, no US export restrictions on architecture. The Zhenwu 810E removes [[NVIDIA]] GPU dependency for training. Together, [[Alibaba]] can run its entire AI stack on self-designed silicon. See [[RISC-V]].
+Strategic value: [[RISC-V]] = no ARM licensing, no US export restrictions on architecture. The Zhenwu 810E removes [[NVIDIA]] GPU dependency for training. Together, [[Alibaba]] can run its entire AI stack on self-designed silicon. See [[RISC-V]].
 
 ---
 
@@ -303,52 +323,52 @@ Alibaba leads in cloud but trails ByteDance in AI buzz.
 
 | Partner | Deal |
 |---------|------|
-| **[[BMW]]** | Qwen in intelligent vehicles (2026 launch) |
-| **[[Apple]]** | Alibaba AI in iPhones in China |
+| [[BMW]] | Qwen in intelligent vehicles (2026 launch) |
+| [[Apple]] | Alibaba AI in iPhones in China |
 | Local governments | AI labs, infrastructure |
 | Universities | Research partnerships |
 
-**Strategic value:** Real test cases for industry-specific models (automotive, consumer).
+Strategic value: Real test cases for industry-specific models (automotive, consumer).
 
 ---
 
 ## AI financial performance
 
-**Cloud Intelligence Group (Aug 2025):**
+Cloud Intelligence Group (Aug 2025):
 - 26% YoY revenue increase
 - AI-related projects: triple-digit growth for 8 consecutive quarters
 
-**[[Morgan Stanley]] projection:** China AI investments could deliver 52% returns by 2030.
+[[Morgan Stanley]] projection: China AI investments could deliver 52% returns by 2030.
 
 ---
 
 ## Stock performance
 
-**Stock doubled since start of 2025:**
+Stock doubled since start of 2025:
 - AI enthusiasm driving revaluation
 - Outperforming US hyperscalers in AI selloff
 - Jack Ma re-engaged ("Make Alibaba Great Again")
 - Cost control + AI investment balance
 
-**Jan 2026:** Shares +20% in 4 days before Qwen app announcement, then pullback ("sell the fact").
+Jan 2026: Shares +20% in 4 days before Qwen app announcement, then pullback ("sell the fact").
 
 ---
 
 ## Valuation disconnect
 
-**Alibaba trades at steep discount to US peers:**
+Alibaba trades at steep discount to US peers:
 - China regulatory risk
 - Export control impact
 - Geopolitical concerns
 - Growth slowdown
 
-**Counter:** Cloud + AI growing, $53B investment, core commerce stable, stock catching up.
+Counter: Cloud + AI growing, $53B investment, core commerce stable, stock catching up.
 
 ---
 
 ## AI hardware: DingTalk A1
 
-**Wearable AI play:**
+Wearable AI play:
 - DingTalk = Alibaba's enterprise collaboration app (China's [[Slack]])
 - DingTalk A1 = credit card-sized AI device
 - Voice notes, transcription, summarization
@@ -361,7 +381,7 @@ See [[Wearable AI]] for competitive landscape.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - China cloud leader
 - AI investment ongoing
 - Valuation depressed
@@ -369,7 +389,7 @@ See [[Wearable AI]] for competitive landscape.
 - Qwen model competitive
 - AI hardware expansion (DingTalk A1)
 
-**Bear:**
+Bear:
 - Export controls cap AI capability
 - China regulatory risk
 - Geopolitics (delisting risk?) — [[#White House PLA allegations (Nov 2025)|PLA allegations]] heighten sanctions/Entity List risk
@@ -388,14 +408,14 @@ See [[Wearable AI]] for competitive landscape.
 | AI investment | $53B+ pledged |
 | Cloud share | \#1 China (~35%) |
 | AI model | Qwen (open source) |
-| Qwen app | **203M MAU** (Feb 2026; was 31M Jan) |
+| Qwen app | 203M MAU (Feb 2026; was 31M Jan) |
 | Qwen models released | 400+ open-source since 2023 |
-| Qwen downloads | **1B+** across platforms |
-| [[Hugging Face]] downloads | **700M+** |
+| Qwen downloads | 1B+ across platforms |
+| [[Hugging Face]] downloads | 700M+ |
 | Quark app | ~150M MAU |
 | ModelScope | 16M developers |
 | CEO | Eddie Wu (since 2023) |
-| Stock YTD (2025) | **+100%+** (doubled) |
+| Stock YTD (2025) | +100%+ (doubled) |
 
 *Updated 2026-04-10*
 

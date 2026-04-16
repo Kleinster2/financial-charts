@@ -195,6 +195,12 @@ Gold signal: Price of gold indicates "at the margin, people are reducing their e
 | Successor | [[Kevin Warsh]] (nominated Jan 30, 2026) |
 | Legacy | COVID response, inflation fight, defended independence |
 
+### Chair pro tem scenario (Bessent, April 14)
+
+At the WSJ CEO Council, [[Scott Bessent]] said he is "confident that Kevin will be in situ" by mid-May, but identified fallback options if [[Kevin Warsh|Warsh]] is not confirmed in time. On whether Powell could continue as chair pro tem: "That's unclear." Alternative candidates for chair pro tem: [[Philip Jefferson]] (sitting vice chair), [[Chris Waller]]. Bessent added: "I think the president of the United States probably has a preference."
+
+As of the March 19, 2026 presser (above), Powell said he expects to remain as chair temporarily if Warsh is not confirmed.
+
 Market uncertainty: New chair's policy stance unknown. Could be more dovish under political pressure.
 
 Governor question: Powell declined to say if he would remain as a Governor after his Chair term ends. Board seat expires 2028.

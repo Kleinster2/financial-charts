@@ -186,13 +186,13 @@ See [[Long nuclear]].
 
 US energy sector up 17% YTD as capital rotates out of software on AI disruption fears. XLE +24% vs IGV -20% over 12 months (~44pp divergence). US majors trade at >75% EV/EBITDA premium to European peers.
 
-See [[AI workflow disruption basket]] for the other side of this trade.
+See [[February 2026 AI Disruption Cascade]] for the other side of this trade.
 
 ---
 
 ## Related
 
-- [[AI workflow disruption basket]] — software selloff driving rotation into energy
+- [[February 2026 AI Disruption Cascade]] — software selloff driving rotation into energy
 - [[Power constraints]] — AI bottleneck
 - [[Long nuclear]] — thesis
 - [[Nuclear renaissance]] — context

@@ -169,7 +169,28 @@ The insight: personnel matters less than the structural change in the job itself
 
 ---
 
-*Created 2026-01-14 · Updated 2026-01-31*
+---
+
+## Confirmation timeline — April 2026
+
+| Date | Event |
+|---|---|
+| April 21, 2026 (next Tuesday) | Senate Banking Committee hearing |
+| May 15, 2026 | [[Jerome Powell]] chair term formally expires |
+
+Senator [[Tom Tillis]] continues to condition confirmation on resolution of the DOJ investigation of [[Jerome Powell|Powell]] ("I'm not going to confirm him until the legal case is done"). [[Scott Bessent]] on April 14 said he remains "confident that Kevin will be in situ by" the term expiration. If Warsh is not confirmed by mid-May, chair pro tem options include [[Philip Jefferson]] (sitting vice chair), [[Chris Waller]], or Powell himself. Bessent on Jay Powell staying: "unclear." Bessent: "I think the president of the United States probably has a preference."
+
+*Source: WSJ Opinion, Paul Gigot interview, 2026-04-14*
+
+---
+
+## Balance sheet views (from Bessent, April 2026)
+
+Bessent on implementing the Warsh vision of a smaller Fed balance sheet: "Very difficult to get to a much smaller balance sheet from here." Regime shift to ample reserves would require banking regulation changes, which "could be done through the agencies" rather than needing Congress. Bessent admires the [[Bank of England]] QE approach — "step in during a market dislocation, stabilize the market, then move away" — and claims BoE "probably made a lot of money on their bond trading" vs. the Fed losing "$100 billion a year because they purchased so much at such terrible prices." See [[Fed balance sheet QT]].
+
+---
+
+*Created 2026-01-14 · Updated 2026-04-15*
 
 ---
 

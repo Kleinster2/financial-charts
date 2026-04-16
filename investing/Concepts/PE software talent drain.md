@@ -129,7 +129,7 @@ The [[Alternative asset managers basket|ALTM]] selloff during the [[Claude Cowor
 - [[AI disintermediation]] — the thesis making this problem existential
 - [[Alternative asset managers basket]] — ALTM tracks the equity impact on PE firms
 - [[AI financial disintermediation basket]] — AIFD tracks the advisory victims
-- [[AI workflow disruption basket]] — AIWD tracks the software victims
+- [[February 2026 AI Disruption Cascade]] — event-level view of the software victims
 - [[Claude Cowork disruption February 2026]] — the catalyst that exposed PE software risk
 - [[Private Equity]] — sector note
 - [[Alternative asset manager]] — concept note

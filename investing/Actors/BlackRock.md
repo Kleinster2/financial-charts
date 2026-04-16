@@ -3,7 +3,7 @@ aliases: [BLK]
 ---
 #actor #finance #asset-manager #usa #public
 
-**BlackRock** — World's largest asset manager. **$14T AUM** (record). Major AI investor through funds. Pivoting into private markets.
+**BlackRock** — World's largest asset manager. $14T AUM (record). Major AI investor through funds. Pivoting into private markets.
 
 ---
 
@@ -26,8 +26,8 @@ BLK trades as a core Financials name (XLF r = 0.83).
 |--------|-------|
 | Ticker | BLK (NYSE) |
 | Market cap | ~$150B |
-| AUM | **$14T** (record, Q4 2024) |
-| ETF AUM | **$5.5T** |
+| AUM | $14T (record, Q4 2024) |
+| ETF AUM | $5.5T |
 | Position | \#1 asset manager globally |
 
 ---
@@ -36,19 +36,43 @@ BLK trades as a core Financials name (XLF r = 0.83).
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| AUM | **$14T** | Record |
-| Q4 net flows | **$342B** | Strong institutional demand |
+| AUM | $14T | Record |
+| Q4 net flows | $342B | Strong institutional demand |
 | Q4 long-term flows | $268B | Beat $232B estimate |
 | ETF flows | $181B | Passive momentum continues |
-| FY 2025 flows | **$698B** | Record |
-| EPS (adj) | **$13.16** | Beat $12.28 est (+10% YoY) |
+| FY 2025 flows | $698B | Record |
+| EPS (adj) | $13.16 | Beat $12.28 est (+10% YoY) |
 | Revenue | $7B | +23% YoY |
 
-**Stock:** +2% premarket on earnings beat (Jan 15).
+Stock: +2% premarket on earnings beat (Jan 15).
 
-**Historical:** Beat expectations every quarter in 2025. Highest beat in Q3 (+3.22%).
+Historical: Beat expectations every quarter in 2025. Highest beat in Q3 (+3.22%).
 
-**Citigroup outsourcing:** $80B of wealthy client assets transferred to BlackRock — one of industry's biggest outsourcing deals.
+Citigroup outsourcing: $80B of wealthy client assets transferred to BlackRock — one of industry's biggest outsourcing deals.
+
+---
+
+## Q1 2026 earnings (Apr 15, 2026)
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| AUM | $13.9T | vs $11.6T YoY (+20%) |
+| Q1 long-term net inflows | $135.9B | Record Q1 organic |
+| TTM long-term inflows | $620B | Trailing 12 months |
+| ETF inflows | $132B | Record Q1 |
+| Revenue | $6.7B | +27% YoY |
+| GAAP net income | $2.212B | |
+| GAAP diluted EPS | $14.06 | +46% YoY |
+| Adj EPS | $12.53 | vs $11.30 YoY |
+| GAAP op margin | 42.0% | vs 32.2% YoY |
+| Adj op margin | 44.5% | vs 43.2% YoY |
+| Organic base fee growth | 13% | Record |
+
+Stock: opened modestly higher on earnings beat; results confirmed private markets + ETF flywheel is still compounding post-GIP/HPS integration.
+
+Notable: 27% revenue growth driven by full quarter of GIP and HPS contribution, plus record ETF flows. Sets high bar for peers ([[T. Rowe Price]], [[Franklin Resources]], [[State Street]]) reporting later in the week. Confirms the [[Private markets]] thesis — alternatives fee pool is now a structural tailwind, not a cycle-dependent revenue line.
+
+Cited alongside [[Larry Fink]]'s annual letter themes on infrastructure, private credit, and the erosion of the 60/40 portfolio.
 
 ---
 
@@ -56,7 +80,7 @@ BLK trades as a core Financials name (XLF r = 0.83).
 
 | Segment | AUM | Focus |
 |---------|-----|-------|
-| ETFs (iShares) | **$5.5T** | Passive investing |
+| ETFs (iShares) | $5.5T | Passive investing |
 | Institutional | ~$4T | Pensions, sovereigns |
 | Retail | ~$1.5T | Mutual funds |
 | [[Private markets]] | Growing | Credit, infrastructure |
@@ -66,7 +90,7 @@ BLK trades as a core Financials name (XLF r = 0.83).
 
 ## AI relevance
 
-**Multiple AI angles:**
+Multiple AI angles:
 
 | Connection | Description |
 |------------|-------------|
@@ -81,7 +105,7 @@ BlackRock's passive funds are top holders of NVIDIA, Microsoft, etc.
 
 ## Aladdin platform
 
-**Enterprise risk management:**
+Enterprise risk management:
 
 | Metric | Value |
 |--------|-------|
@@ -96,7 +120,7 @@ AI/ML used for risk analytics, portfolio optimization.
 
 ## [[Private markets]] pivot
 
-**~$28B acquisition spree (2024):**
+~$28B acquisition spree (2024):
 
 | Acquisition | Focus | Status |
 |-------------|-------|--------|
@@ -104,11 +128,11 @@ AI/ML used for risk analytics, portfolio optimization.
 | HPS Investment Partners | [[Private credit]] | Completed July 2024 |
 | Preqin | [[Private markets]] data | Completed |
 
-**Q4 private/alternatives inflows:** $15.6B
+Q4 private/alternatives inflows: $15.6B
 
-**Strategy:** Transform from public markets dominant → force in private credit and infrastructure globally. New products targeting wealthy retail and 401(k) plans.
+Strategy: Transform from public markets dominant → force in private credit and infrastructure globally. New products targeting wealthy retail and 401(k) plans.
 
-**[[Larry Fink]]:** "Around the world, clients are looking to do more across BlackRock."
+[[Larry Fink]]: "Around the world, clients are looking to do more across BlackRock."
 
 ---
 
@@ -147,14 +171,14 @@ Key shifts (Apr 7 Bloomberg interview): reduced European HY and IG, added agency
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Secular shift to passive
 - Aladdin platform moat
 - Infrastructure growth
 - [[Private markets]] expansion
 - Scale advantages
 
-**Bear:**
+Bear:
 - Fee pressure
 - Market beta dependency
 - Regulatory scrutiny
@@ -183,54 +207,54 @@ Key shifts (Apr 7 Bloomberg interview): reduced European HY and IG, added agency
 
 ### TCPC dividend cut — private credit stress signal
 
-BlackRock TCP Capital (TCPC), a publicly traded BDC (business development company) managed by BlackRock, **slashed its dividend 32%** from $0.25 → $0.17/share.
+BlackRock TCP Capital (TCPC), a publicly traded BDC (business development company) managed by BlackRock, slashed its dividend 32% from $0.25 → $0.17/share.
 
 | Metric | Value |
 |--------|-------|
 | Q4 2025 NII | $0.26/share |
-| New dividend | **$0.17/share** (-32% from $0.25) |
-| Stock reaction | **-8.7%** intraday |
-| NAV cut (Jan 2026) | **-19%** — sent shares tumbling |
-| Net regulatory leverage | **1.41×** (elevated) |
-| New investment yield | **9.7%** (Q4 new deployments) |
-| Exited investment yield | **11.1%** (negative yield migration) |
-| Key exposure losses | E-commerce aggregators (Amazon seller roll-ups), **Renovo Home Partners** (filed bankruptcy) |
+| New dividend | $0.17/share (-32% from $0.25) |
+| Stock reaction | -8.7% intraday |
+| NAV cut (Jan 2026) | -19% — sent shares tumbling |
+| Net regulatory leverage | 1.41× (elevated) |
+| New investment yield | 9.7% (Q4 new deployments) |
+| Exited investment yield | 11.1% (negative yield migration) |
+| Key exposure losses | E-commerce aggregators (Amazon seller roll-ups), Renovo Home Partners (filed bankruptcy) |
 
 TCPC is a middle-market lending fund. Statement: "The company's highest near-term priority is to improve portfolio credit quality by working diligently to resolve challenged credits."
 
-**Declining rates are a double squeeze:** New investments yielding 9.7% vs 11.1% for exits — every dollar redeployed earns less. Meanwhile soured loans eat into the shrinking income.
+Declining rates are a double squeeze: New investments yielding 9.7% vs 11.1% for exits — every dollar redeployed earns less. Meanwhile soured loans eat into the shrinking income.
 
-**Not isolated — BDC-wide stress:**
-- **Blue Owl Capital** halted quarterly withdrawals from one of its retail funds (same week)
-- **Future Standard / [[KKR]]** jointly managed BDC also plunged Thursday after cutting dividend more than forecast — same dynamics (lower rates + troubled investments)
+Not isolated — BDC-wide stress:
+- Blue Owl Capital halted quarterly withdrawals from one of its retail funds (same week)
+- Future Standard / [[KKR]] jointly managed BDC also plunged Thursday after cutting dividend more than forecast — same dynamics (lower rates + troubled investments)
 
-**Why it matters:** This is [[Private credit]] stress showing up in public markets. If BlackRock's own BDC is cutting dividends 32%, weaker BDCs are in deeper trouble. The Amazon seller roll-up exposure is particularly telling — these are exactly the kind of leveraged, low-quality borrowers that thrived in the easy money era and are now unraveling. Connects to [[Treasury safe asset erosion|credit market echoes]].
+Why it matters: This is [[Private credit]] stress showing up in public markets. If BlackRock's own BDC is cutting dividends 32%, weaker BDCs are in deeper trouble. The Amazon seller roll-up exposure is particularly telling — these are exactly the kind of leveraged, low-quality borrowers that thrived in the easy money era and are now unraveling. Connects to [[Treasury safe asset erosion|credit market echoes]].
 
 ### JGBs as safe asset alternative — "Golden Age"
 
-**Navin Saigal** (BlackRock head of global fixed income, Asia Pacific) on Bloomberg TV called the current backdrop a **"golden age"** for investing in Japanese government bonds.
+Navin Saigal (BlackRock head of global fixed income, Asia Pacific) on Bloomberg TV called the current backdrop a "golden age" for investing in Japanese government bonds.
 
 | Maturity | JGB yield (unhedged) | Dollar-hedged yield | vs Treasury pickup |
 |----------|---------------------|--------------------|--------------------|
-| 20-year | ~4% | **~6.06%** | **+140bps** over comparable Treasury |
-| 30-year | ~4% | **~6%+** | **+175bps** over comparable Treasury |
+| 20-year | ~4% | ~6.06% | +140bps over comparable Treasury |
+| 30-year | ~4% | ~6%+ | +175bps over comparable Treasury |
 
-**The trade:** ~4% from JGB coupon + ~2% FX hedge pickup (lending dollars, receiving yen). PIMCO also highlighting this.
+The trade: ~4% from JGB coupon + ~2% FX hedge pickup (lending dollars, receiving yen). PIMCO also highlighting this.
 
 ![[jgb-fx-hedged-vs-treasuries-30y-bloomberg.jpg]]
 *30Y JGB FX-hedged (orange) vs Treasuries (white) vs JGB unhedged (gray). Since 2022, hedged JGBs have consistently yielded more than Treasuries. Source: Bloomberg.*
 
-**Risks:**
-- Long-dated JGBs are illiquid and volatile — 20Y and 30Y spiked last month on fears PM Takaichi would ramp fiscal spending, wiping out **$41B** from the bond market
-- Currency-hedged JGB returns (20Y+) fell **>15% last year** — worst in a decade
-- Japan still has **negative real yields** — so the real return story depends on the FX hedge holding
+Risks:
+- Long-dated JGBs are illiquid and volatile — 20Y and 30Y spiked last month on fears PM Takaichi would ramp fiscal spending, wiping out $41B from the bond market
+- Currency-hedged JGB returns (20Y+) fell >15% last year — worst in a decade
+- Japan still has negative real yields — so the real return story depends on the FX hedge holding
 - Saigal himself caveatted: "opportunistic trades" not core portfolio allocation; position smaller to control volatility
 
-**The subtext:** If the world's largest asset manager is publicly steering clients toward JGBs over Treasuries, that's a signal on relative safe asset attractiveness. Supports the [[Treasury safe asset erosion]] thesis — capital is being actively redirected away from Treasuries toward alternative sovereign debt.
+The subtext: If the world's largest asset manager is publicly steering clients toward JGBs over Treasuries, that's a signal on relative safe asset attractiveness. Supports the [[Treasury safe asset erosion]] thesis — capital is being actively redirected away from Treasuries toward alternative sovereign debt.
 
 ### Kuwait Petroleum pipeline — $7B infrastructure deal
 
-KPC (Kuwait Petroleum Corp) held early-stage talks with **BlackRock, [[Brookfield]], EIG Partners, and [[KKR]]** over a **$7B stake sale** in its crude oil pipeline network.
+KPC (Kuwait Petroleum Corp) held early-stage talks with BlackRock, [[Brookfield]], EIG Partners, and [[KKR]] over a $7B stake sale in its crude oil pipeline network.
 
 - Deal structure: ~$1.5B equity, remainder financed by debt
 - Fits BlackRock's GIP-powered infrastructure push
@@ -238,7 +262,7 @@ KPC (Kuwait Petroleum Corp) held early-stage talks with **BlackRock, [[Brookfiel
 
 ### IBIT Bitcoin accumulation
 
-iShares Bitcoin Trust (IBIT) received **4,309 BTC (~$289M)** from Coinbase Prime in under an hour on Feb 26. Part of **$507M total** US spot Bitcoin ETF inflows that day.
+iShares Bitcoin Trust (IBIT) received 4,309 BTC (~$289M) from Coinbase Prime in under an hour on Feb 26. Part of $507M total US spot Bitcoin ETF inflows that day.
 
 ### UBS upgrade
 
@@ -263,9 +287,9 @@ Abu Dhabi sovereign funds are among BlackRock's most important global clients �
 
 ## Altice exposure
 
-**Altice France:** BlackRock, Fidelity, and PIMCO took 45% equity stake in Feb 2025 restructuring that wiped €8.6B debt. [[Patrick Drahi]] retained 55% control.
+Altice France: BlackRock, Fidelity, and PIMCO took 45% equity stake in Feb 2025 restructuring that wiped €8.6B debt. [[Patrick Drahi]] retained 55% control.
 
-**Altice USA:** Sued by [[Altice]] (now Optimum) alongside [[Apollo]] and [[Ares Management]] in late 2025, alleging "illegal cartel" among lenders holding majority of $26B debt.
+Altice USA: Sued by [[Altice]] (now Optimum) alongside [[Apollo]] and [[Ares Management]] in late 2025, alleging "illegal cartel" among lenders holding majority of $26B debt.
 
 ---
 

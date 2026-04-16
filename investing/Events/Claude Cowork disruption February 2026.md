@@ -214,7 +214,7 @@ Experts warned of a looming "comprehension debt" — junior coders becoming too 
 - [[FactSet]] — financial data disruption
 - [[Morningstar]] — investment research disruption
 - [[Indian IT services]] — margin compression thesis
-- [[AI workflow disruption basket]] — tracks the victims
+- [[February 2026 AI Disruption Cascade]] — umbrella event tracking the full multi-week victim list
 - [[AI disruption]] — broader context
 - [[AI disintermediation]] — common thesis with insurance selloff
 - [[Insurify insurance broker selloff February 2026]] — parallel event one week later

@@ -73,6 +73,7 @@ Global strategy with dedicated [[India]] and [[Europe]] teams.
 | 1Password | Security |
 | Snyk | Security |
 | Vercel | Frontend platform |
+| [[Tailscale]] | Mesh VPN (Series A 2020 lead, Series C 2025 lead) |
 
 ---
 

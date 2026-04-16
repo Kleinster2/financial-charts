@@ -58,10 +58,29 @@ Cargill has been privately held since its founding in 1865. Ownership is concent
 
 ---
 
+## Cocoa alternatives — dual-track portfolio
+
+Cargill's cocoa and chocolate business is one of the largest global processors, which makes West [[Africa]] supply risk a first-order procurement problem. The 2024-25 cocoa price spike (bean prices to ~$12,000/tonne, cocoa butter over €40,000/tonne; see [[Cocoa]]) prompted a dual-track portfolio hedge:
+
+| Partner | Country | Technology | Role |
+|---------|---------|------------|------|
+| [[Kokomodo]] ([[Pluri]] subsidiary) | [[Israel]] | Cell-cultured cacao + coffee | Development collaboration — beverages, dairy, confectionery (sensory, scalability) |
+| [[Voyage Foods]] | US | Cocoa-free chocolate (grape seed, sunflower protein) | Distribution partnership |
+
+The positioning is instructive: Cargill is not picking a technology. Cell culture (Kokomodo) aims at a drop-in replacement for cocoa butter and wins if biotech scale-up works; ingredient substitution (Voyage) sidesteps cocoa entirely and wins on near-term economics if cell-culture bioreactors stay expensive. Either way, Cargill owns the distribution relationship into its existing chocolate-industry customer base.
+
+Parallel moves from other chocolate-industry processors and brands: [[Mondelez]] backs [[Celleste Bio]] (cell-based, Israel); [[Lindt Spruengli]] backs [[Food Brewer]] (cell-based, Switzerland). See [[Cellular agriculture]] for the full landscape.
+
+---
+
 ## Related
 
 - [[Kokomodo]] — cultivated cacao collaboration partner
 - [[Pluri]] — parent of Kokomodo
+- [[Voyage Foods]] — cocoa-free chocolate distribution partner
+- [[Celleste Bio]] — Mondelez-backed peer in cell-based cocoa (Cargill competitor via Kokomodo)
+- [[Cocoa]] — commodity backdrop to the alternative-cocoa investments
+- [[Cellular agriculture]] — technology landscape
 - [[Mosaic]] — spun out from Cargill/IMC Global merger (2004)
 - [[JBS]] — peer beef processor
 - [[USDA]] — cattle herd inventory data

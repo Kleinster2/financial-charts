@@ -37,8 +37,8 @@ But it's still not curated for disruption — it includes cloud infrastructure a
 | **EMCLOUD** | Emerging cloud SaaS | Medium-high |
 | [[IGV]] | Broad software | Mixed |
 | [[GS US Software Basket]] | US software sector | Mixed |
-| [[AI workflow disruption basket\|AIWD]] | Curated disruption targets | High |
 | [[UBS European AI Disruption Basket]] | European AI-exposed | High (Europe only) |
+| [[AI financial disintermediation basket]] | Financial-services advisory layer | High (financials-only) |
 
 ---
 
@@ -53,7 +53,7 @@ But it's still not curated for disruption — it includes cloud infrastructure a
 
 ## Related
 
-- [[AI workflow disruption basket]] — curated disruption basket
+- [[February 2026 AI Disruption Cascade]] — the event that repriced SaaS names en masse
 - [[IGV]] — broader software ETF
 - [[Software bear market]] — context
 - [[SaaS]] — business model under pressure

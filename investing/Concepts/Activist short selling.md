@@ -150,7 +150,7 @@ The Andrew Left case may establish new legal boundaries for the practice.
 - [[Claritev]] — Muddy Waters SPAC target
 - [[SPAC]] — frequent short targets
 - [[Paulson & Co]] — victim of Sino-Forest fraud
-- [[AI workflow disruption basket]] — shorts expressing AI disruption thesis
+- [[February 2026 AI Disruption Cascade]] — the repricing that AI-disruption shorts were expressing
 - [[Passive investing fragility]] — macro setup Block identifies for next short cycle
 - [[GameStop squeeze January 2021]] — inflection point for the strategy
 

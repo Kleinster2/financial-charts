@@ -93,6 +93,7 @@ AI/semiconductor punching above weight:
 - US connections
 - [[Cybersecurity]] leadership
 - AI security growing
+- Foodtech / [[Cellular agriculture]] — [[Pluri]] (3D cell expansion platform; NASDAQ: PLUR), [[Kokomodo]] (cultivated cacao + coffee; [[Cargill]] partner), [[Celleste Bio]] (cell-cultured cocoa butter; [[Mondelez]] partner; first lab-grown chocolate bars April 2026 at [[Cadbury]] Bournville)
 
 ---
 
@@ -140,4 +141,7 @@ AI/semiconductor punching above weight:
 - [[Hailo]] — AI chip startup
 - [[AI21 Labs]] — LLM startup (NVIDIA acquiring)
 - [[Torq]] — security [[AI agents]] ($1.2B unicorn)
+- [[Celleste Bio]] — cell-cultured cocoa butter ([[Mondelez]]-backed)
+- [[Kokomodo]] — cultivated cacao + coffee ([[Pluri]] subsidiary, [[Cargill]] partner)
+- [[Pluri]] — 3D cell expansion platform (NASDAQ: PLUR), parent of Kokomodo
 

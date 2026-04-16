@@ -49,10 +49,12 @@ Space economy — launch services, satellites, earth observation, exploration.
 
 | Company | Focus |
 |---------|-------|
-| Planet Labs (PL) | Daily global imaging |
-| Maxar | High-resolution |
-| BlackSky | Real-time intelligence |
+| [[Planet Labs]] (PL) | Daily global imaging |
+| [[Maxar]] | High-resolution |
+| [[BlackSky]] | Real-time intelligence |
 | [[Spire Global]] (SPIR) | Weather, RF geolocation, aviation |
+| [[Chang Guang Satellite Technology]] | Chinese Jilin-1 constellation — supplied imagery to [[Houthis]] (FT, 2025) |
+| [[Earth Eye Co]] | Chinese commercial — built [[TEE-01B]] transferred to [[IRGC]] (FT, 2026) |
 
 ### GPS/Navigation
 
@@ -196,6 +198,20 @@ See [[Starlink]] for details.
 | **Regulation** | Launch licensing, spectrum |
 | **Capital intensity** | High capex needs |
 | **Geopolitics** | China competition |
+| **Dual-use exports** | Chinese commercial ops supplying adversary ISR; see [[Chinese dual-use commercial satellite exports]] |
+
+---
+
+## Chinese commercial-space dual-use channel
+
+Two publicly documented cases of Chinese commercial satellite operators supplying targeting-relevant imagery or satellite control to US-designated adversaries, complicating the "civilian" framing of the Chinese commercial-space sector:
+
+| Year | Operator | Customer | Asset | Notes |
+|------|---------|---------|-------|-------|
+| 2025 | [[Chang Guang Satellite Technology]] | [[Houthis]] | Jilin-1 imagery | Red Sea targeting of US warships / shipping |
+| 2024-26 | [[Earth Eye Co]] + [[Emposat]] | [[IRGC]] Aerospace Force ([[Iran]]) | [[TEE-01B]] (0.5m) | Gulf US bases; "in-orbit delivery" model |
+
+The exports use commercial wrapping ([[Military-civil fusion]] talent and funding, [[Belt and Road]] commercial channel, renminbi payment) to route around traditional export-control tools. Both companies are flagged by the US House China Select Committee as PLA-adjacent. See [[Chinese dual-use commercial satellite exports]] for the framework.
 
 ---
 

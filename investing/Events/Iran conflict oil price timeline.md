@@ -1004,4 +1004,50 @@ The April 8 short-squeeze rally (see [[2026 Iran conflict market impact]]) was m
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-08 (ceasefire pricing, physical-futures disconnect, tiered restart). 2026-04-12 trader-loss and credit-facility quantification added. 2026-04-12 Islamabad failure and blockade announcement added (Young/Stavridis/Masoud/Blinken via CNN GPS).*
+## US crude exports hit record 5.2 mb/d — Day 47 (April 15)
+
+*Source: FT, "US crude exports hit record as Iran war disrupts Middle East supplies", Jamie Smyth, April 15, 2026.*
+
+US crude oil exports surged to a record 5.2 million barrels per day last week, up roughly 1 mb/d week-on-week, as Asian and European refiners scrambled to substitute for the Gulf barrels stranded behind the April 12 [[Strait of Hormuz]] blockade announcement. US refiners also exported approximately 7.5 million barrels of refined products — [[Gasoline|gasoline]], fuel oils — into the same supply gap. US commercial crude inventories fell unexpectedly in the weekly EIA data, reflecting the export drawdown.
+
+| Metric | Apr 15 | Context |
+|--------|--------|---------|
+| US crude exports (weekly) | 5.2 mb/d | Record; +1 mb/d WoW |
+| US refined product exports | ~7.5 mb/bbl | Gasoline, fuel oils |
+| [[WTI]] close | $91.69 | Intraday touched $92.12; up ~1% (DB close basis) |
+| [[Brent crude]] close | $95.19 | — |
+| WTI Apr 8 (ceasefire) → Apr 15 | $94.41 → $91.69 | -2.9% despite Apr 12 blockade announcement |
+| WTI Apr 7 (pre-ceasefire) | $112.95 | Current price ~18% below pre-ceasefire peak |
+
+The price action is the analytical centerpiece. Despite the April 12 US Navy blockade — the first since the 1962 Cuban Missile Crisis — WTI closed April 15 below the April 8 ceasefire level and 18% below the April 7 pre-ceasefire peak. The market is reading the blockade as diplomatic signaling against a backdrop of massive US supply substitution, not as an escalation that extends the physical deficit.
+
+Edward Hayden-Briffett (research analyst, [[The Officials]], a division of [[Onyx Capital Group]]): Asian and European buyers are looking to substitute Middle Eastern supply, so US supply is the obvious replacement. Many tankers are booked for loading from the Gulf in coming weeks, so US exports can remain elevated for a while.
+
+### $4 pump-price threshold breached
+
+US national average gasoline reached $4.10/gallon (AAA), up approximately $1/gal since the war began (Feb 28). US average diesel hit $5.63/gallon, within $0.18 of the all-time high of $5.81. The All-In Podcast E222 readout (April 3) had already noted gasoline "over $4/gallon across US," so the $4 threshold crossing happened in late March/early April; by April 15 the FT had paired the pump price directly with Trump's 2024 campaign pledge to halve energy costs — the first press framing with that electoral linkage (see [[Gasoline]]).
+
+| Pump product | Level | Pre-war delta |
+|--------|-------|---------------|
+| US gasoline avg | $4.10/gal | +~$1 since Feb 28 (per AAA) |
+| US diesel avg | $5.63/gal | Near ATH $5.81 |
+| California gasoline (Mar 31 ref) | $6.00/gal | Higher now |
+| California diesel (Mar 31 ref) | $6+/gal | [[Amos Hochstein]] called $7-8 trajectory |
+
+The pump numbers validate [[Amos Hochstein]]'s March 31 forecast that the shock would propagate to the US "next week." Trump's 2024 campaign promised to halve energy costs within the first year of the second term — electricity, home heating oil, and petrol are now all rising faster than the inflation rate, inverting the promise.
+
+### [[Rapidan Energy Group]] — $150 as export-control trigger
+
+Rapidan (founded by former White House energy adviser [[Bob McNally]]) in a client note: there is an increasing chance the administration orders US crude or refined-product export restrictions if prices continue climbing toward $150/bbl. While the administration has continually reassured industry that it is not contemplating export restrictions, a breakdown in this week's ceasefire could create the bullish spike in crude that would create enough desperation to put active consideration of export controls on the table.
+
+This is a direct sequel to Rapidan's March 12 speculation about Treasury futures-market intervention (see above) — the same analytical shop calling the same administrative instinct twice. An export ban would invert the current supply-substitution dynamic: US exports are currently the main physical release valve for Asian/European refiners, which is partially offsetting the blockade. Shutting that valve would spike global ex-US prices, collapse US prices (temporarily), and blow up the [[US Energy Independence Six Countries]] framework that Washington has spent fifteen years building.
+
+### Why WTI is soft despite the blockade
+
+The April 8 → April 15 WTI decline ($94.41 → $91.69) against an escalating headline backdrop is the cleanest evidence yet that US-origin barrels are functioning as the marginal supply. The blockade reduced physical Gulf availability, but did not add incremental US demand — and the US already had the export infrastructure to fill the gap. Refiners pay market-clearing prices; if non-US physical barrels are scarce, they bid up US-origin cargoes, which *tightens* domestic crude balances but does not remove the barrels from global supply. The [[Amrita Sen]] three-tier framework (Dubai tight, Brent mispriced, WTI most shielded) is now being validated in the price action: Dubai still distant, Brent $95.19, WTI $91.69.
+
+The risk is bidirectional. If Rapidan's $150 trigger gets pulled, WTI collapses while Brent/Dubai spike. If the ceasefire re-holds, global prices normalize and US exports ease. The Apr 15 data captures the moment of maximum US supply elasticity — every marginal barrel the US ships partially substitutes for blockade losses.
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-08 (ceasefire pricing, physical-futures disconnect, tiered restart). 2026-04-12 trader-loss and credit-facility quantification added. 2026-04-12 Islamabad failure and blockade announcement added (Young/Stavridis/Masoud/Blinken via CNN GPS). 2026-04-15 US export surge, $4 pump-price breach, Rapidan $150 export-control trigger added.*

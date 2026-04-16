@@ -149,7 +149,7 @@ Feb 3-4: $285B rout - Software, legal analytics, Indian IT services collapsed. G
 
 Market dubbed it the "SaaSpocalypse." JPMorgan: software stocks "sentenced before trial."
 
-See [[Claude Cowork disruption February 2026]] and [[AI workflow disruption basket]] for full analysis.
+See [[Claude Cowork disruption February 2026]] and [[February 2026 AI Disruption Cascade]] for full analysis.
 
 Feb 4: Pledged not to run advertising, differentiating from [[OpenAI]]'s embrace of ads. FT reported 90% of [[Claude Code]]'s own codebase was AI-generated; 70-90% of code across Anthropic now written with AI. The company's reinforcement learning from AI feedback (RLAIF) technique — originally designed for safety (Constitutional AI) — had become a way to automate model improvement at far larger scale than human labeling.
 
@@ -888,7 +888,7 @@ The strategy parallels [[Microsoft]]'s 1990s arc — OS vendor to desktop owner 
 - [[Agentic AI]] - core capability (Claude Code)
 - [[Model lab economics]] - profitability context
 - [[Claude Cowork disruption February 2026]] - $285B selloff catalyst
-- [[AI workflow disruption basket]] - tracking software disruption exposure
+- [[February 2026 AI Disruption Cascade]] - event-level view of software disruption exposure
 - [[Man Group]] - enterprise AI partnership (Feb 2026)
 - [[Public First Action]] - $20M AI safety PAC donation (Feb 2026)
 - [[Clean energy for AI]] - grid infrastructure pledge context

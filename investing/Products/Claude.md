@@ -161,4 +161,4 @@ Multi-cloud strategy reduces single-vendor dependency.
 - [[AI agents]] — broader category
 - [[Claude Mythos]] — next-gen Capybara tier (leaked Mar 2026)
 - [[Claude Cowork disruption February 2026]] — $285B selloff catalyst
-- [[AI workflow disruption basket]] — tracking software disruption exposure
+- [[February 2026 AI Disruption Cascade]] — software disruption exposure tracked in the event note

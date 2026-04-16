@@ -113,11 +113,127 @@ During the Iran war's early volatility, some crowded hedge fund trades were "flu
 
 ---
 
+## WSJ Opinion interview — Paul Gigot (April 14, 2026)
+
+In a 25-minute conversation with [[Paul Gigot]] at the WSJ CEO Council, Bessent covered Iran pressure, Fed transition, the May China summit, and the US-China AI competition. The interview marked his public announcement of Operation Economic Fury — a newly branded phase of the maximum pressure campaign against [[Iran]].
+
+### Operation Economic Fury
+
+Bessent said the maximum pressure campaign began last March (March 2025) under a presidential order. The sequence he described: pressure on Iranian assets globally → in December 2025, "one of their major banks going under" → [[Central Bank of Iran]] forced to print money → large inflation → street riots. April 14 escalation framed as formalizing and intensifying these tools.
+
+Current tactics per Bessent:
+- [[Gulf]] partners ([[UAE]], [[Qatar]], [[Saudi Arabia]]) now willing to share Iranian regime bank accounts held in their countries after ~40 days of Iranian missile fire. Bessent: "Qatar has had 14% of their GDP destroyed with just a few missiles. UAE I think it's taken over 1,200 uh hits."
+- Reaching out to banks including Chinese banks on [[Secondary sanctions]] exposure from Iranian oil purchases settled in dollars.
+- Goal: "finally put an end to the cash that is flowing into the IRGC coffers and into the country."
+
+### Dollar and RMB
+
+Dismissed the China-Iran reserve-currency effort as "coordination that doesn't exist." On RMB as potential reserve currency, offered a three-equilibria framing:
+
+| Equilibrium | Signal |
+|---|---|
+| Academic model | RMB cheap — big internal devaluation, real estate down, labor down |
+| Domestic capital flight | 1.4B people wanting money out; government stopping them |
+| Expropriation tail risk | "What percent chance do you put that one day they won't give you your money" |
+
+"When you try to calibrate all three of those it's very difficult to know the price."
+
+### Growth projection
+
+| Claim | Value |
+|---|---|
+| Counterfactual (no war) | 4% GDP this year |
+| Current projection | 3-3.5% "could easily exceed" |
+| Core inflation | "Continues to come down" |
+| Headline inflation | "Just influenced by energy prices" |
+
+### Section 301 and capex
+
+On the [[SCOTUS IEEPA ruling|SCOTUS setback]]: "a lot of corporates had held up their capex because of the lawsuit." With the pivot to [[Section 301]] — which has "survived more than 5,000 legal challenges" — Bessent expects tariffs at the "previous level" by beginning of July. "Now using Section 301 they will be certain of what the tariff policy is."
+
+Reports capex intentions and construction jobs "are picking up." Cited [[Boeing]] expanding Dreamliner facility in Charleston by 50%, 1,000 manufacturing jobs (preceded by 400 construction jobs).
+
+### Fed and rates
+
+- Bessent: the [[Federal Reserve|Fed]] has been wrong on inflation; rates "should come down a lot more." Understands the data-wait posture but disagrees with it.
+- On capital gains indexing for inflation: "Not now." Reason given: "Stock market is doing fine… focused on Main Street right now."
+- Data point offered: 38% of US households don't own stocks / 62% do participate.
+- S&P 500 higher as of the interview than when the Iran bombing began February 28.
+
+### Fed chair transition
+
+[[Kevin Warsh]] hearing at Senate Banking: next Tuesday (April 21, 2026). Bessent: "I'm confident that Kevin will be in situ by that [mid-May]." On Tillis holdout: "I think Senator Tillis believes that Kevin Warsh is an excellent candidate" (Tillis has conditioned support on resolution of the Powell legal case). On chair pro tem if Warsh not confirmed by mid-May Powell term expiration:
+
+| Candidate for chair pro tem | Status per Bessent |
+|---|---|
+| [[Jerome Powell]] | "That's unclear" |
+| [[Philip Jefferson]] | "Could be" (sitting vice chair) |
+| [[Chris Waller]] | "Could be" |
+| Other | "Lot of people could be" |
+
+"I think the president of the United States probably has a preference."
+
+### Fed balance sheet
+
+Cited [[Bank of England]] QE approach as model: "They step in during a market dislocation. They stabilize the market and then they move away… I think they probably made a lot of money on their bond trading. The Fed was losing $100 billion a year because they purchased so much at such terrible prices."
+
+On shrinking the Fed balance sheet: "Very difficult to get to a much smaller balance sheet from here… will have to see a change in the banking regulations to shrink the balance sheet." Said the relevant regulatory changes "could be done through the agencies." Said he has "written 20,000 words on the Fed in the past 10 years."
+
+### China summit (May)
+
+Assessed the Busan agreement (October 2025) at "B+ A-minus on the Chinese side." Expects "perfecting that" in May. Floated a "30 by 30 or 40 by 40 billion" mutual tariff-free purchase agreement. "I would think that the Chinese would be much more interested in American oil and LNG after their experience with the choke point in the Gulf."
+
+### Decouple vs. derisk
+
+"I think the word decouple is wrong. I think derisk is a better word." Strategic sectors to reshore: [[Semiconductors|semiconductors]], [[Shipbuilding|shipbuilding]], [[Rare earths]], medicine precursors (80-90% of US medicine precursors come from [[India]] and [[China]]).
+
+On Chinese imbalances: "Very tough for the world to have a China with a trillion dollar trade surplus. We put up our tariff wall, the goods have gone to the rest of the world. So our trade deficit with China is down substantially." Chinese aggregate budget deficit: "Probably 10% of GDP."
+
+Japan analogy on Chinese adjustment pace: first visit 1990/91 near bubble peak; change didn't come until Abe 2012 ("it took 20 years… the Asian mentality is a bit slower moving than ours. Chinese are probably even slower than the Japanese").
+
+### US-China AI race
+
+Strongly disagreed with Stanford HAI-style claims that the US lead has closed. "We are 3 to 6 months ahead." Two factors cited:
+
+1. Compounding in model learning: "The [[Anthropic]] mythos model was a step function change." From "x to the 10th to x to the 12th" is logarithmic and hard to catch up.
+2. Compute share. "The US compute share… studies that say in a few years the US is going to have 70-80% of the global computing power. We were in the 30s, now I think we're in the 50s and we're well on our way."
+
+On [[TSMC]] dependence: "90% of the high value chips are still made on the island of Taiwan." On the [[CHIPS Act]] under Biden: "No money went out the door. Nothing was created." Aside on Schumer-connected recipients: "You'd be surprised to see where some of the family members were and former staffers."
+
+Arizona fab buildout: "Big facilities being built in Arizona… but it's a big ecosystem. The Taiwanese have the history but they really have the ecosystem — this surfeit of technicians with master's degrees in chip technology just because they've been there so long."
+
+### Immigration and AI jobs
+
+On H-1B: "There are a lot of aspects of the H-1B system that are not robust. Some would call it a scam. Those are not high value jobs. But should we create a level or should we do something where the workers come for X number of years, train our workers, and then maybe go home? Sure."
+
+On AI job displacement: "I don't believe that AI is going to take people's jobs. I think people who know how to use AI is going to take people's jobs." On net labor-force effect: "In the history of economies, innovation always leads to more jobs."
+
+Self-description: "I am mercifully not an economist. I'm an economic historian."
+
+*Source: WSJ Opinion, Paul Gigot interview, 2026-04-14*
+
+---
+
 ## Related
 
 - [[Federal Reserve]] — Fed Chair selection; NY Fed research on hedge fund Treasury flows
 - [[Jerome Powell]] — current Fed Chair
+- [[Kevin Warsh]] — nominated successor
+- [[Philip Jefferson]], [[Chris Waller]] — chair pro tem options if Warsh delayed
 - [[Trump II]] — administration
-- [[Tariffs]] — trade policy
+- [[Tariffs]], [[Section 301]] — trade policy
 - [[Basis trade]] — hedge fund Treasury demand, $10T rollover risk
 - [[2026 Iran conflict market impact]] — oil intervention speculation, market management
+- [[Operation Epic Fury]] — military phase of Iran campaign; economic side now branded as Economic Fury
+- [[Iran]] — economic pressure campaign details
+- [[Secondary sanctions]] — Chinese bank pressure lever
+- [[US-China AI race]] — compute share projection (US 30s → 50s → 70-80%)
+- [[Anthropic]] — "mythos model step function change"
+
+### Cross-vault
+- [Geopolitics: Scott Bessent](obsidian://open?vault=geopolitics&file=Actors%2FScott%20Bessent) — Greenland, Europe, Operation Economic Fury foreign-policy framing, RMB three-equilibria, Fed chair succession
+- [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — Operation Economic Fury section added April 14
+- [Geopolitics: Iran Financial Sanctions](obsidian://open?vault=geopolitics&file=Concepts%2FIran%20Financial%20Sanctions) — campaign arc, Gulf account-sharing step change
+- [Geopolitics: Federal Reserve Independence](obsidian://open?vault=geopolitics&file=Concepts%2FFederal%20Reserve%20Independence) — Warsh timeline, chair pro tem mechanics
+- [Geopolitics: Dollar Dominance](obsidian://open?vault=geopolitics&file=Concepts%2FDollar%20Dominance) — RMB three-equilibria framework
+- [[Paul Gigot]] — interviewer

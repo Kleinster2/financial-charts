@@ -94,4 +94,4 @@ for module_name, bp_name, label in _blueprints:
         app.logger.warning(f"{label} routes not available: {e}")
 
 if __name__ == '__main__':
-    app.run(debug=True, port=DEFAULT_PORT)
+    app.run(debug=True, host='0.0.0.0', port=DEFAULT_PORT)

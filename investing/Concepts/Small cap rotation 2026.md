@@ -98,7 +98,7 @@ Small caps more rate-sensitive. Fed pause/cuts benefit:
 
 ## Related
 
-- [[AI workflow disruption basket]] — the other side of this trade
+- [[February 2026 AI Disruption Cascade]] — the other side of this trade
 - [[Claude Cowork disruption February 2026]] — rotation catalyst
 - [[Software bear market]] — large cap tech pressure
 - [[Fed policy]] — rate sensitivity driver

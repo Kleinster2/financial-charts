@@ -96,7 +96,7 @@ Short the middlemen (with caveats):
 - Personal lines insurance brokers > commercial lines brokers
 - Data aggregators > primary data creators
 - Routine consulting > complex advisory
-- The [[AI workflow disruption basket]] tracks many of these
+- The full victim list is tracked in [[February 2026 AI Disruption Cascade]]; [[AI financial disintermediation basket]] isolates the financial-services advisory leg
 
 Long the platforms:
 - [[OpenAI]], [[Anthropic]], [[Google]] — the app directories where AI middlemen live
@@ -144,7 +144,7 @@ Each wave follows the same arc: technology makes comparison free → incumbents 
 
 - [[Claude Cowork disruption February 2026]] — SaaS disintermediation event
 - [[Insurify insurance broker selloff February 2026]] — insurance disintermediation event
-- [[AI workflow disruption basket]] — tracks SaaS/data victims
+- [[February 2026 AI Disruption Cascade]] — umbrella event covering the full SaaS/data/financial-services repricing
 - [[AI financial disintermediation basket]] — tracks insurance broker + wealth management victims
 - [[Alternative asset managers basket]] — control group (sold off in Wave 1, recovered — not real intermediaries)
 - [[PE software talent drain]] — structural reason PE software portfolios can't respond to AI disruption

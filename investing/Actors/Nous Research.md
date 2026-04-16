@@ -109,6 +109,9 @@ The story of Nous Research is the story of whether open-source AI can sustain it
 - [[OpenClaw]] — primary competitor in open-source agent space
 - [[Hugging Face]] — model distribution, partial analogue
 - [[Together AI]] — compute marketplace analogue
+- [[Decentralized AI landscape]] — category context (multi-layer: distributed training, open-weight models, agent harness)
+- [[Venice AI]] — parallel crypto-native consumer AI (inference-side equivalent)
+- [[Bittensor]] — adjacent token-incentivized AI network (competitive market rather than coordination)
 
 ### Cross-vault
 - [Technologies: Hermes Agent](obsidian://open?vault=technologies&file=Hermes%20Agent) — technical architecture deep-dive

@@ -160,6 +160,8 @@ Cursor updates Composer model weights **every 90 minutes** based on real-world u
 - [[Replit]] — browser IDE competitor
 - [[Bolt.new]] — vibe coding competitor
 - [[Lovable]] — vibe coding competitor
+- [[Ridges AI]] — decentralized cost-disruption competitor ([[Bittensor]] SN62)
+- [[Cognition]] — autonomous-agent competitor
 
 ---
 

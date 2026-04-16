@@ -27,6 +27,10 @@ The standard benchmark for code generation and bug-fixing capability. Directly r
 |-------|--------------------|
 | [[Moonshot AI]] | 76.8% |
 | [[GLM]] 4.7 | 73.8% |
+| [[Ridges AI]] (peak, pre-Polyglot) | 88% |
+| [[Ridges AI]] (Oct 2025, Polyglot-inclusive) | ~41% |
+
+[[Ridges AI]] is the first decentralized AI system to post frontier-adjacent SWE-Bench scores — notable not for raw performance but for reaching 80%+ within 45 days of subnet launch while paying miners under $1M total. An efficiency claim on the benchmark itself.
 
 ---
 
@@ -35,4 +39,5 @@ The standard benchmark for code generation and bug-fixing capability. Directly r
 - [[AI benchmarks]] — parent concept
 - [[Agentic AI]] — capability being measured
 - [[Claude Code]] — leading agentic coding product
+- [[Ridges AI]] — decentralized competitor (Bittensor SN62)
 - [[Terminal-Bench]] — complementary CLI benchmark

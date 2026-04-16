@@ -82,7 +82,7 @@ This is a cycle forecast, not an end-of-markets forecast. But the path is non-tr
 - [[Muddy Waters]] — Carson Block's framing of the thesis
 - [[Target date funds]] — the specific retirement vehicle at the center of the flow mechanic
 - [[Capital flow reversal]] — adjacent concept for reversals in cross-border flows
-- [[AI workflow disruption basket]] — one way to express the thesis
+- [[AI disintermediation]] — one way the thesis expresses in the intermediation layer
 - [[February 2026 AI Disruption Cascade]] — recent stress test of AI displacement pricing
 - [[Block AI layoffs February 2026]] — template for AI-attributed cuts at scale
 - [[2026 recession risk]] — macroeconomic backdrop

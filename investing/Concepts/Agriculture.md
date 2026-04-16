@@ -83,7 +83,7 @@ Farmers responding by shifting acreage from nitrogen-intensive crops (corn, whea
 |-----------|-------|
 | **Sugar** | Brazil dominant, ethanol linkage |
 | **Coffee** | Climate-sensitive, Brazil/Vietnam supply |
-| **Cocoa** | West [[Africa]] 70%, recent price surge |
+| [[Cocoa]] | West [[Africa]] 70%, 2024-25 price spike ($12k peak), cell-culture disruption ([[Celleste Bio]], [[Kokomodo]], [[Food Brewer]]) |
 | **Cotton** | US/China/[[India]] production |
 
 ---
@@ -137,6 +137,8 @@ US farmers facing 10-year high gap between costs and prices received:
 
 ## Related
 
+- [[Cocoa]] — softs sub-commodity; 2024-25 price spike and cellular agriculture disruption
+- [[Cellular agriculture]] — lab-grown cacao / coffee / meat technology
 - [[Commodities]] — broader context
 - [[China]] — soybean demand
 - [[Brazil]] — soy, sugar, coffee exporter

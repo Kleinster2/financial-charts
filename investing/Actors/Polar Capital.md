@@ -48,7 +48,7 @@ Evans's response: "We don't believe current prices reflect the terminal value un
 ## Related
 
 - [[Claude Cowork disruption February 2026]] — catalyst for application software selloff
-- [[AI workflow disruption basket]] — tracks exposed software stocks
+- [[February 2026 AI Disruption Cascade]] — tracks the exposed software names
 - [[SaaS]] — sector under disruption
 - [[NVIDIA]] — top holding (~10% of fund)
 

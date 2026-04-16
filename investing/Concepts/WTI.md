@@ -63,6 +63,30 @@ The WTI-Brent spread widened during the conflict — WTI's relative insulation r
 
 ---
 
+## April 2026 — ceasefire, blockade, export-driven soft prices
+
+| Date | Close | Catalyst |
+|------|-------|----------|
+| Apr 2 | $111.54 | Pre-ceasefire peak territory |
+| Apr 6 | $112.41 | — |
+| Apr 7 | $112.95 | Last pre-ceasefire close |
+| Apr 8 (ceasefire) | $94.41 | -16% on two-week ceasefire announcement |
+| Apr 9 | $97.87 | — |
+| Apr 10 | $96.57 | Islamabad talks ongoing |
+| Apr 13 | $99.08 | Post-blockade-weekend catch-up |
+| Apr 14 | $91.28 | Export-surge offset |
+| Apr 15 | $91.69 | US exports 5.2 mb/d record; +$0.41 |
+
+Two structural observations across the April window:
+
+(1) The April 8 ceasefire unwound geopolitical premium sharply — WTI dropped $18.54 (-16%) in a single session, one of the largest single-day declines on record for the contract. Backwardation collapsed alongside (see [[Iran conflict oil price timeline#Ceasefire headlines crash futures, physicals hold — Day 40 (April 8)]]).
+
+(2) The April 12 US Navy blockade — first since the 1962 Cuban Missile Crisis — did NOT send WTI back above $100. April 15 closed at $91.69, below the April 8 ceasefire level and 18% below the April 7 pre-ceasefire peak. The FT reported record US crude exports at 5.2 mb/d (+1 mb/d WoW), with Asian and European refiners substituting for Gulf barrels. US origin is now functioning as the marginal global supply — a structural validation of the [[Amrita Sen]] three-tier framework ([[Dubai crude]] tightest, [[Brent crude|Brent]] mispriced, WTI most shielded), but also a warning: [[Rapidan Energy Group]] (April 15) flagged that if prices climb toward $150/bbl, US export restrictions become a live policy option. An export ban would invert the dynamic — WTI would collapse while Brent and Dubai spiked.
+
+The April 15 data point is the cleanest evidence yet of US energy independence translating into physical price insulation. US pump gasoline simultaneously breached the $4 threshold at $4.10/gallon (AAA) — the first political-threshold crossing of the war. See [[Gasoline#Trump campaign-promise inversion (April 15)]].
+
+---
+
 ## Related
 
 - [[Oil]] — parent commodity
@@ -73,5 +97,8 @@ The WTI-Brent spread widened during the conflict — WTI's relative insulation r
 - [[Iran conflict oil price timeline]] — full chronological price action
 - [[Robin J. Brooks]] — WTI as politically decisive benchmark
 - [[Amrita Sen]] — three-tier pricing (Dubai > Brent > WTI), WTI most shielded
+- [[Rapidan Energy Group]] — $150 export-restriction trigger (Apr 15)
+- [[Gasoline]] — pump price breached $4 Apr 15
+- [[US Energy Independence Six Countries]] — framework at risk if export controls activated
 
-*Created 2026-03-23. Updated 2026-03-24 (Wiggen positioning data).*
+*Created 2026-03-23. Updated 2026-03-24 (Wiggen positioning data). Updated 2026-04-15 — April 2026 price table added (ceasefire drop, blockade, export-driven soft prices).*

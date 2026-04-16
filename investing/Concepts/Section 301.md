@@ -135,6 +135,14 @@ Additional increases phased in through Jan 1, 2026 (lithium-ion batteries, graph
 
 Sectors affected: defense, automotive, medical devices, aerospace, telecommunications, power generation.
 
+### Bessent timeline — April 2026
+
+At the WSJ CEO Council on April 14, 2026, [[Scott Bessent]] said [[USTR]] Section 301 investigations would allow tariffs to be "back in place at the previous level" by the beginning of July 2026. He cited Section 301's durability: "survived more than 5,000 legal challenges." Bessent attributed the pre-ruling capex slowdown to legal uncertainty, arguing corporates "held up their capex because of the lawsuit." Post-ruling: "using Section 301, they will be certain of what the tariff policy is." He reported capex intentions and construction jobs now picking up, citing [[Boeing]] expanding the Charleston Dreamliner facility by 50% (1,000 manufacturing jobs, 400 construction jobs upfront).
+
+The stated July 2026 timeline is faster than the ~12-month investigation schedule implied by the standard Section 301 process — suggesting expedited implementation or reliance on pre-existing determinations.
+
+*Source: WSJ Opinion, Paul Gigot interview, 2026-04-14*
+
 ### Post-SCOTUS expansion (Mar 2026)
 
 After the [[SCOTUS IEEPA ruling]] struck down IEEPA tariffs, [[USTR]] pivoted to Section 301 as the primary replacement:

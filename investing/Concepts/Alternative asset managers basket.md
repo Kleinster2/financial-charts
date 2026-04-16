@@ -7,7 +7,7 @@ tags: [basket/internal, ai, disruption, alt-managers]
 
 Alternative asset manager stocks that sold off heavily during the [[Claude Cowork disruption February 2026|SaaSpocalypse]] Wave 1 (Feb 3-5) despite not being intermediaries. The market initially treated them as part of the "AI replaces financial services" trade — indiscriminate selling before sorting intermediaries from asset owners.
 
-They bounced back ~50% of the drop by Feb 10 as the market distinguished originators/asset owners from advisory middlemen. Tracked as a control group against [[AI financial disintermediation basket|AIFD]] (stayed down) and [[AI workflow disruption basket|AIWD]] (stayed down worse).
+They bounced back ~50% of the drop by Feb 10 as the market distinguished originators/asset owners from advisory middlemen. Tracked as a control group against the [[AI financial disintermediation basket|AIFD]] (which stayed down) and the broader software cascade of [[February 2026 AI Disruption Cascade]] (which stayed down worse).
 
 ---
 
@@ -59,13 +59,13 @@ ARES, KKR, OWL, BX, APO, BAM
 
 ## Behaviour pattern
 
-| Period | ALTM | AIFD | AIWD | SPY |
-|--------|------|------|------|-----|
+| Period | ALTM | AIFD | Software victims | SPY |
+|--------|------|------|------------------|-----|
 | Wave 1 (Feb 2-5) | -12.5% | ~flat | -18% | -2.6% |
 | Wave 2-3 (Feb 9-10) | ~flat | -8% | continued decline | -1% |
 | Net (Feb 2-10) | -7% | -8% | -20%+ | -3% |
 
-Pattern: ALTM sells off with the first wave (beta + confusion), then recovers as market sorts real intermediation targets from asset owners. AIWD and AIFD stay down because those are thesis hits, not beta hits.
+Pattern: ALTM sells off with the first wave (beta + confusion), then recovers as market sorts real intermediation targets from asset owners. The Week 1 software cohort and AIFD stay down because those are thesis hits, not beta hits.
 
 ---
 
@@ -86,8 +86,8 @@ Watch for:
 ## Related
 
 - [[AI financial disintermediation basket]] — the real intermediation targets
-- [[AI workflow disruption basket]] — software/data targets
-- [[AI disintermediation]] — thesis driving all three baskets
+- [[February 2026 AI Disruption Cascade]] — the broader repricing ALTM was indiscriminately caught in
+- [[AI disintermediation]] — thesis driving the advisory-replacement leg
 - [[PE software talent drain]] — the deeper reason ALTM sold off: PE portfolio software risk
 - [[Alternative asset manager]] — concept note
 - [[Alternative Managers]] — sector note

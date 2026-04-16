@@ -33,6 +33,33 @@ Distinguished by a labor-market lens on macro — consistent focus on wages, emp
 
 ---
 
+## April 13, 2026 — "Blockade!"
+
+Bernstein's Apr 13 substack on Trump's naval blockade of Iranian ports. Frames the action as strategically defensible but economically risky for US consumers. Distinct angle from the oil-market analysts: Bernstein is reading the tape as a political economist concerned with wage-and-sentiment dynamics heading into November elections.
+
+| Data point | Value |
+|-----------|-------|
+| Oil price reaction | Reversed ~half the ceasefire-induced decline |
+| April Univ Michigan consumer sentiment (prelim) | 47.6 |
+| Hiring | Frozen |
+| Real wages | Deteriorating (slower nominal growth + higher inflation) |
+
+Analytical framing: the blockade creates "a high-stakes war of attrition" — a bet on whether Tehran breaks before global commodity/consumer markets do. Bernstein's read: US consumers are already under affordability stress before this escalation, so the marginal gasoline-price hit lands harder than the administration's rhetoric suggests.
+
+Bernstein is sharply critical of Trump's rhetorical characterization ("little journey," Americans "in great shape"), arguing it misreads current consumer sentiment and wage trajectory. No explicit policy recommendation — the post is a documentation piece on the domestic-risk gap between stated administration view and observable macro data.
+
+Position versus peers:
+- [[Helima Croft]] (Apr 13): further oil disruptions likely — same read on the supply shock
+- [[Robin J. Brooks]] (Apr 13-14): blockade price impact "unlikely to spike oil prices to any material degree," spring meetings will catalyze oil down
+- [[Robert Pape]] (Apr 13): shortages in 10 days — escalation-trap locks in the disruption
+- Bernstein (Apr 13): economic side-effect and political risk angle, consumer-sentiment framing
+
+Bernstein fills the domestic-political read that the oil analysts leave open. If his consumer-sentiment framing proves predictive, the "lows are in" equity call ([[Mike Wilson]], Apr 14) becomes harder to sustain through a rough summer gasoline cycle.
+
+*Source: [Blockade!](https://econjared.substack.com/p/blockade), econjared.substack.com, April 13, 2026*
+
+---
+
 ## Related
 
 - [[Council of Economic Advisers]] — the institution Bernstein chaired
@@ -40,5 +67,7 @@ Distinguished by a labor-market lens on macro — consistent focus on wages, emp
 - [[Center on Budget and Policy Priorities]] — think tank affiliation
 - [[Lyn Alden]] — adjacent independent macro voice with fiscal-dominance lens
 - [[Ed Yardeni]] — counter-voice from equity-strategy side
+- [[2026 Strait of Hormuz crisis]] — the event his Apr 13 post addresses
+- [[Helima Croft]] · [[Robin J. Brooks]] · [[Robert Pape]] — parallel analyst voices on the blockade
 
-*Created 2026-04-12*
+*Created 2026-04-12. Updated 2026-04-15.*
