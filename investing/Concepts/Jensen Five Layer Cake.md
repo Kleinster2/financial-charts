@@ -81,6 +81,24 @@ Ecosystem plays within layers: Each layer contains multiple winners, not winner-
 
 Cross-layer integration: Companies that can integrate across multiple layers (like [[NVIDIA]] combining chips and software) create additional competitive advantages.
 
+---
+
+## Reinforcement: Dwarkesh interview (Apr 15, 2026)
+
+Jensen reused the five-layer framework three months after Davos as the scaffold for his [[Export controls]] rebuttal on the Dwarkesh Patel podcast. The framework now serves as his default analytical lens for multiple debates:
+
+**On China / export controls.** Only a full-stack player captures every layer. Single-layer denial (chips only) while ceding models, applications, and infrastructure is strategically incoherent — the five-layer logic argues for ecosystem diffusion, not containment. See [[Export controls]] and [[Jensen Huang]].
+
+**On ASICs.** [[Broadcom]]-class custom silicon operates at the chips layer only. NVIDIA operates at all five (GPUs + infrastructure via neoclouds + models via [[NVIDIA AI Foundations]] + apps via Omniverse). The 5-point gross-margin gap misses the cross-layer value capture.
+
+**On hyperscaler capex.** The right unit of analysis is layer-by-layer value capture, not aggregate spend. Chips layer (NVIDIA) captures more per dollar than infrastructure layer (neoclouds), which captures more than applications layer (most startups). Understanding where capex lands in the stack is the key portfolio question.
+
+**On inference economics.** Adding [[Premium inference tokens]] as a sub-framework: the models/applications layers are disaggregating into latency tiers, with each tier served by purpose-built silicon underneath.
+
+The framework is no longer a single-speech device — it's Jensen's durable analytical lens, and it now carries the reasoning behind his major strategic claims.
+
+---
+
 ## Related Concepts
 
 This framework maps directly to existing vault analysis:
@@ -96,6 +114,7 @@ This framework maps directly to existing vault analysis:
 - NVIDIA blog post: "AI's Five-Layer Cake" (March 13, 2026)
 - Jensen Huang remarks at Davos with Larry Fink (January 22, 2026)
 - Business Chief coverage (January 21, 2026)
+- Dwarkesh Patel podcast, "Will Nvidia's moat persist?" (Apr 15, 2026) — reused as rebuttal scaffold
 
 ## Related
 
@@ -107,3 +126,5 @@ This framework maps directly to existing vault analysis:
 - [[Sovereign AI race]] — National stack competition
 - [[Power constraints]] — Layer 1 bottlenecks
 - [[AI compute demand curve]] — Demand patterns across layers
+- [[Export controls]] — Jensen's Apr 2026 application of the framework to the China debate
+- [[Premium inference tokens]] — sub-framework at the models/applications layers

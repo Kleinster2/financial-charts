@@ -99,6 +99,28 @@ See [[Neocloud financing]] for broader pattern.
 
 ---
 
+## Jensen CoreWeave defense (Dwarkesh, Apr 15, 2026)
+
+[[Jensen Huang]] addressed the circular-financing critique head-on in the Dwarkesh interview, disclosing the specific numbers behind the NVIDIA-CoreWeave structure:
+
+| Figure | Value |
+|---|---|
+| CoreWeave real EBITDA | ~$2B |
+| NVIDIA backstop (cost of goods guarantee) | ~$6.3B |
+| NVIDIA equity in CoreWeave | ~$2B |
+
+Jensen's exact framing: "CoreWeave's EBITDA is $2B of real EBITDA. The cost of goods is $6.3B. We only guaranteed the difference. And we only have $2B of equity in them."
+
+**What this resolves:** The frequently cited "NVIDIA backstops CoreWeave for $6.3B" figure is the full hardware cost of goods — not a loss guarantee. Jensen's claim: NVIDIA covers the *shortfall* between the guaranteed COGS and CoreWeave's contracted revenue, not the whole stack. Against $2B of standing EBITDA, the structure looks less like a Hollywood-style loss underwrite and more like an anchor-tenant arrangement.
+
+**What it doesn't resolve:** The $6.3B COGS figure confirms the scale of NVIDIA's exposure. If CoreWeave's [[Microsoft]] concentration (65% of revenue) deteriorates — either from workload migration or contract renegotiation — the "real EBITDA" number that Jensen leaned on shrinks fast. The backstop logic depends on the standing EBITDA holding up.
+
+**Framing for the circular-financing critique:** Consistent with Jensen's stated investment philosophy — *"as much as needed, as little as possible"* — NVIDIA's CoreWeave commitment is sized to unblock deployment, not to own the neocloud economics. See [[Jensen Huang]] for the broader pattern (OpenAI $30B, Anthropic $10B, photonics $4B).
+
+*Source: Dwarkesh Patel podcast, "Will Nvidia's moat persist?" Apr 15, 2026.*
+
+---
+
 ## Financing: "The Box" structure
 
 **Intrator's innovation** — "East Coast capital" (debt) for infrastructure, "West Coast capital" (equity) for software.

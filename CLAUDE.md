@@ -115,6 +115,8 @@ Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `no
 
 **Private companies:** Tag appropriately in frontmatter. Include funding rounds table where data exists (also for pre-IPO history of public companies).
 
+**Printing — preserve wikilinks:** Any vault material sent to print (newsletter, note, report) must keep `[[wikilinks]]` visible in the output. Never strip the brackets. The reader wants to see what's linked to what on paper. Use the dedicated print script for the material type (e.g., `scripts/print_newsletter.py`) — never improvise with `Out-Printer` or `notepad /p`.
+
 ---
 
 ## Workflows
@@ -122,6 +124,7 @@ Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `no
 - `/news` — full ingestion workflow. See `.claude/skills/news/SKILL.md`.
 - `/ingest` — single-source ingestion (interview, article, filing, screenshots). See `.claude/skills/ingest/SKILL.md`.
 - `/earnings TICKER` — DB check, data insert, chart regen, note update. See `.claude/skills/earnings/SKILL.md`.
+- `/report TOPIC` — read-only cross-vault synthesis on an existing topic. Saves to `investing/Reports/`. See `.claude/skills/report/SKILL.md`.
 
 ---
 

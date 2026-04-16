@@ -194,6 +194,22 @@ Huawei has built extensive workaround infrastructure:
 
 ---
 
+## Jensen Huang citation (Dwarkesh, Apr 15, 2026)
+
+[[NVIDIA]] CEO [[Jensen Huang]] used Huawei extensively as the rebuttal anchor to the "export controls are working" thesis:
+
+- "Huawei is having its largest revenue year in history" — cited to contradict the premise that entity-listing slowed Huawei's AI chip business
+- Roughly 50% of the world's AI researchers live in [[China]]; [[China]] builds 60% of mainstream chips
+- "There's plenty of [[HBM2]]" — pushes back on the narrative that [[HBM]] supply is the binding constraint
+- "Gang chips" — multiple lower-bandwidth memory dies ganged together to substitute for HBM3/HBM4
+- Silicon photonics is being used to route around advanced packaging limits
+- "7nm is enough" — [[SMIC]]-class nodes are sufficient for competitive training systems at cost penalty
+- Worst case for the US: "[[DeepSeek]] running on Huawei is a horrible outcome for America" — if US AI stacks exit China, Chinese-origin open-weight models on Ascend become the global default
+
+Jensen's framing: the point is not that Huawei has matched [[NVIDIA]], but that it has enough supply, enough talent, and enough ecosystem to become the default if US platforms retreat. See [[Export controls]] for the policy debate and [[Jensen Huang]] for his full rebuttal.
+
+---
+
 ## What to watch
 
 - [ ] Kirin next-gen node (5nm on SMIC?)

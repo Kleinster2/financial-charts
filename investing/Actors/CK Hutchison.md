@@ -49,6 +49,9 @@ This is the hottest geopolitical story around CK Hutchison right now — a US-Ch
 - **Feb 2026:** Panama taps [[A.P. Moller-Maersk]] (APM Terminals) to temporarily take over port operations
 - **Feb 12, 2026:** CKH threatens legal action against Maersk, files arbitration + investment protection treaty dispute against Panama
 - **Feb 2026:** Beijing warns Panama "will inevitably pay a heavy price" — directs state firms to halt new Panama projects, considers rerouting cargo
+- **Early Mar 2026:** [[NDRC]] summons [[Maersk]] and [[MSC]] separately, demands withdrawal from Balboa and Cristóbal — Beijing's escalation tool against the European replacements
+- **Mar 20, 2026:** Maersk CEO [[Vincent Clerc]] meets NDRC in Beijing on the Panama withdrawal demand; MSC president Diego Aponte corresponds in writing
+- **Apr 2026:** CKH $2bn damages claim against [[Panama]] confirmed; CKH arbitration vs. [[Maersk]] continuing in parallel
 
 **Key dynamics:**
 - CKH is caught between Washington and Beijing — can't sell (Beijing blocks), can't keep (Panama revokes)

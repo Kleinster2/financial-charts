@@ -109,6 +109,8 @@ This made Groq:
 
 Jensen chose to extend the platform rather than disrupt himself.
 
+**Jensen confirmation (Dwarkesh, Apr 15, 2026):** "We decided that we should take the best of Groq and enable it within the [[CUDA moat|CUDA]] ecosystem." Explicit positioning of Groq as the [[Premium inference tokens|premium-token tier]] inside CUDA — not a defensive hedge. The deal is now framed publicly as deliberate market segmentation: Groq-class silicon serves low-latency interactive inference (real-time agents, voice, coding), Rubin-class silicon serves high-throughput batch/reasoning. Two tiers, one CUDA ecosystem.
+
 ---
 
 ## Jonathan Ross

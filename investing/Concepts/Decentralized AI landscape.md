@@ -102,6 +102,26 @@ Data-layer claim: AI training data should compensate the humans who produced it.
 
 ---
 
+## Centralized vs decentralized frontier debate
+
+The investable question behind the category is whether token-incentivized networks can credibly attack the $10-20B annual training-run capex that the centralized frontier labs ([[OpenAI]], [[Anthropic]], [[Google]]) require to stay at the capability frontier. The debate surfaced explicitly on [[All-In Podcast]] (Apr 10 2026) during a segment on [[Anthropic]]'s $30B revenue run rate. Three distinct positions came out of that discussion, and they map cleanly to three plausible 2026-2027 endgames for this category.
+
+### Position 1 — orthogonal attack vector ([[Jason Calacanis]])
+
+Decentralized open-source training and orchestration is "the complete orthogonal attack vector" to the $10-20B single-run capex model. The argument rests on two observations: (1) [[Ridges AI]] hit 80% [[SWE-Bench]] Verified on under $1M in [[TAO]] emissions in 45 days, using a competitive-market structure rather than a single training run; (2) revenue-funded buyback/burn designs ([[Venice AI]], [[Akash Network]]) can sustain cost-compressed infrastructure without the capex arms race. Under this position, the category takes meaningful share in coding and inference-heavy workloads by being 10-250× cheaper at adequate quality. See [[Ridges AI#Apr 10 2026 — All-In public endorsement]].
+
+### Position 2 — dual-path coexistence ([[Brad Gerstner]])
+
+Decentralized designs like Ridges AI and similar subnets are a real competitive threat to specific centralized product economics ([[Claude Code]] pricing especially), and the centralized labs will have to respond. But the frontier-model capability race continues at the centralized labs because the training-run coordination problem is too hard to crowdsource at frontier scale. Both forms coexist; the cost-compressed tier eats the commoditized workloads while frontier labs hold the high-end reasoning moat. Gerstner's concrete datapoint: a $600B implied valuation for [[Anthropic]] in unmet secondary demand against a $380B Series G even as decentralized alternatives scale below.
+
+### Position 3 — enterprise gate holds ([[Chamath Palihapitiya]])
+
+Decentralized pre-training could credibly emerge as a winner at the infrastructure layer, but no real enterprise will outsource production code to an open-source decentralized project. Regulated industries, audit trails, SOC2 requirements, security review, liability allocation, and supply-chain provenance all force enterprise workloads to centralized vendors with indemnification structures. Under this position, decentralized AI remains a crypto-native / long-tail developer category bounded by the enterprise gate regardless of how low the cost curve goes. This is the constraint that reduces maximum addressable market by 2-3 orders of magnitude vs the full AI market.
+
+The three positions are not mutually exclusive — they are sequentially testable. Ridges' cost-per-solved-task trajectory tests Position 1. [[Anthropic]]'s response to third-party subscription agents (see [[AI consolidation#Frontier-lab pricing and bundling exposure]]) tests Position 2. Enterprise production adoption of any decentralized-AI coding tool tests Position 3. As of April 2026, Position 1 has supporting evidence (Ridges benchmark + pricing), Position 2 has supporting evidence (Anthropic's $200 Pro/Max repricing against third-party tools), and Position 3 is the one that has not yet been tested by any real enterprise purchase decision. Position 3 is the binding ceiling until it is.
+
+---
+
 ## Cross-cutting design choices
 
 Four design primitives recur across all four layers and largely determine which protocols survive a full cycle.

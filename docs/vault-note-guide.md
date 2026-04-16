@@ -205,6 +205,36 @@ Reference: See [[Micron]] and [[Micron securities]] as template.
 
 ---
 
+## People: investing-vault actor vs cross-vault link
+
+Not every person mentioned gets an investing-vault Actors/ note. The test: **is this person's durable content a market-lever action**, or is it biographical/political/domain content that belongs in a sibling vault?
+
+**Investing-vault Actors/ notes are for people whose market-lever actions ARE the content:**
+- Central bank chairs and committee members (Powell, Galípolo, Lagarde)
+- Treasury / Finance ministers with active policy on markets (Bessent, Haddad)
+- Sitting heads of state with direct policy impact on tracked assets (Lula, Trump, Xi)
+- CEOs of tracked companies (Huang, Zuckerberg, Musk)
+- Fund managers and allocators whose calls are the record (Gerstner, Ackman, Dalio, Druckenmiller)
+- Analysts whose published work is repeatedly cited (McNally at Rapidan, Toland at Citi)
+
+**Cross-vault link — not an investing-vault actor:**
+- Political figures without direct market-lever roles (opposition candidates, legislators, local officials)
+- Historical figures whose content is biographical
+- Domain specialists (scholars, journalists, technologists) whose expertise sits in a sibling vault
+- Family members, donors, advisors named incidentally
+
+For these, use a markdown cross-vault link in-body: `[Flávio Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FFl%C3%A1vio%20Bolsonaro)`. Do not create an investing-vault stub that duplicates the sibling vault's biography.
+
+**The failure mode this prevents:** a Brazilian presidential election produces five candidates. Each has a full political biography in the Brazil vault. Creating five investing-vault stubs for them is bloat: the stubs duplicate content, provide no investing-specific signal the event note doesn't already carry, and fragment the canonical biographical source across two vaults.
+
+**Escape hatch:** if a specific investing-lens angle on a person outgrows its home in an event note (e.g., a candidate's announced privatization list becomes a running tracker with price exposures), create a focused investing note titled for the *angle*, not the person — e.g., `Flávio Bolsonaro privatization agenda` in Concepts/, not a full actor note.
+
+**Retroactive rule:** if an existing investing-vault person note is 80%+ biography duplicating a sibling vault, delete it and rewire backlinks to cross-vault markdown links.
+
+Example from 2026-04-16: the 2026 Brazil presidential election ingestion initially created five candidate stubs (Flávio/Jair Bolsonaro, Caiado, Zema, Renan Santos). All were deleted the same day — their content lived in the [[2026 Brazil presidential election]] event note, and their biographical content lived in the Brazil vault. [[Lula]] stayed because he is the sitting president = direct market-lever actor.
+
+---
+
 ## Economics / Prices Split (Concepts Only)
 
 For non-actor concepts with tradeable prices (commodities, rates, currencies) — things without an "actor."

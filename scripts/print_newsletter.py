@@ -61,21 +61,27 @@ code { font-family: Consolas, monospace; font-size: 8pt; }
 em { font-style: italic; }
 strong { font-weight: 600; }
 hr { border: none; border-top: 0.5pt solid #aaa; margin: 0.1in 0; }
+.wl { color: #666; font-size: 0.92em; }
 """
 
 WIKILINK = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
 
 
-def strip_wikilinks(text: str) -> str:
+def style_wikilinks(text: str) -> str:
+    """Render wikilinks as visible brackets with a subtle gray color.
+
+    Preserves the link target so the reader can see what is linked on paper.
+    `[[X]]` → `<span class="wl">[[X]]</span>`; `[[X|Y]]` → `<span class="wl">[[X|Y]]</span>`.
+    """
     def repl(m: re.Match[str]) -> str:
-        return m.group(2) or m.group(1)
+        return f'<span class="wl">{m.group(0)}</span>'
     return WIKILINK.sub(repl, text)
 
 
 def render_html(md_path: Path) -> str:
     raw = md_path.read_text(encoding="utf-8")
     body_md = re.sub(r"^---\n.*?\n---\n", "", raw, count=1, flags=re.DOTALL)
-    body_md = strip_wikilinks(body_md)
+    body_md = style_wikilinks(body_md)
     body_html = markdown.markdown(body_md, extensions=["extra", "sane_lists"])
     title = html.escape(md_path.stem)
     return f"""<!doctype html>

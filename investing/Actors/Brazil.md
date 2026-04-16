@@ -32,17 +32,18 @@ aliases: [Brasil, BRL, Brazilian]
 
 ---
 
-## Macro (Feb 2026)
+## Macro (April 2026)
 
 | Metric | Current | [[Target]]/Outlook |
 |--------|---------|----------------|
-| **Selic rate** | 15.00% | COPOM holding — no easing imminent; market expects ~12% by year-end |
-| **[[Inflation]]** | 4.26% (Dec 2025) | [[Target]] 3% (±1.5pp tolerance) |
+| **[[Selic]] rate** | 14.75% | Polymarket 95% probability of cut at April 28-29 COPOM; Focus year-end 12.5% |
+| **[[Inflation]]** | 3.81% (IPCA trailing, April) | [[Target]] 3% (±1.5pp tolerance); Focus 2026 4.71% (above 4.50% ceiling) |
 | **GDP growth** | 3.2% avg (2022-24) | 2.0-2.2% (2025-27), signs of cooling |
-| **Public debt/GDP** | ~78% | Rising; projected R$9.3-10.3T federal debt by year-end |
-| **10Y yield** | ~13.6% | Sticky risk premia, election-year uncertainty |
+| **Public debt/GDP** | ~78% | Projected toward 95% by end 2026 absent primary surplus |
+| **USDBRL** | ~R$4.99 | +26% BRL appreciation from Dec 2024 low |
+| **[[Ibovespa]]** | 198,657 (Apr 14, 2026) | +23.29% YTD; 18 all-time highs; R$67.4B foreign inflows YTD |
 
-**Macro story:** 15% [[Selic]] crushing corporates — record bankruptcy filings, [[Raizen]] downgraded from investment grade to CCC in a single day (Feb 2026). [[Banco Central do Brasil]] holding firm despite political pressure. Easing timeline uncertain; 2026 presidential election reduces fiscal consolidation appetite. See [[Brazil corporate bond rout February 2026]].
+**Macro story:** [[Selic]] cuts underway as carry attracts foreign flows. [[Banco Central do Brasil]] credibility intact under [[Gabriel Galípolo]]. Ibovespa pressing the 200,000 milestone on foreign inflows. The [[2026 Brazil presidential election]] (October 4 first round) is the dominant near-term catalyst: [[Polymarket]] has flipped to price [Flávio Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FFl%C3%A1vio%20Bolsonaro) at 40% vs [[Lula]] 39%. Historical pattern: every Brazilian election since 2002 has produced 8-15% realized BRL vol in the final 60-90 days before the vote. See [[Brazil corporate bond rout February 2026]] for corporate distress backdrop; see [[Arcabouço Fiscal]] for the framework under election-year pressure.
 
 ---
 
@@ -191,7 +192,7 @@ See [[Brazil oil shock trilemma March 2026]] for full analysis.
 
 [[Brazil]] holds the world's second-largest rare earth reserves (~22M metric tons, behind only [[China]]'s ~44M) but produces almost nothing — a gap now drawing intense diplomatic attention from the US, [[EU]], and [[India]]. Only ~30% of Brazilian territory has been geologically mapped (Geological Survey of Brazil), suggesting undiscovered deposits.
 
-**The geopolitical repositioning:** The 2025 confrontation with the US (50% tariff over [[Jair Bolsonaro|Bolsonaro]] trial) catalyzed a strategic rethink. [[Roberto Goulart Menezes]] (University of Brasilia): "[[Brazil]] began to reposition its understanding of the importance of these elements beyond their commercial dimension, recognizing their geopolitical relevance." [[Brazil]] is now playing the US, [[EU]], and [[India]] against each other — the classic resource-holder leverage play.
+**The geopolitical repositioning:** The 2025 confrontation with the US (50% tariff over [Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FJair%20Bolsonaro) trial) catalyzed a strategic rethink. [[Roberto Goulart Menezes]] (University of Brasilia): "[[Brazil]] began to reposition its understanding of the importance of these elements beyond their commercial dimension, recognizing their geopolitical relevance." [[Brazil]] is now playing the US, [[EU]], and [[India]] against each other — the classic resource-holder leverage play.
 
 **Diplomatic timeline:**
 - Oct 2025: Gabriel Escobar (US top diplomat) met [[Ibram]] (mining association)

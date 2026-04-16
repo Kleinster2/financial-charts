@@ -451,7 +451,31 @@ Differs from existing controls: current regime restricts EUV fully and limits DU
 
 ---
 
-*Updated 2026-04-02*
+## Jensen Huang rebuttal (Dwarkesh, Apr 15, 2026)
+
+[[NVIDIA]] CEO [[Jensen Huang]] delivered the most articulated pushback on the chip-denial containment thesis to date, on the Dwarkesh Patel podcast. The argument is structured as six claims — all attributed to Jensen, filed here as a contrarian position inside the policy debate (not as vault consensus):
+
+**(1) China's chip industry is not collapsing.** [[Huawei]] is having "its largest revenue year in history." [[SMIC]] posted record 2025 revenue ($9.3B, +16% YoY). Roughly 50% of AI researchers live in [[China]]; China builds 60% of mainstream chips.
+
+**(2) The binding constraints are softer than assumed.** "There's plenty of [[HBM2]]." [[Huawei]] has developed "gang chips" — multiple lower-bandwidth memory dies ganged together to substitute for HBM3/HBM4. Silicon photonics routes around advanced packaging limits. "7nm is enough" to build competitive training systems at cost penalty. Each workaround has a cost, but none is structurally blocking.
+
+**(3) Ecosystem diffusion — not containment — is the durable lever.** Jensen's structural argument: if [[CUDA]] exits China, Chinese AI researchers develop on [[Ascend]] instead. "[[DeepSeek]] running on Huawei is a horrible outcome for America." The worst-case scenario is Chinese-origin open-weight models trained on Chinese silicon diffusing through the open-source community and becoming the default stack everywhere *outside* the US. Chip denial accelerates the scenario it claims to prevent.
+
+**(4) The "China is 3-5 years behind" framing is outdated.** In inference, China is not behind at all. The frontier-training gap is "one generation, not five." Over-reliance on the distance assumption drives policymakers to underweight ecosystem risk.
+
+**(5) Tariff architecture, not chip denial, is the structurally correct instrument.** Jensen credits the [[Donald Trump|Trump]]-administration tariff-and-investment framework ([[Section 232 semiconductor tariff]], the $500B [[Taiwan]] chip deal, [[TSMC]] Arizona expansion) as the right lever. Tariffs + US fabs shift physical production without triggering indigenous substitution. Chip denial creates gray-market leakage ([[SEA chip diversion]]) and incentivizes ecosystem bifurcation.
+
+**(6) Full-stack engagement beats single-layer denial.** Jensen reuses the [[Jensen Five Layer Cake]] framing (electrons → chips → infrastructure → models → applications): every layer is a choke point, every layer is also a diffusion opportunity. Denial at one layer (chips) while conceding others (models, applications) is strategically incoherent.
+
+**The political positioning:** Jensen is making this case to a US-audience podcast during active [[Section 232 semiconductor tariff|Section 232]] enforcement. Frames himself as pro-industrial-policy (via tariffs) but anti-chip-denial — threading commercial access to China with US government alignment. The "leather jacket diplomacy" method applied to the export controls debate specifically.
+
+**Vault framing:** Jensen's position contradicts the [[David Sacks]] / [[Michael Kratsios]] camp inside the same administration. Sacks frames market-share denial as strategic victory; Jensen frames it as strategic error. The vault tracks both positions — this is an unresolved debate inside the policy coalition, not a settled consensus. Watch for which position dominates the next policy cycle.
+
+See [[Jensen Huang]] for the speaker profile, [[Huawei]] for the China-side buildout, and [[American AI Export Program]] for the Kratsios counter-framework.
+
+---
+
+*Updated 2026-04-16*
 
 ## Related
 
@@ -475,3 +499,5 @@ Differs from existing controls: current regime restricts EUV fully and limits DU
 - [[Michael Kratsios]] — leading American AI Export Program, Huawei telecom parallel
 - [[India]] — AI Impact Summit (Feb 2026), export program showcase
 - [[DeepSeek]] — model layer of China AI export threat
+- [[Jensen Huang]] — Apr 2026 rebuttal (ecosystem diffusion over chip denial)
+- [[Jensen Five Layer Cake]] — framework Jensen uses to argue against single-layer denial

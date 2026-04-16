@@ -18,6 +18,9 @@ aliases: [Chinese retaliation, [[China]] countermeasures]
 | **Entity lists** | Specific companies | Unreliable Entity List |
 | **Regulatory investigations** | Specific company | [[Micron]] security review (2023) |
 | **Agricultural import boycotts** | US farmers | Soybean purchases halted (2025) |
+| **Withdrawal demands on foreign operators** | Foreign companies in PRC-claimed strategic-asset perimeter | [[NDRC]] tells [[Maersk]] and [[MSC]] to drop Panama Canal port concessions (early Mar 2026) |
+| **Supply chain security law** | Any foreign or domestic actor | Apr 2026 PRC regulations criminalize "harm to security of the country's industrial and supply chains," with exit-ban threat for violators |
+| **Counter-extraterritorial jurisdiction rules** | Foreign jurisdictional reach | Apr 2026 PRC rules giving Beijing authority to assess and retaliate against foreign extraterritorial actions across trade, investment, and international cooperation |
 
 ---
 
@@ -99,6 +102,37 @@ See [[China-Japan relations]] for full analysis.
 
 ---
 
+## Case study: Panama port withdrawal demand on Maersk and MSC (Mar-Apr 2026)
+
+After [[Panama]]'s Supreme Court voided [[CK Hutchison]]'s 2021 concession renewal in January 2026 and [[Maersk]] (via APM Terminals) and [[MSC]] took on the temporary operations of Balboa and Cristóbal, [[NDRC]] summoned both European groups in early March 2026 and demanded they withdraw immediately. NDRC told them not to "engage in illegal activities that harm the interests of Chinese companies, and to uphold commercial ethics and international rules" — i.e., to stop displacing CKH. Maersk CEO [[Vincent Clerc]] attended in person at NDRC in Beijing on March 20, 2026; MSC president Diego Aponte communicates by writing.
+
+Why this case is structurally different from prior toolkit entries:
+
+| Dimension | Pattern |
+|---|---|
+| Target | Foreign company operating outside China, on infrastructure China does not own |
+| Trigger | Replacement of a Chinese-linked operator on a Western jurisdiction's invitation |
+| Tool | Direct regulatory pressure (state planner summons + supply chain security law overhang) on the foreign company's PRC-market exposure |
+| Beijing's leverage | Maersk and MSC do material China business; both have terminal investments and route exposure that NDRC can squeeze |
+| Beijing's constraint | The likely backfill if the Europeans pull out is US operators — worse for Beijing than the current arrangement, which is exactly the leverage the European groups have used in their own argument |
+
+The episode also confirms NDRC's role as a retaliation tool, not just a domestic planner — issuing the same-day summons alongside the transport ministry's separate Iran/Hormuz freight-rate complaint. See [[Panama Canal Ports Crisis 2025-2026]] for the full proxy-battle context.
+
+*Source: [[FT]], Ryan McMorrow + Joe Leahy, Apr 15, 2026*
+
+## 2026 legal infrastructure
+
+Two new April 2026 PRC regulations institutionalized the toolkit and gave it broader reach than ad-hoc retaliation. Both were rolled out in the same window as the Panama port escalation and apply directly to that case.
+
+| Regulation | Date | Scope | Mechanism |
+|---|---|---|---|
+| Supply chain security law | Apr 2026 | Any actor whose actions "harm the security of the country's industrial and supply chains" | Criminal liability + exit-ban threat for violators (foreign executives in China potentially blocked from leaving) |
+| Counter-extraterritorial jurisdiction rules | Apr 2026 | Foreign governments asserting extraterritorial authority over China-linked actors | Beijing-side authority to assess and impose retaliatory measures across trade, investment, and international cooperation |
+
+Why this matters: prior toolkit entries (rare-earth controls, Nexperia exports, soybean halts) were ad-hoc state actions. The April 2026 instruments make the *legal authority to retaliate* a permanent feature, lowering the political cost of activating it on future cases. The exit-ban threat in particular is a step-change escalation: foreign executives operating in the PRC market are now personally exposed to retaliation, not just their employers.
+
+*Source: [[FT]], Ryan McMorrow + Joe Leahy, Apr 15, 2026*
+
 ## Key resources [[China]] controls
 
 | Resource | Global share | Used in |
@@ -147,6 +181,12 @@ See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for 
 - [[Dutch seizure of Nexperia]] — trigger (Oct 2025)
 - [[Japan]] — target (Jan 2026 export ban)
 - [[China-Japan relations]] — trigger ([[Taiwan]] comments)
+- [[Maersk]] — target (Mar-Apr 2026 Panama port withdrawal demand)
+- [[MSC]] — target (Mar-Apr 2026 Panama port withdrawal demand)
+- [[Vincent Clerc]] — Maersk CEO summoned to NDRC Beijing Mar 20, 2026
+- [[NDRC]] — implementing body for the Panama withdrawal demand
+- [[Panama Canal Ports Crisis 2025-2026]] — full proxy-battle context for the Panama case study
+- [[CK Hutchison]] — Chinese-linked operator displaced by [[Panama]] Supreme Court
 
 ---
 
@@ -168,4 +208,4 @@ See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for 
 
 **[[Signal]]:** [[China]] institutionalizing export control apparatus — not temporary trade war tactic but **permanent legal infrastructure**.
 
-*Updated 2026-01-15*
+*Updated 2026-04-16*

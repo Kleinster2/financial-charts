@@ -303,7 +303,7 @@ See [[China-Japan relations]] for full escalation timeline.
 
 [[Oliver Stuenkel]] (Getulio Vargas Foundation): deal is part of broader strategy for strategic autonomy from *both* [[China]] and US through diversification — [[Brazil]] doesn't want to swap one dependency for another.
 
-[[Roberto Goulart Menezes]] (University of Brasilia): the 2025 US confrontation (50% tariff over [[Jair Bolsonaro|Bolsonaro]] trial) germinated [[Brazil]]'s idea of treating rare earths as geopolitical bargaining chips. "[[Brazil]] began to reposition its understanding of the importance of these elements beyond their commercial dimension, recognizing their geopolitical relevance."
+[[Roberto Goulart Menezes]] (University of Brasilia): the 2025 US confrontation (50% tariff over [Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FJair%20Bolsonaro) trial) germinated [[Brazil]]'s idea of treating rare earths as geopolitical bargaining chips. "[[Brazil]] began to reposition its understanding of the importance of these elements beyond their commercial dimension, recognizing their geopolitical relevance."
 
 The [[India]] MOU was explicitly a "pilot before negotiating with a country with which [[Brazil]] has an asymmetrical relationship" — meaning the US comes next, on [[Brazil]]'s terms.
 
@@ -324,7 +324,7 @@ The [[India]] MOU was explicitly a "pilot before negotiating with a country with
 - Only ~30% of territory geologically mapped
 - [[Capital Economics]] (Nov 2025): [[Brazil]] could become a mid-sized producer but will "probably remain at the lower value-added end of the supply chain" — mining ore, not processing magnets
 - US vs [[EU]] competition: both courting Brasília simultaneously, giving [[Brazil]] leverage but also complicating negotiations
-- Trump diplomatic baggage: support for [[Jair Bolsonaro|Bolsonaro]], 2025 tariff confrontation
+- Trump diplomatic baggage: support for [Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FJair%20Bolsonaro), 2025 tariff confrontation
 
 ### The leverage window
 

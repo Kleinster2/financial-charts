@@ -105,6 +105,26 @@ Semiconductor industry capex reaching $200B in 2026 (+20% YoY), with advanced pa
 
 ---
 
+## NVIDIA relationship — 30 years, no contract (Dwarkesh, Apr 15, 2026)
+
+[[Jensen Huang]] on the Dwarkesh Patel podcast: "We've never had a contract with [[TSMC]]. 30 years, no contract — just trust." [[NVIDIA]] is now TSMC's single largest customer (overtaking or roughly level with [[Apple]] by 2026 revenue).
+
+**Why this matters structurally:**
+
+- **Allocation is FIFO, not auction.** Jensen described TSMC's wafer allocation as fixed-price, first-in-first-out — "the last thing we want to do is make ourselves undependable." Customers who lock capacity years ahead get the capacity; short-notice high-bidders do not. NVIDIA's forward commitments (booked through Rubin, Rubin Ultra, Feynman) lock the primary share of advanced-node capacity.
+
+- **CoWoS swarm.** Jensen: "[[TSMC]] swarmed the CoWoS problem" — the packaging bottleneck is no longer the binding constraint for NVIDIA's roadmap. TSMC scaled CoWoS capacity from ~32K/mo (2023) toward 120K+/mo (2026) after NVIDIA's commitment signals.
+
+- **A16 / Feynman partnership.** Jensen confirmed [[NVIDIA]] Feynman (2028 architecture) as the first announced partner for TSMC's A16 1.6nm-class process with backside power delivery. Multi-year advance coordination — only possible under the trust-based relationship model.
+
+- **Arizona motivation.** Jensen credits the 30-year trust plus the [[Donald Trump|Trump]]-administration tariff architecture for TSMC's willingness to "go build a Giga fab in Arizona." Not one factor — both.
+
+The anecdote is load-bearing for the moat argument. NVIDIA's roadmap cadence (annual through 2029) is impossible without a foundry partner willing to co-plan capacity years out. "30 years, no contract" is not casual — it's the most advance-committed silicon supply chain in the industry.
+
+See [[Jensen Huang]] for broader context, [[Rubin]] for the roadmap, and [[Advanced packaging]] for the CoWoS dynamic.
+
+---
+
 ## Q1 2026 earnings preview
 
 Reports Apr 16.

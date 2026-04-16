@@ -122,6 +122,21 @@ If the pricing holds, Ridges is a direct cost-disruption threat to [[Cursor]]'s 
 | Oct 6, 2025 | Mixed-set score rebounds to ~41% |
 | Oct 30, 2025 | V1 consumer product ships as IDE extension, ~$12/mo |
 | April 2026 | SN62 alpha token ~$45M market cap, top 15 Bittensor subnet |
+| Apr 10 2026 | [[Brad Gerstner]] ([[Altimeter]]) highlighted Ridges publicly on [[All-In Podcast]] |
+
+---
+
+## Apr 10 2026 — All-In public endorsement
+
+[[Brad Gerstner]] cited Ridges by name on [[All-In Podcast]] during a segment on [[Anthropic]]'s $30B revenue ramp, framing SN62 as a live competitive threat to [[Claude Code]] economics on the basis of the already-captured datapoints (80% [[SWE-Bench]] Verified, under $1M total paid to miners, 45 days from launch, "flywheel like [[Bitcoin]]").
+
+What changed on this date is the audience. This is the first time Ridges has been cited by a top-tier VC alongside frontier-lab revenue discussion on the highest-reach technology investor podcast, rather than inside a crypto-subnet context. It is the first mainstream-investor public validation of the [[Bittensor]] intelligence-markets thesis against a named frontier lab with a measurable revenue profile.
+
+Same-episode debate on whether decentralized networks can credibly disrupt centralized frontier spend is captured as a concept debate in [[Decentralized AI landscape#Centralized vs decentralized frontier debate]] — Ridges is Position 1 (orthogonal attack vector) in that frame.
+
+Near-term test: SN62 alpha-token liquidity and price action through the week of Apr 10-17 is the real-time gauge of whether the mention converted into net buying — a direct check on the reflexivity thesis for [[Bittensor]] subnet tokens with visible product traction and mainstream-investor name recognition.
+
+*Source: [[All-In Podcast]] (Apr 10 2026), "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence."*
 
 ---
 

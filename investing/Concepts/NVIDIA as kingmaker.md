@@ -78,9 +78,34 @@ Nokia +22% on NVIDIA investment.
 |------|--------|--------|
 | Oct 2025 | [[Nokia]] | $1B (2.9% stake) |
 | Sept 2025 | [[Intel]] | $5B |
-| 2025 | [[OpenAI]] | $100B commitment |
+| 2025 | [[OpenAI]] | $30B direct investment |
+| 2025 | [[Anthropic]] | $10B direct investment |
 | 2025 | [[AI21 Labs]] | ~$3B acquisition |
+| 2025 | [[CoreWeave]] | $2B equity + $6.3B COGS backstop |
+| Dec 2025 | [[Groq]] | $20B (non-exclusive licensing) |
+| Mar 2026 | Lumentum, Coherent | $4B (photonics) |
 | 2024 | Wayve | $500M |
+
+---
+
+## Jensen's stated philosophy (Dwarkesh, Apr 2026)
+
+Jensen articulated the investment-pattern doctrine directly on the Dwarkesh Patel podcast: *"as much as needed, as little as possible."*
+
+**The rule:** invest only when required to activate a demand pocket that would otherwise be blocked by capital scarcity, supplier bandwidth, or financing gaps. Explicitly rejects the hyperscaler path (owning the full stack end-to-end).
+
+**How to read the pattern:**
+
+| Investment type | Reading |
+|---|---|
+| Direct model-lab equity ([[OpenAI]] $30B, [[Anthropic]] $10B) | Training-capacity unblock — [[Jensen Huang]]'s "last money in" thesis, expects IPOs in 2026 |
+| Neocloud backstop ([[CoreWeave]] $6.3B + $2B) | Deployment-capacity unblock when third-party capital balks |
+| Component investments ([[Lumentum]], [[Coherent]], [[Nokia]]) | Bandwidth unblock — networking/photonics capacity |
+| Ecosystem fold-ins ([[Groq]], [[Intel]]) | Market-segmentation plays — covers tier that GPU architecture alone can't serve |
+
+**Implication for the circular-financing critique:** Jensen's reframe is that each investment has an explicit unblock rationale, not a roundtrip-revenue motive. The [[CoreWeave]] backstop, sized against $2B real EBITDA, is the most direct example (see [[CoreWeave]] for the disclosed structure).
+
+**Implication for portfolios:** NVIDIA's balance sheet functions as deployment lubricant in the capital-sparse portions of the stack. Watch for where the capital *doesn't* go — the absence signal is as informative as the presence signal.
 
 ---
 

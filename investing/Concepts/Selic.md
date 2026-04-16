@@ -13,8 +13,8 @@ Selic (Sistema Especial de Liquidação e de Custódia) has two related meanings
 
 | Term | Definition |
 |------|------------|
-| **Selic target** | Policy rate set by COPOM (8 meetings/year) |
-| **Selic effective** | Actual overnight rate on gov't securities repos |
+| Selic target | Policy rate set by COPOM (8 meetings/year) |
+| Selic effective | Actual overnight rate on gov't securities repos |
 
 The effective rate typically equals the target. BCB conducts open market operations to maintain alignment.
 
@@ -25,8 +25,9 @@ The effective rate typically equals the target. BCB conducts open market operati
 | Date | Selic target |
 |------|--------------|
 | Feb 2026 | 15.00% |
+| April 16, 2026 | 14.75% (pre-Apr 28-29 COPOM) |
 
-COPOM hiked aggressively through 2024-2025 (10.75% → 15%) and is now holding. No easing imminent — COPOM signaling any future cuts will be cautious and data-dependent. Market consensus expects ~12% by year-end 2026, but election-year fiscal uncertainty clouds the path. See [[Brazil corporate bond rout February 2026]] for corporate impact.
+COPOM hiked aggressively through 2024-2025 (10.75% → 15%) and began cutting in 2026. As of April 16, [[Polymarket]] prices 95% probability of a rate decrease at the April 28-29 COPOM meeting. Focus survey: year-end 2026 Selic forecast 12.5%; 2026 IPCA forecast 4.71% — above the 4.50% ceiling of the target range for the first time this cycle. Election-year fiscal uncertainty ([[2026 Brazil presidential election]]) clouds the rate path. See [[Brazil corporate bond rout February 2026]] for corporate impact.
 
 ---
 
@@ -72,8 +73,8 @@ Brazil has never had sustained low rates — structural factors (fiscal, indexat
 ### Why CDI ≈ Selic
 
 Both are overnight unsecured interbank rates:
-- **Selic**: Repos collateralized by government securities
-- **CDI**: Unsecured interbank deposits
+- Selic — repos collateralized by government securities
+- CDI — unsecured interbank deposits
 
 Spread is minimal because credit risk between major banks is negligible overnight.
 
@@ -110,7 +111,7 @@ Brazil's real rate (Selic minus inflation) among highest globally:
 
 | Country | Policy rate | Inflation | Real rate |
 |---------|-------------|-----------|-----------|
-| [[Brazil]] | 15.00% | ~4.3% | ~10.7% |
+| [[Brazil]] | 14.75% | 3.81% (IPCA trailing) | ~10.9% |
 | [[Mexico]] | 10.00% | ~4% | ~6% |
 | US | 4.50% | ~3% | ~1.5% |
 
@@ -137,8 +138,12 @@ Markets react sharply to guidance changes — COPOM communication is key event.
 
 - [[CDI]] — market rate, tracks Selic
 - [[Banco Central do Brasil]] — sets Selic via COPOM
+- [[Gabriel Galípolo]] — BCB president
 - [[B3]] — DI futures trade Selic expectations
 - [[Cupom cambial]] — derived from Selic + FX expectations
 - [[Cross-currency basis]] — affects foreign hedged returns
 - [[Brazil]] — macro context
 - [[IPCA]] — inflation target benchmark
+- [[Arcabouço Fiscal]] — fiscal framework shaping rate path
+- [[2026 Brazil presidential election]] — election-year rate uncertainty
+- [[Polymarket]] — prices COPOM rate decisions

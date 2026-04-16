@@ -38,7 +38,7 @@ Rishabh Jain ([[Council on Energy, Environment and Water]], Delhi): *"Global Sou
 
 ## Why it matters
 
-**For [[Brazil]]:** The MOU is a geopolitical positioning move, not primarily an economic one. [[Roberto Goulart Menezes]] (University of Brasilia): "For [[Brazil]], this agreement represents a kind of pilot before negotiating with a country with which [[Brazil]] has an asymmetrical relationship" — meaning the US. The 2025 US confrontation (50% tariff over [[Jair Bolsonaro|Bolsonaro]] trial) catalyzed [[Brazil]]'s recognition that rare earths are geopolitical leverage, not just exports.
+**For [[Brazil]]:** The MOU is a geopolitical positioning move, not primarily an economic one. [[Roberto Goulart Menezes]] (University of Brasilia): "For [[Brazil]], this agreement represents a kind of pilot before negotiating with a country with which [[Brazil]] has an asymmetrical relationship" — meaning the US. The 2025 US confrontation (50% tariff over [Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FJair%20Bolsonaro) trial) catalyzed [[Brazil]]'s recognition that rare earths are geopolitical leverage, not just exports.
 
 **For [[India]]:** Access to [[Brazil]]'s world #2 rare earth reserves (~22M metric tons) at a moment when [[China]]'s export controls are disrupting global supply chains. [[India]] ranks #5 globally in reserves (~6.9M tons) but needs diversification.
 

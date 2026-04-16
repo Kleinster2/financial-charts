@@ -38,6 +38,10 @@ US-China proxy battle over two strategic ports at either end of the [[Panama Can
 | **Feb 4, 2026** | Beijing warns Panama "will inevitably pay a heavy price politically and economically" — directs state firms to halt new Panama projects, considers rerouting cargo |
 | **Feb 2026** | Panama taps APM Terminals ([[Maersk]] subsidiary) to temporarily take over port operations |
 | **Feb 12, 2026** | [[CK Hutchison]] threatens legal action against [[Maersk]]/APM Terminals — files arbitration + investment protection treaty dispute against Panama |
+| **Early Mar 2026** | [[NDRC]] summons [[Maersk]] and [[MSC]] separately from the March 10 Iran/Hormuz summons. Demand: withdraw immediately from Balboa and Cristóbal; warning not to "engage in illegal activities that harm the interests of Chinese companies, and to uphold commercial ethics and international rules" |
+| **Mar 20, 2026** | [[Maersk]] CEO [[Vincent Clerc]] attends in-person NDRC meeting in Beijing on the Panama withdrawal demand; [[MSC]] president Diego Aponte corresponds with NDRC by writing |
+| **Apr 2026 (this month)** | [[CK Hutchison]] $2bn damages claim against [[Panama]] confirmed; [[Maersk]] and [[MSC]] continue to argue temporary concessions are necessary to keep trade flowing through the canal |
+| **Apr 2026** | China introduces sweeping regulations making it illegal to "harm the security of the country's industrial and supply chains" with exit-ban threat for violators; also issues counter-extraterritorial jurisdiction rules giving Beijing authority to assess and retaliate against foreign extraterritorial actions across trade, investment, and international cooperation. Both new tools apply directly to the Panama dispute. See [[China retaliatory toolkit#2026 legal infrastructure]] |
 
 ---
 
@@ -64,9 +68,13 @@ US-China proxy battle over two strategic ports at either end of the [[Panama Can
 
 **Cybersecurity dimension:** ZPMC cranes at both ports (6 at Balboa, 7 at Cristóbal, acquired 2023) create potential backdoor access. US House committees flagged these as national security vulnerabilities. Even under new ownership, the physical/digital infrastructure remains Chinese-made.
 
-**CKH trapped:** Cannot sell (Beijing blocks), cannot keep (Panama revokes). The $22.8B BlackRock deal valued Hutchison Ports well above market (~$13B est. prior valuation) — a financial win that may never close.
+**CKH trapped:** Cannot sell (Beijing blocks), cannot keep ([[Panama]] revokes). The $22.8B [[BlackRock]] deal valued [[Hutchison Ports]] well above market (~$13B est. prior valuation) — a financial win that may never close.
 
-**Rhodium Group analysis:** US retains treaty leverage with Panama on national security grounds. Beijing has claimed a partial victory by derailing the outright US acquisition. Both sides have incentives to escalate.
+**Europeans trapped too — the symmetric trap:** [[Maersk]] and [[MSC]] face the same two-sided pressure CKH does, just on different time horizons. They cannot refuse [[Panama]]'s invitation to operate the ports (commercial logic + Western-government alignment + the strategic value of Balboa and Cristóbal). They cannot ignore [[NDRC]]'s withdrawal demand either (Chinese-market exposure: Maersk's route dependencies + port terminals in China; MSC's TiL arm's global acquisition footprint, which still requires PRC approval to close the Hutchison Ports deal outside China). The only released pressure valve is the leverage the Europeans have discovered — the US-operator-backfill argument (below) — which converts Beijing's demand from "pull out" to "stay, reluctantly."
+
+**Rhodium Group analysis:** US retains treaty leverage with [[Panama]] on national security grounds. Beijing has claimed a partial victory by derailing the outright US acquisition. Both sides have incentives to escalate.
+
+**Beijing's worst case:** A person familiar with the [[NDRC]] talks told [[FT]] (Apr 2026) that if the European companies pulled out of Balboa and Cristóbal, US operators would be the most likely replacements — a worse outcome for Beijing than the temporary [[Maersk]]/[[MSC]] concessions. The European groups have used this argument with NDRC to justify staying in. This is the pressure valve in the symmetric trap: Beijing's demand is constrained by its own alternatives, so the Europeans can credibly stay despite the NDRC order.
 
 ---
 
@@ -89,6 +97,7 @@ US-China proxy battle over two strategic ports at either end of the [[Panama Can
 - [CBS News — BlackRock strikes $23B deal](https://www.cbsnews.com/news/blackrock-panama-canal-deal-ck-hutchison-trump/) (Mar 2025)
 - [CK Hutchison press release](https://www.ckh.com.hk/en/media/press_each.php?id=3435)
 - [US State Dept — 1997 concession context](https://1997-2001.state.gov/policy_remarks/1999/991022_gutierrez_panama.html)
+- [FT — China told Maersk and MSC to drop Panama port operations](https://www.ft.com/content/91d60b9e-374d-4dc3-bd57-3cfb3221f400) (Ryan McMorrow + Joe Leahy, Apr 15, 2026)
 
 ---
 

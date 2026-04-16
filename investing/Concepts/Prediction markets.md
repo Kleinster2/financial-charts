@@ -197,6 +197,10 @@ Source: FT (Jan 14, 2026)
 
 Regulatory jurisdiction unresolved: SPA (sports betting regulator under [[Lei das Bets]]) vs [[CVM]] (securities/derivatives). The CVM's B3 approval suggests it may claim prediction markets as derivatives, not gambling.
 
+### 2026 Brazilian presidential election — the headline contract
+
+[[Polymarket]]'s Brazilian presidential winner market has become a benchmark allocator reference. Opened September 2025; $50.2M cumulative volume by April 16, 2026. Market pricing flipped in April: [Flávio Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FFl%C3%A1vio%20Bolsonaro) 40, [[Lula]] 39, Field 21 — the first time a Bolsonaro has led the contract. Datafolha April 11 confirmed directional shift (Flávio 46 vs Lula 45 in runoff scenario). Runoff is priced as near-certain (first-round outright winner at 14-15%). The contract divergence from traditional polls three months prior to its resolution (October 4 first round) is a direct use case for the Weinstein/Saba argument that prediction markets enable more specific portfolio hedging. See [[2026 Brazil presidential election]] for the allocator-lens event note.
+
 ---
 
 ## Related

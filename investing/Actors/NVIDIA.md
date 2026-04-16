@@ -468,6 +468,36 @@ See [[Short interest]] for interpretation framework.
 
 ---
 
+## Dwarkesh interview (Apr 15, 2026)
+
+[[Jensen Huang]] sat with Dwarkesh Patel for a 103-minute wide-ranging interview on moat architecture, the roadmap cadence, export controls, and circular-financing accusations. Net-new points beyond existing vault coverage:
+
+**Roadmap cadence — annual releases through 2029.** Vera Rubin first samples back "a few weeks ago," fully healthy. Vera Rubin Ultra in 2027. Feynman in 2028. A fourth unnamed architecture in 2029. Jensen claims Rubin is still 25%/yr Moore's Law pace at the transistor layer — but when composed with algorithms, architecture, and co-design across generations, [[Blackwell]] delivered 50x [[Hopper]] energy efficiency. Framing: "That's impossible by Moore's Law alone."
+
+**CoWoS is no longer the bottleneck.** [[TSMC]] "swarmed the problem" and is "catching up with demand as fast as they possibly can." Bottleneck has shifted to (1) energy, (2) electricians, (3) plumbers. Jensen flags a 2-3 year ceiling on global AI buildout tied to physical construction trades, not silicon.
+
+**TSMC is "the only partner we have" — 30 years, no contract.** Jensen describes a three-decade relationship with [[TSMC]] built on "just trust — we've never had a contract with TSMC." NVIDIA is now TSMC's single largest customer. Attributed TSMC's willingness to "go build a Giga fab in Arizona" to trust plus Trump administration tariff architecture.
+
+**Fixed-price FIFO allocation, not high-bidder.** When asked why NVIDIA doesn't auction capacity at peak demand, Jensen: "The last thing that we want to do is make ourselves undependable. We want to be a dependable foundation on top of which they can build their computers." Prices are contracted in advance; whoever is first in line gets the chips. Rejects the supply-auction model as short-term thinking.
+
+**[[Groq]] folded into CUDA ecosystem (confirmation).** Jensen explicitly frames the [[Groq]] deal as CUDA-compatible premium inference tokens. "We decided that we should take the best of Groq and enable it within the CUDA ecosystem." Positions Groq as delivering "premium tokens" — higher-ASP, lower-latency inference for interactive use cases. Market segmentation: not a defensive hedge; a second CUDA-compatible ASP tier.
+
+**CoreWeave economics disclosed.** Jensen: "[[CoreWeave]]'s EBITDA is $2B of real EBITDA. The cost of goods is $6.3B. We only guaranteed the difference. And we only have $2B of equity in them." Reframes the oft-cited "NVIDIA backstops CoreWeave" narrative as a structured $6.3B backstop against a company generating $2B real EBITDA — not a circular-revenue loop. Consistent with [[CoreWeave]]'s own Box SPV framework.
+
+**"Do as much as needed, as little as possible."** Philosophy for infrastructure investment: NVIDIA invests when it's necessary to activate demand ([[OpenAI]] $30B, [[Anthropic]] $10B, [[CoreWeave]] backstop) but explicitly rejects the hyperscaler path. "Trying to do as little as necessary" is the stated rule — capex externalized to partners when possible, internalized only when required to unblock deployment.
+
+**"Anthropic is a unique instance, not a trend."** On Anthropic running part of workload on [[Google]] [[TPU]]: Jensen characterizes this as bespoke, not structural. Anthropic trains and serves on GPUs, TPUs, and Trainium simultaneously — "they run everywhere." The framing pushes back on the read that custom silicon is displacing NVIDIA at the frontier. "It's not a trend — Anthropic is a unique instance."
+
+**ASIC margin math.** Jensen's counter to "ASICs win on cost": [[Broadcom]]'s ASIC business runs ~65% gross margin vs NVIDIA's ~70%. The headline 5-point spread is the entire margin gap on the bill-of-materials — a rounding error against the full stack NVIDIA delivers (CUDA, networking, packaging, system-level optimization). Implication: ASIC programs are expensive to run *and* don't materially undercut NVIDIA gross dollars per rack.
+
+**Premium inference tokens — Jensen's new framing.** The inference market is disaggregating into interactive/real-time (premium ASP, demands Groq-class latency) and batch/reasoning (volume, demands Rubin-class throughput). "Tokens are not commodities." NVIDIA's stack serves both tiers. See [[Premium inference tokens]] for the disaggregation framework.
+
+**5-layer AI cake, reused.** Jensen reuses the Davos Jan 2026 framing (electrons → chips → infrastructure → models → applications) as his China rebuttal scaffold. Only the full-stack player captures every layer. See [[Jensen Five Layer Cake]] for the full framework and [[Export controls]] for the China-specific application.
+
+*Source: Dwarkesh Patel podcast, "Will Nvidia's moat persist?" Apr 15, 2026. 103m12s.*
+
+---
+
 ## Recent developments (Mar 2026)
 
 ### $4B photonics investment — Lumentum + Coherent (Mar 2)

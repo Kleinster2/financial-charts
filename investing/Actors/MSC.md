@@ -36,6 +36,16 @@ MSC's terminal arm (TiL - Terminal Investment Limited) is acquiring [[Hutchison 
 - Excludes China/Hong Kong assets
 - Would make MSC/TiL the largest terminal operator globally
 
+### Panama Canal ports — Beijing demands withdrawal (early Mar 2026)
+
+Distinct from the [[NDRC]] freight-rate summons of March 10 (Iran/Hormuz context), [[NDRC]] also summoned MSC and [[Maersk]] separately in early March 2026 to demand they withdraw from Balboa and Cristóbal "immediately" — the temporary concessions both groups took on after [[Panama]]'s Supreme Court voided [[CK Hutchison]]'s rights. NDRC told the European groups not to "engage in illegal activities that harm the interests of Chinese companies, and to uphold commercial ethics and international rules." MSC president Diego Aponte has been communicating with NDRC through written correspondence (vs. Maersk CEO [[Vincent Clerc]]'s in-person Beijing meeting on March 20). MSC and Maersk argue the temporary concessions are necessary to keep trade flowing through the canal.
+
+A person familiar with the talks told FT that if the European companies pulled out, US operators would be the most likely replacements — an outcome worse for Beijing than the current arrangement, which MSC/Maersk have used as leverage with NDRC. See [[Panama Canal Ports Crisis 2025-2026]].
+
+MSC sits in a symmetric trap alongside [[CK Hutchison]]: can't refuse [[Panama]]'s invitation (commercial logic + the strategic value of Balboa and Cristóbal, plus [[Hutchison Ports]] terminals TiL still wants to acquire globally), can't ignore NDRC either (MSC routes + TiL's acquisition footprint still require PRC approval to close the non-China Hutchison Ports deal). The US-operator-backfill argument is the pressure valve that lets MSC stay despite the withdrawal demand.
+
+*Source: [[FT]], Ryan McMorrow + Joe Leahy, Apr 15, 2026*
+
 ## Iran conflict response (Mar 2026)
 
 Invoked the Bills of Lading Act (1855) on Mar 4 — all containers taken to nearest available port and left for customers at their own expense, plus $800 per-container deviation fee. Announced emergency fuel surcharges on key routes and temporarily raised rates on Asia–Europe and African routes. Both MSC and [[Maersk]] continue to sail to some [[Saudi Arabia]] and [[Oman]] ports; MSC highlighted an overland route to Gulf countries via Saudi Red Sea ports.

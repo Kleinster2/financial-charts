@@ -81,6 +81,17 @@ The demand for Treasuries hasn't disappeared — it has migrated from central ba
 
 *Source: NY Fed research, FT (Gillian Tett, Apr 3 2026)*
 
+## Foreign pension funds and SWFs — the public-debate layer
+
+A separate dynamic from the central-bank and hedge-fund stories above: foreign institutional investors (pension funds, sovereign wealth funds) are increasingly making their US-allocation stance a matter of public policy debate rather than passive benchmark-following. Two poles bracket the 2026 range:
+
+- [[AkademikerPension]] (Danish academics' fund) announced in January 2026 that it was selling all of its US Treasury holdings, citing America's excess debt and fiscal outlook as too risky. One of the first large institutional investors to exit US Treasuries entirely on US-debt-trajectory grounds.
+- [[Government Pension Fund Global]] (Norway, >$2T AUM, >50% US exposure) said in April 2026 that it has "no plans to reduce our exposure in the US." Finance minister [[Jens Stoltenberg]]: "there is no way to hide [$2tn]" — the US is too large a share of global capital markets for any major fund to meaningfully underweight.
+
+The debate is political as much as economic: Norwegian parliament members have publicly questioned GPFG's concentration, and similar pressure is mounting on other European pension systems post-[[Liberation Day tariffs]] and post-[[2026 Iran conflict market impact|Iran war]]. The signal to watch: whether the GPFG pole or the AkademikerPension pole captures the median foreign institutional investor. If GPFG's stance holds across the largest funds, foreign demand for US assets is structurally anchored even as central banks diversify. If more funds follow AkademikerPension, the Treasury rollover risk extends beyond hedge-fund flows to long-duration institutional money.
+
+*Source: FT (Clarfelt & Duguid, Apr 15 2026)*
+
 ## The counterpoint
 
 41% is still dominant — nothing else is close. The yuan is at 2-3% and constrained by capital controls. The euro has no fiscal union behind it. Crypto is negligible. The dollar still denominates ~88% of FX transactions and ~40% of international trade. Reserve status erodes slowly, then quickly — but we may still be in the "slowly" phase.

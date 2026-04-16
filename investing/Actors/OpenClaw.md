@@ -68,6 +68,25 @@ Steinberger's framing: step one, build the first-party version of what the commu
 
 See [[Conway]] and [[Intelligence portability]].
 
+### Apr 10 2026 — public record of antitrust exposure
+
+The Jan 2026 OAuth cutoff plus the Apr 8 2026 [[Anthropic Managed Agents]] launch now sit on the public investor record as a named antitrust exposure. On [[All-In Podcast]] (Apr 10 2026), [[David Sacks]] walked through the mechanics on-air — OpenClaw power users were consuming $2K-$20K of tokens against a $200/mo [[Claude]] Pro/Max subscription, [[Anthropic]] forced those users onto metered API pricing (~10-100× per-call cost), and ten days later bundled its own first-party agent into the same $200 flat rate. Sacks placed [[Anthropic]]'s coding-token share above 50% and flagged the combination as a potential price-discrimination or illegal-bundling exposure for a future administration.
+
+The framework and the Gerstner defense are captured as a generalizable concept in [[AI consolidation#Frontier-lab pricing and bundling exposure]] — it applies to any frontier lab with dominant share in a measurable workload, not just this specific conflict.
+
+Competitive field pressuring OpenClaw as of Apr 10 2026 (per [[Jason Calacanis]] on the same episode):
+
+| Competitor | Structure |
+|-----------|-----------|
+| [[Anthropic Managed Agents]] | First-party, bundled in $200 Pro/Max (Apr 8 2026) |
+| Perplexity Computer ([[Perplexity]]) | First-party agent |
+| Hermes Agent ([[Nous Research]]) | Open source, Feb 25 2026 |
+| [[Alibaba]] [[Qwen]]-based agent | In development |
+| Rock Computer (MacroHard / [[xAI]] / [[Elon Musk]]) | Software play on Microsoft's name |
+| [[Amazon]] Alexa + [[Apple]] Siri upgrades | Incumbent voice assistants adding agent features |
+
+The concentration of first-party agent launches around the same pricing structure is the structural pressure; the regulatory exposure flagged by Sacks is the upside optionality for OpenClaw if enforcement attention actually arrives.
+
 ---
 
 ## Viral growth

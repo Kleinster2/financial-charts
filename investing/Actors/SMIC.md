@@ -124,6 +124,18 @@ The technology gap persists: SMIC and Hua Hong remain unable to manufacture the 
 
 ---
 
+## "7nm is enough" — Jensen's framing (Dwarkesh, Apr 15, 2026)
+
+[[NVIDIA]] CEO [[Jensen Huang]] on the Dwarkesh Patel podcast: "7nm is enough" to build competitive training systems. Frames [[SMIC]]-class nodes as sufficient — not leading, but sufficient — for Chinese AI training at a cost penalty the Chinese state is willing to pay.
+
+The argument against over-weighting SMIC's node lag: when a system can be built with more chips at a worse node + silicon photonics + HBM2 + Huawei-style "gang chips" (see [[Huawei]]), the relevant constraint is not node leadership but ecosystem diffusion. Jensen's structural concern is that the US denies SMIC advanced tooling while the AI workload on SMIC silicon grows anyway — and exports globally through open-weight models.
+
+SMIC is therefore the *load-bearing* actor in Jensen's [[Export controls]] rebuttal: not because it has closed the gap to [[TSMC]], but because it has closed enough of the gap to matter.
+
+See [[Jensen Huang]] for the full argument and [[Export controls]] for the policy debate.
+
+---
+
 ## What to watch
 
 - [ ] 5nm progress and yield reports

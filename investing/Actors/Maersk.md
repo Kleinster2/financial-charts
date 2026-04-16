@@ -83,6 +83,16 @@ Panama authorities asked APM Terminals (Maersk subsidiary) to temporarily take o
 
 Risk: legal liability from CKH arbitration. Opportunity: operating two of the world's most strategic port positions.
 
+### Beijing demands withdrawal — NDRC summons (early Mar 2026)
+
+Distinct from the [[NDRC]] freight-rate summons of March 10 (Iran/Hormuz context), [[NDRC]] also summoned Maersk and [[MSC]] separately in early March 2026 to demand they withdraw from Balboa and Cristóbal "immediately." NDRC told the European groups not to "engage in illegal activities that harm the interests of Chinese companies, and to uphold commercial ethics and international rules" — a clear reference to displacing [[CK Hutchison]]. CEO [[Vincent Clerc]] attended an in-person NDRC meeting in Beijing on March 20, 2026 to argue Maersk's case. Maersk and MSC have argued the temporary concessions are necessary to keep trade flowing through the Panama Canal. Outreach is being conducted by top executives at both groups.
+
+According to a person familiar with the talks, if Maersk and [[MSC]] pulled out, US operators would be the most likely replacements — an outcome worse for Beijing than the European concessions, which Maersk/MSC have used as leverage in their own argument to [[NDRC]]. See [[Panama Canal Ports Crisis 2025-2026#Why it matters|event note]].
+
+Maersk sits in a symmetric trap alongside [[CK Hutchison]]: can't refuse [[Panama]]'s invitation (commercial + Western-government alignment + the strategic value of Balboa and Cristóbal), can't ignore NDRC either (route dependencies and port-terminal footprint in China). The US-operator-backfill argument is the pressure valve that lets Maersk stay despite the withdrawal demand.
+
+*Source: [[FT]], Ryan McMorrow + Joe Leahy, Apr 15, 2026*
+
 ---
 
 ## Strait of Hormuz avoidance (Mar 2, 2026)

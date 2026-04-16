@@ -56,6 +56,8 @@ Burning 14x less cash than OpenAI before profitability. CFO [[Krishna Rao]]: "Cl
 
 [[NVIDIA]] CEO [[Jensen Huang]] (Mar 2026): expects his recent $40B investment across Anthropic and [[OpenAI]] to be his "last money in" — both companies will go public this year. [[Brad Gerstner]] ([[Altimeter]]): Opus 4.6 crossed a threshold where models compete with **labor budgets**, not IT budgets — "you could not possibly have a $6B month by displacing IT budgets."
 
+Jensen on Anthropic's [[TPU]] usage (Dwarkesh, Apr 15, 2026): "[[Anthropic]] is a unique instance, not a trend." Characterizes Anthropic running part of its workload on [[Google]] [[TPU]] as bespoke rather than structural — Anthropic trains and serves simultaneously on [[NVIDIA]] GPUs, Google TPUs, and [[Trainium]] ([[AWS]]). "They run everywhere." The framing pushes back on the read that custom silicon is displacing NVIDIA at the frontier. For NVIDIA it matters: the TPU deal is frequently cited as evidence that frontier labs are migrating off GPUs. Jensen's rebuttal is that Anthropic is multihomed by design, not defecting.
+
 ---
 
 ## Funding rounds
@@ -164,6 +166,40 @@ Anthropic's engineering post framed the architecture as "decoupling the brain fr
 Early use cases surfaced immediately: [[Notion]] used Managed Agents for client onboarding flows, while [[Sentry]] used it to hand off from Seer root-cause analysis to a Claude-powered agent that writes the fix and opens a PR. The strategic point is bigger than the demos: Anthropic is no longer just selling the model or the coding assistant, but the hosted runtime layer around them.
 
 Apr 10 market reaction: [[Cloudflare]] fell 13.5% ($193.05 -> $166.99), [[Fastly]] 21.7% ($29.46 -> $23.07), and [[Akamai]] 16.7% ($109.61 -> $91.35) as investors realized the disruption thesis had moved down-stack. February's [[Claude Cowork disruption February 2026]] hit application software; Managed Agents hit parts of the agent infrastructure layer itself. See [[Anthropic Managed Agents selloff April 2026]].
+
+---
+
+### Q1 2026 operating profile
+
+Q1 2026 monthly revenue adds (disclosed on [[All-In Podcast]] Apr 10 2026 by [[Brad Gerstner]], [[Altimeter]]):
+
+| Month | Revenue added |
+|-------|---------------|
+| Jan 2026 | +$4B |
+| Feb 2026 | +$7B |
+| Mar 2026 | +$10-11B |
+
+Run rate progression: $1B end-2024 → $4B mid-2025 → $9B end-2025 → $30B end-March 2026. The $30B figure is separately confirmed (Bloomberg, CNBC, TechCrunch, Apr 6-7 2026) and was disclosed alongside the [[Google]] / [[Broadcom]] compute expansion. Plan of record was to exit 2026 at $30B; the company hit that at end-Q1.
+
+Operational profile as of Apr 10 2026:
+
+| Dimension | Value |
+|-----------|-------|
+| Headcount | ~2,500 |
+| Current compute | ~1.5-2 GW |
+| 2026 compute add | +3 GW |
+| Inference unit cost | -90% YoY |
+
+Reference point on the headcount figure: [[Google]] had ~120,000 employees when it crossed comparable revenue. The company is compute-constrained on the supply side rather than demand-constrained, which is why the +3 GW 2026 compute add matters for exit-run-rate math.
+
+Investor-side projection from the same episode: 2026 exit run rate of $80-100B if compute scales as planned and demand conversion holds. This is a Gerstner/Altimeter projection, not company guidance, and is not independently confirmed.
+
+Two debates surfaced on the same episode that belong in concept notes rather than here:
+
+- The pricing / bundling / third-party-access angle (Claude Pro/Max $200 flat rate vs. metered API forcing [[OpenClaw]] power users off subscriptions) is generalizable to any frontier lab with dominant workload share — captured in [[AI consolidation#Frontier-lab pricing and bundling exposure]].
+- The "AI coding is only ~5% of the broader coding market" TAM framing (legacy languages, COBOL, 50-year tech debt) and its counter to compute-constraint framings — captured in [[Enterprise AI adoption#Legacy-code modernization as durable TAM floor]].
+
+*Source: [[All-In Podcast]] (Apr 10 2026). See also [[Ridges AI]] for same-episode competitive framing of open-source coding threats.*
 
 ---
 

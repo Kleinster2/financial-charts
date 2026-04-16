@@ -57,6 +57,12 @@ aliases: [National Development and Reform Commission, 国家发展和改革委�
 
 This signals pivot from investment-led to consumption-led growth model.
 
+### Early Mar 2026: Panama port withdrawal demand on European shippers
+
+NDRC summoned [[Maersk]] and [[MSC]] in early March 2026 to demand they withdraw "immediately" from the Balboa and Cristóbal ports they took over after [[Panama]]'s Supreme Court voided [[CK Hutchison]]'s concession. NDRC told the European groups not to "engage in illegal activities that harm the interests of Chinese companies, and to uphold commercial ethics and international rules." Maersk CEO [[Vincent Clerc]] attended an in-person meeting at NDRC on March 20, 2026; MSC president Diego Aponte corresponds in writing. The demand was issued the same day China's transport ministry pressed both shippers on supply-chain stability amid the Iran war disruption — two distinct asks from two separate state bodies on the same target. Shows NDRC functioning as a retaliation tool against foreign corporations operating in PRC-claimed strategic-asset perimeter, not just as a domestic planner. See [[Panama Canal Ports Crisis 2025-2026]] for the full proxy-battle context.
+
+*Source: [[FT]], Ryan McMorrow + Joe Leahy, Apr 15, 2026*
+
 ### Late March 2026: Peng Shaozong energy-security warning
 
 [[Peng Shaozong]], former NDRC official and now vice-president of the [[China Society for Economic Reform]], published an unusually candid policy paper warning that China "must abandon wishful thinking" and should start considering worst-case scenarios in the wake of the [[2026 Strait of Hormuz crisis]]. Costs in energy-intensive sectors (logistics, transport, aviation, shipping, steel) had jumped as much as 25%; pressure severest on smaller firms without SOE cost-absorption buffer. Policy recommendation: release oil from the strategic petroleum reserve in response to higher prices, not only scarcity; accelerate oil supply diversification. Flagged industrial-gas dependencies (including [[Helium]]) for semiconductors and medical technology. See [[Iran conflict supply chain cascade#Peng Shaozong — "abandon wishful thinking" (late March)|supply chain cascade note]] for the data.

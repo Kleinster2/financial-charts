@@ -24,6 +24,8 @@
 
 **2024 election moment:** Polymarket showed Trump 60-65% when polls showed toss-up. Trump won. This was prediction markets' mainstream validation — media started citing Polymarket probabilities alongside polls.
 
+**2026 Brazilian presidential election:** Polymarket's Brazilian winner contract ($50.2M volume, opened September 2025) flipped in April 2026 — [Flávio Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FFl%C3%A1vio%20Bolsonaro) 40, [[Lula]] 39, field 21 — the first time a Bolsonaro led the market. Datafolha April 11 poll confirmed directional shift (Flávio 46 vs Lula 45 in runoff). Runoff priced as near-certain. See [[2026 Brazil presidential election]].
+
 **The trade-off:**
 - **Advantage:** Global access, no KYC friction, deeper liquidity on major events
 - **Disadvantage:** No US regulatory license, can't onboard US users legally, vulnerable to enforcement

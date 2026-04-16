@@ -234,6 +234,18 @@ CEO Hock Tan: line of sight to installed capacity approaching 10GW by 2027 and A
 ![[avgo-employees-chart.png]]
 *Headcount: 33,000 (2025) — down 10.8% YoY*
 
+## ASIC margin math — Jensen's rebuttal (Dwarkesh, Apr 15, 2026)
+
+[[Jensen Huang]] addressed the "ASICs win on cost" thesis head-on: [[Broadcom]]'s ASIC business runs ~65% gross margin vs [[NVIDIA]]'s ~70%. The headline margin spread is 5 points — the entire advantage ASIC buyers capture on the bill-of-materials side.
+
+**Why Jensen argues this is small.** Against the full stack [[NVIDIA]] delivers ([[CUDA moat|CUDA]], networking via [[Mellanox]], packaging via [[TSMC]] [[CoWoS]], system-level optimization, deployment tooling), the 5-point spread is a rounding error. Customers who choose ASICs save marginally on silicon cost but absorb cost at every other layer — integration, tooling, ecosystem gaps, deployment latency.
+
+**Framing implication for Broadcom:** The Broadcom thesis that custom silicon captures economics from NVIDIA at the frontier is reframed as a shift at the margin, not at the structural level. Broadcom's ASIC business grows alongside NVIDIA, not at its expense, in Jensen's read. [[Google]] runs [[TPU]] and buys NVIDIA GPUs simultaneously; [[Meta]] runs [[MTIA]] and buys Blackwell; [[OpenAI]] runs [[Titan]] and takes $30B from NVIDIA.
+
+**Counterpoint the vault tracks:** the bull case for Broadcom has always been that custom silicon captures *incremental* AI spend — not that it displaces existing NVIDIA installed base. Jensen's 65% vs 70% framing is consistent with that read, not a refutation of it. See [[Hyperscaler disintermediation]] for the unresolved debate.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -248,7 +260,7 @@ CEO Hock Tan: line of sight to installed capacity approaching 10GW by 2027 and A
 | Gross margin | ~65% |
 | Dividend yield | ~1.1% |
 
-*Updated 2026-01-20*
+*Updated 2026-04-16 — Jensen ASIC margin rebuttal*
 
 ![[avgo-price-chart.png]]
 

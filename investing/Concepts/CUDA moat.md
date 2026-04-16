@@ -92,6 +92,24 @@ Pattern: NVIDIA buying infrastructure that competitors also rely on. Each layer 
 
 ---
 
+## Jensen's three-pillar articulation (Dwarkesh, Apr 2026)
+
+[[Jensen Huang]] on the Dwarkesh Patel podcast described CUDA's moat as three interlocking pillars:
+
+**(1) Richness / programmability.** Not a narrow DSL tuned for a few workloads — a general-purpose parallel-computing platform with decades of library depth (cuDNN, cuBLAS, cuSPARSE, TensorRT, Triton, NCCL). AI researchers choose CUDA not because the hardware is faster in isolation, but because the abstraction layer supports the full range of experimental workloads without forcing algorithm compromises.
+
+**(2) Install base.** Every GPU NVIDIA has ever shipped runs CUDA. That's a decade+ of cumulative deployment across research labs, hyperscalers, enterprises, startups. Any challenger has to match not just current-generation silicon but also backward compatibility across the install base that matters to customers.
+
+**(3) Everywhere.** CUDA runs on every cloud (AWS, Azure, GCP, Oracle), every neocloud (CoreWeave, Lambda, Crusoe, Nebius), and on-premises. Competitors face a deployment-surface problem: even if their silicon wins on unit economics, a customer buying silicon that only runs in one cloud or requires custom on-prem tooling is buying a narrower product.
+
+**The compounding dynamic.** Each pillar reinforces the others. Richness drives developer adoption → install base grows → deployment partners commit → "everywhere" becomes the default → new developers land on CUDA first → more libraries built → richness deepens.
+
+**Why ASICs struggle against this:** [[Broadcom]]'s ASIC business runs ~65% gross margin vs NVIDIA's ~70% — the headline BoM advantage is a single-digit margin spread. But ASICs ship without richness (narrow workloads only), install base (first-customer problem), or "everywhere" (one-cloud deployment). The 5-point margin gap does not compensate for the three-pillar gap at the system level.
+
+**Jensen's operating conclusion:** "Hardware is commoditized by nature. What isn't commoditized is the ecosystem." See [[Jensen Huang]] for the full interview context.
+
+---
+
 ## Current view
 
 CUDA moat is real but not permanent. AMD has moved from "0% chance" to "non-zero chance" of challenging it. Timeline: 2-4 years to know if AMD software reaches parity.
