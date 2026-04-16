@@ -1040,7 +1040,7 @@ The pump numbers validate [[Amos Hochstein]]'s March 31 forecast that the shock 
 
 Rapidan (founded by former White House energy adviser [[Bob McNally]]) in a client note: there is an increasing chance the administration orders US crude or refined-product export restrictions if prices continue climbing toward $150/bbl. While the administration has continually reassured industry that it is not contemplating export restrictions, a breakdown in this week's ceasefire could create the bullish spike in crude that would create enough desperation to put active consideration of export controls on the table.
 
-This is a direct sequel to Rapidan's March 12 speculation about Treasury futures-market intervention (see above) — the same analytical shop calling the same administrative instinct twice. An export ban would invert the current supply-substitution dynamic: US exports are currently the main physical release valve for Asian/European refiners, which is partially offsetting the blockade. Shutting that valve would spike global ex-US prices, collapse US prices (temporarily), and blow up the [[US Energy Independence Six Countries]] framework that Washington has spent fifteen years building.
+This is a direct sequel to Rapidan's March 12 speculation about Treasury futures-market intervention (see above). Framework mechanics — the transmission math ($10 WTI ≈ $0.25/gal pump), the activation pathway (Commerce Department authority, no legislation needed), the bidirectional scenario map, and the 2015-repeal / 2022-near-miss precedent — live in [[US crude export controls]].
 
 ### Why WTI is soft despite the blockade
 

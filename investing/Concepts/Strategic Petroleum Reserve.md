@@ -153,3 +153,4 @@ Chris Giles (FT, Apr 7) noted global observed oil stocks at 8.21 billion barrels
 - [[Iran conflict economic disruption]] — current event (Hormuz closure raising urgency of SPR deployment)
 - [[IATA]] — industry body (airline fuel costs affected by SPR release decisions)
 - [[Saudi Aramco]] — producer (Saudi pipeline alternatives partially substitute for SPR function)
+- [[US crude export controls]] — alternative policy instrument (rejected in 2022 in favor of 600 mn bbl SPR release)

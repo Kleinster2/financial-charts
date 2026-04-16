@@ -30,27 +30,21 @@ In a client note (Mar 12), Rapidan said while US Treasury selling front-month cr
 
 ---
 
-## $150/bbl export-restriction trigger (April 15)
+## $150/bbl export-restriction call (April 15)
 
 *Source: FT, "US crude exports hit record as Iran war disrupts Middle East supplies", Jamie Smyth, April 15, 2026.*
 
 Rapidan client note on the eve of the April 15 FT article flagged a materially increasing probability that the administration orders US crude or refined-product export restrictions if prices continue climbing toward $150/bbl. Rapidan's framing: the administration has continually reassured industry that it is not contemplating export restrictions, but a breakdown in the current ceasefire could create a bullish spike in crude that would generate enough political desperation to put export controls into active consideration.
 
-This is the second time in a month Rapidan has called an unprecedented administrative instinct — the first was the March 12 speculation about US Treasury selling front-month crude futures to suppress prices. Both calls share a common analytical stance: the administration is more interventionist under energy-price duress than its public reassurances suggest, and the intervention menu will expand as WTI rises.
+Analytical significance: this is the second time in a month Rapidan has called an unprecedented administrative instinct — the first was the March 12 speculation about US Treasury selling front-month crude futures to suppress prices. Both calls share a common stance: the administration is more interventionist under energy-price duress than its public reassurances suggest, and the intervention menu expands as WTI rises. Rapidan's willingness to publish the export-ban call suggests [[Bob McNally]]'s White House network is already hearing the option discussed, even as public messaging denies it. Rapidan's edge is not price forecasting — it is reading when an administration will break its own stated policy.
 
-The export-restriction call carries much larger structural implications than the futures-intervention call. If executed, an export ban would:
-
-- invert the April 15 dynamic (US exports at record 5.2 mb/d partially substituting for Gulf losses)
-- spike ex-US prices (Brent, Dubai) while collapsing WTI
-- reprice the [[US Energy Independence Six Countries]] framework built over fifteen years
-- create diplomatic blowback from Asian and European refiners dependent on US-origin cargoes
-
-Rapidan's willingness to publish the call suggests McNally's White House network is hearing the option discussed, even as public messaging denies it.
+Framework mechanics (transmission math, activation pathway, bidirectional scenario, asset exposures, historical precedent) are captured in [[US crude export controls]].
 
 ---
 
 ## Related
 
+- [[US crude export controls]] — framework note for the $150 trigger call
 - [[Iran conflict economic disruption]] — broader energy context
 - [[Iran conflict oil price timeline]] — April 15 Rapidan $150 trigger context
 - [[CME Group]] — exchange where the contested trades occurred

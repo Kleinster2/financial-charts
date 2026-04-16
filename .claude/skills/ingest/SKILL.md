@@ -67,6 +67,90 @@ For each opinion: attribute to the speaker. Note whether it aligns with or contr
 
 **The gate:** Do not write unverified factual claims as facts. The vault's value depends on accuracy — a wrong number written confidently is worse than a gap.
 
+## Phase 1.6: Classify content — concept vs. application
+
+Before any vault writes, classify each substantive data point from Phase 1 by filing location. This is the gate that prevents framework material from getting buried inside actor notes through source-gravity alone.
+
+**The test.** For each data point, ask: *does this describe what an entity IS or DOES, or does it describe a structure, mechanism, framework, or policy that exists regardless of the entity?*
+
+- **What an entity is or does** → lives in the entity's note. Examples: "Rapidan is a DC energy consultancy founded by McNally," "Rapidan called X on date Y," "McNally's White House network is the source of the call."
+- **Structure, mechanism, framework, or policy** → lives in a concept note, regardless of who articulated it. Examples: transmission math between oil prices and pump gasoline, legal authorities that activate export controls, historical precedent for a policy option, bidirectional scenario maps for an intervention.
+
+**The warning signs.** A subsection inside an actor note starts looking like its own note when it contains any of:
+
+- Historical context predating the actor's involvement (1975 legislation, 2015 repeal, 2022 precedent)
+- Transmission math, formulas, or quantitative frameworks usable outside this source
+- Structural consequences tables ("if X, then Y") that would apply to any analyst calling the same thing
+- Asset-exposure mapping across unrelated names
+- Activation pathways or legal mechanics
+- A Synthesis paragraph — actor notes don't need one; concept notes do
+
+If two or more of the above appear in a subsection, extract to a concept note. The actor keeps only the firm-specific call, pattern, and attribution.
+
+**Attribution is not filing.** When a named analyst or firm says X, the default storage impulse is "put it in their note." Resist. Attribution tracks *who said it*; filing tracks *what it is*. Any other shop calling the same thing in six months should land in the same concept note with different attribution — not create a parallel discussion inside a different actor note.
+
+**When in doubt, create the concept note.** The cost of a premature concept stub is low (it can grow over time). The cost of framework content trapped inside an actor note is high — it is invisible to future vault searches that reason by topic, not by source.
+
+**Add the classification to the Phase 2 survey table** as an extra column so decisions are explicit before writes begin:
+
+| Entity / data point | Status | What's new | Filing decision |
+|---|---|---|---|
+| [[Rapidan Energy Group]] | Full note | $150 trigger call | Actor: keep the call + pattern |
+| $150 trigger framework | (concept-level) | Transmission math, legal mechanics, precedent | New concept: [[US crude export controls]] |
+
+## Phase 1.7: Classify content — vault of record (lens test)
+
+The concept-vs-actor gate (1.6) decides *where within this vault* content lives. This gate decides *which vault owns the content* in the first place. Run it after 1.6 but before any writes.
+
+**The test.** For each substantive block of content, ask: *which vault's lens does this content primarily live in?*
+
+Each sibling vault has its own lens — the angle it looks at the world through:
+
+| Vault | Lens |
+|---|---|
+| Investing | Market impact, positioning, prices, portfolio implications — what should I own today and why |
+| History | "How did we get here" — durability, precedent, structural breaks, long-arc patterns |
+| Technologies | Foundational tech shifts — chip architectures, fab capacity, model breakthroughs, supply-chain evolution |
+| Geopolitics | Statecraft, alliances, sanctions architecture, military operations, diplomatic timelines |
+| Brazil | Brazilian actors, markets (BRL, B3, DI, Ibovespa, ADRs), domestic institutions, domestic policy |
+
+Content can touch multiple lenses — an Iran oil story engages investing (WTI price), geopolitics (Strait of Hormuz), and possibly history (prior oil shocks). One lens is primary; the others get a 1-2 sentence gloss and an `obsidian://` link in the respective vaults.
+
+**Durability corollary (history specifically).** For content that *could* live in history, a sharper test: *will this still be true, and still be the primary place to find this, in five years?* Yes → history owns it; investing gets a gloss. This is the cleanest version of the lens test for history because history's lens is fundamentally about durability. For the other sibling vaults, use the lens directly — "is this a tech-architecture story?", "is this a statecraft story?", "is this a Brazil-domestic story?"
+
+**Vault ownership by content type:**
+
+| Content type | Vault of record | Investing treatment |
+|---|---|---|
+| Legislation, statutes, policy regimes (1975 EPCA, Glass-Steagall, Dodd-Frank) | History | Gloss + link |
+| Historical crises, prior-cycle patterns (1970s stagflation, 2008 GFC, 2015 CNY devaluation) | History | Gloss + link for precedent |
+| Long-arc technology shifts (transistor, EUV origins, Bell Labs) | Technologies | Gloss + link when referenced |
+| Foundational chip/model architectures (transformer, TPU, HBM origins) | Technologies | Ticker-level exposure only |
+| Military operations, diplomatic timelines, sanctions architecture | Geopolitics | Market-impact lens only |
+| Alliance shifts, multilateral frameworks (BRICS, AUKUS) | Geopolitics | Market-impact lens only |
+| Brazilian domestic politics, institutions, Plano Real | Brazil | Market impact (BRL, B3, ADRs) only |
+| Brazilian macro policy, Copom decisions, fiscal framework | Brazil | Market impact only |
+| Current positioning, price action, portfolio impact | Investing | Full treatment |
+| Live policy triggers, active frameworks (Rapidan $150) | Investing | Full treatment |
+| Current event narratives being written in real time | Investing or event-specific vault | Full treatment |
+
+**Warning signs that investing is being used as a dumping ground:**
+
+- Content whose natural home is another vault's lens (legislation → history; chip architecture → technologies; diplomatic timeline → geopolitics; Brazilian institution → Brazil)
+- Dates predating the vault's time horizon (investing thinks in months/quarters; 5+ years old is history)
+- Passed legislation cited as live variable (it's history once enacted)
+- Narrative arc with beginning-middle-end (that's a historical story; investing writes the open chapter)
+- "How did we get here" framing (literally history's lede question)
+- Content that doesn't change based on today's price, position, or catalyst
+
+If two or more apply, the content's vault of record is a sibling vault. The investing note gets the gloss and link.
+
+**Proximity bias warning.** The working directory pulls toward inlining. Writing across vaults requires a context switch. Pay the switch cost — future-retrieval from the wrong vault is more expensive than one context switch now.
+
+**Durability mismatch.** Durable content inherits the half-life of whatever note it's embedded in. A 1975 statute embedded in a 2026-Rapidan concept note gets archived with that concept note. Keep durable content in durable vaults.
+
+**Output the cross-vault filing decisions alongside the concept/actor decisions** before any writes begin. Flag any cases where a sibling vault needs a new note — that is a write to plan, not a link to add at the end.
+
 ## Phase 2: Vault Survey
 
 For each enumerated entity:
@@ -144,6 +228,8 @@ Every entity touched must appear here — the daily note hook validates this.
 These rules are specific to single-source ingestion. General vault rules live in CLAUDE.md and docs/.
 
 - **Present before analyzing** — summary first, vault work after user confirms
+- **Classify content before writing** — Phase 1.6 gate. Framework/mechanism/precedent material goes in concept notes, not subsections of actor notes. Attribution is not filing.
+- **Classify vault of record before writing (lens test)** — Phase 1.7 gate. Each sibling vault has its own lens: history = "how did we get here" (durability, precedent), technologies = foundational tech shifts, geopolitics = statecraft/alliances/sanctions, Brazil = Brazilian actors/markets/institutions, investing = market impact/positioning. Content can touch multiple lenses; one is primary. The 5-year durability test is the sharp corollary for history specifically. Durability mismatch traps durable content with transient half-lives.
 - **Charts follow concepts, not sources** — route images to concept notes, not actor/source notes
 - **Images create the reason to touch a note** — even if that note wasn't otherwise on the update list
 - **Full entity sweep** — every name, every number, every aside gets processed

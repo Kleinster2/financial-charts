@@ -69,6 +69,7 @@ The framework's diagnostic value on April 15 is that it explains why an apparent
 
 ## Related
 
+- [[US crude export controls]] — policy option that would reprice this framework overnight if activated
 - [[2026 Iran conflict market impact]] — the crisis that exposed the framework
 - [[Strait of Hormuz]] — the chokepoint
 - [[Iran conflict economic disruption]] — supply/demand arithmetic

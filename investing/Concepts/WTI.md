@@ -97,6 +97,7 @@ The April 15 data point is the cleanest evidence yet of US energy independence t
 - [[Iran conflict oil price timeline]] — full chronological price action
 - [[Robin J. Brooks]] — WTI as politically decisive benchmark
 - [[Amrita Sen]] — three-tier pricing (Dubai > Brent > WTI), WTI most shielded
+- [[US crude export controls]] — framework for the export-ban option; first-order WTI collapse risk if activated
 - [[Rapidan Energy Group]] — $150 export-restriction trigger (Apr 15)
 - [[Gasoline]] — pump price breached $4 Apr 15
 - [[US Energy Independence Six Countries]] — framework at risk if export controls activated
