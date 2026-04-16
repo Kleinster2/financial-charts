@@ -189,6 +189,35 @@ FY2025 revenue breakdown:
 
 ---
 
+## Apr 2026 — analyst upgrades + 20-F filing
+
+JD rallied 8.0% on Apr 14 to $31.25 (from $28.94 Apr 13 close), a +3.4σ move on a stack of near-simultaneous positive datapoints. Verified in DB (latest close 2026-04-14 $31.25).
+
+| Date | Event |
+|------|-------|
+| Apr 9 | Cash dividend ex-date — $1.00 per ADS |
+| Apr 14 | [[Barclays]] raised price target to **$41** (from $34), maintaining positive view |
+| ~Apr 14 | [[Macquarie]] upgraded to **Outperform** from Neutral, price target **$35** (from $25); cited "improving earnings visibility" |
+| Apr 16 | Filed **Form 20-F** for FY2025 with SEC; also filed HK annual report |
+
+### Reading the upgrade cycle
+
+Macquarie's jump from Neutral → Outperform is the more interesting move: the upgrade price target ($35) came off a base where JD had been trading ~$28, so the implied ~25% upside from Macquarie plus Barclays' tighter ~30% upside to $41 reset sell-side into a more constructive camp after the Q4 2025 margin disappointment had weighed on the stock. "Improving earnings visibility" is code for: the low-price war and food-delivery burn that crushed operating margin from 3.3% → 0.2% in FY2025 is losing intensity, with JD having already scaled back food delivery subsidies on its August call and the New Businesses operating loss ceiling coming into view.
+
+The 20-F filing formalized disclosures already in the Mar 5 earnings (net revenues RMB 352.3B for Q4, RMB 1,309.1B full year, $1.00 per ADS dividend, $3.0B in 2025 buybacks) plus the CNY 10B senior notes offering (2031 / 2036 tranches). No fresh material shock — the filing itself was a non-event, but it cleared a calendar overhang and coincided with the [[China]] Q1 2026 GDP print of 4.8% (vs 4.6% consensus), a mild macro tailwind for Chinese ADRs even as export growth softened.
+
+### Context within [[KWEB]]
+
+KWEB had lagged through early April on Iran-oil-shock risk-off; the Apr 14 session saw a broad China tech rally with JD among the stronger names. JD still trades at ~10x FY2025 earnings — roughly half of [[Alibaba]]'s multiple and about a third of [[Amazon]]'s (FT Lex, Mar 17) — so the analyst ratchet is revaluing a depressed multiple off low-price-war scar tissue rather than pricing accelerating growth.
+
+Sources:
+- [Stocktitan — JD files 2025 annual report on Form 20-F](https://www.stocktitan.net/news/JD/jd-com-files-its-annual-report-on-form-20-92kifczukp3u.html) (Apr 16, 2026)
+- Yahoo Finance — JD analyst actions (Apr 14, 2026)
+
+*Updated 2026-04-16*
+
+---
+
 ## Related
 
 - [[Alibaba]] — primary competitor (marketplace model vs JD's direct sales)
@@ -206,3 +235,5 @@ FY2025 revenue breakdown:
 - [[Ceconomy]] — acquired for €2.2B (German electronics retailer, MediaMarkt/Saturn)
 - [[J Sainsbury]] — Argos owner; "project arc" acquisition talks collapsed Sep 2025
 - [[Shein]] — European e-commerce competitor (direct-from-China model)
+- [[Barclays]] — sell-side coverage; PT $41 (Apr 14, 2026)
+- [[Macquarie]] — upgraded to Outperform; PT $35 (Apr 14, 2026)

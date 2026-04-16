@@ -88,10 +88,12 @@ class NoteChecker:
         """Index all existing note names (without .md extension)."""
         notes = set()
         for md_file in self.vault_root.rglob("*.md"):
-            # Skip Daily notes and Meta folder
+            # Skip Daily notes, Meta folder, and disposable Reports
             if "/Daily/" in str(md_file) or "\\Daily\\" in str(md_file):
                 continue
             if "/Meta/" in str(md_file) or "\\Meta\\" in str(md_file):
+                continue
+            if "/Reports/" in str(md_file) or "\\Reports\\" in str(md_file):
                 continue
             notes.add(md_file.stem)
         return notes

@@ -162,24 +162,46 @@ Context: First full year freed from Fed asset cap — struggled to shift convers
 
 | Metric | Actual | Estimate | Result |
 |--------|--------|----------|--------|
-| EPS | $1.60 | $1.58 | Beat |
-| Revenue | $21.45B | $21.8B | Miss |
+| EPS | $1.60 | $1.58 | Beat (with $135M discrete tax benefit) |
+| Revenue | $21.45B | $21.77B | Miss |
 | NII | $12.1B | $12.3B | Miss |
+| NIM | 2.47% | 2.60% | Miss — deposit beta pressure |
+| Efficiency ratio | 67% | — | Operational strain |
 | Loan book | $1.0T+ | — | Up 11% |
+| Buyback (Q1) | 46.3M shares / $4.0B | — | — |
+| Net income | $5.3B | — | +15% YoY |
 
 ### Why the stock fell
 
-The quarter showed the post-asset-cap growth plan working on volume, but not yet on spread economics. Revenue and NII both missed even as EPS beat, so the market focused on margin pressure rather than the headline profit beat.
+The quarter showed the post-asset-cap growth plan working on volume, but not yet on spread economics. Revenue and NII both missed, NIM compressed 13bps below consensus, and the EPS beat was flattered by a $135M discrete tax benefit. Strip the tax item and the headline beat evaporates. Market read: margin pressure is structural, not a one-quarter blip.
 
 ### Key signals
 
 - Loan book pushed above $1 trillion as [[Wells Fargo]] expanded credit cards and auto lending after the asset-cap removal.
+- NIM at 2.47% vs 2.60% target — "deposit beta" (cost of keeping customers from rotating into money funds) eating the rate tailwind that JPM and Citi monetized.
 - Management said consumers were still healthy, but higher energy prices were beginning to bite through gas spending and could weigh on broader consumption in the second half.
 - Headcount fell to 200,999 at March 31 from 205,198 at Dec. 31, extending the efficiency push.
 
-Stock reaction: `-5.7%` to $81.70 at the Apr 15 close (verified in DB).
+Stock reaction: `-5.7%` to $81.70 at the Apr 14 close (verified in DB). This was the -4.7σ move that flagged WFC as the sole vault actor with a genuine earnings-day dislocation.
 
-Readthrough: The market is still treating [[Wells Fargo]] as an NII repair story, not just an asset-cap release story. Balance-sheet growth alone is not enough if spreads compress and revenue undershoots.
+### Peer readthrough — WFC isolated as Q1 underperformer
+
+Same-day reports from [[JPMorgan Chase|JPM]] and [[Citigroup|Citi]] made the divergence stark:
+
+| Bank | EPS | vs Est | Revenue | vs Est | Key metric |
+|------|-----|--------|---------|--------|------------|
+| [[JPMorgan Chase|JPM]] | $5.94 | $5.45 (beat) | $50.54B | $49.17B (beat) | 23% ROTCE; $11.6B trading revenue (record, +20% YoY) |
+| [[Citigroup|Citi]] | $3.06 | $2.63 (beat) | $24.63B | — | 13.1% ROTCE (highest since 2021); 58% eff ratio; strongest revenue quarter in a decade |
+| [[Wells Fargo]] | $1.60 | $1.58 (marginal beat w/ tax benefit) | $21.45B | $21.77B (miss) | 67% eff ratio; NIM -13bps vs consensus |
+
+Citi's 58% efficiency ratio under [[Jane Fraser]]'s restructuring and JPM's $11.6B record trading haul made WFC look like the only US big bank that didn't clear the Iran-volatility quarter. Without the asset cap to blame, the underperformance now reads as operational — not regulatory — which is harder for the market to price patience into.
+
+Readthrough: The market is still treating [[Wells Fargo]] as an NII repair story, not an asset-cap release story. Balance-sheet growth alone is not enough if spreads compress and revenue undershoots. JPM's -3% same-day reaction on raised expense guidance shows even the winners didn't get a pass on margin concerns — but Citi (+) showed the market will pay up for genuine restructuring proof.
+
+Sources:
+- [Wells Fargo Q1 2026 — Investing.com](https://www.investing.com/news/company-news/wells-fargo-q1-2026-slides-earnings-beat-offset-by-revenue-miss-93CH-4613380)
+- [JPMorgan Q1 2026 — CNBC](https://www.cnbc.com/2026/04/14/jpmorgan-chase-jpm-earnings-1q-2026.html)
+- [Citigroup Q1 2026 — CNBC](https://www.cnbc.com/2026/04/14/citigroup-c-earnings-1q-2026.html)
 
 ---
 

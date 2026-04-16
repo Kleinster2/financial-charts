@@ -31,7 +31,7 @@ ATTACHMENTS_DIR = VAULT_ROOT / "attachments"
 DAILY_DIR = VAULT_ROOT / "Daily"
 
 # Folders to skip when scanning notes
-SKIP_FOLDERS = {"attachments", ".obsidian", ".trash"}
+SKIP_FOLDERS = {"attachments", ".obsidian", ".trash", "Reports"}
 
 # Chart embed pattern
 EMBED_PATTERN = re.compile(r"!\[\[([^\]]+\.png)\]\]")

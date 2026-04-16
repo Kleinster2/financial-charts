@@ -431,6 +431,51 @@ Sources:
 
 ---
 
+## Apr 2026 recovery — PIMCO endorsement + BlackFin stake + ASOF IX close
+
+After seven months of selloff capped by the OTIC 40.7% redemption disclosure (Apr 2), three positive datapoints stacked inside two weeks pushed OWL to its biggest two-day gain since November 2022. Stock +8.5% to $9.17 on Apr 14, a +2.9σ move (verified in DB, Apr 13 $8.45 → Apr 14 $9.17).
+
+### Mar 31 — ASOF IX final close at $2.9B (above $2.5B target)
+
+Blue Owl closed Asset Special Opportunities Fund IX at roughly $2.9 billion in total commitments, beating the $2.5B target by 16%. ASOF IX is an asset-backed opportunistic strategy run by the Alternative Credit team, with a flexible mandate to allocate dynamically across market conditions. Kirkland & Ellis advised. Signal: institutional LPs were still willing to write checks into Blue Owl strategies even as the retail BDC vehicles were gating — the institutional/retail bifurcation the firm has been arguing for.
+
+### Apr 13 — [[PIMCO]] buys all $400M of OBDC's bond offering
+
+[[OBDC]] (the flagship publicly-traded BDC, $16B+) sold $400M of 2028 notes priced to yield **6.5%** — about 270bps above comparable Treasuries. Bonds are rated **Baa2 ([[Moody's]])** and **BBB- (S&P)**, lowest investment-grade. [[PIMCO]] bought the entire issue. [[Morgan Stanley]] was sole bookrunner.
+
+Context: private credit BDC spreads had blown out to multiyear highs in March/early April on redemption panic and software-AI disruption fears. One of the world's largest fixed-income buyers anchoring the whole deal is a pricing signal that the widest spreads may be in. Bloomberg flagged at least one >$5M secondary trade post-issuance, so PIMCO may not be a permanent holder — but the primary print got placed cleanly.
+
+| Deal detail | Value |
+|-------------|-------|
+| Issuer | OBDC (Blue Owl Capital Corporation) |
+| Size | $400M |
+| Coupon / yield | 6.5% |
+| Spread vs Treasuries | +270bps |
+| Maturity | September 2028 |
+| Ratings | Baa2 ([[Moody's]]) / BBB- (S&P) |
+| Sole buyer | [[PIMCO]] |
+| Bookrunner | [[Morgan Stanley]] |
+
+### Apr 14 — Minority stake in [[BlackFin Capital Partners]]
+
+A Blue Owl fund agreed to take a minority stake in Paris-based [[BlackFin Capital Partners]], a European PE firm focused on controlling stakes in financial-services businesses. [[BlackFin]] raised **€1.8B ($2.1B) for Fund IV**. Houlihan Lokey advised BlackFin on the sale. Terms undisclosed. Slots into Blue Owl's GP Strategic Capital (the former Dyal Capital franchise absorbed in the 2021 merger) — minority GP stakes in alternative managers — and extends European reach in a segment ([[PE-insurance convergence|financial-services PE]]) that directly echoes Blue Owl's own [[Kuvare]] acquisition thesis.
+
+### Stock move and read
+
+OWL Apr 14 close $9.17, up from $8.45 on Apr 13 (+8.5%, +2.9σ). First +2.9σ move to the upside since the Feb 18 crash. Still down ~45% YTD and well below the $51.84 high earlier in 2026, but the PIMCO + ASOF IX + BlackFin combination breaks the pure-downside narrative. Contrasts with rival managers like [[Apollo]], [[Ares Management]], [[KKR]] which rallied more modestly on the bank-CEO comments calming private credit fears but did not have firm-specific catalysts.
+
+**What this does not fix:** OTIC and OCIC redemption gates are still in place; [[Morgan Stanley]] forecasts 8% private credit default rates in H2 2026–H1 2027; short interest at 14-18% of free float. The Apr 14 rally is a vote of confidence in the *business* from institutional capital — it doesn't reverse the retail liquidity gating or the software-AI disruption thesis.
+
+Sources:
+- [Bloomberg — PIMCO Buys All $400M of Bonds Sold by Blue Owl BDC](https://www.bloomberg.com/news/articles/2026-04-15/pimco-buys-all-400-million-of-bonds-sold-by-blue-owl-bdc) (Apr 15, 2026)
+- [Bloomberg — Blue Owl Snaps Up Stake in BlackFin](https://www.bloomberg.com/news/articles/2026-04-14/blue-owl-snaps-up-stake-in-financial-services-manager-blackfin) (Apr 14, 2026)
+- [Blue Owl — $2.9B Final Close for Asset Special Opportunities Fund](https://www.blueowl.com/news/blue-owl-capital-announces-29-billion-final-close-asset-special-opportunities-fund) (Mar 31, 2026)
+- [The Motley Fool — Why Blue Owl Soared More Than 8%](https://www.fool.com/investing/2026/04/15/why-blue-owl-capital-stock-soared-more-than-8-high/) (Apr 15, 2026)
+
+*Updated 2026-04-16*
+
+---
+
 ## Related
 
 - [[Meta]] — major customer ($27B Hyperion deal)
@@ -460,3 +505,6 @@ Sources:
 - [[SpaceX]] — 50K shares ($195M book, potentially $500M at IPO)
 - [[CFRA Research]] — Stovall: "don't try this at home" (Apr 2, 2026)
 - [[Jefferies]] — ~20% software exposure estimate for BDC portfolios
+- [[PIMCO]] — anchored $400M OBDC bond offering (Apr 13, 2026); pricing signal for BDC spreads
+- [[BlackFin Capital Partners]] — Paris-based PE firm; minority stake agreed Apr 14, 2026
+- OBDC — publicly-traded flagship BDC; issued $400M notes Apr 13 (see [[Blue Owl OBDC II redemption gate]] for the related retail vehicle)
