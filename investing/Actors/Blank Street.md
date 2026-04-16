@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #company #consumer #coffee #retail #private
 
-**Blank Street** — New York-based small-format coffee chain built around micro-footprint stores, mobile carts, and app-enabled order-ahead. The key fact for this vault is that its October 2021 Series A included strategic backing from Warby Parker founders Neil Blumenthal and Dave Gilboa, which makes Blank Street worth reading as a consumer-brand and distribution-format experiment, not just a coffee throughput story.
+**Blank Street** — New York-based small-format coffee chain built around micro-footprint stores, mobile carts, and app-enabled order-ahead. The key fact for this vault is that its October 2021 Series A included strategic backing from Warby Parker founders [[Neil Blumenthal]], [[Dave Gilboa]], and [[Jeff Raider]], which makes Blank Street worth reading as a consumer-brand and distribution-format experiment, not just a coffee throughput story.
 
 ---
 
@@ -30,12 +30,12 @@ Blank Street's original framing was not just "another coffee chain." The company
 
 | Date | Round | Amount | Lead | Notes |
 |------|-------|--------|------|-------|
-| Oct. 2021 | Series A | $25M | [[General Catalyst]], [[Tiger Global]] | Strategic investors included Warby Parker founders Neil Blumenthal and Dave Gilboa |
+| Oct. 2021 | Series A | $25M | [[General Catalyst]], [[Tiger Global]] | Strategic investors included [[Neil Blumenthal]], [[Dave Gilboa]], and [[Jeff Raider]] |
 | 2021 | Seed | $7M | — | Prior raise cited by the company in the Series A announcement |
 
 Cap table detail is not publicly disclosed beyond the named investors in the company's announcement.
 
-On Oct. 13, 2021, Blank Street announced a $25 million Series A led by [[General Catalyst]] and [[Tiger Global]]. The round included Neil Blumenthal and Dave Gilboa, founders of Warby Parker, as strategic investors.
+On Oct. 13, 2021, Blank Street announced a $25 million Series A led by [[General Catalyst]] and [[Tiger Global]]. The round included [[Neil Blumenthal]], [[Dave Gilboa]], and [[Jeff Raider]] as strategic investors.
 
 The durable takeaway is not just that Blank Street raised growth capital. It is that consumer-brand founders with experience building a digitally native retail brand chose to back the company early. That is a useful signal when evaluating Blank Street's format decisions, brand ambition, and whether the business should be read as more than a neighborhood coffee kiosk rollup.
 
@@ -64,5 +64,8 @@ Blank Street's original pitch was a specialty-coffee offer delivered through ver
 
 ## Related
 
+- [[Neil Blumenthal]]
+- [[Dave Gilboa]]
+- [[Jeff Raider]]
 - [[General Catalyst]]
 - [[Tiger Global]]
