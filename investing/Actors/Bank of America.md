@@ -158,9 +158,40 @@ BAC trades as a core Regional Banks name (KRE r = 0.86).
 
 ---
 
-## Q1 2026 earnings preview (reports Apr 15)
+## Q1 2026 Earnings (Apr 15, 2026)
 
-Consensus EPS ~$1.00-1.01. Focus on operating leverage and efficiency ratio target of 60%. NII likely plateauing but IB/M&A fee recovery provides offset. Massive retail deposit base ("sticky deposits") is a strength, but ability to match [[JPMorgan Chase|JPM]]'s investment banking muscle is the key question. Basel III capital relief (~$87.7B system-wide) supports expanded underwriting. Brian Moynihan has been positioning for this "normalization" from pure NII margin expansion toward diversified fee-based revenue.
+**Record print: highest EPS in nearly 20 years; best trading quarter in 15 years; NII guide raised.**
+
+| Metric | Q1 2026 | Estimate | Result |
+|--------|---------|----------|--------|
+| **EPS** | **$1.11** | $1.01 | **Beat by 10c** (highest EPS in ~20 years) |
+| **Revenue** | **$30.43B** | $29.93B | Beat, +7.2% YoY |
+| **Net income** | **$8.6B** | — | +17% YoY |
+| **NII** | **$15.9B** | $15.67B | Beat, +9% YoY |
+
+### Segment highlights
+
+| Segment | Q1 2026 | YoY | vs Estimate |
+|---------|---------|-----|-------------|
+| **Equities trading** | **$2.83B** | **+30%** | Beat by ~$350M (StreetAccount) — best trading quarter in 15 years |
+| **Investment banking** | **$1.8B** | **+21%** | Beat by ~$70M (consensus $1.73B) |
+| Fixed income | — | — | — (full breakdown in call) |
+
+### 2026 guidance — raised
+
+| Metric | Prior (Jan 2026) | Apr 15 revision |
+|--------|------------------|-----------------|
+| NII growth | +5-7% | **+6-8%** |
+| Loan growth | Mid-single digits | Mid-single digits (reiterated) |
+| Tax rate | 20% | 20% (reiterated) |
+
+**Stock reaction:** +1.6-1.8% Apr 15. Moved with the group (all four big banks reported Apr 15) — the Q4 2025 post-print -2.4% was fully recovered.
+
+**Structural read:** The trading-driven beat is the pattern the [[Basel III]] capital relief and the Trump-era dealmaking rebound were set up to produce — IB +21% runs ahead of the M&A backlog and is the early read-through for [[Morgan Stanley]]/[[Goldman Sachs]]/[[JPMorgan Chase]] that also reported today. The NII guide raise (from 5-7% to 6-8%) is the contrast with [[Wells Fargo]] Q1 (2026-04-14) where deposit beta ate the rate tailwind and NIM came in 13bps below target — [[JPMorgan Chase|JPM]], BAC, and Citi monetized the rate regime, WFC did not. See [[Wells Fargo]] Q1 note for the dispersion analysis.
+
+**Moynihan:** "We are bullish on the U.S. economy" — unchanged from Q4 2025, now validated by the consumer-spending + trading prints.
+
+*Sources: [CNBC: Bank of America BAC earnings Q1 2026](https://www.cnbc.com/2026/04/15/bank-of-america-bac-earnings-q1-2026.html); [GuruFocus BAC Q1 2026 coverage](https://www.gurufocus.com/news/8794431/is-bank-of-america-bac-overvalued-after-q1-2026-earnings-beat-eps-111-vs-100-est-revenue-303b-vs-2993b-est-gf-score-85100-146-overvalued); Benzinga Q1 call transcript.*
 
 ---
 

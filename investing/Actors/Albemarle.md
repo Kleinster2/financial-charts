@@ -25,9 +25,9 @@ ALB shows moderate Technology correlation (XLK r = 0.66).
 | Metric | Value |
 |--------|-------|
 | Ticker | ALB (NYSE) |
-| Market cap | ~$17B |
-| Stock price | ~$141 |
-| 52-week range | $49 - $152 |
+| Market cap | ~$25B (Apr 16, 2026) |
+| Stock price | **$215.62** (Apr 16, 2026) |
+| 52-week range | $49 - $215+ (new highs Apr 2026) |
 | Position | \#1 Western lithium |
 
 ---
@@ -123,17 +123,47 @@ Preparing for lithium winter, positioned for spring.
 
 ---
 
+## Apr 16, 2026 — +16.3% / +4.9σ sigma event
+
+ALB **$185.38 → $215.62 Apr 16, 2026**, a **+16.3% single-day move, +4.9σ** on 60-day beta-adjusted vol — the largest upside session since the [[Lithium|lithium]] bottom in 2024. Paired with [[SQM]] +8.8% / +2.6σ same session — see [[Lithium]] for the sector-event framing.
+
+**Stacked catalysts:**
+
+| Catalyst | Dated | Source |
+|----------|-------|--------|
+| UBS PT raise to **$230** (Buy) | Apr 9, 2026 | UBS research note |
+| Lithium carbonate at **167,500 CNY/T** (+134% YoY) | Apr 16, 2026 | Trading Economics / Shanghai Metals Market |
+| $650M expanded cash tender offer for outstanding notes | Apr 2026 | ALB IR |
+| Zimbabwe suspended lithium-concentrate exports | April 2026 | — |
+| China 2026 overcapacity curbs signaled | April 2026 | Policy signal |
+| Early May 2026 Q1 print setup | Upcoming | — |
+
+**Why ALB ran harder than SQM (+16.3% vs +8.8%):**
+- ALB has more single-commodity leverage (lithium dominates revenue vs SQM's plant nutrition/iodine diversification).
+- ALB is higher on the cost curve — the same price move flips operating leverage more aggressively.
+- ALB has active supply-discipline (Kemerton suspension, 50K+ tons removed) that amplifies the deficit narrative.
+- UBS's PT raise ($185 → $230) was the marginal analyst catalyst that repriced the name pre-earnings.
+
+**Thesis validation — 2026 deficit now pricing through:**
+The deficit expected in 2026 (Fastmarkets: 1,500t) is no longer a forecast but arriving — lithium carbonate at 167,500 CNY/T is the highest since mid-2023 and well above the $13,000/ton level the note was tracking in Jan 2026. The early-May Q1 earnings call will be the next test — if Q1 realized prices follow spot, the 2026 EBITDA guide ($1.45B) is stale low; the Street will ratchet.
+
+*Sources: [QuiverQuant: ALB jumps as lithium rebound builds](https://www.quiverquant.com/news/Albemarle+jumps+as+lithium+prices+extend+2026+rebound+and+bullish+analyst+actions+build), UBS research (Apr 9 PT raise), Trading Economics lithium data (Apr 16).*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | ALB |
-| Market cap | ~$17B |
+| Price | **$215.62** (Apr 16, 2026) |
+| Market cap | ~$25B |
 | 2025 return | +74% |
-| 2026 EBITDA | $1.45B |
+| 2026 YTD return | **>+50%** (via lithium rally) |
+| 2026 EBITDA guide | $1.45B (likely stale low at current spot prices) |
 | Position | \#1 Western lithium |
 
-*Created 2026-01-05*
+*Created 2026-01-05 — last updated 2026-04-16*
 
 ---
 
@@ -141,6 +171,10 @@ Preparing for lithium winter, positioned for spring.
 
 - [[Lithium]] — commodity
 - [[SQM]] — competitor ([[Chile]])
+- [[Sigma Lithium]] — Brazilian producer (Grota do Cirilo, emerging peer)
+- [[Atlas Lithium]] — Brazilian developer (Neves, 145% IRR)
+- [[AMG]] — Brazilian concentrate + German LiOH (Mibra-Bitterfeld)
+- [[Lithium Triangle]] — regional frame (Atacama Chile operations)
 - [[CATL]] — customer (batteries)
 - [[Tesla]] — end customer (EVs)
 - [[BYD]] — end customer (EVs)

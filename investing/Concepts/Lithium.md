@@ -6,17 +6,25 @@
 
 ---
 
-## Current price (Jan 2026)
+## Current price (Apr 16, 2026)
 
 | Metric | Value |
 |--------|-------|
-| Price ([[China]]) | **~119,500 CNY/T** |
-| USD equivalent | ~$16,500-17,000/t |
-| 2025 gain | **+56%** (from ~$10,800 to ~$16,900) |
-| YoY change | **+58%** |
-| Monthly gain | +29% |
+| Price ([[China]]) | **~167,500 CNY/T** |
+| USD equivalent | ~$23,000/t |
+| Monthly gain | **+6%** (CNY) |
+| **YoY change** | **+134%** |
+| Late-March level | ~165,000 CNY/T (nearly 1-month high) |
+| YTD gain | **+40%+** |
 
-Rebounding from brutal 2023-24 crash (down ~80% from 2022 peak).
+Rebounding from brutal 2023-24 crash (down ~80% from 2022 peak) — Apr 2026 level now sits well above the Jan 2026 ~119,500 CNY/T print and is the highest price since mid-2023.
+
+**Drivers of the Apr 2026 acceleration:**
+- Crude oil/product price surge since March — favorable NEV adoption optics
+- China EV charging doubling to **180 GW by 2027** — storage + charging pull
+- **Zimbabwe suspended exports of lithium concentrates** to stimulate domestic refining — supply-side shock from a marginal producer
+- China planning **2026 overcapacity measures** on lithium mining — Beijing's anti-involution campaign (see Supply response section)
+- Marginal-cost miners shutdown through 2025 not restarting
 
 ---
 
@@ -180,7 +188,32 @@ For [[Tianqi Lithium]] and [[Ganfeng Lithium]], any shift in US data center dema
 
 ---
 
-*Created 2026-01-05*
+## Apr 16, 2026 — lithium producer sigma-dispersion event
+
+On Apr 16, 2026, the two largest Western lithium producers both posted sigma-event moves on the same session:
+
+| Ticker | Actor | Prev close | Apr 16 close | Move | Sigma (60d vol, beta-adj) |
+|--------|-------|------------|--------------|------|---------------------------|
+| ALB | [[Albemarle]] | $185.38 | **$215.62** | **+16.3%** | **+4.9σ** |
+| SQM | [[SQM]] | $87.62 | **$95.31** | **+8.8%** | **+2.6σ** |
+
+**Durable catalysts stacked into the print:**
+
+1. **Lithium carbonate at 167,500 CNY/T (+134% YoY)** — highest since mid-2023; Apr 2026 extension of the rally that began late-2024.
+2. **Analyst ratchet** — UBS PT $230 on ALB (Apr 9); BofA and Berenberg had raised SQM earnings estimates in late March 2026.
+3. **Supply-side shock** — Zimbabwe export suspension on lithium concentrates.
+4. **Policy support** — China's 2026 overcapacity measures (anti-involution); EV charging 180 GW build by 2027.
+5. **Setup pre-earnings** — ALB early May 2026 print is the proof-point; stock was expecting positive EPS revisions.
+
+**Read on the dispersion:** The +16% ALB vs +8.8% SQM split reflects leverage-to-price differences. ALB is higher-cost with more lithium-mix concentration (EV / grid storage pure-play); SQM has diversified plant nutrition / iodine revenue that dampens the single-commodity leverage. A 20%+ rally in spot lithium prices repriced ALB disproportionately. Statistically unusual moves in correlated sector names on a common catalyst should be grouped and read as a sector event — consistent with quick_movers.py discipline.
+
+See [[Albemarle]] and [[SQM]] actor notes for stock-specific updates; underlying commodity driver is captured above in the Current price section.
+
+*Sources: Reuters lithium price coverage (Apr 16), [QuiverQuant: Albemarle jumps as lithium prices extend 2026 rebound](https://www.quiverquant.com/news/Albemarle+jumps+as+lithium+prices+extend+2026+rebound+and+bullish+analyst+actions+build), trading economics lithium data, [Simply Wall St on SQM](https://simplywall.st/stocks/us/materials/nyse-sqm/sociedad-quimica-y-minera-de-chile/news/did-upgraded-lithium-earnings-forecasts-just-shift-sqms-sqm).*
+
+---
+
+*Created 2026-01-05 — last expanded 2026-04-16*
 
 ---
 
@@ -202,3 +235,11 @@ For [[Tianqi Lithium]] and [[Ganfeng Lithium]], any shift in US data center dema
 - [[Tianqi Lithium]] — Chinese producer/refiner
 - [[Zangge Mining]] — Chinese miner (production halted 2025)
 - [[Liontown Resources]] — Australian developer
+- [[Sigma Lithium]] — Brazilian producer (Grota do Cirilo, 270→520 ktpa)
+- [[Atlas Lithium]] — Brazilian developer (Neves, 145% IRR, Japan-US partnership)
+- [[AMG]] — Brazilian concentrate + German LiOH (Mibra-Bitterfeld integrated)
+- [[Lithium Americas]] — US-domestic (Thacker Pass Nevada, GM JV, DOE $2.23B loan)
+- [[Lithium Argentina]] — Argentine brine (Caucharí-Olaroz, Ganfeng JV, sub-$6,000/t)
+- [[YLB]] — Bolivian state enterprise (21% global reserves, stalled production)
+- [[Lithium Triangle]] — geographic-political frame (Chile/Argentina/Bolivia)
+- [[Lithium-ion shipping fires]] — regulatory / insurance risk on battery transport

@@ -88,6 +88,18 @@ This is the first senior administration source to publicly endorse Mythos as the
 
 ---
 
+## Policy-debate role — Dwarkesh × Jensen (Apr 15, 2026)
+
+Mythos became the central exhibit in Dwarkesh Patel's export-controls exchange with [[Jensen Huang]]. Dwarkesh framed Mythos as the decisive example of AI crossing into weapon-adjacent capability — found zero-day vulnerabilities in every major operating system and browser, including one in OpenBSD after 27 years of secure-by-design engineering, so consequential [[Anthropic]] is withholding public release until defenders patch. The Dwarkesh thesis: if [[China]] had enough [[NVIDIA]] compute to train and run millions of instances of a Mythos-class model, that materially raises cyber-offensive risk to the US.
+
+Jensen's rebuttal directly defused the Mythos framing: "Mythos was trained on fairly mundane capacity and a fairly mundane amount of it." The threshold Dwarkesh treats as dangerous is, in Jensen's read, already available to China in abundance — 60% of mainstream chip manufacturing, 50% of the world's AI researchers, ghost data centers fully powered. Jensen rejected the enriched-uranium and "Boeing selling nukes" analogies as category errors: "comparing AI to anything you just mentioned is lunacy." Preventing [[DeepSeek]]-on-Huawei diffusion, in his framing, matters more than denying a single capability tier.
+
+Mythos now carries dual policy-debate weight: [[Scott Bessent|Bessent]] uses it to justify the compounding-lead thesis (export controls buy time during a logarithmic gap); Dwarkesh uses it to justify containment; Jensen uses it to argue the containment thesis is incoherent because the training threshold is already crossed. The three readings cannot all be right — watch which one dominates the next cycle of chip-export policy.
+
+See [[Export controls#Jensen Huang rebuttal (Dwarkesh, Apr 15, 2026)]] for the full Jensen argument and [[Jensen Huang]] for the speaker profile.
+
+---
+
 ## Related
 
 - [[Anthropic]] — parent company
@@ -100,6 +112,8 @@ This is the first senior administration source to publicly endorse Mythos as the
 - [[Cybersecurity]] — sector impact
 - [[Scott Bessent]] — Treasury endorsement April 2026
 - [[US-China AI race]] — Bessent uses Mythos to argue US 3-6 months ahead
+- [[Jensen Huang]] — rebuts the Mythos-as-containment-justification framing (Apr 15, 2026)
+- [[Export controls]] — policy debate where Mythos functions as central exhibit
 
 ### Cross-vault
 - [Technologies: Claude Mythos](obsidian://open?vault=technologies&file=Claude%20Mythos) — technical architecture, model tier taxonomy, leak mechanics

@@ -125,7 +125,7 @@ Using AI to speed up machine control software and chip inspection. Aligns with t
 
 | Metric | 2025 Actual | 2026 Guidance | 2030 Target |
 |--------|-------------|---------------|-------------|
-| Revenue | **€32.7B** | €34-39B | €44-60B |
+| Revenue | **€32.7B** | €36-40B (raised Apr 15) | €44-60B |
 | Gross margin | **52.8%** | 51-53% | 56-60% |
 | Net income | **€9.6B** | — | — |
 | R&D spend | €2.5B → **€4.7B** | Rising | — |
@@ -312,10 +312,10 @@ See [[Rare earth leverage]] for geopolitical context.
 
 | FY Metric | 2025 Actual | 2026 Guidance |
 |-----------|-------------|---------------|
-| Revenue | **€32.7B** | €34-39B (raised) |
+| Revenue | **€32.7B** | €36-40B (raised Apr 15, prior Jan guide €34-39B) |
 | Net income | **€9.6B** | — |
-| Gross margin | **52.8%** | — |
-| Q1 2026 guidance | — | €8.2-8.9B |
+| Gross margin | **52.8%** | 51-53% |
+| Q1 2026 guidance | — | €8.2-8.9B (delivered €8.8B — see Q1 section) |
 | Consecutive growth years | **13** | — |
 
 **CEO Christophe Fouquet:**
@@ -329,7 +329,7 @@ See [[Rare earth leverage]] for geopolitical context.
 *China (black) remained largest market at 36% in Q4 2025; expected to normalize to ~20%.*
 
 ![[asml-13-year-sales-growth.png]]
-*13 consecutive years of sales growth; 2026 guidance €34-39B (raised).*
+*13 consecutive years of sales growth; 2026 guidance €36-40B (raised Apr 15, 2026 from €34-39B).*
 
 **Shareholder returns:**
 - Dividend: €7.50/share for 2025 (17% increase YoY), interim €1.60 payable Feb 18, 2026
@@ -342,6 +342,41 @@ See [[Rare earth leverage]] for geopolitical context.
 - Memory shortage driving price increases → Samsung, SK Hynix expected to expand capacity
 
 **Reporting change:** ASML will stop reporting bookings in future quarters, arguing the metric doesn't accurately capture business momentum.
+
+---
+
+## Q1 2026 earnings (Apr 15, 2026)
+
+**Beat on Q1 + FY guide raised, but Q2 guide soft → stock -4.8% / -2.6σ despite the print.**
+
+| Metric | Q1 2026 Actual | vs Q4 2025 | Notes |
+|--------|----------------|------------|-------|
+| Net sales | **€8.8B** | Down from €9.7B | Within prior guide (€8.2-8.9B midpoint) |
+| Net income | **€2.8B** | Down from €2.84B | — |
+| Gross margin | **53.0%** | 52.8% (FY25) | Within FY26 guide range |
+
+### Q2 2026 guidance
+
+| Metric | Guidance | Street setup |
+|--------|----------|--------------|
+| Net sales | **€8.4-9.0B** | ~€9.0B+ expected — midpoint missed |
+| Gross margin | **51-52%** | Down from Q1 53% on mix |
+
+### 2026 full-year guide — raised
+
+| Metric | Prior (Jan 2026) | Apr 15 revision |
+|--------|------------------|-----------------|
+| Revenue | €34-39B | **€36-40B** (+4% at midpoint) |
+| Gross margin | 51-53% | 51-53% (reiterated) |
+
+**Read through: market priced the Q2 guide, not the FY raise.** Setup into the print had ASML at a record €1,481 close Apr 14 (~+34% YTD 2026). FY guide raise was consistent with AI-capex confirmation from [[TSMC]]'s Q1 print next day and [[Jensen Huang]]'s Dwarkesh framing of EUV as the binding AI-compute constraint (see [[Lithography as binding constraint]]). But the Q2 revenue midpoint €8.7B implies sequential-growth pause vs peers' accelerations — and the install base / High-NA shipment timing now carries the FY guide. Stock -4.8% Apr 16 closing at $1,410 / €1,365, -2.6σ beta-adjusted (60-day vol); a sigma-event even though the fundamentals print raised numbers. Classic "beat + raise but cadence mismatch" trade.
+
+**Structural cross-reads:**
+- [[TSMC]] Q1 print (Apr 16) reaffirmed >+30% FY revenue growth with capex at high end of $52-56B — same AI-capex demand signal that drove the ASML FY raise.
+- [[Lithography as binding constraint]] — ~3.5 EUV tools per GW of [[Rubin]] capacity; ASML going 60 → 100 tools/year is still the bottleneck.
+- [[Jensen Huang]]: "ASML never raised the price more than they've increased the capability of the tool" — Q1 margin pattern consistent with that framing.
+
+*Sources: [ASML press release Q1 2026](https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results); [Smartkarma: 1Q26 and 2Q26 Are Just Inline, 2026 Revenue Revised Up](https://www.smartkarma.com/insights/asml-1q26-and-2q26-are-just-inline-2026-revenue-revised-up-but-consensus-already-there); eeNews Europe (Apr 15).*
 
 ---
 

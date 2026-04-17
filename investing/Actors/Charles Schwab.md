@@ -73,6 +73,29 @@ Schwab is the scale player in retail brokerage:
 
 ---
 
+## Q1 2026 earnings (Apr 16, 2026)
+
+**Record profit but revenue miss on weak NII → stock -7.6% (-4.9σ).**
+
+| Metric | Q1 2026 | Estimate | Result |
+|--------|---------|----------|--------|
+| **EPS** | **$1.43** | $1.42 | Beat by 1c |
+| **Revenue** | **$6.48B** | $6.62B | **Missed by $140M** — NII disappoint |
+| Core net new assets | **$158B** | — | Q1 record |
+| Total client assets | **$11.8T** | — | Excluding one-time MF clearing outflow |
+
+**Stock reaction:** SCHW **-7.6% to $92.62 Apr 16**, a **-4.9σ move** on 60-day vol — the largest single-day drawdown since the [[Altruist wealth management selloff February 2026|Altruist/Hazel AI launch]] (Feb 10, 2026) which was -8.1%. Two -4σ+ drawdowns in <10 weeks driven by different vectors (fintech disintermediation then; NII disappoint now).
+
+**Why NII missed:** Net interest revenue came in weaker than consensus had modeled — consistent with [[Wells Fargo]] Q1 (Apr 14) pattern of deposit beta eating the rate tailwind. SCHW's NII is the largest revenue source (cash sweep spread), so an NII miss is structurally worse for SCHW than for broader banks where trading/IB can offset.
+
+**The asymmetry with BAC/MS:** Apr 15 saw [[Bank of America]] raise 2026 NII guide to +6-8%, [[Morgan Stanley]] post record wealth flows ($118B NNA). Apr 16, SCHW prints similar NNA strength ($158B Q1 record) but misses on revenue — the read-through is that wealth flows are franchise-wide (good), but SCHW's NII-heavy mix makes it the loser when rate tailwinds slow. Record profit ($1.43 EPS) is backward-looking; NII trajectory is the forward-looking driver the market punished.
+
+**Compounding pressure:** Stock was already -30% from Feb highs on [[AI disintermediation]] / [[Altruist]] risk. Q1 NII miss now stacks onto that narrative — the two-shock pattern puts SCHW in the "structurally challenged retail broker" bucket the bear case was pricing.
+
+*Sources: [Seeking Alpha: Schwab dips on Q1 revenue miss on NII](https://seekingalpha.com/news/4575647-charles-schwab-stock-dips-as-q1-revenue-disappoints-on-weaker-than-expected-net-interest-income); [Motley Fool SCHW Q1 2026 transcript](https://www.fool.com/earnings/call-transcripts/2026/04/16/schwab-schw-q1-2026-earnings-call-transcript/); SCHW Q1 2026 earnings release (content.schwab.com).*
+
+---
+
 ## Investment case
 
 **Bull:**

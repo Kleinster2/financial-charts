@@ -34,7 +34,7 @@ aliases: [TPG Capital, Texas Pacific Group]
 
 ## Apr 14, 2026 — Learfield $2B controlling-stake deal
 
-TPG agreed to acquire a controlling stake in [[Learfield]], the Dallas-based college sports media and technology provider, in a deal worth about **$2 billion** (some sources cite $1.8-2.0B range). The transaction combines a **TPG Capital** investment with the newer **TPG Sports** platform — the first major headline deal for TPG Sports since its 2025 launch. Closing expected Q3 2026 subject to regulatory approvals.
+TPG agreed to acquire a controlling stake in [[Learfield]], the Dallas-based college sports media and technology provider, in a deal worth about $2 billion (some sources cite $1.8-2.0B range). The transaction combines a TPG Capital investment with the newer TPG Sports platform — the first major headline deal for TPG Sports since its 2025 launch. Closing expected Q3 2026 subject to regulatory approvals.
 
 ### Deal mechanics
 
@@ -52,7 +52,7 @@ TPG agreed to acquire a controlling stake in [[Learfield]], the Dallas-based col
 
 ### Why Learfield matters
 
-[[Learfield]] is the monetization engine for college sports IP, connecting **12,000+ brands** with **1,200+ institutions** including **140+ Division I programs** (Alabama, Michigan, Ohio State, Oklahoma, Oregon, Tennessee, Texas, USC). The platform spans:
+[[Learfield]] is the monetization engine for college sports IP, connecting 12,000+ brands with 1,200+ institutions including 140+ Division I programs (Alabama, Michigan, Ohio State, Oklahoma, Oregon, Tennessee, Texas, USC). The platform spans:
 
 - Multimedia rights
 - Sponsorship sales
@@ -62,11 +62,11 @@ TPG agreed to acquire a controlling stake in [[Learfield]], the Dallas-based col
 - AI-enabled data platforming
 - Digital content + team websites
 
-Historical context: Learfield completed a **$1.1B recapitalization in September 2023** that roughly halved its debt load to about $500M and added $150M in new equity — coming out of a pandemic-era stretch that had stressed the balance sheet. TPG's deal values the post-cleanup company at a meaningful premium, indicating private-equity conviction that college athletics monetization is at an inflection.
+Historical context: Learfield completed a $1.1B recapitalization in September 2023 that roughly halved its debt load to about $500M and added $150M in new equity — coming out of a pandemic-era stretch that had stressed the balance sheet. TPG's deal values the post-cleanup company at a meaningful premium, indicating private-equity conviction that college athletics monetization is at an inflection.
 
 ### TPG Sports thesis
 
-Launched in 2025 in partnership with Rory McIlroy, Sean O'Flaherty, and Symphony Ventures, **TPG Sports** is the firm's dedicated investing platform focused on "companies and platforms shaping the future of sports." The Learfield deal validates the approach of targeting the **ecosystem around the game** (sponsorship, media, NIL, ticketing, data) rather than teams themselves — conferences and athletic departments remain politically difficult for direct-PE ownership, but the monetization layer around them is a cleaner return path.
+Launched in 2025 in partnership with Rory McIlroy, Sean O'Flaherty, and Symphony Ventures, TPG Sports is the firm's dedicated investing platform focused on "companies and platforms shaping the future of sports." The Learfield deal validates the approach of targeting the ecosystem around the game (sponsorship, media, NIL, ticketing, data) rather than teams themselves — conferences and athletic departments remain politically difficult for direct-PE ownership, but the monetization layer around them is a cleaner return path.
 
 This fits the broader private-equity push into college athletics revenue streams as the sector absorbs NIL, revenue sharing from the House v. NCAA settlement, and conference realignment. Peers ([[KKR]], [[Blackstone]], [[Apollo]]) have all flagged sports infrastructure as a target area.
 

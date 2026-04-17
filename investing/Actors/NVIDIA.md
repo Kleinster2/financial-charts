@@ -494,6 +494,8 @@ See [[Short interest]] for interpretation framework.
 
 **5-layer AI cake, reused.** Jensen reuses the Davos Jan 2026 framing (electrons → chips → infrastructure → models → applications) as his China rebuttal scaffold. Only the full-stack player captures every layer. See [[Jensen Five Layer Cake]] for the full framework and [[Export controls]] for the China-specific application.
 
+**Accelerated computing thesis without AI.** Asked what NVIDIA would be doing if deep learning never happened, Jensen: "If there was no AI, NVIDIA would be very, very large." The company's premise predates AI — general-purpose CPU scaling ran out; domain-specific acceleration through CUDA is the successor. Cited non-AI workloads already depending on the stack: computational lithography (cuLitho), molecular dynamics, quantum chromodynamics, seismic processing for energy discovery, structured and unstructured data processing, computer graphics, image generation, particle physics, fluid dynamics. "Tensors is not the only way that you compute with NVIDIA." Counterpoint to the "AI-is-a-bubble → NVIDIA-crashes" framing: a meaningful fraction of GTC keynote content is non-AI scientific and industrial compute, and that workload base would remain even if AI capex compressed.
+
 *Source: Dwarkesh Patel podcast, "Will Nvidia's moat persist?" Apr 15, 2026. 103m12s.*
 
 ---

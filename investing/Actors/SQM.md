@@ -59,20 +59,25 @@ Diversified but lithium is the story.
 
 ---
 
-## Chile nationalization risk
+## Chile political framework — Nova Andino Litio JV (Dec 2025)
 
-**Political overhang:**
+**The "nationalization risk" has crystallized into a structured partnership.** In December 2025, SQM and [[Codelco]] formalized **Nova Andino Litio SpA** — the vehicle that governs SQM's Salar de Atacama operations through 2060. See [[Codelco]] and [[Lithium Triangle]] for full framing.
 
-| Development | Status |
-|-------------|--------|
-| Boric government (2022-) | Proposed nationalization |
-| [[Codelco]] partnership | Under negotiation |
-| State control | Seeking majority stake |
-| Resolution | Ongoing uncertainty |
+| Dimension | Detail |
+|-----------|--------|
+| JV vehicle | **Nova Andino Litio SpA** |
+| Asset | Salar de Atacama lithium operations |
+| Timeline — SQM management | 2025-2030 |
+| Timeline — Codelco management | **2031-2060** |
+| State share of operating margin | ~70% 2025-2030, **85% from 2031** |
+| Incremental production | ~300,000 tonnes LCE expected 2025-2030 |
+| Concession length | Operation secured through **2060** |
 
-Chile wants more control over "white gold."
+The terms are heavy for SQM — the Chilean state captures the majority of operating margin through 2030 and the vast majority from 2031 forward. In exchange, SQM keeps operational control through 2030 and has concession certainty to 2060. That removes existential nationalization risk, replaces it with a known-margin-haircut reality, and explains why SQM underperformed [[Albemarle]] on the Apr 16 lithium rally (+8.8% vs +16.3%) despite identical commodity exposure.
 
-In 2023, [[Chile]] also announced a pivot toward [[Direct lithium extraction|DLE]] technology for environmental reasons — evaporation ponds deplete scarce water resources in the Atacama. [[Rio Tinto]] is investing $2.5B to expand its Rincon facility in neighboring [[Argentina]] using DLE.
+**2026 political transition:** [[José Antonio Kast]] took office March 2026 after the right won the November 2025 Chilean presidential election. Kast has pledged to make lithium "concessionable" — restructuring away from state-anchored JVs toward market-led concessions. The Nova Andino Litio contract has 2060-dated protection and cannot be simply unwound, but new Chilean lithium concessions would follow a different model going forward. This creates an asymmetry: existing SQM operations are secured; new Atacama capacity that Kast might authorize would compete with the JV.
+
+**DLE pivot:** Chile announced a policy shift toward [[Direct lithium extraction|DLE]] in 2023 for environmental reasons — evaporation ponds deplete scarce Atacama water. [[Rio Tinto]] is investing $2.5B to expand Rincon using DLE (neighboring [[Argentina]]). SQM's Atacama operations remain evaporation-based, creating a long-term technology transition risk as DLE cost curves mature.
 
 ---
 
@@ -117,17 +122,41 @@ SQM benefits from any lithium price recovery.
 
 ---
 
+## Apr 16, 2026 — +8.8% / +2.6σ sigma event
+
+SQM **$87.62 → $95.31 Apr 16, 2026**, a **+8.8% single-day move, +2.6σ** on 60-day beta-adjusted vol. Part of the broader lithium producer sigma-dispersion event documented in [[Lithium]] — [[Albemarle]] moved +16.3% on the same session.
+
+**Why SQM moved less than ALB:**
+
+- **Diversified revenue** — SQM's lithium is ~60% of revenue; specialty plant nutrition / iodine / potassium absorb commodity volatility. ALB is a near-pure lithium play, so the same spot-price move repriced ALB harder.
+- **Lower cost curve** — SQM's Atacama solar-evaporation operations are the lowest-cost lithium in the world. Marginal-dollar profitability less sensitive to a price move (but capture rate on upside still meaningful).
+- **Different analyst setup** — [[Bank of America]] and [[Berenberg]] raised SQM EPS expectations in late March 2026; the marginal upside catalyst was already partly priced ahead of Apr 16.
+- **Chile nationalization overhang** — the Boric-government Codelco-partnership renegotiation remains a discount on SQM that doesn't sit on ALB.
+
+**Catalyst stack (same as ALB):**
+- Lithium carbonate 167,500 CNY/T (+134% YoY)
+- Zimbabwe export suspension (marginal supply shock)
+- China 2026 overcapacity curbs
+- March 2026 BofA + Berenberg EPS raise — SQM-specific
+
+**Positioning implication:** The dispersion (ALB +16.3% vs SQM +8.8%) is the real info. If you believe the lithium-price rally extends, ALB gives more beta with more cost-curve risk; SQM gives lower-beta participation with Chile-political tail. Both are long-lithium, but they express different confidence intervals on spot-price durability.
+
+*Sources: [Simply Wall St on SQM upgraded estimates](https://simplywall.st/stocks/us/materials/nyse-sqm/sociedad-quimica-y-minera-de-chile/news/did-upgraded-lithium-earnings-forecasts-just-shift-sqms-sqm), [AInvest: ALB and SQM rally on supply-demand rebalance](https://www.ainvest.com/news/albemarle-sqm-rally-supply-demand-rebalance-lithium-market-2602/).*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | SQM (NYSE) |
-| Market cap | ~$12B |
+| Price | **$95.31** (Apr 16, 2026) |
+| Market cap | ~$13B (approx at $95) |
 | Position | \#2 global lithium |
 | Key asset | Atacama Desert |
 | Risk | Nationalization |
 
-*Created 2026-01-05*
+*Created 2026-01-05 — last updated 2026-04-16*
 
 ---
 
@@ -135,9 +164,14 @@ SQM benefits from any lithium price recovery.
 
 - [[Lithium]] — commodity
 - [[Albemarle]] — competitor (\#1 Western)
+- [[Sigma Lithium]] · [[Atlas Lithium]] · [[AMG]] — Brazilian lithium producers (non-Triangle peers)
 - [[Chile]] — country (political risk)
+- [[Codelco]] — Nova Andino Litio JV partner
+- [[Lithium Triangle]] — regional brine frame
+- [[José Antonio Kast]] — incoming Chilean president ("concessionable" lithium framework)
 - [[CATL]] — customer
 - [[Tesla]] — end customer
 - [[BYD]] — end customer
 - [[Direct lithium extraction]] — technology shift (Chile DLE pivot)
+- [[Berenberg]] — analyst (raised EPS estimates Mar 2026)
 

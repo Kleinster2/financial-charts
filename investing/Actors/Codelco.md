@@ -104,10 +104,37 @@ Government revenue depends on copper — creates policy tension.
 
 ---
 
+## Lithium expansion — Nova Andino Litio with SQM (Dec 2025)
+
+Codelco is no longer a copper-only story. The **Nova Andino Litio SpA** joint venture with [[SQM]] — formalized December 2025 — makes Codelco the state anchor for [[Chile]]'s lithium industry.
+
+| Dimension | Detail |
+|-----------|--------|
+| Vehicle | **Nova Andino Litio SpA** (JV entity) |
+| Partners | [[Codelco]] (state) + [[SQM]] (private) |
+| Asset | Salar de Atacama lithium operations |
+| [[SQM]] management | 2025-2030 |
+| [[Codelco]] management | **2031-2060** |
+| State share of operating margin | ~70% 2025-2030, **85% from 2031** |
+| Incremental production | **~300,000 tonnes LCE** expected 2025-2030 |
+| Duration | Operation secured through **2060** |
+
+**Policy context:** The JV is the flagship deliverable of the **Boric National Lithium Strategy** (April 2023), which aimed to reclaim [[Chile]]'s global lithium leadership by routing new concessions through state-anchored partnerships rather than pure private concessions. For a deep-state-owned mining enterprise historically focused on copper, the shift to lithium operational management starting 2031 is significant — it requires Codelco to develop lithium-processing expertise over the next 5 years.
+
+**Political transition risk:** Boric handed power to [[José Antonio Kast]] in March 2026. Kast has pledged to make lithium "concessionable" — a framework shift away from state-anchored JVs toward market-led private concessions. The Nova Andino Litio contract has protection through 2060 and cannot be simply unwound, but new Chilean lithium concessions are likely to follow a different model.
+
+See [[Lithium Triangle]] for regional context and [[SQM]] for the private-partner side of the JV.
+
+---
+
 ## Related
 
 - [[Copper for AI]] — thesis (supply constraint)
 - [[Freeport-McMoRan]] — competitor (benefits from Codelco struggles)
 - [[Southern Copper]] — competitor
 - [[Chile]] — country context
+- [[SQM]] — Nova Andino Litio JV partner (lithium)
+- [[Lithium Triangle]] — regional lithium-brine frame
+- [[Lithium]] — commodity
+- [[José Antonio Kast]] — incoming Chilean president pledging "concessionable" lithium framework
 

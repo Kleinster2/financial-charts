@@ -51,6 +51,46 @@ MS trades as a core Financials name (XLF r = 0.86).
 
 ---
 
+## Q1 2026 earnings (Apr 15, 2026)
+
+**Record revenue and EPS; strongest single quarter across the franchise.**
+
+| Metric | Q1 2026 | Estimate | Result |
+|--------|---------|----------|--------|
+| **Total revenue** | **$20.6B** | — | **Record** — all-time high |
+| **EPS** | **$3.43** | $3.04 | **Beat by 39c (+12.8%)** |
+| **ROTCE** | **27.1%** | — | Demonstrates operating leverage |
+| Efficiency ratio | 65% | — | Includes $178M severance |
+
+### Institutional Securities — $10.7B total
+
+| Business | Q1 2026 | YoY |
+|----------|---------|-----|
+| **Equities trading** | **$5.15B** | **+25%, record** |
+| **Fixed Income** | $3.4B | Post-crisis record — driven by securitized + credit corporates |
+| **Advisory** | **$978M** | **+74%** — Americas M&A completions |
+
+### Wealth Management — $8.5B, record
+
+| Metric | Q1 2026 |
+|--------|---------|
+| Revenue | **$8.5B** (segment record) |
+| Pretax margin | **30.4%** |
+| Net new assets | **$118B** |
+| Fee-based asset flows | **$54B** |
+
+**Stock reaction:** +4.5-5% Apr 15. Setup into the print had MS at $183 on Apr 14; closed near $192 after hours.
+
+**Structural read:** MS is now running the dual-engine model that [[Ted Pick]] described at his first full-year anniversary — Institutional strength (equities, IB advisory, FICC) AND Wealth stability (NNA $118B is the engine). The equities-trading record aligns with [[Bank of America]] (+30% equity trading, best in 15 years) and [[Goldman Sachs]] reads — Q1 2026 = the trading-driven beat quarter for every major US bank ([[JPMorgan Chase|JPM]] also reported Apr 15). Advisory +74% is the dealmaking-rebound signal running harder at MS than at peers — consistent with backlog references on Q4 2025 call about IB pipeline.
+
+**AI-financing context:** The Hyperion SPV ($27B+ debt arranged for [[Meta]]) and [[TeraWulf]]/[[Cipher Mining]]/[[Applied Digital]] junk bonds sit inside these IB revenues. The [[Significant risk transfer]] exploration is the hedging response to exactly this buildup — IB/arranger income now, SRT to offload the credit concentration later.
+
+**Private credit context:** The Q1 print comes 5 weeks after North Haven Private Income Fund limited withdrawals (Mar 11 — see section below). Wealth NNA strength suggests the fund-level stress hasn't dented franchise-level flows.
+
+*Sources: [CNBC: Morgan Stanley MS earnings 1Q 2026](https://www.cnbc.com/2026/04/15/morgan-stanley-ms-earnings-1q-2026.html); [Motley Fool MS Q1 2026 transcript](https://www.fool.com/earnings/call-transcripts/2026/04/15/morgan-stanley-ms-q1-2026-earnings-transcript/); MS 1Q2026 earnings release (morganstanley.com).*
+
+---
+
 ## AI infrastructure financing
 
 **Major AI capital markets player:**

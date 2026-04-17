@@ -125,9 +125,38 @@ See [[Jensen Huang]] for broader context, [[Rubin]] for the roadmap, and [[Advan
 
 ---
 
-## Q1 2026 earnings preview
+## Q1 2026 earnings (Apr 16, 2026)
 
-Reports Apr 16.
+**Record Q1: AI-led demand drives profit +58% and FY guide raised to >+30% growth.**
+
+| Metric | Q1 2026 Actual | vs Expected | YoY |
+|--------|----------------|-------------|-----|
+| Consolidated revenue (NTD) | **NT$1,134.10B** | — | +~40% |
+| Consolidated revenue (USD) | **$35.90B** | — | **+40.6%** |
+| QoQ revenue | — | — | +6.4% |
+| Net income | **NT$572.48B** | — | **+58.3%** |
+| Diluted EPS | NT$22.08 | — | +58% |
+| ADR EPS-equivalent | **$3.49** | — | — |
+
+### Q2 2026 guidance
+
+| Metric | Guidance |
+|--------|----------|
+| Revenue | **$39.0-40.2B** (+10% QoQ) |
+| Gross margin | 65.5-67.5% |
+
+### 2026 full-year guide — raised
+
+| Metric | Prior (Jan 2026) | Apr 16 revision |
+|--------|------------------|-----------------|
+| USD revenue growth | ~+30% YoY | **>+30% YoY** (reaffirmed/raised) |
+| Capex | $52-56B | **High end of $52-56B** (now explicit) |
+
+**Structural read:** CEO C.C. Wei reiterated the AI-capex supercycle framing. The Q1 gross-margin expansion + Q2 midpoint (66.5%) beating prior guide (~60%) is the margin-monetization leg of [[Jensen Huang]]'s "ASML leaves money on the table for TSMC and NVIDIA" thesis — TSMC now converting the FIFO-allocation moat into operating leverage as 3nm/5nm mix rises. The capex "high end" nudge validates the 3nm sold-out-through-2028 signal; the industry capex number ($200B+ 2026) holds.
+
+**Cross-reads:** [[ASML]] (Q1 Apr 15 FY guide also raised — same AI-capex signal; see [[Lithography as binding constraint]]), [[NVIDIA]] (primary customer pulling allocation), [[Apple]] (now likely behind NVIDIA on TSMC revenue), [[Advanced packaging]] (CoWoS capacity moving toward 120K/mo), [[Rubin]] (roadmap volume tied directly to this capacity ramp).
+
+*Sources: [[CNBC]] (Apr 16, 2026); [[Reuters]] (Apr 16); eeNews Europe (Apr 16); SemiWiki Q1 2026 breakdown.*
 
 | Metric | Detail |
 |--------|--------|
