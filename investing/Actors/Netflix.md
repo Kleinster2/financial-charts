@@ -3,9 +3,9 @@ aliases: [NFLX]
 ---
 #actor #company #streaming #entertainment #usa #public
 
-**Netflix** — [[Streaming]] pioneer and leader. Nasdaq: NFLX. 325M subscribers (Q4 2025). Ad tier driving growth. Walked away from [[Warner Bros Discovery]] acquisition Feb 2026; collected $2.8B breakup fee.
+**Netflix** — [[Streaming]] pioneer and leader. Nasdaq: NFLX. 325M subscribers disclosed at Q4 2025. Q1 2026 revenue was $12.25B (+16.2% YoY), with operating margin at 32.3% and full-year guidance unchanged.
 
-Largest pure-play streaming company with ~$365B market cap, 325M subscribers, $39B 2024 revenue, and $50.7-51.7B guided for 2026. Ad tier is the primary growth driver. Attempted the largest M&A in streaming history — an $83B all-cash bid for Warner Bros Discovery (HBO, DC, Warner Bros studio) — but walked away Feb 2026 after Paramount's hostile $108B counterbid, collecting a $2.8B breakup fee. Content spend planned at $20B for 2026. The bull case: dominant global streaming position, ad tier monetization inflection, $2.8B breakup fee is pure profit, and content library + originals moat deepens. The bear case: YouTube's growing TV dominance (~13% viewing share vs Netflix ~9%), content cost inflation, and the WBD walk-away leaves the IP acquisition thesis unfulfilled.
+Largest pure-play streaming company with ~$365B market cap, 325M disclosed subscribers, $39B 2024 revenue, and $50.7-51.7B guided for 2026. Netflix walked away from its [[Warner Bros Discovery]] acquisition in Feb 2026 and collected a $2.8B breakup fee. Q1 2026 showed continued revenue growth and advertising momentum, but management kept full-year guidance unchanged and said content amortization growth would be first-half weighted, with Q2 the peak year-over-year step-up. The company is now leaning on ads, live programming, and targeted capability buys rather than mega-M&A.
 
 ---
 
@@ -89,34 +89,34 @@ The strategic rationale for HBO/DC/WB content remains valid. Netflix retains the
 
 ### Post-walkaway: Netflix wins by losing (Feb 27, 2026)
 
-NFLX surged **+13.8%** to $96.24 on Feb 27 on 191M shares (5× normal volume) — best daily performance since Jan 2025. The full rally: $76 (Feb 23 annual low) → $96.24 in a week, **+26.6%**. The market's verdict: losing the auction was winning.
+NFLX surged +13.8% to $96.24 on Feb 27 on 191M shares (5× normal volume) — best daily performance since Jan 2025. The full rally: $76 (Feb 23 annual low) → $96.24 in a week, +26.6%. The market's verdict: losing the auction was winning.
 
-**The haul from losing:**
-- **$2.8B breakup fee** — pure profit for not buying something
-- **$5B share buyback program** — deploying capital that would've gone to WBD
-- **$20B content budget** for 2026 — unchanged, zero integration distraction
-- **Clean balance sheet** — no $83B in new debt/dilution
+The haul from losing:
+- $2.8B breakup fee — pure profit for not buying something
+- $5B share buyback program — deploying capital that would've gone to WBD
+- $20B content budget for 2026 — unchanged, zero integration distraction
+- Clean balance sheet — no $83B in new debt/dilution
 
-**The Sarandos move — "the fix was in":**
+The Sarandos move — "the fix was in":
 
 Sarandos went to the White House on Feb 26 for a "long scheduled" meeting with WH staff and DOJ officials (not Trump) to discuss regulatory approval and Trump's demand to fire board member Susan Rice. The timing was devastating:
 
-- **1:00 PM PT:** Sarandos arrives at the White House
-- **1:18 PM PT:** *While he's sitting in meetings*, WBD board drops the Superior Proposal bombshell
-- **2:45 PM PT:** 90 minutes later, Netflix issues its walkaway. Deadline reported Sarandos signed off while still at the White House
+- 1:00 PM PT: Sarandos arrives at the White House
+- 1:18 PM PT: *While he's sitting in meetings*, WBD board drops the Superior Proposal bombshell
+- 2:45 PM PT: 90 minutes later, Netflix issues its walkaway. Deadline reported Sarandos signed off while still at the White House
 
 He didn't use a single minute of the 4-day matching window. Either the decision was already made before he went to DC, or he learned something in those meetings that confirmed the political math was unwinnable. Trump had been publicly hostile since Feb 21 ("fire Susan Rice or pay the consequences"), David Ellison had attended Trump's State of the Union just two days earlier, and Sarandos couldn't even get a meeting with POTUS. The writing was on the White House walls.
 
-**Strategic position is arguably stronger than if they'd won:**
+Strategic position is arguably stronger than if they'd won:
 - The vertical integration thesis (studio + distribution) remains valid — they can revisit it later
 - $20B/year content spend lets them build or license what they need organically
 - If Paramount stumbles under $111B of debt in tightening credit markets, or hits antitrust walls, Netflix could come back for pieces of WBD at a discount
 - They're the only major streamer *not* drowning in M&A integration complexity — Disney digesting Fox, Paramount digesting WBD, while Netflix just... makes content
 - The breakup fee precedent is interesting: Netflix proved it can credibly threaten M&A (forcing higher prices for rivals) and still walk away profitably
 
-**The bear read:** The HBO/DC/WB IP is genuinely irreplaceable. You can't "build" Harry Potter, Game of Thrones, or the DC universe with a $20B content budget. If the Paramount-WBD merger closes and integration goes well, Netflix faces a combined studio/streaming rival with vastly deeper IP. The walk-away was disciplined but may look short-sighted in 5 years.
+One risk is that the HBO/DC/WB IP is genuinely irreplaceable. You can't "build" Harry Potter, Game of Thrones, or the DC universe with a $20B content budget. If the Paramount-WBD merger closes and integration goes well, Netflix faces a combined studio/streaming rival with vastly deeper IP. The walk-away was disciplined but may look short-sighted in 5 years.
 
-**The bull read:** Sarandos just watched Paramount commit to $111B of execution risk in the worst credit environment since 2022, with DOJ review pending, activist shareholders circling, and linear TV assets (CNN, TBS) that are melting ice cubes. Netflix keeps its optionality, its balance sheet, and $2.8B of Paramount's money. If the deal blows up, they'll be there to pick up the pieces.
+The opposing read is that Sarandos just watched Paramount commit to $111B of execution risk in the worst credit environment since 2022, with DOJ review pending, activist shareholders circling, and linear TV assets (CNN, TBS) that are melting ice cubes. Netflix keeps its optionality, its balance sheet, and $2.8B of Paramount's money. If the deal blows up, they'll be there to pick up the pieces.
 
 ---
 
@@ -135,7 +135,25 @@ He didn't use a single minute of the 4-day matching window. Either the decision 
 |--------|-------|
 | Revenue | $50.7-51.7B (+14% YoY) |
 | Operating margin | 31.5% |
-| Ad revenue | ~2x YoY |
+| Ad revenue | ~$3B (2026 target, ~2x YoY) |
+
+---
+
+## Q1 2026 results (Apr 16, 2026)
+
+| Metric | Actual | Notes |
+|--------|--------|-------|
+| Revenue | $12.25B | +16.2% YoY (+14% FX-neutral) |
+| Operating income | $3.96B | Operating margin 32.3% |
+| Net income | $5.28B | boosted by the [[Warner Bros Discovery]] termination fee |
+| Diluted EPS | $1.23 | not directly comparable to Street due to fee impact |
+| Free cash flow | $5.09B | full-year FCF guide raised to ~$12.5B |
+
+Management kept full-year 2026 guidance unchanged at $50.7-51.7B revenue and 31.5% operating margin. Q2 guidance calls for $12.574B revenue, 32.6% operating margin, and $0.78 diluted EPS.
+
+The key expense-cadence point from the shareholder letter: growth in content amortization is first-half weighted due to title timing. Q2 is expected to show the highest year-over-year content amortization growth rate in 2026 before decelerating to mid-to-high single digits in the second half.
+
+Netflix also said ads remain on track for roughly $3B of revenue in 2026. The same letter disclosed that [[Reed Hastings]] will not stand for re-election to the board when his term expires at the June 2026 annual meeting.
 
 ---
 
@@ -148,6 +166,7 @@ He didn't use a single minute of the 4-day matching window. Either the decision 
 *NFLX vs [[Nasdaq|QQQ]] since Jan 2024 — still +68% vs QQQ +48%, but gap narrowing sharply*
 
 ![[nflx-fundamentals.png]]
+*Quarterly revenue, profitability, and margin progression into FY2025.*
 
 ![[nflx-sankey.png]]
 *FY2025 income statement Sankey: $45.2B revenue, 24.3% net margin. Gross: 48.5%, Operating: 29.5%.*
@@ -228,7 +247,7 @@ Netflix is fundamentally an AI recommendation company.
 | Paid subs | 325M | Growing |
 | ARM (avg revenue/member) | $13+ | Rising |
 | Operating margin | 31.5% (2026 target) | Expanding |
-| FCF | $8B+ | Growing |
+| FCF | ~$12.5B (2026 guide) | Boosted by breakup fee |
 
 ---
 
@@ -236,30 +255,23 @@ Netflix is fundamentally an AI recommendation company.
 
 | Person | Role | Since |
 |--------|------|-------|
-| [[Ted Sarandos]] | CEO (co) | 2020 |
-| Greg Peters | CEO (co) | 2023 |
-| Spencer Neumann | CFO | 2019 |
+| [[Ted Sarandos]] | Co-CEO | 2020 |
+| [[Greg Peters]] | Co-CEO | 2023 |
+| [[Spencer Neumann]] | CFO | 2019 |
+| [[Reed Hastings]] | Co-founder, Chairman (through Jun 2026) | 1997 |
 
-Reed Hastings stepped back to Executive Chairman.
+Netflix said in the Q1 2026 shareholder letter that Hastings will not stand for re-election to the board when his term expires at the June annual meeting.
 
 ---
 
-## Investment thesis
+## Structural factors
 
-Bull:
-- Streaming leader with scale
-- Ad tier margin expansion
-- Password crackdown complete
-- Live events driving engagement
-- FCF generation accelerating
-- International growth runway
-
-Bear:
-- Content cost inflation
-- Competition intensifying
-- Subscriber saturation risk
-- Live sports bidding wars
-- Valuation premium
+- Global scale in subscription streaming, with 325M subscribers last disclosed at Q4 2025
+- Ads, pricing, live programming, and password-sharing enforcement are the main revenue-per-member levers
+- Content amortization remains the central near-term margin swing factor, especially in H1 2026
+- Competition increasingly comes from [[YouTube]]'s TV-share gains and platform bundles, not just legacy streamers
+- Mature-market subscriber saturation shifts growth dependence toward pricing, ads, and new formats
+- Capital allocation is now tilted toward targeted capability buys and partnerships after the abandoned WBD deal
 
 ---
 
@@ -328,7 +340,7 @@ Revenue CAGR 2018-2024: ~16%. Net income inflected upward sharply in 2024 on ope
 - 2023 — Password crackdown added tens of millions of paying subscribers; ad tier ramped to 40M+ MAU
 - 2024 — Pushed into live events (NFL Christmas games, WWE Raw, boxing); 10:1 stock split. Revenue crossed $39B
 - 2025-2026 — Bid $83B for [[Warner Bros Discovery]] studios + HBO (Dec 2025); walked away Feb 2026 after [[Paramount Global]] outbid at $31/share. Collected $2.8B breakup fee. Demonstrated capital discipline over empire-building
-- 2026 — Acquired [[InterPositive]] (AI post-production tools, up to $600M) and signed first-look deal with [[Artists Equity]] ([[Ben Affleck]]/[[Matt Damon]]). Pivoted from mega-M&A to targeted capability buys + talent partnerships
+- 2026 — Acquired [[InterPositive]] (AI post-production tools, up to $600M) and signed first-look deal with [[Artists Equity]] ([[Ben Affleck]]/[[Matt Damon]]). Q1 revenue reached $12.25B (+16.2% YoY); full-year guide stayed unchanged at $50.7-51.7B revenue and 31.5% operating margin. [[Reed Hastings]] said he would not stand for board re-election at the June 2026 annual meeting.
 
 ---
 
@@ -359,6 +371,9 @@ Revenue CAGR 2018-2024: ~16%. Net income inflected upward sharply in 2024 on ope
 - [[WBD bidding war 2025-2026]] — full arc: Netflix bid → Paramount competing bid → Netflix walks away
 - [[Netflix-WB Senate Antitrust Hearing 2026-02-03]] — Senate hearing on deal
 
+### Securities
+- [[Netflix securities]] — stock, ETF exposure, options, and price-action context
+
 ---
 
 ## InterPositive acquisition + Artists Equity deal (Mar 2026)
@@ -371,7 +386,7 @@ Two related deals announced the same week, both involving [[Ben Affleck]]:
 |--------|-------|
 | Target | [[InterPositive]] — AI post-production startup |
 | Founder | [[Ben Affleck]] |
-| Price | Up to **$600M** (with earnouts) |
+| Price | Up to $600M (with earnouts) |
 | Team | 16 employees → integrated into Netflix |
 | Affleck role | Senior adviser to Netflix |
 
@@ -403,4 +418,4 @@ See: [[Major Pending M&A Deals Feb 2026]]
 
 ---
 
-*Updated 2026-03-13*
+*Updated 2026-04-17*
