@@ -4,6 +4,18 @@
 
 ---
 
+## Synthesis
+
+The CUDA moat is a developer-ecosystem lock-in at scale: ~92% market share in AI development frameworks and ~4 million active developers as of 2026, built through a decade-long head start in university curricula, textbooks, library optimization (cuDNN, cuBLAS, TensorRT), Stack Overflow documentation, and an installed base of ~4,000 optimized models that has become the de facto standard for AI infrastructure. The moat is not the programming model itself — it's the compounded accumulation of developer-time, institutional memory, and revalidated pipelines that make switching cost far higher than any hardware-specification comparison would suggest. [[Jensen Huang]]'s three-pillar articulation (richness/programmability, install base, everywhere) is one articulation of the moat; the 4M-developer count is the load-bearing statistic.
+
+The constraint is that the moat partitions unevenly across workloads. CUDA holds 85%+ share in training and frontier research — there is no meaningful ecosystem alternative at the leading edge. But inference is diffusing. Compiler-abstraction layers like [[OpenAI]]'s Triton and the MLIR project have demonstrated that GPU code can be written once and target multiple hardware backends with near-parity performance. [[AMD]]'s ROCm 7 delivers ~3.5× the inference performance of prior versions, materially closing the benchmark gap. The erosion is not happening through a CUDA-alternative ecosystem emerging; it's happening through the inference workload becoming hardware-agnostic enough that the ecosystem advantage matters less. That makes the durability question hinge on whether training — where CUDA still dominates — follows the inference path or stays sticky.
+
+The counter-example lives inside hyperscaler capex plans. [[Google]] [[TPU]], [[Amazon]] [[Trainium]], and [[Microsoft]] Maia do not run CUDA and serve workloads at scale regardless. [[Anthropic]] trains and serves on NVIDIA GPUs, Google TPUs, and AWS Trainium simultaneously — the existence proof that the moat is relative, not absolute, at sufficient workload scale. The economics work above a ~50-100MW inference footprint; below that, CUDA captures default demand. This is the "leak versus ceiling" question: is hyperscaler custom silicon a percentage leak (CUDA holds the rest) or a ceiling on NVIDIA's addressable market (workloads above a threshold systematically flip to in-house silicon)? The answer determines whether the moat stabilizes near current share or continues draining through 2027-2028.
+
+One line: the 4-million-developer ecosystem is the structural moat; the compiler abstraction layer is what drains it; hyperscaler ASIC deployment is where the draining already happened — the question is whether training follows inference down that path.
+
+---
+
 ## What CUDA is
 
 - Programming model for GPU-accelerated computing

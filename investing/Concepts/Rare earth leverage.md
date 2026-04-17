@@ -7,6 +7,18 @@ aliases: [Rare earth controls, [[Critical minerals]] leverage]
 
 ---
 
+## Synthesis
+
+Rare earth leverage is a processing-chokepoint story, not a mining story. China produces ~70% of the world's REE ore but refines ~90%, with heavy REE refining running effectively monopolized — through 2023, China accounted for ~99% of global heavy REE processing, and the only meaningful non-Chinese heavy REE refinery (in Vietnam) has been shut down for over a year in a tax dispute, leaving China with de facto 100% heavy REE refining capacity as of 2026. Even ore mined in [[Australia]], the US, or [[Myanmar]] typically flows to Chinese facilities because the West spent three decades declining to build downstream separation, solvent extraction, and magnet-production capacity on environmental grounds. Deng Xiaoping's 1992 "the Middle East has oil, China has rare earths" was strategic foresight. The April 2025 export controls on terbium and dysprosium (dysprosium +180% in 60 days per CSIS) and the January 2026 dual-use export ban to Japan over Taiwan remarks are the operational payoff of that foresight.
+
+The constraint is that the Western response is now scaling across multiple parallel tracks but has not integrated into reliable supply chains. 2026 commissioning wave: Iluka's Eneabba refinery (A$1.25B Australian government loan) for separated NdPr + dysprosium + terbium, [[Lynas]] Malaysia (first non-Chinese producer of separated heavy REEs since May 2025), [[MP Materials]] (Pentagon $400M investment, July 2025), Arafura's Nolans Project (integrated mining + on-site separation in Australia), Vital Metals' Nechalacho mine with Saskatoon separation facility, REEtec's Norwegian midstream plant, and Japanese magnet-grade expansion through Shin-Etsu Chemical and Hitachi Metals. Plus emerging separation technologies — chromatography and advanced solvent extraction — that could bypass some of China's legacy chemical-processing advantage. US VC funding in REE startups hit $628M in 2025, up ~2,900% from 2024 per PitchBook. But none of this has yet produced integrated supply chains: Pentagon, auto OEMs, and wind-turbine manufacturers still cannot reliably procure heavy REE oxides or magnet-grade NdFeB from non-Chinese sources at scale.
+
+The counter-example is technology unlock rather than replication. The Rainbow Rare Earths / Mosaic phosphogypsum joint venture at Uberaba (Minas Gerais, Brazil) targets ~2,600 tpa NdPr oxide + heavy REE from fertilizer waste with no mining required; Uberaba PEA economics are $916M NPV / 45% IRR. If replicable on US phosphogypsum stacks — Florida alone holds 1B+ tonnes with ~200,000 tonnes trapped REE — the entire mining-chokepoint framing weakens. Parallel to the lithium [[Direct lithium extraction|DLE]] unlock: commodity cost curves are malleable when technology bypasses the incumbent's bottleneck. The Uberaba economics are promising but unproven industrially; the West-bypass scenario depends on that demonstration.
+
+One line: rare earth leverage is the only commodity chokepoint the West has both recognized and started responding to at scale — the question is whether the parallel national tracks integrate into reliable supply before the next weaponization event, or whether the Vietnam-refinery-style fragility of non-Chinese capacity keeps re-asserting itself.
+
+---
+
 ## [[China]]'s dominance
 
 | Stage | [[China]] share | Rest of world |

@@ -151,6 +151,41 @@ If two or more apply, the content's vault of record is a sibling vault. The inve
 
 **Output the cross-vault filing decisions alongside the concept/actor decisions** before any writes begin. Flag any cases where a sibling vault needs a new note — that is a write to plan, not a link to add at the end.
 
+## Phase 1.8: Cold research pass (triggers when any framing-level write is planned)
+
+The gate is the kind of write, not the kind of note. Run the cold research pass whenever the planned write would change *framing* — not just when a new concept note is being created.
+
+**Triggers (any of):**
+- New concept note
+- New `## Synthesis` section in any note
+- Framework/mechanism/precedent expansion inside an existing concept note
+- **Retitling or rewriting an existing section** in a concept or event note (e.g., renaming "Chile nationalization risk" to "Chile political framework" — the section's interpretive lens changed, even though the note already existed)
+- **Reframing an actor note's thesis, "Why X matters," or Investment case paragraphs** — these carry framing load
+- Any rewrite where significant new context from this ingestion is about to re-interpret existing vault content
+
+**Does NOT trigger** (these are data-inserts, not framing-shifts):
+- Adding a new dated subsection that describes what happened without reframing surrounding analysis (Apr 16 sigma event under existing supply/demand framing is fine)
+- New rows in existing tables, new quarterly earnings sections, price refreshes
+- Related-section additions, wikilink fixes, cross-vault link insertions
+
+Run it BEFORE Phase 2 vault survey.
+
+Ingestion is the single largest generator of recency and source-anchoring bias in the vault. The source you just processed has the most gravity in your context, which pulls the concept's central framing toward whatever the source articulated. This is exactly wrong: the source is one data point; the concept is the field.
+
+**The discipline:**
+
+1. For each concept-level item flagged in Phase 1.6, run WebSearch on the concept itself — not on the ingestion source. Use queries a domain-independent researcher would use ("X market structure 2026 analyst consensus," "X regulatory framework 2026 academic," "X structural analysis CSIS/RAND/agency").
+2. Pull authoritative framings from the field: agency reports, academic work, law-firm annual reviews, research houses (Wood Mackenzie, CSIS, IEA, sector specialists).
+3. Compare what the field says is central against what the source framed as central. If they diverge, the concept-note framing follows the field, not the source. The source contributes data points and attribution inside the structural frame.
+
+**Test question before Phase 4 writes:** *"If I hadn't ingested this source, what would a domain-independent research pass say is central to this concept?"* Anything that can't be defended against that question is source anchoring; rewrite.
+
+**Canonical rule:** `docs/research-workflow.md#cold-research-pass` — full failure modes, scope, test question.
+
+**When to skip:** Pure actor-note expansion with no concept-level writes. Data-point inserts to existing concept tables without narrative/synthesis changes. Stubs being created for the first time (no synthesis yet to bias).
+
+This gate is what the 2026-04-16 All-In ingestion missed: the podcast's framing of [[David Sacks]] and [[Chamath Palihapitiya]] as the central voices on AI consolidation got written into concept notes as "the constraint" and "the counter-example" when the actual field — DMA, UK CMA, DOJ — had been prosecuting the same pattern for 6+ months. That was source anchoring on a specific ingestion, exactly the failure this phase exists to prevent.
+
 ## Phase 2: Vault Survey
 
 For each enumerated entity:
@@ -230,6 +265,7 @@ These rules are specific to single-source ingestion. General vault rules live in
 - **Present before analyzing** — summary first, vault work after user confirms
 - **Classify content before writing** — Phase 1.6 gate. Framework/mechanism/precedent material goes in concept notes, not subsections of actor notes. Attribution is not filing.
 - **Classify vault of record before writing (lens test)** — Phase 1.7 gate. Each sibling vault has its own lens: history = "how did we get here" (durability, precedent), technologies = foundational tech shifts, geopolitics = statecraft/alliances/sanctions, Brazil = Brazilian actors/markets/institutions, investing = market impact/positioning. Content can touch multiple lenses; one is primary. The 5-year durability test is the sharp corollary for history specifically. Durability mismatch traps durable content with transient half-lives.
+- **Cold research pass before concept writes** — Phase 1.8 gate. Any time the ingestion produces concept-level writes (new concept note, new `## Synthesis` section, framework expansion), WebSearch the concept itself — not the source — and compare the field's framing to the source's. The source contributes data points and attribution; the concept note's structural framing follows the field. Full rule: `docs/research-workflow.md#cold-research-pass`. Skipping this is the dominant source of synthesis bias in ingested content.
 - **Charts follow concepts, not sources** — route images to concept notes, not actor/source notes
 - **Images create the reason to touch a note** — even if that note wasn't otherwise on the update list
 - **Full entity sweep** — every name, every number, every aside gets processed

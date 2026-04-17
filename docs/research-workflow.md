@@ -100,6 +100,46 @@ Every source — article, transcript, podcast, filing — contains two things: f
 
 ---
 
+## Cold Research Pass
+
+Before writing any synthesis, concept note, or `/report` output, run an independent research pass on the topic itself — not on whatever was most recently fed into the conversation context. This is a process rule, not a style rule. It applies whenever the write requires framing claims about what is central, what is load-bearing, or what the open tensions are.
+
+**The failure modes it prevents:**
+
+- **Recency bias** — whatever entered context most recently gets oversized weight in synthesis. A podcast ingested this morning will feel structural by evening even if it isn't.
+- **Source anchoring** — the user's ingestion source gets treated as primary evidence rather than as one data point among many. If today's ingestion framed X as central, I'll write X as central.
+- **Retrieval over research** — I'll organize what's already in context rather than trigger new web search when the topic warrants it. This produces coherent prose that misses what the field actually thinks.
+
+**The discipline:**
+
+1. Before writing a synthesis-level paragraph, run WebSearch on the concept itself (not the ingestion source). Use queries that a domain-independent researcher would use: "X market structure 2026 analyst consensus," "X regulatory framework 2026 academic," "X chokepoint structural analysis."
+2. Pull authoritative framings from the field (agency reports, academic work, law-firm annual reviews, research houses like Wood Mackenzie / CSIS / IEA).
+3. Explicitly ask: *"If I hadn't ingested anything today, what would a domain-independent research pass say is central to this concept?"* Anything that can't be defended against that question is recency or source bias.
+4. Attribute specific observers inside the structural claim, not around it. The concept note carries the structural phenomenon; named figures (Sacks, Chamath, Dylan Patel, Jensen on a specific framework) appear as attribution, not as the load-bearing frame.
+
+**Scope — the distinction is framing vs data, not new vs touched.** The gate is the kind of write, not the kind of note.
+
+**Run the cold pass when the write changes framing:**
+
+- Any concept-note `## Synthesis` section (new or rewritten)
+- Any `/report` output
+- Any claim about what is "central" or "the constraint" or "the counter-example" on a topic with active debate
+- Any **retitling or rewrite of an existing section** in a concept or event note (e.g., renaming "Chile nationalization risk" to "Chile political framework" is a framing-shift even though the note existed; the research-gravity test is whether the section's interpretive lens changed)
+- Any **reframing of an actor note's thesis, "Why X matters," or Investment case** — these paragraphs carry framing load and follow the same bias patterns as concept notes
+- Any rewrite of a note after significant new context has entered the conversation (warm-context gravity is highest in this case)
+
+**Skip the cold pass for:**
+
+- Routine data updates (quarterly earnings inserts, price refreshes, factual additions, new rows in existing tables)
+- Dated-event subsections that describe what happened without reframing the surrounding analysis (e.g., a new "Apr 16 sigma move" section under a concept's existing supply/demand framing)
+- Actor-note Q1/Q2/Q3/Q4 earnings sections (data-heavy, follow the `/earnings` skill protocol instead)
+- Stubs with under ~30 substantive lines (no framing yet to bias)
+- Hub-note Related-section additions, wikilink fixes, cross-vault link insertions
+
+**The test question at the end:** Read the paragraph. For each claim that something is "central" or "the constraint" or "the counter-example," can you point to an independent source (agency report, academic paper, regulator action, industry consensus) that supports it — or is the claim anchored to what was recently in context? If the latter, rewrite.
+
+---
+
 ## Analysis Sections
 
 The vault's purpose is not just to store facts — it's to interpret them. Mature notes should include an Analysis section that connects the facts already in the note into investment-relevant interpretation.

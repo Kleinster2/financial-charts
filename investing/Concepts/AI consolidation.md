@@ -6,6 +6,18 @@ Big Tech acquiring AI startups through stealth deals (acqui-hires, licensing) to
 
 ---
 
+## Synthesis
+
+AI consolidation is a regulatory-arbitrage story disguised as an M&A cycle. Traditional acquisitions trigger antitrust review and spread economic benefit; acqui-hires and licensing deals capture talent and IP while leaving the corporate shell and rank-and-file employees untouched, avoiding disclosure, approval, and equal-treatment optics. Result: Big Tech entrenchment without a formal acquisition trail, combined with a "Darwinian thinning" of ~40K AI startups pushing the industry toward concentrated winners regardless of which specific challenger succeeds. The "exit as path to wealth" model that funded two decades of Silicon Valley risk-taking erodes in parallel — startup equity stops being reliable non-founder compensation, changing who will join startups at all.
+
+The constraint is that regulators in three major jurisdictions are already converging on the pattern. The EU Commission fined Apple €500M and Meta €200M under the DMA in 2025, opened a formal investigation into Meta's WhatsApp AI policy (December 4, 2025), and has the DMA's first statutory review scheduled for May 2026 — the Commission's tender for that review explicitly targets extending gatekeeper designations to AI services, with the High-Level Group on DMA endorsing a December 12, 2025 joint paper that the DMA may promote contestability in AI infrastructure and distribution. The UK CMA issued its first Strategic Market Status designations in October 2025 (Google for search/search-advertising; Google and Apple for mobile platforms) and is moving to conduct requirements and interventions in 2026. US DOJ Assistant AG Abigail Slater (September 2025) identified the specific AI-merger concerns as "exclusionary behavior that forecloses access to key inputs and distribution channels" plus data consolidation — explicitly the acqui-hire fact pattern. The bundling-and-pricing exposure observers have flagged (including [[David Sacks]] in April 2026) is one articulation of what regulators are independently prosecuting across jurisdictions that don't coordinate with each other.
+
+The counter-examples to winner-take-all consolidation are plural, not singular — which is why the thesis is contested rather than consensus. [[Open-weight models]] ([[Meta|Llama]], [[DeepSeek]], [[Qwen]], [[Mistral]]) undermine the closed-frontier moat at the model layer regardless of what happens above it. Hyperscaler custom silicon ([[TPU]], [[Trainium]], Maia) routes around [[NVIDIA]]'s infrastructure-rent capture at sufficient scale. Chinese AI development ([[Huawei]], [[DeepSeek]], [[SMIC]]) operates entirely outside the Western consolidation frame. And [[Enterprise AI adoption]] at ~5% penetration with decades of COBOL-modernization runway implies the TAM is growing faster than any acquirer can consolidate — the pie is not fixed, making winner-take-all harder to achieve inside the Big Tech bloc even if regulators don't act. Each axis is an independent constraint; the consolidation thesis requires all four to underdeliver simultaneously.
+
+One line: the consolidation question is whether the acqui-hire architecture outran the antitrust regime it was designed to avoid — and the answer is becoming "no" as DMA/SMS/DOJ converge on AI-specific gatekeeper frameworks before the 2026-2027 enforcement cycle begins.
+
+---
+
 ## Author's thesis (Parmy Olson, Jan 7, 2026)
 
 Big Tech will use two strategies to consolidate AI:
