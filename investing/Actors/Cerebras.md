@@ -3,19 +3,19 @@ aliases: []
 ---
 #actor #ai #semiconductor #usa #private
 
-**Cerebras** — Wafer-scale AI chips. Entire wafer = one chip. Training + inference. **Last independent SRAM player** after NVIDIA-Groq deal.
+**Cerebras** — Wafer-scale AI chips. Entire wafer = one chip. Training + inference. Last independent SRAM player after NVIDIA-Groq deal.
 
 ---
 
 ## Why Cerebras matters
 
-**Post-NVIDIA-Groq positioning** (per Gavin Baker):
+Post-NVIDIA-Groq positioning (per Gavin Baker):
 
 > "Cerebras is now in a very interesting and highly strategic position as the last independent SRAM player that was ahead of Groq on all public benchmarks."
 
 | Metric | Value |
 |--------|-------|
-| Valuation | **~$22B** (Jan 2026 talks) |
+| Valuation | ~$22B (Jan 2026 talks) |
 | Previous valuation | $8.1B (Sep 2025) |
 | Total raised | $2B+ |
 | Founded | 2016 |
@@ -26,14 +26,14 @@ aliases: []
 
 ## Wafer-scale engine (WSE)
 
-**One wafer = one chip:**
+One wafer = one chip:
 
 | Spec | WSE-3 |
 |------|-------|
 | Transistors | 4 trillion |
 | Cores | 900,000 |
 | Size | 46,225 mm² |
-| vs GPU | 56x larger than H100 |
+| vs GPU | 56x larger than [[H100]] |
 
 Biggest chip ever made.
 
@@ -41,7 +41,7 @@ Biggest chip ever made.
 
 ## Why wafer-scale?
 
-**Eliminates interconnect bottleneck:**
+Eliminates interconnect bottleneck:
 - No chip-to-chip communication
 - Massive on-chip memory bandwidth
 - Designed for large AI models
@@ -51,7 +51,7 @@ Biggest chip ever made.
 
 ## CS-3 system
 
-**Complete AI system:**
+Complete AI system:
 - WSE-3 chip
 - 44GB on-chip SRAM
 - 125 petaflops FP16
@@ -61,7 +61,7 @@ Biggest chip ever made.
 
 ## Business model
 
-**Systems + cloud:**
+Systems + cloud:
 - Sell complete systems ($2-[[3M]]+)
 - Cerebras Cloud inference
 - Condor Galaxy supercomputer (with [[G42]])
@@ -73,8 +73,8 @@ Biggest chip ever made.
 
 | Customer | Use Case |
 |----------|----------|
-| [[G42]] (UAE) | Condor Galaxy cluster |
-| GSK | Drug discovery |
+| [[G42]] ([[UAE]]) | Condor Galaxy cluster |
+| [[GSK]] | Drug discovery |
 | [[AstraZeneca]] | Pharma AI |
 | National labs | Research |
 
@@ -87,25 +87,25 @@ Biggest chip ever made.
 | Metric | Value |
 |--------|-------|
 | Round size | ~$1B (in talks) |
-| Pre-money valuation | **$22B** |
+| Pre-money valuation | $22B |
 | Previous (Sep 2025) | $8.1B |
-| Increase | **2.7x in 4 months** |
+| Increase | 2.7x in 4 months |
 | IPO target | Q2 2026 |
 
-**Significance:** Among largest private AI hardware raises ever. Validates "last independent SRAM player" thesis.
+Significance: Among largest private AI hardware raises ever. Validates "last independent SRAM player" thesis.
 
 ### OpenAI $10B+ compute deal (Jan 14, 2026)
 
 | Detail | Value |
 |--------|-------|
-| Deal value | **$10B+** |
+| Deal value | $10B+ |
 | Compute | 750 MW |
 | Duration | 2026-2028 (multi-year) |
 | Customer | [[OpenAI]] |
 
-**Game-changer:** OpenAI diversifying beyond NVIDIA. Cerebras now has two mega-customers (OpenAI + [[G42]]).
+Game-changer: OpenAI diversifying beyond NVIDIA. Cerebras now has two mega-customers (OpenAI + [[G42]]).
 
-**Why OpenAI chose Cerebras:**
+Why OpenAI chose Cerebras:
 - Inference cost advantage (SRAM)
 - Reduce NVIDIA dependency
 - Capacity availability
@@ -114,29 +114,29 @@ Biggest chip ever made.
 
 ---
 
-## GPT-5.3-Codex-Spark: first non-NVIDIA GPT model (Feb 2026)
+## [[GPT]]-5.3-[[Codex]]-Spark: first non-NVIDIA [[GPT]] model (Feb 2026)
 
 The OpenAI deal's first concrete output — and a landmark for the inference market:
 
 | Detail | Value |
 |--------|-------|
-| Model | GPT-5.3-Codex-Spark |
+| Model | [[GPT]]-5.3-[[Codex]]-Spark |
 | Hardware | Cerebras Wafer Scale Engine 3 |
-| Speed | **1,000+ tokens/sec** |
-| Benchmark | 77.3% on Terminal-Bench 2.0 (vs 64% for GPT-5.2-Codex) |
+| Speed | 1,000+ tokens/sec |
+| Benchmark | 77.3% on [[Terminal-Bench]] 2.0 (vs 64% for [[GPT]]-5.2-[[Codex]]) |
 | Context | 128K, text-only |
-| Availability | ChatGPT Pro, Codex app/CLI/VS Code |
-| Significance | **OpenAI's first GPT model that does not run on [[NVIDIA]]** |
+| Availability | [[ChatGPT]] Pro, [[Codex]] app/CLI/VS Code |
+| Significance | OpenAI's first [[GPT]] model that does not run on [[NVIDIA]] |
 
 The model is optimized for real-time code editing — developers get immediate feedback on targeted edits to code, logic, or interfaces. Complements long-running frontier models (which work autonomously for hours/days) with a latency-first tier for interactive work.
 
-**Infrastructure integration:** Cerebras's low-latency path was integrated into OpenAI's production serving stack alongside GPU infrastructure. OpenAI's framing: GPUs remain fundamental for training and broad inference; Cerebras excels where extremely low latency matters. Not a replacement — a dedicated tier.
+[[Infrastructure]] integration: Cerebras's low-latency path was integrated into OpenAI's production serving stack alongside GPU infrastructure. OpenAI's framing: GPUs remain fundamental for training and broad inference; Cerebras excels where extremely low latency matters. Not a replacement — a dedicated tier.
 
-**Latency improvements shipped alongside Codex-Spark:**
+Latency improvements shipped alongside [[Codex]]-Spark:
 - WebSocket connection reduced per-roundtrip overhead by 80%
 - Per-token overhead down 30%
 - Time-to-first-token cut in half
-- WebSocket path default for Codex-Spark, rolling out to all models
+- WebSocket path default for [[Codex]]-Spark, rolling out to all models
 
 *Source: [Techzine](https://www.techzine.eu/news/analytics/138754/openai-swaps-nvidia-for-cerebras-with-gpt-5-3-codex-spark/) (Feb 2026), [Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-lauches-gpt-53-codes-spark-on-cerebras-chips) (Feb 2026)*
 
@@ -144,7 +144,7 @@ The model is optimized for real-time code editing — developers get immediate f
 
 ## Andrew Feldman vs NVIDIA (Mar 2026)
 
-Cerebras CEO has been publicly attacking [[NVIDIA]]'s inference position on LinkedIn for months:
+Cerebras CEO has been publicly attacking [[NVIDIA]]'s inference position on [[LinkedIn]] for months:
 
 Core argument: [[CUDA moat|CUDA]] is only needed for training, not inference. As the industry shifts to inference-dominant workloads, NVIDIA's software lock-in dissolves. The mental moat that kept enterprises on GPUs doesn't apply when the workload is fundamentally different.
 
@@ -152,14 +152,24 @@ This is aggressive positioning ahead of GTC, where NVIDIA plans to unveil its [[
 
 ---
 
+## Apr 17, 2026 — OpenAI commitment expands, IPO revived
+
+[[Reuters]] reported on Apr 17 that OpenAI's commitment to Cerebras-backed compute has expanded from the initially reported $10B+ to more than $20B over the next three years, with total spending potentially reaching $30B. The Information said OpenAI may also provide roughly $1B toward new data-center development and receive warrants that could rise toward a 10% stake in Cerebras if spending scales as planned.
+
+The same day, Cerebras disclosed its renewed US IPO filing. The filing showed 2025 revenue of $510M, up from $290.3M a year earlier, and $1.38 per share of profit versus a $9.90 per-share loss the year before. [[Reuters]] said the earlier IPO delay followed a CFIUS review tied to [[G42]]'s minority investment, with clearance obtained in 2025.
+
+The strategic implication is straightforward: the OpenAI relationship is no longer a useful pilot. It is the center of the equity story. The IPO is effectively a public-market attempt to capitalize a company whose near-term revenue trajectory is being rewritten by one hyperscale inference customer.
+
+---
+
 ## IPO filing
 
-**Filed September 2024:**
+Filed September 2024:
 - First major AI chip IPO attempt
 - Revealed $136M revenue (2023)
 - Heavy losses
 - [[G42]] concentration risk flagged
-- **IPO now targeting Q2 2026**
+- IPO now targeting Q2 2026
 
 ---
 
@@ -170,14 +180,14 @@ After NVIDIA licensed [[Groq]]'s architecture (Dec 2025):
 | Player | Status |
 |--------|--------|
 | [[Groq]] | NVIDIA partner, continues cloud |
-| [[SambaNova]] | Acquired by [[Intel]] |
-| Cerebras | **Last independent SRAM player** |
+| [[SambaNova]] | [[Acquired]] by [[Intel]] |
+| Cerebras | Last independent SRAM player |
 
-**Why Cerebras wasn't acquired:**
+Why Cerebras wasn't acquired:
 
 | Factor | Groq | Cerebras |
 |--------|------|----------|
-| Integration | Many-chip rack, fits NVLink | WSE = independent rack |
+| Integration | Many-chip rack, fits [[NVLink]] | WSE = independent rack |
 | Architecture | Easier to integrate | Harder to merge |
 | Benchmarks | Strong | Ahead of Groq (public) |
 
@@ -187,27 +197,27 @@ Cerebras's wafer-scale approach makes integration harder — but may preserve in
 
 ## Strategic options
 
-1. **Stay independent** — IPO, compete with Rubin SRAM
-2. **Hyperscaler acquisition** — [[Google]], [[Amazon]], [[Microsoft]]
-3. **NVIDIA deal** — Similar to Groq (licensing)
-4. **Sovereign AI focus** — [[G42]] relationship, geopolitics
+1. Stay independent — IPO, compete with [[Rubin]] SRAM
+2. Hyperscaler acquisition — [[Google]], [[Amazon]], [[Microsoft]]
+3. NVIDIA deal — Similar to Groq (licensing)
+4. Sovereign AI focus — [[G42]] relationship, geopolitics
 
-**The bull case**: Being last independent SRAM player = strategic scarcity value.
+The bull case: Being last independent SRAM player = strategic scarcity value.
 
 ---
 
 ## Investment case
 
-**Bull:**
-- **Last independent SRAM player** — strategic scarcity
+Bull:
+- Last independent SRAM player — strategic scarcity
 - Ahead of Groq on public benchmarks
 - Differentiated architecture (wafer-scale)
 - Large model specialist
 - IPO = liquidity event
 - Potential acquisition target
 
-**Bear:**
-- NVIDIA Rubin SRAM competes directly
+Bear:
+- NVIDIA [[Rubin]] SRAM competes directly
 - Customer concentration ([[G42]])
 - High system costs
 - Integration difficulty limits partnerships
@@ -225,21 +235,21 @@ Cerebras's wafer-scale approach makes integration harder — but may preserve in
 | Series D | $250M | — |
 | Series E | $250M | ~$4B |
 | Sep 2025 | — | $8.1B |
-| **Jan 2026 (talks)** | **~$1B** | **$22B** |
-| **Total** | **$2B+** | |
+| Jan 2026 (talks) | ~$1B | $22B |
+| Total | $2B+ | |
 
-**Key investors:**
+Key investors:
 
 | Investor | Notes |
 |----------|-------|
 | [[Benchmark]] | Early (Series A) |
-| Eclipse Ventures | Early |
+| [[Eclipse Ventures]] | Early |
 | Alpha Wave Global | Growth (Series F) |
 | [[Altimeter Capital]] | Growth |
 | [[Coatue]] | Growth |
 | [[UAE G42]] | Strategic (Condor Galaxy) |
 
-**[[G42]] relationship:** Strategic partner and customer — built Condor Galaxy supercomputer together.
+[[G42]] relationship: Strategic partner and customer — built Condor Galaxy supercomputer together.
 
 ---
 
@@ -248,21 +258,21 @@ Cerebras's wafer-scale approach makes integration harder — but may preserve in
 | Metric | Value |
 |--------|-------|
 | Ticker | Private (IPO Q2 2026) |
-| Valuation | **~$22B** (Jan 2026) |
+| Valuation | ~$23.1B last private mark; IPO fundraising reportedly targets ~$35B |
 | Total raised | $2B+ |
 | Approach | Wafer-scale chips |
 | Product | WSE-3, CS-3 |
 | Position | Last independent SRAM player |
-| Key customers | OpenAI ($10B), [[G42]] |
+| Key customers | OpenAI ($20B+ potential), [[G42]] |
 
-*Updated 2026-01-17*
+*Updated 2026-04-17*
 
 ---
 
 ## Related
 
 ### Customers
-- [[OpenAI]] — $10B+ compute deal (Jan 2026)
+- [[OpenAI]] — $20B+ potential multi-year compute commitment (Apr 2026 update)
 - [[UAE G42]] — Condor Galaxy, strategic partner
 
 ### Competitors
@@ -278,4 +288,6 @@ Cerebras's wafer-scale approach makes integration harder — but may preserve in
 ### Sources
 - [Bloomberg: Cerebras $22B Valuation](https://www.bloomberg.com/news/articles/2026-01-13/cerebras-in-discussions-to-raise-funds-at-22-billion-valuation)
 - [TechCrunch: OpenAI Cerebras Deal](https://techcrunch.com/2026/01/14/openai-signs-deal-reportedly-worth-10-billion-for-compute-from-cerebras/)
+- [Reuters: Cerebras discloses US IPO filing](https://www.reuters.com/technology/nvidia-rival-cerebras-reveals-us-ipo-filing-ai-boom-drives-listings-2026-04-17/)
+- [Reuters: OpenAI to spend more than $20 billion on Cerebras chips](https://www.reuters.com/technology/openai-spend-more-than-20-billion-cerebras-chips-receive-equity-stake-2026-04-17/)
 

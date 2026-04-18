@@ -115,6 +115,7 @@ Defense:
 - [[Drone warfare]] — Ukraine as proving ground for attritable drones
 - [[European defense spending]] — war triggered NATO 2%+ GDP rearmament cycle
 - [[Starlink]] — critical communications infrastructure in theater
+- [[Oleksandr Kamyshin]] — adviser on strategic industries; April 2026 rebuttal to Rheinmetall CEO [[Armin Papperger]] citing "11,000 Russian tanks" destroyed by Ukrainian drones
 
 Companies:
 - [[Metinvest]] — largest Ukrainian steelmaker (~2.1Mt, 2024); lost Mariupol plants

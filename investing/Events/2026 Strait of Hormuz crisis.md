@@ -80,6 +80,41 @@ The 2026 Strait of Hormuz crisis is an ongoing disruption to global oil and LNG 
   - [[Tarek Masoud]] (Harvard Kennedy School): Disputes "MBS pushed Trump to war" narrative. Gulf states split: Oman mediator → Saudi/UAE/Qatar/Kuwait mixed → Bahrain hawkish. Two Gulf red lines: (1) Iran controls Hormuz + retained missiles; (2) Iranian failed state (Syria precedent).
   - [[Karen Young]] (MEI Senior Fellow): Crude deficit ~7 mb/d + product deficit ~4 mb/d. Saudi East-West pipeline ~7 mb/d, UAE ADCOP ~1.8 mb/d, Iran shadow fleet ~1.6 mb/d. Relief not before 2027. Asia acute (Sri Lanka shortened school week, Thailand elevator restrictions). Europe jet fuel crunch imminent.
 
+### Phase 6: Market repricing on full reopening signal (Apr 17)
+
+- Apr 17: Iranian Foreign Minister [[Abbas Araghchi]] says passage for all commercial vessels through the [[Strait of Hormuz]] is "completely open" for the remainder of the 10-day truce. [[Trump]] tells Reuters the US will work with [[Iran]] on recovered enriched uranium and expects a broader deal to end the war soon.
+- Apr 17: Oil sells off hard again, with [[Brent crude|Brent]] dropping back below $90 and [[WTI]] falling toward the low $80s as markets price a faster normalization of Gulf transit risk.
+- Apr 17: Equity-sector dispersion flips with the oil move. [[Chevron]] and the broader energy complex lead the downside, while [[American Airlines]], [[United Airlines]], and [[Carnival]] rally on fuel-relief expectations. [[Netflix]] is the major single-name outlier on the downside, showing that the day's tape was not just macro beta but also earnings/guidance selection.
+- Apr 17 readthrough: financial markets are now pricing de-escalation faster than the physical system is normalizing. Tanker traffic, war-risk insurance, mine-clearing, and actual refinery/product flows still lag the headline reopening signal, so the gap between paper oil and physical barrels remains the central unresolved risk.
+
+#### Apr 17 sector dispersion table
+
+The dispersion is the insight. Rank-ordering by direct exposure to Hormuz (chokepoint risk premium) cleanly explains the equity tape — beta-adjusted, both ends of the dispersion are statistically significant per `quick_movers.py`.
+
+| Cluster | Names | Move (Apr 16 close → Apr 17 close) | Why |
+|---------|-------|-----------------------------------|-----|
+| Refining | [[Valero]] -7.5%, [[Marathon Petroleum]] -5.5%, [[Phillips 66]] -4.3% | Crack-spread compression as oil falls and product demand normalizes | Pure refining margin reset; PSX cushioned by Midstream + Chemicals diversification |
+| Chemicals (ethane-advantaged) | [[LyondellBasell]] -12.0%, [[Dow]] -10.8% | US ethane vs global naphtha cost-advantage premium compresses as naphtha re-prices lower with crude | Both names had +44-48% YTD on the [[Ethane|ethane advantage]]; Hormuz premium portion unwinds |
+| Fertilizer (nitrogen) | [[CF Industries]] -9.6% | Urea geopolitical premium fades as Hormuz transit normalizes | CF was +63% YTD on urea ~$700/mt and the [[Nitrogen Trap]] thesis; reopening triggers kill-switch evaluation |
+| Lithium | [[Albemarle]] -8.3%, [[SQM]] -6.8% | Read-through from broader commodity-premium reset; ALB also hit by Baird downgrade (Outperform → Neutral, PT $210) on Zimbabwe export-restriction easing | Idiosyncratic ALB add-on; SQM is pure read-across |
+| Supermajors | [[BP]] -6.4%, [[Exxon]] -3.6%, [[Shell]] -4.0%, [[TotalEnergies]] -4.0%, [[Chevron]] -2.2% | Move size tracks Middle East FCF exposure: BP >21% > XOM ~20% > TTE ~14% > SHEL 13% > CVX ~5% ([[Rystad Energy]]) | Cleanest exposure-to-move map of the day |
+| US E&P | [[ConocoPhillips]] -4.5%, [[Occidental Petroleum]] -5.4%, [[EOG Resources]] -4.2% | Pure commodity-price beta with no refining offset; OXY amplified by leverage profile | All breakevens stay below current WTI; cash-flow projection compression, not solvency |
+| Atlantic-routing | [[Petrobras]] -4.9% | Pre-salt no-Hormuz competitive advantage was a war-premium tailwind; that portion of the +58% YTD reverses | Domestic [[Lula]]-era pricing trilemma also eases as international parity narrows |
+| Travel offset (upside) | [[United Airlines]] +7.1%, [[Royal Caribbean]] +7.3%, [[Carnival]] +7.0%, [[Norwegian Cruise]] +4.8%, [[American Airlines]] +4.2%, [[Delta]] +2.6% | Direct fuel-cost relief plus discretionary-demand readthrough on lower jet/marine fuel | The mirror image of the energy/chemical rout |
+| Other notable | [[Netflix]] -9.7% | Earnings/guidance, not Hormuz | Single-name outlier; see [[Netflix]] Q1 2026 letter coverage for context |
+
+The chemicals/fertilizer over-shoot (LYB -12%, DOW -10.8%, CF -9.6%) vs the more modest energy moves reflects the YTD setup: these names had already absorbed the largest geopolitical premium (LYB +48% YTD, DOW +44% YTD, CF +63% YTD into early April per [[Nitrogen Trap]]/[[Ethane]] coverage) and therefore had the most premium to give back when the chokepoint opens.
+
+What this dispersion does NOT capture: the structural Hormuz premium that should persist post-reopening per [[Hormuz Permanent Risk Premium]] (demonstrated capability + insurance market memory + selective transit precedent + mine warfare residue). The Apr 8 + Apr 17 unwind compresses the cyclical war premium but leaves the structural floor intact. The market is implicitly betting the $5-15/bbl structural premium estimated by [[Sankey Research]] and [[Eric Nuttall]] either doesn't fully take hold or compresses with the cyclical leg — that bet is testable over the next 30-60 days as physical normalization either confirms or contradicts the headline reopening signal.
+
+### Apr 17 downstream confirmation — jet fuel and recovery lag
+
+Reuters' follow-through reporting on Apr 17 is the cleanest proof that headline reopening and physical normalization are not the same thing. Since the war began, more than **500 million barrels** of crude and condensate have been lost to the market, worth roughly **$50B** at ~$100/bbl. Gulf Arab producers lost roughly **8 mb/d** of crude output in March, while broader production outages reached ~12 mb/d from late March onward.
+
+The refined-product damage is even more important for Europe. Jet fuel exports from [[Saudi Arabia]], [[Qatar]], the [[United Arab Emirates]], [[Kuwait]], [[Bahrain]], and [[Oman]] fell from **19.6 million barrels in February** to just **4.1 million barrels combined across March and April-to-date**. Reuters' recovery math also matters: heavier crude fields in [[Kuwait]] and [[Iraq]] could take **4-5 months** to normalize, while damage to regional refining and [[Ras Laffan]] means parts of the system could take **years** to fully restore.
+
+That is why the second-leg European response has shifted from "is Hormuz open?" to "how do we replace missing product flows?" The [[EU]] is now preparing jet-fuel diversification guidance focused on more imports from the [[United States]] and [[Nigeria]], a possible coordinated release of jet-fuel stocks, and a bigger resilience role for [[Sustainable Aviation Fuel]]. See [[Iran conflict European impact]] and [[Jet fuel]] for the downstream policy response.
+
 ## Quantitative impact
 
 | Metric | Pre-crisis | Peak disruption | As of early April |

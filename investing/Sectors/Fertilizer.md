@@ -173,6 +173,10 @@ The [[Strait of Hormuz]] closure triggered a fertiliser supply crisis — ~50% o
 
 See [[Nitrogen Trap]] for the full 14-channel cascading framework — the crisis propagates far beyond fertilizer pricing into sulfur/phosphate, petrochemicals, pharmaceuticals, sovereign debt, insurance architecture fracture, and the nonlinear quadratic yield response that concentrates damage in the Global South. The market is pricing ~45-day disruption; structural indicators point to 120+ days. USDA Prospective Plantings (March 31) is the first hard data point for acreage shift quantification.
 
+### April 17, 2026 — Hormuz reopening signal
+
+Iran declared the [[Strait of Hormuz]] "completely open" during the Israel-Lebanon ceasefire. [[CF Industries]] -9.6% (had been +63% YTD on the [[Nitrogen Trap]] thesis). Equity move tests Perera's first kill-switch condition (>15 vessels weekly for two consecutive weeks of sustained physical throughput). The cyclical chokepoint premium begins unwinding; the structural absence of any Strategic Fertilizer Reserve and the multi-year [[Qatar]] [[QAFCO]] facility damage do not. Full analysis in [[Nitrogen Trap]] § April 17, 2026 and [[2026 Strait of Hormuz crisis]] § Phase 6.
+
 ### Hormuz exposure — producer country breakdown
 
 ![[hormuz-urea-corridor-aurelion-mar2026.png]]
@@ -215,26 +219,26 @@ The dual exposure — agricultural food-security demand plus industrial emission
 
 ---
 
-## Investment considerations
+## Structural factors
 
-### Bull case
+### Demand and supply-constraint side
 
-- Food security is non-discretionary — population growth to ~10B by 2050 drives structural baseline demand
-- Africa is a generational growth story (<20 kg/ha vs 50 kg/ha AU target)
-- China export restrictions remove most Chinese urea from global markets, supporting non-Chinese producer pricing
-- Russia/Belarus sanctions create structural supply uncertainty in potash
-- Natural gas disruptions benefit NA producers with cheap Henry Hub gas (CF, Koch, Nutrien) vs European competitors
-- LFP battery demand is diverting phosphate from fertilizer, tightening phosphate supply
-- Latin America and South Asia adding 3-4M mt nutrient demand each through 2028
+- Population trajectory: ~10B by 2050 drives structural baseline fertilizer demand
+- [[Africa]] consumption: currently <20 kg/ha vs. 50 kg/ha African Union target
+- [[China]] export restrictions: remove most Chinese urea from global markets
+- [[Russia]]/[[Belarus]] sanctions: structural supply uncertainty in potash
+- North American gas-cost position: cheap Henry Hub gas benefits [[CF Industries|CF]], [[Koch Industries|Koch]], [[Nutrien]] vs. European producers
+- LFP battery demand: diverts phosphate from fertilizer, tightening phosphate supply
+- [[Latin America]] and [[South Asia]]: 3-4M mt incremental nutrient demand each through 2028
 
-### Bear case
+### Supply and headwind side
 
-- Nitrogen overcapacity: global urea capacity ~240M mt vs ~185M mt demand. 11.6M mt new capacity in 2025-2026
-- China re-entry risk: Beijing could resume full exports at any time (3.5-4M mt quota already approved for mid-2025)
-- Natural gas volatility cuts both ways — low gas benefits producer costs but crushes nitrogen product pricing
-- ESG pressure: agricultural N2O emissions up 40% since 1980. EU nitrogen application limits. Regulatory tightening could structurally reduce demand in developed markets
-- Precision agriculture reduces per-acre application rates (only 27% of US farms use precision ag as of 2023 — adoption is early but directionally negative for volumes)
-- Russian/Belarusian production recovery: Belarus potash +56% in 2024, Uralkali sales +28% — sanctions are leaking, removing scarcity premium
+- Nitrogen capacity balance: global urea capacity ~240M mt vs. ~185M mt demand; 11.6M mt new capacity in 2025-2026
+- China re-entry risk: 3.5-4M mt export quota approved for mid-2025; resumption can reverse tightness rapidly
+- Natural gas price sensitivity: low gas benefits producer costs but compresses product prices
+- ESG and regulatory: agricultural N2O emissions +40% since 1980; [[EU]] nitrogen application limits
+- Precision agriculture: 27% of US farms use precision ag as of 2023; adoption reduces per-acre application rates
+- Russian/Belarusian recovery: Belarus potash +56% in 2024; Uralkali sales +28%; scarcity premium compressing
 
 ---
 

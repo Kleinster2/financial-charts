@@ -118,24 +118,36 @@ aliases: []
 
 ---
 
-## Bull case
+## Bundeswehr kamikaze-drone contract (Feb–Apr 2026)
 
-- [[Europe]]'s defense spending inflection (NATO 5% by 2035)
-- Only credible European Anduril equivalent
-- Daniel Ek's full attention post-Spotify (Jan 2026)
-- Ukraine validates autonomous weapons in combat
-- Manufacturing capability (Grob + first factory)
-- Satellite expansion (Kongsberg partnership)
-- Valuation doubled in <12 months
+| Date | Event |
+|------|-------|
+| Jan 2026 | Bloomberg: Helsing + [[Stark]] expected to beat [[Rheinmetall]] for the German kamikaze-drone order |
+| Feb 2026 | Bundestag budget committee approves €269M upfront contract for Helsing (matching amount for [[Stark]]); long-term framework originally up to €1.46B for Helsing / €2.86B for Stark |
+| Feb 2026 | Parliament cuts combined long-term framework from €4.3B to €2B |
+| Apr 15, 2026 | [[Rheinmetall]] added as third supplier (€298M, [[FV-014]]) — €1B per-supplier cap imposed absent further parliament approval |
 
-## Bear case
+The drones are expected to deploy to Lithuania by 2027 with the German NATO brigade. Helsing's HX-2 is the entry in the Bundeswehr's three-supplier procurement.
 
-- Revenue likely still small vs valuation
-- European defense procurement is slow/political
-- Regulatory complexity (multiple governments)
-- Manufacturing scale unproven
-- Competition from US primes expanding into [[Europe]]
-- Private — limited visibility
+Political framing: Germany explicitly chose three suppliers for redundancy, capability diversity, and industrial-base strength — which caps Helsing's share but also shields its contract from political blowback at either [[Peter Thiel]]'s [[Stark]] stake or Rheinmetall's Apr 2026 "Legos" gaffe.
+
+---
+
+## Structural factors
+
+- [[European defense spending]] macro context: [[NATO]] 5% of GDP target by 2035
+- Category position: highest-valuation European autonomous-defense company (€12B); no directly comparable European peer
+- Leadership: [[Daniel Ek]] full-time focus on Helsing since Spotify CEO transition (Jan 2026)
+- Battlefield reference: [[Ukraine]] operational use of autonomous weapons
+- Manufacturing integration: [[Grob Aircraft]] acquisition (2025) + first dedicated factory
+- Space expansion: satellite constellation partnership with [[Kongsberg]]
+- Valuation trajectory: €4.95B (2024) → €12B (Jun 2025)
+- Revenue disclosure: public revenue figures not broken out; valuation-to-revenue ratio not verifiable from public sources
+- [[Europe]]an defense procurement: multi-government, multi-year cycles, per-program caps (see [[Bundeswehr]] three-supplier model)
+- Regulatory context: export-control and sovereignty rules across multiple customer countries
+- Manufacturing scale: CA-1 Europa production cadence and HX-2 output pace not yet publicly demonstrated at volume
+- Competitive posture: [[Anduril]], [[Shield AI]] expanding into [[Europe]]
+- Private company: no public financial disclosure beyond round announcements
 
 ---
 
@@ -152,3 +164,7 @@ aliases: []
 - [[SAAB]] — strategic investor, defense prime
 - [[Kongsberg]] — satellite constellation partner
 - [[Power constraints]] — defense tech uses significant compute
+- [[Stark]] — fellow Bundeswehr drone supplier (Thiel-backed)
+- [[Rheinmetall]] — third Bundeswehr drone supplier (legacy prime)
+- [[FV-014]] — Rheinmetall's competing drone (kamikaze)
+- [[Auterion]] — autonomy OS peer/alternative stack

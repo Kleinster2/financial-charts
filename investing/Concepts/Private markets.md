@@ -238,6 +238,8 @@ See [[Tokenized private shares]] for risks.
 - [[Private Market Access]] — retail channel dynamics (ETFs, closed-end funds, interval funds)
 - [[Tokenized private shares]] — retail derivative access
 - [[Alternative asset manager valuation]] — fee-based valuation framework
+- [[Private capital in defense tech]] — sub-hub on VC/PE/sovereign capital mobilizing into defense tech since 2022
+- [[Private capital in European defense tech]] — regional sub-sub-hub (European slice; sovereignty tensions and US-VC-led rounds)
 
 ### Platforms
 - [[Forge Global]] — secondary platform (being acquired by [[Charles Schwab]])

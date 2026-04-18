@@ -75,10 +75,15 @@ Drone business "red hot" — backlogs surging (William Blair, Jan 2026).
 
 | Company | Focus | Status |
 |---------|-------|--------|
-| [[Helsing]] | AI-powered drones (HX-2), autonomous combat vehicles | €12B, manufacturing 6,000 for Ukraine |
-| [[Exail Technologies|Exail]] | MCM drones ([[K-STER C]]), AUVs, USVs ([[DriX]]) | ~€2.2B, 59x P/E. Naval/subsea specialist |
+| [[Helsing]] | AI-powered drones (HX-2), autonomous combat vehicles | €12B, manufacturing 6,000 for Ukraine; €269M Bundeswehr contract Feb 2026 |
+| [[Stark]] | Loitering munitions (OWE-V Virtus), swarming software | $500M, $100M raised, [[Peter Thiel]]-backed; €269M Bundeswehr contract Feb 2026 |
+| [[Rheinmetall]] | Kamikaze drone ([[FV-014]]) with [[Auterion]] autonomy | Public, €298M Bundeswehr contract Apr 15 2026 |
+| [[Auterion]] | Autonomy OS for unmanned systems (open, multi-hardware) | ~€100M revenue 2025, profitable, Rheinmetall shareholder |
+| [[Exail Technologies\|Exail]] | MCM drones ([[K-STER C]]), AUVs, USVs ([[DriX]]) | ~€2.2B, 59x P/E. Naval/subsea specialist |
 | Baykar (Turkey) | Bayraktar TB2/Akinci — pioneered affordable combat drones | Private, iconic Ukraine role |
 | Dassault/[[Airbus]] | Eurodrone MALE program | Development |
+
+**Bundeswehr three-supplier model (2026):** Germany chose [[Helsing]] + [[Stark]] + [[Rheinmetall]] with ~€269–298M upfront each and a €1B per-supplier cap absent further parliament approval. Deployment planned for Lithuania 2027 with the German NATO brigade. See [[European defense spending]] for the structural implication: European procurement is optimizing for redundancy and political sustainability, versus the US single-vendor model with [[Anduril]] (up to €20B/10 yrs).
 
 ### [[China]]
 
@@ -159,7 +164,12 @@ Every drone capability creates counter-drone demand:
 - [[Collaborative Combat Aircraft]] — CCA/loyal wingman (largest US drone procurement program)
 - [[Unmanned ground vehicles]] — ground domain parallel (Ukraine proving ground)
 - [[Saronic]] — autonomous surface vessels (maritime domain)
+- [[FV-014]] — Rheinmetall kamikaze drone (Bundeswehr, Apr 2026)
+- [[Stark]] — Berlin drone startup, Thiel-backed, Bundeswehr supplier
+- [[Auterion]] — autonomy OS provider (FV-014 integration, Rheinmetall shareholder)
+- [[Armin Papperger]] — Rheinmetall CEO and April 2026 "Legos" remark
+- [[Oleksandr Kamyshin]] — Zelenskyy adviser, responded to Papperger
 
 ---
 
-*Created 2026-01-23*
+*Created 2026-01-23. Bundeswehr three-supplier model added 2026-04-17.*

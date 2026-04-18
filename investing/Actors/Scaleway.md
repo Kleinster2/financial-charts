@@ -13,7 +13,7 @@
 | Parent | Iliad Group |
 | HQ | Paris, [[France]] |
 | GPUs | 5,000+ (incl. 1,000+ H100s) |
-| Data centers | [[France]], Netherlands, Poland |
+| Data centers | [[France]], [[Netherlands]], [[Poland]] |
 
 ---
 
@@ -23,8 +23,8 @@
 |--------|-------|
 | Parent revenue | €10B (2024, +8.5% YoY) |
 | EBITDAaL | €3.9B (38.4% margin) |
-| AI investment | **€3B** (announced Feb 2025) |
-| Scaleway growth | **+37%** (2024) |
+| AI investment | €3B (announced Feb 2025) |
+| Scaleway growth | +37% (2024) |
 
 Scaleway benefits from Iliad's telecom cash flows and infrastructure.
 
@@ -39,23 +39,31 @@ Scaleway benefits from Iliad's telecom cash flows and infrastructure.
 
 ---
 
-## SemiAnalysis tier
+## [[SemiAnalysis]] tier
 
-**[[Silver]]** — alongside AWS, Lambda
+[[Silver]] — alongside [[AWS]], Lambda
 
 ---
 
 ## Market position
 
-**European sovereignty play:**
+European sovereignty play:
 - 100% carbon-neutral data centers
 - GDPR-native infrastructure
 - Alternative to US hyperscalers
 - Expanded to 52 countries
 
-**Partnerships:**
-- Play (Poland) — strategic cloud partnership
+Partnerships:
+- Play ([[Poland]]) — strategic cloud partnership
 - FreePro (+23% growth from cloud adoption)
+
+---
+
+## Apr 17, 2026 — EU sovereign-cloud contract win
+
+[[Scaleway]] was one of four providers selected by the [[EU]] Commission for a €180M sovereign-cloud tender running for six years. The winners were chosen under the Commission's Cloud Sovereignty Framework, which requires limited non-EU control over the underlying services.
+
+That matters because it moves Scaleway from being a French alternative cloud into a procurement-validated [[Sovereign cloud|sovereign-cloud]] provider for Brussels itself. In practical terms, this is one of the clearest demand-side validations yet that [[Europe]] is willing to route real public-sector workloads toward regional cloud operators instead of defaulting automatically to US hyperscalers.
 
 ---
 

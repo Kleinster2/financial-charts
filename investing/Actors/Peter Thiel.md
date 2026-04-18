@@ -37,9 +37,14 @@ aliases: []
 | [[Etched]] | [[Transformer]] ASIC bet |
 | [[Palantir]] | AI for enterprise/government |
 | [[Anduril]] | [[Defense]] AI |
+| [[Stark]] | Weaponized drones, European defense-tech (Berlin) |
 | [[xAI]] | Musk's AI venture |
 
 Backs hardware and infrastructure, not just model companies.
+
+### European defense-tech (Feb 2026 controversy)
+
+Thiel's stake in Berlin-based [[Stark]] drew political heat during the [[Bundeswehr]] kamikaze-drone approval process. Green-party defense budget specialist Sebastian Schafer demanded ownership transparency and suggested Stark replace Thiel. Stark publicly stated Thiel has "no information rights" over products or operations and that technical transfer would require German export-control approval. The episode frames a broader tension: German defense procurement increasingly leans on US-backed private capital even as [[Friedrich Merz]] signals sovereignty preferences.
 
 ---
 

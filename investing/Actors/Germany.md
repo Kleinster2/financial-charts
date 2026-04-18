@@ -90,9 +90,14 @@ See [[Schuldenbremse reform]] for full analysis.
 
 | Company | Focus |
 |---------|-------|
-| [[Rheinmetall]] | Armor, ammunition (+400% since 2022) |
+| [[Rheinmetall]] | Armor, ammunition (+400% since 2022); drone pivot via [[Auterion]] + [[FV-014]] |
 | Hensoldt | [[Sensors]], radar |
 | KNDS | Tanks (JV with [[France]]) |
+| [[Helsing]] | AI drones, autonomous combat vehicles (private, €12B) |
+| [[Stark]] | Loitering munitions, [[Peter Thiel]]-backed (private, $500M) |
+| [[Auterion]] | Autonomy OS for unmanned systems (private, profitable) |
+
+Bundeswehr three-supplier drone procurement (Feb–Apr 2026): [[Helsing]] (€269M), [[Stark]] (€269M), and [[Rheinmetall]] ([[FV-014]], €298M) share a capped kamikaze-drone program (€1B per supplier). Explicit hedge against single-vendor failure, deployment target [[Lithuania]] 2027 with the [[NATO]] brigade. Contrast: US Army single-vendor [[Anduril]] contract up to €20B/10 yrs. See [[European defense spending]] for structural implications.
 
 ### Space
 

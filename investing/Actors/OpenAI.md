@@ -24,7 +24,7 @@ tags: [actor, ai, modellab, usa, private]
 | Paid subscribers | ~35M (Plus/Pro/Team/Enterprise) |
 | Enterprise/Team/Edu users | ~9M business users |
 | Business clients | ~1.5M |
-| Consumer market share | ~75% (2025), down from 85% (2024) and 100% (2023). 64.5% by gen-AI platform count |
+| [[Consumer]] market share | ~75% (2025), down from 85% (2024) and 100% (2023). 64.5% by gen-AI platform count |
 | Total funding raised | ~$168B across 11 rounds |
 | Employees | ~4,500 (Mar 2026); targeting ~8,000 by end 2026 |
 | CEO | [[Sam Altman]] |
@@ -38,13 +38,13 @@ tags: [actor, ai, modellab, usa, private]
 
 | Function | Leader | Since | Prior | Notes |
 |----------|--------|-------|-------|-------|
-| CEO | [[Sam Altman]] | 2019 (reinstated Nov 2023) | Y Combinator | — |
+| CEO | [[Sam Altman]] | 2019 (reinstated Nov 2023) | [[Y Combinator]] | — |
 | President | [[Greg Brockman]] | 2015 | [[Stripe]] CTO | Returned from sabbatical Mar 2026 |
 | COO | Brad Lightcap | 2023 | Internal | — |
 | CEO of Applications | [[Fidji Simo]] | Aug 2024 | [[Meta]] (led Facebook app) | Rebranded role to "CEO of AGI Deployment" |
 | Chief Scientist | [[Jakub Pachocki]] | May 2024 | Internal (VP Research) | Replaced [[Ilya Sutskever]] |
 | CTO | Vacant | Sep 2024 | [[Mira Murati]] departed → [[Thinking Machines Lab]] | Unfilled for 19+ months |
-| Infrastructure | [[Sachin Katti]] | Nov 2025 | [[Intel]] CTO/AI Officer | Reorganized into 3 groups after own-DC pivot |
+| [[Infrastructure]] | [[Sachin Katti]] | Nov 2025 | [[Intel]] CTO/AI Officer | Reorganized into 3 groups after own-DC pivot |
 | Safety/Alignment | Disbanded | Feb 2026 | Joshua Achiam → "chief futurist" | Mission Alignment team eliminated |
 | Research (models) | [[Mark Chen]] | 2024 | Internal | SVP Research |
 | Board | [[Bret Taylor]] (chair), [[Larry Summers]] (resigned Nov 2025), [[Nicole Seligman]], Fidji Simo, others | — | — | Taylor installed after Nov 2023 board crisis |
@@ -55,11 +55,11 @@ The org chart is the strategy made visible. The CTO vacancy (19 months), the dis
 
 ## Synopsis
 
-OpenAI is the most heavily funded private company in history and the dominant consumer AI platform, but its financial profile looks more like a hyperscaler buildout than a software company. The $20B ARR headline masks a cost structure growing faster than revenue: inference costs alone hit $8.4B in 2025 and are projected at $14.1B for 2026, compressing gross margins to 33%. The company projects massive losses through 2028 and doesn't expect cash-flow positivity until 2029-2030. The $110B mega-round (Feb 2026) — [[Amazon]] $50B, [[SoftBank]] $30B, [[NVIDIA]] $30B — buys time but creates obligations: $100B in AWS spend over 8 years, 2 GW of Amazon Trainium compute, and an implicit IPO path (Amazon's $35B tranche terminates if no IPO/listing by Dec 2028).
+OpenAI is the most heavily funded private company in history and the dominant consumer AI platform, but its financial profile looks more like a hyperscaler buildout than a software company. The $20B ARR headline masks a cost structure growing faster than revenue: inference costs alone hit $8.4B in 2025 and are projected at $14.1B for 2026, compressing gross margins to 33%. The company projects massive losses through 2028 and doesn't expect cash-flow positivity until 2029-2030. The $110B mega-round (Feb 2026) — [[Amazon]] $50B, [[SoftBank]] $30B, [[NVIDIA]] $30B — buys time but creates obligations: $100B in [[AWS]] spend over 8 years, 2 GW of Amazon [[Trainium]] compute, and an implicit IPO path (Amazon's $35B tranche terminates if no IPO/listing by Dec 2028).
 
-The competitive picture is more nuanced than the user numbers suggest. [[Anthropic]]'s Claude is gaining enterprise share rapidly — overtaking OpenAI in enterprise preference surveys (Jul 2025) while growing from $900M to $14B ARR in the same period OpenAI went from $6B to $20B. Google Gemini replaced ChatGPT as Apple's default AI provider (Jan 2026). The talent exodus — [[Ilya Sutskever]] (SSI, $32B), [[Mira Murati]] (Thinking Machines Lab, $12B), [[John Schulman]] (Anthropic), 7+ researchers to [[Meta]]'s Superintelligence Lab — has stripped the safety and research bench. The Mission Alignment team was disbanded in Feb 2026. Elon Musk's $134B lawsuit goes to jury trial in April 2026.
+The competitive picture is more nuanced than the user numbers suggest. [[Anthropic]]'s [[Claude]] is gaining enterprise share rapidly — overtaking OpenAI in enterprise preference surveys (Jul 2025) while growing from $900M to $14B ARR in the same period OpenAI went from $6B to $20B. Google Gemini replaced ChatGPT as Apple's default AI provider (Jan 2026). The talent exodus — [[Ilya Sutskever]] (SSI, $32B), [[Mira Murati]] (Thinking Machines Lab, $12B), [[John Schulman]] (Anthropic), 7+ researchers to [[Meta]]'s [[Superintelligence]] Lab — has stripped the safety and research bench. The Mission Alignment team was disbanded in Feb 2026. Elon Musk's $134B lawsuit goes to jury trial in April 2026.
 
-The strategic bet is infrastructure + distribution: $600B in compute spend by 2030 via [[Project Stargate]] (7 GW planned capacity, $500B commitment), a Cerebras deal ($10B+ for inference diversification), and the personal agent platform play (Codex relaunch, [[Peter Steinberger]] acqui-hire). If OpenAI can convert its 900M user base into a durable platform — where agents, not just models, are the product — the current losses are a land grab. If the models commoditize faster than the platform locks in, the $840B valuation becomes the most expensive AI bet in history.
+The strategic bet is infrastructure + distribution: $600B in compute spend by 2030 via [[Project Stargate]] (7 GW planned capacity, $500B commitment), a Cerebras relationship that now appears headed above $20B for inference diversification, and the personal agent platform play (Codex relaunch, [[Peter Steinberger]] acqui-hire). If OpenAI can convert its 900M user base into a durable platform — where agents, not just models, are the product — the current losses are a land grab. If the models commoditize faster than the platform locks in, the $840B valuation becomes the most expensive AI bet in history.
 
 ---
 
@@ -71,19 +71,19 @@ The story of OpenAI is the story of a nonprofit research lab that accidentally c
 
 - 2019 (the turn): In March 2019, OpenAI created a "capped-profit" subsidiary — OpenAI LP — where investors could earn up to 100x returns, with excess flowing to the nonprofit parent. The rationale was straightforward: competing at the frontier required billions, and the nonprofit couldn't raise them. [[Microsoft]] invested $1B and became the exclusive cloud partner. GPT-2 was published in February 2019 with a staged release, OpenAI withholding the full model over misuse concerns — the last time the organization's safety instincts would lead its commercial instincts. The capped-profit structure was a compromise: enough capitalism to fund the mission, enough mission to justify the structure. It satisfied nobody fully, and it wouldn't survive contact with real money.
 
-- 2020-2022 (GPT-3 and the platform): GPT-3 launched in June 2020 with 175B parameters — 100x GPT-2 — and proved that scaling laws worked. The API opened to developers, creating the foundation for every AI startup that followed. DALL-E (Jan 2021) and DALL-E 2 (Apr 2022) demonstrated multimodal capabilities. Revenue was still negligible. Microsoft deepened its investment, eventually committing ~$13B cumulative. Meanwhile, tensions over safety and commercialization drove Dario Amodei, Daniela Amodei, and five other senior researchers to leave in early 2021, founding [[Anthropic]] — taking OpenAI's scaling playbook and safety expertise with them. This was the most consequential departure in AI history: it created OpenAI's only credible frontier competitor.
+- 2020-2022 (GPT-3 and the platform): GPT-3 launched in June 2020 with 175B parameters — 100x GPT-2 — and proved that scaling laws worked. The API opened to developers, creating the foundation for every AI startup that followed. [[DALL-E]] (Jan 2021) and [[DALL-E]] 2 (Apr 2022) demonstrated multimodal capabilities. Revenue was still negligible. Microsoft deepened its investment, eventually committing ~$13B cumulative. Meanwhile, tensions over safety and commercialization drove [[Dario Amodei]], Daniela Amodei, and five other senior researchers to leave in early 2021, founding [[Anthropic]] — taking OpenAI's scaling playbook and safety expertise with them. This was the most consequential departure in AI history: it created OpenAI's only credible frontier competitor.
 
 - 2022-2023 (ChatGPT changes everything): ChatGPT launched November 30, 2022, built on GPT-3.5. It reached 100M users in two months — the fastest consumer product adoption in history. What had been a research lab became a consumer platform overnight. GPT-4 followed in March 2023, demonstrating multimodal reasoning that approached human-level on standardized tests. Revenue jumped from near-zero to ~$2B annualized. The January 2023 Microsoft mega-round (~$10B, $29B valuation) gave OpenAI the war chest, and Microsoft embedded GPT into [[Copilot]] across Office, Azure, and Bing. The symbiosis looked perfect: Microsoft got the frontier model, OpenAI got the distribution and compute. But the relationship was already asymmetric — Microsoft was building its own AI capabilities while paying for OpenAI's.
 
-- November 2023 (the board crisis): On November 17, the OpenAI board fired Sam Altman, stating he was "not consistently candid in his communications." The board — including [[Ilya Sutskever]], who had voted for removal — offered no public explanation. Microsoft CEO [[Satya Nadella]] immediately offered Altman a role. Within 72 hours, 700+ of ~770 employees signed a letter threatening to resign and join Microsoft unless Altman was reinstated. Altman returned on November 22. The board was reconstituted with [[Bret Taylor]] as chair, adding [[Larry Summers]] and corporate governance veterans. Sutskever — who had reversed his position during the crisis — remained briefly, then departed in May 2024 to found [[SSI]] (Safe Superintelligence Inc., raised $2B at $32B valuation by March 2025). The lesson: Altman is OpenAI. The nonprofit governance structure that was supposed to prioritize safety over commerce had been stress-tested and failed — the employees chose Altman over the board, and the board folded.
+- November 2023 (the board crisis): On November 17, the OpenAI board fired Sam Altman, stating he was "not consistently candid in his communications." The board — including [[Ilya Sutskever]], who had voted for removal — offered no public explanation. Microsoft CEO [[Satya Nadella]] immediately offered Altman a role. Within 72 hours, 700+ of ~770 employees signed a letter threatening to resign and join Microsoft unless Altman was reinstated. Altman returned on November 22. The board was reconstituted with [[Bret Taylor]] as chair, adding [[Larry Summers]] and corporate governance veterans. Sutskever — who had reversed his position during the crisis — remained briefly, then departed in May 2024 to found [[SSI]] (Safe [[Superintelligence]] Inc., raised $2B at $32B valuation by March 2025). The lesson: Altman is OpenAI. The nonprofit governance structure that was supposed to prioritize safety over commerce had been stress-tested and failed — the employees chose Altman over the board, and the board folded.
 
 - 2024 (scaling the platform): Revenue surged from ~$2B to $5.5B exit-rate ARR. GPT-4o launched (May), then o1 reasoning models (September). ChatGPT hit 300M WAU by December. The October 2024 round ($6.6B at $157B valuation) brought in [[Thrive Capital]], NVIDIA, and Microsoft. Enterprise adoption accelerated: DevDay 2024 delivered GPT-4 Turbo (128K context, 3x cheaper), custom GPTs, the GPT Store, and the Assistants API. But the talent bleeding continued: [[Mira Murati]] (CTO) departed in September, founding Thinking Machines Lab ($12B valuation by Feb 2025). [[John Schulman]] (co-founder) left for [[Anthropic]]. [[Andrej Karpathy]] departed. The pattern was unmistakable: OpenAI's safety and research leaders were leaving, and the replacements were commercial operators.
 
-- 2025 (for-profit conversion and the infrastructure bet): The year of structural transformation. Revenue hockey-sticked to $20B ARR — the first $1B revenue month came in July 2025. GPT-5 launched August 7, incorporating the o-series reasoning models as "thinking mode." The March 2025 SoftBank-led round ($40B at $300B) included a clawback: SoftBank could reduce its commitment to $20B if the for-profit restructuring wasn't completed by year-end. On October 28, OpenAI converted from capped-profit to a public benefit corporation. The nonprofit became the OpenAI Foundation, retaining ~26% ownership and the right to appoint all board directors. Microsoft's stake was restructured from 49% capped-profit share to ~27% equity, with exclusivity extending through 2032. The conversion unlocked the mega-round but also exposed the mission tension: [[Larry Summers]] resigned from the board in November 2025 after House panel emails linked him to Jeffrey Epstein. The io acquisition ($6.4B, May 2025) — buying [[Jony Ive]]'s hardware startup — signaled ambitions beyond software. And OpenAI announced $600B in own compute spend by 2030, with the [[Project Stargate]] JV ($500B commitment) as the centerpiece.
+- 2025 (for-profit conversion and the infrastructure bet): The year of structural transformation. Revenue hockey-sticked to $20B ARR — the first $1B revenue month came in July 2025. GPT-5 launched August 7, incorporating the o-series reasoning models as "thinking mode." The March 2025 SoftBank-led round ($40B at $300B) included a clawback: SoftBank could reduce its commitment to $20B if the for-profit restructuring wasn't completed by year-end. On October 28, OpenAI converted from capped-profit to a public benefit corporation. The nonprofit became the OpenAI Foundation, retaining ~26% ownership and the right to appoint all board directors. Microsoft's stake was restructured from 49% capped-profit share to ~27% equity, with exclusivity extending through 2032. The conversion unlocked the mega-round but also exposed the mission tension: [[Larry Summers]] resigned from the board in November 2025 after House panel emails linked him to [[Jeffrey Epstein]]. The io acquisition ($6.4B, May 2025) — buying [[Jony Ive]]'s hardware startup — signaled ambitions beyond software. And OpenAI announced $600B in own compute spend by 2030, with the [[Project Stargate]] JV ($500B commitment) as the centerpiece.
 
-- Jan-Feb 2026 (the mega-round and its obligations): The $110B round closed February 27, 2026 — the largest private financing in history. [[Amazon]] committed $50B ($15B immediate in Series C preferred, $35B conditional on milestones including IPO/listing, terminates Dec 2028 if uninvested). [[SoftBank]] and [[NVIDIA]] each committed $30B. In exchange, OpenAI committed to $100B in AWS spending over 8 years and 2 GW of Amazon Trainium compute. NVIDIA's participation came with friction: Reuters reported (Feb 2) that OpenAI was dissatisfied with NVIDIA chips for inference workloads, targeting ~10% of inference from alternatives. The $10B+ Cerebras deal (2026-2028, 750 MW, inference-focused) formalized the diversification. GPT-5.4 launched March 5 with agentic capabilities. The Stargate Abilene expansion (1.2 GW to 2 GW) was cancelled March 6, though the core 4.5 GW Oracle contract remained intact. The Mission Alignment team was disbanded in February; its leader Joshua Achiam was moved to a "chief futurist" role. In a parallel retreat, OpenAI abandoned plans to build and own data centers (The Deep Dive, Mar 17) — lenders refused to underwrite construction costs for a company not yet profitable. The pivot to renting from Azure, AWS, and Google Cloud triggered an infrastructure leadership overhaul: Sachin Katti (ex-[[Intel]] CTO/AI Officer, joined Nov 2025) took charge of all infrastructure teams, reorganized into three groups (technical design, commercial partnerships, facility operations). Keith Heyde (Director of Physical Infrastructure) departed; Peter Hoeschele, Shamez Hemani, and Anuj Saharan — the core [[Project Stargate|Stargate]] infrastructure team — all left for the same unnamed startup (Apr 10). The UK Stargate project was paused April 9, citing energy costs and regulatory hurdles. See [[OpenAI Infrastructure Spend]] and [[OpenAI talent exodus]] for details.
+- Jan-Feb 2026 (the mega-round and its obligations): The $110B round closed February 27, 2026 — the largest private financing in history. [[Amazon]] committed $50B ($15B immediate in Series C preferred, $35B conditional on milestones including IPO/listing, terminates Dec 2028 if uninvested). [[SoftBank]] and [[NVIDIA]] each committed $30B. In exchange, OpenAI committed to $100B in [[AWS]] spending over 8 years and 2 GW of Amazon [[Trainium]] compute. NVIDIA's participation came with friction: [[Reuters]] reported (Feb 2) that OpenAI was dissatisfied with NVIDIA chips for inference workloads, targeting ~10% of inference from alternatives. The initial $10B+ Cerebras deal (2026-2028, 750 MW, inference-focused) formalized the diversification, and [[Reuters]] reported on Apr 17 that the commitment had since expanded to more than $20B over three years, with potential total spend near $30B, roughly $1B of OpenAI funding for new data centers, and warrants that could rise toward a 10% stake in Cerebras. GPT-5.4 launched March 5 with agentic capabilities. The Stargate Abilene expansion (1.2 GW to 2 GW) was cancelled March 6, though the core 4.5 GW Oracle contract remained intact. The Mission Alignment team was disbanded in February; its leader Joshua Achiam was moved to a "chief futurist" role. In a parallel retreat, OpenAI abandoned plans to build and own data centers (The Deep Dive, Mar 17) — lenders refused to underwrite construction costs for a company not yet profitable. The pivot to renting from Azure, [[AWS]], and [[Google Cloud]] triggered an infrastructure leadership overhaul: Sachin Katti (ex-[[Intel]] CTO/AI Officer, joined Nov 2025) took charge of all infrastructure teams, reorganized into three groups (technical design, commercial partnerships, facility operations). Keith Heyde (Director of Physical [[Infrastructure]]) departed; Peter Hoeschele, Shamez Hemani, and Anuj Saharan — the core [[Project Stargate|Stargate]] infrastructure team — all left for the same unnamed startup (Apr 10). The [[UK]] Stargate project was paused April 9, citing energy costs and regulatory hurdles. See [[OpenAI Infrastructure Spend]] and [[OpenAI talent exodus]] for details.
 
-- March-April 2026 (the focus pivot): [[NVIDIA]] CEO [[Jensen Huang]] said he expects his recent $40B investment across OpenAI and [[Anthropic]] to be his "last money in" — both companies will go public this year. The paradox is sharp. OpenAI has the most users (900M+), the most capital ($168B raised), and the highest valuation ($840B) of any private company ever. But it also has no CTO, no chief scientist, a disbanded safety team, co-founders scattered across competitors (Sutskever at SSI, Schulman at Anthropic), gross margins compressing, losses deepening, and a $134B Musk lawsuit heading to jury trial in April. The acquisition of [[Promptfoo]] (announced Mar 9) — an AI security testing platform used by 25%+ of the Fortune 500 — signals the enterprise agent push is serious. And now, under pressure from [[Anthropic]]'s [[Claude Code]] and [[Claude Cowork]] dominance, OpenAI is making its most significant strategic pivot since the for-profit conversion. [[Fidji Simo]] (CEO of applications, hired Aug 2024) told staff they "cannot miss this moment because we are distracted by side quests" and announced plans to merge [[ChatGPT]], [[Codex]], and Atlas browser into a desktop "superapp." [[Greg Brockman]] returned from sabbatical to help oversee the product revamp. Simo called Anthropic's success a "wake-up call." The organizational diagnosis is damning: compute resources shifting between teams at the last minute, [[Sora]] housed under research despite being a consumer product, no clear strategic direction. [[Sam Altman]]'s earlier framing of "betting on a series of startups" inside OpenAI — which launched Sora (standalone app that flatlined), Atlas browser, hardware, and e-commerce features in 2025 — is now acknowledged as the problem. [[Codex]] recovered some ground (2M+ WAU, up 4x since January) after GPT-5.4 launched, but Anthropic remains the "dominant AI provider for businesses" (WSJ). The hiring push makes the shift concrete: OpenAI plans to nearly double headcount from ~4,500 to ~8,000 by end 2026, adding ~12 employees/day, with a new SF lease bringing its footprint past 1M sq ft (FT, Mar 21). New hires are concentrated in product development, engineering, research, and sales, plus "technical ambassadorship" specialists — forward-deployed engineers embedded in business customers to help them customize AI models, an approach pioneered by [[Palantir]]. Revenue mix is shifting accordingly: OpenAI anticipates 50% of revenue from business customers by year-end, up from ~40% today. The company is also in talks with private equity firms to launch a joint venture deploying OpenAI products in PE portfolio companies — offering a guaranteed minimum 17.5% return to PE investors to ease the high upfront cost of AI deployment (All-In pod, Mar 27). Beyond enterprise, OpenAI is exploring advertising to monetize its 900M+ free users (90%+ don't pay). Both OpenAI and Anthropic are gearing up for public listings as early as this year. One OpenAI investor told FT the risk is being left "in no man's land" — with [[Google]] competing fiercely for chatbot users and Anthropic ensconced with businesses. In a separate messaging play, [[Fidji Simo]] — who rebranded her role to "CEO of AGI deployment" — acquired [[TBPN]], the daily tech talk show with ~59K YouTube subscribers and outsized influence among Silicon Valley's terminally online tech crowd (WSJ, Apr 2 2026). OpenAI claimed TBPN would maintain editorial independence but executives hope to absorb the company's messaging into the show's content. The acquisition underscores how seriously OpenAI is taking narrative control alongside the product pivot.
+- March-April 2026 (the focus pivot): [[NVIDIA]] CEO [[Jensen Huang]] said he expects his recent $40B investment across OpenAI and [[Anthropic]] to be his "last money in" — both companies will go public this year. The paradox is sharp. OpenAI has the most users (900M+), the most capital ($168B raised), and the highest valuation ($840B) of any private company ever. But it also has no CTO, no chief scientist, a disbanded safety team, co-founders scattered across competitors (Sutskever at SSI, Schulman at Anthropic), gross margins compressing, losses deepening, and a $134B Musk lawsuit heading to jury trial in April. The acquisition of [[Promptfoo]] (announced Mar 9) — an AI security testing platform used by 25%+ of the Fortune 500 — signals the enterprise agent push is serious. And now, under pressure from [[Anthropic]]'s [[Claude Code]] and [[Claude Cowork]] dominance, OpenAI is making its most significant strategic pivot since the for-profit conversion. [[Fidji Simo]] (CEO of applications, hired Aug 2024) told staff they "cannot miss this moment because we are distracted by side quests" and announced plans to merge [[ChatGPT]], [[Codex]], and Atlas browser into a desktop "superapp." [[Greg Brockman]] returned from sabbatical to help oversee the product revamp. Simo called Anthropic's success a "wake-up call." The organizational diagnosis is damning: compute resources shifting between teams at the last minute, [[Sora]] housed under research despite being a consumer product, no clear strategic direction. [[Sam Altman]]'s earlier framing of "betting on a series of startups" inside OpenAI — which launched Sora (standalone app that flatlined), Atlas browser, hardware, and e-commerce features in 2025 — is now acknowledged as the problem. [[Codex]] recovered some ground (2M+ WAU, up 4x since January) after GPT-5.4 launched, but Anthropic remains the "dominant AI provider for businesses" (WSJ). The hiring push makes the shift concrete: OpenAI plans to nearly double headcount from ~4,500 to ~8,000 by end 2026, adding ~12 employees/day, with a new SF lease bringing its footprint past 1M sq ft (FT, Mar 21). New hires are concentrated in product development, engineering, research, and sales, plus "technical ambassadorship" specialists — forward-deployed engineers embedded in business customers to help them customize AI models, an approach pioneered by [[Palantir]]. Revenue mix is shifting accordingly: OpenAI anticipates 50% of revenue from business customers by year-end, up from ~40% today. The company is also in talks with private equity firms to launch a joint venture deploying OpenAI products in PE portfolio companies — offering a guaranteed minimum 17.5% return to PE investors to ease the high upfront cost of AI deployment (All-In pod, Mar 27). Beyond enterprise, OpenAI is exploring advertising to monetize its 900M+ free users (90%+ don't pay). Both OpenAI and Anthropic are gearing up for public listings as early as this year. One OpenAI investor told FT the risk is being left "in no man's land" — with [[Google]] competing fiercely for chatbot users and Anthropic ensconced with businesses. In a separate messaging play, [[Fidji Simo]] — who rebranded her role to "CEO of AGI deployment" — acquired [[TBPN]], the daily tech talk show with ~59K [[YouTube]] subscribers and outsized influence among Silicon Valley's terminally online tech crowd (WSJ, Apr 2 2026). OpenAI claimed TBPN would maintain editorial independence but executives hope to absorb the company's messaging into the show's content. The acquisition underscores how seriously OpenAI is taking narrative control alongside the product pivot.
 
 The bet is that scale — user scale, compute scale, capital scale — creates a moat before the models commoditize. The risk is that OpenAI's year of distraction gave Anthropic an enterprise lead that a superapp consolidation can't close.
 
@@ -103,7 +103,7 @@ The bet is that scale — user scale, compute scale, capital scale — creates a
 | [[GPT-4.5]] | Feb 2025 | Research preview, deprecated Jul 2025 |
 | [[GPT\|GPT-4o]] | May 2024 | Omni — native voice/vision. Retired Feb 2026 |
 
-### Consumer and enterprise
+### [[Consumer]] and enterprise
 
 - [[ChatGPT]] — consumer/enterprise interface (Free/$8 Go/$20 Plus/$200 Pro/Team/Enterprise/Edu)
 - [[Codex]] — coding agent (GPT-5.2-Codex), MacOS app launched Feb 2026, repo-scale reasoning. 2M+ WAU (Mar 2026, up 4x since Jan). Centerpiece of "superapp" strategy
@@ -111,12 +111,12 @@ The bet is that scale — user scale, compute scale, capital scale — creates a
 - Atlas — web browser (being merged into "superapp")
 - Deep Research — o3-powered comprehensive web research agent (launched Feb 2, 2025)
 - Whisper — speech-to-text
-- AgentKit — SDK for building/deploying AI agents (announced Oct 2025 Dev Day)
+- [[AgentKit]] — SDK for building/deploying [[AI agents]] (announced Oct 2025 Dev Day)
 - Realtime API — low-latency bidirectional audio streaming (GA)
 
 ### Hardware
 
-- Acquired [[Jony Ive]]'s startup "io" for $6.4B (May 2025). First hardware prototypes completed Nov 2025: pocket-sized, screenless, audio-based device with cameras/microphones. Target launch late 2026 or early 2027.
+- [[Acquired]] [[Jony Ive]]'s startup "io" for $6.4B (May 2025). First hardware prototypes completed Nov 2025: pocket-sized, screenless, audio-based device with cameras/microphones. [[Target]] launch late 2026 or early 2027.
 
 ---
 
@@ -140,7 +140,7 @@ The bet is that scale — user scale, compute scale, capital scale — creates a
 
 ### Revenue recognition vs [[Anthropic]]
 
-[[Chamath Palihapitiya]] (8090 Capital, Mar 27 2026) on why headline revenue comparisons are misleading: OpenAI is ~75% consumer subscriptions, ~25% API; [[Anthropic]] is nearly the inverse. OpenAI uses conservative consumer-subscription rev rec; Anthropic recognizes "gross tonnage" as revenue. When OpenAI's $20B ARR is compared to Anthropic's reported run rate, they are *"two totally different conversations"* — normalizing would show OpenAI still the larger revenue generator, with Anthropic catching up. Both will need clean, GAAP-normalized disclosures for their IPOs.
+[[Chamath Palihapitiya]] (8090 Capital, Mar 27 2026) on why headline revenue comparisons are misleading: OpenAI is ~75% consumer subscriptions, ~25% API; [[Anthropic]] is nearly the inverse. OpenAI uses conservative consumer-subscription rev rec; Anthropic recognizes "gross tonnage" as revenue. When OpenAI's $20B ARR is compared to Anthropic's reported run rate, they are *"two totally different conversations"* — normalizing would show OpenAI still the larger revenue generator, with Anthropic catching up. Both will need clean, [[GAAP]]-normalized disclosures for their IPOs.
 
 ### Cost structure
 
@@ -165,14 +165,14 @@ Profitability timeline: massive losses projected through 2028, cash-flow positiv
 | Late 2023 | Secondary | — | ~$80B | Employee stock |
 | Oct 2024 | Series | $6.6B | $157B | [[Microsoft]], [[NVIDIA]], [[Thrive Capital]] |
 | Mar 2025 | SoftBank-led | $40B | $300B post | [[SoftBank]] ($30B), Microsoft, [[Coatue]], [[Altimeter]], Thrive, [[Founders Fund]], Magnetar |
-| Oct 2025 | Employee secondary | ~$6.6B | $500B | SoftBank, Thrive, [[Dragoneer]], [[MGX]], T. Rowe Price |
+| Oct 2025 | Employee secondary | ~$6.6B | $500B | SoftBank, Thrive, [[Dragoneer]], [[MGX]], [[T. Rowe Price]] |
 | Feb 27, 2026 | Mega-round | $122B | ~$852B post | [[Amazon]] ($50B), [[SoftBank]] ($30B), [[NVIDIA]] ($30B), plus tech giants, VCs, retail |
 
 Total raised: ~$180B+ across 11 rounds.
 
 ### Amazon $50B structure
 
-$15B in Series C preferred stock (due Mar 31, 2026). Remaining $35B conditional on milestones including IPO or direct listing — terminates if not invested by Dec 31, 2028. OpenAI committed to $100B AWS spend over 8 years and 2 GW of [[Amazon]] Trainium compute. AWS becomes exclusive cloud distributor for Frontier enterprise platform (alongside Azure for APIs).
+$15B in Series C preferred stock (due Mar 31, 2026). Remaining $35B conditional on milestones including IPO or direct listing — terminates if not invested by Dec 31, 2028. OpenAI committed to $100B [[AWS]] spend over 8 years and 2 GW of [[Amazon]] [[Trainium]] compute. [[AWS]] becomes exclusive cloud distributor for Frontier enterprise platform (alongside Azure for APIs).
 
 ### SoftBank clawback
 
@@ -222,7 +222,7 @@ Alignment research is viewed as "a core part of research" rather than a separate
 
 ### Board (post-restructuring)
 
-[[Bret Taylor]] (chair), [[Adam D'Angelo]], Dr. Sue Desmond-Hellmann (fmr CEO Gates Foundation), Dr. Zico Kolter, Gen. Paul Nakasone (ret., fmr NSA/CYBERCOM), Adebayo Ogunlesi, Nicole Seligman (fmr EVP/GC Sony), [[Sam Altman]]. [[Larry Summers]] resigned Nov 2025 after House panel Jeffrey Epstein emails.
+[[Bret Taylor]] (chair), [[Adam D'Angelo]], Dr. Sue Desmond-Hellmann (fmr CEO Gates Foundation), Dr. Zico Kolter, Gen. Paul Nakasone (ret., fmr NSA/CYBERCOM), Adebayo Ogunlesi, Nicole Seligman (fmr EVP/GC [[Sony]]), [[Sam Altman]]. [[Larry Summers]] resigned Nov 2025 after House panel [[Jeffrey Epstein]] emails.
 
 ### Key departures
 
@@ -233,14 +233,14 @@ Alignment research is viewed as "a core part of research" rather than a separate
 | [[John Schulman]] | Aug 2024 | [[Anthropic]] | — |
 | [[Jan Leike]] | May 2024 | [[Anthropic]] | — |
 | [[Andrej Karpathy]] | 2024 | Independent (education) | — |
-| [[Caitlin Kalinowski]] | Mar 2026 | — (resigned over Pentagon deal) | — |
-| 7+ researchers | Summer 2025 | [[Meta]] Superintelligence Lab | — |
+| [[Caitlin Kalinowski]] | Mar 2026 | — (resigned over [[Pentagon]] deal) | — |
+| 7+ researchers | Summer 2025 | [[Meta]] [[Superintelligence]] Lab | — |
 
 Jan Leike on departure: "Safety has taken a backseat to shiny products." Mission Alignment team disbanded Feb 2026; leader Joshua Achiam moved to "chief futurist" role.
 
 ---
 
-## Infrastructure
+## [[Infrastructure]]
 
 ### [[Project Stargate]]
 
@@ -253,16 +253,16 @@ $500B JV with [[SoftBank]] (40% ownership, financial lead), OpenAI (40%, operati
 | Dona Ana County, NM | Planned | Announced Sep 2025 |
 | Lordstown, OH | Under construction | Expected operational 2026 |
 | Milam County, TX | Planned | Announced Sep 2025 |
-| Stargate UAE | 1 GW (200MW by YE2026) | Partnership with [[G42]], Oracle, SoftBank, NVIDIA |
-| Norway | 230 MW | Hydropower |
-| Argentina | 500 MW by 2027 | $25B, Patagonia |
+| Stargate [[UAE]] | 1 GW (200MW by YE2026) | Partnership with [[G42]], Oracle, SoftBank, NVIDIA |
+| [[Norway]] | 230 MW | Hydropower |
+| [[Argentina]] | 500 MW by 2027 | $25B, [[Patagonia]] |
 
 Oracle partnership alone: $300B over 5 years for 4.5 GW capacity.
 
 ### Compute diversification
 
-- [[Cerebras]] deal: $10B+, 2026-2028, 750 MW, inference-focused. 15x faster responses than GPU-based for specific workloads. Altman was early Cerebras investor.
-- NVIDIA friction: Reuters (Feb 2, 2026) reported OpenAI dissatisfied with NVIDIA chips for inference. Target: ~10% of inference from alternatives. Affected products: Codex, agent-to-agent communication.
+- [[Cerebras]] deal: initially $10B+, 2026-2028, 750 MW, inference-focused. [[Reuters]] reported Apr 17 that commitments have grown to >$20B over three years, could reach ~$30B total, and may include ~$1B of OpenAI funding for new data centers plus warrants toward a 10% stake. Altman was an early Cerebras investor.
+- NVIDIA friction: [[Reuters]] (Feb 2, 2026) reported OpenAI dissatisfied with NVIDIA chips for inference. [[Target]]: ~10% of inference from alternatives. Affected products: Codex, agent-to-agent communication.
 - OpenAI's own compute spend target: ~$600B by 2030 (revised from $1.4T total partner commitments).
 
 ---
@@ -271,13 +271,13 @@ Oracle partnership alone: $300B over 5 years for 4.5 GW capacity.
 
 | Company | Est. ARR (early 2026) | Funding | Key differentiator |
 |---------|----------------------|---------|-------------------|
-| OpenAI | ~$25B (latest known) | ~$180B+ | Consumer scale, distribution, brand |
+| OpenAI | ~$25B (latest known) | ~$180B+ | [[Consumer]] scale, distribution, brand |
 | [[Anthropic]] | ~$30B (Apr 2026) | ~$57B | Enterprise trust, safety-first, capital efficiency |
 | [[Google]] DeepMind | Not reported separately | Google internal | Workspace/Cloud distribution, Gemini |
 | [[xAI]] | Not reported | ~$12B | Speed, real-time search, X distribution |
-| [[Meta]] AI | Not reported | Internal | Open-source Llama, Superintelligence Lab |
+| [[Meta]] AI | Not reported | Internal | Open-source [[Llama]], [[Superintelligence]] Lab |
 
-[[NEA]]'s Mustapa Neimucha (The Information, Apr 7 2026) identified four areas where OpenAI retains advantages over [[Anthropic]]: (1) ads (~$100M ARR, intent-based, benefiting from [[Gemini]] not monetizing); (2) device strategy (Apple ecosystem opportunity); (3) custom chips (working with [[Broadcom]]); (4) consumer brand (ChatGPT as the generic term outside tech/finance). On brand, Neimucha acknowledged Anthropic may have the edge among the informed ("Anthropic is a bit of a better brand right now") but OpenAI dominates mass consumer awareness — citing [[Sam Altman]]'s Super Bowl claim that "more people in Texas use ChatGPT than people in the world use Claude."
+[[NEA]]'s Mustapa Neimucha (The Information, Apr 7 2026) identified four areas where OpenAI retains advantages over [[Anthropic]]: (1) ads (~$100M ARR, intent-based, benefiting from [[Gemini]] not monetizing); (2) device strategy (Apple ecosystem opportunity); (3) custom chips (working with [[Broadcom]]); (4) consumer brand (ChatGPT as the generic term outside tech/finance). On brand, Neimucha acknowledged Anthropic may have the edge among the informed ("Anthropic is a bit of a better brand right now") but OpenAI dominates mass consumer awareness — citing [[Sam Altman]]'s Super Bowl claim that "more people in [[Texas]] use ChatGPT than people in the world use [[Claude]]."
 
 Enterprise market share (Ramp data, Mar 2026): New corporate AI clients are choosing [[Anthropic]] at 3x the rate of OpenAI — a complete reversal from a year ago (FT, Mar 21 2026). Among companies paying for AI models, Anthropic holds ~30% share vs OpenAI ~25% and [[Google]] ~10% ([[Ramp]] AI Index, Feb 2026). OpenAI's spokesman called the [[Ramp]] methodology "insane" — "Large enterprise clients do not pay for multimillion dollar contracts with a credit card." Anthropic overtook OpenAI in enterprise preference surveys (Jul 2025, TechCrunch).
 
@@ -289,7 +289,7 @@ Enterprise market share (Ramp data, Mar 2026): New corporate AI clients are choo
 
 ### Apple relationship weakening
 
-ChatGPT was integrated into Siri/iOS in 2024-2025 (no cash exchanged — Apple viewed distribution as compensation). In January 2026, [[Apple]] announced [[Google]] Gemini will power Apple Intelligence and new Siri, displacing ChatGPT as the default.
+ChatGPT was integrated into [[Siri]]/iOS in 2024-2025 (no cash exchanged — Apple viewed distribution as compensation). In January 2026, [[Apple]] announced [[Google]] Gemini will power Apple Intelligence and new [[Siri]], displacing ChatGPT as the default.
 
 ---
 
@@ -300,14 +300,14 @@ ChatGPT was integrated into Siri/iOS in 2024-2025 (no cash exchanged — Apple v
 - Inference costs growing faster than revenue (quadrupled in 2025)
 - Gross margin compression: 40% to 33%
 - No profitability until 2029-2030 at earliest
-- $100B AWS spend commitment over 8 years
+- $100B [[AWS]] spend commitment over 8 years
 
 ### Competitive
 - [[Anthropic]] gaining enterprise share with 14x less cash burn
 - [[Google]] Gemini displacing ChatGPT in Apple ecosystem
 - [[Meta]] poaching research talent aggressively
 - Model capability convergence reducing differentiation
-- Claude Code at $2.5B ARR vs OpenAI's Codex playing catch-up
+- [[Claude]] Code at $2.5B ARR vs OpenAI's Codex playing catch-up
 
 ### Legal
 - [[Elon Musk]] lawsuit: $134B damages claim, jury trial April 2026 (Oakland). Judge denied preliminary injunction but case proceeds.
@@ -325,26 +325,26 @@ ChatGPT was integrated into Siri/iOS in 2024-2025 (no cash exchanged — Apple v
 
 ## Apr 2026 — secondary market + IPO pressure
 
-*Data from All-In Podcast Episode 222, April 3, 2026; Bloomberg, April 6, 2026*
+*Data from [[All-In Podcast]] Episode 222, April 3, 2026; [[Bloomberg]], April 6, 2026*
 
-~6 institutional investors (hedge funds, VCs holding large stakes) approached Next Round Capital in recent weeks looking to sell ~$600M in OpenAI shares. Next Round Capital founder Ken Smythe ($2.5B in total transactions handled): *"We literally couldn't find anyone in our pool of hundreds of institutional investors to take these shares."* Bids coming in at ~$765B — 10% discount from $850B. Last year, these shares would have been "snatched up within days."
+~6 institutional investors (hedge funds, VCs holding large stakes) approached [[Next Round Capital]] in recent weeks looking to sell ~$600M in OpenAI shares. [[Next Round Capital]] founder Ken Smythe ($2.5B in total transactions handled): *"We literally couldn't find anyone in our pool of hundreds of institutional investors to take these shares."* Bids coming in at ~$765B — 10% discount from $850B. Last year, these shares would have been "snatched up within days."
 
 [[Morgan Stanley]] and [[Goldman Sachs]] offering OpenAI shares to wealth management clients with zero carry fees — through authorized channels OpenAI established to counter high-fee broker model. By contrast, Goldman charges usual carry (~15-20% of profits) for [[Anthropic]] shares. Zero-carry for OpenAI vs premium-carry for Anthropic signals where bank demand sits.
 
 Finalized largest-ever private fundraising ($122B, Apr 1) — $122B from tech giants, VCs, and retail investors. But primary fundraising and secondary sales don't follow the same playbook: existing investors often buy into new rounds to maintain stakes (to avoid founder friction), then sell exposure on the secondary market.
 
 ![[openai-vs-anthropic-valuation-apr2026.png]]
-*OpenAI vs Anthropic valuation history. OpenAI at $852B is currently more than double Anthropic's $380B. Source: PitchBook, Bloomberg*
+*OpenAI vs Anthropic valuation history. OpenAI at $852B is currently more than double Anthropic's $380B. Source: [[PitchBook]], [[Bloomberg]]*
 
-Simultaneously, secondary marketplaces (Augment, Hiive, Next Round Capital) are seeing record demand for [[Anthropic]] shares. Buyers have $2B ready to deploy. Hiive registered >$1.6B in demand at a premium. Bids value Anthropic at ~$600B — 58% above its $380B Series G. Augment co-founder Adam Crawley: *"It's just better risk-reward right now. People are betting that Anthropic's valuation will catch up with OpenAI's."* Hiive co-founder Prab Rattan: *"The demand is one of the highest we've ever seen — it's essentially unlimited interest."* The gap between OpenAI's inability to find buyers and Anthropic's excess demand is the clearest secondary-market signal of competitive momentum shift.
+Simultaneously, secondary marketplaces (Augment, [[Hiive]], [[Next Round Capital]]) are seeing record demand for [[Anthropic]] shares. Buyers have $2B ready to deploy. [[Hiive]] registered >$1.6B in demand at a premium. Bids value Anthropic at ~$600B — 58% above its $380B Series G. Augment co-founder Adam Crawley: *"It's just better risk-reward right now. People are betting that Anthropic's valuation will catch up with OpenAI's."* [[Hiive]] co-founder Prab Rattan: *"The demand is one of the highest we've ever seen — it's essentially unlimited interest."* The gap between OpenAI's inability to find buyers and Anthropic's excess demand is the clearest secondary-market signal of competitive momentum shift.
 
-Some investors grown cautious over OpenAI's soaring operating costs — committed to spend far more than Anthropic on infrastructure. While OpenAI touts its consumer base, it's moving slowly on capturing enterprise clients. Anthropic has dominated the higher-margin enterprise market, and its growth trajectory appears stronger (Bloomberg, Apr 6).
+Some investors grown cautious over OpenAI's soaring operating costs — committed to spend far more than Anthropic on infrastructure. While OpenAI touts its consumer base, it's moving slowly on capturing enterprise clients. Anthropic has dominated the higher-margin enterprise market, and its growth trajectory appears stronger ([[Bloomberg]], Apr 6).
 
-**Scale paradox:** [[Chamath Palihapitiya|Chamath]]: "I've never seen a business like this... these are trillion dollar companies" in terms of revenue potential and market impact. However, capital absorption remains the primary constraint — the amount of money required to stay competitive is growing faster than the ability to deploy it efficiently.
+Scale paradox: [[Chamath Palihapitiya|Chamath]]: "I've never seen a business like this... these are trillion dollar companies" in terms of revenue potential and market impact. However, capital absorption remains the primary constraint — the amount of money required to stay competitive is growing faster than the ability to deploy it efficiently.
 
-**Tech sector P/E convergence thesis:** Chamath prediction: after mega-IPOs from SpaceX, OpenAI, and [[Anthropic]], the entire tech sector's price-to-earnings multiples will converge DOWN toward non-tech sector P/E ratios. Reasoning: these AI companies' capabilities will erode existing tech companies' competitive moats. "It's going to be nasty" for incumbent tech valuations.
+Tech sector P/E convergence thesis: Chamath prediction: after mega-IPOs from [[SpaceX]], OpenAI, and [[Anthropic]], the entire tech sector's price-to-earnings multiples will converge DOWN toward non-tech sector P/E ratios. Reasoning: these AI companies' capabilities will erode existing tech companies' competitive moats. "It's going to be nasty" for incumbent tech valuations.
 
-**TBPN acquisition context:** The [[TBPN]] deal (already covered above) represents OpenAI's recognition that narrative control is as important as product leadership in the competitive landscape.
+TBPN acquisition context: The [[TBPN]] deal (already covered above) represents OpenAI's recognition that narrative control is as important as product leadership in the competitive landscape.
 
 ---
 
@@ -366,7 +366,7 @@ Some investors grown cautious over OpenAI's soaring operating costs — committe
 - [[Chain-of-thought monitoring]] — alignment technique (cross-lab, Pachocki-driven)
 - [[FrontierMath]] — research-level math benchmark
 - [[Microsoft]] — 27% owner, cloud partner, 20% revenue share through 2032
-- [[Amazon]] — $50B investor, AWS commitment
+- [[Amazon]] — $50B investor, [[AWS]] commitment
 - [[SoftBank]] — $30B+ investor, Stargate co-owner
 - [[NVIDIA]] — $30B investor, compute supplier (with tensions)
 - [[Cerebras]] — alternative inference compute

@@ -340,6 +340,39 @@ Perera defines three conditions that would invalidate the structural disruption 
 
 FAO FPI baseline: Feb 2026 at 125.3 points (down 21.8% from March 2022 peak). The March release on April 3 is the next trigger date — watch for 15%+ YoY increase as confirmation signal.
 
+---
+
+## April 17, 2026 — Hormuz reopening (kill-switch condition #1 in play)
+
+Iranian FM [[Abbas Araghchi]] declared the [[Strait of Hormuz]] "completely open" for all commercial vessels for the duration of the Israel-Lebanon ceasefire (see [[2026 Strait of Hormuz crisis]] § Phase 6). Equity reaction:
+
+| Beneficiary | Move (Apr 16 → Apr 17) | YTD context |
+|-------------|------------------------|-------------|
+| [[CF Industries]] | -9.6% to $112.68 | Was +63% YTD on urea ~$700/mt + Nitrogen Trap thesis |
+| [[Dow]] | -10.8% to $35.60 | Was +44% YTD on [[Ethane]] advantage + petchem thesis |
+| [[LyondellBasell]] | -12.0% to $66.27 | Was +48% YTD on [[Ethane]] advantage + petchem thesis |
+
+The reopening directly tests Perera's first kill-switch condition (>15 vessels weekly for two consecutive weeks). The headline announcement is the necessary precondition; sustained physical throughput is the actual test. Watch:
+
+- **Tanker AIS data over the next 14 days** — the kill-switch requires sustained throughput, not a single-day reopening signal. P&I clubs and war-risk insurers haven't yet repriced; vessels remain wary of a re-blockade given the 10-day truce window.
+- **NOLA urea spot** — the kill-switch threshold is sustained <$550/st. Pre-reopening spot was ~$673-683/st. Direction matters more than instantaneous level.
+- **FAO Food Price Index — May release** — kill-switch requires flat/declining YoY. The current trajectory was set during peak crisis; lag means confirmation may not appear for 2-3 monthly releases.
+
+**What unwinds vs what persists:**
+
+The reopening compresses the *cyclical* portion of the premium — the direct chokepoint risk that drove urea spot from $475 to $673-700 between Feb 28 and mid-March. This is the part the equity tape is now pricing out.
+
+What does NOT unwind (and is independent of Hormuz status):
+- The structural absence of any Strategic Fertilizer Reserve anywhere in the world. The crisis exposed the dependency; no reserve has been built. The vulnerability persists to the next chokepoint event.
+- [[Qatar]] LNG/urea facility damage from the March 18 [[Ras Laffan]] strike — multi-year repair timeline (3-5 years per All-In E222), so [[QAFCO]] capacity does not return on the reopening signal.
+- The 14 transmission channels documented above (sulfur → phosphate → copper → nickel; petchem → packaging; petchem → pharmaceuticals; sovereign debt; etc.) — these have begun cascading and the second-order effects don't reverse instantaneously with the upstream catalyst.
+- Biological clock damage: US Corn Belt nitrogen-application window (mid-April to late May) has begun running. Whatever fertilizer farmers locked in, didn't lock in, or substituted away from with the soybean acreage shift is now embedded in the planting decisions of this growing season.
+- China's full fertilizer export halt (Mar 16) — independent of Hormuz; remains in effect.
+
+**The interpretation:** Apr 17 is a test of which portion of the YTD CF/LYB/DOW gain was geopolitical-premium vs. structural-thesis. The first leg of selling (Apr 8 ceasefire) and the second (Apr 17 reopening) together indicate the market's revealed split. If kill-switch conditions confirm over the next 4-6 weeks, the cyclical premium fully unwinds and the equity reverts toward pre-war fundamentals. If physical normalization disappoints (re-blockade, insurance failure to return, [[Bab al-Mandeb]] secondary front opens), the kill-switch fails to trigger and the premium re-accumulates. The structural [[Nitrogen Trap]] dependencies remain regardless of the cyclical outcome.
+
+See also [[Hormuz Permanent Risk Premium]] for the parallel argument applied to oil — same logical structure: cyclical war premium unwinds, structural Hormuz premium persists.
+
 ### Perera's positioning framework
 
 | Timeline | Position | Sizing |

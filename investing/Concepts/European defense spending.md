@@ -109,6 +109,8 @@ NATO discovered it had ~2 weeks of ammunition for a conventional war.
 | **[[EU]] [[EDF]] 2026** | **€1B** for defense R&D | 2026 budget |
 | [[Helsing]] valuation | **€12B** — Europe's most valuable defense startup | Jun 2025 |
 | Germany Uranos KI | AI targeting system, deploy 2026 | Jan 2026 |
+| Bundeswehr three-supplier drone procurement | €269M ([[Helsing]]) + €269M ([[Stark]]) + €298M ([[Rheinmetall]]/[[FV-014]]) — €1B cap per supplier without further parliament approval | Feb–Apr 2026 |
+| US contrast | [[Anduril]] US Army contract up to €20B over 10 years — per-supplier cap ~20× the German ceiling | 2025–2026 |
 
 **Kubilius estimate ([[EU]] defense commissioner):** [[EU]] would need **[[3M]] drones/year** just to hold Lithuania in wider [[Russia]] war. Current capacity is a fraction of this.
 
@@ -169,6 +171,27 @@ NATO discovered it had ~2 weeks of ammunition for a conventional war.
 
 ---
 
+## Bundeswehr three-supplier drone model (2026)
+
+The first visible test of Germany's procurement philosophy under the Schuldenbremse-reform era: instead of picking a winner, Berlin contracted three kamikaze-drone suppliers in parallel with parallel development, field trials, and iterative improvement. Rationale per the defense ministry: redundancy against single-vendor failure, diversity of capability, and industrial-base depth.
+
+| Supplier | Upfront | Product | Positioning |
+|---|---|---|---|
+| [[Helsing]] | €269M (Feb 2026) | HX-2 | AI-native startup, €12B valuation, Ek-backed |
+| [[Stark]] | €269M (Feb 2026) | OWE-V Virtus | Purpose-built weapons startup, [[Peter Thiel]]-backed |
+| [[Rheinmetall]] | €298M (Apr 2026) | [[FV-014]] | Legacy prime, [[Auterion]] software inside |
+| Cap per supplier | €1B | — | Without further parliament approval |
+
+The model contrasts sharply with the US: the Army's [[Anduril]] contract announced in early 2026 is worth up to €20B over 10 years — a single-vendor, single-program commitment roughly 20× the German per-supplier cap. European procurement is optimizing for redundancy and political sustainability; US procurement is optimizing for scale.
+
+**Second-order implications for investing:**
+- [[Rheinmetall]]'s drone upside is bounded at ~€1B through the program horizon — material but not company-transforming at ~€55B market cap.
+- [[Helsing]] and [[Stark]] have their German domestic market capped, pushing growth to come from non-German NATO sales and Ukraine partnerships.
+- [[Auterion]] benefits across the whole program via the Rheinmetall shareholding — software layer is the most procurement-diversified bet.
+- The three-supplier model plus the €1B cap is exactly what a [[Schuldenbremse reform]] opponent would design to limit the political exposure of any one contract.
+
+---
+
 ## Related
 
 - [[Rheinmetall]] — German defense champion
@@ -182,13 +205,18 @@ NATO discovered it had ~2 weeks of ammunition for a conventional war.
 - [[NATO]] — alliance context
 - [[Ukraine]] — demand driver
 - [[Helsing]] — Europe's top defense startup (€12B, AI + drones + autonomous vehicles)
+- [[Stark]] — fellow Bundeswehr drone supplier (Thiel-backed)
+- [[FV-014]] — Rheinmetall's kamikaze drone (Apr 2026 Bundeswehr award)
+- [[Auterion]] — autonomy OS inside FV-014, Rheinmetall shareholder
+- [[Armin Papperger]] — Rheinmetall CEO, April 2026 Ukraine "Legos" controversy
 - [[Section 232 semiconductor tariff]] — AI chip access for defense applications (exempted)
 - [[FCAS]] — $115B Franco-German 6th-gen fighter in jeopardy
 - [[Global Combat Air Programme]] — competing UK-Italy-Japan program
 - [[Dassault Aviation]] — FCAS technology sharing friction with Airbus
 - [[Leonardo]] — Italian defense champion, potential Rheinmetall/Airbus partner
 - [[Adam Tooze]] — structural imbalance analysis (Feb 2026)
+- [[Private capital in European defense tech]] — capital-flow story behind Helsing, Stark, Auterion
 
 ---
 
-*Updated 2026-02-27*
+*Updated 2026-02-27. Bundeswehr three-supplier drone model added 2026-04-17.*

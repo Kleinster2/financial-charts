@@ -332,6 +332,8 @@ Anduril simultaneously raising $4B from [[Thrive Capital]] and [[Andreessen Horo
 - [[Skydio]] — competitor (drone maker)
 - [[Shield AI]] — competitor (autonomous defense)
 - [[Helsing]] — competitor (European defense AI, $13.2B)
+- [[Stark]] — competitor (Berlin drone startup, Thiel-backed, $500M)
+- [[Auterion]] — open-stack autonomy OS (contrast with closed Lattice OS)
 - [[Lockheed Martin]] — competitor (legacy defense); lost CCA bid to Anduril
 - [[Boeing]] — competitor (lost CCA bid)
 - [[Northrop Grumman]] — competitor (lost CCA bid)

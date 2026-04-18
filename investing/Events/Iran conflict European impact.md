@@ -257,6 +257,33 @@ European Commission asking member states to "consider coming cutting back on oil
 
 ---
 
+## EU jet-fuel diversification push (April 17)
+
+*Source: Reuters, Julia Payne and Joanna Plucinska, Apr 17, 2026.*
+
+Brussels is now explicitly treating jet fuel as the most immediate European second-leg vulnerability from the [[Strait of Hormuz]] shock. Reuters reported the [[EU]] will publish non-binding guidance urging member states and airlines to reduce dependence on Middle Eastern jet fuel and examine higher imports from the [[United States]] and [[Nigeria]].
+
+Key facts:
+
+| Metric | Value |
+|--------|-------|
+| Europe jet-fuel import dependence | ~30-40% of consumption |
+| Share of those imports from Middle East | At least half |
+| Earliest airline disruption warning | End of May (per IATA's Willie Walsh) |
+| Policy horizon | Commission response package expected the following week |
+
+The measures under discussion are broader than emergency buying:
+
+- Greater emphasis on [[Sustainable Aviation Fuel]] and synthetic fuels as resilience tools, not only emissions tools
+- Guidance on increasing imports of US Jet-A despite the freezing-point mismatch with Jet-A1 logistics in Europe
+- Possible coordinated release of jet-fuel stocks if supply snarls persist
+- EU-wide mapping of refining capacity and a push to keep existing refining capacity fully utilized
+- Clarification of how airport-slot rules, cancellation compensation, and the EU anti-tankering rule apply during a fuel shortage
+
+The market readthrough is important. Europe is not acting as if "Hormuz reopened" solves the problem. It is acting as if the physical refined-product shortfall, especially in aviation fuel, can outlast the diplomatic headline by weeks or months. That is consistent with Reuters' parallel calculation that Gulf jet-fuel exports collapsed from 19.6M barrels in February to just 4.1M barrels across March and April-to-date.
+
+---
+
 ## EU fiscal response — "third crisis in six years" (April 6)
 
 *Source: FT, Sam Fleming and Henry Foy, "EU officials urge caution on energy subsidies amid Iran war crisis," April 6, 2026*

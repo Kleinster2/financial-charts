@@ -91,6 +91,29 @@ See [[European defense spending]], [[Germany]].
 | **US market** | American Rheinmetall Vehicles |
 | **Consolidation** | Acquiring smaller players |
 | **Vertical integration** | Bringing supply chain in-house |
+| Drones | [[Auterion]] stake (Nov 2025) + [[FV-014]] kamikaze drone |
+
+---
+
+## Drone pivot (2024–2026)
+
+Rheinmetall's land-systems legacy did not include autonomous systems. [[Armin Papperger]] moved to fix that through partnership rather than build, then missed the first round of [[Germany]]'s flagship drone procurement before recovering.
+
+| Date | Event |
+|------|-------|
+| Dec 2024 | MOU with [[Auterion]] on a common unmanned operating system |
+| Nov 2025 | Took a "significant" shareholding in [[Auterion]] |
+| Feb 2026 | Missed the first Bundeswehr drone round — could not demonstrate [[FV-014]] in time. Contracts went to [[Helsing]] (€269M) and [[Stark]] (€269M) |
+| Feb–Apr 2026 | Demonstrated FV-014 at a German test centre |
+| Apr 15, 2026 | Won €298M upfront contract for FV-014 from the Bundestag budget committee; framework up to €2.39B over 7 yrs but capped at €1B per supplier absent further parliament approval |
+
+[[FV-014]] specs: up to 100 km range, up to 70-minute flight duration, [[Auterion]] autonomy software inside. Deliveries expected to feed Germany's Lithuania brigade alongside Helsing and Stark entries.
+
+The three-supplier structure (Rheinmetall + [[Helsing]] + [[Stark]]) is explicit hedge: the [[Bundeswehr]] did not want a single-source dependency on either an incumbent prime or a startup. Rheinmetall's share of a capped program means the drone contribution to revenue is bounded at ~€1B over the program horizon — material but not company-transforming.
+
+### Papperger "Legos" gaffe (Mar–Apr 2026)
+
+[[Armin Papperger]] compared Ukraine's drone industry to playing with "Legos" and said drones were being made by "Ukrainian housewives" with "3D printers in the kitchen." [[Oleksandr Kamyshin]] responded that Ukraine's "Lego drones" had burned more than 11,000 Russian tanks; [[Volodymyr Zelenskyy]] joked that every Ukrainian housewife could therefore be CEO of Rheinmetall. Rheinmetall walked the comment back. The incident landed days before the Bundestag FV-014 approval. See [[Armin Papperger]] for the full exchange.
 
 ---
 
@@ -143,7 +166,13 @@ See [[European defense spending]], [[Germany]].
 - [[Defense]] — sector overview
 - [[NATO]] — customer base
 - [[Ukraine]] — catalyst
+- [[Auterion]] — autonomy software partner (significant shareholder relationship)
+- [[FV-014]] — flagship kamikaze drone
+- [[Helsing]] — drone-procurement co-supplier
+- [[Stark]] — drone-procurement co-supplier
+- [[Armin Papperger]] — CEO (Legos gaffe context)
+- [[Schuldenbremse reform]] — German debt-brake reform driving unlimited defense spending
 
 ---
 
-*Created 2026-01-10*
+*Created 2026-01-10. Drone pivot expansion 2026-04-17.*

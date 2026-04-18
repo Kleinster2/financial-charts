@@ -223,6 +223,8 @@ Primes have distribution (gov't relationships). Startups have technology. Expect
 - [[Unmanned ground vehicles]] — ground domain autonomy
 - [[AI agents]] — autonomous systems context
 - [[Agentic AI]] — broader AI autonomy trend
+- [[Private capital in defense tech]] — capital-flow story powering the sector
+- [[Private capital in European defense tech]] — European regional slice
 
 **Investors:**
 - [[a16z]], [[Founders Fund]], [[Lux Capital]] — key VCs

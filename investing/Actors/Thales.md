@@ -10,16 +10,16 @@ aliases: [Thales Group, HO.PA]
 ## Sector correlation
 
 > [!warning] Sector Orphan
-> HO.PA does not trade tightly with any sector ETF (max r = 0.13 with KWEB).
+> HO.PA does not trade tightly with any sector ETF (max r = 0.13 with [[KWEB]]).
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| China Internet | KWEB | 0.13 |
-| [[Consumer Staples]] | XLP | 0.12 |
+| [[China]] Internet | [[KWEB]] | 0.13 |
+| [[Consumer Staples]] | [[XLP]] | 0.12 |
 | [[Defense]] | ITA | 0.12 |
-| *S&P 500* | *SPY* | *0.01* |
+| *[[S&P 500]]* | *[[SPY]]* | *0.01* |
 
-HO.PA trades between China Internet and Consumer Staples without a tight sector fit.
+HO.PA trades between [[China]] Internet and [[Consumer]] Staples without a tight sector fit.
 
 ---
 
@@ -27,7 +27,7 @@ HO.PA trades between China Internet and Consumer Staples without a tight sector 
 
 | Metric | Value |
 |--------|-------|
-| Ticker | HO.PA (Euronext Paris) |
+| Ticker | HO.PA ([[Euronext]] Paris) |
 | Market cap | ~€35B |
 | Revenue | ~€18B |
 | Employees | ~80,000 |
@@ -38,7 +38,7 @@ French government owns ~26% (via Dassault).
 
 ## Business segments
 
-| Segment | Revenue share | Focus |
+| [[Segment]] | Revenue share | Focus |
 |---------|---------------|-------|
 | Defense & Security | ~50% | Radar, C4ISR, optronics |
 | [[Aerospace]] | ~25% | Avionics, IFE, space |
@@ -65,7 +65,7 @@ French government owns ~26% (via Dassault).
 |---------|------|
 | Rafale | Avionics, radar, EW |
 | Eurofighter | Radar, defensive aids |
-| FCAS | [[Sensors]], connectivity |
+| [[FCAS]] | [[Sensors]], connectivity |
 | Naval Group ships | Combat systems |
 
 ---
@@ -80,20 +80,28 @@ French government owns ~26% (via Dassault).
 | [[Asia]]-Pacific | ~15% |
 | Americas | ~10% |
 
-Strong in Middle East (UAE, Saudi, Qatar).
+Strong in Middle East ([[UAE]], Saudi, [[Qatar]]).
+
+---
+
+## Apr 17, 2026 — sovereign-cloud consortium role
+
+[[Thales]] joined the Proximus-led consortium that won part of the [[EU]] Commission's €180M, six-year sovereign-cloud framework. The group also included [[Mistral]], Clarence, and S3NS.
+
+The readthrough is that Thales' cybersecurity and trusted-systems credentials are being pulled into civilian digital-sovereignty budgets, not just defense ones. This is a useful reminder that European "AI sovereignty" is not only about models or GPUs. It is also about who is trusted to operate secure infrastructure for the public sector under a [[Sovereign cloud|sovereign-cloud]] framework.
 
 ---
 
 ## Investment thesis
 
-**Bull:**
+Bull:
 - Defense electronics leader
 - European rearmament tailwind
 - [[Cybersecurity]] growth
 - Rafale export success
 - Reasonable valuation
 
-**Bear:**
+Bear:
 - Conglomerate complexity
 - Civil aerospace exposure
 - French government influence

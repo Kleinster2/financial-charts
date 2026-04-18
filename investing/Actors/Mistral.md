@@ -20,7 +20,7 @@ Mistral — Leading European AI lab. French, open-weight models, challenging US 
 | 2026 target | >$1B recurring revenue |
 | Revenue mix | ~60% Europe |
 | Enterprise clients | 100+ |
-| Strategy | Open-weight models + infrastructure |
+| Strategy | [[Open-weight models]] + infrastructure |
 | Key backer | [[ASML]] (led Series C) |
 
 ---
@@ -89,14 +89,14 @@ Total raised: ~€2.8B ($3B+)
 
 ---
 
-## Infrastructure — vertical integration
+## [[Infrastructure]] — vertical integration
 
 Mistral is shifting from pure model lab to vertically integrated AI infrastructure provider:
 
 | Facility | Investment | Partner | Capacity | Status |
 |----------|-----------|---------|----------|--------|
 | [[France]] (home) | — | — | — | Operational |
-| [[Sweden]] (Borlänge) | €1.2B ($1.4B) | [[EcoDataCenter]] | 23 MW, [[NVIDIA]] Vera Rubin GPUs | 2027 |
+| [[Sweden]] (Borlänge) | €1.2B ($1.4B) | [[EcoDataCenter]] | 23 MW, [[NVIDIA]] Vera [[Rubin]] GPUs | 2027 |
 
 The Sweden facility is Mistral's first infrastructure investment outside France. Dual-purpose: enterprise inference by day, model training by night. Projected >€2B revenue over 5 years.
 
@@ -109,10 +109,10 @@ CEO Mensch chose Sweden for clean energy access and low-carbon footprint. The mo
 | Customer | Sector | Notes |
 |----------|--------|-------|
 | [[BNP Paribas]] | Banking | 3-year deal (Feb 2026), ~100 use cases, investor |
-| [[ASML]] | Semiconductors | Lead Series C investor + customer |
+| [[ASML]] | [[Semiconductors]] | Lead Series C investor + customer |
 | [[TotalEnergies]] | Energy | Enterprise deployment |
 | [[HSBC]] | Banking | Enterprise deployment |
-| [[Stellantis]] | Automotive | Enterprise deployment |
+| [[Stellantis]] | [[Automotive]] | Enterprise deployment |
 
 Government partnerships: [[France]], [[Germany]], [[Luxembourg]], [[Greece]], [[Estonia]].
 
@@ -153,6 +153,12 @@ Mistral is largest European AI lab. $400M ARR is ~25x smaller than OpenAI but gr
 
 Challenge: Compute disadvantage vs US labs. Relies on cloud providers.
 
+## Apr 17, 2026 — EU sovereign-cloud tender validation
+
+The [[EU]] Commission awarded a **€180M, six-year** sovereign-cloud framework to four European providers. One of the winners was a Proximus-led consortium that included [[Mistral]], [[Thales]], Clarence, and S3NS. The providers were selected under the Commission's Cloud Sovereignty Framework, which requires limited control by non-EU entities over the services delivered.
+
+Why it matters: this is not just symbolic "European champion" rhetoric. It is procurement-grade validation that Mistral is becoming part of a [[Sovereign cloud|sovereign-cloud]] stack for regulated public-sector workloads, not merely a standalone model vendor. The commercial implication is distribution into public procurement channels where European control, not just benchmark quality, is part of the buying decision.
+
 ---
 
 ## Open-weight economics
@@ -171,19 +177,19 @@ Bear case:
 
 ---
 
-## India expansion (Feb 18, 2026)
+## [[India]] expansion (Feb 18, 2026)
 
-Mensch announced at [[India AI Impact Summit 2026]] that Mistral plans to open its first India office in 2026. India is a major expansion target as global tech giants compete for the market.
+Mensch announced at [[India AI Impact Summit 2026]] that Mistral plans to open its first [[India]] office in 2026. [[India]] is a major expansion target as global tech giants compete for the market.
 
-At the same event, Mensch told CNBC that >50% of current enterprise software could be replaced by AI — the most aggressive public estimate from an AI lab CEO. This aligns with the [[Claude Cowork disruption February 2026|SaaSpocalypse]] narrative.
+At the same event, Mensch told [[CNBC]] that >50% of current enterprise software could be replaced by AI — the most aggressive public estimate from an AI lab CEO. This aligns with the [[Claude Cowork disruption February 2026|SaaSpocalypse]] narrative.
 
 ---
 
 ## Openness thesis (Feb 18, 2026)
 
-Bloomberg interview: Mensch argued AI dominance hinges on openness, not geography. The competition is between open vs. closed systems, not US vs. Europe. He also reiterated that claims of Chinese AI lagging are a "fairy tale" (first said at Davos, Jan 2026 — referring to [[DeepSeek]], [[Moonshot AI]] and others).
+[[Bloomberg]] interview: Mensch argued AI dominance hinges on openness, not geography. The competition is between open vs. closed systems, not US vs. Europe. He also reiterated that claims of Chinese AI lagging are a "fairy tale" (first said at Davos, Jan 2026 — referring to [[DeepSeek]], [[Moonshot AI]] and others).
 
-Mistral targeting $1B capex in 2026 alongside $1B revenue target — vertical integration into compute infrastructure. Planned Mistral Compute platform launching in 2026 with [[NVIDIA]]'s 18,000 Grace Blackwell chips at nuclear-powered Swedish facility ([[EcoDataCenter]]).
+Mistral targeting $1B capex in 2026 alongside $1B revenue target — vertical integration into compute infrastructure. Planned Mistral Compute platform launching in 2026 with [[NVIDIA]]'s 18,000 Grace [[Blackwell]] chips at nuclear-powered Swedish facility ([[EcoDataCenter]]).
 
 ---
 
@@ -225,5 +231,5 @@ Mensch said an IPO is not necessary in 2026 — debt financing available. But on
 - [[Sovereign AI race]] — context (European AI)
 - [[Open source commoditization]] — thesis context
 - [[Data Centers]] — infrastructure vertical integration
-- [[India AI Impact Summit 2026]] — Mensch spoke, India office announcement
+- [[India AI Impact Summit 2026]] — Mensch spoke, [[India]] office announcement
 - [[Claude Cowork disruption February 2026]] — Mensch's >50% enterprise software replacement claim aligns

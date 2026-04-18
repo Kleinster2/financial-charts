@@ -173,6 +173,19 @@ US gasoline at ~$3/gallon (same as year ago) suggests the product market tightne
 
 The 7°C gap between Jet-A and Jet-A1 is a cold-weather safety margin — Jet-A1's lower freeze point prevents fuel gelling at high-altitude temperatures. Relaxing the spec would increase supply options but narrow the safety buffer on polar and high-altitude routes.
 
+### EU diversification plan hardens (April 17)
+
+Reuters reported the [[EU]] will urge member states to cut dependence on Middle Eastern jet fuel and look more aggressively at replacement imports from the [[United States]] and [[Nigeria]]. Europe imports roughly **30-40%** of its jet fuel, and at least half of that imported volume normally comes from the Middle East.
+
+This is no longer just a spec question. It is a resilience plan:
+
+- More US Jet-A / Nigeria inflows where logistics allow
+- Greater reliance on [[Sustainable Aviation Fuel]] and synthetic fuels as strategic supply buffers
+- Possible coordinated release of jet-fuel stocks if supply disruption persists
+- Clarification of cancellation-compensation rules and the EU anti-tankering regime during shortages
+
+The physical backdrop explains the urgency. Gulf jet-fuel exports fell from **19.6M barrels in February** to just **4.1M barrels across March and April-to-date combined**, according to Reuters calculations. In other words, the product shortage persists even if crude headlines improve. That is why airline shares can rally on a ceasefire headline while the aviation-fuel system still behaves as if supply is tight.
+
 See [[Iran conflict European impact]] for the full EU policy response and [[Iran conflict economic disruption]] for the broader energy market analysis and [[2026 Iran conflict market impact]] for cross-asset impact.
 
 ---

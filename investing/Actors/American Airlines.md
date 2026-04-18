@@ -11,32 +11,32 @@ aliases: [AAL, American]
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| [[Banks\|Regional Banks]] | KRE | 0.75 |
-| [[Consumer]] | XLY | 0.70 |
-| Industrials | XLI | 0.68 |
-| *S&P 500* | *SPY* | *0.70* |
+| [[Banks\|Regional Banks]] | [[KRE]] | 0.75 |
+| [[Consumer]] | [[XLY]] | 0.70 |
+| Industrials | [[XLI]] | 0.68 |
+| *[[S&P 500]]* | *[[SPY]]* | *0.70* |
 
-AAL trades as a core Regional Banks name (KRE r = 0.75).
+AAL trades as a core Regional Banks name ([[KRE]] r = 0.75).
 
 ---
 
 ## Jan 27, 2026: Earnings miss on shutdown + storm
 
-**Stock -5%** — missed Q4 earnings despite record revenue. External shocks hit harder than peers.
+Stock -5% — missed Q4 earnings despite record revenue. External shocks hit harder than peers.
 
 ### Q4 2025 miss
 
 | Metric | Result | Estimate |
 |--------|--------|----------|
-| EPS (adj) | **$0.16** | $0.38 |
+| EPS (adj) | $0.16 | $0.38 |
 | Revenue | $14.0B (record) | — |
 
 ### Government shutdown impact
 
 | Impact | Amount |
 |--------|--------|
-| Q4 revenue hit | **$325M** |
-| Government traffic | Down **50%** YoY |
+| Q4 revenue hit | $325M |
+| Government traffic | Down 50% YoY |
 | Domestic PRASM | -2.5% (would've been positive ex-shutdown) |
 
 CEO Isom: "The government shutdown hit us harder than others" — heavy exposure to DFW government travel.
@@ -45,19 +45,27 @@ CEO Isom: "The government shutdown hit us harder than others" — heavy exposure
 
 | Metric | Impact |
 |--------|--------|
-| Cancellations | **9,000+** (largest weather disruption ever) |
+| Cancellations | 9,000+ (largest weather disruption ever) |
 | Q1 2026 revenue hit | $150-200M expected |
 
 ### 2026 outlook (strong)
 
 | Metric | Guidance |
 |--------|----------|
-| EPS | **$1.70-2.70** (vs $1.97 est) |
+| EPS | $1.70-2.70 (vs $1.97 est) |
 | Q1 revenue | +7-10% YoY |
 | [[Free cash flow]] | >$2B |
 | January bookings | "All-time records" for first 3 weeks |
 
 Bookings "strengthened meaningfully in January" after soft late-Q4.
+
+---
+
+## Apr 17, 2026 — merger rumor shut down
+
+American said on Apr 17 that it was not interested in a merger with [[United Airlines]] and had held no such talks, directly rejecting the consolidation idea after [[Reuters]] previously reported that United CEO [[Scott Kirby]] had floated a possible combination with [[Trump]] in late February.
+
+The significance is less that a deal died, and more that the market briefly entertained it. A United-American combination would have faced extraordinary antitrust scrutiny because the US market is already concentrated and the two carriers overlap in major hubs such as [[Chicago]] and [[Texas]]. American's public rejection makes clear that even in a stressed fuel-cost environment, management does not see a politically feasible path to scale via merger.
 
 ---
 
@@ -89,7 +97,7 @@ Bookings "strengthened meaningfully in January" after soft late-Q4.
 
 | Issue | Impact |
 |-------|--------|
-| **Debt load** | Highest among peers |
+| Debt load | Highest among peers |
 | Distribution strategy | Corporate travel losses |
 | Labor costs | Rising |
 | Fleet age | Mixed |
@@ -109,14 +117,14 @@ Bookings "strengthened meaningfully in January" after soft late-Q4.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Largest domestic network
 - Latin America strength
 - Capacity discipline
 - Cost improvements
 - [[Travel]] demand resilient
 
-**Bear:**
+Bear:
 - High debt burden
 - Premium gap vs Delta/United
 - Distribution missteps
@@ -135,7 +143,7 @@ Bookings "strengthened meaningfully in January" after soft late-Q4.
 | Fleet | 950+ (largest) |
 | Challenge | Debt load, shutdown exposure |
 
-*Updated 2026-01-27*
+*Updated 2026-04-17*
 
 ---
 

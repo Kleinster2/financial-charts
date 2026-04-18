@@ -1,3 +1,6 @@
+---
+aliases: [Trump]
+---
 #person #politics #usa #policy
 
 **Donald Trump** — 47th President of the United States (2025–present), previously 45th President (2017–2021). Key figure in reshaping US industrial policy, trade relations, and critical minerals strategy.
