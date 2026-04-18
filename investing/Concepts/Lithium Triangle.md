@@ -58,17 +58,18 @@ Argentina's **installed LCE production capacity has grown from 35,500 tpa to 186
 
 The Argentine model is attracting the fastest capex response: low tax burden, dollar-convertible capital regime (post-2024 reforms), and integration with [[Chile]]'s processing infrastructure via Pacific ports.
 
-### Bolivia — state-led, fragile
+### Bolivia — state-led, fragile, in transition
 
-Bolivia's Salar de Uyuni holds ~21% of global lithium reserves, but the country produces almost nothing. The state-owned **YLB** (Yacimientos de Litio Bolivianos) runs operations, but technical execution has been limited and political instability has undermined partnership deals.
+Bolivia's Salar de Uyuni holds ~21% of global lithium reserves, but the country produces almost nothing. The state-owned **[[YLB]]** (Yacimientos de Litio Bolivianos) runs operations, but technical execution has been limited and political instability has undermined partnership deals.
 
 **Key developments:**
 
-- A **$1B deal with Chinese investors** to build two lithium plants targeting 35,000 tpa.
-- A Russian (Rosatom-related) $1B deal running parallel.
-- **July 2025**: Bolivian Congress descended into water-throwing, shouting matches, and protests over ratifying the China and Russia agreements. Opposition framing: foreign dependency is being swapped for Chinese/Russian dependency. Ratification is now stalled.
+- A **$1B deal with Chinese investors** (CBC consortium, includes [[CATL]]) to build two lithium plants targeting 35,000 tpa.
+- A Russian (Rosatom-related, Uranium One) $1B deal running parallel.
+- **July 2025**: Bolivian Congress descended into water-throwing, shouting matches, and protests over ratifying the China and Russia agreements. Opposition framing: foreign dependency is being swapped for Chinese/Russian dependency without adequate technology transfer. Ratification was blocked.
+- **November 8, 2025 — political transition**: [[Rodrigo Paz]] succeeded Luis Arce, the first non-MAS president in two decades. Paz's stated framework is "modernization without privatization" — reviewing the CBC and Rosatom contracts for transparency and local-community terms, with commitment not to "sell out" Uyuni but signaling openness to renegotiated foreign partnerships along Chilean Nova Andino Litio lines.
 
-Bolivia's resource endowment is the largest in the world on paper, but the absence of institutional and technical depth means reserves stay in the ground. A presidential transition in 2025 (Luis Arce out) adds policy continuity risk.
+Bolivia's resource endowment is the largest in the world on paper, but the absence of institutional and technical depth means reserves stay in the ground. The Paz transition is the first major political inflection point for Bolivia's lithium thesis in a decade — whether it produces actual Uyuni output or becomes another stalled cycle remains the binary question. See [[Bolivia]] for full political context.
 
 ---
 

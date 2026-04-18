@@ -8,13 +8,24 @@
 
 ## Synthesis
 
-The Apr 16, 2026 rally (Albemarle +16.3% / +4.9σ, SQM +8.8% / +2.6σ, spot ~167,500 CNY/T / ~$23,000/t, +134% YoY) is pricing a contested deficit narrative. Fastmarkets sees a 1,500-tonne deficit arriving in 2026. Wood Mackenzie's March 2026 Lithium Energy Transition Outlook sees the deficit emerging in 2028, requiring $104-276B of total capex to 2050 across the transition scenarios. The IEA's 2025 Global Critical Minerals Outlook says near-term markets are well-supplied and sees deficits in the 2030s. The agencies agree on the direction; they disagree on timing by 2-5 years. The rally is priced against the early-arrival scenario — which is the Fastmarkets view, not the consensus.
+The lithium rally has prices embedded in it. Those prices implicitly answer the question "how much lithium does the world need to mine to meet future battery demand?" The rally prices three things accurately — supply tightening ([[China]] permit cancellations, Zimbabwe export suspension, [[Albemarle|Kemerton]]), supply response ([[Brazil]], [[Direct lithium extraction|DLE]], [[Argentina]]), and demand acceleration ([[IEA]]'s +30% 2024 vs ~10% CAGR baseline). It also attempts to price the fourth thing: the share of future battery demand that will not be lithium at all.
 
-The tightening is real but driven by supply discipline, not demand pull: China's "anti-involution" permit cancellations in Yichun, Zimbabwe suspending concentrate exports, CATL's Jiangxi mine expiry (~4% of global supply per Morgan Stanley), and Albemarle's own Kemerton suspension. There is no OPEC of lithium; four producers are acting unilaterally with no coordination mechanism — the structural incoherence [[Lithium Triangle]] documents. But the demand side is also real and accelerating: IEA data shows lithium demand rose ~30% in 2024, against a ~10% CAGR baseline through the 2010s. Both sides of the market are stronger than the recent price trough suggested; the disagreement among forecasters is about how quickly they converge.
+Two forces are actively subtracting from what-would-have-been lithium demand:
 
-The counter-example is Brazil's cost curve. [[Sigma Lithium]]'s Grota do Cirilo runs at $440/t CIF China, [[Atlas Lithium]]'s Neves project cleared a 145% IRR at $489/t — among the lowest costs anywhere — and [[AMG]] is building the only scaled European LiOH plant outside China. Brazil produced 4,900 MT in 2023, forecast 57,500 in 2025 — a 10x ramp. The Chilean political regime swung state-led → state-JV → potentially market-led in under three years ([[Codelco]]-[[SQM]] Nova Andino Litio, now [[José Antonio Kast]]'s "concessionable" framework incoming). Argentine installed capacity tripled to 186 ktpa under Milei. [[Direct lithium extraction|DLE]] projects are 36 globally. Supply response is not coordinated either — but at $23,000/t spot the capex is arriving whether the deficit is 2026 or 2028.
+1. **[[Sodium-ion batteries|Sodium-ion]] substitutes at the cell level** — different chemistry. Every [[BYD]] Sea Gull EV or grid-storage site running [[CATL]] Naxtra is a unit of demand that uses zero lithium. Energy density still constrains sodium-ion to the lower-range EV segment plus most of grid storage, but at CATL's 20-30% LFP-replacement target in small vehicles and majority grid-storage share by 2028, that is 5-10% of global lithium demand that evaporates.
+2. **[[Battery recycling|Recycling]] substitutes at the mine level** — same chemistry, different source. Every tonne of recycled lithium does not need to be mined. At IEA's and Wood Mackenzie's modeled ~20% secondary supply by 2030, that is another ~500,000 tpa LCE where primary mining capacity is not needed.
 
-One line: the rally is real and the capex response is real; the deficit timing is what's contested — and the producers who arrive first (LAC Phase 1 late 2027, Atlas Neves mid-2026) versus last will capture disproportionately different returns depending on which forecaster turns out right.
+Combined: roughly 25-30% of what the 2022 bullish forecasts modeled as primary-mining demand growth is being covered by non-lithium chemistry plus recycled supply. Both ramp on the same 2026-2030 timeline the deficit forecasts use — sodium-ion goes commercial in 2026 (GB 38031-2025 standard), recycling reaches 20% by 2030.
+
+The bull case requires sodium-ion ramp slower than CATL's roadmap AND recycling below 20% — both have to underperform simultaneously. The bear case is the opposite.
+
+**Forecast spread — the rally prices one point in it, not all of it:**
+
+- [[Fastmarkets]] (2026 deficit), Wood Mackenzie (2028 deficit), IEA (2030s deficit) disagree on timing by 2-5 years.
+- Both Wood Mackenzie and IEA explicitly model sodium-ion and recycling in their deficit forecasts, so substitution is partially priced via those forecasts.
+- The later-arriving forecasts have higher substitution assumptions; the earlier-arriving forecast (Fastmarkets) weights supply tightening heavier.
+
+**Defensible reframe:** The rally prices the Fastmarkets-aligned forecast — early deficit, less substitution impact. The Wood Mackenzie and IEA-aligned forecasts, which incorporate more substitution, imply a later and smaller deficit that would not support [[Albemarle|ALB]] at $215. The market is pricing one point in a spread, and that point happens to weight substitution less heavily than the alternative forecasts. That is different from "not pricing substitution at all." The claim is: the rally is priced closer to the low-substitution end of the forecast spread.
 
 ---
 
@@ -278,3 +289,7 @@ See [[Albemarle]] and [[SQM]] actor notes for stock-specific updates; underlying
 - [[YLB]] — Bolivian state enterprise (21% global reserves, stalled production)
 - [[Lithium Triangle]] — geographic-political frame (Chile/Argentina/Bolivia)
 - [[Lithium-ion shipping fires]] — regulatory / insurance risk on battery transport
+- [[Sodium-ion batteries]] — demand substitution (grid storage + sub-$15,000 EVs)
+- [[Battery recycling]] — secondary supply (~20% of demand by 2030)
+- [[Solid-state batteries]] — potential lithium-demand intensification (Li-metal anodes, Li-sulfide electrolytes)
+- [[Bolivia]] · [[Rodrigo Paz]] — largest reserves, political transition Nov 2025

@@ -37,7 +37,20 @@ A ~$1B Russian agreement (Rosatom-linked) runs in parallel, targeting similar DL
 
 Bolivian congress refused to ratify either deal during a chaotic July 2025 session that devolved into shouting matches, water-throwing, and protests. Opposition framing: foreign dependency is being swapped for Chinese/Russian dependency without adequate technology transfer or Bolivian operational control.
 
-The stall means neither project has the legislative authorization to proceed into construction. Bolivia's 2025 presidential transition (Luis Arce out) added a further layer of policy-continuity risk. As of April 2026, ratification remains unresolved.
+The stall means neither project has the legislative authorization to proceed into construction.
+
+### Paz transition — Nov 2025 inflection point
+
+[[Rodrigo Paz]] won the October 2025 Bolivian presidential election and succeeded Luis Arce on **November 8, 2025** — the first non-MAS president in two decades (see [[Bolivia]] for political context). Paz's stated lithium framework:
+
+- **"Modernization without privatization"** — rejects both pure-state operation (YLB alone) and full foreign operational control
+- **Review of the Arce-era CBC and Rosatom contracts** for transparency and local-community terms
+- **Commitment not to "sell out" Uyuni** — national symbolism constraint on deal structure
+- Explicit local-community engagement requirement (Potosí and Oruro political weight)
+
+**Structural implication:** The CBC and Rosatom deals are expected to be renegotiated rather than cancelled. Terms and timelines are unresolved as of April 2026. A deal closer to [[Chile]]'s [[Codelco]]-[[SQM]] Nova Andino Litio structure (majority state-margin capture + foreign operational control) is the plausible landing. Paz does not have congressional majority, so the renegotiated terms require coalition-building across the center-left.
+
+**Why this matters for YLB:** The Paz administration has signaled continued support for YLB as the state anchor but is moving away from the "YLB develops DLE alone" premise of the Arce era. Future YLB operational structure is likely to resemble Codelco's — state entity holds operational mandate but partners with foreign technology operators on specific projects. The $800M+ of Arce-era YLB DLE investment is being audited; results disclosure pending.
 
 ---
 
@@ -70,7 +83,7 @@ YLB matters for three threads the vault tracks:
 | Resource base | Salar de Uyuni + Pasto Grande + Uyuni Norte |
 | Output (2024) | Few hundred tonnes |
 | Stated ambition | 50,000 tpa LCE exports |
-| Current deal status | CBC (China) + Rosatom (Russia) agreements stalled in congress |
+| Current deal status | CBC (China) + Rosatom (Russia) agreements under review by Paz admin (Nov 2025–) |
 
 *Created 2026-04-16*
 

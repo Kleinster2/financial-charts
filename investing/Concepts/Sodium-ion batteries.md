@@ -6,6 +6,18 @@ Next-generation battery chemistry using sodium instead of lithium. No lithium, c
 
 ---
 
+## Synthesis
+
+Sodium-ion commercialization in 2026 is the demand-substitution thesis the lithium market is not fully pricing. [[CATL]]'s Naxtra brand launched April 2025, entered mass production in 2026 at 175 Wh/kg, and passed China's GB 38031-2025 EV traction-battery standard (effective mid-2026) — the first regulatory recognition of sodium-ion at par with lithium-ion for passenger EVs. 2025 global shipments hit 9 GWh (+150% YoY), with CATL commanding 38-42% global share. CATL's first-generation cells already power 250,000 urban delivery vans in China; Gen 2 Naxtra at 175 Wh/kg supports 500km in passenger vehicles. This is not 2030 hypothetical technology — it is 2026 commercial reality competing for the demand growth that Wood Mackenzie's 2028 lithium-deficit forecast assumes lithium captures.
+
+The constraint is cost parity, and the gap is closing. Sodium-ion cell costs are projected to converge with LFP lithium-ion at $40-50/kWh by 2027 as CATL and BYD 30 GWh facilities reach full capacity — the gap stood at $30+/kWh in Q1 2026. Sodium is ~1,000x cheaper than lithium as a raw material; the cost premium today is manufacturing scale, not chemistry. CATL's "dual-star" strategy runs sodium-ion and lithium-ion in parallel — sodium takes the sub-$15,000 urban EV segment and most of grid storage; lithium keeps the premium long-range passenger EV market where ~300+ Wh/kg energy density matters. This is market segmentation, not replacement.
+
+The counter-example is Western commercial scale, which is essentially non-existent. China dominates through CATL, BYD, and HiNa Battery. Europe has Tiamat (France), Altris (Sweden), Faradion (UK, now Reliance-owned). No US player has reached commercial deployment. Natron Energy pivoted to data-center UPS. The pattern matches the 2010s LFP and solar-panel industrial-policy failures: the Western capital stack treats sodium-ion as speculative pre-commercial R&D while Chinese vertical integration has already reached deployment. If sodium-ion becomes the default chemistry for Chinese grid storage and sub-$15,000 EVs by 2028, it joins a list of energy-transition segments where China captures majority global share and Western industrial policy arrives late — the [[Rare earth leverage]] parallel.
+
+One line: sodium-ion in 2026 is what LFP was in 2018 — a Chinese chemistry shift the Western market underestimated, with direct demand-substitution implications for the lithium-price signal that is funding its own replacement.
+
+---
+
 ## Why sodium-ion matters
 
 | Advantage | vs. Lithium-ion |

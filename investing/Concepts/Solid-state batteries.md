@@ -6,6 +6,18 @@ Next-generation battery technology replacing liquid electrolyte with solid. Fina
 
 ---
 
+## Synthesis
+
+Solid-state batteries represent the less-discussed lithium-demand tailwind inside the broader battery-chemistry transition. The popular framing is that solid-state is a Western competitive catch-up vs [[CATL]]-dominated liquid-electrolyte lithium-ion, but the more important structural point is that the sulfide-electrolyte path [[Toyota]] and [[Samsung SDI]] are pursuing uses metallic lithium anodes — increasing lithium content per cell rather than displacing it. Toyota-Idemitsu Kosan's $142M lithium sulfide facility (1,000 tpa target for 2027-2028 commercial launch) is the concrete signal that solid-state at scale would be a net-positive for lithium demand, not a threat. This is the inverse of the [[Sodium-ion batteries|sodium-ion]] substitution story: one chemistry transition reduces lithium demand; the other intensifies it.
+
+The constraint is that consensus commercial timelines keep slipping. Toyota targets 2027-2028 mass production. [[QuantumScape]] shipped first QSE-5 samples in 2025, plans field testing 2026, commercial production possibly 2027. [[Samsung SDI]] aims for 2027. SK On targets 2029. High-volume commercialization is now consensus-positioned for the early 2030s rather than 2026-2028, despite more aggressive corporate messaging from individual players. The 2026 "breakthrough year" narrative from CES announcements (Donut Lab Q1 production, ProLogium, ESOX) applies to premium/niche applications — motorcycles, drones, specialty vehicles — not to the EV mass market. The gap between prototype-scale production and the >100 GWh annual capacity required for mass-market EV adoption is the binding technical challenge: sulfide electrolytes are air-sensitive and manufacturing-hostile; oxide ceramics are brittle and interface-resistive; polymers operate poorly at ambient temperature. Each electrolyte chemistry has a different scale-up failure mode.
+
+The counter-example is liquid-electrolyte lithium-ion's own improvement trajectory. LFP energy density has climbed from ~160 Wh/kg (2018) to ~205 Wh/kg (2026 CATL Shenxing Pro). NMC advanced to ~300 Wh/kg. Fast-charging protocols narrowed the charge-time gap. If liquid Li-ion delivers 80% of solid-state's promised benefit for 20% of the cost and 10% of the manufacturing risk, the commercial pull for solid-state is premium-segment only — which is what the 2026 production announcements actually target. The lithium demand implication follows: solid-state at premium-scale does not move the aggregate lithium market; solid-state at mass-scale would substantially increase lithium demand per vehicle if it happens, but consensus timelines keep pushing that into the early 2030s. The risk is the reverse: a Chinese entrant ([[CATL]] has been quiet but well-resourced; [[BYD]] has solid-state prototypes) arriving at scaled production before Western pure-plays, capturing the demand the Western solid-state thesis has been trying to service.
+
+One line: solid-state is a lithium-demand tailwind if it ever commercializes at mass scale — but every year of delay is a year where LFP/NMC improvements and sodium-ion commercialization reshape the market around it.
+
+---
+
 ## Why solid-state matters
 
 | Benefit | vs. Li-ion | Impact |

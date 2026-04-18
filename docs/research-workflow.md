@@ -140,6 +140,50 @@ Before writing any synthesis, concept note, or `/report` output, run an independ
 
 ---
 
+## Hub-Concept Synthesis Pattern
+
+For hub concepts with active market-priced debate (`[[Lithium]]`, `[[CUDA moat]]`, `[[Rare earth leverage]]`, `[[AI consolidation]]`, and similar), the `## Synthesis` section follows an epistemic-scaffolding structure — not just "central insight → constraint → counter-example → one-line." The older arc produces confident prose; this pattern produces tradable propositions with named falsifiers.
+
+**The seven moves (in order):**
+
+1. **Testable-claim opening.** Start with "X has an answer embedded in it" — framing the current market price, valuation, or policy stance as an implicit answer to a specific future question. "NVIDIA's valuation has an answer embedded in it. The answer is to the question 'how durable is CUDA lock-in over 2026-2030?'"
+
+2. **What the claim prices accurately.** Name three specific things the price IS pricing correctly, with figures. This grounds the reframe that comes later.
+
+3. **The fourth thing it attempts to price.** Name the piece where the market's answer is contested or partially complete. This is the subject of the rest of the synthesis.
+
+4. **Two mechanism forces.** State the two specific forces subtracting from (or adding to) the current-price assumption. Each force gets: a one-line claim + specific figures + named entities. Example: "Compiler abstraction at the software level — OpenAI Triton, MLIR, AMD ROCm 7 at 3.5× prior inference performance."
+
+5. **Bull/bear symmetry.** State what must be true for each side of the debate. "The bull case requires X AND Y — both have to underperform simultaneously. The bear case is the opposite." The symmetry test is what makes the claim tradable — a reader can weight each scenario probabilistically.
+
+6. **Forecast spread.** Name three analyst camps with attribution (research house, named figure, or framing label) and approximate positions. State which camp the current price is priced against. "Current multiples price closer to the first camp — with some discount for X but limited credit for Y."
+
+7. **Defensible reframe.** Close with an honest weakening of the stronger framing. "The claim is: the rally is priced closer to the low-substitution end of the forecast spread" — not "the rally does not price substitution." The reframe is the epistemic governor against overclaim.
+
+**When to use it:**
+
+- Hub concept notes with active market-priced debate (lithium, CUDA moat, rare earth leverage, AI consolidation, dollar reserve status, critical minerals, export controls)
+- `/report` outputs on concept topics
+- Event notes where the event's market implication is contested
+- Any concept `## Synthesis` section where the subject has forecaster disagreement
+
+**When to skip:**
+
+- Actor notes (data-heavy; no synthesis-level claim)
+- Stubs (no synthesis yet to scaffold)
+- Pure-data concept notes (specifications, definitions, glossary-style)
+- Concepts without an active market-priced debate (the fourth-move "forecast spread" requires real disagreement to anchor against)
+
+**What the pattern prevents:**
+
+- Recency bias (the seven moves force you to name analyst camps beyond the most recent ingestion)
+- Source anchoring (the "defensible reframe" forces honest weakening of whatever the source framed aggressively)
+- Overclaim (the "forecast spread" step forces explicit statement of which point the market is priced at, not a universal "market misses this" claim)
+
+The voice is analytical, not editorial — the Synthesis names tensions and prices positions along a spread rather than calling bull/bear. The reader decides where they sit.
+
+---
+
 ## Analysis Sections
 
 The vault's purpose is not just to store facts — it's to interpret them. Mature notes should include an Analysis section that connects the facts already in the note into investment-relevant interpretation.
