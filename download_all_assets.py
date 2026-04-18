@@ -1500,9 +1500,15 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             vprint("[Narrow] Writing to canonical narrow tables...")
             vprint("="*60)
             try:
-                sync_wide_to_narrow(combined_df, table='prices_long', value_col='Close', verbose=verbose)
-                if not combined_vol_df.empty:
-                    sync_wide_to_narrow(combined_vol_df, table='volumes_long', value_col='Volume', verbose=verbose)
+                # IMPORTANT: only sync the freshly downloaded delta, not the fully
+                # merged wide table. Melting the entire historical wide matrix
+                # (~19k dates x ~2k tickers) creates tens of millions of rows in
+                # memory and can get the updater killed before the write lands.
+                # Narrow tables use INSERT OR REPLACE semantics, so syncing just the
+                # new/changed slice is sufficient and dramatically cheaper.
+                sync_wide_to_narrow(new_data_df, table='prices_long', value_col='Close', verbose=verbose)
+                if not new_vol_df.empty:
+                    sync_wide_to_narrow(new_vol_df, table='volumes_long', value_col='Volume', verbose=verbose)
                 vprint("[Narrow] Canonical write completed successfully")
             except Exception as e:
                 vprint(f"[Narrow] FATAL: Narrow write failed: {e}")
