@@ -160,10 +160,10 @@ Netflix also said ads remain on track for roughly $3B of revenue in 2026. The sa
 ## Charts
 
 ![[nflx-90d.png]]
-*NFLX 90-day: $112 → $84.59 — down 24% on WBD deal uncertainty, then bounced on walk-away*
+*NFLX 90-day: Feb's WBD-driven washout was followed by a sharp March rebound, then an April earnings gap-down back below $100.*
 
 ![[nflx-vs-qqq.png]]
-*NFLX vs [[Nasdaq|QQQ]] since Jan 2024 — still +68% vs QQQ +48%, but gap narrowing sharply*
+*NFLX vs [[Nasdaq|QQQ]] since Jan 2024 — NFLX still outperformed over the full stretch, but the gap compressed sharply in early 2026 as QQQ kept grinding higher and NFLX sold off after earnings.*
 
 ![[nflx-fundamentals.png]]
 *Quarterly revenue, profitability, and margin progression into FY2025.*
