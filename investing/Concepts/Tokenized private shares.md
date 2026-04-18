@@ -93,26 +93,19 @@ Reasons to avoid going public:
 
 ---
 
-## Bull case
+## Structural factors
 
-- Democratizes access to frontier AI/tech
-- Private equity returns historically superior
-- Technology enables efficient trading
-- Retail deserves upside, not just IPO exhaust
-- "Tokenization will be the layer behind everything"
-
----
-
-## Bear case
-
-- Not actual equity — no legal rights
-- No disclosure requirements
-- Company doesn't endorse/control
-- Unknown unknowns (new tech, untested law)
-- Fraudsters could exploit unsophisticated investors
-- Adverse selection problem
-
-**Warren Buffett rule:** Don't invest in anything you don't understand.
+- Access: tokenization mechanism extends retail reach to late-stage private companies previously limited to accredited or institutional investors
+- Historical private-equity return premium: asset-class literature documents a long-run PE premium over public equities, subject to survivorship and reporting adjustments
+- Trading mechanics: blockchain-based settlement enables 24/7 trading and fractional ownership
+- Retail access framing: structured as an alternative to post-IPO public-market participation
+- Industry narrative: "Tokenization as the layer behind everything" — positioning language from crypto-infrastructure firms
+- Legal structure: tokens typically represent indirect economic exposure via SPVs, not actual equity or shareholder rights
+- Disclosure regime: no SEC-level mandatory disclosure requirements for private companies
+- Company involvement: target companies do not generally endorse or control secondary tokenization
+- Legal novelty: tokenization of private equity is untested across multiple jurisdictions; regulatory framework incomplete
+- Retail investor protection: limited fraud protection relative to regulated public markets
+- Adverse selection: sellers of tokens have information asymmetry relative to buyers
 
 ---
 

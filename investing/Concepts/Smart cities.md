@@ -202,25 +202,25 @@
 
 ---
 
-## Investment implications
+## Structural factors
 
-### Bull case
+### Demand drivers
 
-| Driver | Impact |
+| Driver | Detail |
 |--------|--------|
-| Urbanization | 68% of world in cities by 2050 |
-| Climate mandates | Smart grids, efficiency requirements |
-| 5G rollout | Enables real-time applications |
-| AI maturation | Better analytics, automation |
+| Urbanization | 68% of global population forecast to be in cities by 2050 |
+| Climate mandates | Smart-grid deployment and efficiency requirements at municipal level |
+| 5G rollout | Enables real-time-data applications (traffic, emergency, utilities) |
+| AI maturation | Analytics and automation applied to sensor/data infrastructure |
 
-### Bear case
+### Execution and adoption factors
 
-| Risk | Impact |
+| Factor | Detail |
 |------|--------|
-| [[NEOM]]-style failures | Megaproject skepticism |
-| Privacy backlash | Regulatory constraints |
-| Municipal budgets | Funding constraints |
-| Hype cycle | Overpromise, underdeliver |
+| Megaproject history | [[NEOM]] and similar programs have delivered below initial specifications |
+| Privacy regime | Regulatory environment constrains sensor and data-collection deployments |
+| Municipal budgets | Revenue constraints limit procurement pace |
+| Hype-cycle history | Delivery timelines historically longer than announced |
 
 ### Positioning
 

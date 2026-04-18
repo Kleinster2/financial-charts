@@ -119,21 +119,21 @@ US small-caps ([[Karman Holdings]], [[Kratos Defense]]) with direct hypersonic/m
 
 ## Scenario analysis
 
-### Bull case for conflict (67% Polymarket)
+### Conflict-probability indicators (67% Polymarket)
 
-- Geneva talks failed by US assessment
-- Force deployment matches pre-strike patterns
-- Axios reporting suggests planning for sustained campaign
-- Iran fortifying sites suggests expectation of strikes
-- Trump admin historically hawkish on Iran (2020 Soleimani precedent)
+- US assessment: Geneva talks failed per US officials
+- Force deployment: carrier and air-asset positioning matches pre-strike patterns from prior operations
+- Axios reporting: planning language suggests a sustained campaign rather than single strike
+- Iranian fortification activity: hardening of nuclear sites suggests expectation of strikes
+- Trump-administration posture: historically hawkish on [[Iran]] (2020 Soleimani strike precedent)
 
-### Bear case (33% no strike)
+### Off-ramp indicators (33% no strike)
 
-- Araghchi claims talks were "constructive" — diplomatic off-ramp possible
-- Carrier deployments can be coercive without kinetic action
-- Full campaign ("weeks") would be enormously costly and unpopular
-- Iran's Russia alliance raises escalation risk
-- [[Strait of Hormuz]] closure would spike oil, hurt US consumers
+- Iranian statements: Foreign Minister Araghchi characterized talks as "constructive"
+- Deployment as coercion: carrier deployments can signal resolve without kinetic action
+- Cost profile: multi-week campaign ("weeks") carries material fiscal and political cost
+- [[Russia]] alliance: [[Iran]]'s Russia alignment increases escalation risk
+- [[Strait of Hormuz]]: closure would spike oil prices and affect US consumer inflation
 
 ### If strikes happen — market implications
 

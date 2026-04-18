@@ -154,26 +154,23 @@ Thesis shift: The investment case pivots from "can they survive the regulatory c
 
 Key differentiator: vertical integration (own pharmacy, fulfillment, medical group) and largest DTC subscriber base. Strong brand among 25-44 demographic.
 
-## Bull case
+## Structural factors
 
-- Core business (ex-GLP-1) grew 43% YoY in 2024 — platform is not just semaglutide
-- Revenue approaching $2.3B with path to $6.5B by 2030 (management targets)
-- $1.1B cash, minimal debt — fortress balance sheet
-- ARPU rising 19% YoY; multi-condition subscribers growing 80% YoY
-- International expansion (ZAVA) adds large addressable markets
-- Novo Nordisk deal (Mar 2026) removes the single largest overhang — legal risk eliminated, branded distribution replaces compounding liability
-- Personalized treatment plans and multi-condition model reduce single-product dependency
-- Dudum actively pursuing additional pharma partnerships (Lilly orforglipron pending FDA approval Q2 2026)
-
-## Bear case
-
-- Margin compression risk: branded distribution at Novo's prices yields lower margins than compounded products — $725M at 70%+ margin replaced by pass-through at ~10-15% take rate?
-- Novo deal execution risk: Apr 2025 partnership collapsed in 2 months. Doustdar: "we reserve [the right] to bring that back if need be"
-- Gross margin compression: 82% (2023) to 74% (Q3 2025) — weight loss mix and fulfillment costs
-- Growth deceleration: 111% (Q1 2025) to 49% (Q3 2025) to guided 26-30% (Q4 2025)
-- No moat: No proprietary IP, patents, or diagnostics. 39% of revenue spent on marketing.
-- Dual-class voting: CEO controls ~90% of votes
-- Management credibility: Launched $49 semaglutide pill knowing it would provoke FDA; FDA warning letter; Novo accused them of deceptive marketing
+- Non-GLP-1 business: grew 43% YoY in 2024
+- Revenue trajectory: approaching $2.3B; management target of $6.5B by 2030
+- Balance sheet: $1.1B cash, minimal debt
+- ARPU: rising 19% YoY; multi-condition subscribers growing 80% YoY
+- International footprint: ZAVA acquisition adds European markets
+- [[Novo Nordisk]] deal (Mar 2026): legal overhang removed; branded [[Ozempic]]/[[Wegovy]] distribution replaces compounded-semaglutide model
+- Product structure: personalized treatment plans; multi-condition subscriber growth
+- Pharma pipeline: [[Lilly]] orforglipron partnership pending FDA approval Q2 2026
+- Margin mix: branded distribution take rate (~10-15%) is structurally lower than compounded-product gross margin (70%+); prior $725M at compounded margin is the displacement base
+- Deal-execution precedent: prior Apr 2025 partnership with Novo collapsed in 2 months; current agreement Mar 2026 subject to similar renegotiation risk
+- Gross margin trajectory: 82% (2023) → 74% (Q3 2025); weight-loss mix and fulfillment costs are drivers
+- Revenue growth: 111% (Q1 2025) → 49% (Q3 2025) → guided 26-30% (Q4 2025)
+- Moat profile: no proprietary IP, patents, or diagnostics; 39% of revenue spent on marketing
+- Governance: dual-class voting; CEO controls ~90% of votes
+- Regulatory history: $49 semaglutide pill launch drew an FDA warning letter; [[Novo Nordisk]] had accused Hims of deceptive marketing before the Mar 2026 partnership
 
 ## Related
 

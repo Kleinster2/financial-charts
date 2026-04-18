@@ -51,19 +51,16 @@ Converted units can run as **combined cycle** (steam turbine captures waste heat
 | [[Baker Hughes]] | ~2 GW |
 | **Total (2023-2025 avg)** | **~47 GW/year** |
 
-## Bull case
+## Structural factors
 
-- Fills urgent gap: data centers need power **now**, heavy-duty turbines take years to deliver
-- Abundant supply of retired engines (1,600/year commercial + military surplus)
-- [[FTAI Aviation]]: Jefferies estimates power business could add $750M EBITDA/year
-- Thunder Said Energy: expanding gas turbine manufacturing is *"surprisingly inexpensive"*; marine engine makers can repurpose *"with only minor investment"*
-
-## Bear case / risks
-
-- **Efficiency disadvantage:** [[GE Vernova]] CEO Scott Strazik dismisses smaller aeroderivative units: *"when you're underwriting 20-year business cases, efficiency matters a lot."* Heavy-duty turbines are most fuel-efficient (Thunder Said Energy) — but scarce and expensive
-- **Jet engine diversion:** converting retired engines to power could worsen the existing [[Boeing|jet engine shortage]]
-- **Pricing power erosion:** success of aeroderivative alternatives could diminish the big three's pricing power
-- **Unproven at scale:** conversion programs are early-stage
+- Timing gap: data-center power demand is immediate; heavy-duty turbine lead times run multiple years
+- Engine supply base: ~1,600/year retired commercial engines plus military surplus
+- [[FTAI Aviation]] scale: Jefferies estimates a $750M EBITDA/year power business
+- Manufacturing economics (Thunder Said Energy): gas-turbine manufacturing expansion characterized as "surprisingly inexpensive"; marine-engine makers can repurpose "with only minor investment"
+- Efficiency profile: aeroderivative units less fuel-efficient than heavy-duty turbines ([[GE Vernova]] CEO Scott Strazik: "when you're underwriting 20-year business cases, efficiency matters a lot"); Thunder Said Energy notes heavy-duty turbines are most fuel-efficient but scarce and expensive
+- Jet-engine supply effects: engine diversion to power applications affects [[Boeing|jet engine]] availability
+- Competitive pricing dynamics: aeroderivative capacity adds alternative supply affecting incumbent heavy-duty-turbine pricing
+- Scale maturity: conversion programs early-stage; commercial-volume unit performance not yet demonstrated
 
 ## Related
 

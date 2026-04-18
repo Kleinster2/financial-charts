@@ -366,21 +366,21 @@ The global chlor-alkali market is in a low-profitability cycle:
 - [[Olin]] has responded by shutting capacity (diaphragm cells serving [[Dow]]'s Freeport operations closed Dec 2024) and deliberately running below capacity
 - Chinese overcapacity continues to weigh on global derivative (PVC, EDC) prices
 
-### Bull case
+### Demand-side factors
 
-- Construction recovery (rate cuts → housing starts → PVC demand → chlorine tightens)
-- Water treatment demand growth in developing world (structural, non-cyclical)
-- Semiconductor fab buildout increases electronic-grade HCl demand
-- [[Olin]]'s capacity discipline eventually produces pricing power
-- Energy transition insulation demand (MDI/TDI for polyurethane foam)
+- Construction cycle: rate cuts -> housing starts -> PVC demand -> chlorine tightness
+- Water treatment: developing-world demand growth is structural, not cycle-dependent
+- Semiconductor fabs: electronic-grade HCl demand scales with fab buildout
+- [[Olin]] capacity discipline: producer-side capacity management affects chlorine pricing
+- Energy transition: MDI/TDI for polyurethane-foam insulation adds chlorine derivative demand
 
-### Bear case
+### Supply and substitution factors
 
-- Chinese PVC overcapacity suppresses global derivative prices indefinitely
-- Caustic-led production keeps chlorine in permanent surplus
-- Alternative disinfection technologies (UV, ozone) erode water treatment share at the margin
-- Propylene oxide shifts from chlorohydrin to HPPO process, eliminating ~3-4% of chlorine demand
-- European chlor-alkali continues to structurally shrink due to energy costs
+- Chinese PVC capacity: structural overcapacity suppresses global PVC and EDC derivative prices
+- Production coupling: caustic-soda-led production keeps chlorine in surplus when caustic demand drives electrolysis runs
+- Substitution: UV and ozone disinfection technologies erode chlorine's water-treatment share at the margin
+- Process shift: propylene oxide migration from chlorohydrin to HPPO process removes ~3-4% of chlorine demand
+- European chlor-alkali: structural contraction due to energy costs
 
 ### Signals to watch
 

@@ -172,26 +172,23 @@ Bradsaúde's 13M beneficiary count (including dental) makes it the largest singl
 
 ---
 
-## Bull case
+## Structural factors
 
-- Value unlock: separate listing forces market to price health assets at healthcare multiples, not bank multiples
-- Verticalization moat: no competitor owns the full insurance-to-hospital-to-diagnostics chain at this scale
-- Dental white space: 18M insured Brazilians without dental = immediate cross-sell
-- No dilution: no capital raise, no share offering — pure structural value creation
-- [[Bradesco]] retains 91% — aligned long-term, no dump risk
-- Marinelli's background (7 years running [[Grupo Fleury]]) is purpose-built for this job
-- JV-based hospital model de-risks vs [[Hapvida]]'s build-and-acquire approach
-- Follow-on will bring institutional ownership + index inclusion catalyst
-
-## Bear case
-
-- Healthcare regulation risk: [[ANS]] price controls, coverage mandates squeeze margins
-- Medical loss ratios: Brazilian health insurers face persistent cost pressure (40%+ annual readjustment demands)
-- Execution risk: integrating 7+ entities with different cultures, systems, and operational models under one holdco
-- Minority squeeze: 8.65% float is tiny — liquidity risk until [[Bradesco]] sells down via follow-on
-- [[Hapvida]]-[[NotreDame Intermédica]] proved vertical integration is hard in Brazil (stock -70% post-merger)
-- Premium positioning: Bradesco Saúde's brand is associated with high-end corporate plans — downmarket expansion may dilute margins
-- [[Bradesco]] parent is itself struggling (-70% over 5 years) — management bandwidth split between bank turnaround and healthcare buildout
+- Listing structure: separate listing prices health assets at healthcare multiples rather than embedded bank-holding-company multiples
+- Vertical scope: insurance + hospital + diagnostics chain under one holdco is unique at this scale in [[Brazil]]
+- Dental cross-sell: 18M insured Brazilians without dental coverage within the customer base
+- Capital structure: no dilution; no capital raise or share offering in the spin-off
+- [[Bradesco]] ownership: 91% retained post-spin-off
+- CEO track record: Marinelli previously ran [[Grupo Fleury]] for 7 years
+- Hospital model: JV-based partnerships vs. [[Hapvida]]'s build-and-acquire approach
+- Follow-on path: planned secondary offering brings institutional ownership and index-inclusion eligibility
+- Regulatory: [[ANS]] price controls and coverage mandates
+- Medical loss ratios: 40%+ annual readjustment demands from Brazilian health-insurance cost dynamics
+- Integration: 7+ entities with different cultures, systems, and operational models brought under one holdco
+- Float: 8.65% free float until [[Bradesco]] sells down via follow-on; limited secondary-market liquidity in the interim
+- Prior Brazilian comparable: [[Hapvida]] / [[NotreDame Intermédica]] merger traded -70% post-merger; vertical integration in Brazilian healthcare has been operationally difficult
+- Brand position: [[Bradesco Saúde]] is associated with high-end corporate plans; downmarket expansion requires brand-positioning work
+- Parent context: [[Bradesco]] stock down 70% over 5 years; management attention split between bank turnaround and healthcare buildout
 
 ---
 

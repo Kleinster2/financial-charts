@@ -75,12 +75,12 @@ aliases: [William Ackman, Ackman]
 
 ---
 
-## Bull case
+## Ackman's argument
 
-**Ackman on X:**
+Ackman on X:
 > "Trump and his team will get the job done. Trump likes big deals and this would be the biggest deal in history."
 
-| Factor | Argument |
+| Factor | Ackman's framing |
 |--------|----------|
 | Trump priority | Shrink government role |
 | Biden roadmap | Path laid out |
@@ -89,17 +89,17 @@ aliases: [William Ackman, Ackman]
 
 ---
 
-## Bear case / risks
+## Critics and counter-arguments
 
-| Critic | Argument |
+| Critic | Position |
 |--------|----------|
-| **Donald Layton** (ex-Freddie CEO) | Won't benefit working class voters, could raise mortgage costs |
-| **Michael Kao** (Akanthos) | Shareholders "massively diluted" without government largesse |
-| **Brian Violino** (Wedbush) | Sell rating — dilution degrades current value |
-| **Mark Zandi** ([[Moody's]]) | Disruptions likely, not a priority for "little guy" president |
-| **Mark Calabria** (ex-FHFA) | Retiring senior preferred was "political nonstarter" in Trump 1.0 |
+| Donald Layton (ex-Freddie CEO) | Would not benefit working-class voters; could raise mortgage costs |
+| Michael Kao (Akanthos) | Shareholders "massively diluted" absent government support |
+| Brian Violino (Wedbush) | Sell rating based on dilution assumptions |
+| Mark Zandi ([[Moody's]]) | Disruption likely; not a stated Trump-administration priority |
+| Mark Calabria (ex-FHFA) | Retiring senior preferred was a "political nonstarter" in Trump 1.0 |
 
-**Key risk:** Treasury converts to common → massive dilution vs. writing down $300B.
+Dilution pathway: Treasury-held senior preferred conversion to common would materially reduce existing common-holders' share vs. write-down of the $300B position.
 
 ---
 

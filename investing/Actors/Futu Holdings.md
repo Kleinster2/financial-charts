@@ -210,24 +210,22 @@ Crypto: Trading volume soared 161% QoQ in Q3 2025. [[Ethereum]] overtook [[Bitco
 
 ---
 
-## Investment case
+## Structural factors
 
-### Bull case ðŸ'
-- Explosive growth at scale â€" 86% revenue growth, 144% net income growth, with expanding margins
-- Incredible profitability â€" 88% gross margins, 61% operating margins, 50% net margins. These are software economics on a financial services business
-- Cheap valuation â€" 17Ã- trailing P/E, 10.7Ã- forward P/E for a company growing 80%+ YoY. Compare to [[Robinhood]] at higher multiples with lower margins
-- Multi-market optionality â€" already licensed in 7+ markets, each a growth vector. Malaysia in early innings. US accelerating.
-- Interest income base â€" $1.5B+ annualized in interest income provides a recurring floor even if trading volumes dip
-- Massive TAM â€" Asia-Pacific retail investing is underpenetrated vs. US. Rising middle class, generational wealth transfer, digitization of finance.
-- $800M buyback authorized through 2027
+- Growth profile: 86% revenue growth, 144% net income growth, with expanding margins
+- Margin structure: 88% gross margins, 61% operating margins, 50% net margins -- software-like economics on a financial-services business
+- Valuation: 17x trailing P/E, 10.7x forward P/E at 80%+ YoY growth; [[Robinhood]] trades at higher multiples with lower margins
+- Market footprint: licensed in 7+ markets; Malaysia early stage, US scaling
+- Interest income: $1.5B+ annualized -- recurring income base less exposed to trading-volume cyclicality
+- Addressable market: Asia-Pacific retail investing underpenetrated vs. US; structural drivers include rising middle class, generational wealth transfer, digitization of finance
+- Buyback: $800M authorization through 2027
+- [[China]] regulatory exposure: CSRC blocked mainland expansion; [[Tencent]] and cross-border-finance crackdowns affect sentiment; VIE structure adds legal complexity
+- [[Tencent]] ownership: Tencent has been divesting positions; remaining stake is a future supply-of-stock consideration
+- Revenue cyclicality: trading volumes are market-dependent; bear-market periods compress commissions and margin lending
+- Interest rate sensitivity: falling rates compress NIM on margin financing
+- US-China geopolitical exposure: NASDAQ-listed Chinese company; PCAOB audit access partially mitigates delisting risk
+- Competition: [[Robinhood]] expanding internationally; [[Interactive Brokers]] already global; local players in each market
 
-### Bear case ðŸ»
-- China regulatory risk â€" CSRC already blocked mainland expansion. Further crackdowns on [[Tencent]] or cross-border finance could impact the stock. VIE structure adds complexity.
-- Tencent overhang â€" [[Tencent]] has been divesting positions. A large Tencent sale could pressure the stock.
-- Market-dependent revenue â€" trading volumes are cyclical. A prolonged bear market would crush commissions and margin lending
-- Interest rate sensitivity â€" falling rates compress NIM on margin financing
-- US-China geopolitical risk â€" NASDAQ-listed Chinese company faces delisting risk (though PCAOB audit access resolved this partially)
-- Competition â€" [[Robinhood]] expanding internationally, [[Interactive Brokers]] already global, local players in each market
 
 ---
 

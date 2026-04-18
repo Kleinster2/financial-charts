@@ -141,39 +141,39 @@ See [[Neocloud financing]] for full analysis.
 
 ---
 
-## Bear case implications
+## Implications
 
-**For [[NVIDIA]]:**
-- Revenue quality question — are "shipments" actually utilization?
-- Insider selling: $496M in 90 days, zero buying (Nov 2025)
-- Michael Burry: put positions, calling for "pics of warehoused GPUs"
-- Stock +37% YTD vs memory +220% — market may be sensing this
-- **Ecosystem control** — financing buyers to absorb inventory
+For [[NVIDIA]]:
+- Revenue-quality question: ship-to-utilization ratio is the distinguishing metric between demand and channel-build
+- Insider activity: $496M of insider sales, zero purchases (Nov 2025)
+- [[Michael Burry]] disclosed put positions and publicly requested "pics of warehoused GPUs"
+- Stock performance: NVIDIA +37% YTD vs memory stocks +220%
+- Ecosystem dynamics: strategic investments in buyers (neoclouds, model labs) can sustain shipment cadence
 
-**For AI capex:**
-- Hyperscaler spend may decelerate if GPUs pile up
-- Capex may shift from chips → power infrastructure
-- 2026-2027 could see deployment catch-up, not new orders
-- Neocloud layer adds fragility (CDS spreads widening)
-
----
-
-## Bull case counterpoints
-
-1. **Backlog is real demand** — $275B NVIDIA backlog, $500B+ through CY2028
-2. **Deployment is ramping** — Gavin Baker says Blackwell truly started Q3/Q4 2025
-3. **Power coming online** — new DC capacity in 2026-2027
-4. **Efficiency gains** — Blackwell is 4x more efficient than Hopper per watt
-5. **Customers aren't canceling** — no order reductions announced
+For AI capex:
+- Hyperscaler spend pace depends on actual deployment-to-shipment ratio
+- Capex mix may shift from chips to power infrastructure as the binding constraint
+- 2026-2027 period may show deployment catch-up rather than incremental order growth
+- Neocloud credit spreads widening (CDS >700 bps at [[CoreWeave]])
 
 ---
 
-## For theses
+## Counterpoints to the warehouse thesis
 
-**[[Long NVIDIA]]**: Key risk — revenue quality, shipment ≠ deployment
-**[[Long memory]]**: Same risk — [[HBM]] shipped may sit idle
-**[[AI hyperscalers]]**: Capex may shift to power, not more chips
-**[[Power constraints]]**: The enabling constraint, not chip supply
+1. Backlog scale: $275B [[NVIDIA]] backlog; $500B+ through CY2028
+2. Deployment cadence: Gavin Baker reports [[Blackwell]] deployment started Q3/Q4 2025
+3. Power capacity: new data-center power coming online 2026-2027
+4. Efficiency transition: [[Blackwell]] ~4x more efficient than [[Hopper]] per watt, supporting continued replacement demand
+5. Order cancellations: no order reductions publicly announced as of Q1 2026
+
+---
+
+## Cross-references to other notes
+
+- [[Long NVIDIA]]: revenue-quality is the distinguishing variable; shipment does not equal deployment
+- [[Long memory]]: [[HBM]] shipped may remain uninstalled if GPU-side deployment stalls
+- [[AI hyperscalers]]: capex allocation may rotate toward power rather than incremental chip purchases
+- [[Power constraints]]: the binding constraint on deployment pace rather than chip supply
 
 ---
 

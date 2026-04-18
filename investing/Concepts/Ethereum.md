@@ -93,28 +93,21 @@ aliases: [ETH, ETH-USD, Ether]
 
 ---
 
-## Bull case
+## Structural factors
 
-| Thesis | Evidence |
+| Factor | Detail |
 |--------|----------|
-| **Institutional adoption** | BlackRock +224% ETH holdings in 2025; ETF flows |
-| **ESG alignment** | PoS uses 99%+ less energy than PoW |
-| **Network effects** | Most developer activity; EVM is industry standard |
-| **DeFi dominance** | 66% of all DeFi TVL |
-| **L2 ecosystem** | Base, Arbitrum, Optimism consolidated 90% of L2 activity |
-| **Supply dynamics** | ~30% locked in staking/DeFi; burn mechanism |
-
----
-
-## Bear case
-
-| Risk | Evidence |
-|------|----------|
-| **Revenue leakage** | L2s capture value; Dencun crushed mainnet fee revenue |
-| **Solana competition** | 7x more daily active addresses; faster/cheaper |
-| **No scarcity narrative** | Unlike Bitcoin's 21M cap |
-| **Complexity** | Upgrade roadmap risk; fragmented L2 liquidity |
-| **ETF flow reflexivity** | Risk-off macro could trigger outflows |
+| Institutional participation | BlackRock +224% ETH holdings in 2025; ETF inflows |
+| Energy profile | Proof-of-stake uses 99%+ less energy than proof-of-work |
+| Developer ecosystem | Most developer activity of any smart-contract platform; EVM is the industry standard |
+| DeFi share | 66% of all DeFi TVL |
+| L2 ecosystem | Base, Arbitrum, Optimism consolidated 90% of L2 activity |
+| Supply dynamics | ~30% locked in staking/DeFi; burn mechanism per EIP-1559 |
+| Value capture | L2s capture much of the transaction value; Dencun upgrade reduced mainnet fee revenue |
+| Competitive alternative | [[Solana]] has ~7x more daily active addresses; faster, cheaper transactions |
+| Supply cap | No fixed cap; contrast with Bitcoin's 21M schedule |
+| Protocol complexity | Upgrade roadmap spans multiple phases; L2 liquidity is fragmented |
+| ETF flow sensitivity | Risk-off macro environments trigger ETF outflows |
 
 ---
 

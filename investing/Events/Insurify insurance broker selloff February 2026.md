@@ -103,21 +103,21 @@ The structural vulnerability is identical: businesses that sit between buyer and
 
 ---
 
-## Bull case (broker defense)
+## Structural factors
 
-- Personal lines ≠ commercial lines — Insurify targets auto insurance comparison. Commercial/specialty insurance (Marsh, Aon's core) requires human advisory for complex, bespoke risk.
-- Consulting value — brokers do more than compare prices. They structure programs, negotiate terms, manage claims. AI can't replicate relationship-based placement.
-- Retention moats — 90%+ client retention rates. Enterprise clients don't switch brokers because a ChatGPT app exists.
-- Regulatory barriers — licensed broker requirements, fiduciary duties, compliance frameworks.
-- Bloomberg Intelligence: tools are "force multiplier rather than an existential threat."
+Broker-defense arguments:
+- Personal-lines vs. commercial-lines split: Insurify targets auto-insurance comparison; commercial and specialty insurance ([[Marsh & McLennan|Marsh]], [[Aon]] core business) requires advisory for complex, bespoke risk
+- Service scope: broker work includes program structuring, term negotiation, claims management — activities not directly replicable via an LLM-driven comparison tool
+- Client retention: 90%+ retention rates at enterprise-broker level; low switching rate to AI-native alternatives
+- Regulatory framework: licensed-broker requirements, fiduciary duties, compliance infrastructure
+- Bloomberg Intelligence framing: AI tools are a "force multiplier rather than an existential threat"
 
-## Bear case (disruption thesis)
-
-- Personal lines is the wedge — auto/home comparison is commoditized first, then AI expands into small commercial, then mid-market.
-- Pipeline is deep — dozen+ insurance AI apps in approval pipeline across OpenAI, Anthropic, Google. Platform shift, not one-off.
-- Junior broker roles at risk — quoting, comparison, simple placement. The entry-level work that feeds the talent pipeline.
-- Margin compression — even if brokers survive, commission rates compress as clients use AI for pre-negotiation leverage.
-- Precedent — travel agents, stockbrokers, real estate agents. Every intermediary facing digital comparison tools has seen margin compression.
+Disruption-thesis arguments:
+- Personal-lines wedge: auto/home comparison commoditizes first; mid-market commercial expansion follows historical SaaS-platform patterns
+- Product pipeline: dozen+ insurance AI applications in approval pipelines across [[OpenAI]], [[Anthropic]], [[Google]]
+- Workforce effects: junior broker roles (quoting, comparison, simple placement) are the entry-level work affected; talent-pipeline implications
+- Commission economics: AI-enabled client-side negotiation leverage compresses commission rates even absent full disintermediation
+- Historical precedents: travel agents, stockbrokers, real-estate agents have all experienced margin compression under digital-comparison pressure
 
 ---
 

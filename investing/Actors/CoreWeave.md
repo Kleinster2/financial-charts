@@ -210,23 +210,15 @@ CoreWeave is cited in [[AI infrastructure financing risk]] as key vulnerability:
 
 ---
 
-## Bull case
+## Structural factors
 
-- GPU shortage = pricing power
-- Microsoft contract provides visibility
-- NVIDIA backing = GPU access advantage
-- AI demand is real and growing
-- Hyperscalers can't meet all demand
-
----
-
-## Bear case
-
-- 65% Microsoft concentration is dangerous
-- CDS spread implies near-junk credit
-- GPU depreciation accelerating (Blackwell → Rubin)
-- Competing with hyperscalers long-term is hard
-- Could be NVIDIA inventory management vehicle
+- GPU supply environment: shortage conditions support pricing for capacity holders
+- Customer concentration: ~65% of revenue from [[Microsoft]]
+- Supplier relationship: [[NVIDIA]] backing and allocation access; equity stake context
+- Credit market signal: CDS spread implies near-junk credit pricing
+- Hardware cycle: accelerated GPU depreciation through Blackwell → Rubin transition
+- Competitive structure: hyperscalers ([[AWS]], [[Azure]], [[GCP]]) operate GPU capacity at larger scale
+- AI-compute demand growth tracked across hyperscaler and neocloud segments
 
 ---
 

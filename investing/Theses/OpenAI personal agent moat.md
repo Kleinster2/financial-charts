@@ -64,13 +64,13 @@ The gap between what OpenClaw demonstrated and what a non-technical user can saf
 
 ---
 
-## Bull case
+## Factors supporting the thesis
 
-- OpenAI ships a consumer agent product in 2026 that becomes the "second ChatGPT moment"
-- Chrome/Chromium model works: OpenClaw stays open-source, OpenAI builds polished commercial layer
-- Messaging-first distribution gives OpenAI a moat competitors can't easily replicate (requires carrier/platform deals)
-- Peter's developer credibility pulls the open-source agent community toward OpenAI's ecosystem
-- "Kill 80% of apps" prediction plays out gradually — each app replaced is revenue for the agent platform
+- OpenAI's 2026 consumer-agent product roadmap: referenced as the "second ChatGPT moment" by OpenAI leadership
+- Chrome/Chromium-style model: [[OpenClaw]] remains open-source while [[OpenAI]] builds a polished commercial layer on top
+- Messaging-first distribution: requires carrier/platform deals, raising the barrier for competitors
+- Peter Steinberger's developer credibility: draws open-source agent community toward OpenAI-aligned tools
+- "Kill 80% of apps" framing: every replaced app migrates its revenue to the agent-platform layer
 
 ## Anthropic's competing vision: Conway (Apr 2026)
 
@@ -82,15 +82,15 @@ This complicates the thesis. [[OpenAI]]'s window to ship a consumer personal age
 
 ---
 
-## Bear case
+## Factors complicating the thesis
 
-- **Chromium risk**: Google dominates Chromium despite it being "open source." OpenAI could similarly absorb OpenClaw's direction, alienating the community
-- **Foundation governance undefined**: Board composition, funding sources, contribution policies not announced — the independence is aspirational, not structural
-- **3,000+ open PRs**: Solo developer → full-time employee means less discretionary time for open-source maintenance. Community needs its own leadership bench
-- **Security remains unsolved**: Making this safe for non-technical users ("even my mum") requires solving sandboxing, permission management, and data sovereignty problems that are at the frontier of what anyone knows how to do
-- **Product-market fit uncertainty**: OpenAI caught lightning with ChatGPT once. Consumer agents are a different category — PMF is notoriously hard
-- **[[Anthropic]] Claude Code at $1B ARR**: The developer tools market is already sticky. Codex is playing catch-up, and switching costs may be real
-- **Peter's optionality**: "The beauty is if it doesn't work out, I can just do my own thing again." Zero desperation = zero lock-in. If OpenAI's vision diverges from his, he walks
+- Chromium governance precedent: [[Google]] dominates direction of the "open-source" Chromium; OpenAI could absorb [[OpenClaw]]'s direction similarly
+- Foundation governance: board composition, funding sources, contribution policies not published — independence is aspirational pending structure
+- Maintenance capacity: 3,000+ open PRs; solo-developer-to-employee transition reduces discretionary open-source time
+- Security model: sandboxing, permission management, data sovereignty for non-technical users are frontier problems with no consensus solution
+- Consumer-agent PMF: different category than chat; product-market fit for agent-class products is unproven at consumer scale
+- [[Anthropic]] competitive position: [[Claude Code]] at $1B ARR; [[Codex]] is behind on developer adoption; switching costs for developer-tools are meaningful
+- Peter Steinberger's optionality: stated that he can return to independent work if OpenAI vision diverges; no personal lock-in
 
 ---
 

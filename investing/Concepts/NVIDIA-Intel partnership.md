@@ -85,14 +85,14 @@ This deal announced as NVIDIA becomes **first $5 trillion company**:
 
 ---
 
-## Bear case
+## Open questions and constraints
 
-| Risk | Concern |
+| Factor | Detail |
 |------|---------|
-| Intel execution | 18A still unproven at scale |
-| Foundry skepticism | NVIDIA may not actually use Intel fabs |
-| Optics play | $5B is small for NVIDIA — PR benefit? |
-| Conflict of interest | NVIDIA owns stake in competitor |
+| [[Intel]] execution | 18A process node has not yet demonstrated volume production |
+| Foundry commitment | No disclosed [[NVIDIA]] tape-out to Intel fabs; actual wafer allocation is uncertain |
+| Deal-size ratio | $5B is small relative to [[NVIDIA]]'s balance sheet and typical acquisition scale |
+| Competitive alignment | [[NVIDIA]] holds equity in [[Intel]], which competes with NVIDIA in data-center CPUs |
 
 ---
 

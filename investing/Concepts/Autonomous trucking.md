@@ -213,29 +213,29 @@ Freight customers are rational B2B buyers — if economics work, they'll adopt.
 
 ---
 
-## Investment implications
+## Structural factors
 
-### Bull case
+### Demand and operational
 
-| Factor | Why it matters |
+| Factor | Detail |
 |--------|----------------|
-| Commercial revenue | No longer pre-revenue |
-| Driver shortage | Structural demand driver |
-| Unit economics | 30-40% cost savings possible |
-| OEM partnerships | De-risked vehicle supply |
-| Consolidation | Aurora won, competitors dead |
+| Commercial revenue | Post-pre-revenue stage; active commercial routes in Texas |
+| Driver shortage | ~60K+ US trucking driver gap (ATA estimates) |
+| Unit economics | 30-40% cost savings at scale vs. driver-operated routes |
+| OEM partnerships | Vehicle supply via Peterbilt, Volvo, Daimler partnerships |
+| Competitive landscape | [[Aurora Innovation]] is the main US Class-8 autonomous-trucking operator after competitor exits |
 
-### Bear case
+### Execution and constraints
 
-| Factor | Risk |
+| Factor | Detail |
 |--------|------|
-| Cash burn | Still losing money |
-| Scale timeline | Years to profitability |
-| Regulation | Federal rules unclear |
-| Competition | Daimler/Torc, new entrants |
-| Safety incidents | One crash = setback |
+| Cash burn | Companies running negative FCF as routes scale |
+| Profitability timeline | Multi-year path to unit-level profitability at meaningful scale |
+| Regulatory framework | Federal rules for autonomous trucking remain incomplete |
+| Competition | Daimler/Torc, Kodiak Robotics, Waymo Via |
+| Safety-incident sensitivity | Early-stage deployment is sensitive to high-profile crash events |
 
-### How to play
+### Vehicles for exposure
 
 | Approach | Vehicle |
 |----------|---------|

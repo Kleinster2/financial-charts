@@ -187,25 +187,23 @@ Toyota is Pony.ai's most important strategic partner and a major investor:
 
 ## Investment case
 
-### Bull case
-- Gen 7 unit economics breakeven proves commercial viability → fleet expansion to 3,000+ vehicles in 2026 drives revenue inflection
-- $1.4B+ cash position (post-HK IPO) provides 5+ years runway at current burn
-- Toyota JV creates manufacturing moat — automotive-grade cost structure
-- Asset-light model reduces capital intensity, improves margins
-- China regulatory environment increasingly supportive of AV deployment
-- International expansion (Bolt Europe, ComfortDelGro Singapore, Middle East) diversifies revenue
-- Analyst consensus: Strong Buy, $22 target (~50% upside)
-
-### Bear case
-- Still deeply unprofitable — $274M net loss in 2024, $338M TTM. Profitability consensus ~2029
-- Gross margin declining trend (78% → 15% → 18%) as revenue mix shifts to lower-margin operations
-- Revenue growth was sluggish 2022-2024 (+5%, +4%) before Q3 2025 acceleration — sustainability uncertain
-- Fleet of 900 vehicles is small vs Waymo (700+) and Baidu Apollo (1,000+), despite higher valuation
-- China geopolitical risk — US-listed Chinese company, potential for delisting pressure
-- Competition intensifying: Baidu, WeRide, Waymo, Tesla all scaling simultaneously
-- Robotruck revenue growth stalling (+8.7% YoY) despite being largest segment
-- California permit revoked in 2022 (safety incident in 2021) — US expansion effectively stalled
-- Cash burn accelerating: $173.6M FCF outflow in 9 months of 2025
+### Structural factors
+- Unit economics: Gen 7 reaches breakeven per-vehicle; fleet planned expansion to 3,000+ vehicles in 2026
+- Cash position: $1.4B+ post-HK IPO; ~5 years runway at current burn
+- Manufacturing: [[Toyota]] JV sets automotive-grade cost structure
+- Capital structure: asset-light model
+- [[China]] regulatory context: supportive of AV deployment
+- International footprint: Bolt (Europe), ComfortDelGro (Singapore), Middle East
+- Analyst coverage: consensus Strong Buy, ~$22 target
+- Profitability: $274M net loss 2024, $338M TTM; profitability consensus ~2029
+- Gross margin trajectory: 78% -> 15% -> 18% as revenue mix shifts toward lower-margin operations
+- Revenue history: sluggish growth 2022-2024 (+5%, +4%) before Q3 2025 acceleration
+- Fleet scale: ~900 vehicles vs [[Waymo]] 700+ and Baidu Apollo 1,000+
+- [[China]] geopolitical exposure: US-listed Chinese company with delisting-pressure considerations
+- Competitive landscape: Baidu, WeRide, Waymo, Tesla scaling in parallel
+- Segment dynamics: robotruck revenue growth slowing (+8.7% YoY) as largest segment
+- US operations: California permit revoked 2022 after 2021 safety incident; US expansion paused
+- Cash burn: $173.6M FCF outflow in first 9 months of 2025
 
 ---
 

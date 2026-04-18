@@ -130,23 +130,23 @@ US investing **$5B** in munitions factory upgrades.
 
 ---
 
-## Investment considerations
+## Structural factors
 
-### Bull case
+### Demand and supply-gap side
 
-- Structural deficit widening (S&P: 10M tonnes by 2040)
-- AI infrastructure = multi-year demand
-- Supply cannot respond quickly (17-year timeline)
-- Electrification adds baseload demand
-- Price must rise to incentivize new supply
+- Structural deficit forecasts: S&P projects ~10M tonnes by 2040
+- AI infrastructure: multi-year data-center and grid-hardening demand
+- Supply response time: ~17 years from discovery to production for greenfield projects
+- Electrification: EV, grid, and renewable buildout adds baseload demand
+- Incentive pricing: marginal cost of new supply implies higher sustained prices to trigger capex
 
-### Bear case
+### Supply and headwind side
 
-- 1990s fiber optic parallel — capacity overbuilds
-- Substitution at high prices (aluminum)
-- China slowdown (still ~50% of demand)
-- Recession dampens industrial demand
-- Speculative excess in "AI metals" theme
+- Historical parallel: 1990s fiberoptic overbuild — demand assumptions can overshoot capex
+- Substitution: aluminum substitutes for copper at sustained high prices (wire, some cables)
+- [[China]] consumption: ~50% of global demand; domestic slowdown affects balance
+- Macro cycle: recession scenarios reduce industrial demand
+- Thematic flow: "AI metals" theme attracts capital rotation; positioning can run ahead of fundamentals
 
 ---
 

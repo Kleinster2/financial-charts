@@ -157,24 +157,17 @@ Strong pedigree in infrastructure/distributed systems.
 
 ---
 
-## Investment relevance
-
-### Bull case
+## Structural factors
 
 | Factor | Detail |
 |--------|--------|
-| **Remote work** | Permanent shift needs better VPN |
-| **Zero Trust adoption** | Tailscale fits ZTNA model |
-| **Developer love** | Strong word-of-mouth |
-| **AI agents** | Mesh networks for distributed AI |
-
-### Bear case
-
-| Risk | Detail |
-|------|--------|
-| **Private** | No public investment vehicle |
-| **Narrow moat** | WireGuard is open; others can build |
-| **Enterprise sales** | Competing with established vendors |
+| Remote work | Persistent remote/hybrid work supports VPN demand |
+| Zero Trust adoption | Fits ZTNA architecture model |
+| Developer channel | Bottom-up adoption via developer word-of-mouth |
+| AI agents | Mesh networks applicable to distributed AI compute |
+| Technology base | Built on [[WireGuard]], an open protocol — competitors can build on the same foundation |
+| Enterprise competition | Established VPN and ZTNA vendors present in the market |
+| Company status | Private — no public investment vehicle |
 
 ---
 

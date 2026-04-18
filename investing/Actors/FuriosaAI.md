@@ -147,24 +147,21 @@ RNGD uses tensor contraction as primary operation rather than matrix multiplicat
 
 ---
 
-## Bull case
+## Structural factors
 
-- **2-3x power efficiency** = real cost savings at scale
-- **[[Groq]] absorbed by NVIDIA** = one less independent competitor
-- **LG commercial deal** validates technology in production
-- Inference market growing faster than training (training once, inference billions of times)
-- [[Power constraints]] make efficiency existential, not just nice-to-have
-- South Korea talent pool ([[Samsung]], [[SK Hynix]]) + government support
-- IPO path clear (targeting 2026-2027)
-
-## Bear case
-
-- NVIDIA's CUDA ecosystem moat still intact
-- Scale risk — mass production just starting
-- Customer adoption — enterprises slow to switch from NVIDIA
-- Funding needs — competing vs NVIDIA requires deep pockets
-- [[NVIDIA]] now has Groq's inference IP — will integrate into Rubin
-- Single major customer ([[LG]]) — concentration risk
+- Power efficiency: RNGD silicon at 2-3x [[NVIDIA]] [[H100]] on inference workloads (company benchmarks)
+- Competitive landscape: [[Groq]] absorbed by [[NVIDIA]] (2026); Furiosa is one of fewer remaining independent inference-silicon players
+- Customer validation: [[LG]] commercial production deal
+- Workload mix: inference demand growing faster than training (training cycles are finite; inference scales with usage)
+- Macro driver: [[Power constraints]] make chip-level efficiency a primary design criterion
+- Ecosystem base: [[South Korea]] talent pool ([[Samsung]], [[SK Hynix]]) and government support
+- Exit timeline: targeted 2026-2027 IPO window
+- [[CUDA moat]]: NVIDIA software ecosystem remains the incumbent standard
+- Production scale: mass production in early ramp
+- Customer switching: enterprise adoption cycles from NVIDIA are multi-year
+- Capital requirements: competing vs NVIDIA needs deep balance-sheet or strategic backing
+- IP dynamics: NVIDIA's acquisition of [[Groq]] adds Groq inference IP to the Rubin generation
+- Customer concentration: [[LG]] is the single anchor customer disclosed to date
 
 ---
 

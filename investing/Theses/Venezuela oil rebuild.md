@@ -105,31 +105,31 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 
 ---
 
-## Bull case
+## Factors supporting the thesis
 
-- Trump committed to US control of oil
-- 303B barrels = decades of supply
-- Gulf Coast refineries purpose-built for Venezuela crude
-- Services companies need new growth markets
-- US energy security priority
-- Transition government cooperates
+- Trump-administration posture: public commitment to US control of [[Venezuela]] oil
+- Reserve base: 303B barrels — decades of supply
+- US Gulf Coast refineries: heavy-sour-optimized configuration matches [[Venezuela]] crude quality
+- Oilfield services demand: [[Halliburton]], [[Schlumberger]], [[Baker Hughes]] seeking new international growth markets
+- US energy-security framing: administration priority
+- Political prerequisite: transition government cooperation required
 
-**Upside:** Multi-year capex cycle, lower oil prices long-term, refiner margin expansion.
+Directional: multi-year capex cycle; downward pressure on crude prices over medium term; margin expansion for Gulf Coast refiners.
 
 ---
 
-## Bear case
+## Factors complicating the thesis
 
-- Security environment unstable
-- Transition government may not form
-- Russia/[[China]] opposition
-- Infrastructure more degraded than expected
-- [[Oil]] prices already low (oversupplied)
-- [[ESG]]/political backlash on "oil grab"
-- Takes 5+ years to meaningfully increase production
-- Legal and commercial framework currently deemed 'uninvestable' by industry (Exxon CEO)
+- Security environment: unstable; rule-of-law and personnel safety not yet restored
+- Transition government: formation contingent on political-settlement path
+- International opposition: [[Russia]] and [[China]] positioning against US-led oil-sector rebuild
+- Infrastructure condition: degraded more than industry baseline assumptions suggest
+- Oil-price context: global market oversupplied; price support for marginal new production is weak
+- ESG and political: domestic US political criticism of "oil grab" framing
+- Production ramp timeline: 5+ years to return to 1990s-2000s production levels
+- Industry position: [[ExxonMobil]] CEO has characterized legal and commercial framework as "uninvestable"
 
-**Risk:** Near-term volatility, companies hesitant without stability.
+Directional: near-term volatility; industry hesitation until stability returns.
 
 ---
 

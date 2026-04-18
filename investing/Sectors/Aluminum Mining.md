@@ -131,22 +131,22 @@ China's 45M tonne cap is binding — no more incremental Chinese supply.
 
 ---
 
-## Investment considerations
+## Structural factors
 
-### Bull case
+### Demand and supply-constraint side
 
-- China capacity capped — supply constrained
-- Energy transition demand (solar, EVs, grid)
-- Green aluminum premium expanding
-- Low-cost producers (Hydro, EGA) well-positioned
+- [[China]] capacity cap: formal cap on Chinese primary-aluminum smelting capacity constrains global supply
+- Energy transition demand: solar, EV, and grid applications add structural demand
+- Green-aluminum premium: low-carbon primary aluminum trades at a premium, expanding as procurement standards tighten
+- Low-cost producers: [[Hydro|Norsk Hydro]], EGA operate among the lowest-cost global smelters (hydropower-based)
 
-### Bear case
+### Supply and headwind side
 
-- China slowdown (still ~50% of demand)
-- Energy costs volatile (smelters are price takers)
-- Indonesian capacity surge
-- Alumina oversupply emerging
-- Substitution from steel/composites at high prices
+- [[China]] consumption: ~50% of global aluminum demand; slowdown affects balance
+- Energy-cost volatility: smelters are energy-price takers; operating costs swing with electricity markets
+- Indonesian capacity: capacity ramp in [[Indonesia]] adds new supply
+- Alumina: oversupply developing at the upstream alumina refining stage
+- Substitution: steel, composites, and high-strength alternatives substitute at sustained high aluminum prices
 
 ### Key metrics to watch
 

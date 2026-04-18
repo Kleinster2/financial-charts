@@ -173,23 +173,20 @@ Brookfield is the **only major alt manager that owns every layer** of the AI inf
 
 No other infrastructure investor can bundle power + space + compute + software in a single contract. This is Brookfield's bet: that the AI buildout needs an **infrastructure intermediary**, not just cloud providers.
 
-### Bull case
+### Structural factors
 
-- **$7T AI capex** thesis validated by [[Meta]] ($135B/yr), [[Microsoft]], [[Google]], [[Amazon]] spending acceleration
-- **Sovereign AI** is a real demand driver — every nation wants domestic compute, creating recurring global demand
-- **Low cost of capital** vs. GPU cloud startups — Brookfield raises infrastructure-grade capital at much lower rates than [[CoreWeave]]'s $7.5B+ debt
-- **NVIDIA alignment** — NVIDIA is both fund investor and supplier, creating mutual incentive (similar to [[commercial warrants]] logic)
-- **Power scarcity** is the real AI bottleneck — Brookfield's renewable portfolio becomes its deepest moat as data centers compete for grid access
-- **Take-or-pay contracts** eliminate demand risk — investment-grade counterparties locked in for ~5 years
-
-### Bear case
-
-- **GPU obsolescence risk** — 5-year chip life assumption may be too long; 2-3 year cycles could leave stranded assets
-- **"We will not take technology risk"** is aspirational — if customer defaults or demand shifts to new architectures, contracts may not hold
-- **Sovereign cloud may stay niche** — governments are slow procurers and politically unpredictable
-- **Execution complexity** — bundling six layers across multiple countries is exponentially harder than any single layer
-- **NVIDIA concentration** — single supplier dependency; allocation crunches favor hyperscalers over Brookfield
-- **Valuation already reflects AI thesis** — BAM/BN have rallied; how much AI premium is already priced in?
+- AI capex trajectory: ~$7T cumulative estimate; annualized commitments from [[Meta]] (~$135B/yr), [[Microsoft]], [[Google]], [[Amazon]]
+- Sovereign AI demand: national-compute initiatives across multiple countries
+- Cost of capital: infrastructure-fund capital is priced below GPU-cloud-startup debt ([[CoreWeave]] $7.5B+ debt stack for reference)
+- [[NVIDIA]] relationship: NVIDIA is both fund investor and supplier (alignment similar to [[commercial warrants]] structure)
+- Power infrastructure: renewable portfolio relevant to data-center grid-access constraints
+- Contract structure: take-or-pay contracts with investment-grade counterparties, ~5-year duration
+- GPU depreciation assumptions: fund models reference 5-year chip life; actual refresh cycles (2-3 years with Blackwell → Rubin) may diverge
+- Technology-risk posture: Brookfield's stated policy is to not take technology risk; actual risk depends on customer-contract durability
+- Sovereign-cloud procurement: government cycles are slower than commercial
+- Operational complexity: six-layer stack across multiple countries
+- Supplier concentration: NVIDIA single-source; allocation in shortage conditions favors hyperscalers
+- Valuation context: BAM and BN both rallied through 2024-2025 on AI-capex thesis
 
 ### The historical analogy
 

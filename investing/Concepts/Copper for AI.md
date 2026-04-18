@@ -189,27 +189,27 @@ The supply chain is contracting at the smelter layer while demand explodes at th
 
 ---
 
-## Bull case
+## Demand-side factors
 
-- AI infrastructure demand is structural, not cyclical
-- Supply cannot respond quickly (decade-long projects)
-- Electrification adds to baseload demand
-- Underinvestment catching up
-- Policy tailwinds (reshoring, energy security)
-- Lower rates = cheaper to hold inventory
+- AI infrastructure buildout: structural demand driver separate from industrial cycle
+- Supply response time: greenfield copper projects take ~10+ years from discovery to production
+- Electrification: EV, grid, and renewable build add baseload copper demand
+- Investment history: chronic underinvestment in mining capex 2014-2022 constrains 2026 supply
+- Policy context: reshoring, grid hardening, and energy-security programs add demand
+- Rate environment: lower rates reduce the cost of holding inventory
 
 ---
 
-## Bear case / Risks
+## Supply and headwind factors
 
-- 1990s fiber optic parallel — capacity can overshoot
-- Speculative excess in "AI metals" theme
-- Demand assumptions may prove too optimistic
-- Substitution if prices stay high
-- Recession risk dampens industrial demand
-- [[China]] slowdown (still major consumer)
+- Historical parallel: 1990s telecommunications-era fiberoptic overbuild — demand assumptions overshoot capex
+- Thematic capital flow: "AI metals" theme attracts capital rotation; positioning may run ahead of fundamentals
+- Demand elasticity: industrial demand assumes continued AI-capex pace
+- Substitution: aluminum, fiber-optic, and other substitutes become economic at sustained high copper prices
+- Macro cycle: recession scenarios reduce industrial copper demand
+- [[China]] consumption: still the largest copper consumer; domestic slowdown affects global balance
 
-**The Copper Journal's John Gross** warns of parallels to 1990s fiberoptic boom.
+The Copper Journal's John Gross has flagged parallels to the 1990s fiberoptic buildout cycle.
 
 ---
 

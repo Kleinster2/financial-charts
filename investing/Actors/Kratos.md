@@ -183,24 +183,22 @@ Kratos's moat: years ahead on affordable jet-powered drone production at scale. 
 
 ## Investment thesis
 
-### Bull case
-- Disruptive positioning: only public pure-play on affordable tactical drones at scale
-- Revenue acceleration: 11-13% â†’ 15-20% â†’ 18-23% organic growth over three years
-- Margin expansion: 100bp/year EBITDA improvement as production scales
-- $13B pipeline: record bid pipeline suggests multi-year revenue visibility
-- Multiple program wins: Poseidon ($750M), USMC CCA, DMOS, international â€” not single-program dependent
-- Geopolitical tailwind: Iran strike scenario, NATO rearmament, Ukraine lessons all drive drone/hypersonic demand
-- Debt-free: paid off $180M term loan, clean balance sheet for growth investment
-- Serial production inflection: 2026 is the year Valkyrie moves from development to volume delivery
-
-### Bear case
-- Valuation: ~12x sales, ~130x EBITDA, ~106x FY2027E earnings â€” priced for perfection
-- Profitability: barely GAAP profitable, negative FCF as capex ramps
-- Primes entering: [[Northrop Grumman]], [[Lockheed Martin]], [[Boeing]] all developing CCA programs
-- Program risk: USAF chose [[General Atomics]] XQ-67 over Valkyrie for OBSS â€” not guaranteed wins
-- Fixed-price contract pain: Q3 2025 margins hurt by 2020-21 era fixed-price contracts that can't be renegotiated
-- Customer concentration: heavily dependent on US DoD
-- Execution risk: scaling from development shop to volume manufacturer is operationally challenging
+### Structural factors
+- Category position: only public pure-play on affordable tactical drones at scale
+- Revenue trajectory: 11-13% -> 15-20% -> 18-23% organic growth across three years
+- Margin trajectory: ~100bp/year EBITDA improvement as production scales
+- Bid pipeline: $13B disclosed
+- Program wins: Poseidon ($750M), USMC CCA, DMOS, multiple international contracts
+- Macro context: Iran-strike scenario, NATO rearmament, Ukraine lessons drive drone/hypersonic demand
+- Balance sheet: $180M term loan retired; debt-free
+- Production stage: 2026 is the transition from Valkyrie development to volume delivery
+- Valuation: ~12x sales, ~130x EBITDA, ~106x FY2027E earnings
+- Profitability: marginally GAAP-profitable; negative FCF through capex ramp
+- Competitive entrants: [[Northrop Grumman]], [[Lockheed Martin]], [[Boeing]] developing CCA programs
+- Program loss: USAF selected [[General Atomics]] XQ-67 over Valkyrie for OBSS
+- Legacy contracts: Q3 2025 margins affected by 2020-21 fixed-price contracts not subject to renegotiation
+- Customer concentration: US DoD-dominant
+- Operational scaling: transition from development shop to volume manufacturer
 
 ---
 

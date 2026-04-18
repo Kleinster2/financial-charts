@@ -60,23 +60,20 @@ Abu Dhabi competes with multiple jurisdictions for crypto capital:
 
 ---
 
-## Bull case
+## Structural factors
 
-- Sovereign money creates credibility no private hub can match
-- Zero income/capital gains tax
-- ADGM framework trusted by institutions
-- Strategic time zone between Asia and Europe
-- [[Abu Dhabi Sovereign Wealth]] ecosystem provides deal flow and co-investment
-- RWA tokenization could be a massive market ($16T+ of tokenizable assets globally)
-
-## Bear case
-
-- Top-down bets — if leadership priorities shift, capital retreats
-- Dubai competes within the same country
-- Retail Bitcoin payments restricted since August 2025 — signals limits to adoption
-- Regulatory rigor can also mean exclusion (privacy coins banned)
-- Geopolitical risk — Gulf stability not guaranteed long-term
-- US pro-crypto shift under Trump could pull capital back to traditional centers
+- Sovereign backing: state-aligned capital and regulatory support vs. private-hub models
+- Tax regime: zero income and capital-gains tax for qualifying activities
+- Regulatory framework: ADGM (Abu Dhabi Global Market) common-law jurisdiction used by institutions
+- Time-zone position: GMT+4 overlaps with both Asian and European trading hours
+- [[Abu Dhabi Sovereign Wealth]] ecosystem: deal flow and co-investment capacity
+- RWA tokenization: global tokenizable-asset base estimated at $16T+
+- Top-down dependency: program continuity tied to ruling-family priorities
+- Intra-country competition: [[Dubai]] is an alternative hub within the same federation
+- Retail adoption constraints: retail [[Bitcoin]] payments restricted since August 2025
+- Regulatory exclusions: privacy coins banned; certain activity categories out of scope
+- Regional geopolitical context: Gulf security environment
+- Competitive venues: US pro-crypto policy stance under Trump affects competing jurisdictional positioning
 
 ---
 

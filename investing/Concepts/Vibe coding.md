@@ -159,31 +159,31 @@ The vibe coding promise of leisure has inverted into a mandate to accelerate. Bl
 
 ---
 
-## Investment framework
+## Category players
 
-### Bull case
+### Pure-play vendors
 
-| Thesis | Reasoning |
+| Company | Position |
 |--------|-----------|
-| **Long [[Lovable]]** | Pure-play leader, $200M ARR, 30x growth |
-| **Long [[Supabase]]** | Infrastructure picks-and-shovels |
-| **Long [[Vercel]]** | Frontend deployment default |
+| [[Lovable]] | $200M ARR, 30x YoY growth |
+| [[Supabase]] | Infrastructure layer used across vibe-coding tools |
+| [[Vercel]] | Default frontend deployment target |
 
-### Bear case
+### Competitive pressure
 
-| Risk | Impact |
+| Factor | Detail |
 |------|--------|
-| Big Tech competition | [[Microsoft]] (Copilot), [[Google]] ([[Gemini]]) |
-| Quality ceiling | Enterprise won't trust vibe-coded apps |
-| Commoditization | Models becoming commodity |
+| Incumbents | [[Microsoft]] Copilot, [[Google]] [[Gemini]] embedded in IDEs and workflows |
+| Enterprise adoption | Enterprise-production trust for vibe-coded apps developing; quality ceiling is unresolved |
+| Commoditization | Model-layer competition compresses per-query economics |
 
-### Second-order plays
+### Adjacent providers
 
-| Company | Angle |
+| Company | Relationship |
 |---------|-------|
-| [[Anthropic]], [[OpenAI]] | Model providers (already priced) |
-| [[NVIDIA]] | Compute (already priced) |
-| Cloud providers | Usage growth |
+| [[Anthropic]], [[OpenAI]] | Underlying model providers |
+| [[NVIDIA]] | Compute supplier |
+| Cloud providers | Usage-driven revenue |
 
 ---
 

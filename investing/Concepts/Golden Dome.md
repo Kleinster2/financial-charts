@@ -209,25 +209,25 @@ Critics warn rapid missile defense expansion could spur [[Russia]]/[[China]] to 
 
 ---
 
-## Investment implications
+## Program factors
 
-### Bull case
-
-| Factor | Detail |
-|--------|--------|
-| Scale | Even partial build = $100B+ |
-| Duration | Through 2035 |
-| Bipartisan | $25B already budgeted |
-| Primes benefit | Regardless of full completion |
-
-### Bear case
+### Scale and budget
 
 | Factor | Detail |
 |--------|--------|
-| Political risk | May not survive administration |
-| Technical risk | [[Space]] interceptors don't exist |
-| Cost overruns | History of missile defense |
-| 2029 deadline | Unrealistic |
+| Program scale | Partial build estimated $100B+ |
+| Duration | Program horizon through 2035 |
+| Congressional status | $25B budgeted to date |
+| Prime-contractor participation | Contracts awarded across partial-completion scenarios |
+
+### Execution and risk factors
+
+| Factor | Detail |
+|--------|--------|
+| Political durability | Program continuation across administration changes |
+| Technical maturity | Space-based interceptors not yet fielded |
+| Historical cost behavior | Missile-defense programs have cost-overrun history (SDI, Ground-Based Midcourse Defense) |
+| 2029 target date | Full-completion by 2029 outside typical missile-defense development timelines |
 
 ### Key beneficiaries
 

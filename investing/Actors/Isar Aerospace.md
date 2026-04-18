@@ -80,22 +80,19 @@ All five startups received ESA European Launcher Challenge funding (from €900M
 
 ---
 
-## Bull case
+## Structural factors
 
-- ESA + German military demand provides revenue visibility
-- Vertical integration + automation (30 rockets/yr factory) positions for cost competition
-- First-mover among European VC-backed launchers
-- Experienced team ([[SpaceX]] alumni, serial founders)
-- Small launchers offer flexibility [[SpaceX]] can't (dedicated orbits, timing control)
-
-## Bear case
-
-- First launch failed — still pre-revenue, pre-orbit
-- Not reusable ([[SpaceX]] cost advantage remains)
-- Small launchers don't compete on $/kg with Falcon 9
-- VC-backed space ventures have high mortality (Virgin Orbit bankruptcy 2023)
-- Geo-return policy fragments European space funding
-- Crowded field: 5 funded European startups for limited demand
+- Customer base: [[ESA]] and German military demand
+- Cost structure: vertical integration + automation targeting 30 rockets/yr factory
+- Regional position: first-mover among European VC-backed launchers
+- Team background: [[SpaceX]] alumni, serial founders
+- Small-launcher use case: dedicated orbits and flight-timing control that large launchers do not offer
+- Launch record: first launch failed; pre-revenue, pre-orbit
+- Reusability: non-reusable vehicle; [[SpaceX]] $/kg advantage persists with [[Falcon 9]]
+- Cost competition: small launchers not competitive on $/kg vs. [[Falcon 9]]
+- Sector history: VC-backed space ventures have high mortality rate (Virgin Orbit bankruptcy 2023)
+- [[EU]] funding structure: geo-return policy fragments European space funding
+- Competitive field: 5 funded European launcher startups
 
 ---
 

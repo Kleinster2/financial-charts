@@ -142,53 +142,53 @@ This is **not** just tunnels — it's a full **agentic AI hosting platform**.
 
 ---
 
-## Bear case
+## Risk factors and counter-observations
 
-### 1. Free tier economics
+### 1. Free-tier economics
 
-**Risk**: If 90%+ of tunnel users stay on free tier, where's the revenue?
+Free-tier users generating no revenue: 90%+ of tunnel users may remain on free tier.
 
-**Counter**: 
-- Free tunnels → paid Zero Trust ($7/user/mo+)
-- Free tunnels → paid Workers/AI Gateway usage
-- Enterprise contracts dwarf pay-as-you-go pricing
-- Q3 FY25 revenue: $562M (+28% YoY) — growth is real
+Observations:
+- Free tunnels serve as a funnel to paid Zero Trust ($7/user/mo+)
+- Free tunnels drive paid Workers and AI Gateway usage
+- Enterprise contracts are the primary revenue driver; pay-as-you-go is secondary
+- Q3 FY25 revenue: $562M (+28% YoY)
 
-### 2. Enterprise shift away from local agents
+### 2. Enterprise AI-agent restrictions
 
-**Risk**: Enterprises may ban local AI agents for security/compliance, eliminating the TAM.
+Enterprises may restrict local AI agents for security and compliance, reducing addressable market.
 
-**Counter**:
-- Even if enterprises ban consumer use, they'll **build their own** internal agents
-- Those internal agents still need secure exposure for webhooks, integrations
-- Cloudflare's Zero Trust positioning is actually *more* appealing to enterprises
+Observations:
+- Enterprises that restrict consumer agents typically build internal agents instead
+- Internal agents require secure exposure for webhooks and integrations
+- [[Cloudflare]] Zero Trust positioning aligns with enterprise security requirements
 
 ### 3. Hyperscaler bundling
 
-**Risk**: AWS, Azure, Google could bundle tunnel-like features into existing services.
+[[AWS]], [[Azure]], [[Google Cloud]] could bundle tunnel-like features into existing services.
 
-**Counter**:
-- They already have (AWS App Mesh, Azure Private Link, etc.) — developers still choose Cloudflare
-- Cloudflare is **cloud-agnostic** — works with any infrastructure
-- Developer experience gap is real and persistent
+Observations:
+- Hyperscalers have tunnel-like products (AWS App Mesh, Azure Private Link); Cloudflare retains developer mindshare
+- [[Cloudflare]] is cloud-agnostic; works across infrastructure vendors
+- Developer-experience differential has persisted
 
-### 4. Agentic AI fizzles
+### 4. AI-agent category stall
 
-**Risk**: AI agents turn out to be a dead end, local-first never materializes.
+AI agents could fail to achieve mass adoption; local-first might not materialize.
 
-**Counter**:
-- Weak signal so far — Clawdbot/Moltbot growth is genuine
-- Even if consumer agents fizzle, enterprise automation workflows will persist
-- Cloudflare's core business (CDN, security) is unaffected
+Observations:
+- Clawdbot and Moltbot adoption trajectory is measurable
+- Enterprise automation workflows persist independent of consumer-agent adoption
+- Core [[Cloudflare]] CDN and security business is not dependent on the agent thesis
 
-### 5. Security incident involving agents
+### 5. Security incident
 
-**Risk**: A major breach via an AI agent/tunnel could create reputational damage.
+An AI-agent or tunnel-based breach could create reputational damage.
 
-**Counter**:
-- Cloudflare's Zero Trust features (Access, DLP, Browser Isolation) mitigate this
-- Being the security layer is better than being the thing that got breached
-- They're actively building agent-specific security tooling
+Observations:
+- [[Cloudflare]] Zero Trust features (Access, DLP, Browser Isolation) provide mitigations
+- Security-layer positioning differentiates from breached primary-service positioning
+- Agent-specific security tooling is under active development
 
 ---
 

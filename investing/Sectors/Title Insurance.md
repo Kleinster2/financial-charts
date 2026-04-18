@@ -142,21 +142,18 @@ Some states regulate title insurance rates — limits pricing power but also lim
 
 ---
 
-## Investment thesis
+## Structural factors
 
-### Bull case
-- Oligopoly with 80%+ share — stable, defensible
-- Technology driving margin expansion
-- Housing recovery = volume upside
-- Commercial strength offsetting residential weakness
-- Regulatory complexity = barrier to entry
-
-### Bear case
-- Cyclical — tied to housing transactions
-- Rate sensitivity (refi business)
-- Digital disruption risk long-term
-- Regulatory scrutiny (Treasury exploring reforms)
-- Limited pricing power (regulated rates)
+- Market structure: four-firm oligopoly with 80%+ combined share
+- Technology adoption: automation of title-search and underwriting driving margin expansion
+- Housing cycle: residential transaction volume is the primary revenue driver
+- Commercial vs. residential mix: commercial title revenue partially offsets residential cyclicality
+- Regulatory complexity: state-by-state licensing and compliance as a barrier to new entrants
+- Cyclicality: revenue tied to mortgage origination and home-transaction volume
+- Interest-rate sensitivity: refinancing business is rate-sensitive; purchase business less so
+- Digital disruption: alternative-title models (attorney-opinion letters, blockchain-registry experiments) present long-term competitive pressure
+- Regulatory scrutiny: US Treasury has explored title-insurance reforms (premium structure, waiver pilot programs)
+- Pricing: state-regulated rates constrain pricing power
 
 ### Key metrics to watch
 - Mortgage origination volume

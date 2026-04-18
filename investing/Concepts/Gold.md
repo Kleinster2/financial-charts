@@ -133,54 +133,54 @@ A growing number of central banks are repatriating gold from foreign vaults (pri
 
 | Source | [[Target]] | Status |
 |--------|--------|--------|
-| J.P. Morgan | $4,800 | **Exceeded** |
-| [[State Street]] | $5,000 | **Exceeded** |
-| [[Bank of America]] | $5,000 | **Exceeded** |
-| Bull case | $6,000 | In play |
+| J.P. Morgan | $4,800 | Exceeded |
+| [[State Street]] | $5,000 | Exceeded |
+| [[Bank of America]] | $5,000 | Exceeded |
+| Upper-end forecast | $6,000 | In range |
 
 Forecasts will likely be revised up given rate check/dollar weakness.
 
 ---
 
-## Bull case
+## Demand drivers
 
-**Central bank buying:**
+Central bank buying:
 - Non-aligned central banks diversifying from dollar assets
 - [[China]], [[Russia]], emerging markets accumulating
 - Structural shift in reserve composition
-- Post-sanctions world ([[Russia]] 2022) accelerated trend
+- Post-sanctions period ([[Russia]] 2022) accelerated the trend
 
-**De-dollarization thesis:**
-- Weaponization of dollar reserves raises hedging demand
+De-dollarization:
+- Dollar-reserve weaponization raises hedging demand
 - [[BRICS]] seeking alternatives
-- Gold = neutral reserve asset
+- Gold as neutral reserve asset
 
-**Macro hedges:**
+Institutional views:
 - [[BlackRock]]: "Long-dated [[Treasuries]] no longer provide ballast; prefer gold"
-- JPM Wealth: Gold hedges geopolitical/currency volatility
+- JPM Wealth: gold hedges geopolitical/currency volatility
 
 ---
 
-## Bear case / Risks
+## Supply and headwind factors
 
-**Central bank selling (2026 risk, live):**
-- The backstop assumption — that CBs would always be net buyers — broke in March 2026
-- Energy-shocked countries liquidating to raise dollar liquidity ([[Turkey]], [[Russia]])
-- Defense spending pressure could convert more buyers to sellers ([[Poland]])
-- Further sales could come from oil importers ([[India]]) and Central Asian nations
-- Four weeks of gold [[ETF]] outflows since Iran war began — profit-taking on winning trades
+Central bank selling (live 2026 development):
+- March 2026 broke the prior assumption that CBs were uniformly net buyers
+- Energy-shocked countries liquidating for dollar liquidity ([[Turkey]], [[Russia]])
+- Defense-spending pressure can convert buyers to sellers ([[Poland]])
+- Oil importers ([[India]]) and Central Asian nations are flagged as potential additional sellers
+- Four weeks of gold [[ETF]] outflows since the Iran-war period opened
 
-**Opportunity cost:**
-- Real yields matter — high real rates historically negative for gold
-- Fed staying higher-for-longer delays rally
+Real-yield sensitivity:
+- High real yields historically correlate with lower gold prices
+- Fed higher-for-longer stance delays rally conditions
 
-**Not portfolio hedge:**
-- March 2026 proved gold fails as a hedge in real supply shocks — the inflationary impulse hit gold alongside stocks and bonds
+Hedging-behavior challenges:
+- March 2026: gold correlated with stocks and bonds during an inflationary supply shock, diverging from hedge expectations
 - [[BlackRock]]: "Tactical play; not long-term portfolio hedge"
 
-**Patience testing:**
+Sentiment indicators:
 - Evercore ISI: "Wide-ranging frustration; testing patience"
-- Contrarian indicator if sentiment too bullish
+- Sentiment extremes used as contrarian signal
 
 ---
 

@@ -103,19 +103,19 @@ Altruist is both a custodian (competing with Schwab, [[Fidelity]], Pershing) and
 
 ---
 
-## Bull case (advisory defense)
+## Structural factors
 
-- Relationship is the product — high-net-worth clients pay for trust, not tax planning. The 1% fee buys behavioral coaching, estate planning, access.
-- Schwab's moat is custody + NII — advisory is one segment. Net interest income (~40% of revenue) and $9T in custody assets don't change.
-- Hazel is a tool for advisors, not against them — Altruist positions Hazel as making advisors better, not replacing them. 1,000+ advisors are paying customers.
-- Tax planning requires CPA sign-off — AI can draft strategies but licensed professionals must approve and file.
+Advisory-defense arguments:
+- Service scope: high-net-worth advisory includes behavioral coaching, estate planning, access — service categories beyond tax-planning and portfolio mechanics
+- [[Charles Schwab]] business mix: custody + net interest income (~40% of revenue) + $9T AUM is the core; advisory is one segment
+- Altruist's own positioning: [[Altruist]] markets Hazel as an advisor-augmentation tool; 1,000+ advisors are paying customers
+- Regulatory framework: tax-planning workflow requires CPA sign-off; AI-drafted strategies must still be filed by licensed professionals
 
-## Bear case (disruption thesis)
-
-- Fee compression accelerates — if AI handles tax planning, portfolio construction, and rebalancing, what justifies 1% AUM on $5M+ portfolios?
-- Advisory firms need fewer people — one advisor with Hazel can serve 200+ clients vs. 75-100 without AI. Headcount reduction at advisory firms = fewer seats needed at custodians.
-- Altruist is the wedge — custodian + AI platform is a powerful combination. If Altruist takes custody share from Schwab while also commoditizing advisory, it's a double threat.
-- Generational shift — younger wealth inheritors may prefer AI-first advice over human advisors. $84T great wealth transfer meets AI-native generation.
+Disruption-thesis arguments:
+- Fee compression: if AI handles tax planning, portfolio construction, and rebalancing, the 1% AUM fee on $5M+ portfolios faces structural pressure
+- Headcount leverage: advisor productivity with Hazel goes from ~75-100 clients to ~200+ per advisor; downstream effect on custodian seat counts
+- Competitive structure: [[Altruist]] combines custodian + AI platform; custody share gain at [[Charles Schwab]]'s expense compounds with advisory-fee pressure
+- Generational shift: [[Great wealth transfer|$84T wealth transfer]] meets AI-native inheritors who may prefer AI-first advisory
 
 ---
 

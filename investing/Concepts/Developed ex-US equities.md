@@ -51,30 +51,30 @@ US has crushed international since 2009:
 
 ---
 
-## Bull case for international
+## Factors supporting international equity relative performance
 
-| Argument | Detail |
+| Factor | Detail |
 |----------|--------|
-| **Valuation** | 35% discount to US, near historic wides |
-| **Dollar** | USD weakness = tailwind for USD-based investors |
-| **Mean reversion** | Leadership rotates over decades |
-| **[[Europe]] recovery** | German fiscal stimulus, defense spending |
-| **Japan revival** | Corporate reform, BoJ normalization |
-| **Diversification** | Concentrated US tech risk |
+| Valuation | 35% discount to US, near historic wides |
+| USD direction | USD weakness provides translation tailwind for USD-based investors |
+| Mean reversion history | Leadership rotates across decade-long cycles |
+| [[Europe]] fiscal stance | German fiscal stimulus, defense spending |
+| [[Japan]] domestic reform | Corporate governance reform, BoJ normalization |
+| Portfolio diversification | US equity concentration in tech megacaps |
 
 ---
 
-## Bear case (why US keeps winning)
+## Factors supporting continued US leadership
 
-| Argument | Detail |
+| Factor | Detail |
 |----------|--------|
-| **Tech moat** | AI/cloud = US companies |
-| **Demographics** | [[Europe]]/Japan aging faster |
-| **Regulation** | EU less business-friendly |
-| **Energy** | [[Europe]] energy costs higher |
-| **Growth** | US GDP growth consistently higher |
+| Technology concentration | AI, cloud, semiconductor leadership is US-centric |
+| Demographics | [[Europe]], [[Japan]] aging faster than US |
+| Regulatory environment | [[EU]] regulatory framework more restrictive on many sectors |
+| Energy | [[Europe]] electricity and gas costs structurally higher than US post-2022 |
+| GDP growth | US real GDP growth has outpaced [[Europe]] and [[Japan]] across most recent cycles |
 
-"Cheap for a reason" argument.
+The "cheap for a reason" framing refers to whether the valuation discount reflects durable structural differences or mean-revertible cyclical gaps.
 
 ---
 

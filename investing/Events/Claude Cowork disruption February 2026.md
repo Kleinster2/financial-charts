@@ -128,21 +128,19 @@ Catalysts cited: [[Anthropic]] Cowork plugins, [[Google DeepMind]] [[Genie 3]] (
 
 ---
 
-## Bull case (recovery thesis)
+## Structural factors
 
-- Enterprise sales cycles are long — adoption will take years
-- Regulatory/compliance moats — some workflows require human sign-off
-- Incumbent data advantages — Westlaw's case law, PitchBook's PE data
-- P/E compression overshoots — 30% haircut priced in worst case
+Recovery-thesis arguments:
+- Enterprise sales cycles: software-adoption rhythms in professional-services verticals run multi-year
+- Regulatory and compliance: many workflows require human sign-off (legal opinion letters, signed financial opinions, etc.)
+- Data moats: [[Westlaw]] case-law corpus, [[PitchBook]] PE-data exclusivity
+- Multiple-compression dynamics: 30% P/E compression priced a worst-case outcome
 
----
-
-## Bear case (disruption thesis)
-
-- This is GPT-3 → GPT-4 moment for agents — capabilities will compound
-- Pricing power evaporates — can't charge $500/hr for work AI does for $5
-- New entrants — startups will undercut incumbents using Cowork APIs
-- Talent flight — junior analysts/lawyers reconsider career paths
+Disruption-thesis arguments:
+- Capability-scaling trajectory: analogous to [[GPT-3]] -> [[GPT-4]] step-change at the agent layer
+- Pricing pressure: per-hour rates for knowledge work face structural compression when AI completes the work for a fraction of cost
+- Competitive entry: startups building on [[Claude Cowork]] APIs can undercut incumbents
+- Talent pipeline: junior-analyst and junior-attorney roles face displacement pressure affecting career-path entry
 
 ---
 

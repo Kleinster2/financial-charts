@@ -144,25 +144,20 @@ USDC grew 73% in 2025 vs USDT's 36%. [[Circle]]'s regulatory compliance is its p
 
 ---
 
-## Bull case
+## Structural factors
 
-| Thesis | Evidence |
+| Factor | Detail |
 |--------|----------|
-| Dollar access infrastructure | 534M MAU; 88% of transactions sub-$1K; de facto dollar for emerging markets |
-| Profit machine | $10-13B/yr from ~100 employees; pure yield capture on reserves |
-| Network effects | 80% of CEX spot volume; 71% of stablecoin wallets; deeply embedded in crypto plumbing |
-| Treasury alignment | 17th-largest US debt holder; generates demand for Treasuries in a high-issuance environment |
-
-## Bear case
-
-| Risk | Evidence |
-|------|----------|
-| Never audited | Attestations only; history of misrepresenting reserves (CFTC, NYAG findings) |
-| Regulatory fragmentation | Banned in EU; creating parallel US product rather than bringing USDT into compliance |
-| Concentration risk | <10 people control entity; opaque corporate structure across multiple jurisdictions |
-| Reserve illiquidity | BTC, gold, secured loans (~25% of reserves) may not be immediately liquidatable in a rapid-redemption scenario |
-| USDC gaining share | Compliance-first approach winning institutional and regulated exchange adoption; [[Meta]]/[[Stripe]] stablecoin integration (H2 2026) likely routes through USDC, not USDT |
-| Political exposure | [[Howard Lutnick]] / [[Cantor Fitzgerald]] nexus creates conflict-of-interest risk |
+| User base | 534M MAU; 88% of transactions sub-$1K; de facto dollar in many emerging markets |
+| Revenue | $10-13B/yr from ~100 employees; yield capture on reserves |
+| Market position | 80% of CEX spot volume; 71% of stablecoin wallets |
+| US Treasury holdings | 17th-largest US debt holder; demand contribution in a high-issuance environment |
+| Audit status | Attestations only, never audited; history of prior misrepresentations (CFTC, NYAG findings) |
+| Regulatory geography | Banned in EU; parallel US-compliant product in development rather than USDT migration |
+| Ownership | Fewer than 10 people control entity; corporate structure spans multiple jurisdictions |
+| Reserve composition | BTC, gold, secured loans ~25% of reserves; liquidation speed untested in rapid-redemption scenario |
+| Competitive dynamic | USDC compliance-first approach gaining institutional share; [[Meta]]/[[Stripe]] stablecoin integration (H2 2026) routes through USDC |
+| Political ties | [[Howard Lutnick]] / [[Cantor Fitzgerald]] nexus — conflict-of-interest consideration |
 
 ---
 

@@ -196,26 +196,21 @@ May beat glasses for some use cases:
 
 ---
 
-## Bull case
+## Structural factors
 
-- Always-on AI assistant = killer app
-- Camera context enables new use cases
-- [[China]] competition drives innovation/lower prices
-- Health monitoring creates stickiness
-- Enterprise applications (translation, field service)
-- Form factor innovation (rings, patches)
-- OpenAI/[[Jony Ive]] legitimizes category
-
----
-
-## Bear case
-
-- Social acceptance still uncertain
-- Privacy concerns (always-on cameras/mics)
-- Battery life constraints
-- Display technology not ready for all-day
-- Phone may remain primary device
-- Google Glass / Humane / Rabbit failures fresh in memory
+- Use-case framing: always-on AI assistant category
+- Camera-context features: computer-vision input enables context-aware assistant applications
+- [[China]] competitive entrants: multiple Chinese manufacturers pushing price points lower
+- Health monitoring: biometric sensors extend device engagement
+- Enterprise applications: translation, field-service, and industrial workflow use cases
+- Form-factor experimentation: rings, patches, pins, glasses in parallel development
+- Category legitimacy: [[OpenAI]] / [[Jony Ive]] device program
+- Social acceptance: wearable-camera devices remain culturally contested in public spaces
+- Privacy: always-on cameras and microphones trigger regulatory and consumer-trust concerns
+- Battery constraints: all-day use cases exceed current battery-energy density for compact form factors
+- Display technology: AR-quality displays not yet available at consumer price points for all-day wear
+- Smartphone incumbency: phone remains the default personal-computing device
+- Prior category attempts: Google Glass (2013-2015), Humane Ai Pin (2023), Rabbit R1 (2024) failed to achieve scale adoption
 
 ---
 

@@ -78,21 +78,18 @@ Small caps more rate-sensitive. Fed pause/cuts benefit:
 
 ---
 
-## Bull case
+## Structural factors
 
-- Valuation gap at 25-year extreme — mean reversion overdue
-- AI disruption narrative benefits "old economy" names
-- Domestic policy tailwinds (tariffs, reshoring)
-- Fed accommodation helps rate-sensitive names
-- Rotation has room to run (historically lasts 2-3 years)
-
-## Bear case
-
-- Economic slowdown hits small caps harder (higher leverage)
-- ADP miss (+22K) suggests labor weakness
-- Small caps more exposed to regional bank stress
-- Rotation could reverse if AI fears fade
-- Quality tilt still favors large caps
+- Valuation dispersion: small-cap-to-large-cap ratio at 25-year extreme
+- AI disruption differential: "old economy" small-cap exposure less affected by AI-capex displacement
+- Domestic policy: tariff and reshoring policy effects concentrated in small-cap revenue bases
+- Rate sensitivity: small caps carry higher floating-rate debt; Fed accommodation changes interest cost more than for large caps
+- Historical rotation length: past small-cap rotation cycles typically 2-3 years
+- Economic cyclicality: small caps carry higher operating and financial leverage; slowdowns compress earnings faster
+- Labor-market indicator: ADP Feb/Mar 2026 +22K signals labor softening
+- Banking exposure: small caps more dependent on regional-bank credit
+- AI-narrative sensitivity: rotation correlates with AI-related equity flows
+- Quality factor: large-cap indices carry higher aggregate ROIC and margins
 
 ---
 

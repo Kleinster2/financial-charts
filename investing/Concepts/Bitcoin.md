@@ -103,29 +103,22 @@ See [[Strategic Bitcoin Reserve]] for details.
 
 ---
 
-## Bull case
+## Structural factors
 
-| Thesis | Evidence |
+| Factor | Detail |
 |--------|----------|
-| **Digital gold** | Fixed 21M supply, no counterparty risk, 15+ years uptime |
-| **Institutional adoption** | ETFs, corporate treasuries, sovereign funds |
-| **Halving dynamics** | Post-halving scarcity historically precedes rallies |
-| **Macro hedge** | Alternative to $36T+ US debt / dollar debasement |
-| **Network effect** | Largest hash rate ever (1.12B TH/s), most secure |
-
----
-
-## Bear case
-
-| Risk | Evidence |
-|------|----------|
-| **Volatility** | 50%+ drawdowns routine ($126K → sub-$60K by Feb 2026) |
-| **Fractional reserve dynamics** | Futures/derivatives markets may trade "paper Bitcoin" without full on-chain backing — [[BlockFills]] suspension (Feb 2026) exposed institutional leverage |
-| **No cash flow** | Pure speculation, no yield, no earnings |
-| **Energy use** | ~212 TWh/year (~0.8% global electricity) |
-| **Regulatory** | No comprehensive US framework |
-| **Concentration** | ~5% held by unknown founder |
-| **Technology** | Layer 1 scaling limits (~7 TPS) |
+| Supply schedule | Fixed 21M cap; no counterparty risk; 15+ years uptime |
+| Institutional participation | ETFs, corporate treasuries, sovereign funds |
+| Halving cycle | Post-halving supply reduction historically precedes rallies |
+| Macro context | Alternative asset class; referenced against $36T+ US debt and dollar-debasement concerns |
+| Network security | Hash rate 1.12B TH/s (largest to date) |
+| Price volatility | 50%+ drawdowns routinely observed ($126K → sub-$60K by Feb 2026) |
+| Derivatives market dynamics | Futures/derivatives may trade "paper Bitcoin" not fully on-chain-backed; [[BlockFills]] suspension (Feb 2026) surfaced institutional-leverage build-up |
+| Cash-flow profile | No yield, no earnings — valuation relies on price-appreciation or holding-value thesis |
+| Energy consumption | ~212 TWh/year (~0.8% of global electricity) |
+| US regulatory framework | No comprehensive federal framework as of April 2026 |
+| Ownership concentration | ~5% held by unknown founder (Satoshi wallets) |
+| Protocol scaling | Layer-1 throughput ~7 TPS; Layer-2 solutions (Lightning, etc.) for higher throughput |
 
 ---
 

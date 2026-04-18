@@ -105,20 +105,19 @@ Analyst consensus is **Buy** with an average price target of $92.90 (11 analysts
 
 ## Investment thesis
 
-### Bull case
-- **Positioned at the tip of the spear**: Karman makes the actual warheads, thermal protection, and propulsion for the weapons systems the US is racing to build against [[China]] and [[Russia]]. Not a prime contractor — a specialist in the hardest engineering problems
-- **Massive TAM expansion**: SHIELD ($151B ceiling), Golden Dome missile defense, hypersonics programs, [[AUKUS]] submarine industrial base all represent multi-decade tailwinds
-- **Acquisition flywheel**: Management is rolling up niche defense manufacturers (Seemann/MSC most recent) to build a vertically integrated platform. Trive Capital playbook
-- **Margin expansion runway**: Gross margins improving 400bp+ over 3 years with scale. As revenue grows and interest expense gets refinanced, net margins should expand significantly
-- **Iran/geopolitical catalyst**: Advanced penetrator warheads for bunker-busting are directly relevant if the US or [[Israel]] strikes Iran's underground nuclear facilities. Polymarket shows 67% odds of an Iran strike (Feb 2026)
+### Structural factors
+- Position in supply chain: warhead, thermal-protection, and propulsion components for US missile systems; specialist vs. prime-contractor model
+- Addressable market: SHIELD ($151B ceiling), Golden Dome, hypersonics programs, [[AUKUS]] submarine industrial base
+- M&A: active roll-up of niche defense manufacturers (Seemann/MSC most recent); Trive Capital playbook
+- Margin trajectory: ~400bp gross-margin improvement over 3 years with scale
+- Geopolitical alignment: advanced penetrator warheads relevant to bunker-busting scenarios (Iran underground nuclear facilities); Polymarket Feb 2026 ~67% odds on an Iran strike
+- Valuation: 25x sales, 104x EBITDA
+- Debt: $484M at 4.5x EBITDA; $46M annual interest expense
+- FCF: TTM FCF of -$43M
+- Customer concentration: [[DoD]]-heavy; [[DOGE]] budget cuts are a program-level consideration
+- Insider activity: CEO Koblinski sold ~$13M in shares since IPO via 10b5-1 plans
+- Scale: 1,113 employees competing with [[Lockheed Martin]], [[RTX]], [[Northrop Grumman]] on critical programs
 
-### Bear case
-- **Extreme valuation**: 25x sales and 104x EBITDA for a defense manufacturer is unprecedented. This prices in years of flawless execution and contract wins
-- **Debt burden**: $484M debt at 4.5x EBITDA with $46M annual interest. Rising rates or an execution stumble could create distress
-- **Negative FCF**: TTM free cash flow is -$43M. The company is investing ahead of revenue, but cash burn at this stage is a risk
-- **Customer concentration**: Heavily dependent on [[DoD]] programs that can be delayed, restructured, or cancelled. [[DOGE]] budget cuts are a real risk
-- **Insider selling**: CEO Koblinski has sold ~$13M in shares since IPO via 10b5-1 plans
-- **Small company, big ambitions**: 1,113 employees competing against primes like [[Lockheed Martin]], [[RTX]], [[Northrop Grumman]] for critical programs
 
 ## Stock performance
 

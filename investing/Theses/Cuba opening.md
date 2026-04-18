@@ -93,25 +93,25 @@ If Cuba opens to US business (via regime change, negotiated opening, or sanction
 
 ---
 
-## Bull case
+## Factors supporting the thesis
 
-- 90 miles from Florida = instant tourism demand
-- 1.5M Cuban-Americans = built-in customer/investor base
-- Pent-up demand (frozen since 1959)
-- Venezuela precedent pressures regime
-- [[Oil]] subsidies cut = economic pressure
-- Infrastructure rebuild = multi-decade capex
+- Geographic proximity: 90 miles from [[Florida]] — instant tourism-demand pool
+- Cuban-American diaspora: ~1.5M Cuban-Americans as potential customer and investor base
+- Demand overhang: US-Cuba market frozen since 1959; pent-up capital-goods and consumer demand
+- [[Venezuela]] precedent: similar regime pressure may extend to [[Cuba]]
+- [[Venezuela]] oil subsidies cut: direct economic pressure on Cuban government
+- Infrastructure rebuild: multi-decade capital-spending opportunity
 
 ---
 
-## Bear case
+## Factors complicating the thesis
 
-- No regime change imminent
-- US domestic politics (Florida voters)
-- Embargo has survived 60+ years
-- No oil = less US strategic interest
-- [[China]]/[[Russia]] support regime
-- Property claims messy (pre-Castro seizures)
+- Regime durability: no imminent regime change
+- US domestic politics: [[Florida]] voter constituency and policy implications
+- Embargo longevity: has persisted 60+ years across multiple administrations
+- Strategic value: no oil or other scarce resource, unlike [[Venezuela]]
+- External support: [[China]] and [[Russia]] provide political and economic support to current regime
+- Property claims: pre-Castro nationalizations create unresolved title disputes
 
 ---
 
