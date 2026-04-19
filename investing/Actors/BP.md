@@ -96,6 +96,18 @@ BP trades as a core Oil & Gas E&P name (XOP r = 0.83).
 
 ---
 
+## Apr 17-Apr 18, 2026 - crisis premium unwind
+
+BP fell 6.4% on Apr 17, 2026, one of the sharper supermajor drawdowns in the reopening trade.
+
+The first leg was straightforward: Brent dropped 9% as Hormuz was declared open. The second leg came on Apr 18, when Washington renewed the waiver allowing countries to keep buying sanctioned Russian oil loaded by Apr 17 through May 16. That told the market the White House was still prioritizing price suppression over sanctions purity.
+
+For BP, the implication is simple. The market is now discounting less near-term upside from tight oil balances just ahead of Apr 28, 2026 results. In the Apr 17 sector-dispersion table, BP also traded like one of the higher-beta European majors in the unwind.
+
+*Sources: Reuters on Apr 17 oil drop, Reuters on Apr 18 Russian oil waiver, bp Q1 2026 trading statement, [[2026 Strait of Hormuz crisis]].*
+
+---
+
 ## Related
 
 - [[Shell]] — peer ([[UK]]/European major)

@@ -162,13 +162,25 @@ Shares fell intraday in the -5% to -7.5% range on Trump's announcement of a two-
 - War premium unwind reverses recent cash flow improvement that was supporting debt reduction plans
 - $800M annual Berkshire preferred dividend provides less flexibility during commodity downturns vs peers
 
-**Structural implications:**
-- **If ceasefire holds:** Normalized oil prices below recent highs delay debt reduction timeline and buyback restart, extending period of Berkshire preferred dilution
-- **If ceasefire collapses:** Operational leverage to oil prices could accelerate deleveraging if oil exceeds previous peaks, potentially enabling earlier redemption of costly preferred equity
+Structural implications:
+- If ceasefire holds: Normalized oil prices below recent highs delay debt reduction timeline and buyback restart, extending period of Berkshire preferred dilution
+- If ceasefire collapses: Operational leverage to oil prices could accelerate deleveraging if oil exceeds previous peaks, potentially enabling earlier redemption of costly preferred equity
 
 Buffett's ~28% common position and strategic patience may provide downside support during energy market volatility.
 
 See [[2026 Strait of Hormuz crisis]] and [[Hormuz Permanent Risk Premium]] for broader conflict context.
+
+### Apr 17-Apr 18, 2026 - leverage made the unwind bite harder
+
+OXY fell 5.4% on Apr 17, 2026 ($56.87 -> $53.79), underperforming [[ConocoPhillips]] and matching the more levered end of the E&P tape.
+
+The reason is straightforward. OXY is now more purely exposed to oil after selling OxyChem, but it still carries a heavier debt and preferred-equity burden than peers. When crude falls, the market immediately marks down deleveraging speed, buyback flexibility, and the value of the post-sale reset story.
+
+The Apr 18 waiver extension through May 16 reinforced that lower-for-longer near-term read on oil balances.
+
+Next catalyst: Q1 2026 webcast on May 6, 2026.
+
+*Sources: verified closes from `market_data.db`, Reuters on Apr 17 oil drop, Reuters on Apr 18 waiver extension, Oxy investor calendar.*
 
 ---
 

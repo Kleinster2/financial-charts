@@ -33,7 +33,7 @@ COP trades as a core Oil & Gas E&P name (XOP r = 0.93).
 
 ## Business model
 
-**No refining or retail** — spun off Phillips 66 (2012).
+No refining or retail — spun off Phillips 66 (2012).
 
 Pure exploration & production:
 - Lower breakeven than integrated majors
@@ -55,7 +55,7 @@ Pure exploration & production:
 
 ## Willow project
 
-**Alaska North Slope mega-project:**
+Alaska North Slope mega-project:
 - ~180,000 bpd peak production
 - $8B+ development cost
 - Approved 2023 (after legal battles)
@@ -80,7 +80,7 @@ Known for shareholder-friendly approach.
 
 ## Venezuela — exited, seeking $12B
 
-**ConocoPhillips refused nationalization:**
+ConocoPhillips refused nationalization:
 
 | Timeline | Event |
 |----------|-------|
@@ -89,7 +89,7 @@ Known for shareholder-friendly approach.
 | 2007+ | Arbitration — seeking $12B award |
 | Jan 2026 | US captured Maduro — potential return |
 
-**Jan 9, 2026:** CEO [[Ryan Lance]] attended White House meeting. When Trump noted the $12B claim, Lance quipped: "It's already been written off." Industry remains cautious.
+Jan 9, 2026: CEO [[Ryan Lance]] attended White House meeting. When Trump noted the $12B claim, Lance quipped: "It's already been written off." Industry remains cautious.
 
 See [[Venezuela]], [[Maduro capture 2026]], [[WH oil executives Venezuela meeting 2026-01-09]].
 
@@ -97,28 +97,40 @@ See [[Venezuela]], [[Maduro capture 2026]], [[WH oil executives Venezuela meetin
 
 Shares fell intraday in the -5% to -7.5% range on Trump's announcement of a two-week conditional ceasefire with [[Iran]], including [[Strait of Hormuz]] reopening. As a pure-play upstream company, ConocoPhillips faces direct commodity exposure to the oil price crash (WTI -17.7% to $92.92, Brent -16.1% to $91.68) — the biggest single-day drop since COVID.
 
-**Market dynamics:**
+Market dynamics:
 - Pure upstream model amplifies oil price moves vs integrated majors with downstream hedges
 - War premium unwind particularly impacts E&P companies that had benefited from elevated oil prices
 - No refining operations to provide margin offsets during commodity price volatility
 
-**Structural implications:**
-- **If ceasefire holds:** Permanent normalization below recent highs (>$119) reduces cash flow projections and return potential from recent capital allocation decisions
-- **If ceasefire collapses:** Pure commodity exposure could deliver outsized upside if oil prices exceed previous peaks, given operational leverage model
+Structural implications:
+- If ceasefire holds: Permanent normalization below recent highs (>$119) reduces cash flow projections and return potential from recent capital allocation decisions
+- If ceasefire collapses: Pure commodity exposure could deliver outsized upside if oil prices exceed previous peaks, given operational leverage model
 
 See [[2026 Strait of Hormuz crisis]] and [[Hormuz Permanent Risk Premium]] for broader conflict context.
+
+### Apr 17-Apr 18, 2026 - second-stage oil unwind
+
+COP fell 4.5% on Apr 17, 2026 ($121.57 -> $116.04) as upstream names sold with crude after [[Iran]] said commercial passage through [[Strait of Hormuz]] was open for the remaining ceasefire window.
+
+This was a clean commodity-beta reset. ConocoPhillips has no refining or chemicals hedge, so lower Brent and WTI feed almost directly into lower near-term cash flow expectations and a softer capital-return setup.
+
+The Apr 18 waiver extension through May 16 deepened that read. It told the market more barrels would remain available just as traders were trying to decide how quickly the physical market would tighten again.
+
+Next catalyst: Q1 2026 earnings call on Apr 30, 2026.
+
+*Sources: verified closes from `market_data.db`, Reuters on Apr 17 oil drop, Reuters on Apr 18 waiver extension, ConocoPhillips investor calendar.*
 
 ---
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Lowest cost operator
 - Pure upstream leverage
 - Willow growth optionality
 - Strong shareholder returns
 
-**Bear:**
+Bear:
 - Commodity price exposure
 - No downstream hedge
 - Alaska regulatory/[[ESG]] risk

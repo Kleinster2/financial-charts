@@ -125,6 +125,20 @@ The refined-product damage is even more important for Europe. Jet fuel exports f
 
 That is why the second-leg European response has shifted from "is Hormuz open?" to "how do we replace missing product flows?" The [[EU]] is now preparing jet-fuel diversification guidance focused on more imports from the [[United States]] and [[Nigeria]], a possible coordinated release of jet-fuel stocks, and a bigger resilience role for [[Sustainable Aviation Fuel]]. See [[Iran conflict European impact]] and [[Jet fuel]] for the downstream policy response.
 
+### Apr 18 policy follow-through - Washington keeps Russian barrels in market
+
+The Apr 17 equity unwind was not just about Hormuz optics. On Apr 18, Treasury renewed the waiver allowing countries to buy sanctioned Russian oil loaded on vessels as of Apr 17 through **May 16**, after signaling two days earlier that it would not be renewed.
+
+That matters because it confirms Washington is still managing the market for price relief, not maximizing sanctions pressure.
+
+- It keeps Russian barrels flowing to Asian buyers that were already pressing for relief.
+- It makes it harder for the market to price a clean post-Hormuz supply squeeze.
+- It helps explain why refiners, petrochemicals, fertilizer names, and supermajors all sold off together on Apr 17-18. The trade was not just "Iran is open" but also "the U.S. is willing to keep extra barrels in the system."
+
+The exclusion of Iran, Cuba, and North Korea from the renewed waiver sharpens the paradox. Washington is still trying to starve Tehran while capping oil prices for everyone else.
+
+*Source: Reuters, "US renews Russian oil waiver after pressure from countries dealing with Iran war price shocks" (Apr 18, 2026).*
+
 ## Quantitative impact
 
 | Metric | Pre-crisis | Peak disruption | As of early April |

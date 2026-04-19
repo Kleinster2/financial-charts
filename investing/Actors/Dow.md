@@ -41,6 +41,20 @@ DOW trades as a core Oil & Gas E&P name (XOP r = 0.74).
 
 ---
 
+## Apr 17, 2026 - -10.8% / -3.6σ sigma event
+
+DOW fell 10.8% on Apr 17, 2026 (-3.6σ beta-adjusted), almost one-for-one with [[LyondellBasell]].
+
+Unlike LYB, no fresh company-specific shock surfaced in the 48-hour window. The move looked like a pure petrochemical unwind: once Hormuz reopening headlines knocked crude sharply lower, global naphtha re-priced down and the market marked down the war-premium portion of the U.S. [[Ethane|ethane]] advantage.
+
+That matters more for Dow than a generic energy-beta label suggests. The stock had been participating in the same feedstock-spread trade as LYB, but without a new catalyst to defend the move into earnings.
+
+Next catalyst: Q1 2026 results due Apr 23, 2026.
+
+*Sources: Apr 17 mover tape, Dow earnings schedule, [[2026 Strait of Hormuz crisis]], [[Ethane]].*
+
+---
+
 ## Related
 
 - [[Caustic Soda]] -- major European chlor-alkali producer

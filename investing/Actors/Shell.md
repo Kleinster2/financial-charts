@@ -96,6 +96,20 @@ Scaled back some renewable targets (2023) to focus on shareholder returns.
 
 ---
 
+## Apr 17-Apr 18, 2026 - LNG incumbent sold with the complex
+
+Shell fell 4.0% on Apr 17, 2026 as the energy complex repriced lower with Hormuz reopening.
+
+The drawdown was milder than [[BP]]'s, which fits Shell's more diversified mix and heavier LNG / integrated-gas exposure, but the stock still lost crisis premium as Brent collapsed and the U.S. extended the Russian-oil waiver through May 16.
+
+That is the key distinction for Shell. The company remains structurally advantaged if Europe keeps paying for more resilient LNG supply, but the market marked down the near-term windfall once more barrels were effectively allowed back into the system.
+
+Next catalyst: Q1 2026 update cadence points to Apr 29 consensus publication and May 7, 2026 results.
+
+*Sources: Reuters on Apr 17 oil drop, Reuters on Apr 18 Russian oil waiver, Shell Q1 2026 update note, [[2026 Strait of Hormuz crisis]].*
+
+---
+
 ## Related
 
 - [[Exxon]] — peer (US supermajor)

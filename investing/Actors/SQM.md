@@ -145,6 +145,20 @@ SQM **$87.62 → $95.31 Apr 16, 2026**, a **+8.8% single-day move, +2.6σ** on 6
 
 ---
 
+## Apr 17, 2026 - lower-beta giveback
+
+SQM fell 6.8% on Apr 17, 2026 (-2.7σ beta-adjusted), a smaller reversal than [[Albemarle]] after the Apr 16 lithium spike.
+
+That relative resilience reinforces the prior day's message. SQM is still a lithium vehicle, but a more diversified and lower-cost one, with less single-day torque than ALB. The Apr 17 action looked like commodity-premium normalization rather than SQM-specific bad news.
+
+In other words, the market faded the one-day lithium squeeze without changing the core expression: ALB is the higher-beta rally vehicle, SQM is the lower-beta, Chile-overhang version.
+
+Next catalyst: Q1 2026 earnings release scheduled for May 27, 2026.
+
+*Sources: Apr 17 mover tape, SQM IR calendar, prior Apr 16 lithium-dispersion setup.*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -156,7 +170,7 @@ SQM **$87.62 → $95.31 Apr 16, 2026**, a **+8.8% single-day move, +2.6σ** on 6
 | Key asset | Atacama Desert |
 | Risk | Nationalization |
 
-*Created 2026-01-05 — last updated 2026-04-16*
+*Created 2026-01-05 — last updated 2026-04-19*
 
 ---
 

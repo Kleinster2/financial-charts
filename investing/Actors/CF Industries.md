@@ -228,6 +228,16 @@ In 2022, the supply shock was financial — prices adjusted, trade routes adapte
 
 Reddit led the call: retail sentiment on r/stocks flagged the fertilizer angle before mainstream coverage, noting *"not just oil — one third passes through the Hormuz."* Prediction markets assign only ~19.5% probability to Iran conflict resolution by March 31.
 
+### Apr 17 unwind test
+
+CF fell 9.6% on Apr 17, 2026 (-2.7σ beta-adjusted), the sharpest one-day reversal since the Hormuz nitrogen trade took hold.
+
+This was the first real kill-switch test for the [[Nitrogen Trap]] thesis. If transit normalizes, the geopolitical premium in urea and ammonia has to compress. That explains the violence of the move.
+
+But the selloff does not fully kill the thesis. Reuters' Apr 17-18 follow-through still described messy physical normalization, and the Apr 18 Russian-oil waiver showed Washington was actively leaning against price spikes rather than declaring the system repaired. For CF, the real question now is how much of March's move was temporary war premium versus a more durable repricing of nitrogen security.
+
+Next catalyst: Q1 2026 results due May 6, 2026.
+
 ### Political risk
 
 Senator Josh Hawley (R-MO) sent a nine-question letter to CEO Chris Bohn on March 12 accusing CF Industries and four other fertilizer producers ([[Mosaic]], [[Koch Fertilizer]], [[Nutrien]], [[Yara]]) of price gouging. Also sent letter to AG Pam Bondi requesting DOJ investigation. Urea price surge of ~32% as evidence.

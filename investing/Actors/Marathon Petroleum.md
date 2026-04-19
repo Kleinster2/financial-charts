@@ -39,7 +39,7 @@ MPC trades as a core Oil & Gas E&P name (XOP r = 0.80).
 | Garyville (LA) | ~600K bpd | Heavy capable |
 | Total Gulf Coast | ~1.2M bpd | Venezuela fit |
 
-**Venezuela angle:** Major [[Gulf Coast refiners]] player — benefits from heavy crude return.
+Venezuela angle: Major [[Gulf Coast refiners]] player — benefits from heavy crude return.
 
 ---
 
@@ -67,14 +67,14 @@ Most diversified refiner geographically.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Largest US refiner scale
 - Venezuela crude upside
 - MPLX provides stable cash flow
 - Aggressive buybacks
 - Dividend growth
 
-**Bear:**
+Bear:
 - Cyclical margins
 - West Coast exposure (regulatory)
 - EV long-term headwind
@@ -102,6 +102,18 @@ Most diversified refiner geographically.
 | Focus | Pure refining + MPLX | Pure refining | Diversified |
 | Gulf Coast | ~1.2M bpd | ~2M bpd | ~0.7M bpd |
 | Venezuela beta | High | Highest | Moderate |
+
+---
+
+## Apr 17-Apr 18, 2026 - refiner unwind broadened beyond Valero
+
+MPC fell 5.5% on Apr 17, 2026 ($226.24 -> $213.69) as the refining complex moved from scarcity pricing back to margin-reset pricing after crude collapsed.
+
+The drawdown was milder than [[Valero]]'s 7.5% decline, which fits Marathon's broader footprint and midstream ballast, but the stock still lost crisis premium as the market priced narrower cracks and more barrels staying in the system after the Apr 18 waiver extension.
+
+Next catalyst: Q1 2026 results expected around May 5, 2026.
+
+*Sources: verified closes from `market_data.db`, Reuters on Apr 17 oil drop, Reuters on Apr 18 waiver extension, earnings-calendar listings for MPC.*
 
 ---
 

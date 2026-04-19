@@ -151,6 +151,20 @@ The deficit expected in 2026 (Fastmarkets: 1,500t) is no longer a forecast but a
 
 ---
 
+## Apr 17, 2026 - reversal after the squeeze
+
+ALB fell 8.3% on Apr 17, 2026 (-2.9σ beta-adjusted), giving back a meaningful slice of the prior day's lithium squeeze.
+
+Part of that was mechanical after a +16.3% / +4.9σ session on Apr 16, but the stock was also hit by a fresh Baird downgrade to Neutral with a $210 PT on supply concerns. That matters because ALB had become the market's highest-beta listed expression of the lithium rebound.
+
+The two-day tape clarified the setup. ALB gives more upside when spot and deficit expectations reprice higher, and it gives back more when traders pause or question supply discipline.
+
+Next catalyst: Q1 2026 results due May 6, 2026.
+
+*Sources: Apr 17 mover tape, Baird downgrade recap, Albemarle earnings schedule.*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -163,7 +177,7 @@ The deficit expected in 2026 (Fastmarkets: 1,500t) is no longer a forecast but a
 | 2026 EBITDA guide | $1.45B (likely stale low at current spot prices) |
 | Position | \#1 Western lithium |
 
-*Created 2026-01-05 — last updated 2026-04-16*
+*Created 2026-01-05 — last updated 2026-04-19*
 
 ---
 

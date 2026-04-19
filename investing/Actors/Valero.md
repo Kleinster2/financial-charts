@@ -103,6 +103,20 @@ VLO trades as a core Oil & Gas E&P name (XOP r = 0.84).
 
 ---
 
+## Apr 17, 2026 - -7.5% / -3.3σ sigma event
+
+VLO fell 7.5% on Apr 17, 2026 (-3.3σ beta-adjusted) as the Hormuz reopening headline crushed crude and took crisis premium out of the refining complex.
+
+The market moved quickly from scarcity logic to margin-reset logic. Once Brent and WTI fell, refiners were re-marked for crack-spread compression rather than product scarcity. Valero was a clean vehicle for that move because it is still primarily a Gulf Coast refining story.
+
+The late-March Port Arthur accident also mattered. With the refinery system not fully normalized operationally, the stock lost both the war premium and some of the benefit of the doubt that tighter product balances had been providing.
+
+Next catalyst: Q1 2026 results due Apr 30, 2026.
+
+*Sources: Apr 17 mover tape, Reuters on Apr 17 oil collapse, Valero IR earnings schedule, [[2026 Strait of Hormuz crisis]].*
+
+---
+
 ## Related
 
 - [[Phillips 66]] — peer refiner
