@@ -1,9 +1,9 @@
 ---
-aliases: [Chinese cellular module security risk, Embedded connectivity bottleneck risk]
+aliases: [Wireless module bottlenecks, Chinese cellular module security risk, Embedded connectivity chokepoints]
 tags: [concept, telecom, iot, china, security, industrial-policy]
 ---
 
-# Wireless module bottlenecks
+# Wireless module chokepoints
 
 Wireless modules matter because they are the hidden connectivity layer inside connected devices. Once a small supplier set, especially [[Quectel]] and [[Fibocom]], dominates that layer, the issue stops being just a sourcing question. It becomes a security, regulatory, and industrial-policy problem. The concern is less about branded smart-home gadgets than about embedded connectivity across factories, ports, vehicles, routers, hospitals, and defense-support systems.
 
@@ -18,7 +18,7 @@ Wireless modules matter because they are the hidden connectivity layer inside co
 
 ## Synthesis
 
-The bottleneck sits below the branded device, which is exactly why it matters. A government or enterprise buyer can decide not to buy a router, camera, or vehicle from one visible vendor. It is much harder to discover and replace a deeply embedded module supplier that sits inside thousands of downstream products. That makes market concentration in modules more strategically important than the category's low public profile would suggest.
+The chokepoint sits below the branded device, which is exactly why it matters. A government or enterprise buyer can decide not to buy a router, camera, or vehicle from one visible vendor. It is much harder to discover and replace a deeply embedded module supplier that sits inside thousands of downstream products. That makes market concentration in modules more strategically important than the category's low public profile would suggest.
 
 The investable consequence is that security scrutiny can migrate downward through the hardware stack. The pressure point is no longer only telecom base stations or handsets. It is the embedded layer that lets ordinary physical systems stay connected, updated, and remotely managed. If policymakers decide that Chinese dominance at that layer is intolerable, the result is a substitution cycle across industrial and connected-device supply chains.
 

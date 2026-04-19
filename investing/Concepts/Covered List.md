@@ -5,7 +5,7 @@ tags: [concept, telecom, regulation, usa]
 
 # Covered List
 
-The Covered List is the FCC's formal market-exclusion mechanism for communications equipment and services deemed to pose national-security risks. It matters because it converts a security concern into a regulatory barrier: federal funds cannot be used to buy listed equipment, and the FCC will not authorize new equipment from listed vendors. In the [[Wireless module bottlenecks]] debate, the Covered List is the lever that would turn concern about hidden embedded components into broad commercial consequences for suppliers such as [[Quectel]] and [[Fibocom]].
+The Covered List is the FCC's formal market-exclusion mechanism for communications equipment and services deemed to pose national-security risks. It matters because it converts a security concern into a regulatory barrier: federal funds cannot be used to buy listed equipment, and the FCC will not authorize new equipment from listed vendors. In the [[Wireless module chokepoints]] debate, the Covered List is the lever that would turn concern about hidden embedded components into broad commercial consequences for suppliers such as [[Quectel]] and [[Fibocom]].
 
 ## Quick stats
 
@@ -29,7 +29,7 @@ That framing matters because modules sit below the branded device. A Covered Lis
 ## Related
 
 - [[FCC]] — agency that maintains the list
-- [[Wireless module bottlenecks]] — structural concept behind the module-security debate
+- [[Wireless module chokepoints]] — structural concept behind the module-security debate
 - [[Quectel]] — Chinese module vendor discussed as a candidate for tighter restrictions
 - [[Fibocom]] — Chinese module vendor discussed alongside Quectel
 - [[Pentagon]] — procurement and infrastructure-audit angle intersects with the list debate
