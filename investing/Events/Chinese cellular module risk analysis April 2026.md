@@ -5,7 +5,7 @@ tags: [event, china, telecom, iot, defense, 2026]
 
 # Chinese cellular module risk analysis April 2026
 
-**April 15, 2026** — An FDD analysis and follow-on reporting pushed cellular modules from a niche component issue into a strategic policy story. The core claim was that Chinese suppliers [[Quectel]] and [[Fibocom]] are embedded so deeply across connected devices that module dominance itself becomes a surveillance, sabotage, and supply-chain risk, especially as factories, ports, vehicles, hospitals, and military-logistics systems become more automated.
+**April 15, 2026** — An FDD analysis and follow-on reporting pushed cellular modules from a niche component issue into a strategic policy story. The core claim was that Chinese suppliers [[Quectel]] and [[Fibocom]] are embedded so deeply across connected devices that module dominance itself becomes a surveillance, sabotage, and supply-chain risk. The broader structural theme now lives in [[Wireless module bottlenecks]]. This event note is the dated catalyst that moved that argument into the U.S. policy foreground.
 
 ## Quick facts
 
@@ -16,11 +16,11 @@ tags: [event, china, telecom, iot, defense, 2026]
 | Companies at center | [[Quectel]], [[Fibocom]] |
 | Main policy levers | [[Pentagon]] audit, [[Pentagon]] procurement ban, [[Covered List]] action |
 | Market structure | Quectel ~31% and Fibocom ~10% of Q1 2024 global module revenue |
-| Strategic concern | Embedded connectivity becoming a Chinese-controlled bottleneck |
+| Strategic concern | [[Wireless module bottlenecks]] becoming a U.S. policy issue |
 
 ## Synthesis
 
-The smart-home framing is the least important part of the story. The real issue is that cellular modules are the hidden connectivity layer inside industrial and mission-critical systems. Once that layer becomes Chinese-dominated, the United States faces a much harder problem than banning a branded device. It has to unwind embedded dependence while still keeping automation, logistics, and industrial-AI deployment moving. That is why the likely policy sequence is visibility first, procurement restrictions second, and broader market-exclusion tools third.
+What happened on April 15 was not the creation of the underlying risk. It was the conversion of that risk into a dated policy catalyst. The smart-home framing in headlines was secondary. The important development was that cellular modules, a buried connectivity layer inside industrial and mission-critical systems, became an explicit Washington policy object. The structural concept sits in [[Wireless module bottlenecks]]. The event is the moment that framework was pushed into the audit, procurement-ban, and [[Covered List]] conversation.
 
 ## What the analysis argued
 
@@ -57,12 +57,13 @@ The logic is straightforward: map exposure, stop adding to it, then tighten the 
 
 ## Why it matters for the vault
 
-This is an important bridge note between [[Military-civil fusion]] and the ordinary industrial stack. The module story shows how a strategic-security issue can hide inside mundane automation hardware. It also matters for portfolio work because it identifies where policy risk may migrate next: from visible telecom equipment to embedded connectivity, from consumer gadgets to logistics and industrial systems, and from single-vendor controversies to supply-chain substitution trades.
+This note now does one job cleanly: it marks the April 15, 2026 catalyst that pulled the broader [[Wireless module bottlenecks]] issue into an explicit U.S. policy sequence. That makes it a useful dated reference point for [[Quectel]], [[Fibocom]], [[Covered List]], and [[Military-civil fusion]]. The structural framework, and the longer substitution thesis, live in the concept note rather than here.
 
 ## Related
 
 - [[Quectel]] — market leader and current focal point of U.S. scrutiny
 - [[Fibocom]] — second major Chinese module vendor in the story
+- [[Wireless module bottlenecks]] — structural concept underneath the event
 - [[Covered List]] — FCC lever that could widen restrictions beyond procurement
 - [[Pentagon]] — audit and procurement-ban path
 - [[Military-civil fusion]] — broader conceptual frame

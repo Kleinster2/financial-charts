@@ -35,7 +35,7 @@ MCF is the rationale behind US sanctions targeting Chinese commercial firms that
 
 ## Cellular modules / embedded-connectivity case
 
-The 2026 cellular-module debate extends MCF into a less glamorous but more economically pervasive layer of technology. The concern is not that every module is a proven weapon. It is that suppliers such as [[Quectel]] and [[Fibocom]] sit on the connectivity path inside connected devices and industrial systems, and that U.S. policymakers increasingly read that position through an MCF lens. Once a supplier base is seen as exposed to state direction, firmware leverage, or intelligence tasking, the policy response can shift from ordinary vendor competition toward procurement bans, infrastructure audits, and regulatory exclusion.
+The 2026 cellular-module debate extends MCF into a less glamorous but more economically pervasive layer of technology. The concern is not that every module is a proven weapon. It is that suppliers such as [[Quectel]] and [[Fibocom]] sit on the connectivity path inside connected devices and industrial systems, and that U.S. policymakers increasingly read that position through an MCF lens. [[Wireless module bottlenecks]] is the cleaner concept note for that structural risk. Once a supplier base is seen as exposed to state direction, firmware leverage, or intelligence tasking, the policy response can shift from ordinary vendor competition toward procurement bans, infrastructure audits, and regulatory exclusion.
 
 That is why the module story matters for markets. It suggests the next U.S.-China tech-security battleground is not only frontier chips, satellites, or AI models, but also the embedded components that connect physical systems to networks.
 
@@ -48,6 +48,7 @@ That is why the module story matters for markets. It suggests the next U.S.-Chin
 - [[China Academy of Space Technology]] — state institution
 - [[Emposat]], [[Earth Eye Co]], [[Chang Guang Satellite Technology]] — commercial-space MCF cases
 - [[Chinese dual-use commercial satellite exports]] — sector case
+- [[Wireless module bottlenecks]] — concept note for the embedded-connectivity chokepoint
 - [[Quectel]] and [[Fibocom]] — embedded-connectivity case
 - [[Chinese cellular module risk analysis April 2026]] — April 2026 policy escalation
 - [[Covered List]] — [[FCC]] tool discussed for module vendors
