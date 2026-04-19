@@ -87,6 +87,16 @@ The 2026 Strait of Hormuz crisis is an ongoing disruption to global oil and LNG 
 - Apr 17: Equity-sector dispersion flips with the oil move. [[Chevron]] and the broader energy complex lead the downside, while [[American Airlines]], [[United Airlines]], and [[Carnival]] rally on fuel-relief expectations. [[Netflix]] is the major single-name outlier on the downside, showing that the day's tape was not just macro beta but also earnings/guidance selection.
 - Apr 17 readthrough: financial markets are now pricing de-escalation faster than the physical system is normalizing. Tanker traffic, war-risk insurance, mine-clearing, and actual refinery/product flows still lag the headline reopening signal, so the gap between paper oil and physical barrels remains the central unresolved risk.
 
+#### Headline reopening vs controlled transit
+
+The Apr 17 headline masked how conditional the reopening still was. Reuters reported that roughly 20 vessels started toward the strait on Friday evening, but most halted or turned back before transiting. Shipping firms said they still needed clarity on mine risk, routing, and insurance before normal sailings could resume. Iran separately told Reuters that commercial vessels, including U.S.-flagged ships, could pass only if transit plans were coordinated with the [[IRGC]] and vessels stayed in lanes Tehran deemed safe, while military ships remained barred.
+
+That conditionality matters because Washington and Tehran were still running parallel pressure tracks. [[Trump]] said the U.S. naval blockade of Iranian ports would remain until the wider "transaction" with [[Iran]] was complete, while Iranian officials warned the strait would not remain open if the blockade continued. The market heard "open". The physical system still heard permissioned access, residual mine risk, and unresolved war-risk cover.
+
+A second underappreciated part of the Apr 17 move was market microstructure. Reuters reported that investors sold 7,990 Brent lots, about **$760M** notional, between 12:24 and 12:25 GMT, roughly 20 minutes before [[Abbas Araghchi]] announced that the strait was open. That followed similar pre-announcement oil trades on Mar 23 and Apr 7, reinforcing the pattern that diplomatic pivots in this war have repeatedly leaked into energy markets before becoming public.
+
+The oil collapse also reopened the macro rates debate. Reuters reported that Fed-rate futures swung from no easing until well into 2027 to cuts resuming by late 2026 as traders stripped out part of the stagflation risk embedded during the blockade phase. In other words, the Apr 17 Hormuz signal was not just an oil move. It immediately changed the market's view of the [[Federal Reserve]] reaction function.
+
 #### Apr 17 sector dispersion table
 
 The dispersion is the insight. Rank-ordering by direct exposure to Hormuz (chokepoint risk premium) cleanly explains the equity tape — beta-adjusted, both ends of the dispersion are statistically significant per `quick_movers.py`.

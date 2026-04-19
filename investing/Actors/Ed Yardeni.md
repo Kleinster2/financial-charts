@@ -1,7 +1,8 @@
 ---
 aliases: [Yardeni, Dr. Ed Yardeni, Edward Yardeni]
+tags: [actor, person, strategist, macro]
+type: person
 ---
-#actor #strategist #macro
 
 **Ed Yardeni** — President of Yardeni Research. Veteran Wall Street strategist. Coined "Fed model" (1997) and "AI fatigue" (2026).
 
@@ -123,6 +124,14 @@ Separately, called tech stocks an "attractive entry point" — Mag 7 forward P/E
 Lowered recession probability from 35% to 20% on the ceasefire. Confirmed his call that the [[S&P 500]] bottomed on Monday (Apr 6). Key caveat: "A two-week pause is not a resolution. Financial markets will remain sensitive to any breakdown in talks." Also: "The US economy was on a resilient growth path heading into the latest oil price shock." Contrarian sentiment indicator still bearish — which he reads as bullish.
 
 *Sources: Yardeni QuickTakes (Apr 7), Benzinga (Apr 8)*
+
+## April 17, 2026 — FOMOOP
+
+Yardeni's mid-April bullish turn hardened into what he called FOMOOP, "fear of missing out on peace" in the Middle East. The idea is that investors were no longer just accepting his market-bottom call. They were starting to chase the upside from a peace dividend if the oil shock faded quickly. In the same published summary, Yardeni stressed that real GDP had slowed in Q4 2025 and Q1 2026, but [[S&P 500]] earnings had still accelerated to fresh record highs over the prior two quarters.
+
+This matters because it shifts his thesis from defensive bottom-calling to a more explicit earnings-plus-peace setup. The base case is no longer simply that the selloff went too far. It is that resilient earnings and geopolitical de-escalation can coexist long enough to keep the Roaring 2020s scenario alive.
+
+*Sources: Yardeni Research April 2026 note summary; Benzinga, Apr 17, 2026*
 
 ---
 

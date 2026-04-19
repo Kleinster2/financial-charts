@@ -1,11 +1,12 @@
 ---
-tags: [actor, analyst, strategist, sell-side]
+aliases: [Michael Wilson]
+tags: [actor, person, analyst, strategist, sell-side]
 type: person
 ---
 
 # Mike Wilson
 
-## Quick Stats
+## Quick stats
 
 | Field | Detail |
 |-------|--------|
@@ -141,6 +142,14 @@ Put the Apr 14 call next to the Apr 13 software rebound (SNOW +10.8%, NOW +7.3%,
 Watch: whether a single catalyst (oil spike from sanctions enforcement, banks Q1 disappointment, Jun FOMC surprise) re-tests the 6,300 floor before the second-half setup he's describing.
 
 *Sources: Morgan Stanley Sunday Start (Apr 12, 2026); [CNBC Squawk Box (Apr 14, 2026)](https://www.cnbc.com/video/2026/04/14/sp500-lows-are-in-for-the-year-for-the-sp-500-says-morgan-stanley-cio-mike-wilson.html); [TheStreet recap](https://www.thestreet.com/investing/morgan-stanley-has-a-blunt-message-on-sampp-500-market-correction)*
+
+## April 2026 — 7,800 upside anchor
+
+Morgan Stanley's published 12-month [[S&P 500]] target for Wilson's framework is 7,800, assuming roughly 17% earnings growth next year and only a modest contraction in valuation multiples. The firm's preferred sector mix inside that framework is [[Financials]], [[Industrials]], and [[Healthcare]].
+
+That target clarifies how bullish Wilson's April commentary actually is. The thesis is not just that the correction is ending around the 6,300-6,500 zone. It is that earnings breadth can carry the index materially above prior highs even after the Iran/Hormuz shock, so long as the oil spike does not turn into a genuine earnings recession.
+
+*Source: Morgan Stanley, "Thoughts on the Market" / U.S. Equities: Mike Wilson (2026 outlook framing, accessed Apr 2026)*
 
 ---
 

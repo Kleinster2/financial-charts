@@ -126,6 +126,14 @@ Croft is the clearest oil-bull/risk-off voice among the Apr 13-14 commentators. 
 
 *Sources: [CNBC Closing Bell Overtime (Apr 13, 2026)](https://money.whatfinger.com/2026/04/13/be-prepared-for-further-oil-disruptions-if-trump-cant-close-a-deal-soon-says-rbcs-helima-croft/), [CNBC Apr 13 coverage](https://www.cnbc.com/2026/04/13/trump-hormuz-blockade-oil-shock-china-iran-india-vessels-peace-talks.html), [CNBC Apr 14 oil retrace](https://www.cnbc.com/2026/04/14/oil-wti-brent-as-markets-hormuz-blockade-vance-trump.html)*
 
+## April 16, 2026 — Ceasefire can hold, but the molecules still matter
+
+In an [[RBC Capital]] / RBC Wealth Management note on the equity rally, Croft struck a more conditional tone than her earlier pure-escalation warnings. She said there was "scope for the continuation of the ceasefire, as a respite from drone and missile attacks is likely advantageous for both sides." But she paired that with the key physical constraint: "as long as the molecules are not moving through the Strait, the economic cost will mount ahead of summer, even if market participants continue to price in a peace dividend."
+
+That is a useful refinement of her earlier framework. Croft is not simply arguing for higher oil because war exists. She is separating diplomatic de-escalation from physical normalization. A ceasefire can hold while shipping, insurance, and actual cargo flows remain impaired, which means the market can price peace faster than the system delivers relief.
+
+*Source: RBC Wealth Management, "A resilient rally for U.S. equities, but economic headwinds persist" (Apr 16, 2026)*
+
 ---
 
 ## Related

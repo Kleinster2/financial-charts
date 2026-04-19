@@ -133,6 +133,18 @@ Cross-links to: [[2026 Iran conflict market impact]], [[2026 Strait of Hormuz cr
 
 *Source: [This Week is a Catalyst for Oil Prices to Fall](https://robinjbrooks.substack.com/p/this-week-is-a-catalyst-for-oil-prices), April 14, 2026*
 
+### "The Smart Blockade" (Apr 17)
+
+Brooks argued that market commentary was underweighting two channels through which the U.S. blockade strategy was working better than expected.
+
+1. The U.S. moved against Iranian floating storage indirectly by warning Chinese banks facilitating transactions involving Iranian oil about secondary-sanctions risk. Brooks argues this matters because [[China]] buys almost all Iranian oil, and constraining bank intermediation brings forward the moment when [[Iran]]'s balance of payments hits a wall.
+
+2. Washington simultaneously dangled the prospect of a peace agreement, which helped cap [[Brent crude|Brent]] and limited [[Iran]]'s ability to use an oil spike as its main negotiating lever. In Brooks' framing, that is what makes the blockade "smart": it tightens Tehran's cash flow while blunting its best counter-weapon.
+
+His conclusion is more hawkish than much of the surrounding coverage. The U.S. has the upper hand economically, and the fear created by the blockade may push Tehran back to negotiations in better faith than the market assumes.
+
+*Source: [The Smart Blockade](https://robinjbrooks.substack.com/p/the-smart-blockade), April 17, 2026*
+
 ### "Asia's Dependence on Oil from the Persian Gulf" (Apr 5)
 
 UN Comtrade data mapping 10 Asian economies' Gulf oil dependency. Persian Gulf defined as [[Bahrain]], [[Iran]], [[Iraq]], [[Kuwait]], [[Oman]], [[Saudi Arabia]], [[UAE]]. [[China]]/[[Malaysia]] adjusted for transshipped Iranian crude.
