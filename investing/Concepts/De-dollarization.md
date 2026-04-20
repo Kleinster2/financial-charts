@@ -54,7 +54,7 @@
 | Mechanism | Progress |
 |-----------|----------|
 | [[Trade]] settlements | Growing with partners |
-| CIPS | Alternative to SWIFT |
+| [[CIPS]] | Alternative to SWIFT |
 | [[Currency swap lines]] | 40+ agreements, ¥4.5T total |
 | [[Belt and Road]] | RMB loans |
 | [[Oil]] trades | Some with Saudi, [[Russia]] |
@@ -76,17 +76,19 @@ Limited by capital controls. See [[Currency swap lines]] for detailed network an
 
 ## Iran war catalyst (2026)
 
-The [[2026 Iran conflict market impact|Iran war]] produced three de-dollarization signals simultaneously:
+The [[2026 Iran conflict market impact|Iran war]] produced four de-dollarization signals simultaneously:
 
-1. Non-US central banks sold $82B in Treasuries since the war started ([[Federal Reserve|Fed]] custody data), pushing holdings to $2.7T — the lowest since 2012. Likely defensive (building war-chest liquidity), not anti-US sentiment per se. [[Poland]], for example, sold gold for the same reason.
+1. Non-US central banks sold $82B in [[Treasuries]] since the war started ([[Federal Reserve|Fed]] custody data), pushing holdings to $2.7T — the lowest since 2012. Likely defensive (building war-chest liquidity), not anti-US sentiment per se. [[Poland]], for example, sold gold for the same reason.
 
 2. [[Iran]] began demanding passage through the [[Strait of Hormuz]] in [[China|Chinese]] yuan or cryptocurrency — a direct trolling of dollar hegemony over the world's most critical energy chokepoint.
 
 3. Chinese state media ran cartoons mocking dollar dominance, framing the conflict as evidence of US overextension.
 
-Whether these amount to a structural shift or opportunistic posturing is debatable. $82B is small relative to the $2.7T remaining. But the symbolism matters: when a country can charge tolls on 20% of global oil transit and specify non-dollar payment, the dollar's claim to commodity supremacy is being publicly challenged.
+4. The [[UAE]], despite warning it might use [[Chinese yuan]] or other currencies for some oil sales if dollar liquidity tightened, actually asked Washington about a wartime dollar backstop. That is the critical nuance: even a wealthy Gulf exporter with a dollar peg and large reserves still reached first for US official liquidity, not a true yuan alternative.
 
-*Source: FT (Gillian Tett, Apr 3 2026)*
+Whether these amount to a structural shift or opportunistic posturing is debatable. $82B is small relative to the $2.7T remaining, and the UAE episode cuts both ways. It shows that crisis pressure can generate anti-dollar rhetoric, but it also shows the depth of the dollar system's pull. When the stress becomes real, the question is still who can provide dollars, not who can make the best speech about replacing them.
+
+*Sources: FT ([[Gillian Tett]], Apr 3 2026); WSJ / secondary reproductions, Apr 20 2026*
 
 ## What to watch
 
@@ -104,7 +106,7 @@ Whether these amount to a structural shift or opportunistic posturing is debatab
 ## Related
 
 ### Concepts
-- [[Currency swap lines]] — PBOC network vs Fed network
+- [[Currency swap lines]] — [[PBOC]] network vs Fed network
 - [[BRICS]] — alternative bloc
 - [[Petrodollar]] — oil-USD link
 - [[Digital Yuan]] — CBDC

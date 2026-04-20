@@ -1,13 +1,14 @@
 ---
 aliases: [Bessent]
----
-#actor #individual #usa #macro
-
-**Scott Bessent** — 79th US Treasury Secretary (Jan 2025). Former Soros Fund macro trader. Leading Fed Chair search. Currency/fixed income specialist.
-
+type: actor
+tags: [actor, individual, usa, macro]
 ---
 
-## Overview
+# Scott Bessent
+
+Scott Bessent is the 79th US Treasury Secretary, a former [[Soros Fund Management]] macro trader, and one of the few Trump officials whose edge is explicitly market-plumbing literacy. In 2026 he sits at the intersection of tariff policy, the [[Federal Reserve]] succession fight, Treasury-market rollover risk, and wartime dollar diplomacy with Gulf allies such as the [[UAE]]. The upside to his influence is that he understands how currencies, rates, and liquidity pipes actually behave under stress. The risk is that the administration keeps turning those same pipes into overt instruments of political pressure.
+
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
@@ -17,7 +18,7 @@ aliases: [Bessent]
 | Net worth | ~$500M+ |
 | Background | Hedge fund, Soros |
 
-**First openly gay Treasury Secretary.**
+First openly gay Treasury Secretary.
 
 ---
 
@@ -69,7 +70,7 @@ Macro specialist — currencies, fixed income, central bank policy.
 
 Bessent removed himself from consideration.
 
-**On Powell investigation:** "Unhappy" with DOJ decision — concerned about market impact.
+On Powell investigation: "Unhappy" with DOJ decision — concerned about market impact.
 
 ---
 
@@ -91,7 +92,7 @@ Bessent removed himself from consideration.
 
 Reuters reported the Treasury was considering measures to lower oil prices during the [[2026 Iran conflict market impact|Iran war]], including direct intervention in oil futures markets. Wild price action on March 10 — Brent crude swung from ~$120 to below $100 intraday — fueled speculation among energy traders that Treasury was behind large unexplained sell orders. [[Energy Aspects]], [[Rapidan Energy Group]], and traders at [[CME Group]] all fielded client calls asking "who the big seller was."
 
-Treasury declined to comment. A person familiar with Bessent's thinking said the agency had **not** intervened in oil markets. [[CME Group]] CEO [[Terry Duffy]] publicly warned such intervention would be a "biblical disaster" for market confidence.
+Treasury declined to comment. A person familiar with Bessent's thinking said the agency had not intervened in oil markets. [[CME Group]] CEO [[Terry Duffy]] publicly warned such intervention would be a "biblical disaster" for market confidence.
 
 Bessent made his name on the other side of a failed government market intervention — at [[Soros Fund Management]] in 1992, he helped profit $1B when the Bank of England spent £3.3B trying to defend sterling and lost. He knows the mechanics of what happens when a government tries to hold a price the market doesn't believe in.
 
@@ -214,6 +215,16 @@ Self-description: "I am mercifully not an economist. I'm an economic historian."
 
 ---
 
+## UAE wartime dollar backstop talks (April 2026)
+
+The WSJ reported that UAE central bank governor [[Khaled Mohamed Balama]] raised with Bessent, Treasury officials, and the [[Federal Reserve]] the possibility of a precautionary dollar [[Currency swap lines|swap line]] or other backstop as the [[2026 Strait of Hormuz crisis]] damaged Emirati energy infrastructure and choked tanker-based dollar revenues. The fact pattern matters because it shows Bessent's role expanding beyond sanctions and Treasury-market management into direct wartime dollar diplomacy with Gulf allies.
+
+The report also sharpened the institutional split inside the dollar system. The Fed was seen as unlikely to open a line for the [[UAE]], while Treasury's recent use of the [[Exchange Stabilization Fund]] for a $20 billion [[Argentina]] arrangement suggested that any Gulf support would more likely be political and Treasury-mediated than automatic Fed plumbing. At the same time, Emirati officials reportedly warned that a shortage of dollars could push some oil transactions toward [[Chinese yuan]], making the conversation a live test of whether US security policy can accidentally create the same de-dollarization pressure Washington says it opposes.
+
+*Source: WSJ / secondary reproductions, Apr 20, 2026*
+
+---
+
 ## Related
 
 - [[Federal Reserve]] — Fed Chair selection; NY Fed research on hedge fund Treasury flows
@@ -226,6 +237,10 @@ Self-description: "I am mercifully not an economist. I'm an economic historian."
 - [[2026 Iran conflict market impact]] — oil intervention speculation, market management
 - [[Operation Epic Fury]] — military phase of Iran campaign; economic side now branded as Economic Fury
 - [[Iran]] — economic pressure campaign details
+- [[UAE]] — Gulf ally seeking wartime dollar backstop
+- [[Khaled Mohamed Balama]] — Emirati official who raised the request
+- [[Exchange Stabilization Fund]] — Treasury tool for non-Fed support
+- [[Currency swap lines]] — mechanism at issue in the UAE talks
 - [[Secondary sanctions]] — Chinese bank pressure lever
 - [[US-China AI race]] — compute share projection (US 30s → 50s → 70-80%)
 - [[Anthropic]] — "mythos model step function change"

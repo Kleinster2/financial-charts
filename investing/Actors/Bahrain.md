@@ -6,13 +6,7 @@ type: actor
 
 # Bahrain
 
-Bahrain — Gulf archipelago kingdom balancing oil legacy with financial sector leadership. Home to US Fifth Fleet amid Shia-majority, Sunni-ruled tensions.
-
----
-
-## Synopsis
-
-[[Bahrain]] sits at the intersection of ancient trade routes and modern geopolitics, leveraging 4,000+ years of commercial heritage into today's Gulf banking hub. The kingdom hosts the [[US Fifth Fleet]] while managing the region's most delicate sectarian balance—a Sunni monarchy governing a 55-65% Shia majority population. This internal tension, which erupted in 2011 Arab Spring protests requiring [[Saudi Arabia]]n intervention, remains the defining political dynamic.
+[[Bahrain]] sits at the intersection of ancient trade routes and modern geopolitics, leveraging 4,000+ years of commercial heritage into today's Gulf banking hub. The kingdom hosts the [[US Fifth Fleet]] while managing the region's most delicate sectarian balance, a Sunni monarchy governing a 55-65% Shia majority population. Economically it is the GCC state that had to diversify early: oil still matters for fiscal revenue, but the durable pillars are [[ALBA]] aluminum, banking, refining, and logistics. That mix makes Bahrain both a strategic outpost and, in crises like 2026, a useful piece of regional financial plumbing rather than just a passive security dependent.
 
 Economically, Bahrain exemplifies diversification necessity. Oil discovered in 1932 (first in the Gulf, predating [[Saudi Arabia]]) now provides just 14% of GDP but 70% of government revenues. The economy pivots on three pillars: [[ALBA]] aluminum smelting (1.62M tons annually, world's largest single-site), Islamic banking leadership (40+ institutions), and downstream oil refining. With 124 million barrels in proven reserves versus neighbors' hundreds of billions, Bahrain transformed from pearl diving to financial services when Beirut's 1970s-80s collapse created opportunity.
 
@@ -78,6 +72,12 @@ Relations with [[Saudi Arabia]] extend beyond security to economics. The causewa
 | US strategic partner | Military basing, defense cooperation | Regional conflict exposure |
 | Tourism growth | Cultural heritage, business travel | Security perceptions, competition |
 | Diversification story | Manufacturing, logistics, tech | Execution risk, fiscal constraints |
+
+## April 2026 wartime liquidity support
+
+As the [[2026 Strait of Hormuz crisis]] moved from oil flows into dollar-funding stress, [[Bahrain]]'s central bank set up a roughly $5 billion swap line with the [[UAE]] earlier in April, according to secondary reproductions of a WSJ report. The size is notable relative to Bahrain's ~$47 billion economy and reinforces the kingdom's role as both a vulnerable Gulf financial hub and a participant in regional liquidity mutual support, not just a passive recipient of Saudi security backing.
+
+The episode also shows how Gulf states were building ad hoc regional cash buffers before any formal US wartime backstop existed. Bahrain is usually analyzed through sectarian politics and US basing. This adds a financial-plumbing angle: in a chokepoint war, even small Gulf states can become nodes in emergency dollar support networks.
 
 ## Risks
 

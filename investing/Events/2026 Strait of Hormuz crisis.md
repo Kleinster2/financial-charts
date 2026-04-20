@@ -149,6 +149,21 @@ The exclusion of Iran, Cuba, and North Korea from the renewed waiver sharpens th
 
 *Source: Reuters, "US renews Russian oil waiver after pressure from countries dealing with Iran war price shocks" (Apr 18, 2026).*
 
+### Phase 7: Cargo ship seizure destabilizes the truce (Apr 19-20)
+
+- Apr 19-20: The United States says it seized an Iranian-flagged cargo ship that tried to run the blockade. Iran calls the boarding "armed piracy" and vows to respond.
+- Apr 20: Iran says it will not participate in the second round of negotiations Washington had hoped to launch before the ceasefire expires on Tuesday.
+- Apr 20: The WSJ reports that the [[UAE]] opened talks with Washington about a precautionary dollar backstop. Central bank governor [[Khaled Mohamed Balama]] raised possible swap-line access with [[Scott Bessent]], Treasury, and [[Federal Reserve]] officials as war damage and disrupted tanker traffic threatened Emirati dollar revenues.
+- Apr 20: Secondary reproductions of the WSJ piece add several balance-sheet details that matter for the Gulf financial map: the dirham peg is backed by roughly $270 billion of reserves, Iran had fired more than 2,800 drones and missiles at the UAE before the ceasefire, Abu Dhabi raised about $4 billion privately at a premium for speed, and [[Bahrain]] set up a roughly $5 billion swap line with the UAE.
+- Apr 20: [[Mohammed Al-Jadaan]] says the tanker-scheduling and logistics damage may take until the end of June to unwind even if hostilities fully stop, underlining how far physical normalization lags diplomatic headline relief.
+- Apr 20 readthrough: the live question is no longer whether the strait can be declared "open" on paper. It is whether selective commercial passage can coexist with direct U.S.-Iran maritime enforcement without collapsing back into a durable blockade, and whether that physical disruption is now severe enough to move from oil pricing into the architecture of Gulf dollar liquidity.
+
+#### Downstream impact check - Asia-growth stress now depends on duration, not existence
+
+The watch-list item on Asian GDP revisions is no longer hypothetical. The IMF's Apr 16 Asia update keeps regional growth at 4.4% in 2026 and 4.2% in 2027 under a transient-shock base case, but it explicitly flags higher inflation, weaker external balances, narrower policy space, and Asia's outsized dependence on Hormuz energy flows.
+
+That matters because the Apr 20 ship seizure shifts the debate back toward duration risk. A short, messy reopening is still compatible with the IMF base case. Repeated maritime seizures and retaliation threats are not. The macro damage channels are confirmed; the unresolved variable is how long this renewed enforcement phase lasts.
+
 ## Quantitative impact
 
 | Metric | Pre-crisis | Peak disruption | As of early April |
@@ -180,6 +195,8 @@ The exclusion of Iran, Cuba, and North Korea from the renewed waiver sharpens th
 
 Iran converted the blanket closure into a permission-based gatekeeping operation. See [[Hormuz Transit Regime]] for the full mechanics: bilateral approval process, $2M transit fees, the yuan settlement condition, and the legal/geopolitical implications.
 
+The April 20 UAE backstop talks show the flip side of that regime. The yuan condition and transit fees are the visible anti-dollar challenge, but the deeper stress is that blocking tanker flows also threatens the dollar revenues and reserve confidence of Gulf producers that remain formally inside the US security and currency orbit. That is why the crisis has now spilled from shipping lanes into central-bank liquidity politics.
+
 Countries granted passage (as of Apr 5): [[China]], [[Russia]], [[India]], [[Iraq]], [[Pakistan]], [[Malaysia]], [[Thailand]], [[Philippines]], [[Turkey]] (single vessel).
 
 Countries blocked: [[United States]], [[Israel]], and declared allies.
@@ -208,7 +225,7 @@ Combined bypass capacity (~7M bbl/d) covers roughly a third of the 20 mb/d that 
 | Ship attacks | 28 incidents through Apr 4 |
 | Casualties | 12+ crew killed/missing |
 | IEA reserve release | 400M barrels |
-| Status | Ongoing (selective transit regime) |
+| Status | Ongoing (truce unstable; selective transit and blockade overlap) |
 
 ## Demand-side vulnerability (Asia)
 
@@ -238,7 +255,8 @@ Most vulnerable quadrant (high GDP exposure + high Gulf share): [[Japan]], [[Sou
 
 ## Watch for
 
-- [ ] Asian GDP revisions — IMF/World Bank re-forecast after sustained oil >$100
+- [ ] Asian GDP revisions — IMF Apr 16 kept Asia at 4.4% / 4.2% under transient-shock assumptions, but confirmed higher inflation and weaker external balances
+- [ ] Gulf dollar-funding stress — more regional swap lines, Treasury-mediated backstops, or reserve drawdowns at [[UAE]], [[Bahrain]], and [[Qatar]]
 - [ ] Second wave of [[force majeure]] declarations from Asian petrochemical producers
 - [ ] Fertilizer supply impact on food prices ([[Nitrogen Trap]]) — Gulf states are top exporters
 - [ ] Russian supply compounding: [[Ust-Luga]]/[[Primorsk]] drone damage reducing alternative supply
