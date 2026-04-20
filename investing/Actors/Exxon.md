@@ -34,8 +34,8 @@ See [[2026 Iran conflict market impact#Day 15 — March 14 (oil nears $100, US p
 
 | Facility | Exxon stake | Affected contracts | Repair timeline |
 |----------|------------|-------------------|-----------------|
-| LNG Train S4 | **34%** | [[Edison SpA]] (Italy), [[EDFT]] (Belgium) | 3-5 years |
-| LNG Train S6 | **30%** | [[KOGAS]] (South Korea), EDFT, [[Shell]] (China) | 3-5 years |
+| LNG Train S4 | 34% | [[Edison SpA]] (Italy), [[EDFT]] (Belgium) | 3-5 years |
+| LNG Train S6 | 30% | [[KOGAS]] (South Korea), EDFT, [[Shell]] (China) | 3-5 years |
 
 The two trains represent 12.8 mtpa of capacity — 17% of Qatar's total. Force majeure extended to multi-year. Total construction cost of the damaged units: ~$26B. Exxon's proportional exposure to the write-down could be significant — roughly $8-9B at construction cost, though accounting treatment will depend on insurance recovery and impairment methodology.
 
@@ -45,17 +45,29 @@ The two trains represent 12.8 mtpa of capacity — 17% of Qatar's total. Force m
 
 Shares fell sharply on Trump's announcement of a two-week conditional ceasefire with [[Iran]], including [[Strait of Hormuz]] reopening. Stock dropped over 5% intraday alongside broader energy sector selloff as oil prices crashed ~17% (biggest drop since COVID), unwinding the war premium that had supported Energy as Q1's top-performing sector (+37%).
 
-**Market dynamics:**
+Market dynamics:
 - Oil crash (WTI -17.7% to $92.92, Brent -16.1% to $91.68) reversed months of war premium accumulation since late February
 - Brent and WTI had risen ~51% and ~69% respectively since late Feb when Middle East tensions first disrupted Hormuz
 - Exxon's limited exposure to volatility trading (vs [[BP]], [[Shell]]) provided less upside protection during the war premium period
 - Qatar LNG damage remains multi-year headwind regardless of ceasefire duration
 
-**Structural implications:**
-- **If ceasefire holds:** War premium unwind becomes permanent, normalizing energy valuations and reducing cash flow projections from elevated oil prices that had driven Energy sector outperformance
-- **If ceasefire collapses:** Rapid re-escalation could drive oil above previous $119 highs, with markets potentially pricing higher risk premiums for demonstrated vulnerability of critical chokepoints
+Structural implications:
+- If ceasefire holds: War premium unwind becomes permanent, normalizing energy valuations and reducing cash flow projections from elevated oil prices that had driven Energy sector outperformance
+- If ceasefire collapses: Rapid re-escalation could drive oil above previous $119 highs, with markets potentially pricing higher risk premiums for demonstrated vulnerability of critical chokepoints
 
 See [[2026 Strait of Hormuz crisis]] and [[Hormuz Permanent Risk Premium]] for broader conflict context.
+
+### Apr 17-Apr 18, 2026 - integrated model cushioned the second unwind
+
+XOM fell 3.6% on Apr 17, 2026 ($151.98 -> $146.44), a milder drawdown than [[BP]] and in line with the lower-beta end of the supermajor unwind.
+
+That relative resilience fits the business mix. Exxon still sold off with crude, but integrated refining and chemicals provided more ballast than pure upstream exposure, while the stock had carried less crisis premium than the trading-heavy European majors in the first place.
+
+The Apr 18 waiver extension through May 16 reinforced the read that near-term oil balances would stay looser than wartime pricing implied.
+
+Next catalyst: Q1 2026 earnings call on May 1, 2026.
+
+*Sources: verified closes from `market_data.db`, Reuters on Apr 17 oil drop, Reuters on Apr 18 waiver extension, ExxonMobil investor relations page.*
 
 ---
 
@@ -84,7 +96,7 @@ See [[2026 Strait of Hormuz crisis]] and [[Hormuz Permanent Risk Premium]] for b
 
 ## Data center angle
 
-**[[Natural gas]] for AI power:**
+[[Natural gas]] for AI power:
 - Gas plants complement renewables (baseload)
 - Faster to build than nuclear
 - [[Crusoe Energy]] model — gas-to-compute
@@ -114,13 +126,13 @@ See [[2026 Strait of Hormuz crisis]] and [[Hormuz Permanent Risk Premium]] for b
 Dan Holton (SVP low carbon solutions): "Today the market is dominated by China and it's going to be a significant challenge for the US industry to compete." Holton stressed that the US needs full vertical integration — "from lithium extraction, processing, cathode active material production right up to the gigafactories producing batteries."
 | Biofuels | Renewable diesel |
 
-**Hedging:** Using oil cash flows to fund energy transition bets.
+Hedging: Using oil cash flows to fund energy transition bets.
 
 ---
 
 ## Venezuela — exited and sued
 
-**Exxon refused nationalization:**
+Exxon refused nationalization:
 
 | Timeline | Event |
 |----------|-------|
@@ -129,23 +141,23 @@ Dan Holton (SVP low carbon solutions): "Today the market is dominated by China a
 | 2007-2014 | Arbitration proceedings |
 | 2014 | Won $1.6B award (less than $12B sought) |
 
-**Contrast with Chevron:** Exxon left, Chevron stayed. Chevron now has exclusive US access.
+Contrast with Chevron: Exxon left, Chevron stayed. Chevron now has exclusive US access.
 
-**Lesson:** Exxon prioritized principle over access — may have been right (Chevron's upside still uncertain).
+Lesson: Exxon prioritized principle over access — may have been right (Chevron's upside still uncertain).
 
-**January 2026 update:** US captured Maduro. Trump announced US will "run" Venezuela and take control of oil reserves, seeking American companies to invest billions. Exxon's 2007 exit could reverse — potential return opportunity under new regime.
+January 2026 update: US captured Maduro. Trump announced US will "run" Venezuela and take control of oil reserves, seeking American companies to invest billions. Exxon's 2007 exit could reverse — potential return opportunity under new regime.
 
 See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela meeting 2026-01-09]] for full context.
 
-**Jan 9, 2026:** CEO [[Darren Woods]] attended White House meeting. Expressed deep skepticism: "To re-enter a third time would require some pretty significant changes from what we've historically seen." He further stated that Venezuela was **"uninvestable"** given the current legal and commercial frameworks.
+Jan 9, 2026: CEO [[Darren Woods]] attended White House meeting. Expressed deep skepticism: "To re-enter a third time would require some pretty significant changes from what we've historically seen." He further stated that Venezuela was "uninvestable" given the current legal and commercial frameworks.
 
-**Jan 12, 2026 — Trump retaliates:** Trump said he "didn't like Exxon's response" and is "inclined to keep Exxon out" of Venezuela. Called them "playing too cute." Signals Exxon may be excluded from Venezuela rebuild while [[Chevron]] benefits.
+Jan 12, 2026 — Trump retaliates: Trump said he "didn't like Exxon's response" and is "inclined to keep Exxon out" of Venezuela. Called them "playing too cute." Signals Exxon may be excluded from Venezuela rebuild while [[Chevron]] benefits.
 
 ---
 
 ## Texas redomiciling (Mar 10, 2026)
 
-Exxon filed proxy proposal to redomicile from **New Jersey → Texas**, joining the [[Texas corporate migration]] wave alongside [[SpaceX]], [[Tesla]], and [[Coinbase]].
+Exxon filed proxy proposal to redomicile from New Jersey → Texas, joining the [[Texas corporate migration]] wave alongside [[SpaceX]], [[Tesla]], and [[Coinbase]].
 
 | Detail | Value |
 |--------|-------|
@@ -154,13 +166,13 @@ Exxon filed proxy proposal to redomicile from **New Jersey → Texas**, joining 
 | Proposed incorporation | Texas |
 | Requires | Shareholder vote |
 
-**Why now:**
-- **2025 Texas law** enhanced business protections — including stock ownership thresholds for shareholder lawsuits, reducing litigation exposure
-- **Climate lawsuit defense** — NJ sued Exxon and [[Chevron]] over climate change in 2022 (dismissed 2025). Redomiciling removes future NJ legal exposure
-- **Policy access** — incorporating in your home state gets state politicians' attention on taxes and policy (U Penn law professor Jill Fisch)
-- **Anti-activist toolkit** — Texas law allows companies to raise the bar for shareholder proposals. CEO [[Darren Woods]] says they won't adopt those provisions ("not in any way influencing the decision") — time will tell
+Why now:
+- 2025 Texas law enhanced business protections — including stock ownership thresholds for shareholder lawsuits, reducing litigation exposure
+- Climate lawsuit defense — NJ sued Exxon and [[Chevron]] over climate change in 2022 (dismissed 2025). Redomiciling removes future NJ legal exposure
+- Policy access — incorporating in your home state gets state politicians' attention on taxes and policy (U Penn law professor Jill Fisch)
+- Anti-activist toolkit — Texas law allows companies to raise the bar for shareholder proposals. CEO [[Darren Woods]] says they won't adopt those provisions ("not in any way influencing the decision") — time will tell
 
-**Broader anti-activist posture:**
+Broader anti-activist posture:
 - Sep 2025: Launched auto-voting program for retail investors to automatically vote with board recommendations
 - 40% of shares held by individuals but only 25% vote — board-aligned auto-voting could neutralize activist proposals
 - Exxon framing: "Texas legislators, judges, and juries who might make decisions that impact Exxon Mobil are generally more familiar with our business"
@@ -171,14 +183,14 @@ Exxon filed proxy proposal to redomicile from **New Jersey → Texas**, joining 
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Massive cash flows
 - Low-cost production
 - Energy security demand
 - Diversification into lithium, CCS
 - Dividend aristocrat
 
-**Bear:**
+Bear:
 - Peak oil demand concerns
 - [[ESG]] divestment pressure
 - Stranded asset risk

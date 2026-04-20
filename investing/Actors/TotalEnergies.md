@@ -125,6 +125,18 @@ Trading update (Mar 14): higher oil price "more than offsets the loss of Middle 
 
 ---
 
+### Apr 17-Apr 18, 2026 - LNG and power cushioned, but did not protect
+
+TTE fell 4.0% on Apr 17, 2026 ($90.74 -> $87.07) as the reopening headline and later Russian-oil waiver extension took crisis premium out of the European integrated-energy complex.
+
+The move was close to [[Shell]]'s and milder than [[BP]]'s, which makes sense. TotalEnergies has large LNG, refining, and integrated-power exposure, so the stock is less of a pure oil-beta vehicle than upstream-heavy names. But it still lost the near-term windfall case once more barrels were expected to remain in the system through May 16.
+
+Next catalyst: first-quarter 2026 results presentation on Apr 29, 2026.
+
+*Sources: verified closes from `market_data.db`, Reuters on Apr 17 oil drop, Reuters on Apr 18 waiver extension, TotalEnergies results calendar.*
+
+---
+
 ## US offshore wind exit (Mar 23, 2026)
 
 [[Doug Burgum]], US Interior Secretary, announced at CeraWeek in Houston that the Interior Department will reimburse [[TotalEnergies]] $928M — the full cost of its two US offshore wind leases — in exchange for cancelling the leases and reinvesting the capital in oil and gas. The leases, off the coasts of New York and North Carolina, had ~4 GW combined capacity. The New York project, Attentive Energy, was a joint venture with [[Corio Generation]] and [[Rise Light and Power]], though they joined after Total won the leases in 2022.

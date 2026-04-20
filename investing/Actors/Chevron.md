@@ -43,7 +43,7 @@ CVX trades as a core Energy name (XLE r = 0.92).
 
 ## [[LNG]] leadership
 
-**Liquefied natural gas:**
+Liquefied natural gas:
 - Major [[LNG]] exporter
 - Gorgon, Wheatstone ([[Australia]])
 - Global gas trade
@@ -61,13 +61,13 @@ CVX trades as a core Energy name (XLE r = 0.92).
 | Renewable fuels | Renewable diesel, SAF |
 | TAE Technologies | Investor (fusion) |
 
-**TAE investment:** Chevron backed [[TAE Technologies]] fusion company.
+TAE investment: Chevron backed [[TAE Technologies]] fusion company.
 
 ---
 
 ## Venezuela — exclusive US license
 
-**Chevron stayed when others left:**
+Chevron stayed when others left:
 
 | Timeline | Event |
 |----------|-------|
@@ -75,53 +75,65 @@ CVX trades as a core Energy name (XLE r = 0.92).
 | 2019 | Trump sanctions — limited wind-down license |
 | 2022 | Biden granted full operating license |
 | 2023+ | Ramping production |
-| **Jan 5, 2026** | **US captures Maduro — stock +6.3%** |
+| Jan 5, 2026 | US captures Maduro — stock +6.3% |
 
-**Current Venezuela production:** 150K bpd (~17% of Venezuela's output)
+Current Venezuela production: 150K bpd (~17% of Venezuela's output)
 
-**Why Chevron stayed:**
+Why Chevron stayed:
 - Bet on eventual normalization
 - Maintained [[PDVSA]] relationships
 - Now only US company with access
 
-**January 2026 development:** US military strike captured Maduro. Trump announced US will "run" Venezuela and take control of oil reserves. American companies to invest billions to rebuild industry.
+January 2026 development: US military strike captured Maduro. Trump announced US will "run" Venezuela and take control of oil reserves. American companies to invest billions to rebuild industry.
 
-**Chevron response (Jan 5):** "Chevron remains focused on the safety and wellbeing of our employees, as well as the integrity of our assets. We continue to operate uninterrupted and in full compliance with all relevant laws and regulations."
+Chevron response (Jan 5): "Chevron remains focused on the safety and wellbeing of our employees, as well as the integrity of our assets. We continue to operate uninterrupted and in full compliance with all relevant laws and regulations."
 
-**Market reaction:** CVX +6.3% on Jan 5 (largest single-day gain since April).
+Market reaction: CVX +6.3% on Jan 5 (largest single-day gain since April).
 
-**Chevron's position:** Only US company currently operating — 150K bpd production, ~17% of Venezuela output.
+Chevron's position: Only US company currently operating — 150K bpd production, ~17% of Venezuela output.
 
-**Upside:** If transition stabilizes, Chevron best positioned to expand. Trump seeking US company investment.
+Upside: If transition stabilizes, Chevron best positioned to expand. Trump seeking US company investment.
 
-**Risk:** Near-term operational disruption, potential competition from returning majors (Exxon?).
+Risk: Near-term operational disruption, potential competition from returning majors (Exxon?).
 
 See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela meeting 2026-01-09]] for full context.
 
-**Jan 9, 2026:** Vice Chairman Mark Nelson attended White House meeting. Trump seeking $100B investment commitment. Industry skeptical but Chevron best positioned as only current operator.
+Jan 9, 2026: Vice Chairman Mark Nelson attended White House meeting. Trump seeking $100B investment commitment. Industry skeptical but Chevron best positioned as only current operator.
 
-**Jan 12, 2026 — Exxon exclusion benefits Chevron:** Trump said he's "inclined to keep Exxon out" after Woods called Venezuela "uninvestable." If [[Exxon]] excluded, Chevron's competitive position strengthens — less competition for contracts, expansion opportunities.
+Jan 12, 2026 — Exxon exclusion benefits Chevron: Trump said he's "inclined to keep Exxon out" after Woods called Venezuela "uninvestable." If [[Exxon]] excluded, Chevron's competitive position strengthens — less competition for contracts, expansion opportunities.
 
 ### US-Iran ceasefire impact (Apr 8, 2026)
 
 Shares fell sharply on Trump's announcement of a two-week conditional ceasefire with [[Iran]], including [[Strait of Hormuz]] reopening. Stock declined intraday alongside broader energy sector selloff as oil prices crashed ~17% (biggest drop since COVID), reversing the war premium that had made Energy the top-performing S&P sector in Q1 (+37%).
 
-**Market dynamics:**
+Market dynamics:
 - Oil crash (WTI -17.7% to $92.92, Brent -16.1% to $91.68) unwound months of accumulated war premium
 - Chevron's strong LNG position provides some insulation from pure oil price moves
 - Venezuela operations continue unaffected by Middle East developments
 
-**Structural implications:**
-- **If ceasefire holds:** Permanent normalization of energy markets reduces war premium contribution to cash flows, but stabilizes [[LNG]] demand patterns
-- **If ceasefire collapses:** Rapid re-escalation could drive oil above previous highs, with Chevron's diversified upstream/LNG portfolio potentially outperforming pure oil plays
+Structural implications:
+- If ceasefire holds: Permanent normalization of energy markets reduces war premium contribution to cash flows, but stabilizes [[LNG]] demand patterns
+- If ceasefire collapses: Rapid re-escalation could drive oil above previous highs, with Chevron's diversified upstream/LNG portfolio potentially outperforming pure oil plays
 
 See [[2026 Strait of Hormuz crisis]] and [[Hormuz Transit Regime]] for broader conflict context.
+
+### Apr 17-Apr 18, 2026 - least damaged of the supermajors
+
+CVX fell 2.2% on Apr 17, 2026 ($188.15 -> $183.99), the mildest drawdown among the supermajors in the unwind cluster.
+
+That relative resilience fits Chevron's setup. The company has integrated operations, a strong LNG position, and lower direct Middle East free-cash-flow exposure than [[BP]], [[Exxon]], or [[TotalEnergies]]. Venezuela operations were also unaffected by the Hormuz reopening headline, which helped keep the stock from fully trading as a pure oil-beta expression.
+
+The Apr 18 waiver extension through May 16 still mattered because it capped how fast the market could reprice tight oil balances.
+
+Next catalyst: 1Q 2026 earnings event on May 1, 2026.
+
+*Sources: verified closes from `market_data.db`, Reuters on Apr 17 oil drop, Reuters on Apr 18 waiver extension, Chevron investor calendar.*
 
 ---
 
 ## Hess acquisition (2024)
 
-**$53B deal:**
+$53B deal:
 - [[Guyana]] oil assets (massive)
 - Arbitration with Exxon ongoing
 - Transforms Chevron's portfolio
@@ -131,14 +143,14 @@ See [[2026 Strait of Hormuz crisis]] and [[Hormuz Transit Regime]] for broader c
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Strong [[LNG]] position
 - [[Guyana]] growth (if Hess closes)
 - Permian scale
 - New Energies optionality
 - Dividend growth
 
-**Bear:**
+Bear:
 - Peak oil demand concerns
 - Hess deal uncertainty
 - [[ESG]] pressure
