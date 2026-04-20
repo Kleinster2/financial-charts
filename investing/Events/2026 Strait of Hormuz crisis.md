@@ -93,7 +93,7 @@ The Apr 17 headline masked how conditional the reopening still was. Reuters repo
 
 That conditionality matters because Washington and Tehran were still running parallel pressure tracks. [[Trump]] said the U.S. naval blockade of Iranian ports would remain until the wider "transaction" with [[Iran]] was complete, while Iranian officials warned the strait would not remain open if the blockade continued. The market heard "open". The physical system still heard permissioned access, residual mine risk, and unresolved war-risk cover.
 
-A second underappreciated part of the Apr 17 move was market microstructure. Reuters reported that investors sold 7,990 Brent lots, about **$760M** notional, between 12:24 and 12:25 GMT, roughly 20 minutes before [[Abbas Araghchi]] announced that the strait was open. That followed similar pre-announcement oil trades on Mar 23 and Apr 7, reinforcing the pattern that diplomatic pivots in this war have repeatedly leaked into energy markets before becoming public.
+A second underappreciated part of the Apr 17 move was market microstructure. Reuters reported that investors sold 7,990 Brent lots, about $760M notional, between 12:24 and 12:25 GMT, roughly 20 minutes before [[Abbas Araghchi]] announced that the strait was open. That followed similar pre-announcement oil trades on Mar 23 and Apr 7, reinforcing the pattern that diplomatic pivots in this war have repeatedly leaked into energy markets before becoming public.
 
 The oil collapse also reopened the macro rates debate. Reuters reported that Fed-rate futures swung from no easing until well into 2027 to cuts resuming by late 2026 as traders stripped out part of the stagflation risk embedded during the blockade phase. In other words, the Apr 17 Hormuz signal was not just an oil move. It immediately changed the market's view of the [[Federal Reserve]] reaction function.
 
@@ -117,17 +117,27 @@ The chemicals/fertilizer over-shoot (LYB -12%, DOW -10.8%, CF -9.6%) vs the more
 
 What this dispersion does NOT capture: the structural Hormuz premium that should persist post-reopening per [[Hormuz Permanent Risk Premium]] (demonstrated capability + insurance market memory + selective transit precedent + mine warfare residue). The Apr 8 + Apr 17 unwind compresses the cyclical war premium but leaves the structural floor intact. The market is implicitly betting the $5-15/bbl structural premium estimated by [[Sankey Research]] and [[Eric Nuttall]] either doesn't fully take hold or compresses with the cyclical leg — that bet is testable over the next 30-60 days as physical normalization either confirms or contradicts the headline reopening signal.
 
-### Apr 17 downstream confirmation — jet fuel and recovery lag
+### Apr 17 downstream confirmation — transmission channels still lag the headline
 
-Reuters' follow-through reporting on Apr 17 is the cleanest proof that headline reopening and physical normalization are not the same thing. Since the war began, more than **500 million barrels** of crude and condensate have been lost to the market, worth roughly **$50B** at ~$100/bbl. Gulf Arab producers lost roughly **8 mb/d** of crude output in March, while broader production outages reached ~12 mb/d from late March onward.
+Reuters' follow-through reporting on Apr 17 is the cleanest proof that headline reopening and physical normalization are not the same thing. Since the war began, more than 500 million barrels of crude and condensate have been lost to the market, worth roughly $50B at ~$100/bbl. Gulf Arab producers lost roughly 8 mb/d of crude output in March, while broader production outages reached ~12 mb/d from late March onward.
 
-The refined-product damage is even more important for Europe. Jet fuel exports from [[Saudi Arabia]], [[Qatar]], the [[United Arab Emirates]], [[Kuwait]], [[Bahrain]], and [[Oman]] fell from **19.6 million barrels in February** to just **4.1 million barrels combined across March and April-to-date**. Reuters' recovery math also matters: heavier crude fields in [[Kuwait]] and [[Iraq]] could take **4-5 months** to normalize, while damage to regional refining and [[Ras Laffan]] means parts of the system could take **years** to fully restore.
+The refined-product damage is even more important for Europe. Jet fuel exports from [[Saudi Arabia]], [[Qatar]], the [[United Arab Emirates]], [[Kuwait]], [[Bahrain]], and [[Oman]] fell from 19.6 million barrels in February to just 4.1 million barrels combined across March and April-to-date. Reuters' recovery math also matters: heavier crude fields in [[Kuwait]] and [[Iraq]] could take 4-5 months to normalize, while damage to regional refining and [[Ras Laffan]] means parts of the system could take years to fully restore.
+
+That leaves three separate transmission channels still running slower than the paper-oil unwind:
+
+| Channel | What the market priced on Apr 17 | What still lagged physically |
+|---------|----------------------------------|------------------------------|
+| [[Iran conflict insurance impact|Marine insurance / routing]] | Passage is "open" so tanker risk should normalize quickly | Ships still needed mine clarity, [[IRGC]] routing approval, and war-risk cover before sailing normally |
+| [[LNG]] / [[Iran conflict European impact|European gas]] | Lower crude implied broader Gulf-energy normalization | [[QatarEnergy]] force majeure, [[Ras Laffan]] damage, and Europe's restocking season still pointed to a longer gas squeeze |
+| [[Crack spread]] / [[Jet fuel]] | Refiner and airline equities priced rapid fuel normalization | Middle-distillate exports remained impaired, so refined-product tightness could outlast the oil selloff |
+
+The implication is that Apr 17 did not invalidate the structural-thesis notes. It simply moved the live question from "how high can oil go?" to "how quickly do shipping, gas, and product markets actually heal?"
 
 That is why the second-leg European response has shifted from "is Hormuz open?" to "how do we replace missing product flows?" The [[EU]] is now preparing jet-fuel diversification guidance focused on more imports from the [[United States]] and [[Nigeria]], a possible coordinated release of jet-fuel stocks, and a bigger resilience role for [[Sustainable Aviation Fuel]]. See [[Iran conflict European impact]] and [[Jet fuel]] for the downstream policy response.
 
 ### Apr 18 policy follow-through - Washington keeps Russian barrels in market
 
-The Apr 17 equity unwind was not just about Hormuz optics. On Apr 18, Treasury renewed the waiver allowing countries to buy sanctioned Russian oil loaded on vessels as of Apr 17 through **May 16**, after signaling two days earlier that it would not be renewed.
+The Apr 17 equity unwind was not just about Hormuz optics. On Apr 18, Treasury renewed the waiver allowing countries to buy sanctioned Russian oil loaded on vessels as of Apr 17 through May 16, after signaling two days earlier that it would not be renewed.
 
 That matters because it confirms Washington is still managing the market for price relief, not maximizing sanctions pressure.
 
