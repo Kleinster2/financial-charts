@@ -158,6 +158,20 @@ Refining swung from $(759)M loss to $542M profit — realized margins jumped fro
 ![[psx-employees-chart.png]]
 *Headcount: 12,600 (2025) — down 4.5% YoY*
 
+## Apr 17-Apr 18, 2026 - diversified refiner still lost the premium
+
+PSX fell 4.3% on Apr 17, 2026 ($163.33 -> $156.37) as the refining complex unwound after crude dropped and the market shifted from scarcity pricing back toward margin-reset pricing.
+
+The move was milder than [[Valero]] and [[Marathon Petroleum]], which fits Phillips 66's more diversified earnings mix. Midstream, marketing, and the [[CPChem]] chemicals JV provide ballast when pure refining beta gets sold.
+
+Even so, the stock still lost crisis premium. Lower crude and the Apr 18 waiver extension through May 16 both pushed investors toward a narrower-cracks, more-barrels-staying-in-the-system read.
+
+Next catalyst: Q1 2026 results expected around Apr 29, 2026.
+
+*Sources: verified closes from `market_data.db`, Reuters on Apr 17 oil drop, Reuters on Apr 18 waiver extension, earnings-calendar listings for PSX.*
+
+---
+
 ## Related
 
 - [[Valero]] — peer (largest refiner)

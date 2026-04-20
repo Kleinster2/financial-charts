@@ -33,13 +33,13 @@ EOG trades as a core Oil & Gas E&P name (XOP r = 0.92).
 
 ## Business profile
 
-**Pure-play US shale:**
+Pure-play US shale:
 - No refining, no international
 - Permian Basin largest position
 - Eagle [[Ford]] (Texas) legacy asset
 - Bakken (North Dakota) position
 
-**Operational philosophy:**
+Operational philosophy:
 - "Premium drilling" — only drill highest-return wells
 - Low breakeven costs (~$30-35/bbl)
 - Technology-driven efficiency
@@ -58,16 +58,30 @@ EOG trades as a core Oil & Gas E&P name (XOP r = 0.92).
 
 ---
 
+## Apr 17-Apr 18, 2026 - clean upstream beta, but better quality
+
+EOG fell 4.2% on Apr 17, 2026 ($134.07 -> $128.43) as pure upstream names sold with crude after [[Iran]] reopened commercial passage through [[Strait of Hormuz]].
+
+Like [[ConocoPhillips]], EOG has no downstream hedge, so lower oil flows directly into lower near-term cash flow expectations. But the move was a touch milder than some peers, which fits EOG's lower-cost profile and cleaner balance sheet.
+
+The Apr 18 waiver extension through May 16 reinforced the message that near-term oil balances would stay looser than the crisis-beneficiary complex had been pricing.
+
+Next catalyst: Q1 2026 conference call on May 6, 2026.
+
+*Sources: verified closes from `market_data.db`, Reuters on Apr 17 oil drop, Reuters on Apr 18 waiver extension, EOG investor relations page.*
+
+---
+
 ## Investment case
 
-**Bull:**
+Bull:
 - Best-in-class operator
 - Low-cost producer
 - Strong balance sheet
 - Shareholder returns (dividends + buybacks)
 - US energy security beneficiary
 
-**Bear:**
+Bear:
 - Shale decline rates require constant drilling
 - [[Oil]] price dependent
 - [[ESG]]/climate pressure
