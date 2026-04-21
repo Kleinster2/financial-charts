@@ -12,6 +12,7 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 
 | Relationship | Key issues |
 |--------------|------------|
+| [[China trade]] | China-centered umbrella: bilateral links, rerouting, overcapacity transmission |
 | [[US-China trade]] | Tariffs, tech decoupling |
 | [[EU-China trade]] | Managed friction, EV price floors |
 | [[China-Japan relations]] | Export bans, rare earths |
@@ -165,6 +166,7 @@ Wolf's editorial: the US is "no longer a credible world leader" and provides "an
 - [[OECD]] — tax and trade standards
 
 ### Bilateral tensions
+- [[China trade]] — China-centered umbrella
 - [[US-China trade]] — tariffs, decoupling
 - [[US-China relations]] — umbrella
 - [[China-Japan relations]] — export bans

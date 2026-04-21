@@ -21,6 +21,7 @@ Transcontinental country straddling Europe and Asia. ~85M population. NATO membe
 | 5Y CDS | ~222 bps (early 2026) |
 | Currency | Turkish lira (TRY) |
 | Net international reserves | ~$46bn (Apr 2026, down ~50% since Iran war) |
+| 2026E current account deficit | 2.8% of GDP (IMF, Apr 2026) |
 | CBRT gold reserves | 440 tonnes (Mar 27, 2026) |
 
 ---
@@ -61,6 +62,24 @@ Timeline:
 - Early 2026: Foreign investors returned in force, equities rallied to record highs
 
 Risks: Erdogan has overridden [[Central bank independence]] before (fired three governors 2019-2021). The current orthodox turn holds only as long as political patience lasts. Lira depreciation is managed but steady, which equity investors use as an inflation hedge.
+
+## April 2026 follow-through — the external gap was already widening before the war
+
+[[Robin J. Brooks]]' Apr 19 Substack post is a useful corrective to the comforting Ankara line that reserve losses are mainly about the [[2026 Iran conflict market impact|Iran war]]. His point is that the external imbalance was already too wide before oil prices spiked. The first two months of 2026 produced a **$14.54bn** current-account deficit, up from $9.25bn in the same period of 2025 and second only to the 2023 election-year blowout that preceded a sharp post-election lira devaluation.
+
+| Period / metric | Value |
+|---|---|
+| Jan 2026 current-account deficit | $7.04bn |
+| Feb 2026 current-account deficit | $7.50bn |
+| Jan-Feb 2026 total | $14.54bn |
+| Jan-Feb 2025 total | $9.25bn |
+| Feb 2026 ex-gold / ex-energy current account | -$1.46bn |
+| IMF 2026 current-account forecast | 2.8% of GDP |
+
+![[turkey-jan-feb-current-account-deficit-brooks-apr2026.png]]
+*Robin J. Brooks chart of Turkey's combined January-February current-account deficit by year. 2026 is the second-worst print in the series, behind only the 2023 election-credit blowout.*
+
+The readthrough is that Turkey's problem is still the old one: trying to push growth above its external-financing capacity. The Iran shock worsened the reserve picture, but it did not create the underlying imbalance. That matters for how to read any temporary stabilization in the lira. If the policy mix keeps leaning toward growth before rebalancing, Turkey remains vulnerable even if oil prices ease from their war highs.
 
 ---
 

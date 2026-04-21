@@ -167,6 +167,20 @@ Bloomberg Businessweek (Feb 26 2026) documented the emerging pattern: AI agents 
 
 ---
 
+## Compute mix shifts beyond GPUs (Apr 2026)
+
+Reuters on Apr 20, 2026 summarized a [[Morgan Stanley]] research note arguing that the next wave of agentic AI is driven less by raw token generation and more by coordination across multistep systems. Morgan Stanley estimated agentic AI could add **$32.5-60B** to a data-center CPU market already **above $100B by 2030**. In that framing, the bottleneck shifts toward the CPU-and-memory control layer: orchestration, memory handling, data movement, and accelerator coordination.
+
+| Layer | Readthrough | Beneficiaries named |
+|------|-------------|---------------------|
+| CPU / accelerator control plane | More general-purpose compute per AI deployment, not just more GPUs | [[NVIDIA]], [[AMD]], [[Intel]], [[Arm Holdings]] |
+| Memory | More autonomous agents means more persistent state, context, and data movement | [[Micron]], [[Samsung]], [[SK Hynix]] |
+| Manufacturing / equipment | Broader silicon demand widens pricing power beyond accelerators | [[TSMC]], [[ASML]] |
+
+This matters because it widens the AI spending story from a single-vendor GPU narrative into a broader compute-stack buildout. It is also external validation of the CPU-bound case in [[Arm AGI CPU]] and the memory-side leverage in [[GPU memory scaling]].
+
+*Source: Reuters, "Morgan Stanley sees agentic AI widening chip spending beyond graphics processors to CPUs" (Apr 20, 2026), summarizing a Morgan Stanley research note.*
+
 ## For theses
 
 - [[Cloudflare agentic infrastructure]] — infrastructure picks-and-shovels

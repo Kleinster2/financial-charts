@@ -88,12 +88,12 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 ### Pattern shifts
 
 - **Days 3-5:** "Short war, buy the dip" — overnight panic, US session recovery. Defense primes gave back gains; gold reversed -4.48%; equity market priced quick resolution.
-- **Days 8-9:** Pattern broke — NFP -92K + oil $92 = stagflation scare. Stocks sold off and stayed down for first time. Russell 2000 led declines.
-- **Days 14-15:** Brent hit $100; Gulf equity divergence revealed structural winners (Saudi) from losers (UAE, Qatar). US producers generating +$5B/month windfall.
-- **Days 18-22:** Energy infrastructure war — South Pars/Ras Laffan strikes, Iraq force majeure, Kuwait refinery hits. Four emergency measures in one day (Jones Act waiver, Venezuela PDVSA license, summer-blend waiver, Iraq-KRG pipeline restart). Ground troops preparation signals air power alone won't reopen Hormuz.
-- **Day 20+:** Sanctions paradox made concrete — 30-day Iran oil waiver (March 20) permits purchases from sanctioned shadow fleet vessels. [[Reliance Industries]] first buyer (5M bbl, $7/bbl premium). IEA: "worse than the two oil shocks of the 1970s put together." The enemy profits at premium prices from the lifting of its own sanctions.
-- **Days 24-26:** Diplomacy whiplash — Trump's ultimatum-to-talks pivot crashed Brent 11% in a single session ($112 → $100), the largest one-day oil move since the conflict began. Iran's categorical denial bounced prices back +4%. Then the 15-point ceasefire plan via Pakistan dropped Brent another 6% to $98. Markets are now oscillating on headline risk, not fundamentals — the strait remains closed, no escorts have begun, and the physical supply gap is unchanged. The price action is pure diplomacy premium/discount. **Insider trading alarm:** Reuters reported $500M in oil trades placed minutes before Trump's Truth Social post on Monday; financial experts raising concerns about possible front-running of the market-moving announcement.
-- **Day 26 (March 25):** Markets settled into cautious optimism. US sent a 15-point ceasefire proposal to Iran, reportedly delivered via [[Pakistan]] mediation. Iran initially rejected but then said top authorities are "reviewing" the offer. S&P 500 +0.54%, Nasdaq +0.77%, Dow +305 pts. Brent -2.2% → $102.22, WTI -2.2% → $90.32. 10Y yield -7 bps → 4.32%. Russell 2000 +1.1%. But the underlying reality is unchanged: Hormuz remains effectively closed, Trump said "this war has been won" while deploying 1,000+ additional troops, and Iran's conditions include Hormuz control — a non-starter. [[Pakistan]] mediating, with an in-person US-Iran meeting possible in coming days. Oil up 50% YTD, 30%+ since Feb 28. Bespoke: "expect more whipsaw action." ECB and BoE now expected to *raise* rates (not cut) on oil-driven inflation fears.
+- Days 8-9: Pattern broke — NFP -92K + oil $92 = stagflation scare. Stocks sold off and stayed down for first time. Russell 2000 led declines.
+- Days 14-15: Brent hit $100; Gulf equity divergence revealed structural winners (Saudi) from losers (UAE, Qatar). US producers generating +$5B/month windfall.
+- Days 18-22: Energy infrastructure war — South Pars/Ras Laffan strikes, Iraq force majeure, Kuwait refinery hits. Four emergency measures in one day (Jones Act waiver, Venezuela PDVSA license, summer-blend waiver, Iraq-KRG pipeline restart). Ground troops preparation signals air power alone won't reopen Hormuz.
+- Day 20+: Sanctions paradox made concrete — 30-day Iran oil waiver (March 20) permits purchases from sanctioned shadow fleet vessels. [[Reliance Industries]] first buyer (5M bbl, $7/bbl premium). IEA: "worse than the two oil shocks of the 1970s put together." The enemy profits at premium prices from the lifting of its own sanctions.
+- Days 24-26: Diplomacy whiplash — Trump's ultimatum-to-talks pivot crashed Brent 11% in a single session ($112 → $100), the largest one-day oil move since the conflict began. Iran's categorical denial bounced prices back +4%. Then the 15-point ceasefire plan via Pakistan dropped Brent another 6% to $98. Markets are now oscillating on headline risk, not fundamentals — the strait remains closed, no escorts have begun, and the physical supply gap is unchanged. The price action is pure diplomacy premium/discount. Insider trading alarm: Reuters reported $500M in oil trades placed minutes before Trump's Truth Social post on Monday; financial experts raising concerns about possible front-running of the market-moving announcement.
+- Day 26 (March 25): Markets settled into cautious optimism. US sent a 15-point ceasefire proposal to Iran, reportedly delivered via [[Pakistan]] mediation. Iran initially rejected but then said top authorities are "reviewing" the offer. S&P 500 +0.54%, Nasdaq +0.77%, Dow +305 pts. Brent -2.2% → $102.22, WTI -2.2% → $90.32. 10Y yield -7 bps → 4.32%. Russell 2000 +1.1%. But the underlying reality is unchanged: Hormuz remains effectively closed, Trump said "this war has been won" while deploying 1,000+ additional troops, and Iran's conditions include Hormuz control — a non-starter. [[Pakistan]] mediating, with an in-person US-Iran meeting possible in coming days. Oil up 50% YTD, 30%+ since Feb 28. Bespoke: "expect more whipsaw action." ECB and BoE now expected to *raise* rates (not cut) on oil-driven inflation fears.
 
 ---
 
@@ -103,7 +103,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 |-------|--------|-----------|
 | Defense hardware | Overweight | Munitions burn, replenishment cycle, NATO rearmament accelerates |
 | Energy/oil | Overweight | Supply disruption, Hormuz risk, inventory draws |
-| Gold | **Underweight** | Safe-haven thesis failed: -11.5% in March (worst since 2008). [[CBRT]] sold 52t + arranged 79t swaps (~$20bn); [[Russia]] sold 15t Jan-Feb; 4 weeks of ETF outflows. CB selling now the dominant price driver (Shiels, [[MKS PAMP]]). [[PBOC]] buying 160k oz contrarian. Not a hedge in a real supply shock |
+| Gold | Underweight | Safe-haven thesis failed: -11.5% in March (worst since 2008). [[CBRT]] sold 52t + arranged 79t swaps (~$20bn); [[Russia]] sold 15t Jan-Feb; 4 weeks of ETF outflows. CB selling now the dominant price driver (Shiels, [[MKS PAMP]]). [[PBOC]] buying 160k oz contrarian. Not a hedge in a real supply shock |
 | Airlines/travel | Underweight | Fuel costs + route disruption, duration-dependent |
 | Shipping | Overweight (tankers) | Rate spike on route disruption |
 | Insurance (specialty) | Neutral/avoid | Coverage withdrawal > premium windfall; tail risk from correlated claims |
@@ -134,18 +134,30 @@ The US outperformance was anchored by two structural facts. First, the US is a n
 
 Named voices (all March 2-4):
 
-- **Gerry Fowler** (head of derivatives strategy, [[UBS]]): "There isn't really anywhere to hide, everything is down" — the 2026 popular trades have been hit worst.
-- **Thys Louw** (EM debt PM, [[Ninety One]]): "The main thing that we have broadly seen in the recent sell-off is position squaring . . . That is true whether it is Korean equities or the Egyptian pound." "Diversifying from US markets or being short the dollar was a main theme . . . you've had hedge funds or fast money getting out of a lot of these trades."
-- **Sharon Bell** (senior equities strategist, [[Goldman Sachs]]): "a growing keenness to position into Europe has arguably made it vulnerable."
-- **Trevor Greetham** (head of multi-asset, [[Royal London Asset Management]]): "basically a reversal of the trades that were working" — selling Japanese and EM stocks this week.
-- **Matthias Scheiber** (head of multi-asset, [[Allspring Global Investments]]): reduced exposure to Asian stocks this week citing rising energy prices.
-- **Lee Hardman** (senior FX analyst, [[MUFG]]): de-risking was causing a "squeeze in crowded short dollar" positions.
-- **Kit Juckes** (chief FX strategist, [[Société Générale]]): expects the dollar bounce to last even if the conflict is short, because "the dollar index fell further [last year] than was justified by [relative interest] rate moves." "We think the reset in major exchange rates will persist."
-- **Luca Paolini** (chief strategist, [[Pictet]]): dollar as haven "in the chaotic phase of the market price action," but medium-term the conflict "will add to the diversification away from the US impulse."
+- Gerry Fowler (head of derivatives strategy, [[UBS]]): "There isn't really anywhere to hide, everything is down" — the 2026 popular trades have been hit worst.
+- Thys Louw (EM debt PM, [[Ninety One]]): "The main thing that we have broadly seen in the recent sell-off is position squaring . . . That is true whether it is Korean equities or the Egyptian pound." "Diversifying from US markets or being short the dollar was a main theme . . . you've had hedge funds or fast money getting out of a lot of these trades."
+- Sharon Bell (senior equities strategist, [[Goldman Sachs]]): "a growing keenness to position into Europe has arguably made it vulnerable."
+- Trevor Greetham (head of multi-asset, [[Royal London Asset Management]]): "basically a reversal of the trades that were working" — selling Japanese and EM stocks this week.
+- Matthias Scheiber (head of multi-asset, [[Allspring Global Investments]]): reduced exposure to Asian stocks this week citing rising energy prices.
+- Lee Hardman (senior FX analyst, [[MUFG]]): de-risking was causing a "squeeze in crowded short dollar" positions.
+- Kit Juckes (chief FX strategist, [[Société Générale]]): expects the dollar bounce to last even if the conflict is short, because "the dollar index fell further [last year] than was justified by [relative interest] rate moves." "We think the reset in major exchange rates will persist."
+- Luca Paolini (chief strategist, [[Pictet]]): dollar as haven "in the chaotic phase of the market price action," but medium-term the conflict "will add to the diversification away from the US impulse."
 
 The dollar story is the tell — DXY rose 1.3% against major trading partners this week, its best week in four months, reversing in four sessions most of the 2026 short-dollar gains. This is the positioning-squeeze channel documented in [[Iran conflict FX dynamics]], visible at the equity level: forced unwind of crowded trades, not a structural re-rating.
 
 *Source: FT, "Iran war upends popular trades" (Emily Herbert, March 4, 2026).*
+
+### April 20 Korea rebound — energy panic gave way to earnings
+
+By Apr 20, [[Kospi]] had effectively erased the drawdown triggered by the opening phase of the war. The important readthrough is that the March collapse was a shock valuation event laid on top of an intact Korea earnings story, not a permanent impairment of the market's AI leverage. Once oil panic and forced de-risking eased, leadership reverted to [[Samsung]] and [[SK Hynix]], the two memory names most exposed to the global AI buildout.
+
+The recovery also came with a new sell-side upgrade cycle. [[Goldman Sachs]] raised its 12-month [[Kospi]] target to 8,000 from 7,000, citing 220% earnings growth for 2026, roughly 48% growth even excluding semiconductors, and a forward P/E around 7.5x. That combination matters because it says the market is again pricing [[South Korea]] as an undervalued semiconductor-and-industrials earnings market with room for foreign re-entry, not just as an Asian energy importer hit by [[Iran]].
+
+## Watch for
+
+- Foreign inflows / positioning — the rebound is stronger if underweight global and EM funds keep rebuilding Korea exposure; the sell-side case explicitly depends on that re-risking path.
+- Broadening beyond memory — if the move extends from [[Samsung]] and [[SK Hynix]] into industrials, utilities, and defense, the Korea rally becomes a wider AI-infrastructure story instead of a narrow chip squeeze.
+- Energy-shock relapse — Korea's structural vulnerability did not disappear. A renewed oil or LNG spike would hit the same market again through terms of trade, fab input costs, and foreign risk appetite.
 
 ### March 2026 cross-asset signature: nowhere to hide
 
@@ -194,16 +206,16 @@ This matters because it extends the March regime break from the buy side into th
 | Metric | Value |
 |--------|-------|
 | Selling pace pre-ceasefire | Fastest in 13 years |
-| Short:long ratio | **7.6 to 1** |
+| Short:long ratio | 7.6 to 1 |
 | ETF short concentration | 76% of shorts in index/ETF products |
 | US-listed ETF shorts | +17.2% |
-| Gross leverage | **2.9x books** (highest in 5 years) |
-| GS most-shorted basket | **+7.1% in single session** |
+| Gross leverage | 2.9x books (highest in 5 years) |
+| GS most-shorted basket | +7.1% in single session |
 | Short covering pace | Fastest since March 2020 |
 
 Goldman's head of equities execution services: *"This is the offramp the market has been waiting for."* Clients see high likelihood this marks "the beginning of the end" of the conflict.
 
-**Sector rotation during covering:** Funds bought tech, media, telecom for first time in 4 months (covering-driven, not conviction). Selling continued in cyclicals (industrials, materials, financials). Energy, healthcare, consumer staples saw net purchases.
+Sector rotation during covering: Funds bought tech, media, telecom for first time in 4 months (covering-driven, not conviction). Selling continued in cyclicals (industrials, materials, financials). Energy, healthcare, consumer staples saw net purchases.
 
 Critical context: the rally is mechanical covering, not fundamental conviction. Gross leverage at 2.9x means the system remains fragile — the next shock (if ceasefire breaks) could produce equally violent selling. Single-stock positioning remains fragile even as ETFs are being repurchased.
 
@@ -213,18 +225,18 @@ Critical context: the rally is mechanical covering, not fundamental conviction. 
 
 The two-week conditional ceasefire architecture broke down within 72 hours. Pakistan-mediated US-Iran talks in Islamabad ran 21 hours over April 10-11 without producing a framework — [[JD Vance]]'s delegation could not bridge the enrichment gap against Iran's 10-point plan (civil enrichment under IAEA monitoring preserved). On the morning of April 12, [[Trump]] announced via Truth Social that the [[US Navy]] would enforce a blockade of the [[Strait of Hormuz]], citing Iranian "stalling" and the $1M+ tanker tolls as justification. This is the first US naval blockade of a major chokepoint since the 1962 Cuban Missile Crisis, and it preempted any Monday open that could price the diplomatic off-ramp.
 
-**CNN GPS panel analysis (April 12).** Fareed Zakaria assembled four voices that map the full economic and military structure of the announcement:
+CNN GPS panel analysis (April 12). Fareed Zakaria assembled four voices that map the full economic and military structure of the announcement:
 
-- [[Karen Young]] ([[MEI]] Senior Fellow / Columbia) on market arithmetic — the deficit is **two separate shortages stacked**: a crude deficit of ~7 mb/d (physical unavailability despite bypass pipelines) and a product deficit of ~4 mb/d (Gulf refineries dark or damaged, so diesel/jet/naphtha cannot be replaced regardless of crude bypass). Available substitutes: [[East-West Pipeline]] ~7 mb/d, [[ADCOP]] ~1.8 mb/d, Iran shadow fleet ~1.6 mb/d. Her three-variable normalization test requires traffic + infrastructure + a government-side resolution; **none are converging before 2027**. Asia is already rationing (Sri Lanka shortened school week, Thailand elevator restrictions); Europe's jet-fuel crunch is the next wave. This is the strongest public quantification yet of why the war's market premium is not a headline trade but a 12–18 month structural imbalance.
+- [[Karen Young]] ([[MEI]] Senior Fellow / Columbia) on market arithmetic — the deficit is two separate shortages stacked: a crude deficit of ~7 mb/d (physical unavailability despite bypass pipelines) and a product deficit of ~4 mb/d (Gulf refineries dark or damaged, so diesel/jet/naphtha cannot be replaced regardless of crude bypass). Available substitutes: [[East-West Pipeline]] ~7 mb/d, [[ADCOP]] ~1.8 mb/d, Iran shadow fleet ~1.6 mb/d. Her three-variable normalization test requires traffic + infrastructure + a government-side resolution; none are converging before 2027. Asia is already rationing (Sri Lanka shortened school week, Thailand elevator restrictions); Europe's jet-fuel crunch is the next wave. This is the strongest public quantification yet of why the war's market premium is not a headline trade but a 12–18 month structural imbalance.
 - [[James Stavridis]] (retired Admiral, former NATO SACEUR) on blockade mechanics — 2 carrier strike groups + ~12 destroyers/frigates outside the Gulf + ~6 warships inside, with [[UAE]] and Saudi navies "bottling" both approaches. Iranian asymmetric counters: smuggling (his Confederate blockade analogy — porous over time), mines (~500 remain after CENTCOM destroyed 90+% of the pre-war 5,000-unit stockpile during the March campaign), cyber (with [[China]]/[[Russia]] technical assistance). Mine warfare is the dominant near-term risk because a single mining event inside the blockade perimeter would require MCM sweeps and pause traffic for days to weeks.
 - [[Tarek Masoud]] ([[Harvard Kennedy School]], Middle East Initiative director) on Gulf political exposure — disputes the "MBS pushed Trump to war" narrative. Gulf opinion runs Oman (mediator) → Saudi/UAE/Qatar/Kuwait (mixed and defensive) → Bahrain (hawkish). Two Gulf red lines that a blockade implicates: (1) Iran retains both Hormuz control and missile capacity; (2) Iran collapses into a Syria-style failed state. A blockade tightening without regime-change architecture raises both simultaneously. Shia-demographic exposure in Saudi Eastern Province (~30%) and Bahrain (~50%) is the transmission channel for internal unrest if the blockade stretches.
 - [[Anthony Blinken]] (former SecState) on strategic framing — war was a "tactical success, strategic failure": the Iranian program was dispersed, not ended. JCPOA architecture had removed 97% of HEU and bought 1-year breakout; Netanyahu's "willing customer" pitch to every administration was, in his telling, always the path of least resistance for Washington. His advice to Trump: don't fight it again, negotiate, focus on Hormuz as the durable leverage point. Blinken's read on the blockade announcement is "break glass" — structural, not tactical.
 
-**Market implications layered onto the Goldman PB short-squeeze context above.** The April 8 squeeze was mechanical covering on ceasefire hope; the April 12 blockade reverses the premise. Three positioning vulnerabilities:
+Market implications layered onto the Goldman PB short-squeeze context above. The April 8 squeeze was mechanical covering on ceasefire hope; the April 12 blockade reverses the premise. Three positioning vulnerabilities:
 
-1. **Short-squeeze reversal risk.** The 2.9x gross leverage that carried into the ceasefire rally is now exposed to a blockade-driven repricing of oil and risk premium. If the weekend cash-equity futures reopen with crude gap higher, the same pod-shop books that absorbed the March shock could face a second repricing round.
-2. **Hedge-fund positioning.** Macro funds that got crushed on the [[Steepener trade]] in March and were finally seeing short-cover relief now face a second regime break — rates likely to stay higher on reinstated oil premium; the ECB/BoE rate-hike signal strengthens.
-3. **Physical vs financial gap.** The financial rally priced resolution; Young's deficit arithmetic says the physical shortage holds through 2027 regardless of announcement path. The gap between screen prices and the 800+ vessels still stuck in the Gulf (per [[Kpler]] April 8) now widens.
+1. Short-squeeze reversal risk. The 2.9x gross leverage that carried into the ceasefire rally is now exposed to a blockade-driven repricing of oil and risk premium. If the weekend cash-equity futures reopen with crude gap higher, the same pod-shop books that absorbed the March shock could face a second repricing round.
+2. Hedge-fund positioning. Macro funds that got crushed on the [[Steepener trade]] in March and were finally seeing short-cover relief now face a second regime break — rates likely to stay higher on reinstated oil premium; the ECB/BoE rate-hike signal strengthens.
+3. Physical vs financial gap. The financial rally priced resolution; Young's deficit arithmetic says the physical shortage holds through 2027 regardless of announcement path. The gap between screen prices and the 800+ vessels still stuck in the Gulf (per [[Kpler]] April 8) now widens.
 
 This is the first major market-moving event where a blockade announcement — not a strike or a ceasefire — is the catalyst. Watch: Asian tape Monday (Japan/Korea energy importers; Saudi/UAE equities on the ADX/Tadawul); physical diffs ([[Forties]], [[Atlantic basin]]); insurance market response (P&I clubs' war-risk terms); and whether [[China]], [[Russia]], [[India]] publicly challenge the blockade legality.
 

@@ -140,6 +140,7 @@ aliases: [China [[Africa]] relations, Sino-African trade]
 ## Related
 
 - [[China]] — policy driver
+- [[China trade]] — umbrella hub for China-centered trade relationships
 - [[Nigeria]] — top importer, $20B gas city project
 - [[Kenya]] — BRI port/rail investments
 - [[Capital flow reversal]] — broader China outbound shift

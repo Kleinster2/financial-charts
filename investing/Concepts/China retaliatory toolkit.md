@@ -172,6 +172,7 @@ See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for 
 
 ## Related
 
+- [[China trade]] — broader hub for China-centered trade relationships and coercive trade tools
 - [[Export controls]] — counterpart (Western restrictions)
 - [[Rare earth leverage]] — tool (resource control)
 - [[Gallium]] — tool (99% refined by [[China]])

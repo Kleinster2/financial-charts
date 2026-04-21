@@ -75,6 +75,12 @@ Despite rhetoric about "factories pouring into the US," manufacturing has weaken
 
 → See [[2026 State of the Union economic claims]] for Rattner's data breakdown
 
+### Apr 2026 nuance: AI-linked manufacturing complements imports
+
+Chartbook surfaced a useful complication to the simple reshoring story. [[McKinsey]] data cited from the [[Wall Street Journal]] showed that in Q4 2025 US domestic production of computer and electronic products rose **7.7%** y/y, but imports in the same sector rose **40.5%**. The current manufacturing lift is therefore not a clean substitution story. The AI buildout is pulling demand for domestic factory activity and imported components at the same time.
+
+That matters for politics and portfolio construction. The US can register a real manufacturing upturn in AI-linked sectors while still depending heavily on foreign semiconductors and equipment. In other words, the present "boom" looks less like self-sufficient reshoring and more like import-amplified capacity buildout. Tariffs may support selected domestic projects, but they also risk taxing the very input flows that make the AI-led factory cycle possible. See [[AI capex arms race]] and [[Global Value Chains]].
+
 ---
 
 ## Challenges

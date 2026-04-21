@@ -2,7 +2,7 @@
 
 **US-[[China]] trade** — Umbrella for all traded goods, services, and restrictions between US and [[China]]. The economic battlefield of great power competition.
 
-Part of [[US-China relations]] hub.
+Part of [[China trade]] and [[US-China relations]] hub.
 
 ---
 
@@ -118,6 +118,7 @@ US increasingly weaponizing trade access to block [[China]] deals in third count
 
 ## Related
 
+- [[China trade]] — broader China-centered trade hub
 - [[US-China relations]] — parent hub
 - [[US-China tariffs]] — tariff policy detail
 - [[Export controls]] — semiconductor restrictions

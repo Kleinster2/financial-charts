@@ -77,6 +77,25 @@ Two paths from here: (1) if [[Strait of Hormuz]] disruption fades and alternativ
 
 [[China]]'s swing role is the largest variable. After nearly zeroing exports in 2022-23 to protect domestic supply, China ramped back to 4.9M mt in 2025 and was projected to export 4-6M mt in 2026. The sulfur and energy squeeze from the Middle East conflict has thrown that assumption into doubt; Beijing halted all fertilizer exports on March 16, 2026.
 
+### China's coal-based buffer (Apr 2026)
+
+Reuters Graphics on Apr 20 added the missing structural point: roughly **78%** of Chinese urea output is coal-based rather than gas-based. That makes [[China]] the major exception to the global nitrogen rule. While exporters such as [[Qatar]], [[Russia]], and [[Saudi Arabia]] are fundamentally gas-linked, China's urea system sits inside a coal-to-chemicals and food-security stack built around domestic energy availability.
+
+During the 2026 Iran war, when the [[Strait of Hormuz]] disruption hit a route carrying roughly 30% of global fertiliser trade, urea prices outside [[China]] rose about 70%. Domestic Chinese prices stayed around one-third of international benchmarks, according to Reuters-cited analysts. In other words, China did not just have export optionality, it had a domestic buffer.
+
+That buffer mattered globally because China had become a key swing supplier again. Reuters' trade analysis shows Chinese fertiliser supplied roughly:
+
+| Importer | Share sourced from China |
+|----------|--------------------------|
+| [[Brazil]] | ~20% |
+| [[Indonesia]] | ~20% |
+| [[Thailand]] | ~20% |
+| [[Malaysia]] | ~33% |
+| [[New Zealand]] | ~33% |
+| [[India]] | ~16% |
+
+Between roughly half and 80% of those Chinese exports are now restricted, according to Reuters' customs-data analysis. The practical implication is that China's coal-based self-sufficiency cushioned its own farmers while making the ex-China urea market even tighter.
+
 ---
 
 ## Capacity pipeline — not keeping up

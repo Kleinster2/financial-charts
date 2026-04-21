@@ -28,6 +28,14 @@ In the opening weeks of the 2026 Iran war, the fortress worked: strategic petrol
 | Retaliatory leverage | Export controls, antitrust delays, critical-mineral bans | See [[China retaliatory toolkit]] |
 | Financial | Offshore yuan settlement, [[BRI]] bilateral rails, [[Digital Yuan]] | Exit from dollar rails (partial) |
 
+### Food-security case study — coal-based urea
+
+Reuters Graphics on Apr 20, 2026 supplied one of the cleanest real-world Fortress examples. Roughly **78%** of Chinese urea output comes from coal rather than gas, so when the [[2026 Strait of Hormuz crisis]] sent ex-China urea prices sharply higher, domestic Chinese prices stayed around one-third of international benchmarks. That is the Fortress logic in practice: domestic coal, domestic fertiliser capacity, and export controls insulating the home market even while the external market tightens.
+
+The second-order effect is just as important. China then restricted large parts of its fertiliser exports, tightening supply for import-dependent buyers such as [[Brazil]], [[India]], and parts of Southeast Asia. The Fortress did not eliminate the shock, it redirected it outward.
+
+This does not mean the Fortress turns [[China]] into a broad food exporter. Land, water, and feed-import constraints still matter too much for that. What it does mean is that [[China]] can become harder to squeeze on food security and more capable of exporting food-security pressure by controlling upstream inputs before the pain reaches its own farm system.
+
 ## Export-ban escalation ladder (April 2026)
 
 | Product | Status | Trigger |
@@ -80,6 +88,7 @@ Structural response (Apr 7): Xi's CCTV speech reframes renewables + nuclear + co
 
 ## Related
 
+- [[China trade]] — related hub for China-centered trade relationships and rerouting
 - [[Xi Jinping]] — architect
 - [[NDRC]] — implementing planning agency
 - [[Peng Shaozong]] — internal critic who flagged the cracks

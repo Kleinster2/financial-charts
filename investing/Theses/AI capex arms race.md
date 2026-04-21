@@ -64,6 +64,22 @@ Frontier AI requires capital at unprecedented scale. The economics of training a
 
 **The brutal math:** xAI burns ~$1B/month. At $208M revenue (9M 2025), that's 50x+ burn-to-revenue ratio.
 
+## Apr 2026 refinement: from GPU scarcity to systems scarcity
+
+The first leg of the AI capex story was easy to see: labs and hyperscalers were scrambling for [[NVIDIA]] allocation, so the market reduced the entire buildout to GPU scarcity. The Apr 20, 2026 [[Morgan Stanley]] readthrough is useful because it clarifies what comes next. As AI shifts from one-shot generation to persistent [[Agentic AI]] systems, the scarce input is no longer just accelerator flops. It becomes the whole coordination stack: CPU control planes, memory bandwidth and capacity, interconnect, packaging, and fab throughput.
+
+Morgan Stanley's estimate that agentic AI could add **$32.5-60B** to a data-center CPU market already **above $100B by 2030** is best read as evidence that the arms race is widening from a single-bottleneck GPU rush into a broader systems buildout. That does **not** mean the GPU story is over. It means the bill of materials per AI deployment is getting fatter: more CPUs to orchestrate multistep agents, more memory to hold persistent state and context, and more value accruing to manufacturing chokepoints. The winner set broadens from [[NVIDIA]] alone to include [[Arm Holdings]], [[Intel]], [[AMD]], [[Micron]], [[Samsung]], [[SK Hynix]], [[TSMC]], and [[ASML]].
+
+This is the cleaner way to think about the current phase of the thesis. Phase 1 was "who gets the GPUs?" Phase 2 is "who captures the full-stack spend once agents make the control layer, memory layer, and manufacturing layer more valuable too?" See [[Agentic AI]], [[Arm AGI CPU]], and [[GPU memory scaling]].
+
+## Apr 2026 refinement II: the external-balance problem
+
+The next refinement to the thesis comes from the demand side rather than the supply chain. A linked Apr 2026 macro essay, surfaced by [[Adam Tooze]]'s Chartbook, asks what kind of world economy would have to exist for current AI-market valuations to clear. Under relatively conservative assumptions, the core US AI firms would generate roughly **$2.4T** in additional annual foreign revenue by 2036, with **65%** of incremental revenue coming from abroad. That is roughly equal to all US goods exports today and more than **2x** the current US current-account deficit.
+
+Read this as the macro mirror of the capex arms race. If the bull case holds, the world is not just financing US AI buildout up front via capital markets and imported hardware. It is also making ongoing income transfers to US-owned AI capital afterward, through subscriptions, cloud rents, model access, software tolls, and infrastructure usage. That introduces a political contradiction at the heart of the current US coalition. Silicon Valley's upside requires foreign purchasing power and open market access, while MAGA tariff politics tries to compress the export earnings foreigners would need to pay those rents.
+
+This does not disprove the thesis. It sharpens it. The question is no longer only whether hyperscalers can fund the buildout. It is whether the global trading system can absorb a new phase of US dominance centered on recurring AI-service payments rather than a broad-based manufacturing export surge.
+
 ---
 
 ## Corporate restructuring response
@@ -189,6 +205,8 @@ See [[AI infrastructure financing]].
 
 | Date | Observation | Implication |
 |------|-------------|-------------|
+| 2026-04-20 | Chartbook / linked macro essay: under conservative assumptions core AI firms would need **~$2.4T** in additional annual foreign revenue by 2036, roughly equal to all US goods exports today | AI capex bull case implies an external-balance and trade-policy tension, not just a financing problem |
+| 2026-04-20 | Reuters / [[Morgan Stanley]]: agentic AI could add **$32.5-60B** to a data-center CPU market already **>$100B by 2030**, with bottlenecks shifting toward CPU + memory | AI capex broadens from GPU scarcity into full-stack compute, memory, and manufacturing spend |
 | 2026-02-08 | FT: Total Big Tech capex now **$660B+**, capex exceeding cash-from-ops at Amazon (-$20B gap) and Meta (-$5B gap) | Asset-light → capital-intensive transition |
 | 2026-02-08 | Amazon regulatory filing signals potential capital raise (debt or equity); shares -5.6% | Equity/debt financing pressure |
 | 2026-02-08 | Alphabet long-term debt jumped from $10.9B (2024) to **$46.5B** (2025) — 4x in one year | Rapid balance sheet leverage |

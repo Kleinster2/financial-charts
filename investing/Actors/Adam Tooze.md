@@ -1,8 +1,23 @@
-#actor #economist #historian #newsletter
+---
+aliases: [Adam J. Tooze]
+tags: [actor, person, historian, economist, media, newsletter]
+---
 
 # Adam Tooze
 
-Economic historian at [[Columbia University]], author of major crisis histories, and publisher of **Chartbook**, one of the most influential economics newsletters. Known for synthesizing economic history, geopolitics, and contemporary policy into accessible analysis. Coined/popularized "polycrisis" to describe the interconnected crises of the 2020s.
+Adam Tooze is an economic historian at Columbia University, author of major crisis histories, and publisher of **Chartbook**, one of the most influential economics newsletters. He is known for synthesizing economic history, geopolitics, and contemporary policy into accessible analysis, and for popularizing "polycrisis" as a way to describe the interconnected crises of the 2020s.
+
+---
+
+## Quick stats
+
+| Field | Value |
+|---|---|
+| Born | July 5, 1967 |
+| Role | Economic historian, Columbia University; publisher of **Chartbook** |
+| Known for | [[Crashed]], [[Shutdown]], polycrisis framing, Chartbook |
+| Education | King's College Cambridge (BA), London School of Economics (PhD) |
+| Base | New York / Columbia University |
 
 ---
 
@@ -61,6 +76,12 @@ Chartbook is "more substantial than the Twitter feed, and more freewheeling" tha
 - Dollar decoupling from interest rate differentials (spring 2025)
 - [[Venezuela]] sanctions and petroleum industry
 - Comparison of US business elite to Weimar-era German industrialists
+
+### Chartbook on the AI boom's external-balance logic (Apr 20, 2026)
+
+An Apr 20, 2026 Chartbook mailout tied together two threads that matter for the vault's AI and trade work. First, citing [[Wall Street Journal]] and [[McKinsey]], Tooze highlighted that the current US manufacturing pickup is **not** classic reshoring. In AI-linked sectors, domestic output and imports are rising together, because the buildout depends on enormous volumes of semiconductors, networking gear, power equipment, and cooling systems. The US is capturing part of the manufacturing upturn without becoming self-sufficient in the underlying supply chain.
+
+Second, Tooze pushed the argument from factory activity into global macro. Under the linked AI-valuation essay's conservative assumptions, the core US AI firms would need roughly **$2.4T** in additional annual foreign revenue by 2036, with **65%** of incremental revenue coming from abroad. That is roughly equal to all US goods exports today. The implication is that the next phase of globalization may revolve less around a broad American export renaissance and more around the rest of the world making recurring payments for access to US-owned AI infrastructure, software, and model ecosystems. The political tension is obvious: tariff-heavy MAGA economics makes less sense if foreign buyers need export earnings to fund those payments in the first place.
 
 ---
 

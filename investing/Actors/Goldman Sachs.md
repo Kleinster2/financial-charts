@@ -134,6 +134,7 @@ Public framing in early 2026:
 
 - January US economics view: 2.5% GDP growth, 2.1% core PCE, and two 25 bp Fed cuts.
 - January global strategy view: overweight equities in H1, more cautious in H2 as recession risk and valuation pressure build.
+- April Korea strategy update: Goldman raised its 12-month [[Kospi]] target to 8,000 from 7,000, kept Korean equities overweight, and argued 2026 earnings could grow 220% with the index still trading around 7.5x forward earnings. The message was that [[South Korea]] had shifted back from Iran-war panic to a semiconductor-led earnings and foreign-reentry story.
 - Early April earnings framing: Goldman called bank earnings week the definitive litmus test for whether guidance could survive fuel-cost pressure from the Iran conflict and tariff uncertainty.
 
 See [[Economic forecasts]], [[Asset allocation]], and [[Market forecasts]] for the broader Goldman research frame.

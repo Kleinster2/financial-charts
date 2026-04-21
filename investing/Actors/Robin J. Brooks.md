@@ -81,6 +81,14 @@ Chart finding: Turkish Lira outperformed [[BRL]] and Chilean Peso over Feb 27 �
 
 *Sources: [Turkey Falls Back into Crisis](https://robinjbrooks.substack.com/p/turkey-falls-back-into-crisis), [Turkey's Huge External Imbalance](https://robinjbrooks.substack.com/p/turkeys-huge-external-imbalance), March 30, 2026*
 
+### "Turkey's in trouble for the same old reason" (Apr 19)
+
+Brooks revisited [[Turkey]] after policymakers spent the IMF/World Bank meetings arguing that recent reserve losses were mainly about the Iran war. His rebuttal is that the pre-war data already gave the game away. Turkey ran a **$14.54bn** current-account deficit in Jan-Feb 2026 versus $9.25bn in the same period a year earlier, the second-widest start to a year in the chart after the 2023 election-credit surge. February alone printed a $7.50bn deficit, while the ex-gold / ex-energy balance swung to a $1.46bn deficit from a $1.35bn surplus a year earlier.
+
+The analytical point is consistent with Brooks' earlier Turkey work but cleaner in this post: the recurring problem is growth pushed beyond Turkey's external financing capacity, not just one-off energy shocks. He explicitly argues that oil may stay structurally elevated for a while even if the war has moved into negotiation mode, which leaves Turkey better off floating the currency and tolerating more exchange-rate volatility than continuing to burn reserves defending an unsustainable growth mix.
+
+*Sources: [Turkey's in trouble for the same old reason](https://robinjbrooks.substack.com/p/turkeys-in-trouble-for-the-same-old), Apr 19, 2026; [Turkey Current Account](https://tradingeconomics.com/turkey/current-account), source: CBRT data, accessed Apr 21, 2026*
+
 ### "What happened to 'Sell America?'" (Apr 6)
 
 Argues the [[Sell America trade]] never existed: foreign portfolio inflows into [[Treasuries]], corporate debt, and equities are at 25-year highs (TIC data through Jan 2026). Flows into corporate debt and equities are typically unhedged — maintaining implicit dollar exposure — which also debunks the "Hedge America" narrative.
@@ -101,7 +109,7 @@ Two charts: (1) TIC net foreign flows into US equities, corporate debt, agency d
 
 ### Oil market structure and geopolitics (April 2026)
 
-**"How Big is the Oil Price Spike?" (Apr 3):** June Brent futures $112 is the key price. Spot much higher due to scramble. Futures embed war-ending expectation. "Paper vs physical disconnect" is "nonsense." WTI below Brent due to limited US export incentive.
+"How Big is the Oil Price Spike?" (Apr 3): June Brent futures $112 is the key price. Spot much higher due to scramble. Futures embed war-ending expectation. "Paper vs physical disconnect" is "nonsense." WTI below Brent due to limited US export incentive.
 
 "Egypt gets it right" (Apr 1): Egypt letting pound depreciate early. Cites Calvo/Reinhart "Fear of Floating." Contrast: Turkey fighting, Pakistan pegging.
 

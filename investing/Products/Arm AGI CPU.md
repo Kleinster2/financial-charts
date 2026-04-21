@@ -173,6 +173,10 @@ Arm claims data centers will need 4x current CPU capacity per GW as agent-driven
 
 [[NVIDIA]]'s own framing supports the thesis: the company recently told CNBC that CPUs are "becoming the bottleneck" as agentic AI reshapes compute requirements.
 
+Morgan Stanley added a cleaner market-size frame on Apr 20, 2026: agentic AI could add **$32.5-60B** to a data-center CPU market already above $100B by 2030. The brokerage argued that increasingly autonomous systems shift the bottleneck toward CPUs and memory because multistep agents need control-plane compute, orchestration, and data movement, not just accelerator flops. That matters for the AGI CPU because the product is explicitly selling into that layer, the always-on general-purpose compute sitting beside GPUs rather than replacing them. Morgan Stanley's beneficiary list also mapped cleanly onto the rest of the stack: [[NVIDIA]], [[AMD]], [[Intel]], [[Arm Holdings]], [[Micron]], [[Samsung]], [[SK Hynix]], [[TSMC]], and [[ASML]].
+
+*Source: Reuters, "Morgan Stanley sees agentic AI widening chip spending beyond graphics processors to CPUs" (Apr 20, 2026), summarizing a Morgan Stanley research note.*
+
 ---
 
 ## Roadmap

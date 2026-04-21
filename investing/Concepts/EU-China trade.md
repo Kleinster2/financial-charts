@@ -74,6 +74,7 @@
 
 - [[EU]] — European Union (policy maker)
 - [[China]] — counterparty
+- [[China trade]] — umbrella hub for China-centered trade relationships
 - [[Trade]] — parent hub
 - [[EU-China EV tariffs]] — specific policy (Jan 2026)
 - [[US-China trade]] — parallel relationship (harsher approach)

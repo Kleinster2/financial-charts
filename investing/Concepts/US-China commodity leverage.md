@@ -53,6 +53,14 @@ See [[Venezuela]], [[Maduro capture 2026]].
 
 US agricultural leverage is largely spent. [[China]] learned not to depend on US supply.
 
+## Mirror image: input-side insulation
+
+The agriculture story looks less symmetric once the upstream inputs are included. [[China]] still needs imported food and feed, especially soybeans from [[Brazil]], but it does not have to absorb commodity shocks in the same order as its suppliers.
+
+The April 2026 fertiliser squeeze is the cleanest example. During the [[2026 Strait of Hormuz crisis]], [[China]]'s coal-based [[urea]] base and export restrictions cushioned Chinese farmers while tightening supply for import-dependent buyers including [[Brazil]]. So the US has weak leverage over [[China]]'s food access, while [[China]] can sometimes raise the cost of producing that food abroad.
+
+See [[China trade]] and [[Fortress China]] for the wider framework.
+
 ---
 
 ## Investment implications
@@ -66,6 +74,7 @@ US agricultural leverage is largely spent. [[China]] learned not to depend on US
 
 ## Related
 
+- [[China trade]] — broader China-centered trade hub
 - [[US-China relations]] — hub note
 - [[Critical minerals]] — [[China]]'s stronger leverage
 - [[Venezuela]] — oil source
@@ -75,4 +84,4 @@ US agricultural leverage is largely spent. [[China]] learned not to depend on US
 
 ---
 
-*Updated 2026-01-09*
+*Updated 2026-04-21*
