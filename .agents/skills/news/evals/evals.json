@@ -1,0 +1,84 @@
+{
+  "skill_name": "news",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run /news on Bloomberg Technology. Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, browse the web, or run any tools. Do NOT read any skill files from .claude/skills/ — work only from CLAUDE.md and your general knowledge. Instead, produce a detailed transcript of exactly what you would do at each phase, including the SQL/search queries you'd run, the candidate table format you'd present, and the vault modifications you'd make. Show your full reasoning for each decision.",
+      "expected_output": "Full phased transcript covering movers cross-check, analyst scan, source discovery with date gate, candidate table, ingestion plan with entity linking, earnings check, downstream impact, and compliance",
+      "files": [],
+      "assertions": [
+        {"name": "phase0_movers_crosscheck", "type": "llm_judge", "prompt": "Does the agent perform a major movers cross-check (searching for stocks moving ±8% or more) BEFORE looking at any articles?", "discriminating": true},
+        {"name": "phase0_vault_crossref", "type": "llm_judge", "prompt": "Does the agent cross-reference movers against vault actor notes?", "discriminating": true},
+        {"name": "phase05_analyst_check", "type": "llm_judge", "prompt": "Does the agent search for at least 5 of the 8 named analysts (Croft, Currie, Kaneva, Blanch, Alden, Pozsar, Yardeni, Wilson)?", "discriminating": true},
+        {"name": "phase05_search_patterns", "type": "llm_judge", "prompt": "Does the agent use specific search patterns for analyst searches (not just generic mentions)?", "discriminating": true},
+        {"name": "date_gate", "type": "llm_judge", "prompt": "Does the agent apply a 48-hour date gate to all candidate articles?", "discriminating": false},
+        {"name": "vault_coverage_check", "type": "llm_judge", "prompt": "Does the agent check each candidate against existing vault coverage before presenting?", "discriminating": false},
+        {"name": "candidate_table", "type": "llm_judge", "prompt": "Does the agent present a numbered candidate table with columns for #, Article, Date, and Status?", "discriminating": false},
+        {"name": "user_selection_wait", "type": "llm_judge", "prompt": "Does the agent explicitly wait for user selection before proceeding to ingestion?", "discriminating": false},
+        {"name": "source_urls", "type": "llm_judge", "prompt": "Does the agent plan to add source URLs to the daily note's Sources section?", "discriminating": true},
+        {"name": "publication_date", "type": "llm_judge", "prompt": "Does the agent use article publication date (not ingestion date) for daily note placement?", "discriminating": true},
+        {"name": "check_before_create", "type": "llm_judge", "prompt": "Does the agent plan to run check_before_create.py before creating any new notes?", "discriminating": false},
+        {"name": "phase3_earnings", "type": "llm_judge", "prompt": "Does the agent perform a Phase 3 earnings calendar check?", "discriminating": false},
+        {"name": "phase4_downstream", "type": "llm_judge", "prompt": "Does the agent perform a Phase 4 downstream impact check with second-order effects?", "discriminating": true},
+        {"name": "compliance_check", "type": "llm_judge", "prompt": "Does the agent plan to run check_note_compliance.py on modified notes?", "discriminating": false},
+        {"name": "copyright_rule", "type": "llm_judge", "prompt": "Does the agent respect the copyright rule — planning to use short quotes only (<15 words)?", "discriminating": true}
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I want to do a /news sweep focused on energy and oil. Check Reuters and FT for the last 48 hours. I'm particularly interested in anything about Iran sanctions, OPEC+, or nuclear power demand from AI datacenters. Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, browse the web, or run any tools. Do NOT read any skill files from .claude/skills/ — work only from CLAUDE.md and your general knowledge. Instead, produce a detailed transcript of exactly what you would do at each phase, including the SQL/search queries you'd run, the candidate table format you'd present, and the vault modifications you'd make. Show your full reasoning for each decision.",
+      "expected_output": "Full phased transcript with energy-sector movers check, energy analyst prioritization, dual-source date gate, concept note plans for Iran/OPEC/nuclear, cross-vault flagging, downstream impact",
+      "files": [],
+      "assertions": [
+        {"name": "phase0_energy_movers", "type": "llm_judge", "prompt": "Does the agent perform a Phase 0 major movers cross-check focused on energy sector stocks?", "discriminating": true},
+        {"name": "phase05_energy_analysts", "type": "llm_judge", "prompt": "Does the agent check all 8 analysts and prioritize energy analysts (Croft, Currie, Blanch, Kaneva) over equity strategists?", "discriminating": true},
+        {"name": "date_gate_dual_source", "type": "llm_judge", "prompt": "Does the agent apply a 48-hour date gate to both Reuters and FT?", "discriminating": false},
+        {"name": "candidate_table", "type": "llm_judge", "prompt": "Does the agent present a numbered candidate table with date and vault status columns?", "discriminating": false},
+        {"name": "concept_notes", "type": "llm_judge", "prompt": "Does the agent plan to update or check for concept notes on Iran sanctions, OPEC+, and nuclear power?", "discriminating": false},
+        {"name": "cross_vault_geopolitics", "type": "llm_judge", "prompt": "Does the agent consider cross-vault linking to the geopolitics vault for Iran/sanctions content?", "discriminating": false},
+        {"name": "entity_linking", "type": "llm_judge", "prompt": "Does the agent plan entity linking with wikilinks for all mentioned entities?", "discriminating": false},
+        {"name": "phase3_earnings", "type": "llm_judge", "prompt": "Does the agent perform a Phase 3 earnings calendar check for energy companies?", "discriminating": false},
+        {"name": "phase4_downstream", "type": "llm_judge", "prompt": "Does the agent perform a Phase 4 downstream impact check identifying second-order effects (e.g., refinery margins, shipping rates, LNG)?", "discriminating": true},
+        {"name": "publication_date", "type": "llm_judge", "prompt": "Does the agent plan to use article publication date for daily note placement?", "discriminating": false}
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Big day in markets — semiconductors are getting crushed. NVDA down 7%, ASML down 9%, AMD down 5%. Run /news to figure out what's driving this and update the vault. Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, browse the web, or run any tools. Do NOT read any skill files from .claude/skills/ — work only from CLAUDE.md and your general knowledge. Instead, produce a detailed transcript of exactly what you would do at each phase, including the SQL/search queries you'd run, the candidate table format you'd present, and the vault modifications you'd make. Show your full reasoning for each decision.",
+      "expected_output": "Full phased transcript with ASML flagged as ≥8% mover, catalyst hypothesis tree, subsector dispersion analysis, event note creation, cross-vault flagging for export controls",
+      "files": [],
+      "assertions": [
+        {"name": "phase0_asml_flagged", "type": "llm_judge", "prompt": "Does the agent flag ASML as a major mover (≥8%) requiring vault actor update?", "discriminating": false},
+        {"name": "phase0_nvda_amd", "type": "llm_judge", "prompt": "Does the agent also flag NVDA and AMD even though below 8% — they are vault actors with significant moves?", "discriminating": false},
+        {"name": "catalyst_search", "type": "llm_judge", "prompt": "Does the agent search for the specific catalyst driving the semiconductor selloff?", "discriminating": false},
+        {"name": "subsector_dispersion", "type": "llm_judge", "prompt": "Does the agent present subsector dispersion in the daily note (which names hit hardest vs held up)?", "discriminating": false},
+        {"name": "phase05_analysts", "type": "llm_judge", "prompt": "Does the agent check Mike Wilson and Ed Yardeni (plus others) for macro/equity context?", "discriminating": true},
+        {"name": "date_gate", "type": "llm_judge", "prompt": "Does the agent apply a date gate to all source candidates?", "discriminating": false},
+        {"name": "candidate_table", "type": "llm_judge", "prompt": "Does the agent present a numbered candidate table before ingesting?", "discriminating": false},
+        {"name": "actor_note_updates", "type": "llm_judge", "prompt": "Does the agent plan to update semiconductor-related actor notes (NVDA, ASML, AMD at minimum)?", "discriminating": false},
+        {"name": "event_note", "type": "llm_judge", "prompt": "Does the agent plan to create a dedicated event note since the selloff touches 3+ actors?", "discriminating": false},
+        {"name": "cross_vault", "type": "llm_judge", "prompt": "Does the agent consider whether this belongs in both investing and geopolitics vaults (if export controls)?", "discriminating": false},
+        {"name": "phase3_earnings", "type": "llm_judge", "prompt": "Does the agent check the earnings calendar — did any semi company report?", "discriminating": false},
+        {"name": "phase4_downstream", "type": "llm_judge", "prompt": "Does the agent perform a Phase 4 downstream impact check?", "discriminating": true}
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Anything interesting happen in markets today? Check if there's stuff I should update in the vault. Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, browse the web, or run any tools. Do NOT read any skill files from .claude/skills/ — work only from CLAUDE.md and your general knowledge. Instead, produce a detailed transcript of exactly what you would do at each phase, including the SQL/search queries you'd run, the candidate table format you'd present, and the vault modifications you'd make. Show your full reasoning for each decision.",
+      "expected_output": "Agent should still perform full pipeline despite vague prompt: movers cross-check, analyst scan, source discovery, candidate table, earnings check, downstream impact",
+      "files": [],
+      "assertions": [
+        {"name": "phase0_movers", "type": "llm_judge", "prompt": "Does the agent perform a systematic major movers cross-check (searching for stocks moving ±8% or more)?", "discriminating": true},
+        {"name": "phase05_analysts", "type": "llm_judge", "prompt": "Does the agent search for at least 5 of the 8 named analysts?", "discriminating": true},
+        {"name": "source_discovery", "type": "llm_judge", "prompt": "Does the agent identify and scan at least one news source (Bloomberg, Reuters, FT, WSJ)?", "discriminating": false},
+        {"name": "date_gate", "type": "llm_judge", "prompt": "Does the agent apply a 48-hour date gate to candidate articles?", "discriminating": false},
+        {"name": "candidate_table", "type": "llm_judge", "prompt": "Does the agent present a numbered candidate table before ingesting?", "discriminating": false},
+        {"name": "phase3_earnings", "type": "llm_judge", "prompt": "Does the agent check the earnings calendar?", "discriminating": true},
+        {"name": "phase4_downstream", "type": "llm_judge", "prompt": "Does the agent perform a downstream impact check?", "discriminating": true},
+        {"name": "copyright_rule", "type": "llm_judge", "prompt": "Does the agent plan to use short quotes only (<15 words)?", "discriminating": true},
+        {"name": "publication_date", "type": "llm_judge", "prompt": "Does the agent use article publication date (not ingestion date) for daily note placement?", "discriminating": true},
+        {"name": "structured_phases", "type": "llm_judge", "prompt": "Does the agent follow a structured multi-phase approach (not just ad-hoc browsing)?", "discriminating": true}
+      ]
+    }
+  ]
+}

@@ -35,3 +35,4 @@ Daily-use and core module scripts remain in the repo root:
 - `download_*.py` - Data downloaders
 - `fetch_*.py` - Data fetchers
 - `constants.py`, `metadata_utils.py` - Shared config/utilities
+- `sync_codex_skills.py` - Copy repo workflow skills from `.claude/skills` into `.agents/skills` for Codex discovery

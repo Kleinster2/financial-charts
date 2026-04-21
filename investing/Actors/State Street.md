@@ -3,7 +3,7 @@ aliases: [STT]
 ---
 #actor #company #finance #assetmanagement #usa #public
 
-**State Street** — Global custodian and asset manager. $53.8T AUC/A, $5.7T AUM. NYSE: STT. SPDR ETFs.
+**State Street** — Global custodian bank and asset manager. $54.5T AUC/A and $5.62T AUM as of Q1 2026. NYSE: STT. Parent of the SPDR ETF franchise through State Street Global Advisors.
 
 ---
 
@@ -25,9 +25,9 @@ STT trades as a core Financials name (XLF r = 0.85).
 | Metric | Value |
 |--------|-------|
 | Ticker | STT (NYSE) |
-| Market cap | ~$35B |
-| AUC/A | **$53.8T** (record) |
-| AUM | **$5.7T** (record) |
+| Market cap | ~$42B (Apr 20, 2026) |
+| AUC/A | $54.5T (Q1 2026) |
+| AUM | $5.62T (Q1 2026) |
 | HQ | Boston |
 
 One of the "Big Three" custodian banks (with BNY Mellon, JPMorgan).
@@ -38,12 +38,30 @@ One of the "Big Three" custodian banks (with BNY Mellon, JPMorgan).
 
 | Segment | Description |
 |---------|-------------|
-| **Investment Servicing** | Custody, fund admin, securities lending |
-| **Investment Management** | SSGA (State Street Global Advisors) |
+| Investment Servicing | Custody, fund admin, securities lending |
+| Investment Management | SSGA (State Street Global Advisors) |
 
-**SPDR ETFs:** Includes SPY (largest ETF globally).
+SPDR ETFs: Includes SPY (largest ETF globally).
 
 ---
+
+## Q1 2026 earnings (Apr 17, 2026)
+
+| Metric | Result | YoY |
+|--------|--------|-----|
+| EPS | $2.49 | +22% |
+| EPS ex-notables | $2.84 | — |
+| Total revenue | $3.80B | +16% |
+| Total fee revenue | $2.96B | +15% |
+| Net interest income | $835M | +17% |
+| AUC/A | $54.5T | +17% |
+| AUM | $5.62T | +20% |
+
+State Street opened 2026 with record fee revenue, record net interest income, and record total revenue. Management-fee growth (+23% YoY) and FX trading-services growth (+29%) showed that the beat was broad-based, not just a rates story.
+
+Expenses were muddied by $130M of pre-tax notable items, mainly workforce rationalization and client-rescoping charges. Even so, the firm still returned $633M of capital in the quarter, including $400M of buybacks and $233M of dividends.
+
+The stock added 3.3% on Apr 20, a +2.7σ follow-through move after the earnings release, suggesting the market focused on the combination of record fee revenue, higher NII, and still-solid capital return capacity.
 
 ## Q4 2025 earnings (Jan 16, 2026)
 
@@ -54,13 +72,13 @@ One of the "Big Three" custodian banks (with BNY Mellon, JPMorgan).
 | NII | $802M | +7% |
 | NIM | 1.10% | +3bp |
 
-**Full year 2025:**
+Full year 2025:
 - Revenue: ~$14B (record)
 - EPS: $10.30 (+19% ex-notable)
 - Pre-tax margin: ~31%
 - ROTCE: 20%
 
-**Stock reaction:** -4.2% despite beat — cautious outlook.
+Stock reaction: -4.2% despite beat — cautious outlook.
 
 ---
 
@@ -78,12 +96,12 @@ One of the "Big Three" custodian banks (with BNY Mellon, JPMorgan).
 
 ## Capital returns
 
-| Q4 2025 | Amount |
+| Q1 2026 | Amount |
 |---------|--------|
 | Buybacks | $400M |
-| Dividends | $235M |
-| Total | $635M |
-| Payout ratio | 90%+ |
+| Dividends | $233M |
+| Total | $633M |
+| Standardized CET1 ratio | 10.6% |
 
 ---
 
@@ -92,12 +110,12 @@ One of the "Big Three" custodian banks (with BNY Mellon, JPMorgan).
 | Custodian | AUC/A |
 |-----------|-------|
 | BNY Mellon | ~$50T |
-| **State Street** | **$53.8T** |
+| State Street | $54.5T |
 | JPMorgan | ~$35T |
 
 ---
 
-*Created 2026-01-17*
+*Created 2026-01-17, updated 2026-04-20*
 
 ---
 

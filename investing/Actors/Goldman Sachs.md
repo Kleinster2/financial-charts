@@ -1,210 +1,28 @@
 ---
 aliases: [GS, Goldman]
 ---
-#actor #finance #investor #usa
+#actor #bank #finance #usa #public
 
-**Goldman Sachs** — Major investment bank. AI infrastructure research, private credit for AI.
+**Goldman Sachs** — US investment bank and trading house. The central question is how much of the firm's earnings power can be made durable through advisory, financing, and asset management versus how much still depends on getting market structure and macro volatility right.
 
----
+Goldman remains the most market-sensitive of the large US banks. When volatility is client-driven and the firm is positioned well, Global Banking & Markets can deliver outsized returns in equities, FICC, and advisory. When the macro regime lurches in a direction that punishes its positioning, the same willingness to run more risk than peers shows up immediately in results. That trade-off is the essence of the franchise.
 
-## Why Goldman matters
-
-Investment bank with significant AI/tech exposure:
-
-| Metric | Value |
-|--------|-------|
-| Type | Investment bank |
-| HQ | New York |
-| Ticker | GS |
-| AI angle | Research, financing, investments |
+Q1 2026 captured both sides at once. Goldman reported $17.23 billion of revenue, $5.63 billion of net earnings, 19.8% ROE, and record $5.33 billion of equities revenue, but FICC fell 10% to $4.01 billion as rates and mortgages weakened even though commodities and currencies were strong. The FT later reported that Goldman's rates desk had been positioned for a weaker-growth, rate-cut path and was wrongfooted when the [[2026 Iran conflict market impact|Iran war]] pushed markets toward a stagflation-style repricing. The readthrough is important: Goldman can monetize volatility, but it is also more exposed than peers when volatility changes character.
 
 ---
 
-## Research teams
+## Sector correlation
 
-| Team | Lead | Focus |
-|------|------|-------|
-| **US Economics** | David Mericle | GDP, inflation, Fed |
-| **US Equity Strategy** | Ben Snider | Sectors, stock picks |
-| **Global Strategy** | Christian Mueller-Glissmann | Asset allocation, valuations |
-| **[[China]] Strategy** | Kinger Lau | [[China]] equities |
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Financials | XLF | 0.73 |
+| [[Banks\|Regional Banks]] | KRE | 0.67 |
+| Technology | XLK | 0.60 |
+| *S&P 500* | *SPY* | *0.66* |
 
----
-
-## Current views (Jan 2026)
-
-### Economics (Mericle) — Jan 11, 2026
-
-| Metric | Goldman | Consensus |
-|--------|---------|-----------|
-| GDP growth | **2.5%** | 2.0% |
-| Core PCE | 2.1% | — |
-| Fed cuts | **2x 25bp** (Jun, Sep) | — |
-
-See [[Economic forecasts]] for full details.
-
-### Equity Strategy (Snider) — Jan 6, 2026
-
-**Overweight:** Health care, materials, consumer discretionary
-
-**[[Consumer]] picks:** [[Burlington]], Best Buy, Five Below, Levi's, [[Gap]], Dick's
-
-See [[Asset allocation]] for full details.
-
-### Global Strategy (Mueller-Glissmann) — Jan 8, 2026
-
-- H1: Overweight equities
-- H2: Cautious (recession risk, valuations)
-- S&P 500 at 36% premium to international peers
-
-See [[Asset allocation]] for full details.
-
-### [[China]] Strategy (Kinger Lau) — Jan 6, 2026
-
-| Index | [[Target]] | Upside |
-|-------|--------|--------|
-| [[MSCI]] [[China]] | 100 | **+20%** |
-| CSI 300 | 5,200 | +12% |
-
-EPS growth: 4% (2025) → 14% (2026-27)
-
-See [[Market forecasts]] for full details.
+GS trades as a core Financials name (XLF r = 0.73).
 
 ---
-
-## Q4 2025 earnings (Jan 15, 2026)
-
-**Record trading revenue:**
-
-| Metric | Q4 2025 | vs Expected | YoY |
-|--------|---------|-------------|-----|
-| **Equities trading** | **$4.31B** | +$610M | +25% |
-| **Fixed income** | **$3.11B** | +$180M | +12% |
-| Full year revenue | **$58.3B** | — | 2nd best ever |
-
-**Notes:**
-- Equities revenue driven by financing trades and derivatives to hedge funds
-- Fixed income strength from interest rate and commodities wagers
-- Would have been record year without [[Apple]] Card portfolio sale to JPMorgan
-- **Dividend raised to $4.50/share**
-
-**CEO David Solomon:** Goldman can exceed mid-teens returns and ~60% efficiency ratio targets in near term thanks to capital markets rebound and industry deregulation.
-
----
-
-## 2026 earnings season framing (Apr 2026)
-
-[[Goldman Sachs]] is the Street's primary source for the macro earnings frame heading into Q1 2026 reporting.
-
-| Metric | Goldman estimate |
-|--------|-----------------|
-| S&P 500 EPS growth (2026) | 12% |
-| S&P 500 year-end target | 7,600 |
-| Consensus Q1 EPS growth | +13.2% YoY |
-| Consensus Q1 revenue growth | +9.7% YoY |
-| Rate cuts expected | Two 25bp (Sep + Dec) |
-
-Sixth consecutive quarter of double-digit earnings growth if consensus holds. Goldman called bank earnings week (Apr 14 — [[JPMorgan Chase]], [[Citigroup]], [[Wells Fargo]], [[Morgan Stanley]], [[Bank of America]]) "the definitive litmus test" for the cycle. The question is whether forward guidance holds given [[2026 Strait of Hormuz crisis]] fuel costs and tariff uncertainty.
-
-*Source: various financial media, early Apr 2026*
-
----
-
-## Prime brokerage data — April 2026 short squeeze (Apr 8-9)
-
-Goldman's prime brokerage desk produced the most granular positioning data on the short squeeze triggered by [[Trump II|Trump]]'s temporary ceasefire announcement with [[Iran]] on April 8.
-
-### Pre-ceasefire short buildup
-
-| Metric | Value | Context |
-|--------|-------|---------|
-| **Selling pace** | Fastest in 13 years | Hedge funds sold global equities at record clip |
-| **Short:long ratio** | **7.6 to 1** | Short sales outpaced long purchases |
-| **ETF short concentration** | 76% of shorts in index/ETF products | Macro-level de-risking, not stock-picking |
-| **US-listed ETF shorts** | +17.2% | Systematic, not fundamental |
-| **Gross leverage** | **2.9x books** | Highest in 5 years — amplifies systemic risk regardless of net positioning |
-| **Single-stock de-risking** | Fastest in 2+ years | Reminiscent of March 2020 panic |
-
-### The squeeze
-
-When [[Trump II|Trump]] announced the ceasefire (late Tuesday April 8), covering began immediately. Goldman's most-shorted basket surged **7.1% in a single session**. Bloomberg (April 8) reported hedge funds closing short bets at the fastest pace since March 2020.
-
-Goldman's head of equities execution services: *"This is the offramp the market has been waiting for."* Clients see high likelihood this marks "the beginning of the end" of the [[2026 Strait of Hormuz crisis|Iran conflict]].
-
-### Sector rotation during covering
-
-| Sector | Flow | Notes |
-|--------|------|-------|
-| Tech, media, telecom | **Net bought** | First time in 4 months — covering-driven, not conviction |
-| Energy, healthcare, consumer staples | **Net bought** | Defensive rebalancing |
-| Industrials, materials, financials | **Net sold** | Cyclical selling continued |
-
-### Analytical implications
-
-The rally is covering, not conviction — sustainability depends entirely on ceasefire durability. Once shorts get stopped out this violently, they don't immediately reload. But gross leverage at 2.9x means the next shock (if ceasefire breaks) could be equally violent in the opposite direction. The market is a patchwork: ETFs being repurchased but single-stock positioning remains fragile.
-
-*Source: [[Goldman Sachs]] PB data, Bloomberg (April 8, 2026), ainvest.com, Nicholas Crown (@nicholas_crown) TikTok (April 9)*
-
----
-
-## Thematic baskets
-
-**[[GS AI Productivity Beneficiaries]]** (GSXUPROD) — "Most important trade of 2026." Non-tech companies benefiting from AI-driven labor productivity. ~60 names across banks, logistics, restaurants, retail, healthcare. Screened from Russell 1000 by wage cost exposure to AI automation.
-
-Also maintains: GSTMTAIP (broad AI), GSTMTDAT (AI data centers), GSXUPCAI (AI PC/mobile upgrades), plus US software sector basket (cited in Feb 3 selloff coverage, -6%).
-
----
-
-## AI infrastructure research
-
-**Notable reports:**
-- Data center power demand forecasts
-- AI capex cycle analysis
-- Semiconductor supply chain research
-
-Goldman research frequently cited for AI infrastructure sizing.
-
----
-
-## AI investments
-
-**Direct investments:**
-- Various AI startups via Asset Management
-- [[Private credit]] to AI infrastructure
-- Data center financing
-
-**Notable:** Less direct AI lab exposure than some peers.
-
----
-
-## [[Private credit]] angle
-
-**AI infrastructure financing:**
-- Data centers require massive capital
-- [[Private credit]] fills gap banks won't
-- Goldman competing with [[Blackstone]], [[Blue Owl]]
-
-See [[AI infrastructure financing]] for market context.
-
-**Total return swap — shorting software loans (Mar 9, 2026):** Goldman pitched hedge funds a TRS product allowing short (or long) positions on corporate loans, specifically targeting software company debt under AI pressure. No trades executed as of Mar 9. Creates price discovery for credit risk that private credit had kept opaque. See [[Private Credit Software Concentration]].
-
-**Iran "distraction" remark (Mar 12, 2026):** Co-CEO of Goldman Sachs International [[Kunal Shah]] (global co-head of FICC), on a client call titled "Strikes in Iran — End of the Beginning . . .?", said some private markets clients were "just glad there's something to talk about that isn't software exposures and private credit." Call also featured Sir [[Alex Younger]] (former [[MI6]] chief, paid GS adviser since 2021). Goldman told the FT Shah "was asked a question about what he was hearing from clients and shared his observations from multiple points of view."
-
----
-
-## Competitive position
-
-| Bank | AI angle |
-|------|----------|
-| **Goldman Sachs** | Research, private credit |
-| [[JPMorgan Chase]] | AI investments, internal AI |
-| [[Morgan Stanley]] | Wealth management AI |
-
----
-
-
-![[gs-employees-chart.png]]
-*Headcount: 46,500 (2024) — up 2.6% YoY*
 
 ## Quick stats
 
@@ -212,34 +30,166 @@ See [[AI infrastructure financing]] for market context.
 |--------|-------|
 | Ticker | GS |
 | HQ | New York |
-| Type | Investment bank |
-| AI exposure | Research, financing |
+| Core franchises | Global Banking & Markets; Asset & Wealth Management |
+| Q1 2026 revenue | $17.23B |
+| Q1 2026 net earnings | $5.63B |
+| Q1 2026 ROE | 19.8% |
+| Q1 2026 FICC | $4.01B |
+| Q1 2026 Equities | $5.33B |
 
 ---
 
-## Q4 2025 earnings (Jan 15)
+## Leadership (current, April 2026)
 
-| Metric | Result |
-|--------|--------|
-| Revenue | -3% YoY |
-| Driver | [[Apple]] Card portfolio offload to JPMorgan |
+| Function | Leader | Since | Notes |
+|----------|--------|-------|-------|
+| CEO | [[David Solomon]] | Oct 2018 | Consumer-banking retreat, wealth and markets refocus |
+| President and COO | [[John Waldron]] | Oct 2018 | Operating deputy and key public voice on strategy |
+| CFO | [[Denis Coleman]] | Jan 2022 | Framed Q1 rates and mortgage weakness as a tougher market-making backdrop |
+| Co-head, Global Banking & Markets | [[Ashok Varadhan]] | — | Senior markets leader with deep rates and macro background |
+| Global co-head, FICC | [[Anshul Sehgal]] | Jan 2025 | Directly relevant to the rates and mortgages franchise |
 
-**CEO Solomon:** "We continue to see high levels of client engagement across our franchise and expect momentum to accelerate in 2026."
+Goldman's leadership mix still tilts toward operators formed in trading, financing, and client flow businesses. That matters because the firm's edge is not just brand or balance sheet size; it is judgment under volatility, and that shows up most clearly when rates, funding, or client positioning snap out of consensus.
 
-*Updated 2026-01-17*
+---
+
+## Charts
+
+![[gs-vs-jpm-vs-c-vs-ms-price-chart.png]]
+*[[Goldman Sachs]] versus [[JPMorgan Chase]], [[Citigroup]], and [[Morgan Stanley]] since January 2024. Goldman stayed strong in absolute terms, but the relative gap after the April 2026 bank prints reflects how much the market cared about the FICC miss.*
+
+![[gs-fundamentals-chart.png]]
+*Revenue and net income history for [[Goldman Sachs]] from local fundamentals data.*
+
+![[gs-sankey.png]]
+*Latest annual income statement flow for [[Goldman Sachs]].*
+
+![[gs-employees-chart.png]]
+*Headcount: 46,500 (2024) — up 2.6% YoY.*
+
+---
+
+## Financials
+
+### Selected annual results
+
+| Period | Revenue | Net earnings | EPS | ROE | Stock price |
+|--------|---------|--------------|-----|-----|-------------|
+| 2023 | $46.25B | $8.52B | $22.87 | 7.5% | $369.11 |
+| 2024 | $53.51B | $14.28B | $40.54 | 12.7% | $561.17 |
+| 2025 | $58.28B | $17.18B | $51.32 | 15.0% | $879.00 |
+
+*Source: Goldman Sachs full-year earnings results. Stock price from `market_data.db` year-end closes.*
+
+### Q1 2026 earnings
+
+| Metric | Q1 2026 |
+|--------|---------|
+| Total revenue | $17.23B |
+| Net earnings | $5.63B |
+| EPS | $17.55 |
+| ROE | 19.8% |
+| Global Banking & Markets | $12.74B |
+| Advisory | $1.49B |
+| FICC | $4.01B |
+| Equities | $5.33B |
+| Asset & Wealth Management | $4.08B |
+| Capital returned | $6.38B |
+
+The official release framed the quarter as strong overall but uneven inside markets. Goldman said FICC was down 10% year over year because interest-rate products and mortgages were significantly weaker and credit products were also lower, partly offset by stronger commodities and currencies. Equities, by contrast, was up 27% and hit a record. That mix matters because Goldman is supposed to thrive in volatile quarters; when the firm beats overall but misses in rates, investors read it as a positioning problem rather than a simple cyclical wobble.
+
+### FT follow-up on the FICC miss (Apr 15, 2026)
+
+The FT reported that Goldman's rates desk had been positioned for a weaker-growth scenario in which the [[Federal Reserve]] would likely cut rates, but the Iran war disrupted that setup by pushing markets to price a mix of higher inflation and slower growth. In that telling, positions built to benefit from lower rates were hit as the market shifted toward a stagflation-style path for the Fed, the [[Bank of England]], and the [[ECB]]. The same article also said Goldman incurred some losses while helping clients liquidate positions during the volatility. These desk-level claims are source-attributed, not independently verified by Goldman, but they fit the official revenue mix: sharply weaker rates and mortgages, stronger commodities and currencies, and equities doing the heavy lifting.
+
+Attribution matters here. Denis Coleman told analysts that lower interest-rate and mortgage trading revenues came from a tougher market-making backdrop, partly offset by strength in currencies and commodities. [[John Waldron]] later defended the result at a Semafor event as a good fixed-income quarter in absolute terms, which is the classic Goldman distinction: the franchise may have made money, but it underperformed peers in the exact environment where the Street expected it to lead.
+
+### 2025 full year and Q4 2025
+
+| Metric | Value |
+|--------|-------|
+| 2025 full-year revenue | $58.28B |
+| 2025 full-year net earnings | $17.18B |
+| 2025 EPS | $51.32 |
+| Q4 2025 revenue | $13.45B |
+| Q4 2025 net earnings | $4.62B |
+| Q4 2025 equities | $4.31B |
+| Q4 2025 FICC | $3.11B |
+| Quarterly dividend | $4.50 |
+
+Q4 2025 already showed the franchise mix Goldman wants: strong trading, healthier capital-markets activity, and enough confidence to lift the dividend while continuing to reposition away from the failed consumer-bank experiment.
+
+---
+
+## Research teams and public market framing
+
+| Team | Lead | Focus |
+|------|------|-------|
+| US Economics | David Mericle | GDP, inflation, Fed path |
+| US Equity Strategy | Ben Snider | Sector views and earnings framing |
+| Global Strategy | Christian Mueller-Glissmann | Asset allocation and international relative value |
+| China Strategy | Kinger Lau | China equity outlook |
+
+Public framing in early 2026:
+
+- January US economics view: 2.5% GDP growth, 2.1% core PCE, and two 25 bp Fed cuts.
+- January global strategy view: overweight equities in H1, more cautious in H2 as recession risk and valuation pressure build.
+- Early April earnings framing: Goldman called bank earnings week the definitive litmus test for whether guidance could survive fuel-cost pressure from the Iran conflict and tariff uncertainty.
+
+See [[Economic forecasts]], [[Asset allocation]], and [[Market forecasts]] for the broader Goldman research frame.
+
+---
+
+## Prime brokerage and positioning
+
+Goldman's [[Prime brokerage]] desk produced some of the clearest public positioning data around the April 8-9 ceasefire squeeze in the Iran conflict.
+
+| Metric | Value | Context |
+|--------|-------|---------|
+| Selling pace pre-ceasefire | Fastest in 13 years | Hedge funds sold global equities at record clip |
+| Short:long ratio | 7.6 to 1 | Short sales far outpaced long purchases |
+| ETF short concentration | 76% | Macro de-risking, not stock-picking |
+| US-listed ETF shorts | +17.2% | Systematic positioning |
+| Gross leverage | 2.9x books | Highest in 5 years |
+| GS most-shorted basket | +7.1% | One-session squeeze on April 8 |
+
+The important point was not just that the market ripped on ceasefire headlines. It was that positioning had become so one-sided that a small change in geopolitical expectations forced rapid covering and a violent [[Sector rotation]] back into tech, media, and telecom. Goldman's own PB data therefore became part of the market narrative, not just a passive readout of it.
+
+---
+
+## AI financing and private credit
+
+Goldman's AI angle is more financial than industrial. The firm matters because it intermediates capital for the AI build-out, publishes research that shapes market expectations, and increasingly sits in the financing chain where banks, private credit funds, and sponsors overlap.
+
+- Goldman research is widely cited on data-center power demand, AI capex, and semiconductor supply chains.
+- The firm is active in data-center financing and other AI infrastructure lending.
+- Goldman maintains thematic baskets such as [[GS AI Productivity Beneficiaries]], alongside broader AI and software baskets that are often used as positioning shorthand.
+- In March 2026 Goldman pitched hedge funds a total-return-swap product that would let them short or go long software-company loans under AI pressure, extending price discovery into a part of credit that private markets had kept relatively opaque.
+- Goldman also sits inside the same ecosystem as [[Blackstone]] and [[Blue Owl]] in using [[Private Credit]] to fund infrastructure that traditional bank balance sheets may not want to hold outright.
+
+The March 12, 2026 FT episode around [[Kunal Shah]] is telling. A senior Goldman FICC executive said some private-markets clients were glad Iran had become something else to talk about besides software exposure and private credit. That remark only makes sense if Goldman is seeing the pressure from both sides at once: private credit as funding engine for AI infrastructure, and private credit as a place where technology stress can leak into bank trading products and client conversations.
 
 ---
 
 ## Related
 
-- [[AI infrastructure financing]] — thesis context
-- [[Blackstone]] — competitor (private credit)
-- [[Blue Owl]] — competitor (DC financing)
-- [[JPMorgan Chase]] — peer (banking)
-- [[AI hyperscalers]] — research coverage
-- [[Private Credit Software Concentration]] — TRS short product + "glad" remark (Mar 2026)
-- [[Kunal Shah]] — co-CEO GS International, FICC co-head
-- [[Alex Younger]] — former MI6 chief, paid GS adviser
-- [[Short interest]] — GS PB data on April 2026 short squeeze mechanics
-- [[2026 Iran conflict market impact]] — ceasefire-driven squeeze context
-- [[Hedge fund capital concentration]] — leverage and positioning data
+- [[Goldman Sachs securities]] — securities note
+- [[David Solomon]] — CEO
+- [[John Waldron]] — president and COO
+- [[Denis Coleman]] — CFO
+- [[Ashok Varadhan]] — co-head of Global Banking & Markets
+- [[Anshul Sehgal]] — global co-head of FICC
+- [[Kunal Shah]] — global co-head of FICC, Goldman Sachs International
+- [[JPMorgan Chase]] — peer
+- [[Citigroup]] — peer
+- [[Morgan Stanley]] — peer
+- [[Federal Reserve]] — rates path that mattered for desk positioning
+- [[Bank of England]] — central-bank repricing in the Iran shock
+- [[ECB]] — central-bank repricing in the Iran shock
+- [[2026 Iran conflict market impact]] — macro shock that hit the rates desk
+- [[Prime brokerage]] — PB positioning data and client flow
+- [[Short interest]] — Goldman PB short-squeeze context
+- [[Hedge fund capital concentration]] — leverage and market-structure context
+- [[AI infrastructure financing]] — financing role in the AI build-out
+- [[Private Credit Software Concentration]] — TRS product and Shah remark
+- [[AI hyperscalers]] — demand side of the financing build-out

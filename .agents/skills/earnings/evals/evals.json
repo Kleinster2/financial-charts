@@ -1,0 +1,67 @@
+{
+  "skill_name": "earnings",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "/earnings NVDA",
+      "expected_output": "Agent checks DB, finds NVDA data is current through Jan 2026 (FQ4 FY2026), reports no update needed, and stops without inserting data or modifying notes.",
+      "files": [],
+      "expectations": [
+        "Agent queries income_statement_quarterly for NVDA to check current state",
+        "Agent identifies that Jan 2026 data is the latest available quarter (FQ4 FY2026)",
+        "Agent concludes that the database is current and no update is needed",
+        "Agent does NOT insert any new rows into the database",
+        "Agent does NOT modify any vault notes"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "/earnings ORCL",
+      "expected_output": "Agent checks DB (latest: Nov 2025 FQ2), identifies FQ3 FY2026 (Feb 2026) is missing, searches for Oracle earnings, extracts financials, constructs correct INSERT with YYYY-MM-DD date and GAAP diluted EPS, derives EBITDA as OI+D&A, updates actor note and daily note.",
+      "files": [],
+      "expectations": [
+        "Agent queries income_statement_quarterly for ORCL to check current state",
+        "Agent identifies that Nov 2025 is the latest quarter and a newer quarter needs ingestion",
+        "Agent queries the most recent full row (SELECT *) to understand field mapping conventions",
+        "Agent searches the web or SEC for Oracle's latest earnings data",
+        "Agent extracts total revenue and net income figures",
+        "Agent uses plain INSERT INTO (not INSERT OR REPLACE) in the proposed SQL",
+        "Agent uses YYYY-MM-DD date format in the fiscal_date_ending field",
+        "Agent correctly maps operating_expenses as below-GP OpEx (not total OpEx)",
+        "Agent fills all 15 columns in the INSERT (no NULLs for fields available in the source)",
+        "Agent cross-verifies at least one derived field against a prior quarter's DB value",
+        "Agent verifies the reporting currency matches existing data (USD)",
+        "Agent uses GAAP diluted EPS in the INSERT (not adjusted/non-GAAP EPS)",
+        "Agent derives EBITDA as Operating Income + D&A (not by subtracting stored quarterly values from annual)",
+        "Agent attempts to regenerate charts for ORCL",
+        "Agent updates or creates an earnings section in the Oracle actor note",
+        "Agent adds an entry to the daily note"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "/earnings PLTR",
+      "expected_output": "Agent checks DB (latest: Sep 2025 Q3), identifies Q4 2025 is missing, searches for Palantir earnings, extracts financials with GAAP diluted EPS, derives EBITDA as OI+D&A, constructs correct INSERT, updates actor note and daily note.",
+      "files": [],
+      "expectations": [
+        "Agent queries income_statement_quarterly for PLTR to check current state",
+        "Agent identifies that Sep 2025 is the latest quarter and Q4 2025 needs ingestion",
+        "Agent queries the most recent full row (SELECT *) to understand field mapping conventions",
+        "Agent searches the web or SEC for Palantir's latest earnings data",
+        "Agent extracts total revenue and net income figures",
+        "Agent uses plain INSERT INTO (not INSERT OR REPLACE) in the proposed SQL",
+        "Agent uses YYYY-MM-DD date format in the fiscal_date_ending field",
+        "Agent fills all 15 columns in the quarterly INSERT (no NULLs for fields available in the source)",
+        "Agent also proposes an annual INSERT into income_statement_annual for FY2025",
+        "Agent cross-verifies Q4 by calculating Annual minus (Q1+Q2+Q3)",
+        "Agent correctly handles interest_expense (sets to 0, since Palantir has interest income not expense)",
+        "Agent uses GAAP diluted EPS in the quarterly INSERT (not adjusted/non-GAAP EPS)",
+        "Agent derives EBITDA as Operating Income + D&A for Q4 (not by subtracting stored quarterly EBITDA from annual)",
+        "Agent attempts to extract segment data (Government and Commercial)",
+        "Agent attempts to regenerate charts for PLTR",
+        "Agent updates or creates an earnings section in the Palantir actor note",
+        "Agent adds an entry to the daily note"
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@ tags:
 
 # Covestro
 
-**Covestro** is a German specialty chemicals company and one of Europe's largest chlor-alkali producers. Spun off from Bayer in 2015. Core business is polyurethanes (MDI/TDI) and polycarbonates, both of which require chlorine as a feedstock, making integrated chlor-alkali production essential. Acquired by [[ADNOC]] in 2024 for EUR 11.7B.
+**Covestro** is a German specialty chemicals company and one of Europe's largest chlor-alkali producers. Spun off from Bayer in 2015. Core business is polyurethanes (MDI/TDI) and polycarbonates, both of which require chlorine as a feedstock, making integrated chlor-alkali production essential. Acquired by [[ADNOC]] in 2024 at EUR 62/share (implying EUR 11.7B equity value, EUR 14.7B enterprise value inclusive of debt), plus a EUR 1.17B capital increase. [[Perella Weinberg Partners]] advised Covestro; the deal ranks among the largest [[GCC]] acquisitions of a European chemicals company. EC approval granted with concessions; closing 2025.
 
 ---
 
@@ -32,3 +32,4 @@ tags:
 - [[Chlorine]] -- co-product and feedstock for polyurethanes
 - [[Dow]] -- European chemicals peer
 - [[ADNOC]] -- acquirer (2024)
+- [[Perella Weinberg Partners]] -- sell-side adviser on ADNOC deal

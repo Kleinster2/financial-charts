@@ -78,3 +78,4 @@ BA.L trades between Utilities and Defense without a tight sector fit.
 - [[European defense spending]] — tailwind
 - [[RTX]], [[Northrop Grumman]], [[Lockheed Martin]] — US peers
 - [[Anduril]] — AI defense disruptor
+- [[Gleacher Shacklock]] — past UK advisory relationship (defence and strategic M&A)

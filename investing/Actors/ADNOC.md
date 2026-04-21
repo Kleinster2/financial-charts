@@ -64,10 +64,18 @@ Parent company state-owned.
 
 ---
 
+## Notable M&A
+
+- [[Covestro]] — 2024 acquisition at EUR 62/share (implying EUR 11.7B equity value, EUR 14.7B enterprise value + EUR 1.17B capital increase). Sell-side adviser: [[Perella Weinberg Partners]]. Among the largest GCC acquisitions of a European chemicals company.
+
+---
+
 ## Related
 
 - [[UAE Tech]] — country context
 - [[UAE G42]] — AI partnerships
 - [[Saudi Aramco]] — peer
 - [[Regions/GCC|GCC]] — regional hub
+- [[Covestro]] — 2024 acquisition
+- [[Perella Weinberg Partners]] — sell-side adviser on Covestro deal
 

@@ -27,6 +27,18 @@ Tracking major mergers and acquisitions relevant to portfolio.
 
 ---
 
+## Advisory-firm consolidation (2025-2026)
+
+| Date | Acquirer | [[Target]] | Value | Rationale |
+|------|----------|--------|-------|-----------|
+| Apr 13, 2026 | [[Perella Weinberg Partners]] | [[Gleacher Shacklock]] | >$71M stock + 3yr vesting + contingent | UK industrials, aerospace/defence |
+| Jul 30, 2025 | [[Evercore]] | [[Robey Warshaw]] | £146M / $196M stock + multi-year contingency | UK large-cap EMEA M&A |
+| Q2 2025 | [[Perella Weinberg Partners]] | [[Devon Park]] | Undisclosed | GP-led secondaries advisory |
+
+See [[Boutique advisory consolidation]] for the structural pattern. Listed boutiques using public stock as currency to absorb small London advisory partnerships ahead of founder retirements.
+
+---
+
 ## Blocked/failed deals
 
 | Date | Acquirer | [[Target]] | Value | Reason |

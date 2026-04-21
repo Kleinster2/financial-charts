@@ -179,6 +179,14 @@ The [[HFR]] flagship index fell 3.1% in March — the worst month since a 9.1% d
 
 The dispersion between macro specialists and diversified multi-managers is the clearest signal: pod shops' hundreds of uncorrelated strategies absorbed the shock, while concentrated rate bets amplified it. [[Gold]] failed as a hedge alongside bonds.
 
+### Sell-side desk positioning — Goldman Sachs (Apr 15)
+
+The rates repricing did not only hurt macro funds. The FT reported that [[Goldman Sachs]]' rates desk had been positioned for a slower-growth scenario and likely Fed cuts, only to be wrongfooted when the Iran war pushed markets toward higher inflation and slower growth together. That source-level claim fits the official Q1 2026 print: Goldman's FICC revenue fell 10% to $4.01 billion because rates and mortgages were much weaker, while commodities and currencies were strong enough to offset part of the damage.
+
+This matters because it extends the March regime break from the buy side into the sell side. The same supply-shock logic that crushed the [[Steepener trade]] and hurt macro funds also hit one of Wall Street's most risk-tolerant rates franchises. The Iran conflict was not just a positioning squeeze for clients; it altered the internal P&L of a bank desk that normally benefits from volatility.
+
+*Source: FT, "Goldman traders wrongfooted as Iran war upended interest rate expectations" (Apr 15, 2026, pasted by user); Goldman Sachs Q1 2026 earnings results.*
+
 ### April 8-9 ceasefire short squeeze — Goldman Sachs PB data
 
 [[Trump II|Trump]]'s ceasefire announcement on April 8 triggered the largest short squeeze since March 2020. [[Goldman Sachs]] prime brokerage data revealed the pre-squeeze positioning:

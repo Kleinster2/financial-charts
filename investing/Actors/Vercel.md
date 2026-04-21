@@ -192,6 +192,26 @@ Invest in Next.js → More adoption
 
 ---
 
+## Apr 19-20, 2026 — security incident via [[Context.ai]]
+
+Vercel disclosed a security incident in a bulletin first published on Apr 19 and updated on Apr 20. The company said unauthorized access reached certain internal systems, initially compromising a limited subset of customer credentials, while services remained operational.
+
+### What happened
+
+Vercel traced the incident to [[Context.ai]], a third-party AI tool used by a Vercel employee. According to the bulletin, the attacker used that compromise to take over the employee's Vercel Google Workspace account, which then provided access to some Vercel environments and environment variables that were not marked as sensitive.
+
+Vercel said it had no evidence that values stored with its "sensitive environment variables" feature were accessed.
+
+### Response
+
+The company told customers to review activity logs, rotate any non-sensitive environment variables that may actually contain secrets, inspect recent deployments, and rotate Deployment Protection tokens. It also published the compromised OAuth app ID as an IOC and said it was working with Mandiant, law enforcement, and Context.ai.
+
+### Why it matters
+
+The important readthrough is structural, not just operational. Vercel sits in the deployment path for a large share of the modern JavaScript stack, and the breach path ran through an employee's AI-tool workflow rather than through a classic Vercel software exploit. That makes this a live example of AI tooling becoming part of the enterprise identity and supply-chain surface.
+
+---
+
 ## Competitive landscape
 
 | Competitor | Positioning |
@@ -227,6 +247,7 @@ Invest in Next.js → More adoption
 - [[Salesforce Ventures]] — Series C co-lead
 - [[GGV Capital]] — Series D lead
 - [[OpenAI]] — AI tools (v0) powered by OpenAI models
+- [[Context.ai]] — third-party AI tool identified as the initial compromise vector in Apr 2026
 - [[Y Combinator]] — many YC companies deploy on Vercel
 
 ---
@@ -238,5 +259,6 @@ Sources:
 - [TapTwice - Vercel statistics](https://taptwicedigital.com/stats/vercel)
 - [Tracxn - Vercel funding](https://tracxn.com/d/companies/vercel/__uPuJfXzfvAQs0wmUuqRiXFxW4uGbcaKUHjHks8VPbrI/funding-and-investors)
 - [TechCrunch - Series D](https://techcrunch.com/2021/11/23/vercel-raises-150m-series-d-as-it-looks-to-build-an-end-to-end-front-end-development-platform/)
+- [Vercel April 2026 security incident bulletin](https://vercel.com/kb/bulletin/vercel-april-2026-security-incident)
 
 *Created 2026-01-14*

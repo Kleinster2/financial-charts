@@ -157,9 +157,10 @@ A $200M SPAC with 20% promote = ~$40M in equity for $25K investment. Even if the
 | **Restaurant Brands** (QSR) | Justice Holdings | +533% |
 | **[[DraftKings]]** (DKNG) | Diamond Eagle | +380% |
 | **Symbotic** (SYM) | SVF Investment 3 | +374% |
+| **[[Perella Weinberg Partners]]** (PWP) | FinTech Acquisition IV | ~+116% (2026-04-17) |
 | **[[SoFi]]** (SOFI) | Social Capital | +155% |
 
-The successes share a common trait: they were real businesses with real revenue at merger time, not pre-revenue concept companies selling projections.
+The successes share a common trait: they were real businesses with real revenue at merger time, not pre-revenue concept companies selling projections. [[Perella Weinberg Partners]] is the clearest Wall Street advisory example — a profitable 2006-founded boutique that used the June 2021 [[SPAC]] listing to fund tuck-in acquisitions ([[Tudor Pickering Holt]] 2016, [[Devon Park]] 2025, [[Gleacher Shacklock]] 2026). Contrast with [[Blue Owl]], the largest mainstream Wall Street SPAC-era listing, now below its 2021 debut after the Feb 2026 [[Blue Owl OBDC II redemption gate]]. The cohort delta says more about underlying business model durability than about SPAC structure: PWP is pure fee income; Blue Owl locked retail capital into illiquid lending just before a credit-quality deterioration cycle.
 
 ---
 

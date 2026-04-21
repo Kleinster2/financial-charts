@@ -1,6 +1,12 @@
 ---
-aliases: [FDD cellular module risk analysis April 2026]
-tags: [event, china, telecom, iot, defense, 2026]
+aliases:
+  - FDD cellular module risk analysis April 2026
+tags:
+  - event
+  - china
+  - telecom
+  - iot
+  - defense
 ---
 
 # Chinese cellular module risk analysis April 2026

@@ -1,0 +1,76 @@
+{
+  "skill_name": "deepdive",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run /deepdive Palantir. Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, run scripts, browse the web, or execute any tools. Do NOT read any skill files from .claude/skills/ — work only from CLAUDE.md and your general knowledge. Instead, produce a detailed transcript of exactly what you would do at each phase, including exact commands, the full note you would write, chart generation steps, stub list, and daily note entry. Show your full reasoning for each decision.",
+      "expected_output": "Full phased transcript: vault recon (check_before_create + Obsidian search + geopolitics vault search), SEC filing pulls, web research, full note with all sections, full chart set (peer comparison + fundamentals + sankey + waterfall), stale reference scan, stubs, daily note, cross-vault gate",
+      "files": [],
+      "assertions": [
+        {"name": "vault_check", "type": "llm_judge", "prompt": "Does the agent run check_before_create.py as a first step before creating anything?", "discriminating": false},
+        {"name": "obsidian_search", "type": "llm_judge", "prompt": "Does the agent use the Obsidian CLI to search the vault for existing mentions and related content?", "discriminating": false},
+        {"name": "geopolitics_vault_search", "type": "llm_judge", "prompt": "Does the agent search the geopolitics vault (not just the investing vault) for cross-vault counterparts?", "discriminating": true},
+        {"name": "sec_filing_pull", "type": "llm_judge", "prompt": "Does the agent plan to pull SEC filings using parse_sec_filing.py (10-K and/or 10-Q) as a primary research source?", "discriminating": true},
+        {"name": "existing_note_read", "type": "llm_judge", "prompt": "Does the agent read and assess the existing note's content before writing, identifying specific gaps to fill rather than writing from scratch?", "discriminating": true},
+        {"name": "multi_query_research", "type": "llm_judge", "prompt": "Does the agent plan multiple distinct web searches (identity, financials, recent news, competitive landscape)?", "discriminating": false},
+        {"name": "ticker_db_check", "type": "llm_judge", "prompt": "Does the agent check if the ticker (PLTR) exists in the database and plan to add it if missing?", "discriminating": false},
+        {"name": "synopsis_section", "type": "llm_judge", "prompt": "Does the note include a Synopsis section with 2-4 paragraphs that work as a self-contained briefing with hard numbers?", "discriminating": false},
+        {"name": "evolution_section", "type": "llm_judge", "prompt": "Does the note include an Evolution section with chronological narrative paragraphs explaining why each moment mattered?", "discriminating": false},
+        {"name": "core_thesis", "type": "llm_judge", "prompt": "Does the note include a Core thesis section with bull/bear cases?", "discriminating": false},
+        {"name": "competitive_landscape", "type": "llm_judge", "prompt": "Does the note include a Competitive landscape section naming specific peers?", "discriminating": false},
+        {"name": "peer_comparison_chart", "type": "llm_judge", "prompt": "Does the agent plan to generate a price chart using /api/chart/lw with a peer comparison (2-3 peers, normalized, not solo)?", "discriminating": false},
+        {"name": "full_chart_set", "type": "llm_judge", "prompt": "Does the agent plan to generate at least 3 distinct chart types (e.g., peer price comparison, fundamentals, sankey, and/or waterfall)?", "discriminating": true},
+        {"name": "analysis_section", "type": "llm_judge", "prompt": "Does the note include an Analysis section with structural tensions, open questions, or interpretive insights beyond the factual sections?", "discriminating": true},
+        {"name": "stale_reference_scan", "type": "llm_judge", "prompt": "After writing the note, does the agent scan other vault notes that mention this entity to check for stale or outdated data?", "discriminating": true},
+        {"name": "price_verification", "type": "llm_judge", "prompt": "Does the agent verify stock prices against actual database closing prices before writing them into the note?", "discriminating": true},
+        {"name": "wikilinks_everywhere", "type": "llm_judge", "prompt": "Does the note use [[wikilinks]] for every entity mentioned (companies, people, products, concepts)?", "discriminating": false},
+        {"name": "stub_creation", "type": "llm_judge", "prompt": "Does the agent plan to run compliance check AND create stubs for dead-linked entities?", "discriminating": false},
+        {"name": "daily_note_entry", "type": "llm_judge", "prompt": "Does the agent plan to update today's daily note with both Notes created/expanded and Edit log entries?", "discriminating": false},
+        {"name": "cross_vault_check", "type": "llm_judge", "prompt": "Does the agent consider whether the entity has a geopolitics or history vault counterpart?", "discriminating": false}
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "/deepdive Anduril Industries. Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, run scripts, browse the web, or execute any tools. Do NOT read any skill files from .claude/skills/ — work only from CLAUDE.md and your general knowledge. Instead, produce a detailed transcript of exactly what you would do at each phase, including exact commands, the full note you would write, and all downstream steps. Show your full reasoning for each decision.",
+      "expected_output": "Full transcript for a private defense tech company: vault recon with geopolitics vault search, note with private-company tagging, funding rounds table, no price chart (private), stale reference scan for Anduril valuations in other notes, Analysis section, defense sector connections, stubs, daily note",
+      "files": [],
+      "assertions": [
+        {"name": "vault_check", "type": "llm_judge", "prompt": "Does the agent run check_before_create.py as a first step?", "discriminating": false},
+        {"name": "obsidian_search", "type": "llm_judge", "prompt": "Does the agent use the Obsidian CLI to search the vault for existing mentions of Anduril?", "discriminating": false},
+        {"name": "geopolitics_vault_search", "type": "llm_judge", "prompt": "Does the agent search the geopolitics vault (not just investing) for defense/military counterparts?", "discriminating": true},
+        {"name": "existing_note_read", "type": "llm_judge", "prompt": "Does the agent read and assess the existing Anduril note before writing, identifying specific gaps rather than starting from scratch?", "discriminating": true},
+        {"name": "private_tagging", "type": "llm_judge", "prompt": "Does the note's frontmatter include a 'private' tag (since Anduril is not publicly traded)?", "discriminating": false},
+        {"name": "funding_table", "type": "llm_judge", "prompt": "Does the note include a funding rounds table with dates, round names, amounts, valuations, and lead investors?", "discriminating": false},
+        {"name": "no_price_chart", "type": "llm_judge", "prompt": "Does the agent correctly skip price chart generation because Anduril is private (no ticker)?", "discriminating": false},
+        {"name": "evolution_section", "type": "llm_judge", "prompt": "Does the note include an Evolution section tracing Anduril's founding through present?", "discriminating": false},
+        {"name": "analysis_section", "type": "llm_judge", "prompt": "Does the note include an Analysis section with structural insights (e.g., software-vs-hardware tension, political alignment risk, cap table economics)?", "discriminating": true},
+        {"name": "stale_reference_scan", "type": "llm_judge", "prompt": "After writing the note, does the agent scan other vault notes mentioning Anduril and check for stale valuations or outdated data?", "discriminating": true},
+        {"name": "defense_connections", "type": "llm_judge", "prompt": "Does the note link to defense-related vault entities (Defense sector, specific programs, competitors like L3Harris/Northrop)?", "discriminating": false},
+        {"name": "palmer_luckey", "type": "llm_judge", "prompt": "Does the note mention and wikilink Palmer Luckey as founder?", "discriminating": false},
+        {"name": "stub_creation", "type": "llm_judge", "prompt": "Does the agent plan stubs for dead-linked entities (Palmer Luckey, Founders Fund, etc.)?", "discriminating": false},
+        {"name": "daily_note_entry", "type": "llm_judge", "prompt": "Does the agent plan to update today's daily note?", "discriminating": false},
+        {"name": "cross_vault_defense", "type": "llm_judge", "prompt": "Does the agent flag Anduril as having a potential geopolitics vault counterpart (defense/military technology)?", "discriminating": false}
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "deepdive Sustainable Aviation Fuel. Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, run scripts, browse the web, or execute any tools. Do NOT read any skill files from .claude/skills/ — work only from CLAUDE.md and your general knowledge. Instead, produce a detailed transcript of exactly what you would do at each phase, including exact commands, the full note you would write, and all downstream steps.",
+      "expected_output": "Full transcript for a concept (not actor): routed to investing/Concepts/, concept-appropriate structure (Synthesis not Synopsis, no Evolution, organized by dimension), links to relevant actors (Neste, TotalEnergies, airlines), stale reference scan, geopolitics vault search for energy security angle, regulatory data",
+      "files": [],
+      "assertions": [
+        {"name": "vault_check", "type": "llm_judge", "prompt": "Does the agent run check_before_create.py first?", "discriminating": false},
+        {"name": "obsidian_search", "type": "llm_judge", "prompt": "Does the agent use the Obsidian CLI to search the vault for existing SAF-related content?", "discriminating": false},
+        {"name": "geopolitics_vault_search", "type": "llm_judge", "prompt": "Does the agent search the geopolitics vault for energy security, trade policy, or industrial policy counterparts?", "discriminating": true},
+        {"name": "existing_note_read", "type": "llm_judge", "prompt": "Does the agent read the existing SAF note and assess what needs expanding rather than writing from scratch?", "discriminating": true},
+        {"name": "correct_folder", "type": "llm_judge", "prompt": "Does the agent route the note to investing/Concepts/ (not Actors/ or Sectors/)?", "discriminating": false},
+        {"name": "concept_structure", "type": "llm_judge", "prompt": "Does the note use a concept-appropriate structure (Synthesis not Synopsis, organized by analytical dimension rather than chronology, no Evolution section)?", "discriminating": true},
+        {"name": "actor_links", "type": "llm_judge", "prompt": "Does the note wikilink to relevant actors (Neste, TotalEnergies, airlines, refiners)?", "discriminating": false},
+        {"name": "production_data", "type": "llm_judge", "prompt": "Does the note include hard numbers on SAF production volumes, capacity, or costs?", "discriminating": false},
+        {"name": "regulatory_context", "type": "llm_judge", "prompt": "Does the note cover regulatory mandates or policy drivers (EU ReFuelEU, US SAF credit, CORSIA)?", "discriminating": false},
+        {"name": "stale_reference_scan", "type": "llm_judge", "prompt": "After writing the note, does the agent scan other vault notes mentioning SAF to check for stale or inconsistent data?", "discriminating": true},
+        {"name": "stub_creation", "type": "llm_judge", "prompt": "Does the agent plan stubs for dead-linked entities?", "discriminating": false},
+        {"name": "daily_note_entry", "type": "llm_judge", "prompt": "Does the agent plan to update today's daily note?", "discriminating": false}
+      ]
+    }
+  ]
+}

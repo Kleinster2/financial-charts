@@ -78,7 +78,7 @@ Firms are competing for mid-career professionals, not just fresh graduates. [[Mi
 
 ### 2. Prop firms as prime brokerage clients
 
-As prop firms hold positions longer, they need financing, drawing them into the bank [[prime brokerage]] ecosystem historically reserved for hedge funds. [[Goldman Sachs]]' Ashok Varadhan acknowledged the tension: clients and competitors simultaneously, requiring "maturity" to manage.
+As prop firms hold positions longer, they need financing, drawing them into the bank [[prime brokerage]] ecosystem historically reserved for hedge funds. [[Goldman Sachs]]' [[Ashok Varadhan]] acknowledged the tension: clients and competitors simultaneously, requiring "maturity" to manage.
 
 Historically, prop trading firms needed banks only for execution and trading fees. Now they need the full suite of financing and services.
 

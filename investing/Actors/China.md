@@ -16,6 +16,7 @@ State actor shaping semiconductor industry through industrial policy, export con
 |------|--------|--------|-------|
 | 2025 Full Year | 5.0% | **5.0%** | Hit target |
 | 2025 Q4 | — | **4.5%** | Weakest in 3 years |
+| 2026 Q1 | — | **5.0%** | At top end of full-year target range |
 | 2026 (Fitch) | — | 4.1% | Forecast |
 | 2026 (DB) | — | 4.5% | Forecast |
 
@@ -54,9 +55,11 @@ Cement tells the construction story most clearly — after decades of growth, Ch
 
 ### Monetary policy
 
-**[[PBOC]]:** Held 1-year and 5-year LPR at 3.1%/3.6% — 8th consecutive month unchanged.
+**[[PBOC]]:** Left the 1-year and 5-year LPR unchanged at 3.0%/3.5% in April 2026 — 11th consecutive month without a cut.
 
 **Policy stance:** "Moderately loose" — first use of this language since 2008 financial crisis.
+
+The April hold came with a mixed macro signal: first-quarter growth printed 5.0% year-on-year, but March factory-gate prices turned positive for the first time in more than three years as the Iran war pushed energy costs into the industrial system. Beijing is still choosing targeted easing over another headline rate cut.
 
 ### Factory-gate inflation regime change (March 2026)
 

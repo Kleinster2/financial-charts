@@ -21,12 +21,22 @@ The multi-objective mandate gives PBOC flexibility but creates ambiguity about p
 
 | Rate | Current | Description |
 |------|---------|-------------|
-| **1-year LPR** | 3.10% | Loan Prime Rate, benchmark for most loans |
-| **5-year LPR** | 3.60% | Benchmark for mortgages |
+| **1-year LPR** | 3.00% | Loan Prime Rate, benchmark for most loans |
+| **5-year LPR** | 3.50% | Benchmark for mortgages |
 | **1-year MLF** | 2.00% | Medium-term Lending Facility, sets LPR floor |
 | **7-day reverse repo** | 1.50% | Short-term liquidity rate |
 
-LPR held unchanged for 8 consecutive months through Jan 2026.
+LPR held unchanged for 11 consecutive months through Apr 2026.
+
+### April 2026 LPR hold
+
+PBOC left both benchmark loan prime rates unchanged in April 2026, keeping the one-year rate at 3.00% and the five-year rate at 3.50%.
+
+The hold reflects two competing signals. First-quarter growth held at 5.0%, reducing the pressure for broad-based monetary easing. But March factory-gate prices also turned positive for the first time in more than three years, signaling that the [[2026 Strait of Hormuz crisis]] is pushing energy costs into China's industrial base.
+
+The practical message is that Beijing still prefers targeted easing and liquidity tools over another headline rate cut.
+
+*Source: Reuters, Apr 20, 2026.*
 
 ---
 
