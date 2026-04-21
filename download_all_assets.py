@@ -1050,6 +1050,9 @@ EXCLUDED_TICKERS = [
     "SULA11.SA", # No Yahoo data
     "OB",        # Removed from static lists
     "FSR",       # Removed from static lists
+    "RSX",       # VanEck Russia ETF — frozen / non-economic legacy series
+    "IRBO",      # Renamed to ARTY on 2024-08-12 (official iShares fund docs)
+    "SPLG",      # Renamed to SPYM in 2025 (official State Street fund docs)
     # Delisted / acquired / bankrupt (Mar 2026 cleanup)
     "PLL",       # Piedmont Lithium — delisted
     "K",         # Kellanova — acquired by Mars
@@ -1182,7 +1185,7 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
                 FINTECH_LATAM_STOCKS + RECENT_IPOS_GROWTH + ROBOTICS_INDUSTRIAL + FIREARMS_STOCKS + DEFENSE_CONTRACTORS +
                 EUROPE_DEFENSE_STOCKS + EUROPE_STOCKS
             ))) if t not in EXCLUDED_TICKERS],
-            'etfs': ETF_TICKERS,
+            'etfs': [t for t in ETF_TICKERS if t not in EXCLUDED_TICKERS],
             'mutualfunds': MUTUAL_FUND_TICKERS,
             'adrs': ADR_TICKERS,
             'fx': sorted(list(set(FX_TICKERS + ADDITIONAL_FX_TICKERS))),
