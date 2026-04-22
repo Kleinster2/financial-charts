@@ -56,6 +56,8 @@
 
 **Positioning:** Software-only, single-namespace at exabyte scale. "Fastest-selling data infrastructure startup in history."
 
+VAST Data is the private company that best expresses the AI-native storage challenge to incumbents. The real issue is not just flash performance. It is whether storage designed around very large GPU clusters and a unified namespace can take share from the enterprise stacks that still sell trust, channel depth, and certification. That is why VAST keeps surfacing next to [[Pure Storage]] and Weka rather than as a generic startup mention.
+
 ### Weka
 
 | Metric | Value |

@@ -102,6 +102,8 @@ At frontier scale, storage becomes THE limiting factor, not compute.
 | Weka | GPU-direct optimized |
 | DDN | HPC heritage |
 
+VAST Data is useful here as the cleanest private expression of the thesis. If GPU hours are scarce and expensive, storage stops being a commodity box and starts looking like a utilization lever. VAST's relevance is that it sells architecture, not just capacity, which is why it shows up in AI-cluster discussions far more than in ordinary enterprise-storage comparisons.
+
 ### Adjacent beneficiaries
 
 | Category | Examples |
