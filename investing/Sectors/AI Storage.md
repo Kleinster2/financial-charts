@@ -2,7 +2,7 @@
 
 #sector #ai #storage #infrastructure
 
-**AI Storage** — Enterprise storage systems optimized for AI training and inference workloads. **$30-36B market (2025), 24% CAGR.** Critical bottleneck — GPUs idle 70% of time waiting for data. Sub-sector of [[AI Infrastructure]].
+**AI Storage** — Enterprise storage systems optimized for AI training and inference workloads. $30-36B market in 2025, growing about 24% annually. Critical bottleneck, GPUs idle 70% of time waiting for data. Sub-sector of [[AI Infrastructure]].
 
 ---
 
@@ -23,20 +23,20 @@
 
 | Company | Ticker | Market cap | AI positioning |
 |---------|--------|------------|----------------|
-| **[[Pure Storage]]** | PSTG | $24B | NVIDIA Elite partner, DGX certified |
-| **NetApp** | NTAP | $25B | Hybrid cloud, ONTAP AI |
-| **Dell EMC** | DELL | $95B | PowerScale, broad portfolio |
-| **Hitachi Vantara** | Private | — | Enterprise, hybrid |
-| **HPE** | HPE | $25B | Cray heritage, HPC |
+| [[Pure Storage]] | PSTG | $24B | NVIDIA Elite partner, DGX certified |
+| NetApp | NTAP | $25B | Hybrid cloud, ONTAP AI |
+| Dell EMC | DELL | $95B | PowerScale, broad portfolio |
+| Hitachi Vantara | Private | — | Enterprise, hybrid |
+| [[HPE]] | HPE | $25B | Cray heritage, HPC |
 
 ### AI-native challengers
 
 | Company | Status | Valuation | Differentiation |
 |---------|--------|-----------|-----------------|
-| **[[VAST Data]]** | Private | $9B → $25-30B | Software-only, exabyte-scale |
-| **Weka** | Private | $1.6B | WekaFS, GPU-direct |
-| **DDN** | Private | — | HPC heritage, Lustre |
-| **Hammerspace** | Private | — | Global data orchestration |
+| [[VAST Data]] | Private | $30B (Series F, Apr 2026) | Software-only, exabyte-scale |
+| Weka | Private | $1.6B | WekaFS, GPU-direct |
+| DDN | Private | — | HPC heritage, Lustre |
+| Hammerspace | Private | — | Global data orchestration |
 
 ---
 
@@ -48,13 +48,13 @@
 |--------|-------|
 | Founded | 2016 |
 | HQ | New York |
-| Valuation | $9B (Series E) → targeting $25-30B |
-| Total raised | ~$400M |
-| ARR | $200M (Jan 2025) → $600M-1B projected |
+| Valuation | $30B (Series F, Apr 2026) |
+| Latest financing | About $1B total transaction value |
+| ARR / CARR | $200M ARR (Jan 2025) → >$500M committed ARR exiting FY2026 |
 | Key deal | $1.17B CoreWeave contract (Nov 2025) |
-| Investors | NVIDIA, Tiger Global, Goldman, Fidelity |
+| Investors | [[NVIDIA]], Fidelity, NEA, [[Access Industries]], Drive Capital |
 
-**Positioning:** Software-only, single-namespace at exabyte scale. "Fastest-selling data infrastructure startup in history."
+Positioning: Software-only, single-namespace at exabyte scale. The April 2026 Series F is the hard confirmation that the market is valuing VAST as a top-tier AI data-platform company, not just a promising storage startup.
 
 VAST Data is the private company that best expresses the AI-native storage challenge to incumbents. The real issue is not just flash performance. It is whether storage designed around very large GPU clusters and a unified namespace can take share from the enterprise stacks that still sell trust, channel depth, and certification. That is why [[VAST Data]] keeps surfacing next to [[Pure Storage]] and Weka rather than as a generic startup mention.
 
@@ -69,7 +69,7 @@ VAST Data is the private company that best expresses the AI-native storage chall
 | ARR | $100M+ (2024) |
 | Investors | NVIDIA, Qualcomm, Generation IM |
 
-**Positioning:** WekaFS parallel file system, GPU-direct optimized. Restructured early 2025 to focus on enterprise AI.
+Positioning: WekaFS parallel file system, GPU-direct optimized. Restructured early 2025 to focus on enterprise AI.
 
 ### [[Pure Storage]]
 
@@ -81,7 +81,7 @@ VAST Data is the private company that best expresses the AI-native storage chall
 | Key product | FlashBlade//S (AI optimized) |
 | Moat | NVIDIA Elite partner, 5,000+ FlashStack customers |
 
-**Positioning:** Enterprise incumbent with deepest NVIDIA certifications. Subscription model (Evergreen).
+Positioning: Enterprise incumbent with deepest NVIDIA certifications. Subscription model (Evergreen).
 
 ---
 
@@ -102,12 +102,12 @@ NVIDIA certifications matter — enterprise buyers want validated stacks:
 
 See sister concept: [[AI storage bottleneck]]
 
-**The problem:**
+The problem:
 - GPUs process data faster than storage can deliver
 - 70% of training time = waiting for I/O (Microsoft data)
 - Only 7% of teams achieve >85% GPU utilization
 
-**The solution:** High-throughput flash storage with GPU-direct capabilities.
+The solution: High-throughput flash storage with GPU-direct capabilities.
 
 ---
 
@@ -121,23 +121,23 @@ See sister concept: [[AI storage bottleneck]]
 | Architecture | Evolved legacy | AI-native |
 | Channel | ✓ Established | Direct-heavy |
 
-**Key question:** Do AI-native architectures (VAST, Weka) displace incumbents, or do incumbents' certifications and channels win?
+Key question: Do AI-native architectures (VAST, Weka) displace incumbents, or do incumbents' certifications and channels win?
 
 ---
 
 ## Investment relevance
 
-**Bull case:**
+Bull case:
 - 24% CAGR market growth
 - Storage is genuine bottleneck (GPU idle time)
 - NVIDIA ecosystem creates certification moats
 - Hyperscaler capex = sustained demand
 
-**Bear case:**
+Bear case:
 - Commoditization pressure
 - Hyperscalers may build in-house
 - Multiple well-funded competitors
-- VAST at $25-30B may be priced for perfection
+- VAST at $30B may be priced for perfection
 
 ---
 
@@ -155,7 +155,7 @@ See sister concept: [[AI storage bottleneck]]
 - Dell — DELL, $95B
 
 ### Actors (private)
-- [[VAST Data]] — $9B → $25-30B
+- [[VAST Data]] — $30B (Series F, Apr 2026)
 - Weka — $1.6B
 - DDN — private
 
@@ -168,6 +168,7 @@ See sister concept: [[AI storage bottleneck]]
 Sources:
 - [MarketsandMarkets - AI Storage](https://www.marketsandmarkets.com/Market-Reports/ai-powered-storage-market-29450656.html)
 - [TechCrunch - VAST Data $25B](https://techcrunch.com/2025/06/10/ai-storage-platform-vast-data-aimed-for-25b-valuation-in-new-round-sources-say/)
+- CNBC, "Nvidia backs AI company Vast Data at $30 billion valuation" (Apr 22, 2026)
 - [Weka Series E](https://www.weka.io/company/weka-newsroom/press-releases/weka-nets-140m-in-series-e-funding-at-1-6b-valuation/)
 
 *Created 2026-01-14*
