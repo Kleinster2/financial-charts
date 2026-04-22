@@ -1,24 +1,24 @@
 #concept #ai #infrastructure
 
-**OpenAI Infrastructure Spend** — tracking [[OpenAI]]'s compute investment plans, infrastructure deals, and the gap between announced commitments and actual spend targets.
+OpenAI Infrastructure Spend — tracking [[OpenAI]]'s compute investment plans, infrastructure deals, and the gap between announced commitments and actual spend targets.
 
 ---
 
 ## Compute spend reset (Feb 20, 2026)
 
-OpenAI told investors it's now targeting **~$600B in total compute spend by 2030**, down from the **$1.4T infrastructure commitment** touted by [[Sam Altman]] in late 2025.
+OpenAI told investors it's now targeting ~$600B in total compute spend by 2030, down from the $1.4T infrastructure commitment touted by [[Sam Altman]] in late 2025.
 
 | Metric | Previous | Revised |
 |--------|----------|---------|
-| Infrastructure target | $1.4T ("commitments") | **~$600B** (compute spend) |
-| Timeline | Vague ("coming years") | **By 2030** |
-| 2030 revenue forecast | Not disclosed | **$280B** |
+| Infrastructure target | $1.4T ("commitments") | ~$600B (compute spend) |
+| Timeline | Vague ("coming years") | By 2030 |
+| 2030 revenue forecast | Not disclosed | $280B |
 
-**Key nuance:** The $1.4T included partner commitments ([[SoftBank]], [[Oracle]] for [[Stargate]]); the $600B is OpenAI's own compute spend (training + inference). Still a massive number but more grounded and directly tied to revenue projections.
+Key nuance: The $1.4T included partner commitments ([[SoftBank]], [[Oracle]] for [[Stargate]]); the $600B is OpenAI's own compute spend (training + inference). Still a massive number but more grounded and directly tied to revenue projections.
 
 The spending plan is meant to more directly tie to expected revenue growth — with $280B projected for 2030, split roughly equally between consumer ([[ChatGPT]]) and enterprise businesses. The implied compute-to-revenue ratio: ~2:1.
 
-**CFO argument (Jan 2026):** Sarah Frier published blog claiming revenue tracks compute 1:1 — 10x revenue growth (2023–2025) alongside 9.5x compute growth. Implies more capital = more revenue. The $600B/$280B ratio suggests this relationship may not hold at scale.
+CFO argument (Jan 2026): Sarah Frier published blog claiming revenue tracks compute 1:1 — 10x revenue growth (2023–2025) alongside 9.5x compute growth. Implies more capital = more revenue. The $600B/$280B ratio suggests this relationship may not hold at scale.
 
 *Source: CNBC, Feb 20, 2026.*
 
@@ -58,15 +58,15 @@ This is distinct from the [[Project Stargate]] JV, which continues: the Abilene 
 | Location | UAE |
 | Power source | 4x [[Ansaldo Energia]] AE94.3 gas turbines |
 | Gross capacity | 1.3GW |
-| Derated capacity | **1GW** (desert heat penalty −23%) |
+| Derated capacity | 1GW (desert heat penalty −23%) |
 | Phase 1 | 200MW by YE2026 |
 | Status | "Going well" |
 
-**Key insight:** On-site gas turbines = [[BYOP]] (Bring Your Own Power). Desert heat derates capacity by 23%.
+Key insight: On-site gas turbines = [[BYOP]] (Bring Your Own Power). Desert heat derates capacity by 23%.
 
-**Texas Abilene (contrast):** "GPUs not going BRRR" — UAE progressing faster than domestic site.
+Texas Abilene (contrast): "GPUs not going BRRR" — UAE progressing faster than domestic site.
 
-**Turbine supplier:** [[Ansaldo Energia]] (Italian)
+Turbine supplier: [[Ansaldo Energia]] (Italian)
 
 ---
 
@@ -74,23 +74,25 @@ This is distinct from the [[Project Stargate]] JV, which continues: the Abilene 
 
 | Metric | Value |
 |--------|-------|
-| Deal value | **$10B+** |
+| Deal value | $10B+ |
 | Compute | 750 MW |
 | Duration | 2026–2028 |
 | Use case | Inference (especially coding) |
 
-**Why [[Cerebras]]:**
+Why [[Cerebras]]:
 - 15x faster responses than GPU-based systems
 - [[Sam Altman]] was early Cerebras investor
 - Diversifies away from [[NVIDIA]]/[[Microsoft]] dependency
 
-**Cerebras CEO:** "Largest high-speed AI inference deployment in the world."
+Cerebras CEO: "Largest high-speed AI inference deployment in the world."
+
+Apr 17, 2026 update: What looked in January like a targeted diversification deal had become, by the time of Cerebras's renewed filing, a much larger forward-demand pillar. Reuters reported the commitment had expanded to more than $20B over three years, with potential total spend near $30B, while the filing also made clear that none of this relationship contributed recognized 2025 revenue yet. See [[Cerebras IPO revival April 2026]].
 
 ---
 
 ## Nvidia inference concerns (Feb 2026)
 
-**[[Reuters]] exclusive (Feb 2):** OpenAI dissatisfied with some [[NVIDIA]] chips, actively seeking alternatives.
+[[Reuters]] exclusive (Feb 2): OpenAI dissatisfied with some [[NVIDIA]] chips, actively seeking alternatives.
 
 | Issue | Detail |
 |-------|--------|
@@ -99,12 +101,12 @@ This is distinct from the [[Project Stargate]] JV, which continues: the Abilene 
 | Need | Faster "time to first token" |
 | Target | ~10% of inference compute from alternatives |
 
-**Chip requirements:**
+Chip requirements:
 - SRAM-heavy architecture (memory embedded on silicon)
 - Traditional GPUs rely on external memory → slower fetch times
 - Inference needs more memory bandwidth than training
 
-**Alternatives explored:**
+Alternatives explored:
 
 | Company | Status |
 |---------|--------|
@@ -112,7 +114,7 @@ This is distinct from the [[Project Stargate]] JV, which continues: the Abilene 
 | [[Cerebras]] | Commercial deal signed (Jan 2026) |
 | [[Groq]] | Talks shut down after [[NVIDIA]] acquisition |
 
-**NVIDIA $100B deal — dead (Mar 2026):**
+NVIDIA $100B deal — dead (Mar 2026):
 The original Sep 2025 deal — $100B investment tied to deployment of 10 GW of NVIDIA systems — collapsed in stages:
 - Nov 2025: NVIDIA quarterly filing disclosed the deal "may not come to fruition"
 - Jan 2026: WSJ reported deal was "on ice"
@@ -125,9 +127,9 @@ The earlier timeline for context:
 - [[Jensen Huang]]: Investment "was never a commitment" (Bloomberg, Feb 2026)
 - Huang: "There's no drama involved" (CNBC Feb 3)
 
-**[[Sam Altman]] response (Feb 2):** Nvidia makes "the best AI chips in the world." OpenAI hopes to remain "gigantic customer for a very long time."
+[[Sam Altman]] response (Feb 2): Nvidia makes "the best AI chips in the world." OpenAI hopes to remain "gigantic customer for a very long time."
 
-**[[NVIDIA]] defensive moves:**
+[[NVIDIA]] defensive moves:
 - Acquired [[Groq]] IP for $20B (Dec 2025)
 - Hired away Groq chip designers
 - Non-exclusive licensing deal — Groq pivoting to cloud software
@@ -142,9 +144,9 @@ Largest private funding round in history. ~90% from strategic investors. First t
 
 | Investor | Amount | Status |
 |----------|--------|--------|
-| [[Amazon]] | Up to **$50B** | In talks |
-| [[SoftBank]] | ~**$30B** | In talks (on top of prior $41B) |
-| [[NVIDIA]] | Up to **$30B** | In talks |
+| [[Amazon]] | Up to $50B | In talks |
+| [[SoftBank]] | ~$30B | In talks (on top of prior $41B) |
+| [[NVIDIA]] | Up to $30B | In talks |
 | [[Microsoft]] | TBD | Expected |
 | VCs + SWFs | TBD | Later tranche |
 

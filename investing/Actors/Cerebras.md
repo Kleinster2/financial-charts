@@ -154,11 +154,9 @@ This is aggressive positioning ahead of GTC, where NVIDIA plans to unveil its [[
 
 ## Apr 17, 2026 — OpenAI commitment expands, IPO revived
 
-[[Reuters]] reported on Apr 17 that OpenAI's commitment to Cerebras-backed compute has expanded from the initially reported $10B+ to more than $20B over the next three years, with total spending potentially reaching $30B. The Information said OpenAI may also provide roughly $1B toward new data-center development and receive warrants that could rise toward a 10% stake in Cerebras if spending scales as planned.
+The renewed US IPO filing and the same-day reporting on the enlarged [[OpenAI]] relationship turned Cerebras from an architecture story into a public-markets underwriting question. The core issue is no longer whether the product is differentiated. It is whether investors are willing to fund a business whose forward demand looks enormous while the disclosed 2025 base was still concentrated in Abu Dhabi-linked customers and GAAP profitability depended on non-operating income.
 
-The same day, Cerebras disclosed its renewed US IPO filing. The filing showed 2025 revenue of $510M, up from $290.3M a year earlier, and $1.38 per share of profit versus a $9.90 per-share loss the year before. [[Reuters]] said the earlier IPO delay followed a CFIUS review tied to [[G42]]'s minority investment, with clearance obtained in 2025.
-
-The strategic implication is straightforward: the OpenAI relationship is no longer a useful pilot. It is the center of the equity story. The IPO is effectively a public-market attempt to capitalize a company whose near-term revenue trajectory is being rewritten by one hyperscale inference customer.
+See [[Cerebras IPO revival April 2026]] for the full event note, including the customer-concentration math, the operating-loss to net-income bridge, and the split between realized 2025 economics and the forward OpenAI story.
 
 ---
 

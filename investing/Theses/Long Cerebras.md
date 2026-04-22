@@ -2,9 +2,9 @@
 
 # Long Cerebras
 
-**Status**: Speculative — strategic scarcity play
-**Created**: 2026-01-02
-**Last reviewed**: 2026-01-02
+Status: Speculative — strategic scarcity play
+Created: 2026-01-02
+Last reviewed: 2026-01-02
 
 ---
 
@@ -24,7 +24,7 @@ After December 2025:
 |-------------|--------|
 | [[Groq]] | NVIDIA partner (licensed) |
 | [[SambaNova]] | [[Intel]] acquired |
-| Cerebras | **Independent** |
+| Cerebras | Independent |
 
 Cerebras is the only remaining option for:
 - Hyperscalers wanting SRAM without NVIDIA
@@ -47,10 +47,10 @@ Cerebras's wafer-scale approach makes NVIDIA integration harder — which may pr
 
 ## Strategic options
 
-1. **IPO** — Already filed (Sep 2024). Public market access.
-2. **Hyperscaler acquisition** — [[Google]], [[Amazon]], [[Microsoft]] need decode.
-3. **NVIDIA deal** — Similar to Groq licensing.
-4. **Sovereign AI focus** — G42 relationship, geopolitics.
+1. IPO — Already filed (Sep 2024). Public market access.
+2. Hyperscaler acquisition — [[Google]], [[Amazon]], [[Microsoft]] need decode.
+3. NVIDIA deal — Similar to Groq licensing.
+4. Sovereign AI focus — G42 relationship, geopolitics.
 
 Any of these creates value realization.
 
@@ -63,8 +63,8 @@ Cerebras's largest customer is [[G42]] (UAE):
 - Sovereign AI positioning
 - Non-US, non-[[China]] option
 
-**Risk**: Customer concentration
-**Opportunity**: Sovereign AI is growing market
+Risk: Customer concentration
+Opportunity: Sovereign AI is growing market
 
 ---
 
@@ -75,6 +75,7 @@ Cerebras's largest customer is [[G42]] (UAE):
 - [ ] NVIDIA licensing deal (Groq-style)
 - [ ] G42 expands relationship
 - [ ] [[Benchmark]] leadership maintained
+- [ ] Forward OpenAI demand converts into recognized revenue without replacing one concentration risk with another
 
 ---
 
@@ -111,9 +112,9 @@ Cerebras's largest customer is [[G42]] (UAE):
 
 ## Link to other theses
 
-**[[Long NVIDIA]]**: Cerebras is the "what if you don't want NVIDIA" option. Both can win.
+[[Long NVIDIA]]: Cerebras is the "what if you don't want NVIDIA" option. Both can win.
 
-**[[Short standalone ASICs]]**: Cerebras survives consolidation because of unique wafer-scale niche.
+[[Short standalone ASICs]]: Cerebras survives consolidation because of unique wafer-scale niche.
 
 ---
 
@@ -123,6 +124,7 @@ Cerebras's largest customer is [[G42]] (UAE):
 |------|-------------|-------------|
 | 2025-12 | NVIDIA licenses Groq | Cerebras = last independent |
 | 2025-12 | [[Intel]] acquires SambaNova | Consolidation accelerating |
+| 2026-04-17 | [[Cerebras IPO revival April 2026]] | IPO revived, but filing exposed concentration and earnings-quality risk alongside the OpenAI upside |
 | 2025-12 | Gavin Baker: "strategic position" | Smart money notices |
 | 2024-09 | IPO filed | Liquidity event approaching |
 
