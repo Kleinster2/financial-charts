@@ -163,6 +163,18 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 
 ---
 
+## Federal uprate push (Apr 21, 2026)
+
+Reuters Events reported that the U.S. Department of Energy's new financing push is targeting 5 GW of additional output from the existing U.S. nuclear fleet by 2029, mainly through uprates and selected restarts rather than greenfield builds. The logic fits this note perfectly: the fastest nuclear megawatt for AI is the one already connected to the grid.
+
+The program matters because it shifts the debate from "can SMRs arrive on time?" to "how much firm power can be squeezed out of the current fleet before 2030?" Reuters said eligible projects could receive up to 80% financing at attractive rates, which makes uprates one of the cheapest ways to add AI-era baseload. That directly benefits incumbent fleet owners such as [[Constellation Energy]] and [[Vistra]], and it strengthens the case that near-term AI power will come from a barbell of existing-reactor uprates plus a smaller number of restart projects, not from a sudden SMR wave.
+
+The durable readthrough is that nuclear-for-AI is no longer only a hyperscaler PPA story. It is now also a federal industrial-policy story aimed at converting legacy nuclear assets into fast, grid-connected compute infrastructure.
+
+*Source: Reuters Events, "US targets 5 GW more nuclear power through low-cost finance" (Apr 21, 2026).*
+
+---
+
 ## Risks
 
 - SMRs may not deliver on cost/timeline

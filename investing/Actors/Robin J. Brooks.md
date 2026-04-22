@@ -9,43 +9,43 @@ tags: [analyst, economics, energy]
 
 # Robin J. Brooks
 
-Senior Fellow at [[Brookings Institution]]. Former Chief Economist at the Institute of International Finance (IIF). Known for data-driven macro analysis using real-time indicators — AIS vessel tracking, capital flows, trade data.
+Senior Fellow at [[Brookings Institution]]. Former Chief Economist at the Institute of International Finance (IIF). Known for data-driven macro analysis using real-time indicators - AIS vessel tracking, capital flows, trade data.
 
 ## Relevant analysis
 
 ### Strait of Hormuz blockade (March 2026)
 
-Published AIS shipping data quantifying the de facto Hormuz blockade during [[2026 Iran conflict market impact|Operation Epic Fury]]. Key insight: Iran's navy is destroyed but the blockade holds because the asymmetric cost of one drone hitting one tanker is enough to freeze all traffic. US insurance and naval escorts are insufficient to restore normal flow. Comparison: Hormuz is ~3x as important for global oil as Russia, yet Brent's rise was still below the Russia 2022 invasion precedent (32% in 10 days) — implying further upside.
+Published AIS shipping data quantifying the de facto Hormuz blockade during [[2026 Iran conflict market impact|Operation Epic Fury]]. Key insight: Iran's navy is destroyed but the blockade holds because the asymmetric cost of one drone hitting one tanker is enough to freeze all traffic. US insurance and naval escorts are insufficient to restore normal flow. Comparison: Hormuz is ~3x as important for global oil as Russia, yet Brent's rise was still below the Russia 2022 invasion precedent (32% in 10 days) - implying further upside.
 
-### "Near the peak" — price elasticity Q&A (March 23)
+### "Near the peak" - price elasticity Q&A (March 23)
 
 Follow-up to a podcast with [[Paul Krugman]]. Comprehensive price comparison of this conflict vs Russia 2022: Brent +64%, Dubai crude +123%, WTI +46%, US gasoline +32%. Key analytical contributions:
 
-1. WTI is the politically decisive benchmark — it's what drives US pump prices, and Iran's strategy targets US domestic support. US energy independence limits Iran's leverage over WTI specifically.
+1. WTI is the politically decisive benchmark - it's what drives US pump prices, and Iran's strategy targets US domestic support. US energy independence limits Iran's leverage over WTI specifically.
 
-2. Near-peak thesis: Strait running ~10M bbl/day below normal. Consensus price elasticity implies 60-70% Brent rise — roughly where the market sits. $150-200 requires full shutdown or much lower elasticity than consensus.
+2. Near-peak thesis: Strait running ~10M bbl/day below normal. Consensus price elasticity implies 60-70% Brent rise - roughly where the market sits. $150-200 requires full shutdown or much lower elasticity than consensus.
 
-3. [[Kharg Island]] paradox: supertankers still loading. Direct 2022 parallel — the West refused to embargo Russian oil, capping prices but prolonging the conflict. Same mixed messages now. Advocates full Iranian oil embargo.
+3. [[Kharg Island]] paradox: supertankers still loading. Direct 2022 parallel - the West refused to embargo Russian oil, capping prices but prolonging the conflict. Same mixed messages now. Advocates full Iranian oil embargo.
 
 4. European gas: TTF spike already exceeds 2022 pace on same timescale. Europe traded Russian pipeline dependency for Gulf LNG dependency.
 
-5. [[Trump TACO]] as additional price cap — market pricing some probability of US de-escalation.
+5. [[Trump TACO]] as additional price cap - market pricing some probability of US de-escalation.
 
 *Source: [Q&A on the Energy Shock](https://robinjbrooks.substack.com/p/q-and-a-on-the-energy-shock), March 23, 2026*
 
-### "Do the Saudis want this war to end?" — Saudi windfall analysis (March 26)
+### "Do the Saudis want this war to end?" - Saudi windfall analysis (March 26)
 
-WSJ reports [[Saudi Arabia]] isn't happy with US peace overtures toward [[Iran]]. Brooks adds an economic explanation: the price-volume tradeoff favors continued conflict. Pre-war Saudi exports of 7 mb/d at $60 Brent = ~$150B/yr. Status quo: ~5 mb/d via [[East-West Pipeline]]/[[Yanbu]] at $110 Brent = ~$200B/yr — a ~$50B windfall (~5% of GDP). Brent would need to fall to $80 for Saudi to break even at reduced volumes. Conclusion: Saudi economic self-interest aligns with prolonged conflict.
+WSJ reports [[Saudi Arabia]] isn't happy with US peace overtures toward [[Iran]]. Brooks adds an economic explanation: the price-volume tradeoff favors continued conflict. Pre-war Saudi exports of 7 mb/d at $60 Brent = ~$150B/yr. Status quo: ~5 mb/d via [[East-West Pipeline]]/[[Yanbu]] at $110 Brent = ~$200B/yr - a ~$50B windfall (~5% of GDP). Brent would need to fall to $80 for Saudi to break even at reduced volumes. Conclusion: Saudi economic self-interest aligns with prolonged conflict.
 
 Vault note: Brooks assumes 5 mb/d via Yanbu, but the [[East-West Pipeline]] note documents a port loading bottleneck at ~3 mb/d (peak 4.65 mb/d). At realistic 4 mb/d, the windfall is smaller (~$10B) but directionally intact.
 
 *Source: [Do the Saudis want this war to end?](https://robinjbrooks.substack.com/p/do-the-saudis-want-this-war-to-end), March 26, 2026*
 
-### "Embargo Iran" — case for full oil blockade (March 29)
+### "Embargo Iran" - case for full oil blockade (March 29)
 
-Argues the [[Trump]] administration is repeating [[Biden]]'s 2022 mistake of pulling punches on oil sanctions. Advocates a full US naval blockade of all ship traffic in and out of Iran's ports — given US Navy superiority, no shots needed. Iran's economy (~15% of GDP from oil/gas exports) would implode overnight.
+Argues the [[Donald Trump|Trump]] administration is repeating [[Joe Biden|Biden]]'s 2022 mistake of pulling punches on oil sanctions. Advocates a full US naval blockade of all ship traffic in and out of Iran's ports - given US Navy superiority, no shots needed. Iran's economy (~15% of GDP from oil/gas exports) would implode overnight.
 
-Key point: Iran's oil exports have *risen* during the crisis (per WSJ) while the [[Strait of Hormuz]] is closed to everyone else — Iran is exploiting the very supply shock it created. India is clamoring for oil while Iranian tankers operate freely.
+Key point: Iran's oil exports have *risen* during the crisis (per WSJ) while the [[Strait of Hormuz]] is closed to everyone else - Iran is exploiting the very supply shock it created. India is clamoring for oil while Iranian tankers operate freely.
 
 Brooks: *"it's really hard to fight a war when your economy is imploding"* and *"In global geopolitics, as in economics, there's no free lunch."*
 
@@ -53,31 +53,31 @@ Brooks: *"it's really hard to fight a war when your economy is imploding"* and *
 
 ### "Pros and Cons of an Iran Oil Embargo" (March 30)
 
-Follow-up quantifying the embargo tradeoff. Key finding: with Brent at $110 and the [[Persian Gulf]] already running ~10M bbl/day below normal, the existing deficit maps to a 67% rise in Brent at consensus price elasticity (0.15). Adding a full Iranian embargo (removing Iran's 2M bbl/day) pushes the rise to 80% — an incremental impact of only ~13pp. The $150-200 scenarios require either full shutdown or much lower elasticity than consensus.
+Follow-up quantifying the embargo tradeoff. Key finding: with Brent at $110 and the [[Persian Gulf]] already running ~10M bbl/day below normal, the existing deficit maps to a 67% rise in Brent at consensus price elasticity (0.15). Adding a full Iranian embargo (removing Iran's 2M bbl/day) pushes the rise to 80% - an incremental impact of only ~13pp. The $150-200 scenarios require either full shutdown or much lower elasticity than consensus.
 
-Pros: (1) clear signal vs 2022 mixed messaging, (2) non-violent alternative to bombing power plants or taking [[Kharg Island]], (3) non-escalatory (Iran is already de facto embargoing Hormuz traffic), (4) leverage over [[China]] (biggest buyer of Iranian oil — builds trade negotiation leverage on rare earths).
+Pros: (1) clear signal vs 2022 mixed messaging, (2) non-violent alternative to bombing power plants or taking [[Kharg Island]], (3) non-escalatory (Iran is already de facto embargoing Hormuz traffic), (4) leverage over [[China]] (biggest buyer of Iranian oil - builds trade negotiation leverage on rare earths).
 
-Cons: (1) moderate further oil spike (67% → 80%), (2) Iran's economy may not immediately implode, (3) US financial market accident risk — *"We have a lot of skeletons in the closet, from the basis trade to private credit"*, (4) [[Ukraine]] Baltic curveball (drone attacks on [[Russia]]'s Ust-Luga oil hub could add further supply disruption).
+Cons: (1) moderate further oil spike (67% → 80%), (2) Iran's economy may not immediately implode, (3) US financial market accident risk - *"We have a lot of skeletons in the closet, from the basis trade to private credit"*, (4) [[Ukraine]] Baltic curveball (drone attacks on [[Russia]]'s Ust-Luga oil hub could add further supply disruption).
 
-Charts: oil price impact visualization (two red dots showing 67% vs 80% Brent rise); Iran economic structure (current account surplus, energy exports, import costs — all go to zero under embargo).
+Charts: oil price impact visualization (two red dots showing 67% vs 80% Brent rise); Iran economic structure (current account surplus, energy exports, import costs - all go to zero under embargo).
 
 *Source: [Pros and Cons of an Iran Oil Embargo](https://robinjbrooks.substack.com/p/pros-and-cons-of-an-iran-oil-embargo), March 30, 2026*
 
 ### "How Much Does an Embargo Spike Oil?" (March 31)
 
-Quantitative complement to the March 30 pros/cons piece. An oil embargo removing Iran's 2 mb/d from global markets spikes Brent by ~$10/bbl at standard elasticity assumptions — modest relative to the existing disruption already priced in.
+Quantitative complement to the March 30 pros/cons piece. An oil embargo removing Iran's 2 mb/d from global markets spikes Brent by ~$10/bbl at standard elasticity assumptions - modest relative to the existing disruption already priced in.
 
 *Source: [How Much Does an Embargo Spike Oil?](https://robinjbrooks.substack.com/p/how-much-does-an-embargo-spike-oil), March 31, 2026*
 
-### Turkey crisis — reserve depletion and Lira pressure (March 30)
+### Turkey crisis - reserve depletion and Lira pressure (March 30)
 
 Two companion posts on [[Turkey]]'s vulnerability to the Iran oil shock.
 
-*Turkey Falls Back into Crisis:* The Lira is under severe depreciation pressure. [[Turkey]]'s central bank sold/swapped 50 tons of gold (~$8B) in the month since the war (Feb 27 – Mar 27). Official FX reserves rose only ~$5B after adjusting for FX valuation effects — meaning intervention is consuming reserves faster than gold sales replenish them. Scale rivals the March 2025 crisis (arrest of [[Ekrem Imamoglu]]). Brooks: *"Only very large FX intervention has stopped the Lira from tumbling — that can't last"* and *"the government will end up capitulating."*
+*Turkey Falls Back into Crisis:* The Lira is under severe depreciation pressure. [[Turkey]]'s central bank sold/swapped 50 tons of gold (~$8B) in the month since the war (Feb 27 - Mar 27). Official FX reserves rose only ~$5B after adjusting for FX valuation effects - meaning intervention is consuming reserves faster than gold sales replenish them. Scale rivals the March 2025 crisis (arrest of [[Ekrem Imamoglu]]). Brooks: *"Only very large FX intervention has stopped the Lira from tumbling - that can't last"* and *"the government will end up capitulating."*
 
-Chart finding: Turkish Lira outperformed [[BRL]] and Chilean Peso over Feb 27 – Mar 27 — counterintuitive for a commodity importer, explained only by massive intervention.
+Chart finding: Turkish Lira outperformed [[Brazilian real|BRL]] and Chilean Peso over Feb 27 - Mar 27 - counterintuitive for a commodity importer, explained only by massive intervention.
 
-*Turkey's Huge External Imbalance:* Structural backdrop. December 2025 "core" trade deficit (ex-gold, ex-energy) wider than pre-August 2018 BoP sudden stop. [[Erdogan]]'s political cycle of credit-fueled overheating means Turkey is perpetually vulnerable to external shocks. *"This kind of import spike always ends the same way for Turkey: Lira devaluation."*
+*Turkey's Huge External Imbalance:* Structural backdrop. December 2025 "core" trade deficit (ex-gold, ex-energy) wider than pre-August 2018 BoP sudden stop. [[Recep Tayyip Erdogan|Erdogan]]'s political cycle of credit-fueled overheating means Turkey is perpetually vulnerable to external shocks. *"This kind of import spike always ends the same way for Turkey: Lira devaluation."*
 
 *Sources: [Turkey Falls Back into Crisis](https://robinjbrooks.substack.com/p/turkey-falls-back-into-crisis), [Turkey's Huge External Imbalance](https://robinjbrooks.substack.com/p/turkeys-huge-external-imbalance), March 30, 2026*
 
@@ -91,13 +91,13 @@ The analytical point is consistent with Brooks' earlier Turkey work but cleaner 
 
 ### "What happened to 'Sell America?'" (Apr 6)
 
-Argues the [[Sell America trade]] never existed: foreign portfolio inflows into [[Treasuries]], corporate debt, and equities are at 25-year highs (TIC data through Jan 2026). Flows into corporate debt and equities are typically unhedged — maintaining implicit dollar exposure — which also debunks the "Hedge America" narrative.
+Argues the [[Sell America trade]] never existed: foreign portfolio inflows into [[Treasuries]], corporate debt, and equities are at 25-year highs (TIC data through Jan 2026). Flows into corporate debt and equities are typically unhedged - maintaining implicit dollar exposure - which also debunks the "Hedge America" narrative.
 
 Despite no capital flight, forecasts 10% trade-weighted dollar decline this year. The mechanism: [[Federal Reserve]] politicization will maintain rate cuts despite rising inflation, suppressing nominal yields and depressing real yields. Parallel: 2010-2013 post-QE regime, when strong economic data coincided with dollar weakness because the Fed was capping rates.
 
 Supporting evidence: Friday's strong NFP (+178K vs 59K consensus) produced flat dollar performance rather than the appreciation that historical payrolls-surprise/dollar correlations would predict. Markets are trading a regime shift where strong US data weakens rather than strengthens the currency.
 
-Two charts: (1) TIC net foreign flows into US equities, corporate debt, agency debt, Treasury notes/bonds — all positive, 25-year highs; (2) payrolls surprise vs dollar move scatter showing the correlation breakdown.
+Two charts: (1) TIC net foreign flows into US equities, corporate debt, agency debt, Treasury notes/bonds - all positive, 25-year highs; (2) payrolls surprise vs dollar move scatter showing the correlation breakdown.
 
 *Source: [What happened to 'Sell America?'](https://robinjbrooks.substack.com/p/what-happened-to-sell-america), April 6, 2026*
 
@@ -117,7 +117,7 @@ Two charts: (1) TIC net foreign flows into US equities, corporate debt, agency d
 
 ### "The Goal of the Iran Blockade" (Apr 13)
 
-Following Trump's Apr 12 blockade announcement, Brooks re-states his long-standing embargo advocacy in strategic terms. Characterizes Iran as "a gas station masquerading as a country" — same rhetorical framing he previously applied to Russia. The blockade's purpose is not military but economic: eliminate hard currency inflows, force currency collapse and hyperinflation, bring leadership to genuine negotiation. Oil-price calculation: removing Iran's ~2 mb/d raises Brent to ~$123/bbl, which Brooks considers manageable. Frames the shift from kinetic conflict to economic coercion as a strategic upgrade.
+Following Trump's Apr 12 blockade announcement, Brooks re-states his long-standing embargo advocacy in strategic terms. Characterizes Iran as "a gas station masquerading as a country" - same rhetorical framing he previously applied to Russia. The blockade's purpose is not military but economic: eliminate hard currency inflows, force currency collapse and hyperinflation, bring leadership to genuine negotiation. Oil-price calculation: removing Iran's ~2 mb/d raises Brent to ~$123/bbl, which Brooks considers manageable. Frames the shift from kinetic conflict to economic coercion as a strategic upgrade.
 
 Commenter pushback covers international-law status, evidence Iranian negotiators were already engaged, and the Russia-Ukraine disanalogy. Brooks stays on the economic-mechanism argument.
 
@@ -132,7 +132,7 @@ The single most actionable macro call Brooks has published on the Iran conflict.
 | Brent premium | ~40% above pre-war level |
 | Historical precedent | IMF/WB meetings flipped Treasury yields (Oct 2023) and gold (Oct 2025) when a single issue captivated investors |
 | Strategy shift read | US moving from kinetic to economic coercion (the blockade itself) signals negotiation phase |
-| Blockade price risk | "unlikely to spike oil prices to any material degree" — Brooks is his own source on this (via Mar 30 and Apr 13 pieces) |
+| Blockade price risk | "unlikely to spike oil prices to any material degree" - Brooks is his own source on this (via Mar 30 and Apr 13 pieces) |
 | Expected direction | "plenty of room for oil prices to fall" |
 
 No explicit price targets, but the argument implies Brent retracing toward $70-80 if the war premium unwinds fully. Positioning implication: oil short/rotation into non-oil risk (equities, EM FX) may be the pair trade for the back half of April. Risk: if the Washington meetings don't produce visible de-escalation signals, the premium sticks.
@@ -159,31 +159,51 @@ UN Comtrade data mapping 10 Asian economies' Gulf oil dependency. Persian Gulf d
 
 | Country | Oil imports (% GDP) | Gulf share (%) | Vulnerability |
 |---------|-------------------|----------------|---------------|
-| [[Indonesia]] | ~0.5% | ~20% | Low — diversified |
-| [[Philippines]] | ~0.7% | ~97% | Extreme — near-total Gulf dependency |
-| [[China]] | ~1.0% | ~60% | Moderate — scale matters |
-| [[Pakistan]] | ~1.7% | ~99% | Extreme — total dependency, high GDP share |
-| [[Japan]] | ~2.0% | ~93% | Severe — near-total, significant GDP share |
+| [[Indonesia]] | ~0.5% | ~20% | Low - diversified |
+| [[Philippines]] | ~0.7% | ~97% | Extreme - near-total Gulf dependency |
+| [[China]] | ~1.0% | ~60% | Moderate - scale matters |
+| [[Pakistan]] | ~1.7% | ~99% | Extreme - total dependency, high GDP share |
+| [[Japan]] | ~2.0% | ~93% | Severe - near-total, significant GDP share |
 | [[Malaysia]] | ~2.8% | ~70% | High |
-| [[India]] | ~3.2% | ~49% | Moderate — most diversified large importer |
-| [[South Korea]] | ~4.5% | ~72% | Severe — high on both dimensions |
+| [[India]] | ~3.2% | ~49% | Moderate - most diversified large importer |
+| [[South Korea]] | ~4.5% | ~72% | Severe - high on both dimensions |
 | [[Singapore]] | ~5.0% | ~55% | High GDP exposure, moderate Gulf share |
 | [[Thailand]] | ~6.3% | ~62% | Highest GDP exposure, moderate Gulf share |
 
-Caveats: (1) transshipment understates true Gulf dependency, (2) crude only — refined products excluded, (3) first Comtrade analysis (self-flagged error risk).
+Caveats: (1) transshipment understates true Gulf dependency, (2) crude only - refined products excluded, (3) first Comtrade analysis (self-flagged error risk).
 
 Upper-right quadrant (high exposure + high Gulf share) = worst-hit: [[Japan]], [[South Korea]], [[Pakistan]]. [[Thailand]] has highest GDP exposure but more diversification options. [[Indonesia]] least exposed on both dimensions.
 
 *Source: [Asia's Dependence on Oil from the Persian Gulf](https://robinjbrooks.substack.com/p/asias-dependence-on-oil-from-the), April 5, 2026*
 
+### "How big is this shock really?" (Apr 21)
+
+Brooks pushed back against apocalyptic oil commentary by looking at March [[S&P Global]] manufacturing surveys. His argument: a truly large energy shock should already show up in supplier delivery times and input/output price pressure across the [[United States]], [[United Kingdom]], Europe, and [[Japan]]. In the March data, it barely does.
+
+This is an important counterweight inside the vault because Brooks is not denying the physical disruption. He is saying the macro transmission into industrial price-setting had still not fully shown up in March survey data, which means either the shock is smaller than the narrative suggests, the transmission is slower, or the real test sits in April flash PMIs rather than in backward-looking March prints. That is a cleaner way to frame the debate than simply choosing between "worst crisis ever" and "nothing burger."
+
+The implication is that oil-market stress and macro stress are no longer the same trade. A severe shipping and insurance disruption can coexist with a much more muted immediate manufacturing readthrough, at least until inventory buffers and pricing resets get exhausted.
+
+*Source: [How big is this shock really?](https://robinjbrooks.substack.com/p/how-big-is-this-shock-really), April 21, 2026*
+
+### "Are high UK yields good or bad?" (Apr 22)
+
+Brooks argued that high long-end [[United Kingdom]] government-bond yields are not automatically a sign of dysfunction. His core claim is that the UK stands out partly because [[Japan]] and the euro area suppress long yields more aggressively through central-bank balance sheets and market interventions. In that framing, gilt yields are acting as a cleaner price-discovery mechanism for fiscal risk rather than as a simple crisis signal.
+
+The point matters because it shifts the UK's problem from "markets are broken" to "markets are forcing an unpleasant but visible fiscal adjustment." Brooks' comparative claim is that hiding the problem with yield caps is worse than letting the price clear and dealing with the politics.
+
+This is useful as a cross-asset readthrough: high yields can still hurt growth and funding conditions, but they also convey information. The bullish version of the Brooks argument is that transparency now may reduce the scale of the later adjustment.
+
+*Source: [Are high UK yields good or bad?](https://robinjbrooks.substack.com/p/are-high-uk-yields-good-or-bad), April 22, 2026*
+
 ## Related
 
 - [[2026 Iran conflict market impact]]
 - [[Strait of Hormuz]]
-- [[Iran conflict war duration]] — Saudi windfall section
+- [[Iran conflict war duration]] - Saudi windfall section
 - [[Iran conflict oil price timeline]]
-- [[East-West Pipeline]] — Yanbu bypass economics
+- [[East-West Pipeline]] - Yanbu bypass economics
 - [[Saudi Arabia]]
 
 ### Cross-vault
-- [Geopolitics: Robin J. Brooks](obsidian://open?vault=geopolitics&file=Analysts%2FRobin%20J.%20Brooks) — macro/energy analysis profile
+- [Geopolitics: Robin J. Brooks](obsidian://open?vault=geopolitics&file=Analysts%2FRobin%20J.%20Brooks) - macro/energy analysis profile

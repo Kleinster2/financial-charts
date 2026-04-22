@@ -67,6 +67,9 @@ This note covers Intel as a company. For the foundry business specifically, see 
 
 *Source: Company filings. Stock price = year-end close. 2024 massive loss from restructuring charges.*
 
+![[intel-fundamentals-chart.png]]
+*Revenue and net income history from fundamentals database.*
+
 ### Income Statement Flow (Sankey)
 
 ![[intc-sankey-chart.png]]
@@ -340,6 +343,15 @@ Apr 2026: raising >$6B in new debt to finance Fab 34 buyback from [[Apollo]] —
 ![[intc-employees-chart.png]]
 *Headcount: 85,100 (2025) — down 21.9% YoY*
 
+## Reuters preview before Q1 2026 results (Apr 21, 2026)
+
+Reuters framed the setup around a tension the stock is now living on: AI demand is real, but Intel still has to prove it can physically supply enough server CPUs and enough 18A yield to convert that demand into durable margins. Consensus going into the print was for Q1 revenue of $12.42B (-1.9% YoY) and a near-90% drop in adjusted EPS, with the data-center and AI segment expected to grow 6.8% to $4.41B.
+
+The important point is that Intel is no longer being judged only on turnaround rhetoric. The market now has a concrete readthrough chain: can Intel ease the server-chip supply constraints it flagged for Q1, can 18A yields improve fast enough to support both its own roadmap and outside foundry ambition, and can the [[Google]] and [[TERAFAB]] tie-ups translate into real volume rather than symbolic validation.
+
+That makes the quarter less about the headline revenue number and more about whether Intel is turning AI adjacency into manufacturing credibility. If the company shows supply normalization and better 18A output, the bull case shifts from "Intel might matter again" to "Intel can actually participate in the AI buildout." If not, the stock goes back to being a financing-heavy turnaround with real optionality but weak delivery.
+
+*Source: Reuters, "Intel results to show if supply chain issues are dimming its AI ambitions" (Apr 21, 2026).*
 
 ## Quick stats
 
@@ -370,6 +382,10 @@ Apr 2026: raising >$6B in new debt to finance Fab 34 buyback from [[Apollo]] —
 
 ## Related
 
+### Securities
+- [[Intel securities]] — equity-market note
+
+### Business and ecosystem
 - [[Intel Foundry Services]] — own foundry subsidiary
 - [[Intel Capital]] — strategic VC arm (AI chips, edge AI)
 - [[NVIDIA]] — partner ($5B investment, Jan 2026), competitor (AI/GPU)

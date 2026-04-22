@@ -78,6 +78,18 @@ Beyond oil: sulfur (for sulfuric acid → global mining), [[Taiwan]] electricity
 
 ---
 
+## Apr 21 newsletter readthrough - "Brazil Blinks"
+
+Felipe Germini's newsletter is useful because it pushes the March trilemma forward from theoretical windfall into lost-strategic-opportunity territory. His core claim is that the Hormuz shock briefly gave [[Brazil]] a chance to lock in its role as a swing Atlantic supplier to Asian refiners just as pre-salt production hit 4.1 million barrels per day and Chinese buyers took 57% of Brazilian crude exports in Q1. In that framing, the problem was not geology or market access. It was state intervention.
+
+That sharpens the existing [[Petrobras]] dilemma. The more Brasília leans on Petrobras to smooth domestic politics, the less it can convert a temporary price spike into durable export relationships, freight corridors, and commercial credibility with Asian buyers. The opportunity cost is not only lower near-term cash generation. It is weaker positioning in the next global supply disruption.
+
+The durable readthrough is that Brazil's oil problem is not just pass-through versus inflation. It is whether a state-controlled champion can behave like a reliable exporter at the exact moment global buyers most want reliability.
+
+*Source: ENERGY Pipeline, "Brazil Blinks" (Apr 21, 2026).*
+
+---
+
 ## Tail scenario: rapid resolution
 
 If the conflict ends quickly and [[Iran]] re-enters the market at full capacity, panelists expect oil to plunge "with much more force than it rose" — potentially below pre-crisis levels (~$65-70). This would:

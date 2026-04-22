@@ -3,7 +3,7 @@ aliases: [D.R. Horton, DHI]
 ---
 #actor #housing #homebuilder #usa #public
 
-**DR Horton** — Largest US homebuilder by volume. Entry-level focus. Texas-based.
+DR Horton — Largest US homebuilder by volume. Entry-level focus. Texas-based.
 
 ---
 
@@ -37,9 +37,29 @@ America's biggest homebuilder:
 
 ---
 
+## Financials
+
+![[dr-horton-price-chart.png]]
+*Share-price history.*
+
+![[dr-horton-fundamentals-chart.png]]
+*Revenue and net income history from the fundamentals database.*
+
+![[dr-horton-sankey.png]]
+*Latest annual income-statement flow.*
+
+| Metric | Value | Period |
+|--------|-------|--------|
+| FY24 closings | ~90,000 | FY2024 |
+| Q2 FY2026 revenue | $7.56B | Apr 2026 print |
+| Q2 FY2026 net income | $647.9M | Apr 2026 print |
+| Quarter-end liquidity | $6.0B | Q2 FY2026 |
+
+---
+
 ## Business model
 
-**Entry-level focus:**
+Entry-level focus:
 - Affordable price points
 - First-time buyers
 - High volume, lower margin
@@ -61,7 +81,7 @@ America's biggest homebuilder:
 
 ## Geographic footprint
 
-**Sunbelt focus:**
+Sunbelt focus:
 - Texas (largest)
 - Florida
 - Arizona
@@ -76,7 +96,7 @@ Follows population migration trends.
 
 | Builder | FY24 Closings | Segment |
 |---------|---------------|---------|
-| **DR Horton** | ~90,000 | Entry-level |
+| DR Horton | ~90,000 | Entry-level |
 | [[Lennar]] | ~80,000 | Diversified |
 | [[PulteGroup]] | ~30,000 | Move-up |
 | [[Toll Brothers]] | ~10,000 | [[Luxury]] |
@@ -85,7 +105,7 @@ Follows population migration trends.
 
 ## Rate sensitivity
 
-**[[Mortgage rates]] = key driver:**
+[[Mortgage rates]] = key driver:
 - Entry-level buyers most rate-sensitive
 - Rate buydowns used to drive sales
 - Higher rates = affordability squeeze
@@ -124,16 +144,28 @@ The important nuance is that affordability constraints and cautious consumer sen
 
 ---
 
+## Q2 FY2026 earnings follow-through (Apr 21, 2026)
+
+Reuters' cleanest contribution was not the headline beat. It was the margin framing. Horton narrowed full-year revenue guidance to $33.5B-$34.5B, still above consensus at the midpoint, while reiterating that affordability constraints, cautious consumer sentiment, and elevated incentives are still defining the market. Q2 revenue fell to $7.56B, net income to $647.9M, and the company explicitly said incentives should stay high through fiscal 2026.
+
+That explains why the stock could rally even as profits fell. In this tape, investors care more about whether entry-level demand is holding together and whether builders can defend volumes without blowing up the balance sheet. Horton showed decent orders, disciplined inventory, and a guide that was cut less than feared. The market read that as resilience, not growth.
+
+The durable readthrough is that the homebuilders are still living inside a margin squeeze, but the best-positioned operators can keep winning share if they have enough scale to subsidize affordability.
+
+*Source: Reuters, "D.R. Horton beats annual revenue forecast estimates despite tepid home sales" (Apr 21, 2026).*
+
+---
+
 ## Investment case
 
-**Bull:**
+Bull:
 - Largest scale = cost advantages
 - [[Housing shortage]] structural
 - Entry-level demand strong
 - Rate cuts = tailwind
 - [[Sunbelt migration]]
 
-**Bear:**
+Bear:
 - Rate sensitivity
 - Affordability stretched
 - Land cost inflation
@@ -157,6 +189,10 @@ The important nuance is that affordability constraints and cautious consumer sen
 
 ## Related
 
+### Securities
+- [[DR Horton securities]] — equity-market note
+
+### Business and ecosystem
 - [[Housing]] — sector hub
 - [[Lennar]] — peer (\#2 builder)
 - [[PulteGroup]] — peer (move-up)

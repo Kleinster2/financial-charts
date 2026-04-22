@@ -60,6 +60,18 @@ Bernstein fills the domestic-political read that the oil analysts leave open. If
 
 ---
 
+## Apr 21, 2026 - tariff refunds and the consumer bill
+
+Bernstein's Apr 21 post picks up the tariff story at the domestic balance-sheet level. His point is not only that the IEEPA tariff push was legally shaky. It is that the refund scramble converts trade coercion into a direct fiscal and consumer mess: the government loses revenue it cannot keep, businesses spend time and money clawing it back, and the end result still lands on American households through higher prices and administrative chaos.
+
+The useful readthrough versus the oil and trade specialists is that Bernstein keeps asking who ultimately absorbs the cost. His answer, again, is the U.S. consumer. That makes him a good domestic counterpart to [[Robin J. Brooks]] and the supply-chain analysts, who focus more on external balances, flows, and price formation than on the political economy of who eats the bill.
+
+If the tariff regime keeps drifting between maximal rhetoric and messy unwind, Bernstein's framework suggests the real legacy will be not strategic clarity but a transfer of pain onto importers and households.
+
+*Source: [Once Again, Consumers End Up Losing Out On Trump's Tariffs](https://econjared.substack.com/p/once-again-consumers-end-up-losing), econjared.substack.com, April 21, 2026*
+
+---
+
 ## Related
 
 - [[Council of Economic Advisers]] — the institution Bernstein chaired

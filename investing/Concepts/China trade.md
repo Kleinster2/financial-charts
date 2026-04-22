@@ -46,6 +46,18 @@ This is why [[US-China commodity leverage]] belongs inside the broader [[China t
 
 ---
 
+## Tariff drift and refund unwind (Apr 21, 2026)
+
+Reuters' Apr 21 piece is useful because it reframes the current U.S. stance less as a coherent escalation ladder and more as policy drift. Trump's second-term China push began with tariff rates around 145%, but Reuters argues the policy has since zigzagged: companies added to a military blacklist and then removed, AI semiconductor sales to [[China]] restricted and then loosened, and a presidential trip to Beijing looming without a clear Plan B if tariffs fail to change Chinese behavior.
+
+That matters for this hub because it shows a recurring feature of trade weaponization: the instrument only works if the state using it can tolerate its own feedback loops. The tariff-refund scramble now forcing Washington to unwind illegally collected duties turns a coercive tool into a fiscal and administrative mess at home. [[China]] can then present itself as the steadier actor even when the original shock came from Washington.
+
+The readthrough is not that tariffs no longer matter. It is that trade coercion without policy discipline degrades into noise, and noise still changes flows. Firms delay commitments, rerouting grows, and the bargaining position of both sides becomes shaped by administrative confusion as much as by headline tariff rates.
+
+*Sources: Reuters, "With tariffs stalled, Trump's China policy drifts" (Apr 21, 2026); Jared Bernstein, "Once Again, Consumers End Up Losing Out On Trump's Tariffs" (Apr 21, 2026).*
+
+---
+
 ## Practical readthrough
 
 A good test for whether something belongs here is: does it tell us something about how [[China]] uses trade, absorbs trade shocks, redirects trade flows, or changes the bargaining position of counterparties?

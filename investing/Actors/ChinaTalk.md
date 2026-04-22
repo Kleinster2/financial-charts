@@ -21,6 +21,36 @@ Hybrid think tank and media outlet focused on [[China]], emerging technology, an
 
 ---
 
+## Leadership
+
+| Role | Name |
+|------|------|
+| Founder / editor | [[Jordan Schneider]] |
+| Contributor | [[Matt Sheehan]] |
+
+ChinaTalk is centered on Schneider's editorial network rather than on a large disclosed corporate management structure.
+
+---
+
+## Cap table / funding history
+
+| Holder | Ownership / funding |
+|--------|---------------------|
+| [[Jordan Schneider]] | Founder-controlled private outlet |
+| Outside investors | No public institutional funding disclosed |
+
+ChinaTalk appears to be a founder-led private media property rather than a venture-funded platform.
+
+---
+
+## Funding rounds
+
+| Round | Date | Amount | Notes |
+|-------|------|--------|-------|
+| Bootstrapped / self-funded | c. 2018 | Undisclosed | No public external funding round disclosed |
+
+---
+
 ## Coverage
 
 - [[China]] industrial policy and economic strategy
@@ -33,6 +63,16 @@ Hybrid think tank and media outlet focused on [[China]], emerging technology, an
 ## Contributors
 
 In addition to [[Jordan Schneider]], ChinaTalk features regular contributions from [[Matt Sheehan]] (China AI governance) and other specialists. Matt Sheehan also publishes a separate, personal [[Substack]] with overlapping but distinct coverage.
+
+---
+
+## Apr 20, 2026 - "Fixing the GaN Problem"
+
+ChinaTalk published a strong piece arguing that U.S. semiconductor reshoring policy has overfocused on leading-edge logic and underweighted gallium-based compound semiconductors. The article's core claim is that GaN matters across power electronics, radar, AI infrastructure, robotics, and defense, while [[China]] controls 99% of refined gallium production.
+
+The important readthrough for this note is editorial positioning: ChinaTalk is at its best when it bridges industrial policy and supply-chain details rather than repeating generic [[US-China tech race]] rhetoric. This piece fits that pattern and makes ChinaTalk a recurring source for the less glamorous but strategically critical layer of the chip stack.
+
+*Source: ChinaTalk, "The U.S. Should Fix Its GaN Problem" (Apr 20, 2026).*
 
 ---
 

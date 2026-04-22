@@ -72,6 +72,18 @@ See [[China retaliatory toolkit]], [[Export controls]].
 
 ---
 
+## Apr 20 ChinaTalk - the GaN bottleneck
+
+ChinaTalk's GaN piece is a good reminder that the gallium issue is not only a raw-material story. The strategic question is whether the [[United States]] rebuilds the downstream compound-semiconductor stack before the next export squeeze. Gallium is a byproduct of aluminum, but the real choke point sits in the refined material plus the manufacturing ecosystem that turns it into GaN devices for power electronics, RF, data-center efficiency, radar, robotics, and missiles.
+
+The article's strongest point is that Washington has spent years focusing on leading-edge logic while treating compound semiconductors as a side chapter. That is a mistake. If [[China]] already controls 99% of refined gallium, then the risk is not just higher input prices. It is that a small materials dependency can bottleneck multiple strategic industries at once, especially [[Defense]] and AI infrastructure power conversion.
+
+The readthrough is simple: gallium should be tracked less like a niche mineral and more like enabling infrastructure for the broader power-electronics and RF stack.
+
+*Source: ChinaTalk, "The U.S. Should Fix Its GaN Problem" (Apr 20, 2026).*
+
+---
+
 ## Economic impact
 
 US Geological Survey estimates:
