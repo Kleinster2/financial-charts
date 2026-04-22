@@ -48,6 +48,18 @@ Investors will have to look through the combined losses to the thesis: Starlink 
 
 ---
 
+## Cursor option deal (Apr 21, 2026)
+
+Reuters reported on Apr 21 that [[SpaceX]] secured the right later in 2026 either to acquire [[Cursor]] / [[Anysphere]] for $60B or to pay $10B for their joint work on a next-generation coding and knowledge-work AI product. If the reported structure holds, it gives bankers a cleaner answer to the question of what the post-[[xAI]] [[SpaceX]] actually is: not just launch + satellites + compute, but potentially a direct software control point in the developer workflow.
+
+This does not fix the core P&L issue created by xAI's burn. But it broadens the multiple story. Instead of asking public investors to value only infrastructure optionality, [[SpaceX]] can also point to a leading AI-coding interface with real enterprise adoption. In other words, the IPO pitch shifts one step closer to a full-stack [[Sovereign AI stack]] with distribution at the application layer, not only at the model, compute, and network layers.
+
+The key caveat is structure. This was reported as a partnership plus later control option, not a closed acquisition. That distinction matters for accounting, governance, and how much of the software upside can actually be sold into the IPO valuation today.
+
+See [[SpaceX Cursor partnership and acquisition option April 2026]].
+
+---
+
 ## Index inclusion — structural rule changes
 
 The SpaceX IPO triggered both [[Nasdaq]] and [[S&P Dow Jones Indices]] to rewrite their index inclusion rules. At $1.75T, SpaceX would be larger than all but five S&P 500 companies — [[Nvidia]], [[Apple]], [[Microsoft]], [[Amazon]], [[Alphabet]] — and bigger than both [[Meta]] and [[Tesla]].
@@ -211,23 +223,23 @@ Ark Invest sees $2.5T+ by 2030 if Starlink and space AI scale.
 
 *Data from All-In Podcast Episode 222, April 3, 2026*
 
-**Revenue scale:** $15-16B total revenue (2025), with $8B profit (Reuters). [[Starlink]] generating ~$20B/yr (~50-80% of total revenue). Launch business ~$5B (2024).
+Revenue scale: $15-16B total revenue (2025), with $8B profit (Reuters). [[Starlink]] generating ~$20B/yr (~50-80% of total revenue). Launch business ~$5B (2024).
 
-**xAI acquisition:** $250B deal included X/Twitter + xAI LLM infrastructure.
+xAI acquisition: $250B deal included X/Twitter + xAI LLM infrastructure.
 
-**Global ranking:** IPO at $1.75T would make SpaceX the 8th largest company globally, behind [[TSMC]] and [[Saudi Aramco]]. Combined Tesla+SpaceX = $3.1T market cap = #4 globally, ahead of [[Microsoft]].
+Global ranking: IPO at $1.75T would make SpaceX the 8th largest company globally, behind [[TSMC]] and [[Saudi Aramco]]. Combined Tesla+SpaceX = $3.1T market cap = #4 globally, ahead of [[Microsoft]].
 
-**Tesla-SpaceX merger thesis:** [[Chamath Palihapitiya|Chamath]]: "99.999% probability Tesla-SpaceX eventually merge." Public mark-to-market validation simplifies governance complexity. "Once they're both public, the governance structure becomes much simpler."
+Tesla-SpaceX merger thesis: [[Chamath Palihapitiya|Chamath]]: "99.999% probability Tesla-SpaceX eventually merge." Public mark-to-market validation simplifies governance complexity. "Once they're both public, the governance structure becomes much simpler."
 
-**"Thanksgiving dinner" theory:** Chamath: first major IPO gets the best investor appetite. "It's like Thanksgiving dinner — the first course gets the most attention." Risk increases for later entrants as appetite diminishes.
+"Thanksgiving dinner" theory: Chamath: first major IPO gets the best investor appetite. "It's like Thanksgiving dinner — the first course gets the most attention." Risk increases for later entrants as appetite diminishes.
 
-**Polymarket IPO odds:** SpaceX 94%, [[Anthropic]] 41% (down from 70% in February), [[OpenAI]] 38%, [[Databricks]] 32%.
+Polymarket IPO odds: SpaceX 94%, [[Anthropic]] 41% (down from 70% in February), [[OpenAI]] 38%, [[Databricks]] 32%.
 
-**[[Vast Space]] partnership:** Jed McCaleb (Ripple founder) designing modular space stations with pre-booked SpaceX transportation. Space station commercial market development.
+[[Vast Space]] partnership: Jed McCaleb (Ripple founder) designing modular space stations with pre-booked SpaceX transportation. Space station commercial market development.
 
-**Moon mining infrastructure:** [[David Friedberg|Freeberg]]: mass drivers (electric rail systems, 100g acceleration, parachute landing) with robotic factories. 500 sq meters solar panels power 4km mass driver. Theoretical throughput: one ton every 10-15 minutes.
+Moon mining infrastructure: [[David Friedberg|Freeberg]]: mass drivers (electric rail systems, 100g acceleration, parachute landing) with robotic factories. 500 sq meters solar panels power 4km mass driver. Theoretical throughput: one ton every 10-15 minutes.
 
-**Artemis 2 milestone:** Moon orbit mission launched with crew of 4, validating lunar infrastructure roadmap.
+Artemis 2 milestone: Moon orbit mission launched with crew of 4, validating lunar infrastructure roadmap.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 aliases: [Grok, Macrohard]
 ---
-#actor #ai #hyperscaler
+#actor #ai #hyperscaler #private
 
 **xAI** — Elon Musk's AI company (Grok). Now a SpaceX subsidiary after Feb 2026 acquisition. Building massive GPU clusters. Macrohard project to simulate Microsoft with AI.
 
@@ -385,6 +385,14 @@ See [[Lunar Mass Driver]] for full concept analysis. See [[SpaceX xAI merger]] f
 xAI's coding product has failed to gain traction against [[Anthropic]]'s [[Claude Code]] and [[OpenAI]]'s Codex. Musk identified training data quality as the key issue (FT, Mar 14 2026). [[Zihang Dai]], the most senior technical staff member, had publicly acknowledged xAI was behind on coding before departing. [[Guodong Zhang]], who ran Grok pre-training, was blamed for the data quality problems and relieved of duties.
 
 Cursor poach (Mar 2026): xAI hired [[Andrew Milich]] and [[Jason Ginsberg]] from [[Cursor]] to improve Grok Code Fast. Musk welcomed them on X, adding: "Orbital space centres and mass drivers on the Moon will be incredible."
+
+### SpaceX-Cursor option (Apr 21, 2026)
+
+The reported [[SpaceX]]-[[Cursor]] agreement is effectively a second answer to xAI's coding weakness. If Grok Code Fast cannot win developers organically fast enough, SpaceX can pair Cursor's existing distribution with [[Colossus]] compute and potentially buy the whole surface later in 2026 for $60B. The alternative payment, $10B for the joint work, is large enough that this reads less like ordinary vendor spend and more like a staged acquisition structure.
+
+For xAI, the strategic point is obvious: own the interface where expert developers already spend time, reduce long-term dependence on model access from [[Anthropic]] and [[OpenAI]], and present public investors with a fuller vertical stack ahead of [[SpaceX IPO 2026]].
+
+See [[SpaceX Cursor partnership and acquisition option April 2026]].
 
 ---
 

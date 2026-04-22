@@ -59,6 +59,16 @@ See **[[SpaceX IPO 2026]]** for full deal structure, index rule changes (Nasdaq 
 
 ---
 
+## Cursor partnership and acquisition option (Apr 21, 2026)
+
+[[SpaceX]] disclosed a strategic partnership with [[Cursor]] / [[Anysphere]] to build a next-generation coding and knowledge-work AI product, plus a pre-agreed choice later in 2026: acquire Cursor for $60B or pay $10B for the joint work. The structure matters because it is not a closed acquisition yet. It is a partnership now with an embedded control option later.
+
+Why it matters: this gives [[xAI]] a shortcut into developer distribution and a credible coding front end at the exact moment SpaceX is trying to sell public investors on a full-stack [[Sovereign AI stack|sovereign AI]] story. It also deepens an existing relationship. In March, xAI had already hired [[Andrew Milich]] and [[Jason Ginsberg]] away from [[Cursor]], and TechCrunch reported Cursor was shifting serious model-training workload onto [[Colossus]].
+
+See [[SpaceX Cursor partnership and acquisition option April 2026]] for full terms and competitive implications.
+
+---
+
 ## xAI acquisition (Feb 2, 2026)
 
 SpaceX acquired xAI — deal closed:

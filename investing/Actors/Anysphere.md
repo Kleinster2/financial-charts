@@ -1,5 +1,5 @@
 ---
-aliases: [[[Cursor]]]
+aliases: [Anysphere AI]
 ---
 #actor #ai #coding #usa #private
 
@@ -23,7 +23,7 @@ aliases: [[[Cursor]]]
 
 ## Growth trajectory
 
-**Unprecedented revenue growth:**
+Unprecedented revenue growth:
 
 | Date | ARR |
 |------|-----|
@@ -44,9 +44,9 @@ Bloomberg: "Fastest-growing software startup of all time."
 | Series B | 2024 | $60M | — |
 | Series C | June 2025 | $900M | $9.9B |
 | Series D | Nov 2025 | $2.3B | $29.3B |
-| **Total** | | **$3.4B** | |
+| Total | | $3.4B | |
 
-**Key investors:**
+Key investors:
 
 | Investor | Notes |
 |----------|-------|
@@ -59,20 +59,20 @@ Bloomberg: "Fastest-growing software startup of all time."
 | [[Daniel Gross]] | Early |
 | [[Nat Friedman]] | Early |
 
-**Total raised:** $3.4B
+Total raised: $3.4B
 
 ---
 
 ## Product
 
-**[[Cursor]] IDE:**
+[[Cursor]] IDE:
 - Fork of VS Code
 - AI-native code generation
 - Edit, review, generate code
 - Natural language interaction
 - Context-aware completions
 
-**Why developers switched:**
+Why developers switched:
 - Better AI integration than Copilot
 - Faster iteration
 - Agent-like capabilities
@@ -87,7 +87,7 @@ Bloomberg: "Fastest-growing software startup of all time."
 | Jul 2025 | Koala (talent) | — | Enterprise talent acqui-hire |
 | Dec 2025 | Graphite | >"$290M" | Code review, stacked PRs |
 
-**Graphite (Dec 2025):**
+Graphite (Dec 2025):
 - Code review startup, $52M Series B at $290M valuation earlier in 2025
 - Customers: [[Shopify]], [[Snowflake]], [[Figma]], [[Perplexity]] (500+ companies)
 - Key feature: "stacked pull requests" — work on dependent changes without waiting for approvals
@@ -100,7 +100,7 @@ Bloomberg: "Fastest-growing software startup of all time."
 
 | Product | Company | Position |
 |---------|---------|----------|
-| **[[Cursor]]** | Anysphere | Leader, $1B ARR |
+| [[Cursor]] | Anysphere | Leader, $1B ARR |
 | GitHub Copilot | [[Microsoft]] | Incumbent, market share eroding |
 | Windsurf | [[Cognition]] (acquired) | Integrated with Devin |
 | Devin | [[Cognition]] | AI agent, different approach |
@@ -109,7 +109,7 @@ Bloomberg: "Fastest-growing software startup of all time."
 
 ## OpenAI acquisition attempt
 
-**Deal failed (2025):**
+Deal failed (2025):
 - OpenAI approached Anysphere
 - Acquisition discussions
 - Failed to gain traction
@@ -119,9 +119,19 @@ Bloomberg: "Fastest-growing software startup of all time."
 
 ---
 
+## SpaceX partnership and acquisition option (Apr 21, 2026)
+
+[[SpaceX]] disclosed a strategic partnership with [[Cursor]] / [[Anysphere]] plus a later-2026 option to buy the company for $60B or pay $10B for the work together. This came just as private-market reporting pointed to [[Anysphere]] exploring a new round near $50B, meaning SpaceX appears to be trying to lock in the asset before another mark-up.
+
+Strategically, the arrangement gives [[Anysphere]] a compute partner with enormous ambition and gives [[xAI]] a shortcut into the most important AI-coding distribution surface. The trade-off is neutrality. The more deeply Anysphere is tied to the Musk stack, the harder it becomes to present [[Cursor]] as a model-agnostic editor sitting above [[Anthropic]] and [[OpenAI]].
+
+See [[SpaceX Cursor partnership and acquisition option April 2026]].
+
+---
+
 ## Semiconductor relevance
 
-**Indirect but significant:**
+Indirect but significant:
 - [[Cursor]] uses cloud AI (Anthropic [[Claude]], OpenAI)
 - More AI coding = more inference demand
 - Developer productivity = more software = more compute
@@ -130,14 +140,14 @@ Bloomberg: "Fastest-growing software startup of all time."
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Fastest growth ever
 - Eating Copilot share
 - Developer love
 - Massive TAM (all developers)
 - AI coding inevitable
 
-**Bear:**
+Bear:
 - $29.3B valuation = priced for perfection
 - Microsoft can iterate Copilot
 - Commoditization risk

@@ -1,9 +1,9 @@
 ---
-aliases: [[[Anysphere]], Cursor AI]
+aliases: [Cursor AI]
 ---
 #actor #ai #usa #private
 
-**Cursor** — AI-powered code editor by [[Anysphere]]. **$29.3B valuation** (Nov 2025). **$1B ARR** in 24 months — fastest-scaling [[SaaS]] ever. Founded by four MIT dropouts, all now billionaires. Competes with [[GitHub Copilot]].
+**Cursor** — AI-powered code editor by [[Anysphere]]. $29.3B valuation (Nov 2025). $1B ARR in 24 months — fastest-scaling [[SaaS]] ever. Founded by four MIT dropouts, all now billionaires. Competes with [[GitHub Copilot]].
 
 ---
 
@@ -11,15 +11,15 @@ aliases: [[[Anysphere]], Cursor AI]
 
 | Metric | Value |
 |--------|-------|
-| Valuation | **$29.3B** (Nov 2025) |
+| Valuation | $29.3B (Nov 2025) |
 | Total raised | ~$2.6B |
-| ARR | **$1B+** |
-| Time to $1B ARR | **24 months** |
+| ARR | $1B+ |
+| Time to $1B ARR | 24 months |
 | Employees | 250+ |
 | Founded | 2022 |
 | HQ | San Francisco + New York |
 
-**Fastest B2B scaling ever.** Enterprise revenue grew 100x in 2025.
+Fastest B2B scaling ever. Enterprise revenue grew 100x in 2025.
 
 ---
 
@@ -27,12 +27,12 @@ aliases: [[[Anysphere]], Cursor AI]
 
 | Round | Date | Amount | Valuation | Lead |
 |-------|------|--------|-----------|------|
-| Series D | Nov 2025 | $2.3B | **$29.3B** | [[Accel]], [[Coatue]] |
+| Series D | Nov 2025 | $2.3B | $29.3B | [[Accel]], [[Coatue]] |
 | Series C | Jun 2025 | — | $9.9B | — |
 | Series B | Dec 2024 | $105M | $2.5B | — |
 | Series A | Aug 2024 | $60M | $400M | — |
 
-**3 years:** $400M → $29.3B (73x valuation growth).
+3 years: $400M → $29.3B (73x valuation growth).
 
 ---
 
@@ -54,33 +54,33 @@ aliases: [[[Anysphere]], Cursor AI]
 
 | Person | Role | Background |
 |--------|------|------------|
-| **Michael Truell** | CEO | MIT CS '21 (dropped out) |
+| Michael Truell | CEO | MIT CS '21 (dropped out) |
 | Sualeh Asif | Co-founder | MIT CS '22 (dropped out) |
 | Arvid Lunnemark | Co-founder | MIT CS '22 (dropped out) |
 | Aman Sanger | Co-founder | MIT CS '22 (dropped out) |
 
-All four are now **billionaires** (mid-20s). Met at MIT, left to found [[Anysphere]] in 2022.
+All four are now billionaires (mid-20s). Met at MIT, left to found [[Anysphere]] in 2022.
 
-**Background:** MIT CSAIL research, Google internships, OpenAI accelerator.
+Background: MIT CSAIL research, Google internships, OpenAI accelerator.
 
 ---
 
 ## Product
 
-**Cursor** — VS Code fork with deep AI integration.
+Cursor — VS Code fork with deep AI integration.
 
 | Feature | Description |
 |---------|-------------|
-| **Composer** | Agentic coding model |
-| **Tab completion** | Context-aware suggestions |
-| **Chat** | Codebase-aware Q&A |
-| **Multi-model** | OpenAI, Anthropic, Google, [[xAI]] |
+| Composer | Agentic coding model |
+| Tab completion | Context-aware suggestions |
+| Chat | Codebase-aware Q&A |
+| Multi-model | OpenAI, Anthropic, Google, [[xAI]] |
 
-**Philosophy:** AI should be the foundation of development, not just an assistant.
+Philosophy: AI should be the foundation of development, not just an assistant.
 
 ### Continual learning edge
 
-Cursor updates Composer model weights **every 90 minutes** based on real-world user feedback. This is the closest thing to production [[Continual learning]] happening today — the model improves in near-real-time from how developers actually use it.
+Cursor updates Composer model weights every 90 minutes based on real-world user feedback. This is the closest thing to production [[Continual learning]] happening today — the model improves in near-real-time from how developers actually use it.
 
 ---
 
@@ -114,20 +114,35 @@ Cursor updates Composer model weights **every 90 minutes** based on real-world u
 | [[Claude Code]] | GUI, familiar UX | Less terminal power |
 | Windsurf | First-mover, scale | Similar features |
 
-**Thesis:** Developers want AI-native editors, not plugins on legacy tools.
+Thesis: Developers want AI-native editors, not plugins on legacy tools.
+
+---
+
+## SpaceX partnership and acquisition option (Apr 21, 2026)
+
+[[SpaceX]] disclosed a deal with [[Cursor]] / [[Anysphere]] to build a next-generation coding and knowledge-work AI product, with the right later in 2026 either to buy the company for $60B or pay $10B for the joint work. That reset the debate from "fastest-growing AI coding startup" to "who controls the developer interface."
+
+Why it matters:
+- gives [[Cursor]] access to far more compute through [[xAI]] and [[Colossus]]
+- potentially preempts a fresh private round reportedly being marketed near $50B
+- raises the neutrality question, because Cursor's appeal partly comes from routing across leading models rather than belonging to one stack
+
+Cursor still relies heavily on models from [[Anthropic]] and [[OpenAI]]. If it gets pulled deeper into the Musk ecosystem, the product can gain compute and distribution while losing some of the model-agnostic posture that made it valuable in the first place.
+
+See [[SpaceX Cursor partnership and acquisition option April 2026]].
 
 ---
 
 ## Investment implications
 
-**Private company** — not directly investable.
+Private company — not directly investable.
 
-**Indirect exposure:**
+Indirect exposure:
 - [[NVIDIA]] — investor + GPU supplier
 - [[Google]] — investor
 - [[Accel]] portfolio companies
 
-**Watch for:**
+Watch for:
 - IPO (likely 2026-2027 given scale)
 - Competition from [[Microsoft]] (Copilot) and [[Anthropic]] ([[Claude]] Code)
 - Enterprise penetration metrics
