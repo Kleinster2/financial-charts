@@ -98,11 +98,11 @@ At frontier scale, storage becomes THE limiting factor, not compute.
 | Company | Positioning |
 |---------|-------------|
 | [[Pure Storage]] | Enterprise incumbent, NVIDIA certified |
-| VAST Data | AI-native architecture |
+| [[VAST Data]] | AI-native architecture |
 | Weka | GPU-direct optimized |
 | DDN | HPC heritage |
 
-VAST Data is useful here as the cleanest private expression of the thesis. If GPU hours are scarce and expensive, storage stops being a commodity box and starts looking like a utilization lever. VAST's relevance is that it sells architecture, not just capacity, which is why it shows up in AI-cluster discussions far more than in ordinary enterprise-storage comparisons.
+[[VAST Data]] is useful here as the cleanest private expression of the thesis. If GPU hours are scarce and expensive, storage stops being a commodity box and starts looking like a utilization lever. VAST's relevance is that it sells architecture, not just capacity, which is why it shows up in AI-cluster discussions far more than in ordinary enterprise-storage comparisons.
 
 ### Adjacent beneficiaries
 
@@ -158,7 +158,7 @@ VAST Data is useful here as the cleanest private expression of the thesis. If GP
 
 ### Actors
 - [[Pure Storage]] — incumbent leader
-- VAST Data — AI-native challenger
+- [[VAST Data]] — AI-native challenger
 - Weka — GPU-direct specialist
 - [[NVIDIA]] — GPU maker, certification authority
 

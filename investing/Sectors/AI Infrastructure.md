@@ -140,7 +140,7 @@ Total hyperscaler capex approaching $300B annually.
 
 | Sub-sector | Key players | Sister concept |
 |------------|-------------|----------------|
-| **[[AI Storage]]** | [[Pure Storage]], VAST Data, Weka, NetApp | [[AI storage bottleneck]] |
+| **[[AI Storage]]** | [[Pure Storage]], [[VAST Data]], Weka, NetApp | [[AI storage bottleneck]] |
 | **AI Networking** | Arista, Cisco, Broadcom | — |
 | **Data Center Cooling** | Vertiv, Modine, Schneider | [[Water constraints]] |
 | **Data Center Power** | Eaton, Schneider, utilities | [[Power constraints]] |

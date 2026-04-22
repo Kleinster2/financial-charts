@@ -33,7 +33,7 @@
 
 | Company | Status | Valuation | Differentiation |
 |---------|--------|-----------|-----------------|
-| **VAST Data** | Private | $9B → $25-30B | Software-only, exabyte-scale |
+| **[[VAST Data]]** | Private | $9B → $25-30B | Software-only, exabyte-scale |
 | **Weka** | Private | $1.6B | WekaFS, GPU-direct |
 | **DDN** | Private | — | HPC heritage, Lustre |
 | **Hammerspace** | Private | — | Global data orchestration |
@@ -42,7 +42,7 @@
 
 ## Key players deep dive
 
-### VAST Data
+### [[VAST Data]]
 
 | Metric | Value |
 |--------|-------|
@@ -56,7 +56,7 @@
 
 **Positioning:** Software-only, single-namespace at exabyte scale. "Fastest-selling data infrastructure startup in history."
 
-VAST Data is the private company that best expresses the AI-native storage challenge to incumbents. The real issue is not just flash performance. It is whether storage designed around very large GPU clusters and a unified namespace can take share from the enterprise stacks that still sell trust, channel depth, and certification. That is why VAST keeps surfacing next to [[Pure Storage]] and Weka rather than as a generic startup mention.
+VAST Data is the private company that best expresses the AI-native storage challenge to incumbents. The real issue is not just flash performance. It is whether storage designed around very large GPU clusters and a unified namespace can take share from the enterprise stacks that still sell trust, channel depth, and certification. That is why [[VAST Data]] keeps surfacing next to [[Pure Storage]] and Weka rather than as a generic startup mention.
 
 ### Weka
 
@@ -155,7 +155,7 @@ See sister concept: [[AI storage bottleneck]]
 - Dell — DELL, $95B
 
 ### Actors (private)
-- VAST Data — $9B → $25-30B
+- [[VAST Data]] — $9B → $25-30B
 - Weka — $1.6B
 - DDN — private
 

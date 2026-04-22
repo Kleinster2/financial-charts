@@ -26,7 +26,7 @@
 | **Interconnect** | Chip-to-chip data movement | NVIDIA (NVLink), [[Broadcom]], [[Lightmatter]] |
 | **Memory** | [[HBM]] for prefill, SRAM for decode | [[SK Hynix]], [[Samsung]], [[Micron]] |
 | **Networking** | Rack-to-rack | NVIDIA, [[Arista Networks]] |
-| **Storage** | Context caching | WEKA, VAST Data |
+| **Storage** | Context caching | WEKA, [[VAST Data]] |
 | **Cooling** | Thermal management | [[Vertiv]], [[Modine Manufacturing]] |
 
 ---
