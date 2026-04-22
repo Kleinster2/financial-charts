@@ -83,6 +83,22 @@ GE repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one
 
 ---
 
+## Apr 2026: GE Aerospace runs into the fuel-shock debate
+
+The stock sold off on Apr. 21, 2026 even though the quarter itself was strong. The issue was not execution, it was the macro assumption embedded in the forward view.
+
+| Metric | Value |
+|--------|-------|
+| Q1 2026 adjusted EPS | $1.86 |
+| LSEG consensus before print | $1.60 |
+| 2026 adjusted EPS guide | $7.10-$7.40 |
+| Flight-departure assumption | Flat to low-single-digit growth |
+| Prior flight-growth assumption | Mid-single-digit growth |
+
+Management said it still expected to hit the high end of its 2026 profit range, but only after building in elevated Brent prices through Q3, tighter fuel availability, and slower global growth following the Iran war. In other words, GE Aerospace would likely have raised guidance absent the energy shock.
+
+The durable readthrough is that the installed-base services model remains sticky. Airlines may trim capacity at the margin, but maintenance demand does not disappear quickly, and Boeing/Airbus delivery delays keep older fleets flying longer. The market punished the stock because it wanted a cleaner beat-and-raise from one of the clearest aerospace winners.
+
 ## Investment case
 
 **Bull:**

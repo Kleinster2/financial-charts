@@ -29,6 +29,14 @@ Sharma (FT, Apr 6, 2026) argued the [[Iran]]-Hormuz oil shock differs from prede
 
 ---
 
+## "The return of the e-merging markets" (Apr 20, 2026)
+
+Sharma argued that the EM comeback in 2026 is being led by the markets embedded in the AI hardware stack, not only by the usual weaker-dollar or carry logic. His crisp formulation was that [[South Korea]] and [[Taiwan]] are the "biggest beneficiaries of the AI wave". The readthrough is that EMs now offer a second way to express the AI buildout: not through US platform companies, but through the Asian memory and foundry complex that supplies them.
+
+This was a continuation, not a reversal, of his earlier 2026 view that global leadership was broadening away from the crowded US trade. The new twist is narrower and more concrete. The EM bid is not uniform across the asset class. It is strongest where capital can buy direct earnings exposure to AI infrastructure, and weaker where markets remain more exposed to oil, currencies, or domestic macro strain.
+
+---
+
 ## Related
 
 - [[Rockefeller International]] — firm

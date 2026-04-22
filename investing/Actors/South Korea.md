@@ -1,6 +1,11 @@
+---
+aliases: [Republic of Korea, Korea, ROK]
+---
 #actor #country #asia #developed #semiconductors #memory
 
 **South Korea** — Semiconductor superpower. [[Samsung]] and [[SK Hynix]] dominate global memory, especially HBM for AI.
+
+Critical US ally and export powerhouse whose listed market is dominated by semiconductors, autos, shipbuilding, and chaebol governance dynamics.
 
 ---
 
@@ -31,7 +36,7 @@
 | Company | Revenue | Operating profit | Margin |
 |---------|---------|------------------|--------|
 | [[Samsung]] | 333.6T won (record) | 43.6T won (+33% YoY) | 13% |
-| [[SK Hynix]] | 97T won (record) | 47T won (record) | **49%** |
+| [[SK Hynix]] | 97T won (record) | 47T won (record) | 49% |
 
 SK Hynix: Most profitable semiconductor company globally in 2025.
 
@@ -127,29 +132,49 @@ South Korea is simultaneously scrambling to replace lost [[Qatar]]i [[LNG]] ship
 
 ---
 
+## April 2026, EM allocators rediscover Korea through AI
+
+The April 2026 EM rerating turned [[South Korea]] into more than a generic cyclical market. Ruchir Sharma's FT column called [[South Korea]] and [[Taiwan]] the "biggest beneficiaries of the AI wave", which is a useful description of how global allocators are now seeing Korea. The country gives EM portfolios direct listed exposure to the memory side of the AI buildout via [[SK Hynix]] and [[Samsung]], so Korea can absorb flows from investors who want AI earnings leverage outside the US megacaps.
+
+Reuters' Feb 20 flow report showed [[South Korea]] was the largest single-country destination for US-domiciled EM equity inflows early in 2026. That helps explain why the later [[Kospi]] rebound should not be read only as relief from the [[2026 Iran conflict market impact|Iran war]] drawdown. Korea was being re-rated as one of the few large EMs with direct AI infrastructure earnings exposure, not merely as a cheap export market.
+
+The earnings bridge matters. Reuters reported on Apr 8 that Samsung's blowout preliminary profit had already lifted expectations for [[SK Hynix]]'s January-March results later that month, with analysts revising memory-profit expectations higher as DRAM and NAND pricing strengthened. This is why the Korea trade still looks like an earnings story, not just a factor rotation.
+
+## Market proxy
+
+![[south-korea-price-chart.png]]
+
+*[[EWY]] as a liquid proxy for Korea risk, Jan 5, 2026 to Apr 21, 2026. Source: charting API / market_data.db.*
+
+| Proxy | Start | Start close | End | End close | Return |
+|-------|-------|-------------|-----|-----------|--------|
+| [[EWY]] | 2026-01-05 | 104.83 | 2026-04-21 | 146.79 | +40.0% |
+
+---
+
 ## Related
 
-**Companies:**
+Companies:
 - [[Samsung]] — Memory + foundry + electronics
 - [[SK Hynix]] — Pure memory, HBM leader
 - [[Hyundai]] — Automotive, robotics (Boston Dynamics)
 
-**Concepts:**
+Concepts:
 - [[Chaebol]] — family conglomerate governance; Korea discount driver
 - [[HBM]] — High bandwidth memory
 - [[Memory supercycle]] — AI-driven demand
 - [[Semiconductor nationalism]] — Government investment
 - [[Iran conflict semiconductor energy risk]] — LNG shortage impact on Korean fabs
 
-**Policy:**
+Policy:
 - [[Lee Jae Myung]] — president; KOSPI 5,000 via chaebol governance reform
 
-**Peers:**
+Peers:
 - [[Taiwan]] — Foundry rival
 - [[Japan]] — Equipment, materials
 - [[China]] — Emerging competitor
 
-**People & sources:**
+People & sources:
 - [[Nadia Martin Wiggen]] — [[Stellen Capital]], energy/commodities analyst
 
 ---

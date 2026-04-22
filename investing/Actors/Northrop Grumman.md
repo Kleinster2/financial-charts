@@ -81,6 +81,22 @@ See [[Trump defense budget]] for full context.
 
 ---
 
+## Q1 2026: strong demand, conservative guidance
+
+Northrop's Apr. 21, 2026 quarter showed the defense backdrop is still supportive, but the stock sold off because investors wanted a beat-and-raise, not just solid execution.
+
+| Metric | Value |
+|--------|-------|
+| Q1 2026 revenue | $9.88B (+4.4% YoY) |
+| Q1 2026 EPS | $6.14 (vs $3.32 last year) |
+| Aeronautics sales growth | +17% |
+| Defense systems organic sales growth | +10% |
+| 2026 sales guide | $43.5B-$44.0B (unchanged) |
+
+The demand drivers were familiar: B-21 work, tactical motors, and Sentinel ramp. In February the company also agreed with the U.S. Air Force to expand B-21 production capacity by 25%, with the first aircraft still due in 2027.
+
+The market's problem was not weak results. It was that management kept the full-year sales range unchanged even after a strong quarter, while [[RTX]] raised its outlook the same day. That left the print reading as operationally solid but not bullish enough for a defense name that had already been repriced for a war-heavy backdrop.
+
 ## Investment case
 
 **Bull:**

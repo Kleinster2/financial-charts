@@ -22,6 +22,21 @@ tags: [actor, retail, grocery, uk, public]
 
 ---
 
+## Apr 2026: Iran-war-clouded outlook
+
+Tesco's Apr. 16, 2026 results were good enough on the backward look, but management widened the forward range because the Iran war could still hit British households through fuel and consumer-spending pressure.
+
+| Metric | Value |
+|--------|-------|
+| FY2025/26 adjusted operating profit | GBP 3.152B (+0.6% YoY) |
+| FY2026/27 profit guide | GBP 3.0B-3.3B |
+| Pre-update consensus | GBP 3.23B |
+| UK grocery share | ~28% |
+| New buyback | GBP 750M |
+| Cost-savings target (FY2026/27) | GBP 500M |
+
+The key readthrough is that Tesco is not yet flagging supply-chain disruption or food shortages. The issue is macro transmission: if the conflict keeps fuel prices high, the pressure shows up through consumer budgets first. Management still said it had not seen meaningful changes in customer behaviour or supplier availability at the time of the update.
+
 ## Related
 
 - [[3i Group]] — context: European retailer US expansion discussion

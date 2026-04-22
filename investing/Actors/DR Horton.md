@@ -102,6 +102,28 @@ Stock dipped slightly on Trump's institutional homebuying ban announcement:
 
 ---
 
+## Q2 FY2026: orders held up better than profits
+
+D.R. Horton reported a softer year-over-year profit quarter on Apr. 21, 2026, but the stock rallied because the operating details were better than the headline decline suggested.
+
+| Metric | Value |
+|--------|-------|
+| Q2 FY2026 revenue | $7.6B |
+| Net income | $647.9M |
+| Diluted EPS | $2.24 |
+| Pre-tax income | $867.4M |
+| Pre-tax margin | 11.5% |
+| Homes closed | 19,486 |
+| Net sales orders | 24,992 homes (+11% YoY) |
+| Order value | $9.2B |
+| Debt / total capital | 21.7% |
+| Quarter-end liquidity | $6.0B |
+| Q2 shareholder returns | $903.6M buybacks + $129.7M dividends |
+
+The important nuance is that affordability constraints and cautious consumer sentiment are still real, so incentive spend remains elevated. But Horton cut unsold completed homes by 35% year over year, kept leverage low, and returned about $1.0B to shareholders in the quarter. That mix, strong orders plus inventory discipline plus buybacks, is what the market rewarded.
+
+---
+
 ## Investment case
 
 **Bull:**
