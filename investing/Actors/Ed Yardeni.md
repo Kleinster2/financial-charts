@@ -135,6 +135,16 @@ This matters because it shifts his thesis from defensive bottom-calling to a mor
 
 ---
 
+## Apr 2026 - melt-up risk becomes a Fed-credibility call
+
+In a new interview, Yardeni argued that the bigger near-term equity risk is not a recessionary collapse but a speculative melt-up driven by a loss of confidence in Federal Reserve independence. His worry is that politically pressured rate cuts could inflate valuations even if the economy does not need them, recreating a late-1990s-style dynamic where easier money drives multiples first and leaves the eventual cleanup for later.
+
+This matters because it is a different warning from his March Iran-war meltdown framing. The concern is not just oil, growth, or geopolitics. It is that policy credibility itself becomes the input that distorts equity pricing. In that setup, a strong tape is not automatically bullish confirmation, it can also be evidence that the market is discounting a looser Fed before the macro data justify it.
+
+*Source: Morningstar, "Why Yardeni Says He's Worried About an S&P 500 'Melt-Up'" (Apr 2026).*
+
+---
+
 ## AI fatigue call (Jan 2026)
 
 "I call it 'AI fatigue.' I'm tired of it and I suspect a lot of other people are wary of the whole issue."

@@ -76,6 +76,16 @@ The important readthrough for this note is editorial positioning: ChinaTalk is a
 
 ---
 
+## Apr 22, 2026 - "All In On Fusion"
+
+ChinaTalk's Apr. 22 fusion piece widened its China-tech coverage beyond semiconductors and AI into the state-backed science stack. The article's core point is that China's fusion push is no longer only a lab story. It now spans SOE capital, long-cycle materials work, and startup-style iteration around high-temperature superconducting tokamaks.
+
+The specifics matter. China Fusion Energy Co. launched with roughly $2.1B of pledged capital from major state-owned enterprises, while adjacent Chinese programs are producing longer plasma runs, stronger superconducting magnet claims, and new reactor-material advances. The useful readthrough for the vault is editorial: ChinaTalk remains strongest when it maps industrial policy into the less glamorous but strategically decisive layers of the technology stack, and fusion now looks like one of those layers.
+
+*Source: ChinaTalk, "All In On Fusion" (Apr 22, 2026).*
+
+---
+
 ## Related
 
 - [[Jordan Schneider]] — founder and editor-in-chief

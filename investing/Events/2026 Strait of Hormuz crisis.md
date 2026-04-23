@@ -164,6 +164,21 @@ The watch-list item on Asian GDP revisions is no longer hypothetical. The IMF's 
 
 That matters because the Apr 20 ship seizure shifts the debate back toward duration risk. A short, messy reopening is still compatible with the IMF base case. Repeated maritime seizures and retaliation threats are not. The macro damage channels are confirmed; the unresolved variable is how long this renewed enforcement phase lasts.
 
+## Apr 21-22 corporate earnings confirm transmission into software, tobacco, and airlines
+
+The Apr. 21-22 earnings cycle is the cleanest proof yet that the Hormuz shock is no longer just an oil chart or shipping story. It is now showing up in guidance, deal timing, and cost recovery across sectors that sit far downstream from crude itself.
+
+| Company | Date | Reported transmission channel | Readthrough |
+|---------|------|-------------------------------|-------------|
+| [[United Airlines]] | Apr 21 | Q2 fuel assumption of about $4.30 per gallon, with only 40%-50% of the spike recoverable through fares in Q2 | Airline demand held up, but the cost shock still hit margins immediately and only partially reprices through to customers |
+| [[ServiceNow]] | Apr 22 | About 75 basis points of subscription-revenue headwind from delayed closures of large government deals in the Middle East | The conflict is delaying enterprise-software bookings, not just pushing energy prices around |
+| [[IBM]] | Apr 22 | Management said IBM had its strongest Middle East growth in decades and could absorb closure of the strait for another few weeks | Corporate exposure is no longer hypothetical, but a diversified service and software mix can cushion it for a time |
+| [[Philip Morris]] | Apr 22 | Full-year guide included a small Middle East conflict impact | Even a consumer-staples company with strong smoke-free growth is forced to haircut the outlook for regional disruption |
+
+Two things matter. First, the shock is expressing differently by business model. Airlines feel it through jet fuel immediately, enterprise software through delayed deal closures, and globally diversified consumer names through smaller but still explicit guide trims. Second, the timing mismatch remains intact. Markets can price reopening headlines quickly, but budgeting cycles, procurement approvals, and fare recovery normalize more slowly than crude futures.
+
+This is exactly the downstream pattern the note has been flagging: once a chokepoint shock persists long enough, it leaks from physical barrels into revenue timing, working-capital assumptions, and corporate guidance discipline.
+
 ## Quantitative impact
 
 | Metric | Pre-crisis | Peak disruption | As of early April |

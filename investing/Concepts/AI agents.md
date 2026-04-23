@@ -11,7 +11,7 @@ Autonomous AI systems that can execute multi-step tasks, use tools, and interact
 | Aspect | Description |
 |--------|-------------|
 | Core idea | AI that takes actions, not just generates text |
-| Key capability | Tool use, planning, execution loops |
+| Key capability | [[Tool use]], planning, execution loops |
 | Distinction | Chatbot answers questions; agent completes tasks |
 
 ---
@@ -22,7 +22,7 @@ Autonomous AI systems that can execute multi-step tasks, use tools, and interact
 |---------|-------------|---------|
 | ReAct | Reasoning + Acting loop | Chain-of-thought with tool calls |
 | Function calling | LLM invokes structured APIs | OpenAI function calling |
-| Multi-agent | Multiple specialized agents collaborate | AutoGen, CrewAI |
+| Multi-agent | Multiple specialized agents collaborate | [[AutoGen]], [[CrewAI]] |
 | Orchestrator | Central planner delegates to sub-agents | Devin (Cognition) |
 
 ---
@@ -32,12 +32,12 @@ Autonomous AI systems that can execute multi-step tasks, use tools, and interact
 | Company | Agent product | Focus |
 |---------|---------------|-------|
 | [[Anthropic]] | [[Claude]] computer use | General-purpose |
-| [[OpenAI]] | GPT-4 + tools, Operator | General-purpose |
+| [[OpenAI]] | [[GPT]]-4 + tools, Operator | General-purpose |
 | [[Cognition]] | Devin | Software engineering |
 | [[Adept]] | ACT-1 | Enterprise workflows |
 | [[Google]] | [[Gemini]] + extensions | [[Consumer]]/enterprise |
-| [[Microsoft]] | Copilot agents | M365 integration |
-| [[Salesforce]] | Agentforce | CRM automation |
+| [[Microsoft]] | [[Copilot]] agents | M365 integration |
+| [[Salesforce]] | [[Agentforce]] | CRM automation |
 | [[ServiceNow]] | AI agents | IT workflows |
 
 ---
@@ -46,12 +46,12 @@ Autonomous AI systems that can execute multi-step tasks, use tools, and interact
 
 | Sector | Use case | Players |
 |--------|----------|---------|
-| **[[Cybersecurity]]** | SOC automation, triage | [[Torq]], Tines |
-| **Software dev** | Coding, debugging | [[Cognition]], [[Cursor]], Replit |
-| **Sales** | Outbound, qualification | 11x, Artisan |
-| **Customer support** | Ticket resolution | Intercom, Zendesk AI |
-| **Data analysis** | Query, report generation | [[Databricks]], [[Glean]] |
-| **Legal** | Document review, research | [[Harvey]], Casetext |
+| **[[Cybersecurity]]** | SOC automation, triage | [[Torq]], [[Tines]] |
+| Software dev | Coding, debugging | [[Cognition]], [[Cursor]], [[Replit]] |
+| Sales | Outbound, qualification | 11x, Artisan |
+| Customer support | Ticket resolution | [[Intercom]], [[Zendesk]] AI |
+| Data analysis | Query, report generation | [[Databricks]], [[Glean]] |
+| Legal | Document review, research | [[Harvey]], Casetext |
 
 ---
 
@@ -59,7 +59,7 @@ Autonomous AI systems that can execute multi-step tasks, use tools, and interact
 
 | Thesis | Rationale |
 |--------|-----------|
-| Infrastructure picks | LLM providers, cloud (compute demand) |
+| [[Infrastructure]] picks | LLM providers, cloud (compute demand) |
 | Vertical [[SaaS]] disruption | Agents replace workflows, not just assist |
 | Labor automation | Knowledge work more exposed than expected |
 | Security concerns | Agents with credentials = new attack surface |
@@ -77,9 +77,19 @@ Autonomous AI systems that can execute multi-step tasks, use tools, and interact
 
 ---
 
+## Apr 2026 - agents become the cloud monetization surface
+
+Google used its April 2026 cloud conference to reposition agents as the central enterprise product layer rather than a demo feature. [[Vertex]] AI was rebranded under Gemini Enterprise, new governance and security features were added for agent oversight, and Google's [[TPU]] launches were explicitly described as built for the "age of agents."
+
+That matters because it ties together the whole stack. Agents are what sell the models, justify the chips, and anchor enterprise spending. The competitive race is shifting from who has the most impressive standalone model toward who can offer the most production-ready system for deploying agentic workflows at scale.
+
+*Source: [[Reuters]], "Google puts AI agents at heart of its enterprise money-making push" (Apr 22, 2026).*
+
+---
+
 ## Market impact — SaaS meltdown (Feb 2026)
 
-The agent threat moved from theoretical to market-moving in early 2026. [[Anthropic]] and [[OpenAI]] announced general-purpose agents capable of replacing SaaS workflows for non-technical workers, triggering a -25% to -50% selloff in [[SaaS]] stocks while the [[S&P 500|SPY]] sat flat. The *Financial Times* editorial board (Feb 15) identified the core dynamic: agents become a new computing interface layer, a chokepoint for AI firms to claim corporate IT budgets that currently flow to SaaS incumbents. See [[SaaS stock meltdown 2026]].
+The agent threat moved from theoretical to market-moving in early 2026. [[Anthropic]] and [[OpenAI]] announced general-purpose agents capable of replacing SaaS workflows for non-technical workers, triggering a -25% to -50% selloff in [[SaaS]] stocks while the [[S&P 500|SPY]] sat flat. The *[[Financial Times]]* editorial board (Feb 15) identified the core dynamic: agents become a new computing interface layer, a chokepoint for AI firms to claim corporate IT budgets that currently flow to SaaS incumbents. See [[SaaS stock meltdown 2026]].
 
 ---
 
@@ -91,7 +101,7 @@ The agent threat moved from theoretical to market-moving in early 2026. [[Anthro
 
 - [[AI extensibility]] — agents sit atop the extensibility stack
 - [[Anthropic]] — [[Claude]] computer use
-- [[OpenAI]] — GPT agents, Operator
+- [[OpenAI]] — [[GPT]] agents, Operator
 - [[Cognition]] — Devin coding agent
 - [[Torq]] — security operations agents
 - [[AI consolidation]] — Big Tech agent competition

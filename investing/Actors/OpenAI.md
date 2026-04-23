@@ -348,6 +348,16 @@ TBPN acquisition context: The [[TBPN]] deal (already covered above) represents O
 
 ---
 
+## Apr 22, 2026 - GPT-5.4-Cyber moves OpenAI deeper into government cyber
+
+OpenAI briefed U.S. federal agencies, state governments, and Five Eyes partners on GPT-5.4-Cyber, a defensive cybersecurity variant of its flagship model. The company is not just shipping a generic model checkpoint. It is building a gated distribution channel for vetted security vendors, researchers, organizations, and now government users.
+
+The readthrough is strategic. OpenAI is moving downstream from general model capability into the security workflow itself, where trust, distribution, and policy controls matter as much as raw model performance. That makes the overlap with [[Anthropic]]'s recent cyber push more direct and pulls OpenAI closer to the control-point layer already pressuring incumbent cyber vendors.
+
+*Source: Reuters, "OpenAI briefs US agencies, Five Eyes on new cybersecurity product, Axios reports" (Apr 22, 2026).*
+
+---
+
 ## Related
 
 - [[ChatGPT]] — consumer/enterprise interface, 75% of revenue

@@ -9,16 +9,16 @@ Overview of the cybersecurity industry.
 
 ---
 
-## Market structure
+## [[Market structure]]
 
-| Segment | Key players | Trend |
+| [[Segment]] | Key players | Trend |
 |---------|-------------|-------|
-| **Network security** | [[Palo Alto Networks]], [[Fortinet]], Cisco | Platform consolidation |
-| **Endpoint/XDR** | [[CrowdStrike]], SentinelOne, Microsoft | Cloud-native winning |
-| **Identity** | Okta, CyberArk, Microsoft | Zero trust adoption |
-| **Cloud security** | Palo Alto (Prisma), Wiz, Orca | Fastest growth |
-| **SIEM/SOAR** | Splunk (Cisco), Palo Alto, Microsoft | AI automation |
-| **Email security** | Proofpoint, Mimecast, Microsoft | Commoditizing |
+| **Network security** | [[Palo Alto Networks]], [[Fortinet]], [[Cisco]] | Platform consolidation |
+| Endpoint/XDR | [[CrowdStrike]], [[SentinelOne]], Microsoft | Cloud-native winning |
+| Identity | [[Okta]], [[CyberArk]], Microsoft | Zero trust adoption |
+| Cloud security | Palo Alto (Prisma), [[Wiz]], Orca | Fastest growth |
+| SIEM/SOAR | Splunk ([[Cisco]]), Palo Alto, Microsoft | AI automation |
+| Email security | Proofpoint, Mimecast, Microsoft | Commoditizing |
 
 ---
 
@@ -30,8 +30,8 @@ Overview of the cybersecurity industry.
 | [[CrowdStrike]] | ~$90B | Endpoint, cloud | Cloud-native |
 | [[Fortinet]] | ~$75B | Mid-market, firewall | Hardware + subscription |
 | Zscaler | ~$30B | Zero trust, SASE | Cloud proxy |
-| Okta | ~$15B | Identity | IAM platform |
-| SentinelOne | ~$8B | Endpoint AI | Autonomous |
+| [[Okta]] | ~$15B | Identity | IAM platform |
+| [[SentinelOne]] | ~$8B | Endpoint AI | Autonomous |
 
 ---
 
@@ -39,13 +39,13 @@ Overview of the cybersecurity industry.
 
 ### Consolidation trend
 
-**"Platformization"** — enterprises reducing vendor count:
+"Platformization" — enterprises reducing vendor count:
 
 | Approach | Leader |
 |----------|--------|
 | Network → cloud → SOC | Palo Alto |
 | Endpoint → cloud → identity | CrowdStrike |
-| Identity → governance | Okta |
+| Identity → governance | [[Okta]] |
 
 Winners: Platform vendors
 Losers: Point solutions
@@ -69,9 +69,9 @@ AI collapses the time-to-breach and the skill threshold. A single operator with 
 
 | Event | Date | Detail |
 |-------|------|--------|
-| **[[Amazon]] / 600 firewalls** | Feb 2026 | Russian-speaking hackers (possibly one person) used commercial GenAI tools to breach 600+ firewalls across 55 countries in weeks. Exploited weak credentials/single-factor auth at scale. Staging for ransomware. |
-| **[[AWS]] 8-minute breach** | Nov 2025 (disclosed Feb 2026) | Attackers found creds in public S3 bucket, used LLM-generated code (Serbian, AI-generated exception handling patterns) to go from initial access to full exfiltration across Secrets Manager, EC2, CloudWatch, S3 — in ~8 minutes. Sysdig research. |
-| **Skill floor collapse** | Ongoing | ~3.5M unfilled cyber jobs globally. AI lets unskilled attackers punch above their weight — reconnaissance, exploit generation, lateral movement all accelerated. |
+| [[Amazon]] / 600 firewalls | Feb 2026 | Russian-speaking hackers (possibly one person) used commercial GenAI tools to breach 600+ firewalls across 55 countries in weeks. Exploited weak credentials/single-factor auth at scale. Staging for ransomware. |
+| [[AWS]] 8-minute breach | Nov 2025 (disclosed Feb 2026) | Attackers found creds in public S3 bucket, used LLM-generated code (Serbian, AI-generated exception handling patterns) to go from initial access to full exfiltration across Secrets Manager, EC2, CloudWatch, S3 — in ~8 minutes. Sysdig research. |
+| Skill floor collapse | Ongoing | ~3.5M unfilled cyber jobs globally. AI lets unskilled attackers punch above their weight — reconnaissance, exploit generation, lateral movement all accelerated. |
 
 Implication: attack surface growing faster than human defenders can scale → structural demand driver for security spend regardless of macro.
 
@@ -81,17 +81,27 @@ AI labs entering security directly, threatening to commoditize the detection lay
 
 | Event | Date | Detail |
 |-------|------|--------|
-| **[[Claude Code Security]]** | Feb 20, 2026 | [[Anthropic]]'s AI vulnerability scanner. Opus 4.6 found 500+ bugs undetected for decades. Reasons about code contextually vs. pattern matching. Free for open-source. |
-| **[[Aardvark]]** | Oct 2025 | [[OpenAI]]'s autonomous vulnerability hunter. |
-| **Sector selloff #1** | Feb 20, 2026 | OKTA -9.2%, NET -8.1%, CRWD -8.0%, S -7.5% despite broader market rising. |
-| **[[Claude Mythos]] leak** | Mar 27, 2026 | [[Anthropic]]'s next-gen Capybara-tier model leaked via misconfigured CMS. Internal docs describe "step change" in cybersecurity capability — model can rapidly identify and exploit software vulnerabilities. |
-| **Sector selloff #2** | Mar 27, 2026 | CRWD -7%, PANW -6%, ZS -4.5%, OKTA -3%, S -3%, FTNT -3%. Market logic: if AI finds vulnerabilities at scale, incumbents face both a more dangerous threat landscape and disruption by AI-native alternatives. |
+| [[Claude Code Security]] | Feb 20, 2026 | [[Anthropic]]'s AI vulnerability scanner. Opus 4.6 found 500+ bugs undetected for decades. Reasons about code contextually vs. pattern matching. Free for open-source. |
+| [[Aardvark]] | Oct 2025 | [[OpenAI]]'s autonomous vulnerability hunter. |
+| Sector selloff #1 | Feb 20, 2026 | OKTA -9.2%, NET -8.1%, CRWD -8.0%, S -7.5% despite broader market rising. |
+| [[Claude Mythos]] leak | Mar 27, 2026 | [[Anthropic]]'s next-gen Capybara-tier model leaked via misconfigured CMS. Internal docs describe "step change" in cybersecurity capability — model can rapidly identify and exploit software vulnerabilities. |
+| Sector selloff #2 | Mar 27, 2026 | CRWD -7%, PANW -6%, ZS -4.5%, OKTA -3%, S -3%, FTNT -3%. Market logic: if AI finds vulnerabilities at scale, incumbents face both a more dangerous threat landscape and disruption by AI-native alternatives. |
 
 See [[AI cybersecurity disruption basket]] for the full selloff breakdown and bear/bull cases.
 
 The Feb and Mar selloffs reveal a pattern: each step-function in AI capability — first a vulnerability scanner ([[Claude Code Security]]), now a model that can autonomously find *and exploit* vulnerabilities ([[Claude Mythos]]) — triggers a fresh repricing of incumbent cyber stocks. The question is whether the sector's structural demand tailwind (AI amplifies attackers → more spend needed) can offset the disruption risk (AI labs building the tools themselves).
 
-**Net read:** AI is both the disease and the cure. Spending *must* rise (bullish TAM), but it may flow to AI-native tools rather than legacy vendors (bearish for incumbents without AI integration).
+Net read: AI is both the disease and the cure. Spending *must* rise (bullish TAM), but it may flow to AI-native tools rather than legacy vendors (bearish for incumbents without AI integration).
+
+### Apr 2026 - AI labs move from demos into live cyber workflows
+
+OpenAI's [[GPT]]-5.4-Cyber briefings to U.S. agencies and Five Eyes partners show the labs are moving from "AI can find bugs" messaging into government-facing deployment. The important shift is not just capability. It is distribution. Vetted rollouts to security vendors, researchers, and state users mean the frontier labs are trying to own pieces of actual defensive workflow, not just sell generic model access.
+
+The same week, *The Register* reported a self-propagating CanisterWorm-style npm campaign hitting packages tied to Namastex Labs, an agentic AI company. The malware stole npm, PyPI, cloud, CI/CD, [[Kubernetes]], Docker, SSH, browser-wallet, and LLM-platform secrets, then tried to republish malicious packages from compromised developer environments. That is the live version of the thesis: AI raises both the value of cyber automation and the vulnerability of software and agent toolchains.
+
+The net read is unchanged but sharper. AI is still both the threat amplifier and the vendor disruptor, but the battleground is shifting from generic scanning into production security workflows and developer infrastructure.
+
+*Sources: [[Reuters]], "OpenAI briefs US agencies, Five Eyes on new cybersecurity product, Axios reports" (Apr 22, 2026); The Register, "Another npm supply chain worm is tearing through dev environments" (Apr 22, 2026).*
 
 ## Security control-point cluster
 
@@ -109,12 +119,12 @@ Cybersecurity no longer trades as one clean factor. The tighter market-implied c
 
 | Driver | Impact |
 |--------|--------|
-| **AI-powered attacks** | Force multiplier — single operator = team-scale campaigns (see above) |
-| **Cloud migration** | New attack surface |
-| **Remote work** | Zero trust adoption |
-| **Regulatory compliance** | Mandatory spend |
-| **AI-native defense tools** | Commoditization risk for detection layer |
-| **Skill shortage** | 3.5M unfilled jobs → automation tailwind |
+| AI-powered attacks | Force multiplier — single operator = team-scale campaigns (see above) |
+| Cloud migration | New attack surface |
+| Remote work | Zero trust adoption |
+| Regulatory compliance | Mandatory spend |
+| AI-native defense tools | Commoditization risk for detection layer |
+| Skill shortage | 3.5M unfilled jobs → automation tailwind |
 
 ---
 
@@ -147,11 +157,11 @@ Subscription/recurring = high visibility.
 
 | Risk | Impact |
 |------|--------|
-| **Microsoft bundling** | Pricing pressure |
-| **Economic slowdown** | IT budget cuts |
-| **Breach at vendor** | Reputation (see CrowdStrike outage) |
-| **AI labs entering security** | [[Claude Code Security]], [[Aardvark]], [[Claude Mythos]] — commoditize detection layer; Mythos escalates from scanning to autonomous exploitation |
-| **AI-accelerated attacks** | Faster breach cycles force faster vendor response or lose relevance |
+| Microsoft bundling | Pricing pressure |
+| Economic slowdown | IT budget cuts |
+| Breach at vendor | Reputation (see CrowdStrike outage) |
+| AI labs entering security | [[Claude Code Security]], [[Aardvark]], [[Claude Mythos]] — commoditize detection layer; Mythos escalates from scanning to autonomous exploitation |
+| AI-accelerated attacks | Faster breach cycles force faster vendor response or lose relevance |
 
 ---
 
@@ -169,7 +179,7 @@ Subscription/recurring = high visibility.
 - [[Microsoft]] — bundling threat
 - [[Long defense AI]] — government cyber spend
 - [[AI cybersecurity disruption basket]] — tracks vendor disruption from AI labs
-- [[February 2026 AI Disruption Cascade]] — the broader SaaS disruption event the cyber cohort sat inside
+- [[February 2026 AI Disruption Cascade]] — the broader [[SaaS]] disruption event the cyber cohort sat inside
 - [[Claude Code Security]] — Anthropic's AI vulnerability scanner (Feb 2026 catalyst)
 - [[Aardvark]] — OpenAI's autonomous vulnerability hunter
 - [[Claude Mythos]] — Anthropic's Capybara-tier model, leaked Mar 2026 (cybersecurity selloff catalyst)
@@ -181,10 +191,10 @@ Subscription/recurring = high visibility.
 
 ## Sources
 
-- Bloomberg, "Hackers Used AI to Breach 600 Firewalls in Weeks, Amazon Says" (Feb 20, 2026)
+- [[Bloomberg]], "Hackers Used AI to Breach 600 Firewalls in Weeks, Amazon Says" (Feb 20, 2026)
 - Sysdig, "Attackers Used AI to Breach an AWS Environment in 8 Minutes" (Feb 2026)
 
 - Fortune, 2026-03-26: "Anthropic 'Mythos' AI model representing 'step change' in power revealed in data leak"
-- Investing.com, 2026-03-27: "Cybersecurity stocks plunge as Claude Mythos leak sparks AI fear"
+- Investing.com, 2026-03-27: "Cybersecurity stocks plunge as [[Claude]] Mythos leak sparks AI fear"
 
 *Updated 2026-04-05*
