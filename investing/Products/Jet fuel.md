@@ -25,6 +25,7 @@ Jet fuel (Jet-A1 internationally, Jet-A in the US) is a kerosene-type distillate
 | Global airline fuel bill | ~$250B/yr |
 | Share of airline costs | 25-30% |
 | Benchmark grades | Jet-A (US), Jet-A1 (international) |
+| Main paper benchmarks | Gulf Coast Jet Fuel (Platts), Singapore Jet Kerosene (Platts) |
 | SAF premium | 2-4x conventional |
 
 ---
@@ -58,10 +59,20 @@ Jet fuel is a co-product of refining, not a standalone production decision. A re
 | [[Chevron]] | ~0.9 mb/d total | California refining |
 
 ### Pricing
-- Platts (S&P Global) publishes daily jet fuel assessments
+- Platts ([[S&P Global]]) publishes daily jet fuel assessments
 - IATA Jet Fuel Price Monitor tracks global average
 - Pricing = crude oil + crack spread + logistics + taxes
 - Crack spread widens during supply disruptions, refinery outages, or seasonal demand peaks
+
+### Benchmarks and futures
+The existence of dedicated jet-fuel paper benchmarks matters because airline fuel exposure is not the same thing as crude exposure. [[Oil|Brent crude]] captures the feedstock, and heating-oil or diesel contracts capture the broader middle-distillate pool, but neither is a perfect hedge for region-specific jet cracks. The two benchmark futures complexes that matter most for actual jet-fuel price discovery are the US Gulf Coast and Singapore contracts below.
+
+| Benchmark | Region | What it captures | Why it matters |
+|-----------|--------|------------------|----------------|
+| Gulf Coast Jet Fuel (Platts) futures | US Gulf Coast / Atlantic Basin | USGC jet-fuel assessment | Direct paper handle on US airline and refiner jet-fuel exposure |
+| Singapore Jet Kerosene (Platts) futures | Asia | Singapore jet/kerosene assessment | Core Asian reference for spot pricing and inter-basin arbitrage |
+
+These contracts are the cleanest reminder that jet fuel is its own market, not just a footnote to crude. They sit inside the broader distillate complex, so they still co-move with diesel and heating oil, but the existence of dedicated jet-fuel futures means we can track basis, regional dislocations, and airline hedging conditions more precisely than with crude proxies alone.
 
 ---
 
