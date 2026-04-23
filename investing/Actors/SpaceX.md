@@ -55,6 +55,12 @@ The arc: greenhouse on Mars → laughed out of Russia → $100M personal bet →
 
 Targeting June 2026: $75B raise at $1.75T valuation on [[Nasdaq]] — would be the largest IPO in history. The deal is structurally unprecedented: no lead bank (five advisers listed alphabetically), no standard lockup, >20% retail allocation, and divided geographic roles. The S-1 may show a net loss after absorbing [[xAI]]'s ~$1B/month burn. Both [[Nasdaq]] and [[S&P Dow Jones Indices]] have rewritten index inclusion rules to accommodate the listing.
 
+Reuters added an important detail on Apr. 21: the pre-roadshow choreography now includes three days of analyst briefings across the combined physical and AI stack. Day one is Starbase in Boca Chica, day two is a separate Starbase session for analysts tied to large institutional investors, and day three is a visit to the "Macrohard" project at [[Colossus]] in Memphis. A later modeling day is expected to walk select analysts through the financial projections. In other words, SpaceX is not selling a rocket company with an AI appendix. It is explicitly touring Wall Street through launch, manufacturing, and data-center infrastructure as one integrated IPO story.
+
+Reuters then added a more important S-1 excerpt on Apr. 23: SpaceX lists "manufacturing our own GPUs" among its substantial capital expenditures and warns that it does not have long-term contracts with many of its direct chip suppliers. The filing says the company expects to keep sourcing a significant share of its compute hardware from third parties and gives no assurance that [[TERAFAB]] will hit its expected timelines, or happen at all. Reuters also noted that "GPU" may be shorthand for AI processors more broadly rather than a literal plan to replicate [[NVIDIA]]'s product stack.
+
+That changes the read on the sovereign-AI story. Vertical integration on silicon is not only upside optionality anymore, it is also a disclosed bottleneck-management response inside the IPO filing itself. The report further said it remained unclear whether Intel or the Terafab developers would control the fabrication technologies inside the plant, and Musk told [[Tesla]] analysts that Intel's 14A process would probably be mature enough by the time Terafab scales and "seems like the right move." The cleaner interpretation is now: Intel is the clearest publicly signaled manufacturing path, but node choice, scope, and timetable are still fluid.
+
 See **[[SpaceX IPO 2026]]** for full deal structure, index rule changes (Nasdaq Fast Entry, S&P seasoning review), dual-class governance, space sector contagion trade, PitchBook SOTP analysis, and the $200B mega-IPO absorption test ([[Anthropic]] $60B + [[OpenAI]] TBD in the same year).
 
 ---
@@ -158,7 +164,7 @@ The SpaceX-owned layers Deepwater maps to the stack:
 | Data | [[X]] (social graph, real-time pulse) | Inherited via xAI absorbing X; scientific content increasingly flowing through it |
 | Compute infrastructure | [[Colossus]] (Memphis), Colossus 2, orbital DCs (optionality) | 2GW on Earth target; [[Space data centers|orbital]] is upside, not load-bearing |
 | Chips (design) | [[TERAFAB]] D3 orbital processors | Announced Mar 21, 2026 |
-| Chips (fab) | [[TERAFAB]] + [[Intel]] 18A | Foundry partner confirmed Apr 7, 2026 |
+| Chips (fab) | [[TERAFAB]] + [[Intel]] (node still fluid) | Apr 7 Intel post signaled involvement; Apr 23 Reuters said scope and node remain unsettled |
 | Energy | (via [[Tesla]] sibling + Colossus gas-turbine improvisation) | Tesla Energy + Megapack at Colossus; long-term nuclear TBD |
 | Physical AI | [[Tesla Optimus]] + Tesla FSD (if recombined) | Currently separate company; see convergence section |
 
@@ -440,9 +446,11 @@ Jan 10, 2026: FCC approved 7,500 additional Gen2 [[Starlink]] satellites.
 
 ---
 
-## Terafab foundry partner announced (Apr 7, 2026)
+## Terafab foundry path still fluid (Apr 7 / Apr 23, 2026)
 
-[[Intel]] joined [[TERAFAB]] as the primary foundry partner for the $25B joint fab (Tesla/SpaceX/xAI). SpaceX's role centers on demand: D3 orbital AI processors for [[Space data centers]] and specialized chips for satellite deployments. Intel's 18A process and advanced packaging resolve the fabrication question — SpaceX brings the demand side, not the manufacturing.
+[[Intel]] signaled involvement in [[TERAFAB]] on Apr. 7 via an X post, which initially made it look as if the fabrication side had found its anchor partner. But Reuters' Apr. 23 review of the confidential SpaceX S-1 pulled that back toward uncertainty. The filing lists "manufacturing our own GPUs" among SpaceX's substantial capital expenditures and warns that the company lacks long-term contracts with many direct chip suppliers, expects to keep buying a significant portion of compute hardware from third parties, and cannot assure investors that Terafab will reach its expected timeline.
+
+Reuters also said it remained unclear whether Intel or the Terafab developers would handle the fabrication technologies inside the plant. Musk told Tesla analysts that by the time Terafab scales, Intel's 14A process would probably be mature and "seems like the right move." So the right read is no longer "Intel 18A solved the fab layer." It is that Intel is the clearest publicly signaled partner, while the actual node, scope, and operating model remain open. SpaceX still brings the demand side, but the silicon bottleneck is now a disclosed IPO risk, not just upside optionality.
 
 ---
 

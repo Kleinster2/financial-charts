@@ -40,6 +40,35 @@ Divided roles. Banks aren't just co-managing — they're being assigned differen
 
 ---
 
+## Analyst briefings and pre-roadshow choreography (Apr 21, 2026)
+
+Reuters reported that SpaceX is using a three-day, closed-door analyst program to frame the IPO before the formal roadshow begins:
+
+| Session | Location | Purpose |
+|---------|----------|---------|
+| Tuesday | Starbase, Boca Chica | Analyst tour plus operational briefing at the launch complex |
+| Wednesday | Starbase, Boca Chica | Separate session for analysts representing large institutional investors |
+| Thursday | Colossus, Memphis | Tour of the "Macrohard" project inside SpaceX's AI and data-center footprint |
+| Later follow-up | TBD | Modeling day for select Wall Street analysts and participating banks |
+
+Two points matter more than the travel itinerary itself.
+
+First, the company is deliberately making analysts walk through both the rocket complex and the AI compute complex before the listing. That reinforces the post-[[xAI]] idea that the public vehicle is a combined aerospace, telecom, defense, and AI-infrastructure company, not merely a launch operator with an attached chatbot.
+
+Second, Reuters reported harder financial excerpts from the confidential filing: the combined company ended 2025 with about $24.7 billion of cash, more than $50 billion of liabilities, a $4.94 billion consolidated loss, and $18.67 billion of revenue, versus a $791 million profit on $14.02 billion of revenue the prior year. The analytical problem is now explicit. Bret Johnsen does not only need to sell growth, scarcity, and ambition. He needs investors to look through the first xAI-heavy consolidated loss year and still underwrite a $1.75 trillion equity value.
+
+Reuters also reported that some investors are benchmarking the company less against Boeing or AT&T and more against AI-infrastructure names like [[Palantir]], [[GE Vernova]], and [[Vertiv]]. That is the cleanest evidence yet that the valuation debate has shifted away from traditional aerospace comps and toward a bottleneck-AI framework.
+
+---
+
+## In-house GPU ambition and chip-supply risk (Apr 23, 2026)
+
+Reuters then pulled one layer deeper into the confidential S-1. SpaceX lists "manufacturing our own GPUs" among its substantial capital expenditures and says it does not have long-term contracts with many of its direct chip suppliers. The filing adds that the company expects to keep sourcing a significant share of its compute hardware from third parties and gives no assurance that [[TERAFAB]] will hit its expected timeframes, or happen at all. Reuters also noted that "GPU" may be shorthand for AI processors more broadly rather than a literal commitment to reproduce [[NVIDIA]]'s general-purpose architecture.
+
+For the IPO story, that matters more than the buzzword. Vertical integration on chips is no longer just part of Musk's upside pitch, it is framed inside the prospectus as a response to an existing supply bottleneck. Reuters also said it remained unclear whether [[Intel]] or the Terafab developers would control the fabrication technologies inside the plant, and Musk pointed to Intel's 14A as the node that "seems like the right move" by the time Terafab scales. That shifts the market read away from "Intel 18A already solved the fab layer" and back toward "Intel-linked manufacturing path under discussion, with node choice and execution still open."
+
+---
+
 ## P&L problem
 
 The S-1 may show SpaceX losing money. SpaceX's standalone business generates ~$8B annual profit on ~$16B revenue ($10.6B Starlink, $5.2B launch). But the February [[SpaceX xAI merger|xAI acquisition]] absorbs ~$1B/month in burn ($208M xAI revenue in 9M 2025) — enough to flip the combined entity to a net loss.
@@ -240,6 +269,12 @@ Polymarket IPO odds: SpaceX 94%, [[Anthropic]] 41% (down from 70% in February), 
 Moon mining infrastructure: [[David Friedberg|Freeberg]]: mass drivers (electric rail systems, 100g acceleration, parachute landing) with robotic factories. 500 sq meters solar panels power 4km mass driver. Theoretical throughput: one ton every 10-15 minutes.
 
 Artemis 2 milestone: Moon orbit mission launched with crew of 4, validating lunar infrastructure roadmap.
+
+---
+
+## Synthesis
+
+The IPO is no longer being marketed as a pure space scarcity story. The analyst-tour design, the financial excerpts, and the valuation comps all point the same way: SpaceX is asking public investors to price a hybrid of launch monopoly, satellite utility, defense contractor, and AI infrastructure platform. That broadens the multiple story, but it also means the first consolidated xAI loss year is no side issue. It is the central credibility test for whether public investors will finance the full-stack thesis at trillion-plus scale.
 
 ---
 

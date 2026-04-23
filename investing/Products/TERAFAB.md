@@ -76,6 +76,14 @@ If a formal foundry agreement materializes, it would give [[Intel Foundry Servic
 
 ---
 
+## SpaceX S-1 reframes Terafab as a disclosed bottleneck (Apr 23, 2026)
+
+Reuters reviewed excerpts of SpaceX's confidential S-1 showing that the company now lists "manufacturing our own GPUs" among its substantial capital expenditures. More important than the label itself, the filing warns that SpaceX does not have long-term contracts with many direct chip suppliers, expects to keep sourcing a significant portion of compute hardware from third parties, and offers no assurance that [[TERAFAB]] will meet its expected timelines, or happen at all.
+
+That matters because the Apr. 7 Intel X post had allowed the market shorthand to drift toward "fab question solved." Reuters pushed the story back into the unresolved bucket. The report said it remained unclear whether Intel or the Terafab developers would control the fabrication technologies inside the plant, while Musk told [[Tesla]] analysts that Intel's 14A process would probably be mature enough by the time Terafab scales and "seems like the right move." The manufacturing ambition is real enough to sit inside the risk factors, but the node, operating model, and delivery timeline are still open.
+
+---
+
 ## Related
 
 - [[Intel]] — foundry partner (18A process, packaging)

@@ -264,6 +264,12 @@ If a formal deal materializes, this is the anchor customer [[Intel Foundry Servi
 
 *Sources: Intel X post (Apr 7), TrendForce (Apr 8), Electrek (Apr 7), TechCrunch (Apr 7), Bloomberg (Apr 7)*
 
+### Reuters follow-through reopens the 14A path (Apr 23, 2026)
+
+Reuters' Apr. 23 review of SpaceX's confidential S-1 makes the Terafab read more concrete but less settled. The filing lists in-house GPU manufacturing among SpaceX's substantial capital expenditures and warns that the company lacks long-term contracts with many direct chip suppliers. Reuters also said it remained unclear whether Intel or the Terafab developers would control the fabrication technologies inside the plant.
+
+Musk told Tesla analysts that by the time Terafab scales, Intel's 14A process would probably be mature enough for prime time and "seems like the right move." That is an important shift from the market shorthand that followed Intel's Apr. 7 X post. The cleaner interpretation is no longer "18A anchor customer secured." It is that Intel remains the most publicly signaled manufacturing partner, but the likely node may migrate toward 14A and the commercial scope is still unsigned. Ironically, that lines up with Intel's earlier roadmap, where 14A had originally been the cleaner external-foundry offering before Tan reopened 18A to outside customers in March.
+
 ---
 
 ## Intel 18A launch (Jan 27, 2026)
