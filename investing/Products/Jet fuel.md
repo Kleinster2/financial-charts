@@ -74,6 +74,10 @@ The existence of dedicated jet-fuel paper benchmarks matters because airline fue
 
 These contracts are the cleanest reminder that jet fuel is its own market, not just a footnote to crude. They sit inside the broader distillate complex, so they still co-move with diesel and heating oil, but the existence of dedicated jet-fuel futures means we can track basis, regional dislocations, and airline hedging conditions more precisely than with crude proxies alone.
 
+![[age1!-vs-aks1!-vs-ho=f-vs-bz=f-price-chart.png]]
+
+*Normalized from 2020-04-01. The chart makes the structural point: both jet-fuel benchmarks move with the broader crude and distillate complex, but Gulf Coast jet fuel, Singapore jet kerosene, heating oil, and Brent do not travel as one line. Regional jet-fuel basis is real, which is why dedicated jet-fuel futures matter. The current local jet-fuel histories come from the new TradingView continuous-series feed and presently stop in late January or late February 2026 rather than today.*
+
 ---
 
 ## Demand drivers
