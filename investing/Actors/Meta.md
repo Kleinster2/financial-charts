@@ -469,12 +469,20 @@ Off-balance-sheet:
 | Hyperion | Louisiana | $6B | $30B SPV with [[Blue Owl]], Meta 20% equity |
 | Project Walleye | New Albany, Ohio | Lease | $3B construction loan via [[EdgeConneX]] ([[EQT]]) |
 
+Tulsa, Oklahoma (announced Apr. 21, 2026):
+- >$1B first Oklahoma data center at Fair Oaks Innovation Park
+- >2M sq ft footprint
+- >1,000 peak construction jobs and ~100 operating jobs
+- Fortis Construction as general contractor
+- Meta paying the full cost of required water and wastewater service
+- Tulsa becomes Meta's 28th U.S. facility and 32nd worldwide
+
 Hyperion (Louisiana):
 - 5GW eventual capacity
-- **$27B** committed via [[Blue Owl]] JV (80% Blue Owl, 20% Meta). SPV: "Beignet Investor"
+- $27B committed via [[Blue Owl]] JV (80% Blue Owl, 20% Meta). SPV: "Beignet Investor"
 - $50B total (per Trump announcement)
 - "Nearly the size of Manhattan" - Zuckerberg
-- **3,650 acres** total: 2,250 original (Franklin Farms megasite) + 1,400 acquired Feb 2026
+- 3,650 acres total: 2,250 original (Franklin Farms megasite) + 1,400 acquired Feb 2026
 - 4 million sq ft, 3 GCs: Turner Construction, DPR Construction, Mortenson
 - $875M in Louisiana contracts (1st year, as of Dec 2025). $300M+ in local infrastructure (roads, water)
 - ~3,700 construction workers (Mar 2026), peak expected 5,000-8,000
@@ -585,7 +593,22 @@ See [[Short interest]] for interpretation framework.
 
 Equity award cuts (Feb 19, 2026): Cut stock awards by ~5% for most employees - second consecutive year (10% cut in 2025). Redirecting to AI capex ($115-135B guidance for 2026). Reality Labs also laid off ~10% (~1,500 of 15,000) as Meta shifts from VR to wearables. Reality Labs has accumulated $70B+ in losses since 2021.
 
-*Updated 2026-02-20*
+## Analyst timeline
+
+- Apr. 21, 2026 — Reuters: broke ground on a >$1 billion Tulsa data center, Meta's first in Oklahoma, with a >2 million sq ft footprint, Fortis Construction as GC, and explicit company funding for water and wastewater service.
+
+---
+
+## Ratings history
+
+| Date | Agency | Rating | Context |
+|------|--------|--------|---------|
+| Dec 2025 | S&P | AA- | Corporate debt profile scaled rapidly to fund buybacks and AI capex |
+| Dec 2025 | Moody's | Aa3 | Off-balance-sheet Hyperion financing remains a key credit-watch item |
+
+---
+
+*Updated 2026-04-22*
 
 ---
 
@@ -629,6 +652,9 @@ Equity award cuts (Feb 19, 2026): Cut stock awards by ~5% for most employees - s
 
 ### Payments
 - [[Stripe]] - leading stablecoin payments partner (Collison on Meta board, Apr 2025). Bridge subsidiary has OCC charter
+
+### Securities
+- [[Meta securities]]
 
 ### Debt
 - [[Meta bonds]] - $59B bond inventory (AA-/Aa3, zero to $59B in 3.5 years)

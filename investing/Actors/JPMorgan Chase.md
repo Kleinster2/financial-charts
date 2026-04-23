@@ -408,9 +408,25 @@ See [[Brent-WTI spread#April 2, 2026 inversion — real or illusion?]], [[Iran c
 
 ---
 
-## Q1 2026 earnings preview (reports Apr 14)
+## Q1 2026 Earnings (Apr 14, 2026)
 
-Consensus EPS $5.41-5.50 (+3.4% YoY). Key drivers: [[Apple]] Card portfolio integration (added late 2025), AI-driven trading volatility revenue, and massive IB fee rebound. NII plateauing as [[Fed]] holds at 3.5-3.75%, but M&A advisory fees projected mid-to-high teens growth for 2026. Basel III capital relief (~$87.7B system-wide from softened framework late 2025) has unchained balance sheets for IPO underwriting. JPM positioned to capture outsized share of the [[SpaceX IPO 2026|SpaceX]], [[OpenAI]], and [[Anthropic]] IPO pipeline. [[Jamie Dimon]] on the [[Iran]] war (Apr 1): "finish this thing, finish it right."
+**Beat across the board; record trading revenue; all-time record buyback.**
+
+| Metric | Q1 2026 | vs Estimate | Notes |
+|--------|---------|-------------|-------|
+| EPS | $5.94 | Beat $5.45 | +9% vs consensus |
+| Revenue | $50.54B | Beat $49.17B | |
+| ROTCE | 23% | — | |
+| Trading revenue | $11.6B | — | Record, +20% YoY |
+| Buyback | $8.33bn | — | All-time record (prev. record $8.32bn, Q3 2025) |
+
+### Dimon on capital and buybacks
+
+Dimon disclosed ~$40bn of excess capital and set out his buyback philosophy: "Our preferred way of using capital is not buying back stock today. We're doing it, fair market value and all that. But I'd rather buy back stock when we think it's a real discount and the ongoing shareholder gets the benefit of buying it cheap." Preferred deployment: "serving clients."
+
+Stock reaction was negative (-3%) despite the beat — market read expenses as the concern (2026 guidance $105B).
+
+*Sources: [JPMorgan Q1 2026 — CNBC](https://www.cnbc.com/2026/04/14/jpmorgan-chase-jpm-earnings-1q-2026.html); FT (Apr 15, 2026)*
 
 ---
 

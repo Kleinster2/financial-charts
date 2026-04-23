@@ -226,6 +226,8 @@ def get_metadata():
                 "BZ=F": "Brent Crude Oil",
                 "NG=F": "Natural Gas",
                 "RB=F": "RBOB Gasoline",
+                "AGE1!": "Gulf Coast Jet Fuel (Platts) Futures Continuous",
+                "AKS1!": "Singapore Jet Kerosene (Platts) Futures Continuous",
                 "GC=F": "Gold",
                 "SI=F": "Silver",
                 "HG=F": "Copper",

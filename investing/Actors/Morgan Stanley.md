@@ -79,6 +79,8 @@ MS trades as a core Financials name (XLF r = 0.86).
 | Net new assets | **$118B** |
 | Fee-based asset flows | **$54B** |
 
+**Buybacks:** $1.75bn in Q1 2026. CFO Sharon Yeshaya said, "You had that opportunity both from where the stock actually was, but also where we were from an institutional perspective and the amount of capital that we're generating to buy back more stock." Part of the $33bn sector-wide record; see [[Competitive deregulation]].
+
 **Stock reaction:** +4.5-5% Apr 15. Setup into the print had MS at $183 on Apr 14; closed near $192 after hours.
 
 **Structural read:** MS is now running the dual-engine model that [[Ted Pick]] described at his first full-year anniversary — Institutional strength (equities, IB advisory, FICC) AND Wealth stability (NNA $118B is the engine). The equities-trading record aligns with [[Bank of America]] (+30% equity trading, best in 15 years) and [[Goldman Sachs]] reads — Q1 2026 = the trading-driven beat quarter for every major US bank ([[JPMorgan Chase|JPM]] also reported Apr 15). Advisory +74% is the dealmaking-rebound signal running harder at MS than at peers — consistent with backlog references on Q4 2025 call about IB pipeline.

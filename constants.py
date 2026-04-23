@@ -85,6 +85,8 @@ FUTURES_SYMBOLS = {
     'CRUDE_OIL': 'CL=F',
     'BRENT_OIL': 'BZ=F',
     'NATURAL_GAS': 'NG=F',
+    'US_GULF_COAST_JET_FUEL': 'AGE1!',
+    'SINGAPORE_JET_KEROSENE': 'AKS1!',
     'HEATING_OIL': 'HO=F',
     'GASOLINE': 'RB=F',
     

@@ -107,7 +107,11 @@ def get_price_data(tickers: List[str], start_date: Optional[str] = None) -> Dict
                 result[ticker] = []
                 continue
 
-            df['time'] = (pd.to_datetime(df['Date']).astype('int64') // 10**9).astype(int)
+            df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+            df = df.dropna(subset=['Date', 'value']).sort_values('Date')
+            df['Date'] = df['Date'].dt.normalize()
+            df = df.groupby('Date', as_index=False)['value'].last()
+            df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
             result[ticker] = df[['time', 'value']].to_dict(orient='records')
     finally:
         conn.close()
@@ -124,34 +128,46 @@ def get_price_data_wide(tickers: List[str], start_date: Optional[str] = None) ->
         return pd.DataFrame()
 
     stock_tickers = get_available_tickers()
-    valid = [t for t in tickers if t in stock_tickers]
-    if not valid:
-        return pd.DataFrame()
+    futures_tickers = get_futures_tickers()
+    records = []
 
     conn = get_db_connection(row_factory=None)
     try:
-        placeholders = ','.join(['?'] * len(valid))
-        date_filter = "AND Date >= ?" if start_date else ""
-        query = f"""
-            SELECT Date, Ticker, Close
-            FROM prices_long
-            WHERE Ticker IN ({placeholders}) {date_filter}
-            ORDER BY Date
-        """
-        params = list(valid)
-        if start_date:
-            params.append(start_date)
+        for ticker in tickers:
+            if ticker in stock_tickers:
+                table = 'prices_long'
+            elif ticker in futures_tickers:
+                table = 'futures_prices_long'
+            else:
+                continue
 
-        df = pd.read_sql(query, conn, params=params)
+            date_filter = "AND Date >= ?" if start_date else ""
+            query = f"""
+                SELECT Date, Ticker, Close
+                FROM {table}
+                WHERE Ticker = ? {date_filter}
+                ORDER BY Date
+            """
+            params = [ticker]
+            if start_date:
+                params.append(start_date)
+            df_t = pd.read_sql(query, conn, params=params)
+            if not df_t.empty:
+                records.append(df_t)
     finally:
         conn.close()
 
-    if df.empty:
+    if not records:
         return pd.DataFrame()
+
+    df = pd.concat(records, ignore_index=True)
+    df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+    df = df.dropna(subset=['Date', 'Close']).sort_values(['Ticker', 'Date'])
+    df['Date'] = df['Date'].dt.normalize()
+    df = df.groupby(['Date', 'Ticker'], as_index=False)['Close'].last()
 
     wide = df.pivot(index='Date', columns='Ticker', values='Close')
     wide.index.name = 'Date'
-    # Reorder columns to match requested order
     ordered = [t for t in tickers if t in wide.columns]
     return wide[ordered]
 

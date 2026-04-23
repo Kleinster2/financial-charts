@@ -95,6 +95,7 @@ Goldman's leadership mix still tilts toward operators formed in trading, financi
 | Equities | $5.33B |
 | Asset & Wealth Management | $4.08B |
 | Capital returned | $6.38B |
+| Buybacks | $5.0B (record; CET1 ratio fell to lowest since 2020) |
 
 The official release framed the quarter as strong overall but uneven inside markets. Goldman said FICC was down 10% year over year because interest-rate products and mortgages were significantly weaker and credit products were also lower, partly offset by stronger commodities and currencies. Equities, by contrast, was up 27% and hit a record. That mix matters because Goldman is supposed to thrive in volatile quarters; when the firm beats overall but misses in rates, investors read it as a positioning problem rather than a simple cyclical wobble.
 

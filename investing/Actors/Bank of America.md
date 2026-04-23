@@ -189,6 +189,8 @@ BAC trades as a core Regional Banks name (KRE r = 0.86).
 
 **Structural read:** The trading-driven beat is the pattern the [[Basel III]] capital relief and the Trump-era dealmaking rebound were set up to produce — IB +21% runs ahead of the M&A backlog and is the early read-through for [[Morgan Stanley]]/[[Goldman Sachs]]/[[JPMorgan Chase]] that also reported today. The NII guide raise (from 5-7% to 6-8%) is the contrast with [[Wells Fargo]] Q1 (2026-04-14) where deposit beta ate the rate tailwind and NIM came in 13bps below target — [[JPMorgan Chase|JPM]], BAC, and Citi monetized the rate regime, WFC did not. See [[Wells Fargo]] Q1 note for the dispersion analysis.
 
+**Buybacks:** $7.2bn in Q1 2026 — highest in 4 years. CFO Alastair Borthwick said the bank found itself "in a position where we have plenty of capital" and was "encouraged by the work that the administration is doing" on capital rules. Part of the $33bn sector-wide record; see [[Competitive deregulation]].
+
 **Moynihan:** "We are bullish on the U.S. economy" — unchanged from Q4 2025, now validated by the consumer-spending + trading prints.
 
 *Sources: [CNBC: Bank of America BAC earnings Q1 2026](https://www.cnbc.com/2026/04/15/bank-of-america-bac-earnings-q1-2026.html); [GuruFocus BAC Q1 2026 coverage](https://www.gurufocus.com/news/8794431/is-bank-of-america-bac-overvalued-after-q1-2026-earnings-beat-eps-111-vs-100-est-revenue-303b-vs-2993b-est-gf-score-85100-146-overvalued); Benzinga Q1 call transcript.*

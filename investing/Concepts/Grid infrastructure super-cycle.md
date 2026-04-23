@@ -102,6 +102,8 @@ The same companies benefit regardless of which driver dominates:
 
 Transformer lead times have stretched to 2-3 years — demand exceeds manufacturing capacity across all three drivers.
 
+GE Vernova's Apr. 22, 2026 results are a live datapoint for the thesis. The company added $13 billion of backlog in a single quarter, taking total backlog to $163 billion, and said combined gas-turbine backlog plus slot reservation agreements should reach at least 110 GW by year-end. That is what a super-cycle looks like in practice: customers are no longer just buying equipment, they are competing for future manufacturing slots.
+
 ### Utilities (capex = rate base growth)
 
 | Company | Exposure |

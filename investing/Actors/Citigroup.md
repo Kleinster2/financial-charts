@@ -120,6 +120,24 @@ C trades as a core Financials name (XLF r = 0.84).
 
 ---
 
+## Q1 2026 Earnings (Apr 14, 2026)
+
+**Strongest revenue quarter in a decade; 13.1% ROTCE highest since 2021; record Q1 buyback.**
+
+| Metric | Q1 2026 | vs Estimate | Notes |
+|--------|---------|-------------|-------|
+| EPS | $3.06 | Beat $2.63 | |
+| Revenue | $24.63B | — | Strongest quarter in a decade |
+| ROTCE | 13.1% | — | Highest since 2021 |
+| Efficiency ratio | 58% | — | [[Jane Fraser]] restructuring proof point |
+| Buyback | $6.3bn | — | Q1 record in at least two decades |
+
+**Structural read:** The 58% efficiency ratio — down significantly under Fraser's simplification — and 13.1% ROTCE validate the turnaround narrative. JPM's same-day beat showed even the sector leader didn't diverge from Citi on direction of travel; but Citi's absolute return improvement is more dramatic. The record Q1 buyback ($6.3bn) reflects the combination of freed capital under [[Basel III]] Endgame and Iran-war trading windfall. See [[Competitive deregulation]].
+
+*Sources: [Citigroup Q1 2026 — CNBC](https://www.cnbc.com/2026/04/14/citigroup-c-earnings-1q-2026.html); FT (Apr 15, 2026)*
+
+---
+
 ## Q4 2025 / Rate cap risk
 
 **Credit card rate cap warning:**

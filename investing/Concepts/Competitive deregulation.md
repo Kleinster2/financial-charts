@@ -39,9 +39,15 @@ The ratchet works faster downward than upward: loosening is popular (industry ap
 | 2023-2024 | Bank lobbying blitz (Super Bowl ads, Congressional pressure) |
 | 2024 | Fed agrees to dilute proposals |
 | Mar 12, 2026 | [[Michelle Bowman]] announces final framework — net *decrease* in capital requirements |
+| Q1 2026 | Six largest US banks spend record $33bn on buybacks — JPM $8.33bn (all-time record), BofA $7.2bn, Citi $6.3bn, Goldman $5bn, WFC $4bn, MS $1.75bn |
 | Pending | [[Bank of England]], [[EU]] face pressure to match US leniency |
 
 Bowman explicitly framed deregulation as correcting rules that "push activity into the less-regulated nonbank sector" — acknowledging that [[Basel III]] constraints drove banks out of lending markets that [[Private credit]] captured. The policy goal is to re-arm banks to compete. Source: FT (Mar 12, 2026)
+
+Q1 2026 validated the mechanism: with capital buffers freed and volatility-driven trading revenue elevated, every major US bank accelerated buybacks 30-50% above analyst models (per [[Oppenheimer]]'s [[Chris Kotowski]]). [[Goldman Sachs]] CET1 fell to its lowest since 2020 — the ratio compression is the mechanism working as designed. Banks simultaneously grew trading books and loan books, exactly the re-arming Bowman described.
+
+![[us-banks-buyback-history-q1-2026.png]]
+*Q1 2026 record: combined $33bn in buybacks surpasses any prior quarter. JPMorgan (dark blue) alone spent $8.33bn — a new all-time record. Gap in 2020 = COVID-era pause. Source: FT, Company statements / Visible Alpha (Apr 15, 2026)*
 
 ### Pre-2008 London vs New York
 

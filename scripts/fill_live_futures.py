@@ -19,6 +19,12 @@ import yfinance as yf
 
 DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "market_data.db")
 TABLE = "futures_prices_daily"
+IGNORED_LIVE_FILL_TICKERS = {
+    "AGE1!",
+    "AKS1!",
+    "GEX16.NYM",
+    "RKF16.NYM",
+}
 
 
 def get_futures_tickers(conn):
@@ -31,6 +37,8 @@ def fetch_live_quotes(tickers):
     """Fetch last price for each ticker via yf.Ticker.fast_info."""
     quotes = {}
     for t in tickers:
+        if t in IGNORED_LIVE_FILL_TICKERS:
+            continue
         try:
             fi = yf.Ticker(t).fast_info
             price = fi.get("lastPrice") or fi.get("last_price")

@@ -45,6 +45,16 @@ Annual shareholder letter widely read for economic views.
 
 ---
 
+## Capital allocation and buyback philosophy (Q1 2026)
+
+JPMorgan disclosed ~$40bn of excess capital in Q1 2026 — the quarter in which JPM spent a record $8.33bn on buybacks (all-time record). Dimon struck a deliberately lukewarm tone:
+
+> "Our preferred way of using capital is not buying back stock today. We're doing it, fair market value and all that. But I'd rather buy back stock when we think it's a real discount and the ongoing shareholder gets the benefit of buying it cheap."
+
+Preferred deployment: "serving clients" (lending, trading). The $40bn excess capital figure signals how much the [[Competitive deregulation|Basel III Endgame]] freed up; Dimon is choosing to flag the excess while not endorsing aggressive buybacks at current valuations. Source: FT (Apr 15, 2026)
+
+---
+
 ## Credit card rate cap response (Jan 2026)
 
 **Fighting Trump's 10% cap proposal:**

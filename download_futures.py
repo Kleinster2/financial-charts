@@ -2,8 +2,9 @@
 database resolved via constants.DB_PATH. The data is saved in a dedicated table `futures_prices_daily`.
 
 This script mirrors the behaviour of the main updater `update_market_data.py` but targets a curated list
-of liquid futures contracts that are available on Yahoo Finance (yfinance uses the
-same symbols). If you would like to broaden, shrink or otherwise customise the list,
+of liquid futures contracts. Most come from Yahoo Finance via yfinance, and selected
+continuous futures can be sourced from TradingView when Yahoo does not provide usable
+history. If you would like to broaden, shrink or otherwise customise the list,
 modify the `FUTURES_TICKERS` constant below.
 
 Run the script directly (python download_futures.py) or import and call
@@ -13,10 +14,16 @@ Run the script directly (python download_futures.py) or import and call
 from __future__ import annotations
 
 import sqlite3
-from datetime import datetime, timedelta
+import json
+import random
+import re
+import string
+import time
+from datetime import datetime, timedelta, timezone
 import sys
 
 import pandas as pd
+import websocket
 import yfinance as yf
 from constants import DB_PATH, get_db_connection
 
@@ -45,11 +52,13 @@ FUTURES_TICKERS: list[str] = [
     "NKD=F",  # Nikkei 225 (USD-denominated)
 
     # Energy
-    "CL=F",  # WTI Crude Oil
-    "MCL=F", # Micro WTI Crude Oil
-    "BZ=F",  # Brent Crude Oil
-    "NG=F",  # Natural Gas
-    "RB=F",  # RBOB Gasoline
+    "CL=F",       # WTI Crude Oil
+    "MCL=F",      # Micro WTI Crude Oil
+    "BZ=F",       # Brent Crude Oil
+    "NG=F",       # Natural Gas
+    "RB=F",       # RBOB Gasoline
+    "AGE1!",      # Gulf Coast Jet Fuel (Platts) default continuous contract series via TradingView/ICE
+    "AKS1!",      # Singapore Jet Kerosene (Platts) default continuous contract series via TradingView/ICE
 
     # Precious & industrial metals
     "GC=F",  # Gold
@@ -121,8 +130,156 @@ FUTURES_TICKERS: list[str] = [
 ]
 # Note: MCL=F (Micro Crude) is live-quote only as well; history builds forward from 2026-04-15. For historical analysis use CL=F.
 
+FUTURES_NAME_OVERRIDES: dict[str, str] = {
+    "AGE1!": "Gulf Coast Jet Fuel (Platts) Futures Continuous",
+    "AKS1!": "Singapore Jet Kerosene (Platts) Futures Continuous",
+}
+
+TRADINGVIEW_CONTINUOUS_TICKERS: dict[str, dict[str, str]] = {
+    "AGE1!": {
+        "tv_symbol": "NYMEX:AGE1!",
+        "name": "Gulf Coast Jet Fuel (Platts) Futures Continuous",
+    },
+    "AKS1!": {
+        "tv_symbol": "NYMEX:AKS1!",
+        "name": "Singapore Jet Kerosene (Platts) Futures Continuous",
+    },
+}
+
 TABLE_NAME = "futures_prices_daily"  # New destination table
 VOL_TABLE_NAME = "futures_volumes_daily"
+
+
+# -----------------------------------------------------------------------------
+# Helpers
+# -----------------------------------------------------------------------------
+
+def _fetch_live_quote_fallback(ticker: str) -> tuple[float | None, float | None]:
+    """Return a live/delayed fallback quote for tickers with no downloadable history."""
+    try:
+        fast_info = yf.Ticker(ticker).fast_info
+    except Exception:
+        return None, None
+
+    try:
+        price = fast_info.get("lastPrice") or fast_info.get("last_price")
+    except Exception:
+        price = None
+
+    if price is None or pd.isna(price):
+        return None, None
+
+    try:
+        volume = (
+            fast_info.get("lastVolume")
+            or fast_info.get("last_volume")
+            or fast_info.get("volume")
+        )
+    except Exception:
+        volume = None
+
+    try:
+        price = float(price)
+    except (TypeError, ValueError):
+        return None, None
+
+    if price <= 0:
+        return None, None
+
+    try:
+        volume = float(volume) if volume is not None and not pd.isna(volume) else None
+    except (TypeError, ValueError):
+        volume = None
+
+    return price, volume
+
+
+def _tv_generate_session(prefix: str) -> str:
+    return prefix + ''.join(random.choice(string.ascii_lowercase) for _ in range(12))
+
+
+def _tv_prepend_header(message: str) -> str:
+    return f"~m~{len(message)}~m~{message}"
+
+
+def _tv_send(ws, method: str, params: list) -> None:
+    payload = json.dumps({"m": method, "p": params}, separators=(",", ":"))
+    ws.send(_tv_prepend_header(payload))
+
+
+def _tv_extract_json_messages(blob: str) -> list[str]:
+    return [part for part in re.split(r"~m~\d+~m~", blob) if part.startswith("{")]
+
+
+def _normalize_daily_index(df: pd.DataFrame) -> pd.DataFrame:
+    """Normalize any daily-like index to midnight and collapse duplicate same-day rows."""
+    if df.empty:
+        return df
+
+    out = df.copy()
+    idx = pd.DatetimeIndex(pd.to_datetime(out.index))
+    if idx.tz is not None:
+        idx = idx.tz_convert("America/New_York").tz_localize(None)
+    out.index = idx.normalize()
+    out = out.groupby(level=0).agg(lambda col: col.dropna().iloc[-1] if col.notna().any() else float("nan"))
+    out.sort_index(inplace=True)
+    return out
+
+
+def _fetch_tradingview_history(tv_symbol: str, bars: int = 6000, interval: str = "1D") -> pd.DataFrame:
+    """Fetch daily continuous-futures history from TradingView's public chart websocket."""
+    ws = websocket.create_connection(
+        "wss://data.tradingview.com/socket.io/websocket",
+        timeout=20,
+        origin="https://www.tradingview.com",
+    )
+    try:
+        chart_session = _tv_generate_session("cs_")
+        _tv_send(ws, "set_auth_token", ["unauthorized_user_token"])
+        _tv_send(ws, "chart_create_session", [chart_session, ""])
+        symbol_payload = "=" + json.dumps(
+            {"symbol": tv_symbol, "adjustment": "splits", "session": "regular"},
+            separators=(",", ":"),
+        )
+        _tv_send(ws, "resolve_symbol", [chart_session, "symbol_1", symbol_payload])
+        _tv_send(ws, "create_series", [chart_session, "s1", "s1", "symbol_1", interval, bars])
+
+        messages: list[str] = []
+        started = time.time()
+        while time.time() - started < 20:
+            raw = ws.recv()
+            parts = _tv_extract_json_messages(raw)
+            messages.extend(parts)
+            if any("series_completed" in part for part in parts):
+                break
+
+        rows: dict[int, list[float]] = {}
+        for msg in messages:
+            payload = json.loads(msg)
+            if payload.get("m") != "timescale_update":
+                continue
+            args = payload.get("p", [])
+            series_rows = args[1].get("s1", {}).get("s", []) if len(args) > 1 else []
+            for row in series_rows:
+                values = row.get("v", [])
+                if len(values) >= 5:
+                    rows[int(values[0])] = values
+
+        if not rows:
+            return pd.DataFrame()
+
+        ordered = [rows[key] for key in sorted(rows)]
+        df = pd.DataFrame(
+            {
+                "Date": [pd.Timestamp.fromtimestamp(values[0], tz="UTC").tz_convert("America/New_York").tz_localize(None).normalize() for values in ordered],
+                "Close": [float(values[4]) for values in ordered],
+            }
+        )
+        df = df.dropna(subset=["Close"]).drop_duplicates(subset=["Date"]).sort_values("Date")
+        df = df[df["Date"] >= pd.Timestamp(START_DATE)]
+        return df.set_index("Date")
+    finally:
+        ws.close()
 
 
 # -----------------------------------------------------------------------------
@@ -161,36 +318,35 @@ def update_futures_data(verbose: bool = True) -> None:
         existing_vol_df = pd.DataFrame()
         if table_exists:
             vprint("Reading existing futures table…")
-            existing_df = (
+            existing_df = _normalize_daily_index(
                 pd.read_sql(f"SELECT * FROM {TABLE_NAME}", conn, parse_dates=["Date"])
                 .set_index("Date")
                 .sort_index()
             )
         if vol_table_exists:
             vprint("Reading existing futures volume table…")
-            existing_vol_df = (
+            existing_vol_df = _normalize_daily_index(
                 pd.read_sql(f"SELECT * FROM {VOL_TABLE_NAME}", conn, parse_dates=["Date"])
                 .set_index("Date")
                 .sort_index()
             )
 
+        yahoo_tickers = [ticker for ticker in FUTURES_TICKERS if ticker not in TRADINGVIEW_CONTINUOUS_TICKERS]
+
         vprint(f"Downloading data for {len(FUTURES_TICKERS)} futures contracts…")
         # Futures are quoted as *prices* (no dividends) so auto_adjust=False is fine.
         raw = yf.download(
-            FUTURES_TICKERS,
+            yahoo_tickers,
             start=START_DATE,
             end=END_DATE,
             auto_adjust=False,
             group_by="ticker",
         )
 
-        if raw.empty:
-            print("No data returned from Yahoo Finance — aborting.")
-            return
-
         processed: list[pd.DataFrame] = []
         processed_vol: list[pd.DataFrame] = []
-        for ticker in FUTURES_TICKERS:
+        live_only_date = pd.DatetimeIndex([pd.Timestamp(datetime.now(timezone.utc).date())])
+        for ticker in yahoo_tickers:
             if ticker in raw and not raw[ticker].empty:
                 close = raw[ticker][["Close"]].rename(columns={"Close": ticker})
                 processed.append(close)
@@ -199,7 +355,24 @@ def update_futures_data(verbose: bool = True) -> None:
                     vol = raw[ticker][["Volume"]].rename(columns={"Volume": ticker})
                     processed_vol.append(vol)
             else:
-                print(f"Warning: {ticker} returned no data and will be skipped.")
+                live_price, live_volume = _fetch_live_quote_fallback(ticker)
+                if live_price is not None:
+                    processed.append(pd.DataFrame({ticker: [live_price]}, index=live_only_date))
+                    if live_volume is not None:
+                        processed_vol.append(pd.DataFrame({ticker: [live_volume]}, index=live_only_date))
+                    print(f"Warning: {ticker} returned no history; seeded with live quote fallback only.")
+                else:
+                    print(f"Warning: {ticker} returned no data and will be skipped.")
+
+        for ticker, meta in TRADINGVIEW_CONTINUOUS_TICKERS.items():
+            try:
+                tv_df = _fetch_tradingview_history(meta["tv_symbol"])
+                if tv_df.empty:
+                    print(f"Warning: {ticker} returned no TradingView history and will be skipped.")
+                    continue
+                processed.append(tv_df.rename(columns={"Close": ticker}))
+            except Exception as exc:
+                print(f"Warning: TradingView history fetch failed for {ticker}: {exc}")
 
         if not processed:
             print("No valid futures data processed. Nothing to store.")
@@ -207,14 +380,14 @@ def update_futures_data(verbose: bool = True) -> None:
 
         new_df = pd.concat(processed, axis=1)
         new_df.index = pd.to_datetime(new_df.index)
-        new_df.sort_index(inplace=True)
+        new_df = _normalize_daily_index(new_df)
 
         # Assemble volume dataframe if any were collected
         new_vol_df = pd.DataFrame()
         if processed_vol:
             new_vol_df = pd.concat(processed_vol, axis=1)
             new_vol_df.index = pd.to_datetime(new_vol_df.index)
-            new_vol_df.sort_index(inplace=True)
+            new_vol_df = _normalize_daily_index(new_vol_df)
 
         # Merge with existing data, giving precedence to freshly downloaded values
         if not existing_df.empty:
@@ -245,6 +418,25 @@ def update_futures_data(verbose: bool = True) -> None:
         if not combined_vol_df.empty:
             combined_vol_df.index.name = combined_vol_df.index.name or "Date"
             combined_vol_df.to_sql(VOL_TABLE_NAME, conn, if_exists="replace", index=True, index_label=combined_vol_df.index.name)
+
+        for ticker, display_name in FUTURES_NAME_OVERRIDES.items():
+            if ticker not in combined_df.columns:
+                continue
+            series = combined_df[ticker].dropna()
+            if series.empty:
+                continue
+            first_date = pd.Timestamp(series.index.min()).strftime("%Y-%m-%d %H:%M:%S")
+            last_date = pd.Timestamp(series.index.max()).strftime("%Y-%m-%d %H:%M:%S")
+            cursor.execute(
+                """
+                INSERT OR REPLACE INTO ticker_metadata
+                (ticker, name, table_name, data_type, first_date, last_date, data_points)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+                """,
+                (ticker, display_name, TABLE_NAME, "future", first_date, last_date, int(series.shape[0]))
+            )
+        conn.commit()
+
         vprint(
             f"Success: {TABLE_NAME} now contains "
             f"{combined_df.shape[1]} contracts × {combined_df.shape[0]} dates."
