@@ -1,9 +1,13 @@
 ---
 aliases: []
 ---
-#actor #executive #finance #usa
+#actor #person #executive #finance #usa
 
 **Jamie Dimon** — JPMorgan CEO since 2005. Longest-tenured big bank CEO. Most influential voice in US banking.
+
+Dimon matters less as a generic CEO profile than as the operating and political center of the largest US bank. His shareholder letters, conference remarks, and quarterly framing routinely shape how investors think about bank capital, regulation, the consumer cycle, and the role of private balance sheets in industrial policy.
+
+The durable question is succession. JPMorgan's franchise is larger than any one executive, but the market still prices a real management premium into Dimon's credibility, especially when capital allocation, expense discipline, or open conflict with regulators becomes the story. That makes this note useful as a record of how he frames power, risk, and shareholder returns.
 
 ---
 
@@ -32,9 +36,19 @@ Built JPMorgan into world's most valuable bank.
 
 ---
 
+## Evolution
+
+The story of Jamie Dimon is the story of a bank operator who turned scale and credibility into a policy platform.
+
+- 1980s-1998: Dimon rose under Sandy Weill and learned the modern US-bank consolidation game from the inside. That apprenticeship mattered because it made him as comfortable with institution-building and political combat as with quarterly execution.
+- 2000-2005: At Bank One, he repaired a weaker franchise and turned operating discipline into his calling card. When Bank One merged into JPMorgan, Dimon effectively imported that discipline into a much larger and more prestigious institution.
+- 2005-2026: As JPMorgan CEO, Dimon became more than a manager. He became the public face of big-bank competence, the loudest private-sector critic or supporter of major policy shifts depending on the moment, and the executive most closely identified with post-crisis American banking power.
+
+---
+
 ## Leadership style
 
-**Known for:**
+Known for:
 - Operational excellence
 - Blunt shareholder letters
 - Macro/policy commentary
@@ -57,7 +71,7 @@ Preferred deployment: "serving clients" (lending, trading). The $40bn excess cap
 
 ## Credit card rate cap response (Jan 2026)
 
-**Fighting Trump's 10% cap proposal:**
+Fighting Trump's 10% cap proposal:
 - CFO Barnum: will "consider all options to fight back"
 - Warning: "very bad for consumers, very bad for the economy"
 - Telling investors to "trust me" on expenses
@@ -68,7 +82,7 @@ Navigating populist turn while defending bank interests.
 
 ## Expense stance (Jan 2026)
 
-**Vowed to spend what's needed:**
+Vowed to spend what's needed:
 - 2026 expense guidance: $105B
 - Expenses up 46% since 2019
 - Won't lose ground to competitors
@@ -78,7 +92,7 @@ Navigating populist turn while defending bank interests.
 
 ## Succession question
 
-**Longest-tenured big bank CEO:**
+Longest-tenured big bank CEO:
 - Age 69
 - No clear successor named
 - Markets watch for any signal
@@ -88,7 +102,7 @@ Navigating populist turn while defending bank interests.
 
 ## AI / tech views
 
-**Cautiously optimistic:**
+Cautiously optimistic:
 - Public comments measured on AI
 - But JPM actively financing AI buildout
 - $1.5T Security & Resiliency Initiative includes frontier tech

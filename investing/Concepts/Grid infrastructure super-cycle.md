@@ -7,15 +7,23 @@ Grid infrastructure super-cycle — Multiple independent demand drivers are conv
 
 ---
 
+## Synthesis
+
+The grid story is not really three separate stories. It is one bottleneck being hit from three directions at once. AI data centers need firm power and faster interconnection. Climate shocks force utilities to rebuild and harden aging systems. Electrification adds load even where the economy is not obviously booming. All three pressures land on the same physical constraints: substations, transformers, transmission lines, and scarce skilled labor.
+
+That is why the note matters as a super-cycle rather than a normal capex wave. A single demand driver can fade. A multi-driver bottleneck with shared physical inputs is much harder to unwind. Even if AI spending cools, climate adaptation and electrification still keep the labor, equipment, and transmission constraints tight. If AI keeps accelerating, the other two drivers make the bottleneck worse rather than offsetting it.
+
+---
+
 ## The convergence thesis
 
 Three largely independent forces all require massive grid infrastructure investment simultaneously:
 
 | Driver | Demand signal | Timeline |
 |--------|--------------|----------|
-| **AI / data center power** | 35 GW today → 78-90 GW by 2035 | Now - 2035 |
-| **Climate resilience / grid hardening** | Hurricanes, wildfires, winter storms destroying aging infrastructure | Now - ongoing |
-| **Electrification / energy transition** | EVs, heat pumps, industrial reshoring, renewable interconnection | Now - 2050 |
+| AI / data center power | 35 GW today → 78-90 GW by 2035 | Now - 2035 |
+| Climate resilience / grid hardening | Hurricanes, wildfires, winter storms destroying aging infrastructure | Now - ongoing |
+| Electrification / energy transition | EVs, heat pumps, industrial reshoring, renewable interconnection | Now - 2050 |
 
 These drivers are additive. A grid hardening project in [[Puerto Rico]] and a data center interconnection in Virginia both require the same things: transmission lines, substations, transformers, and skilled labor.
 
@@ -30,9 +38,9 @@ The dominant near-term driver. See [[Power constraints]] for full analysis.
 | Metric | Value |
 |--------|-------|
 | US DC load (2024) | ~35 GW |
-| US DC load (2035E) | 78 GW (Bloomberg) to 123 GW (Deloitte) |
+| US DC load (2035E) | 78 GW ([[Bloomberg]]) to 123 GW ([[Deloitte]]) |
 | Grid connection wait (Northern Virginia) | 7 years |
-| Grid connection wait (some US areas) | 12+ years (Google) |
+| Grid connection wait (some US areas) | 12+ years ([[Google]]) |
 | FEMA/rebuild spend | — |
 
 This driver alone would justify a grid buildout cycle. But it's not alone.
@@ -44,8 +52,8 @@ Aging US grid meets intensifying climate events. Pattern repeats: catastrophic f
 | Event | Grid impact | Spend triggered |
 |-------|------------|-----------------|
 | [[Hurricane Maria]] (2017) | Destroyed ~80% of [[Puerto Rico]] grid | $20B+ in FEMA + private investment |
-| Texas Winter Storm Uri (2021) | 200+ deaths, grid nearly collapsed | ERCOT reforms, weatherization mandates |
-| California wildfires (2018-2025) | [[PG&E]] bankruptcy, [[Edison International]] lawsuits | Billions in undergrounding, PSPS systems |
+| [[Texas]] [[Winter Storm Uri]] (2021) | 200+ deaths, grid nearly collapsed | [[ERCOT]] reforms, weatherization mandates |
+| [[California]] wildfires (2018-2025) | [[PG&E]] bankruptcy, [[Edison International]] lawsuits | Billions in undergrounding, PSPS systems |
 | [[Hurricane Fiona]] (2022) | Island-wide blackout in [[Puerto Rico]] | Accelerated grid modernization |
 | Maui fire (2023) | 100+ deaths, Hawaiian Electric liability | — |
 
@@ -58,7 +66,7 @@ See [[Utility wildfire risk]] for the wildfire-specific pattern. The broader poi
 | EV charging | 30-50 GW incremental by 2035 |
 | Industrial reshoring ([[CHIPS Act]], [[IRA]]) | Tens of GW for new fabs, battery plants |
 | Building electrification (heat pumps) | Growing |
-| Renewable interconnection backlog | 250+ GW in PJM queue alone |
+| Renewable interconnection backlog | 250+ GW in [[PJM]] queue alone |
 
 ---
 
@@ -74,7 +82,7 @@ Normal utility capex cycles last 3-5 years and are driven by one factor (rate ba
 | Political support | Variable | Bipartisan (rare agreement on grid investment) |
 | Labor constraint | Manageable | Binding — not enough linemen |
 
-**The labor bottleneck is the proof.** If this were a normal cycle, existing workforce could absorb demand. Instead, skilled electrical labor (linemen, substation technicians) is the scarce resource across all three drivers simultaneously. [[Quanta Services]]' 50,000+ employees and union relationships are a structural moat.
+The labor bottleneck is the proof. If this were a normal cycle, existing workforce could absorb demand. Instead, skilled electrical labor (linemen, substation technicians) is the scarce resource across all three drivers simultaneously. [[Quanta Services]]' 50,000+ employees and union relationships are a structural moat.
 
 ---
 
@@ -100,9 +108,9 @@ The same companies benefit regardless of which driver dominates:
 | [[GE Vernova]] | Turbines, grid solutions |
 | [[Siemens Energy]] | Turbines, transmission equipment |
 
-Transformer lead times have stretched to 2-3 years — demand exceeds manufacturing capacity across all three drivers.
+[[Transformer]] lead times have stretched to 2-3 years — demand exceeds manufacturing capacity across all three drivers.
 
-GE Vernova's Apr. 22, 2026 results are a live datapoint for the thesis. The company added $13 billion of backlog in a single quarter, taking total backlog to $163 billion, and said combined gas-turbine backlog plus slot reservation agreements should reach at least 110 GW by year-end. That is what a super-cycle looks like in practice: customers are no longer just buying equipment, they are competing for future manufacturing slots.
+[[GE Vernova]]'s Apr. 22, 2026 results are a live datapoint for the thesis. The company added $13 billion of backlog in a single quarter, taking total backlog to $163 billion, and said combined gas-turbine backlog plus slot reservation agreements should reach at least 110 GW by year-end. That is what a super-cycle looks like in practice: customers are no longer just buying equipment, they are competing for future manufacturing slots.
 
 ### Utilities (capex = rate base growth)
 
@@ -121,7 +129,7 @@ For regulated utilities, more capex = larger rate base = higher allowed earnings
 
 [[Puerto Rico]]'s grid privatization is a concentrated example of the super-cycle dynamics:
 
-| Element | Puerto Rico | Mainland parallel |
+| Element | [[Puerto Rico]] | Mainland parallel |
 |---------|-------------|-------------------|
 | Climate destruction | Hurricane Maria → 80% grid destroyed | Wildfires → [[PG&E]] bankruptcy |
 | Privatization | [[LUMA Energy]] (T&D), [[Genera PR]] (generation) | Deregulation of IPPs from utilities |
