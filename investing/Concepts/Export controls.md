@@ -477,7 +477,21 @@ See [[Jensen Huang]] for the speaker profile, [[Huawei]] for the China-side buil
 
 ---
 
-*Updated 2026-04-16*
+## White House distillation memo (Apr 23, 2026)
+
+On Apr. 23, [[Michael Kratsios]] escalated the export-controls debate from hardware into model-access governance. In a White House memo, he said the U.S. government had information indicating that foreign entities, principally based in [[China]], were running deliberate, industrial-scale campaigns to distill American frontier AI systems using tens of thousands of proxy accounts and jailbreaking techniques.
+
+Why this matters for export controls:
+
+- **The leakage problem is no longer just physical.** The older framing was that chips, tools, and equipment were the controlled layer while models were a commercial product. The memo treats API access itself as a technology-transfer vector.
+- **It validates the Anthropic / OpenAI argument.** The U.S. government is now effectively saying that hardware controls can be bypassed if Chinese labs can buy or route access to U.S. models and copy capabilities over the wire.
+- **It opens a new policy lane.** Kratsios said Washington would share information with American AI companies and explore measures to hold foreign actors accountable. That points toward tighter account verification, API-use restrictions, possibly geofenced access, and eventually controls on model weights or frontier-model exports.
+
+This is the cleanest evidence yet that 2026 export controls are evolving from a semiconductor regime into a full-stack AI containment regime.
+
+---
+
+*Updated 2026-04-23*
 
 ## Related
 
@@ -497,6 +511,7 @@ See [[Jensen Huang]] for the speaker profile, [[Huawei]] for the China-side buil
 - [[China cybersecurity ban]] — counter-measure (US/Israeli software)
 - [[Section 232 semiconductor tariff]] — new policy tool (monetization + managed access, Jan 2026)
 - [[TSMC]] — $250B preferential treatment deal (tariff exemption for US investment)
+- [[AI distillation wars (2025-2026)]] — model-access vector now folded into controls debate
 - [[David Sacks]] — articulated market share framing + Huawei threat (Davos Jan 2026)
 - [[Michael Kratsios]] — leading American AI Export Program, Huawei telecom parallel
 - [[India]] — AI Impact Summit (Feb 2026), export program showcase

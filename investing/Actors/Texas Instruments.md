@@ -3,7 +3,7 @@ aliases: [TXN, TI]
 ---
 #actor #semiconductor #analog #usa #public
 
-**Texas Instruments** — \#1 analog semiconductor company. Owns fabs (300mm advantage). Automotive, industrial, and data center focus. Q4 2025 slight miss; data center grew 70%.
+**Texas Instruments** — \#1 analog semiconductor company. Owns fabs (300mm advantage). Automotive, industrial, and data center focus. Q1 2026 beat cleanly; data center grew ~90%.
 
 | Metric | Value |
 |--------|-------|
@@ -97,6 +97,22 @@ EPS included 6-cent reduction not in original guidance.
 | EPS | $1.22 | $1.35 | $1.48 |
 
 Tax rate expected 13-14% for 2026.
+
+## Q1 2026 earnings inflection (Apr 22-23, 2026)
+
+Texas Instruments delivered the clearest analog-semi readthrough yet that AI infrastructure demand is broadening beyond GPUs. The company beat on Q1 results, guided Q2 above consensus, and said data-center revenue was up about 90% YoY, driving its best stock move since 2000.
+
+| Metric | Actual | Consensus / context |
+|--------|--------|---------------------|
+| Q1 revenue | $4.83B | $4.53B consensus |
+| Q1 EPS | $1.68 | $1.27 consensus |
+| Q2 revenue guide | $5.0B-$5.4B | $4.86B consensus |
+| Q2 EPS guide | $1.77-$2.05 | $1.57 consensus |
+| Data-center revenue growth | ~90% YoY | up from 70% in Q4 2025 |
+| Industrial growth | ~30% YoY | broad cyclical recovery signal |
+| Stock reaction | $282.23 close, +19.4% on Apr. 23 |
+
+The important shift is qualitative as much as numerical. TI still does not make the frontier accelerators, but it is capturing the analog and power-management content that sits around them, signal conversion, voltage regulation, and the supporting electronics inside racks and power systems. That is why the market treated this print as more than a company-specific beat. It read as evidence that AI capex is pulling demand through the rest of the semiconductor stack rather than staying bottled up inside [[NVIDIA]] and custom ASIC names.
 
 ---
 

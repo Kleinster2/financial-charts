@@ -59,8 +59,15 @@ Grid power availability is the binding constraint on AI infrastructure buildout.
 | [[Amazon]] | Talen Energy | 960MW | [[Susquehanna]] nuclear co-location |
 | [[Google]] | [[Kairos Power]] | 500MW | SMR development |
 | [[Oracle]] | Nuclear DC | TBD | Nuclear permits ([[Larry Ellison]]) |
+| [[NextEra Energy]] | Pennsylvania + Texas projects | ~10GW | Japan-backed gas-fired fleet for data centers |
 | [[xAI]] | Colossus | 2GW | Bitcoin miner partnerships |
 | [[Meta]] / [[EdgeConneX]] | Project Walleye (Ohio) | TBD | Island mode -- on-site gas microgrid, first combined DC + power financing ($3B) |
+
+### Utility-scale BYOP goes mainstream (Apr 23, 2026)
+
+[[NextEra Energy]] said on Apr. 23 that it expects to finalize agreements within about three months on two Japan-backed gas-fired projects for U.S. data centers, one in Pennsylvania and one in Texas, totaling nearly 10 GW. That is an important step in the evolution of BYOP.
+
+Until now, many of the flagship examples were hyperscalers contracting directly for power or co-locating with generation assets. NextEra shows the next phase: utilities and utility-adjacent developers industrializing BYOP as a dedicated product for data-center customers, with cross-border financing and multi-gigawatt scale.
 
 ---
 

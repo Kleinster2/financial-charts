@@ -286,6 +286,25 @@ See [[AI labor displacement]] → "The interest-rate counter-narrative" for the 
 
 ---
 
+## Project-finance concentration hits Wall Street limits (Apr 23, 2026)
+
+The Apr. 23 WSJ report, syndicated via Livemint, added an important new layer to the Oracle debt story: the constraint is no longer just Oracle's own balance sheet. It is the capital markets' ability to absorb ever-larger project-finance packages with Oracle as the anchor tenant for [[OpenAI]] campuses.
+
+| Project / metric | Value |
+|------------------|-------|
+| Crusoe Abilene original site | ~$10B construction loans |
+| Vantage Texas + Wisconsin campuses | ~$38B borrowed |
+| Stack New Mexico campus | ~$18B borrowed |
+| Oracle funding already raised for 2026 | ~$50B stock + bonds |
+| Additional need for 2027 + H1 2028 | $100B+ (Morgan Stanley credit analysts) |
+| Stock reaction | $176.28 close, -6.0% on Apr. 23 |
+
+Banks reportedly struggled for months to syndicate some of these loans because many lenders that would normally buy the paper were already near internal single-counterparty concentration limits on Oracle exposure. The cleanest datapoint was Abilene expansion: lenders reportedly balked at financing additional capacity if Oracle were the tenant, and the developer instead leased that expansion to [[Microsoft]]. That matters because the debt often sits at the project level, not directly on Oracle's balance sheet, yet the tenant concentration still clogs the market. The implication for the physical AI buildout is uncomfortable: even if the GPUs exist and the power plan exists, the capital stack can still stall if too much of the pipeline runs through one leveraged tenant and one subtenant.
+
+This is the strongest evidence yet that the Oracle / [[OpenAI]] buildout is testing not just compute supply and grid capacity, but Wall Street's distribution capacity for AI infrastructure risk.
+
+---
+
 ## [[Guggenheim Partners]] "decade stock" thesis (Jan 2026)
 
 John DiFucci's $400 price target — 118% upside from $183 (Barron's, Jan 20, 2026):

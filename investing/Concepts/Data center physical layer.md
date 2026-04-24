@@ -82,6 +82,18 @@ Sightline Climate's February 2026 pipeline tracker, highlighted again by [[Bloom
 
 A quarter of the 2026 pipeline has not disclosed how it will be powered. That is the useful update. The bottleneck is not just capital formation or even GPU availability. It is energization: [[Large power transformers]], switchgear, batteries, substation work, labor, and local approvals. The financial stack can close before the electrical stack exists.
 
+### Capital stack bottleneck: Oracle concentration (Apr 23, 2026)
+
+The Apr. 23 WSJ reporting on [[Oracle]] / [[OpenAI]] added the opposite warning: sometimes the electrical plan exists, but the financial stack does not close cleanly. Banks that financed Oracle-leased data-center campuses in Texas and Wisconsin reportedly struggled to syndicate the debt because many institutions were already near internal exposure limits to Oracle as a single counterparty.
+
+| Project | Borrowed / issue size | Readthrough |
+|---------|------------------------|-------------|
+| Crusoe Abilene original site | ~$10B | Among the largest project-finance construction loans on record |
+| Vantage Texas + Wisconsin | ~$38B | Scale pushed lender concentration limits |
+| Stack New Mexico | ~$18B | Another giant Oracle-linked package |
+
+The most important datapoint: an expansion of the Abilene complex reportedly became easier to finance when the developer leased it to [[Microsoft]] instead of Oracle. The lesson is that "data center bottleneck" in 2026 means gear, land, labor, permits, power, and increasingly tenant credit concentration. The same AI boom is crowding both the transformer queue and the bank book.
+
 ---
 
 ## Vacancy and pricing

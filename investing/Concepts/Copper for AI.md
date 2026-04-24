@@ -166,6 +166,15 @@ The supply chain is contracting at the smelter layer while demand explodes at th
 - Substations, transformers all copper-heavy
 - [[Power constraints]] = more grid investment
 
+### Supply-side reminder: [[Freeport-McMoRan]] / [[Grasberg]] reset (Apr 23, 2026)
+
+The demand story is only half the thesis. On Apr. 23, [[Freeport-McMoRan]] cut expected 2026 output from Grasberg to 800M lbs of copper and 700K oz of gold, down from prior guidance of 1.1B lbs and about 800K oz, after wetter-than-expected ore forced slower underground restart work and the installation of "spillminators" to prevent mud rushes.
+
+Why it matters:
+- One of the world's most important copper mines just removed roughly 300M lbs of expected annual supply while AI and grid demand are accelerating
+- Copper bulls do not need a greenfield supply collapse to win, they need repeated under-delivery from the existing asset base
+- The bottleneck is not just permitting 17-year new mines. It is also execution risk at the giant mines that are supposed to bridge the gap before new supply arrives
+
 ### Electrification
 - EVs: 50-80 kg copper per vehicle (vs 20 kg for ICE)
 - Charging infrastructure

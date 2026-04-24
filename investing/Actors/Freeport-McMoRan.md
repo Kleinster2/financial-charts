@@ -118,12 +118,29 @@ Freeport = most liquid pure-play copper stock.
 
 | Project | Status |
 |---------|--------|
-| Grasberg underground | Ramping (world-class) |
+| Grasberg underground | Restart delayed; 65% restoration by H2 2026 |
 | Lone Star (AZ) | Expanding leach |
 | Bagdad expansion | Permitted |
 | El Abra sulfide | Feasibility |
 
-**Grasberg underground** extends mine life 40+ years.
+**Grasberg underground** still extends mine life 40+ years, but the April 2026 restart setback is a reminder that supply does not show up on schedule just because copper prices say it should.
+
+## Q1 2026 results + Grasberg reset (Apr 23, 2026)
+
+Freeport beat Q1 profit estimates because copper prices surged, but the market focused on a sharper production reset at Grasberg. Wetter-than-expected ore and groundwater after the Sept. 2025 flood forced the company to install specialized "spillminators" to prevent mud rushes, slowing the underground restart.
+
+| Metric | Value |
+|--------|-------|
+| Adjusted EPS | $0.57 vs $0.46 consensus |
+| Copper production | 662M recoverable lbs, -23.7% YoY |
+| Gold production | 97K recoverable oz, -66.2% YoY |
+| Average copper price | +36.7% YoY |
+| 2026 Grasberg recovery target | 65% by H2, down from 85% |
+| 2026 copper guidance | 800M lbs, down from 1.1B lbs |
+| 2026 gold guidance | 700K oz, down from ~800K oz |
+| Stock reaction | $61.48 close, -12.6% on Apr. 23 |
+
+This is exactly the kind of supply-side slippage that makes the [[Copper for AI]] thesis more durable. Demand from AI data centers, grid upgrades, and electrification is accelerating into a market where one of the world's most important copper mines just cut expected output by roughly 300M lbs for the year. Freeport also said higher diesel prices are adding roughly $500M to annual costs, and while sulfuric-acid supply is manageable in 2026 because it makes acid at its own smelters, management said a prolonged Iran conflict into 2027 would require a reassessment.
 
 ---
 

@@ -6,7 +6,7 @@ tags: [event, ai, china, ip]
 
 # AI distillation wars (2025-2026)
 
-US frontier AI labs accused Chinese competitors — principally [[DeepSeek]], [[Moonshot AI]], and [[MiniMax]] — of systematically extracting capabilities from their models via [[model distillation]]. [[OpenAI]] went first (Feb 12, 2026), [[Anthropic]] followed with granular technical evidence (Feb 23). Both disclosures landed during the US debate over AI chip [[export controls]], framing a commercial dispute as a national security issue.
+US frontier AI labs accused Chinese competitors — principally [[DeepSeek]], [[Moonshot AI]], and [[MiniMax]] — of systematically extracting capabilities from their models via [[Model distillation|model distillation]]. [[OpenAI]] went first (Feb 12, 2026), [[Anthropic]] followed with granular technical evidence (Feb 23), and the White House effectively adopted that framing on Apr. 23. What began as a commercial dispute over model theft is now an explicit national-security argument tied to AI chip and API [[Export controls|export controls]].
 
 ---
 
@@ -19,6 +19,7 @@ US frontier AI labs accused Chinese competitors — principally [[DeepSeek]], [[
 | Feb 12, 2026 | [[OpenAI]] publicly accuses [[DeepSeek]] of using obfuscated third-party routers to distill [[ChatGPT]] models |
 | Feb 23, 2026 | [[Anthropic]] publishes detailed blog post accusing [[DeepSeek]], [[Moonshot AI]], [[MiniMax]] of "industrial-scale distillation attacks" on [[Claude]] |
 | Feb 24, 2026 | Backlash — Elon Musk, media outlets highlight hypocrisy given labs' own training on scraped internet data |
+| Apr 23, 2026 | [[Michael Kratsios]] / White House memo accuses China-based entities of deliberate, industrial-scale distillation campaigns against U.S. frontier models |
 
 ---
 
@@ -76,13 +77,24 @@ The labs want one rule upstream (scraping is fair use) and another downstream (d
 | Trade secret | Requires the secret to be secret — but these models are sold as API products |
 | IP theft framing | Politically effective, legally weak |
 
-See [[model distillation]] for the deeper IP analysis.
+See [[Model distillation|model distillation]] for the deeper IP analysis.
+
+---
+
+## White House escalation (Apr 23, 2026)
+
+The White House memo issued by [[Michael Kratsios]] marked the event's policy escalation point. It said the U.S. government had information indicating that foreign entities, principally based in [[China]], were using tens of thousands of proxy accounts and jailbreaking techniques to expose proprietary information and systematically extract capabilities from U.S. frontier models.
+
+Two things changed with that memo:
+
+1. **The accusation became state-backed.** Until Apr. 23, the distillation story was mostly labs arguing that competitors were free-riding on their models. After the memo, it became the U.S. government accusing a geopolitical rival of organized technology theft.
+2. **The policy aperture widened beyond chips.** The memo said the administration would share information with American AI companies and explore measures to hold foreign actors accountable. That puts API access controls, identity verification, and model-distribution restrictions onto the same policy track as hardware [[Export controls|export controls]].
 
 ---
 
 ## Why the timing matters
 
-Both disclosures landed during the US debate over tightening AI chip [[export controls]]. The argument being constructed for Washington:
+Both disclosures landed during the US debate over tightening AI chip [[Export controls|export controls]]. The argument being constructed for Washington:
 
 1. Hardware controls are insufficient if Chinese labs can distill US models over the wire
 2. API access itself may need restrictions — not just chips
@@ -96,7 +108,7 @@ This reframes a commercial dispute (TOS violation) as a national security issue 
 
 If [[DeepSeek]] can replicate 80% of [[Claude]]'s capabilities by spending a few hundred thousand dollars on API calls instead of billions on training, that threatens the valuation thesis for every frontier lab. The "distillation is theft" framing reframes a competitive vulnerability as a law enforcement problem — easier to raise capital when the story is "we're being robbed by China" rather than "our moat is shallower than we told investors."
 
-See [[model distillation]] for the moat implications.
+See [[Model distillation|model distillation]] for the moat implications.
 
 ---
 

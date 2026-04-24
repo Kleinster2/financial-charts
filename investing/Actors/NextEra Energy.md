@@ -32,8 +32,10 @@ NEE shows moderate Utilities correlation (XLU r = 0.69).
 | Long-term EPS growth | 8%+ annually through 2032 |
 | Dividend yield | ~2.7% |
 | Dividend growth target | 10% annually through 2026 |
-| Backlog | 30 GW total |
-| DC pipeline | 9 GW in advanced discussions |
+| Backlog | ~33 GW total |
+| FPL data center pipeline | 21 GW of requests |
+| Advanced FPL talks | 10+ GW |
+| Japan-backed gas projects | ~10 GW in PA + TX |
 
 *Updated 2026-01-28*
 
@@ -102,6 +104,23 @@ NEE shows moderate Utilities correlation (XLU r = 0.69).
 - 8%+ annual EPS growth through 2032
 - 10% dividend growth through 2026
 
+## Q1 2026 earnings + Japan-backed gas projects (Apr 23, 2026)
+
+NextEra's Apr. 23 print made the power-for-AI story more concrete. The company beat Q1 estimates, held full-year guidance, and said it expects to finalize agreements within about three months on two Japan-backed natural-gas projects for U.S. data centers, one in Pennsylvania and one in Texas, totaling nearly 10 GW.
+
+| Metric | Value |
+|--------|-------|
+| Adjusted EPS | $1.09 vs $0.96 consensus |
+| FPL net income | $1.46B, up 11.1% YoY |
+| New renewables/storage backlog adds | 4 GW |
+| Battery-storage portion | 1.3 GW |
+| Total renewables/storage backlog | ~33 GW |
+| FPL data center request pipeline | 21 GW |
+| Advanced FPL discussions | More than half of pipeline |
+| Stock reaction | $96.25 close, +6.9% on Apr. 23 |
+
+The important distinction is that NextEra is now attacking the AI power problem from both sides of the meter. Inside regulated utility territory, Florida Power & Light says data-center requests have reached 21 GW and more than half are in advanced talks, with the advanced tranche expected online by 2028. Outside the utility footprint, the company is developing nearly 10 GW of gas-fired projects backed by Japan for large data-center customers. That is not just a renewable developer selling PPAs. It is utility-scale BYOP formalized into a cross-border financing structure.
+
 ---
 
 ## Key AI data center deals
@@ -117,11 +136,11 @@ NEE shows moderate Utilities correlation (XLU r = 0.69).
 
 ## Data center infrastructure buildout
 
-- **Backlog:** 30 GW total (as of Q4 2025)
-- **Active pipeline:** 9 GW in advanced discussions
-- **Florida interest:** ~20 GW of data center customers interested; half in advanced talks
+- **Backlog:** ~33 GW total (Q1 2026)
+- **FPL request pipeline:** 21 GW of data center load requests; more than half in advanced talks
+- **Japan-backed off-system projects:** ~10 GW across Pennsylvania and Texas, agreements expected within about three months
 - **Nuclear expansion:** 6 GW potential at existing sites + greenfield advanced nuclear
-- **Pipeline covers:** wind, solar, storage, nuclear restart, natural gas with CCS
+- **Pipeline covers:** wind, solar, storage, nuclear restart, natural gas with CCS, and dedicated gas-fired data center generation
 - **Competitive advantage:** lowest-cost developer, best sites locked up, procurement leverage
 
 ---

@@ -177,6 +177,16 @@ Why it matters: European regulators are treating Anthropic as a frontier model p
 
 ---
 
+### White House adopts the distillation frame (Apr 23, 2026)
+
+The Anthropic / [[OpenAI]] distillation story crossed from company allegation into U.S. policy. [[Michael Kratsios]], director of the White House Office of Science and Technology Policy, said the administration had information indicating that foreign entities, principally based in [[China]], were running deliberate, industrial-scale campaigns to distill American frontier AI systems. The memo described tens of thousands of proxy accounts, jailbreaking tactics to expose proprietary information, and systematic extraction of capabilities from U.S. models.
+
+This matters because it is the U.S. government validating the core Anthropic claim in its own language, not just Anthropic repeating its February disclosure. The memo also said Washington would share information with U.S. AI companies and explore measures to hold foreign actors accountable. In practice that moves the debate from "is distillation real?" to "what new controls get built on top of it?" including possible API restrictions alongside chip [[Export controls|export controls]].
+
+See [[AI distillation wars (2025-2026)]] for the event arc and [[Export controls]] for the policy spillover.
+
+---
+
 ### Q1 2026 operating profile
 
 Q1 2026 monthly revenue adds (disclosed on [[All-In Podcast]] Apr 10 2026 by [[Brad Gerstner]], [[Altimeter]]):
