@@ -49,6 +49,34 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ## Financials
 
+### Market-data refresh — 2026-04-24
+
+![[tesla-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for TSLA; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[tesla-sankey.png]]
+
+*Latest annual income-statement flow for TSLA; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2016 | 7.0B | 1.6B | -667M | -675M |
+| 2017 | 11.8B | 2.2B | -1.6B | -2.0B |
+| 2018 | 21.5B | 4.0B | -388M | -976M |
+| 2019 | 24.6B | 4.1B | -69.0M | -862M |
+| 2020 | 31.5B | 6.6B | 2.0B | 721M |
+| 2021 | 53.8B | 13.6B | 6.7B | 5.6B |
+| 2022 | 81.5B | 20.9B | 13.7B | 12.6B |
+| 2023 | 96.8B | 17.7B | 8.9B | 15.0B |
+| 2024 | 97.7B | 17.4B | 7.1B | 7.1B |
+| 2025 | 94.8B | 17.1B | 4.4B | 3.8B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
+
 ### Annual (10 years)
 
 | Year | Revenue | Net Income | EPS | Deliveries | Stock Price |
@@ -526,6 +554,10 @@ See [[Short interest]] for interpretation framework.
 ---
 
 ## Related
+
+### Securities
+- [[Tesla securities]] — traded equity for [[Tesla]]
+
 
 - [[TERAFAB]] — $20-25B joint fab with SpaceX/xAI, announced Mar 21 2026. Inference chips for vehicles + Optimus. Bernstein estimates full vision at $5-13T. Not yet in 2026 capex plan (already >$20B).
   - April 7: [[Intel]] signed on as Terafab foundry partner, contributing 18A process node and packaging. Two fabs on Giga Texas: auto/robotics (FSD, [[Cybercab]], [[Tesla Optimus]]) and AI datacenter/orbital. Initial 100K wafer starts/month, target 1M. See [[TERAFAB]] for full details.

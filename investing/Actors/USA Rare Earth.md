@@ -121,6 +121,28 @@ USAR's equity recovered to $23.05 by April 23, 2026, modestly above the $21.50 P
 
 ## Financials
 
+### Market-data refresh — 2026-04-24
+
+![[usa-rare-earth-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for USAR; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[usa-rare-earth-sankey.png]]
+
+*Latest annual income-statement flow for USAR; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2022 | 0.00M | -0.21M | -24.3M | -23.8M |
+| 2023 | 0.00M | -0.31M | -24.8M | -7.42M |
+| 2024 | 0.00M | 0.00M | -15.6M | -15.7M |
+| 2025 | 1.64M | 0.20M | -59.5M | -298M |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
+
 USAR is pre-revenue in its core mine-to-magnet operations. Disclosed financial data reflects a development-stage company; the Serra Verde acquisition (closing pending) is expected to introduce operating revenue from 2026 onward.
 
 | Metric | Value | Date |

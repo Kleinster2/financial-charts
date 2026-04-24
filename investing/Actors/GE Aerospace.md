@@ -1,5 +1,5 @@
 ---
-aliases: [GE, [[General Electric]] Aerospace]
+aliases: [GE, General Electric Aerospace]
 ---
 #actor #company #aerospace #industrials #usa #public
 
@@ -132,7 +132,35 @@ Now focused solely on aviation.
 
 ---
 
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+![[ge-aerospace-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for GE; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[ge-aerospace-sankey.png]]
+
+*Latest annual income-statement flow for GE; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2021 | — | — | — | — |
+| 2022 | 29.1B | 10.2B | 3.6B | 336M |
+| 2023 | 35.3B | 12.4B | 4.7B | 9.5B |
+| 2024 | 38.7B | 14.4B | 6.8B | 6.6B |
+| 2025 | 45.9B | 16.9B | 8.7B | 8.7B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
 ## Related
+
+### Securities
+- [[GE Aerospace securities]] — traded equity for [[GE Aerospace]]
+
 
 ### Competitors
 - [[RTX]] — Pratt & Whitney engines

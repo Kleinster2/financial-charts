@@ -9,6 +9,19 @@ Longi Green Energy Technology is a [[China]]-based solar-and-hydrogen manufactur
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.53 |
+| [[Consumer Staples]] | XLP | -0.30 |
+| [[Real estate\|Real Estate]] | XLRE | -0.26 |
+| *S&P 500* | *SPY* | *-0.00* |
+
+601012.SS shows moderate China Internet correlation (KWEB r = 0.53).
+
+---
+
 ## Quick stats
 
 | Field | Value |
@@ -66,7 +79,34 @@ The financial reality is less triumphant: Chinese solar has been in brutal price
 
 ---
 
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+![[longi-green-energy-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for 601012.SS; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[longi-green-energy-sankey.png]]
+
+*Latest annual income-statement flow for 601012.SS; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2021 | 80.6B | 16.3B | 11.8B | 9.1B |
+| 2022 | 129.0B | 19.8B | 12.1B | 14.8B |
+| 2023 | 129.5B | 24.0B | 14.0B | 10.8B |
+| 2024 | 82.6B | 6.1B | -1.1B | -8.6B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (CNY).*
+
 ## Related
+
+### Securities
+- [[Longi Green Energy securities]] — traded equity for [[Longi Green Energy]]
+
 
 ### Concepts
 - [[Electrolyzers]] — parent concept

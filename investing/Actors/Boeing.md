@@ -186,7 +186,40 @@ Bear:
 
 ---
 
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+![[boeing-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for BA; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[boeing-sankey.png]]
+
+*Latest annual income-statement flow for BA; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2016 | 94.6B | 13.8B | 5.5B | 4.9B |
+| 2017 | 94.0B | 17.4B | 10.1B | 8.5B |
+| 2018 | 101.1B | 19.6B | 11.8B | 10.5B |
+| 2019 | 76.6B | 4.5B | -1.9B | -636M |
+| 2020 | 58.2B | 1.0B | -6.3B | -11.9B |
+| 2021 | 62.3B | 6.5B | 63.0M | -4.2B |
+| 2022 | 66.6B | 3.5B | -3.6B | -4.9B |
+| 2023 | 77.8B | 7.7B | -773M | -2.2B |
+| 2024 | 66.5B | -2.0B | -10.8B | -11.8B |
+| 2025 | 89.5B | 4.3B | -5.4B | 2.2B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
 ## Related
+
+### Securities
+- [[Boeing securities]] — traded equity for [[Boeing]]
+
 
 ### Competitors
 - [[Airbus]] — duopoly partner

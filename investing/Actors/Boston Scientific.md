@@ -64,6 +64,34 @@ EP/ablation strength. Boston Scientific's FARAPULSE pulsed field ablation system
 
 ## Financials
 
+### Market-data refresh — 2026-04-24
+
+![[boston-scientific-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for BSX; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[boston-scientific-sankey.png]]
+
+*Latest annual income-statement flow for BSX; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2016 | 8.4B | 5.3B | 1.2B | 347M |
+| 2017 | 9.0B | 5.9B | 1.5B | 104M |
+| 2018 | 9.8B | 6.5B | 1.7B | 1.7B |
+| 2019 | 10.7B | 6.9B | 1.7B | 4.7B |
+| 2020 | 9.9B | 5.6B | 601M | -82.0M |
+| 2021 | 11.9B | 7.5B | 1.9B | 1.0B |
+| 2022 | 12.7B | 7.7B | 1.8B | 698M |
+| 2023 | 14.2B | 8.8B | 2.2B | 1.6B |
+| 2024 | 16.7B | 10.3B | 2.6B | 1.9B |
+| 2025 | 20.1B | 13.9B | 4.0B | 2.9B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
+
 | Year | Revenue | Growth | Notes |
 |------|---------|--------|-------|
 | 2023 | $14.2B | +12% | |
@@ -91,6 +119,10 @@ Bear case:
 ---
 
 ## Related
+
+### Securities
+- [[Boston Scientific securities]] — traded equity for [[Boston Scientific]]
+
 
 - [[Healthcare]] — sector hub
 - [[Medtronic]] — primary competitor

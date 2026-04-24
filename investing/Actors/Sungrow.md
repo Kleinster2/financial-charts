@@ -9,6 +9,22 @@ Sungrow Power Supply is a [[China]]-based power-electronics manufacturer, listed
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> 300274.SZ does not trade tightly with any sector ETF (max r = 0.19 with KWEB).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| China Internet | KWEB | 0.19 |
+| [[Banks\|Regional Banks]] | KRE | -0.15 |
+| Financials | XLF | -0.11 |
+| *S&P 500* | *SPY* | *0.06* |
+
+300274.SZ trades between China Internet and Regional Banks without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Field | Value |
@@ -58,7 +74,34 @@ The EU Hydrogen Bank auction results from 2023-2024, where Chinese-equipment-dom
 
 ---
 
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+![[sungrow-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for 300274.SZ; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[sungrow-sankey.png]]
+
+*Latest annual income-statement flow for 300274.SZ; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2022 | 40.3B | 9.9B | 4.5B | 3.6B |
+| 2023 | 72.3B | 19.6B | 13.4B | 9.4B |
+| 2024 | 77.9B | 23.3B | 15.1B | 11.0B |
+| 2025 | 89.2B | 28.4B | 17.8B | 13.5B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (CNY).*
+
 ## Related
+
+### Securities
+- [[Sungrow securities]] — traded equity for [[Sungrow]]
+
 
 ### Concepts
 - [[Electrolyzers]] — parent concept, full competitive mapping

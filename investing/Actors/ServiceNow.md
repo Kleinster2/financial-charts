@@ -61,6 +61,34 @@ NOW trades as a core Software name (IGV r = 0.83).
 
 ## Financials
 
+### Market-data refresh — 2026-04-24
+
+![[servicenow-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for NOW; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[servicenow-sankey.png]]
+
+*Latest annual income-statement flow for NOW; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2015 | 1.0B | 676M | -166M | -198M |
+| 2016 | 1.4B | 992M | -423M | -452M |
+| 2017 | 1.9B | 1.4B | -101M | -149M |
+| 2018 | 2.6B | 2.0B | -42.4M | -26.7M |
+| 2019 | 3.5B | 2.7B | 42.0M | 627M |
+| 2020 | 4.5B | 3.5B | 199M | 119M |
+| 2021 | 5.9B | 4.5B | 257M | 230M |
+| 2022 | 7.2B | 5.7B | 355M | 325M |
+| 2023 | 9.0B | 7.0B | 762M | 1.7B |
+| 2024 | 11.0B | 8.7B | 1.4B | 1.4B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
+
 | Year | Revenue | Net Income | Growth |
 |------|---------|------------|--------|
 | 2025 | $13.2B | $1.7B | 21% |
@@ -260,6 +288,10 @@ Bear:
 ---
 
 ## Related
+
+### Securities
+- [[ServiceNow securities]] — traded equity for [[ServiceNow]]
+
 
 - [[Salesforce]] — competitor (enterprise platform)
 - [[Microsoft]] — competitor (Copilot, Dynamics)

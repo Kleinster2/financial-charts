@@ -130,7 +130,42 @@ Zacks detail: Rank #1 (Strong Buy). Value D, Growth C, Momentum D. Market cap $1
 ![[isrg-employees-chart.png]]
 *Headcount: 17,021 (2025) — up 8.8% YoY*
 
+---
+
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+![[intuitive-surgical-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for ISRG; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[intuitive-surgical-sankey.png]]
+
+*Latest annual income-statement flow for ISRG; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2015 | 2.4B | 1.6B | 740M | 589M |
+| 2016 | 2.7B | 1.9B | 945M | 736M |
+| 2017 | 3.1B | 2.2B | 1.1B | 660M |
+| 2018 | 3.7B | 2.6B | 1.2B | 1.1B |
+| 2019 | 4.5B | 3.1B | 1.4B | 1.4B |
+| 2020 | 4.4B | 2.9B | 1.0B | 1.1B |
+| 2021 | 5.7B | 4.0B | 1.8B | 1.7B |
+| 2022 | 6.2B | 4.2B | 1.6B | 1.3B |
+| 2023 | 7.1B | 4.7B | 1.8B | 1.8B |
+| 2024 | 8.4B | 5.6B | 2.3B | 2.3B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
 ## Related
+
+### Securities
+- [[Intuitive Surgical securities]] — traded equity for [[Intuitive Surgical]]
+
 
 - [[Agentic AI]] — surgical automation
 - [[Robotics]] — broader robotics theme

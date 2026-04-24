@@ -142,7 +142,32 @@ Global connector market is an oligopoly. TEL, [[Amphenol]], and Molex (privately
 
 ## Financials
 
-Annual and quarterly income-statement series to be backfilled from StockAnalysis.com — Alpha Vantage rate-limited on 2026-04-23 ingestion pass. Fundamentals chart and Sankey will follow once `income_statement_annual` and `income_statement_quarterly` rows are populated.
+### Market-data refresh — 2026-04-24
+
+![[te-connectivity-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for TEL; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[te-connectivity-sankey.png]]
+
+*Latest annual income-statement flow for TEL; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2016 | 12.2B | 4.0B | 1.9B | 2.0B |
+| 2017 | 13.1B | 4.1B | 2.1B | 1.7B |
+| 2018 | 14.0B | 4.7B | 2.5B | 2.6B |
+| 2019 | 13.4B | 4.3B | 2.2B | 1.9B |
+| 2020 | 12.2B | 3.7B | 1.8B | -241M |
+| 2021 | 14.9B | 4.7B | 2.6B | 2.3B |
+| 2022 | 16.3B | 5.1B | 2.9B | 2.4B |
+| 2023 | 16.0B | 5.0B | 2.7B | 1.9B |
+| 2024 | 15.8B | 5.5B | 2.8B | 3.2B |
+| 2025 | 17.1B | 5.9B | 3.2B | 1.8B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
 
 ---
 

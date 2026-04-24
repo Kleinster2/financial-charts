@@ -262,6 +262,28 @@ The stock is priced for aggressive execution on the silicon strategy. At current
 
 ## Financials
 
+### Market-data refresh — 2026-04-24
+
+![[arm-holdings-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for ARM; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[arm-holdings-sankey.png]]
+
+*Latest annual income-statement flow for ARM; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2022 | 2.7B | 2.6B | 680M | 549M |
+| 2023 | 2.7B | 2.6B | 678M | 524M |
+| 2024 | 3.2B | 3.1B | 117M | 306M |
+| 2025 | 4.0B | 3.9B | 831M | 792M |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
+
 | Metric | FY2023 | FY2024 | FY2025 | TTM (Dec 2025) |
 |--------|--------|--------|--------|----------------|
 | Revenue | $2.68B | $3.23B | $4.01B | ~$4.67B |
@@ -303,6 +325,10 @@ Management 5-year targets (by ~2031): $25B revenue, $9 EPS — implying the IP b
 ---
 
 ## Related
+
+### Securities
+- [[Arm Holdings securities]] — traded equity for [[Arm Holdings]]
+
 
 - [[SoftBank]] — parent company (~87%), [[Masayoshi Son]] chairs board
 - [[Masayoshi Son]] — chairman, controls strategic direction

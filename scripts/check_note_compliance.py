@@ -281,6 +281,7 @@ class NoteChecker:
         is_geography = self._has_tag(content, "#geography") or any(self._has_tag(content, tag) for tag in ["#country", "#region", "#city"])
         is_vc = self._has_tag(content, "#vc")
         is_investor = self._has_tag(content, "#investor") or self._has_tag(content, "#hedgefund") or self._has_tag(content, "#pe")
+        is_public_exempt = self._is_public_company_exempt(content)
         is_product = self._has_tag(content, "#product")  # Products belong to parent companies
 
         # Structure checks
@@ -290,7 +291,7 @@ class NoteChecker:
         issues.extend(self._check_table_formatting(content, filepath))
 
         # Chart checks (public companies and ETFs, not products)
-        if (is_public or is_etf) and not is_product:
+        if ((is_public and not is_public_exempt) or is_etf) and not is_product:
             issues.extend(self._check_price_chart(content, filepath, is_etf))
             issues.extend(self._check_chart_captions(content, filepath))
 
@@ -300,23 +301,23 @@ class NoteChecker:
             issues.extend(self._check_chart_captions(content, filepath))
 
         # Sector correlation (public companies and ETFs, not people/geographies/products)
-        if (is_public or is_etf) and not is_person and not is_geography and not is_product:
+        if ((is_public and not is_public_exempt) or is_etf) and not is_person and not is_geography and not is_product:
             issues.extend(self._check_sector_correlation(content, filepath))
 
         # Fundamentals chart (public companies only, not ETFs/products)
-        if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+        if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_fundamentals_chart(content, filepath))
 
         # Sankey chart (public companies only, not ETFs/products)
-        if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+        if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_sankey_chart(content, filepath))
 
         # Actor/Securities split (public companies in Actors/, not people/geographies/products)
-        if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+        if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_securities_split(content, filepath))
 
         # Financials checks (not products - those go on parent company)
-        if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
+        if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_historical_financials(content, filepath))
 
         # Cap table checks (private companies, not investment firms or products)
@@ -339,11 +340,11 @@ class NoteChecker:
             issues.extend(self._check_synopsis(content, filepath))
 
         # Analyst timeline check (public companies, not ETFs/people/geographies/products)
-        if is_public and not is_etf and not is_person and not is_geography and not is_product:
+        if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_product:
             issues.extend(self._check_analyst_timeline(content, filepath))
 
         # Credit rating check (public companies, not ETFs/people/geographies/products)
-        if is_public and not is_etf and not is_person and not is_geography and not is_product:
+        if is_public and not is_public_exempt and not is_etf and not is_person and not is_geography and not is_product:
             issues.extend(self._check_credit_rating(content, filepath))
 
         return issues
@@ -368,30 +369,39 @@ class NoteChecker:
 
     @staticmethod
     def _extract_ticker(content: str) -> str | None:
-        """Extract primary ticker symbol from Quick stats table."""
-        m = re.search(r"Ticker\s*\|\s*([A-Z][A-Z0-9.]{0,9})", content)
+        """Extract primary ticker symbol from frontmatter or a Quick stats table."""
+        m = re.search(r"(?im)^ticker:\s*([A-Z0-9][A-Z0-9.\-]{0,12})", content)
+        if m:
+            return m.group(1)
+        m = re.search(r"\|\s*Ticker(?:\s*\([^)]*\))?\s*\|\s*([A-Z0-9][A-Z0-9.\-]{0,12})", content)
         return m.group(1) if m else None
+
+    def _is_public_company_exempt(self, content: str) -> bool:
+        """Check for actor tags that should never trigger public-company gates."""
+        exempt_tags = [
+            "#government", "#regulator", "#agency", "#ministry", "#law-firm",
+            "#professional-services", "#private", "#private_company", "#brand",
+            "#spac", "#de-spac", "#person", "#country", "#region", "#city",
+            "#geography", "#vc", "#investor", "#hedgefund", "#pe", "#nonprofit",
+            "#university", "#think-tank", "#academic", "#politician",
+        ]
+        return any(self._has_tag(content, tag) for tag in exempt_tags)
 
     def _is_public_company(self, content: str) -> bool:
         """Check if note is for a public company.
 
-        Design principle: prefer false positives over missed checks.
-        Non-public entities (#actor/private, #actor/government) may trigger
-        chart/financials errors — that's intentional. A spurious error on a
-        government agency is cheap; a missed check on an actual public company
-        that should have charts is not.
+        Public-company compliance gates are expensive and should only fire for
+        notes that explicitly identify a traded company/security. Do not infer
+        public status from a bare ``#actor`` tag: government agencies, law firms,
+        SPAC shells, and private companies are all actor notes too.
         """
-        # Has ticker in quick stats
-        if re.search(r"Ticker\s*\|\s*[A-Z]{1,5}\s*\(", content):
+        if self._is_public_company_exempt(content):
+            return False
+        if self._has_tag(content, "#public_company") or self._has_tag(content, "#public"):
             return True
-        # Has #private tag = not public
-        if self._has_tag(content, "#private"):
-            return False
-        # Has #brand tag = subsidiary/brand, not standalone public
-        if self._has_tag(content, "#brand"):
-            return False
-        # Is an actor without #private = assume public
-        if self._has_tag(content, "#actor") and not self._has_tag(content, "#person"):
+        # Has ticker in quick stats / frontmatter. Require a real ticker-like
+        # token, including foreign suffixes (e.g. 300274.SZ, ITM.L, NEL.OL).
+        if self._extract_ticker(content):
             return True
         return False
 
@@ -860,9 +870,11 @@ aliases: []
         # Accept both "fundamentals" and "financials" in filename
         has_fundamentals = bool(re.search(r'!\[\[.*(fundamentals|financials).*\.png\]\]', content, re.IGNORECASE))
 
-        # Allow for pre-profit startups / recent IPOs with limited disclosure
+        # Allow for pre-profit startups / recent IPOs with limited disclosure,
+        # and for cases where quarterly fundamentals data is unavailable even
+        # though annual financials are present (common for foreign listings).
         has_exemption = bool(re.search(
-            r'(pre-profit|limited\s*(financial\s*)?disclosure|not\s*(yet\s*)?public|recently\s*ipo)',
+            r'(pre-profit|limited\s*(financial\s*)?disclosure|not\s*(yet\s*)?public|recently\s*ipo|fundamentals\s*(chart\s*)?(data\s*)?unavailable|quarterly\s*fundamentals\s*(data\s*)?unavailable|annual-only\s*financial)',
             content, re.IGNORECASE
         ))
 
@@ -889,7 +901,7 @@ aliases: []
 
         # Allow same exemptions as fundamentals (pre-profit, limited disclosure, etc.)
         has_exemption = bool(re.search(
-            r'(pre-profit|limited\s*(financial\s*)?disclosure|not\s*(yet\s*)?public|recently\s*ipo)',
+            r'(pre-profit|limited\s*(financial\s*)?disclosure|not\s*(yet\s*)?public|recently\s*ipo|income\s*statement\s*(data\s*)?unavailable|annual-only\s*financial)',
             content, re.IGNORECASE
         ))
 
@@ -981,6 +993,13 @@ aliases: []
     def _check_historical_financials(self, content: str, filepath: Path) -> list[Issue]:
         """Check for historical financials (10-year requirement for public companies)."""
         issues = []
+
+        has_exemption = bool(re.search(
+            r'(pre-profit|limited\s*(financial\s*)?disclosure|not\s*(yet\s*)?public|recently\s*ipo|annual-only\s*financial|historical\s*financials\s*(data\s*)?unavailable)',
+            content, re.IGNORECASE
+        ))
+        if has_exemption:
+            return issues
 
         # Look for Financials section
         if "## Financials" not in content and "### Annual" not in content:

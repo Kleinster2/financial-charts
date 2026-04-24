@@ -1,11 +1,27 @@
 ---
-aliases: [Nel, NEL-OL, Nel Hydrogen]
+aliases: [Nel, NEL.OL, NEL-OL, Nel Hydrogen]
 tags: [actor, company, public_company, norway, hydrogen, electrolyzers, clean_tech]
 ---
 
 # Nel ASA
 
 Nel ASA is a [[Norway]]-headquartered pure-play electrolyzer manufacturer and one of the oldest names in commercial water electrolysis — the company traces its lineage to Norsk Hydro's hydrogen unit founded in 1927. Listed on the [[Oslo Stock Exchange]] (ticker NEL) since 2014. Makes both alkaline and PEM [[Electrolyzers|electrolyzer]] systems. The most prominent Western electrolyzer pure-play and therefore the cleanest public-market proxy for the [[Second China shock]] in hydrogen manufacturing.
+
+---
+
+## Sector correlation
+
+> [!warning] Sector Orphan
+> NEL.OL does not trade tightly with any sector ETF (max r = -0.16 with XLE).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Energy and Utilities\|Energy]] | XLE | -0.16 |
+| Oil & Gas E&P | XOP | -0.15 |
+| China Internet | KWEB | 0.12 |
+| *S&P 500* | *SPY* | *0.06* |
+
+NEL.OL trades between Energy and Oil & Gas E&P without a tight sector fit.
 
 ---
 
@@ -50,7 +66,35 @@ Whether Nel survives as an independent entity through 2028-2030 is a genuine ope
 
 ---
 
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+![[nel-asa-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for NEL.OL; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[nel-asa-sankey.png]]
+
+*Latest annual income-statement flow for NEL.OL; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2021 | — | — | — | — |
+| 2022 | 915M | 330M | -1.0B | -1.2B |
+| 2023 | 1.3B | 635M | -516M | -855M |
+| 2024 | 1.4B | 886M | -490M | -244M |
+| 2025 | 963M | 562M | -687M | -1.3B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (NOK).*
+
 ## Related
+
+### Securities
+- [[Nel ASA securities]] — traded equity for [[Nel ASA]]
+
 
 ### Concepts
 - [[Electrolyzers]] — parent concept, full competitive mapping

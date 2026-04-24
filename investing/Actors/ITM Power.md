@@ -1,5 +1,5 @@
 ---
-aliases: [ITM, ITMP.L, ITM Motive]
+aliases: [ITM, ITM.L, ITMP.L, ITM Motive]
 tags: [actor, company, public_company, uk, hydrogen, electrolyzers, clean_tech, pem]
 ---
 
@@ -9,11 +9,27 @@ ITM Power is a [[United Kingdom|UK]]-listed PEM [[Electrolyzers|electrolyzer]] m
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> ITM.L does not trade tightly with any sector ETF (max r = 0.28 with XLY).
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.28 |
+| Technology | XLK | 0.27 |
+| [[Banks\|Regional Banks]] | KRE | 0.26 |
+| *S&P 500* | *SPY* | *0.25* |
+
+ITM.L trades between Consumer and Technology without a tight sector fit.
+
+---
+
 ## Quick stats
 
 | Field | Value |
 |---|---|
-| Ticker | ITM (AIM, London) |
+| Ticker | ITM.L (AIM, London) |
 | Founded | 2000 |
 | HQ | Sheffield, [[United Kingdom]] |
 | Products | PEM electrolyzers (0.25-100 MW stacks) |
@@ -48,7 +64,33 @@ The company's best surviving commercial path appears to be large-project PEM ten
 
 ---
 
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+*Quarterly fundamentals chart data unavailable in the local charting pipeline; annual-only financial history is shown below instead.*
+
+![[itm-power-sankey.png]]
+
+*Latest annual income-statement flow for ITM.L; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2021 | — | — | — | — |
+| 2022 | 5.63M | -23.5M | -44.7M | -46.7M |
+| 2023 | 5.23M | -79.1M | -99.2M | -101M |
+| 2024 | 16.5M | -16.7M | -36.5M | -27.2M |
+| 2025 | 26.0M | -23.7M | -41.5M | -45.5M |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (GBP).*
+
 ## Related
+
+### Securities
+- [[ITM Power securities]] — traded equity for [[ITM Power]]
+
 
 ### Concepts
 - [[Electrolyzers]] — parent concept

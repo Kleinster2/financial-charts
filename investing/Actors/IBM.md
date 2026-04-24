@@ -143,6 +143,34 @@ Consulting is how IBM deploys Watsonx into enterprises.
 
 ## Financials
 
+### Market-data refresh — 2026-04-24
+
+![[ibm-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for IBM; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[ibm-sankey.png]]
+
+*Latest annual income-statement flow for IBM; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2015 | 81.7B | 40.7B | 16.5B | 13.2B |
+| 2016 | 79.9B | 38.5B | 14.7B | 11.9B |
+| 2017 | 79.1B | 36.9B | 13.1B | 5.8B |
+| 2018 | 79.6B | 36.9B | 13.2B | 8.7B |
+| 2019 | 57.7B | 31.5B | 7.5B | 9.4B |
+| 2020 | 73.6B | 35.6B | 6.9B | 5.6B |
+| 2021 | 57.4B | 31.5B | 6.8B | 5.7B |
+| 2022 | 60.5B | 32.7B | 8.2B | 1.6B |
+| 2023 | 61.9B | 34.3B | 7.5B | 7.5B |
+| 2024 | 62.8B | 35.6B | 10.1B | 6.0B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
+
 ### Annual (10 years)
 
 | Year | Revenue | Net Income | EPS | Stock Price |
@@ -339,6 +367,10 @@ Bear case:
 ---
 
 ## Related
+
+### Securities
+- [[IBM securities]] — traded equity for [[IBM]]
+
 
 - [[Microsoft]] — competitor (enterprise AI, Copilot)
 - [[Google]] — competitor (enterprise AI)

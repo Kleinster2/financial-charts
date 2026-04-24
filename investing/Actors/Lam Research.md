@@ -242,7 +242,40 @@ Stock beta: 1.87 (significantly more volatile than market).
 
 ---
 
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+![[lam-research-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for LRCX; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[lam-research-sankey.png]]
+
+*Latest annual income-statement flow for LRCX; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2016 | 5.9B | 2.6B | 1.1B | 914M |
+| 2017 | 8.0B | 3.6B | 1.9B | 1.7B |
+| 2018 | 11.1B | 5.2B | 3.2B | 2.4B |
+| 2019 | 9.7B | 4.4B | 2.5B | 2.2B |
+| 2020 | 10.0B | 4.6B | 2.7B | 2.3B |
+| 2021 | 14.6B | 6.8B | 4.5B | 3.9B |
+| 2022 | 17.2B | 7.9B | 5.4B | 4.6B |
+| 2023 | 17.4B | 7.8B | 5.2B | 4.5B |
+| 2024 | 14.9B | 7.1B | 4.3B | 3.8B |
+| 2025 | 18.4B | 9.0B | 5.9B | 5.4B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
 ## Related
+
+### Securities
+- [[Lam Research securities]] — traded equity for [[Lam Research]]
+
 
 - [[ASML]] — peer (WFE equipment)
 - [[Applied Materials]] — peer/competitor (deposition overlap)

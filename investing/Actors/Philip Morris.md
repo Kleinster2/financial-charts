@@ -66,7 +66,42 @@ Zyn: Acquired Swedish Match (2022) for $16B. Nicotine pouches, fastest-growing c
 ![[pm-employees-chart.png]]
 *Headcount: 84,900 (2025) — up 2.2% YoY*
 
+---
+
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+![[philip-morris-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for PM; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[philip-morris-sankey.png]]
+
+*Latest annual income-statement flow for PM; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2015 | 26.8B | 17.4B | 10.6B | 6.9B |
+| 2016 | 26.7B | 17.3B | 10.9B | 7.0B |
+| 2017 | 28.7B | 18.3B | 11.6B | 6.0B |
+| 2018 | 29.6B | 18.9B | 11.3B | 7.9B |
+| 2019 | 29.8B | 19.3B | 10.5B | 7.2B |
+| 2020 | 28.7B | 19.1B | 11.7B | 8.1B |
+| 2021 | 31.4B | 5.3B | 2.9B | 2.2B |
+| 2022 | 31.8B | 20.4B | 12.2B | 9.0B |
+| 2023 | 35.2B | 22.3B | 11.6B | 7.8B |
+| 2024 | 37.9B | 24.5B | 13.4B | 7.0B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
 ## Related
+
+### Securities
+- [[Philip Morris securities]] — traded equity for [[Philip Morris]]
+
 
 - [[Altria]] — US tobacco (former parent)
 - [[British American Tobacco]] — Competitor

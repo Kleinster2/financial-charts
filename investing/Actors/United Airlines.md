@@ -138,7 +138,35 @@ Bear:
 
 ---
 
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+![[united-airlines-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for UAL; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[united-airlines-sankey.png]]
+
+*Latest annual income-statement flow for UAL; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2021 | — | — | — | — |
+| 2022 | 45.0B | 10.6B | 2.5B | 737M |
+| 2023 | 53.7B | 15.2B | 5.2B | 2.6B |
+| 2024 | 57.1B | 16.5B | 5.2B | 3.1B |
+| 2025 | 59.1B | 17.0B | 5.0B | 3.4B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
 ## Related
+
+### Securities
+- [[United Airlines securities]] — traded equity for [[United Airlines]]
+
 
 - [[Delta Air Lines]] — competitor
 - [[Boeing]] — supplier

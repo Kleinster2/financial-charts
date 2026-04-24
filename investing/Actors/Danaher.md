@@ -81,7 +81,42 @@ Masimo deal still on track for H2 2026 close (no new disclosure in the call beyo
 ![[dhr-employees-chart.png]]
 *Headcount: 60,000 (2025) — down 15.5% YoY*
 
+---
+
+## Financials
+
+### Market-data refresh — 2026-04-24
+
+![[danaher-fundamentals-chart.png]]
+
+*Quarterly revenue and net income for DHR; useful as the quick visual check on whether the actor note is backed by current financial-statement data.*
+
+![[danaher-sankey.png]]
+
+*Latest annual income-statement flow for DHR; the Sankey makes the cost/revenue structure visible rather than leaving the note as a price-only stub.*
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2015 | 14.4B | 7.9B | 2.4B | 2.6B |
+| 2016 | 16.9B | 9.4B | 3.0B | 2.6B |
+| 2017 | 18.3B | 10.2B | 3.1B | 2.5B |
+| 2018 | 17.0B | 9.5B | 3.1B | 2.7B |
+| 2019 | 17.9B | 10.0B | 3.4B | 2.6B |
+| 2020 | 22.3B | 12.5B | 4.3B | 3.6B |
+| 2021 | 29.5B | 18.0B | 8.1B | 6.4B |
+| 2022 | 26.6B | 16.2B | 7.5B | 7.2B |
+| 2023 | 23.9B | 14.0B | 5.2B | 4.7B |
+| 2024 | 23.9B | 14.2B | 5.2B | 3.9B |
+
+*Source: local `market_data.db`; values shown in millions/billions of reported currency (USD).*
+
 ## Related
+
+### Securities
+- [[Danaher securities]] — traded equity for [[Danaher]]
+
 
 - [[Thermo Fisher Scientific]] — closest peer
 - [[Abbott]] — diagnostics competitor
