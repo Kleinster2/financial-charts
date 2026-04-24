@@ -22,12 +22,12 @@ Major smartphone OEM publicly warning on memory costs:
 
 ## Memory cost impact
 
-**CFO public warning:**
+CFO public warning:
 - Memory costs = principal driver of higher retail prices
 - Budgeting ~25% increase in DRAM expense per phone (2026)
 - Passing costs to consumers
 
-**Xiaomi 15 pricing:**
+Xiaomi 15 pricing:
 - Memory cost surge cited for higher MSRP
 - Premium tier hit hardest (more RAM)
 
@@ -42,7 +42,7 @@ Major smartphone OEM publicly warning on memory costs:
 | Strategy | Value flagship |
 | Memory per phone | 8-16GB typical |
 
-**Value positioning problem:** Xiaomi known for price/performance. Memory costs threaten this.
+Value positioning problem: Xiaomi known for price/performance. Memory costs threaten this.
 
 ---
 
@@ -50,9 +50,9 @@ Major smartphone OEM publicly warning on memory costs:
 
 | Segment | Memory intensity |
 |---------|------------------|
-| **Smartphones** | High (8-16GB DRAM, 256GB+ storage) |
-| **IoT/Smart home** | Lower |
-| **EVs (new)** | Moderate |
+| Smartphones | High (8-16GB DRAM, 256GB+ storage) |
+| IoT/Smart home | Lower |
+| EVs (new) | Moderate |
 
 Smartphones = bulk of memory exposure.
 
@@ -62,7 +62,7 @@ Smartphones = bulk of memory exposure.
 
 | Smartphone OEM | Response |
 |----------------|----------|
-| **Xiaomi** | +25% memory budget, raising prices |
+| Xiaomi | +25% memory budget, raising prices |
 | [[Oppo]] | Optimizing specs (less RAM?) |
 | [[Vivo]] | Same approach |
 | [[Samsung]] | Vertically integrated (makes own memory) |
@@ -80,7 +80,7 @@ Non-vertically-integrated Android OEMs hurt most.
 
 ## EV business
 
-**Xiaomi SU7 — faster to profit than Tesla:**
+Xiaomi SU7 — faster to profit than Tesla:
 
 | Metric | Value |
 |--------|-------|
@@ -90,22 +90,28 @@ Non-vertically-integrated Android OEMs hurt most.
 | Profitability | November 2025 (~18 months) |
 | Tesla comparison | Took years to reach profitability |
 
-**Upcoming models:**
+Upcoming models:
 - 5-seat model
 - 7-seat extended-range SUV (small gas engine recharges battery)
 - Up to 4 new launches/refreshes planned
 
-**Industry reaction:**
+Industry reaction:
 - Karl-Thomas Neumann (ex-VW [[China]] CEO): SU7 Ultra is "crying loud warning sign" for Western carmakers
 - MKBHD: Software integration "awesome"
 
-**Regulatory pressure:** Two SU7 crashes triggered draft rules on ADAS, door handles, battery safety.
+Regulatory pressure: Two SU7 crashes triggered draft rules on ADAS, door handles, battery safety.
+
+### Apr 2026: HyperOS turns the car into an agent
+
+At the Apr 2026 Beijing Auto Show, [[Reuters]] framed Xiaomi as one of the clearest examples of China's [[Automotive AI]] pivot. Xiaomi updated its in-car AI model just after midnight before the show, and said the HyperOS operating system in its vehicles could handle complicated to-do lists: restaurant reservations, coffee orders, notes from the road, and mood-aware arrival settings that adjust lighting and music when the driver seems stressed or agitated.
+
+The strategic point is that Xiaomi is not entering cars as a traditional automaker. It brings a consumer-electronics OS, phone/IoT ecosystem, [[MiMo-V2-Pro|MiMo]] model family, and EV hardware into one interface. That fits [[China AI Plus]] better than the old EV thesis: the car becomes a consumer AI endpoint, not just a battery on wheels.
 
 ---
 
 ## Xring chip
 
-**3nm processor (May 2025):**
+3nm processor (May 2025):
 - Xring O1 chip for tablets
 - Targeting Apple/[[Qualcomm]] performance levels
 - Xiaomi Tablet 7 Ultra
@@ -115,7 +121,7 @@ Non-vertically-integrated Android OEMs hurt most.
 
 ## US market opportunity (Jan 2026)
 
-**FT: Ford held preliminary JV talks with Xiaomi**
+FT: Ford held preliminary JV talks with Xiaomi
 
 | Element | Detail |
 |---------|--------|
@@ -123,18 +129,18 @@ Non-vertically-integrated Android OEMs hurt most.
 | Status | Preliminary, Ford denies |
 | Context | Jim Farley personally owns SU7, called it "existential threat" |
 
-**Political landscape:**
+Political landscape:
 - Trump (Jan 2026): "I love" Chinese companies building US plants
 - Pentagon history: Xiaomi was on military list (Trump 2021), removed under Biden after lawsuit
 - Congressional pressure: Dec 2025 letter urging Hegseth to re-list Xiaomi
 
-**Why Xiaomi:**
+Why Xiaomi:
 - SU7 "crying loud warning sign" for Western OEMs (ex-VW China CEO)
 - Profitable in 18 months vs Tesla's years
 - Software integration praised (MKBHD)
 - Consumer electronics brand could appeal to US buyers
 
-**Barrier:** 100% tariff on Chinese EV imports makes direct entry impossible. JV with US manufacturing is only path.
+Barrier: 100% tariff on Chinese EV imports makes direct entry impossible. JV with US manufacturing is only path.
 
 *Source: Financial Times, Jan 31 2026*
 
@@ -186,7 +192,7 @@ The pricing aggression ($1/$3 vs $7/$30 for Western equivalents) is the [[DeepSe
 
 ## Investment case
 
-**Bear:**
+Bear:
 - Memory costs crushing smartphone margins
 - No vertical integration
 - Competition from Samsung (integrated)
@@ -201,6 +207,7 @@ Bull:
 - Xring chip = vertical integration step
 - US market access via Ford JV (speculative)
 - [[MiMo-V2-Pro]]: frontier AI at 1/7th Western cost — ecosystem play for hardware + cloud + IoT
+- [[Automotive AI]]: HyperOS / MiMo stack can make the car a consumer AI endpoint
 
 ---
 
@@ -218,6 +225,26 @@ Bull:
 
 ---
 
+## Price and financial data
+
+![[xiaomi-price-chart.png]]
+
+*Xiaomi's Hong Kong listing now prices a combined smartphone, IoT, AI-model, and EV platform; the Apr 2026 [[Automotive AI]] update increases the strategic value of HyperOS and MiMo inside the car.*
+
+---
+
+## Sector correlation
+
+A computed sector-correlation table for 1810.HK is pending; local Hong Kong price coverage exists in the vault database, but the sector-correlation helper has not yet been run for Xiaomi's local listing.
+
+---
+
+## Market data notes
+
+Xiaomi has limited financial disclosure in the local vault chart pipeline: fundamentals chart data unavailable, income statement data unavailable, and historical financials data unavailable in the standardized chart database as of Apr 24, 2026. The note keeps operating/strategic data until local fundamentals are normalized.
+
+---
+
 ## Related
 
 - [[Memory shortage victims]] — thesis (smartphone OEM hit)
@@ -229,3 +256,8 @@ Bull:
 - [[MiMo-V2-Pro]] — trillion-parameter reasoning model (Mar 2026)
 - [[DeepSeek]] — architectural DNA via Fuli Luo hire
 - [[Fuli Luo]] — MiMo division lead, ex-DeepSeek R1 core contributor
+- [[Automotive AI]] — in-car agent and smart-driving context
+- [[China AI Plus]] — policy umbrella for embedding AI in hardware
+
+### Securities
+- [[Xiaomi securities]] — Hong Kong equity / 1810.HK market note

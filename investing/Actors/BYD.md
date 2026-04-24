@@ -3,7 +3,7 @@ aliases: [Build Your Dreams]
 ---
 #actor #automotive #china #ev
 
-**BYD** — Chinese EV and battery giant. Vertically integrated from cells to vehicles. **World's largest EV maker** — overtook [[Tesla]] in 2025.
+**BYD** — Chinese EV and battery giant. Vertically integrated from cells to vehicles. World's largest EV maker — overtook [[Tesla]] in 2025.
 
 ---
 
@@ -22,7 +22,7 @@ BYD represents the vertically integrated EV model:
 
 ## Vertical integration model
 
-**What BYD makes in-house:**
+What BYD makes in-house:
 
 | Component | Status | External alternative |
 |-----------|--------|---------------------|
@@ -33,13 +33,19 @@ BYD represents the vertically integrated EV model:
 | Motors | In-house | — |
 | Vehicle assembly | In-house | — |
 
-**Advantage:** Cost control, supply security, faster iteration.
+Advantage: Cost control, supply security, faster iteration.
+
+### Apr 2026: AI/chip layer added to the EV moat
+
+[[Reuters]]' Apr 24 Beijing Auto Show coverage named BYD among the Chinese EV makers designing their own chips to reduce reliance on [[NVIDIA]]. The significance is not that BYD suddenly becomes an AI-chip company; it is that the same vertical-integration logic behind Blade Battery and BYD Semiconductor is moving into the [[Automotive AI]] layer.
+
+The Chinese EV race is therefore shifting from battery cost and manufacturing scale toward a wider stack: battery, charger network, cockpit AI, smart-driving software, and silicon. BYD's in-house power semiconductors already gave it a cost and supply-chain edge; if the company can extend that logic into driver-assistance and vehicle-agent compute, the moat becomes harder for Western OEMs to copy.
 
 ---
 
 ## BYD Semiconductor
 
-**Captive chip division — potential IPO:**
+Captive chip division — potential IPO:
 
 | Product | Applications |
 |---------|--------------|
@@ -55,13 +61,13 @@ BYD represents the vertically integrated EV model:
 | External sales | Growing (other OEMs) |
 | IPO status | Delayed (poor market conditions) |
 
-**Strategic value:** Reduces reliance on [[Infineon]] (global \#1) and [[STMicro]].
+Strategic value: Reduces reliance on [[Infineon]] (global \#1) and [[STMicro]].
 
 ---
 
 ## Blade Battery technology
 
-**LFP innovation — safety + cost:**
+LFP innovation — safety + cost:
 
 | Feature | Blade Battery | Traditional |
 |---------|--------------|-------------|
@@ -71,7 +77,7 @@ BYD represents the vertically integrated EV model:
 | Energy density | Lower | Higher |
 | Cycle life | Longer | Shorter |
 
-**Strategic shift:** Industry moving toward LFP for standard-range EVs. BYD pioneered the approach.
+Strategic shift: Industry moving toward LFP for standard-range EVs. BYD pioneered the approach.
 
 ### Blade Battery 2.0 (Mar 5, 2026)
 
@@ -88,31 +94,31 @@ Second-generation Blade Battery launched alongside world's most powerful mass-pr
 | Warranty | Lifetime (cells) | — |
 | Chemistry | LFP | LFP |
 
-**Flash Charging 2.0:** Single-gun output 1,500 kW at 1,000V — 50% increase from Gen 1 (Mar 2025). T-shaped design, compact gun with waterproof protection. Stations open to non-BYD vehicles (at lower power).
+Flash Charging 2.0: Single-gun output 1,500 kW at 1,000V — 50% increase from Gen 1 (Mar 2025). T-shaped design, compact gun with waterproof protection. Stations open to non-BYD vehicles (at lower power).
 
-**Deployment:** 20,000 flash charging stations by end of 2026, including 18,000 "stations-within-a-station." 4,239 completed in first two months of 2026.
+Deployment: 20,000 flash charging stations in China by end of 2026 / over the next 12 months, with 6,000 overseas stations also planned over the same period. Prior company materials cited 18,000 "stations-within-a-station" and 4,239 completed in the first two months of 2026.
 
 For context: 1,500 kW is >3x the fastest US chargers. 400 km range in 5 minutes. This is the infrastructure moat — BYD selling the car AND the gas station.
 
-**Key constraint:** 1,500 kW speeds require BYD's own Blade Battery 2.0 — non-BYD vehicles charge at standard rates. This is a proprietary ecosystem play, analogous to [[Tesla]]'s early Supercharger lock-in.
+Key constraint: 1,500 kW speeds require BYD's own Blade Battery 2.0 — non-BYD vehicles charge at standard rates. This is a proprietary ecosystem play, analogous to [[Tesla]]'s early Supercharger lock-in.
 
 *Sources: CnEVPost, Electrek, CarNewsChina, Mar 5 2026*
 
 ### Post-launch developments (Mar 6-13, 2026)
 
-**Overseas rollout confirmed (Mar 6):** Flash Charging deployment begins overseas by end of 2026, starting with [[Europe]]. ~3,000 stations targeted for Europe by year-end. [[Denza Z9 GT]] announced for European launch Apr 8 at Paris's Palais Garnier — carries 122 kWh Blade Battery 2.0, up to 800 km WLTP range (RWD), triple-motor variant with 960+ PS. BYD stated Flash Charging is "only weeks away from its global rollout."
+Overseas rollout confirmed (Mar 6): Flash Charging deployment begins overseas by end of 2026, starting with [[Europe]]. ~3,000 stations targeted for Europe by year-end. [[Denza Z9 GT]] announced for European launch Apr 8 at Paris's Palais Garnier — carries 122 kWh Blade Battery 2.0, up to 800 km WLTP range (RWD), triple-motor variant with 960+ PS. BYD stated Flash Charging is "only weeks away from its global rollout."
 
 *Source: CarNewsChina, GlobeNewsWire, Electrive, Mar 6-13 2026*
 
-**[[JD.com]] partnership (Mar 13):** First jointly developed fast-charging station unveiled in [[Shenzhen]]. [[JD.com]] provides retail infrastructure (convenience store, coffee shop). JD.com's office parks and logistics sites will support future charger deployment.
+[[JD.com]] partnership (Mar 13): First jointly developed fast-charging station unveiled in [[Shenzhen]]. [[JD.com]] provides retail infrastructure (convenience store, coffee shop). JD.com's office parks and logistics sites will support future charger deployment.
 
 *Source: Yahoo Finance, Mar 13 2026*
 
-**Competitive threat to battery swap (Mar 8):** 5-minute charging directly threatens [[NIO]] and [[CATL]]'s battery swap business models. [[NIO]] CEO William Li responded that ultra-fast charging and battery swapping "address different use cases." But the numbers tell the story: NIO built 3,753 swap stations over 8 years; BYD built 4,239 charging stations in 2 months.
+Competitive threat to battery swap (Mar 8): 5-minute charging directly threatens [[NIO]] and [[CATL]]'s battery swap business models. [[NIO]] CEO William Li responded that ultra-fast charging and battery swapping "address different use cases." But the numbers tell the story: NIO built 3,753 swap stations over 8 years; BYD built 4,239 charging stations in 2 months.
 
 *Source: CarNewsChina, GlobalChinaEV, Mar 8 2026*
 
-**InsideEVs** named Flash Charging its "Technology of the Year" for 2026.
+InsideEVs named Flash Charging its "Technology of the Year" for 2026.
 
 ### Station-within-a-station model
 
@@ -131,7 +137,7 @@ Run rate: 4,239 stations in ~2 months = ~2,100/month. If sustained, overshoots t
 
 | System | Peak power | 10-80% time | Stations | Model |
 |--------|-----------|-------------|----------|-------|
-| **BYD Flash Charging 2.0** | 1,500 kW | ~5-6 min (10-70%) | 4,239 (target 20K) | Plug-in |
+| BYD Flash Charging 2.0 | 1,500 kW | ~5-6 min (10-70%) | 4,239 (target 20K) | Plug-in |
 | [[Tesla]] Supercharger V4 | 500 kW (China) / 325 kW (US/EU) | 15-20 min | ~7,000+ globally | Plug-in |
 | [[Xpeng]] S4 Supercharger | 480 kW | ~15 min | ~1,000+ in China | Plug-in |
 | [[CATL]] Choco Swap | N/A (swap) | 70-80 sec/swap | Target 3,000+ by end-2026 | Battery swap |
@@ -145,7 +151,7 @@ BYD's 1,500 kW is ~3x Tesla V4 in China and ~5-6x what most Tesla vehicles actua
 
 ## Vehicle lineup
 
-**Multi-brand strategy:**
+Multi-brand strategy:
 
 | Brand | Segment | Key models |
 |-------|---------|------------|
@@ -153,13 +159,13 @@ BYD's 1,500 kW is ~3x Tesla V4 in China and ~5-6x what most Tesla vehicles actua
 | Denza | Premium | D9 MPV |
 | Yangwang | Ultra-luxury | U8 SUV ($150K+) |
 | Fang Cheng Bao | Off-road | Leopard 5 |
-| **Linghui** | Fleet/ride-hailing | e5, e7, e9, M9 |
+| Linghui | Fleet/ride-hailing | e5, e7, e9, M9 |
 
-**Linghui sub-brand (Jan 2026):** Separates fleet/ride-hailing vehicles from core BYD brand. Many BYD cars now used as taxis in China, diluting brand perception for higher-end models like Han. Linghui re-badges existing models (Qin Plus -> e5, Sealion 06 -> e7, Han -> e9, Xia MPV -> M9). All use **Blade Battery** architecture (LFP).
+Linghui sub-brand (Jan 2026): Separates fleet/ride-hailing vehicles from core BYD brand. Many BYD cars now used as taxis in China, diluting brand perception for higher-end models like Han. Linghui re-badges existing models (Qin Plus -> e5, Sealion 06 -> e7, Han -> e9, Xia MPV -> M9). All use Blade Battery architecture (LFP).
 
 | Metric | 2024 |
 |--------|------|
-| Total sales | ~3.5M (2024), **4.6M (2025)** |
+| Total sales | ~3.5M (2024), 4.6M (2025) |
 | BEV share | ~60% |
 | PHEV share | ~40% |
 | Best-seller | Qin Plus |
@@ -174,7 +180,7 @@ BYD's 1,500 kW is ~3x Tesla V4 in China and ~5-6x what most Tesla vehicles actua
 
 February 2026 marked a historic milestone: BYD's overseas sales (~100K units) exceeded domestic sales (~90K) for the first time ever. This represents a structural pivot from China-focused to globally-distributed revenue base.
 
-**Jan-Feb 2026 performance:**
+Jan-Feb 2026 performance:
 - Overseas sales +50% YoY
 - Germany registrations +10x YoY (January 2026)
 - Total vehicle sales: 2.26M (2025) vs Tesla 1.64M — largest margin yet
@@ -183,28 +189,28 @@ February 2026 marked a historic milestone: BYD's overseas sales (~100K units) ex
 
 ### Financial trajectory and challenges
 
-**Net earnings:** Declined 19% to $4.7B (2025) — first profit decline since 2021, driven by domestic price war pressure. The overseas expansion is partly defensive: escaping brutal Chinese EV price competition by finding higher-margin international markets.
+Net earnings: Declined 19% to $4.7B (2025) — first profit decline since 2021, driven by domestic price war pressure. The overseas expansion is partly defensive: escaping brutal Chinese EV price competition by finding higher-margin international markets.
 
-**Geographic diversification:** Building plants in Hungary, Latin America, Southeast Asia to localize production and avoid tariffs. Similar to [[Tesla]]'s global manufacturing approach.
+Geographic diversification: Building plants in Hungary, Latin America, Southeast Asia to localize production and avoid tariffs. Similar to [[Tesla]]'s global manufacturing approach.
 
 ### Market consolidation thesis
 
 [[AlixPartners]] projects Chinese EV brands could drop from ~130 to ~15 in five years (consolidation wave). BYD's overseas expansion positions it as one of the survivors rather than a domestic casualty.
 
-**China's battery/materials dominance:**
+China's battery/materials dominance:
 - Power batteries: 70% global market share (Chinese companies)
 - Anode materials: >90% global market share
 - BYD leverages this supply chain advantage globally
 
 ### European market positioning
 
-**BYD Atto 2 pricing:** €22,990 in Europe — competitive against European alternatives despite shipping costs and potential tariffs. This price point targets mass market European buyers, not just early adopters.
+BYD Atto 2 pricing: €22,990 in Europe — competitive against European alternatives despite shipping costs and potential tariffs. This price point targets mass market European buyers, not just early adopters.
 
 ### US energy shock catalyst
 
 Rising US gasoline prices (WTI heading toward $100+ in March 2026 Iran conflict) strengthen the EV value proposition globally. Higher fossil fuel costs make BYD's EVs relatively more attractive to cost-conscious buyers worldwide.
 
-**Strategic timing:** BYD's overseas expansion accelerates exactly when:
+Strategic timing: BYD's overseas expansion accelerates exactly when:
 1. Energy costs spike globally (Iran conflict)
 2. Chinese domestic market saturates
 3. Government subsidies shift toward overseas manufacturing
@@ -221,7 +227,7 @@ Blade Battery 2.0 unveiled March 2026:
 
 ## Global expansion
 
-**Beyond China:**
+Beyond China:
 
 | Region | Strategy | Status |
 |--------|----------|--------|
@@ -229,10 +235,10 @@ Blade Battery 2.0 unveiled March 2026:
 | [[Southeast Asia]] | Thailand factory | Operational |
 | Latin America | [[Brazil]], [[Mexico]] | Expanding — bidding for [[COMPAS Mexico plant sale 2026\|COMPAS plant]] |
 | Middle East | UAE focus | Entering |
-| **Nepal** | Direct sales | **Market leader** |
-| US | Blocked (tariffs, politics) | **JV talks with [[Ford]]** |
+| Nepal | Direct sales | Market leader |
+| US | Blocked (tariffs, politics) | JV talks with [[Ford]] |
 
-**Key barrier:** US 100% tariff on Chinese EVs makes direct entry impossible.
+Key barrier: US 100% tariff on Chinese EVs makes direct entry impossible.
 
 ### Mexico plant bid (Feb 2026)
 
@@ -242,13 +248,13 @@ BYD is one of three finalists (with [[Geely]] and [[VinFast]]) to acquire the 23
 
 ### US market development (Jan 2026)
 
-**FT: Ford held talks with BYD about potential US collaboration**
+FT: Ford held talks with BYD about potential US collaboration
 
 - Ford also spoke with [[Xiaomi]] and "other Chinese carmakers"
 - Trump (Jan 2026): Open to Chinese companies building US plants
 - Ford denied the report; BYD declined to comment
 
-**Political reality:** Even with Trump's openness, Congressional opposition (House China Committee) makes any deal controversial. [[Geely]] also signaling US entry within 3 years.
+Political reality: Even with Trump's openness, Congressional opposition (House China Committee) makes any deal controversial. [[Geely]] also signaling US entry within 3 years.
 
 *Source: Financial Times, Jan 31 2026*
 
@@ -258,7 +264,7 @@ BYD displaced Indian automakers in [[India]]'s neighbor:
 
 | Metric | Value |
 |--------|-------|
-| EV share of Nepal car sales | **75%** |
+| EV share of Nepal car sales | 75% |
 | Market leader | BYD |
 | Former leader | Indian gasoline/diesel cars |
 
@@ -278,7 +284,7 @@ Unlike Western EV makers, BYD benefits from China's rare earth dominance:
 | No export risk | Not subject to China's export controls |
 | Cost advantage | Domestic prices 6x lower than European (2025) |
 
-**Implication**: China's [[Rare earth leverage]] creates structural cost advantage for BYD vs [[Tesla]], [[GM]], European OEMs.
+Implication: China's [[Rare earth leverage]] creates structural cost advantage for BYD vs [[Tesla]], [[GM]], European OEMs.
 
 See [[China retaliatory toolkit]] for the broader pattern.
 
@@ -288,12 +294,12 @@ See [[China retaliatory toolkit]] for the broader pattern.
 
 | Market | Forecast | Notes |
 |--------|----------|-------|
-| **China** | 15.5M | BYD dominates |
+| China | 15.5M | BYD dominates |
 | [[Europe]] | 4.9M (+14%) | BYD expanding |
-| **US** | 1.1M (-29%) | Trump ended tax incentives |
+| US | 1.1M (-29%) | Trump ended tax incentives |
 | Global | 24M (+13%) | Slowing from 22% growth |
 
-**BYD advantage:** China = 65% of global EV market. BYD owns home court.
+BYD advantage: China = 65% of global EV market. BYD owns home court.
 
 ---
 
@@ -304,7 +310,7 @@ See [[China retaliatory toolkit]] for the broader pattern.
 | Ticker | 1211.HK (HK), 002594.SZ ([[Shenzhen]]) |
 | Market cap | ~$100B |
 | Revenue (2024) | ~$90B |
-| EV sales | **4.6M (2025)** — world \#1 |
+| EV sales | 4.6M (2025) — world \#1 |
 | Operating margin | ~6% |
 | P/E | ~20x |
 | Key investor | [[Berkshire Hathaway]] (reduced stake) |
@@ -326,7 +332,7 @@ See [[China retaliatory toolkit]] for the broader pattern.
 
 ## Investment implications
 
-**Bull case:**
+Bull case:
 - \#1 global EV maker
 - Vertical integration cost advantage
 - Semiconductor self-sufficiency growing
@@ -334,12 +340,24 @@ See [[China retaliatory toolkit]] for the broader pattern.
 - Rare earth access vs Western OEMs
 - Global expansion (ex-US)
 
-**Bear case:**
+Bear case:
 - US market blocked indefinitely
 - Margin pressure from China competition
 - ~~European tariff risk~~ → reduced by [[EU-China EV tariffs]] deal (Jan 2026)
 - BYD Semiconductor IPO delays
 - Berkshire reducing stake (signal?)
+
+---
+
+## Sector correlation
+
+Local 1211.HK price data unavailable in the vault database as of Apr 24, 2026, so a computed sector-correlation table is deferred until [[BYD securities]] is added to the local market-data pipeline.
+
+---
+
+## Market data notes
+
+BYD has limited financial disclosure in the local vault pipeline relative to US-traded companies: fundamentals chart data unavailable, income statement data unavailable, and historical financials data unavailable in the standardized chart database as of Apr 24, 2026. The actor note therefore carries strategic / operating context; the market note tracks the missing local-price-data gap.
 
 ---
 
@@ -365,3 +383,8 @@ See [[China retaliatory toolkit]] for the broader pattern.
 - [[Export controls]] — constrains US market access
 - [[EV market 2026]] — market context
 - [[EU-China EV tariffs]] — European market access preserved
+- [[Automotive AI]] — chip/software moat layered on battery and charging moat
+- [[China AI Plus]] — policy umbrella behind AI-in-vehicles push
+
+### Securities
+- [[BYD securities]] — Hong Kong equity / 1211.HK market note

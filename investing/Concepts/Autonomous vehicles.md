@@ -8,7 +8,7 @@
 
 | Level | Name | Driver role | Examples |
 |-------|------|-------------|----------|
-| L0 | No automation | Full control | Base cars |
+| L0 | No automation | Full control | [[Base]] cars |
 | L1 | Driver assistance | Hands on | Adaptive cruise |
 | L2 | Partial automation | Eyes on road | Tesla Autopilot, [[GM]] SuperCruise |
 | L2+ | Advanced assist | Eyes off (limited) | [[Mobileye]] SuperVision |
@@ -16,7 +16,7 @@
 | L4 | High automation | No driver needed (geo-fenced) | [[Waymo]], [[Cruise]] |
 | L5 | Full automation | Anywhere, any conditions | Doesn't exist |
 
-**Key insight**: L2 → L3 is the hardest gap (liability transfer). L4 works by constraining geography.
+Key insight: L2 → L3 is the hardest gap (liability transfer). L4 works by constraining geography.
 
 ---
 
@@ -32,9 +32,9 @@
 | Goal | L4/L5 everywhere |
 | Status | L2 supervised only |
 
-**Bet**: Vision + AI can match human driving.
+Bet: Vision + AI can match human driving.
 
-### Sensor fusion (Waymo, Cruise, Aurora)
+### [[Sensor fusion]] (Waymo, Cruise, Aurora)
 
 | Aspect | Approach |
 |--------|----------|
@@ -44,7 +44,7 @@
 | Goal | L4 in geo-fenced areas |
 | Status | Waymo commercial, others developing |
 
-**Bet**: Redundancy + mapping = safety.
+Bet: Redundancy + mapping = safety.
 
 ---
 
@@ -54,25 +54,25 @@
 
 | Company | Parent | Status | Cities |
 |---------|--------|--------|--------|
-| [[Waymo]] | Alphabet | **Commercial** | SF, Phoenix, LA, Austin |
+| [[Waymo]] | [[Alphabet]] | Commercial | SF, Phoenix, LA, Austin |
 | [[Cruise]] | [[GM]] | Paused | — |
 | [[Zoox]] | [[Amazon]] | Testing | SF, Vegas |
-| [[Baidu]] [[Apollo]] | Baidu | Commercial | Wuhan, Beijing |
-| WeRide | Independent | Commercial ([[China]]) | Guangzhou |
-| Pony.ai | Independent | Commercial ([[China]]) | Multiple |
+| [[Baidu]] [[Apollo]] | Baidu | Commercial | Wuhan, [[Beijing]] |
+| [[WeRide]] | Independent | Commercial ([[China]]) | [[Guangzhou]] |
+| [[Pony.ai]] | Independent | Commercial ([[China]]) | Multiple |
 
-**US winner**: Waymo (only scaled commercial robotaxi).
+US winner: Waymo (only scaled commercial robotaxi).
 
 ### [[Autonomous trucking]]
 
 | Company | Status | Routes |
 |---------|--------|--------|
-| [[Aurora]] | **Commercial** | Dallas-Houston |
+| [[Aurora]] | Commercial | Dallas-Houston |
 | Kodiak | Testing | Regional |
 | TuSimple | Failed | — |
 | Embark | Shut down | — |
 
-**Trucking thesis**: Highways simpler than cities. Driver shortage acute. Economics compelling.
+Trucking thesis: Highways simpler than cities. Driver shortage acute. Economics compelling.
 
 ### ADAS suppliers
 
@@ -88,14 +88,14 @@
 
 | Challenge | Impact |
 |-----------|--------|
-| **Edge cases** | Infinite long tail of scenarios |
-| **Unit economics** | Each city = $100M+ investment |
-| **Regulation** | City-by-city, state-by-state approval |
-| **Safety bar** | One incident = permits revoked (Cruise) |
-| **Liability** | Who's responsible when things go wrong? |
-| **Public trust** | Slow to build, fast to lose |
+| Edge cases | Infinite long tail of scenarios |
+| Unit economics | Each city = $100M+ investment |
+| Regulation | City-by-city, state-by-state approval |
+| Safety bar | One incident = permits revoked (Cruise) |
+| Liability | Who's responsible when things go wrong? |
+| Public trust | Slow to build, fast to lose |
 
-**Waymo's 15-year journey**: Still not profitable after $5B+ invested.
+Waymo's 15-year journey: Still not profitable after $5B+ invested.
 
 ---
 
@@ -103,11 +103,11 @@
 
 | Factor | Trucking advantage |
 |--------|-------------------|
-| **Routes** | Highway = simpler than urban |
-| **Economics** | Driver shortage, fatigue limits |
-| **Customers** | B2B = rational buyers |
-| **Regulation** | Less pedestrian interaction |
-| **Safety** | Fewer edge cases per mile |
+| Routes | Highway = simpler than urban |
+| Economics | Driver shortage, fatigue limits |
+| Customers | B2B = rational buyers |
+| Regulation | Less pedestrian interaction |
+| Safety | Fewer edge cases per mile |
 
 Aurora commercial before Waymo profitable.
 
@@ -123,14 +123,14 @@ Aurora commercial before Waymo profitable.
 | Liability | Customer (L2) | Company (L4) |
 | Hardware | [[Consumer]]-grade | Expensive lidar stacks |
 
-**FSD status (2025)**:
+FSD status (2025):
 - Still L2 (supervised)
 - "Full self-driving" name controversial
 - Promised robotaxi delayed
 - Cybercab announced, not shipped
 
-**Bull case**: Data advantage + AI leads to L4.
-**Bear case**: Camera-only can't achieve L4 safety.
+Bull case: Data advantage + AI leads to L4.
+Bear case: Camera-only can't achieve L4 safety.
 
 ---
 
@@ -139,12 +139,18 @@ Aurora commercial before Waymo profitable.
 | Player | Status | Approach |
 |--------|--------|----------|
 | [[Baidu]] [[Apollo]] | Commercial robotaxi | Waymo-like |
-| Pony.ai | Commercial | [[Toyota]]-backed |
-| WeRide | Commercial | Renault-Nissan partner |
+| [[Pony.ai]] | Commercial | [[Toyota]]-backed |
+| [[WeRide]] | Commercial | Renault-[[Nissan]] partner |
 | [[Huawei]] | ADAS supplier | Mobileye competitor |
-| Horizon [[Robotics]] | ADAS chips | Chinese Mobileye |
+| [[Horizon Robotics]] | ADAS chips | Chinese Mobileye / Qualcomm challenger |
 
-**Key difference**: Faster regulatory approval, more permissive testing.
+Key difference: Faster regulatory approval, more permissive testing.
+
+### Apr 2026: from ADAS to vehicle agents
+
+[[Reuters]]' Apr 2026 [[Beijing]] Auto Show readthrough shows Chinese autonomy moving beyond the classic ADAS / robotaxi frame into [[Automotive AI]]. [[Xpeng]]'s updated model lets drivers issue intent-based commands such as "park near the entrance to the shopping center" rather than choosing a precise map coordinate, while [[Xiaomi]]'s HyperOS car AI is framed as a cockpit agent that can handle errands, notes, and mood-aware arrival settings.
+
+The distinction is important: China is not only racing for Level 4 robotaxis. It is embedding agentic behavior into mass-market EVs, where even supervised systems can become strategic differentiators if they make the car easier to command, park, navigate, and personalize.
 
 ---
 
@@ -161,7 +167,7 @@ Aurora commercial before Waymo profitable.
 
 | Company | Ticker | AV asset | % of value |
 |---------|--------|----------|------------|
-| Alphabet | GOOGL | Waymo | ~5-10% |
+| [[Alphabet]] | GOOGL | Waymo | ~5-10% |
 | [[Amazon]] | AMZN | Zoox | <1% |
 | [[GM]] | [[GM]] | Cruise | Negative |
 | [[Intel]] | INTC | Mobileye (88%) | Significant |
@@ -180,11 +186,11 @@ Aurora commercial before Waymo profitable.
 
 | Company | What happened | Lesson |
 |---------|--------------|--------|
-| **Cruise** | 2023 incident, cover-up | Safety + transparency paramount |
-| **TuSimple** | [[China]] ties, delisted | Geopolitical risk |
-| **Embark** | Ran out of money | Capital intensity |
-| **Argo AI** | [[Ford]]/VW pulled plug | OEM patience limited |
-| **[[Apple]] Car** | Cancelled 2024 | Even [[Apple]] couldn't crack it |
+| Cruise | 2023 incident, cover-up | Safety + transparency paramount |
+| TuSimple | [[China]] ties, delisted | Geopolitical risk |
+| Embark | Ran out of money | Capital intensity |
+| Argo AI | [[Ford]]/VW pulled plug | OEM patience limited |
+| [[Apple]] Car | Cancelled 2024 | Even [[Apple]] couldn't crack it |
 
 ---
 
@@ -196,37 +202,38 @@ Aurora commercial before Waymo profitable.
 | Waymo profitable | Various | Still losing money |
 | L4 everywhere | 2010s hype | Geo-fenced only |
 
-**Pattern**: Timelines always slip. L4 harder than expected.
+Pattern: Timelines always slip. L4 harder than expected.
 
 ---
 
 ## Investment implications
 
-**Avoid**:
+Avoid:
 - Pure lidar plays (commoditizing)
 - Pre-revenue AV startups
 - OEMs betting future on autonomy
 
-**Consider**:
+Consider:
 - ADAS suppliers with current revenue (Mobileye)
 - Trucking (Aurora) — better unit economics
-- Waymo via Alphabet (small % of value, optionality)
+- Waymo via [[Alphabet]] (small % of value, optionality)
 
-**Watch for**:
+Watch for:
 - Tesla FSD to L3/L4 (would be transformational)
 - Waymo profitability milestone
 - [[China]] robotaxi scaling
+- [[Automotive AI]] becoming standard EV differentiation rather than only robotaxi tech
 
 ---
 
-## Japan
+## [[Japan]]
 
 | Company | Approach | Status |
 |---------|----------|--------|
 | [[Turing Inc]] | End-to-end generative AI (Heron, 70B params) | Series A ($63M, Nov 2025), demo vehicle 2026, Level 5 target 2029-2030 |
 | [[Tier IV]] | Open-source modular (Autoware), rule-based + sensor-fusion | Est. 2015, ~400 employees, OEM partnerships |
 
-Turing takes the same end-to-end bet as [[Tesla]] and [[Wayve]] — a single neural network from camera input to driving commands. [[Tier IV]] mirrors the traditional modular pipeline. [[Denso]] ([[Toyota]] group) is investing in and co-developing with Turing. Government backing via JIC Venture Growth Investments and METI/NEDO selection.
+[[Turing]] takes the same end-to-end bet as [[Tesla]] and [[Wayve]] — a single neural network from camera input to driving commands. [[Tier IV]] mirrors the traditional modular pipeline. [[Denso]] ([[Toyota]] group) is investing in and co-developing with [[Turing]]. Government backing via JIC Venture Growth Investments and METI/NEDO selection.
 
 ---
 
@@ -239,9 +246,11 @@ Turing takes the same end-to-end bet as [[Tesla]] and [[Wayve]] — a single neu
 - [[Mobileye]] — ADAS chips
 - [[Tesla]] — Camera-only approach
 - [[Baidu]] — [[China]] leader
-- [[Turing Inc]] — Japan end-to-end AI approach
-- [[Wayve]] — UK end-to-end AI approach
-- [[Tier IV]] — Japan open-source modular approach
-- [[Denso]] — Toyota group ADAS/AV supplier, Turing investor
+- [[Turing Inc]] — [[Japan]] end-to-end AI approach
+- [[Wayve]] — [[UK]] end-to-end AI approach
+- [[Tier IV]] — [[Japan]] open-source modular approach
+- [[Denso]] — Toyota group ADAS/AV supplier, [[Turing]] investor
 - [[Automotive semiconductors]] — ADAS chip market
 - [[NVIDIA]] — Drive platform
+- [[Automotive AI]] — in-car agents, cockpit AI, ADAS chips, and smart-driving systems
+- [[Horizon Robotics]] — Chinese ADAS / cockpit AI-chip supplier

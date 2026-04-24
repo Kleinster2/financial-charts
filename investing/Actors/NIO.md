@@ -34,14 +34,14 @@ NIO shows moderate China Internet correlation (KWEB r = 0.55).
 
 ## Delivery momentum
 
-**2025 monthly records:**
+2025 monthly records:
 
 | Month | Deliveries | YoY |
 |-------|------------|-----|
 | September | 34,749 | +64% |
 | October | 40,397 | +93% |
 | November | 36,275 | +76% |
-| December | **48,135** | New high |
+| December | 48,135 | New high |
 
 Q4 2025: 124,807 deliveries
 
@@ -49,7 +49,7 @@ Q4 2025: 124,807 deliveries
 
 ## Battery swap model
 
-**Unique differentiator:**
+Unique differentiator:
 
 | Metric | Value |
 |--------|-------|
@@ -58,12 +58,12 @@ Q4 2025: 124,807 deliveries
 | Total chargers | 27,444 |
 | Swap time | ~3 minutes |
 
-**2026 expansion:**
+2026 expansion:
 - 5th-gen stations: Large-scale construction Q2 2026
 - [[Target]]: 1,000+ new stations
 - Year-end 2026: 4,600+ total stations
 
-**Break-even target:** End of 2026 (at 60-70 swaps/day/station)
+Break-even target: End of 2026 (at 60-70 swaps/day/station)
 
 ---
 
@@ -91,53 +91,71 @@ Partnership legitimizes battery swap model.
 
 ## 2026 expansion
 
-**Global ambitions:**
+Global ambitions:
 - [[Target]]: 40 countries and regions
 - New models: ES9 flagship SUV, Onvo L80, next-gen ES7
 
-**Profitability:**
-- **First-ever quarterly profit achieved Q4 2025** (reported Mar 10, 2026)
+Profitability:
+- First-ever quarterly profit achieved Q4 2025 (reported Mar 10, 2026)
 - Breakeven ahead of 2026 target
 
 ---
 
 ## Q4 2025 earnings — first-ever quarterly profit (reported Mar 10, 2026)
 
-**Milestone quarter.** NIO achieved its first operating profit since inception. Stock **+15.4%** to $5.70.
+Milestone quarter. NIO achieved its first operating profit since inception. Stock +15.4% to $5.70.
 
 | Metric | Q4 2025 | Q4 2024 | YoY |
 |--------|---------|---------|-----|
-| Revenue | **$4.9B** | $2.8B | +76% |
-| Operating profit | **$115.4M** (RMB 807.3M) | — | First ever |
-| Adj. operating profit (non-GAAP) | **$178.9M** (RMB 1.25B) | — | Beat upper guidance of RMB 1.2B |
-| Deliveries | **124,807** | 72,689 | +71.7% |
-| Vehicle margin | **18.1%** | 13.1% | +500 bps |
+| Revenue | $4.9B | $2.8B | +76% |
+| Operating profit | $115.4M (RMB 807.3M) | — | First ever |
+| Adj. operating profit (non-GAAP) | $178.9M (RMB 1.25B) | — | Beat upper guidance of RMB 1.2B |
+| Deliveries | 124,807 | 72,689 | +71.7% |
+| Vehicle margin | 18.1% | 13.1% | +500 bps |
 
 All three brands hit record quarterly highs (NIO, Onvo, Firefly). Vehicle margin expansion driven by favorable product mix — higher-margin models like the all-new ES8.
 
-**Q1 2026 guidance:** 80,000-83,000 deliveries (+90-97% YoY).
+Q1 2026 guidance: 80,000-83,000 deliveries (+90-97% YoY).
 
 *Source: CnEVPost, AlphaStreet (Mar 10, 2026)*
 
 ---
 
+## Apr 2026: in-house chips as margin and AI-control lever
+
+[[Reuters]] interviewed CEO [[William Li]] at the Apr 2026 Beijing Auto Show. Li said [[NIO]] developed its own automotive silicon because [[NVIDIA]]'s automotive chips carry very high gross margins and because in-house chips can be better matched to NIO's algorithms and sensor layout for advanced driver-assistance.
+
+NIO has spun off its chip unit, [[Shenji]], into an independent company and is open to supplying outside customers. The logic is broader than cost control: in the [[Automotive AI]] race, the chip, sensor layout, whole-vehicle operating system, and smart-driving model become one integrated system. If Shenji works, NIO can reduce supplier dependence while improving gross margin and differentiating its premium brand.
+
+---
+
 ## Investment case
 
-**Bull:**
+Bull:
 - Battery swap moat (3,576 stations)
 - Multi-brand covers all segments
 - 1M milestone = scale achieved
 - CATL partnership
 - 40-country expansion
 
-**Bear:**
+Bear:
 - Brutal [[China]] price war
 - Q4 profitability may not sustain — one quarter doesn't make a trend
 - BYD/Tesla price pressure
 - ADR delisting risk
 - Speculative valuation
 
-**Analyst consensus:** Hold, $6.05 target (~21% upside from $5)
+Analyst consensus: Hold, $6.05 target (~21% upside from $5)
+
+---
+
+## Price and financial data
+
+![[nio-price-chart.png]]
+
+*NIO remains a high-beta China EV ADR; the Apr 2026 [[Automotive AI]] / [[Shenji]] update adds chip-control optionality to the older battery-swap thesis.*
+
+NIO has limited financial disclosure in the local chart pipeline: fundamentals chart data unavailable, income statement data unavailable, and historical financials data unavailable in the standardized vault database as of Apr 24, 2026. The Q4 2025 operating-profit section above carries the current company-level financial signal.
 
 ---
 
@@ -162,4 +180,11 @@ All three brands hit record quarterly highs (NIO, Onvo, Firefly). Vehicle margin
 - [[CATL]] — battery partner
 - [[Xiaomi]] — competitor ([[China]] EV entrant)
 - [[Lithium]] — battery input
+- [[Shenji]] — spun-off in-house chip unit
+- [[Automotive AI]] — smart-driving / in-house-silicon context
+- [[China AI Plus]] — policy umbrella behind AI-in-vehicles push
+- [[NVIDIA]] — supplier dependency being reduced
+
+### Securities
+- [[NIO securities]] — NYSE ADR / market note
 

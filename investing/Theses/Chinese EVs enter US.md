@@ -19,7 +19,7 @@
 
 ## Why Chinese EVs will enter
 
-**The cost gap is unbridgeable without tech transfer:**
+The cost gap is unbridgeable without tech transfer:
 
 | Metric | Chinese EVs | US EVs |
 |--------|-------------|--------|
@@ -28,11 +28,17 @@
 | Time to profitability | 9-18 months (Xiaomi) | Years (Tesla took decade) |
 | Battery cost | Integrated (BYD, CATL) | Purchased |
 
-**Legacy OEM desperation:**
+Legacy OEM desperation:
 - [[Ford]] CEO Farley: Chinese EVs are "existential threat"
 - Ford discontinued Escape, Edge — nothing until 2027
 - GM, Stellantis facing same cost pressure
 - Extended-range pivot = admission pure EV strategy failed
+
+### Apr 2026: auto AI becomes the second moat
+
+The US-entry thesis is no longer only about cheap EV manufacturing. [[Reuters]]' Apr 24 Beijing Auto Show readthrough shows Chinese automakers trying to export an integrated [[Automotive AI]] stack: in-car agents, smart-driving models, vehicle operating systems, cockpit compute, and domestic chips.
+
+That matters for US and European incumbents because the Chinese cost gap now comes with a software-speed gap. [[Xiaomi]] can connect EVs to HyperOS agents and MiMo models; [[Xpeng]] can turn parking and navigation into intent-following AI workflows; [[NIO]] / [[Shenji]], [[BYD]], [[Geely]], [[Li Auto]], and [[Leapmotor]] are trying to design around [[NVIDIA]] dependence; [[Huawei]] is becoming a smart-driving and compute supplier rather than just a telecom vendor. The competitive package is moving from "cheaper EV" to "cheaper EV plus faster AI iteration."
 
 ---
 
@@ -40,13 +46,13 @@
 
 ### 1. JV with US OEMs (most likely near-term)
 
-**Ford-Xiaomi/BYD talks (Jan 2026):**
+Ford-Xiaomi/BYD talks (Jan 2026):
 - US manufacturing joint venture structure
 - Ford provides factory, dealer network, political cover
 - Chinese partner provides tech, cost structure
 - Ford denied; FT has 4 sources
 
-**Why it works:**
+Why it works:
 - Bypasses 100% import tariff
 - "Made in America" political narrative
 - Legacy OEM gets survival path
@@ -54,7 +60,7 @@
 
 ### 2. Existing Western brands (Trojan horse)
 
-**[[Geely]] owns:**
+[[Geely]] owns:
 - [[Volvo Cars]] — US factory in South Carolina
 - [[Polestar]] — Already selling in US
 - Lotus — Luxury sports positioning
@@ -63,12 +69,12 @@ Geely signaling US entry "within 3 years." Could route Chinese EV tech through S
 
 ### 3. Mexico manufacturing
 
-**USMCA loophole:**
+USMCA loophole:
 - Build in Mexico, export to US tariff-free
 - BYD, other Chinese OEMs exploring Mexico plants
 - Risk: Congress could close loophole
 
-**Feb 2026 — [[COMPAS Mexico plant sale 2026|COMPAS plant bid]]:**
+Feb 2026 — [[COMPAS Mexico plant sale 2026|COMPAS plant bid]]:
 - [[BYD]], [[Geely]], [[VinFast]] are finalists to acquire 230K-unit [[Nissan]]-[[Mercedes-Benz]] COMPAS factory in Aguascalientes
 - $1B plant closing May 2026 — instant manufacturing footprint vs years of greenfield delays
 - Chinese brands already ~10% of Mexico's ~1.5M annual car market (up from 0% in 2020)
@@ -77,7 +83,7 @@ Geely signaling US entry "within 3 years." Could route Chinese EV tech through S
 
 ### 4. Direct entry (requires policy shift)
 
-**Trump's openness:**
+Trump's openness:
 > "If they want to come in and build a plant and hire you and your friends and your neighbours, that's great, I love that."
 > — Trump at Ford Dearborn, Jan 2026
 
@@ -87,35 +93,35 @@ Could negotiate direct entry as part of broader China trade deal (April 2026 vis
 
 ## Political dynamics
 
-**Pro-entry forces:**
+Pro-entry forces:
 - Trump dealmaking instincts
 - Legacy OEM lobbying (survival)
 - Consumer demand for affordable EVs
 - Manufacturing job creation narrative
 
-**Anti-entry forces:**
+Anti-entry forces:
 - House China Committee (Moolenaar)
 - National security hawks
 - UAW (if Chinese plants non-union)
 - Pentagon (Xiaomi military list history)
 
-**Prediction:** First JV announcement triggers massive political fight. Outcome depends on whether Trump prioritizes dealmaking or listens to hawks.
+Prediction: First JV announcement triggers massive political fight. Outcome depends on whether Trump prioritizes dealmaking or listens to hawks.
 
 ---
 
 ## Investment implications
 
-**Long:**
+Long:
 - [[Xiaomi]] — Ford JV talks, SU7 quality proven
 - [[BYD]] — Scale, vertical integration, Ford talks
 - [[Geely]] — Volvo/Polestar infrastructure already in US
 - US suppliers who would serve Chinese plants
 
-**Short/Avoid:**
+Short/Avoid:
 - Legacy OEMs without China partnerships
 - Pure-play US EV startups (Rivian, Lucid) — squeezed from both ends
 
-**Pairs trade:**
+Pairs trade:
 - Long BYD / Short unpartnered legacy OEM
 
 ---
@@ -129,7 +135,7 @@ If Ford partners with Xiaomi:
 - Stellantis must respond
 - Japanese OEMs face same pressure
 
-**Endgame:** US auto industry becomes joint venture ecosystem with Chinese tech, similar to 1980s Japanese transplants.
+Endgame: US auto industry becomes joint venture ecosystem with Chinese tech, similar to 1980s Japanese transplants.
 
 ---
 
@@ -150,10 +156,11 @@ If Ford partners with Xiaomi:
 
 | Date | Evidence | Direction |
 |------|----------|-----------|
-| **2026-02-12** | **BYD, Geely finalists for 230K-unit Mexico plant (Reuters)** | **Bullish** |
-| **2026-01-31** | **Ford-Xiaomi/BYD JV talks (FT, 4 sources)** | **Bullish** |
-| **2026-01-31** | **Geely: US entry "within 3 years"** | **Bullish** |
-| **2026-01** | **Trump: "I love" Chinese plants in US** | **Bullish** |
+| 2026-04-24 | Reuters: Beijing Auto Show shows Chinese OEMs racing to embed AI, in-house chips, and vehicle agents across EV platforms | Bullish — strengthens software/chip moat behind Chinese EV export push |
+| 2026-02-12 | BYD, Geely finalists for 230K-unit Mexico plant (Reuters) | Bullish |
+| 2026-01-31 | Ford-Xiaomi/BYD JV talks (FT, 4 sources) | Bullish |
+| 2026-01-31 | Geely: US entry "within 3 years" | Bullish |
+| 2026-01 | Trump: "I love" Chinese plants in US | Bullish |
 | 2024 | Biden 100% tariff on Chinese EV imports | Bearish |
 | 2024 | Biden restrictions on Chinese vehicle software/hardware | Bearish |
 
@@ -173,5 +180,10 @@ If Ford partners with Xiaomi:
 - [[VinFast]] — competing COMPAS bidder
 - [[COMPAS Mexico plant sale 2026]] — Mexico pathway materializing
 - [[Mexico]] — manufacturing base
+- [[Automotive AI]] — second moat beyond battery/manufacturing cost
+- [[China AI Plus]] — policy umbrella behind auto AI push
+- [[NIO]] / [[Shenji]] — in-house chip path
+- [[Xpeng]] — intent-following vehicle-agent examples
+- [[Huawei]] — smart-driving supplier and domestic compute champion
 
 *Created 2026-02-02*

@@ -35,17 +35,17 @@ Unlike [[BYD]] (vertically integrated single brand), Geely operates portfolio of
 
 ## US market ambitions (Jan 2026)
 
-**Geely signaling US entry within 3 years:**
+Geely signaling US entry within 3 years:
 
 > "The big question for us is when and where we will go to the USA."
 > — Ash Sutcliffe, Head of Global Communications
 
-**Context:**
+Context:
 - Trump (Jan 2026): "I love" Chinese companies building US plants
 - [[Ford]] holding talks with [[Xiaomi]], [[BYD]] about JVs
 - 100% tariff blocks direct imports — must manufacture locally
 
-**Existing US presence:**
+Existing US presence:
 - Polestar already sells in US (Swedish brand, Chinese parent)
 - Volvo has US manufacturing (South Carolina)
 
@@ -58,6 +58,10 @@ Geely could potentially use Volvo/Polestar infrastructure as Trojan horse.
 Geely is one of three finalists (with [[BYD]] and [[VinFast]]) to acquire the 230,000-unit [[COMPAS Mexico plant sale 2026|COMPAS factory]] in [[Aguascalientes]], [[Mexico]] — a $1B [[Nissan]]-[[Mercedes-Benz]] JV plant closing May 2026. Would complement Geely's existing North American footprint via [[Volvo Cars]] (South Carolina factory) and [[Polestar]] (US sales). 230K-unit capacity could serve both Mexican domestic market (~10% Chinese share, up from 0% in 2020) and potential USMCA-routed US exports.
 
 *Source: Reuters, Feb 12 2026*
+
+### Apr 2026: automotive AI and chip verticalization
+
+[[Reuters]] named Geely among Chinese EV makers designing chips to reduce reliance on [[NVIDIA]]. That matters because Geely's US / Europe pathway via [[Volvo Cars]] and [[Polestar]] would not just carry Chinese EV cost structure into Western markets; it could eventually carry Chinese [[Automotive AI]] and smart-driving supply chains too.
 
 ---
 
@@ -74,6 +78,18 @@ Geely is one of three finalists (with [[BYD]] and [[VinFast]]) to acquire the 23
 
 ---
 
+## Sector correlation
+
+Local 175.HK price data unavailable in the vault database as of Apr 24, 2026, so a computed sector-correlation table is deferred until [[Geely securities]] is added to the local market-data pipeline.
+
+---
+
+## Market data notes
+
+Geely has limited financial disclosure in the local vault pipeline relative to US-traded companies: fundamentals chart data unavailable, income statement data unavailable, and historical financials data unavailable in the standardized chart database as of Apr 24, 2026. The strategic note therefore emphasizes brand portfolio, market-entry pathways, and automotive-AI positioning.
+
+---
+
 ## Related
 
 - [[Volvo Cars]] — subsidiary
@@ -86,3 +102,8 @@ Geely is one of three finalists (with [[BYD]] and [[VinFast]]) to acquire the 23
 - [[Mexico]] — manufacturing expansion target
 - [[COMPAS Mexico plant sale 2026]] — plant acquisition bid
 - [[VinFast]] — competing bidder
+- [[Automotive AI]] — chip/software moat layered onto Chinese EV export strategy
+- [[China AI Plus]] — policy umbrella behind AI-in-vehicles push
+
+### Securities
+- [[Geely securities]] — Hong Kong equity / 175.HK market note
