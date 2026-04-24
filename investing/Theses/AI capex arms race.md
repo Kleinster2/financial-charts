@@ -72,6 +72,10 @@ Morgan Stanley's estimate that agentic AI could add **$32.5-60B** to a data-cent
 
 This is the cleaner way to think about the current phase of the thesis. Phase 1 was "who gets the GPUs?" Phase 2 is "who captures the full-stack spend once agents make the control layer, memory layer, and manufacturing layer more valuable too?" See [[Agentic AI]], [[Arm AGI CPU]], and [[GPU memory scaling]].
 
+The Apr 24, 2026 [[Reuters]] chip-rally piece is the market confirmation of that same point. [[Intel]] closed +23.6% after guiding Q2 revenue above consensus and saying AI-service-provider CPU demand was tight enough that it sold previously shelved / de-spec inventory. [[AMD]] closed +13.9%, [[Arm Holdings]] +14.8%, [[NVIDIA]] +4.3%, and the Philadelphia Semiconductor Index +4.3% to a record close. The details matter more than the one-day tape: the market rewarded CPU and analog exposure because inference and agentic workloads make the non-GPU parts of the compute stack scarce too. [[Texas Instruments]]' separate Q1 beat two days earlier, with data-center revenue up about 90% YoY, reinforces the same broadening into power-management and analog content around AI racks.
+
+This does not weaken [[NVIDIA]]'s thesis. It changes the shape of the bill of materials. AI capex is becoming a systems trade: GPUs remain the largest profit pool, but CPUs, memory, power, analog, packaging, and foundry capacity are all being pulled into the scarcity map.
+
 ## Apr 2026 refinement II: the external-balance problem
 
 The next refinement to the thesis comes from the demand side rather than the supply chain. A linked Apr 2026 macro essay, surfaced by [[Adam Tooze]]'s Chartbook, asks what kind of world economy would have to exist for current AI-market valuations to clear. Under relatively conservative assumptions, the core US AI firms would generate roughly **$2.4T** in additional annual foreign revenue by 2036, with **65%** of incremental revenue coming from abroad. That is roughly equal to all US goods exports today and more than **2x** the current US current-account deficit.
@@ -206,6 +210,7 @@ See [[AI infrastructure financing]].
 | Date | Observation | Implication |
 |------|-------------|-------------|
 | 2026-04-20 | Chartbook / linked macro essay: under conservative assumptions core AI firms would need **~$2.4T** in additional annual foreign revenue by 2036, roughly equal to all US goods exports today | AI capex bull case implies an external-balance and trade-policy tension, not just a financing problem |
+| 2026-04-24 | [[Reuters]]: [[Intel]] Q1/Q2 guide triggered a CPU-led chip rally; INTC +23.6%, [[AMD]] +13.9%, [[Arm Holdings]] +14.8%, [[NVIDIA]] +4.3%, Philadelphia Semiconductor Index +4.3% to record close | Market confirms the Apr 20 CPU-broadening thesis: inference / agentic AI pulls CPUs, analog, and manufacturing capacity into the AI capex scarcity map |
 | 2026-04-20 | Reuters / [[Morgan Stanley]]: agentic AI could add **$32.5-60B** to a data-center CPU market already **>$100B by 2030**, with bottlenecks shifting toward CPU + memory | AI capex broadens from GPU scarcity into full-stack compute, memory, and manufacturing spend |
 | 2026-02-08 | FT: Total Big Tech capex now **$660B+**, capex exceeding cash-from-ops at Amazon (-$20B gap) and Meta (-$5B gap) | Asset-light → capital-intensive transition |
 | 2026-02-08 | Amazon regulatory filing signals potential capital raise (debt or equity); shares -5.6% | Equity/debt financing pressure |

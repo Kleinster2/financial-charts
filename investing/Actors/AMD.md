@@ -30,7 +30,7 @@ AMD trades as a core Semiconductors name (SMH r = 0.79).
 
 | Role | Name | Since |
 |------|------|-------|
-| CEO | **[[Lisa Su]]** | Oct 2014 |
+| CEO | [[Lisa Su]] | Oct 2014 |
 | CFO | Jean Hu | Jan 2023 |
 | CTO | Mark Papermaster | 2011 |
 | EVP, Computing & Graphics | Rick Bergman | 2020 |
@@ -42,10 +42,10 @@ Lisa Su is AMD's transformational CEO — took company from near-bankruptcy to $
 
 ## Key strengths
 
-- **CPU leadership**: EPYC server CPUs taking share from Intel
-- **Chiplet architecture**: Cost-effective multi-die designs
-- **NodAI acquisition**: Reshaping org around software-hardware co-design
-- **Underdog positioning**: Lower expectations, cheaper valuation
+- CPU leadership: EPYC server CPUs taking share from Intel
+- Chiplet architecture: Cost-effective multi-die designs
+- NodAI acquisition: Reshaping org around software-hardware co-design
+- Underdog positioning: Lower expectations, cheaper valuation
 
 ---
 
@@ -68,6 +68,14 @@ AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by
 | AI/GPU | [[NVIDIA]] | Behind, but software improving |
 | Desktop | Intel | Competitive |
 
+### Intel CPU readthrough rally (Apr 24, 2026)
+
+AMD closed Apr 24 at $347.81, up 13.9%, after [[Intel]]'s Q1/Q2 results convinced the market that AI inference and [[Agentic AI]] workloads are pulling CPUs back into the center of the data-center spend map. [[Reuters]] framed the move as a CPU-demand readthrough rather than a simple Intel-specific turnaround: Intel's tight server-CPU supply and above-consensus Q2 guide lifted AMD and [[Arm Holdings]] because both are credible beneficiaries if the AI cycle broadens from GPU training into inference control-plane compute.
+
+For AMD, the signal cuts both ways. It validates the EPYC / Venice side of the story and makes the CPU franchise more strategically valuable inside AI racks. But it also means [[Intel]] is no longer just a share donor — if Intel can sustain supply and pricing, the server CPU profit pool may grow while competitive intensity rises.
+
+*Source: [[Reuters]], Apr 24 2026; local yfinance close verification.*
+
 ---
 
 ## Key catalysts
@@ -82,7 +90,7 @@ AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by
 ## Key risks
 
 - CUDA moat holds — software gap doesn't close
-- **NVIDIA infrastructure expansion** — SLURM acquisition (Dec 2025) adds another layer AMD users depend on
+- NVIDIA infrastructure expansion — SLURM acquisition (Dec 2025) adds another layer AMD users depend on
 - Samsung yields disappoint — supply/cost disadvantage
 - NVIDIA extends hardware lead (Blackwell, etc.)
 - Intel recovers in server CPUs
@@ -112,32 +120,32 @@ AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by
 
 ## CES 2026 — Helios AI Rack
 
-**Lisa Su: "World's best AI rack"** — direct shot at NVIDIA.
+Lisa Su: "World's best AI rack" — direct shot at NVIDIA.
 
 | Spec | Value |
 |------|-------|
-| **FP4 performance** | 2.9 exaFLOPS |
-| **FP8 training** | 1.4 exaFLOPS |
-| **GPUs per rack** | 72x Instinct MI455X |
-| **CPUs per rack** | 18x EPYC Venice (Zen 6, 2nm) |
-| **HBM4 memory** | 31TB total |
-| **Bandwidth** | 1.4 PB/s aggregate |
-| **Weight** | 7,000 lbs (double-wide rack) |
-| **Launch** | H2 2026 |
+| FP4 performance | 2.9 exaFLOPS |
+| FP8 training | 1.4 exaFLOPS |
+| GPUs per rack | 72x Instinct MI455X |
+| CPUs per rack | 18x EPYC Venice (Zen 6, 2nm) |
+| HBM4 memory | 31TB total |
+| Bandwidth | 1.4 PB/s aggregate |
+| Weight | 7,000 lbs (double-wide rack) |
+| Launch | H2 2026 |
 
-**Architecture:**
+Architecture:
 - Built on Meta's 2025 OCP (Open Compute Project) design
 - 18 compute trays, each with 4 MI455X + 1 Venice CPU
 - Liquid cooled throughout
 - AMD Pensando "Vulcano" NICs for networking
 - ROCm software ecosystem
 
-**Venice CPU (Zen 6):**
+Venice CPU (Zen 6):
 - 2nm process
 - Up to 256 cores
 - 2x memory/GPU bandwidth vs prior gen
 
-**Competition:** Goes head-to-head with NVIDIA NVL72 (72 Rubin GPUs).
+Competition: Goes head-to-head with NVIDIA NVL72 (72 Rubin GPUs).
 
 See [[CES 2026]] for event context.
 
@@ -145,25 +153,25 @@ See [[CES 2026]] for event context.
 
 ## Q4 2025 earnings (Feb 3, 2026)
 
-**Record quarter — beat expectations but guidance disappointed:**
+Record quarter — beat expectations but guidance disappointed:
 
 | Metric | Actual | Expected |
 |--------|--------|----------|
-| Q4 Revenue | **$10.3B** (record) | $9.7B |
+| Q4 Revenue | $10.3B (record) | $9.7B |
 | Q4 EPS (GAAP) | $0.92 | — |
-| Q4 EPS (Non-GAAP) | **$1.53** (record) | $1.24 |
+| Q4 EPS (Non-GAAP) | $1.53 (record) | $1.24 |
 | Data Center | $5.4B (+39% YoY) | — |
-| FY 2025 Revenue | **$34.6B** (record) | — |
+| FY 2025 Revenue | $34.6B (record) | — |
 | FY 2025 EPS | $2.65 | — |
 | Q1 2026 Guidance | $9.8B ± $300M | ~$10.0B |
 
-**Beat and sell-off:** Stock fell 17% — worst day since 2017 despite beating. Q1 guidance disappointed bulls expecting stronger AI acceleration.
+Beat and sell-off: Stock fell 17% — worst day since 2017 despite beating. Q1 guidance disappointed bulls expecting stronger AI acceleration.
 
-**Data center strength:** +39% YoY driven by EPYC CPUs and Instinct AI GPUs. But $390M from non-recurring China GPU sales inflated the Q4 beat.
+Data center strength: +39% YoY driven by EPYC CPUs and Instinct AI GPUs. But $390M from non-recurring China GPU sales inflated the Q4 beat.
 
-**Lisa Su:** "2025 was a defining year for AMD, with record revenue and earnings driven by strong execution and broad-based demand for our high-performance and AI platforms."
+Lisa Su: "2025 was a defining year for AMD, with record revenue and earnings driven by strong execution and broad-based demand for our high-performance and AI platforms."
 
-**China exposure:** Q1 guidance includes ~$100M from Instinct MI308 sales to China — unclear regulatory runway.
+China exposure: Q1 guidance includes ~$100M from Instinct MI308 sales to China — unclear regulatory runway.
 
 ---
 
@@ -177,7 +185,7 @@ See [[CES 2026]] for event context.
 |--------|-------|
 | Ticker | AMD (NASDAQ) |
 | Market cap | ~$290B |
-| Revenue (FY 2025) | **$34.6B** |
+| Revenue (FY 2025) | $34.6B |
 | Revenue (2026E) | ~$45B |
 | EPS (FY 2025) | $2.65 |
 | EPS (2026E) | ~$6.50 |
@@ -195,16 +203,21 @@ See [[CES 2026]] for event context.
 ![[amd-fundamentals.png]]
 *AMD revenue and net income. Chart starts 2018 ([[Lisa Su]] turnaround era). Q1 2023 net income excluded (small loss distorts scale).*
 
+### Income Statement Flow (Sankey)
+
+![[amd-sankey.png]]
+*AMD FY2025 income-statement flow. Revenue and net income reflect the post-Xilinx, data-center-led scale-up period; still much lower margin than [[NVIDIA]] because CPUs, GPUs, and embedded products carry a broader mix of competitive economics.*
+
 ---
 
 ## Market expectations
 
-**Priced in:**
+Priced in:
 - CPU gains vs Intel continue
 - AI remains NVIDIA-dominated
 - TSMC remains primary foundry
 
-**Not priced in (potential surprises):**
+Not priced in (potential surprises):
 - Software closes gap → AI share gains
 - Samsung deal + good yields → cost advantage
 - Hyperscaler adoption accelerates
@@ -246,6 +259,10 @@ See [[Meta-AMD 6GW deal]] for full deal terms and warrant structure.
 
 ## Related
 
+### Securities
+- [[AMD securities]] — equity-market note
+
+### People and ecosystem
 - [[Lisa Su]] — CEO
 - [[NVIDIA]] — competitor (GPU/AI, NVL72 vs Helios)
 - [[Intel]] — competitor (CPU)

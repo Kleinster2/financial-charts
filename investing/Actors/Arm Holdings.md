@@ -121,6 +121,14 @@ The April run extends the Mar 24 structural pivot in one direction the IPO did n
 
 *Sources: [ARM Stock Surges As New AGI CPU Ignites AI Hopes (StocksToTrade, Apr 22, 2026)](https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_04_22/); [ARM Stock Hits All-Time High (Benzinga, Apr 22, 2026)](https://www.benzinga.com/trading-ideas/movers/26/04/51980626/arm-stock-hits-all-time-high-whats-really-driving-wednesdays-surge); local `quick_movers.py` screen, 2026-04-22 close.*
 
+### April 24 follow-through — Intel validates the CPU scarcity frame
+
+The Apr 24 [[Intel]] CPU-demand print extended Arm's re-rating rather than reversing it. ARM closed at $234.81, up 14.8% on the day and roughly 19.5% above the Apr 22 close. [[Reuters]] tied the move to the same inference / [[Agentic AI]] logic behind the [[Arm AGI CPU]] launch: if AI deployment shifts incremental spend toward CPUs that orchestrate reasoning agents, Arm's server-CPU silicon pivot is not a niche experiment but part of the same scarcity map lifting [[Intel]] and [[AMD]].
+
+This is the second confirmation in three trading days that the market is willing to price Arm as a direct AI-infrastructure beneficiary. The risk is also larger now: the stock is no longer just capitalizing an IP royalty stream with optional data-center upside; it is capitalizing execution against a first-party CPU ramp that still has to ship in volume.
+
+*Source: [[Reuters]], Apr 24 2026; local yfinance close verification.*
+
 ---
 
 ## Business model: the three layers

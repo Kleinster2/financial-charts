@@ -359,13 +359,34 @@ That makes the quarter less about the headline revenue number and more about whe
 
 *Source: Reuters, "Intel results to show if supply chain issues are dimming its AI ambitions" (Apr 21, 2026).*
 
+## Q1 2026 results and CPU re-rating (Apr 24, 2026)
+
+The Apr 21 setup resolved in Intel's favor. Q1 results and Q2 guidance confirmed that AI inference demand is no longer just an abstract optionality claim for Intel's server CPU franchise. [[Reuters]] reported that demand from AI-service providers was strong enough in Q1 for Intel to sell finished-goods inventory it had previously shelved or written down as de-spec / legacy product.
+
+| Metric | Result | Context |
+|--------|--------|---------|
+| Q1 revenue | $13.58B | beat $12.42B consensus |
+| Q1 Data Center and AI revenue | $5.1B | beat $4.41B consensus |
+| Q1 adjusted EPS | $0.29 | beat $0.01 consensus |
+| Q1 GAAP EPS | -$0.73 | included >$4B restructuring charges |
+| Q2 revenue guide | $13.8B-$14.8B | above $13.07B consensus |
+| Q2 adjusted EPS guide | $0.20 | above $0.09 consensus |
+| Foundry revenue | $5.4B | mostly internal; external legacy wafer business < $200M |
+| Custom ASIC revenue | >$1B expected in 2026 | per CFO David Zinsner |
+
+The stock closed Apr 24 at $82.54, up 23.6% on the day, above Intel's dot-com-era peak and implying market value above $416B. At least 23 brokerages raised price targets after the print; the median target moved to $75 from $46.50 a month earlier. Including Apr 24, Intel was up more than 120% year-to-date after an 84% gain in 2025, and Reuters cited a forward P/E around 90x versus roughly 37x for [[AMD]] and 22x for [[NVIDIA]].
+
+The strategic read is narrower than the price action. The quarter validates the [[AI capex arms race]] broadening from GPU scarcity into CPU/inference scarcity, especially for [[Agentic AI]] workloads. But part of the Q1 beat came from selling product Intel itself did not expect to move, and Zinsner cautioned that the same finished-goods benefit may not recur in Q2. That means the bull case has shifted from "can Intel find AI demand?" to "can Intel sustain CPU supply, pricing, and foundry progress without one-time inventory help?" The [[TERAFAB]] / [[Tesla]] 14A signal and [[Google]] AI CPU partnership raise the optionality around [[Intel Foundry Services]], but the core proof still has to come through durable manufacturing execution.
+
+*Sources: [[Reuters]], Apr 23-24 2026; local yfinance close verification, Apr 24 2026.*
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | INTC (NASDAQ) |
-| Price | ~$49 (Jan 28 close) |
-| 2026 YTD | +24.5% |
+| Price | $82.54 (Apr 24 2026 close) |
+| 2026 YTD | >120% |
 | Annual revenue | $53B (vs $78B peak 2021) |
 | HQ | Santa Clara, CA |
 | Model | IDM (design + fabs) |
@@ -373,7 +394,7 @@ That makes the quarter less about the headline revenue number and more about whe
 | Long-term debt | $47.2B face (Dec 2025). See [[Intel bonds]] |
 | Credit rating | BBB/Baa2 (Fitch negative outlook) |
 
-*Updated 2026-02-10*
+*Updated 2026-04-24*
 
 ---
 

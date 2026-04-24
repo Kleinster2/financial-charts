@@ -90,6 +90,12 @@ Design → Foundry → Packaging → Test → System integration
 | [[Power constraints]] | Fab siting challenges |
 | [[Leading edge race]] | 2nm competition (TSMC vs Samsung vs Intel) |
 
+### Apr 24 2026: CPU-led record rally
+
+[[Reuters]]' Apr 24 chip-rally piece marked a useful shift in sector leadership. The Philadelphia Semiconductor Index closed +4.3% at a record high after [[Intel]]'s Q1/Q2 results turned AI inference CPU demand into a market-wide readthrough. Verified Apr 24 closes: [[Intel]] +23.6%, [[AMD]] +13.9%, [[Arm Holdings]] +14.8%, [[NVIDIA]] +4.3%, [[Texas Instruments]] -1.8% after its prior-day +19.4% Q1 earnings move, and SMH +5.1%.
+
+The sector implication is that the AI cycle is no longer priced as a single [[NVIDIA]] GPU trade. [[LSEG]] consensus cited by Reuters had semiconductor sub-industry Q1 earnings growth at 109.2%, versus 48.2% for the broader S&P 500 information-technology sector. The Philadelphia chip index traded around 26.6x forward earnings versus about 20.7x for the S&P 500. Those multiples are now being justified by the idea that inference and [[Agentic AI]] workloads pull demand into CPUs, analog/power, memory, and manufacturing capacity, not just accelerators.
+
 ---
 
 ## Key investment theses
