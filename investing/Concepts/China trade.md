@@ -79,6 +79,7 @@ These are closely related, but not the same thing as a bilateral trade relations
 - [[US-China relations]] — broader geopolitical umbrella
 - [[Japan-instead-of-China trade]] — capital rotation / allocation story, not a direct bilateral trade note
 - [[Fortress China]] — resilience and self-sufficiency framework under stress
+- [[Second China shock]] — the 2020s composition-and-geography framing of Chinese export pressure (capital/tech-intensive, Europe-focused)
 - [[Trade]] — vault-wide umbrella for all trade notes
 
 ---

@@ -48,19 +48,60 @@ SECTOR_ETFS = {
 
 
 def get_db_tickers(conn):
-    """Get all ticker columns in stock_prices_daily."""
+    """Get tickers from wide stock_prices_daily plus narrow prices_long fallback."""
+    tickers = set()
+
     cursor = conn.execute("PRAGMA table_info(stock_prices_daily)")
-    return {row[1] for row in cursor.fetchall() if row[1] != 'Date'}
+    tickers.update(row[1] for row in cursor.fetchall() if row[1] != 'Date')
+
+    try:
+        long_rows = conn.execute("SELECT DISTINCT Ticker FROM prices_long").fetchall()
+        tickers.update(row[0] for row in long_rows if row[0])
+    except sqlite3.Error:
+        pass
+
+    return tickers
 
 
 def load_all_prices(conn, tickers, start_date):
-    """Load price data for given tickers."""
-    cols = ', '.join([f'"{t}"' for t in tickers])
-    query = f'SELECT Date, {cols} FROM stock_prices_daily WHERE Date >= "{start_date}" ORDER BY Date'
-    df = pd.read_sql(query, conn)
-    df['Date'] = pd.to_datetime(df['Date'])
-    df = df.set_index('Date')
-    return df
+    """Load price data for given tickers from wide and narrow tables."""
+    frames = []
+
+    cursor = conn.execute("PRAGMA table_info(stock_prices_daily)")
+    wide_cols = {row[1] for row in cursor.fetchall() if row[1] != 'Date'}
+    wide_tickers = [t for t in tickers if t in wide_cols]
+    long_tickers = [t for t in tickers if t not in wide_cols]
+
+    if wide_tickers:
+        cols = ', '.join([f'"{t}"' for t in wide_tickers])
+        query = f'SELECT Date, {cols} FROM stock_prices_daily WHERE Date >= ? ORDER BY Date'
+        wide_df = pd.read_sql(query, conn, params=(start_date,))
+        if not wide_df.empty:
+            wide_df['Date'] = pd.to_datetime(wide_df['Date'])
+            frames.append(wide_df.set_index('Date'))
+
+    if long_tickers:
+        placeholders = ','.join('?' * len(long_tickers))
+        long_query = f'''
+            SELECT Date, Ticker, Close
+            FROM prices_long
+            WHERE Ticker IN ({placeholders}) AND Date >= ?
+            ORDER BY Date
+        '''
+        long_df = pd.read_sql(long_query, conn, params=(*long_tickers, start_date))
+        if not long_df.empty:
+            long_df['Date'] = pd.to_datetime(long_df['Date'])
+            long_wide = long_df.pivot_table(index='Date', columns='Ticker', values='Close', aggfunc='last')
+            frames.append(long_wide)
+
+    if not frames:
+        return pd.DataFrame()
+
+    combined = frames[0]
+    for frame in frames[1:]:
+        combined = combined.combine_first(frame)
+
+    return combined.sort_index()
 
 
 def calculate_all_correlations(returns_df, stock_tickers):

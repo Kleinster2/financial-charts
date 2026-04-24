@@ -14,7 +14,7 @@ That is why operating metrics matter more here than they do at [[JPMorgan Chase]
 | Ticker | C |
 
 ![[c-vs-peers.png]]
-*Citi +45% since 2018 — lagging [[JPMorgan|JPM]] (+260%), [[Bank of America|BAC]] (+110%), [[KBE]] benchmark (+70%). Turnaround in progress but returns still below peers.*
+*Citi +45% since 2018 — lagging [[JPMorgan Chase|JPM]] (+260%), [[Bank of America|BAC]] (+110%), [[KBE]] benchmark (+70%). Turnaround in progress but returns still below peers.*
 
 ---
 
@@ -120,7 +120,7 @@ This note does not yet have a full agency-by-agency action log. For now the more
 
 The story of Citigroup is the story of a global bank that got too complex for its own good, survived the crisis, and is now trying to convert reach into acceptable returns.
 
-- 1998-2007: The Citicorp-Travelers merger created the original financial-supermarket dream. Citi became the most visibly global of the US banks, but that scale also embedded layers of complexity that later proved hard to manage.
+- 1998-2007: The Citicorp-[[Travelers]] merger created the original financial-supermarket dream. Citi became the most visibly global of the US banks, but that scale also embedded layers of complexity that later proved hard to manage.
 - 2008-2012: The financial crisis broke the old model. Citi needed extraordinary support, shed assets, and spent years rebuilding capital and credibility. From that point forward, the bank traded with a persistent discount because investors no longer gave it credit for breadth alone.
 - 2021-2026: Under [[Jane Fraser]], the institution moved from cleanup to simplification. The exits from multiple consumer markets, sharper focus on Services, Markets, Banking, and Wealth, and better expense control are the current rerating case. The open question is whether the improvement can become structural rather than cyclical.
 

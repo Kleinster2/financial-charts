@@ -5,7 +5,7 @@ aliases:
 ---
 #actor #bank #usa
 
-**JPMorgan Chase** — Largest US bank ($4T+ assets). Lead arranger on AI infrastructure financing. Launched $1.5T Security & Resiliency Initiative (Oct 2025) for national security financing.
+**JPMorgan Chase** - Largest US bank ($4T+ assets). Lead arranger on AI infrastructure financing. Launched $1.5T Security & Resiliency Initiative (Oct 2025) for national security financing.
 
 JPMorgan matters because it is the benchmark by which every other US bank is judged. The franchise combines the largest balance sheet, the deepest corporate relationships, the strongest consumer platform, and enough market share in advisory, trading, and wealth to show up almost everywhere that capital formation happens. When JPM prints a number, it is rarely just a JPM number. It is often the reference point for the whole sector.
 
@@ -16,7 +16,7 @@ That scale also changes the analytical question. The debate is no longer whether
 | Ticker | JPM |
 
 ![[jpm-vs-peers.png]]
-*JPM +260% since 2018 — dominant vs [[Bank of America|BAC]] (+110%), [[Wells Fargo|WFC]] (+45%), [[Citigroup|C]] (+45%), [[KBE]] benchmark (+70%). Best-in-class execution.*
+*JPM +260% since 2018 - dominant vs [[Bank of America|BAC]] (+110%), [[Wells Fargo|WFC]] (+45%), [[Citigroup|C]] (+45%), [[KBE]] benchmark (+70%). Best-in-class execution.*
 
 ---
 
@@ -111,7 +111,7 @@ NIM = Net interest margin. NCO = Net charge-off rate.
 | [[Consumer]] & Community Banking (CCB) | $72B | 40% | $17B |
 | Commercial & Investment Bank (CIB) | $70B | 39% | $20B |
 | Asset & Wealth Management (AWM) | $22B | 12% | $5B |
-| Corporate/Other | $17B | 9% | — |
+| Corporate/Other | $17B | 9% | - |
 
 Note: CIB reorganized Q2 2024 (merged Corporate & Investment Bank + Commercial Banking).
 
@@ -150,14 +150,14 @@ This note does not yet have a full agency-by-agency action log. In practice, JPM
 The story of JPMorgan Chase is the story of how a large bank became the organizing center of US finance rather than merely one participant inside it.
 
 - 2000-2004: The modern JPMorgan Chase emerged from the Chase and J.P. Morgan combination, then became something much larger when Bank One was acquired and [[Jamie Dimon]] entered the system. That deal mattered because it fused brand, corporate relationships, and operating discipline in a way the old franchise had not fully achieved.
-- 2008-2010: The crisis cemented the hierarchy. JPM absorbed Bear Stearns and Washington Mutual, expanded market share while rivals were impaired, and came out of the period with more scale, more deposits, and more credibility than before.
+- 2008-2010: The crisis cemented the hierarchy. JPM absorbed [[Bear Stearns]] and Washington Mutual, expanded market share while rivals were impaired, and came out of the period with more scale, more deposits, and more credibility than before.
 - 2011-2026: Post-crisis JPM became the reference franchise for capital strength, technology spend, and management quality. The current chapter extends that logic into AI infrastructure, national-security finance, and balance-sheet-heavy lending where the bank's size itself becomes a competitive product.
 
 ---
 
 ## AWM: Athlete Council (Mar 2026)
 
-Launched "Athlete Council" targeting college athletes — now earning sizeable NIL (name, image and likeness) income after a series of lawsuits opened direct school payments and endorsement deals. [[Dwyane Wade]], [[Megan Rapinoe]], and [[Tom Brady]] recruited as council frontmen. Brady also spoke at JPMorgan's 2026 wealth management summit.
+Launched "Athlete Council" targeting college athletes - now earning sizeable NIL (name, image and likeness) income after a series of lawsuits opened direct school payments and endorsement deals. [[Dwyane Wade]], [[Megan Rapinoe]], and [[Tom Brady]] recruited as council frontmen. Brady also spoke at JPMorgan's 2026 wealth management summit.
 
 | Metric | Value |
 |--------|-------|
@@ -167,9 +167,9 @@ Launched "Athlete Council" targeting college athletes — now earning sizeable N
 | JPM client AUM | $4.8T |
 | College athletes going pro | <2% of 500,000+ |
 
-The NIL market roughly tripled from ~$0.9B (2021-22) to $2.75B (2025-26) — four seasons of rapid growth since courts opened payments. But the addressable pool is small relative to JPM's $4.8T AUM. The real play is early capture: locking in the <2% who go pro and become genuinely wealthy.
+The NIL market roughly tripled from ~$0.9B (2021-22) to $2.75B (2025-26) - four seasons of rapid growth since courts opened payments. But the addressable pool is small relative to JPM's $4.8T AUM. The real play is early capture: locking in the <2% who go pro and become genuinely wealthy.
 
-Competitive landscape: [[Bank of America]]/Merrill Lynch has a partnership with IMG Academy (access to promising young talent). [[UBS]] hired NFL veteran Adewale Ogunleye in 2020 for its sports and entertainers client group. [[Goldman Sachs]] has two-time Super Bowl champion Justin Tuck as MD — clients include athletes. 65% of college athletes surveyed received no financial education in high school (2021 study) — the advisory gap is real.
+Competitive landscape: [[Bank of America]]/[[Merrill Lynch]] has a partnership with IMG Academy (access to promising young talent). [[UBS]] hired NFL veteran Adewale Ogunleye in 2020 for its sports and entertainers client group. [[Goldman Sachs]] has two-time Super Bowl champion Justin Tuck as MD — clients include athletes. 65% of college athletes surveyed received no financial education in high school (2021 study) — the advisory gap is real.
 
 Risks: client acquisition cost high for low conversion (<2% go pro), reputational blowback if investments underperform or athletes attract controversy (Brady's [[FTX]] promotion is the cautionary tale).
 
@@ -287,8 +287,8 @@ Four pillars:
 27 sub-areas including shipbuilding, nuclear energy, critical minerals, nanomaterials.
 
 Early deployments:
-- [[MP Materials]] — $400M DoD investment (rare earths)
-- Perpetua Resources — $75M equity (antimony, first US producer)
+- [[MP Materials]] - $400M DoD investment (rare earths)
+- Perpetua Resources - $75M equity (antimony, first US producer)
 
 [[Jamie Dimon]] rationale: US over-reliance on "unreliable sources" for critical minerals and manufacturing is "painfully clear."
 
@@ -309,7 +309,7 @@ JPM sees M&A revival drivers:
 2025 context:
 - Clean energy M&A slumped to lowest since 2017 (55.3 GW)
 - Average deal premium: 12% (down from 46% in 2024)
-- Overall M&A hit $4.5T (2nd best on record) — renewables missed out
+- Overall M&A hit $4.5T (2nd best on record) - renewables missed out
 
 ---
 
@@ -330,7 +330,7 @@ General JPM thesis:
 
 
 ![[jpm-employees-chart.png]]
-*Headcount: 318,512 (2025) — up 0.4% YoY*
+*Headcount: 318,512 (2025) - up 0.4% YoY*
 
 ## Quick stats
 
@@ -355,7 +355,7 @@ General JPM thesis:
 
 ### Highlights
 
-- Equities trading +40% to $2.9B — hedge fund business strong
+- Equities trading +40% to $2.9B - hedge fund business strong
 - Revenue +7% YoY
 - NII +7% to $25.1B
 - Headline profit down 7% to $13B due to $2.2B reserve for [[Apple]] Card portfolio acquisition from Goldman Sachs
@@ -370,7 +370,7 @@ General JPM thesis:
 ### Dimon Commentary
 
 - Economy "resilient," consumers still spending, labor market softening but not worsening
-- Warning: "markets seem to underappreciate potential hazards" — geopolitics, sticky inflation, elevated asset prices
+- Warning: "markets seem to underappreciate potential hazards" - geopolitics, sticky inflation, elevated asset prices
 
 ---
 
@@ -396,11 +396,11 @@ Sector forecasts:
 | Sector | 2026E | YoY Change |
 |--------|-------|------------|
 | Technology | $252B | +61% |
-| TMT total | $400B | — |
+| TMT total | $400B | - |
 | [[Consumer]] | $135B | +44% |
 | [[Media]] & Entertainment | $85B | +38% |
 | [[Telecom]] | $56B | +25% |
-| US banks | — | -6% |
+| US banks | - | -6% |
 
 M&A supply: $94B announced deals for 2026 + $88B expected. Strategists Nathaniel Rosenbaum and Eric Beinstein: "animal spirits have returned."
 
@@ -436,7 +436,7 @@ Dimon vowed to spend what's needed to avoid losing ground to competitors.
 
 Q4 IB shortfall: Investment banking fee income fell short of guidance telegraphed just weeks earlier.
 
-Stock tumbled after Q4 results despite beat — investors worried about expense trajectory and populist policy risks.
+Stock tumbled after Q4 results despite beat - investors worried about expense trajectory and populist policy risks.
 
 *Updated 2026-01-15*
 
@@ -444,9 +444,9 @@ Stock tumbled after Q4 results despite beat — investors worried about expense 
 
 ## Oil market: OECD inventory warning (Apr 2026)
 
-JPMorgan analysts warned OECD crude oil stocks would fall to operational minimums under the [[Strait of Hormuz]] closure, forcing price rationing rather than inventory draws to balance the ~14M bbl/day supply shortfall. This underpins the record [[WTI]] backwardation (~$14-15 May-June spread) — physical barrels are genuinely scarce, and the market is rationing by price rather than drawing down strategic reserves.
+JPMorgan analysts warned OECD crude oil stocks would fall to operational minimums under the [[Strait of Hormuz]] closure, forcing price rationing rather than inventory draws to balance the ~14M bbl/day supply shortfall. This underpins the record [[WTI]] backwardation (~$14-15 May-June spread) - physical barrels are genuinely scarce, and the market is rationing by price rather than drawing down strategic reserves.
 
-See [[Brent-WTI spread#April 2, 2026 inversion — real or illusion?]], [[Iran conflict oil price timeline]].
+See [[Brent-WTI spread]] and the April 2, 2026 inversion discussion there, plus [[Iran conflict oil price timeline]].
 
 ---
 
@@ -458,24 +458,24 @@ Beat across the board; record trading revenue; all-time record buyback.
 |--------|---------|-------------|-------|
 | EPS | $5.94 | Beat $5.45 | +9% vs consensus |
 | Revenue | $50.54B | Beat $49.17B | |
-| ROTCE | 23% | — | |
-| Trading revenue | $11.6B | — | Record, +20% YoY |
-| Buyback | $8.33bn | — | All-time record (prev. record $8.32bn, Q3 2025) |
+| ROTCE | 23% | - | |
+| Trading revenue | $11.6B | - | Record, +20% YoY |
+| Buyback | $8.33bn | - | All-time record (prev. record $8.32bn, Q3 2025) |
 
 ### Dimon on capital and buybacks
 
 Dimon disclosed ~$40bn of excess capital and set out his buyback philosophy: "Our preferred way of using capital is not buying back stock today. We're doing it, fair market value and all that. But I'd rather buy back stock when we think it's a real discount and the ongoing shareholder gets the benefit of buying it cheap." Preferred deployment: "serving clients."
 
-Stock reaction was negative (-3%) despite the beat — market read expenses as the concern (2026 guidance $105B).
+Stock reaction was negative (-3%) despite the beat - market read expenses as the concern (2026 guidance $105B).
 
-*Sources: [JPMorgan Q1 2026 — CNBC](https://www.cnbc.com/2026/04/14/jpmorgan-chase-jpm-earnings-1q-2026.html); FT (Apr 15, 2026)*
+*Sources: [JPMorgan Q1 2026 - CNBC](https://www.cnbc.com/2026/04/14/jpmorgan-chase-jpm-earnings-1q-2026.html); FT (Apr 15, 2026)*
 
 ---
 
 ## Venezuela opportunity
 
 60-year presence in Venezuela:
-- Dormant Caracas office maintained — could reactivate as needed
+- Dormant Caracas office maintained - could reactivate as needed
 - Currently trades Venezuelan sovereign bonds (non-sanctioned) with offshore counterparties
 
 If sanctions ease:
@@ -493,28 +493,28 @@ See [[Venezuela]].
 
 ## Analyst timeline
 
-- Jan. 15, 2026 — Q4 2025 reinforced JPM's premium status but also reminded the market that even the best franchise can sell off when expense guidance looks too loose.
-- Apr. 14-15, 2026 — Q1 2026 beat across the board, trading revenue hit a record, and Dimon's capital comments reframed buybacks as optional rather than urgent, which is classic JPM premium behavior.
+- Jan. 15, 2026 - Q4 2025 reinforced JPM's premium status but also reminded the market that even the best franchise can sell off when expense guidance looks too loose.
+- Apr. 14-15, 2026 - Q1 2026 beat across the board, trading revenue hit a record, and Dimon's capital comments reframed buybacks as optional rather than urgent, which is classic JPM premium behavior.
 
 ---
 
 ## Related
 
 ### AI infrastructure
-- [[Crusoe Energy]] — customer ($2.3B construction loan)
-- [[Blue Owl]] — partner (co-financier)
-- [[Blackstone]] — partner (co-financier)
-- [[CoreWeave]] — customer (financing)
-- [[AI infrastructure financing]] — thesis context
+- [[Crusoe Energy]] - customer ($2.3B construction loan)
+- [[Blue Owl]] - partner (co-financier)
+- [[Blackstone]] - partner (co-financier)
+- [[CoreWeave]] - customer (financing)
+- [[AI infrastructure financing]] - thesis context
 
 ### Technology vendors
-- [[Pure Storage]] — enterprise storage (1 of 9 top investment banks using Pure)
+- [[Pure Storage]] - enterprise storage (1 of 9 top investment banks using Pure)
 
 ### Peers
-- [[Bank of America]] — \#2 US bank
-- [[Wells Fargo]] — \#4 US bank
-- [[Citigroup]] — peer
-- [[Goldman Sachs]] — peer (investment banking)
+- [[Bank of America]] - \#2 US bank
+- [[Wells Fargo]] - \#4 US bank
+- [[Citigroup]] - peer
+- [[Goldman Sachs]] - peer (investment banking)
 
 ### Securities
 - [[JPMorgan Chase securities]]

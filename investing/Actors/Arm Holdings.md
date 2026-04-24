@@ -106,6 +106,21 @@ See [[Arm AGI CPU]] for full specifications, competitive comparison, market disc
 
 ARM surged 16.4% to $162.10, adding ~$29B in market cap — the stock's highest level since November. The semiconductor sector followed: [[AMD]] +7.3%, [[Intel]] +7.1%, [[NVIDIA]] +2.0%. Reuters noted ARM now trades at 63x forward P/E versus AMD at 27x and Intel at 71x. HSBC analysts forecast that by FY2029, server CPU revenue (AGI CPU silicon + server CPU royalties) will overtake smartphones as the dominant contributor to Arm's overall revenue mix — a structural shift in the business composition. Citi's assessment: "Arm has not taken a baby step — it has jumped in with both feet." The $15B revenue forecast was "well above even the highest of speculated estimates." On incremental economics: $15B silicon revenue at 50% gross margin → $7.5B incremental gross profit + $5B incremental operating profit, dwarfing any margin compression concern.
 
+### April 22 all-time high — brokers pile into the AGI CPU story
+
+ARM closed April 22 at $196.57, up 12.0% on the session and up roughly 44% from the pre-announcement $136.96 close on March 30. Intraday the stock printed a new all-time high near $194.68, and added another ~4% in after-hours trade after incremental ecosystem headlines. The move was a ~+2.8σ beta-adjusted event per the local idiosyncratic-vol screen — an unusual sustained re-rating, not a single-day pop.
+
+| Metric | Mar 30 close | Apr 22 close | Change |
+|---|---|---|---|
+| ARM | $136.96 | $196.57 | +43.5% |
+| Implied market cap | ~$145B | ~$208B | +$63B |
+
+The catalyst mix on Apr 22 was a research-ratings cluster rather than a single news item: Evercore ISI, Citi, Guggenheim, Mizuho, Needham, and [[RBC Capital]] all either raised price targets or reiterated bullish ratings, anchored on three claims — (1) the [[Arm AGI CPU]] server-CPU TAM pulls Arm into the [[Agentic AI]] spend path directly, not just via royalties; (2) [[Meta]] as lead customer validates the design and de-risks first-customer commercial terms; (3) FY29-FY31 revenue trajectory toward $25B total / $15B AGI CPU silicon is defensible even under conservative adoption. Reuters and Bloomberg both framed the rally as Arm moving from IP vendor to AI-infrastructure beneficiary in the index-weight sense — the same re-rating that pulled [[NVIDIA]] and [[Broadcom]] into mega-cap status.
+
+The April run extends the Mar 24 structural pivot in one direction the IPO did not: sell-side is now modeling Arm as a silicon franchise, not just a royalty stream. That reframing is what turns the $15B FY31 target from "aspirational" into a reference point that analysts are willing to anchor DCF models against. The risk symmetry has changed — miss on AGI CPU ramp or first-customer revenue in late 2026 / H1 2027 now creates meaningful downside where the pre-pivot stock did not have the same expectation embedded.
+
+*Sources: [ARM Stock Surges As New AGI CPU Ignites AI Hopes (StocksToTrade, Apr 22, 2026)](https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_04_22/); [ARM Stock Hits All-Time High (Benzinga, Apr 22, 2026)](https://www.benzinga.com/trading-ideas/movers/26/04/51980626/arm-stock-hits-all-time-high-whats-really-driving-wednesdays-surge); local `quick_movers.py` screen, 2026-04-22 close.*
+
 ---
 
 ## Business model: the three layers

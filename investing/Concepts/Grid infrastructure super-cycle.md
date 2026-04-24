@@ -64,7 +64,7 @@ See [[Utility wildfire risk]] for the wildfire-specific pattern. The broader poi
 | Demand source | Scale |
 |---------------|-------|
 | EV charging | 30-50 GW incremental by 2035 |
-| Industrial reshoring ([[CHIPS Act]], [[IRA]]) | Tens of GW for new fabs, battery plants |
+| Industrial reshoring ([[CHIPS Act]], [[Inflation Reduction Act|IRA]]) | Tens of GW for new fabs, battery plants |
 | Building electrification (heat pumps) | Growing |
 | Renewable interconnection backlog | 250+ GW in [[PJM]] queue alone |
 
@@ -131,9 +131,9 @@ For regulated utilities, more capex = larger rate base = higher allowed earnings
 
 | Element | [[Puerto Rico]] | Mainland parallel |
 |---------|-------------|-------------------|
-| Climate destruction | Hurricane Maria → 80% grid destroyed | Wildfires → [[PG&E]] bankruptcy |
+| Climate destruction | [[Hurricane Maria]] → 80% grid destroyed | Wildfires → [[PG&E]] bankruptcy |
 | Privatization | [[LUMA Energy]] (T&D), [[Genera PR]] (generation) | Deregulation of IPPs from utilities |
-| Federal funding | $20B+ FEMA | [[IRA]] / [[IIJA]] grid investment |
+| Federal funding | $20B+ FEMA | [[Inflation Reduction Act|IRA]] / [[Infrastructure Investment and Jobs Act|IIJA]] grid investment |
 | Capacity crisis | 90 load-shed events projected (2025) | 44 GW DC power shortfall |
 | Same contractors | [[Quanta Services]] (via LUMA) | [[Quanta Services]] (direct) |
 
@@ -162,7 +162,7 @@ The island is a microcosm where all three drivers hit simultaneously: climate re
 | Labor cost inflation | Scarce linemen → wage pressure |
 | Regulatory pushback | DC power cost controversy (see [[Power constraints]]) |
 | Project execution | Large infrastructure = overrun risk |
-| Political reversal | IRA repeal would reduce electrification driver |
+| Political reversal | [[Inflation Reduction Act|IRA]] repeal would reduce electrification driver |
 
 The key risk mitigation: three independent drivers mean any single one can weaken without collapsing the thesis. AI could slow and climate + electrification still sustain the cycle.
 

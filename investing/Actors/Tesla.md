@@ -68,6 +68,31 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ---
 
+## Q1 2026 earnings (Apr 22, 2026)
+
+Narrow beat on both lines, but the stock's initial +4% after-hours rally reversed once the earnings call surfaced a $5B capex increase and the Optimus/Robotaxi spending signal. TSLA closed Apr 22 at ~$250 pre-print (-14% YTD, the worst-performing mega-cap); the AH action unwound further into Apr 23.
+
+| Metric | Q1 2026 | Consensus | Q1 2025 |
+|---|---|---|---|
+| Revenue | $22.39B | $22.35B | — |
+| EPS (adj, non-GAAP) | $0.41 | $0.36 | — |
+| Free cash flow | $1.44B | — | — |
+| Net income (reported) | $4.72B | — | — |
+
+Key disclosures:
+- Capex guidance raised to $25B for 2026 — +$5B versus the prior >$20B guide on the Q4 2025 call. Moves the FCF equation further into the red, validating the [[Evercore]] cash-flow deficit forecast framed earlier.
+- Optimus first-generation production line: preparations for Tesla's first large-scale Optimus factory begin in Q2 2026, targeting 1 million robots per year at the first-generation line. Musk said the public Optimus unveil would come closer to production — "late July / August" timeframe.
+- Robotaxi expansion: unsupervised ride-hailing service expanded from Austin to Dallas and Houston, adding Texas-only testing geography. The fleet is still a "small number" of driverless cars; Tesla does not yet sell a robotaxi-configured vehicle.
+- Energy and AI infrastructure buildout cited as core drivers of the higher capex — consistent with the existing 2026 cash-flow crisis thesis above.
+
+Interpretation: Q1 2026 is the first print where the market has a full quarter of evidence that Tesla is spending through an auto demand trough rather than rationalizing into it. The beat on revenue/EPS is marginal; the +$5B capex bump is what the Street is pricing. FCF of $1.44B is positive in Q1 but the capex curve points to negative prints later in the year, which moves the stock from an "execution story" to a "capital-raise candidate" framing in analyst models. The Apr 22 after-hours reversal is the clearest market expression of that shift — investors wanted the Optimus/Robotaxi optionality, but not the capex revision disclosed in the same breath.
+
+The $2B [[xAI]] commitment (see 2026 cash flow crisis section) and the 2026 capex step-up now interact with an auto business that, at $22.39B revenue, is running flat-to-down year-on-year — the growth-story justification for cash burn is under stress from both directions.
+
+*Sources: [Tesla Q1 2026 EPS beat (Teslarati, Apr 22, 2026)](https://www.teslarati.com/tesla-tsla-q1-2026-earnings-results/); [Tesla Q1 2026 slight beat, $5B capex guide increase (Electrek, Apr 22, 2026)](https://electrek.co/2026/04/22/tesla-tsla-q1-2026-financial-results/); [Tesla Q1 2026 (CNBC, Apr 22, 2026)](https://www.cnbc.com/2026/04/22/tesla-tsla-q1-2026-earnings-report.html); [After-hours movers TSLA/IBM/NOW/LRCX (Investing.com, Apr 22, 2026)](https://www.investing.com/news/stock-market-news/afterhours-movers-tsla-txn-ibm-lrcx-lulu-now-432SI-4630688).*
+
+---
+
 ## Q4 2025 earnings (Jan 28, 2026)
 
 Beat estimates, stock +3% afterhours to $445

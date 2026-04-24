@@ -75,6 +75,7 @@
 - [[EU]] — European Union (policy maker)
 - [[China]] — counterparty
 - [[China trade]] — umbrella hub for China-centered trade relationships
+- [[Second China shock]] — the composition-and-geography framing of the 2020s wave; Europe is the primary target
 - [[Trade]] — parent hub
 - [[EU-China EV tariffs]] — specific policy (Jan 2026)
 - [[US-China trade]] — parallel relationship (harsher approach)

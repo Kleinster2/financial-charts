@@ -32,7 +32,7 @@ PM trades between Consumer Staples and Utilities without a tight sector fit.
 | Ticker | PM |
 | Market cap | ~$275B |
 | FY 2025 revenue | $40.6B |
-| Smoke-free % of revenue | **41.5%** (up from 24.2% in 2020) |
+| Smoke-free % of revenue | 41.5% (up from 24.2% in 2020) |
 | Key products | IQOS, Zyn, Marlboro |
 | Employees | ~82,000 |
 
@@ -43,12 +43,12 @@ PM trades between Consumer Staples and Utilities without a tight sector fit.
 | Year | Smoke-free % of revenue |
 |------|------------------------|
 | 2020 | 24.2% |
-| 2025 | **41.5%** |
+| 2025 | 41.5% |
 | Target | Majority by late 2020s |
 
-**IQOS:** Heated tobacco system, ~155B units shipped (2025), +11% YoY.
+IQOS: Heated tobacco system, ~155B units shipped (2025), +11% YoY.
 
-**Zyn:** Acquired Swedish Match (2022) for $16B. Nicotine pouches, fastest-growing category.
+Zyn: Acquired Swedish Match (2022) for $16B. Nicotine pouches, fastest-growing category.
 
 ---
 
@@ -76,16 +76,53 @@ PM trades between Consumer Staples and Utilities without a tight sector fit.
 
 ## Earnings
 
+### Q1 2026 (Apr 22, 2026) — beat, FY guide raised, Zyn US inventory normalized
+
+A strong print with three structural positives: adjusted EPS accelerated 16% YoY, FY26 guidance was raised, and the US [[Zyn]] inventory overhang from Q4 2025 is now cleared. Stock rose 7% on Apr 22. The print validates the smoke-free transition thesis — smoke-free products now drive the majority of growth while combustibles continue their orderly managed decline.
+
+| Metric | Q1 2026 | Q1 2025 | vs consensus |
+|---|---|---|---|
+| Revenue | $10.15B | — | Beat |
+| Adjusted EPS | $1.96 | $1.69 (+16%) | Beat $1.83 by $0.13 |
+| Operating margin | — | — | Expanding |
+
+Zyn US recovery underneath the drop. Zyn US shipment volumes fell 23.5% YoY — a headline that sounds alarming but is the working-through of prior-year channel inventory built during the 2024-2025 supply shortage. Retail data is the cleaner signal:
+
+| Zyn US metric | Q1 2026 |
+|---|---|
+| Volume share of US nicotine pouch category | 55.5% |
+| Retail value share of US nicotine pouch category | 61.3% |
+| Channel inventory | Broadly normalized |
+
+The 55.5% volume share is a modest step-down from peak but still commanding. The competitive tension with [[Altria]]'s NJOY/[[on!]] and private-label entrants is real but has not yet broken Zyn's pricing power or shelf placement. Management did flag "regulatory delays" as a minor drag — likely FDA PMTA timing — but did not quantify.
+
+FY26 guidance raise:
+
+| Line | New (Apr 22) | Prior | Delta |
+|---|---|---|---|
+| FY26 adjusted EPS | $8.36-$8.51 | $8.38-$8.53 | Midpoint slightly raised |
+| FY26 currency-neutral EPS growth | — | +11-13% | Maintained/modestly raised |
+
+The guidance raise is modest but matters — Q1 2026 is the first quarter post-[[Zyn]]-normalization, so management is effectively signaling they see the rest of 2026 without a repeat of the US inventory shock.
+
+Structural interpretation. PM is one of the few large-cap "consumer staples" names where the growth story has a clear endgame — smoke-free share of revenue continues to rise, smoke-free margins now match combustibles, and the platform (Zyn + IQOS) has moats that generic private-label cannot match at scale. The Q1 print is the cleanest confirmation of that transition in several quarters.
+
+Read-across: [[Altria]] (reports Apr 30) will now face direct pressure to show NJOY/on! taking share from Zyn, not just market growth. [[British American Tobacco]] (velo pouches, Vuse vapor) is the international comparable.
+
+*Sources: [PM Q1 2026 beats by $0.13 (StreetInsider, Apr 22, 2026)](https://www.streetinsider.com/Earnings/Philip+Morris+International+(PM)+Tops+Q1+EPS+by+13c,+Beats+on+Revenue;+Offers+Guidance/26346938.html); [PM Q1 press release (StockTitan, Apr 22, 2026)](https://www.stocktitan.net/news/PM/philip-morris-international-reports-2026-first-quarter-results-and-rb6ymvi4v2t6.html); [PM Q1 2026 beats narrows outlook (Trading Pedia, Apr 22, 2026)](https://www.tradingpedia.com/2026/04/22/philip-morris-beats-q1-narrows-full-year-outlook/); [PM Q1 2026 slides smoke-free surge (Investing.com, Apr 22, 2026)](https://www.investing.com/news/company-news/philip-morris-q1-2026-slides-smokefree-growth-drives-eps-beat-93CH-4629874).*
+
+---
+
 ### Q4 2025 (Feb 6, 2026)
 
 | Metric | Actual | Expected |
 |--------|--------|----------|
 | Q4 EPS | $1.70 | $1.70 (in-line) |
 | Q4 Revenue | $10.36B | $10.38B (miss) |
-| FY 2025 EPS | **$7.54** (+15% YoY) | — |
+| FY 2025 EPS | $7.54 (+15% YoY) | — |
 | Operating margin | 40.4% | — |
 | 2026 EPS guidance | $8.38-$8.53 (+11-13%) | — |
 
-**Smoke-free segment:** Q4 shipment volumes +8.5% YoY, cigarette volumes -2.2%. Smoke-free now 41% of revenue.
+Smoke-free segment: Q4 shipment volumes +8.5% YoY, cigarette volumes -2.2%. Smoke-free now 41% of revenue.
 
 Fifth consecutive year of volume growth. Stock -2% premarket on weaker-than-expected FY26 profit guidance.

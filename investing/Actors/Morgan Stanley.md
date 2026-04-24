@@ -31,7 +31,7 @@ MS trades as a core Financials name (XLF r = 0.86).
 | Ticker | MS |
 | Market cap | ~$180B |
 | Wealth AUM | ~$5T |
-| CEO | Ted Pick |
+| CEO | [[Ted Pick]] |
 
 *Updated 2026-04-23*
 
@@ -41,7 +41,7 @@ MS trades as a core Financials name (XLF r = 0.86).
 
 | Role | Name | Notes |
 |------|------|-------|
-| CEO | Ted Pick | Leaning harder into the institutional-plus-wealth hybrid |
+| CEO | [[Ted Pick]] | Leaning harder into the institutional-plus-wealth hybrid |
 | CFO | Sharon Yeshaya | Main voice on buybacks, capital generation, and business mix |
 
 Morgan Stanley's leadership story is about mix, not rescue. The franchise is no longer trying to prove it can survive market cycles. It is trying to show that wealth-management durability and institutional upside can coexist inside one premium multiple.
@@ -100,7 +100,7 @@ The story of Morgan Stanley is the story of an old-line investment bank that reb
 | Market cap | ~$180B |
 | Ticker | MS |
 | AUM (Wealth) | ~$5T |
-| CEO | Ted Pick |
+| CEO | [[Ted Pick]] |
 
 ---
 
@@ -120,7 +120,7 @@ Wealth management:
 - Net new assets: $122.3B quarterly
 - Total client assets: ~$7.9T
 
-CEO Ted Pick: First full year as CEO (took over Jan 2024). Investment banking revival validated his focus on institutional business.
+CEO [[Ted Pick]]: First full year as CEO (took over Jan 2024). Investment banking revival validated his focus on institutional business.
 
 ---
 
@@ -289,7 +289,7 @@ Bear:
 
 ## Analyst timeline
 
-- Jan. 2026 — Q4 2025 showed Morgan Stanley still had real upside to an investment-banking and trading rebound, with Ted Pick's first full year as CEO validating the institutional refocus.
+- Jan. 2026 — Q4 2025 showed Morgan Stanley still had real upside to an investment-banking and trading rebound, with [[Ted Pick]]'s first full year as CEO validating the institutional refocus.
 - Apr. 15, 2026 — Q1 2026 delivered record revenue, a 27.1% ROTCE, record equities, and record wealth-segment revenue, turning the dual-engine thesis from a story into a hard data point.
 
 ---

@@ -152,6 +152,29 @@ Stock reaction: NOW was already -18% YTD before Armis news broke (Dec 13), then 
 
 ---
 
+## Q1 2026 earnings — stock -15% on margin guide cut and Armis-flattered revenue (Apr 22, 2026)
+
+The print beat on the surface — subscription revenue of $3.671B, +19% cc, above the high end of guidance — but the stock fell 15% in extended trading as investors parsed the quality of the raise. Two disclosures broke the "no-AI-disruption" narrative that held into April.
+
+| Metric | Q1 2026 | Q1 2025 | vs guide / consensus |
+|---|---|---|---|
+| Subscription revenue | $3.671B | — | +19% cc, above high end |
+| Subscription growth rate | 22% | — | Headline accelerate |
+| FY26 subscription guide (new) | $15.735-15.775B | — | Raised ~$185M midpoint |
+| FY26 subscription guide (ex [[Armis]]) | ~unchanged | — | Raise is ~125 bps Armis contribution |
+| FY26 non-GAAP op margin guide | 31.5% | 32.0% (prior) | Cut 50 bps |
+| FY26 FCF margin guide | 35% | 36% (prior) | Cut 100 bps |
+
+**Two dynamics compound the reaction.** First, the revenue raise is mechanical, not organic — roughly 125 bps of the Q2 and FY26 subscription growth guide comes from the [[Armis]] acquisition rolled in mid-quarter. Ex-Armis, management neither raised nor cut the organic guide, which is below the market's expectation that Q1 AI-agent traction would flow through into raised organic numbers. Second, the margin cuts — op margin to 31.5%, FCF margin to 35% — ratify the ["long-term disaggregation risk"](#saaspocalypse-impact-feb-2026) thesis: ServiceNow is spending more to defend the platform position, not less, while the revenue mix relies on M&A rather than core product momentum.
+
+The Iran-war overlay. Management cited [[Operation Epic Fury|Iran war]] macro drag as a factor in demand phasing, particularly in [[Europe]] and federal/public sector. This is the first print where a major AI-infrastructure beneficiary has pointed at the oil-war macro as a subscription-growth headwind rather than a tailwind — tracks with the [[Iran conflict airline disruption]] and broader [[Iran conflict economic disruption]] picture now reaching large-cap software forward bookings.
+
+Read-across: the Armis-flattered guide and margin cuts are the clearest expression yet that the [[February 2026 AI Disruption Cascade]] narrative did not resolve with the Feb 24 [[Anthropic]] reversal — it rhymed. Every large-cap SaaS name with similar AI-agent exposure ([[Salesforce]], [[Workday]], [[Atlassian]]) will now face pressure to disclose organic vs M&A growth contribution separately.
+
+*Sources: [ServiceNow stock sinks 14% — subscription revenue hit from Iran war (CNBC, Apr 22, 2026)](https://www.cnbc.com/2026/04/22/servicenow-now-earnings-q1-2026.html); [ServiceNow Q1 2026 slides: revenue growth 22% Y/Y (Investing.com, Apr 22, 2026)](https://www.investing.com/news/company-news/servicenow-q1-2026-slides-revenue-growth-accelerates-to-22-yy-93CH-4630999); [ServiceNow Q1 2026 transcript (Benzinga, Apr 22, 2026)](https://www.benzinga.com/insights/news/26/04/51987949/full-transcript-servicenow-q1-2026-earnings-call); [ServiceNow press release (Apr 22, 2026)](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-First-Quarter-2026-Financial-Results/default.aspx).*
+
+---
+
 ## Q4 2025 results (Jan 28, 2026)
 
 - Subscription revenue: $3.47B (21% YoY, 19.5% constant currency)

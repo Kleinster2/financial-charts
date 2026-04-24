@@ -53,9 +53,11 @@ The IRA's 45V production tax credit (up to $3/kg) was the most significant polic
 
 ## Related
 
+- [[Electrolyzers]] — the hardware; Chinese cost leadership vs Western incumbent stress
 - [[Fortescue]] — Fortescue Energy division (scaled back from 15 Mt target)
 - [[H2 Green Steel]] — Swedish green steel startup
 - [[Clean energy for AI]] — overlapping renewable infrastructure theme
 - [[Iron ore]] — steel decarbonization is a key demand driver
 - [[Australia]] — leading candidate for green H2 export hub
 - [[Norway]] — [[Fortescue]] Holmaneset project (hydropower-fed)
+- [[Second China shock]] — electrolyzer competition as test case for the broader pattern

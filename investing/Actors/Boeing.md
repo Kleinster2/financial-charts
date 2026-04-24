@@ -57,6 +57,38 @@ BA's correlation with LMT (0.12), NOC (0.15), GD (0.28), RTX (0.33) is near-zero
 
 ---
 
+## Q1 2026 earnings — stock +5%, 737 MAX ramp to 47/mo, narrowing loss (Apr 22, 2026)
+
+The cleanest print of the Kelly Ortberg era. Revenue +14% YoY, near-breakeven net loss, concrete production rate guidance, and explicit certification timelines for the 737 MAX 7 and MAX 10. Stock rose 5.22% on Apr 22 against a modestly negative industrial sector backdrop.
+
+| Metric | Q1 2026 | Q1 2025 | Growth |
+|---|---|---|---|
+| Revenue | $22.22B | $19.49B | +14% YoY |
+| Net loss | $(7)M | $(31)M | Narrowed |
+| Loss per share | $(0.11) | $(0.16) | Narrowed |
+
+Production and delivery commitments:
+
+| Program | Current rate | Target | Catalyst |
+|---|---|---|---|
+| 737 MAX | 42/month | 47/month "this summer" | FAA cap lifted; supply chain ready |
+| 737 MAX 7 | — | Certification in 2026 | Deliveries start 2027 |
+| 737 MAX 10 | — | Certification in 2026 | Deliveries start 2027 |
+
+The 737 MAX 7/MAX 10 certification timeline is the key structural disclosure. Both airframes have been held up since 2022 on a combination of engine anti-ice system design changes and FAA post-door-plug scrutiny. Ortberg committing to 2026 certification pushes first deliveries into 2027 — this unlocks [[Southwest Airlines]] (MAX 7 launch customer) and [[United Airlines]] (MAX 10 launch customer) order backlogs that have been sitting without aircraft to take delivery of.
+
+China dynamic. Boeing is closing in on what could be its largest-ever single sale — up to 500 jets to [[China]] airlines — contingent on continued trade-deal progress. China had asked airlines not to accept Boeing deliveries during the early-2025 tariff escalation, but lifted that restriction after the Geneva trade agreement. Q1 deliveries to China resumed; the larger 500-jet deal is still in negotiation. If closed, this is one of the largest commercial aircraft orders in company history.
+
+Defense/Space still the drag. No specific Q1 disclosure on KC-46 or Starliner losses in the headlines, but the commercial segment is the re-rating story for now. Fixed-price defense program losses remain the structural risk.
+
+Free cash flow. Q1 FCF was negative but less so than prior year — the direction is right, and with 737 MAX ramp pulling forward deliveries, FY26 FCF should narrow losses materially if the rate targets hold.
+
+Read-across. Boeing's MAX 7/10 certification commitment is the positive side of the Apr 22 aerospace split. [[GE Aerospace]] cut departures outlook on Middle East drag the same day (-3.6%) while Boeing (+5.2%) rallied on production ramp. The divergence reflects that Boeing's 2026 story is internal execution (certifications, rate increases), while GE Aerospace's 2026 story is external demand (airline flight hours), and the external channel is where the Iran-war drag is flowing through first.
+
+*Sources: [Boeing Q1 2026 earnings (CNBC, Apr 22, 2026)](https://www.cnbc.com/2026/04/22/boeing-ba-q1-2026-earnings.html); [Boeing stock surges on China deliveries (Stocktwits, Apr 22, 2026)](https://stocktwits.com/news-articles/markets/equity/boeing-stock-in-spotlight-as-china-deliveries-reportedly-resume/chlERETRbUl); [Boeing stock today — China sanctions, 737 MAX ramp (TS2, Apr 22, 2026)](https://ts2.tech/en/boeing-ba-stock-today-china-sanctions-spirit-aerosystems-integration-and-737-max-production-ramp-drive-the-next-move/).*
+
+---
+
 ## Crisis timeline
 
 | Year | Event |
@@ -110,14 +142,14 @@ Ortberg brought in as turnaround CEO from Collins Aerospace.
 
 ## Investment thesis
 
-**Bull:**
+Bull:
 - Commercial duopoly is structural
 - Backlog provides visibility
 - Services high-margin
 - New CEO fresh start
 - Defense backlog stable
 
-**Bear:**
+Bear:
 - Quality crisis ongoing
 - Cash burn continues
 - FAA production caps

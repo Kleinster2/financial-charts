@@ -1050,4 +1050,25 @@ The risk is bidirectional. If Rapidan's $150 trigger gets pulled, WTI collapses 
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-08 (ceasefire pricing, physical-futures disconnect, tiered restart). 2026-04-12 trader-loss and credit-facility quantification added. 2026-04-12 Islamabad failure and blockade announcement added (Young/Stavridis/Masoud/Blinken via CNN GPS). 2026-04-15 US export surge, $4 pump-price breach, Rapidan $150 export-control trigger added.*
+---
+
+## VLCC convoy to Gulf Coast — 70 tankers vs 27 baseline (Tooze/Nikkei, Apr 21)
+
+*Source: [[Adam Tooze|Chartbook]], "The tanker convoy to the Gulf coast," Apr 21, 2026, citing [[Nikkei Asia]] and [[Matt Smith]] at [[Kpler]].*
+
+The physical restructuring of crude flows around US supply substitution now has a visible signature in shipping. Approximately 70 very-large crude carriers are sailing toward the US Gulf Coast — versus a ~27-VLCC baseline in normal times — with roughly 10% of the global ~1,000-vessel VLCC fleet now in the convoy. Per-vessel capacity of 200,000-300,000 dwt means each tanker holds close to half of [[Japan]]'s daily oil consumption; the aggregate is an unprecedented empty-leg surge out of Asia tracing the Cape of Good Hope route into the US Gulf.
+
+| Metric | Apr 2026 | Baseline |
+|---|---|---|
+| VLCCs en route to US Gulf | ~70 | ~27 |
+| Share of global VLCC fleet in the convoy | ~10% | ~3% |
+| Capacity per vessel | 200-300K dwt | — |
+| Origin | Mainly Asia (Cape of Good Hope route) | — |
+
+This is the physical complement to the Apr 15 FT data point — US crude exports hitting a record 5.2 mb/d. The empty-tanker flow *in* is what makes the full-tanker flow *out* possible. Confirms [[Amrita Sen]]'s three-tier pricing framework (Dubai tight, Brent mispriced, WTI most shielded) is being expressed in shipping as well as pricing: the world is physically reorganizing around US-origin marginal barrels.
+
+Tooze pairs the tanker data with a market-disconnect thesis — [[VIX]] is subdued while Economic Policy Uncertainty has spiked, and US IT (~33% of S&P 500) is dragging the index up. [[Tej Parikh]] ([[FT]]) calls it "EBITDA — Earnings Before Iran, Tariffs and Dubious Announcements." The shipping rerouting is priced; the political regime shift enabling it is not.
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-08 (ceasefire pricing, physical-futures disconnect, tiered restart). 2026-04-12 trader-loss and credit-facility quantification added. 2026-04-12 Islamabad failure and blockade announcement added (Young/Stavridis/Masoud/Blinken via CNN GPS). 2026-04-15 US export surge, $4 pump-price breach, Rapidan $150 export-control trigger added. 2026-04-21 VLCC convoy data (Tooze/Nikkei/Kpler) added.*

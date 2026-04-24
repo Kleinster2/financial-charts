@@ -14,7 +14,7 @@ The open question is whether the franchise can keep narrowing the gap with [[JPM
 | Ticker | BAC |
 
 ![[bac-vs-peers.png]]
-*BAC +110% since 2018 — trailing [[JPMorgan|JPM]] (+260%) but ahead of [[Wells Fargo|WFC]] (+45%), [[Citigroup|C]] (+45%), and [[KBE]] benchmark (+70%). Solid consumer franchise.*
+*BAC +110% since 2018 — trailing [[JPMorgan Chase|JPM]] (+260%) but ahead of [[Wells Fargo|WFC]] (+45%), [[Citigroup|C]] (+45%), and [[KBE]] benchmark (+70%). Solid consumer franchise.*
 
 ---
 
@@ -133,7 +133,7 @@ This note does not yet have a full agency-by-agency upgrade and outlook-change l
 The story of Bank of America is the story of a national retail-bank franchise built through scale, then stress-tested by the financial crisis, and finally rebuilt into a steadier capital-return machine.
 
 - 1998-2007: NationsBank acquired BankAmerica and created the modern coast-to-coast franchise. The strategic prize was scale: a national deposit base, broad branch footprint, and enough breadth to compete directly with the other money-center banks.
-- 2008-2011: The crisis-era acquisitions of Countrywide and Merrill Lynch made BAC much more important, but also much messier. Merrill brought wealth management and institutional strength; Countrywide brought years of legal and credit pain. The bank spent much of the next decade cleaning up that balance-sheet and litigation overhang.
+- 2008-2011: The crisis-era acquisitions of Countrywide and [[Merrill Lynch]] made BAC much more important, but also much messier. Merrill brought wealth management and institutional strength; Countrywide brought years of legal and credit pain. The bank spent much of the next decade cleaning up that balance-sheet and litigation overhang.
 - 2012-2026: Moynihan's BAC became a simpler, better-capitalized institution built around consumer deposits, wealth, and measured capital return. The current debate is not survival or cleanup. It is whether that cleaner profile can turn into a sustained earnings and valuation catch-up versus JPM without BAC losing its risk discipline.
 
 ---
@@ -195,7 +195,7 @@ CEO Moynihan: "We are bullish on the U.S. economy in 2026."
 
 Stock reaction: -2.4% pre-market despite beat (macro concerns, credit card cap overhang).
 
-Expense concern: Piper Sandler analyst Scott Siefers warned Q1 expense guidance "will be worse than we and the market expect" — cost guide could offset NII beat.
+Expense concern: [[Piper Sandler]] analyst Scott Siefers warned Q1 expense guidance "will be worse than we and the market expect" — cost guide could offset NII beat.
 
 ---
 

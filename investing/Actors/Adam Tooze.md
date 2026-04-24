@@ -14,7 +14,7 @@ Adam Tooze is an economic historian at Columbia University, author of major cris
 | Field | Value |
 |---|---|
 | Born | July 5, 1967 |
-| Role | Economic historian, Columbia University; publisher of **Chartbook** |
+| Role | Economic historian, Columbia University; publisher of Chartbook |
 | Known for | [[Crashed]], [[Shutdown]], polycrisis framing, Chartbook |
 | Education | King's College Cambridge (BA), London School of Economics (PhD) |
 | Base | New York / Columbia University |
@@ -25,18 +25,18 @@ Adam Tooze is an economic historian at Columbia University, author of major cris
 
 Born July 5, 1967 in London. Grew up between England and Heidelberg, [[Germany]] (father was a molecular biologist). This binational upbringing shaped his transatlantic perspective on economic history.
 
-**Education:**
+Education:
 - BA Economics, King's College Cambridge (1989)
 - Witnessed fall of Berlin Wall while beginning postgraduate studies in Berlin
 - PhD Economic History, London School of Economics (supervisor: Alan Milward)
 
-**Academic career:**
+Academic career:
 - 1996-2009: University of Cambridge, Reader in Modern History, Jesus College
 - 2009-2015: Yale University, Barton M. Biggs Professor, Director of International Security Studies (succeeded Paul Kennedy)
 - 2015-present: Columbia University, Shelby Cullom Davis Chair of History, Director of European Institute
 - Nonresident scholar, Carnegie [[Europe]]
 
-**Recognition:** Named one of Foreign Policy's Top Global Thinkers of the Decade (2019).
+Recognition: Named one of Foreign Policy's Top Global Thinkers of the Decade (2019).
 
 ---
 
@@ -50,38 +50,86 @@ Born July 5, 1967 in London. Grew up between England and Heidelberg, [[Germany]]
 | [[Crashed]] | 2018 | 2008 financial crisis and aftermath | Lionel Gelber Prize, NYT Notable Book |
 | [[Shutdown]] | 2021 | COVID economic response | Orwell Prize finalist |
 
-**Trajectory:** Started as German economic historian, progressively widened scope to global financial systems and contemporary crisis response. Each book broader in geographic and temporal scope than the last.
+Trajectory: Started as German economic historian, progressively widened scope to global financial systems and contemporary crisis response. Each book broader in geographic and temporal scope than the last.
 
 ---
 
 ## Chartbook newsletter
 
-**Platform:** [[Substack]]
-**Launched:** November 2020
-**Subscribers:** 172,000+ (ranked \#1 Rising in History on [[Substack]])
-**Frequency:** Multiple times per week
-**Model:** Freemium (free tier available)
+Platform: [[Substack]]
+Launched: November 2020
+Subscribers: 172,000+ (ranked \#1 Rising in History on [[Substack]])
+Frequency: Multiple times per week
+Model: Freemium (free tier available)
 
 Chartbook is "more substantial than the Twitter feed, and more freewheeling" than his columns in FT, Foreign Policy, or New Statesman. Features economic data, charts, book recommendations, and long-form analysis.
 
-**Core themes:**
+Core themes:
 - Political economy of the eurozone
 - US fiscal and monetary policy
 - China's economic transformation
 - Climate/energy transition as statecraft
 - Historical parallels to contemporary crises
 
-**Recent coverage (2025-2026):**
+Recent coverage (2025-2026):
 - [[Federal Reserve]] independence under political threat
 - Dollar decoupling from interest rate differentials (spring 2025)
 - [[Venezuela]] sanctions and petroleum industry
 - Comparison of US business elite to Weimar-era German industrialists
 
+### Chartbook 442: Global imbalances — "a new cocktail in old bottles" (Apr 22, 2026)
+
+Tooze's framing for the [[IMF]]/[[World Bank]] spring meetings argues the 2026 imbalances debate is "old wine in new bottles" — the macro-accounting language is familiar, but four radical forces are doing the work underneath:
+
+| Force | What's new |
+|---|---|
+| [[Trump]] trade rampage (2025-26) | Tariff measures largely disconnected from classical political-economy pressure; driven by political logic, not balance-of-payments logic |
+| US fiscal incontinence | 2026 budget deficit at ~5.8% of GDP *at full employment* — historically anomalous; federal spending 23.3% of GDP vs revenue ~17.5% |
+| [[AI capex|AI boom]] | Data-center buildout concentrated in US, visibly shifting global trade patterns via chip/equipment flows from Asia |
+| [[China]] gear-shift | From infrastructure-led growth to industrial-policy led; 2024 trade surplus ~$1.2 trillion, reportedly understated in IMF data |
+
+Structural data Tooze highlights:
+- US net international liabilities approaching ~$30 trillion (near US GDP)
+- Persistent deficit bloc: US, UK. Surplus bloc: [[Europe]], [[Japan]], petro-economies, [[China]]
+- [[Taiwan]] and [[South Korea]] exports booming on AI-chip demand via [[TSMC]] and [[Samsung]] — the [[Second China shock]] ([[Michael Pettis]]/[[Richard Baldwin]] framing) now hits [[Europe]] more than the US
+
+The position Tooze actually stakes: Debating conventional macro policy while the decision-making architecture in Washington disintegrates is escapism. The imbalances are real, but the "bottles" — institutions, rules, frameworks — are the thing breaking. His test case: can [[Europe]] assemble state capacity comparable to the US policy stack to absorb the second China shock? Tentative answer: not yet.
+
+Cites [[Brad Setser]], [[Beatrice Weder di Mauro]], [[Jeromin Zettelmeyer]], [[Michael Pettis]], and [[Richard Baldwin]] as the analytical frame. Invokes [[Karl Polanyi]] on the political backlash logic.
+
+*Source: [Chartbook 442](https://adamtooze.substack.com/p/chartbook-442-global-imbalances-a), Apr 22, 2026.*
+
+---
+
+### Chartbook: "The tanker convoy to the Gulf coast" (Apr 21, 2026)
+
+Two threads braided together: the physical oil-flow reorganization post-[[Operation Epic Fury|Iran war]], and the market's apparent refusal to price the political risk.
+
+Physical flow — a VLCC convoy:
+
+| Metric | Figure |
+|---|---|
+| Very-large crude carriers en route to US Gulf Coast | ~70 |
+| Normal baseline | 27 supertankers |
+| Share of global VLCC fleet (~1,000) now in the convoy | ~10% |
+| Per-vessel capacity | 200,000-300,000 dwt (~half of [[Japan]]'s daily oil consumption each) |
+| Origin | Empty tankers mainly from Asia, tracing Cape of Good Hope → US Gulf Coast |
+
+Data source: [[Nikkei Asia]] via [[Matt Smith]] at [[Kpler]]. The physical implication is a genuine rerouting — Middle East disruption is pushing Asian buyers to lift US crude instead, with the empty-leg shipping surge as the visible signature.
+
+Market-disconnect thesis: US IT (~33% of S&P 500 cap) is pulling the index up while [[VIX]] stays subdued despite a spiked Economic Policy Uncertainty Index. Tooze borrows the "[[EBITDA|EBIT]]DA — Earnings Before Iran, Tariffs and Dubious Announcements" joke from [[Tej Parikh]] ([[FT]]) to frame what investors are filtering out. Labor-market slack is rising alongside equity valuations — a classic late-cycle mismatch.
+
+Also surfaces secondary threads Tooze points readers at: eastern [[Libya]]'s [[Khalifa Haftar]] financial network (via al-Masraf / [[Libyan Foreign Bank]] / Bank of Commerce and Development), and a scandal inside the [[Chinese Xiangqi Association]] (Wang Tianyi, Liu Dahua, Guo Liping).
+
+*Source: [The tanker convoy to the Gulf coast](https://adamtooze.substack.com/p/the-tanker-convoy-to-the-gulf-coast), Apr 21, 2026.*
+
+---
+
 ### Chartbook on the AI boom's external-balance logic (Apr 20, 2026)
 
-An Apr 20, 2026 Chartbook mailout tied together two threads that matter for the vault's AI and trade work. First, citing [[Wall Street Journal]] and [[McKinsey]], Tooze highlighted that the current US manufacturing pickup is **not** classic reshoring. In AI-linked sectors, domestic output and imports are rising together, because the buildout depends on enormous volumes of semiconductors, networking gear, power equipment, and cooling systems. The US is capturing part of the manufacturing upturn without becoming self-sufficient in the underlying supply chain.
+An Apr 20, 2026 Chartbook mailout tied together two threads that matter for the vault's AI and trade work. First, citing [[Wall Street Journal]] and [[McKinsey]], Tooze highlighted that the current US manufacturing pickup is not classic reshoring. In AI-linked sectors, domestic output and imports are rising together, because the buildout depends on enormous volumes of semiconductors, networking gear, power equipment, and cooling systems. The US is capturing part of the manufacturing upturn without becoming self-sufficient in the underlying supply chain.
 
-Second, Tooze pushed the argument from factory activity into global macro. Under the linked AI-valuation essay's conservative assumptions, the core US AI firms would need roughly **$2.4T** in additional annual foreign revenue by 2036, with **65%** of incremental revenue coming from abroad. That is roughly equal to all US goods exports today. The implication is that the next phase of globalization may revolve less around a broad American export renaissance and more around the rest of the world making recurring payments for access to US-owned AI infrastructure, software, and model ecosystems. The political tension is obvious: tariff-heavy MAGA economics makes less sense if foreign buyers need export earnings to fund those payments in the first place.
+Second, Tooze pushed the argument from factory activity into global macro. Under the linked AI-valuation essay's conservative assumptions, the core US AI firms would need roughly $2.4T in additional annual foreign revenue by 2036, with 65% of incremental revenue coming from abroad. That is roughly equal to all US goods exports today. The implication is that the next phase of globalization may revolve less around a broad American export renaissance and more around the rest of the world making recurring payments for access to US-owned AI infrastructure, software, and model ecosystems. The political tension is obvious: tariff-heavy MAGA economics makes less sense if foreign buyers need export earnings to fund those payments in the first place.
 
 ---
 
@@ -95,11 +143,11 @@ Proposed three-part framework for evaluating whether $650B in AI capex constitut
 
 | Type | Example | Outcome |
 |------|---------|---------|
-| **Metaverse** | Metaverse, tulips | Technology not useful; money wasted |
-| **Railways** | 19th-century railroads | Transformative technology, but financial timeline mismatch causes repeated crises |
-| **Airlines** | Airlines, Chinese involution | Transforms world but can't be monetized; great for consumers, terrible for investors |
+| Metaverse | Metaverse, tulips | Technology not useful; money wasted |
+| Railways | 19th-century railroads | Transformative technology, but financial timeline mismatch causes repeated crises |
+| Airlines | Airlines, Chinese involution | Transforms world but can't be monetized; great for consumers, terrible for investors |
 
-Overlaid with **K-shaped economy** framing: AI boom balanced on a seesaw with deflating non-AI economy. 21% of US household wealth in equities (record). Dotcom-level correction = $10T+ wealth loss, but equity-based (not leveraged), so more likely wealth-effect recession than financial crisis.
+Overlaid with K-shaped economy framing: AI boom balanced on a seesaw with deflating non-AI economy. 21% of US household wealth in equities (record). Dotcom-level correction = $10T+ wealth loss, but equity-based (not leveraged), so more likely wealth-effect recession than financial crisis.
 
 Also covered [[Germany]]'s economic stagnation (0.1% since 2019), Merz-Meloni defense axis, and the structural imbalance in European defense spending.
 
@@ -109,7 +157,7 @@ Also covered [[Germany]]'s economic stagnation (0.1% since 2019), Merz-Meloni de
 
 Tooze popularized the term "polycrisis" (originally coined by French theorist Edgar Morin in the 1970s) to describe the simultaneous, interconnected crises of the 2020s.
 
-**The four pillars of polycrisis:**
+The four pillars of polycrisis:
 1. Economics (financial instability, inequality)
 2. Politics (democratic backsliding, populism)
 3. Geopolitics (great power competition, war)
@@ -117,21 +165,21 @@ Tooze popularized the term "polycrisis" (originally coined by French theorist Ed
 
 "They don't reduce to a single common denominator... The polycrisis term has a real utility descriptively, because it's arm-waving. It's going, 'Look, there's a lot of stuff happening here all at once.'"
 
-**Origin point:** Argues the current moment started in 2008—not just the financial crisis, but simultaneously Putin's aggression against Georgia, WTO Doha Round breakdown, and the prelude to Copenhagen climate disappointment.
+Origin point: Argues the current moment started in 2008—not just the financial crisis, but simultaneously Putin's aggression against Georgia, WTO Doha Round breakdown, and the prelude to Copenhagen climate disappointment.
 
-**2025 reassessment:** In August 2025, Tooze revisited the concept, questioning whether "polycrisis" still describes the current moment or whether ideological drivers have become more overdetermining.
+2025 reassessment: In August 2025, Tooze revisited the concept, questioning whether "polycrisis" still describes the current moment or whether ideological drivers have become more overdetermining.
 
 ---
 
 ## LRB Lecture: Electrostate vs Petrostate (2025)
 
-Inaugural London Review of Books lecture series. Tooze frames the global energy transition as a story of **electrostates** (societies consuming energy in electrical form) vs **petrostates**, with China and the US as archetypes.
+Inaugural London Review of Books lecture series. Tooze frames the global energy transition as a story of electrostates (societies consuming energy in electrical form) vs petrostates, with China and the US as archetypes.
 
 ### The "mid-transition" moment
 
 Opens with a visceral scene in Chengdu: standing at a crosswalk, ~100 vehicles pass in 30 seconds without Tooze noticing—all electric, producing only tire noise. "Are you experiencing a moment of mid-transition?" The disorientation of being between two stable states.
 
-**Mid-transition:** "The condition of being in the complex period of change between two more stable states—more commonly used in discussions about energy systems, gender transitions, and career changes."
+Mid-transition: "The condition of being in the complex period of change between two more stable states—more commonly used in discussions about energy systems, gender transitions, and career changes."
 
 The phenomenon is so disconcerting that EV manufacturers worldwide add fake engine noises. Yamaha patented a mock internal combustion engine for motorcycles whose sole function is generating sound and vibration.
 
@@ -147,29 +195,29 @@ The phenomenon is so disconcerting that EV manufacturers worldwide add fake engi
 | [[Diesel]] focus | Milked car industry for dividends; now demand protectionism |
 | Strategic autonomy | Did nothing re: [[Russia]] or US dependence |
 
-**The Eurozone crisis as inflection point:** European renewable investment peaked at $131B in 2011, then collapsed under austerity. Southern [[Europe]] (where solar made most sense) hit hardest. This is when China overtook.
+The Eurozone crisis as inflection point: European renewable investment peaked at $131B in 2011, then collapsed under austerity. Southern [[Europe]] (where solar made most sense) hit hardest. This is when China overtook.
 
-**The Green Deal's influence:** When Xi Jinping announced China's net-zero commitment (UN General Assembly, fall 2020), the Tsinghua University team's PowerPoint slides explicitly cited the EU Green Deal as template. "The highest compliment in modern technocracy."
+The Green Deal's influence: When Xi Jinping announced China's net-zero commitment (UN General Assembly, fall 2020), the Tsinghua University team's PowerPoint slides explicitly cited the EU Green Deal as template. "The highest compliment in modern technocracy."
 
-**But [[Europe]] drove decarbonization without electrification.** Top-left quadrant (green power, low electrification) vs China in top-right (green power + deep electrification).
+But [[Europe]] drove decarbonization without electrification. Top-left quadrant (green power, low electrification) vs China in top-right (green power + deep electrification).
 
 ### Why European theorists failed
 
 The 1980s-90s theorists (Beck, Latour, et al.) who mapped green modernity:
 
-1. **Underestimated power** — No coherent theory of how to bulldoze opposed interest groups
-2. **No global geopolitics** — Unaware of the frame that sat comfortably around them
-3. **Assumed American alliance** — "It would have been far better if the United States had been a reliable ally in the project of green modernization"
+1. Underestimated power — No coherent theory of how to bulldoze opposed interest groups
+2. No global geopolitics — Unaware of the frame that sat comfortably around them
+3. Assumed American alliance — "It would have been far better if the United States had been a reliable ally in the project of green modernization"
 
 ### US fossil backlash: front-footed, not rear-guard
 
 Tooze rejects the standard narrative of climate backlash as Koch brothers / coal industry rear-guard action:
 
-**[[Bird]]-Hagel Resolution (1997):** Unanimous Senate vote against Kyoto—*before* it was signed. Not climate deniers; the issue was **globalization**. Kyoto exempted China (climate justice), which the AFL-CIO and broad coalition saw as disastrous concession. "Weird how little this obvious connection to globalization struggles receives emphasis in the backlash literature."
+[[Bird]]-Hagel Resolution (1997): Unanimous Senate vote against Kyoto—*before* it was signed. Not climate deniers; the issue was globalization. Kyoto exempted China (climate justice), which the AFL-CIO and broad coalition saw as disastrous concession. "Weird how little this obvious connection to globalization struggles receives emphasis in the backlash literature."
 
-**The Iraq Wars as hyper-agency:** Not rear-guard but "forward moving edges of efforts to seek control over the world." The Suskind quote: "We're an empire now. When we act, we create our own reality."
+The Iraq Wars as hyper-agency: Not rear-guard but "forward moving edges of efforts to seek control over the world." The Suskind quote: "We're an empire now. When we act, we create our own reality."
 
-**Fracking as transformative innovation:**
+Fracking as transformative innovation:
 
 | Factor | Impact |
 |--------|--------|
@@ -183,13 +231,13 @@ Even Texas: coal squeezed out, replaced by [[LNG]] + wind (driven by cost, not g
 
 ### China: not replication but new phase
 
-**Scale of urbanization:**
+Scale of urbanization:
 - 800 million relocated to cities (1949-2019)
 - 19 urban conurbations with 850 million inhabitants
 - 90% of Chinese habitations built since 1990
 - "Imagine erasing all of urban America and replacing it in a single generation"
 
-**The dirtiest thing humanity has ever done:**
+The dirtiest thing humanity has ever done:
 
 | Metric | Figure |
 |--------|--------|
@@ -199,9 +247,9 @@ Even Texas: coal squeezed out, replaced by [[LNG]] + wind (driven by cost, not g
 
 "They knew it." The regime deliberately opted into this violent transformation, then pivoted hard. By mid-2010s, Chinese coal plant emissions standards exceeded US and EU.
 
-**Xi Jinping's environmental pivot as regime survival:** "There's only so many times people can see their babies choking to death before you need to pivot."
+Xi Jinping's environmental pivot as regime survival: "There's only so many times people can see their babies choking to death before you need to pivot."
 
-**Manufacturing dominance (2024):**
+Manufacturing dominance (2024):
 
 | Product | China capacity | US comparison |
 |---------|---------------|---------------|
@@ -225,9 +273,9 @@ Even Texas: coal squeezed out, replaced by [[LNG]] + wind (driven by cost, not g
 
 The "great historical coincidence": Trump's second term coincides with AI capex explosion.
 
-**US power pipeline:** Almost entirely solar, wind, batteries. The structural shift predates Biden but is now overwhelming.
+US power pipeline: Almost entirely solar, wind, batteries. The structural shift predates Biden but is now overwhelming.
 
-**Gulf solution:** US chips + Chinese solar panels meeting in Emirates/Saudi/Qatar. Gulf states are largest buyers of Chinese panels to power data centers for American AI.
+Gulf solution: US chips + Chinese solar panels meeting in Emirates/Saudi/Qatar. Gulf states are largest buyers of Chinese panels to power data centers for American AI.
 
 Meanwhile: US Energy Department and Qatar lecture Europeans on climate regulations, leveraging gas dependence.
 
@@ -235,12 +283,12 @@ Meanwhile: US Energy Department and Qatar lecture Europeans on climate regulatio
 
 Not "panda-hugging CCP groupies" but experts mapping Chinese investment flows globally:
 
-- **Ember** (British think tank)
-- **Net Zero Industrial Policy Lab**
+- Ember (British think tank)
+- Net Zero Industrial Policy Lab
 
 "Equipping their counterparts in recipient countries—those who, contrary to Jake Sullivan, are going to be the consumers of Chinese technology—with the tools to haggle, to negotiate, to force the Chinese to terms."
 
-On narrative framing: If comedy (things work out) requires knowing the ending, and tragedy requires certainty about doom, Tooze settles for **comedy where "ours is a bit part, not the starring role."**
+On narrative framing: If comedy (things work out) requires knowing the ending, and tragedy requires certainty about doom, Tooze settles for comedy where "ours is a bit part, not the starring role."
 
 ---
 
@@ -261,19 +309,19 @@ Also flagged: US oil companies stand to receive a $63.4B windfall if prices aver
 
 ## Analytical approach
 
-**What makes Tooze distinctive:**
+What makes Tooze distinctive:
 
-1. **Historical depth** — Every contemporary analysis grounded in historical precedent. 2008 crisis → 1930s parallels. COVID response → wartime fiscal mobilization.
+1. Historical depth — Every contemporary analysis grounded in historical precedent. 2008 crisis → 1930s parallels. COVID response → wartime fiscal mobilization.
 
-2. **Data-forward** — Heavy use of charts, statistics, primary sources. Not punditry—evidence.
+2. Data-forward — Heavy use of charts, statistics, primary sources. Not punditry—evidence.
 
-3. **Transatlantic lens** — Equally fluent in US, European, and German policy debates. Rare among English-language commentators.
+3. Transatlantic lens — Equally fluent in US, European, and German policy debates. Rare among English-language commentators.
 
-4. **Structural focus** — Analyzes institutional architecture (central banks, trade regimes, fiscal capacity) rather than personalities or politics alone.
+4. Structural focus — Analyzes institutional architecture (central banks, trade regimes, fiscal capacity) rather than personalities or politics alone.
 
-5. **Real-time history** — Writes about events as they unfold with the rigor usually applied retrospectively. *Shutdown* published in 2021 about events from 2020.
+5. Real-time history — Writes about events as they unfold with the rigor usually applied retrospectively. *Shutdown* published in 2021 about events from 2020.
 
-**Recurring themes:**
+Recurring themes:
 - Central bank independence as contested political terrain
 - Climate transition as industrial policy battleground
 - US hegemony's fiscal foundations

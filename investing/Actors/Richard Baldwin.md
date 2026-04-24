@@ -38,5 +38,7 @@ Core insight: the world trading system is more decentralized than it appears fro
 - [[Trade]] — 2025 retrospective section
 - [[Martin Wolf]] — cited Baldwin's analysis
 - [[US-China trade]] — bilateral decoupling data
+- [[Second China shock]] — Baldwin is one of the economists who developed the composition-and-geography framing that distinguishes the 2020s wave from the [[Autor-Dorn-Hanson]] first shock
+- [[Adam Tooze]] — cites Baldwin in [[Adam Tooze#Chartbook 442 Global imbalances a new cocktail in old bottles Apr 22 2026|Chartbook 442]] on global imbalances
 - [[China plus one]] — structural consequence of trade rerouting
 - [[WTO]] — norms survived despite US repudiation
