@@ -227,6 +227,54 @@ def get_chart_image():
         return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
 
 
+def _render_chart_html(chart_config):
+    """Render chart_render.html as standalone interactive HTML for browser embed.
+
+    Used when /api/chart/lw is hit with ?format=html instead of the default
+    PNG screenshot. Quartz iframes use this for live charts.
+    """
+    template_path = os.path.join(basedir, 'templates', 'chart_render.html')
+    with open(template_path, 'r', encoding='utf-8') as f:
+        html = f.read()
+
+    inject = (
+        '<style>'
+        'body.interactive .title,'
+        'body.interactive .watermark,'
+        'body.interactive .last-date { display: none !important; }'
+        'body.interactive .legend {'
+        '  top: 8px !important;'
+        '  left: 8px !important;'
+        '  gap: 6px 12px !important;'
+        '  padding: 3px 6px !important;'
+        '  background: rgba(255,255,255,0.85);'
+        '  border-radius: 3px;'
+        '}'
+        'body.interactive .legend-item {'
+        '  font-size: 12px !important;'
+        '  gap: 4px !important;'
+        '}'
+        'body.interactive .legend-color {'
+        '  width: 14px !important;'
+        '  height: 3px !important;'
+        '}'
+        'body.interactive #chart { height: 100vh; }'
+        '</style>'
+        '<script>'
+        f'window.CHART_CONFIG = {json.dumps(chart_config)};'
+        'window.INTERACTIVE = true;'
+        'document.body.classList.add("interactive");'
+        'function __startInteractive() { renderChart(window.CHART_CONFIG); }'
+        'if (document.readyState === "loading") {'
+        '  document.addEventListener("DOMContentLoaded", __startInteractive);'
+        '} else { __startInteractive(); }'
+        '</script>'
+    )
+
+    html = html.replace('</body>', inject + '\n</body>')
+    return Response(html, mimetype='text/html')
+
+
 # --- Lightweight Charts Image Export Endpoint ---
 # Requires: pip install playwright && playwright install chromium
 
@@ -395,6 +443,10 @@ def get_chart_lw():
             # Render with Playwright
             from playwright.sync_api import sync_playwright
             template_path = os.path.join(basedir, 'templates', 'chart_render.html')
+
+            # Format=html: short-circuit before any Playwright code (Quartz iframe path)
+            if request.args.get('format') == 'html':
+                return _render_chart_html(chart_config)
 
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)
@@ -579,6 +631,10 @@ def get_chart_lw():
             # Render with Playwright
             from playwright.sync_api import sync_playwright
             template_path = os.path.join(basedir, 'templates', 'chart_render.html')
+
+            # Format=html: short-circuit before any Playwright code (Quartz iframe path)
+            if request.args.get('format') == 'html':
+                return _render_chart_html(chart_config)
 
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)
@@ -860,6 +916,10 @@ def get_chart_lw():
         template_path = os.path.join(basedir, 'templates', 'chart_render.html')
         if not os.path.exists(template_path):
             return jsonify({'error': 'Chart template not found'}), HTTP_INTERNAL_ERROR
+
+        # Format=html: short-circuit before any Playwright code (Quartz iframe path)
+        if request.args.get('format') == 'html':
+            return _render_chart_html(chart_config)
 
         # Render with Playwright
         with sync_playwright() as p:

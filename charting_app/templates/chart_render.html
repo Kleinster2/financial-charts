@@ -168,8 +168,8 @@
                     visible: false
                 },
                 crosshair: {
-                    horzLine: { visible: false },
-                    vertLine: { visible: false }
+                    horzLine: { visible: window.INTERACTIVE === true, labelVisible: window.INTERACTIVE === true },
+                    vertLine: { visible: window.INTERACTIVE === true, labelVisible: window.INTERACTIVE === true }
                 }
             });
 
@@ -199,7 +199,7 @@
                             lineWidth: 2,
                             lastValueVisible: forecastData.length > 0,
                             priceLineVisible: false,
-                            crosshairMarkerVisible: false,
+                            crosshairMarkerVisible: window.INTERACTIVE === true,
                             priceFormat: priceFormat
                         });
                         historicalSeries.setData(historicalData);
@@ -223,7 +223,7 @@
                             lineStyle: 1,
                             lastValueVisible: false,
                             priceLineVisible: false,
-                            crosshairMarkerVisible: false,
+                            crosshairMarkerVisible: window.INTERACTIVE === true,
                             priceFormat: priceFormat
                         });
                         forecastSeries.setData(forecastData);
@@ -234,7 +234,7 @@
                         lineWidth: 2,
                         lastValueVisible: showLastValue || false,
                         priceLineVisible: false,
-                        crosshairMarkerVisible: false,
+                        crosshairMarkerVisible: window.INTERACTIVE === true,
                         priceFormat: priceFormat
                     });
                     series.setData(chartData);
@@ -346,8 +346,8 @@
                     visible: false
                 },
                 crosshair: {
-                    horzLine: { visible: false },
-                    vertLine: { visible: false }
+                    horzLine: { visible: window.INTERACTIVE === true, labelVisible: window.INTERACTIVE === true },
+                    vertLine: { visible: window.INTERACTIVE === true, labelVisible: window.INTERACTIVE === true }
                 }
             });
 
@@ -383,7 +383,7 @@
                                 lineWidth: 2,
                                 lastValueVisible: forecastData.length > 0,
                                 priceLineVisible: false,
-                                crosshairMarkerVisible: false,
+                                crosshairMarkerVisible: window.INTERACTIVE === true,
                                 priceFormat: priceFormat
                             }, paneIndex);
                             historicalSeries.setData(historicalData);
@@ -407,7 +407,7 @@
                                 lineStyle: 1,
                                 lastValueVisible: false,
                                 priceLineVisible: false,
-                                crosshairMarkerVisible: false,
+                                crosshairMarkerVisible: window.INTERACTIVE === true,
                                 priceFormat: priceFormat
                             }, paneIndex);
                             forecastSeries.setData(forecastData);
@@ -418,7 +418,7 @@
                             lineWidth: 2,
                             lastValueVisible: false,
                             priceLineVisible: false,
-                            crosshairMarkerVisible: false,
+                            crosshairMarkerVisible: window.INTERACTIVE === true,
                             priceFormat: priceFormat
                         }, paneIndex);
                         series.setData(chartData);
@@ -474,8 +474,14 @@
                     lastDateFormatted = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
                 }
             }
-            // Hide standalone date element (now in legend)
-            document.getElementById('lastDate').style.display = 'none';
+            // Show last date — in legend for screenshot mode, standalone for interactive iframe
+            const lastDateEl = document.getElementById('lastDate');
+            if (lastDateFormatted) {
+                lastDateEl.textContent = lastDateFormatted;
+            }
+            if (window.INTERACTIVE !== true) {
+                lastDateEl.style.display = 'none';
+            }
 
             // Set title (hide if legend is sufficient: normalized multi-ticker or fundamentals)
             const titleEl = document.getElementById('title');
@@ -490,12 +496,13 @@
             // Create chart
             const chartContainer = document.getElementById('chart');
             const chart = LightweightCharts.createChart(chartContainer, {
+                autoSize: window.INTERACTIVE === true,
                 width: width || 1200,
                 height: height || 600,
                 layout: {
                     background: { type: 'solid', color: '#ffffff' },
                     textColor: '#333',
-                    fontSize: 20
+                    fontSize: window.INTERACTIVE === true ? 12 : 20
                 },
                 grid: {
                     vertLines: { color: '#eee' },
@@ -523,8 +530,8 @@
                     mode: 1  // Log scale for price on left axis
                 },
                 crosshair: {
-                    horzLine: { visible: false },
-                    vertLine: { visible: false }
+                    horzLine: { visible: window.INTERACTIVE === true, labelVisible: window.INTERACTIVE === true },
+                    vertLine: { visible: window.INTERACTIVE === true, labelVisible: window.INTERACTIVE === true }
                 }
             });
 
@@ -607,7 +614,7 @@
                             lineWidth: 2,
                             lastValueVisible: showLastValueForSeries,
                             priceLineVisible: false,
-                            crosshairMarkerVisible: false,
+                            crosshairMarkerVisible: window.INTERACTIVE === true,
                             priceFormat: priceFormat,
                             ...(useLeftAxis ? { priceScaleId: 'left' } : {})
                         });
@@ -634,7 +641,7 @@
                             lineStyle: 1,  // Dotted
                             lastValueVisible: false,
                             priceLineVisible: false,
-                            crosshairMarkerVisible: false,
+                            crosshairMarkerVisible: window.INTERACTIVE === true,
                             priceFormat: priceFormat,
                             ...(useLeftAxis ? { priceScaleId: 'left' } : {})
                         });
@@ -647,7 +654,7 @@
                         lineWidth: 2,
                         lastValueVisible: showLastValue || false,
                         priceLineVisible: false,
-                        crosshairMarkerVisible: false,
+                        crosshairMarkerVisible: window.INTERACTIVE === true,
                         priceFormat: priceFormat,
                         ...(useLeftAxis ? { priceScaleId: 'left' } : {})
                     });
@@ -686,7 +693,7 @@
                         lineWidth: 1,
                         lastValueVisible: false,
                         priceLineVisible: false,
-                        crosshairMarkerVisible: false,
+                        crosshairMarkerVisible: window.INTERACTIVE === true,
                         priceFormat: {
                             type: 'custom',
                             minMove: 0.1,
