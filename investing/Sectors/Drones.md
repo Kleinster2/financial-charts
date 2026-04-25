@@ -13,9 +13,9 @@ Unmanned aerial vehicles (UAVs) — military, commercial, and consumer applicati
 
 | Segment | Key players | Use cases |
 |---------|-------------|-----------|
-| **Military** | [[Norinco]], [[General Atomics]], [[Northrop Grumman]], Turkish Aerospace, [[Swarmer]] | ISR, strike, logistics, swarm autonomy |
+| **Military** | [[Anduril]], [[Shield AI]], [[General Atomics]], [[Northrop Grumman]], [[AeroVironment]], [[Kratos]], [[Norinco]], [[Helsing]], Baykar, [[Swarmer]] | ISR, strike, logistics, CCA, swarm autonomy |
 | **Cargo/logistics** | [[Zipline]], [[Wing]], Amazon, [[Norinco]] | Delivery, resupply |
-| **Commercial/industrial** | [[DJI]], [[Skydio]], Autel | Inspection, mapping, agriculture |
+| **Commercial/industrial** | [[DJI]], [[Skydio]], [[Quantum Systems]], Autel | Inspection, mapping, ISR (dual-use) |
 | **Consumer** | [[DJI]], Autel, Parrot | Photography, hobby |
 | **Air taxi/eVTOL** | [[Ehang]], [[Joby Aviation]], [[Archer Aviation]], Lilium | Urban air mobility |
 
@@ -61,6 +61,32 @@ First flight January 11, 2026. Heavy cargo drone from [[Norinco]] subsidiary Xi'
 | Cargo | Tianma-1000 | Logistics, resupply |
 
 **Ukraine lessons:** Cheap drones (FPV, Bayraktar) reshaping warfare. See [[Ukraine war]].
+
+---
+
+## Software-first / autonomy stack
+
+The defensible moat in modern drones is the autonomy software, not the airframe. Three platforms dominate:
+
+| Platform | Owner | Function |
+|----------|-------|----------|
+| Lattice OS | [[Anduril]] | Sensor fusion, command & control across all Anduril products (Ghost, Altius, Roadrunner, Fury) |
+| Hivemind | [[Shield AI]] | AI pilot for V-BAT and other airframes; GPS-denied autonomous flight, multi-aircraft coordination |
+| Skydio Autonomy | [[Skydio]] | On-device flight autonomy for X10, X10D (commercial/military) |
+
+European counterpart: [[Helsing]] (Munich) bundles AI battlefield analytics with own manufacturing (HX-2 drones, CA-1 Europa UGV). Quantum Systems / [[Stark]] split the ISR vs. strike sides of the same Munich founder ([[Florian Seibel]]).
+
+---
+
+## Collaborative Combat Aircraft (CCA)
+
+Largest US drone procurement program in history — ~$1.39B FY2025, ~$996.5M requested FY2027. Three Increment 1 contractors: [[General Atomics]] (YFQ-42A), [[Anduril]] (YFQ-44A Fury, production at Arsenal-1), [[Northrop Grumman]] (YFQ-48A Talon Blue). USMC parallel program uses [[Kratos]] XQ-58 Valkyrie. See [[Collaborative Combat Aircraft]] for full program structure.
+
+---
+
+## Replicator Initiative
+
+DoD's parallel attritable-autonomous program. Replicator 1 (Aug 2023 → Aug 2025) targeted "thousands" of all-domain attritable autonomous (ADA2) systems and missed by an order of magnitude (only hundreds delivered) — but the procurement model survived and reorganized. Replicator 2 (Sept 2024 → present) consolidated under Joint Interagency Task Force 401 (Aug 2025); first contract Jan 2026 for Fortem DroneHunter F700; counter-drone marketplace IOC Feb 2026. Successor [[Defense Autonomous Warfare Group]] received $225.9M in FY2026; FY2027 autonomous-warfare request runs up to $54.6B — the budget signal that the experiment is being industrialized. Direct sector beneficiaries: [[AeroVironment]] (Switchblade 600 / LASSO), [[Anduril]] (Lattice OS + multiple platforms), [[Shield AI]] (Hivemind), [[Kratos]] (XQ-58 + tactical), [[Skydio]] (autonomy stack + sUAS), private autonomy peers. See [[Replicator Initiative]] for program structure and the cultural-vs-technical framing.
 
 ---
 
@@ -130,16 +156,19 @@ Modified free-float market cap weighting. "Pureplay" companies (≥50% revenue f
 |---------|--------|-------|
 | [[Joby Aviation]] | JOBY | Air taxi |
 | [[Archer Aviation]] | ACHR | Air taxi |
-| [[AeroVironment]] | AVAV | Military small UAVs |
+| [[AeroVironment]] | AVAV | Military small UAVs, Switchblade |
 | [[Ehang]] | EH | Air taxi (China) |
-| **Kratos Defense** | KTOS | Military drones |
+| [[Kratos]] | KTOS | XQ-58 Valkyrie, attritable drones |
+| Red Cat Holdings | RCAT | Black Widow (US Army SRR winner); 4.0% of DRNZ — stub candidate |
+| Ondas Holdings | ONDS | Military/industrial drones; 10.0% of DRNZ — stub candidate |
+| DroneShield | DRO (ASX) | Counter-UAS detect/defeat; 7.5% of DRNZ — stub candidate |
 | [[Powerus]] | PUSA (expected) | Heavy-lift UAS, defense roll-up; Trump family-backed |
 | [[Unusual Machines]] | UMAC | Drone components; Trump Jr. adviser |
 | [[XTEND]] | — (via JFB.O) | Israeli AI drones; Eric Trump-backed |
 
 **ETF:** DRNZ (REX Drone ETF) — pure-play sector benchmark
 
-**Private:** [[Zipline]], [[Wing]] (Alphabet), [[Skydio]], [[DJI]]
+**Private:** [[Anduril]] (~$31B, IPO discussed), [[Shield AI]] ($5.3B), [[Helsing]] (€12B), [[Quantum Systems]], [[Stark]], [[Zipline]], [[Wing]] (Alphabet), [[Skydio]], [[DJI]]
 
 ---
 
@@ -177,10 +206,15 @@ SpektreWorks is private, ~5-15 employees, ~$2M pre-LUCAS revenue. Not investable
 ## Related
 
 ### Military
-- [[General Atomics]] — MQ-9 Reaper, dominant US military drones
+- [[Anduril]] — Lattice OS, Ghost, Altius, Fury, Roadrunner; $20B Army contract; Arsenal-1 factory
+- [[Shield AI]] — V-BAT, Hivemind autonomy ($5.3B valuation)
+- [[General Atomics]] — MQ-9 Reaper, dominant US military drones; YFQ-42A CCA contender
 - [[AeroVironment]] — Switchblade, small UAS (AVAV)
+- [[Kratos]] — XQ-58 Valkyrie, attritable drones (KTOS)
+- [[Helsing]] — Europe's defense AI leader, HX-2 drones (€12B, Munich)
+- [[Quantum Systems]] / [[Stark]] — German ISR (Quantum) and strike (Stark) sister companies
 - [[Norinco]] — Tianma-1000 heavy cargo drone
-- [[Northrop Grumman]] — Global Hawk
+- [[Northrop Grumman]] — Global Hawk; YFQ-48A Talon Blue CCA entrant
 
 ### Commercial/Consumer
 - [[DJI]] — ~70% global market share
@@ -217,8 +251,10 @@ SpektreWorks is private, ~5-15 employees, ~$2M pre-LUCAS revenue. Not investable
 
 ### Counter-drone
 - [[Counter-UAS]] — detection, defeat, directed energy market
+- [[Anduril]] Roadrunner — jet-powered reusable interceptor; $642M Marine Corps contract (Mar 2025)
 - [[Dedrone]] — airspace security (now [[Axon]])
 - [[Epirus]] — Leonidas high-power microwave
+- DroneShield (DRO, ASX) — RF detection / defeat (7.5% of DRNZ)
 
 ### Ground
 - [[Unmanned ground vehicles]] — military UGVs, autonomy software
