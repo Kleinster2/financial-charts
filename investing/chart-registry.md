@@ -34,6 +34,76 @@ charts:
     skip: true
   cl-term-structure.png:
     skip: true
+  ai-compute-sector-chart.png:
+    tickers: TSM,NVDA,AMD
+    normalize: true
+    start: 2024-01-01
+    primary: TSM
+  alt-managers-sector-chart.png:
+    tickers: KKR,APO,ARES,BX,CG,TPG
+    normalize: true
+    start: 2024-01-01
+    primary: KKR
+  connectivity-sector-chart.png:
+    tickers: AVGO,QCOM,MRVL
+    normalize: true
+    start: 2024-01-01
+    primary: AVGO
+  crypto-to-ai-sector-chart.png:
+    tickers: CORZ,HUT,IREN,WULF
+    normalize: true
+    start: 2024-01-01
+    primary: CORZ
+  dc-reits-sector-chart.png:
+    tickers: EQIX,DLR
+    normalize: true
+    start: 2024-01-01
+    primary: EQIX
+  defense-it-services-sector-chart.png:
+    tickers: LDOS,CACI,SAIC,BAH
+    normalize: true
+    start: 2024-01-01
+    primary: LDOS
+  defense-primes-sector-chart.png:
+    tickers: LMT,RTX,NOC,GD,LHX
+    normalize: true
+    start: 2024-01-01
+    primary: LMT
+  korea-memory-sector-chart.png:
+    tickers: 000660.KS,005930.KS
+    normalize: true
+    start: 2024-01-01
+    primary: 000660.KS
+  life-insurance-sector-chart.png:
+    tickers: MET,PRU,AFL
+    normalize: true
+    start: 2024-01-01
+    primary: MET
+  payments-networks-sector-chart.png:
+    tickers: V,MA
+    normalize: true
+    start: 2024-01-01
+    primary: V
+  pc-insurance-sector-chart.png:
+    tickers: TRV,HIG,CB,ALL
+    normalize: true
+    start: 2024-01-01
+    primary: TRV
+  us-memory-sector-chart.png:
+    tickers: MU,SNDK,WDC
+    normalize: true
+    start: 2024-01-01
+    primary: MU
+  us-retail-trading-sector-chart.png:
+    tickers: HOOD,COIN,SOFI
+    normalize: true
+    start: 2024-01-01
+    primary: HOOD
+  wfe-sector-chart.png:
+    tickers: ASML,AMAT,LRCX,KLAC
+    normalize: true
+    start: 2024-01-01
+    primary: ASML
 ---
 
 # Chart Registry
