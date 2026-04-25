@@ -294,6 +294,10 @@ Sector re-rated sharply in 2025 on rearmament thesis. Primes now trading well ab
 - [[Trump defense budget]] — $1.5T FY27, capital return restrictions
 - [[European defense spending]] — NATO rearmament
 - [[Golden Dome]] — $1T+ missile defense program
+- [[Replicator Initiative]] — attritable-autonomous procurement (Aug 2023 →)
+- [[Defense Autonomous Warfare Group]] — Replicator successor; FY2027 ~$55B request
+- [[Joint Interagency Task Force 401]] — counter-UAS task force (Aug 2025 →); marketplace acquisitions
+- [[Collaborative Combat Aircraft]] — USAF/USMC crewed-uncrewed teaming
 
 **Supply chain:**
 - [[Defense supply chain]] — munitions ramp, critical materials

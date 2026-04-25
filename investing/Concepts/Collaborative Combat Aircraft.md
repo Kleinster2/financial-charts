@@ -165,6 +165,9 @@ Lightweight Affordable Novel Combat Aircraft concept (started 2015). Project Mos
 
 ## Related
 
+- [[Replicator Initiative]] — sister DoD program (attritable mass; CCA is exquisite-mass overlap)
+- [[Defense Autonomous Warfare Group]] — Replicator successor; FY2027 autonomous-warfare request umbrella
+- [[Joint Interagency Task Force 401]] — counter-UAS task force (defense side of the same autonomy stack)
 - [[Drone warfare]] — broader concept (attritable, cost asymmetry)
 - [[Drones]] — sector hub
 - [[Defense]] — sector

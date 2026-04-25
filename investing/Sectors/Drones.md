@@ -205,6 +205,12 @@ SpektreWorks is private, ~5-15 employees, ~$2M pre-LUCAS revenue. Not investable
 
 ## Related
 
+### DoD programs
+- [[Replicator Initiative]] — DoD attritable-autonomous procurement program (Aug 2023 → present); demand-side macro driver for the sector
+- [[Defense Autonomous Warfare Group]] — Replicator's institutional successor; $225.9M FY2026 → up to ~$55B FY2027 request
+- [[Joint Interagency Task Force 401]] — counter-UAS task force (Aug 2025 →); runs the C-UAS marketplace
+- [[Collaborative Combat Aircraft]] — USAF/USMC crewed-uncrewed teaming program ($1.39B FY2025)
+
 ### Military
 - [[Anduril]] — Lattice OS, Ghost, Altius, Fury, Roadrunner; $20B Army contract; Arsenal-1 factory
 - [[Shield AI]] — V-BAT, Hivemind autonomy ($5.3B valuation)

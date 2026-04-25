@@ -149,6 +149,10 @@ Every drone capability creates counter-drone demand:
 
 ## Related
 
+- [[Replicator Initiative]] — DoD's flagship attritable-autonomous procurement program operationalizing this doctrine
+- [[Defense Autonomous Warfare Group]] — successor org scaling Replicator into FY2027
+- [[Joint Interagency Task Force 401]] — counter-UAS arm (Replicator 2)
+- [[Collaborative Combat Aircraft]] — crewed-uncrewed teaming program (sister to Replicator)
 - [[Defense]] — sector hub
 - [[AeroVironment]] — loitering munitions leader (Switchblade)
 - [[Kratos]] — attritable drone pioneer (Valkyrie)

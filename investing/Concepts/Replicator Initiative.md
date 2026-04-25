@@ -123,6 +123,8 @@ What this *is* still uncertain on: whether DoD's culture absorbs the new procure
 
 ## Related
 
+- [[Defense Autonomous Warfare Group]] — institutional successor to Replicator's autonomous-systems line of effort
+- [[Joint Interagency Task Force 401]] — counter-UAS arm (Replicator 2 successor org)
 - [[Drones]] — sector hub; Replicator is the demand-side macro driver
 - [[Drone warfare]] — concept (attritable philosophy, cost asymmetry)
 - [[Collaborative Combat Aircraft]] — sister DoD program for crewed-uncrewed teaming, partly funded outside Replicator but same philosophical lineage
