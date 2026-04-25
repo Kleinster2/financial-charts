@@ -69,6 +69,10 @@ Aliases containing `<>:"|?*` (e.g. `Israel "Izzy" Englander`) cause `ENOENT` wri
 - `Plugin.Latex(...)` commented out — KaTeX runs on every paragraph looking for math, which floods the build with warnings on a vault that uses `$` for currency. Disable saves time + log noise.
 - `ignorePatterns` extended: `["private", "templates", ".obsidian", "Drafts/**", "Meta/**", "Trackers/**", "scripts/**", "nul", "**/.trash/**"]`. The `nul` entry is critical on Windows — `nul` is a reserved device name; without ignoring it Quartz crashes on file enumeration.
 
+### `quartz.layout.ts` — `Component.TagList()` removed from `defaultContentPageLayout.beforeBody`
+
+The vault uses inline `#sector #drones ...` hashtag lines at the top of note bodies (Obsidian convention). ObsidianFlavoredMarkdown extracts those into `file.data.frontmatter.tags` AND renders them inline in the body as `<a class="tag-link">` chips. Quartz's `Component.TagList()` then displays the same set above the title — producing two identical rows of tag chips. Removing `Component.TagList()` from the layout keeps the inline tags in the body (still navigable to `/tags/<name>`) and drops the duplicate header row.
+
 ## chart-registry.md
 
 The fallback for charts whose filenames don't match parser patterns. Format:
