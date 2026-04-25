@@ -68,6 +68,25 @@ Other reported features:
 | Openness | Open-source / open-weight strategy continues |
 | Relative position | Strongest among Chinese/open systems, still behind the latest [[Gemini]]-class frontier systems per CNN's summary |
 
+### V4 pricing (Apr 24, 2026)
+
+[[Fortune]] reported the headline output-token prices alongside US-frontier comparisons:
+
+| Model | Output price (per 1M tokens) | Anchor |
+|-------|------------------------------|--------|
+| V4 Flash | $0.28 | Cheaper-tier open model |
+| V4 Pro | $3.48 | Reasoning-tier open model |
+| [[OpenAI]] equivalent | ~$30 | Per Fortune's framing of "equivalent usage" |
+| [[Anthropic]] equivalent | ~$25 | Per Fortune's framing of "equivalent usage" |
+
+The pricing is the structural weapon. Open weights remove the captive-API moat; aggressive token pricing on the hosted endpoint removes any remaining cost rationale for serving DeepSeek through [[OpenAI]] or [[Anthropic]] APIs in China. Inference-cost arbitrage now tilts strongly toward V4 + domestic compute for any workload where the capability gap is tolerable.
+
+### V4 frontier-gap framing (Apr 24, 2026)
+
+DeepSeek's own V4 tech report compared the model against [[Anthropic]]'s [[Claude]] Opus 4.6, [[OpenAI]]'s GPT-5.4, and [[Google]]'s [[Gemini]] 3.1 Pro, per Fortune. Per the report, V4 falls "marginally short of GPT-5.4 and Gemini 3.1 Pro," with a "developmental trajectory that trails state-of-the-art frontier models by approximately three to six months."
+
+That self-assessment is more useful than the headline benchmark wins because it sets the gap in time, not score. Three to six months is the cadence at which Chinese open models can now follow US closed-frontier releases. If the cadence holds, the practical gap is the time it takes a downstream developer to validate the new model on their workload — short enough that for many enterprise and agentic workloads it is no longer load-bearing.
+
 The product implication is that DeepSeek-V is no longer just the efficient-model family; it is becoming a hardware-software bridge for Chinese domestic AI clusters. If V4 is good enough for enterprise and government deployment, the value migrates from benchmark rank to distribution, cost, and sovereignty.
 
 ---
@@ -117,3 +136,7 @@ V3 was the "early warning" most of Wall Street missed before R1 crashed markets.
 - [[Frontier models]] — category
 - [[Chinese open models]] — category
 - [[DeepSeek day]] — market event (R1, not V3)
+
+### Cross-vault
+
+- [Technologies: Chinese AI Stack](obsidian://open?vault=technologies&file=Chinese%20AI%20Stack) — V4 as the first credible threshold-crossing event for the alternative compute stack

@@ -297,7 +297,7 @@ Thesis implications:
 
 ---
 
-*Updated 2026-04-24*
+*Updated 2026-04-25*
 
 ---
 
@@ -317,3 +317,7 @@ Thesis implications:
 - [[Model distillation]] — technique used to extract capabilities from US labs
 - [[Huawei]] — V4 early access partner, Ascend chip ecosystem
 - [[SEA chip diversion]] — likely channel for banned Blackwell chips
+
+### Cross-vault
+
+- [Technologies: Chinese AI Stack](obsidian://open?vault=technologies&file=Chinese%20AI%20Stack) — five-layer stack the V4 deployment validates; why CUDA's moat is tooling rather than silicon
