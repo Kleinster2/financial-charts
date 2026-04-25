@@ -9,40 +9,40 @@ Industry overview of the semiconductor value chain.
 
 ---
 
-## Industry size (Gartner, Jan 2026)
+## Industry size ([[Gartner]], Jan 2026)
 
 | Metric | 2025 | YoY |
 |--------|------|-----|
-| **Total semiconductor revenue** | **$793B** | **+21%** |
-| AI semiconductors (processors, HBM, networking) | ~$264B | — |
-| AI share of total | **~1/3** | — |
+| **Total semiconductor revenue** | $793B | +21% |
+| AI semiconductors (processors, [[HBM]], networking) | ~$264B | — |
+| AI share of total | ~1/3 | — |
 
-**Key milestones:**
-- **[[NVIDIA]] first company to cross $100B** in semiconductor revenue
+Key milestones:
+- [[NVIDIA]] first company to cross $100B in semiconductor revenue
 - NVIDIA extended lead over [[Samsung]] by $53B in 2025
 
 ### AI infrastructure spending
 
 | Metric | 2026 forecast |
 |--------|---------------|
-| **AI infrastructure spending** | **>$1.3 trillion** |
+| AI infrastructure spending | >$1.3 trillion |
 
 This is the capex flowing to [[AI hyperscalers]], neoclouds, and enterprises for AI compute, networking, and data centers.
 
-**Source:** Gartner (Jan 12, 2026)
+Source: [[Gartner]] (Jan 12, 2026)
 
 ---
 
-## Market structure
+## [[Market structure]]
 
-| Segment | Key players | Dynamics |
+| [[Segment]] | Key players | Dynamics |
 |---------|-------------|----------|
-| **Design (fabless)** | [[NVIDIA]], [[AMD]], [[Qualcomm]], [[Broadcom]] | IP + design, outsource manufacturing |
-| **Foundry** | [[TSMC]], [[Samsung]], [[Intel]], [[GlobalFoundries]] | Capital-intensive, scale economies |
-| **[[Memory]]** | [[SK Hynix]], [[Samsung]], [[Micron]], [[SanDisk]] | Cyclical, HBM premium |
-| **Equipment (WFE)** | [[ASML]], [[Applied Materials]], [[Lam Research]], [[KLA]] | Oligopolies, long lead times |
-| **EDA** | [[Synopsys]], [[Cadence]] | Duopoly, recurring revenue |
-| **OSAT** | [[ASE]], [[Amkor]] | Packaging/test, [[Advanced packaging]] growth |
+| Design (fabless) | [[NVIDIA]], [[AMD]], [[Qualcomm]], [[Broadcom]] | IP + design, outsource manufacturing |
+| Foundry | [[TSMC]], [[Samsung]], [[Intel]], [[GlobalFoundries]] | Capital-intensive, scale economies |
+| [[Memory]] | [[SK Hynix]], [[Samsung]], [[Micron]], [[SanDisk]] | Cyclical, [[HBM]] premium |
+| Equipment (WFE) | [[ASML]], [[Applied Materials]], [[Lam Research]], [[KLA]] | Oligopolies, long lead times |
+| EDA | [[Synopsys]], [[Cadence]] | Duopoly, recurring revenue |
+| OSAT | [[ASE]], [[Amkor]] | Packaging/test, [[Advanced packaging]] growth |
 
 ---
 
@@ -54,8 +54,8 @@ Design → Foundry → Packaging → Test → System integration
   EDA     Equipment    OSAT     Equipment
 ```
 
-**Margin stack (approximate):**
-| Segment | Gross margin |
+Margin stack (approximate):
+| [[Segment]] | Gross margin |
 |---------|--------------|
 | EDA | 80-90% |
 | Equipment | 45-55% |
@@ -68,14 +68,14 @@ Design → Foundry → Packaging → Test → System integration
 
 ## Sector KPIs
 
-| Metric | Definition | Good / Target | Why it matters |
+| Metric | Definition | Good / [[Target]] | Why it matters |
 |--------|------------|---------------|----------------|
-| **Gross Margin** | (Rev - COGS) / Rev | **>60% (Fabless)** | Pricing power & IP value |
-| **Inventory Days** | Days to sell inventory | **<80-100 days** | Spotting cyclical gluts/shortages |
-| **R&D Intensity** | R&D Expense / Revenue | **>15-20%** | Sustaining innovation lead |
-| **CapEx Intensity** | CapEx / Revenue | **>30% (Foundry/Mem)** | Maintaining capacity scale (High = Barrier to entry) |
-| **Book-to-Bill** | Orders / Shipments | **>1.1x** | Future demand signal (Equipment) |
-| **Yield** | Functional chips / Wafer | **>90% (Mature)** | Manufacturing efficiency (Foundry) |
+| Gross Margin | (Rev - COGS) / Rev | >60% (Fabless) | Pricing power & IP value |
+| Inventory Days | Days to sell inventory | <80-100 days | Spotting cyclical gluts/shortages |
+| R&D Intensity | R&D Expense / Revenue | >15-20% | Sustaining innovation lead |
+| CapEx Intensity | CapEx / Revenue | >30% (Foundry/Mem) | Maintaining capacity scale (High = Barrier to entry) |
+| Book-to-Bill | Orders / Shipments | >1.1x | Future demand signal (Equipment) |
+| Yield | Functional chips / Wafer | >90% (Mature) | Manufacturing efficiency (Foundry) |
 
 ---
 
@@ -83,18 +83,24 @@ Design → Foundry → Packaging → Test → System integration
 
 | Theme | Implication |
 |-------|-------------|
-| [[AI hyperscalers]] demand | NVIDIA dominance, HBM shortage |
+| [[AI hyperscalers]] demand | NVIDIA dominance, [[HBM]] shortage |
 | [[Memory shortage 2025-2026]] | SK Hynix/Samsung pricing power |
-| [[Advanced packaging]] | CoWoS bottleneck, OSAT opportunity |
-| [[Export controls]] | China bifurcation, equipment restrictions |
+| [[Advanced packaging]] | [[CoWoS]] bottleneck, OSAT opportunity |
+| [[Export controls]] | [[China]] bifurcation, equipment restrictions |
 | [[Power constraints]] | Fab siting challenges |
 | [[Leading edge race]] | 2nm competition (TSMC vs Samsung vs Intel) |
 
 ### Apr 24 2026: CPU-led record rally
 
-[[Reuters]]' Apr 24 chip-rally piece marked a useful shift in sector leadership. The Philadelphia Semiconductor Index closed +4.3% at a record high after [[Intel]]'s Q1/Q2 results turned AI inference CPU demand into a market-wide readthrough. Verified Apr 24 closes: [[Intel]] +23.6%, [[AMD]] +13.9%, [[Arm Holdings]] +14.8%, [[NVIDIA]] +4.3%, [[Texas Instruments]] -1.8% after its prior-day +19.4% Q1 earnings move, and SMH +5.1%.
+[[Reuters]]' Apr 24 chip-rally piece marked a useful shift in sector leadership. The Philadelphia Semiconductor Index closed +4.3% at a record high after [[Intel]]'s Q1/Q2 results turned AI inference CPU demand into a market-wide readthrough. Verified Apr 24 closes: [[Intel]] +23.6%, [[AMD]] +13.9%, [[Arm Holdings]] +14.8%, [[NVIDIA]] +4.3%, [[Texas Instruments]] -1.8% after its prior-day +19.4% Q1 earnings move, and [[SMH]] +5.1%.
 
-The sector implication is that the AI cycle is no longer priced as a single [[NVIDIA]] GPU trade. [[LSEG]] consensus cited by Reuters had semiconductor sub-industry Q1 earnings growth at 109.2%, versus 48.2% for the broader S&P 500 information-technology sector. The Philadelphia chip index traded around 26.6x forward earnings versus about 20.7x for the S&P 500. Those multiples are now being justified by the idea that inference and [[Agentic AI]] workloads pull demand into CPUs, analog/power, memory, and manufacturing capacity, not just accelerators.
+The sector implication is that the AI cycle is no longer priced as a single [[NVIDIA]] GPU trade. [[LSEG]] consensus cited by Reuters had semiconductor sub-industry Q1 earnings growth at 109.2%, versus 48.2% for the broader [[S&P 500]] information-technology sector. The Philadelphia chip index traded around 26.6x forward earnings versus about 20.7x for the [[S&P 500]]. Those multiples are now being justified by the idea that inference and [[Agentic AI]] workloads pull demand into CPUs, analog/power, memory, and manufacturing capacity, not just accelerators.
+
+### Apr 24 2026: [[China]] domestic AI-stack validation
+
+The same day, [[DeepSeek]] V4 Preview showed the other side of the semiconductor cycle: not just more demand for US chips, but substitution pressure inside [[China]]. [[CNN]] reported that [[Huawei]] supports V4 with Supernode technology combining large [[Ascend]] 950 clusters, and [[Counterpoint Research|Counterpoint]]'s Wei Sun said V4 runs on domestic chips from Huawei and [[Cambricon Technologies]] rather than NVIDIA hardware.
+
+For semiconductors, the signal is that export controls are creating a protected domestic accelerator market. Huawei and [[Cambricon]] do not need to beat [[Blackwell]] chip-for-chip if Chinese model developers optimize around their clusters and Chinese customers accept slightly lower frontier performance in exchange for sovereignty, cost, and availability. This is the semiconductor expression of [[China AI Plus]].
 
 ---
 
@@ -102,7 +108,7 @@ The sector implication is that the AI cycle is no longer priced as a single [[NV
 
 - [[Long NVIDIA]] — AI platform dominance
 - [[Long TSMC]] — foundry moat
-- [[Long memory]] — HBM cycle
+- [[Long memory]] — [[HBM]] cycle
 - [[Long WFE]] — equipment leverage
 - [[Long Japan photoresists]] — materials chokepoint
 - [[Long Japan wafers]] — upstream duopoly
@@ -114,13 +120,13 @@ The sector implication is that the AI cycle is no longer priced as a single [[NV
 
 ## Cyclicality
 
-**Traditional cycle:** 3-4 years, inventory-driven
+Traditional cycle: 3-4 years, inventory-driven
 
-**AI disruption:** Decoupling from traditional PC/mobile cycle. AI capex creating new demand layer.
+AI disruption: Decoupling from traditional PC/mobile cycle. AI capex creating new demand layer.
 
-| Segment | Cycle exposure |
+| [[Segment]] | Cycle exposure |
 |---------|----------------|
-| Memory | High (but HBM buffered) |
+| Memory | High (but [[HBM]] buffered) |
 | Equipment | Medium (backlog visibility) |
 | Foundry | Low (long-term contracts) |
 | Fabless AI | Low (structural demand) |
@@ -132,9 +138,9 @@ The sector implication is that the AI cycle is no longer priced as a single [[NV
 | Activity | Location | Risk |
 |----------|----------|------|
 | Leading-edge foundry | Taiwan (90%+) | [[Taiwan concentration risk]] |
-| HBM | Korea (95%+) | Moderate |
-| Equipment | US, Netherlands, Japan | Low |
-| Assembly/test | Asia (China, Malaysia, Vietnam) | Medium |
+| [[HBM]] | Korea (95%+) | Moderate |
+| Equipment | US, [[Netherlands]], [[Japan]] | Low |
+| Assembly/test | [[Asia]] ([[China]], [[Malaysia]], [[Vietnam]]) | Medium |
 
 ---
 
@@ -144,19 +150,19 @@ The sector implication is that the AI cycle is no longer priced as a single [[NV
 
 | Sub-sector | Correlation | Key players | Notes |
 |------------|-------------|-------------|-------|
-| **[[AI Compute]]** | 0.61 | [[TSMC]], [[NVIDIA]], [[AMD]] | Foundry + customers trade together |
-| **[[Connectivity]]** | 0.58 | [[Broadcom]], [[Qualcomm]], [[Marvell]] | Networking cluster |
-| **[[WFE]]** | 0.70 | [[ASML]], [[Applied Materials]], [[Lam Research]], [[KLA]] | Tightest cluster |
-| **[[Memory]]** | — | See sub-sectors | Splits by geography |
+| [[AI Compute]] | 0.61 | [[TSMC]], [[NVIDIA]], [[AMD]] | Foundry + customers trade together |
+| [[Connectivity]] | 0.58 | [[Broadcom]], [[Qualcomm]], [[Marvell]] | Networking cluster |
+| [[WFE]] | 0.70 | [[ASML]], [[Applied Materials]], [[Lam Research]], [[KLA]] | Tightest cluster |
+| [[Memory]] | — | See sub-sectors | Splits by geography |
 | ↳ [[US Memory]] | 0.50 | [[Micron]], [[SanDisk]], [[Western Digital]] | USD exposure |
-| ↳ [[Korea Memory]] | 0.53 | [[SK Hynix]], [[Samsung]] | KRW exposure, HBM dominant |
-| **EDA** | 0.75 | [[Synopsys]], [[Cadence]] | Duopoly, very tight |
-| **[[Semiconductor Materials]]** | — | [[JSR Corporation]], [[Shin-Etsu]] | [[Export controls]] |
-| **OSAT** | — | [[ASE]], [[Amkor]] | [[Advanced packaging]] |
+| ↳ [[Korea Memory]] | 0.53 | [[SK Hynix]], [[Samsung]] | KRW exposure, [[HBM]] dominant |
+| EDA | 0.75 | [[Synopsys]], [[Cadence]] | Duopoly, very tight |
+| [[Semiconductor Materials]] | — | [[JSR Corporation]], [[Shin-Etsu]] | [[Export controls]] |
+| OSAT | — | [[ASE]], [[Amkor]] | [[Advanced packaging]] |
 
-**Special cases:**
-- **[[Intel]]** — Uncorrelated with sector (0.28-0.34). IDM turnaround story, not a sector play.
-- **"Foundry"** — Not a tradeable sector. TSMC has no peers; trades with customers instead.
+Special cases:
+- [[Intel]] — Uncorrelated with sector (0.28-0.34). IDM turnaround story, not a sector play.
+- "Foundry" — Not a tradeable sector. TSMC has no peers; trades with customers instead.
 
 ---
 

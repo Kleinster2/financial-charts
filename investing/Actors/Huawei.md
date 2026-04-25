@@ -76,6 +76,14 @@ SuperPoD roadmap:
 
 Why it matters: Combined with [[China power advantage]], Huawei can deploy massive clusters that match NVIDIA on aggregate compute despite per-chip disadvantage.
 
+### Apr 2026: DeepSeek V4 validates the Supernode stack
+
+[[CNN]] reported on Apr. 24, 2026 that [[DeepSeek]]'s V4 Preview is supported by Huawei Supernode technology combining large [[Ascend]] 950 clusters. [[Counterpoint Research|Counterpoint]]'s Wei Sun described V4 as running on domestic chips from Huawei and [[Cambricon Technologies]], in contrast to [[DeepSeek-R|R1]]'s NVIDIA-trained lineage.
+
+This is the cleanest public validation of Huawei's AI-infrastructure strategy so far. Huawei does not need each chip to match [[NVIDIA]] on a per-accelerator basis if it can bind enough domestic chips together with its telecom-grade interconnect and make the system usable for a frontier-adjacent open model. The strategic win is ecosystem capture: Chinese developers optimize for Ascend/CANN because the model they want to use is already there.
+
+For export controls, this is the scenario [[Jensen Huang]] warned about: if US hardware exits China, Chinese labs train and deploy on Huawei instead. The risk for the US stack is not that Huawei immediately beats Blackwell; it is that Huawei becomes good enough, scaled enough, and sovereign enough to become the default for [[China AI Plus]] deployment.
+
 ### Networking
 - Still major [[5G]] equipment provider (outside US/allies)
 - Banned from US, [[UK]], [[Australia]], others
@@ -246,7 +254,7 @@ Ownership: Employee stock ownership plan. Not investable directly.
 
 ---
 
-*Updated 2026-01-23*
+*Updated 2026-04-24*
 
 ---
 

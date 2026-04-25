@@ -41,9 +41,10 @@ parent_concept: "[[AI accelerators]]"
 | Ascend 310 | 2018 | Inference chip, 8 TOPS INT8 |
 | **Ascend 910** | 2019 | Training chip, 256 TFLOPS FP16 |
 | Ascend 910A | 2021 | Incremental improvement |
-| **Ascend 910B** | 2023 | SMIC 7nm, post-sanctions redesign |
-| **Ascend 910C** | 2024 | Latest generation |
+| Ascend 910B | 2023 | SMIC 7nm, post-sanctions redesign |
+| Ascend 910C | 2024 | Latest generation |
 | Ascend 920 | 2025 | Next-gen (announced) |
+| Ascend 950 | 2026 | Higher-memory roadmap chip; used in Huawei Supernode clusters |
 
 ---
 
@@ -57,7 +58,7 @@ parent_concept: "[[AI accelerators]]"
 | Process | SMIC 7nm | TSMC 4nm | TSMC 7nm |
 | Availability | China only | Restricted | Restricted |
 
-**Reality check:** Ascend trails NVIDIA on specs but it's *available* in China. Availability beats performance when you can't buy the alternative.
+Reality check: Ascend trails NVIDIA on specs but it's *available* in China. Availability beats performance when you can't buy the alternative.
 
 ---
 
@@ -83,7 +84,7 @@ Ascend is China's AI chip independence — imperfect but sovereign.
 | Atlas 900 | Training cluster (thousands of chips) |
 | Atlas 300 | Inference card (PCIe) |
 
-**Atlas 800T A2:** Used by [[Zhipu]] to train [[GLM]]-Image entirely on Huawei hardware.
+Atlas 800T A2: Used by [[Zhipu]] to train [[GLM]]-Image entirely on Huawei hardware.
 
 ---
 
@@ -97,7 +98,7 @@ Ascend is China's AI chip independence — imperfect but sovereign.
 | CANN | Compute Architecture for Neural Networks |
 | ModelArts | Huawei Cloud ML platform |
 
-**MindSpore:** Huawei's open-source alternative to TensorFlow/PyTorch. Growing adoption in China.
+MindSpore: Huawei's open-source alternative to TensorFlow/PyTorch. Growing adoption in China.
 
 ---
 
@@ -111,8 +112,17 @@ Ascend is China's AI chip independence — imperfect but sovereign.
 | [[Zhipu]] | [[GLM]]-Image (Huawei-only) |
 | [[iFlytek]] | Speech AI |
 | Chinese government | Various agencies |
+| [[DeepSeek]] | V4 Preview supported by Huawei Supernode / [[Ascend]] 950 clusters (Apr 2026) |
 
 All major Chinese AI labs use Ascend alongside NVIDIA (where available).
+
+---
+
+## Apr 2026: DeepSeek V4 Supernode validation
+
+[[DeepSeek]]'s V4 Preview turned Ascend from a domestic-alternative story into a visible model-stack story. [[CNN]] reported that Huawei supports DeepSeek with Supernode technology combining large [[Ascend]] 950 clusters, and [[Counterpoint Research|Counterpoint]]'s Wei Sun said V4 runs on domestic Huawei and [[Cambricon Technologies]] chips rather than NVIDIA hardware.
+
+The distinction matters. Ascend's biggest weakness has been CUDA ecosystem depth, not just raw silicon. A widely used Chinese open model optimized for domestic clusters gives developers a reason to build on CANN/MindSpore despite the performance and tooling gaps. That is how export controls can accidentally accelerate substitution: denial creates the protected demand that makes the local stack worth optimizing.
 
 ---
 

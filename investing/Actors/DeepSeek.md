@@ -16,6 +16,7 @@ aliases: [DeepSeek AI]
 | Founder | [[Liang Wenfeng]] |
 | Global chatbot share | 4% |
 | Approach | Efficiency-focused, open weights |
+| Latest model | [[DeepSeek-V|DeepSeek V4]] Preview (Apr 2026) |
 
 ---
 
@@ -139,8 +140,15 @@ Unusual structure: DeepSeek is not a typical VC-backed startup. It's an internal
 |--------|---------|
 | Parent | High-Flyer (幻方量化) |
 | Structure | Internal division, not separate entity |
-| External funding | None announced |
+| External funding | None announced historically; reported round under discussion Apr 2026 |
 | Founder | [[Liang Wenfeng]] (also High-Flyer founder) |
+
+### Ownership estimates
+
+| Holder | Estimated stake | Notes |
+|--------|-----------------|-------|
+| High-Flyer / founder-controlled entities | Majority / effectively 100% before any external round | DeepSeek operates as an internal AI research division rather than a separately funded startup |
+| External investors | 0% historically | Reuters / The Information reported Apr 2026 talks for first outside round; no completed round disclosed |
 
 ### High-Flyer (parent)
 
@@ -166,19 +174,29 @@ Both [[OpenAI]] (Feb 12) and [[Anthropic]] (Feb 23) publicly accused DeepSeek of
 
 [[Anthropic]]'s blog attributed the campaign "with high confidence" through IP correlation, request metadata, and corroboration from other labs. DeepSeek's operation was smaller in volume than [[MiniMax]] (13M) and [[Moonshot AI]] (3.4M) but focused on core reasoning capabilities.
 
-Both disclosures timed to the US [[export controls]] debate — building the argument that API access needs restrictions, not just chips. Significant backlash over hypocrisy: the accusing labs themselves trained on scraped internet data without compensating creators, and [[Anthropic]] settled $1.5B over Library Genesis.
+Both disclosures timed to the US [[Export controls]] debate — building the argument that API access needs restrictions, not just chips. Significant backlash over hypocrisy: the accusing labs themselves trained on scraped internet data without compensating creators, and [[Anthropic]] settled $1.5B over Library Genesis.
 
-See [[AI distillation wars (2025-2026)]] and [[model distillation]].
+See [[AI distillation wars (2025-2026)]] and [[Model distillation]].
 
 ---
 
 ## V4 model and Blackwell investigation (Feb 25, 2026)
 
-[[Reuters]] exclusive (Feb 25): DeepSeek is withholding its latest V4 model from US chipmakers including [[NVIDIA]], giving early access to [[Huawei]] instead. A senior US official told [[Reuters]] that DeepSeek trained V4 on banned [[Blackwell]] chips — "likely clustered at its data center in Inner [[Mongolia]]" — potentially violating [[export controls]].
+[[Reuters]] exclusive (Feb 25): DeepSeek is withholding its latest V4 model from US chipmakers including [[NVIDIA]], giving early access to [[Huawei]] instead. A senior US official told [[Reuters]] that DeepSeek trained V4 on banned [[Blackwell]] chips — "likely clustered at its data center in Inner [[Mongolia]]" — potentially violating [[Export controls]].
 
 Federal investigation underway. [[NVIDIA]] has previously stated: "We're not shipping Blackwells to China." If confirmed, chips likely reached DeepSeek through gray market channels (see [[SEA chip diversion]]).
 
 The shift to [[Huawei]] early access is strategic: DeepSeek optimizing for [[Ascend]] chips rather than NVIDIA hardware, aligning with [[Beijing]]'s domestic chip ecosystem push.
+
+## V4 Preview on domestic silicon (Apr 24, 2026)
+
+[[CNN]] reported that DeepSeek unveiled a preview version of V4 on Apr. 24, positioning it against [[OpenAI]], [[Anthropic]], and [[Google]] models rather than as another surprise like [[DeepSeek-R|R1]]. [[Morningstar]] analyst Ivan Su told CNN the equity-market reaction should be more limited because investors now already understand that Chinese AI models are competitive and cheaper to use than US alternatives.
+
+The hardware stack is the more important change. [[Huawei]] said it supports DeepSeek with Supernode technology that combines large clusters of [[Ascend]] 950 chips. [[Counterpoint Research|Counterpoint]]'s Wei Sun told CNN that V4 runs on domestic chips from Huawei and [[Cambricon Technologies]], while R1 was trained on NVIDIA hardware. That makes V4 the first visible production test of the export-control nightmare case: a competitive Chinese open model running on Chinese silicon rather than CUDA.
+
+TechStartups summarized the preview as two variants, V4 Flash and V4 Pro. Reported specs include a 1M-token context window, Mixture-of-Experts routing, and a new Hybrid Attention Architecture for long-context retention. Flash is the cheaper/faster tier; Pro is the heavier capability tier and remains compute-constrained. DeepSeek claims improved coding, reasoning, and agent-style performance, with CNN noting that the company still trails the latest [[Gemini]]-class frontier systems.
+
+Strategic readthrough: V4 is less likely than R1 to crash NVIDIA in a day, but it is more structurally important for [[China AI Plus]]. It combines open weights, lower inference cost, and domestic compute into a stack Beijing can push into enterprises, robots, vehicles, and government systems without depending on US chips or US model providers.
 
 ---
 
@@ -230,6 +248,13 @@ The insight: If you can't get the best chips, make better use of the chips you h
 
 Unusual structure: DeepSeek is not a typical startup. It's an AI research arm of High-Flyer, funded by quant trading profits. No external VC rounds announced.
 
+## Funding rounds
+
+| Date | Amount | Valuation | Investors | Status / notes |
+|------|--------|-----------|-----------|----------------|
+| Pre-2026 | Internal funding | Not disclosed | High-Flyer profits | No announced external VC rounds; research funded by the quant fund parent |
+| Apr 2026 | At least $300M | $10B reported target | Undisclosed; Reuters cited The Information | Talks reported, not confirmed completed |
+
 ## Fundraise talks at $10B valuation (Apr 17, 2026)
 
 [[Reuters]], citing The Information, reported that DeepSeek is in talks to raise at least $300M at a $10B valuation. If completed, this would mark a structural break from the company's prior model of relying on High-Flyer's internal capital.
@@ -272,7 +297,7 @@ Thesis implications:
 
 ---
 
-*Updated 2026-04-17*
+*Updated 2026-04-24*
 
 ---
 

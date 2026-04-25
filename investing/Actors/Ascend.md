@@ -26,7 +26,13 @@ aliases: [Huawei Ascend, Ascend AI]
 | Ascend 910C | Next-gen (2024+) | Training |
 | Ascend 310 | Inference focused | Edge/inference |
 
-**Comparison:** Ascend 910B roughly comparable to A100, but 1-2 generations behind H100/H200.
+Comparison: Ascend 910B roughly comparable to A100, but 1-2 generations behind H100/H200.
+
+## Apr 2026: DeepSeek V4 validation
+
+[[DeepSeek]] V4 Preview gave Ascend its clearest model-stack validation. [[CNN]] reported that [[Huawei]] supports V4 with Supernode technology combining large [[Ascend]] 950 clusters, and [[Counterpoint Research|Counterpoint]]'s Wei Sun said V4 runs on domestic Huawei and [[Cambricon Technologies]] chips rather than NVIDIA hardware.
+
+The strategic point is not per-chip parity with [[NVIDIA]]; it is ecosystem capture. If a widely used Chinese open model is optimized around Ascend/CANN, Chinese developers and state buyers have a practical reason to build on the domestic stack despite CUDA's maturity advantage.
 
 ---
 
@@ -39,7 +45,7 @@ aliases: [Huawei Ascend, Ascend AI]
 | Cloud | Huawei Cloud integration |
 | Customers | [[Baidu]], [[Alibaba]], [[Tencent]] testing |
 
-**Challenge:** CUDA ecosystem dominance hard to replicate.
+Challenge: CUDA ecosystem dominance hard to replicate.
 
 ---
 
@@ -56,7 +62,7 @@ aliases: [Huawei Ascend, Ascend AI]
 
 ## Investment implications
 
-**Not directly investable** (Huawei private, sanctioned), but:
+Not directly investable (Huawei private, sanctioned), but:
 
 - [[SMIC]] — fabs Ascend chips
 - Chinese AI stocks — benefit from domestic chips

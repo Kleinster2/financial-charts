@@ -455,23 +455,23 @@ Differs from existing controls: current regime restricts EUV fully and limits DU
 
 [[NVIDIA]] CEO [[Jensen Huang]] delivered the most articulated pushback on the chip-denial containment thesis to date, on the Dwarkesh Patel podcast. The argument is structured as six claims — all attributed to Jensen, filed here as a contrarian position inside the policy debate (not as vault consensus):
 
-**(1) China's chip industry is not collapsing.** [[Huawei]] is having "its largest revenue year in history." [[SMIC]] posted record 2025 revenue ($9.3B, +16% YoY). Roughly 50% of AI researchers live in [[China]]; China builds 60% of mainstream chips.
+(1) China's chip industry is not collapsing. [[Huawei]] is having "its largest revenue year in history." [[SMIC]] posted record 2025 revenue ($9.3B, +16% YoY). Roughly 50% of AI researchers live in [[China]]; China builds 60% of mainstream chips.
 
-**(2) The binding constraints are softer than assumed.** "There's plenty of [[HBM2]]." [[Huawei]] has developed "gang chips" — multiple lower-bandwidth memory dies ganged together to substitute for HBM3/HBM4. Silicon photonics routes around advanced packaging limits. "7nm is enough" to build competitive training systems at cost penalty. Each workaround has a cost, but none is structurally blocking.
+(2) The binding constraints are softer than assumed. "There's plenty of [[HBM2]]." [[Huawei]] has developed "gang chips" — multiple lower-bandwidth memory dies ganged together to substitute for HBM3/HBM4. Silicon photonics routes around advanced packaging limits. "7nm is enough" to build competitive training systems at cost penalty. Each workaround has a cost, but none is structurally blocking.
 
-**(3) Ecosystem diffusion — not containment — is the durable lever.** Jensen's structural argument: if [[CUDA]] exits China, Chinese AI researchers develop on [[Ascend]] instead. "[[DeepSeek]] running on Huawei is a horrible outcome for America." The worst-case scenario is Chinese-origin open-weight models trained on Chinese silicon diffusing through the open-source community and becoming the default stack everywhere *outside* the US. Chip denial accelerates the scenario it claims to prevent.
+(3) Ecosystem diffusion — not containment — is the durable lever. Jensen's structural argument: if [[CUDA]] exits China, Chinese AI researchers develop on [[Ascend]] instead. "[[DeepSeek]] running on Huawei is a horrible outcome for America." The worst-case scenario is Chinese-origin open-weight models trained on Chinese silicon diffusing through the open-source community and becoming the default stack everywhere *outside* the US. Chip denial accelerates the scenario it claims to prevent.
 
-**(4) The "China is 3-5 years behind" framing is outdated.** In inference, China is not behind at all. The frontier-training gap is "one generation, not five." Over-reliance on the distance assumption drives policymakers to underweight ecosystem risk.
+(4) The "China is 3-5 years behind" framing is outdated. In inference, China is not behind at all. The frontier-training gap is "one generation, not five." Over-reliance on the distance assumption drives policymakers to underweight ecosystem risk.
 
-**(5) Tariff architecture, not chip denial, is the structurally correct instrument.** Jensen credits the [[Donald Trump|Trump]]-administration tariff-and-investment framework ([[Section 232 semiconductor tariff]], the $500B [[Taiwan]] chip deal, [[TSMC]] Arizona expansion) as the right lever. Tariffs + US fabs shift physical production without triggering indigenous substitution. Chip denial creates gray-market leakage ([[SEA chip diversion]]) and incentivizes ecosystem bifurcation.
+(5) Tariff architecture, not chip denial, is the structurally correct instrument. Jensen credits the [[Donald Trump|Trump]]-administration tariff-and-investment framework ([[Section 232 semiconductor tariff]], the $500B [[Taiwan]] chip deal, [[TSMC]] Arizona expansion) as the right lever. Tariffs + US fabs shift physical production without triggering indigenous substitution. Chip denial creates gray-market leakage ([[SEA chip diversion]]) and incentivizes ecosystem bifurcation.
 
-**(6) Full-stack engagement beats single-layer denial.** Jensen reuses the [[Jensen Five Layer Cake]] framing (electrons → chips → infrastructure → models → applications): every layer is a choke point, every layer is also a diffusion opportunity. Denial at one layer (chips) while conceding others (models, applications) is strategically incoherent.
+(6) Full-stack engagement beats single-layer denial. Jensen reuses the [[Jensen Five Layer Cake]] framing (electrons → chips → infrastructure → models → applications): every layer is a choke point, every layer is also a diffusion opportunity. Denial at one layer (chips) while conceding others (models, applications) is strategically incoherent.
 
-**The political positioning:** Jensen is making this case to a US-audience podcast during active [[Section 232 semiconductor tariff|Section 232]] enforcement. Frames himself as pro-industrial-policy (via tariffs) but anti-chip-denial — threading commercial access to China with US government alignment. The "leather jacket diplomacy" method applied to the export controls debate specifically.
+The political positioning: Jensen is making this case to a US-audience podcast during active [[Section 232 semiconductor tariff|Section 232]] enforcement. Frames himself as pro-industrial-policy (via tariffs) but anti-chip-denial — threading commercial access to China with US government alignment. The "leather jacket diplomacy" method applied to the export controls debate specifically.
 
-**The telecom cautionary analogy.** Jensen's most pointed rhetorical device on the podcast: the chip-denial philosophy replicates the policy arc that ceded US telecom equipment leadership to [[Huawei]] and ZTE over the 1990s-2010s. "We don't control our own telecommunications anymore." Pattern: policy intended to protect one industry layer (by restricting access) produced indigenous substitution that captured the whole stack — not just domestically, but as the export standard for the developing world. Jensen projects the same arc for chips if current controls continue: US firms exit the second-largest market; Chinese alternatives scale to fill both domestic and export demand; the American tech stack becomes regionally confined while Chinese stacks diffuse globally. The analogy is the strongest evidence in the interview that Jensen's opposition to chip-denial is not a narrow commercial plea but a structural industrial-policy argument.
+The telecom cautionary analogy. Jensen's most pointed rhetorical device on the podcast: the chip-denial philosophy replicates the policy arc that ceded US telecom equipment leadership to [[Huawei]] and ZTE over the 1990s-2010s. "We don't control our own telecommunications anymore." Pattern: policy intended to protect one industry layer (by restricting access) produced indigenous substitution that captured the whole stack — not just domestically, but as the export standard for the developing world. Jensen projects the same arc for chips if current controls continue: US firms exit the second-largest market; Chinese alternatives scale to fill both domestic and export demand; the American tech stack becomes regionally confined while Chinese stacks diffuse globally. The analogy is the strongest evidence in the interview that Jensen's opposition to chip-denial is not a narrow commercial plea but a structural industrial-policy argument.
 
-**Vault framing:** Jensen's position contradicts the [[David Sacks]] / [[Michael Kratsios]] camp inside the same administration. Sacks frames market-share denial as strategic victory; Jensen frames it as strategic error. The vault tracks both positions — this is an unresolved debate inside the policy coalition, not a settled consensus. Watch for which position dominates the next policy cycle.
+Vault framing: Jensen's position contradicts the [[David Sacks]] / [[Michael Kratsios]] camp inside the same administration. Sacks frames market-share denial as strategic victory; Jensen frames it as strategic error. The vault tracks both positions — this is an unresolved debate inside the policy coalition, not a settled consensus. Watch for which position dominates the next policy cycle.
 
 See [[Jensen Huang]] for the speaker profile, [[Huawei]] for the China-side buildout, and [[American AI Export Program]] for the Kratsios counter-framework.
 
@@ -483,15 +483,29 @@ On Apr. 23, [[Michael Kratsios]] escalated the export-controls debate from hardw
 
 Why this matters for export controls:
 
-- **The leakage problem is no longer just physical.** The older framing was that chips, tools, and equipment were the controlled layer while models were a commercial product. The memo treats API access itself as a technology-transfer vector.
-- **It validates the Anthropic / OpenAI argument.** The U.S. government is now effectively saying that hardware controls can be bypassed if Chinese labs can buy or route access to U.S. models and copy capabilities over the wire.
-- **It opens a new policy lane.** Kratsios said Washington would share information with American AI companies and explore measures to hold foreign actors accountable. That points toward tighter account verification, API-use restrictions, possibly geofenced access, and eventually controls on model weights or frontier-model exports.
+- The leakage problem is no longer just physical. The older framing was that chips, tools, and equipment were the controlled layer while models were a commercial product. The memo treats API access itself as a technology-transfer vector.
+- It validates the Anthropic / OpenAI argument. The U.S. government is now effectively saying that hardware controls can be bypassed if Chinese labs can buy or route access to U.S. models and copy capabilities over the wire.
+- It opens a new policy lane. Kratsios said Washington would share information with American AI companies and explore measures to hold foreign actors accountable. That points toward tighter account verification, API-use restrictions, possibly geofenced access, and eventually controls on model weights or frontier-model exports.
 
 This is the cleanest evidence yet that 2026 export controls are evolving from a semiconductor regime into a full-stack AI containment regime.
 
+## DeepSeek V4 on Huawei/Cambricon chips (Apr 24, 2026)
+
+The next day, [[DeepSeek]] supplied the counterfactual to the containment strategy. [[CNN]] reported that DeepSeek's V4 Preview is supported by [[Huawei]] Supernode technology combining large [[Ascend]] 950 clusters, and [[Counterpoint Research|Counterpoint]]'s Wei Sun said V4 runs on domestic chips from Huawei and [[Cambricon Technologies]] rather than NVIDIA hardware.
+
+That makes the V4 launch the first concrete example of the scenario [[Jensen Huang]] warned about: Chinese-origin open models moving onto Chinese silicon because US chips and US platforms become politically inaccessible. The controls may still slow frontier training at the absolute top end, but the substitution loop is now visible:
+
+| Control objective | Observed substitution pressure |
+|-------------------|--------------------------------|
+| Deny advanced NVIDIA chips | Huawei/Cambricon clusters become the default domestic target |
+| Restrict model-capability leakage | Chinese labs emphasize open models and domestic deployment |
+| Preserve US stack dominance | Chinese developers optimize for Ascend/CANN because local models run there |
+
+The policy readthrough is uncomfortable: hardware denial and API-access controls can reduce leakage at the margin, but they also create the protected market that lets Huawei, Cambricon, and DeepSeek converge into a sovereign stack.
+
 ---
 
-*Updated 2026-04-23*
+*Updated 2026-04-24*
 
 ## Related
 
