@@ -11,7 +11,7 @@ tags:
 
 # Replicator Initiative
 
-DoD's flagship program to field "all-domain attritable autonomous" (ADA2) systems at industrial scale, breaking the small-batch exquisite-procurement model that dominated US defense spending since the [[Cold War]]. Announced by then-Deputy Defense Secretary [[Kathleen Hicks]] on Aug 28, 2023, with a 24-month target — Aug 2025 — to field "thousands" of attritable systems. The original target missed by an order of magnitude (CRS: only "hundreds" delivered). The program reorganized into the [[Defense Autonomous Warfare Group]] (DAWG) and [[Joint Interagency Task Force 401]] (JIATF-401), with vastly larger dollar commitments through FY2026 and FY2027. The structural significance is the *procurement model* — aggregated funding across service accounts, faster contract cycles, software-first command, and explicit acceptance of unit loss — not the absolute dollars yet. Replicator is the test case for whether US defense can buy autonomy the way [[Anduril]] and [[Shield AI]] build it, rather than the way [[Lockheed Martin]] and [[Northrop Grumman]] build everything else.
+DoD's flagship program to field "all-domain attritable autonomous" (ADA2) systems at industrial scale, breaking the small-batch exquisite-procurement model that dominated US defense spending since the Cold War. Announced by then-Deputy Defense Secretary Kathleen Hicks on Aug 28, 2023, with a 24-month target — Aug 2025 — to field "thousands" of attritable systems. The original target missed by an order of magnitude (CRS: only "hundreds" delivered). The program reorganized into the [[Defense Autonomous Warfare Group]] (DAWG) and [[Joint Interagency Task Force 401]] (JIATF-401), with vastly larger dollar commitments through FY2026 and FY2027. The structural significance is the *procurement model* — aggregated funding across service accounts, faster contract cycles, software-first command, and explicit acceptance of unit loss — not the absolute dollars yet. Replicator is the test case for whether US defense can buy autonomy the way [[Anduril]] and [[Shield AI]] build it, rather than the way [[Lockheed Martin]] and [[Northrop Grumman]] build everything else.
 
 ---
 
@@ -27,8 +27,8 @@ DoD's flagship program to field "all-domain attritable autonomous" (ADA2) system
 | FY2026 funding | ~$500M Replicator 1 + $225.9M DAWG |
 | FY2027 autonomous-warfare request | Up to $54.6B |
 | Replicator 2 launched | Sept 2024 (counter-UAS focus) |
-| JIATF-401 consolidation | Aug 2025 ([[Pete Hegseth]] memo) |
-| First Replicator 2 contract | Jan 2026 — Fortem [[DroneHunter F700]] |
+| JIATF-401 consolidation | Aug 2025 (Pete Hegseth memo) |
+| First Replicator 2 contract | Jan 2026 — Fortem DroneHunter F700 |
 | Counter-drone marketplace IOC | Feb 2026 |
 
 ---
@@ -52,21 +52,21 @@ The Congressional Research Service and DefenseScoop reporting converge on three 
 2. Some funded systems were unreliable, expensive, or slow to manufacture — could not hit the per-unit cost or production-rate assumptions.
 3. Existing service command structures resisted integration; Replicator was a Pentagon-OSD initiative pushed onto service procurement organizations whose incentives are oriented around large-platform programs of record, not attritable buys.
 
-The "cultural, not technical" framing (GoTech Insights) is the more durable read: the DoD has a procurement culture optimized for the [[Lockheed Martin]] / [[Raytheon Technologies]] / [[Northrop Grumman]] / [[General Dynamics]] model, and Replicator is an attempt to graft a different metabolism onto it.
+The "cultural, not technical" framing (GoTech Insights) is the more durable read: the DoD has a procurement culture optimized for the [[Lockheed Martin]] / [[RTX]] / [[Northrop Grumman]] / [[General Dynamics]] model, and Replicator is an attempt to graft a different metabolism onto it.
 
 ---
 
 ## Replicator 2 — counter-UAS (Sept 2024 → present)
 
-Greenlit in September 2024 by Defense Secretary [[Lloyd Austin]] with a 24-month delivery target. Focus narrowed from "all-domain attritable autonomous" to defending US installations and forces against small unmanned aerial systems — the inverse of Replicator 1's threat (now Replicator buys *defenses* against the same platforms it was trying to mass-produce).
+Greenlit in September 2024 by Defense Secretary Lloyd Austin with a 24-month delivery target. Focus narrowed from "all-domain attritable autonomous" to defending US installations and forces against small unmanned aerial systems — the inverse of Replicator 1's threat (now Replicator buys *defenses* against the same platforms it was trying to mass-produce).
 
 ### JIATF-401
 
-In August 2025, Defense Secretary [[Pete Hegseth]] issued a memo consolidating Replicator 2 resources into the newly created [[Joint Interagency Task Force 401]] — DoD's "lead organization to develop capabilities to counter-small unmanned aerial systems." JIATF-401 is now the operational vehicle for Replicator 2 procurements.
+In August 2025, Defense Secretary Pete Hegseth issued a memo consolidating Replicator 2 resources into the newly created [[Joint Interagency Task Force 401]] — DoD's "lead organization to develop capabilities to counter-small unmanned aerial systems." JIATF-401 is now the operational vehicle for Replicator 2 procurements.
 
 ### Initial acquisitions
 
-- Jan 2026 — first contract: Fortem Technologies [[DroneHunter F700]], an autonomous interceptor that uses AI + radar + a tethered net to capture small drones with minimal collateral risk.
+- Jan 2026 — first contract: Fortem Technologies DroneHunter F700, an autonomous interceptor that uses AI + radar + a tethered net to capture small drones with minimal collateral risk.
 - Feb 2026 — counter-drone "marketplace" reached initial operational capability, providing a curated catalog of approved counter-UAS systems for installation commanders to draw from.
 - Pipeline through 2026 — directed-energy, kinetic-interceptor, and electronic-warfare counter-UAS options expected to expand the catalog.
 
@@ -94,9 +94,9 @@ The two-order-of-magnitude jump from FY2026 to FY2027 is the load-bearing claim.
 | [[Skydio]] | Autonomy stack, X10D, military-grade sUAS | Private |
 | [[Kratos]] | XQ-58 Valkyrie (CCA-funded, not Replicator-funded; same philosophy) | Public (KTOS) |
 | [[General Atomics]] | XQ-67, Mojave, Reaper-class | Private |
-| Fortem Technologies | [[DroneHunter F700]] — first Replicator 2 contract | Private |
+| Fortem Technologies | DroneHunter F700 — first Replicator 2 contract | Private |
 | Saildrone | Surface ADA2 | Private |
-| Red Cat Holdings | Edge 130 sUAS | Public (RCAT) |
+| [[Red Cat Holdings]] | Black Widow sUAS, Edge 130, Apium swarms | Public (RCAT) |
 | [[Helsing]] | European autonomy stack — adjacent if Replicator-like programs export | Private (€12B 2025) |
 
 ### Investment pattern
@@ -117,7 +117,7 @@ Replicator missed its original number but reframed the question. The Aug 2025 de
 
 What this is *not*: a one-time drone budget bump. The structural shift is from program-of-record monoculture toward continuous-procurement marketplaces gated by the autonomy software layer. The autonomy stack is the moat; everything below it is commodity hardware on a Moore's-law-like cost curve.
 
-What this *is* still uncertain on: whether DoD's culture absorbs the new procurement metabolism (the [[GoTech Insights]] critique), whether Congress appropriates at FY2027 request levels, and whether the autonomy stacks themselves consolidate (Anduril/Shield AI/Skydio merger or roll-up scenarios) or stay split.
+What this *is* still uncertain on: whether DoD's culture absorbs the new procurement metabolism (the GoTech Insights critique), whether Congress appropriates at FY2027 request levels, and whether the autonomy stacks themselves consolidate (Anduril/Shield AI/Skydio merger or roll-up scenarios) or stay split.
 
 ---
 
@@ -136,7 +136,7 @@ What this *is* still uncertain on: whether DoD's culture absorbs the new procure
 - [[Kratos]] — Valkyrie / tactical-drone production at scale; same cost philosophy
 - [[Helsing]] — European autonomy peer; relevant if Replicator-like programs spread to allies
 - [[Taiwan]] — original threat-model anchor
-- [[Cold War]] — procurement model Replicator is trying to replace
+- Cold War — procurement model Replicator is trying to replace
 
 ---
 
