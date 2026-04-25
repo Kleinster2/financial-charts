@@ -5,7 +5,7 @@ aliases: [GOOGL, GOOG, Google DeepMind, DeepMind, Alphabet]
 
 Google (Alphabet) — Tier 1 AI hyperscaler. DeepMind/Gemini, TPU pioneer, Anthropic investor, [[Broadcom]] disintermediation in progress.
 
-Most vertically integrated AI hyperscaler: owns DeepMind (Gemini), designs custom TPUs (7 generations), runs GCP (#3 cloud), and has invested $2B+ in Anthropic. AI capex was $91B in 2025 with $175-185B guided for 2026 — the largest infrastructure commitment of any hyperscaler. Controlled by co-founders Larry Page and Sergey Brin (majority voting power). Led by Sundar Pichai with new CFO Anat Ashkenazi (from Eli Lilly, Jul 2024). Broadcom disintermediation in progress as Google brings more silicon design in-house. The bull case: search moat + YouTube + Cloud + DeepMind AI lab is the deepest tech stack in the industry, and advertising revenue funds AI investment without dilution. The bear case: antitrust risk (DOJ cases on search and ad tech), AI search disruption could cannibalize core ad revenue, and GCP remains distant #3 behind AWS and Azure.
+Most vertically integrated AI hyperscaler: owns DeepMind (Gemini), designs custom TPUs (7 generations), runs GCP (#3 cloud), and has invested $13B in Anthropic upfront and committed up to $43B including milestones. AI capex was $91B in 2025 with $175-185B guided for 2026 — the largest infrastructure commitment of any hyperscaler. Controlled by co-founders Larry Page and Sergey Brin (majority voting power). Led by Sundar Pichai with new CFO Anat Ashkenazi (from Eli Lilly, Jul 2024). Broadcom disintermediation in progress as Google brings more silicon design in-house. The bull case: search moat + YouTube + Cloud + DeepMind AI lab is the deepest tech stack in the industry, and advertising revenue funds AI investment without dilution. The bear case: antitrust risk (DOJ cases on search and ad tech), AI search disruption could cannibalize core ad revenue, and GCP remains distant #3 behind AWS and Azure.
 
 ---
 
@@ -61,7 +61,7 @@ Google is the most vertically integrated AI hyperscaler:
 | AI lab | DeepMind (Gemini) |
 | Custom silicon | TPU (7 generations) |
 | Cloud | GCP (\#3 behind AWS, Azure) |
-| AI investment | [[Anthropic]] ($2B+) |
+| AI investment | [[Anthropic]] ($13B invested; up to $43B committed including milestones) |
 
 ---
 
@@ -246,20 +246,20 @@ Segment charts (12 quarters):
 
 ## Segment reporting & YouTube disclosure
 
-Alphabet reports three segments under ASC 280 (FASB segment reporting standard): **Google Services**, **Google Cloud**, and **Other Bets**. [[YouTube]] is not a separate reportable segment — it sits inside Google Services alongside Search, Android, Chrome, Play, and hardware.
+Alphabet reports three segments under ASC 280 (FASB segment reporting standard): **Google Services**, Google Cloud, and Other Bets. [[YouTube]] is not a separate reportable segment — it sits inside Google Services alongside Search, Android, Chrome, Play, and hardware.
 
 What Alphabet discloses voluntarily (starting Q4 2019 earnings, Feb 2020):
-- **YouTube ads revenue** — broken out as a line item within Google Services revenue (see quarterly table above)
-- **YouTube subscriptions** — disclosed within "Subscriptions, platforms, and devices" (bundled with YouTube Premium, Pixel, Google One)
+- YouTube ads revenue — broken out as a line item within Google Services revenue (see quarterly table above)
+- YouTube subscriptions — disclosed within "Subscriptions, platforms, and devices" (bundled with YouTube Premium, Pixel, Google One)
 
-What Alphabet does **not** disclose:
+What Alphabet does not disclose:
 - YouTube operating costs, margins, or profitability
 - YouTube infrastructure/Cloud allocation
 - YouTube content acquisition costs (buried in TAC and content costs across Google Services)
 
 [[Sundar Pichai]] chose to break out YouTube ads revenue voluntarily in Feb 2020 to highlight scale (~$15B ads at the time) — YouTube was being undervalued inside the Google Services blob. No [[SEC]] mandate required it.
 
-**ASU 2023-07 implications:** The updated ASC 280 (effective FY2024) requires disclosure of "significant segment expenses regularly provided to the [[CODM]]." If Pichai reviews YouTube P&L internally — which he almost certainly does — there's a theoretical basis for the [[SEC]] to push for more granularity. But as long as YouTube isn't managed as a separate operating segment with its own CODM-level review, Alphabet can keep it bundled.
+ASU 2023-07 implications: The updated ASC 280 (effective FY2024) requires disclosure of "significant segment expenses regularly provided to the [[CODM]]." If Pichai reviews YouTube P&L internally — which he almost certainly does — there's a theoretical basis for the [[SEC]] to push for more granularity. But as long as YouTube isn't managed as a separate operating segment with its own CODM-level review, Alphabet can keep it bundled.
 
 Alphabet's stated rationale for not breaking out a full [[YouTube]] P&L: YouTube is deeply integrated into Google's infrastructure (shared data centers, shared ad stack, shared login/identity), making a standalone P&L "somewhat artificial." The market has wanted a full YouTube P&L for years.
 
@@ -357,12 +357,12 @@ Hedging AI lab risk:
 
 | Investment | Amount | Notes |
 |------------|--------|-------|
-| Anthropic stake | $2B+ | Minority investor |
-| Cloud deal | $3B+ | GCP credits |
+| Anthropic stake | $13B invested; up to $43B committed | Minority investor; Apr 2026 adds $10B now + up to $30B future milestones |
+| Cloud / TPU exposure | 5 GW over five years (reported Apr 24) plus ~3.5 GW TPU expansion starting 2027 (Apr 6) | Google Cloud monetizes TPU capacity through Anthropic even as Gemini competes with Claude |
 
-Google backs Anthropic while competing with [[Claude]] via Gemini — hedging like Microsoft backing both OpenAI and [[Mistral]].
+Google backs Anthropic while competing with [[Claude]] via Gemini. The Apr 2026 structure is more than a hedge: Google is financing a customer-competitor whose demand helps monetize Google Cloud TPUs at multi-GW scale. See [[Anthropic hyperscaler financing surge April 2026]].
 
-Anthropic TPU deal: ~1M TPUv7 direct from [[Broadcom]], not through Google Cloud. [[Broadcom]] disclosed Anthropic purchased **$21B worth of TPUs** — first concrete pricing data point for Google's custom silicon, and they're undercutting [[NVIDIA]] on price. See [[Anthropic]].
+Anthropic TPU deal: ~1M TPUv7 direct from [[Broadcom]], not through Google Cloud. [[Broadcom]] disclosed Anthropic purchased $21B worth of TPUs — first concrete pricing data point for Google's custom silicon, and they're undercutting [[NVIDIA]] on price. See [[Anthropic]].
 
 ---
 
@@ -633,11 +633,11 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Google]] was part of a c
 
 GOOG +4% (Feb 21) on convergence of tailwinds:
 
-1. **Tariff relief** — lower tariffs stretch CapEx further and ease margin pressure on Android device partners. DA Davidson's Gil Luria calls this an "underappreciated second-order benefit" for the Google ecosystem
-2. **"Photoshoot" AI ad feature** — Google quietly updated its AI ad platform to automate high-end ad campaigns. Gene Munster ([[Deepwater Asset Management]]): incremental AI product improvements are the real stock driver
-3. **TPU pricing advantage crystallized** — [[Broadcom]] disclosed [[Anthropic]] bought **$21B in TPUs**, undercutting [[NVIDIA]] on price. Independent TPU sales growing
-4. **[[FluidStack]] investment** — WSJ reported Google looking to invest **$100M into [[FluidStack]]** to push TPUs into "neo cloud" ecosystem
-5. **GPU financing headwinds** — [[Blue Owl]] lenders balked at $4B [[CoreWeave]] data center financing, creating problems for the NVIDIA GPU complex while Google self-finances
+1. Tariff relief — lower tariffs stretch CapEx further and ease margin pressure on Android device partners. DA Davidson's Gil Luria calls this an "underappreciated second-order benefit" for the Google ecosystem
+2. "Photoshoot" AI ad feature — Google quietly updated its AI ad platform to automate high-end ad campaigns. Gene Munster ([[Deepwater Asset Management]]): incremental AI product improvements are the real stock driver
+3. TPU pricing advantage crystallized — [[Broadcom]] disclosed [[Anthropic]] bought $21B in TPUs, undercutting [[NVIDIA]] on price. Independent TPU sales growing
+4. [[FluidStack]] investment — WSJ reported Google looking to invest $100M into [[FluidStack]] to push TPUs into "neo cloud" ecosystem
+5. GPU financing headwinds — [[Blue Owl]] lenders balked at $4B [[CoreWeave]] data center financing, creating problems for the NVIDIA GPU complex while Google self-finances
 
 Analysts see Google at "pole position" in commercializing AI — spending as aggressively as any Mag 7 name but with better perceived ROI.
 
@@ -646,6 +646,9 @@ Analysts see Google at "pole position" in commercializing AI — spending as agg
 ---
 
 ## Related
+
+### Securities
+- [[Google securities]] — stock, ETF exposure, options, and price-action context
 
 ### Products
 - [[Gemini]] — AI model (750M MAU)

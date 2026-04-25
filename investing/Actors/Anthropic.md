@@ -1,6 +1,26 @@
-		#actor #ai #modellab
+---
+aliases: [Anthropic PBC, Claude company]
+tags: [actor, ai, modellab, private, usa]
+---
+#actor #ai #modellab
 
 Anthropic - AI lab, maker of Claude. More capital-efficient than [[OpenAI]].
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Founded | 2021 |
+| Structure | Public Benefit Corporation |
+| CEO | [[Dario Amodei]] |
+| Flagship product | [[Claude]] |
+| Revenue run rate | $30B+ (Apr 2026) |
+| Valuation | $380B post-money Series G (Feb 2026); Apr 2026 Google tranche reported at $350B pre-money |
+| Major hyperscaler investors | [[Amazon]], [[Google]], [[Microsoft]], [[NVIDIA]] |
+| Primary cloud partner | [[AWS]] / [[Amazon]] |
+| Major compute suppliers | [[AWS]] [[Trainium]], [[Google Cloud]] [[TPU]], [[NVIDIA]] GPUs |
 
 ---
 
@@ -28,7 +48,7 @@ The arc: seven OpenAI defectors → Constitutional AI → [[FTX]]-funded safety 
 
 ---
 
-## Financial position (Feb 2026)
+## Financial position (Apr 2026)
 
 | Metric | Value |
 |--------|-------|
@@ -42,7 +62,7 @@ The arc: seven OpenAI defectors → Constitutional AI → [[FTX]]-funded safety 
 | 2025 loss | $5.6B (confirmed Jan 2026) |
 | Burn rate | Dropping to 9% of revenue by 2027 |
 | Break-even target | 2028 |
-| Valuation | $380B (Series G close, Feb 12 2026). Secondary tenders at ~$500B (Apr 2026). [[NEA]]'s Neimucha (Apr 7): "wouldn't be surprised if when they go public gets closer to the trillion dollar range" |
+| Valuation | $380B post-money (Series G close, Feb 12 2026). [[Google]] Apr 2026 commitment reported at $350B pre-money for the initial $10B tranche; secondary/IPO talk ranges much higher but is not primary pricing. [[NEA]]'s Neimucha (Apr 7): "wouldn't be surprised if when they go public gets closer to the trillion dollar range" |
 
 Burning 14x less cash than OpenAI before profitability. CFO [[Krishna Rao]]: "Claude is increasingly becoming critical to how businesses work." FT (Mar 21 2026): Anthropic is adding $1B in annualized revenue each week in 2026. Business customers purchasing AI for the first time are choosing Anthropic at 3x the rate of [[OpenAI]], per [[Ramp]] AI Index data from 50,000+ customers — a reversal of the companies' positions a year ago.
 
@@ -73,9 +93,11 @@ Jensen on Anthropic's [[TPU]] usage (Dwarkesh, Apr 15, 2026): "[[Anthropic]] is 
 | Mar 2025 | Strategic | $1B | - | Google (now $3B total) |
 | Sep 2025 | Series F | $13B | $183B | Iconiq, [[Fidelity]], Lightspeed, QIA |
 | Nov 2025 | Strategic | ~$15B | - | NVIDIA ($10B) + Microsoft ($5B) |
-| Feb 2026 | Series G | $30B | $380B | [[GIC]], [[Coatue Management\|Coatue]], [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter]], [[Sequoia]] (36+ total) |
+| Feb 2026 | Series G | $30B | $380B | [[GIC]], [[Coatue]], [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter]], [[Sequoia]] (36+ total) |
+| Apr 2026 | Strategic | $5B upfront + up to $20B future | Not disclosed | [[Amazon]]; paired with $100B+ AWS/Trainium commitment |
+| Apr 2026 | Strategic | $10B upfront + up to $30B future | $350B pre-money (reported) | [[Google]]; paired with 5 GW Google Cloud capacity over five years |
 
-Total raised: ~$57B+ (per Fortune)
+Capital raised/committed: ~$72B+ raised including Apr 2026 upfront Google/Amazon tranches; up to ~$122B+ including future Google/Amazon milestone commitments.
 
 Second-largest private tech financing on record, behind [[OpenAI]]'s $40B+. Nearly doubled valuation from $183B to $380B in five months.
 
@@ -88,8 +110,8 @@ Second-largest private tech financing on record, behind [[OpenAI]]'s $40B+. Near
 | Investor                                                                          | Invested | Est. Ownership | Value @ $380B | Notes                               |
 | --------------------------------------------------------------------------------- | -------- | -------------- | ------------- | ----------------------------------- |
 | Founders/employees                                                                | -        | ~25-30%        | $95-114B      | Dario, Daniela Amodei + team        |
-| [[Amazon]]                                                                        | $8B      | ~12-15%        | $46-57B       | Earliest large investor, best basis |
-| [[Google]]                                                                        | $3B      | ~8-10%         | $30-38B       | Multiple rounds, cloud partner      |
+| [[Amazon]]                                                                        | $13B invested; up to $33B committed | ~12-15%+ | TBD | Earliest large investor; primary AWS/Trainium partner |
+| [[Google]]                                                                        | $13B invested; up to $43B committed | ~11-13%+ | TBD | TPU/Google Cloud partner; newest $10B tranche reported at $350B pre-money |
 | [[NVIDIA]]                                                                        | $10B     | ~3%            | $11.4B        | Late 2025, high entry               |
 | [[Microsoft]]                                                                     | $5B      | ~1.5%          | $5.7B         | Late 2025, hedging OpenAI           |
 | [[Salesforce]]                                                                    | $750M    | ~2-3%          | $7.6-11.4B    | 2023, good entry                    |
@@ -104,24 +126,24 @@ Second-largest private tech financing on record, behind [[OpenAI]]'s $40B+. Near
 
 ### Key investors
 
-| Investor            | Amount   | Notes                                         |                                      |            |
-| ------------------- | -------- | --------------------------------------------- | ------------------------------------ | ---------- |
-| [[Google]]          | $3B+     | Cloud partner, multiple rounds                |                                      |            |
-| [[Amazon]]          | $8B      | AWS partnership, Bedrock distribution         |                                      |            |
-| [[Microsoft]]       | $5B      | Late 2025, despite OpenAI relationship        |                                      |            |
-| [[NVIDIA]]          | $10B     | Late 2025                                     |                                      |            |
-| [[GIC]]             | Co-lead  | Series G co-lead ([[Singapore]] sovereign wealth) |                                      |            |
-| [[Coatue Management | Coatue]] | Co-lead                                       | Series G co-lead ([[Philippe Laffont | Laffont]]) |
-| [[QIA]]             | -        | [[Qatar]] Investment Authority, Series F + G      |                                      |            |
-| [[Jane Street]]     | -        | Series G (quant trading firm)                 |                                      |            |
-| [[Salesforce]]      | $750M    | 2023                                          |                                      |            |
-| [[Spark Capital]]   | -        | Early investor, led Series A/B                |                                      |            |
-| [[Menlo Ventures]]  | -        | Early investor                                |                                      |            |
-| [[Sound Ventures]]  | -        | [[Ashton Kutcher]]'s fund                     |                                      |            |
-| [[Jaan Tallinn]]    | -        | [[Skype]] co-founder, safety-focused          |                                      |            |
-| [[Eric Yuan]]       | -        | [[Zoom]] founder                              |                                      |            |
+| Investor | Amount / role | Notes |
+|----------|---------------|-------|
+| [[Google]] | $13B invested; up to $43B committed | TPU/Google Cloud partner; Apr 2026 commitment adds $10B now + up to $30B future |
+| [[Amazon]] | $13B invested; up to $33B committed | AWS/Trainium partner; Apr 2026 commitment adds $5B now + up to $20B future plus $100B+ AWS spend |
+| [[Microsoft]] | $5B | Late 2025, despite OpenAI relationship |
+| [[NVIDIA]] | $10B | Late 2025 |
+| [[GIC]] | Co-lead | Series G co-lead ([[Singapore]] sovereign wealth) |
+| [[Coatue]] | Co-lead | Series G co-lead ([[Philippe Laffont]]) |
+| [[QIA]] | - | [[Qatar]] Investment Authority, Series F + G |
+| [[Jane Street]] | - | Series G (quant trading firm) |
+| [[Salesforce]] | $750M | 2023 |
+| [[Spark Capital]] | - | Early investor, led Series A/B |
+| [[Menlo Ventures]] | - | Early investor |
+| [[Sound Ventures]] | - | [[Ashton Kutcher]]'s fund |
+| [[Jaan Tallinn]] | - | [[Skype]] co-founder, safety-focused |
+| [[Eric Yuan]] | - | [[Zoom]] founder |
 
-Total raised: ~$57B+ (per Fortune)
+Capital raised/committed: ~$72B+ raised including Apr 2026 upfront Google/Amazon tranches; up to ~$122B+ including future Google/Amazon milestone commitments.
 
 Notable: Both Google AND Amazon invested (rare). Microsoft invested despite OpenAI partnership (hedging). [[Altimeter]] and [[Sequoia]] - both OpenAI backers - also investing in Anthropic's Series G.
 
@@ -184,6 +206,16 @@ The Anthropic / [[OpenAI]] distillation story crossed from company allegation in
 This matters because it is the U.S. government validating the core Anthropic claim in its own language, not just Anthropic repeating its February disclosure. The memo also said Washington would share information with U.S. AI companies and explore measures to hold foreign actors accountable. In practice that moves the debate from "is distillation real?" to "what new controls get built on top of it?" including possible API restrictions alongside chip [[Export controls|export controls]].
 
 See [[AI distillation wars (2025-2026)]] for the event arc and [[Export controls]] for the policy spillover.
+
+---
+
+### Google + Amazon capacity-financing surge (Apr 20-24, 2026)
+
+In one week, Anthropic converted its compute bottleneck into supplier-financed capacity. [[Amazon]] committed $5B upfront and up to $20B more while Anthropic committed more than $100B over ten years to AWS technologies and up to 5 GW of capacity. Days later, [[Google]] committed $10B upfront at a reported $350B pre-money valuation, with up to $30B more tied to milestones, and a Google Cloud capacity package reported at 5 GW over five years.
+
+The structure is the key point: the investors are also the vendors. [[Amazon]] gets a decade-long Trainium/AWS anchor customer; [[Google]] monetizes TPUs and Google Cloud through the strongest independent alternative to [[OpenAI]], even though [[Gemini]] competes directly with [[Claude]]. For Anthropic, the deals reduce single-provider risk but deepen circular exposure to hyperscaler infrastructure economics.
+
+See [[Anthropic hyperscaler financing surge April 2026]] for the event-level breakdown and [[AI infrastructure financing risk]] for the circular-financing frame.
 
 ---
 
@@ -395,7 +427,7 @@ Significance: First time a sitting White House official has publicly endorsed a 
 
 Originally sought $10B, closed at $30B due to excess investor demand - second-largest private tech financing on record (behind [[OpenAI]]'s $40B+). Nearly doubles prior $183B valuation to $380B. Comes just 5 months after $13B Series F. Employee tender offer also planned at $380B valuation.
 
-Co-leads: [[GIC]], [[Coatue Management|Coatue]] ([[Philippe Laffont|Laffont]]: Anthropic has "ability to rapidly scale its offerings"). Co-investors: [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter]], [[Sequoia]], 36+ investors total. Partial deployment of Nov 2025 [[NVIDIA]]/[[Microsoft]] commitments.
+Co-leads: [[GIC]], [[Coatue]] ([[Philippe Laffont|Laffont]]: Anthropic has "ability to rapidly scale its offerings"). Co-investors: [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter]], [[Sequoia]], 36+ investors total. Partial deployment of Nov 2025 [[NVIDIA]]/[[Microsoft]] commitments.
 
 Revenue run rate disclosed at $14B (from $9B weeks earlier). $1M+ ARR customers: 500 (from 12 two years ago). 8 of Fortune 10 are clients.
 
@@ -627,13 +659,13 @@ Multi-cloud approach - AWS Trainium + Google TPUs + NVIDIA GPUs. Diversified to 
 
 | Metric | Value |
 |--------|-------|
-| TPU commitment | Up to 1M TPUs |
-| Deal value | "Tens of billions of dollars" |
-| Capacity | 1GW+ online in 2026; expanded to ~3.5 GW starting 2027 (Apr 6 2026, confirmed by Anthropic and [[Google Cloud]] press releases). ~$175B all-in at ~$50B/GW industry rule of thumb |
-| Chip cost estimate | ~$35B of ~$50B total DC cost |
+| TPU commitment | Up to 1M TPUs; multiple-GW next-generation TPU capacity |
+| Deal value | Apr 6 Google/Broadcom compute deal: "tens of billions"; Apr 24 Google package: up to $40B equity commitment plus FT-reported ~$200B five-year cloud-capacity value |
+| Capacity | 1GW+ online in 2026; expanded to ~3.5 GW starting 2027 (Apr 6 2026); Apr 24 reporting adds 5 GW of Google Cloud capacity over five years |
+| Chip cost estimate | ~$35B of ~$50B total DC cost per GW rule-of-thumb; exact Google Cloud economics undisclosed |
 | [[Broadcom]] lock-in | Supply assurance agreement through 2031 (confirmed; [[Mizuho]] estimates $80B+ cumulative revenue) |
 
-Largest expansion of Anthropic's TPU usage to date. Separate from Broadcom direct purchases. The 3.5 GW figure was confirmed by both Anthropic and [[Google Cloud]] press releases (Apr 6). $175B is estimated at ~$50B/GW industry rule of thumb.
+Largest expansion of Anthropic's TPU usage to date. Separate from Broadcom direct purchases. The 3.5 GW figure was confirmed by both Anthropic and [[Google Cloud]] press releases (Apr 6). The Apr 24 financing package adds a reported 5 GW Google Cloud capacity layer over five years, making Google both an equity financier and a compute supplier. $175B is estimated at ~$50B/GW industry rule of thumb; the FT reported the newer five-year cloud package could be worth about $200B.
 
 Backstory (Patel, Mar 2026): Anthropic's compute team — both ex-Google — saw the dislocation before Google did. In early Q3 2025, over six weeks, TPU capacity requests went up multiple times. Google had to go to [[TSMC]] to explain why they needed a sudden capacity increase. Much of it was for selling to Anthropic. [[Google DeepMind]] people "were like, 'This is insane. Why did we do this?'" But [[Google Cloud]] saw it differently. Then [[Gemini]] 3 caused Google's user metrics to skyrocket, leadership woke up, went to TSMC for more — "Sorry, sold out. Maybe 5-10% more for 2026, really working on 2027."
 
@@ -641,9 +673,11 @@ Backstory (Patel, Mar 2026): Anthropic's compute team — both ex-Google — saw
 
 | Metric | Value |
 |--------|-------|
-| Chips | Hundreds of thousands of Trainium |
-| Facilities | Multiple US data centers |
+| Chips | Over 1M Trainium2 already used; Trainium2/3/4 roadmap covered |
+| Capacity | Up to 5 GW; nearly 1 GW total Trainium2/3 capacity expected by end-2026 |
+| Spend commitment | More than $100B over ten years to AWS technologies |
 | Relationship | "Primary training partner and cloud provider" |
+| Amazon investment | $13B invested ($8B prior + $5B Apr 2026); up to $33B committed including future milestones |
 | AWS revenue impact | 1-2 pp in late 2024, 5+ pp expected H2 2025 ([[Rothschild]]) |
 
 ### Broadcom direct TPUs (~1M TPUv7)
@@ -664,7 +698,7 @@ Why direct purchase matters:
 | Path | Chips | Ownership | Use case |
 |------|-------|-----------|----------|
 | [[Google Cloud]] | TPUs | Rented | Flexible capacity |
-| AWS | Trainium | Rented | Training, inference |
+| AWS | Trainium | Rented | Training, inference, Bedrock distribution; $100B+ 10-year commitment |
 | Broadcom direct | TPUv7 | Owned | Core training clusters |
 
 All roads lead to [[TSMC]] - TPUs and Trainium fabbed there.
@@ -691,8 +725,8 @@ See [[Anthropic vs OpenAI compute race]] for the full strategic comparison.
 
 ## Strategic dependencies
 
-- [[Google]] - Cloud partner, investor
-- [[Amazon]] - Investor, AWS partnership
+- [[Google]] - Cloud partner, TPU supplier, investor (up to $43B cumulative committed)
+- [[Amazon]] - Investor and primary AWS/Trainium partner (up to $33B cumulative committed; $100B+ AWS spend)
 - [[Broadcom]] - TPU supplier
 
 Less dependent on single partner than OpenAI-Microsoft.
@@ -925,12 +959,14 @@ The strategy parallels [[Microsoft]]'s 1990s arc — OS vendor to desktop owner 
 - [[Project Glasswing]] - controlled early-access program for Mythos Preview
 - [[Dario Amodei]] - CEO and co-founder
 - [[OpenAI]] - competitor, origin (founders left OpenAI)
-- [[Google]] - $3B+ investor, cloud partner
-- [[Amazon]] - $8B investor, primary cloud partner
+- [[Google]] - $13B invested / up to $43B committed; cloud and TPU partner
+- [[Amazon]] - $13B invested / up to $33B committed; primary cloud and Trainium partner
+
+- [[Anthropic hyperscaler financing surge April 2026]] - Google/Amazon capital + compute commitments
 - [[Microsoft]] - $5B investor (hedging OpenAI)
 - [[NVIDIA]] - $10B investor
 - [[GIC]] - Series G co-lead
-- [[Coatue Management]] - Series G co-lead
+- [[Coatue]] - Series G co-lead
 - [[Broadcom]] - TPU supplier (~1M TPUv7 direct)
 - [[TSMC]] - foundry for TPUs
 - [[TeraWulf]] - DC infrastructure partner

@@ -7,7 +7,7 @@ aliases: [AMZN]
 
 Tier 1 AI hyperscaler, largest cloud provider, major custom silicon player (Trainium, Graviton). [[Anthropic]]'s primary cloud partner.
 
-Largest cloud provider (AWS, $200B backlog) and Tier 1 AI hyperscaler with $716.9B FY2025 revenue and $62.0B net income. Custom silicon strategy is the most advanced among hyperscalers: Trainium3 (3nm, shipping Dec 2025) delivers 2.52 PFLOPs FP8, and Trainium4 will be the first custom chip with NVIDIA NVLink Fusion interoperability. $8B invested in Anthropic as primary cloud/training partner. Led by Andy Jassy (promoted from AWS CEO when Bezos stepped back). The bull case: AWS dominance compounds with AI workloads, custom silicon reduces NVIDIA dependency and improves margins, and multi-GW infrastructure buildouts create structural advantage. The bear case: AI capex intensity pressuring near-term margins, Trainium adoption still unproven vs NVIDIA CUDA ecosystem at scale, and retail e-commerce margins remain razor-thin.
+Largest cloud provider (AWS, $200B backlog) and Tier 1 AI hyperscaler with $716.9B FY2025 revenue and $62.0B net income. Custom silicon strategy is the most advanced among hyperscalers: Trainium3 (3nm, shipping Dec 2025) delivers 2.52 PFLOPs FP8, and Trainium4 will be the first custom chip with NVIDIA NVLink Fusion interoperability. $13B invested in Anthropic upfront and up to $33B committed as primary cloud/training partner. Led by Andy Jassy (promoted from AWS CEO when Bezos stepped back). The bull case: AWS dominance compounds with AI workloads, custom silicon reduces NVIDIA dependency and improves margins, and multi-GW infrastructure buildouts create structural advantage. The bear case: AI capex intensity pressuring near-term margins, Trainium adoption still unproven vs NVIDIA CUDA ecosystem at scale, and retail e-commerce margins remain razor-thin.
 
 ---
 
@@ -27,7 +27,7 @@ AMZN trades as a core Consumer name (XLY r = 0.82).
 ## Why it matters
 
 Amazon is central to multiple vault theses:
-- **Anthropic investor**: $8B total, primary cloud/training partner
+- **Anthropic investor**: $13B invested upfront, up to $33B committed, primary cloud/training partner
 - Custom silicon: Trainium competing with NVIDIA for training
 - Infrastructure scale: $200B AWS backlog, multi-GW buildouts
 - Foundry customer: [[TSMC]] 3nm for Trainium3
@@ -121,13 +121,16 @@ Trainium4: First hyperscaler custom chip with NVIDIA NVLink Fusion compatibility
 
 | Metric | Value |
 |--------|-------|
-| Total investment | $8B (minority stake) |
+| Total investment | $13B invested upfront; up to $33B committed including future milestones |
+| Apr 2026 tranche | $5B now + up to $20B future |
 | Q3 2025 unrealized gain | $9.5B (mark-to-market at $183B valuation) |
-| Infrastructure | Project Rainier ($11B Indiana DC) |
-| Chip commitment | 1M Trainium chips for Anthropic |
+| Infrastructure | Project Rainier ($11B Indiana DC); new up-to-5 GW AWS capacity agreement |
+| Spend commitment from Anthropic | More than $100B over ten years to AWS technologies |
+| Chip commitment | Over 1M Trainium2 already used; Trainium2/3/4 roadmap covered |
+| Near-term capacity | Nearly 1 GW Trainium2/3 capacity expected by end-2026 |
 | Relationship | "Primary cloud and training partner" |
 
-Anthropic using Trainium2/3 to train and deploy [[Claude]] models. Strategic alignment: Amazon needs AI differentiation, Anthropic needs compute scale.
+Anthropic using Trainium2/3 to train and deploy [[Claude]] models. Strategic alignment: Amazon needs AI differentiation and a Trainium demand anchor; Anthropic needs compute scale fast enough to support $30B+ ARR. See [[Anthropic hyperscaler financing surge April 2026]].
 
 ---
 
@@ -318,7 +321,7 @@ Separately: Amazon signed the "Ratepayer Protection Pledge" at the [[White House
 
 | Partner       | Relationship                                |
 | ------------- | ------------------------------------------- |
-| [[Anthropic]] | $8B investor, cloud partner, 1M chips       |
+| [[Anthropic]] | $13B invested / up to $33B committed, cloud partner, $100B+ AWS spend, up to 5 GW capacity |
 | [[NVIDIA]]    | 15-year collaboration, NVLink Fusion coming |
 | [[Marvell]]   | Trainium/Inferentia design partner          |
 | [[OpenAI]]    | Potential $10B investment (reported)        |
@@ -357,7 +360,7 @@ Significance: Contrasts with Amazon's successful Anthropic bet ($8B → $9.5B un
 
 | Thesis | Impact |
 |--------|--------|
-| [[Long Anthropic]] | Amazon's $9.5B gain validates valuation |
+| [[Long Anthropic]] | Amazon's expanded Anthropic commitment validates AWS/Trainium demand and turns the stake into a decade-long cloud offtake relationship |
 | [[Long TSMC]] | Trainium3 = 3nm TSMC demand |
 | [[Power constraints]] | +3.7 GW capacity additions |
 | [[Hyperscaler chip roadmap]] | Trainium3/4 major custom silicon milestone |
@@ -537,7 +540,11 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Amazon]] was part of a c
 
 ## Related
 
-- [[Anthropic]] — $8B investor, primary cloud partner
+### Securities
+- [[Amazon securities]] — stock, ETF exposure, options, and price-action context
+
+### Partners / context
+- [[Anthropic]] — $13B invested / up to $33B committed; primary cloud and Trainium partner
 - [[Adept]] — acqui-hired team (June 2024), now Amazon AGI SF Lab
 - [[NVIDIA]] — chip supplier, NVLink Fusion partner
 - [[Marvell]] — Trainium design partner

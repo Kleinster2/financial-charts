@@ -42,7 +42,7 @@ parent_concept: "AI accelerators"
 | TPU v3 | 2018 | Liquid cooling, 420 TFLOPS |
 | **TPU v4** | 2021 | 4,096-chip pods, 275 TFLOPS BF16 |
 | TPU v5e | 2023 | Cost-optimized, inference focus |
-| **TPU v5p** | 2023 | Performance flagship, 459 TFLOPS |
+| TPU v5p | 2023 | Performance flagship, 459 TFLOPS |
 | TPU v6 (Trillium) | 2024 | 4.7x v5e performance |
 
 ---
@@ -51,8 +51,8 @@ parent_concept: "AI accelerators"
 
 | Variant | Focus | Use case |
 |---------|-------|----------|
-| **TPU v5p** | Performance | Large model training |
-| **TPU v5e** | Efficiency | Inference, cost-sensitive training |
+| TPU v5p | Performance | Large model training |
+| TPU v5e | Efficiency | Inference, cost-sensitive training |
 
 v5p for frontier model training, v5e for deployment at scale.
 
@@ -68,7 +68,7 @@ v5p for frontier model training, v5e for deployment at scale.
 | Interconnect | ICI | NVLink | Infinity Fabric |
 | Software | JAX/TensorFlow | CUDA | ROCm |
 
-**Note:** TPU TFLOPS not directly comparable — different architecture optimized for different operations.
+Note: TPU TFLOPS not directly comparable — different architecture optimized for different operations.
 
 ---
 
@@ -82,7 +82,7 @@ v5p for frontier model training, v5e for deployment at scale.
 | ICI | Custom chip-to-chip interconnect |
 | Pod architecture | Tightly coupled multi-chip systems |
 
-**Systolic array:** TPUs use systolic arrays for matrix ops — different from GPU SIMT model. Highly efficient for specific workloads.
+Systolic array: TPUs use systolic arrays for matrix ops — different from GPU SIMT model. Highly efficient for specific workloads.
 
 ---
 
@@ -96,7 +96,7 @@ v5p for frontier model training, v5e for deployment at scale.
 | Hugging Face | Supported via Optimum-TPU |
 | FLAX | JAX-based neural net library |
 
-**JAX advantage:** Google's JAX framework designed for TPUs. Best performance on TPU requires JAX.
+JAX advantage: Google's JAX framework designed for TPUs. Best performance on TPU requires JAX.
 
 ---
 
@@ -124,7 +124,7 @@ Nearly all Google AI runs on TPUs internally.
 | Vertex AI | Managed ML with TPU backend |
 | GKE | Kubernetes with TPU nodes |
 
-**Pricing (v5e):** ~$1.20/chip/hour on-demand, ~$0.80 spot.
+Pricing (v5e): ~$1.20/chip/hour on-demand, ~$0.80 spot.
 
 ---
 
@@ -137,7 +137,17 @@ Nearly all Google AI runs on TPUs internally.
 | [[Gaudi]] | Scale, proven at Google | GCP-only |
 | [[Trainium]] | More workload types | Trainium cheaper on AWS |
 
-**Key limitation:** TPUs only available on Google Cloud. No on-premise, no other clouds.
+Key limitation: TPUs only available on Google Cloud. No on-premise, no other clouds.
+
+---
+
+## Anthropic as external anchor tenant (2026)
+
+[[Anthropic]] is the cleanest external validation of [[Google]]'s TPU strategy. The Apr 6 2026 Google + [[Broadcom]] agreement gave Anthropic multiple gigawatts of next-generation TPU capacity starting in 2027, later reported at about 3.5 GW. The Apr 24 2026 financing package added a reported 5 GW Google Cloud capacity layer over five years, alongside Google's $10B upfront / up to $40B total equity commitment to Anthropic.
+
+The read-through is two-sided. TPUs are now credible enough for a non-Google frontier lab to run material workloads at multi-GW scale. But capacity sold to Anthropic is also capacity not available to [[Gemini]], exposing the internal tension between Google Cloud's platform business and Google DeepMind's model competition.
+
+See [[Anthropic hyperscaler financing surge April 2026]] and [[Anthropic vs OpenAI compute race]].
 
 ---
 

@@ -11,13 +11,13 @@ The capital stack behind AI buildout. Hyperscalers need $100Bs — private credi
 
 ## Gigawatt economics
 
-**Three different $-per-GW metrics — don't confuse them:**
+Three different $-per-GW metrics — don't confuse them:
 
 | Metric | $/GW | What it means |
 |--------|------|---------------|
-| **Funding milestone** | ~$10B | Capital unlocked per GW deployed |
-| **Revenue** | ~$10B | Current revenue generated per GW (may not scale) |
-| **Build cost** | $12-50B | Actual cost to construct 1 GW |
+| Funding milestone | ~$10B | Capital unlocked per GW deployed |
+| Revenue | ~$10B | Current revenue generated per GW (may not scale) |
+| Build cost | $12-50B | Actual cost to construct 1 GW |
 
 ### Why funding < build cost
 
@@ -25,13 +25,13 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 
 | Source | Role |
 |--------|------|
-| **[[Microsoft]]** | Azure credits, existing investment |
-| **Revenue** | $20B ARR funds some capex |
-| **Chip partner deals** | [[NVIDIA]]/[[AMD]] provide hardware at favorable terms |
-| **[[AI financing structures]]** | Sale-leasebacks, JVs |
-| **Debt** | Bank financing, bonds |
+| [[Microsoft]] | Azure credits, existing investment |
+| Revenue | $20B ARR funds some capex |
+| Chip partner deals | [[NVIDIA]]/[[AMD]] provide hardware at favorable terms |
+| [[AI financing structures]] | Sale-leasebacks, JVs |
+| Debt | Bank financing, bonds |
 
-**The $10B/GW milestone is just one layer.** Full builds use multiple capital sources.
+The $10B/GW milestone is just one layer. Full builds use multiple capital sources.
 
 ### OpenAI capacity trajectory
 
@@ -39,9 +39,9 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 |------|----------|---------|
 | 2023 | 0.2 GW | ~$2B |
 | 2025 | 1.9 GW | $20B |
-| [[Target]] | **26 GW** | ? |
+| [[Target]] | 26 GW | ? |
 
-**Critical question:** Does the 1:1 compute-revenue relationship hold at 10x+ scale?
+Critical question: Does the 1:1 compute-revenue relationship hold at 10x+ scale?
 
 ---
 
@@ -52,12 +52,12 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 | 2025 hyperscaler AI capex | ~$300B |
 | 2026 projected | $620B |
 | Morgan Stanley DC spend by 2028 | $3T |
-| **Total external financing needed** | **$1.5T** |
+| Total external financing needed | $1.5T |
 | [[Private credit]] by 2028 | $800B |
 
-**Problem:** Even hyperscalers don't want this on balance sheet. Enter private capital.
+Problem: Even hyperscalers don't want this on balance sheet. Enter private capital.
 
-**[[UBS]] warning (Oct 2025):** "raises eyebrows for anyone that has seen credit cycles."
+[[UBS]] warning (Oct 2025): "raises eyebrows for anyone that has seen credit cycles."
 
 ---
 
@@ -65,37 +65,38 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 
 | Structure | How it works | Example |
 |-----------|--------------|---------|
-| **[[AI financing structures]]** | PE takes 80%, hyperscaler leases back | Meta-Blue Owl $60B |
-| **[[GPU-as-collateral]]** | GPUs secure debt, 11-14% rates | CoreWeave $7.5B ("The Box") |
-| **Construction JV** | Bank finances build, long-term lease | Crusoe-JPMorgan $15B |
-| **Combined DC + power** | Single loan covers building and on-site generation | Meta/[[EdgeConneX]] "Walleye" $3B |
-| **Chip vendor equity** | [[NVIDIA]]/[[AMD]] invest for supply lock | OpenAI-[[NVIDIA]] $100B |
+| [[AI financing structures]] | PE takes 80%, hyperscaler leases back | Meta-Blue Owl $60B |
+| [[GPU-as-collateral]] | GPUs secure debt, 11-14% rates | CoreWeave $7.5B ("The [[Box]]") |
+| Construction JV | Bank finances build, long-term lease | Crusoe-JPMorgan $15B |
+| Combined DC + power | Single loan covers building and on-site generation | Meta/[[EdgeConneX]] "Walleye" $3B |
+| Chip vendor equity | [[NVIDIA]]/[[AMD]] invest for supply lock | OpenAI-[[NVIDIA]] $100B |
+| Strategic cloud equity + offtake | Cloud provider invests in frontier lab while lab commits to buy cloud/chip capacity | [[Anthropic hyperscaler financing surge April 2026]] ([[Amazon]] + [[Google]]) |
 
 See [[AI infrastructure deals]] for detailed capital stacks.
 
 ---
 
-## CoreWeave's "Box" structure (Davos, Jan 2026)
+## CoreWeave's "[[Box]]" structure (Davos, Jan 2026)
 
-**Mike Intrator explained the neocloud financing innovation:**
+Mike Intrator explained the neocloud financing innovation:
 
-| Component | What goes in "The Box" (SPV) |
+| Component | What goes in "The [[Box]]" (SPV) |
 |-----------|------------------------------|
 | Collateral | GPUs |
 | Revenue | Offtake contract (e.g., 5-year Microsoft deal) |
 | Costs | Data center contract + PPA |
 
-**Waterfall:**
+Waterfall:
 1. Power costs
 2. Data center costs
 3. Principal + interest
-4. **Then** CoreWeave gets paid
+4. Then CoreWeave gets paid
 
-**Key insight:** "Pay me my goddamn money back" — Intrator's summary of East Coast capital's only rule. CoreWeave doesn't touch revenue until obligations cleared.
+Key insight: "Pay me my goddamn money back" — Intrator's summary of East Coast capital's only rule. CoreWeave doesn't touch revenue until obligations cleared.
 
-**The "equity slug":** After contract term (5 years), debt is paid off and CoreWeave owns GPUs outright. Intrator believes residual value exists despite depreciation concerns.
+The "equity slug": After contract term (5 years), debt is paid off and CoreWeave owns GPUs outright. Intrator believes residual value exists despite depreciation concerns.
 
-**Not speculative:** GPUs are pre-sold to counterparties before purchase. Only the "long pole" (physical data centers) is risk capital.
+Not speculative: GPUs are pre-sold to counterparties before purchase. Only the "long pole" (physical data centers) is risk capital.
 
 See [[CoreWeave]] for full business model.
 
@@ -107,10 +108,10 @@ See [[CoreWeave]] for full business model.
 
 | Firm | AUM | AI infra exposure |
 |------|-----|-------------------|
-| [[Blue Owl]] | $273B | Meta $27B, Crusoe — **largest AI infra financier** |
-| **Blackstone** | $1T+ | CoreWeave $7.5B lead |
-| **[[Apollo]]** | $650B+ | Meta, [[xAI]] debt |
-| **[[Brookfield]]** | $900B+ | Infrastructure focus |
+| [[Blue Owl]] | $273B | Meta $27B, Crusoe — largest AI infra financier |
+| Blackstone | $1T+ | CoreWeave $7.5B lead |
+| [[Apollo]] | $650B+ | Meta, [[xAI]] debt |
+| [[Brookfield]] | $900B+ | [[Infrastructure]] focus |
 
 ### Debt investors
 
@@ -134,11 +135,11 @@ See [[CoreWeave]] for full business model.
 
 | Era | How financed | What happened |
 |-----|--------------|---------------|
-| **Dot-com (2000)** | Equity | Burst had limited economic impact |
-| **AI (2025)** | Debt (off-balance-sheet) | TBD — credit cycles hit harder |
+| Dot-com (2000) | Equity | Burst had limited economic impact |
+| AI (2025) | Debt (off-balance-sheet) | TBD — credit cycles hit harder |
 
-**Off-balance-sheet history:**
-- 2001: Enron — SPVs hid liabilities
+Off-balance-sheet history:
+- 2001: [[Enron]] — SPVs hid liabilities
 - 2008: [[Banks]] moved mortgages off-balance-sheet
 - 2025: Tech companies using SPVs for AI infrastructure
 
@@ -154,16 +155,16 @@ See [[Significant risk transfer]], [[AI infrastructure financing risk]].
 
 ## Investment implications
 
-**Direct plays:**
+Direct plays:
 - [[Blue Owl]] (OWL) — largest AI infra financier
 - Blackstone (BX) — diversified, big DC exposure
 - Data center [[REITs]] (EQIX, DLR)
 
-**Indirect beneficiaries:**
+Indirect beneficiaries:
 - Power providers ([[Constellation Energy]], [[Vistra]])
 - Hyperscalers preserving balance sheet flexibility
 
-**Who loses:**
+Who loses:
 - Hyperscalers who can't access financing (weaker credit)
 - Smaller AI companies competing for limited capital
 
@@ -180,7 +181,7 @@ See [[Significant risk transfer]], [[AI infrastructure financing risk]].
 *Updated 2026-04-04*
 
 Sources:
-- Bloomberg (Oct 31, 2025) — off-balance-sheet trend
+- [[Bloomberg]] (Oct 31, 2025) — off-balance-sheet trend
 - Morgan Stanley research
 
 ## Related

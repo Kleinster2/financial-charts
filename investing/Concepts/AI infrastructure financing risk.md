@@ -16,7 +16,7 @@ Data center credit market:
 | New entrants | [[Crypto]] miners, sovereign wealth, PE firms |
 | Off-balance-sheet demand | Growing ([[Meta]] $30B via Blue Owl) |
 
-Source: Bloomberg (Jan 2026)
+Source: [[Bloomberg]] (Jan 2026)
 
 ---
 
@@ -28,7 +28,7 @@ The bears:
 |--------|-------|
 | Howard Marks (Oaktree) | Warns of potential overbuild |
 | Charles Fitzgerald (platformonomics.com) | "Still waiting for a hyperscaler to launch an AI product that needs new data centers" |
-| Satya Nadella ([[Microsoft]]) | "Excited to be a leaser" — outsourcing risk |
+| [[Satya Nadella]] ([[Microsoft]]) | "Excited to be a leaser" — outsourcing risk |
 | [[Dario Amodei]] ([[Anthropic]]) | "Real dilemma" — supply-demand timing uncertainty |
 
 Nadella's framing:
@@ -40,7 +40,7 @@ Nadella's framing:
 
 ## Circular deals / "Ouroboros Protocol"
 
-*Source: Bloomberg explainer, Jan 22 2026*
+*Source: [[Bloomberg]] explainer, Jan 22 2026*
 
 Definition: Company A invests in Company B, which uses that capital to buy Company A's products — binding fortunes together. Distinct from fraudulent "round-trip" transactions (sham trades with no economic substance to inflate results).
 
@@ -48,16 +48,30 @@ Definition: Company A invests in Company B, which uses that capital to buy Compa
 [[Microsoft]] ─invest─→ [[OpenAI]] ─buys cloud─→ [[Microsoft]]
 [[NVIDIA]] ─invest─→ AI labs ─buy GPUs─→ [[NVIDIA]]
 [[SoftBank]] ─invest─→ OpenAI ─buys DC─→ [[Oracle]] ─buys chips─→ [[NVIDIA]]
-[[Amazon]] ─invest─→ [[Anthropic]] ─buys AWS─→ [[Amazon]]
+[[Amazon]] ─invest─→ [[Anthropic]] ─buys AWS/[[Trainium]]─→ [[Amazon]]
+[[Google]] ─invest─→ [[Anthropic]] ─buys Google Cloud/[[TPU]] capacity─→ [[Google]]
 ```
 
-Bull case: Janus Henderson calls it a "virtuous circle" — lines up suppliers, builders, and customers for exploding compute demand. When chips are scarce, companies don't just place orders — they lock in supply by pairing purchase commitments with financing.
+Bull case: [[Janus Henderson]] calls it a "virtuous circle" — lines up suppliers, builders, and customers for exploding compute demand. When chips are scarce, companies don't just place orders — they lock in supply by pairing purchase commitments with financing.
 
 Bear case: If AI revenue doesn't grow fast enough, the flywheel reverses. Company B can't afford Company A's products → Company A's investment loses value → both cut spending → cascade.
 
+### Anthropic supplier-financing acceleration (Apr 2026)
+
+The late-April [[Anthropic hyperscaler financing surge April 2026]] is the cleanest new example of circularity because the financing and offtake were announced together:
+
+| Counterparty | Capital into [[Anthropic]] | Anthropic commitment back to supplier |
+|--------------|----------------------------|---------------------------------------|
+| [[Amazon]] / [[AWS]] | $5B now + up to $20B future; $8B already invested | More than $100B over ten years to AWS technologies; up to 5 GW capacity; Trainium2/3/4 roadmap |
+| [[Google]] / [[Google Cloud]] | $10B now + up to $30B future | Reported 5 GW Google Cloud capacity over five years; earlier Apr 6 Google/[[Broadcom]] TPU deal for ~3.5 GW starting 2027 |
+
+The deals are not fraudulent round-tripping; the capacity is real and Anthropic has real demand. The risk is reflexivity. If [[Claude]] revenue keeps rising, supplier capital becomes growth infrastructure. If the revenue curve slows, the same deals concentrate mark-to-market, cloud-utilization, and capex risk in the companies that financed the buildout.
+
+---
+
 ### Chronology of circular entanglement
 
-Bloomberg traces the evolution through five phases:
+[[Bloomberg]] traces the evolution through five phases:
 
 | Phase | Year | Key deals | Pattern |
 |-------|------|-----------|---------|
@@ -69,7 +83,7 @@ Bloomberg traces the evolution through five phases:
 
 The web tightened at each phase. By 2026, nearly every major AI transaction involves at least two of the same counterparties.
 
-### Telecom parallel
+### [[Telecom]] parallel
 
 1990s fiber-optic boom had the same dynamics. Carriers did "capacity swaps" — selling each other network capacity and recording transactions as revenue, even when deals largely washed out. Congressional investigators examined this at Qwest and Global Crossing; both restated revenue.
 
@@ -91,11 +105,11 @@ Key difference from existing historical parallel section: The telecom circular d
 
 ---
 
-## Infrastructure bottlenecks
+## [[Infrastructure]] bottlenecks
 
 | Constraint | Lead time |
 |------------|-----------|
-| Large power transformers | 120-210 weeks |
+| [[Large power transformers]] | 120-210 weeks |
 | Labor shortage | 300K demand vs 439K sector deficit |
 | GPU obsolescence | Faster than depreciation assumptions |
 
@@ -113,12 +127,12 @@ The accounting question: Are 5-6 year depreciation schedules overly optimistic?
 | Some debt deals | 10 years |
 | Burry estimate (understated) | $176B (2026-2028) |
 
-Michael Burry (of *Big Short* fame) estimates hyperscalers understating depreciation by $176B through 2028.
+[[Michael Burry]] (of *Big Short* fame) estimates hyperscalers understating depreciation by $176B through 2028.
 
 Industry defense:
 - OpenAI CFO Sarah Friar: "confident GPUs useful for at least 5 years"
 - OpenAI still using Ampere chips (released 2020) for inference
-- [[NVIDIA]] CFO Colette Kress (Nov 2025): useful life "getting longer," still selling Hopper (2022)
+- [[NVIDIA]] CFO [[Colette Kress]] (Nov 2025): useful life "getting longer," still selling Hopper (2022)
 - CoreWeave CEO: "every data point is telling a different story" — Ampere fully booked
 
 Counterarguments:
@@ -132,7 +146,7 @@ Risks if wrong:
 - Earlier-than-expected capex needs
 - "Even a small change of several months can change earnings by billions" — Olga Usvyatsky
 
-SEC under Trump: "Out to lunch" on scrutinizing aggressive assumptions (Francine McKenna, Montclair State).
+[[SEC]] under Trump: "Out to lunch" on scrutinizing aggressive assumptions (Francine McKenna, Montclair State).
 
 Most exposed: Neoclouds (CoreWeave, [[Nebius]]) — smaller, often unprofitable, higher interest rates, debt-financed.
 
@@ -145,13 +159,13 @@ Who's building:
 | Type | Examples | Strategy |
 |------|----------|----------|
 | [[Crypto]] miners | [[Bitdeer]], [[Nscale]], [[IREN]] | Converting mining infrastructure |
-| PE/Infrastructure | [[Blue Owl]], [[Blackstone]] | Off-balance-sheet financing |
+| PE/[[Infrastructure]] | [[Blue Owl]], [[Blackstone]] | Off-balance-sheet financing |
 | Newcomers | [[Adriatic DC]], [[Fermi Inc]] | Greenfield mega-projects |
 | Sovereign | [[GCC]] funds | National AI ambitions |
 
 Scale of projects:
 - Adriatic DC: €50B, 2GW Puglia
-- [[Fermi]] Inc: 11GW Texas (Rick Perry)
+- [[Fermi]] Inc: 11GW [[Texas]] (Rick Perry)
 - O'Leary Alberta: 17GW [[Canada]]
 
 Many lack hyperscaler anchor tenants — speculative buildout risk.
@@ -188,21 +202,21 @@ Neutral:
 
 ## Software debt disruption (Feb 2026)
 
-*Source: Bloomberg Credit Weekly, Feb 7 2026*
+*Source: [[Bloomberg]] Credit Weekly, Feb 7 2026*
 
 AI disruption fears have moved from equity to credit markets:
 
 | Metric | Value |
 |--------|-------|
 | Software leveraged loan prices | -4% YTD (through Feb 6) |
-| BDC equity index | -4.6% (week of Feb 3) |
-| BDC avg software portfolio exposure | >20% (Barclays) |
-| Private credit default rate if aggressive AI disruption | Up to 13% (UBS) |
-| Deutsche Bank failed loan sale | ~$1.2B (software acquisition) |
+| BDC equity [[index]] | -4.6% (week of Feb 3) |
+| BDC avg software portfolio exposure | >20% ([[Barclays]]) |
+| Private credit default rate if aggressive AI disruption | Up to 13% ([[UBS]]) |
+| [[Deutsche Bank]] failed loan sale | ~$1.2B (software acquisition) |
 
-PE firms questioning whether SaaS debt-fueled buyout model is viable. Two European software companies shelved loan offerings amid investor unease. HSBC strategists warn against "AI exuberance" downside risks in credit.
+PE firms questioning whether [[SaaS]] debt-fueled buyout model is viable. Two European software companies shelved loan offerings amid investor unease. [[HSBC]] strategists warn against "AI exuberance" downside risks in credit.
 
-BlackRock's Rick Rieder reducing IG and HY exposure, shifting to EM debt.
+[[BlackRock]]'s [[Rick Rieder]] reducing IG and HY exposure, shifting to EM debt.
 
 ---
 
@@ -215,7 +229,7 @@ BlackRock's Rick Rieder reducing IG and HY exposure, shifting to EM debt.
 - [ ] [[Hyperscaler capex]] guidance cuts
 - [ ] Software leveraged loan prices (4% YTD decline accelerating?)
 - [ ] BDC earnings — software write-downs appearing?
-- [ ] Private credit default rates vs UBS 13% stress scenario
+- [ ] Private credit default rates vs [[UBS]] 13% stress scenario
 
 ---
 
@@ -224,7 +238,7 @@ BlackRock's Rick Rieder reducing IG and HY exposure, shifting to EM debt.
 Bulls would say:
 - Hyperscalers ([[Microsoft]], [[Google]], [[Amazon]]) have balance sheets to absorb losses
 - AI demand is real (coding, agents working)
-- Infrastructure constraints = pricing power for winners
+- [[Infrastructure]] constraints = pricing power for winners
 - Not all players are equally fragile
 
 The risk is concentrated in second-tier players (Oracle, CoreWeave, [[SoftBank]]) — Tier 1 hyperscalers may survive while others fail.
@@ -241,7 +255,7 @@ The risk is concentrated in second-tier players (Oracle, CoreWeave, [[SoftBank]]
 - [[Blue Owl]] — financier ([[Meta]] $30B deal, pulling from Oracle)
 - [[Blackstone]] — financier (CoreWeave debt)
 - [[Adriatic DC]] — new entrant (€50B Puglia, speculative)
-- [[Fermi Inc]] — new entrant (11GW Texas, lost anchor tenant)
+- [[Fermi Inc]] — new entrant (11GW [[Texas]], lost anchor tenant)
 - [[Nscale]] — crypto pivot ($23B [[Microsoft]] deal)
 - [[Bitdeer]] — crypto pivot (570MW Ohio)
 - [[Power constraints]] — bottleneck (transformer lead times 120-210 weeks)

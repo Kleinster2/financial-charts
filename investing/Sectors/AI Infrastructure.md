@@ -3,7 +3,7 @@ aliases: [AI infra, AI compute, AI compute infrastructure, AI stack]
 ---
 #sector #ai #infrastructure #tech
 
-# AI Infrastructure
+# AI [[Infrastructure]]
 
 The physical and cloud layer powering AI workloads.
 
@@ -12,13 +12,13 @@ The physical and cloud layer powering AI workloads.
 ## Stack overview
 
 ```
-Applications (ChatGPT, Copilot, etc.)
+Applications ([[ChatGPT]], [[Copilot]], etc.)
         ↓
-Cloud/Compute (AWS, Azure, GCP, CoreWeave)
+Cloud/Compute ([[AWS]], Azure, GCP, CoreWeave)
         ↓
-Chips (NVIDIA GPUs, TPUs, Trainium)
+Chips (NVIDIA GPUs, TPUs, [[Trainium]])
         ↓
-Data Centers (Equinix, Digital Realty, hyperscaler-owned)
+[[Data Centers]] (Equinix, Digital Realty, hyperscaler-owned)
         ↓
 Power (utilities, nuclear, renewables)
         ↓
@@ -33,9 +33,9 @@ Cooling (liquid cooling, Vertiv, Modine)
 
 | Player | Type | Notes |
 |--------|------|-------|
-| [[Amazon]] (AWS) | Hyperscaler | Trainium custom silicon |
+| [[Amazon]] ([[AWS]]) | Hyperscaler | [[Trainium]] custom silicon |
 | [[Microsoft]] (Azure) | Hyperscaler | NVIDIA + custom |
-| [[Google]] (GCP) | Hyperscaler | TPU custom silicon |
+| [[Google]] (GCP) | Hyperscaler | [[TPU]] custom silicon |
 | [[Oracle]] | Cloud | Fast AI growth |
 | [[CoreWeave]] | GPU cloud | NVIDIA-focused |
 | [[Lambda Labs]] | GPU cloud | Developer-focused |
@@ -44,14 +44,14 @@ Cooling (liquid cooling, Vertiv, Modine)
 
 | Player | Product | Position |
 |--------|---------|----------|
-| [[NVIDIA]] | H100/H200/Blackwell | Dominant (80%+ AI training) |
+| [[NVIDIA]] | [[H100]]/[[H200]]/[[Blackwell]] | Dominant (80%+ AI training) |
 | [[AMD]] | MI300 | Distant \#2 |
-| [[Intel]] | Gaudi | Struggling |
-| [[Google]] | TPU | Captive |
-| [[Amazon]] | Trainium/Inferentia | Captive |
+| [[Intel]] | [[Gaudi]] | Struggling |
+| [[Google]] | [[TPU]] | Captive |
+| [[Amazon]] | [[Trainium]]/Inferentia | Captive |
 | [[Cerebras]] | Wafer-scale | Niche |
 
-### Data center infrastructure
+### [[Data center infrastructure]]
 
 | Player | Focus |
 |--------|-------|
@@ -88,12 +88,12 @@ Cooling (liquid cooling, Vertiv, Modine)
 
 | Bottleneck | Constraint | Beneficiaries |
 |------------|------------|---------------|
-| **GPU supply** | NVIDIA capacity | NVIDIA, TSMC |
-| **HBM** | Memory shortage | SK Hynix, Samsung |
-| **CoWoS packaging** | TSMC capacity | TSMC, OSAT |
-| **Power** | Grid constraints | Utilities, nuclear |
-| **Cooling** | Thermal limits | Vertiv, Modine |
-| **Real estate** | Land/permits | Data center REITs |
+| GPU supply | NVIDIA capacity | NVIDIA, [[TSMC]] |
+| [[HBM]] | [[Memory]] shortage | [[SK Hynix]], [[Samsung]] |
+| [[CoWoS]] packaging | [[TSMC]] capacity | [[TSMC]], OSAT |
+| Power | Grid constraints | Utilities, nuclear |
+| Cooling | [[Thermal limits]] | Vertiv, Modine |
+| [[Real estate]] | Land/permits | Data center [[REITs]] |
 
 See [[Power constraints]], [[Memory shortage 2025-2026]], [[Advanced packaging]].
 
@@ -101,16 +101,24 @@ See [[Power constraints]], [[Memory shortage 2025-2026]], [[Advanced packaging]]
 
 ## Capex trends
 
-**Hyperscaler AI capex (2025 estimates):**
+Hyperscaler AI capex (2025 estimates):
 
 | Company | AI Capex | YoY |
 |---------|----------|-----|
 | Microsoft | ~$80B | +40% |
 | Google | ~$50B | +30% |
 | Amazon | ~$75B | +35% |
-| Meta | ~$40B | +25% |
+| [[Meta]] | ~$40B | +25% |
 
 Total hyperscaler capex approaching $300B annually.
+
+---
+
+## [[Anthropic]] capacity financing (Apr 2026)
+
+[[Anthropic hyperscaler financing surge April 2026]] is the clearest current example of the AI infrastructure stack becoming a financing stack. [[Amazon]] committed $5B upfront and up to $20B future while [[Anthropic]] committed more than $100B over ten years to [[AWS]] technologies and up to 5 GW of capacity. [[Google]] committed $10B upfront and up to $30B future while [[Google Cloud]] reportedly provides 5 GW over five years, on top of the Apr 6 Google/[[Broadcom]] [[TPU]] expansion.
+
+The sector read-through: cloud, chips, data centers, and power are no longer separable line items. Frontier labs need capital and capacity together; hyperscalers are willing to finance customers if it anchors demand for their custom silicon and data center buildout.
 
 ---
 
@@ -119,7 +127,7 @@ Total hyperscaler capex approaching $300B annually.
 - [[Long NVIDIA]] — compute dominance
 - [[Long datacenter infrastructure]] — picks & shovels
 - [[Long nuclear]] — power solution
-- [[Long memory]] — HBM demand
+- [[Long memory]] — [[HBM]] demand
 - [[AI infrastructure financing]] — capital providers
 
 ---
@@ -140,10 +148,10 @@ Total hyperscaler capex approaching $300B annually.
 
 | Sub-sector | Key players | Sister concept |
 |------------|-------------|----------------|
-| **[[AI Storage]]** | [[Pure Storage]], [[VAST Data]], Weka, NetApp | [[AI storage bottleneck]] |
-| **AI Networking** | Arista, Cisco, Broadcom | — |
-| **Data Center Cooling** | Vertiv, Modine, Schneider | [[Water constraints]] |
-| **Data Center Power** | Eaton, Schneider, utilities | [[Power constraints]] |
+| [[AI Storage]] | [[Pure Storage]], [[VAST Data]], Weka, NetApp | [[AI storage bottleneck]] |
+| AI Networking | Arista, [[Cisco]], [[Broadcom]] | — |
+| Data Center Cooling | Vertiv, Modine, Schneider | [[Water constraints]] |
+| Data Center Power | [[Eaton]], Schneider, utilities | [[Power constraints]] |
 
 ---
 
