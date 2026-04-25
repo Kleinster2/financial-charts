@@ -71,7 +71,7 @@
 *[[DPRIME]] · [[ITA]] · [[Defense Primes]] — equal-weight primes (LMT RTX NOC GD LHX) vs cap-weighted ITA. Divergence shows how much non-prime names (TransDigm, Howmet, etc.) drive ITA returns.*
 
 ![[avav-vs-ktos-vs-dprime-vs-uso-vs-gld-vs-dal-2025.png]]
-*[[2026 Iran conflict market impact]] — [[AeroVironment|AVAV]] · [[Kratos Defense|KTOS]] · [[DPRIME]] · [[USO]] · [[GLD]] · [[DAL]]. Cross-asset conflict dispersion: havens/oil/defense up, airlines down.*
+*[[2026 Iran conflict market impact]] — [[AeroVironment|AVAV]] · [[Kratos|KTOS]] · [[DPRIME]] · [[USO]] · [[GLD]] · [[DAL]]. Cross-asset conflict dispersion: havens/oil/defense up, airlines down.*
 
 ![[vgt-vs-xlk-price-chart.png]]
 *[[VGT]] · [[XLK]] · S&P Info Tech — VGT tracks the index more faithfully than XLK due to GICS classification gaps*

@@ -181,6 +181,19 @@ Kratos's moat: years ahead on affordable jet-powered drone production at scale. 
 
 ---
 
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Defense]] | ITA | 0.61 |
+| Industrials | XLI | 0.46 |
+| Technology | XLK | 0.43 |
+| *S&P 500* | *SPY* | *0.39* |
+
+KTOS shows moderate [[Defense]] correlation (ITA r = 0.61) — distinct from broad market (SPY r = 0.39). Reads as a defense-cycle name with technology overlay, not a generic small-cap industrial.
+
+---
+
 ## Investment thesis
 
 ### Structural factors
@@ -234,6 +247,7 @@ Kratos's moat: years ahead on affordable jet-powered drone production at scale. 
 - [[Airbus]] â€” partner (German UCCA)
 - [[Long defense AI]] â€” thesis overlap
 - [[Iran]] â€” geopolitical catalyst (hypersonic demand)
+- [[Karman Holdings]] â€” peer in small-cap defense (penetrator warheads / bunker-buster exposure)
 
 ---
 

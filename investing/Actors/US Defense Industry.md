@@ -114,9 +114,9 @@ VP Vance declared Iran failed Geneva red lines; strikes "on the table." Two carr
 
 US industry response was bifurcated:
 - **Large-cap primes** (+1.0-1.6%) — muted, already priced for [[Trump defense budget]] expansion
-- **Small-cap specialists** (+5-9%) — [[Karman Holdings]] (penetrator warheads for buried targets) and [[Kratos Defense]] (hypersonic systems) surged on direct strike-relevance
+- **Small-cap specialists** (+5-9%) — [[Karman Holdings]] (penetrator warheads for buried targets) and [[Kratos]] (hypersonic systems) surged on direct strike-relevance
 
-If strikes proceed, key US beneficiaries: [[RTX]] (Tomahawks, Patriot), [[Lockheed Martin]] (JASSM, F-35 ops), [[Northrop Grumman]] (B-21, ISR), [[Karman Holdings]] (bunker busters), [[Kratos Defense]] (hypersonic targets).
+If strikes proceed, key US beneficiaries: [[RTX]] (Tomahawks, Patriot), [[Lockheed Martin]] (JASSM, F-35 ops), [[Northrop Grumman]] (B-21, ISR), [[Karman Holdings]] (bunker busters), [[Kratos]] (hypersonic targets).
 
 See [[US-Iran nuclear escalation February 2026]].
 

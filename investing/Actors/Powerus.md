@@ -173,7 +173,7 @@ A US-Ukraine drone technology transfer arrangement has been under discussion at 
 - [[Shield AI]] — defense AI/autonomy
 - [[XTEND]] — Israeli drone maker; Eric Trump-backed; $1.5B reverse merger (Feb 2026)
 - [[AeroVironment]] — military small UAS (AVAV)
-- [[Kratos Defense]] — attritable drones (KTOS)
+- [[Kratos]] — attritable drones (KTOS)
 - [[Skydio]] — US autonomous drones
 
 ### Context

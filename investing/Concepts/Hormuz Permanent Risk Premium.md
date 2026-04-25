@@ -43,7 +43,7 @@ Before February 28, 2026, the Hormuz closure was a theoretical war-game scenario
 | Shipping (tanker rates) | Standard Gulf routing | Longer routes priced as baseline | Cape of Good Hope becomes default for cautious operators |
 | Insurance (war risk) | 0.05-0.125% per transit | 0.2-0.5%+ indefinitely | $250K-500K+ per VLCC crossing; some insurers may never return to Gulf |
 | Gulf FDI | Low risk premium | Elevated | Tourism, logistics, data center investment discounted for security risk |
-| Defense stocks | Episodic conflict premium | Structural drone/counter-drone demand | [[AeroVironment|AVAV]], [[Kratos Defense|KTOS]], [[Exail Technologies]], MCM names |
+| Defense stocks | Episodic conflict premium | Structural drone/counter-drone demand | [[AeroVironment|AVAV]], [[Kratos|KTOS]], [[Exail Technologies]], MCM names |
 
 ## Expert framing
 
@@ -65,7 +65,7 @@ Before February 28, 2026, the Hormuz closure was a theoretical war-game scenario
 |----------|-------|-------|
 | US E&Ps | [[ConocoPhillips|COP]], [[EOG Resources|EOG]], [[Devon Energy|DVN]], [[Diamondback Energy|FANG]] | Higher oil floor, zero ME exposure |
 | US LNG | [[Cheniere Energy|LNG]], [[EQT]] | Non-Hormuz supply structurally advantaged |
-| Counter-drone / MCM | [[AeroVironment|AVAV]], [[Kratos Defense|KTOS]], [[Exail Technologies]] | Structural demand, not episodic |
+| Counter-drone / MCM | [[AeroVironment|AVAV]], [[Kratos|KTOS]], [[Exail Technologies]] | Structural demand, not episodic |
 | Gold | [[GLD]], [[Newmont|NEM]] | Geopolitical risk bid doesn't fully revert |
 | Nuclear | [[Constellation Energy|CEG]], [[Cameco|CCJ]] | Domestic energy security narrative strengthens |
 

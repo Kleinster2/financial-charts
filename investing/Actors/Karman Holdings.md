@@ -138,7 +138,7 @@ Karman's most direct geopolitical catalyst is a potential US or Israeli strike o
 - [[RTX]] — prime contractor competitor/customer
 - [[Northrop Grumman]] — prime contractor competitor/customer
 - [[L3Harris]] — peer in defense subsystems
-- [[Kratos Defense]] — comparable small-cap defense pure-play
+- [[Kratos]] — comparable small-cap defense pure-play
 - [[Iran]] — geopolitical catalyst (underground nuclear facilities)
 - [[Golden Dome]] — missile defense initiative
 - [[Seemann Composites]] — recent acquisition (maritime composites)

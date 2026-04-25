@@ -8,7 +8,7 @@ tags: [event, geopolitics, defense, oil, markets, iran]
 Market reaction to [[Operation Epic Fury|2026 Iran conflict]] — joint US-Israeli strikes on [[Iran]] starting February 28, 2026 that killed Supreme Leader [[Ali Khamenei]], triggered Iranian retaliation across the [[Persian Gulf]], and closed the [[Strait of Hormuz]]. This note is the hub; deep dives are linked below.
 
 ![[avav-vs-ktos-vs-dprime-vs-uso-vs-gld-vs-dal-vs-epol-2025.png]]
-*Cross-asset conflict dispersion YTD 2026: havens ([[GLD]]), oil ([[USO]]), defense ([[DPRIME]], [[AeroVironment|AVAV]], [[Kratos Defense|KTOS]]) up; airlines ([[Delta Air Lines|DAL]]) down; [[Poland]] ([[EPOL]]) as European defense/rearmament proxy.*
+*Cross-asset conflict dispersion YTD 2026: havens ([[GLD]]), oil ([[USO]]), defense ([[DPRIME]], [[AeroVironment|AVAV]], [[Kratos|KTOS]]) up; airlines ([[Delta Air Lines|DAL]]) down; [[Poland]] ([[EPOL]]) as European defense/rearmament proxy.*
 
 ---
 
