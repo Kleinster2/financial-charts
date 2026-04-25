@@ -4,8 +4,6 @@ charts:
     tickers: 000660.KS,SMH
     normalize: true
     start: 2019-01-01
-  skhynix-fundamentals.png:
-    skip: true
   hyperscaler-capex.png:
     tickers: AMZN,GOOG,META,MSFT
     metrics: capex
@@ -22,8 +20,6 @@ charts:
     normalize: true
     start: 2021-12-09
     primary: NU
-  bptrx-vs-spacex_private-price-chart.png:
-    skip: true
   es-vs-nq-vs-cl-vs-gc-futures-2025.png:
     skip: true
   fed-rate-expectations.png:
