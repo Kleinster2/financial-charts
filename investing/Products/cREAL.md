@@ -5,7 +5,7 @@ tags:
   - stablecoin
   - crypto
   - brazil
-parent_concept: "[[Crypto]]"
+parent_concept: "Crypto"
 ---
 
 # cREAL

@@ -8,7 +8,7 @@ tags:
   - chemicals
   - fluoropolymer
   - battery-material
-parent_concept: "[[Industrial commodities]]"
+parent_concept: "Industrial commodities"
 ---
 
 # PVDF

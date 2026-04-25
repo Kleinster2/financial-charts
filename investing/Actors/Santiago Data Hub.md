@@ -1,5 +1,5 @@
 ---
-aliases: [[[Chile]] Data Center]
+aliases: [Chile Data Center]
 ---
 #actor #datacenter #infrastructure #chile #region
 

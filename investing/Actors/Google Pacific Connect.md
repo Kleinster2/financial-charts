@@ -1,5 +1,5 @@
 ---
-aliases: [[[Australia]] Connect]
+aliases: [Australia Connect]
 ---
 #actor #infrastructure #submarine #cable #google
 

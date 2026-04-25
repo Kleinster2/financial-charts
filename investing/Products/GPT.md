@@ -16,8 +16,8 @@ aliases:
 tags:
   - product-family
   - ai
-parent_actor: "[[OpenAI]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "OpenAI"
+parent_concept: "Frontier models"
 ---
 
 # GPT

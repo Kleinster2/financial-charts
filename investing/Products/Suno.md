@@ -8,8 +8,8 @@ tags:
   - product-family
   - ai
   - audio-generation
-parent_actor: "[[Suno]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Suno"
+parent_concept: "Generative AI"
 ---
 
 # Suno

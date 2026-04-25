@@ -6,7 +6,7 @@ tags:
   - product
   - chemicals
   - fluoropolymer
-parent_concept: "[[Industrial commodities]]"
+parent_concept: "Industrial commodities"
 ---
 
 # PTFE

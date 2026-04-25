@@ -1,5 +1,5 @@
 ---
-aliases: [[[ASEAN]] tech race, SEA tech competition]
+aliases: [ASEAN tech race, SEA tech competition]
 ---
 #concept #thesis #sovereign #asean
 

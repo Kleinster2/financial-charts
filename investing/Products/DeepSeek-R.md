@@ -8,8 +8,8 @@ tags:
   - product-family
   - ai
   - china
-parent_actor: "[[DeepSeek]]"
-parent_concept: "[[Reasoning models]]"
+parent_actor: "DeepSeek"
+parent_concept: "Reasoning models"
 ---
 
 # DeepSeek-R

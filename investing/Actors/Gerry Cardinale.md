@@ -1,5 +1,5 @@
 ---
-aliases: [Gerard Cardinale, [[RedBird Capital]], RedBird]
+aliases: [Gerard Cardinale, RedBird Capital, RedBird]
 ---
 #actor #person #investor #sports #media #usa
 

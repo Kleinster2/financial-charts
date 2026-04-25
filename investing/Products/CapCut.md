@@ -6,7 +6,7 @@ tags:
   - product
   - video-editing
   - china
-parent_actor: "[[ByteDance]]"
+parent_actor: "ByteDance"
 ---
 
 # CapCut

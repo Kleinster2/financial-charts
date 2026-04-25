@@ -1,5 +1,5 @@
 ---
-aliases: [China [[Africa]] relations, Sino-African trade]
+aliases: [China Africa relations, Sino-African trade]
 ---
 #concept #geopolitics #china #africa #trade
 

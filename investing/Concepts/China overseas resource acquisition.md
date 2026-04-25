@@ -1,5 +1,5 @@
 ---
-aliases: [[[China]] resource security, Chinese mining expansion, [[China]] commodity acquisition]
+aliases: [China resource security, Chinese mining expansion, China commodity acquisition]
 ---
 #concept #china #mining #commodities #geopolitics
 

@@ -7,8 +7,8 @@ tags:
   - product-family
   - ai
   - image-generation
-parent_actor: "[[Adobe]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Adobe"
+parent_concept: "Generative AI"
 ---
 
 # Firefly

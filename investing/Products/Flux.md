@@ -10,8 +10,8 @@ tags:
   - ai
   - image-generation
   - open-source
-parent_actor: "[[Black Forest Labs]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Black Forest Labs"
+parent_concept: "Generative AI"
 ---
 
 # Flux

@@ -1,5 +1,5 @@
 ---
-aliases: [[[Platinum]] Group Metals, [[Platinum]], [[Palladium]], Rhodium]
+aliases: [Platinum Group Metals, Platinum, Palladium, Rhodium]
 ---
 #concept #commodity #industrial #auto
 

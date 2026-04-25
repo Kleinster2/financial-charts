@@ -5,7 +5,7 @@ tags:
   - etf
   - fixed-income
   - active
-parent: "[[BlackRock]]"
+parent: "BlackRock"
 ---
 
 **BINC** — [[BlackRock]]'s actively managed fixed income ETF. Launched May 2023, reached $16.81B AUM in under three years. Managed by [[Rick Rieder]]. Flagship vehicle for BlackRock's flexible income allocation strategy.

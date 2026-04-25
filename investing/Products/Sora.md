@@ -8,8 +8,8 @@ tags:
   - product-family
   - ai
   - video-generation
-parent_actor: "[[OpenAI]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "OpenAI"
+parent_concept: "Generative AI"
 ---
 
 # Sora

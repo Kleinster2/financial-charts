@@ -11,8 +11,8 @@ tags:
   - ai
   - video-generation
   - china
-parent_actor: "[[Kuaishou]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Kuaishou"
+parent_concept: "Generative AI"
 ---
 
 # Kling

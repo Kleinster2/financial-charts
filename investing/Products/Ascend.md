@@ -11,8 +11,8 @@ tags:
   - semiconductor
   - ai-accelerator
   - china
-parent_actor: "[[Huawei]]"
-parent_concept: "[[AI accelerators]]"
+parent_actor: "Huawei"
+parent_concept: "AI accelerators"
 ---
 
 # Ascend

@@ -1,5 +1,5 @@
 ---
-aliases: [National Center for Artificial Intelligence [[Chile]], Centro Nacional de Inteligencia Artificial]
+aliases: [National Center for Artificial Intelligence Chile, Centro Nacional de Inteligencia Artificial]
 ---
 #actor #research #ai #chile #sovereign
 

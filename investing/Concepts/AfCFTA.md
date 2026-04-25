@@ -1,5 +1,5 @@
 ---
-aliases: [African Continental Free Trade Area, [[Africa]] FTA]
+aliases: [African Continental Free Trade Area, Africa FTA]
 ---
 #concept #trade #africa #emerging
 

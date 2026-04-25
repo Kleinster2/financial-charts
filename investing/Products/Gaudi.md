@@ -9,8 +9,8 @@ tags:
   - product-family
   - semiconductor
   - ai-accelerator
-parent_actor: "[[Intel]]"
-parent_concept: "[[AI accelerators]]"
+parent_actor: "Intel"
+parent_concept: "AI accelerators"
 ---
 
 # Gaudi

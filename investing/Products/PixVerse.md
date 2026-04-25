@@ -1,7 +1,7 @@
 ---
 aliases: [PixVerse, AISphere PixVerse]
 tags: [product, ai, video-generation, china, global]
-parent_actor: "[[AISphere]]"
+parent_actor: "AISphere"
 ---
 
 # PixVerse

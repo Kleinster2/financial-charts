@@ -1,5 +1,5 @@
 ---
-aliases: [MARA, [[Marathon]]]
+aliases: [MARA, Marathon]
 ---
 #actor #crypto #usa #public
 

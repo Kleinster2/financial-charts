@@ -1,5 +1,5 @@
 ---
-aliases: [[[Republic]] of Cuba, Havana]
+aliases: [Republic of Cuba, Havana]
 ---
 #actor #geography #latam #geopolitics
 

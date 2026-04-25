@@ -1,5 +1,5 @@
 ---
-aliases: [[[ADNOC]] XRG]
+aliases: [ADNOC XRG]
 ---
 #actor #investor #energy #uae #government
 

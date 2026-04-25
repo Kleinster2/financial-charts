@@ -7,7 +7,7 @@ tags:
   - commodity
   - chemicals
   - industrial
-parent_concept: "[[Industrial commodities]]"
+parent_concept: "Industrial commodities"
 ---
 
 # Chlorine

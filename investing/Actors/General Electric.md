@@ -1,5 +1,5 @@
 ---
-aliases: [GE, [[GE Aerospace]]]
+aliases: [GE, GE Aerospace]
 ---
 #actor #industrial #usa #aerospace
 

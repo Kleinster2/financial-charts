@@ -1,5 +1,5 @@
 ---
-aliases: [Capital G, [[Google]] Capital]
+aliases: [Capital G, Google Capital]
 ---
 #actor #investor #growthequity #usa #corporate
 

@@ -1,7 +1,7 @@
 ---
 aliases: [Pokopia]
 tags: [product, gaming, life-simulation]
-parent: "[[Nintendo]]"
+parent: "Nintendo"
 ---
 
 [[Nintendo]] life simulation game in the [[Pokémon]] franchise. Surprise hit in March 2026, adding ~$14B in market value to Nintendo in a single week. Part of the stress-lowering gaming trend alongside [[Animal Crossing]].

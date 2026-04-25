@@ -1,5 +1,5 @@
 ---
-aliases: [[[EU]]-Japan EPA, [[EU]]-Japan Economic Partnership Agreement, JEEPA]
+aliases: [EU-Japan EPA, EU-Japan Economic Partnership Agreement, JEEPA]
 ---
 #concept #trade #europe #japan
 

@@ -1,5 +1,5 @@
 ---
-aliases: [[[Canada]]-China, [[Canada]] China thaw]
+aliases: [Canada-China, Canada China thaw]
 ---
 #concept #geopolitics #canada #china #trade
 

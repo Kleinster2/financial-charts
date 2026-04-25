@@ -5,8 +5,8 @@ tags:
   - stablecoin
   - crypto
   - brazil
-parent_actor: "[[Mercado Bitcoin]]"
-parent_concept: "[[Crypto]]"
+parent_actor: "Mercado Bitcoin"
+parent_concept: "Crypto"
 ---
 
 # BRL1

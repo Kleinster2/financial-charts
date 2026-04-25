@@ -1,5 +1,5 @@
 ---
-aliases: [[[SoftBank]], Vision Fund, SVF]
+aliases: [SoftBank, Vision Fund, SVF]
 ---
 #actor #investor #venturecapital #japan #public
 

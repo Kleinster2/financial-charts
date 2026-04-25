@@ -9,8 +9,8 @@ aliases:
 tags:
   - product-family
   - ai
-parent_actor: "[[Anthropic]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "Anthropic"
+parent_concept: "Frontier models"
 ---
 
 # Claude

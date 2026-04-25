@@ -5,8 +5,8 @@ tags:
   - stablecoin
   - crypto
   - brazil
-parent_actor: "[[Braza Group]]"
-parent_concept: "[[Crypto]]"
+parent_actor: "Braza Group"
+parent_concept: "Crypto"
 ---
 
 # BBRL

@@ -1,5 +1,5 @@
 ---
-aliases: [CPTPP, Comprehensive and [[Progressive]] Agreement for Trans-Pacific Partnership, TPP-11, Trans-Pacific Partnership]
+aliases: [CPTPP, Comprehensive and Progressive Agreement for Trans-Pacific Partnership, TPP-11, Trans-Pacific Partnership]
 ---
 #concept #trade #asia #pacific
 

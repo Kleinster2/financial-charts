@@ -8,8 +8,8 @@ tags:
   - ai
   - frontier-model
   - proprietary
-parent_actor: "[[Meta]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "Meta"
+parent_concept: "Frontier models"
 ---
 
 # Muse Spark

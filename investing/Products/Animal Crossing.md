@@ -1,7 +1,7 @@
 ---
 aliases: [Animal Crossing: New Horizons, ACNH]
 tags: [product, gaming, life-simulation]
-parent: "[[Nintendo]]"
+parent: "Nintendo"
 ---
 
 [[Nintendo]] life simulation franchise. [[Animal Crossing]]: New Horizons (2020) became a global hit during COVID, demonstrating demand for stress-lowering gaming experiences. Precedent for [[Pokémon Pokopia]]'s 2026 success — the trend that helped [[Nintendo]] expand its addressable market away from performance-focused gaming.

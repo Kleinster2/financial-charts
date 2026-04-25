@@ -5,8 +5,8 @@ tags:
   - stablecoin
   - crypto
   - brazil
-parent_actor: "[[BRLA Digital]]"
-parent_concept: "[[Crypto]]"
+parent_actor: "BRLA Digital"
+parent_concept: "Crypto"
 ---
 
 # BRLA

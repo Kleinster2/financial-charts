@@ -8,8 +8,8 @@ tags:
   - ai
   - video-generation
   - china
-parent_actor: "[[ByteDance]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "ByteDance"
+parent_concept: "Generative AI"
 ---
 
 # Seedance

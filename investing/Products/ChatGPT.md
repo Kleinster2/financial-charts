@@ -6,7 +6,7 @@ aliases:
 tags:
   - product
   - ai
-parent_actor: "[[OpenAI]]"
+parent_actor: "OpenAI"
 ---
 
 # ChatGPT

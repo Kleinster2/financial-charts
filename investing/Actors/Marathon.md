@@ -1,5 +1,5 @@
 ---
-aliases: [[[Marathon Digital]], MARA]
+aliases: [Marathon Digital, MARA]
 ---
 #actor #crypto #datacenter #usa
 

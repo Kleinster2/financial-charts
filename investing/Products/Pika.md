@@ -8,8 +8,8 @@ tags:
   - product-family
   - ai
   - video-generation
-parent_actor: "[[Pika Labs]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Pika Labs"
+parent_concept: "Generative AI"
 ---
 
 # Pika

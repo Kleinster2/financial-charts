@@ -1,7 +1,7 @@
 ---
 aliases: [Vidu, ShengShu Vidu]
 tags: [product, ai, video-generation, china]
-parent_actor: "[[ShengShu Technology]]"
+parent_actor: "ShengShu Technology"
 ---
 
 # Vidu

@@ -1,5 +1,5 @@
 ---
-aliases: [Chinese retaliation, [[China]] countermeasures]
+aliases: [Chinese retaliation, China countermeasures]
 ---
 #concept #geopolitics #china #semiconductor
 

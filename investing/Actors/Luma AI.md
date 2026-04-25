@@ -7,7 +7,7 @@ tags:
   - actor
   - ai
   - startup
-parent_concept: "[[Generative AI]]"
+parent_concept: "Generative AI"
 ---
 
 # Luma AI

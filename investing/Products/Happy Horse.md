@@ -6,7 +6,7 @@ tags:
   - ai
   - video-generation
   - china
-parent_actor: "[[Alibaba]]"
+parent_actor: "Alibaba"
 ---
 
 **Happy Horse** (HappyHorse-1.0) — Open-source AI video generation model released anonymously in early April 2026 and subsequently attributed to [[Alibaba]]'s ATH AI Innovation Unit. Climbed to the top of Artificial Analysis's blind-test leaderboards in both text-to-video and image-to-video categories, displacing [[ByteDance]]'s [[Seedance]] 2.0. Released as open-source even as Alibaba pivots its leading [[Qwen]] LLMs to proprietary — suggesting Alibaba plans to maintain open-source presence in select non-core areas while commercializing its flagship models.

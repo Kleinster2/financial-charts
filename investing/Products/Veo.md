@@ -9,8 +9,8 @@ tags:
   - product-family
   - ai
   - video-generation
-parent_actor: "[[Google DeepMind]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Google DeepMind"
+parent_concept: "Generative AI"
 ---
 
 # Veo

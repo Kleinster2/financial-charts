@@ -1,5 +1,5 @@
 ---
-aliases: [[[a16z]], Andreessen]
+aliases: [a16z, Andreessen]
 ---
 #actor #investor #venturecapital #usa #private
 

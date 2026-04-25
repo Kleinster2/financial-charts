@@ -6,7 +6,7 @@ tags:
   - product
   - packaging
   - semiconductors
-parent_actor: "[[TSMC]]"
+parent_actor: "TSMC"
 ---
 
 **CoWoS** — [[TSMC]]'s Chip-on-Wafer-on-Substrate advanced packaging technology. Enables high-bandwidth memory ([[HBM]]) integration with logic dies on a silicon interposer. Was the primary AI chip bottleneck in 2023 before capacity expanded significantly through 2024-2025.

@@ -1,5 +1,5 @@
 ---
-aliases: [Saudi [[Telecom]] Company, 7010.SR]
+aliases: [Saudi Telecom Company, 7010.SR]
 ---
 #actor #telecom #saudi #public
 

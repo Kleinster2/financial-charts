@@ -10,8 +10,8 @@ tags:
   - semiconductor
   - ai-accelerator
   - china
-parent_actor: "[[Cambricon Technologies]]"
-parent_concept: "[[AI accelerators]]"
+parent_actor: "Cambricon Technologies"
+parent_concept: "AI accelerators"
 ---
 
 # MLU

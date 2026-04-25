@@ -1,7 +1,7 @@
 ---
 aliases: [Switch, Switch 2, Nintendo Switch 2]
 tags: [product, gaming, console]
-parent: "[[Nintendo]]"
+parent: "Nintendo"
 ---
 
 [[Nintendo]]'s hybrid home/portable game console. The original Switch launched in 2017 with modest hardware specs relative to [[Sony]] and [[Microsoft]] competitors, prioritizing portability and accessibility over computing power. Switch 2 launched at $450 with 12GB LPDDR5X RAM and 256GB NAND storage, significantly higher cost due to the [[Memory shortage 2025-2026|2025-2026 memory shortage]].

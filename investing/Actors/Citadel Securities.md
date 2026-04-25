@@ -1,5 +1,5 @@
 ---
-aliases: [[[Citadel]]]
+aliases: [Citadel]
 ---
 #actor #fintech #market-maker #usa #private
 

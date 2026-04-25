@@ -1,5 +1,5 @@
 ---
-aliases: [SCCO, Southern Peru [[Copper]]]
+aliases: [SCCO, Southern Peru Copper]
 ---
 #actor #mining #copper #mexico #peru #public
 

@@ -1,5 +1,5 @@
 ---
-aliases: [Sharpa [[Robotics]], SharpaWave]
+aliases: [Sharpa Robotics, SharpaWave]
 ---
 #actor #robotics #ai #singapore #private
 

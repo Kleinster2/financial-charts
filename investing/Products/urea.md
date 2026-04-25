@@ -7,7 +7,7 @@ tags:
   - commodity
   - chemicals
   - fertilizer
-parent_concept: "[[Industrial commodities]]"
+parent_concept: "Industrial commodities"
 ---
 
 # Urea

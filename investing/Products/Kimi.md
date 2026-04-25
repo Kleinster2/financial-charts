@@ -8,8 +8,8 @@ tags:
   - product-family
   - ai
   - china
-parent_actor: "[[Moonshot AI]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "Moonshot AI"
+parent_concept: "Frontier models"
 ---
 
 # Kimi

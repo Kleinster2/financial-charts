@@ -1,5 +1,5 @@
 ---
-aliases: [Électricité de [[France]], Electricite de [[France]]]
+aliases: [Électricité de France, Electricite de France]
 ---
 #actor #energy #nuclear #france #public
 

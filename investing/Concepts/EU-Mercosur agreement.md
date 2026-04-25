@@ -1,5 +1,5 @@
 ---
-aliases: [[[EU]]-Mercosul, [[Mercosur]] deal, [[EU]]-[[Mercosur]] FTA]
+aliases: [EU-Mercosul, Mercosur deal, EU-Mercosur FTA]
 ---
 #concept #trade #europe #latam #agriculture
 

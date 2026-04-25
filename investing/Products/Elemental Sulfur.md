@@ -11,7 +11,7 @@ tags:
   - chemicals
   - industrial
   - energy-transition
-parent_concept: "[[Industrial commodities]]"
+parent_concept: "Industrial commodities"
 ---
 
 # Elemental Sulfur

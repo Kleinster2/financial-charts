@@ -6,7 +6,7 @@ tags:
   - streaming
   - music
   - usa
-parent: "[[Apple]]"
+parent: "Apple"
 ---
 
 **Apple Music** is [[Apple]]'s music streaming service, competing with [[Spotify]] and [[Deezer]] in global music streaming.

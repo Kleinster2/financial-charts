@@ -6,7 +6,7 @@ tags:
   - division
   - ai
   - usa
-parent_actor: "[[Meta]]"
+parent_actor: "Meta"
 ---
 
 # Meta Superintelligence Labs

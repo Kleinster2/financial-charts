@@ -1,5 +1,5 @@
 ---
-aliases: [Nearshoring [[Mexico]]]
+aliases: [Nearshoring Mexico]
 ---
 #actor #sovereign #ai #semiconductor #mexico #nearshoring
 

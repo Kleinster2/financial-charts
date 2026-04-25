@@ -6,7 +6,7 @@ tags:
   - product
   - ai
   - agents
-parent_actor: "[[Anthropic]]"
+parent_actor: "Anthropic"
 ---
 
 # Anthropic Managed Agents

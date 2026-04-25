@@ -1,7 +1,7 @@
 ---
 aliases: [Glasswing]
 tags: [product, ai, cybersecurity]
-parent_actor: "[[Anthropic]]"
+parent_actor: "Anthropic"
 ---
 
 **Project Glasswing** — Anthropic's controlled deployment program for [[Claude Mythos|Claude Mythos Preview]], giving selected companies and critical-software defenders early access to the unreleased model for defensive cybersecurity work.

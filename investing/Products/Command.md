@@ -8,8 +8,8 @@ aliases:
 tags:
   - product-family
   - ai
-parent_actor: "[[Cohere]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "Cohere"
+parent_concept: "Frontier models"
 ---
 
 # Command

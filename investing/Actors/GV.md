@@ -1,5 +1,5 @@
 ---
-aliases: [[[Google]] Ventures]
+aliases: [Google Ventures]
 ---
 #actor #investor #venturecapital #usa #corporate
 

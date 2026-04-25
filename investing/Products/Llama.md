@@ -10,8 +10,8 @@ tags:
   - product-family
   - ai
   - open-source
-parent_actor: "[[Meta]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "Meta"
+parent_concept: "Frontier models"
 ---
 
 # Llama

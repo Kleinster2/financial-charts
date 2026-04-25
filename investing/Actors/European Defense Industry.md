@@ -1,5 +1,5 @@
 ---
-aliases: [[[EU]] defense industry, European defence industry]
+aliases: [EU defense industry, European defence industry]
 ---
 #actor #industry #defense #europe
 

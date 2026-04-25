@@ -9,8 +9,8 @@ tags:
   - product-family
   - ai
   - china
-parent_actor: "[[01.AI]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "01.AI"
+parent_concept: "Frontier models"
 ---
 
 # Yi

@@ -1,5 +1,5 @@
 ---
-aliases: [[[Mexico]] nearshoring, US-[[China]] decoupling]
+aliases: [Mexico nearshoring, US-China decoupling]
 ---
 #concept #thesis #geopolitics #mexico
 

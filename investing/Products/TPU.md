@@ -10,8 +10,8 @@ tags:
   - product-family
   - semiconductor
   - ai-accelerator
-parent_actor: "[[Google]]"
-parent_concept: "[[AI accelerators]]"
+parent_actor: "Google"
+parent_concept: "AI accelerators"
 ---
 
 # TPU

@@ -7,8 +7,8 @@ tags:
   - product-family
   - ai
   - image-generation
-parent_actor: "[[Ideogram]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Ideogram"
+parent_concept: "Generative AI"
 ---
 
 # Ideogram

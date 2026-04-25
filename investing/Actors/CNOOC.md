@@ -1,5 +1,5 @@
 ---
-aliases: [[[China]] National Offshore [[Oil]] Corporation]
+aliases: [China National Offshore Oil Corporation]
 ---
 #actor #energy #oil #china #public
 

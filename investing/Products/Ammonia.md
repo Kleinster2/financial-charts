@@ -9,7 +9,7 @@ tags:
   - industrial
   - fertilizer
   - energy-transition
-parent_concept: "[[Industrial commodities]]"
+parent_concept: "Industrial commodities"
 ---
 
 # Ammonia

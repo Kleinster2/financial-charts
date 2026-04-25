@@ -9,7 +9,7 @@ tags:
   - chemicals
   - industrial
   - fertilizer
-parent_concept: "[[Industrial commodities]]"
+parent_concept: "Industrial commodities"
 ---
 
 # Phosphoric Acid

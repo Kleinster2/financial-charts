@@ -3,7 +3,7 @@ aliases: [VCX]
 tags: [securities, fund, usa]
 ticker: VCX
 exchange: NYSE
-parent: "[[Fundrise]]"
+parent: "Fundrise"
 ---
 
 [[Fundrise]] Innovation Fund — publicly traded venture capital fund on [[NYSE]]. Provides retail access to private AI/tech companies including [[OpenAI]], [[SpaceX]], [[Anthropic]], [[Databricks]], [[Anduril]], [[Ramp]], [[Stripe]].

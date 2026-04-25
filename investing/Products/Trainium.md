@@ -9,8 +9,8 @@ tags:
   - product-family
   - semiconductor
   - ai-accelerator
-parent_actor: "[[Amazon]]"
-parent_concept: "[[AI accelerators]]"
+parent_actor: "Amazon"
+parent_concept: "AI accelerators"
 ---
 
 # Trainium

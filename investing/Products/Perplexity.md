@@ -6,8 +6,8 @@ aliases:
 tags:
   - product
   - ai
-parent_actor: "[[Perplexity]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Perplexity"
+parent_concept: "Generative AI"
 ---
 
 # Perplexity

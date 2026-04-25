@@ -1,5 +1,5 @@
 ---
-aliases: [JPM 2026, JP Morgan [[Healthcare]] 2026, JPMorgan [[Healthcare]] Conference]
+aliases: [JPM 2026, JP Morgan Healthcare 2026, JPMorgan Healthcare Conference]
 ---
 #event #healthcare #biopharma #conference
 

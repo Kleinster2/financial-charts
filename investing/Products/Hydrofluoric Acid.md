@@ -11,7 +11,7 @@ tags:
   - industrial
   - semiconductor-supply-chain
   - critical-mineral
-parent_concept: "[[Industrial commodities]]"
+parent_concept: "Industrial commodities"
 ---
 
 # Hydrofluoric Acid

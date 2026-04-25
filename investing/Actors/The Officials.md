@@ -1,7 +1,7 @@
 ---
 aliases: [The Officials, Officials (Onyx)]
 tags: [actor, energy, commodity-research, uk]
-parent_actor: "[[Onyx Capital Group]]"
+parent_actor: "Onyx Capital Group"
 ---
 
 # The Officials

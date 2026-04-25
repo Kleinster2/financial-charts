@@ -7,7 +7,7 @@ tags:
   - ai
   - agent-harness
   - open-source
-parent: "[[Nous Research]]"
+parent: "Nous Research"
 type: product
 launched: 2026-03
 license: MIT

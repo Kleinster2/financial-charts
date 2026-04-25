@@ -1,5 +1,5 @@
 ---
-aliases: [LSXMA, FWONA, LLYVA, Liberty, [[John Malone]]]
+aliases: [LSXMA, FWONA, LLYVA, Liberty, John Malone]
 ---
 #actor #holding #media #sports #usa #public
 

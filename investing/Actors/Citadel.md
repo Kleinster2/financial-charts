@@ -1,5 +1,5 @@
 ---
-aliases: [Citadel LLC, [[Citadel Securities]]]
+aliases: [Citadel LLC, Citadel Securities]
 ---
 #actor #investor #hedgefund #marketmaker #usa #private
 

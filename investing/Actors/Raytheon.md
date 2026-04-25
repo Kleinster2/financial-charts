@@ -1,5 +1,5 @@
 ---
-aliases: [[[RTX]], Raytheon Technologies]
+aliases: [RTX, Raytheon Technologies]
 ---
 #actor #defense #aerospace #usa #public #ai
 

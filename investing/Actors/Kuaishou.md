@@ -10,7 +10,7 @@ tags:
   - china
   - public
 ticker: "1024.HK"
-parent_concept: "[[Social media]]"
+parent_concept: "Social media"
 ---
 
 # Kuaishou

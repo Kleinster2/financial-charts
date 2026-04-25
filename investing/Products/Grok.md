@@ -8,8 +8,8 @@ aliases:
 tags:
   - product-family
   - ai
-parent_actor: "[[xAI]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "xAI"
+parent_concept: "Frontier models"
 ---
 
 # Grok

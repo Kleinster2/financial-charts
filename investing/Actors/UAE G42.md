@@ -1,5 +1,5 @@
 ---
-aliases: [[[G42]], Group 42]
+aliases: [G42, Group 42]
 ---
 #actor #sovereign #ai #uae #private
 

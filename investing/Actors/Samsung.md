@@ -1,5 +1,5 @@
 ---
-aliases: [[[Samsung Semiconductor]], Samsung Electronics, Samsung Foundry]
+aliases: [Samsung Semiconductor, Samsung Electronics, Samsung Foundry]
 ---
 #actor #foundry #korea #conglomerate
 

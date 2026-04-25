@@ -1,5 +1,5 @@
 ---
-aliases: [WDC, WD, [[SanDisk]]]
+aliases: [WDC, WD, SanDisk]
 ---
 #actor #storage #hdd #nand #semiconductor
 

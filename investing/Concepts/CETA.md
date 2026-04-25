@@ -1,5 +1,5 @@
 ---
-aliases: [CETA, Comprehensive Economic and Trade Agreement, [[EU]]-Canada FTA]
+aliases: [CETA, Comprehensive Economic and Trade Agreement, EU-Canada FTA]
 ---
 #concept #trade #europe #canada
 

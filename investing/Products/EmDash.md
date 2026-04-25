@@ -5,7 +5,7 @@ tags:
   - cms
   - developer-tools
   - ai-native
-parent_actor: "[[Cloudflare]]"
+parent_actor: "Cloudflare"
 ---
 
 # EmDash

@@ -1,5 +1,5 @@
 ---
-aliases: [Bahrain [[Fintech]]]
+aliases: [Bahrain Fintech]
 ---
 #actor #sovereign #fintech #bahrain #gcc
 

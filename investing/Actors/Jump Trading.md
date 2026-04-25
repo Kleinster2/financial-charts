@@ -1,5 +1,5 @@
 ---
-aliases: [Jump, Jump [[Crypto]]]
+aliases: [Jump, Jump Crypto]
 ---
 #actor #investor #trading #hft #usa #private
 

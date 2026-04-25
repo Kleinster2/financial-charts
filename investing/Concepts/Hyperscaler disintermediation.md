@@ -1,5 +1,5 @@
 ---
-aliases: [[[Telecom]] disintermediation, Hyperscaler infrastructure]
+aliases: [Telecom disintermediation, Hyperscaler infrastructure]
 ---
 #concept #thesis #infrastructure #telecom
 

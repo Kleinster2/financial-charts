@@ -1,7 +1,7 @@
 ---
 aliases: [OF, Fenix International]
 tags: [actor, private, creator-economy, adult]
-industry: "[[Sextech]]"
+industry: "Sextech"
 ---
 
 Subscription platform for creators — 80% adult content, 20% fitness/music/cooking. Founded 2016 in UK by Tim and Guy Stokely, acquired by [[Leonid Radvinsky]] in 2018. The most profitable creator platform ever built: $684M pre-tax profit on $1.4B revenue (48% margin). Radvinsky died March 23, 2026 (aged 43, cancer) — his shares are held in a trust since 2024, leaving the platform's ownership and an in-progress multibillion-dollar sale process in limbo.

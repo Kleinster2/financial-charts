@@ -1,5 +1,5 @@
 ---
-aliases: [[[Burlington]] Northern Santa Fe]
+aliases: [Burlington Northern Santa Fe]
 ---
 #actor #transport #railroad #usa #private
 

@@ -1,5 +1,5 @@
 ---
-aliases: [TCAI, Tortoise [[AI Infrastructure]] ETF]
+aliases: [TCAI, Tortoise AI Infrastructure ETF]
 ---
 #actor #etf #ai-infrastructure #usa
 

@@ -1,5 +1,5 @@
 ---
-aliases: [Rare earth controls, [[Critical minerals]] leverage]
+aliases: [Rare earth controls, Critical minerals leverage]
 ---
 #concept #geopolitics #china #commodities
 

@@ -10,8 +10,8 @@ tags:
   - ai
   - open-source
   - europe
-parent_actor: "[[Mistral]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "Mistral"
+parent_concept: "Frontier models"
 ---
 
 # Mistral

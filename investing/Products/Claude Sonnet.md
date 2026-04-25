@@ -8,7 +8,7 @@ aliases:
 tags:
   - product
   - ai
-parent_actor: "[[Anthropic]]"
+parent_actor: "Anthropic"
 ---
 
 # Claude Sonnet

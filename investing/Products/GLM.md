@@ -10,8 +10,8 @@ tags:
   - ai
   - china
   - open-source
-parent_actor: "[[Zhipu]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "Zhipu"
+parent_concept: "Frontier models"
 ---
 
 **GLM** — [[Zhipu]]'s (Z.ai) AI model family. Open source. **GLM-4.7** matches Claude Sonnet 4.5 on coding at **$3/month** (or free locally). First major model trained on **Huawei hardware only**.

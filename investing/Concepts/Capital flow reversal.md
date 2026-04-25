@@ -1,5 +1,5 @@
 ---
-aliases: [US-[[China]] capital reversal, FDI reversal]
+aliases: [US-China capital reversal, FDI reversal]
 ---
 #concept #macro #geopolitics #china #usa
 

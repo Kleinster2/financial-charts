@@ -12,8 +12,8 @@ tags:
   - product-family
   - ai
   - china
-parent_actor: "[[DeepSeek]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "DeepSeek"
+parent_concept: "Frontier models"
 ---
 
 # DeepSeek-V

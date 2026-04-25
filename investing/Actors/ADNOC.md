@@ -1,5 +1,5 @@
 ---
-aliases: [Abu Dhabi National [[Oil]] Company]
+aliases: [Abu Dhabi National Oil Company]
 ---
 #actor #energy #oil #uae #state
 

@@ -8,8 +8,8 @@ tags:
   - product-family
   - ai
   - image-generation
-parent_actor: "[[Midjourney]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Midjourney"
+parent_concept: "Generative AI"
 ---
 
 # Midjourney

@@ -9,8 +9,8 @@ tags:
   - product-family
   - ai
   - video-generation
-parent_actor: "[[Runway]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Runway"
+parent_concept: "Generative AI"
 ---
 
 # Runway Gen

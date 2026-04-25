@@ -5,7 +5,7 @@ tags:
   - product
   - cybersecurity
   - endpoint-management
-parent: "[[Fortinet]]"
+parent: "Fortinet"
 ---
 
 Endpoint management and VPN client platform developed by [[Fortinet]]. FortiClient EMS (Enterprise Management Server) provides centralized endpoint visibility, compliance enforcement, and automated response across enterprise environments.

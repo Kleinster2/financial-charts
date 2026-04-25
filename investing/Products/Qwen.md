@@ -12,8 +12,8 @@ tags:
   - product-family
   - ai
   - china
-parent_actor: "[[Alibaba]]"
-parent_concept: "[[Frontier models]]"
+parent_actor: "Alibaba"
+parent_concept: "Frontier models"
 ---
 
 **Qwen** (通义千问) — [[Alibaba]]'s AI model family and consumer app. 203M MAU (Feb 2026), #3 AI app globally. 1B+ downloads across platforms. Qwen3-Max (1T+ params) competitive with frontier models. Originally fully open-source; as of April 2026, leading models kept proprietary for cloud customers.

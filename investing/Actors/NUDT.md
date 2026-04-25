@@ -1,5 +1,5 @@
 ---
-aliases: [National University of [[Defense]] Technology, 国防科技大学]
+aliases: [National University of Defense Technology, 国防科技大学]
 ---
 #actor #china #military #ai #compute
 

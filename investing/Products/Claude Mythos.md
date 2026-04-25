@@ -1,7 +1,7 @@
 ---
 aliases: [Mythos, Capybara, Claude Capybara, Claude Mythos Preview]
 tags: [product, ai]
-parent_actor: "[[Anthropic]]"
+parent_actor: "Anthropic"
 ---
 
 # Claude Mythos

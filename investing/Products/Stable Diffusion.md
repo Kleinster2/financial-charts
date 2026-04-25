@@ -11,8 +11,8 @@ tags:
   - ai
   - image-generation
   - open-source
-parent_actor: "[[Stability AI]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "Stability AI"
+parent_concept: "Generative AI"
 ---
 
 # Stable Diffusion

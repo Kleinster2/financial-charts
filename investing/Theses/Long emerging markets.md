@@ -1,5 +1,5 @@
 ---
-aliases: [EM supercycle, [[Emerging markets]] supercycle]
+aliases: [EM supercycle, Emerging markets supercycle]
 ---
 #thesis #long #macro #em
 

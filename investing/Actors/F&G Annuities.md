@@ -1,5 +1,5 @@
 ---
-aliases: [F&G, F&G Annuities & Life, FG, [[Fidelity]] & Guaranty Life]
+aliases: [F&G, F&G Annuities & Life, FG, Fidelity & Guaranty Life]
 ---
 #actor #finance #insurance #retirement #usa #public
 

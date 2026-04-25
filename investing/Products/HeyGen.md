@@ -7,8 +7,8 @@ tags:
   - product-family
   - ai
   - video-generation
-parent_actor: "[[HeyGen]]"
-parent_concept: "[[Generative AI]]"
+parent_actor: "HeyGen"
+parent_concept: "Generative AI"
 ---
 
 # HeyGen

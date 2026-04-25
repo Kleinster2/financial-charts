@@ -1,5 +1,5 @@
 ---
-aliases: [Hanwha [[Aerospace]], Hanwha Defense, 012450.KS]
+aliases: [Hanwha Aerospace, Hanwha Defense, 012450.KS]
 ---
 #actor #defense #korea #public
 

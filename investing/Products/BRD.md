@@ -5,8 +5,8 @@ tags:
   - stablecoin
   - crypto
   - brazil
-parent_actor: "[[CF Inovação]]"
-parent_concept: "[[Crypto]]"
+parent_actor: "CF Inovação"
+parent_concept: "Crypto"
 ---
 
 # BRD

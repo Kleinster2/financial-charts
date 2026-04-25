@@ -1,5 +1,5 @@
 ---
-aliases: [[[Raytheon]], RTX Corp, RTX Corporation]
+aliases: [Raytheon, RTX Corp, RTX Corporation]
 ---
 #actor #defense #usa #public
 

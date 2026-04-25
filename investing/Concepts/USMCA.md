@@ -1,5 +1,5 @@
 ---
-aliases: [USMCA, US-Mexico-[[Canada]] Agreement, NAFTA 2.0, T-MEC, CUSMA]
+aliases: [USMCA, US-Mexico-Canada Agreement, NAFTA 2.0, T-MEC, CUSMA]
 ---
 #concept #trade #northamerica #autos #nearshoring
 

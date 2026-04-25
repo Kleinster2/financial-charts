@@ -1,5 +1,5 @@
 ---
-aliases: [FNF, [[Fidelity]] National Title, Chicago Title]
+aliases: [FNF, Fidelity National Title, Chicago Title]
 ---
 #actor #finance #insurance #realestate #usa #public
 

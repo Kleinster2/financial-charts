@@ -1,5 +1,5 @@
 ---
-aliases: [MRK.DE, EMD, [[Merck]] Darmstadt]
+aliases: [MRK.DE, EMD, Merck Darmstadt]
 ---
 #actor #semiconductor #materials #germany #public #photoresist #healthcare
 

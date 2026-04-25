@@ -5,8 +5,8 @@ tags:
   - stablecoin
   - crypto
   - brazil
-parent_actor: "[[Transfero]]"
-parent_concept: "[[Crypto]]"
+parent_actor: "Transfero"
+parent_concept: "Crypto"
 ---
 
 # BRZ

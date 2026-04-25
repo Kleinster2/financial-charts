@@ -1,5 +1,5 @@
 ---
-aliases: [[[Benchmark]] Mineral Intelligence]
+aliases: [Benchmark Mineral Intelligence]
 ---
 #actor #data #commodities #uk
 

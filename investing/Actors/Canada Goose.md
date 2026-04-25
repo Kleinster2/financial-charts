@@ -1,5 +1,5 @@
 ---
-aliases: [GOOS, [[Canada]] Goose Holdings]
+aliases: [GOOS, Canada Goose Holdings]
 ---
 #actor #luxury #fashion #canada #public
 
