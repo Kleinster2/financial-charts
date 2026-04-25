@@ -538,6 +538,36 @@ This section answers: What's the non-obvious takeaway? What pattern does this re
 
 ---
 
+## Standard output pattern: Causal readthrough
+
+Use a **causal readthrough** when a news item, policy push, earnings call, or market move needs the underlying mechanism explained rather than merely summarized.
+
+This is the right format when the question is: *What changed, what was already happening, what does the catalyst add, and who gets pulled along?*
+
+**Structure:**
+
+1. **What was already happening** — the organic market / technology / competitive trend before the catalyst.
+2. **Why it was happening anyway** — economic incentives, price pressure, user demand, cost structure, regulation, or supply-chain logic.
+3. **What the catalyst adds** — state pressure, capital access, procurement signal, validation, coordination, timing, or permission.
+4. **Who benefits / who gets pressured** — specific actors, suppliers, customers, and second-order exposures.
+5. **Best formulation** — one crisp sentence that captures the causal mechanism.
+
+**Style:**
+- Use causal verbs: forces, pulls, accelerates, validates, reframes, coordinates, nationalizes, commoditizes.
+- Separate organic trend from overlay. Do not imply the catalyst created a trend that was already underway.
+- Name the concrete mechanism, not just the theme.
+- End with the formulation the user can reuse.
+
+**Example formulation:**
+
+> China is not pushing automakers into AI from zero; it is nationalizing the direction of travel. The market was already making EVs more software-defined. Beijing is turning that into an industrial-policy campaign.
+
+**Where it goes:**
+- In chat: use directly as a compact answer.
+- In notes: convert into `## Synthesis`, `## Insights`, or a short readthrough subsection under the relevant concept / thesis note.
+
+---
+
 ## Prices note structure (Economics/Prices split)
 
 Any concept or actor with a tradeable price splits into `[Thing] Economics` and `[Thing] Prices`. The Economics note follows the standard concept structure. The Prices note has its own structure:
