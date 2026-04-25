@@ -397,13 +397,17 @@ curl "http://localhost:5000/api/chart/waterfall?ticker=MSFT&period=quarterly" -o
 
 When `dual_axis=true` with both price scales in log mode (`mode: 1`), LW Charts displays **incorrect prices** — `lastValueVisible` labels show stale values and the axis scaling is distorted. Linear mode (`mode: 0`) works correctly but compresses early data on long timeframes.
 
-**Workaround:** For dual-axis log charts, use standalone matplotlib with `ax.semilogy()`. Name the output file so the obsidian-chart-refresh plugin can't parse it (no `-vs-` or `-price-chart.png` suffix), e.g. `bptrx-spacex-dual-axis.png`. The plugin pattern-matches filenames *before* checking `chart-registry.md`, so `skip: true` alone is not reliable.
+**Workaround:** For dual-axis log charts, use standalone matplotlib with `ax.semilogy()`. Name the output file so the Quartz `lwcharts.ts` transformer can't parse it (no `-vs-` or `-price-chart.png` suffix), e.g. `bptrx-spacex-dual-axis.png`. The transformer pattern-matches filenames *before* checking `chart-registry.md`, so `skip: true` alone is not reliable.
 
-### Plugin auto-refresh naming
+### Auto-refresh naming (Quartz `lwcharts.ts` transformer)
 
-The obsidian-chart-refresh plugin parses tickers from filenames:
-- `ticker-vs-ticker-price-chart.png` → refreshed via `/api/chart/lw`
-- `ticker-price-chart.png` → refreshed via `/api/chart/lw`
-- `*-fundamentals.png` → skipped
+The Quartz transformer (`quartz-investing/quartz/plugins/transformers/lwcharts.ts`) parses tickers from filenames:
+- `ticker-vs-ticker-price-chart.png` → live iframe via `/api/chart/lw?...&format=html`
+- `ticker-price-chart.png` → live iframe via `/api/chart/lw?...&format=html`
+- `ticker-NNd.png` / `ticker-NNy.png` → duration-based start (e.g., `aapl-90d`, `msft-1y`)
+- `ticker-ytd.png` → year-to-date start
+- `*-fundamentals.png` → skipped (left as static `<img>`)
 
-Charts that must **not** be auto-refreshed (matplotlib, custom) should use filenames that don't match these patterns. The `chart-registry.md` `skip: true` is a secondary safeguard but not sufficient on its own.
+Charts that must **not** be auto-refreshed as iframes (matplotlib, custom-script-generated) should use filenames that don't match these patterns. The `chart-registry.md` `skip: true` flag is a secondary safeguard but not sufficient on its own.
+
+The previous `obsidian-chart-refresh/` Obsidian plugin was decommissioned 2026-04-25 — the parsing rules above are now implemented in Quartz's `lwcharts.ts` transformer. See `docs/quartz-viewer.md` for the full Quartz install + patches.

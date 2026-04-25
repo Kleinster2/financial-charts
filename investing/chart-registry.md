@@ -104,6 +104,24 @@ charts:
     normalize: true
     start: 2024-01-01
     primary: ASML
+  coinbase-price.png:
+    tickers: COIN
+    normalize: false
+  pm-price.png:
+    tickers: PM
+    normalize: false
+  cg-price.png:
+    tickers: CG
+    normalize: false
+  pypl-price.png:
+    tickers: PYPL
+    normalize: false
+  usdinr-chart.png:
+    tickers: USDINR=X
+    normalize: false
+  india-rupee-usd.png:
+    tickers: USDINR=X
+    normalize: false
 ---
 
 # Chart Registry

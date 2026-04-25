@@ -1,7 +1,10 @@
-# Obsidian Chart Refresh Plugin
+# Obsidian Chart Refresh Plugin (decommissioned)
 
-**Status:** Planned
+**Status:** Decommissioned 2026-04-25 — superseded by the Quartz `lwcharts.ts` transformer (see `docs/quartz-viewer.md`).
 **Created:** 2026-01-20
+
+> **Historical note (2026-04-25):** This plugin was deleted from the repo when the Quartz viewer migration shipped. The filename-parsing logic (`-vs-`, `-price-chart`, `-ytd`, duration suffixes, `-fundamentals` skip) was ported into `quartz-investing/quartz/plugins/transformers/lwcharts.ts`, which now serves the same role for the Quartz site (rewriting `<img>` to live iframes). The chart-registry fallback at `investing/chart-registry.md` carries over unchanged. This document is retained as historical context for the original design + rationale; for current behavior, see `docs/quartz-viewer.md` and the lwcharts.ts source.
+
 
 ## Problem
 
