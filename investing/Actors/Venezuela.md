@@ -1,10 +1,22 @@
+---
+aliases:
+  - Bolivarian Republic of Venezuela
+tags:
+  - actor
+  - country
+  - geography
+  - oil
+  - latam
+---
 #actor #geography #oil #latam
 
-**Venezuela** — World's largest proven oil reserves. Collapsed production due to nationalization, mismanagement, sanctions. **January 2026:** US captured Maduro in military strike — regime change, oil market uncertainty.
+**Venezuela** — World's largest proven oil reserves. Collapsed production due to nationalization, mismanagement, sanctions. January 2026: US captured Maduro in military strike — regime change, oil market uncertainty.
+
+Venezuela is the vault's core case study for resource abundance trapped by nationalization, sanctions, and state-company failure. Since the January 2026 [[Maduro capture 2026|Maduro capture]], the investment question has shifted from whether the country has oil to whether a transition government can make [[PDVSA]], creditors, foreign operators, and US sanctions policy line up long enough for production to recover.
 
 ---
 
-## Why Venezuela matters
+## Quick stats
 
 Venezuela is a cautionary tale and potential swing factor:
 
@@ -20,7 +32,7 @@ Venezuela is a cautionary tale and potential swing factor:
 
 ## The collapse
 
-**From oil giant to basket case:**
+From oil giant to basket case:
 
 | Era | Production | What happened |
 |-----|------------|---------------|
@@ -31,13 +43,13 @@ Venezuela is a cautionary tale and potential swing factor:
 | 2019 | 700K bpd | US sanctions (Trump) |
 | 2023+ | ~900K bpd | Partial recovery, Chevron license |
 
-**Root cause:** Nationalization drove out expertise, PDVSA became patronage vehicle.
+Root cause: Nationalization drove out expertise, PDVSA became patronage vehicle.
 
 ---
 
 ## 2007 nationalizations
 
-**Chavez forced restructuring:**
+Chavez forced restructuring:
 - Foreign companies had to become minority partners (max 40%)
 - PDVSA took 60%+ control of all projects
 - Companies that refused were expropriated
@@ -49,13 +61,13 @@ Venezuela is a cautionary tale and potential swing factor:
 | [[Chevron]] | Accepted minority role, stayed |
 | Total, Statoil, [[BP]] | Accepted, stayed |
 
-**Chevron's bet:** Staying would pay off eventually.
+Chevron's bet: Staying would pay off eventually.
 
 ---
 
 ## Arbitration awards
 
-**Expropriated companies won billions:**
+Expropriated companies won billions:
 
 | Company | Award | Status |
 |---------|-------|--------|
@@ -69,13 +81,13 @@ Venezuela/PDVSA largely unable to pay — assets seized in Caribbean.
 
 ## US sanctions
 
-**Trump era (2019):**
+Trump era (2019):
 - Banned US companies from dealing with PDVSA
 - Chevron got limited "wind-down" license
 - Production cratered further
 - Goal: Pressure Maduro to leave
 
-**Biden era (2022+):**
+Biden era (2022+):
 - Granted Chevron license to resume operations (Nov 2022)
 - Tied to democratic reforms (not delivered)
 - Chevron ramping production
@@ -85,7 +97,7 @@ Venezuela/PDVSA largely unable to pay — assets seized in Caribbean.
 
 ## Chevron's unique position
 
-**Only US company with Venezuela license:**
+Only US company with Venezuela license:
 
 | Advantage | Description |
 |-----------|-------------|
@@ -94,13 +106,13 @@ Venezuela/PDVSA largely unable to pay — assets seized in Caribbean.
 | PDVSA relationship | Maintained ties |
 | Upside optionality | If sanctions lift fully |
 
-**Risk:** License depends on US politics — could be revoked.
+Risk: License depends on US politics — could be revoked.
 
 ---
 
 ## Production potential
 
-**If sanctions lifted and investment returned:**
+If sanctions lifted and investment returned:
 
 | Scenario | Production potential |
 |----------|---------------------|
@@ -108,24 +120,24 @@ Venezuela/PDVSA largely unable to pay — assets seized in Caribbean.
 | Moderate investment | 1.5-2M bpd |
 | Full rehabilitation | 2.5-[[3M]] bpd (years away) |
 
-**Reality:** Infrastructure degraded, expertise gone, would take years and billions.
+Reality: Infrastructure degraded, expertise gone, would take years and billions.
 
 ---
 
 ## Investment angle
 
-**Not directly investable**, but:
+Not directly investable, but:
 - [[Chevron]] — only US company with access
 - Oil prices — Venezuela supply affects global market
 - Sanctions policy — watch US politics
 
-**Chevron's Venezuela exposure:** ~5-10% of production if ramped up.
+Chevron's Venezuela exposure: ~5-10% of production if ramped up.
 
 ---
 
 ## Debt restructuring potential (Jan 2026)
 
-**Venezuela back in sovereign bond market discussions:**
+Venezuela back in sovereign bond market discussions:
 
 | Metric | Value |
 |--------|-------|
@@ -133,7 +145,7 @@ Venezuela/PDVSA largely unable to pay — assets seized in Caribbean.
 | Status | Wall Street discussing restructuring |
 | Catalyst | Maduro capture, regime change |
 
-**Context:** Venezuela was once a major borrower in global sovereign bond market. Post-Maduro, restructuring becomes conceivable.
+Context: Venezuela was once a major borrower in global sovereign bond market. Post-Maduro, restructuring becomes conceivable.
 
 See [[Long emerging markets]] — Venezuela as "new frontier" in EM supercycle thesis.
 
@@ -152,7 +164,7 @@ See [[Long emerging markets]] — Venezuela as "new frontier" in EM supercycle t
 
 ## January 2026 — US captures Maduro
 
-**Major breaking news (January 3, 2026):**
+Major breaking news (January 3, 2026):
 
 | Event | Detail |
 |-------|--------|
@@ -162,25 +174,25 @@ See [[Long emerging markets]] — Venezuela as "new frontier" in EM supercycle t
 | Charges | Narco-terrorism indictment unsealed |
 | Trump announcement | US will "run" Venezuela, take control of oil |
 
-**Trump's oil statement:**
+Trump's oil statement:
 - US will "run" Venezuela temporarily during transition
 - US will take control of Venezuela's oil reserves
 - American companies to invest billions to rebuild industry
 - "We built Venezuela's oil industry"
 
-**Key implications:**
+Key implications:
 
-- **Interim Government:** Established with US backing during transition
-- **Regime change:** First US military capture of sitting foreign leader
-- **[[PDVSA]]:** To be run by US during transition
-- **[[Chevron]]:** Only current US operator — status uncertain
-- **[[Exxon]]:** Could potentially return under new regime
-- **[[Citgo]]:** US refining arm, critical asset, legal limbo
-- **Oil prices:** Near-term volatility, long-term bearish if supply grows
+- Interim Government: Established with US backing during transition
+- Regime change: First US military capture of sitting foreign leader
+- [[PDVSA]]: To be run by US during transition
+- [[Chevron]]: Only current US operator — status uncertain
+- [[Exxon]]: Could potentially return under new regime
+- [[Citgo]]: US refining arm, critical asset, legal limbo
+- Oil prices: Near-term volatility, long-term bearish if supply grows
 
-**International reaction:** UN "deeply alarmed," called it "illegal abduction" and dangerous precedent.
+International reaction: UN "deeply alarmed," called it "illegal abduction" and dangerous precedent.
 
-**Watch:**
+Watch:
 - Transition government formation
 - US oil company investments
 - Chevron operational continuity
@@ -190,9 +202,19 @@ See [[Maduro capture 2026]] for full event details.
 
 ---
 
+## March 25, 2026 — FII Priority Miami pitch
+
+[[Delcy Rodriguez]], Venezuela's interim president after the [[Maduro capture 2026|Maduro capture]], appeared by video from Caracas at [[FII Priority Miami 2026]] during the summit's New LATAM Order opening. The pitch was aimed directly at Western, Saudi, and Latin American capital allocators — a striking reversal for a Chavista successor government addressing an investor audience in Miami.
+
+The message: Venezuela wants to convert regime change into investability. Rodriguez highlighted oil reserves, transition stability, and the new hydrocarbons framework reducing [[PDVSA]]'s monopoly position by allowing more private-sector participation. The practical test is whether US authorization, legal stability, and production-sharing economics are credible enough for oil companies, service firms, Gulf capital, and development-finance actors to re-enter.
+
+No deal was announced, and the video feed cut off when Q&A began. Still, the appearance matters as a market signal: Venezuela is trying to move from sanctions-isolated oil province to capital-reopening story.
+
+---
+
 ## Jan 12, 2026 — Trump excludes Exxon
 
-**Trump retaliates after Exxon skepticism:**
+Trump retaliates after Exxon skepticism:
 
 | Statement | Trump response |
 |-----------|----------------|
@@ -200,7 +222,7 @@ See [[Maduro capture 2026]] for full event details.
 | Woods: Need "significant changes" | "They're playing too cute" |
 | Outcome | Trump "inclined to keep Exxon out" |
 
-**Implications:**
+Implications:
 - [[Chevron]] strengthens as sole major US operator
 - [[Exxon]] may be excluded from Venezuela rebuild
 - Trump rewards loyalty, punishes public pushback
@@ -212,9 +234,9 @@ See [[Maduro capture 2026]] for full event details.
 
 ## Banking landscape
 
-**Domestic system:** Heavily regulated, severe financial isolation. Relies on foreign banks outside US jurisdiction, alternative currencies, offshore intermediaries.
+Domestic system: Heavily regulated, severe financial isolation. Relies on foreign banks outside US jurisdiction, alternative currencies, offshore intermediaries.
 
-**Foreign bank presence:**
+Foreign bank presence:
 
 | Bank | Status |
 |------|--------|
@@ -223,40 +245,40 @@ See [[Maduro capture 2026]] for full event details.
 | [[Citigroup]] | Sold operations to Banco Nacional de Crédito (BNC), exited 2021 |
 | [[Bank of Nova Scotia]] | Exited 2014 |
 
-**JPMorgan positioning:**
+JPMorgan positioning:
 - Dormant Caracas office maintained for years — could reactivate as needed
 - Internal idea floated: trade bank for oil exports (similar to [[Trade]] Bank of Iraq, 2003)
 - Could tap $1.5T Security and Resiliency Initiative for critical minerals financing
 - Currently trades Venezuelan sovereign bonds (non-sanctioned) with offshore counterparties
 
-**If sanctions ease — opportunities:**
+If sanctions ease — opportunities:
 - [[Trade]] financing for oil exports
 - Infrastructure investment financing
 - Export-Import Bank involvement (per [[ConocoPhillips]] CEO at Jan 9 WH meeting)
 - Restructuring and energy financing deals
 
-**Caution:** Even after [[Iran]] sanctions lifted (2016), global banks remained reluctant. Venezuela may face similar hesitancy.
+Caution: Even after [[Iran]] sanctions lifted (2016), global banks remained reluctant. Venezuela may face similar hesitancy.
 
 ---
 
 ## Foreign creditors & rivals
 
-**China (~$60B exposure):**
+China (~$60B exposure):
 
 | Actor | Relationship | Debt Type |
 |-------|--------------|-----------|
 | [[China]] | ~$60B total exposure | Mixed |
-| [[CNPC]] | ~$20B loans | **[[PDVSA]] Debt** (Oil-for-loans) |
-| Sovereign | Balance of loans | **Sovereign Debt** (Infrastructure etc) |
+| [[CNPC]] | ~$20B loans | [[PDVSA]] Debt (Oil-for-loans) |
+| Sovereign | Balance of loans | Sovereign Debt (Infrastructure etc) |
 | [[Sinopec]] | Oil buyer | Commercial |
 
-**Post-Maduro:** Chinese debt repayment uncertain. US may displace Chinese oil access.
+Post-Maduro: Chinese debt repayment uncertain. US may displace Chinese oil access.
 
-**Legal Battleground:**
-- **Expropriation Claims:** [[Exxon]] ($1.6B) and [[ConocoPhillips]] ($8.7B) hold judgments against the **[[Republic]] of Venezuela** (Sovereign).
-- **The "Alter Ego" Trap:** Creditors argue [[PDVSA]] is an "alter ego" of the state, allowing them to seize PDVSA assets (like [[Citgo]]) to pay Sovereign debt.
+Legal Battleground:
+- Expropriation Claims: [[Exxon]] ($1.6B) and [[ConocoPhillips]] ($8.7B) hold judgments against the [[Republic]] of Venezuela (Sovereign).
+- The "Alter Ego" Trap: Creditors argue [[PDVSA]] is an "alter ego" of the state, allowing them to seize PDVSA assets (like [[Citgo]]) to pay Sovereign debt.
 
-**Russia:**
+Russia:
 
 | Support type | Description |
 |--------------|-------------|
@@ -264,9 +286,9 @@ See [[Maduro capture 2026]] for full event details.
 | [[Rosneft]] | Had oil stakes (sold 2020 to avoid sanctions) |
 | Arms | Military equipment supplier |
 
-**Post-Maduro:** Russia loses key Latin America ally.
+Post-Maduro: Russia loses key Latin America ally.
 
-**The shift:**
+The shift:
 
 | Before (Maduro) | After (US control) |
 |-----------------|-------------------|
@@ -275,9 +297,9 @@ See [[Maduro capture 2026]] for full event details.
 | Chinese loans serviced | Debt status uncertain |
 | Sanctioned from US | US "running" country |
 
-**Where oil went:** China was primary buyer (~300-400K bpd) because US sanctions blocked American buyers. [[Sinopec]], [[CNPC]] refineries in China processed Venezuelan heavy crude. [[India]] also bought opportunistically at deep discounts.
+Where oil went: China was primary buyer (~300-400K bpd) because US sanctions blocked American buyers. [[Sinopec]], [[CNPC]] refineries in China processed Venezuelan heavy crude. [[India]] also bought opportunistically at deep discounts.
 
-**Investment implication:** [[Gulf Coast refiners]] ([[Valero]], [[PBF Energy]]) and [[Chevron]] gain at expense of [[CNPC]], [[Sinopec]].
+Investment implication: [[Gulf Coast refiners]] ([[Valero]], [[PBF Energy]]) and [[Chevron]] gain at expense of [[CNPC]], [[Sinopec]].
 
 ---
 
@@ -285,6 +307,8 @@ See [[Maduro capture 2026]] for full event details.
 
 - [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9 Trump meeting, industry skeptical
 - [[Maduro capture 2026]] — January 2026 US military action
+- [[Delcy Rodriguez]] — interim president; March 25 FII investor pitch
+- [[FII Priority Miami 2026]] — Saudi-backed investment platform where Venezuela made the pitch
 - [[Chevron]] — only US company with license
 - [[Exxon]] — exited, won arbitration
 - [[CNPC]], [[Sinopec]] — Chinese creditors/buyers
@@ -302,4 +326,8 @@ See [[Maduro capture 2026]] for full event details.
 - [[Citigroup]] — exited 2021
 - [[BBVA]] — only major foreign bank with presence
 - [[Bank of Nova Scotia]] — exited 2014
+
+## Cross-vault
+
+- [Geopolitics: Venezuela](obsidian://open?vault=geopolitics&file=Actors%2FVenezuela) — statecraft and regime-change context
 

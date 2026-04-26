@@ -192,6 +192,30 @@ The Trump orbit is deeply embedded in the summit's commercial infrastructure. [[
 
 ---
 
+## Day 1 — March 25
+
+### New LATAM Order and Venezuela pitch
+
+The opening day put the US-LATAM-Gulf investment corridor at the center of the summit. FII framed Latin America as a region where nearshoring, infrastructure, energy, human capital, and political realignment could redirect long-term capital.
+
+The most market-relevant moment was a video appearance by [[Delcy Rodriguez]], [[Venezuela]]'s interim president after the January 2026 [[Maduro capture 2026|Maduro capture]]. Rodriguez pitched Venezuela directly to Western, Saudi, and Latin American capital allocators — a reversal of the old Chavista posture toward Miami and US finance.
+
+Her pitch centered on three claims: post-transition macro stability, the world's largest proven oil reserves, and a new hydrocarbons framework that reduces [[PDVSA]]'s monopoly position by allowing more private-sector participation. The investment read is that Venezuela is trying to convert regime change into investability: legal stability, oil-sector opening, and US authorization pathways matter more than slogans.
+
+The feed cut off when Q&A began. Organizers described it as a technical issue; Venezuelan coverage treated the cutoff as abrupt. Either way, the appearance itself was the signal: the post-Maduro government was using a Saudi-backed investment platform to test re-entry into mainstream capital channels.
+
+### Capital in Motion Index
+
+The FII Institute launched the Capital in Motion Index on March 25 as a global framework for tracking strategic capital flows across borders, sectors, and technologies. Full rollout is scheduled for FII10 in Riyadh (October 26-29, 2026). The index is FII's bid to move from conference convening into capital-flow intelligence — measuring where sovereign, institutional, and private capital is actually moving rather than where headline pledges say it might move.
+
+### Closed-door digital assets and private diplomacy
+
+The invite-only digital assets conclave was held on March 25, co-chaired by [[Zach Witkoff]] ([[World Liberty Financial]]) and [[Maja Vujinovic]]. No public deal disclosures came out of the closed session. The policy backdrop was already visible: stablecoins, tokenized assets, and dollar settlement rails were being framed as strategic infrastructure, with the public stablecoin panel scheduled for Day 2.
+
+[[Donald Trump]] attended a private dinner that evening hosted by [[Yasir Al-Rumayyan]], ahead of his March 27 closing keynote. That dinner reinforced the summit's real function: personal diplomacy, political access, and capital allocation wrapped into the same event architecture.
+
+---
+
 ## Day 2 — March 26
 
 ### Al-Rumayyan opening keynote (8:35–8:55 AM ET)
@@ -228,9 +252,9 @@ Garlinghouse cited the [[CLARITY Act]] specifically as legislation he expects to
 
 WLF context: the USD1 stablecoin was the fifth-largest stablecoin as of May 2025. A February 2026 WSJ report revealed UAE firm Aryam Investment 1 — controlled by [[Sheikh Tahnoon bin Zayed Al Nahyan|Tahnoon bin Zayed Al Nahyan]] ("Spy Sheikh") — purchased a 49% stake in WLF for $500M just before Trump's inauguration, with approximately $187M directed to Trump family entities. The House Select Committee letter to WLF (February 4, 2026) adds formal congressional scrutiny.
 
-### Capital in Motion Index — launch
+### Capital in Motion Index — Day 2 follow-through
 
-The FII Institute launched the Capital in Motion Index (CMI) — a new global initiative to track and decode strategic capital flows. Full rollout is planned for FII10 in Riyadh (October 26–29, 2026). The CMI is designed to provide a systematic framework for measuring where sovereign, institutional, and private capital is actually moving versus where it is rhetorically committed.
+The Capital in Motion Index launched on March 25 and remained one of the summit's institutional messages on Day 2. The CMI is designed to provide a systematic framework for measuring where sovereign, institutional, and private capital is actually moving versus where it is rhetorically committed.
 
 ### Saudi Eksab — IDB Group LATAM agreement
 
@@ -350,6 +374,8 @@ Richard Attias (March 26, 2026): "Latin America is no longer a region of potenti
 - [[Yasir Al-Rumayyan]] — PIF Governor, FII Institute chairman
 - [[Mohammed bin Salman]] — PIF chairman, Vision 2030 architect
 - [[Saudi Arabia]] — country
+- [[Venezuela]] — Day 1 LATAM pitch
+- [[Delcy Rodriguez]] — Venezuela interim president; Day 1 video appearance
 - [[Strait of Hormuz]] — conflict backdrop (disrupted during summit)
 - [[Iran conflict oil price timeline]] — market context
 - [[Gulf Sovereign Capital Reallocation]] — capital shift framework
@@ -358,7 +384,14 @@ Richard Attias (March 26, 2026): "Latin America is no longer a region of potenti
 - [[World Liberty Financial]] — Trump-linked digital assets (co-chairs conclave)
 - [[Hormuz Transit Regime]] — Iran's monetization of chokepoint control
 
-### Cross-vault
+## Sources
+
+- [FII Institute — Capital in Motion Index launch](https://fii-institute.org/press/fii-institute-launches-capital-in-motion-index-to-decode-global-investment-flows-shaping-the-future/)
+- [FII Institute — Day 0 / New LATAM Order coverage](https://fii-institute.org/press/fii-priority-miami-convenes-global-leaders-as-capital-in-motion-shapes-a-new-investment-landscape/)
+- [Miami Herald — Delcy Rodriguez appeals for US investment](https://www.miamiherald.com/news/nation-world/world/americas/venezuela/article315182883.html)
+- [AP via Local10 — Venezuela's Delcy Rodriguez pitches newly opened oil sector](https://www.local10.com/business/2026/03/25/venezuelas-delcy-rodriguez-pitches-newly-opened-oil-sector-to-investors-at-miami-summit/)
+
+## Cross-vault
 - [Geopolitics: Saudi Arabia](obsidian://open?vault=geopolitics&file=Actors%2FSaudi%20Arabia) — statecraft, US-Saudi alliance framework
 - [Geopolitics: Iran](obsidian://open?vault=geopolitics&file=Actors%2FIran) — conflict context
 
