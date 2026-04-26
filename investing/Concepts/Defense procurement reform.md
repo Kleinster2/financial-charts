@@ -112,6 +112,12 @@ The market reaction in [[Trump defense budget]] (primes +6.7% on the $1.5T headl
 
 ---
 
+## Cross-vault
+
+- [Geopolitics: Defense Industry](obsidian://open?vault=geopolitics&file=Concepts%2FDefense%20Industry) -- statecraft lens on US dual-use industrial-base rebuilding and defense surge capacity.
+
+---
+
 ## Related
 
 - [[Dan Driscoll]] — architect
