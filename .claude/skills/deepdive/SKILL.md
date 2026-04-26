@@ -20,13 +20,13 @@ Most entities already have some vault presence. The default path is expansion, n
 
 2. **Vault search** — find all mentions across the investing vault:
    ```bash
-   "/c/Users/klein/AppData/Local/Programs/Obsidian/Obsidian.com" vault=investing search query="ENTITY NAME"
+   bash scripts/vault_search.sh investing "ENTITY NAME"
    ```
    Also search by ticker, product names, key people — anything that might surface references the entity name misses.
 
 3. **Geopolitics vault search** — if the entity touches defense, trade, sanctions, diplomacy, energy security, or industrial policy:
    ```bash
-   "/c/Users/klein/AppData/Local/Programs/Obsidian/Obsidian.com" vault=geopolitics search query="ENTITY NAME"
+   bash scripts/vault_search.sh geopolitics "ENTITY NAME"
    ```
    Note specific counterpart notes for cross-vault linking later.
 
@@ -125,7 +125,7 @@ Skip charts entirely for private companies and concepts. For concepts, harvest s
 
 3. **Stale reference scan** — search the vault for other notes that mention this entity:
    ```bash
-   "/c/Users/klein/AppData/Local/Programs/Obsidian/Obsidian.com" vault=investing search query="ENTITY NAME"
+   bash scripts/vault_search.sh investing "ENTITY NAME"
    ```
    Check if any of those notes contain stale data (old valuations, outdated revenue figures, wrong status). If you find stale references, update them. This is vault maintenance — data consistency across the entire vault matters.
 
