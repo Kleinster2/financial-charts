@@ -13,14 +13,12 @@ Shared investing-vault workflows live in three runtimes:
 The source of truth is [skills/shared-workflows.json](../skills/shared-workflows.json).
 
 - `workflowSkills` lists skills expected to exist in all three runtimes.
-- `openclawAdapted` is a temporary exception list for OpenClaw ports that cannot yet match exactly. It should normally be empty.
 
 ## Rules
 
 - Codex, Claude Code, and OpenClaw skills should match byte-for-byte after newline normalization.
 - Runtime setup belongs outside the skill body. OpenClaw should set the working directory to `C:\Users\klein\financial-charts` and load project instructions through runtime configuration, not by forking workflow text.
-- OpenClaw skills may differ only as a short-lived migration exception listed in the shared workflow manifest.
-- Adapted OpenClaw ports are also checked semantically: the parity script normalizes absolute repo paths, path separators, `Set-Location` / `Get-Content CLAUDE.md` setup lines, and ASCII-vs-Unicode punctuation, then compares the result to Codex/Claude. Any remaining difference is semantic drift and fails strict mode.
+- OpenClaw skills should not carry runtime-specific forks, alternate wording, or behavior changes.
 - After editing any shared skill, promote the intended source into every runtime:
   ```powershell
   python scripts\promote_shared_skill.py story --from newest
