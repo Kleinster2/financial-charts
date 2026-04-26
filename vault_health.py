@@ -3,11 +3,19 @@ from collections import defaultdict
 
 os.chdir('investing')
 
+SKIP_FOLDERS = {'Daily', 'Meta', 'Newsletter', 'Reports'}
+SKIP_FILES = {'chart-registry.md', 'research-queue.md'}
+
 all_notes = []
 for root, dirs, files in os.walk('.'):
     dirs[:] = [d for d in dirs if not d.startswith('.')]
     for f in files:
         if f.endswith('.md'):
+            rel_parts = os.path.normpath(os.path.join(root, f)).split(os.sep)
+            if f in SKIP_FILES:
+                continue
+            if any(part in SKIP_FOLDERS for part in rel_parts):
+                continue
             all_notes.append((f[:-3], os.path.join(root, f)))
 
 file_names = {name.lower(): name for name, path in all_notes}
