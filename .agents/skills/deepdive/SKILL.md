@@ -95,7 +95,7 @@ Generate the full chart set — not just a price chart. Each chart reveals somet
 
 2. **Fundamentals chart** (required if fundamentals are in DB):
    ```
-   /api/chart/image?ticker=TICKER&metrics=revenue,net_income&start=...
+   /api/chart/lw?tickers=TICKER&metrics=revenue,netincome&start=...
    ```
 
 3. **Sankey diagram** (required if income statement data exists in DB):

@@ -42,6 +42,7 @@ DEFAULT_WORKFLOW_SKILLS = [
 
 # OpenClaw skills often need absolute paths and runtime-specific guardrails.
 DEFAULT_OPENCLAW_ADAPTED = {
+    "deepdive",
     "news",
     "ingest",
     "earnings",
