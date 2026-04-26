@@ -2,9 +2,9 @@
 date: 2026-04-26
 type: daily-story-report
 source: "[[2026-04-26]]"
-generated: 2026-04-26 17:35
-story_cards: 7
-touched_notes: 47
+generated: 2026-04-26 03:34
+story_cards: 8
+touched_notes: 55
 tags: [report, daily-story]
 ---
 
@@ -21,6 +21,7 @@ tags: [report, daily-story]
 | Venezuela tries to reenter through a Saudi platform | [[FII Priority Miami 2026]], [[Delcy Rodriguez]], [[Nicolas Maduro]], [[Venezuela]] |
 | Kndrd finds its sector home in the loneliness economy | [[Kndrd]], [[Consumer Internet]] |
 | Chart audit narrows to one unrecovered image | [[Intel]], `60-40-vs-spx-iran-war-bloomberg-mar2026.png`, `orix-vs-peers.png`, `vault_review.py`, `audit_chart_embeds.py` |
+| ORIX turns from compliance debt into a usable Japan/private-credit node | [[ORIX]], [[ORIX securities]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]] |
 
 ---
 
@@ -136,6 +137,22 @@ Watch: whether the Bloomberg `asia-hedging-costs-bloomberg-mar2026.png` source c
 
 ---
 
+## ORIX is now a Japan private-credit node, not just a broken chart reference
+
+Touched: [[ORIX]], [[ORIX securities]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]]
+
+The story is that a compliance cleanup turned [[ORIX]] into a usable Japan financials / private-credit node. ORIX now has a synopsis, sector correlation, ten-year financials, ratings history, financial charts, and a securities split; [[ORIX securities]] carries the IX / 8591.T market wrapper and the Japanese-bank peer chart.
+
+What changed: IX fundamentals were added through `fetch_fundamentals.py IX`, then `orix-fundamentals-chart.png` and `orix-sankey.png` were generated from the local fundamentals table. The Hilco thread is now graphable through [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], and [[Distressed assets]]. The Sumitomo Mitsui duplicate risk was avoided by linking the ORIX peer comparison to existing [[SMBC]].
+
+Why it matters: ORIX is no longer just an orphaned Japanese financial with a missing chart. It is a bridge between Japan rate normalization, alternative asset management, U.S. middle-market private credit, and distressed collateral underwriting through Hilco.
+
+The tension: the analytical promise is still ahead of the evidence. ORIX trades like neither a clean bank nor a clean alternative manager, and the Hilco acquisition only matters if it improves underwriting quality rather than simply adding U.S. balance-sheet deployment.
+
+Watch: FY2026 ORIX filings, Hilco integration signals, analyst coverage, and whether [[Mizuho]] / [[SMBC]] need securities companions now that the peer chart has made those ADR tickers active in the database.
+
+---
+
 ## Mechanical / not a story
 
 - Branch hygiene — deleted stale remote `test-getVolumeData` (PR #48 already merged) and fully merged local `amazon-leo-fcc-gen2-expansion`. Cleanup, no analytical change.
@@ -146,6 +163,6 @@ Watch: whether the Bloomberg `asia-hedging-costs-bloomberg-mar2026.png` source c
 - BWET / BNO net-inflow figures are sourced to Bloomberg screenshots from PR #225 in early April; no independent verification of the latest flow numbers as of 2026-04-26.
 - BWET / BDRY / BNO local price data ends Apr 9, 2026 — the market reaction since the ceasefire phase is not in the database. Refresh before any forward-looking BWET write.
 - `asia-hedging-costs-bloomberg-mar2026.png` remains unrecovered; vault embed depends on a Bloomberg source.
-- IX / SMFG / MFG were added to the price database but have no actor or securities stubs yet — the database is ahead of the vault for those tickers.
+- SMFG / MFG were added to the price database for the ORIX peer chart; [[SMBC]] and [[Mizuho]] exist as actor notes, but securities-level coverage for those ADRs is still not split out.
 - [[Delcy Rodriguez]] FII pitch has no deal disclosure attached; the appearance is logged but the investability claim is unverified.
 - Cross-vault Defense procurement reform is logged as DONE in the geopolitics vault (commit `53b8ced`); confirm geopolitics-side wikilinks actually back-reference [[Defense procurement reform]] cleanly.
