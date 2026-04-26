@@ -12,7 +12,8 @@ Usage: `/report <topic> [--lens neutral|allocator|contrarian|what-changed] [--si
 ## What this skill is NOT
 
 - Not `/deepdive` — no web research, no SEC filings, no DB lookups, no chart generation. If primary note is missing, stop and suggest `/deepdive`.
-- Not `/newsletter` — that's today's daily wrap. This is on-demand for any topic.
+- Not `/newsletter` — that's today's short daily wrap.
+- Not `/story` — that's the exhaustive "what is the story" map for everything touched in one daily note.
 - Not `/ingest` — that processes a single source. This synthesizes existing vault content.
 - Not a note expansion — never touches the entity notes it reads. Only writes to `investing/Reports/`.
 

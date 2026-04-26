@@ -27,6 +27,7 @@ DEFAULT_WORKFLOW_SKILLS = [
     "report",
     "deepdive",
     "newsletter",
+    "story",
     "morning-scan",
     "replicate",
 ]

@@ -18,13 +18,14 @@ If the user hasn't run `/news` recently or asks for a final sweep:
 ### Step 2: Gather the day's work
 
 1. Read today's daily note (`investing/Daily/YYYY-MM-DD.md`) — run `date` to confirm date
-2. Extract every note listed under "Notes created/expanded"
-3. Read each referenced note to understand the substance (not just the log entry)
-4. Read the daily note's Synthesis section if one exists
+2. If `investing/Reports/YYYY-MM-DD-story-report.md` exists, read it first. Treat it as the exhaustive story map for the day.
+3. Extract every note listed under "Notes created/expanded"
+4. Read each referenced note to understand the substance (not just the log entry)
+5. Read the daily note's Synthesis section if one exists
 
 ### Step 3: Identify the stories
 
-Group the day's work into 2-5 stories. A "story" is not a note — it's a narrative thread that may span multiple notes. Examples:
+Group the day's work into 2-5 stories. A "story" is not a note — it's a narrative thread that may span multiple notes. If the daily story report exists, select the most important threads from it rather than repeating every card. Examples:
 - Intel-Apollo Fab 34 buyback (touches Intel, Apollo, Athene, Intel bonds)
 - Iran oil timeline escalation (touches oil price timeline, analyst notes, sector notes)
 - Semiconductor earnings season (touches multiple actor notes)
