@@ -1,6 +1,18 @@
 #sector #consumer #internet #technology
 
-**Consumer Internet** — Consumer-facing internet companies. Social, e-commerce, marketplaces, subscriptions.
+**[[Consumer]] Internet** — [[Consumer]]-facing internet companies. Social, e-commerce, marketplaces, subscriptions.
+
+---
+
+## Correlation structure
+
+Consumer Internet is a broad industry map, not a tight trading sector. A 1-year daily-return sample across large listed social, e-commerce, delivery, travel, streaming, and marketplace names shows weak average pairwise correlation.
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| Avg correlation | 0.23 | Weak; revenue model and company-specific drivers dominate |
+| Period | 2025-04-26 to present | Daily returns from local price database |
+| Practical use | Segment first | Split social ads, e-commerce, delivery, travel, and subscriptions before using the hub for positioning |
 
 ---
 
@@ -10,12 +22,18 @@
 
 | Company | MAU/DAU | Market cap | Focus |
 |---------|---------|------------|-------|
-| [[Meta]] | 3B+ MAU | ~$1.5T | Facebook, Instagram, WhatsApp |
-| [[Google]] (YouTube) | 2B+ MAU | ~$2T | Video |
-| [[ByteDance]] | 1B+ MAU | Private | TikTok |
+| [[Meta]] | 3B+ MAU | ~$1.5T | Facebook, [[Instagram]], [[WhatsApp]] |
+| [[Google]] ([[YouTube]]) | 2B+ MAU | ~$2T | Video |
+| [[ByteDance]] | 1B+ MAU | Private | [[TikTok]] |
 | [[Snap]] | 400M DAU | ~$20B | Snapchat, AR |
 | [[Pinterest]] | 480M MAU | ~$25B | Visual discovery |
 | X (Twitter) | 500M+ MAU | Private | Real-time |
+
+### Emerging social / IRL connection
+
+| Company | Focus | Investment question |
+|---------|-------|---------------------|
+| [[Kndrd]] | Women-first, plan-first IRL social networking in NYC | Can local density and trust create [[Network effects]] without engagement-maximization economics? |
 
 ---
 
@@ -27,7 +45,7 @@
 | [[Shopify]] | $250B+ | ~$130B | Merchant platform |
 | [[Etsy]] | $13B | ~$8B | Handmade marketplace |
 | [[eBay]] | $70B+ | ~$30B | C2C marketplace |
-| Mercado Libre | $40B+ | ~$90B | LatAm |
+| [[Mercado Libre]] | $40B+ | ~$90B | LatAm |
 
 ---
 
@@ -43,8 +61,8 @@
 | [[Instacart]] | ~$10B | US | Grocery, ad platform |
 | [[Keeta]] | [[Meituan]] sub | [[Brazil]] (launched Oct 2025) | Chinese entry challenging [[iFood]] |
 | [[Didi]] (food) | OTC | [[China]], [[Brazil]] via [[99]] | Relaunched Brazil delivery |
-| Grubhub | Just Eat sub | US | \#3, declining |
-| Deliveroo | ~$2B | UK, Europe | Amazon-backed, UK leader |
+| Grubhub | [[Just Eat]] sub | US | \#3, declining |
+| Deliveroo | ~$2B | [[UK]], [[Europe]] | Amazon-backed, [[UK]] leader |
 
 ---
 
@@ -73,7 +91,7 @@
 
 | Company | Subs | Market cap | Focus |
 |---------|------|------------|-------|
-| [[Netflix]] | 280M+ | ~$300B | Streaming |
+| [[Netflix]] | 280M+ | ~$300B | [[Streaming]] |
 | [[Spotify]] | 600M+ MAU | ~$80B | Audio |
 | [[Roblox]] | 80M+ DAU | ~$30B | Gaming platform |
 
@@ -93,10 +111,10 @@
 
 | Model | Description | Examples |
 |-------|-------------|----------|
-| **Advertising** | Free product, sell ads | Meta, Google, Snap |
-| **Marketplace** | Take rate on GMV | Amazon 3P, Etsy, Airbnb |
-| **Subscription** | Recurring revenue | Netflix, Spotify |
-| **Transactions** | Per-order fees | DoorDash, Uber |
+| Advertising | Free product, sell ads | Meta, Google, Snap |
+| Marketplace | Take rate on GMV | Amazon 3P, Etsy, Airbnb |
+| Subscription | Recurring revenue | Netflix, Spotify |
+| Transactions | Per-order fees | DoorDash, Uber |
 
 ---
 
@@ -144,11 +162,11 @@
 
 | Theme | Impact |
 |-------|--------|
-| **AI integration** | Personalization, content |
-| **Privacy changes** | Apple ATT impact |
-| **Profitability focus** | Post-ZIRP discipline |
-| **Video shift** | Short-form dominance |
-| **Commerce integration** | Social shopping |
+| AI integration | Personalization, content |
+| Privacy changes | [[Apple ATT]] impact |
+| Profitability focus | Post-ZIRP discipline |
+| Video shift | Short-form dominance |
+| Commerce integration | Social shopping |
 
 ---
 
@@ -157,9 +175,9 @@
 | Risk | Impact |
 |------|--------|
 | Regulation | Antitrust, privacy |
-| Apple/Google | Platform dependency |
-| TikTok | Attention competition |
-| Macro | Consumer spending |
+| [[Apple]]/Google | Platform dependency |
+| [[TikTok]] | Attention competition |
+| Macro | [[Consumer]] spending |
 | Competition | Low barriers |
 
 ---
