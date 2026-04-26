@@ -21,8 +21,25 @@ __pycache__/
 .claude/*
 !.claude/skills/
 .claude/skills/*
+.claude/skills/*/*
+!.claude/skills/news/
+!.claude/skills/news/SKILL.md
+!.claude/skills/ingest/
+!.claude/skills/ingest/SKILL.md
+!.claude/skills/earnings/
+!.claude/skills/earnings/SKILL.md
+!.claude/skills/report/
+!.claude/skills/report/SKILL.md
+!.claude/skills/deepdive/
+!.claude/skills/deepdive/SKILL.md
+!.claude/skills/newsletter/
+!.claude/skills/newsletter/SKILL.md
 !.claude/skills/story/
 !.claude/skills/story/SKILL.md
+!.claude/skills/morning-scan/
+!.claude/skills/morning-scan/SKILL.md
+!.claude/skills/replicate/
+!.claude/skills/replicate/SKILL.md
 .http_cache/
 # Front-end workspace state
 workspace.json
