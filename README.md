@@ -650,6 +650,7 @@ When modifying JS files, increment version in `index.html`:
 ### Consistency Checks
 
 Fast repository hygiene checks. This currently verifies shared skill parity across Codex, Claude Code, and OpenClaw when the OpenClaw skills directory is available.
+The shared workflow set is defined in `skills/shared-workflows.json`.
 
 ```powershell
 npm run test:consistency

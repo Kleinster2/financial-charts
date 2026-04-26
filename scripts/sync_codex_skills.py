@@ -16,21 +16,12 @@ import shutil
 import sys
 from pathlib import Path
 
+from skill_manifest import read_manifest_list
+
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CLAUDE_SKILLS = REPO_ROOT / ".claude" / "skills"
 CODEX_SKILLS = REPO_ROOT / ".agents" / "skills"
-DEFAULT_WORKFLOW_SKILLS = [
-    "news",
-    "ingest",
-    "earnings",
-    "report",
-    "deepdive",
-    "newsletter",
-    "story",
-    "morning-scan",
-    "replicate",
-]
 
 
 def discover_syncable_skills() -> list[str]:
@@ -81,7 +72,7 @@ def resolve_skill_names(args: argparse.Namespace) -> list[str]:
     elif args.skills:
         names = args.skills
     else:
-        names = DEFAULT_WORKFLOW_SKILLS
+        names = read_manifest_list("workflowSkills")
 
     # Preserve order while removing duplicates.
     seen: set[str] = set()

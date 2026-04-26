@@ -22,6 +22,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from skill_manifest import read_manifest_list
+
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RUNTIMES = {
@@ -30,31 +32,6 @@ RUNTIMES = {
     "openclaw": Path(
         os.environ.get("OPENCLAW_SKILLS_DIR", r"C:\Users\klein\clawd\skills")
     ),
-}
-
-DEFAULT_WORKFLOW_SKILLS = [
-    "news",
-    "ingest",
-    "earnings",
-    "report",
-    "deepdive",
-    "newsletter",
-    "story",
-    "morning-scan",
-    "replicate",
-]
-
-# OpenClaw skills often need absolute paths and runtime-specific guardrails.
-DEFAULT_OPENCLAW_ADAPTED = {
-    "deepdive",
-    "news",
-    "ingest",
-    "earnings",
-    "report",
-    "newsletter",
-    "story",
-    "morning-scan",
-    "replicate",
 }
 
 
@@ -122,10 +99,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--adapted-openclaw",
         nargs="*",
-        default=sorted(DEFAULT_OPENCLAW_ADAPTED),
+        default=None,
         help=(
             "OpenClaw skills expected to differ from Codex/Claude because "
-            "they are runtime-adapted ports."
+            "they are runtime-adapted ports. Defaults to the shared workflow manifest."
         ),
     )
     parser.add_argument(
@@ -195,7 +172,7 @@ def resolve_skill_names(
     if args.skills:
         return list(dict.fromkeys(args.skills))
 
-    return DEFAULT_WORKFLOW_SKILLS.copy()
+    return read_manifest_list("workflowSkills")
 
 
 def build_report(args: argparse.Namespace) -> dict[str, Any]:
@@ -208,7 +185,12 @@ def build_report(args: argparse.Namespace) -> dict[str, Any]:
 
     inventory = {runtime: discover(root) for runtime, root in runtime_roots.items()}
     skill_names = resolve_skill_names(args, inventory)
-    adapted_openclaw = set(args.adapted_openclaw)
+    adapted_values = (
+        read_manifest_list("openclawAdapted")
+        if args.adapted_openclaw is None
+        else args.adapted_openclaw
+    )
+    adapted_openclaw = set(adapted_values)
     skills = [status_for(name, inventory) for name in skill_names]
 
     shared_all = [
