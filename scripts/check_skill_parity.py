@@ -50,6 +50,7 @@ DEFAULT_OPENCLAW_ADAPTED = {
     "newsletter",
     "story",
     "morning-scan",
+    "replicate",
 }
 
 
