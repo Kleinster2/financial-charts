@@ -1,13 +1,13 @@
 ---
-aliases: [Breakwave Tanker Shipping ETF, Amplify BWET]
-tags: [product, etf, shipping, oil, tanker, commodities]
+aliases: [Breakwave Tanker Shipping ETF, Amplify BWET, BWET ETF]
+tags: [asset, etf, shipping, oil, tanker, commodities]
 ---
 
 # BWET
 
-BWET (Breakwave Tanker Shipping ETF) is an actively managed US commodity-pool ETF launched May 3, 2023 that holds near-dated tanker freight futures (FFAs) on the two main crude oil shipping routes published by the [[Baltic Exchange]]: TD3C (Middle East Gulf → [[China]], [[VLCC]], weighted ~90%) and TD20 (West Africa → UK/Continent, Suezmax, weighted ~10%). Sub-advised by [[Breakwave Advisors]] (founded by [[John Kartsonas]]) and sponsored by [[Amplify ETFs]] since December 28, 2023. BWET is the first and only ETF providing direct public-market exposure to crude tanker shipping rates, making it the purest retail proxy for the physical economics of moving oil by sea.
+BWET (Breakwave Tanker Shipping ETF) is an actively managed US commodity-pool ETF launched May 3, 2023 that holds near-dated tanker freight futures (FFAs) on the two main crude oil shipping routes published by the [[Baltic Exchange]]: TD3C (Middle East Gulf -> [[China]], [[VLCC]], weighted ~90%) and TD20 (West Africa -> UK/Continent, Suezmax, weighted ~10%). Sub-advised by [[Breakwave Advisors]] (founded by [[John Kartsonas]]) and sponsored by [[Amplify ETFs]] since December 28, 2023. BWET is the first and only ETF providing direct public-market exposure to crude tanker shipping rates, making it the purest retail proxy for the physical economics of moving oil by sea.
 
-During the [[2026 Strait of Hormuz crisis]], BWET became the best-performing US-listed ETF of 2026 YTD, rising from $18.73 on January 2 to $175.29 on April 9 — an 836% gain — while global oil prices swung between $80 and $166/bbl ([[Dubai crude]] all-time high, March 19).
+During the [[2026 Strait of Hormuz crisis]], BWET became the best-performing US-listed ETF of 2026 YTD, rising from $18.73 on January 2 to $175.29 on April 9 — an 836% gain — while global oil prices swung between $80 and $166/bbl ([[Dubai crude]] all-time high, March 19). The April Bloomberg flow paradox is that this spectacular return still pulled only about $25M of net inflows, while [[BNO]] attracted about $720M despite far lower local-price performance.
 
 ![[bwet-price-chart.png]]
 *BWET price since January 2025. The vertical explosion begins with the February 28, 2026 US-Israel strikes on [[Iran]] and continues as Baltic Exchange TD3C ([[Ras Tanura]] → China VLCC benchmark) hits successive all-time highs, peaking at $423,736/day on March 3 — more than triple the prior record set during the 2008 financial crisis.*
@@ -39,11 +39,29 @@ Listing: NYSE Arca (BWET). AUM was in the low tens of millions even during the 2
 | Sub-advisor | [[Breakwave Advisors]] |
 | Sponsor | [[Amplify ETFs]] |
 | Underlying | TD3C VLCC + TD20 Suezmax freight futures |
-| Expense ratio | ~3.32% |
+| Expense ratio | 3.50% |
 | YTD 2026 return (through Apr 9) | +836% |
 | Return since 2025 year-end | +812% |
 | Jan 2, 2026 close | $18.73 |
 | Apr 9, 2026 close | $175.29 (all-time high) |
+| YTD net inflows | ~$25M through April 2026, per Bloomberg screenshots |
+| Flow comparator | [[BNO]] at ~$720M net inflows over the same window |
+
+---
+
+## BWET vs BNO — flow paradox
+
+![[bwet-vs-bno-price-chart.png]]
+*BWET (blue) versus [[BNO]] (orange), normalized from Dec. 31, 2025 through Apr. 9, 2026.*
+
+| Fund | Exposure | Dec. 31, 2025 close | Apr. 9, 2026 close | Local return | Net inflows cited |
+|------|----------|----------------------|---------------------|--------------|-------------------|
+| BWET | Tanker freight futures | $19.26 | $175.29 | +810% | ~$25M |
+| [[BNO]] | Brent crude futures | $28.32 | $48.52 | +71% | ~$720M |
+
+The flow gap is the useful signal: the product that captured the freight-rate dislocation remained too niche for broad macro ETF capital. Investors defaulted to Brent oil exposure even though the tanker-rate instrument had much higher realized sensitivity to the Hormuz shock.
+
+[[Todd Sohn]] at [[Strategas Securities]] framed the reluctance as a mix of late-entry risk and niche exposure. [[John Kartsonas]] argued the next question is whether the trade can move from war disruption to fundamentals: concentrated tanker ownership at [[Sinokor Group]], [[Russia]] / [[Iran]] sanctions shrinking the compliant fleet, fleet aging, and post-ceasefire schedule disruption at [[Mundra]], [[Nhava Sheva]], and [[Khor Fakkan]].
 
 ---
 
@@ -77,7 +95,7 @@ The comparison is not academic: both ETFs are managed by [[Breakwave Advisors]],
 | Index methodology | If [[Baltic Exchange]] suspends or changes TD3C during extreme disruption, NAV pricing becomes unreliable (see [[Imaginary freight rate]] for the current debate and the TD34 alternative trial route). |
 | Fund flow asymmetry | Small AUM; inflows during blowouts can be large relative to fund size, forcing the sub-advisor to buy FFAs at expensive levels. |
 | Counterparty risk | FFAs are OTC-cleared instruments; counterparty default risk exists during extreme stress. |
-| Expense ratio | 3.32% is high; roll costs and management fees compound over holding periods. |
+| Expense ratio | 3.50% is high; roll costs and management fees compound over holding periods. |
 
 ---
 
@@ -94,9 +112,19 @@ The comparison is not academic: both ETFs are managed by [[Breakwave Advisors]],
 - [[Strait of Hormuz]] — chokepoint
 - [[Ras Tanura]] — TD3C loading port
 - [[Frontline]] — listed VLCC comparable
-- DHT Holdings — listed VLCC comparable
+- [[DHT Holdings]] — listed VLCC comparable
+- [[BNO]] — Brent oil ETF flow comparator
+- [[Sinokor Group]] — concentrated tanker ownership cited in the post-war thesis
+- [[Xeneta]] — freight analytics source on port schedule disruption
+- [[Todd Sohn]] — ETF strategist cited on niche-exposure friction
 - [[Nadia Martin Wiggen]] — post-crisis congestion thesis
 - [[Shipping]] — sector hub
 - [[Atlantic basin]] — substitution sourcing during Gulf disruption
 
-*Created 2026-04-09*
+## Sources
+
+- Amplify BWET fund page: https://amplifyetfs.com/bwet/
+- Bloomberg screenshots from PR #225, April 2026: BWET/BNO flow comparison and quoted strategist commentary.
+- Local price database: BWET and BNO closes through Apr. 9, 2026.
+
+*Created 2026-04-09; expanded 2026-04-26*

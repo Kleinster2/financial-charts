@@ -19,7 +19,7 @@ Breakwave Advisors is a US-based asset manager founded in 2016 by [[John Kartson
 | HQ | United States |
 | Products | [[BDRY]] (2018), [[BWET]] (2023) |
 | Fund sponsor | [[Amplify ETFs]] (since Dec 2023) |
-| AUM (2026) | Low tens of millions (BWET + BDRY combined, approximate) |
+| AUM (2026) | Low tens of millions to ~$50M+ during the BWET spike, source-dependent |
 
 ---
 
@@ -41,11 +41,13 @@ Breakwave exists to solve a very specific problem: before 2018, there was no eas
 
 The products are small by ETF standards — [[BWET]] assets have been in the low tens of millions even during the 2026 tanker blowout — but they matter disproportionately because they're the only way to retail-package freight futures. During the [[2026 Strait of Hormuz crisis]], [[BWET]] became the best-performing US-listed ETF of 2026 YTD, rising from $19.23 at 2025 year-end to $175.29 on April 9, 2026 — an 812% gain — as the [[Baltic Exchange]] TD3C Middle East Gulf → China VLCC index exploded to $423,736/day (all-time high, March 3). Kartsonas has spent the year explaining the flows, the rate mechanics, and the limitations of the Baltic assessments to financial media (Zacks, Lloyd's List, Washington Post).
 
+The April 2026 Bloomberg flow paradox sharpened the point. [[BWET]] had the better dislocation capture, but only about $25M of net inflows versus roughly $720M into [[BNO]]. Breakwave had built the purer tanker-rate expression; the market still reached first for the familiar oil ETF wrapper.
+
 The irony embedded in the product: during the worst of the crisis, BWET tracked a route that was effectively closed. The TD3C index loads at [[Ras Tanura]] inside the Strait of Hormuz, and while the strait was physically blocked to Western-allied shipping, the Baltic Exchange continued publishing daily assessments based on "hypothetical" fixtures — voyages that panellists priced assuming a willing owner would accept the risk. See [[Imaginary freight rate]] for the methodology debate.
 
 ---
 
-## History
+## Evolution
 
 | Year | Milestone |
 |------|-----------|
@@ -73,6 +75,18 @@ Structure: both are commodity pools (not '40 Act funds), which allows direct hol
 | Person | Role | Background |
 |--------|------|------------|
 | [[John Kartsonas]] | Founder, Managing Partner | Former shipping analyst at Carlyle Group, Bear Stearns; frequent media commentator on tanker and dry bulk markets |
+| CEO / public lead | [[John Kartsonas]] | No separate CEO verified in local sources |
+
+---
+
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Revenue | Not disclosed |
+| EBITDA | Not disclosed |
+| Net income | Not disclosed |
+| Revenue sources | Sub-advisory economics on [[BWET]] / [[BDRY]] plus shipping research subscriptions |
 
 ---
 
@@ -90,9 +104,11 @@ From the January 2, 2026 close of $18.73, BWET rose to $175.29 by April 9 — an
 2. Rerouting distance: Asian refiners substituted Gulf barrels with [[Atlantic basin]] supply ([[Brazil]], [[Guyana]], US Gulf, West Africa), pushing ton-miles per voyage sharply higher.
 3. Index lag vs physical reality: [[Baltic Exchange]] continued publishing TD3C assessments based on hypothetical transit pricing even when the route was effectively closed. See [[Imaginary freight rate]].
 
-On March 3, 2026, TD3C hit an all-time high of $423,736/day (up from ~$87,000/day in late December 2025). On the day of the Wednesday ceasefire news (early April 2026) [[Brent]] crashed 14% while BWET rose 7% to a new all-time high — a counterintuitive move driven by the lag between spot rates and the underlying FFA curve, plus the market's recognition that rerouted vessels would take weeks to unwind.
+On March 3, 2026, TD3C hit an all-time high of $423,736/day (up from ~$87,000/day in late December 2025). On the day of the Wednesday ceasefire news (early April 2026) Brent crashed 14% while BWET rose 7% to a new all-time high — a counterintuitive move driven by the lag between spot rates and the underlying FFA curve, plus the market's recognition that rerouted vessels would take weeks to unwind.
 
 See also the history of [[BDRY]] during the 2021-22 dry bulk boom: the ETF rose ~390% from January 2021 to October 2021, then gave back nearly all of it by late 2022 — a cautionary precedent for mean reversion in shipping cycles.
+
+Kartsonas's post-ceasefire framing is that the trade could transition from war disruption to fundamentals: concentrated tanker ownership at [[Sinokor Group]], [[Russia]] and [[Iran]] sanctions shrinking the compliant fleet, and an aging global vessel base. [[Xeneta]]'s port-schedule commentary adds the operational bridge: disruption at [[Mundra]], [[Nhava Sheva]], and [[Khor Fakkan]] does not clear instantly when the ceasefire headline arrives.
 
 ---
 
@@ -102,6 +118,9 @@ See also the history of [[BDRY]] during the 2021-22 dry bulk boom: the ETF rose 
 - [[BDRY]] — dry bulk shipping ETF
 - [[John Kartsonas]] — founder
 - [[Amplify ETFs]] — fund sponsor
+- [[BNO]] — flow comparator in the April 2026 Bloomberg story
+- [[Sinokor Group]] — concentrated tanker ownership cited in Kartsonas framing
+- [[Xeneta]] — post-ceasefire schedule disruption source
 - [[Baltic Exchange]] — freight rate indices
 - [[VLCC]] — underlying vessel class
 - [[Imaginary freight rate]] — index methodology during chokepoint closure

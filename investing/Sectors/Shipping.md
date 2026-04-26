@@ -15,7 +15,7 @@ Global maritime shipping: container lines, ports, and port equipment.
 | [[COSCO]] | ~12% | Chinese state-owned |
 | [[CMA CGM]] | ~12% | French, private |
 
-**Dynamics:**
+Dynamics:
 - Extreme cyclicality (2021-22 boom → bust)
 - Alliance structures (2M, Ocean Alliance, THE Alliance)
 - Red Sea disruption (2024) rerouted traffic
@@ -48,7 +48,7 @@ Global maritime shipping: container lines, ports, and port equipment.
 | Kalmar | Niche | RTGs, reach stackers |
 | Konecranes | Niche | RTGs, lift trucks |
 
-**ZPMC dominance:** 80% of US port cranes are ZPMC. Congressional investigation (2024) flagged remote-control capabilities as security risk.
+ZPMC dominance: 80% of US port cranes are ZPMC. Congressional investigation (2024) flagged remote-control capabilities as security risk.
 
 ---
 
@@ -88,6 +88,9 @@ Full detail: [[Iran conflict supply chain cascade#Container shipping disruption]
 | China port dominance | [[SIPG]] (600018.SS) |
 | Equipment monopoly | [[ZPMC]] (600320.SS) |
 | Western alternatives | Liebherr, Konecranes (long-dated) |
+| Crude tanker rate exposure (ETF) | [[BWET]] — [[Breakwave Advisors]] tanker FFA exposure |
+| Dry bulk rate exposure (ETF) | [[BDRY]] — [[Breakwave Advisors]] dry bulk FFA exposure |
+| Crude tanker rate exposure (equities) | [[Frontline]], [[DHT Holdings]] |
 
 ---
 
@@ -95,19 +98,19 @@ Full detail: [[Iran conflict supply chain cascade#Container shipping disruption]
 
 | Risk | Impact |
 |------|--------|
-| **Trade war / tariffs** | Volume decline |
-| **Overcapacity** | Container rate collapse |
-| **Cybersecurity regulation** | ZPMC revenue at risk |
-| **Red Sea / Suez** | Rerouting costs; Horn of Africa escalation risk (see below) |
-| **[[Lithium-ion shipping fires]]** | 250 fires in 2024 (decade high); 70% of LA port shut for 2 days in one incident; no extinguishing solution exists |
+| Trade war / tariffs | Volume decline |
+| Overcapacity | Container rate collapse |
+| Cybersecurity regulation | ZPMC revenue at risk |
+| Red Sea / Suez | Rerouting costs; Horn of Africa escalation risk (see below) |
+| [[Lithium-ion shipping fires]] | 250 fires in 2024 (decade high); 70% of LA port shut for 2 days in one incident; no extinguishing solution exists |
 
 ---
 
 ## Horn of Africa Escalation Risk (February 2026)
 
-Beyond the ongoing Houthi shipping disruption, the Horn of Africa faces potential **state-on-state conflict** between Ethiopia and Eritrea centered on the port of Assab — directly at the Bab el-Mandeb strait. ICG (February 18, 2026) warned conflict "could erupt at any time." An Ethiopia-Eritrea war would layer a conventional military conflict onto the existing Houthi disruption at the same chokepoint.
+Beyond the ongoing Houthi shipping disruption, the Horn of Africa faces potential state-on-state conflict between Ethiopia and Eritrea centered on the port of Assab — directly at the Bab el-Mandeb strait. ICG (February 18, 2026) warned conflict "could erupt at any time." An Ethiopia-Eritrea war would layer a conventional military conflict onto the existing Houthi disruption at the same chokepoint.
 
-**Market impact if conflict erupts:**
+Market impact if conflict erupts:
 - Further reduction in Red Sea/Suez transit volumes (already down ~75% from Houthi attacks as of mid-2025)
 - Extended Cape of Good Hope rerouting (adds ~10-14 days and fuel costs)
 - Bullish for container rates (capacity absorbed by longer routes)
@@ -134,7 +137,13 @@ Post-resolution congestion risk: even if the strait reopens in May/June, ships a
 
 The [[2026 Strait of Hormuz crisis]] produced the most extreme freight-ETF trade in history. [[BWET]] — the only retail-accessible crude tanker ETF, sub-advised by [[Breakwave Advisors]] — rose 836% YTD through April 9, 2026 ($18.73 → $175.29), making it the best-performing US-listed ETF of 2026. It holds near-dated [[Baltic Exchange]] TD3C (Middle East Gulf → China [[VLCC]]) and TD20 FFAs. Its sibling [[BDRY]] drew attention as the historical precedent — dry bulk ETF that rose ~390% in 2021 then gave it all back by end-2022.
 
-The twist: TD3C loads at [[Ras Tanura]] *inside* the [[Strait of Hormuz]], and during much of March-April 2026 the route was effectively closed. Baltic panellists kept publishing assessments based on hypothetical pricing — what an owner *would* charge *if* willing to transit. Lloyd's List (March 2026) called these [[Imaginary freight rate|imaginary rates]]. The Baltic launched emergency alternate **TD34** ([[Gulf of Oman]] → China) on trial but did not suspend TD3C. [[Frontline]] CEO [[Lars Barstad]] flagged the structural point on March 4: benchmark indices "have much wider market implications than they used to" given their role settling FFAs, ETFs, and charter contracts. See [[Imaginary freight rate]] for the full methodology debate and investment implications.
+The twist: TD3C loads at [[Ras Tanura]] *inside* the [[Strait of Hormuz]], and during much of March-April 2026 the route was effectively closed. Baltic panellists kept publishing assessments based on hypothetical pricing — what an owner *would* charge *if* willing to transit. Lloyd's List (March 2026) called these [[Imaginary freight rate|imaginary rates]]. The Baltic launched emergency alternate TD34 ([[Gulf of Oman]] → China) on trial but did not suspend TD3C. [[Frontline]] CEO [[Lars Barstad]] flagged the structural point on March 4: benchmark indices "have much wider market implications than they used to" given their role settling FFAs, ETFs, and charter contracts. See [[Imaginary freight rate]] for the full methodology debate and investment implications.
+
+### BWET vs BNO flow paradox (April 2026)
+
+The Bloomberg follow-up sharpened the market-structure lesson. [[BWET]] was up more than 800% from its Jan. 2 close through Apr. 9, but had drawn only about $25M of net inflows. [[BNO]], the familiar Brent oil ETF, drew about $720M over the same window even though its local-price return from Dec. 31 to Apr. 9 was about +71%.
+
+That gap says the investable shipping thesis is still narrow. The purer rate instrument captured the dislocation, but the broader ETF market used the oil ticker it already understood. [[John Kartsonas]] argues the tanker thesis can transition from war disruption to fundamentals via [[Sinokor Group]] concentration, sanctions against [[Russia]] and [[Iran]], and aging fleet supply. [[Todd Sohn]] at [[Strategas Securities]] pushed back from the flow side: tanker freight remains a specialized bet after a huge move. [[Xeneta]]'s [[Destine Ozuygur]] added the logistics bridge: schedule disruption at [[Mundra]], [[Nhava Sheva]], and [[Khor Fakkan]] does not vanish overnight.
 
 ---
 
@@ -142,7 +151,10 @@ The twist: TD3C loads at [[Ras Tanura]] *inside* the [[Strait of Hormuz]], and d
 
 - [[BWET]] — crude tanker shipping ETF
 - [[BDRY]] — dry bulk shipping ETF
+- [[BNO]] — Brent oil ETF flow comparator
 - [[Breakwave Advisors]] — sub-advisor of BWET/BDRY
+- [[Sinokor Group]] — tanker ownership concentration cited in BWET thesis
+- [[Xeneta]] — freight analytics platform cited on port disruption
 - [[Imaginary freight rate]] — Baltic methodology during chokepoint closure
 - [[Baltic Exchange]] — freight index publisher
 - [[SIPG]] — world's largest port operator

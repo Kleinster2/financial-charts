@@ -1,6 +1,6 @@
 ---
 aliases: [Breakwave Dry Bulk Shipping ETF, Amplify BDRY]
-tags: [product, etf, shipping, dry-bulk, commodities]
+tags: [asset, etf, shipping, dry-bulk, commodities]
 ---
 
 # BDRY
@@ -29,7 +29,7 @@ The lesson embedded in that round-trip: shipping rates are cyclical, not structu
 
 Contract roll: near-dated FFAs, rolled monthly. Like [[BWET]], BDRY is subject to contango drag in normal markets and backwardation boost when spot rates spike above the forward curve.
 
-Pool structure: commodity pool (not '40 Act fund). Expense ratio ~3.32%.
+Pool structure: commodity pool (not '40 Act fund). Expense ratio 3.50%.
 
 ---
 
@@ -41,7 +41,7 @@ Pool structure: commodity pool (not '40 Act fund). Expense ratio ~3.32%.
 | Sub-advisor | [[Breakwave Advisors]] |
 | Sponsor | [[Amplify ETFs]] |
 | Underlying | Capesize, Panamax, Supramax FFAs |
-| Expense ratio | ~3.32% |
+| Expense ratio | 3.50% |
 | 2021 peak return | +390% (Jan 2021 → Oct 2021) |
 | 2022 year-end | -78% from peak |
 | April 9, 2026 close | $10.60 |
@@ -74,4 +74,9 @@ The full round trip took less than two years and erased every gain for holders w
 - [[Shipping]] — sector hub
 - [[China]] — dominant dry bulk demand source
 
-*Created 2026-04-09*
+## Sources
+
+- Amplify BDRY fund page: https://amplifyetfs.com/bdry/
+- Local price database: BDRY closes through Apr. 9, 2026.
+
+*Created 2026-04-09; moved to Assets 2026-04-26*
