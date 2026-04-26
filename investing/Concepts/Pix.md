@@ -1,43 +1,41 @@
 #concept #payments #brazil #fintech
 
-**Pix** — Brazil's instant payment system. Launched November 2020 by [[Banco Central do Brasil]]. 170M users (93% of adult population). 7B+ monthly transactions. Moved $16T since launch (7x Brazil's GDP). Fastest-growing instant payment system globally — hit scale milestones faster than [[India]]'s [[UPI]].
+**Pix** — [[Brazil]]'s instant payment system. Launched November 2020 by [[Banco Central do Brasil]]. 170M+ individuals have used it, equal to about 80% of the population, and transactions exceeded 7B in January 2026. Pix is the public rail underneath [[Brazil fintech]]: it commoditized basic money movement and pushed private fintechs toward credit, investments, merchant tools, and product density.
 
 ---
 
-## Scale (2025)
+## Synthesis
+
+Pix is the center of the [[Brazil fintech]] story because it made instant payments a public utility. Before Pix, wallets could win by making transfers faster and cheaper than bank wires. After Pix, every serious bank and wallet had access to the same low-cost, always-on rail, so the competition moved up the stack.
+
+That changed the shape of the market. [[Nubank]], [[Banco Inter|Inter]], and [[C6 Bank]] can use Pix to deepen account engagement, but they still need underwriting discipline and funding scale to monetize. Merchant-facing companies such as [[StoneCo]], [[PagSeguro]], and [[Mercado Libre]] can use Pix at checkout, but they cannot rely on closed-loop payment friction as a moat. The rail is public; the economics live around it.
+
+---
+
+## Scale (2026)
 
 | Metric | Value |
 |--------|-------|
-| Monthly transactions | 7.3B (Oct 2025) |
-| Projected Dec 2025 | 7.9B |
-| 2025 volume | $6.7T projected (+34% YoY) |
-| Cumulative since launch | $16T moved |
-| Users | 170M (93% of adult Brazilians) |
-| 5-year CAGR | 202% |
+| Individual users | 170M+ people, about 80% of the population |
+| Monthly transactions | 7B+ in January 2026 |
+| Volume marker | R$3 trillion+ in October 2025 |
+| Single-day record | 313.3 million transactions on Dec 5, 2025 |
+| H1 2025 payment share | 50.9% of all payment transactions |
+| H1 2025 transaction count | 36.9B Pix transactions |
 
-**Comparison:** [[India]]'s UPI took 6 years 8 months to approach 8B monthly transactions. Pix will hit it in 5 years.
+Comparison: [[India]]'s UPI remains larger by transaction count, but Pix reached population-scale penetration unusually fast because [[Banco Central do Brasil]] required broad institutional participation from the start.
 
 ---
 
-## Transaction breakdown (Q1 2025)
+## Transaction breakdown (H1 2025, SPI-settled)
 
-**By count:**
-
-| Type | Share |
-|------|-------|
-| P2P (person-to-person) | 46% |
-| P2B (person-to-business) | 41% |
-| B2P (business-to-person) | 9% |
-| B2B | 4% |
-
-**By value:**
+By count:
 
 | Type | Share |
 |------|-------|
-| B2B | 46% |
-| P2P | 28% |
-| P2B | 18% |
-| B2P | 8% |
+| P2P (person-to-person) | 45.0% |
+| P2B (person-to-business) | 42.1% |
+| Business/government-originated | 12.9% |
 
 ---
 
@@ -55,12 +53,12 @@
 
 ## Why it matters for fintechs
 
-**Before Pix (pre-2020):**
+Before Pix (pre-2020):
 - Wire transfers (TED/DOC) were slow and expensive
 - Fintechs like [[PicPay]] built businesses on faster P2P payments
 - Digital wallets had competitive advantage
 
-**After Pix (2020+):**
+After Pix (2020+):
 - Central bank mandated all banks offer Pix
 - Commoditized instant payments
 - Digital wallets lost their core differentiator
@@ -99,10 +97,10 @@
 
 | Feature | Status |
 |---------|--------|
-| **Pix Automático** | Recurring payments (subscriptions) |
-| **Pix Garantido** | Credit-backed Pix (buy now, pay later) |
-| **Pix Internacional** | Cross-border (pilot phase) |
-| **Offline Pix** | NFC-based, no internet required |
+| Pix Automático | Recurring payments (subscriptions) |
+| Pix Garantido | Credit-backed Pix (buy now, pay later) |
+| Pix Internacional | Cross-border (pilot phase) |
+| Offline Pix | NFC-based, no internet required |
 
 ---
 
@@ -110,7 +108,7 @@
 
 | System | Country | Monthly transactions | Launch |
 |--------|---------|---------------------|--------|
-| **Pix** | Brazil | 7.3B | Nov 2020 |
+| Pix | [[Brazil]] | 7.3B | Nov 2020 |
 | [[UPI]] | [[India]] | ~16B | Apr 2016 |
 | FedNow | US | <100M | Jul 2023 |
 | Faster Payments | [[UK]] | ~400M | May 2008 |
@@ -121,6 +119,7 @@ Pix grew faster than any other system to reach scale.
 
 ## Related
 
+- [[Brazil fintech]] — ecosystem built around Pix as public payment infrastructure
 - [[Banco Central do Brasil]] — creator and operator
 - [[PicPay]] — fintech disrupted by Pix, pivoted to credit
 - [[Nubank]] — beneficiary (offers Pix)
@@ -129,6 +128,11 @@ Pix grew faster than any other system to reach scale.
 - [[UPI]] — [[India]]'s equivalent system
 - [[Fintech]] — sector context
 - [[Brazil]] — country context
+
+---
+
+- [Banco Central do Brasil — Pix em números](https://www.bcb.gov.br/estabilidadefinanceira/pix-em-numeros-estatisticas)
+- [Banco Central do Brasil — H1 2025 payments statistics](https://www.bcb.gov.br/detalhenoticia/20920/nota)
 
 ---
 

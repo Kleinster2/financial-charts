@@ -18,13 +18,13 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 
 | Sector | Correlation | Key players | Notes |
 |--------|-------------|-------------|-------|
-| **[[Payments Networks]]** | **0.86** | V, MA | Duopoly, toll booth model |
-| **[[US Retail Trading]]** | **0.61** | SOFI, HOOD, COIN | Trading/crypto exposure |
+| **[[Payments Networks]]** | 0.86 | V, MA | Duopoly, toll booth model |
+| [[US Retail Trading]] | 0.61 | SOFI, HOOD, COIN | Trading/crypto exposure |
 
-**Outliers:**
-- **PYPL** (0.44-0.46 with V/MA) — digital payments, loosely attached to networks
-- **NU** (0.34-0.46 with US names) — LatAm story, different market
-- **AFRM** (0.41-0.63) — BNPL, between payments and trading
+Outliers:
+- PYPL (0.44-0.46 with V/MA) — digital payments, loosely attached to networks
+- NU (0.34-0.46 with US names) — LatAm story, different market
+- AFRM (0.41-0.63) — [[BNPL]], between payments and trading
 
 ---
 
@@ -34,9 +34,9 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 |---------|-------------|-------------|
 | Payments networks | ~$600B revenue | [[Visa]], [[Mastercard]] |
 | Digital payments | ~$10T volume | [[PayPal]], [[Block]] |
-| Neobanks | 500M+ users | [[Revolut]], [[Nubank]], Chime |
-| BNPL | ~$400B volume | Klarna, Affirm |
-| Crypto exchanges | Volatile | [[Coinbase]], Binance |
+| [[Neobanks]] | 500M+ users | [[Revolut]], [[Nubank]], [[Chime]] |
+| [[BNPL]] | ~$400B volume | Klarna, Affirm |
+| Crypto exchanges | Volatile | [[Coinbase]], [[Binance]] |
 | Brokerage | ~$50B revenue | [[Robinhood]], Schwab |
 
 ---
@@ -47,10 +47,10 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 
 | Company | Market cap | Volume | Moat |
 |---------|------------|--------|------|
-| [[Visa]] | ~$550B | $14T+ annually | Network effects |
+| [[Visa]] | ~$550B | $14T+ annually | [[Network effects]] |
 | [[Mastercard]] | ~$450B | $9T+ annually | Cross-border strength |
 
-**Toll booth model:** Small fee on every transaction, 60%+ margins.
+Toll booth model: Small fee on every transaction, 60%+ margins.
 
 ### Digital payments
 
@@ -65,27 +65,27 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 
 | Company | Users | Geography | Status |
 |---------|-------|-----------|--------|
-| [[Revolut]] | 50M+ | Global (UK HQ) | IPO 2026 target |
+| [[Revolut]] | 50M+ | Global ([[UK]] HQ) | IPO 2026 target |
 | [[Nubank]] | 100M+ | LatAm | Public (NU) |
 | [[Chime]] | 20M+ | US | Private |
 | [[SoFi]] | 9M+ | US | Public (SOFI) |
-| N26 | 8M+ | Europe | Private |
+| [[N26]] | 8M+ | [[Europe]] | Private |
 
-### BNPL (Buy Now Pay Later)
+### [[BNPL]] (Buy Now Pay Later)
 
 | Company | Status | Challenge |
 |---------|--------|-----------|
 | [[Klarna]] | Private, IPO filed | Credit losses |
 | [[Affirm]] | Public (AFRM) | Profitability |
-| Afterpay | Acquired by Block | Integrated |
+| [[Afterpay]] | Acquired by [[Block]] | Integrated |
 
 ### Crypto/DeFi
 
 | Company | Focus | Status |
 |---------|-------|--------|
 | [[Coinbase]] | Exchange | Public (COIN) |
-| Binance | Exchange | Regulatory issues |
-| Circle | USDC stablecoin | Private |
+| [[Binance]] | Exchange | Regulatory issues |
+| [[Circle]] | [[USDC]] stablecoin | Private |
 
 ### Trading/Brokerage
 
@@ -93,7 +93,7 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 |---------|-------|----------------|
 | [[Robinhood]] | Retail trading | Zero commission pioneer |
 | [[SoFi]] | Super-app | Banking + trading |
-| Interactive Brokers | Active traders | Low margin rates |
+| [[Interactive Brokers]] | Active traders | Low margin rates |
 
 ---
 
@@ -101,12 +101,12 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 
 | Theme | Impact |
 |-------|--------|
-| **Cash-to-digital** | Secular tailwind (still 15%+ cash globally) |
-| **Real-time payments** | Threat to card networks (FedNow, Pix) |
-| **Embedded finance** | BaaS enabling any company to offer financial services |
-| **Open banking** | API-driven disruption |
-| **Regulatory pressure** | Interchange fee caps, CFPB scrutiny |
-| **AI in fraud** | ML-based detection at scale |
+| Cash-to-digital | Secular tailwind (still 15%+ cash globally) |
+| Real-time payments | Threat to card networks (FedNow, Pix) |
+| Embedded finance | BaaS enabling any company to offer financial services |
+| Open banking | API-driven disruption |
+| Regulatory pressure | Interchange fee caps, [[CFPB]] scrutiny |
+| AI in fraud | ML-based detection at scale |
 
 ---
 
@@ -114,11 +114,11 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 
 | Region | Leader | Trend |
 |--------|--------|-------|
-| **US** | Visa, PayPal | Card-centric, BNPL growth |
-| **Europe** | Revolut, Klarna | Strong open banking |
-| **LatAm** | [[Nubank]], Mercado Pago | Massive unbanked opportunity |
-| **Asia** | Alipay, GrabPay | Super-app model |
-| **Brazil** | [[Nubank]], Pix | Instant payments leader |
+| US | Visa, PayPal | Card-centric, [[BNPL]] growth |
+| [[Europe]] | Revolut, Klarna | Strong open banking |
+| LatAm | [[Nubank]], [[Mercado Libre|Mercado Pago]] | Massive unbanked opportunity |
+| [[Asia]] | [[Alipay]], GrabPay | Super-app model |
+| [[Brazil]] | [[Brazil fintech]], [[Nubank]], [[Pix]] | Instant payments leader |
 
 ---
 
@@ -130,7 +130,7 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 | Digital disruption | [[PayPal]], [[Block]] |
 | Neobank IPOs | [[Revolut]] (2026), Klarna |
 | Crypto exposure | [[Coinbase]] |
-| LatAm growth | [[Nubank]] |
+| LatAm growth | [[Nubank]], [[Brazil fintech]] |
 
 ---
 
@@ -138,11 +138,11 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 
 | Metric | What it measures |
 |--------|------------------|
-| **Take rate** | Revenue / transaction volume |
-| **Payment volume** | Total $ processed |
-| **Net revenue retention** | Customer expansion |
-| **CAC payback** | Customer acquisition efficiency |
-| **Gross margin** | Network economics |
+| Take rate | Revenue / transaction volume |
+| Payment volume | Total $ processed |
+| Net revenue retention | Customer expansion |
+| CAC payback | Customer acquisition efficiency |
+| Gross margin | Network economics |
 
 ---
 
@@ -150,11 +150,11 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 
 | Risk | Impact |
 |------|--------|
-| **Real-time payments** | Could disintermediate cards |
-| **Regulation** | Interchange caps, BNPL rules |
-| **Credit losses** | BNPL, neobank lending |
-| **Big Tech entry** | Apple Pay, Google Pay |
-| **Crypto volatility** | Exchange revenue swings |
+| Real-time payments | Could disintermediate cards |
+| Regulation | Interchange caps, [[BNPL]] rules |
+| Credit losses | [[BNPL]], neobank lending |
+| Big Tech entry | [[Apple Pay]], [[Alphabet|Google]] Pay |
+| Crypto volatility | Exchange revenue swings |
 
 ---
 
@@ -169,7 +169,7 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 | [[Coinbase]] | COIN | Crypto exchange |
 | [[Robinhood]] | HOOD | Retail brokerage |
 | [[Nubank]] | NU | LatAm neobank |
-| [[Affirm]] | AFRM | BNPL |
+| [[Affirm]] | AFRM | [[BNPL]] |
 | [[SoFi]] | SOFI | Super-app |
 
 ---
@@ -182,6 +182,10 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 - [[Block]] — Square + Cash App
 - [[Revolut]] — neobank IPO candidate
 - [[Nubank]] — LatAm leader
+- [[Neobanks]] — digital-first banking category
+- [[Brazil fintech]] — Pix-led digital-finance ecosystem
+- [[Pix]] — public instant-payment rail
+- [[UPI]] — India instant-payment rail comparison
 - [[Coinbase]] — crypto exposure
 - [[Robinhood]] — retail trading
 - [[Banks]] — traditional finance
