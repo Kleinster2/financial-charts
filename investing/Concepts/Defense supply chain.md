@@ -138,6 +138,20 @@ See [[Defense energy vulnerability]] for full CSIS framework: PSVI exposure data
 
 ---
 
+## Policy response — procurement reform (2025-2026)
+
+The April 15, 2026 [[Wall Street Journal|WSJ]] and [[Financial Times|FT]] reporting that the [[Pentagon|Department of War]] held talks with [[General Motors]] and [[Ford]] CEOs about supplying weapons-system components is the operational expression of the structural problem this note documents. Routing demand through commercial automakers — particularly [[Ford]], which has no defense business at all — is exactly the dual-use industrial-base reconstitution [[Shyam Sankar]] argued for in the All-In framing above.
+
+The full policy stack:
+- Army Secretary [[Dan Driscoll]] running a serial public campaign through 2025-2026 with a stated goal of "kill[ing] a prime in two years" and inverting the Army's purchasing mix from roughly 90% purpose-built to 90% commercial off-the-shelf
+- [[Pete Hegseth]]'s November 2025 cabinet-level procurement strategy formalizing the off-the-shelf direction
+- [[Donald Trump|Trump]]'s January 8, 2026 [[Trump defense budget|"Prioritizing the Warfighter in Defense Contracting" executive order]] capping prime executive pay and restricting buybacks until production capacity is built
+- [[Defense Autonomous Warfare Group]] (DAWG) requesting ~$55B in FY27 to industrialize autonomous-systems procurement around insurgents like [[Anduril]], [[Palantir]], [[Shield AI]]
+
+See [[Defense procurement reform]] for the full timeline and structural framing. The reform answers the structural problem this note documents — but whether it actually rebuilds dual-use capacity at scale, or stays a political pressure campaign on the existing primes, will only be resolved over multiple contract cycles.
+
+---
+
 ## Pharmaceutical supply chain vulnerability
 
 80% of APIs (active pharmaceutical ingredients) for generic drugs are produced by [[China]]. 50% of all new clinical trials now in China, not the US.
@@ -176,7 +190,11 @@ The US invented the drone — Abe Karem and the Predator at [[General Atomics]].
 - [[General Atomics]] — Predator drone inventor (Abe Karem)
 - [[Tesla]] — only at-scale manufacturer founded this century in US
 - [[Office of Strategic Capital]] — $200B deployment for supply chain bottlenecks
+- [[Defense procurement reform]] — Driscoll-Hegseth campaign rebuilding dual-use industrial base via commercial off-the-shelf
+- [[Dan Driscoll]] — Army Secretary architecting the reform
+- [[Pete Hegseth]] — cabinet-level promoter
+- [[General Motors]], [[Ford]] — Apr 2026 [[Pentagon|Department of War]] talks on weapons-supply contribution
 
 ---
 
-*Created 2026-01-23*
+*Created 2026-01-23. Updated 2026-04-26 with procurement-reform policy response.*

@@ -128,6 +128,20 @@ Ford led electric pickups despite strategic retreat.
 
 ---
 
+## Pentagon weapons-supply talks (Apr 2026)
+
+The April 15, 2026 [[Wall Street Journal|WSJ]] (originally) and [[Financial Times|FT]] (Davies, Mackinnon) reporting confirmed that the [[Pentagon|Department of War]] held wide-ranging talks with Ford's senior leadership about contributing components or parts to US weapons supply chains, alongside parallel talks with [[General Motors]]. Discussions covered advanced manufacturing techniques such as 3D printing and went beyond Ford's existing — minimal — work with the military. Talks pre-date the [[2026 Iran conflict market impact|Iran war]] and are explicitly preliminary.
+
+Ford declined to comment.
+
+The structural signal is what makes Ford's inclusion interesting. Unlike [[General Motors]], Ford does not have a dedicated defense subsidiary — no equivalent of GM Defense, no [[Artemis]]-style military-adjacent program. The [[Pentagon|Department of War]] reaching out to a manufacturer with no current defense business is the cleanest illustration of the [[Defense procurement reform|90/10 procurement inversion]] [[Dan Driscoll]] is running: the reform isn't about expanding existing prime supply, it's about routing demand toward commercial industrial capacity that has not historically participated in defense at all.
+
+For Ford the read-through is two-sided. The opportunity is a defense-revenue stream the market does not price. The risk is that defense work distracts from the EV pivot already underway, the Chinese-EV partnership question still unresolved, and the stretched balance sheet Jim Farley inherited. The Pentagon talks are unlikely to be margin-accretive at preliminary scale; they matter primarily as an option on idle capacity and as a Washington-relations hedge against the [[Trump defense budget|Trump-administration capital pressure]] already directed at the [[Defense Primes]].
+
+*Sources: FT (Davies, Mackinnon — Apr 15, 2026), originally [[Wall Street Journal|WSJ]].*
+
+---
+
 ## South Africa operations
 
 [[Ford]] manufactures the Ranger pick-up in Silverton, Pretoria, with capacity for 200,000 units/year. The plant is 600 km from the nearest export terminal. SA CEO Neale Hill: *"it's still cheaper to truck our vehicles than put them on the rail"* — rail costs $37 more per vehicle via state-owned [[Transnet]], which "adds up" at plant capacity. Ford cut 470 jobs at its Silverton and Nelson Mandela Bay factories amid the broader SA auto industry crisis driven by cheaper [[China]]/[[India]] imports.

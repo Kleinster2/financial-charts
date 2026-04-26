@@ -56,7 +56,7 @@ Sector +55% past year (Jan 2026). Global X expects double-digit spending growth 
 | FY27 proposed | **$1.5T** (+68%) |
 | Focus | AI, space, modernization |
 
-See [[Trump defense budget]] for Jan 2026 executive order on capital returns.
+See [[Trump defense budget]] for Jan 2026 executive order on capital returns and [[Defense procurement reform]] for the broader Driscoll/Hegseth campaign to invert the Army's purchasing mix toward commercial off-the-shelf — including the April 2026 [[Pentagon|Department of War]] talks with [[General Motors]] and [[Ford]] CEOs about supplying weapons-system components.
 
 ### Europe
 

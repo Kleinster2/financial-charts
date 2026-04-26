@@ -48,6 +48,12 @@ Trump singled out [[RTX]] ([[Raytheon]]):
 - "Most aggressive spending on shareholders rather than military needs"
 - Threatened to cut off from DoD contracts
 
+### Position in the broader procurement reform campaign
+
+The January 8, 2026 executive order is the enforcement layer of a 12-month structural campaign the rest of the [[Defense procurement reform]] note documents in detail. Army Secretary [[Dan Driscoll]] had been articulating the prime-disintermediation doctrine publicly since May 2025 ("kill a prime in two years"); [[Pete Hegseth]] formalized it as a cabinet-level procurement strategy in November 2025; this EO ties the carrot of the $1.5T budget to the stick of capital-return restrictions for primes that don't expand capacity.
+
+The April 2026 [[Pentagon|Department of War]] talks with [[General Motors]] and [[Ford]] CEOs — reported by the [[Wall Street Journal|WSJ]] and [[Financial Times|FT]] — are the operational expression of the same campaign on the supply-side: routing demand toward commercial manufacturers and software-first insurgents like [[Anduril]] and [[Palantir]] rather than asking the existing primes to expand their specialist capacity.
+
 ### Why this matters — the defense investment case
 
 Bloomberg Intelligence (Will Lee, George Ferguson): [[Defense]] companies have "average profit margins and little chance of breakout earnings." Capital returns are how they attract investors.
@@ -165,4 +171,7 @@ Cold War peak was ~6% GDP. This would approach those levels.
 - [[Long defense AI]] — thesis
 - [[European defense spending]] — contrast
 - [[Boeing]] — defense segment
+- [[Defense procurement reform]] — broader Driscoll-Hegseth campaign this EO enforces
+- [[Dan Driscoll]] — Army Secretary architecting the reform
+- [[Pete Hegseth]] — Secretary of War, cabinet-level promoter
 

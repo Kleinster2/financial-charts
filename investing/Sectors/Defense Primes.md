@@ -117,6 +117,23 @@ Different risk profiles — primes have program risk, IT services have recompete
 
 ---
 
+## Pentagon recruits commercial manufacturers (Apr 2026)
+
+The April 15, 2026 [[Wall Street Journal|WSJ]] (originally) and [[Financial Times|FT]] (Davies, Mackinnon) reporting that the [[Pentagon|Department of War]] held wide-ranging talks with [[General Motors]] and [[Ford]] CEOs about supplying weapons-system components is the clearest operational signal yet that the [[Defense procurement reform]] campaign architected by [[Dan Driscoll]] and codified at cabinet level by [[Pete Hegseth]] is moving past rhetoric.
+
+Talks are explicitly preliminary, focused on components rather than whole platforms, and emphasize advanced manufacturing techniques (3D printing) to break supply-chain bottlenecks the primes cannot clear. The goal as briefed to the FT is to "break production and supply chain bottlenecks for the existing defence contractors" — framed as helping the primes, not displacing them. The structural effect, if scaled, is to create alternative suppliers who can be substituted in the next contract cycle.
+
+The market read on the primes has to weigh:
+- Carrot: $1.5T FY27 budget proposal flowing through existing programs of record (see [[Trump defense budget]])
+- Stick: Capital-return restrictions and executive-pay caps from the Jan 8, 2026 [[Donald Trump|Trump]] executive order
+- Structural overhang: A multi-year Driscoll campaign with stated goal of "kill[ing] a prime in two years" and an explicit 90/10 inversion target for the Army's purchase mix
+
+The Apr 15 talks did not move prime stocks materially on the day, in part because the campaign is gradual and the talks themselves are preliminary. The market signal worth tracking is the cadence of contract awards outside the prime ecosystem and any concrete component deal with [[General Motors]] or [[Ford]]. See [[Defense procurement reform]] for the full timeline.
+
+*Sources: FT (Davies, Mackinnon — Apr 15, 2026), originally [[Wall Street Journal|WSJ]].*
+
+---
+
 ## Iran conflict — market reaction
 
 ### Feb 18 (threat phase)
@@ -170,5 +187,8 @@ See [[2026 Iran conflict market impact]] for full cross-sector reaction.
 ### Concepts
 - [[Global rearmament]] — demand driver
 - [[Golden Dome]] — major program
+- [[Defense procurement reform]] — Driscoll-Hegseth campaign restructuring how the Pentagon buys, with explicit prime-disintermediation goal
+- [[Trump defense budget]] — Jan 2026 budget + EO; enforcement layer of the procurement reform
+- [[Dan Driscoll]] — Army Secretary architecting the reform
 
-*Updated 2026-03-02*
+*Updated 2026-04-26*

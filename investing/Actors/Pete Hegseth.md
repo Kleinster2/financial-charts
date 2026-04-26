@@ -11,18 +11,34 @@ tags:
 
 # Pete Hegseth
 
-US Secretary of Defense (2025-present) under [[Donald Trump|Trump]]'s second term. Former Fox News host.
+US Secretary of Defense (2025-present) under [[Donald Trump|Trump]]'s second term — and, under [[Donald Trump|Trump]]'s September 5, 2025 executive order rebranding the [[Pentagon|Department of Defense]] as the "Department of War" in non-statutory communications, also authorized to use the title "Secretary of War." Former Fox News host. Cabinet-level promoter of the [[Defense procurement reform]] doctrine architected at Army level by [[Dan Driscoll]].
 
 ## Quick stats
 
 | Field | Value |
 |-------|-------|
-| Current role | Secretary of Defense |
+| Current role | Secretary of Defense / Secretary of War |
 | Appointed | January 2025 |
 | Prior role | Fox News host |
 | Fox News salary | $4.6M (2022-2024) |
 | Book advances | ~$500K (2022-2024) |
 | Speaking fees | ~$900K (2022-2024) |
+
+---
+
+## November 2025 procurement strategy
+
+Hegseth rolled out a cabinet-level military-procurement strategy in November 2025 that formalized the [[Defense procurement reform]] doctrine [[Dan Driscoll]] had been articulating publicly through 2025. The core directive: buy more widely available off-the-shelf components to avoid the high costs and delays associated with the specialized systems [[Defense Primes]] traditionally provide. The strategy was the cabinet-level companion to Driscoll's stated goal of inverting the Army's purchasing mix from roughly 90% purpose-built to 90% commercial, and it set up the January 8, 2026 [[Donald Trump|Trump]] executive order that put capital-return restrictions and executive-pay caps on contractors who fail to expand production capacity. See [[Trump defense budget]] for the EO mechanics and [[Defense procurement reform]] for the campaign timeline.
+
+In December 2025 Hegseth visited [[Anduril]] HQ and posted publicly about "rebuilding the Arsenal of Freedom," signalling the administration's preference for software-first insurgent vendors over the legacy primes — see [[Anduril]] for [[Palmer Luckey]]'s positioning and the political coalition behind the reform.
+
+---
+
+## Pentagon-Detroit weapons talks (Apr 2026)
+
+The April 15, 2026 [[Wall Street Journal|WSJ]] (originally) and [[Financial Times|FT]] (Davies, Mackinnon) reporting confirmed Hegseth's [[Pentagon|Department of War]] held wide-ranging talks with [[General Motors]] and [[Ford]] CEOs about contributing components or parts to US weapons supply chains, including via 3D printing. A senior Pentagon official told the FT: "The Department of War is committed to rapidly expanding the defence industrial base by leveraging all available commercial solutions and technologies to ensure our warfighters maintain a decisive advantage."
+
+Talks pre-date the [[2026 Iran conflict market impact|Iran war]] and are explicitly preliminary — focused on components and supply-chain bottlenecks, not whole weapons systems. The structural significance is that this is the operational extension of the November 2025 procurement strategy into commercial manufacturers that have not historically been [[Defense]] contractors at scale. See [[Defense procurement reform]] for the broader framework.
 
 ---
 

@@ -39,6 +39,10 @@ Threatened to cut off from DoD contracts unless production investment increases.
 
 See [[Trump defense budget]] for full context.
 
+### Procurement reform overhang
+
+The Jan 8 EO is the enforcement layer of the broader [[Defense procurement reform]] campaign run by Army Secretary [[Dan Driscoll]] and [[Pete Hegseth]]. Driscoll's stated goal — "kill a prime in two years" — is unusually pointed against RTX given that [[Donald Trump|Trump]] explicitly named RTX as the worst-performing prime on responsiveness, volume, and capital-allocation behavior. Of the five primes, RTX has the most concentrated political-attribution risk. The April 2026 [[Pentagon|Department of War]] talks with [[General Motors]] and [[Ford]] about supplying weapons-system components are the supply-side operational expression of the campaign — designed to create alternative suppliers for the kinds of missile and air-defense bottlenecks RTX has historically owned.
+
 ---
 
 ## Quick stats

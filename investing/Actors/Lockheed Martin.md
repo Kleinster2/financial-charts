@@ -73,11 +73,11 @@ See [[China retaliatory toolkit]] for the escalation pattern.
 
 ### Budget ($1.5T) — Jan 7
 
-Stock jumped **+6.7%** on $1.5T budget announcement. F-35, missiles, space all benefit.
+Stock jumped +6.7% on $1.5T budget announcement. F-35, missiles, space all benefit.
 
 ### Executive order — Jan 8
 
-Stock fell **-4.8%**, giving back gains.
+Stock fell -4.8%, giving back gains.
 
 | Restriction | Impact |
 |-------------|--------|
@@ -85,9 +85,13 @@ Stock fell **-4.8%**, giving back gains.
 | Buyback ban | Programs paused |
 | Exec pay cap | $5M max |
 
-**F-35 cited:** Trump's order mentioned delivery delays and cost overruns.
+F-35 cited: Trump's order mentioned delivery delays and cost overruns.
 
 See [[Trump defense budget]] for full context.
+
+### Procurement reform overhang
+
+The Jan 8 executive order is the enforcement layer of [[Defense procurement reform]] — a 12-month structural campaign by Army Secretary [[Dan Driscoll]] and [[Pete Hegseth]] aimed at inverting the Army's purchasing mix from roughly 90% purpose-built to 90% commercial off-the-shelf. Driscoll's stated goal — "kill a prime in two years" — is a multi-year overhang on the prime equity story that the budget upside does not fully offset. The April 2026 [[Pentagon|Department of War]] talks with [[General Motors]] and [[Ford]] CEOs about supplying weapons-system components are the supply-side operational expression of the same campaign. Lockheed is not specifically targeted in the FT/WSJ reporting (unlike [[RTX]], which [[Donald Trump|Trump]] singled out in the Jan 8 EO), but every move that routes demand outside the prime ecosystem is a structural threat to terminal-margin assumptions for LMT.
 
 ---
 

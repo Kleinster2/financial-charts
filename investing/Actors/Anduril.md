@@ -274,7 +274,7 @@ Total raised: ~$7B
 
 Luckey personally suggested to Trump before inauguration (Jan 2025) that the Department of Defense be renamed the Department of War. Trump later did exactly that.
 
-Defense Secretary [[Pete Hegseth]] visited Anduril HQ (Dec 2025), posted praise. Army Secretary Daniel Driscoll called Luckey "an amazing innovator." Senator Kevin Cramer (R-ND) created the Senate Defense Modernization Caucus after visiting Anduril (Feb 2024).
+Defense Secretary [[Pete Hegseth]] visited Anduril HQ (Dec 2025), posted praise. Army Secretary [[Dan Driscoll]] called Luckey "an amazing innovator." Senator Kevin Cramer (R-ND) created the Senate Defense Modernization Caucus after visiting Anduril (Feb 2024). The political coalition behind the [[Defense procurement reform]] campaign — Trump, Hegseth, Driscoll, Luckey — is also the customer base for Anduril's insurgent-vendor pitch.
 
 Hegseth's push to apply AI expansively in defense led to a clash with [[Anthropic]] over using its technology in classified systems — Anduril benefits from the broader push toward Silicon Valley defense partnerships.
 
