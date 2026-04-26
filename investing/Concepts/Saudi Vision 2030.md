@@ -127,6 +127,8 @@ The war creates a double-edged effect on Vision 2030:
 
 **Net assessment**: Short-term oil windfall benefits the fiscal side of Vision 2030. But the medium-term damage to the Gulf's safe-haven brand, expat confidence, and tech infrastructure may be more consequential for the diversification thesis. Vision 2030's success depends on attracting global talent and capital — both of which require the perception of security that the war has destroyed.
 
+The doctrinal shift moved from communicated to dated decisions in mid-April 2026 with the [[Saudi PIF international retrenchment April 2026]] cluster: [[LIV Golf]] funding ends after 2026 season, [[Al-Hilal]] 70% sold to [[Kingdom Holding]], up-to-$200M [[Metropolitan Opera]] MOU cancelled. Saudi officials' published framing — opera funding "falls outside what is essential" — codifies the doctrinal shift from sportswashing/culturewashing to "returns or essential strategic infrastructure only." Vision 2030's protected priorities (Expo 2030, 2034 World Cup, [[HUMAIN]]/AI, [[ROSHN]] housing, [[Ma'aden]] mining) survive; cash-burning international prestige projects do not.
+
 ## Investment implications
 
 Direct exposure:

@@ -186,6 +186,34 @@ The implication is that oil-market stress and macro stress are no longer the sam
 
 *Source: [How big is this shock really?](https://robinjbrooks.substack.com/p/how-big-is-this-shock-really), April 21, 2026*
 
+### "The Oil Shock Builds" (Apr 24)
+
+Brooks updated the Apr 21 "How big is this shock really?" thesis with the April 2026 flash PMI release. The supplier-delivery-time Z-scores from S&P Global manufacturing surveys now show clearly asymmetric pain across the developed world.
+
+| Country / region | Apr 2026 supplier-delivery Z-score | Read |
+|------------------|------------------------------------|------|
+| [[United States]] | 1.3 | Elevated, not statistically significant |
+| Eurozone | 1.3 | Elevated, not statistically significant |
+| [[United Kingdom]] | 3.3 | Severe (statistically significant) |
+| [[Japan]] | 3.2 | Severe (statistically significant) |
+
+The structural argument is that the US holds strategic advantage in the Iran blockade standoff specifically because American manufacturing is relatively insulated from oil-price and supply-chain shocks, while smaller open economies — particularly UK and Japan — bear the disproportionate share of the macro transmission. This is the cleanest empirical confirmation of Brooks's earlier April thesis that the [[2026 Strait of Hormuz crisis|Hormuz disruption]] could persist as a physical-supply problem without breaking the US macro narrative.
+
+Implications for the negotiating phase:
+- US can sustain the blockade longer than UK or Japan can sustain the cost.
+- Allied pressure for negotiation likely to come more from [[United Kingdom|UK]] and [[Japan]] than from US domestic pain channels.
+- Cross-references back to the Apr 5 Asian-dependence framework: [[Japan]] sat in the upper-right quadrant (high oil-import exposure + high Gulf share). The April PMI confirms the framework was right.
+
+*Source: [The Oil Shock Builds](https://robinjbrooks.substack.com/p/the-oil-shock-builds), April 24, 2026*
+
+### "The Blockade, Supply Chains and Yields" (Apr 25)
+
+Live video continuation of the supply-chain thesis tying the asymmetric PMI shock to fixed-income behavior. Argued the Treasury yield curve is the cleaner read than oil futures for whether markets are pricing the war as continuing versus resolving — Treasury moves capture both the duration premium and the credit/safe-haven trade simultaneously. Cross-references back to the April 22 "Are high UK yields good or bad?" framing, applied prospectively to the developed-market term-premium spread between US and UK gilts.
+
+Limited transcript availability — full thesis depends on the video.
+
+*Source: [The Blockade, Supply Chains and Yields](https://robinjbrooks.substack.com/p/the-blockade-supply-chains-and-yields), April 25, 2026*
+
 ### "Are high UK yields good or bad?" (Apr 22)
 
 Brooks argued that high long-end [[United Kingdom]] government-bond yields are not automatically a sign of dysfunction. His core claim is that the UK stands out partly because [[Japan]] and the euro area suppress long yields more aggressively through central-bank balance sheets and market interventions. In that framing, gilt yields are acting as a cleaner price-discovery mechanism for fiscal risk rather than as a simple crisis signal.

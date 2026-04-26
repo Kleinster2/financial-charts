@@ -78,13 +78,15 @@ KHC shows moderate Consumer Staples correlation (XLP r = 0.62).
 
 ---
 
-## Recent activity (2025)
+## Recent activity (2025-2026)
 
 | Event | Detail |
 |-------|--------|
 | Q3 2025 profit | More than doubled YoY |
-| Al Hilal FC | ~$400M for 75% stake (pending) |
+| [[Al-Hilal]] FC | **70% stake closed Apr 2026** (renegotiated from initial 75% pending); ~$400M-class deal; PIF retains residual ~5% |
 | [[Crypto]] | Won't invest — "limited utility" |
+
+The Al-Hilal acquisition is part of the broader [[Saudi PIF international retrenchment April 2026]] cluster — the first of four [[Saudi PIF]]-owned Saudi football clubs to move out of sovereign ownership. Operationally Al-Hilal is unaffected (transfer market, AFC Champions League, Saudi Pro League TV rights all continue); strategically the asset moves from sovereign to private-domestic Saudi ownership. KHC's "long-term value investing" frame may compress player-spending budgets versus the PIF era — watch for Neymar contract renewal and roster turnover in summer 2026.
 
 ---
 
@@ -142,8 +144,10 @@ Major bet on Musk's AI venture.
 ## Related
 
 - [[xAI]] — major AI investment
+- [[Al-Hilal]] — 70% acquired Apr 2026 from [[Saudi PIF]]
+- [[Saudi PIF international retrenchment April 2026]] — cluster the Al-Hilal deal belongs to
 - [[Saudi Arabia Tech]] — regional context
-- [[Saudi PIF]] — sovereign peer
+- [[Saudi PIF]] — sovereign peer; Al-Hilal counterparty
 
 ---
 

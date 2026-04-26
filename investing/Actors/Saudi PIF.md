@@ -145,10 +145,12 @@ PIF's AI strategy through [[HUMAIN]] spans four pillars: next-gen data centers, 
 
 | Asset | Cumulative investment | Status |
 |-------|-----------------------|--------|
-| [[LIV Golf]] | $5.3B+ (~$100M/month burn rate) | PGA Tour rejected $1.5B PIF investment; merger stalled. Heading toward $6B by end 2026 |
-| [[Newcastle United]] | ~$400M (2021 acquisition) | Premier League club |
-| 2034 [[FIFA World Cup]] | $25-30B (stadium costs alone, 15 stadiums) | Won hosting rights |
-| Olympic Esports Games 2027 | — | 12-year [[IOC]] deal |
+| [[LIV Golf]] | $5.3B+ (~$100M/month burn rate); ~$4.89B cumulative losses 2021-2025 | **Funding ends after 2026 season** (Apr 2026 reporting); PGA Tour rejected $1.5B PIF investment; CEO [[Scott O'Neil]] "plan that might surprise" |
+| [[Al-Hilal]] | ~$400M-class | **70% sold to [[Kingdom Holding]] Apr 2026**; PIF retains residual ~5% |
+| Al-Nassr / Al-Ittihad / Al-Ahli | Bundled with Al-Hilal in 2023 75% transfers | Still PIF; same doctrinal frame as Al-Hilal — watch for similar transfers |
+| [[Newcastle United]] | ~$400M (2021 acquisition) | Retained; not yet flagged for sale; inside same doctrinal frame |
+| 2034 [[FIFA World Cup]] | $25-30B (stadium costs alone, 15 stadiums) | Protected — won hosting rights |
+| Olympic Esports Games 2027 | — | Retained (12-year [[IOC]] deal) |
 | [[Expo 2030]] | ~$7.8B | Protected from spending cuts |
 
 ---
@@ -171,6 +173,24 @@ Protected priorities: [[Expo 2030]], 2034 [[FIFA World Cup]], [[HUMAIN]]/AI infr
 Deprioritized: [[NEOM]]/The Line (timelines extended, scope under review), Mukaab (deferred), advisory mandates.
 
 Financing shift: movement from pure sovereign funding to blended capital — debt financing (Amaala), public-private structures ([[Diriyah]]), portfolio restructuring ([[Qiddiya]]). Governor [[Yasir Al-Rumayyan]] indicated the revised 2026-2030 strategy (expected spring 2026) aims to make PIF "a more efficient and returns-driven investment vehicle." At [[FII Priority Miami 2026]] on March 27, Deputy Governor [[Yazeed Alhumied]] said [[Saudi Arabia]] now has 12 international asset managers operating with full licenses, six added in the prior year, with about $20B in committed capital and a $60B-$80B pipeline. [[King Street]] said its partnership with PIF is aimed at deploying capital across the Kingdom and the GCC.
+
+---
+
+## April 2026 international retrenchment cluster
+
+The recalibration moved from communicated doctrine to dated decisions in mid-April 2026. Three discrete pull-backs across sport and culture landed in roughly the same week, with Saudi officials publicly citing the [[2026 Strait of Hormuz crisis|Iran war]] fiscal squeeze and the need to prioritize "essential" projects:
+
+| Date | Asset | Action | Counterparty |
+|------|-------|--------|--------------|
+| Apr 14-16 (FT/NYT/WSJ/Bloomberg reporting) | [[LIV Golf]] | Funding ends after 2026 season | n/a (wind-down) |
+| Apr (week of Apr 14-21) | [[Al-Hilal]] | 70% stake sold | [[Kingdom Holding]] (Prince Alwaleed bin Talal) |
+| Apr 21-22 | [[Metropolitan Opera]] | Up to $200M MOU cancelled via Zoom call to GM Peter Gelb | n/a (cancellation) |
+
+Saudi officials' framing to the Met: opera funding "falls outside what is essential." LIV's CEO [[Scott O'Neil]] confirmed the funding wind-down while saying "the season continues exactly as planned, uninterrupted and at full throttle." The Al-Hilal sale moves the asset from sovereign to private-domestic ownership ([[Kingdom Holding]] is a Saudi vehicle).
+
+The cluster signals the structural end of the sportswashing-and-culturewashing era of PIF capital deployment. The doctrinal shift is consistent with both the Iran war fiscal trigger and the pre-existing fiscal pressure (Aramco dividend cut, $90+ breakeven vs $60-65 Brent pre-war). Projects that survive the cut: gaming ([[Savvy Games]], [[Electronic Arts]] take-private), sovereign AI ([[HUMAIN]]), domestic infrastructure ([[ROSHN]], [[Ma'aden]]), and committed mega-events ([[Expo 2030]], 2034 [[FIFA World Cup]]). Projects that get cut: cash-burning international cultural and sports projects without revenue visibility.
+
+[[Newcastle United]] is inside the same doctrinal frame but not yet flagged for action — the next watch item. See [[Saudi PIF international retrenchment April 2026]] for the full event analysis.
 
 ---
 
@@ -260,8 +280,11 @@ PIF did not commit to Vision Fund 2. The experience reshaped PIF's approach: sub
 - [[Nintendo]] — 5.01% stake (largest individual shareholder)
 - [[Heathrow Airport]] — 15% stake ($4.2B deal with [[Ardian]], Dec 2024)
 - [[SoftBank Vision Fund]] — $45B LP (2017); ~$15.6B cumulative losses
-- [[LIV Golf]] — $5.3B+ cumulative; PGA Tour merger stalled
-- [[Newcastle United]] — Premier League club (2021)
+- [[LIV Golf]] — $5.3B+ cumulative; funding wind-down after 2026 season (Apr 2026)
+- [[Al-Hilal]] — 70% stake sold to [[Kingdom Holding]] (Apr 2026); residual ~5%
+- [[Metropolitan Opera]] — up-to-$200M MOU cancelled (Apr 21-22, 2026)
+- [[Saudi PIF international retrenchment April 2026]] — cluster event tying LIV/Al-Hilal/Met Opera together
+- [[Newcastle United]] — Premier League club (2021); same doctrinal frame as cluster but not yet acted
 - [[xAI]] — $3B via HUMAIN (converted to [[SpaceX]] equity)
 - [[a16z]] — Project Transcendence partner ($100B AI fund)
 - [[Jared Kushner]] — assembled EA take-private consortium; [[Affinity Partners]]

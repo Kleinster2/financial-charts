@@ -164,6 +164,37 @@ The watch-list item on Asian GDP revisions is no longer hypothetical. The IMF's 
 
 That matters because the Apr 20 ship seizure shifts the debate back toward duration risk. A short, messy reopening is still compatible with the IMF base case. Repeated maritime seizures and retaliation threats are not. The macro damage channels are confirmed; the unresolved variable is how long this renewed enforcement phase lasts.
 
+### Apr 22-25 — ship attacks, dual-blockade endurance, Pakistan negotiation track
+
+The week ended in a holding pattern: physical maritime enforcement continued, the [[United States]]-led blockade remained in place ("dual blockade" with Iran's selective transit regime — both sides preventing passage of disfavored cargo), and a second round of negotiations was scheduled in [[Pakistan]] under [[Trump]] / [[Abbas Araghchi]] auspices.
+
+| Date | Event |
+|------|-------|
+| Apr 13 | US announces formal blockade of Iranian ports — secondary sanctions on Chinese banks facilitating Iranian oil transactions; "dual blockade" with Iran's earlier closure |
+| Apr 18 | Iran formally re-closes the strait in response to US port blockade (Trump ceasefire extension was conditional) |
+| Apr 22 | Iranian gunboat attacks Greek-owned cargo ship Epaminondas off coast of [[Oman]] with gunfire and rocket-propelled grenades despite prior crossing clearance — significant bridge damage |
+| Apr 22 | Two Indian-flagged ships targeted by gunfire — VLCC Sanmar Herald among them, despite prior clearance — turned back |
+| Apr 22 | Iran says it has seized two ships (one tanker reportedly attacked, ships seized) after Trump extends ceasefire framework |
+| Apr 24 | [[Robin J. Brooks]] publishes Apr 2026 [[S&P Global]] flash PMI: supplier-delivery Z-scores US/Eurozone 1.3 (elevated, not significant) vs UK 3.3 / Japan 3.2 (severe). Asymmetric oil-shock pain — US insulated, smaller open economies bear the cost |
+| Apr 25 | [[Iran]] foreign minister expected to travel to [[Pakistan]] for second round of negotiations; ceasefire framework still nominally extended |
+
+Strait throughput remains at ~5% of pre-war level (~1 mb/d versus ~20 mb/d normal). The Apr 17 "open" headline did not translate to physical normalization — Reuters confirmed only ~20 vessels started toward the strait that night, most halted or turned back pending clarity on mine risk, routing, and insurance. The Apr 22 ship attacks reinforce that the selective-transit regime is still adjudicated barrel-by-barrel.
+
+The new analytical question, surfaced cleanly by Brooks's Apr 24 PMI release, is allocational: which developed-market economies are bearing the cost of the persistent disruption. Z-scores show UK and Japan industry feeling the pain at statistically significant levels while the US and Eurozone barely register the shock in supplier-delivery surveys. That distribution explains why allied pressure for a negotiated reopening is increasingly coming from London and Tokyo rather than Washington — and why the Pakistan track was scheduled despite ongoing maritime enforcement.
+
+| Asymmetry channel | Why US is insulated | Why UK / Japan are exposed |
+|--------------------|----------------------|------------------------------|
+| Oil import dependency | US net energy exporter post-shale | UK + Japan large net importers |
+| Refinery slate | US refines wider crude grades | UK + Japan rely on Mid-East medium/heavy |
+| LNG dependency | US LNG exporter | Japan LNG importer; UK swing buyer |
+| Manufacturing exposure | US PMI Z-score 1.3 | UK 3.3 / Japan 3.2 |
+
+The Saudi side of the asymmetry surfaced concretely the same week through the [[Saudi PIF international retrenchment April 2026]] cluster: PIF informed the [[Metropolitan Opera]] by Zoom call (Apr 21-22) that an up-to-$200M MOU was cancelled, citing the war's economic damage and a domestic-spending refocus ("only doing the projects that are essential"). The same mechanism wound down [[LIV Golf]] funding after 2026 and moved [[Al-Hilal]] from PIF to [[Kingdom Holding]]. This is the cleanest dated evidence yet that the war is reshaping Gulf sovereign capital deployment, not just Western manufacturing supply chains.
+
+Cross-references: [[Iran conflict economic disruption]], [[Iran conflict war duration]], [[Robin J. Brooks]] Apr 24 entry, [[2026 Iran conflict market impact]], [[Hormuz Permanent Risk Premium]], [[Saudi PIF international retrenchment April 2026]].
+
+---
+
 ## Apr 21-22 corporate earnings confirm transmission into software, tobacco, and airlines
 
 The Apr. 21-22 earnings cycle is the cleanest proof yet that the Hormuz shock is no longer just an oil chart or shipping story. It is now showing up in guidance, deal timing, and cost recovery across sectors that sit far downstream from crude itself.
