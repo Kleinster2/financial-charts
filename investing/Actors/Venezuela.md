@@ -30,6 +30,17 @@ Venezuela is a cautionary tale and potential swing factor:
 
 ---
 
+## Evolution
+
+- 1990s: Venezuela is a major global oil producer at roughly 3.5M bpd, with foreign operators supplying capital and technical depth.
+- 2000s: Hugo Chavez nationalizes core assets and forces foreign oil companies into minority positions under [[PDVSA]] control, pushing out expertise and weakening future production capacity.
+- 2010s: Mismanagement, sanctions, capital flight, and brain drain drive output toward 1M bpd; [[Chevron]] remains the key US operator with an exceptional license path.
+- 2022-2025: Partial US licensing allows limited recovery, but the country remains financially isolated and dependent on workaround buyers.
+- January 2026: The [[Maduro capture 2026|Maduro capture]] turns Venezuela from a sanctions-isolated oil reserve into a transition-and-rebuild question for [[Oil]], [[US Sanctions]], creditors, and [[Gulf Coast refiners]].
+- March 2026: [[Delcy Rodriguez]] uses [[FII Priority Miami 2026]] to pitch foreign capital, making Venezuela part of the [[LATAM]] corridor story at a Saudi-backed investment forum.
+
+---
+
 ## The collapse
 
 From oil giant to basket case:
@@ -102,7 +113,7 @@ Only US company with Venezuela license:
 | Advantage | Description |
 |-----------|-------------|
 | Exclusive access | No US competition |
-| Existing infrastructure | Never fully left |
+| Existing [[Infrastructure]] | Never fully left |
 | PDVSA relationship | Maintained ties |
 | Upside optionality | If sanctions lift fully |
 
@@ -120,7 +131,7 @@ If sanctions lifted and investment returned:
 | Moderate investment | 1.5-2M bpd |
 | Full rehabilitation | 2.5-[[3M]] bpd (years away) |
 
-Reality: Infrastructure degraded, expertise gone, would take years and billions.
+Reality: [[Infrastructure]] degraded, expertise gone, would take years and billions.
 
 ---
 
@@ -156,7 +167,7 @@ See [[Long emerging markets]] — Venezuela as "new frontier" in EM supercycle t
 | Factor | Impact |
 |--------|--------|
 | Russia/China | Providing support to Maduro |
-| Refugee crisis | Millions fled to Colombia, US |
+| Refugee crisis | Millions fled to [[Colombia]], US |
 | Elections | Disputed 2024 election, Maduro stayed |
 | US policy | Uncertain under new administration |
 
@@ -204,7 +215,7 @@ See [[Maduro capture 2026]] for full event details.
 
 ## March 25, 2026 — FII Priority Miami pitch
 
-[[Delcy Rodriguez]], Venezuela's interim president after the [[Maduro capture 2026|Maduro capture]], appeared by video from Caracas at [[FII Priority Miami 2026]] during the summit's New LATAM Order opening. The pitch was aimed directly at Western, Saudi, and Latin American capital allocators — a striking reversal for a Chavista successor government addressing an investor audience in Miami.
+[[Delcy Rodriguez]], Venezuela's interim president after the [[Maduro capture 2026|Maduro capture]], appeared by video from Caracas at [[FII Priority Miami 2026]] during the summit's New [[LATAM]] Order opening. The pitch was aimed directly at Western, Saudi, and Latin American capital allocators — a striking reversal for a Chavista successor government addressing an investor audience in Miami.
 
 The message: Venezuela wants to convert regime change into investability. Rodriguez highlighted oil reserves, transition stability, and the new hydrocarbons framework reducing [[PDVSA]]'s monopoly position by allowing more private-sector participation. The practical test is whether US authorization, legal stability, and production-sharing economics are credible enough for oil companies, service firms, Gulf capital, and development-finance actors to re-enter.
 
@@ -228,7 +239,7 @@ Implications:
 - Trump rewards loyalty, punishes public pushback
 - Other hesitant companies may stay quiet
 
-*Source: Axios, Bloomberg, Jan 12, 2026*
+*Source: Axios, [[Bloomberg]], Jan 12, 2026*
 
 ---
 
@@ -247,13 +258,13 @@ Foreign bank presence:
 
 JPMorgan positioning:
 - Dormant Caracas office maintained for years — could reactivate as needed
-- Internal idea floated: trade bank for oil exports (similar to [[Trade]] Bank of Iraq, 2003)
+- Internal idea floated: trade bank for oil exports (similar to [[Trade]] Bank of [[Iraq]], 2003)
 - Could tap $1.5T Security and Resiliency Initiative for critical minerals financing
 - Currently trades Venezuelan sovereign bonds (non-sanctioned) with offshore counterparties
 
 If sanctions ease — opportunities:
 - [[Trade]] financing for oil exports
-- Infrastructure investment financing
+- [[Infrastructure]] investment financing
 - Export-Import Bank involvement (per [[ConocoPhillips]] CEO at Jan 9 WH meeting)
 - Restructuring and energy financing deals
 
@@ -269,7 +280,7 @@ China (~$60B exposure):
 |-------|--------------|-----------|
 | [[China]] | ~$60B total exposure | Mixed |
 | [[CNPC]] | ~$20B loans | [[PDVSA]] Debt (Oil-for-loans) |
-| Sovereign | Balance of loans | Sovereign Debt (Infrastructure etc) |
+| Sovereign | Balance of loans | Sovereign Debt ([[Infrastructure]] etc) |
 | [[Sinopec]] | Oil buyer | Commercial |
 
 Post-Maduro: Chinese debt repayment uncertain. US may displace Chinese oil access.
@@ -317,7 +328,7 @@ Investment implication: [[Gulf Coast refiners]] ([[Valero]], [[PBF Energy]]) and
 - [[Venezuela oil rebuild]] — investment thesis
 - [[Venezuela repatriation strategy]] — immigration angle
 - [[Oil]] — global supply context
-- [[Sanctions]] — key policy lever
+- [[US Sanctions]] — key policy lever
 - [[Cuba-Venezuela axis]] — [[Cuba]]'s economic lifeline
 - [[US-China commodity leverage]] — oil access as rare earth bargaining chip
 - [[PDVSA]] — state oil company
