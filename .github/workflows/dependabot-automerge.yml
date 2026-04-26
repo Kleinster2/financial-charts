@@ -1,0 +1,95 @@
+name: Dependabot Auto Merge
+
+on:
+  workflow_run:
+    workflows: ["Playwright Smoke"]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge:
+    name: Merge eligible npm dev dependency updates
+    if: >-
+      ${{
+        github.event.workflow_run.event == 'pull_request' &&
+        github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.head_repository.full_name == github.repository &&
+        github.event.workflow_run.pull_requests[0].number
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check and merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.workflow_run.pull_requests[0].number }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          skip() {
+            echo "Skipping auto-merge: $1"
+            exit 0
+          }
+
+          echo "Evaluating PR #${PR_NUMBER}"
+
+          author="$(gh pr view "$PR_NUMBER" --repo "$REPO" --json author --jq '.author.login')"
+          base_ref="$(gh pr view "$PR_NUMBER" --repo "$REPO" --json baseRefName --jq '.baseRefName')"
+          head_ref="$(gh pr view "$PR_NUMBER" --repo "$REPO" --json headRefName --jq '.headRefName')"
+          is_draft="$(gh pr view "$PR_NUMBER" --repo "$REPO" --json isDraft --jq '.isDraft')"
+          title="$(gh pr view "$PR_NUMBER" --repo "$REPO" --json title --jq '.title')"
+
+          [[ "$author" == "dependabot[bot]" || "$author" == "app/dependabot" ]] || skip "author is $author"
+          [[ "$base_ref" == "main" ]] || skip "base branch is $base_ref"
+          [[ "$head_ref" == dependabot/npm_and_yarn/* ]] || skip "branch is not an npm Dependabot branch"
+          [[ "$is_draft" == "false" ]] || skip "PR is a draft"
+
+          changed_files="$(gh pr view "$PR_NUMBER" --repo "$REPO" --json files --jq '.files[].path')"
+          disallowed_files="$(printf '%s\n' "$changed_files" | grep -Ev '^(package\.json|package-lock\.json)$' || true)"
+          [[ -z "$disallowed_files" ]] || skip "changed files outside package manifests: $disallowed_files"
+          printf '%s\n' "$changed_files" | grep -qx 'package.json' || skip "package.json was not changed"
+
+          if [[ "$title" =~ ^deps:\ bump\ ([^[:space:]]+)\ from\ ([0-9]+)\.([0-9]+)\.([0-9]+)\ to\ ([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+            dependency="${BASH_REMATCH[1]}"
+            old_major="${BASH_REMATCH[2]}"
+            old_minor="${BASH_REMATCH[3]}"
+            old_patch="${BASH_REMATCH[4]}"
+            new_major="${BASH_REMATCH[5]}"
+            new_minor="${BASH_REMATCH[6]}"
+            new_patch="${BASH_REMATCH[7]}"
+          else
+            skip "title does not match the expected Dependabot semver format"
+          fi
+
+          [[ "$new_major" == "$old_major" ]] || skip "major version update ${old_major} -> ${new_major}"
+          if (( new_minor < old_minor || (new_minor == old_minor && new_patch <= old_patch) )); then
+            skip "target version is not newer than source version"
+          fi
+
+          gh api -H "Accept: application/vnd.github.raw" "repos/$REPO/contents/package.json?ref=$base_ref" > "$RUNNER_TEMP/base-package.json"
+          gh api -H "Accept: application/vnd.github.raw" "repos/$REPO/contents/package.json?ref=$head_ref" > "$RUNNER_TEMP/head-package.json"
+
+          python3 - "$dependency" "$RUNNER_TEMP/base-package.json" "$RUNNER_TEMP/head-package.json" <<'PY' || skip "$dependency is not a direct devDependency"
+          import json
+          import sys
+
+          dependency = sys.argv[1]
+          for package_path in sys.argv[2:]:
+              with open(package_path, encoding="utf-8") as handle:
+                  package_json = json.load(handle)
+              if dependency in package_json.get("devDependencies", {}):
+                  sys.exit(0)
+
+          sys.exit(1)
+          PY
+
+          gh pr merge "$PR_NUMBER" \
+            --repo "$REPO" \
+            --squash \
+            --delete-branch \
+            --subject "$title" \
+            --body "Auto-merged Dependabot npm dev-dependency update after Playwright Smoke passed."
