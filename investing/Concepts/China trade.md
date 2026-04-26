@@ -32,6 +32,12 @@ The vault already has several specific China-trade notes, but they were floating
 | Overcapacity transmission | Excess Chinese supply pressures foreign manufacturers and prices | [[EU-China trade]] |
 | Food and fertilizer asymmetry | [[China]] still needs imported food, but can sometimes protect domestic inputs first | [[urea]], [[Fortress China]] |
 
+## Q1 2026 export dependence
+
+The Q1 2026 macro print is a clean example of trade carrying the domestic cycle. [[NBS]] reported Q1 goods trade up 15.0% year on year in yuan terms, exports up 11.9%, imports up 19.6%, and exports of mechanical and electrical products up 18.3%. March dollar exports slowed to 2.5% year on year, per [[General Administration of Customs]] data summarized in FT/Bloomberg/Trading Economics, but the quarter still helped deliver 5.0% official GDP growth.
+
+The trade-hub implication is that [[China]] is becoming more dependent on external demand at the same time that the Iran war is tightening the global energy constraint. Higher fuel prices hurt domestic demand and factory margins, but they can also pull forward demand for Chinese solar, batteries, EVs, and other green-tech exports in countries trying to reduce hydrocarbon import bills. That is a favorable composition story inside a fragile aggregate story.
+
 ---
 
 ## Commodity asymmetry in practice

@@ -1,3 +1,8 @@
+---
+aliases: [PRC, People's Republic of China, Mainland China]
+tags: [actor, government, country, geopolitics, china]
+---
+
 #actor #government #geopolitics
 
 <!-- REFACTOR FLAG: At 460+ lines and growing. When this note crosses 600 lines, extract into hub + concept notes: 15th Five-Year Plan, rare earth/export controls, AI ecosystem, Hormuz energy exposure. See [[Unitree]] refactor pattern in MEMORY.md. -->
@@ -8,28 +13,45 @@ State actor shaping semiconductor industry through industrial policy, export con
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Sovereign state / one-party state |
+| Capital | Beijing |
+| Currency | Yuan / renminbi (CNY) |
+| 2026 GDP target | 4.5-5.0% |
+| Core market role | Manufacturing, exports, energy demand, semiconductor demand |
+
+---
+
 ## Macro snapshot
 
 ### GDP
 
 | Year | [[Target]] | Actual | Notes |
 |------|--------|--------|-------|
-| 2025 Full Year | 5.0% | **5.0%** | Hit target |
-| 2025 Q4 | — | **4.5%** | Weakest in 3 years |
-| 2026 Q1 | — | **5.0%** | At top end of full-year target range |
+| 2025 Full Year | 5.0% | 5.0% | Hit target |
+| 2025 Q4 | — | 4.5% | Weakest in 3 years |
+| 2026 Q1 | — | 5.0% | At top end of full-year target range |
 | 2026 (Fitch) | — | 4.1% | Forecast |
 | 2026 (DB) | — | 4.5% | Forecast |
 
-### Investment collapse (Jan 2026)
+[[NBS]] preliminary accounting put Q1 2026 GDP at 33.4193 trillion yuan, up 5.0% year on year at constant prices and 1.3% quarter on quarter. The production-side split matters: industry grew 6.1%, manufacturing 6.3%, construction fell 3.8%, and real estate was still negative at -0.1%. The headline hit the upper end of the 4.5-5.0% target range, but it was not a consumption-led rebalancing.
 
-| Metric | 2025 | Notes |
-|--------|------|-------|
-| Fixed-asset investment | **-3.8%** | First annual decline in decades |
-| Property investment | **-17.2%** | 4th consecutive year of decline |
-| Residential sales | ¥7.3T | Lowest since 2015 |
-| Dec retail sales | **+0.9%** | Slowest since late 2022 |
+### Demand and investment (Q1 2026)
 
-**Fitch warning:** Investment crash raising credit risks for homebuilders, banks, and local government financing vehicles (LGFVs).
+| Metric | Latest | Signal |
+|--------|--------|--------|
+| Fixed-asset investment | +1.7% yoy, Jan-Mar 2026 | Recovery from the 2025 contraction, but private FAI still -2.2% |
+| Property investment | -11.2% yoy, Jan-Mar 2026 | Property drag remains severe |
+| New commercial-building sales value | -16.7% yoy, Jan-Mar 2026 | Buyer demand still weak despite narrower floor-space decline |
+| Retail sales | +2.4% yoy Q1; +1.7% yoy March | Consumption still lagging production |
+| Retail sales ex-autos | +3.6% yoy Q1; +3.2% yoy March | Autos are a material drag |
+| Industrial value added | +6.1% yoy Q1; +5.7% yoy March | Production side is carrying the headline |
+| High-tech manufacturing | +12.5% yoy Q1 | Industrial upgrade remains the growth engine |
+
+The FT's April 15/16 read on the same data is the right synthesis: exports, fiscal support, equipment manufacturing, and high-tech manufacturing are offsetting weak household demand and the property slump. [[Capital Economics]]' alternative China activity proxy was much weaker than official GDP, around 3% year on year in January-February and probably lower in March, which keeps the official 5% print in the "production strength, weak domestic demand" bucket.
 
 ### Cement collapse (Jan 2026)
 
@@ -42,22 +64,22 @@ Cement tells the construction story most clearly — after decades of growth, Ch
 | Metric | Value |
 |--------|-------|
 | China share of global | ~50% |
-| Decline since 2020 | **-30%** |
+| Decline since 2020 | -30% |
 | 2026 outlook | 6th consecutive year of decline |
 | Peak per-capita (2014) | 1.8 tons |
 | Current per-capita | ~1.2 tons (4x global avg) |
 | Capacity utilization | ~50% |
 | Prices | Decade lows |
 
-**Projection:** At 4%/year decline, China produces 350M fewer tons by 2030 — no other market can replace this shortfall.
+Projection: At 4%/year decline, China produces 350M fewer tons by 2030 — no other market can replace this shortfall.
 
 *Source: Bloomberg Opinion (David Fickling), Jan 21 2026*
 
 ### Monetary policy
 
-**[[PBOC]]:** Left the 1-year and 5-year LPR unchanged at 3.0%/3.5% in April 2026 — 11th consecutive month without a cut.
+[[PBOC]]: Left the 1-year and 5-year LPR unchanged at 3.0%/3.5% in April 2026 — 11th consecutive month without a cut.
 
-**Policy stance:** "Moderately loose" — first use of this language since 2008 financial crisis.
+Policy stance: "Moderately loose" — first use of this language since 2008 financial crisis.
 
 The April hold came with a mixed macro signal: first-quarter growth printed 5.0% year-on-year, but March factory-gate prices turned positive for the first time in more than three years as the Iran war pushed energy costs into the industrial system. Beijing is still choosing targeted easing over another headline rate cut.
 
@@ -80,10 +102,10 @@ Chinese banks are deploying excess cash into government bonds, compressing long-
 
 ### Mechanism
 
-1. [[PBOC]] injected net **1 trillion yuan** ($144B) via MLF and outright reverse repo (Jan 2026)
+1. [[PBOC]] injected net 1 trillion yuan ($144B) via MLF and outright reverse repo (Jan 2026)
 2. Bank deposits elevated, loan demand weak
 3. 1-year [[China NCD|NCD]] yields crushed to ~1.6% (near 1-year lows)
-4. 30-year CGB yields at ~2.3% = **60+ bps spread** (widest since 2022)
+4. 30-year CGB yields at ~2.3% = 60+ bps spread (widest since 2022)
 5. Banks bid for duration → long-end yields decline
 
 ### Bank funding costs vs bond yields
@@ -93,7 +115,7 @@ Chinese banks are deploying excess cash into government bonds, compressing long-
 | 1-year NCD | ~1.6% | Bank funding cost |
 | 10-year CGB | ~1.8% | Near Nov lows |
 | 30-year CGB | ~2.3% | Recovering from 2024 highs |
-| **Carry (30y - NCD)** | **~60+ bps** | Incentive for duration extension |
+| Carry (30y - NCD) | ~60+ bps | Incentive for duration extension |
 
 ### Regulatory tailwind
 
@@ -133,11 +155,11 @@ While the [[Operation Epic Fury|Iran conflict]] drove sovereign yields higher ac
 
 | Market | 10Y yield change since Feb 27 | Level |
 |--------|------------------------------|-------|
-| [[UK]] | **+70 bps** | — |
-| [[Germany]] | **+40 bps** | — |
-| US | **+38 bps** | 4.34% |
-| [[Japan]] | **+25 bps** | — |
-| China | **~0 bps** | 1.81% |
+| [[UK]] | +70 bps | — |
+| [[Germany]] | +40 bps | — |
+| US | +38 bps | 4.34% |
+| [[Japan]] | +25 bps | — |
+| China | ~0 bps | 1.81% |
 
 Three structural reasons for insulation:
 
@@ -147,7 +169,7 @@ Three structural reasons for insulation:
 
 Global investors also drawn: Charles and Louis-Vincent Gave ([[Gavekal]]): *"Since 2012, investing in CGBs has been one of the only ways for global government bond investors to outperform US inflation. All other major bond markets have delivered meaningful real losses."*
 
-Jason Pang ([[JPMorgan]] AM): *"It offers a very uncorrelated investment option."*
+Jason Pang ([[JPMorgan Chase|JPMorgan]] AM): *"It offers a very uncorrelated investment option."*
 
 Policy predictability angle: Wei Li (BNP): *"Their monetary policy is quite predictable. When the central government wants the PBoC to cut yields, they cut yields."* Contrasts with [[Federal Reserve|Fed]] uncertainty around [[Kevin Warsh|new chair]], [[Donald Trump|Trump]] pressure.
 
@@ -155,8 +177,8 @@ Policy predictability angle: Wei Li (BNP): *"Their monetary policy is quite pred
 
 ### Stimulus (Jan 2026)
 
-**[[NDRC]] (Wang Changlin) announced new stimulus policies:**
-- Focus: **Services sector consumption** (not infrastructure/property)
+[[NDRC]] (Wang Changlin) announced new stimulus policies:
+- Focus: Services sector consumption (not infrastructure/property)
 - Addressing supply-demand imbalances
 - Spread across 15th Five-Year Plan (2026-2030)
 
@@ -167,10 +189,10 @@ Details TBD — watch for specifics on consumer subsidies, services support.
 ## Why it matters
 
 China is central to every major semiconductor thesis:
-- **Demand**: Largest market for semiconductor equipment despite restrictions
-- **Supply chain**: 30-45% of Korean memory production located in China
-- **Policy**: Export controls reshape capex, R&D, and supply chains globally
-- **Indigenous development**: $150B+ in subsidies, ASML clone efforts, mature node buildout
+- Demand: Largest market for semiconductor equipment despite restrictions
+- Supply chain: 30-45% of Korean memory production located in China
+- Policy: Export controls reshape capex, R&D, and supply chains globally
+- Indigenous development: $150B+ in subsidies, ASML clone efforts, mature node buildout
 
 ---
 
@@ -178,12 +200,12 @@ China is central to every major semiconductor thesis:
 
 | Policy | Status | Impact |
 |--------|--------|--------|
-| **VEU (Validated End User)** | Revoked Dec 31, 2025 | TSMC, Samsung, SK Hynix China fabs need case-by-case approval |
-| **H200 exports** | Conditional | 25% revenue to US govt required |
-| **Affiliate Rule** | Suspended 1 year | Exchange for China suspending rare earth controls |
-| **Equipment sales** | Restricted but porous | Congress: China still largest equipment market |
+| VEU (Validated End User) | Revoked Dec 31, 2025 | TSMC, Samsung, SK Hynix China fabs need case-by-case approval |
+| H200 exports | Conditional | 25% revenue to US govt required |
+| Affiliate Rule | Suspended 1 year | Exchange for China suspending rare earth controls |
+| Equipment sales | Restricted but porous | Congress: China still largest equipment market |
 
-**ITIF estimate**: Full decoupling = $77B US sales loss, 24% R&D cut
+ITIF estimate: Full decoupling = $77B US sales loss, 24% R&D cut
 
 ---
 
@@ -195,10 +217,10 @@ China is central to every major semiconductor thesis:
 - Massive mature node capacity buildout
 
 ### Advanced nodes (struggling)
-- **ASML clone**: Prototype in [[Shenzhen]] with former ASML engineers
+- ASML clone: Prototype in [[Shenzhen]] with former ASML engineers
   - [[Target]]: 2028-2030 production
   - Reality: Decades behind on precision engineering
-- **DUV workarounds**: Extending life of older ASML tools via subsystem upgrades
+- DUV workarounds: Extending life of older ASML tools via subsystem upgrades
 
 ### AI chips
 - Huawei [[Ascend]] 910B/C competing with NVIDIA A100
@@ -207,7 +229,7 @@ China is central to every major semiconductor thesis:
 
 ### Huawei as national champion strategy (Jan 2026)
 
-**[[David Sacks]] (Davos, Jan 23):** China actively blocking NVIDIA chips to indigenize chip production and stand up [[Huawei]] as national champion.
+[[David Sacks]] (Davos, Jan 23): China actively blocking NVIDIA chips to indigenize chip production and stand up [[Huawei]] as national champion.
 
 | Element | Detail |
 |---------|--------|
@@ -217,17 +239,17 @@ China is central to every major semiconductor thesis:
 | Parallel | Echoes Huawei telecom playbook (Trump I era) |
 | Bloomberg/Reuters | Reported China not allowing NVIDIA chips into country |
 
-**The telecom lesson ([[Michael Kratsios]], Davos):** Huawei wasn't the best technology in telecom — "certainly subpar compared to [[Ericsson]] and [[Nokia]]" — but was "good enough" and "subsidized enough" to become default for much of the world. China now applying same playbook to AI chips.
+The telecom lesson ([[Michael Kratsios]], Davos): Huawei wasn't the best technology in telecom — "certainly subpar compared to [[Ericsson]] and [[Nokia]]" — but was "good enough" and "subsidized enough" to become default for much of the world. China now applying same playbook to AI chips.
 
 ### Energy advantage (Sacks, Davos Jan 2026)
 
 | Metric | China | US |
 |--------|-------|-----|
-| Grid growth (last 10 years) | **~doubled** | 2-3% |
+| Grid growth (last 10 years) | ~doubled | 2-3% |
 | New power plants | New nuclear/coal plant every week | Slow permitting |
 | Constraint | GPU access (export controls) | Power access (44GW gap) |
 
-**Sacks framing:** The two countries face inverted constraints. US has best chips but can't power them. China has abundant power but can't get best chips. See [[Power constraints]] for full analysis.
+Sacks framing: The two countries face inverted constraints. US has best chips but can't power them. China has abundant power but can't get best chips. See [[Power constraints]] for full analysis.
 
 *Source: Davos panel (Sacks, Kratsios, Bartiromo), Jan 23 2026*
 
@@ -243,7 +265,7 @@ Formally released at NPC (Mar 5, 2026). Significantly more protectionist and sec
 |-----------|--------|
 | R&D / GDP | >3.2% (record, aimed at "chokepoint" technologies) |
 | Core tech focus | Semiconductors, AI, robotics, biotech, quantum, 6G |
-| **Six future industries** | Quantum technology, biomanufacturing, hydrogen/nuclear fusion, brain-computer interfaces, embodied AI ([[Humanoid robotics\|humanoids]]), 6G |
+| Six future industries | Quantum technology, biomanufacturing, hydrogen/nuclear fusion, brain-computer interfaces, embodied AI ([[Humanoid robotics\|humanoids]]), 6G |
 | Future industry output (2024) | 11.7T yuan ($1.68T), growing ~15%/yr |
 | AI deployment | Embedded across manufacturing, healthcare, education, logistics |
 | Self-reliance | End dependence on Western supply chains in AI/semis |
@@ -256,9 +278,9 @@ Practical measures: robots to perform jobs in labor-shortage sectors, AI agents 
 
 Market read: this is the formal end of a unified global tech market. China insulating its economy from Western supply chains, particularly in AI and advanced semiconductors. Investment implication: decoupling acceleration, domestic substitution plays ([[Huawei]], [[SMIC]], [[Cambricon]]).
 
-**Open-source as strategy:** Tilly Zhang (Gavekal Dragonomics): open source wasn't in previous plans — China has "decided to make open-source AI a flagship strategy and a competitive advantage against the United States." See [[DeepSeek]].
+Open-source as strategy: Tilly Zhang (Gavekal Dragonomics): open source wasn't in previous plans — China has "decided to make open-source AI a flagship strategy and a competitive advantage against the United States." See [[DeepSeek]].
 
-**Market reaction (Mar 5-9):** Analysts at [[Citigroup]] and [[Morgan Stanley]] shifted to favoring tech/innovation sectors. The plan signals a shift from AI *breakthroughs* to AI *commercialization* — widening beneficiaries beyond chipmakers to humanoid robots, brain-computer interfaces, biomanufacturing, future energy. "Smart economy" appeared for first time in the work report. AI mentioned 7x in Li Qiang's report (vs 3x in 2025). Target: digital economy core industries = 12.5% of GDP by 2030 (from 10.5% in 2025). Star 50 Index down 9.1% from Jan high but Chinese markets outperforming Asian peers during [[2026 Iran conflict market impact|Iran sell-off]]. Caution from UBP: "nothing new in terms of direction or specific support."
+Market reaction (Mar 5-9): Analysts at [[Citigroup]] and [[Morgan Stanley]] shifted to favoring tech/innovation sectors. The plan signals a shift from AI *breakthroughs* to AI *commercialization* — widening beneficiaries beyond chipmakers to humanoid robots, brain-computer interfaces, biomanufacturing, future energy. "Smart economy" appeared for first time in the work report. AI mentioned 7x in Li Qiang's report (vs 3x in 2025). Target: digital economy core industries = 12.5% of GDP by 2030 (from 10.5% in 2025). Star 50 Index down 9.1% from Jan high but Chinese markets outperforming Asian peers during [[2026 Iran conflict market impact|Iran sell-off]]. Caution from UBP: "nothing new in terms of direction or specific support."
 
 *Sources: NPC proceedings, Xinhua, Bloomberg (Mar 5 2026); Straits Times (Mar 9 2026)*
 
@@ -270,22 +292,22 @@ Market read: this is the formal end of a unified global tech market. China insul
 
 ### Public sentiment / AI optimism
 
-**[[Stanford]] polling (cited by Sacks, Davos Jan 2026):**
+[[Stanford]] polling (cited by Sacks, Davos Jan 2026):
 
 | Country/Region | "AI more beneficial than harmful" |
 |----------------|-----------------------------------|
-| **China** | **83%** |
-| **US** | **39%** |
+| China | 83% |
+| US | 39% |
 | Asian countries | Generally high |
 | Western countries | Generally low |
 
-**Sacks's concern:** China's AI optimism = competitive advantage. Less public resistance → less regulatory friction → faster deployment. US could "shoot ourselves in the foot" with overregulation driven by low AI optimism (1,200+ state AI bills in progress).
+Sacks's concern: China's AI optimism = competitive advantage. Less public resistance → less regulatory friction → faster deployment. US could "shoot ourselves in the foot" with overregulation driven by low AI optimism (1,200+ state AI bills in progress).
 
 ### Scientific output overtaking US
 
 [[David Friedberg]] ([[PCAST 2026]] member, Mar 27 2026): 10 years ago, China published 50% of the number of scientific research papers in peer-reviewed journals as the [[United States]]. Last year, they published 50% more than the US. This is across all disciplines — physics, material science, chemistry, biochemistry, broad life sciences. China is no longer just a manufacturing copycat; in many subdomains of biotechnology and life sciences, China is becoming the scientific leader. Friedberg: *"China could end up engulfing the entire pharmaceutical industry and basically becoming the leader in things like medicine but most importantly foundational things like AI."* The race is now industrial, not just discovery.
 
-**Possible explanations (Sacks):** (1) Western media focuses on doom/gloom, (2) Hollywood dystopian portrayals (Terminator, 2001), (3) US tech leaders talking about eliminating 50% of knowledge workers sounds dystopian.
+Possible explanations (Sacks): (1) Western media focuses on doom/gloom, (2) Hollywood dystopian portrayals (Terminator, 2001), (3) US tech leaders talking about eliminating 50% of knowledge workers sounds dystopian.
 
 - Less regulatory friction for deployment
 - 15th Five-Year Plan explicitly pro-AI
@@ -296,43 +318,49 @@ Market read: this is the formal end of a unified global tech market. China insul
 
 | Company | China exposure | Risk |
 |---------|---------------|------|
-| **SK Hynix** | 30-35% DRAM, 40-45% NAND | VEU expiry, fab licensing |
-| **Samsung** | Major fab presence | VEU expiry, equipment limits |
-| **NVIDIA** | Was ~25% revenue | Mostly lost, H200 partial recovery |
-| **AMD** | Growing (MI308) | Regulatory uncertainty |
-| **ASML** | DUV sales ongoing | Clone threat, tighter controls coming |
-| **[[Applied Materials]]** | Significant | Service restrictions |
+| SK Hynix | 30-35% DRAM, 40-45% NAND | VEU expiry, fab licensing |
+| Samsung | Major fab presence | VEU expiry, equipment limits |
+| NVIDIA | Was ~25% revenue | Mostly lost, H200 partial recovery |
+| AMD | Growing (MI308) | Regulatory uncertainty |
+| ASML | DUV sales ongoing | Clone threat, tighter controls coming |
+| [[Applied Materials]] | Significant | Service restrictions |
 
 ---
 
 ## 2025 trade performance
 
-**Record $1.2T surplus despite Trump tariffs:**
+Record $1.2T surplus despite Trump tariffs:
 
 | Metric | 2025 | YoY |
 |--------|------|-----|
-| [[Trade]] surplus | **$1.189T** | +20% |
+| [[Trade]] surplus | $1.189T | +20% |
 | Exports | $3.77T | +5.5% |
 | Imports | $2.58T | Flat |
 
-**Export destination pivot (full year 2025):**
+Export destination pivot (full year 2025):
 
 | Region | Change | Notes |
 |--------|--------|-------|
-| **US** | **-20%** | Tariff impact |
+| US | -20% | Tariff impact |
 | [[Africa]] | +26% | Fastest growth |
 | [[ASEAN]] | +13% | Supply chain relocation |
 | [[EU]] | +8% | Steady growth |
 | LatAm | +7% | New markets |
 
-**Key categories:**
+Key categories:
 - Autos: +21% (7M+ units, driven by EVs)
 - Mechanical/electrical: +8.4%
 - Declining: furniture, clothing, shoes
 
-**Strategic response:** Chinese exporters restructured supply chains — shifted lower-end manufacturing to third countries (SE [[Asia]]) facing lower US tariffs.
+Strategic response: Chinese exporters restructured supply chains — shifted lower-end manufacturing to third countries (SE [[Asia]]) facing lower US tariffs.
 
-**[[Africa]] = fastest growing destination:** Exports +26%, $348B total trade. Belt & Road investment in [[Africa]] hit $39B in H1 2025 (\#1 destination). See [[China-Africa trade]].
+[[Africa]] = fastest growing destination: Exports +26%, $348B total trade. Belt & Road investment in [[Africa]] hit $39B in H1 2025 (\#1 destination). See [[China-Africa trade]].
+
+### Q1 2026 trade resilience
+
+[[NBS]] reported Q1 goods trade up 15.0% year on year in yuan terms, with exports up 11.9%, imports up 19.6%, and mechanical/electrical exports up 18.3%. In dollar terms, March goods exports slowed to 2.5% year on year, per [[General Administration of Customs]] data summarized by FT/Bloomberg/Trading Economics, but the quarter was still strong enough to help carry GDP.
+
+The readthrough is dependence, not comfort. When retail sales are growing only 1.7% in March and property investment is still down double digits, every incremental export beat matters more. That makes [[China]] more exposed to external-demand weakness even as the Iran war also increases demand for the green-tech goods that reduce fuel-import exposure.
 
 ---
 
@@ -347,7 +375,7 @@ China controls 60-70% of rare earth processing. Used as counter-leverage:
 
 ## H200 chip restrictions (Jan 2026)
 
-**"Basically a ban"** — China customs told agents H200 chips not permitted (Jan 14, 2026).
+"Basically a ban" — China customs told agents H200 chips not permitted (Jan 14, 2026).
 
 | Status | Detail |
 |--------|--------|
@@ -356,7 +384,7 @@ China controls 60-70% of rare earth processing. Used as counter-leverage:
 | Wording | "So severe that it is basically a ban for now" |
 | Background | Trump allowed H200 with 25% fee in Dec 2025 |
 
-**Strategic logic:** Beijing needs domestic chip demand to fund Huawei [[Ascend]] development. Blocking foreign chips forces reliance on Chinese alternatives.
+Strategic logic: Beijing needs domestic chip demand to fund Huawei [[Ascend]] development. Blocking foreign chips forces reliance on Chinese alternatives.
 
 See [[Export controls]] for US policy context.
 
@@ -364,13 +392,13 @@ See [[Export controls]] for US policy context.
 
 ## [[Cybersecurity]] software ban (Jan 2026)
 
-**Directive:** Replace all US/Israeli cybersecurity software with domestic alternatives by **H1 2026**.
+Directive: Replace all US/Israeli cybersecurity software with domestic alternatives by H1 2026.
 
-**US firms banned:** VMware, Palo Alto Networks, [[Fortinet]], Mandiant, CrowdStrike, [[SentinelOne]], McAfee, Recorded Future, Claroty, Rapid7, Wiz
+US firms banned: VMware, Palo Alto Networks, [[Fortinet]], Mandiant, CrowdStrike, [[SentinelOne]], McAfee, Recorded Future, Claroty, Rapid7, Wiz
 
-**Israeli firms banned:** Check Point, CyberArk, Orca Security, Cato Networks, Imperva ([[Thales]])
+Israeli firms banned: Check Point, CyberArk, Orca Security, Cato Networks, Imperva ([[Thales]])
 
-**Rationale:** Fear software could collect and transmit confidential information abroad.
+Rationale: Fear software could collect and transmit confidential information abroad.
 
 See [[China cybersecurity ban]] for full analysis.
 
@@ -378,19 +406,19 @@ See [[China cybersecurity ban]] for full analysis.
 
 ## 2026 tariff plan (935 items)
 
-**Effective Jan 1, 2026.** First implementation of 15th Five-Year Plan.
+Effective Jan 1, 2026. First implementation of 15th Five-Year Plan.
 
-**Three strategic pillars:**
+Three strategic pillars:
 
 | Pillar | Examples |
 |--------|----------|
-| **Tech self-sufficiency** | CNC hydraulic cushions, composite contact strips, intelligent bionic robots |
-| **Green transition** | Li-ion battery recycled black powder (6.5%→3%), unroasted pyrite (1%→0%) |
-| **[[Healthcare]]** | Artificial blood vessels, infectious disease diagnostic kits |
+| Tech self-sufficiency | CNC hydraulic cushions, composite contact strips, intelligent bionic robots |
+| Green transition | Li-ion battery recycled black powder (6.5%→3%), unroasted pyrite (1%→0%) |
+| [[Healthcare]] | Artificial blood vessels, infectious disease diagnostic kits |
 
-**New tariff lines:** Bio-aviation kerosene, under-forest ginseng. Total: 8,972 lines.
+New tariff lines: Bio-aviation kerosene, under-forest ginseng. Total: 8,972 lines.
 
-**[[Signal]]:** "Not broad trade liberalization — targeted opening for industrial self-reliance."
+[[Signal]]: "Not broad trade liberalization — targeted opening for industrial self-reliance."
 
 ---
 
@@ -400,16 +428,16 @@ Chinese tech stocks testing how far AI-fueled rally can run. Key listings:
 
 | Company | Event | Detail |
 |---------|-------|--------|
-| Shanghai Biren Technology | HK IPO (Jan 2026) | **+120%** on debut, raised $717M — AI chip designer |
+| Shanghai Biren Technology | HK IPO (Jan 2026) | +120% on debut, raised $717M — AI chip designer |
 | [[Baidu]] AI chip unit (Kunlun) | Filed confidentially | HK listing planned |
 | [[MiniMax]] Group | Expected H1 2026 | AI foundation model startup |
 | [[Zhipu]] AI | Expected H1 2026 | AI foundation model startup |
 
-**Open-source AI strategy gaining global traction:** [[Meta]] reportedly using [[Alibaba]]'s [[Qwen]] model in training for new model (code-named "Avocado"). Chinese firms' embrace of open source earning goodwill despite geopolitical antagonism.
+Open-source AI strategy gaining global traction: [[Meta]] reportedly using [[Alibaba]]'s [[Qwen]] model in training for new model (code-named "Avocado"). Chinese firms' embrace of open source earning goodwill despite geopolitical antagonism.
 
-**Policy context:** Central economic work conference + 15th Five-Year Plan (2026-2030) put AI at center of economic agenda. "Policy-driven growth" — AI for industrial upgrading, not just consumer apps.
+Policy context: Central economic work conference + 15th Five-Year Plan (2026-2030) put AI at center of economic agenda. "Policy-driven growth" — AI for industrial upgrading, not just consumer apps.
 
-**[[Consumer]] sentiment headwind:** ~100M fewer credit cards since Sep 2022. Policy focus on consumption, but households remain cautious.
+[[Consumer]] sentiment headwind: ~100M fewer credit cards since Sep 2022. Policy focus on consumption, but households remain cautious.
 
 *Source: SCMP, Yahoo Finance, Jan 2026*
 
@@ -417,13 +445,13 @@ Chinese tech stocks testing how far AI-fueled rally can run. Key listings:
 
 ## Humanoid robotics push
 
-**First humanoid robot retail store** opened in Wuhan (Jan 2026) — robots + AI gadgets in "living showroom." Motion-capture calligraphy training demos.
+First humanoid robot retail store opened in Wuhan (Jan 2026) — robots + AI gadgets in "living showroom." Motion-capture calligraphy training demos.
 
-**[[CES 2026]] dominance:** 21 of 38 humanoid exhibitors at CES were Chinese. 7,705 humanoid-related patents filed in 5 years (vs US 1,561). Over 150 humanoid robot companies in China.
+[[CES 2026]] dominance: 21 of 38 humanoid exhibitors at CES were Chinese. 7,705 humanoid-related patents filed in 5 years (vs US 1,561). Over 150 humanoid robot companies in China.
 
-**Humanoid Robot Games:** Soccer, running, boxing events — building public engagement with robotics technology.
+Humanoid Robot Games: Soccer, running, boxing events — building public engagement with robotics technology.
 
-**Strategic logic:** China racing to boost productivity amid rapidly aging workforce (population -3.39M in 2025, only 7.92M births). Humanoid robots as manufacturing labor substitute aligns with demographic crisis.
+Strategic logic: China racing to boost productivity amid rapidly aging workforce (population -3.39M in 2025, only 7.92M births). Humanoid robots as manufacturing labor substitute aligns with demographic crisis.
 
 *Source: CGTN, Interesting Engineering, Jan 2026*
 
@@ -471,7 +499,7 @@ China's oil demand is peaking faster than expected:
 |------|--------|--------|
 | Diesel | Already peaked | Property collapse, construction decline |
 | Gasoline | Peaking now | Rapid EV uptake |
-| Overall oil demand peak | **2027** (moved forward from ~2030) | IEA, Chinese national oil companies |
+| Overall oil demand peak | 2027 (moved forward from ~2030) | IEA, Chinese national oil companies |
 
 [[Sinopec]] at one point projected overall demand peaking as early as 2025. China will still need oil for petrochemicals — feedstocks for EVs, solar panels, lithium-ion batteries. But the structural decline in transport fuel demand is underway.
 
@@ -525,9 +553,9 @@ China has only one formal treaty ally: [[North Korea]] (1961 treaty). All other 
 
 ### China's measured response pattern
 
-- **Moderated criticism:** Called US attack "unacceptable," described it as "law of the jungle" — but these are "fairly mild in diplomatic terms"
-- **No military support:** At no point offered Iran military support (money, technology, or combat reinforcement)
-- **Trump summit proceeds:** China-US summit rescheduled for May (delayed from April) — "hardly the action of a country that would be really annoyed" with the US
+- Moderated criticism: Called US attack "unacceptable," described it as "law of the jungle" — but these are "fairly mild in diplomatic terms"
+- No military support: At no point offered Iran military support (money, technology, or combat reinforcement)
+- Trump summit proceeds: China-US summit rescheduled for May (delayed from April) — "hardly the action of a country that would be really annoyed" with the US
 
 ### Game theory mechanics
 
@@ -542,11 +570,11 @@ China's dominant strategy: have the Strait of Hormuz open but on its own terms, 
 
 ### Iran tactical cooperation, strategic limits
 
-**Pre-conflict changes:**
+Pre-conflict changes:
 - Iran switched from GPS to Chinese BeiDou satellite navigation system
 - Unconfirmed reports of China selling precision missile technology to Iran (pre-war)
 
-**During conflict:** Limited state-visible aid, but substantial commercial-channel support documented in April 2026. The [[Financial Times]] (April 14, 2026) reported that [[IRGC]] Aerospace Force acquired operational control of a Chinese commercial imaging satellite [[TEE-01B]] in late 2024 via [[Earth Eye Co]] ("in-orbit delivery" model, Rmb250mn / ~$36.6mn), with ground-segment services via [[Emposat]]. The IRGC tasked the satellite during the war against US bases and Gulf civilian infrastructure — see [[IRGC Chinese satellite targeting March 2026]]. China's Ministry of Foreign Affairs dismissed the FT reporting as "untrue" and said "certain forces have been keen to fabricate rumours and maliciously link them to China."
+During conflict: Limited state-visible aid, but substantial commercial-channel support documented in April 2026. The [[Financial Times]] (April 14, 2026) reported that [[IRGC]] Aerospace Force acquired operational control of a Chinese commercial imaging satellite [[TEE-01B]] in late 2024 via [[Earth Eye Co]] ("in-orbit delivery" model, Rmb250mn / ~$36.6mn), with ground-segment services via [[Emposat]]. The IRGC tasked the satellite during the war against US bases and Gulf civilian infrastructure — see [[IRGC Chinese satellite targeting March 2026]]. China's Ministry of Foreign Affairs dismissed the FT reporting as "untrue" and said "certain forces have been keen to fabricate rumours and maliciously link them to China."
 
 This is the second documented case (after [[Chang Guang Satellite Technology]]/[[Houthis]], FT 2025) of a Chinese commercial-space operator supplying targeting-relevant imagery to a US-designated adversary. Both firms are flagged by the US House China Select Committee as closely tied to the [[People's Liberation Army]] Aerospace Force through [[Military-civil fusion]] funding and [[Seven sons of national defence]] talent pipelines. See [[Chinese dual-use commercial satellite exports]] for the framework.
 
@@ -576,6 +604,8 @@ Alice Han predicted Trump-Xi summit won't happen in May due to:
 - China trade probes launched against America
 - Pending Taiwan arms sales (record-high package agreed by Congress)
 - US distraction with Iran escalation and lack of "homework" preparation
+
+FT's Apr 15/16 growth piece still treated a mid-May [[Donald Trump]]-[[Xi Jinping]] meeting in Beijing as the base case, with both sides trying to preserve the one-year trade truce reached in 2025. That does not invalidate Han's risk call, but it keeps the summit as a live catalyst for [[US-China trade]] rather than a canceled event.
 
 ---
 

@@ -74,6 +74,12 @@ Changes in intermediate goods demand to fulfill final demand (billions of yuan):
 | **Overcapacity** | Domestic market saturated, margins compressed |
 | **Multiplier effects** | Property drives steel, cement, banking; EVs don't |
 
+### Q1 2026 live read
+
+The April 2026 data release sharpened the transition problem rather than resolving it. Official GDP grew 5.0% year on year in Q1, but the composition was still production-heavy: industrial value added rose 6.1%, high-tech manufacturing rose 12.5%, and FT-cited NBS data showed equipment manufacturing up 8.9%, industrial robots up 33.2%, lithium-ion batteries up 40.8%, and 3D-printing equipment up 54.0%.
+
+The demand side stayed much weaker. March retail sales grew only 1.7% year on year, Q1 property investment fell 11.2%, and new commercial-building sales value fell 16.7%. [[Capital Economics]]' China activity proxy, cited by FT, put January-February growth around 3% and probably a little lower in March. The headline 5% print therefore looks like industrial-policy success masking a still-unfinished domestic rebalancing.
+
 ---
 
 ## Investment implications

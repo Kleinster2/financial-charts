@@ -14,7 +14,7 @@ PIF is the vehicle through which [[Mohammed bin Salman]] is attempting to transm
 
 The investment case for PIF as a counterparty or market force hinges on two competing dynamics. On the bullish side: permanent capital with no redemptions, sovereign backing, a willingness to pay strategic premiums ([[Electronic Arts|EA]] at $210/share, [[Lucid]] at any price), and access to deal flow others cannot touch (the EA consortium was assembled by [[Jared Kushner]]). On the bearish side: the fiscal math is deteriorating — Brent at $60-65 vs. a $90+ breakeven, [[Saudi Aramco|Aramco]]'s dividend cut by a third, cash reserves at ~$15B (late 2024, lowest since 2020), and a 20% mandated spending reduction across 100+ portfolio companies. The [[SoftBank Vision Fund]] LP commitment ($45B, now nursing ~$15.6B in losses) and [[LIV Golf]] ($5.3B+ with no [[PGA Tour]] merger in sight) represent sunk costs that limit future optionality.
 
-The spring 2026 strategy revision will reveal whether PIF can transition from the "everything everywhere all at once" phase of 2020-2024 to a sustainable, returns-driven model — or whether Vision 2030's ambition permanently outpaces the kingdom's fiscal capacity.
+The Apr 15, 2026 board-approved 2026-2030 strategy codifies that transition from the "everything everywhere all at once" phase of 2020-2024 to a value-realization model. The old 13-sector frame has been collapsed into six domestic ecosystems: tourism/travel/entertainment, urban development/livability, advanced manufacturing/innovation, industrials/logistics, clean energy/water/renewables infrastructure, and [[NEOM]]. The unresolved question is whether PIF can make that narrower map finance itself through private-sector participation, global partners, and portfolio-company balance sheets, or whether Vision 2030's fixed deadlines still outrun the kingdom's fiscal capacity.
 
 ---
 
@@ -52,7 +52,7 @@ The story of PIF is the story of how one man turned a 44-year-old bureaucratic h
 
 - 2023-2024: The mega-deal phase. [[Savvy Games|Savvy]] acquired [[Scopely]] ($4.9B, 2023) and [[VSPO]] ($265M, 2023). A second Aramco transfer (4%, ~$78B, 2023) pushed PIF's holdings higher. In 2024: completion of a third transfer (8% to PIF subsidiaries, bringing total to 16%), [[Heathrow Airport]] (15% stake, part of a combined $4.2B deal with [[Ardian]], December 2024), and HOLON GmbH (38%, autonomous shuttles). AUM reached $913B at year-end 2024, up 19% YoY. But cracks appeared: PIF's board approved a minimum 20% spending cut across 100+ portfolio companies in December 2024. Cash reserves fell to ~$15B (lowest since 2020). [[NEOM]] timelines started sliding. The PGA Tour rejected PIF's $1.5B investment offer, refusing to keep [[LIV Golf]] intact in any merger.
 
-- 2025-present: PIF became the world's most active sovereign wealth fund in 2025, deploying $36.2B (81% more than 2024), driven by the [[Electronic Arts]] take-private ($55B EV, PIF as majority equity owner with [[Silver Lake]] and [[Affinity Partners]], consortium assembled by [[Jared Kushner]]). [[HUMAIN]] launched as PIF's sovereign AI platform, investing $3B in [[xAI]]'s Series E (shares later converted to [[SpaceX]] equity after the xAI-SpaceX merger). AUM crossed $1T. [[Savvy Games|Savvy]] acquired [[Niantic]] games ($3.5B, including [[Pokémon Go]]) and [[Moonton]] ($6B, March 2026, acquiring [[Mobile Legends]]). But the fiscal squeeze intensified: Aramco's dividend was cut by roughly one-third to $84.5B (PIF's 16% stake received $6B less), Brent traded at $60-65 vs. Saudi's $90+ breakeven, construction awards fell 60% to below $30B. A revised 2026-2030 strategy, expected spring 2026, will prioritize [[Expo 2030]] (~$7.8B), 2034 [[FIFA World Cup]] ($25-30B in stadium costs alone), and AI/[[HUMAIN]] while scaling back [[NEOM]] and prestige projects like Mukaab. The fund is transitioning from pure sovereign funding to "precision finance" — blended capital structures (debt, [[PPP]], portfolio restructuring) replacing the earlier everything-everywhere approach.
+- 2025-present: PIF became the world's most active sovereign wealth fund in 2025, deploying $36.2B (81% more than 2024), driven by the [[Electronic Arts]] take-private ($55B EV, PIF as majority equity owner with [[Silver Lake]] and [[Affinity Partners]], consortium assembled by [[Jared Kushner]]). [[HUMAIN]] launched as PIF's sovereign AI platform, investing $3B in [[xAI]]'s Series E (shares later converted to [[SpaceX]] equity after the xAI-SpaceX merger). AUM crossed $1T. [[Savvy Games|Savvy]] acquired [[Niantic]] games ($3.5B, including [[Pokémon Go]]) and [[Moonton]] ($6B, March 2026, acquiring [[Mobile Legends]]). But the fiscal squeeze intensified: Aramco's dividend was cut by roughly one-third to $84.5B (PIF's 16% stake received $6B less), Brent traded at $60-65 vs. Saudi's $90+ breakeven, construction awards fell 60% to below $30B. The Apr 15, 2026 strategy launch re-centered PIF around three portfolios and six ecosystems, explicitly moving from rapid expansion to sustained value creation. Protected deadlines remain [[Expo 2030]], the 2034 [[FIFA]] World Cup, and AI/[[HUMAIN]] infrastructure; [[NEOM]] remains protected as an ecosystem but with internal sequencing shifted toward [[Oxagon]] and industrial/data-center use rather than a 2030 deadline for [[NEOM|The Line]].
 
 ---
 
@@ -67,6 +67,7 @@ PIF holds ~80% of its assets domestically, with controlling or full ownership of
 | [[Ma'aden]] | 67% | Mining | Top-10 global miner; expanding under PIF mining pillar |
 | [[NEOM]] | 100% | Giga-project | $500B smart city; timelines under review, scope scaling back |
 | [[Qiddiya]] | 100% | Entertainment | Entertainment mega-city near Riyadh |
+| [[Red Sea Global]] | 100% | Tourism / real estate | Luxury Red Sea and AMAALA tourism developer; first resorts operational |
 | [[ROSHN]] | 100% | Real estate | National developer; targeting 400,000 homes by 2030 |
 | [[Riyadh Air]] | 100% | Aviation | New national carrier (launch pending) |
 | [[Savvy Games]] | 100% | Gaming | ~$40B earmarked, ~$16B deployed across five deals |
@@ -92,6 +93,7 @@ Other international positions:
 | Investment | Stake | Value | Date |
 |------------|-------|-------|------|
 | [[Heathrow Airport]] (FGP TopCo) | 15% | ~$1.7B (PIF portion) | Dec 2024 |
+| [[Paramount Global]] / [[Warner Bros Discovery]] financing | Non-voting minority equity commitment | ~$10B PIF share of almost $24B Gulf sovereign package (reported Apr 2026) | Pending close |
 | [[SoftBank Vision Fund]] | LP | $45B committed | 2017 |
 | HOLON GmbH | 38% | — | 2024 |
 
@@ -145,11 +147,11 @@ PIF's AI strategy through [[HUMAIN]] spans four pillars: next-gen data centers, 
 
 | Asset | Cumulative investment | Status |
 |-------|-----------------------|--------|
-| [[LIV Golf]] | $5.3B+ (~$100M/month burn rate); ~$4.89B cumulative losses 2021-2025 | **Funding ends after 2026 season** (Apr 2026 reporting); PGA Tour rejected $1.5B PIF investment; CEO [[Scott O'Neil]] "plan that might surprise" |
-| [[Al-Hilal]] | ~$400M-class | **70% sold to [[Kingdom Holding]] Apr 2026**; PIF retains residual ~5% |
+| [[LIV Golf]] | $5.3B+ (~$100M/month burn rate); ~$4.89B cumulative losses 2021-2025 | Funding ends after 2026 season (Apr 2026 reporting); PGA Tour rejected $1.5B PIF investment; CEO [[Scott O'Neil]] "plan that might surprise" |
+| [[Al-Hilal]] | ~$400M-class | 70% sold to [[Kingdom Holding]] Apr 2026; PIF retains residual ~5% |
 | Al-Nassr / Al-Ittihad / Al-Ahli | Bundled with Al-Hilal in 2023 75% transfers | Still PIF; same doctrinal frame as Al-Hilal — watch for similar transfers |
 | [[Newcastle United]] | ~$400M (2021 acquisition) | Retained; not yet flagged for sale; inside same doctrinal frame |
-| 2034 [[FIFA World Cup]] | $25-30B (stadium costs alone, 15 stadiums) | Protected — won hosting rights |
+| 2034 [[FIFA]] World Cup | $25-30B (stadium costs alone, 15 stadiums) | Protected — won hosting rights |
 | Olympic Esports Games 2027 | — | Retained (12-year [[IOC]] deal) |
 | [[Expo 2030]] | ~$7.8B | Protected from spending cuts |
 
@@ -168,11 +170,36 @@ PIF's fiscal position tightened sharply in 2025-2026, forcing a pivot from broad
 | Aramco dividend impact | Cut ~1/3 to $84.5B total; PIF's 16% received $6B less |
 | Fiscal breakeven | Saudi needs $90+/barrel; Brent at $60-65 |
 
-Protected priorities: [[Expo 2030]], 2034 [[FIFA World Cup]], [[HUMAIN]]/AI infrastructure, [[Ma'aden]] mining expansion, [[ROSHN]] housing (400,000 homes target).
+Protected priorities: [[Expo 2030]], the 2034 [[FIFA]] World Cup, [[HUMAIN]]/AI infrastructure, [[Ma'aden]] mining expansion, [[ROSHN]] housing (400,000 homes target), and the parts of [[NEOM]] that are now treated as industrial/logistics or digital-infrastructure assets rather than symbolic architecture.
 
-Deprioritized: [[NEOM]]/The Line (timelines extended, scope under review), Mukaab (deferred), advisory mandates.
+Deprioritized: [[NEOM|The Line]] as a near-term city-delivery deadline, Mukaab (deferred), advisory mandates, and international prestige assets without a visible return path.
 
-Financing shift: movement from pure sovereign funding to blended capital — debt financing (Amaala), public-private structures ([[Diriyah]]), portfolio restructuring ([[Qiddiya]]). Governor [[Yasir Al-Rumayyan]] indicated the revised 2026-2030 strategy (expected spring 2026) aims to make PIF "a more efficient and returns-driven investment vehicle." At [[FII Priority Miami 2026]] on March 27, Deputy Governor [[Yazeed Alhumied]] said [[Saudi Arabia]] now has 12 international asset managers operating with full licenses, six added in the prior year, with about $20B in committed capital and a $60B-$80B pipeline. [[King Street]] said its partnership with PIF is aimed at deploying capital across the Kingdom and the GCC.
+### 2026-2030 strategy (approved Apr 15, 2026)
+
+The 2026-2030 strategy reorganizes PIF into three portfolios:
+
+| Portfolio | Role |
+|-----------|------|
+| Vision Portfolio | Build the six domestic ecosystems, increase private-sector participation, and integrate PIF portfolio companies |
+| Strategic Portfolio | Manage strategic assets for financial return and economic impact; scale national champions into global companies |
+| Financial Portfolio | Manage direct and indirect global-market investments for sustainable returns and portfolio resilience |
+
+The Vision Portfolio replaces the previous 13-sector map with six ecosystems:
+
+| Ecosystem | PIF read-through |
+|-----------|------------------|
+| Tourism, travel, and entertainment | [[Expo 2030]], the 2034 [[FIFA]] World Cup, [[Qiddiya]], [[Red Sea Global]], [[Riyadh Air]], hotel-room and airport-capacity buildout |
+| Urban development and livability | [[ROSHN]], [[Diriyah]], Riyadh real estate, housing delivery |
+| Advanced manufacturing and innovation | EVs, defense/industrial localization, high-value manufacturing |
+| Industrials and logistics | Ports, aviation, shipping, [[Ma'aden]], [[Oxagon]], supply-chain localization |
+| Clean energy, water, and renewables infrastructure | [[ACWA Power]], renewables buildout, water infrastructure |
+| [[NEOM]] | Still protected, but internally reprioritized toward [[Oxagon]], logistics, industrial use, and data centers rather than full [[NEOM|The Line]] delivery by 2030 |
+
+Official strategy metrics for the 2021-2025 phase: AUM grew from $150B in 2015 to more than $900B; annualized total shareholder return exceeded 7% since 2017; more than $199B was invested in new Saudi projects from 2021-2025; PIF contributed more than $243B to real non-oil GDP from 2021-2024, roughly 10% of Saudi Arabia's 2024 non-oil GDP; and PIF plus portfolio companies spent more than $157B with the local private sector from 2021-2024.
+
+The key omission versus the 2021-2025 strategy is the absence of a new explicit $40B/year domestic deployment pledge. That does not mean spending stops; it means the next phase shifts from a sovereign-equity injection model to value realization, private-sector participation, debt, public-private structures, and portfolio-company funding.
+
+Financing shift: movement from pure sovereign funding to blended capital — debt financing (Amaala), public-private structures ([[Diriyah]]), portfolio restructuring ([[Qiddiya]]), and international co-investment. Governor [[Yasir Al-Rumayyan]] framed the revised strategy as a move toward a more efficient, returns-driven investment vehicle. At [[FII Priority Miami 2026]] on March 27, Deputy Governor [[Yazeed Alhumied]] said [[Saudi Arabia]] now has 12 international asset managers operating with full licenses, six added in the prior year, with about $20B in committed capital and a $60B-$80B pipeline. [[King Street]] said its partnership with PIF is aimed at deploying capital across the Kingdom and the GCC.
 
 ---
 
@@ -188,7 +215,7 @@ The recalibration moved from communicated doctrine to dated decisions in mid-Apr
 
 Saudi officials' framing to the Met: opera funding "falls outside what is essential." LIV's CEO [[Scott O'Neil]] confirmed the funding wind-down while saying "the season continues exactly as planned, uninterrupted and at full throttle." The Al-Hilal sale moves the asset from sovereign to private-domestic ownership ([[Kingdom Holding]] is a Saudi vehicle).
 
-The cluster signals the structural end of the sportswashing-and-culturewashing era of PIF capital deployment. The doctrinal shift is consistent with both the Iran war fiscal trigger and the pre-existing fiscal pressure (Aramco dividend cut, $90+ breakeven vs $60-65 Brent pre-war). Projects that survive the cut: gaming ([[Savvy Games]], [[Electronic Arts]] take-private), sovereign AI ([[HUMAIN]]), domestic infrastructure ([[ROSHN]], [[Ma'aden]]), and committed mega-events ([[Expo 2030]], 2034 [[FIFA World Cup]]). Projects that get cut: cash-burning international cultural and sports projects without revenue visibility.
+The cluster signals the structural end of the sportswashing-and-culturewashing era of PIF capital deployment. The doctrinal shift is consistent with both the Iran war fiscal trigger and the pre-existing fiscal pressure (Aramco dividend cut, $90+ breakeven vs $60-65 Brent pre-war). Projects that survive the cut: gaming ([[Savvy Games]], [[Electronic Arts]] take-private), sovereign AI ([[HUMAIN]]), domestic infrastructure ([[ROSHN]], [[Ma'aden]]), and committed mega-events ([[Expo 2030]], the 2034 [[FIFA]] World Cup). Projects that get cut: cash-burning international cultural and sports projects without revenue visibility.
 
 [[Newcastle United]] is inside the same doctrinal frame but not yet flagged for action — the next watch item. See [[Saudi PIF international retrenchment April 2026]] for the full event analysis.
 
@@ -256,6 +283,15 @@ PIF did not commit to Vision Fund 2. The experience reshaped PIF's approach: sub
 
 ---
 
+## Sources
+
+- [PIF 2026-2030 strategy page](https://www.pif.gov.sa/en/strategy-and-impact/our-strategy/)
+- [PIF / Business Wire strategy release, Apr 15, 2026](https://www.tmcnet.com/usubmit/2026/04/15/10365491.htm)
+- [Reuters via Sahm Capital, Apr 15, 2026](https://www.sahmcapital.com/news/content/update-1-pif-board-approves-2026-2030-strategy-for-saudi-sovereign-wealth-fund-2026-04-15)
+- FT, "Saudi wealth fund resets priorities after decade of heavy spending," Apr 15, 2026 (user-provided text)
+
+---
+
 ## Related
 
 - [[Saudi Arabia]] — country
@@ -265,13 +301,18 @@ PIF did not commit to Vision Fund 2. The experience reshaped PIF's approach: sub
 - [[stc]] — 62% stake (telecoms)
 - [[Ma'aden]] — 67% stake (mining)
 - [[NEOM]] — wholly-owned giga-project ($500B)
+- [[Oxagon]] — NEOM industrial/logistics pillar prioritized in the strategy reset
+- [[Trojena]] — NEOM mountain resort; Asian Winter Games delay/downscope marker
 - [[Qiddiya]] — wholly-owned entertainment city
+- [[Red Sea Global]] — PIF-owned luxury tourism developer
 - [[ROSHN]] — wholly-owned developer (400K homes by 2030)
 - [[Riyadh Air]] — wholly-owned airline
 - [[HUMAIN]] — sovereign AI platform ($3B xAI investment)
 - [[Saudi Vision 2030]] — strategic framework (PIF is execution vehicle)
 - [[Savvy Games]] — gaming subsidiary (~$40B mandate, ~$16B deployed)
 - [[Electronic Arts]] — $55B take-private (PIF as majority owner)
+- [[Paramount Global]] — WBD deal financing backed by Gulf sovereign commitments
+- [[Warner Bros Discovery]] — Paramount acquisition target
 - [[Moonton]] — acquired via Savvy ($6B, Mar 2026)
 - [[Scopely]] — acquired via Savvy ($4.9B, 2023)
 - [[Pokémon Go]] — acquired via Savvy/Niantic ($3.5B, 2025)

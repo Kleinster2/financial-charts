@@ -203,7 +203,7 @@ See [[Hedge fund capital concentration]] for the structural dynamics.
 | Sachem Head | Scott Ferguson | Pershing |
 | [[Whale Rock Capital]] | Alex Sacerdote | Fidelity |
 | [[Glenview Capital]] | Larry Robbins | Healthcare |
-| [[Select Equity Group]] | George Lee | Quality |
+| [[Select Equity Group]] | George S. Loening | Quality |
 | [[Soroban Capital]] | Eric Mandelblatt | TPG-Axon |
 | [[Discovery Capital]] | Rob Citrone | Tiger |
 

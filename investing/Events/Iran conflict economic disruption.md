@@ -199,6 +199,12 @@ Tooze, speaking from Beijing (March 27), witnessed "a combined audience of Chine
 
 This undermines the "metabolic cold war" framework (Neils Gilman, [[Foreign Policy]], March 2026) positing a petro-state vs. electro-state bloc division. Tooze's critique: the concept of a self-sufficient petro-state — one that can shape domestic demand adequate to its supply — is particular to the [[United States]]. [[Russia]] produces far too much for domestic absorption and is reduced to finding low-income discount buyers. The Gulf states produce even more relative to their populations. Neither can project a "fossil fuel forever" world through its own say-so. The putative coalition of petro-states is incoherent because its members' interests diverge: the Gulf states are rationally diversifying toward green technology, not entrenching fossil dependence.
 
+### China Q1 growth channel (FT/NBS, Apr 15-18)
+
+[[China]]'s Q1 2026 growth print shows the mixed macro channel from the Iran war. Official GDP grew 5.0% year on year and 1.3% quarter on quarter, with industrial output, exports, equipment manufacturing, and high-tech manufacturing carrying the result. But the same release complex showed the domestic side still weak: March retail sales grew only 1.7% year on year, Q1 property investment fell 11.2%, and [[China PPI]] turned positive in March from imported energy and petrochemical costs rather than demand recovery.
+
+That creates a two-sided war effect. Higher fuel and feedstock prices compress Chinese industrial margins and household demand, but they also strengthen the export case for Chinese solar, batteries, EVs, and other green-tech goods as importers try to cut hydrocarbon exposure. FT's April 15/16 story and [[Capital Economics]] both put the same point plainly in macro terms: the economy is holding up, but the growth mix is becoming more external-demand dependent.
+
 ---
 
 ## "Half of Covid" — supply shock sizing (Giles, FT, Apr 7)

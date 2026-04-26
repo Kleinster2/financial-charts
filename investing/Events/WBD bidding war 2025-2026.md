@@ -4,7 +4,7 @@ date: 2025-12-05
 ---
 #event #ma #streaming #entertainment
 
-The contest for [[Warner Bros Discovery]] — [[Netflix]]'s $27.75/share carve-out bid for studios + HBO vs. [[Paramount Global]]'s $31/share hostile bid for the entire company. Netflix walked away Feb 26, 2026 after WBD's board declared Paramount's offer a "Superior Proposal." Netflix collected a $2.8B breakup fee.
+The contest for [[Warner Bros Discovery]] — [[Netflix]]'s $27.75/share carve-out bid for studios + HBO vs. [[Paramount Global]]'s $31/share hostile bid for the entire company. Netflix walked away Feb 26, 2026 after WBD's board declared Paramount's offer a "Superior Proposal." WBD shareholders approved the Paramount deal Apr 23, 2026, leaving regulatory, litigation, and financing execution as the live risks.
 
 ---
 
@@ -27,7 +27,8 @@ The contest for [[Warner Bros Discovery]] — [[Netflix]]'s $27.75/share carve-o
 | **Feb 27 (Fri), market open** | NFLX gaps up to $94.40 (overnight +11.6%), rallies to $96.75, closes **$96.24 (+13.8%)** on **191M shares** (5× normal vol). Best day since Jan 2025. WBD $28.26 (-1.9%) |
 | **Feb 27, afternoon** | Paramount and WBD formally announce the **$110B merger agreement** |
 | Mar 2, 8:30 AM ET | Paramount conference call / webcast on deal details |
-| Early spring 2026 | Shareholder vote expected |
+| Apr 5-7, 2026 | Gulf sovereign financing reports: almost $24B in commitments, led by [[Saudi PIF]] at roughly $10B with [[QIA]] and [[L'imad Holding]] |
+| Apr 23, 2026 | WBD shareholders approve Paramount merger; reject executive compensation package in non-binding vote |
 | Q3 2026 | Expected close (subject to regulatory + shareholder approval) |
 
 ---
@@ -42,7 +43,7 @@ The contest for [[Warner Bros Discovery]] — [[Netflix]]'s $27.75/share carve-o
 | Enterprise value | ~$83B | **~$110B** |
 | Discovery Global | Spins off separately | Included |
 | Antitrust risk | Lower (vertical: distribution + production) | Higher (horizontal media consolidation) |
-| Financial backstop | Netflix balance sheet | [[Larry Ellison]] family + RedBird Capital ($47B equity) |
+| Financial backstop | Netflix balance sheet | [[Larry Ellison]] family + RedBird Capital, plus Gulf sovereign equity syndication |
 
 ---
 
@@ -52,13 +53,15 @@ The contest for [[Warner Bros Discovery]] — [[Netflix]]'s $27.75/share carve-o
 
 | Component | Amount | Source |
 |-----------|--------|--------|
-| **Equity** | **$47B** | Ellison Family + RedBird Capital Partners (fully committed). May include PIF (Saudi Arabia), L'imad Holding (Abu Dhabi), QIA (Qatar) at closing |
+| **Equity** | **$47B** | Ellison Family + RedBird Capital Partners, syndicated in part to Gulf sovereign investors including [[Saudi PIF]], [[QIA]], and [[L'imad Holding]] |
 | **New debt** | **$39B** | BofA, Citigroup, Apollo |
 | **WBD bridge backstop** | $15B | BofA, Citigroup, Apollo (backstops existing WBD bridge facility) |
 | **Revolver backstop** | $3.5B | BofA, Citigroup, Apollo |
 | **Total** | **~$110B** | |
 
 New Paramount Class B shares issued at **$16.02/share** to equity investors.
+
+**Apr 2026 financing update:** reports put the Gulf sovereign package at almost $24B, with [[Saudi PIF]] around $10B and [[QIA]] / [[L'imad Holding]] providing the balance. The Gulf stakes are structured as non-voting minority equity, reducing direct-control optics while still shifting a large part of the equity burden away from the Ellison family and RedBird.
 
 **Who pulled out:** Jared Kushner's Affinity Partners withdrew. Tencent (China) also withdrew.
 
@@ -209,38 +212,37 @@ WBD closed ~$28.90 — a ~7% spread to the $31 deal price. The market isn't doub
 
 **5. Time value of money:** Even if the deal closes at $31, capital is locked for 6-9 months. At current rates, ~7% annualized spread is roughly market-rate merger arb return — not a screaming discount, just fair compensation for the duration and risk.
 
-Bottom line: the spread is pricing it about right for a deal with real regulatory/vote/financing hurdles and a long close timeline. It's not skepticism about *whether* — it's pricing the *when* and the *what if*.
+Bottom line: the spread is pricing it about right for a deal with real regulatory, litigation, and financing hurdles and a long close timeline. It's not skepticism about *whether* — it's pricing the *when* and the *what if*.
 
 ---
 
-## Open questions (as of Feb 27)
+## Open questions (as of Apr 25)
 
-- Shareholder vote early spring — will activists try to block or extract concessions?
-- Paramount conference call **Mon Mar 2, 8:30 AM ET** — watch for detail on financing terms, synergy timeline, integration plan
-- DOJ timeline — how long for full antitrust review of horizontal studio consolidation?
+- DOJ / EU timeline — how long for full antitrust review of horizontal studio consolidation?
+- State attorney general lawsuit risk — shareholder approval does not end public-interest opposition
 - Paramount financing execution in tightening credit markets
 - What does Paramount do with [[Linear TV]] assets (CNN, TBS, TNT, Discovery)?
 - Will Netflix pursue alternative studio acquisitions with the HBO thesis still valid?
 
 ---
 
-## Scenario matrix (as of 2026-03-03)
+## Scenario matrix (as of 2026-04-25)
 
-This is a working probability framework, not a claim of certainty. It should be updated after the March 20 vote and any state AG action.
+This is a working probability framework, not a claim of certainty. Shareholder approval is now complete; the framework should be updated after DOJ/EU decisions or any state AG action.
 
 | Scenario | Probability | What has to happen | Market implication |
 |---------|-------------|--------------------|-------------------|
-| **Base case: vote passes, closes Q3 2026** | **60%** | Shareholders approve, financing syndication remains intact, no successful injunction | Merger arb spread compresses gradually; WBD drifts toward deal value with carry discount |
-| **Delay case: vote passes but close slips to Q4 2026+** | **30%** | State-level scrutiny and/or financing market wobble slows timeline | Spread stays wide longer; more event-driven volatility around legal/process headlines |
-| **Break case: vote fails or regulatory/legal block** | **10%** | Coordinated opposition (shareholder + legal) or financing rupture | WBD reprices sharply lower; PSKY relief rally possible on avoided leverage |
+| **Base case: regulatory close Q3 2026** | **60%** | DOJ/EU clearance, financing syndication remains intact, no successful injunction | Merger arb spread compresses gradually; WBD drifts toward deal value with carry discount |
+| **Delay case: close slips to Q4 2026+** | **30%** | State-level scrutiny and/or financing market wobble slows timeline | Spread stays wide longer; more event-driven volatility around legal/process headlines |
+| **Break case: regulatory/legal block** | **10%** | Successful injunction/regulatory block or financing rupture | WBD reprices sharply lower; PSKY relief rally possible on avoided leverage |
 
 ### What would change these probabilities fast
 
-- **Up for close probability:** clear vote margin, stable debt placement terms, no major state challenge signals.
-- **Up for delay probability:** new subpoenas/injunction signals, widening credit spreads, visible proxy fight escalation.
-- **Up for break probability:** financing commitments weaken materially, or shareholder sentiment flips ahead of vote.
+- **Up for close probability:** stable debt placement terms, no major state challenge signals, DOJ/EU process remains procedural.
+- **Up for delay probability:** new subpoenas/injunction signals, widening credit spreads, or state-level process escalation.
+- **Up for break probability:** financing commitments weaken materially, or regulatory/legal posture hardens into a block.
 
-## What to watch into March 20 vote
+## What to watch after shareholder approval
 
 Use this as a live dashboard. If 2+ red flags trigger simultaneously, raise break/delay odds and tighten risk posture.
 
@@ -249,7 +251,6 @@ Use this as a live dashboard. If 2+ red flags trigger simultaneously, raise brea
 | **WBD merger spread to $31** | <4% discount | 4-8% | >8% sustained 2+ sessions |
 | **Debt market tone (HY/IG spreads)** | Stable/tightening | Modest widening | Sharp widening week-over-week |
 | **Financing language from banks/management** | "Fully committed" with no caveats | More conditional language | Any sign of resizing/repricing financing stack |
-| **Shareholder optics ahead of vote** | Broad support, limited activism noise | Mixed messaging | Coordinated opposition campaign with named large holders |
 | **Regulatory/legal chatter** | Routine process updates | State AG requests/comments | Injunction risk headlines or formal challenge signals |
 | **Management execution narrative** | Consistent message on integration + deleveraging | Shifting explanations | Contradictions on cable strategy, synergy timing, or debt path |
 
@@ -310,6 +311,13 @@ $75B net debt post-close, ~6x EBITDA. At least $4B/yr in interest payments — m
 
 ---
 
+## Sources
+
+- [Reuters via Newsmax, Apr 5, 2026](https://www.newsmax.com/us/paramount-saudi-arabia-funds/2026/04/05/id/1251911/)
+- [The Guardian, Apr 23, 2026](https://www.theguardian.com/film/2026/apr/23/warner-bros-discovery-merger-paramount-skydance)
+
+---
+
 ## Related
 
 ### Actors
@@ -320,6 +328,9 @@ $75B net debt post-close, ~6x EBITDA. At least $4B/yr in interest payments — m
 - [[Larry Ellison]] — $47B equity commitment (with RedBird)
 - [[David Ellison]] — Skydance CEO, Paramount-Skydance merger architect
 - [[Ted Sarandos]] — Netflix co-CEO
+- [[Saudi PIF]] — reported lead Gulf sovereign financing participant
+- [[QIA]] — Gulf sovereign financing participant
+- [[L'imad Holding]] — Abu Dhabi financing participant
 
 ### Events
 - [[Netflix-WB Senate Antitrust Hearing 2026-02-03]] — Feb 3 hearing
@@ -331,4 +342,4 @@ $75B net debt post-close, ~6x EBITDA. At least $4B/yr in interest payments — m
 
 ---
 
-*Created 2026-02-26. Updated 2026-02-27 with formal deal terms, financing structure, tick-tock timeline. Updated 2026-03-19 with FT Lex eve-of-vote financial analysis.*
+*Created 2026-02-26. Updated 2026-02-27 with formal deal terms, financing structure, tick-tock timeline. Updated 2026-03-19 with FT Lex eve-of-vote financial analysis. Updated 2026-04-25 with Gulf financing and shareholder approval.*

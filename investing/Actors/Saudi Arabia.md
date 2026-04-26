@@ -14,7 +14,7 @@ aliases: [Saudi Arabia, KSA, Kingdom of Saudi Arabia]
 | GDP | ~$1.1T |
 | Population | ~36M |
 | Oil production | ~9-12 million bpd (varies with OPEC+ policy) |
-| Sovereign wealth | [[Saudi PIF]] (~$930B AUM) |
+| Sovereign wealth | [[Saudi PIF]] (>$900B AUM; ~$2T 2030 target) |
 | Transformation program | [[Saudi Vision 2030]] |
 
 ---
@@ -98,6 +98,19 @@ See [[2026 Iran conflict market impact#Day 14 — March 13 (Gulf equity divergen
 - Portfolio stakes in [[Nintendo]], [[Electronic Arts]], [[Activision Blizzard]], [[Take-Two]]
 - Hosting Olympic Esports Games 2027 (12-year [[IOC]] deal)
 - Target: 250 gaming companies, 39,000 jobs by 2030
+
+---
+
+## PIF 2026-2030 reset
+
+The Apr 15, 2026 [[Saudi PIF]] strategy reset is now the operating map for the last stretch of [[Saudi Vision 2030]]. PIF collapsed its prior 13-sector frame into six ecosystems: tourism/travel/entertainment; urban development/livability; advanced manufacturing/innovation; industrials/logistics; clean energy/water/renewables infrastructure; and [[NEOM]]. The country-level read-through is triage, not abandonment: [[Expo 2030]], the 2034 [[FIFA]] World Cup, [[HUMAIN]], housing, mining, [[Oxagon]], and domestic tourism remain protected; prestige projects without clear domestic multiplier or strategic utility are being phased.
+
+---
+
+## Sources
+
+- [PIF / Business Wire strategy release, Apr 15, 2026](https://www.tmcnet.com/usubmit/2026/04/15/10365491.htm)
+- FT, "Saudi wealth fund resets priorities after decade of heavy spending," Apr 15, 2026 (user-provided text)
 
 ---
 

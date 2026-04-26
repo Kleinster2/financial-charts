@@ -9,7 +9,7 @@ Saudi Vision 2030 — Saudi Arabia's $7T+ economic transformation program launch
 
 ## Core thesis
 
-Saudi Arabia bets its future on a post-oil economy by 2030. The [[Saudi PIF]] is the execution vehicle—$940B sovereign fund deploying into mega-projects, tech, and global assets. The math: oil funds the transition, but fiscal breakeven oil price (~$96/bbl) creates a race against time.
+Saudi Arabia bets its future on a post-oil economy by 2030. The [[Saudi PIF]] is the execution vehicle -- a more-than-$900B sovereign fund deploying into mega-projects, tech, domestic ecosystems, and selected global assets. The math: oil funds the transition, but fiscal breakeven oil price (~$96/bbl) creates a race against time. The Apr 15, 2026 PIF strategy reset is the clearest official acknowledgment that Vision 2030 has moved from growth-at-any-cost into delivery triage: fixed deadlines first, domestic ecosystems next, prestige optionality last.
 
 ---
 
@@ -21,7 +21,7 @@ Saudi Arabia bets its future on a post-oil economy by 2030. The [[Saudi PIF]] is
 | Non-oil revenue | $64B | $137B | — |
 | Female workforce participation | 19.7% | 36.3% | 30% ✓ |
 | Tourism contribution to GDP | 3% | ~8% | 10% |
-| PIF AUM | $150B | $940B | $2T |
+| PIF AUM | $150B | >$900B | $2T |
 | FDI inflows (annual) | $7.5B | $26.5B | $19B ✓ |
 
 Progress is real but uneven. Social targets (women's employment, entertainment) exceeded. Economic targets (FDI, diversification) mixed. Mega-project timelines slipping badly.
@@ -34,11 +34,11 @@ Progress is real but uneven. Social targets (women's employment, entertainment) 
 
 | Project | Budget | Status (Jan 2026) |
 |---------|--------|-------------------|
-| [[NEOM]] / The Line | $500B | Suspended Sept 2025, pivoting to data centers. Only 2.4km of 170km by 2030. $8B writedown. |
+| [[NEOM]] / [[NEOM|The Line]] | $500B | Protected as an ecosystem, but The Line no longer treated as must-have by 2030; [[Oxagon]] / industrial / data-center use prioritized. |
 | Qiddiya | $8B+ | Entertainment city, on track |
-| Red Sea Global | $5B+ | Luxury tourism, operational |
-| ROSHN | — | Real estate developer, active |
-| Diriyah Gate | $20B | Historical tourism, under construction |
+| [[Red Sea Global]] | $5B+ | Luxury tourism, first resorts operational |
+| [[ROSHN]] | — | Real estate developer, active |
+| [[Diriyah]] Gate | $20B | Historical tourism, under construction |
 
 The Line reality check: Original plan called for 1.5M residents by 2030. Now targeting 300k. WSJ reported internal estimates of 2080 completion at $8.8T total cost. Sept 2025 suspension shifted focus to industrial/data center use.
 
@@ -58,9 +58,22 @@ The Line reality check: Original plan called for 1.5M residents by 2030. Now tar
 
 The paradox: Vision 2030 aims to reduce oil dependence, but oil prices must stay high to fund the transition. At $70-80 oil, deficits widen and project timelines slip further. Budget deficits every year since 2022 — officials call sustained shortfalls a deliberate choice to support investment.
 
-Finance Minister Al-Jadaan (Feb 2026, AlUla Conference): Focal areas for next 5 years are tourism, manufacturing, logistics, and technology. Strategy update coming — discussing communication now but no release date. "We continue to reprioritize, rework our policies, making sure we enable the private sector to lead the economy."
+Finance Minister Al-Jadaan (Feb 2026, AlUla Conference): focal areas for the next five years were tourism, manufacturing, logistics, and technology. The PIF strategy released Apr 15 made that narrower map official: six domestic ecosystems, more private-sector participation, and value realization rather than another blanket domestic-spending pledge.
 
 Finance Minister Al-Jadaan (Dec 2025): "We have no ego—absolutely no ego. If we need to adjust, accelerate, defer, or cancel [projects], we will without blinking."
+
+## PIF 2026-2030 strategy reset
+
+PIF's Apr 15, 2026 strategy launch is Vision 2030's operating plan for the final stretch to 2030. The old 13-sector frame is now six ecosystems: tourism/travel/entertainment; urban development/livability; advanced manufacturing/innovation; industrials/logistics; clean energy/water/renewables infrastructure; and [[NEOM]].
+
+| Constraint | Strategy response |
+|------------|-------------------|
+| Fixed event deadlines | [[Expo 2030]] and the 2034 [[FIFA]] World Cup stay protected because reputation and infrastructure delivery now have hard dates. |
+| Fiscal pressure | No renewed $40B/year domestic-deployment pledge; PIF emphasizes value realization, capital efficiency, private-sector participation, and co-investment. |
+| Mega-project slippage | [[NEOM]] remains protected, but [[NEOM|The Line]] is de-emphasized as a 2030 must-have; [[Oxagon]] and industrial/data-center infrastructure carry more near-term strategic weight. |
+| Need for domestic demand | Tourism, aviation, hotels, housing, and entertainment remain central because they turn sovereign spending into recurring domestic GDP rather than one-off prestige. |
+
+The official progress metrics are real but also define the next constraint: PIF says it invested more than $199B in new Saudi projects from 2021-2025, contributed more than $243B to real non-oil GDP from 2021-2024, and generated over 7% annualized total shareholder return since 2017. The next phase has to keep producing those domestic multipliers with less tolerance for open-ended cash burn.
 
 ---
 
@@ -156,7 +169,7 @@ Not investable: Most giga-projects are PIF-owned, not public.
 | 2021 | NEOM/The Line announced |
 | 2024 | Reality check—projects scaled back |
 | 2025 | The Line suspended (Sept), AI pivot accelerates |
-| 2026 | Updated 5-year strategy being prepared (Al-Jadaan, Feb 2026) |
+| 2026 | PIF 2026-2030 strategy approved Apr 15; six ecosystems replace 13-sector frame |
 | 2026-2030 | "Third phase"—full delivery mode |
 
 ---
@@ -177,8 +190,14 @@ Not investable: Most giga-projects are PIF-owned, not public.
 
 ## Related
 
-- [[Saudi PIF]] — execution vehicle ($940B sovereign fund)
+- [[Saudi PIF]] — execution vehicle (more-than-$900B sovereign fund)
 - [[NEOM]] — flagship mega-project (suspended)
+- [[Oxagon]] — NEOM industrial/logistics pillar now prioritized
+- [[Trojena]] — NEOM mountain resort; Asian Winter Games postponement/downscope signal
+- [[Red Sea Global]] — PIF-owned luxury tourism developer
+- [[ROSHN]] — housing delivery vehicle
+- [[Qiddiya]] — entertainment city
+- [[Riyadh Air]] — aviation/tourism connectivity vehicle
 - [[Saudi Arabia Tech]] — tech sector context
 - [[Saudi Aramco]] — oil revenue source, partial IPO funded Vision
 - [[Lucid]] — PIF investment (55% stake in EV company)

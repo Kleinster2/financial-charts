@@ -3,7 +3,7 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 ---
 #actor #media #streaming #usa #public
 
-**Warner Bros Discovery** — [[Media]] conglomerate. Max [[Streaming]] (117M subs). Studios + [[Linear TV]]. Being acquired by [[Paramount Global]] for $31/share all-cash (~$77B EV) after [[Netflix]] walked away from competing $27.75 bid. Shareholder vote March 20, 2026.
+**Warner Bros Discovery** — [[Media]] conglomerate. Max [[Streaming]] (117M subs). Studios + [[Linear TV]]. Being acquired by [[Paramount Global]] for $31/share all-cash (~$110B including debt) after [[Netflix]] walked away from a competing $27.75 bid. Shareholders approved the merger Apr 23, 2026; regulatory and state-litigation risk remain.
 
 ---
 
@@ -28,7 +28,7 @@ WBD shows moderate Communications correlation (XLC r = 0.62).
 | Market cap | ~$25B |
 | TTM revenue | ~$38B |
 | Max subscribers | 117M |
-| Status | Being acquired by [[Paramount Global]] ($31/share) — vote Mar 20 |
+| Status | Being acquired by [[Paramount Global]] ($31/share); shareholder approval Apr 23, regulatory approvals pending |
 
 ---
 
@@ -84,15 +84,21 @@ Bidding war between [[Netflix]] and [[Paramount Global]] ended Feb 26 when the b
 |--------|-------|
 | Winning bidder | [[Paramount Global]] ([[Skydance Media]]) |
 | Price | $31/share all-cash (entire company) |
-| Enterprise value | ~$77B |
+| Enterprise value | ~$110B including debt (~$81B equity value) |
 | Netflix bid (withdrawn) | $27.75/share for studios + HBO only (~$83B) |
 | Netflix breakup fee | $2.8B |
-| Shareholder vote | March 20, 2026 |
-| Financial backstop | [[Larry Ellison]] $40B personal equity guarantee |
+| Shareholder vote | Approved Apr 23, 2026 |
+| Financial backstop | [[Larry Ellison]] / RedBird plus almost $24B Gulf sovereign package led by [[Saudi PIF]] |
 
 Unlike Netflix's carve-out (studios + HBO only, with Discovery Global spinning off), Paramount is acquiring the entire company — including CNN, TBS, HGTV, TNT Sports, and Discovery networks.
 
-Open risks: Paramount financing complexity ($1.5B junior lien fee), debt load, [[Larry Ellison]] equity guarantee certainty, activist opposition at March 20 vote.
+Open risks: Paramount financing complexity ($1.5B junior lien fee), debt load, DOJ/EU review, possible state attorney general lawsuit, and political scrutiny of Gulf sovereign financing.
+
+### Apr 2026 financing and vote
+
+The April financing update makes [[Saudi PIF]] a direct read-through for the WBD deal: reports put PIF's commitment at roughly $10B within an almost-$24B Gulf sovereign package alongside [[QIA]] and [[L'imad Holding]]. The stake is structured as non-voting minority equity, lowering control optics while still giving Paramount enough external equity to reduce reliance on the Ellison family backstop.
+
+WBD shareholders approved the merger Apr 23, 2026. That shifts the live risk from shareholder approval to regulatory process, possible state attorney general litigation, and financing execution in a large, politically sensitive media consolidation.
 
 Full timeline: [[WBD bidding war 2025-2026]]
 
@@ -127,6 +133,9 @@ Under the Netflix deal, Discovery Global (CNN, TBS, HGTV, TNT Sports) would have
 
 ![[wbd-fundamentals-chart.png]]
 *Revenue tripled on WarnerMedia merger (2022) but massive goodwill write-downs drove net income deeply negative. The pre-2022 data reflects Discovery Inc. standalone*
+
+![[warner-bros-discovery-sankey.png]]
+*Latest annual income-statement flow for WBD.*
 
 ---
 
@@ -165,7 +174,7 @@ David Zaslav came from Discovery; the WarnerMedia side was AT&T-controlled befor
 - 2022-2024 — $30B+ in goodwill write-downs as the legacy media model deteriorated faster than expected. [[Linear TV]] ad revenue declined 17%. Stock cratered from $24 to $7
 - 2023-2024 — Max [[Streaming]] service reached 117M subscribers and turned profitable ($1.3B estimated for 2025), but couldn't offset linear decline
 - Oct 2025 — Board began evaluating strategic alternatives (sale, spinoff, separation of studios from linear). Stock surged 24% on the news
-- Dec 2025 — [[Netflix]] bid $27.75/share for studios + HBO; [[Paramount Global]] countered with $31 for entire company. Board chose Paramount Feb 26, 2026
+- Dec 2025-Apr 2026 — [[Netflix]] bid $27.75/share for studios + HBO; [[Paramount Global]] countered with $31 for the entire company. Board chose Paramount Feb 26, and shareholders approved Apr 23 after Gulf sovereign financing surfaced.
 
 ---
 
@@ -189,11 +198,17 @@ Bear:
 
 ## Related
 
+### Securities
+- [[Warner Bros Discovery securities]] — market-facing companion note
+
 ### Acquirers / bidders
 - [[Paramount Global]] — winning bidder ($31/share all-cash)
 - [[Netflix]] — former bidder, walked away with $2.8B breakup fee
 - [[Larry Ellison]] — $40B personal equity guarantee for Paramount deal
 - [[David Ellison]] — [[Skydance Media]] CEO, Paramount-Skydance architect
+- [[Saudi PIF]] — reported roughly $10B non-voting financing commitment
+- [[QIA]] — Gulf sovereign financing participant
+- [[L'imad Holding]] — Abu Dhabi financing participant
 
 ### Competitors
 - [[Netflix]] — [[Streaming]]
@@ -216,6 +231,8 @@ Bear:
 
 - [WBD Q3 2025](https://www.wbd.com/news/warner-bros-discovery-reports-third-quarter-2025-results)
 - [Deadline Coverage](https://deadline.com/2025/02/warner-bros-discovery-losses-widen-linear-networks-max-1236303209/)
+- [Reuters via Newsmax, Apr 5, 2026](https://www.newsmax.com/us/paramount-saudi-arabia-funds/2026/04/05/id/1251911/)
+- [The Guardian, Apr 23, 2026](https://www.theguardian.com/film/2026/apr/23/warner-bros-discovery-merger-paramount-skydance)
 
 ## Bidding war timeline (Dec 2025 – Feb 2026)
 
@@ -240,4 +257,4 @@ Full arc: [[WBD bidding war 2025-2026]]
 
 ---
 
-*Updated 2026-02-27*
+*Updated 2026-04-25*

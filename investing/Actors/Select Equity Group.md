@@ -1,9 +1,11 @@
 ---
-aliases: [Select Equity, George Lee]
+aliases: [Select Equity, George S. Loening, George Loening]
 ---
 #actor #investor #hedgefund #equity #usa #private
 
-**Select Equity Group** — George Lee's equity fund. ~$15B AUM. Founded 1990. Long-biased quality.
+**Select Equity Group** — George S. Loening's equity fund. Founded 1990. Long-biased quality.
+
+Select Equity is a low-profile New York investment firm focused on long-term quality-growth equities. The relevance for this pass was disambiguation: its founder is George S. Loening, not [[George Lee (Goldman Sachs)|George Lee]] of [[Goldman Sachs]].
 
 ---
 
@@ -12,7 +14,7 @@ aliases: [Select Equity, George Lee]
 | Metric | Value |
 |--------|-------|
 | Founded | 1990 |
-| Founder | **George Lee** |
+| Founder | George S. Loening |
 | AUM | ~$15B |
 | Strategy | Quality growth |
 | HQ | New York |
@@ -27,6 +29,24 @@ aliases: [Select Equity, George Lee]
 | Long-biased | Limited shorting |
 | Concentrated | 20-30 positions |
 | Long-term | Low turnover |
+
+---
+
+## Leadership
+
+| Person | Role |
+|--------|------|
+| George S. Loening | Founder |
+| George S. Loening | CEO / chairman in advisor-profile sources; [[SEC]] filings identify him as majority owner and managing member of the general partner |
+
+---
+
+## Evolution
+
+| Period | Development |
+|--------|-------------|
+| 1990 | Founded in New York |
+| 1990-present | Built around a long-biased quality-growth equity strategy |
 
 ---
 
@@ -57,7 +77,7 @@ Low-profile, consistent performer.
 | Metric | Value |
 |--------|-------|
 | Founded | 1990 |
-| Founder | George Lee |
+| Founder | George S. Loening |
 | AUM | ~$15B |
 | Strategy | Quality growth |
 
@@ -67,6 +87,14 @@ Low-profile, consistent performer.
 
 - [[Lone Pine]] — peer (quality growth)
 - [[Viking Global]] — peer (L/S)
+
+---
+
+## Sources
+
+- [SEC IAPD - Select Equity Group, L.P. firm summary](https://adviserinfo.sec.gov/firm/summary/168496)
+- [SEC - Signet Schedule 13D/A, Jan 2026](https://www.sec.gov/Archives/edgar/data/832988/000110465926001397/xslSCHEDULE_13D_X01/primary_doc.xml)
+- [SmartAsset - Select Equity Group review](https://smartasset.com/financial-advisor/select-equity-group-review)
 
 ---
 

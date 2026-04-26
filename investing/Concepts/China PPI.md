@@ -11,7 +11,7 @@ China's Producer Price Index — the factory-gate inflation measure published by
 
 ## Synopsis
 
-China's PPI has been in deflation territory for most of the post-Covid period — a headline symptom of the property-driven demand collapse that the [[China economic transition]] note tracks. PPI turning negative year-on-year starting mid-2022 was a reliable signal that industrial overcapacity had outrun demand. The March 2026 print — the first positive year-on-year reading since 2022, per the [[FT]] (April 11) — is the arithmetic confirmation that the [[2026 Strait of Hormuz crisis]] has pushed cost inflation through the Chinese producer chain.
+China's PPI has been in deflation territory for most of the post-Covid period — a headline symptom of the property-driven demand collapse that the [[China economic transition]] note tracks. PPI turning negative year-on-year starting mid-2022 was a reliable signal that industrial overcapacity had outrun demand. The March 2026 print rose 0.5% year on year, while Q1 PPI was still down 0.6%, per [[NBS]]. That positive monthly turn is the arithmetic confirmation that the [[2026 Strait of Hormuz crisis]] has pushed cost inflation through the Chinese producer chain.
 
 The switch from negative to positive PPI is not a demand-led recovery. It is an input-cost shock: higher [[Polyethylene]] (~2x), [[Polypropylene]] (~6,500 → ~9,000 Rmb/tonne), [[Methanol]] (~2,000 → ~2,800 Rmb/tonne), and [[Petroleum benzene]] (~5,500 → ~8,500 Rmb/tonne) prices being passed through at the factory gate. Energy-intensive sectors (logistics, aviation, shipping, steel) reporting up to 25% cost increases ([[Peng Shaozong]]). The FT's "Fortress China cracks" framing rests on this single data point.
 
@@ -41,7 +41,7 @@ PPI is a composite across manufacturing, extraction, and utilities. [[NBS]] trac
 | 2021-22 | Positive | Post-Covid commodity boom |
 | 2022 mid | Peak | Russia-Ukraine feedstock shock |
 | 2022 late - 2026 Feb | Negative | Property crash, industrial overcapacity, weak domestic demand |
-| March 2026 | Positive (first time since 2022) | Iran war feedstock shock (not a demand recovery) |
+| March 2026 | +0.5% yoy; Q1 still -0.6% | Iran war feedstock shock (not a demand recovery) |
 
 ## 2026 Hormuz crisis — commodity drivers
 
@@ -68,7 +68,7 @@ Key factory-gate price moves through April 11 2026 (NBS / Wind via FT):
 | Publisher | [[NBS]] (National Bureau of Statistics) |
 | Frequency | Monthly |
 | Market coverage | 300+ markets, ~2,000 wholesalers / agents / dealers |
-| March 2026 milestone | First positive year-on-year reading since 2022 |
+| March 2026 milestone | +0.5% yoy; first positive monthly year-on-year reading since 2022 |
 | Driver | Iran war feedstock shock, not demand recovery |
 | Source of March 2026 framing | [[FT]] Edward White, April 11 2026 |
 

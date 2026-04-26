@@ -48,6 +48,7 @@ GS trades as a core Financials name (XLF r = 0.73).
 | CFO | [[Denis Coleman]] | Jan 2022 | Framed Q1 rates and mortgage weakness as a tougher market-making backdrop |
 | Co-head, Global Banking & Markets | [[Ashok Varadhan]] | — | Senior markets leader with deep rates and macro background |
 | Global co-head, FICC | [[Anshul Sehgal]] | Jan 2025 | Directly relevant to the rates and mortgages franchise |
+| President of Global Affairs / co-head, Global Institute | [[Jared Cohen]] | 2022 | Client-facing geopolitics, technology, and markets advisory |
 
 Goldman's leadership mix still tilts toward operators formed in trading, financing, and client flow businesses. That matters because the firm's edge is not just brand or balance sheet size; it is judgment under volatility, and that shows up most clearly when rates, funding, or client positioning snap out of consensus.
 
@@ -182,6 +183,8 @@ The March 12, 2026 FT episode around [[Kunal Shah]] is telling. A senior Goldman
 - [[Ashok Varadhan]] — co-head of Global Banking & Markets
 - [[Anshul Sehgal]] — global co-head of FICC
 - [[Kunal Shah]] — global co-head of FICC, Goldman Sachs International
+- [[Jared Cohen]] — president of Global Affairs; co-head, [[Goldman Sachs Global Institute]]
+- [[Goldman Sachs Global Institute]] — geopolitics, technology, and markets advisory platform
 - [[JPMorgan Chase]] — peer
 - [[Citigroup]] — peer
 - [[Morgan Stanley]] — peer

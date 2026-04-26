@@ -3,7 +3,7 @@ aliases: [PARA, PSKY, Paramount+, CBS, Viacom, ViacomCBS, Paramount Skydance]
 ---
 #actor #media #streaming #usa #public
 
-**Paramount Global** — [[Media]] conglomerate. CBS, MTV, Paramount+, Paramount Pictures. Completed [[Skydance Media]] merger (Aug 2025); now acquiring [[Warner Bros Discovery]] for $31/share all-cash (~$77B EV). Nasdaq: PSKY (post-merger). Shareholder vote March 20, 2026.
+**Paramount Global** — [[Media]] conglomerate. CBS, MTV, Paramount+, Paramount Pictures. Completed [[Skydance Media]] merger (Aug 2025); now acquiring [[Warner Bros Discovery]] for $31/share all-cash (~$110B including debt). Nasdaq: PSKY (post-merger). WBD shareholders approved the deal Apr 23, 2026; DOJ/EU/state-level regulatory risk remains before expected Jul-Sep close.
 
 ---
 
@@ -15,7 +15,20 @@ aliases: [PARA, PSKY, Paramount+, CBS, Viacom, ViacomCBS, Paramount Skydance]
 | Market cap | ~$8B |
 | Revenue (2024) | ~$28.6B |
 | Paramount+ subs | 72M |
-| Status | Acquiring [[Warner Bros Discovery]] ($31/share) — vote Mar 20 |
+| Status | Acquiring [[Warner Bros Discovery]] ($31/share); shareholder approval Apr 23, regulatory approvals pending |
+
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| Communications | XLC | 0.27 |
+| [[Consumer]] | XLY | 0.20 |
+| Industrials | XLI | 0.17 |
+| *S&P 500* | *SPY* | *0.18* |
+
+PSKY trades with only modest broad-market and Communications correlation over the latest 252 trading days because merger-financing headlines dominate the stock more than sector beta.
 
 ---
 
@@ -130,19 +143,25 @@ Weak quarter overshadowed by WBD bid victory on the same day.
 | Detail | Value |
 |--------|-------|
 | Bid | $31/share all-cash for all of WBD |
-| Enterprise value | ~$77B |
+| Enterprise value | ~$110B including debt (~$81B equity value) |
 | Netflix breakup fee | $2.8B (WBD pays to Netflix) |
-| Shareholder vote | March 20, 2026 |
+| Shareholder vote | Approved Apr 23, 2026 |
 | HSR status | Cleared Feb 20 (Paramount's CLO is Makan Delrahim, former Trump DOJ Antitrust chief) |
-| Financial backstop | [[Larry Ellison]] $40B personal equity guarantee |
+| Financial backstop | [[Larry Ellison]] / RedBird plus almost $24B Gulf sovereign package led by [[Saudi PIF]] |
 
 If approved, the combined entity would hold CBS, Paramount+, MTV, HBO, CNN, Discovery, TBS, TNT Sports, Warner Bros studio, DC — the most comprehensive media portfolio assembled since the old [[AT&T]]-TimeWarner.
 
 Timeline: initial $30 bid (Feb 10) → $30 rejected, 7-day window (Feb 17) → $31 "best and final" (Feb 23) → Superior Proposal declared (Feb 26).
 
-Open risks: $1.5B junior lien financing fee, combined debt load, [[Larry Ellison]] equity guarantee certainty, activist shareholder dynamics at March 20 vote.
+Open risks: DOJ/EU review, possible state attorney general lawsuit, $1.5B junior lien financing fee, combined debt load, and political scrutiny of Gulf sovereign financing.
 
 Mar 2 analyst call added key execution details: management guided to ~$79B net debt at close, reiterated no near-term cable asset spin/sale, and confirmed Paramount+ + HBO Max platform consolidation as the core integration path. Synergy target remains $6B+, with emphasis on non-labor savings early (streaming stack/cloud/procurement).
+
+### Apr 2026 Gulf financing and vote
+
+Paramount secured or lined up almost $24B of equity commitments from Gulf sovereign investors for the WBD acquisition, with [[Saudi PIF]] reported at roughly $10B and [[QIA]] plus [[L'imad Holding]] expected to provide the balance. The structure is reported as non-voting minority equity, designed to reduce CFIUS/FCC sensitivity while still easing the burden on the Ellison family and RedBird.
+
+WBD shareholders approved the merger on Apr 23, 2026. The shareholder vote removes one execution hurdle, but the deal still needs US Department of Justice and European regulatory approval, and public-interest opposition has shifted toward potential state attorney general litigation.
 
 ### Revenue challenge (FT Lex, Mar 18)
 
@@ -159,6 +178,9 @@ Full arc: [[WBD bidding war 2025-2026]]
 
 ![[paramount-global-fundamentals-chart.png]]
 *Revenue stepped up with CBS-Viacom re-merger (2019). Net income has been volatile — massive write-downs in 2008 and 2022-2024 from content impairments and streaming losses*
+
+![[paramount-global-sankey.png]]
+*Latest annual income-statement flow for PSKY/PARA.*
 
 ---
 
@@ -199,11 +221,14 @@ Revenue flat at ~$29B. Chronic streaming losses and content write-downs have pro
 - 2022-2024 — Streaming losses mounted ($1.8B+ cumulative), linear networks declined, content write-downs accelerated. Multiple suitor approaches: [[Sony]], [[Apollo]], [[Warner Bros Discovery]]
 - Jul 2024 — [[Skydance Media]] merger announced; [[David Ellison]] to become CEO, [[Larry Ellison]] providing financial backing
 - Aug 2025 — Skydance merger closed. Ticker changed PARA → PSKY. National Amusements (Redstone) control resolved
-- Feb 2026 — Launched hostile $30/share bid for [[Warner Bros Discovery]], escalated to $31; won after Netflix walked away. Vote March 20
+- Feb-Apr 2026 — Launched hostile $30/share bid for [[Warner Bros Discovery]], escalated to $31; won after Netflix walked away. Gulf sovereign commitments surfaced in April; WBD shareholders approved the merger Apr 23.
 
 ---
 
 ## Related
+
+### Securities
+- [[Paramount Global securities]] — market-facing companion note
 
 ### Acquisition target
 - [[Warner Bros Discovery]] — being acquired for $31/share all-cash
@@ -224,6 +249,11 @@ Revenue flat at ~$29B. Chronic streaming losses and content write-downs have pro
 - [[Netflix-WB Senate Antitrust Hearing 2026-02-03]] — Senate hearing on deal
 - [[Major Pending M&A Deals Feb 2026]] — deal tracker
 
+### Financing
+- [[Saudi PIF]] — reported roughly $10B Gulf financing commitment
+- [[QIA]] — Gulf sovereign financing participant
+- [[L'imad Holding]] — Abu Dhabi financing participant
+
 ### Concepts
 - [[Streaming wars]] — competitive landscape
 - [[Cord-cutting]] — structural pressure on linear assets
@@ -231,4 +261,12 @@ Revenue flat at ~$29B. Chronic streaming losses and content write-downs have pro
 
 ---
 
-*Updated 2026-03-19*
+## Sources
+
+- [Reuters via Newsmax, Apr 5, 2026](https://www.newsmax.com/us/paramount-saudi-arabia-funds/2026/04/05/id/1251911/)
+- [The Guardian, Apr 23, 2026](https://www.theguardian.com/film/2026/apr/23/warner-bros-discovery-merger-paramount-skydance)
+- FT, "Saudi wealth fund resets priorities after decade of heavy spending," Apr 15, 2026 (user-provided text)
+
+---
+
+*Updated 2026-04-25*
