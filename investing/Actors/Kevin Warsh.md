@@ -176,11 +176,30 @@ The insight: personnel matters less than the structural change in the job itself
 | Date | Event |
 |---|---|
 | April 21, 2026 (next Tuesday) | Senate Banking Committee hearing |
+| April 24, 2026 | [[Jeanine Pirro]] (DC US Attorney) announces DOJ closes Powell investigation |
 | May 15, 2026 | [[Jerome Powell]] chair term formally expires |
 
 Senator [[Tom Tillis]] continues to condition confirmation on resolution of the DOJ investigation of [[Jerome Powell|Powell]] ("I'm not going to confirm him until the legal case is done"). [[Scott Bessent]] on April 14 said he remains "confident that Kevin will be in situ by" the term expiration. If Warsh is not confirmed by mid-May, chair pro tem options include [[Philip Jefferson]] (sitting vice chair), [[Chris Waller]], or Powell himself. Bessent on Jay Powell staying: "unclear." Bessent: "I think the president of the United States probably has a preference."
 
 *Source: WSJ Opinion, Paul Gigot interview, 2026-04-14*
+
+### Apr 24, 2026 — DOJ probe closure clears the path
+
+[[Jeanine Pirro]]'s announcement that the DOJ is closing the [[Jerome Powell|Powell]] investigation removed the Tillis-stated condition for confirmation. Market priced in:
+
+| Asset | Apr 24 reaction |
+|-------|-----------------|
+| 2Y yield | Session lows on the headline |
+| 10Y yield | ~4.30% (panel framing); also lower on the day; DB close 4.31% |
+| [[Polymarket]] Warsh-by-May-15 | Spiked to 82% intraday |
+
+House Financial Services Chair [[French Hill]]: *"step in the right direction... I applaud it."* As of show-time (Bloomberg Real Yield, Apr 24), neither [[Tom Tillis]] nor Powell had publicly responded — Mike McKee's read is that DOJ would not have moved without checking with Tillis's office in advance.
+
+[[Ira Jersey]] ([[Bloomberg Intelligence]]) framed the rates response as "very consistent with the idea that the market is now expecting Warsh will be the head of the FOMC in June" — but warned the FOMC majority view is still zero or one cut in 2026, and a freshly confirmed Warsh would need time to build internal consensus before policy starts to bend. The bigger working question is balance-sheet posture: Warsh is on record wanting a smaller Fed balance sheet, and [[Ira Jersey|Jersey]]'s view is that without rewriting post-GFC reserve rules, Warsh structurally cannot get the balance sheet below ~$2.7T without breaking front-end funding markets — the same constraint the [[Standing Repo Facility]] was created to manage.
+
+[[Ian Lyngen]] ([[BMO]]) on the rate path: 2Y around 3.80% and 10Y around 4.30% is the equilibrium the market seems happy to hold through next week's FOMC absent a payrolls shock. The 4.25% 10Y level is what funds (e.g., [[Vanguard]]) treat as the duration-add trigger — Lyngen sees that target potentially drifting lower (4.15% / 4.00%) depending on Warsh's balance-sheet handling.
+
+*Source: Bloomberg Real Yield, Apr 24, 2026 — Scarlet Fu / [[Ira Jersey]] / [[Ian Lyngen]]*
 
 ---
 

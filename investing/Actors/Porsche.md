@@ -40,6 +40,16 @@ Porsche will contribute 1,900 job cuts to [[Volkswagen]] group's 50,000-by-2030 
 
 ---
 
+## Xiaomi as European rival (Apr 2026)
+
+At the April 2026 Beijing Auto Show, [[Xiaomi]] founder [[Lei Jun]] explicitly named Porsche, [[BMW]], and [[Mercedes-Benz]] as the targets for the [[YU7 GT]] — the first Xiaomi vehicle developed with European engineers in [[Munich]]. Lei said the model "can match the standards of a top-tier German car." Schmidt Automotive Research view: Xiaomi is more likely to compete for European premium share at the expense of volume carmakers than to actually displace German premium nameplates in the medium term, given the long timeline for premium-brand acceptance. Worth tracking as a watch-item for the European premium-EV competitive set rather than as a near-term market-share threat.
+
+See [[Xiaomi]] for the full Europe push.
+
+*Source: FT, Apr 26 2026.*
+
+---
+
 ## Related
 
 - [[Ferrari]] — luxury auto peer (opposite strategy: scarcity vs volume)

@@ -14,9 +14,11 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import difflib
 import hashlib
 import json
 import os
+import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -39,16 +41,115 @@ RUNTIMES = {
 class SkillFile:
     path: Path
     digest: str
+    semantic_digest: str
     lines: int
+    semantic_lines: int
+
+
+def read_normalized_text(path: Path) -> str:
+    raw = path.read_bytes()
+    text = raw.decode("utf-8-sig")
+    return text.replace("\r\n", "\n").replace("\r", "\n")
 
 
 def normalized_digest(path: Path) -> tuple[str, int]:
     """Hash text with normalized newlines so CRLF/LF churn is ignored."""
-    raw = path.read_bytes()
-    text = raw.decode("utf-8-sig")
-    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    normalized = read_normalized_text(path)
     digest = hashlib.sha256(normalized.encode("utf-8")).hexdigest()
     return digest, len(normalized.splitlines())
+
+
+TYPOGRAPHIC_EQUIVALENTS = str.maketrans(
+    {
+        "\u2014": "-",
+        "\u2013": "-",
+        "\u2192": "->",
+        "\u2190": "<-",
+        "\u2018": "'",
+        "\u2019": "'",
+        "\u201c": '"',
+        "\u201d": '"',
+    }
+)
+
+
+REPO_ROOT_VARIANTS = {
+    str(REPO_ROOT),
+    str(REPO_ROOT).replace("\\", "/"),
+    r"C:\Users\klein\financial-charts",
+    "C:/Users/klein/financial-charts",
+}
+
+
+RUNTIME_ONLY_LINE_PATTERNS = [
+    re.compile(r"^\s*Set-Location\s+\.\s*$"),
+    re.compile(r"^\s*Get-Content\s+CLAUDE\.md\s*$"),
+]
+
+
+RUNTIME_ONLY_SENTENCES = [
+    " Before reading or writing vault files, run `Set-Location .` and read `CLAUDE.md`.",
+]
+
+
+def normalize_repo_paths(text: str) -> str:
+    """Collapse runtime-specific absolute repo paths into repo-relative paths."""
+    normalized = text
+    for root in sorted(REPO_ROOT_VARIANTS, key=len, reverse=True):
+        normalized = normalized.replace(f"{root}\\", "")
+        normalized = normalized.replace(f"{root}/", "")
+        normalized = normalized.replace(root, ".")
+    return normalized.replace("\\", "/")
+
+
+def semantic_text(path: Path) -> str:
+    """
+    Normalize only differences that should not change workflow meaning.
+
+    OpenClaw ports may need absolute repo paths, shell setup lines, and ASCII-safe
+    punctuation. After removing those runtime details, adapted ports should still
+    say the same thing as the Codex/Claude source.
+    """
+    text = read_normalized_text(path).translate(TYPOGRAPHIC_EQUIVALENTS)
+    text = normalize_repo_paths(text)
+
+    lines: list[str] = []
+    for line in text.split("\n"):
+        for sentence in RUNTIME_ONLY_SENTENCES:
+            line = line.replace(sentence, "")
+        line = re.sub(r" for the investing vault at `\.`", "", line)
+        line = re.sub(r" from `\.`", "", line)
+        line = re.sub(r" at `\.`", "", line)
+        line = line.rstrip()
+        if any(pattern.match(line) for pattern in RUNTIME_ONLY_LINE_PATTERNS):
+            continue
+        lines.append(line)
+
+    return "\n".join(lines)
+
+
+def semantic_digest(path: Path) -> tuple[str, int]:
+    normalized = semantic_text(path)
+    digest = hashlib.sha256(normalized.encode("utf-8")).hexdigest()
+    return digest, len(normalized.splitlines())
+
+
+def first_semantic_diff(left: SkillFile, right: SkillFile, limit: int = 8) -> list[str]:
+    """Return a small normalized diff preview for diagnostics."""
+    diff = difflib.unified_diff(
+        semantic_text(left.path).splitlines(),
+        semantic_text(right.path).splitlines(),
+        fromfile=str(left.path),
+        tofile=str(right.path),
+        lineterm="",
+        n=2,
+    )
+    lines: list[str] = []
+    for line in diff:
+        lines.append(line)
+        if len(lines) >= limit:
+            break
+    return lines
 
 
 def discover(root: Path) -> dict[str, SkillFile]:
@@ -61,7 +162,8 @@ def discover(root: Path) -> dict[str, SkillFile]:
         if not child.is_dir() or not skill_file.exists():
             continue
         digest, lines = normalized_digest(skill_file)
-        skills[child.name] = SkillFile(skill_file, digest, lines)
+        sem_digest, sem_lines = semantic_digest(skill_file)
+        skills[child.name] = SkillFile(skill_file, digest, sem_digest, lines, sem_lines)
     return skills
 
 
@@ -126,6 +228,7 @@ def status_for(name: str, inventory: dict[str, dict[str, SkillFile]]) -> dict[st
     codex = entries.get("codex")
     claude = entries.get("claude")
     openclaw = entries.get("openclaw")
+    canonical = codex or claude
 
     codex_claude = "n/a"
     if codex and claude:
@@ -142,10 +245,30 @@ def status_for(name: str, inventory: dict[str, dict[str, SkillFile]]) -> dict[st
         else:
             openclaw_status = "different"
 
+    openclaw_semantic = "skipped"
+    semantic_diff: list[str] = []
+    if "openclaw" in inventory and not openclaw:
+        openclaw_semantic = "missing"
+    elif openclaw and canonical:
+        if openclaw.semantic_digest == canonical.semantic_digest:
+            openclaw_semantic = "same"
+        else:
+            openclaw_semantic = "different"
+            semantic_diff = first_semantic_diff(canonical, openclaw)
+    elif openclaw:
+        openclaw_semantic = "n/a"
+
     hashes = {
         runtime: item.digest[:12] if item else None for runtime, item in entries.items()
     }
+    semantic_hashes = {
+        runtime: item.semantic_digest[:12] if item else None
+        for runtime, item in entries.items()
+    }
     lines = {runtime: item.lines if item else None for runtime, item in entries.items()}
+    semantic_lines = {
+        runtime: item.semantic_lines if item else None for runtime, item in entries.items()
+    }
     paths = {runtime: str(item.path) if item else None for runtime, item in entries.items()}
 
     return {
@@ -154,9 +277,13 @@ def status_for(name: str, inventory: dict[str, dict[str, SkillFile]]) -> dict[st
         "missing": missing,
         "codex_claude": codex_claude,
         "openclaw_status": openclaw_status,
+        "openclaw_semantic": openclaw_semantic,
         "hashes": hashes,
+        "semantic_hashes": semantic_hashes,
         "lines": lines,
+        "semantic_lines": semantic_lines,
         "paths": paths,
+        "semantic_diff": semantic_diff,
     }
 
 
@@ -215,6 +342,9 @@ def build_report(args: argparse.Namespace) -> dict[str, Any]:
         if item["openclaw_status"] == "different"
         and item["name"] in adapted_openclaw
     ]
+    openclaw_semantic_drift = [
+        item["name"] for item in skills if item["openclaw_semantic"] == "different"
+    ]
 
     return {
         "runtime_roots": {runtime: str(root) for runtime, root in runtime_roots.items()},
@@ -231,6 +361,7 @@ def build_report(args: argparse.Namespace) -> dict[str, Any]:
             "missing_by_runtime": missing_by_runtime,
             "codex_claude_drift": codex_claude_drift,
             "openclaw_adapted": openclaw_adapted,
+            "openclaw_semantic_drift": openclaw_semantic_drift,
             "openclaw_unexpected_drift": openclaw_unexpected_drift,
         },
     }
@@ -256,7 +387,7 @@ def print_text_report(report: dict[str, Any]) -> None:
 
     header = (
         f"{'Skill':24} {'Codex':7} {'Claude':7} {'OpenClaw':9} "
-        f"{'Codex/Claude':13} {'OpenClaw compare'}"
+        f"{'Codex/Claude':13} {'OpenClaw compare':17} {'Semantic'}"
     )
     print(header)
     print("-" * len(header))
@@ -273,7 +404,8 @@ def print_text_report(report: dict[str, Any]) -> None:
             openclaw_status = "adapted"
         print(
             f"{item['name']:24} {codex:7} {claude:7} {openclaw:9} "
-            f"{item['codex_claude']:13} {openclaw_status}"
+            f"{item['codex_claude']:13} {openclaw_status:17} "
+            f"{item['openclaw_semantic']}"
         )
 
     print()
@@ -286,7 +418,10 @@ def print_text_report(report: dict[str, Any]) -> None:
         print_list(f"Missing in {runtime}", values)
     print_list("Codex/Claude drift", summary["codex_claude_drift"])
     print_list("OpenClaw adapted ports", summary["openclaw_adapted"])
+    print_list("OpenClaw semantic drift", summary["openclaw_semantic_drift"])
     print_list("OpenClaw unexpected drift", summary["openclaw_unexpected_drift"])
+    if summary["openclaw_semantic_drift"]:
+        print("Semantic drift previews are available with --json.")
 
 
 def has_strict_failures(report: dict[str, Any]) -> bool:
@@ -295,6 +430,7 @@ def has_strict_failures(report: dict[str, Any]) -> bool:
     return bool(
         has_missing
         or summary["codex_claude_drift"]
+        or summary["openclaw_semantic_drift"]
         or summary["openclaw_unexpected_drift"]
     )
 

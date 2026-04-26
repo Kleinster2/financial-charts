@@ -271,6 +271,49 @@ The household spending chart quantifies the vulnerability dispersion: [[Indonesi
 
 ---
 
+## Iranian agricultural exports — pistachios (FT, Apr 26 2026)
+
+*Source: FT, Susannah Savage, Apr 26 2026.*
+
+[[Pistachio market]] prices reached an 8-year high, with the [[Expana]] benchmark for US pistachios at $4.57/lb in March 2026 — the highest since 2018. The cause stack is the same as elsewhere in this cascade: pre-existing supply tightness (drought-impaired 2025 [[Iran]] crop, below-expectation harvests in [[US]] and [[Turkey]]) compounded by [[Operation Epic Fury|2026 conflict]] disruption to Iranian export logistics.
+
+| Metric | Value | Source |
+|---|---|---|
+| [[Iran]] share of global production | ~20% | [[USDA]] |
+| [[Iran]] share of global exports | 25–30% (some years) | [[USDA]] |
+| [[US]] share of global production | ~40% | [[USDA]] |
+| [[Iran]] exports past two months | -30% YoY | Iranian customs administration |
+| Expana benchmark US pistachio price (Mar 2026) | $4.57/lb | [[Expana]] |
+| Prior 8-year high | 2018 | [[Expana]] |
+| UK import price ([[Borna Foods]]) | £16/kg → £18.50/kg | FT |
+
+![[expana-pistachio-prices-ft-apr2026.png]]
+*[[Expana]] benchmark prices for US pistachios ($/lb), 2011–early 2026. Mar 2026 print at $4.57/lb is the highest since 2018; the 2024 trough was the lowest in over a decade. Source: [[Expana]] via [[FT]] (Apr 26 2026).*
+
+### Why pistachios are diagnostic
+
+Most disrupted goods can be sourced from elsewhere with a price premium. Iranian pistachios cannot. [[Borna Foods]] CEO Behnam Heydaripour: Iranian pistachios contain higher oil content than US or Turkish equivalents, which matters for products like baklava (US substitutes burn dry in the oven) and for high-end confectionery. US producers — who supply ~40% of global production — have already sold most of their available 2025–26 inventory and cannot fill the substitution gap even at higher prices.
+
+Demand is also structurally elevated since the 2023 viral spread of "Dubai chocolate" — pistachio-cream-and-shredded-pastry bars — pulled pistachio into mainstream confectionery. Borna flagged summer ice-cream demand as the next pinch point.
+
+### Logistics — Bandar Abbas disrupted, alternatives slower
+
+| Route | Status | Cost / time impact |
+|---|---|---|
+| [[Iran]] → [[Bandar Abbas]] → global (preferred) | Severely disrupted | n/a |
+| [[Iran]] → [[Turkey]] → [[Mersin]] port → [[Suez Canal]] → India | Active | "Significantly more expensive and time-consuming" |
+| [[Iran]] → rail → China | Active | "Costly and complicated" |
+
+Behrooz Agah (Iran Pistachio Association): the war severely disrupted the main export route through [[Bandar Abbas]] on the [[Strait of Hormuz]]. Periodic communications shutdowns inside [[Iran]] — distinct from the war — have made it harder for Iranian exporters to coordinate sales with international buyers, slowing the flow even before fighting began. Heydaripour: "It's difficult to talk to the suppliers in Iran as their internet has been shut down. They can't reply to emails."
+
+Nick Moss ([[Expana]]): "The war has amplified existing constraints rather than creating new ones from scratch." Issues "stacking on top of each other." Disruption "manageable for now," but with "material impacts on timing and costs." If Iranian product remains inaccessible for a prolonged period, "prices could face continued upward pressure."
+
+### Read
+
+The pistachio story is the small-commodity tell on the larger cascade — the war is now visible in items as quotidian as pistachio cream, not just oil and gas. Heydaripour: "Iranians always find a way." See [[Pistachio market]] for the standalone concept note and the full producer / route / demand context.
+
+---
+
 ## Global trade flow diversions — physical rerouting (Wiggen, March 23)
 
 *Source: [[Nadia Martin Wiggen]], [[Stellen Capital]], Other People's Money / Monetary Matters Network, March 23, 2026.*

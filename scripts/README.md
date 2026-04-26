@@ -35,6 +35,8 @@ Daily-use and core module scripts remain in the repo root:
 - `download_*.py` - Data downloaders
 - `fetch_*.py` - Data fetchers
 - `constants.py`, `metadata_utils.py` - Shared config/utilities
-- `check_skill_parity.py` - Verify shared workflow skills across Codex, Claude Code, and OpenClaw using `skills/shared-workflows.json`
+- `check_skill_parity.py` - Verify shared workflow skills across Codex, Claude Code, and OpenClaw using `skills/shared-workflows.json`, including semantic drift checks for adapted OpenClaw ports
+- `daily_note_log_gate.py` - Verify staged investing notes are linked in the session daily note before commit
+- `promote_shared_skill.py` - Promote the intended shared workflow skill copy from Claude, Codex, OpenClaw, or the newest runtime into all runtimes
 - `skill_manifest.py` - Shared manifest loader for skill sync/parity scripts
-- `sync_codex_skills.py` - Copy repo workflow skills from `.claude/skills` into `.agents/skills` for Codex discovery using `skills/shared-workflows.json`
+- `sync_codex_skills.py` - Legacy helper that copies repo workflow skills from `.claude/skills` into `.agents/skills`

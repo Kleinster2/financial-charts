@@ -44,6 +44,9 @@ parent_concept: "AI accelerators"
 | TPU v5e | 2023 | Cost-optimized, inference focus |
 | TPU v5p | 2023 | Performance flagship, 459 TFLOPS |
 | TPU v6 (Trillium) | 2024 | 4.7x v5e performance |
+| TPU v7 | Late 2025 | Reached ~94% of [[NVIDIA]] GB200 BF16 TFLOPS (first TPU at NVIDIA parity) |
+| **TPU 8t** (8th gen, training) | Unveiled Apr 22, 2026 (Cloud Next 2026, Las Vegas) | Specialised for training AI models |
+| **TPU 8i** (8th gen, inference) | Unveiled Apr 22, 2026 (Cloud Next 2026, Las Vegas) | More memory to run AI systems faster — designed for inference at scale, the agentic-era split |
 
 ---
 
@@ -138,6 +141,49 @@ Pricing (v5e): ~$1.20/chip/hour on-demand, ~$0.80 spot.
 | [[Trainium]] | More workload types | Trainium cheaper on AWS |
 
 Key limitation: TPUs only available on Google Cloud. No on-premise, no other clouds.
+
+---
+
+## Apr 22, 2026: 8th-gen unveiling at Cloud Next 2026, Las Vegas
+
+At Google Cloud Next 2026 in Las Vegas (Apr 22 2026), [[Google Cloud]] unveiled the 8th generation of the TPU line as two distinct chips:
+
+- **TPU 8t** — training-optimised, the successor to TPU v7 ("Ironwood") at the frontier-training tier.
+- **TPU 8i** — inference-optimised with more memory, designed for the agentic-era inference workload.
+
+The split-purpose design tracks the broader industry move from a single all-purpose chip toward dedicated training-vs-inference silicon (see [[Training-inference convergence]]).
+
+### Customer roster as named at Cloud Next 2026
+
+[[Google Cloud]] CEO [[Thomas Kurian]] said nine of the top ten AI labs use TPUs. The publicly named or publicly disclosed customer set as of Apr 2026:
+
+| Customer | Status |
+|---|---|
+| [[Anthropic]] | Largest external TPU customer; Apr 2026 deal expanded to "up to one million TPUs" plus 5 GW Google Cloud capacity over 5 years |
+| [[Apple]] | Apple Intelligence training partly on TPU (publicly disclosed) |
+| [[Meta]] | Multibillion-dollar multiyear deal signed Feb 2026 |
+| [[OpenAI]] | Now taking TPU capacity in 2026 (despite [[Microsoft]] cloud relationship) |
+| [[Safe Superintelligence]] | Named at Cloud Next 2026 |
+| [[Thinking Machines Lab]] | Named by Kurian in [[FT]] interview |
+| [[Midjourney]] | Named at Cloud Next 2026 |
+| [[Salesforce]] | Named at Cloud Next 2026 |
+| [[Figma]] | Named at Cloud Next 2026 |
+| [[Palo Alto Networks]] | Named at Cloud Next 2026 |
+| [[Cursor]] | Named at Cloud Next 2026 |
+| [[Citadel Securities]] | Quant research workflows on TPU |
+| All 17 [[US]] DoE national labs | AI co-scientist software on TPU |
+
+Kurian said only [[NVIDIA]] currently rivals Google's combination of integrated AI hardware and software at frontier scale.
+
+### Huang counter and the data fight
+
+[[NVIDIA]] CEO [[Jensen Huang]] criticised Google for not submitting TPUs to independent benchmark tests, and claimed "100 per cent" of TPU demand comes from [[Anthropic]]. The Cloud Next 2026 customer roster directly contradicts the "100% Anthropic" framing — [[Apple]], [[Meta]], [[OpenAI]], [[Safe Superintelligence]], [[Thinking Machines Lab]], [[Midjourney]], [[Salesforce]], [[Figma]], [[Palo Alto Networks]], and [[Cursor]] are all separately disclosed.
+
+Huang's narrower point on independent benchmarking remains live: TPU 8t / 8i have not yet been submitted to MLPerf. The chip-spec dispute is real even when the customer-share dispute is resolved.
+
+According to an [[Epoch AI]] estimate cited by [[FT]] (Apr 2026), Google now controls roughly 25% of global AI computing power — about 3.8M TPUs and about 1.3M GPUs — versus [[Microsoft]]'s ~3.2M [[NVIDIA]] GPUs.
+
+*Sources: FT, Apr 26 2026; Google Cloud Next 2026 keynote, Apr 22 2026; CNBC, TechCrunch, Digitimes (Apr 22-23 2026); SemiAnalysis on TPUv7→8 lineage.*
 
 ---
 

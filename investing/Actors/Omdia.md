@@ -24,6 +24,7 @@ Cited source for GPU shipment and semiconductor data:
 | **2024 Hopper GPU shipments** | [[ByteDance]] ~250K, [[Tencent]] ~220K, [[Microsoft]] ~485K |
 | Foundry market share | TSMC, Samsung, [[SMIC]] rankings |
 | Display shipments | Samsung, LG, BOE volumes |
+| **Xiaomi Europe push (Apr 2026)** | Chris Liu: "A lot of their competitiveness is tied to China's ecosystem and that's not easily portable to Europe" — flags loss of supplier-coordination advantages in European market entry |
 
 ---
 

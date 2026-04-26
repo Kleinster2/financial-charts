@@ -125,6 +125,29 @@ Applies to "high-risk" AI systems making consequential decisions about:
 | Opt-out rights | For high-risk applications |
 | Risk disclosure | Known and foreseeable risks |
 
+### Diversity carve-out
+
+The Colorado statute's definition of "algorithmic discrimination" explicitly excludes biases designed to "increase diversity or redress historical discrimination." Substantively that means an AI system using a protected-class adjustment in service of those goals is not, by definition, engaging in unlawful algorithmic discrimination under the Colorado framework. The carve-out is unusual: most AI laws either defer to existing anti-discrimination law on the question of permissible positive discrimination or are silent. Colorado writes the carve-out into the statute itself.
+
+This drafting choice is the central focus of [[xAI]]'s April 2026 First Amendment challenge.
+
+### xAI lawsuit (Apr 2026)
+
+In April 2026, [[xAI]] sued the state of [[Colorado]] over the Colorado AI Act. The complaint advances two arguments:
+
+1. **First Amendment / forced speech.** xAI argues the law forces it to change [[Grok]] to incorporate "the controversial viewpoints of legislators," infringing the company's speech rights.
+2. **Viewpoint non-neutrality.** xAI argues the diversity / historical-discrimination carve-out is evidence that the statute embeds a particular set of values into permissible AI behavior — making the law a content-based regulation of protected speech rather than a neutral anti-discrimination rule.
+
+The narrowest legal effect of the law on xAI, if upheld, is that [[Grok]] cannot be used by Colorado deployers for allocation decisions in the listed sectors (education, housing, healthcare, credit, employment, plus certain government services) without complying with the law's transparency, duty-of-care, and impact-assessment requirements.
+
+Reading the suit alongside the federal-preemption push: xAI's case lines up with the [[Trump II]]-era position that a patchwork of state AI laws is itself the compliance harm and that a "lightweight federal standard" is preferable to ~1,200 simultaneous state bills. Whether the case prevails or settles, the effect of filing is to slow Colorado enforcement against any model whose developer mounts a First Amendment defense — and to give the federal preemption argument new political momentum.
+
+The [[FT]] op-ed by Martin Sandbu (Apr 26 2026) sharpened the deeper question raised by the suit: AI allocation decisions in regulated sectors generally have to satisfy the public-justification requirement that applies to other allocations of housing, credit, employment, and care. "My AI said so" is not, on its own, an adequate justification under the rule of law. The open question is whether [[LLMs]] like [[Grok]] can themselves produce reasons that clear that bar, even when they output a "trace" of their reasoning. Sandbu's argument — drawing on Habermas and Rawls — is that justification implies recognition of the recipient as an equal, which a chain-of-thought trace does not on its own provide.
+
+This is the kind of doctrinal question the Colorado litigation is the first to put squarely in front of a US court.
+
+*Source: FT, Apr 26 2026 (Sandbu).*
+
 ---
 
 ## California AI laws (2026)

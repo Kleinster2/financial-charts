@@ -145,8 +145,9 @@ The front end of the yield curve is pricing no cuts. Rieder views this as "well 
 | Current chair | [[Jerome Powell]] — term ends May 15, 2026 |
 | Trump stance | Will not reappoint Powell |
 | Nominee | [[Kevin Warsh]] (Jan 30, 2026) |
-| Confirmation | Pending Senate |
-| Powell on staying | Will remain temporarily if Warsh not confirmed by May; won't leave board until DOJ HQ probe resolved |
+| Confirmation | Pending Senate; DOJ probe of Powell closed Apr 24, 2026 ([[Jeanine Pirro]]) — reservation language leaves reopen risk |
+| Powell on staying | Will remain temporarily if Warsh not confirmed by May; may stay on as Governor through Jan 2028 to support Warsh transition |
+| [[Polymarket]] Warsh-by-May-15 | 82% (Apr 24, post-Pirro) |
 
 ### Warsh nomination (Jan 30, 2026)
 

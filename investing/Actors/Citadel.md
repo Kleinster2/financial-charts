@@ -119,6 +119,7 @@ Pod shop structure with strict risk limits.
 | HF profit (early 2026) | **$5B** returned to investors (CNBC) |
 | Casino complex | **$8.1B** Hard Rock/Citi Field plan approved by NY gaming commission (Dec 2025) |
 | [[Citadel Securities]] | Retail trading boom has been "great" for market-making arm |
+| NYC pushback (Apr 2026) | Considering halting NYC plans after [[Zohran Mamdani]] millionaire-surtax announcement; the Citadel announcement video reportedly featured a $38M apartment in the background. See [[Wealth tax]]. |
 
 The GameStop saga principals have done well five years later: Griffin's hedge fund continues to compound, and the retail trading boom it sparked benefits [[Citadel Securities]]' flow business.
 

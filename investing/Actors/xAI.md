@@ -502,6 +502,27 @@ Shotwell: "I've been in the space industry for nearly 40 years... I have never s
 
 ---
 
+## Colorado AI Act lawsuit (Apr 2026)
+
+In April 2026, xAI sued the state of [[Colorado]] over the [[Colorado AI Act]] (effective Jun 30 2026) — a state law targeting algorithmic discrimination in AI systems used to allocate education, housing, healthcare, credit, and employment, plus certain government services.
+
+xAI's legal arguments, per the complaint:
+
+- **First Amendment / forced speech:** xAI claims the law infringes the company's free-speech rights because it would force Grok to incorporate "the controversial viewpoints of legislators."
+- **Operational impact:** xAI argues the law would force it to change Grok's behavior to comply, in particular around how the model handles allocation decisions in the listed sectors.
+
+The complaint is also notably focused on the law's carve-out — Colorado's definition of "algorithmic discrimination" excludes biases designed to "increase diversity or redress historical discrimination." xAI's brief treats this exclusion as evidence that the statute is not viewpoint-neutral and is instead embedding a particular set of values into permitted AI behavior.
+
+Politically the suit puts xAI alongside the Trump administration's federal-preemption push (see [[AI regulation]]) — which favors a single national framework over the patchwork of state AI laws now in flight. Colorado has so far defied that push.
+
+[[FT]] columnist Martin Sandbu (Apr 26 2026) read the suit as a stress test of whether AI-driven decisions in regulated sectors must satisfy the standard public-justification requirement that applies to all other allocation decisions, and whether [[LLMs]] like [[Grok]] can themselves provide reasons sufficient to clear that bar. Sandbu's framing: "my AI said so" has so far not been treated as sufficient justification under the rule of law, even when allocations are made by automated systems.
+
+For the regulatory landscape and the Colorado statute itself see [[AI regulation]]. For Grok product behavior see [[Grok]].
+
+*Source: FT, Apr 26 2026.*
+
+---
+
 ## For theses
 
 [[AI capex arms race]]: Poster child of brutal AI economics (~$1B/mo burn)

@@ -97,6 +97,29 @@ This extends Moody's January AI bubble report — the same $3T data centre build
 
 ---
 
+## Pinto on BDC asset quality (Apr 24, 2026)
+
+[[Marc Pinto]] (Bloomberg Real Yield, Apr 24, 2026) on the unfolding [[Private credit retail liquidity crisis 2026]]:
+
+**BDC asset-quality split:**
+
+| Structure | Troubled-borrower share | Direction |
+|---|---|---|
+| Non-traded perpetual BDCs | 0.5% | Stable |
+| Traded BDCs | 2.0% | Down from 2.5% |
+
+Pinto reads this as "asset-quality good" with normalization / mean-reversion over time — not a massive spike. Q3-Q4 2026 is the window for a more meaningful move. Liquidity stress is mostly past: *"the BDCs have taken a licking but keep on ticking."*
+
+**Software concentration and the maturity wall:**
+Average 25% software concentration; software borrowers have largely refinanced into 2028-29. Pinto expects the credit cycle to play out *slower* in fixed income than what equity markets have already priced in. When the wall hits, lenders will fork — refinance credits where the investment thesis holds, or exit and force restructuring.
+
+**Retail expansion:**
+Last five years have seen an estimated **$200B–$400B** of retail money flow into private credit. Pinto expects post-crisis disclosure and discipline tightening: *"more transparency, more discipline, more direction."*
+
+This complements the January AI-bubble report and February data-centre accounting-gap warning: the same alt-credit ecosystem now has *three* layers of risk Moody's is publicly mapping — valuation, accounting, and now retail-liquidity / refinancing.
+
+---
+
 ## Business segments
 
 | Segment | Description |
@@ -150,6 +173,8 @@ This extends Moody's January AI bubble report — the same $3T data centre build
 - [[S&P Global]] — peer (ratings, indices)
 - [[AI infrastructure financing]] — data center investment research
 - [[Basis trade]] — credit risk research
-- [[Private credit]] — indirect bank exposure concern
+- [[Private credit]] — indirect bank exposure concern; [[Marc Pinto]] BDC tracking
+- [[Marc Pinto]] — senior credit analyst, private credit / BDCs
+- [[Private credit retail liquidity crisis 2026]] — Pinto Apr 24 2026 BDC asset quality
 - [[Goldman Sachs]] — bank exposure to AI lending
 - [[Morgan Stanley]] — bank exposure to AI lending

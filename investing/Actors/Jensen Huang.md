@@ -89,6 +89,20 @@ See [[Export controls]] for the full policy context and [[Huawei]] for the China
 
 ---
 
+## TPU benchmarking critique (Apr 2026)
+
+Around Google's Apr 22 2026 Cloud Next 2026 unveiling of TPU 8t (training) and TPU 8i (inference), Jensen publicly criticised [[Google]] for not submitting TPUs to independent benchmark tests, casting doubt on performance and efficiency claims. He also said "100 per cent" of TPU demand comes from [[Anthropic]], implying the rest of the customer base does not represent free competitive choice.
+
+The Cloud Next 2026 customer roster directly contradicts the "100 per cent Anthropic" framing — [[Apple]], [[Meta]] (multibillion-dollar Feb 2026 deal), [[OpenAI]] (now taking TPU capacity), [[Safe Superintelligence]], [[Thinking Machines Lab]] ([[Mira Murati]]), [[Midjourney]], [[Salesforce]], [[Figma]], [[Palo Alto Networks]], [[Cursor]], [[Citadel Securities]], and the 17 US DoE national labs are all separately disclosed as TPU customers. [[Anthropic]] is the largest external customer in dollar terms, but it is not the only one.
+
+The narrower part of Huang's critique — that TPU 8t / 8i have not been submitted to MLPerf or equivalent independent suites — remains live. The chip-spec dispute is real even when the customer-share dispute is settled. As long as Google declines to publish independently audited benchmarks, NVIDIA can press the throughput / efficiency argument credibly.
+
+For the full customer list and competitive structure see [[Google TPU Competitive Position]] and [[TPU]].
+
+*Sources: FT, Apr 26 2026; Google Cloud Next 2026 keynote, Apr 22 2026.*
+
+---
+
 ## Five-layer cake — reinforced
 
 Jensen reuses the Davos Jan 2026 framing (electrons → chips → infrastructure → models → applications) as the analytical scaffold for multiple 2026 public appearances, including the Dwarkesh interview. The framework is now his default lens for:

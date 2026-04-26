@@ -129,6 +129,14 @@ Musk's bet: raw compute scale + X distribution = AI dominance.
 
 ---
 
+## Colorado AI Act lawsuit (Apr 2026)
+
+In April 2026, parent [[xAI]] sued the state of [[Colorado]] over the [[Colorado AI Act]] (effective Jun 30 2026). xAI argues the law would force it to change Grok's behavior to comply, that the requirement is a First Amendment violation, and that the law's diversity / historical-discrimination carve-out is evidence the statute is not viewpoint-neutral. If the law is upheld, Colorado deployers cannot use Grok for allocation decisions in education, housing, healthcare, credit, or employment without complying with the law's transparency, duty-of-care, and impact-assessment requirements.
+
+For the legal arguments and federal-preemption context see [[xAI]]'s Colorado section and [[AI regulation]]. For the broader framing of whether [[LLMs]] can satisfy the public-justification requirement that applies to allocation decisions in regulated sectors, see [[AI regulation]] and Martin Sandbu's Apr 26 2026 [[FT]] op-ed.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

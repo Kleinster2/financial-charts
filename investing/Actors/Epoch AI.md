@@ -17,7 +17,22 @@ tags: [actor, research, ai, stub]
 | Focus | AI compute trends, forecasting |
 | GPU clusters tracked | 500+ |
 | Key datasets | AI models, GPU clusters, frontier data centers |
-| Notable output | Inference price deflation tracking (9-900x/yr) |
+| Notable output | Inference price deflation tracking (9-900x/yr); global compute-share estimates |
+
+---
+
+## Apr 2026: global AI compute-share estimate
+
+In April 2026, Epoch published an estimate (cited by [[FT]] alongside [[Google Cloud]]'s 8th-generation [[TPU]] unveiling) that:
+
+- **[[Google]] controls roughly 25% of global AI computing power**, comprising **~3.8M TPUs and ~1.3M GPUs**.
+- **[[Microsoft]] is the next-largest holder at ~3.2M [[NVIDIA]] GPUs.**
+
+This is the first publicly cited like-for-like compute-share comparison between hyperscalers and is the cleanest single data point underpinning the "Google is closing the AI gap with Microsoft and Amazon" thesis.
+
+For context see [[Google TPU Competitive Position]] and [[Hyperscaler capex]].
+
+*Source: FT, Apr 26 2026.*
 
 ---
 

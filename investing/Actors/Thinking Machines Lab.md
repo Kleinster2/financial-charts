@@ -98,6 +98,16 @@ Enterprise fine-tuning as a service.
 
 ---
 
+## TPU customer (Apr 2026)
+
+Around Google's Apr 2026 8th-generation [[TPU]] unveiling, [[Thomas Kurian]] ([[Google Cloud]] CEO) named Thinking Machines Lab among the nine of ten top AI labs that use TPUs. Confirms TML is running at least part of its training workload on [[Google]] silicon rather than [[NVIDIA]] alone. Detail not given on whether the relationship is exclusive, contracted, or evaluation-stage.
+
+For the broader context see [[Google TPU Competitive Position]] and [[TPU]].
+
+*Source: FT, Apr 26 2026.*
+
+---
+
 ## Governance
 
 **Founder-controlled:**

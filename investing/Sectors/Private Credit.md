@@ -125,7 +125,7 @@ Competition between banks and private credit may encourage riskier deals ([[Mood
 | Robert A Stanger & Co. | BDC flow tracking, redemption data |
 | PitchBook LCD | Loan data, PIK tracking |
 | [[S&P Global]] | Ratings, CLO data |
-| [[Moody's]] | BDC ratings |
+| [[Moody's]] | BDC ratings; [[Marc Pinto]] tracking asset quality |
 | Deutsche Bank (Steve Caprio) | Software concentration research |
 
 ---
@@ -166,7 +166,9 @@ The retail model is breaking. After 5 years of selling illiquid loans as "bond a
 | ARCC ([[Ares Management]]) | $26B+ | 🟡 **11.6% Q1 requests** — capped at 5% |
 | OBDC ([[Blue Owl]]) | $16B+ | 🟡 Watching |
 
-**Latest escalation (Apr 10):** FT comprehensive Q1 tracking: **$20bn+** attempted withdrawals from 12+ funds managing $300B+ combined. ~$11bn returned; [[BlackRock]]/[[HPS Investment Partners|HPS]], [[Apollo]], [[Ares Management|Ares]], [[Blue Owl]], [[Cliffwater]], [[Morgan Stanley]] all restricted outflows. Obenshain (Verdad): *"first chapter in most credit cycles."* [[Blackstone]] published "Myth vs. Fact" counter-narrative. See firm-by-firm chart in [[Private credit retail liquidity crisis 2026#Q1 2026 firm-level redemptions]].
+**Latest escalation (Apr 24):** [[Jonathan Lewinsohn]] ([[Diameter Capital]] co-founder, Bloomberg, week of Apr 20, replayed Real Yield Apr 24) compared the redemption stress to Lehman-era bank runs — *"there is a reckoning threatening... private credit doesn't have a liability mismatch. We have the opportunity to buy loans being sold."* Same broadcast: [[Marc Pinto]] ([[Moody's]]) framed BDC asset quality as bifurcated — non-traded perpetual BDCs at **0.5%** troubled-borrower share, traded BDCs at **2.0%** (down from 2.5%) — and signalled that the fixed-income leg of this cycle will play out *slower* than the equity selloff has already priced. Q3-Q4 2026 is Pinto's window for more meaningful credit deterioration. Pinto: liquidity stress is mostly past, *"the BDCs have taken a licking but keep on ticking."*
+
+**Prior escalation (Apr 10):** FT comprehensive Q1 tracking: **$20bn+** attempted withdrawals from 12+ funds managing $300B+ combined. ~$11bn returned; [[BlackRock]]/[[HPS Investment Partners|HPS]], [[Apollo]], [[Ares Management|Ares]], [[Blue Owl]], [[Cliffwater]], [[Morgan Stanley]] all restricted outflows. Obenshain (Verdad): *"first chapter in most credit cycles."* [[Blackstone]] published "Myth vs. Fact" counter-narrative. See firm-by-firm chart in [[Private credit retail liquidity crisis 2026#Q1 2026 firm-level redemptions]].
 
 **Prior escalation (Apr 2):** [[Blue Owl]] OTIC/OCIC report record redemption requests — 40.7% and 21.9% respectively. Combined ~$5.4B attempted withdrawals. [[KKR]] K-FIT also gated (Apr 1). House Financial Services Committee Democrats sent questions to [[Blackstone]], [[Ares Management|Ares]], and rivals. [[Morgan Stanley]] forecasts annual private credit defaults of **8%** (H2 2026–H1 2027), led by software. [[Jerome Powell|Fed Chair Powell]] (Mar 30): *"has not seen anything"* threatening the financial system but is watching. Combined alt manager YTD market cap loss: **$132B** (Reuters).
 

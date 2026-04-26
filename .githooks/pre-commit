@@ -1,0 +1,28 @@
+#!/bin/sh
+set -eu
+
+changed_files="$(git diff --cached --name-only)"
+
+if printf '%s\n' "$changed_files" | grep -Eq '^(\.claude/skills/[^/]+/SKILL\.md|\.agents/skills/[^/]+/SKILL\.md|skills/shared-workflows\.json|scripts/(check_skill_parity|promote_shared_skill|sync_codex_skills|skill_manifest)\.py)$'; then
+  echo "Skill workflow files changed; checking exact and semantic skill parity..."
+
+  if ! npm run test:consistency; then
+    cat <<'MSG'
+
+Skill parity check failed.
+If one runtime has the intended workflow text, promote it everywhere:
+  python scripts/promote_shared_skill.py SKILL --from newest
+or use --from claude, --from codex, or --from openclaw when the source is explicit.
+
+If OpenClaw semantic drift is reported, either move the workflow change back
+into the Claude/Codex source and resync, or remove it from the OpenClaw port.
+Then stage the synced files and retry the commit.
+MSG
+    exit 1
+  fi
+fi
+
+if printf '%s\n' "$changed_files" | grep -Eq '^investing/.*\.md$'; then
+  echo "Investing vault notes changed; checking daily-note log..."
+  python scripts/daily_note_log_gate.py --staged
+fi

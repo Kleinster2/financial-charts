@@ -92,6 +92,61 @@ Google has also been criticized for not booking enough [[TSMC]] capacity overall
 
 ---
 
+## Apr 22, 2026: 8th-gen unveiling at Cloud Next 2026, customer roster, Epoch compute share
+
+At Google Cloud Next 2026 in Las Vegas (Apr 22 2026), [[Google Cloud]] unveiled the 8th generation of [[TPU]] as two distinct chips:
+
+- **TPU 8t** — training-optimised, the successor to TPU v7 ("Ironwood") at the frontier-training tier.
+- **TPU 8i** — inference-optimised with more memory, designed for the agentic-era inference workload.
+
+Split-purpose design is the headline architectural shift, tracking the industry move toward dedicated training-vs-inference silicon (see [[Training-inference convergence]]).
+
+### Customer roster (Cloud Next 2026 + FT)
+
+[[Thomas Kurian]] said nine of the top ten AI labs use [[TPU]]. The publicly named or publicly disclosed customer set as of Apr 2026:
+
+| Customer | Status |
+|---|---|
+| [[Anthropic]] | Largest external TPU customer; Apr 2026 deal "up to one million TPUs" plus 5 GW [[Google Cloud]] capacity over 5 years; [[Broadcom]]-fabricated supply through 2031 |
+| [[Apple]] | Apple Intelligence training partly on TPU |
+| [[Meta]] | Multibillion-dollar multiyear deal signed Feb 2026 — new development |
+| [[OpenAI]] | Now taking TPU capacity in 2026 — meaningfully revises the prior "Microsoft-exclusive" framing Kurian gave the FT |
+| [[Safe Superintelligence]] | Named at Cloud Next 2026 |
+| [[Thinking Machines Lab]] | Named by Kurian (FT) — confirms [[Mira Murati]]'s lab on TPU |
+| [[Midjourney]] | Named at Cloud Next 2026 |
+| [[Salesforce]] | Named at Cloud Next 2026 |
+| [[Figma]] | Named at Cloud Next 2026 |
+| [[Palo Alto Networks]] | Named at Cloud Next 2026 |
+| [[Cursor]] | Named at Cloud Next 2026 |
+| [[Citadel Securities]] | Quant research workflows on TPU |
+| All 17 [[US]] DoE national labs | AI co-scientist software on TPU |
+
+The roster directly contradicts [[Jensen Huang]]'s "100 per cent of TPU demand comes from [[Anthropic]]" framing. Anthropic is the largest external customer in dollar terms, but it is not the only one — multiple top-tier frontier labs and large enterprise buyers are publicly disclosed.
+
+### OpenAI on TPU is the more significant new datapoint
+
+[[Kurian]] told [[FT]] that [[OpenAI]] is excluded by [[Microsoft]] exclusivity. Independent reporting around [[Cloud Next 2026]] indicates [[OpenAI]] is now taking [[TPU]] capacity in 2026 anyway. If correct, that is a structural break in the [[OpenAI]] / [[Microsoft]] / [[Azure]] arrangement and a tail-risk to Microsoft's incumbent position in the most valuable AI customer relationship. Worth tracking through Q2/Q3 2026 reporting.
+
+### Epoch global compute share
+
+[[Epoch AI]] (cited by [[FT]]): [[Google]] now controls roughly **25% of global AI computing power**, comprising **~3.8M TPUs and ~1.3M GPUs**. [[Microsoft]] is the next largest holder at **~3.2M [[NVIDIA]] GPUs**. First publicly cited like-for-like compute-share comparison; the cleanest data point for the "Google is closing the AI gap" thesis.
+
+### Huang's narrower critique still lives
+
+Independent benchmark submission (MLPerf etc.) is the part of [[Jensen Huang]]'s critique that survives the customer-list contradiction. TPU 8t / 8i have not been submitted to MLPerf. Until they are, the chip-spec dispute is real even when the customer-share dispute is resolved. See [[Jensen Huang]] for the full rebuttal.
+
+### Internal tension on TPU allocation — corroborated
+
+Independent reporting around Cloud Next 2026 corroborates the earlier Neimucha/The Information account (Apr 7) of internal Google tension over [[TPU]] allocation between [[Google Cloud]] (under [[Thomas Kurian]]), [[Google DeepMind]] / [[Gemini]], and consumer-Google products. The structural reading: [[Kurian]] received expanded allocation authority that lets [[Google Cloud]] sell scarce [[TPU]] capacity directly to external customers — including the [[Anthropic]] anchor — rather than route through approval from another Google unit. This is the source of the tension: [[DeepMind]] and the [[Gemini]] team argue capacity allocated to a frontier rival is capacity not training their own next model.
+
+[[Sundar Pichai]] has framed [[Google Cloud]] as "one of the most important priorities for [[Alphabet]]," which reads as cover for the allocation decision rather than a resolution of the trade-off.
+
+[[FT]] Anthropic deal context: total Anthropic Google package now reads as ~$200B+ over five years (5 GW of [[Google Cloud]] capacity + up to $40B equity from [[Google]]), see [[Anthropic hyperscaler financing surge April 2026]] and [[Google Cloud]] for the deal mechanics.
+
+*Sources: FT, Apr 26 2026; Google Cloud Next 2026 keynote, Apr 22 2026; CNBC, TechCrunch, Digitimes (Apr 22-23 2026); SemiAnalysis (TPUv7 → TPU 8 lineage); The Information (internal tension reporting, Apr 7 + Apr 22-23); Stratechery / Ben Thompson interview with Kurian (Apr 2026).*
+
+---
+
 ## Related
 
 - [[TPU]] — product detail (architecture, versions, specs)

@@ -107,6 +107,35 @@ At the Apr 2026 Beijing Auto Show, [[Reuters]] framed Xiaomi as one of the clear
 
 The strategic point is that Xiaomi is not entering cars as a traditional automaker. It brings a consumer-electronics OS, phone/IoT ecosystem, [[MiMo-V2-Pro|MiMo]] model family, and EV hardware into one interface. That fits [[China AI Plus]] better than the old EV thesis: the car becomes a consumer AI endpoint, not just a battery on wheels.
 
+### Apr 2026: Europe entry, YU7 GT, and the Munich R&D center
+
+At the same Beijing Auto Show, [[Lei Jun]] announced the [[YU7 GT]] — Xiaomi's first vehicle developed with European engineers and the model the company is using to enter Europe. He said the YU7 GT "can match the standards of a top-tier German car." Launch is targeted for late May 2026.
+
+Xiaomi has not disclosed which European country it will enter first, but the FT confirmed that Xiaomi established an EV R&D center in [[Munich]] in 2025 with more than 75 engineers. CMO Xu Fei told international media: "The European market really matters to us. We would like to really provide products with better quality and high performance." Stated rivals: [[Tesla]], [[Porsche]], [[BMW]], [[Mercedes-Benz]].
+
+Cumulative deliveries since the [[SU7]] launch: ~650,000 vehicles in two years, which is on par with the number of [[Tesla]] vehicles sold in [[China]] in 2025.
+
+| Model | Launch | Pricing / positioning | Order signal |
+|---|---|---|---|
+| [[SU7]] | 2024 sedan | Speed Ultra 7 sports sedan | 50,000 orders in first 30 minutes |
+| [[YU7]] | 2025 SUV | $35,000; design references the [[Ferrari]] Purosangue; rivals Tesla Model Y | 200,000 pre-orders in three minutes at launch |
+| [[YU7 GT]] | Late May 2026 | Premium performance variant; first model from [[Munich]] R&D | TBD |
+
+Beijing factory throughput is now ~410,000 vehicles per year, one car every 76 seconds, with 91% automation and "autonomous mobile robots" moving parts. Demand still outstrips capacity.
+
+Analyst voices on the strategy:
+
+- Ernan Cui ([[Gavekal]]): China EV growth is slowing and "they need to find a growing market elsewhere" — Europe is "a rational decision." Notes Xiaomi has a stronger global sales channel than Chinese EV start-ups while its products are more competitive than legacy carmakers.
+- Lei Xing ([[AutoXing]]): main rivals will be Tesla, Porsche, BMW, and Mercedes-Benz; Xiaomi's consumer-electronics brand foundation in Europe is the advantage other Chinese brands lack.
+- Matthias Schmidt (Schmidt Automotive Research): "The rite of passage to enter the premium market is extremely long. Xiaomi can still be a success in Europe, but more likely at the expense of volume carmakers rather than German premiums." Q1 2026 share of Chinese brands in UK + Europe new-car sales: 8.6%, much lower in Germany and France.
+- Chris Liu ([[Omdia]]): "A lot of their competitiveness is tied to China's ecosystem and that's not easily portable to Europe" — flags loss of supplier-coordination advantages.
+
+CFO Alain Lam, in conversation with [[Government Pension Fund Global|NBIM]]'s Nicolai Tangen, framed European carmakers as lacking "smartness of the car" and the ecosystem connection from EVs into smartphones and smart-home devices — and pointed to "European collaboration with Chinese players" as a likely industry direction.
+
+The standing risk: in 2025, three people were killed in a crash involving an SU7 with semi-autonomous driving engaged, which prompted Chinese regulators to tighten oversight of unproven self-driving deployments.
+
+*Source: FT, Apr 26 2026.*
+
 ---
 
 ## Xring chip
@@ -247,12 +276,19 @@ Xiaomi has limited financial disclosure in the local vault chart pipeline: funda
 
 ## Related
 
+- [[Lei Jun]] — founder/CEO; April 2026 Beijing keynote framed [[YU7 GT]] as German-premium challenger
 - [[Memory shortage victims]] — thesis (smartphone OEM hit)
 - [[Samsung]] — competitor (has own memory)
 - [[Memory shortage 2025-2026]] — crisis (+25% DRAM cost)
 - [[Apple]] — competitor (premium absorbs cost)
-- [[Tesla]] — EV competitor (Xiaomi profitable faster)
+- [[Tesla]] — EV competitor (Xiaomi profitable faster); rival in Europe
 - [[BYD]] — [[China]] EV leader
+- [[Porsche]], [[BMW]], [[Mercedes-Benz]] — premium rivals targeted in Europe
+- [[Ferrari]] — design reference for [[YU7]] (Purosangue)
+- [[YU7 GT]] — first model from [[Munich]] R&D, Europe entry vehicle
+- [[Munich]] — Xiaomi EV R&D center (75+ engineers)
+- [[Gavekal]], [[Omdia]] — analyst coverage on Europe push
+- [[Government Pension Fund Global]] — Lam in conversation with Tangen
 - [[MiMo-V2-Pro]] — trillion-parameter reasoning model (Mar 2026)
 - [[DeepSeek]] — architectural DNA via Fuli Luo hire
 - [[Fuli Luo]] — MiMo division lead, ex-DeepSeek R1 core contributor

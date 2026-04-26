@@ -82,6 +82,7 @@ Signature quote (Aug 2022, Jackson Hole):
 | Jan 11, 2026 | Powell discloses investigation, calls it "pretext" |
 | Jan 21, 2026 | Powell attends Supreme Court hearing for [[Lisa Cook]] case |
 | Jan 29, 2026 | FOMC holds rates; calls Cook case "most important legal case in Fed's 113-year history" |
+| Apr 24, 2026 | [[Jeanine Pirro]] (DC US Attorney) announces DOJ closes Powell investigation; reserves right to reopen |
 
 ### First term (2018-2020)
 
@@ -218,6 +219,20 @@ Bear case:
 - "Transitory" call was wrong (delayed hiking)
 - Let inflation reach 9%+ before acting
 - Balance sheet still bloated
+
+---
+
+## DOJ closes investigation (April 24, 2026)
+
+[[Jeanine Pirro]] (US Attorney for the District of Columbia) announced via social media that the DOJ is closing the criminal investigation into Powell over Fed building cost overruns — but reserved the right to reopen if "facts warrant." The reservation language is what determines whether anything else in the announcement matters: a true close removes confirmation drag on [[Kevin Warsh|Warsh]]; a tactical hold-fire keeps Powell exposed to pretextual recharge if he becomes inconvenient. Bloomberg's Mike McKee on the same day: any subsequent IG criminal referral could give Pirro grounds to reopen — a structural threat Powell can't fully neutralize without a grant of immunity, which is not on the table.
+
+[[Scott Alvarez]] (former Fed General Counsel, Bloomberg TV Apr 24): *"It does smell of transparency and finality up to the last sentence... that last sentence is the critical one."* Alvarez also flagged that Powell may stay on as Governor through the end of his board term in January 2028 even after the chair term expires May 15 — partly to help [[Kevin Warsh|Warsh]] build relationships with the existing FOMC after Warsh's prior public criticisms of board members, partly as leverage if Pirro reopens.
+
+Market reaction: 2Y yield dropped to session lows on the headline; 10Y also down. [[Polymarket]] odds on a [[Kevin Warsh|Warsh]] confirmation by May 15 spiked to 82% intraday — May 15 being the day Powell's chair term formally ends. House Financial Services Chair [[French Hill]]: *"step in the right direction... I applaud it."*
+
+Two pieces of silence are the live tells: Powell himself has not commented, and [[Tom Tillis|Sen. Tillis]] — the Banking Committee holdout whose condition was that the investigation be "fully resolved" — has not said whether the Pirro statement satisfies him. Mike McKee's read: DOJ would not have announced this without first checking with Tillis's office, so the working assumption is he stands down — but that is inference, not confirmation.
+
+*Source: Bloomberg Real Yield, Apr 24, 2026 — Scarlet Fu / Mike McKee / [[Scott Alvarez]] interview*
 
 ---
 

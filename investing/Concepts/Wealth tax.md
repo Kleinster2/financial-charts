@@ -57,6 +57,25 @@ As of 2025, only a handful of OECD countries maintain broad wealth taxes:
 
 Most OECD countries that had wealth taxes have abolished them: Austria (1994), Denmark (1997), Germany (1997), Finland (2006), Sweden (2007), France (2017, partial).
 
+## US state-level — wealth tax vs. millionaire surtax
+
+A genuine wealth tax (annual mark-to-market on **net assets**) is structurally different from a millionaire surtax (an additional bracket on **annual income** above a threshold). Most US "wealth tax" headlines describe the latter, not the former. As of April 2026:
+
+| State | Mechanism | Detail |
+|---|---|---|
+| **Massachusetts** | Income surtax | 4% surtax on annual income above $1M (2023+) — "Fair Share Amendment" |
+| **Maine** | Income surtax | New top-bracket surtax (Apr 2026) |
+| **Washington** | Income surtax | 9.9% on income above $1M (despite no general state income tax) |
+| **California** | True wealth tax | Annual mark-to-market wealth-tax proposals (most-discussed in 2025-2026) |
+| **Minnesota** | True wealth tax | Mark-to-market proposals being studied |
+| **New York** | Surtax / mansion tax | [[Zohran Mamdani]] proposing a millionaire/billionaire-bracket surtax; Citadel ([[Kenneth Griffin]]) publicly considering halting NYC investment plans in response |
+
+Source: Michael Bologna ([[Bloomberg]] Industry Group senior tax correspondent), Bloomberg Real Yield Apr 24 2026.
+
+The driver: states are sensitive to tax-base erosion and respond to perceived under-taxation of "uber-wealthy individuals" who don't generate conventional income. The political appeal of taxing wealth runs into the same Norway/Sweden-style mobility constraint at sub-national level — domestic relocation between US states (e.g., NY → FL, IL → FL, CA → TX) is even cheaper than international emigration. Florida's [[Citadel]] HQ relocation from Chicago is the canonical case.
+
+Investment implication: state-level surtaxes are positive for muni-bond demand from in-state residents (relative tax shelter) but can pressure local property markets at the very high end and accelerate domicile shifts. Whether state-level *true* wealth taxes (CA, MN) actually pass — and whether they survive constitutional challenge — is the harder open question.
+
 ## Investment implications
 
 - Wealth taxes are a **headwind for domestic asset valuations** in affected jurisdictions — forced selling to pay tax reduces demand
@@ -71,3 +90,5 @@ Most OECD countries that had wealth taxes have abolished them: Austria (1994), D
 - [[Norway]] — the 2022 case study
 - [[Government Pension Fund Global]]
 - [[Sovereign Wealth Funds]]
+- [[Zohran Mamdani]] — NYC millionaire-bracket surtax (Apr 2026)
+- [[Citadel]] — [[Kenneth Griffin]] response to NYC tax announcement

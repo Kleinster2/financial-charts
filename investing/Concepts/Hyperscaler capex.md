@@ -44,10 +44,12 @@ Oracle not shown (fiscal year ends May, quarters don't align).
 | Hyperscaler | 2026 Estimate | Source |
 |-------------|---------------|--------|
 | **AMZN** | ~$150B | CFO: "will grow in 2026" |
-| **GOOG** | ~$115B | CFO: "significant increase" |
+| **GOOG** | ~$115B (CFO Q4 2025 guide) → **$185B** (Apr 2026 forecast cited by [[FT]]) | CFO: "significant increase"; later [[Thomas Kurian]] confirmation around the [[Anthropic]] capacity deal |
 | **META** | ~$100B | CFO: "notably larger" |
 | **MSFT** | $121-140B | Jefferies, Cantor |
 | **ORCL** | ~$50B+ | Already at $50B for FY26 |
+
+The [[Alphabet]] guide moved up between the early-2026 CFO call ("significant increase," ~$115B) and the late-Apr 2026 reporting of ~$185B for the year. The bridge is the Apr 2026 [[Anthropic]] anchor commitment — 5 GW of [[Google Cloud]] capacity over five years with up to $40B in [[Google]] equity — which both pulls forward TPU/datacenter spend and gives [[Thomas Kurian]] the demand justification for a higher guide. See [[Google Cloud]], [[Google TPU Competitive Position]], and [[Anthropic hyperscaler financing surge April 2026]].
 
 **Aggregate forecasts (Big 5 + broader AI infrastructure):**
 
@@ -70,6 +72,27 @@ Oracle not shown (fiscal year ends May, quarters don't align).
 This includes hyperscalers, neoclouds, enterprises, and sovereign AI initiatives — not just Big 5.
 
 **Context:** 2025 semiconductor industry = $793B (+21%). AI chips = ~1/3 of total. See [[Semiconductors]].
+
+---
+
+## Kurian shakeout warning (Apr 2026)
+
+[[Thomas Kurian]] ([[Google Cloud]] CEO) publicly forecast a multi-year shakeout in the AI provider layer, framing private capital markets as the binding constraint:
+
+*"Those AI providers depend on private capital markets, which are reaching a saturation point. If you're going to go public, you can't be lossmaking forever. And if you stay private, you cannot raise venture money forever."*
+
+He projected: *"Over the next year to two you will see some shakeout in the market. Whether particular providers are going to make it or not largely comes down to the economics."*
+
+Why this matters for the capex picture: Kurian is a hyperscaler CEO whose own [[Google Cloud]] business is being underwritten by the same labs' compute commitments. The incentive structure is real:
+
+- If [[OpenAI]] and [[Anthropic]] both clear the financing gap, the hyperscalers' $602B+ of 2026 capex looks well-placed.
+- If one or more frontier labs runs out of private-market funding before reaching IPO scale, the demand validation behind the guide weakens — making the call out loud is partly an attempt to pre-position [[Anthropic]] (a Google customer / investee) as the survivor.
+
+[[OpenAI]] and [[Anthropic]] together raised more than $150B in 2026, two of the largest private fundraises in history. The $185B Alphabet 2026 capex is partly contingent on whether that pace can continue without IPOs.
+
+See [[AI infrastructure financing risk]], [[Anthropic vs OpenAI compute race]], and [[OpenAI Infrastructure Spend]].
+
+*Source: FT, Apr 26 2026.*
 
 ---
 

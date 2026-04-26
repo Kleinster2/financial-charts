@@ -11,15 +11,5 @@
     "morning-scan",
     "replicate"
   ],
-  "openclawAdapted": [
-    "news",
-    "ingest",
-    "earnings",
-    "report",
-    "deepdive",
-    "newsletter",
-    "story",
-    "morning-scan",
-    "replicate"
-  ]
+  "openclawAdapted": []
 }
