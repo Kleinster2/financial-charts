@@ -22,6 +22,7 @@ import pandas as pd
 from constants import (get_db_connection, USE_NARROW, HTTP_BAD_REQUEST, HTTP_NOT_FOUND,
                       HTTP_INTERNAL_ERROR, resolve_ticker_alias)
 from helpers import basedir, _check_playwright, fiscal_to_calendar_quarter
+from si_synthetic import get_si_chart_data, split_si_tickers
 
 # Narrow-format support
 if USE_NARROW:
@@ -656,6 +657,8 @@ def get_chart_lw():
             traceback.print_exc()
             return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
 
+    si_tickers, price_tickers = split_si_tickers(tickers)
+
     try:
         # Narrow path: read from narrow tables
         if USE_NARROW and NARROW_AVAILABLE:
@@ -670,8 +673,8 @@ def get_chart_lw():
             except Exception:
                 fred_cols = set()
 
-            valid_tickers = [t for t in tickers if t in stock_tickers or t in futures_tickers or t in fred_cols]
-            if not valid_tickers:
+            valid_tickers = [t for t in price_tickers if t in stock_tickers or t in futures_tickers or t in fred_cols]
+            if not valid_tickers and not si_tickers:
                 conn.close()
                 return jsonify({'error': f'No valid tickers found. Requested: {tickers}'}), HTTP_NOT_FOUND
 
@@ -704,8 +707,11 @@ def get_chart_lw():
             conn.close()
 
             if not dfs:
-                return jsonify({'error': 'No data found for specified tickers/date range'}), HTTP_NOT_FOUND
-            if len(dfs) == 1:
+                if si_tickers:
+                    df = pd.DataFrame()
+                else:
+                    return jsonify({'error': 'No data found for specified tickers/date range'}), HTTP_NOT_FOUND
+            elif len(dfs) == 1:
                 df = dfs[0]
             else:
                 for d in dfs:
@@ -732,7 +738,7 @@ def get_chart_lw():
                     pass
 
             table_tickers = {}
-            for t in tickers:
+            for t in price_tickers:
                 if t in futures_cols and t.endswith('=F'):
                     table_tickers.setdefault('futures_prices_daily', []).append(t)
                 elif t in stock_cols:
@@ -743,7 +749,7 @@ def get_chart_lw():
                     table_tickers.setdefault('fred_series', []).append(t)
 
             valid_tickers = [t for group in table_tickers.values() for t in group]
-            if not valid_tickers:
+            if not valid_tickers and not si_tickers:
                 conn.close()
                 return jsonify({'error': f'No valid tickers found. Requested: {tickers}'}), HTTP_NOT_FOUND
 
@@ -763,7 +769,9 @@ def get_chart_lw():
 
             conn.close()
 
-            if len(dfs) == 1:
+            if not dfs:
+                df = pd.DataFrame()
+            elif len(dfs) == 1:
                 df = dfs[0]
             else:
                 for d in dfs:
@@ -773,29 +781,45 @@ def get_chart_lw():
                     df = df.merge(d, on='Date', how='outer')
                 df = df.sort_values('Date').reset_index(drop=True)
 
-        if df.empty:
+        if df.empty and not si_tickers:
             return jsonify({'error': 'No data found for specified tickers/date range'}), HTTP_NOT_FOUND
 
         # Convert to chart data format: { AAPL: [{time, value}, ...], MSFT: [...] }
         # Use date strings (YYYY-MM-DD) which Lightweight Charts handles well
         chart_data = {}
         seen_dates = set()  # Track dates to skip duplicates
-        for ticker in valid_tickers:
-            ticker_df = df[['Date', ticker]].dropna()
-            if not ticker_df.empty:
-                ticker_points = []
-                for _, row in ticker_df.iterrows():
-                    # Convert to date string, skip duplicates
-                    date_str = pd.to_datetime(row['Date']).strftime('%Y-%m-%d')
-                    date_key = (ticker, date_str)
-                    if date_key not in seen_dates:
-                        seen_dates.add(date_key)
-                        ticker_points.append({
-                            'time': date_str,
-                            'value': float(row[ticker])
-                        })
-                if ticker_points:
-                    chart_data[ticker] = ticker_points
+        if not df.empty:
+            for ticker in valid_tickers:
+                ticker_df = df[['Date', ticker]].dropna()
+                if not ticker_df.empty:
+                    ticker_points = []
+                    for _, row in ticker_df.iterrows():
+                        # Convert to date string, skip duplicates
+                        date_str = pd.to_datetime(row['Date']).strftime('%Y-%m-%d')
+                        date_key = (ticker, date_str)
+                        if date_key not in seen_dates:
+                            seen_dates.add(date_key)
+                            ticker_points.append({
+                                'time': date_str,
+                                'value': float(row[ticker])
+                            })
+                    if ticker_points:
+                        chart_data[ticker] = ticker_points
+
+        if si_tickers:
+            align_dates_by_base = {
+                ticker: [point['time'] for point in points]
+                for ticker, points in chart_data.items()
+                if points
+            }
+            si_chart_data = get_si_chart_data(
+                si_tickers,
+                start_date=start_date,
+                end_date=end_date,
+                time_format='date',
+                align_dates_by_base=align_dates_by_base,
+            )
+            chart_data.update({ticker: points for ticker, points in si_chart_data.items() if points})
 
         if not chart_data:
             return jsonify({'error': 'No valid data after processing'}), HTTP_NOT_FOUND

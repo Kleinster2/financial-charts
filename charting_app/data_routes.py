@@ -14,6 +14,7 @@ import pandas as pd
 import numpy as np
 from constants import (get_db_connection, USE_DUCKDB, USE_NARROW, TICKER_ALIASES)
 from helpers import DUCKDB_AVAILABLE
+from si_synthetic import get_si_chart_data, get_si_synthetic_tickers, split_si_tickers
 
 # Conditional DuckDB imports
 if USE_DUCKDB and DUCKDB_AVAILABLE:
@@ -44,6 +45,30 @@ logger = logging.getLogger(__name__)
 data_bp = Blueprint('data', __name__)
 
 
+def _resample_chart_data(chart_data, interval):
+    """Resample chart-ready timestamp data in place for weekly/monthly API output."""
+    if interval not in ('weekly', 'monthly'):
+        return chart_data
+
+    for ticker in list(chart_data.keys()):
+        if not chart_data[ticker]:
+            continue
+        df = pd.DataFrame(chart_data[ticker])
+        if df.empty or 'time' not in df or 'value' not in df:
+            continue
+
+        df['Date'] = pd.to_datetime(df['time'], unit='s')
+        df = df.set_index('Date')
+        if interval == 'weekly':
+            df = df.resample('W-FRI')['value'].last().dropna().reset_index()
+        else:
+            df = df.resample('M')['value'].last().dropna().reset_index()
+        df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
+        chart_data[ticker] = df[['time', 'value']].to_dict(orient='records')
+
+    return chart_data
+
+
 @data_bp.route('/api/tickers')
 def get_tickers():
     """Provides a sorted list of all available tickers from the database."""
@@ -60,6 +85,7 @@ def get_tickers():
                     tickers.append(f"PORTFOLIO_{row[0]}")
             except sqlite3.OperationalError:
                 pass
+            tickers.extend(get_si_synthetic_tickers(conn))
             conn.close()
             tickers = sorted(set(tickers))
             logger.info(f"[DuckDB] Found {len(tickers)} tickers")
@@ -85,6 +111,7 @@ def get_tickers():
                     tickers_set.add(f"PORTFOLIO_{row[0]}")
             except sqlite3.OperationalError:
                 pass
+            tickers_set.update(get_si_synthetic_tickers(conn))
             conn.close()
             tickers = sorted(tickers_set)
             logger.info(f"[Narrow] Found {len(tickers)} tickers")
@@ -134,6 +161,7 @@ def get_tickers():
         except sqlite3.OperationalError:
             logger.info("Table 'portfolios' not found - portfolio feature not available.")
 
+        tickers_set.update(get_si_synthetic_tickers(conn))
         conn.close()
         tickers = sorted(tickers_set)
         logger.info(f"Found {len(tickers)} tickers across stock, futures, bonds, and portfolio tables.")
@@ -302,18 +330,32 @@ def get_data():
 
     tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
     interval = request.args.get('interval', 'daily').lower()
+    start_date = request.args.get('start', '')
+    end_date = request.args.get('end', '')
+    si_tickers, regular_tickers = split_si_tickers(tickers)
+    chart_data = get_si_chart_data(
+        si_tickers,
+        start_date=start_date,
+        end_date=end_date,
+        time_format='timestamp',
+    )
+    _resample_chart_data(chart_data, interval)
+
+    if not regular_tickers:
+        logger.info(f"/api/data: returned {len(chart_data)} SI synthetic tickers")
+        return jsonify(chart_data)
 
     # Use DuckDB if enabled
     if USE_DUCKDB and DUCKDB_AVAILABLE:
-        chart_data = get_price_data(tickers)
+        price_data = get_price_data(regular_tickers)
 
         # Apply interval resampling if needed
         if interval in ('weekly', 'monthly'):
-            for ticker in chart_data:
-                if not chart_data[ticker]:
+            for ticker in price_data:
+                if not price_data[ticker]:
                     continue
                 # Convert to DataFrame for resampling
-                df = pd.DataFrame(chart_data[ticker])
+                df = pd.DataFrame(price_data[ticker])
                 df['Date'] = pd.to_datetime(df['time'], unit='s')
                 df = df.set_index('Date')
 
@@ -323,21 +365,22 @@ def get_data():
                     df = df.resample('M')['value'].last().dropna().reset_index()
 
                 df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
-                chart_data[ticker] = df[['time', 'value']].to_dict(orient='records')
+                price_data[ticker] = df[['time', 'value']].to_dict(orient='records')
 
+        chart_data.update(price_data)
         logger.info(f"[DuckDB] /api/data: returned {len(chart_data)} tickers")
         return jsonify(chart_data)
 
     # Use narrow-format tables if enabled
     if USE_NARROW and NARROW_AVAILABLE:
-        chart_data = narrow_get_price_data(tickers)
+        price_data = narrow_get_price_data(regular_tickers)
 
         # Apply interval resampling if needed
         if interval in ('weekly', 'monthly'):
-            for ticker in chart_data:
-                if not chart_data[ticker]:
+            for ticker in price_data:
+                if not price_data[ticker]:
                     continue
-                df = pd.DataFrame(chart_data[ticker])
+                df = pd.DataFrame(price_data[ticker])
                 df['Date'] = pd.to_datetime(df['time'], unit='s')
                 df = df.set_index('Date')
 
@@ -347,8 +390,9 @@ def get_data():
                     df = df.resample('M')['value'].last().dropna().reset_index()
 
                 df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
-                chart_data[ticker] = df[['time', 'value']].to_dict(orient='records')
+                price_data[ticker] = df[['time', 'value']].to_dict(orient='records')
 
+        chart_data.update(price_data)
         logger.info(f"[Narrow] /api/data: returned {len(chart_data)} tickers")
         return jsonify(chart_data)
 
@@ -381,8 +425,7 @@ def get_data():
     # Assign each requested ticker to *exactly one* source table to prevent
     # duplicate column names that break pd.concat (InvalidIndexError).
     # Build chart_data per ticker to avoid column duplication issues entirely
-    chart_data = {}
-    for ticker in tickers:
+    for ticker in regular_tickers:
         # Check futures table first for =F tickers (has more recent data)
         if ticker in futures_cols and ticker.endswith('=F'):
             table = 'futures_prices_daily'
