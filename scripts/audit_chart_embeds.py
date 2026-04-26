@@ -17,6 +17,8 @@ import yaml
 
 VAULT = Path('investing')
 EMBED_PAT = re.compile(r'!\[\[([^\]|]+\.png)(?:\|[^\]]*)?\]\]')
+SKIP_FOLDERS = {'attachments', '.obsidian', '.trash', 'Daily', 'Meta', 'Newsletter', 'Reports'}
+SKIP_FILES = {'chart-registry.md', 'research-queue.md'}
 
 
 def classify(fn: str) -> str:
@@ -40,15 +42,16 @@ def classify(fn: str) -> str:
 def main() -> None:
     embeds: dict[str, list[str]] = {}
     for md in VAULT.rglob('*.md'):
-        if any(p in {'.obsidian', '.trash', 'attachments'} for p in md.parts):
+        if any(p in SKIP_FOLDERS for p in md.parts):
+            continue
+        if md.name in SKIP_FILES:
             continue
         try:
             text = md.read_text(encoding='utf-8', errors='ignore')
         except Exception:
             continue
         for m in EMBED_PAT.finditer(text):
-            fn = m.group(1).strip()
-            fn = fn.replace('\\', '/').split('/')[-1]
+            fn = Path(m.group(1).strip().replace('\\', '/')).name
             if fn.lower().endswith('.png'):
                 embeds.setdefault(fn, []).append(str(md))
 

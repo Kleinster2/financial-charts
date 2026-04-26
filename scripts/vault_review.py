@@ -32,6 +32,8 @@ DAILY_DIR = VAULT_ROOT / "Daily"
 
 # Folders to skip when scanning notes
 SKIP_FOLDERS = {"attachments", ".obsidian", ".trash", "Reports"}
+CONTENT_SKIP_FOLDERS = {"Daily", "Meta", "Newsletter", "Reports"}
+SUPPORT_FILES = {"chart-registry.md", "research-queue.md"}
 
 # Chart embed pattern
 EMBED_PATTERN = re.compile(r"!\[\[([^\]]+\.png)\]\]")
@@ -103,7 +105,7 @@ def scan_vault() -> dict:
         tags = get_tags(content)
         fm = parse_frontmatter(content)
         lines = body_line_count(content)
-        embeds = EMBED_PATTERN.findall(content)
+        embeds = [Path(e.replace("\\", "/")).name for e in EMBED_PATTERN.findall(content)]
         links = set(WIKILINK_PATTERN.findall(content))
 
         notes[stem] = {
@@ -139,8 +141,10 @@ def report_stubs(vault_data: dict, stub_threshold: int = 40) -> list[str]:
 
     stubs = []
     for stem, data in notes.items():
-        # Skip daily notes and meta
-        if data["folder"] in ("Daily", "Meta"):
+        # Skip daily notes, meta/report outputs, newsletters, and support files
+        if data["folder"] in CONTENT_SKIP_FOLDERS:
+            continue
+        if data["path"].name in SUPPORT_FILES:
             continue
         if data["lines"] <= stub_threshold:
             in_count = len(inbound.get(stem, set()))
@@ -223,7 +227,9 @@ def report_chart_staleness(vault_data: dict, max_age_days: int = 14) -> list[str
     seen_charts = set()
 
     for stem, data in notes.items():
-        if data["folder"] in ("Daily", "Meta"):
+        if data["folder"] in CONTENT_SKIP_FOLDERS:
+            continue
+        if data["path"].name in SUPPORT_FILES:
             continue
         for embed_name in data["embeds"]:
             if embed_name in seen_charts:
@@ -374,7 +380,9 @@ def report_promotion_candidates(vault_data: dict, lookback_days: int = 14) -> li
     # Identify stubs (thin notes)
     stub_stems = set()
     for stem, data in notes.items():
-        if data["folder"] in ("Daily", "Meta"):
+        if data["folder"] in CONTENT_SKIP_FOLDERS:
+            continue
+        if data["path"].name in SUPPORT_FILES:
             continue
         if data["lines"] <= 40:
             stub_stems.add(stem)
@@ -443,18 +451,22 @@ def report_summary(vault_data: dict) -> list[str]:
         by_folder[data["folder"]] += 1
         total_links += len(data["links"])
 
-    # Orphans: notes with 0 inbound links (excluding Daily, Meta)
+    # Orphans: notes with 0 inbound links (excluding support/output surfaces)
     orphans = []
     for stem, data in notes.items():
-        if data["folder"] in ("Daily", "Meta"):
+        if data["folder"] in CONTENT_SKIP_FOLDERS:
+            continue
+        if data["path"].name in SUPPORT_FILES:
             continue
         if len(inbound.get(stem, set())) == 0:
             orphans.append(stem)
 
-    # Dead ends: notes with 0 outbound links (excluding Daily, Meta)
+    # Dead ends: notes with 0 outbound links (excluding support/output surfaces)
     dead_ends = []
     for stem, data in notes.items():
-        if data["folder"] in ("Daily", "Meta"):
+        if data["folder"] in CONTENT_SKIP_FOLDERS:
+            continue
+        if data["path"].name in SUPPORT_FILES:
             continue
         if len(data["links"]) == 0:
             dead_ends.append(stem)
