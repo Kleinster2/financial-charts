@@ -8,6 +8,7 @@ Usage:
     python scripts/check_skill_parity.py --all
     python scripts/check_skill_parity.py --json
     python scripts/check_skill_parity.py --strict
+    python scripts/check_skill_parity.py --strict --optional-openclaw
 """
 
 from __future__ import annotations
@@ -15,6 +16,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -25,7 +27,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 RUNTIMES = {
     "codex": REPO_ROOT / ".agents" / "skills",
     "claude": REPO_ROOT / ".claude" / "skills",
-    "openclaw": Path(r"C:\Users\klein\clawd\skills"),
+    "openclaw": Path(
+        os.environ.get("OPENCLAW_SKILLS_DIR", r"C:\Users\klein\clawd\skills")
+    ),
 }
 
 DEFAULT_WORKFLOW_SKILLS = [
@@ -108,6 +112,14 @@ def parse_args() -> argparse.Namespace:
         help="Path to OpenClaw skills directory.",
     )
     parser.add_argument(
+        "--optional-openclaw",
+        action="store_true",
+        help=(
+            "Skip OpenClaw comparison when its skills directory is absent. "
+            "Useful in CI checkouts that only contain this repository."
+        ),
+    )
+    parser.add_argument(
         "--adapted-openclaw",
         nargs="*",
         default=sorted(DEFAULT_OPENCLAW_ADAPTED),
@@ -134,16 +146,18 @@ def status_for(name: str, inventory: dict[str, dict[str, SkillFile]]) -> dict[st
     present = sorted(runtime for runtime, item in entries.items() if item is not None)
     missing = sorted(runtime for runtime, item in entries.items() if item is None)
 
-    codex = entries["codex"]
-    claude = entries["claude"]
-    openclaw = entries["openclaw"]
+    codex = entries.get("codex")
+    claude = entries.get("claude")
+    openclaw = entries.get("openclaw")
 
     codex_claude = "n/a"
     if codex and claude:
         codex_claude = "same" if codex.digest == claude.digest else "different"
 
-    openclaw_status = "missing"
-    if openclaw:
+    openclaw_status = "skipped"
+    if "openclaw" in inventory and not openclaw:
+        openclaw_status = "missing"
+    elif openclaw:
         if codex and openclaw.digest == codex.digest:
             openclaw_status = "same-as-codex"
         elif claude and openclaw.digest == claude.digest:
@@ -187,6 +201,11 @@ def resolve_skill_names(
 def build_report(args: argparse.Namespace) -> dict[str, Any]:
     runtime_roots = dict(RUNTIMES)
     runtime_roots["openclaw"] = args.openclaw_skills
+    skipped_runtimes = []
+    if args.optional_openclaw and not runtime_roots["openclaw"].exists():
+        skipped_runtimes.append("openclaw")
+        runtime_roots.pop("openclaw")
+
     inventory = {runtime: discover(root) for runtime, root in runtime_roots.items()}
     skill_names = resolve_skill_names(args, inventory)
     adapted_openclaw = set(args.adapted_openclaw)
@@ -223,6 +242,7 @@ def build_report(args: argparse.Namespace) -> dict[str, Any]:
         },
         "selected_skills": skill_names,
         "adapted_openclaw": sorted(adapted_openclaw),
+        "skipped_runtimes": skipped_runtimes,
         "skills": skills,
         "summary": {
             "shared_all": shared_all,
@@ -248,6 +268,8 @@ def print_text_report(report: dict[str, Any]) -> None:
     for runtime, root in report["runtime_roots"].items():
         count = report["inventory_counts"][runtime]
         print(f"{runtime:8} {count:3} skills  {root}")
+    for runtime in report["skipped_runtimes"]:
+        print(f"{runtime:8} skipped   directory not found")
     print()
 
     header = (
@@ -260,7 +282,10 @@ def print_text_report(report: dict[str, Any]) -> None:
         present = set(item["present"])
         codex = "yes" if "codex" in present else "missing"
         claude = "yes" if "claude" in present else "missing"
-        openclaw = "yes" if "openclaw" in present else "missing"
+        if "openclaw" in report["skipped_runtimes"]:
+            openclaw = "skipped"
+        else:
+            openclaw = "yes" if "openclaw" in present else "missing"
         openclaw_status = item["openclaw_status"]
         if item["name"] in report["adapted_openclaw"] and openclaw_status == "different":
             openclaw_status = "adapted"
@@ -271,7 +296,10 @@ def print_text_report(report: dict[str, Any]) -> None:
 
     print()
     summary = report["summary"]
-    print_list("Shared across all three", summary["shared_all"])
+    shared_label = "Shared across selected runtimes"
+    if not report["skipped_runtimes"]:
+        shared_label = "Shared across all three"
+    print_list(shared_label, summary["shared_all"])
     for runtime, values in summary["missing_by_runtime"].items():
         print_list(f"Missing in {runtime}", values)
     print_list("Codex/Claude drift", summary["codex_claude_drift"])

@@ -21,6 +21,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 
 - **Explore first**: Check existing patterns, utility scripts, similar implementations before modifying any code file.
 - **Map before acting**: Search all related components (scripts, skills, docs, hooks, configs, vaults) before modifying anything. The question is "what's the full picture?"
+- **Skill parity**: After editing shared workflow skills, run `python scripts/sync_codex_skills.py` if Claude skills changed, then `python scripts/check_skill_parity.py --strict` or `npm run test:consistency`. Codex and Claude should match; OpenClaw differences must be intentional adapted ports. See `docs/skill-parity.md`.
 - **Git**: Direct push to main, no PRs. `git add <files> && git commit -m "Description" && git push origin main`. CI fails → fix forward or revert.
 - **Cache busting**: After modifying JS, increment `?v=` in `charting_sandbox/index.html`.
 
@@ -126,6 +127,7 @@ Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `no
 - `/earnings TICKER` — DB check, data insert, chart regen, note update. See `.claude/skills/earnings/SKILL.md`.
 - `/report TOPIC` — read-only cross-vault synthesis on an existing topic. Saves to `investing/Reports/`. See `.claude/skills/report/SKILL.md`.
 - `/story [YYYY-MM-DD]` — daily "what is the story" report. Reads the daily note and every meaningful note/topic touched that day, then saves a compact story-card map to `investing/Reports/YYYY-MM-DD-story-report.md`. See `.claude/skills/story/SKILL.md`.
+- `/replicate TICKER` — ETF/fund replication analysis with proxy mapping, synthetic indices, charts, and vault-note update. See `.claude/skills/replicate/SKILL.md`.
 
 ---
 

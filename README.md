@@ -647,6 +647,20 @@ When modifying JS files, increment version in `index.html`:
 
 ## Testing
 
+### Consistency Checks
+
+Fast repository hygiene checks. This currently verifies shared skill parity across Codex, Claude Code, and OpenClaw when the OpenClaw skills directory is available.
+
+```powershell
+npm run test:consistency
+```
+
+For the full local skill parity check, run:
+
+```powershell
+python scripts\check_skill_parity.py --strict
+```
+
 ### Unit Tests (Node)
 
 Fast deterministic tests for the extracted modules.
