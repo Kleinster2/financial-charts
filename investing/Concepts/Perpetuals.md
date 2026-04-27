@@ -96,5 +96,11 @@ During the [[2026 Iran conflict market impact|Iran conflict]], commodity perpetu
 - [[trade.xyz]] — builder of commodity and equity perps
 - [[Ventuals]] — pre-IPO perps on Hyperliquid
 - [[S&P 500]] — first major index with officially licensed perp (Mar 2026)
+- [[Century Bond]] — 100-year corporate bonds; closest fixed-income analog to perpetual issuer financing
+
+### Cross-vault
+*Note: this page covers crypto perpetual futures contracts. The historical sovereign perpetual bonds — also instruments that "never expire" — are a different asset class with a four-century history.*
+- [History: British Consols](obsidian://open?vault=history&file=04%20-%20Early%20Modern%2FBritish%20Consols) — perpetual sovereign bond, 1751-2015
+- [History: French Rentes](obsidian://open?vault=history&file=04%20-%20Early%20Modern%2FFrench%20Rentes) — perpetual sovereign annuity, 1522-1958
 
 *Source: Bloomberg, Mar 18, 2026*

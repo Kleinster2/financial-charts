@@ -177,6 +177,11 @@ When the world's largest asset manager goes on TV to tell you Japanese bonds are
 - [[Gold]] — alternative safe asset beneficiary
 - [[Bond market]] — Treasury market mechanics
 
+### Cross-vault
+- [History: British Consols](obsidian://open?vault=history&file=04%20-%20Early%20Modern%2FBritish%20Consols) — what credible-commitment sovereign debt looked like for 263 years; the institutional template the US is straining to maintain
+- [History: French Rentes](obsidian://open?vault=history&file=04%20-%20Early%20Modern%2FFrench%20Rentes) — what happens when sovereign credibility erodes (eight defaults plus inflationary repudiation); historical precedent for safe-asset status loss
+- [History: Fiscal State Emergence](obsidian://open?vault=history&file=Themes%2FFiscal%20State%20Emergence) — institutional architecture behind credible sovereign debt
+
 ---
 
 *Source: "The Safe Assets That Weren't" — The Two Cents (Substack). Created 2026-02-27.*

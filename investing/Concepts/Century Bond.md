@@ -83,6 +83,19 @@ This asymmetry means century bond investors are short a call option — they rec
 
 ---
 
+## Historical precedent: sovereign perpetuals
+
+Century bonds are the modern compromise between dated debt and the older sovereign instrument they replaced — the perpetual annuity. The two canonical cases sit on opposite ends of the credibility spectrum:
+
+| Instrument | Issued | Retired | Defaults |
+|------------|--------|---------|----------|
+| British Consols | 1751 | 2014-2015 | None in 263 years |
+| French Rentes | 1522 | Phased out from 1985 | At least 8 major (1557 onward) plus 1914-28 inflationary erosion |
+
+Same formal structure (perpetual coupon, government-only redemption), opposite outcomes determined by constitutional architecture rather than instrument design. The contrast is the cleanest case study in why credible commitment determines sovereign borrowing capacity. Modern century bonds are functionally callable long bonds plus a credit-survival bet — the consol logic without the constitutional backing.
+
+---
+
 ## Related
 
 - [[Google]] — $20B USD bond sale + sterling century bond (Feb 2026)
@@ -90,3 +103,7 @@ This asymmetry means century bond investors are short a call option — they rec
 - [[Michael Burry]] — warned Alphabet century bond mirrors Motorola decline
 - [[Morgan Stanley]] — estimates $400B hyperscaler bond issuance in 2026
 - [[Oracle]] — $25B bond sale (Jan 2026), part of hyperscaler debt wave
+
+### Cross-vault
+- [History: British Consols](obsidian://open?vault=history&file=04%20-%20Early%20Modern%2FBritish%20Consols) — 263-year unbroken sovereign perpetual; canonical credibility case
+- [History: French Rentes](obsidian://open?vault=history&file=04%20-%20Early%20Modern%2FFrench%20Rentes) — cautionary case of repeated sovereign default and inflationary erosion

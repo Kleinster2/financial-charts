@@ -251,6 +251,12 @@ SpektreWorks is private, ~5-15 employees, ~$2M pre-LUCAS revenue. Not investable
 - [[AVIC]] — state-owned, Wing Loong MALE/HALE family (688297.SS)
 - [[Shahed-136]] — Iranian loitering munition (comparator class)
 
+### Russian drone ecosystem
+- [[Russian sovereign drone ecosystem]] — Bondar/CSIS structural framework; state targets of 130K large UAS/yr by 2030, 350K/yr by 2035
+- [[ZALA]] — civilian-to-military pipeline case (Kalashnikov 2015 acquisition; Lancet manufacturer)
+- [[Andrei Belousov]] — Russian Defense Minister, political custodian of the ecosystem
+- [[Kateryna Bondar]] — CSIS Wadhwani AI Center analyst
+
 ### Maritime/Surface
 - [[Saronic]] — autonomous surface vessels for US Navy ($9.25B, 7 hull classes)
 - [[Exail Technologies]] — European MCM drones (K-STER C, Inspector USV, DriX)

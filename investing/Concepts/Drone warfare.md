@@ -55,6 +55,8 @@ Drone business "red hot" — backlogs surging (William Blair, Jan 2026).
 
 **Russian Shahed production:** Moscow producing 404 Shahed-type drones/day, aiming for 1,000/day (Ukraine's top commander, per Zakaria Mar 20). vs. [[Lockheed Martin]] producing ~600 Patriot interceptors in 2025, targeting 2,000 by 2027. The production asymmetry is now the strategic problem, not the technology gap.
 
+**Russian sovereign architecture:** the production curve sits on top of state targets of 130,000 large UAS/yr by 2030 and 350,000/yr by 2035 (Russian Min. of Industry and Trade), 1M UAS workforce by 2030, and a civil-military pipeline that absorbs commercial firms into the military-industrial base ([[ZALA]] → Kalashnikov 2015 → Lancet). [[Kateryna Bondar]] (CSIS) frames it as a sovereign drone ecosystem with centralized champion-picking — Geran iterated 30+ times, Lancet and Molniya scaled across the front. See [[Russian sovereign drone ecosystem]] for the full structural argument and investment implications.
+
 **USAF AI targeting experiment:** In a 2025 experiment, USAF said machines generated targeting recommendations in under 10 seconds and produced 30x more options than human-only teams — compressing the find-decide-hit cycle faster than adversaries can move, hide, or recover. *(Source: Zakaria/WashPost, Mar 20, 2026)*
 
 ---
@@ -173,6 +175,8 @@ Every drone capability creates counter-drone demand:
 - [[Auterion]] — autonomy OS provider (FV-014 integration, Rheinmetall shareholder)
 - [[Armin Papperger]] — Rheinmetall CEO and April 2026 "Legos" remark
 - [[Oleksandr Kamyshin]] — Zelenskyy adviser, responded to Papperger
+- [[Russian sovereign drone ecosystem]] — Bondar/CSIS structural framework for Russia's civil-military integration and state-targets architecture
+- [[Kateryna Bondar]] — CSIS Wadhwani AI Center analyst tracking Russian drone/AI ecosystem
 
 ---
 

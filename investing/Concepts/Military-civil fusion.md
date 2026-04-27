@@ -33,6 +33,14 @@ MCF matters because it lets [[China]] accumulate strategic capability through fi
 
 MCF is the rationale behind US sanctions targeting Chinese commercial firms that appear civilian but are flagged by intelligence or Congressional reports as MCF-linked. The [[House China Select Committee]] has been a primary source of such flagging in the space sector (including [[Emposat]]). [[Secondary sanctions]] and [[Export controls]] are the main tools.
 
+## Russian analog — sovereign drone ecosystem
+
+[[Kateryna Bondar]] ([[CSIS]] Wadhwani AI Center, April 13, 2026 report) describes a structurally similar civil-military pipeline in [[Russia]]: civilian dual-use firms developing drones and AI systems, the state acquiring or scaling the winners, talent rotation from civilian universities into military application, and absorption into the military-industrial base via state-owned enterprises. [[ZALA]] is the paradigmatic case — civilian drone firm, 51% acquired by Kalashnikov Concern in 2015, now producing the Lancet loitering munition for the front in Ukraine.
+
+The functional architecture mirrors Chinese MCF: state-directed talent pipelines (1 million UAS workforce by 2030, 15,500 AI graduates annually by 2030), national strategy targets with personally accountable officials, and civilian innovation as the primary feeder stock for military capability. Differences from Chinese MCF: the Russian version originates from sanctions necessity rather than long-run doctrine; operates at smaller scale; faces no Western foreign-investment screening apparatus comparable to what flags MCF firms in the US.
+
+The investable read is that MCF logic is generalizable beyond China — and that Russia is replicating the structural pattern under harder constraints. Western policymakers and procurement officers are not yet treating Russian dual-use drone firms with the same screening intensity applied to Chinese MCF cases. See [[Russian sovereign drone ecosystem]] for the full architecture and investment implications.
+
 ## Cellular modules / embedded-connectivity case
 
 The 2026 cellular-module debate extends MCF into a less glamorous but more economically pervasive layer of technology. The concern is not that every module is a proven weapon. It is that suppliers such as [[Quectel]] and [[Fibocom]] sit on the connectivity path inside connected devices and industrial systems, and that U.S. policymakers increasingly read that position through an MCF lens. [[Wireless module chokepoints]] is the cleaner concept note for that structural risk. Once a supplier base is seen as exposed to state direction, firmware leverage, or intelligence tasking, the policy response can shift from ordinary vendor competition toward procurement bans, infrastructure audits, and regulatory exclusion.
@@ -54,6 +62,8 @@ That is why the module story matters for markets. It suggests the next U.S.-Chin
 - [[Covered List]] — [[FCC]] tool discussed for module vendors
 - [[Export controls]] — US policy tool
 - [[Secondary sanctions]] — US policy tool
+- [[Russian sovereign drone ecosystem]] — Russian analog of MCF logic in unmanned systems and AI
+- [[Kateryna Bondar]] — CSIS analyst documenting the Russian variant
 
 ### Cross-vault
 - [Geopolitics: Military-civil fusion](obsidian://open?vault=geopolitics&file=Concepts%2FMilitary-civil%20fusion)

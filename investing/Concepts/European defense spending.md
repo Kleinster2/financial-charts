@@ -216,6 +216,9 @@ The model contrasts sharply with the US: the Army's [[Anduril]] contract announc
 - [[Leonardo]] — Italian defense champion, potential Rheinmetall/Airbus partner
 - [[Adam Tooze]] — structural imbalance analysis (Feb 2026)
 - [[Private capital in European defense tech]] — capital-flow story behind Helsing, Stark, Auterion
+- [[Russian sovereign drone ecosystem]] — supply-side counterpart driving the demand-side urgency for European defense acceleration
+- [[NATO Drone Wall Initiative]] — flagship procurement project the spending acceleration funds
+- [[Kateryna Bondar]] — CSIS analyst arguing Russia is "way ahead of NATO"
 
 ---
 

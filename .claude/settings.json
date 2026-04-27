@@ -29,12 +29,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "pwsh -NoProfile -ExecutionPolicy Bypass -File C:/Users/klein/financial-charts/.claude/hooks/check-daily-summary.ps1",
+            "command": "python C:/Users/klein/financial-charts/.claude/scripts/check_daily_summary.py",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "pwsh -NoProfile -ExecutionPolicy Bypass -File C:/Users/klein/financial-charts/.claude/hooks/check-tech-changelog.ps1",
+            "command": "python C:/Users/klein/financial-charts/.claude/scripts/check_tech_changelog.py",
             "timeout": 10
           }
         ]

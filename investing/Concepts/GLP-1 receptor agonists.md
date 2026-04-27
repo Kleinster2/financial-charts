@@ -25,11 +25,18 @@ Synthetic analogs of the gut hormone glucagon-like peptide-1 that mimic incretin
 | 2025 projected | $63-70B |
 | 2030 projected | $150-170B |
 | 2034 projected | $170-315B (varies by source) |
+| Bernstein early-2030s forecast | ~$100B annual sales |
 | CAGR 2025-2030 | ~17-18% |
 | North America share | ~76% of global revenue |
 | US adults currently on GLP-1s | ~12% |
+| DTC channel share of US obesity/diabetes drug market | ~30% (IQVIA) |
 
-Two-player market: [[Novo Nordisk]] (semaglutide) and [[Eli Lilly]] (tirzepatide) control >95% of revenue. Lilly has taken the US lead with ~58% market share vs Novo's ~42%.
+![[glp1-market-forecast-bernstein-apr2026.png]]
+*Bernstein April 2026 forecast: stacked-bar of GLP-1 sales 2023–2035 showing Lilly maintaining share lead through forecast; market reaches ~$100bn annual sales in early 2030s; "Others" (next-gen pipeline competitors) takes meaningful share by ~2030. Source: Bernstein via Financial Times.*
+
+Two-player market today: [[Novo Nordisk]] (semaglutide) and [[Eli Lilly]] (tirzepatide / orforglipron) control >95% of revenue. Lilly has taken the US lead with ~58% market share vs Novo's ~42%. Bernstein's forecast above implies the duopoly persists into the early 2030s but with "Others" — next-gen entrants from [[Roche]], [[Boehringer Ingelheim]]/[[Zealand Pharma]], [[Amgen]], and others — taking ~15–20% share by mid-2030s.
+
+The DTC cash-pay channel — [[Hims & Hers]], [[Ro]], LifeMD, manufacturer ecommerce ([[NovoCare]], LillyDirect) — now represents ~30% of US obesity and diabetes drug volume. See [[Pharma consumerization]] for the strategic pattern. The channel did not exist before 2022.
 
 ---
 
@@ -86,7 +93,7 @@ Liraglutide's patent cliff is relevant because it set the precedent for the comp
 
 | Drug | Company | Mechanism | Status | Key data |
 |------|---------|-----------|--------|----------|
-| Orforglipron | [[Eli Lilly]] | Oral small-molecule GLP-1 | Filing end 2025, approval expected Q2 2026 | ~11% weight loss at 72 weeks; no food/water restrictions |
+| [[Foundayo]] (orforglipron) | [[Eli Lilly]] | Oral small-molecule GLP-1 | **FDA-approved April 1, 2026; launched April 2026** | 27.3 lbs (12.4%) weight loss at highest dose, 72 weeks (ATTAIN-1); no food/water restrictions; $149/mo self-pay, $25/mo with insurance |
 | CagriSema | [[Novo Nordisk]] | GLP-1 + amylin (cagrilintide + semaglutide) | Filed for FDA approval 2025 | ~22.7% weight loss at 68 weeks; FDA response expected 2026, launch ~2027 |
 | Amycretin | [[Novo Nordisk]] | Dual GLP-1/amylin (single molecule) | Phase 2; Phase 3 launching early 2026 | 22% weight loss in 36 weeks; potential best-in-class |
 | Survodutide | [[Boehringer Ingelheim]]/[[Zealand Pharma]] | Dual GLP-1/glucagon | Phase 3 | Also in Phase 3 for MASH; approval trajectory 2027-28 |
@@ -95,7 +102,7 @@ Liraglutide's patent cliff is relevant because it set the precedent for the comp
 | Retatrutide | [[Eli Lilly]] | Triple agonist (GIP/GLP-1/glucagon) | Phase 3 (7 more readouts in 2026) | 28.7% weight loss (~71 lbs) in TRIUMPH-4; 18% discontinuation rate at high dose |
 | Oral Wegovy | [[Novo Nordisk]] | Oral semaglutide 25mg | Launched Jan 2026 | 16.6% weight loss at 64 weeks; 170K+ patients in first 4 weeks |
 
-Orforglipron is strategically critical -- as a small molecule (not a peptide), it is cheaper to manufacture and not subject to the same biosimilar/compounding dynamics as semaglutide. Received Commissioner's National Priority Voucher for obesity.
+Orforglipron — branded [[Foundayo]] for obesity — is strategically critical as a small molecule (not a peptide): cheaper to manufacture, not subject to peptide compounding dynamics, and not exposed to the biosimilar pathway. Received Commissioner's National Priority Voucher for obesity. Discovered by [[Chugai Pharmaceutical]] (Japan), licensed to Lilly 2018.
 
 Retatrutide could be the most potent obesity drug ever if tolerability improves. GlobalData forecasts $15.6B in sales by 2031.
 
@@ -308,14 +315,23 @@ FTC issued notice to [[Novo Nordisk]] in Apr 2024 identifying improper listing o
 ## Related
 
 - [[Novo Nordisk]] -- semaglutide franchise
-- [[Eli Lilly]] -- tirzepatide franchise
+- [[Eli Lilly]] -- tirzepatide + orforglipron franchise
+- [[Foundayo]] -- first FDA-approved small-molecule oral GLP-1 (Apr 2026)
+- [[Wegovy]] -- semaglutide for obesity
+- [[Ozempic]] -- semaglutide for diabetes
 - [[Hims & Hers]] -- compounding distributor, regulatory target
 - [[Ro]] -- vertically integrated telehealth, Novo's preferred D2C partner
+- [[Pharma consumerization]] -- the DTC channel pattern that GLP-1s catalyzed
+- [[Akero Therapeutics]] -- $5.2bn Novo MASH acquisition (obesity comorbidity)
 - [[Medical sciences primer]] -- drug development fundamentals
 - [[Biopharma]] -- sector overview
 - [[Healthcare]] -- sector overview
 - [[AI drug discovery]] -- pipeline acceleration
 
+### Cross-vault
+
+- [Technologies: GLP-1 Receptor Agonists](obsidian://open?vault=technologies&file=GLP-1%20Receptor%20Agonists) — the platform lens: hormone biology, peptide vs. small-molecule chemistry, three medicinal-chemistry milestones (exendin-4, albumin-binding acylation, small-molecule mimetic), discovery timeline back to Bayliss & Starling
+
 ---
 
-*Updated 2026-02-09*
+*Updated 2026-04-27 (Foundayo launch + Bernstein forecast + tech-vault cross-link)*

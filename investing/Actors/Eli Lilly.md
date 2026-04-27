@@ -3,7 +3,9 @@ aliases: [LLY, Lilly]
 ---
 #actor #healthcare #pharma #usa #public #ai
 
-**Eli Lilly** — Top pharma by market cap. GLP-1 leader (Mounjaro, Zepbound). [[AI drug discovery]] investments.
+**Eli Lilly** — Top pharma by market cap; briefly crossed $1tn during 2025. GLP-1 leader (Mounjaro, Zepbound, [[Foundayo]]); diversified across cardiometabolic, immunology, oncology, neuroscience. [[AI drug discovery]] investments.
+
+The competitive dynamic vs [[Novo Nordisk]] in 2025–2026 favors Lilly on multiple axes: tirzepatide has ~decade of patent life (Novo's semaglutide is in patent cliff in EM in 2026), Lilly is more diversified at the revenue level, and Lilly was first to market with a small-molecule oral GLP-1 ([[Foundayo]], FDA-approved April 2026) — three months after Novo's peptide oral pill, but the small-molecule platform is structurally cheaper to manufacture and immune to the compounding dynamics that constrained Wegovy.
 
 ---
 
@@ -41,10 +43,14 @@ Mounjaro and Zepbound driving volume growth. CEO Ricks: "2025 was an important y
 
 | Metric | Value |
 |--------|-------|
-| Market cap | ~$750B |
+| Market cap | ~$750B (briefly crossed $1tn in 2025) |
 | Ticker | LLY (NYSE) |
-| Focus | GLP-1, oncology, immunology |
+| Focus | GLP-1, oncology, immunology, neuroscience |
+| Revenue diversification (FY2025) | ~73% cardiometabolic / ~10% immunology / ~10% oncology / ~5% neuroscience / ~3% other |
 | AI angle | Drug discovery, clinical trials |
+
+![[lly-vs-nvo-revenue-mix-2025.png]]
+*Revenue concentration, FY2025: Lilly diversifies across cardiometabolic, immunology, oncology, neuroscience. Novo is ~95% obesity/diabetes. The diversification gives Lilly insulation that Novo lacks. Source: company presentations via Financial Times.*
 
 ---
 
@@ -64,16 +70,19 @@ Mounjaro and Zepbound driving volume growth. CEO Ricks: "2025 was an important y
 
 | Drug | Indication | Status |
 |------|------------|--------|
-| Mounjaro | Diabetes | Blockbuster |
-| Zepbound | Obesity | Fastest launch ever |
+| Mounjaro | Diabetes (injectable, GIP/GLP-1) | Blockbuster |
+| Zepbound | Obesity (injectable, GIP/GLP-1) | Fastest launch ever |
+| [[Foundayo]] | Obesity (oral, small-molecule GLP-1) | FDA-approved April 1, 2026; launched April 2026 |
 
-**GLP-1 market:** $100B+ potential, Lilly and [[Novo Nordisk]] duopoly.
+**GLP-1 market:** $100B+ annual sales projected by early 2030s (Bernstein); Lilly and [[Novo Nordisk]] duopoly with Lilly maintaining share lead through forecast.
 
 **US market share:** 58% (vs Novo 42%) — Lilly has taken the lead.
 
 **Patent advantage:** Mounjaro/Zepbound (tirzepatide) has **~decade of patent life** remaining — insulated from generic threat hitting Novo in 2026.
 
-**Zepbound vs Wegovy:** Beat Wegovy on weight loss in late 2024 study. Next-gen injectable and oral in late-stage trials.
+**Zepbound vs Wegovy:** Beat Wegovy on weight loss in late 2024 study.
+
+**Oral pill — small-molecule advantage:** [[Foundayo]] (orforglipron) is the first FDA-approved small-molecule oral GLP-1. Manufacturing economics are far better than peptide synthesis ([[Novo Nordisk]]'s oral [[Wegovy]] is peptide), and small-molecule chemistry is not exposed to the same compounding pharmacy or biosimilar dynamics. Avg. 27.3 lbs (12.4%) weight loss at highest dose at 72 weeks (ATTAIN-1). Self-pay starting at $149/month; $25/month with commercial insurance. Discovered by [[Chugai Pharmaceutical]] (Japan) and licensed to Lilly in 2018.
 
 ---
 
@@ -108,7 +117,11 @@ New FASB-mandated country-by-country tax disclosures (March 2026) revealed Lilly
 ## Related
 
 - [[Agentic AI]] — drug discovery applications
-- [[Novo Nordisk]] — GLP-1 competitor (losing patent protection)
+- [[Novo Nordisk]] — GLP-1 competitor (losing patent protection in EM in 2026)
+- [[Foundayo]] — first small-molecule oral GLP-1 (FDA-approved April 2026)
+- [[Chugai Pharmaceutical]] — original discoverer of orforglipron (licensed 2018)
+- [[GLP-1 receptor agonists]] — drug class
+- [[Pharma consumerization]] — DTC strategic pattern Lilly pioneered with LillyDirect
 - [[Pharma jurisdictional tax arbitrage]] — $6.6B Ireland vs $3.3B US (FY2025)
 
-*Updated 2026-02-04 (Q4 2025 earnings)*
+*Updated 2026-04-27 (Foundayo launch + revenue mix)*

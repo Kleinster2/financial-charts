@@ -103,9 +103,9 @@ New FASB-mandated disclosures: Pfizer paid $1bn in taxes to [[Ireland]] versus $
 | Seagen (2023) | $43B | Oncology pipeline |
 | Arena (2022) | $6.7B | Immunology |
 | Biohaven (2022) | $12B | Migraine |
-| [[Metsera]] (Q4 2025) | $10B | Obesity/metabolic |
+| [[Metsera]] (Q4 2025) | $10B | Obesity/metabolic — won contested bid against [[Novo Nordisk]] |
 
-Using COVID cash for pipeline acquisitions. The [[Metsera]] bid (FT, Feb 24, 2026) signals Pfizer re-entering the obesity race after discontinuing oral danuglipron.
+Using COVID cash for pipeline acquisitions. The [[Metsera]] bid (FT, Feb 24, 2026) signals Pfizer re-entering the obesity race after discontinuing oral danuglipron. [[Novo Nordisk]] attempted to gatecrash the deal but Pfizer prevailed (FT, April 13, 2026) — a notable data point on the obesity-asset M&A premium, since Pfizer outbid the category leader to enter.
 
 ---
 
