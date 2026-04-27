@@ -155,6 +155,32 @@ Reference: See [[Micron]] for the template.
 
 ---
 
+## Concept vs. actor classification
+
+Every substantive data point about an entity has a filing decision: does the content live in the entity's note, or in a concept note? This is the gate that prevents framework material from getting buried inside actor notes through source-gravity alone.
+
+The test: *does this describe what an entity IS or DOES, or does it describe a structure, mechanism, framework, or policy that exists regardless of the entity?*
+
+- What an entity IS or DOES → entity's note. "Rapidan is a DC energy consultancy founded by McNally," "Rapidan called X on date Y," "McNally's White House network is the source of the call."
+- Structure, mechanism, framework, or policy → concept note, regardless of who articulated it. Transmission math between oil prices and pump gasoline; legal authorities that activate export controls; historical precedent for a policy option; bidirectional scenario maps for an intervention.
+
+A subsection inside an actor note starts looking like its own concept note when it contains:
+
+- Historical context predating the actor's involvement
+- Transmission math, formulas, or quantitative frameworks usable outside this source
+- Structural consequences tables ("if X, then Y") that would apply to any analyst calling the same thing
+- Asset-exposure mapping across unrelated names
+- Activation pathways or legal mechanics
+- A Synthesis paragraph — actor notes don't need one; concept notes do
+
+If two or more of these appear, extract to a concept note. The actor keeps the entity-specific call, pattern, and attribution.
+
+**Attribution is not filing.** When a named analyst or firm says X, the storage impulse is "put it in their note." Resist. Attribution tracks *who said it*; filing tracks *what it is*. Any other shop calling the same thing in six months should land in the same concept note with different attribution — not create a parallel discussion inside a different actor note.
+
+When in doubt, create the concept stub. Cost of a premature concept stub is low (it can grow over time). Cost of framework content trapped inside an actor note is high — invisible to future vault searches that reason by topic, not by source.
+
+---
+
 ## Concept Note Structure: Story + Reference
 
 Concept notes (non-stub) must follow a story + reference structure.

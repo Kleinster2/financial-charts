@@ -7,7 +7,14 @@ description: "Single-source ingestion pipeline: process one source (interview tr
 
 Process one source into the vault. Usage: `/ingest URL` or `/ingest` (then provide source in chat).
 
-CLAUDE.md defines note structure, formatting, and hard gates. `docs/research-workflow.md` defines source separation and two-track verification. `docs/vault-note-guide.md` defines note voice and update discipline. This skill sequences the ingestion workflow and codifies rules that only emerge during single-source processing.
+This skill is a sequencing harness for ingestion. The substantive rules live in docs and are pointed to from each phase:
+
+- `docs/research-workflow.md` — verification, two-track sources, cold research pass
+- `docs/vault-note-guide.md` — concept-vs-actor classification, note voice, structure
+- `docs/cross-vault-rules.md` — vault-of-record lens test, sibling-vault gates
+- `CLAUDE.md` — folder rules, hard gates, formatting
+
+The skill enforces the *order* — verify → classify (filing) → classify (vault) → research → survey → write — that's specific to single-source processing.
 
 ## Phase 0: Source Acquisition
 
@@ -36,173 +43,110 @@ Process the entire source. Every paragraph, every aside, every throwaway detail.
 
 Enumerate three lists:
 
-**Entities** — every actor, concept, product, event, country, person, firm mentioned. Include secondary mentions ("they're competing with X" counts). Absence of evidence is not evidence of absence.
-
-**Data points** — every price, AUM figure, percentile, growth rate, date, deal term, production volume, headcount. Exact figures with attribution.
-
-**Images/charts** — for each screenshot or chart provided, identify which CONCEPT it depicts, not which source it came from. A yield percentile chart is a "CLO yield data" chart, not a "Rieder interview chart."
+- **Entities** — every actor, concept, product, event, country, person, firm mentioned. Include secondary mentions ("they're competing with X" counts).
+- **Data points** — every price, AUM figure, percentile, growth rate, date, deal term, production volume, headcount. Exact figures with attribution.
+- **Images/charts** — for each screenshot or chart, identify which CONCEPT it depicts, not which source it came from. A yield percentile chart is a "CLO yield data" chart, not a "Rieder interview chart."
 
 Present enumeration to user as a table before vault work begins.
 
-## Phase 1.5: Verification
+## Phase 1.5: Classify before writing
 
-Classify every data point from Phase 1 before writing anything into the vault:
+Four gates run in order before any vault writes. Each gate filters what gets written, where it goes, and how confident the framing is. Run cold research (gate 4) last because it depends on knowing what concept-level writes are planned.
 
-**Verifiable facts** — numbers, dates, policy decisions, market data that can be independently checked:
-- Central bank rates → check each CB's actual latest decision
-- AUM/fund flow figures → check ICI, fund filings, or provider data
-- GDP/economic data → check BEA, FRED, or official releases
-- Earnings revisions → check FactSet, Bloomberg, or S&P data
-- Prices, yields, spreads → check against DB or market data sources
+**Output a single classification matrix to the user before writes start** — one row per entity / data point, columns for the four gate outputs. The matrix makes the decisions visible so the user can object before writes begin. Example:
 
-For each verifiable fact: research it. If confirmed, write with attribution to both the source speaker and the confirming data. If contradicted, flag the discrepancy in the note — "Rieder cited X; [source] shows Y." If unverifiable (no accessible source), write as a claim attributed to the speaker, not as established fact.
+| Entity / data point | Verified? | Filing (concept vs actor) | Vault of record | Cold research run? |
+|---|---|---|---|---|
+| [[Rapidan Energy Group]] founding date | ✓ wiki | Actor | Investing | n/a (data) |
+| Rapidan $150 trigger call | speaker | Actor (call + pattern) | Investing | n/a (data) |
+| US crude export-controls framework | ✓ multi-source | New concept note | Investing primary; History gloss | yes |
+| 1975 EPCA statute | ✓ wiki | n/a (history vault) | History | n/a (history-side write) |
 
-**Sourced opinions** — views, predictions, frameworks, interpretive claims:
-- Market positioning rationale ("credit markets amazingly resilient")
-- Policy predictions ("employment is the bigger structural problem")
-- Strategic preferences ("tech investing better in equities")
-- Macro interpretations ("very far from crisis")
+### Gate 1: Verify — facts vs. opinions
 
-For each opinion: attribute to the speaker. Note whether it aligns with or contradicts existing vault views (check the relevant concept note for other voices). If contrarian, say so. If consensus, say so. Don't present one person's view as established truth.
+Split every data point into:
 
-**The gate:** Do not write unverified factual claims as facts. The vault's value depends on accuracy — a wrong number written confidently is worse than a gap.
+- **Verifiable facts** (numbers, dates, policy decisions, market data) — research and confirm. If confirmed, write with attribution to source AND confirming data. If contradicted, flag the discrepancy. If unverifiable, attribute to the speaker — don't promote a claim to fact just because the source asserted it.
+- **Sourced opinions** (views, predictions, frameworks) — attribute to the speaker. Note alignment or contradiction with existing vault views; don't present one person's view as established truth.
 
-## Phase 1.6: Classify content — concept vs. application
+**Why it matters:** the vault's value depends on accuracy — a wrong number written confidently is worse than a gap.
 
-Before any vault writes, classify each substantive data point from Phase 1 by filing location. This is the gate that prevents framework material from getting buried inside actor notes through source-gravity alone.
+Full process: `docs/research-workflow.md#two-track-source-verification` and `#fact-checking-non-filing-sources`.
 
-**The test.** For each data point, ask: *does this describe what an entity IS or DOES, or does it describe a structure, mechanism, framework, or policy that exists regardless of the entity?*
+### Gate 2: Classify content — concept vs. actor
 
-- **What an entity is or does** → lives in the entity's note. Examples: "Rapidan is a DC energy consultancy founded by McNally," "Rapidan called X on date Y," "McNally's White House network is the source of the call."
-- **Structure, mechanism, framework, or policy** → lives in a concept note, regardless of who articulated it. Examples: transmission math between oil prices and pump gasoline, legal authorities that activate export controls, historical precedent for a policy option, bidirectional scenario maps for an intervention.
+For each substantive data point, ask: *does this describe what an entity IS or DOES, or does it describe a structure, mechanism, framework, or policy that exists regardless of the entity?*
 
-**The warning signs.** A subsection inside an actor note starts looking like its own note when it contains any of:
+- Entity behavior → entity's note
+- Structure / mechanism / framework / policy → concept note, regardless of who articulated it
 
-- Historical context predating the actor's involvement (1975 legislation, 2015 repeal, 2022 precedent)
-- Transmission math, formulas, or quantitative frameworks usable outside this source
-- Structural consequences tables ("if X, then Y") that would apply to any analyst calling the same thing
-- Asset-exposure mapping across unrelated names
-- Activation pathways or legal mechanics
-- A Synthesis paragraph — actor notes don't need one; concept notes do
+Attribution is not filing. When a named analyst says X, the storage impulse is "put it in their note" — resist. Any other shop calling the same thing in six months should land in the same concept note with different attribution.
 
-If two or more of the above appear in a subsection, extract to a concept note. The actor keeps only the firm-specific call, pattern, and attribution.
+Warning signs that an actor-note subsection should be a concept note: contains historical context predating the actor's involvement, transmission math or formulas, structural consequences tables, asset-exposure mapping across unrelated names, activation pathways, or its own Synthesis paragraph. Two or more → extract.
 
-**Attribution is not filing.** When a named analyst or firm says X, the default storage impulse is "put it in their note." Resist. Attribution tracks *who said it*; filing tracks *what it is*. Any other shop calling the same thing in six months should land in the same concept note with different attribution — not create a parallel discussion inside a different actor note.
+**Why it matters:** framework content trapped inside an actor note is invisible to future vault searches that reason by topic, not by source. Premature concept stubs are cheap; trapped framework content is expensive.
 
-**When in doubt, create the concept note.** The cost of a premature concept stub is low (it can grow over time). The cost of framework content trapped inside an actor note is high — it is invisible to future vault searches that reason by topic, not by source.
+Full discussion: `docs/vault-note-guide.md#concept-vs-actor-classification`.
 
-**Add the classification to the Phase 2 survey table** as an extra column so decisions are explicit before writes begin:
+### Gate 3: Classify vault of record — lens test
 
-| Entity / data point | Status | What's new | Filing decision |
-|---|---|---|---|
-| [[Rapidan Energy Group]] | Full note | $150 trigger call | Actor: keep the call + pattern |
-| $150 trigger framework | (concept-level) | Transmission math, legal mechanics, precedent | New concept: [[US crude export controls]] |
-
-## Phase 1.7: Classify content — vault of record (lens test)
-
-The concept-vs-actor gate (1.6) decides *where within this vault* content lives. This gate decides *which vault owns the content* in the first place. Run it after 1.6 but before any writes.
-
-**The test.** For each substantive block of content, ask: *which vault's lens does this content primarily live in?*
-
-Each sibling vault has its own lens — the angle it looks at the world through:
+For each substantive block, ask: *which vault's lens does this primarily live in?*
 
 | Vault | Lens |
 |---|---|
-| Investing | Market impact, positioning, prices, portfolio implications — what should I own today and why |
-| History | "How did we get here" — durability, precedent, structural breaks, long-arc patterns |
-| Technologies | Foundational tech shifts — chip architectures, fab capacity, model breakthroughs, supply-chain evolution |
-| Geopolitics | Statecraft, alliances, sanctions architecture, military operations, diplomatic timelines |
-| Brazil | Brazilian actors, markets (BRL, B3, DI, Ibovespa, ADRs), domestic institutions, domestic policy |
+| Investing | Market impact, positioning, prices, portfolio implications |
+| History | "How did we get here" — durability, precedent (5-year test) |
+| Technologies | Foundational tech shifts — chip architectures, fab capacity, model breakthroughs |
+| Geopolitics | Statecraft, alliances, sanctions, military operations |
+| Brazil | Brazilian actors, markets, institutions |
 
-Content can touch multiple lenses — an Iran oil story engages investing (WTI price), geopolitics (Strait of Hormuz), and possibly history (prior oil shocks). One lens is primary; the others get a 1-2 sentence gloss and an `obsidian://` link in the respective vaults.
+One lens is primary. Others get a 1-2 sentence gloss + `obsidian://` link. Durable content embedded in transient notes inherits the transient half-life — keep durable content in durable vaults.
 
-**Durability corollary (history specifically).** For content that *could* live in history, a sharper test: *will this still be true, and still be the primary place to find this, in five years?* Yes → history owns it; investing gets a gloss. This is the cleanest version of the lens test for history because history's lens is fundamentally about durability. For the other sibling vaults, use the lens directly — "is this a tech-architecture story?", "is this a statecraft story?", "is this a Brazil-domestic story?"
+Warning signs investing is being used as a dumping ground (passed legislation cited as live variable, "how did we get here" framing, narrative arc with beginning-middle-end, content that doesn't change based on today's price/position) → vault of record is a sibling. Two or more apply → write the primary content in the sibling vault, gloss + link in investing.
 
-**Vault ownership by content type:**
+Cross-vault writes are real writes to plan in this phase, not links to add at the end.
 
-| Content type | Vault of record | Investing treatment |
-|---|---|---|
-| Legislation, statutes, policy regimes (1975 EPCA, Glass-Steagall, Dodd-Frank) | History | Gloss + link |
-| Historical crises, prior-cycle patterns (1970s stagflation, 2008 GFC, 2015 CNY devaluation) | History | Gloss + link for precedent |
-| Long-arc technology shifts (transistor, EUV origins, Bell Labs) | Technologies | Gloss + link when referenced |
-| Foundational chip/model architectures (transformer, TPU, HBM origins) | Technologies | Ticker-level exposure only |
-| Military operations, diplomatic timelines, sanctions architecture | Geopolitics | Market-impact lens only |
-| Alliance shifts, multilateral frameworks (BRICS, AUKUS) | Geopolitics | Market-impact lens only |
-| Brazilian domestic politics, institutions, Plano Real | Brazil | Market impact (BRL, B3, ADRs) only |
-| Brazilian macro policy, Copom decisions, fiscal framework | Brazil | Market impact only |
-| Current positioning, price action, portfolio impact | Investing | Full treatment |
-| Live policy triggers, active frameworks (Rapidan $150) | Investing | Full treatment |
-| Current event narratives being written in real time | Investing or event-specific vault | Full treatment |
+Full ownership table + warning signs: `docs/cross-vault-rules.md#vault-of-record--the-lens-test`.
 
-**Warning signs that investing is being used as a dumping ground:**
+### Gate 4: Cold research pass — when framing-level writes are planned
 
-- Content whose natural home is another vault's lens (legislation → history; chip architecture → technologies; diplomatic timeline → geopolitics; Brazilian institution → Brazil)
-- Dates predating the vault's time horizon (investing thinks in months/quarters; 5+ years old is history)
-- Passed legislation cited as live variable (it's history once enacted)
-- Narrative arc with beginning-middle-end (that's a historical story; investing writes the open chapter)
-- "How did we get here" framing (literally history's lede question)
-- Content that doesn't change based on today's price, position, or catalyst
+Triggers when the planned write would change *framing*: new concept note, new `## Synthesis` section, framework expansion in an existing concept note, retitling/rewriting an existing section, reframing an actor note's thesis or "Why X matters" paragraphs.
 
-If two or more apply, the content's vault of record is a sibling vault. The investing note gets the gloss and link.
+Does NOT trigger for: dated subsections under existing framing, new rows in existing tables, quarterly earnings sections, price refreshes, Related-section additions, stub creation (no synthesis to bias yet).
 
-**Proximity bias warning.** The working directory pulls toward inlining. Writing across vaults requires a context switch. Pay the switch cost — future-retrieval from the wrong vault is more expensive than one context switch now.
+The discipline: WebSearch the *concept itself* — not the source — and pull authoritative framings (agency reports, academic work, research houses). If the field's framing diverges from the source's, the concept note's structural framing follows the field. The source contributes data points and attribution inside the structural frame.
 
-**Durability mismatch.** Durable content inherits the half-life of whatever note it's embedded in. A 1975 statute embedded in a 2026-Rapidan concept note gets archived with that concept note. Keep durable content in durable vaults.
+Test question before writing: *"If I hadn't ingested this source, what would a domain-independent research pass say is central?"* Anything that fails this test is source anchoring; rewrite.
 
-**Output the cross-vault filing decisions alongside the concept/actor decisions** before any writes begin. Flag any cases where a sibling vault needs a new note — that is a write to plan, not a link to add at the end.
+**Why it matters:** ingestion is the single largest generator of recency and source-anchoring bias. The source you just processed has the most gravity in your context. Skipping this gate is the dominant source of synthesis bias in ingested content.
 
-## Phase 1.8: Cold research pass (triggers when any framing-level write is planned)
+Full process: `docs/research-workflow.md#cold-research-pass`.
 
-The gate is the kind of write, not the kind of note. Run the cold research pass whenever the planned write would change *framing* — not just when a new concept note is being created.
-
-**Triggers (any of):**
-- New concept note
-- New `## Synthesis` section in any note
-- Framework/mechanism/precedent expansion inside an existing concept note
-- **Retitling or rewriting an existing section** in a concept or event note (e.g., renaming "Chile nationalization risk" to "Chile political framework" — the section's interpretive lens changed, even though the note already existed)
-- **Reframing an actor note's thesis, "Why X matters," or Investment case paragraphs** — these carry framing load
-- Any rewrite where significant new context from this ingestion is about to re-interpret existing vault content
-
-**Does NOT trigger** (these are data-inserts, not framing-shifts):
-- Adding a new dated subsection that describes what happened without reframing surrounding analysis (Apr 16 sigma event under existing supply/demand framing is fine)
-- New rows in existing tables, new quarterly earnings sections, price refreshes
-- Related-section additions, wikilink fixes, cross-vault link insertions
-
-Run it BEFORE Phase 2 vault survey.
-
-Ingestion is the single largest generator of recency and source-anchoring bias in the vault. The source you just processed has the most gravity in your context, which pulls the concept's central framing toward whatever the source articulated. This is exactly wrong: the source is one data point; the concept is the field.
-
-**The discipline:**
-
-1. For each concept-level item flagged in Phase 1.6, run WebSearch on the concept itself — not on the ingestion source. Use queries a domain-independent researcher would use ("X market structure 2026 analyst consensus," "X regulatory framework 2026 academic," "X structural analysis CSIS/RAND/agency").
-2. Pull authoritative framings from the field: agency reports, academic work, law-firm annual reviews, research houses (Wood Mackenzie, CSIS, IEA, sector specialists).
-3. Compare what the field says is central against what the source framed as central. If they diverge, the concept-note framing follows the field, not the source. The source contributes data points and attribution inside the structural frame.
-
-**Test question before Phase 4 writes:** *"If I hadn't ingested this source, what would a domain-independent research pass say is central to this concept?"* Anything that can't be defended against that question is source anchoring; rewrite.
-
-**Canonical rule:** `docs/research-workflow.md#cold-research-pass` — full failure modes, scope, test question.
-
-**When to skip:** Pure actor-note expansion with no concept-level writes. Data-point inserts to existing concept tables without narrative/synthesis changes. Stubs being created for the first time (no synthesis yet to bias).
-
-This gate is what the 2026-04-16 All-In ingestion missed: the podcast's framing of [[David Sacks]] and [[Chamath Palihapitiya]] as the central voices on AI consolidation got written into concept notes as "the constraint" and "the counter-example" when the actual field — DMA, UK CMA, DOJ — had been prosecuting the same pattern for 6+ months. That was source anchoring on a specific ingestion, exactly the failure this phase exists to prevent.
-
-## Phase 2: Vault Survey
+## Phase 2: Vault Survey + Gap Audit
 
 For each enumerated entity:
 
 1. Check vault: `python scripts/check_before_create.py "Name"` for new entities
 2. If exists → read the note, assess what's already covered vs. what's new
 3. If missing → flag for creation
+4. **Gap audit.** While reading each existing note, identify *structural* gaps — content the note should have regardless of this source. Reading the existing note in detail is the rare moment when gaps become visible; catch them then or they stay.
 
-Report a survey table:
+Structural gap categories: taxonomy entries missing from a list, engineering / mechanism content missing on a tech topic, hub/sub-hub branches the concept tree should have, relationship gaps in Related sections, pre-2024 historical arc on actors whose recent decisions need backstory, quantitative series missing on a public entity (ratings history, fund flows, debt-to-GDP).
 
-| Entity | Status | What's new from this source |
-|---|---|---|
-| [[Entity A]] | Full note | New AUM figure, quote |
-| [[Entity B]] | Stub | Full expansion warranted |
-| [[Entity C]] | Missing | Create — mentioned 3x with hard data |
+Survey table:
 
-Every row gets processed. No silent skips.
+| Entity | Status | What's new from this source | Gaps exposed (fill or TODO) |
+|---|---|---|---|
+| [[Entity A]] | Full note | New AUM figure, quote | — |
+| [[Entity B]] | Stub | Full expansion warranted | Governance, debt profile, post-2024 history |
+| [[Entity C]] | Missing | Create — mentioned 3x with hard data | — |
+| [[Robotics]] (cross-vault) | Full note (technologies) | Nothing technical | UUV/USV row missing from Types taxonomy |
+
+Every row gets processed. No silent skips on either column.
+
+**Gap disposition.** If the source can close the gap cleanly with a primary source *right now*, do it in the same pass — the ingestion paid the cost of opening the file. If not, log the gap in the daily note as a research follow-up with what kind of source would close it.
+
+Two biases to resist: "I noticed a gap so I should write something" (manufactures source-anchored content pretending to be category-level) and "I noticed a gap but the source can't fill it so I'll move on silently" (lets the gap stay invisible). Log the gap; don't fabricate filler.
 
 ## Phase 3: Image Routing
 
@@ -239,6 +183,8 @@ Process the full survey table:
 
 **3+ actors touched by one event** → create Event note in `Events/`. Actor notes carry short summary + wikilink.
 
+**Copyright on quoted material:** max 15-word quotes from copyrighted articles. Paraphrase the rest with attribution.
+
 ## Phase 5: Daily Note
 
 Update `investing/Daily/YYYY-MM-DD.md`. Run `date` to confirm current date.
@@ -256,19 +202,4 @@ Format:
 
 Every entity touched must appear here — the daily note hook validates this.
 
-**Cross-vault gate:** After completing updates, check sibling vaults per `docs/cross-vault-rules.md`. Flag to user.
-
-## Rules
-
-These rules are specific to single-source ingestion. General vault rules live in CLAUDE.md and docs/.
-
-- **Present before analyzing** — summary first, vault work after user confirms
-- **Classify content before writing** — Phase 1.6 gate. Framework/mechanism/precedent material goes in concept notes, not subsections of actor notes. Attribution is not filing.
-- **Classify vault of record before writing (lens test)** — Phase 1.7 gate. Each sibling vault has its own lens: history = "how did we get here" (durability, precedent), technologies = foundational tech shifts, geopolitics = statecraft/alliances/sanctions, Brazil = Brazilian actors/markets/institutions, investing = market impact/positioning. Content can touch multiple lenses; one is primary. The 5-year durability test is the sharp corollary for history specifically. Durability mismatch traps durable content with transient half-lives.
-- **Cold research pass before concept writes** — Phase 1.8 gate. Any time the ingestion produces concept-level writes (new concept note, new `## Synthesis` section, framework expansion), WebSearch the concept itself — not the source — and compare the field's framing to the source's. The source contributes data points and attribution; the concept note's structural framing follows the field. Full rule: `docs/research-workflow.md#cold-research-pass`. Skipping this is the dominant source of synthesis bias in ingested content.
-- **Charts follow concepts, not sources** — route images to concept notes, not actor/source notes
-- **Images create the reason to touch a note** — even if that note wasn't otherwise on the update list
-- **Full entity sweep** — every name, every number, every aside gets processed
-- **Every chart needs a data table** — reader sees numbers alongside visualization
-- **Daily note placement** — `## Notes created/expanded` section, before `## News ingestion` or `## Edit log`
-- **Copyright** — max 15-word quotes from articles; short quotes only
+**Cross-vault gate.** After completing updates, check sibling vaults per `docs/cross-vault-rules.md`. Flag to user.
