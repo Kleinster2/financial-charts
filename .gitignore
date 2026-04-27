@@ -24,14 +24,20 @@ __pycache__/
 .claude/skills/*/*
 !.claude/skills/news/
 !.claude/skills/news/SKILL.md
+!.claude/skills/news/evals/
+!.claude/skills/news/evals/evals.json
 !.claude/skills/ingest/
 !.claude/skills/ingest/SKILL.md
 !.claude/skills/earnings/
 !.claude/skills/earnings/SKILL.md
+!.claude/skills/earnings/evals/
+!.claude/skills/earnings/evals/evals.json
 !.claude/skills/report/
 !.claude/skills/report/SKILL.md
 !.claude/skills/deepdive/
 !.claude/skills/deepdive/SKILL.md
+!.claude/skills/deepdive/evals/
+!.claude/skills/deepdive/evals/evals.json
 !.claude/skills/newsletter/
 !.claude/skills/newsletter/SKILL.md
 !.claude/skills/story/
@@ -40,8 +46,13 @@ __pycache__/
 !.claude/skills/morning-scan/SKILL.md
 !.claude/skills/replicate/
 !.claude/skills/replicate/SKILL.md
+!.claude/skills/replicate/evals/
+!.claude/skills/replicate/evals/evals.json
 !.claude/hooks/
 !.claude/hooks/*
+!.claude/settings.json
+!.claude/scripts/
+!.claude/scripts/*
 .http_cache/
 # Front-end workspace state
 workspace.json

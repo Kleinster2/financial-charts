@@ -1,0 +1,67 @@
+{
+  "skill_name": "replicate",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run /replicate RPAR. Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, run scripts, browse the web, or execute any tools. Do NOT read any skill files from .claude/skills/ — work only from CLAUDE.md and your general knowledge. Instead, produce a detailed transcript of exactly what you would do at each phase, including the exact SQL/shell/Python commands, the proxy mapping table, the replication script structure, and the vault note modifications. Show your full reasoning for each decision.",
+      "expected_output": "Full phased transcript covering reconnaissance (existing RPAR note, DB check), holdings decomposition into asset classes, proxy mapping with hierarchy, tiered replication script, 4-chart set, vault note update with gap analysis",
+      "files": [],
+      "assertions": [
+        {"name": "phase0_vault_check", "type": "llm_judge", "prompt": "Does the agent check for an existing RPAR vault note and read it for prior work?", "discriminating": false},
+        {"name": "phase0_db_check", "type": "llm_judge", "prompt": "Does the agent check the database for existing RPAR price data?", "discriminating": false},
+        {"name": "phase0_holdings_search", "type": "llm_judge", "prompt": "Does the agent search for RPAR holdings data (fund website, SSGA, etc.)?", "discriminating": false},
+        {"name": "phase0_fund_characteristics", "type": "llm_judge", "prompt": "Does the agent determine fund characteristics (levered/unlevered, futures/cash, rebalancing frequency)?", "discriminating": true},
+        {"name": "phase1_asset_class_taxonomy", "type": "llm_judge", "prompt": "Does the agent decompose holdings into standard asset classes (equities, bonds, TIPS, commodities, etc.)?", "discriminating": false},
+        {"name": "phase1_proxy_mapping", "type": "llm_judge", "prompt": "Does the agent build a holdings-to-proxy mapping table with tradeable proxies for each holding?", "discriminating": true},
+        {"name": "phase1_proxy_hierarchy", "type": "llm_judge", "prompt": "Does the agent follow a proxy selection hierarchy (actual instrument > direct ETF > index+FX > broad ETF)?", "discriminating": true},
+        {"name": "phase2_tiered_replication", "type": "llm_judge", "prompt": "Does the agent plan at least 2 replication tiers (static weights AND dynamic/leveraged)?", "discriminating": true},
+        {"name": "phase2_shared_utils", "type": "llm_judge", "prompt": "Does the agent plan to use shared utilities from replication_utils.py (get_prices, build_index, etc.)?", "discriminating": true},
+        {"name": "phase3_four_charts", "type": "llm_judge", "prompt": "Does the agent plan to generate the standard chart set (normalized comparison + at least one more)?", "discriminating": true},
+        {"name": "phase4_gap_analysis", "type": "llm_judge", "prompt": "Does the agent plan a gap analysis explaining what the residual between replication and actual fund reveals?", "discriminating": true},
+        {"name": "phase4_results_table", "type": "llm_judge", "prompt": "Does the agent plan a results table comparing total returns of actual fund vs replication tiers?", "discriminating": true},
+        {"name": "ticker_naming", "type": "llm_judge", "prompt": "Does the agent use the naming convention RPAR_REPL / RPAR_REPL_DYN for synthetic tickers?", "discriminating": true},
+        {"name": "prices_long", "type": "llm_judge", "prompt": "Does the agent plan to store synthetic tickers in prices_long (narrow format)?", "discriminating": true}
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Run /replicate NTSX — the WisdomTree US Efficient Core ETF. It's basically a 90/60 portfolio using Treasury futures overlay. Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, run scripts, browse the web, or execute any tools. Do NOT read any skill files from .claude/skills/ — work only from CLAUDE.md and your general knowledge. Instead, produce a detailed transcript of exactly what you would do at each phase, including the exact SQL/shell/Python commands, the proxy mapping table, the replication script structure, and the vault note modifications. Show your full reasoning for each decision.",
+      "expected_output": "Full phased transcript recognizing NTSX as a leveraged fund, modeling financing costs, using Treasury futures proxies, building tiered replication with leverage modeling",
+      "files": [],
+      "assertions": [
+        {"name": "identifies_leverage", "type": "llm_judge", "prompt": "Does the agent identify NTSX as a leveraged fund (90% equity + 60% bond overlay = 150% gross exposure)?", "discriminating": false},
+        {"name": "financing_cost", "type": "llm_judge", "prompt": "Does the agent model financing/leverage costs (daily rate, SOFR + spread)?", "discriminating": true},
+        {"name": "treasury_futures_proxy", "type": "llm_judge", "prompt": "Does the agent use Treasury futures (ZN=F, ZB=F) or Treasury ETFs (TLT, IEF) as bond proxies?", "discriminating": false},
+        {"name": "equity_component", "type": "llm_judge", "prompt": "Does the agent identify the equity component as ~90% S&P 500 and select an appropriate proxy (SPY, ES=F)?", "discriminating": false},
+        {"name": "proxy_mapping_table", "type": "llm_judge", "prompt": "Does the agent build a holdings-to-proxy mapping table?", "discriminating": true},
+        {"name": "tiered_replication", "type": "llm_judge", "prompt": "Does the agent plan at least 2 replication tiers including one with leverage modeling?", "discriminating": true},
+        {"name": "shared_utils", "type": "llm_judge", "prompt": "Does the agent plan to use replication_utils.py shared utilities?", "discriminating": true},
+        {"name": "chart_set", "type": "llm_judge", "prompt": "Does the agent plan normalized comparison and rolling correlation charts?", "discriminating": true},
+        {"name": "gap_analysis", "type": "llm_judge", "prompt": "Does the agent plan a gap analysis explaining the residual (roll yield, cash collateral, rebalancing)?", "discriminating": true},
+        {"name": "ticker_naming", "type": "llm_judge", "prompt": "Does the agent use NTSX_REPL / NTSX_REPL_DYN naming convention?", "discriminating": true},
+        {"name": "vault_note_update", "type": "llm_judge", "prompt": "Does the agent plan to add a ## Replication analysis section to the vault note?", "discriminating": true},
+        {"name": "compliance_check", "type": "llm_judge", "prompt": "Does the agent plan to run check_note_compliance.py after updating the note?", "discriminating": false}
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I'm curious about DBMF — the iMGP DBi Managed Futures Strategy ETF. Can you replicate it so I can see what it's actually doing? Today is March 17, 2026. This is a dry run — do NOT actually modify the vault, run scripts, browse the web, or execute any tools. Do NOT read any skill files from .claude/skills/ — work only from CLAUDE.md and your general knowledge. Instead, produce a detailed transcript of exactly what you would do at each phase, including the exact SQL/shell/Python commands, the proxy mapping table, the replication script structure, and the vault note modifications. Show your full reasoning for each decision.",
+      "expected_output": "Full phased transcript recognizing DBMF as a futures-based managed futures fund, identifying trend-following exposures across asset classes, using futures proxies, handling currency and roll yield",
+      "files": [],
+      "assertions": [
+        {"name": "identifies_futures_based", "type": "llm_judge", "prompt": "Does the agent identify DBMF as a futures-based fund with trend-following exposure?", "discriminating": false},
+        {"name": "multi_asset_decomposition", "type": "llm_judge", "prompt": "Does the agent decompose DBMF holdings across multiple asset classes (equities, bonds, commodities, currencies)?", "discriminating": false},
+        {"name": "futures_proxies", "type": "llm_judge", "prompt": "Does the agent use actual futures tickers (ES=F, ZB=F, GC=F, CL=F, etc.) as proxies?", "discriminating": true},
+        {"name": "currency_awareness", "type": "llm_judge", "prompt": "Does the agent address currency considerations for international exposures?", "discriminating": true},
+        {"name": "proxy_mapping_table", "type": "llm_judge", "prompt": "Does the agent build a holdings-to-proxy mapping table?", "discriminating": true},
+        {"name": "tiered_replication", "type": "llm_judge", "prompt": "Does the agent plan multiple replication tiers?", "discriminating": true},
+        {"name": "shared_utils", "type": "llm_judge", "prompt": "Does the agent plan to use replication_utils.py?", "discriminating": true},
+        {"name": "chart_set", "type": "llm_judge", "prompt": "Does the agent plan the standard chart set?", "discriminating": true},
+        {"name": "gap_analysis", "type": "llm_judge", "prompt": "Does the agent plan a gap analysis explaining what the residual reveals about the manager's strategy?", "discriminating": true},
+        {"name": "residual_insight", "type": "llm_judge", "prompt": "Does the agent frame the replication as revealing what the manager is actually doing (not just tracking error)?", "discriminating": true},
+        {"name": "vault_note_section", "type": "llm_judge", "prompt": "Does the agent plan a ## Replication analysis section in the vault note?", "discriminating": true},
+        {"name": "daily_note_entry", "type": "llm_judge", "prompt": "Does the agent plan a daily note entry summarizing the replication work?", "discriminating": false}
+      ]
+    }
+  ]
+}
