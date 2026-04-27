@@ -78,6 +78,28 @@ All three major labs ([[Anthropic]], [[OpenAI]], [[Google]]) have converged on t
 
 ---
 
+## Apr 26 2026 — memory becomes a product surface
+
+The persistence-layer thesis is now visible in official product surfaces, not just leaked roadmaps or OpenClaw behavior. The important shift: memory is moving from "prompt context" into a first-class product and infrastructure layer.
+
+| Platform | Current memory surface | Investment read |
+|----------|------------------------|-----------------|
+| [[OpenClaw]] | Local-first files, daily logs, long-term memory, and explicit recall-style workflows | Open reference implementation for user-owned persistence; proves demand but exposes safety, setup, and governance gaps |
+| [[Codex]] | Memories carry stable preferences, workflows, tech stacks, project conventions, and pitfalls across threads; Chronicle adds opt-in screen-context memory on macOS Pro | [[OpenAI]] is building the same persistence primitive inside developer tooling before a full consumer agent ships |
+| [[Claude Code]] | CLAUDE.md/rules plus auto memory: project-scoped markdown notes Claude writes and recalls across sessions | [[Anthropic]] has an auditable developer-memory substrate that feeds the broader Conway / Cowork / Managed Agents platform strategy |
+| [[Anthropic Managed Agents]] | Durable session log outside Claude's context window; harness can re-read selected event slices and resume long-horizon work | Persistence becomes hosted infrastructure, not just local files; enterprise lock-in shifts toward the agent control plane |
+| [[Conway]] | Reported unreleased always-on agent with triggers, browser/control surfaces, and proprietary extensions; unconfirmed by [[Anthropic]] | The strongest lock-in version: event-driven agent plus proprietary capability ecosystem |
+
+Two details matter for the investable theme.
+
+First, memory is not just "more context." [[Codex]] and [[Claude Code]] both distinguish durable guidance from learned memory. That creates a product taxonomy: rules tell the agent what must be true; memory tells the agent what has become useful through repeated work. Over time, the learned layer becomes harder to switch away from than the tool itself.
+
+Second, the privacy/security disclaimers are the moat boundary. Codex Chronicle is opt-in, macOS-only at launch, not available in the EU/UK/Switzerland, and stores generated memories locally as unencrypted markdown. Claude Code auto memory is also machine-local and auditable. Those constraints are not just compliance footnotes; they show why enterprise buyers may prefer managed persistence layers with permissions, session logs, credential vaulting, and auditability. [[Anthropic Managed Agents]] is the clearest move in that direction.
+
+The open question is whether persistence stays user-owned and portable, or becomes the new proprietary account system. If memory remains local markdown, switching costs are real but inspectable. If memory becomes a vendor-hosted session graph tied to tools, triggers, and permissions, it starts to look like the AI era's Active Directory.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -85,7 +107,16 @@ All three major labs ([[Anthropic]], [[OpenAI]], [[Google]]) have converged on t
 | Legal framework | None |
 | Technical standard | None |
 | Regulatory attention | None |
-| Key products | [[Conway]] (Anthropic, unreleased), [[OpenClaw]] (open-source) |
+| Key products | [[Conway]], [[OpenClaw]], [[Codex]] Memories/Chronicle, [[Claude Code]] auto memory, [[Anthropic Managed Agents]] |
+
+---
+
+## Sources
+
+- https://developers.openai.com/codex/memories
+- https://developers.openai.com/codex/memories/chronicle
+- https://code.claude.com/docs/en/memory
+- https://www.anthropic.com/engineering/managed-agents
 
 ---
 
@@ -93,6 +124,9 @@ All three major labs ([[Anthropic]], [[OpenAI]], [[Google]]) have converged on t
 
 - [[Conway]] — [[Anthropic]]'s unreleased always-on agent that would create this lock-in
 - [[OpenClaw]] — open-source alternative with user-owned persistence
+- [[Codex]] — OpenAI developer surface where memories and Chronicle now expose the persistence primitive
+- [[Claude Code]] — Anthropic developer surface with auto memory and project-scoped rules
+- [[Anthropic Managed Agents]] — hosted runtime where session state becomes durable infrastructure
 - [[Anthropic]] — building proprietary persistence layer
 - [[OpenAI]] — converging on same strategy
 - [[Google]] — converging on same strategy

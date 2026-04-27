@@ -90,8 +90,15 @@ JPM's leadership bench matters because the market treats the franchise as both i
 | Q2 '25 | $45.7B | $15.0B | $5.24 | $23.1B | $268 |
 | Q3 '25 | $47.1B | $14.4B | $5.07 | $23.4B | $295 |
 | Q4 '25 | $46.8B | $13.0B | $4.63 | $25.1B | $330 |
+| Q1 '26 | $50.5B | $16.5B | $5.94 | — | — |
 
 *Source: Company filings, CNBC. Stock price = quarter-end close. Q4 '25 adj. EPS $5.23.*
+
+### Q1 2026 — record markets quarter
+
+Net revenue $50.5B (+10% YoY); net income $16.5B (+13%); diluted EPS $5.94 vs $5.45 LSEG estimate. **Markets revenue $11.6B, +20% YoY — the largest quarterly markets result in the bank's history.** Investment banking fees +28% on stronger advisory and ECM activity. Asset & Wealth Management revenue $6.4B (+11%), pretax margin 35%. J.P. Morgan Payments $5.1B (+12%), fifth consecutive record quarter. The bank lowered full-year 2026 NII guidance from $104.5B to ~$103B.
+
+[[Patrick Foulis]] cited the markets-arm result in his April 24 2026 [[Financial Times|FT]] "golden age of arbitrage" essay as one of the headline data points evidencing the live trading-revenue beneficiary of geopolitical fragmentation and price dispersion. The framing: when basis between asset classes, between regional commodity grades, and between sanctioned and unsanctioned counterparties widens, the largest dealer franchise extracts the largest tax from the resulting flow. JPM's Q1 26 markets quarter is the cleanest live read on that mechanic. See [[Law of one price]] and [[Commodity trading houses]] for the broader fragmentation context.
 
 ### Bank-specific metrics
 

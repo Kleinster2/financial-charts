@@ -27,6 +27,18 @@ Hill's seat at House Financial Services makes his framing relevant for the insti
 
 *Source: Bloomberg Real Yield, Apr 24, 2026*
 
+### Bloomberg Tech follow-on (Apr 24, 2026)
+
+In a separate Bloomberg Tech "Balance of Power" segment the same day, Hill expanded on the same DOJ-closure news with three threads relevant to vault tracking:
+
+- On Powell after the probe closes: Hill expects [[Jerome Powell]] would leave the [[Federal Reserve]] Board at the end of his term rather than serve out the remaining governor seat — i.e., the DOJ closure removes both the criminal cloud and the procedural argument for Powell to stay.
+- On Warsh's policy direction: Hill said it is up to the Board of Governors how the Fed handles forward guidance, the dot plot, and the cadence of governor speeches — there is no statute that prescribes the [[Summary of Economic Projections]] or post-meeting press conferences. Hill is comfortable with Warsh re-tooling that communication architecture and explicitly does not want to micromanage the Board on it.
+- On the renovation overruns: Hill defended the framing that the building dispute was less about specific malfeasance and more about whether the cost was "disproportionate" given construction in DC, union labor, and historic-renovation factors — language that closely tracks how Trump publicly raised the issue. The Fed Inspector General now picks up the review.
+
+The Hormuz-related portion of the same Apr 24 interview is filed under [[2026 Strait of Hormuz crisis]] rather than here, since it bears on market pricing of the conflict, not on Hill himself.
+
+*Source: Bloomberg Tech, Apr 24 2026 — Kailey Leinz / Joe Mathieu interview with French Hill*
+
 ---
 
 ## Related

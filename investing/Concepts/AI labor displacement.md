@@ -41,6 +41,8 @@ Companies that have explicitly attributed layoffs to AI:
 | [[Amazon]] | Jan 2026 | 16,000 | ~3% | — |
 | [[Block]] | Feb 2026 | 4,000 | **40%** | **+24%** |
 | [[Clifford Chance]] | End 2025 | 10% back office | ~10% (back office) | Private |
+| [[Meta]] | Apr 23 2026 | 8,000 + 6,000 unfilled | 10% | +2.4% |
+| [[Microsoft]] | Apr 23 2026 | ~8,750 (voluntary buyout) | 7% of US workforce | +2.1% |
 
 [[Clifford Chance]]'s cut is notable as the first Magic Circle law firm to explicitly link headcount reductions to AI anticipation — see [[AI in legal services]].
 
@@ -85,6 +87,12 @@ Block's +24% stock reaction created a template:
 Dorsey said it explicitly: "Within the next year, I believe the majority of companies will reach the same conclusion." He's not predicting — he's creating a self-fulfilling prophecy by demonstrating the playbook.
 
 **The uncomfortable question:** How much of this is genuine AI capability replacing human work, vs. companies using "AI" as cover for overdue right-sizing that the market wouldn't reward under the old "restructuring" label?
+
+### Apr 23 2026 cluster — capex offset goes explicit
+
+[[Meta]] disclosed a 10% workforce cut (~8,000 employees, May 20 effective) plus 6,000 unfilled roles. [[Microsoft]] disclosed its first-ever voluntary buyout in 51 years (~7% of US, ~8,750 employees). Both came on the same day, both pointed at AI-capex offset rather than narrative cover. CNBC framed it: AI capex (Meta $115-135B 2026 guide; Microsoft $37.5B in a single Dec 2025 quarter) is now being financed in part by headcount reductions on the disclosure tape. Per Layoffs.fyi, ~92,000 tech workers had been laid off in 2026 YTD before the Apr 23 announcements; cumulative since 2020 nearing ~900,000. The Apr 23 cluster is structurally different from the 2025 attribution wave — it is two of the largest tech employers explicitly linking the cut to capex on the same day, with Microsoft breaking a 51-year precedent to do so via buyout rather than involuntary layoff.
+
+Read with [[Hyperscaler capex]]: the cluster makes the offset relationship visible. Hyperscalers are not just spending more on AI; they are visibly funding part of that spend through staffing reductions. The market's tolerance for that math will be tested at the Apr 29 megacap earnings cluster (Microsoft, Meta, Alphabet, Amazon all on the same day) — that is when capex guidance gets re-set against the headcount disclosures.
 
 [[Oxford Economics]]: "We suspect some firms are trying to dress up layoffs as a good news story rather than a bad one."
 

@@ -78,6 +78,22 @@
 
 The OECD sees the Fed holding rates flat through 2027: "reflecting rising headline inflation in the near-term, core inflation projected to remain above target through 2027, and solid projected GDP growth." But cautioned the Fed "need[s] to remain vigilant" — the current supply-induced energy shock "can be looked through provided inflation expectations remain well-anchored, but policy adjustment may be needed if there are signs of broader price pressures."
 
+---
+
+## Cross-country divergence (post-2020)
+
+The 1990s and 2000s were the *convergence* decades — global inflation was low and trending toward similar rates across major economies. The post-2020 era has reversed that. Cumulative five-year inflation has split sharply across the three largest macro blocks:
+
+| Country | Five-year cumulative (2021-2026) | Source |
+|---|---|---|
+| United States | ~22-25% (Foulis cites 25%; BLS CPI implies ~22% Mar 2021 → Mar 2026) | BLS |
+| [[Russia]] | ~51% (Foulis); annual rates 8-15% from 2022 onward, March 2026 annual 5.9% | Rosstat |
+| [[China]] | ~4% (Foulis); average annual 0.7% 2020-2025, March 2026 annual 1.0% | NBS |
+
+[[Patrick Foulis]] flags this divergence as the second-order consequence of the [[Law of one price]] retreat: when traded-goods markets fragment, headline inflation rates lose their convergence anchor. The downstream chain — bigger inflation gaps → bigger interest-rate gaps → bigger FX gaps → bigger asset-valuation gaps — is the opposite of the 1990s-2000s integration trade. Higher-inflation jurisdictions could see weaker currencies and lower equity valuations over the medium term, all else equal.
+
+The divergence is consistent with the [[OECD]]'s 2026 view that headline inflation is now driven heavily by *country-specific* energy and supply shocks rather than global commodity cycles — the same observation Foulis makes from the price-dispersion side.
+
 OECD GDP forecast: US 2.0% in 2026, 1.7% in 2027 (down from Q4 2025's 0.7% annualized).
 
 German Defense Minister Boris Pistorius: "To make it crystal clear, this war is a catastrophe for world's economies."
@@ -159,6 +175,10 @@ German Defense Minister Boris Pistorius: "To make it crystal clear, this war is 
 - [[Gold]] — inflation/real rate hedge
 - [[Treasury]] — real yields
 - [[Risk on risk off]] — inflation regime driver
+
+### Fragmentation regime
+- [[Law of one price]] — divergence as the second-order consequence of traded-goods market fragmentation
+- [[Patrick Foulis]] — author of the "golden age of arbitrage" frame
 
 ---
 

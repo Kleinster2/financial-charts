@@ -106,15 +106,29 @@ Largest crypto-focused VC allocation.
 
 ---
 
+## American Dynamism focus (Apr 2026)
+
+a16z's American Dynamism fund is the firm's vehicle for "critical industries" — defense, energy, manufacturing, supply chain, mining, maritime — where [[Erin Price-Wright]] is the GP fronting the sector. Apr 2026 deal flow visible from public reporting:
+
+| Deal | Round | Date | Notes |
+|------|-------|------|-------|
+| [[Ulysses]] | Series A | Apr 2026 | a16z American Dynamism led the $38M round; total $46M with seed; UUV/USV maritime robotics |
+
+Price-Wright's framing on Bloomberg Tech (Apr 24): the [[2026 Iran conflict market impact|Iran war]] has acted as a forcing function on Department of War procurement — early-stage companies are now being asked "how fast can you deliver 100, 1,000, 10,000" rather than running long acquisition cycles. Russia-Ukraine undersea cable cuts and [[Strait of Hormuz]] disruptions are her two cited proof points for the maritime-domain procurement urgency.
+
+---
+
 ## Related
 
 - [[OpenAI]] — portfolio company
 - [[Stripe]] — portfolio company
 - [[SSI]] — portfolio company (co-led seed)
 - [[Thinking Machines Lab]] — portfolio company (led seed)
+- [[Ulysses]] — portfolio company (led Series A, Apr 2026, American Dynamism)
+- [[Erin Price-Wright]] — general partner, American Dynamism
 - [[Sequoia Capital]] — peer
 - [[Benchmark]] — peer
 
 ---
 
-*Created 2026-01-16*
+*Created 2026-01-16 · Updated 2026-04-26*

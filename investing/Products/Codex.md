@@ -64,4 +64,16 @@ The majority of coding at [[OpenAI]] is now done via Codex internally. Pachocki 
 
 ---
 
-*Created 2026-03-07 | Updated 2026-04-10*
+## Memory and Chronicle (Apr 2026)
+
+OpenAI's official Codex docs now make persistence explicit. Codex Memories are off by default at launch and carry stable preferences, recurring workflows, tech stacks, project conventions, and known pitfalls from earlier threads into future work. They are stored locally under the user's Codex home directory as generated state rather than treated as checked-in project rules.
+
+Chronicle is the more strategic tell: an opt-in research preview for ChatGPT Pro subscribers on macOS that uses recent screen context to generate Codex memories. It is not yet available in the EU, UK, or Switzerland, requires Screen Recording and Accessibility permissions, consumes rate limits quickly, increases prompt-injection risk, and stores generated memories locally as unencrypted markdown.
+
+This is not yet a consumer personal agent. But it is the same primitive one would need for one: persistent context, tool/workflow recall, and a local memory substrate that compounds as the user works. See [[Intelligence portability]].
+
+*Sources: OpenAI Codex Memories docs; OpenAI Codex Chronicle docs (Apr 26 2026 snapshot).*
+
+---
+
+*Created 2026-03-07 | Updated 2026-04-26*

@@ -47,6 +47,16 @@ When the world's most famous value investor makes his biggest international bet 
 - Coincided with [[Japan corporate governance revolution|TSE governance reforms]] that were improving exactly the metrics (ROE, buybacks, PBR) that made these stocks cheap
 - Proved the "Japan is uninvestable" consensus was wrong
 
+## 2026 fragmentation read — sogo shosha as arbitrage franchise
+
+[[Patrick Foulis]]'s April 24 2026 [[Financial Times|FT]] "golden age of arbitrage" essay extends the Buffett read into a structural argument: the sogo shosha business model — built in the 19th century to bridge information and logistics gaps between fragmented commodity, energy, and industrial markets — is on a tear precisely *because* those gaps have re-opened. Foulis's framing is that Japan's trading houses are one of the cleanest beneficiary classes of the [[Law of one price]] retreat:
+
+- Physical commodity dispersion across [[WTI]] / [[Brent crude|Brent]] / Russian / Guyanese crude grades, copper, nickel, [[gold]], and LNG creates basis the houses already have desks, terminals, and shipping fleets to exploit.
+- The houses are diversified across the exact basket of asset classes that move on geopolitical news — energy, metals, food, infrastructure, power.
+- Their balance-sheet financing cost (yen funding) makes the carry attractive even before the basis trade.
+
+The Buffett position is therefore not just a value-investor bet on cheap Japanese conglomerates — it is a structural bet on the *return of fragmentation* as a regime. If the post-1990 convergence trade is reversing, the sogo shosha is one of the highest-leverage ways to express that view in liquid public equity.
+
 ## Related
 
 - [[Japan]]
@@ -54,3 +64,7 @@ When the world's most famous value investor makes his biggest international bet 
 - [[Japan corporate governance revolution]]
 - [[Warren Buffett]]
 - [[Berkshire Hathaway]]
+- [[Mitsubishi]], [[Mitsui]], [[Itochu]], [[Marubeni]], [[Sumitomo Corp]] — the five sogo shosha
+- [[Commodity trading houses]] — Western analog
+- [[Law of one price]] — fragmentation regime that revived sogo shosha relevance
+- [[Patrick Foulis]] — 2026 "golden age of arbitrage" framing

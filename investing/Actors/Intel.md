@@ -380,6 +380,18 @@ The strategic read is narrower than the price action. The quarter validates the 
 
 *Sources: [[Reuters]], Apr 23-24 2026; local yfinance close verification, Apr 24 2026.*
 
+### Bloomberg Tech post-print commentary (Apr 24, 2026)
+
+The intra-day commentary on Bloomberg Tech sharpened three threads from the print. [[Bloomberg Intelligence]] semiconductor analyst [[Kunjan Sobhani]] flagged the gross-margin beat as larger than the revenue beat — a quality signal for the foundry ramp, not just a top-line one. INTC traded as high as $85.22 intraday before settling at $82.54 (still above Intel's dotcom-era closing peak); [[NVIDIA]] traded sympathetically, up nearly 5% at session highs and closing at $208.27 (+4.3%) on the read-through that CPU demand strength validates the broader AI buildout cycle.
+
+Two pieces of forward color went beyond the press release. On 18A, Sobhani cited a six-to-seven-times increase in production expectations for the node alongside improving yield — implying Intel is now planning for materially more 18A wafer-starts than the original ramp called for. On [[Intel Foundry Services|14A]], Zinsner reportedly described external-customer revenue opportunity in "billions of dollars" rather than the previously-implied "hundreds of millions," with [[NVIDIA]] specifically named as the type of customer 14A is built to attract. That re-frames 14A from a roadmap line item into the actual external-foundry monetization vehicle — consistent with the [[TERAFAB]] / [[Tesla]] 14A signal from the Apr 23 Reuters review of [[SpaceX]]'s S-1.
+
+The PC caution that surfaced on the call is structural, not Intel-specific. Memory chips are short, and what supply exists is being routed to the highest-margin systems — data centers — leaving PC OEMs to absorb higher input costs into Q2. Intel's client guide reflects that, but the dynamic is industry-wide: AI capex is squeezing the consumer-electronics input stack.
+
+[[Cody Acree]] ([[Benchmark]]) raised his INTC price target from $76 to $105 the morning of the print, framing the upside around margin recovery toward Intel's historical 60s gross-margin range as internal-fab utilization improves. He explicitly described the turnaround as "very early days" — the 60s-margin reference is a multi-year ceiling, not a 2026 target.
+
+*Source: Bloomberg Tech, Apr 24 2026 — Ed Ludlow / [[Ian King]] / [[Kunjan Sobhani]] / [[Cody Acree]]*
+
 ## Quick stats
 
 | Metric | Value |
@@ -411,6 +423,11 @@ The strategic read is narrower than the price action. The quarter validates the 
 
 ### Securities
 - [[Intel securities]] — equity-market note
+
+### Coverage
+- [[Cody Acree]] — Benchmark equity research analyst, $105 PT (Apr 24 2026)
+- [[Kunjan Sobhani]] — Bloomberg Intelligence senior semiconductor analyst
+- [[Ian King]] — Bloomberg semiconductor reporter
 
 ### Business and ecosystem
 - [[Intel Foundry Services]] — own foundry subsidiary

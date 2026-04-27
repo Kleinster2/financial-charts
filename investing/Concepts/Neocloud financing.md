@@ -126,7 +126,21 @@ That distinction matters. It suggests the neocloud category is splitting in two:
 
 ---
 
-*Updated 2026-04-17*
+## Cross-border digital arbitrage angle (Apr 2026)
+
+[[Patrick Foulis]]'s April 24 2026 [[Financial Times|FT]] essay on the "golden age of arbitrage" identifies neoclouds as a *third* business model layered on top of the two above: a digital-arbitrage venue that rents remote AI-compute access across jurisdictions "without too many questions asked." The framing is Foulis's, not the operators': in a world where [[NVIDIA]] [[B200]] chips cost ~50% more in [[China]]'s grey market than in the US, and where AI inference tokens cost 10-100× less in China than in California, the option to *rent* compute located in one jurisdiction while serving demand from another becomes commercially valuable. This is the same logic that drives [[VPN]]-as-jurisdiction-shifting and crypto-mining migration; the neocloud variant adds GPU rental.
+
+Operationally this implies:
+
+- Geographic location of physical capacity is a margin variable, not just a latency variable. A neocloud in a low-cost-power, low-export-control jurisdiction can serve customers in higher-cost or higher-control jurisdictions.
+- KYC/AML on AI-compute customers becomes a compliance question that some operators will resolve more aggressively than others — the "without too many questions asked" framing is Foulis's read on actual market practice.
+- The [[US-China decoupling]] policy regime creates the dispersion that makes the arbitrage profitable; tighter enforcement compresses the arbitrage but also raises the price of the remaining cross-border capacity.
+
+This is distinct from the channel-stuffing question above. The "phone call" framing is about [[NVIDIA]]'s revenue quality; the cross-border arbitrage framing is about the structural reason there is durable demand for non-hyperscaler capacity. Both can be true.
+
+---
+
+*Updated 2026-04-26*
 
 ---
 
@@ -139,3 +153,6 @@ That distinction matters. It suggests the neocloud category is splitting in two:
 - [[GPU deployment bottleneck]] — shipped ≠ deployed
 - [[AI infrastructure financing risk]] — broader financing concerns
 - [[Microsoft]] — key customer across multiple neoclouds
+- [[Law of one price]] — fragmentation regime driving cross-border arbitrage demand
+- [[US-China decoupling]] — policy regime creating the dispersion neoclouds arbitrage
+- [[Patrick Foulis]] — "golden age of arbitrage" framing

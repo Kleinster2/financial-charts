@@ -193,6 +193,14 @@ The Saudi side of the asymmetry surfaced concretely the same week through the [[
 
 Cross-references: [[Iran conflict economic disruption]], [[Iran conflict war duration]], [[Robin J. Brooks]] Apr 24 entry, [[2026 Iran conflict market impact]], [[Hormuz Permanent Risk Premium]], [[Saudi PIF international retrenchment April 2026]].
 
+#### Apr 24 — Hill flags forward-curve underpricing
+
+[[French Hill]] (House Financial Services Chair, Bloomberg Tech "Balance of Power" Apr 24): "I'm watching that forward market in oil prices to see if they fully reflect that concern… if the war continues, it could be underestimated in the market." The framing matters because it comes from the chair of the committee that conducts oversight on financial-stability transmission, not from an analyst — i.e., a sitting policy-side voice publicly questioning whether the WTI/Brent forward curve is correctly pricing duration risk.
+
+Hill paired the warning with explicit support for the underlying campaign objectives ("ending the malfeasance, the mayhem of the Iranians… stop their ability to harass their neighbors all the way to Paris with threats of a ballistic missile and the export of terror through their proxies"). The combination — willing to hold the line on the war indefinitely + warning the curve may be underpricing the risk of a longer war — is the cleanest US-political signal that "no rush" remains the operating posture, with the cost expected to land on price-takers like the UK and Japan rather than on the US itself.
+
+*Source: Bloomberg Tech / Balance of Power, Apr 24 2026 — Kailey Leinz / Joe Mathieu interview with French Hill*
+
 ---
 
 ## Apr 21-22 corporate earnings confirm transmission into software, tobacco, and airlines

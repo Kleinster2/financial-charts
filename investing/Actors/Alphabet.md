@@ -33,6 +33,16 @@ An LA Superior Court jury (Mar 26) found [[Alphabet|Google]]'s [[YouTube]] liabl
 
 ---
 
+## $40B Anthropic commitment + GOOGL ATH (Apr 24, 2026)
+
+GOOGL closed $344.40 on Apr 24, a fresh all-time high, on confirmation that [[Google]] will invest up to $40B in [[Anthropic]] — $10B in cash upfront at a reported $350B pre-money valuation, with up to $30B more tied to milestones. The package is paired with a [[Google Cloud]] capacity commitment of about 5 GW over five years (FT-reported total cloud-agreement value ~$200B). Announcement broke during Bloomberg Tech and triggered intraday strength across the AI complex.
+
+The structural read is in the Anthropic event note: [[Google]] is funding a frontier-model rival (vs [[Gemini]]) because TPU and cloud monetization through the largest independent alternative to [[OpenAI]] outweighs the model-share cost. For Alphabet specifically, the deal anchors the [[TPU]] economic flywheel and locks Anthropic's compute spend onto Google Cloud at exactly the moment Anthropic's run-rate is compounding past $30B. See [[Anthropic hyperscaler financing surge April 2026]] for the Amazon parallel and the circular-financing frame.
+
+*Sources: FT (Apr 24-25), TechCrunch (Apr 24), Bloomberg Tech (Apr 24); local DB close $344.40 (Apr 24).*
+
+---
+
 ## Related
 
 - [[Google]] — core subsidiary
@@ -42,5 +52,9 @@ An LA Superior Court jury (Mar 26) found [[Alphabet|Google]]'s [[YouTube]] liabl
 - [[Hyundai]] — DeepMind partnership for Atlas AI
 - [[TurboQuant]] — KV-cache compression algorithm (Mar 2026)
 - [[Waymo]] — autonomous vehicles
+- [[Anthropic]] — up to $40B equity commitment; ~5 GW Google Cloud capacity (Apr 2026)
+- [[Anthropic hyperscaler financing surge April 2026]] — event-level deal context
+- [[TPU]] — Anthropic compute-spend monetization vehicle
+- [[Google Cloud]] — capacity-financing arm
 
-*Stub created 2026-03-24*
+*Stub created 2026-03-24 · Updated 2026-04-26*

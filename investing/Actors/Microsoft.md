@@ -460,6 +460,20 @@ This is another data point in the gradually fraying Microsoft-OpenAI relationshi
 
 ---
 
+## First-ever voluntary buyout (Apr 23, 2026)
+
+Microsoft announced its first voluntary retirement program in the company's 51-year history — a memo from leadership offered buyouts to about 7% of US employees, roughly 8,750 people based on the company's ~125,000 US workforce. Eligibility: senior director level and below whose age plus years of service total 70 or higher. Sales-incentive-plan participants are excluded. Eligible employees and their managers receive details May 7, with 30 days to accept.
+
+The structure (voluntary, age + tenure formula, excluded from sales) signals that this is a quality-of-exit decision rather than a forced reduction. Microsoft has done multiple rounds of involuntary layoffs over the past two years; the buyout format avoids the morale and PR cost of another round and preserves the option to keep more junior or sales-oriented staff. The 51-year first-ever framing matters: even at the depth of the 2009 cuts and the 2014 Nokia integration, Microsoft did not run a buyout program. The decision to do so now is an explicit signal that AI capex pressure (Microsoft spent $37.5B on data-center and infrastructure costs in the December 2025 quarter alone) is now offsetting headcount on a structural basis.
+
+The Apr 23 buyout paired with [[Meta]]'s same-day disclosure of a 10% workforce cut (~8,000 employees, May 20 effective). Combined ~16,750 announced jobs lost on a single day, framed across CNBC and others as the first cluster where AI capex is being explicitly offset by headcount. See [[AI labor displacement]] for the broader pattern. Q2 FY2026 earnings drop Apr 29 — the segment-level disclosure on where eligible employees concentrate will come from leadership commentary at that print.
+
+MSFT closed Apr 24 at $424.62 (+2.1% on the day, lifted in part by the AI complex broadly).
+
+*Sources: Microsoft internal memo via CNBC, TechCrunch, Bloomberg, CNN (Apr 23-24 2026); local DB close Apr 24 2026.*
+
+---
+
 ## Abilene data center lease (Mar 24, 2026)
 
 Microsoft signed a lease with [[Crusoe Energy]] for a ~700MW data center site in Abilene, Texas — directly adjacent to [[Oracle]] and [[OpenAI]]'s flagship [[Project Stargate|Stargate]] campus. The site was originally being developed for Oracle/OpenAI but both walked away after negotiations stalled over financing and OpenAI's shifting demand forecasts (Bloomberg, Mar 6). Microsoft stepped in after [[Meta]] (the initial expected tenant) did not close.

@@ -593,6 +593,18 @@ See [[Short interest]] for interpretation framework.
 
 Equity award cuts (Feb 19, 2026): Cut stock awards by ~5% for most employees - second consecutive year (10% cut in 2025). Redirecting to AI capex ($115-135B guidance for 2026). Reality Labs also laid off ~10% (~1,500 of 15,000) as Meta shifts from VR to wearables. Reality Labs has accumulated $70B+ in losses since 2021.
 
+### 10% workforce cut (Apr 23, 2026)
+
+Meta disclosed in an internal memo from Chief People Officer Janelle Gale that the company will lay off about 10% of its workforce — roughly 8,000 employees — with cuts taking effect May 20, 2026. Meta is also scrapping plans to fill ~6,000 currently-open roles. Gale framed the cuts as part of "continued effort to run the company more efficiently and to allow us to offset the other investments we're making" — i.e., the $115-135B 2026 capex guide.
+
+Reality Labs, which already absorbed a separate ~10% cut earlier, is not the focus of the May 20 round; the cuts span the broader organization. [[Meta Superintelligence Labs]] under [[Alexander Wang]] is expected to be largely spared, consistent with Meta's stated direction of redirecting savings into the frontier-AI build.
+
+The May 20 cuts pair structurally with [[Microsoft]]'s first-ever voluntary buyout program (Apr 23, ~7% of US workforce). Combined, the two announcements totaled ~16,750 jobs and provoked CNBC and others to frame this as the first cluster where AI capex is being explicitly offset by headcount on the same day. See [[AI labor displacement]] for the broader pattern.
+
+META closed Apr 24 at $675.03 (+2.4% on the day; the print preceded the broader market reaction to the [[Anthropic]] / [[Google]] $40B headline). Q1 2026 earnings drop Apr 29 — the segment-level disclosure on where the cuts are landing will come at that print.
+
+*Sources: Internal memo via CNN, Variety, NBC News, Bloomberg, CNBC (Apr 23-24 2026); local DB close Apr 24 2026.*
+
 ## Analyst timeline
 
 - Apr. 21, 2026 — Reuters: broke ground on a >$1 billion Tulsa data center, Meta's first in Oklahoma, with a >2 million sq ft footprint, Fortis Construction as GC, and explicit company funding for water and wastewater service.

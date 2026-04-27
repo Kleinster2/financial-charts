@@ -26,6 +26,18 @@ parent_actor: "Anthropic"
 
 ---
 
+## Memory layer (Apr 2026)
+
+Claude Code now has two explicit persistence mechanisms: human-written instructions and auto memory. CLAUDE.md / rules files carry project, user, local, or organization guidance; auto memory lets Claude write machine-local markdown notes for build commands, debugging insights, architecture notes, style preferences, and workflow habits it decides may matter later.
+
+The product-design distinction matters. CLAUDE.md shapes behavior but is not hard enforcement; auto memory is learned context, not policy. Each project gets a memory directory under `~/.claude/projects/<project>/memory/`, with `MEMORY.md` as the entry point and optional topic files. The first 200 lines or first 25 KB of `MEMORY.md` load at the start of each conversation, while topic files are read on demand.
+
+This gives [[Anthropic]] an auditable developer-memory layer before [[Conway]] ships publicly. It is less closed than the Conway extension model because users can inspect and edit the markdown files, but strategically it points in the same direction: the agent gets better by accumulating project-specific behavior over time. See [[Intelligence portability]].
+
+*Source: Claude Code memory docs (Apr 26 2026 snapshot).*
+
+---
+
 ## TeammateTool / Swarm Mode (Feb 2026)
 
 Upcoming feature — found in v2.1.19, currently feature-flagged:
@@ -102,7 +114,7 @@ The Mar 31 2026 source leak that exposed Claude Code's architecture also reveale
 | Prototype | 2024 (internal Slack) |
 | Public launch | May 2025 |
 
-*Updated 2026-03-21*
+*Updated 2026-04-26*
 
 ---
 

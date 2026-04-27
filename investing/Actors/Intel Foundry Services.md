@@ -145,6 +145,18 @@ What consensus assumes (update when you see estimates):
 
 ---
 
+## 14A external-customer ramp (Apr 24, 2026)
+
+After Intel's Q1 2026 print, CFO [[David Zinsner]] reframed the external-customer revenue opportunity around 14A in materially larger terms. The previous public reference point was external-foundry revenue contributions in the "hundreds of millions"; on the post-print Bloomberg Tech segment, the figure was described in "billions of dollars," with [[NVIDIA]] singled out as the type of customer 14A is built to attract.
+
+Two things make the 14A reframe operationally meaningful rather than aspirational. First, it converges with the Apr 23 [[Reuters]] readthrough of [[SpaceX]]'s S-1, where [[Elon Musk]] told Tesla analysts that Terafab would likely scale on Intel 14A — implying [[TERAFAB]] anchor demand lands on the cleaner external-foundry node Intel originally designed for outside customers, before [[Lip-Bu Tan]]'s March 4 reversal opened 18A back up. Second, [[Cody Acree]] ([[Benchmark]]) explicitly framed his $76 → $105 INTC PT around 14A "where they start to attract new customers" — making 14A external-foundry wins (not 18A internal yields) the variable now driving incremental upside in sell-side models.
+
+The outstanding gates are unchanged: yield trajectory, customer-named confirmation rather than tacit endorsement, and second-half external-customer announcements that move 14A from forecast to backlog.
+
+*Sources: Bloomberg Tech, Apr 24 2026 — [[Cody Acree]] / [[Kunjan Sobhani]]; [[Reuters]], Apr 23 2026 (SpaceX S-1 readthrough)*
+
+---
+
 ## Related
 
 - [[Intel]] — parent company

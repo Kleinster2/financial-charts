@@ -12,13 +12,13 @@ status: unreleased
 
 # Conway
 
-[[Anthropic]]'s unreleased always-on agent environment, discovered in the [[Claude Code]] source leak (Mar 31 2026). Not on Anthropic's public roadmap — an internal project revealed when a packaging error pushed ~512,000 lines of TypeScript to the public npm registry.
+[[Anthropic]]'s reported unreleased always-on agent environment, discovered in the [[Claude Code]] source leak (Mar 31 2026). Not announced by Anthropic or on its public roadmap — an internal project revealed when a packaging error pushed ~512,000 lines of TypeScript to the public npm registry.
 
 Conway operates as a standalone sidebar inside the [[Claude]] interface — not a chat window, a full agentic environment. It opens a dedicated page tied to a Conway instance.
 
 ---
 
-## Architecture (per leaked code)
+## Reported architecture (Apr 2026 leak snapshot)
 
 Three core sections:
 
@@ -45,11 +45,11 @@ The pattern mirrors [[Google]] Play Services on Android: MCP is the open foundat
 
 ### Connectors and tools
 
-Services plugged into the Conway instance, including a toggle that lets Claude-in-Chrome connect directly. Shows which external services are integrated.
+Services plugged into the Conway instance, including a toggle that lets Claude-in-Chrome connect directly. Shows which external services are integrated. Reporting on the leaked interface also described Conway as able to run [[Claude Code]] directly from the instance, making it a background agent surface rather than just a Claude chat sidebar.
 
 ### Automatic triggers
 
-Public web addresses that outside services can ping to wake the agent. Toggleable per service — determines which external events can activate Conway without user initiation.
+Public web addresses that outside services can ping to wake the agent. Toggleable per service — determines which external events can activate Conway without user initiation. Notification support makes the loop useful: Conway can wake on an event, work in the background, and alert the user when a task completes or a condition is met.
 
 ---
 
@@ -89,7 +89,7 @@ Unreleased. Discovered via leaked source code, not announced by [[Anthropic]]. F
 
 All three major labs ([[Anthropic]], [[OpenAI]], [[Google]]) appear to be converging on the same insight: the model is a loss leader, the persistent agent layer is the money product. Conway is Anthropic's entry in this race.
 
-*Source: Nate B Jones analysis of Claude Code source leak (Apr 8 2026); original leak Mar 31 2026*
+*Sources: Nate B Jones analysis of Claude Code source leak (Apr 8 2026); TestingCatalog / Dataconomy reporting on Conway interface details (Apr 1-3 2026); Roborhythms Conway summary (Apr 14 2026). Original leak Mar 31 2026.*
 
 ---
 
@@ -99,7 +99,8 @@ All three major labs ([[Anthropic]], [[OpenAI]], [[Google]]) appear to be conver
 |--------|-------|
 | Parent | [[Anthropic]] |
 | Product family | [[Claude]] |
-| Status | Unreleased (internal) |
+| Status | Unreleased (reported internal project) |
+| Confirmation | Not officially announced by [[Anthropic]] |
 | Discovered | Mar 31 2026 (source leak) |
 | Extension format | CNW.zip (proprietary, on top of MCP) |
 | Architecture | Standalone sidebar — search, chat, system |

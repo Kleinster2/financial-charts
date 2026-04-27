@@ -16,7 +16,7 @@ OpenAI's product portfolio has a hole:
 | Product | What it does | What it doesn't do |
 |---------|-------------|-------------------|
 | [[ChatGPT]] | Conversational AI | Doesn't act on your behalf |
-| Codex | Agentic coding | Developer-only, code-scoped |
+| [[Codex]] | Agentic coding | Developer-only, code-scoped |
 | Responses API / Agent SDK | Developer infrastructure | No consumer surface |
 
 What's missing: a persistent, always-on personal agent that manages the cross-platform reality of daily life — email triage, calendar conflicts, Slack follow-ups, file management, proactive task handling. [[OpenClaw]] proved this works. 200K+ developers validated it.
@@ -71,6 +71,7 @@ The gap between what OpenClaw demonstrated and what a non-technical user can saf
 - Messaging-first distribution: requires carrier/platform deals, raising the barrier for competitors
 - Peter Steinberger's developer credibility: draws open-source agent community toward OpenAI-aligned tools
 - "Kill 80% of apps" framing: every replaced app migrates its revenue to the agent-platform layer
+- [[Codex]] Memories / Chronicle: [[OpenAI]] already has a developer-scoped persistence substrate — stable preferences, recurring workflows, project conventions, and opt-in screen-context recall — that looks like the memory primitive a consumer agent would eventually need. It is not the product yet, but it reduces the distance from Codex-as-coding-tool to Codex-as-personal-agent substrate. See [[Intelligence portability]].
 
 ## Anthropic's competing vision: Conway (Apr 2026)
 
@@ -129,6 +130,7 @@ Peter's non-negotiable was open source. If OpenAI respects that, they get the ec
 ### Theses
 - [[Long Anthropic]] — this event is a bear case data point
 - [[Cloudflare agentic infrastructure]] — infrastructure beneficiary regardless of who wins
+- [[Intelligence portability]] — memory layer as the lock-in mechanism
 
 ---
 
@@ -137,5 +139,7 @@ Peter's non-negotiable was open source. If OpenAI respects that, they get the ec
 - Lex Fridman Podcast #491 (Feb 12, 2026) — primary source interview
 - [Anthropic's Biggest Miss of 2026](https://openclawsearch.com/blog/anthropic-biggest-miss) — OpenClaw Search
 - [OpenAI-OpenClaw Deal](https://businessengineer.ai/p/openai-openclaw-deal-and-the-war) — Business Engineer
+- [Codex Memories](https://developers.openai.com/codex/memories) — OpenAI Developers
+- [Codex Chronicle](https://developers.openai.com/codex/memories/chronicle) — OpenAI Developers
 
-*Created 2026-02-17*
+*Created 2026-02-17 | Updated 2026-04-26*

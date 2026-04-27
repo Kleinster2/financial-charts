@@ -41,6 +41,8 @@ But volatility has a cost before it pays. Holding physical cargo requires workin
 | 2024 | $92B (lowest since 2021) | Oil vol collapsed; metals +20%, oil desks –15% |
 | 2026 (Q1) | "Billions" of early-war losses | Iran war caught traders short |
 
+[[Patrick Foulis]]'s April 24 2026 [[Financial Times|FT]] essay frames the broader picture: combined commodity-firm and Wall Street trading-desk earnings reached ~**$140bn/year** by 2024-2025, roughly **2× the 2019 level**. The commodity-house slice is the [[Oliver Wyman]] $90-100B figure; the rest is bank trading desks ([[JPMorgan Chase]] markets arm posted a record $11.6B in Q1 2026 alone, +20% YoY — the bank's best markets quarter in its history). Foulis's framing: the combined number is the "tax" the world pays to incentivise traders to bridge fractured markets, and the doubling versus 2019 is the live measurement of how much wider the basis has gotten across asset classes since the pre-fragmentation regime.
+
 Oliver Wyman's 2026 baseline forecast is $90–110B/year excluding geopolitical events. The pre-pandemic run-rate is unlikely to return — the post-2022 environment has seen more frequent dislocations (Red Sea shipping, Hormuz closure, LNG redirections) that sustain basis volatility even without a single dominant crisis. Concurrently, the industry has grown up: trading houses now run proprietary shipping fleets, refineries, midstream assets, and renewable power platforms, generating physical-asset income that smooths over pure-trading cycles.
 
 The 2026 split within the industry is instructive. Oil desks were down 15% in 2024 because crude traded in an unusually narrow range; metals desks were up 20% because copper, aluminum, zinc, and nickel were moving on competing supply stories (Chinese demand, Indonesian nickel oversupply, [[Red Sea shipping disruption]] copper freight). The 2026 Iran war flipped the script again — oil volatility exploded and caught the consensus-short positioning.
@@ -114,5 +116,7 @@ The single most important structural shift is that trading houses are no longer 
 - [[Geneva]] — Swiss trading hub where most are domiciled
 - [[Saudi Aramco]], [[ADNOC]], [[Kuwait Petroleum]] — producer counterparties
 - [[Shadow fleet]] — sanctioned-oil tanker fleet operating outside the major traders
+- [[Law of one price]] — fragmentation regime driving the basis the houses trade
+- [[Patrick Foulis]] — "golden age of arbitrage" framing
 
 *Created 2026-04-12 from FT/Oliver Wyman 2026 commodity trading industry report.*

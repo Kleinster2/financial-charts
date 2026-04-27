@@ -37,6 +37,21 @@ The strategic separation of US and Chinese technology, trade, and financial ecos
 
 ---
 
+## Price-gap signal of decoupling (April 2026)
+
+By 2026 the decoupling has progressed far enough that identical or substitutable products show large, persistent price gaps between the two markets — direct violation of the [[Law of one price]]. [[Patrick Foulis]]'s April 24 2026 [[Financial Times|FT]] essay catalogued the dispersion as evidence of fragmentation:
+
+| Product | China price vs US | Mechanism |
+|---|---|---|
+| AI inference tokens | ~80% cheaper in China than California (Foulis); actual range 10-100× per tier (DeepSeek V4 Flash $0.14/$0.28 per M tokens vs Claude Sonnet $3/$15) | Domestic Chinese model providers ([[DeepSeek]], [[Qwen]], [[MiMo]], Step) competing on price; US providers competing on capability |
+| [[NVIDIA]] [[B200]] chips | ~50% more expensive in China grey market (Anhui-based "Gate of the Era" operator at this premium) | Export controls + grey-market premium for restricted chips; over $1B B200 reached China in three months post-controls |
+| Electric vehicles (Dalian vs Detroit) | ≥30% cheaper in Dalian | US-China auto trade is "minuscule" — de facto autarky lets domestic prices diverge |
+| Pharmaceuticals (China biotech licensing pipeline) | Substantial discounts emerging | "China's biotech boom is unleashing cheap breakthrough drugs" — pre-IPO and licensing-stage flow |
+
+The price-gap data is the *most tradable* signal that decoupling is structural rather than cyclical. As long as the two markets cannot clear at one price, the policy regime is the binding constraint, not commercial frictions. See [[Law of one price]] for the academic framing of when price gaps persist.
+
+---
+
 ## The investment thesis
 
 Decoupling creates winners and losers:
@@ -86,3 +101,6 @@ Key figures:
 - [[Donald Trump]] — initiated trade war (2018), expanded (2025)
 - [[Todd Young]] — CHIPS Act co-author
 - [[Jacob Helberg]] — Pax Silica architect
+- [[Law of one price]] — price-gap framing of decoupling
+- [[Patrick Foulis]] — "golden age of arbitrage" essay (FT, Apr 24 2026)
+- [[B200]] — 50% China grey-market premium as cleanest live segment-pricing measure

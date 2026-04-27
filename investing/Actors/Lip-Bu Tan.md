@@ -31,6 +31,18 @@ Also founding managing partner of Walden Catalyst Ventures, a separate deep tech
 
 ---
 
+---
+
+## Q1 2026 commentary (Apr 24, 2026)
+
+After Intel's Q1 2026 print blew past expectations and pushed [[Intel|INTC]] above its dotcom-era peak, Tan struck a deliberately cautious tone in post-call commentary picked up by Bloomberg Tech. The repeated framing was that Intel is "not all the way there" — a guard-rail against the price action getting ahead of the underlying turnaround. The tone matters because the stock's forward P/E (~90x) and the cleared dotcom-peak ($82.54 close) are now pricing a level of execution Tan has been careful not to promise.
+
+On the foundry side, Tan declined to name external customers or be explicit on [[TERAFAB]]/[[Tesla]] specifics in his phone-call commentary on the day, deferring to the broader narrative that 18A yields are improving and 14A is where new external-customer revenue is being modeled in billions rather than hundreds of millions. The strategic read: Tan is letting CFO [[David Zinsner]] carry the foundry numbers while he keeps Intel's external posture deliberately hedged.
+
+*Source: Bloomberg Tech, Apr 24 2026 — Ed Ludlow / [[Ian King]]*
+
+---
+
 ## Related
 
 - [[Intel]] — CEO (2025–)
@@ -39,3 +51,5 @@ Also founding managing partner of Walden Catalyst Ventures, a separate deep tech
 - [[Sriram Viswanathan]] — Celesta co-founder
 - [[SambaNova]] — board chairman; Celesta portfolio company
 - [[Intel Capital]] — Intel's corporate VC arm
+- [[Intel Foundry Services]] — foundry subsidiary, 14A external customer push
+- [[David Zinsner]] — Intel CFO (handles foundry guidance specifics)
