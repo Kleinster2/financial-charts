@@ -40,6 +40,9 @@ __pycache__/
 !.claude/skills/morning-scan/SKILL.md
 !.claude/skills/replicate/
 !.claude/skills/replicate/SKILL.md
+!.claude/hooks/
+.claude/hooks/*
+!.claude/hooks/check-tech-changelog.ps1
 .http_cache/
 # Front-end workspace state
 workspace.json
