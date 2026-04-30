@@ -50,6 +50,31 @@ But: HBM leadership has strategic value beyond near-term margins.
 
 ---
 
+## Q1 2026 print — pre-print lens (reporting late April 2026)
+
+Samsung delivers full Q1 detail (memory + foundry break-out) in late April; [[SK Hynix]] reports separately. [[Patrick Moorhead]] frames the Q1 read for [[Samsung]] as two coupled questions: HBM share against [[SK Hynix]], and advanced-packaging capacity. The vault's [[AI capex arms race]] thesis treats this pair of prints as one of six testable items in Phase 3 — Samsung is the cleanest single read on whether memory-bottleneck pricing power is broadening from SK Hynix's lead to a duopoly.
+
+### What the prints resolve — binary signal
+
+| Watch item | Why it matters | Current state |
+|---|---|---|
+| Samsung [[HBM4]] [[NVIDIA]] qualification status | Binary read on the structural thesis. SK Hynix is NVIDIA primary; Samsung is qualifying. A confirmed qualification means the duopoly view is right. No qualification means SK Hynix concentration premium widens. | Samsung shipped commercial HBM4 at ~$700/unit (+30% vs HBM3E) — pricing implies qualification confidence but not formal NVIDIA volume |
+| HBM revenue dollar disclosure (Samsung) | Samsung typically discloses memory mix. Whether HBM as % of memory revenue is rising is the share-gain tell. | HBM4 mass production started Feb 2026 |
+| HBM operating margin — both names | Samsung 50-60% op margin on HBM4. SK Hynix mid-$500s pricing may rise to match. Margin convergence vs persistence is the bargaining-power read. | Samsung 50-60% on HBM4; SK Hynix margin TBD on Q1 print |
+| Samsung foundry losses trajectory | Memory earnings get diluted by foundry. Foundry at 6.8% share, money-losing. Stabilization or shrinkage is the conglomerate-discount unwind catalyst. | Q4 2025: foundry losses widened |
+| SK Hynix HBM4 yield commentary | M15X capacity 2 months early. HBM4 yields determine whether margin premium widens or narrows as Samsung qualifies. | M15X early; HBM4 launched Feb 2026 |
+| 2026 memory capex guides — both names | Capex direction signals whether HBM supply is catching up to demand or staying constrained. Catching up = pricing power normalizes; constrained = pricing premium persists. | HBM4 fully sold out for 2026 before launch |
+| Advanced-packaging Texas turnkey progress | [[Samsung]] turnkey-bundle US play vs [[TSMC]] CoWoS monopoly. Capacity disclosure is the multi-year US-packaging-diversification read. | Texas turnkey announced; capacity ramp TBD |
+| Consumer DRAM vs HBM margin spread | UBS view: if general DRAM margins exceed HBM, SK Hynix concentration becomes a drag. | Memory shortage pricing supports both; spread direction TBD |
+
+### The framing
+
+The Samsung Q1 + SK Hynix Q1 pair is the cleanest test of whether the [[HBM]] memory bottleneck is a one-name story (SK Hynix) or a duopoly story (with Samsung qualifying). A confirmed Samsung NVIDIA HBM4 qualification flips the relative bet: not because Samsung becomes the better play, but because the pricing-power case for HBM as a category gets easier to underwrite when the supplier base broadens. Conversely, no qualification + SK Hynix margin premium expansion confirms the single-supplier concentration premium and the [[Samsung]] foundry drag stays the dominant variable.
+
+The structural read for the [[AI capex arms race]] thesis: HBM is one of the systems-scarcity bottlenecks identified in Phase 2. Whoever wins NVIDIA volume captures the pricing rent. Memory pricing was already up +40% through Q2 2026 (Counterpoint). The Q1 print is where that pricing power gets broken out by name.
+
+---
+
 ## Current view
 
 **Not a clean pair trade.** Both win in memory shortage. The question is relative outperformance:

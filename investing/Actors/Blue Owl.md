@@ -476,6 +476,16 @@ Sources:
 
 ---
 
+## Apr 28, 2026 — Saba/Cox tender offer rebuffed; <1% participation
+
+Per Bloomberg "The China Show" 4/28/2026 broadcast: Blue Owl Capital investors rebuffed a share buyout offer led by [[Saba Capital|Saba]]'s [[Boaz Weinstein]] and Cox Capital Partners. Sources told Bloomberg that holders tendered less than 1% of shares — Saba and Cox had offered to buy at a steep discount. The contained participation suggests the malaise in private credit has its limits: investors are not ready to cash out at below full value despite the OTIC/OCIC redemption-gate overhang, the 14-18% short interest, and the broader sector concerns.
+
+The rebuff is a net positive read on Blue Owl shareholder conviction — the institutional-capital base (post-[[PIMCO]] $400M bond purchase Apr 13, post-[[BlackFin Capital Partners]] minority stake Apr 14, post-ASOF IX $2.9B final close Mar 31) demonstrated continued willingness to absorb the unit-economic risk rather than lock in a discounted exit. For Saba/Weinstein, the failed tender confirms the closed-end-fund-discount play does not work in this manager's specific shareholder structure, even after the largest private-credit drawdown in decades. The stock price reaction to the rebuff news was muted; the Apr 28 print is a sentiment-stabilization event rather than an inflection.
+
+*Sources: Bloomberg "The China Show" 4/28/2026 broadcast; Saba Capital tender-offer disclosure (referenced).*
+
+---
+
 ## Related
 
 - [[Meta]] — major customer ($27B Hyperion deal)

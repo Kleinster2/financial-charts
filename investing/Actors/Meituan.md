@@ -134,6 +134,14 @@ Meituan's international food delivery arm. Launched in [[Brazil]] (Santos) in Oc
 
 ---
 
+## Apr 2026 — formalized China gig-worker rules
+
+[[China]] formalized new labor rules for gig workers — delivery riders most centrally — requiring platforms to align pay with measured labor intensity, cut commissions, improve working conditions, and submit to algorithm reviews. Full implementation targeted for 2027. Meituan, as the largest food-delivery platform with the largest rider workforce, sits at the center of the regulation's commercial impact: take-rate compression on every order, baseline cost increase on rider compensation, and structural pressure on the food-delivery price war with [[Ele.me]] / [[Alibaba]] and [[JD.com]]'s Delivery service.
+
+The regulator is using the labor rules in part to discipline a price war that has degraded both rider economics and unit profitability across all three players. Read in conjunction with [[PBOC]] governor [[Pan Gongsheng]]'s parallel anti-"involution" rhetoric on the financial sector, the framework signals that Beijing is willing to compress within-sector competition to stabilize sectoral economics. See [[China platform labor regulation]] for the full mechanics and investment implications.
+
+*Source: PBOC + State Council releases, Apr 2026; Bloomberg "The China Show" Apr 27 coverage.*
+
 ## Related
 
 - [[Keeta]] — international food delivery subsidiary (Brazil)

@@ -35,9 +35,23 @@ His presence at the [[Hill and Valley Forum]] reflects the convergence of energy
 
 ---
 
+---
+
+## Producer call urging more drilling (April 2026)
+
+Burgum and Energy Secretary [[Chris Wright]] held a call with oil and gas executives in mid-April 2026 to encourage higher production, per FT (Findlay, Apr 23 2026). The call followed sustained crude prices near $100 driven by the [[Operation Epic Fury|Iran conflict]] and ahead of the 2026 midterm elections where affordability has emerged as a major issue.
+
+US oil and gas rig counts remained flat following the call, and the [[Federal Reserve Bank of Dallas|Dallas Fed]] Q1 2026 Energy Survey showed 73% of producers expecting ≤+0.25 mb/d of 2026 production growth. Direct administration pressure failed to translate to drilling activity — see [[Shale supply discipline]].
+
+*Source: FT, Stephanie Findlay (Apr 23 2026).*
+
+---
+
 ## Related
 
 - [[Hill and Valley Forum]] — speaker (2025)
 - [[Donald Trump]] — appointed him
 - [[Microsoft]] — acquired his company
 - [[Pax Silica]] — critical minerals pillar relates to Interior Dept
+- [[Chris Wright]] — Energy Secretary; jointly held April 2026 producer call
+- [[Shale supply discipline]] — concept the producer call evidences

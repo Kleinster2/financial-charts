@@ -30,7 +30,7 @@ Before US investment restrictions tightened, Shen raised **~$9B from American pe
 
 - **[[MiniMax]]** M2.5 — #1 on OpenRouter by token volume (3.07T), competitive with Claude Opus 4.6 and GPT-5.2 on SWE-Bench
 - **[[Moonshot AI]]** (Kimi K2.5) — #2 on OpenRouter (1.16T tokens)
-- **[[Manus AI]]** — AI agent tool, invested at ~$85M valuation, acquired by [[Meta]] for $2B+
+- **[[Manus AI]]** — AI agent tool, invested at ~$85M valuation, $2B [[Meta]] acquisition (Dec 2025) ordered unwound by [[NDRC]] Apr 27, 2026; ~24× return claim now provisional. See [[Singapore washing]]
 - **[[StepFun]]** — generative AI
 
 The paradox: US capital funded the Chinese AI labs that are now eating into market share of the US labs that US policy is trying to protect. The regulations came after the money was already deployed.
@@ -55,12 +55,16 @@ But HSG raised its ~$9B **before** the restrictions took effect. The money was a
 - **2023**: Sequoia splits into three independent firms. Shen's China arm becomes **HongShan (HSG)**
 - **2023-2024**: Raises $9B from US institutions before investment restrictions tighten. Pivots heavily into AI
 - **2025-2026**: Portfolio companies ([[MiniMax]], [[Moonshot AI]]) dominate OpenRouter token volume, competing with Western frontier models
+- **Apr 27, 2026**: [[NDRC]] orders unwind of the [[Manus AI]] $2B Meta acquisition — the showcase exit Shen's [[Singapore washing|Singapore-routed]] thesis depended on. Founders [[Xiao Hong]] and [[Ji Yichao]] barred from leaving mainland China since Mar 22. Forward-monetization path for [[MiniMax]] / [[Moonshot AI]] / [[StepFun]] through similar offshore-restructuring exits now contested
 
 ## Related
 
 - [[HongShan]]
 - [[MiniMax]]
 - [[Moonshot AI]]
+- [[Manus AI]] — $2B Meta exit blocked by [[NDRC]] Apr 27, 2026
+- [[Singapore washing]] — the offshore-restructuring playbook Shen's thesis depended on
 - [[Unitree]]
 - [[US-China decoupling]]
 - [[China]]
+- [[NDRC]]

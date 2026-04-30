@@ -54,6 +54,28 @@ See [[2026 Strait of Hormuz crisis]] for the full Apr 17 transmission-channel re
 
 ---
 
+## Apr 27 — joint-product slate explains why airline cuts won't reset crude
+
+[[Financial Times|FT]] (Apr 27) made the structural case for why the airline cut wave that started this week — [[Deutsche Lufthansa|Lufthansa]], [[Delta Air Lines|Delta]], [[Cathay Pacific]], [[Qantas]] reducing flights — does not by itself bring down [[Oil|crude]]. Refining produces a roughly fixed product slate per barrel, so demand destruction in [[Jet fuel|jet]] alone reduces revenue from one cut while leaving the rest of the slate at shock-elevated prices. Refiners stay willing to bid for $100 crude as long as the *aggregate* slate clears.
+
+![[nw-europe-refined-products-vs-brent-apr2026.png]]
+*Northwest Europe refined product prices vs front-month [[Brent crude|Brent]] futures, $/bbl, Jan-Apr 2026. The fan-out from crude is the visible crack-spread blow-out: jet at ~$200, diesel ~$160, gasoline ~$120, Brent ~$100 in late April. Source: [[Argus Media]] via [[Financial Times|FT]].*
+
+The cross-product asymmetry the chart shows:
+
+| Product | Pre-shock (Jan) | Late Apr | Move | Crack vs Brent (late Apr) |
+|---------|------------------|-----------|------|---------------------------|
+| [[Jet fuel]] (NW Europe) | ~$90 | ~$200 | +120% | ~$100/bbl (vs ~$30 pre-shock) |
+| [[Diesel fuel]] (NW Europe) | ~$85 | ~$160 | +90% | ~$60/bbl (vs ~$25 pre-shock) |
+| [[Gasoline]] (NW Europe) | ~$70 | ~$120 | +70% | ~$20/bbl (vs ~$10 pre-shock) |
+| [[Brent crude|Brent]] front-month | ~$60 | ~$100 | +70% | — |
+
+The 3-2-1 crack stayed wide even as Brent gave back part of its peak — confirming that crack spreads are driven by product availability and slate-cut elasticity, not crude direction. See [[Refining slate rigidity]] for the full mechanism: why [[Bernstein|Bernstein]]'s 35% [[Ryanair]] fuel-cost share makes airlines first-movers, why the next price-rationing layers are diesel/gasoline and then [[Naphtha|naphtha]]/[[Fuel oil|fuel oil]], and why crude rebalancing requires demand destruction across the *whole* slate.
+
+*Source: FT, "Why flying less won't do much to ease the oil crisis" (Apr 27, 2026).*
+
+---
+
 ## Historical context
 
 | Period | Crack spread behavior | Driver |

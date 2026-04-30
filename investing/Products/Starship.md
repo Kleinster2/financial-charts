@@ -14,7 +14,9 @@ Starship — [[SpaceX]]'s fully reusable super-heavy launch vehicle. Designed to
 | Detail | Value |
 |--------|-------|
 | Manufacturer | [[SpaceX]] |
-| Payload to LEO | 100-150 metric tons (fully reusable) |
+| Payload to LEO (V3 reusable) | 100 metric tons |
+| Payload to LEO (V3 expendable) | ~200 metric tons |
+| Payload to LEO (target, mature) | 100-150 metric tons fully reusable |
 | Height | ~121 m (full stack) |
 | Engines | 33 Raptor (booster) + 6 Raptor (ship) |
 | Reusability target | Fully reusable (both stages) |
@@ -36,6 +38,14 @@ See [[Space Geopolitics]] for strategic implications and governance gaps.
 
 ---
 
+## Version generations (V3 / Block 3)
+
+[[Elon Musk]] at the [[TERAFAB]] launch event (March 21, 2026, recording posted to Tesla's official YouTube April 6) framed the next operational step as Starship V3 — reusable to ~100 tons in LEO, expendable to ~200 tons. V3 first flight was targeted for May 2026 with Raptor V3 debut. Subsequent block iterations ("Block 3" / longer ship) push the reusable LEO ceiling toward ~200 tons but remain on the engineering roadmap rather than confirmed operational specs. Musk used [[Tesla Optimus|Optimus]] humanoid for visual scale next to the V3 model on stage; said "Starship V4 will make Starship V3 look kind of short." The mass-to-orbit rate is the binding constraint on [[Space data centers]] economics — TERAFAB's 1 TW orbital compute target requires ~10M tons to orbit per year at ~100 kW per ton of satellite mass.
+
+*Sources: TeslaNorth (Apr 7, 2026), Basenor, SpaceNews; Tesla YouTube TERAFAB recording (Apr 6, 2026)*
+
+---
+
 ## Related
 
 - [[SpaceX]] — manufacturer
@@ -44,5 +54,6 @@ See [[Space Geopolitics]] for strategic implications and governance gaps.
 - [[Space data centers]] — depends on Starship for heavy satellite deployment
 - [[Starlink]] — V3 satellites deployed via Starship
 - [[Blue Origin]] — competitor (New Glenn)
+- [[TERAFAB]] — chip-fab program citing Starship as the mass-to-orbit dependency
 
-*Created 2026-03-23*
+*Created 2026-03-23 · V3/V4 specs added 2026-04-28*

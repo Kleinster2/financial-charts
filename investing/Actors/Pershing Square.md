@@ -61,6 +61,10 @@ Pershing Square filed for a combined dual listing on the [[New York Stock Exchan
 
 **Berkshire model:** Ackman explicitly models the strategy on [[Warren Buffett]]'s career arc — private partnerships → permanent capital vehicle → public compounding machine. PSUS is Ackman's first fund marketed to both US retail and institutional investors, leveraging his 2M+ X followers.
 
+### Apr 28, 2026 — PSUS IPO pricing (~$5B at low end of range)
+
+Per Bloomberg "The China Show" 4/28/2026 broadcast: PSUS IPO is expected to raise about US$5B — the low end of the originally targeted $5-10B fundraising range. About 85% of the IPO has been covered by institutional investors (vs. retail). Official pricing expected later Tuesday April 28. The low-end pricing is the second consecutive scaled-back IPO attempt for PSUS (after the failed 2024 $25B target); the contained outcome reflects continued investor skepticism on the closed-end-fund discount mechanism even with the PS-equity sweetener structure layered in.
+
 ---
 
 ## Portfolio (end 2025)

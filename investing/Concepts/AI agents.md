@@ -105,3 +105,4 @@ The agent threat moved from theoretical to market-moving in early 2026. [[Anthro
 - [[Cognition]] — Devin coding agent
 - [[Torq]] — security operations agents
 - [[AI consolidation]] — Big Tech agent competition
+- [[OpenAI hardware program]] — agent-as-OS device thesis (io companion + Kuo smartphone)

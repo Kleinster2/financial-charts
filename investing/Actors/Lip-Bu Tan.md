@@ -43,6 +43,23 @@ On the foundry side, Tan declined to name external customers or be explicit on [
 
 ---
 
+## CPU / inference / agentic-workloads thesis
+
+Tan's Q1 2026 commentary articulated the structural claim that became the connective thread for the Apr-May 2026 reporting cycle: inference and agentic workloads are pulling demand toward CPUs, not just GPUs. The argument is that as AI shifts from one-shot generation to persistent [[Agentic AI]] systems, the scarce input is no longer just accelerator FLOPs — it becomes the whole coordination stack, with CPUs running the orchestration layer for multistep agent workflows alongside the GPU acceleration layer.
+
+Intel's $13.6B Q1 beat is the supply-side signal Tan offered: AI-service-provider CPU demand was tight enough that Intel sold previously shelved or de-spec inventory ([[Reuters]] Apr 24 2026). [[Patrick Moorhead]] amplified the framing in his "Week Ahead in Tech" preview (Apr 26 2026), positioning Mag 7 capex commentary in the Apr 28 - May 1 reporting window as the demand-side test of Tan's claim. If hyperscalers report higher CPU intensity per training/inference rack, Tan's thesis is confirmed. If GPU intensity stays dominant in capex commentary, the systems-scarcity broadening is overstated.
+
+This is the single connective claim across the six [[AI capex arms race#Six testable items|testable items]] that frame the reporting cycle. The thesis appears in:
+
+- The [[AI capex arms race]] Phase 2 refinement (Apr 20 — Morgan Stanley agentic-AI CPU broadening estimate)
+- The [[AI capex arms race]] Phase 3 refinement (Apr 27 — Mag 7 earnings-test phase, Moorhead framing)
+- The [[Arm AGI CPU]] launch ([[Meta]] anchor customer for agentic-inference CPU)
+- The [[Texas Instruments]] Q1 beat (data-center analog +90% YoY)
+
+*Source: Tan post-call commentary Apr 24 2026 (Bloomberg Tech); Moorhead "Week Ahead in Tech" preview Apr 26 2026 (TikTok).*
+
+---
+
 ## Related
 
 - [[Intel]] — CEO (2025–)
@@ -53,3 +70,7 @@ On the foundry side, Tan declined to name external customers or be explicit on [
 - [[Intel Capital]] — Intel's corporate VC arm
 - [[Intel Foundry Services]] — foundry subsidiary, 14A external customer push
 - [[David Zinsner]] — Intel CFO (handles foundry guidance specifics)
+- [[Patrick Moorhead]] — analyst amplifying Tan's CPU/inference thesis as Mag 7 earnings lens
+- [[AI capex arms race]] — Phase 2 / Phase 3 refinement built on Tan's CPU thesis
+- [[Agentic AI]] — the workload class driving CPU demand
+- [[Arm AGI CPU]] — agentic-inference CPU at the architecture layer

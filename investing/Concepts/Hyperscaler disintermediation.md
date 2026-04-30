@@ -164,4 +164,5 @@ Wireless [[5G]]/6G = telecom's defensible moat.
 - [[T-Mobile]] — adapter (AI-RAN partner with Nokia/NVIDIA)
 - [[Telefónica]] — adapter (Telxius operates for hyperscalers)
 - [[NVIDIA]] — enabler (AI-RAN chips)
+- [[OpenAI hardware program]] — [[MediaTek]] joint chip co-design for OpenAI smartphone extends the ASIC-design pattern from data center to consumer device
 

@@ -153,6 +153,16 @@ The piece strengthens the existing logic of this note: CoreWeave is not just a l
 
 ---
 
+## OpenAI revenue miss read-through (Apr 28, 2026)
+
+CRWV closed -5.83% to $105.53 on the [[Wall Street Journal]] report that [[OpenAI]] missed internal revenue and weekly-active-user targets, with CFO [[Sarah Friar]] reportedly raising internal concerns about funding committed compute contracts. CoreWeave is the most-exposed second-derivative name on the OpenAI side of the AI capex stack: the company's neocloud model is built around long-dated contracted-capacity commitments, and any tenant-revenue weakness flows through the SPV "Box" structure to debt service. Of the verified Apr 28 closes across the AI infrastructure complex (ORCL -4.05%, AVGO -4.39%, AMD -3.41%, MRVL -3.15%, NVDA -1.59%, IREN -8.10%), CoreWeave's -5.83% pricing sits between Oracle (anchor tenant) and IREN (smaller pure-play) — consistent with the market reading CoreWeave as the GPU-cloud equivalent of Oracle's tenant-concentration problem.
+
+The cleanest read on whether OpenAI capacity commitments to neoclouds are being repriced will be the next CRWV earnings disclosure. If CoreWeave's [[Microsoft]] concentration (65% of revenue) is the foreground risk, OpenAI exposure to AI-cloud capacity broadly is the background risk: a slower OpenAI revenue ramp tightens the entire neocloud financing stack, including the [[Blue Owl]] / [[Blackstone]] facilities CoreWeave depends on and the [[Neocloud financing]] circular pattern.
+
+See [[2026 OpenAI revenue miss]] for the full event note.
+
+---
+
 ## Financing: "The Box" structure
 
 Intrator's innovation — "East Coast capital" (debt) for infrastructure, "West Coast capital" (equity) for software.

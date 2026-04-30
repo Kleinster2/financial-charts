@@ -73,6 +73,64 @@ For investors the structural read is that GM has optionality on a defense-revenu
 
 ---
 
+## Q1 2026 results (Apr 28, 2026) — Supreme Court IEEPA ruling drives guidance raise
+
+GM reported Q1 2026 earnings before market open and the headline was the FY guidance raise tied directly to the [[2026 Supreme Court IEEPA ruling]] reducing GM's expected tariff costs by ~$500M. Adj EPS $3.70 vs $2.62 consensus — a 41% beat on the EPS line — though revenue at $43.62B was down 1% YoY.
+
+| Metric | Q1 2026 | Q1 2025 |
+|---|---|---|
+| Revenue | $43.62B | $44.02B (-1%) |
+| Adj EPS | $3.70 | beat consensus $2.62 by 41% |
+| Adj earnings (basis) | $4.3B | +21.9% YoY |
+| GAAP net income | lower | EV restructuring + supplier comp charges |
+
+### Guidance raise — Supreme Court tariff windfall
+
+| FY 2026 guidance | Old | New |
+|---|---|---|
+| Adj EBIT | $13.0-15.0B | $13.5-15.5B (+$500M) |
+| Adj EPS | $11.00-$13.00 | $11.50-$13.50 (+$0.50) |
+
+The raise reflects GM's expected receipt of tariff rebates after the [[Supreme Court]] ruled against the [[Trump administration]]'s use of [[IEEPA|International Emergency Economic Powers Act]] to impose certain tariffs. GM had been booking incremental commodity and freight costs against the prior IEEPA-era rates. The legal reversal flows back as a near-term margin tailwind.
+
+CFO [[Paul Jacobson]] characterization (Q1 call): the company expects "incremental commodity and freight costs versus original guidance" but the tariff rebate offsets and exceeds those headwinds. The raise is structural — reflecting policy reversal — not operational.
+
+### Supreme Court ruling — broader read
+
+The IEEPA ruling is a cross-actor catalyst because the [[Trump administration]]'s use of IEEPA to impose tariffs was the dominant tariff vehicle for 2025-2026. Other actors with disclosed IEEPA-tariff exposure who could see similar rebate windfalls:
+
+| Actor | IEEPA exposure | Likely rebate path |
+|---|---|---|
+| [[Ford]] | Steel, aluminum, components | Direct, through similar guidance update |
+| [[Stellantis]] | Mexican / Canadian production | Direct |
+| [[Toyota]] / [[Honda]] / [[Nissan]] | Japanese-origin imports | Indirect, via dealer-network economics |
+| [[Caterpillar]] | Steel, foreign components | Direct |
+| [[Boeing]] | Aluminum, titanium | Already partially disclosed |
+| [[Apple]] | Chinese-origin assembly | Indirect, via supply-chain margins |
+
+This is the cleanest broad-market positive in the Q1 earnings cycle so far — the IEEPA ruling reverses a real cost line for the dollar-importer cohort, and FY guides should bake in that reversal across multiple sectors over the next 30-60 days. Watch for similar guidance updates from the auto OEM peer group at their respective Q1 prints.
+
+### Read-through
+
+- [[Ford]] — comparable peer; Q1 print becomes the next clean test of whether Ford's IEEPA rebate exposure is similar in magnitude
+- [[Stellantis]] — multi-region production exposure; Stellantis tariff-policy commentary
+- [[Cruise]] — GM's autonomous subsidiary; not addressed in headline Q1 but the Robotaxi competitive set ([[Waymo]], [[Pony.ai]]) is moving fast
+- [[Detroit factory idling]] / Silverado EV — Q1 shows the EV-reset costs are baked in but the demand recovery is not yet
+- [[Trump administration]] tariff policy — the IEEPA reversal is significant; whether the administration responds with substitute tariff vehicles (Section 232, Section 301) is the policy-watch
+- [[2026 Supreme Court IEEPA ruling]] — the ruling itself deserves a separate event-note treatment given multi-actor implications
+
+### Watch for
+
+- Stock reaction — full-day price not yet at close; typically GM moves 2-3% on print
+- Q1 details on EV business losses and supplier compensation true-ups
+- FY EV strategy update — Barra has been resisting the hybrid pivot Ford has embraced
+- Q2 2026 guidance — whether the IEEPA tailwind is treated as one-time or run-rate
+- GM Defense / [[Pentagon talks]] — separate momentum stream that wasn't featured in Q1 headlines
+
+*Sources: [GM IR Q1 letter to shareholders](https://investor.gm.com/news-releases/news-release-details/q1-2026-letter-shareholders); [Yahoo](https://finance.yahoo.com/markets/article/gm-earnings-top-estimates-company-raises-profit-forecast-after-supreme-court-ruling-reduces-tariff-costs-143121594.html); [CNBC](https://www.cnbc.com/2026/04/28/general-motors-gm-earnings-q1-2026.html); [Headlight News](https://headlight.news/2026/04/28/gm-raises-earnings-guidance-while-reporting-lower-q1-net-income-number/).*
+
+---
+
 ## EDS ownership (1984-1996)
 
 | Year | Event |

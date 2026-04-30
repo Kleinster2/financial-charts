@@ -166,7 +166,7 @@ No direct competitor is building a lunar mass driver. The competitive landscape 
 - [[AI capex arms race]] — demand driver for alternative compute infrastructure
 
 ### Cross-vault
-- [Technologies: Mass driver](obsidian://open?vault=technologies&file=Mass%20driver) — foundational technology history, electromagnetic launch physics
+- [Technologies: Mass Driver](obsidian://open?vault=technologies&file=Mass%20Driver) — foundational technology history, electromagnetic launch physics
 - [History: Gerard O'Neill](obsidian://open?vault=history&file=Space%2FGerard%20O'Neill) — O'Neill's L5 colony proposals, Space Studies Institute, NASA summer studies
 
 ---

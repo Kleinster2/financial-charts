@@ -57,6 +57,33 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 
 ---
 
+## Q1 2026 earnings — services side of the discipline story (Apr 21 2026)
+
+| Line | Q1 2026 | YoY |
+|---|---|---|
+| Total revenue | $5.4B | flat |
+| Net income | $461M | — |
+| Diluted EPS | $0.55 | — |
+| North America revenue | $2.1B | -4% |
+| Iran-conflict Q1 EPS impact | ~$0.02-0.03 | — |
+| Forward Iran-conflict EPS warning | up to $0.09 per quarter | — |
+
+The North America decline was driven by lower stimulation (frac) activity and decreased artificial-lift activity in US Land, plus lower stimulation and fluid services in the Gulf of America — direct expressions of [[Shale supply discipline|capital discipline]] flowing through to the services side.
+
+[[Jeff Miller]] (Chairman, President, CEO) on the call:
+- "Pleased with Halliburton's performance" — though revenue flat
+- North America already shows "early signs of recovery"
+- Oil market is "fundamentally tighter"
+- Q1 Middle East geopolitical impact ~$0.02-0.03 EPS; could reach $0.09 future quarters
+
+Miller's framing in the FT (Findlay, Apr 23 2026): the recovery is in "early innings"; the early movers are smaller (private) operators; "the timing of big operators is less clear today." This aligns with the [[Federal Reserve Bank of Dallas|Dallas Fed]] Q1 2026 producer survey: 73% of respondents expect ≤+0.25 mb/d 2026 production growth despite WTI ~$100. Public-major participation that historically drove services demand has not arrived; smaller-operator demand is filling part of the gap, leaving overall NA demand structurally softer than the price level alone would predict.
+
+The forward $0.09 EPS warning is the cleanest read on services-side downside if Middle East dynamics persist — a services company explicitly modeling continued geopolitical premium without a corresponding US drilling response.
+
+*Source: Halliburton Q1 2026 press release (Apr 21 2026); Halliburton Q1 2026 earnings call transcript; FT, Stephanie Findlay (Apr 23 2026).*
+
+---
+
 ## Investment case
 
 **Bull:**

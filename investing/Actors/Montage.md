@@ -201,7 +201,15 @@ Significant growth priced in at current levels. The HK listing provides a second
 
 ---
 
-*Created 2026-01-05 · Updated 2026-02-09*
+## Apr 28, 2026 — Q1 record earnings, +60% net income
+
+Q1 2026 results posted record net income, driven by chip shipments critical to AI infrastructure. Net income jumped more than 60% year-over-year, topping analyst estimates. Stock has surged ~140% since the February 2026 HK IPO debut as Chinese demand for AI hardware continues to accelerate. The print is the cleanest read on the [[memory interface chip]] cycle's tightness — every DDR5 RDIMM/LRDIMM in AI server builds requires Montage's RCDs and data buffers, and the AI-cluster memory expansion is feeding directly into Montage's volume + ASP combination. The +60% earnings on accelerating revenue growth (Q1 followed 9M 2025's +57.8% YoY revenue trajectory) extends the Apr 27 "domestic semis = best opportunity in Asia" thesis surfaced by [[CITIC CLSA|CITIC CLSA's]] Lisa Hall on the Bloomberg "The China Show" 4/28/2026 broadcast.
+
+*Sources: Bloomberg "The China Show" 4/28/2026 broadcast — Charlotte Yang (Asia equities reporter); Montage Q1 2026 disclosure.*
+
+---
+
+*Created 2026-01-05 · Updated 2026-02-09 · Apr 28 2026 (Q1 earnings)*
 
 ---
 

@@ -116,6 +116,20 @@ C&I segment is growth focus.
 
 ---
 
+## Q1 2026 earnings (Apr 29, 2026)
+
+Generac reported Q1 2026 net sales of $1.06B (+12% YoY), adjusted EPS of $1.80, adjusted EBITDA of $193M (18.3% margin), and free cash flow of $90M. The mix shift was the story: Residential sales were roughly flat at $549M (+1%), while Commercial & Industrial sales rose 28% to $510M.
+
+Management tied the C&I acceleration directly to global data-center customers, domestic industrial distribution/rental demand, and controls solutions for power generation. It also said Generac is in the final stages of vendor approval with multiple hyperscale customers and has expanded backlog with both new and existing data-center customers. The April 1 Enercon acquisition adds generator enclosures and switchgear, vertically integrating the large-megawatt backup-power stack.
+
+Full-year 2026 guidance was raised: net sales growth now mid-to-high teens vs. prior mid-teens, C&I sales growth mid-to-high 20%, and adjusted EBITDA margin 18.5-19.5% vs. prior 18.0-19.0%. GNRC closed Apr 29 at $252.92, up 16.5% from Apr 28.
+
+The structural read: Generac is becoming a cleaner [[Data center physical layer]] exposure. Its residential generator cycle still matters, but the Apr 29 print confirms that AI data-center backup power is now large enough to change segment mix and guidance.
+
+*Source: [Generac press release](https://investors.generac.com/news-releases/news-release-details/generac-reports-first-quarter-2026-results), Apr 29 2026; local DB close Apr 29 2026.*
+
+---
+
 *Created 2026-02-01*
 
 ---

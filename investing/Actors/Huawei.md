@@ -84,6 +84,10 @@ This is the cleanest public validation of Huawei's AI-infrastructure strategy so
 
 For export controls, this is the scenario [[Jensen Huang]] warned about: if US hardware exits China, Chinese labs train and deploy on Huawei instead. The risk for the US stack is not that Huawei immediately beats Blackwell; it is that Huawei becomes good enough, scaled enough, and sovereign enough to become the default for [[China AI Plus]] deployment.
 
+#### Apr 27 2026 — white paper + state-media framing closes the loop
+
+DeepSeek's V4 technical white paper, surfaced in commentary on Bloomberg "The China Show" Apr 27, describes V4 as trained "almost exclusively" on Huawei [[Ascend]] hardware. A social-media account affiliated with Chinese state media on the same day framed the launch timing as evidence of "deeper integration with the Chinese chip ecosystem" — turning what could have been an engineering footnote into the official narrative anchor of the release. [[Bloomberg Intelligence]]'s [[Robert Lee]]: with V4 running near-frontier (~10% gap to leading [[Anthropic]] models per Lifebench) on cheap domestic compute, the practical chance of Chinese hyperscalers issuing wholesale [[Nvidia]] orders for V4-class workloads is "probably pretty limited." That moves Huawei from "domestic alternative" to default Chinese training-stack provider for the sovereign-deployment use case. See [[DeepSeek-V]] Apr 27 entry for the broader frontier-gap and pricing discussion.
+
 ### Networking
 - Still major [[5G]] equipment provider (outside US/allies)
 - Banned from US, [[UK]], [[Australia]], others

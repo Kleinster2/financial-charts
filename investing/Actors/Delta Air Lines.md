@@ -92,6 +92,16 @@ DAL +12% on Apr 8, driven by the ceasefire oil crash (WTI -17%) rather than the 
 
 ---
 
+## Apr 27 cut wave
+
+Per [[Financial Times|FT]], Delta joined [[Deutsche Lufthansa|Lufthansa]], [[Cathay Pacific]], and [[Qantas]] in cutting flights as [[Jet fuel|jet fuel]] doubled to ~$200/bbl ([[Argus Media|Argus]] NW Europe). Bastian's Q1 guidance to "plan for pricier flights" has now hardened into capacity reduction. The Monroe refinery's $300M Q2 contribution provides partial insulation, but it cannot offset a sustained doubling of jet fuel input cost.
+
+The cut is first-mover demand destruction in the [[Refining slate rigidity]] framework — capacity cuts reduce jet demand but do not by themselves rebalance [[Oil|crude]] because refiners produce roughly fixed product slates and the rest of the slate has to ration too.
+
+*Source: FT, "Why flying less won't do much to ease the oil crisis" (Apr 27, 2026).*
+
+---
+
 ## Quick stats
 
 | Metric | Value |

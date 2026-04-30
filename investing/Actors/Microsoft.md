@@ -196,14 +196,29 @@ Azure still fastest-growing hyperscaler but deceleration spooked market.
 
 ---
 
+## Apr 27, 2026 — OpenAI exclusivity ended
+
+[[Microsoft]] and [[OpenAI]] announced a restructured partnership ending Microsoft's exclusive license on OpenAI models. Microsoft IP rights continue non-exclusively through 2032; Microsoft no longer pays OpenAI a revenue share; OpenAI continues to pay Microsoft 20% revenue share through 2030, capped, independent of OpenAI tech progress (the AGI off-ramp removed). Azure remains the primary launch cloud "unless Microsoft decides otherwise."
+
+MSFT intraday: -4% pre-market on the announcement → roughly flat (~-0.4% to -0.7%) at close. The recovery reflected market parsing that Microsoft kept what mattered structurally — IP through 2032, the inbound 20% revenue share, ~27% equity, the $7.6B Q2 FY26 mark-to-market gain. The exclusivity loss had been telegraphed by the Feb 2026 [[OpenAI]] $122B mega-round, which contractually obligated [[Amazon]] $50B + $100B [[AWS]] spend, making cloud diversification inevitable.
+
+The Q2 FY26 disclosure that 45% of [[Microsoft|Azure]] commercial RPO ($625B total) was tied to [[OpenAI]]'s $250B cloud commitment is the more material number — and that commitment is *separate* from the exclusivity question. Wednesday Apr 29 [[Microsoft]] earnings is the next test of whether the RPO concentration moves.
+
+See [[Microsoft-OpenAI exclusivity end]] for full event detail.
+
+*Source: [Microsoft official blog](https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/), CNBC, Bloomberg Tech 4/27/26.*
+
+---
+
 ## OpenAI relationship
 
-**Partnership restructured (Oct 2025):**
-- Was: Exclusive cloud provider, 49% profit share (capped)
-- Now: **27% equity stake**, losing exclusivity by 2032
+**Partnership restructured (Oct 2025 → Apr 2026):**
+- 2019-2025: Exclusive cloud provider, 49% profit share (capped)
+- Oct 2025: Restructured to ~27% equity stake; exclusivity extending through 2032
+- Apr 27, 2026: Exclusivity ended; Microsoft IP rights non-exclusive through 2032; OpenAI free to distribute on AWS/Google Cloud; Microsoft no longer pays OpenAI revenue share; OpenAI 20% revenue share to Microsoft preserved through 2030 (capped)
 - Microsoft building own AI capabilities separately
 
-OpenAI's compute needs still flow through Microsoft Azure → NVIDIA → TSMC. But Microsoft is hedging.
+OpenAI's compute needs still flow through Microsoft Azure → NVIDIA → TSMC, but the cloud diversification (AWS Trainium, Google Cloud) now has formal sanction.
 
 ---
 
@@ -270,6 +285,25 @@ Xbox content/services -5%. Microsoft 365 Copilot reached 15M commercial seats.
 - Revenue: $80.65-81.75B (mid $81.2B meets consensus)
 - Azure growth: 37-38% constant currency (consensus 37.1%)
 - Commercial RPO: $625B (+110% YoY), 45% tied to OpenAI's $250B cloud commitment
+
+---
+
+## Q3 FY26 pre-print lens (reporting Apr 28-30, 2026)
+
+Q3 FY26 (calendar Q1 2026) is the print where the [[Azure]] trajectory question gets settled. The trend is decelerating: Q1 FY26 +40% → Q2 FY26 +39% → Q3 FY26 guide +37-38% constant currency. [[Patrick Moorhead]] specifically frames the question as whether Azure is *re-accelerating* against [[AWS]] / [[Google Cloud]] — a re-acceleration would require Q3 FY26 ≥40%, breaking the trend and forcing a complete narrative reversal from the Jan 29 selloff. The vault's [[AI capex arms race]] thesis treats this print as one of six testable items in Phase 3 (the earnings-test phase).
+
+### What the print resolves
+
+| Watch item | Why it matters |
+|---|---|
+| Azure constant-currency growth vs +37-38% guide | A beat says the AI capex is converting to cloud revenue faster than guided. A miss says the deceleration trend is real and the OpenAI tailwind is normalizing. |
+| Commercial RPO trajectory (was $625B, +110% YoY) | Backlog growing faster than revenue means Azure runway is intact even if reported growth decelerates. Convergence means demand is catching down to capacity. |
+| OpenAI revenue concentration disclosure | 45% of RPO is tied to OpenAI's $250B cloud commitment. Any disclosure on OpenAI's actual spend pace and Azure's revenue recognition cadence reframes Microsoft's AI exposure. |
+| Capacity-constrained vs demand-constrained framing | Nadella / Hood phrasing on the call. "Capacity-constrained" means demand still exceeds supply (supply tightness tell). "Demand-constrained" means buildout has caught up — bearish for capex thesis. |
+| Capex range update (FY26 trending toward $90-100B+) | Direction of capex guide signals whether the Phase 1 (GPU scarcity) buildout is continuing or transitioning to Phase 2 (systems scarcity — CPUs, memory, packaging). |
+| Gross margin trajectory (Q2 FY26 at 68%, 3-year low) | AI infrastructure cost intensity. Stabilization or recovery validates the capex/ROI bridge; further compression validates the [[AI capex arms race#Market skepticism emerging|capex skepticism]] case. |
+
+[[OpenAI]] concentration is the single most material disclosure risk. The 45% RPO concentration figure is unprecedented for a hyperscaler — a number this large is the kind of detail that reframes the equity story regardless of headline beat / miss.
 
 ---
 
@@ -474,6 +508,20 @@ MSFT closed Apr 24 at $424.62 (+2.1% on the day, lifted in part by the AI comple
 
 ---
 
+## Q3 FY2026 earnings (Apr 29, 2026)
+
+Microsoft reported Q3 FY2026 (March quarter) results: revenue $82.9B (+18% YoY, +15% constant-currency), EPS $4.27, [[Azure]] and other cloud services +40% YoY (+39% cc), beating internal guidance of 37-38%. Capital expenditure $31.9B for the quarter, ~$3.4B below the ~$35.3B Street consensus — the first time MSFT has missed quarterly capex on the low side in the AI buildout era. About two-thirds of Q3 capex went to short-lived assets (GPUs and CPUs), with the remainder on long-lived infrastructure (15+ year monetization).
+
+Capex guidance — the headline line: FY26 capex now guided to roughly $190B for calendar year 2026, of which approximately **$25B is attributed to higher component pricing**. The "component pricing" caveat is explicit memory-cost capitalization — Microsoft is the first hyperscaler to publicly book the [[Memory shortage 2025-2026|memory shortage]] as a capex bill rather than a margin hit. Q4 capex is guided to over $40B.
+
+The structural read: Microsoft's capex now exceeds Street's prior $121-140B FY26 estimates ([[Jefferies]], [[Cantor]]) by ~50% at the high end. The Q3 capex undershoot is incidental — likely a server-build timing slip — and should reverse in Q4. The bigger signal is that the $25B "memory mark" framing tells investors the marginal capex dollar is increasingly going to the [[SK Hynix]]/[[Samsung]]/[[Micron]] complex rather than the [[NVIDIA]]/[[AMD]] complex on the GPU bill. [[Hyperscaler capex]] now needs revising up across the Big 4.
+
+Stock closed Apr 29 at $424.46 (-1.12% on the day, into the print); after-hours reaction muted vs. the [[Meta]] -7% AH drop, reflecting the ~$3.4B capex undershoot reading more bullishly into a memory-mark guidance bump than Meta's pure raise.
+
+*Sources: [Microsoft press release](https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/press-release-webcast), [CNBC](https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html), [investingLive Q3 capex breakdown](https://investinglive.com/stocks/microsoft-q3-beats-on-revenue-eps-and-cloud-as-capex-comes-in-34bn-below-estimates-20260429/), [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/04/29/microsoft-msft-q3-2026-earnings-transcript/), Apr 29 2026.*
+
+---
+
 ## Abilene data center lease (Mar 24, 2026)
 
 Microsoft signed a lease with [[Crusoe Energy]] for a ~700MW data center site in Abilene, Texas — directly adjacent to [[Oracle]] and [[OpenAI]]'s flagship [[Project Stargate|Stargate]] campus. The site was originally being developed for Oracle/OpenAI but both walked away after negotiations stalled over financing and OpenAI's shifting demand forecasts (Bloomberg, Mar 6). Microsoft stepped in after [[Meta]] (the initial expected tenant) did not close.
@@ -491,7 +539,8 @@ MSFT stock was down 2.69% on the day; ORCL down 4.42%.
 - [[AI hyperscalers]] — Tier 1 spender
 - [[NVIDIA]] — primary GPU supplier
 - [[TSMC]] — foundry (Maia, Cobalt chips)
-- [[OpenAI]] — exclusive partner (loosening); now building GitHub rival (Mar 2026)
+- [[OpenAI]] — non-exclusive partnership as of Apr 27, 2026; IP rights through 2032, 20% revenue share inbound through 2030 (capped); now building GitHub rival
+- [[Microsoft-OpenAI exclusivity end]] — Apr 27, 2026 partnership reset
 - [[Anthropic]] — [[Claude]] on Azure
 - [[Google]], [[Amazon]], [[Meta]] — hyperscaler peers
 - [[Intel Foundry Services]] — Maia 2 potential foundry

@@ -324,7 +324,7 @@ Separately: Amazon signed the "Ratepayer Protection Pledge" at the [[White House
 | [[Anthropic]] | $13B invested / up to $33B committed, cloud partner, $100B+ AWS spend, up to 5 GW capacity |
 | [[NVIDIA]]    | 15-year collaboration, NVLink Fusion coming |
 | [[Marvell]]   | Trainium/Inferentia design partner          |
-| [[OpenAI]]    | Potential $10B investment (reported)        |
+| [[OpenAI]]    | $50B investment (Feb 2026 mega-round, $15B Series C + $35B conditional); $100B AWS spend over 8 years committed; 2 GW Trainium compute; AWS hosting OpenAI models from Apr 27, 2026 (Andy Jassy: "soon") after [[Microsoft-OpenAI exclusivity end]] |
 | [[AT&T]]      | Project LEO satellite broadband + AWS cloud |
 | [[Agility Robotics]] | Digit humanoid robot testing in fulfillment centers |
 
@@ -353,6 +353,16 @@ What went wrong:
 Amazon's response: Reserved rights to "seek more drastic remedies" including appointment of examiner or trustee. Claims Saks "violated consent rights under the LLC agreement."
 
 Significance: Contrasts with Amazon's successful Anthropic bet ($8B → $9.5B unrealized gain). Retail M&A judgment vs tech infrastructure judgment.
+
+---
+
+## Apr 27, 2026 — OpenAI distribution channel opens
+
+[[Microsoft]] and [[OpenAI]] announced the end of [[Microsoft]]'s exclusive license on OpenAI models. [[OpenAI]] is now free to distribute through any cloud, and [[Andy Jassy]] confirmed publicly that OpenAI models are coming to [[AWS]] "soon." This activates the Feb 2026 [[OpenAI]] $50B [[Amazon]] round — which included a contractual $100B [[AWS]] spend commitment over 8 years and 2 GW of [[Trainium]] compute — into a real distribution channel rather than dead infrastructure.
+
+AMZN intraday: gapped up pre-market on the headline, gave back most gains by close as the market parsed that "non-exclusive" doesn't mean "[[AWS]] gets equal access on day one." Bloomberg Intelligence (Mandeep Singh) read: net positive for [[AWS]] enterprise AI momentum and broadly for enterprise AI adoption. The strategic question is whether [[AWS]] can host [[OpenAI]] alongside [[Anthropic]] without diluting the [[Anthropic]] preferred-partner status.
+
+See [[Microsoft-OpenAI exclusivity end]] for full context.
 
 ---
 
@@ -529,6 +539,22 @@ Amazon deploys strategic investments through several entities:
 NV Investment Holdings is registered in Carson City, Nevada (C/O Corporation Service Company) with operational HQ at 410 Terry Avenue North, Seattle. It's the entity that appears on SEC 13G filings when Amazon holds public company stakes — including the [[Beta Technologies]] filing that caused the Feb 2026 misinformation pump.
 
 Climate Pledge Fund also sponsors Climate Pledge Arena (Seattle) — the first arena to achieve Zero Carbon certification (2023).
+
+---
+
+## Q1 2026 earnings — AWS +28%, AI ARR >$15B, capex $44.2B (Apr 29, 2026)
+
+Amazon reported Q1 2026: total revenue $181.5B (+17% YoY); operating income $23.9B for a 13.1% company-wide operating margin (highest ever reported). [[AWS]] revenue $37.6B (+28% YoY) — accelerated from Q4 2025 and the largest Q4-to-Q1 sequential increase in AWS history (+$2B QoQ). AWS Annualized Revenue Run Rate now $150B.
+
+AI run rate $15B+: AWS AI services contributed over $15B in annualized revenue run rate in their first three years — Andy Jassy's annual letter framed this as the fastest scale-up of any AWS service line in the company's history. AWS backlog $364B, and the disclosure carries an explicit footnote: backlog excludes >$100B from a new [[Anthropic]] deal signed but not booked in Q1 — the carve-out is the cleanest signal that the second leg of the Anthropic/Amazon partnership has closed.
+
+Custom silicon $20B+ run rate: Amazon's chips business — [[Graviton]], [[Trainium]], and [[Nitro]] combined — exceeded a $20B annual revenue run rate at triple-digit YoY growth. Cumulative customer commitments for Trainium now over $225B in revenue (per Jassy) — the demand-side scoreboard for the [[Marvell]] / [[TSMC]] N3 partnership.
+
+Capex $44.2B Q1: Capital expenditure $44.2B in Q1 (cash capex $43.2B), up from $25B in Q1 2025. The $44.2B run-rate annualizes to $176B+ — well above the $200B FY26 guide that shocked the Street in February. Free cash flow trailing-12-month $1.2B, a 95% YoY decline driven by the AI capex bill — corroborates [[Bank of America|BofA]] / [[Morgan Stanley]] negative-FCF estimates. AMZN closed Apr 29 at $263.04 (+1.3% on the day, into the print).
+
+The structural read: AWS is the only Big 4 hyperscaler simultaneously (a) reaccelerating cloud growth, (b) absorbing the largest single AI commitment ([[Anthropic]] $100B+ Trainium contract), (c) running negative FCF on the buildout, and (d) running the largest custom-silicon book ($20B+ ARR) outside of [[NVIDIA]]. The capex bill is structurally larger than the [[Microsoft]] / [[Alphabet]] / [[Meta]] equivalents because the Trainium fab partnership shifts spend that would have gone to merchant GPUs into AWS-owned silicon.
+
+*Sources: [CNBC](https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html), [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/04/29/amazon-amzn-q1-2026-earnings-call-transcript/), [Sherwood News](https://sherwood.news/markets/amazon-q1-2026-earnings-report-guidance-aws-cloud-ai-boom/), [Investing.com transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-amazons-q1-2026-results-exceed-expectations-93CH-4647388), Apr 29 2026.*
 
 ---
 

@@ -435,6 +435,31 @@ See [[SpaceX IPO 2026]] for the full PitchBook SOTP analysis (Franco Granda, "Wh
 
 ---
 
+## Q1 2026 — launch cadence, pricing, capacity-constraint signals (Apr 26, 2026)
+
+[[Space Capital]] (Chad Anderson) used the Space IQ Q1 2026 briefing at NASDAQ to consolidate the Q1 cadence picture:
+
+| Metric | Q1 2026 reading |
+|---|---|
+| Falcon 9 cumulative flights | ~700 |
+| Falcon 9 success rate | 99% |
+| 2025 launch cadence | More launches than every other space agency + company combined; ~1 every 2 days |
+| Falcon 9 list price | $74M (4th increase since commercial launches began at $61M) |
+| Rideshare price | $6,000 → $7,000/kg |
+| [[Starlink]] subscribers | 10M+ (first satellite ISP to clear that threshold) |
+| Simultaneous Starlink satellites in orbit | 10,000 (mid-March 2026) |
+| Starlink production cadence | ~5 satellites/day |
+| 2026 revenue tracking | ~$20B (largely Starlink subscription revenue) |
+| FCC-filed satellite count | 1,000,000 (orbital data center constellation) |
+
+Anderson's frame: the four Falcon 9 price increases are confidence signals that SpaceX is capacity-constrained by *internal* demand — Starlink build, [[Direct to Cell]], and orbital data center constellation deployment compete for slots that would otherwise go to commercial customers. That constraint creates real opportunity for [[Blue Origin]], [[Rocket Lab]], [[Firefly Aerospace]], and [[Arianespace]] to absorb commercial and institutional demand. [[Firefly Aerospace|Firefly Alpha]] and [[Ariane 64]] both came online in Q1.
+
+Capital efficiency frame (Anderson): post-2021 SpaceX equity funding effectively flatlined while operational output accelerated — Starlink subscription revenue began funding operations and R&D internally. Same ~$10B equity base, output kept compounding. Anderson's $1.25T private valuation comparison is "nearly three times the entire cumulative investment in the space economy since 2009 ($455B across 2,400+ companies)" — read as the market paying for the platform that owns the next 50 years of orbital infrastructure rather than for today's business.
+
+*Source: [Space Capital Space IQ Q1 2026 briefing](https://youtu.be/iGmr4g4Iot4) (Apr 26, 2026), recorded at NASDAQ MarketSite.*
+
+---
+
 ## FCC expansion (Jan 2026)
 
 Jan 10, 2026: FCC approved 7,500 additional Gen2 [[Starlink]] satellites.

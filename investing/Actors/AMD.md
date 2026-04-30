@@ -257,6 +257,18 @@ See [[Meta-AMD 6GW deal]] for full deal terms and warrant structure.
 
 ---
 
+## OpenAI revenue-miss read-through (Apr 28, 2026)
+
+AMD closed -3.41% to $323.21 on the [[Wall Street Journal]] report that [[OpenAI]] missed internal user-growth and revenue targets, with CFO [[Sarah Friar]] reportedly raising internal concerns about funding committed compute contracts. Of the chip stack, AMD's relative move (-3.41%) sat between [[NVIDIA]] (-1.59%) and [[Broadcom]] (-4.39%), reflecting the higher concentration of AMD's OpenAI exposure: the Oct 2025 chips-for-equity deal (160M warrant shares, MI300/MI400 commitment volumes) is structured around OpenAI compute purchases. If OpenAI's revenue ramp is below plan, the warrant economics and the volume commitments both reset together.
+
+The graduated chip-stack pricing — NVDA absorbing better than AMD or AVGO — is consistent with the market reading that [[NVIDIA]]'s diversified customer base (Stargate, [[Anthropic]], hyperscalers, sovereign) absorbs OpenAI revenue risk better than AMD (more concentrated in OpenAI MI volumes via the equity deal) or [[Broadcom]] (custom-silicon contracts with OpenAI per WSJ).
+
+The [[Meta]] warrant deal (Feb 24, 2026, 6GW MI450 over 5 years) is structurally similar but provides diversification: even with OpenAI volumes recalibrated, the Meta commitment supports baseload demand for the MI450 generation.
+
+See [[2026 OpenAI revenue miss]] for the full event note.
+
+---
+
 ## Related
 
 ### Securities

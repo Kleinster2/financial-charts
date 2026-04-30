@@ -23,11 +23,12 @@
 
 | Player | Initiative | Scale | Timeline |
 |--------|------------|-------|----------|
-| **[[SpaceX]]** | Starship-launched network | **100GW** combined | 4-5 years (Musk) |
-| **[[Blue Origin]]** | Bezos DC vision | — | 10-20 years (Bezos) |
+| **[[SpaceX]]** | Starship-launched network + AI satellite (taller than Starship V3); [[TERAFAB]]-fed | 100GW combined; 1M satellites filed FCC | 4-5 years (Musk) |
+| **[[Blue Origin]]** | [[Project Sunrise]] (FCC-filed Mar 19, 2026) + TeraWave | 51,600 satellites + 5,408 TeraWave | Filed Mar 2026; 2030s deployment |
+| **[[NVIDIA]]** | [[Vera Rubin Space 1]] module (announced GTC Mar 2026) | Hardware, not constellation; up to 25x H100 | Module ships TBD |
+| **[[Google]]** | [[Project Suncatcher]] | TPU-equipped solar constellation; 2 prototypes | Early 2027 prototype launches |
 | **Eric Schmidt** | Acquired [[Relativity Space]] | — | — |
-| **[[Google]]** | Project Suncatcher | 2 prototype satellites | Early 2027 |
-| **[[Starcloud]]** | [[NVIDIA]]-backed | **5GW** single DC | — |
+| **[[Starcloud]]** | NVIDIA-backed | 5GW single DC | — |
 | **[[Axiom Space]]** | ISS replacement + DC | — | — |
 | **[[China]]** | AI supercomputer test | Proof of concept | Deployed |
 
@@ -126,6 +127,27 @@ High orbits needed to avoid congestion but add significant delay.
 
 ---
 
+## Q1 2026 — platform war (Apr 26, 2026)
+
+[[Space Capital]] (Chad Anderson, Space IQ Q1 2026 briefing) framed the orbital data center race as a four-horse platform war among the most consequential technology companies in the world. The frame shifted in Q1 from "will orbital data centers work" to "who owns the rails" — and the move from concept to land-grab happened within the quarter.
+
+Q1 2026 events:
+
+| Date | Event |
+|---|---|
+| Mar 16 | [[NVIDIA]] announces [[Vera Rubin Space 1]] module at [[GTC]] (Jensen Huang keynote) |
+| Mar 19 | [[Blue Origin]] files [[Project Sunrise]] with FCC — 51,600 satellites |
+| Mar 21 | [[SpaceX]] [[TERAFAB]] announcement — terawatt of processors annually paired with AI satellite "taller than [[Starship]] V3" |
+| Q1 2026 | Total Q1 space economy investment: $36B (single-quarter record). Infrastructure alone: $7B. |
+
+When [[Google]] builds its own [[Project Suncatcher|Suncatcher]] constellation rather than buying capacity from someone else, and when [[NVIDIA]] declares "space computing the final frontier has arrived" via the Vera Rubin Space 1 module, the thesis crosses from concept-stage to confirmed market category. Anderson: "The frame has shifted. The question is no longer will orbital data centers work. The question is who owns the rails?"
+
+The Blue Origin filing matters structurally: 51,600 satellites in sun-synchronous orbits at 500-1,800 km altitude, with optical (laser) inter-satellite links sized for hyperscaler-grade transport. Blue is building this, *not* [[Amazon]] — meaning rockets and compute are vertically integrating inside Blue, mirroring SpaceX/[[Starlink]]/TERAFAB. The architecture points toward a single institutional anchor customer (a hyperscaler or a government) — same playbook as [[Starshield]].
+
+NVIDIA's Vera Rubin Space 1 module is the clearest signal that the supplier ecosystem is ready: 25x H100 compute in a space-qualified package, with launch customers including [[Aetherflux]], [[Axiom Space]], [[Kepler Communications]], [[Planet Labs]], [[Sophia Space]], and [[Starcloud]]. NVIDIA isn't building a constellation; it's selling picks and shovels to everyone who is. See [[Vera Rubin Space 1]] for full module spec.
+
+---
+
 ## Google Project Suncatcher
 
 **Most concrete near-term initiative:**
@@ -179,13 +201,18 @@ High orbits needed to avoid congestion but add significant delay.
 
 - [[Power constraints]] — problem space DCs aim to solve
 - [[SpaceX]] — leading player, Starship dependency
-- [[Blue Origin]] — Bezos vision
-- [[NVIDIA]] — [[Starcloud]] backer
-- [[Google]] — Project Suncatcher
+- [[Blue Origin]] — [[Project Sunrise]] 51,600-satellite constellation (FCC filed Mar 2026)
+- [[Project Sunrise]] — Blue Origin orbital DC constellation
+- [[NVIDIA]] — [[Vera Rubin Space 1]] module + [[Starcloud]] backer
+- [[Vera Rubin Space 1]] — NVIDIA orbital compute module (announced GTC Mar 2026)
+- [[Google]] — [[Project Suncatcher]] prototype
+- [[Project Suncatcher]] — Google orbital DC initiative
 - [[AI hyperscalers]] — potential customers
 - [[GPU deployment bottleneck]] — related constraint
 - [[Sovereign AI stack]] — Deepwater framework; orbital compute sits as optionality inside the stack
 - [[Deepwater Asset Management]] — possibility-vs-profitability framing
+- [[Space Capital]] — Q1 2026 platform-war framing source
+- [[Chad Anderson]] — Space Capital Space IQ Q1 2026 briefing
 
 ---
 
@@ -259,4 +286,4 @@ This sits between the [[SpaceX]] bull case (100 GW orbital compute driving the 2
 
 ---
 
-*Created 2026-01-15 | Updated 2026-03-16, 2026-04-09 (Deepwater framing)*
+*Created 2026-01-15 | Updated 2026-03-16, 2026-04-09 (Deepwater framing), 2026-04-27 (Q1 2026 platform-war)*

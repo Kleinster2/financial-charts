@@ -45,6 +45,27 @@ NXPI trades as a core Semiconductors name (SMH r = 0.77).
 
 ---
 
+## Q1 2026 earnings (Apr 28, 2026)
+
+NXP reported Q1 2026 revenue of $3.18B (+12% YoY), GAAP EPS of $4.43, and non-GAAP EPS of $3.05. GAAP operating margin was inflated by the $627M gain on the February sale of the MEMS sensors business, but the operating mix still improved on a non-GAAP basis: non-GAAP gross margin 57.1%, non-GAAP operating margin 33.1%, and free cash flow $714M (22.4% of revenue).
+
+End-market mix showed the auto trough healing rather than just a one-quarter inventory restock:
+
+| Segment | Q1 2026 revenue | YoY |
+|---|---:|---:|
+| Automotive | $1.78B | +6% |
+| Industrial & IoT | $628M | +24% |
+| Mobile | $391M | +16% |
+| Communications infrastructure & other | $380M | +21% |
+
+Q2 guidance called for $3.35B-$3.55B revenue and non-GAAP diluted EPS of $3.29-$3.72. The guide, plus visible adoption in software-defined vehicles, edge AI, robotics, and healthcare AI collaborations, moved the stock sharply: NXPI closed Apr 29 at $289.25, up 25.5% from Apr 28 and the largest beta-adjusted mover in the vault scan.
+
+The structural read: NXP is not a generic auto-semi rebound. The growth vector is automotive processing + Industrial & IoT edge compute, which ties the company into software-defined vehicles, [[Agentic AI]], and [[AI datacenter architecture|physical AI]] infrastructure rather than only vehicle unit volumes.
+
+*Source: [NXP press release](https://investors.nxp.com/news-releases/news-release-details/nxp-semiconductors-reports-first-quarter-2026-results), Apr 28 2026; local DB close Apr 29 2026.*
+
+---
+
 ## Why NXP matters
 
 NXP is the ADAS/connectivity specialist:

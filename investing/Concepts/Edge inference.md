@@ -157,6 +157,7 @@ xAI's approach differs: incentivized (pay owners) + integrated (Tesla ecosystem)
 - [[AMD]] — Ryzen AI NPUs
 - [[Qualcomm]] — Snapdragon NPUs
 - [[Apple]] — Neural Engine
+- [[OpenAI hardware program]] — agent-OS device explicitly designed around hybrid edge-cloud inference architecture
 
 ---
 

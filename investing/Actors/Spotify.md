@@ -49,6 +49,45 @@ FY 2025: Paid $11B to the music industry (record). FCF €2.9B.
 
 ---
 
+## Q1 2026 results (Apr 28, 2026) — North America premium decline triggers -12.4% sell-off
+
+Spotify reported Q1 2026 results on Apr 28 that came in slightly above guidance on margin but flagged the first material problem in the post-2024 turnaround narrative: premium subscribers declined in North America. Stock closed -12.4% to $434.20 — the largest single-day decline since the 2022 podcast/Rogan crisis era and a 3.4σ idiosyncratic move.
+
+| Metric | Q1 2026 | Guidance | YoY |
+|---|---|---|---|
+| MAU | 761M | 759M | +12% |
+| Premium subs | 293M | 293M | +6M Q/Q (in line) |
+| Revenue | €4.5B | €4.5B | +14% (accel from +13%) |
+| Gross margin | 33% | 32.8% | +133 bps |
+| Operating income | €715M | €660M | beat by €55M |
+
+Operating-income beat is qualified: ~€49M of the €55M variance came from social charge favorability tied to share-price movements — non-recurring and not a function of operations. Underlying business operating income was roughly in line.
+
+### What triggered the sell-off
+
+Premium subscribers declined in North America. This is the first regional decline in the post-turnaround era and lands in the company's highest-ARPU geography. The structural read: the 2024-2025 NA price increase (€11/month → €12/month standard) plus growing competition from Apple Music and YouTube Music has saturated the primary market. Total premium adds came in at +3M (in line) but the geographic mix shifted Rest-of-World (RoW) from net contribution to dominant contribution — RoW additions are at materially lower ARPU.
+
+### Q2 2026 guidance — modest acceleration but not a recovery signal
+
+| Metric | Q2 2026 guide | Q1 2026 actual |
+|---|---|---|
+| MAU | 778M (net add 17M) | 761M |
+| Premium | 299M (net add 6M) | 293M |
+| Revenue | €4.8B (+15%) | €4.5B |
+| Gross margin | 33.1% | 33% |
+
+The Q2 guide is fine on aggregate metrics but does not address the NA premium problem. The market response — closing near intraday lows at -12.4% — reads as a re-rating of the durable-growth thesis rather than a one-quarter discount.
+
+### Read-through
+
+The NA premium decline is a structural signal for the entire subscription-streaming complex: when the first-mover, market-leading streaming service can't grow premium subs in its highest-ARPU geography, the playbook of "raise prices, manage churn, expand internationally" has hit a wall in the home market. [[Netflix]] managed this transition through the password-sharing crackdown (2023) plus ad-tier — Spotify's ad-tier strategy is less developed and the audiobook bundle controversy continues. [[Apple Music]] and [[YouTube Music]] gain share at the margin in NA while Spotify retains global lead.
+
+Watch for: (1) Spotify's response on ad-tier expansion plans at next analyst day; (2) whether the audiobook-bundle reclassification (which lowered songwriter royalties) is rolled back as part of NA premium retention; (3) ARPU mix disclosure in Q2 — the geographic-shift thesis is testable through reported regional revenue.
+
+*Sources: [Spotify Q1 2026 earnings release](https://newsroom.spotify.com/2026-04-28/spotify-q1-2026-earnings/); [Variety](https://variety.com/2026/music/news/spotify-q1-2026-earnings-revenue-total-premium-subscribers-1236731842/); [Music Business Worldwide](https://www.musicbusinessworldwide.com/spotify-subscriber-base-grew-by-3m-to-293m-in-q1-company-posted-837m-operating-profit-for-the-quarter/).*
+
+---
+
 ## Profitability turnaround
 
 | Metric | Q4 2025 | Q3 2025 |

@@ -421,6 +421,16 @@ Bear:
 
 ---
 
+## China platform labor regulation (Apr 2026)
+
+[[China]] formalized a new labor-rules framework for gig workers (delivery riders, livestream hosts) that requires platforms to align pay with measured labor intensity, cut commissions, and submit to algorithm reviews, with full implementation by 2027. Alibaba's exposure runs through [[Ele.me]] (food delivery), Taobao Live and Tmall Live (livestream hosts who fall within the rules), and the broader merchant compensation framework. The take-rate compression from commission cuts and the cost increase from baseline rider compensation both flow to the relevant Alibaba P&L lines, with Ele.me carrying the largest share of the impact.
+
+The framework should be read alongside [[PBOC]] governor [[Pan Gongsheng]]'s parallel anti-"involution" rhetoric on the financial sector — Beijing is using regulatory pressure to suppress destructive within-sector competition. The likely outcome over the 2026-2027 implementation window is reduced price-war intensity across food delivery, which structurally benefits scaled incumbents able to absorb the cost floor. See [[China platform labor regulation]] for full mechanics.
+
+*Source: PBOC + State Council releases, Apr 2026; Bloomberg "The China Show" Apr 27 coverage.*
+
+---
+
 ## Related
 
 ### Subsidiaries/Products

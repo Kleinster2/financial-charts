@@ -76,6 +76,14 @@ If a formal foundry agreement materializes, it would give [[Intel Foundry Servic
 
 ---
 
+## Primary-source recording (Apr 6, 2026)
+
+Tesla's official YouTube channel posted the full 27-minute TERAFAB launch recording on April 6, 2026 — two weeks after the live event. The recording confirms the existing claims in this note with direct verbatim Musk: 1 TW/yr compute target, 100-200 GW terrestrial vs 1 TW orbital split, "we will buy all of their chips" line directed at TSMC/Samsung/Micron, single-building lithography-mask + logic + memory + packaging + test loop, and the explicit framing of TERAFAB as the missing ingredient since "all the rest of the output from Earth is about 2% of what we need." The recording also fixes the orbital compute math at ~10M tons/year to orbit at ~100 kW per ton — the mass budget that drives [[Starship]] V3/V4 dependency. The video does not introduce material new content beyond what was reported live; its value is in primary-source attribution. Optimus production volumes ("10 to 100 times more than the volume of cars" → 1B-10B/yr) and the [[Lunar Mass Driver]] petawatt-scale roadmap are reiterated as worldview rather than near-term engineering, consistent with this note's skepticism framing.
+
+*Source: [Tesla YouTube — "TERAFAB | The Largest Chip Manufacturing Facility Ever"](https://youtu.be/Txt3Wodav1o)*
+
+---
+
 ## SpaceX S-1 reframes Terafab as a disclosed bottleneck (Apr 23, 2026)
 
 Reuters reviewed excerpts of SpaceX's confidential S-1 showing that the company now lists "manufacturing our own GPUs" among its substantial capital expenditures. More important than the label itself, the filing warns that SpaceX does not have long-term contracts with many direct chip suppliers, expects to keep sourcing a significant portion of compute hardware from third parties, and offers no assurance that [[TERAFAB]] will meet its expected timelines, or happen at all.
@@ -102,4 +110,4 @@ That matters because the Apr. 7 Intel X post had allowed the market shorthand to
 - [[Foundry Wars]] — competitive context
 - [[IDM model]] — structural economics of vertically-integrated fab
 
-*Created 2026-03-23 · Expanded 2026-03-24 (Bloomberg/Bernstein/Barclays/Prism data) · Intel partnership 2026-04-08*
+*Created 2026-03-23 · Expanded 2026-03-24 (Bloomberg/Bernstein/Barclays/Prism data) · Intel partnership 2026-04-08 · Primary-source recording 2026-04-28*

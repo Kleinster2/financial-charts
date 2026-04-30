@@ -83,6 +83,23 @@ Tesla is its own first customer.
 
 ---
 
+## TERAFAB-event volume rhetoric vs production targets (Apr 2026)
+
+At the TERAFAB launch event (March 21, 2026, recording posted Tesla YouTube April 6), [[Elon Musk]] framed Optimus production as "10 to 100 times more than the volume of cars" — implying 1 billion to 10 billion units per year against ~100M global vehicle production. This is rhetorical worldview, not company guidance. Tesla's own production targets are much smaller:
+
+| Year | Target |
+|------|--------|
+| 2026 | 50,000-100,000 units |
+| 2027 | 1M units/year run-rate at Fremont; 10M units/year capacity at Giga Texas |
+
+The 10M/yr Giga Texas figure is itself the optimistic-case factory build-out, not a confirmed shipment number. The "10 billion humanoid market" framing in this note's Elon's vision section is a TAM claim, not a Tesla production claim — the two should not be conflated.
+
+A second source-correction from the same event: Musk visually compared an Optimus to a Starship V3 mockup on stage and stated Optimus is "about 5'11"". The actual Gen 3 height is 173 cm = 5'8" (same as Gen 2 in this note's spec table). Musk was approximating from the stage scale, not stating a Gen 3 design change.
+
+*Sources: Tesla YouTube TERAFAB recording (Apr 6, 2026); Basenor / Electrek / Optimusk.blog / Programming Helper Tech production-target reporting (Apr 2026)*
+
+---
+
 ## Reality check (WSJ Jan 2026)
 
 **What demos don't show:**

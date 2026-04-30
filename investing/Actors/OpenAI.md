@@ -117,6 +117,7 @@ The bet is that scale — user scale, compute scale, capital scale — creates a
 ### Hardware
 
 - [[Acquired]] [[Jony Ive]]'s startup "io" for $6.4B (May 2025). First hardware prototypes completed Nov 2025: pocket-sized, screenless, audio-based device with cameras/microphones. [[Target]] launch late 2026 or early 2027.
+- [[Ming-Chi Kuo]] reported (Apr 27, 2026) a separate AI agent smartphone in development — [[Qualcomm]] + [[MediaTek]] joint chip co-design, [[Luxshare Precision]] exclusive assembly. Mass production targeted 2028; 300-400M annual shipments target; specs and suppliers to be finalized end-2026 / early-2027. Two product tracks (io companion + agent smartphone), not the same device. See [[OpenAI hardware program]].
 
 ---
 
@@ -348,6 +349,44 @@ TBPN acquisition context: The [[TBPN]] deal (already covered above) represents O
 
 ---
 
+## Apr 28, 2026 — WSJ revenue miss report
+
+The day after the Microsoft exclusivity reset, the [[Wall Street Journal]] reported that OpenAI fell short of its own internal projections for both user growth and revenue. Two specific shortfalls were cited: a missed target of 1 billion weekly active users by year-end 2025 (current ~900M per company disclosure), and missed monthly revenue targets across early 2026 amid rising competition in coding (vs [[Claude Code]]) and enterprise services (vs [[Anthropic]] / [[Google]]). [[ChatGPT]]'s share of generative-AI web traffic dropped from 86.7% (Jan 2025) to 64.5% (Jan 2026); [[Gemini]] rose from 5.7% to 21.5% over the same window.
+
+The most load-bearing detail in the WSJ report: CFO [[Sarah Friar]] was reported to have raised internal concerns about whether OpenAI can fund its committed compute contracts if revenue growth does not accelerate. CFO worries surfacing in internal documents reaching reporters is a different signal than public earnings guidance — it reflects internal risk discussions the company has not yet had publicly.
+
+OpenAI's pushback was direct: *"This is ridiculous. We are totally aligned on buying as much compute as we can."* The line is technically consistent with the WSJ findings — wanting compute is not the same as being able to pay for committed compute over multi-year contracts.
+
+The sell-off priced the entire AI capex stack: [[Oracle]] -4.05%, [[CoreWeave]] -5.83%, [[Broadcom]] -4.39%, [[AMD]] -3.41%, [[Marvell Technology|Marvell]] -3.15%, [[NVIDIA]] -1.59%, [[IREN]] -8.10%, [[Cipher Mining|Cipher]] -4.96%, [[SoftBank]] -10% in Tokyo. The graduated chip-stack pricing — NVDA absorbing better than AMD or AVGO — reflects diversification of customer base. [[Microsoft]] was roughly flat: the [[Microsoft-OpenAI exclusivity end|Apr 27 reset]] put MSFT structurally better-positioned to absorb OpenAI revenue weakness than to benefit from OpenAI revenue strength.
+
+The structural read connects to the [[OpenAI#Apr 2026 — secondary market + IPO pressure|Apr 3-6 secondary-market signal]]: institutional investors trying to sell ~$600M of OpenAI shares at a 10% discount to the $852B post-money mark. The internal-revenue narrative now matches the secondary-market narrative — the market is repricing OpenAI risk faster than primary funding rounds can clear.
+
+See [[2026 OpenAI revenue miss]] for the full event note covering compute-coverage gap mechanics, individual stock reactions, and watch-list of second-order effects.
+
+*Source: WSJ via [CNBC](https://www.cnbc.com/2026/04/28/openai-reportedly-missed-revenue-targets-shares-of-oracle-and-these-chip-stocks-are-falling.html), [Sherwood News](https://sherwood.news/markets/openai-linked-stocks-suffer-after-wsj-reports-that-the-company-has-missed-key-revenue-and-user-targets/), [24/7 Wall St](https://247wallst.com/investing/2026/04/28/openais-revenue-miss-is-ripples-through-sp-500-while-earnings-pour-in/), Apr 28, 2026.*
+
+---
+
+## Apr 27, 2026 — Microsoft exclusivity ended
+
+[[Microsoft]] and [[OpenAI]] announced a restructured partnership ending [[Microsoft]]'s exclusive license on OpenAI's models. [[OpenAI]] is now free to distribute through any cloud — [[Andy Jassy]] (Amazon CEO) confirmed [[AWS]] hosting "soon." Microsoft IP rights continue non-exclusively through 2032. Microsoft no longer pays OpenAI a revenue share; OpenAI continues to pay Microsoft 20% revenue share through 2030, capped, independent of OpenAI tech progress (the AGI off-ramp removed). Azure remains the primary launch cloud "unless Microsoft decides otherwise." MSFT was -4% pre-market on the headline, recovered to roughly flat (~-0.4% to -0.7%) by the close as the market parsed that Microsoft kept what mattered (IP, revenue share inbound, ~27% equity, $7.6B Q2 FY26 mark-to-market gain). See [[Microsoft-OpenAI exclusivity end]] for full details. The structural read: [[OpenAI]] is freeing distribution on the cloud side at the same time it is trying to escape platform-owner dependence on the device side via the [[OpenAI hardware program]].
+
+*Source: [Microsoft official blog](https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/), CNBC, Reuters, Bloomberg Tech 4/27/26.*
+
+---
+
+## Apr 27, 2026 — Musk trial begins (jury selection)
+
+The [[Elon Musk]] $134B lawsuit against [[OpenAI]] entered jury selection in Oakland on April 27, 2026. The trial concerns two remaining claims (others dismissed): (1) [[Sam Altman]] and OpenAI violated a promise to Musk that OpenAI would maintain a permanent charitable mission, breached when the 2019 for-profit affiliate was created; (2) Altman/OpenAI received undeserved benefits (Musk's investment) from those broken promises. Witnesses include Altman, Musk, and [[Satya Nadella]].
+
+Procedural detail material to outcome: the jury is advisory only — the judge is not bound by it. Per Professor Lund (Columbia Law School, Bloomberg Tech 4/27/26): the judge will retain discretion regardless of verdict, though a jury verdict provides "cover" for the judge's ruling. Musk has dropped multiple original claims; the case is narrower than initial filings.
+
+The judge has called out Musk's potential motive — operating [[xAI]] as a competing for-profit AI company while suing to retroactively unwind OpenAI's for-profit conversion. SpaceX IPO disclosures explicitly note that [[Grok]] would benefit if the suit succeeds.
+
+*Source: Bloomberg Tech 4/27/26 (Professor Eric Lund interview); existing Musk lawsuit context.*
+
+---
+
 ## Apr 22, 2026 - GPT-5.4-Cyber moves OpenAI deeper into government cyber
 
 OpenAI briefed U.S. federal agencies, state governments, and Five Eyes partners on GPT-5.4-Cyber, a defensive cybersecurity variant of its flagship model. The company is not just shipping a generic model checkpoint. It is building a gated distribution channel for vetted security vendors, researchers, organizations, and now government users.
@@ -383,3 +422,8 @@ The readthrough is strategic. OpenAI is moving downstream from general model cap
 - [[Promptfoo]] — AI security testing platform acquired Mar 2026, integrating into Frontier
 - [[TBPN]] — tech talk show acquired Apr 2026 (narrative/messaging play)
 - [[Anthropic]] — primary competitor, founded by OpenAI defectors
+- [[OpenAI hardware program]] — io device + AI agent smartphone (Qualcomm/MediaTek/Luxshare, per Kuo Apr 2026)
+- [[Qualcomm]] — chip co-designer (smartphone, joint with MediaTek)
+- [[MediaTek]] — chip co-designer (smartphone, joint with Qualcomm)
+- [[Luxshare Precision]] — exclusive smartphone assembly partner
+- [[Microsoft-OpenAI exclusivity end]] — Apr 27, 2026 partnership reset; cloud distribution opened

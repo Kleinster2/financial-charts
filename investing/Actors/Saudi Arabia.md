@@ -105,6 +105,14 @@ See [[2026 Iran conflict market impact#Day 14 — March 13 (Gulf equity divergen
 
 The Apr 15, 2026 [[Saudi PIF]] strategy reset is now the operating map for the last stretch of [[Saudi Vision 2030]]. PIF collapsed its prior 13-sector frame into six ecosystems: tourism/travel/entertainment; urban development/livability; advanced manufacturing/innovation; industrials/logistics; clean energy/water/renewables infrastructure; and [[NEOM]]. The country-level read-through is triage, not abandonment: [[Expo 2030]], the 2034 [[FIFA]] World Cup, [[HUMAIN]], housing, mining, [[Oxagon]], and domestic tourism remain protected; prestige projects without clear domestic multiplier or strategic utility are being phased.
 
+## UAE OPEC exit — Saudi loses its shock absorber (Apr 28, 2026)
+
+The [[2026 UAE OPEC exit|UAE announcement]] of departure from both [[OPEC]] and OPEC+ effective May 1, 2026 lands directly on Saudi Arabia's role as cartel manager. UAE production capacity is ~4.8 mb/d today against actual ~3.5 mb/d under quota; a 5 mb/d 2027 target via [[ADNOC]]'s $150B 2023-2027 capex program is now unconstrained by quota negotiation. [[Jorge Leon]] of [[Rystad Energy]] framed the immediate consequence: Saudi Arabia must now do "more of the heavy lifting on price stability" with the bloc losing a key "shock absorber." The shock-absorber framing is the operational point — the UAE has historically been the member willing to absorb above-quota cuts to support Saudi-led production discipline; that buffer is gone.
+
+Saudi-side reaction was silence at the announcement, which fits the broader Saudi pattern under the war of avoiding open escalation with neighbors. UAE Energy Minister [[Suhail Al Mazrouei]] denied any political linkage with Saudi in the Bloomberg interview, but Al Jazeera and Washington Post reporting on the OPEC exit surfaced the December 2025 rupture in the Saudi-UAE Yemen coalition (over Saudi airstrikes on what Riyadh said were Iranian weapons shipments to UAE-backed [[Southern Transitional Council]] separatists), the ongoing [[Red Sea]] commercial competition, and the [[Marc Lynch]] / [[Ryan Bohl]] framework of divergent post-war preferences for [[Iran]]. The exit is the first unilateral structural decision the UAE has taken since the pre-war Saudi-Emirati split that Lynch documented in March was paused by Iran's strikes on all Gulf states.
+
+Forward question: whether informal UAE production discipline replaces formal quota coordination, or whether unconstrained UAE ramp toward 5 mb/d at the same time as a rebuilt OPEC+ output tests Saudi tolerance. Saudi fiscal breakeven is $90+ at the country level, ~$111 including [[Saudi PIF]] capital deployment; another major member exit (Iraqi or Kuwaiti) within 90 days would crystallize OPEC fragmentation into a force Saudi can no longer paper over. See [[2026 UAE OPEC exit]] for the full event note.
+
 ---
 
 ## Sources
@@ -120,6 +128,7 @@ The Apr 15, 2026 [[Saudi PIF]] strategy reset is now the operating map for the l
 - [[Saudi PIF]] — actor (sovereign wealth fund)
 - [[Saudi Vision 2030]] — context (transformation program)
 - [[OPEC]] — context (cartel leadership)
+- [[2026 UAE OPEC exit]] — event removing UAE shock-absorber role from OPEC+
 - [[Jafurah]] — product (flagship gas project)
 - [[Ghawar]] — product (largest oil field)
 - [[GCC]] — region (Gulf Cooperation Council)

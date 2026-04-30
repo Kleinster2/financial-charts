@@ -63,6 +63,16 @@ NDRC summoned [[Maersk]] and [[MSC]] in early March 2026 to demand they withdraw
 
 *Source: [[FT]], Ryan McMorrow + Joe Leahy, Apr 15, 2026*
 
+### Apr 27, 2026: Meta-Manus deal unwind order
+
+NDRC ordered [[Meta]] to unwind its $2B acquisition of [[Manus AI]], a Chinese-founded [[AI agents|AI agent]] startup that had relocated its corporate domicile to [[Singapore]] in July 2025 ([[Singapore washing]] playbook) before the deal was announced in December 2025. NDRC's brief Monday statement cited a "decision to prohibit foreign investment in Manus made in accordance with laws and regulations" and asked the parties to cancel the transaction. The order followed a [[MOFCOM]] investigation opened January 8, 2026 under tech-export-control law and a March 22 NDRC summons of co-founders [[Xiao Hong]] (CEO) and [[Ji Yichao]] (chief scientist) to Beijing — both barred from leaving mainland China during the review (cited as 3-12 months).
+
+Significance: this is the first major instance of NDRC asserting extraterritorial reach over a Chinese-founded technology company that had completed an offshore restructuring. The legal hook is that the underlying [[AI agents|AI agent]] technology was substantially developed in mainland China and therefore required an export license under China's Technology Import and Export Administration Regulations — a license never sought. The personal-mobility leverage on the founders provided the operational binding constraint that ensured the deal could not close regardless of corporate posture. Capital had already been transferred and ~100 Manus engineers had moved into Meta's [[Singapore]] office; the unwind is retroactive.
+
+The precedent generalizes to any Chinese-founded AI lab in the [[HongShan]] / [[Sequoia Capital]] portfolio currently positioned for a Singapore-routed US exit ([[MiniMax]], [[Moonshot AI]], [[StepFun]], [[Zhipu]]) and signals that NDRC functions as a tech-export enforcement arm in addition to its planning role. See [[Manus AI]] and [[Singapore washing]] for full context.
+
+*Source: Bloomberg, CNBC, SCMP, Apr 27, 2026*
+
 ### Late March 2026: Peng Shaozong energy-security warning
 
 [[Peng Shaozong]], former NDRC official and now vice-president of the [[China Society for Economic Reform]], published an unusually candid policy paper warning that China "must abandon wishful thinking" and should start considering worst-case scenarios in the wake of the [[2026 Strait of Hormuz crisis]]. Costs in energy-intensive sectors (logistics, transport, aviation, shipping, steel) had jumped as much as 25%; pressure severest on smaller firms without SOE cost-absorption buffer. Policy recommendation: release oil from the strategic petroleum reserve in response to higher prices, not only scarcity; accelerate oil supply diversification. Flagged industrial-gas dependencies (including [[Helium]]) for semiconductors and medical technology. See [[Iran conflict supply chain cascade#Peng Shaozong — "abandon wishful thinking" (late March)|supply chain cascade note]] for the data.
@@ -130,6 +140,11 @@ Three-stage rollout starting March 2026.
 - [[Liu He]] — former vice premier, economic policy
 - [[Xi Jinping]] — ultimate authority
 - [[Belt and Road]] — NDRC coordinates
+- [[Manus AI]] — Apr 27, 2026 unwind order; first major extraterritorial-reach precedent
+- [[Singapore washing]] — the offshore-restructuring playbook NDRC's Manus order broke
+- [[MOFCOM]] — paired regulator; opened the Manus export-control investigation
+- [[Meta]] — US acquirer in the blocked Manus deal
+- [[Panama Canal Ports Crisis 2025-2026]] — earlier example of NDRC as enforcement tool against foreign corporations
 
 ---
 

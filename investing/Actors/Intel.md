@@ -410,6 +410,16 @@ The PC caution that surfaced on the call is structural, not Intel-specific. Memo
 
 ---
 
+## Apr 28, 2026 — $6.5B bond sale attracts $50B in orders
+
+Per Bloomberg "The China Show" 4/28/2026 broadcast: Intel attracted approximately US$50B in orders for a US$6.5B bond sale, signaling investor buy-in to the company's turnaround story. Proceeds will help [[Intel]] buy back a stake in an Irish chip plant. The 7.7× book oversubscription is unusually strong for an investment-grade industrial issuer of Intel's size and credit rating (BBB/Baa2 with [[Fitch]] negative outlook), and reflects a structural shift in how the market is pricing Intel's turnaround following the [[Lip-Bu Tan]] Q1 2026 results print on Apr 24 (revenue beat, CPU re-rating thesis traction). The framing in the broadcast: "Markets are growing more optimistic that Intel is finally seizing on a surge in AI spending."
+
+The Irish plant stake repurchase is structurally meaningful — the original 2022 Apollo-backed JV transferred a partial economic interest in Intel's Fab 34 in Leixlip, Ireland, in exchange for a $11B financing tranche. Buying back the stake unwinds the JV and reconsolidates the wafer-output economics on Intel's balance sheet, which compounds with the [[Intel Foundry|foundry]]-segment trajectory under [[Lip-Bu Tan]]. Combined with the bond-market reception, this is the cleanest signal yet that the Apollo-era off-balance-sheet financing structure is being rolled back as Intel's standalone capital-markets access reopens.
+
+*Sources: Bloomberg "The China Show" 4/28/2026 broadcast; Intel bond-sale order-book reporting.*
+
+---
+
 ## For theses
 
 [[Short TSMC long Korea]]: Intel weakness = fewer competitors for Samsung

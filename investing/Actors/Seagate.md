@@ -146,6 +146,20 @@ Seagate bet on HAMR technology for capacity scaling.
 
 ---
 
+## Q3 FY2026 earnings (Apr 28, 2026)
+
+Seagate reported fiscal Q3 2026 revenue of $3.11B, GAAP gross margin of 46.5%, non-GAAP gross margin of 47.0%, GAAP EPS of $3.27, non-GAAP EPS of $4.10, operating cash flow of $1.1B, and free cash flow of $953M. Revenue was up from $2.16B a year earlier; non-GAAP operating margin reached 37.5%.
+
+Management framed the quarter as a structural AI-storage demand inflection: AI applications are amplifying data creation, hyperscale cloud demand remains durable, and Seagate's areal-density strategy lets it sell higher-capacity storage into the same power and space envelope. The quarter exceeded the high end of prior revenue/EPS guidance and achieved record margin performance.
+
+Q4 FY2026 guidance is $3.45B ± $100M revenue and non-GAAP EPS of $5.00 ± $0.20, with minimal expected impact from tariff policies or the Middle East conflict as of the release date. STX closed Apr 29 at $643.30, up 11.1% from Apr 28.
+
+The structural read: HDDs are now behaving less like legacy storage and more like a capacity-constrained AI data substrate. The same hyperscaler capex cycle that squeezes memory buyers is raising nearline-HDD pricing power for [[Seagate]] and [[Western Digital]].
+
+*Source: [Seagate press release](https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx), Apr 28 2026; local DB close Apr 29 2026.*
+
+---
+
 ## Financials snapshot
 
 | Metric | Value |

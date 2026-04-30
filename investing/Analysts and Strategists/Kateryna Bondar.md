@@ -39,4 +39,4 @@ Russia has built a comprehensive sovereign ecosystem around unmanned systems and
 
 - [Geopolitics: Kateryna Bondar](obsidian://open?vault=geopolitics&file=Analysts%2FKateryna%20Bondar) — full analyst note in geopolitics vault
 
-*Created [[2026-04-27]].*
+*Created 2026-04-27.*

@@ -74,6 +74,44 @@ NVIDIA assistance allegations (Jan 28, 2026):
 
 ---
 
+## V4 release + 75% price cut (Apr 24-27, 2026)
+
+DeepSeek released [[DeepSeek-V|V4-Pro]] and V4-Flash in preview on Apr 24, 2026 — the company's first significant model launch since December 2025. On Apr 27, DeepSeek announced major API price reductions: input cache hit fees cut to one-tenth of original price, plus a 75% promotional discount on V4-Pro through May 5.
+
+| V4-Pro spec | Value |
+|---|---|
+| Total parameters | 1.6 trillion |
+| Active parameters per pass | 49 billion |
+| Architecture | Mixture-of-experts (largest open-weight model currently available) |
+| Math/coding benchmarks | Beats all rival open-weight models |
+| World knowledge | Trails only [[Google]] [[Gemini]] 3.1-Pro (closed) |
+
+Promotional pricing (through May 5):
+- V4-Pro input cache hit: 0.025 yuan (~$0.0036) per million tokens
+- Standard input: 3 yuan per million tokens
+- Standard output: 6 yuan per million tokens
+
+Western competitor output prices for comparable tier: $12-25 per million tokens. The DeepSeek pricing is roughly an order of magnitude undercut.
+
+### Independent benchmarks ([[Artificial Analysis]], Apr 2026)
+
+| Metric | V4-Pro (Reasoning, Max) | V3.2 (Reasoning) |
+|---|---|---|
+| AA Intelligence Index | 52 | 42 |
+| Open-weights ranking | #2 (behind Kimi K2.6) | — |
+| GDPval-AA agentic | 1554 (#1 open-weights, ahead of Kimi K2.6 1484, GLM-5.1 1535, GLM-5 1402, MiniMax-M2.7 1514) | — |
+| AA-Omniscience | -10 | -21 |
+| Hallucination rate | 94% (very high — answers even when uncertain) | — |
+| Cost to run AA Index | $1,071 | — |
+
+Comparison cost data point: [[Anthropic]] Claude Opus 4.7 costs $4,811 to run the same AA Intelligence Index (~4.5x V4-Pro). V4-Pro is more expensive than several smaller open-weights peers but gets a higher score. The 94% hallucination rate is a material weakness — it answers nearly every question regardless of confidence — and is the kind of detail that limits enterprise adoption regardless of headline benchmark wins.
+
+Implication for [[AI capex arms race]] and [[Inference economics]]: the [[China]] cost-floor on inference continues to compress. Combined with [[Anthropic]]'s and [[OpenAI]]'s gross-margin pressure (33% at OpenAI), the structural question is whether US frontier labs can sustain pricing in markets where DeepSeek is available. The "[[DeepSeek day]]" thesis from Jan 2025 — that Chinese open-weight models would commoditize inference — extends with this release. Independent benchmark validation has now landed (Artificial Analysis, Apr 2026): the math/coding wins are confirmed; world-knowledge trails Gemini 3.1-Pro; hallucination rate is the binding capability constraint.
+
+*Source: Bloomberg ("DeepSeek Slashes Fees for New AI Model in Chinese Price War"), Reuters via Investing.com, Dataconomy, TechBriefly; Apr 27, 2026.*
+
+---
+
 ## One-year anniversary (Jan 27, 2026)
 
 Today marks one year since [[DeepSeek day]] — the Jan 27, 2025 crash that wiped $600B from [[NVIDIA]] and ~$1T from tech stocks overall.

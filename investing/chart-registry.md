@@ -118,6 +118,8 @@ charts:
   india-rupee-usd.png:
     tickers: USDINR=X
     normalize: false
+  nw-europe-refined-products-vs-brent-apr2026.png:
+    skip: true
 ---
 
 # Chart Registry

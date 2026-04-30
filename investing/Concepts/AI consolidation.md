@@ -79,15 +79,16 @@ Result: Big Tech entrenches dominance, picks up talent and IP while startups str
 
 ## Major acqui-hires / stealth acquisitions
 
-| Date | Acquirer | [[Target]] | Value | Structure |
-|------|----------|--------|-------|-----------|
-| Dec 2025 | [[NVIDIA]] | [[Groq]] | $20B | Licensing (backdoor) |
-| ~2025 | — | [[Scale AI]] | ~$30B | — |
-| Dec 2025 | [[Meta]] | Manus | $2B | Outright (Chinese startup) |
-| 2025 | [[Google]] | Windsurf | $2.4B | Assets + talent |
-| 2024 | [[Google]] | [[Character.AI]] | $2.7B | Acqui-hire |
-| 2024 | [[Microsoft]] | Inflection | $650M | Licensing |
-| 2024 | [[Amazon]] | [[Adept]] | — | Acqui-hire |
+| Date | Acquirer | [[Target]] | Value | Structure | Status |
+|------|----------|--------|-------|-----------|--------|
+| Dec 2025 | [[NVIDIA]] | [[Groq]] | $20B | Licensing (backdoor) | Closed |
+| ~2025 | — | [[Scale AI]] | ~$30B | — | Closed |
+| Dec 2025 | [[Meta]] | [[Manus AI\|Manus]] | $2B | Outright (Chinese startup, [[Singapore washing\|Singapore-restructured]]) | Ordered unwound by [[NDRC]] Apr 27, 2026 |
+| Mar 2026 | [[Meta]] | [[Moltbook]] | Undisclosed | Acqui-hire | Closed |
+| 2025 | [[Google]] | Windsurf | $2.4B | Assets + talent | Closed |
+| 2024 | [[Google]] | [[Character.AI]] | $2.7B | Acqui-hire | Closed |
+| 2024 | [[Microsoft]] | Inflection | $650M | Licensing | Closed |
+| 2024 | [[Amazon]] | [[Adept]] | — | Acqui-hire | Closed |
 
 ---
 
@@ -125,16 +126,26 @@ See [[OpenClaw]] for the specific conflict that made the pattern visible, and [[
 
 ## [[China]] angle
 
-**Shift in dynamic:** [[China]] now producing innovators (vs copying in early mobile era)
+Shift in dynamic: [[China]] now producing innovators (vs copying in early mobile era)
 
 - "Meta copied [[TikTok]] features... Now in the AI age, Meta purchases Manus" — Winston Ma, NYU
 
-**Chinese AI startups positioning for US exits:**
-- Manus: HQ'd in Singapore, scrubbed [[China]] links before Meta deal
+Chinese AI startups positioning for US exits via the [[Singapore washing]] playbook:
+- [[Manus AI]]: HQ relocated to Singapore in July 2025, mainland China product wound down before $2B Meta deal announced Dec 2025. Deal ordered unwound by [[NDRC]] Apr 27, 2026 — first major reversal of the playbook
 - New generation of Chinese founders more globally-minded
-- Potential targets: [[Zhipu]], [[Moonshot AI]]
+- Other targets in the same restructuring pipeline: [[Zhipu]], [[Moonshot AI]], [[MiniMax]], [[StepFun]]
 
-**Exception:** [[DeepSeek]] unlikely to sell due to geopolitical sensitivity
+Exception: [[DeepSeek]] unlikely to sell due to geopolitical sensitivity
+
+### The Singapore-routing path is now contested
+
+The Pansy Olson Jan 7, 2026 framing assumed Big Tech could absorb Chinese AI startups by buying Singapore-domiciled holding entities — sidestepping [[CFIUS]] (since the target is foreign), outbound-investment EOs (since the acquirer is buying, not investing), and Chinese review (since the entity is offshore). The Meta-Manus block invalidated the third assumption. Beijing applied technology-export-control law extraterritorially — arguing that the underlying [[AI agents|AI agent]] technology was developed in mainland China and the offshore restructuring constituted an unauthorized cross-border tech transfer — and used personal-mobility restrictions on the founders ([[Xiao Hong]] and [[Ji Yichao]] barred from leaving China since Mar 22, 2026) as the operational binding constraint. Capital, employees, and product had already moved offshore; the unwind order is retroactive.
+
+The April 25 Seoul Economic Daily reporting that China is now also barring Chinese tech firms from accepting US capital without approval points in the same direction — Beijing closing the offshore corridor in parallel with US-side closures ([[Pax Silica]], outbound-investment EOs, [[CFIUS]]).
+
+Implication for the consolidation thesis: the Chinese-acquisition leg of the two-strategy framework (acqui-hires + Chinese acquisitions) was a meaningful contributor to the assumption that Big Tech could buy AI talent at distressed prices regardless of nationality. With Singapore routing now contested, US acquirers face a new tail risk — post-close unwind orders — that prices into the deal premium for Chinese-founded targets. The most exposed comparable is any unannounced Singapore-restructured exit currently in the pipeline.
+
+See [[Singapore washing]] for the full mechanism and pipeline-exposure analysis.
 
 ---
 
@@ -159,10 +170,15 @@ Same pattern occurred with cloud software → PE-driven acquisitions in 2020-202
 
 - [[NVIDIA]] — Groq deal exemplifies backdoor acquisition strategy
 - [[Groq]] — target of largest deal ($20B)
-- [[Meta]] — acquiring Chinese startups (Manus)
+- [[Meta]] — acquiring Chinese startups (Manus deal blocked Apr 27, 2026); Moltbook acqui-hire intact
+- [[Manus AI]] — $2B Meta deal blocked by [[NDRC]] Apr 27, 2026; first major reversal of [[Singapore washing]] playbook
+- [[Singapore washing]] — the offshore-restructuring playbook now contested by Beijing
 - [[Character.AI]] — acqui-hire by Google
-- [[Zhipu]] — potential acquisition target
+- [[Zhipu]], [[Moonshot AI]], [[MiniMax]], [[StepFun]] — adjacent China-AI exposure to the same playbook risk
 - [[DeepSeek]] — too geopolitically sensitive to sell
+- [[NDRC]] — Chinese regulator that ordered the Meta-Manus unwind
+- [[MOFCOM]] — Chinese regulator that opened the Manus export-control review
+- [[US-China decoupling]] — parent frame
 - [[Sector rotation]] — AI fatigue context
 
 *Created 2026-01-11*

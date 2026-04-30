@@ -20,6 +20,18 @@ MediaTek is becoming the anti-Broadcom for hyperscalers:
 
 ---
 
+## Apr 27, 2026 — OpenAI smartphone chip co-design
+
+[[Ming-Chi Kuo]] reported [[MediaTek]] and [[Qualcomm]] will jointly co-design the processor for [[OpenAI]]'s AI agent smartphone, with [[Luxshare Precision]] as exclusive assembly partner. Mass production targeted 2028; 300-400M annual shipment target; specs/suppliers finalized end-2026 / early-2027.
+
+This sits alongside [[MediaTek]]'s existing hyperscaler-ASIC role for [[Google]] (TPU IC design) and [[Microsoft]] (Maia design partner) — the company is positioning as the chip-design partner of choice for AI platform owners building bespoke silicon. The OpenAI socket would extend that pattern from data-center accelerators into consumer device SoCs. See [[OpenAI hardware program]].
+
+The joint structure with [[Qualcomm]] is unusual; revenue split between the two co-designers is not yet specified.
+
+*Source: TF International Securities (Ming-Chi Kuo) note, Apr 27, 2026; The Next Web; CNBC.*
+
+---
+
 ## Hyperscaler disintermediation play
 
 **Becoming the Broadcom alternative:**
@@ -222,3 +234,6 @@ MediaTek as [[Taiwan]] fabless company benefits from:
 - [[Hyperscaler disintermediation]] — thesis context
 - [[AI hyperscalers]] — customer base
 - [[Automotive semiconductors]] — growth market
+- [[OpenAI hardware program]] — joint smartphone chip co-design with [[Qualcomm]] (Kuo, Apr 27 2026)
+- [[OpenAI]] — customer (smartphone chip co-design)
+- [[Luxshare Precision]] — co-supplier (exclusive smartphone assembly)

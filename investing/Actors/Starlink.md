@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #satellite #telecom #usa #subsidiary
 
-**Starlink** — SpaceX satellite internet. 9M+ subscribers. $11.8B revenue (2025E). 70% of SpaceX revenue. Profitable.
+**Starlink** — [[SpaceX]] satellite internet. 10M+ subscribers (Q1 2026). ~$20B 2026 revenue tracking. 70%+ of SpaceX revenue. Profitable.
 
 ---
 
@@ -12,11 +12,13 @@ aliases: []
 | Metric | Value |
 |--------|-------|
 | Parent | [[SpaceX]] |
-| Subscribers | **9M+** (Dec 2025) |
-| 2025E revenue | **$11.8B** |
+| Subscribers | 10M+ (Q1 2026) |
+| 2025E revenue | $11.8B |
+| 2026 revenue tracking | ~$20B (per [[Space Capital]] Space IQ Q1 2026) |
 | % of SpaceX | ~70% of revenue |
-| Satellites | 9,000+ in orbit |
-| Status | **Profitable** (2024) |
+| Satellites | 10,000+ simultaneous in orbit (mid-March 2026) |
+| Production cadence | ~5 new satellites/day (Q1 2026) |
+| Status | Profitable (2024) |
 
 ---
 
@@ -27,9 +29,10 @@ aliases: []
 | Dec 2024 | 4.6M | — |
 | Aug 2025 | 7M | +52% |
 | Nov 2025 | 8M | +14% |
-| Dec 2025 | **9M+** | +12% |
+| Dec 2025 | 9M+ | +12% |
+| Q1 2026 | 10M+ | first 10M-subscriber satellite ISP |
 
-**Growth rate:** 20,000+ new users per day.
+Growth rate: 20,000+ new users per day. Anderson framing ([[Space Capital]] Space IQ Q1 2026): "10 million paying customers for a satellite internet service that didn't exist 6 years ago" — service launched May 2019.
 
 ---
 
@@ -70,7 +73,8 @@ aliases: []
 | Spec | Value |
 |------|-------|
 | Orbit | Low Earth Orbit (LEO) |
-| Satellites | 9,000+ operational |
+| Satellites | 10,000+ simultaneous (mid-March 2026); 15,000 FCC-approved |
+| Production | ~5 new satellites/day (Q1 2026) |
 | Latency | 20-40ms |
 | Speed | Up to 220 Mbps |
 | Coverage | Global (exc. some regions) |
@@ -128,8 +132,8 @@ aliases: []
 | Metric | Value |
 |--------|-------|
 | Parent | SpaceX |
-| Subscribers | 9M+ |
-| Revenue | ~$11.8B (2025E) |
+| Subscribers | 10M+ (Q1 2026) |
+| Revenue | ~$11.8B (2025); ~$20B tracking (2026) |
 | Status | Profitable |
 
 ---
@@ -153,6 +157,14 @@ aliases: []
 
 ---
 
+## Q1 2026 — 10M subscribers + 10K satellites simultaneously in orbit (Apr 26, 2026)
+
+[[Space Capital]] (Chad Anderson) reported in the Space IQ Q1 2026 briefing that Starlink crossed 10M subscribers during the quarter — the first satellite ISP to clear that threshold and roughly a 6-year arc from 0 (service launched May 2019). In mid-March 2026, the constellation hit 10,000 simultaneous satellites in orbit, with [[SpaceX]] adding ~5 new satellites per day. SpaceX as a whole is now tracking toward ~$20B in 2026 revenue, the bulk of which is Starlink subscription revenue rather than launch services. Falcon 9 list pricing was raised to $74M (the fourth increase since commercial launches began at $61M); rideshare moved from $6,000 to $7,000/kg. Anderson read those price increases as confidence signals that SpaceX is capacity-constrained by *internal* demand — Starlink, [[Direct to Cell]], and orbital data centers compete for launch slots that would otherwise go to commercial customers, opening room for [[Blue Origin]], [[Rocket Lab]], [[Firefly Aerospace]], and [[Arianespace]] to absorb commercial and institutional demand.
+
+*Source: [Space IQ Q1 2026 briefing — Space Capital](https://youtu.be/iGmr4g4Iot4) (Apr 26, 2026), recorded at NASDAQ MarketSite.*
+
+---
+
 ## Related
 
 - [[SpaceX]] — parent company
@@ -160,6 +172,9 @@ aliases: []
 - [[Baron Capital]] — investor
 - [[Valor Equity Partners]] — investor
 - [[Iran]] — Jan 2026 deployment discussion
+- [[Space Capital]] — Q1 2026 briefing source
+- [[Space data centers]] — orbital data center constellation builds on Starlink infrastructure
+- [[Direct to Cell]] — partnership with [[T-Mobile]]
 
 ---
 
@@ -168,5 +183,6 @@ aliases: []
 - [SpaceNews: $11.8B revenue](https://spacenews.com/starlink-set-to-hit-11-8-billion-revenue-in-2025-boosted-by-military-contracts/)
 - [Teslarati: 9M subscribers](https://www.teslarati.com/starlink-passes-9-million-active-customers-just-weeks-after-hitting-8-million/)
 - [Sacra: SpaceX analysis](https://sacra.com/c/spacex/)
+- [Space Capital Space IQ Q1 2026 briefing](https://youtu.be/iGmr4g4Iot4) — 10M subscribers, 10K simultaneous satellites, $20B 2026 revenue tracking
 
-*Created 2026-01-09*
+*Created 2026-01-09 · Updated 2026-04-27 (Q1 2026 milestones)*

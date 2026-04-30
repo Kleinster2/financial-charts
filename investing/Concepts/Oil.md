@@ -115,7 +115,7 @@ Refinery match: complex refineries (Gulf Coast) designed for heavy sour crude.
 | Brent backwardation | Front-month $14.20 premium over next month (record) |
 | Supply | [[Strait of Hormuz]] effectively closed since Feb 28 — see crisis section below |
 | [[OPEC]]+ | Managing cuts; 206K bbl/day unwinding in Apr — inadequate vs disruption scale |
-| US shale | Disciplined, not flooding market. US production ~13.6M bbl/day (EIA 2026) |
+| US shale | Disciplined, not flooding market. US production ~13.6M bbl/day (EIA 2026). [[Federal Reserve Bank of Dallas\|Dallas Fed]] Q1 2026 survey: 73% of producers expect ≤+0.25 mb/d 2026 growth despite $100 oil — see [[Shale supply discipline]] |
 | [[Venezuela]] | [[Maduro capture 2026]] — potential supply increase |
 | Demand | [[IEA]] cut growth forecast by 210k bbl/day to 640k bbl/day for 2026 |
 

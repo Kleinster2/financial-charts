@@ -7,6 +7,10 @@ aliases: [SHEL, Royal Dutch Shell]
 
 ---
 
+![[shel-vs-xle-price-chart.png]]
+
+*SHEL vs XLE since April 2023. Shell has tracked the energy benchmark closely with periodic LNG-driven decoupling.*
+
 ## Sector correlation
 
 | Sector | ETF | Correlation |
@@ -44,7 +48,7 @@ SHEL trades as a core Energy name (XLE r = 0.81).
 
 ## [[LNG]] dominance
 
-**World's largest [[LNG]] portfolio:**
+World's largest [[LNG]] portfolio:
 - ~70 mtpa equity capacity
 - Global trading/shipping fleet
 - Qatar expansion partner
@@ -69,13 +73,15 @@ Scaled back some renewable targets (2023) to focus on shareholder returns.
 
 ## Investment case
 
-**Bull:**
+### Supports
+
 - [[LNG]] super-cycle beneficiary
 - Strong cash returns (buybacks)
 - Integrated model resilience
 - Gas as transition fuel
 
-**Bear:**
+### Pressures
+
 - European regulatory pressure
 - Transition strategy unclear
 - Refining decline
@@ -96,6 +102,30 @@ Scaled back some renewable targets (2023) to focus on shareholder returns.
 
 ---
 
+## Financials
+
+![[shell-fundamentals-chart.png]]
+
+*Shell revenue and net income, FY2021-2025. Revenue rolled off the 2022 commodity-cycle peak; earnings settled into a $16-20B band.*
+
+### Annual income statement (USD billions, GAAP)
+
+| FY | Total revenue | Operating income | Net income |
+|---|---|---|---|
+| 2025 | $267.5 | $19.6 | $17.9 |
+| 2024 | $284.3 | $30.0 | $16.1 |
+| 2023 | $316.6 | $30.7 | $19.4 |
+| 2022 | $381.3 | $63.1 | $42.3 |
+| 2021 | $261.5 | $22.3 | $20.1 |
+
+*Source: Alpha Vantage; Shell 20-F filings.*
+
+![[shell-sankey.png]]
+
+*Shell FY2025 income statement Sankey: revenue → cost lines → operating income → net income.*
+
+---
+
 ## Apr 17-Apr 18, 2026 - LNG incumbent sold with the complex
 
 Shell fell 4.0% on Apr 17, 2026 as the energy complex repriced lower with Hormuz reopening.
@@ -110,10 +140,60 @@ Next catalyst: Q1 2026 update cadence points to Apr 29 consensus publication and
 
 ---
 
+## Apr 27, 2026 — ARC Resources acquisition
+
+Shell announced a definitive agreement to acquire [[ARC Resources]] in a deal valued at ~US$16.4B enterprise value.
+
+### Terms
+
+- Equity value: ~US$13.6B
+- Net debt + leases assumed: ~US$2.8B
+- Per ARC share: CAD 8.20 cash + 0.40247 Shell ordinary shares (~25% cash, ~75% stock)
+- Closing: H2 2026, subject to ARC shareholder, court, and regulatory approvals
+- Synergies: ~US$250M annualised within a year of closing
+
+### Production impact
+
+- Adds 370,000 boe/d immediately (liquids + gas)
+- Lifts Shell's production CAGR from 1% to 4% through 2030 vs 2025 baseline
+- ARC is the largest pure-play [[Montney]] producer; Canada's #3 natural gas producer; #1 condensate producer
+- ~1.5M net acres in [[Montney]] with ~2 billion boe of 2P reserves
+
+### Market reaction
+
+- Shell shares fell on the announcement despite [[Brent crude|Brent]] at ~$108/bbl on Iran-conflict supply pressure (9th week)
+- ARC surged ~21% on the open
+- [[BP]] also fell on the day, in part because the deal effectively closes off 2025-vintage speculation that Shell would acquire BP — that thread now ends ([[AJ Bell]] / [[Danni Hewson]] commentary)
+
+### Strategic read
+
+- Diversifies upstream away from Middle East ([[AJ Bell]] / [[Danni Hewson]] framing)
+- Reweights toward gas + liquids-rich shale, consistent with Shell's gas-as-transition-fuel posture
+- Cash component (~$4B+) explains the equity-side disappointment despite long-run accretion
+- Closes off the Shell-as-BP-acquirer optionality that had supported the BP-discount narrative through late 2025
+
+*Sources: CNBC Apr 27, 2026; BOE Report Apr 27, 2026; GlobeNewswire (Shell announcement) Apr 27, 2026; Capital Brief; Investing.com on ARC stock reaction; [[AJ Bell]] commentary via [[Danni Hewson]].*
+
+---
+
 ## Related
+
+### Securities
+
+- [[Shell securities]] — SHEL (NYSE/LSE) market data, sector correlation, price chart
+
+### Targets and basins
+
+- [[ARC Resources]] — Apr 27 2026 acquisition target
+- [[Montney]] — primary basin gained via ARC deal
+
+### Peers
 
 - [[Exxon]] — peer (US supermajor)
 - [[Chevron]] — peer (US \#2)
 - [[TotalEnergies]] — peer (European major)
 - [[BP]] — peer ([[UK]] major)
-- [[Power constraints]] — context (gas for AI power)
+
+### Context
+
+- [[Power constraints]] — gas for AI power demand

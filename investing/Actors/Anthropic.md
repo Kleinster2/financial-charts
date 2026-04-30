@@ -707,6 +707,24 @@ All roads lead to [[TSMC]] - TPUs and Trainium fabbed there.
 
 [[NEA]]'s Neimucha (The Information, Apr 7): Anthropic's diversification is less about supply-chain risk management and more about an internal competence they are building — "handwriting kernels in some cases, making some of the NVIDIA architecture pieces more flexible, sometimes porting existing software." Once in the flow, Anthropic feels "pretty confident" about porting to any silicon: custom ASICs, new chip architectures, heterogeneous compute across training and inference. This cross-silicon fluency could become a durable advantage as inference fragments across providers.
 
+### Token economics and capacity binding (Patel, Apr 23, 2026)
+
+[[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026, recorded the day [[Claude Opus|Opus 4.7]] launched) advanced three numerical claims about [[Anthropic]] that warrant attribution rather than promotion to fact:
+
+| Claim | Patel's framing | Independent corroboration |
+|---|---|---|
+| ARR trajectory | "$9B → $35-40B and probably by the time this airs $40-45B; adding $10B/month" | Vault-confirmed: $30B+ by Apr 6, 2026 (Bloomberg, CNBC, TechCrunch). Patel's $40-45B claim runs ahead of confirmed disclosure by ~3 weeks; treat as projection |
+| Gross-margin floor 72% | "Even if you assume all incremental compute they've gotten has gone towards inference, their margins are at a floor of 72%" — calculation not company disclosure | The Information (Jan 2026) reported gross margin **~40%** projected for 2025, revised down from 50%, with inference costs 23% above plan; target 77% by 2028. Patel's 72% floor calculation contradicts The Information's reporting and should be treated as Patel's view, not fact |
+| Compute as binding constraint, not demand | "[[Mythos]] is a model where if the world had enough compute, it'd be $500B of revenue or something crazy" | Consistent with Mar 13 Patel framing on the [[Anthropic vs OpenAI compute race|conservative-compute thesis]] and Apr 20-24 [[Google]]/[[Amazon]] capacity-financing surge; capacity binding is the consensus view |
+
+The reasoning behind the 72% floor: Patel assumes ARR growth from $9B to $40-45B with compute capacity not having grown proportionally. If incremental compute went mostly to inference (rather than research/training), his calculation produces 72% as the implied floor. Two reasons that calculation may overstate margin: (1) [[Anthropic]] has explicitly continued large research-compute spend (Mythos, Opus 4.7 both shipped under the period in question); (2) cloud markup on third-party-served inference (Bedrock, Vertex, Foundry) compresses realized margin, per the [[Anthropic vs OpenAI compute race|Patel Mar 13 framing]] he separately articulated. The contradiction with The Information's 40% figure is unresolved as of the ingestion date.
+
+Strategic implication Patel emphasizes regardless of the margin number: tokens are scarce, and [[Anthropic]] could double prices on Opus and lose few customers. "What really matters is having an Anthropic rep and having an enterprise contract with them and getting the rate limit increases that you need." The capacity-allocation lens is likely closer to first-principles than the headline gross-margin debate; see [[Inference economics#Permanent-underclass thesis (Patel, Apr 2026)|the permanent-underclass thesis]].
+
+*Source: [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026); contradicted by The Information (Jan 2026, see [[Inference economics#Anthropic's actual company-level margins]]).*
+
+---
+
 ### Compute capacity and the cost of conservatism (Mar 2026)
 
 [[Dylan Patel]] ([[SemiAnalysis]], Mar 13 2026) laid out the compute race in stark terms. Anthropic is at ~2-2.5 GW of compute capacity in early 2026 and needs to get to 5-6 GW by year-end — "way above their initial plans." The problem: [[Dario Amodei]] was explicitly conservative on compute commitments. On Dwarkesh's podcast, he said he didn't want to "go crazy on compute" and risk bankruptcy. He purposely undershot estimates.

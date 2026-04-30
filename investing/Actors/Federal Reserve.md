@@ -69,6 +69,7 @@ At risk under Warsh? [[Martin Sandbu]] argues (Jan 2026) that Warsh's tolerance 
 | Cutting | Sep 2024 - Jan 2026 | 175bp cuts to 3.50-3.75% |
 | Pause | Jan 28, 2026 | First hold since July |
 | Pause | Mar 19, 2026 | Second consecutive hold; Iran oil shock |
+| Pause | Apr 29, 2026 | Third consecutive hold; four dissents split between a cut and opposition to the easing-bias language |
 
 Jan 28-29, 2026 decision:
 - Rates held at 3.50-3.75% — first pause since July
@@ -135,6 +136,21 @@ Labor market backdrop: US lost 92,000 jobs last month. Q4 GDP revised to 0.7% an
 - Would need persistent structural inflation with 2Y2Y and 5Y5Y forwards moving to justify a hike — neither showing that signal
 
 The front end of the yield curve is pricing no cuts. Rieder views this as "well priced" and is comfortable with front-to-belly carry through the uncertainty.
+
+---
+
+### April 29, 2026 decision
+
+Rates were held at 3.50-3.75% for a third consecutive meeting. The statement kept the same basic stagflation frame: activity expanding at a solid pace, job gains low on average, unemployment little changed, and inflation elevated partly because of higher global energy prices. The new language was geopolitical: *"Developments in the Middle East are contributing to a high level of uncertainty about the economic outlook."*
+
+The important signal was the vote split. The decision passed 8-4, but the dissents did not point in one direction:
+
+- [[Stephen Miran]] dissented for a 25 bp cut.
+- Beth Hammack, Neel Kashkari, and Lorie Logan supported keeping rates unchanged but objected to including an easing bias in the statement.
+
+That is a more hawkish kind of dissent than the January Miran/Waller cut dissents: the committee majority can still hold rates, but the internal debate is now about whether the statement should imply future easing at all. For markets, the Fed reaction function is no longer simply "how soon can cuts resume?"; it is whether Iran-energy inflation and still-elevated core inflation have made the next move genuinely two-sided again.
+
+*Source: [Federal Reserve FOMC statement](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm), Apr 29 2026.*
 
 ---
 

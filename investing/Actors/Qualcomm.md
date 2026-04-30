@@ -63,6 +63,31 @@ Qualcomm has:
 
 ---
 
+## Apr 27, 2026 — OpenAI smartphone supplier report
+
+[[Ming-Chi Kuo]] (TF International) reported that [[Qualcomm]] and [[MediaTek]] will jointly co-design the processor for [[OpenAI]]'s upcoming AI agent smartphone, with [[Luxshare Precision]] as exclusive assembly partner. Mass production targeted 2028; specs and suppliers to be finalized end-2026 / early-2027; shipment target 300-400M units annually.
+
+The structure is unusual — flagship sockets are typically single-supplier. The joint-design framing suggests OpenAI is pulling chip-design IP from both rather than buying off-the-shelf Snapdragon parts. See [[OpenAI hardware program]] for the full program context (also includes the [[io]] screenless companion device on a separate, earlier track).
+
+Market reaction:
+- Fri Apr 24 close: $148.85 (+11.1%) — initial leak
+- Mon Apr 27 pre-market: ~$165.50 (+11.2%) on Kuo specifics
+- Mon Apr 27 close: $150.26 (+0.95%) — gap faded intraday
+
+The intraday fade is the verification signal — the report is a single-source supply-chain leak, not a confirmed deal, and the 2028 production timeline keeps the revenue impact distant. Q2 FY26 earnings Wed Apr 29 AMC; sell-side panel sits at 8 Buy / 24 Hold / 4 Sell-or-Strong-Sell.
+
+### UBS downgrade (Apr 27, 2026)
+
+Same-day, [[UBS]] (Tim Arcuri, Global Co-Head of AI) lowered Qualcomm price target from $160 to $150 while maintaining Neutral rating. Cited basis: deteriorating fundamentals; rising memory prices ([[HBM]]-driven [[DRAM]] shortage flagged Q1 FY26) emerging as a key pressure point. The downgrade reasoning is fundamental, not OpenAI-specific. Arcuri's framing of the OpenAI smartphone catalyst on Bloomberg Tech same day: *"OpenAI tends to do a lot of deals with a lot of companies and I typically put a bit of a discount factor on any deal that gets signed with OpenAI, since they are doing it with virtually everybody."*
+
+The combination — UBS price target cut + Arcuri's "discount factor" framing on the OpenAI catalyst — is the institutional explanation for Monday's intraday fade from +11% pre-market to +0.95% close. Sell-side is pricing memory pressure and Apple in-house modem displacement as structurally more material than the speculative OpenAI socket.
+
+*Source: Bloomberg Tech 4/27/26 (Arcuri interview); UBS research note, Apr 27, 2026.*
+
+*Source: TF International Securities (Ming-Chi Kuo) note, Apr 27, 2026; The Next Web; CNBC; Decrypt.*
+
+---
+
 ## Leadership
 
 | Role | Name | Since |
@@ -175,6 +200,41 @@ Acquisitions completed:
 
 ---
 
+## Q2 FY26 pre-print lens (reporting late April 2026)
+
+Q2 FY26 (calendar Q1 2026) is the print where the segment-mix question gets sharpest — particularly on data-center inference. [[Patrick Moorhead]] specifically flagged Qualcomm reading three segments at once: smartphones, [[Automotive]], and *data-center inference*. The third is the structural new addition to the QCOM story. Cloud AI 100 has existed as a footnote line; if Q2 FY26 prints it as a meaningful segment, the addressable-market frame for QCOM expands materially. The vault's [[AI capex arms race]] thesis treats this print as one of six testable items in Phase 3.
+
+### What the print resolves
+
+| Watch item | Why it matters | Q1 FY26 baseline |
+|---|---|---|
+| Q2 FY26 revenue vs $10.2-11.0B guide | Below-Street guide drove -8.5% on Feb 4. A beat at the high end softens the memory-constrained narrative; a miss confirms it. | $12.3B Q1 FY26, guide $10.2-11.0B |
+| Cloud AI 100 / data-center inference disclosure | Whether QCOM names a DC inference revenue line or commentary at all. Any disclosure starts to position QCOM in the inference-CPU broadening described in [[AI capex arms race#Apr 2026 refinement: from GPU scarcity to systems scarcity|Phase 2]]. | No DC inference segment broken out |
+| QCT [[Automotive]] segment growth | Q1 FY26 +15% YoY on Snapdragon digital chassis. Trajectory through the [[Horizon Robotics]] / Chinese-OEM displacement risk is the multi-year story. | $1.1B Q1 FY26, +15% YoY |
+| [[Apple]] modem revenue trajectory | Apple in-house modem transition is the single largest structural threat. Any disclosure of remaining Apple share or off-ramp timing is material. | Not disclosed; Apple share modeling shows ~$5-6B/year at risk |
+| [[Snapdragon X Elite|AI PC]] (Snapdragon X2) traction | Snapdragon X2 Elite Extreme launched on TSMC N3X (Jan 2026). Q2 FY26 is the first window for shipped-unit and OEM design-win disclosure. | First commercial N3X chip, behind Apple M4 on benchmarks |
+| Memory-constraint commentary continuation | Amon flagged DRAM redirection to [[HBM]] as squeezing handset OEMs through FY26-27. Whether the constraint loosens, holds, or worsens is a read-through to [[Samsung]] / [[SK Hynix]] / [[Micron]] memory pricing power. | "Through FY2026" per Amon |
+| Galaxy S26 [[Samsung]] share confirmation | "Approximately 75%" expected — actual realized share confirms premium-handset positioning. | 75% expected at Q1 FY26 |
+| [[China]] revenue mix | Chinese OEMs reducing build plans and designing around Snapdragon dependence. Q2 FY26 China geography mix is the cleanest read on the displacement pace. | Several Chinese OEMs reducing builds per Q1 FY26 commentary |
+
+The data-center inference disclosure is the structural watch item. The other items refine the existing QCOM story; a Cloud AI 100 segment break-out would change it.
+
+---
+
+## Q2 FY2026 earnings (Apr 29, 2026)
+
+Qualcomm reported Q2 FY2026 revenue of $10.6B, GAAP EPS of $6.88, and non-GAAP EPS of $2.65 — essentially the high end of the $10.2-11.0B / $2.45-2.65 guide issued in February. The press-release headline mix was more important than the headline EPS: record quarterly QCT automotive revenue, combined QCT automotive + IoT revenue growth of 20% YoY, and a new $20B repurchase authorization after $5.4B of first-half FY2026 buybacks.
+
+The memory-constraint language persisted rather than cleared. CEO Cristiano Amon said the quarter was delivered *"as we navigate a challenging memory environment"* — confirmation that the [[Memory shortage 2025-2026|memory shortage]] is still an operating constraint for handset and edge-device ecosystems, even as the same constraint is being capitalized upward in [[Hyperscaler capex]].
+
+The structural surprise was not a formal Cloud AI 100 segment line, but the stronger data-center signal: Qualcomm said a leading hyperscaler custom-silicon engagement is on track for initial shipments later in calendar 2026, with a fuller update on Data Center and Physical AI planned for the June 24 investor day. That converts the pre-print watch item from speculative TAM expansion into a dated shipment milestone, though not yet a revenue-sized segment disclosure.
+
+QCOM closed Apr 29 at $156.00 (+4.0% from Apr 28), a relief move after the February memory-guidance selloff and the Apr 27 OpenAI-smartphone / UBS downgrade noise.
+
+*Source: [Qualcomm press release](https://www.qualcomm.com/news/releases/2026/04/qualcomm-announces-second-quarter-fiscal-2026-results), Apr 29 2026; local DB close Apr 29 2026.*
+
+---
+
 ## Foundry diversification (Jan 2026)
 
 Exploring Samsung as alternative to TSMC:
@@ -256,6 +316,8 @@ Impact on Qualcomm:
 - [[Tax Cuts and Jobs Act]] — ~$30B repatriation (2018)
 - [[Alphawave Semi]] — acquired Q1 FY2026 (high-speed connectivity)
 - [[HBM]] — DRAM redirection constraining handset market
+- [[OpenAI hardware program]] — joint chip-design role with [[MediaTek]] for OpenAI smartphone (Kuo, Apr 27 2026)
+- [[OpenAI]] — customer (smartphone chip co-design, per Kuo Apr 2026)
 
 ### Securities
 - [[Qualcomm securities]] — NASDAQ equity / QCOM market note

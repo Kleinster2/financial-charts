@@ -102,6 +102,27 @@ The BOJ holds the distinction of being first to deploy nearly every major unconv
 
 The [[Bank for International Settlements|BIS]] and BOJ data revealed an explosion in hedge fund purchases of Japanese government bonds, mirroring the pattern seen in US Treasuries. [[Gillian Tett]] (FT, Apr 3 2026) noted this attracted "scant attention" despite its scale. The dynamic parallels the [[Basis trade|basis-trade]] expansion in US Treasuries: leveraged funds exploiting spread opportunities in government bonds, replacing traditional holders (domestic banks, insurers) as marginal buyers.
 
+---
+
+## Apr 28, 2026 — BOJ decision (Iran-conflict overhang context)
+
+Bloomberg "The China Show" 4/28/2026 broadcast set the context for the BOJ's Apr 28 monetary policy decision, with the actual outcome announced after the broadcast aired. Pre-decision configuration:
+
+- **Consensus expectation: hold.** Most economists expected no change after the December 2025 +25bp move to 0.75%. The March 2026 board vote was 8-1 toward hold.
+- **Watch items.** Dissent count (whether Naoki Tamura or Hajime Takata cross to a 25bp-hike vote, or whether a more hawkish member calls for 50bp); inflation forecast revisions (likely upgrade given Iran-conflict energy passthrough); growth forecast revisions (likely downgrade given imported-inflation drag on consumption).
+- **Yen pressure.** Finance Minister Katayama publicly stated authorities are "ready to take bold action" on the yen, including FX intervention if needed within 24 hours. The 2024 precedent: BOJ held rates April 2024, JPY blew through 160, authorities intervened with ~$60B+ in support. The Apr 28 decision risks repeating that scenario without the BOJ delivering a hawkish signal.
+- **Stagflation overlay.** Goldman Sachs slightly downgraded Japan's 2026 growth forecast, citing the higher-oil-price drag on real disposable income. Energy is ~7% of Japan CPI; March gasoline prices already hit record highs. The wage-vs-energy axis is the binding question: large-employer wage settlements have run +5% for three years (the virtuous cycle), but the energy shock could erode that gain.
+- **Long-end JGB pressure.** The 10-year JGB yield is at 2.50%, levels not seen since 1997 — a generational repricing. Fiscal-side concerns (energy subsidies, government spending) compound the long-end pressure; BlackRock's framing is that "high government bond yields are here to stay."
+- **Bloomberg Economics call.** Eventual hike expected June 2026, not April.
+
+Sherry Ahn (Bloomberg Tokyo) framed the demographic-buffer counter-thesis: Japan's elderly population (>50% of households) does not change buying behavior on energy-price shocks, which limits the consumption-cliff downside risk relative to comparable OECD economies. The "silver economy" is structurally insulating Japanese consumption from imported inflation in a way that rejected Western frameworks miss.
+
+*Source: Bloomberg "The China Show" 4/28/2026 broadcast — Sherry Ahn from Tokyo + finance minister Katayama statement.*
+
+[[Ayako Fujita]] (J.P. Morgan Securities Japan, Chief Japan Economist) on Bloomberg "The Asia Trade" 4/28/2026 added two specific calls. First, the April hold is "primarily driven by uncertainty" and the next live BOJ target is **June 2026**, not the May meeting — the BOJ wants the [[2026 Strait of Hormuz crisis|Iran situation]] to "standardize" before committing. Even if the BOJ wanted to hike, Fujita argued that Governor [[Kazuo Ueda]] cannot credibly commit to a June hike because he himself does not know the duration of the Middle East shock; the press conference has to land hawkish but can't pre-commit. Second, the binding pressure point is JGBs, not FX. Fujita's framing: "if they try to contain currency pressure, all of this pressure will probably go to JGB side" — FX intervention is short- to medium-term and cannot reverse the medium-term yen trend, while energy subsidies that have so far capped CPI passthrough are the next political question. As subsidies eventually step down, household energy passthrough resumes and JGBs reprice further. Bloomberg's Paul Dobson (executive editor, Asian equities) echoed the logic on the broader central-bank week: BOJ holds today are most consistent with the bank's risk-aversion pattern, but the messaging needs to "sound adequately hawkish" to keep [[USDJPY]] from drifting through 160 toward the 2024 intervention zone.
+
+*Source: Bloomberg "The Asia Trade" 4/28/2026 broadcast — Ayako Fujita / J.P. Morgan Securities Japan + Paul Dobson / Bloomberg Asia equities.*
+
 The pattern raises similar stability questions as the US Treasury case. If [[JGB]] yields move sharply — which BOJ normalization (from 0.75% toward the 1.0-1.25% range [[Vanguard]] and the IMF project) could trigger — hedge funds may unwind faster than the buy-and-hold institutional base they've partially displaced.
 
 *Source: BOJ, BIS, FT (Gillian Tett, Apr 3 2026)*

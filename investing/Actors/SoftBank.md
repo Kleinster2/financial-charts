@@ -355,6 +355,16 @@ FT (Mar 9, 2026): SoftBank's 2021 share collapse presaged a broader tech bear ma
 
 ---
 
+## OpenAI revenue-miss tag-along (Apr 28, 2026)
+
+SoftBank fell ~10% in Tokyo trading on the [[Wall Street Journal]] report that [[OpenAI]] missed internal projections for both user growth and revenue, with CFO [[Sarah Friar]] reportedly raising internal concerns about whether the company can fund its committed compute contracts if revenue does not accelerate. The 10% one-day drop is the largest single-day decline attributed to OpenAI exposure since the Feb 2026 mega-round commitment. SoftBank's OpenAI exposure runs through three layers: the March 2025 $30B SoftBank-led round at $300B valuation, the Feb 2026 $30B mega-round commitment at ~$852B valuation, and the [[Project Stargate]] 40% ownership stake (financial lead) on the $500B AI infrastructure JV with [[OpenAI]], [[Oracle]], and [[MGX]]. The OpenAI mark drives an estimated 30-40% of SoftBank's NAV mark-to-market in the current valuation environment — a 10% one-day move on the underlying name is consistent with SoftBank trading as a high-beta proxy.
+
+The Tokyo reaction layers on top of the prior pressure — [[SoftBank#S&P credit outlook cut (Mar 3, 2026)|S&P credit outlook cut Mar 3]], [[SoftBank#LTV stress and funding challenge (FT, Mar 23 2026)|LTV stress per FT Mar 23]], the [[SoftBank#Share price collapse (Oct 2025 – Mar 2026)|Oct 2025 – Mar 2026 collapse]] — and is the cleanest signal that the OpenAI/Stargate investment thesis is being repriced rather than absorbed.
+
+See [[2026 OpenAI revenue miss]] for the full event note covering market reaction and compute-coverage gap mechanics.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

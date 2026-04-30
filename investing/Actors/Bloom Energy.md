@@ -87,6 +87,39 @@ Cross-links: [[Power constraints]], [[Data center physical layer]], [[Large powe
 
 ---
 
+## Q1 2026 results (Apr 28, 2026) — Oracle deal validation print
+
+Bloom delivered a record Q1 with revenue +130% YoY, EPS beating consensus by 238%, and raised FY guidance. The print is the first quarter that includes early ramp under the [[Oracle]] 2.8 GW deal (signed Apr 14, 2026) and validates the underlying thesis that the Apr 14 announcement crystallized: hyperscalers are committing to multi-GW SOFC capacity multi-year, ahead of grid alternatives. Stock declined ~3.5% to $228.81 in aftermarket trading despite the beat — buy-the-rumor / sell-the-news given the +30% rally between the Apr 14 Oracle announcement and the Apr 28 print.
+
+| Metric | Q1 2026 | Q1 2025 | Change |
+|---|---|---|---|
+| Revenue | $751.1M | ~$326M | +130% |
+| Non-GAAP EPS | $0.44 | $0.03 | 15× |
+| Non-GAAP operating income | $129.7M | $13.2M | ~10× |
+| Adj EBITDA | $143.0M | $25.2M | ~6× |
+| Non-GAAP gross margin | 31.5% | 28.7% | +280 bps |
+| Consensus EPS estimate | $0.13 | — | beat by 238% |
+
+Bloom raised 2026 guidance off the print. The combined order book — [[Oracle]] 2.8 GW + [[Brookfield]] 5 GW pipeline + [[AEP]] 100 MW + [[Equinix]] / [[AT&T]] / [[Walmart]] / [[Verizon]] — now stretches multi-year, with [[Oracle]] alone consuming the bulk of the planned 2 GW annual manufacturing target through end-2028. The 2 GW cap is becoming the binding constraint on revenue rather than demand.
+
+### Read-through to AI infrastructure thesis
+
+The Bloom print is a contradicting datapoint to the [[2026 OpenAI revenue miss]] sell-off the same day. While the AI-capex demand side faces revenue-trajectory questions ([[Oracle]] -4.05%, [[CoreWeave]] -5.83%, [[NVIDIA]] -1.59%), Bloom's revenue +130% / EPS beat by 238% confirms that the *power* leg of the buildout is running hot — independent of whether the compute-tenant revenue ramp arrives on schedule. The grid-bypass thesis ([[Power constraints]] / [[Power infrastructure bottleneck]] / [[BYOP]]) is structurally durable: even if AI compute demand grows slower than expected, the 44 GW grid-power gap remains, and on-site SOFC capacity has multi-year customer commitments.
+
+This is consistent with the [[Oracle#OpenAI revenue miss WSJ — second leg of the Oracle/OpenAI repricing (Apr 28, 2026)|Oracle Apr 28 read]]: the Bloom 2.8 GW SOFC deal thesis (own power as cushion) survives the OpenAI revenue-miss repricing — Bloom's print is the supply-side proof that the cushion is real.
+
+### Watch for
+
+- Q2 2026 guidance ramp — if Bloom can sustain $750M+ quarterly revenue, the 2 GW manufacturing target gets pulled forward
+- Expansion of the Oracle deal — 2.8 GW is committed; whether Oracle returns for additional capacity given the [[OpenAI]] compute commitment scope
+- New hyperscaler entries — [[Microsoft]], [[Amazon]], [[Google]], [[Meta]] don't currently have multi-GW SOFC commitments at Bloom; the Apr 14 Oracle deal sets the pricing benchmark
+- [[Caterpillar]] / [[GE Vernova]] / [[Cummins]] competitive response — these incumbents have larger manufacturing scale but slower deployment cycles
+- Hydrogen-readiness commercialization — Bloom's SOFC stack is hydrogen-capable; carbon-free operation pulls in new corporate sustainability mandates
+
+*Sources: [StockStory](https://stockstory.org/us/stocks/nyse/be/news/earnings/bloom-energy-nysebe-reports-bullish-q1-cy2026-stock-soars); [Investing.com Q1 slides](https://www.investing.com/news/company-news/bloom-energy-q1-2026-slides-revenue-surges-130-guidance-raised-93CH-4643316); [TipRanks](https://www.tipranks.com/news/company-announcements/bloom-energy-delivers-record-q1-results-lifts-2026-outlook); [Jason's Chips Q1 review](https://www.jasonschips.ai/p/bloom-energy-q1-2026-earnings-review).*
+
+---
+
 ## Financial trajectory
 
 | Metric | Q3 2024 | Q3 2025 | Change |

@@ -137,11 +137,24 @@ The arc tells the story: 2015-2018 was a margin trough (China market share loss,
 
 | Initiative | Status |
 |------------|--------|
-| Ioniq lineup | EV brand (IONIQ 5, 6, 9) |
+| Ioniq lineup | EV brand (IONIQ 5, 6, 9, **V** — China-only, Apr 2026) |
 | E-GMP platform | Dedicated EV architecture |
 | Metaplant Georgia | EV factory, Atlas deployment site |
 | Solid-state battery | Development ongoing — potential differentiator |
 | Vehicle solar | [[Solarstic]] — 500W, +50 miles/day (1-2 years) |
+
+### China bifurcation — Ioniq V on Chinese tech (Apr 2026)
+
+At the 2026 Beijing Auto Show, Hyundai unveiled the China-only Ioniq V (arrow-shaped EV) developed with [[BAIC]] joint-venture partner [[Beijing Hyundai]]. Unlike Hyundai's global EV stack, the Ioniq V uses:
+
+- [[Momenta]] for autonomous-driving software
+- [[CATL]] for battery packs
+
+This is the cleanest in-portfolio example of [[Reverse tech transfer in China auto]]: Hyundai's flagship China-only EV is built on a Chinese tech stack rather than its own E-GMP-derived platform. The decision is a direct response to losing share in [[China]] over multiple years to local EV brands; the legacy single-platform global strategy is being explicitly bifurcated, with China product running on Chinese suppliers and global product on Hyundai-owned tech.
+
+The Ioniq V is not earmarked for export to Korea, the US, or Europe — both Momenta's stack and CATL's supply terms are scoped to China-domestic deployment.
+
+*Source: Bloomberg "The China Show" / Stephen Engle Beijing Auto Show coverage, Apr 27 2026.*
 
 ## Investment case
 

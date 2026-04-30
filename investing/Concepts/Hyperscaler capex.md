@@ -75,6 +75,31 @@ This includes hyperscalers, neoclouds, enterprises, and sovereign AI initiatives
 
 ---
 
+## Apr 29, 2026 print night — Big 4 capex resets again
+
+The four-way Big Tech earnings print on Apr 29 reset the FY26 hyperscaler capex picture upward across all four names within a single 24-hour window. The cross-section is the most informative view:
+
+| Name | Q1 capex | FY26 capex (new) | FY26 capex (prior) | Cloud / segment | After-hours move |
+|------|---------|------------------|---------------------|------------------|------------------|
+| [[Microsoft]] | $31.9B | **~$190B** (incl. ~$25B memory mark) | ~$80B FY25 implied; Street $121-140B | [[Azure]] +40% YoY | Roughly flat |
+| [[Alphabet]] | $35.7B | $180-190B | $175-185B (Feb-quarter) | [[Google Cloud]] +63% YoY ($20.02B) | Modestly positive |
+| [[Amazon]] | $44.2B | $200B (reaffirmed) | $200B (Feb-quarter); Q1 run-rate trending higher | [[AWS]] +28% YoY ($37.6B) | Modestly positive |
+| [[Meta]] | (not detailed) | $125-145B | $115-135B | (no breakout) | -7% AH |
+
+Big 4 FY26 capex now centers near **$700-720B** — up from the $600-630B framing entering print night, and a rough doubling of the $397B 2025 actual. Two structural changes from this print:
+
+**1. Memory-cost capitalization is the new line item.** [[Microsoft]] explicitly tagged ~$25B of its FY26 capex as memory-cost markup; [[Meta]] attributed its $10B raise (midpoint to midpoint) to "higher component pricing this year." For the first time the [[Memory shortage 2025-2026|memory shortage]] is showing up in hyperscaler capex guidance rather than as a future-period margin warning. The marginal capex dollar is increasingly going to the [[SK Hynix]] / [[Samsung]] / [[Micron]] complex via [[NVIDIA]]-bundled HBM and discrete server DRAM, not just to merchant GPUs.
+
+**2. The dispersion is now demand-vs-supply.** [[Sundar Pichai|Pichai]]'s "we are compute constrained in the near term" — *"our cloud revenue would have been higher if we were able to meet the demand"* — and the Google Cloud backlog roughly doubling to **$460B+** is the cleanest "supply-constrained" tell. AWS backlog $364B excludes >$100B from a new [[Anthropic]] deal. Demand is binding on supply at GOOGL and AMZN. The market rewarded those (modest AH gains) and punished the names where capex rose without an offsetting demand signal (META -7%).
+
+**3. The [[2026 OpenAI revenue miss]] read-through.** The Apr 28 WSJ report on OpenAI revenue shortfalls primed the market to test the capex/revenue ratio. Twenty-four hours later, the print night gave a clean cross-sectional answer: backlog growth and AI-ARR run-rate disclosure (AWS $15B+, Google Cloud $460B+ backlog) were the metrics that decided the AH dispersion, not headline capex level.
+
+The forward question for [[NVIDIA]], [[AMD]], [[Broadcom]], [[TSMC]], [[SK Hynix]] is whether the [[Memory shortage 2025-2026|memory mark]] increment crowds out merchant-GPU TAM (zero-sum) or stacks on top of it (additive). Microsoft's "two-thirds of Q3 capex on short-lived assets" disclosure suggests the GPU bill is still rising — the memory mark is layered, not substituted.
+
+*Sources: per-actor sources in [[Microsoft]], [[Alphabet]], [[Amazon]], [[Meta]] Q1 sections, Apr 29 2026.*
+
+---
+
 ## Kurian shakeout warning (Apr 2026)
 
 [[Thomas Kurian]] ([[Google Cloud]] CEO) publicly forecast a multi-year shakeout in the AI provider layer, framing private capital markets as the binding constraint:

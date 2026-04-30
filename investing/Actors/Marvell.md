@@ -1,5 +1,5 @@
 ---
-aliases: [MRVL]
+aliases: [MRVL, Marvell Technology]
 ---
 #actor #semiconductor #networking #usa #public
 
@@ -128,7 +128,11 @@ Stock +14% after-hours on the beat. Closed Mar 6 at **+22.1%** — one of the la
 ## Acquisitions powering the thesis
 
 ### Celestial AI ($3.25B acquisition, 2025-2026)
-Photonic interconnect technology — enables optical data transfer between chips inside data centers at lower latency and power. The $3.25B acquisition price signals Marvell's massive commitment to [[Co-Packaged Optics]] and optical interconnect technology. Complements Marvell's CXL (Compute Express Link) supply chain. Photonic fabric replaces copper/electrical interconnects for AI-scale data movement.
+Photonic interconnect technology — enables optical data transfer between chips inside data centers at lower latency and power. The $3.25B acquisition price (up to $5.5B total with revenue-milestone earnouts) signals Marvell's massive commitment to [[Co-Packaged Optics]] and optical interconnect technology. Complements Marvell's CXL (Compute Express Link) supply chain. Photonic fabric replaces copper/electrical interconnects for AI-scale data movement.
+
+Deal mechanics: $1B cash + 27.2M shares of Marvell common stock (worth ~$2.25B at announcement). Announced December 2025; closed Feb 2, 2026.
+
+Apr 27, 2026 — first commercial fallout: Marvell sent [[POET Technologies]] (the Toronto-listed silicon-photonics designer) notice on Apr 23, 2026 cancelling all purchase orders Celestial had placed with POET, including initial production units first disclosed in April 2023. Cited basis: POET's disclosure of information related to the purchase order and shipping in contravention of confidentiality obligations. POET disclosed the cancellation Apr 27 and fell ~46% to ~$8. Whether this is enforcement of confidentiality, post-acquisition supply-chain reorganization, or a Celestial-roadmap reprioritization is unresolved without Marvell-side commentary. See [[POET Technologies]] for the full event.
 
 ### XConn Technologies (2025-2026)
 Scalable networking and CXL switch technology — enables low-latency communication across large AI clusters. Combined with Celestial AI's photonics, Marvell is building a full-stack optical interconnect offering for next-gen data centers.

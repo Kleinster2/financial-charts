@@ -52,6 +52,20 @@ That sequence is the real story. Glasswing pushed Anthropic's cyber work into th
 
 ---
 
+## Industry color (Patel, Apr 23, 2026)
+
+[[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026) added two pieces of context on Glasswing's gating dynamic that complement the regulatory reaction:
+
+- **Patel's running nickname.** "Anthropic's project ... it's not called earwig, but I troll Anthropic people by calling it earwig. Glasswig, Anthropic earwig." Patel and others in the industry routinely refer to the program by joking variants — a small detail that marks how culturally distinctive the selective-deployment posture is in an industry where broad release was previously the norm
+- **Selective deployment as the new pattern.** "Models will have less broad and less broad deployment. I know I know [[OpenAI]] and [[Anthropic|Enthropic]] and all these people are like, 'we want to have great AI for everyone.' AI is very [&nbsp;__&nbsp;] expensive ... you don't want people to distill your models. So you don't release them broadly. You release them to a fewer and fewer set of customers." Patel reads Glasswing as a leading indicator rather than a one-off — the gating logic generalizes to capacity scarcity, model-distillation defense, and capability-control concerns
+- **Begging-for-access anecdote.** Patel and [[Leopold Aschenbrenner|Leopold]] "on our knees in front of an Anthropic co-founder begging him for access to Mythos and then pretending it doesn't exist cuz we knew it existed." Even high-profile industry figures with deep [[SemiAnalysis]] customer relationships were initially excluded — illustrating how narrow the early Glasswing perimeter actually was
+
+The Patel framing connects Glasswing to the broader [[Inference economics#Permanent-underclass thesis (Patel, Apr 2026)|permanent-underclass thesis]]: capacity rationing favors customers with existing enterprise relationships and large capital commitments. The pattern, once established, propagates to other frontier capabilities; a competitor without Glasswing-style access faces a cyber-defense gap that scales with how widely Mythos-class models are eventually deployed.
+
+*Source: [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026)*
+
+---
+
 ## Related
 
 - [[Anthropic]] — parent company

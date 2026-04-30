@@ -201,6 +201,14 @@ House Financial Services Chair [[French Hill]]: *"step in the right direction...
 
 *Source: Bloomberg Real Yield, Apr 24, 2026 — Scarlet Fu / [[Ira Jersey]] / [[Ian Lyngen]]*
 
+### Apr 26-27, 2026 — Tillis explicitly drops opposition
+
+Senator [[Tom Tillis]] confirmed over the weekend (Apr 26-27) that he is dropping his opposition to the Warsh nomination, citing the [[DOJ]]'s decision to end the criminal investigation into [[Jerome Powell]] as having "removed a threat to the central bank's independence." That converts the Apr 24 procedural signal into a confirmed Senate-side green light: with Tillis off the no-vote list, the path to a confirmation vote before the May 15 term expiration is materially clearer.
+
+Bloomberg "The China Show" (Apr 27) framed this as setting the stage for a faster confirmation timeline, alongside ongoing market repricing of the rate path under a Warsh-led FOMC. The combination of Tillis explicitly clearing the procedural block and the DOJ-side condition resolved should compress the front-end uncertainty premium that had built up around the May FOMC.
+
+*Source: Bloomberg "The China Show," Apr 27 2026.*
+
 ---
 
 ## Balance sheet views (from Bessent, April 2026)

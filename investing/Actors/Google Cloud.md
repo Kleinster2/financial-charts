@@ -118,6 +118,45 @@ See [[Anthropic hyperscaler financing surge April 2026]] and [[Anthropic vs Open
 
 ---
 
+## Q1 2026 print — Cloud +63%, backlog $460B+, "compute constrained" (Apr 29, 2026)
+
+The print resolved most of the watch items below in the bullish direction:
+
+| Watch item | Q1 2026 outcome |
+|---|---|
+| GCP revenue growth rate | $20.02B (+63% YoY) — accelerated from Q4 2025 +48%. First quarter cleared $20B. |
+| Cloud RPO / backlog disclosure | Backlog **roughly doubled QoQ to over $460B** — the [[Anthropic]] $200B / 5 GW commitment + smaller frontier-lab and enterprise contracts are loading the runway. |
+| Capex commentary | FY26 capex raised to $180-190B from $175-185B. Q1 capex $35.7B. |
+| Capacity-constrained framing | [[Sundar Pichai]] on the call: *"compute constrained in the near term... our cloud revenue would have been higher if we were able to meet the demand."* Same supply-side tell as [[Microsoft]] [[Azure]]. |
+
+The Pichai "compute constrained" line is the structural signal. It moves GCP from the "share-take" narrative into the "binding-supply" narrative — the same one Microsoft has been signalling since [[Satya Nadella]]'s "we have GPUs we can't plug in" framing in [[GPU deployment bottleneck]]. Demand is the easy side; the ramp is the hard side. The doubled backlog is the canary that the Anthropic + Meta + Apple + OpenAI commitments aren't being absorbed into recognized revenue at the rate the contracts are being signed.
+
+The [[Thomas Kurian|Kurian]] vertical-stack-economics thesis (TPU + own DC + own model + own software stack) gets a partial validation — Cloud +63% accelerating into a capacity-constrained world is consistent with TPU pricing power, but the segment-margin disclosure is needed to confirm whether the stack premium is showing up in margin or being concession-priced to lock the anchor tenants.
+
+*Sources: [Pichai earnings call remarks](https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q1-2026/), [Yahoo Finance / Quartz coverage](https://qz.com/alphabet-google-cloud-earnings-q1-2026-042926), Apr 29 2026.*
+
+---
+
+## Q1 2026 pre-print lens (reporting late April 2026)
+
+[[Alphabet]] reports Q1 2026 with [[Google Cloud]] now the central AI capex narrative line. The structural read on the print is whether the announcement avalanche of Mar-Apr 2026 — [[Anthropic]] 5GW + $40B equity, [[Apple]] / [[Meta]] / [[OpenAI]] disclosed as TPU customers, [[TPU 8t]] / [[TPU 8i]] unveiled Apr 22 — translates to revenue conversion or whether it sits in backlog. [[Patrick Moorhead]] frames the Apr 27 print week question for GCP specifically as backlog → revenue conversion. The vault's [[AI capex arms race]] thesis treats this print as one of six testable items in Phase 3.
+
+### What the print resolves
+
+| Watch item | Why it matters | Q4 2025 baseline |
+|---|---|---|
+| GCP revenue growth rate | Acceleration from Q4 2025 +48% would confirm GCP is taking share in the Mag 7 hyperscaler split. Deceleration would mean the announcement avalanche is running ahead of fulfilment. | Q4 2025 +48% YoY (fastest of the three) |
+| Cloud RPO / backlog disclosure | Whether [[Alphabet]] discloses cloud-specific RPO (vs total Alphabet RPO). Backlog growing faster than recognized revenue means the [[Anthropic]] / [[OpenAI]] / [[Meta]] commitments are loading the runway through 2026-2028. | $86B Q3 2025 cloud backlog (last disclosed) |
+| TPU vs GPU revenue mix commentary | The [[Thomas Kurian|Kurian]] vertical-stack-economics claim is testable on margin. Higher TPU mix = better gross margin than GPU resellers. | TPU 8t/8i unveiled Apr 22 |
+| GCP operating margin trajectory | Cloud margin was 17.5% Q3 2025. Margin expansion validates Kurian's stack-economics framing; compression suggests TPU pricing concession to win the [[Anthropic]] / [[OpenAI]] anchors. | ~17.5% Q3 2025 |
+| Capex commentary vs $185B FY26 guide | $185B is more than 2023-2025 combined. Direction of capex commentary signals whether the Phase 1 GPU rush is continuing or transitioning to Phase 2 systems scarcity. | $185B FY26 guide |
+| Anthropic 5GW ramp timing | The largest single contract in cloud history. Specific ramp commentary (when the 5GW is online and revenue-recognized) reframes the GCP runway through 2030. | 5GW over five years from Apr 2026 |
+| Capacity-constrained vs demand-constrained framing | Same supply-tightness tell as [[Microsoft]] [[Azure]]. "Capacity-constrained" with TPU 8t / 8i ramping says GCP could grow faster if it could build faster. | Implied capacity-constrained per Cloud Next 2026 commentary |
+
+The cleanest disclosure to watch is whether GCP RPO breaks out separately from total Alphabet RPO. The market has priced in the Anthropic and OpenAI announcements; the question is whether the bookings → revenue lag shows as backlog growth that exceeds revenue growth. That is the structural signal.
+
+---
+
 ## Related
 
 - [[Thomas Kurian]] — CEO since Nov 2018

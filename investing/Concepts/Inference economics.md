@@ -477,6 +477,45 @@ Nobody has assembled this. It's a thesis-worthy research gap.
 
 ---
 
+## Permanent-underclass thesis (Patel, Apr 2026)
+
+[[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026) framed the supply/demand of tokens not as a pricing question but as a capacity-allocation question with distributional consequences. The argument runs in three steps:
+
+| Step | Claim |
+|---|---|
+| 1. Tokens are demand-bound | [[Anthropic]] could double prices on [[Claude Opus|Opus]] and "most users would continue to pay." Demand exceeds available compute at every price point the labs are willing to charge. The constraint is capacity, not willingness to pay |
+| 2. Allocation runs through enterprise contracts and relationships | "What really matters is having an [[Anthropic]] rep and having an enterprise contract with them and getting the rate limit increases that you need because otherwise tokens are ultimately super super in demand." Subscription tiers and rate-limit caps push power users toward per-token pricing relationships, making capacity access non-uniform across buyers |
+| 3. Concentration follows | Frontier-tier access concentrates among well-capitalized buyers with [[Anthropic]]/[[OpenAI]] relationships. Patel illustrates with a hypothetical: "[[Ken Griffin]] of [[Citadel]] is super well-connected and super rich and he's like he just signs, you know, who knows? He goes and signs a deal with Open[[Anthropic]] that's like, 'Yeah, I'm going to get access to your models. Um, and I'll buy the first $10 billion worth of tokens each year.' ... Now he's going to crush everyone in the market." Hypothetical, not actual deal |
+
+The strategic conclusion Patel labels the "permanent underclass" thesis: "Either you use more tokens and you generate economic value outsized economic value for the use of those tokens... There's three different problems here. Using more tokens, generating value from those tokens and capturing value from those tokens. If you don't do these three things, you'll never escape the permanent underclass."
+
+### The three-problem structure
+
+| Problem | Question | Failure mode |
+|---|---|---|
+| Use more tokens | Are you getting frontier-tier access at all? | Subscription-tier rate limits cap effective compute below what high-leverage tasks require |
+| Generate value from tokens | Is the work the tokens do creating real surplus? | "Boring lazy" use case Patel rejects: "I'll just work one hour a day instead of eight." Lower output, no surplus |
+| Capture value from tokens | Are you the principal or the contractor? | If you sell the AI-generated output at a price competitor AI-using firms can match, the surplus accrues to your customer, not you |
+
+This is the demand-side counterpart to [[Idea-execution inversion|the idea-execution inversion]]. The inversion makes execution cheap; the permanent-underclass thesis says capacity to execute at the frontier is rationed and the rationing favors the already-large.
+
+### Mythos as evidence of selective deployment
+
+[[Claude Mythos]] is Patel's leading example. Internally available since Feb 2026, released only via [[Project Glasswing]] to ~40 cyber and critical-infrastructure customers. Patel's running joke nickname is "earwig" / "glasswig." Patel's framing: "I don't have Mythos. You know who has Mythos? Top freaking banks." The selective release pattern, in his read, generalizes — frontier access narrows as model capability expands.
+
+### Anthropic margin debate (April 2026)
+
+Patel calculated [[Anthropic]] gross margins at "a floor of 72%" by assuming all incremental compute went to inference. The calculation appears to contradict [The Information](https://www.theinformation.com/articles/anthropic-lowers-profit-margin-projection-revenue-skyrockets) (Jan 2026), which reported actual gross margin at ~40% for 2025, revised down from 50%, with inference costs 23% above plan and a 77% target by 2028. The discrepancy is large enough to matter for [[Long Anthropic|Anthropic equity-thesis]] modeling. Two interpretations:
+
+- Patel's calculation models per-token margin (high) and treats prior period's R&D compute as sunk; his 72% is closer to a unit-margin floor than to GAAP gross margin
+- The Information's figure is the GAAP-gross-margin reality including amortized training compute, third-party cloud markup, idle capacity, and consumer-subscription subsidies — all of which the per-token analysis in the Anthropic-margins section above already explains
+
+Either interpretation can be true simultaneously. The vault carries both attributions until further disclosure.
+
+*Source: [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026)*
+
+---
+
 ## Related
 
 - [[NVIDIA]] - player (acquired Groq $20B for inference)
@@ -492,12 +531,7 @@ Nobody has assembled this. It's a thesis-worthy research gap.
 - [[AI infrastructure financing risk]] - bear case (circular capital flows)
 - [[DeepSeek]] - disruptor (14.37T tokens on OpenRouter, 10-30× cheaper than OpenAI)
 - [[Qwen]] - disruptor (700M+ downloads, Alibaba-backed)
-
-- [[NVIDIA]] - player (acquired Groq $20B for inference)
-- [[Groq]] - acquired (LPUs for fast inference)
-- [[OpenAI]] - exposed (GPT-5 $30/$60 vs [[DeepSeek]] $0.27/$1.10)
-- [[Anthropic]] - exposed (API pricing pressure)
-- [[Open source commoditization]] - driver ([[DeepSeek]], [[Llama]], [[Mistral]])
-- [[Model lab economics]] - context (training vs inference margins)
-- [[CUDA moat]] - context (NVIDIA trying to own inference)
-- [[Separately Managed Accounts]] - parallel unit economics (fee structure vs true cost-to-serve)
+- [[Phantom GDP]] - measurement consequence of token-cost collapse
+- [[Idea-execution inversion]] - structural counterpart; demand-side mechanism
+- [[Claude Mythos]] - selective-deployment example
+- [[Project Glasswing]] - rationing mechanism for frontier access

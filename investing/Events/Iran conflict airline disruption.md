@@ -180,4 +180,27 @@ Thousands of passengers were stranded in the early days. Social media filled wit
 ---
 
 *Source: Bloomberg, "Iran War Exposes the Fragility of Modern Air Travel," March 12, 2026*
-*Created 2026-03-12. Updated 2026-03-28 — European hedging data, crack spread divergence (Tooze).*
+*Created 2026-03-12. Updated 2026-03-28 — European hedging data, crack spread divergence (Tooze). Updated 2026-04-27 — FT cut-wave reversal, slate-rigidity framing.*
+
+---
+
+## Apr 27 — cut wave reverses March schedule-share opportunity (FT)
+
+[[Financial Times|FT]] (Apr 27) reported that [[Deutsche Lufthansa|Lufthansa]], [[Delta Air Lines|Delta]], [[Cathay Pacific]], and [[Qantas]] are now cutting flights in response to the doubling of [[Jet fuel|jet fuel]] prices to ~$200/bbl ([[Argus Media|Argus]] NW Europe assessment, twice unrefined [[Brent crude|Brent]] at ~$100). This is a direction reversal vs the March pattern, when European and Asian carriers were *adding* flights to capture market share from disrupted Gulf hubs (see schedule actions table above).
+
+| Carrier | March action | April 27 action |
+|---------|--------------|-----------------|
+| [[Deutsche Lufthansa]] | Adding Asia/Africa flights | Cutting flights (FT) |
+| [[Delta Air Lines]] | Q1 fuel costs +$2.6B; "plan for pricier flights" | Cutting flights (FT) |
+| [[Cathay Pacific]] | Mounting extra services; doubled fuel surcharges Mar 18 | Cutting flights (FT) |
+| [[Qantas]] | Perth-London rerouted via Singapore | Cutting flights (FT) |
+
+[[Bernstein]] (cited in FT) estimated that fuel and related expenses amounted to about 35% of [[Ryanair]]'s revenue in 2025, illustrating why airlines feel the burn first on margin even before operational decisions reshape capacity.
+
+### Slate-rigidity framing
+
+The cut wave is the first observable demand-destruction step but it does not by itself rebalance crude. Refiners produce roughly fixed product slates per barrel, so destroying jet demand reduces refiner revenue from one cut while leaving the rest of the slate (diesel, gasoline, naphtha, fuel oil) at shock-elevated prices. Crude purchases stay supported until demand also rations across the less price-elastic products. See [[Refining slate rigidity]] for the full mechanism and [[Crack spread]] for the margin-blowout signature.
+
+The market read: airline capacity cuts are necessary but not sufficient for crude rebalancing. The next-leg signal to watch is layer-2 (diesel/gasoline trucking and consumer pass-through) and layer-3 (naphtha to petrochemicals — [[BASF]] 30% Mar 19 hike was the early evidence).
+
+*Source: FT, "Why flying less won't do much to ease the oil crisis" (Apr 27, 2026); chart from [[Argus Media]] via FT.*

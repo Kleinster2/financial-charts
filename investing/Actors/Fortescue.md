@@ -201,6 +201,25 @@ Significant executive turnover — multiple CEO changes since 2023. Forrest's du
 
 ---
 
+## Apr 28, 2026 — Barnaba (Deputy Chair) on diesel exposure, real-zero grid, CMRG terms
+
+[[Mark Barnaba]] (Fortescue Deputy Chairman) on Bloomberg "The Asia Trade" (Bank of America Breakthrough Technology Dialogue, Singapore) quantified Fortescue's exposure to the [[2026 Strait of Hormuz crisis|Iran energy shock]] and laid out the terms of the active commercial negotiation with [[China Mineral Resources Group|CMRG]].
+
+**Diesel cost exposure.** Fortescue imports approximately one billion liters of diesel per year for its [[Pilbara]] operations. Marginal cost of production is "just under $20" per tonne in USD. A $0.50/L move in diesel translates to roughly **$500M of annual cost** at current import volume — mechanical, not modelled. This is the cleanest framing yet of what the [[2026 Iran conflict market impact|oil shock]] does to a low-cost iron-ore producer's marginal cost stack, and explains the strategic urgency behind decarbonization.
+
+**Real-zero (not net-zero) green grid.** Fortescue is building its own decarbonized energy grid for Pilbara operations: multi-site solar, multi-site wind, multi-site battery storage, on a 220 kV / 600 km transmission backbone with AI-optimized dispatch. Target is "real zero" (eliminate fossil fuels in Scope 1 + Scope 2), not "net zero" (allow offsets). Barnaba: "I don't think there's another example I can point to on the planet" of an industrial company building 24/7 baseload renewable at this scale. This is a sharper framing than the prior `Fortescue Energy (green division)` arc which had been scaled back — the metals-side decarbonization is alive even though the external green-hydrogen vision is in retreat.
+
+**CMRG negotiation terms.** Barnaba confirmed Fortescue is in active talks with [[China Mineral Resources Group|CMRG]] (the Chinese state-backed iron-ore buyer that consolidates negotiation across the Chinese steel mill complex). CMRG asks identified by Barnaba:
+
+- **China-based iron-ore index.** CMRG wants miners to use a China-based price index rather than the Platts-derived global benchmarks that currently drive realized prices. This is part of the broader push for pricing-power repatriation that has surfaced in commodity benchmarks since 2024.
+- **Renminbi-denominated trade.** CMRG would like a substantial portion of Fortescue's iron-ore exports to settle in [[Renminbi|RMB]] rather than USD. This dovetails with the [[Hormuz Transit Regime|yuan settlement]] thread on Iranian transit fees and the broader [[de-dollarization]] vector.
+
+Barnaba's posture: "not unreasonable" and "not unexpected" — Fortescue's relative strength is its long-running [[China]] relationship (largest-ratio China exporter among major miners; [[Andrew Forrest]] founder-relationship). The signal: CMRG dynamics are the start of broader Chinese terms-of-trade renegotiation across iron ore, copper, batteries, solar — not a one-off Fortescue ask. This is consistent with [[Valin Holdings]] (Chinese steel) being Fortescue's second-largest holder at 8.8%.
+
+**Australia macro overlay.** Barnaba flagged [[Australia]] inflation at 3.7% (vs. [[RBA]] band 2-3%, target 2.5%), wage inflation 3.4%, productivity 1%, with effective full employment — already materially above band before the imported [[2026 Strait of Hormuz crisis|Iran inflation]] hit. Expects 25bp [[RBA]] hike at the May 2026 meeting (CPI data due Apr 29, RBA decision week of May 5), with another later in the year as inflation remains sticky.
+
+*Source: Bloomberg "The Asia Trade" 4/28/2026 — Mark Barnaba (Fortescue Deputy Chairman) interview with Haslinda Amin, Bank of America Breakthrough Technology Dialogue, Singapore.*
+
 ## Related
 
 - [[BHP]] — peer (#1 mining, Pilbara iron ore)
@@ -214,6 +233,10 @@ Significant executive turnover — multiple CEO changes since 2023. Forrest's du
 - [[Copper Mining]] — sector (via [[Alta Copper]])
 - [[Morningstar]] — no moat rating
 - [[Australia]] — HQ and operations
+- [[Mark Barnaba]] — Deputy Chairman; on diesel, real-zero grid, CMRG talks
+- [[China Mineral Resources Group]] — Chinese state-backed iron-ore counterparty pressing for China index + RMB invoicing
+- [[Renminbi]] — settlement currency in active CMRG negotiation
+- [[2026 Strait of Hormuz crisis]] — diesel import-cost vector
 
 ---
 

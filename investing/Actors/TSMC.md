@@ -171,6 +171,36 @@ The capex budget rose from the $52-56B range guided in Jan to a firm $56B — co
 
 ---
 
+## SemiAnalysis 2028 capex projection (Patel, Apr 23, 2026)
+
+[[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026) advanced a concrete out-year capex projection for TSMC that runs materially above current consensus and above company guidance:
+
+| Year | Patel's projection / data |
+|---|---|
+| 2025 (TSMC official) | $52-56B; Apr 16 Q1 print confirmed high end |
+| 2026 ([[SemiAnalysis]] tracker) | $57.4B since January (above company's $52-56B guide) |
+| 2028 (Patel projection) | "Sincerely, they may spend $100B on capex in 2028 ... maybe two years from now, right? Maybe 28. Sincerely, they may spend $100 billion on capex in 2028. And people like just can't fathom that. But that's a real real possibility" |
+
+The reasoning chain Patel laid out: (1) demand for AI-capable wafers exceeds current capacity at every reasonable price; (2) TSMC's pricing approach has been "single digit price increases instead of, you know, triple digit price increases like the memory guys have had" — meaning TSMC's response to scarcity has been volume rather than price; (3) volume response requires capex; (4) the 2028 capex print is the inflection point.
+
+The downstream-supply-chain implication Patel emphasizes is the "tail whip" — equipment vendors ([[Lam Research]], [[Applied Materials]], [[ASML]]), upstream optics ([[Carl Zeiss SMT]]), motion/vacuum ([[MKS Instruments]]) all see the order book grow faster than the foundry capex headline because each generation requires more equipment per wafer of capacity. The wafer fabrication equipment chain is, per Patel, "still very underappreciated" at current multiples even after the 2025-2026 run.
+
+A $100B 2028 capex would also pressure the company's free-cash-flow profile — TSMC's 2025 cash flow already absorbed substantial Arizona and Japan buildout cost. The financing structure for a 2028 capex of that scale is the open question. It is large enough that the [[CHIPS Act]] $6.6B grant becomes a rounding error.
+
+*Source: [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026)*
+
+---
+
+## TWSE single-stock cap relaxation (Apr 24, 2026)
+
+[[TWSE|Taiwan Stock Exchange]] eased the single-stock investment cap from 10% to 25% on Apr 24, 2026, releasing benchmark-driven mandatory selling of TSMC and unlocking forced incremental demand from index trackers and Taiwan-domiciled mutual funds. TSMC opened ~5% higher Apr 25 and added another ~5% on Apr 27 (Bloomberg "The China Show" intraday). The change is the financial-market analogue to the manufacturing concentration framing — see [[Taiwan concentration risk]] for the equity-index amplification mechanics.
+
+The move came in the same week [[Taiwan]]'s aggregate market cap surpassed the [[United Kingdom]]'s, with [[South Korea]] (paced by [[Samsung]] and [[SK Hynix]]) close behind. The combined effect is that TSMC's idiosyncratic moves now translate more linearly into Asia-Pacific benchmark moves, both inside and outside [[Taiwan]] — a structural shift that benefits TSMC's price action on positive flow days but increases benchmark-level vulnerability to TSMC stress events.
+
+*Source: Bloomberg "The China Show," Apr 27 2026 — Charlotte Yang segment.*
+
+---
+
 ## Open questions
 
 - [[How durable is TSMC's moat]]

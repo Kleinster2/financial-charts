@@ -52,6 +52,21 @@ The price-gap data is the *most tradable* signal that decoupling is structural r
 
 ---
 
+## Beijing closes the offshore-exit corridor (April 2026)
+
+A second binding-constraint pattern surfaced in late April 2026 alongside the price-gap signal: Beijing started closing the offshore-restructuring corridor that had been the implicit exit path for Chinese-founded AI startups toward US acquirers. Two near-simultaneous data points:
+
+- April 25, 2026 — Seoul Economic Daily: China barring Chinese tech firms from accepting US capital without state approval. Inbound-side restriction.
+- April 27, 2026 — [[NDRC]] orders [[Meta]] to unwind its $2B [[Manus AI]] acquisition. First major reversal of the [[Singapore washing]] playbook (offshore-restructure → Singapore-domiciled US sale). NDRC asserted extraterritorial reach via tech-export-control law against a deal involving a Singapore-domiciled holding company; founders [[Xiao Hong]] and [[Ji Yichao]] barred from leaving mainland China since March 22 as the operational binding constraint.
+
+The structural read is symmetric: the corridor that allowed Chinese AI talent and capital to flow toward US acquirers is now being closed from the Beijing side, in parallel with the US-side closures ([[Pax Silica]], outbound-investment EOs, [[CFIUS]]) that had already narrowed it from Washington. 2024-2025 was the window — open on both sides for narrow categories of "consumer AI" investment — and 2026 is the year that window closes from the Chinese side as well.
+
+Implications: deal premium for Singapore-cleansed Chinese AI assets compresses or reverses; [[HongShan]] / [[Sequoia Capital]] forward-monetization on [[MiniMax]], [[Moonshot AI]], [[StepFun]], [[Zhipu]] requires either Beijing's blessing or a path that does not depend on a US acquirer.
+
+See [[Singapore washing]] and [[Manus AI]].
+
+---
+
 ## The investment thesis
 
 Decoupling creates winners and losers:
@@ -104,3 +119,6 @@ Key figures:
 - [[Law of one price]] — price-gap framing of decoupling
 - [[Patrick Foulis]] — "golden age of arbitrage" essay (FT, Apr 24 2026)
 - [[B200]] — 50% China grey-market premium as cleanest live segment-pricing measure
+- [[Singapore washing]] — offshore-restructuring corridor for Chinese AI exits, now contested by Beijing
+- [[Manus AI]] — first major reversal of the Singapore-routed US-acquirer path (NDRC unwind, Apr 27 2026)
+- [[NDRC]] — Chinese regulator that ordered the Meta-Manus unwind

@@ -44,6 +44,14 @@ Wright confirmed that oil export bans "are not going to happen" — addressing p
 
 *Source: CNBC International (Mar 23, 2026)*
 
+### Producer call urging more drilling (April 2026)
+
+Wright and [[Doug Burgum]] held a call with oil and gas executives in mid-April 2026 to encourage more production, reported by FT (Findlay, Apr 23 2026). Despite the political pressure — administration "energy dominance" rhetoric, midterm-election affordability concerns, WTI near $100 — US oil and gas rig counts remained flat. The [[Federal Reserve Bank of Dallas|Dallas Fed]] Q1 2026 Energy Survey released the same week showed 73% of producers expecting ≤+0.25 mb/d of 2026 production growth.
+
+The call is the cleanest evidence that the political channel for accelerating shale supply has stopped working alongside the price channel. See [[Shale supply discipline]] for the structural framework.
+
+*Source: FT, Stephanie Findlay (Apr 23 2026).*
+
 ---
 
 ## Related

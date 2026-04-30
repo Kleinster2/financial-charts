@@ -225,6 +225,21 @@ The resolution metric is revealing: 60 daily transit calls would still be well b
 
 ---
 
+## Producer survey — Aug 2026 reopening expected (Dallas Fed Q1 2026)
+
+The [[Federal Reserve Bank of Dallas|Dallas Fed]] Q1 2026 Energy Survey (released Apr 23 2026) asked oil & gas executives directly when they expect Hormuz to "return to normal levels." **Most respondents cited August 2026** — roughly four months further out than the [[Polymarket]] / [[Energy Aspects]] / [[Stellen Capital]] consensus tracked through late March, and consistent with the post-ceasefire reopening logic that has unfolded since.
+
+| Question | Result |
+|---|---|
+| When do producers expect Hormuz back to normal? | Most: **August 2026** |
+| Will trapped Gulf production return to market? | ~2/3 expect 90% to return eventually |
+
+The 90%-eventual-return view is the supply-side mirror of the [[Hormuz Permanent Risk Premium]] thesis: the lost cargoes mostly come back, but the **risk premium** doesn't — and producers' refusal to expand US output even at $100 prices ([[Shale supply discipline]]) means the premium has no offset on the supply side either.
+
+*Source: Stephanie Findlay, "US shale bosses resist boosting oil output over Iran war 'chaos'," Financial Times, Apr 23 2026.*
+
+---
+
 ## Related
 
 - [[Iran]] — controls northern shore

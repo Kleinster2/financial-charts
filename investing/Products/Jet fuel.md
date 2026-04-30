@@ -203,6 +203,16 @@ The physical backdrop explains the urgency. Gulf jet-fuel exports fell from **19
 
 See [[Iran conflict European impact]] for the full EU policy response and [[Iran conflict economic disruption]] for the broader energy market analysis and [[2026 Iran conflict market impact]] for cross-asset impact.
 
+### Apr 27 — airline cut wave begins (FT)
+
+[[Financial Times|FT]] reported (Apr 27) that the [[Deutsche Lufthansa|Lufthansa]], [[Delta Air Lines|Delta]], [[Cathay Pacific]], and [[Qantas]] reaction to doubled jet fuel prices is now flight cuts, not just surcharges or schedule reshuffling. With NW Europe jet fuel at ~$200/bbl (per [[Argus Media]] via FT) — twice unrefined [[Brent crude|Brent]] — and [[Bernstein]] estimating fuel was about 35% of [[Ryanair]]'s revenue in 2025, the burn is on margin first.
+
+The capacity-cut wave is the first observable demand-destruction step in the [[Refining slate rigidity]] framework: airlines are the most price-sensitive jet users, so they ration first. But because refineries produce roughly fixed product slates, jet demand cuts on their own do not rebalance [[Oil|crude]] — the rest of the slate (diesel, gasoline, naphtha, fuel oil) has to ration too. That is why [[Crack spread|crack spreads]] stay blown out even as airlines pull back.
+
+This is a direction reversal vs early March, when European and Asian carriers were *adding* flights to capture market share from disrupted Gulf hubs (see [[Iran conflict airline disruption]]). The fuel-cost shock has now overwhelmed the schedule-share opportunity.
+
+*Source: FT, "Why flying less won't do much to ease the oil crisis" (Apr 27, 2026).*
+
 ---
 
 ## Investment implications

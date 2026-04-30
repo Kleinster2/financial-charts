@@ -20,6 +20,21 @@ Space economy — launch services, satellites, earth observation, exploration.
 
 **Total space economy:** ~$500B+ (2025), $1T+ by 2030
 
+## Q1 2026 — record investment quarter
+
+[[Space Capital]] (Chad Anderson, Space IQ Q1 2026 briefing, Apr 26, 2026):
+
+| Metric | Q1 2026 |
+|---|---|
+| Total invested in space economy | $36B (single-quarter record) |
+| Infrastructure investment alone | $7B (on pace to exceed full-year 2025 record) |
+| GeoInt (geospatial intelligence) | $3.8B (86% of all 2025 GeoInt in single quarter) |
+| Cumulative invested since 2009 | $455B across 2,400+ companies |
+| Q1 share of all-time | ~8% |
+| Realized exits | $8B across 28 (26 acquisitions, 2 IPOs) |
+
+The breadth, not concentration, was the signal: applications, distribution, and infrastructure all racing to leverage what's been built in orbit for [[Physical AI|physical intelligence]], [[Robotics|robotics]], and AI. New launch vehicles online in Q1: [[Firefly Aerospace|Firefly Alpha]] and [[Ariane 64]].
+
 ---
 
 ## Key segments
@@ -40,7 +55,7 @@ Space economy — launch services, satellites, earth observation, exploration.
 
 | Company | Status | Subscribers |
 |---------|--------|-------------|
-| [[Starlink]] | SpaceX subsidiary | **9M+** |
+| [[Starlink]] | SpaceX subsidiary | 10M+ (Q1 2026) |
 | OneWeb | Eutelsat merger | Enterprise |
 | Amazon Kuiper | Launching | 0 (building) |
 | AST SpaceMobile | Development | Direct-to-cell |
@@ -217,8 +232,17 @@ The exports use commercial wrapping ([[Military-civil fusion]] talent and fundin
 
 ## Related
 
-- [[Starlink]] — satellite internet leader
+- [[Starlink]] — satellite internet leader (10M+ subs Q1 2026)
 - [[SpaceX]] — launch dominance
+- [[Vast]] — commercial space station ([[Haven-1]], [[Haven-2]])
+- [[Lunar Outpost]] — lunar surface mobility
+- [[Voyager]] — public space-tech holding ([[Star Lab]])
+- [[Kayhan Space]] — space domain awareness ([[Satcat Terminal]])
+- [[Firefly Aerospace]] — small/medium launch ([[Firefly Alpha]] online Q1 2026)
+- [[Space Capital]] — space-economy VC, Space IQ briefing source
+- [[Space data centers]] — orbital DC platform war (concept)
+- [[Commercial LEO Destinations]] — post-ISS commercial station program
+- [[Artemis]] — lunar program, Q1 2026 architecture restructure
 - [[Isar Aerospace]] — leading European launch startup
 - [[Germany]] — €35B space-defense investment
 - [[Defense]] — space defense overlap

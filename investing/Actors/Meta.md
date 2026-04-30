@@ -99,6 +99,26 @@ FTC: Appealing its antitrust loss (Instagram/WhatsApp acquisition case).
 
 ---
 
+## Q1 2026 pre-print lens (reporting late April 2026)
+
+The Q1 2026 print is the cleanest test of Meta's AI capex / revenue-conversion bridge. The capex/revenue ratio is the highest among the Mag 7: $115-135B 2026 capex against ~$240B 2026 revenue ranges from ~48% to ~56% capex intensity at the top end. [[Patrick Moorhead]]'s framing for the Apr 27 earnings week singled out two specific watch items for Meta — whether AI investment is producing engagement gains and ad-pricing gains. The vault's [[AI capex arms race]] thesis treats this print as one of six testable items in Phase 3.
+
+### What the print resolves
+
+| Watch item | Why it matters | Q4 2025 baseline |
+|---|---|---|
+| Ad impressions × ad price decomposition | The two-factor explanation for ad revenue growth. Engagement (impressions) is the AI-product-quality tell; ad price is the demand / monetization tell. | Impressions +18%, average price +6% |
+| Q1 2026 revenue vs $53.5-56.5B guide | The headline. Beating the high end signals AI-driven engagement and Reels monetization continuing to compound. | Q4 2025 $59.9B (+22% YoY) |
+| 2026 capex range update ($115-135B) | Direction of FY26 guide signals whether buildout is on plan or accelerating. Top-end pressure means more debt or more cash burn relative to operating cash flow. | $115-135B issued Jan 28 |
+| [[Reality Labs]] FY26 burn track | $6B/quarter ($24B/year) Q4 2025 run-rate. RL drag is the cleanest capex-skepticism case if it widens; layoff savings redirection is the cost-discipline case. | Q4 2025 RL revenue $955M, loss $6B |
+| [[Muse Spark]] monetization commentary | First proprietary frontier model (Apr 8, 2026), trailing [[GPT|GPT-5.4]] and [[Gemini|Gemini 3.1 Pro]] on coding/agentic. Any disclosed enterprise pilot or revenue narrative starts to bridge the model-quality gap to monetization. | Closed-source pivot, no revenue line yet |
+| DAU + engagement breakdown | 3.5B daily users at Q4 2025 was a record. Sustained engagement is the AI-recommendation thesis; deceleration would be the saturation tell. | 3.5B DAU |
+| MTIA ramp commentary | MTIA 300 in production, MTIA 450/500 (Arke/Astrid) deploying 2027. Q1 disclosure on MTIA 300 utilization and MTIA 400 (Iris) deployment status updates the in-house-silicon dependency-reduction story. | 4-generation roadmap announced Mar 11 |
+
+The capex/revenue ratio is the structural watch item. No other Mag 7 is committing this level of intensity. If ad pricing × impressions doesn't lift through 2026, the [[AI capex arms race#Market skepticism emerging|capex skepticism]] case lands first on Meta — Reality Labs already burns $24B/year, MTIA program is multi-year payback, and the [[Muse Spark]] enterprise narrative needs time to compound.
+
+---
+
 ## $9T market cap executive compensation target (March 2026)
 
 Meta is tying executive pay to reaching a $9T market cap by 2031, roughly 5x its current ~$1.8T value. The new stock option plan could pay top leaders hundreds of millions if achieved. This underscores how central AI-driven growth has become to the company's strategy. Stock-based compensation surged in 2025, consuming about 96% of free cash flow, with billions spent on AI talent and buybacks to offset dilution. The aggressive target aligns incentives with the rapid AI scaling thesis but also highlights how expensive the talent war has become.
@@ -287,6 +307,18 @@ Context: Hyperscalers racing to secure nuclear for AI data center power. See als
 
 ---
 
+## Apr 27, 2026 — Overview Energy 1 GW space solar deal
+
+Meta announced a "first-of-its-kind" agreement with [[Overview Energy]] giving early access to up to 1 GW from Overview's space-based solar power system. Initial orbital demonstration target 2028; commercial power delivery target 2030. The technology: geosynchronous satellites collect 24/7 sunlight and beam it as low-intensity near-infrared light to existing terrestrial solar facilities, extending those facilities' generation hours without new land or grid interconnection. The beam is described as invisible, less intense than sunlight, and "passively safe" for humans, animals, and aircraft.
+
+The deal extends Meta's around-the-clock power procurement strategy beyond nuclear PPAs ([[Constellation Energy]], [[Vistra]], [[TerraPower]], [[Oklo]] — 6.6 GW combined over 20 years) into a frontier technology bet. Meta is signaling that AI data center power demand is large enough to underwrite forward offtakes on technologies with significant execution risk and ~5-year time horizons.
+
+See [[Overview Energy]] for technology and counterparty detail.
+
+*Source: PR Newswire (Overview/Meta joint announcement), pv magazine USA, The Next Web; Apr 27, 2026.*
+
+---
+
 ## Anduril defense partnership (Jan 2026)
 
 AI-powered military helmet:
@@ -307,14 +339,14 @@ Reality Labs: Bosworth expects 2026 to be "particularly consequential" - market 
 
 ## AI acquisitions (2025-2026)
 
-| Acquisition | Price | What | Date |
-|-------------|-------|------|------|
-| Manus | ~$2B+ | [[AI agents]] (Chinese-founded) | Jan 2026 |
-| Rivos | ~$2B | Custom chip design ([[RISC-V]]) | 2025 |
-| [[Moltbook]] | Undisclosed | AI agent social network (acqui-hire) | Mar 10, 2026 |
-| PlayAI | - | AI audio | 2025 |
-| WaveForms | - | AI audio | 2025 |
-| Limitless | - | Wearables | 2025 |
+| Acquisition | Price | What | Date | Status |
+|-------------|-------|------|------|--------|
+| [[Manus AI\|Manus]] | $2B | [[AI agents]] (Chinese-founded, Singapore-restructured) | Dec 2025 | Ordered unwound by [[NDRC]] Apr 27, 2026 |
+| Rivos | ~$2B | Custom chip design ([[RISC-V]]) | 2025 | Closed |
+| [[Moltbook]] | Undisclosed | AI agent social network (acqui-hire) | Mar 10, 2026 | Closed |
+| PlayAI | - | AI audio | 2025 | Closed |
+| WaveForms | - | AI audio | 2025 | Closed |
+| Limitless | - | Wearables | 2025 | Closed |
 
 Moltbook (Mar 10, 2026):
 - Acqui-hire - [[Matt Schlicht]] (CEO) and [[Ben Parr]] (COO) join [[Meta Superintelligence Labs]]
@@ -325,21 +357,26 @@ Moltbook (Mar 10, 2026):
 - [[Andrew Bosworth]] said he didn't "find it particularly interesting" a month before the acquisition
 - See [[Meta Moltbook acquisition]] for full details
 
-Manus (Jan 2026):
+Manus (Dec 2025 → blocked Apr 27, 2026):
 - $2B - outright acquisition (not acqui-hire)
-- Chinese-founded AI agent startup (~100 staff)
-- Meta's 3rd largest acquisition ever (after Instagram, [[WhatsApp]])
-- "Leading autonomous general-purpose agent"
-- Was "hailed as the next [[DeepSeek]]"
+- Chinese-founded AI agent startup (~100 staff); offshore [[Singapore washing|restructured to Singapore]] in July 2025
+- Meta's 3rd largest acquisition ever (after Instagram, [[WhatsApp]]) when announced
+- "Leading autonomous general-purpose agent"; was "hailed as the next [[DeepSeek]]"
 - Parent company Butterfly Effect backed by [[Benchmark]] (drew [[China]] hawk criticism)
-- Deal closed in ~10 days
-- Signals aggressive catch-up in [[Agentic AI]]
-- Part of broader [[AI consolidation]] - Big Tech buying Chinese startups
+- Deal closed in ~10 days; ~100 engineers began moving into Meta's [[Singapore]] office for [[Meta Superintelligence Labs]] integration in early March 2026
+- Signaled aggressive catch-up in [[Agentic AI]]
+- Showcased the broader [[Singapore washing]] / "China shedding" exit playbook for Chinese AI startups
+- See [[Manus AI]] for full timeline
 
-Geopolitical angle:
-- Rare US acquisition of cutting-edge Chinese AI
-- Brain drain concerns: [[ZhenFund]] partner: "An incredible company and team are being sold to the United States"
-- Could raise hackles in Washington AND Beijing
+NDRC unwind order (Apr 27, 2026):
+- [[NDRC]] ordered the parties to cancel the transaction; brief statement cited "decision to prohibit foreign investment in Manus made in accordance with laws and regulations"
+- Followed [[MOFCOM]] investigation opened Jan 8, 2026 under tech-export-control law
+- Founders [[Xiao Hong]] (CEO) and [[Ji Yichao]] (chief scientist) barred from leaving mainland China since Mar 22, 2026 — operational binding constraint
+- Capital had already been transferred; ~100 Manus engineers had moved to [[Singapore]]; integration into [[Meta Superintelligence Labs]] paused
+- Unwinding mechanics (return of consideration, IP separation, staff repatriation) undefined in the NDRC statement
+- [[Meta securities|META]] traded ~0.2% lower in pre-market on Apr 27 — muted reaction reflecting that the unwind had been telegraphed by the March travel ban and that Meta's [[AI capex arms race|AI capex commitment]] does not depend on Manus completing
+- Strategic implication: Meta's [[Agentic AI]] catch-up timeline lengthens; [[Moltbook]] acqui-hire and in-house [[Meta Superintelligence Labs]] build remain intact but slower
+- Geopolitical implication: first major test and first major reversal of [[Singapore washing]] as a viable exit path for Chinese AI; closes one corridor in the broader [[US-China decoupling]] frame
 
 ---
 
@@ -369,7 +406,7 @@ See [[Wearable AI]] for competitive landscape.
 
 - Exploring premium subscriptions for Meta AI assistant
 - Pressure to justify $65B AI capex
-- Manus gives them actual agent product to monetize
+- Manus was intended as the agent product to monetize; status now uncertain after [[NDRC]] Apr 27 unwind order (see [[Manus AI]])
 - Ray-Ban Meta glasses as hardware revenue + AI distribution
 
 ---
@@ -585,7 +622,7 @@ See [[Short interest]] for interpretation framework.
 | CIP balance | $44B (Q3 2025) |
 | Primary chip | [[NVIDIA]] GPUs |
 | Foundry exposure | [[TSMC]] (via NVIDIA) |
-| 2025 AI M&A | ~$4B+ (Manus + Rivos) |
+| 2025 AI M&A announced | ~$4B+ (Manus $2B + Rivos ~$2B); Manus deal blocked by [[NDRC]] Apr 27, 2026 |
 | AI leads | Alexandr Wang + [[Nat Friedman]] |
 | Infra lead | Dina Powell McCormick (Jan 2026) |
 | Long-term debt | $59B face + $27.3B Hyperion SPV (Dec 2025). See [[Meta bonds]] |
@@ -604,6 +641,22 @@ The May 20 cuts pair structurally with [[Microsoft]]'s first-ever voluntary buyo
 META closed Apr 24 at $675.03 (+2.4% on the day; the print preceded the broader market reaction to the [[Anthropic]] / [[Google]] $40B headline). Q1 2026 earnings drop Apr 29 — the segment-level disclosure on where the cuts are landing will come at that print.
 
 *Sources: Internal memo via CNN, Variety, NBC News, Bloomberg, CNBC (Apr 23-24 2026); local DB close Apr 24 2026.*
+
+## Q1 2026 earnings — capex raise to $125-145B, stock down 7% AH (Apr 29, 2026)
+
+Meta reported Q1 2026: revenue $56.31B (+33% YoY, fastest quarterly growth since 2021) vs. $55.45B Street estimate; adj EPS $7.31 vs. $6.79 estimate. Net profit $26.8B (the print landed three weeks before the May 20 effective date for the 10% workforce cut announced Apr 23). ARPP (average revenue per person) $15.66 vs. $15.26 estimate.
+
+Capex raise — the headline: FY26 capex guidance raised to $125B-$145B, up from the prior $115B-$135B range. Meta attributed the increase explicitly to *"higher component pricing this year and, to a lesser extent, additional data center costs to support future year capacity."* This is the second hyperscaler in 24 hours — alongside [[Microsoft]]'s ~$190B / $25B-memory-mark guide — to publicly bake the [[Memory shortage 2025-2026]] into capex rather than absorb it as margin compression. Meta did not break out the memory-mark portion explicitly, but the $10B raise (midpoint to midpoint, $125B → $135B) is roughly consistent with Microsoft's $25B memory-cost framing scaled to Meta's hyperscaler size.
+
+User-growth miss: Despite the topline beat, Meta missed on user growth — first-quarter daily active people were 3.56B (+4% YoY) vs. 3.62B expected, with the company citing Iran-related internet disruptions. Q2 revenue guidance of $58B-$61B was roughly in line with the $59.5B consensus, so the negative read centered on the combination of weaker user growth and higher capex rather than a pure revenue-guide miss.
+
+Stock closed Apr 29 at $669.12 (-0.33% on the day, into the print) and fell about 7% in extended trading on the capex-raise + user-growth miss. The AH reaction is the cleanest cross-sectional signal on Apr 29 hyperscaler print night — the AH dispersion across MSFT (modestly down), GOOGL (~flat-to-up), AMZN (modestly up), and META (-7%) tracks how the market is differentiating between "memory mark on existing capex level" (MSFT, neutral) vs. "memory mark layered on top of an unchanged-or-rising base" (META, punished) vs. "demand binding on supply-constrained build" (GOOGL/AMZN, rewarded).
+
+The structural read: the [[2026 OpenAI revenue miss]] event one day earlier already primed the market to test the capex/revenue ratio for Big Tech AI builders. Meta took the largest single-day hit because (a) capex rose, (b) user growth missed — both legs of the ratio moved against it. See [[Hyperscaler capex]] for the cross-Big-4 comparison.
+
+*Sources: [Meta press release / CNBC](https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html), [Yahoo Finance capex coverage](https://finance.yahoo.com/sectors/technology/article/meta-stock-sinks-after-q1-earnings-as-company-raises-2026-ai-spending-forecast-to-125-billion-145-billion-160136308.html), [Fortune capex framing](https://fortune.com/2026/04/29/meta-zuckerberg-145-billion-ai-spending-roi/), [Variety net-profit detail](https://variety.com/2026/digital/news/meta-q1-2026-earnings-1236733502/), [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/04/29/meta-meta-q1-2026-earnings-call-transcript/), Apr 29 2026.*
+
+---
 
 ## Analyst timeline
 
@@ -628,8 +681,9 @@ META closed Apr 24 at $675.03 (+2.4% on the day; the print preceded the broader 
 
 [[Long TSMC]]: NVIDIA GPUs = TSMC
 [[AI hyperscalers]]: Tier 1 spender, validates AI capex cycle
-[[Agentic AI]]: Manus + Moltbook acquisitions = competitive pressure on [[Anthropic]], [[OpenAI]]
-[[Long Anthropic]]: Meta now a direct competitor in agents
+[[Agentic AI]]: Moltbook acqui-hire stands; Manus blocked by NDRC Apr 27, 2026 — Meta's agent catch-up timeline lengthens
+[[Long Anthropic]]: Meta now a direct competitor in agents (slower without Manus)
+[[Singapore washing]]: Meta is the test case for the failed offshore-restructuring exit
 
 ---
 
@@ -645,8 +699,10 @@ META closed Apr 24 at $675.03 (+2.4% on the day; the print preceded the broader 
 - [[TSMC]] - foundry (via NVIDIA)
 - [[Google]], [[Amazon]], [[Microsoft]] - hyperscaler peers
 - [[Anthropic]], [[OpenAI]] - AI lab competitors
-- [[Agentic AI]] - Manus + Moltbook acquisitions
-- [[AI consolidation]] — Manus as Big Tech buying Chinese startups; Moltbook as agent talent absorption
+- [[Agentic AI]] - Moltbook acqui-hire (Mar 2026); Manus deal blocked by NDRC (Apr 27, 2026)
+- [[AI consolidation]] — Moltbook as agent talent absorption; Manus blocked is the failure case for the China-acquisition strategy
+- [[Manus AI]] — $2B deal blocked by [[NDRC]] Apr 27, 2026; founders barred from leaving China
+- [[Singapore washing]] — Meta-Manus is the test case
 - [[Moltbook]] — acquired Mar 10, 2026. See [[Meta Moltbook acquisition]]
 - [[Wearable AI]] - Ray-Ban Meta glasses
 - [[Together AI]] - Llama hosted there
@@ -655,6 +711,7 @@ META closed Apr 24 at $675.03 (+2.4% on the day; the print preceded the broader 
 - [[BYOP]] - Socrates South on-site generation
 - [[Solar Turbines]] - power supplier (Socrates South)
 - [[Siemens Energy]] - power supplier (Socrates South)
+- [[Overview Energy]] — space-based solar PPA up to 1 GW (Apr 27, 2026); orbital demo 2028, commercial 2030
 - [[Blue Owl]] - Hyperion DC JV partner ($27B, 80/20 split)
 - [[Entergy]] — Hyperion power provider (Smalling Substation, 3 gas plants)
 - [[EdgeConneX]] — Project Walleye operator (New Albany, Ohio; $3B combined DC + power financing, [[EQT]])

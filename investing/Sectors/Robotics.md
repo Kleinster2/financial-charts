@@ -184,6 +184,24 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 
 **Key enabler:** Hands are "gateway to general-purpose robots" — enables tool use in human environments.
 
+### Architectural debate — VLA models and the few-shot timeline (Patel, Apr 23, 2026)
+
+[[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026) advanced a specific architectural and timeline call on the path to economically useful humanoid deployment, reframing the [[Software-only singularity|software-only-singularity]] debate as a "blip" against the much larger physical-world surface area:
+
+| Claim | Patel framing |
+|---|---|
+| VLA models are not the eventual scaling architecture | "Vision-Language-Action models, which is very popular right now, is probably not going to be the thing that ultimately scales beyond. They are inefficient in data and we can't scale the data for them fast enough." Current VLA approaches consume too much demonstration data per task to support general-purpose deployment |
+| Required: a pre-training regime for embodied AI | "There is going to be some way to large-scale pre-train robot models where just like humans see all this data throughout their lives." Human few-shot ability comes from extensive pre-training on physical-world experience, not from any single demonstration |
+| Sample-efficiency is the missing capability | "Humans the reason why we're so good is we're sample efficient. One example, two example, we're good. And so applying that to robotics" |
+| Timeline | "The next 6 to 18 months we'll start seeing real breakthroughs in robotics that enable few-shot learning ... there's a pre-trained robot model and now there's a robot ... You show it a few examples and it's able to do it" |
+| Deployment shape | "It'll get really niche like robots just for cleaning chalkboards. And it's a rental service or it'll be a model package that you download onto your standard robot" |
+
+The strategic point: the software-only singularity people focus on is "a blip" relative to the physical-world surface area. Once execution costs collapse for software (see [[Idea-execution inversion]]) and few-shot learning works for robots, "anyone can start to build these robot models that now robots are actually useful." The platform implication is that robot-capability commerce shifts toward the model layer (downloadable task packages on standard hardware) rather than the hardware layer alone — analogous to how mobile-app commerce sits on standard phone hardware.
+
+For investment positioning, the Patel call sharpens an existing tension: [[VLA model|VLA-architecture-bet]] companies (current humanoid leaders) face an architectural-obsolescence risk if Patel is right; companies positioned as standard-platform plays for downloadable task models (the Apple-of-robots scenario) gain. Test points over the 6-18-month window: per-task data efficiency benchmarks, demonstration count for novel-task acquisition, generalization across morphology.
+
+*Source: [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026)*
+
 ---
 
 ## Geographic landscape

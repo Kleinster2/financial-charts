@@ -32,6 +32,16 @@ One of the largest Chinese Apple suppliers alongside Foxconn.
 
 ---
 
+## Apr 27, 2026 — OpenAI smartphone exclusive assembly partner
+
+[[Ming-Chi Kuo]] reported [[Luxshare Precision]] will be the exclusive system co-design and assembly partner for [[OpenAI]]'s AI agent smartphone, with [[Qualcomm]] and [[MediaTek]] jointly designing the processor. Mass production targeted 2028; 300-400M annual shipments target; specs and suppliers to be finalized end-2026 / early-2027.
+
+The role is a step up from AirPods assembly into primary-device assembly — closer to the [[Foxconn]] position with [[Apple]]. If the volume target lands anywhere near 300-400M units, this would be a meaningful diversification of Luxshare's customer base away from [[Apple]] concentration. The 2028 production timeline keeps near-term revenue impact modest. See [[OpenAI hardware program]].
+
+*Source: TF International Securities (Ming-Chi Kuo) note, Apr 27, 2026; The Next Web; CNBC.*
+
+---
+
 ## Hong Kong listing
 
 | Metric | Value |
@@ -89,3 +99,7 @@ Part of wave of [[Shenzhen]]-listed Chinese firms adding HK listings (see [[Asia
 - [[Taiwan tech protectionism]] — Grace Wang arrest warrant
 - [[Taiwan]] — issuing arrest warrants
 - [[OnePlus]] — Pete Lau also under warrant (Jan 2026)
+- [[OpenAI hardware program]] — exclusive smartphone assembly partner (Kuo, Apr 27 2026)
+- [[OpenAI]] — customer (AI agent smartphone)
+- [[Qualcomm]] — co-supplier (joint chip design)
+- [[MediaTek]] — co-supplier (joint chip design)

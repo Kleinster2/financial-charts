@@ -176,6 +176,38 @@ Toyota is Pony.ai's most important strategic partner and a major investor:
 
 ---
 
+## Apr 28, 2026 — James Peng at BoA Tech Conference Singapore
+
+[[James Peng]] interviewed by Haslinda Amin at the Bank of America Asia-Pacific Technology Conference in Singapore. Substantive expansion across global expansion, Iran-conflict ops impact, the [[Baidu]] robotaxi outage centralized-vs-distributed AV system architecture debate, chip supply, and the 2027 model cost trajectory.
+
+### Global expansion plan
+
+Existing Middle East presence in Doha (Qatar), Dubai (UAE), and Singapore. Active expansion targets named: European markets, additional Middle East countries, South Korea. Peng cited the demand-side observation that "mobility demand is similar throughout the globe" — i.e. Pony.ai sees no geographic differentiation in robotaxi unit economics, only regulatory differentiation. The binding constraint per Peng: "every country has different regulations related to transportation, related to data privacy, data protection." Goal stated as "much larger expansion this year" with "at least ten 2,000 cities" target (transcript ambiguous; appears to translate as ~10-2,000 city range, meaning aggressive ramp from current single-digit deployments to potentially thousands of cities).
+
+### Iran war operational impact
+
+Iran conflict "pushed pause button" on Middle East operations briefly. Vehicles in transit during the conflict were "floating in one of the oceans over there" — likely Persian Gulf shipping disruption stranded inbound vehicle inventory. Operations resumed after the pause; Peng credited "strong demand for advanced driving" and "very strong" local government commitment. No production delays reported; "we were able to actually accelerate afterwards." Targets unchanged.
+
+### Baidu robotaxi outage — centralized vs distributed AV systems
+
+Peng addressed the [[Baidu]] [[Apollo Go]] fleet outage earlier in 2026 in which approximately 100 robotaxis stalled simultaneously. Peng's framing: "It's not really safety, it's like a traffic disruption." Industry-level mitigation requires multi-layered approach — vehicle-side safety (the vehicle "should still have the ability to handle the minimal risk and pull over"), distributed system architecture (not centralized), three layers of redundancy by design, and rapid safety response when incidents occur. The structural read on centralized-vs-distributed: "It's not just about centralized. It's also how do you make the vulnerability to be distributed. It's about how you build redundancy into your system. What system fails should always have maybe not even one level of redundancy. It have three layers of redundancy." This is the public-facing differentiation between Pony.ai's architecture and the [[Baidu Apollo|Apollo Go]] outage's centralized-failure point.
+
+### Nvidia chip dependency — automotive grade, not advanced
+
+Pony.ai uses [[Nvidia]] automotive-grade computer chips ("not even as good as advanced as the computer chips in your laptop"). Peng explicitly distinguished this from data-center accelerator demand: no imminent supply-disruption risk from US-China export-control flip-flopping because automotive-grade silicon is not export-controlled at the same tier as Hopper/Blackwell. On domestic Chinese alternatives ([[Huawei]] Ascend, [[Cambricon]]): "We have trials, but definitely not seriously looking" — i.e. Pony.ai is not yet making the domestic-stack switch despite Beijing pressure on Chinese AI/auto firms to migrate. Peng's position: "It still still will take time to to catch up. Currently as we're at our scale as we discussed, several thousands. I think we're still not actively looking any alternative yet."
+
+### 2027 model cost trajectory
+
+Peng disclosed a 2027 model launch with full bill of materials (vehicle + computer chips + sensors combined) targeting "just a little bit over 30,000 USD" total cost. (Transcript later corrected the figure as "30,000 Chinese yuan, not dollars," but that figure is implausibly low for a robotaxi BOM and is likely a translation error or transcription glitch — the $30K USD figure aligns with Gen 7 BOM trajectory disclosed in Q3 2025 results showing 70% cost reduction + 20% additional 2026 reduction planned.) The structural framing: scale-up + software optimization + supply-chain optimization compounds; "the price continue to drop and the scale continue."
+
+### Stock-price disconnect
+
+HK stock at ~84 HKD vs prior ~136 HKD — Peng attributed the drop to investor expectations of even faster scale-up, not company-fundamentals deterioration. Iceberg analogy: above-the-surface activity (visible new vehicle launches, geographic expansion) is what investors react to; below the surface ("we're like an iceberg, we're really doing a lot of actually work — cost reduction, regulatory work, safety measurements, the ground personnel for international expansion") is the structurally important work that hasn't translated into share-price recognition yet. Investors will see it "in the end."
+
+*Sources: Bloomberg "The China Show" 4/28/2026 broadcast (YouTube, https://youtu.be/xZcJBG4gYBQ) — Haslinda Amin interview with [[James Peng]] from Bank of America Asia-Pacific Technology Conference, Singapore.*
+
+---
+
 ## Insights
 
 - **Gen 7 is the inflection point.** 70% BOM reduction + city-level unit economics breakeven in Guangzhou = first proof that robotaxis can be economically viable at scale. If the 2026 20% further reduction holds, Pony.ai approaches fleet-level profitability.

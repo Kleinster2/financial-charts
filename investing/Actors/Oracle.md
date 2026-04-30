@@ -286,6 +286,18 @@ See [[AI labor displacement]] → "The interest-rate counter-narrative" for the 
 
 ---
 
+## OpenAI revenue miss WSJ — second leg of the Oracle/OpenAI repricing (Apr 28, 2026)
+
+[[Wall Street Journal]] reported that [[OpenAI]] missed its 1B weekly active user target for end-2025 and missed multiple monthly revenue targets in early 2026; CFO [[Sarah Friar]] was reported to have raised internal concerns about whether OpenAI can fund its committed compute contracts if revenue does not accelerate. ORCL closed -4.05% to $165.96, on top of -6.0% on Apr 23 from the project-finance syndication story. The two-week sequence has compressed the post-Q3 FY26-earnings rebound to roughly pre-earnings lows.
+
+The Apr 28 sell-off prices the *demand-side* corollary of the Apr 23 *supply-of-capital* constraint: lenders already balked at financing additional Abilene capacity with Oracle as the tenant; now the tenant's revenue ramp itself is contested. The market is reading the two stories as a single thesis-stress sequence — concentration risk plus tenant-revenue risk on the same anchor contract.
+
+Q4 FY26 earnings (May/June 2026) become the next material test: the OpenAI-related portion of the $553B RPO and any fresh disclosure on project-finance funding will be central. The [[Oracle#Bloom Energy 2.8 GW fuel cell deal (Apr 14, 2026)|Bloom Energy 2.8 GW SOFC]] thesis (own power as cushion) survives, but the demand side of the bet is now contested.
+
+See [[2026 OpenAI revenue miss]] for the full event note covering market reaction, compute-coverage gap, and read-throughs across the AI infrastructure stack.
+
+---
+
 ## Project-finance concentration hits Wall Street limits (Apr 23, 2026)
 
 The Apr. 23 WSJ report, syndicated via Livemint, added an important new layer to the Oracle debt story: the constraint is no longer just Oracle's own balance sheet. It is the capital markets' ability to absorb ever-larger project-finance packages with Oracle as the anchor tenant for [[OpenAI]] campuses.

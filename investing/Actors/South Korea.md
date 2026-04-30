@@ -140,6 +140,21 @@ Reuters' Feb 20 flow report showed [[South Korea]] was the largest single-countr
 
 The earnings bridge matters. Reuters reported on Apr 8 that Samsung's blowout preliminary profit had already lifted expectations for [[SK Hynix]]'s January-March results later that month, with analysts revising memory-profit expectations higher as DRAM and NAND pricing strengthened. This is why the Korea trade still looks like an earnings story, not just a factor rotation.
 
+## Trade Minister Joo Hyung-Hwan diversification campaign (Apr 2026)
+
+Trade Minister [[Joo Hyung-Hwan]] used an Apr 27, 2026 Bloomberg interview from Singapore to lay out the Korean response to the [[2026 Strait of Hormuz crisis]]. The structural points:
+
+- **Naphtha re-sourcing**: Approximately 80% of Korean petrochemical naphtha was historically sourced from the Middle East. The Hormuz disruption has forced Korea to (a) implement domestic measures restraining naphtha exports and (b) accelerate diversification of supply origins. Korea is now actively engaging India and other regional partners to secure alternative naphtha supply. See [[Naphtha]] and [[Iran conflict supply chain cascade]].
+- **March exports record**: Korean exports hit a record $68B in March 2026, with the figure driven by sustained semiconductor demand. The export base has held up despite the war and despite tariff uncertainty — ten consecutive months of YoY growth.
+- **Korea-India [[CEPA]] upgrade**: During [[Lee Jae Myung]]'s Apr 2026 state visit to [[India]], the two governments agreed to accelerate the upgrade of the existing 17-year-old Comprehensive Economic Partnership Agreement. Korea-side industrial focus: automotive, electronics, shipbuilding, and energy-supply diversification.
+- **US-China meeting framing**: Joo described [[China]] as Korea's #1 trading partner and the [[United States]] as #2 — "neck and neck." Korea's stated interest is stabilization of US-China relations through the May 2026 [[Trump]]-[[Xi Jinping]] meeting. Stabilization gives Korea a more predictable trading environment than the current swing between tariff threats and supply-chain shocks.
+
+The diversification campaign is the cleanest evidence that the [[Strait of Hormuz]] disruption is reshaping Asian trade architecture in real time, not just adjusting energy spreads. Korea's prior comfort with concentrated Middle East sourcing is no longer the operating assumption.
+
+[[Wendy Cutler]] ([[Asia Society Policy Institute]], Apr 27 Bloomberg) characterized the broader Asian-ally posture as "all of our trading partners in Asia, even close ones like Korea, are looking to diversify their trading partners and reduce their reliance on the United States, because regrettably, they think we are unreliable." That framing matters because it converts what Washington might read as tactical hedging into a medium-to-long-term strategic shift in the structure of Asian trade.
+
+*Source: Bloomberg interview with Trade Minister Joo Hyung-Hwan, Singapore, Apr 27 2026.*
+
 ## Market proxy
 
 ![[south-korea-price-chart.png]]

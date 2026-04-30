@@ -43,6 +43,20 @@ The structural read is in the Anthropic event note: [[Google]] is funding a fron
 
 ---
 
+## Q1 2026 earnings — Cloud +63%, capex raised again (Apr 29, 2026)
+
+Alphabet reported Q1 2026: total revenue $109.9B (+20% YoY, fastest growth quarter since 2022), EPS $5.11 vs. $2.62 Street estimate (a 95% surprise — distorted upward by a one-time $36.9B gain on equity securities, contributing $2.35 to diluted EPS and $28.7B to net income). Stripping the equity-securities gain, core operating EPS still cleared the consensus comfortably. Reported net income $62.6B (+81% YoY headline number).
+
+[[Google Cloud]] revenue $20.02B (+63% YoY), passing $20B for the first time, vs. $18.05B StreetAccount estimate. **Backlog roughly doubled QoQ to over $460B** — the demand-side scoreboard for the [[Anthropic]] $200B / 5 GW deal flowing through. CEO [[Sundar Pichai]] on the call: *"compute constrained in the near term"* — *"our cloud revenue would have been higher if we were able to meet the demand."*
+
+Capex guidance — raised again: FY26 capex $180B-$190B, up from the Feb-quarter range of $175B-$185B. Q1 capex $35.7B. The increment matters more than the level — Alphabet has now raised FY26 capex twice in 90 days. [[Hyperscaler capex]] note carries the full Big 4 update across MSFT/GOOGL/AMZN/META.
+
+Stock closed Apr 29 at $349.94, ~flat on the day into the print; the after-hours reaction was muted-to-positive vs. Meta's -7% — the "compute constrained" framing reads bullishly because demand is the binding constraint, not customer commitment.
+
+*Sources: [Sundar Pichai earnings call remarks](https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q1-2026/), [CNBC](https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html), [Yahoo Finance / Quartz](https://qz.com/alphabet-google-cloud-earnings-q1-2026-042926), [Investing.com transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q1-2026-earnings-soar-stock-dips-93CH-4647252), Apr 29 2026.*
+
+---
+
 ## Related
 
 - [[Google]] — core subsidiary

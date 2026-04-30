@@ -52,6 +52,18 @@ CEO Greg Smith: "In 2026, we expect year-over-year growth across all of our busi
 
 ---
 
+## Q1 2026 earnings (Apr 29, 2026)
+
+Teradyne reported record Q1 2026 revenue of $1.282B (+87% YoY), GAAP EPS of $2.53, and non-GAAP EPS of $2.56, all above the high end of guidance. Semiconductor Test was $1.111B of revenue; Robotics contributed $91M and Product Test $80M.
+
+The demand signal was explicit: management said about 70% of revenue was tied to AI-related demand, reflecting strength across compute segments and memory. The phrase to preserve is Teradyne's *"wafer to AI data center strategy"* — test intensity is increasing at each step from advanced semis to memory and AI data-center deployment. This reinforces the [[AI capex arms race]] refinement that systems scarcity broadens beyond GPUs into test, packaging, CPU, memory, and power infrastructure.
+
+Q2 guidance was strong in absolute terms — $1.15B-$1.25B revenue and non-GAAP EPS of $1.86-$2.15 — but below the Q1 record level. TER closed Apr 29 at $306.33, down 19.4% from Apr 28, suggesting the market had already capitalized a sharper sequential ramp after the February guide and March custom-ASIC-test rerating.
+
+*Source: [Teradyne press release](https://investors.teradyne.com/news-events/press-releases/detail/440/teradyne-reports-first-quarter-2026-results), Apr 29 2026; local DB close Apr 29 2026.*
+
+---
+
 ## Business segments
 
 ### Semiconductor Test (~75%)

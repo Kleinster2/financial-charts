@@ -105,6 +105,16 @@ See [[Volkswagen 50k job cuts March 2026]] for full event detail.
 
 VW losing ground in world's largest EV market.
 
+### Xpeng partnership and the IDEA UNYX line (Beijing Auto Show 2026)
+
+VW holds a 5% stake in [[Xpeng]] alongside an EV-platform co-development agreement signed in 2023-2024. At the 2026 Beijing Auto Show, the partnership materialized as the [[IDEA UNYX]] 08 and 09 SUVs — China-only EVs co-engineered with Xpeng and built on a Xpeng-derived platform with full-width touchscreens (driver-side through passenger-side), Xpeng-derived ADAS, and a software stack closer to Chinese consumer-electronics expectations than to VW's global ID. lineup.
+
+This is part of the broader [[Reverse tech transfer in China auto]] pattern. VW had been the #1 passenger-vehicle seller in [[China]] for decades; the partnership is an explicit acknowledgment that the legacy MEB / ID. stack is no longer feature-competitive in the Chinese market versus domestic OEMs and that catching up requires Chinese-supplier integration, not internal R&D acceleration.
+
+The IDEA UNYX models are scoped to Chinese domestic distribution; the underlying platform and Xpeng-derived ADAS do not transfer back to VW's European or US lineups under current export controls and partnership terms.
+
+*Source: Bloomberg "The China Show" / Stephen Engle Beijing Auto Show coverage, Apr 27 2026.*
+
 ---
 
 ## [[EU]]-[[China]] EV tariff deal (Jan 2026)

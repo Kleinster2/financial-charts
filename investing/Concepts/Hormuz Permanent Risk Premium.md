@@ -117,9 +117,26 @@ The permanent premium thesis strengthens: each escalation cycle demonstrates tha
 
 ---
 
+## Twin with shale supply discipline (Apr 2026)
+
+The premium thesis has a structural counterpart on the supply side. [[Shale supply discipline]] — the post-2020 norm of returns over volume in US shale — means the premium has no automatic relief valve. Pre-2020, the historical reaction was: high prices → US shale capex → barrels within 6-12 months → premium dissipates. The [[Federal Reserve Bank of Dallas|Dallas Fed]] Q1 2026 Energy Survey confirms that step is broken: 73% of US producers expect ≤+0.25 mb/d of growth in 2026 despite WTI near $100. Even direct administration pressure ([[Chris Wright]] + [[Doug Burgum]] producer call, April 2026) has not moved rig counts.
+
+Together the two concepts describe the 2026 oil regime. Geopolitical chokepoint risk is structurally elevated; supply elasticity from the marginal producer is structurally reduced. The pre-2026 stable-band of $60-80 Brent is no longer a default — the band is wider both above and below, and OPEC+ pricing power is restored not through cohesion but through the absence of a shale counter-pressure.
+
+---
+
+## Demand-side rigidity also tightens the premium (Apr 27, 2026)
+
+[[Refining slate rigidity]] is the demand-side third leg of the same regime. Refiners produce a roughly fixed product slate per barrel of crude, so demand destruction in any single product (jet, diesel, gasoline) does not by itself reduce crude purchases. The visible airline cut wave on Apr 27 — [[Deutsche Lufthansa|Lufthansa]], [[Delta Air Lines|Delta]], [[Cathay Pacific]], [[Qantas]] reducing flights ([[Financial Times|FT]]) — is the first-mover demand response but only rebalances the [[Jet fuel|jet]] cut. Crude rebalancing requires demand destruction to keep cascading through diesel, gasoline, and ultimately the petrochemical and heating slate, where users have less ability to substitute or postpone.
+
+The implication for the permanent premium: the conventional reflex that "high prices destroy demand and the market clears" requires far more cross-product demand destruction than headline economics imply, and the burden has to fall on users who are structurally less able to step back. That makes the rebalancing path slower and the premium floor higher — the demand-side mirror of the supply-side discipline that prevents shale from filling in.
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — the event that created the premium
+- [[Shale supply discipline]] — twin structural force on the supply side
 - [[Strait of Hormuz]] — the chokepoint
 - [[Iran conflict insurance impact]] — insurance market mechanics
 - [[Iran conflict economic disruption]] — supply/demand math
@@ -131,6 +148,8 @@ The permanent premium thesis strengthens: each escalation cycle demonstrates tha
 - [[Hormuz Transit Regime]] — transit fees, bilateral access, yuan settlement condition
 - [[Fiscal Dominance]] — why governments can't offset this shock with fiscal/monetary stimulus
 - [[Ruchir Sharma]] — policy ammunition exhaustion thesis
+- [[Refining slate rigidity]] — demand-side rigidity that tightens the premium floor; explains why airline cuts don't reset crude
+- [[Crack spread]] — refining margin signature of the slate-rigidity transmission
 
 ---
 

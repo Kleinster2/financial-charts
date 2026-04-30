@@ -65,6 +65,18 @@
 
 ---
 
+## Supply discipline (post-2020)
+
+The defining structural feature of US shale in 2026 is no longer growth — it is the explicit refusal to grow. Public-company capital discipline, breakeven inflation, and Tier-1 acreage exhaustion combine to break the pre-2020 reaction function in which crude above $80 brought a wall of barrels within months.
+
+The [[Federal Reserve Bank of Dallas|Dallas Fed]] Q1 2026 Energy Survey is the cleanest empirical read: **73% of producers expect ≤+0.25 mb/d of US production growth in 2026** despite WTI near $100, Brent above $110, and explicit White House pressure ([[Chris Wright]] + [[Doug Burgum]] producer call, April 2026). 50% expect the same in 2027. By comparison, 2017–2019 averaged ~+1.0 to +1.5 mb/d annually.
+
+Permian new-well breakevens have risen from ~$45-50/bbl (2020) to ~$63-70 (2026); Eagle Ford ~$63. The forward strip — the prices producers actually plan against — has stayed $60-70 for 2027/2028 even through the [[Operation Epic Fury|Iran conflict]] front-month spike.
+
+For full mechanism, empirical anchors, and OPEC implications, see [[Shale supply discipline]].
+
+---
+
 ## Investment implications
 
 | Theme | Implication |

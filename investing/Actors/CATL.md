@@ -261,6 +261,20 @@ Zeng: "The most important thing is to persist in independent innovation." CATL p
 
 ---
 
+## Apr 28, 2026 — $5B Hong Kong placement at low end of range
+
+CATL completed the year's largest Hong Kong share placement, raising US$5B at HKD 628 — the low end of the marketed range and a 7% discount to the prior close. The placement was opportunistic: CATL's Hong Kong shares had risen ~160% since the dual-primary listing a year earlier, and the H-shares trade at a hefty premium to the [[China A-shares|A-share]] listing in [[Shenzhen]]. Stock fell ~7% on the placement day, briefly trading below the placement price (~HKD 630 vs HKD 628) before recovering to roughly the placement level.
+
+Use of proceeds: bankrolling [[CATL]]'s global expansion — consistent with the European builds (Hungary, Spain), Indonesian downstream nickel/cobalt, and US JV ambitions noted in the Global Expansion section. The placement is the largest single capital-markets event for a Hong Kong-listed mainland-Chinese company in 2026 to date.
+
+The structural read per [[CITIC CLSA]] equity capital markets reporter Julia Fioretti (Bloomberg "The China Show" 4/28/2026): "Large deals can still get done in Hong Kong, even despite the uncertainty that's going on, the volatility that we're seeing in the markets. And there's still pretty strong demand for companies like Seattle [CATL]" — i.e. Hong Kong's primary-market window remains open for sector leaders despite the Iran-conflict macro overhang. The placement is one of three notable HK capital-markets events the same week alongside the Hongchao convertible bond and two trading debuts (Light Television +400%, MAB Bioscience).
+
+The H-A premium is the structural distortion enabling the placement: CATL's HK-listed shares trade at a meaningful premium to its [[Shenzhen]] A-share listing, so capital is more efficiently raised in Hong Kong even after the 7% discount. The ~160% one-year run since HK listing reflects the same dynamic — international investors with no A-share access have used the HK listing as the access path, bidding up the H-share price relative to the underlying.
+
+*Sources: Bloomberg "The China Show" 4/28/2026 broadcast — Julia Fioretti (equity capital markets reporter); CATL pricing announcements.*
+
+---
+
 ## Related
 
 - [[BYD]] — competitor (\#2 globally, vertically integrated)

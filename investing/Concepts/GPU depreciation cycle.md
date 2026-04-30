@@ -74,6 +74,24 @@ At $2.40/hr on a 3-year contract, gross margins are ~70% — far above the ~35% 
 
 ---
 
+## Useful-life update (Patel, Apr 23, 2026)
+
+Six weeks after the Mar 13 framing, [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026) sharpened the useful-life argument with concrete re-signing data:
+
+| Hardware | Re-signing observation |
+|---|---|
+| 3-4 year-old [[Hopper]] clusters | Re-signing for an additional 3-4 years (total ~7-8 years useful life) |
+| [[A100]] clusters | Re-signing for "another couple years" |
+| [[H100]] | Prices "going up" on renewal, useful life clearly extending |
+
+Patel's framing: "There's people who have argued GPU full lives are less than 5 years complete nonsense ... it's clearly not 5 years. So the useful life is extending and the prices are going up on that renewal. So in effect the gross margin was not 35% on a cluster, it's beyond that. So margins are expanding in the in the cloud layer."
+
+The Apr 23 reading complements rather than replaces the Mar 13 framing — same supply-constrained world, more concrete margin and contract data behind the original claim. Cluster gross margins above the 35% headline is the new specific. The implication for [[CoreWeave]], [[Nebius]], [[Lambda Labs]], and other [[Neocloud financing|neoclouds]] with locked-in early-vintage GPU supply is that their realized economics are better than the published cap-rate math would suggest.
+
+*Source: [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026)*
+
+---
+
 ## Implications
 
 | Stakeholder | Impact |

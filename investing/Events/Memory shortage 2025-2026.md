@@ -413,6 +413,68 @@ Of the ~$600B in hyperscaler CapEx in 2026, roughly a third — ~$200B — goes 
 
 ---
 
+## Apr 29, 2026 — Memory cost becomes explicit hyperscaler capex
+
+The Apr 29 hyperscaler print night converted the memory shortage from a semiconductor-channel story into an explicit Big Tech capex line item:
+
+- [[Microsoft]] guided 2026 capex to roughly $190B and attributed about $25B of the increase to higher component pricing — effectively a memory mark embedded in data-center capex.
+- [[Meta]] raised FY26 capex guidance to $125B-$145B, up $10B at the midpoint, explicitly citing *"higher component pricing this year"* and additional data-center costs.
+- [[Alphabet]] raised FY26 capex to $180B-$190B and said it remained compute-constrained; Q1 capex was $35.7B.
+- [[Amazon]] reported Q1 property and equipment expense of $44.2B, with trailing-12-month free cash flow down 95% because of AI investments.
+
+The important change is accounting location. In January-February, the shortage was showing up as smartphone OEM build cuts and warnings from [[Qualcomm]] / Chinese handset channels. On Apr 29 it showed up in hyperscaler guidance. The marginal AI-infrastructure dollar is increasingly a memory dollar — HBM bundled into accelerator systems, server DRAM, and storage — rather than a simple merchant-GPU unit count.
+
+That does not mean GPUs are being crowded out. [[Microsoft]]'s Q3 disclosure that about two-thirds of capex went to short-lived assets still points to accelerator and server spend rising. The better read is additive: the [[Memory shortage 2025-2026|memory mark]] stacks on top of the GPU bill, raising the total [[Hyperscaler capex]] envelope and extending pricing power for [[SK Hynix]], [[Samsung]], and [[Micron]].
+
+*Sources: Apr 29 2026 Q1/Q3 earnings coverage in [[Microsoft]], [[Meta]], [[Alphabet]], [[Amazon]], and [[Hyperscaler capex]].*
+
+---
+
+## SemiAnalysis Apr 23, 2026 update — DRAM "double or triple from here"
+
+[[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026) sharpened the supercycle thesis with a specific structural call: DRAM prices double or triple from current levels before any meaningful supply relief lands.
+
+### Capacity-growth math
+
+| Constraint | Patel framing |
+|---|---|
+| DRAM capacity growth ceiling | "Memory can only grow capacity, you know, low double digit percentages a year, right? 20s 30% a year" |
+| NAND | "A little bit less for NAND" |
+| Reaction lag | "Even though the demand signal was very strong at the end of 2025, the memory companies immediately sort of started reacting. None of that incremental capacity really gets here until the second that they've decided to do in addition to the typical 20 to 30%" |
+| Earliest true incremental supply | "Late 27 at best" — most incremental capacity arrives 2028 |
+
+### Pricing thesis
+
+Patel: "[[DRAM]] will double or triple from here. People are like, 'Oh, the memory storage is overplayed. Everyone gets it.' And it's like, 'No, no, no. You don't get it.' DRAM will double or triple from here still because that's how much capacity is required and they have to steal capacity from somewhere else. And the only way to steal capacity from somewhere else in a in a capitalist economy is demand destruction via higher pricing. We're not like rationing stuff here."
+
+The mechanism is consistent with the [[#Supercycle framing (Jan 2026)|Bank of America]]'s 1990s-supercycle parallel and [[Micron]]'s "most significant disconnect in 25 years" framing — but Patel's specific call is sharper than current consensus, which has tilted toward "everyone gets it now." The vault treats the call as Patel's view, not market consensus, while noting that the supply-constraint math behind it is structural rather than speculative.
+
+Implication for the [[#Korea supplier response (Jan 2026)|memory-maker beneficiary list]]: pricing power that was already attractive at current levels expands further if the call is correct, with a 2-year duration before incremental capacity caps it. [[SK Hynix]], [[Samsung]], [[Micron]] benefit; [[Memory shortage victims|smartphone OEMs and other commodity-DRAM consumers]] face additional cost shock.
+
+*Source: [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026)*
+
+---
+
+## Korea Investment Management Apr 28, 2026 — Memory third-boom thesis (PC → mobile → AI)
+
+"Mr. Bain" (CEO, [[Korea Investment Management]]; described in the segment as "the father of Korean ETFs") on Bloomberg "The China Show" 4/28/2026 framed the current memory cycle as the third great boom for the asset class:
+
+| Boom | Era | Driver |
+|---|---|---|
+| First | PC era | DRAM into the personal computer rollout |
+| Second | Mobile era | DRAM into the smartphone rollout |
+| Third | AI era | HBM + DDR5 into the AI cluster rollout (current) |
+
+The structural argument: each prior boom ran multiple years before incremental capacity rebalanced supply. The 2026 cycle's capacity constraint (per Patel: 20-30% annual ceiling on DRAM growth, 2028 earliest for true incremental supply) is consistent with the multi-year duration of the first two booms. Bain's framing reinforces the [[Dylan Patel]] / Bank of America / [[Micron]] convergent thesis from the Korean-investor perspective, which matters for cross-checks on supply-side discipline (Korean memory makers — [[SK Hynix]], [[Samsung]] — set the global supply curve).
+
+Bain's investment-product expression of the thesis: the [[ACE Global Semiconductor ETF]] (launched Nov 2022, currently trading ~71,000 KRW), holding [[SK Hynix]] / [[TSMC]] / [[Samsung]] / a foundry name at 20% each (80% combined) plus six tail names at 20% combined. ACE has returned ~6.1× since launch — roughly 2× the [[Philadelphia Semiconductor Index]] (SOX) over the same period. Bain picked SK Hynix over [[Samsung]] specifically on HBM positioning ("we selected something locally" because Samsung's HBM ramp lagged at the time of ETF rebalance, then partially recovered after Samsung qualified for HBM).
+
+Bain cautioned on the cyclicality risk: "No one knows when the oversupply will happen." Recommended approach: focus on the whole semiconductor value chain (memory + foundry + design + equipment) rather than memory pure-play exposure, to smooth the cycle's amplitude.
+
+*Source: Bloomberg "The China Show" 4/28/2026 broadcast — Korea Investment Management CEO interview.*
+
+---
+
 ## BofA: TurboQuant sell-off "overdone" (Mar 28-31, 2026)
 
 Google's [[TurboQuant]] announcement (Mar 25) triggered a memory stock sell-off — [[Micron]] -3.9%, [[SanDisk]] -3.5%, [[Seagate]] down — dragging the Nasdaq into correction territory. [[Bank of America]] pushed back forcefully in client notes:

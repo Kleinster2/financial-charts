@@ -232,6 +232,21 @@ Freymann: "The Hormuz emergency has shown what improvisation looks like. A Taiwa
 - [Geopolitics: Taiwan](obsidian://open?vault=geopolitics&file=Events%2FTaiwan) — full Hormuz-Taiwan template analysis, Five Powers Clause concept
 - [Geopolitics: Chokepoint Power](obsidian://open?vault=geopolitics&file=Concepts%2FChokepoint%20Power) — Hormuz as defining case, Taiwan as next application
 
+---
+
+## Equity-market concentration — TWSE single-stock cap relaxation (Apr 24, 2026)
+
+The manufacturing concentration has a financial-market mirror. Taiwan's index-construction rules historically capped single-stock weights at 10% to limit concentration risk in domestic mutual funds. On Apr 24, 2026, [[TWSE|Taiwan Stock Exchange]] eased the single-stock investment cap from 10% to 25%, after [[TSMC]]'s actual market-cap weight inside Taiwan's broader benchmarks had pushed against the prior ceiling for months. The first trading day under the new rule (Apr 25) lifted TSMC roughly 5% and the [[TAIEX]] in sympathy; on Apr 27 TSMC traded another ~5% higher as foreign passive flows began rebalancing into the now-uncapped weight.
+
+Two structural consequences:
+
+- **Index concentration follows manufacturing concentration.** TSMC alone dominates Taiwan's market cap; with the cap raised, domestic and benchmark-sensitive global funds must hold more TSMC by rule, not by view. Taiwan total market cap had already overtaken the [[United Kingdom]] earlier in April; [[South Korea]] (paced by [[Samsung]] and [[SK Hynix]]) is "steps away" per Bloomberg's Charlotte Yang. Both moves are arithmetic outcomes of the same AI-driven semiconductor concentration that drives manufacturing risk.
+- **Risk concentration is now binary.** Pre-rule change, mandatory cap-out forced diversification at the index level even when fundamentals dictated otherwise. Post-rule, a stress event in TSMC ([[Taiwan]] geopolitical or company-specific) translates more linearly into broad-index loss for any holder benchmarked to the [[TWSE]] family. The "insurance" Arizona provides against manufacturing-side concentration does not protect against this financial-market amplification.
+
+The Apr 27 readthrough on Bloomberg "The China Show": fewer than 5% of stocks on the [[MSCI ACWI|global benchmark]] are at 52-week highs (under 140 of ~2,500), even with the index itself near records — the rally is concentrated in [[TSMC]], [[SK Hynix]], [[Samsung]], and a small set of related names. Taiwan's cap relaxation institutionalizes that concentration inside the world's most replicated benchmark structure. The same dynamic that makes [[Taiwan]] a single point of failure for the supply chain now makes it a single point of failure for the [[Asia-Pacific]] equity benchmark.
+
+*Source: Bloomberg "The China Show," Apr 27 2026 — Charlotte Yang segment + David Ingles commentary.*
+
 ## Related
 
 - [[TSMC]] — concentrated (~90% of advanced production)

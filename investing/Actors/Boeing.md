@@ -111,10 +111,18 @@ Read-across. Boeing's MAX 7/10 certification commitment is the positive side of 
 | KC-46 Pegasus | Production | Chronic problems |
 | T-7A Red Hawk | Development | Schedule slip |
 | MQ-25 Stingray | Development | On track |
-| SLS (NASA) | Production | Cost overruns |
-| Starliner | Development | Delayed, issues |
+| SLS (NASA) | Core role stripped (Q1 2026) | $4B+/flight; Starship + Orion reroute |
+| Starliner | Type A mishap (Feb 19, 2026) | Reclassified by [[Jared Isaacman]] |
 
 Defense margins compressed by fixed-price losses.
+
+### Starliner Type A mishap reclassification (Feb 19, 2026)
+
+[[NASA]] administrator [[Jared Isaacman]] reclassified Boeing's 2024 [[Boeing Starliner|Starliner]] crew flight test as a Type A mishap — the agency's most severe designation, alongside the [[Challenger]] (1986), [[Columbia]] (2003), and [[Apollo 1]] (1967) accidents. Reasoning: loss of maneuverability approaching ISS and crew (Wilmore and Williams) returning home nine months later on [[SpaceX]] [[Crew Dragon]] rather than Starliner. Isaacman publicly stated: "Concern for the Starliner program's reputation influenced that decision" not to immediately classify it Type A. Material implications: Boeing's certification path for crew rotation is now significantly steeper, the contractor's standing as an anchor in NASA's Commercial Crew framework is weakened, and the broader Q1 2026 contractor-renegotiation pattern (see [[NASA]]) puts Boeing on the losing side of the architecture redraw. *Sources: [NASA Type A Mishap report (Feb 19, 2026)](https://www.nasa.gov/news-release/nasa-releases-report-on-starliner-crewed-flight-test-investigation/); [CNN Feb 19, 2026](https://www.cnn.com/2026/02/19/science/nasa-boeing-starliner-investigation-report); [Space.com Feb 19, 2026](https://www.space.com/space-exploration/human-spaceflight/we-almost-did-have-a-really-terrible-day-nasa-now-says-boeings-1st-starliner-astronaut-flight-was-a-type-a-mishap).*
+
+### SLS core role stripped (Q1 2026)
+
+NASA's $20B over 7-year lunar base architecture ([[Jared Isaacman]], Mar 25, 2026) reroutes the Earth-to-Moon transit: [[SpaceX]] [[Starship]] now docks with [[Lockheed Martin]] [[Orion]] in Earth orbit and carries the capsule toward lunar surface. SLS — Boeing's $4B+/flight super-heavy launcher — loses its core architectural role even before Artemis IV. The economics that did the work: SLS at >$10K/kg vs Starship at $900/kg per [[Voyager]]'s 10K disclosure for the [[Star Lab]] contract. Congressional reconciliation funding had previously locked in Artemis IV-V SLS through 2032, but Isaacman's architecture removes the program's structural rationale. Boeing's downside is gradual rather than abrupt — the existing flight bookings remain — but the off-ramp is visible. See [[Artemis]] and [[NASA]].
 
 ---
 

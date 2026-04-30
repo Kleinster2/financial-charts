@@ -88,6 +88,22 @@ This is the first senior administration source to publicly endorse Mythos as the
 
 ---
 
+## Capability tier and release color (Patel, Apr 23, 2026)
+
+[[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026, recorded the day [[Claude Opus|Opus 4.7]] launched) added detail on Mythos's internal availability and capability framing that complements the public benchmarks-and-leak story:
+
+- **Internal availability since Feb 2026.** [[Anthropic]] had Mythos working internally roughly two months before the late-March CMS-leak discovery. The selective-deployment program ([[Project Glasswing]]) — which Patel calls "earwig" / "glasswig" as a running joke — released the model only to [[Cybersecurity]] firms and ~40 critical-infrastructure organizations, deliberately delaying broad release on safety grounds
+- **Capability tier: L4 → L6 software engineer in two months.** [[Anthropic]]'s 2024-2025 internal goal was "an L4 software engineer" by end of 2025; Patel's read is that [[Claude Opus|Opus 4.6]] (Feb 2026) hit L4 and Mythos reached L6 by February 2026 — a step Patel calls "potentially the biggest step up in model capabilities in 2 years." See [[Idea-execution inversion]] for the structural implication
+- **Per-token cost 5-10x prior tier; lower per-task cost.** Patel: "Mythos is more expensive as a model but it spends a lot less tokens to do the thing and therefore it is actually cheaper in most tasks than [[Claude Opus|4.6 Opus]] because it's just way more efficient even though each individual token is smarter." The pricing is per the model card already published to selective customers
+- **Public release deliberately weakened at cyber.** Per the model card disclosed to [[Project Glasswing]] participants, the broader public release (when it lands) will have measurably reduced cyber-offensive capability versus the version currently in defenders' hands. Patel: "they explicitly said in the model card hey we actually preferentially made it worse at cyber"
+- **Begging-for-access anecdote.** Patel's framing of capacity scarcity at the frontier: "One of my funniest memories in the past month and a half is myself and [[Leopold Aschenbrenner|Leopold]] being on our knees in front of an Anthropic co-founder begging him for access to Mythos and then pretending it doesn't exist cuz we knew it existed." Color illustrates the gating dynamic that drives [[Inference economics#Permanent-underclass thesis (Patel, Apr 2026)|the permanent-underclass thesis]] — concentration of frontier-tier access among well-capitalized customers with [[Anthropic]] relationships
+
+The April 23 framing sits alongside [[Scott Bessent|Bessent]]'s "step function change" Treasury endorsement and the [[Jensen Huang|Jensen]] / [[Dwarkesh Patel|Dwarkesh]] policy debate — three different uses of the same model: as compounding-lead exemplar (Bessent), as cyber-containment justification (Dwarkesh), as evidence that scaling laws still work and execution costs continue collapsing (Patel).
+
+*Source: [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026)*
+
+---
+
 ## Policy-debate role — Dwarkesh × Jensen (Apr 15, 2026)
 
 Mythos became the central exhibit in Dwarkesh Patel's export-controls exchange with [[Jensen Huang]]. Dwarkesh framed Mythos as the decisive example of AI crossing into weapon-adjacent capability — found zero-day vulnerabilities in every major operating system and browser, including one in OpenBSD after 27 years of secure-by-design engineering, so consequential [[Anthropic]] is withholding public release until defenders patch. The Dwarkesh thesis: if [[China]] had enough [[NVIDIA]] compute to train and run millions of instances of a Mythos-class model, that materially raises cyber-offensive risk to the US.

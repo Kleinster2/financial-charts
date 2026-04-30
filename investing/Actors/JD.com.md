@@ -218,6 +218,16 @@ Sources:
 
 ---
 
+## Apr 2026 — formalized China gig-worker rules
+
+[[China]] formalized a labor-rules framework for gig workers requiring platform companies to align pay with measured labor intensity, cut commissions, improve working conditions, and submit to algorithm reviews. Full implementation by 2027. JD's exposure is asymmetric on the favorable side relative to [[Meituan]] and [[Alibaba]]: JD has historically run a directly-employed courier workforce ([[JD Logistics]]) with formal employment contracts and benefits, an arrangement that drew Beijing's approval through the 2021-2024 "common prosperity" cycle. The new rules formalize the requirements that JD's existing model was already substantially compliant with, while imposing material cost increases on the rider-piecework models used by Meituan and Ele.me.
+
+The structural read: a regulator-driven cost convergence across food-delivery players reduces JD's compliance-disadvantage versus its competitors and may accelerate the unwind of the food-delivery price war that crushed FY2025 operating margins from 3.3% to 0.2%. The full mechanics are in [[China platform labor regulation]].
+
+*Source: PBOC + State Council releases, Apr 2026; Bloomberg "The China Show" Apr 27 coverage.*
+
+---
+
 ## Related
 
 - [[Alibaba]] — primary competitor (marketplace model vs JD's direct sales)

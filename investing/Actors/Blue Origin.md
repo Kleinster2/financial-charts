@@ -1,6 +1,6 @@
 #actor #space #usa #private
 
-**Blue Origin** — Bezos space company. New Glenn rocket. [[Space]] data center ambitions. Competitor to [[SpaceX]].
+**Blue Origin** — Bezos space company. New Glenn rocket. [[Project Sunrise]] orbital data center constellation (51,600 satellites filed with FCC March 2026). Competitor to [[SpaceX]].
 
 ---
 
@@ -8,10 +8,11 @@
 
 | Business | Status | Relevance |
 |----------|--------|-----------|
-| **New Glenn** | First launch 2024 | Heavy-lift rocket |
-| **New Shepard** | **Paused** (Jan 2026) | Suborbital tourism |
-| **Blue Moon** | NASA contract | [[Artemis]] V lander ($3.4B) |
-| **[[Space]] data centers** | Vision | 10-20 year timeline |
+| New Glenn | 2 orbital launches as of Q1 2026 | Heavy-lift rocket |
+| New Shepard | Paused (Jan 2026) | Suborbital tourism |
+| Blue Moon | NASA contract | [[Artemis]] V lander ($3.4B) |
+| [[Project Sunrise]] | FCC-filed Mar 2026 | 51,600-satellite orbital data center constellation |
+| [[Space data centers]] | Active program | Project Sunrise is the operational expression |
 
 ---
 
@@ -51,22 +52,34 @@ Second human landing system after [[SpaceX]] Starship HLS.
 
 ---
 
-## [[Space]] data center vision
+## [[Project Sunrise]] — 51,600-satellite orbital data center (Mar 2026)
 
-**Bezos promoting orbital compute:**
+Blue Origin filed plans with the FCC on March 19, 2026 for [[Project Sunrise]], an orbital data center constellation:
 
 | Detail | Value |
 |--------|-------|
-| Timeline | **10-20 years** (Bezos, Oct 2025) |
-| Quote | "I bet it's not more than 20 years" |
-| Strategy | More conservative than Musk |
+| Filed | Mar 19, 2026 (FCC) |
+| Satellites | Up to 51,600 |
+| Orbit | Sun-synchronous, 500-1,800 km altitude |
+| Inter-satellite links | Optical (laser) — hyperscaler-grade transport |
+| Complement | TeraWave constellation (5,408 satellites, prior filing) |
+| Operator | Blue Origin (not [[Amazon]]) |
 
-**Why space:**
-- 24/7 solar power
-- Bypass Earth [[Power constraints]]
-- No land/permitting constraints
+The structural read: Blue is building the constellation directly, not Amazon — meaning rockets and compute are vertically integrating inside Blue, mirroring how SpaceX/Starlink/[[TERAFAB]] integrates inside Musk's stack. Per [[Space Capital]] (Anderson, Apr 26, 2026): "The architecture points toward a single institutional anchor customer — a hyperscaler or a government — that makes the whole system viable. That's the same playbook as [[Starshield]]."
 
-See [[Space data centers]] for full concept.
+Bezos's earlier 10-20 year orbital DC timeline (Oct 2025) had been read as conservative versus Musk's 4-5 year framing. The Project Sunrise filing — and the optical-mesh + 51,600-satellite scale — moves Blue from "vision" to "active program" and into the same league as SpaceX's 1M-satellite FCC filing (Jan 2026, with [[xAI]]).
+
+See [[Project Sunrise]] for full constellation details and [[Space data centers]] for the platform-war framing across SpaceX, Blue, [[NVIDIA]] ([[Vera Rubin Space 1]]), and [[Google]] ([[Project Suncatcher]]).
+
+---
+
+## Capital efficiency vs SpaceX (Anderson framing, Apr 2026)
+
+[[Chad Anderson]] ([[Space Capital]]) used Q1 2026's Space IQ briefing to draw a contrast: Bezos has personally funded Blue Origin since founding in 2000, with cumulative founder investment Anderson estimates at ~$27B over 25 years (based on headcount, product maturation, and contracting cadence). Across both vehicles, Blue Origin has flown a cumulative 39 flights as of Q1 2026; New Glenn — the orbital rocket — has reached orbit twice. Anderson's contrast: "$27B invested, two orbital launches" vs SpaceX's same period producing nearly 700 Falcon 9 flights at 99% success.
+
+This is one analyst's interpretation, not a Blue Origin disclosure — Blue is private, doesn't release financials, and Bezos's actual investment cadence is not publicly reported. Treat the $27B as Anderson's order-of-magnitude estimate. Project Sunrise and Blue Moon are bets that the next 5 years compress what the prior 25 took to build.
+
+*Source: [Space Capital Space IQ Q1 2026 briefing](https://youtu.be/iGmr4g4Iot4) (Apr 26, 2026).*
 
 ---
 
@@ -140,8 +153,13 @@ SpaceX far ahead on execution; Blue Origin catching up.
 
 - [[Artemis]] — Blue Moon lander ($3.4B contract)
 - [[SpaceX]] — competitor (Musk)
-- [[Space data centers]] — Bezos vision (10-20 years)
+- [[Project Sunrise]] — Blue Origin's 51,600-satellite orbital data center constellation
+- [[Space data centers]] — concept — orbital DC platform war framing
+- [[Vera Rubin Space 1]] — [[NVIDIA]] orbital compute module — competing platform
+- [[Project Suncatcher]] — [[Google]] orbital DC initiative — competing platform
 - [[Power constraints]] — problem space DCs solve
-- [[Amazon]] — Bezos's other company (Kuiper satellite)
+- [[Amazon]] — Bezos's other company (Kuiper satellite, distinct from Blue Origin)
 - [[Jeff Bezos]] — founder
 - [[Tory Bruno]] — joined Dec 2025 (former ULA CEO)
+- [[Space Capital]] — Q1 2026 capital-efficiency framing source (Anderson)
+- [[Chad Anderson]] — Space Capital CEO, Apr 2026 framing

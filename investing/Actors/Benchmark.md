@@ -14,7 +14,7 @@ Benchmark investments in Chinese-founded AI startups are drawing China hawk crit
 
 | Company | What | Status |
 |---------|------|--------|
-| **Butterfly Effect (Manus)** | [[AI agents]] | Sold to [[Meta]] Jan 2026 |
+| Butterfly Effect ([[Manus AI]]) | [[AI agents]] | Sold to [[Meta]] Dec 2025 ($2B); deal ordered unwound by [[NDRC]] Apr 27, 2026 |
 | [[Uber]] | Rideshare | IPO |
 | Twitter | Social | Acquired |
 | [[Discord]] | Social | Private |
@@ -24,13 +24,14 @@ Benchmark investments in Chinese-founded AI startups are drawing China hawk crit
 
 ## Manus/Butterfly Effect controversy
 
-- Benchmark invested in Butterfly Effect (Manus parent company)
+- Benchmark invested in Butterfly Effect ([[Manus AI]] parent company)
 - Chinese-founded AI agent startup
 - Drew fire from China hawks in Washington
 - Critics argued deal helped China develop cutting-edge AI
-- Meta acquisition may resolve tension (US ownership now)
+- [[Meta]] $2B acquisition (Dec 2025) was supposed to resolve tension via US ownership
+- [[NDRC]] ordered the deal unwound on Apr 27, 2026 — Benchmark's exit on Butterfly Effect now in limbo pending unwind mechanics. See [[Singapore washing]] for the broader playbook failure
 
-**The pattern:** US VCs funding Chinese AI talent → political risk
+The pattern: US VCs funding Chinese AI talent → political risk on both sides. Benchmark drew US-side criticism for funding the underlying Chinese startup; the deal itself drew Chinese-side block once Beijing applied tech-export-control law extraterritorially against the [[Singapore]]-restructured holding entity.
 
 ---
 
@@ -83,9 +84,12 @@ As AI becomes national security priority:
 
 ## Related
 
-- [[Meta]] — acquired portfolio company (Manus)
+- [[Meta]] — acquired portfolio company ([[Manus AI]]); deal blocked by [[NDRC]] Apr 27, 2026
+- [[Manus AI]] — Butterfly Effect product; deal under unwind order
+- [[Singapore washing]] — the offshore-restructuring playbook the Manus deal validated then failed
 - [[Craft Ventures]] — peer VC, similar China controversy
 - [[Groq]] — Craft investment, NVIDIA acquired
 - [[Agentic AI]] — investment thesis (Manus)
 - [[Export controls]] — geopolitical risk for China-adjacent investments
 - [[China]] — investment controversy context
+- [[NDRC]] — Chinese regulator that ordered the Manus unwind
