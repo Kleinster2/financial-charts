@@ -20,7 +20,10 @@ function Write-Log {
 
 function Test-Port {
     param([int]$port)
-    [bool](Get-NetTCPConnection -LocalPort $port -State Listen -ErrorAction SilentlyContinue)
+    $listeners = Get-NetTCPConnection -LocalPort $port -State Listen -ErrorAction SilentlyContinue
+    if (-not $listeners) { return $false }
+    $alive = $listeners | ForEach-Object { Get-Process -Id $_.OwningProcess -ErrorAction SilentlyContinue } | Where-Object { $_ }
+    [bool]$alive
 }
 
 function Start-ServerIfDown {
