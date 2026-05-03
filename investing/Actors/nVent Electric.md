@@ -32,16 +32,17 @@ NVT trades as a core Semiconductors name (SMH r = 0.74).
 | Metric | Value |
 |--------|-------|
 | Ticker | NVT (NYSE) |
-| Market cap | ~$10B |
-| Revenue | ~$3.8B (2025E) |
+| Market cap | ~$26B (May 2026) |
+| Revenue | $3.89B (FY2025) |
 | HQ | London (incorporated), Minneapolis (operations) |
+| CEO | [[Beth Wozniak]] |
 | Focus | Enclosures, liquid cooling |
 
 ---
 
 ## Why nVent matters
 
-**Pure-play on DC physical infrastructure:**
+nVent is a pure-play on data-center physical infrastructure:
 
 | Metric | Value |
 |--------|-------|
@@ -65,7 +66,7 @@ NVT trades as a core Semiconductors name (SMH r = 0.74).
 
 ## Liquid cooling position
 
-**1GW+ already deployed:**
+nVent has 1GW+ of liquid cooling already deployed:
 - 10+ years experience in liquid cooling
 - Less than 10% of DCs liquid-cooled today
 - Massive TAM as AI drives liquid adoption
@@ -108,18 +109,49 @@ Stock near 52-week highs (~$117 vs. $42 low).
 
 ## Investment case
 
-**Bull:**
+Supports:
 - +65% organic order growth
 - 1GW liquid cooling deployed
 - Less than 10% DCs liquid-cooled = massive TAM
 - AI DC density increasing
 - New manufacturing capacity coming online
 
-**Bear:**
+Pressures:
 - Stock near all-time highs
 - Customer concentration risk
 - Cyclical capex exposure
 - Competition from larger players
+
+---
+
+## Leadership
+
+| Role | Name |
+|------|------|
+| CEO | [[Beth Wozniak]] |
+
+Wozniak has led nVent through the post-spinout portfolio sharpening and the AI data-center infrastructure inflection. The May 2026 print matters because it shows that the liquid-cooling / enclosure thesis is reaching reported orders and backlog rather than staying at the slide-deck TAM level.
+
+---
+
+## Financials
+
+| FY | Revenue | Gross profit | Operating income | Net income | EBITDA |
+|----|---------|--------------|------------------|------------|--------|
+| 2025 | $3.89B | $1.47B | $617M | $710M | $833M |
+| 2024 | $3.01B | $1.21B | $527M | $332M | $681M |
+| 2023 | $3.26B | $1.34B | $587M | $567M | $587M |
+| 2022 | $2.30B | $823M | $309M | $400M | $454M |
+| 2021 | $2.46B | $942M | $355M | $273M | $461M |
+| 2020 | $2.00B | $749M | $38M | -$47M | $130M |
+| 2019 | $2.20B | $866M | $333M | $223M | $399M |
+| 2018 | $2.21B | $876M | $311M | $231M | $397M |
+
+![[nvent-electric-fundamentals-chart.png]]
+*FY2025 revenue reached $3.89B before the Q1 2026 AI-data-center acceleration; Q1 2026 revenue was $1.24B with net income $142M.*
+
+![[nvent-electric-sankey.png]]
+*FY2025 income statement flow: $3.89B revenue -> $1.47B gross profit -> $617M operating income -> $710M net income.*
 
 ---
 
@@ -144,18 +176,22 @@ nVent reported Q1 2026 before the open on May 1. Record top- and bottom-line res
 
 FY2026 guidance raised: sales +26-28%, adj EPS $4.45-$4.55 (from $4.00-$4.15). The ~10% guidance lift to EPS and reaffirmation that the AI-DC orders are ratable — not a one-quarter lump — is the thesis-confirming element. The previous nVent investment case (1GW+ liquid cooling deployed; less than 10% of DCs liquid-cooled) is now showing up in the order book directly.
 
-Stock: NVT closed May 1 at $160.62, **+12.4% on the day** (+5.2σ) — all-time high. The print sits in the same hyperscaler-capex flow-through bucket as the [[Caterpillar]] $63B backlog (+79% YoY) and the [[Microsoft]]/[[Alphabet]]/[[Amazon]]/[[Meta]] [[Hyperscaler capex|combined ~$650B 2026 capex guide]]. nVent is a cleaner read on AI-DC infrastructure than [[Vertiv]] or [[Schneider Electric]] because the revenue base is small enough that a +40% organic-orders quarter actually moves the comparable-period base meaningfully.
+Stock: NVT closed May 1 at $158.92, +11.2% from the Apr 30 close of $142.90 (+4.8σ in the refreshed local mover screen) — an all-time-high close. The print sits in the same hyperscaler-capex flow-through bucket as the [[Caterpillar]] $63B backlog (+79% YoY) and the [[Microsoft]]/[[Alphabet]]/[[Amazon]]/[[Meta]] [[Hyperscaler capex|combined ~$650B 2026 capex guide]]. nVent is a cleaner read on AI-DC infrastructure than [[Vertiv]] or [[Schneider Electric]] because the revenue base is small enough that a +40% organic-orders quarter actually moves the comparable-period base meaningfully.
 
-The Quick stats panel is now stale on the backlog and FY revenue numbers — original 2026E "$4.4B revenue / +15% growth" reflects pre-print sell-side; the new guide implies $4.8-$4.9B at the high end (+26-28% on $3.8B 2025E base).
+The new guide implies $4.9B at the high end (+26-28% on the FY2025 base), so the old "slow compounder" framing understates how violently AI-DC infrastructure is now hitting nVent's reported backlog.
 
-*Sources: [Motley Fool Q1 transcript](https://www.fool.com/earnings/call-transcripts/2026/05/01/nvent-nvt-q1-2026-earnings-call-transcript/), [Motley Fool — AI DC spending pop](https://www.fool.com/investing/2026/05/01/heres-ai-data-center-spending-helped-this-stock-to/), [Yahoo Finance — ATH](https://finance.yahoo.com/markets/stocks/articles/nvent-nvt-hits-time-high-034141222.html), [Investing.com transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-nvent-electric-beats-q1-2026-earnings-expectations-93CH-4653575), May 1 2026.*
+*Sources: [Motley Fool Q1 transcript](https://www.fool.com/earnings/call-transcripts/2026/05/01/nvent-nvt-q1-2026-earnings-call-transcript/), [Motley Fool — AI DC spending pop](https://www.fool.com/investing/2026/05/01/heres-ai-data-center-spending-helped-this-stock-to/), [Yahoo Finance — ATH](https://finance.yahoo.com/markets/stocks/articles/nvent-nvt-hits-time-high-034141222.html), [Investing.com transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-nvent-electric-beats-q1-2026-earnings-expectations-93CH-4653575), local DB prices, May 1 2026.*
 
-*Created 2026-02-01. Updated 2026-05-02.*
+*Created 2026-02-01. Updated 2026-05-03.*
 
 ---
 
 ## Related
 
+### Securities
+- [[nVent Electric securities]] - NVT common stock, price history, and earnings reactions
+
+### Peers and context
 - [[Data center infrastructure]] — category
 - [[Vertiv]] — competitor (DC infrastructure)
 - [[Legrand]] — competitor (white space)
