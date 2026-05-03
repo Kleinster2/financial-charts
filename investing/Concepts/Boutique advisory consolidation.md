@@ -141,6 +141,92 @@ The May 1 print decomposes into three readable layers:
 
 ---
 
+## Cluster validation — statistical analysis (May 2026)
+
+The "this is a cluster" assertion was tested mathematically against a wider candidate universe (22 tickers across 7 sub-sectors) using three diagnostics on 1-year daily log returns (2025-05-07 → 2026-04-29, 169 trading days). The full script is `scripts/cluster_analysis.py`; raw output in `investing/attachments/boutique-cluster-results.txt`.
+
+All three diagnostics converge: PWP, LAZ, EVR, MC, HLI, PJT are a statistically distinct cluster, and the cluster contains exactly those six names — not the surface-taxonomy-similar mid-IBs (SF, RJF) and not the insurance brokers (AON, AJG, BRO).
+
+### Diagnostic 1 — pairwise return correlation matrix
+
+![[boutique-cluster-correlation-1y.png]]
+
+*1Y daily log-return correlations across 22 tickers, grouped: cluster (blue), mid-IBs (purple), bulge brackets (black), alt mgrs (orange), trad mgrs (gold), insurance brokers (teal), broad ETFs (gray).*
+
+Pairwise correlations within the candidate cluster:
+
+|     | PWP | LAZ | EVR | MC | HLI | PJT |
+|-----|-----|-----|-----|-----|-----|-----|
+| PWP | — | 0.70 | 0.75 | 0.75 | 0.60 | 0.71 |
+| LAZ | 0.70 | — | 0.78 | 0.78 | 0.63 | 0.65 |
+| EVR | 0.75 | 0.78 | — | 0.89 | 0.67 | 0.76 |
+| MC  | 0.75 | 0.78 | 0.89 | — | 0.71 | 0.78 |
+| HLI | 0.60 | 0.63 | 0.67 | 0.71 | — | 0.75 |
+| PJT | 0.71 | 0.65 | 0.76 | 0.78 | 0.75 | — |
+
+Average intra-cluster pairwise correlation: 0.727 (range 0.60-0.89). Tightest pair: EVR-MC at 0.89 (the two largest pure-play independents trade as near-twins). Loosest in-cluster pair: PWP-HLI at 0.60 — still well above any inter-group benchmark.
+
+### Diagnostic 2 — group-pair correlations (cluster vs everything else)
+
+| Group pair | Avg pairwise corr | Cluster's intra-advantage |
+|---|---|---|
+| Cluster (intra) | 0.727 | — |
+| Cluster vs broad ETFs (XLF, KBE, IWM, SPY) | 0.599 | +0.128 |
+| Cluster vs alt mgrs (BX, KKR) | 0.591 | +0.136 |
+| Cluster vs bulge brackets (GS, MS, JPM) | 0.559 | +0.168 |
+| Cluster vs trad mgrs (TROW, BEN) | 0.562 | +0.166 |
+| Cluster vs mid-IBs (SF, RJF) | 0.424 | +0.303 |
+| Cluster vs insurance brokers (AON, AJG, BRO) | 0.128 | +0.599 |
+
+The cluster's nearest neighbors in correlation space are alt asset managers and broad financials ETFs (~0.59 avg) — same systematic deal-cycle / risk-on exposure. The most distant comparator is insurance brokers at 0.13, essentially uncorrelated. The +0.60 gap to insurance brokers — despite both being "fee-income financials" with similar cyclical/defensive intuition — is the most decisive separation in the analysis: the cluster is about deal-cycle exposure, not generic financial-services beta.
+
+Mid-IBs (SF, RJF) sit at 0.42 average correlation with the cluster — closer than insurance brokers but well below the intra-cluster floor. They trade as diversified mid-tier financial-services names, not pure-play independent advisory.
+
+### Diagnostic 3 — hierarchical clustering (objective boundary test)
+
+![[boutique-cluster-dendrogram-1y.png]]
+
+*Average-linkage dendrogram on 1-|corr| distance. Threshold line at 0.4 (gray dashed). Members below the threshold are one statistical cluster.*
+
+At the 0.4 distance threshold, the algorithm identifies seven clusters from the 22-ticker universe:
+
+| Cluster | Members | Identity |
+|---|---|---|
+| **Boutique advisory** | **PWP, LAZ, EVR, MC, HLI, PJT** | the candidate cluster — confirmed |
+| Insurance brokers | AON, AJG, BRO | tight separate cluster |
+| Asset managers | BX, KKR, TROW | alt + traditional manager bundle |
+| Bulge + broad financials | GS, MS, JPM, XLF, KBE, IWM, SPY | systemic financials block |
+| Standalone | SF | mid-IB; does not cluster |
+| Standalone | RJF | mid-IB; does not cluster |
+| Standalone | BEN | traditional asset manager outlier |
+
+The dendrogram boundary test is the cleanest result: the algorithm, given no prior label about which names are "boutique advisory," finds exactly the six proposed members and groups them at distance ~0.31 — well below the threshold and well below any inter-group merge.
+
+### Diagnostic 4 — PCA on the candidate cohort
+
+![[boutique-cluster-pca-1y.png]]
+
+*Left: scree plot of explained variance by component. Right: PC1 loadings — all 6 names load positively and near-equally.*
+
+| Component | Explained variance |
+|---|---|
+| PC1 | 77.5% |
+| PC2 | 7.8% |
+| PC3 | 5.5% |
+| PC4 | 4.4% |
+| PC5 | 3.2% |
+
+PC1 explains 77.5% of the cohort's daily-return variance. All six names load on PC1 with similar weights (0.38-0.43), meaning the equal-weighted basket is essentially the factor itself. PC2 (7.8%) and PC3 (5.5%) are noise — no meaningful sub-structure within the cluster. Translation: this is a single-factor cohort. Trading any one name against the basket isolates ~22% idiosyncratic noise; trading the basket isolates the cluster's common cyclical exposure cleanly.
+
+### Conclusions
+
+1. **The cluster is statistically real.** Intra-cluster correlation of 0.73 is +0.13 to +0.60 above all comparator groups. PC1 captures 77.5% of variance. Hierarchical clustering bounded at distance 0.4 returns exactly the six proposed members.
+2. **The cluster contains exactly these six names**: PWP, LAZ, EVR, MC, HLI, PJT. Mid-IBs (SF, RJF) and insurance brokers (AON, AJG, BRO) are mathematically separate, despite surface-taxonomy similarities.
+3. **The cluster's nearest neighbors are alt asset managers and broad financials ETFs** (~0.59 avg correlation) — same risk-on / deal-cycle systematic factor. The +0.13 gap reflects boutique-advisory-specific exposure on top of that systematic base.
+4. **The cluster is single-factor.** Equal-weighted basket ≈ PC1. Useful for pair trades (long basket vs short XLF to isolate boutique-advisory factor) and event-driven setups (cluster-wide print days as a cyclical-deal-cycle signal).
+
+---
+
 ## Related
 
 - [[Perella Weinberg Partners]] — active buyer ([[Gleacher Shacklock]] 2026, [[Devon Park]] 2025, [[Tudor Pickering Holt]] 2016)
