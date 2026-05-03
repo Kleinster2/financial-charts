@@ -3,7 +3,7 @@ aliases: [BRK, BRK.A, BRK.B]
 ---
 #actor #finance #insurance #conglomerate #usa #public
 
-**Berkshire Hathaway** — Warren Buffett's conglomerate. Insurance-funded investment vehicle.
+**Berkshire Hathaway** — Conglomerate built by Warren Buffett over 60 years; insurance-funded investment vehicle. Transitioned to [[Greg Abel]] as CEO at the start of 2026, with Buffett remaining as Chairman. The May 2, 2026 annual meeting was Abel's first as CEO and the first since the formal handover; Buffett took questions from the audience rather than the stage.
 
 ---
 
@@ -26,8 +26,9 @@ BRK-B trades as a core Financials name (XLF r = 0.72).
 |--------|-------|
 | Market cap | ~$1T |
 | Ticker | BRK.A, BRK.B |
-| Cash pile | ~$300B |
-| CEO | Warren Buffett (94) |
+| Cash + ST securities (Q1 2026) | $397.4B (record) |
+| CEO | [[Greg Abel]] (since Jan 2026) |
+| Chairman | Warren Buffett |
 
 ---
 
@@ -59,14 +60,55 @@ Float = $160B+ of investable capital at near-zero cost.
 
 ---
 
-## Succession
+## Succession (executed Jan 2026)
 
-**Post-Buffett leadership:**
-- Greg Abel — CEO successor (non-insurance)
-- Ajit Jain — Insurance operations
+The post-Buffett leadership transition formalized at the start of 2026:
+
+- [[Greg Abel]] — CEO (since Jan 2026), promoted from Vice Chairman of Non-Insurance
+- [[Ajit Jain]] — Vice Chairman of Insurance Operations
 - Ted Weschler, Todd Combs — Investment managers
+- Warren Buffett — remains Chairman of the Board
 
-Buffett still active at 94, but succession planned.
+The May 2, 2026 annual meeting was Abel's first as CEO. Buffett attended and answered audience questions, but the format change — Abel on stage, Buffett in the audience — was the public confirmation that the leadership transition is complete in fact, not just in name.
+
+---
+
+## Q1 2026 earnings — record cash, first buyback since May 2024 (May 2-3, 2026)
+
+Berkshire reported Q1 2026 alongside the May 2 annual meeting:
+
+| Metric | Q1 2026 | YoY |
+|---|---|---|
+| Operating earnings | $11.35B | +18% |
+| Net income | $10.1B | +120% (vs $4.6B Q1 2025; mark-to-market gains on equity portfolio) |
+| Cash, equivalents, ST securities | $397.4B | record (vs $373B YE2025; +$24B QoQ) |
+| Net stock sales (consecutive quarters) | 14 | continuing the de-risking pattern |
+| Stock buybacks | $234.2M | first buyback since May 2024 |
+| BRK.A repurchased | 33 shares at avg $729,701 | |
+| BRK.B repurchased | 431,462 shares at avg $486.92 | |
+
+The buyback restart matters disproportionately for what it signals: Buffett discontinued buybacks in May 2024 when he judged BRK above intrinsic value. The Q1 2026 buyback — small (~$234M against a ~$1T market cap) but explicit — is the first formal signal under the [[Greg Abel]] CEO regime that the new leadership views the stock as below intrinsic value at current levels (BRK.B $486 area). It also reads as a partial response to the cash-pile critique: the firm is now both selling stock (14 consecutive quarters of net equity sales) and buying its own — the spread funded by the equity sales pays for the modest buyback floor.
+
+---
+
+## May 2, 2026 — Greg Abel's first annual meeting
+
+Abel's first annual meeting as CEO addressed three structural questions investors had been waiting to hear answered in his own voice:
+
+| Topic | Abel's framing |
+|---|---|
+| Break-up / spin-offs | Ruled out. Stressed continuity with Buffett's legacy and the conglomerate structure as the operating philosophy, not a stage of corporate development. |
+| Large transformative M&A | No active pursuit. The $397B cash pile is not earmarked for a single transformative deal. |
+| AI deployment | "It has to be additive to our businesses. We're not going to do AI for the sake of AI." Narrow, value-creating use cases preferred over horizontal AI strategy. |
+| AI cybersecurity risk | Buffett deepfake circulating ahead of the meeting cited as a "great reminder" of the cyber-risk vector AI is opening across the franchise. |
+| Energy / data center demand | Berkshire Hathaway Energy utility could expand its data center footprint by ~50% over the next five years to serve hyperscaler demand, but Abel insisted the energy use of data centers must be "sequestered" — billed to the businesses driving demand, not socialized to grid consumers. |
+| Tech / railroad | AI implementation at [[BNSF]] and other operating businesses positioned as throughput / safety tooling, not as customer-facing platform plays. |
+
+The combined posture — no break-up, no transformative M&A, narrow AI deployment — telegraphs that BRK under [[Greg Abel]] will continue to look operationally like the BRK Buffett built. The single most material change vs the late-Buffett era is the buyback restart, which suggests Abel will calibrate capital return more dynamically than the 2024-25 freeze.
+
+The meeting is also relevant for the [[GameStop]] / [[eBay]] story breaking the day before: BRK is the only larger US cash-rich corporate balance sheet, and Abel's explicit "no transformative M&A" framing leaves the cash-rich-acquirer narrative wide open for [[Ryan Cohen]] at GME.
+
+---
 
 ---
 
@@ -107,15 +149,21 @@ More likely a combination: Reg FD removed information advantages, but size const
 |--------|-------|
 | Ticker | BRK.A, BRK.B |
 | Market cap | ~$1T |
-| Cash | ~$300B |
+| Cash + ST securities (Q1 2026) | $397.4B (record) |
 | Float | ~$160B |
+| CEO | [[Greg Abel]] (since Jan 2026) |
+| Chairman | Warren Buffett |
+| Q1 2026 operating earnings | $11.35B (+18% YoY) |
+| Q1 2026 buyback | $234.2M (first since May 2024) |
 
 *Created 2026-01-08*
+*Q1 2026 + May 2 annual meeting expansion 2026-05-03*
 
 ---
 
 ## Related
 
+- [[Greg Abel]] — CEO (since Jan 2026); first annual meeting May 2, 2026
 - [[Apple]] — largest equity holding
 - [[Bank of America]] — major holding
 - [[Progressive]] — competitor (auto)
@@ -127,4 +175,6 @@ More likely a combination: Reg FD removed information advantages, but size const
 - [[Buffett's Alpha]] — academic decomposition of Berkshire's returns
 - [[Regulation Fair Disclosure]] — competing explanation for post-2000 alpha decline
 - [[JPMorgan Chase]] — peer (financials)
+- [[BNSF]] — wholly-owned railroad subsidiary
+- [[GameStop]] — May 2026 acquisition contrast: BRK explicitly rules out transformative M&A while GME pursues [[eBay]]
 

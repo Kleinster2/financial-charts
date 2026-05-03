@@ -132,18 +132,54 @@ ILMN trades between Consumer and Software without a tight sector fit.
 
 ---
 
+## Q1 CY2026 earnings — beat across the board, FY guide raised (Apr 30, 2026)
+
+Illumina reported Q1 CY2026 after the close on April 30, 2026. The print beat the high end of the company's own guidance range on revenue, gross margin, and EPS, and management raised the FY2026 outlook for the second consecutive quarter. The standout was instrument momentum: more than 80 [[NovaSeq X]] units placed in the quarter, the highest pace of placements since the platform's 2023 launch.
+
+| Metric | Q1 CY2026 | Notes |
+|---|---|---|
+| Revenue | $1.09B | Above the high end of guidance |
+| Non-GAAP EPS | $1.15 | Above the high end of guidance |
+| Non-GAAP gross margin | 68.2% | +80 bps YoY (cost efficiencies + revenue scale, partly offset by tariffs) |
+| NovaSeq X placements | 80+ units | Highest quarterly pace since launch |
+| Clinical end-market growth | Double-digit (ex-[[China]]) | Drove the consumables beat |
+| Tariff impact | Partial gross-margin headwind | Quantified but absorbed |
+
+Updated FY2026 guidance:
+
+| Metric | Prior | Revised |
+|---|---|---|
+| Revenue (reported) | $4.50-4.60B | $4.52-4.62B (+$20M) |
+| Operating margin | n/a | 23.4-23.6% |
+| Non-GAAP diluted EPS | $5.05-5.20 | $5.15-5.30 (both ends +$0.10) |
+
+ILMN closed May 1 at $135.78, +7.1% from Apr 30 (+2.6σ on 60-day vol; β-adjusted). The reaction read as confirmation of the [[NovaSeq X]] transition narrative — high-throughput consumables on the new platform are now the volume base, not the legacy 6000, and the placement pace says clinical labs are committing capex despite the [[China]] headwind. The beat-and-raise also positioned ILMN as the clearest "transition complete" story in the diagnostics complex relative to peer prints. See [[Illumina securities]] for the price detail.
+
+The print's investability hinges on durability: management's FY guide assumes the consumable-mix lift continues and the [[China]] headwind stays contained at the disclosed tariff cost. Bear case is that the Q1 instrument pace was a pull-forward; bull case is that the cumulative installed base now compounds the consumables tail.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | ILMN |
 | 2025E revenue | ~$4.3B |
+| FY2026 revenue guide | $4.52-4.62B (raised May 1) |
+| FY2026 non-GAAP EPS guide | $5.15-5.30 (raised May 1) |
 | Market share | 80% NGS |
 | Focus | Sequencing platforms |
+| May 1, 2026 close | $135.78 (+7.1% from Apr 30) |
 
 ---
 
 ## Related
+
+### Securities
+
+- [[Illumina securities]] — ILMN price history and listing details
+
+### Sector / customers
 
 - [[Genomics]] — sector concept
 - [[10x Genomics]] — single-cell partner
@@ -157,5 +193,8 @@ ILMN trades between Consumer and Software without a tight sector fit.
 
 - [Illumina Q3 2025 Earnings](https://finance.yahoo.com/news/illumina-inc-ilmn-q3-2025-030148311.html)
 - [GenomeWeb Coverage](https://www.genomeweb.com/sequencing/illumina-raises-prices-response-tariffs-slashes-2025-revenue-guidance)
+- [Illumina Q1 CY2026 earnings transcript (Motley Fool)](https://www.fool.com/earnings/call-transcripts/2026/04/30/illumina-ilmn-q1-2026-earnings-transcript/)
+- [Illumina Q1 CY2026 results — StockStory](https://stockstory.org/us/stocks/nasdaq/ilmn/news/earnings/illumina-nasdaqilmn-posts-better-than-expected-sales-in-q1-cy2026)
 
 *Created 2026-01-09*
+*Q1 CY2026 expansion 2026-05-03*

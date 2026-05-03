@@ -147,8 +147,32 @@ Jason Mudrick (Mudrick Capital): Companies now have paperwork in place to quickl
 
 ---
 
+## May 1, 2026 — eBay acquisition bid (WSJ report)
+
+The [[Wall Street Journal]] reported on May 1, 2026 that GameStop is preparing a formal offer to acquire [[eBay]]. [[Ryan Cohen]] is using the company's roughly $9B cash and investments balance — up from $4.8B a year earlier — to attempt the largest acquisition in [[meme stocks|meme-stock]] history. GameStop has been quietly building a stake in eBay shares ahead of the offer, which could be submitted as soon as later in May; if eBay's board is unreceptive, Cohen has signaled he could take it directly to eBay shareholders.
+
+The bid is consistent with the [[Ryan Cohen]] compensation structure approved in January 2026 — nine performance-tied tranches with the most demanding requiring GameStop to reach a $100B market cap and generate $10B in cumulative EBITDA. Cohen's prior platform play ([[Chewy]], sold to PetSmart for $3.35B in 2017) gives the e-commerce vertical narrative a precedent. The [[Berkshire Hathaway]] $397.4B cash pile is the only larger US balance-sheet warchest currently sitting on a comparable acquisition mandate — but Berkshire under [[Greg Abel]] has explicitly ruled out break-up or large transformative M&A, leaving the cash-rich acquirer narrative wide open for Cohen.
+
+| Counterparty | Role | Status |
+|---|---|---|
+| GameStop | Bidder (cash $9B + Bitcoin $519M, market cap ~$10.4B) | Preparing offer; quietly accumulated eBay stake |
+| [[eBay]] | Target (~$36B market cap pre-news, +13.7% in extended trading May 1) | Not yet engaged; offer expected later in May |
+| [[Ryan Cohen]] | Architect (Chairman/CEO; $35B max-tier comp award) | Public posture: $100B GME mcap target |
+
+GME closed May 1 at $26.53, +6.3% from Apr 30 (+3.6σ on 60-day vol; β-adjusted) — the rally was largely an extended-hours move concentrated in eBay (+13-14% AH) rather than GME itself, since the cash use is widely seen as defensive (deploying meme-era cash before it earns a holding-company-discount applied by activists). The acquisition-currency question for GameStop — equity or cash — will determine whether the back-half-2026 thesis is "executed-platform pivot" or "$5B cash burn." See [[GameStop securities]] for the price detail.
+
+The deal would also test the [[Wall Street adaptation|institutional Wall Street adaptation]] thesis: Mudrick Capital's "lawyers advise pre-filed shelfs" advice from earlier in the year is now being read by eBay's deal counsel for the inverse — meme-driven stake accumulation is no longer just a retail flow phenomenon, it is now an M&A funding tool used by the cash-rich survivors.
+
+---
+
 ## Related
 
+- [[eBay]] — May 2026 acquisition target
+- [[Ryan Cohen]] — Chairman/CEO architect of the acquisition strategy
+- [[Wall Street Journal]] — May 1, 2026 source for the eBay bid story
+- [[Chewy]] — Cohen's prior platform exit ($3.35B sale to PetSmart 2017)
+- [[GameStop securities]] — GME price history and listing details
+- [[Berkshire Hathaway]] — only larger US cash-rich corporate; explicitly rules out transformative M&A
 - [[Robinhood]] — halted buying Jan 28, 2021; 90% of accounts from that day still active
 - [[Interactive Brokers]] — halted buying; Peterffy warns vulnerabilities unpatched
 - [[Citadel]] — $2B Melvin bailout; hedge fund returning $5B profit (early 2026)
@@ -161,5 +185,5 @@ Jason Mudrick (Mudrick Capital): Companies now have paperwork in place to quickl
 
 ---
 
-*Source: Barron's (Connor Smith), Jan 23 2026*
+*Source: Barron's (Connor Smith), Jan 23 2026; [[Wall Street Journal]] / [Fortune](https://fortune.com/2026/05/01/ebay-stock-gamestop-takeover-bid-ryan-cohen/) / [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-01/ebay-soars-on-report-that-gamestop-is-preparing-a-takeover-bid) May 1, 2026 — eBay bid story*
 *Created 2026-01-23*

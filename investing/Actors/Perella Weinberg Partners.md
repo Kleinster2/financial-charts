@@ -126,6 +126,25 @@ Merger partner: FinTech Acquisition Corp IV, a [[SPAC]] sponsor Betsy Cohen (Fin
 
 ---
 
+## Q1 2026 earnings — revenue -30% YoY, back-half guide (May 1, 2026)
+
+PWP reported Q1 2026 before the open on May 1. The print was the first material miss of the YTD outperformance run and confirmed the deal-cycle drag flagged across the [[Boutique advisory consolidation|boutique advisory cohort]]:
+
+| Metric | Q1 2026 | YoY |
+|---|---|---|
+| Revenue | $148.9M | -30% (vs $211.8M Q1 2025 record) |
+| Adjusted comp & benefits | $117.1M | -17.5% |
+| GAAP comp & benefits | $122.1M | -18.2% |
+| Adjusted EPS | $0.05 | vs $0.17 consensus |
+| Quarterly dividend | $0.07/share | unchanged |
+| Cash | $78M | no debt |
+
+Revenue declined on fewer fee-paying clients and lower closings across both M&A and financing/capital solutions, partially offset by higher average fee per client. Management commentary framed 2026 as "meaningfully back-half weighted" — closings deferred rather than lost. The [[Gleacher Shacklock]] integration (announced 2026-04-13) added five partners and three managing directors in the UK during the quarter; revenue contribution is back-half loaded. The dividend was held flat alongside the print.
+
+PWP closed May 1 at $20.61, -9.4% from Apr 30 (-4.2σ on 60-day vol; β-adjusted). The reaction read as expectations reset rather than thesis break: 2025 revenue of $750.9M had set a high bar, the senior-banker additions priced in stronger Q1 conversion, and the back-half-weighted tone deferred validation by 6 months. The [[Lazard]] Q1 print on the same day showed the same Financial Advisory dynamic — net revenue -4% as several large transactions slipped — confirming the deal-cycle drag is sector-wide, not PWP-specific. See [[Perella Weinberg Partners securities]] for the May 1 price detail.
+
+---
+
 ## Why PWP matters
 
 The firm is a test case for two theses:

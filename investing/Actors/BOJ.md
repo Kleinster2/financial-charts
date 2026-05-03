@@ -127,6 +127,39 @@ The pattern raises similar stability questions as the US Treasury case. If [[JGB
 
 *Source: BOJ, BIS, FT (Gillian Tett, Apr 3 2026)*
 
+---
+
+## May 1, 2026 — Yen FX intervention (~5.48 trillion yen / ~$35B)
+
+The trigger Ayako Fujita and Paul Dobson flagged on Apr 28 ("[[USDJPY]] drifting through 160 toward the 2024 intervention zone") materialized inside three trading days. On the morning of May 1, 2026 (April 30 Japan time, U.S. trading hours), [[USDJPY]] hit a 1-year high of 160.72 — breaching the level the [[Ministry of Finance]] / BOJ pair had tacitly defended in July 2024. Authorities intervened in size, buying yen and selling dollars, pushing the cross from 160 to ~155.5 in a matter of hours. By the Friday May 1 close, [[USDJPY]] settled around 157, with the yen up ~3% from the overnight 160 lows.
+
+| Metric | Value |
+|---|---|
+| Pre-intervention high | 160.72 (1-year high) |
+| Intervention size (BOJ accounts implied) | ~5.48 trillion yen / ~$34.5-35B |
+| 2024 July reference intervention | $36.8B |
+| USDJPY trough during intervention | ~155.5 |
+| USDJPY May 1 close | ~157 |
+| Yen move (peak to trough) | ~+3% |
+| Confirmation status | Finance Minister Katayama declined to comment May 3 from Samarkand, Uzbekistan |
+
+The pre-trigger sequence was the most explicit since 2024:
+
+1. **Apr 28**: Finance Minister [[Satsuki Katayama]] publicly stated authorities are "ready to take bold action" within 24 hours; warned reporters to "keep their smartphones nearby" through Golden Week.
+2. **Apr 30 (Japan time)**: BOJ held rates at 0.75% as expected. The hold left FX as the only available defense for the yen.
+3. **Apr 30/May 1**: USDJPY breached 160.72; intervention executed in U.S. trading hours.
+4. **May 1**: Yen rallied ~3%; Katayama warned of "more action" depending on conditions; explicitly confirmed close coordination with U.S. Treasury.
+5. **May 3 (Sunday)**: Katayama in Samarkand declined to officially confirm the operation, per BOJ/MOF protocol of waiting for delayed official data.
+
+The structural pressure points Fujita flagged on Apr 28 are all unchanged: the BOJ is hiking slowly while the [[Federal Reserve|Fed]] is not cutting; oil above $100 ([[2026 Strait of Hormuz crisis|Hormuz]]-driven) compounds Japan's terms-of-trade problem; energy-subsidy step-downs are still the unresolved political question; Golden Week liquidity thins through the holiday period. FX intervention is short- to medium-term and does not reverse the structural drivers of yen weakness — it buys time.
+
+Two positioning consequences for the vault:
+
+- The intervention validates Fujita's "if they try to contain currency pressure, all of this pressure will probably go to JGB side" framing. The 10-year [[JGB]] yield at 2.50% (1997 levels) is the next pressure-release valve. If the BOJ is constrained from hiking by [[2026 Strait of Hormuz crisis|Iran-conflict]] uncertainty and instead defends the yen with reserve assets, the long-end JGB sell pressure compounds.
+- The Trump-administration [[USDJPY]] / [[Ministry of Finance|MOF]] coordination is the new variable. Katayama's "extremely close contact with the United States" framing is a meaningful regime change vs the late-Yellen Treasury tolerance for unilateral interventions — Trump's currency-policy vector is more interventionist on bilateral trade dynamics, and the Japan FX defense will be read against that lens.
+
+*Sources: [Bloomberg](https://www.bloomberg.com/opinion/articles/2026-05-01/katayama-phone-warning-shows-yen-intervention-is-the-new-normal) / [Nikkei Asia](https://asia.nikkei.com/business/markets/currencies/japan-launches-fx-intervention-briefly-pushing-yen-to-155-from-160) / [CNBC](https://www.cnbc.com/2026/05/01/japanese-fx-intervention-wipes-out-yens-iran-war-losses.html) / [Japan Times](https://www.japantimes.co.jp/business/2026/05/03/markets/katayama-no-comment-intervention/) — May 1-3, 2026.*
+
 ## Related
 
 - [[Japan]]
@@ -143,6 +176,10 @@ The pattern raises similar stability questions as the US Treasury case. If [[JGB
 - [[ECB]]
 - [[Vanguard]]
 - [[Sanae Takaichi]]
+- [[Satsuki Katayama]] — Finance Minister; May 1, 2026 intervention public face
+- [[Ministry of Finance]] — counterpart for FX operations
+- [[USDJPY]] — May 1 intervention reference cross
+- [[2026 Strait of Hormuz crisis]] — oil-shock channel driving yen weakness
 
 ### Cross-vault
 - [Geopolitics: Japan](obsidian://open?vault=geopolitics&file=Actors%2FJapan) — institutional dynamics, BOJ independence, MOF relationship
