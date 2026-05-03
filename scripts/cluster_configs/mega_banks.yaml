@@ -1,0 +1,25 @@
+# Mega banks cluster — largest US universal / diversified banks
+# Hypothesis: GS/MS (investment banks) likely sub-split from JPM/BAC/C/WFC (universal banks).
+# USB is the smallest of the major commercial banks; may cluster with regionals (KRE).
+name: Mega banks
+primary: JPM
+prefix: mega-banks-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [JPM, BAC, C, WFC, USB]
+  invest_banks:
+    color: "#7E57C2"
+    tickers: [GS, MS]
+  regional_proxy:
+    color: "#FF6F00"
+    tickers: [KRE]
+  ins_carrier_control:
+    color: "#26A69A"
+    tickers: [PGR, CB, TRV]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

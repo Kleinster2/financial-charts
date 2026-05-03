@@ -1,0 +1,24 @@
+# P&C insurance carriers — surfaced as a sub-cluster within the broader Insurance carriers test
+# Hypothesis: PGR/CB/TRV/ALL/HIG cluster tightly; differs from life insurance (MET, PRU)
+name: P&C insurance carriers
+primary: TRV
+prefix: pc-carriers-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [PGR, CB, TRV, ALL, HIG]
+  life_carriers:
+    color: "#7E57C2"
+    tickers: [MET, PRU]
+  ins_brokers:
+    color: "#FF6F00"
+    tickers: [WTW, AJG, AON, BRO, MMC]
+  banks:
+    color: "#FFA726"
+    tickers: [JPM, BAC, WFC]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

@@ -1,0 +1,22 @@
+# Insurance carriers cluster — P&C and life insurance underwriters
+# Sibling validation to Insurance brokers basket. Tests whether carriers form their own factor.
+# Hypothesis: P&C carriers (PGR, CB, TRV, ALL, AIG, HIG) likely cluster; life (MET, PRU) may sub-split.
+name: Insurance carriers
+primary: PGR
+prefix: ins-carriers-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [PGR, CB, TRV, ALL, MET, PRU, AIG, HIG]
+  ins_brokers:
+    color: "#7E57C2"
+    tickers: [WTW, AJG, AON, BRO, MMC]
+  banks:
+    color: "#FF6F00"
+    tickers: [JPM, BAC, WFC]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

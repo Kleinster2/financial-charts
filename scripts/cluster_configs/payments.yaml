@@ -1,0 +1,20 @@
+# Payments cluster — public US payment networks, processors, and fintechs
+# Hypothesis: V/MA (networks) form tight pair; AXP (network+issuer) related but distinct;
+# COF (issuer/bank), FIS/FISV (processors), PYPL/SHOP (digital wallets/commerce) likely each own factor.
+# Test whether "payments" is a cluster or 3-4 sub-factors.
+name: Payments
+primary: V
+prefix: payments-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [V, MA, AXP, PYPL, FIS, FISV, COF, SHOP]
+  banks_control:
+    color: "#7E57C2"
+    tickers: [JPM, BAC, WFC]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, XLK, SPY]

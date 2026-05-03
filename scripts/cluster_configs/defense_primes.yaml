@@ -1,0 +1,22 @@
+# Defense primes cluster — public US defense contractors (DoD-customer)
+# Hypothesis: structural-economic grouping (same customer, same end-market, same regulatory environment)
+# typically validates. Likely tight cluster, possibly with BA decoupling (commercial aerospace exposure).
+name: Defense primes
+primary: LMT
+prefix: defense-primes-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [LMT, RTX, NOC, GD, HII, LHX, LDOS]
+  aerospace_dual:
+    color: "#7E57C2"
+    tickers: [BA]  # commercial+defense aerospace; control to test decoupling
+  industrials:
+    color: "#FF6F00"
+    tickers: [HON, CAT, DE]
+  etf:
+    color: "#9E9E9E"
+    tickers: [ITA, XLI, SPY]

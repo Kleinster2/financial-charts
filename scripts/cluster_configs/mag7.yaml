@@ -1,0 +1,23 @@
+# Mag 7 cluster — the seven largest US tech / mega-cap names traded as a single concept
+# Hypothesis: from prior hyperscaler test (MSFT/GOOGL/AMZN/META/ORCL intra-corr 0.29) we already know
+# subsets of Mag 7 don't cluster. NVDA likely co-moves with AICX cluster, TSLA is its own beast.
+# Test whether Mag 7 has any cluster structure or is just a media construct.
+name: Mag 7
+primary: NVDA
+prefix: mag7-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA]
+  ai_capex_chain:
+    color: "#7E57C2"
+    tickers: [TSM, ASML, AMAT, KLAC, LRCX, MU]
+  semi_other:
+    color: "#FF6F00"
+    tickers: [AMD, AVGO]
+  etf:
+    color: "#9E9E9E"
+    tickers: [QQQ, XLK, SMH, SPY]
