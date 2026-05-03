@@ -128,6 +128,87 @@ That is the layer this concept is trying to isolate.
 
 ---
 
+## Cluster validation — partial confirmation, sub-structure revealed (May 2026)
+
+Re-validation of the SCP "structural core" using the standardized procedure (`scripts/cluster_analysis.py --config scripts/cluster_configs/scp.yaml`, full procedure in `docs/cluster-validation.md`) with a wider control universe including cyber adjacencies (OKTA, S, DDOG, MDB, AKAM), cyber periphery (QLYS, RPD, TENB), broad software (SNOW, VEEV, MSFT), and software/broad ETFs (IGV, XLK, SPY).
+
+**Result: moderate cluster, partial validation.** Intra-cluster correlation 0.57 (consistent with the prior 60d/90d/120d analysis showing 0.55/0.49/0.47). PC1 explained variance 64.8% — above the 50% multi-factor floor but below the 70% strong-cohort line. Hierarchical clustering at 0.4 threshold reveals significant sub-structure: only 3 of the 6 candidate names form a tight algorithmic cluster (CRWD, PANW, ZS), and the algorithm pulls in adjacencies (OKTA, S, TENB, SNOW, IGV) instead of including the other 3 (FTNT, NET, RBRK as standalones).
+
+### Headline numbers (1Y, 2025-04-30 to 2026-04-30)
+
+| Diagnostic | Result | Interpretation |
+|---|---|---|
+| Avg intra-cluster correlation | **0.574** (range 0.45-0.75) | Moderate cohesion |
+| Tightest pairs | CRWD-PANW = 0.75, CRWD-ZS = 0.75 | Three-name "platform cyber" sub-core |
+| Loosest pair | FTNT-NET = 0.45 | Below the 0.50 floor — these don't co-move much |
+| Hierarchical clustering at 0.4 | 3 of 6 names cluster (CRWD, PANW, ZS); others standalone | Boundary not clean |
+| PCA — PC1 explained variance | **64.8%** | Dominant single factor but not single-factor cohort |
+| PC1 loadings | 0.38-0.46 (all positive) | Reasonably equal-weight; no inverted loadings |
+
+### Pairwise correlations within the candidate cluster
+
+|     | CRWD | FTNT | NET | PANW | RBRK | ZS |
+|---|---|---|---|---|---|---|
+| CRWD | — | 0.58 | 0.65 | 0.75 | 0.58 | 0.75 |
+| FTNT | 0.58 | — | 0.45 | 0.64 | 0.49 | 0.48 |
+| NET | 0.65 | 0.45 | — | 0.52 | 0.48 | 0.54 |
+| PANW | 0.75 | 0.64 | 0.52 | — | 0.51 | 0.63 |
+| RBRK | 0.58 | 0.49 | 0.48 | 0.51 | — | 0.56 |
+| ZS | 0.75 | 0.48 | 0.54 | 0.63 | 0.56 | — |
+
+The correlation structure reveals a tight three-name sub-core (CRWD-PANW-ZS at 0.63-0.75) and a looser tier (FTNT, NET, RBRK at 0.45-0.65 with each other and the core).
+
+### Hierarchical clustering result (threshold 0.4)
+
+![[scp-cluster-dendrogram-1y.png]]
+
+| Cluster | Members |
+|---|---|
+| **Algorithmic cyber-software cluster** | **CRWD, PANW, ZS, OKTA, S, TENB, SNOW, IGV** |
+| Broad market | XLK + SPY (correlation ~0.99) |
+| Standalone | FTNT, NET, RBRK, DDOG, MDB, MSFT, VEEV, AKAM, QLYS, RPD |
+
+The algorithm pulls 5 names that were NOT in the candidate cohort (OKTA, S, TENB, SNOW, IGV) into the cluster, and excludes 3 candidates (FTNT, NET, RBRK) as standalones. Translation:
+
+- **The market currently views CRWD, PANW, ZS as a coherent "platform cyber" cluster** — the three names with broad multi-product platforms (endpoint + cloud + network).
+- **OKTA, S, TENB get pulled in** — identity (OKTA), AI-native endpoint (S), vulnerability management (TENB) trade with the platform-cyber core, contradicting the SCP note's earlier separation of these as "frequent adjacencies."
+- **FTNT, NET, RBRK are NOT in the algorithmic cluster** at this threshold:
+  - FTNT (Fortinet) trades more idiosyncratically — appliance / network-policy installed base behaves differently from the platform-cyber names.
+  - NET (Cloudflare) has edge / CDN exposure that pulls it away from pure cyber co-movement.
+  - RBRK (Rubrik) is the data-protection / recovery name — different end-market and a 2024 IPO with thinner correlation history.
+- **SNOW and IGV pulling in** suggests the "cluster" is really a broader "growth software" + cyber-platform sub-set, not a pure cyber control-points cluster.
+
+### Group-pair correlations
+
+| Group pair | Avg pairwise corr | Cluster's intra-advantage |
+|---|---|---|
+| Cluster (intra) | 0.574 | — |
+| Cluster vs cyber adjacent (OKTA, S, DDOG, MDB, AKAM) | 0.466 | +0.107 |
+| Cluster vs broad software (SNOW, VEEV, MSFT) | 0.462 | +0.112 |
+| Cluster vs broad ETFs (IGV, XLK, SPY) | 0.478 | +0.096 |
+| Cluster vs cyber periphery (QLYS, RPD, TENB) | 0.420 | +0.154 |
+
+The intra advantages are small (+0.10 to +0.15) — the SCP cluster does not separate cleanly from any comparator group. Compare to ALTM (+0.18 to +0.63 across all comparators) and boutique advisory (+0.13 to +0.60). The SCP cluster trades with the broader software complex about as much as with itself.
+
+### Interpretation — what the math is saying
+
+The SCP concept is structurally valid but is currently expressed in the market as a tighter 3-name platform-cyber sub-cluster (CRWD, PANW, ZS) with OKTA/S/TENB pulled in. The original 6-name "structural core" derivation (60d/90d/120d windows in `scripts/cluster_movers.py`) was correct that *something* is grouping cyber names — but the boundary varies by window and threshold:
+
+- **At 0.4 threshold (1Y window)**: 3 candidates cluster + 3 candidates standalone + 5 non-candidates pulled in → the cluster as defined fails the boundary test.
+- **At looser thresholds or shorter windows** (60d): the 6-name original core appears more cohesive.
+- **PC1 64.8%** says there IS a dominant factor, but it is shared with broader growth software — not unique to security control points.
+
+The honest revision: the durable structural cluster on a 1Y horizon is **CRWD-PANW-ZS as the platform-cyber tight core**, with OKTA/S/TENB as nearest-neighbor adjacencies, and FTNT/NET/RBRK as related-but-not-co-moving names that justify their own separate analysis (different business models — appliance, edge, recovery).
+
+### What this means for the vault
+
+- **The 3-name tight core (CRWD-PANW-ZS) is tradable as a basket** — intra-corr 0.71, single-factor.
+- **The 6-name "structural core" is a thesis grouping, not a tradable basket.** Pair trades within FTNT/NET/RBRK vs the platform-cyber core are likely to capture the business-model differential rather than systematic AI-disruption / control-points factor.
+- **Re-run with 60d window for the original derivation context.** The note's 0.46-0.54 readings on 60-day windows are a different signal than the 1Y validation; both can coexist if the SCP cohesion is regime-dependent (tighter under sector stress).
+- **Sub-cluster the SCP analysis going forward**: tight platform-cyber (CRWD/PANW/ZS), edge-adjacent (NET), appliance/network (FTNT), data-protection (RBRK). Each merits its own framing.
+
+---
+
 ## Related
 
 - [[Cybersecurity]]

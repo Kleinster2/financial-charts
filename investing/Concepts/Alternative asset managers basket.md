@@ -83,6 +83,66 @@ Watch for:
 
 ---
 
+## Cluster validation — statistical analysis (May 2026)
+
+The ALTM basket was originally constructed from a single-event catalyst (Feb 2-5 2026 SaaSpocalypse Wave 1). Cluster validation tests whether the six names continue to behave as a structural cluster on a 1-year window, distinct from adjacent-sector controls. Script: `scripts/cluster_analysis.py --config scripts/cluster_configs/altm.yaml`. Full procedure in `docs/cluster-validation.md`.
+
+**Result: validated.** ALTM is a tighter cluster than the boutique advisory cohort — intra-corr 0.76 (vs 0.73 for boutique), PC1 80.1% explained variance (vs 77.5%). Hierarchical clustering at 0.4 threshold returns exactly the six basket names without prompting.
+
+### Headline numbers (1Y, 2025-04-30 to 2026-04-30)
+
+| Diagnostic | Result | Interpretation |
+|---|---|---|
+| Avg intra-cluster correlation | **0.761** (range 0.68-0.85) | Strong cohesion; tighter than boutique advisory |
+| Tightest pair | KKR-BX = 0.85 | The two largest publicly-listed alts trade as twins |
+| Loosest pair | APO-BAM = 0.68 | Still well above any inter-group benchmark |
+| Hierarchical clustering at 0.4 | All 6 merge in single cluster | Boundary confirmed — no extras pulled in, no candidates dropped |
+| PCA — PC1 explained variance | **80.1%** | Single dominant factor; equal-weighted basket = factor |
+| PC1 loadings | 0.39-0.42 (all positive) | Near-equal loading; no within-cluster outliers |
+
+### Group-pair correlations (cluster vs neighbors)
+
+| Group pair | Avg pairwise corr | Cluster's intra-advantage |
+|---|---|---|
+| Cluster (intra) | 0.761 | — |
+| Cluster vs traditional asset mgrs (BLK, TROW, BEN) | 0.576 | +0.184 |
+| Cluster vs boutique advisory (PWP, EVR, LAZ, MC) | 0.566 | +0.195 |
+| Cluster vs broad financials ETFs (XLF, SPY) | 0.558 | +0.203 |
+| Cluster vs bulge brackets (GS, MS, JPM) | 0.447 | +0.314 |
+| Cluster vs REIT proxies (XLRE, VNQ) | 0.297 | +0.463 |
+| Cluster vs insurance brokers (AON) | 0.136 | +0.625 |
+
+The largest within-financials-complex separation is from bulge brackets (+0.31). This is the most analytically important finding: ALTM trades with a clearly different factor than the integrated banks despite both being financial-services. Insurance brokers (+0.63) and REIT proxies (+0.46) round out the distance hierarchy — the further from "originator-economics business model," the lower the correlation.
+
+### Hierarchical clustering result (threshold 0.4)
+
+![[altm-cluster-dendrogram-1y.png]]
+
+| Cluster | Members |
+|---|---|
+| **Alt asset managers (ALTM)** | **ARES, KKR, OWL, BX, APO, BAM** |
+| REIT proxies | XLRE, VNQ (correlation 0.99 with each other) |
+| Broad financials block | BLK, PWP, LAZ, EVR, MC, GS, MS, JPM, XLF, SPY |
+| Standalone | AON (insurance broker), TROW, BEN (traditional managers) |
+
+Two notable findings:
+
+- **BLK clusters with broad financials, not ALTM.** Despite being included in `trad_mgr` controls, BlackRock trades more with bulge brackets / XLF / SPY than with the alt managers. Confirms that BLK's passive/index-heavy mix and capital-light business model puts it in a different factor than the alt-manager originate-and-hold model.
+- **TROW and BEN are standalones** at the 0.4 threshold — neither clusters with BLK nor ALTM. Traditional active managers face their own structural pressure (passive flows, fee compression) and trade idiosyncratically.
+
+### PCA on the candidate cohort
+
+PC1 = **80.1%** of variance. PC2 = 5.8%. PC3 = 5.1%. The cohort is overwhelmingly single-factor — even more so than boutique advisory (77.5%). Loadings are tight (0.39-0.42, all positive), meaning the equal-weighted basket is essentially the factor itself. Pair-trading any one ALTM name vs the basket isolates ~20% idiosyncratic noise; trading the basket cleanly isolates the alt-manager systematic factor.
+
+### Conclusions
+
+1. **ALTM is real, tight, and stable.** Original basket (constructed from a single event in Feb 2026) holds up as a structural cluster on a full year of post-construction data. PC1 80.1% is among the tightest single-factor cohorts in the vault.
+2. **Cluster contains exactly these six names**: ARES, KKR, OWL, BX, APO, BAM. BLK does not belong (passive-heavy mix). Bulge brackets are the most distant within-financials comparator (+0.31 advantage).
+3. **The cluster is tradable as a basket.** Equal-weighted ALTM ≈ PC1. Useful for: (a) long basket vs short XLF to isolate alt-manager factor (clean +0.20 spread), (b) event-driven setups when a single alt manager prints — read-through to others is high (avg 0.76 correlation), (c) AI-disruption stress tests — original Feb 3-5 catalyst pattern is mathematically replicable.
+4. **The +0.63 separation from insurance brokers** parallels the boutique advisory finding — both clusters are about deal-cycle / origination economics, not generic financial-services beta. AON-type fee businesses operate on a different factor entirely.
+
+---
+
 ## Related
 
 - [[AI financial disintermediation basket]] — the real intermediation targets
@@ -91,9 +151,11 @@ Watch for:
 - [[PE software talent drain]] — the deeper reason ALTM sold off: PE portfolio software risk
 - [[Alternative asset manager]] — concept note
 - [[Alternative Managers]] — sector note
+- [[Boutique advisory consolidation]] — adjacent cluster, similarly validated (May 2026)
 - [[Claude Cowork disruption February 2026]] — Wave 1 catalyst that hit ALTM
 - [[Ares Management]] — highest-weight constituent
 - [[KKR]] — second-highest weight
 - [[Blackstone]] — largest AUM constituent
 
 *Created 2026-02-11*
+*Cluster validation 2026-05-03 — `scripts/cluster_configs/altm.yaml`, intra-corr 0.76, PC1 80.1%, hierarchical clustering at 0.4 returns the 6 candidate names*

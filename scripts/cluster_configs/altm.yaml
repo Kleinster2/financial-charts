@@ -1,0 +1,30 @@
+# Alternative asset managers basket (ALTM) — public alternative-asset-management firms
+# Constituents from investing/Concepts/Alternative asset managers basket.md (move-weighted from Feb 2-5 2026 SaaSpocalypse)
+name: Alternative asset managers basket (ALTM)
+primary: BX  # Blackstone — largest by AUM
+prefix: altm-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [ARES, KKR, OWL, BX, APO, BAM]
+  trad_mgr:
+    color: "#FFA726"
+    tickers: [BLK, TROW, BEN]
+  bulge:
+    color: "#000000"
+    tickers: [GS, MS, JPM]
+  boutique_adv:
+    color: "#7E57C2"
+    tickers: [PWP, EVR, LAZ, MC]
+  ins_brk:
+    color: "#26A69A"
+    tickers: [AON]
+  reit_proxy:
+    color: "#AB47BC"
+    tickers: [XLRE, VNQ]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

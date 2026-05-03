@@ -1,0 +1,21 @@
+# AI hyperscalers cluster — public cloud-platform companies whose capex drives the AI semiconductor stack
+# Cohort from investing/Concepts/AI hyperscalers.md (Tier 1 + Tier 2 public hyperscalers)
+name: AI hyperscalers
+primary: MSFT
+prefix: hyperscalers-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [MSFT, GOOGL, AMZN, META, ORCL]
+  mag7_other:
+    color: "#7E57C2"
+    tickers: [AAPL, NVDA, TSLA]
+  enterprise_sw:
+    color: "#FF6F00"
+    tickers: [CRM, IBM]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLK, QQQ, SMH, XLC, SPY]

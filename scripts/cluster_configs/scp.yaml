@@ -1,0 +1,25 @@
+# Security control points (SCP) cluster — cyber names sitting at policy / telemetry / recovery control surfaces
+# Cohort from investing/Concepts/Security control points.md (structural core from 60/90/120d cluster persistence)
+# Original derivation in scripts/cluster_movers.py; this re-validates with the standardized procedure
+name: Security control points (SCP)
+primary: CRWD
+prefix: scp-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [CRWD, FTNT, NET, PANW, RBRK, ZS]
+  cyber_adjacent:
+    color: "#7E57C2"
+    tickers: [OKTA, S, DDOG, MDB, AKAM]
+  cyber_periphery:
+    color: "#26A69A"
+    tickers: [QLYS, RPD, TENB]
+  broad_software:
+    color: "#FF6F00"
+    tickers: [SNOW, VEEV, MSFT]
+  etf:
+    color: "#9E9E9E"
+    tickers: [IGV, XLK, SPY]

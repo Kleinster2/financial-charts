@@ -63,6 +63,57 @@ See individual actor notes for details.
 
 ---
 
+## Cluster validation — failed cluster test (May 2026)
+
+The AI hyperscalers cohort is a CONCEPT/THESIS hub (capex drives semi demand), NOT a tradable cluster. The math falsifies the cluster interpretation while the thesis remains intact. Validated 2026-05-03 via `scripts/cluster_analysis.py --config scripts/cluster_configs/hyperscalers.yaml`. Full procedure in `docs/cluster-validation.md`.
+
+### Result: math says no
+
+| Diagnostic | Result | Verdict |
+|---|---|---|
+| Avg intra-cluster correlation (1Y) | **0.29** (range 0.11-0.49) | Weak — fails the 0.50 floor |
+| PC1 explained variance | **43.5%** | Multi-factor — fails the 50% floor |
+| Hierarchical clustering at 0.4 | All 5 names are SINGLETONS — no cluster forms | Falsified |
+| Cluster vs broad ETFs (XLK/QQQ/SMH/SPY) | 0.48 — *higher* than intra-cluster | Names trade with broad market more than each other |
+| Cluster vs other Mag 7 (AAPL/NVDA/TSLA) | 0.30 — *higher* than intra-cluster | Names trade with non-hyperscaler tech as much as with each other |
+
+### Pairwise correlations (1Y)
+
+|     | MSFT | GOOGL | AMZN | META | ORCL |
+|---|---|---|---|---|---|
+| MSFT | — | 0.17 | 0.34 | 0.27 | 0.37 |
+| GOOGL | 0.17 | — | 0.41 | 0.35 | 0.15 |
+| AMZN | 0.34 | 0.41 | — | 0.49 | 0.11 |
+| META | 0.27 | 0.35 | 0.49 | — | 0.20 |
+| ORCL | 0.37 | 0.15 | 0.11 | 0.20 | — |
+
+Tightest pair: AMZN-META at 0.49 — still below cluster-floor. ORCL is the most disconnected (avg 0.21 with the rest), reflecting its legacy database core + 2025-26 [[OpenAI]] / Stargate partnership idiosyncratic re-rating. MSFT-GOOGL at 0.17 is barely above noise — surprising given the surface narrative of "hyperscaler capex peers."
+
+### Why the math falsifies the cluster
+
+Hyperscalers share a common AI-capex driver but each has its own dominant idiosyncratic factor at the equity level:
+
+| Name | Dominant idiosyncratic factor that overwhelms hyperscaler co-movement |
+|---|---|
+| MSFT | Cloud-wars share, [[OpenAI]] partnership terms, Copilot monetization |
+| GOOGL | Search monetization vs AI-answer cannibalization, antitrust (Search remedy) |
+| AMZN | E-commerce margins, AWS share losses to Azure, retail-vs-cloud weighting |
+| META | Ad market exposure, Reels/TikTok competition, Reality Labs burn |
+| ORCL | Database modernization, Stargate / [[OpenAI]] hosting deal, legacy ERP base |
+
+Each name is more sensitive to its own product cycle than to the shared capex pattern. The capex itself is highly correlated (all 5 spending more on AI infrastructure each quarter), but the equity returns are not.
+
+### What this means for the vault
+
+- **The thesis ("hyperscaler capex drives the semi stack") is intact.** The chain MSFT/GOOGL/AMZN/META/ORCL → NVIDIA → TSMC → SK Hynix → ASE / Cohu is structurally valid as a demand-flow narrative.
+- **The cohort is NOT a tradable cluster basket.** Equal-weighted basket would not isolate "hyperscaler factor" — it would dilute idiosyncratic noise across 5 unrelated stories.
+- **Trade the chain, not the cohort.** Long [[NVIDIA]] / [[TSMC]] / [[SK Hynix]] / [[Broadcom]] is a cleaner expression of the hyperscaler-capex thesis than long the hyperscalers themselves. Those names share a common end-demand factor and likely cluster more tightly (worth validating separately).
+- **Do not construct a "hyperscaler basket" trade.** Pair-trades within the cohort (long X / short Y) are noise — the names don't share enough common factor for the residual to mean anything.
+
+This is a textbook cluster-validation outcome: the procedure is just as valuable when it falsifies a cluster as when it confirms one. The honest finding is the value-add.
+
+---
+
 ## Related
 
 - [[Hyperscaler capex]] — detailed capex analysis, chart, forecasts
