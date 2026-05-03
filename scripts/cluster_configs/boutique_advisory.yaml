@@ -1,0 +1,31 @@
+# Boutique advisory cluster — public independent investment-advisory firms
+# Validated 2026-05-03: intra-corr 0.73, PC1 77.5%, hierarchical clustering returns
+# exactly the 6 candidate names. See investing/Concepts/Boutique advisory consolidation.md.
+name: Boutique advisory
+primary: PWP
+prefix: boutique-cluster
+threshold: 0.4
+window_end: 2026-04-30  # remove this line to use latest weekday automatically
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [PWP, LAZ, EVR, MC, HLI, PJT]
+  bulge:
+    color: "#000000"
+    tickers: [GS, MS, JPM]
+  mid_ib:
+    color: "#7E57C2"
+    tickers: [SF, RJF]
+  alt_mgr:
+    color: "#FF6F00"
+    tickers: [BX, KKR]
+  trad_mgr:
+    color: "#FFA726"
+    tickers: [TROW, BEN]
+  ins_brk:
+    color: "#26A69A"
+    tickers: [AON, AJG, BRO]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, KBE, IWM, SPY]

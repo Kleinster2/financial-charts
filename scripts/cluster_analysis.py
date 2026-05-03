@@ -1,25 +1,47 @@
-"""Cluster analysis for boutique advisory cohort.
+"""Cluster validation for vault actor notes.
 
-Tests whether PWP, LAZ, EVR, MC, HLI, PJT constitute a statistical cluster
-distinct from bulge brackets, mid-IBs, asset managers, insurance brokers, and
-broad financials ETFs.
+Tests whether a candidate cohort of public-company tickers constitutes a
+statistically distinct cluster, and what exactly the cluster contains, using
+three diagnostics on daily log returns:
 
-Three diagnostics:
-  1. Pairwise daily-return correlation matrix
-  2. Hierarchical clustering with 1-correlation distance
-  3. PCA loadings on the candidate cohort
+  1. Pairwise return correlation matrix (heatmap, 1Y + 2Y windows)
+  2. Hierarchical clustering with 1-|corr| distance (dendrogram)
+  3. PCA on the candidate cohort (scree + PC1 loadings)
 
-Outputs:
-  investing/attachments/boutique-cluster-correlation-1y.png
-  investing/attachments/boutique-cluster-correlation-2y.png
-  investing/attachments/boutique-cluster-dendrogram-1y.png
-  investing/attachments/boutique-cluster-pca-1y.png
-  investing/attachments/boutique-cluster-results.txt  (text summary)
+Usage:
+  python scripts/cluster_analysis.py --config scripts/cluster_configs/boutique_advisory.yaml
+  python scripts/cluster_analysis.py --primary PWP  # auto-loads scripts/cluster_configs/pwp.yaml
+
+YAML config schema (see scripts/cluster_configs/boutique_advisory.yaml for full example):
+  name: Boutique advisory
+  primary: PWP                   # optional; used in output prefix if --prefix not set
+  prefix: boutique-cluster       # output filename stem
+  threshold: 0.4                 # dendrogram cut threshold (1-|corr| distance)
+  window_end: 2026-04-30         # optional; defaults to latest weekday
+  groups:
+    cluster:
+      color: "#2962FF"           # cluster always blue per actor convention
+      tickers: [PWP, LAZ, EVR, MC, HLI, PJT]
+    <other_group_name>:
+      color: "#000000"
+      tickers: [GS, MS, JPM]
+
+Outputs (saved to investing/attachments/{prefix}-*.png and -results.txt):
+  {prefix}-correlation-1y.png
+  {prefix}-correlation-2y.png
+  {prefix}-dendrogram-1y.png
+  {prefix}-pca-1y.png
+  {prefix}-results.txt
+
+See docs/cluster-validation.md for the full standard, when to run, and how to
+interpret the output.
 """
 
 from __future__ import annotations
 
+import argparse
 import sqlite3
+from datetime import date, timedelta
 from pathlib import Path
 
 import matplotlib
@@ -29,6 +51,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import yaml
 from scipy.cluster.hierarchy import dendrogram, fcluster, linkage
 from scipy.spatial.distance import squareform
 from sklearn.decomposition import PCA
@@ -36,76 +59,92 @@ from sklearn.decomposition import PCA
 ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / "market_data.db"
 ATT = ROOT / "investing" / "attachments"
+CONFIG_DIR = Path(__file__).resolve().parent / "cluster_configs"
 ATT.mkdir(parents=True, exist_ok=True)
 
-UNIVERSE = {
-    "cluster": ["PWP", "LAZ", "EVR", "MC", "HLI", "PJT"],
-    "bulge": ["GS", "MS", "JPM"],
-    "mid_ib": ["SF", "RJF"],
-    "alt_mgr": ["BX", "KKR"],
-    "trad_mgr": ["TROW", "BEN"],
-    "ins_brk": ["AON", "AJG", "BRO"],
-    "etf": ["XLF", "KBE", "IWM", "SPY"],
-}
 
-GROUP_COLORS = {
-    "cluster": "#2962FF",
-    "bulge": "#000000",
-    "mid_ib": "#7E57C2",
-    "alt_mgr": "#FF6F00",
-    "trad_mgr": "#FFA726",
-    "ins_brk": "#26A69A",
-    "etf": "#9E9E9E",
-}
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    p.add_argument("--config", type=Path, help="Path to YAML config file")
+    p.add_argument("--primary", help="Primary actor ticker; auto-loads scripts/cluster_configs/{ticker.lower()}.yaml")
+    p.add_argument("--prefix", help="Override output prefix")
+    p.add_argument("--threshold", type=float, help="Override dendrogram cut threshold")
+    return p.parse_args()
 
 
-def load_returns(window_start: str, window_end: str = "2026-04-30") -> pd.DataFrame:
-    """Return daily-return DataFrame for all tickers, columns=ticker."""
-    tickers = [t for tks in UNIVERSE.values() for t in tks]
+def resolve_config(args: argparse.Namespace) -> dict:
+    if args.config:
+        path = args.config
+    elif args.primary:
+        path = CONFIG_DIR / f"{args.primary.lower()}.yaml"
+    else:
+        raise SystemExit(
+            "Provide --config PATH or --primary TICKER (auto-loads scripts/cluster_configs/{ticker}.yaml)"
+        )
+    if not path.exists():
+        raise SystemExit(f"Config not found: {path}")
+    with path.open("r", encoding="utf-8") as f:
+        cfg = yaml.safe_load(f)
+    if args.prefix:
+        cfg["prefix"] = args.prefix
+    if args.threshold is not None:
+        cfg["threshold"] = args.threshold
+    cfg.setdefault("threshold", 0.4)
+    if "prefix" not in cfg:
+        primary = cfg.get("primary") or args.primary
+        if not primary:
+            raise SystemExit("Config must include 'prefix' or 'primary'")
+        cfg["prefix"] = f"{primary.lower()}-cluster"
+    return cfg
+
+
+def latest_weekday() -> str:
+    d = date.today()
+    while d.weekday() >= 5:
+        d -= timedelta(days=1)
+    return d.isoformat()
+
+
+def load_returns(universe: dict, window_start: str, window_end: str) -> pd.DataFrame:
+    tickers = [t for grp in universe.values() for t in grp["tickers"]]
     placeholders = ",".join("?" for _ in tickers)
     sql = (
         "SELECT Date, Ticker, Close FROM prices_long "
-        f"WHERE Ticker IN ({placeholders}) "
-        "AND Date >= ? AND Date <= ? "
-        "ORDER BY Date"
+        f"WHERE Ticker IN ({placeholders}) AND Date >= ? AND Date <= ? ORDER BY Date"
     )
     with sqlite3.connect(DB) as conn:
         df = pd.read_sql(sql, conn, params=tickers + [window_start, window_end])
     df["Date"] = pd.to_datetime(df["Date"])
     px = df.pivot(index="Date", columns="Ticker", values="Close").sort_index()
     rets = np.log(px / px.shift(1)).dropna(how="all")
-    rets = rets[[t for t in tickers if t in rets.columns]]
-    return rets
+    return rets[[t for t in tickers if t in rets.columns]]
 
 
-def ticker_group(ticker: str) -> str:
-    for grp, tks in UNIVERSE.items():
-        if ticker in tks:
+def ticker_group(ticker: str, universe: dict) -> str:
+    for grp, spec in universe.items():
+        if ticker in spec["tickers"]:
             return grp
     return "other"
 
 
-def color_for(ticker: str) -> str:
-    return GROUP_COLORS.get(ticker_group(ticker), "#000000")
+def color_for(ticker: str, universe: dict) -> str:
+    grp = ticker_group(ticker, universe)
+    if grp == "other":
+        return "#000000"
+    return universe[grp].get("color", "#000000")
 
 
 def correlation_matrix(rets: pd.DataFrame) -> pd.DataFrame:
-    """Pairwise pearson correlation of daily log returns."""
     return rets.corr(method="pearson")
 
 
 def plot_correlation_heatmap(
-    corr: pd.DataFrame, out: Path, title: str, cluster_first: bool = True
+    corr: pd.DataFrame, universe: dict, group_order: list[str], out: Path, title: str
 ) -> None:
-    if cluster_first:
-        order = []
-        for grp in ["cluster", "mid_ib", "bulge", "alt_mgr", "trad_mgr", "ins_brk", "etf"]:
-            for t in UNIVERSE[grp]:
-                if t in corr.columns:
-                    order.append(t)
-        corr = corr.loc[order, order]
+    order = [t for grp in group_order for t in universe[grp]["tickers"] if t in corr.columns]
+    corr = corr.loc[order, order]
 
-    fig, ax = plt.subplots(figsize=(11, 9))
+    fig, ax = plt.subplots(figsize=(max(8, 0.45 * len(order)), max(7, 0.4 * len(order))))
     im = ax.imshow(corr.values, cmap="RdBu_r", vmin=-1, vmax=1, aspect="auto")
     ax.set_xticks(range(len(corr.columns)))
     ax.set_yticks(range(len(corr.index)))
@@ -113,7 +152,7 @@ def plot_correlation_heatmap(
     ax.set_yticklabels(corr.index, fontsize=9)
 
     for i, t in enumerate(corr.index):
-        c = color_for(t)
+        c = color_for(t, universe)
         ax.get_yticklabels()[i].set_color(c)
         ax.get_xticklabels()[i].set_color(c)
 
@@ -132,31 +171,29 @@ def plot_correlation_heatmap(
     plt.close(fig)
 
 
-def hierarchical_cluster(corr: pd.DataFrame, out: Path, title: str) -> dict:
-    """Hierarchical clustering with 1-correlation distance, ward linkage."""
+def hierarchical_cluster(corr: pd.DataFrame, universe: dict, threshold: float, out: Path, title: str) -> dict:
     dist = 1 - corr.abs()
     np.fill_diagonal(dist.values, 0)
     condensed = squareform(dist.values, checks=False)
     Z = linkage(condensed, method="average")
 
-    fig, ax = plt.subplots(figsize=(12, 6))
-    label_colors = [color_for(t) for t in corr.columns]
+    fig, ax = plt.subplots(figsize=(max(10, 0.55 * len(corr.columns)), 6))
     dn = dendrogram(
-        Z, labels=list(corr.columns), color_threshold=0.4,
+        Z, labels=list(corr.columns), color_threshold=threshold,
         above_threshold_color="#999999", ax=ax,
     )
     ax.set_title(title, fontsize=11, pad=10)
     ax.set_ylabel("Distance (1 - |corr|)")
     for tick, lbl in zip(ax.get_xticklabels(), dn["ivl"]):
-        tick.set_color(color_for(lbl))
-    ax.axhline(0.4, color="gray", linestyle="--", linewidth=0.8, alpha=0.5)
-    ax.text(0.99, 0.4, " threshold = 0.4", transform=ax.get_yaxis_transform(),
+        tick.set_color(color_for(lbl, universe))
+    ax.axhline(threshold, color="gray", linestyle="--", linewidth=0.8, alpha=0.5)
+    ax.text(0.99, threshold, f" threshold = {threshold}", transform=ax.get_yaxis_transform(),
             ha="right", va="bottom", fontsize=8, color="gray")
     fig.tight_layout()
     fig.savefig(out, dpi=140, bbox_inches="tight")
     plt.close(fig)
 
-    flat = fcluster(Z, t=0.4, criterion="distance")
+    flat = fcluster(Z, t=threshold, criterion="distance")
     clusters: dict[int, list[str]] = {}
     for ticker, c in zip(corr.columns, flat):
         clusters.setdefault(int(c), []).append(ticker)
@@ -164,15 +201,15 @@ def hierarchical_cluster(corr: pd.DataFrame, out: Path, title: str) -> dict:
 
 
 def pca_analysis(rets: pd.DataFrame, candidate: list[str], out: Path, title: str) -> dict:
-    """Run PCA on the candidate cluster only; report PC1 explained variance and loadings."""
     sub = rets[candidate].dropna()
+    if len(sub) < 30:
+        raise SystemExit(f"PCA requires >=30 obs across all {len(candidate)} candidate tickers; got {len(sub)}")
     standardized = (sub - sub.mean()) / sub.std()
     pca = PCA(n_components=min(5, len(candidate)))
     pca.fit(standardized)
     explained = pca.explained_variance_ratio_
     loadings = pd.DataFrame(
-        pca.components_.T,
-        index=candidate,
+        pca.components_.T, index=candidate,
         columns=[f"PC{i+1}" for i in range(pca.n_components_)],
     )
 
@@ -200,14 +237,13 @@ def pca_analysis(rets: pd.DataFrame, candidate: list[str], out: Path, title: str
     return {"explained_variance_ratio": explained.tolist(), "loadings": loadings}
 
 
-def avg_intra_vs_inter(corr: pd.DataFrame) -> dict:
-    """For each pair of groups, compute average pairwise correlation."""
-    groups = sorted({ticker_group(t) for t in corr.columns} - {"other"})
+def avg_group_pair_correlations(corr: pd.DataFrame, universe: dict) -> dict:
     out = {}
+    groups = list(universe.keys())
     for g1 in groups:
         for g2 in groups:
-            ts1 = [t for t in UNIVERSE.get(g1, []) if t in corr.columns]
-            ts2 = [t for t in UNIVERSE.get(g2, []) if t in corr.columns]
+            ts1 = [t for t in universe[g1]["tickers"] if t in corr.columns]
+            ts2 = [t for t in universe[g2]["tickers"] if t in corr.columns]
             vals = []
             for a in ts1:
                 for b in ts2:
@@ -219,52 +255,50 @@ def avg_intra_vs_inter(corr: pd.DataFrame) -> dict:
 
 
 def write_summary(
-    rets_1y: pd.DataFrame,
-    rets_2y: pd.DataFrame,
-    corr_1y: pd.DataFrame,
-    corr_2y: pd.DataFrame,
-    clusters_1y: dict,
-    pca_result: dict,
-    intra_inter_1y: dict,
-    out: Path,
+    cfg: dict, rets_1y: pd.DataFrame, rets_2y: pd.DataFrame,
+    corr_1y: pd.DataFrame, clusters_1y: dict, pca_result: dict,
+    group_pair_corrs: dict, out: Path,
 ) -> None:
     lines = []
-    lines.append("BOUTIQUE ADVISORY CLUSTER ANALYSIS")
+    lines.append(f"{cfg.get('name', cfg['prefix'])} CLUSTER ANALYSIS")
     lines.append(f"Window 1y: {rets_1y.index.min().date()} -> {rets_1y.index.max().date()} ({len(rets_1y)} obs)")
     lines.append(f"Window 2y: {rets_2y.index.min().date()} -> {rets_2y.index.max().date()} ({len(rets_2y)} obs)")
-    lines.append(f"Universe: {len(rets_1y.columns)} tickers")
+    lines.append(f"Universe: {len(rets_1y.columns)} tickers across {len(cfg['groups'])} groups")
+    lines.append(f"Dendrogram cut threshold: {cfg['threshold']}")
     lines.append("")
 
     lines.append("--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---")
-    cluster = [t for t in UNIVERSE["cluster"] if t in corr_1y.columns]
+    cluster = [t for t in cfg["groups"]["cluster"]["tickers"] if t in corr_1y.columns]
     sub = corr_1y.loc[cluster, cluster]
     lines.append(sub.round(2).to_string())
     upper = sub.values[np.triu_indices_from(sub, k=1)]
-    lines.append(f"Average intra-cluster correlation: {upper.mean():.3f}")
-    lines.append(f"Range: [{upper.min():.3f}, {upper.max():.3f}]")
+    if upper.size:
+        lines.append(f"Average intra-cluster correlation: {upper.mean():.3f}")
+        lines.append(f"Range: [{upper.min():.3f}, {upper.max():.3f}]")
     lines.append("")
 
     lines.append("--- AVG GROUP-PAIR CORRELATIONS (1Y) ---")
-    groups = sorted({ticker_group(t) for t in corr_1y.columns} - {"other"})
+    groups = list(cfg["groups"].keys())
     header = "             " + "  ".join(f"{g[:7]:>7}" for g in groups)
     lines.append(header)
     for g1 in groups:
         row = f"{g1[:11]:>11}  " + "  ".join(
-            f"{intra_inter_1y.get((g1, g2), float('nan')):>7.3f}" for g2 in groups
+            f"{group_pair_corrs.get((g1, g2), float('nan')):>7.3f}" for g2 in groups
         )
         lines.append(row)
     lines.append("")
-    lines.append("Cluster vs others (intra=cluster-cluster avg shown for context):")
-    cc = intra_inter_1y.get(("cluster", "cluster"), float("nan"))
-    for g in groups:
-        if g == "cluster":
-            continue
-        v = intra_inter_1y.get(("cluster", g), float("nan"))
-        delta = cc - v
-        lines.append(f"  cluster vs {g:<10}: {v:.3f}  (intra advantage: +{delta:.3f})")
-    lines.append("")
+    cc = group_pair_corrs.get(("cluster", "cluster"), float("nan"))
+    if not np.isnan(cc):
+        lines.append("Cluster vs others:")
+        for g in groups:
+            if g == "cluster":
+                continue
+            v = group_pair_corrs.get(("cluster", g), float("nan"))
+            if not np.isnan(v):
+                lines.append(f"  cluster vs {g:<10}: {v:.3f}  (intra advantage: +{cc - v:.3f})")
+        lines.append("")
 
-    lines.append("--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.4) ---")
+    lines.append(f"--- HIERARCHICAL CLUSTERS (1Y, distance threshold {cfg['threshold']}) ---")
     for cid, members in sorted(clusters_1y.items()):
         lines.append(f"  Cluster {cid}: {', '.join(members)}")
     lines.append("")
@@ -282,39 +316,60 @@ def write_summary(
 
 
 def main() -> None:
-    rets_1y = load_returns("2025-05-01")
-    rets_2y = load_returns("2024-05-01")
+    args = parse_args()
+    cfg = resolve_config(args)
 
+    if "cluster" not in cfg["groups"]:
+        raise SystemExit("Config must define a 'cluster' group (the candidate cohort being validated)")
+
+    window_end = cfg.get("window_end") or latest_weekday()
+    if isinstance(window_end, date):
+        end_date = window_end
+        window_end = end_date.isoformat()
+    else:
+        end_date = date.fromisoformat(window_end)
+    start_1y = (end_date - timedelta(days=365)).isoformat()
+    start_2y = (end_date - timedelta(days=730)).isoformat()
+
+    rets_1y = load_returns(cfg["groups"], start_1y, window_end)
+    rets_2y = load_returns(cfg["groups"], start_2y, window_end)
     rets_1y = rets_1y.dropna(thresh=int(0.95 * len(rets_1y.columns)))
     rets_2y = rets_2y.dropna(thresh=int(0.95 * len(rets_2y.columns)))
 
     corr_1y = correlation_matrix(rets_1y)
     corr_2y = correlation_matrix(rets_2y)
 
+    prefix = cfg["prefix"]
+    group_order = list(cfg["groups"].keys())
+
     plot_correlation_heatmap(
-        corr_1y, ATT / "boutique-cluster-correlation-1y.png",
-        "Daily-return correlation, 1Y (2025-05-01 to 2026-04-30)",
+        corr_1y, cfg["groups"], group_order,
+        ATT / f"{prefix}-correlation-1y.png",
+        f"Daily-return correlation, 1Y ({start_1y} to {window_end})",
     )
     plot_correlation_heatmap(
-        corr_2y, ATT / "boutique-cluster-correlation-2y.png",
-        "Daily-return correlation, 2Y (2024-05-01 to 2026-04-30)",
+        corr_2y, cfg["groups"], group_order,
+        ATT / f"{prefix}-correlation-2y.png",
+        f"Daily-return correlation, 2Y ({start_2y} to {window_end})",
     )
 
     clusters_1y = hierarchical_cluster(
-        corr_1y, ATT / "boutique-cluster-dendrogram-1y.png",
-        "Hierarchical clustering (1Y, average linkage on 1-|corr|)",
+        corr_1y, cfg["groups"], cfg["threshold"],
+        ATT / f"{prefix}-dendrogram-1y.png",
+        f"Hierarchical clustering (1Y, average linkage on 1-|corr|)",
     )
 
-    candidate = [t for t in UNIVERSE["cluster"] if t in corr_1y.columns]
+    candidate = [t for t in cfg["groups"]["cluster"]["tickers"] if t in corr_1y.columns]
     pca_result = pca_analysis(
-        rets_1y, candidate, ATT / "boutique-cluster-pca-1y.png",
-        "PCA on candidate cluster (1Y)",
+        rets_1y, candidate,
+        ATT / f"{prefix}-pca-1y.png",
+        f"PCA on candidate cluster (1Y)",
     )
 
-    intra_inter = avg_intra_vs_inter(corr_1y)
+    group_pair_corrs = avg_group_pair_correlations(corr_1y, cfg["groups"])
     write_summary(
-        rets_1y, rets_2y, corr_1y, corr_2y, clusters_1y, pca_result,
-        intra_inter, ATT / "boutique-cluster-results.txt",
+        cfg, rets_1y, rets_2y, corr_1y, clusters_1y, pca_result,
+        group_pair_corrs, ATT / f"{prefix}-results.txt",
     )
 
 

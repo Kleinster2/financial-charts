@@ -14,6 +14,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 8. **Entity linking**: Before editing any note, check if mentioned entities have notes. Missing → create stub. Always `[[wikilinks]]`.
 9. **Concept extraction**: After edits, scan for terms deserving their own concept note. If yes, create and wikilink in same pass. See `docs/note-checklist.md`.
 10. **No ephemeral notes**: Dated data releases (jobs reports, CPI prints, PMI, GDP) and earnings previews/calendars are NOT standalone notes. They are data points — fold them into the relevant existing concept or actor note (e.g., NFP data → `2026 recession risk`, bank earnings preview → the bank's actor note). A note earns existence by being a **durable, referenceable entity or concept** — not a single release date or a calendar of upcoming dates. Ask: "Will this note still be useful in 6 months, or will it be stale?" If stale → don't create it.
+11. **Cluster validation (public actor notes)**: Every new public-company actor note (with a securities companion) and every concept note that names a peer cohort must include cluster validation: write `scripts/cluster_configs/{primary_ticker}.yaml` defining the candidate cohort + control groups, run `python scripts/cluster_analysis.py --primary TICKER`, embed the dendrogram + summary table in the actor or its parent concept note. The intra-cluster correlation, hierarchical clustering boundary, and PC1 explained variance are required diagnostics — they answer "where does this name actually trade" mathematically, not by analogy. See `docs/cluster-validation.md`.
 
 ---
 
@@ -160,6 +161,7 @@ Docs are the source of truth for workflow rules. Memory is for context that help
 | News search, verification, sourcing | `docs/research-workflow.md` |
 | Actor voice, synopsis, evolution, concept structure | `docs/vault-note-guide.md` |
 | Actor/securities split, economics/prices split | `docs/vault-note-guide.md` |
+| Cluster validation (correlation + hierarchical + PCA) | `docs/cluster-validation.md` |
 | Cross-vault linking format and gates | `docs/cross-vault-rules.md` |
 | Note templates, Related format | `[[Note structures]]` |
 | Folder rules, concept vs sector | `[[Linking and hierarchy]]` |
