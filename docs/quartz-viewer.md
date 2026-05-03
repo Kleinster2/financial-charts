@@ -29,10 +29,16 @@ First build: ~30 minutes wall time on the full vault (~6,000 markdown files). Su
 Skip the rebuild for serving an existing `public/`:
 
 ```bash
-cd /c/Users/klein/quartz-investing/public && python -m http.server 8080
+cd /c/Users/klein/quartz-investing/public && python ../serve_static.py 8080
 ```
 
-That's a static server with no URL rewriting (extensionless URLs 404). Quartz's own `--serve` handles routes properly.
+`serve_static.py` is a small `SimpleHTTPRequestHandler` subclass that maps `/Foo` → `Foo.html` (Quartz emits flat HTML files but renders extensionless `<a href>`s). Plain `python -m http.server` returns 404 for those URLs and is only useful as a sanity check.
+
+For Tailscale / phone access, set `Plugin.LightweightCharts({ apiBaseUrl: "http://gilssurface:5000", ... })` in `quartz.config.ts` and rebuild. Iframe URLs are baked into the static HTML at build time.
+
+## Auto-restart
+
+Both servers are wrapped by a Task Scheduler watchdog that re-spawns whichever is missing every 5 minutes (and at logon). See [`ops/server-watchdog.md`](ops/server-watchdog.md).
 
 ## Local Quartz patches
 
