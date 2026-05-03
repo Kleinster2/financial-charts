@@ -41,6 +41,16 @@ aliases: [Abu Dhabi National Oil Company]
 
 ---
 
+## $150B 2023-2027 capex and the gas pivot (Apr 28, 2026)
+
+Per [[Karen Young]]'s [[2026 UAE OPEC exit|April 28 PBS NewsHour interview]], the $150 billion ADNOC capex through 2027 is operationally an oil-AND-gas program rather than an oil program: offshore drilling produces associated gas alongside crude, and the UAE has a rapidly expanding domestic demand for that gas in electricity generation. The two specific demand drivers Young names are [[AI infrastructure deals|AI data centers]] (significant marginal electricity load) and the broader [[Saudi Vision 2030|Vision-2030-style]] economic-diversification agenda (industrial buildout, desalination, residential cooling). This reframes the capex from "ramp crude to 5 mb/d" to "ramp the full upstream complex to support both export-grade crude and domestic-electricity gas."
+
+Strategic export geography: the same expansion positions ADNOC as a sustained oil-and-gas supplier to [[China]], not only an oil supplier to traditional Asian buyers. This is the export counterpart to the UAE's earlier signaling on potential [[Chinese yuan]] settlement for some oil cargos (referenced in the [[2026 UAE OPEC exit]] note's Petrodollar implications section).
+
+The capex was originally scheduled for full-capacity delivery by 2030; the 2027 acceleration was first announced 2023-2024 and is what made [[2026 UAE OPEC exit|the OPEC exit]] timing economically actionable — capacity was already years ahead of any plausible OPEC+ quota.
+
+---
+
 ## Investment case
 
 **Partially investable** via:

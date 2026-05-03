@@ -830,6 +830,33 @@ Stock: +3.5% AH initially, settled ~+0.7%. 63 analysts: 60 Buy. Consensus PT $26
 
 ---
 
+## April 30, 2026: B300 server prices near $1M in China as smuggling crackdown bites
+
+[[Reuters]] reported (Apr 30, 2026) that strong Chinese demand for AI computing equipment has nearly doubled prices for [[NVIDIA]]'s [[B300]] servers to about 7 million yuan ($1 million) each, as a U.S. crackdown on chip smuggling dries up black-market supply. The same eight-GPU [[B300]] server sells for about $550,000 in the United States, up from roughly $500,000 late last year — implying a China premium of roughly 80%.
+
+| Geography | B300 server price | Change |
+|-----------|-------------------|--------|
+| [[China]] (grey market) | ~7M yuan / ~$1M | Nearly doubled from ~4M yuan late 2025 |
+| United States | ~$550,000 | Up from ~$500,000 late 2025 |
+
+Sources cited the Mar 19, 2026 arrest of Yih-Shyan "Wally" Liaw, co-founder of [[Super Micro Computer|Supermicro]], as the inflection point. U.S. federal prosecutors allege a conspiracy to divert roughly $2.5B in [[Super Micro Computer|Supermicro]] servers containing [[NVIDIA]]'s export-controlled [[Blackwell]]-class AI chips to Chinese buyers via a Southeast Asian pass-through company. With the SEA route under enforcement pressure, grey-market supply tightened sharply and Chinese rental markets for [[B300]] servers reached as high as 190,000 yuan per month on one-year contracts.
+
+Demand context: Chinese AI models lifted their share of global token usage to 32% in March 2026, up from 5% a year earlier — driven by coding and agentic capabilities at [[MiniMax]], [[Zhipu]], and [[Alibaba]]'s [[Qwen]], each reporting 6-7x token usage rises between December and February-March 2026. The same demand wave is what makes Chinese buyers willing to pay the doubled price.
+
+Read-through for [[NVIDIA]]:
+
+| Lens | Implication |
+|------|-------------|
+| Bull | Confirms unmet [[China]] demand at premium prices — supports Jensen's "$50B [[China]] market" framing and the [[Section 232 semiconductor tariff]] / "managed access" architecture if [[NVIDIA]] can route legal volume in |
+| Bear | Reinforces [[SEA chip diversion]] legal/reputational risk; the Liaw indictment moves enforcement up the supply chain to a top-three [[NVIDIA]] partner |
+| Policy | Tightens the [[Export controls]] regime visibly — pricing signal validates the crackdown is working at the margin, but also shows demand displacement, not destruction |
+
+The pricing signal also feeds the [[NVIDIA as kingmaker]] frame: [[NVIDIA]] hardware is scarce enough in [[China]] to clear at $1M/box despite domestic alternatives ([[Huawei]] [[Ascend]] 910C, [[Cambricon Technologies|Cambricon]]) being explicitly promoted by Beijing. See [[China semiconductor strategy]] for the buyer-side substitution dynamics.
+
+*Source: [Reuters via Yahoo Finance — "Prices of Nvidia's B300 server at $1 million in China on US curbs, sources say"](https://finance.yahoo.com/sectors/technology/articles/exclusive-prices-nvidias-b300-server-064521420.html), Apr 30, 2026.*
+
+---
+
 ## March 2026: H200 China production halted, TSMC capacity shifted to Vera Rubin
 
 FT reports (Mar 5) NVIDIA has stopped producing H200 chips for the Chinese market and reallocated [[TSMC]] manufacturing capacity to next-gen [[Rubin|Vera Rubin]] hardware.

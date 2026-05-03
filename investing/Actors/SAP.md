@@ -262,6 +262,29 @@ No current S&P / Moody's / Fitch issuer-rating timeline has been ingested into t
 
 ---
 
+---
+
+## Supply-chain incident — npm "Mini Shai-Hulud" (Apr 29-30, 2026)
+
+On Apr 29, 2026, attackers published malicious versions of four official [[SAP]] [[npm]] packages in the SAP Cloud Application Programming Model ecosystem. Versions confirmed by [The Register](https://www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/) and security vendors:
+
+| Package | Compromised version |
+|---------|---------------------|
+| `mbt` | 1.2.48 |
+| `@cap-js/db-service` | 2.10.1 |
+| `@cap-js/postgres` | 2.2.2 |
+| `@cap-js/sqlite` | 2.2.2 |
+
+The malicious releases were uploaded between roughly 09:55 and 12:14 UTC on Apr 29. Each package carried a weaponized `preinstall` hook that fetched the Bun JavaScript runtime and ran an obfuscated ~11MB second-stage payload (`execution.js`). The payload harvested local developer credentials, [[GitHub]] and [[npm]] tokens, [[GitHub Actions]] secrets, and cloud secrets from [[AWS]], [[Microsoft Azure|Azure]], [[Google Cloud|GCP]], and [[Kubernetes]], then encrypted and exfiltrated the data via newly created public [[GitHub]] repositories on each victim's own account, descriptions tagged "A Mini Shai-Hulud has Appeared." Researchers (Aikido, Sophos, StepSecurity, Wiz) attribute the campaign to a threat actor labeled "TeamPCP" and named it "Mini Shai-Hulud" after the larger Shai-Hulud npm worm of late 2025.
+
+Combined affected SAP packages had ~572,000 weekly downloads. The same campaign also poisoned `intercom-client` (7.0.4 / 7.0.5) and the PyPI package `lightning` (2.6.2 / 2.6.3), per [The Register](https://www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/).
+
+[[SAP]] declined detailed comment, telling The Register that a security note is published for SAP customers and partners. The compromised packages are SAP's own developer toolchain rather than the [[S/4HANA|S/4HANA Cloud]] runtime, so the direct customer-data exposure is concentrated on developers and CI/CD environments that installed the bad versions in the Apr 29 window.
+
+The incident does not change the [[S/4HANA]] migration thesis but is the second consecutive week ([[Cybersecurity|see sector note]]) in which an [[npm supply-chain attacks|npm supply-chain]] worm has hit production developer infrastructure. It strengthens the agentic / [[Agentic AI security|developer-tool security]] thesis that picks-and-shovels security spend (token scanning, runtime trust controls, package-trust gating) is structurally rising, and reinforces the [[AI cybersecurity disruption basket]] dynamic where developer toolchains are now an active battleground.
+
+---
+
 ## Related
 
 ### Securities
@@ -276,6 +299,8 @@ No current S&P / Moody's / Fitch issuer-rating timeline has been ingested into t
 ### Concepts
 - [[Cloud vs on-premise valuation]] - explains re-rating mechanics
 - [[SaaS]] - sector context
+- [[Agentic AI security]] - developer-tool attack surface
+- [[AI cybersecurity disruption basket]] - sector-level read on the Mini Shai-Hulud campaign
 
 ### Events
 - [[Claude Cowork disruption February 2026]] - SaaSpocalypse (SAP -4.8% on Feb 3)
@@ -292,5 +317,7 @@ Sources:
 - [SAP News - Hasso Plattner Steps Down](https://news.sap.com/2024/05/the-end-of-an-era-hasso-plattner-steps-down/)
 - [Nasdaq - SAP Q4 Earnings](https://www.nasdaq.com/articles/saps-q4-earnings-revenues-y-y-cloud-demand-2025-view-updated)
 - [Straits Research - S/4HANA Market](https://straitsresearch.com/report/sap-s-4hana-application-market)
+- [The Register - Ongoing supply chain attacks worm into SAP npm packages](https://www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/) (Apr 30, 2026)
+- [Aikido - Mini Shai-Hulud Targets SAP npm Packages](https://www.aikido.dev/blog/mini-shai-hulud-has-appeared) (Apr 29, 2026)
 
-*Created 2026-01-25 · Updated 2026-04-25 (Q1 2026 cloud rebound, chart trio, securities companion link)*
+*Created 2026-01-25 · Updated 2026-04-25 (Q1 2026 cloud rebound, chart trio, securities companion link) · Updated 2026-05-01 (Mini Shai-Hulud npm supply-chain incident)*

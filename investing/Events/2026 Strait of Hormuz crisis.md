@@ -236,6 +236,18 @@ Same broadcast surfaced the [[2026 UAE OPEC exit|UAE's announcement]] of full ex
 
 The exit lands five days after [[Scott Bessent]] publicly defended a roughly $20B currency swap line for the UAE before a Senate appropriations subcommittee, and inside the broader Gulf-US financial architecture that the [[UAE]] dollar-backstop talks made visible (Apr 20 entry above). The combined sequence — UAE Treasury access → public US support → OPEC exit — reads as coherent strategic reorientation rather than an isolated market-management decision, even though Mazrouei explicitly denied any political linkage with Saudi Arabia. Full event detail in [[2026 UAE OPEC exit]].
 
+#### Apr 28 — Karen Young (Columbia CGEP) on restart timing and demand destruction
+
+PBS NewsHour interview with [[Karen Young]], senior research scholar at the [[Columbia University]] Center on Global Energy Policy, adds two diagnostic data points the existing analyst frames had not surfaced.
+
+**Restart timing (load-bearing for the post-Hormuz scenario tree):** Young estimates that restarting shut-in wells once Hormuz reopens "could take three to four months in the case of [[Kuwait]], perhaps longer in [[Iraq]]." Combined with the requirement of military escorts for ships transiting the strait if Iranian mines remain, "getting back to normal is not a one-day thing." The 3-4 month figure converts the "coordinated rebuild" scenario in [[2026 UAE OPEC exit]] from a multi-week event to a multi-quarter one, with [[demand destruction]] having time to compound during the recovery window.
+
+**Demand destruction now active in petrochemical feedstocks:** Young describes the supply shock as "the largest supply shock to global oil markets and gas markets we've ever experienced," with cumulative drawdown on strategic and commercial inventories generating "more price pressure as we have this kind of supply shortage" until "demand destruction" begins to bite — concentrated in transportation fuels (gasoline at 4-year high, jet fuel, marine fuel, diesel) and petrochemical feedstocks ([[naphtha]], LPG → plastics, packaging, fertilizers). This places the current Hormuz episode in channel 3 ("output cuts in price-taking industries") of the [[demand destruction]] framework — the threshold beyond which capital reallocation can become irreversible.
+
+The Young framing is consistent with the [[Natasha Kaneva]] / [[JPMorgan]] operational-minimum inventory floor estimate but adds the demand-side mechanism: prices climb because inventories aren't being refilled, and when prices climb far enough, demand exits rather than the supply gap closing.
+
+*Source: PBS NewsHour, April 28, 2026 — Karen Young interview, segment at t=387s.*
+
 #### Apr 24 — Hill flags forward-curve underpricing
 
 [[French Hill]] (House Financial Services Chair, Bloomberg Tech "Balance of Power" Apr 24): "I'm watching that forward market in oil prices to see if they fully reflect that concern… if the war continues, it could be underestimated in the market." The framing matters because it comes from the chair of the committee that conducts oversight on financial-stability transmission, not from an analyst — i.e., a sitting policy-side voice publicly questioning whether the WTI/Brent forward curve is correctly pricing duration risk.

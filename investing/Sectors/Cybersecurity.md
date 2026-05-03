@@ -103,6 +103,16 @@ The net read is unchanged but sharper. AI is still both the threat amplifier and
 
 *Sources: [[Reuters]], "OpenAI briefs US agencies, Five Eyes on new cybersecurity product, Axios reports" (Apr 22, 2026); The Register, "Another npm supply chain worm is tearing through dev environments" (Apr 22, 2026).*
 
+### Apr 29-30 2026 — npm worms hit SAP and Google's Gemini CLI
+
+Two same-week incidents hardened the developer-toolchain attack-surface thesis.
+
+On Apr 29, attackers published malicious versions of four official [[SAP]] [[npm]] packages — `mbt@1.2.48`, `@cap-js/db-service@2.10.1`, `@cap-js/postgres@2.2.2`, and `@cap-js/sqlite@2.2.2` — between roughly 09:55 and 12:14 UTC. The malicious `preinstall` hook fetched the [[Bun]] JavaScript runtime and ran an obfuscated 11MB payload that harvested local developer credentials, [[GitHub]]/[[npm]] tokens, [[GitHub Actions]] secrets, and cloud credentials from [[AWS]], [[Microsoft Azure|Azure]], [[Google Cloud|GCP]], and [[Kubernetes]], then exfiltrated the data via newly created public [[GitHub]] repositories tagged "A Mini Shai-Hulud has Appeared." Researchers attributed the campaign to a threat actor labeled TeamPCP. The same campaign poisoned `intercom-client` (7.0.4 / 7.0.5) and the [[PyPI]] package `lightning` (2.6.2 / 2.6.3). [[SAP]] told *The Register* that a security note is available for customers and partners. Source: [The Register, "Ongoing supply chain attacks worm into SAP npm packages"](https://www.theregister.com/2026/04/30/supply_chain_attacks_sap_npm_packages/) (Apr 30, 2026).
+
+The same day (Apr 30), [[Google]] disclosed and patched a CVSS 10.0 remote-code-execution flaw in [[Gemini CLI]] and the `run-gemini-cli` GitHub Action. In headless mode, [[Gemini CLI]] auto-trusted any workspace folders, so an attacker who controlled `.gemini/` config files in a checked-out repo could execute code before any sandbox initialized. Mitigations shipped in [[Gemini CLI]] 0.39.1 and 0.40.0-preview.3. The fix tightened the previous auto-trust default and broke workflows that relied on the old behavior, including some `--yolo` mode automations. Reported by Elad Meged (Novee Security) and Dan Lisichkin (Pillar Security). Source: [The Register, "Google fixes CVSS 10.0 vulnerability in Gemini CLI"](https://www.theregister.com/2026/04/30/googles_fix_for_critical_gemini) (Apr 30, 2026).
+
+The pattern across [[Axios]] (Apr 4), the Apr 22 [[npm]] worm, the Apr 29 SAP packages, and the Apr 30 [[Gemini CLI]] CVE is consistent: developer-side and CI/CD toolchains are now the preferred soft entry point for credential theft and supply-chain pivots, and frontier-AI developer tooling sits squarely inside that surface. See [[Agentic AI security]] and [[AI cybersecurity disruption basket]] for the cross-vendor read.
+
 ## Security control-point cluster
 
 A separate cross-sectional read emerged on Apr 13, 2026. `scripts/cluster_movers.py` flagged a strong up-cluster in [[Fortinet]], [[Zscaler]], [[Palo Alto Networks]], [[CrowdStrike]], [[Cloudflare]], and [[Rubrik]], with [[Akamai]] screening as a looser adjacent member. Persistence checks across 60-day, 90-day, and 120-day windows suggested the durable core was not broad cybersecurity but a narrower set of names that still own traffic policy, telemetry, secure access, or recovery bottlenecks.
@@ -196,5 +206,7 @@ Subscription/recurring = high visibility.
 
 - Fortune, 2026-03-26: "Anthropic 'Mythos' AI model representing 'step change' in power revealed in data leak"
 - Investing.com, 2026-03-27: "Cybersecurity stocks plunge as [[Claude]] Mythos leak sparks AI fear"
+- The Register, 2026-04-30: "Ongoing supply chain attacks worm into SAP npm packages" (Mini Shai-Hulud)
+- The Register, 2026-04-30: "Google fixes CVSS 10.0 vulnerability in Gemini CLI"
 
-*Updated 2026-04-05*
+*Updated 2026-04-05 · Updated 2026-05-01 (SAP npm Mini Shai-Hulud + Gemini CLI CVSS 10.0)*

@@ -184,6 +184,28 @@ Designed for advanced math, coding, scientific analysis, and planning. New capab
 
 ---
 
+## Gemini CLI critical RCE — CVSS 10.0 (Apr 30, 2026)
+
+[[Google]] disclosed and patched a CVSS 10.0 remote-code-execution vulnerability in [[Gemini CLI]] and the `run-gemini-cli` [[GitHub Actions]] action.
+
+| Detail | Value |
+|--------|-------|
+| CVSS | 10.0 (Critical) |
+| Class | Remote code execution / sandbox bypass |
+| Affected | [[Gemini CLI]] versions before 0.39.1 |
+| Fixed | [[Gemini CLI]] 0.39.1 and 0.40.0-preview.3 |
+| Action | `run-gemini-cli` (auto-updates by default) |
+| Reporters | Elad Meged ([[Novee Security]]) and Dan Lisichkin ([[Pillar Security]]) |
+| Disclosure | Apr 30, 2026 (The Register) |
+
+The flaw was in [[Gemini CLI]]'s headless mode, which is the typical [[CI/CD]] configuration. Headless mode automatically treated any active workspace folder as trusted, so attacker-controlled `.gemini/` config files committed to a repository would be loaded as configuration and executed before any sandbox or trust prompt initialized. The fix removes the auto-trust default; the same patch also tightened `--yolo` mode so it no longer bypasses tool allowlists. Some prior automations that relied on auto-trust or `--yolo` permissiveness will break and require explicit version pinning or configuration updates.
+
+The bug sits inside the broader Apr 2026 pattern of agentic-developer-tool security incidents (see [[Agentic AI security]] and [[AI cybersecurity disruption basket]]). For [[Google]] specifically the disclosure is operationally clean — the patched versions shipped on the same date — but the CVSS 10.0 grade combined with [[CI/CD]] blast radius is meaningful for adoption optics in regulated enterprises. It is also a direct counterpart to the [[SAP]] npm "Mini Shai-Hulud" supply-chain incident published the same week, in which compromised CI/CD secrets were the primary loot.
+
+*Source: [The Register, "Google fixes CVSS 10.0 vulnerability in Gemini CLI"](https://www.theregister.com/2026/04/30/googles_fix_for_critical_gemini) (Apr 30, 2026).*
+
+---
+
 ## Internal tension: TPU allocation (Apr 2026)
 
 [[Google]]'s expanded TPU deal with [[Anthropic]] (~3.5 GW starting 2027, confirmed by press releases Apr 6) raises a structural question about internal compute allocation. [[NEA]]'s Neimucha (The Information, Apr 7) characterized friction: the Gemini / [[Google DeepMind]] team unhappy that GCP ([[Thomas Kurian]]) is allocating TPU capacity to a direct competitor. No independent corroboration of this claim found in other reporting, but the structural tension is plausible: GCP is incentivized on cloud revenue, DeepMind on frontier research progress, Search on defending ad revenue — different business models competing for the same TPU capacity. Gemini is reportedly not monetizing in the near term, preferring to capture distribution first.

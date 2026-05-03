@@ -112,6 +112,14 @@ Brent held above $108 through the announcement (already up 8-9 straight days on 
 
 [[Saudi Arabia]] / OPEC: no immediate public response. The diplomatic posture matches the [[Saudi Arabia]] note's broader pattern of avoiding open escalation under the war.
 
+[[Karen Young]] ([[Columbia University]] Center on Global Energy Policy, PBS NewsHour Apr 28): adds the gas-with-oil and diversification-agenda dimension that the market-management framing leaves out. Three points the other analyst frames don't capture:
+
+1. *Associated gas is the silent half of the production ramp.* The UAE's $150 billion oil-and-gas capex is producing more gas alongside oil — gas associated with offshore wells — and the UAE has a fast-growing domestic demand for that gas in electricity generation, including for [[AI infrastructure deals|AI data centers]] and the broader Vision-2030-style diversification agenda. Quota constraints inside OPEC+ apply to crude, not to associated gas, but operationally the constraint on crude limits the gas as well because the gas comes out of the same wells. Exiting OPEC unlocks both.
+2. *China is the strategic export geography.* The OPEC exit positions the UAE for sustained oil-and-gas supply to [[China]], not just oil to traditional Asian buyers. This is the export-side counterpart to the [[Chinese yuan]]-pricing thread already in the vault: the UAE is reorienting its customer geography as well as its institutional architecture.
+3. *Restart timing is multi-month, not multi-week.* On the Hormuz-reopening question — the load-bearing variable in the forward-scenario table — Young's estimates: Kuwait's shut-in wells take 3-4 months to restart; Iraq longer. The "coordinated rebuild" scenario therefore plays out over a quarter, not weeks; demand destruction has time to compound during the recovery.
+
+Young's framing is independently confirmatory of the existing vault thesis (war-induced timing, structural rather than political driver) but adds the operational mechanics — gas, China, restart pace — that explain why the UAE judged the move worth executing now rather than waiting.
+
 Petrodollar implications. The Fortune piece tied the OPEC exit to the broader dollar-share decline (~57% of global FX reserves, 25-year low, down from 72% in 2001) and the UAE's earlier signaling that it could price oil in [[Chinese yuan]] under sustained dollar-liquidity stress. The OPEC exit alone is not a yuan-pricing pivot, but it removes one institutional anchor (OPEC+ dollar-denominated pricing convention) from a system that already sits closer to a yuan-pricing test than at any point since the petrodollar's establishment.
 
 ---
