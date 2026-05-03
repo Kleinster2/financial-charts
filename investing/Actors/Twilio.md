@@ -86,6 +86,9 @@ Usage-based pricing model — revenue scales with customer message/call volume.
 
 Q4 2024 was first quarter of GAAP operating profitability. Gross margin ~50%.
 
+![[twilio-sankey.png]]
+*FY2024 income statement flow: $4.46B revenue -> $2.23B gross profit -> -$40M operating income -> -$109M net loss; Q1 2026 marked the profitability inflection, but full-year 2026 is not yet in the annual table.*
+
 ---
 
 ## Segment review (2024)
@@ -173,6 +176,10 @@ Bear:
 
 ## Related
 
+### Securities
+- [[Twilio securities]] - TWLO common stock, price history, and earnings reactions
+
+### Peers and context
 - [[Datadog]] — API-first developer platform peer
 - [[Vonage]] — CPaaS competitor (acquired by [[Ericsson]])
 - [[Amazon]] — AWS Connect competitor
@@ -187,7 +194,7 @@ Twilio reported Q1 2026 after the close on Apr 30. Revenue $1.41B (+20% reported
 
 Customer wins called out: [[Sierra]], [[Bland.ai]], [[KPN]] Netherlands, PGA of America, Scorpion, TeleVox, Aloware, Grupo ProTG, Posh, Sella AI, Solace; a "historic professional sports league" signed a seven-figure Verify deal. Capital returns: $253M repurchases in Q1, $900M remaining on authorization. Management raised 2026 reported and organic revenue guide, non-GAAP operating income guide, and free cash flow guide.
 
-Stock close: TWLO $177.41 on May 1, +19.8% on the day (+6.4σ) — the highest-conviction "AI tailwind on top of CPaaS" tape since the Khozema Shipchandler-led inflection began. The thesis-validating point is that organic growth (16%) is now visibly above the prior reported pace, suggesting the new conversational-AI workloads ([[Sierra]], [[Bland.ai]], voice agents) are layering on top of the legacy SMS/voice/Verify base rather than cannibalizing it. The activist-driven cost discipline from 2024 is showing through in the 31% non-GAAP operating income growth.
+Stock close: TWLO $183.34 on May 1, +23.8% from the Apr 30 close of $148.06 (+8.6σ in the refreshed local mover screen) — the highest-conviction "AI tailwind on top of CPaaS" tape since the Khozema Shipchandler-led inflection began. The thesis-validating point is that organic growth (16%) is now visibly above the prior reported pace, suggesting the new conversational-AI workloads ([[Sierra]], [[Bland.ai]], voice agents) are layering on top of the legacy SMS/voice/Verify base rather than cannibalizing it. The activist-driven cost discipline from 2024 is showing through in the 31% non-GAAP operating income growth.
 
 This print reinforces the Aurelion Research [[AI SaaS Disruption|"SaaS Industrial Order"]] frame from a different angle: TEAM and TWLO this week became the first two large SaaS names to print accelerating growth + raised guides, against a broader thesis that AI is *compressing* SaaS economics. The differentiator vs [[Roblox|RBLX]] / [[Ryan Specialty|RYAN]] / large-cap SaaS deceleration is product-channel fit with the AI workload (TWLO = communication APIs, TEAM = developer workflow). Communications-as-API and dev-workflow are categories where AI agent traffic *adds* volume rather than replaces seats.
 

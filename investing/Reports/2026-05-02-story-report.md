@@ -52,9 +52,9 @@ What changed: Four vault-tracked SaaS / SaaS-adjacent names printed Q1 / Q3 earn
 
 | Name | Move | Catalyst |
 |------|------|----------|
-| [[Atlassian]] (TEAM) | +26.4% to $86.69 (+5.7σ) | Q3 FY26 rev $1.79B (+32%), Cloud +29%, Data Center +44%, FY guide raised 22%→24%; new Google Cloud partnership at Cloud Next '26 with Gemini 3 Flash in Rovo |
-| [[Twilio]] (TWLO) | +19.8% to $177.41 (+6.4σ) | Q1 26 rev $1.41B (+20% reported, +16% organic — fastest organic since 2022), record op income $279M (+31%), customer wins [[Sierra]], [[Bland.ai]], [[KPN]] |
-| [[Roblox]] (RBLX) | -16.9% to $45.90 (-5.3σ) | Q1 26 DAU 132M missed 143.8M est (second consecutive quarterly decline), FY26 bookings guide cut $8.28-8.55B → $7.33-7.6B (~$900M midpoint reduction) on age-verification engagement friction |
+| [[Atlassian]] (TEAM) | +29.6% to $88.88 (+7.0σ) | Q3 FY26 rev $1.79B (+32%), Cloud +29%, Data Center +44%, FY guide raised 22%→24%; new Google Cloud partnership at Cloud Next '26 with Gemini 3 Flash in Rovo |
+| [[Twilio]] (TWLO) | +23.8% to $183.34 (+8.6σ) | Q1 26 rev $1.41B (+20% reported, +16% organic — fastest organic since 2022), record op income $279M (+31%), customer wins [[Sierra]], [[Bland.ai]], [[KPN]] |
+| [[Roblox]] (RBLX) | -18.3% to $45.13 (-5.5σ) | Q1 26 DAU 132M missed 143.8M est (second consecutive quarterly decline), FY26 bookings guide cut $8.28-8.55B → $7.33-7.6B (~$900M midpoint reduction) on age-verification engagement friction |
 | [[Ryan Specialty]] (RYAN) | -11.5% to $30.76, 52-week low (-3.7σ) | Q1 26 op margin 11.9% (vs 14.5% Q1 2025), FCF burn -$181M, FY26 organic guide cut to mid-single digits, Q2 guided ~0% organic |
 
 Aurelion Research published a SaaS Primer on May 1, 2026 titled "SaaS: The New Industrial Order," arguing that AI is forcing a structural shift in SaaS unit economics from capital-light compounding (high margin, decelerating capex, compounding free cash flow) to capital-intensive maintenance (variable inference cost, expanding agent-callable API surface, security overhead, pricing-model transition).
