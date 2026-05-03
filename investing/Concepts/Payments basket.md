@@ -76,15 +76,9 @@ These are five distinct businesses — the only thing they share is "money moves
 
 ---
 
-## The card networks duopoly — special note
+## The card networks duopoly — see dedicated note
 
-V-MA pairwise correlation of 0.87 is the tightest pair in the entire validation pass — tighter than any other 2-name combination across all the cluster tests run (boutique advisory's tightest was 0.79; ALTM's tightest was 0.85; AICX's WFE quartet pairwise topped at 0.86). The duopoly trades as essentially one stock, with the spread driven by:
-- Cross-border mix (MA has slightly higher cross-border exposure)
-- Asia/EM growth pace differences
-- Idiosyncratic regulatory news (interchange caps, antitrust)
-- Network volume mix between debit and credit
-
-For most analytical purposes, V and MA are interchangeable equity exposures. Pair trades between them isolate ~13% idiosyncratic noise. They could justify their own dedicated 2-name cluster note (`[[Card networks duopoly]]`) if the market structure remains a duopoly long-term — for now, this finding is captured here in the parent payments note.
+V-MA pairwise correlation of 0.87 is the tightest pair in the entire validation pass. Now formalized as its own sub-cluster note: see [[Card networks duopoly]] for full validation, structural analysis, and trade implications. The duopoly trades as essentially one stock with ~6% idiosyncratic spread (PC1 explains 93.7% of variance).
 
 ---
 

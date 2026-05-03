@@ -1,0 +1,23 @@
+# Card networks duopoly — V + MA
+# Surfaced from Payments basket falsification: pairwise correlation 0.87 — tightest pair across
+# the entire 19-cluster validation pass. Two-name basket but the structural reason (interchange-
+# based two-sided network duopoly with regulatory protection) is durable.
+name: Card networks duopoly
+primary: V
+prefix: card-networks-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [V, MA]
+  payments_other:
+    color: "#7E57C2"
+    tickers: [AXP, COF, PYPL, FIS, FISV, SHOP]
+  banks:
+    color: "#FF6F00"
+    tickers: [JPM, BAC, WFC]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, XLK, SPY]

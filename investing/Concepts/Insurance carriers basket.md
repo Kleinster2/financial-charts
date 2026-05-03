@@ -19,7 +19,7 @@ The 8-name US insurance carrier cohort splits cleanly into P&C carriers (5-name 
 | Sub-cohort | Members | Correlation | Note |
 |---|---|---|---|
 | P&C carriers | [[Progressive]] (PGR), [[Chubb]] (CB), [[Travelers]] (TRV), [[Allstate]] (ALL), [[Hartford Financial]] (HIG) | Intra 0.64 — VALIDATED → see [[P&C insurance carriers basket]] | Cat losses + commercial pricing factor |
-| Life insurers | [[MetLife]] (MET), [[Prudential Financial]] (PRU) | 0.69 (single pair) | Long-duration rate exposure + mortality |
+| Life insurers | [[MetLife]] (MET), [[Prudential Financial]] (PRU) | 0.69 (single pair) — VALIDATED → see [[Life insurers pair]] | Long-duration rate exposure + mortality (BUT: equity returns are uncorrelated with long bonds at daily horizon) |
 | Specialty / restructured | [[AIG]] | Singleton | Diversified specialty + complex post-2008 restructuring |
 
 The P&C and Life sub-cohorts trade as completely separate factors (0.26 cross-cluster correlation). AIG sits alone — too idiosyncratic for either group.

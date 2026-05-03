@@ -1,0 +1,26 @@
+# Wafer fabrication equipment (WFE) quartet — ASML, AMAT, KLAC, LRCX
+# Surfaced from AI capex chain basket validation: tightest 4-name sub-cluster anywhere
+# in the AI complex (intra-corr 0.81, pairwise range 0.74-0.86). Cleaner expression of
+# "leading-edge fab capex" than the broader 7-name AICX.
+name: WFE quartet
+primary: ASML
+prefix: wfe-quartet-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [ASML, AMAT, KLAC, LRCX]
+  ai_capex_other:
+    color: "#7E57C2"
+    tickers: [NVDA, TSM, MU]
+  fabless:
+    color: "#FF6F00"
+    tickers: [AMD, AVGO]
+  hyperscaler_buyers:
+    color: "#26A69A"
+    tickers: [MSFT, GOOGL, AMZN, META]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SMH, SOXX, XLK, SPY]

@@ -1,0 +1,28 @@
+# Life insurers pair — MET + PRU
+# Surfaced from Insurance carriers basket bimodal split: tight 2-name pair (correlation 0.69)
+# distinct from P&C carriers (cross-cluster 0.26). Long-duration interest-rate exposure factor.
+name: Life insurers pair
+primary: MET
+prefix: life-insurers-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [MET, PRU]
+  pc_carriers:
+    color: "#7E57C2"
+    tickers: [PGR, CB, TRV, ALL, HIG]
+  ins_brokers:
+    color: "#FF6F00"
+    tickers: [WTW, AJG, AON, BRO]
+  banks:
+    color: "#FFA726"
+    tickers: [JPM, BAC, WFC]
+  rate_curve_proxy:
+    color: "#26A69A"
+    tickers: [TLT, IEF]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

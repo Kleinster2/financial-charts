@@ -87,7 +87,9 @@ The structure is visible directly in the matrix:
 
 ---
 
-## The WFE quartet — tightest tradable sub-basket
+## The WFE quartet — see dedicated note
+
+ASML, AMAT, KLAC, LRCX are now formalized as their own sub-cluster note: see [[WFE quartet basket]] for full validation (intra-corr 0.81, PC1 85.3% — tightest 4-name basket in the validation pass), pairwise structure, and trade implications. Brief summary below; full analysis in the dedicated note.
 
 ASML, AMAT, KLAC, LRCX are the cleanest cluster the validation pass has surfaced. Pairwise 0.74-0.86, intra-corr 0.81. Why it works:
 
