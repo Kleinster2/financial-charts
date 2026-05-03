@@ -94,6 +94,53 @@ None of these has arrested the fee-share drift to independents. The market-share
 
 ---
 
+## Q1 2026 cluster print — May 1, 2026
+
+May 1, 2026 was the cleanest single-day test of the cohort to date. [[Perella Weinberg Partners]] and [[Lazard]] both reported Q1 2026 before the open and both delivered the same Financial Advisory message: deal closings slipped 6 months on [[2026 Iran conflict market impact|Iran-conflict]] buyer caution, with management framing the back half as the recovery window. The stocks moved together on the same investor logic — back-half-weighted advisory pipelines plus consolidation-related transaction dilution.
+
+### Q1 2026 prints
+
+| Firm | Q1 net revenue | YoY | Headline | Stock May 1 | Move |
+|---|---|---|---|---|---|
+| [[Perella Weinberg Partners]] | $148.9M | -30% | Adj EPS $0.05 vs $0.17 cons; back-half guide | $20.61 | -9.4% (-4.2σ) |
+| [[Lazard]] | $757M | +17% | FA -4%; AM record +$9B inflows; [[Campbell Lutyens]] $575M | $45.13 | -6.9% (-3.1σ) |
+| [[Evercore]] | n/a | n/a | Pre-Q1 print soft | $316.79 | -1.4% |
+| [[Moelis]] | n/a | n/a | Pre-Q1 print soft | $64.76 | -0.6% |
+| [[Houlihan Lokey]] | n/a | n/a | Pre-Q1 print soft | $153.08 | -1.1% |
+
+### YTD 2026 cohort tracking (through May 1, 2026)
+
+![[boutique-advisory-peers-2026ytd-price-chart.png]]
+
+*PWP (blue, primary) vs MC, LAZ, EVR, HLI normalized from 2025-12-31. [[PJT Partners]] excluded — local price data stale at Apr 20, 2026.*
+
+| Ticker | YE2025 | Apr 30, 2026 | May 1, 2026 | Day move | YTD 2026 |
+|---|---|---|---|---|---|
+| PWP | $17.24 | $22.74 | $20.61 | -9.4% | +19.5% |
+| LAZ | $48.13 | $48.50 | $45.13 | -6.9% | -6.2% |
+| EVR | $339.38 | $321.29 | $316.79 | -1.4% | -6.7% |
+| MC | $68.06 | $65.12 | $64.76 | -0.6% | -4.9% |
+| HLI | $173.55 | $154.75 | $153.08 | -1.1% | -11.8% |
+
+PWP remains the YTD cohort leader despite the Q1 print drop — the +19.5% YTD reflects the early-year [[Gleacher Shacklock]] deal-funding signal more than the Q1 fundamentals. [[Houlihan Lokey]] is the worst performer at -11.8%, reflecting its restructuring concentration (the same deal-cycle drag without an offsetting M&A book). EVR, MC, HLI all clustered in -5% to -12% range. LAZ's relative performance through April reflected some Asset Management hope; the May 1 print rebased it back into the cohort's middle.
+
+### Cluster signal vs idiosyncratic noise
+
+The May 1 print decomposes into three readable layers:
+
+- **Cluster-wide drag.** Financial Advisory revenue softness is the common signal — same deal-cycle slippage, same back-half-weighted guide framing. PWP -30% rev was the most extreme expression but the direction was uniform across the listed independents.
+- **Idiosyncratic dispersion.** PWP's -9.4% one-day move was outsized vs LAZ -6.9% because PWP is pure-play advisory (no Asset Management offset) and the [[Gleacher Shacklock]] deal-funding optimism had already been priced in over the prior month. LAZ's -6.9% blended the FA miss with an AM beat ([[Lazard|+$9B inflows]], 20-yr high) that investors did not yet underwrite as durable.
+- **Consolidation-strategy continuity.** Both firms continued the buy-and-build playbook through the print: [[Lazard]] / [[Campbell Lutyens]] (~$575M + $85M earnout) was announced 2026-04-30 and integrated into the Q1 commentary. The deal-cycle drag is not slowing the M&A consolidation among the boutiques themselves.
+
+### Implications
+
+- The cohort moves together on cyclical M&A volume signals — useful for basket trades around deal-cycle inflections.
+- LAZ's Asset Management segment is the single biggest within-cohort idiosyncratic factor; [[Lazard|its $9B Q1 inflow inflection]] could decouple LAZ from the cyclical advisory beta if sustained for two more quarters. Watch the Q2 / Q3 AM reads.
+- The H2 2026 catalyst is whether the pipeline conversion management has been telegraphing actually prints; if it does not, the cohort re-derates as a structurally lower-margin business, not a deferred-recovery cyclical.
+- Within the listed cohort, [[Perella Weinberg Partners]] remains the clearest expression of the buy-and-build strategy, but its smaller scale and SPAC-era capital structure make the volatility highest in either direction.
+
+---
+
 ## Related
 
 - [[Perella Weinberg Partners]] — active buyer ([[Gleacher Shacklock]] 2026, [[Devon Park]] 2025, [[Tudor Pickering Holt]] 2016)
