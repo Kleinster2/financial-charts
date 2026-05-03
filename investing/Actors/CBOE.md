@@ -122,16 +122,39 @@ Cboe remains the largest options exchange group by market share. The landscape h
 
 ---
 
+## Q1 2026 earnings + 20% workforce reduction (May 1, 2026)
+
+CBOE reported Q1 2026 before the open on May 1, paired with the largest restructuring in the company's modern history.
+
+Earnings — record quarter:
+
+| Metric | Q1 2026 | YoY |
+|--------|---------|-----|
+| Net revenue | $728.9M | +29% (record) |
+| Diluted EPS | $3.66 | +54% |
+| Options franchise | volume surge | driven by [[VIX]] / SPX 0DTE |
+
+Restructuring — 20% workforce reduction (~334 of 1,670 employees), combined with earlier asset sales and wind-downs. Pre-tax restructuring charges $36-46M (Q2-Q4 2026 — primarily severance), targeting $40-50M annualized pre-tax cost savings. Stated rationale: refocus on core derivatives and index businesses, while expanding into [[Prediction markets|prediction markets]] and tokenization. FY2026 organic total net revenue growth target raised from "mid single-digit" to "low double-digit to mid-teens".
+
+Stock: CBOE closed May 1 at $324.95, +9.6% on the day to all-time high $328.77 (+5.0σ). The market read the layoff-plus-record-quarter pairing as a high-conviction capital-discipline signal: the layoffs are not distress-driven (record EPS) but rather a [[Block AI layoffs February 2026|deliberate operating-leverage reset]], freeing the savings for [[VIX]] derivatives and prediction-market expansion. The pattern echoes the [[Atlassian#March 2026 layoffs|TEAM March layoffs]] reframing — once the print + raise lands, layoffs get re-read as growth-funding rather than cost-distress.
+
+Strategic read: CBOE moving into prediction markets is the meaningful new vector — competing with [[Polymarket]] / [[Kalshi]] / Robinhood event contracts. The [[VIX]] / SPX 0DTE moats remain the protected core. The combination of [[Iran conflict portfolio hedging|Iran conflict-driven volatility]] and the persistent [[0DTE options]] flow set the floor under the volume franchise.
+
+*Sources: [CBOE Q1 2026 release](https://www.stocktitan.net/news/CBOE/cboe-global-markets-reports-results-for-first-quarter-2026-and-3rn9skd4m685.html), [Yahoo Finance — 20% layoff coverage](https://finance.yahoo.com/markets/stocks/articles/cboe-layoffs-exchange-cutting-20-133242402.html), [Global Banking & Finance — record after layoffs](https://www.globalbankingandfinance.com/cboe-cut-staff-20-exchange-operator-sharpens-focus-core/), [CoinSpectator — restructuring summary](https://coinspectator.com/mainstream/2026/05/01/cboe-reports-q1-eps-up-54-and-options-surge-20-job-cuts-signal-restructuring/), May 1 2026.*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | CBOE |
-| Market cap | ~$20B |
+| Market cap | ~$33B (May 1, 2026) |
 | Key product | [[VIX]], SPX options |
 | Sector | Financial infrastructure |
+| Workforce | ~1,336 post-restructuring (from 1,670) |
 
-*Created 2026-01-08*
+*Created 2026-01-08 · Updated 2026-05-02*
 
 ---
 

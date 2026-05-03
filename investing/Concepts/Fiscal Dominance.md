@@ -33,6 +33,16 @@ The US entered this territory gradually. Structural deficits driven by debt, dem
 
 ---
 
+## Late April 2026 — narrative crossing over to mainstream (Alden CNBC, Apr 28)
+
+[[Lyn Alden]] on CNBC (Apr 28, 2026): *"there is a narrative pivot about fiscal dominance afoot, with what was a relatively niche subject now more commonly referenced."* Her formulation: *"we have crossed into a new regime where fiscal dominance has taken hold, and the government's balance sheet now outweighs the central bank's in shaping the economy's direction."* Inflation will average above 2% target for years; recessions become shorter but inflationary rather than deflationary.
+
+The "narrative crossing" is itself an indicator — mainstream financial media now uses the term routinely, while two years ago it was a small-newsletter concept. Alden's CNBC framing matters less for the analytical content (it's been her thesis since 2023) and more as a marker that the fiscal dominance frame is now the consensus lens through which investors are reading the [[Q1 2026 GDP-PCE print|Q1 advance GDP +2.0% / headline PCE +4.5%]] dual signal: growth slowing while inflation reaccelerates is the textbook stagflation tilt that the fiscal-dominance regime predicts. The shift in mainstream usage tracks with the [[Adam Tooze]] Chartbook 444 framing of "rolling back the big Fed" — both pieces converge on the same regime claim from different starting points.
+
+*Source: [CNBC — Lyn Alden on fiscal dominance](https://www.cnbc.com/video/2026/04/28/lyn-alden-this-is-an-ongoing-symptom-of-fiscal-dominance.html), Apr 28 2026.*
+
+---
+
 ## 2026 oil shock — the regime's first test (Apr 2026)
 
 [[Ruchir Sharma]] ([[Rockefeller International]], FT Apr 6, 2026): the Iran-Hormuz shock is the first major crisis where governments enter with zero fiscal or monetary ammunition. The structural shift since the 1970s oil shocks:

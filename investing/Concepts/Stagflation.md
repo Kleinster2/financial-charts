@@ -31,6 +31,29 @@ The [[Iran conflict economic disruption|Iran conflict]] created textbook stagfla
 
 ---
 
+## Q1 2026 GDP / PCE print — first empirical confirmation (Apr 30, 2026)
+
+The [[Bureau of Economic Analysis|BEA]] Q1 2026 advance GDP release on Apr 30 produced the textbook stagflation signal — growth decelerating *and* inflation accelerating in the same quarter:
+
+| Metric | Q1 2026 | Q4 2025 | Direction |
+|--------|---------|---------|-----------|
+| Real GDP (annualized) | +2.0% | +0.5% | Acceleration vs prior quarter, but below 2.3% consensus |
+| GDP price index (gross domestic purchases) | +3.6% | +3.7% | Roughly flat |
+| Headline PCE | +4.5% | +2.9% | Sharp acceleration |
+| Core PCE | +4.3% | +2.7% | Sharp acceleration |
+| Headline PCE YoY (March monthly) | +3.5% | +2.8% (Feb) | Accelerating |
+| Core PCE YoY (March monthly) | +3.2% | +3.0% (Feb) | Accelerating |
+
+Read-through: the Q1 deflator print is dominated by the energy price flow-through from the late-Feb Iran war / Hormuz shock — the headline PCE roughly doubled from Q4. The growth side is the more nuanced read: the +2.0% advance estimate beat fears of a stall but missed the +2.3% consensus, and stripped of inventory and net-export volatility the underlying domestic demand pace is decelerating. Combined: the textbook *real growth slowing while inflation reaccelerates* signature.
+
+This is the empirical print [[Lyn Alden]]'s Apr 28 CNBC commentary on [[Fiscal Dominance|fiscal dominance]] was framing — the regime where the growth side cannot bail out the inflation side because the inflation impulse is supply-driven (energy) and the growth deceleration is demand-driven (consumer + business response to higher fuel and rates). Bond market response: term premium picked up modestly into May 1 even as front-end held, consistent with the [[Mike Wilson#May 1, 2026 — Bond volatility, not Iran, is the biggest equity risk|bond-volatility-as-the-real-risk]] framing.
+
+The print is also the first quarter where the [[Iran conflict economic disruption|Iran conflict]] shows up in headline US macroeconomic data, vs being visible only in market signals (oil prices, bond yields) and corporate disclosures. As the next two quarterly prints (Q2 in late July, Q3 in late October) layer in continued Hormuz disruption + war-premium pass-through, the question is whether the +2.0% growth side weakens further or stabilizes — a sustained sub-2% quarterly print with PCE running 4%+ would push the Stagflation regime call from "this quarter" to "this cycle."
+
+*Sources: [BEA Q1 2026 advance GDP release](https://www.bea.gov/news/2026/gdp-advance-estimate-1st-quarter-2026), [Wichita Liberty — GDP rebounds but inflation surges to 4.5%](https://www.wichitaliberty.org/economics/us-gdp-q1-2026-advance-estimate-inflation-stagflation/), [Benzinga — Core PCE jumps 3.2%](https://www.benzinga.com/markets/macro-economic-events/26/04/52168494/us-gdp-q1-pce-inflation-march-2026), Apr 30 2026.*
+
+---
+
 ## Consumer confidence divergence — five weeks in (Giles, FT, Apr 7)
 
 ![[consumer-confidence-2022-vs-2026.png]]

@@ -358,6 +358,28 @@ Gurman confirms WWDC 2026 will be almost entirely focused on the [[Siri]] chatbo
 
 ---
 
+## Q2 FY2026 earnings — record March quarter, $100B buyback (May 1, 2026)
+
+Apple reported its fiscal Q2 (March quarter) after the close on Apr 30. Revenue $111.2B (+17% YoY) — a record for any March quarter and ahead of the $109.66B consensus. Diluted EPS $2.01 (+22%) vs $1.95 expected. Gross margin 49.3%.
+
+Segment detail (March quarter records in iPhone, Services, Mac):
+
+| Segment | Q2 FY26 | YoY |
+|---------|---------|-----|
+| iPhone | $56.99B | +22% |
+| Services | $30.98B | +16% (all-time high) |
+| Mac | $8.4B | — |
+| iPad | $6.91B | — |
+| Wearables/Home/Acc. | $7.9B | — |
+
+Q3 (current quarter) revenue guide: +14% to +17% YoY vs ~9.5% Street consensus — well above. Capital return: board authorized an additional $100B share repurchase program (matching last year's authorization), and raised the quarterly dividend 4% to $0.27/share (record May 11, payable May 14). Apple is reportedly preparing its first corporate bond issuance since 2023 to help fund the buyback. AAPL closed +3.2% to $282.30 on May 1 (+2.7σ on a low-vol name).
+
+Tim Cook framing on the call emphasized iPhone strength in [[China]] and Services as a growth lever. The print extends the [[Apple#Nasdaq decoupling — the "anti-AI" trade (Feb 2026)|"anti-AI" framing]] from February — Apple keeps delivering hardware-led growth without the [[Hyperscaler capex|capex burden]] weighing on Big 4 hyperscaler EPS. CFO Kevan Parekh's continued "managing costs well" tone on memory cost flow-through reinforces the thesis that Apple's scale insulates it from the [[Memory shortage 2025-2026|DRAM crunch]] hitting [[Dell]]/[[HP Inc.]]/[[Lenovo]].
+
+*Sources: [Apple Investor Relations release](https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/), [CNBC pre-print preview](https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html), [Yahoo Finance recap](https://finance.yahoo.com/news/apple-stock-rises-after-q2-earnings-top-estimates-on-strong-iphone-china-sales-174442778.html), [GuruFocus Q2 summary](https://www.gurufocus.com/news/8838256/apple-reports-strong-q2-2026-results-stock-surges-aapl), [Alphastreet — $100B buyback recap](https://news.alphastreet.com/apple-aapl-posts-111-2b-quarter-as-services-hit-a-record-and-a-100b-buyback-resets-capital-return-expectations/), Apr 30-May 1 2026.*
+
+---
+
 ## For theses
 
 [[Long TSMC]]: Apple relationship proves co-design moat depth

@@ -104,6 +104,19 @@ The real question: do AI agents leapfrog the SaaS layer entirely in China — go
 - The shift from human users to AI agent users is the most underappreciated structural change — SaaS pricing models (per-seat) break down when the "user" is an API call
 - Infrastructure is the clear winner, but the infrastructure layer is also consolidating fast — the gap between [[OpenAI]]/[[Anthropic]]/[[Google DeepMind]] and everyone else is widening
 
+## "New Industrial Order" framing (Aurelion Research, May 1, 2026)
+
+Aurelion Research published a SaaS Primer on May 1 ("SaaS: The New Industrial Order") arguing the disruption is not just about which products survive but about a structural change in *the unit economics of the entire SaaS sector*: a shift from capital-light compounding to capital-intensive maintenance. The pre-AI SaaS playbook relied on fixed software cost amortized across growing seat counts — high gross margins, decelerating capex, compounding free cash flow. Under AI agent traffic and disrupted seat-based pricing:
+
+- Fixed software costs no longer amortize cleanly because product surface area expands to cover agent-callable APIs in addition to human-facing UIs
+- Inference costs become a variable cost layer (not zero) that scales with agent workload
+- Customer success and security overhead expand because every agent integration is a new attack surface ([[Iran conflict semiconductor energy risk|cybersecurity]] tail-event exposure compounds — see [[The Register]] coverage of pro-Iran 313 Team DDoS and AI-supply-chain attacks)
+- Pricing-model transition (consumption / outcome-based) reprices revenue downward before unit economics re-stabilize
+
+The "New Industrial Order" frame complements the segment-by-segment table above by adding a *time dimension*: it's not just "horizontal dies, vertical lives" but also "the survivors operate on industrial-scale economics with capex burdens that resemble [[Hyperscaler capex|hyperscaler infrastructure]] more than the legacy software-margin profile." [[Atlassian]]'s Q3 FY2026 print (May 1) and [[Twilio]]'s Q1 2026 print (Apr 30) — both with accelerating growth and Google Cloud / [[Sierra]] / [[Bland.ai]] AI-native customer wins — sit on the survivors' side of this divide; [[Roblox]]'s Q1 2026 DAU miss + bookings cut and [[Ryan Specialty]]'s margin compression / guide cut sit on the disrupted side.
+
+*Source: [Aurelion Research — SaaS Primer: The New Industrial Order](https://aurelionresearch.substack.com), May 1 2026.*
+
 ## Related
 
 - [[OpenAI]] — foundation model infrastructure

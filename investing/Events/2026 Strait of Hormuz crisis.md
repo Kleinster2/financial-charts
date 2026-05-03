@@ -362,6 +362,22 @@ Most vulnerable quadrant (high GDP exposure + high Gulf share): [[Japan]], [[Sou
 - Operational minimum: ~842M bbl (~30 days forward refinery demand) — reached late April / early May
 - At operational minimum: "prices — not inventories — become the primary balancing tool"
 
+## Late Apr / early May 2026 — first real cargo movement, "blockade priced, reopening not"
+
+Two complementary framings emerged in the last days of April through May 1-2:
+
+Physical: cargoes are starting to move. [[Felipe Germini]]'s [ENERGY Pipeline](https://fgermini.substack.com) substack reported on Apr 30 ("The Strait That Broke the Textbook") that two cargoes had crossed the Strait — the first observed live transits since the selective-regime / blockade phase began. The volume is not yet material relative to the ~14 mb/d effective loss, but the signal is operationally important: insurers, charterers, and port authorities are testing the corridor in real conditions, which is the first prerequisite for any meaningful Tier-1 re-flow.
+
+Financial: front-end mispriced symmetrically. Germini's May 1 piece ("The Market Has Priced the Blockade. It Hasn't Priced the Reopening") argues that the front month of the [[Brent crude|Brent]] curve has anchored to the blockade scenario but failed to price the asymmetric upside if reopening proceeds (rapid backwardation collapse + product slate normalization), or the asymmetric downside if blockade enforcement intensifies. This pairs with the [[Helima Croft#Late April 2026 — 12.5M b/d disrupted, "fine print" on reopening|Croft "fine print" framing]] (12.5M b/d disrupted; insurer/shipper certainty needed before tankers move) and the [[Carolyn Kissane|Carolyn Kissane "Go Your Own Way"]] piece on UAE OPEC exit reducing the cartel's market-buffer role.
+
+The combined read: front-month pricing is unstable on both sides — both reopening tail and continued-blockade tail are under-priced. The Apr 30 [[Felipe Germini|Germini]] / Apr 30 Croft (12.5M b/d) / May 1 Germini (reopening unpriced) sequence sets up the May FOMC + early-May tape as the next test of which tail dominates.
+
+OPEC framing — Germini "OPEC for Dummies" (May 1): "The most powerful cartel in history is looking for an exit." Reads alongside [[2026 UAE OPEC exit]] and [[OPEC fragmentation]] as confirmation that the post-Hormuz Gulf order does not return to the pre-war OPEC+ coordination — the [[Saudi Arabia|Saudi]]-[[UAE]] split is now formal, and Russia's [[Ust-Luga]]/[[Primorsk]] degradation removes the second-largest non-OPEC swing producer's flexibility. The cartel's monetary signal-and-control function is structurally degraded.
+
+*Sources: [Felipe Germini — The Strait That Broke the Textbook](https://fgermini.substack.com), [Felipe Germini — Market Has Priced the Blockade](https://fgermini.substack.com), [Felipe Germini — OPEC for Dummies](https://fgermini.substack.com), Apr 30-May 1 2026; [Carolyn Kissane — Go Your Own Way](https://carolynkissane157206.substack.com), Apr 29 2026.*
+
+---
+
 ## Watch for
 
 - [ ] Asian GDP revisions — IMF Apr 16 kept Asia at 4.4% / 4.2% under transient-shock assumptions, but confirmed higher inflation and weaker external balances
@@ -371,6 +387,8 @@ Most vulnerable quadrant (high GDP exposure + high Gulf share): [[Japan]], [[Sou
 - [ ] Russian supply compounding: [[Ust-Luga]]/[[Primorsk]] drone damage reducing alternative supply
 - [ ] Insurance market repricing — P&I clubs' annual renewal decisions
 - [ ] SPR depletion trajectory — 400M bbl released, finite remaining capacity
+- [ ] Brazil diesel cliff — May 2026 Brazilian diesel shortage from refining slate disruption (Felipe Germini Apr 29: "Three Cargoes, No Buyers, Thirty Days") — Petrobras/refining-margin first-order test
+- [ ] Cargo-flow rate watch — count of monthly Hormuz transits as Apr 30 "two cargoes" sample expands (or doesn't); a real-time read on whether the corridor opens beyond test cases
 
 ## Analyst reaction to ceasefire (Apr 8)
 

@@ -153,6 +153,18 @@ That target clarifies how bullish Wilson's April commentary actually is. The the
 
 ---
 
+## May 1, 2026 — Bond volatility, not Iran, is the biggest equity risk
+
+In post-earnings-week commentary on May 1 (Daily Hodl recap), Wilson reframed his risk hierarchy: the biggest threat to the equity rally is bond market volatility, not the Iran conflict. Specifically, if the [[MOVE Index|MOVE]] / Treasury volatility regime picks up again — whether due to Iran, fiscal-policy concerns ([[Kevin Warsh|Warsh confirmation]] uncertainty, [[Fiscal Dominance|fiscal dominance]] anxieties), or supply-driven term-premium expansion — that becomes the multiple-compression headwind that overrides the underlying earnings backdrop.
+
+This is consistent with the Apr 24 / Apr 27 [[Kevin Warsh|Warsh DOJ-clearance + Tillis flip]] sequence narrowing the rate-path uncertainty premium, which in turn supported the Apr 30-May 1 SPX all-time-high run (Apr 30: 7,209.01; May 1: 7,230.12). Wilson's framing implies that as long as bond volatility stays compressed, equity multiples can hold even with episodic Iran headlines. The downside scenario he flags is a bond vol spike — not a war headline.
+
+The May 1 view extends his "lows are in" call from Apr 14 (now seven consecutive weekly bullish iterations) by separating sources of risk. The S&P 500 closed Apr at the best monthly performance since 2020 — Caterpillar Q1 backlog, Alphabet/Microsoft cloud growth, Apple buyback all reinforced the earnings-led case Wilson laid out in March-April.
+
+*Source: [The Daily Hodl recap of Wilson commentary](https://dailyhodl.com/2026/05/01/morgan-stanley-cio-mike-wilson-says-one-factor-could-pose-massive-risk-to-stocks-and-its-not-the-iran-conflict/), May 1 2026.*
+
+---
+
 ## Related
 
 - [[Morgan Stanley]] · [[S&P 500]] · [[Earnings Estimates]]

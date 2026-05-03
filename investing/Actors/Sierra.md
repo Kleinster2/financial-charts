@@ -3,7 +3,9 @@ aliases: []
 ---
 #actor #ai #enterprise #usa #private
 
-**Sierra** — AI customer service. Bret Taylor (OpenAI Chairman) + Clay Bavor (ex-Google). $1B valuation.
+Sierra — AI customer service. Bret Taylor (OpenAI Chairman) + Clay Bavor (ex-Google). $1B valuation.
+
+Named as a [[Twilio]] Q1 2026 customer win (Apr 30 2026 earnings release), alongside [[Bland.ai]] (voice-AI agent peer) and [[KPN]] (Dutch telecom). The Twilio partnership routes Sierra's AI-customer-service voice traffic through Twilio's SMS/voice/Verify API stack — the kind of layered AI-agent-on-CPaaS architecture that drove Twilio's fastest organic-growth quarter since 2022 in Q1 2026. See [[AI SaaS Disruption]] "New Industrial Order" framing for sector context.
 
 ---
 

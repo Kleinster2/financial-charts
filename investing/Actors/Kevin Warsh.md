@@ -211,6 +211,16 @@ Bloomberg "The China Show" (Apr 27) framed this as setting the stage for a faste
 
 ---
 
+### May 2, 2026 — Adam Tooze on "Rolling back the big Fed"
+
+[[Adam Tooze]]'s Chartbook 444 (published ~May 1-2 per substack archive) frames Warsh's nomination through the lens of the conservative legal and intellectual project to "roll back the big Fed" — i.e. to constrain the Federal Reserve's expanded crisis-era roles in macroprudential regulation, last-resort lending, balance sheet operations, and global swap-line provision. Tooze's argument is that Warsh has been a long-running participant in this intellectual current (Hoover Institution, conservative monetary critique) and that his confirmation represents not a personnel shift but an institutional shift — one that compounds with the broader administrative-state critique driving Trump-era regulatory policy.
+
+The framing is complementary to the [[Kevin Warsh#Structural risks (Sandbu analysis)|Sandbu structural-risks analysis]] from January (the job has changed, not just the person). Where Sandbu emphasized political pressure, Tooze emphasizes intellectual lineage: Warsh is one of the architects of the framework that says the Fed should *do less*, not just be *more independent*. The combination — political pressure from the executive branch + intellectual mandate to retreat from expanded post-2008 functions — creates a doubly-constrained Fed, with implications for [[Standing Repo Facility]] capacity, swap-line availability in dollar-funding stress, and global-bank regulation harmonization. Compounds [[Bessent]]'s Apr 2026 framing about wanting BoE-style "step in / stabilize / step away" balance-sheet management.
+
+*Source: [Adam Tooze, Chartbook 444 — Rolling back the "big Fed"](https://adamtooze.substack.com), ~May 1-2 2026.*
+
+---
+
 ## Balance sheet views (from Bessent, April 2026)
 
 Bessent on implementing the Warsh vision of a smaller Fed balance sheet: "Very difficult to get to a much smaller balance sheet from here." Regime shift to ample reserves would require banking regulation changes, which "could be done through the agencies" rather than needing Congress. Bessent admires the [[Bank of England]] QE approach — "step in during a market dislocation, stabilize the market, then move away" — and claims BoE "probably made a lot of money on their bond trading" vs. the Fed losing "$100 billion a year because they purchased so much at such terrible prices." See [[Fed balance sheet QT]].

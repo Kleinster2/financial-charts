@@ -136,6 +136,22 @@ That is a useful refinement of her earlier framework. Croft is not simply arguin
 
 ---
 
+## Late April 2026 — 12.5M b/d disrupted, "fine print" on reopening
+
+Two related Croft framings emerged in mid-to-late April that quantify the crisis and warn against premature optimism:
+
+Volume disruption: about 12.5M b/d of Middle East oil is not reaching the market due to the ongoing Strait of Hormuz disruption. This compares to the ~17-21M b/d that normally transits Hormuz pre-war — implying ~60-70% of normal transit is impaired, even though some cargoes (per [[Felipe Germini]] "The Strait That Broke the Textbook" Apr 30) are now beginning to test the corridor. Croft separately emphasizes that effective spare capacity is concentrated in [[Saudi Arabia]] and the [[UAE]], and that export constraints — particularly if Hormuz navigation remains impaired — limit how much additional crude can reach markets even with the [[2026 UAE OPEC exit|UAE outside OPEC quotas]].
+
+Reopening fine print: in mid-April CNBC commentary, Croft noted *"the fine print of the agreement will matter"* — *"if Iran continues to have the final say on passage, some insurers and shippers may be reluctant to rush back in."* This is the same "diplomatic de-escalation ≠ physical normalization" thread from Apr 16, but sharper on the operative variable: insurance underwriters and shipping companies need legal/regulatory certainty before tankers move, not just absence of fire.
+
+Agreement with broader picture: Per CNN ([May 1](https://www.cnn.com/2026/05/01/business/oil-market-price-high-low-iran)) Croft framing, *"the White House has been very successful in convincing a corner of the market that the war will be over soon"* — implying the front-of-curve oil price reflects diplomatic narrative more than physical constraint. The position is consistent with her 5-phase progression: market is pricing peace faster than the molecules can confirm it.
+
+The Apr 30 [[Felipe Germini]] piece "The Market Has Priced the Blockade. It Hasn't Priced the Reopening" is the strategist-side complement to Croft's analyst framing: the front month is mispriced *both* for the slow re-flow (Croft) *and* for the supply normalization that would follow (Germini).
+
+*Sources: [CNN — weirdest aspect of Iran war oil prices](https://www.cnn.com/2026/05/01/business/oil-market-price-high-low-iran), [CNBC video — caveats around Hormuz reopening](https://www.cnbc.com/video/2026/04/17/caveats-around-strait-of-hormuz-reopening-are-critical-says-rbcs-helima-croft.html), late April 2026.*
+
+---
+
 ## Related
 
 - [[RBC Capital]] — employer

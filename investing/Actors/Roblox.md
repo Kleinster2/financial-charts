@@ -128,9 +128,22 @@ RBLX shows moderate Technology correlation (XLK r = 0.52).
 
 ---
 
+## Q1 2026 earnings — DAU miss, FY bookings cut $900M (Apr 30, 2026)
+
+Roblox reported Q1 2026 after the close on Apr 30. Revenue $1.73B beat estimates ($1.72B consensus) and net loss of $0.35/share narrower than -$0.39 expected. The damage was on the operating metrics: DAUs **132M** vs 143.8M consensus (second consecutive quarterly decline), Q1 bookings $1.73B slightly below expectations.
+
+Full-year 2026 bookings guide cut to $7.33-7.6B vs prior $8.28-8.55B — a midpoint reduction of ~$900M, sitting ~$900M below analyst consensus of $8.38B. The size of the cut surprised the buy side; the framing was that the rollout of stricter age-verification and other safety-related platform changes had unintended engagement consequences (limiting communication features for unverified users → lower retention and onboarding).
+
+Stock close: RBLX $45.90 on May 1, -16.9% on the day (-5.3σ) on heavy volume. [[HSBC]] downgraded RBLX from Buy to Hold same day. The pattern is symmetric with what played out at [[Atlassian]]/[[Twilio]] this week but inverted: where AI distribution + product-channel fit lifted TEAM and TWLO, RBLX's miss is a product-driven engagement story (age-verification compliance friction) rather than an AI thesis test. The DAU trajectory matters more than the bookings cut — DAUs declining for a second consecutive quarter is the first time the platform's network effect has visibly decelerated.
+
+*Sources: [Roblox Q1 2026 results press release](https://ir.roblox.com/financials/quarterly-results/default.aspx), [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/04/30/roblox-rblx-q1-2026-earnings-call-transcript/), [Benzinga — why Roblox tanks](https://www.benzinga.com/markets/earnings/26/04/52199122/roblox-stock-tanks-after-q1-earnings-report-heres-why), [Motley Fool guidance cut recap](https://www.fool.com/coverage/stock-market-today/2026/05/01/stock-market-today-may-1-roblox-shares-plunge-after-cutting-full-year-and-2026-bookings-guidance/), Apr 30-May 1 2026.*
+
+---
+
 ## Sources
 
 - [Roblox Q3 2025](https://ir.roblox.com/news/news-details/2025/Roblox-Reports-Second-Quarter-2025-Financial-Results/)
 - [Variety Q3 2025](https://variety.com/2025/digital/news/spotify-q3-2025-700-million-monthly-users-daniel-ek-1236569360/)
+- [Roblox Q1 2026](https://www.benzinga.com/markets/earnings/26/04/52199122/roblox-stock-tanks-after-q1-earnings-report-heres-why)
 
-*Created 2026-01-09*
+*Created 2026-01-09 · Updated 2026-05-02*

@@ -138,5 +138,24 @@ BMY shows moderate Healthcare correlation (XLV r = 0.53).
 
 - [BMS investor relations](https://www.bms.com/investors.html)
 - Barron's (Jack Hough), Jan 23 2026
+- [BMY Q1 2026 release PDF](https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2026/BMY-Q1-2026-Earnings-Press-Release.pdf)
 
-*Updated 2026-01-23*
+---
+
+## Q1 2026 earnings — Eliquis defense holding (Apr 30, 2026)
+
+BMY reported Q1 2026 before the open on Apr 30. Revenue $11.5B (+3%), GAAP EPS $1.31, non-GAAP EPS $1.58. The mix is the story — Growth Portfolio vs Legacy Portfolio:
+
+| Portfolio | Q1 2026 revenue | YoY |
+|-----------|-----------------|-----|
+| Growth Portfolio | $6.2B | +12% |
+| Legacy Portfolio | $5.3B | -6% |
+| Eliquis (worldwide) | $4.1B | +16% |
+
+Reaffirmed FY2026 non-GAAP guide: total revenue ~$46.0-47.5B, diluted EPS $6.05-$6.35, with both trending toward upper end. Management framing: Eliquis still the dominant single-drug contributor, holding up well into 2026 patent expiration year.
+
+Stock reaction was muted (no statistically unusual move on Apr 30/May 1). The thesis-relevant question for the vault is the trajectory of Growth Portfolio vs Legacy Portfolio: +12% vs -6% in Q1 implies the crossover where Growth absorbs Legacy decline arrives by ~2027-2028, consistent with the management "return to growth by end of decade" framing. The [[Patent cliffs|steepest-cliff-in-Big-Pharma]] thesis is intact, but the Q1 print suggests the cliff is being navigated rather than free-falling.
+
+Eliquis 2026 LOE timing is the binary item the next two prints will test — Q1 still showed +16% YoY, but the patent cliff timing means the Q3-Q4 prints are when the generic erosion shows in the run rate.
+
+*Updated 2026-05-02*

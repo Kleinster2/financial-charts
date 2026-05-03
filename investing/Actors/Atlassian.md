@@ -252,11 +252,24 @@ Bear:
 
 ---
 
+## Q3 FY2026 earnings — Google Cloud partnership reset (May 1, 2026)
+
+TEAM reported fiscal Q3 (March quarter) after the close on Apr 30. Revenue $1.79B (+32% YoY) — the highest growth quarter in three years. Cloud revenue +29% YoY (a second consecutive quarter above $1B), Data Center +44% YoY (the legacy segment reaccelerated rather than running off). Non-GAAP EPS $1.75, well above consensus $1.05. RPO continued to expand vs the $3.8B Q2 FY26 print. FY2026 total revenue guide raised from ~22% to ~24% growth; non-GAAP operating margin guide ~29%.
+
+Strategic news on the call: next phase of the multi-year [[Google Cloud]] partnership announced at Cloud Next '26 — [[Gemini 3 Flash]] embedded in Rovo, deeper Workspace and [[Gemini Enterprise]] integrations, and Atlassian named 2026 Google Cloud Partner of the Year (Application Development). Effectively a doubling-down on Google AI as the model layer underneath Rovo, vs developing in-house frontier models. Reads as a bet that distribution + workflow context (Jira/Confluence install base) is the SaaS moat, not the model.
+
+Stock close: TEAM $86.69 on May 1, +26.4% on the day (+5.7σ) — the bottom-fishing trade vs the prior [[Atlassian#Stock reaction|70% drawdown to ~$73]] played out hard once the print + raise + Google deal landed in one print. The cumulative recovery from the [[Atlassian#March 2026 layoffs|March 11 layoff trough]] near $73 to $86.69 is now ~18% on a +28% earnings-day jump. The "AI washing" critique gets reframed retrospectively if Rovo + Gemini integration translates to durable accelerating growth.
+
+*Sources: [Atlassian Q3 FY26 release](https://investors.atlassian.com/), [CNBC](https://www.cnbc.com/2026/05/01/atlassian-team-q3-stock-2026-earnings.html), [Motley Fool — Why Atlassian Stock Just Exploded](https://www.fool.com/investing/2026/05/01/why-atlassian-stock-just-exploded/), [Investing.com transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-atlassian-beats-q3-2026-forecasts-stock-dips-93CH-4651640), May 1 2026.*
+
+---
+
 ## Sources
 
 - [Atlassian official blog post](https://www.atlassian.com/blog/announcements/atlassian-team-update-march-2026)
 - [CNBC: Atlassian slashes 10% of workforce](https://www.cnbc.com/2026/03/11/atlassian-slashes-10percent-of-workforce-to-self-fund-investments-in-ai.html)
 - [TechCrunch: Atlassian follows Block's footsteps](https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/)
 - [Atlassian Q2 FY2026 Earnings](https://www.stocktitan.net/news/TEAM/atlassian-announces-second-quarter-fiscal-year-2026-xjsum98ztaoc.html)
+- [Atlassian Q3 FY2026 Earnings](https://www.fool.com/investing/2026/05/01/why-atlassian-stock-just-exploded/)
 
-*Created 2026-01-09 · Updated 2026-03-13*
+*Created 2026-01-09 · Updated 2026-05-02*

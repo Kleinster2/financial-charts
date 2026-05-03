@@ -181,4 +181,18 @@ Bear:
 
 ---
 
-*Created 2026-01-16 · Updated 2026-02-11*
+## Q1 2026 earnings — fastest organic growth since 2022 (Apr 30, 2026)
+
+Twilio reported Q1 2026 after the close on Apr 30. Revenue $1.41B (+20% reported, +16% organic) — fastest organic growth quarter since 2022. Non-GAAP gross profit $697M (+16%, also fastest since 2022), non-GAAP operating income a record $279M (+31%), non-GAAP EPS $1.50 vs $1.27 consensus. GAAP operating income $108M.
+
+Customer wins called out: [[Sierra]], [[Bland.ai]], [[KPN]] Netherlands, PGA of America, Scorpion, TeleVox, Aloware, Grupo ProTG, Posh, Sella AI, Solace; a "historic professional sports league" signed a seven-figure Verify deal. Capital returns: $253M repurchases in Q1, $900M remaining on authorization. Management raised 2026 reported and organic revenue guide, non-GAAP operating income guide, and free cash flow guide.
+
+Stock close: TWLO $177.41 on May 1, +19.8% on the day (+6.4σ) — the highest-conviction "AI tailwind on top of CPaaS" tape since the Khozema Shipchandler-led inflection began. The thesis-validating point is that organic growth (16%) is now visibly above the prior reported pace, suggesting the new conversational-AI workloads ([[Sierra]], [[Bland.ai]], voice agents) are layering on top of the legacy SMS/voice/Verify base rather than cannibalizing it. The activist-driven cost discipline from 2024 is showing through in the 31% non-GAAP operating income growth.
+
+This print reinforces the Aurelion Research [[AI SaaS Disruption|"SaaS Industrial Order"]] frame from a different angle: TEAM and TWLO this week became the first two large SaaS names to print accelerating growth + raised guides, against a broader thesis that AI is *compressing* SaaS economics. The differentiator vs [[Roblox|RBLX]] / [[Ryan Specialty|RYAN]] / large-cap SaaS deceleration is product-channel fit with the AI workload (TWLO = communication APIs, TEAM = developer workflow). Communications-as-API and dev-workflow are categories where AI agent traffic *adds* volume rather than replaces seats.
+
+*Sources: [Twilio Q1 2026 release](https://investors.twilio.com/news-releases/news-release-details/twilio-announces-first-quarter-2026-results), [Q1 results PDF](https://investors.twilio.com/static-files/3b37c9fd-2d31-408b-975e-2736a99239a5), [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/04/30/twilio-twlo-q1-2026-earnings-transcript/), [GuruFocus summary](https://www.gurufocus.com/news/8833822/twilio-twlo-reports-strong-q1-earnings-beats-expectations), Apr 30 2026.*
+
+---
+
+*Created 2026-01-16 · Updated 2026-05-02*

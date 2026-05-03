@@ -204,3 +204,15 @@ The cut wave is the first observable demand-destruction step but it does not by 
 The market read: airline capacity cuts are necessary but not sufficient for crude rebalancing. The next-leg signal to watch is layer-2 (diesel/gasoline trucking and consumer pass-through) and layer-3 (naphtha to petrochemicals — [[BASF]] 30% Mar 19 hike was the early evidence).
 
 *Source: FT, "Why flying less won't do much to ease the oil crisis" (Apr 27, 2026); chart from [[Argus Media]] via FT.*
+
+---
+
+## May 2 — Spirit Airlines shutdown
+
+[[Spirit Airlines]] ceased all operations effective Saturday May 2, 2026 — the **first US-airline shutdown attributable to the Iran war jet fuel shock**. The carrier was already structurally distressed (two bankruptcies in <12 months, second filing Aug 2025), but a Feb 2026 creditor-supported emergence plan was modeled against pre-war fuel prices. The Iran war's jet fuel shock through March-April 2026 reset the unit economics, and a $500M White House bailout package collapsed Apr 30 when a key creditor group rejected the government taking equity control. Roughly 17,000 employees displaced; ~9% of US ULCC domestic capacity removed.
+
+Sector read-through: Spirit was the unhedged ULCC outlier. The watch list for the next-most-fragile carriers (per the [[Iran conflict airline disruption#Hedging exposure|hedging exposure table]] above): [[Wizz Air]] (Europe), [[Frontier Airlines]] / [[Allegiant Travel]] / [[JetBlue]] (US), China Big Three / [[IndiGo]] (Asia state-backed offset). On the demand side, Spirit's 200+ A320-family jets become available to lessors ([[AerCap]], [[Air Lease Corp]]) and competitors get pricing power on Spirit's vacated routes.
+
+See [[2026 Spirit Airlines shutdown]] for full timeline, sector impact, and watch list.
+
+*Source: CNN, Bloomberg, Axios, NPR (May 1-2, 2026).*

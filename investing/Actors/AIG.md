@@ -102,6 +102,28 @@ Bear:
 
 ---
 
+## Q1 2026 earnings — underwriting income tripled (Apr 30, 2026)
+
+AIG reported Q1 2026 before the open on Apr 30. The General Insurance turnaround story compounded:
+
+| Metric | Q1 2026 | YoY |
+|--------|---------|-----|
+| Adjusted after-tax EPS | $2.11 | +80% (vs $1.89 est, +11.6% beat) |
+| Core operating ROE | 12.2% | — |
+| GI net premiums written | $5.6B | +24% reported / +18% constant |
+| GI underwriting income | $774M | +3.2x ($243M Q1 2025) |
+| Calendar-year combined ratio | 87.3 | improved 8.5 pts (from 95.8) |
+
+Segment NPW growth: NA Commercial +36%, International Commercial +12%, Global Personal +11% — supported by strategic transactions, reinsurance program changes, and organic growth in targeted areas. Capital returns: $760M total in Q1 ($519M buybacks of ~7M shares; $241M dividends). Board declared quarterly dividend of $0.50/share, +11% — fourth consecutive year of double-digit dividend growth.
+
+Stock: AIG closed May 1 at $78.67, +5.2% on the day (+3.8σ on a low-vol name). The market read the print as confirmation that the [[AIG#Business segments|NA Commercial turnaround]] (combined ratio from 95.8 → 87.3) is durable, not a single-quarter blip. Underwriting income tripling YoY with the calendar-year combined ratio improving 8.5 points lifts AIG's earnings power closer to the [[Chubb]] benchmark, narrowing the structural valuation discount that has persisted post-2008.
+
+Iran-conflict context: the [[2026 Strait of Hormuz crisis|Hormuz crisis]]-driven [[Iran conflict insurance impact|war-risk repricing]] has been a tailwind to specialty premiums but the Q1 print pre-dates most of the war-risk premium flow-through (war started late February; the $20B [[US Development Finance Corporation|DFC Gulf reinsurance program]] is just becoming operational). The Q1 calendar-year CR includes minimal Gulf-war reinsurance contribution — the upside scenario is that Q2-Q3 prints layer in war-risk premium income on top of the underlying franchise improvement.
+
+*Sources: [AIG Q1 2026 release PDF](https://www.aig.com/content/dam/aig/america-canada/us/documents/investor-relations/earnings-result/aig-reports-1q26-results.pdf), [Morningstar release](https://www.morningstar.com/news/business-wire/20260430786620/aig-reports-excellent-first-quarter-2026-results), [Insurance Business — underwriting tripled](https://www.insurancebusinessmag.com/asia/news/breaking-news/aig-supercharges-profit-as-underwriting-income-more-than-triples-in-q1-573732.aspx), [GuruFocus call highlights](https://www.gurufocus.com/news/8838803/american-international-group-inc-aig-q1-2026-earnings-call-highlights-strong-growth-and-strategic-advancements), Apr 30 2026.*
+
+---
+
 ## Related
 
 - [[Chubb]] — competitor (commercial P&C), lead underwriter on DFC Gulf program that AIG is absent from
@@ -117,4 +139,4 @@ Bear:
 
 ---
 
-*Updated 2026-03-12*
+*Updated 2026-05-02*

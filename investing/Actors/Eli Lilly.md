@@ -39,6 +39,37 @@ Mounjaro and Zepbound driving volume growth. CEO Ricks: "2025 was an important y
 
 ---
 
+## Q1 2026 earnings — Mounjaro +125%, FY guide raised (Apr 30, 2026)
+
+LLY reported Q1 2026 before the open on Apr 30. Worldwide revenue $19.8B (+56% YoY), adj EPS $8.55 vs $6.66 consensus — by far the largest beat among April-30-reporting large-caps.
+
+| Metric | Q1 2026 | YoY |
+|--------|---------|-----|
+| Worldwide revenue | $19.8B | +56% |
+| Mounjaro WW revenue | $8.66B | +125% (US: $4.2B; vs $7.26B WW est) |
+| Zepbound US revenue | $4.16B | +80% |
+| US revenue | $12.1B | +43% (+49% volume) |
+| Ex-US revenue | $7.7B | +81% (+95% volume) |
+| Adj EPS | $8.55 | beat $6.66 |
+
+Full-year 2026 guidance raised:
+
+| Metric | New range | Prior |
+|--------|-----------|-------|
+| FY26 revenue | $82-85B | $80-83B |
+| FY26 adj EPS | $35.50-$37.00 | (raised) |
+
+Stock: LLY closed Apr 30 +9% (sector-anchoring move) and held through May 1. The Mounjaro +125% YoY revenue print on a ~$8.66B base is the cleanest read on the GLP-1 demand-curve still being volume-constrained rather than demand-saturated. At Q1 annualized, Mounjaro alone runs at ~$35B/year — nearly the size of [[Amgen]]'s entire 2025 revenue base.
+
+The competitive read for the vault:
+- vs [[Novo Nordisk]]: divergence accelerating — Novo guided -5% to -13% sales decline for 2025; Lilly Q1 +56%. Lilly's US GLP-1 share advantage compounds with manufacturing capacity advantage and patent runway.
+- vs [[Amgen]] [[MariTide]]: Lilly's Q1 2026 print landed the *same day* as Amgen's [[Tavneos]] FDA withdrawal proposal and Q1 print; the gap between the GLP-1 leader and the late-entrant monthly-dosing challenger widened materially.
+- vs [[Foundayo]] (oral small-molecule): the launch begins to layer on top of injectable Mounjaro/Zepbound, expanding TAM rather than cannibalizing.
+
+*Sources: [Lilly Q1 2026 release](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-first-quarter-2026-financial-results-raises-full), [Yahoo Finance — Mounjaro/Zepbound drive results](https://finance.yahoo.com/sectors/healthcare/articles/eli-lilly-q1-2026-earnings-111020291.html), [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/04/30/eli-lilly-lly-q1-2026-earnings-transcript/), [Benzinga — guidance raised](https://www.benzinga.com/markets/earnings/26/04/52180776/eli-lilly-raises-2026-outlook-on-strong-mounjaro-and-zepbound-demand), Apr 30 2026.*
+
+---
+
 ## Why Eli Lilly matters
 
 | Metric | Value |
