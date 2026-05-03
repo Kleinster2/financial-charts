@@ -1,0 +1,30 @@
+# Platform cyber sub-cluster — cyber pure-plays with platform business models
+# Hypothesis: the algorithmic cluster surfaced in BOTH SCP partial-validation and
+# Cyber consolidation falsification. Tight 3-name core (CRWD, PANW, ZS) appeared
+# with OKTA/S/TENB/SNOW/IGV pulled in as adjacencies in those tests.
+# This config tests whether {CRWD, PANW, ZS} alone is a tight cluster.
+name: Platform cyber
+primary: CRWD
+prefix: platform-cyber-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [CRWD, PANW, ZS]
+  cyber_other_core:
+    color: "#7E57C2"
+    tickers: [FTNT, NET, RBRK]
+  cyber_adjacent:
+    color: "#26A69A"
+    tickers: [OKTA, S, TENB]
+  cyber_periphery:
+    color: "#AB47BC"
+    tickers: [QLYS, RPD]
+  broad_software:
+    color: "#FF6F00"
+    tickers: [SNOW, MSFT, ORCL]
+  etf:
+    color: "#9E9E9E"
+    tickers: [IGV, XLK, SPY]

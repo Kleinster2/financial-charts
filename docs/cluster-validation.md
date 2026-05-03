@@ -178,12 +178,42 @@ Add a `## Cluster validation` section after `## Sector correlation` (or as a sub
 ```markdown
 ## Cluster validation
 
-Mathematically validated cluster: **[[Actor1]], [[Actor2]], [[Actor3]]** (intra-corr X.XX, PC1 XX.X% explained variance, hierarchical clustering at distance 0.4 returns exactly these N names). Nearest-neighbor sectors: [[Adjacent1]] (intra advantage +X.XX), [[Adjacent2]] (intra advantage +X.XX). Most-distant comparator: [[Distant1]] (intra advantage +X.XX). Full analysis in [[Cluster theme concept note]].
+Mathematically validated cluster: [[Actor1]], [[Actor2]], [[Actor3]] (intra-corr X.XX, PC1 XX.X% explained variance, hierarchical clustering at distance 0.4 returns exactly these N names). Nearest-neighbor sectors: [[Adjacent1]] (intra advantage +X.XX), [[Adjacent2]] (intra advantage +X.XX). Most-distant comparator: [[Distant1]] (intra advantage +X.XX). Full analysis in [[Cluster theme concept note]].
 
 ![[{prefix}-dendrogram-1y.png]]
 ```
 
 For concept notes that own the cluster identity (e.g., [[Boutique advisory consolidation]]), embed the full 4-section analysis directly with all four PNG plots and the diagnostic tables. The concept note is the canonical home; member actor notes link back to it.
+
+### Status-header callout (required for all cluster-validated notes)
+
+Every cluster-validated concept note must lead with an Obsidian callout immediately after the H1 title (before the first paragraph). The callout gives the verdict at a glance so readers don't have to scan to the bottom for the cluster status. Format:
+
+```markdown
+# Cluster theme
+
+> [!success] Cluster status: validated (Mon YYYY)
+> Intra-cluster correlation 0.XX, PC1 XX.X% explained variance. Hierarchical clustering at 0.4 returns exactly the N candidate names. [Most distinctive separation finding]. See "Cluster validation" section below.
+
+[Body of note continues...]
+```
+
+Use one of three callout types based on diagnostic verdict:
+
+| Callout type | When to use | Visual cue |
+|---|---|---|
+| `> [!success]` | Cluster status: validated | intra-corr ≥ 0.70 AND PC1 ≥ 70% AND hierarchical clustering returns ~candidate cohort |
+| `> [!warning]` | Cluster status: partial OR weak | 0.50 ≤ intra-corr < 0.70, OR cluster boundary fuzzy / sub-structure revealed |
+| `> [!failure]` | Cluster status: falsified | intra-corr < 0.50 OR hierarchical clustering returns all singletons OR cluster shows NEGATIVE intra-advantage vs comparators |
+
+The callout body should include:
+1. Status verdict (e.g., "validated", "partial validation", "weak cluster", "falsified as basket")
+2. Validation date (month + year)
+3. Intra-correlation and PC1 explained variance (the two headline numbers)
+4. The single most important boundary finding (e.g., "all 5 names are singletons", "cyber pure-plays cluster but MSFT/CSCO trade differently", "TSM has subordinates not peers")
+5. Pointer to the full "Cluster validation" section below
+
+For falsified clusters where the falsification reveals a constructive sub-cluster, the callout should also link to the validated alternative (e.g., [[AI hyperscalers]] callout points to [[AI capex chain basket]] as the actual tradable cluster).
 
 ---
 

@@ -1,0 +1,27 @@
+# Fabless semiconductor sub-cluster — chip designers without owned fabs
+# Hypothesis: the foundry monopoly falsification surfaced fabless cohort at intra-corr 0.40
+# (vs foundries 0.21). Test whether NVDA/AMD/AVGO/QCOM is a real cluster — note that
+# AICX validation showed AMD and AVGO as singletons within that broader supplier cohort,
+# so this test may also fail.
+name: Fabless semiconductor
+primary: NVDA
+prefix: fabless-semis-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [NVDA, AMD, AVGO, QCOM]
+  ai_supplier_chain:
+    color: "#7E57C2"
+    tickers: [TSM, ASML, AMAT, KLAC, LRCX, MU]
+  foundries:
+    color: "#26A69A"
+    tickers: [INTC, GFS]
+  hyperscaler_buyers:
+    color: "#AB47BC"
+    tickers: [MSFT, GOOGL, AMZN, META]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SMH, SOXX, XLK, SPY]

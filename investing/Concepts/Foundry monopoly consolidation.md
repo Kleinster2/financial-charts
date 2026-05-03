@@ -169,6 +169,14 @@ The intra-correlation matrix:
 
 *Cluster validation 2026-05-03 — falsified, but falsification CONFIRMS the monopoly thesis: no peer co-movement = no competitive parity*
 
+### Follow-up: fabless cluster also tested (May 2026) — also falsified
+
+The note's "fabless is more cohesive than foundry" framing prompted a separate cluster validation of the fabless cohort: NVDA, AMD, AVGO, QCOM. Result: also falsified. Intra-corr 0.43 (range 0.22-0.60), PC1 57.7%. Hierarchical clustering at 0.4 places NVDA inside the broader [[AI capex chain basket]] (with TSM, ASML, AMAT, KLAC, LRCX, MU, SMH, SOXX, XLK, SPY) and leaves AMD, AVGO, QCOM as singletons. Cluster vs AI supplier chain shows NEGATIVE intra advantage (-0.05) — fabless names are more correlated with AICX suppliers than with each other.
+
+The math says: there is no "fabless cluster" at the 1Y horizon. NVDA is part of [[AI capex chain basket]]. AMD trades on its NVDA-competitor share-take story. AVGO trades on diversified custom-silicon + VMware. QCOM trades on smartphone modem + Snapdragon cycle. Each is its own factor; the surface taxonomy of "no owned fabs" doesn't translate to a tradable factor.
+
+Config: `scripts/cluster_configs/fabless_semis.yaml`. The negative result is preserved here rather than in a dedicated note (per `docs/cluster-validation.md` rule: "don't create pure 'X is not a cluster' notes with no thesis content").
+
 ---
 
 ## Related
