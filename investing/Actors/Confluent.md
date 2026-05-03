@@ -1,5 +1,5 @@
 ---
-aliases: [CFLT]
+aliases: [Apache Kafka company]
 ---
 #actor #software #data #usa #acquired
 
@@ -19,7 +19,7 @@ Confluent was the company behind Apache Kafka — the open-source distributed ev
 
 | Metric | Value |
 |--------|-------|
-| Ticker | CFLT (delisted Mar 17, 2026) |
+| Former ticker | CFLT (Nasdaq; delisted Mar 17, 2026) |
 | Acquirer | [[IBM]] |
 | Deal value | **$11B** ($31/share, all-cash) |
 | Revenue (FY2024) | ~$777M |
@@ -34,12 +34,12 @@ Confluent was the company behind Apache Kafka — the open-source distributed ev
 
 ## What Confluent built
 
-**Apache Kafka** is the de facto standard for real-time event streaming:
+Apache Kafka is the de facto standard for real-time event streaming:
 - Created at [[LinkedIn]] (2011), open-sourced to Apache
 - Processes trillions of events per day across enterprises globally
 - Used by 80%+ of Fortune 100 companies
 
-**Confluent's product stack:**
+Confluent's product stack:
 
 | Product | Purpose |
 |---------|---------|
@@ -87,9 +87,9 @@ Non-GAAP operating margin turned positive in Q2 FY2024 — three consecutive pos
 | Jan 12, 2026 | HSR waiting period expires (no second request) |
 | Feb 12, 2026 | Stockholders approve (~62% pre-pledged) |
 | Mar 16, 2026 | Final day of CFLT trading on Nasdaq |
-| **Mar 17, 2026** | **Deal closes. CFLT delisted. Absorbed into IBM Data and AI division.** |
+| Mar 17, 2026 | Deal closes. CFLT delisted. Absorbed into IBM Data and AI division. |
 
-**$1.1B in 0% convertible notes** (due 2027) triggered Fundamental Change provisions — noteholders can require repurchase at par.
+$1.1B in 0% convertible notes (due 2027) triggered Fundamental Change provisions — noteholders can require repurchase at par.
 
 Employee RSUs converted to [[IBM]] equity awards for retention.
 
@@ -99,21 +99,21 @@ Employee RSUs converted to [[IBM]] equity awards for retention.
 
 IBM's thesis centers on [[Agentic AI]]:
 
-1. **Real-time data for AI agents** — autonomous AI systems need live data streams to make decisions. Kafka is the plumbing.
-2. **Integrated stack** — IBM now owns hardware (IBM Z) → data streaming (Confluent/Kafka) → AI (watsonx). Full vertical.
-3. **Enterprise lock-in** — legacy enterprises migrating to cloud are already on Kafka. Owning the commercial entity locks them into the IBM ecosystem.
-4. **Competitive positioning** — [[Amazon]] (MSK), [[Microsoft]] (Azure Event Hubs), and [[Google]] (Pub/Sub) all offer managed Kafka. With Confluent as a subsidiary, IBM controls the upstream technology.
+1. Real-time data for AI agents — autonomous AI systems need live data streams to make decisions. Kafka is the plumbing.
+2. Integrated stack — IBM now owns hardware (IBM Z) → data streaming (Confluent/Kafka) → AI (watsonx). Full vertical.
+3. Enterprise lock-in — legacy enterprises migrating to cloud are already on Kafka. Owning the commercial entity locks them into the IBM ecosystem.
+4. Competitive positioning — [[Amazon]] (MSK), [[Microsoft]] (Azure Event Hubs), and [[Google]] (Pub/Sub) all offer managed Kafka. With Confluent as a subsidiary, IBM controls the upstream technology.
 
 ---
 
 ## Competitive impact
 
-**Pressured by the deal:**
+Pressured by the deal:
 - [[Snowflake]], [[MongoDB]] — competing against an integrated IBM stack
 - [[Amazon]], [[Microsoft]] — their managed Kafka services now depend on a competitor's upstream technology
 - Independent data streaming startups — IBM + Confluent is a formidable combo
 
-**IBM's promise:** maintain open ecosystem, continue supporting multi-cloud. Market is skeptical — the incentives to favor IBM's cloud over competitors' are obvious.
+IBM's promise: maintain open ecosystem, continue supporting multi-cloud. Market is skeptical — the incentives to favor IBM's cloud over competitors' are obvious.
 
 ---
 
@@ -125,9 +125,9 @@ IBM's thesis centers on [[Agentic AI]]:
 | IPO (Jun 2021) | — | ~$9.1B (at IPO) |
 | Peak market cap | ~$25B (late 2021) |
 | Pre-deal trading | ~$23/share |
-| **Acquisition** | **$31/share** | **$11B EV** |
+| Acquisition | $31/share | $11B EV |
 
-**Key investors:** [[Benchmark]], [[Index Ventures]], [[Sequoia]], [[Coatue]]
+Key investors: [[Benchmark]], [[Index Ventures]], [[Sequoia]], [[Coatue]]
 
 ---
 

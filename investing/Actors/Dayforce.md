@@ -1,9 +1,9 @@
 ---
-aliases: [Ceridian, DAY]
+aliases: [Ceridian]
 ---
-#actor #software #hcm #usa #public
+#actor #software #hcm #usa #acquired
 
-Dayforce (formerly Ceridian) — HCM/payroll software. NYSE: DAY. Being taken private by [[Thoma Bravo]] for $12.3B (announced Jul 2025).
+Dayforce (formerly Ceridian) — HCM/payroll software. Formerly NYSE: DAY; acquired by [[Thoma Bravo]] for $12.3B and delisted Feb 4, 2026.
 
 ---
 
@@ -27,9 +27,10 @@ DAY trades between Energy and Industrials without a tight sector fit.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | DAY (NYSE) |
+| Former ticker | DAY (NYSE; delisted Feb 4, 2026) |
 | Acquirer | [[Thoma Bravo]] ($12.3B) |
 | Category | HCM / payroll |
+| Status | Private company owned by [[Thoma Bravo]] |
 
 ---
 

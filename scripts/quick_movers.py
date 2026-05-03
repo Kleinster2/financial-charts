@@ -102,7 +102,7 @@ def compute_sigma_duckdb(candidates, vol_lookback=VOL_LOOKBACK, beta_lookback=BE
 
     if not ticker_map:
         conn.close()
-        return ticker_map, []
+        return ticker_map, [], []
 
     # Need enough days for beta window
     fetch_days = beta_lookback + 2
@@ -112,7 +112,7 @@ def compute_sigma_duckdb(candidates, vol_lookback=VOL_LOOKBACK, beta_lookback=BE
     ).fetchall()
     if len(dates) < 10:
         conn.close()
-        return ticker_map, []
+        return ticker_map, [], []
 
     min_date = dates[-1][0]
 
@@ -140,19 +140,91 @@ def compute_sigma_duckdb(candidates, vol_lookback=VOL_LOOKBACK, beta_lookback=BE
 
     bench_prices = [(str(d), c) for d, c in bench_rows if c is not None]
 
-    return ticker_map, _compute_from_prices(by_ticker, ticker_map, bench_prices,
+    results, skipped = _compute_from_prices(by_ticker, ticker_map, bench_prices,
                                             vol_lookback, beta_lookback)
+    return ticker_map, results, skipped
 
 
 def compute_sigma_sqlite(candidates, vol_lookback=VOL_LOOKBACK, beta_lookback=BETA_LOOKBACK):
-    """Compute sigma moves using SQLite wide-format stock_prices_daily table."""
+    """Compute sigma moves using SQLite prices_long when available, else wide prices."""
     conn = sqlite3.connect(str(SQLITE_DB))
+    has_narrow = conn.execute(
+        "SELECT 1 FROM sqlite_master WHERE type='table' AND name='prices_long'"
+    ).fetchone() is not None
+
+    if has_narrow:
+        try:
+            db_tickers = set(
+                r[0] for r in conn.execute("SELECT DISTINCT Ticker FROM prices_long").fetchall()
+            )
+            ticker_map = {t: a for t, a in candidates.items() if t in db_tickers}
+
+            if not ticker_map:
+                conn.close()
+                return ticker_map, [], []
+
+            fetch_days = beta_lookback + 2
+            tickers = list(ticker_map.keys())
+            dates = conn.execute(
+                """
+                SELECT DISTINCT substr(Date, 1, 10) AS session_date
+                FROM prices_long
+                ORDER BY session_date DESC
+                LIMIT ?
+                """,
+                (fetch_days,),
+            ).fetchall()
+            if len(dates) < 10:
+                conn.close()
+                return ticker_map, [], []
+
+            min_date = dates[-1][0]
+            placeholders = ", ".join("?" for _ in tickers)
+            rows = conn.execute(
+                f"""
+                SELECT Ticker, substr(Date, 1, 10) AS session_date, Close
+                FROM prices_long
+                WHERE Ticker IN ({placeholders}) AND substr(Date, 1, 10) >= ?
+                ORDER BY Ticker, session_date DESC
+                """,
+                [*tickers, min_date],
+            ).fetchall()
+            bench_rows = conn.execute(
+                """
+                SELECT substr(Date, 1, 10) AS session_date, Close
+                FROM prices_long
+                WHERE Ticker = ? AND substr(Date, 1, 10) >= ?
+                ORDER BY session_date DESC
+                """,
+                (BENCHMARK, min_date),
+            ).fetchall()
+            conn.close()
+
+            from collections import defaultdict
+            by_ticker = defaultdict(list)
+            for ticker, date, close in rows:
+                if close is not None:
+                    by_ticker[ticker].append((date, close))
+
+            bench_prices = [(d, c) for d, c in bench_rows if c is not None]
+            results, skipped = _compute_from_prices(by_ticker, ticker_map, bench_prices,
+                                                    vol_lookback, beta_lookback)
+            return ticker_map, results, skipped
+        except Exception:
+            # Fall back to the legacy wide table if the narrow path is unavailable
+            # or has an unexpected schema.
+            try:
+                conn.close()
+            except Exception:
+                pass
+            conn = sqlite3.connect(str(SQLITE_DB))
+
     cols = set(r[1] for r in conn.execute("PRAGMA table_info(stock_prices_daily)").fetchall())
     ticker_map = {t: a for t, a in candidates.items() if t in cols}
 
     if not ticker_map:
         conn.close()
-        return ticker_map, []
+        return ticker_map, [], []
 
     # Need enough days for beta window
     fetch_days = beta_lookback + 2
@@ -169,7 +241,7 @@ def compute_sigma_sqlite(candidates, vol_lookback=VOL_LOOKBACK, beta_lookback=BE
     conn.close()
 
     if len(rows) < 10:
-        return ticker_map, []
+        return ticker_map, [], []
 
     from collections import defaultdict
     by_ticker = defaultdict(list)
@@ -191,8 +263,9 @@ def compute_sigma_sqlite(candidates, vol_lookback=VOL_LOOKBACK, beta_lookback=BE
             if val is not None:
                 bench_prices.append((date, val))
 
-    return ticker_map, _compute_from_prices(by_ticker, ticker_map, bench_prices,
+    results, skipped = _compute_from_prices(by_ticker, ticker_map, bench_prices,
                                             vol_lookback, beta_lookback)
+    return ticker_map, results, skipped
 
 
 def _compute_returns(price_list):
@@ -205,6 +278,11 @@ def _compute_returns(price_list):
         else:
             returns.append(None)
     return returns
+
+
+def _date_key(value):
+    """Normalize date or datetime strings to YYYY-MM-DD for session matching."""
+    return str(value)[:10]
 
 
 def _compute_beta(stock_returns, bench_returns, n):
@@ -236,12 +314,19 @@ def _compute_from_prices(by_ticker, ticker_map, bench_prices, vol_lookback, beta
     """Compute beta-adjusted sigma moves from per-ticker price lists."""
     # Compute benchmark returns
     bench_returns = _compute_returns(bench_prices) if bench_prices else []
+    expected_date = _date_key(bench_prices[0][0]) if bench_prices else None
 
     results = []
+    skipped = []
     for ticker, price_list in by_ticker.items():
         if ticker == BENCHMARK:
             continue
         if len(price_list) < 10:
+            continue
+
+        date = _date_key(price_list[0][0])
+        if expected_date and date != expected_date:
+            skipped.append((ticker, ticker_map.get(ticker, ticker), date, expected_date))
             continue
 
         stock_returns = _compute_returns(price_list)
@@ -253,7 +338,6 @@ def _compute_from_prices(by_ticker, ticker_map, bench_prices, vol_lookback, beta
             continue
 
         curr, prev = price_list[0][1], price_list[1][1]
-        date = price_list[0][0]
         pct = today_return * 100
 
         # Compute beta over longer window
@@ -298,7 +382,7 @@ def _compute_from_prices(by_ticker, ticker_map, bench_prices, vol_lookback, beta
         results.append((ticker, actor, prev, curr, pct, z_score, annualized_vol, date,
                          beta if beta is not None else 0.0, raw_vol))
 
-    return results
+    return results, skipped
 
 
 def main():
@@ -313,6 +397,8 @@ def main():
                         help="Optional: also flag moves above this %% regardless of sigma")
     parser.add_argument("--raw", action="store_true",
                         help="Use raw returns instead of beta-adjusted (original behavior)")
+    parser.add_argument("--show-stale", action="store_true",
+                        help=f"List tickers skipped because their latest close is not on the {BENCHMARK} session date")
     args = parser.parse_args()
 
     backend, latest_date = pick_backend()
@@ -325,11 +411,17 @@ def main():
     candidates = get_vault_tickers()
 
     if backend == "duckdb":
-        ticker_map, all_results = compute_sigma_duckdb(candidates, args.vol_lookback, args.beta_lookback)
+        ticker_map, all_results, skipped = compute_sigma_duckdb(candidates, args.vol_lookback, args.beta_lookback)
     else:
-        ticker_map, all_results = compute_sigma_sqlite(candidates, args.vol_lookback, args.beta_lookback)
+        ticker_map, all_results, skipped = compute_sigma_sqlite(candidates, args.vol_lookback, args.beta_lookback)
 
     print(f"Found {len(ticker_map)} trackable tickers (in DB + vault).")
+    if skipped:
+        expected_date = skipped[0][3]
+        print(f"Skipped {len(skipped)} off-session tickers (latest close not on {BENCHMARK} session {expected_date}).")
+        if args.show_stale:
+            for ticker, actor, date, _ in sorted(skipped, key=lambda x: (x[2], x[0])):
+                print(f"  {ticker:<8} {actor:<30} latest close {date}")
 
     # Get benchmark return for display
     bench_return = None

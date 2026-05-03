@@ -1,9 +1,9 @@
 ---
-aliases: [IRBT, Roomba]
+aliases: [Roomba]
 ---
-#actor #robotics #consumer #public
+#actor #robotics #consumer #bankrupt
 
-**iRobot** — Creator of Roomba. [[Consumer]] robotics pioneer. Amazon acquisition collapsed 2024.
+**iRobot** — Creator of Roomba. [[Consumer]] robotics pioneer. Amazon acquisition collapsed in 2024; iRobot filed Chapter 11 in Dec 2025 and was delisted as part of a sale to Picea Robotics/Santrum Hong Kong.
 
 ---
 
@@ -27,8 +27,8 @@ IRBT trades between Regional Banks and Industrials without a tight sector fit.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | IRBT ([[Nasdaq]]) |
-| Market cap | ~$300M |
+| Former ticker | IRBT ([[Nasdaq]], delisted 2026) |
+| Market cap | No current public market cap |
 | Founded | 1990 |
 | HQ | Bedford, Massachusetts |
 | Founders | MIT Robotics Lab spinout |
@@ -39,9 +39,9 @@ IRBT trades between Regional Banks and Industrials without a tight sector fit.
 
 | Product | Category | Status |
 |---------|----------|--------|
-| **Roomba** | Robot vacuum | Flagship |
-| **Braava** | Robot mop | Secondary |
-| **Terra** | Robot mower | Discontinued |
+| Roomba | Robot vacuum | Flagship |
+| Braava | Robot mop | Secondary |
+| Terra | Robot mower | Discontinued |
 
 ### Roomba lineup
 
@@ -63,7 +63,7 @@ IRBT trades between Regional Banks and Industrials without a tight sector fit.
 | Jan 2024 | Deal terminated |
 | 2024 | Restructuring, layoffs (~30% workforce) |
 
-**Impact:** Stock collapsed from ~$50 (deal price) to ~$10.
+Impact: Stock collapsed from ~$50 (deal price) to ~$10.
 
 ---
 
@@ -71,13 +71,13 @@ IRBT trades between Regional Banks and Industrials without a tight sector fit.
 
 | Company | HQ | Positioning |
 |---------|-----|-------------|
-| **iRobot** | US | Pioneer, premium |
+| iRobot | US | Pioneer, premium |
 | Ecovacs | [[China]] | Full range, aggressive |
 | Roborock | [[China]] | Premium challenger |
 | Dreame | [[China]] | Value segment |
 | SharkNinja | US | Mainstream |
 
-**[[China]] competition:** Chinese brands dominating on price/features.
+[[China]] competition: Chinese brands dominating on price/features.
 
 ---
 
@@ -90,7 +90,7 @@ IRBT trades between Regional Banks and Industrials without a tight sector fit.
 | Net income | Loss | Ongoing |
 | Cash | Limited | Concern |
 
-**Restructuring:** Cost cuts, workforce reduction, focus on core Roomba.
+Restructuring: Cost cuts, workforce reduction, focus on core Roomba.
 
 ---
 
@@ -107,14 +107,14 @@ IRBT trades between Regional Banks and Industrials without a tight sector fit.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Pioneer brand recognition
 - US-based (tariff protection potential)
 - Premium positioning
 - Smart home ecosystem integration
 - Potential acquisition target
 
-**Bear:**
+Bear:
 - [[China]] competition overwhelming
 - Margin pressure
 - Post-Amazon deal uncertainty
@@ -138,10 +138,10 @@ IRBT trades between Regional Banks and Industrials without a tight sector fit.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | IRBT |
-| Exchange | [[Nasdaq]] |
+| Former ticker | IRBT |
+| Exchange | Formerly [[Nasdaq]] |
 | Sector | [[Consumer]] robotics |
-| Market cap | ~$300M |
+| Market cap | No current public market cap |
 
 ---
 

@@ -1,9 +1,9 @@
 ---
-aliases: [EXAS]
+aliases: [Cologuard]
 ---
-#actor #genomics #diagnostics #cancer #usa #public
+#actor #genomics #diagnostics #cancer #usa #acquired
 
-**Exact Sciences** — Cancer screening leader. Cologuard (20M+ tests). Cancerguard multi-cancer. ~$3.1B revenue.
+**Exact Sciences** — Cancer screening leader acquired by [[Abbott]] on Mar 23, 2026. Cologuard (20M+ tests). Cancerguard multi-cancer. ~$3.1B revenue before acquisition.
 
 ---
 
@@ -27,11 +27,12 @@ EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | EXAS |
+| Former ticker | EXAS (Nasdaq; delisted Mar 23, 2026) |
 | Market cap | ~$12B |
-| 2025E revenue | **$3.13-3.17B** |
+| 2025E revenue | $3.13-3.17B |
 | HQ | Madison, WI |
-| Cologuard tests | **20M+ lifetime** |
+| Cologuard tests | 20M+ lifetime |
+| Acquirer | [[Abbott]] |
 
 ---
 
@@ -49,7 +50,7 @@ EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
 
 | Segment | Q3 2025 revenue | Growth |
 |---------|-----------------|--------|
-| **Screening** | $666M | +22% |
+| Screening | $666M | +22% |
 | Precision Oncology | $183M | +12% |
 
 ---
@@ -60,9 +61,9 @@ EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
 
 | Product | Application | Status |
 |---------|-------------|--------|
-| **Cologuard Plus** | CRC screening | Launched Q1 2025 |
+| Cologuard Plus | CRC screening | Launched Q1 2025 |
 | Cologuard | CRC screening (original) | 20M+ tests |
-| **Cancerguard** | Multi-cancer (50+ types) | Launched Sep 2025 |
+| Cancerguard | Multi-cancer (50+ types) | Launched Sep 2025 |
 
 ### Precision Oncology
 
@@ -80,10 +81,10 @@ EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
 |-------------|--------|
 | Cancer sensitivity | Higher than original |
 | Precancer detection | Improved |
-| False positives | **-40%** reduction |
+| False positives | -40% reduction |
 | Provider adoption | 200K+ orders in Q2 |
 
-**Milestone:** Cologuard approaching colonoscopy volume parity.
+Milestone: Cologuard approaching colonoscopy volume parity.
 
 ---
 
@@ -91,7 +92,7 @@ EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
 
 | Feature | Detail |
 |---------|--------|
-| Cancer types | **50+** |
+| Cancer types | 50+ |
 | Method | Blood-based (liquid biopsy) |
 | Competition | Grail Galleri, Guardant |
 | [[Target]] | Average-risk screening |
@@ -102,7 +103,7 @@ EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
 
 | Competitor | Product | Approach |
 |------------|---------|----------|
-| **Exact Sciences** | Cologuard, Cancerguard | Stool + blood |
+| Exact Sciences | Cologuard, Cancerguard | Stool + blood |
 | [[Guardant Health]] | Shield | Blood-based CRC |
 | Grail ([[Illumina]]) | Galleri | Multi-cancer blood |
 | [[Natera]] | Signatera | MRD (not screening) |
@@ -123,14 +124,14 @@ EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Cologuard Plus driving reacceleration
 - Cancerguard multi-cancer opportunity
 - 200K+ provider relationships
 - "Transformative year" (2025)
 - Market leader in non-invasive CRC
 
-**Bear:**
+Bear:
 - Shield (Guardant) competition in blood CRC
 - Multi-cancer market crowded
 - Reimbursement uncertainty for Cancerguard
@@ -143,7 +144,7 @@ EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | EXAS |
+| Former ticker | EXAS |
 | 2025E revenue | ~$3.15B |
 | Key product | Cologuard |
 | Focus | Cancer screening |
@@ -157,6 +158,7 @@ EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
 - [[Illumina]] — Grail competitor
 - [[Genomics]] — sector concept
 - [[Biopharma]] — sector
+- [[Abbott]] — acquirer
 
 ---
 
@@ -164,5 +166,6 @@ EXAS trades between Oil & Gas E&P and Regional Banks without a tight sector fit.
 
 - [Exact Sciences Q3 2025](https://www.investing.com/news/company-news/exact-sciences-q3-2025-slides-20-revenue-growth-guidance-raised-93CH-4328951)
 - [Cologuard Plus Launch](https://www.exactsciences.com/newsroom/press-releases/exact-sciences-announces-second-quarter-2025-results)
+- [Abbott completes acquisition of Exact Sciences](https://www.nasdaq.com/press-release/abbott-completes-acquisition-exact-sciences-2026-03-23)
 
 *Created 2026-01-09*

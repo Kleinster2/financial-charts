@@ -1,5 +1,5 @@
 ---
-aliases: [CYBR]
+aliases: [CyberArk Identity Security]
 ---
 #actor #cybersecurity #israel
 

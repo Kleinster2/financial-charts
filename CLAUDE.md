@@ -71,7 +71,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 - Update prices: `python update_market_data.py --lookback 10 --assets stocks etfs mutualfunds adrs fx crypto futures iv`
 - Synthetic indices: `python scripts/create_aiwd_index.py --store`
 
-**Data freshness:** If publicly available, find and ingest it. Use `/earnings TICKER` for full procedure. Update prices before generating charts if data >1 day old. Never remove historical data for delisted tickers.
+**Data freshness and stale symbols:** If publicly available, find and ingest it. Use `/earnings TICKER` for full procedure. Update prices before generating charts if data >1 day old. Never remove historical data for delisted, acquired, bankrupt, or renamed tickers; keep legacy series for charts, audit trails, and deal/delisting analysis. Exclude dead or renamed symbols only from live refresh and mover screening. In notes, preserve them as "Former ticker" rather than live aliases when they would pollute `quick_movers`. `quick_movers.py` should prefer canonical `prices_long` and compare each ticker's latest non-null close to the latest [[SPY]] session before treating it as a current mover.
 
 ---
 

@@ -279,11 +279,11 @@ OTHER_HIGH_PROFILE_STOCKS = [
     "BILL", "CFLT", "HUBS", "IOT", "MDB", "MNDY", "TEAM", "TWLO", "VEEV", "WDAY",
     # Consumer / Retail
     "CAVA", "CART", "BIRK", "KVUE", "MNSO", "SONO", "WMG",
-    "CROX", "DECK", "FIVE", "ONON", "SFM", "WSM", "URBN",
+    "CROX", "DECK", "FIVE", "ONON", "RH", "SFM", "WSM", "URBN",
     # Infrastructure / Data Centers
     "DY", "MTZ", "VRT",
     # Financial / Capital Markets
-    "ARCC", "EVR", "HLI", "IBKR", "KNSL", "LPLA", "MORN", "OBDC", "RYAN", "SF",
+    "ARCC", "EVR", "HLI", "IBKR", "KNSL", "LPLA", "MORN", "MRSH", "OBDC", "RYAN", "SF",
     # Data / Analytics
     "RELX", "TRI",
     # Logistics / Transport / Shipping
@@ -988,6 +988,7 @@ FINTECH_LATAM_STOCKS = [
     "LC",     # LendingClub
     "PAGS",   # PagSeguro (Brazil payments)
     "STNE",   # StoneCo (Brazil payments)
+    "INTR",   # Banco Inter (Brazil digital bank)
     "XP",     # XP Inc (Brazil brokerage)
     "BBD",    # Banco Bradesco (Brazil bank ADR)
     "BSBR",   # Banco Santander Brasil ADR
@@ -1043,7 +1044,12 @@ DEFENSE_CONTRACTORS = [
     "RBOHF",  # RBC Bearings (OTC)
 ]
 
-# Tickers that consistently fail to download (excluded from universe)
+# Tickers excluded from the live download universe.
+#
+# IMPORTANT: This must never imply data deletion. Historical prices for
+# delisted, acquired, bankrupt, or renamed securities stay in the database for
+# charts, audit trails, and acquisition/delisting analysis. Exclusion only
+# prevents dead symbols from repeatedly failing live refreshes.
 EXCLUDED_TICKERS = [
     "JBSS3.SA",  # No Yahoo data
     "GOLL4.SA",  # No Yahoo data
@@ -1072,6 +1078,12 @@ EXCLUDED_TICKERS = [
     "SKX",       # Skechers — taken private (3G Capital)
     "ECHO",      # Echo Global Logistics — acquired
     "SOND",      # Sonder Holdings — delisted
+    "DAY",       # Dayforce — acquired by Thoma Bravo
+    "CYBR",      # CyberArk — acquired by Palo Alto Networks
+    "CFLT",      # Confluent — acquired by IBM
+    "EXAS",      # Exact Sciences — acquired by Abbott
+    "MMC",       # Marsh McLennan — ticker changed to MRSH
+    "LUXH",      # LuxUrban Hotels — bankruptcy/liquidation
 ]
 
 # Foreign exchange tickers (major + EM pairs)
