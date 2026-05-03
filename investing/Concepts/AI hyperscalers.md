@@ -114,6 +114,8 @@ This is a textbook cluster-validation outcome: the procedure is just as valuable
 
 ### The actual tradable cluster — supplier chain (May 2026)
 
+Canonical home for the validated supplier-chain cluster: [[AI capex chain basket]]. Brief summary below; full constituents, sub-cluster (WFE quartet), exclusions, and trade implications live in the basket note.
+
 The constructive follow-up: the SUPPLIERS the hyperscalers buy from DO form a cluster, even though the buyers don't. Validated 2026-05-03 via `scripts/cluster_analysis.py --config scripts/cluster_configs/hyperscaler_suppliers.yaml`. The supplier-chain candidate cohort: NVDA, AMD, AVGO, TSM, ASML, AMAT, KLAC, LRCX.
 
 **Result: partial validation with clean sub-structure.** Intra-cluster correlation 0.61, PC1 66.3%. The hierarchical cluster at 0.4 returns NVDA + TSM + ASML + AMAT + KLAC + LRCX + MU (memory) as a tight algorithmic cluster — but AMD and AVGO are SINGLETONS.
