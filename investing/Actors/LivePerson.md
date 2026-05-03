@@ -7,6 +7,14 @@ tags: [actor, ai, saas, usa, public]
 
 LivePerson is an enterprise conversational-AI and digital customer-engagement company. Its Conversational Cloud and Syntrix platforms handle nearly one billion messages per month for enterprise brands. In Apr 2026, [[SoundHound]] agreed to acquire LivePerson to combine SoundHound's voice agents with LivePerson's digital messaging footprint.
 
+---
+
+## Sector correlation
+
+Price data unavailable in the local DB for LPSN as of May 3, 2026, so no sector-correlation table or price chart is generated yet.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -19,6 +27,10 @@ LivePerson is an enterprise conversational-AI and digital customer-engagement co
 | Deal status | Pending [[SoundHound]] acquisition, expected H2 2026 |
 | Deal value | $43M equity value / ~$250M implied enterprise value |
 
+## Data availability
+
+Local price data unavailable, fundamentals chart data unavailable, income statement data unavailable, and historical financials data unavailable for LPSN as of May 3, 2026. This note is a transaction-context stub created for the pending [[SoundHound]] acquisition.
+
 ## Apr 2026 SoundHound acquisition
 
 [[SoundHound]] announced a definitive agreement to acquire LivePerson on Apr 21, 2026. The deal values LivePerson equity at $43M, about a 22% premium to its 30-day VWAP, and implies a $250M enterprise value after debt and cash adjustments. SoundHound expects to receive $74M of LivePerson cash before repayment of 2026 convertible notes, retire discounted debt with cash/equity, and leave the combined company with no debt.
@@ -26,6 +38,12 @@ LivePerson is an enterprise conversational-AI and digital customer-engagement co
 The strategic asset is distribution and data rather than standalone growth. LivePerson brings hundreds of enterprise relationships, customers across 30+ countries, and exposure to 12 of the top 15 global banks, 4 of the top 5 global airlines, 4 of the top 5 global automakers, and 10+ major telecom providers. SoundHound expects at least $100M of 2027 revenue contribution from LivePerson's customer base and a potential $500M opportunity from the combined existing base.
 
 ## Related
+
+### Securities
+
+- [[LivePerson securities]] - LPSN equity note
+
+### Companies and concepts
 
 - [[SoundHound]] - acquirer
 - [[Twilio]] - communications / customer-engagement infrastructure peer
