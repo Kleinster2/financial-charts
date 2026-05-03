@@ -1,0 +1,25 @@
+# Insurance brokers basket — public commercial insurance brokers
+# Surfaced as a sub-cluster within AIFD (10-name basket falsified into two sub-clusters)
+# Also showed up in ALTM control test (AON/AJG/BRO at 0.75 intra) — robust across multiple tests
+name: Insurance brokers basket
+primary: AJG
+prefix: ins-brokers-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [WTW, AJG, AON, BRO, MMC, RYAN]
+  ins_carrier:
+    color: "#7E57C2"
+    tickers: [PGR, CB, TRV]
+  wealth_mgr:
+    color: "#FF6F00"
+    tickers: [SCHW, RJF, LPLA, SF]
+  alt_mgr_control:
+    color: "#FFA726"
+    tickers: [BX, KKR]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

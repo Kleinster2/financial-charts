@@ -1,0 +1,27 @@
+# Wealth managers basket — public retail-and-advisor wealth management platforms
+# Surfaced as a sub-cluster within AIFD (10-name basket falsified into two sub-clusters)
+name: Wealth managers basket
+primary: SCHW
+prefix: wealth-mgr-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [SCHW, RJF, LPLA, SF]
+  ins_brokers:
+    color: "#7E57C2"
+    tickers: [WTW, AJG, AON, BRO]
+  alt_mgr_control:
+    color: "#FF6F00"
+    tickers: [BX, KKR, OWL]
+  trad_mgr:
+    color: "#FFA726"
+    tickers: [BLK, TROW, BEN]
+  exec_platforms:
+    color: "#26A69A"
+    tickers: [IBKR, HOOD]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

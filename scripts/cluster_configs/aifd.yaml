@@ -1,0 +1,30 @@
+# AI financial disintermediation basket (AIFD) — fee-income financial services exposed to AI advisory replacement
+# Cohort from investing/Concepts/AI financial disintermediation basket.md (move-weighted from Feb 9-10 selloff)
+# Hypothesis: the basket may split into TWO clusters — insurance brokers and wealth managers — which
+# catalyzed on different days (Insurify Feb 9 vs Altruist Feb 10).
+# MMC has stale data (last update 2026-03-16); included anyway, partial-data handling.
+name: AI financial disintermediation basket (AIFD)
+primary: WTW
+prefix: aifd-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [WTW, AJG, AON, RYAN, BRO, MMC, SCHW, RJF, LPLA, SF]
+  ins_carrier:
+    color: "#7E57C2"
+    tickers: [PGR, CB, TRV]
+  alt_mgr_control:
+    color: "#FF6F00"
+    tickers: [BX, KKR, OWL]
+  trad_mgr:
+    color: "#FFA726"
+    tickers: [BLK, TROW, BEN]
+  exec_platforms:
+    color: "#26A69A"
+    tickers: [IBKR, HOOD]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLF, SPY]

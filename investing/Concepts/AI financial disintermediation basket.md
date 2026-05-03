@@ -5,6 +5,9 @@ tags: [basket/internal, ai, disruption, insurance, wealth-management]
 
 # AI financial disintermediation basket
 
+> [!failure] Cluster status: falsified as single basket — splits into TWO validated sub-clusters (May 2026)
+> Intra-cluster correlation only 0.34 across the 10-name combined cohort, PC1 only 43.9% — bimodal. Hierarchical clustering at 0.4 splits AIFD cleanly into [[Insurance brokers basket]] (5 names: WTW, AJG, AON, BRO, MMC) and [[Wealth managers basket]] (3 names: SCHW, RJF, LPLA). Cross-sub-cluster correlation 0.09 — completely uncorrelated despite shared AI-disruption narrative. The Feb 2026 catalyst grouping was a single-event narrative, not a structural cluster. Trade the two sub-baskets separately. See "Cluster validation" section below.
+
 Financial services stocks that correlate on AI capability announcements threatening advisory and intermediation business models. Emerged as a distinct factor during the [[Insurify insurance broker selloff February 2026]] (Feb 9) and [[Altruist wealth management selloff February 2026]] (Feb 10) — the second and third [[AI disintermediation]] shocks after the [[Claude Cowork disruption February 2026|SaaSpocalypse]].
 
 AIFD isolates the advisory-replacement leg of the cascade: human middlemen (insurance brokers, wealth advisors) being pressured by AI comparison and planning tools, as distinct from the product-replacement leg that hit software in Week 1 (SaaS seats → agents). See [[February 2026 AI Disruption Cascade]] for the full sequence.
@@ -125,4 +128,42 @@ Watch for:
 - [[Willis Towers Watson]] — highest-weight constituent
 - [[Charles Schwab]] — largest market cap constituent
 
-*Created 2026-02-10*
+---
+
+## Cluster validation — falsified as single basket; splits into two validated sub-clusters (May 2026)
+
+Validated 2026-05-03 via `scripts/cluster_analysis.py --config scripts/cluster_configs/aifd.yaml`. Procedure in `docs/cluster-validation.md`.
+
+The 10-name AIFD basket fails as a single cluster: intra-corr 0.34 (range -0.09 to 0.79 — wildly bimodal), PC1 only 43.9%. The wide range is the signature of a bimodal cohort: insurance brokers correlate 0.61-0.79 with each other; wealth managers correlate 0.67-0.73 with each other; cross-sub-sector correlations are 0.00-0.22 (essentially uncorrelated).
+
+PC1 loadings make the bimodality unambiguous:
+
+| Sub-cohort | Names | PC1 loadings |
+|---|---|---|
+| Insurance brokers | WTW, AJG, AON, BRO, MMC | 0.40-0.43 (all positive, near-equal) |
+| Insurance brokers (specialty) | RYAN | 0.34 |
+| Wealth managers | SCHW, RJF, LPLA, SF | 0.03-0.10 (essentially zero) |
+
+PC1 IS the insurance broker factor — wealth managers don't load on it at all. PC2 (25%) is essentially the wealth manager factor. The two halves of AIFD are mathematically distinct factors that happened to catalyze on consecutive days during the Feb 2026 [[February 2026 AI Disruption Cascade|cascade]] but do not co-move at baseline.
+
+### What the math validated
+
+Hierarchical clustering at 0.4 returns the two sub-clusters cleanly:
+
+- **Cluster 1: WTW, AJG, AON, BRO, MMC** → see [[Insurance brokers basket]] (intra-corr 0.67, PC1 72.2%)
+- **Cluster 2: SCHW, RJF, LPLA** → see [[Wealth managers basket]] (intra-corr ~0.69 in 3-name tight core, PC1 64.3%)
+- Singletons: RYAN (specialty broker), SF (mid-IB-exposed wealth platform)
+
+### What this means for the AIFD framing
+
+The note's original framing was correct on the SECTOR-LEVEL narrative (both insurance brokers and wealth managers face AI advisory replacement). But the equity-level cluster claim does not hold: the names trade as two completely separate factors, with cross-sub-cluster correlation of 0.09 — about as decoupled as two financial-services cohorts can be while both being public.
+
+Practical implications:
+- **Do not trade AIFD as a single basket.** Equal-weighted exposure dilutes idiosyncratic noise across two unrelated sub-factors.
+- **Trade the two sub-baskets separately.** Long [[Insurance brokers basket]] for commercial broker AI disruption; long [[Wealth managers basket]] for retail wealth AI disruption. Cross-sub-cluster correlation of 0.09 means a long-AIFD position is essentially long two unrelated 50% factor exposures.
+- **Watch for re-correlation.** If a future cross-sub-sector AI catalyst forces both halves to move together (e.g., a regulatory action affecting both), AIFD might reassemble as a meaningful cluster. Currently it does not.
+- **Keep the AIFD note** as the AI-disruption-event narrative parent. The two sub-cluster notes link back here as event lineage; this note retains the conceptual framework + thesis content.
+
+Cross-cluster correlation finding is also notable: insurance brokers (0.13 vs wealth managers, 0.13 vs alt managers, 0.22 vs ETFs) consistently shows the LOWEST correlations of any financial-services cohort tested. The +0.58 separation between insurance brokers and wealth managers is the cleanest within-financial-services separation found in the entire validation pass.
+
+*Cluster validation 2026-05-03 — falsified as single basket; two validated sub-clusters created.*
