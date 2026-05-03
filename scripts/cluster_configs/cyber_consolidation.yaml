@@ -1,0 +1,21 @@
+# Cybersecurity consolidation cluster — the platform-consolidator winners
+# Cohort from investing/Concepts/Cybersecurity consolidation.md (4 named consolidators)
+name: Cybersecurity consolidation
+primary: PANW
+prefix: cyber-consolidation-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [PANW, CRWD, MSFT, CSCO]
+  cyber_other:
+    color: "#7E57C2"
+    tickers: [ZS, FTNT, NET, OKTA, S]
+  software:
+    color: "#FF6F00"
+    tickers: [ORCL, GOOGL, CRM]
+  etf:
+    color: "#9E9E9E"
+    tickers: [IGV, XLK, SPY]

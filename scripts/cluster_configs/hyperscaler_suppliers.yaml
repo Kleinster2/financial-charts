@@ -1,0 +1,24 @@
+# Hyperscaler supplier chain cluster — chips/equipment supplying hyperscaler AI capex
+# Hypothesis: the AI hyperscalers cohort failed cluster validation (intra-corr 0.29) but the
+# UPSTREAM suppliers may be the actual tradable cluster the demand-flow narrative pointed at.
+# Chain: hyperscalers → NVIDIA/AMD/Broadcom (chips) → TSMC (foundry) → SK Hynix (memory) →
+# ASE (packaging) → ASML/AMAT/KLAC/LRCX (equipment).
+name: Hyperscaler supplier chain
+primary: NVDA
+prefix: hyperscaler-suppliers-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [NVDA, AMD, AVGO, TSM, ASML, AMAT, KLAC, LRCX]
+  hyperscalers:
+    color: "#7E57C2"
+    tickers: [MSFT, GOOGL, AMZN, META, ORCL]
+  semi_other:
+    color: "#FF6F00"
+    tickers: [INTC, QCOM, MU]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SMH, SOXX, XLK, SPY]

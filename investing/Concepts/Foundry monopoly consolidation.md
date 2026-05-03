@@ -131,6 +131,43 @@ Each advantage feeds the others. The flywheel accelerates.
 
 ---
 
+## Cluster validation — falsified, asymmetry confirmed (May 2026)
+
+The "foundry" cohort (TSM, INTC, GFS, Samsung) is a STRUCTURAL grouping by business model, NOT a tradable cluster. Validated 2026-05-03 via `scripts/cluster_analysis.py --config scripts/cluster_configs/foundry.yaml`. Procedure in `docs/cluster-validation.md`. Note: UMC unavailable in local DB; Samsung via 005930.KS Korea listing.
+
+**Result: falsified — but the falsification reinforces the monopoly thesis.** Intra-cluster correlation 0.21 (range -0.02 to 0.45), PC1 only 45.5%. Hierarchical clustering at 0.4 shows TSM clustering with semi equipment + SMH/SOXX/SPY (it IS the broad semi tape), while INTC, GFS, Samsung are all standalones.
+
+| Diagnostic | Result | Interpretation |
+|---|---|---|
+| Avg intra-cluster correlation (1Y) | **0.21** (range -0.02 to 0.45) | Wildly weak — Samsung essentially uncorrelated with TSM/INTC/GFS |
+| PC1 explained variance | **45.5%** | Multi-factor; Samsung loads ~0.0 on PC1 (not part of factor) |
+| Hierarchical clustering at 0.4 | TSM merges with semi equipment + SMH; INTC, GFS, Samsung all SINGLETONS | Cohort fully split |
+| Cluster vs fabless (NVDA, AMD, AVGO, QCOM) | **0.30 (NEGATIVE -0.09)** | Fabless trade more coherently than the foundries do |
+| Cluster vs semi equipment (ASML, AMAT, KLAC, LRCX) | **0.38 (NEGATIVE -0.17)** | Equipment names tighter than foundries |
+| Cluster vs broad ETFs | **0.46 (NEGATIVE -0.25)** | Foundries trade more with broad market than each other |
+
+The intra-correlation matrix:
+
+|  | TSM | INTC | GFS | Samsung |
+|---|---|---|---|---|
+| TSM | — | 0.38 | 0.43 | -0.02 |
+| INTC | 0.38 | — | 0.45 | 0.01 |
+| GFS | 0.43 | 0.45 | — | 0.02 |
+| Samsung | -0.02 | 0.01 | 0.02 | — |
+
+**Why the cluster fails — and why that's analytically important:** the foundries don't co-move because their competitive positions are wildly asymmetric. TSM is so dominant (PC1 dominated by SMH co-movement, which IS basically TSM's exposure) that it doesn't trade like a peer with INTC, GFS, or Samsung. INTC moves on its IFS turnaround story. GFS is mature/non-leading-edge. Samsung trades on Korean market beta + memory cycle (its memory business dominates the KS listing).
+
+**This IS the monopoly thesis playing out in the return data.** A real competitive market would show co-movement among the firms in the same business; the absence of co-movement here is the mathematical signature of "TSM doesn't have peers, it has subordinates competing in adjacent markets." The note's framework (5 reinforcing dynamics) is structurally validated by the math: the firms cannot be traded as a basket because they are not in the same business at this point.
+
+**Trade implications:**
+- Long the monopoly = long TSM directly (or via SMH, where TSM is the dominant holding).
+- Pair trades within the cohort (long TSM short INTC) capture business-cycle differentials, not "foundry sector" beta — there is no such factor at the equity level.
+- The fabless cohort (NVDA, AMD, AVGO, QCOM) is more cohesive (avg 0.40) than the foundries — fabless is a real cluster, foundries are not.
+
+*Cluster validation 2026-05-03 — falsified, but falsification CONFIRMS the monopoly thesis: no peer co-movement = no competitive parity*
+
+---
+
 ## Related
 
 - [[Yield as competitive moat]] — component (the technical flywheel)

@@ -1,0 +1,22 @@
+# Foundry monopoly cluster — public chip foundries
+# Cohort from investing/Concepts/Foundry monopoly consolidation.md
+# (UMC missing from local DB; using available foundry-pure-plays)
+name: Foundry monopoly
+primary: TSM
+prefix: foundry-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [TSM, INTC, GFS, "005930.KS"]  # Samsung
+  fabless:
+    color: "#7E57C2"
+    tickers: [NVDA, AMD, AVGO, QCOM]
+  semi_equip:
+    color: "#FF6F00"
+    tickers: [ASML, AMAT, KLAC, LRCX]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SMH, SOXX, SPY]

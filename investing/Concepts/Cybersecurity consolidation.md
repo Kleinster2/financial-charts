@@ -57,6 +57,33 @@
 - [[Palo Alto Networks]] — most aggressive acquirer
 - [[CrowdStrike]] — endpoint leader expanding platform
 
+---
+
+## Cluster validation — falsified as basket (May 2026)
+
+The "consolidator" cohort (PANW, CRWD, MSFT, CSCO) is a STRATEGIC grouping (named for shared M&A-led platform-build behavior), NOT a tradable cluster. Validated 2026-05-03 via `scripts/cluster_analysis.py --config scripts/cluster_configs/cyber_consolidation.yaml`. Procedure in `docs/cluster-validation.md`.
+
+**Result: falsified.** Intra-cluster correlation 0.37 (below 0.50 floor), PC1 56.0% (multi-factor). Pairwise correlation range is wildly bimodal: PANW-CRWD 0.75 (tight), MSFT-CSCO 0.13 (essentially uncorrelated), CSCO vs anything 0.13-0.18 (CSCO is its own beast). The four names share a strategic narrative but not a return factor.
+
+| Diagnostic | Result | Interpretation |
+|---|---|---|
+| Avg intra-cluster correlation (1Y) | **0.37** (range 0.13-0.75) | Weak; bimodal — cyber pure-plays cohere, MSFT/CSCO don't |
+| PC1 explained variance | **56.0%** | Multi-factor — cluster failure mode |
+| Hierarchical clustering at 0.4 | PANW + CRWD merge with ZS, OKTA, S, IGV — but MSFT and CSCO are SINGLETONS | Cohort split |
+| Cluster vs cyber_other (ZS, FTNT, NET, OKTA, S) | **0.45 (NEGATIVE -0.08 advantage)** | Cyber-pure-plays MORE coherent than the proposed mixed cluster |
+| Cluster vs broad ETFs | 0.50 (-0.13 negative) | Names trade more with broad market than each other |
+
+The diagnostic that kills the cluster: **cyber_other (-0.08) and ETFs (-0.13) NEGATIVE intra advantages.** The proposed cluster is less coherent than the comparator groups — meaning the cluster boundary is wrong.
+
+What the math says happens in this space:
+- **Pure-play cyber platforms (PANW, CRWD, ZS, OKTA, S)** form an algorithmic cluster — same business model exposure (subscription cyber software).
+- **MSFT** is in its own factor space — too diversified across cloud / productivity / AI / gaming.
+- **CSCO** is a legacy networking name with cyber bolted on (Splunk acquisition) — trades like networking infrastructure, not like security platforms.
+
+The strategic "consolidator" thesis is conceptually valid (all four are doing platform M&A), but trading the four as a basket would dilute idiosyncratic noise from MSFT/CSCO that has nothing to do with security consolidation. **Trade pure-play cyber platforms (PANW + CRWD + ZS) if the thesis is "security consolidation winners"; trade MSFT or CSCO separately on their own theses.**
+
+*Cluster validation 2026-05-03 — falsified as cluster, thesis intact for strategic narrative*
+
 **Short/avoid point solutions:**
 - Single-product companies get acquired or marginalized
 - Exception: category creators with defensible moats

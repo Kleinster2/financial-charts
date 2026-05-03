@@ -112,6 +112,35 @@ Each name is more sensitive to its own product cycle than to the shared capex pa
 
 This is a textbook cluster-validation outcome: the procedure is just as valuable when it falsifies a cluster as when it confirms one. The honest finding is the value-add.
 
+### The actual tradable cluster — supplier chain (May 2026)
+
+The constructive follow-up: the SUPPLIERS the hyperscalers buy from DO form a cluster, even though the buyers don't. Validated 2026-05-03 via `scripts/cluster_analysis.py --config scripts/cluster_configs/hyperscaler_suppliers.yaml`. The supplier-chain candidate cohort: NVDA, AMD, AVGO, TSM, ASML, AMAT, KLAC, LRCX.
+
+**Result: partial validation with clean sub-structure.** Intra-cluster correlation 0.61, PC1 66.3%. The hierarchical cluster at 0.4 returns NVDA + TSM + ASML + AMAT + KLAC + LRCX + MU (memory) as a tight algorithmic cluster — but AMD and AVGO are SINGLETONS.
+
+| Diagnostic | Result | Interpretation |
+|---|---|---|
+| Avg intra-cluster correlation (1Y) | **0.609** (range 0.43-0.86) | Moderate-to-strong cohesion |
+| Tightest sub-cluster | ASML, AMAT, KLAC, LRCX (avg 0.81) | Wafer fabrication equipment is a tight 4-name basket |
+| Hierarchical at 0.4 | NVDA, TSM, ASML, AMAT, KLAC, LRCX, MU cluster + SMH/SOXX/XLK/SPY | AMD and AVGO are SINGLETONS |
+| Cluster vs hyperscalers | 0.305 (+0.30 advantage) | Cleanly distinct from the buyers |
+| Cluster vs broad ETFs (SMH, SOXX) | 0.71 (-0.10 NEGATIVE) | Cluster IS the semi/tech complex right now |
+
+**Key sub-structure findings:**
+
+- **The wafer fabrication equipment quartet (ASML, AMAT, KLAC, LRCX) is the tightest sub-cluster in the AI complex** — pairwise correlations 0.74-0.86. Buy any one, get exposure to all four. The cleanest tradable cluster the math has identified in this validation pass.
+- **NVDA, TSM, MU cluster with the equipment names** — confirming the chain (chips → foundry → memory → equipment) is a single factor.
+- **AMD is a singleton** — it trades on its NVDA-competitor narrative (share-take story), not the AI capex factor. Different business cycle.
+- **AVGO is a singleton** — diversified custom-silicon + VMware integration. AI accelerator exposure dilutes vs networking and software segments.
+
+**What this fixes about the hyperscaler thesis:** the demand-flow narrative (hyperscaler capex → semi stack) is structurally valid, but the tradable expression is the supplier basket, not the buyers. The 0.30 separation between cluster and hyperscalers is consistent with this — the supplier complex captures AI-capex factor cleanly while the hyperscalers themselves are diluted by their respective product cycles.
+
+**Trade implications:**
+- Long the AI capex chain = long {NVDA, TSM, ASML, AMAT, KLAC, LRCX, MU} basket. PC1 66% means equal-weighted basket is largely the factor.
+- Tightest sub-basket = ASML/AMAT/KLAC/LRCX (wafer fab equipment). 0.81 intra-corr.
+- Pair NVDA short / AMD long is a within-fabless competitive trade, NOT an AI exposure trade.
+- Long the cluster vs short SMH = isolating AI specifically (hard, since SMH IS heavily exposed to the same names). Better expression is overweight the equipment quartet within a semi allocation.
+
 ---
 
 ## Related

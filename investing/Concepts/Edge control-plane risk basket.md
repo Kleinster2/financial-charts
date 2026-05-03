@@ -118,6 +118,25 @@ Watch for:
 
 ---
 
+## Cluster validation — weak cluster confirmed (May 2026)
+
+Re-validation via `scripts/cluster_analysis.py --config scripts/cluster_configs/ecpr.yaml` (full procedure in `docs/cluster-validation.md`) confirms the note's own prior assessment ("intermittent cluster, weaker than [[Security control points]]").
+
+**Result: weak cluster.** Intra-cluster correlation 0.47 (below the 0.50 floor), PC1 64.8%. Hierarchical clustering at 0.4 returns ALL THREE names as singletons — no ECPR cluster forms at the standard threshold. The cluster is real on event days but does not sustain as a durable structural grouping.
+
+| Diagnostic | Result | Interpretation |
+|---|---|---|
+| Avg intra-cluster correlation (1Y) | **0.47** (range 0.42-0.55) | Weak — fails the 0.50 cluster floor |
+| PC1 explained variance | **64.8%** | Dominant single factor exists but cluster too loose |
+| Hierarchical clustering at 0.4 | All 3 singletons (FSLY, AKAM, NET) | Cluster does not form at standard threshold |
+| Cluster vs SCP core (CRWD, PANW, ZS) | 0.37 | Edge ≠ control points; small +0.10 separation |
+| Cluster vs hyperscalers (MSFT, GOOGL, AMZN) | 0.11 | Clear +0.36 separation — confirms edge is its own factor |
+| Cluster vs broad ETFs (IGV, XLK, SPY) | 0.20-0.29 | Edge factor is distinct from broad market |
+
+PC1 loadings are tight (FSLY 0.59, AKAM 0.60, NET 0.54) — the three names DO share a common factor, but the loading is muted by their idiosyncratic stories (FSLY = developer-edge pure-play, AKAM = enterprise-CDN incumbent, NET = AI-enabled platform). The note's framing is correct: the basket is a *risk factor that turns on during control-plane narrative shocks*, not a permanent cluster. Use as event-driven trade, not a structural basket.
+
+---
+
 ## Related
 
 - [[Anthropic Managed Agents selloff April 2026]]
@@ -127,5 +146,7 @@ Watch for:
 - [[Cloudflare]]
 - [[Fastly]]
 - [[Akamai]]
+- [[Security control points]] — adjacent cluster (similarly partial validation)
 
 *Created 2026-04-14*
+*Cluster validation 2026-05-03 — weak cluster confirmed (intra-corr 0.47, PC1 64.8%, all 3 singletons at 0.4 threshold)*

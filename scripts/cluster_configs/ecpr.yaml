@@ -1,0 +1,24 @@
+# Edge control-plane risk basket (ECPR) — public neutral edge runtime vendors
+# Cohort from investing/Concepts/Edge control-plane risk basket.md (move-weighted from Apr 10 2026 selloff)
+name: Edge control-plane risk basket (ECPR)
+primary: NET
+prefix: ecpr-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [FSLY, AKAM, NET]
+  scp_core:
+    color: "#7E57C2"
+    tickers: [CRWD, PANW, ZS]
+  hyperscaler:
+    color: "#26A69A"
+    tickers: [MSFT, GOOGL, AMZN]
+  software_etf:
+    color: "#FF6F00"
+    tickers: [IGV, XLK]
+  broad:
+    color: "#9E9E9E"
+    tickers: [SPY, QQQ]
