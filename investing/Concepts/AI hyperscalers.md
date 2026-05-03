@@ -1,5 +1,8 @@
 #concept #demand #ai #datacenter
 
+> [!failure] Cluster status: falsified as tradable basket (May 2026)
+> Intra-cluster correlation only 0.29 across MSFT/GOOGL/AMZN/META/ORCL — all 5 names are singletons at the 0.4 hierarchical threshold. Conceptual thesis intact (capex drives semi stack); cohort is NOT a tradable basket. The actual validated supplier-chain cluster is [[AI capex chain basket]]. See "Cluster validation — failed cluster test" section below.
+
 AI hyperscalers are the demand side of the semiconductor supply chain — they consume the chips that foundries, memory companies, and OSATs produce.
 
 ---

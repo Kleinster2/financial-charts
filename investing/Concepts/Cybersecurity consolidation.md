@@ -1,5 +1,8 @@
 #concept #cybersecurity #thesis
 
+> [!failure] Cluster status: falsified as tradable basket (May 2026)
+> Intra-cluster correlation only 0.37 across PANW/CRWD/MSFT/CSCO — bimodal: PANW-CRWD tight (0.75), MSFT/CSCO uncorrelated (0.13-0.18) with cyber pure-plays. Strategic narrative valid; tradable basket should be cyber pure-plays only (PANW + CRWD + ZS). See "Cluster validation — falsified as basket" section below.
+
 **[[Cybersecurity]] consolidation** — the market is fragmenting into platform winners and point-solution losers. Bet on the consolidators.
 
 ---

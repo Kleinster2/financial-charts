@@ -11,6 +11,9 @@ tags:
 
 # Edge control-plane risk basket
 
+> [!warning] Cluster status: weak cluster (May 2026)
+> Intra-cluster correlation 0.47 (below the 0.50 floor), PC1 64.8%. Hierarchical clustering at 0.4 returns ALL THREE names (FSLY, AKAM, NET) as singletons — no cluster forms at the standard threshold. The basket is a risk factor that turns on during control-plane narrative shocks (event-driven), not a permanent structural cluster. See "Cluster validation — weak cluster confirmed" section below.
+
 Plain English: not all AI infrastructure is safe just because AI traffic grows. If model vendors bundle execution, state, permissions, and tracing into their own hosted agent runtimes, the edge layer closest to that control plane can get repriced hard.
 
 This basket tracks the public edge cluster most exposed when the market decides that value may migrate upstream from neutral runtime vendors to the model provider itself.

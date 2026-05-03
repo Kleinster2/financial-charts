@@ -5,6 +5,9 @@ tags: [basket/internal, ai, semiconductor, infrastructure]
 
 # AI capex chain basket
 
+> [!success] Cluster status: validated (May 2026)
+> Intra-cluster correlation 0.61, PC1 66.3% explained variance. Hierarchical clustering at 0.4 returns the 7 candidate names + broad semi ETFs as one block. Tightest sub-basket: WFE quartet (ASML, AMAT, KLAC, LRCX, intra-corr 0.81). See "Cluster validation" section below.
+
 The mathematically-validated tradable cluster the [[AI hyperscalers]] thesis pointed at. Hyperscaler equity returns themselves do not co-move (intra-corr 0.29 — see [[AI hyperscalers]] for the falsified hyperscalers cluster section), but the SUPPLIERS the hyperscalers spend on do. This basket isolates the AI infrastructure capex factor at its tightest point: chip designers + leading-edge foundry + memory + wafer fabrication equipment.
 
 Validated 2026-05-03 — intra-corr 0.61, PC1 66.3%, hierarchical clustering at 0.4 returns the seven names plus broad semi ETFs as a coherent block. The wafer fabrication equipment quartet (ASML, AMAT, KLAC, LRCX) is the tightest sub-basket in the entire AI complex (intra-corr 0.81, pairwise range 0.74-0.86).

@@ -5,6 +5,9 @@ tags: [concept, finance, capital-markets, m&a]
 
 # Boutique advisory consolidation
 
+> [!success] Cluster status: validated (May 2026)
+> Intra-cluster correlation 0.73, PC1 77.5% explained variance. Hierarchical clustering at 0.4 returns exactly the 6 candidate names (PWP, LAZ, EVR, MC, HLI, PJT). Most distant comparator: insurance brokers (+0.60 advantage). See "Cluster validation — statistical analysis" section below.
+
 Independent investment-banking advisory firms ("boutique" banks) have taken a growing share of global M&A fee income since the 2008 financial crisis, on the back of the "conflict-free advice" pitch — no lending relationships, no trading book, no underwriting inventory to clear. As the category has matured past its growth phase, the top independents have started consolidating among themselves, buying smaller local or specialist shops to close gaps in geographic and sector coverage. The 2025–2026 wave of deals — [[Evercore]] / [[Robey Warshaw]] (UK, Jul 2025), [[Perella Weinberg Partners]] / [[Devon Park]] (secondaries, 2025), [[Perella Weinberg Partners]] / [[Gleacher Shacklock]] (UK, Apr 2026) — is the clearest signal that boutiques now compete with each other, not just with the bulge brackets.
 
 ---

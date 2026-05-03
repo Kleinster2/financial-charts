@@ -12,6 +12,9 @@ tags:
 
 # Security control points
 
+> [!warning] Cluster status: partial validation (May 2026)
+> Intra-cluster correlation 0.57, PC1 64.8% — moderate cohesion. Hierarchical clustering at 0.4 returns only 3 of 6 candidates as a tight sub-core (CRWD, PANW, ZS — "platform cyber"), pulls in OKTA/S/TENB from controls, excludes FTNT/NET/RBRK as standalones. The 6-name "structural core" is a thesis grouping; the tradable cluster is the 3-name platform-cyber sub-core. See "Cluster validation — partial confirmation, sub-structure revealed" section below.
+
 Plain English: the market is separating generic cybersecurity from the vendors that sit at a control point. These are the companies that still see the traffic, enforce the policy, own the telemetry, or control the recovery loop after AI changes the tooling layer.
 
 The important distinction is not just cyber winners versus cyber losers. It is whether a vendor sits in a part of the stack customers still have to pass through: secure access, network policy, endpoint telemetry, or data protection and recovery. Those positions can still matter even if frontier labs get much better at vulnerability discovery and exploit generation.

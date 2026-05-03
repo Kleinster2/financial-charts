@@ -5,6 +5,9 @@ tags: [basket/internal, ai, disruption, alt-managers]
 
 # Alternative asset managers basket
 
+> [!success] Cluster status: validated (May 2026)
+> Intra-cluster correlation 0.76, PC1 80.1% explained variance. Hierarchical clustering at 0.4 returns exactly the 6 candidate names (ARES, KKR, OWL, BX, APO, BAM). Tighter than boutique advisory. BLK does NOT belong (passive-heavy mix). See "Cluster validation — statistical analysis" section below.
+
 Alternative asset manager stocks that sold off heavily during the [[Claude Cowork disruption February 2026|SaaSpocalypse]] Wave 1 (Feb 3-5) despite not being intermediaries. The market initially treated them as part of the "AI replaces financial services" trade — indiscriminate selling before sorting intermediaries from asset owners.
 
 They bounced back ~50% of the drop by Feb 10 as the market distinguished originators/asset owners from advisory middlemen. Tracked as a control group against the [[AI financial disintermediation basket|AIFD]] (which stayed down) and the broader software cascade of [[February 2026 AI Disruption Cascade]] (which stayed down worse).

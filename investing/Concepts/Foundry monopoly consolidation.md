@@ -1,5 +1,8 @@
 #concept #foundry #moat #structure
 
+> [!failure] Cluster status: falsified as basket (May 2026) — falsification CONFIRMS the monopoly thesis
+> Intra-cluster correlation only 0.21 across TSM/INTC/GFS/Samsung — Samsung essentially uncorrelated with TSM (-0.02). The foundries don't trade as peers because they aren't peers — TSM has subordinates competing in adjacent markets, not real competitors. Long the monopoly = long TSM directly (or via SMH where TSM is dominant holding). See "Cluster validation — falsified, asymmetry confirmed" section below.
+
 **Foundry monopoly consolidation** — the structural dynamics that make leading-edge chip manufacturing winner-take-most, and why the leader's advantage compounds rather than erodes.
 
 > **Key insight:** Foundry isn't a normal competitive market. The leader doesn't just have advantages — they have *reinforcing* advantages that make catching up harder over time, not easier.
