@@ -40,6 +40,18 @@ For Tailscale / phone access, set `Plugin.LightweightCharts({ apiBaseUrl: "http:
 
 Both servers are wrapped by a Task Scheduler watchdog that re-spawns whichever is missing every 5 minutes (and at logon). See [`ops/server-watchdog.md`](ops/server-watchdog.md).
 
+## Nightly rebuild
+
+A separate scheduled task `FinancialCharts-Quartz-Rebuild` fires `scripts/rebuild_quartz.ps1` daily at 3 AM. The script builds into `public-next/`, then atomic-swaps it into `public/` (`public/` → `public-old/` → delete; `public-next/` → `public/`). `serve_static.py` keeps serving the previous build throughout — users only see a brief swap at the end.
+
+For same-session freshness (rare — you usually edit in Claude Code and read Quartz against older threads), invoke `/rebuild-quartz-now`. The skill fires the same script in the background. Build takes ~30-40 minutes for the full ~6,300-file vault.
+
+A lockfile at `logs/quartz-rebuild.lock` prevents the nightly job and a manual fire from racing. Stale locks (>2h) are auto-cleared.
+
+### Why not `--serve` mode
+
+Tested 2026-05-04. `npx quartz build --serve` advertises sub-second hot-reload, but on this vault it actually takes ~1 minute per single-file edit (6s parse + ~1m emit, because Quartz rebuilds search index, breadcrumbs, etc. on any change). More damaging: the initial build is the same 38-minute cost as `npx quartz build`, so spawning `--serve` from the watchdog meant 38 minutes of unreachable site on every reboot, lid-cycle, or crash recovery. The atomic-swap nightly path keeps `public/` always available with a fast cold start, at the cost of "today's edits visible tomorrow morning" — acceptable since Quartz is a thread-pulling surface, not the editing surface.
+
 ## Local Quartz patches
 
 These don't survive a re-clone of upstream Quartz. Re-apply if reinstalling:

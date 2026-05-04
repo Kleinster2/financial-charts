@@ -48,6 +48,8 @@ __pycache__/
 !.claude/skills/replicate/SKILL.md
 !.claude/skills/replicate/evals/
 !.claude/skills/replicate/evals/evals.json
+!.claude/skills/rebuild-quartz-now/
+!.claude/skills/rebuild-quartz-now/SKILL.md
 !.claude/hooks/
 !.claude/hooks/*
 !.claude/settings.json
