@@ -152,6 +152,14 @@ That is a more hawkish kind of dissent than the January Miran/Waller cut dissent
 
 *Source: [Federal Reserve FOMC statement](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm), Apr 29 2026.*
 
+### May 4, 2026 — Williams flags "wide-ranging" supply shock
+
+[[John Williams]] (NY Fed President, permanent FOMC Vice Chair) warned of the risk of a "wide-ranging" supply shock as the [[Operation Epic Fury|Iran war]] drags on with no resolution in sight. The framing matters because it lands one rung below the Chair in market-moving weight and is the most senior post-Apr-29 signal that the next FOMC step is unlikely to revert to a dovish reaction function. "Wide-ranging" extends the channel beyond crude/refined-product prices into supply chains — consistent with the [[Iran conflict supply chain cascade|Detroit Big Three +$5B commodity hit]] and [[Aluminum|aluminium +16% LME]] transmission already in evidence. For the May FOMC, it strengthens the [[Beth Hammack|Hammack]]/[[Neel Kashkari|Kashkari]]/[[Lorie Logan|Logan]] hawkish-dissent vector against the [[Stephen Miran|Miran]] cut dissent.
+
+The remarks landed on a day when [[United States|US]] and [[Iran]] exchanged fire near the [[Strait of Hormuz]], the [[UAE]] intercepted Iranian missiles and drones (first attack on UAE since the ceasefire), and an Iranian drone sparked a fire at a [[Fujairah]] petrochemical site. Stocks slipped from record highs; oil closed up; Treasuries sold off on the UAE strike news.
+
+*Source: [[Financial Times|FT]] live blog and "Donald Trump's Iran war leaves US with sharpest fuel shock in G7" (May 4, 2026).*
+
 ---
 
 ## Chair transition (May 2026)

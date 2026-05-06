@@ -440,6 +440,73 @@ See [[Fortress China]] for the structural framework that Xi is defending.
 
 ---
 
+## Detroit auto OEMs — combined ~$5B commodity hit (FT, May 3)
+
+*Source: FT (Kana Inagaki, Christian Davies, Sebastien Ash), May 3, 2026.*
+
+The Big Three US carmakers ([[General Motors]], [[Ford]], [[Stellantis]]) flagged at Q1 2026 earnings that Iran-war commodity inflation will cost the group ~$5B in 2026 — roughly equivalent to the ~$6B hit they expect from US tariffs. The transmission runs through aluminium (body panels, engines, doors), naphtha-derived plastics and coatings, and DRam memory chips redirected toward AI data centres. [[Mercedes-Benz]] flagged the same input squeeze at its Q1 print.
+
+### Per-OEM commodity guidance (Q1 2026)
+
+| OEM | 2026 commodity hit | Change vs prior guidance | Source |
+|-----|-------------------|--------------------------|--------|
+| [[General Motors]] | up to $2B | raised from up to $1.5B | Mary Barra (earnings presentation, late Apr 2026) |
+| [[Ford]] | up to $2B | +$1B YoY | Sherry House CFO |
+| [[Stellantis]] | ~€1B ($1.2B) projected for 2026 | mostly hedged in Q1 | Stellantis disclosure |
+| **Combined** | **~$5B** | — | FT aggregation |
+
+For comparison: the Q1 tariff hit on the same three names is ~$6B. The commodity shock is now of the same order of magnitude as the tariff shock — and the two stack on the same income statements.
+
+### Transmission mechanics
+
+| Input | Move | Channel |
+|-------|------|---------|
+| [[Aluminum]] | +16% on [[London Metal Exchange|LME]] since Iran war outbreak | Body panels, engines, doors |
+| [[Aluminum]] passthrough | $500–$1,500/vehicle if hedges roll off (Gerrit Reepmeyer, [[AlixPartners]]) | Auto OEM cost per unit |
+| [[Naphtha]] / petrochemicals | Higher oil/gas → higher input cost | Plastics, paint, coatings, rubber tyres |
+| DRam memory chips | Auto-grade capacity reallocated | Memory firms shifting to AI data centre chips |
+
+[[Albert Waas]] ([[BCG]] automotive partner, May 3): *"I think we are past the point where I would say, it's just a glitch. Just a couple of weeks and it's back to normal and we just compensate for that cost."* Carmakers have been insulated through Q1 by fixed-price supplier contracts. If the conflict lasts another two months, more suppliers are expected to push for new terms — with higher prices flowing through ~6 months later.
+
+### Why aluminium is the biggest pain point
+
+Aluminium is the single most exposed input — used widely in body panels, engines, and doors, and price-sensitive on the LME. The +16% LME aluminium move since the Iran war began is the cleanest single-commodity transmission of the conflict into the auto income statement.
+
+[[Ford]] is the most exposed because two prior shocks compounded:
+1. **Pre-war**: A pair of fires at a [[Novelis]] aluminium plant disrupted body-sheet supply for the F-Series pick-up.
+2. **Post-tariff + post-war**: Ford was forced to source aluminium from overseas, hitting both the 50% [[Section 232]] aluminium tariff and the LME spike — adding ~$1B to costs.
+
+Sherry House (Ford CFO, Q1 2026 call): *"we were already seeing global industry shortages. Then you had the Middle East."* The Novelis incident is a rare case where a US producer outage — not a tariff or geopolitical event — directly forced reliance on tariffed imports, magnifying the pass-through.
+
+### Mercedes-Benz parallel signal
+
+[[Harald Wilhelm]] ([[Mercedes-Benz]] CFO, Q1 2026 call): *"We do expect raw material [costs] to step up further in the remainder of the year, higher than what we anticipated at the beginning of the year."* If the war continues for a "longer period," Wilhelm cannot rule out bottlenecks in individual commodities. The German read-through extends the cost picture beyond Detroit — European OEMs face the same naphtha/aluminium/DRam stack and have less hedge cover than [[Stellantis]] disclosed for Q1.
+
+### Tariff vs commodity stack
+
+The auto income statement now carries two parallel cost shocks:
+
+| Shock | Magnitude (Big Three 2026) | Reversibility |
+|-------|---------------------------|----------------|
+| US tariffs (residual after [[Learning Resources v Trump|SCOTUS IEEPA ruling]]) | ~$6B | Partly reversed via refunds; [[Section 232]] survives |
+| Iran-war commodity inflation | ~$5B | Reverts only on war resolution + supplier renegotiation lag |
+
+The tariff side has a relief valve (rebates from the Feb 20 SCOTUS ruling — see [[2026 Supreme Court IEEPA ruling]] / [[Learning Resources v Trump]]). The commodity side has no equivalent relief valve until the war ends and supplier contracts re-clear at lower prices — and even then, the ~6-month lag works in reverse.
+
+### Pricing power constraint
+
+The first carmaker to raise prices risks sacrificing share. Consumers are stretched on [[US auto affordability]] — average new-car price $50K+, financing rates ~7%, sub-$75K households leaving the new-car market. Waas: *"obviously at some point you will be just forced to increase prices. And as long as everybody is doing it, you basically keep your market share."* The collective-action problem is exactly the post-pandemic dynamic in reverse — automakers held margins by holding inventory low, but they can only re-inflate prices once everyone moves together.
+
+### European-car tariff threat (May 1, 2026)
+
+[[Donald Trump]] on Friday May 1 threatened separate tariffs on European-made cars imported into the US. This is in addition to (and policy-distinct from) both the IEEPA tariffs SCOTUS struck down and the Section 232 aluminium and auto tariffs that survived. The threat lands on top of [[Mercedes-Benz]]'s commodity squeeze and adds policy uncertainty over Q2 to a sector already pricing two shocks.
+
+### Investment read
+
+The Q1 2026 earnings cycle is the first time the auto income statement carries simultaneous tariff + commodity shocks. Margin compression is structural for at least 6 months unless: (1) the war resolves and supplier contracts re-clear, or (2) automakers move in unison on price. Watch for: [[Ford]] follow-up on aluminium hedge unwind timing; [[Mercedes-Benz]] and [[BMW]] commentary on whether the European tariff threat changes capex; Section 232 substitution risk if the administration uses it as a vehicle to replace struck-down IEEPA tariffs (the IEEPA ruling raised the policy salience of Section 232 as the surviving tariff authority).
+
+---
+
 ## US polyethylene/ethylene boom — Hormuz beneficiary trade (March 19)
 
 *Source: Bloomberg, Christopher Charleston, March 19, 2026*
@@ -516,7 +583,14 @@ Tehran was already heavily polluted before the war. Researchers including [[Neja
 - [[Stellen Capital]] — commodities/shipping hedge fund
 - [[Australia]] — 32→10 days of fuel cover, gold mines shutting
 - [[Venezuela]] — cheapest crude at USGC, substitute for Iraqi barrels
+- [[General Motors]], [[Ford]], [[Stellantis]], [[Mercedes-Benz]] — Detroit / European auto OEM commodity transmission (~$5B 2026 hit)
+- [[Aluminum]] — primary input transmission (+16% LME, $500–$1,500/vehicle passthrough)
+- [[Novelis]] — F-Series body-sheet supplier; pre-war plant fires compounded post-war LME spike for [[Ford]]
+- [[Memory shortage victims]] — auto OEM DRam exposure stacks on top of consumer-electronics squeeze
+- [[US auto affordability]] — downstream consumer cost pressure
+- [[Mary Barra]] — Iran-war commodity quote (GM CEO)
+- [[BCG]], [[AlixPartners]] — auto consultancy framing on supplier renegotiation lag and per-vehicle aluminium passthrough
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-24 (Wiggen/Stellen Capital).*
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-05-04 (Detroit auto OEM section, FT).*

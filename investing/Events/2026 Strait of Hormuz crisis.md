@@ -378,6 +378,38 @@ OPEC framing — Germini "OPEC for Dummies" (May 1): "The most powerful cartel i
 
 ---
 
+## May 4, 2026 — Strait fire exchange, UAE first attack since ceasefire
+
+The "blockade priced, reopening not" frame from late-April broke on Monday May 4 with the most kinetic sequence since the Apr 12 blockade announcement. Three near-simultaneous escalations and one macro warning:
+
+*Strait fire exchange.* [[United States|US]] Centcom reported that US and [[Iran]] forces exchanged fire near the [[Strait of Hormuz]]. The US military clarified that warships are *not* directly escorting commercial vessels through the strait but are operating a "defensive umbrella" — a posture short of formal convoy escort. [[Donald Trump]] said the US had shot down "more than half a dozen" small boats since Washington announced "Project Freedom" — the program to "guide" stranded ships through the chokepoint, which is the operational descendant of the Apr 12 blockade announcement. Two American-flagged commercial vessels transited the Strait under that program.
+
+*UAE strike.* [[UAE]] air defenses intercepted four missiles plus drones launched from Iran on Monday evening — the first direct Iranian attack on UAE territory since the ceasefire (per UAE Defense Ministry). An Iranian drone sparked a major fire at a [[Fujairah]] petrochemical site (Fujairah media office). UK Maritime Trade Operations reported a separate ship fire off the UAE coast. The UAE political response: "[the UAE] will not be intimidated."
+
+*Market reaction.* Stocks slipped from record highs (FT: Iran "warned it will attack US Navy ships that enter the Strait of Hormuz"). US stocks closed lower Monday after the fire exchange; oil closed higher; Treasuries sold off on the UAE strike news. The cross-asset signature — equities down, oil up, bonds down — is the same March supply-shock pattern documented in [[2026 Iran conflict market impact#March 2026 cross-asset signature: nowhere to hide|"nowhere to hide"]] but now arriving on a smaller scale because the trade was less crowded heading in.
+
+*US fuel shock.* [[Financial Times|FT]] reported separately on May 4 that average US gasoline prices will hit $5/gallon by the start of June *even if* the Trump administration reaches a deal soon to reopen the Strait — described as the sharpest fuel shock in the G7. This is consistent with [[Natasha Kaneva]] ([[JPMorgan]])'s pre-Apr-8 ceasefire-reaction call (US gas $5/gal risk if Hormuz stays closed past mid-April) but tightens the timeline and removes the "if reopened" off-ramp from the gasoline path. The asymmetry between US fuel exposure and the rest of the G7 is the [[US Energy Independence Six Countries|"six countries"]] framework manifesting at the gasoline pump: the US is a net energy exporter in aggregate but coastal demand depends on imports and the Jones-Act-constrained Gulf-to-East-Coast lane.
+
+*Fed reaction function.* [[John Williams]] ([[Federal Reserve Bank of New York|NY Fed]] President, permanent FOMC Vice Chair) warned of the risk of a "wide-ranging" supply shock as the war drags on. This is the most senior post-Apr-29 Fed signal and reinforces the [[Federal Reserve#April 29, 2026 decision|hawkish-dissent vector]] (Hammack/Kashkari/Logan against an easing bias) over the [[Stephen Miran|Miran]] cut dissent. For markets, the May FOMC reaction function is no longer "how soon can cuts resume?" — it is whether energy-driven inflation has made the next move two-sided.
+
+The combined read against the late-Apr Germini front-month framing: the symmetric mispricing has resolved, at least for now, in favor of the blockade-tail outcome. Both [[Hormuz Permanent Risk Premium]] and [[Hormuz Transit Regime]] strengthen each escalation cycle that the regime survives; the May 4 sequence demonstrates that even after a ceasefire and after live-test cargo movements, the Iranian escalation lever is still operative without regime-ending consequence — Connelly's [[Hormuz Permanent Risk Premium#MEI panel — deterrence equation broken (March 20, 2026)|broken-deterrence-equation]] thesis hardened.
+
+*Sources: [[Financial Times|FT]] live blog (May 4, 2026); FT, "Donald Trump's Iran war leaves US with sharpest fuel shock in G7" (May 4, 2026); UAE Defense Ministry; UK Maritime Trade Operations; Fujairah media office; Centcom (Adm Brad Cooper).*
+
+---
+
+## May 5, 2026 — Croft "still not safe to traverse" + intraday reversal
+
+The May 4 escalation reset shipper risk perception by Tuesday morning. [[Helima Croft]] on CNBC's "The Exchange" said *"companies are still saying it is not safe to traverse the Strait of Hormuz."* Audio reportedly surfaced overnight of Iranian naval leaders broadcasting that the strait was *"completely closed"* once again — unverified at the source level but widely circulated, and the kind of signal that hardens insurer caution even if it doesn't trigger a policy response. The framing extends Croft's late-April "fine print on reopening" thread: shippers and insurers need legal/regulatory certainty before tankers move, and the Apr 8 ceasefire framework — already weakened by the May 4 UAE missile barrage on [[Fujairah]] — is now operationally distinct from physical normalization at the chokepoint.
+
+*Tape (intraday reversal).* Equities reopened weak on the May 4 escalation overhang, then rallied to fresh highs as the ceasefire-holding read won out. S&P 500 +0.8%, Nasdaq +1%, Russell 2000 +2% — small-caps and tech leading. [[Brent crude|Brent]] eased from the May 4 +6% spike but stayed near $114; WTI sub-$105. The cross-asset signature inverted vs. May 4 (equities up, oil flat-to-down, Treasuries firmer). The market is treating kinetic Iran-UAE escalation as a buyable dip while shippers refuse the corridor — the [[Helima Croft#Late April 2026 — 12.5M b/d disrupted, "fine print" on reopening|"financial-physical gap"]] thread.
+
+*Read against Germini.* The [[Felipe Germini]] May 1 framing ([[Felipe Germini|"Market Has Priced the Blockade. It Hasn't Priced the Reopening"]]) implied symmetric mispricing on both tails. The May 4-5 sequence resolves toward the blockade-tail outcome operationally (ships still not moving, insurance not normalizing) while the equity tape continues to price the reopening tail. That's the financial-physical gap reopening rather than closing — a structural feature of the [[Hormuz Permanent Risk Premium|risk-premium regime]].
+
+*Sources: [CNBC video — Companies are still saying it is not safe to traverse the Strait of Hormuz, says RBC's Helima Croft](https://www.cnbc.com/video/2026/05/05/companies-are-still-saying-it-is-not-safe-to-traverse-the-strait-of-hormuz-says-rbcs-helima-croft.html), May 5 2026; [Bloomberg — US Stock Futures Gain as Iran Ceasefire Holds, AMD Earnings Awaited](https://www.bloomberg.com/news/articles/2026-05-05/us-stock-futures-rise-with-eyes-on-iran-ceasefire-amd-results), May 5 2026; [TheStreet — Stock Market Today May 5 2026: small-caps and tech lead](https://www.thestreet.com/latest-news/stock-market-today-may-5-2026-dow-futures-rise-on-iran-war-developments).*
+
+---
+
 ## Watch for
 
 - [ ] Asian GDP revisions — IMF Apr 16 kept Asia at 4.4% / 4.2% under transient-shock assumptions, but confirmed higher inflation and weaker external balances

@@ -83,14 +83,27 @@ Project Vault's supply security directly addresses GM's supply chain vulnerabili
 
 ---
 
-## Related
+## Iran-war commentary (May 3 2026)
 
-- [[Project Vault]] — attended announcement
-- [[GM]] — company led
-- [[Electric vehicles]] — strategic focus
-- [[Critical minerals]] — supply chain dependency
-- [[Donald Trump]] — policy relationship
+In a Q1 2026 earnings presentation (week of Apr 28), Barra raised GM's 2026 commodity-inflation guidance from up to $1.5B to up to $2B and characterized the [[Operation Epic Fury|Iran war]] as the driver:
+
+*"The war in Iran has raised our costs and its duration remains uncertain."*
+
+Barra said GM is reducing spending in other areas to counter the rise in oil and other commodity prices. The $500M increase roughly offsets the $500M tariff windfall GM disclosed at the same Q1 print from the [[2026 Supreme Court IEEPA ruling]]. See [[General Motors]] § Iran-war commodity squeeze and [[Iran conflict supply chain cascade]] § Detroit auto OEMs.
+
+*Source: FT (Inagaki / Davies / Ash), May 3 2026.*
 
 ---
 
-*Created 2026-02-02 from [[Project Vault]] research*
+## Related
+
+- [[Project Vault]] — attended announcement
+- [[General Motors]] — company led
+- [[Electric vehicles]] — strategic focus
+- [[Critical minerals]] — supply chain dependency
+- [[Donald Trump]] — policy relationship
+- [[Iran conflict supply chain cascade]] — May 2026 commodity-inflation commentary
+
+---
+
+*Created 2026-02-02 from [[Project Vault]] research · Updated 2026-05-04 (FT)*

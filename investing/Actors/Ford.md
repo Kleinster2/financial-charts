@@ -142,6 +142,27 @@ For Ford the read-through is two-sided. The opportunity is a defense-revenue str
 
 ---
 
+## Q1 2026 commodity squeeze — $2B supply chain hit (FT, May 3)
+
+At Q1 2026 earnings (week of Apr 28), Ford guided to up to $2B in supply-chain costs for 2026, a $1B year-on-year increase. The hit stacks two compounding shocks:
+
+1. **Pre-war**: A pair of fires at a [[Novelis]] aluminium plant disrupted body-sheet supply for the F-Series pick-up. Ford was forced to source aluminium from overseas while [[Novelis]] recovers — running directly into the 50% [[Section 232]] tariff on imported aluminium. This combination alone added ~$1B of cost.
+
+2. **Post-war**: [[Operation Epic Fury|Iran-war]] LME aluminium spike (+16% since outbreak), naphtha-derived plastics inflation, and DRam memory chip costs as memory firms reallocate auto-grade capacity toward AI data centres.
+
+CFO Sherry House: *"we were already seeing global industry shortages. Then you had the Middle East."* Ford is the most aluminium-exposed of the Big Three because the F-Series moved to an all-aluminium body in 2014 — making [[Novelis]] structurally critical to the highest-volume, highest-margin product line.
+
+| Metric | 2026 guidance | YoY change |
+|--------|---------------|------------|
+| Supply-chain costs | up to $2B | +$1B |
+| Aluminium-specific (Novelis-overseas substitution) | ~$1B | new |
+
+The full Detroit picture: Ford ($2B) + [[General Motors]] ($2B) + [[Stellantis]] (€1B / $1.2B) = ~$5B combined commodity hit for 2026 — roughly equivalent to the ~$6B residual tariff hit on the same group post the [[Learning Resources v Trump]] SCOTUS ruling. See [[Iran conflict supply chain cascade]] § Detroit auto OEMs for the cross-OEM table and analyst framing ([[Albert Waas|BCG]] 6-month renegotiation lag, [[Gerrit Reepmeyer|AlixPartners]] $500–$1,500/vehicle aluminium passthrough).
+
+*Source: FT (Inagaki / Davies / Ash), May 3, 2026.*
+
+---
+
 ## South Africa operations
 
 [[Ford]] manufactures the Ranger pick-up in Silverton, Pretoria, with capacity for 200,000 units/year. The plant is 600 km from the nearest export terminal. SA CEO Neale Hill: *"it's still cheaper to truck our vehicles than put them on the rail"* — rail costs $37 more per vehicle via state-owned [[Transnet]], which "adds up" at plant capacity. Ford cut 470 jobs at its Silverton and Nelson Mandela Bay factories amid the broader SA auto industry crisis driven by cheaper [[China]]/[[India]] imports.
@@ -188,7 +209,13 @@ For Ford the read-through is two-sided. The opportunity is a defense-revenue str
 
 - [[Tesla]] — competitor (Cybertruck)
 - [[Rivian]] — competitor (R1T truck)
-- [[GM]] — competitor (Silverado EV)
+- [[General Motors]] — competitor (Silverado EV)
 - [[LG Energy Solution]] — battery partner
 - [[Lithium]] — battery input
+- [[Novelis]] — aluminium body-sheet supplier; 2026 plant fires + Section 232 pass-through ~$1B of 2026 cost
+- [[Aluminum]] — most exposed input; F-Series all-aluminium body
+- [[Section 232]] tariffs — 50% on imported aluminium; survived [[Learning Resources v Trump|SCOTUS IEEPA ruling]]
+- [[Iran conflict supply chain cascade]] — Detroit OEM combined ~$5B commodity hit
+- [[Mercedes-Benz]] — European parallel; Wilhelm flagged similar raw-material step-up
+- [[Stellantis]] — Big Three peer; Q1 2026 mostly hedged, projects ~€1B 2026
 

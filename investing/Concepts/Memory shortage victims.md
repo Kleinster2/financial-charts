@@ -66,6 +66,19 @@ Memory costs now 21-35% of device BOM for many products.
 | Transcend | Halted shipments Nov 2025 |
 | G.Skill | Supply constrained |
 
+### Auto OEMs (added May 2026)
+
+Memory firms ([[SK Hynix]], [[Samsung]], [[Micron]]) shifted production away from less-advanced auto-grade DRam toward higher-margin AI data centre chips, leaving the auto industry exposed to a parallel supply squeeze stacked on top of the Iran-war commodity hit. Detroit Big Three flagged DRam-cost inflation as a meaningful component of 2026 supply-chain guidance (FT, May 3 2026):
+
+| Company | Impact |
+|---------|--------|
+| [[General Motors]] | DRam costs cited as part of $1.5B → $2B commodity inflation guidance raise (Mary Barra) |
+| [[Ford]] | DRam noted alongside aluminium and naphtha in $2B (+$1B YoY) supply-chain hit |
+| [[Stellantis]] | Mostly hedged Q1; ~€1B 2026 projection includes DRam |
+| [[Mercedes-Benz]] | Wilhelm flagged broad raw-material and chip cost step-up |
+
+The auto OEM appearance in the victim list confirms the cross-sector breadth: AI demand is now visible not just in consumer electronics (consoles, PCs, smartphones) but in industrial/automotive supply chains. See [[Iran conflict supply chain cascade]] § Detroit auto OEMs.
+
 ---
 
 ## Timeline
@@ -109,3 +122,8 @@ The AI boom has second-order effects. Memory makers win, but their traditional c
 - [[Lenovo]] — victim (hoarding, 50% above normal inventory)
 - [[Xiaomi]] — victim (+25% DRAM cost per phone)
 - [[Corsair]] — victim (suspended orders)
+- [[Ford]] — victim (DRam in $2B 2026 supply-chain guide)
+- [[General Motors]] — victim (DRam contributed to $1.5B → $2B guidance raise)
+- [[Stellantis]] — victim (DRam in ~€1B 2026 projection)
+- [[Mercedes-Benz]] — victim (Wilhelm raw-material commentary)
+- [[Iran conflict supply chain cascade]] — auto-sector commodity transmission context

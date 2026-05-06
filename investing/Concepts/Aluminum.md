@@ -7,16 +7,27 @@ aliases: [aluminum, aluminium, AA]
 
 ---
 
-## Current status (Jan 2026)
+## Current status (Jan 2026 baseline)
 
 | Metric | Value |
 |--------|-------|
-| LME aluminum | **$3,296/t** (highest since April 2022) |
+| LME aluminum | $3,296/t (highest since April 2022) |
 | 4-week change | +8.78% |
 | 12-month change | +24.6% |
 | Global production | ~70M tonnes/year |
 | China share | ~60% (45M tonne cap) |
 | Market balance | Deficit expected 2026-2027 |
+
+### Iran-war re-rating (Feb 28 → May 3, 2026)
+
+LME aluminium has risen as much as 16% since the Iran war broke out, per FT (May 3, 2026). The move sits on top of the structural deficit set up by the China cap and the Bahrain Alba shutdown (Mar 16, see [[Iran conflict supply chain cascade]]).
+
+| Metric | Pre-war (~Feb 27) | Post-war peak | Move |
+|---|---|---|---|
+| LME aluminium (FT-cited) | base | up to +16% | structural step-change |
+| Aluminium passthrough to vehicle cost (Reepmeyer / [[AlixPartners]]) | n/a | +$500–$1,500/vehicle if hedges roll off | per-unit auto OEM hit |
+
+The combination of: (1) structural China-cap supply tightness, (2) Alba (Bahrain) phased shutdown, (3) Iran-war LME premium, and (4) 50% [[Section 232]] tariff on imported aluminium creates a four-way squeeze on US aluminium consumers. Auto OEMs are the most visible — see *Auto-OEM transmission* below.
 
 ---
 
@@ -71,13 +82,32 @@ Recent disruptions at key smelters:
 
 | Driver | Outlook |
 |--------|---------|
-| **Solar/renewables** | Strong growth |
-| **EVs** | Growing (aluminum intensive for lightweighting) |
-| **Construction** | Stable |
-| **Packaging** | Mature |
-| **Infrastructure** | Government spending support |
+| Solar/renewables | Strong growth |
+| EVs | Growing (aluminum intensive for lightweighting) |
+| Construction | Stable |
+| Packaging | Mature |
+| Infrastructure | Government spending support |
 
 Demand continues rising from energy transition — solar, EVs, grid infrastructure.
+
+---
+
+## Auto-OEM transmission (May 3, 2026)
+
+Aluminium is the single largest commodity input pain point for the auto industry post-Iran-war, FT reports. The metal is used in vehicle body panels, engines, and doors. Three transmissions stack:
+
+| OEM | 2026 commodity guidance | Aluminium-specific exposure |
+|-----|-------------------------|------------------------------|
+| [[Ford]] | up to $2B (+$1B YoY) | Worst hit — pre-war [[Novelis]] plant fires forced overseas sourcing into 50% [[Section 232]] tariffs (~$1B alone) |
+| [[General Motors]] | up to $2B (raised from $1.5B) | Body sheet, structural parts |
+| [[Stellantis]] | ~€1B ($1.2B) projected | Mostly hedged in Q1 |
+| [[Mercedes-Benz]] | "raw material costs to step up further" — Wilhelm | Less hedge cover than [[Stellantis]] disclosed |
+
+[[Gerrit Reepmeyer]] ([[AlixPartners]] partner): the LME aluminium move could add $500–$1,500 per vehicle if it persists and no hedges were applied. [[Albert Waas]] ([[BCG]]): supplier renegotiations from a sustained war run ~6 months in lag — Q1 fixed-price contracts shielded the income statement, Q3-Q4 will not.
+
+The [[Novelis]] case is diagnostic: a US producer outage forcing reliance on tariffed imports magnified the pass-through. Novelis is a wholly-owned subsidiary of [[Hindalco Industries]] ([[India]]); the disruption pre-dated the war but the post-war LME spike compounded its cost.
+
+*Source: FT (Inagaki / Davies / Ash), May 3 2026.*
 
 ---
 
@@ -156,9 +186,13 @@ Over **30M tonnes/year** new alumina capacity coming online in China, Indonesia,
 - [[Emirates Global Aluminium]] — UAE producer (Mubadala/Dubai)
 - [[Alcoa]] — US pure-play
 - [[Rio Tinto]] — diversified major with aluminum ops
+- [[Novelis]] — global \#1 in flat-rolled aluminium; subsidiary of [[Hindalco Industries]]; supplies [[Ford]] F-Series
 - [[China]] — dominant producer/consumer
 - [[Energy]] — critical input cost
 - [[Defense energy vulnerability]] — 50% of US aluminum capacity in PJM's stressed grid (CSIS, March 2026)
+- [[Iran conflict supply chain cascade]] — 2026 LME re-rating; auto-OEM transmission
+- [[Section 232]] tariffs — 50% rate on imported aluminium magnifies overseas sourcing cost
+- [[US auto affordability]] — downstream cost-pass-through pressure
 
 ---
 

@@ -63,6 +63,19 @@ American consumers migrated from sedans to SUVs and pickups over two decades. Au
 - Automakers absorbing tariff costs to avoid sticker shock
 - Spreading small increases across lineups rather than repricing individual models
 - Partially offsets incentive increases
+- Post Feb 20 2026: [[Learning Resources v Trump|SCOTUS IEEPA ruling]] reversed the largest tranche of tariffs, but the 50% [[Section 232]] aluminium and steel tariffs survive — keeping a structural floor under input costs
+
+### 4a. Iran-war commodity inflation (2026)
+
+A new cost layer arrived with the [[Operation Epic Fury|2026 Iran war]] (FT, May 3 2026). Big Three combined commodity-inflation guidance for 2026 totals ~$5B — roughly equivalent to the residual ~$6B tariff hit on the same group:
+
+| OEM | 2026 commodity guide | Aluminium-specific note |
+|-----|----------------------|--------------------------|
+| [[Ford]] | up to $2B (+$1B YoY) | [[Novelis]] plant fires + 50% Section 232 → ~$1B |
+| [[General Motors]] | up to $2B (raised from $1.5B) | Body, engines, doors |
+| [[Stellantis]] | ~€1B ($1.2B) projected | Mostly hedged Q1 |
+
+Inputs: aluminium (+16% on LME since war outbreak), naphtha-derived plastics/coatings/tyres, DRam memory chips reallocated to AI data centres. [[Gerrit Reepmeyer]] ([[AlixPartners]]): aluminium alone could add $500–$1,500/vehicle if hedges roll off. The first OEM to reprice risks share loss — [[Albert Waas]] ([[BCG]]): "as long as everybody is doing it, you basically keep your market share."
 
 ### 5. Regulation-driven improvements
 

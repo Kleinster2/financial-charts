@@ -242,6 +242,22 @@ This is the first major market-moving event where a blockade announcement — no
 
 *Source: CNN Fareed Zakaria GPS, April 12, 2026.*
 
+### May 4, 2026 — Strait fire exchange, UAE strike, Williams supply-shock warning
+
+The shaky mid-April ceasefire frayed on Monday May 4. [[United States|US]] and [[Iran]] forces exchanged fire near the [[Strait of Hormuz]]; the [[UAE]] intercepted Iranian missiles and drones (first attack on UAE since the ceasefire) and an Iranian drone struck a [[Fujairah]] petrochemical site, sparking a major fire. US Centcom positioned warships as a "defensive umbrella" rather than direct convoy escort under the "Project Freedom" program announced after the Apr 12 blockade — Trump said the US had shot down "more than half a dozen" small boats and that two American-flagged ships had transited the strait under that program.
+
+Cross-asset response repeated the March supply-shock signature — stocks down (slipped from record highs), oil up, Treasuries sold off on the UAE strike. The deeper signal came from the [[Federal Reserve|Fed]]: [[John Williams]] ([[Federal Reserve Bank of New York|NY Fed]] President, permanent FOMC Vice Chair) warned of a "wide-ranging" supply shock if the war drags on with no resolution — the most senior post-Apr-29 Fed framing and consistent with the hawkish-dissent vector ([[Beth Hammack|Hammack]]/[[Neel Kashkari|Kashkari]]/[[Lorie Logan|Logan]]) against the [[Stephen Miran|Miran]] cut dissent. The May FOMC reaction function is now genuinely two-sided again on energy-driven inflation, not biased toward cuts.
+
+Macro-level fuel shock data point: [[Financial Times|FT]] reported the same day that average US gasoline prices will hit $5/gallon by the start of June *even if* the [[Trump II|Trump administration]] reaches a deal soon to reopen the Strait — characterized as the sharpest fuel shock in the G7. This is the [[US Energy Independence Six Countries|"six countries"]] framework manifesting at the pump: the US in aggregate is a net energy exporter, but East/West-coast gasoline depends on imports and the Jones-Act-constrained Gulf-to-East-Coast lane is the binding constraint. JPMorgan's [[Natasha Kaneva]] had flagged the $5/gal risk before the Apr 8 ceasefire, conditional on Hormuz remaining closed past mid-April; the May 4 update removes the "if reopened" off-ramp.
+
+For positioning, the implication tracks the post-Apr 12 blockade-announcement playbook from the CNN GPS section above: short-squeeze reversal risk if 2.9x gross-leverage books absorbed the [[Goldman Sachs]] PB Apr 8 covering rally on ceasefire hope; macro-fund [[Steepener trade]] vulnerability re-opens; physical-financial gap widens again as front-month re-prices the blockade tail. See [[2026 Strait of Hormuz crisis#May 4, 2026 — Strait fire exchange, UAE first attack since ceasefire|Strait crisis hub May 4 entry]] for the full operational detail.
+
+*Source: [[Financial Times|FT]] live blog (May 4, 2026); FT, "Donald Trump's Iran war leaves US with sharpest fuel shock in G7" (May 4, 2026).*
+
+### Parallel thread — transnational repression
+
+Independent of the operational-tempo escalation in the Strait, [[Iran transnational repression]] activity in the West has continued through the ceasefire interval and is the asymmetric retaliation channel the war's risk premium has not fully priced. Mid-April 2026: Iranian embassy London Telegram "sacrifice for the homeland" recruitment campaign; UK summoned the ambassador. May 2026 FT reporting (Andy Bounds, Demetri Sevastopulo, Robert Wright) catalogues five UK arson attacks in a week (provisionally Iran-linked), >20 potentially lethal Iran-backed plots tracked by MI5 in 2025 (Ken McCallum public address, Oct 2025), and the standing $20mn US reward on alleged IRGC member Shahram Poursafi for a 2024 attempt to organise a John Bolton-targeted assassination at $300k. Per IISS's John Raine, the post-Khamenei revenge timeline is multi-quarter ("dish eaten cold"); decapitation losses (NSC chief Ali Larijani, intelligence minister Esmail Khatib, both killed March 2026) delay but do not eliminate the channel. Vault treatment: [[Iran transnational repression]] (investing-vault gloss; geopolitics-vault primary).
+
 ---
 
 ## Treasury market and capital flow effects

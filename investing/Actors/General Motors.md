@@ -1,7 +1,7 @@
 ---
 aliases: [GM]
 ---
-#actor #auto #publiccompany
+#actor #auto #publiccompany #usa #automotive
 
 **General Motors** (GM) — American automaker. Owned [[EDS]] 1984-1996. Now focused on EVs and autonomous vehicles.
 
@@ -131,6 +131,132 @@ This is the cleanest broad-market positive in the Q1 earnings cycle so far — t
 
 ---
 
+## Iran-war commodity squeeze — guidance raised $1.5B → $2B (FT, May 3)
+
+In a Q1 2026 earnings presentation (week of Apr 28), CEO Mary Barra raised GM's commodity-inflation expectation for 2026 from up to $1.5B to up to $2B — a $500M increase reflecting the [[Operation Epic Fury|Iran war]] hit on aluminium, naphtha-derived inputs, and DRam memory chips redirected toward AI data centres.
+
+Barra: *"The war in Iran has raised our costs and its duration remains uncertain."* She added that GM is reducing spending in other areas to counter the rise in oil and other commodity prices.
+
+| Metric | Earlier 2026 guide | Updated 2026 guide |
+|--------|-------------------|--------------------|
+| Commodity inflation (incl. logistics + DRam) | up to $1.5B | up to $2B |
+
+The $500M increase is roughly the same magnitude as the [[2026 Supreme Court IEEPA ruling]] tariff windfall ($500M) GM disclosed at the Q1 print — meaning the Iran-war commodity hit fully offsets the SCOTUS-driven tariff relief at the EBIT line. The guidance raise from the IEEPA ruling stands ($13.5–15.5B vs prior $13.0–15.0B), but the commodity backdrop has tightened correspondingly.
+
+GM is somewhat less aluminium-exposed than [[Ford]] (which has the F-Series all-aluminium body and the [[Novelis]] outage compounding effect) but still carries meaningful exposure across body panels, engines, and doors. The Detroit aggregate: GM ($2B) + [[Ford]] ($2B) + [[Stellantis]] (€1B) = ~$5B combined commodity hit. See [[Iran conflict supply chain cascade]] § Detroit auto OEMs for the cross-OEM table.
+
+*Source: FT (Inagaki / Davies / Ash), May 3, 2026.*
+
+---
+
+## Ultium battery platform
+
+GM's EV foundation, launched as the architecture underlying the 2025-2026 EV pullback story above.
+
+| Aspect | Detail |
+|--------|--------|
+| Cell format | Pouch cells |
+| Battery partner | [[LG Energy Solution]] |
+| Chemistry | NCMA (nickel-cobalt-manganese-aluminum) |
+| Range | 300-450 miles depending on configuration |
+| Vehicle flexibility | Cars, trucks, SUVs on the same platform |
+
+Ultium-based vehicles in production:
+
+| Vehicle | Segment | Status |
+|---------|---------|--------|
+| Hummer EV | Truck | Production |
+| Cadillac Lyriq | [[Luxury]] SUV | Production |
+| Chevy Equinox EV | Mass market | Ramping |
+| Chevy Silverado EV | Truck | Production (run rate ~11K in 2025) |
+| Cadillac Celestiq | Ultra-luxury | Limited |
+
+The platform's flexibility was the strategic premise of the $7B EV expansion plan; the actual demand collapse documented in *EV pullback (2025-2026)* above is what drove the supplier-compensation charges and the Detroit electric-truck plant idling.
+
+---
+
+## Cruise — autonomous subsidiary
+
+[[Cruise]] is GM's robotaxi subsidiary. GM invested $10B+ cumulative; peak valuation ~$30B (2021). Robotaxi operations paused November 2023 after a pedestrian-dragging incident in San Francisco; CEO Kyle Vogt resigned and 25% of the workforce was laid off in December 2023. Restart attempts through 2024-25 limited to supervised testing while [[Waymo]] expanded. Cruise current value uncertain; Q1 2026 GM print did not break out a Cruise figure. See [[Cruise]] for the full incident timeline and competitive set ([[Waymo]], [[Pony.ai]]).
+
+---
+
+## Semiconductor relationships
+
+GM is a major customer of automotive semiconductors. Key suppliers:
+
+| Supplier | Components |
+|----------|------------|
+| [[Qualcomm]] | Infotainment (Snapdragon) |
+| [[NXP]] | Radar, body control |
+| [[Infineon]] | Power semiconductors |
+| [[Renesas]] | MCUs |
+| [[NVIDIA]] | Drive platform (some models) |
+
+The 2021-23 chip shortage cost GM millions of units of production. The response was direct chip relationships, deeper engineering coordination with suppliers, and ongoing consideration of vertical integration similar to [[Tesla]]'s approach. The 2026 DRam squeeze (see *Iran-war commodity squeeze* above) is the second-order memory-side parallel — auto-grade DRam capacity is being reallocated to AI data centres, hitting the income statement just as logic-side supply finally normalised.
+
+See [[Automotive semiconductors]] for the cross-OEM sector view.
+
+---
+
+## Rare earth exposure
+
+GM's [[EV transition]] creates direct critical-minerals dependency, especially on permanent-magnet rare earths controlled overwhelmingly by [[China]]:
+
+| Element | Use | China share of supply |
+|---------|-----|------------------------|
+| Neodymium | EV motor magnets | ~90% |
+| [[Dysprosium]] | High-temperature magnet stability | ~99% |
+
+In 2025 [[China]]'s rare earth export controls forced production cuts at US automakers; European rare-earth prices ran ~6x Chinese domestic prices. GM's response: investing in alternative magnet technologies, designing the Ultium platform for lower rare-earth content per vehicle, and participating in [[Project Vault]] (CEO [[Mary Barra]] attended the February 2026 announcement representing end users alongside [[Robert Friedland]]). No near-term substitute exists for permanent magnets in EV motors.
+
+See [[Rare earth leverage]] and [[China retaliatory toolkit]].
+
+---
+
+## Q4 2025 — strong guidance, capital return boost (Jan 27, 2026)
+
+Stock rose ~9% to a 52-week high at $87.14 the morning of Jan 27 after Q4 results beat and 2026 guidance was raised. (The 2026 guide was subsequently raised again at the Q1 2026 print on Apr 28 — see Q1 2026 results above for the current-cycle figures.)
+
+| Metric | Q4 2025 result | Estimate |
+|--------|----------------|----------|
+| EPS (adj) | $2.51 | $2.27 |
+| Net income | -$3.3B | — |
+| Special charges | $7.2B | EV capacity realignment |
+
+Q4 loss driven by EV write-downs as GM right-sized capacity for the demand collapse documented in *EV pullback*.
+
+Original 2026 guidance issued at Q4 print (since superseded — see Q1 2026 section above):
+
+| Metric | 2026 Guide (Jan 27) | Updated at Q1 print (Apr 28) |
+|--------|---------------------|------------------------------|
+| Net income | $10.3-11.7B | n/a (EBIT-Adj basis preferred) |
+| EBIT-adjusted | $13-15B | $13.5-15.5B |
+| Adj EPS | $11-13 | $11.50-13.50 |
+| CapEx | $10-12B | n/a |
+
+Capital return announced at Q4:
+
+| Action | Details |
+|--------|---------|
+| Dividend | +20% to $0.18/quarter |
+| Buyback | New $6B authorization |
+
+Tariff impact (full year 2025): US tariffs cost GM $3.1B — less than the $3.5-4.5B GM had originally budgeted. The 2026 [[Learning Resources v Trump|SCOTUS IEEPA ruling]] subsequently flipped the residual tariff exposure into a refund tailwind (Q1 2026 guide raise).
+
+---
+
+## Competitive position
+
+| vs | GM advantage | GM disadvantage |
+|----|--------------|-----------------|
+| [[Tesla]] | Dealer network, brand legacy | EV cost, software |
+| [[BYD]] | US market access | Cost, integration |
+| [[Ford]] | Scale, trucks | Similar EV-pullback challenges |
+| [[Toyota]] | EV commitment | Hybrid lead, quality |
+
+---
+
 ## EDS ownership (1984-1996)
 
 | Year | Event |
@@ -148,7 +274,24 @@ GM wanted to modernize $6B/year data processing. Perot's lean culture clashed wi
 - [[EDS]] — owned 1984-1996
 - [[Ross Perot]] — EDS founder, GM board conflict
 - [[Automotive]] — sector
+- [[Automotive semiconductors]] — sector demand context
 - [[EV transition]] — $7B expansion plan, now retreating
 - [[Magna]] — St. Clair battery enclosure supplier
 - [[Ford]] — competitor (also retreating from pure EV)
 - [[Tesla]] — EV competitor
+- [[BYD]] — China EV competitor
+- [[Volkswagen]] — competitor (ID.4)
+- [[Rivian]] — competitor (R1T truck)
+- [[Toyota]] — global competitor
+- [[LG Energy Solution]] — Ultium battery partner
+- [[Cruise]] — autonomous subsidiary
+- [[Waymo]] — autonomy competitor (Cruise rival)
+- [[NXP]] — supplier (radar, MCUs)
+- [[Infineon]] — supplier (power semis)
+- [[Qualcomm]] — supplier (infotainment)
+- [[Rare earth leverage]] — supply chain risk (Neodymium, Dysprosium)
+- [[Dysprosium]] — high-temperature magnet element (~99% China)
+- [[Project Vault]] — CEO Mary Barra represented end users at Feb 2026 announcement
+- [[Mary Barra]] — CEO since 2014
+- [[2026 Supreme Court IEEPA ruling]] / [[Learning Resources v Trump]] — Q1 2026 guide raise
+- [[Iran conflict supply chain cascade]] — May 2026 commodity-inflation guide raise

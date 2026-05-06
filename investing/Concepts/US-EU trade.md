@@ -17,6 +17,8 @@
 | Jul 27, 2025 | [[Turnberry Agreement]] — asymmetric deal (US 15% tariffs, EU 0%) |
 | Jan 2026 | EU freezes Turnberry Agreement |
 | Feb 1, 2026 | Threatened: US 10% tariffs on 6 EU countries + Norway + [[UK]] |
+| Feb 20, 2026 | [[Learning Resources v Trump]] — SCOTUS strikes down IEEPA tariffs (Section 232 survives) |
+| May 1, 2026 | [[Donald Trump]] threatens separate tariffs on European-made cars imported into US — direct hit to [[Mercedes-Benz]], [[BMW]], [[Volkswagen]], [[Porsche]] US-bound exports; lands on top of Iran-war commodity squeeze on European OEMs (FT, May 3 2026) |
 | Jun 1, 2026 | Threatened: US 25% tariffs on same |
 
 ---
@@ -114,6 +116,7 @@ US actions have paralyzed WTO dispute settlement system:
 - [[Mercosur]] — potential EU pivot
 - [[Boeing]] — retaliation target
 - [[WTO]] — dispute settlement paralyzed
+- [[China soft power]] — May 2026 25% EU vehicle tariff threat erodes the historical asymmetry where US allies were tariffed less than rivals, a key soft-power-vacuum data point
 
 ---
 

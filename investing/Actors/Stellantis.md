@@ -149,6 +149,22 @@ Stellantis committed to e-DCT gearbox line at Termoli by end of 2026 and Euro 7 
 
 ---
 
+## Q1 2026 — Iran-war commodity hedge cover (FT, May 3)
+
+At Q1 2026 results, Stellantis disclosed that it was mostly hedged against the commodity-price increases that hit Detroit peers during the first quarter. The company projected that the [[Operation Epic Fury|Iran war]] commodity impact could nonetheless reach roughly **€1B ($1.2B) in 2026** as hedges roll off.
+
+| Metric | Q1 2026 | 2026 projected |
+|--------|---------|-----------------|
+| Iran-war commodity hit | mostly hedged | ~€1B ($1.2B) |
+
+The hedge cover differentiates Stellantis from [[Ford]] (which had no equivalent hedge cushion against the [[Novelis]] outage + 50% [[Section 232]] aluminium tariff combo, ~$2B 2026 hit) and [[General Motors]] ($2B updated guide, $500M raise vs prior). The Detroit aggregate Big Three commodity hit lands at ~$5B for 2026 — roughly the same order of magnitude as the ~$6B residual tariff hit on the same group post the [[Learning Resources v Trump|SCOTUS IEEPA ruling]].
+
+The hedge protection is a Q1 phenomenon — the question is when supplier renegotiations force re-pricing. [[Albert Waas]] ([[BCG]]) flagged a ~6-month lag if the war runs another two months from May, meaning Stellantis's exposure could land in H2 2026 even if the European OEM avoided the Q1 commodity hit. See [[Iran conflict supply chain cascade]] § Detroit auto OEMs.
+
+*Source: FT (Inagaki / Davies / Ash), May 3, 2026.*
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -185,5 +201,8 @@ Stellantis committed to e-DCT gearbox line at Termoli by end of 2026 and Euro 7 
 - [[Mercedes-Benz]] — ACC partner
 - [[EV transition]] — slowing demand reshaping strategy
 - [[Lyten]] — next-gen battery investment (May 2023)
+- [[Iran conflict supply chain cascade]] — Q1 2026 hedge cover; ~€1B 2026 projected commodity hit
+- [[Aluminum]] — input commodity exposure
+- [[Section 232]] tariffs — 50% on imported aluminium
 
-*Created 2026-01-24 · Updated 2026-02-08*
+*Created 2026-01-24 · Updated 2026-02-08 · Updated 2026-05-04 (FT commodity guide)*
