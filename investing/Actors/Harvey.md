@@ -138,5 +138,6 @@ Bear:
 - [[PwC]] — early customer
 - [[Horizontal vs vertical AI]] — competitive framework
 - [[Agentic AI]] — thesis context
+- [[Big Law transformation]] — Harvey is a Ring 2 (private growth-stage AI-legal platform) proxy for the structural Big Law cycle
 
-*Created 2026-01-01 · Updated 2026-02-18*
+*Created 2026-01-01 · Updated 2026-02-18 · Big Law transformation backlink added 2026-05-04*

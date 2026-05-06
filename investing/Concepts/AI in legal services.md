@@ -132,5 +132,6 @@ The Searle example points to the underappreciated use case: AI for adjacent tech
 - [[AI adoption curve]] — macro adoption context
 - [[Horizontal vs vertical AI]] — competitive framework
 - [[AI SaaS Disruption]] — broader SaaS displacement thesis
+- [[Big Law transformation]] — structural reshaping of elite US corporate law that AI legal tools sell into
 
 *Created 2026-03-23 · Source: FT (Suzi Ring, Mar 22, 2026)*

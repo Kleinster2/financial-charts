@@ -291,6 +291,8 @@ Altice France: BlackRock, Fidelity, and PIMCO took 45% equity stake in Feb 2025 
 
 Altice USA: Sued by [[Altice]] (now Optimum) alongside [[Apollo]] and [[Ares Management]] in late 2025, alleging "illegal cartel" among lenders holding majority of $26B debt.
 
+The structural side-effect: Altice initially hired [[Kirkland & Ellis]] (alongside Evercore) in September 2025 to advise on its $26bn debt restructuring, then was forced to lose Kirkland after the November 2025 antitrust filing — Kirkland could not represent Altice against three of its largest standing clients (Apollo, [[Ares Management]], BlackRock) in the same matter. Vault-level data point in the [[Big Law transformation|Kirklandisation]] frame: the scale-plus-pay model that wins on private-credit and asset-management volume creates structural conflicts in distressed situations involving the same counterparties.
+
 ---
 
 ## Related

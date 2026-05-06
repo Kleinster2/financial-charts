@@ -251,6 +251,8 @@ Apollo convened its 200 partners in Tokyo (Feb 2026) to see firsthand the invest
 
 Part of [[Patrick Drahi]]'s aggressive creditor management strategy as his telecom empire restructures.
 
+The structural side-effect: Altice initially hired [[Kirkland & Ellis]] (alongside Evercore) in September 2025 to advise on its $26bn debt restructuring, then was forced to lose Kirkland after the November 2025 antitrust filing — Kirkland could not represent Altice against three of its largest standing clients (Apollo, [[Ares Management]], [[BlackRock]]) in the same matter. This is the textbook illustration of how PE-side dominance creates structural conflicts in distressed situations, and a vault-level data point in the [[Big Law transformation|Kirklandisation]] frame: the scale-plus-pay model that wins on PE volume can lose specific high-stakes mandates that smaller, less-conflicted firms can still take.
+
 ---
 
 ## Intel Fab 34 buyback (Apr 1, 2026)

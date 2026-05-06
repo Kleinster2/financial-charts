@@ -136,6 +136,8 @@ Apollo and Blue Owl are most direct competitors in credit. Blackstone competes a
 
 [[Altice]] (now Optimum Communications) sued Ares, [[Apollo]], and [[BlackRock]] in late 2025, alleging "illegal cartel" among lenders holding majority of its $26B debt. [[Patrick Drahi]] creditor management as telecom empire restructures.
 
+The structural side-effect: Altice initially hired [[Kirkland & Ellis]] (alongside Evercore) in September 2025 to advise on its $26bn debt restructuring, then was forced to lose Kirkland after the November 2025 antitrust filing — Kirkland could not represent Altice against three of its largest standing clients (Apollo, Ares, [[BlackRock]]) in the same matter. Vault-level data point in the [[Big Law transformation|Kirklandisation]] frame: the scale-plus-pay model that wins on private-credit volume can lose specific high-stakes mandates that smaller, less-conflicted firms can still take.
+
 ---
 
 

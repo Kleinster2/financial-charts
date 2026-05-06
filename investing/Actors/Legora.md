@@ -133,5 +133,6 @@ Bear:
 - [[Y Combinator]] — accelerator
 - [[Horizontal vs vertical AI]] — competitive framework
 - [[Data Analytics Conglomerates]] — incumbent sector
+- [[Big Law transformation]] — Legora is a Ring 2 (private growth-stage AI-legal platform) proxy for the structural Big Law cycle
 
 *Created 2026-02-18*

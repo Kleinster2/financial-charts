@@ -27,6 +27,29 @@ Tracking major mergers and acquisitions relevant to portfolio.
 
 ---
 
+## 2025 — top 10 US M&A deals (LSEG)
+
+The single largest US-deal year on record. [[Wachtell Lipton]] advised on six of the ten (bold) per the FT's May 2026 account; [[Kirkland & Ellis]] led on most of the others.
+
+| Buyer | Target | Value ($bn) | Sector | Wachtell counsel? |
+|---|---|---|---|---|
+| [[Paramount Skydance]] | [[Warner Bros Discovery]] | 109.9 | Media | Yes |
+| [[Union Pacific]] | [[Norfolk Southern]] | 87.7 | Rail | Yes |
+| [[Kimberly-Clark]] | [[Kenvue]] | 50.6 | Consumer | — |
+| [[Saudi PIF\|PIF]]-led consortium | [[Electronic Arts]] | 48.1 | Gaming | Yes |
+| [[Global Infrastructure Partners\|GIP]]-led consortium | [[Aligned Data Centers]] | 40 | AI infrastructure | — |
+| [[Charter Communications]] | [[Cox Communications]] | 35.2 | Cable | Yes |
+| [[Alphabet]] | [[Wiz]] | 32 | Cybersecurity | — |
+| [[SoftBank]]-led consortium\* | [[OpenAI]] | 30 | AI | Yes |
+| [[Constellation Energy]] | [[Calpine]] | 27.3 | Power | — |
+| [[Palo Alto Networks]] | [[CyberArk]] | 24.7 | Cybersecurity | Yes |
+
+*\*SoftBank deal = investment, not full takeover. Source: LSEG via FT, "Wachtell, the law firm that helped invent Wall Street, is under siege" (May 2026).*
+
+The structural pattern: Wachtell wins assignments where the deal carries litigation, governance, or hostile-bid risk (mega-media, rail antitrust, take-private with foreign-state buyer, foundation-restructured AI investment). [[Kirkland & Ellis]] tends to lead where the deal architecture is PE-led or restructuring-adjacent. The split is the practical form the [[Big Law transformation]] takes: Wachtell's market remains bet-the-company defence, while Kirkland's market remains scaled transactional volume.
+
+---
+
 ## Advisory-firm consolidation (2025-2026)
 
 | Date | Acquirer | [[Target]] | Value | Rationale |
@@ -113,3 +136,5 @@ See [[Boutique advisory consolidation]] for the structural pattern. Listed bouti
 - [[AI consolidation]] — Big Tech acqui-hire pattern
 - [[Private equity]] — PE deal activity
 - [[Pharma]] — patent cliff M&A wave
+- [[Big Law transformation]] — supply-side reshaping of the legal advisory layer for every deal in this tracker
+- [[Wachtell Lipton]], [[Kirkland & Ellis]], [[Latham & Watkins]] — primary M&A advisory firms

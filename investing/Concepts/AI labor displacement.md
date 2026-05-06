@@ -268,3 +268,4 @@ The anxiety was a side effect they didn't plan for but arguably benefited from �
 - [[Muddy Waters]] — Carson Block's 15% / 3-5 year forecast
 - [[Federal Reserve]] — rate cycle as alternative driver of the developer-job collapse
 - [[Oracle]] — the applied counter-reading: layoffs as cash-flow management for the [[Warner Bros Discovery]] bid, not AI efficiency
+- [[Big Law transformation]] — junior-associate work in Big Law is the most exposed white-collar category to AI displacement
