@@ -80,9 +80,10 @@ The 2020s shift is real but bounded. Three things have *not* happened and constr
 - [[Donald Trump]] — public alienation of [[Narendra Modi]] / [[India]]
 
 ### Cross-vault
-- [Geopolitics: Soft Power](obsidian://open?vault=geopolitics&file=Concepts%2FSoft%20Power) — primary lens for the cultural / diplomatic concept; investing-vault note focuses on market-transmission channels
+- [Geopolitics: China soft power](obsidian://open?vault=geopolitics&file=Concepts%2FChina%20soft%20power) — primary lens with full institutional, diplomatic, and policy-channel detail; investing-vault note focuses on market-transmission channels
+- [Geopolitics: Soft Power](obsidian://open?vault=geopolitics&file=Concepts%2FSoft%20Power) — Joseph Nye foundational framework
 - [Geopolitics: Narendra Modi](obsidian://open?vault=geopolitics&file=Actors%2FNarendra%20Modi) — primary lens for Modi's political career and the post-Galwan India-China trajectory
-- History vault: long-arc soft-power patterns (Cold War US soft-power capital, comparable Soviet-era inflection points) — stub-candidate for future pass
+- [History: Soft-power inflections](obsidian://open?vault=history&file=Themes%2FSoft-power%20inflections) — long-arc patterns: US Cold War capital, Soviet ideological projection, post-Cold War US peak, current China-rise inflection
 
 ## Sources
 

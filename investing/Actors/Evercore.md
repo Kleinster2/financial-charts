@@ -44,6 +44,14 @@ Evercore expects the Robey Warshaw acquisition to be accretive to adjusted and G
 
 ---
 
+## Big Law transformation linkage
+
+Evercore is the largest of the listed independent advisers and the most exposed to the M&A-deal-flow side of [[Big Law transformation]]. The reshaping of the elite-NY corporate legal layer — [[Kirkland & Ellis]] / [[Latham & Watkins]] / [[Paul, Weiss]] capturing partner movement from [[Wachtell Lipton]] / [[Cravath, Swaine & Moore]] — does not change the underlying volume of US M&A; it rearranges the legal advisers around each deal. Evercore's ~$104B Q1 2025 deal-value league-table position (#6 globally) sits as the financial-adviser counterpart to whichever law firm represents either side of the same transactions. As Kirkland-style multi-practice scale concentrates legal market share, the corresponding banking-adviser slot becomes more valuable — the deal team is one law firm + one independent advisory + (sometimes) one balance-sheet bank, and the integrated banks are increasingly conflict-blocked.
+
+The [[Robey Warshaw]] tuck-in (2025-07, £146M) and the [[Perella Weinberg Partners]] [[Gleacher Shacklock]] response (2026-04) reflect the same pressure on the EMEA side: as London advisory work intensifies (UK M&A is the largest European market and the post-Brexit listing reform cycle has revived deal flow), boutique consolidation captures the [[Big Law transformation]]-driven advisory volume. See [[Boutique advisory consolidation]] for the structural pattern; [[Big Law transformation]] for the Ring 3 framing.
+
+---
+
 ## Related
 
 - [[Richard Attias & Associates]] — client (IPO advisor)
@@ -52,5 +60,8 @@ Evercore expects the Robey Warshaw acquisition to be accretive to adjusted and G
 - [[Robey Warshaw]] — 2025 UK boutique acquisition
 - [[Perella Weinberg Partners]] — independent-advisory peer, rival buyer in 2026 UK consolidation wave
 - [[Boutique advisory consolidation]] — structural pattern
+- [[Big Law transformation]] — Ring 3 advisory-adjacency framing
+- [[Kirkland & Ellis]] — paired legal-side franchise on US M&A mandates
+- [[Wachtell Lipton]] — counter-party legal franchise on the largest 2025 US deals
 
 *Updated 2026-04-20*

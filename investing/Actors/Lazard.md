@@ -73,6 +73,14 @@ Advising [[Shell]] on the [[Raizen]] restructuring; co-advising [[Braskem]] alon
 
 ---
 
+## Big Law transformation linkage
+
+Lazard's blended advisory + asset-management + private-capital posture makes it a multi-channel beneficiary of [[Big Law transformation]]. The most direct link runs through restructuring: [[Liability management exercises]] (drop-down financings, uptiering exchanges, distressed exchange offers) is the practice area where [[Kirkland & Ellis]] dominates legally, and Lazard's restructuring franchise sits as the financial-adviser counterpart on the same situations. The 2026 distress cycle — [[Brazil corporate bond rout February 2026|Brazil corporate bonds]], the [[Raizen]] / [[Braskem]] mandates — is exactly the volume the Kirkland-led LME wave generates on the legal side.
+
+The Q1 2026 advisory revenue print (-4% YoY on slipped closings) followed the same back-half-weighted pattern as [[Perella Weinberg Partners]] (-30%), confirming that the deal-cycle drag is not idiosyncratic. Forward, the [[Big Law transformation]]-cycle volume runs through three Lazard channels: M&A advisory (deal flow continues to need bank-side advisers regardless of which law firm wins the legal slot), private-capital advisory (post-[[Campbell Lutyens]] the new Lazard CL unit captures the GP-led secondaries / placement franchise that runs alongside [[Kirkland & Ellis]]'s sponsor-fund formation practice), and Asset Management (distress and credit strategies that embed in the same restructuring cycle). See [[Big Law transformation]] for the Ring 3 framing.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -110,6 +118,9 @@ Advising [[Shell]] on the [[Raizen]] restructuring; co-advising [[Braskem]] alon
 - [[Moelis]] — peer
 - [[Houlihan Lokey]] — restructuring peer; Brazil co-advisory mandate
 - [[PJT Partners]] — restructuring peer
+- [[Big Law transformation]] — Ring 3 advisory-adjacency framing
+- [[Liability management exercises]] — practice-area overlap with Kirkland-led LME wave
+- [[Kirkland & Ellis]] — paired legal-side franchise on restructuring + sponsor mandates
 
 ### Restructuring mandates
 

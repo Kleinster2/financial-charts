@@ -155,6 +155,14 @@ The 2026 Gleacher deal also reads as a defensive response to [[Evercore]]'s July
 
 ---
 
+## Big Law transformation linkage
+
+PWP is the smallest of the listed Ring 3 advisory boutiques in the [[Big Law transformation]] framing and accordingly the most levered to single-deal mandate-flow rather than franchise volume. The thesis transmits through three channels. First, M&A advisory fees: PWP's deal volume runs alongside whichever law firm (Wachtell, Cravath, Kirkland, Latham, etc.) sits on the corresponding legal side, and the [[Big Law transformation]] cycle reshapes the legal team without changing the bank-side advisory slot. Second, [[Devon Park]]-driven private capital advisory (GP-led secondaries, fund placement) sits in the same advisory adjacency that [[Lazard]] is consolidating with [[Campbell Lutyens]] and [[Moelis]] is ramping with the Kyle Reidy / Barclays hire — three of the top independent advisers building out the franchise that runs alongside [[Kirkland & Ellis]]'s sponsor-fund formation practice. Third, conflict-spillover capture: as [[Kirkland & Ellis]] scale generates more conflict-walkaway events (the 2025 Altice case where Apollo / Ares / BlackRock objections forced Kirkland's withdrawal is the working example), boutiques without trading-book or balance-sheet conflicts pick up the mandate fragments.
+
+The Q1 2026 -30% revenue print confirmed that the deal-cycle drag is not idiosyncratic — [[Lazard]] showed the same back-half-weighted dynamic on the same date (Financial Advisory -4%, several large transactions slipped). The forward question is whether the back-half conversion materialises and whether the [[Big Law transformation]] cycle accelerates the post-2H 2026 deal volume. See [[Big Law transformation]] for the Ring 3 framing.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -200,5 +208,7 @@ The 2026 Gleacher deal also reads as a defensive response to [[Evercore]]'s July
 - [[Morgan Stanley]] — founders' prior firm
 - [[Goldman Sachs]] — Weinberg's prior firm
 - [[Blue Owl]] — SPAC-cohort contrast
+- [[Big Law transformation]] — Ring 3 advisory-adjacency framing
+- [[Kirkland & Ellis]] — paired legal-side franchise + conflict-spillover source
 
 *Created 2026-04-20.*

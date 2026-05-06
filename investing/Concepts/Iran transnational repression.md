@@ -48,8 +48,8 @@ This concept is the vault's hook for three downstream questions: (1) whether asy
 - [[Iran conflict insurance impact]] — adjacent risk-pricing channel
 - [[Iran conflict country responses]] — diplomatic dimension
 
-### Cross-vault primary
-- `obsidian://open?vault=geopolitics&file=Concepts%2FIran%20transnational%20repression` — institutional detail, named operatives, attribution chain, named victims (geopolitics vault primary lens)
+### Cross-vault
+- [Geopolitics: Iran transnational repression](obsidian://open?vault=geopolitics&file=Concepts%2FIran%20transnational%20repression) — primary lens with full institutional structure (Unit 400 / Unit 840), named operations, attribution chains, post-war capacity analysis, counter-intelligence response
 
 ### Sources
 - FT, "Why Iran's covert war on the West may not yet be over" (May 2026) — primary source

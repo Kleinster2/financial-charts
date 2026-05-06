@@ -110,6 +110,16 @@ Delaware Supreme Court (Jan 20, 2026) killed a pension fund's nine-year challeng
 
 ---
 
+## Big Law transformation linkage
+
+Moelis's revenue mix (~2/3 M&A, ~1/3 non-M&A: restructuring, capital markets, private capital advisory) makes it the cleanest direct comparable to the [[Big Law transformation]] thesis on the advisory side. The capital structure advisory line — restructuring and [[Liability management exercises|LME]] — is the practice area where [[Kirkland & Ellis]] dominates legally; Moelis's "flat to up" 2026 capital-structure framing tracks with the cycle Kirkland's LME volume implies. Management framing of "out-of-court solutions exhausting" is consistent with the legal-side cycle moving from LME workouts toward formal restructuring engagements, where Moelis's restructuring desk competes with [[Houlihan Lokey]] / [[PJT Partners]] / [[Lazard]] for the financial-adviser seat.
+
+On the M&A side, the Big Law reshuffling (partner movement from [[Wachtell Lipton]] / [[Cravath, Swaine & Moore]] to [[Kirkland & Ellis]] / [[Latham & Watkins]] / [[Paul, Weiss]]) does not change Moelis's position: deal volume continues, the legal adviser slot is rearranged, and Moelis's bank-side adviser role is unchanged. The ramp in private capital advisory (7 MDs by late 2026; Kyle Reidy hire from Barclays for private credit secondaries) parallels [[Lazard]]'s [[Campbell Lutyens]] consolidation and [[Perella Weinberg Partners]]'s [[Devon Park]] tuck-in — three of the top independent advisers building out the high-margin advisory adjacencies that run alongside Kirkland's sponsor-fund formation practice.
+
+See [[Big Law transformation]] for the Ring 3 framing.
+
+---
+
 ## Related
 
 - [[Houlihan Lokey]] — restructuring peer (also expanded in Brazil)
@@ -121,6 +131,9 @@ Delaware Supreme Court (Jan 20, 2026) killed a pension fund's nine-year challeng
 - [[SMBC]] — strategic alliance partner (Japan)
 - [[Raizen]] — current engagement (bondholder adviser)
 - [[Brazil corporate bond rout February 2026]] — restructuring cycle context
+- [[Big Law transformation]] — Ring 3 advisory-adjacency framing
+- [[Liability management exercises]] — practice-area overlap with Kirkland-led LME wave
+- [[Kirkland & Ellis]] — paired legal-side franchise on restructuring
 
 ---
 
