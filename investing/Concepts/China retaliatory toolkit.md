@@ -188,6 +188,7 @@ See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for 
 - [[NDRC]] — implementing body for the Panama withdrawal demand
 - [[Panama Canal Ports Crisis 2025-2026]] — full proxy-battle context for the Panama case study
 - [[CK Hutchison]] — Chinese-linked operator displaced by [[Panama]] Supreme Court
+- [[China soft power]] — paired concept; soft-power flows are the attraction-side toolkit while this note catalogues the coercive-side toolkit
 
 ---
 

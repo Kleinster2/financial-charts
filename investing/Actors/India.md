@@ -136,6 +136,18 @@ Implications:
 
 ---
 
+## March 2026 — fast-track Chinese minority investment in 7 strategic sectors
+
+The [[Narendra Modi]] government announced fast-track regulatory approval for tech investments where Chinese ownership is held to a minority stake (sub-control threshold) across seven strategic sectors. This is the first quantitative reversal of the post-2020 Galwan-driven Indian closure to Chinese capital — the closure-then-liberalisation arc tracked under India's Press Note 3 (the 2020 rule that subjected investments from countries sharing a land border with India, principally [[China]], to prior government approval).
+
+Per the FT (Gideon Rachman, May 2026), the policy shift is read as Delhi's response to [[Trump II]] alienation: heavy India tariffs, public praise for [[Pakistan]], a "hellhole" social-media reference. The policy targets sectors where Chinese minority investment unlocks supply-chain access (semiconductors via JV/license arrangements, EV-component sourcing, electronics manufacturing) without ceding control.
+
+The vault implication: the structural assumption that India would not absorb Chinese capital — a US strategic premise dating to the post-Galwan period — is being relaxed by the Indian government itself. For [[China soft power]], this is one of the largest single sovereign-realignment data points of 2026; for the [[China+1]] manufacturing thesis, it complicates the "China substitution" frame that India occupies, since Chinese minority partnership is now part of the substitution mechanism.
+
+*Source: FT, "China steps into America's soft-power vacuum" (Gideon Rachman, May 2026); Government of India press release, March 2026.*
+
+---
+
 ## Dutch semiconductor cooperation (Mar 4, 2026)
 
 Indian trade delegation visited Eindhoven — home of [[ASML]] and [[NXP]] — to pitch semiconductor cooperation under India's [[China+1]] manufacturing strategy.

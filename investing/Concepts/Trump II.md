@@ -216,6 +216,7 @@ See [[Peterson Institute]].
 - [[India]] — tariffs pushing toward [[China]]
 - [[India-China relations]] — thawing due to US pressure
 - [[BHEL]], [[Larsen & Toubro]] — losers from India-[[China]] opening
+- [[China soft power]] — Trump II policy choices (ally tariffs, [[Narendra Modi|Modi]] alienation, Musk-via-[[Tesla]] brand discount in EU) drive the second-order erosion of US soft-power capital that China is filling
 
 ### Economic analysis
 - [[Peterson Institute]] — Adam Posen stagflation thesis

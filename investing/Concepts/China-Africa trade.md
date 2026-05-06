@@ -147,5 +147,6 @@ aliases: [China Africa relations, Sino-African trade]
 - [[BRICS]] — geopolitical alignment
 - [[China retaliatory toolkit]] — trade redirection as response to US tariffs
 - [[Long emerging markets]] — thesis context
+- [[China soft power]] — Beijing's May 2026 tariff drop on imports from almost all African countries is a soft-power signal alongside trade-volume growth
 
 *Created 2026-01-15*

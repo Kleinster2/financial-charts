@@ -96,6 +96,16 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ---
 
+## European brand discount (2025-26)
+
+Tesla's European deliveries fell sharply through 2025 — a phenomenon the FT (Gideon Rachman, May 2026) attributes to the close public association of [[Elon Musk]] with [[Donald Trump]]. The reputational drag is structural rather than product-driven: Tesla's 2025 EU registrations declined while Chinese brand competitors ([[BYD]], [[Chery]]'s [[Omoda]] / [[Jaecoo]]) expanded sales in the same markets and segments. A West London Tesla dealership cited in the column closed and was reopened as an Omoda + Jaecoo showroom — a small but vivid retail-level signal of the [[China soft power|brand displacement]] mechanism.
+
+The investment implication: European delivery share has historically been the secondary growth pillar to the US auto business. Erosion there leaves Tesla doubly exposed to the [[BYD]]-led EV pricing cycle in [[China]] (where [[Tesla]] has lost the share leadership to [[BYD]]) without the European cushion that the bull case relied on. Until the political-association overhang fades — or [[Elon Musk]] disentangles from [[Trump II]] — Western European share recovery is structurally bid-bound on Tesla's brand, not its product.
+
+*Source: FT, "China steps into America's soft-power vacuum" (Gideon Rachman, May 2026); ACEA registration data.*
+
+---
+
 ## Q1 2026 earnings (Apr 22, 2026)
 
 Narrow beat on both lines, but the stock's initial +4% after-hours rally reversed once the earnings call surfaced a $5B capex increase and the Optimus/Robotaxi spending signal. TSLA closed Apr 22 at ~$250 pre-print (-14% YTD, the worst-performing mega-cap); the AH action unwound further into Apr 23.
