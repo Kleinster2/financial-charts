@@ -155,6 +155,29 @@ See [[Sector rotation]]
 
 ---
 
+## Ending the 15-year tech overweight (Dec 2025 / playing out 2026)
+
+The structural underpinning of the AI fatigue call: Yardeni formally ended his 15-year tech overweight recommendation in December 2025, the longest single-sector position of his career and one of the few well-known structural calls that made the 2010s tech run.
+
+The trigger was concentration, not earnings:
+- Information Technology + Communication Services climbed to 45.2% of S&P 500 market cap
+- Same two sectors carried 38.6% of forward earnings — record share but a smaller record than market-cap share
+- "It no longer makes much sense for us to continue recommending overweighting the information technology and communication services sectors in an S&P 500 portfolio as we have since 2010."
+
+Recommended rotation:
+- Overweight: [[Healthcare]] (despite 11.9% forward-earnings share, active and passive managers remain too light)
+- Overweight: [[Financials]]
+- Overweight: [[Industrials]]
+- Move from overweight to neutral on Tech + Comm Services
+
+The April market-weight on Tech (Mag 7 forward P/E 31x → 22x) was a tactical entry-point move within this larger structural sector-rotation framework, not a reversal of the December call. The Yardeni regime call now aligns with [[Mike Wilson]]'s sector-mix preference (Financials / Industrials / Healthcare inside the 7,800 framework) and the broader [[Sector rotation]] thesis — though the two analysts arrive there from different paths (Yardeni: concentration math; Wilson: earnings breadth).
+
+This is the cleanest sell-side example of the 2026 sector-rotation regime, and it's now visible in the Q1 2026 earnings tape: vault Industrials ([[Rockwell Automation]] +8.9σ Q2 FY26 raise, [[DuPont]] +4.7σ Q1 raise) and defense ([[Huntington Ingalls]] -5.0σ on margin compression, [[Leidos]] -3.0σ on DOGE) are dispersing in size while Mag 7 prints (excluding [[AMD]]) compress on muted reactions.
+
+*Sources: [Yahoo Finance — Ed Yardeni explains why he no longer suggests overweighting tech](https://finance.yahoo.com/video/ed-yardeni-explains-why-no-181053605.html); [Investing.com — Ed Yardeni makes a U-turn, moves to Underweight on Magnificent 7](https://www.investing.com/news/stock-market-news/ed-yardeni-makes-a-uturn-moves-to-underweight-on-magnificent-7-4395602); [Excess Returns Podcast — He Was Overweight Tech for 15 Years](https://excessreturnspod.com/podcast/excess-returns/episode/he-was-overweight-tech-for-15-years-he-just-downgraded-the-mag-seven-ed-yardeni-explains-why); Yardeni Research, Dec 2025.*
+
+---
+
 ## Publications
 
 | Book | Year |

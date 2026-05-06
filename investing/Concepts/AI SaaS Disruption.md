@@ -117,6 +117,39 @@ The "New Industrial Order" frame complements the segment-by-segment table above 
 
 *Source: [Aurelion Research — SaaS Primer: The New Industrial Order](https://aurelionresearch.substack.com), May 1 2026.*
 
+### Four Destinies framework + named picks
+
+The Aurelion Primer maps companies onto two axes — proprietary data depth and execution capability — into four destinies:
+
+| Quadrant | Description | Outcome |
+|---|---|---|
+| AI Wrappers | Generic interfaces built on borrowed AI models | Doomed |
+| Red Queen's Race | Generic SaaS forced into endless defensive spending | Struggling |
+| Trapped Incumbents | Entrenched systems bleeding margin to stay relevant | Bleeding |
+| Compounders | Proprietary data + mission-critical workflows | Thriving |
+
+Market context:
+- Software ETF [[IGV]] down ~30% from 2025 highs
+- AI revenue across top-10 SaaS companies: only ~2% of $290B combined revenue
+- AI-enabled agentic solutions market: ~$4T opportunity (3× total software market)
+
+Named winners (Compounders):
+
+| Company | Ticker | Key metrics |
+|---|---|---|
+| **I'll Inc** (Japanese micro-cap) | 3854.T | $382M market cap, 98.5% customer retention, 26.8% CAGR over past decade, 34% RoE, 15% FCF margin |
+| **Cellebrite** (forensics) | [[Cellebrite\|CLBT]] | Revenue $401M (2024) → $665M (2027 guide), 84%+ gross margin, adj EBITDA ~$80M (2025) → $151M (2026), FCF $160M (2025) → $214M (2027). Recently launched Genesis agentic AI |
+| **Red Violet** (data intelligence) | [[Red Violet\|RDVT]] | 20%+ revenue CAGR, gross margins expanding toward 90%, FCF ex-SBC growth 38.4% in 2025, 107-108% net revenue retention, ~30× EV/FCF (undervalued vs peers) |
+
+Named losers (Trapped Incumbents): [[Salesforce]], [[Workday]], [[Adobe]] — all face severe multiple compression in the Aurelion framing as their per-seat pricing breaks against AI-agent traffic.
+
+Compounder pattern from the picks:
+1. Proprietary data monopolies with continuous feedback loops
+2. Zero-fault-tolerance workflows (legal, medical, criminal forensics)
+3. Actual execution capabilities beyond observation/dashboards
+
+The named compounders cluster in *vertical, mission-critical* workflows — Cellebrite (criminal forensics), Red Violet (identity intelligence), I'll Inc (Japanese vertical SaaS) — confirming the segment-table prediction that "vertical SaaS with regulatory complexity remains more resilient" while horizontal SaaS faces structural pressure.
+
 ## Related
 
 - [[OpenAI]] — foundation model infrastructure

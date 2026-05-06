@@ -198,6 +198,33 @@ The pricing conundrum is now creating **physical supply disruption.** Petrobras 
 
 ---
 
+## Brazil's diesel paradox — the structural mismatch (Felipe Germini, May 5)
+
+[[Felipe Germini]] (May 5 ENERGY Pipeline) framed the structural reason Brazil cannot self-rescue from Hormuz-driven diesel price spikes despite record crude production:
+
+| Metric | Q1 2026 |
+|---|---|
+| Brazil crude production (record) | 4.1 mb/d |
+| Brazil trade surplus | $14.2B |
+| Domestic diesel supply imported | ~25% |
+| Brent crude (mid-March 2026) | crossed $108/bbl |
+
+The contradiction: Brazil exports record crude, yet imports a quarter of its diesel. The cause is refinery design vintage:
+
+> "Petrobras built its refinery network across the 1970s and 1980s to run heavy crude" from the [[Campos Basin]].
+
+Modern [[Pre-salt|pre-salt]] production (the 4.1 mb/d record) is light, sweet crude that commands premium prices on global markets — and that the domestic refinery network *cannot efficiently process* into the diesel Brazil consumes. So Brazil sells light/sweet pre-salt for premium prices abroad and buys back middle distillates (diesel) on the global market.
+
+Hormuz transmission channel: Iran's closure of the Strait of Hormuz (early March 2026) didn't affect Brazil's *crude exports* (which load via direct ocean terminals, bypassing the strait), but it dramatically increased *diesel import costs*. Global diesel prices spiked, and freight rates from the [[US Gulf Coast]] to [[Santos]] rose accordingly as worldwide tanker capacity tightened.
+
+This frames the [[Petrobras#Oil shock pricing conundrum (March 2026)|March 2026 oil-shock pricing trilemma]] structurally: Petrobras cannot pass-through diesel prices without inflation, cannot hold prices without rationing, cannot rebuild the refinery network on a Hormuz-shock timeline. The only short-term levers are auctions (Mar 12 RS workaround) and emergency imports at higher freight rates.
+
+The structural fix would be refinery investment to handle pre-salt light/sweet — but that's a multi-year, capital-intensive build that runs against Petrobras's dividend-priority capital-return framework documented elsewhere in this note.
+
+*Source: [Felipe Germini ENERGY Pipeline — The Crude Exporter That Still Imports Diesel](https://fgermini.substack.com/p/the-crude-exporter-that-still-imports), May 5 2026.*
+
+---
+
 ## Management
 
 | Role | Name | Since | Background |

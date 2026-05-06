@@ -4,6 +4,49 @@ Data center power availability is emerging as a hard constraint on AI infrastruc
 
 ---
 
+## "$1T AI trade runs on gas" — the structural valuation gap (May 1, 2026)
+
+[[Giacomo Prandelli]] ([[The Merchant's News]], May 1) framed the AI/gas linkage as the cleanest investment-actionable consequence of the [[Power constraints|power-constraint regime]]: market is paying high-20s-to-mid-30s P/E for AI demand (the tech tape) while pricing the energy infrastructure that *makes the compute possible* at mid-teens or less.
+
+Why gas, not solar/wind/nuclear:
+
+| Power source | Capacity factor | Why insufficient for hyperscale |
+|---|---|---|
+| Solar | 23% | Cannot reliably power 100+ MW campuses |
+| Wind | 34% | Same |
+| Battery storage | — | Doesn't span multi-day weather events |
+| Nuclear | High | 7-10 yr deployment vs hyperscaler's 12-36 mo cycles |
+| Gas | High | Quick deploy + pairs naturally with renewables |
+
+Hyperscaler reliability requirement: 99.99% uptime — minutes of allowable downtime per year. Gas is the only scaling solution that meets the deployment-timeline + reliability-floor constraints simultaneously.
+
+Key data points:
+
+| Metric | Value |
+|---|---|
+| AI capex 2025-2027 (cumulative) | $1.1-1.2T (vs $200B 2024 baseline) |
+| Data center electricity demand | 415 TWh (2024) → 945 TWh (2030, projected) |
+| Per-prompt electricity (LLM vs Google search) | ~10× |
+| US LNG export capacity buildout | 0 (2016) → 28.7 Bcf/d (2029) |
+| Henry Hub forecast | $3-4/MMBtu through 2027-2028 |
+| Tech share of S&P 500 | 34% |
+| Energy share of S&P 500 | 3.35% |
+
+Named beneficiaries (turbine + power + LNG layer):
+- [[GE Vernova]] — gas turbines
+- [[Siemens Energy]] — gas turbines
+- [[Mitsubishi]] — gas turbines (Asian capacity)
+- [[Vistra]] — independent power (gas + nuclear)
+- [[Constellation Energy]] — power generation (nuclear-heavy, gas-flexible)
+- [[Amazon|AWS]] — hyperscaler customer/contract counterparty
+- [[Meta]] — hyperscaler customer/contract counterparty
+
+This pairs with the [[AI capex arms race]] thesis on the *infrastructure* side and connects to [[US Energy Independence Six Countries#May 4, 2026 — "America Is Now the World's Strategic Reserve" (Giacomo Prandelli)|US Strategic Reserve]] framing on the *supply* side: AI compute is now structurally tied to US gas infrastructure as both reliable input *and* exportable downstream commodity. The valuation gap (Tech 34% / Energy 3.35%) is the cleanest sell-side example of the same dispersion [[Ed Yardeni]] flagged in his Dec 2025 tech-overweight unwind.
+
+*Source: [The Merchant's News — The $1 Trillion AI Trade Runs on Gas](https://themerchantsnews.substack.com/p/the-1-trillion-ai-trade-runs-on-gas), [[Giacomo Prandelli]], May 1 2026.*
+
+---
+
 ## PJM BYOG proposal (Jan 2026)
 
 **PJM releases "Bring Your Own Generation" proposal:**

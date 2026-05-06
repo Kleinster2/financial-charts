@@ -224,6 +224,19 @@ This is useful as a cross-asset readthrough: high yields can still hurt growth a
 
 *Source: [Are high UK yields good or bad?](https://robinjbrooks.substack.com/p/are-high-uk-yields-good-or-bad), April 22, 2026*
 
+### "Another US Tariff Shock for Germany" (May 4)
+
+Brooks documented that German vehicle exports to the US declined sharply since [[Donald Trump|Trump]]'s second term, with a sharper drop than for [[Sweden]], [[South Korea]], [[Japan]], or [[China]]. Two charts in the post:
+
+1. Vehicle exports to the US as percentage of total exports for six countries (Sweden, [[Italy]], [[Germany]], South Korea, Japan, China). Comparing early 2026 to pre-Trump baseline, "Germany certainly stands out in a negative way," along with Italy and Japan.
+2. Average 2024 exports vs. latest 2026 data — German and Italian automakers show "more severe" declines compared to other nations, with January 2026 data showing particularly weak German performance.
+
+Beyond the tariff shock, Brooks added a political layer: Chancellor [[Friedrich Merz]]'s comments calling the US "humiliated" by Iran and the German defense minister declining to provide military support for reopening the [[Strait of Hormuz]] are reading as diplomatic missteps in the bilateral relationship. Brooks: *"Such comments have a price."*
+
+The piece extends Brooks's broader thesis — that the [[2026 Strait of Hormuz crisis|Hormuz disruption]] produces asymmetric pain across the developed world (Apr 22 PMI piece) — into a country-specific channel: Germany is exposed not just through input costs (auto OEMs and the [[Iran conflict supply chain cascade|aluminium passthrough]] documented in [[Mercedes-Benz]] Q1 commentary) but through tariff-channel access loss as well. Combined effect on German autos: cost shock + market access compression + diplomatic friction.
+
+*Source: [Another US Tariff Shock for Germany](https://robinjbrooks.substack.com/p/another-us-tariff-shock-for-germany), May 4 2026.*
+
 ## Related
 
 - [[2026 Iran conflict market impact]]

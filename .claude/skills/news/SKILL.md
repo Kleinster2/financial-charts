@@ -65,6 +65,7 @@ Check tracked newsletters and Substacks for new posts in the last 48 hours. Thes
 | **Hey AI News** | https://heyainews.substack.com | AI news, robotics, LLMs |
 | **War and Peace** | https://markurban.substack.com | Defence, diplomacy, intelligence, military history |
 | **ENERGY Pipeline** | https://fgermini.substack.com | Brazil energy, oil trading, gas markets, power dynamics |
+| **The Merchant's News** | https://themerchantsnews.substack.com | Oil, gas, LNG, metals, geopolitics, commodity-linked stocks (Giacomo Prandelli, 12K+ subs) |
 | **Jared Bernstein** | https://econjared.substack.com | US economic and fiscal policy, crypto regulation, budgeting |
 
 For each:

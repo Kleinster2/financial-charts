@@ -67,6 +67,33 @@ Morse's original panel warning (March 17): emergency-driven export controls woul
 
 The framework's diagnostic value on April 15 is that it explains why an apparently logical policy response (ban exports, keep crude at home) would fail: the US is not one market. Shutting the Gulf Coast export valve punishes producers without relieving the coasts.
 
+---
+
+## May 4, 2026 — "America Is Now the World's Strategic Reserve" (Giacomo Prandelli)
+
+[[Giacomo Prandelli]]'s ([[The Merchant's News]]) framing extends the April 15 export-surge data into a structural read: with [[Saudi Arabia|Saudi]] 3+ mb/d spare capacity stranded by the [[Strait of Hormuz|Hormuz]] closure, the [[2026 UAE OPEC exit|UAE OPEC+ exit]], and [[Qatar]]/[[Kuwait]] force-majeure-on-exports, US storage tanks and production capacity are the only meaningful oil reserve the global market can actually access.
+
+Prandelli's data points (vs the April 15 baseline):
+
+| Metric | April 15 | Late April |
+|---|---|---|
+| US crude exports | 5.2 mb/d (FT) | 6.4 mb/d (record) |
+| US crude + refined product exports combined | ~12.7 mb/d | 12.9 mb/d (highest in EIA history) |
+| One-week US system drawdown (week ending Apr 24) | — | ~26 M barrels (commercial 6.2M + SPR 7.1M) |
+| China stockpile build (2025) | 1.3B barrels | Now liquidating |
+| Storage-buffer depletion timeline | — | September 2026 |
+
+Three structural shifts visible in the data:
+- *US near-net-crude-exporter status.* On a weekly basis, US crude exports nearly matched imports for the first time since WWII. The physical-flow position is now strategic-reserve-substitute, not just balance-of-trade arithmetic.
+- *China stockpile reversal.* China spent 2025 building a 1.3B-barrel stockpile and has begun liquidating (March imports -2.5% YoY despite steady refinery demand). The marginal Asian buyer has switched from accumulator to seller — meaning US barrels into Asia compete against Chinese release rather than against Saudi/UAE Hormuz-blocked supply.
+- *Buffer depletion clock.* Combined commercial + SPR draw at ~26 M barrels/week is unsustainable into the back half of 2026. Storage buffers exhaust by September absent supply restoration.
+
+The Prandelli framing pairs with the [[Helima Croft]] "fine print on reopening" (insurer/shipper certainty needed) and the [[Adam Tooze#Top Links 1092 — "Big oil is not coming to Trump's rescue" (May 4, 2026)|Tooze "big oil not coming to Trump's rescue"]] capital-discipline read: there is no faster supply rescue available — not from OPEC (stranded), not from US shale (capital-discipline-bound), not from China (reversing). The September buffer-depletion clock is the key forward-pressure variable.
+
+This converts the [[2026 Strait of Hormuz crisis|Hormuz crisis]] from a price/insurance problem into a *reserve-depletion* problem with a dated horizon — and concentrates the strategic-reserve role on the US Gulf Coast export apparatus, which the April 15 data already showed is the only physical release valve that has worked.
+
+*Source: [The Merchant's News — America Is Now the World's Strategic Reserve](https://themerchantsnews.substack.com/p/america-is-now-the-worlds-strategic), [[Giacomo Prandelli]], May 4 2026.*
+
 ## Related
 
 - [[US crude export controls]] — policy option that would reprice this framework overnight if activated

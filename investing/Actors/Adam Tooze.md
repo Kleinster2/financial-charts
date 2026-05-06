@@ -125,6 +125,25 @@ Also surfaces secondary threads Tooze points readers at: eastern [[Libya]]'s [[K
 
 ---
 
+### Top Links 1092 — "Big oil is not coming to Trump's rescue" (May 4, 2026)
+
+Tooze's mid-Iran-war read on the structural mismatch between Trump-administration political demand for cheap oil and what the [[oil majors|US majors]] can and will do. The piece argues that despite Trump's rhetoric and explicit overtures to the US energy sector during the Hormuz disruption, the supply response is structurally constrained:
+
+- Capital-discipline regime is sticky. Boards and equity holders won't sanction the kind of breakneck capex that would dent prices materially in a politically meaningful timeframe.
+- US shale incremental production has structurally slowed; the easy plays are drilled, the harder ones require higher reinvestment rates.
+- LNG export buildout is multi-year, not multi-quarter — even if approved instantly, no near-term gas-to-Europe relief is available.
+- The political message ("drill baby drill") cannot override the financial-market message (returns over volume), which means Trump cannot get the supply response his coalition expects to break the [[Strait of Hormuz|Hormuz]] price premium.
+
+Same Top Links bundle covered:
+- Tanzania's gas play
+- Metal Weber & "Origin Story"
+
+The "Big oil not coming to Trump's rescue" framing is the cleanest articulation of why physical oil supply doesn't respond to political signaling on the Trump administration's preferred timeline. It pairs directly with [[Helima Croft]]'s "fine print on reopening" and [[Felipe Germini]]'s "Market priced the blockade, not the reopening" thesis: the market is structurally mispricing both how slowly Hormuz physically reopens *and* how slowly US/global supply responds to political pressure on the upside. The political-economic gap is wider than either side admits.
+
+*Source: [Adam Tooze Substack — Top Links 1092](https://adamtooze.substack.com/p/top-links-1092), May 4 2026.*
+
+---
+
 ### Chartbook on the AI boom's external-balance logic (Apr 20, 2026)
 
 An Apr 20, 2026 Chartbook mailout tied together two threads that matter for the vault's AI and trade work. First, citing [[Wall Street Journal]] and [[McKinsey]], Tooze highlighted that the current US manufacturing pickup is not classic reshoring. In AI-linked sectors, domestic output and imports are rising together, because the buildout depends on enormous volumes of semiconductors, networking gear, power equipment, and cooling systems. The US is capturing part of the manufacturing upturn without becoming self-sufficient in the underlying supply chain.

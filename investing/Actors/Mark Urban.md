@@ -50,6 +50,23 @@ The Apr 13 timing is significant — Urban is publishing on the blockade day, al
 
 *Source: [Reflecting on Iran as the US blockade comes into force](https://markurban.substack.com/p/reflecting-on-iran-as-the-us-blockade), Apr 13, 2026*
 
+### "Something Big Just Happened in Hormuz" (May 4)
+
+Urban's read on the [[2026 Strait of Hormuz crisis#May 4, 2026 — Strait fire exchange, UAE first attack since ceasefire|May 3-4 Strait fire exchange and Project Freedom announcement]] captures the analytical ambiguity the kinetic data alone doesn't resolve.
+
+Key facts (from Urban's reporting):
+- US destroyers transited the Strait during the night of May 3-4, escorting two US-flagged merchant vessels
+- Pentagon announced "Project Freedom" — Iranian forces attempting to stop vessels would face military engagement
+- A UAE tanker sustained drone strikes; a Korean vessel reportedly caught fire
+- US military engaged six Iranian small attack craft
+- [[Pakistan]] released 22 Iranian mariners from the seized ship Touska — possible prisoner-exchange signal
+
+The analytical claim Urban surfaces: the US action could read as either a *genuine de-escalation* effort or a *limited, performative* action that "recognises de facto the right of the IRGC to 'coordinate' who uses the Strait." He notes that only a tiny fraction of stranded vessels successfully transited, that both sides "held back to some degree," and that neither has abandoned ceasefire hopes. The critical uncertainty is whether ship owners read the exchange of fire as deterrence-restored or as evidence the corridor remains too dangerous for commercial transit.
+
+Urban's framing is the cleanest journalistic articulation of the same May 5 [[Helima Croft]] "still not safe to traverse" insurer/shipper read: the operational act of getting two US-flagged vessels through doesn't translate into a regime-level reopening when the underlying threat surface is unchanged.
+
+*Source: [Something Big Just Happened in Hormuz](https://markurban.substack.com/p/something-big-just-happened-in-hormuz), Mark Urban on War and Peace, May 4 2026.*
+
 ---
 
 ## Related
