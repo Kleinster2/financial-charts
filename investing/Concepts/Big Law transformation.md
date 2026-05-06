@@ -101,13 +101,15 @@ The cleanest combination trade for the Big Law transformation thesis is therefor
 
 ### Firms
 - [[Wachtell Lipton]] — flagship lockstep holdout; 8 departures since 2025
+- [[Debevoise]] — June 2025 added non-equity tier alongside lockstep equity; same dual-tier framework as Cravath; FY 2025 ~$1.6B revenue, ~$6.0M PEP
 - [[Kirkland & Ellis]] — scale-plus-pay leader; first firm to ~$10B revenue
 - [[Latham & Watkins]] — #2 by revenue; recruited 4 Wachtell partners in 2025
-- [[Cravath, Swaine & Moore]] — Barshay 2016 departure marked turning point
+- [[Cravath, Swaine & Moore]] — Barshay 2016 departure marked turning point; FY 2025 PEP $7.2M (+5.2% YoY) underperformed Am Law +14.0% cohort average — empirical evidence the modified-lockstep cohort underperforms
 - [[Paul, Weiss]] — 2016 Barshay hire from Cravath
-- [[Skadden]] — peer scale firm
+- [[Skadden]], [[Sidley Austin]] — peer scale firms
 - [[Clifford Chance]], [[A&O Shearman]] — UK Magic Circle / transatlantic peers
-- [[Harvey]], [[Legora]] — AI legal platforms selling into Big Law
+- [[Harvey]], [[Legora]], [[EvenUp]] — Ring 2 AI legal platforms (corporate-side and PI-plaintiff-side)
+- [[LexisNexis]] — Ring 1 incumbent (RELX subsidiary); REV / EvenUp Series E participation as defensive-flank signal
 
 ### People
 - [[Marty Lipton]] — Wachtell co-founder, lockstep architect

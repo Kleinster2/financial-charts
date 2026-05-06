@@ -5,21 +5,22 @@ tags: [actor, legal, usa, private]
 
 # Cravath, Swaine & Moore
 
-Founding institution of the modern American corporate law firm — the source of the "Cravath system" of lockstep partnership, hire-from-within, and one-firm-one-vote governance that defined elite NY firms through the 20th century. The 2016 [[Scott Barshay]] departure to [[Paul, Weiss]] (which the FT and academic commentators date as the start of the [[Big Law transformation]]) triggered a five-year arc of formal lockstep modifications that culminated in Cravath publicly abandoning pure lockstep in December 2021 and adding a non-equity partner tier in late 2021 / publicly disclosed November 2023. As of 2026, Cravath is no longer a strict-lockstep firm; legal-press coverage now identifies [[Wachtell Lipton]] and Debevoise as the only major US holdouts on pure lockstep.
+Founding institution of the modern American corporate law firm — the source of the "Cravath system" of lockstep partnership, hire-from-within, and one-firm-one-vote governance that defined elite NY firms through the 20th century. The 2016 [[Scott Barshay]] departure to [[Paul, Weiss]] (which the FT and academic commentators date as the start of the [[Big Law transformation]]) triggered a five-year arc of formal lockstep modifications that culminated in Cravath publicly abandoning pure lockstep in December 2021 and adding a non-equity partner tier in late 2021 / publicly disclosed November 2023. As of 2026, Cravath is no longer a strict-lockstep firm; with [[Debevoise]]'s June 2025 addition of a non-equity tier, [[Wachtell Lipton]] is the only major US holdout still operating an all-equity-partner lockstep partnership.
 
 ## Quick stats
 
-| Metric | Value |
-|--------|-------|
-| Revenue (2024) | ~$1.2bn (Am Law 100, 2025 release) |
-| Revenue (2025) | ~$1.4bn (FT-cited; not independently confirmed in Apr 2026 Am Law release excerpts available to vault) |
-| Profits per equity partner (2025) | ~$7mn (FT-cited; not independently confirmed) |
-| Materially below | [[Wachtell Lipton]] $12.152mn 2025 PEP and [[Kirkland & Ellis]] $11.121mn 2025 PEP |
-| Founded | 1819 (predecessors); modern form 1944 |
-| Headcount | ~600 lawyers |
-| Compensation model | Modified lockstep (Dec 2021) + non-equity partner tier (late 2021 / disclosed Nov 2023) |
-| Presiding partner | Faiza Saeed |
-| Notable historical role | Originator of the "Cravath system" of legal apprenticeship and partnership |
+| Metric | Value | Source |
+|--------|-------|--------|
+| Revenue (2024) | ~$1.2bn (+9% YoY) | Am Law 100, April 2025 release |
+| Revenue per lawyer (2025) | $2.255M (Am Law top-10 RPL list) | Above the Law / Law.com (April 2026 release) |
+| Profits per equity partner (2025) | $7.2M (+5.2% YoY from $6.85M FY 2024 base) | Am Law 100, April 2026 release |
+| Lawyer count | ~580 | Larson Maddox / Am Law (2025-26) |
+| Materially below | [[Wachtell Lipton]] $12.152mn 2025 PEP and [[Kirkland & Ellis]] $11.121mn 2025 PEP | Am Law 100 (April 2026) |
+| Industry context | 2025 PEP +14.0% across the Am Law 100 (vs Cravath's +5.2%) | Am Law 100 by-the-numbers (April 2026) |
+| Founded | 1819 (predecessors); modern form 1944 | Cravath corporate |
+| Compensation model | Modified lockstep (Dec 2021) + non-equity partner tier (late 2021 / disclosed Nov 2023) | American Lawyer / Bloomberg Law |
+| Presiding partner | Faiza Saeed | Cravath corporate |
+| Notable historical role | Originator of the "Cravath system" of legal apprenticeship and partnership | — |
 
 ## The 2016 Barshay departure
 
@@ -47,8 +48,9 @@ Outflows accelerated after the lockstep modifications, suggesting modifications-
 | 2024 | Daniel Zach | [[Kirkland & Ellis]] | — |
 | 2024 | David Marriott | [[Latham & Watkins]] | — |
 | Early 2026 | 4 partners in first 2 weeks | Various | Cumulatively ~8 partners over 12 months ending early 2026 |
+| 2026 YTD (through May) | 9 partners by count | Various | Per Am Law / Larson Maddox coverage; "unusually high" pace |
 
-*Above the Law* ran "No Longer A Rarity: More Partners Leave Cravath" (January 2024) cataloguing the pattern; *Bloomberg Law* later ran "Cravath Partner Exits Show No Firm Is 'Untouchable'."
+*Above the Law* ran "No Longer A Rarity: More Partners Leave Cravath" (January 2024) cataloguing the pattern; *Bloomberg Law* later ran "Cravath Partner Exits Show No Firm Is 'Untouchable'." The 2026 pace of 9 partner departures by May represents an *acceleration* of the post-modification trajectory, not stabilisation — consistent with the warning-sign argument that modified lockstep does not stop the slide toward scale-plus-pay.
 
 ## Vault read
 
@@ -65,12 +67,17 @@ The Cravath case is the empirical evidence for the warning-sign argument in [[Bi
 - [[Skadden]], [[Sullivan & Cromwell]], [[Davis Polk]], [[Simpson Thacher]] — peer NY elite
 
 ### Sources
-- FT, "Wachtell, the law firm that helped invent Wall Street, is under siege" (May 2026) — primary source for $1.4bn / $7M PEP figures
+- FT, "Wachtell, the law firm that helped invent Wall Street, is under siege" (May 2026) — origin of the FT-cited 2025 figures (now superseded by Am Law 2026 verification)
+- Law.com Am Law 100, "Ranked by Profits Per Equity Partner" (April 2026 release) — verified 2025 PEP $7.2M (+5.2% YoY)
+- Above the Law, "The 2026 Am Law 100 Is Out, And Surprise: The Rich Law Firms Got Richer" (April 2026)
+- Law.com / Above the Law (April 2026) — RPL ranking $2.255M (#10 by RPL)
+- David Lat (Original Jurisdiction substack), 2025 and 2026 Am Law 100 commentary
 - American Lawyer, "Cravath Adopts Modified Lockstep Compensation System" (December 2021)
 - Bloomberg Law, "Cravath Adds Salaried Partner Tier in Latest Wall Street Shift" (November 7, 2023)
 - American Lawyer, "Partner Comp Systems and Competitive Advantage — Lessons from the Kirkland-Cravath-Paul Weiss Lateral Hiring Wars" (January 2024)
 - Above the Law, "No Longer A Rarity: More Partners Leave Cravath" (January 2024)
 - Above the Law, "A Deeper Dive Into Scott Barshay's Move From Cravath To Paul Weiss" (April 2016)
+- Larson Maddox, "Big Law Salary Scale 2026: Cravath vs Am Law 100-200" — 2026 YTD departure count of 9 partners
 
 ---
 

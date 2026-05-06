@@ -9,7 +9,7 @@ tags:
 
 # Wachtell Lipton
 
-Wachtell Lipton Rosen & Katz — the most profitable law firm in the world on a per-lawyer basis, specialising in bet-the-company M&A, corporate governance, and takeover defence. Invented the [[Poison pill|poison pill]] (shareholder rights plan) in 1982. Lockstep partnership and one-NY-office model is the archetypal alternative to [[Big Law transformation|"Kirklandisation"]]; the firm is now under sustained partner-level poaching pressure for the first time in its history.
+Wachtell Lipton Rosen & Katz — the most profitable law firm in the world on a per-lawyer basis, specialising in bet-the-company M&A, corporate governance, and takeover defence. Invented the [[Poison pill|poison pill]] (shareholder rights plan) in 1982. Lockstep partnership and one-NY-office model is the archetypal alternative to [[Big Law transformation|"Kirklandisation"]]; the firm is now under sustained partner-level poaching pressure for the first time in its history. With [[Debevoise]]'s June 2025 addition of a non-equity partner tier, Wachtell is now the *only* major US law firm operating a pure all-equity-partner lockstep partnership.
 
 ## Synopsis
 
