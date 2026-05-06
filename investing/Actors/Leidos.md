@@ -112,6 +112,28 @@ Kudu Dynamics acquisition (May 2025) — offensive cyber and electromagnetic spe
 
 ---
 
+## Q1 2026 earnings (May 5, 2026)
+
+Beat and raised — but stock fell on profit-taking + DOGE-cut concerns, the second consecutive quarter where strong fundamentals couldn't overcome the federal-spending overhang.
+
+| Metric | Q1 2026 | Q1 2025 | Estimate |
+|---|---|---|---|
+| Adjusted EPS | $3.13 | $2.97 | beat |
+| Revenue | $4.4B (+4% YoY, +3% organic) | — | — |
+| Segment leaders | Intelligence & Digital, Homeland | — | — |
+
+FY2026 guidance raised:
+- EPS: $12.10-12.50 (from $12.05-12.45)
+- Revenue: $18.0-18.4B (from prior)
+
+Stock -7.7% (-3.0σ beta-adjusted) — the third-largest defense-name sigma move on the day, behind [[Huntington Ingalls]] (-5.0σ) and ahead of structurally cleaner positioning peers. The selloff reads as profit-taking after a strong post-DOGE-fear recovery + concerns about future growth sustainability under continuing federal-efficiency pressure. Where HII's selloff was about margins, LDOS's was about top-line trajectory under the [[Department of Government Efficiency|DOGE]] overhang — defense IT services contracts are more vulnerable to discretionary cuts than long-cycle shipbuilding.
+
+The Intelligence & Digital + Homeland segment outperformance suggests cyber/intel/health programs (where Leidos has spent acquisition budget — Kudu Dynamics, Dynetics) are absorbing whatever DOGE-driven softness is hitting the defense logistics line. Whether this mix shift sustains or whether DOGE pressure broadens to intel/cyber budgets is the multi-quarter question.
+
+*Source: Leidos Q1 2026 release; [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/05/05/leidos-ldos-q1-2026-earnings-transcript/); [RTTNews — Leidos Q1 Earnings Decline; Raises FY26 Outlook](https://www.rttnews.com/3647213/leidos-q1-earnings-decline-raises-fy26-outlook.aspx); [Barchart — Leidos: Defense Spending Momentum Meets the Reality of Government Efficiency Cuts](https://www.barchart.com/story/news/1695411/leidos-defense-spending-momentum-meets-the-reality-of-government-efficiency-cuts).*
+
+---
+
 ## Related
 
 **Peers:**
@@ -121,6 +143,7 @@ Kudu Dynamics acquisition (May 2025) — offensive cyber and electromagnetic spe
 - [[Peraton]] — Veritas-owned
 - [[ManTech]] — Carlyle-owned
 - [[Booz Allen Hamilton]] — AI leader
+- [[Huntington Ingalls]] — defense peer (also down on May 5 print)
 
 **Acquisitions:**
 - Kudu Dynamics — AI cyber (2025)

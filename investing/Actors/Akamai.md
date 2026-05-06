@@ -60,6 +60,16 @@ Akamai acquired Red Swoosh, the P2P CDN founded by [[Travis Kalanick]], for abou
 
 ---
 
+## May 2026 — AI Inference Cloud repositioning ahead of Q1 print
+
+Stock +11.5% (+2.6σ beta-adjusted) on May 5 ahead of the May 7 Q1 2026 earnings release. The catalyst was technical-detail disclosure on the $200M / 4-year AI compute service agreement first announced on the Q4 2025 call (Feb 19, 2026): a multi-thousand [[Nvidia]] [[Blackwell]] GPU cluster — one of the world's largest [[Nvidia RTX PRO 6000|RTX PRO 6000]] Server Edition deployments at scale — hosted in a high-density power-capacity facility for an undisclosed major US tech company.
+
+Combined with the broader Akamai Inference Cloud expansion (41 datacenter IaaS footprint + Managed Container Service) the May 5 narrative reads as a partial rebound from the [[Anthropic Managed Agents selloff April 2026]] hit: edge platforms can re-enter the AI runtime narrative when they plant high-density [[Blackwell]] capacity, not just delivery + perimeter security. Whether Q1 confirms that the inference-cloud commit is a one-off or repeatable pipeline is the post-print read.
+
+*Sources: [Akamai newsroom — Discloses Technical Details on AI Cluster Deal](https://www.akamai.com/newsroom/press-release/akamai-discloses-technical-details-on-ai-cluster-deal); [Investing.com — Why is Akamai stock surging today](https://www.investing.com/news/stock-market-news/why-is-akamai-technologies-stock-surging-today-93CH-4660441), May 5 2026.*
+
+---
+
 ## Related
 
 - [[Cloudflare]] — major competitor in edge cloud and security

@@ -128,6 +128,29 @@ Rockwell strongest in discrete manufacturing, North America.
 
 ---
 
+## Q2 FY26 earnings (May 5, 2026)
+
+| Metric | Q2 FY26 | Q2 FY25 |
+|---|---|---|
+| Sales | $2,239M | $2,001M (+12%) |
+| Adjusted EPS | $3.30 | $2.50 (+32%) |
+| Free cash flow | Improved | — |
+
+FY26 guidance raised:
+
+| Metric | New | Prior |
+|---|---|---|
+| Reported & organic sales growth | 5-9% | 2-6% |
+| Enterprise op margin | ~21.5% | ~20% |
+| Adjusted EPS | $12.50-13.10 | $11.40-12.20 |
+| Adjusted ROIC | Higher | — |
+
+Stock +8.9% (+4.8σ beta-adjusted) on the day. Management cited double-digit growth in orders and sales, particularly led by North America, with broadening demand across e-commerce, warehouse automation, data centers, and semiconductors. The order-mix shift confirms that the [[CHIPS Act]] / reshoring / hyperscale-data-center capex thesis is translating into factory-automation orders, not staying in the chip and grid layers alone — same pattern visible in the [[Cipher Mining]] hyperscale lease ramp and [[Akamai]] AI Inference Cloud commit on the same trading day.
+
+*Source: Rockwell Automation Q2 FY26 release; [Motley Fool earnings transcript](https://www.fool.com/earnings/call-transcripts/2026/05/05/rockwell-rok-q2-2026-earnings-call-transcript/), May 5 2026.*
+
+---
+
 ## Related
 
 - [[Honeywell]] — peer (industrial automation)

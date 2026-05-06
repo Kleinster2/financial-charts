@@ -152,6 +152,14 @@ The Apr 30 [[Felipe Germini]] piece "The Market Has Priced the Blockade. It Hasn
 
 ---
 
+## May 5, 2026 — "Companies still saying it is not safe to traverse"
+
+In a CNBC "The Exchange" appearance, Croft said *"companies are still saying it is not safe to traverse the Strait of Hormuz."* The comment came hours before reports that audio of Iranian naval leaders broadcasting the strait was *"completely closed"* once again surfaced overnight, and one day after the [[2026 Strait of Hormuz crisis#May 4, 2026 — Strait fire exchange, UAE first attack since ceasefire|May 4 UAE Fujairah strikes]] reopened the kinetic phase of the crisis. The framing extends Croft's late-April "fine print on reopening" thread: shippers and insurers need legal/regulatory certainty before tankers move, and a ceasefire announcement is operationally distinct from physical normalization at the chokepoint.
+
+*Source: [CNBC — Companies are still saying it is not safe to traverse the Strait of Hormuz, says RBC's Helima Croft](https://www.cnbc.com/video/2026/05/05/companies-are-still-saying-it-is-not-safe-to-traverse-the-strait-of-hormuz-says-rbcs-helima-croft.html), May 5, 2026.*
+
+---
+
 ## Related
 
 - [[RBC Capital]] — employer

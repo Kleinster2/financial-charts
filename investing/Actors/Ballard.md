@@ -137,6 +137,26 @@ Ballard is the focused fuel cell play:
 
 ---
 
+## Q1 2026 earnings (May 5)
+
+| Metric | Q1 2026 | Q1 2025 |
+|---|---|---|
+| Revenue | $19.4M | $15.4M (+26% YoY) |
+| Gross margin | 14% | -23% (37-pt swing) |
+| Operating expenses | $16.4M | $25.6M (-36%) |
+| Adjusted EBITDA | -$11.4M | -$27.5M |
+| Cash & equivalents | $516.8M | — |
+
+Two new bus-platform anchor wins announced alongside the print:
+- UK — [[Wrightbus]] selected Ballard for next-generation hydrogen bus platform
+- EU — [[Solaris]] selected Ballard as fuel-cell supplier for next-generation hydrogen bus platform
+
+Stock +31.8% on the day, the biggest single-session sigma move (+7.4σ, beta-adjusted) among vault hydrogen names in 2026. The print marks the first quarter where the bus-partnership flywheel (Wrightbus/Solaris in EU/UK layered on the [[China]] Weichai Power partnership) translates into margin expansion rather than just revenue growth — the open question through most of 2025.
+
+*Source: Ballard Q1 2026 press release; [Motley Fool earnings transcript](https://www.fool.com/earnings/call-transcripts/2026/05/05/ballard-bldp-q1-2026-earnings-transcript/), May 5 2026.*
+
+---
+
 ## Related
 
 - [[Plug Power]] — peer (more distressed)

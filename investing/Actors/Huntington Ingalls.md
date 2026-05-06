@@ -107,11 +107,32 @@ Lower margin than aerospace primes (shipbuilding economics).
 
 ---
 
+## Q1 2026 earnings (May 5, 2026)
+
+Top-line beat overshadowed by margin compression and significant FCF burn — the market read the print as a structural margin question, not a one-quarter execution issue.
+
+| Metric | Q1 2026 | Q1 2025 | Estimate |
+|---|---|---|---|
+| Revenue | $3.10B (+13.4% YoY) | — | beat |
+| EPS (diluted) | $3.79 (flat YoY) | $3.79 | $3.72 est (+1.88%) |
+| Net earnings | $149M (flat) | $149M | — |
+| Operating margin | 5.0% | — | down |
+| Free cash flow | -$461M | -$461M | — |
+
+Stock -10.2% (-5.0σ beta-adjusted) — the largest defense-name single-day sigma move in 2026. The selloff reads as compression in shipbuilding margin economics: revenue growth is real (Columbia-class + Virginia-class ramp + Ford-class follow-ons) but the working-capital intensity on long-cycle programs is widening rather than narrowing. The $50B+ backlog provides multi-decade visibility; the question is whether Q1 margin/FCF dynamics persist through the [[Columbia-class]] ramp or compress further.
+
+Reads against [[Leidos]] (-7.7% same day) as a defense-sector dispersion signal: [[Long global rearmament]] thesis is intact at the top line, but margin/cash-flow operating leverage is showing strain across both shipbuilding and defense IT services, with [[General Dynamics]] (submarine partner) as the natural cross-check.
+
+*Source: HII Q1 2026 8-K release; [Stock Titan — HII posts Q1 2026 growth](https://www.stocktitan.net/sec-filings/HII/8-k-huntington-ingalls-industries-inc-reports-material-event-f2bcd72c9ee5.html); [ChartMill — Reports Strong Q1 Revenue Beat but Shares Slide on Margin Compression and Cash Burn](https://www.chartmill.com/news/HII/Chartmill-47029-Huntington-Ingalls-Industries-NYSEHII-Reports-Strong-Q1-Revenue-Beat-but-Shares-Slide-on-Margin-Compression-and-Cash-Burn).*
+
+---
+
 ## Related
 
 - [[US Defense Industry]] — sector context
 - [[Defense]] — sector hub
 - [[General Dynamics]] — submarine partner
+- [[Leidos]] — defense IT services peer (also down on May 5 print)
 - [[Long global rearmament]] — thesis
 
 ---

@@ -7,6 +7,33 @@ aliases: [PYPL]
 
 ---
 
+## Q1 2026 earnings (May 5, 2026) — Lores's first print
+
+First earnings under [[Enrique Lores]] (effective March 1). Beat both lines but the share-price reaction showed the market is treating cost-cuts and the reorg as defensive.
+
+| Metric | Q1 2026 | Estimate / prior |
+|---|---|---|
+| Revenue | $8.353B (+7% YoY) | $8.05B est |
+| Adj EPS | $1.34 (+1%) | $1.27 est |
+| Total Payment Volume (TPV) | $464B (+11% spot, +8% currency-neutral) | — |
+| Venmo TPV growth | +14% YoY (6th consecutive double-digit Q) | — |
+| Transaction margin dollars | $3.810B (+3%) | — |
+
+Strategic actions announced with the print:
+- **$1.5B cost reduction program** over the next 2-3 years
+- **New 3-unit org structure**:
+  1. Checkout Solutions & PayPal
+  2. Consumer Financial Services & Venmo
+  3. Payment Services & Crypto
+
+FY26 guidance reiterated: low-single-digit decline to slightly positive non-GAAP EPS vs prior $5.31, citing "complex and dynamic operating environment."
+
+Stock -7.8% close (-4.4σ beta-adjusted), -10% intraday — the move size confirms the market read the reorg + cost cuts as defensive against the [[Checkout wars]] structural pressure rather than offensive growth investment. The 6th consecutive double-digit Venmo TPV quarter is the actual operating-strength signal under the headline; whether Lores can convert Venmo growth into PayPal-brand checkout share recovery is the multi-quarter test.
+
+*Sources: PayPal Q1 2026 release; [Yahoo Finance — PayPal Q1 2026 earnings beat estimates under new CEO](https://finance.yahoo.com/markets/stocks/articles/paypal-q1-2026-earnings-beat-132053107.html); [Investing.com earnings call transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-paypal-q1-2026-beats-forecasts-stock-drops-in-premarket-93CH-4659306); [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/05/05/paypal-pypl-q1-2026-earnings-transcript/).*
+
+---
+
 ## Q4 2025 earnings (Feb 3, 2026)
 
 **Major miss. Stock -20%. New CEO named.**

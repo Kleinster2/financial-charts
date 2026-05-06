@@ -151,6 +151,30 @@ See [[CES 2026]] for event context.
 
 ---
 
+## Q1 2026 earnings (May 5, 2026)
+
+The mirror image of Q4 2025: Q4 beat with weak Q1 guide produced -17% selloff; Q1 beat with strong Q2 guide produced an after-hours all-time high.
+
+| Metric | Q1 2026 actual | Estimate / prior |
+|---|---|---|
+| Revenue | $10.3B | $9.84B est |
+| EPS (Non-GAAP) | $1.37 | $1.29 est |
+| Data Center | $5.8B (+57% YoY) | $5.6B est |
+| Q2 2026 guidance | $11.2B ± $300M | $10.52B consensus |
+
+Data center segment accelerated from +39% YoY (Q4 2025) to +57% YoY (Q1 2026), driven by [[EPYC]] processor share gains and [[Instinct]] GPU shipments. Q2 guide midpoint of $11.2B implies ~46% YoY revenue growth — a step-change from the Q1 outlook that triggered the February selloff.
+
+Earnings-call signals:
+- Server CPU market growth to exceed 35% in 2026
+- AMD/[[Intel]] server CPU share ratio approaching 1:1
+- Second-half shipments of [[Meta]] custom AI chips ([[MI450]] 6 GW deployment ramp)
+
+Stock hit after-hours ATH of $379.90. [[Morgan Stanley]] raised PT to $360 the next morning citing data-center momentum and AI demand. The print closes the question opened by Q4 2025 and the [[2026 OpenAI revenue miss|April 28 OpenAI revenue read-through]]: data-center demand is reaccelerating, not plateauing, and the MI325 → MI450 transition is on schedule against Meta and hyperscaler ramps.
+
+*Sources: AMD Q1 2026 press release (May 5, 2026); [Seeking Alpha — AMD shoots up as Q1 results, guidance top estimates](https://seekingalpha.com/news/4585677-amd-shoots-up-as-q1-results-guidance-top-estimates); [Yahoo Finance — AMD stock rises on Q1 earnings beat](https://finance.yahoo.com/sectors/technology/article/amd-stock-rises-on-q1-earnings-beat-better-than-expected-outlook-195252152.html); [Meyka — AMD Stock Today May 6, Morgan Stanley raises price target](https://meyka.com/blog/amd-stock-today-may-6-morgan-stanley-raises-price-target-0605/).*
+
+---
+
 ## Q4 2025 earnings (Feb 3, 2026)
 
 Record quarter — beat expectations but guidance disappointed:

@@ -37,7 +37,24 @@ DuPont (DD) retained:
 
 ---
 
-*Updated 2026-01-20*
+## Q1 2026 earnings (May 5)
+
+First post-spin print after the November 2025 [[Qnity]] separation showed margin operating leverage in the retained water/protection/industrial mix.
+
+| Metric | Q1 2026 | Q1 2025 |
+|---|---|---|
+| Adjusted EPS | $0.55 | ~$0.36 (+53% YoY) |
+| Revenue | $1.68B | $1.62B (+4%, +2% organic, +2% FX) |
+| Operating EBITDA | $414M | $360M (+15%) |
+| Reported margin | 24.6% | 22.3% (+230 bps) |
+
+FY26 guidance raised:
+- Adjusted EPS: $2.35-2.40 (from $2.25-2.30)
+- Net sales: $7.155-7.215B (from $7.08-7.14B)
+
+Pricing surcharges + selective price increases are covering ~$90M of incremental input/tariff cost, expected fully covered starting Q2. Stock +8.4% (+4.7σ) on the day, third-largest sigma move in vault Industrials (behind [[Rockwell Automation]] +4.8σ and ahead of [[Huntington Ingalls]] -5.0σ) — the move outpaced the Basic Materials sector by ~7.9 points (+9.79% DD vs +1.91% sector), which is the kind of dispersion that suggests stock-specific operating leverage rather than a sector beta read.
+
+*Source: DuPont Q1 2026 press release; [Motley Fool earnings transcript](https://www.fool.com/earnings/call-transcripts/2026/05/05/dupont-dd-q1-2026-earnings-call-transcript/), May 5 2026.*
 
 ---
 

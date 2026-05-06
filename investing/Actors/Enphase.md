@@ -124,6 +124,21 @@ Enphase dominates residential solar electronics:
 
 ---
 
+## May 5, 2026 — solar-sector tailwind off First Solar
+
+ENPH +10.7% (+2.7σ beta-adjusted) on a sector-rotation move rather than a company-specific catalyst. [[First Solar]] reported strong Q1 2026 results that lifted residential and utility solar names broadly. ENPH had already been hit on its own April Q1 2026 print (Apr 28: rev -20.6% YoY to $282.9M, adj EBITDA missed by 38.4%, op margin -10.5%, stock -9.8%) — so the May 5 move reads as oversold sector-beta recovery rather than a thesis change at the company level.
+
+Pre-existing structural concerns from the Apr 28 print persist:
+- Revenue declined 20.6% YoY despite stronger-than-expected adj EPS
+- Op margin fell to -10.5%
+- Adj EBITDA missed consensus by 38.4%
+
+The 5th-generation battery system + expanded US manufacturing for commercial microinverters + Australia VPP expansion remain the company-specific upside drivers; the May 5 move is primarily peer/sector recovery on FSLR confirming demand.
+
+*Sources: [TipRanks — Why Enphase Energy Stock Is Breaking Away From Peers](https://www.tipranks.com/news/catalyst/why-enphase-energy-stock-is-breaking-away-from-peers); [FinancialContent — Why Enphase Stock Is Up Today](https://markets.financialcontent.com/stocks/article/stockstory-2026-5-1-why-enphase-enph-stock-is-up-today); [Motley Fool — Enphase Q1 2026 transcript](https://www.fool.com/earnings/call-transcripts/2026/04/28/enphase-enph-q1-2026-earnings-transcript/).*
+
+---
+
 ## Related
 
 - [[SolarEdge]] — competitor

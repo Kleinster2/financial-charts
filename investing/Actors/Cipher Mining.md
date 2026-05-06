@@ -1,9 +1,9 @@
 ---
-aliases: [CIFR]
+aliases: [CIFR, Cipher Digital]
 ---
 #actor #crypto #ai #usa #public
 
-**Cipher Mining** — +230% YTD. Fluidstack AI partnerships. Strong pivot execution.
+**Cipher Mining** — renamed **Cipher Digital** in February 2026 to mark the corporate identity shift from BTC miner to hyperscale data-center lessor. As of Q1 2026: 907 MW operating + contracted capacity, three signed hyperscale leases, $11.4B contracted revenue across 10-15 year base lease terms.
 
 ---
 
@@ -130,6 +130,33 @@ Cipher = strong \#2 in pivot execution.
 
 ---
 
+## Q1 2026 update — third hyperscale lease, $11.4B contracted revenue (May 5)
+
+The Q1 2026 print + financing combination resolved the financing overhang that had constrained pre-Q1 multiple expansion and reframes the thesis from "crypto-to-AI pivot" to "anchored hyperscale data-center lessor."
+
+| Metric | Q1 2026 |
+|---|---|
+| Total operating + contracted capacity | 907 MW |
+| Signed hyperscale campus leases | 3 |
+| Total contracted revenue (10-15 yr base terms) | $11.4B |
+| Q1 revenue | $34.84M |
+| Q1 net income | -$114.32M (-$0.28 EPS) |
+| New revolving credit facility | $200M |
+| Black Pearl high-yield bond offering | $2B (project fully funded) |
+
+Anchor leases:
+- **Black Pearl campus** — [[Amazon|AWS]] 15-year, 300 MW lease, ~$5.5B contracted revenue
+- **Barber Lake campus** — [[FluidStack]] + [[Google]] 10-year, 300 MW lease (existing)
+- **Third campus** (May 5 announce) — undisclosed investment-grade hyperscale tenant
+
+Barber Lake build progress: 1,100+ active workers daily in April, 1,400+ expected in May, building topping out ~7 months from design kick-off.
+
+Stock +23.5% (+4.3σ beta-adjusted) on the print — the biggest crypto-AI peer move since [[IREN]]'s anchor announcement. The May 5 sequence shifts Cipher's risk profile from "can they finance the pivot?" to "execution against signed hyperscale revenue."
+
+*Sources: Cipher Digital Q1 2026 8-K + business update (May 5, 2026); [Investing.com — Cipher Mining Q1 2026 slides: $11.4B contracted revenue, HPC shift](https://www.investing.com/news/company-news/cipher-mining-q1-2026-slides-114b-contracted-revenue-hpc-shift-93CH-4659528), May 5 2026; [Crypto.news — Cipher Digital secures $200M credit line](https://crypto.news/cipher-digital-secures-200m-credit-line-to-scale-ai-and-hpc-footprint/).*
+
+---
+
 ## Related
 
 - [[IREN]] — competitor, peer (\#1 in crypto-AI pivot)
@@ -137,6 +164,8 @@ Cipher = strong \#2 in pivot execution.
 - [[TeraWulf]] — peer (Anthropic consortium)
 - [[Core Scientific]] — competitor, peer
 - [[Anthropic]] — customer (~1M TPUv7 infrastructure)
+- [[Amazon]] — customer (Black Pearl AWS 15-yr 300 MW lease, ~$5.5B)
+- [[Google]] — customer (Barber Lake 10-yr 300 MW lease via [[FluidStack]])
 - [[FluidStack]] — deployment partner (operations)
 - [[Crypto-to-AI pivot]] — thesis context
 - [[Power constraints]] — value driver (power assets)

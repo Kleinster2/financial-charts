@@ -144,6 +144,31 @@ Bear:
 
 ---
 
+## Q1 2026 earnings (May 5, 2026)
+
+Operating performance strong; GAAP net loss driven by mark-to-market on equity holdings; Q2 guide deceleration is the actual selloff catalyst.
+
+| Metric | Q1 2026 | Q1 2025 | YoY |
+|---|---|---|---|
+| Revenue | $3.17B | $2.36B | +34% |
+| GMV | $100.7B | $74.6B | +35% |
+| Operating income | $382M | $203M | +88% |
+| Operating margin | 12.0% | 8.6% | +340 bps |
+| GAAP net income | -$581M | $421M | — |
+| Adjusted EPS | $0.36 | $0.21 | beat $0.33 est |
+| Free cash flow | $476M | $232M | +105% |
+| FCF margin | 15% | 10% | +500 bps |
+
+Q1 GAAP net loss includes a $1,061M net loss on equity and other investments — mark-to-market on holdings in [[Affirm]], [[Global-E]], and [[Klaviyo]]. Excluding equity-investment effects, non-GAAP net income was $360M; the operating story is stronger than the headline net-loss reads.
+
+Q2 2026 guide: revenue growth in the high 20s percent, vs Q1 +34% — the deceleration is the primary -15.6% selloff catalyst, not the equity-mark loss. Q2 SBC guide $145M.
+
+AI commerce signal: [[Agentic Storefronts]] (launched Dec 2025) drove ~13× order growth in Q1 from AI channels — the agentic-commerce thesis is showing operational traction rather than just being a strategic narrative. Stock -15.6% (-5.7σ beta-adjusted) on the day, vault's largest single-session down-sigma move.
+
+*Sources: Shopify Q1 2026 8-K + 10-Q (May 5, 2026); [Bloomberg — Shopify Drops as Outlook Implies Slower Growth](https://www.bloomberg.com/news/articles/2026-05-05/shopify-drops-as-forecast-suggests-slowing-revenue-growth-pace); [Seeking Alpha — Shopify expects Q2 revenue growth in the high 20s, AI channels drive nearly 13x order growth](https://seekingalpha.com/news/4585896-shopify-expects-q2-revenue-growth-in-the-high-20s-as-ai-channels-drive-nearly-13x-order); [Motley Fool earnings transcript](https://www.fool.com/earnings/call-transcripts/2026/05/05/shopify-shop-q1-2026-earnings-transcript/).*
+
+---
+
 ## Q4 2025 earnings (Feb 11, 2026)
 
 Beat across the board, $2B buyback, agentic commerce:

@@ -82,6 +82,26 @@ PLTR trades as a core Technology name (XLK r = 0.73).
 
 ---
 
+## Q1 2026 earnings (May 5, 2026) — strong beat, priced-in selloff
+
+Every line outperformed: revenue, EPS, segment growth, forward guidance — and the stock fell 6.9% (-2.8σ) the next session. The reaction is the textbook "priced-in beat" pattern at a 100x+ multiple.
+
+| Metric | Q1 2026 | Q1 2025 | Estimate |
+|---|---|---|---|
+| Revenue | $1.63B (+85% YoY) | — | beat |
+| Adj EPS | $0.33 | — | $0.24 (+37.5% beat) |
+| US Commercial revenue | $595M (+130% YoY) | — | — |
+| Q2 2026 guide (midpoint) | $1.80B | — | +7.4% above Street |
+| FY2026 guide (raised) | $7.64B | $7.19B prior | $7.28B Street consensus |
+
+Aftermarket reaction was muted (+1.47%) on May 4 — the market priced the print as too perfect to extend the multiple. The May 5 trading-session selloff (-6.9% / -2.8σ) reflects the same pattern: beats this large at 100x+ forward earnings need *upward revisions to the future*, not just a clean beat against current guide. The FY26 raise from $7.19B (Feb) to $7.64B is real (+$450M, +6.3% guide raise) but the print came after PLTR had already rallied into the IRGC-target / Iran-war defensive bid through April.
+
+US Commercial +130% YoY is the operating-strength signal: AIP commercial traction is accelerating rather than plateauing as government attention shifts to the [[2026 Iran conflict market impact|Iran conflict]] and [[Project Maven]] visibility. Whether the multiple compresses on a clean beat or whether the next-quarter print restores the bull bid is the multi-quarter test.
+
+*Sources: Palantir Q1 2026 release; [TradingView — Palantir delivers impressive Q1 CY2026](https://www.tradingview.com/news/stockstory:1f47b79f0094b:0-palantir-technologies-nasdaq-pltr-delivers-impressive-q1-cy2026/); [TECHi — Palantir Q1 2026 Earnings](https://www.techi.com/palantir-q1-2026-earnings/); [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/05/04/palantir-pltr-q1-2026-earnings-transcript/).*
+
+---
+
 ## Q4 2025 earnings (Feb 2, 2026)
 
 Beat + massive guidance raise. Stock +11%.
