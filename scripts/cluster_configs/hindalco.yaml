@@ -1,0 +1,26 @@
+# Hindalco Industries cluster — Indian non-ferrous metals / integrated mining
+# Primary actor: HINDALCO.NS (NSE)
+# Test: does Hindalco trade as part of the Indian metals cohort, or does its
+# Novelis subsidiary make it more globally-correlated than its NSE-listed peers?
+name: Indian metals
+primary: HINDALCO.NS
+prefix: hindalco-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [HINDALCO.NS, VEDL.NS, TATASTEEL.NS, JSWSTEEL.NS]
+  coal:
+    color: "#5D4037"
+    tickers: [COALINDIA.NS]
+  global_metals:
+    color: "#FF6F00"
+    tickers: [RIO, BHP, VALE, FCX]
+  india_broad:
+    color: "#7E57C2"
+    tickers: [RELIANCE.NS, ADANIENT.NS, LT.NS]
+  etf:
+    color: "#9E9E9E"
+    tickers: [INDA, XLB, SPY]

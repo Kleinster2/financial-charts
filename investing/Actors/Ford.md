@@ -150,7 +150,7 @@ At Q1 2026 earnings (week of Apr 28), Ford guided to up to $2B in supply-chain c
 
 2. **Post-war**: [[Operation Epic Fury|Iran-war]] LME aluminium spike (+16% since outbreak), naphtha-derived plastics inflation, and DRam memory chip costs as memory firms reallocate auto-grade capacity toward AI data centres.
 
-CFO Sherry House: *"we were already seeing global industry shortages. Then you had the Middle East."* Ford is the most aluminium-exposed of the Big Three because the F-Series moved to an all-aluminium body in 2014 — making [[Novelis]] structurally critical to the highest-volume, highest-margin product line.
+CFO [[Sherry House]]: *"we were already seeing global industry shortages. Then you had the Middle East."* Ford is the most aluminium-exposed of the Big Three because the F-Series moved to an all-aluminium body in 2014 — making [[Novelis]] structurally critical to the highest-volume, highest-margin product line.
 
 | Metric | 2026 guidance | YoY change |
 |--------|---------------|------------|
