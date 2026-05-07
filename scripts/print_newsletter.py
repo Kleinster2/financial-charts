@@ -17,6 +17,7 @@ import markdown
 
 REPO = Path(__file__).resolve().parent.parent
 NEWSLETTER_DIR = REPO / "investing" / "Newsletter"
+ATTACHMENTS_DIR = REPO / "investing" / "attachments"
 CHROME = Path(r"C:/Program Files/Google/Chrome/Application/chrome.exe")
 EDGE = Path(r"C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe")
 
@@ -62,9 +63,27 @@ em { font-style: italic; }
 strong { font-weight: 600; }
 hr { border: none; border-top: 0.5pt solid #aaa; margin: 0.1in 0; }
 .wl { color: #666; font-size: 0.92em; }
+figure.chart {
+  margin: 0.12in 0;
+  column-span: all;
+  -webkit-column-span: all;
+  break-inside: avoid;
+  text-align: center;
+}
+figure.chart img { max-width: 100%; max-height: 4.8in; height: auto; }
+figure.chart figcaption {
+  font-size: 8pt;
+  color: #555;
+  margin-top: 0.04in;
+  font-style: italic;
+}
 """
 
 WIKILINK = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
+IMAGE_EMBED = re.compile(
+    r"!\[\[([^\]|]+?\.(?:png|jpg|jpeg|gif|svg|webp))(?:\|([^\]]+))?\]\]",
+    re.IGNORECASE,
+)
 
 
 def style_wikilinks(text: str) -> str:
@@ -78,9 +97,37 @@ def style_wikilinks(text: str) -> str:
     return WIKILINK.sub(repl, text)
 
 
+def resolve_image_embeds(text: str) -> str:
+    """Convert Obsidian image embeds (`![[chart.png]]` / `![[chart.png|caption]]`)
+    into <figure>+<img> blocks pointing at investing/attachments. Embeds whose
+    target file is not found are left unchanged so the broken reference is
+    visible rather than silently dropped.
+    """
+
+    def repl(match: re.Match[str]) -> str:
+        name = match.group(1).strip()
+        caption = (match.group(2) or "").strip()
+        path = ATTACHMENTS_DIR / name
+        if not path.exists():
+            hits = list(ATTACHMENTS_DIR.rglob(name))
+            if hits:
+                path = hits[0]
+            else:
+                return match.group(0)
+        url = "file:///" + str(path).replace("\\", "/")
+        alt = html.escape(caption or path.stem)
+        figcap = (
+            f"<figcaption>{html.escape(caption)}</figcaption>" if caption else ""
+        )
+        return f'<figure class="chart"><img src="{url}" alt="{alt}"/>{figcap}</figure>'
+
+    return IMAGE_EMBED.sub(repl, text)
+
+
 def render_html(md_path: Path) -> str:
     raw = md_path.read_text(encoding="utf-8")
     body_md = re.sub(r"^---\n.*?\n---\n", "", raw, count=1, flags=re.DOTALL)
+    body_md = resolve_image_embeds(body_md)
     body_md = style_wikilinks(body_md)
     body_html = markdown.markdown(body_md, extensions=["extra", "sane_lists"])
     title = html.escape(md_path.stem)

@@ -128,6 +128,13 @@ Style:
 - Cards must stand alone. Never look for connections between or among cards. No "see Card X," no "in the same way as," no synthesis paragraph that ties multiple cards together, no Watch items that reach into another card's territory. Each card answers "what is this story" in isolation. The Story map table is a pure index, not a thesis.
 - Never assume the reader is familiar with the details. Every name gets a one-clause role tag the first time it appears (e.g., "Mike McKee, Bloomberg's Fed correspondent" not just "Mike McKee"); every acronym gets expanded on first use ("BDC — business development company"); every prior event referenced gets a brief in-card anchor ("Norway raised its wealth tax from 0.85% to 1.1% in 2022 and saw $54B in wealth leave the country" not just "the Norway 2022 case study"); every market level or threshold gets a why-it-matters clause ("4.25% on the 10Y is where Lyngen says duration becomes a buy"). The reader is not expected to have read the underlying notes, prior story reports, the daily note, or earlier cards. Cards are no longer length-capped — write the context that the story requires, not what fits in 80-150 words.
 
+Charts (optional):
+- The print pipeline resolves Obsidian image embeds (`![[chart.png]]` / `![[chart.png|caption]]`) to figures that span both columns. Use them sparingly: at most one chart per major story card, and only on the cards where a chart actually anchors the read.
+- Only embed charts that already live in a touched note. Do not generate a fresh chart for the report — the chart must be one already in the vault. This keeps charts anchored to vault state.
+- Place the embed inside the card, after the `Touched:` line and before the analytical sentences, so the chart sets up the read.
+- The optional caption (after the `|`) renders as italic figcaption. Use it to name the chart's point in one clause.
+- Mechanical / not a story cards never get charts.
+
 ## Phase 5 — Daily Note Log And Chat Output
 
 Log the report under today's daily note `## Reports` section. Create the section if missing:
@@ -145,3 +152,17 @@ Then summarize in chat:
 - any gaps that require follow-up.
 
 Do not echo the full report unless the user asks for it.
+
+## Phase 6 — Print (only on user request)
+
+When the user says "print", "send to print", "print it", etc., use the dedicated report-print script. Story reports auto-render in the same two-column layout as the newsletter (Georgia serif, 8.75pt, justified, column rule, visible gray wikilinks); the H1 and the `## Story map` table span both columns.
+
+```
+python scripts/print_report.py YYYY-MM-DD-story-report --print
+```
+
+What it does: renders the markdown to HTML with the two-column CSS, generates `investing/Reports/YYYY-MM-DD-story-report.pdf` via Chrome headless, then prints via Edge kiosk-printing to the default printer (`HPFA4FA6 (HP DeskJet 2700 series)`). Override the printer with `--printer NAME`. Force single-column with `--columns 1` if the user explicitly asks. Drop `--print` to generate the PDF only.
+
+**Do not** improvise with `Out-Printer`, `notepad /p`, or a hand-rolled HTML. The two-column layout and visible wikilinks are the point — the same artifact the newsletter produces, just for the exhaustive story map.
+
+If the report has a numbered suffix (e.g., `-2`, `-3`), pass the full stem: `python scripts/print_report.py YYYY-MM-DD-story-report-2 --print`.

@@ -68,6 +68,15 @@ For each story, identify:
 - **No bold in body text.** Headers only.
 - **No emojis.**
 
+### Charts (optional)
+
+The print pipeline resolves Obsidian image embeds (`![[chart.png]]` / `![[chart.png|caption]]`) to figures that span both columns. Use them sparingly:
+
+- **At most 1-2 charts per newsletter, total.** Pick the single chart that anchors the day's most important story. A 400-800 word brief turns into a chart catalog if every story gets a chart.
+- **Only embed charts that already live in a touched note.** Do not generate a fresh chart for the newsletter — the chart must be one you saw while reading the day's notes. This keeps charts anchored to vault state and avoids duplicate plumbing.
+- **Place the embed inside the relevant story section** (after the lead paragraph, before the structural read), not in a trailing "Charts" appendix.
+- **The optional caption** (after the `|`) renders as italic figcaption under the image. Use it to name the chart's point in one clause, not to repeat the surrounding paragraph.
+
 ### What NOT to include
 
 - Routine stub creation (unless the stub itself is interesting — e.g., a new actor entering the vault)
