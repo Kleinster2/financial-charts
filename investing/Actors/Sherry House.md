@@ -38,6 +38,8 @@ House is one of a cluster of female CFOs at major US automakers — alongside Pa
 ## Related
 
 - [[Ford]] — current employer
+- [[Jim Farley]] — Ford CEO; Q1 2026 earnings-call partner on the Iran-war commodity-shock thread
+- [[Bill Ford]] — Ford Executive Chair; family-stewardship governance overlay
 - [[John Lawler]] — predecessor CFO (now Vice Chair, [[Ford]])
 - [[Lucid Motors]] — prior CFO role
 - [[General Motors]] — prior employer (two tenures)

@@ -590,6 +590,7 @@ Tehran was already heavily polluted before the war. Researchers including [[Neja
 - [[US auto affordability]] — downstream consumer cost pressure
 - [[Mary Barra]] — Iran-war commodity quote (GM CEO)
 - [[BCG]], [[AlixPartners]] — auto consultancy framing on supplier renegotiation lag and per-vehicle aluminium passthrough
+- [[Decarbonization]] — sibling concept; the commodity-shock thread interacts with energy-transition cost structure (aluminium electrolysis, EV-battery materials)
 
 ---
 

@@ -7,7 +7,7 @@ tags: [actor, transport, bus, hydrogen, privatecompany, uk, jcb]
 
 ## Synopsis
 
-[[Wrightbus]] is a UK bus manufacturer headquartered in Ballymena, Northern Ireland, owned since 2019 by Jo Bamford (heir to the [[JCB Group]] family fortune; acquired through his personal vehicle Bamford Bus Company, separately from JCB Group's construction-equipment operations). The firm has pivoted from a near-bankruptcy diesel-bus producer in 2019 into one of Europe's leading hydrogen-fuel-cell bus makers, with 95% of its 2025 production now zero-emission against 95% diesel orders in 2019. Wrightbus is the corporate counterpart of the *Streetdeck Hydroliner* product line, the world's first hydrogen-powered double-decker bus, launched in 2020 and updated to Generation 2.0 in May 2025.
+[[Wrightbus]] is a UK bus manufacturer headquartered in Ballymena, Northern Ireland, owned since 2019 by Jo Bamford (son of [[Anthony Bamford]], JCB chairman, and heir to the [[JCB Group]] family fortune; acquired through his personal vehicle Bamford Bus Company, separately from JCB Group's construction-equipment operations). The firm has pivoted from a near-bankruptcy diesel-bus producer in 2019 into one of Europe's leading hydrogen-fuel-cell bus makers, with 95% of its 2025 production now zero-emission against 95% diesel orders in 2019. Wrightbus is the corporate counterpart of the *Streetdeck Hydroliner* product line, the world's first hydrogen-powered double-decker bus, launched in 2020 and updated to Generation 2.0 in May 2025.
 
 The investing-vault relevance is the [[Ballard]] partnership thread: Wrightbus is one of two anchor European bus customers (alongside [[Solaris]]) whose next-generation hydrogen bus platforms select Ballard as the fuel-cell supplier. Wrightbus's adoption of [[Ballard]]'s FCmove-HD engine for the Hydroliner Gen 2.0 — and the 70-fuel-cell-engine 2024 order — is the working example of the OEM-to-component supply chain that Ballard's bus-platform thesis depends on. The Q1 2026 [[Ballard]] EBITDA inflection (+37 percentage points YoY) was attributed in part to the Wrightbus + Solaris bus-partnership flywheel translating into margin expansion.
 
@@ -37,6 +37,7 @@ The investing question is whether the European hydrogen-bus order book sustains 
 - [[Solaris]] — paired EU hydrogen-bus OEM partner of Ballard
 - [[CaetanoBus]] — third-tier EU hydrogen bus OEM
 - [[JCB Group]] — Bamford-family-controlled construction-equipment company (separate operating entity from Wrightbus despite shared family ownership)
+- [[Anthony Bamford]] — JCB chairman; father of Jo Bamford; senior figure in Bamford-family dual-vertical hydrogen strategy
 - [[Hydrogen economy]] — sector concept
 - [[Brighton 34-bus hydrogen fleet]] — UK reference fleet using Wrightbus + Ballard
 

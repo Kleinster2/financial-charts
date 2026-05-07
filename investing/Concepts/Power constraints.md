@@ -634,6 +634,7 @@ The cost advantage of [[Natural gas|natural gas]] over other generation technolo
 - [[GE Vernova]] — supplier (turbines)
 - [[Thermal limits]] — related constraint (cooling)
 - [[GPU deployment bottleneck]] — consequence (shipped ≠ deployed)
+- [[Decarbonization]] — sibling concept; hydrogen-blended gas as long-horizon decarbonisation path for AI-era gas turbines
 - [[NVIDIA]] — affected (revenue quality risk)
 - [[Ansaldo Energia]] — gas turbine supplier (OpenAI UAE)
 - [[Solar Turbines]] — turbine supplier (Meta Socrates South)

@@ -193,6 +193,7 @@ Over **30M tonnes/year** new alumina capacity coming online in China, Indonesia,
 - [[Iran conflict supply chain cascade]] — 2026 LME re-rating; auto-OEM transmission
 - [[Section 232]] tariffs — 50% rate on imported aluminium magnifies overseas sourcing cost
 - [[US auto affordability]] — downstream cost-pass-through pressure
+- [[Decarbonization]] — primary aluminium electrolysis is energy-intensive; hydrogen-reduction is a long-horizon pathway
 
 ---
 

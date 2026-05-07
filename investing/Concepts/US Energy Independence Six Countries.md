@@ -109,6 +109,7 @@ This converts the [[2026 Strait of Hormuz crisis|Hormuz crisis]] from a price/in
 - [[Rapidan Energy Group]] — $150 export-restriction trigger (Apr 15)
 - [[The Officials]] — research division of Onyx Capital Group, Apr 15 quote
 - [[Ed Morse]] — originator of the "six countries" framework
+- [[Decarbonization]] — sibling concept; energy-systems framework that the six-countries crude/LNG export apparatus interacts with
 
 ---
 
