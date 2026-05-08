@@ -158,13 +158,29 @@ Full CNBC interview reiterating the paper-physical disconnect and supercycle the
 
 ### Latest commentary (Mar 30-Apr 3, 2026)
 
-**"5-10M bbl/day demand loss" from Gulf** — "similar to the seventies"
+"5-10M bbl/day demand loss" from Gulf — "similar to the seventies"
 
-**"Paper markets completely detached from physical"** (Bloomberg)
+"Paper markets completely detached from physical" (Bloomberg)
 
-**"Turbocharging energy transition"** (CERAWeek)
+"Turbocharging energy transition" (CERAWeek)
 
-**Oil "not yet peaked"** due to Iran war
+Oil "not yet peaked" due to Iran war
+
+### Bloomberg (May 6, 2026) — July 4 US storage clock
+
+Currie's May 6 Bloomberg appearance sharpened the reserve-depletion thesis into a dated US clock. He warned that US crude and fuel inventories could reach critical levels around July 4 while Europe could hit tank bottoms in May. His core distinction: the system is already in an energy *deficit* as reserves drain, but has not yet crossed into outright physical scarcity. The line matters because markets tend to price scarcity only after inventories lose their shock-absorber function.
+
+Currie identified diesel, jet fuel, and LPG as the most vulnerable products because Middle Eastern crude slates are historically rich in those distillates. The EIA same-day weekly data confirmed the pressure in refined products:
+
+| Inventory category | Week ending May 1, 2026 | Signal |
+|--------------------|--------------------------|--------|
+| Commercial crude ex-SPR | -2.3M barrels to 457.2M | Near five-year average; crude less urgent than products |
+| Gasoline | -2.5M barrels | 4% below five-year average |
+| Distillates | -1.3M barrels | 11% below five-year average |
+
+This pairs directly with [[US Energy Independence Six Countries|Prandelli's September buffer-depletion clock]], but pulls the stress date forward for refined products. The analytical reconciliation: systemwide crude+product buffer exhaustion may be a September problem, while specific refined-product categories can hit critical stress by early July because they are not fungible with generic crude barrels.
+
+*Sources: Bloomberg Television video, May 6, 2026; EFE/Infobae summary, May 6, 2026.*
 
 ### "Reverse COVID" framing — with Amrita Sen (CNBC, March 23)
 

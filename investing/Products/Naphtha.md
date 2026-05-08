@@ -53,6 +53,25 @@ South Korea designated naphtha an "economic security item" to manage dwindling s
 
 ---
 
+## May 2026 — plastic packaging shock
+
+*Source: FT, "Plastic shock hits Asia as Iran oil crisis strangles supplies," May 7, 2026.*
+
+The May 7 plastic-shortage report confirms naphtha has become the shortest link between the [[2026 Strait of Hormuz crisis|Hormuz crisis]] and Asian consumer inflation. Asia naphtha prices have almost doubled since the war began; the visible shortage is no longer only petrochemical-margin pressure, but missing packaging for food, beverages, cosmetics, medical equipment, and pharmaceuticals.
+
+| Market | Exposure / datapoint | Implication |
+|--------|----------------------|-------------|
+| [[Indonesia]] | Imports almost all naphtha, mainly from Middle East | Highest downstream packaging risk; Jakarta cut import duties on PP and HDPE inputs |
+| [[Japan]] | 44% of naphtha and >90% of crude from Middle East | Ethylene operating rates at 68.6%, lowest on record |
+| [[Chandra Asri]] | Temporary force majeure | Indonesian domestic resin supply physically constrained |
+| [[Mitsubishi Chemical]], [[Mitsui Chemicals]] | Ethylene output cuts | Japan packaging feedstock curtailment active |
+| [[Formosa Plastics Group|Formosa Petrochemical]] | Force majeure | Taiwan joins regional shortage map |
+| [[South Korea]] | Syringe stocks 45.59M Apr 29 vs 46.46M prior week | Medical-supply packaging and panic-buying channel |
+
+The important classification shift: naphtha is no longer just an upstream cracker input. In a Hormuz closure, it becomes a consumer-inflation and public-health input because the same petrochemical chain makes instant-noodle packaging, IV bags, syringes, beverage bottles, and cosmetics containers. This is why the [[Iran conflict supply chain cascade]] needs naphtha as a named product note rather than burying it inside [[Oil]].
+
+---
+
 ## Wiggen: global shortage — dual use bottleneck (March 23)
 
 [[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) identified a dual-use bottleneck: naphtha is needed both as a diluent for [[Venezuela]]n heavy sour crude (which is too thick to load onto ships without thinning) AND as petrochemical feedstock for plastics. With [[LPG]] also in global shortage, Asian petrochemical producers are "making big cuts" — not gradually reducing, but shutting capacity. Wiggen: the petchem industry in Asia "just doesn't have the LPG available." If feedstock shortages persist, recycled plastics become a potential beneficiary as the only alternative supply source for downstream manufacturing.

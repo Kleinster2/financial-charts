@@ -6,10 +6,27 @@ Part of [[US-China tech race]] umbrella.
 
 ---
 
-## [[China]] leaders admit gap widening (Jan 2026)**AGI-Next summit, Beijing (Jan 10, 2026):**> "The real answer is that the gap may actually be widening." — **Tang Jie, Zhipu founder**> "A massive amount of OpenAI's compute is dedicated to next-generation research, whereas we are stretched thin — just meeting delivery demands consumes most of our resources." — **Justin Lin, Alibaba [[Qwen]]**| Leader | Role | Catch-up odds ||--------|------|---------------|| Justin Lin | Alibaba [[Qwen]] head | **<20%** in 3-5 years || Tang Jie | Zhipu founder | [[Gap]] "widening" || Yao Shunyu | [[Tencent]] AI (ex-OpenAI) | Focus on bottlenecks |**Key constraint:** Chinese labs spend compute on delivery/production; US labs dedicate compute to research.**Zhipu + [[MiniMax]] IPOs (Jan 2026):** Raised $1B+ combined. [[MiniMax]] doubled on debut, Zhipu +36%.---
+## [[China]] leaders admit gap widening (Jan 2026)
+
+AGI-Next summit, [[Beijing]] (Jan 10, 2026):
+
+> "The real answer is that the gap may actually be widening." — Tang Jie, Zhipu founder
+> "A massive amount of OpenAI's compute is dedicated to next-generation research, whereas we are stretched thin — just meeting delivery demands consumes most of our resources." — Justin Lin, Alibaba [[Qwen]]
+
+| Leader | Role | Catch-up odds |
+|--------|------|---------------|
+| Justin Lin | Alibaba [[Qwen]] head | <20% in 3-5 years |
+| Tang Jie | Zhipu founder | Gap "widening" |
+| Yao Shunyu | [[Tencent]] AI (ex-OpenAI) | Focus on bottlenecks |
+
+Key constraint: Chinese labs spend compute on delivery/production; US labs dedicate compute to research.
+
+Zhipu + [[MiniMax]] IPOs (Jan 2026): Raised $1B+ combined. [[MiniMax]] doubled on debut, Zhipu +36%.
+
+---
 ## The gap (mid-2025)
 
-**Humanity's Last Exam** (thousands of questions across math, science):
+[[Humanity's Last Exam]] (thousands of questions across math, science):
 
 | Model | Accuracy |
 |-------|----------|
@@ -19,9 +36,9 @@ Part of [[US-China tech race]] umbrella.
 | DeepSeek | 14% |
 | [[Qwen]] (Alibaba) | 11% |
 
-**[[Sam Altman]] (May 2025):** "It is very hard to say how far ahead we are. But I would say not a huge amount of time."
+[[Sam Altman]] (May 2025): "It is very hard to say how far ahead we are. But I would say not a huge amount of time."
 
-**LiveBench (Jan 2026):**
+LiveBench (Jan 2026):
 - Google [[Gemini]] 3 overtook OpenAI for top-3 (Nov 2025)
 - 2 Chinese low-cost models in top-15
 
@@ -32,17 +49,17 @@ Part of [[US-China tech race]] umbrella.
 | Rank | Entity | ~Patents |
 |------|--------|----------|
 | 1 | Google | 575 |
-| 2 | **Zhejiang University** ([[China]]) | 475 |
+| 2 | [[Zhejiang University]] ([[China]]) | 475 |
 | 3 | [[Microsoft]] | 325 |
-| 4 | **UESTC** ([[China]]) | 275 |
-| 5 | **Baidu** | 275 |
+| 4 | UESTC ([[China]]) | 275 |
+| 5 | Baidu | 275 |
 | 6 | [[NVIDIA]] | 275 |
 | 7 | [[IBM]] | 275 |
-| 8 | **Tsinghua University** | 250 |
-| 9 | **[[Hangzhou]] Dianzi University** | 250 |
-| 10 | **State Grid Corp of [[China]]** | 225 |
+| 8 | [[Tsinghua University]] | 250 |
+| 9 | [[Hangzhou]] Dianzi University | 250 |
+| 10 | State Grid Corp of [[China]] | 225 |
 
-**Key insight:** 5 of top 10 are Chinese (4 universities + State Grid). Chinese universities punching above weight despite chip constraints.
+Key insight: 5 of top 10 are Chinese (4 universities + State Grid). Chinese universities punching above weight despite chip constraints.
 
 ---
 
@@ -50,12 +67,12 @@ Part of [[US-China tech race]] umbrella.
 
 | Category | US | [[China]] |
 |----------|-----|-------|
-| Big tech capex | **$370B+** (Big 4) | $24B (Alibaba, [[Tencent]]) |
-| Government | Indirect (tax, permits) | **$56B** direct |
+| Big tech capex | $370B+ (Big 4) | $24B (Alibaba, [[Tencent]]) |
+| Government | Indirect (tax, permits) | $56B direct |
 | VC | $193B global (US-dominated) | $8.2B AI Industry Fund |
-| Total AI capex | — | **$98B** (+48% YoY) |
+| Total AI capex | — | $98B (+48% YoY) |
 
-**Decade prior ([[China]]):** $912B govt-backed VC → 1.4M AI-related firms.
+Decade prior ([[China]]): $912B govt-backed VC → 1.4M AI-related firms.
 
 ---
 
@@ -63,26 +80,26 @@ Part of [[US-China tech race]] umbrella.
 
 | Metric | US | [[China]] |
 |--------|-----|-------|
-| Top AI company immigrant founders | **60%** | — |
-| AI grad students (international) | **70%** | — |
+| Top AI company immigrant founders | 60% | — |
+| AI grad students (international) | 70% | — |
 | Repatriation program | — | Thousand Talents (7,000+ lured back) |
-| Top researcher pay | **$100M+** packages | Patriotism pitch |
+| Top researcher pay | $100M+ packages | Patriotism pitch |
 
-**Risk:** US talent pipeline depends on immigration policy. Tighter visas = advantage [[China]].
+Risk: US talent pipeline depends on immigration policy. Tighter visas = advantage [[China]].
 
 ---
 
-## Infrastructure asymmetry
+## [[Infrastructure]] asymmetry
 
 | Factor | US | [[China]] |
 |--------|-----|-------|
-| **Chips** | Abundant (Blackwell) | Constrained (H200 only) |
-| **Power** | Constrained (44GW gap) | Abundant (429GW added 2024) |
-| **Power cost** | Market rates | Cut-price (subsidized) |
-| **Permitting** | Years of red tape | State-directed, fast |
-| **Data** | Open internet | Censored but state-curated |
+| Chips | Abundant ([[Blackwell]]) | Constrained ([[H200]] only) |
+| Power | Constrained (44GW gap) | Abundant (429GW added 2024) |
+| Power cost | Market rates | Cut-price (subsidized) |
+| Permitting | Years of red tape | State-directed, fast |
+| Data | Open internet | Censored but state-curated |
 
-**The trade-off:**
+The trade-off:
 - US: Best chips, can't power them
 - [[China]]: Unlimited power, can't get best chips
 
@@ -92,28 +109,28 @@ See [[China power advantage]], [[Power constraints]], [[Export controls]].
 
 ## Policy responses
 
-**US (Trump AI Action Plan, July 2025):**
+US (Trump AI [[Action]] Plan, July 2025):
 - Cut red tape for data centers
 - New energy sources for AI
 - Open source as "geostrategic value"
 - Threaten funds from states with burdensome AI rules
 
-**Trump:** "The US will do whatever it takes to lead the world in artificial intelligence."
+Trump: "The US will do whatever it takes to lead the world in artificial intelligence."
 
-**[[China]]:**
+[[China]]:
 - AI classes in elementary schools
 - Provincial subsidies for AI startups
 - Cut-price power for AI operations
 - Surveillance deployment allowed
 - Content censorship required
 
-**Xi Jinping:** "AI should not be a game of rich countries."
+[[Xi Jinping]]: "AI should not be a game of rich countries."
 
 ---
 
 ## Open source strategy
 
-**[[China]]'s approach:** Sacrifice short-term profits for global adoption.
+[[China]]'s approach: Sacrifice short-term profits for global adoption.
 
 | US model | [[China]] model |
 |----------|-------------|
@@ -121,7 +138,7 @@ See [[China power advantage]], [[Power constraints]], [[Export controls]].
 | $100s/month subscriptions | Free to use/adapt |
 | Maximize revenue | Maximize adoption |
 
-**OpenAI pivot (Aug 2025):** Released pair of open models after DeepSeek R1 shock.
+OpenAI pivot (Aug 2025): Released pair of open models after DeepSeek R1 shock.
 
 > "If [[China]]'s developers have unfettered access to data and American companies are left without fair use access, the race for AI is effectively over." — OpenAI
 
@@ -129,14 +146,14 @@ See [[China power advantage]], [[Power constraints]], [[Export controls]].
 
 ## The players
 
-**US:**
+US:
 - [[OpenAI]] — [[ChatGPT]], o1/o3 reasoning
 - [[Google]] — [[Gemini]], TPUs
 - [[Anthropic]] — [[Claude]]
-- [[xAI]] — [[Grok]], Colossus
+- [[xAI]] — [[Grok]], [[Colossus]]
 - [[Meta]] — [[Llama]] (open)
 
-**[[China]]:**
+[[China]]:
 - [[DeepSeek]] — R1, efficiency leader
 - [[Alibaba]] — [[Qwen]]
 - [[ByteDance]] — [[Doubao]]
@@ -148,30 +165,30 @@ See [[China power advantage]], [[Power constraints]], [[Export controls]].
 
 ## [[China]] chip market (2025)
 
-**STAR 50 vs CSI 300 (Bloomberg):**
+STAR 50 vs CSI 300 ([[Bloomberg]]):
 
 | Index | 2025 YTD | Peak (Oct) |
 |-------|----------|------------|
-| STAR 50 (chip-focused) | **+30%** | +55% |
+| STAR 50 (chip-focused) | +30% | +55% |
 | CSI 300 (benchmark) | +15% | +20% |
 
 Chip sector 2x outperformance reflects policy premium + IPO wave.
 
-**IPO frenzy (Jan 2026):**
+IPO frenzy (Jan 2026):
 
 | Company | Debut gain | Exchange |
 |---------|------------|----------|
-| [[MetaX]] | **+693%** | Shanghai |
-| [[Moore Threads]] | **+425%** | Shanghai |
+| [[MetaX]] | +693% | Shanghai |
+| [[Moore Threads]] | +425% | Shanghai |
 | [[Biren Tech]] | $600M raise | HK (pending) |
 
-**[[Barclays]] (Jan 2026):** "It wouldn't surprise me if in 2026 or 2027 we have a **DeepSeek moment for chips** where a low-cost competitive chip is being produced by [[China]]."
+[[Barclays]] (Jan 2026): "It wouldn't surprise me if in 2026 or 2027 we have a DeepSeek moment for chips where a low-cost competitive chip is being produced by [[China]]."
 
 ---
 
 ## Investment implications
 
-**Not a binary outcome.** Both ecosystems will thrive in different ways:
+Not a binary outcome. Both ecosystems will thrive in different ways:
 
 | US advantage | [[China]] advantage |
 |--------------|-----------------|
@@ -180,7 +197,7 @@ Chip sector 2x outperformance reflects policy premium + IPO wave.
 | Chip quality | Chip quantity (power) |
 | Global cloud platforms | Domestic + SEA markets |
 
-**Watch for:**
+Watch for:
 - DeepSeek R2 (Feb 2026) — could narrow gap further
 - US immigration policy changes
 - Power infrastructure buildout (both sides)
@@ -192,7 +209,7 @@ Chip sector 2x outperformance reflects policy premium + IPO wave.
 
 ## Bessent on the gap (April 14, 2026)
 
-At the WSJ CEO Council, [[Scott Bessent]] pushed back on assessments (the interviewer cited a Stanford-style annual AI report) that the US lead has evaporated. His framing:
+At the WSJ CEO Council, [[Scott Bessent]] pushed back on assessments (the interviewer cited a [[Stanford]]-style annual AI report) that the US lead has evaporated. His framing:
 
 | Metric | Bessent claim |
 |---|---|
@@ -201,18 +218,37 @@ At the WSJ CEO Council, [[Scott Bessent]] pushed back on assessments (the interv
 | US compute share (historical) | "We were in the 30s" |
 | US compute share (current) | "Now I think we're in the 50s" |
 | US compute share (projected) | 70-80% of global compute in "a few years" |
-| TSMC dependence | "90% of the high value chips are still made on the island of [[Taiwan]]" |
-| CHIPS Act under Biden | "No money went out the door. Nothing was created" |
+| [[TSMC]] dependence | "90% of the high value chips are still made on the island of [[Taiwan]]" |
+| [[CHIPS Act]] under Biden | "No money went out the door. Nothing was created" |
 
 On the Arizona fab buildout: "Big facilities being built in Arizona… but it's a big ecosystem. The Taiwanese have the history but they really have the ecosystem — this surfeit of technicians with master's degrees in chip technology just because they've been there so long."
 
 This is the first senior administration source to explicitly endorse [[Claude Mythos|Mythos]] as the compounding-lead exemplar — a notable reference given the [[Project Glasswing]] controlled rollout and the Mythos cybersecurity-risk framing within the administration.
 
-*Source: WSJ Opinion, Paul Gigot interview, 2026-04-14*
+*Source: WSJ Opinion, [[Paul Gigot]] interview, 2026-04-14*
 
 ---
 
-*Updated 2026-04-15*
+## Guardrails talks move onto summit agenda (May 7, 2026)
+
+WSJ-reported deliberations on May 7 indicate [[United States|Washington]] and [[China|Beijing]] are weighing official bilateral discussions on AI, with AI potentially added to the next Trump-Xi summit agenda in [[Beijing]]. The frame is not cooperative industrial policy; it is crisis management. The reported concern is that frontier-model competition could become a digital-era arms race where military, cyber, and economic shocks occur faster than either side's institutions can interpret.
+
+For the AI race note, the significance is that the policy layer is catching up with the capability layer:
+
+| Layer | Why it matters |
+|-------|----------------|
+| [[Frontier models]] | US lead remains tied to [[OpenAI]], [[Anthropic]], [[Google]], [[xAI]], and compute access |
+| Export controls | Any guardrails conversation becomes entangled with chips, cloud access, and model-weight movement |
+| Cyber / defense | AI tools are dual-use by default; [[Project Glasswing]] / [[Claude Mythos]] already put frontier cyber into the financial-stability perimeter |
+| Crisis management | Shared norms may matter before formal treaties because model-driven incidents can look like state action |
+
+The watch item is whether the talks produce technical working groups or stay at communique level. A working group would be the first real AI analogue to nuclear/cyber hotlines: not trust, but friction management between two systems that assume rivalry as baseline.
+
+*Source: WSJ-reported summary via Let's Data Science, "U.S., China Weigh Bilateral AI Guardrails Talks," May 7, 2026.*
+
+---
+
+*Updated [[2026-04-15]]*
 
 ---
 

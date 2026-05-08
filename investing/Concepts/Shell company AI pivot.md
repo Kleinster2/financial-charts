@@ -59,3 +59,4 @@ Shell company AI pivot — a public entity whose operating business has failed (
 - [[SPAC]] — legacy of broken listings available for reuse
 - [[Allbirds]] — primary case study
 - [[NewBird AI]] — post-pivot identity of Allbirds
+- [[Sponsored reverse merger pipeline]] — adjacent mechanic; uses *fresh* underwritten shells rather than already-broken ones; canonical 2025–2026 case at [[Dominari Holdings]] / [[American Ventures]]

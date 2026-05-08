@@ -150,6 +150,16 @@ A US-Ukraine drone technology transfer arrangement has been under discussion at 
 
 ---
 
+## Guardian-2 Interceptor — first USAF purchase order (late Apr 2026)
+
+In late April 2026, approximately seven weeks after the [[Aureus Greenway Holdings|AGH]] reverse merger announcement, Powerus disclosed the first U.S. Air Force purchase order for its **Guardian-2 Interceptor** counter-drone system. Per the company release, the Guardian-2 is a low-cost, semi-autonomous, high-speed counter-drone interceptor platform purpose-built for deployment in the **Middle East to defend against Shahed-type attack drones**. The procurement order followed a USAF demonstration of the platform.
+
+The deal landed inside the federal-policy-alignment window the [[Sponsored reverse merger pipeline]] concept note documents: an operating company secures a federal procurement event within weeks of the merger announcement that brings it onto Nasdaq. Powerus is the second pipeline case (after [[XTEND]] / IMOD on Apr 21, 2026) to fit this pattern; [[Cove Kaz Capital]] / Skyline received concurrent EXIM + DFC letters of interest the same day as the merger announcement (Apr 30, 2026).
+
+The Middle East / anti-Shahed framing matches the operational lessons of the [[Iran conflict oil price timeline|2026 Iran conflict]] and the broader U.S. interest in counter-drone capability for protecting forward-deployed forces. Pricing on the initial USAF order has not been disclosed.
+
+---
+
 ## Skepticism
 
 - **10,000 drones/month** would exceed the entire US industry's current combined output (~8,300/month across all manufacturers). $9M doesn't build factories at that scale.
@@ -166,7 +176,12 @@ A US-Ukraine drone technology transfer arrangement has been under discussion at 
 ### Investors
 - [[Unusual Machines]] — Trump Jr. shareholder/adviser; investor in AGH placement; drone components supplier
 - [[Dominari Securities]] — financial adviser; Trump brothers hold ~6% each
+- [[Dominari Holdings]] — public parent (Nasdaq: DOMH)
+- [[American Ventures]] — SPV operator (Series XVI AGH — largest AV SPV per FT chart)
+- [[Donald Trump Jr.]], [[Eric Trump]] — anchor LPs in Series XVI AGH
+- [[Sponsored reverse merger pipeline]] — concept note for the pipeline mechanic
 - [[KCGI]] — $50M strategic investment
+- [[Aureus Greenway Holdings]] — listed shell (AGH); future ticker PUSA
 
 ### Competitors / peers
 - [[Anduril]] — defense tech unicorn; autonomous systems

@@ -130,7 +130,7 @@ The accounting question: Are 5-6 year depreciation schedules overly optimistic?
 [[Michael Burry]] (of *Big Short* fame) estimates hyperscalers understating depreciation by $176B through 2028.
 
 Industry defense:
-- OpenAI CFO Sarah Friar: "confident GPUs useful for at least 5 years"
+- OpenAI CFO [[Sarah Friar]]: "confident GPUs useful for at least 5 years"
 - OpenAI still using Ampere chips (released 2020) for inference
 - [[NVIDIA]] CFO [[Colette Kress]] (Nov 2025): useful life "getting longer," still selling Hopper (2022)
 - CoreWeave CEO: "every data point is telling a different story" — Ampere fully booked
@@ -169,6 +169,20 @@ Scale of projects:
 - O'Leary Alberta: 17GW [[Canada]]
 
 Many lack hyperscaler anchor tenants — speculative buildout risk.
+
+### Core Scientific: secured notes meet power pipeline (May 2026)
+
+[[Core Scientific]]'s Q1 2026 release is a clean current example of the crypto-to-AI financing pattern. The company closed a $3.3B offering of 7.75% senior secured notes due 2031, expanded its gross power capacity pipeline to 4.5 GW, and bought Hunt County, [[Texas]] land/power for ~$233M to support ~430 MW of gross power capacity on an approved [[ERCOT]] interconnection ramp.
+
+| Metric | Q1 2026 datapoint | Financing-risk read |
+|--------|-------------------|---------------------|
+| Debt raise | $3.3B senior secured notes at 7.75% | Converts AI hosting thesis into fixed-coupon obligations |
+| Pipeline | 4.5 GW gross power capacity | Strategic option value, but not yet contracted revenue |
+| Billable capacity | 243 MW | ~$350M annualized colocation [[GAAP]] revenue base |
+| Capex | $389.2M, with $129.9M funded by [[CoreWeave]] | Customer-funded buildout reduces but does not remove execution risk |
+| Liquidity | $1.04B | Buys time to convert power sites into contracts |
+
+This is not the most fragile version of the AI buildout, because Core Scientific has an anchor customer in [[CoreWeave]] and real power assets. But it is still reflexive: the debt is underwritten against future AI colocation demand, while the revenue base is still catching up to the power pipeline. If hyperscaler/neocloud demand slows, the asset-heavy advantage becomes interest-expense drag.
 
 ---
 

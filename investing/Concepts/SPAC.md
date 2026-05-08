@@ -220,6 +220,8 @@ SPACs appear throughout the vault as a funding mechanism, usually in cautionary 
 - [[Joby Aviation]] — eVTOL, SPAC-listed
 - [[Micromobility]] — sector where SPACs funded multiple failures
 - [[Fintech boom (2020-2021)]] — parallel bubble, similar timing and drivers
+- [[Sponsored reverse merger pipeline]] — adjacent listing mechanic without blank-check trust; canonical 2025–2026 case at [[Dominari Holdings]] / [[American Ventures]]
+- [[Shell company AI pivot]] — adjacent mechanic; uses already-broken shells
 
 ---
 

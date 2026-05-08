@@ -19,7 +19,7 @@ The conflict has triggered a [[Fertilizer|fertiliser]] supply crisis experts say
 *Daily fertiliser transits through the [[Strait of Hormuz]] by country of origin. Source: [[Kpler]] / FT (as of Mar 13, 2026). Exports collapsed from ~100-200 units/day pre-conflict to near zero by Mar 10.*
 
 ![[ft-nitrogen-fertiliser-trade-flows-lseg.png]]
-*Nitrogen fertiliser trade flows (megatonnes). Gulf countries export 12.5M mt — largest single source. South Asia (8.3M mt) and EU+UK (13.5M mt) are the biggest importers. Source: LSEG / FT.*
+*[[Nitrogen]] fertiliser trade flows (megatonnes). Gulf countries export 12.5M mt — largest single source. South [[Asia]] (8.3M mt) and [[EU]]+UK (13.5M mt) are the biggest importers. Source: [[LSEG]] / FT.*
 
 ### Scale of disruption
 
@@ -28,9 +28,9 @@ The conflict has triggered a [[Fertilizer|fertiliser]] supply crisis experts say
 | Urea normally loaded for export (2 weeks) | ~2.1M tonnes | FT |
 | Urea disrupted | ~50% (~1.05M tonnes) | FT |
 | Fertiliser stuck in Gulf (loading/on ships) | >1.1M tonnes (incl. 570K urea) | [[Kpler]] |
-| Global urea exports transiting Hormuz | ~1/3 | CRU |
-| Global sulphur exports transiting Hormuz | ~45% | CRU |
-| Urea price increase since conflict | >40% | CRU |
+| Global urea exports transiting Hormuz | ~1/3 | [[CRU]] |
+| Global sulphur exports transiting Hormuz | ~45% | [[CRU]] |
+| Urea price increase since conflict | >40% | [[CRU]] |
 | Global urea market | 196M mt/year (57M mt traded internationally) | FT |
 
 ### Production shutdowns
@@ -42,7 +42,7 @@ The conflict has triggered a [[Fertilizer|fertiliser]] supply crisis experts say
 | [[Pakistan]] | Agritech Limited halted urea production | LNG import-dependent; Qatar supplies near-100% |
 | [[Bangladesh]] | Multiple plants halted | Qatar accounts for ~2/3 of LNG imports |
 
-### South Asia LNG dependency — the transmission mechanism
+### South [[Asia]] LNG dependency — the transmission mechanism
 
 The link from Hormuz closure to food production runs through [[LNG]]. South Asian countries import Gulf gas to make [[Ammonia|ammonia]], which becomes [[urea]], which feeds rice paddies. Cut the gas, kill the fertiliser, threaten the harvest.
 
@@ -52,13 +52,13 @@ The link from Hormuz closure to food production runs through [[LNG]]. South Asia
 | [[Bangladesh]] | ~2/3 | Plants halted |
 | [[India]] | >40% | Ordered 30% gas cut across 32 ammonia plants |
 
-Chris Lawson (CRU, Mar 14): situation could escalate — producers can only operate while they have storage for unsold cargoes. Long disruptions force more shutdowns, potentially permanent. Restarting ammonia/urea plants takes weeks (temperature/pressure control).
+Chris Lawson ([[CRU]], Mar 14): situation could escalate — producers can only operate while they have storage for unsold cargoes. Long disruptions force more shutdowns, potentially permanent. Restarting ammonia/urea plants takes weeks (temperature/pressure control).
 
 Veronica Nigh ([[The Fertilizer Institute]], Mar 14): *"If the disruption continues, this will be much worse than 2022."*
 
 Alvaro Lario ([[IFAD]]/UN, Mar 14): *"Even a temporary spike in fertiliser prices can leave lasting scars on global food production."*
 
-Alzbeta Klein ([[IFA]], Mar 14): regions with smallholder/subsistence farmers — particularly Africa and South Asia — disproportionately exposed.
+Alzbeta Klein ([[IFA]], Mar 14): regions with smallholder/subsistence farmers — particularly [[Africa]] and South [[Asia]] — disproportionately exposed.
 
 Raj Patel (LBJ School of Public Affairs): higher fuel and power costs push up food prices before fertiliser shortages even affect harvests — through transport, processing, and cooking costs.
 
@@ -69,7 +69,7 @@ Raj Patel (LBJ School of Public Affairs): higher fuel and power costs push up fo
 | Initial shock | Ukrainian grain (Black Sea) | Multiple inputs simultaneously |
 | Fertiliser impact | Secondary (energy costs) | Primary (production + transit shut) |
 | Timing | Mid-season | Start of planting season |
-| Scope | Potash (Russia/Belarus) + gas costs | Nitrogen (urea) + sulphur (phosphate input) + gas |
+| Scope | [[Potash]] (Russia/[[Belarus]]) + gas costs | [[Nitrogen]] (urea) + sulphur (phosphate input) + gas |
 | Duration risk | Sanctions — predictable | Military — unpredictable |
 
 ---
@@ -96,16 +96,16 @@ Pressure cascading to ports far from the Gulf:
 | Port | Exposure | Detail |
 |------|----------|--------|
 | [[Singapore]] | Already congested from US tariffs + China rerouting | Wait time 6.5 days to dock (up from 2.9 day YTD avg) — [[Flexport]] data |
-| [[Tanjung Pelepas]] (Malaysia) | Major transshipment hub | Expected to absorb rerouted Gulf cargo |
-| [[Colombo]] (Sri Lanka) | Major transshipment hub | Expected to absorb rerouted Gulf cargo |
-| [[Tangier]] (Morocco) | Med gateway | Expected to absorb rerouted Gulf cargo |
-| [[Algeciras]] (Spain) | Med gateway | Expected to absorb rerouted Gulf cargo |
+| [[Tanjung Pelepas]] ([[Malaysia]]) | Major transshipment hub | Expected to absorb rerouted Gulf cargo |
+| [[Colombo]] ([[Sri Lanka]]) | Major transshipment hub | Expected to absorb rerouted Gulf cargo |
+| [[Tangier]] ([[Morocco]]) | Med gateway | Expected to absorb rerouted Gulf cargo |
+| [[Algeciras]] ([[Spain]]) | Med gateway | Expected to absorb rerouted Gulf cargo |
 
 As containers build up, efficiency drops at these ports — "ripple effects throughout the system" (Sand).
 
 ### Car carriers
 
-~15 car carriers stranded, 20 more waiting outside or en route. [[Lasse Kristoffersen]] ([[Wallenius Wilhelmsen]] CEO, Mar 5): ports that can manage additional automotive cargo *"will be well outside the region and could even be in east Asia."*
+~15 car carriers stranded, 20 more waiting outside or en route. [[Lasse Kristoffersen]] ([[Wallenius Wilhelmsen]] CEO, Mar 5): ports that can manage additional automotive cargo *"will be well outside the region and could even be in east [[Asia]]."*
 
 ### Air cargo grounded
 
@@ -117,14 +117,14 @@ As containers build up, efficiency drops at these ports — "ripple effects thro
 
 [[Rolf Habben Jansen]] ([[Hapag-Lloyd]] CEO, Mar 5): *"Everyone's looking for space now. We believe that we are securing a fair bit of space and once that is done we will advise customers on how we will handle the cargo."*
 
-Israel warned Wednesday (Mar 5) it expected the war to continue for "several long weeks."
+[[Israel]] warned Wednesday (Mar 5) it expected the war to continue for "several long weeks."
 
 ### Week 3 — "wild west" (March 18)
 
 *Source: FT, Alice Hancock, March 18, 2026*
 
 ![[ft-container-rates-gulf-shanghai-mar2026.png]]
-*Container freight rates: Shanghai–N.Europe vs Shanghai–Persian Gulf (Dubai). Gulf rates spiked to ~$3,300/TEU from ~$900 in late 2025, while Europe-bound rates rose modestly to ~$1,618. Source: [[Clarksons Research]], Shanghai Shipping Index / FT.*
+*Container freight rates: Shanghai–N.[[Europe]] vs Shanghai–[[Persian Gulf]] (Dubai). Gulf rates spiked to ~$3,300/TEU from ~$900 in late 2025, while [[Europe]]-bound rates rose modestly to ~$1,618. Source: [[Clarksons Research]], Shanghai [[Shipping]] Index / FT.*
 
 By Week 3, all four major carriers ([[MSC]], [[Maersk]], [[CMA CGM]], [[Hapag-Lloyd]]) have told customers they reserve the right to invoke the 19th-century maritime rule to leave containers at the nearest available port at the client's expense — [[MSC]]'s $800 deviation fee from Week 1 now industry standard.
 
@@ -133,12 +133,12 @@ By Week 3, all four major carriers ([[MSC]], [[Maersk]], [[CMA CGM]], [[Hapag-Ll
 | Route | Pre-conflict | Current | Change |
 |-------|-------------|---------|--------|
 | UK → [[Jebel Ali]] (household goods, TEU) | ~$1,500 | ~$6,000 | ~4x |
-| Shanghai → N.Europe (TEU) | ~$1,457 | $1,618 | +11% |
-| Shanghai → Persian Gulf/Dubai (TEU) | ~$900 | ~$3,300+ | ~3.5x |
+| Shanghai → N.[[Europe]] (TEU) | ~$1,457 | $1,618 | +11% |
+| Shanghai → [[Persian Gulf]]/Dubai (TEU) | ~$900 | ~$3,300+ | ~3.5x |
 
-Craig Reilly (Dubai Arabian Shipping Agency, Mar 18): additional land transport, storage costs, port charges, and import fees mean *"unplanned additional cost can readily reach the low four-figure range per container above the original quotation."*
+Craig Reilly (Dubai Arabian [[Shipping]] Agency, Mar 18): additional land transport, storage costs, port charges, and import fees mean *"unplanned additional cost can readily reach the low four-figure range per container above the original quotation."*
 
-Gulf-bound rates have soared ~4x while Shanghai–Europe rose only 11% — the dispersion tells you the market is pricing a regional shutdown, not a systemic crisis. Rates remain "well down" from Covid-era peaks of ~$8,000/TEU ([[Clarksons Research]]).
+Gulf-bound rates have soared ~4x while Shanghai–[[Europe]] rose only 11% — the dispersion tells you the market is pricing a regional shutdown, not a systemic crisis. Rates remain "well down" from Covid-era peaks of ~$8,000/TEU ([[Clarksons Research]]).
 
 ### Containers dumped at alternative ports
 
@@ -185,28 +185,28 @@ Halal meat supply chain disrupted — four livestock carriers heading for [[Jedd
 
 [[China]]'s transport ministry summoned [[Maersk]] and [[MSC]] executives to complain about freight charge hikes and service suspensions. State planner ([[NDRC]]) also held talks. China exported >$30B in goods to the Middle East in Jan-Feb 2026 alone. ME exports growing at ~2x the rate of China's rest-of-world exports — the region has become strategically important as Western trade tensions escalate.
 
-[[Maersk]] emergency fees: $1,800/TEU (20ft), $3,000/TEU (40ft) for existing bookings and in-transit cargo. [[MSC]] added emergency fuel surcharges + temporarily raised Asia–Europe and Africa rates.
+[[Maersk]] emergency fees: $1,800/TEU (20ft), $3,000/TEU (40ft) for existing bookings and in-transit cargo. [[MSC]] added emergency fuel surcharges + temporarily raised [[Asia]]–[[Europe]] and [[Africa]] rates.
 
-Precedent: Beijing hauled in shipping companies during Covid when container rates spiked similarly. The pattern reveals China's dual exposure — as the world's largest exporter, it is simultaneously the biggest beneficiary and biggest victim of the carrier oligopoly's pricing power.
+Precedent: [[Beijing]] hauled in shipping companies during Covid when container rates spiked similarly. The pattern reveals China's dual exposure — as the world's largest exporter, it is simultaneously the biggest beneficiary and biggest victim of the carrier oligopoly's pricing power.
 
 ### Investment read
 
-Container shipping is a distinct disruption channel from tankers/crude. The dispersion matters: Gulf-bound rates ~4x vs Europe-bound +11% confirms this is a regional logistics crisis, not yet a global supply chain repeat of 2020-21. But the "whack-a-mole" dynamic — Gulf congestion → rerouting to India/Oman/Saudi Red Sea → port congestion there → cascading delays globally — is already materializing: Singapore wait times doubled by Week 1, 13% of air cargo grounded, and de Bok's recovery math (1 week disruption = 4 weeks recovery) implies months of tail effects. The carrier oligopoly structure (top 4 = ~59% market share) means pricing power flows one way. Watch for: whether container rate inflation spreads from Gulf-specific routes to Asia-Europe and transpacific benchmarks. If it does, this becomes a macro-relevant inflation input.
+Container shipping is a distinct disruption channel from tankers/crude. The dispersion matters: Gulf-bound rates ~4x vs [[Europe]]-bound +11% confirms this is a regional logistics crisis, not yet a global supply chain repeat of 2020-21. But the "whack-a-mole" dynamic — Gulf congestion → rerouting to India/Oman/Saudi Red Sea → port congestion there → cascading delays globally — is already materializing: Singapore wait times doubled by Week 1, 13% of air cargo grounded, and de Bok's recovery math (1 week disruption = 4 weeks recovery) implies months of tail effects. The carrier oligopoly structure (top 4 = ~59% market share) means pricing power flows one way. Watch for: whether container rate inflation spreads from Gulf-specific routes to [[Asia]]-[[Europe]] and transpacific benchmarks. If it does, this becomes a macro-relevant inflation input.
 
 ---
 
-## Consumer and industrial ripple — global survey (Bloomberg, March 15)
+## [[Consumer]] and industrial ripple — global survey ([[Bloomberg]], March 15)
 
-*Source: Bloomberg, Alisha Sachdev, Nicholas Lua, Will Kubzansky, March 15, 2026*
+*Source: [[Bloomberg]], Alisha Sachdev, Nicholas Lua, Will Kubzansky, March 15, 2026*
 
 ![[bloomberg-oil-spending-household-share-2026.png]]
-*Oil spending for road fuel and residential buildings as share of household consumption — $65/bbl vs $100/bbl. [[Indonesia]] most exposed (~4% at $65, ~6% at $100), followed by [[Vietnam]] and [[India]]. Developed economies ([[UK]], [[France]], US) under 2%. Source: Bloomberg Economics / BloombergNEF (2024 data), World Bank/OECD.*
+*[[Oil]] spending for road fuel and residential buildings as share of household consumption — $65/bbl vs $100/bbl. [[Indonesia]] most exposed (~4% at $65, ~6% at $100), followed by [[Vietnam]] and [[India]]. Developed economies ([[UK]], [[France]], US) under 2%. Source: [[Bloomberg]] Economics / [[BloombergNEF]] (2024 data), World Bank/[[OECD]].*
 
 ![[bloomberg-gulf-oil-exports-treemap-vortexa-2025.png]]
-*Persian Gulf oil product exports by destination (2025, >1B barrels to Asia alone). [[India]] and [[China]] together import most of the LPG. [[Naphtha]] (plastics feedstock) concentrated in [[South Korea]], [[Japan]], [[Singapore]]. Source: Bloomberg / [[Vortexa]].*
+*[[Persian Gulf]] oil product exports by destination (2025, >1B barrels to [[Asia]] alone). [[India]] and [[China]] together import most of the [[LPG]]. [[Naphtha]] (plastics feedstock) concentrated in [[South Korea]], [[Japan]], [[Singapore]]. Source: [[Bloomberg]] / [[Vortexa]].*
 
 ![[bloomberg-india-oil-supply-flow-iea-2023.png]]
-*[[India]]: crude oil imports 10.9M TJ, oil product imports 2M TJ. Heavily dependent on Persian Gulf — acute LPG shortage + short on crude for its export refinery complex ([[Reliance Industries|Jamnagar]]). Source: [[IEA]] (2023 data).*
+*[[India]]: crude oil imports 10.9M TJ, oil product imports 2M TJ. Heavily dependent on [[Persian Gulf]] — acute [[LPG]] shortage + short on crude for its export refinery complex ([[Reliance Industries|Jamnagar]]). Source: [[IEA]] (2023 data).*
 
 ![[bloomberg-brazil-oil-supply-flow-iea-2023.png]]
 *[[Brazil]]: an oil producer but still imports diesel and gasoline. Most goods move by road — higher fuel prices rapidly feed through to consumers. Source: [[IEA]] (2023 data).*
@@ -218,46 +218,46 @@ The [[IEA]] called the conflict *"the largest supply disruption in the history o
 
 ### Oxford Economics recession scenarios (March 13)
 
-| Scenario | Oil price | Duration | Growth impact | Inflation |
+| Scenario | [[Oil]] price | Duration | Growth impact | [[Inflation]] |
 |----------|-----------|----------|---------------|-----------|
-| Base case | ~$100/bbl | 2 months | Growth tarnished, no global recession | Stagflation risk — complicates central bank rate path |
+| Base case | ~$100/bbl | 2 months | Growth tarnished, no global recession | [[Stagflation]] risk — complicates central bank rate path |
 | Adverse | $140/bbl | 2 months | Parts of world pushed into recession, tighter financial conditions | "Enough disruption" — second-round effects push up costs across the board |
 
 The energy surge comes just as the world was pulling clear of years of crisis-fighting (Covid, Russia-Ukraine, worst inflation in 40 years, US tariff hikes). Government fiscal room is constrained: global borrowing hit a record $348T in 2025 ([[Institute of International Finance]]).
 
-### India LPG black market (Week 3)
+### India [[LPG]] black market (Week 3)
 
-Commercial LPG cylinders selling at 2-3x normal price (~₹1,900/$20) on the black market in New Delhi. [[India]] takes 90% of its LPG imports from the Middle East — US alternatives take 40+ days to arrive and cost more. 80% of the country's restaurants use LPG ([[National Restaurant Association of India]]). Most only have storage for a few days of cylinders.
+Commercial [[LPG]] cylinders selling at 2-3x normal price (~₹1,900/$20) on the black market in New Delhi. [[India]] takes 90% of its [[LPG]] imports from the Middle East — US alternatives take 40+ days to arrive and cost more. 80% of the country's restaurants use [[LPG]] ([[National Restaurant Association of India]]). Most only have storage for a few days of cylinders.
 
-Sree Annapoorna (15 banquet halls, Coimbatore, Tamil Nadu) — CEO Jegan Damodarasamy spent the week calling families to warn menus would be cut. March 15 is an auspicious Hindu wedding date; venues booked months in advance. Damodarasamy: *"There have been some very angry clients. They say, 'you committed, you could have planned'. But LPG is not in our control."* Chain serves tens of thousands daily; chefs without enough work, falling sales, dosa off the menu. *"We've been in business for about 58 years. This is the first time we've done that."*
+Sree Annapoorna (15 banquet halls, Coimbatore, Tamil Nadu) — CEO Jegan Damodarasamy spent the week calling families to warn menus would be cut. March 15 is an auspicious Hindu wedding date; venues booked months in advance. Damodarasamy: *"There have been some very angry clients. They say, 'you committed, you could have planned'. But [[LPG]] is not in our control."* Chain serves tens of thousands daily; chefs without enough work, falling sales, dosa off the menu. *"We've been in business for about 58 years. This is the first time we've done that."*
 
-LPG-laden trucks becoming targets for thieves. Heated arguments at energy dealerships spilling into scuffles. India has secured at least two cargoes through Hormuz since the acute shortages began — a fraction of consumption.
+[[LPG]]-laden trucks becoming targets for thieves. Heated arguments at energy dealerships spilling into scuffles. India has secured at least two cargoes through Hormuz since the acute shortages began — a fraction of consumption.
 
-Smugglers racing to exploit price differentials — [[Bangladesh]] considering rationing as LPG flows illicitly across borders.
+Smugglers racing to exploit price differentials — [[Bangladesh]] considering rationing as [[LPG]] flows illicitly across borders.
 
 ### US gasoline and diesel
 
-Average retail gasoline up >$0.70/gal since war started — highest in 2+ years. Diesel up $1.21/gal. Trucking companies exposed to historic wholesale volatility. Kate Childs (Tuxis-Ohr's Fuel, Connecticut): *"These swings are crazy. It's hard to know what's really going on."*
+Average retail gasoline up >$0.70/gal since war started — highest in 2+ years. [[Diesel]] up $1.21/gal. Trucking companies exposed to historic wholesale volatility. Kate Childs (Tuxis-Ohr's Fuel, Connecticut): *"These swings are crazy. It's hard to know what's really going on."*
 
-### EU aviation fuel
+### [[EU]] aviation fuel
 
-~50% of EU aviation fuel imports transit the [[Strait of Hormuz]]. Jet fuel spiked to record >$1,640/mt ($208/bbl) on March 13. Higher airfares already here. See [[Iran conflict airline disruption]].
+~50% of [[EU]] aviation fuel imports transit the [[Strait of Hormuz]]. [[Jet fuel]] spiked to record >$1,640/mt ($208/bbl) on March 13. Higher airfares already here. See [[Iran conflict airline disruption]].
 
-### Aluminium Bahrain smelter shutdown (March 16)
+### Aluminium [[Bahrain]] smelter shutdown (March 16)
 
-[[Aluminum|Aluminium]] Bahrain BSC (Alba) announced phased production shutdown at the world's largest single-site smelter on Sunday. Deepens disruption to the aluminum industry alongside the naphtha/petrochemical shutdowns — aluminum prices soaring.
+[[Aluminum|Aluminium]] [[Bahrain]] BSC (Alba) announced phased production shutdown at the world's largest single-site smelter on Sunday. Deepens disruption to the aluminum industry alongside the naphtha/petrochemical shutdowns — aluminum prices soaring.
 
 ### Brazil — fuel tax cuts and election pressure
 
 [[Brazil]] cut federal taxes on fuel imports and sales. The country imports 30% of its diesel and 13% of its gasoline; most goods move by road, so higher crude costs rapidly feed through to transport and food prices. President [[Lula]] faces elections in October 2026. Even as a major oil producer, [[Brazil]] is not insulated from global price shocks — the refinery configuration and product import dependency create a direct transmission channel.
 
-### Africa — refining gap exposure
+### [[Africa]] — refining gap exposure
 
-Africa contains half of [[OPEC]] members but lacks sufficient refining capacity to process oil domestically as demand grows. East and southern Africa import ~75% of fuel from Middle Eastern suppliers. [[Kenya]] monitoring deliveries. The refining gap means even oil-producing African nations face product shortages when seaborne trade is disrupted.
+[[Africa]] contains half of [[OPEC]] members but lacks sufficient refining capacity to process oil domestically as demand grows. East and southern [[Africa]] import ~75% of fuel from Middle Eastern suppliers. [[Kenya]] monitoring deliveries. The refining gap means even oil-producing African nations face product shortages when seaborne trade is disrupted.
 
 ### China — factory-level naphtha impact
 
-Chemical fibers (polyester, acrylic) rose >10% in just over a week. Toy manufacturer Lin Qian (factories in [[Vietnam]] and Shenzhen): plastic parts costs jumped as much as 50% in the first week of the war. Some suppliers refusing to provide cost estimates until orders are placed — citing volatile markets and a supply rush creating "traffic jams at factory gates." Current raw material inventories support ~2 weeks of existing orders. *"This is absolutely crazy. Plastic materials are food to feed our factories."*
+Chemical fibers (polyester, acrylic) rose >10% in just over a week. Toy manufacturer Lin Qian (factories in [[Vietnam]] and [[Shenzhen]]): plastic parts costs jumped as much as 50% in the first week of the war. Some suppliers refusing to provide cost estimates until orders are placed — citing volatile markets and a supply rush creating "traffic jams at factory gates." Current raw material inventories support ~2 weeks of existing orders. *"This is absolutely crazy. Plastic materials are food to feed our factories."*
 
 ### Indonesia — Eid al-Fitr timing
 
@@ -265,7 +265,7 @@ Disruption coincides with annual Lebaran festival marking end of Ramadan — >10
 
 ### Investment read
 
-Haris Khurshid (CIO, Karobaar Capital, Chicago): *"Higher fuel prices tend to ripple through the whole economy. It costs more to move goods, run factories and fly planes, and that usually shows up as higher prices for everyday items."* Politically, *"energy prices are very visible to voters — sustained spikes at the pump tend to become a domestic issue fairly quickly."*
+Haris Khurshid (CIO, Karobaar Capital, [[Chicago]]): *"Higher fuel prices tend to ripple through the whole economy. It costs more to move goods, run factories and fly planes, and that usually shows up as higher prices for everyday items."* Politically, *"energy prices are very visible to voters — sustained spikes at the pump tend to become a domestic issue fairly quickly."*
 
 The household spending chart quantifies the vulnerability dispersion: [[Indonesia]] at ~6% of household consumption (at $100 oil) vs [[UK]]/US at ~1.5%. The countries most exposed are the ones with the thinnest fiscal buffers to subsidize — the poor-country trap Nguyen identifies.
 
@@ -318,11 +318,11 @@ The pistachio story is the small-commodity tell on the larger cascade — the wa
 
 *Source: [[Nadia Martin Wiggen]], [[Stellen Capital]], Other People's Money / Monetary Matters Network, March 23, 2026.*
 
-### Asian refiners redirect to Atlantic basin
+### Asian refiners redirect to [[Atlantic basin]]
 
-By Thursday/Friday of the first week (March 6-7), refiners from [[Japan]], [[Thailand]], and [[South Korea]] were redirecting ships away from the Gulf — heading for the US Gulf Coast, West Africa ([[Ghana]]), and the North Sea. These are not spot buyers normally; they operate on term contracts for Gulf crude. The redirection represents a fundamental break in decades-old trade patterns.
+By Thursday/Friday of the first week (March 6-7), refiners from [[Japan]], [[Thailand]], and [[South Korea]] were redirecting ships away from the Gulf — heading for the US Gulf Coast, West [[Africa]] ([[Ghana]]), and the North Sea. These are not spot buyers normally; they operate on term contracts for Gulf crude. The redirection represents a fundamental break in decades-old trade patterns.
 
-Sailing times from USGC to Asia: ~30 days. From Europe/North Sea: ~20 days (vs a few days from the Gulf). Even from USGC, it is much shorter than waiting for the strait to reopen with no timeline.
+Sailing times from USGC to [[Asia]]: ~30 days. From [[Europe]]/North Sea: ~20 days (vs a few days from the Gulf). Even from USGC, it is much shorter than waiting for the strait to reopen with no timeline.
 
 ### Venezuelan crude — cheapest barrel in the world
 
@@ -330,27 +330,27 @@ Going into the crisis in January-February, the cheapest crude available globally
 
 ### China buying US crude
 
-[[China]] is purchasing US Gulf Coast barrels despite holding an estimated ~1.2B barrel strategic petroleum reserve. This signals Beijing views the disruption as long enough to justify diversifying sourcing rather than relying solely on drawdowns.
+[[China]] is purchasing US Gulf Coast barrels despite holding an estimated ~1.2B barrel strategic petroleum reserve. This signals [[Beijing]] views the disruption as long enough to justify diversifying sourcing rather than relying solely on drawdowns.
 
 ### Australia — 32 to 10 days of cover
 
-[[Australia]] entered the crisis with ~32 days of fuel cover. By week 2, that dropped to ~15 days. By week 3 (March 23), down to ~10 days. Australia is now the single most acute supply vulnerability among OECD countries.
+[[Australia]] entered the crisis with ~32 days of fuel cover. By week 2, that dropped to ~15 days. By week 3 (March 23), down to ~10 days. Australia is now the single most acute supply vulnerability among [[OECD]] countries.
 
 Australia bought 3 cargoes of [[Gasoline|gasoline]] from the US Gulf Coast last week — a completely abnormal trading pattern given the distance. What Australia needs most is refined products from [[Japan]], [[South Korea]], and [[China]]. But Japan's SPR is releasing more crude than products, South Korea has imposed a partial diesel export ban, and China banned refined product exports entirely.
 
 Australian gold mines have started shutting down due to diesel shortages — the mining complex is the transmission mechanism from energy to metals to broader economic disruption.
 
-### Shipping rate dynamics — counterintuitive pattern
+### [[Shipping]] rate dynamics — counterintuitive pattern
 
-Tanker rates initially surged (VLCCs, LNG carriers, LPG vessels) on the Hormuz disruption. Then rates fell — because there was no product to fill the ships. Once floating storage was exhausted and production was shut in, vessels sat empty. The rate drop then enabled Asian refiners to book cheaper ships for longer Atlantic basin voyages.
+Tanker rates initially surged (VLCCs, LNG carriers, [[LPG]] vessels) on the Hormuz disruption. Then rates fell — because there was no product to fill the ships. Once floating storage was exhausted and production was shut in, vessels sat empty. The rate drop then enabled Asian refiners to book cheaper ships for longer [[Atlantic basin]] voyages.
 
 ### Post-resolution port congestion risk
 
-Even if the strait reopens in May/June, the trade flow diversions create a delayed problem. Ships already rerouted to Europe, USGC, and West Africa will be arriving in Asia simultaneously with newly reopened Gulf flows. Wiggen draws a parallel to having "the war in [[Ukraine]] and COVID at the same time" — logistics backup from rerouting combined with a sudden supply surge could produce severe port congestion in Asia, spiking demurrage costs and shipping rates.
+Even if the strait reopens in May/June, the trade flow diversions create a delayed problem. Ships already rerouted to [[Europe]], USGC, and West [[Africa]] will be arriving in [[Asia]] simultaneously with newly reopened Gulf flows. Wiggen draws a parallel to having "the war in [[Ukraine]] and COVID at the same time" — logistics backup from rerouting combined with a sudden supply surge could produce severe port congestion in [[Asia]], spiking demurrage costs and shipping rates.
 
 ### Refinery maintenance timing compounds tightness
 
-By end of March, ~200K bpd of additional crude demand comes from refiners emerging from seasonal maintenance. Into April, another 600K bpd. This additional demand arrives at the worst possible time — crude stuck in the Middle East while refiners in Europe and Asia need to run.
+By end of March, ~200K bpd of additional crude demand comes from refiners emerging from seasonal maintenance. Into April, another 600K bpd. This additional demand arrives at the worst possible time — crude stuck in the Middle East while refiners in [[Europe]] and [[Asia]] need to run.
 
 ---
 
@@ -358,7 +358,7 @@ By end of March, ~200K bpd of additional crude demand comes from refiners emergi
 
 *Source: [[FT]], Edward White (Shanghai), April 11, 2026*
 
-Six weeks into the conflict, [[China]]'s supply chain system — widely credited as better-prepared than most economies in the opening weeks — is showing acute strain. In March, China recorded its first year-on-year increase in factory-gate prices ([[China PPI]]) since 2022. Beijing is now hoping the ceasefire holds beyond its initial two-week window so that oil and gas can resume flowing through the [[Strait of Hormuz]]. The FT ties the price breakout to the broader [[Fortress China]] thesis — Xi Jinping's years-long drive for economic self-sufficiency is being stress-tested in real time.
+Six weeks into the conflict, [[China]]'s supply chain system — widely credited as better-prepared than most economies in the opening weeks — is showing acute strain. In March, China recorded its first year-on-year increase in factory-gate prices ([[China PPI]]) since 2022. [[Beijing]] is now hoping the ceasefire holds beyond its initial two-week window so that oil and gas can resume flowing through the [[Strait of Hormuz]]. The FT ties the price breakout to the broader [[Fortress China]] thesis — Xi Jinping's years-long drive for economic self-sufficiency is being stress-tested in real time.
 
 ![[ft-china-petchem-helium-prices-iran-war-apr2026.png]]
 *Domestic market prices (Rmb per tonne) across 2025-2026 for [[Polyethylene|LLDPE]], [[Polypropylene|PP]], [[Methanol]], and [[Petroleum benzene]]. All four drifted lower through 2025, then spiked sharply after the Iran war began. Source: [[NBS|National Bureau of Statistics]], Wind / FT (April 11, 2026). NBS tracks prices across 300+ markets covering ~2,000 wholesalers, agents, and dealers.*
@@ -368,7 +368,7 @@ Six weeks into the conflict, [[China]]'s supply chain system — widely credited
 | Commodity | Middle East share of China imports |
 |-----------|-----------------------------------|
 | Crude oil | ~1/3 |
-| Natural gas (LNG) | ~25% |
+| [[Natural gas]] (LNG) | ~25% |
 | [[Methanol]], [[Polyethylene]], sulphur | Key source (share not disclosed by FT) |
 
 ### Commodity price moves since conflict start
@@ -377,7 +377,7 @@ Six weeks into the conflict, [[China]]'s supply chain system — widely credited
 |-----------|------|---------|-------------|
 | Some [[Polyethylene|polyethylenes]] (domestic) | ~2x (doubled) | Plastic bags, bottles, clothing, toys | [[Cameron Johnson]], [[Tidalwave Solutions]] |
 | Some [[Carbon fibre]] (domestic) | +20% | Auto, consumer goods | [[Cameron Johnson]], [[Tidalwave Solutions]] |
-| High-grade [[Helium]] (spot) | +110% since attacks | Semiconductors, medical | [[Trivium China]] |
+| High-grade [[Helium]] (spot) | +110% since attacks | [[Semiconductors]], medical | [[Trivium China]] |
 | Lower-grade liquid [[Helium]] | +65% YTD | Industrial | [[Trivium China]] |
 | Yiwu tent/camping-chair fabric | +20% | Export manufacturing | Zhu Yuelai (camping goods exporter) |
 
@@ -390,14 +390,14 @@ Six weeks into the conflict, [[China]]'s supply chain system — widely credited
 | Channel | Reported cost increase | Transmission |
 |---------|----------------------|--------------|
 | Logistics, transportation | Up to +25% | Energy-intensive services — fuel pass-through |
-| Aviation, shipping | Up to +25% | Jet fuel, bunker prices |
+| Aviation, shipping | Up to +25% | [[Jet fuel]], bunker prices |
 | Steel | Up to +25% | Coking coal, energy-intensive melt costs |
 
 Peng also flagged risk across high-end manufacturing dependent on imported [[Helium|industrial gases]] — particularly semiconductors and medical technology. His policy recommendation: release oil from China's strategic petroleum reserve in response to higher prices, not only to scarcity. Diversify oil supplies further. Severe pressure on smaller firms with no SOE buffer.
 
-### Beijing's export-ban escalation ladder
+### [[Beijing]]'s export-ban escalation ladder
 
-In the opening days of the war, Beijing implemented a de facto ban on exports of diesel, jet fuel, and some [[Fertilizer|fertiliser]] products to protect domestic supply. Analysts and diplomats cited by the FT warn a protracted conflict could trigger further bans on:
+In the opening days of the war, [[Beijing]] implemented a de facto ban on exports of diesel, jet fuel, and some [[Fertilizer|fertiliser]] products to protect domestic supply. Analysts and diplomats cited by the FT warn a protracted conflict could trigger further bans on:
 
 - Plastics (cf. [[Polyethylene]], [[Polypropylene]])
 - Fertiliser blends
@@ -430,15 +430,41 @@ China's state-dominated oil sector ([[PetroChina]], [[Sinopec]], [[CNOOC]]) has 
 
 Three layers stand out:
 
-1. The ceasefire window is short (initial two weeks). Beijing's supply buffers — strategic reserves, SOE absorption, export bans — assume the window holds.
+1. The ceasefire window is short (initial two weeks). [[Beijing]]'s supply buffers — strategic reserves, SOE absorption, export bans — assume the window holds.
 2. If it doesn't, the next-rung export bans (plastics, sulphuric acid, fertiliser blends) are on the table. That moves the crisis from China-as-victim to China-as-transmitter — a second-order cascade into European chemicals (cf. [[BASF]]) and global fertiliser.
 3. The structural response is electrification: solar + nuclear + coal as the self-sufficiency stack. Over multi-year horizons, that tightens Chinese domestic oil and gas demand, compounding problems for Gulf producers who rely on [[China]] as marginal buyer.
 
-Flip-side beneficiaries: Russian helium/petchem distributors, Chinese SOE oil refiners (short-term pain, multi-year buffer), domestic renewables/nuclear. Losers: smaller export manufacturers caught between fixed-price Western contracts and rising input costs; non-China manufacturers of anything downstream of the commodities on Beijing's next export-ban list.
+Flip-side beneficiaries: Russian helium/petchem distributors, Chinese SOE oil refiners (short-term pain, multi-year buffer), domestic renewables/nuclear. Losers: smaller export manufacturers caught between fixed-price Western contracts and rising input costs; non-China manufacturers of anything downstream of the commodities on [[Beijing]]'s next export-ban list.
 
 See [[Fortress China]] for the structural framework that Xi is defending.
 
 ---
+
+## [[Asia]] plastic shock — packaging scarcity moves downstream (FT, May 7)
+
+*Source: FT, "Plastic shock hits [[Asia]] as Iran oil crisis strangles supplies," May 7, 2026.*
+
+The May 7 FT report moves the naphtha thread from upstream petrochemical curtailment into downstream consumer packaging. The core transmission is now visible:
+
+[[Strait of Hormuz]] traffic disruption -> Middle East naphtha scarcity -> Asian cracker cuts -> plastic resin shortage -> food, beverage, cosmetics, medical supplies, and packaged consumer-goods bottlenecks.
+
+Key datapoints:
+
+| Channel | Data point | [[Signal]] |
+|---------|------------|--------|
+| [[Naphtha]] price | [[Asia]] naphtha almost doubled since war began | Feedstock squeeze now acute enough to drive packaging inflation |
+| [[Indonesia]] exposure | Imports almost all naphtha, mainly from the Middle East | Largest regional plastic-consumption stress point |
+| [[Japan]] exposure | 44% of naphtha and >90% of crude supply sourced from the Middle East | Naphtha scarcity stacks on crude-security exposure |
+| [[Chandra Asri]] | Temporary force majeure after naphtha sourcing difficulties | Indonesia's largest petrochemical producer confirms physical shortage |
+| [[Mitsubishi Chemical]] / [[Mitsui Chemicals]] | Ethylene output cuts | Japanese cracker run-rate discipline now active |
+| [[Formosa Plastics Group|Formosa Petrochemical]] | Force majeure | [[Taiwan]] joins the regional feedstock-curtailment map |
+| Japan ethylene operating rate | 68.6%, lowest on record per the Japan Petrochemical Industry Association | Food-wrapping and packaging stress, not just commodity-price stress |
+| Japanese foodmakers | 44% of 102 surveyed companies affected by plastic availability, prices, or delivery delays | Downstream consumer-goods pass-through has begun |
+| [[South Korea]] medical supplies | Syringe national stock 45.59M on Apr 29 vs 46.46M a week earlier | Panic buying + packaging shortage are entering healthcare inputs |
+
+[[Indonesia]] is the cleanest social-inflation read. Jakarta scrapped import duties on plastic-packaging inputs including polypropylene and high-density polyethylene to ease packaged-food and beverage inflation. The Indonesian Packaging Federation said food and beverages account for 60% of domestic plastic-packaging demand, while cosmetics, medical equipment, and pharmaceuticals are also exposed. One Jakarta plastics retailer reported daily sales down almost half to Rp3.5M ($201), with suppliers warning raw material could last only through the end of May.
+
+The investment read is that the Hormuz cascade has crossed from "industrial input shock" into *retail shelf availability*. That is the threshold at which a petrochemical feedstock becomes politically visible: food wrappers, instant noodles, IV bags, syringes, beverage bottles, and cosmetics packaging. It also separates the 2026 shock from a generic oil-price spike. A normal oil shock raises transport costs; this one removes the physical packaging layer required for Asian consumer goods to ship at all.
 
 ## Detroit auto OEMs — combined ~$5B commodity hit (FT, May 3)
 
@@ -451,9 +477,9 @@ The Big Three US carmakers ([[General Motors]], [[Ford]], [[Stellantis]]) flagge
 | OEM | 2026 commodity hit | Change vs prior guidance | Source |
 |-----|-------------------|--------------------------|--------|
 | [[General Motors]] | up to $2B | raised from up to $1.5B | Mary Barra (earnings presentation, late Apr 2026) |
-| [[Ford]] | up to $2B | +$1B YoY | Sherry House CFO |
+| [[Ford]] | up to $2B | +$1B YoY | [[Sherry House]] CFO |
 | [[Stellantis]] | ~€1B ($1.2B) projected for 2026 | mostly hedged in Q1 | Stellantis disclosure |
-| **Combined** | **~$5B** | — | FT aggregation |
+| **Combined** | ~$5B | — | FT aggregation |
 
 For comparison: the Q1 tariff hit on the same three names is ~$6B. The commodity shock is now of the same order of magnitude as the tariff shock — and the two stack on the same income statements.
 
@@ -464,7 +490,7 @@ For comparison: the Q1 tariff hit on the same three names is ~$6B. The commodity
 | [[Aluminum]] | +16% on [[London Metal Exchange|LME]] since Iran war outbreak | Body panels, engines, doors |
 | [[Aluminum]] passthrough | $500–$1,500/vehicle if hedges roll off (Gerrit Reepmeyer, [[AlixPartners]]) | Auto OEM cost per unit |
 | [[Naphtha]] / petrochemicals | Higher oil/gas → higher input cost | Plastics, paint, coatings, rubber tyres |
-| DRam memory chips | Auto-grade capacity reallocated | Memory firms shifting to AI data centre chips |
+| DRam memory chips | Auto-grade capacity reallocated | [[Memory]] firms shifting to AI data centre chips |
 
 [[Albert Waas]] ([[BCG]] automotive partner, May 3): *"I think we are past the point where I would say, it's just a glitch. Just a couple of weeks and it's back to normal and we just compensate for that cost."* Carmakers have been insulated through Q1 by fixed-price supplier contracts. If the conflict lasts another two months, more suppliers are expected to push for new terms — with higher prices flowing through ~6 months later.
 
@@ -473,10 +499,10 @@ For comparison: the Q1 tariff hit on the same three names is ~$6B. The commodity
 Aluminium is the single most exposed input — used widely in body panels, engines, and doors, and price-sensitive on the LME. The +16% LME aluminium move since the Iran war began is the cleanest single-commodity transmission of the conflict into the auto income statement.
 
 [[Ford]] is the most exposed because two prior shocks compounded:
-1. **Pre-war**: A pair of fires at a [[Novelis]] aluminium plant disrupted body-sheet supply for the F-Series pick-up.
-2. **Post-tariff + post-war**: Ford was forced to source aluminium from overseas, hitting both the 50% [[Section 232]] aluminium tariff and the LME spike — adding ~$1B to costs.
+1. Pre-war: A pair of fires at a [[Novelis]] aluminium plant disrupted body-sheet supply for the F-Series pick-up.
+2. Post-tariff + post-war: Ford was forced to source aluminium from overseas, hitting both the 50% [[Section 232]] aluminium tariff and the LME spike — adding ~$1B to costs.
 
-Sherry House (Ford CFO, Q1 2026 call): *"we were already seeing global industry shortages. Then you had the Middle East."* The Novelis incident is a rare case where a US producer outage — not a tariff or geopolitical event — directly forced reliance on tariffed imports, magnifying the pass-through.
+[[Sherry House]] (Ford CFO, Q1 2026 call): *"we were already seeing global industry shortages. Then you had the Middle East."* The Novelis incident is a rare case where a US producer outage — not a tariff or geopolitical event — directly forced reliance on tariffed imports, magnifying the pass-through.
 
 ### Mercedes-Benz parallel signal
 
@@ -509,10 +535,10 @@ The Q1 2026 earnings cycle is the first time the auto income statement carries s
 
 ## US polyethylene/ethylene boom — Hormuz beneficiary trade (March 19)
 
-*Source: Bloomberg, Christopher Charleston, March 19, 2026*
+*Source: [[Bloomberg]], Christopher Charleston, March 19, 2026*
 
 ![[bloomberg-ethylene-price-surge-mar2026.png]]
-*US Gulf Coast spot ethylene prices surging on Iran disruptions. Source: PolymerUpdate / Bloomberg.*
+*US Gulf Coast spot ethylene prices surging on Iran disruptions. Source: PolymerUpdate / [[Bloomberg]].*
 
 US producers of [[Polyethylene|polyethylene]] are loading up on [[Ethylene|ethylene]] feedstock as global supply tightens — a direct beneficiary of the Hormuz disruption. The dynamic is the inverse of the Asian/European crisis: Middle East petrochemical exports are blocked, Asian producers face outages and feedstock shortages, and North American producers are ramping to fill the gap.
 
@@ -520,9 +546,9 @@ US producers of [[Polyethylene|polyethylene]] are loading up on [[Ethylene|ethyl
 |--------|-------|--------|
 | US Gulf Coast spot ethylene (Mar 19) | 30.25 cents/lb | [[Enterprise Products]] Mont Belvieu hub |
 | Prior level (Monday, Mar 17) | ~27 cents/lb | Already a 1-year high |
-| Current vs. historical | Highest since Feb 2025 | Bloomberg |
+| Current vs. historical | Highest since Feb 2025 | [[Bloomberg]] |
 | North American PE producer operating rates | Climbing toward ~100% (from ~90%) | Harrison Jacoby, [[ICIS]] |
-| US ethane cracker utilization | Low 90% range (from ~85% pre-conflict) | Bloomberg |
+| US ethane cracker utilization | Low 90% range (from ~85% pre-conflict) | [[Bloomberg]] |
 | March contract price increase push | ~+10 cents/lb | [[ICIS]] |
 | North American share of global net PE exports | >40% | [[ICIS]] data |
 
@@ -548,11 +574,11 @@ Tehran was already heavily polluted before the war. Researchers including [[Neja
 
 ### Health exposure
 
-[[David González]] (UC Berkeley): expects *"acute impacts on respiratory health"* — young children and pregnant women especially vulnerable to the air pollutants from oil fires. With phone and internet communications in [[Iran]] cut since Feb 28 and no environmental sampling possible, the scale of pollution exposure is unknown.
+[[David González]] ([[UC Berkeley]]): expects *"acute impacts on respiratory health"* — young children and pregnant women especially vulnerable to the air pollutants from oil fires. With phone and internet communications in [[Iran]] cut since Feb 28 and no environmental sampling possible, the scale of pollution exposure is unknown.
 
 ### Gulf War parallel
 
-[[Nejat Rahmanian|Rahmanian]] compared the black rain to a similar event he experienced in Tehran 35 years ago — Iraqi forces set hundreds of Kuwait oil wells ablaze during the 1991 Gulf War, and plumes of soot, hydrocarbons, and sulfur dioxide blew ~1,290 km to Iran. A 2018 study (Jiamao Zhou, Chinese Academy of Sciences) found those plumes accelerated Himalayan glacier melting. The current strikes released pollutants far closer to Tehran, with proportionally greater impact on the metro population.
+[[Nejat Rahmanian|Rahmanian]] compared the black rain to a similar event he experienced in Tehran 35 years ago — Iraqi forces set hundreds of [[Kuwait]] oil wells ablaze during the 1991 Gulf War, and plumes of soot, hydrocarbons, and sulfur dioxide blew ~1,290 km to Iran. A 2018 study (Jiamao Zhou, Chinese Academy of Sciences) found those plumes accelerated Himalayan glacier melting. The current strikes released pollutants far closer to Tehran, with proportionally greater impact on the metro population.
 
 ### Investment-relevant implications
 
@@ -563,7 +589,7 @@ Tehran was already heavily polluted before the war. Researchers including [[Neja
 | Health system burden | Acute respiratory illness in 18.5M population; chronic exposure effects (kidney, liver, nervous system) over years |
 | Regional infrastructure risk | Researchers watching for further attacks on the region's refineries, depots, marine platforms, nuclear sites, and desalination plants |
 
-*Source: Bloomberg, March 14, 2026 (Laura Millan, Aaron Clark). Corrected March 14.*
+*Source: [[Bloomberg]], March 14, 2026 (Laura Millan, Aaron Clark). Corrected March 14.*
 
 ---
 
@@ -594,4 +620,4 @@ Tehran was already heavily polluted before the war. Researchers including [[Neja
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-05-04 (Detroit auto OEM section, FT).*
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-05-04 (Detroit auto OEM section, FT). Updated [[2026-05-07]] ([[Asia]] plastic shock, FT).*

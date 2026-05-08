@@ -10,14 +10,14 @@
 
 | Factor | Status |
 |--------|--------|
-| **Strategic value** | [[TSMC]] = 90% advanced chips |
-| **US commitment** | Ambiguous (Taiwan Relations Act) |
-| **[[China]] timeline** | Xi wants "reunification" — 2027-2035 window |
-| **Deterrence** | US arms sales, carrier groups |
+| Strategic value | [[TSMC]] = 90% advanced chips |
+| US commitment | Ambiguous (Taiwan Relations Act) |
+| [[China]] timeline | Xi wants "reunification" — 2027-2035 window |
+| Deterrence | US arms sales, carrier groups |
 
-**Why it matters:** Taiwan controls global semiconductor supply. A blockade or invasion would be the largest economic shock since WWII.
+Why it matters: Taiwan controls global semiconductor supply. A blockade or invasion would be the largest economic shock since WWII.
 
-**Scenarios:**
+Scenarios:
 
 | Scenario | Probability | Impact |
 |----------|-------------|--------|
@@ -30,20 +30,26 @@
 
 | Factor | Status |
 |--------|--------|
-| **[[China]] claim** | Nine-dash line (rejected by UNCLOS) |
-| **Militarization** | Artificial islands with runways, missiles |
-| **US response** | Freedom of navigation ops (FONOPs) |
-| **Friction** | Philippines, Vietnam, Malaysia |
+| [[China]] claim | Nine-dash line (rejected by [[UNCLOS]]) |
+| Militarization | Artificial islands with runways, missiles |
+| US response | Freedom of navigation ops (FONOPs) |
+| Friction | [[Philippines]], [[Vietnam]], [[Malaysia]] |
 
-**[[Trade]] exposure:** ~$3.4T in annual trade transits SCS.
+[[Trade]] exposure: ~$3.4T in annual trade transits SCS.
 
 ### Other flashpoints
 
 | Flashpoint | Risk level | Notes |
 |------------|------------|-------|
-| **Korea** | Medium | [[China]] backs North Korea |
-| **[[India]] border** | Low-medium | Himalayan standoffs |
-| **Pacific islands** | Low | Influence competition |
+| Korea | Medium | [[China]] backs [[North Korea]] |
+| [[India]] border | Low-medium | Himalayan standoffs |
+| Pacific islands | Low | Influence competition |
+
+### AI escalation channel (May 2026)
+
+WSJ-reported May 7 deliberations put AI guardrails onto the US-China security map. The issue is not only economic competition in [[US-China AI race]]; it is crisis attribution. [[Frontier models]] can generate cyber operations, autonomous analysis, influence campaigns, and military decision-support artifacts at speeds that compress escalation windows. A model-driven incident could be misread as deliberate state action unless both sides build channels for attribution, notification, and red-line signaling.
+
+The practical security read: bilateral AI talks would not mean strategic trust. They would mean both sides recognize that AI competition has become a military/cyber flashpoint adjacent to Taiwan, [[South China Sea]], and export controls.
 
 ---
 
@@ -58,7 +64,7 @@
 | Total ships | ~290 | ~370 (world's largest) |
 | Shipbuilding | Limited capacity | Massive capacity |
 
-**Trend:** [[China]] building faster. US advantage is experience, allies, global reach.
+Trend: [[China]] building faster. US advantage is experience, allies, global reach.
 
 ### Missiles
 
@@ -85,7 +91,7 @@
 | US | ~$886B | ~3.5% |
 | [[China]] | ~$230B (official) | ~1.5% |
 
-**Note:** [[China]]'s real spending likely 2-3x official figure. PPP-adjusted gap is smaller.
+Note: [[China]]'s real spending likely 2-3x official figure. [[PPP]]-adjusted gap is smaller.
 
 ---
 
@@ -93,13 +99,13 @@
 
 | Alliance | Members | Relevance |
 |----------|---------|-----------|
-| **AUKUS** | US, [[UK]], [[Australia]] | Nuclear subs, tech sharing |
-| **Quad** | US, [[Japan]], [[India]], [[Australia]] | Indo-Pacific coordination |
-| **Five Eyes** | US, [[UK]], [[Canada]], [[Australia]], NZ | Intelligence |
-| **US-Japan** | Bilateral | Most capable ally (see [[China-Japan relations]]) |
-| **US-Philippines** | Bilateral | SCS frontline |
+| AUKUS | US, [[UK]], [[Australia]] | Nuclear subs, tech sharing |
+| Quad | US, [[Japan]], [[India]], [[Australia]] | Indo-Pacific coordination |
+| Five Eyes | US, [[UK]], [[Canada]], [[Australia]], NZ | Intelligence |
+| US-Japan | Bilateral | Most capable ally (see [[China-Japan relations]]) |
+| US-[[Philippines]] | Bilateral | SCS frontline |
 
-**[[China]] weakness:** No formal alliances ([[Russia]] is "no limits" partnership, not treaty).
+[[China]] weakness: No formal alliances ([[Russia]] is "no limits" partnership, not treaty).
 
 ---
 
@@ -137,9 +143,9 @@
 
 | Role | US | [[China]] |
 |------|-----|-------|
-| Military | Pentagon, INDOPACOM | PLA (Xi is CMC chair) |
+| Military | [[Pentagon]], INDOPACOM | PLA (Xi is CMC chair) |
 | Policy | NSC, State | CMC, Politburo |
-| Defense industry | LMT, NOC, RTX, BA | AVIC, CSIC, [[Norinco]] |
+| Defense industry | LMT, NOC, RTX, BA | [[AVIC]], CSIC, [[Norinco]] |
 
 ---
 
@@ -167,7 +173,8 @@
 - [[Lockheed Martin]], [[Northrop Grumman]], [[RTX]] — defense primes
 - [[AUKUS]] — alliance structure
 - [[Export controls]] — dual-use technology
+- [[US-China AI race]] — AI capability and policy competition
 
 ---
 
-*Updated 2026-01-10*
+*Updated [[2026-05-07]]*

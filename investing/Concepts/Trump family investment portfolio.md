@@ -19,7 +19,12 @@ The [[Donald Trump|Trump]] family is systematically building a commercial portfo
 | **Defense/Drones** | [[Powerus]] | Eric, Don Jr. | Drone roll-up; AGH reverse merger (PUSA); $9M placement + $50M KCGI; targeting Pentagon Drone Dominance |
 | **Defense/Drones** | [[XTEND]] | Eric Trump | $152M PIPE, Israeli "low cost-per-kill" drones, $1.5B Nasdaq merger |
 | **Defense/Drones** | [[Unusual Machines]] | Don Jr. | Shareholder & advisory board member; drone components (UMAC); Pentagon motor contracts |
-| **Defense/Drones** | Aureus Greenway Holdings (AGH) | Eric, Don Jr. | Golf club operator merging with unnamed Pentagon drone company (announced Mar 10, 2026); [[Dominari Securities]] + Revere Securities advising |
+| **Defense/Drones** | [[Aureus Greenway Holdings]] (AGH) | Eric, Don Jr. | Golf club operator merging with [[Powerus]] (announced Mar 9, 2026); [[Dominari Securities]] + [[Revere Securities]] advising; future ticker PUSA |
+| **Critical minerals** | [[Cove Kaz Capital]] via [[Skyline Builders]] (SKBL) | Eric, Don Jr. | Kazakh tungsten developer (largest known undeveloped resource); [[Tau-Ken Samruk]] 30% JV partner; merger announced Apr 30, 2026; $900M [[EXIM Bank]] + $700M [[DFC]] letters of interest = $1.6bn |
+| **Crypto / data center** | [[Dogehash Technologies]] / [[Thumzup Media]] | Eric, Don Jr. | Meme-coin shell + marketing co. merger; rebranded post-merger as data-center company |
+| **Crypto / Bitcoin** | [[Hemi]] / [[Hemispheres Foundation]] | Eric, Don Jr. (via American Ventures) | Bitcoin programmability project (Jeff Garzik); [[Dominari Securities]] partnership for digital-asset treasury & ETF platform (Oct 2025) |
+| **AI education** | [[Genius Group]] | Eric, Don Jr. (via American Ventures) | Singapore AI-education company; American Ventures investment (Apr 2026) |
+| **Crypto lending** | [[Jewel Bancorp]] | Eric, Don Jr. (via American Ventures) | Bermuda-based crypto lender; American Ventures investment |
 | **PE / Gulf capital** | [[Affinity Partners]] | Jared Kushner | ~$5B AUM; $2B PIF anchor; $1.5B QIA/Lunate; "first look" rights with PIF; EA $52.5B LBO; Gaza "Board of Peace" |
 | **AI/VC** | [[1789 Capital]] | Trump's son (partner) | Pro-Trump VC, declined [[Anthropic]] on ideological grounds |
 | **Real estate** | Trump Organization | Family | Pre-existing, ongoing |
@@ -89,6 +94,28 @@ A new dynamic: investment decisions driven by political alignment rather than pu
 
 ---
 
+## The American Ventures SPV map (May 2026)
+
+[[American Ventures]] — the 90%-owned SPV factory under [[Dominari Holdings]] — managed $1.04 billion across 21 series-numbered special-purpose vehicles as of early April 2026 SEC filings. The vehicles route Trump-family + family-office capital into reverse-merger recapitalizations of small-cap shells and adjacent direct investments. The structural mechanic is documented in [[Sponsored reverse merger pipeline]].
+
+![[dominari-american-ventures-spv-bubble-2026-05-08.png]]
+*American Ventures' 21 SPVs sized by AUM, colored by sector. Mining (pink, dominated by the [[Skyline Builders]] / [[Cove Kaz Capital]] tungsten deal across Series XIX SKBL + Series XXXII SKBL II), AI robotics (green, the [[JFB Construction Holdings]] / [[XTEND]] vehicle), and drone systems (blue, AGH for [[Aureus Greenway Holdings]] / [[Powerus]]) dominate. Source: [Financial Times](https://www.ft.com/content/d73183b6-d610-4caa-949d-186cbd59c970), George Steer, May 8, 2026.*
+
+| SPV (per FT chart) | Sector | Counterparty deal |
+|--------------------|--------|-------------------|
+| Series XVI AGH | Drone systems (largest SPV) | [[Aureus Greenway Holdings]] → [[Powerus]] |
+| Series XIV JFB | AI robotics | [[JFB Construction Holdings]] → [[XTEND]] |
+| Series XIX SKBL | Mining (tungsten) | [[Skyline Builders]] → [[Cove Kaz Capital]] |
+| Series XXXII SKBL II | Mining (tungsten follow-on) | Cove Kaz follow-on |
+| Series XXIV XWELL | Healthcare | [[XWELL]] |
+| Series XLI KAZ | Mining | Cove Kaz adjacent |
+| Series VII USDAE | Unknown | — |
+| Series XLVI DTCX | Unknown | — |
+| (small) | Nuclear energy | Undisclosed startup |
+| (small) | Logistics, crypto, additional healthcare | — |
+
+The investor framing, per a person familiar with American Ventures: *"American Ventures pivots towards where the puck is going... We have great vehicles that can go in any direction. We're not trying to rebuild the steel industry. That's fucking dead."* Anchor LPs are Eric Trump and Don Jr in most SPVs, with "Republican types affiliated with them" rounding out each vehicle with ~$500K typical checks (per FT source).
+
 ## The drone quartet (Feb-Mar 2026)
 
 Four drone investments in two months, each through a different structure:
@@ -109,7 +136,15 @@ Four drone investments in two months, each through a different structure:
 ## Related
 
 - [[Donald Trump]] — president, portfolio controller
-- [[Eric Trump]] — [[XTEND]] + [[Powerus]] investor
+- [[Donald Trump Jr.]] — Dominari ~6.28%; American Ventures anchor LP; Unusual Machines + 1789 Capital
+- [[Eric Trump]] — [[XTEND]] + [[Powerus]] investor; Dominari ~6.28%; American Ventures anchor LP
+- [[Sponsored reverse merger pipeline]] — concept note for the structural mechanic
+- [[Dominari Holdings]] / [[Dominari Securities]] — pipeline operator
+- [[American Ventures]] — SPV factory (21 vehicles; $1.04bn AUM as of early Apr 2026)
+- [[Kyle Wool]] — Dominari Securities CEO
+- [[Cove Kaz Capital]] / [[Skyline Builders]] — Apr 2026 tungsten deal; $1.6bn EXIM/DFC LoIs
+- [[Tau-Ken Samruk]] — Kazakh state JV partner on Cove Kaz
+- [[Tungsten]] — sector concept
 - [[1789 Capital]] — ideological VC (Trump-aligned); $735M+ in admin contracts
 - [[Powerus]] — drone roll-up (PUSA, expected summer 2026)
 - [[XTEND]] — defense drones ($1.5B reverse merger)
@@ -125,4 +160,4 @@ Four drone investments in two months, each through a different structure:
 - [[Jared Kushner]] — son-in-law, Special Envoy + Affinity founder
 - [[Kushner Companies]] — family real estate (666 Fifth Ave)
 
-*Created 2026-02-18 · Updated 2026-03-29*
+*Created 2026-02-18 · Updated 2026-03-29 · Updated 2026-05-08 (FT bubble chart + American Ventures SPV map; Cove Kaz / Skyline tungsten deal; Hemi / Genius Group / Jewel Bancorp adjacent deals; Sponsored reverse merger pipeline concept note linked)*

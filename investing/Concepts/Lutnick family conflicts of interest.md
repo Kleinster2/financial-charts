@@ -51,5 +51,6 @@ Howard Lutnick and Cantor have denied specific wrongdoing, pointing to the forma
 - [[Moelis]], [[Jefferies]] — co-placement / broker counterparts in the two episodes
 - [[CHIPS Program Office]] — Commerce office that issued USAR LOI
 - [[Project Vault]] — parallel industrial-policy program
+- [[Sponsored reverse merger pipeline]] — structural parallel at [[Dominari Holdings]] / [[American Ventures]] for the [[Trump family investment portfolio|Trump]] cabinet wing of the second-term conflicts pattern
 
 *Sources: WIRED July 21, 2025 Cantor tariff-claims report; Semafor February 20, 2026 SCOTUS aftermath; CNBC February 26, 2026 senate letter reporting; Van Hollen press release February 26, 2026; Lofgren House Science letter March 19, 2026.*

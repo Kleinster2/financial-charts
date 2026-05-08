@@ -50,10 +50,14 @@ tags: [actor, defense, drones, israel, startup]
 - [[Eric Trump]] (son of President [[Donald Trump]])
 - [[Protego Ventures]] (led previous round)
 - [[Unusual Machines]]
-- American Ventures LLC
+- [[American Ventures]] (Series XIV JFB SPV — green AI-robotics bubble in the FT chart)
 - [[Aliya Capital]]
 
 JFB stock jumped **+14%** on announcement.
+
+### Israeli Ministry of Defense contract (Apr 21, 2026)
+
+[[XTEND]] secured a contract with the Israeli Ministry of Defense (IMOD) to supply drone systems and services. Contract value approximately **$1.67 million (NIS 5 million)**; delivery expected during 2026. The award landed approximately nine weeks after the JFB merger announcement and reinforces the [[Sponsored reverse merger pipeline]] pattern in which the operating company secures a defense procurement event within weeks of the merger announcement. XTEND has separately disclosed an $8.25M European defense drone contract.
 
 ---
 
@@ -77,7 +81,12 @@ The Eric Trump investment adds political access in the current administration �
 
 ## Related
 
-- [[JFB Construction Holdings]] — merger partner (Nasdaq: JFB)
+- [[JFB Construction Holdings]] — merger partner (Nasdaq: JFB); Series XIV JFB SPV
+- [[Sponsored reverse merger pipeline]] — concept note for the structural mechanic
+- [[Dominari Holdings]] / [[Dominari Securities]] — pipeline operator
+- [[American Ventures]] — SPV factory; PIPE co-investor
+- [[Donald Trump Jr.]] — anchor LP via American Ventures
+- [[Trump family investment portfolio]] — political-economic hub
 - [[Eric Trump]] — strategic investor
 - [[Donald Trump]] — political context
 - [[Israel]] — origin, combat-proven technology
