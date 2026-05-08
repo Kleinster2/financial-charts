@@ -153,7 +153,33 @@ Then summarize in chat:
 
 Do not echo the full report unless the user asks for it.
 
-## Phase 6 — Print (only on user request)
+## Phase 6 — Render audio (default)
+
+After saving the report and logging it in the daily note, automatically render the spoken-version MP3:
+
+```
+python scripts/audio_newsletter.py YYYY-MM-DD --type story
+```
+
+What it does: reads `investing/Reports/YYYY-MM-DD-story-report.md`, adapts it for spoken delivery (strips wikilink brackets and table rows; expands percent ranges, dollar magnitudes including spelled-out forms like `$80 million` and FT-style `$230bn`, dollar ranges, quarter and fiscal-year abbreviations, bps, MoU, σ; smooths em-dashes into comma-pauses), then writes `investing/Reports/YYYY-MM-DD-story-report.mp3` via the auto-fallback chain: **ElevenLabs primary** (voice `sarah`, model `eleven_multilingual_v2`) → **OpenAI fallback** (voice `nova`, model `gpt-4o-mini-tts`) on any provider failure. The Story map table is stripped from the audio (it's an index, not narrative); the cards themselves carry the content.
+
+Open the MP3 in the user's default player after generation:
+
+```
+start "" "investing/Reports/YYYY-MM-DD-story-report.mp3"
+```
+
+If the report has a numbered suffix (e.g., `-2`, `-3`), use `--input` instead of `--type`:
+
+```
+python scripts/audio_newsletter.py --input investing/Reports/YYYY-MM-DD-story-report-2.md
+```
+
+**Length note:** story reports are typically 2-4× the length of newsletters (5-15 cards each with 80-150+ words of context), so audio runs ~15-25 min and consumes a larger share of any quota window. Use `--preview` for a sample test before the full render. ElevenLabs free tier (10K chars/month) is exhausted by a single full story report, after which the chain auto-falls-through to OpenAI without intervention. Use `--dry-run` to inspect the adapted text without an API call. Pin to one provider with `--provider {elevenlabs,openai}` to disable fallback. Override voice with `--voice` (ElevenLabs: sarah, adam, rachel, charlotte, george, brian; OpenAI: alloy, echo, fable, onyx, nova, shimmer, ash, sage, coral).
+
+If both providers fail, don't block the workflow — note the failure in chat and continue with print/save.
+
+## Phase 7 — Print (only on user request)
 
 When the user says "print", "send to print", "print it", etc., use the dedicated report-print script. Story reports auto-render in the same two-column layout as the newsletter (Georgia serif, 8.75pt, justified, column rule, visible gray wikilinks); the H1 and the `## Story map` table span both columns.
 

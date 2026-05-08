@@ -1,16 +1,21 @@
-"""Generate an audio version of a daily newsletter via TTS.
+"""Generate an audio version of a vault markdown artifact via TTS.
 
-Reads `investing/Newsletter/YYYY-MM-DD.md`, adapts the markdown for spoken
-delivery (strips wikilink brackets, expands abbreviations and figures into
-natural English), then renders to `investing/Newsletter/YYYY-MM-DD.mp3`.
+Renders newsletters and daily story reports to .mp3:
+- newsletter (default): `investing/Newsletter/YYYY-MM-DD.md` -> .mp3
+- story:               `investing/Reports/YYYY-MM-DD-story-report.md` -> .mp3
+- explicit path:       `--input path/to/file.md` -> sibling .mp3
 
-Default mode is auto-fallback: ElevenLabs primary (voice `sarah`) → OpenAI
+Adapts the markdown for spoken delivery (strips wikilink brackets, table rows,
+expands abbreviations and figures into natural English) before sending to TTS.
+
+Default mode is auto-fallback: ElevenLabs primary (voice `sarah`) -> OpenAI
 secondary (voice `nova`) if ElevenLabs fails (auth/quota/network/server).
 Pin to one provider with `--provider {elevenlabs,openai}` to disable fallback.
 
 Usage:
     python scripts/audio_newsletter.py 2026-05-07
-    python scripts/audio_newsletter.py 2026-05-07 --voice adam
+    python scripts/audio_newsletter.py 2026-05-07 --type story
+    python scripts/audio_newsletter.py --input investing/Reports/2026-05-07-story-report-2.md
     python scripts/audio_newsletter.py 2026-05-07 --preview     # first chunk only
     python scripts/audio_newsletter.py 2026-05-07 --dry-run     # show adapted text, no API call
     python scripts/audio_newsletter.py 2026-05-07 --provider openai --voice onyx
@@ -34,6 +39,20 @@ if sys.platform == "win32":
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 NEWSLETTER_DIR = REPO_ROOT / "investing" / "Newsletter"
+REPORTS_DIR = REPO_ROOT / "investing" / "Reports"
+
+
+def resolve_input_path(date: str | None, source_type: str, input_override: Path | None) -> Path:
+    """Resolve the markdown source path from CLI arguments."""
+    if input_override:
+        return input_override
+    if not date:
+        raise ValueError("Provide either a date (positional) or --input PATH")
+    if source_type == "newsletter":
+        return NEWSLETTER_DIR / f"{date}.md"
+    if source_type == "story":
+        return REPORTS_DIR / f"{date}-story-report.md"
+    raise ValueError(f"Unknown --type {source_type!r}")
 
 # OpenAI TTS voices — all work well for English narration. Default = nova
 # (clear, warm female, good prosody for analytical content).
@@ -116,6 +135,10 @@ def adapt_for_speech(md: str) -> str:
     # Bullets: "- foo" -> "foo" (TTS narrates as a list naturally)
     text = re.sub(r"^\s*[-*]\s+", "", text, flags=re.MULTILINE)
 
+    # Markdown tables: any line starting with | reads aloud as noise
+    # (separator rows like |---|---| and content rows alike). Strip them.
+    text = re.sub(r"^\s*\|.*$", "", text, flags=re.MULTILINE)
+
     # Numeric / abbreviation expansions for cleaner speech.
     # Order matters - apply more-specific patterns first.
     expansions = [
@@ -124,10 +147,11 @@ def adapt_for_speech(md: str) -> str:
         (r"\+(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*%", r"up \1 to \2 percent"),
         (r"-(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*%", r"down \1 to \2 percent"),
         (r"(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*%", r"\1 to \2 percent"),
-        # Dollar ranges with magnitude: $2.45-2.95B, $775-800M, $7.71-7.87B
-        (r"~?\$(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*[Tt](?=\b|\s|$)", r"\1 to \2 trillion dollars"),
-        (r"~?\$(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*[Bb](?=\b|\s|$)", r"\1 to \2 billion dollars"),
-        (r"~?\$(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*[Mm](?=\b|\s|$)", r"\1 to \2 million dollars"),
+        # Dollar ranges with magnitude (letter / two-letter abbrev / word):
+        # $2.45-2.95B, $775-800 million, $25-30bn
+        (r"~?\$(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)(?:\s*[Tt](?=\b|\s|$)|\s*tn\b|\s+trillion\b)", r"\1 to \2 trillion dollars"),
+        (r"~?\$(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)(?:\s*[Bb](?=\b|\s|$)|\s*bn\b|\s+billion\b)", r"\1 to \2 billion dollars"),
+        (r"~?\$(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)(?:\s*[Mm](?=\b|\s|$)|\s*mn\b|\s+million\b)", r"\1 to \2 million dollars"),
         # Dollar range with no magnitude: $6.85-7.00 -> "6.85 to 7.00 dollars"
         (r"~?\$(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)", r"\1 to \2 dollars"),
 
@@ -140,11 +164,12 @@ def adapt_for_speech(md: str) -> str:
         (r"(\d+(?:\.\d+)?)\s*%", r"\1 percent"),
 
         # --- SINGLE DOLLARS ---
-        # Magnitude suffixes: $22B, $117.7M, $416M, $1.5T, $5K
-        (r"~?\$(\d+(?:\.\d+)?)\s*[Tt](?=\b|\s|$)", r"\1 trillion dollars"),
-        (r"~?\$(\d+(?:\.\d+)?)\s*[Bb](?=\b|\s|$)", r"\1 billion dollars"),
-        (r"~?\$(\d+(?:\.\d+)?)\s*[Mm](?=\b|\s|$)", r"\1 million dollars"),
-        (r"~?\$(\d+(?:\.\d+)?)\s*[Kk](?=\b|\s|$)", r"\1 thousand dollars"),
+        # Each magnitude rule covers letter ($22B), two-letter abbrev ($230bn),
+        # and full word ($12 million / $12 billion / $12 trillion).
+        (r"~?\$(\d+(?:\.\d+)?)(?:\s*[Tt](?=\b|\s|$)|\s*tn\b|\s+trillion\b)", r"\1 trillion dollars"),
+        (r"~?\$(\d+(?:\.\d+)?)(?:\s*[Bb](?=\b|\s|$)|\s*bn\b|\s+billion\b)", r"\1 billion dollars"),
+        (r"~?\$(\d+(?:\.\d+)?)(?:\s*[Mm](?=\b|\s|$)|\s*mn\b|\s+million\b)", r"\1 million dollars"),
+        (r"~?\$(\d+(?:\.\d+)?)(?:\s*[Kk](?=\b|\s|$)|\s+thousand\b)", r"\1 thousand dollars"),
         # Plain dollar figures: $26 -> "26 dollars", $1,200 -> "1,200 dollars"
         (r"~?\$(\d+(?:,\d{3})*(?:\.\d+)?)", r"\1 dollars"),
 
@@ -326,7 +351,26 @@ def attempt_provider(provider: str, chunks: list[str], voice_override: str | Non
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    parser.add_argument("date", help="Newsletter date (YYYY-MM-DD)")
+    parser.add_argument(
+        "date",
+        nargs="?",
+        help="Date YYYY-MM-DD (combined with --type to resolve the source path)",
+    )
+    parser.add_argument(
+        "--type",
+        choices=["newsletter", "story"],
+        default="newsletter",
+        help=(
+            "Source type. 'newsletter' (default) reads investing/Newsletter/<date>.md. "
+            "'story' reads investing/Reports/<date>-story-report.md."
+        ),
+    )
+    parser.add_argument(
+        "--input",
+        type=Path,
+        default=None,
+        help="Explicit input markdown path (overrides date + --type resolution).",
+    )
     parser.add_argument(
         "--provider",
         default="auto",
@@ -363,13 +407,17 @@ def main() -> int:
     parser.add_argument(
         "--out",
         type=Path,
-        help="Override output path. Default: investing/Newsletter/<date>.mp3",
+        help="Override output path. Default: sibling .mp3 next to the input.",
     )
     args = parser.parse_args()
 
-    md_path = NEWSLETTER_DIR / f"{args.date}.md"
+    try:
+        md_path = resolve_input_path(args.date, args.type, args.input)
+    except ValueError as e:
+        print(f"error: {e}", file=sys.stderr)
+        return 1
     if not md_path.exists():
-        print(f"error: newsletter not found at {md_path}", file=sys.stderr)
+        print(f"error: source not found at {md_path}", file=sys.stderr)
         return 1
 
     md = md_path.read_text(encoding="utf-8")
@@ -421,7 +469,7 @@ def main() -> int:
     if audio_bytes is None:
         return 3
 
-    out_path = args.out or NEWSLETTER_DIR / f"{args.date}.mp3"
+    out_path = args.out or md_path.with_suffix(".mp3")
     if args.preview:
         out_path = out_path.with_name(out_path.stem + "-preview" + out_path.suffix)
     out_path.parent.mkdir(parents=True, exist_ok=True)
