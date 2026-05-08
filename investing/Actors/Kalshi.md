@@ -1,6 +1,6 @@
 #actor #fintech #private
 
-**Kalshi** — First federally regulated [[prediction markets|prediction market]] in the US. CFTC-licensed Designated Contract Market (DCM) since 2020. Founded by [[Tarek Mansour]] and [[Luana Lopes Lara]]. $22B valuation (Mar 2026, [[Coatue Management]]-led Series F). ~$1.5B annualized revenue.
+[[Kalshi]] — First federally regulated [[prediction markets|prediction market]] in the US. CFTC-licensed Designated Contract Market (DCM) since 2020. Founded by [[Tarek Mansour]] and [[Luana Lopes Lara]]. $22B valuation (May 7, 2026, [[Coatue Management]]-led Series F — doubled from $11B Series E in five months). ~$1.5B annualized revenue.
 
 ---
 
@@ -58,9 +58,37 @@ Lopes Lara: former professional ballet dancer (Bolshoi-affiliated academy in Bra
 | Series D | Oct 2025 | $300M | $5B | — |
 | Series E | Dec 2025 | $1B | $11B | Paradigm |
 | Series E (add-on) | Feb 2026 | Undisclosed | $11B | [[Tradeweb]] |
-| Series F | Mar 2026 | $1B+ | $22B | [[Coatue Management]] |
+| Series F | May 7, 2026 | $1B | $22B | [[Coatue Management]] (lead); [[Sequoia Capital]], [[Andreessen Horowitz]], [[IVP]], [[Paradigm]], [[Morgan Stanley]], [[ARK Invest]] |
 
-**Key investors:** [[Sequoia Capital]], [[Paradigm]], [[Andreessen Horowitz]], CapitalG ([[Google]]), [[Charles Schwab]] (individual, large shareholder), [[Henry Kravis]], [[Tradeweb]] (strategic, Feb 2026), [[Coatue Management]] (Series F lead, Mar 2026)
+Key investors: [[Sequoia Capital]], [[Paradigm]], [[Andreessen Horowitz]], CapitalG ([[Google]]), [[Charles Schwab]] (individual, large shareholder), [[Henry Kravis]], [[Tradeweb]] (strategic, Feb 2026), [[Coatue Management]] (Series F lead, May 2026), [[IVP]], [[Morgan Stanley]], [[ARK Invest]] (all new in Series F).
+
+### Series F detail (May 7, 2026)
+
+The May 7 Series F doubled Kalshi's valuation in five months (Dec 2025 Series E at $11B → May 2026 Series F at $22B). Round mechanics:
+
+| Metric | Value |
+|--------|-------|
+| Lead | [[Coatue Management]] |
+| New strategic participants | [[Morgan Stanley]] (first major Wall Street bank), [[ARK Invest]] (first public-fund-style investor) |
+| Returning investors | [[Sequoia Capital]], [[Andreessen Horowitz]], [[IVP]], [[Paradigm]] |
+| Use of proceeds | Hedge fund / asset manager / prop trading / insurance company adoption; block trading capability scale-out; upcoming risk products; broker integrations |
+
+The accompanying disclosed metrics — paired with the round announcement — are the structural read:
+
+| Metric | Value | Period |
+|--------|-------|--------|
+| Annualized trading volume | $52B → $178B | 6 months (~3.4x) |
+| Institutional trading volume growth | +800% | 6 months |
+| US prediction market share | 90%+ | current |
+| Global prediction market share | majority | current |
+
+The $52B → $178B annualized-volume growth is the single most diagnostic figure. At 3.4x growth in six months on already-large absolute base, this is no longer a category-emergence story — it's a category-dominance story. The 800% institutional volume growth is the second key data point, separating Kalshi from [[Polymarket]] (offshore, retail-dominated) on the customer-mix dimension that determines moat depth.
+
+The [[Morgan Stanley]] participation matters strategically — it is the first major Wall Street bank in the cap table. Combined with the [[Tradeweb]] strategic participation in Feb 2026 and the [[Charles Schwab]]-individual stake, the Wall Street institutional adoption that the prior round prospectus had positioned as a forward thesis is now visibly executing.
+
+For the broader [[2026 IPO pipeline]] thread, Kalshi at $22B private valuation is now structurally larger than today's [[HawkEye 360]] IPO debut ($3.15B) and the [[Chime]] post-IPO market cap ($7.4B). If Kalshi files for IPO in 2026-2027, it would be the largest fintech IPO of the cycle — bigger than [[Klarna]] / [[StubHub]] / any 2025 cohort name. The doubling-in-five-months valuation pace makes that an active possibility rather than a hypothetical.
+
+*Sources: [Kalshi blog — Kalshi Raises $1 Billion at $22B Valuation](https://news.kalshi.com/p/kalshi-raises-1-billion-22-billion-valuation-institutional-demand-surges), May 7 2026; [Bloomberg — Kalshi Secures $22B Valuation in Coatue-Led Round](https://www.bloomberg.com/news/articles/2026-05-07/kalshi-secures-22-billion-valuation-in-coatue-led-round); [TechCrunch — Kalshi doubles valuation in 5 months](https://techcrunch.com/2026/05/07/kalshi-doubles-valuation-in-5-months-hitting-22-billion/); [PYMNTS — Kalshi Reaches $22B Valuation](https://www.pymnts.com/news/fintech-investments/2026/kalshi-reaches-22-billion-dollar-valuation-amid-increasing-institutional-demand/).*
 
 ---
 
