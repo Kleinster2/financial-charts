@@ -13,12 +13,12 @@ secondary (voice `nova`) if ElevenLabs fails (auth/quota/network/server).
 Pin to one provider with `--provider {elevenlabs,openai}` to disable fallback.
 
 Usage:
-    python scripts/audio_newsletter.py 2026-05-07
-    python scripts/audio_newsletter.py 2026-05-07 --type story
-    python scripts/audio_newsletter.py --input investing/Reports/2026-05-07-story-report-2.md
-    python scripts/audio_newsletter.py 2026-05-07 --preview     # first chunk only
-    python scripts/audio_newsletter.py 2026-05-07 --dry-run     # show adapted text, no API call
-    python scripts/audio_newsletter.py 2026-05-07 --provider openai --voice onyx
+    python scripts/audio_render.py 2026-05-07
+    python scripts/audio_render.py 2026-05-07 --type story
+    python scripts/audio_render.py --input investing/Reports/2026-05-07-story-report-2.md
+    python scripts/audio_render.py 2026-05-07 --preview     # first chunk only
+    python scripts/audio_render.py 2026-05-07 --dry-run     # show adapted text, no API call
+    python scripts/audio_render.py 2026-05-07 --provider openai --voice onyx
 
 API keys are read from environment or from `.env` at the repo root.
 """

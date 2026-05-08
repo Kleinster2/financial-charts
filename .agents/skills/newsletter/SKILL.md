@@ -105,7 +105,7 @@ Target 400-800 words total. Shorter is better if the day was quiet. Longer is fi
 3. **Render to audio (default).** After saving, automatically generate the MP3 audio version:
 
    ```
-   python scripts/audio_newsletter.py YYYY-MM-DD
+   python scripts/audio_render.py YYYY-MM-DD
    ```
 
    What it does: reads the saved markdown, adapts it for spoken delivery (strips wikilink brackets; expands percent ranges, dollar magnitudes, quarter and fiscal-year abbreviations, bps, MoU, σ; smooths em-dashes into comma-pauses), then renders to `investing/Newsletter/YYYY-MM-DD.mp3` via the auto-fallback chain: **ElevenLabs primary** (voice `sarah`, model `eleven_multilingual_v2`) → **OpenAI fallback** (voice `nova`, model `gpt-4o-mini-tts`) on any provider failure (auth, quota, network, server). Both keys live in `.env`. Newsletter is ~5-7 min listen at 8K chars / 3 chunks.
