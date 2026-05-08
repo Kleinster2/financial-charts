@@ -28,9 +28,10 @@ Before looking at any articles, check yesterday's/today's major stock movers aga
 
 4. If the script is unavailable or still stale, fall back to web search for biggest stock movers and cross-reference any name that moved **+/-8% or more** against vault actors.
 
-5. **Run the vault-ticker audit and IPO debut tracker in parallel** with the mover screen (these address the two failure modes that surfaced in May 2026):
-   - `python scripts/audit_vault_tickers.py --only-gaps` — catches actor notes that mention NYSE/NASDAQ tickers in the body but don't expose them in `aliases:` (Phase 0 invisible). [[Chime]] and [[HawkEye 360]] both had this gap on May 7.
-   - `python scripts/ipo_debut_tracker.py --tickers TICK1 TICK2 --scan-stale-private` — pass any candidate IPO tickers from the day's news scan + scan vault for #private notes whose body mentions a NYSE/NASDAQ ticker pattern (likely IPO'd, status stale).
+5. **Run the vault-ticker audit, IPO debut tracker, and private-capital watch in parallel** with the mover screen (these address the three failure modes that surfaced May 7, 2026):
+   - `python scripts/audit_vault_tickers.py --only-gaps` — catches actor notes that mention NYSE/NASDAQ tickers in the body but don't expose them in `aliases:` (Phase 0 invisible). [[Chime]] had this gap on May 7.
+   - `python scripts/ipo_debut_tracker.py --tickers TICK1 TICK2 --scan-stale-private` — pass any candidate IPO tickers from the day's news scan + scan vault for #private notes whose body mentions a NYSE/NASDAQ ticker pattern (likely IPO'd, status stale). [[HawkEye 360]] May 7 IPO would have surfaced via the --tickers HAWK input.
+   - `python scripts/ipo_debut_tracker.py --private-watch` — show last funding round + age for ~30 tracked pre-IPO actors (Kalshi, Anthropic, OpenAI, Stripe, SpaceX, xAI, Stripe, Cursor, etc.). Highlights rounds older than 120 days as candidates to web-search for fresh activity. [[Kalshi]] $22B Series F (May 7) was a private-capital miss — running --private-watch the morning of would have surfaced "Kalshi: last round Dec 2025 / 5 months stale -> verify."
 
 6. For every vault actor that had a major move:
    - Check if the actor note already covers the catalyst.
