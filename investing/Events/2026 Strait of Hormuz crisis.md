@@ -410,6 +410,55 @@ The May 4 escalation reset shipper risk perception by Tuesday morning. [[Helima 
 
 ---
 
+## May 6-7, 2026 — "Project Freedom" pause + 14-point MoU framework + Gulf airspace denials
+
+The four-day window resolved toward a tentative diplomatic track even as physical traversal stayed broken. The combined sequence — pause, MoU framework, airspace denial, tanker fire — is the cleanest pre-resolution configuration since [[Operation Epic Fury]] opened in late February, but the gap between paper diplomacy and physical normalization that defined the [[Helima Croft]] May 5 frame did not close.
+
+### "Project Freedom" pause and 14-point MoU framework (May 5-7)
+
+[[Trump]] announced a temporary pause in the [[United States|US]] military's "Project Freedom" operation to "guide" stranded ships through the [[Strait of Hormuz]] on May 5, citing the potential for a "complete and final agreement" with [[Iran]]. The operation — the operational descendant of the Apr 12 blockade and the May 4 fire-exchange phase — had guided only two American-flagged commercial vessels through the strait in roughly 48 hours before the pause. [[NBC News]] framed the pause as a recognition that the program was failing on its own terms: too few transits to materially relieve the supply gap, while every escalation cycle cost the US politically with Gulf partners.
+
+By May 6 evening Trump posted on [[Truth Social]] that *"Great Progress has been made toward a Complete and Final Agreement"* with Iran. The reported framework is a 14-point one-page memorandum of understanding pairing:
+
+- An [[Iran]] commitment to a moratorium on [[uranium enrichment]] (civil-use only language under [[IAEA]] monitoring, mirroring the Islamabad April 10-11 Iranian 10-point plan that broke the prior negotiation)
+- [[United States|US]] lifting of post-war sanctions
+- Mutual retreat from controls on ship transits through the [[Strait of Hormuz]] — the US ending the [[Iran conflict supply chain cascade|port blockade]], Iran ending the selective-transit regime
+- Postponement of the harder nuclear-program endpoint to a later track ("could take months" per Apr 28 [[Laura Davison]] / Bloomberg framing)
+
+[[Pakistan]] continues as the mediator (per [[Pakistan as US-Iran Mediator]]) — the proposal is the result of weeks of back-and-forth shuttle diplomacy out of [[Islamabad]]. Iranian officials emphasized that "any negotiation regarding the full reopening of the Strait of Hormuz requires the lifting of the naval blockade imposed by the [[United States|United States]]" — i.e., the swap structure is now formal, not implicit.
+
+[[Trump]] paired the diplomatic opening with a kinetic threat: Iran would face strikes "at a much higher level and intensity" if it does not "agree[] to give what has been agreed to." The push-pull mirrors the late-March escalation pattern that produced the Apr 8 ceasefire framework, but this time the negotiation track is text-based (14-point MoU) rather than gestural (deadline-driven).
+
+### Gulf airspace denials — Saudi Arabia and Kuwait
+
+The most significant May 7 escalation was diplomatic, not kinetic. [[Saudi Arabia]] and [[Kuwait]] denied [[United States|US]] military airspace access — the first direct Gulf-state airspace refusal of the war and a structural inversion of the Cold War-era US security guarantee architecture. The [[Escalation Trap]] (Tariq Khaitous) framing, "The Gulf States Just Voted on American Power" (May 7), reads the move as ratifying the post-Apr 8 [[Friedrich Merz]] / [[Tarek Masoud]] thread that the Gulf two-red-line frame (Iran controls Hormuz + Iranian failed state) is now binding on Riyadh and Kuwait City equally.
+
+The denial sits alongside the unresolved [[2026 UAE OPEC exit]] (effective May 1) as evidence that the post-war Gulf alignment is reorganizing around domestic-war-cost-absorption capacity rather than US-bloc loyalty. [[Mohammed bin Salman|MBS]] privately characterized further US strikes that transit Saudi airspace as an existential risk to Aramco infrastructure that Gulf states are not willing to absorb a second time after the Mar 5-12 Iranian counter-strikes already showed asymmetric consequence asymmetry.
+
+The signal for capital flows is on the [[Saudi PIF international retrenchment April 2026|PIF retrenchment]] vector: a denial of operational support in addition to the cancellation of cultural / sports MOUs is the second of three confirmed Gulf signals (after [[2026 UAE OPEC exit]]) that the war is producing structural sovereign-capital reorientation, not just market-management pause.
+
+### Tanker fire and continued maritime kinetic phase
+
+[[Euronews]] reported May 7 that the US fired on an Iranian-flagged oil tanker as Trump pushed for the deal. The incident is the cleanest demonstration that the "Project Freedom" pause is not a maritime ceasefire — it is a unilateral pause on the US side of the convoy operation. The Iranian-flagged tanker was attempting to run the [[United States|US]] port blockade, not the Strait, but the engagement happened in the Gulf of Oman approach.
+
+[[UK Maritime Trade Operations|UKMTO]] reported separate ship fires off the [[UAE]] coast through the May 5-7 window, consistent with the May 4 Fujairah petrochemical fire pattern but at lower intensity. War-risk insurance premiums remained at multi-quarter highs (per [[Croft]] May 5 framing), and shippers continued to refuse the corridor pending mine-risk and routing certainty.
+
+### May 7 oil and equity tape
+
+| Asset | May 6 close | May 7 close | Change | Read |
+|-------|-------------|-------------|--------|------|
+| [[Brent crude\|Brent]] | ~$108 | ~$102 | -5.6% | Repriced toward MoU-success scenario |
+| [[WTI]] | ~$103 | ~$96 | -6.8% | Same; greater move on the US grade reflects the Project Freedom pause directly |
+| S&P 500 | record close (~7,200) | +0.1% to record | flat | Equity tape priced reopening; [[2026 Iran conflict market impact]] dispersion now in defensive |
+| [[VIX]] | low | +0.7 | small uptick | Hedging into the MoU outcome |
+| [[Brent crude\|Brent]] forward curve | backwardation | flatter | steepened | Curve still underprices reopening per [[Felipe Germini]] May 1 framing — only the front month re-anchored |
+
+The financial-physical gap that defined the May 5 [[Helima Croft]] frame inverted partially on May 7: equities and oil priced the reopening, but cargo flow remained at trickle and Gulf airspace denial sharpened the structural-credibility damage. The new tail risk is not the binary "deal or no deal" but the in-between state — a deal text without operational normalization, which leaves the [[Hormuz Permanent Risk Premium]] structurally intact.
+
+*Sources: [NBC News — Trump pauses 'Project Freedom' in Strait of Hormuz, citing progress on an Iran deal](https://www.nbcnews.com/world/iran/us-iran-war-trump-open-hormuz-attacks-ships-ceasefire-rcna343604), May 5-6 2026; [CBS News — Trump threatens Iran strikes, says too soon for new direct talks after reporting "great progress"](https://www.cbsnews.com/live-updates/iran-war-trump-progress-peace-deal-strait-of-hormuz/), May 5-6 2026; [Washington Post — Trump threatens intense bombing if Iran peace deal not reached](https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/), May 5 2026; [CNN — Day 68 of Middle East conflict — Trump touts "very good talks"](https://www.cnn.com/2026/05/06/world/live-news/iran-war-trump-strait-of-hormuz), May 6 2026; [Euronews — US fires at Iranian oil tanker as Trump pushes for peace deal](https://www.euronews.com/2026/05/07/us-fires-at-iranian-oil-tanker-as-trump-pushes-for-peace-deal), May 7 2026; [Al Jazeera — Trump pauses US operation in Strait of Hormuz in push for deal with Iran](https://www.aljazeera.com/news/2026/5/5/trump-announces-pause-on-us-operation-to-unblock-strait-of-hormuz), May 5 2026; [Escalation Trap — The Gulf States Just Voted on American Power](https://escalationtrap.substack.com), May 7 2026 (Tariq Khaitous on Saudi/Kuwait airspace denial); [Bloomberg — US Premarket Movers May 7](https://www.bloomberg.com/news/articles/2026-05-07/us-stock-futures-today-doordash-fortinet-mcdonald-s-whirlpool), May 7 2026.*
+
+---
+
 ## Watch for
 
 - [ ] Asian GDP revisions — IMF Apr 16 kept Asia at 4.4% / 4.2% under transient-shock assumptions, but confirmed higher inflation and weaker external balances
@@ -421,6 +470,9 @@ The May 4 escalation reset shipper risk perception by Tuesday morning. [[Helima 
 - [ ] SPR depletion trajectory — 400M bbl released, finite remaining capacity
 - [ ] Brazil diesel cliff — May 2026 Brazilian diesel shortage from refining slate disruption (Felipe Germini Apr 29: "Three Cargoes, No Buyers, Thirty Days") — Petrobras/refining-margin first-order test
 - [ ] Cargo-flow rate watch — count of monthly Hormuz transits as Apr 30 "two cargoes" sample expands (or doesn't); a real-time read on whether the corridor opens beyond test cases
+- [ ] 14-point MoU operational test — does Iran formally accept the May 6-7 framework, and if it does, how fast do tanker movements + war-risk insurance + IRGC-routing approval normalize? The deal text is the easier part; the operational normalization is the [[Helima Croft|Croft]] / [[Karen Young|Young]] / [[Stephen Stapczynski|Stapczynski]] thread
+- [ ] Gulf airspace denial follow-through — does [[Saudi Arabia]] / [[Kuwait]] denial of US airspace harden into a multilateral position with [[Bahrain]] / [[Oman]], or stay isolated to the May 7 cycle? See [[Iran conflict country responses]] for the regional-bloc framing
+- [ ] EM reserve drawdown ([[Robin J. Brooks]] May 6) — [[Turkey]], [[India]], [[Pakistan]] FX reserve losses tracking the war's external-account cost; cross-vault Brooks integration in [[Iran conflict FX dynamics]]
 
 ## Analyst reaction to ceasefire (Apr 8)
 

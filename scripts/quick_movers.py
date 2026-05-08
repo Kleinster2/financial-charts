@@ -29,6 +29,9 @@ DUCK_DB = Path(__file__).parent.parent / "market_data.duckdb"
 SKIP = {"AI","US","UK","EU","HQ","PE","RE","DC","VC","CEO","CTO","COO","CFO","IPO",
         "SA","SE","AG","NV","AB","LP","NA","AM","GP","BE","IT","OR","ON","TD","BN","BAM"}
 DEFAULT_SIGMA = 2.5
+DEFAULT_PCT_FLOOR = 6.0  # always-on absolute-% backstop (catches borderline-sigma names like CHYM at -7.5% / 1.71s)
+HIGH_VOL_THRESHOLD = 50.0  # idiosyncratic vol % above which a lower sigma applies
+HIGH_VOL_SIGMA = 2.0       # sigma threshold for high-vol names (vs DEFAULT_SIGMA for the rest)
 VOL_LOOKBACK = 60    # trading days for idiosyncratic volatility
 BETA_LOOKBACK = 120  # trading days for beta estimation
 BENCHMARK = "SPY"
@@ -394,7 +397,13 @@ def main():
     parser.add_argument("--beta-lookback", type=int, default=BETA_LOOKBACK,
                         help=f"Window for beta estimation (default: {BETA_LOOKBACK} days)")
     parser.add_argument("--pct", type=float, default=None,
-                        help="Optional: also flag moves above this %% regardless of sigma")
+                        help="Optional: also flag moves above this %% regardless of sigma (legacy alias for --pct-floor)")
+    parser.add_argument("--pct-floor", type=float, default=DEFAULT_PCT_FLOOR,
+                        help=f"Always-on absolute-%% backstop (default: {DEFAULT_PCT_FLOOR:.1f}%%). Catches borderline-sigma names. Set to 999 to disable.")
+    parser.add_argument("--high-vol-sigma", type=float, default=HIGH_VOL_SIGMA,
+                        help=f"Lower sigma threshold for high-vol names (idiosyncratic vol > {HIGH_VOL_THRESHOLD:.0f}%%). Default: {HIGH_VOL_SIGMA}")
+    parser.add_argument("--high-vol-threshold", type=float, default=HIGH_VOL_THRESHOLD,
+                        help=f"Annualized idiosyncratic vol %% above which --high-vol-sigma applies (default: {HIGH_VOL_THRESHOLD:.0f})")
     parser.add_argument("--raw", action="store_true",
                         help="Use raw returns instead of beta-adjusted (original behavior)")
     parser.add_argument("--show-stale", action="store_true",
@@ -443,29 +452,44 @@ def main():
     if bench_return is not None:
         print(f"{BENCHMARK}: {bench_return:+.1f}% on {latest_date}")
 
+    # Resolve effective floor: explicit --pct overrides --pct-floor for backward-compat
+    effective_pct_floor = args.pct if args.pct is not None else args.pct_floor
+
     movers = []
+    flag_reasons = {}  # ticker -> list of reasons triggered
     for item in all_results:
         ticker, actor, prev, curr, pct, z_score, vol, date = item[:8]
         beta = item[8] if len(item) > 8 else 0.0
         raw_vol = item[9] if len(item) > 9 else vol
-        flagged = abs(z_score) >= args.sigma
-        if args.pct and abs(pct) >= args.pct:
-            flagged = True
-        if flagged:
+
+        reasons = []
+        # Primary: standard sigma threshold
+        if abs(z_score) >= args.sigma:
+            reasons.append(f">={args.sigma}s")
+        # High-vol adjustment: high idiosyncratic vol names get a lower sigma bar
+        elif vol >= args.high_vol_threshold and abs(z_score) >= args.high_vol_sigma:
+            reasons.append(f">={args.high_vol_sigma}s (high-vol)")
+        # Always-on absolute-% backstop
+        if abs(pct) >= effective_pct_floor:
+            reasons.append(f">={effective_pct_floor:.1f}%")
+
+        if reasons:
+            flag_reasons[ticker] = reasons
             movers.append((ticker, actor, prev, curr, pct, z_score, vol, date, beta, raw_vol))
     movers.sort(key=lambda x: abs(x[5]), reverse=True)
 
     if movers:
-        print(f"\n** VAULT ACTORS WITH UNUSUAL MOVES (>={args.sigma} sigma, beta-adjusted):\n")
-        hdr = f"{'Ticker':<8} {'Actor':<30} {'Prev':>8} {'Last':>8} {'Change':>8} {'Sigma':>7} {'Beta':>6} {'IdioVol':>8}"
+        print(f"\n** VAULT ACTORS WITH UNUSUAL MOVES (>={args.sigma}s, or >={args.high_vol_sigma}s if vol>{args.high_vol_threshold:.0f}%, or >={effective_pct_floor:.1f}% absolute):\n")
+        hdr = f"{'Ticker':<8} {'Actor':<30} {'Prev':>8} {'Last':>8} {'Change':>8} {'Sigma':>7} {'Beta':>6} {'IdioVol':>8} Trigger"
         print(hdr)
         print("-" * len(hdr))
         for t, a, p, c, pct, z, vol, d, beta, raw_vol in movers:
             sign = "+" if pct > 0 else ""
             zsign = "+" if z > 0 else ""
-            print(f"{t:<8} {a:<30} ${p:>7.2f} ${c:>7.2f} {sign}{pct:>6.1f}% {zsign}{z:>5.1f}s {beta:>5.2f}x {vol:>6.0f}%")
+            trigger = ", ".join(flag_reasons.get(t, []))
+            print(f"{t:<8} {a:<30} ${p:>7.2f} ${c:>7.2f} {sign}{pct:>6.1f}% {zsign}{z:>5.1f}s {beta:>5.2f}x {vol:>6.0f}% {trigger}")
     else:
-        print(f"\nNo vault actors exceeded +/-{args.sigma} sigma in the last session.")
+        print(f"\nNo vault actors exceeded thresholds (>={args.sigma}s, high-vol-s {args.high_vol_sigma}, pct floor {effective_pct_floor:.1f}%).")
 
 if __name__ == "__main__":
     try:

@@ -130,6 +130,34 @@ Carbyne + Prepared add an estimated $5B to addressable market, bringing claimed 
 
 ---
 
+## Q1 2026 earnings (May 6, 2026) — AI-revenue inflection + counter-drone breakout
+
+Reported May 6 after the close; AXON closed +11.9% on May 7 to $431.68 from $385.86 — the cleanest single-day move since the Feb 26 earnings reaction. The print is the ninth consecutive quarter of 30%+ growth and the first quarter where AI revenue and the counter-drone segment crossed scale-relevant thresholds.
+
+| Metric | Q1 2026 | Consensus | YoY |
+|--------|---------|-----------|-----|
+| Revenue | $807.3M | $779.2M | +34% |
+| Adjusted EBITDA | $202M | $183.8M | — |
+| Adjusted EPS | $1.61 | $1.60 | — |
+| ARR | $1.5B | — | +35% |
+| AI Era Plan bookings | — | — | +140% YoY |
+| AI product revenue | — | — | +700% YoY |
+| Counter-drone revenue | — | — | +300% YoY |
+
+Forward guide: FY 2026 revenue growth raised to 30-32% (from prior 27-30%); FY 2026 adjusted EBITDA margin held at ~25.5%. The growth-rate raise comes from AI Era Plan and counter-drone momentum, not pull-forward — management characterized AI Era Plan as becoming "a standard part of purchasing by large agencies" rather than an upsell or pilot.
+
+Three structural items matter beyond the headline beat:
+
+1. The federal-grant tailwind is real. The [[Safer Skies Act]] (passed in December's [[National Defense Authorization Act|NDAA]]) earmarks $250M in federal grants for local agencies to deploy counter-drone capabilities. AXON's counter-drone segment ([[Dedrone]]-built) grew 300% YoY against that legislative tailwind. This is a structurally different tailwind from the body-camera grant cycles of 2018-2022 because it's tied to a specific named legislative authority and a five-year appropriation window.
+2. AI revenue +700% YoY is the cleanest large-cap proof-point in the [[AI agents]] thesis for govtech-adjacent SaaS — the workload (police-report drafting via [[Draft One AI]], 911 call processing via [[Carbyne]] / [[Prepared]]) maps directly to the customer's labor-cost reduction, not to a cosmetic AI feature.
+3. The 9th consecutive 30%+ quarter is itself the structural read. Few public-company SaaS names in the $3-4B run-rate range have sustained 30%+ growth this long. The bear case (TASER monopoly attrition, body-camera commoditization, evidence-management commoditization) is being answered by AI-revenue + counter-drone breakout becoming load-bearing rather than the legacy connected-devices business carrying.
+
+The AXON read also matters for the [[Palantir]] comparable thesis: both names converted "AI as feature" into "AI as the primary revenue lever" within the same 12-month window. See [[Rick Smith]] for founder-CEO commentary on the AI Era Plan rollout, and [[Brittany Bagley]] for the CFO unit-economics framing.
+
+*Sources: [Axon Q1 2026 release](https://investor.axon.com/2026-05-06-Axon-reports-Q1-2026-revenue-of-807-million,-up-34-year-over-year); [The Motley Fool — Axon Q1 2026 transcript](https://www.fool.com/earnings/call-transcripts/2026/05/06/axon-axon-q1-2026-earnings-call-transcript/); [Sherwood News — Axon beats Q1 revenue expectations, raises guidance](https://sherwood.news/markets/axon-q1-earnings-report-2026/); [stocktitan — Axon Q1 revenue jumps 34%](https://www.stocktitan.net/news/AXON/axon-reports-q1-2026-revenue-of-807-million-up-34-year-over-84nsveknnlm1.html).*
+
+---
+
 ## Related
 
 - [[Carbyne]] — acquired Nov 2025

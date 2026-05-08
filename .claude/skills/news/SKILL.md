@@ -15,17 +15,30 @@ Ingest news articles into the Obsidian vault. Sources: Bloomberg, Reuters, FT, W
 
 Before looking at any articles, check yesterday's/today's major stock movers against existing vault actor notes.
 
-1. Preferred path: run `python scripts/quick_movers.py` to get vault actors with statistically unusual moves (>=2.5 sigma, 60-day rolling volatility). This is better than a fixed +/-8% threshold because it adjusts for each stock's normal volatility. A 3% move on a low-vol name can matter more than an 8% move on a volatile one.
+1. Preferred path: run `python scripts/quick_movers.py` to get vault actors with statistically unusual moves. As of May 2026 the screen flags any of three triggers (post the May 7 Chime / HawkEye 360 misses):
+   - `>=2.5 sigma` beta-adjusted (the standard threshold)
+   - `>=2.0 sigma` for high-vol names (idiosyncratic vol > 50% — catches recent IPOs and small-cap fintechs that have wide vol bands)
+   - `>=6.0%` absolute move regardless of sigma (the always-on percent backstop — catches borderline-sigma names like CHYM at -7.5% / -2.1σ)
+
+   The full default flag-set is now equivalent to: `python scripts/quick_movers.py` (no args needed; defaults capture the right cases). Each row in the output shows which trigger fired in the trailing "Trigger" column.
+
 2. If the script's data is stale, run `python update_market_data.py --lookback 5 --assets stocks etfs adrs` first.
-3. As of March 2026, `quick_movers.py` reads from the wide table (`stock_prices_daily`). If that table is stale but `prices_long` has fresh data, use the narrow table directly.
+
+3. As of March 2026, `quick_movers.py` reads from the wide table (`stock_prices_daily`) when DuckDB is unavailable; the SQLite path also falls back to the narrow `prices_long` table automatically. If both surfaces are stale, run `update_market_data.py` first.
+
 4. If the script is unavailable or still stale, fall back to web search for biggest stock movers and cross-reference any name that moved **+/-8% or more** against vault actors.
-5. For every vault actor that had a major move:
+
+5. **Run the vault-ticker audit and IPO debut tracker in parallel** with the mover screen (these address the two failure modes that surfaced in May 2026):
+   - `python scripts/audit_vault_tickers.py --only-gaps` — catches actor notes that mention NYSE/NASDAQ tickers in the body but don't expose them in `aliases:` (Phase 0 invisible). [[Chime]] and [[HawkEye 360]] both had this gap on May 7.
+   - `python scripts/ipo_debut_tracker.py --tickers TICK1 TICK2 --scan-stale-private` — pass any candidate IPO tickers from the day's news scan + scan vault for #private notes whose body mentions a NYSE/NASDAQ ticker pattern (likely IPO'd, status stale).
+
+6. For every vault actor that had a major move:
    - Check if the actor note already covers the catalyst.
    - If not, **auto-add it to the candidate list** with highest priority, regardless of which news source is being scanned.
-6. Present these as **"🔴 Major mover — vault actor needs update"** at the top of the candidate table.
-7. **Subsector dispersion**: When multiple vault actors in the same sector move, report dispersion by subsector in the daily note. The dispersion is the insight, it reveals what the market is actually pricing.
+7. Present these as **"🔴 Major mover — vault actor needs update"** at the top of the candidate table.
+8. **Subsector dispersion**: When multiple vault actors in the same sector move, report dispersion by subsector in the daily note. The dispersion is the insight, it reveals what the market is actually pricing.
 
-This prevents missing stories like IBM -13% that were not on a chosen source's article list but still mattered to the vault.
+This prevents missing stories like IBM -13% that were not on a chosen source's article list but still mattered to the vault — and prevents missing stories like the May 7, 2026 [[Chime]] -7.5% / [[HawkEye 360]] +30% IPO debut that the original 2.5σ-only screen would have silently dropped.
 
 ## Phase 0.25: Newsletter / Substack Check (NEVER SKIP)
 

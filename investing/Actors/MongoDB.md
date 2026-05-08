@@ -131,3 +131,11 @@ MDB trades between Software and Technology without a tight sector fit.
 - [CNBC: Stock surge](https://www.cnbc.com/2025/12/02/mongodb-stock-ai-cloud-database-mdb.html)
 
 *Created 2026-01-09*
+
+---
+
+## May 7, 2026 — sympathy rally on Datadog beat (+14.3%)
+
+MDB closed +14.3% to $303.27 from $265.26 with no own catalyst — a pure sympathy move on the [[Datadog]] Q1 2026 print (DDOG +31.3%; rev $1.006B +32% YoY, EPS $0.60 vs $0.42 consensus). The bid was concentrated in AI-native SaaS infrastructure names where the workload-monetization read carries: [[Snowflake]] +8.8%, [[Datadog]] +31.3%, MDB +14.3%. The cleanest cross-name framing: DDOG's beat partially answers the "AI customers will build in-house" bear case that has weighed on MDB Atlas usage growth, and the sympathy bid is positioning ahead of MDB's own Q1 FY27 print (early June). May 7 resets the bar — Atlas growth above 20% YoY would now read as confirmation rather than surprise. See [[Datadog]] May 7 Q1 2026 section for the broader software-AI repricing dynamic.
+
+*Sources: [Bloomberg — US Premarket Movers May 7](https://www.bloomberg.com/news/articles/2026-05-07/us-stock-futures-today-doordash-fortinet-mcdonald-s-whirlpool).*

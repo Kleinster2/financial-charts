@@ -306,6 +306,45 @@ The stock is priced for aggressive execution on the silicon strategy. At current
 
 Management 5-year targets (by ~2031): $25B revenue, $9 EPS — implying the IP business doubles and the AGI CPU silicon business adds ~$15B.
 
+### Q4 FY 2026 + FY 2026 results (May 7, 2026) — record revenue + EPS, stock fell on FY 27 guide
+
+ARM reported Q4 FY 2026 + full-year FY 2026 May 7 after close. Stock closed -8.1% to $218.08 from $237.30 — the steepest single-day move since the post-Q3 reaction in February. The headline beat was clean across every metric, but the FY 2027 guide (the implied first half) sat below the buy-side whisper that had pushed the stock up 39% in April per [[Capital.com]] research.
+
+Q4 FY 2026 results (against the prior $1.18B midpoint guide):
+
+| Metric | Q4 FY 2026 actual | Q4 FY 2026 prior guide | YoY |
+|--------|------------------|----------------------|-----|
+| Revenue | $1.49B | ~$1.18B (midpoint, Feb 4 guide) | +20% |
+| Licensing revenue | $819M | — | +29% |
+| Royalty revenue | $671M | — | +11% |
+| Non-GAAP EPS | $0.60 | — | record |
+
+Royalty revenue +11% is paced by edge-AI, physical-AI, and cloud-AI — with [[Arm Holdings|Arm]]'s data-center royalty more than doubling YoY. The data-center inflection is now the key forward variable; [[NVIDIA Grace]] and [[NVIDIA Vera]] CPUs use Arm IP, and the cloud-AI royalty doubling is the cleanest proxy for the AI-server CPU shift.
+
+Full year FY 2026:
+
+| Metric | FY 2026 | YoY |
+|--------|---------|-----|
+| Revenue | $4.92B | +23% |
+| Royalty revenue | $2.61B | +21% |
+| Licensing revenue | $2.31B | +25% |
+| Non-GAAP EPS | $1.77 | record |
+
+The $4.92B revenue print is the cleanest Arm-IP-business read: the prior $4.0B FY 2025 jumped to $4.92B FY 2026 — that's a $920M absolute revenue gain, or about 76% of the entire FY 2024 revenue base, in a single year. That's not a slowing growth profile.
+
+Why the stock fell anyway: FY 2027 guide pacing. The implied Q1 FY 2027 number (released alongside the print) reportedly came in below buy-side whispers that had assumed continued royalty acceleration on the back of [[NVIDIA Vera]] / [[Microsoft]] custom CPU progress. The market bid the stock +39% in April on that whisper math; the actual guide was constructive but sequentially lower than the squeeze-priced expectation. Classic "good number, sold to whisper" reaction, not a fundamental disconfirmation.
+
+The [[Jason's Chips]] May 7 ARM earnings review (Substack: "ARM Earnings Review | One Relevant Signal for the CPU 'Arms' Race") frames the print as a confirmation rather than a setback: the +20% Q4 revenue + cloud-AI royalty doubling answers the bear case (royalty growth saturating) directly, and the stock reaction is positioning rather than thesis. The "Arms race" framing is on the [[NVIDIA]] / [[AMD]] CPU strategy as both attempt to displace [[Intel]]'s remaining x86 server franchise — Arm IP is the de-facto winner in that race regardless of which silicon vendor implements.
+
+Cross-name reads:
+- [[NVIDIA]] — primary royalty customer through Grace + Vera CPU; the cloud-AI royalty doubling is structurally NVIDIA-volume-driven
+- [[Apple]] — long-tail royalty payer through every iPhone / Mac CPU; structurally stable
+- [[Qualcomm]] — post-litigation customer; flat-to-up royalty trajectory
+- [[Microsoft]] — Cobalt 100 custom Arm CPU is a growing royalty source
+- [[AMD]] — partial competitor (x86 server) but increasingly an Arm IP customer for select AI inference SoCs
+
+*Sources: [Investing.com — Arm Holdings reports record Q4 FY2026 results](https://www.investing.com/news/transcripts/earnings-call-transcript-arm-holdings-reports-record-q4-fy2026-results-93CH-4665853); [Seeking Alpha — Arm Holdings plc 2026 Q4 Results Earnings Call Presentation](https://seekingalpha.com/article/4899904-arm-holdings-plc-2026-q4-results-earnings-call-presentation); [Yahoo Finance — ARM Q4 Earnings Call Highlights](https://finance.yahoo.com/markets/stocks/articles/arm-q4-earnings-call-highlights-225942093.html); [Jason's Chips — ARM Earnings Review | One Relevant Signal for the CPU "Arms" Race](https://www.jasonschips.ai), May 7 2026.*
+
 ---
 
 ## Investment case

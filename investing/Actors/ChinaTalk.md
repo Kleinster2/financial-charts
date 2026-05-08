@@ -86,6 +86,28 @@ The specifics matter. China Fusion Energy Co. launched with roughly $2.1B of ple
 
 ---
 
+## May 5, 2026 — "How to Buy Cheap Claude Tokens in China — The Transfer Station Economy, Explained"
+
+[[Zilan Qian]] piece in ChinaTalk on the workaround economy that has emerged for Chinese developers and enterprises to access [[Anthropic|Claude]] tokens at sub-list prices. The "Transfer Station Economy" framework: third-party intermediaries route requests through US-based developer accounts, aggregating Chinese-customer demand and effectively reselling Anthropic API capacity at marked-up but still-below-list prices that arbitrage the [[Anthropic]] explicit decision to not service Chinese commercial customers directly.
+
+The structural read is high-signal for [[Anthropic]] competitive positioning in [[China]]. Three threads:
+
+1. *Demonstrated demand* — Chinese developers are willing to pay for [[Claude]] access through a circuitous channel, signaling that the [[Anthropic]] product is preferred over [[OpenAI]] / [[DeepSeek]] / [[Qwen]] / [[Moonshot AI|Moonshot]] for specific use cases (likely complex agentic / coding tasks where [[Claude Sonnet]] / [[Claude Opus]] / [[Claude Code]] outperform). This is the cleanest market-pull evidence for Anthropic in [[China]] given the official channel restriction.
+2. *Sanctions arbitrage emerging* — the transfer-station model is structurally similar to the [[Shadow fleet]] in oil markets: when a sanctions regime restricts direct access, intermediated commerce develops to capture the available margin. The implication for [[US export controls]] tracking: sanctions on AI capability access are now generating arbitrage networks similar to those that emerged around chip export controls in 2024-2025.
+3. *Anthropic's structural choice* — the company has not moved to shut down the transfer-station economy, which suggests they're tolerating it as a soft channel rather than treating it as a TOS violation to enforce. This implies Anthropic is willing to capture the revenue without taking the regulatory exposure of formal China presence — see [[Anthropic#Cap table|Anthropic cap table]] for the sovereign-wealth participation that constrains direct [[China]] engagement.
+
+The piece is the cleanest read on the [[China]] / [[Anthropic]] backchannel as of early May 2026. It also frames into the May 6 [[Anthropic]] [[SpaceX]] compute deal — adding [[Colossus 1]] capacity creates more inference supply, some of which will flow into the [[China]] transfer-station economy.
+
+*Source: [How to Buy Cheap Claude Tokens in China — The Transfer Station Economy, Explained](https://www.chinatalk.media), May 5 2026; [[Zilan Qian]] author.*
+
+## May 6, 2026 — "Ken Liu on AI and Freedom"
+
+[[Jordan Schneider]] / [[Irene Zhang]] / [[Phoebe Chow]] interview with science-fiction author [[Ken Liu]] on AI and freedom. The piece is more cultural / philosophical than narrowly investing-relevant, but it carries the [[ChinaTalk]] editorial signature of mapping AI debates onto [[China]] policy / philosophy. Less directly actionable than the May 5 piece; flagged here for thread continuity.
+
+*Source: [Ken Liu on AI and Freedom](https://www.chinatalk.media), May 6 2026.*
+
+---
+
 ## Related
 
 - [[Jordan Schneider]] — founder and editor-in-chief
@@ -93,5 +115,7 @@ The specifics matter. China Fusion Energy Co. launched with roughly $2.1B of ple
 - [[Rhodium Group]] — Schneider's prior employer, adjacent China research
 - [[Rush Doshi]] — parallel US-China industrial-competition voice
 - [[US-China tech race]] — core topic area
+- [[Anthropic]] — May 5 transfer-station-economy piece directly relevant
+- [[Zilan Qian]] — May 5 piece author
 
 *Created 2026-04-12*

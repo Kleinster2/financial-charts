@@ -165,6 +165,46 @@ Next catalyst: Q1 2026 results due May 6, 2026.
 
 ---
 
+## Q1 2026 earnings (May 6, 2026) — lithium recovery confirmed; +148% adjusted EBITDA
+
+ALB reported Q1 2026 May 6 after close. Stock closed +10.7% on May 7 to $213.25 from $192.61 — above the Apr 17 Baird-downgrade re-anchor and back into the upper end of the post-Apr-16 squeeze range. The print confirmed the [[Lithium]] price recovery thesis as durable rather than spec-driven.
+
+| Metric | Q1 2026 | YoY |
+|--------|---------|-----|
+| Net sales | $1.4B | +33% |
+| Net income | $319M | — |
+| Diluted EPS (GAAP) | $2.34 | — |
+| Adjusted diluted EPS | $2.95 | — |
+| Adjusted EBITDA | $664M | +148% |
+
+Energy Storage segment (the lithium-margin core):
+- Net sales $891M (+70% YoY); volumes +14%, prices +51%
+- Adjusted EBITDA $551M (+196% YoY); driven by higher pricing, [[spodumene]] inventory timing, and ongoing cost/productivity improvements
+
+Specialties segment: volumes +7%, price +2% — meaningful but secondary to Energy Storage.
+
+Balance sheet:
+- Liquidity ~$2.7B
+- Total debt $1.9B (down $1.3B from prior quarter)
+- Net debt to adjusted EBITDA: ~1.0x
+
+Forward economics (price-sensitivity guide):
+- At ~$10/kg LCE: net sales $4.1-4.3B, adjusted EBITDA $0.9-1.0B
+- At ~$30/kg LCE: net sales $7.5-7.8B, adjusted EBITDA $4.2-4.4B
+
+The $1.3B debt paydown in Q1 alone is the structural read: ALB used the spot-price + spodumene-timing tailwind to deleverage rather than buy back stock or raise capex. That sets the company up for the post-recovery normalization with a much cleaner balance sheet than the 2024 cycle low.
+
+The [[Albemarle securities]] companion read: ALB now trades back at the upper end of the post-Apr-16 squeeze range. The Apr 17 Baird downgrade ($210 PT, supply concerns) has been answered operationally — supply discipline is intact, EBITDA trajectory broke through the Baird thesis. Whether the next leg requires another spot-price step-up or just price stability around $30/kg LCE is the testable forward question.
+
+Cross-name reads:
+- [[SQM]] (Chile-listed peer) read-across — was -6.8% on Apr 17 alongside ALB; same-day May 7 sympathy bid expected
+- [[Fluence]] (May 6 reported, separate Q2 entry below) — energy-storage demand-side confirmation paired with ALB's supply-side margin recovery makes the cleanest "energy storage cycle is real" cross-reference in the May 6-7 tape
+- [[Sigma Lithium]] / [[Atlas Lithium]] / [[AMG]] (Brazil cohort) — read-across for the [[Lithium Triangle]] regional cycle confirmation
+
+*Sources: [Albemarle Q1 2026 release](https://www.albemarle.com/us/en/news/albemarle-reports-first-quarter-2026-results); [stocktitan — Albemarle Q1 2026 strong on lithium and cuts $1.3B debt](https://www.stocktitan.net/sec-filings/ALB/8-k-albemarle-corp-reports-material-event-5b1602686828.html); [Mining Weekly — Albemarle Q1 earnings rise supports $1.3bn debt reduction](https://www.miningweekly.com/article/albemarle-q1-earnings-rise-supports-13bn-debt-reduction-2026-05-07); [TradingKey — Albemarle Q1 net income surges 672%](https://www.tradingkey.com/analysis/stocks/us-stocks/261866290-alb-albemarle-lithium-2026-q1-supply-electric-profit-tradingkey).*
+
+---
+
 ## Quick stats
 
 | Metric | Value |

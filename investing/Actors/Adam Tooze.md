@@ -393,3 +393,37 @@ Regular contributor to:
 - [Adam Tooze | Columbia University](https://history.columbia.edu/person/adam-tooze/)
 - [Adam Tooze | Wikipedia](https://en.wikipedia.org/wiki/Adam_Tooze)
 - [WEF: What is the Polycrisis?](https://www.weforum.org/stories/2023/03/polycrisis-adam-tooze-historian-explains/)
+
+---
+
+## May 2026 Top Links — fertilizer / data centers / tech layoffs / SF consensus
+
+Tooze ran four "Top Links" Chartbook editions through May 3-6, surfacing four threads relevant to vault concept tracking:
+
+### Top Links 1095 (May 6) — fertilizer / data center constraints / yellow filtering
+
+Tooze flagged three threads:
+1. *Running out of fertilizer* — extends the [[Iran conflict supply chain cascade#Fertiliser supply crisis (March 14)|fertilizer crisis]] thread already in the vault, with read-throughs to Q1 2026 [[Nutrien]] / [[Mosaic]] / [[CF Industries]] earnings reads. The CRU / [[The Fertilizer Institute]] framework (Mar 14) that the disruption could be worse than 2022 is still operative, and the Iran-war fertilizer dynamic has not normalized despite the May 6-7 [[Trump]] MoU push. Cross-vault pointer to [[Nitrogen Trap]] concept.
+2. *Why not to worry about space constraints on data centers* — counter-argument to the [[Power constraints]] / [[AI datacenter architecture]] siting-bottleneck thesis. The implicit position: physical space is not the binding constraint, power and grid interconnection are. This frames into the May 6 [[Anthropic]]-[[SpaceX]] compute deal (300 MW + 220K GPUs at [[Colossus 1]] in [[Memphis]]) — Memphis already had power and interconnect, so adding 300 MW of GPU capacity wasn't space-bound.
+3. *Yellow filtering the world* — likely [[China]] / soft-power frame; needs separate read.
+
+### Top Links 1094 (May 6) — tech layoffs / run-the-economy-hot / Hobsbawm biography
+
+Tooze flagged:
+1. *Scaling tech layoffs* — extends the [[2026 IPO pipeline]] / [[SaaS stock meltdown 2026]] thread. Tech layoffs through Q1 2026 confirm the bifurcation between AI-native names ([[Datadog]] +31.3% on May 7, hiring) and traditional SaaS / cloud-services where headcount is being cut. The [[Hey AI News]] earlier reporting on AI-driven corporate layoffs is the longer thread.
+2. *Why to run the economy hot* — fiscal-side argument to support the [[2026 recession risk]] avoidance case. Connects to [[Lyn Alden]]'s [[fiscal dominance]] framework and [[Jared Bernstein]]'s May 4-6 posts on debt / GDP / wealth.
+3. *Money doctors from Japan & Hobsbawm's biography* — historical / Japan macro thread; lower investing-vault relevance.
+
+### Top Links 1093 (May 5) — GOP-tax / SF consensus / modern-state genesis / post-Auschwitz literature
+
+Tooze flagged the "GOP tax problem" — fiscal-side political-economy thread, connects to [[Jared Bernstein]] May 6 "Three Big Numbers: Debt, GDP, Wealth" (same date). The "SF consensus" likely refers to the [[San Francisco]] tech / AI policy / regulatory frame.
+
+### Top Links 1092 (May 4) — Big Oil + Tanzania gas + Metal Weber
+
+The Apr 4 "Big oil is not coming to Trump's rescue" framing is directly relevant to the [[2026 Strait of Hormuz crisis]] / [[Iran conflict war duration]] thread — confirms the established analytical position that US shale + oil-major spare capacity cannot replace the ~14 mb/d Hormuz throughput losses, even under maximum-production scenarios. Tanzania's gas play extends the [[Africa LNG]] / [[Mozambique LNG]] adjacent threads.
+
+### Chartbook 445 (May 3) — China shock for big-ag food regime?
+
+Tooze's main-edition piece on whether a "[[China]] shock" is coming for the "big-ag food regime." Frames into [[Soybean]] / [[Brazil]]-vs-US-corn-and-soy thread, [[Cargill]] / [[ADM]] / [[Bunge]] competitive position, and [[Indian agriculture]] export competitiveness. The most directly investable angle: if China shifts from US ag imports to alternative sources (likely [[Brazil]] / [[Argentina]] / [[Russia]]), the US ag commodity complex faces structural demand reset. See [[2026 recession risk]] consumer-side and [[Brazil]] economic relationships.
+
+*Sources: [Chartbook Top Links 1092-1095](https://adamtooze.substack.com/), May 4-6 2026; [Chartbook 445](https://adamtooze.substack.com/), May 3 2026.*

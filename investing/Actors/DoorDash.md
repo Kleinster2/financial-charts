@@ -117,6 +117,29 @@ DASH shows moderate Software correlation (IGV r = 0.65).
 
 ---
 
+## Q1 2026 earnings (May 6, 2026) — record orders + GOV; revenue miss; $50M driver gas-relief program
+
+DASH reported Q1 2026 May 6 pre-open. Stock popped +12% on the EPS beat and GOV strength but absorbed the revenue miss. The print is notable for the $50M one-time charge from a driver-relief program — a direct response to the rising-gasoline-price (per [[Iran conflict supply chain cascade]] / [[Iran conflict economic disruption]] thread) translating into driver economics.
+
+| Metric | Q1 2026 | Consensus | YoY |
+|--------|---------|-----------|-----|
+| EPS | $0.42 | $0.37 | beat |
+| Revenue | $4.04B | $4.14B | miss |
+| Total orders | 933M | — | +27% |
+| Gross Order Value (GOV) | $31.6B | $31.5B | +37% |
+| MAUs | record high | — | — |
+| Membership signups | record | — | — |
+
+The $50M cost was disclosed as a planned charge to ease the burden of "skyrocketing gas prices" on drivers — the cleanest large-cap proof-point of the [[2026 Iran conflict market impact|war fuel-shock]] transmitting directly into a US-tech operating cost line. Note that DASH operates a contractor/labor model, not an in-house driver model, so the $50M is a pricing-incentive subsidy rather than a wage adjustment per se. The structural read: when gasoline crosses ~$5/gal (per the FT May 4 reporting on US gas trajectory), gig-economy operators have to absorb part of the labor-supply cost or risk drivers leaving the platform.
+
+The Q1 +27% order growth + +37% GOV is striking because it indicates the consumer is not pulling back from food delivery despite the same-day softness in [[Vital Farms]] / [[Zoetis]] / [[Whirlpool]] / [[Tapestry]]. The bifurcation: convenience spending (DASH) holds; premium / discretionary durables fade. That's consistent with the [[McDonald's]] May 7 print — value channels resilient, premium channels softening.
+
+For the [[Uber]] read-across (Uber Eats competition), the +12% DASH move suggests positioning into the Uber Q1 print expected May 7 evening (after MCD). The [[Iran conflict supply chain cascade]] gas-price transmission applies to both names equally, so Uber's commentary on gig-economy labor will be the read tomorrow.
+
+*Sources: [DoorDash Q1 2026 release](https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-First-Quarter-2026-Financial-Results/default.aspx); [CNBC — DoorDash (DASH) earnings Q1 2026](https://www.cnbc.com/2026/05/06/doordash-dash-earnings-q1-2026.html); [Investing.com — DoorDash Q1 2026 EPS beats, revenue misses](https://www.investing.com/news/transcripts/earnings-call-transcript-doordash-q1-2026-eps-beats-revenue-misses-93CH-4665780); [Quartz — DoorDash Q1 2026 earnings: record orders, revenue miss](https://qz.com/doordash-earnings-record-orders-revenue-miss-050726).*
+
+---
+
 ## Related
 
 - [[Uber]] — competitor (Uber Eats)

@@ -237,14 +237,50 @@ The piece extends Brooks's broader thesis — that the [[2026 Strait of Hormuz c
 
 *Source: [Another US Tariff Shock for Germany](https://robinjbrooks.substack.com/p/another-us-tariff-shock-for-germany), May 4 2026.*
 
+### "Taking Stock of the US Blockade" (May 5)
+
+Brooks pushed back against the increasingly common framing that the US blockade of Iran has "failed." His position: assess effectiveness against the operating constraints rather than the headline goal. The piece counters claims that "the blockade has failed" by mapping concrete operational data on transit volume, ship turnarounds, and the shadow-fleet reduction that has accompanied the formal blockade.
+
+The structural read sits on top of the [[CENTCOM]] / [[US Navy]] disclosure that 36+ Iranian-flagged tankers have been turned back into the Persian Gulf since dual-blockade phase began (per [[2026 Strait of Hormuz crisis]]) and the [[Stephen Stapczynski]] (Bloomberg, Apr 27) supply-balance math showing demand destruction propagating to developed markets. Brooks's argument: the blockade's success metric is reduced Iranian oil revenue + reduced shadow-fleet activity, not "Hormuz fully open" — and on those metrics, the operational pressure is biting.
+
+This frames into the May 6-7 [[Trump]] "Project Freedom" pause and 14-point MoU framework as Iran responding to economic pressure that's working, not capitulation to a failed military posture. See [[2026 Strait of Hormuz crisis#May 6-7, 2026]] for the diplomatic context.
+
+*Source: [Taking Stock of the US Blockade](https://robinjbrooks.substack.com/p/taking-stock-of-the-us-blockade), May 5 2026.*
+
+### "Emerging Market Reserve Losses" (May 6)
+
+Brooks documented FX reserve drawdowns concentrated in three countries: [[Turkey]] has seen the biggest FX reserve losses by far, followed by [[India]] and [[Pakistan]]. The piece extends the [[Iran conflict war duration]] / Saudi windfall analysis from the asymmetric-pain side — countries with high Gulf-oil dependency + high-yield-sensitive currencies + thin reserve buffers are paying the war's external-account cost.
+
+The rank ordering maps to the [[Strait of Hormuz]] dependency framework already in this note (Apr 5 entry / vault [[2026 Strait of Hormuz crisis#Demand-side vulnerability (Asia)|UN Comtrade analysis]]):
+- [[Pakistan]]: ~99% Gulf share of oil imports + IMF-program-dependent reserves; structural reserve-loss exposure
+- [[India]]: ~49% Gulf share + INR depreciation pressure + thin reserve buffer relative to import-cover days
+- [[Turkey]]: macro-policy-mix-driven reserve loss compounding the energy-import drag (FX reserves were already weak pre-war)
+
+The piece is the bookend to Brooks's late-April Apr 24 PMI piece (UK/Japan supplier-delivery z-scores 3.2-3.3 vs US/Eurozone 1.3) — same asymmetric-pain framework now extended from manufacturing-economy stress to FX-reserve attrition. The two together form the cleanest empirical case that the Iran war's costs are landing on small open economies, not on the US.
+
+*Source: [Emerging Market Reserve Losses](https://robinjbrooks.substack.com/p/emerging-market-reserve-losses), May 6 2026.*
+
+### "The Dollar Outlook After The War" (May 7)
+
+Brooks's third piece in three days examined dollar dynamics after a hypothetical war end. The framing assumes the May 6-7 [[Trump]] 14-point MoU framework reaches a finalized agreement and asks: does the dollar weaken on resolution (energy-shock relief reduces safe-haven demand) or strengthen on resolution (the war exposed structural dollar dependency that gets reaffirmed)?
+
+Brooks's read leans toward weakness on resolution but with a structural caveat: the war forced demonstrated [[de-dollarization]] paths that don't unwind cleanly even after peace. The [[Iran]] / [[China]] yuan-settlement pricing for [[Strait of Hormuz|Hormuz]] transit ([[Hormuz Transit Regime]] note in the vault) created actual transactional infrastructure that will outlast any specific deal. Same applies to the [[Saudi Arabia]] / [[China]] yuan-settled crude cargoes that proliferated during the war's acute phase.
+
+The post is the cleanest [[Iran conflict FX dynamics]] companion read for the May 6-7 [[2026 Strait of Hormuz crisis#May 6-7, 2026 — "Project Freedom" pause + 14-point MoU framework + Gulf airspace denials|"Project Freedom" pause + 14-point MoU]] sequence. Practical implication for [[US dollar|DXY]] / EUR-USD forecasting: the structural-yuan-floor argument means the war-end dollar weakness is bounded by floor demand rather than uncapped.
+
+*Source: [The Dollar Outlook After The War](https://robinjbrooks.substack.com/p/the-dollar-outlook-after-the-war), May 7 2026.*
+
 ## Related
 
 - [[2026 Iran conflict market impact]]
 - [[Strait of Hormuz]]
 - [[Iran conflict war duration]] - Saudi windfall section
 - [[Iran conflict oil price timeline]]
+- [[Iran conflict FX dynamics]] — May 7 dollar outlook companion
 - [[East-West Pipeline]] - Yanbu bypass economics
 - [[Saudi Arabia]]
+- [[Hormuz Transit Regime]] — yuan-settlement infrastructure that survives deal
+- [[De-dollarization]] — structural channel preserved by war infrastructure
 
 ### Cross-vault
 - [Geopolitics: Robin J. Brooks](obsidian://open?vault=geopolitics&file=Analysts%2FRobin%20J.%20Brooks) - macro/energy analysis profile

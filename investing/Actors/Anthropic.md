@@ -693,15 +693,59 @@ Why direct purchase matters:
 - Own infrastructure = lower long-term cost
 - Validates [[Crypto-to-AI pivot]] thesis
 
-### Summary: Three compute paths
+### Summary: Three compute paths (now four)
 
 | Path | Chips | Ownership | Use case |
 |------|-------|-----------|----------|
 | [[Google Cloud]] | TPUs | Rented | Flexible capacity |
 | AWS | Trainium | Rented | Training, inference, Bedrock distribution; $100B+ 10-year commitment |
 | Broadcom direct | TPUv7 | Owned | Core training clusters |
+| [[SpaceX]] / [[Colossus 1]] | NVIDIA H100/H200 (220K+ GPUs, 300MW+) | Rented | Training (added May 6, 2026) |
 
-All roads lead to [[TSMC]] - TPUs and Trainium fabbed there.
+All roads lead to [[TSMC]] — TPUs, Trainium, and NVIDIA H100/H200 all fabbed there.
+
+### [[SpaceX]] compute deal (May 6, 2026)
+
+[[Anthropic]] signed a compute agreement with [[SpaceX]] granting access to 300 MW+ of capacity and 220,000+ [[NVIDIA H100|NVIDIA GPUs]] at the [[Colossus 1]] supercomputer in Memphis, Tennessee. The deal also includes "expressed interest" — not yet a binding contract — in developing multiple gigawatts of orbital AI compute capacity over a longer horizon.
+
+The terms matter for three threads in the [[Anthropic]] note:
+
+1. *Compute-capacity binding is loosening.* The [[Dylan Patel]] Apr 23 framing of compute as the binding constraint on Anthropic's revenue trajectory ("a model where if the world had enough compute, it'd be $500B of revenue" — re: [[Mythos]]) is being directly addressed by the SpaceX deal. 300 MW + 220K GPUs is a meaningful additional capacity slug — closer to ~1 GW-equivalent at H100 inference economics, against the 5-6 GW year-end-2026 target Patel mapped in March. The deal effectively plugs a substantive portion of the gap between current capacity (~2-2.5 GW) and target.
+
+2. *NVIDIA compute path opened.* The prior three paths (Google TPUs, AWS Trainium, Broadcom direct TPUs) were all custom-silicon paths that bypassed [[NVIDIA]]. The SpaceX deal is the first time Anthropic has signed for material NVIDIA-GPU capacity in 2026. This is a strategic shift — NVIDIA's H100/H200 fleet is the largest deployable inference base globally, and Anthropic was previously trying to optimize away from it on cost grounds. The reversal implies Anthropic now values capacity-availability above per-token-cost optimization for the medium term.
+
+3. *[[Colossus 1]] is the [[Memphis]] supercomputer originally built by [[xAI]] / [[Elon Musk]] / [[X.AI]] for [[Grok]] training; the SpaceX wrapper of the deal is the [[X Corp]] / [[Musk-affiliated]] compute pool monetization*. The fact that [[Anthropic]] (the most explicit safety-coded lab) is now a major customer of the [[Elon Musk]] compute infrastructure is structurally noteworthy — it implies that capacity availability is the binding business consideration rather than alignment with the supplier's parent-org positioning. See [[xAI]], [[Grok]] for the supplier-side context.
+
+The "multiple gigawatts of orbital AI compute" expressed interest is far more speculative — orbital data centers are theoretical at scale, and SpaceX hasn't deployed any production AI training silicon to orbit. Treat as forward optionality with low near-term execution probability.
+
+*Sources: [Dev.to — Anthropic strikes compute deal with SpaceX](https://dev.to/mcrolly/anthropic-strikes-compute-deal-with-spacex-what-it-means-for-the-future-of-ai-1moj); [The Drive 93.3 — SpaceX to give Anthropic access to its massive AI supercomputer](https://www.933thedrive.com/2026/05/06/spacex-to-give-anthropic-access-to-its-massive-ai-supercomputer/); search-result aggregation May 7, 2026.*
+
+### [[Anthropic-Wall Street JV]] — $1.5B Goldman / Blackstone / H&F deployment vehicle (May 4, 2026)
+
+Anthropic launched a $1.5B joint venture with [[Goldman Sachs]], [[Blackstone]], and [[Hellman & Friedman]] to deploy [[Claude]] inside their portfolio companies through embedded engineers. The structural details:
+
+- [[Anthropic]], [[Blackstone]], and [[Hellman & Friedman]] each committed roughly $300M
+- [[Goldman Sachs]] joined as a founding partner with a smaller stake
+- Remaining capital sourced from [[Apollo Global Management]], [[General Atlantic]], [[GIC]] (Singapore sovereign wealth fund), [[Leonard Green]], and [[Sequoia Capital]]
+- Total commitment: $1.5B
+- Primary deployment vector: embedded Anthropic engineers inside PE/asset-manager portfolio companies, building Claude-powered automation for the underlying businesses
+
+The strategic read is that this is Anthropic's response to the [[OpenAI]] enterprise-deployment lead. [[OpenAI]] has been the default enterprise AI vendor through 2025-early 2026 because of [[Microsoft]]'s sales-channel access (Copilot embedded in Office 365). Anthropic's response is to skip the enterprise-IT sales channel entirely and embed in the financial-sponsor portfolio company channel — every PE-owned mid-market business, every asset-manager portfolio company. Each engagement is essentially a custom Claude-powered automation built by Anthropic engineers, paid for by the sponsor's portfolio-value-creation budget.
+
+The [[Fortune]] framing (May 4) was that this is also a shot at the consulting industry. The traditional model — a [[McKinsey]] / [[BCG]] / [[Bain]] team embedded for 6 weeks at a portfolio company at $1-3M of fees — is now being undercut by an Anthropic engineer pair embedded for the same period building a Claude automation system at a fraction of the cost and with the work product owned by the portfolio company. If executed at scale, this displaces a meaningful slice of the management consulting addressable market — see [[Big Law transformation]] and [[McKinsey]] notes for the broader consulting-disruption thread.
+
+Cross-name reads:
+- [[Goldman Sachs]] — first major bank to commit to a "Claude as a deployment partner" structure; structural distance from the OpenAI / Microsoft camp
+- [[Blackstone]] — largest GP commitment; portfolio of ~250 portfolio companies is the primary deployment ground
+- [[Apollo Global Management]] — second-tier participant; smaller commitment
+- [[General Atlantic]] / [[GIC]] / [[Leonard Green]] — more LP-style than operating-deployment partners
+- [[Sequoia Capital]] — the only VC participant; signals a venture-side bridge to Anthropic-customer startups
+
+Combined with the same-week [[Google Cloud]] $200B / 5-year commitment that surfaced in late April and the May 6 [[SpaceX]] compute deal, the May 2026 sequence is the cleanest evidence yet that Anthropic is now executing a multi-vector commercial-deployment + compute-supply strategy at scale rather than the single-vendor / single-product profile that defined the company through 2024-2025.
+
+*Sources: [Fortune — Anthropic takes shot at consulting industry in joint venture with Wall Street giants](https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs/); [RoboRhythms — Anthropic Just Locked In a $1.5B Wall Street AI Venture in May 2026](https://www.roborhythms.com/anthropic-wall-street-enterprise-ai-venture-may-2026/); related search-result aggregation May 7, 2026.*
+
+---
 
 ### Multi-chip competence as moat (Apr 2026)
 

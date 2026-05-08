@@ -209,6 +209,14 @@ SNOW -11.8% (3.6σ) while S&P 500 +0.62%. The largest sigma move among vault act
 
 ---
 
+## May 7, 2026 — sympathy rally on Datadog beat (+8.8%)
+
+SNOW closed +8.8% to $152.10 from $139.74 with no own catalyst — a sympathy move on the [[Datadog]] Q1 2026 print (DDOG +31.3%; rev $1.006B +32% YoY). The bid is positioning ahead of Snowflake's own Q1 FY27 print (May 27, end of April quarter) where the Street is forecasting roughly 27% YoY revenue growth. The May 7 move is partial reversal of the year-to-date de-rating that left SNOW at -35% in early May; it does not address the structural [[Databricks]] AI-revenue gap (14x) or the [[Sridhar Ramaswamy|leadership transition]] uncertainty. The risk into the May 27 print is asymmetric — sympathy bid raised the bar on the actual print, while the structural setup against [[Databricks]] is unchanged. See [[Datadog]] May 7 Q1 2026 section for the broader software-AI repricing dynamic.
+
+*Sources: [Snowflake — Q1 FY27 release date announcement](https://www.snowflake.com/en/news/press-releases/snowflake-to-announce-q1-fy27-financial-results-may-27-2026/); [Bloomberg — US Premarket Movers May 7](https://www.bloomberg.com/news/articles/2026-05-07/us-stock-futures-today-doordash-fortinet-mcdonald-s-whirlpool).*
+
+---
+
 ## Related
 
 - [[Databricks]] — competitor (lakehouse vs warehouse, 14x AI revenue gap)

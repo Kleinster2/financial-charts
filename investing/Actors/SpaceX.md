@@ -75,6 +75,20 @@ See [[SpaceX Cursor partnership and acquisition option April 2026]] for full ter
 
 ---
 
+## Anthropic compute deal (May 6, 2026)
+
+[[SpaceX]] signed a compute agreement with [[Anthropic]] granting Anthropic access to 300 MW+ of capacity and 220,000+ [[NVIDIA H100|NVIDIA GPUs]] at the [[Colossus 1]] supercomputer in [[Memphis]]. The deal also includes "expressed interest" in developing multiple gigawatts of orbital AI compute capacity.
+
+The structural read for SpaceX is the inversion of the [[xAI]] / [[Grok]] capacity-utilization profile. [[Colossus 1]] was built primarily for xAI's [[Grok]] training, but Grok's revenue ramp has lagged [[OpenAI]] / [[Anthropic]] / [[Google DeepMind]] through 2025-early 2026 (xAI revenue ~$208M in 9M 2025 per the [[xAI acquisition (Feb 2, 2026)]] section above). Selling Colossus 1 capacity to Anthropic monetizes the spare capacity at scale and turns Colossus from a [[Grok]]-cost-center into a [[SpaceX]] / [[xAI]] compute-marketplace asset.
+
+The deal also gives [[SpaceX]] a recurring compute-rental revenue stream that is independent of [[Grok]]'s end-product traction. For the IPO narrative (June 2026 target), having three large external compute customers ([[Cursor]] training workload + [[Anthropic]] + the in-house [[Tesla]] / [[xAI]] users) is materially more compelling than a single internal customer. See [[Anthropic#SpaceX compute deal (May 6, 2026)]] for the buyer-side context, and [[Colossus 1]] for the underlying infrastructure detail.
+
+The orbital-AI-compute "expressed interest" is far more speculative — orbital data centers don't exist at production scale yet and [[Starship]] is still pre-operational for heavy-payload orbital deliveries. The signal value is thematic alignment with [[Sovereign AI stack]] / [[Space data centers]] frames already in the SpaceX note.
+
+*Sources: [Dev.to — Anthropic strikes compute deal with SpaceX](https://dev.to/mcrolly/anthropic-strikes-compute-deal-with-spacex-what-it-means-for-the-future-of-ai-1moj); [The Drive 93.3 — SpaceX to give Anthropic access to its massive AI supercomputer](https://www.933thedrive.com/2026/05/06/spacex-to-give-anthropic-access-to-its-massive-ai-supercomputer/).*
+
+---
+
 ## xAI acquisition (Feb 2, 2026)
 
 SpaceX acquired xAI — deal closed:

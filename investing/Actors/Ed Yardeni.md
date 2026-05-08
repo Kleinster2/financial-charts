@@ -220,3 +220,25 @@ This is the cleanest sell-side example of the 2026 sector-rotation regime, and i
 - [Yardeni QuickTakes: Between Iran and a Hard Place (Mar 9)](https://www.yardeniquicktakes.com/deep-dive-between-iran-and-a-hard-place/)
 - [Fortune: Meltdown odds jump to 35% (Mar 9)](https://fortune.com/2026/03/09/stock-market-meltdown-odds-1970s-stagflation-us-iran-war-oil-prices-inflation/)
 - [Yardeni QuickTakes: Is Less Dire Strait Easing Market Fears? (Mar 18)](https://www.yardeniquicktakes.com/weekly-webcast-is-less-dire-strait-easing-market-fears/)
+
+---
+
+## May 5, 2026 — rally continues; S&P 7,700 by year-end
+
+Yardeni on [[CNBC]] May 5: market rally will continue into next year. Updated probability map and price target:
+
+| Scenario | Probability | Backdrop |
+|----------|-------------|----------|
+| Roaring 2020s base case | 60% (raised from prior) | record EPS, broadening participation |
+| Bear case (recession or recession fears) | 20% | — |
+| Meltdown/meltup tail | 20% | — |
+
+Year-end 2026 S&P 500 price target: 7,700, driven by record bottom-line numbers, broadening market participation, and an economy "that refuses to falter." Q2 2026 real GDP tracking 3.7%. Yardeni's "Buzz Lightyear Theory" of AI extends his Roaring 2020s framework — AI-driven productivity / data revolution as the durable multi-year tailwind, "to infinity and beyond."
+
+Yardeni Research: 2026 may be a rare year in which analysts don't cut their EPS forecasts as the year unfolds — a structural argument that earnings revisions stay flat-to-up rather than the typical 5-10% mid-year cuts. If correct, that compresses the historical "Q3 earnings disappointment" pattern that has weighed on H2 SPX returns in prior cycles.
+
+The framework pairs with [[Mike Wilson]] May 4 ($600B 2026 capex + 16% Q1 EPS growth) — both bull-side strategists are now positioning for a no-revisions-cut year, which is the structural pre-condition for Yardeni's 7,700 year-end target. The disagreement with bears ([[Lyn Alden]] stagflation-hedge frame, [[2026 recession risk]] consumer-side cracks) is on whether the no-cut hypothesis survives the H2 transition that the [[McDonald's]] May 7 commentary ("consumer environment getting worse") signals is in process.
+
+Cross-name read with the May 7 mover tape: the software / AI / cybersecurity strength ([[Datadog]] +31.3%, [[Fortinet]] +23.7%, [[Axon]] +11.9%) supports Yardeni's case; the consumer-discretionary fade ([[Vital Farms]] -23.8%, [[Zoetis]] -21.1%, [[Whirlpool]] -13.9%) supports the bear-side. The same-day bifurcation is the test the bull case has to survive.
+
+*Sources: [CNBC — Market rally will keep going into next year, says Yardeni Research's Ed Yardeni](https://www.cnbc.com/video/2026/05/05/market-rally-will-keep-going-into-next-year-says-yardeni-researchs-ed-yardeni.html), May 5 2026; [Yardeni Quick Takes — 2026 may be a rare year](https://www.yardeniquicktakes.com/).*

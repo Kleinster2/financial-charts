@@ -1,0 +1,27 @@
+# Zoetis cluster — animal health pharma + adjacent vet ecosystem
+# Primary actor: ZTS (Zoetis Inc., NYSE)
+# Test: does ZTS trade as part of a coherent animal-health cluster,
+# or does it correlate more tightly with broad large-cap pharma (PFE/MRK/LLY)
+# than with the narrow vet-ecosystem cohort (ELAN/IDXX/HSIC/CHWY)?
+name: Animal health
+primary: ZTS
+prefix: zts-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [ZTS, ELAN, IDXX, HSIC]
+  big_pharma:
+    color: "#000000"
+    tickers: [PFE, MRK, LLY]
+  pet_retail:
+    color: "#FF6F00"
+    tickers: [CHWY, FRPT, PETQ]
+  consumer_staples:
+    color: "#26A69A"
+    tickers: [PG, CL, KMB]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLV, IBB, SPY]

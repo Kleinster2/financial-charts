@@ -58,4 +58,19 @@ Germini's geographic edge is on Brazil — both as a [[Petrobras]] / [[Brazil cl
 - [[Brazil Biodiesel Program]] — Brazil-specific refining context
 - [[Petrobras]] — Brazil energy hub
 
+## May 5, 2026 — "The Crude Exporter That Still Imports Diesel"
+
+Tuesday off-cycle ENERGY Pipeline post. The title alone identifies the structural [[Brazil]] paradox at the heart of Germini's recent coverage: Brazil is a major net crude exporter (especially the [[Pre-salt]] heavy / sweet barrels) but remains a net diesel importer because of the [[Refining slate rigidity]] thesis — Brazilian refineries are geographically and technically biased toward producing gasoline / naphtha / fuel oil rather than the middle-distillate diesel slate the domestic agriculture / trucking economy demands.
+
+The piece extends the Apr 29 "May Diesel Cliff — Three Cargoes, No Buyers, Thirty Days" thread. The structural read for [[Petrobras]] is that the export-import paradox compresses domestic refining margin during the Iran-war supply-shock period — refining gross margin is squeezed from the diesel-import-cost side simultaneously with the crude-export-revenue side normalizing. The result is an unusually sharp Brazilian crack-spread compression that doesn't show up in headline crude prices.
+
+Cross-vault implications:
+- [[Petrobras]] Q1 2026 results (when reported, likely mid-May) will test the refining-margin compression thesis
+- [[2026 Strait of Hormuz crisis#Watch for]] flagged the "Brazil diesel cliff" (Felipe Germini Apr 29) as an outstanding watch-list item — the May 5 piece is the next confirmation point
+- [[Brazil corporate bond rout February 2026]] — refining margin compression is a different transmission than the corporate bond stress that defined February, but they overlap in [[Petrobras]] / [[Vibra]] / [[Cosan]] credit spreads
+
+*Source: [The Crude Exporter That Still Imports Diesel](https://fgermini.substack.com), Felipe Germini ENERGY Pipeline, May 5 2026.*
+
+---
+
 *Created 2026-05-02 — substack analyst stub.*

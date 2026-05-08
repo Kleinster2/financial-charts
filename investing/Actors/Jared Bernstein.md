@@ -72,6 +72,38 @@ If the tariff regime keeps drifting between maximal rhetoric and messy unwind, B
 
 ---
 
+## May 4-7, 2026 — fiscal trio: AI / jobs, Kalecki / labor share, Three Big Numbers
+
+Bernstein published three Substack pieces in the May 1-6 window mapping onto fiscal-dominance, labor-share, and consumer-pulse threads:
+
+### "How's The American Consumer Doing?" (May 1)
+
+Lead-in for the trio. Bernstein's read: the American consumer is showing increased stress in the high-frequency data even as headline metrics stay benign. The piece sets up the "consumer environment getting worse" thread that [[Chris Kempczinski]] explicitly named at the May 7 [[McDonald's]] print.
+
+### "Michael Kalecki, Full Employment, Political Power, and the Labor Share of National Income" (May 3)
+
+Kalecki-grounded analysis of the political economy of full employment — that capital's resistance to sustained full employment is structural rather than cyclical. The Kalecki frame: full employment shifts bargaining power toward labor and erodes the "discipline of the sack" (the threat of unemployment), which capital structurally resists. Bernstein applies this to current US labor-market data, where headline unemployment is low but wage-share-of-GDP remains compressed below pre-2020 trends.
+
+### "AI and Jobs: Why Is There More Fear Here Than in Other Countries?" (May 4)
+
+Bernstein on why US public discourse on AI-induced job displacement is louder than in peer economies. The argument: weaker safety nets + thinner unemployment insurance + healthcare tied to employment means an AI disruption that displaces 10% of jobs has more immediate household-level impact in the US than in Western Europe or Japan. This frames [[2026 recession risk]] / consumer-side anxiety into a structural-policy explanation rather than a transient AI-cycle phenomenon.
+
+For investing-vault tracking, this matters because consumer-side cracks ([[Vital Farms]] -23.8%, [[Zoetis]] -21.1%, [[Whirlpool]] -13.9% on May 7) sit on top of an unusually thin household balance-sheet buffer. Bernstein's framework implies the consumer-pulse fade has structural depth, not just a one-quarter air pocket.
+
+### "Three Big Numbers: The Debt, The GDP, and the Wealth" (May 6)
+
+Bernstein on three macro metrics that frame the fiscal debate: federal debt, GDP, and household wealth. The structural points: debt-to-GDP at high range, wealth concentration in the top 10%, and the gap between aggregate-economy data (strong) and median-household experience (stressed). This is the closest Bernstein comes to a [[Lyn Alden]]-style fiscal-dominance frame — accumulating debt creates a structural backdrop for inflation pressure and labor-share compression.
+
+The piece pairs with [[Adam Tooze]]'s May 5 "Top Links 1093 — GOP tax problem" — both Bernstein and Tooze are mapping the fiscal-political-economy frame as the bottleneck for the next cyclical normalization.
+
+### "Amidst the Geopolitics of War, Gov't Is Failing In One of Its Key Roles" (May 7)
+
+Latest post (within hours of vault ingestion). Bernstein arguing that the US government is failing in a core role — likely framed around the [[2026 Strait of Hormuz crisis]] / [[Iran conflict economic disruption]] thread, given the Apr 13 post precedent. Need to fully ingest text when accessible.
+
+*Sources: [econjared.substack.com](https://econjared.substack.com), May 1-7 2026 posts.*
+
+---
+
 ## Related
 
 - [[Council of Economic Advisers]] — the institution Bernstein chaired
@@ -79,7 +111,10 @@ If the tariff regime keeps drifting between maximal rhetoric and messy unwind, B
 - [[Center on Budget and Policy Priorities]] — think tank affiliation
 - [[Lyn Alden]] — adjacent independent macro voice with fiscal-dominance lens
 - [[Ed Yardeni]] — counter-voice from equity-strategy side
+- [[Mike Wilson]] — counter-voice on H1 earnings vs Bernstein's H2 consumer-cracks frame
 - [[2026 Strait of Hormuz crisis]] — the event his Apr 13 post addresses
 - [[Helima Croft]] · [[Robin J. Brooks]] · [[Robert Pape]] — parallel analyst voices on the blockade
+- [[2026 recession risk]] — consumer-pulse + fiscal-dominance frame
+- [[Kalecki effect]] — Bernstein's May 3 frame on full employment + labor share
 
 *Created 2026-04-12. Updated 2026-04-15.*

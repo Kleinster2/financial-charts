@@ -1,0 +1,27 @@
+# Whirlpool cluster — major-appliance + adjacent housing-cycle durables
+# Primary actor: WHR (Whirlpool Corporation, NYSE)
+# Test: does WHR trade as part of an appliance / housing-cycle durables cluster,
+# or as a sector orphan whose moves are dominated by company-specific factors
+# (tariffs, FY-guide cycles) more than peer dynamics?
+name: Appliance / housing durables
+primary: WHR
+prefix: whr-cluster
+threshold: 0.4
+window_end: 2026-04-30
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [WHR, MAS, FBIN, NWL, SWK]
+  homebuilders:
+    color: "#FF6F00"
+    tickers: [DHI, LEN, NVR, PHM]
+  home_improvement:
+    color: "#7E57C2"
+    tickers: [HD, LOW]
+  multifamily_reit:
+    color: "#26A69A"
+    tickers: [AVB, CPT]
+  etf:
+    color: "#9E9E9E"
+    tickers: [XLY, XLI, XHB, ITB, SPY]

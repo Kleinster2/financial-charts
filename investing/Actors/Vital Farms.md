@@ -82,6 +82,27 @@ While [[Avian Influenza]] devastated the U.S. egg industry (100M+ birds affected
 
 *Source: Company filings, Vital Farms IR. FY24 ended Dec 2024.*
 
+## Q1 2026 earnings + butter exit (May 7, 2026) — premium-egg consumer pulled
+
+VITL closed -23.8% on May 7 to $9.14 from $12.00 — the steepest single-day move in the company's history and the cleanest single-name expression of premium-consumer fade in the May 7 mover tape. Cumulative damage YTD now exceeds 60% from January peaks.
+
+| Metric | Q1 2026 | Consensus | YoY |
+|--------|---------|-----------|-----|
+| Net revenue | $187.2M | — | +15.4% |
+| Net loss | -$1.5M | — | (loss vs prior profit) |
+| EPS | -$0.03 | +$0.07 | (miss by $0.10) |
+| Adjusted EBITDA | $5.0M | — | — |
+
+The bigger move was the FY26 outlook: net revenue cut to $775-800M, implying 5-7% YoY growth versus the $909.2M consensus and the company's own [[Investor Day]] $1B 2027 target. The math is cleanest on the 5-year arc — the table above showed [[Vital Farms]] tracking $755-765M FY25 with prior FY26 implied above $900M; the cut to $775-800M effectively flatlines growth. The bear case in the prior section ("Premium product ($7-9/dozen) vulnerable in recession — untested as public company in severe downturn") is now testing in real time.
+
+The butter-business exit (planned wind-down by end of FY26, citing supply-chain complexity and volatile international economics) confirms the pattern: management is cutting peripheral SKUs to defend the core shell-egg margin profile. VITL is concentrating exposure rather than diversifying through the consumer pulse.
+
+The DA Davidson downgrade pre-announcement (egg-supply pressure framing) and the multi-broker downgrade wave post-print add attribution: this is not just a cyclical Q1 miss — it's a structural reset on the 28% growth profile that defined the 2024-2025 IPO-era story.
+
+For the cross-name read: VITL pairs with [[Zoetis]] -21.1% on the same day as the cleanest dual signal of premium-pet/premium-food consumer fade. The two share no operating overlap but share the same customer demographic — affluent suburban household pulling discretionary spending. See [[Zoetis]] for the pet-care companion read.
+
+*Sources: [ChartMill — VITL Q1 Earnings Miss and Downbeat Outlook Trigger Massive Share Sell-Off](https://www.chartmill.com/news/VITL/Chartmill-47728-VITAL-FARMS-INC-NASDAQVITL-Q1-Earnings-Miss-and-Downbeat-Outlook-Trigger-Massive-Share-Sell-Off); [stocktitan — Vital Farms posts Q1 loss, plans butter exit and trims 2026 capex](https://www.stocktitan.net/sec-filings/VITL/8-k-vital-farms-inc-reports-material-event-a64da8e94122.html); [Investing.com — DA Davidson downgrades Vital Farms stock rating](https://www.investing.com/news/analyst-ratings/da-davidson-downgrades-vital-farms-stock-rating-on-egg-supply-pressures-93CH-4655542).*
+
 ## Linoleic acid controversy (Jan 2026)
 
 Viral social media campaign (Dec 2025-Jan 2026) claimed Vital Farms eggs contain ~23.5% linoleic acid (omega-6) in their fat profile — comparable to canola oil — because hens eat corn/soy feed. Influencer videos framed this as greenwashing: premium "pasture-raised" eggs nutritionally similar to conventional. VITL stock dropped ~7% on Jan 20.

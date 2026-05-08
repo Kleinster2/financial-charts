@@ -69,6 +69,32 @@ Accelerating: [[Google]] Cloud partnership for AI.
 
 ---
 
+## Q1 2026 results (May 7, 2026) — beat against soft setup; CEO flags consumer "may be getting worse"
+
+MCD reported Q1 2026 May 7 pre-open. Stock had hit a 15-month low into the print on consumer-pulse concerns, then opened +3% on the beat before fading some of the gain through the day on management commentary. Cleanest read: a beat against a low bar, with CEO [[Chris Kempczinski]] explicitly saying the consumer environment is "certainly not improving, and it may be getting a little bit worse."
+
+| Metric | Q1 2026 | Consensus | YoY |
+|--------|---------|-----------|-----|
+| Revenue | $6.52B | $6.46B | +9% |
+| GAAP net income | $1.98B ($2.78/share) | — | up from $1.87B / $2.60 |
+| Adjusted EPS | $2.83 | $2.75 | — |
+| US same-store sales | — | — | +3.8% |
+| Intl operated markets SSS | +3.9% | — | — |
+| Intl developmental SSS | +3.4% | — | — |
+| Total comps | +3.8% | +3.7% | inline |
+
+Two transmission channels matter for the macro vault read.
+
+First, the beat on the value playbook works. McDonald's used a value push (extended McValue platform + viral burger launch) to defend US traffic against the broader consumer fade visible in the same-day [[Vital Farms]] / [[Zoetis]] / [[Whirlpool]] / [[Tapestry]] tape. Same-store sales of +3.8% in the US is a relative-strength signal — most QSR peers are flat-to-down. The takeaway: MCD's franchise model + value positioning is structurally counter-cyclical to the premium-consumer fade pulling on the four names above.
+
+Second, the CEO commentary is the more important part of this print for the [[2026 recession risk]] thread. Kempczinski's "challenging environment, may be getting worse" framing is the most explicit recession-language MCD has used in this cycle. It pairs with the [[Whirlpool]] FY26 GAAP guide cut from $6.25 → $2.45-2.95 and the [[Zoetis]] FY26 guide cut on consumer-pet-pullback to form a coherent multi-name signal that the consumer environment is decelerating, not stabilizing. The bifurcation is by income: MCD value-positioning works (lower-income trade-down + visit frequency), [[Tapestry]] / [[Zoetis]] / [[Vital Farms]] / [[Whirlpool]] middle-class discretionary fades.
+
+Cross-vault read into [[Mike Wilson]]'s May 4 framing of "earnings doing the heavy lifting" — MCD's Q1 result confirms the beat-rate side of Wilson's case (16% Q1 SPX EPS growth typical, 6% surprises) but the CEO commentary supports the [[Ed Yardeni]] / consumer-pulse [[2026 recession risk]] tail. The two analyst frames are not contradictory — earnings can deliver in Q1 and the consumer can still fade in H2.
+
+*Sources: [CNBC — McDonald's (MCD) Q1 2026 earnings](https://www.cnbc.com/2026/05/07/mcdonalds-mcd-q1-2026-earnings.html); [Yahoo Finance — McDonald's to report Q1 earnings](https://finance.yahoo.com/markets/stocks/article/mcdonalds-to-report-q1-earnings-as-value-push-viral-burger-launch-may-offset-consumer-softness-190147443.html); [Schaeffer's — McDonald's Stock Hits 52-Week Low Ahead of Earnings](https://www.schaeffersresearch.com/content/analysis/2026/05/05/mcdonalds-stock-hits-52-week-low-ahead-of-earnings).*
+
+---
+
 ## Investment case
 
 Bull:

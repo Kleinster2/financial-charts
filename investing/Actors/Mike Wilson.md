@@ -165,8 +165,29 @@ The May 1 view extends his "lows are in" call from Apr 14 (now seven consecutive
 
 ---
 
+## May 4, 2026 — earnings doing the heavy lifting; $600B 2026 capex
+
+In a podcast / commentary segment dated May 4, Wilson emphasized that earnings — not headlines or the [[Federal Reserve|Fed]] — are doing the heavy lifting for the equity market right now. Three numerical claims:
+
+| Claim | Wilson's number |
+|-------|----------------|
+| Typical S&P 500 earnings growth (Q1 2026) | ~16% |
+| Median earnings surprise (Q1 2026) | ~6% |
+| US corporate capex 2026 forecast | $600B+ (well above prior consensus) |
+
+The capex number is the load-bearing piece. Wilson's argument is that corporate-level investment is accelerating to capture AI opportunities, which both supports near-term economic activity and feeds back into the corporate-spending revenue line for AI-infrastructure suppliers ([[NVIDIA]], [[AWS]], [[Azure]], [[Google Cloud|GCP]], plus the [[Datadog]] / [[MongoDB]] / [[Snowflake]] cohort whose May 7 prints confirmed the workload-monetization read). Wilson's $600B 2026 capex is materially above the consensus number from a year ago, and the gap is the key signal — companies are pulling spending forward, not deferring.
+
+Combined with his May 1 "bond vol is the bigger risk than Iran" framing and his Apr 14 "lows are in for the year" call, Wilson now has three iterations of the same underlying claim: the equity-rally case rests on earnings + AI capex, not on Fed easing or geopolitical resolution. The May 7 [[Datadog]] +31.3% / [[Fortinet]] +23.7% / [[Axon]] +11.9% beats are all partial confirmations of his framework — earnings delivering above expectations + AI capex lifting the underlying business model.
+
+The implicit divergence with [[Lyn Alden]] / stagflation-hedging analysts is on duration. Wilson's earnings-and-capex framing is a 1-2 quarter view; Alden's stagflation-portfolio framing is a 12-24 month view. Both can be right — earnings deliver in H1 2026 while consumer / fiscal cracks accumulate into H2 2026 (per [[McDonald's]] CEO May 7 commentary on consumer environment getting "a little bit worse").
+
+*Sources: Wilson commentary ([[Morgan Stanley]] May 4, 2026); cross-references in [[2026 Iran conflict market impact]] and [[2026 recession risk]].*
+
+---
+
 ## Related
 
 - [[Morgan Stanley]] · [[S&P 500]] · [[Earnings Estimates]]
 - [[Savita Subramanian]] · [[David Kostin]] · [[Marko Kolanovic]]
 - [[Bear Market]] · [[AI]] · [[Magnificent Seven]]
+- [[2026 recession risk]] — H2 2026 consumer-side vs Wilson's H1 earnings-side framing

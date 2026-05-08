@@ -137,6 +137,37 @@ Fluence = pure-play grid storage leader.
 
 ---
 
+## Q2 FY 2026 earnings (May 6, 2026) — record $10.1B backlog (+106% YoY), revenue miss
+
+FLNC reported Q2 FY2026 (quarter ended March 31) on May 6 after close. Stock closed +34.4% on May 7 to $18.22 from $13.56 — the largest single-day move in the company's history and a striking response given the headline revenue miss. The market priced the backlog growth and FY guide reaffirmation over the Q2 revenue figure.
+
+| Metric | Q2 FY 2026 | YoY |
+|--------|-----------|-----|
+| Net revenue | $464.9M | +7.7% (missed Street) |
+| GAAP gross margin | ~10.0% | improving |
+| Adjusted gross margin | ~11.1% | improving |
+| Net loss (Q2) | -$29.2M | — |
+| Net loss (H1 FY26) | -$91.8M | — |
+| Backlog | $10.1B | +106% YoY |
+
+FY 2026 guidance reaffirmed (no change):
+- Revenue: $3.2-3.6B (midpoint $3.4B, ~1.1% above sell-side)
+- Adjusted EBITDA: $40-60M
+- Implies H2 backlog conversion accelerates materially
+
+The $10.1B backlog is the print's load-bearing metric. Doubling year-over-year at the same time competing energy-storage names ([[Stem]] -16.5% same day) are showing customer-cancellation risk separates FLNC's industrial-scale customer base from the smaller distributed-storage cohort. The backlog conversion math implies ~3 years of revenue at the FY26 midpoint, giving the company unusual visibility for a small-cap industrial.
+
+The cross-name pairing with [[Albemarle]] +10.7% the same day is the cleanest cross-reference the May 6-7 tape gives: ALB on the supply-side lithium margin recovery (+148% adj EBITDA), FLNC on the demand-side storage backlog (+106% YoY). Together they close one chapter of the [[2026 recession risk]]-or-not debate for the energy-storage cycle: the cycle is real, not a head-fake. See [[Albemarle]] May 6 entry for the supply-side companion read.
+
+Implications for adjacencies:
+- [[Power constraints]] thesis confirmed — backlog growth tracks the [[AI datacenter architecture]] build-out
+- [[Clean energy for AI]] thesis: storage names with industrial-scale customer concentration ([[Crusoe Energy]], [[Google]]) outperform residential / small-commercial names ([[Sunrun|RUN]] +13.3% sympathy on May 7, [[Stem]] -16.5%)
+- [[Tesla Energy]] (Megapack) read-across — TSLA didn't move with FLNC because Megapack volume is internal demand-pull (vehicle / energy) rather than utility-RFP-driven; the divergence is a feature, not a tell
+
+*Sources: [Fluence Q2 FY 2026 release](https://www.globenewswire.com/news-release/2026/05/06/3289316/0/en/Fluence-Energy-Inc-Reports-Second-Quarter-2026-Results-Reaffirms-Fiscal-Year-2026-Guidance.html); [stocktitan — Fluence Energy grows Q2 sales, keeps 2026 outlook](https://www.stocktitan.net/sec-filings/FLNC/8-k-fluence-energy-inc-reports-material-event-af752caf750b.html); [FinancialContent — Fluence Energy Reports Sales Below Analyst Estimates In Q1 CY2026 Earnings, But Stock Soars 20.6%](https://markets.financialcontent.com/stocks/article/stockstory-2026-5-6-fluence-energy-nasdaqflnc-reports-sales-below-analyst-estimates-in-q1-cy2026-earnings-but-stock-soars-206).*
+
+---
+
 ## Related
 
 - [[Tesla Energy]] — competitor (Megapack)

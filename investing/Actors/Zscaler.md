@@ -130,6 +130,18 @@ ZS -11.3% (3.0σ) while S&P 500 +0.62%. Steepest single-day drop in the cybersec
 
 ---
 
+## May 7, 2026 — cybersecurity rally on Fortinet beat (+9.4%)
+
+ZS closed +9.4% to $151.90 from $138.83 with no own catalyst — sympathy on the [[Fortinet]] Q1 2026 print (FTNT +23.7%; rev $1.85B +20% YoY, EPS $0.82 vs $0.62 consensus, raised FY26 to $7.71-7.87B). The cybersecurity cohort moved together: ZS +9.4%, [[Palo Alto Networks]] +7.2%. The bid is partial reversal of the YTD de-rating that left ZS down 36.7% before today, and it positions ahead of ZS's Q3 FY26 print on May 26.
+
+Two threads emerge. First, the [[Fortinet]] product-revenue +40% acceleration partially answers the [[AI cybersecurity disruption basket]] / [[February 2026 AI Disruption Cascade]] thesis that AI-driven cyber spend would compress incumbent platforms — for the first time in this earnings cycle, the cybersecurity-AI customer is buying *more* infrastructure, not less. Second, the late-April [[KeyBanc]] CIO survey result (CIOs accelerating cybersecurity allocations connected to AI deployment, with [[Anthropic]]'s [[Claude Mythos]] flagged as a catalyst) now reads as the leading indicator that anchored both FTNT's call commentary and the May 7 ZS bid.
+
+The risk into May 26 is asymmetric: the sympathy bid raised the bar, while ZS still has to deliver on AI Security ARR (was tracking $400M+ as of Q2, with FY26 targets pulled forward three quarters) and address the billings/deferred-revenue weakness flagged at the prior print. See [[Fortinet]] May 7 Q1 2026 section for the broader cybersecurity rally dynamics.
+
+*Sources: [Investing.com — Why is Zscaler stock surging today](https://uk.investing.com/news/stock-market-news/why-is-zscaler-stock-surging-today-93CH-4659101); [Quiver — Zscaler jumps 7% as investors lean into prior raised ARR outlook and fresh federal-security wins](https://www.quiverquant.com/news/Zscaler+jumps+7%25+as+investors+lean+into+prior+raised+ARR+outlook+and+fresh+federal-security+wins); [Simply Wall St — Assessing Zscaler (ZS) Valuation After Peer Earnings](https://simplywall.st/stocks/us/software/nasdaq-zs/zscaler/news/assessing-zscaler-zs-valuation-after-peer-earnings-spark-ai).*
+
+---
+
 ## Related
 
 - [[Palo Alto Networks]] — competitor (Prisma SASE)

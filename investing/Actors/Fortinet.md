@@ -105,6 +105,36 @@ High gross margins, growing recurring revenue.
 
 2026-04-05: [[FortiClient]] EMS zero-day (CVE-2026-35616) exploited in the wild. Critical vulnerability in the endpoint management server — allows remote code execution without authentication. [[Fortinet]] released an emergency weekend patch. Source: BleepingComputer (Apr 5, 2026).
 
+2026-05-07: Q1 2026 earnings — beat and raise. Stock closed +23.7% to $111.24 from $89.95, the largest single-day move since the company's IPO. Q1 details:
+
+| Metric | Q1 2026 | Consensus | YoY |
+|--------|---------|-----------|------|
+| Revenue | $1.85B | ~$1.78B | +20% |
+| Non-GAAP EPS | $0.82 | $0.62 | — |
+| Product revenue | — | — | +40%+ |
+| Billings | — | — | +31% |
+| Operating cash flow | record | — | — |
+
+Management lifted FY 2026 guidance to revenue of $7.71-7.87B and non-GAAP EPS of $3.10-3.16. Q2 2026 guidance: revenue $1.83-1.93B and non-GAAP EPS $0.72-0.76, both above Street.
+
+The product-revenue acceleration matters because [[Fortinet]]'s competitive setup against [[Palo Alto Networks]] and [[CrowdStrike]] in the [[AI cybersecurity disruption basket]] thread had been read as a hardware-refresh cycle running into [[CrowdStrike]] cloud-native displacement and [[Palo Alto Networks]] platformization pressure. The +40% product growth reframes that — hardware FortiGate refreshes are still a primary AI-security investment, not a legacy spend bucket. The billings +31% confirms forward-pipeline strength rather than pull-forward dynamics.
+
+The [[KeyBanc]] CIO survey result from late April (CIOs accelerating cybersecurity allocations connected to AI deployment, with [[Anthropic]]'s [[Claude Mythos]] flagged as a catalyst) now reads as a leading indicator that landed accurately. Fortinet's call sat in the same lane: Ken Xie cited AI security as a primary product-revenue driver.
+
+### Cybersecurity sympathy moves on the FTNT print
+
+The Fortinet beat catalyzed a sector-wide cybersecurity bid:
+
+| Ticker | Move May 7 | Read |
+|--------|-----------|------|
+| [[Zscaler\|ZS]] | +9.4% to $151.90 | Pure sympathy; ZS Q3 FY26 reports May 26 |
+| [[Palo Alto Networks\|PANW]] | +7.2% to $196.99 | Sympathy on platformization read; PANW reports May 21 |
+| [[CrowdStrike\|CRWD]] | (small move) | More muted because it competes more directly on cloud-native endpoints |
+
+The pattern is the [[2026 IPO pipeline]]-era SaaS-AI repricing: the bear case (cyber consolidation, AI-displacement, customer churn) bears the burden of proof that hadn't been forced before. FTNT's product-rev acceleration + raised guide is the cleanest single-name disconfirmation of that case in the [[Cybersecurity]] cohort this quarter. See [[AI cybersecurity disruption basket]] and [[Cybersecurity]] for the broader thesis updates.
+
+*Sources: [stocktitan — Fortinet Q1 revenue rises 20%, lifts 2026 outlook](https://www.stocktitan.net/news/FTNT/fortinet-reports-strong-first-quarter-2026-financial-aiqf1lc64cd7.html); [Investing.com — Fortinet Q1 2026 earnings call transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-fortinet-exceeds-q1-2026-forecasts-with-strong-growth-93CH-4665847); [Benzinga — Fortinet Stock Surges After Q1 Beat, Strong Q2 Guidance](https://www.benzinga.com/trading-ideas/movers/26/05/52365986/fortinet-stock-surges-after-q1-beat-strong-q2-guidance).*
+
 ---
 
 ## Related

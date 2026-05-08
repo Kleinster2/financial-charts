@@ -397,6 +397,58 @@ The readthrough is strategic. OpenAI is moving downstream from general model cap
 
 ---
 
+## May 5-7, 2026 — GPT-5.5 Instant launch + $50B compute spend disclosure + AI agent phone fast-track
+
+Three OpenAI updates landed in the same 48-hour window, all reinforcing the [[Project Stargate]] / compute-binding narrative.
+
+### GPT-5.5 Instant launch (May 5-7)
+
+[[ChatGPT]] launched [[GPT-5.5]] Instant as the new default model, replacing [[GPT-5.3]] Instant for all users. Improvements per the OpenAI release: better accuracy, clarity and conciseness across everyday answers, image understanding, STEM questions, and decisions on when to web-search. The model is described as more "factually reliable" with tighter answers, fewer unnecessary follow-up questions, and reduced overformatting / gratuitous emoji output.
+
+Memory upgrade: [[ChatGPT]] Plus and Pro users now get more personalized continuous responses pulling from past chats, saved memories, files, and Gmail context (where connected). Memory sources are now visible across consumer plans for clearer control and edits.
+
+The cleanest read on GPT-5.5 vs prior: [[OpenAI]]'s default-model cadence has accelerated. [[GPT-5.4]] in March, [[GPT-5.4-Cyber]] in April (cybersecurity variant), now [[GPT-5.5]] Instant in May — three default-model updates in three months. This is the clearest competitive response to [[Anthropic]]'s [[Claude Sonnet]] 4.6 (Feb 17) → [[Claude Opus]] 4.7 (April 23) → [[Claude Mythos]] (training, not yet shipped per [[Mythos]] leak section above) sequence. Both labs are now shipping default-model updates roughly monthly — a step-change vs the quarterly cadence of 2024-2025.
+
+### Brockman: $50B compute spend in 2026 (May 5)
+
+[[Greg Brockman]] disclosed that [[OpenAI]] expects to spend $50B on compute in 2026 — up from "roughly $30M in 2017" per his Bloomberg interview. The trajectory:
+
+| Year | Compute spend |
+|------|---------------|
+| 2017 | ~$30M |
+| 2026 | $50B (announced) |
+
+That is a roughly 1,667× increase in nine years — a compounding rate of ~1.5× per year sustained for nine years. The number itself confirms the [[Dylan Patel]] Mar 13 framing of [[OpenAI]] as the compute-aggressive bidder vs [[Anthropic]]'s conservative posture, and it sets a benchmark for the [[Anthropic vs OpenAI compute race]] thread: $50B / year run rate is roughly 5-6 GW of inference capacity at $10-13B per GW per Patel's math, consistent with the H2 2026 OpenAI capacity target.
+
+The disclosure also matters for [[Project Stargate]] tracking: $50B 2026 compute spend is roughly 10% of the announced $500B Stargate JV envelope, implying the Stargate spend is back-loaded to 2027-2028 as the [[Abilene]] / [[New Mexico]] / [[Wisconsin]] sites come online and the [[Lancium]] / [[Crusoe Energy]] partner arrangements scale.
+
+Cross-name reads:
+- [[NVIDIA]] — primary supplier of the H100/H200/Blackwell capacity backing the $50B run-rate
+- [[Microsoft]] — primary cloud hyperscaler partner (post-exclusivity unwind, see Apr 27 entry)
+- [[CoreWeave]] / [[Oracle]] / [[SoftBank]] / [[NScale]] — non-Microsoft compute counterparties from the OpenAI pre-Stargate diversification phase
+
+### AI agent phone fast-tracked for 1H 2027 (May 5)
+
+OpenAI is fast-tracking its first AI-agent phone for mass production in 1H 2027 per [[9to5Mac]] reporting. Stated drivers:
+1. Supporting a year-end 2026 IPO narrative (a hardware product gives the IPO story structural depth beyond pure SaaS / API revenue)
+2. Intensifying competition in AI-agent phones — [[Apple]]'s [[Siri]]-overhauled iPhone is the primary competitive target, but also [[Google]]'s [[Gemini]]-native Pixel and [[Samsung]]'s [[Galaxy AI]] integration
+
+The phone is the [[Jony Ive]] / [[LoveFrom]] design partnership product. Hardware specifications and pricing are not disclosed; mass production timing is the leak's primary content.
+
+Strategic read: [[OpenAI]] turning into a hardware company changes the competitive map for [[Apple]]. Apple's [[App Store]] / iPhone economics depend on iPhone being the dominant mobile-AI delivery mechanism. An [[OpenAI]] phone with [[Jony Ive]] credibility and direct distribution undermines that. [[Apple]] tipping toward the Apple-relationship-weakening framing already in the OpenAI note (post-Apple-Sora-rumors and post-iOS-26-AI-shortfall) — the [[OpenAI]] hardware push accelerates the divergence.
+
+For the IPO narrative, the hardware timing is well-paced: Q4 2026 IPO + 1H 2027 hardware launch + late-2027 Stargate capacity ramp = three discrete catalysts compounding through the IPO-to-2028 window.
+
+*Sources: [Bloomberg — OpenAI to Spend $50 Billion on Computing in 2026, Brockman Says](https://www.bloomberg.com/news/articles/2026-05-05/openai-to-spend-50-billion-on-computing-in-2026-brockman-says); [9to5Mac — OpenAI's new phone being fast-tracked to launch next year](https://9to5mac.com/2026/05/05/openais-new-phone-being-fast-tracked-to-launch-next-year-per-report/); [OpenAI release notes — May 2026](https://releasebot.io/updates/openai); [CNBC — Trump admin moves further into AI oversight, will test Google, Microsoft and xAI models](https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html).*
+
+### Trump admin AI oversight expansion (May 5)
+
+Same week, the [[Trump administration]] moved further into AI oversight, with [[CAISI]] (the [[Commerce Department]]-housed Center for AI Standards and Innovation) testing [[Google]], [[Microsoft]], and [[xAI]] models. [[OpenAI]] is reportedly already being tested. The framework is voluntary but commercially meaningful: government testing creates a procurement-relevant rating that affects which models can be approved for federal-agency deployment — a material consideration given OpenAI's [[GPT-5.4-Cyber]] / federal-cyber push (Apr 22 entry).
+
+The competitive read: [[Anthropic]] — explicitly safety-coded — should benefit from any framework that rewards alignment / safety scoring on model evals. [[OpenAI]] / [[Google]] / [[Microsoft]] / [[xAI]] are now competing on a measured-safety axis they previously did not have to compete on. See [[CAISI]] for the regulatory framework detail.
+
+---
+
 ## Related
 
 - [[ChatGPT]] — consumer/enterprise interface, 75% of revenue
