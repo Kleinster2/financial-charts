@@ -5,7 +5,7 @@ description: "Generate a personal daily market newsletter after the close. Reads
 
 # Daily Newsletter
 
-Personal end-of-day market brief. The newsletter is a **saved vault artifact** at `investing/Newsletter/YYYY-MM-DD.md`, not just chat output. It's also displayed in chat for review, and can be printed to paper via the dedicated two-column script. Treat it as a vault operation — check existing infrastructure in `scripts/` before reaching for generic tooling.
+Personal end-of-day market brief. The newsletter is a **saved vault artifact** at `investing/Newsletter/YYYY-MM-DD.md`, not just chat output. It's also displayed in chat for review, automatically rendered to MP3 via ElevenLabs TTS, and can be printed to paper via the dedicated two-column script. Treat it as a vault operation — check existing infrastructure in `scripts/` before reaching for generic tooling.
 
 ## Workflow
 
@@ -88,7 +88,7 @@ The print pipeline resolves Obsidian image embeds (`![[chart.png]]` / `![[chart.
 
 Target 400-800 words total. Shorter is better if the day was quiet. Longer is fine if multiple major stories landed. Never pad.
 
-### Step 5: Save and print
+### Step 5: Save, render audio, and print
 
 1. **Save to vault.** Write the newsletter markdown to `investing/Newsletter/YYYY-MM-DD.md` with frontmatter:
 
@@ -102,7 +102,25 @@ Target 400-800 words total. Shorter is better if the day was quiet. Longer is fi
 
 2. **Display in chat** for review — same content as the saved file.
 
-3. **Print to paper** when the user says "print", "send to print", "print it", etc. Use the dedicated script, never raw `Out-Printer` or `notepad /p`:
+3. **Render to audio (default).** After saving, automatically generate the MP3 audio version:
+
+   ```
+   python scripts/audio_newsletter.py YYYY-MM-DD
+   ```
+
+   What it does: reads the saved markdown, adapts it for spoken delivery (strips wikilink brackets; expands percent ranges, dollar magnitudes, quarter and fiscal-year abbreviations, bps, MoU, σ; smooths em-dashes into comma-pauses), then renders to `investing/Newsletter/YYYY-MM-DD.mp3` via the auto-fallback chain: **ElevenLabs primary** (voice `sarah`, model `eleven_multilingual_v2`) → **OpenAI fallback** (voice `nova`, model `gpt-4o-mini-tts`) on any provider failure (auth, quota, network, server). Both keys live in `.env`. Newsletter is ~5-7 min listen at 8K chars / 3 chunks.
+
+   Open the MP3 in the user's default player after generation:
+
+   ```
+   start "" "investing/Newsletter/YYYY-MM-DD.mp3"
+   ```
+
+   **Quota note:** ElevenLabs free tier is 10K chars/month — one full newsletter consumes the monthly budget, after which the chain auto-falls-through to OpenAI without intervention. OpenAI TTS is ~$0.10/newsletter on `gpt-4o-mini-tts`, billed against the existing API account. Use `--preview` to render only the first chunk (sample test). Use `--dry-run` to inspect the adapted text without an API call. Pin to one provider with `--provider {elevenlabs,openai}` to disable fallback. Override voice with `--voice` (ElevenLabs: sarah, adam, rachel, charlotte, george, brian; OpenAI: alloy, echo, fable, onyx, nova, shimmer, ash, sage, coral).
+
+   If both providers fail, don't block the workflow — note the failure in chat and continue with print/save.
+
+4. **Print to paper** when the user says "print", "send to print", "print it", etc. Use the dedicated script, never raw `Out-Printer` or `notepad /p`:
 
    ```
    python scripts/print_newsletter.py YYYY-MM-DD --print
