@@ -96,9 +96,14 @@ def main(window, min_actors):
     print(f"Mapped {len(actor_to_ticker)} actors to tickers", file=sys.stderr)
 
     sector_actors = {}
+    skipped_allocators = []
     for md in (VAULT / 'Sectors').glob('*.md'):
         sector_name = md.stem
         text = md.read_text(encoding='utf-8', errors='ignore')
+        head = '\n'.join(text.splitlines()[:20])
+        if '#capital-allocator' in head:
+            skipped_allocators.append(sector_name)
+            continue
         seen = set()
         tickers = []
         for link in WIKILINK_RE.findall(text):
@@ -109,6 +114,9 @@ def main(window, min_actors):
                     tickers.append(t)
                     seen.add(t)
         sector_actors[sector_name] = tickers
+    if skipped_allocators:
+        print(f"Skipped {len(skipped_allocators)} #capital-allocator hubs: "
+              f"{', '.join(sorted(skipped_allocators))}", file=sys.stderr)
 
     cur.execute("SELECT Date FROM stock_prices_daily ORDER BY Date DESC LIMIT ?", (window,))
     dates = [r[0] for r in cur.fetchall()][::-1]
