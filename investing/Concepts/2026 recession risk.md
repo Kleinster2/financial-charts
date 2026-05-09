@@ -56,6 +56,28 @@ Three reinforcing pressures:
 
 **Fed implications:** [[CME FedWatch]]: 77.5% probability Fed holds through year-end. Virtually no chance of April 28-29 [[FOMC]] move. Strong headline + cooling wages + oil shock = Fed trapped between conflicting signals.
 
+### April 2026 nonfarm payrolls (May 8, 2026 release)
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Apr 2026 nonfarm payrolls | **+115,000** (vs +55K est) | [[BLS]] |
+| Mar 2026 nonfarm payrolls (revised) | **+185,000** (from +178K) | [[BLS]] (Apr revision) |
+| Unemployment rate | **4.3%** (unchanged) | [[BLS]] |
+| Labor force participation | **61.8%** (lowest since Oct 2021) | [[BLS]] |
+| Household survey employment | **-226,000** | [[BLS]] |
+| Avg hourly earnings (MoM) | **+0.2%** (below 0.3% est) | [[BLS]] |
+| Avg hourly earnings (YoY) | **+3.6%** (below 3.8% est) | [[BLS]] |
+
+**April sector detail:** Healthcare +37K (continued post-strike normalization), transportation/warehousing +30K, retail +22K, social assistance +17K. Information services -13K (the second consecutive month of tech-sector job losses, consistent with the [[Cloudflare]] / [[HubSpot]] / [[CoreWeave]] May 7-8 layoff/derate cluster).
+
+**Interpretation — the participation rate keeps doing the work.** Headline payrolls beat (115K vs 55K) but the unemployment rate held steady at 4.3% only because the labor force participation rate fell again (61.9% → 61.8%). This is the same pattern as March: the household survey shows employment falling (-226K in April after -64K in March), the labor force is shrinking, and the unemployment rate is stable through composition rather than through job creation. [[Lyn Alden]]'s "net US jobs added since Apr 2025 ~0" framing extends through the April print — the April establishment-survey beat does not change the household-survey trajectory. CEPR analyst (April 2026 jobs report writeup) framing: "rocky year, almost no hiring since last April" extends to "almost no hiring for 13 consecutive months."
+
+**Cross-reference: the Cloudflare layoff datapoint.** May 7's [[Cloudflare]] announcement of 1,100 layoffs (~20% of workforce) cited explicitly as AI substitution is the first dated, named-company validation of a structural shift the macro data has been hinting at — the [[AI labor displacement]] thread that CEPR's "frozen labor market" framing now overlaps with directly. The information-services -13K April payroll line will be tracked alongside subsequent named-company AI layoff announcements as an emerging signal.
+
+**Fed implications (post-April print):** Slowing wage growth (3.6% YoY) + below-trend payrolls + falling participation + April CPI pending = Fed-on-hold base case strengthens. Powell's commentary on the post-April trajectory will be the next inflection — if he leans into "labor market is in balance" he extends the hold; if he leans into "growth is decelerating below trend" the cut conversation reopens. The participation collapse is the analytic wedge: a falling participation rate flatters the unemployment number while reducing the productive capacity of the economy — a recession signal masked by the headline.
+
+*Sources: [BLS Employment Situation April 2026](https://www.bls.gov/news.release/empsit.nr0.htm); [CNBC — April jobs report](https://www.cnbc.com/2026/05/08/jobs-report-april-2026.html); [CEPR — April 2026 jobs report](https://cepr.net/publications/april-2026-jobs-report/); [Bank of America — April employment report](https://institute.bankofamerica.com/economic-insights/monthly-employment-report-april-2026.html); [CNN — Labor market frozen](https://www.cnn.com/2026/05/08/economy/us-jobs-report-april), May 8 2026.*
+
 ---
 
 ## Inflation trajectory

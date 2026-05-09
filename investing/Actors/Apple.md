@@ -358,6 +358,34 @@ Gurman confirms WWDC 2026 will be almost entirely focused on the [[Siri]] chatbo
 
 ---
 
+## Apple-Intel preliminary chip-making deal (May 8, 2026)
+
+WSJ reported a preliminary agreement under which [[Intel]] will manufacture chips for Apple. Talks have been "brewing for more than a year." AAPL closed +1.7% in afternoon trade; INTC closed +14.0% to $124.92. Product scope, volume, and timing not disclosed. The Intel process node implied in cross-referenced reports is [[Intel#Intel 18A launch (Jan 27, 2026)|18A]], with [[#March 2026 launch week (Mar 2-4)|MacBook Neo's]] A18-class entry-level positioning the most logical first product candidate.
+
+Three things this changes for the Apple manufacturing relationship table:
+
+| Foundry | Pre-May 8 relationship | Post-May 8 |
+|---------|----------------------|-----------|
+| [[TSMC]] | Sole-source leading edge (A-series, M-series since A10 / 2016) | Sole-source for A19/A20 mainline, but loses single-source guarantee on entry-level / non-SoC components |
+| Intel | None at leading edge since Mac Intel-to-Apple-Silicon transition (2020-23) | Preliminary agreement on undisclosed chip line at 18A |
+
+The structural shift is supply-chain optionality, not TSMC replacement. Apple's mainline iPhone 17 / iPhone 18 silicon and the M5 / M5 Pro / M5 Max Mac silicon are already locked into TSMC capacity. Even at speed, Intel-fabricated Apple silicon is unlikely to ship before late-2027 in any volume. What Apple gains immediately:
+
+1. Negotiating leverage on TSMC pricing for N2 / A14 / A16. TSMC's pricing power at the leading edge has grown each generation; the credible threat of an Intel second-source resets the ask in the next pricing cycle.
+2. Geographic diversification on the policy-risk dimension. Per Apple's own [[Apple#Rare earth supply chain|hedging pattern with MP Materials]], Cupertino reads single-country single-source dependencies as concentration risk. TSMC-Taiwan is the largest such exposure in the entire supply chain. Even partial Intel qualification is a hedge against [[Cross-Strait]] disruption.
+3. Government-relationship dividend. The WSJ reporting explicitly credits the US government (largest INTC shareholder) with brokering the talks. Apple gains regulatory goodwill on App Store, antitrust, and tax matters that compounds with [[Apple#MP Materials partnership (July 2025)|MP Materials]] and other US-domestic-supply commitments.
+
+What this does NOT change:
+- Apple's Aaa balance sheet, $100B buyback, or 2027 product roadmap.
+- TSMC's position on the mainline iPhone / Mac SoC business.
+- Apple's design moat ([[Customer lock-in via co-design]]) — Intel's manufacturing capability is the unlock; the design IP stays with Apple's silicon team.
+
+The Apple side of the trade is structurally smaller than the Intel side (which adds Apple to a NVIDIA + TERAFAB + Apple foundry-customer trifecta — see [[Intel#Apple preliminary chip-making deal (May 8, 2026)|the Intel-side analysis]]). For Apple, the deal is hedge math at the margin of a manufacturing strategy that remains TSMC-anchored.
+
+*Sources: [CNBC — Apple-Intel deal](https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html); [WSJ via Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/apple-intel-reached-preliminary-chip-165558630.html); [9to5Mac](https://9to5mac.com/2026/05/08/apple-and-intel-have-reached-a-deal-to-produce-future-chips/), May 8 2026.*
+
+---
+
 ## Q2 FY2026 earnings — record March quarter, $100B buyback (May 1, 2026)
 
 Apple reported its fiscal Q2 (March quarter) after the close on Apr 30. Revenue $111.2B (+17% YoY) — a record for any March quarter and ahead of the $109.66B consensus. Diluted EPS $2.01 (+22%) vs $1.95 expected. Gross margin 49.3%.

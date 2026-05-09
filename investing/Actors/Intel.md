@@ -410,6 +410,38 @@ The PC caution that surfaced on the call is structural, not Intel-specific. Memo
 
 ---
 
+## Apple preliminary chip-making deal (May 8, 2026)
+
+WSJ reported that [[Apple]] and Intel reached a preliminary agreement for Intel to manufacture chips for Apple, with talks "brewing for more than a year." INTC closed +14.0% to $124.92 (+2.4σ in a high-vol regime, +6.0% absolute trigger); AAPL +1.7% in afternoon trade. Intel's two-day move (Apr–May 7 → May 8) extends the [[NVIDIA-Intel partnership]] / [[TERAFAB]] / [[Apple]] sequence into the most plausible foundry-customer trifecta the [[Intel Foundry Services]] thesis has had.
+
+| Detail | Value |
+|--------|-------|
+| Source | [[WSJ]] (sources close to both companies) |
+| Status | Preliminary; product scope undisclosed |
+| Process node | Intel 18A (per multiple report cross-references) |
+| Government role | "Major role in bringing Apple to the negotiating table" — US gov is INTC's largest shareholder under the [[Lip-Bu Tan]]-era stake |
+| Apple stated motive | Diversify away from sole-source [[TSMC]] |
+| INTC stock | +14.0% to $124.92 (May 8) |
+| AAPL stock | +1.7% in afternoon trade |
+
+What changed materially:
+
+1. The [[Intel Foundry Services]] anchor-customer thesis stops being a [[NVIDIA]]-only story. Before today the external-foundry case rested on [[NVIDIA]]'s $5B equity stake (Jan 2026), the [[TERAFAB]] / [[Tesla]] / [[xAI]] / [[SpaceX]] 14A signal (Apr 7-23), and the Q1 print's CFO commentary that 14A external revenue was now in "billions, not hundreds of millions" (Apr 24). Apple validates that thesis from a different angle — Apple is the most demanding mobile/SoC customer at the leading edge, the [[Customer lock-in via co-design]] benchmark for the industry, and (until today) the most loyal TSMC anchor. If Apple is willing to qualify Intel 18A — even for a partial product line — every other potential foundry customer's diligence model gets recalibrated.
+2. Government-brokered deal surfaces a new policy lever. "Major role in bringing Apple to the negotiating table" is the explicit acknowledgment that Washington is now actively pushing US-fab-utilization mandates onto US-headquartered designers. The same lever could be used on [[Qualcomm]], [[AMD]], [[Marvell]], [[Broadcom]] — none of which currently use Intel for high-volume leading-edge production. The [[CHIPS Act]] investment-credit mechanism + INTC equity stake gives the government a structural reason to keep pulling.
+3. Apple's TSMC-exclusivity precedent breaks. Apple has been TSMC's single largest customer at every node since iPhone 7 (A10 Fusion, 2016). Even a partial qualification for Intel introduces second-source dynamics that materially lower Apple's switching cost on future nodes. For TSMC, the read is that Apple's volume is no longer permanent at any node — and the leading-edge capacity Apple locks in advance may not be 100% TSMC by the time those nodes ship.
+
+What did NOT change:
+
+- No product scope, volume, or financial terms disclosed. The "preliminary agreement" framing leaves room for the deal to slip or shrink.
+- Apple's M-series and A-series mainline products almost certainly stay on TSMC at N3P / N2 for the iPhone 17 / iPhone 18 cycle. If Intel produces anything for Apple, it's most likely an entry-level processor (per [[#Nvidia/Apple foundry talks (Jan 28, 2026)|the Jan 28 DigiTimes report]] that prefigured this) or a non-SoC component.
+- Intel's manufacturing constraints flagged in Q4 / Q1 (yield discipline, server CPU supply tight) still bound how quickly Apple-volume capacity can be allocated.
+
+The structural read is that Apple is the third major external customer to validate Intel Foundry Services in 2026 (NVIDIA Jan, TERAFAB/Tesla Apr, Apple May), all in the same calendar year. The [[Foundry Wars]] picture for the rest of the decade looks materially different than it did at the start of 2025.
+
+*Sources: [CNBC — Intel stock soars on Apple deal](https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html); [Tom's Hardware — Apple/Intel preliminary deal](https://www.tomshardware.com/tech-industry/semiconductors/apple-reportedly-strikes-deal-for-intel-to-make-some-of-its-chips-two-tech-giants-reached-a-preliminary-agreement-for-intel-to-make-processors-for-cupertino); [9to5Mac — Apple-Intel deal](https://9to5mac.com/2026/05/08/apple-and-intel-have-reached-a-deal-to-produce-future-chips/); [MacRumors](https://www.macrumors.com/2026/05/08/apple-intel-preliminary-chip-deal/); [Yahoo Finance — WSJ source](https://finance.yahoo.com/markets/stocks/articles/apple-intel-reached-preliminary-chip-165558630.html), May 8 2026.*
+
+---
+
 ## Apr 28, 2026 — $6.5B bond sale attracts $50B in orders
 
 Per Bloomberg "The China Show" 4/28/2026 broadcast: Intel attracted approximately US$50B in orders for a US$6.5B bond sale, signaling investor buy-in to the company's turnaround story. Proceeds will help [[Intel]] buy back a stake in an Irish chip plant. The 7.7× book oversubscription is unusually strong for an investment-grade industrial issuer of Intel's size and credit rating (BBB/Baa2 with [[Fitch]] negative outlook), and reflects a structural shift in how the market is pricing Intel's turnaround following the [[Lip-Bu Tan]] Q1 2026 results print on Apr 24 (revenue beat, CPU re-rating thesis traction). The framing in the broadcast: "Markets are growing more optimistic that Intel is finally seizing on a surge in AI spending."

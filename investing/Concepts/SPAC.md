@@ -102,6 +102,22 @@ Final rules adopted January 24, 2024 (effective July 1, 2024):
 
 The 2025 vintage is structurally different: smaller raises, experienced sponsors, some with reduced promotes or performance-vesting economics. But the fundamental dilution math hasn't changed.
 
+### Phase 6: Nasdaq raises listing floors (April 2026)
+
+[[Nasdaq Enhanced SPAC IPO listing standards 2026|SR-NASDAQ-2026-033]], filed April 15, 2026, operative May 15, 2026. Raises minimum SPAC IPO listing thresholds across both Nasdaq tiers, and creates a new SPAC-specific listing standard at Rule 5505(b)(4) for the Capital Market.
+
+| Tier | Threshold | Before | After |
+|------|-----------|--------|-------|
+| Global Market | MVLS | $75M | $100M |
+| Capital Market | MVLS | $50M | $75M |
+| Capital Market | Unrestricted publicly held shares | $15M | $20M |
+| Capital Market | Market makers | 3 | 4 |
+| Capital Market | Public shareholders | 300 | 400 |
+
+The rule does not change post-combination (de-SPAC) requirements and cites no statistical data — Nasdaq's stated rationale is that "acquisition companies lack operating history and revenue at IPO" and "heightened thresholds are needed to ensure sufficient liquidity, investor base, and market quality." The behaviors specifically targeted are "thinly capitalized SPACs" prone to "market manipulation by larger stockholders or through social media driven momentum" — the exact profile of the small-cap SPAC IPOs underwritten by boutique broker-dealers like [[Dominari Securities]] in the [[Sponsored reverse merger pipeline]] ecosystem.
+
+The substantive lift falls hardest on the Capital Market, where a SPAC must now raise roughly 50% more capital at IPO ($75M minimum vs $50M general standard previously) to access the lowest-tier Nasdaq listing. Expected effect: SPACs unable to clear the new floors migrate to NYSE American, OTCQX, or non-US venues. The mega-cap institutional issuer pipeline ([[SpaceX]], [[OpenAI]], [[Stripe]]) benefits indirectly from a more orderly SPAC market, even though the rule's stated rationale is retail investor protection.
+
 ---
 
 ## The investor scorecard
@@ -197,6 +213,7 @@ SPACs appear throughout the vault as a funding mechanism, usually in cautionary 
 | [[QuantumScape]] | 2020 SPAC; peaked ~$130, now ~$5 |
 | [[Joby Aviation]] | eVTOL; still pre-revenue post-SPAC |
 | [[Chamath Palihapitiya]] | 12 SPACs, ~$750M sponsor profits, median investor loss 75% |
+| [[Enhanced Group]] (ENHA) | $1.2B SPAC merger via [[A Paradise Acquisition Corp]] closed May 8, 2026; ~98% redemption; first-day market cap ~$219M; switched Nasdaq→NYSE seven days before [[Nasdaq Enhanced SPAC IPO listing standards 2026|new Nasdaq SPAC rule]] effective |
 
 ---
 
@@ -222,6 +239,7 @@ SPACs appear throughout the vault as a funding mechanism, usually in cautionary 
 - [[Fintech boom (2020-2021)]] — parallel bubble, similar timing and drivers
 - [[Sponsored reverse merger pipeline]] — adjacent listing mechanic without blank-check trust; canonical 2025–2026 case at [[Dominari Holdings]] / [[American Ventures]]
 - [[Shell company AI pivot]] — adjacent mechanic; uses already-broken shells
+- [[Nasdaq Enhanced SPAC IPO listing standards 2026]] — Phase 6 of the regulatory arc; SR-NASDAQ-2026-033, operative May 15, 2026
 
 ---
 

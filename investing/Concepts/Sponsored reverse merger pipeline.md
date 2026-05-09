@@ -124,6 +124,7 @@ The structural counter-argument: the mechanic provides genuine market access for
 ## Risks
 
 - **Regulatory reclassification:** the [[SEC]] could in principle treat the underwritten-shell-then-merger sequence as a de facto SPAC and apply the January 2024 rules (target sign-off on registration, full Securities Act liability, no forward-looking safe harbor). No such action has been announced as of May 2026.
+- Adjacent regulatory tightening (May 2026): [[Nasdaq Enhanced SPAC IPO listing standards 2026|SR-NASDAQ-2026-033]] becomes operative May 15, 2026, raising minimum SPAC IPO listing thresholds (Capital Market MVLS $50M → $75M, public shareholders 300 → 400, market makers 3 → 4). The rule does not directly cover reverse mergers, but it constrains the small-cap SPAC IPO line that broker-dealers like [[Dominari Securities]] run alongside the reverse-merger pipeline using overlapping personnel and capital. Two predicted second-order effects: (1) Dominari's broader business mix shifts more toward the reverse-merger mechanic as the SPAC IPO line narrows, which may attract regulatory attention to the reverse-merger pipeline itself; (2) if Nasdaq subsequently extends comparable listing-floor reforms to reverse-merger-equivalent rules — a logical next step in an exchange focused on "market quality" — the entire pipeline faces direct size-floor constraints.
 - **House China Committee escalation:** if the committee finds the ramp-and-dump profile applies to non-Chinese IPOs underwritten by Dominari, the broker-dealer license itself could be at risk. The 11-of-29 ratio in the China book is the disclosed concentration; the U.S. book has not been audited under the same lens.
 - **Liquidity overhang:** the merged entities inherit thin shell stockholder bases. If American Ventures SPV holders are restricted from selling for a period after close and then unwind into thin floats, post-lockup price action could be punishing — see the broader de-SPAC pattern where 77% of merged companies traded below $10 within a year.
 - **Trump premium reversal:** companies whose investor narrative leans on Trump-family backing carry obvious risk if the administration changes or if the family's political profile recedes.
@@ -139,6 +140,7 @@ The structural counter-argument: the mechanic provides genuine market access for
 - [[Trump family investment portfolio]] — political-economic hub this pipeline populates
 - [[Lutnick family conflicts of interest]] — structural parallel at [[Cantor Fitzgerald]]
 - [[SPAC]] — adjacent listing mechanic; structurally distinct
+- [[Nasdaq Enhanced SPAC IPO listing standards 2026]] — May 15, 2026 SPAC IPO listing-floor reform; indirect constraint on the broker-dealer business mix supporting this pipeline
 - [[Shell company AI pivot]] — adjacent mechanic; uses pre-broken shells rather than fresh ones
 - [[Tron]] — first major deal (June–July 2025)
 - [[XTEND]] — Feb 2026 deal ($1.5bn)
@@ -155,6 +157,12 @@ The structural counter-argument: the mechanic provides genuine market access for
 - [[DFC]] — federal financing channel
 - [[Justin Sun]] — Tron principal; WLF investor
 - [[World Liberty Financial]] — Sun cross-investment
+
+### Cross-vault
+
+- [Geopolitics: US-Kazakhstan critical minerals partnership](obsidian://open?vault=geopolitics&file=Concepts%2FUS-Kazakhstan%20critical%20minerals%20partnership) — bilateral-policy frame for the Cove Kaz / Skyline Builders deal; C5+1 context, EXIM/DFC instrument analysis
+- [Geopolitics: XTEND](obsidian://open?vault=geopolitics&file=Actors%2FXTEND) — Israeli defense industrial export framing for the JFB / XTEND deal
+- [History: Reverse Mergers Historical Arc](obsidian://open?vault=history&file=Themes%2FReverse%20Mergers%20Historical%20Arc) — four-cycle long-arc context (1970s-80s shells, late-2000s Chinese-issuer wave, 2020-22 SPACs, 2024-26 sponsored pipeline) — places this note's mechanic in the recurring rebellion-against-IPO-friction pattern
 
 *Sources: [Financial Times](https://www.ft.com/content/d73183b6-d610-4caa-949d-186cbd59c970) (George Steer, May 8, 2026); House Select Committee on China letter to Kyle Wool, March 8, 2026; CoinDesk (Oct 10, 2025) on Dominari/Hemi; CNBC (June 16, 2025) on SRM/Tron reverse merger; BusinessWire (Apr 30, 2026) on Skyline/Cove Kaz; Morningstar/AccessNewswire (late Apr 2026) on Powerus Guardian-2 USAF order; Caixin (Mar 11, 2026), Caproasia (Mar 12, 2026), and FinanceFeeds on the broker-dealer probe.*
 

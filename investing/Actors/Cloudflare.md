@@ -201,6 +201,32 @@ This partially reversed the earlier "Cloudflare as agentic picks-and-shovels win
 
 ---
 
+## Q1 2026 results + 1,100 layoff agentic AI restructuring (May 7-8, 2026)
+
+NET fell 23.6% on May 8 ($256.79 → $196.13, -6.0σ beta-adjusted) after announcing 1,100 layoffs (~20% of workforce) framed as a transition to an "agentic AI-first operating model." The layoffs landed alongside a Q1 print that beat consensus — Q1 revenue +34% YoY, a record — making this the first vault example of an enterprise infrastructure company cutting headcount during a beat-and-raise quarter explicitly because internal AI usage made roles redundant.
+
+| Metric | Value |
+|--------|-------|
+| Layoffs | 1,100 (~20% of workforce) |
+| Q1 revenue growth | +34% YoY (record) |
+| Internal AI usage | +600% in three months |
+| Severance | Full base pay through end-2026, healthcare through end-2026, vested equity through Aug 15 |
+| Stock | -23.6% on May 8 ($256.79 → $196.13) |
+
+CEO Matthew Prince framed it publicly as the "right decision," telling staff that the business no longer needs the same headcount to deliver the same output. The justification cites a 600% increase in internal AI usage over three months — coding, support, sales operations, internal tooling — generating a measurable productivity step-change that, in management's read, is now load-bearing for the cost structure.
+
+Three structural reads:
+
+1. Beat-and-cut breaks the 2010s SaaS playbook. The implicit deal in software equity for fifteen years was that revenue growth came packaged with headcount growth, and that the gap between them was operating leverage. A 34% revenue print with a 20% headcount cut redefines that math: AI substitutes labor in the middle of the income statement, not just at the margin. If Cloudflare can prove the productivity claim through next-twelve-months margins, the SaaS sector's labor model gets repriced.
+2. Anti-narrative for [[AI labor displacement]] doves. Until now, vault notes on [[AI labor displacement]] have leaned on entry-level / repetitive-task substitution and on macro labor-data noise (the [[2026 recession risk#April 2026 nonfarm payrolls (May 8, 2026 release)|participation drop to 61.8%]] today is part of that story). Cloudflare's announcement is a clean, dated, single-company case where a CEO explicitly attributes 1,100 job cuts to AI productivity gains. The dataset for "AI is taking software jobs" gets a brand-name datapoint.
+3. The selloff is about cost-of-growth credibility, not the cuts themselves. A 24% drop on a beat-and-raise quarter with layoffs that ought to compound margins is the market reading the layoffs as a confession: if the cuts are needed *now*, the prior cost base was bloated, the prior margin trajectory was overstated, and the multiple Cloudflare carried (NET trades at one of the richest software multiples) was funded by an FCF ramp that was always going to require this kind of action. The selloff prices in "growth-at-any-cost software is over" more than "Cloudflare is broken."
+
+The cybersecurity / edge-cloud peer set will be watched for follow-on action. [[Akamai]]'s +28.5% the same day is the inverse case study — capacity contracts (the $1.8B AI cloud deal) drove Akamai's print, not labor substitution. Two adjacent edge-cloud companies, opposite share-price reactions, opposite operational signals on the same day: the market is separating *how* edge platforms participate in the AI buildout — as labor-substituting cost reformers (Cloudflare) or as inference-capacity providers (Akamai).
+
+*Sources: [CNBC — Cloudflare stock sinks 24%](https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html); [The Register — Cloudflare to fire 1,100 staff](https://www.theregister.com/off-prem/2026/05/08/cloudflare-to-fire-1100-staff-whose-jobs-just-arent-ai-enough/5235536); [TechCrunch — AI made 1,100 jobs obsolete](https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/), May 7-8 2026.*
+
+---
+
 ## Competitive position
 
 | Competitor | Cloudflare advantage |

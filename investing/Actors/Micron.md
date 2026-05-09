@@ -229,6 +229,16 @@ Syracuse (Jan 17, 2026): largest private investment in [[New York]] state histor
 
 ---
 
+## May 8, 2026 — sector rally continues (+15.5%, semis melt-up)
+
+MU closed +15.5% to $746.81 (+3.3σ beta-adjusted) on May 8 inside a broader semiconductor melt-up that lifted [[Intel]] +14.0%, [[AMD]] +11.4%, [[Dell]] +13.1%, [[KLAC]] +6.0%, [[Applied Materials|AMAT]] +6.0%, [[Marvell|MRVL]] +6.3%, and [[Qualcomm|QCOM]] +8.2% on the same day. Three converging catalysts: (1) the [[Apple]]-[[Intel]] preliminary chip-making deal validating the broader US-fab-utilization thesis; (2) [[Akamai]]'s $1.8B / 7-yr AI cloud contract reinforcing the inference-capacity demand picture (memory-bound by definition); (3) the April jobs print's resilient labor backdrop reducing recession risk that had been weighing on cyclical semis.
+
+The Micron-specific read is that the rally is running on cycle-positioning rather than new fundamentals — the [[#Q1 FY2026 (Dec 2025)|Q1 FY2026]] and [[#Q2 FY2026 (Mar 2026)|Q2 FY2026]] prints already established the AI-driven memory shortage thesis. May 8's move is the broader market giving the thesis full credit on a single session, not a new datapoint. The next fundamental catalyst is Q3 FY2026 (June 2026 expected), which is guided to $33.5B revenue — ~85% YoY growth.
+
+*Source: local quick_movers.py screen May 8 2026.*
+
+---
+
 ## Apple MacBook price hikes validate memory crunch (Mar 3, 2026)
 
 [[Apple]] raised MacBook Air/Pro prices by $100-$400, explicitly driven by memory costs — the most visible consumer-facing confirmation of the [[Memory shortage 2025-2026]]:

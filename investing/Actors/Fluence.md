@@ -166,6 +166,12 @@ Implications for adjacencies:
 
 *Sources: [Fluence Q2 FY 2026 release](https://www.globenewswire.com/news-release/2026/05/06/3289316/0/en/Fluence-Energy-Inc-Reports-Second-Quarter-2026-Results-Reaffirms-Fiscal-Year-2026-Guidance.html); [stocktitan — Fluence Energy grows Q2 sales, keeps 2026 outlook](https://www.stocktitan.net/sec-filings/FLNC/8-k-fluence-energy-inc-reports-material-event-af752caf750b.html); [FinancialContent — Fluence Energy Reports Sales Below Analyst Estimates In Q1 CY2026 Earnings, But Stock Soars 20.6%](https://markets.financialcontent.com/stocks/article/stockstory-2026-5-6-fluence-energy-nasdaqflnc-reports-sales-below-analyst-estimates-in-q1-cy2026-earnings-but-stock-soars-206).*
 
+### May 8 continuation (+27.4%, analyst upgrades)
+
+FLNC extended +27.4% to $24.16 on May 8 (+3.9σ beta-adjusted), driven by HSBC and Roth Capital upgrades following the May 6 print. Two-day cumulative move (May 6 close → May 8 close): from $13.56 → $24.16, +78%. The continuation distinguishes the FLNC reaction from the typical post-print mean-reversion pattern — when a name moves +34% on a print and the analyst community then upgrades into the move, the framing has shifted from "earnings event" to "thesis re-rating." Above all the [[Power constraints]] / [[Clean energy for AI]] / [[AI datacenter architecture]] threads, FLNC has become the cleanest grid-storage equity expression of the AI-power-buildout cycle.
+
+*Source: TheStreet daily wrap May 8 2026; local quick_movers.py screen May 8 2026.*
+
 ---
 
 ## Related

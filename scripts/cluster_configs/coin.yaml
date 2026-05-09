@@ -1,0 +1,24 @@
+# Coinbase cluster — digital-asset-native financial platforms.
+# Hypothesis: COIN trades closer to bitcoin proxies (MSTR, IBIT) than to
+# traditional online brokers (SCHW, IBKR), with HOOD as its closest equity peer.
+name: Crypto-exposed financial platforms
+primary: COIN
+prefix: coin-cluster
+threshold: 0.4
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [COIN, HOOD]
+  bitcoin_proxies:
+    color: "#F7931A"
+    tickers: [MSTR, IBIT, BTC-USD]
+  trad_brokers:
+    color: "#26A69A"
+    tickers: [SCHW, IBKR, LPLA]
+  fintech:
+    color: "#7E57C2"
+    tickers: [PYPL, AFRM, SOFI]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, QQQ, XLF, XLK]

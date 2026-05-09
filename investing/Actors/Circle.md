@@ -79,7 +79,8 @@ Circle earns interest on USDC reserves ([[Treasuries]]) — higher rates = more 
 
 Centre Consortium (dissolved 2023):
 - Circle and [[Coinbase]] co-created USDC
-- [[Coinbase]] earns share of USDC revenue
+- [[Coinbase]] earns share of USDC reserve revenue under their commercial agreement — $364M in Q4 2025 and $305M in Q1 2026 (+11% YoY) on Coinbase's stablecoin revenue line
+- Coinbase's Q1 2026 10-Q discloses that one customer represents 23% of total revenue (up from 15% Q1 2025); almost certainly Circle. Means the commercial agreement renegotiation is a meaningful event for both companies
 - Deep integration with [[Coinbase]] exchange
 - Circle now sole issuer
 

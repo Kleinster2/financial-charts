@@ -37,6 +37,33 @@ The breadth, not concentration, was the signal: applications, distribution, and 
 
 ---
 
+## May 8, 2026 — synchronized public-equity rerating across the sector
+
+The May 8 session produced the cleanest cross-name rally in the public space sector since the cohort began listing in 2020-2024. Every single public space-pure-play in the vault printed a >+5% session, and most printed double-digit gains:
+
+| Ticker | Actor | May 8 close | Single-day move | Sigma | Trigger |
+|--------|-------|------------|-----------------|-------|---------|
+| RKLB | [[Rocket Lab]] | $105.47 | +34.2% | +7.5σ | >=2.5σ, >=6.0% |
+| BKSY | [[BlackSky]] | $39.45 | +22.4% | +2.9σ | >=2.5σ, >=6.0% |
+| LUNR | [[Intuitive Machines]] | $28.97 | +20.2% | +2.7σ | >=2.5σ, >=6.0% |
+| RDW | [[Redwire]] | $11.07 | +20.3% | +3.2σ | >=2.5σ, >=6.0% |
+| DXYZ | [[Destiny Tech100]] | $54.60 | +21.3% | +4.7σ | >=2.5σ, >=6.0% |
+| ASTS | [[AST SpaceMobile]] | $75.05 | +14.8% | +2.4σ | >=2.0σ (high-vol), >=6.0% |
+| SPIR | [[Spire Global]] | $18.49 | +14.6% | +1.6σ | >=6.0% |
+| PL | [[Planet Labs]] | $39.04 | +10.8% | +1.4σ | >=6.0% |
+
+Three structural reads:
+
+1. The cohort is now trading as a single beta. When seven of eight public space-pure-plays move >+10% on a single session — with no shared earnings catalyst, no shared product news, no shared regulatory event — the right read is that the public-equity market has decided to treat the cohort as a single risk factor and is giving that factor a clean re-rating session. The dispersion question that the news skill enforces ("when multiple vault actors in the same sector move, report dispersion") is the *absence* of dispersion: every name moved up; only the magnitude varied. That is sector-level repricing, not name-level news.
+2. The catalyst is most likely the Q1 2026 record-investment data + the Iran-conflict defense-spending bid. The Apr 26 [[#Q1 2026 — record investment quarter|Space Capital Q1 2026 briefing]] documented $36B invested in a single quarter ($7B in infrastructure, $3.8B in geospatial intelligence) — the highest in history. Layered onto that, the [[2026 Iran conflict market impact|Iran conflict]] has structurally elevated defense + dual-use space demand (Maven satellite imagery, ISR, missile-warning, communications). The May 8 session appears to be the moment at which equity markets fully priced both factors into the public cohort, after the Q1 data point sat un-rerated for two weeks.
+3. The dispersion by subsector is informative. Within the cohort: launch (RKLB +34%) led, geospatial-intel (BKSY +22%, RDW +20%, PL +11%, SPIR +15%) clustered in the +10-22% range, lunar/exploration (LUNR +20%) at the high end, satellite-comm (ASTS +15%) in the middle. Launch leadership is consistent with the Q1 infrastructure-investment leadership in the Space Capital data; geospatial clustering is consistent with Iran-conflict demand. The mix is structurally aligned with the underlying spending data — the rally is *priced* on the right factors, not headline noise.
+
+The follow-on question for next week: does the rerating extend (factor-style continuation) or unwind (single-day positioning move)? The Q1 IPO + IRAQ war data combination argues for the former; the magnitude of RKLB's +34% argues that some unwind is probable.
+
+*Source: local quick_movers.py screen May 8 2026; [[#Q1 2026 — record investment quarter|Space Capital Q1 2026 data]] (Apr 26).*
+
+---
+
 ## Key segments
 
 ### Launch services

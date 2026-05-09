@@ -1,5 +1,5 @@
 ---
-aliases: [TTWO, Take-Two Interactive, Rockstar, 2K]
+aliases: [TTWO, Take-Two Interactive, Rockstar, Rockstar Games, 2K]
 ---
 #actor #gaming #usa #public
 

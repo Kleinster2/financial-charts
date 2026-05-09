@@ -1071,4 +1071,31 @@ Tooze pairs the tanker data with a market-disconnect thesis — [[VIX]] is subdu
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-08 (ceasefire pricing, physical-futures disconnect, tiered restart). 2026-04-12 trader-loss and credit-facility quantification added. 2026-04-12 Islamabad failure and blockade announcement added (Young/Stavridis/Masoud/Blinken via CNN GPS). 2026-04-15 US export surge, $4 pump-price breach, Rapidan $150 export-control trigger added. 2026-04-21 VLCC convoy data (Tooze/Nikkei/Kpler) added.*
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-04-08 (ceasefire pricing, physical-futures disconnect, tiered restart). 2026-04-12 trader-loss and credit-facility quantification added. 2026-04-12 Islamabad failure and blockade announcement added (Young/Stavridis/Masoud/Blinken via CNN GPS). 2026-04-15 US export surge, $4 pump-price breach, Rapidan $150 export-control trigger added. 2026-04-21 VLCC convoy data (Tooze/Nikkei/Kpler) added. 2026-05-08 Hormuz fire-exchange + UAE missile barrage + Trump "ceasefire still in effect" framing added.*
+
+---
+
+## US-Iran fire exchange in Hormuz, UAE missile barrage — Day 70 (May 8, 2026)
+
+The fragile post-ceasefire equilibrium shook on May 7-8 without breaking. The US fired on two empty Iranian oil tankers attempting to evade the [[#April 10-12 — Islamabad failure and US Navy blockade announcement|US Navy blockade]] in the Strait of Hormuz on May 7-8; Iran launched missiles at the [[United Arab Emirates|UAE]] on May 8. President Trump insisted on the same day that the [[Hormuz ceasefire|ceasefire]] remains in effect.
+
+The market reaction was muted relative to the headline escalation:
+
+| Contract | May 8 close | Day | Week |
+|----------|-------------|------|------|
+| Brent | $101.29 | +1% | -6.0% |
+| WTI | $95.42 | flat | -6.4% |
+
+Two reads:
+
+1. Both crudes were down >6% on the week. Despite the fire-exchange and the missile barrage, the dominant trend through the week was *peace-deal hopes pricing in*, not escalation pricing. The May 8 bounce was a small reversal of a larger bearish week. The market is reading the escalation as headline noise inside a broader de-escalation track, not as a regime change.
+2. The "ceasefire still in effect" framing is doing structural work. Trump's verbal anchor that the ceasefire holds — even after US fires on Iranian tankers and Iran launches missiles at UAE on the same day — defines a wider tolerance band for live-fire incidents inside what is officially a peace process. This is the new equilibrium the market is pricing: cease-fire-as-process, not cease-fire-as-event. The [[#Headline whiplash — $112 to $98 in three sessions (March 23-25)|March 23-25 headline whiplash]] taught traders to fade single-session escalation prints; May 8 is the cleanest expression of that pattern.
+
+What it does NOT change:
+- The [[Hormuz Permanent Risk Premium]] thesis. Every fire-exchange episode reinforces the structural premium even if the spot price stays anchored.
+- The blockade math from the [[#April 10-12 — Islamabad failure and US Navy blockade announcement|April 10-12 blockade announcement]]. The May 8 tanker incidents are the operational proof of the blockade — Iranian vessels evading, US enforcement firing, no full-system breakdown.
+- The Iranian missile capability picture flagged in [[Iranian missile arsenal]]. The UAE strike adds another data point in the post-ceasefire missile-program trajectory.
+
+The next inflection is whether [[OPEC|OPEC+]] reads the May 8 episode as a reason to hold (or even cut) production — or whether the unwind continues. The week-to-week price action implies the market is increasingly comfortable that the disruption window has narrowed, not widened.
+
+*Sources: [CNBC — Oil prices today: U.S.-Iran fire exchange](https://www.cnbc.com/2026/05/08/oil-prices-today-wti-brent-us-iran-fire-war-hormuz-ceasefire.html); [The National — Oil climbs and stocks drop](https://www.thenationalnews.com/business/energy/2026/05/08/oil-prices/); [OilPrice.com — Oil prices jump after fire exchange](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-and-Iran-Exchange-Fire-in-Strait-of-Hormuz.html); [Al Jazeera — Hormuz oil prices](https://www.aljazeera.com/economy/2026/5/5/oil-prices-surge-as-violence-flares-in-strait-of-hormuz), May 5-8 2026.*
