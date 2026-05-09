@@ -1,4 +1,4 @@
-#sector #investors #activist
+#capital-allocator #investors #activist
 
 **Activist Investors** — Hedge funds that take stakes in public companies and push for changes to unlock value.
 

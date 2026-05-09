@@ -1,4 +1,4 @@
-#sector #investors #corporatevc #cvc
+#capital-allocator #investors #corporatevc #cvc
 
 **Corporate Venture Capital** — Strategic investors backed by large corporations, investing for financial returns + strategic value.
 

@@ -1,4 +1,4 @@
-#sector #investors #angels #individuals
+#capital-allocator #investors #angels #individuals
 
 **Individual Investors** — Billionaires, super angels, and influential individuals deploying personal capital into startups and public markets.
 

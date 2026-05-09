@@ -1,4 +1,4 @@
-#hub #sector #hedgefunds #finance
+#hub #capital-allocator #hedgefunds #finance
 
 # Hedge Funds
 

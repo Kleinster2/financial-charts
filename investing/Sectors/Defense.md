@@ -5,8 +5,8 @@ aliases: [Defense sector, Defense contractors, Military industrial, Aerospace an
 
 # Defense
 
-> [!info] Industry Overview
-> This is an industry overview, not a tradeable sector. The validated trading clusters are [[Defense IT Services]] (0.61) and Defense Primes ex-BA (0.49). Boeing trades separately (commercial aerospace).
+> [!info] Industry index, not a single tradeable cluster
+> Internal correlation across the 10 mapped Defense actors averages 0.15 over the trailing 252 trading days through 2026-05-03 — Boeing trades on commercial aerospace and weakens any unified read. The analytical entry points are the children: [[Defense Primes]] (0.26 over the same window — note the divergence from the older 0.49 figure for primes-ex-BA, which used a shorter window), [[Defense IT Services]] (0.31), [[Munitions]] (0.34), [[Drones]] (0.27), [[Aerospace]] (0.37), [[Space]] (0.38). See [[2026-05-09-sector-internal-correlation-diagnostic]] for method and full table.
 
 Global defense and aerospace sector. Structural rearmament underway across US, Europe, and Asia-Pacific.
 

@@ -7,6 +7,9 @@ aliases: [Health care, Healthcare sector, Medical sector, Healthcare services]
 
 Overview of healthcare sector: pharma, biotech, medtech, services, insurers, and PBMs.
 
+> [!info] Industry index, not a single tradeable cluster
+> Internal correlation across the 25 mapped Healthcare actors averages 0.17 over the trailing year — the lowest of any thematic sector hub in the vault, because pharma, biotech, medtech, hospitals, distributors, and managed care have structurally distinct price drivers. The analytical entry points live in the children: [[Biopharma]] (0.34), [[Life Sciences]] (0.19), [[Drug Distribution]] (0.22), [[DTC Telehealth]], [[Senior Living]], plus [[Life Insurance]] (0.41) for the managed-care exposure. See [[2026-05-09-sector-internal-correlation-diagnostic]] for method and full table.
+
 ---
 
 ## Market segments

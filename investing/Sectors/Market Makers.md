@@ -1,4 +1,4 @@
-#sector #trading #marketmaking #hft
+#capital-allocator #trading #marketmaking #hft
 
 **Market Makers** — Firms that provide liquidity by continuously quoting bid/ask prices. Includes HFT firms.
 

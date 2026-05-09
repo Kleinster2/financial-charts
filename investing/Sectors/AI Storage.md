@@ -24,8 +24,8 @@
 | Company | Ticker | Market cap | AI positioning |
 |---------|--------|------------|----------------|
 | [[Pure Storage]] | PSTG | $24B | NVIDIA Elite partner, DGX certified |
-| NetApp | NTAP | $25B | Hybrid cloud, ONTAP AI |
-| Dell EMC | DELL | $95B | PowerScale, broad portfolio |
+| [[NetApp]] | NTAP | $25B | Hybrid cloud, ONTAP AI |
+| [[Dell]] EMC | DELL | $95B | PowerScale, broad portfolio |
 | Hitachi Vantara | Private | — | Enterprise, hybrid |
 | [[HPE]] | HPE | $25B | Cray heritage, HPC |
 
@@ -151,8 +151,9 @@ Bear case:
 
 ### Actors (public)
 - [[Pure Storage]] — PSTG, $24B
-- NetApp — NTAP, $25B
-- Dell — DELL, $95B
+- [[NetApp]] — NTAP, $25B
+- [[Dell]] — DELL, $95B
+- [[HPE]] — HPE, $25B
 
 ### Actors (private)
 - [[VAST Data]] — $30B (Series F, Apr 2026)

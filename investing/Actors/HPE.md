@@ -1,5 +1,5 @@
 ---
-aliases: [Hewlett Packard Enterprise]
+aliases: [HPE, Hewlett Packard Enterprise]
 ---
 #actor #enterprise #hardware #publiccompany
 

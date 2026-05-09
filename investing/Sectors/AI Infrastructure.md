@@ -7,6 +7,9 @@ aliases: [AI infra, AI compute, AI compute infrastructure, AI stack]
 
 The physical and cloud layer powering AI workloads.
 
+> [!info] Stack index, not a single tradeable cluster
+> Internal correlation across the 22 mapped AI Infrastructure actors averages 0.27 over the trailing year — the stack diagram below is conceptually right but the price driver is not shared across compute, storage, data centers, power, and cooling. The analytical entry points are the children that trade as coherent clusters: [[AI Compute]] (0.58), [[AI Storage]], [[Data Centers]] (0.26 — itself broad), [[DC REITs]] (0.40), [[Memory]] (0.38), [[Connectivity]] (0.34). See [[2026-05-09-sector-internal-correlation-diagnostic]] for method and full table.
+
 ---
 
 ## Stack overview

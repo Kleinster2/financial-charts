@@ -1,4 +1,4 @@
-#sector #investors #familyoffice
+#capital-allocator #investors #familyoffice
 
 **Family Offices** — Private wealth management firms serving ultra-high-net-worth families. Often former hedge funds.
 

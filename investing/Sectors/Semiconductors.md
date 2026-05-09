@@ -7,6 +7,9 @@ aliases: [Semis, Chips, Semiconductor industry, Semiconductor sector]
 
 Industry overview of the semiconductor value chain.
 
+> [!info] Industry index, not a single tradeable cluster
+> Internal correlation across the 23 mapped Semiconductors actors averages 0.31 over the trailing year — too diluted to read as one signal because design, memory, equipment, materials, and analog have structurally different price drivers. The analytical entry points are the children below, all of which screen tighter than the parent: [[AI Compute]] (0.58), [[US Memory]] (0.70), [[Korea Memory]] (0.35), [[Memory]] (0.38), [[Semiconductor Materials]] (0.65), [[Semiconductor Test]] (0.46), [[WFE]] (0.83), [[Sensors]] (0.50), [[Connectivity]] (0.34), [[Korea AI chips]] (0.30). See [[2026-05-09-sector-internal-correlation-diagnostic]] for method and full table.
+
 ---
 
 ## Industry size ([[Gartner]], Jan 2026)

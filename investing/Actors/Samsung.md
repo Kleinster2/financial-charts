@@ -1,5 +1,5 @@
 ---
-aliases: [Samsung Semiconductor, Samsung Electronics, Samsung Foundry]
+aliases: [005930.KS, Samsung Semiconductor, Samsung Electronics, Samsung Foundry]
 ---
 #actor #foundry #korea #conglomerate
 

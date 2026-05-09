@@ -7,6 +7,9 @@ aliases: [Insurance sector, Property and casualty, Life insurance, Reinsurance]
 
 The insurance sector spans P&C, life/annuity, health, reinsurance, and broking. The defining structural shift of the 2020s is the [[PE-insurance convergence]] — private equity firms acquiring insurers for [[Permanent capital]], transforming the industry's economics.
 
+> [!info] Industry index, not a single tradeable cluster
+> Internal correlation across the 19 mapped Insurance actors averages 0.26 over the trailing year — title, P&C, life, health, and reinsurance share regulatory and rate-cycle drivers but trade off distinct underlying exposures (housing, catastrophes, mortality, medical loss ratio). The analytical entry points are the children: [[P&C Insurance]] (0.65), [[Life Insurance]] (0.41), [[Title Insurance]], [[Title Agencies]]. See [[2026-05-09-sector-internal-correlation-diagnostic]] for method and full table.
+
 ---
 
 ## Sub-sectors

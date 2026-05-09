@@ -4,6 +4,9 @@
 
 Entertainment, streaming, gaming, and traditional media companies.
 
+> [!info] Industry index, not a single tradeable cluster
+> Internal correlation across the 16 mapped Media actors averages 0.16 over the trailing year — streaming video, audio, music labels, gaming, and traditional media all sit in this hub but trade off different drivers (subscriber growth, ad market, AI substitution, gaming release cycle). The analytical entry points are the children: [[Gaming]] (0.22), [[Chinese Entertainment]] (0.57), [[AI-Native Studios]] (0.18), [[AI Video Generation]] (0.18), [[AI VFX Tools]] (0.21). See [[2026-05-09-sector-internal-correlation-diagnostic]] for method and full table.
+
 ---
 
 ## Sector map

@@ -1,4 +1,4 @@
-#sector #investors #sovereign #swf
+#capital-allocator #investors #sovereign #swf
 
 **Sovereign Wealth Funds** — State-owned investment funds deploying national wealth, increasingly active in tech.
 
