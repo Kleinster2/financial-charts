@@ -70,9 +70,19 @@ Source: [[SemiAnalysis]] — [Blackwell Reworked](https://newsletter.semianalysi
 | Cooling | Air → liquid |
 | Rack weight | 1,000 lbs → 3,000 lbs |
 | Power per rack | 30 kW → 130 kW |
+| Power profile | Aggressive draw spikes — requires hardware power smoothing (see below) |
+| Software stack | Hopper-era stacks can damage GB200 silicon under irregular loads |
 | Legacy DC retrofit | Extremely difficult |
 
 Most existing data centers can't deploy Blackwell without major infrastructure upgrades. See [[GPU deployment bottleneck]].
+
+### Power smoothing as hardware feature
+
+[[NVIDIA]] documents power smoothing as an explicit hardware feature on GB200 (and the GB300 successor) because Blackwell silicon draws power so aggressively that bulk-synchronous workloads (training step boundaries, batch processing) create coordinated multi-megawatt swings at the rack and grid level. Without smoothing, those swings cause failures at utility, transformer, and UPS layers. The GB300 NVL72 ships with PSUs containing energy storage that smooths grid demand peaks by up to 30%; the same feature is being backported to GB200 NVL72 deployments (per [[NVIDIA]] technical blog).
+
+The operational consequence — relevant for any operator running mixed [[Hopper]] / Blackwell clusters — is that software stacks optimized for the smoother Hopper power profile do not understand the GB200 hardware features. Zeeshan Patel (formerly head of multimodal pre-training at [[xAI]]) reported observed cases of GB200s being physically destroyed (chip-level damage) when xAI's Hopper-era stack imposed irregular loads. The implication: deploying GB200 in a mixed-architecture cluster (e.g., [[Colossus|Colossus 1]]) requires stack-level rewrites to avoid silicon damage, on top of the standard cooling/power infrastructure upgrades.
+
+Mitigation work is ongoing across [[Meta]], [[Google]], and [[NVIDIA]]'s reference implementations. The thermal/overheating headlines from late 2025 ("Blackwell servers overheating, customers cutting orders") have been largely addressed per [[SemiAnalysis]] coverage, but the power-management dimension is a separate and ongoing problem class.
 
 ---
 

@@ -77,6 +77,34 @@ Investors will have to look through the combined losses to the thesis: Starlink 
 
 ---
 
+## The May 6 lease as IPO defense
+
+The May 6, 2026 [[Anthropic]] single-tenant lease of [[Colossus|Colossus 1]] (220K+ GPUs, 300 MW) materially changes the consolidated P&L story for the prospectus year. Mirae Asset Securities (May 8 note) frames the deal as the cleanest available IPO-defense move: it converts xAI's largest physical asset from a loss-generating training cluster into a $5-6B/yr lease revenue line that almost exactly hedges xAI's Q1 2026 annualized net loss of ~$6B.
+
+| Metric | Pre-lease (xAI standalone) | Post-lease (with Colossus 1 rented) |
+|---|---|---|
+| xAI annualized net loss (Q1 2026 run rate) | ~$6B | Mostly hedged by lease revenue |
+| Lease revenue (Mirae) | n/a | $5-6B/yr at ~$2.60/GPU-hr blended |
+| Lease revenue (New Street Research per Fortune) | n/a | $3-4B/yr |
+| xAI narrative for prospectus | "AGI cash incinerator" | "Infrastructure tollgate generating $5-6B/yr stable cash flow" |
+
+For the IPO multiple specifically, the reframing matters more than the dollar offset. Until May 6, xAI was the unambiguous drag on the consolidated S-1 — without it, [[SpaceX]] is a profitable launch + Starlink business at $8B EBITDA. With xAI but without the lease, the combined entity carries an uncovered $6B drag. With xAI *and* the lease, the drag collapses to a small residual and the AI-infrastructure layer becomes a contributing rather than diluting line in the prospectus story.
+
+This is the application of [[Training-to-inference cluster rotation]] to a pre-IPO context. The framework's novelty, per Mirae, is that prior cluster operators with mixed-architecture inventory had no recognized resale path; the May 6 lease establishes one with a public price, which lets a pre-IPO infrastructure narrative reset around "neo-cloud landlord" rather than "research lab burning cash."
+
+The connection back to the analyst-tour design is direct: SpaceX's choice to walk Wall Street analysts through Colossus on Thursday of the late-April pre-roadshow program was framed at the time as showcasing "Macrohard." After May 6, the same tour functions as a walk-through of a $5-6B/yr cash-flowing asset, not a research-stage compute facility. The narrative shift fits cleanly into Bret Johnsen's challenge of "selling growth, scarcity, and ambition" while making the consolidated loss year palatable to institutional allocators.
+
+Two open risks the lease does not resolve:
+
+1. **Counterparty concentration.** xAI / SpaceXAI is now structurally dependent on a single tenant ([[Anthropic]]) for the bulk of Colossus 1 monetization. Same risk profile as [[CoreWeave]]'s 65% [[Microsoft]] dependence (see [[Neocloud financing]]).
+2. **Asset depreciation.** The H100 share of Colossus 1 (~150K of the 220K GPU base) depreciates as [[Blackwell]] inference variants ramp. The lease premium of ~$2.60/GPU-hr vs $1.80-$2.20 commodity rates may compress over the lease term.
+
+See [[Colossus#Anthropic single-tenant lease (May 6 2026)|Colossus single-tenant lease section]] for the transaction structure and [[Anthropic hyperscaler financing surge April 2026#May 6 capstone Anthropic single-tenant lease of Colossus 1|the April surge capstone framing]] for how the deal slots into Anthropic's broader compute posture.
+
+*Source: Mirae Asset Securities, two-part note dated May 8, 2026; xAI press release (May 6, 2026); cross-checked Tom's Hardware, Datacenter Dynamics, Yahoo Finance, Unite.AI; Fortune (New Street Research range).*
+
+---
+
 ## Cursor option deal (Apr 21, 2026)
 
 Reuters reported on Apr 21 that [[SpaceX]] secured the right later in 2026 either to acquire [[Cursor]] / [[Anysphere]] for $60B or to pay $10B for their joint work on a next-generation coding and knowledge-work AI product. If the reported structure holds, it gives bankers a cleaner answer to the question of what the post-[[xAI]] [[SpaceX]] actually is: not just launch + satellites + compute, but potentially a direct software control point in the developer workflow.

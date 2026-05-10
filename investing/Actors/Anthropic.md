@@ -718,7 +718,23 @@ The terms matter for three threads in the [[Anthropic]] note:
 
 The "multiple gigawatts of orbital AI compute" expressed interest is far more speculative — orbital data centers are theoretical at scale, and SpaceX hasn't deployed any production AI training silicon to orbit. Treat as forward optionality with low near-term execution probability.
 
-*Sources: [Dev.to — Anthropic strikes compute deal with SpaceX](https://dev.to/mcrolly/anthropic-strikes-compute-deal-with-spacex-what-it-means-for-the-future-of-ai-1moj); [The Drive 93.3 — SpaceX to give Anthropic access to its massive AI supercomputer](https://www.933thedrive.com/2026/05/06/spacex-to-give-anthropic-access-to-its-massive-ai-supercomputer/); search-result aggregation May 7, 2026.*
+#### Mirae Asset framing (May 8, 2026): asset rotation, not capacity catch-up
+
+Mirae Asset Securities published a two-part note on May 8 reframing the deal in structural terms that the May 6-7 reporting did not yet capture. The piece's central insight: this is *not* xAI lending Anthropic spare capacity, it is a rotation of a heterogeneous-architecture cluster from training (where its MFU is ~11% per [[The Information]]) to single-tenant inference (where the heterogeneity is neutralized). See [[Training-to-inference cluster rotation]] for the full framework.
+
+Three numerical claims from Mirae worth tracking:
+
+| Claim | Mirae figure | Cross-check |
+|---|---|---|
+| xAI annual revenue from lease | $5-6B at ~$2.60/GPU-hr blended | New Street Research (per Fortune) cites $3-4B range — the spread is large enough to flag |
+| Anthropic spend → ARR conversion | ~$5B spend → ~$15B Claude inference ARR | Consistent with [[Inference economics#Anthropic's actual company-level margins|80-95% per-token gross margins]] documented at the unit level |
+| xAI hedge value | $5-6B revenue almost exactly offsets Q1 2026 annualized net loss of ~$6B | Material for [[SpaceX IPO 2026]] narrative — reframes "AGI cash incinerator" to "infrastructure tollgate" |
+
+Mirae also separately notes that the May 6 lease, classified within Anthropic's April capacity surge, brings Anthropic's 30-day commitment total to 13.8 GW — a wall-clock pace that took [[OpenAI]] more than a year to assemble at ~18 GW cumulative. Crucially, the Colossus 1 share is the *only* piece of that 13.8 GW deliverable inside May 2026; the [[AWS]] / [[Google Cloud]] / [[Google]]-[[Broadcom]] commitments come online over 2026-2027. See [[Anthropic vs OpenAI compute race#May 2026 update deliverable vs committed capacity]] for the deliverable-vs-committed breakdown.
+
+The product-side evidence the lease relieved Anthropic's binding capacity constraint landed concurrently: Claude Code 5-hour rate limits doubled across paid tiers, peak-hours limit reductions removed for Pro/Max, "considerably" raised API rate limits on Opus. That is the cleanest available proxy for "the lease is real and the capacity is on" against the alternative of the deal being announced but not yet operational.
+
+*Sources: [Dev.to — Anthropic strikes compute deal with SpaceX](https://dev.to/mcrolly/anthropic-strikes-compute-deal-with-spacex-what-it-means-for-the-future-of-ai-1moj); [The Drive 93.3 — SpaceX to give Anthropic access to its massive AI supercomputer](https://www.933thedrive.com/2026/05/06/spacex-to-give-anthropic-access-to-its-massive-ai-supercomputer/); Mirae Asset Securities note (May 8, 2026); Fortune (citing New Street Research range); [[Tom's Hardware]]; [[Datacenter Dynamics]]; [[Yahoo Finance]]; search-result aggregation May 7, 2026.*
 
 ### [[Anthropic-Wall Street JV]] — $1.5B Goldman / Blackstone / H&F deployment vehicle (May 4, 2026)
 

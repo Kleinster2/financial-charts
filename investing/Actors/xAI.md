@@ -190,6 +190,44 @@ Musk claim: "More AI compute than everyone else combined within five years"
 
 ---
 
+## Colossus 1 lease to Anthropic (May 6, 2026)
+
+xAI / SpaceXAI signed a single-tenant lease handing the entirety of [[Colossus|Colossus 1]] (Memphis, 220K+ GPUs, ~300 MW) to [[Anthropic]] for inference workloads. The deal is structurally the most consequential xAI commercial event of 2026 because it:
+
+1. Hedges out essentially the full Q1 2026 annualized net loss (~$6B) with $5-6B annual lease revenue (Mirae estimate; New Street Research per Fortune cites $3-4B)
+2. Reframes [[xAI]] from "research lab burning cash" to "compute landlord with stable cash flow" ahead of [[SpaceX IPO 2026|June IPO]]
+3. Frees xAI's training workloads to run exclusively on the homogeneous Blackwell [[Colossus|Colossus 2]] cluster, where MFU is structurally higher
+
+| Lease term | Value |
+|---|---|
+| Asset | Colossus 1 — 220K+ GPUs, ~300 MW |
+| Counterparty | [[Anthropic]] (single-tenant) |
+| Use case | [[Claude]] inference (not training) |
+| Revenue (Mirae) | $5-6B annual at ~$2.60/GPU-hr blended |
+| Revenue (New Street Research per Fortune) | $3-4B annual |
+| Online | Inside May 2026 |
+| Optionality | [[Anthropic]] expressed interest in multiple gigawatts of orbital AI compute (Tom's Hardware) |
+
+The strategic logic Mirae Asset Securities laid out in its May 8 note: xAI judged Colossus 1 was not efficient enough for frontier training, moved its own workloads to Colossus 2, and rented the now-surplus heterogeneous cluster to a buyer whose workload neutralizes the inefficiency. See [[Training-to-inference cluster rotation]] for the framework and [[Colossus#Anthropic single-tenant lease (May 6 2026)|Colossus single-tenant lease section]] for the full transaction context.
+
+Musk's public framing was uncharacteristically dry given the prior public attacks on [[Anthropic]]: *"No one set off my evil detector"* (per Tom's Hardware reporting). The deal makes Anthropic the largest single customer of xAI compute infrastructure within weeks of *Musk v. OpenAI* trial proceedings (Apr 2026). See [[SpaceX xAI merger]] for the consolidated entity context.
+
+---
+
+## MFU disclosure (Apr-May 2026)
+
+[[The Information]] reported xAI's Model FLOPs Utilization on the Colossus fleet sits around 11% during training — far below the industry norm range of 35-46% set by [[Meta]] (~43%) and [[Google]] (~46%). The gap is large enough that frontier-model training on Colossus has been roughly 4× slower per dollar than at Meta. Three drivers per technical observers (notably Zeeshan Patel, former xAI multimodal pre-training lead):
+
+1. Straggler effect on the heterogeneous mix (~150K H100 + ~50K H200 + ~20K GB200 in Colossus 1)
+2. NCCL ring topology latency at >100K GPU scale, where xAI has not built [[Google]]-style custom OCS topology
+3. Blackwell power smoothing mismatch between [[NVIDIA]]'s GB200 hardware-level power features and xAI's [[Hopper]]-era software stack — Patel reports observed cases of GB200s being physically destroyed by uneven power loads
+
+[[Lambda Labs]] flagged a useful nuance: *fleet utilization* (share of GPUs running) and *MFU* (share of theoretical FLOPs each running GPU realizes) are different metrics. The 11% figure is MFU, not fleet utilization. xAI has set a public target to lift MFU toward 50% but that requires substantial software-stack rewrites that have not shipped as of May 2026. See [[Inference economics#Heterogeneous cluster asymmetry|Inference economics — heterogeneous cluster asymmetry]] for the full mechanism.
+
+The MFU disclosure context is what makes the Colossus 1 lease economically rational for xAI: the cluster's training value was structurally capped without rewriting the stack from scratch, but its inference-rental value (where the heterogeneous mix is neutralized) is intact. That asymmetry, not just a desperate-for-cash reading, is what underpins the rotation.
+
+---
+
 ## Pentagon drone swarm contest (Feb 16, 2026)
 
 xAI and parent [[SpaceX]] competing together in a $100M Pentagon prize challenge to produce voice-controlled, autonomous drone swarming technology. 6-month contest organized by Defense Innovation Unit and Defense Autonomous Warfare Group (DAWG). xAI hiring engineers with active security clearances; already has $200M Pentagon contract for [[Grok]] integration into military systems. Marks a new frontier — combining xAI's generative AI with offensive weapons development.

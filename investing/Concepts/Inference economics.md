@@ -516,6 +516,47 @@ Either interpretation can be true simultaneously. The vault carries both attribu
 
 ---
 
+## Heterogeneous cluster asymmetry (May 2026)
+
+Training and inference impose opposite constraints on cluster homogeneity. The asymmetry is mechanical, not stylistic, and it is what made the May 6 [[Anthropic]] lease of [[Colossus|Colossus 1]] economically rational for both sides.
+
+### Training: synchronous, gated by the slowest GPU
+
+Distributed training of frontier models is *synchronous*: every GPU in the cluster has to finish its forward and backward pass before the cluster can advance to the next step. In a 100,000-GPU cluster, that means 99,999 GPUs sit idle waiting for whichever GPU is slowest. Two things make this brutal in practice:
+
+1. **The straggler effect on heterogeneous hardware.** If a cluster mixes [[H100]], H200, and [[Blackwell|GB200]] in one fabric — Mirae estimates the [[Colossus|Colossus 1]] mix at ~150K H100 + ~50K H200 + ~20K GB200 — every step is paced by the H100s. The GB200s realize a fraction of their theoretical FLOPs because they spend most of every step waiting. ML-systems literature (HetCCL, MegaScale, HETHUB) treats this as the central problem of heterogeneous-cluster training; mitigation requires GPU-aware micro-batching, custom pipeline-parallel partitioning, and stack-level work that did not exist for general-purpose training infrastructure as of mid-2026.
+2. **NCCL ring topology latency at >100K GPUs.** [[NVIDIA]]'s Collective Communications Library (NCCL) was optimized for ring topologies that scale gracefully to 1K-10K GPUs. Past 100K, ring traversal latency dominates step time — GPUs idle waiting for data to traverse the network fabric. [[Google]] sidestepped this by building custom Optical Circuit Switching (OCS) topology for TPU pods; [[xAI]] has not yet matched that work.
+
+The MFU consequence: [[xAI]] reported (per [[The Information]]) a Model FLOPs Utilization of approximately **11%** on Colossus during training, against an industry-norm range of 35-46% for [[Meta]] (~43%) and [[Google]] (~46%). The gap is large enough that a frontier-model training run on Colossus 1 is roughly 4× slower per dollar than the same run at Meta. (The earlier 32-36% MFU [[OpenAI]] reportedly hit on 25K [[A100]]s during GPT-4 training is consistent with the industry-norm degradation curve at 25K-scale; the 11% figure is what happens when scale, heterogeneity, and topology limits compound.)
+
+[[Lambda Labs]] flagged a useful nuance in the public discussion: *fleet utilization* (share of GPUs running) and *MFU* (share of theoretical FLOPs each running GPU realizes) are different metrics. The 11% figure is MFU, not fleet utilization — it does not mean Colossus has 89% of GPUs off, it means each running GPU is achieving 11% of its theoretical capability.
+
+### Inference: asynchronous, parcelled per-request
+
+Inference parallelizes per request, not per cluster step. Each request is routed to one model replica, runs to completion, and frees the GPU for the next request. The straggler effect has nothing to gate on — slow GPUs simply route to smaller batches or shorter context windows, and faster GPUs absorb more traffic. The same heterogeneous cluster that achieved 11% MFU during training can run at >40% effective utilization during inference because the workload routes around the slow chips rather than waiting for them.
+
+Two further inference advantages of single-tenant operation:
+
+- **No multi-tenant network-switch jitter.** Multi-tenant clusters incur unanticipated network latency from interleaved tenant traffic. A 220K-GPU cluster occupied by a single tenant ([[Anthropic]]) eliminates this entirely.
+- **No KV-cache competition between tenants.** Inference workloads are sensitive to KV-cache memory layout and eviction policy. Single-tenant operation lets the operator configure caching for one model family and one traffic pattern instead of optimizing for the worst case.
+
+### The economic consequence
+
+The same physical asset prices as a different category of business depending on use:
+
+| Use | Effective MFU | Implied $/GPU-hr value |
+|---|---|---|
+| xAI training (mixed cluster, multi-step synchronous) | ~11% | Negative — opportunity cost of capital tied up in low-utilization training |
+| Anthropic inference (single-tenant, asynchronous parallel) | Plausibly 40%+ on the same hardware | ~$2.60/hr blended (per Mirae's lease economics) |
+
+This is the technical mechanism behind the [[Training-to-inference cluster rotation]] framework: heterogeneous-cluster GPU assets that look broken when measured against training MFU benchmarks become productive cash-flow assets when leased for inference. The framework generalizes beyond Colossus 1 — any cluster operator with mixed-generation inventory and a single inference customer can run the same arbitrage. As of May 2026 the only public example is Colossus 1 / Anthropic, but the framework's existence creates a category of "training-broken / inference-fine" capacity that did not exist as a recognized resale market 12 months earlier.
+
+The [[Blackwell]] power-smoothing factor compounds the training-side problem on a cluster like Colossus 1. [[NVIDIA]] documents power smoothing as a hardware feature on GB200/GB300 specifically because Blackwell draws power so aggressively that uneven workloads (irregular ramps, frequent stop-starts) can damage chips at the silicon level. Software stacks optimized for [[Hopper]] do not understand the GB200 power profile, and Zeeshan Patel (former xAI multimodal pre-training lead) reports observed cases of GB200s being physically destroyed by xAI's Hopper-era stack imposing irregular loads. Inference workloads tend to be steadier in power draw than training (no synchronized backward-pass spikes across tens of thousands of GPUs), partially mitigating this on the inference side.
+
+*Sources: Mirae Asset Securities note (May 8, 2026); [[The Information]] on xAI MFU; ML-systems literature (HetCCL arXiv:2601.22585, MegaScale arXiv:2402.15627); [[NVIDIA]] documentation on GB200 power smoothing; [[Lambda Labs]] (X/Twitter) on fleet-utilization vs MFU distinction.*
+
+---
+
 ## Related
 
 - [[NVIDIA]] - player (acquired Groq $20B for inference)
@@ -535,3 +576,8 @@ Either interpretation can be true simultaneously. The vault carries both attribu
 - [[Idea-execution inversion]] - structural counterpart; demand-side mechanism
 - [[Claude Mythos]] - selective-deployment example
 - [[Project Glasswing]] - rationing mechanism for frontier access
+- [[Colossus]] - May 2026 case study of inference-vs-training cluster repurposing
+- [[Training-to-inference cluster rotation]] - framework for heterogeneous-cluster repurposing
+- [[Blackwell]] - GB200 power smoothing context
+- [[Anthropic hyperscaler financing surge April 2026]] - May 6 Colossus 1 lease as capstone
+- [[Lambda Labs]] - fleet utilization vs MFU distinction on the 11% xAI figure

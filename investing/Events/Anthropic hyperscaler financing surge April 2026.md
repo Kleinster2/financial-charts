@@ -76,6 +76,41 @@ This is circular financing in clean form: hyperscalers invest in the AI lab, the
 
 ---
 
+## May 6 capstone: Anthropic single-tenant lease of Colossus 1
+
+Mirae Asset (May 8 note) frames the May 6 [[Colossus|Colossus 1]] lease as the capstone of the April surge, expanding Anthropic's 30-day commitment total from 13.5 GW (the original three deals) to 13.8 GW. That makes the surge the largest concentrated capacity-procurement event in AI history on a wall-clock basis: [[OpenAI]]'s comparable cumulative total of ~18 GW took more than a year to assemble.
+
+The May 6 deal differs from the April three on a dimension that matters for product economics: it is *deliverable this month*, not paced over multi-year build-outs.
+
+| Date | Counterparty | Capacity | Online |
+|---|---|---|---|
+| Apr 6, 2026 | [[Google]] + [[Broadcom]] | 3.5 GW TPU v7+ | Starts 2027 |
+| Apr 21, 2026 | [[Amazon]] / [[AWS]] | Up to 5 GW (Trainium ramp) | <1 GW Trainium2/3 by end-2026; full 5 GW over 10 years |
+| Apr 24, 2026 | [[Google]] / [[Google Cloud]] | 5 GW | Over five years from 2026 |
+| **May 6, 2026** | **[[SpaceX]] / [[xAI]] (SpaceXAI subsidiary)** | **0.3 GW (220K+ GPUs at Memphis Colossus 1)** | **Inside May 2026** |
+
+The lease is structurally different from the April three in three ways:
+- **Single-tenant lease, not equity-linked supply commitment.** No investor-customer entanglement of the kind documented in [[AI infrastructure financing risk]] for the April hyperscaler deals; it is a clean rental from a capacity owner that needed a tenant.
+- **Inference, not training.** The April deals are sized to support next-generation [[Claude]] training. Colossus 1's heterogeneous H100/H200/GB200 mix is poorly suited for synchronous training (see [[Colossus|Colossus MFU section]] and [[Inference economics]]) but neutralized for inference, which parallelizes per-request rather than per-step.
+- **Counterparty is [[Anthropic]]'s most public competitor's lead investor.** [[Elon Musk]] is the plaintiff in *Musk v. OpenAI* (trial Apr 2026) and a founder of [[xAI]]. The deal arms [[Anthropic]] — the AI lab founded explicitly to counterweight Musk-funded labs — with the largest single-block GPU lease the industry has seen, in the middle of the lawsuit.
+
+Mirae's commercial framing of why the deal was good for both sides:
+
+| Side | What it gets | Hedge against |
+|---|---|---|
+| xAI / SpaceXAI | $5-6B annual revenue (Mirae); $3-4B (New Street Research per Fortune) at ~$2.60/GPU-hr blended | xAI Q1 2026 annualized net loss ~$6B → lease ≈ break-even hedge for [[SpaceX IPO 2026|IPO]] narrative |
+| Anthropic | 0.3 GW deliverable inference capacity in May 2026; ~$5B spend convertible to ~$15B claimed inference ARR per Mirae | Reliability constraint on [[Claude]] product; capacity commitment vs deliverable gap |
+
+The strategic read embedded in Mirae's piece: the lease is the inflection where Anthropic's compute story shifts from "supplier-financed catch-up over multi-year build" to "deliverable inference capacity *now*, with longer build-out behind it." The April surge alone would not have been enough to support the April-disclosed [[Claude Code]], [[Claude Cowork]] and [[Claude Mythos]] reliability strain through 2026; the May 6 lease provides the bridge.
+
+The post-lease product changes are the cleanest product-side proof of new live capacity: Claude Code 5-hour rate limits doubled across paid tiers, peak-hours limit reductions removed for Pro/Max, API rate limits "considerably" raised on Opus models. See [[Claude]] and [[Claude Code]].
+
+The new angle that Mirae did not cover but cold research surfaced: per Tom's Hardware, [[Anthropic]] also expressed interest in partnering on multiple gigawatts of *orbital* AI compute capacity as part of the same negotiation. This connects to [[Space data centers]] and the [[SpaceX xAI merger]] orbital constellation thesis. The lease may be the first of a longer relationship rather than a one-shot deal — though no formal orbital terms were disclosed.
+
+*Sources: Mirae Asset Securities (May 8, 2026); [[xAI]] press release (May 6, 2026); Tom's Hardware (orbital interest); Datacenter Dynamics; Yahoo Finance; Fortune (New Street Research range); Unite.AI.*
+
+---
+
 ## Related
 
 - [[Anthropic]] — primary company
@@ -86,8 +121,15 @@ This is circular financing in clean form: hyperscalers invest in the AI lab, the
 - [[Trainium]] — AWS custom silicon used by Anthropic
 - [[TPU]] — Google custom silicon used by Anthropic
 - [[Broadcom]] — Google TPU silicon partner
+- [[xAI]] — May 6 lease counterparty
+- [[SpaceX]] — parent of lease counterparty (post merger)
+- [[Colossus]] — leased asset (Colossus 1)
 - [[AI infrastructure financing risk]] — circular financing framework
 - [[AI infrastructure financing]] — capital-stack context
 - [[AI infrastructure deals]] — detailed deal table
 - [[Anthropic vs OpenAI compute race]] — compute-strategy context
 - [[OpenAI]] — aggressive-commitment comparison
+- [[Training-to-inference cluster rotation]] — concept framing for the May 6 lease
+- [[Inference economics]] — heterogeneous-cluster asymmetry context
+- [[SpaceX IPO 2026]] — lease as IPO-defense narrative
+- [[Space data centers]] — orbital optionality embedded in the lease

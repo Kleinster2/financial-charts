@@ -160,4 +160,29 @@ The new risk is circularity. The same counterparties financing Anthropic are boo
 
 ---
 
+## May 2026 update: deliverable vs committed capacity
+
+The May 6, 2026 [[Colossus|Colossus 1]] single-tenant lease changes the framing on what "Anthropic's capacity" actually means in the near term.
+
+Through April, the running total Mirae Asset cited as Anthropic's April commitment surge was 13.8 GW added in 30 days: AWS 5 GW, Google Cloud 5 GW, Google + Broadcom 3.5 GW, plus the May 6 Colossus 1 lease at 0.3 GW. The headline is dramatic — for context, [[OpenAI]] took more than a year to stack ~18 GW of committed capacity. Cumulative Anthropic committed capacity through May sits at approximately 14.8 GW, against [[OpenAI]]'s 30 GW 2030 target.
+
+The framing problem with the cumulative number is that *committed* and *deliverable* are different. The hyperscaler agreements come online over 2026-2027 and beyond. The Colossus 1 lease comes online inside May 2026. On a deliverable-this-month basis, 0.3 GW is essentially Anthropic's only new live capacity from the entire surge. That makes the lease analytically more important than its share of the cumulative number suggests.
+
+| Counterparty | Committed | Live before June 2026 |
+|---|---|---|
+| AWS / Trainium | 5 GW (~1 GW Trainium2/3 by end-2026) | Trainium ramp; <1 GW operational |
+| Google Cloud | 5 GW | Largely from 2027 |
+| Google + Broadcom (TPU v7+) | 3.5 GW | Starts 2027 |
+| **SpaceXAI Colossus 1** | **0.3 GW** | **Inside May 2026** |
+
+The [[Claude]] product changes that landed alongside the lease — Claude Code 5-hour rate limits doubled across paid tiers, peak-hours limit reduction removed for Pro/Max, "considerably" raised API rate limits on Opus — are the visible product-side evidence that capacity constraint relaxed materially the moment Colossus 1 came online. That is the strongest proxy for "deliverability is qualitatively different from commitment" in the data so far.
+
+The structural reframing: Anthropic's compute-race narrative through Q1 2026 was "scrambling supplier-financed multi-year backfill." After May 6, it becomes "deliverable inference capacity now, supplier-financed scale through 2027." The latter narrative is harder for [[OpenAI]] to compete on at the inference-revenue layer through end-2026, even with a larger cumulative commitment, because OpenAI's own near-term deliverable adds are paced by neocloud and hyperscaler buildouts on roughly the same calendar.
+
+See [[Colossus]] for the architectural reason Colossus 1 was suitable for a single-tenant inference lease, and [[Training-to-inference cluster rotation]] for the broader framework on heterogeneous-cluster repurposing as a compute-supply mechanism.
+
+*Source: Mirae Asset Securities note (May 8, 2026); xAI press release (May 6, 2026); cross-checked Tom's Hardware, Datacenter Dynamics, Yahoo Finance, Unite.AI.*
+
+---
+
 *Created 2026-03-16*
