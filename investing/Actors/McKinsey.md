@@ -34,6 +34,14 @@ Preliminary evaluation of 2025 global trade, cited by [[Martin Wolf]] (FT, Apr 1
 
 ---
 
+## Digital Assets practice
+
+[[Matt Higginson]] (Boston partner) leads McKinsey's digital assets coverage as Global Head of Digital Assets. The practice's most influential recent output is the February 2026 paper "Stablecoins in payments: What the raw transaction numbers miss," co-produced with [[Artemis Analytics]]. The paper established the field-standard distinction between raw stablecoin transaction volume (mostly crypto-internal — exchange settlement, DeFi rotation, market-making) and real payment volume (B2B settlement, remittances, payroll). Filtered figure: ~$390B annual real payments, $1-2B/day flow — roughly 99% smaller than headline figures suggest. See [[Stablecoins]] for the full measurement framework and [[Matt Higginson]] for detail.
+
+Earlier work in the same vein: "The stable door opens: How tokenized cash enables next-gen payments" (July 2025).
+
+---
+
 ## AI and Lilli
 
 McKinsey has leaned heavily into AI both as a revenue line and as internal infrastructure. The firm claimed in 2025 that consulting on AI and related technology accounted for 40% of revenue. Its CEO said in 2026 it had built 25,000 AI "agents" to support its 40,000 staff.
@@ -65,6 +73,23 @@ Source: FT (Mar 12, 2026) — Ellesheva Kissin and Stephen Foley.
 
 Private partnership — no external investors, no cap table. Partners are elected internally and hold equity stakes in the firm. McKinsey has never taken outside funding. Revenue estimated at ~$16B (2024, various press reports). The firm discloses no financials.
 
+### Funding rounds
+
+| Round | Amount | Note |
+|-------|--------|------|
+| (none) | — | McKinsey has never raised outside capital. The firm has been employee-partner-owned continuously since founding. |
+
+### Financials (estimated)
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Revenue (2024) | ~$16B | Various press reports |
+| Workforce | ~40,000 | McKinsey-stated |
+| AI revenue share (2025) | ~40% | McKinsey-stated |
+| Founded | 1926 | Public record |
+
+McKinsey does not file financial statements and does not disclose partner compensation tables, profit margins, or balance sheet figures.
+
 ---
 
 ## Related
@@ -81,5 +106,13 @@ Private partnership — no external investors, no cap table. Partners are electe
 - [[Agentic AI security]] — Lilli breach is a case study in enterprise AI attack surface
 - [[Enterprise AI knowledge centralization]] — Lilli as organizational brain (46.5M messages, 94k workspaces)
 - [[Enterprise AI adoption]] — 40% of McKinsey revenue from AI consulting
+- [[Stablecoins]] — sector covered by Digital Assets practice
+- [[Stablecoin sandwich]] — operating model measured
 
-*Stub created 2026-03-12. Expanded 2026-03-15 with Lilli breach, AI revenue data.*
+### Analysts cited in vault
+- [[Matt Higginson]] — Boston partner, Global Head of Digital Assets
+
+### Research partners
+- [[Artemis Analytics]] — onchain data partner on Feb 2026 stablecoin payments paper
+
+*Stub created 2026-03-12. Expanded 2026-03-15 with Lilli breach, AI revenue data. Expanded 2026-05-10 with Digital Assets practice and Higginson stablecoin work.*

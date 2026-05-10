@@ -57,6 +57,12 @@
 
 Regulators expected to finalize licensing, custody, and compliance requirements by **July 18, 2026** (one-year anniversary). OCC has begun granting conditional bank charters to stablecoin firms — [[Stripe]]'s Bridge subsidiary received one in Feb 2026.
 
+### Activation "scramble" framing — Matt Higginson, McKinsey (May 2026)
+
+[[Matt Higginson]], McKinsey's Global Head of Digital Assets, on Bloomberg TV (May 2026): the Act will come into full force by end-2026, and other regulations are expected to follow. The market has not yet gone live at scale under the new framework — but when it does, expect a scramble among potentially dozens of US banks to position themselves between stablecoin issuance and customer-facing distribution. Building trust, compliance, and licensing is expensive, but once that infrastructure is in place the business is highly scalable: the same plumbing can move $100B/year or $1T/year without much incremental cost. The competitive battleground will be interface and trust, not technology.
+
+The structural parallel is the way [[Stripe]] compressed merchant-to-card-network distribution a decade ago — a regulated framework created the legal status, and the operators that built the right interface layer captured the disproportionate share of downstream economics. Banks that move first into the stablecoin-to-customer interface (APIs, custody, compliant yield-adjacent products that respect the no-yield rule) will likely consolidate the bulk of US flows.
+
 ---
 
 ## Meta stablecoin integration (Feb 2026)
@@ -81,7 +87,11 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-test
 - [[Digital Yuan]] — the competitor
 - [[Trump II]] — administration policy
 - [[Crypto]] — sector context
+- [[Stablecoins]] — sector backdrop
+- [[Stablecoin sandwich]] — operating model the Act effectively legalizes for US-side legs
+- [[Matt Higginson]] — McKinsey, "scramble" framing for end-2026 activation
+- [[Remitly]] — RELY watching activation closely for direct customer-facing stablecoin products
 
 ---
 
-*Updated 2026-02-25*
+*Updated 2026-05-10 — added Higginson "scramble" framing on end-2026 activation.*

@@ -174,6 +174,37 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-test
 
 ---
 
+## Measurement — raw transactions vs real payments (McKinsey / Artemis, Feb 2026)
+
+A persistent gap exists between headline stablecoin transaction figures and actual payment volume. [[McKinsey]] / [[Matt Higginson]], in collaboration with [[Artemis Analytics]] (Feb 2026 paper "Stablecoins in payments: What the raw transaction numbers miss"), filtered raw onchain transfer data to isolate transfers matching real payment patterns (B2B settlement, remittances, payroll, treasury) versus crypto-internal activity (exchange settlement, DeFi rotation, market-making).
+
+| Measurement | Annual figure | Note |
+|------------|---------------|------|
+| Headline figures cited in industry | ~$35T | Often quoted, mostly crypto-internal |
+| Real payment volume (Artemis filtered) | ~$390B | $1-2B/day flow |
+| Stablecoins in circulation | ~$300B | Up from ~$150B a year prior |
+| Real payment volume YoY growth | ~2x | Doubled over the prior year |
+
+The implication is that stablecoins as a payment rail are about 1,000-2,000x smaller than the loudest headlines suggest. Still substantial — and growing at ~2x annually — but a fraction of comparable real-payment baselines, where regular cross-border banking moves several trillion dollars per day. The "trillions" framing has anchored both bullish ("stablecoins are bigger than Visa") and bearish ("stablecoins are 99% crypto noise") narratives onto the same flawed denominator. The Artemis filtered figure is the cleaner baseline for trajectory comparisons.
+
+### Geographic origination (Artemis via McKinsey, Feb 2026)
+
+About 60% of stablecoin payments originate from Asia. This contradicts the dominant North America / Europe framing in industry coverage and means that policy from [[MAS]], [[HKMA]], and [[JFSA]] is now load-bearing for global stablecoin market structure — not just downstream of US developments around the [[GENIUS Act]]. The Asia origination weight is partly remittance corridors out of South Korea, Japan, and the Gulf states into the Philippines, Vietnam, Indonesia, and Bangladesh; partly EM dollar-access flows in Turkey, Pakistan, and Southeast Asia; and partly the dense onshore-offshore yuan stablecoin pipeline ([[Hong Kong]] Stablecoins Ordinance, Kazakhstan AFSA).
+
+### Bloomberg Intelligence long-term forecast
+
+[[Bloomberg Intelligence]] projects stablecoin transfer volume reaching ~$56T by 2030 — a roughly 150x scale up from the Artemis-filtered real-payment baseline of $390B in 2025. The forecast is forward-looking and depends on stablecoin rail integration into mainstream payment flows (creator economy, B2B treasury, retail remittance) plus continued cost compression versus correspondent banking.
+
+---
+
+## GENIUS Act activation scramble (Higginson framing)
+
+[[Matt Higginson]] (Bloomberg TV, May 2026): when the [[GENIUS Act]] fully comes into force by end-2026, expect a scramble among potentially dozens of US banks to position themselves between stablecoin issuance and customer-facing distribution. Once compliance and licensing infrastructure are in place, the business is highly scalable — the same plumbing can move $100B/year or $1T/year. The competitive question is interface and trust, not technology.
+
+The structural parallel is the way [[Stripe]] compressed merchant-to-card-network distribution a decade ago: a regulated framework created the legal status, and the operators that built the right interface layer captured the disproportionate share of downstream economics. Banks that move first into the stablecoin-to-customer interface — particularly through APIs, custody offerings, and yield-adjacent products that comply with GENIUS's no-yield rule — will likely consolidate the bulk of US flows.
+
+---
+
 ## Risks
 
 | Risk | Description |
@@ -222,6 +253,20 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-test
 - [[Payments Networks]] — traditional V/MA rails being challenged
 - [[Checkout wars]] — stablecoins as alternative to card interchange
 
+### Operating models and corridors
+- [[Stablecoin sandwich]] — fiat → stablecoin → fiat mechanism for cross-border transfers
+- [[Remitly]] — selective stablecoin rail routing, US/global remitter
+- [[Coins.ph]] — Philippine off-ramp, regulated digital asset platform
+
+### Measurement and research
+- [[Matt Higginson]] — McKinsey Global Head of Digital Assets; real-payments-vs-raw-transactions framing
+- [[Artemis Analytics]] — institutional onchain data, real-payment-volume methodology
+- [[McKinsey]] — Feb 2026 stablecoin payments paper with Artemis
+- [[Bloomberg Intelligence]] — $56T 2030 stablecoin transfer volume forecast
+
+### Regional regulatory leadership
+- [[Sopnendu Mohanty]] — architect of Singapore's stablecoin framework, GFTN CEO
+
 ---
 
-*Updated 2026-02-26*
+*Updated 2026-05-10 — added McKinsey/Artemis measurement framework, BI 2030 forecast, GENIUS Act activation framing, Asia origination data, stablecoin sandwich link.*
