@@ -30,4 +30,9 @@ aliases: [Apple Watch]
 
 - [[Apple]] — parent company
 - [[Fitbit]] — competitor (now Google)
-- [[Wearables]] — industry
+- [[Fitbit Air]] — May 2026 screenless wellness band; doesn't directly compete on smartwatch UX but erodes Apple's "always-on health monitor" narrative
+- [[Fitbit Air launch May 2026]] — launch event
+- [[Google Health Premium]] — Google's competing AI-coaching subscription
+- [[WHOOP]] — adjacent (screenless wristband)
+- [[Oura]] — adjacent (smart ring)
+- [[Health wearables]] — industry

@@ -11,10 +11,10 @@ Finnish smart ring maker. Market leader with 80%+ share. Subscription model ($5.
 
 ## Why it matters
 
-- **Smart ring market leader** — 80%+ market share, 5.5M rings sold ([[3M]] in last year alone)
-- **Subscription business** — $5.99/mo creates sticky revenue stream
-- **IP defender** — Aggressively protecting patents (Ultrahuman US ban Oct 2025)
-- **Private but highly valued** — $11B valuation, potential IPO candidate
+- Smart ring market leader — 80%+ market share, 5.5M rings sold ([[3M]] in last year alone)
+- Subscription business — $5.99/mo creates sticky revenue stream
+- IP defender — aggressively protecting patents (Ultrahuman US ban Oct 2025)
+- Private but highly valued — $11B valuation, potential IPO candidate
 
 ---
 
@@ -28,7 +28,7 @@ Finnish smart ring maker. Market leader with 80%+ share. Subscription model ($5.
 | Total raised | $1.32B |
 | Rings sold | 5.5M lifetime |
 
-**Revenue 2x'd in 2024** — expects to cross $1B in 2025.
+Revenue 2x'd in 2024 — expects to cross $1B in 2025.
 
 ---
 
@@ -40,31 +40,31 @@ Finnish smart ring maker. Market leader with 80%+ share. Subscription model ($5.
 | Series D | Dec 2024 | $200M | $5.2B | [[Fidelity]] |
 | Earlier rounds | — | ~$220M | — | Various |
 
-**Key investors:** [[Fidelity]], [[Temasek]], Square, Dexcom ($75M strategic), [[The Chernin Group]], [[Forerunner Ventures]], ICONIQ, Whale Rock, Atreides
+Key investors: [[Fidelity]], [[Temasek]], Square, Dexcom ($75M strategic), [[The Chernin Group]], [[Forerunner Ventures]], ICONIQ, Whale Rock, Atreides
 
 ---
 
 ## Product
 
-**Oura Ring 4** (current generation):
+Oura Ring 4 (current generation):
 - $349 hardware + $5.99/mo subscription
 - Sleep, readiness, activity tracking
 - HRV, SpO2, temperature
 - AI meal tracking (Oct 2025 update)
 - Blood test integrations (US)
 
-**Subscription stickiness:** Ring is less useful without subscription — creates lock-in.
+Subscription stickiness: ring is less useful without subscription — creates lock-in.
 
 ---
 
 ## Competitive moat
 
-**IP enforcement:**
+IP enforcement:
 - Oct 2025: ITC ruled Ultrahuman infringed Oura patents
-- Ultrahuman Ring Air **banned from US sales**
+- Ultrahuman Ring Air banned from US sales
 - [[Signal]]: Oura will litigate to protect market position
 
-**Why hard to dislodge:**
+Why hard to dislodge:
 - Best-in-class app and insights
 - Largest health dataset for ring form factor
 - Subscription revenue funds R&D
@@ -78,6 +78,8 @@ Finnish smart ring maker. Market leader with 80%+ share. Subscription model ($5.
 |------------|--------------|-------|
 | Samsung Galaxy Ring | High | No subscription, but needs Samsung phone |
 | [[Apple]] (potential) | High | No ring yet, but Watch competes |
+| [[Fitbit Air]] / [[Google Health Premium]] | Medium-high | $99 hardware + Gemini-powered coaching attacks the consumer-AI-funnel angle Oura proved out (May 2026 — see [[Fitbit Air launch May 2026]]). Different form factor (band vs ring) buys insulation but compresses the smart-ring premium narrative. |
+| [[WHOOP]] | Medium | Different form factor; primary target of Fitbit Air |
 | Chinese (RingConn, Amazfit) | Medium | Price competition, weaker apps |
 | Ultrahuman | Low (for now) | Banned in US |
 
@@ -94,16 +96,23 @@ Finnish smart ring maker. Market leader with 80%+ share. Subscription model ($5.
 
 ## What to watch
 
-- [ ] IPO timing (at $11B, likely candidate)
+- [ ] IPO timing (at $11B, likely candidate — [[Fitbit Air launch May 2026]] creates either a defensive-window argument to accelerate or a noise argument to delay)
 - [ ] [[Apple]] ring announcement
 - [ ] Samsung Galaxy Ring 2 (2026)
 - [ ] Additional IP enforcement actions
 - [ ] International expansion
+- [ ] Subscription pricing response to [[Google Health Premium]] at $99/yr (Oura currently $71.88/yr — within 30% of Google's tier already)
 
 ---
 
 ## Related
 
 - [[Samsung]] — main competitor (Galaxy Ring)
+- [[Fitbit Air]] — adjacent competitor (different form factor, similar funnel model)
+- [[Fitbit Air launch May 2026]] — competitive event
+- [[Google Health Premium]] — competitor's subscription wrapper
+- [[WHOOP]] — adjacent screenless competitor
 - [[Screenless AI]] — category context
 - [[Consumer AI]] — market context
+- [[Health wearables]] — sector
+- [[Subscription economy]] — business-model context

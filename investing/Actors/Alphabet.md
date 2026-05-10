@@ -43,6 +43,16 @@ The structural read is in the Anthropic event note: [[Google]] is funding a fron
 
 ---
 
+## Fitbit Air + Google Health Premium launch (May 7, 2026)
+
+[[Google]] used the Fitbit brand on May 7, 2026 to launch [[Fitbit Air]] — a $99 screenless fitness tracker — alongside the rebrand of Fitbit Premium into [[Google Health Premium]] ($9.99/mo or $99/yr) and the launch of [[Google Health Coach]], a Gemini-powered coaching service inside Premium. Pre-orders opened May 7; device ships May 26; [[Google Health]] app and the Premium tier go live globally May 19.
+
+The structural read for Alphabet is that hardware is the customer-acquisition wedge for the [[Google AI Pro]] / [[Google AI Ultra]] subscription stack, not a hardware business in its own right. [[Google Health Premium]] is included free with [[Google AI Pro]] ($19.99/mo) — the funnel terminates in [[Gemini]] usage and the consumer-AI ARPU line. The closest direct comp is [[Apple]]'s Watch → Services attach pattern, except Alphabet's funnel terminates in a more valuable subscription. The competitive target is private — [[WHOOP]] at its March 2026 $10.1B Series G mark is most exposed; [[Oura]] is adjacent. Full event note: [[Fitbit Air launch May 2026]]; subscription detail in [[Google Health Premium]].
+
+This is the first material monetization push for the Fitbit asset since the $2.1B 2021 acquisition, which until now had read as a write-off.
+
+---
+
 ## Q1 2026 earnings — Cloud +63%, capex raised again (Apr 29, 2026)
 
 Alphabet reported Q1 2026: total revenue $109.9B (+20% YoY, fastest growth quarter since 2022), EPS $5.11 vs. $2.62 Street estimate (a 95% surprise — distorted upward by a one-time $36.9B gain on equity securities, contributing $2.35 to diluted EPS and $28.7B to net income). Stripping the equity-securities gain, core operating EPS still cleared the consensus comfortably. Reported net income $62.6B (+81% YoY headline number).
@@ -70,5 +80,11 @@ Stock closed Apr 29 at $349.94, ~flat on the day into the print; the after-hours
 - [[Anthropic hyperscaler financing surge April 2026]] — event-level deal context
 - [[TPU]] — Anthropic compute-spend monetization vehicle
 - [[Google Cloud]] — capacity-financing arm
+- [[Fitbit]] — wearables subsidiary (May 2026 platform reset)
+- [[Fitbit Air]] — May 2026 wearable launch
+- [[Fitbit Air launch May 2026]] — launch event
+- [[Google Health Premium]] — consumer health AI subscription wrapper
+- [[Google Health Coach]] — Gemini-powered AI health coach
+- [[Gemini]] — terminal subscription target
 
-*Stub created 2026-03-24 · Updated 2026-04-26*
+*Stub created 2026-03-24 · Updated 2026-05-10*
