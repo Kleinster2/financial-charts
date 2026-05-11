@@ -4,6 +4,9 @@ For every public-company actor note, the "where does this name actually trade" q
 
 This is the rigorous version of the existing `## Sector correlation` section, which only correlates the actor against 3-4 ETFs. Cluster validation extends that to a candidate peer cohort + adjacent-sector controls + broad-market benchmarks, and runs three diagnostics.
 
+> [!info] Reference example: [[Space pure-plays]]
+> The [[Space pure-plays]] cohort note is the canonical worked example for this framework. It covers every section in this doc — basic validation, stability check across windows, the four follow-on advanced patterns (regime split, event-study decomposition, multiple-objectives subset optimization, complement test), cross-cohort comparison, and cluster-vs-control separation analysis. Config at `scripts/cluster_configs/rklb.yaml`. When in doubt about the right format for any section here, see how it's done in [[Space pure-plays]]. The [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] note is the older basic-validation example (single-page format without the advanced patterns).
+
 ---
 
 ## When to run
@@ -26,17 +29,17 @@ Skip:
 
 ## How to run
 
-Each cluster is defined by a YAML config in `scripts/cluster_configs/{name}.yaml`. The config specifies the candidate cohort (always group `cluster`) plus adjacent-sector control groups. See `scripts/cluster_configs/boutique_advisory.yaml` for the canonical example.
+Each cluster is defined by a YAML config in `scripts/cluster_configs/{name}.yaml`. The config specifies the candidate cohort (always group `cluster`) plus adjacent-sector control groups. See `scripts/cluster_configs/rklb.yaml` for the canonical example (Space pure-plays cohort, May 2026 — the most extensive worked example). `scripts/cluster_configs/boutique_advisory.yaml` is the older basic-validation example.
 
 ```bash
 # Validate an existing cluster
-python scripts/cluster_analysis.py --config scripts/cluster_configs/boutique_advisory.yaml
+python scripts/cluster_analysis.py --config scripts/cluster_configs/rklb.yaml
 
 # Validate by primary actor (auto-loads scripts/cluster_configs/{ticker}.yaml)
-python scripts/cluster_analysis.py --primary PWP
+python scripts/cluster_analysis.py --primary RKLB
 
 # Override threshold or output prefix
-python scripts/cluster_analysis.py --primary PWP --threshold 0.35 --prefix pwp-tighter
+python scripts/cluster_analysis.py --primary RKLB --threshold 0.4 --prefix space-tighter
 ```
 
 Outputs land in `investing/attachments/`:
@@ -55,27 +58,31 @@ Outputs land in `investing/attachments/`:
 
 The config is the entire model — get it right and the validation is meaningful, get it wrong and the math is precise but pointless.
 
+Canonical example — `scripts/cluster_configs/rklb.yaml` for the [[Space pure-plays]] cohort:
+
 ```yaml
-name: Boutique advisory               # human-readable label for the cluster
-primary: PWP                          # primary actor whose note hosts the analysis (optional)
-prefix: boutique-cluster              # output filename stem (defaults to {primary}-cluster)
-threshold: 0.4                        # dendrogram cut on 1-|corr| distance
-window_end: 2026-04-30                # optional; latest weekday if omitted
+name: Space pure-plays                # human-readable label for the cluster
+primary: RKLB                         # primary actor whose note hosts the analysis (optional)
+prefix: space-pureplays-cluster       # output filename stem (defaults to {primary}-cluster)
+threshold: 0.5                        # dendrogram cut on 1-|corr| distance
+window_end: 2026-05-08                # optional; latest weekday if omitted
 
 groups:
   cluster:                            # REQUIRED group name; the candidate cohort being tested
     color: "#2962FF"
-    tickers: [PWP, LAZ, EVR, MC, HLI, PJT]
-  bulge:                              # adjacent-sector controls (1-3 of these typical)
-    color: "#000000"
-    tickers: [GS, MS, JPM]
-  ins_brk:                            # most-distant comparator (sanity check that the cluster is distinctive)
-    color: "#26A69A"
-    tickers: [AON, AJG, BRO]
+    tickers: [RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL]
+  defense_primes:                     # adjacent-sector controls (1-3 typical)
+    color: "#7E57C2"
+    tickers: [LMT, RTX, NOC, LHX]
+  small_cap:                          # broad-market control
+    color: "#FF6F00"
+    tickers: [IWM]
   etf:                                # ALWAYS include 3-4 broad benchmarks
     color: "#9E9E9E"
-    tickers: [XLF, KBE, IWM, SPY]
+    tickers: [SPY, ITA, XAR]
 ```
+
+(Older basic-validation example — `scripts/cluster_configs/boutique_advisory.yaml` for the boutique advisory cohort PWP / LAZ / EVR / MC / HLI / PJT with bulge brackets + insurance brokers + ETF controls.)
 
 ### Choosing groups
 
@@ -167,7 +174,7 @@ PC1 loadings should all be positive and roughly equal. If they aren't (one name 
 
 ### 5. Conclusions to draft
 
-For the actor note, condense the output into a 5-row summary table + one paragraph. See `investing/Concepts/Boutique advisory consolidation.md` for the canonical write-up format.
+For the actor / cohort note, condense the output into a 5-row summary table + one paragraph. See [[Space pure-plays]] for the canonical write-up format (most extensive worked example with all 19 analytical sections). For a simpler single-page format, see [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]].
 
 ---
 
@@ -322,7 +329,7 @@ Mathematically validated cluster: [[Actor1]], [[Actor2]], [[Actor3]] (intra-corr
 ![[{prefix}-dendrogram-1y.png]]
 ```
 
-For concept notes that own the cluster identity (e.g., [[Boutique advisory consolidation]]), embed the full 4-section analysis directly with all four PNG plots and the diagnostic tables. The concept note is the canonical home; member actor notes link back to it.
+For cohort notes that own the cluster identity (Sectors/ child or Concepts/ note), embed the full multi-section analysis directly with the dendrogram + correlation heatmap + PCA biplot PNG plots and the diagnostic tables. The cohort note is the canonical home; member actor notes link back to it. See [[Space pure-plays]] for the complete reference structure (19 analytical sections covering basic validation + stability + the four follow-on patterns + cross-cohort comparison); [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] is the simpler single-page format.
 
 ### Status-header callout (required for all cluster-validated notes)
 
@@ -378,7 +385,37 @@ If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is
 
 ## Reference
 
-- Script: `scripts/cluster_analysis.py`
-- Config schema + example: `scripts/cluster_configs/boutique_advisory.yaml`
-- Canonical write-up: `investing/Concepts/Boutique advisory consolidation.md` (see "Cluster validation — statistical analysis (May 2026)" section)
-- Related lighter-weight tool: `scripts/add_sector_correlations.py` (single-actor vs ETFs)
+### Canonical reference (full framework, all four follow-on patterns)
+
+- Cohort note: [[Space pure-plays]] — 19 analytical sections covering basic validation, stability check, PC1 factor analysis, May 8 event-study decomposition, factor decomposition (residual variance vs SPY/IWM/ITA), PC2 sub-structure, minimum-name expression search, PC2 pair-trade backtest, missing-name screen, Golden Dome super-cluster falsification, minimum-name robustness across windows, complement test, vol regime, LUNR+BKSY drawdown analysis, best-Sharpe pair search, pre/post Nov 2025 regime quantification, event-study cohort decomposition, PC3 inspection, rate sensitivity, and cross-cohort comparison.
+- Config: `scripts/cluster_configs/rklb.yaml`
+- Scripts (worked examples):
+  - `scripts/cluster_analysis.py` (basic validation — produces correlation heatmap, dendrogram, PCA biplot, results.txt)
+  - `scripts/cluster_stability_check.py` (rolling window stability — YTD/1Y/2Y/3Y)
+  - `scripts/chart_pc1_component.py` (PC1 factor index + rolling explained variance)
+  - `scripts/cluster_deep_dive.py` (factor decomposition vs benchmarks + PC2 + missing-name screen)
+  - `scripts/cluster_subset_optimization.py` (optimal 2- and 3-name subsets by tracking error)
+  - `scripts/may8_factor_decomposition.py` (single-day factor vs idiosyncratic breakdown)
+  - `scripts/cohort_extras.py` (vol regime + drawdown profile)
+  - `scripts/cohort_regime_and_events.py` (pre/post regime + best-Sharpe + event study)
+  - `scripts/cohort_subset_robustness.py` (rolling robustness + complement-basket test)
+  - `scripts/cohort_pc3_and_rates.py` (PC3 inspection + interest-rate correlation)
+
+### Older worked examples
+
+- Config schema + basic-validation example: `scripts/cluster_configs/boutique_advisory.yaml`
+- Single-page write-up format: [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] (Cluster validation — statistical analysis (May 2026) section)
+
+### Cross-cohort comparison set (matched methodology)
+
+All five validated with the same window (1Y through 2026-05-07) and threshold (0.5):
+
+- `scripts/cluster_configs/wfe_quartet.yaml` ([[WFE]]) — N=4, 0.804 intra-corr, 85.33% PC1
+- `scripts/cluster_configs/korea_memory.yaml` ([[Korea Memory]]) — N=2, 0.756, 87.82%
+- `scripts/cluster_configs/us_memory.yaml` ([[US Memory]]) — N=3, 0.696, 79.72%
+- `scripts/cluster_configs/rklb.yaml` ([[Space pure-plays]]) — N=7, 0.624, 67.96%
+- `scripts/cluster_configs/ai_compute.yaml` ([[AI Compute]]) — N=3, 0.600, 73.37%
+
+### Related lighter-weight tool
+
+- `scripts/add_sector_correlations.py` (single-actor vs ETFs — feeds the `## Sector correlation` section)
