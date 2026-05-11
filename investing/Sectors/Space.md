@@ -21,7 +21,7 @@ Space economy — launch services, satellites, earth observation, exploration.
 | Satellite manufacturing | ~$20B | 10% |
 | Ground equipment | ~$70B | 5% |
 
-**Total space economy:** ~$500B+ (2025), $1T+ by 2030
+Total space economy: ~$500B+ (2025), $1T+ by 2030
 
 ## Q1 2026 — record investment quarter
 
@@ -73,7 +73,7 @@ The follow-on question for next week: does the rerating extend (factor-style con
 
 | Company | Status | Dominance |
 |---------|--------|-----------|
-| **SpaceX** | Private | **~70% global share** |
+| SpaceX | Private | ~70% global share |
 | ULA | Boeing/Lockheed JV | US government |
 | Rocket Lab | Public (RKLB) | Small sat |
 | Blue Origin | Private (Bezos) | Growing |
@@ -127,23 +127,23 @@ The follow-on question for next week: does the rerating extend (factor-style con
 |--------|-------|
 | 2024 launches | 130+ |
 | Global market share | ~70% |
-| Valuation | **$350B** (Dec 2025) |
+| Valuation | $350B (Dec 2025) |
 | IPO target | $1.5T (2026E) |
 | Key asset | [[Starlink]] |
 
-**Reusability revolution:** Falcon 9 boosters landed 300+ times.
+Reusability revolution: Falcon 9 boosters landed 300+ times.
 
 ---
 
 ## European launch renaissance (2025-2026)
 
-Europe completed just **7 orbital launches in 2025** vs US 130+. After retiring Ariane 5 (2023) and grounding Vega-C (2 years), Europe temporarily lost independent access to orbit — ESA had to ask SpaceX to launch Galileo satellites.
+Europe completed just 7 orbital launches in 2025 vs US 130+. After retiring Ariane 5 (2023) and grounding Vega-C (2 years), Europe temporarily lost independent access to orbit — ESA had to ask SpaceX to launch Galileo satellites.
 
-**Recovery:**
-- **Ariane 6** flew 2024 (cost €4.7B, not reusable). Targeting 10 launches/yr by 2027. First Amazon Kuiper launch early 2026.
-- **Vega-C** (Avio) overcame technical issues, resumed flights.
+Recovery:
+- Ariane 6 flew 2024 (cost €4.7B, not reusable). Targeting 10 launches/yr by 2027. First Amazon Kuiper launch early 2026.
+- Vega-C (Avio) overcame technical issues, resumed flights.
 
-**Startup challengers (ESA European Launcher Challenge, €900M):**
+Startup challengers (ESA European Launcher Challenge, €900M):
 
 | Company | Country | Status |
 |---------|---------|--------|
@@ -153,11 +153,11 @@ Europe completed just **7 orbital launches in 2025** vs US 130+. After retiring 
 | MaiaSpace | France | ArianeGroup subsidiary |
 | Orbex | UK | Pre-orbital |
 
-**Funding:** ESA approved record **€22B** over 3 years (Nov 2025). Germany plans **€35B** in space-defense by 2030.
+Funding: ESA approved record €22B over 3 years (Nov 2025). Germany plans €35B in space-defense by 2030.
 
-**Structural headwinds:** Geo-return policy allocates contracts by country funding share (not capability). Europe space investment still far behind US. Competition may fragment limited funding.
+Structural headwinds: Geo-return policy allocates contracts by country funding share (not capability). Europe space investment still far behind US. Competition may fragment limited funding.
 
-**Comparison:** Rocket Lab (RKLB, $45B mkt cap) took ~75 successful small-launcher missions since 2018 to reach medium-lift (Neutron). SpaceX valued at ~$800B.
+Comparison: Rocket Lab (RKLB, $45B mkt cap) took ~75 successful small-launcher missions since 2018 to reach medium-lift (Neutron). SpaceX valued at ~$800B.
 
 ---
 
@@ -216,7 +216,7 @@ See [[Starlink]] for details.
 
 | Company | Status | Access |
 |---------|--------|--------|
-| **SpaceX** | $350B valuation | Private (via Baron, Fidelity) |
+| SpaceX | $350B valuation | Private (via Baron, Fidelity) |
 | Blue Origin | Private (Bezos) | No public access |
 | Sierra Space | Private | Dream Chaser |
 | Relativity Space | Private | 3D-printed rockets |
@@ -227,10 +227,10 @@ See [[Starlink]] for details.
 
 | Metric | What it measures |
 |--------|------------------|
-| **Launch cadence** | Launches per year |
-| **Cost per kg to LEO** | Launch economics |
-| **Satellite constellation** | Coverage/capacity |
-| **Revenue per subscriber** | ARPU (Starlink) |
+| Launch cadence | Launches per year |
+| Cost per kg to LEO | Launch economics |
+| Satellite constellation | Coverage/capacity |
+| Revenue per subscriber | ARPU (Starlink) |
 
 ---
 
@@ -238,12 +238,12 @@ See [[Starlink]] for details.
 
 | Risk | Impact |
 |------|--------|
-| **SpaceX dominance** | Competitors struggling |
-| **Debris/Kessler syndrome** | Orbital congestion |
-| **Regulation** | Launch licensing, spectrum |
-| **Capital intensity** | High capex needs |
-| **Geopolitics** | China competition |
-| **Dual-use exports** | Chinese commercial ops supplying adversary ISR; see [[Chinese dual-use commercial satellite exports]] |
+| SpaceX dominance | Competitors struggling |
+| Debris/Kessler syndrome | Orbital congestion |
+| Regulation | Launch licensing, spectrum |
+| Capital intensity | High capex needs |
+| Geopolitics | China competition |
+| Dual-use exports | Chinese commercial ops supplying adversary ISR; see [[Chinese dual-use commercial satellite exports]] |
 
 ---
 

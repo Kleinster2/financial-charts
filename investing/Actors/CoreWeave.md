@@ -319,6 +319,33 @@ Insider selling: $1B+ sold since lockup expired Aug 2025.
 
 ---
 
+## Q1 2026 print — revenue +112% but capex bumped, guide light (May 7-8 2026)
+
+CRWV closed -11.4% on May 8 ($128.84 → $114.15, -2.9σ beta-adjusted) on Q1 2026 results delivered May 7 evening. The print itself was an aggressive beat-and-grow on the top line, but Q2 guidance was light and the FY capex range was raised — the combination compressed the multiple.
+
+| Q1 2026 | Result | vs Consensus |
+|---------|--------|--------------|
+| Revenue | $2.08B | beat ($1.97B consensus); +112% YoY |
+| New contract commitments | $40B+ | record quarterly commitment |
+| Contracted revenue backlog | $99.4B | up from $66.8B at year-end 2025 |
+| Adjusted EPS | Below consensus | wider loss than expected |
+| Q1 capex | $6.8B | one-quarter capex matches full-year peers |
+| FY 2026 capex (revised) | $31-35B (up from prior) | raised range |
+| FY 2026 revenue guide | $12-13B (maintained) | unchanged |
+| Q2 2026 revenue guide | Light vs consensus | the downside catalyst |
+
+The structural reads:
+
+1. Revenue acceleration vs the bear case. CoreWeave bears in late 2025 priced a slow-down on customer concentration (Microsoft 65% of revenue) and AI-capex deceleration concerns. The +112% revenue print + $40B in new commitments materially undercuts both bear claims for at least Q1 — demand is real and broadening.
+2. Capex outpacing revenue is the core structural concern. FY26 capex range raised to $31-35B against unchanged $12-13B revenue. That's a ~2.5x capex/revenue ratio — sustainable only if the contracted backlog converts to revenue on a multi-year horizon. The selloff is the market pricing in higher 2026 cash-burn risk + financing-need risk before backlog conversion is realized.
+3. The Akamai-Cloudflare comparison sharpens. Same May 8 session: [[Akamai]] +26.6% (capacity provider, won the $1.8B AI cloud contract), [[Cloudflare]] -23.6% (labor restructure on AI-first transition), CoreWeave -11.4% (capacity provider but with margin/capex concerns). All three edge-cloud / AI-infrastructure names moved on AI-related earnings the same day, in three different directions, with the dispersion explained by their respective margin/cash-burn profiles. CoreWeave's place in the taxonomy: capacity-provider thesis intact, but the cash-burn profile makes it the highest-risk expression of that thesis.
+
+YTD CoreWeave still up 60%+ through May 8 despite the post-earnings selloff. The print confirms the demand thesis; the question for the next two quarters is whether the company can convert backlog to revenue fast enough to outrun the capex curve.
+
+*Sources: [CNBC — CoreWeave Q1 earnings report 2026](https://www.cnbc.com/2026/05/07/coreweave-crwv-q1-earnings-report-2026.html); [Motley Fool — Why CoreWeave stock plummeted today](https://www.fool.com/investing/2026/05/08/why-coreweave-stock-plummeted-today/), May 7-8 2026; local `quick_movers.py` screen.*
+
+---
+
 ## Related
 
 ### Securities

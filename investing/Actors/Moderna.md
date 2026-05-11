@@ -119,6 +119,20 @@ Bear:
 
 ---
 
+## May 8 2026 — Phase 3 flu data + hantavirus program
+
+MRNA closed +12.0% on May 8 ($48.54 → $54.35, +3.1σ beta-adjusted) on a confluence of pipeline catalysts:
+
+1. Phase 3 mRNA-1010 (seasonal flu vaccine) data published in the [[New England Journal of Medicine]]. The study met its pre-specified superiority criterion against a licensed standard-dose seasonal influenza vaccine in adults 50+. FDA PDUFA date is August 5, 2026; filings under review in US, Europe, Canada, and Australia.
+2. Initiation of a hantavirus vaccine development program. The program announcement reads as opportunistic — hantavirus has had outbreak attention in 2026 — but the strategic read is that Moderna is positioning mRNA as a rapid-response platform for emerging-pathogen surveillance, the same playbook that produced the COVID vaccine on a 9-month timeline.
+3. Post-earnings analyst upgrades reinforcing the multi-product pipeline thesis.
+
+The Phase 3 mRNA-1010 data is the load-bearing catalyst. Moderna's mRNA platform has been bear-cased since the COVID-vaccine revenue cliff (2022-2024) on the argument that mRNA-1010 was the next viable product and would either succeed (validating the platform for chronic / seasonal use cases) or fail (collapsing the platform thesis). The Phase 3 superiority result settles the question on the success side; the August PDUFA is the regulatory final test.
+
+*Sources: [Benzinga — Moderna stock rises on positive Phase 3 flu data](https://www.benzinga.com/trading-ideas/movers/26/05/52408328/moderna-stock-rises-on-positive-phase-3-flu-data-what-investors-need-to-know); [Tokenist — Moderna hantavirus vaccine data](https://tokenist.com/moderna-mrna-hantavirus-vaccine-price-target-hikes/); [GuruFocus](https://www.gurufocus.com/news/8846571/moderna-mrna-advances-hantavirus-vaccine-development-amid-renewed-interest), May 8 2026; local `quick_movers.py` screen.*
+
+---
+
 ## Related
 
 - [[Pfizer]] — COVID vaccine partner (now competitor)

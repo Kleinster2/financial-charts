@@ -679,6 +679,57 @@ For now, the structural read is that the KTOS-AVAV pair is the only defensible U
 
 ---
 
+## PC3 inspection + rate sensitivity
+
+Two follow-up diagnostics that fill out the full factor-decomposition picture.
+
+### PC3 — small sub-structure axis with low explanatory power
+
+PC3 captures 6.1% of cohort variance (vs PC1's 69% and PC2's 8%). At that share, PC3 is too small to support strong structural claims, but the loadings have a discernible pattern worth flagging:
+
+| Ticker | PC3 loading | Direction |
+|---|---|---|
+| BKSY | +0.527 | Positive |
+| LUNR | +0.392 | Positive |
+| SPIR | +0.183 | Slight positive |
+| RDW | +0.140 | Slight positive |
+| RKLB | -0.215 | Negative |
+| PL | -0.456 | Negative |
+| ASTS | -0.512 | Negative |
+
+PC3 positive sleeve: LUNR + BKSY (the factor-clean pair from the minimum-name-expression analysis above). PC3 negative sleeve: ASTS + PL + RKLB (the names with the highest idiosyncratic catalyst components in the May 8 decomposition above). The axis is suggestive but not clean — possibly capturing "factor-clean tracking names" vs "single-name catalyst-heavy names," but with only 6% of variance explained, PC3 is fragile to window choice and noise.
+
+Cumulative explained variance: PC1 (69.2%) + PC2 (8.2%) + PC3 (6.1%) = 83.5%. Two-factor structure (PC1 + PC2) captures 77% of cohort variance; adding PC3 marginally improves the fit but doesn't reveal a new structural sub-cluster. Practical implication: for diagnostic purposes, the cohort is well-approximated as a one- or two-factor structure; PC3 and beyond are noise.
+
+### Interest-rate sensitivity — essentially zero
+
+Small-cap high-vol names "should" be rate-sensitive, but the cohort isn't. Pairwise correlation to [[Treasuries]] ETFs over the 1Y window through May 8:
+
+| Rate proxy | Correlation to basket |
+|---|---|
+| TLT (long-bond) | -0.043 |
+| IEF (intermediate) | -0.049 |
+| SHY (short-bond) | -0.035 |
+
+All three correlations are near zero. Per-name correlations to TLT range from +0.013 (RKLB) to -0.131 (PL) — also near zero across the cohort.
+
+Multivariate regression results (basket returns ~ SPY + IWM + ITA + TLT):
+
+| Factor | Beta | Note |
+|---|---|---|
+| SPY | -0.530 | Slightly negative (vs -0.12 in the simpler model without TLT) |
+| IWM | +2.286 | Small-cap beta intact |
+| ITA | +1.007 | Defense beta intact |
+| TLT | -1.337 | Non-trivial negative — bonds rally hurts cohort at the margin |
+
+R² goes from 41.3% (without TLT) to 43.4% (with TLT) — adding TLT contributes only +2.1pp of explained variance. The residual pure-play factor is still 56.6% — the rate factor is real but small relative to the cohort-specific factor.
+
+The structural read: the cohort is structurally insulated from rate cycles in a way that most small-cap high-vol names are not. The most plausible mechanism is that the cohort's catalyst structure ([[Golden Dome]] contract awards, [[SpaceX IPO 2026|SpaceX IPO]] anticipation, [[2026 Iran conflict defense repricing|war-premium]] flows) is genuinely independent of rate expectations. Small-cap high-vol stocks typically pay a "duration penalty" — their cash flows are far in the future and discount-rate-sensitive — but the cohort's near-term catalyst flow (binary product launches, contract awards) makes the discount-rate effect second-order at best.
+
+Anyone holding the basket as part of a portfolio gets factor exposure that's substantially uncorrelated with the rates trade — useful for portfolio construction, since most equity baskets carry meaningful rate beta.
+
+---
+
 ### Validation charts
 
 ![[space-pureplays-cluster-dendrogram-1y.png]]

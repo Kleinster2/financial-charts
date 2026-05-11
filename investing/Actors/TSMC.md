@@ -25,7 +25,7 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 
 | Role | Name | Since |
 |------|------|-------|
-| Chairman & CEO | **Dr. C.C. Wei** | Jun 2024 (CEO since 2018) |
+| Chairman & CEO | Dr. C.C. Wei | Jun 2024 (CEO since 2018) |
 | Former Chairman | Dr. Mark Liu | 2018-2024 |
 | Founder | Morris Chang | Founded 1987, retired 2018 |
 | CFO | Wendell Huang | 2012 |
@@ -100,17 +100,17 @@ TSM trades as a core Semiconductors name (SMH r = 0.87).
 
 ## Key events
 
-- **Record January 2026 sales** (reported Feb 10-11, 2026) — NT$401.3B (~$12.7B), +37% YoY, +20% MoM. Highest monthly sales in company history. HPC now 58% of revenue. Signals AI chip demand accelerating, not plateauing.
-- **A16 "Angstrom Era"** (Feb 2026) — TSMC's 1.6nm-class A16 process enters mass production late 2026. Introduces backside power delivery — radical re-architecting of how power reaches transistors. First confirmed partner: [[NVIDIA]] Feynman GPU architecture. Semiconductor industry crosses from nanometer to sub-nanometer scale.
-- **NVIDIA poised to overtake Apple** — Reports suggest [[NVIDIA]] will surpass [[Apple]] as TSMC's largest customer by revenue in 2026, reflecting AI GPU dominance.
-- **Japan 3nm production** (Feb 5, 2026) — TSMC announced it will manufacture **3nm AI semiconductors** at Kumamoto Fab 2 in Japan. First advanced node production outside [[Taiwan]]/Arizona. Validates [[Japan]] as AI semiconductor hub.
-- **US-[[Taiwan]] trade deal + Section 232** (Jan 14-15, 2026) — Part of [[US-Taiwan relations]] breakthrough. 25% Section 232 tariff on advanced AI chips (H200, MI325X) took effect Jan 15. In exchange, TSMC gets **"preferential Section 232 treatment"** — duty-free imports at ratios tied to US investment milestones. $500B total [[Taiwan]] chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15% for [[Taiwan]]. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. Commits to **4+ more US fabs** (~$100B additional capex). The more TSMC builds in US, the less it pays — tariffs as industrial policy tools.
-- **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns [[Taiwan]]/Korea chipmakers face 100% tariffs unless they build in US. "That's industrial policy." Quota relief during construction (2.5x capacity tariff-free), falling to 1.5x post-production.
-- **Q4 2025 earnings** (Jan 16, 2026) — NT$505.7B ($16B) net income, beat estimates. FY2025 revenue >$100B (first time ever). 2026 capex guidance $52-56B (≥25% growth), revenue growth ~30%.
-- **Q4 2024 record revenue** (Jan 2025) — NT$1,046B (~$33B), first quarter above NT$1T. Beat consensus by ~1%. YoY +20%, gross margin 59%. AI demand driving.
+- Record January 2026 sales (reported Feb 10-11, 2026) — NT$401.3B (~$12.7B), +37% YoY, +20% MoM. Highest monthly sales in company history. HPC now 58% of revenue. Signals AI chip demand accelerating, not plateauing.
+- A16 "Angstrom Era" (Feb 2026) — TSMC's 1.6nm-class A16 process enters mass production late 2026. Introduces backside power delivery — radical re-architecting of how power reaches transistors. First confirmed partner: [[NVIDIA]] Feynman GPU architecture. Semiconductor industry crosses from nanometer to sub-nanometer scale.
+- NVIDIA poised to overtake Apple — Reports suggest [[NVIDIA]] will surpass [[Apple]] as TSMC's largest customer by revenue in 2026, reflecting AI GPU dominance.
+- Japan 3nm production (Feb 5, 2026) — TSMC announced it will manufacture 3nm AI semiconductors at Kumamoto Fab 2 in Japan. First advanced node production outside [[Taiwan]]/Arizona. Validates [[Japan]] as AI semiconductor hub.
+- US-[[Taiwan]] trade deal + Section 232 (Jan 14-15, 2026) — Part of [[US-Taiwan relations]] breakthrough. 25% Section 232 tariff on advanced AI chips (H200, MI325X) took effect Jan 15. In exchange, TSMC gets "preferential Section 232 treatment" — duty-free imports at ratios tied to US investment milestones. $500B total [[Taiwan]] chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15% for [[Taiwan]]. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. Commits to 4+ more US fabs (~$100B additional capex). The more TSMC builds in US, the less it pays — tariffs as industrial policy tools.
+- Lutnick 100% tariff threat (Jan 17, 2026) — [[Howard Lutnick]] warns [[Taiwan]]/Korea chipmakers face 100% tariffs unless they build in US. "That's industrial policy." Quota relief during construction (2.5x capacity tariff-free), falling to 1.5x post-production.
+- Q4 2025 earnings (Jan 16, 2026) — NT$505.7B ($16B) net income, beat estimates. FY2025 revenue >$100B (first time ever). 2026 capex guidance $52-56B (≥25% growth), revenue growth ~30%.
+- Q4 2024 record revenue (Jan 2025) — NT$1,046B (~$33B), first quarter above NT$1T. Beat consensus by ~1%. YoY +20%, gross margin 59%. AI demand driving.
 - [[TSMC Arizona expansion]] — U.S. geographic diversification (land buy Jan 2026)
-- **Kumamoto Fab 2 pivot** (Dec 2025) — Scrapping 6nm plan, jumping to 2nm/3nm for autonomous/AI. JASM posted NT$6.2B loss H1 2025 vs Arizona's NT$4.7B profit.
-- **Nanjing VEU expiring Dec 31** — TSMC dismisses concerns, says Chinese clients can access advanced nodes globally. [[Xiaomi]] 3nm chip as proof.
+- Kumamoto Fab 2 pivot (Dec 2025) — Scrapping 6nm plan, jumping to 2nm/3nm for autonomous/AI. JASM posted NT$6.2B loss H1 2025 vs Arizona's NT$4.7B profit.
+- Nanjing VEU expiring Dec 31 — TSMC dismisses concerns, says Chinese clients can access advanced nodes globally. [[Xiaomi]] 3nm chip as proof.
 
 ## 3nm capacity crisis (Apr 2026)
 
@@ -126,15 +126,15 @@ Semiconductor industry capex reaching $200B in 2026 (+20% YoY), with advanced pa
 
 [[Jensen Huang]] on the Dwarkesh Patel podcast: "We've never had a contract with [[TSMC]]. 30 years, no contract — just trust." [[NVIDIA]] is now TSMC's single largest customer (overtaking or roughly level with [[Apple]] by 2026 revenue).
 
-**Why this matters structurally:**
+Why this matters structurally:
 
-- **Allocation is FIFO, not auction.** Jensen described TSMC's wafer allocation as fixed-price, first-in-first-out — "the last thing we want to do is make ourselves undependable." Customers who lock capacity years ahead get the capacity; short-notice high-bidders do not. NVIDIA's forward commitments (booked through Rubin, Rubin Ultra, Feynman) lock the primary share of advanced-node capacity.
+- Allocation is FIFO, not auction. Jensen described TSMC's wafer allocation as fixed-price, first-in-first-out — "the last thing we want to do is make ourselves undependable." Customers who lock capacity years ahead get the capacity; short-notice high-bidders do not. NVIDIA's forward commitments (booked through Rubin, Rubin Ultra, Feynman) lock the primary share of advanced-node capacity.
 
-- **CoWoS swarm.** Jensen: "[[TSMC]] swarmed the CoWoS problem" — the packaging bottleneck is no longer the binding constraint for NVIDIA's roadmap. TSMC scaled CoWoS capacity from ~32K/mo (2023) toward 120K+/mo (2026) after NVIDIA's commitment signals.
+- CoWoS swarm. Jensen: "[[TSMC]] swarmed the CoWoS problem" — the packaging bottleneck is no longer the binding constraint for NVIDIA's roadmap. TSMC scaled CoWoS capacity from ~32K/mo (2023) toward 120K+/mo (2026) after NVIDIA's commitment signals.
 
-- **A16 / Feynman partnership.** Jensen confirmed [[NVIDIA]] Feynman (2028 architecture) as the first announced partner for TSMC's A16 1.6nm-class process with backside power delivery. Multi-year advance coordination — only possible under the trust-based relationship model.
+- A16 / Feynman partnership. Jensen confirmed [[NVIDIA]] Feynman (2028 architecture) as the first announced partner for TSMC's A16 1.6nm-class process with backside power delivery. Multi-year advance coordination — only possible under the trust-based relationship model.
 
-- **Arizona motivation.** Jensen credits the 30-year trust plus the [[Donald Trump|Trump]]-administration tariff architecture for TSMC's willingness to "go build a Giga fab in Arizona." Not one factor — both.
+- Arizona motivation. Jensen credits the 30-year trust plus the [[Donald Trump|Trump]]-administration tariff architecture for TSMC's willingness to "go build a Giga fab in Arizona." Not one factor — both.
 
 The anecdote is load-bearing for the moat argument. NVIDIA's roadmap cadence (annual through 2029) is impossible without a foundry partner willing to co-plan capacity years out. "30 years, no contract" is not casual — it's the most advance-committed silicon supply chain in the industry.
 
@@ -144,34 +144,34 @@ See [[Jensen Huang]] for broader context, [[Rubin]] for the roadmap, and [[Advan
 
 ## Q1 2026 earnings (Apr 16, 2026)
 
-**Record Q1: AI-led demand drives profit +58% and FY guide raised to >+30% growth.**
+Record Q1: AI-led demand drives profit +58% and FY guide raised to >+30% growth.
 
 | Metric | Q1 2026 Actual | vs Expected | YoY |
 |--------|----------------|-------------|-----|
-| Consolidated revenue (NTD) | **NT$1,134.10B** | — | +~40% |
-| Consolidated revenue (USD) | **$35.90B** | — | **+40.6%** |
+| Consolidated revenue (NTD) | NT$1,134.10B | — | +~40% |
+| Consolidated revenue (USD) | $35.90B | — | +40.6% |
 | QoQ revenue | — | — | +6.4% |
-| Net income | **NT$572.48B** | — | **+58.3%** |
+| Net income | NT$572.48B | — | +58.3% |
 | Diluted EPS | NT$22.08 | — | +58% |
-| ADR EPS-equivalent | **$3.49** | — | — |
+| ADR EPS-equivalent | $3.49 | — | — |
 
 ### Q2 2026 guidance
 
 | Metric | Guidance |
 |--------|----------|
-| Revenue | **$39.0-40.2B** (+10% QoQ) |
+| Revenue | $39.0-40.2B (+10% QoQ) |
 | Gross margin | 65.5-67.5% |
 
 ### 2026 full-year guide — raised
 
 | Metric | Prior (Jan 2026) | Apr 16 revision |
 |--------|------------------|-----------------|
-| USD revenue growth | ~+30% YoY | **>+30% YoY** (reaffirmed/raised) |
-| Capex | $52-56B | **High end of $52-56B** (now explicit) |
+| USD revenue growth | ~+30% YoY | >+30% YoY (reaffirmed/raised) |
+| Capex | $52-56B | High end of $52-56B (now explicit) |
 
-**Structural read:** CEO C.C. Wei reiterated the AI-capex supercycle framing. The Q1 gross-margin expansion + Q2 midpoint (66.5%) beating prior guide (~60%) is the margin-monetization leg of [[Jensen Huang]]'s "ASML leaves money on the table for TSMC and NVIDIA" thesis — TSMC now converting the FIFO-allocation moat into operating leverage as 3nm/5nm mix rises. The capex "high end" nudge validates the 3nm sold-out-through-2028 signal; the industry capex number ($200B+ 2026) holds.
+Structural read: CEO C.C. Wei reiterated the AI-capex supercycle framing. The Q1 gross-margin expansion + Q2 midpoint (66.5%) beating prior guide (~60%) is the margin-monetization leg of [[Jensen Huang]]'s "ASML leaves money on the table for TSMC and NVIDIA" thesis — TSMC now converting the FIFO-allocation moat into operating leverage as 3nm/5nm mix rises. The capex "high end" nudge validates the 3nm sold-out-through-2028 signal; the industry capex number ($200B+ 2026) holds.
 
-**Cross-reads:** [[ASML]] (Q1 Apr 15 FY guide also raised — same AI-capex signal; see [[Lithography as binding constraint]]), [[NVIDIA]] (primary customer pulling allocation), [[Apple]] (now likely behind NVIDIA on TSMC revenue), [[Advanced packaging]] (CoWoS capacity moving toward 120K/mo), [[Rubin]] (roadmap volume tied directly to this capacity ramp).
+Cross-reads: [[ASML]] (Q1 Apr 15 FY guide also raised — same AI-capex signal; see [[Lithography as binding constraint]]), [[NVIDIA]] (primary customer pulling allocation), [[Apple]] (now likely behind NVIDIA on TSMC revenue), [[Advanced packaging]] (CoWoS capacity moving toward 120K/mo), [[Rubin]] (roadmap volume tied directly to this capacity ramp).
 
 *Sources: [[CNBC]] (Apr 16, 2026); [[Reuters]] (Apr 16); eeNews Europe (Apr 16); SemiWiki Q1 2026 breakdown.*
 
@@ -232,13 +232,13 @@ The move came in the same week [[Taiwan]]'s aggregate market cap surpassed the [
 
 | Metric | Value |
 |--------|-------|
-| Market share | **71%** (Q3 2025) |
+| Market share | 71% (Q3 2025) |
 | Leading edge | 2nm ramping 2025 |
-| U.S. investment | up to **$165B** (Arizona) + **$100B** (4 more fabs) |
+| U.S. investment | up to $165B (Arizona) + $100B (4 more fabs) |
 | [[CHIPS Act]] | $6.6B |
-| **2026 capex** | **$52B-$56B** |
-| **FY2025 revenue** | **>$100B** (first time) |
-| **Short interest** | **0.5%** of float (Jan 2026) |
+| 2026 capex | $52B-$56B |
+| FY2025 revenue | >$100B (first time) |
+| Short interest | 0.5% of float (Jan 2026) |
 
 *Updated 2026-02-11 — Record Jan sales, A16/Feynman*
 
@@ -256,23 +256,23 @@ TSMC's 3nm is not one process — it's a family optimized for different use case
 
 | Node | Focus | [[Trade]]-offs | Status |
 |------|-------|------------|--------|
-| **N3E** | Baseline 3nm | Balanced PPA | Production |
-| **N3P** | Performance Enhanced | +5% vs N3E, -10% power, +4% density | Production |
-| **N3X** | High-Performance Computing | +5% vs N3P, max clocks, >1.0V | **First commercial: [[Qualcomm]] X2** |
+| N3E | Baseline 3nm | Balanced PPA | Production |
+| N3P | Performance Enhanced | +5% vs N3E, -10% power, +4% density | Production |
+| N3X | High-Performance Computing | +5% vs N3P, max clocks, >1.0V | First commercial: [[Qualcomm]] X2 |
 
-**N3X specifics:**
+N3X specifics:
 - Optimized for clock speed over efficiency
 - Higher voltage operation (>1.0V)
 - Lower density vs N3P
 - Lower efficiency vs N3P
 - [[Target]]: desktop/laptop chips that can tolerate power draw
 
-**Who uses what:**
+Who uses what:
 - [[Apple]]: N3E/N3P (efficiency-first for laptops/phones)
 - [[Qualcomm]]: N3X (Snapdragon X2 Elite Extreme — performance-first)
 - AI accelerators: Likely N3P (balance of performance and density)
 
-**Implications:** TSMC can tune the same node generation for different customers. Not all "3nm" chips are equal.
+Implications: TSMC can tune the same node generation for different customers. Not all "3nm" chips are equal.
 
 ---
 
@@ -285,15 +285,15 @@ TSMC's 3nm is not one process — it's a family optimized for different use case
 
 Post-2019: ASP +133%, COGS +78%, gross profit per wafer expanded 3.3x.
 
-**Drivers:**
+Drivers:
 - Scarcity premium (capacity constrained)
 - EUV-based advanced nodes
 - Higher HPC/AI mix
 - Advanced packaging (CoWoS)
 
-**Key insight**: Rising COGS actually benefits TSMC — discourages competition, widens the moat. Complexity is a feature, not a bug.
+Key insight: Rising COGS actually benefits TSMC — discourages competition, widens the moat. Complexity is a feature, not a bug.
 
-**Dec 2025 pricing announcement:**
+Dec 2025 pricing announcement:
 - Annual price hikes starting Jan 1, 2026 through 2029
 - 2026: +3-10% depending on process node
 - Drivers: tight sub-3nm capacity, sustained AI demand
@@ -313,14 +313,14 @@ What consensus assumes (update when you see estimates):
 | Arizona timeline | On schedule | |
 | 2024 revenue growth | +20% YoY (Q4) | Jan 2025 |
 | Gross margin | 59% (Q4 2024) | Jan 2025 |
-| **2026 revenue growth** | **30%** (Street), **25-30%** (likely guide) | [[Susquehanna]] Jan 2026 |
+| 2026 revenue growth | 30% (Street), 25-30% (likely guide) | [[Susquehanna]] Jan 2026 |
 
-**Priced in:**
+Priced in:
 - Continued dominance at leading edge
 - Arizona execution (no major delays)
 - Apple/NVIDIA as locked customers
 
-**Not priced in (potential surprises):**
+Not priced in (potential surprises):
 - [[Taiwan]] disruption
 - [[N-2 rule]] relaxation
 - Major customer defection
@@ -332,17 +332,17 @@ What consensus assumes (update when you see estimates):
 
 Framework from @jenniatech (Jan 2026) on why TSMC is making its largest-ever capex bet:
 
-**1. Controlling unit economics** — Advanced chip costs aren't getting cheaper. By controlling unit economics, TSMC prevents customers (Apple, NVIDIA, [[AMD]], Qualcomm) from becoming competitors. No one can afford to build their own fabs.
+1. Controlling unit economics — Advanced chip costs aren't getting cheaper. By controlling unit economics, TSMC prevents customers (Apple, NVIDIA, [[AMD]], Qualcomm) from becoming competitors. No one can afford to build their own fabs.
 
-**2. Advanced packaging bottleneck** — CoWoS packaging now 20-30% of total chip cost. Was a huge bottleneck in 2025. TSMC targeting 120K wafers/month CoWoS capacity by 2026 (2x current). If they hit it, customers have no alternative.
+2. Advanced packaging bottleneck — CoWoS packaging now 20-30% of total chip cost. Was a huge bottleneck in 2025. TSMC targeting 120K wafers/month CoWoS capacity by 2026 (2x current). If they hit it, customers have no alternative.
 
-**3. Geopolitical protection** — Arizona/[[Japan]] capacity is expensive but provides safety net from shifting trade rules and global politics. Potential "honorary US company" status if Arizona expansion proceeds.
+3. Geopolitical protection — Arizona/[[Japan]] capacity is expensive but provides safety net from shifting trade rules and global politics. Potential "honorary US company" status if Arizona expansion proceeds.
 
-**4. Limits of the "silicon island"** — [[Taiwan]] resources running tight: power (97% imported), ultra-pure water. By grabbing industrial real estate now, TSMC leaves competitors and local government "left dry."
+4. Limits of the "silicon island" — [[Taiwan]] resources running tight: power (97% imported), ultra-pure water. By grabbing industrial real estate now, TSMC leaves competitors and local government "left dry."
 
-**5. Supercycle demand** — 2nm uses new nanosheet (GAA) transistor architecture with higher profit margins. Early adopters (Apple, NVIDIA) already committed. Spending big now locks out rivals before supercycle hits.
+5. Supercycle demand — 2nm uses new nanosheet (GAA) transistor architecture with higher profit margins. Early adopters (Apple, NVIDIA) already committed. Spending big now locks out rivals before supercycle hits.
 
-**Key cliffhangers:**
+Key cliffhangers:
 - Technical: Can TSMC optimize fabs fast enough for NVIDIA's Rubin architecture?
 - Apple's 2nm quality test — Apple is the anchor customer for the entire $56B investment
 - US deal could close as early as Feb 2026
@@ -353,58 +353,58 @@ Framework from @jenniatech (Jan 2026) on why TSMC is making its largest-ever cap
 
 ## Q4 2025 earnings (Jan 16, 2026)
 
-**Results beat, guidance beats Street expectations:**
+Results beat, guidance beats Street expectations:
 
 | Metric | Value | vs Expect |
 |--------|-------|-----------|
-| **Q4 Net income** | NT$505.7B ($16B) | Beat |
+| Q4 Net income | NT$505.7B ($16B) | Beat |
 | Q4 Revenue | $33.1B | (reported earlier) |
-| **FY2025 Revenue** | **>$100B** | First time ever |
+| FY2025 Revenue | >$100B | First time ever |
 | FY2025 growth | >30% | |
 
-**2026 Guidance (stronger than expected):**
+2026 Guidance (stronger than expected):
 
 | Metric | Guidance | Notes |
 |--------|----------|-------|
-| **Capex** | **$52B-$56B** | Up ≥25% from 2025 |
-| **Revenue growth** | **~30%** | Beats Street (consensus was 25-30%) |
+| Capex | $52B-$56B | Up ≥25% from 2025 |
+| Revenue growth | ~30% | Beats Street (consensus was 25-30%) |
 
-**Key commentary:**
+Key commentary:
 - Strong outlook = "bullish signal on AI development frenzy"
 - Helps assuage concerns about sustainability of data center spending
-- US investment commitment expected: up to **$165B** total
+- US investment commitment expected: up to $165B total
 - Memory crunch headwind: smartphone shipments -11.6% expected (Macquarie)
 - Plants building in [[Japan]] (2nm pivot) and [[Germany]]
 
-**Pre-earnings ([[Susquehanna]])**: Hosseini expected guidance "may disappoint some investors" — but TSMC beat even bullish expectations.
+Pre-earnings ([[Susquehanna]]): Hosseini expected guidance "may disappoint some investors" — but TSMC beat even bullish expectations.
 
-**Stock reaction:** Fresh all-time high ~NT$1,600+ (highlighted yellow on Bloomberg chart).
+Stock reaction: Fresh all-time high ~NT$1,600+ (highlighted yellow on Bloomberg chart).
 
-**Short interest:** ~0.5% of free float — notably LOW despite parabolic run from ~NT$400 (2023) to NT$1,600+.
+Short interest: ~0.5% of free float — notably LOW despite parabolic run from ~NT$400 (2023) to NT$1,600+.
 
 ### Short interest history (quarterly)
 
 | Quarter | SI % float | Stock (TWD) | Note |
 |---------|------------|-------------|------|
-| **Q1 2026** | **0.5%** | NT$1,600+ | ATH, shorts capitulated |
+| Q1 2026 | 0.5% | NT$1,600+ | ATH, shorts capitulated |
 | Q4 2025 | 0.5% | NT$1,400 | |
 | Q3 2025 | 0.5% | NT$1,100 | |
 | Q2 2025 | 0.4% | NT$900 | |
 | Q1 2025 | 0.4% | NT$700 | AI boom accelerating |
 | 2023 avg | 0.3-0.5% | NT$400-500 | Pre-AI baseline |
 | 2015-19 avg | 0.2-0.5% | NT$150-300 | Established leader |
-| **2010-11** | **1.5-1.7%** | NT$60-80 | Historical peak |
+| 2010-11 | 1.5-1.7% | NT$60-80 | Historical peak |
 
-**The puzzle:** Stock 4x'd since 2023, yet short interest at historical lows, not highs. Parabolic runs normally attract shorts betting on mean reversion.
+The puzzle: Stock 4x'd since 2023, yet short interest at historical lows, not highs. Parabolic runs normally attract shorts betting on mean reversion.
 
-**What low short interest suggests:**
+What low short interest suggests:
 - Bears see no compelling catalyst — AI monopoly thesis is consensus
 - [[Taiwan]] geopolitical risk NOT being actively hedged via shorting
 - No one wants to fight foundry monopolist + AI demand combo
 
-**Contrarian read:** When everyone's long and shorts have capitulated, who's left to buy? Could signal crowded positioning. But could also mean fundamental case is so bulletproof that shorting is seen as reckless.
+Contrarian read: When everyone's long and shorts have capitulated, who's left to buy? Could signal crowded positioning. But could also mean fundamental case is so bulletproof that shorting is seen as reckless.
 
-**Watch for:** Rising short interest would signal emerging skepticism on AI demand durability or [[Taiwan]] risk being priced in.
+Watch for: Rising short interest would signal emerging skepticism on AI demand durability or [[Taiwan]] risk being priced in.
 
 See [[Short interest]] for broader framework on interpreting this signal.
 

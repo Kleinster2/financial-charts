@@ -8,11 +8,11 @@ Research on the competitive dynamics of advanced semiconductor foundries.
 
 The framing captures dynamics that "competition" undersells:
 
-- **Zero-sum** — Leading-edge customers are scarce. A Samsung win is a TSMC loss.
-- **Capital as weapon** — $20B+ fabs are barrier moats. Outspending rivals to exhaust them is deliberate strategy.
-- **Geopolitical stakes** — CHIPS Act, China restrictions, Taiwan risk. Governments treat foundry capacity as national security.
-- **Winner-take-most** — At leading edge, one foundry dominates each node. No peaceful market-sharing equilibrium.
-- **Attrition** — Intel bleeding cash. Samsung yields stuck. GlobalFoundries retreated. Losers exit or get marginalized.
+- Zero-sum — Leading-edge customers are scarce. A Samsung win is a TSMC loss.
+- Capital as weapon — $20B+ fabs are barrier moats. Outspending rivals to exhaust them is deliberate strategy.
+- Geopolitical stakes — CHIPS Act, China restrictions, Taiwan risk. Governments treat foundry capacity as national security.
+- Winner-take-most — At leading edge, one foundry dominates each node. No peaceful market-sharing equilibrium.
+- Attrition — Intel bleeding cash. Samsung yields stuck. GlobalFoundries retreated. Losers exit or get marginalized.
 
 ---
 
@@ -69,41 +69,41 @@ Other:
 
 Ideas that explain the competitive dynamics:
 
-**Moats & advantages**
+Moats & advantages
 - [[Customer lock-in via co-design]]
 - [[Yield as competitive moat]]
 - [[Why TSMC can afford patience]]
 - [[Advanced packaging]] — CoWoS, 2.5D, another TSMC moat under attack
 
-**Bottlenecks**
+Bottlenecks
 - [[Supply chain bottlenecks]] — power, materials, foundry, packaging, memory, test
 - [[Memory shortage 2025-2026]] — "largest ever supply-demand gap" (Micron)
 - [[Final test bottleneck]] — hidden constraint
 - [[ASE]] — \#1 OSAT, packaging + test
 - [[Cohu]] — test handlers, Eclipse platform
 
-**Demand**
+Demand
 - [[End market demand]] — AI/datacenter driving 50% of incremental wafer demand
 - [[AI hyperscalers]] — demand side of the supply chain
 - [[Hyperscaler chip roadmap]] — custom ASIC programs by company (reference)
 - [[Automotive semiconductors]] — SiC, power, ADAS — post-EV boom settling
 - [[Power constraints]] — 44GW US data center shortfall, may slow chip deployment
 
-**Risk & strategy**
+Risk & strategy
 - [[Execution risk in foundries]]
 - [[Why Samsung's aggression may be rational]]
 - [[Taiwan concentration risk]]
 - [[Node lag as strategy]]
 - [[IP leakage risk]]
 
-**Technical dynamics**
+Technical dynamics
 - [[N-2 rule]] — export control boundary
 - [[Leading edge race]] — node competition
 
-**Policy**
+Policy
 - [[CHIPS Act]]
 
-**Adjacent markets**
+Adjacent markets
 - [[Image sensors]] — Samsung leads, shows uneven execution across segments
 
 ---
@@ -134,8 +134,8 @@ Uncertainties worth tracking:
 | Actor | Share | Strategy | Risk | Dec 2025 update |
 |-------|-------|----------|------|-----------------|
 | [[TSMC]] | ~72% | Defend monopoly | Taiwan concentration | N-2 rule, VEU revoked |
-| [[Samsung]] | ~7% | Leapfrog | Execution | **Yields 55-60%, xAI deal, Q4 beat** |
-| [[Intel Foundry Services]] | <5% | Transform | Everything | **18A HVM, Maia 2 (reported)** |
+| [[Samsung]] | ~7% | Leapfrog | Execution | Yields 55-60%, xAI deal, Q4 beat |
+| [[Intel Foundry Services]] | <5% | Transform | Everything | 18A HVM, Maia 2 (reported) |
 | [[Rapidus]] | 0% | National champion | Unproven | |
 
 ---
@@ -144,29 +144,29 @@ Uncertainties worth tracking:
 
 | Thesis | Status (Dec 2025) |
 |--------|-------------------|
-| [[Short TSMC long Korea]] | **Strengthening** — Samsung yields up, xAI deal, SK Hynix margins > TSMC |
+| [[Short TSMC long Korea]] | Strengthening — Samsung yields up, xAI deal, SK Hynix margins > TSMC |
 | [[Long TSMC]] | Confirmed — 72% share, pricing power |
 | [[Long Apple]] | Holding — silicon design moat |
-| [[Long memory]] | **Strongly confirmed** — shortage unprecedented, all validation boxes checked |
+| [[Long memory]] | Strongly confirmed — shortage unprecedented, all validation boxes checked |
 | [[Long WFE]] | Confirmed — ASML record high |
 | [[Long OSAT and test equipment]] | Holding |
-| [[Long Broadcom]] | **New** — ASIC explosion $14.5B → $100B F27E |
+| [[Long Broadcom]] | New — ASIC explosion $14.5B → $100B F27E |
 
 ---
 
 ## Recent developments (Dec 2025)
 
-**Foundry diversification emerging:**
+Foundry diversification emerging:
 - xAI-Samsung Taylor deal finalized
 - NVIDIA exploring Samsung as second foundry
 - Microsoft Maia 2 reportedly going to Intel 18A
 
-**Memory funding expansion:**
+Memory funding expansion:
 - SK Hynix GM 63-67% (exceeds TSMC)
 - Samsung Q4 30% above consensus
 - Shortage "largest ever" per Micron
 
-**VEU revoked Dec 31:**
+VEU revoked Dec 31:
 - Case-by-case approvals for Korea China fabs
 - Supply constraint tightening
 
@@ -201,12 +201,12 @@ Key analytical takeaways:
 
 | Thesis | Status (May 2026) |
 |--------|-------------------|
-| [[Short TSMC long Korea]] | **Weakening** — Intel takes the dual-source title Samsung needed |
+| [[Short TSMC long Korea]] | Weakening — Intel takes the dual-source title Samsung needed |
 | [[Long TSMC]] | Intact but capped — moat survives, upside slightly compressed |
 | [[Long Apple]] | Intact — design moat is the durable layer |
-| [[Long Intel]] | **Strengthening** — TERAFAB + Apple = two anchor pillars |
+| [[Long Intel]] | Strengthening — TERAFAB + Apple = two anchor pillars |
 | [[Long memory]] | Intact — shortage unchanged by foundry shuffle |
-| [[Long WFE]] | **Strengthening** — more US fab build implied |
+| [[Long WFE]] | Strengthening — more US fab build implied |
 
 ---
 

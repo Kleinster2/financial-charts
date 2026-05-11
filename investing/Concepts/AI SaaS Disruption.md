@@ -51,10 +51,10 @@ The structural argument is compelling: most SaaS products are CRUD apps (Create,
 
 ## The new playbook (2026)
 
-1. **Stop building CRUD apps** — AI generates those faster than your team ships them
-2. **Build on proprietary data or domain expertise** — foundation models can't hallucinate what they don't have
-3. **Build for AI agents, not humans** — next wave of SaaS customers are autonomous agents calling APIs, not people clicking buttons
-4. **Moat = data + models** — UI is no longer defensible
+1. Stop building CRUD apps — AI generates those faster than your team ships them
+2. Build on proprietary data or domain expertise — foundation models can't hallucinate what they don't have
+3. Build for AI agents, not humans — next wave of SaaS customers are autonomous agents calling APIs, not people clicking buttons
+4. Moat = data + models — UI is no longer defensible
 
 ## AI disruption by SaaS segment
 
@@ -62,13 +62,13 @@ Not all SaaS is equally exposed. AI disrupts each segment through a different me
 
 | Segment | Examples | AI threat level | Mechanism |
 |---------|----------|----------------|-----------|
-| **Horizontal SaaS** | [[Salesforce]], [[Workday]], [[ServiceNow]] | High | Core value = structured workflow for humans. AI agents manage CRM pipelines, generate reports, route tickets without a UI. $150/seat/month starts looking like overhead. |
-| **Vertical SaaS** | Veeva (pharma), Procore (construction), Toast (restaurants) | Low-medium | Value = domain knowledge + compliance frameworks + data moats. AI can't easily replace Veeva's FDA submission workflows. Regulatory lock-in persists. |
-| **Infrastructure SaaS** | [[Snowflake]], [[Datadog]], [[Confluent]] (pre-IBM) | Beneficiary | AI doesn't replace these — AI *needs* them. More agents = more data pipelines, monitoring, infra. This segment grows with AI adoption. |
-| **SMB SaaS** | [[Shopify]], [[Block]], Gusto | High | Price-sensitive customers, simple enough workflows for agents to handle. Shopify adapting by becoming the agent commerce platform. Others get eaten. |
-| **Collaboration SaaS** | Slack, [[Notion]], Asana, Monday | High | The "coordination tax" layer. AI agents manage tasks, summarize threads, orchestrate workflows without humans clicking through a project management UI. |
+| Horizontal SaaS | [[Salesforce]], [[Workday]], [[ServiceNow]] | High | Core value = structured workflow for humans. AI agents manage CRM pipelines, generate reports, route tickets without a UI. $150/seat/month starts looking like overhead. |
+| Vertical SaaS | Veeva (pharma), Procore (construction), Toast (restaurants) | Low-medium | Value = domain knowledge + compliance frameworks + data moats. AI can't easily replace Veeva's FDA submission workflows. Regulatory lock-in persists. |
+| Infrastructure SaaS | [[Snowflake]], [[Datadog]], [[Confluent]] (pre-IBM) | Beneficiary | AI doesn't replace these — AI *needs* them. More agents = more data pipelines, monitoring, infra. This segment grows with AI adoption. |
+| SMB SaaS | [[Shopify]], [[Block]], Gusto | High | Price-sensitive customers, simple enough workflows for agents to handle. Shopify adapting by becoming the agent commerce platform. Others get eaten. |
+| Collaboration SaaS | Slack, [[Notion]], Asana, Monday | High | The "coordination tax" layer. AI agents manage tasks, summarize threads, orchestrate workflows without humans clicking through a project management UI. |
 
-**The pattern:** segments where the value is "organizing human workflows" are most exposed. Segments where the value is "proprietary data" or "infrastructure plumbing" are insulated or benefit.
+The pattern: segments where the value is "organizing human workflows" are most exposed. Segments where the value is "proprietary data" or "infrastructure plumbing" are insulated or benefit.
 
 ### Horizontal SaaS sub-segmentation
 
@@ -76,22 +76,22 @@ Within horizontal — the most exposed segment — there's a gradient from "dead
 
 | Sub-segment | Examples | AI threat | Why |
 |-------------|----------|-----------|-----|
-| **Analytics/BI** | Tableau, Looker, Domo | Highest | Natural language → SQL is solved. "Show me revenue by region for Q4" doesn't need a $70/user/month dashboard product. Dead man walking. |
-| **Workflow orchestration** | [[ServiceNow]], Jira, Asana, Monday | Very high | These ARE coordination tools — and AI agents ARE coordinators. Why click through a ticketing system when an agent routes, prioritizes, resolves autonomously? ServiceNow pivoting to "agent orchestration" but competing directly with [[OpenAI]] Frontier and [[NemoClaw]]. |
-| **Communication/engagement** | [[HubSpot]], Braze, Klaviyo, Mailchimp | High | AI writes emails, segments audiences, personalizes at scale. The middleware evaporates when an agent calls the email API directly. |
-| **Systems of record** | [[Salesforce]] CRM, [[Workday]] HCM, [[SAP]] ERP | Medium | The database of truth persists even when agents handle workflows. You still need somewhere to store customer records, employee data, financial transactions. UI layer commoditized but data layer is sticky. Survive by becoming the API backend agents call, not the interface humans click. |
-| **Security/compliance** | [[CrowdStrike]], [[Palo Alto Networks]], [[Zscaler]] | Beneficiary | The exception. More agents = more endpoints = more attack surface = more security spend. Every [[NemoClaw]] deployment needs guardrails. Horizontal SaaS disguised as infrastructure. |
+| Analytics/BI | Tableau, Looker, Domo | Highest | Natural language → SQL is solved. "Show me revenue by region for Q4" doesn't need a $70/user/month dashboard product. Dead man walking. |
+| Workflow orchestration | [[ServiceNow]], Jira, Asana, Monday | Very high | These ARE coordination tools — and AI agents ARE coordinators. Why click through a ticketing system when an agent routes, prioritizes, resolves autonomously? ServiceNow pivoting to "agent orchestration" but competing directly with [[OpenAI]] Frontier and [[NemoClaw]]. |
+| Communication/engagement | [[HubSpot]], Braze, Klaviyo, Mailchimp | High | AI writes emails, segments audiences, personalizes at scale. The middleware evaporates when an agent calls the email API directly. |
+| Systems of record | [[Salesforce]] CRM, [[Workday]] HCM, [[SAP]] ERP | Medium | The database of truth persists even when agents handle workflows. You still need somewhere to store customer records, employee data, financial transactions. UI layer commoditized but data layer is sticky. Survive by becoming the API backend agents call, not the interface humans click. |
+| Security/compliance | [[CrowdStrike]], [[Palo Alto Networks]], [[Zscaler]] | Beneficiary | The exception. More agents = more endpoints = more attack surface = more security spend. Every [[NemoClaw]] deployment needs guardrails. Horizontal SaaS disguised as infrastructure. |
 
-**The pricing model death:** The deeper issue across all horizontal SaaS is that per-seat pricing breaks when the "user" is an AI agent making API calls. [[ServiceNow]] at $100/user/month makes sense for 10,000 employees. It doesn't make sense when 50 agents replace 9,000 of those employees. Companies scrambling toward consumption-based or outcome-based pricing — but that reprices the entire revenue model downward. The revenue per unit of work done collapses even if total usage grows.
+The pricing model death: The deeper issue across all horizontal SaaS is that per-seat pricing breaks when the "user" is an AI agent making API calls. [[ServiceNow]] at $100/user/month makes sense for 10,000 employees. It doesn't make sense when 50 agents replace 9,000 of those employees. Companies scrambling toward consumption-based or outcome-based pricing — but that reprices the entire revenue model downward. The revenue per unit of work done collapses even if total usage grows.
 
 ### China's leapfrog risk
 
 Bob Chen's "SaaS never took root in China" thesis (see [[AI labor displacement]]) maps differently by segment:
 
-- **Horizontal + Collaboration:** Chen is right — China runs on [[WeChat]] groups and personal relationships, not Salesforce/Slack. There's no SaaS middle layer to displace.
-- **Infrastructure:** Irrelevant to the thesis — China needs data infrastructure regardless. [[Alibaba]] Cloud, [[Tencent]] Cloud, [[ByteDance]] Volcano Engine all building it.
-- **Vertical:** Never existed in China at scale — relationship-driven industries, less regulatory standardization.
-- **SMB:** China's equivalent is [[WeChat]] mini-programs + Alibaba ecosystem — already more platform-dependent than SaaS-dependent.
+- Horizontal + Collaboration: Chen is right — China runs on [[WeChat]] groups and personal relationships, not Salesforce/Slack. There's no SaaS middle layer to displace.
+- Infrastructure: Irrelevant to the thesis — China needs data infrastructure regardless. [[Alibaba]] Cloud, [[Tencent]] Cloud, [[ByteDance]] Volcano Engine all building it.
+- Vertical: Never existed in China at scale — relationship-driven industries, less regulatory standardization.
+- SMB: China's equivalent is [[WeChat]] mini-programs + Alibaba ecosystem — already more platform-dependent than SaaS-dependent.
 
 The real question: do AI agents leapfrog the SaaS layer entirely in China — going straight from "guy with Excel and WeChat" to "AI agent with Excel and WeChat"? That would be displacement by a different mechanism than Chen's model accounts for. The agent doesn't replace SaaS (which doesn't exist) — it replaces the human coordination work that SaaS was supposed to automate but never did.
 
@@ -137,9 +137,9 @@ Named winners (Compounders):
 
 | Company | Ticker | Key metrics |
 |---|---|---|
-| **I'll Inc** (Japanese micro-cap) | 3854.T | $382M market cap, 98.5% customer retention, 26.8% CAGR over past decade, 34% RoE, 15% FCF margin |
-| **Cellebrite** (forensics) | [[Cellebrite\|CLBT]] | Revenue $401M (2024) → $665M (2027 guide), 84%+ gross margin, adj EBITDA ~$80M (2025) → $151M (2026), FCF $160M (2025) → $214M (2027). Recently launched Genesis agentic AI |
-| **Red Violet** (data intelligence) | [[Red Violet\|RDVT]] | 20%+ revenue CAGR, gross margins expanding toward 90%, FCF ex-SBC growth 38.4% in 2025, 107-108% net revenue retention, ~30× EV/FCF (undervalued vs peers) |
+| I'll Inc (Japanese micro-cap) | 3854.T | $382M market cap, 98.5% customer retention, 26.8% CAGR over past decade, 34% RoE, 15% FCF margin |
+| Cellebrite (forensics) | [[Cellebrite\|CLBT]] | Revenue $401M (2024) → $665M (2027 guide), 84%+ gross margin, adj EBITDA ~$80M (2025) → $151M (2026), FCF $160M (2025) → $214M (2027). Recently launched Genesis agentic AI |
+| Red Violet (data intelligence) | [[Red Violet\|RDVT]] | 20%+ revenue CAGR, gross margins expanding toward 90%, FCF ex-SBC growth 38.4% in 2025, 107-108% net revenue retention, ~30× EV/FCF (undervalued vs peers) |
 
 Named losers (Trapped Incumbents): [[Salesforce]], [[Workday]], [[Adobe]] — all face severe multiple compression in the Aurelion framing as their per-seat pricing breaks against AI-agent traffic.
 
