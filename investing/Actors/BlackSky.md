@@ -62,6 +62,18 @@ For BKSY positioning, the immediate reset is whether it pivots into RF-SIGINT-ad
 
 ---
 
+## May 8 2026 space basket rally — +22.4% bounce
+
+The day after the -25.4% May 7 small-cap blow-up, BKSY rallied +22.4% (+2.9σ beta-adjusted, $32.24 → $39.45) as part of the broader [[Space basket rally May 8 2026|space-cohort cluster move]] triggered by [[Rocket Lab]]'s Q1 2026 earnings print. The bounce does not unwind the Q1 reset — the May 7 close of $30.24 was the new low and the May 8 close of $39.45 is still well below the pre-print $40.51. The structural reset on the commercial-imagery cycle stands.
+
+What the basket move says about BKSY's positioning: the May 8 catalyst chain (RKLB record print + [[Golden Dome|Space Based Interceptor]] selection + [[Motiv Space Systems]] acquisition + [[SpaceX IPO 2026|SpaceX IPO]] approach) re-rated the entire cohort multiple, including names with no commercial overlap with Rocket Lab. BKSY participated despite its idiosyncratic Q1 weakness because the basket re-rating is sector-level, not name-specific. The cohort that moved together with BKSY: [[Rocket Lab]] +34, [[Redwire]] +20, [[Intuitive Machines]] +20, [[AST SpaceMobile]] +15, [[Spire Global]] +15, [[Planet Labs]] +11.
+
+Implication: BKSY's Q1 reset is a structural drag, but the basket re-rating gives it tail-coverage. The right framing for the next 60 days is "is BKSY a beneficiary of Golden Dome contract awards" (which would route through [[NGA EOCL contract]] adjacency) vs "is BKSY locked into a commercial-imagery cycle that has structurally deteriorated." The May 8 bounce doesn't answer that — it just confirms BKSY trades in the same multiple complex as the rest of the cohort.
+
+*Sources: local `quick_movers.py` screen May 8 2026; [[Space basket rally May 8 2026]] event note.*
+
+---
+
 ## Related
 
 - [[Spire Global]] — peer commercial satellite company

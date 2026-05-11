@@ -474,6 +474,55 @@ The financial-physical gap that defined the May 5 [[Helima Croft]] frame inverte
 - [ ] Gulf airspace denial follow-through — does [[Saudi Arabia]] / [[Kuwait]] denial of US airspace harden into a multilateral position with [[Bahrain]] / [[Oman]], or stay isolated to the May 7 cycle? See [[Iran conflict country responses]] for the regional-bloc framing
 - [ ] EM reserve drawdown ([[Robin J. Brooks]] May 6) — [[Turkey]], [[India]], [[Pakistan]] FX reserve losses tracking the war's external-account cost; cross-vault Brooks integration in [[Iran conflict FX dynamics]]
 
+## May 8-9, 2026 — fragile ceasefire fractures + oil-buffer drawdown framing
+
+The "Project Freedom" pause framework hit its first operational test on Friday May 8 when [[CNBC]] reported the US and Iran exchanged fire in the [[Strait of Hormuz]]. Oil resumed its rally, fanning fears that the fragile ceasefire between the two countries was unraveling. The May 9 [[Bloomberg]] follow-up — "Iran War Is Draining World's Oil Buffer at an Unprecedented Pace" — set the structural framing: the world has burned through oil inventories at a record speed throughout the war, eating into the very buffer that protects against supply shocks. The reporting cites nearly a billion barrels of Iranian-blocked oil lost, with the cumulative shortage growing worse every day.
+
+### May 8 oil and equity tape
+
+| Asset | May 8 close | Change | Read |
+|-------|-------------|--------|------|
+| [[Brent]] (July) | $101.26 | +1.20% | Rally resumed; war-premium not unwound by the May 6-7 framework |
+| [[WTI]] (June) | $95.64 | +0.88% | US grade tracking Brent up rather than down |
+| Gap to mid-April | ~+5-10% | — | War premium re-firming despite negotiation backdrop |
+
+The May 8 fire-exchange is structurally important not because of casualties (no casualties reported) but because it confirms the May 6-7 [[#May 6-7, 2026 — "Project Freedom" pause + 14-point MoU framework + Gulf airspace denials|14-point MoU framework]] is not a maritime ceasefire — it is a paused-on-the-US-side framework where Iran retains the option to test the convoy-operation rules. The Friday engagement is the first such test under the new framework, and it produced an immediate price response (Brent up >$1/bbl) without a concurrent escalation to broader engagement.
+
+### Bloomberg May 9 oil-buffer thesis
+
+[[Bloomberg]]'s May 9 piece — "Iran War Is Draining World's Oil Buffer at an Unprecedented Pace" — set the structural framing for the war's cumulative effect on global supply security. Key claims:
+
+| Claim | Value | Read |
+|-------|-------|------|
+| Iranian-blocked oil cumulative loss | Nearly 1 billion barrels | War-to-date physical drawdown |
+| Pace of inventory drawdown | "Record speed" / "unprecedented" | Faster than any prior shock since 1973 |
+| Buffer depletion trajectory | Worsening every day | Negotiation phase does not stop physical drawdown |
+| Forward implication | Industry executives expect "fundamental structural change" across energy landscape | Permanent risk-premium framing |
+
+The piece is the cleanest single-source articulation of the [[Hormuz Permanent Risk Premium]] thesis — even if the war ends, the world has consumed nearly a billion barrels of buffer that won't be rebuilt at pre-war pace. The structural-risk-premium argument now has a concrete physical anchor: the system has run down its insurance, and re-building takes years even after diplomatic resolution.
+
+### Industry-executive read
+
+The Bloomberg coverage cites industry executives expecting the war to "drive fundamental structural change across the energy landscape." Three specific channels:
+
+1. Long-cycle US E&P investment underwriting — capital discipline now competing against war-premium signal that justifies higher capex
+2. LNG export terminal economics — Gulf LNG export disruption + European pivot to alternative supply restructures the merchant LNG market
+3. Strategic-reserve doctrine — SPR depletion (~400M bbl released to date) creates pressure to rebuild reserves at structural premium, which itself supports higher floor pricing
+
+### Cross-actor reads
+
+- [[Robin J. Brooks]] May 8-9 work converges: "A World of Debt" (May 8) and "Broad Dollar Weakness" / "Global Rise in Long-Term Yields" (May 9) frame the war as the catalyst for the structural-yield + dollar-weakness regime. See [[Robin J. Brooks#"A World of Debt" (May 8)|Robin Brooks May 8-9 entries]].
+- The [[Federal Reserve]] reaction-function debate the [[#Headline reopening vs controlled transit|Apr 17 microstructure piece]] opened — Fed-rate futures swinging on each Hormuz signal — gets a fresh data point: May 8 fire-exchange should have pulled the cuts-in-2026 odds *down* (re-pricing stagflation risk back in), and the Friday tape suggests partial reset.
+- The [[Helima Croft]] / [[Karen Young]] / [[Stephen Stapczynski]] physical-market camp is being vindicated by the May 8-9 fragility: their April thesis was "operational normalization lags headline diplomatic signals." The Friday fire-exchange is the operational confirmation of that thesis.
+
+### Updated outlook
+
+The May 8-9 sequence does NOT change the central conclusion of the [[#Apr 17 sector dispersion table|Apr 17 dispersion read]] — the structural Hormuz premium ([[Hormuz Permanent Risk Premium]]) persists even if the war ends. It does sharpen the timing: the Bloomberg "nearly 1 billion barrels" physical-loss figure is the cleanest empirical anchor for the structural-premium argument. The cyclical premium that compressed on Apr 8 + Apr 17 may now partially re-firm as the May 6-7 framework's operational fragility becomes more visible.
+
+The Sept-Oct 2026 question: does the framework get operationalized into actual tanker movement + war-risk insurance unwind + Gulf airspace re-opening, or does it pause-and-fracture cycle indefinitely? May 8-9 is the first data point arguing for the second outcome.
+
+*Sources: [CNBC — Oil resumes rally as US-Iran fire exchange rattles fragile Hormuz ceasefire (May 8 2026)](https://www.cnbc.com/amp/2026/05/08/oil-prices-today-wti-brent-us-iran-fire-war-hormuz-ceasefire.html); [Bloomberg — Iran War Is Draining World's Oil Buffer at an Unprecedented Pace (May 9 2026)](https://www.bloomberg.com/news/articles/2026-05-09/iran-war-is-draining-world-s-oil-buffer-at-unprecedented-pace); [Bloomberg Weekend May 9 2026](https://www.bloomberg.com/news/videos/2026-05-09/bloomberg-this-weekend-5-9-2026-video); [Washington Post — Iran war threatens post-oil Gulf](https://www.washingtonpost.com/business/2026/05/10/iran-war-oil-gulf-economies/), May 8-10 2026.*
+
 ## Analyst reaction to ceasefire (Apr 8)
 
 The ceasefire exposed a sharp split between physical-market and financial-market analysts:

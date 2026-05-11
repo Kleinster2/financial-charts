@@ -171,6 +171,51 @@ For the actor note, condense the output into a 5-row summary table + one paragra
 
 ---
 
+## Stability check across windows
+
+The 1Y window is the primary diagnostic, but a cluster that is tight on 1Y may have been loose on 2Y or 3Y — or vice versa. The direction of travel matters:
+
+- A cluster that has been **tightening over time** (intra-corr rising as window narrows) is consolidating as a tradeable factor — basket-level flows are increasingly dominating single-name fundamentals. May 8 2026 [[Space pure-plays]] is the canonical example: 0.48 (3Y) → 0.55 (2Y) → 0.61 (1Y) → 0.64 (YTD).
+- A cluster that has been **loosening over time** is fragmenting. The historical cohort identity may no longer apply; consider whether the cohort taxonomy needs to be re-cut.
+- A cluster that is **stable across windows** is a structurally durable factor. The cohort definition is correct and the trading regime hasn't shifted.
+
+Run via `python scripts/cluster_stability_check.py` (defaults to the [[Space pure-plays]] cohort; edit `COHORT` constant for other clusters, or generalize the script as needed). Produces a single table:
+
+```
+Window         obs   intra          range     PC1     PC2   vs def     gap
+--------------------------------------------------------------------------------
+YTD 2026        65   0.636 [0.51,0.78]   69.3%    8.3%    0.270  +0.365
+1Y             135   0.607 [0.50,0.75]   66.6%    8.8%    0.241  +0.365
+2Y             180   0.551 [0.29,0.74]   60.4%   14.7%    0.242  +0.309
+3Y             263   0.482 [0.26,0.60]   54.8%   14.1%    0.218  +0.263
+```
+
+The "vs def" column is the cross-correlation between the cohort and a single representative control group (typically the most-relevant adjacent sector — defense primes for space, mid-IBs for boutique advisory, etc.). The "gap" column is the intra-cluster advantage over that control. A stable or widening gap across windows is the cleanest evidence that the cluster has a durable identity distinct from its nearest neighbor.
+
+Embed the stability table in the cohort concept note (not the per-actor notes) as a sub-section under `## Cluster validation`.
+
+---
+
+## Where the diagnostic lives in the vault
+
+**Single source of truth:** the durable cluster validation diagnostic lives in **exactly one note** — the `Sectors/` child note (or `Concepts/` note) that owns the cohort identity. Examples:
+
+| Cohort note | Type | Cohort |
+|---|---|---|
+| [[Sectors/WFE\|WFE]] | Sectors/ child | ASML, AMAT, LRCX, KLA |
+| [[Sectors/AI Compute\|AI Compute]] | Sectors/ child | TSMC + NVDA + AMD |
+| [[Sectors/US Memory\|US Memory]] | Sectors/ child | MU, SNDK, WDC |
+| [[Sectors/Space pure-plays\|Space pure-plays]] | Sectors/ child | RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL |
+| [[Concepts/Boutique advisory consolidation\|Boutique advisory consolidation]] | Concepts/ | PWP, LAZ, EVR, MC, HLI, PJT |
+
+**Event notes that reference the cohort link to the cohort note** instead of duplicating the diagnostic. The event note keeps the dated-event narrative (what happened, market reaction, structural reads); the cohort note keeps the durable diagnostic (intra-correlation, PC1, dendrogram, stability across windows).
+
+Example: [[Space basket rally May 8 2026]] event note has a short `## Cluster validation` section that summarizes the headline numbers + links to [[Space pure-plays#Cluster validation diagnostic]]. The full diagnostic, charts, and stability table live in the cohort note, where they're refreshed as new data arrives.
+
+Why: cluster diagnostics need periodic re-runs as the market evolves. If the diagnostic is duplicated in every event note that mentions the cohort, every update requires N edits and risks drift. Single source of truth fixes this.
+
+---
+
 ## Embedding the result in the actor note
 
 Add a `## Cluster validation` section after `## Sector correlation` (or as a sub-section if the actor is the primary of a small cluster). Standard structure:

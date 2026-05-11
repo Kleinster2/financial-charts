@@ -158,6 +158,34 @@ The connection between these catalysts and AST's actual revenue trajectory is in
 
 ---
 
+## May 8 2026: FCC approval + Falcon 9 plan + space basket rally
+
+ASTS closed +14.8% on May 8 ($65.35 → $75.05, +2.4σ beta-adjusted, high-vol trigger) on the back of three concurrent catalysts: an [[FCC]] approval for up to 248 satellites, a mid-June [[Falcon 9]] launch announcement with [[SpaceX]], and participation in the [[Space basket rally May 8 2026|broader space-cohort cluster move]] triggered by [[Rocket Lab]]'s Q1 2026 record print.
+
+### FCC approval — 248 satellites
+
+The [[FCC]] granted ASTS approval for up to 248 satellites in the BlueBird Block 2 series. This effectively clears the regulatory ceiling for the 243-satellite-by-2028 target in the company's prior FCC filing and gives the company headroom for next-generation deployments. The approval is the structural prerequisite for the constellation buildout to achieve global continuous service (90 satellites needed for continuous coverage).
+
+### Falcon 9 mid-June launch + Texas factory tour
+
+ASTS confirmed a mid-June 2026 Falcon 9 launch for next-batch BlueBird deployment, with [[SpaceX]] as the launch provider. The company also released a Texas factory tour video showing over 500,000 sq ft of manufacturing capacity and ongoing satellite assembly. The combination addresses two market concerns: (1) launch-cadence credibility (the BlueWalker 3 to BlueBird 1-6 launch trajectory was slower than the original plan), and (2) manufacturing scale-up to support 45-60 satellites by year-end.
+
+### Basket-rally participation
+
+The May 8 catalyst chain re-rated the entire pure-play space cohort. ASTS moved with the basket — [[Rocket Lab]] +34, [[BlackSky]] +22, [[Redwire]] +20, [[Intuitive Machines]] +20, [[Spire Global]] +15, [[Planet Labs]] +11 — but its move also reflected name-specific FCC + launch catalysts. The relative-strength signal: ASTS participated in the cohort re-rating despite preserving its own catalyst path, suggesting the multiple expansion is sticky for high-conviction names within the basket.
+
+### Pending: Q1 2026 earnings (Monday May 11)
+
+ASTS reports Q1 2026 earnings the following Monday. Market expectations (per [[Bank of America]]): satellite-deployment trajectory and cash-burn rate are the binding metrics. BofA prior note flagged that the BlueBird-1 satellite loss in late April could leave the company seven satellites short of the 45-unit 2026 deployment target. The Q1 print is the test of whether the May 8 multiple-expansion holds or unwinds.
+
+### Bloomberg piece: "meme-stock mania is back"
+
+Bloomberg framed the May 8 ASTS move as evidence of returning meme-stock dynamics — but the underlying structural reads (FCC approval, Falcon 9 confirmation, Texas manufacturing scale, [[SpaceX IPO 2026|SpaceX IPO]] comp tailwind) suggest the move is closer to "catalyst-driven re-rating with elevated speculative tail" than pure meme dynamics. The meme-stock framing matters because it sets up the asymmetric risk for Monday's earnings — a print that disappoints into a 14.8% Friday rally will reverse violently.
+
+*Sources: [Bloomberg — ASTS meme-stock mania](https://www.bloomberg.com/news/features/2026-05-08/spacex-rival-ast-spacemobile-asts-proves-meme-stock-mania-is-back); [TipRanks — ASTS earnings preview after Friday rally](https://www.tipranks.com/news/ast-spacemobile-asts-earnings-preview-what-to-watch-after-fridays-rally); [Foreign Policy Journal — ASTS at $74](https://www.foreignpolicyjournal.com/2026/05/08/ast-spacemobile-asts-stock-price-surges-to-74-but-satellite-setbacks-and-spacex-ipo-risk-weigh-on-the-story/); [TS2 — ASTS Monday earnings test](https://ts2.tech/en/ast-spacemobile-stock-faces-big-monday-test-after-fcc-win-bluebird-setback/), May 8 2026.*
+
+---
+
 ## Related
 
 - [[Amazon]] — AT&T's LEO partner (different use case)

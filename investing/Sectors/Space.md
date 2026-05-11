@@ -7,6 +7,9 @@ aliases: [Space economy, Space industry, Space sector, Commercial space]
 
 Space economy — launch services, satellites, earth observation, exploration.
 
+> [!info] Public-equity entry point: [[Space pure-plays]]
+> The tradeable public-equity cohort (7 names: RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL) is validated as a single statistical cluster — intra-correlation 0.62, PC1 explained variance 68%, +0.34 separation from defense primes. See [[Space pure-plays]] for the cluster validation diagnostic, member roster, and active theses. This sector hub covers the full industry (incl. private actors, heritage defense, segments); [[Space pure-plays]] is where the tradeable basket lives.
+
 ---
 
 ## Market overview

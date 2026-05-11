@@ -85,9 +85,33 @@ Apple's silicon team extracts more value from TSMC nodes than any competitor. Th
 
 | Foundry | Relationship |
 |---------|--------------|
-| [[TSMC]] | Exclusive for leading edge — A-series, M-series |
+| [[TSMC]] | Primary for leading edge — A-series, M-series, 2nm locked through 2027+ |
+| [[Intel]] | Preliminary agreement signed May 8 2026 — future M-class production from ~2027 |
 
-Apple is TSMC's largest customer and has locked 2nm capacity alongside [[NVIDIA]].
+Apple was TSMC-exclusive for leading-edge silicon for 13+ years (since the [[A8]] in 2014, when iPhone 6 transitioned away from [[Samsung]]). The May 8 2026 preliminary agreement with Intel — see [[#Apple-Intel preliminary chip-making agreement (May 8, 2026)|section below]] — is the first formal break in that exclusive. Apple remains TSMC's largest customer and has locked 2nm capacity alongside [[NVIDIA]].
+
+---
+
+## Apple-Intel preliminary chip-making agreement (May 8, 2026)
+
+AAPL closed +2.0% on May 8 after [[Wall Street Journal]] reported Apple and Intel reached a preliminary agreement for Intel to manufacture some future Apple chips. Apple's modest stock reaction (vs Intel's +14%) reflects the market's reading: this is Apple buying optionality against future TSMC capacity constraints, not a structural pivot away from TSMC. See [[Apple-Intel chip-making agreement May 2026]] for the full event note.
+
+| Item | Detail |
+|------|--------|
+| Products in scope | Future [[M-series chips|M-class]] (Mac / iPad), production target 2027 |
+| iPhone scope | Possible inclusion in 2028 (per [[Jeff Pu]], Dec 2025) |
+| TSMC implications | TSMC retains primary leading-edge role; Apple gains dual-source optionality |
+| Trump's role | President [[Donald Trump]] personally advocated for Intel during White House meeting with [[Tim Cook]] |
+| Process node | Likely [[Intel 18A]] or 14A; not disclosed |
+| Negotiation history | Intensive talks for more than a year ([[Ming-Chi Kuo]] reported partnership exploration in Nov 2025) |
+
+Strategic reads for Apple:
+
+1. The deal is concentration-risk insurance. TSMC's wafer capacity at leading edge has been visibly constrained since 2024 (the 2-year 2nm reservation reset was the public acknowledgment). [[NVIDIA]]'s AI-customer demand at TSMC is now the binding constraint on Apple's product-cycle ramp options. The Intel deal is Apple paying some Intel process risk in exchange for a credible fallback if a future M-class or A-series ramp can't get the wafer starts it needs at TSMC.
+2. Apple's silicon-design moat moves up the stack. The [[A19]] 10% die shrink vs A18 — where the node delivered 4% and design delivered the rest — argues that Apple's design organization can extract leading-edge performance from a process that's structurally a generation behind. If Apple validates M-class production at [[Intel 18A]], the design organization becomes the moat rather than the node, which makes Apple structurally less hostage to any single foundry's roadmap.
+3. The deal slightly recasts the relationship with [[Tim Cook]]'s administration position. Cook's prior dealings with Trump (the Apple tariff exemptions, the $100B+ US manufacturing commitments) have been transactional rather than ideological. The Intel deal is the cleanest evidence that the same playbook extends into supply-chain decisions — Apple uses the administration relationship to extract optionality on supply-chain risk, paying for it in production-base concessions.
+
+*Sources: [CNBC — Intel stock +14% on Apple chip deal (May 8, 2026)](https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html); [9to5Mac — Apple-Intel chip deal](https://9to5mac.com/2026/05/08/apple-and-intel-have-reached-a-deal-to-produce-future-chips/); [Tom's Hardware](https://www.tomshardware.com/tech-industry/semiconductors/apple-reportedly-strikes-deal-for-intel-to-make-some-of-its-chips-two-tech-giants-reached-a-preliminary-agreement-for-intel-to-make-processors-for-cupertino); [AppleInsider](https://appleinsider.com/articles/26/05/08/apple-may-have-signed-a-deal-with-intel-to-make-apple-silicon), May 8 2026.*
 
 ---
 

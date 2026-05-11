@@ -263,8 +263,15 @@ YC doesn't need most companies to succeed. They need Stripe, Airbnb, Coinbase. T
 - [[Cruise]] — autonomous (acquired by [[GM]])
 
 ### Peer accelerators
-- Techstars — competitor accelerator
-- 500 Startups — competitor accelerator
+- [[Startup accelerators]] — full landscape concept note (deal economics, sector / geographic / pre-team specialists, 2025 deal-economics convergence)
+- [[Techstars]] — closest competitor; matched YC deal terms April 2025 ($220K total, $20K + $200K MFN SAFE); 4,711 alumni, $120B+, 17-21 unicorns
+- [[500 Global]] — earlier-stage international, $150K for 6%
+- [[Entrepreneur First]] — talent-first / pre-team specialist (London, Paris, Berlin, SF, Bangalore, Singapore); 637 startups, $16B portfolio
+- [[Antler]] — global founder-matching ($250K/9% in US); $510M raise Jan 2026, half for US
+- [[Latitud]] — LatAm pre-seed; a16z + NFX backed; founded by Brian Requarth
+- [[Alliance DAO]] — crypto sector specialist
+- South Park Commons — community / pre-idea ($1M total per founder)
+- a16z Speedrun — games + consumer + AI; up to $1M check via [[a16z]]
 
 ### VC ecosystem
 - Sequoia — frequent YC co-investor

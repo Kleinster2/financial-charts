@@ -1,0 +1,24 @@
+# Space pure-play basket cluster — small-cap public space companies
+# Hypothesis: the May 8 2026 basket rally (RKLB +34, BKSY +22, RDW +20, LUNR +20, ASTS +15, SPIR +15, PL +11)
+# suggests a tight cluster, but the cohort spans different business models (launch, EO, comms, hardware, data),
+# so hierarchical clustering may split it into 2-3 sub-clusters by archetype.
+# Controls: defense primes (different end-market scale), small-cap (Russell 2000), SPY/ITA/XAR.
+name: Space pure-plays
+primary: RKLB
+prefix: space-pureplays-cluster
+threshold: 0.5
+window_end: 2026-05-08
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL]
+  defense_primes:
+    color: "#7E57C2"
+    tickers: [LMT, RTX, NOC, LHX]  # heritage defense; control to test "space = defense beta"
+  small_cap:
+    color: "#FF6F00"
+    tickers: [IWM]  # Russell 2000 — generic small-cap beta
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, ITA, XAR]  # broad market, aerospace+defense ETFs

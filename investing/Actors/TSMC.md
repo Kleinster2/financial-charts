@@ -34,6 +34,23 @@ Wei is first to hold both Chairman and CEO roles since founder Morris Chang. Liu
 
 ---
 
+## Apple-Intel partial defection (May 8, 2026)
+
+TSM stock moved modestly on May 8 after [[Wall Street Journal]] reported [[Apple]] and [[Intel]] reached a preliminary agreement for Intel to manufacture some Apple chips. The modest reaction reflects the market's interpretation — Apple is hedging concentration risk, not exiting TSMC. See [[Apple-Intel chip-making agreement May 2026]] for the full event note.
+
+The structural read for TSMC:
+
+1. The 13-year leading-edge Apple exclusive ends (since [[A8]] / iPhone 6 in 2014). Apple remains TSMC's largest customer with 2nm capacity locked through 2027+, but Intel now sits in the architecture as the second-source for M-class production starting ~2027. The exclusive becomes a primary-vs-secondary structure.
+2. The capacity-constraint signal becomes public. TSMC has been visibly capacity-constrained at leading edge since 2024 (the 2-year 2nm reservation reset was the public acknowledgment). Apple choosing to invest in Intel-process qualification rather than waiting for TSMC capacity to catch up is the cleanest signal that capacity is the binding constraint on Apple's product roadmap, not yield or pricing.
+3. Pricing power dynamics shift at the margin. TSMC has been raising N3/N2 prices steadily — sometimes 5-10% per generation step. Apple's Intel optionality gives Apple a credible BATNA in price negotiations. The pricing-power moat doesn't break, but the upper bound on TSMC's annual pricing increase compresses.
+4. The Samsung consequence is downstream-protective for TSMC. [[Samsung]]'s natural-dual-source positioning was Samsung's path back to relevance; Intel + Apple takes that title. From TSMC's perspective, a strong Intel #2 is structurally preferable to a strong Samsung #2 because Intel's CHIPS Act + government-stake dependencies make it less of a pure-margin competitor than Samsung.
+
+The [[Long TSMC]] thesis remains intact — 70%+ share, pricing power, ecosystem moat. The thesis becomes "moats survive but the upside-cap compresses slightly" rather than "moat broken." See [[Foundry Wars#Apple-Intel reshuffle May 2026]].
+
+*Sources: [Wall Street Journal — Apple-Intel preliminary deal](https://finance.yahoo.com/markets/stocks/articles/apple-intel-reached-preliminary-chip-165558630.html); [CNBC — Intel stock +14% on Apple chip deal](https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html); local `quick_movers.py` screen, May 8 2026.*
+
+---
+
 ## Sector correlation
 
 | Sector | ETF | Correlation |

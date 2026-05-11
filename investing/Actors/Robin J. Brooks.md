@@ -270,6 +270,43 @@ The post is the cleanest [[Iran conflict FX dynamics]] companion read for the Ma
 
 *Source: [The Dollar Outlook After The War](https://robinjbrooks.substack.com/p/the-dollar-outlook-after-the-war), May 7 2026.*
 
+### "A World of Debt" (May 8)
+
+Brooks pivoted from the war-resolution sequence to a structural piece on long-term global yields. Core argument: long-term interest rates will remain elevated and continue rising until governments meaningfully address fiscal imbalances. The combination of pandemic-era deficits, persistent post-COVID spending levels, and new geopolitical tensions has created unsustainable debt trajectories across the G10.
+
+Three analytical elements that are new vs Brooks's prior debt work:
+1. Decomposition argument — long-term yields embed two components: monetary policy expectations *and* risk premiums compensating for debt sustainability concerns. The risk-premium component is now widening visibly across G10.
+2. UK as outlier — Brooks's read is that only the UK is genuinely addressing fiscal problems; "everyone else is in denial." Connects to his April work on UK gilts as price-discovery mechanism rather than dysfunction signal.
+3. Geopolitical-fiscal interaction — explicit linkage between potential NATO incursions, China aggression, and fiscal pressure. The war-economy spending cycle compounds the pandemic baseline.
+
+Two charts in the post: 10-year yields (blue line) vs 10y10y forward yields (red line) across G10 economies. The wider the red-line / blue-line gap, the bigger the risk premium markets demand for long-term holdings. The pattern Brooks shows is the gap widening across the bloc with the UK and Japan moving most aggressively.
+
+*Source: [A World of Debt](https://robinjbrooks.substack.com/p/a-world-of-debt), May 8 2026.*
+
+### "The Global Rise in Long-Term Yields and Public Debt" (May 9, video)
+
+Live video continuation of the May 8 piece. Three elements that the video adds:
+
+1. Synchronized-global framing — the rise in long-term yields is genuinely a worldwide phenomenon, not US-centric. The [[United Kingdom]] and [[Japan]] have experienced their steepest 30-year bond yield increases since 2000, exceeding US rises.
+2. Japan spillover mechanism — Japanese households historically invested abroad seeking returns when domestic yields were suppressed, including [[Treasuries|US Treasury]] purchases. As Japanese rates surge, this capital flow reverses, "exporting Japan's high debt level to the rest of the world." The mechanism creates upward pressure on US yields independent of US-specific fiscal dynamics.
+3. Post-financial-crisis context — the 2010s "inflation was stubbornly low" period created false confidence that deficits wouldn't matter. Governments expanded deficits dramatically during the pandemic and never restored fiscal discipline.
+
+The video reinforces the structural framing: poor fiscal management is a synchronized global phenomenon creating interconnected upward pressure on long-term borrowing costs. The investing implication runs counter to the implied [[Federal Reserve|Fed]] dovish stance Brooks identifies in his dollar work — even if the Fed cuts, the global yield-premium dynamic means long-dated Treasuries face structural headwinds from Japan unwinding and rest-of-world fiscal-risk pricing.
+
+*Source: [The Global Rise in Long-Term Yields and Public Debt](https://robinjbrooks.substack.com/p/the-global-rise-in-long-term-yields), May 9 2026 (video).*
+
+### "Broad Dollar Weakness" (May 9)
+
+Brooks's companion piece to the long-yields work, focused on currency rather than rates. Main argument: the trade-weighted dollar against 19 emerging markets has fallen back to pre-war levels even though there is no peace agreement yet. The implication is that markets are pricing dollar weakness aggressively in anticipation of the post-war regime; an actual peace agreement could produce dramatic additional moves.
+
+The regime-shift evidence cited is the Friday jobs print that failed to strengthen the dollar — historically, positive payrolls surprises should support the currency. The current pattern mirrors post-2008 financial-crisis dynamics where positive US data did not produce dollar appreciation because the [[Federal Reserve]] was effectively capping rates. Brooks frames the [[Fed]] under [[Donald Trump|Trump]] administration politicization pressure as a similar yield-cap regime.
+
+Preferred trade vehicle: the [[Brazilian real|BRL]]. Brooks notes the Real keeps making new highs in recent days against the dollar and expects the appreciation trend to continue as dollar weakness intensifies. The argument is consistent with his April "What happened to 'Sell America?'" piece — capital inflows into US assets remain at 25-year highs even as the trade-weighted dollar falls, which is the cleanest signal that the dynamic is Fed-cap-driven, not capital-flight-driven.
+
+The investing implication: long [[Brazilian real|BRL]] and broader [[EM]]-FX rotation continues to be Brooks's preferred expression of the dollar-weakness regime. The April Sell-America piece was the foundation; the May 9 piece is the timing call.
+
+*Source: [Broad Dollar Weakness](https://robinjbrooks.substack.com/p/broad-dollar-weakness), May 9 2026.*
+
 ## Related
 
 - [[2026 Iran conflict market impact]]

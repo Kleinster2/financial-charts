@@ -134,6 +134,34 @@ The same day, [[DeepSeek]] V4 Preview showed the other side of the cycle: not ju
 
 For semiconductors, the signal is that export controls are creating a protected domestic accelerator market. Huawei and [[Cambricon]] do not need to beat [[Blackwell]] chip-for-chip if Chinese model developers optimize around their clusters and Chinese customers accept slightly lower frontier performance in exchange for sovereignty, cost, and availability. This is the semiconductor expression of [[China AI Plus]].
 
+### May 8 2026 rally (Apple-Intel deal extension)
+
+The semiconductor cohort rallied as a basket on May 8 after [[Wall Street Journal]] broke the [[Apple-Intel chip-making agreement May 2026|Apple-Intel preliminary chip-making agreement]]. The basket-level move makes May 8 the second large semis rally session in two weeks (after the Apr 24 CPU-led record) and reinforces the cycle thesis that AI demand is no longer a single-stock ([[NVIDIA]]) trade. Verified May 8 vault-actor closes:
+
+| Ticker | Actor | Move | Sigma | Why |
+|--------|-------|------|-------|-----|
+| MU | [[Micron]] | +15.5% | +3.3σ | Best week since 2008; AI memory cycle + Apple-Intel adjacent |
+| INTC | [[Intel]] | +14.0% | +2.4σ | Direct Apple deal beneficiary; second 14% session in a week |
+| AMD | [[AMD]] | +11.4% | +2.3σ | Follow-on dual-source candidate at Intel |
+| DELL | [[Dell]] | +13.1% | +2.5σ | PC-side beneficiary — implies more US-made PCs |
+| QCOM | [[Qualcomm]] | +8.2% | +2.2σ | Adjacent dual-source candidate |
+| KLAC | [[KLA]] | +6.0% | +1.8σ | WFE participates on broader US fab capex implications |
+| AMAT | [[Applied Materials]] | +6.0% | +1.6σ | Same |
+| MRVL | [[Marvell]] | +6.3% | +1.0σ | Connectivity cluster participation |
+
+Cross-name reads:
+- AAPL itself only moved +2.0% — the market read the deal as Apple optionality, not a TSMC repudiation. The [[Long TSMC]] thesis is intact but capped.
+- [[TSMC]] (TSM) showed only a modest move because the AI capacity constraint already prices most of the lost-anchor risk into the foundry leader.
+- The [[Short TSMC long Korea]] thesis weakens at the margin — [[Samsung]] was the natural dual-source for fabless customers nervous about TSMC; Intel takes that title with Apple's qualification. See [[Foundry Wars#Apple-Intel reshuffle May 2026]].
+
+Year-to-date context: [[Reuters]] cites [[PHLX Semiconductor]] Index up over 65% YTD through May 8 2026. The [[Jonathan Krinsky]] commentary referenced on CNBC May 8 warned of a 25-30% correction risk for the SOX, characterizing the magnitude of markup as resembling 1999. Krinsky is the cleanest published bear voice on the cycle multiple right now; the implied risk is that any AI-capex-cycle deceleration (Q3 reporting season is the likely test) compresses the SOX faster than the equity-market beta would suggest.
+
+Same-session structural reads:
+- The Apple-Intel deal is supply-side US industrial-policy completion: [[CHIPS Act]] subsidies + Aug 2025 ~10% government Intel stake (supply-side) + May 8 [[Donald Trump|Trump]]-[[Tim Cook]] White House advocacy (demand-side) = coordinated industrial-policy framework closer to Korea/Taiwan/Japan than to US pre-2025 policy.
+- The two-anchor Intel demand portfolio now stands: [[TERAFAB]] (Apr 7, Tesla/SpaceX/xAI cluster) + Apple (May 8). Two structurally different demand pillars hedge each other if 18A HVM stumbles.
+
+*Sources: [CNBC — Wall Street AI chip love moves from NVIDIA to Intel, AMD, Micron](https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html); [Apple-Intel chip-making agreement May 2026]; local `quick_movers.py` May 8 screen.*
+
 ---
 
 ## Theses anchored to this hub

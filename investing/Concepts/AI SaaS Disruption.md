@@ -150,6 +150,52 @@ Compounder pattern from the picks:
 
 The named compounders cluster in *vertical, mission-critical* workflows — Cellebrite (criminal forensics), Red Violet (identity intelligence), I'll Inc (Japanese vertical SaaS) — confirming the segment-table prediction that "vertical SaaS with regulatory complexity remains more resilient" while horizontal SaaS faces structural pressure.
 
+## May 7-8 2026 SaaS-trio crash — empirical confirmation
+
+The two-day Q1 reporting window produced the cleanest empirical confirmation of the disruption thesis the public tape has produced. Three SaaS names moved -15% to -24% on a single session (May 8), with each move pricing a different mechanism of the same structural shift:
+
+| Ticker | Actor | Move | Mechanism |
+|--------|-------|------|-----------|
+| NET | [[Cloudflare]] | -23.6% | Beat-and-cut: 1,100 layoffs (20% workforce) framed as "agentic AI-first operating model" transition |
+| HUBS | [[HubSpot]] | -19.0% | Soft Q2 guide; [[Bank of America]] downgrade to Underperform PT $180 (from $300) on agent-first GTM transition risk |
+| TOST | [[Toast]] | -14.7% | Revenue miss + agent-first pricing-model uncertainty for vertical-SMB market |
+
+The trio reads as a single signal because each name occupies a different segment of the table above but all three reflect the same underlying dynamic — the per-seat pricing model breaking against AI-agent traffic, and the productivity / cost-structure changes companies are pricing into their guidance and headcount decisions.
+
+### Cloudflare (NET) — the "beat-and-cut" precedent
+
+[[Cloudflare]]'s announcement is the structurally most important precedent because it is the *first* vault example of an enterprise infrastructure company cutting headcount during a beat-and-raise quarter explicitly because internal AI usage made roles redundant. The justification cites a 600% increase in internal AI usage over three months (coding, support, sales operations, internal tooling) — a measurable productivity step-change that, in management's read, is now load-bearing for the cost structure. See [[Cloudflare#Q1 2026 results + 1,100 layoff agentic AI restructuring (May 7-8, 2026)|Cloudflare Q1 2026 section]].
+
+The implication for the [[Aurelion Research]] "New Industrial Order" framing: beat-and-cut breaks the 2010s SaaS playbook, where revenue growth came packaged with headcount growth. A 34% revenue print with a 20% headcount cut redefines that math — AI substitutes labor in the middle of the income statement, not just at the margin. The selloff is about cost-of-growth credibility, not the cuts themselves: a 24% drop on a beat-and-raise with margin-compounding layoffs is the market reading the layoffs as a confession that the prior cost base was bloated.
+
+### HubSpot (HUBS) — the SMB CRM seat-compression case
+
+[[HubSpot]] is the most exposed segment to AI-driven seat compression. The customer base is the long tail of small-and-medium businesses where AI tooling reduces the seat count needed for marketing, sales, and customer-service workflows in lockstep with adoption. Where [[Salesforce]]'s enterprise base has multi-year contracts and complex integrations that slow churn, HubSpot's SMB customers can make seat decisions monthly — and the May 8 Q2 guide is the first quarter where that elasticity is showing in HubSpot's own forward numbers.
+
+The [[Bank of America]] downgrade ($300 → $180 PT, Buy → Underperform) is the cleanest sell-side data point that the agent-first GTM transition is repricing the multiple. The Breeze AI platform monetization timeline is now load-bearing for HubSpot's terminal value. See [[HubSpot#Q1 2026 print + Q2 guidance miss (May 7-8, 2026)|HubSpot Q1 2026 section]].
+
+### Toast (TOST) — vertical SMB with agentic uncertainty
+
+[[Toast]] was already in the "Low-medium" AI threat category per the segment-by-segment table — vertical, with domain knowledge and compliance frameworks as moats. The -14.7% reaction on a *revenue miss* (with the EPS beat and full-year profitability guide raised) tells the cleaner story: vertical SaaS is no longer insulated when the unit economics shift. The market is pricing the same agent-first uncertainty into the restaurant-tech vertical that the broader SaaS sector is pricing into horizontal segments. Toast adding 7,000 net new locations (+22% YoY) is not enough to offset the revenue-trajectory questions when AI tools are reshaping point-of-sale, ordering, and customer-management workflows.
+
+### Read for the sector-turn thesis
+
+The May 7-8 trio crash is the cleanest "growth-software derate" set the tape has produced since 2022. All three sell-offs were on -15% to -24% magnitude moves on different fundamentals (NET = labor restructure announcement; HUBS = guide miss; TOST = revenue miss) but the same multiple compression. The [[Aurelion Research]] "New Industrial Order" framing predicts this dispersion — fixed software costs no longer amortize cleanly, inference costs become a variable layer, pricing-model transition reprices revenue downward before unit economics re-stabilize. The May 7-8 trio is the dataset confirmation.
+
+The [[CoreWeave]] -11.4% same session (Q1 beat on revenue but Q2 guide light + capex bumped to $35B) adds the infrastructure-side companion: even the AI-infrastructure beneficiaries are paying for the buildout at a margin profile that resembles [[Hyperscaler capex|hyperscaler infrastructure]] more than the legacy software-margin profile. The [[Akamai]] +26.6% same-day inversion (a different edge-cloud company, a capacity-provider business model not a labor-substitution business model) confirms that within the SaaS/infrastructure tape, the disperion is binary — companies that participate in AI buildout as capacity providers get re-rated up; companies that participate as labor-substituting cost reformers get re-rated down. Two adjacent edge-cloud companies, opposite share-price reactions on the same day, opposite operational signals.
+
+Watch list for the next Q2-print confirmation:
+
+| Name | When | What to watch |
+|------|------|---------------|
+| [[Salesforce]] (CRM) | Aug 2026 | Enterprise CRM seat dynamics; AgentForce monetization |
+| [[Workday]] (WDAY) | Aug 2026 | HCM seat compression evidence |
+| [[ServiceNow]] (NOW) | Jul 2026 | Q2 print; AI agent monetization beyond headline announcements |
+| [[Salesforce]] / [[Microsoft]] | Jul-Aug 2026 | Agent traffic vs seat traffic in licensing |
+| [[Adobe]] | Q3 2026 | Creative SaaS pricing model under AI substitution |
+
+*Sources: [Cloudflare layoffs / CNBC](https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html); [HubSpot / Motley Fool](https://www.fool.com/investing/2026/05/08/why-hubspot-plunged-today/); [Toast / StockStory](https://stockstory.org/us/stocks/nyse/tost/news/earnings/toasts-nysetost-q1-cy2026-earnings-results-revenue-in-line-with-expectations-but-stock-drops-105percent); [BofA HubSpot downgrade / TheStreet](https://www.thestreet.com/investing/stocks/bank-of-america-downgrades-hubspot-stock-after-earnings); local `quick_movers.py` May 8 screen.*
+
 ## Related
 
 - [[OpenAI]] — foundation model infrastructure

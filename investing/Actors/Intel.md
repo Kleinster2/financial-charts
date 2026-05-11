@@ -166,6 +166,27 @@ Analyst reaction: Tigress Financial raised PT to $66 (from $52), maintained Buy.
 
 ---
 
+## Apple preliminary chip-making agreement (May 8, 2026)
+
+INTC closed +14.0% on May 8 ($109.62 → $124.92, +2.4σ beta-adjusted) after [[Wall Street Journal]] broke that [[Apple]] and Intel reached a preliminary agreement for Intel to manufacture some Apple chips. The deal formalizes the Jan 28 reporting into a concrete commercial framework. See [[Apple-Intel chip-making agreement May 2026]] for the full event note.
+
+| Item | Detail |
+|------|--------|
+| Products in scope | Future [[M-series chips|M-class]] for [[Mac]] / [[iPad]] (target 2027) |
+| iPhone scope | Possible inclusion (target 2028, per [[Jeff Pu]]) |
+| Process node | Presumed [[Intel 18A]] or [[14A]]; not disclosed |
+| Government role | [[Donald Trump|Trump]] personally advocated to [[Tim Cook]] in a White House meeting |
+| Financial terms | Not disclosed |
+| Anchor sequence | [[TERAFAB]] (Apr 7) + Apple (May 8) = two structurally different anchor demand pillars |
+
+Strategic read: This is the first real [[Foundry Wars|Tier-1 fabless customer]] win for Intel Foundry Services. Apple is the world's most demanding leading-edge silicon customer and has been TSMC's anchor for 13+ years (since the [[A8]] in 2014). The Trump administration's ~10% Intel stake (Aug 2025) plus [[CHIPS Act]] subsidies were the supply-side intervention; the Cook White House meeting is the demand-side intervention — coordinated industrial policy filling the fab that policy already built. Compares closer to South Korean / Taiwanese / Japanese industrial coordination than to US 2015-2024 semiconductor policy. The Samsung consequence is the most underappreciated: Samsung's natural-dual-source positioning evaporates if Intel + Apple becomes the canonical alternative to TSMC. See [[Foundry Wars#Apple-Intel reshuffle May 2026|Foundry Wars post-deal landscape]].
+
+Same-session ripple: [[Micron|MU]] +15.5%, [[AMD]] +11.4%, [[Dell|DELL]] +13.1%, [[KLA|KLAC]] +6.0%, [[Applied Materials|AMAT]] +6.0%, [[Marvell|MRVL]] +6.3%. The whole [[Semiconductors]] basket rallied on the Apple-Intel signal as the structural read percolated through the semis cohort.
+
+*Sources: [Wall Street Journal — Apple-Intel preliminary deal (May 8, 2026)](https://finance.yahoo.com/markets/stocks/articles/apple-intel-reached-preliminary-chip-165558630.html); [CNBC — Intel stock +14% on Apple chip deal](https://www.cnbc.com/2026/05/08/intel-stock-apple-chip-deal.html); [Tom's Hardware — Apple-Intel preliminary agreement](https://www.tomshardware.com/tech-industry/semiconductors/apple-reportedly-strikes-deal-for-intel-to-make-some-of-its-chips-two-tech-giants-reached-a-preliminary-agreement-for-intel-to-make-processors-for-cupertino); [9to5Mac — Apple-Intel chip deal](https://9to5mac.com/2026/05/08/apple-and-intel-have-reached-a-deal-to-produce-future-chips/), May 8 2026.*
+
+---
+
 ## Q4 2025 earnings (Jan 23, 2026)
 
 Beat on revenue, missed badly on guidance. Stock -14% after hours (to $46.75).

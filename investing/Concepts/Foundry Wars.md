@@ -178,4 +178,36 @@ Uncertainties worth tracking:
 
 ---
 
-*Last updated: 2026-04-08*
+## Apple-Intel reshuffle May 2026
+
+The May 8, 2026 [[Wall Street Journal]] report that [[Apple]] and [[Intel]] reached a preliminary chip-making agreement is the structurally biggest single development in the Foundry Wars since the [[Samsung Taylor pivot]]. See [[Apple-Intel chip-making agreement May 2026]] for the full event note.
+
+The competitive landscape post-deal:
+
+| Actor | Share (May 2026) | Strategy | Status after deal |
+|-------|------------------|----------|-------------------|
+| [[TSMC]] | ~70%+ | Defend monopoly | Loses leading-edge Apple exclusive; retains 2nm primary; pricing-power upper-bound compresses at the margin |
+| [[Intel Foundry Services]] | <5% with credible path to 10-15% | Transform | First Tier-1 fabless customer win; TERAFAB + Apple = two anchor demand pillars |
+| [[Samsung]] | ~7% | Leapfrog | The biggest loser — natural #2-position evaporates if Intel becomes Apple's secondary |
+| [[Rapidus]] | 0% | National champion | Path unchanged |
+
+Key analytical takeaways:
+
+1. The Apple-Intel pairing is the first time a [[Tier-1 fabless customer]] commits production to a non-TSMC US foundry since the Samsung A-series volumes wound down in 2014. The "TSMC monopoly is structural" framing now has a counterexample, even if Apple keeps 80%+ of its volumes at TSMC. The structural argument was "no fabless customer can validate a 18A/14A process at production scale because TSMC's lead is too wide." Apple's commitment falsifies that claim — at minimum, it falsifies the "no one will try" component.
+2. The deal is supported by [[CHIPS Act]] + government-stake industrial-policy machinery. The May 8 reads as the demand-side completion of policy that started supply-side (subsidies + Aug 2025 Trump ~10% Intel stake). The [[Donald Trump|Trump]] / [[Tim Cook]] White House meeting is the operative event — government using presidential leverage to direct America's most strategically important fabless customer toward Intel's order book. This is closer to [[South Korea]] / [[Japan]] / [[Taiwan]] industrial policy than to US 2015-2024 semiconductor policy. The framework now operating compounds Intel's strategic position because additional fabless customers (NVIDIA, AMD, Qualcomm) face a new equilibrium where Intel has been vetted by Apple's qualification process.
+3. The [[Short TSMC long Korea]] thesis (Dec 2025 quick reference) gets tested. Samsung was the natural rotation target — better yields, lower valuation, [[xAI]] anchor, [[NVIDIA]] dual-source candidate. The Apple-Intel deal takes the structural argument away: customers worried about TSMC concentration now have Intel as the prequalified hedge, not Samsung. Samsung's path back to relevance gets longer; the trade thesis weakens unless Samsung produces a concrete counter (a major fabless commitment, a specific node breakthrough, or a [[Tesla]] / [[xAI]] anchor expansion).
+
+### Updated trade theses
+
+| Thesis | Status (May 2026) |
+|--------|-------------------|
+| [[Short TSMC long Korea]] | **Weakening** — Intel takes the dual-source title Samsung needed |
+| [[Long TSMC]] | Intact but capped — moat survives, upside slightly compressed |
+| [[Long Apple]] | Intact — design moat is the durable layer |
+| [[Long Intel]] | **Strengthening** — TERAFAB + Apple = two anchor pillars |
+| [[Long memory]] | Intact — shortage unchanged by foundry shuffle |
+| [[Long WFE]] | **Strengthening** — more US fab build implied |
+
+---
+
+*Last updated: 2026-05-10 on Apple-Intel May 8 deal.*

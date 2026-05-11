@@ -145,6 +145,18 @@ No public S&P, [[Moody's]], or Fitch issuer rating was found in the reviewed com
 
 ---
 
+## May 8 2026 space basket rally — +20.3%
+
+RDW closed +20.3% on May 8 ($9.20 → $11.07, +3.2σ beta-adjusted) as part of the broader [[Space basket rally May 8 2026|space-cohort cluster move]] triggered by [[Rocket Lab]]'s Q1 2026 record print + [[Golden Dome|Space Based Interceptor]] selection. RDW's participation is the cleanest direct readthrough — Redwire's correlation to Rocket Lab (0.73 trailing 120-day) is the highest in the local space cohort, and Redwire's [[MDA]] [[SHIELD]] IDIQ inclusion gives it the same Golden Dome optionality that drove the RKLB Raytheon-pairing news.
+
+The basket-move dispersion also matters for the Redwire-specific thesis. The May 8 move puts RDW back near the upper half of its 52-week range ($4.87 - $22.25) but well below the Jan 27 SHIELD-selection peak of $14.20. The reset since January reflects the difficulty of converting IDIQ inclusion into funded task orders — the Friday move signals the market is willing to re-underwrite that conversion story when the broader cohort multiple re-rates. The right test is whether subsequent SHIELD task-order announcements (or follow-on Golden Dome production contracts) confirm the sector-level re-rating. RDW does *not* participate in the Rocket Lab + Raytheon SBI partnership specifically — Redwire is competing for separate SHIELD task orders. The basket-move discipline is to read this as "cohort re-rating" not "Redwire-specific contract win."
+
+Same-session cohort: [[Rocket Lab]] +34, [[BlackSky]] +22, [[Intuitive Machines]] +20, [[AST SpaceMobile]] +15, [[Spire Global]] +15, [[Planet Labs]] +11.
+
+*Sources: local `quick_movers.py` screen May 8 2026; [[Space basket rally May 8 2026]] event note.*
+
+---
+
 ## Related
 
 ### Securities
