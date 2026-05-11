@@ -1,0 +1,24 @@
+# Golden Dome defense-tech mid-caps cluster — test whether KTOS / AVAV / MRCY /
+# BWXT / HEI form a coherent cluster distinct from the space pure-plays cohort
+# and from the large-cap defense primes. Hypothesis: there is a "Golden-Dome-
+# adjacent defense-tech" basket that sits between traditional primes (LMT/RTX/
+# NOC/LHX) and space pure-plays (RKLB/RDW/LUNR/BKSY/ASTS/SPIR/PL).
+name: Golden Dome defense-tech
+primary: KTOS
+prefix: golden-dome-defense-tech-cluster
+threshold: 0.5
+window_end: 2026-05-08
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [KTOS, AVAV, MRCY, BWXT, HEI]
+  defense_primes:
+    color: "#7E57C2"
+    tickers: [LMT, RTX, NOC, LHX]  # large-cap primes; test for distinctness
+  space_pureplays:
+    color: "#26A69A"
+    tickers: [RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL]  # the validated sibling cluster
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, ITA, IWM]
