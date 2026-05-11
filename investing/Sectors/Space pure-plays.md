@@ -413,17 +413,18 @@ The cohort's intra-correlation 0.624 and PC1 67.2% are meaningful diagnostics in
 
 ### Matched-methodology diagnostic table
 
-| Cluster | N | Avg intra-corr (1Y) | Pairwise range | PC1 explained variance |
-|---|---|---|---|---|
-| [[Sectors/WFE\|WFE quartet]] | 4 | 0.804 | 0.740-0.857 | 85.33% |
-| [[Sectors/Korea Memory\|Korea Memory]] | 2 | 0.756 | (pair only) | 87.82% |
-| [[Sectors/US Memory\|US Memory]] | 3 | 0.696 | 0.655-0.754 | 79.72% |
-| Space pure-plays | 7 | 0.624 | 0.494-0.749 | 67.96% |
-| [[Sectors/AI Compute\|AI Compute]] | 3 | 0.600 | 0.544-0.663 | 73.37% |
+| Cluster | N | Avg intra-corr (1Y) | Pairwise range | PC1 explained variance | Verdict |
+|---|---|---|---|---|---|
+| [[Sectors/WFE\|WFE quartet]] | 4 | 0.804 | 0.740-0.857 | 85.33% | Validated |
+| [[Sectors/Korea Memory\|Korea Memory]] | 2 | 0.756 | (pair only) | 87.82% | Validated |
+| [[Sectors/US Memory\|US Memory]] | 3 | 0.696 | 0.655-0.754 | 79.72% | Validated |
+| Space pure-plays | 7 | 0.624 | 0.494-0.749 | 67.96% | Validated |
+| [[Sectors/AI Compute\|AI Compute]] | 3 | 0.600 | 0.544-0.663 | 73.37% | Validated |
+| [[Concepts/Mag 7 cluster\|Mag 7]] | 7 | 0.316 | 0.078-0.461 | 41.82% | Falsified |
 
-All five run with identical parameters via configs in `scripts/cluster_configs/`. Numbers replace prior published values that used inconsistent windows/methodologies.
+All six run with identical parameters via configs in `scripts/cluster_configs/`. Numbers replace prior published values that used inconsistent windows/methodologies. Mag 7 is included as the falsified reference — same N=7 as Space pure-plays but materially different result, illustrating that cohort size alone doesn't determine cluster structure.
 
-Verdict by tightness: WFE > Korea Memory > US Memory > Space pure-plays > AI Compute.
+Verdict by tightness (validated only): WFE > Korea Memory > US Memory > Space pure-plays > AI Compute. Mag 7 sits below the 0.50 threshold across all matched windows and is the canonical falsified reference for a same-N cohort.
 
 ### Adjusting for cohort size
 

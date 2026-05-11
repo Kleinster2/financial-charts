@@ -5,8 +5,8 @@ tags: [concept/cluster, ai, mega-cap, equity]
 
 # Mag 7 cluster
 
-> [!failure] Cluster status: falsified as tradable basket (May 2026)
-> Intra-cluster correlation only 0.33 across AAPL/MSFT/GOOGL/AMZN/META/NVDA/TSLA. PC1 only 43.3%. Hierarchical clustering at 0.4 returns ALL 7 names as effective singletons (NVDA migrates to the [[AI capex chain basket]]; the other 6 are each their own factor). The "Mag 7" framing is a media construct, not a tradable cluster. Each name has its own dominant idiosyncratic factor that overwhelms shared mega-cap-tech beta.
+> [!failure] Cluster status: falsified as tradable basket (May 2026, re-confirmed May 11 with matched methodology)
+> Intra-cluster correlation 0.316 (1Y window through 2026-05-07, threshold 0.5). PC1 explains only 41.82% of variance. Hierarchical clustering returns 6 effective singletons (NVDA joins the broader AI/semis cluster). Most damning: intra-advantage vs broad ETFs is NEGATIVE -0.215 — the Mag 7 names correlate MORE with broad market (QQQ/XLK/SPY at 0.531) than with each other (0.316). Factor decomposition: R² to SPY+QQQ+SMH+XLK is 85.4% — Mag 7 is essentially leveraged QQQ. Only 14.6% residual variance is a "Mag-7-specific factor." Use [[AI capex chain basket]] or specific subsets for AI exposure; Mag 7 as a basket adds no factor isolation. See [[Space pure-plays]] for what a validated cluster looks like (intra-corr 0.624, PC1 67.96%, 59.6% residual variance after benchmarks).
 
 The seven largest US tech / mega-cap names — Apple, Microsoft, Alphabet, Amazon, Meta, NVIDIA, Tesla — are constantly discussed as a single entity in market commentary. The math says they are not. This note documents the falsification + the actual factor structure each name belongs to.
 
@@ -90,6 +90,130 @@ This is the most important falsification in the validation pass — Mag 7 is the
 - Stop interpreting "Mag 7 led the market today" as a unified signal — it's just the largest names by weight contributing to index moves.
 - Stop comparing companies against Mag 7 averages as if there's a factor to compare against. The names are too disparate.
 - Use [[AI capex chain basket]] for AI exposure; use [[AI hyperscalers]] thesis as the framework for the demand-side story (not a tradable cluster).
+
+---
+
+## Matched-methodology re-validation (May 11, 2026)
+
+Re-ran the diagnostic with methodology matched to [[Space pure-plays]] (1Y window through 2026-05-07, threshold 0.5) so the result is directly comparable to the canonical validated cohort. Falsification confirmed across every dimension.
+
+### Stability across windows
+
+| Window | Obs | Intra-corr | Range | PC1 | PC2 | Vs SPY | Gap |
+|---|---|---|---|---|---|---|---|
+| 3Y | 335 | 0.470 | [0.36, 0.63] | 57.2% | 14.9% | 0.896 | -0.426 |
+| 2Y | 231 | 0.486 | [0.29, 0.60] | 59.5% | 11.5% | 0.913 | -0.427 |
+| 1Y | 175 | 0.316 | [0.08, 0.46] | 46.6% | 14.1% | 0.863 | -0.547 |
+| YTD 2026 | 88 | 0.324 | [0.09, 0.55] | 45.8% | 14.8% | 0.874 | -0.550 |
+
+Two structural reads:
+
+1. The cohort is loosening, not tightening. 2-3 year ago Mag 7 had marginal cluster cohesion (intra-corr 0.47-0.49, PC1 57-60%) — still below validated-cluster thresholds but not by much. Over the past year the cohort has decoupled materially: intra-corr dropped from 0.48 to 0.32, PC1 from 59.5% to 46.6%. The opposite trajectory from [[Space pure-plays]] (tightening from 0.48 to 0.64 over the same window).
+2. The cluster-vs-SPY gap is consistently large and negative across all windows (-0.43 to -0.55). The Mag 7 names have always been MORE correlated with SPY than with each other — even in the period when their internal cohesion was strongest. This is the textbook signature of names that ARE the market rather than names that cluster within it.
+
+### Factor decomposition — Mag 7 is leveraged QQQ
+
+Regressing the equal-weighted Mag 7 basket against four major benchmarks over the 1Y window:
+
+| Factor | Beta | Read |
+|---|---|---|
+| SPY | -0.127 | Slightly negative (small-cap exposure offset) |
+| QQQ | +1.835 | Heavy leveraged QQQ beta — the dominant factor |
+| SMH | -0.252 | Slightly negative |
+| XLK | -0.199 | Slightly negative |
+
+R² to all four benchmarks combined: 85.4%. Residual variance (Mag-7-specific factor): only 14.6%.
+
+Comparison to [[Space pure-plays]] factor decomposition: Space pure-plays had R² of 40.4% to SPY+IWM+ITA → 59.6% pure-play factor. Mag 7 has R² of 85.4% to broad-market benchmarks → 14.6% specific factor. Space pure-plays has roughly 4x the cohort-specific factor share that Mag 7 does. The cleanest possible expression of "Mag 7 is not a cluster": after stripping out broad-market exposure, there's almost nothing left.
+
+Per-name R² to QQQ alone:
+
+| Ticker | R² to QQQ |
+|---|---|
+| NVDA | 48.1% |
+| AMZN | 42.2% |
+| TSLA | 38.8% |
+| GOOGL | 37.4% |
+| META | 28.9% |
+| AAPL | 24.2% |
+| MSFT | 21.3% |
+
+NVDA is the most-QQQ-correlated single name. AAPL and MSFT — the two largest by market cap — are surprisingly LEAST correlated with QQQ despite dominating QQQ by weight. The mega-cap weighting effect creates a circular dependency where the names that drive QQQ aren't well-explained by QQQ at the daily-return level.
+
+### PC2 — AI-narrative vs EV/non-AI sleeve
+
+PC2 captures 14% of variance with cleanly separating loadings:
+
+| Ticker | PC2 loading | Sleeve |
+|---|---|---|
+| META | +0.69 | AI-narrative |
+| NVDA | +0.17 | AI-narrative |
+| AMZN | +0.16 | AI-narrative |
+| MSFT | +0.11 | AI-narrative |
+| AAPL | -0.03 | Neutral |
+| GOOGL | -0.23 | EV/non-AI |
+| TSLA | -0.64 | EV/non-AI |
+
+META's +0.69 and TSLA's -0.64 are the extreme loadings — they're at opposite ends of PC2. The cleanest interpretation: PC2 separates AI-narrative names (META Reality Labs + NVDA chips + AMZN AWS + MSFT Copilot) from EV/non-AI names (TSLA EV cycle + GOOGL search-disruption defense). AAPL is neutral.
+
+### PC3 — Chips/compute vs ad/commerce platforms
+
+PC3 captures 12% of variance:
+
+| Ticker | PC3 loading | Sleeve |
+|---|---|---|
+| NVDA | +0.57 | Chips/compute |
+| MSFT | +0.29 | Chips/compute |
+| TSLA | +0.14 | Neutral |
+| META | -0.13 | Platforms |
+| AAPL | -0.18 | Neutral |
+| AMZN | -0.50 | Platforms |
+| GOOGL | -0.53 | Platforms |
+
+PC3 separates AI infrastructure / chip exposure (NVDA + MSFT cloud + Azure GPU rentals) from ad/commerce platforms (AMZN retail+AWS, GOOGL search+ads, META social ads). NVDA's +0.57 is the highest loading.
+
+The two PCs together describe the Mag 7's actual sub-structure: PC2 is "is this an AI story" and PC3 is "is this a chips/compute story or a platform story." Each name maps somewhere on this 2D space, and the cohort spreads out — confirming that the Mag 7 is structurally heterogeneous.
+
+### Within-Mag-7 subset optimization
+
+If Mag 7 doesn't cluster as a 7-name basket, does any 2-name subset cluster? Ranked all 21 pairs by intra-correlation:
+
+| Rank | Pair | Intra-corr | Sharpe | Cum return |
+|---|---|---|---|---|
+| 1 | NVDA + TSLA | 0.462 | 1.45 | +39.6% |
+| 2 | AMZN + META | 0.445 | -0.11 | -2.2% |
+| 3 | GOOGL + AMZN | 0.432 | 2.19 | +46.2% |
+| 4 | META + NVDA | 0.429 | 0.21 | +4.5% |
+| 5 | GOOGL + TSLA | 0.406 | 2.22 | +58.6% |
+| 6 | MSFT + NVDA | 0.386 | 0.49 | +9.1% |
+| 7 | AMZN + TSLA | 0.386 | 1.27 | +30.7% |
+| ... | ... | ... | ... | ... |
+| 19 | MSFT + GOOGL | 0.080 | 1.53 | +23.9% |
+| 20 | AAPL + MSFT | 0.161 | 0.31 | +4.0% |
+| 21 | AAPL + NVDA | 0.225 | 1.72 | +31.2% |
+
+The single tightest pair (NVDA-TSLA at 0.462) is BELOW the 0.50 cluster floor — the "Musk-loved" pair (NVDA on AI dominance + TSLA on AI/robotics narrative) doesn't even reach cluster status. No 2-name subset clusters.
+
+Bottom pairs are diagnostic: MSFT-GOOGL at 0.080 means the two most-frequently-paired names in "cloud wars" commentary correlate barely above noise. AAPL-MSFT at 0.161 — the two largest names by market cap — also don't co-move. The mega-cap-tech bucket is structurally heterogeneous.
+
+By Sharpe (different optimization objective): GOOGL+TSLA = 2.22, GOOGL+AMZN = 2.19, AAPL+NVDA = 1.72 — best Sharpe pairs don't overlap with tightest-correlation pairs. The objective decomposition lesson from [[Space pure-plays#Best Sharpe 2-name pair — diversification beats factor-tracking|the cohort note]] applies here too: factor-tracking ≠ Sharpe-optimal.
+
+### Cross-cohort comparison
+
+Putting Mag 7 on the same diagnostic axis as the validated vault clusters (matched methodology — 1Y window through 2026-05-07, threshold 0.5):
+
+| Cluster | N | Avg intra-corr | PC1 variance | Verdict |
+|---|---|---|---|---|
+| [[WFE]] | 4 | 0.804 | 85.33% | Validated — tightest cluster |
+| [[Korea Memory]] | 2 | 0.756 | 87.82% | Validated (pair) |
+| [[US Memory]] | 3 | 0.696 | 79.72% | Validated |
+| [[Space pure-plays]] | 7 | 0.624 | 67.96% | Validated — densest large-N |
+| [[AI Compute]] | 3 | 0.600 | 73.37% | Validated |
+| Mag 7 (this note) | 7 | 0.316 | 46.63% | FALSIFIED |
+
+Mag 7's 0.316 intra-correlation is roughly half of Space pure-plays' 0.624 at the same N. Mag 7's PC1 (46.63%) is below the 50% single-factor threshold; Space pure-plays' (67.96%) is well above. The two N=7 cohorts are on opposite sides of the validated/falsified line. The contrast underscores that cohort size (N=7) alone doesn't determine cluster structure — the underlying business-model coherence does.
+
+*Diagnostic source: `python scripts/cluster_analysis.py --config scripts/cluster_configs/mag7.yaml` + `python scripts/mag7_full_analysis.py`, May 11 2026 with methodology matched to [[Space pure-plays]].*
 
 ---
 

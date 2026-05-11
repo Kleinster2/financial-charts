@@ -2,11 +2,12 @@
 # Hypothesis: from prior hyperscaler test (MSFT/GOOGL/AMZN/META/ORCL intra-corr 0.29) we already know
 # subsets of Mag 7 don't cluster. NVDA likely co-moves with AICX cluster, TSLA is its own beast.
 # Test whether Mag 7 has any cluster structure or is just a media construct.
+# Methodology matched to Space pure-plays for cross-cohort comparison: window_end 2026-05-08, threshold 0.5.
 name: Mag 7
 primary: NVDA
 prefix: mag7-cluster
-threshold: 0.4
-window_end: 2026-04-30
+threshold: 0.5
+window_end: 2026-05-08
 
 groups:
   cluster:

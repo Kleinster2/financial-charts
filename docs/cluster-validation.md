@@ -4,8 +4,8 @@ For every public-company actor note, the "where does this name actually trade" q
 
 This is the rigorous version of the existing `## Sector correlation` section, which only correlates the actor against 3-4 ETFs. Cluster validation extends that to a candidate peer cohort + adjacent-sector controls + broad-market benchmarks, and runs three diagnostics.
 
-> [!info] Reference example: [[Space pure-plays]]
-> The [[Space pure-plays]] cohort note is the canonical worked example for this framework. It covers every section in this doc — basic validation, stability check across windows, the four follow-on advanced patterns (regime split, event-study decomposition, multiple-objectives subset optimization, complement test), cross-cohort comparison, and cluster-vs-control separation analysis. Config at `scripts/cluster_configs/rklb.yaml`. When in doubt about the right format for any section here, see how it's done in [[Space pure-plays]]. The [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] note is the older basic-validation example (single-page format without the advanced patterns).
+> [!info] Reference examples
+> [[Space pure-plays]] is the canonical worked example for this framework (validated cluster, all advanced patterns documented). [[Mag 7 cluster]] is the canonical falsified-cluster example (same N=7 as Space pure-plays but intra-corr 0.316 vs 0.624 — useful as the "what falsification looks like" counterpoint). The two together cover both the success and failure cases of the framework at the same cohort size. [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] is the older basic-validation example (single-page format without the advanced patterns).
 
 ---
 
@@ -401,10 +401,12 @@ If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is
   - `scripts/cohort_subset_robustness.py` (rolling robustness + complement-basket test)
   - `scripts/cohort_pc3_and_rates.py` (PC3 inspection + interest-rate correlation)
 
-### Older worked examples
+### Worked examples by status
 
-- Config schema + basic-validation example: `scripts/cluster_configs/boutique_advisory.yaml`
-- Single-page write-up format: [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] (Cluster validation — statistical analysis (May 2026) section)
+- Canonical validated cluster: [[Space pure-plays]] (intra-corr 0.624, PC1 67.96%, all advanced patterns documented)
+- Canonical falsified cluster: [[Mag 7 cluster]] (intra-corr 0.316, PC1 41.82%, negative intra-advantage vs ETFs at -0.215, 6 of 7 names are hierarchical-clustering singletons — same N=7 as Space pure-plays but materially different result; useful as the "what falsification looks like" reference)
+- Older basic-validation example: [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] (single-page write-up format, simpler structure than the full Space pure-plays treatment)
+- Config schemas: `scripts/cluster_configs/rklb.yaml` (canonical), `scripts/cluster_configs/mag7.yaml` (falsified), `scripts/cluster_configs/boutique_advisory.yaml` (basic example)
 
 ### Cross-cohort comparison set (matched methodology)
 
