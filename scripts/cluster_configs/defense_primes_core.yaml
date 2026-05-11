@@ -1,0 +1,26 @@
+# Defense primes — CORE 6-name cohort excluding LDOS (IT services singleton).
+# Test whether removing LDOS tightens the cluster materially. LDOS had PC1 loading
+# 0.295 in the 7-name run vs ~0.37-0.42 for the other names — significantly lower
+# factor coupling. Hypothesis: 6-name cohort tightens to >0.60 intra-corr.
+name: Defense primes (core 6)
+primary: LMT
+prefix: defense-primes-core-cluster
+threshold: 0.5
+window_end: 2026-05-08
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [LMT, RTX, NOC, GD, HII, LHX]
+  it_services:
+    color: "#7E57C2"
+    tickers: [LDOS, CACI, PSN]  # control: defense IT services
+  aerospace_dual:
+    color: "#26A69A"
+    tickers: [BA]
+  industrials:
+    color: "#FF6F00"
+    tickers: [HON, CAT, DE]
+  etf:
+    color: "#9E9E9E"
+    tickers: [ITA, XLI, SPY]

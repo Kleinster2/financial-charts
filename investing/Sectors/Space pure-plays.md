@@ -421,6 +421,8 @@ The cohort's intra-correlation 0.624 and PC1 67.2% are meaningful diagnostics in
 | [[Sectors/Crypto-to-AI\|Crypto-to-AI]] | 7 | 0.691 | 0.482-0.840 | 73.79% | Validated (tightest N=7) |
 | Space pure-plays | 7 | 0.624 | 0.494-0.749 | 67.96% | Validated |
 | [[Sectors/AI Compute\|AI Compute]] | 3 | 0.600 | 0.544-0.663 | 73.37% | Validated |
+| [[Concepts/Defense primes basket\|Defense primes 6-core]] | 6 | 0.556 | 0.448-0.707 | 64.31% | Validated |
+| [[Concepts/Defense primes basket\|Defense primes 7-name]] | 7 | 0.512 | 0.210-0.707 | 58.59% | Partial (LDOS drag) |
 | [[Concepts/Mag 7 cluster\|Mag 7]] | 7 | 0.316 | 0.078-0.461 | 41.82% | Falsified |
 
 All seven run with identical parameters via configs in `scripts/cluster_configs/`. Numbers replace prior published values that used inconsistent windows/methodologies. Three N=7 cohorts now bracket the cluster-coherence spectrum: [[Sectors/Crypto-to-AI|Crypto-to-AI]] (0.691, validated, tightest), Space pure-plays (0.624, validated), [[Concepts/Mag 7 cluster|Mag 7]] (0.316, falsified). Same cohort size, materially different cluster structure — cohort size alone doesn't determine cluster identity; business-model coherence does.

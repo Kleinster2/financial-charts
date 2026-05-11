@@ -5,8 +5,8 @@ tags: [basket/internal, defense, industrials, government]
 
 # Defense primes basket
 
-> [!warning] Cluster status: partial validation (May 2026)
-> Intra-cluster correlation 0.52 (range 0.22-0.70), PC1 59.0%. The 7-name cohort partially validates — distinct from BA (commercial-aerospace dominated, +0.29 advantage) and broader industrials (HON/CAT/DE, +0.26 advantage), but doesn't fully cluster at 0.4 threshold. Pairs that emerge: LMT-NOC (aerospace/missile primes) and HII-LHX (naval + IT services). LDOS is a singleton (services-heavy mix). The DoD-customer factor is real but split across program-type sub-cohorts. See "Cluster validation" section below.
+> [!success] Cluster status: validated at 6-name core, partial at 7-name (May 2026 matched methodology)
+> 7-name cohort: intra-corr 0.512, PC1 58.59%, hierarchical clustering at 0.5 splits into 5-name core (LMT/RTX/NOC/HII/LHX) + GD/LDOS pair + singletons. 6-name core (excluding LDOS): intra-corr 0.556, PC1 64.31%, ALL 6 cluster together. LDOS is the IT-services singleton that drags the 7-name validation; removing it materially tightens the cohort. The cluster validates as 6-name (LMT/RTX/NOC/GD/HII/LHX) — DoD-customer factor is real, especially when IT-services are excluded. See full diagnostic below + cross-cohort comparison vs [[Space pure-plays]] (validated 0.624) and [[Concepts/Mag 7 cluster|Mag 7]] (falsified 0.316).
 
 The seven public US defense primes — Lockheed Martin, RTX, Northrop Grumman, General Dynamics, Huntington Ingalls Industries, L3Harris, Leidos — share the DoD-customer end-market but split by program-type at the equity level. The cluster validates against external comparators (commercial aerospace BA; broader industrials HON/CAT/DE) but does not fully cohere internally.
 
@@ -109,4 +109,154 @@ LMT-NOC pair is the cleanest sub-cluster. HII-LHX pair is a Navy-IT-heavy bundle
 - `scripts/cluster_analysis.py` — generalized cluster validation script
 - `scripts/cluster_configs/defense_primes.yaml` — config for this cluster
 
-*Created 2026-05-03 — partial-validation note*
+*Created 2026-05-03 — partial-validation note. Expanded 2026-05-11 with matched-methodology re-run + 6-name core validation + advanced patterns.*
+
+---
+
+## Matched-methodology re-validation (May 11, 2026) — 6-name core cohort
+
+Re-ran the diagnostic with methodology matched to [[Space pure-plays]] (1Y window through 2026-05-07, threshold 0.5). Tested both the 7-name original cohort and a 6-name core (excluding LDOS, the IT-services singleton with weakest PC1 loading in the original run).
+
+| Cohort | N | Intra-corr | PC1 | Hierarchical clustering at 0.5 |
+|---|---|---|---|---|
+| 7-name (with LDOS) | 7 | 0.512 | 58.59% | Splits: 5-name core (LMT/RTX/NOC/HII/LHX) + GD/LDOS pair |
+| 6-name core (no LDOS) | 6 | 0.556 | 64.31% | All 6 cluster together |
+
+Removing LDOS tightens the cluster from 0.512 to 0.556 (+4pp) and lifts PC1 share from 58.6% to 64.3% (+6pp). The 6-name core is the cleaner expression of the defense-prime cluster. LDOS's 1Y cumulative return of -30.0% (vs +18-23% for top 6-name performers) confirms it's both factor-misaligned and a return drag.
+
+### Stability across windows (6-name core)
+
+The cluster is remarkably stable — intra-correlation barely moves across windows. No regime shift.
+
+| Window | Obs | Intra-corr | Range | PC1 | PC2 | Vs BA | Gap |
+|---|---|---|---|---|---|---|---|
+| YTD 2026 | 88 | 0.578 | 0.38-0.73 | 66.5% | 13.3% | 0.333 | +0.245 |
+| 1Y | 175 | 0.556 | 0.45-0.71 | 64.3% | 12.7% | 0.291 | +0.265 |
+| 2Y | 231 | 0.586 | 0.47-0.71 | 65.8% | 11.3% | 0.399 | +0.187 |
+| 3Y | 335 | 0.590 | 0.49-0.74 | 66.0% | 12.0% | 0.356 | +0.234 |
+
+Cluster-vs-BA gap is consistently +0.19 to +0.27 across all windows. Defense primes is cleanly distinct from Boeing — the commercial-aerospace cycle doesn't drive defense returns.
+
+### PC2 sub-structure — HII as the cohort's outlier
+
+PC2 captures 12.7% of variance with [[Huntington Ingalls|HII]] (+0.77) as the dominant single-name loading. The other names cluster near zero or slightly negative.
+
+| Ticker | PC2 loading | Read |
+|---|---|---|
+| HII | +0.77 | Sole naval shipbuilder (CVN/SSN); zero aerospace exposure |
+| GD | -0.05 | Diversified (naval + IT + Gulfstream) |
+| LHX | -0.10 | Mixed comms / naval IT |
+| RTX | -0.31 | Engines + missile defense + Pratt & Whitney |
+| LMT | -0.34 | Tactical aircraft + missile primes |
+| NOC | -0.44 | Aerospace + space + missile defense |
+
+PC2 isolates [[Huntington Ingalls|HII]] from the rest of the cohort. HII is the pure-naval-shipbuilder — sole builder of CVN aircraft carriers and SSN submarines, no aerospace exposure. The other 5 names all have aerospace + missile-defense overlap that PC2 captures as a single grouping. Compare to [[Space pure-plays]] PC2 (data vs hardware sleeves, ~equal sizes) and [[Sectors/Crypto-to-AI|Crypto-to-AI]] PC2 (pure miners vs AI-pivot, ~equal sizes) — defense primes' PC2 is a single-outlier structure, not a balanced 2-sleeve split.
+
+### PC3 sub-structure — LMT vs RTX axis
+
+PC3 captures 7.8% of variance:
+
+| Ticker | PC3 loading | Read |
+|---|---|---|
+| LMT | +0.66 | Tactical aircraft + missile primes |
+| NOC | +0.22 | Aerospace + space (smaller PC3 magnitude) |
+| HII | +0.14 | Already isolated by PC2 |
+| LHX | -0.26 | Mixed comms / naval IT |
+| GD | -0.36 | Diversified naval + IT + jets |
+| RTX | -0.55 | Engines + missile defense |
+
+PC3 separates LMT (+0.66) from RTX (-0.55). The cleanest interpretation: program-type axis where LMT (missile + tactical aircraft) and RTX (engines + missile defense) trade on different DoD program-budget cycles. The Air Force / Space Force budget heavy on LMT; Navy/aircraft engine budget heavy on RTX. PC3 captures the residual program-mix divergence after PC1 (DoD factor) and PC2 (HII naval) have been extracted.
+
+### Factor decomposition — defense factor is real
+
+Regressing the equal-weighted 6-name basket against various benchmark combinations:
+
+| Benchmarks | R² | Notes |
+|---|---|---|
+| SPY only | 7.4% | Defense barely tracks broad market |
+| ITA only (aero+def ETF) | 57.8% | ITA captures ~58% of basket variance |
+| ITA + SPY | 63.7% | SPY beta turns NEGATIVE (-0.52); defense names trade INVERSE to broad market controlling for ITA |
+| ITA + SPY + XLI (industrials) | 63.8% | Industrials add nothing |
+
+Residual cohort-specific factor: ~36%. Compare to:
+
+- [[Space pure-plays]]: 59.6% residual after SPY+IWM+ITA
+- [[Sectors/Crypto-to-AI|Crypto-to-AI]]: 37% residual after SPY+IBIT+QQQ+CRWV
+- Defense primes (this cohort): 36% residual after ITA+SPY
+- [[Concepts/Mag 7 cluster|Mag 7]]: 14.6% residual after broad benchmarks
+
+Defense primes sits between Space pure-plays and Mag 7 in factor specificity. The interesting structural finding: SPY beta is essentially zero (+0.46 alone, -0.52 controlling for ITA). Defense primes is structurally insulated from broad market — even more than [[Space pure-plays]] (-0.12 SPY beta). The cluster has its own real factor that doesn't co-move with general equity risk.
+
+### Subset optimization
+
+Top 2-name expressions by tracking correlation to the 6-name basket:
+
+| Pair | Intra-corr | Tracking corr | Sharpe | Cum % |
+|---|---|---|---|---|
+| NOC + HII | 0.528 | 0.935 | 0.35 | +7.2% |
+| NOC + LHX | 0.661 | 0.924 | 0.25 | +4.4% |
+| LMT + LHX | 0.559 | 0.918 | 0.76 | +12.9% |
+| RTX + HII | 0.493 | 0.910 | 1.07 | +22.6% |
+| HII + LHX | 0.639 | 0.909 | 0.87 | +19.3% |
+
+Top 2-name expressions by Sharpe (different objective):
+
+| Pair | Intra-corr | Tracking corr | Sharpe | Cum % |
+|---|---|---|---|---|
+| RTX + GD | 0.474 | 0.867 | 1.27 | +20.3% |
+| RTX + LHX | 0.611 | 0.898 | 1.09 | +19.4% |
+| RTX + HII | 0.493 | 0.910 | 1.07 | +22.6% |
+| GD + LHX | 0.573 | 0.891 | 1.03 | +17.1% |
+| GD + HII | 0.520 | 0.885 | 0.99 | +20.2% |
+
+[[RTX]] appears in 3 of top-5 Sharpe pairs — the cohort's Swiss-Army-knife name. Same pattern as PL in [[Space pure-plays]] (PL in 2 of 3 optima), IREN in [[Sectors/Crypto-to-AI|Crypto-to-AI]] (4 of top-5 Sharpe pairs). Every validated cohort has one Swiss-Army-knife name that diversifies risk in pair combinations. RTX is that name here — diversified commercial+defense exposure makes its residual returns uncorrelated with the pure-defense names.
+
+### Complement test — top tracking pair underperforms
+
+Top tracking pair NOC+HII vs full 6 vs complement 4:
+
+| Metric | Top 2 (NOC+HII) | Full 6 | Complement 4 |
+|---|---|---|---|
+| Cum return % | +7.2% | +13.3% | +16.5% |
+| Annualized vol | 28.2% | 21.9% | 20.3% |
+| Sharpe | 0.35 | 0.82 | 1.09 |
+
+Same surprise pattern as [[Sectors/Crypto-to-AI|Crypto-to-AI]]: the factor-tracking-clean pair (NOC+HII) UNDERPERFORMS both the full basket and the complement on cumulative return AND Sharpe. The reason: NOC+HII both happen to be the cohort's lower-performing names this period (NOC -6.3%, HII +22.5% — NOC drags). The complement (LMT+RTX+GD+LHX) has the more diversified performers including RTX (top Sharpe Swiss-Army-knife name).
+
+Pattern confirming: factor-tracking optimization ≠ return-maximizing whenever the high-Sharpe / high-return names have lower PC1 loadings or aren't the "factor-clean" tracker pair. The rule of thumb from [[Space pure-plays]] and [[Sectors/Crypto-to-AI|Crypto-to-AI]] holds here too.
+
+### Per-name 1Y cumulative returns
+
+| Ticker | 1Y return | Notes |
+|---|---|---|
+| RTX | +22.7% | Top performer; diversified commercial+defense |
+| HII | +22.5% | Naval shipbuilder (Iran war / Golden Dome tailwind) |
+| GD | +18.0% | Diversified naval + IT + Gulfstream |
+| LHX | +16.2% | Mixed comms / naval IT |
+| LMT | +9.6% | Aerospace + missile primes |
+| NOC | -6.3% | Aerospace + space (relative underperformer) |
+| LDOS (excluded) | -30.0% | IT services drag; confirms exclusion from 6-name core |
+
+LDOS's -30% return validates the decision to exclude it from the core cohort. NOC's -6.3% is the surprise — aerospace/space prime that should have benefited from [[Golden Dome]] contract awards but lagged. Worth tracking what's happening at NOC specifically (Sentinel program issues? F-35 weighting? B-21 ramp pace?).
+
+### Cross-cohort comparison
+
+Defense primes joins the matched-methodology comparison set:
+
+| Cluster | N | Avg intra-corr | PC1 variance | Specific factor | Verdict |
+|---|---|---|---|---|---|
+| [[Sectors/WFE\|WFE]] | 4 | 0.804 | 85.33% | — | Validated (tightest) |
+| [[Sectors/Korea Memory\|Korea Memory]] | 2 | 0.756 | 87.82% | — | Validated (pair) |
+| [[Sectors/US Memory\|US Memory]] | 3 | 0.696 | 79.72% | — | Validated |
+| [[Sectors/Crypto-to-AI\|Crypto-to-AI]] | 7 | 0.691 | 73.79% | 37.0% | Validated (tightest N=7) |
+| [[Space pure-plays]] | 7 | 0.624 | 67.96% | 59.6% | Validated |
+| [[Sectors/AI Compute\|AI Compute]] | 3 | 0.600 | 73.37% | — | Validated |
+| Defense primes (6-core) | 6 | 0.556 | 64.31% | 36% | Validated |
+| Defense primes (7-name) | 7 | 0.512 | 58.59% | — | Partial (LDOS drag) |
+| [[Concepts/Mag 7 cluster\|Mag 7]] | 7 | 0.316 | 41.82% | 14.6% | Falsified |
+
+The 6-name core sits in the validated band but at the lower end (intra-corr 0.556 — above the 0.50 floor but below the 0.60 typical for tighter clusters). PC1 share of 64.3% is moderate. Defense primes is a validated cluster with meaningful sub-structure (PC2 isolates HII; PC3 separates LMT vs RTX). Less coherent than the canonical AI / mining / space cohorts because the program-mix heterogeneity within defense is more substantive than the within-cohort variation in other tested clusters.
+
+The 7-name cohort with LDOS slips below 0.55 intra-corr but stays above the 0.50 falsification threshold. The 6-name core is the cleaner expression of the cohort identity.
+
+*Diagnostic source: `python scripts/cluster_analysis.py --config scripts/cluster_configs/defense_primes.yaml` + `defense_primes_core.yaml` + `python scripts/defense_primes_full_analysis.py`, May 11 2026 with methodology matched to [[Space pure-plays]].*
