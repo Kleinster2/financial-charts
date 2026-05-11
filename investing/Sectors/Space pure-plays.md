@@ -407,6 +407,38 @@ This finding sharpens the cluster-validation framework. The standard validation 
 
 ---
 
+## How Space pure-plays compares to other validated clusters
+
+The cohort's intra-correlation 0.624 and PC1 67.2% are meaningful diagnostics in absolute terms — but the deeper question is how they rank among the vault's other validated clusters. Putting [[Space pure-plays]] on the same diagnostic axis as the canonical Semiconductors children + Boutique Advisory cohort:
+
+| Cluster | Vault note | Avg intra-corr | Tightness verdict |
+|---|---|---|---|
+| WFE oligopolists | [[Sectors/WFE\|WFE]] | 0.83 | Tightest validated cluster in the vault — same customers, same capex cycle |
+| US Memory | [[Sectors/US Memory\|US Memory]] | 0.70 | Tight — MU/SNDK/WDC trade as cyclical memory exposure |
+| Semiconductor Materials | (sub-concept) | 0.65 | Tight — Japan/Korea chokepoints |
+| Space pure-plays | [[Space pure-plays]] | 0.624 | Moderately tight — between US Memory and AI Compute |
+| AI Compute | [[Sectors/AI Compute\|AI Compute]] | 0.58 | Moderately tight — TSMC + NVDA/AMD as foundry-customer cluster |
+| Korea Memory | [[Sectors/Korea Memory\|Korea Memory]] | 0.53 | Moderate — SK Hynix + Samsung HBM-dominant |
+| Sensors | (sub) | 0.50 | Moderate — image sensors + MEMS |
+| Semiconductor Test | (sub) | 0.46 | Moderate — narrower than WFE |
+| Memory (overall) | [[Sectors/Memory\|Memory]] | 0.38 | Loose — splits into US/Korea sub-clusters |
+| Connectivity | (sub) | 0.34 | Loose — Broadcom/Qualcomm/Marvell less coupled |
+| Korea AI chips | (sub) | 0.30 | Loose — emerging Korean accelerator names |
+
+Space pure-plays at 0.624 sits in the "moderately tight" band — tighter than the AI Compute foundry-customer cluster (0.58), tighter than both memory regional clusters (0.50 / 0.53), but materially less tight than WFE (0.83) or US Memory (0.70). The verdict is "real cluster with meaningful internal cohesion, but not the vault's tightest factor."
+
+The 1Y PC1 explained variance (67%) is also moderately strong compared to the canonical semi clusters where PC1 figures are published — WFE's PC1 likely sits in the 75-85% band given its 0.83 avg correlation; Space pure-plays' 67% is consistent with its 0.62 intra-correlation. The diagnostic numbers align (tighter average correlation generally implies higher PC1 variance share).
+
+Important caveat: cluster-validation methodology has not been uniform across vault notes. Some clusters used a 1Y window, others used longer or unspecified windows. The Semiconductors hub's avg-correlation table (cited above) is the most recent canonical reference, from the May 9 2026 sector-internal-correlation diagnostic. For a fully rigorous cross-cohort comparison, re-running `cluster_analysis.py` with the same window-end + same threshold on every cohort would be the next step — that work is deferred for now.
+
+Three observations from the ranking:
+
+1. The space pure-plays cohort is denser than the AI hyperscaler-customer cluster ([[AI Compute]]) despite [[AI Compute]] being widely treated as the canonical AI-trade. The two clusters serve different theses (Golden Dome / SpaceX-IPO for space; foundry-AI capex for AI Compute) and the math says space has tighter internal cohesion.
+2. The cohort's [[#Pre/post Nov 2025 regime — quantifying the structural shift|post-regime intra-correlation of 0.656]] (Dec 2025-May 2026) would bump Space pure-plays above US Memory (0.70 average) if the post-regime period were extrapolated forward. The current 1Y average is dragged down by pre-regime months; the structural read is that current cohesion is in the "tight" rather than "moderately tight" band.
+3. Vault clusters cluster (meta-observation): the validated cohorts span 0.30-0.83 intra-correlation, with most semi clusters in the 0.50-0.70 band. Space pure-plays falls within the canonical-cluster range — it's a comparable analytical object, not an outlier. The vault's cluster framework generalizes to a thematic basket outside semis.
+
+---
+
 ## Pre/post Nov 2025 regime — quantifying the structural shift
 
 The rolling PC1 chart showed a step-function shift in cohort cohesion in mid-to-late November 2025. The natural follow-up: run full cluster validation on each sub-period separately and quantify exactly how much the cohort changed.

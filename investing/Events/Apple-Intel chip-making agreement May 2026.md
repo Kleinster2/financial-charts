@@ -167,7 +167,8 @@ The vault treats [[Wall Street Journal|WSJ]] as primary source per the "major pa
 - [[Samsung Taylor pivot]] — prior leapfrog attempt
 
 ### Cross-vault
-- [Geopolitics: US semiconductor industrial policy](obsidian://open?vault=geopolitics&file=Concepts%2FSemiconductor%20industrial%20policy) — supply-chain sovereignty angle (if note exists)
+- [Geopolitics: Apple-Intel chip-making agreement May 2026](obsidian://open?vault=geopolitics&file=Events%2FApple-Intel%20chip-making%20agreement%20May%202026) — industrial-policy-coordination lens (supply-side CHIPS Act + government stake completed by demand-side presidential advocacy); Taiwan strait risk decoupling; Samsung positioning impact
+- [Geopolitics: Semiconductors](obsidian://open?vault=geopolitics&file=Concepts%2FSemiconductors) — broader chip-geopolitics concept hub
 - [Technologies: Intel 18A](obsidian://open?vault=technologies&file=Companies%2FIntel) — process technology background
 
 ---

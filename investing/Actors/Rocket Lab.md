@@ -100,8 +100,11 @@ CEO [[Peter Beck]] quote: *"Rocket Lab has delivered another exceptional quarter
 
 ## Financials
 
-> [!info] Historical fundamentals not yet ingested
-> FY 2022-2025 annual fundamentals not yet in local `market_data.db`. Run `python fetch_fundamentals.py RKLB` to backfill annual + quarterly income statement, then regenerate `rocket-lab-fundamentals-chart.png` and `rocket-lab-sankey.png`. Flagged as follow-up; not blocking for the Q1 2026 narrative.
+![[rocket-lab-fundamentals-chart.png]]
+*Revenue and net income history from local fundamentals data (annual + recent quarterly).*
+
+![[rocket-lab-sankey.png]]
+*Income-statement Sankey — revenue-to-bottom-line flow.*
 
 ### Quarterly (most recent)
 
