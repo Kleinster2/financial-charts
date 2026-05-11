@@ -44,6 +44,81 @@ Run via `scripts/cluster_configs/wfe_quartet.yaml` with parameters matched to ot
 
 WFE represents the structural ceiling for vault cluster validation — 4 oligopolists serving the same 3-4 leading-edge foundry customers on the same capex cycle. The constraint structure isn't replicable for thematic-basket cohorts, which is why no other vault cluster reaches 0.80+ intra-correlation. See [[Vault cluster taxonomy]] for cross-cohort context.
 
+### Stability across windows
+
+| Window | Obs | Intra-corr | PC1 | Vs SPY | Gap |
+|---|---|---|---|---|---|
+| YTD 2026 | 88 | 0.831 | 87.7% | 0.685 | +0.145 |
+| 1Y | 136 | 0.786 | 85.0% | 0.643 | +0.143 |
+| 2Y | 192 | 0.842 | 88.6% | 0.674 | +0.169 |
+| 3Y | 296 | 0.842 | 88.6% | 0.678 | +0.164 |
+
+Remarkably stable across the full 3Y history — intra-corr 0.79-0.84 throughout. Cluster identity is structurally durable (same customers, same capex cycle). Most stable cohort in the vault alongside [[Crypto-to-AI]].
+
+### PC2 sub-structure — ASML as the cohort's outlier
+
+PC2 captures 6.5% of variance:
+
+| Ticker | PC2 loading | Read |
+|---|---|---|
+| [[ASML]] | +0.77 | Lithography (EUV monopoly) — different process step |
+| [[Lam Research\|LRCX]] | +0.15 | Etch + deposition |
+| [[Applied Materials\|AMAT]] | -0.17 | Deposition + etch |
+| [[KLA\|KLAC]] | -0.60 | Inspection + metrology — different process step |
+
+PC2 separates ASML (lithography) and KLAC (inspection) from AMAT and LRCX (deposition/etch). Single-outlier-on-each-end structure capturing the process-step diversification within WFE. ASML's EUV monopoly and KLAC's inspection/metrology niche are the two structurally distinct businesses.
+
+### PC3 — KLAC vs LRCX+AMAT
+
+PC3 captures 5.0% of variance:
+
+| Ticker | PC3 loading |
+|---|---|
+| KLAC | +0.62 |
+| ASML | +0.46 |
+| AMAT | -0.48 |
+| LRCX | -0.43 |
+
+PC3 isolates KLAC + ASML (metrology + lithography) from LRCX + AMAT (etch + deposition).
+
+### Factor decomposition
+
+Regressing equal-weighted WFE basket against semis benchmarks:
+
+| Benchmarks | R² | Residual factor |
+|---|---|---|
+| SOXX only | 75.9% | 24.1% |
+| SOXX + SMH | 77.9% | 22.1% |
+| SOXX + SMH + SPY | 78.2% | 21.8% |
+
+22% residual factor after stripping out broad semis ETFs. WFE has its own factor beyond what SOXX captures, but at a much smaller share than [[Space pure-plays]] (59.6%) or [[Defense primes basket|Defense primes]] (36%). The WFE basket is closely tied to semis benchmarks because WFE IS a major weight in SOXX/SMH.
+
+### Subset optimization (1Y)
+
+All 6 pairs cluster tightly with track ≥0.965, intra-corr ≥0.70, and Sharpe ≥1.8:
+
+| Pair | Intra-corr | Tracking corr | Sharpe | Cum % |
+|---|---|---|---|---|
+| ASML + LRCX | 0.780 | 0.966 | 2.30 | +77.1% |
+| AMAT + LRCX | 0.869 | 0.975 | 2.12 | +79.4% |
+| ASML + AMAT | 0.735 | 0.971 | 2.11 | +64.6% |
+| KLAC + LRCX | 0.811 | 0.978 | 2.03 | +73.3% |
+| ASML + KLAC | 0.703 | 0.965 | 1.99 | +59.0% |
+| AMAT + KLAC | 0.819 | 0.970 | 1.81 | +61.1% |
+
+Any 2-name subset works for WFE — pairs are uniformly tight and high-Sharpe. The cohort doesn't have the "factor-tracking ≠ Sharpe-optimal" tension observed in other cohorts; WFE is structurally too tight for the patterns to emerge.
+
+### Per-name 1Y cumulative return
+
+| Ticker | 1Y return |
+|---|---|
+| [[Lam Research\|LRCX]] | +93.0% |
+| [[Applied Materials\|AMAT]] | +66.8% |
+| [[ASML]] | +62.4% |
+| [[KLA\|KLAC]] | +55.5% |
+
+Tight range (+55% to +93%) — all four oligopolists captured the AI-capex tailwind without single-name divergence. Different signature from [[Space pure-plays]] (large dispersion) and [[Crypto-to-AI]] (large dispersion).
+
 Pairwise detail:
 | Pair | Correlation |
 |------|-------------|
