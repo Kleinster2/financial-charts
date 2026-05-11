@@ -1,0 +1,23 @@
+# US Memory cluster — Micron + SanDisk + Western Digital. Memory cycle exposure.
+# Per US Memory.md: avg corr ~0.50, with MU-WDC tightest (0.70) and SNDK most
+# idiosyncratic post-Feb-2025 spin (range 0.39-0.70).
+# Window matched to Space pure-plays (2026-05-08, threshold 0.5).
+name: US Memory
+primary: MU
+prefix: us-memory-cluster
+threshold: 0.5
+window_end: 2026-05-08
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [MU, SNDK, WDC]
+  korea_memory:
+    color: "#26A69A"
+    tickers: [EWY, "005930.KS", "000660.KS"]
+  semis_other:
+    color: "#7E57C2"
+    tickers: [TSM, NVDA, AMD]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SMH, SOXX, SPY]

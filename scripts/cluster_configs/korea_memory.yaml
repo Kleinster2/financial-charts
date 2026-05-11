@@ -1,0 +1,23 @@
+# Korea Memory cluster — Samsung + SK Hynix. HBM-dominant Korean memory giants.
+# Per Korea Memory.md: avg corr ~0.57 (just two names; small but distinct from
+# US Memory at 0.30-0.38 to EWY).
+# Window matched to Space pure-plays (2026-05-08, threshold 0.5).
+name: Korea Memory
+primary: "005930.KS"
+prefix: korea-memory-cluster
+threshold: 0.5
+window_end: 2026-05-08
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: ["005930.KS", "000660.KS"]
+  us_memory:
+    color: "#7E57C2"
+    tickers: [MU, SNDK, WDC]
+  korea_market:
+    color: "#26A69A"
+    tickers: [EWY]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SMH, SOXX, SPY]

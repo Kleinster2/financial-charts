@@ -1,0 +1,24 @@
+# AI Compute cluster — TSMC + NVIDIA + AMD trade as a foundry-customer triangle
+# tied to AI chip demand. Per the existing AI Compute.md sector note: avg corr ~0.60,
+# with NVDA-TSM tightest (0.69) and AMD lagging (0.56 to either).
+# Window matched to Space pure-plays (2026-05-08, threshold 0.5) for cross-cohort
+# comparison rigor.
+name: AI Compute
+primary: NVDA
+prefix: ai-compute-cluster
+threshold: 0.5
+window_end: 2026-05-08
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [TSM, NVDA, AMD]
+  semis_other:
+    color: "#7E57C2"
+    tickers: [MU, INTC, AVGO]
+  hyperscaler_buyers:
+    color: "#FF6F00"
+    tickers: [MSFT, GOOGL, AMZN, META]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SMH, SOXX, SPY]
