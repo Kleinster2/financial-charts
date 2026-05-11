@@ -186,6 +186,42 @@ Bloomberg framed the May 8 ASTS move as evidence of returning meme-stock dynamic
 
 ---
 
+## May 11, 2026 — Q1 earnings preview (after close)
+
+Q1 2026 earnings release scheduled after market close Monday May 11. The single most-watched single-name event in the [[Space pure-plays]] cohort post-Friday's +14.8% basket-rally tail. Options pricing a 19.04% move either direction — the asymmetric-risk setup is acute.
+
+Consensus expectations (per Zacks):
+
+| Metric | Q1 2026 consensus |
+|--------|-------------------|
+| Revenue | $38.24M |
+| Adjusted EPS | -$0.23 loss |
+
+Management's prior Q1 guidance (per [[#Q4 2025 earnings (reported ~March 25, 2026)|Q4 2025 print]]):
+
+| Metric | Q1 2026 management guide |
+|--------|---------------------------|
+| Adjusted operating costs (ex-revenue) | $70-80M |
+| Capital spending | $350-425M |
+| Pro forma cash | ~$3.9B |
+| Firm revenue pledges | $1B+ |
+
+Key watch items investors are looking for:
+
+1. BlueBird 8-10 launch readiness — Management said these satellites would ship within 30 days of the Q1 call. Confirmation that the timeline is intact is the load-bearing operational signal.
+2. 45-satellite end-of-2026 target — Bank of America estimates the BlueBird-1 satellite loss in late April leaves the company ~7 satellites short. Whether the company reaffirms the 45-sat target or revises is the binary outcome question.
+3. Cash burn discipline — Operating cost guide of $70-80M against $350-425M capex implies $420-500M Q1 cash outflow. With $3.9B pro forma cash, runway is 8-9 quarters at this burn rate. Any material change to the burn profile is binding.
+4. Carrier-partnership updates — Status of the [[AT&T]] beta service (H1 2026 launch target), [[Verizon]] commercial activation, and the 50+ MNO contract roster.
+5. Carrier ARPU / firm revenue commitments — $1B+ pledged figure vs realized run-rate; first material commercial-revenue print would re-rate the multiple.
+
+Strategic stakes for the [[Space pure-plays]] cohort: ASTS Q1 is the first major single-name catalyst event since the May 8 basket rally. If ASTS prints clean (operations on track, no surprise on cash burn or 45-sat target), the cohort's post-regime-shift multiple expansion continues. If ASTS prints messy (deployment delay, cash-burn surprise, 45-sat target revised), the basket may unwind some of the May 8 gain on read-across to other cohort names — particularly the hardware sleeve ([[Rocket Lab]], [[Intuitive Machines]], [[Redwire]]) where deployment-timeline risks are similarly binary.
+
+The PC1 score for the cohort tomorrow (Tuesday May 12) is the cleanest single-day read on whether the regime-continuation thesis (per [[Space pure-plays#Pre/post Nov 2025 regime — quantifying the structural shift|the regime-shift analysis]]) holds or fractures.
+
+*Sources: [TipRanks — ASTS Q1 options market 19.9% price swing](https://www.tipranks.com/news/ast-spacemobile-asts-q1-earnings-on-deck-options-traders-brace-for-a-19-9-price-swing); [Yahoo / Zacks — Stance on ASTS ahead of Q1 earnings](https://finance.yahoo.com/markets/stocks/articles/stance-asts-stock-ahead-q1-170800818.html); [MarketBeat — ASTS to release Q1 earnings May 11](https://www.marketbeat.com/instant-alerts/ast-spacemobile-asts-to-release-quarterly-earnings-on-monday-2026-05-04/), pre-market May 11 2026.*
+
+---
+
 ## Related
 
 - [[Amazon]] — AT&T's LEO partner (different use case)

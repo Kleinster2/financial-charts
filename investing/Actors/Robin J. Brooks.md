@@ -295,6 +295,23 @@ The video reinforces the structural framing: poor fiscal management is a synchro
 
 *Source: [The Global Rise in Long-Term Yields and Public Debt](https://robinjbrooks.substack.com/p/the-global-rise-in-long-term-yields), May 9 2026 (video).*
 
+### "Four Charts for Sunday" (May 10) — 1-year-anniversary retrospective
+
+Brooks marked one year since his first daily substack post (May 2025), which pushed back against the "Dollar in freefall" thesis and questioned whether US reserve currency status was actually under threat. The anniversary post is forward-looking rather than retrospective — the central new claim is a thesis pivot from inflation concern to *deflation risk* driven by AI automation in services sectors.
+
+The four charts:
+
+1. Labor-market shock — Prime-age male labor-force participation in the US has dropped to Italian levels. Brooks anticipates significant service-sector job losses as AI automates "repetitive and formulaic" work, creating a "rust belt" shock in urban hubs (specifically NYC and San Francisco called out).
+2. Deflation risk — Core inflation has run "somewhat hot" post-COVID across advanced economies but Brooks remains unconvinced of inflationary spirals. Service-sector job competition pressures wages and prices downward.
+3. France deficits — Out of control. Connects to the broader [[A World of Debt|G10 fiscal debt]] thesis.
+4. Italy cash deficit — Significantly exceeds reported accruals figures. ECB's yield-capping perpetuates bad-incentive politicians.
+
+The thesis pivot is structurally important. Brooks has been the canonical macro analyst on the Iran-war-driven oil-shock-as-inflationary-impulse story (April-May 2026). The Sunday-anniversary deflation-pivot is the cleanest signal yet that Brooks sees the AI-displacement-of-services-labor story (analogous to the May 7-8 SaaS-trio crash + [[Cloudflare]] 1,100-layoff announcement) as overtaking the war-oil-shock inflation story as the dominant macro factor. If durable, this re-frames the AI/space/cohort flow trade entirely — the same factor that drives the [[Space pure-plays]] basket up is the same factor compressing labor-services prices, and Brooks is the first major macro voice to read the AI-displacement signal as deflationary at the macro level.
+
+Cross-link to [[AI SaaS Disruption]] — Brooks's labor-displacement framing complements the SaaS-disruption thesis already documented there. The [[Cloudflare]] 1,100-layoff announcement is exactly the kind of "service-sector AI automation" data point Brooks anchors his deflation thesis on.
+
+*Source: [Four Charts for Sunday](https://robinjbrooks.substack.com/p/four-charts-for-sunday-36a), May 10 2026.*
+
 ### "Broad Dollar Weakness" (May 9)
 
 Brooks's companion piece to the long-yields work, focused on currency rather than rates. Main argument: the trade-weighted dollar against 19 emerging markets has fallen back to pre-war levels even though there is no peace agreement yet. The implication is that markets are pricing dollar weakness aggressively in anticipation of the post-war regime; an actual peace agreement could produce dramatic additional moves.
