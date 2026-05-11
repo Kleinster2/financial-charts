@@ -27,30 +27,43 @@ Wafer fab equipment — the picks and shovels of semiconductors. Tightest sector
 
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| **Avg correlation** | **0.70** | Strong (tightest semi cluster) |
+| Avg correlation | 0.70 | Strong (tightest semi cluster) |
 | Range | 0.54 - 0.90 | KLA pairs to AMAT-LRCX |
 | Period | 2024-01 to present | |
 
-**Pairwise detail:**
+### Matched-methodology re-run (May 2026)
+
+Run via `scripts/cluster_configs/wfe_quartet.yaml` with parameters matched to other vault cohorts (1Y window through 2026-05-07, threshold 0.5). Diagnostic values:
+
+| Metric | Value (1Y matched) |
+|---|---|
+| Avg intra-cluster correlation | 0.804 |
+| Pairwise range | 0.740-0.857 |
+| PC1 explained variance | 85.33% |
+| Verdict | Validated (tightest cohort in vault — oligopoly limit) |
+
+WFE represents the structural ceiling for vault cluster validation — 4 oligopolists serving the same 3-4 leading-edge foundry customers on the same capex cycle. The constraint structure isn't replicable for thematic-basket cohorts, which is why no other vault cluster reaches 0.80+ intra-correlation. See [[Vault cluster taxonomy]] for cross-cohort context.
+
+Pairwise detail:
 | Pair | Correlation |
 |------|-------------|
-| AMAT - LRCX | **0.90** | Near-identical exposure |
+| AMAT - LRCX | 0.90 | Near-identical exposure |
 | ASML - AMAT | 0.82 | |
 | ASML - LRCX | 0.81 | |
 | AMAT - KLAC | 0.54 | KLA slightly different |
 | ASML - KLAC | 0.55 | |
 | LRCX - KLAC | 0.55 | |
 
-**Note:** AMAT-LRCX at 0.90 is one of the highest correlations in semis. KLA is slightly differentiated (inspection vs deposition/etch).
+Note: AMAT-LRCX at 0.90 is one of the highest correlations in semis. KLA is slightly differentiated (inspection vs deposition/etch).
 
 ---
 
 ## Why this cluster is tight
 
-1. **Same customers** — TSMC, Samsung, Intel, Micron all buy from same vendors
-2. **Same capex cycle** — Equipment orders track fab buildout plans
-3. **Oligopoly structure** — Limited competition, coordinated pricing
-4. **Long lead times** — 12-18 month backlogs create visibility
+1. Same customers — TSMC, Samsung, Intel, Micron all buy from same vendors
+2. Same capex cycle — Equipment orders track fab buildout plans
+3. Oligopoly structure — Limited competition, coordinated pricing
+4. Long lead times — 12-18 month backlogs create visibility
 
 ---
 
@@ -67,7 +80,7 @@ Wafer fab equipment — the picks and shovels of semiconductors. Tightest sector
 
 ## Investment thesis
 
-**[[Long WFE]]** — Leveraged bet on semiconductor capex without picking chip winners.
+[[Long WFE]] — Leveraged bet on semiconductor capex without picking chip winners.
 
 | Bull | Bear |
 |------|------|

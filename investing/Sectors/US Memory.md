@@ -26,12 +26,25 @@ US-based memory companies. Trades as a distinct cluster (0.50 correlation) separ
 
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| **Avg correlation** | **0.50** | Moderate (valid sector) |
+| Avg correlation | 0.50 | Moderate (valid sector) |
 | Range | 0.39 - 0.70 | WDC-SNDK to MU-WDC |
 | vs [[Korea Memory]] | 0.09-0.21 | Weak (separate cluster) |
 | Period | 2024-01 to present | |
 
-**Pairwise detail:**
+### Matched-methodology re-run (May 2026)
+
+Run via `scripts/cluster_configs/us_memory.yaml` with parameters matched to other vault cohorts (1Y window through 2026-05-07, threshold 0.5). The 1Y matched-methodology numbers are materially tighter than the prior 2024-2026 reading:
+
+| Metric | Value (1Y matched) |
+|---|---|
+| Avg intra-cluster correlation | 0.696 |
+| Pairwise range | 0.655-0.754 |
+| PC1 explained variance | 79.72% |
+| Verdict | Validated |
+
+The cohort has tightened from the original published 0.50 to 0.696 over the past year — driven by the memory shortage cycle pulling all three names (MU, SNDK, WDC) onto the same demand-driven factor. Even MU-SNDK (0.42 historical) is now well above 0.50. See [[Vault cluster taxonomy]] for cross-cohort context.
+
+Pairwise detail:
 | Pair | Correlation |
 |------|-------------|
 | MU - WDC | 0.70 |
@@ -55,13 +68,13 @@ US Memory moves with US market sentiment, not Korean memory peers.
 
 ## Investment angle
 
-**Why separate from Korea Memory:**
+Why separate from Korea Memory:
 - Different currency exposure
 - Different policy tailwinds (CHIPS Act vs Korean industrial policy)
 - Different HBM positioning (lagging vs leading)
 - Correlation data confirms distinct trading behavior
 
-**For portfolio construction:** US Memory and Korea Memory are separate bets, not interchangeable "memory exposure."
+For portfolio construction: US Memory and Korea Memory are separate bets, not interchangeable "memory exposure."
 
 ---
 

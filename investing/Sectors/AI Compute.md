@@ -26,15 +26,28 @@ TSMC + its largest AI/compute customers. Trades as a tight cluster (0.60 avg cor
 
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| **Avg correlation** | **0.61** | Strong (tight cluster) |
+| Avg correlation | 0.61 | Strong (tight cluster) |
 | Range | 0.56 - 0.69 | AMD-TSM to NVDA-TSM |
 | vs Connectivity cluster | ~0.35 | Moderate separation |
 | Period | 2024-01 to present | |
 
-**Pairwise detail:**
+### Matched-methodology re-run (May 2026)
+
+Run via `scripts/cluster_configs/ai_compute.yaml` with parameters matched to other vault cohorts (1Y window through 2026-05-07, threshold 0.5). Diagnostic values:
+
+| Metric | Value (1Y matched) |
+|---|---|
+| Avg intra-cluster correlation | 0.600 |
+| Pairwise range | 0.544-0.663 |
+| PC1 explained variance | 73.37% |
+| Verdict | Validated |
+
+Despite [[AI Compute]] being the canonical AI trade, the cohort has lower intra-correlation than [[Space pure-plays]] (0.624) or [[Sectors/Crypto-to-AI|Crypto-to-AI]] (0.691) at N=7. The TSMC-NVIDIA-AMD foundry-customer trio is tight on PC1 (73.37%) but small in cohort size — only 3 names. See [[Vault cluster taxonomy]] for cross-cohort context.
+
+Pairwise detail:
 | Pair | Correlation |
 |------|-------------|
-| TSM - NVDA | **0.69** |
+| TSM - NVDA | 0.69 |
 | TSM - AMD | 0.56 |
 | NVDA - AMD | 0.57 |
 
@@ -44,17 +57,17 @@ TSMC's stock moves with its AI customers, not "foundry peers."
 
 ## Why this cluster exists
 
-**TSMC's revenue concentration:**
+TSMC's revenue concentration:
 - NVDA is TSMC's largest customer (~25% of revenue)
 - AMD is \#2-3 customer
 - AI/HPC is TSMC's highest-margin segment
 
-**Shared demand driver:**
+Shared demand driver:
 - All three benefit from AI infrastructure buildout
 - [[AI hyperscalers]] capex flows to NVDA GPUs → manufactured by TSMC
 - AMD taking share in AI → also manufactured by TSMC
 
-**The insight:** "Foundry" isn't a sector. TSMC is effectively a levered bet on NVDA + AMD demand.
+The insight: "Foundry" isn't a sector. TSMC is effectively a levered bet on NVDA + AMD demand.
 
 ---
 

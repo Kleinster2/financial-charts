@@ -17,7 +17,7 @@ Korean memory giants. Trades as a distinct cluster (0.56 correlation) separate f
 | Company | Focus | Position |
 |---------|-------|----------|
 | [[Samsung]] | DRAM + NAND + HBM | \#1 DRAM, \#1 NAND, \#2 HBM |
-| [[SK Hynix]] | DRAM + NAND + HBM | \#2 DRAM, \#2 NAND (via Solidigm), **\#1 HBM** |
+| [[SK Hynix]] | DRAM + NAND + HBM | \#2 DRAM, \#2 NAND (via Solidigm), \#1 HBM |
 
 ---
 
@@ -25,12 +25,25 @@ Korean memory giants. Trades as a distinct cluster (0.56 correlation) separate f
 
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| **Avg correlation** | **0.53** | Moderate (valid sector) |
+| Avg correlation | 0.53 | Moderate (valid sector) |
 | vs Korea ETF (EWY) | 0.30-0.38 | Country factor present |
 | vs [[US Memory]] | 0.09-0.21 | Weak (separate cluster) |
 | Period | 2024-01 to present | |
 
-**Pairwise detail:**
+### Matched-methodology re-run (May 2026)
+
+Run via `scripts/cluster_configs/korea_memory.yaml` with parameters matched to other vault cohorts (1Y window through 2026-05-07, threshold 0.5). The Samsung-SK Hynix pair has tightened materially:
+
+| Metric | Value (1Y matched) |
+|---|---|
+| Pair correlation (Samsung-SK Hynix) | 0.756 |
+| PC1 explained variance | 87.82% (trivially high at N=2) |
+| vs [[US Memory]] cohort | 0.094 (cluster intra-advantage +0.66) |
+| Verdict | Validated as pair |
+
+The pair-only N=2 structure means PC2/PC3 analysis isn't informative (PCA at N=2 is just the bivariate correlation). The 0.756 reading is meaningful directionally — Samsung and SK Hynix have decoupled materially from US memory peers and now trade as a tight 2-name HBM-leadership pair. See [[Vault cluster taxonomy]] for cross-cohort context.
+
+Pairwise detail:
 | Pair | Correlation |
 |------|-------------|
 | Samsung - SK Hynix | 0.57 |
@@ -45,11 +58,11 @@ Korea Memory moves with Korean market/won, not US memory peers.
 
 | Company | HBM Position | Notes |
 |---------|--------------|-------|
-| [[SK Hynix]] | **\#1** | NVIDIA preferred supplier |
+| [[SK Hynix]] | \#1 | NVIDIA preferred supplier |
 | [[Samsung]] | \#2 | Catching up, yield issues |
 | [[Micron]] | \#3 | Distant third |
 
-Korea controls **~95% of HBM production** — the premium AI memory product.
+Korea controls ~95% of HBM production — the premium AI memory product.
 
 ---
 
@@ -66,13 +79,13 @@ Korea controls **~95% of HBM production** — the premium AI memory product.
 
 ## Investment angle
 
-**Why separate from US Memory:**
+Why separate from US Memory:
 - HBM leadership (SK Hynix \#1, Samsung \#2)
 - KRW currency exposure
 - Different risk profile (China proximity)
 - Correlation data confirms distinct trading behavior
 
-**The [[Short TSMC long Korea]] thesis** captures this — Korea memory is a distinct geographic/sector bet.
+The [[Short TSMC long Korea]] thesis captures this — Korea memory is a distinct geographic/sector bet.
 
 ---
 
