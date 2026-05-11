@@ -1,0 +1,26 @@
+# Crypto-to-AI converters cluster — Bitcoin miners pivoting to AI/HPC hosting.
+# Hypothesis: the cohort splits along a PC2 axis between pure Bitcoin miners
+# (MARA, RIOT, CLSK) and AI-pivot names with hosting deals (CORZ, IREN, HUT,
+# WULF). Cluster identity formed roughly mid-2024 when AI capex flooded into
+# crypto-mining infrastructure (cheap power + ready buildings). May 8 [[CoreWeave]]
+# print is a load-bearing single-day signal for the AI-pivot leg.
+# Methodology matched to Space pure-plays: window_end 2026-05-08, threshold 0.5.
+name: Crypto-to-AI converters
+primary: CORZ
+prefix: crypto-to-ai-cluster
+threshold: 0.5
+window_end: 2026-05-08
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [CORZ, MARA, RIOT, IREN, HUT, CLSK, WULF]
+  bitcoin_proxy:
+    color: "#FF9800"
+    tickers: [IBIT, GBTC, "BTC-USD"]
+  ai_infra:
+    color: "#7E57C2"
+    tickers: [CRWV, NVDA]
+  etf:
+    color: "#9E9E9E"
+    tickers: [SPY, IWM]
