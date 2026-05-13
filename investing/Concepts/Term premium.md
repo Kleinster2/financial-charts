@@ -21,7 +21,7 @@ The three components are not directly observable individually. Decomposition req
 
 | Component | What it captures | Observable proxy |
 |-----------|-----------------|------------------|
-| Expected short rates | Where markets think the [[Federal Reserve|Fed]] is heading | Fed Funds futures (ZQ), [[SOFR]] futures (SR3). See [[Rate expectations]] |
+| Expected short rates | Where markets think the [[Federal Reserve|Fed]] is heading | [[Fed Funds futures (ZQ)]], [[SOFR futures (SR3)]]. See [[Rate expectations]] |
 | Expected inflation | Where markets think CPI/PCE is heading | Breakeven inflation (nominal Treasury minus [[TIP|TIPS]]), inflation swaps. See [[Inflation expectations]] |
 | Term premium | Residual: everything else | NY Fed ACM model, Fed Board Kim-Wright model |
 
@@ -45,7 +45,7 @@ Similar decomposition, different methodology. Uses survey expectations (Blue Chi
 
 Even without the models, you can triangulate:
 
-1. Check [[Rate expectations|Fed rate expectations]] (ZQ/SR3 futures) — are expected short rates moving?
+1. Check [[Rate expectations|Fed rate expectations]] ([[Fed Funds futures (ZQ)|ZQ]] / [[SOFR futures (SR3)|SR3]] futures) — are expected short rates moving?
 2. Check [[Inflation expectations|breakeven inflation]] (TIPS spreads, 5Y5Y forward swaps) — are inflation expectations moving?
 3. If nominal 10Y yield is rising but (1) and (2) are stable, the move is term premium
 
