@@ -1,0 +1,22 @@
+Golden Dome defense-tech HOLDOUT TEST
+Cohort: KTOS, AVAV, MRCY, BWXT, HEI (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-05-08 -> 2025-05-08 (124 obs)
+Test:  2025-05-08 -> 2026-05-08 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.4471
+PC1 explained var:    56.06%
+Pairwise range:       [0.289, 0.597]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4012
+PC1 explained var:    52.84%
+Pairwise range:       [0.190, 0.577]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0459   (test - train)
+PC1 variance delta:   -3.22pp
+PC1 loadings corr:    0.5978    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.90 (durable cluster across regimes)

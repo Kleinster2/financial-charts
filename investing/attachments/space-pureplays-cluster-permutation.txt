@@ -1,0 +1,22 @@
+Space pure-plays PERMUTATION TESTS
+Window: 2025-05-09 -> 2026-05-07 (173 obs)
+Candidate cohort: RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL (N=7)
+Observed intra-corr: 0.6240    Observed PC1: 67.96%
+
+--- RANDOM-BASKET NULL ---
+Permutations: 989
+Universe source: DB prices_long (423 tickers with >=200 obs in window)
+Pool size: 421
+Intra-cluster correlation:
+  Null mean:        0.1027
+  Null 95th pct:    0.2272
+  Null 99th pct:    0.2995
+  p-value (right):  0.000000    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        28.75%
+  Null 95th pct:    39.00%
+  Null 99th pct:    44.08%
+  p-value (right):  0.000000    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

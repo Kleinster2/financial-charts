@@ -1,0 +1,22 @@
+Wealth managers basket HOLDOUT TEST
+Cohort: SCHW, RJF, LPLA, SF (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-04-30 -> 2025-04-30 (56 obs)
+Test:  2025-04-30 -> 2026-04-30 (171 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8539
+PC1 explained var:    89.08%
+Pairwise range:       [0.802, 0.937]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5031
+PC1 explained var:    64.30%
+Pairwise range:       [0.265, 0.732]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.3509   (test - train)
+PC1 variance delta:   -24.78pp
+PC1 loadings corr:    -0.2379    (1.0 = identical factor structure)
+
+VERDICT: REGIME-DEPENDENT — test/train ratio 0.59 (cluster does not survive holdout)

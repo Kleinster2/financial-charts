@@ -1,0 +1,22 @@
+Mega banks HOLDOUT TEST
+Cohort: JPM, BAC, C, WFC, USB (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-04-30 -> 2025-04-30 (125 obs)
+Test:  2025-04-30 -> 2026-04-30 (197 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.8294
+PC1 explained var:    86.38%
+Pairwise range:       [0.762, 0.874]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7293
+PC1 explained var:    78.42%
+Pairwise range:       [0.633, 0.810]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1001   (test - train)
+PC1 variance delta:   -7.97pp
+PC1 loadings corr:    0.6245    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.88 (durable cluster across regimes)

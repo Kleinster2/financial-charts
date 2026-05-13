@@ -1,0 +1,22 @@
+Platform cyber HOLDOUT TEST
+Cohort: CRWD, PANW, ZS (N=3)
+Window: 2y, split temporally at midpoint
+Train: 2024-04-30 -> 2025-04-30 (125 obs)
+Test:  2025-04-30 -> 2026-04-30 (197 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6504
+PC1 explained var:    76.74%
+Pairwise range:       [0.601, 0.721]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6875
+PC1 explained var:    79.20%
+Pairwise range:       [0.625, 0.736]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.0371   (test - train)
+PC1 variance delta:   +2.46pp
+PC1 loadings corr:    -0.8599    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 1.06 (durable cluster across regimes)

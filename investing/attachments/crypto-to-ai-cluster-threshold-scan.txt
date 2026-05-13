@@ -1,0 +1,31 @@
+Crypto-to-AI converters THRESHOLD STABILITY SCAN
+Cohort size: 7
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              6                        2                    0.286                    0   False
+      0.25              4                        4                    0.571                    0   False
+      0.30              4                        4                    0.571                    0   False
+      0.35              3                        5                    0.714                    0   False
+      0.40              2                        6                    0.857                    1   False
+      0.45              2                        6                    0.857                    1   False
+      0.50              1                        7                    1.000                    6   False
+      0.55              1                        7                    1.000                    6   False
+      0.60              1                        7                    1.000                    7   False
+      0.65              1                        7                    1.000                    7   False
+      0.70              1                        7                    1.000                    7   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.40: + CRWV
+  threshold 0.45: + CRWV
+  threshold 0.50: + IBIT,GBTC,BTC-USD,CRWV,SPY...
+  threshold 0.55: + IBIT,GBTC,BTC-USD,CRWV,SPY...
+  threshold 0.60: + IBIT,GBTC,BTC-USD,CRWV,NVDA...
+  threshold 0.65: + IBIT,GBTC,BTC-USD,CRWV,NVDA...
+  threshold 0.70: + IBIT,GBTC,BTC-USD,CRWV,NVDA...

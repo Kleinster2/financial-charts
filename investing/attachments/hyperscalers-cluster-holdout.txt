@@ -1,0 +1,22 @@
+AI hyperscalers HOLDOUT TEST
+Cohort: MSFT, GOOGL, AMZN, META, ORCL (N=5)
+Window: 2y, split temporally at midpoint
+Train: 2024-04-30 -> 2025-04-30 (125 obs)
+Test:  2025-04-30 -> 2026-04-30 (197 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6516
+PC1 explained var:    72.36%
+Pairwise range:       [0.515, 0.760]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.2850
+PC1 explained var:    43.36%
+Pairwise range:       [0.112, 0.440]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.3666   (test - train)
+PC1 variance delta:   -29.00pp
+PC1 loadings corr:    0.7408    (1.0 = identical factor structure)
+
+VERDICT: REGIME-DEPENDENT — test/train ratio 0.44 (cluster does not survive holdout)

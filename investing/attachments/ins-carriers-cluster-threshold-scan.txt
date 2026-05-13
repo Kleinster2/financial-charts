@@ -1,0 +1,27 @@
+Insurance carriers THRESHOLD STABILITY SCAN
+Cohort size: 8
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              7                        2                    0.250                    0   False
+      0.25              7                        2                    0.250                    0   False
+      0.30              7                        2                    0.250                    0   False
+      0.35              4                        3                    0.375                    0   False
+      0.40              3                        5                    0.625                    0   False
+      0.45              3                        5                    0.625                    0   False
+      0.50              3                        5                    0.625                    0   False
+      0.55              3                        5                    0.625                    0   False
+      0.60              2                        6                    0.750                    5   False
+      0.65              2                        6                    0.750                    5   False
+      0.70              2                        6                    0.750                    5   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.60: + WTW,AJG,AON,BRO,MMC
+  threshold 0.65: + WTW,AJG,AON,BRO,MMC
+  threshold 0.70: + WTW,AJG,AON,BRO,MMC

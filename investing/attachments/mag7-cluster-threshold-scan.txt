@@ -1,0 +1,27 @@
+Mag 7 THRESHOLD STABILITY SCAN
+Cohort size: 7
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              7                        1                    0.143                    0   False
+      0.25              7                        1                    0.143                    0   False
+      0.30              7                        1                    0.143                    0   False
+      0.35              7                        1                    0.143                    0   False
+      0.40              7                        1                    0.143                    0   False
+      0.45              7                        1                    0.143                    0   False
+      0.50              7                        1                    0.143                    0   False
+      0.55              7                        1                    0.143                    0   False
+      0.60              4                        3                    0.429                   12   False
+      0.65              3                        5                    0.714                   12   False
+      0.70              3                        5                    0.714                   12   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.60: + TSM,ASML,AMAT,KLAC,LRCX...
+  threshold 0.65: + TSM,ASML,AMAT,KLAC,LRCX...
+  threshold 0.70: + TSM,ASML,AMAT,KLAC,LRCX...

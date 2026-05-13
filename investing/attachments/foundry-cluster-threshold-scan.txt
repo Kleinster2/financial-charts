@@ -1,0 +1,32 @@
+Foundry monopoly THRESHOLD STABILITY SCAN
+Cohort size: 4
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              4                        1                     0.25                    0   False
+      0.25              4                        1                     0.25                    0   False
+      0.30              4                        1                     0.25                    6   False
+      0.35              4                        1                     0.25                    7   False
+      0.40              4                        1                     0.25                    7   False
+      0.45              4                        1                     0.25                    9   False
+      0.50              4                        1                     0.25                   10   False
+      0.55              3                        2                     0.50                    0   False
+      0.60              2                        3                     0.75                   10   False
+      0.65              2                        3                     0.75                   10   False
+      0.70              2                        3                     0.75                   11   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.30: + ASML,AMAT,KLAC,LRCX,SMH...
+  threshold 0.35: + ASML,AMAT,KLAC,LRCX,SMH...
+  threshold 0.40: + ASML,AMAT,KLAC,LRCX,SMH...
+  threshold 0.45: + NVDA,AMD,ASML,AMAT,KLAC...
+  threshold 0.50: + NVDA,AMD,AVGO,ASML,AMAT...
+  threshold 0.60: + NVDA,AMD,AVGO,ASML,AMAT...
+  threshold 0.65: + NVDA,AMD,AVGO,ASML,AMAT...
+  threshold 0.70: + NVDA,AMD,AVGO,QCOM,ASML...

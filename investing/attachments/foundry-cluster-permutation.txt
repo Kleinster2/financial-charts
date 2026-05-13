@@ -1,0 +1,22 @@
+Foundry monopoly PERMUTATION TESTS
+Window: 2025-05-01 -> 2026-04-29 (248 obs)
+Candidate cohort: TSM, INTC, GFS, 005930.KS (N=4)
+Observed intra-corr: 0.2080    Observed PC1: 43.70%
+
+--- RANDOM-BASKET NULL ---
+Permutations: 1000
+Universe source: DB prices_long (425 tickers with >=200 obs in window)
+Pool size: 28
+Intra-cluster correlation:
+  Null mean:        0.1513
+  Null 95th pct:    0.4113
+  Null 99th pct:    0.5507
+  p-value (right):  0.290000    -> FAILS to reject random-basket null (p >= 0.05)
+PC1 explained variance:
+  Null mean:        42.72%
+  Null 95th pct:    63.90%
+  Null 99th pct:    73.24%
+  p-value (right):  0.429000    -> FAILS to reject random-basket null (p >= 0.05)
+
+--- INTERPRETATION ---
+Random-basket null NOT rejected: cohort cohesion is indistinguishable from a random N-pick of comparable names. Cluster claim is falsified at conventional significance.

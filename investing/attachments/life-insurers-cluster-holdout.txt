@@ -1,0 +1,22 @@
+Life insurers pair HOLDOUT TEST
+Cohort: MET, PRU (N=2)
+Window: 2y, split temporally at midpoint
+Train: 2024-04-30 -> 2025-04-30 (125 obs)
+Test:  2025-04-30 -> 2026-04-30 (197 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.9078
+PC1 explained var:    95.39%
+Pairwise range:       [0.908, 0.908]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7121
+PC1 explained var:    85.60%
+Pairwise range:       [0.712, 0.712]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1957   (test - train)
+PC1 variance delta:   -9.78pp
+PC1 loadings corr:    1.0000    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.78 (factor present but eroding)

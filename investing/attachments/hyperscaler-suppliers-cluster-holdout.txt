@@ -1,0 +1,22 @@
+Hyperscaler supplier chain HOLDOUT TEST
+Cohort: NVDA, AMD, AVGO, TSM, ASML, AMAT, KLAC, LRCX (N=8)
+Window: 2y, split temporally at midpoint
+Train: 2024-04-30 -> 2025-04-30 (56 obs)
+Test:  2025-04-30 -> 2026-04-30 (171 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7982
+PC1 explained var:    82.53%
+Pairwise range:       [0.611, 0.968]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.6090
+PC1 explained var:    66.33%
+Pairwise range:       [0.434, 0.857]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1892   (test - train)
+PC1 variance delta:   -16.20pp
+PC1 loadings corr:    0.7617    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.76 (factor present but eroding)

@@ -1,0 +1,22 @@
+Fabless semiconductor PERMUTATION TESTS
+Window: 2025-05-01 -> 2026-04-29 (170 obs)
+Candidate cohort: NVDA, AMD, AVGO, QCOM (N=4)
+Observed intra-corr: 0.4261    Observed PC1: 57.69%
+
+--- RANDOM-BASKET NULL ---
+Permutations: 987
+Universe source: DB prices_long (425 tickers with >=200 obs in window)
+Pool size: 423
+Intra-cluster correlation:
+  Null mean:        0.0987
+  Null 95th pct:    0.2784
+  Null 99th pct:    0.3875
+  p-value (right):  0.004053    -> REJECTS random-basket null at p < 0.01
+PC1 explained variance:
+  Null mean:        37.09%
+  Null 95th pct:    48.81%
+  Null 99th pct:    55.63%
+  p-value (right):  0.004053    -> REJECTS random-basket null at p < 0.01
+
+--- INTERPRETATION ---
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

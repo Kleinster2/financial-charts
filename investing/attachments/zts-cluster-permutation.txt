@@ -1,0 +1,22 @@
+Animal health PERMUTATION TESTS
+Window: 2025-05-01 -> 2026-04-29 (170 obs)
+Candidate cohort: ZTS, ELAN, IDXX, HSIC (N=4)
+Observed intra-corr: 0.3237    Observed PC1: 49.78%
+
+--- RANDOM-BASKET NULL ---
+Permutations: 985
+Universe source: DB prices_long (425 tickers with >=200 obs in window)
+Pool size: 424
+Intra-cluster correlation:
+  Null mean:        0.0986
+  Null 95th pct:    0.2824
+  Null 99th pct:    0.3620
+  p-value (right):  0.025381    -> REJECTS random-basket null at p < 0.05
+PC1 explained variance:
+  Null mean:        36.97%
+  Null 95th pct:    48.87%
+  Null 99th pct:    54.65%
+  p-value (right):  0.038579    -> REJECTS random-basket null at p < 0.05
+
+--- INTERPRETATION ---
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

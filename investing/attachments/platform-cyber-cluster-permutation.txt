@@ -1,0 +1,22 @@
+Platform cyber PERMUTATION TESTS
+Window: 2025-05-01 -> 2026-04-29 (196 obs)
+Candidate cohort: CRWD, PANW, ZS (N=3)
+Observed intra-corr: 0.6878    Observed PC1: 79.22%
+
+--- RANDOM-BASKET NULL ---
+Permutations: 1000
+Universe source: DB prices_long (425 tickers with >=200 obs in window)
+Pool size: 422
+Intra-cluster correlation:
+  Null mean:        0.1002
+  Null 95th pct:    0.3321
+  Null 99th pct:    0.4306
+  p-value (right):  0.000000    -> REJECTS random-basket null at p < 0.001
+PC1 explained variance:
+  Null mean:        43.93%
+  Null 95th pct:    58.25%
+  Null 99th pct:    64.31%
+  p-value (right):  0.000000    -> REJECTS random-basket null at p < 0.001
+
+--- INTERPRETATION ---
+Random-basket null rejected: cohort is more cohesive than a random N-pick from the same universe. This is the meaningful pass.

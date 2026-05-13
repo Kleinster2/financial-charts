@@ -1,0 +1,22 @@
+Korea Memory HOLDOUT TEST
+Cohort: 005930.KS, 000660.KS (N=2)
+Window: 2y, split temporally at midpoint
+Train: 2024-05-08 -> 2025-05-08 (232 obs)
+Test:  2025-05-08 -> 2026-05-08 (238 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5395
+PC1 explained var:    76.97%
+Pairwise range:       [0.539, 0.539]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.7312
+PC1 explained var:    86.56%
+Pairwise range:       [0.731, 0.731]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     +0.1917   (test - train)
+PC1 variance delta:   +9.59pp
+PC1 loadings corr:    nan    (1.0 = identical factor structure)
+
+VERDICT: STRENGTHENING — test/train ratio 1.36 (basket consolidating; check for regime shift in the train half)

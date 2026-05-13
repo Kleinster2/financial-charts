@@ -1,0 +1,22 @@
+Mag 7 HOLDOUT TEST
+Cohort: AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA (N=7)
+Window: 2y, split temporally at midpoint
+Train: 2024-05-08 -> 2025-05-08 (55 obs)
+Test:  2025-05-08 -> 2026-05-08 (174 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7195
+PC1 explained var:    76.12%
+Pairwise range:       [0.608, 0.862]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3167
+PC1 explained var:    41.90%
+Pairwise range:       [0.081, 0.459]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.4028   (test - train)
+PC1 variance delta:   -34.23pp
+PC1 loadings corr:    -0.0778    (1.0 = identical factor structure)
+
+VERDICT: REGIME-DEPENDENT — test/train ratio 0.44 (cluster does not survive holdout)

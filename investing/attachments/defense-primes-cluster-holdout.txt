@@ -1,0 +1,22 @@
+Defense primes HOLDOUT TEST
+Cohort: LMT, RTX, NOC, GD, HII, LHX, LDOS (N=7)
+Window: 2y, split temporally at midpoint
+Train: 2024-05-08 -> 2025-05-08 (124 obs)
+Test:  2025-05-08 -> 2026-05-08 (199 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5007
+PC1 explained var:    57.85%
+Pairwise range:       [0.307, 0.695]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.4472
+PC1 explained var:    53.06%
+Pairwise range:       [0.207, 0.596]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0535   (test - train)
+PC1 variance delta:   -4.80pp
+PC1 loadings corr:    0.1962    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.89 (durable cluster across regimes)

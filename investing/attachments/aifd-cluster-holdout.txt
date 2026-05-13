@@ -1,0 +1,22 @@
+AI financial disintermediation basket (AIFD) HOLDOUT TEST
+Cohort: WTW, AJG, AON, RYAN, BRO, MMC, SCHW, RJF, LPLA, SF (N=10)
+Window: 2y, split temporally at midpoint
+Train: 2024-04-30 -> 2025-04-30 (56 obs)
+Test:  2025-04-30 -> 2026-04-30 (134 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.6108
+PC1 explained var:    65.21%
+Pairwise range:       [0.238, 0.937]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.3169
+PC1 explained var:    43.96%
+Pairwise range:       [-0.092, 0.799]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.2939   (test - train)
+PC1 variance delta:   -21.25pp
+PC1 loadings corr:    -0.0984    (1.0 = identical factor structure)
+
+VERDICT: REGIME-DEPENDENT — test/train ratio 0.52 (cluster does not survive holdout)

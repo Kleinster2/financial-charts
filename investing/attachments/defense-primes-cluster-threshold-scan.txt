@@ -1,0 +1,26 @@
+Defense primes THRESHOLD STABILITY SCAN
+Cohort size: 7
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              7                        1                    0.143                    0   False
+      0.25              7                        1                    0.143                    0   False
+      0.30              6                        2                    0.286                    0   False
+      0.35              6                        2                    0.286                    0   False
+      0.40              5                        2                    0.286                    0   False
+      0.45              3                        5                    0.714                    0   False
+      0.50              2                        5                    0.714                    0   False
+      0.55              2                        5                    0.714                    0   False
+      0.60              1                        7                    1.000                    0    True
+      0.65              1                        7                    1.000                    0    True
+      0.70              1                        7                    1.000                    7   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  [0.60, 0.65]  width = 0.05  (NARROW)
+Total stable width: 0.05
+
+--- VERDICT ---
+FRAGILE: cohort intact only at narrow threshold band(s). Validation depends on threshold pick.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.70: + BA,HON,CAT,DE,ITA...

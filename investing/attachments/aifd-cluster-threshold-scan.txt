@@ -1,0 +1,26 @@
+AI financial disintermediation basket (AIFD) THRESHOLD STABILITY SCAN
+Cohort size: 10
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20             10                        1                      0.1                    0   False
+      0.25              8                        2                      0.2                    0   False
+      0.30              6                        4                      0.4                    0   False
+      0.35              4                        5                      0.5                    0   False
+      0.40              4                        5                      0.5                    0   False
+      0.45              3                        6                      0.6                    0   False
+      0.50              3                        6                      0.6                    0   False
+      0.55              3                        6                      0.6                    0   False
+      0.60              3                        6                      0.6                    0   False
+      0.65              3                        6                      0.6                    3   False
+      0.70              3                        6                      0.6                    3   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.65: + PGR,CB,TRV
+  threshold 0.70: + PGR,CB,TRV

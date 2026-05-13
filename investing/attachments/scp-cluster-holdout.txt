@@ -1,0 +1,22 @@
+Security control points (SCP) HOLDOUT TEST
+Cohort: CRWD, FTNT, NET, PANW, RBRK, ZS (N=6)
+Window: 2y, split temporally at midpoint
+Train: 2024-04-30 -> 2025-04-30 (125 obs)
+Test:  2025-04-30 -> 2026-04-30 (197 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.5610
+PC1 explained var:    63.70%
+Pairwise range:       [0.391, 0.721]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5433
+PC1 explained var:    62.39%
+Pairwise range:       [0.305, 0.736]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.0178   (test - train)
+PC1 variance delta:   -1.30pp
+PC1 loadings corr:    0.5708    (1.0 = identical factor structure)
+
+VERDICT: STABLE — test/train ratio 0.97 (durable cluster across regimes)

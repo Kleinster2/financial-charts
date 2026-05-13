@@ -1,0 +1,34 @@
+Mega banks THRESHOLD STABILITY SCAN
+Cohort size: 5
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              5                        1                      0.2                    0   False
+      0.25              4                        2                      0.4                    1   False
+      0.30              3                        3                      0.6                    3   False
+      0.35              1                        5                      1.0                    4   False
+      0.40              1                        5                      1.0                    4   False
+      0.45              1                        5                      1.0                    5   False
+      0.50              1                        5                      1.0                    5   False
+      0.55              1                        5                      1.0                    5   False
+      0.60              1                        5                      1.0                    5   False
+      0.65              1                        5                      1.0                    5   False
+      0.70              1                        5                      1.0                    5   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  None — cohort never returns as a clean single cluster at any threshold.
+
+--- VERDICT ---
+BOUNDARY-DEPENDENT: cohort does not form a clean cluster at any threshold tested. Falsification candidate.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.25: + XLF
+  threshold 0.30: + GS,MS,XLF
+  threshold 0.35: + GS,MS,KRE,XLF
+  threshold 0.40: + GS,MS,KRE,XLF
+  threshold 0.45: + GS,MS,KRE,XLF,SPY
+  threshold 0.50: + GS,MS,KRE,XLF,SPY
+  threshold 0.55: + GS,MS,KRE,XLF,SPY
+  threshold 0.60: + GS,MS,KRE,XLF,SPY
+  threshold 0.65: + GS,MS,KRE,XLF,SPY
+  threshold 0.70: + GS,MS,KRE,XLF,SPY

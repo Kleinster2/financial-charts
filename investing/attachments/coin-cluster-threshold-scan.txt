@@ -1,0 +1,34 @@
+Crypto-exposed financial platforms THRESHOLD STABILITY SCAN
+Cohort size: 2
+
+--- ASSIGNMENT TABLE ---
+ threshold  n_subclusters  largest_subcluster_size  cohort_share_in_largest  contamination_count  intact
+      0.20              1                        2                      1.0                    0    True
+      0.25              1                        2                      1.0                    0    True
+      0.30              1                        2                      1.0                    3   False
+      0.35              1                        2                      1.0                    3   False
+      0.40              1                        2                      1.0                    3   False
+      0.45              1                        2                      1.0                    7   False
+      0.50              1                        2                      1.0                    7   False
+      0.55              1                        2                      1.0                    7   False
+      0.60              1                        2                      1.0                    9   False
+      0.65              1                        2                      1.0                    9   False
+      0.70              1                        2                      1.0                   12   False
+
+--- STABLE RANGES (intact cohort, no contamination) ---
+  [0.20, 0.25]  width = 0.05  (POINT)
+Total stable width: 0.05
+
+--- VERDICT ---
+FRAGILE: cohort intact only at narrow threshold band(s). Validation depends on threshold pick.
+
+--- CONTAMINATION DETAIL (non-cohort names joining the cohort's largest cluster) ---
+  threshold 0.30: + MSTR,IBIT,BTC-USD
+  threshold 0.35: + MSTR,IBIT,BTC-USD
+  threshold 0.40: + MSTR,IBIT,BTC-USD
+  threshold 0.45: + MSTR,IBIT,BTC-USD,IBKR,SPY...
+  threshold 0.50: + MSTR,IBIT,BTC-USD,IBKR,SPY...
+  threshold 0.55: + MSTR,IBIT,BTC-USD,IBKR,SPY...
+  threshold 0.60: + MSTR,IBIT,BTC-USD,IBKR,AFRM...
+  threshold 0.65: + MSTR,IBIT,BTC-USD,IBKR,AFRM...
+  threshold 0.70: + MSTR,IBIT,BTC-USD,SCHW,IBKR...

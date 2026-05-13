@@ -1,0 +1,22 @@
+Indian metals HOLDOUT TEST
+Cohort: HINDALCO.NS, VEDL.NS, TATASTEEL.NS, JSWSTEEL.NS (N=4)
+Window: 2y, split temporally at midpoint
+Train: 2024-04-30 -> 2025-04-30 (119 obs)
+Test:  2025-04-30 -> 2026-04-30 (165 obs)
+
+--- TRAIN HALF (older) ---
+Intra-correlation:    0.7358
+PC1 explained var:    80.25%
+Pairwise range:       [0.650, 0.810]
+
+--- TEST HALF (newer) ---
+Intra-correlation:    0.5803
+PC1 explained var:    68.69%
+Pairwise range:       [0.426, 0.713]
+
+--- STABILITY DIAGNOSTICS ---
+Intra-corr delta:     -0.1555   (test - train)
+PC1 variance delta:   -11.57pp
+PC1 loadings corr:    0.8906    (1.0 = identical factor structure)
+
+VERDICT: WEAKENED — test/train ratio 0.79 (factor present but eroding)
