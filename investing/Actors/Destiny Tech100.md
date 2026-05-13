@@ -199,6 +199,12 @@ Bear:
 
 ## Related
 
+### Securities
+
+- [[Destiny Tech100 securities]] — DXYZ common stock; closed-end fund, 13.7M float, May 12 close $53.40 after -25.05% void-declaration drawdown
+
+### Entities
+
 - [[SpaceX]] -- largest holding
 - [[OpenAI]] -- key AI/ML position
 - [[Anthropic]] -- added Feb 2026

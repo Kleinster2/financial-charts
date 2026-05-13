@@ -89,6 +89,33 @@ The orbital-AI-compute "expressed interest" is far more speculative — orbital 
 
 ---
 
+## Secondary-market status post-Anthropic/OpenAI void notices (May 11-13, 2026)
+
+[[Anthropic]] (May 11) and [[OpenAI]] (May 12) issued same-week notices declaring all unauthorized secondary stock transfers **void** under Delaware bylaw transfer restrictions, naming SPV operators and tokenization venues by name. Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]].
+
+SpaceX has **not** issued a parallel notice as of May 13, 2026. Two structural reads:
+
+1. **Existing posture is ROFR-based, not void-based.** SpaceX uses right-of-first-refusal on secondary transactions — the company can match any external offer and purchase the shares directly, making every deal subject to its final approval. ROFR is a transaction-by-transaction enforcement mechanism that operates *within* the secondary plumbing rather than severing it. The Anthropic/OpenAI "void" mechanism is the categorically more aggressive Delaware corporate-law stance.
+
+2. **The private-market price did not collapse on the announcement.** SpaceX closed at $634.05/share on [[Forge Global]] on May 12 — a $1.51T implied valuation, up 215% trailing 12 months. The Anthropic / OpenAI void announcements did not produce the kind of price reaction that hit [[Destiny Tech100]] (-25.05%) or tokenized [[OpenAI]] contracts (-36%) on the same tape. The off-chain Forge price for SpaceX sits *below* the reported $1.75T June IPO target framing rather than above it — there is no perp-DEX-style implied-valuation gap to break.
+
+### Why a SpaceX void notice is the structurally important tail risk
+
+The Anthropic/OpenAI announcements were dollar-for-dollar parallel and used identical legal language, which suggests coordination between the two issuers (or at least convergent legal advice). The trophy private-issuer cohort is three names: Anthropic + OpenAI + SpaceX. If SpaceX follows with an identical void notice, the structural break across the trophy cohort is complete and the secondary-market plumbing for *all* AI-era private market access loses its issuer-side legitimacy backstop simultaneously.
+
+The cleanest tail-risk asymmetry: SpaceX has a credible *defensive* incentive to issue the notice (preserve transfer-restriction enforceability before the June 2026 IPO files publicly, when secondary trading typically intensifies). It also has a credible *offensive* incentive *not* to issue one (the secondary-market price discovery has been favorable to SpaceX's IPO valuation framing — $1.51T off-chain supports the $1.75T IPO target). Which logic wins is a coin flip with non-trivial market consequences.
+
+### What to watch
+
+- **support.spacex.com / SpaceX investor-relations stockholder communications** — the venue Anthropic used for its notice was its own help center, then amplified via press cycle. SpaceX has no equivalent public stockholder-notice page yet but could create one.
+- **[[Hiive]] / [[Forge Global]] SpaceX-specific listings** — those are the platforms where any SpaceX issuer pushback would land first. The May 12 Forge price implies no pushback yet.
+- **[[Destiny Tech100]] price action** — DXYZ is the cleanest listed proxy: its 16.2% SpaceX position would face the same void-mechanism repricing that hit its 4-5% Anthropic position on May 12. The combined position weight is meaningful.
+- **June 2026 IPO filing** — the S-1 will disclose secondary-trading restriction language directly; the language pattern (void vs voidable) becomes public on filing rather than via a separate notice.
+
+*Sources: [Motley Fool — SpaceX Just Hit an All-Time High in Private-Market Trading](https://www.fool.com/investing/2026/05/12/spacex-just-hit-record-high-private-market-trading/) (May 12 2026); search-aggregated absence of SpaceX void notice on May 13 2026.*
+
+---
+
 ## xAI acquisition (Feb 2, 2026)
 
 SpaceX acquired xAI — deal closed:

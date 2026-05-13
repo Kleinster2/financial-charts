@@ -159,6 +159,12 @@ Full structural treatment: [[Private market secondaries#Issuer pushback: the voi
 
 ## Related
 
+### Securities
+
+- [[Forge Global securities]] — FRGE common stock; arb-spread to Schwab $45 deal price
+
+### Entities
+
 - [[Destiny Tech100]] -- [[Sohail Prasad]]'s subsequent venture
 - [[Sohail Prasad]] -- co-founder (departed 2020)
 - [[Samvit Ramadurgam]] -- co-founder (departed 2020)
