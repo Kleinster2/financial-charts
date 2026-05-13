@@ -86,6 +86,19 @@ Growing US government revenue.
 
 ---
 
+## Brazilian operations — AEL Sistemas + Ares Aeroespacial
+
+Elbit has the deepest Israeli defense footprint in Latin America via two Brazilian subsidiaries:
+
+| Subsidiary | Acquisition | Focus |
+|-----------|-------------|-------|
+| [[AEL Sistemas]] | 2001 (full acquisition of Aeroeletronica) | UAVs ([[Hermes 450]], Hermes 900), avionics, EW, C4I |
+| [[Ares Aeroespacial]] | Long-standing | Complementary defense electronics |
+
+AEL Sistemas, based in Porto Alegre, is the principal Brazilian importer and integrator for Elbit's UAV product family. In 2011, a joint venture with [[Embraer]] (Embraer-majority structure) introduced the Hermes 450 to Brazilian Air Force (FAB) service, with operational deployment from 2014. The Hermes 900 has been delivered to FAB more recently. AEL is the cleanest Israeli-side equivalent to [[Helibras]] in the [[Brazilian defense industrial base|Brazilian defense industrial base — Channel 1]], a long-tenured fully foreign-owned Brazilian operation satisfying Lei 12.598 EED requirements while preserving full Elbit ownership and IP control.
+
+---
+
 ## Growth drivers
 
 | Driver | Detail |

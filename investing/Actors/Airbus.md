@@ -43,6 +43,18 @@ aliases: [AIR]
 
 ---
 
+## Defense and helicopter subsidiaries
+
+| Subsidiary | Region | Detail |
+|-----------|--------|--------|
+| Airbus Defence and Space | Europe | Military aircraft (A400M, C295, Eurofighter share), satellites, MALE drones |
+| Airbus Helicopters | Global | Civilian + military rotorcraft (H145, H160, H175, H225, H125 Esquilo family) |
+| [[Helibras]] | [[Brazil]] | 100% Airbus subsidiary since 1980; Itajubá MG; ~800 helicopters delivered. R$1B 2025 LOI for H145M production for Brazilian Army (10-12 units, deliveries 2028-2030) |
+
+Helibras is Airbus's most embedded Latin American operation and the anchor of [[Brazilian defense industrial base|Channel 1 foreign-subsidiary]] presence in Brazilian defense. The 2025 H145M production agreement signed under [[Lula]] scales the plant materially and represents continued French willingness to commit capital to maintain the Brazilian beachhead under BRICS-shifted political conditions.
+
+---
+
 ## A320neo family
 
 | Model | Seats | Status |

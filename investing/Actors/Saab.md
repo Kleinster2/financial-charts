@@ -56,12 +56,38 @@ Competitive alternative to F-35:
 | Customer | Quantity | Notes |
 |----------|----------|-------|
 | Sweden | 60+ | [[Home]] fleet |
-| [[Brazil]] | 36 | Gripen E |
+| [[Brazil]] | 36 | F-39 Gripen E/F — see Brazilian section below |
 | Hungary | 14 | Lease → buy |
 | South [[Africa]] | 26 | |
 | Thailand | 12 | |
 
-**Advantage:** Lower acquisition + operating cost than F-35.
+Advantage: lower acquisition + operating cost than F-35.
+
+---
+
+## Brazilian operations — F-39 Gripen program
+
+The Brazilian Gripen E/F (designated F-39 in Brazilian service) is Saab's most strategically embedded foreign program. Originally signed in 2014 under President Dilma Rousseff for 36 aircraft, the contract is structured as a co-production and tech-transfer agreement with [[Embraer]] as the principal Brazilian industrial partner.
+
+| Element | Detail |
+|---------|--------|
+| Aircraft | 36 F-39 Gripen E/F (28 single-seat E + 8 two-seat F) |
+| Brazilian industrial partner | [[Embraer]] |
+| Production line | Inaugurated 2023 at Embraer's Gavião Peixoto facility |
+| Saab Brazilian plant | São Bernardo do Campo (aerostructures) |
+| Original delivery schedule | 2019-2024 |
+| Revised delivery schedule | Through 2032 (delays accumulated) |
+| First Embraer-built F-39 rollout | March 2026 |
+
+Brazilian capability milestones:
+
+- **November 2025 — KC-390 refueling certification.** Saab + [[Embraer]] + Brazilian Air Force completed full certification flight tests for in-flight refueling of the F-39 Gripen E by the [[C-390 Millennium]] (in KC-390 tanker configuration), under Operation Samaúma. This places Brazil among the few countries capable of developing, testing, and certifying sovereign in-flight refueling systems using national technology.
+- **March 2026 — first Embraer-built Gripen E.** First locally manufactured F-39 rolled out at Gavião Peixoto, validating that the tech-transfer phase has converted Brazil into a Gripen-producing country.
+- **2025 — Brazilian export hub positioning.** Saab has explicitly positioned the Brazilian operation as a regional export and support hub for future Latin American Gripen sales.
+
+The Brazilian program is one of the two anchor cases (alongside [[Naval Group]]'s PROSUB) of foreign-prime tech-transfer-driven [[Brazilian defense industrial base|industrial embedment]] under Brazil's END / Lei 12.598 regime.
+
+---
 
 ---
 

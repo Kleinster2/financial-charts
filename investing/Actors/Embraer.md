@@ -96,7 +96,7 @@ Military transport/tanker competing with the [[Lockheed Martin]] C-130J Hercules
 | Payload | 26,000 kg | 20,227 kg |
 | Availability | 80% (Brazilian AF) | — |
 
-Orders: 42+ aircraft across 11 countries
+Orders: 52+ aircraft across 12 countries
 
 | Country | Qty | Status |
 |---------|-----|--------|
@@ -111,6 +111,7 @@ Orders: 42+ aircraft across 11 countries
 | [[Slovakia]] | ~3 | Selected Dec 2024, negotiations underway |
 | [[Lithuania]] | ~3 | Negotiations 2025 |
 | [[Uzbekistan]] | Undisclosed | Revealed Feb 2026, first Central Asian operator |
+| [[UAE]] | 10 | Announced May 4, 2026 — first Middle Eastern customer. Follows [[Mohamed bin Zayed]]–[[Lula]] Feb 2026 meeting; part of UAE's BRICS-aligned defense posture (acceded Jan 2024). [[EDGE Group]] separately holds 50% of [[SIATT]] and 51% of [[Condor Non-Lethal Technologies]] in São José dos Campos. |
 
 [[Northrop Grumman]] partnership (Feb 2026): MOU for KC-390 tanker variant with autonomous aerial refueling boom. Targeting US Air Force and allies. Would enable refueling F-35 and fixed-wing aircraft. Embraer ready to open US manufacturing facility if awarded. Autonomous boom demo expected within "low single-digit years." Pushback: top USAF official stated "not currently considering KC-390," backs KC-46.
 
@@ -271,6 +272,7 @@ Bear:
 
 - Mar 12, 2026: Stock -13% in single session ($65 → $57) as Brazilian market sells off — Bovespa -2.55% on industrials weakness, EMBJ hit 5x harder as high-beta ADR. Broader EM risk-off from Iran conflict (oil higher, rates up). Cumulative drawdown from Mar 2 peak: $72 → $56 (-22%).
 - Mar 6, 2026: FY2025 results — revenue $7.58B (+18%), adj. EBIT $708M (8.7%), adj. FCF $491M. Backlog $31.6B. 2026 guidance: $8.2-8.5B revenue, 8.7-9.3% EBIT margin. Stock -6.2% on results (sell-the-news). Market wanted beat-and-raise; FCF guide ($200M+) implied 58% step-down from $491M.
+- May 2026: [[UAE]] announces purchase of 10 C-390 Millennium — first Middle Eastern customer. Follows [[Mohamed bin Zayed]]–[[Lula]] Feb 2026 meeting and UAE's Jan 2024 BRICS accession. [[EDGE Group]] (UAE state-owned defense conglomerate) separately holds equity in [[SIATT]] (50%, Sept 2023) and [[Condor Non-Lethal Technologies]] (51%, May 2024) — a deepening UAE-Brazil defense industrial relationship parallel to the platform purchase.
 - Feb 2026: [[Northrop Grumman]] MOU for KC-390 tanker variant with autonomous boom. [[Uzbekistan]] revealed as C-390 customer.
 - Dec 2025: [[Eve Air Mobility]] full-scale prototype first hover flight.
 - Nov 2025: Turboprop program cancelled. [[Sweden]] orders 4 C-390 + 7 options.
@@ -295,6 +297,9 @@ Consensus (Mar 2026): 12 Buy, 0 Sell. Average PT $80 (range $60-$92). ~23% upsid
 - [[Brazil]] — HQ country, golden share holder
 - [[B3]] — primary listing (EMBR3)
 - [[SkyWest]] — largest E175 (E1) customer
+- [[UAE]] — first Middle Eastern C-390 customer (May 2026, 10 aircraft)
+- [[EDGE Group]] — UAE state-owned defense conglomerate; São José dos Campos cluster co-tenant via [[SIATT]] and [[Condor Non-Lethal Technologies]]
+- [[SIATT]] — São José dos Campos defense neighbor, 50% owned by [[EDGE Group]]
 
 ### Sectors
 - [[Aerospace]] — parent sector
