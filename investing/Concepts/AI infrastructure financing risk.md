@@ -20,6 +20,51 @@ Source: [[Bloomberg]] (Jan 2026)
 
 ---
 
+## Counterparty pricing (Apr 28, 2026)
+
+When a report surfaced Tuesday Apr 28 that [[OpenAI]] had missed internal revenue and user-growth targets, [[SoftBank]], [[Oracle]], and [[CoreWeave]] shares all fell. The single-day move is the cleanest market evidence that the buildout's beneficiaries are now priced as OpenAI counterparties, not standalone businesses with independent earnings paths.
+
+| Ticker | Apr 27 close | Apr 28 close | 1-day move | Apr 1 → May 11 |
+|---|---|---|---|---|
+| [[Oracle]] (ORCL) | $172.96 | $165.96 | −4.05% | +33.0% |
+| [[SoftBank]] (SFTBY) | $17.92 | $15.75 | −12.11% | +56.6% |
+| [[CoreWeave]] (CRWV) | $112.06 | $105.53 | −5.83% | +46.0% |
+
+The Apr 28 single-day drawdown is visible across all three counterparties simultaneously despite uncorrelated underlying businesses (database software vs Japanese tech holdco vs neocloud), confirming the shared-OpenAI-counterparty pricing channel. SoftBank's −12% move is the largest given its direct $30B Feb 2026 commitment + $40B bridge loan exposure; CoreWeave's −5.8% reflects its 65% Microsoft revenue dependence (which routes OpenAI workloads); Oracle's −4% reflects the $300B 4.5GW contract lifetime value.
+
+![[openai-counterparties-apr2026-selloff.png]]
+*ORCL / SFTBY / CRWV normalized prices, Apr 1 – May 11 2026. All three drop together on Apr 28 (the OpenAI miss-targets report Tuesday) and recover in lockstep over the following two weeks. The synchronized move regardless of company-specific news is the price-action signature of counterparty pricing.* OpenAI's $300B/4.5GW Oracle contract, SoftBank's $40B+ commitment, and CoreWeave's 65%-revenue-from-Microsoft (which routes OpenAI workloads) all run through the same single-customer dependency. OpenAI responded that the business is "firing on all cylinders" — but the trade tells the structural story: equity prices for Oracle and SoftBank now move on OpenAI's revenue prints, regardless of those companies' own quarterly fundamentals.
+
+This is the [[Circular deals / "Ouroboros Protocol"]] channel made visible in price action. The bilateral pivot away from the Stargate JV — documented by FT Apr 29 — concentrates rather than diversifies counterparty risk: where the JV pooled risk across [[OpenAI]], [[Oracle]], [[MGX]], and [[SoftBank]], the bilateral deals leave each counterparty individually exposed to OpenAI's solvency and to the next negotiation OpenAI might walk away from (see [[Project Stargate]] for the Abilene/Narvik/UK reshuffles).
+
+*Source: FT (Apr 29, 2026); price action [[Oracle]], [[SoftBank]], [[CoreWeave]] Apr 28*
+
+---
+
+## FSB Report on Vulnerabilities in Private Credit (May 6 2026)
+
+The [[Financial Stability Board]] published its first dedicated assessment of private credit vulnerabilities on May 6 2026. The report's most consequential finding is that the AI capex cycle and the private-credit fragility story are now structurally linked, not parallel concerns.
+
+| Finding | Datapoint |
+|---|---|
+| Total private credit market | $1.5–2T (2024) |
+| Top markets | US ($1T), Euro Area + UK, then Canada/HK/Japan/Switzerland/South Africa |
+| AI share of 2025 private credit deals | **>33%** (vs ~17% five-year average) |
+| Bank exposure channels | (1) direct fund lending; (2) financing riskier fund portfolios; (3) lending to firms that also borrow from PC |
+| AI-loan vulnerabilities | Electricity supply, data center construction delays, AI demand oversupply |
+| Tail risk | "A sharp correction in asset valuations… could lead to sizable credit losses to private credit investors" |
+| Data gaps | "Significant data challenges" frustrated nearly a year of work |
+
+The doubling of the AI share of private credit deals (17% → 33%+) in a single year is the cleanest published evidence that the data center buildout is no longer financed primarily by hyperscaler balance sheets or syndicated credit — it is increasingly financed by private credit funds that are themselves bank-financed. That collapses the apparent insulation between regulated banks and the AI capex risk: if AI demand softens enough that data-center valuations correct, the loss path runs through PC funds back to bank lenders.
+
+The FSB's data-gap acknowledgment is itself meaningful — global supervisors cannot reliably measure the exposure paths they are now flagging. This is the explicit motivation for the FSB's 2026 monitoring framework.
+
+This finding reinforces the [[Private Credit Software Concentration]] story: BDCs with >20% software portfolio exposure plus AI-data-center exposure are running double-concentration in the same cycle.
+
+*Source: [FSB Report on Vulnerabilities in Private Credit, 6 May 2026](https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/); [Bloomberg, 6 May 2026](https://www.bloomberg.com/news/articles/2026-05-06/global-watchdog-fsb-unveils-action-plan-on-private-credit-risks); [FT, Gillian Tett column, 8 May 2026](https://www.ft.com/content/c0aec3de-b553-4089-b5d3-074c5b83be57).*
+
+---
+
 ## Overbuild warnings
 
 The bears:
@@ -211,6 +256,24 @@ Reinforces:
 Neutral:
 - [[Long memory]] — shortage is real regardless of financing
 - [[Short TSMC long Korea]] — relative value less affected
+
+---
+
+## Price-insensitive AI funding (Morgan Stanley, May 11 2026)
+
+[[Morgan Stanley]]'s Andrew Sheets framed AI infrastructure demand as unusually price-insensitive. His May 11 Thoughts on the Market episode estimated around $800B of 2026 investment by large US technology companies, nearly double 2025 and triple 2024, with 2027 spending estimated at $1.1T. The striking part is not only the scale but the inelasticity: copper up about 40% in a year, gas turbines up 50%, memory up 150-300%, and financing costs higher, yet spending forecasts keep being revised upward.
+
+This is a bull/bear hinge for the risk note:
+
+| Bull read | Bear read |
+|-----------|-----------|
+| AI spend is strategically non-discretionary, so supplier demand persists through shocks | Inelastic demand can push input inflation higher and crowd out non-AI borrowers |
+| Hyperscalers have balance sheets and patience | Record corporate-bond supply plus AI borrowing can widen credit spreads |
+| Earnings support broadens if AI productivity lands | Return on historic investment remains unproven |
+
+The Sheets frame makes the AI capex cycle look less rate-sensitive in the short run, but more inflationary and credit-crowding-prone if capacity constraints do not clear.
+
+*Source: Morgan Stanley Thoughts on the Market, "Why AI Funding Is So Price-Insensitive," May 11 2026.*
 
 ---
 

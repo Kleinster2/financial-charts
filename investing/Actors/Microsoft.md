@@ -534,6 +534,16 @@ MSFT stock was down 2.69% on the day; ORCL down 4.42%.
 
 ---
 
+## Narvik / Norway pickup from Nscale (Apr 2026)
+
+Microsoft stepped in at [[Nscale]]'s Narvik, Norway data center after [[OpenAI]] declined to lease directly from Nscale (FT, Apr 29). OpenAI now plans to access Norway capacity via its broader Microsoft Azure deal, which rehouses what had been branded "Stargate Norway" into the Microsoft cloud relationship. A person familiar with Microsoft's thinking told FT the move "helps out those who are feeling let down and misled by OpenAI on projects."
+
+The pattern repeats from Abilene: OpenAI walks from a non-creditworthy or wrong-price counterparty; Microsoft picks up the residual capacity for Azure. Two consecutive Stargate-branded sites (Abilene, Narvik) have flipped to Microsoft tenancy in five weeks. The cleanup function is now an operational reality, not an isolated event — Microsoft is absorbing AI compute capacity wherever OpenAI's bilateral pivot leaves stranded capacity. Whether this represents structural appetite (Azure needs the GPUs) or strategic positioning (Microsoft as the residual-claimant on OpenAI's broken commitments) will be visible in the Q4 FY2026 capex print.
+
+*Source: FT (Hammond, Morris, Keohane, Bradshaw — Apr 29, 2026)*
+
+---
+
 ## Related
 
 - [[AI hyperscalers]] — Tier 1 spender

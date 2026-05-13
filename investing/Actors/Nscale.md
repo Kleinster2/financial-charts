@@ -219,13 +219,23 @@ The prospectus will need to address: the Arkon defaults, customer concentration 
 
 ---
 
+## Norway capacity flips to Microsoft (FT, Apr 29, 2026)
+
+The FT (Hammond, Morris, Keohane, Bradshaw — Apr 29) reported that [[OpenAI]] declined to lease Norway capacity directly from Nscale, with [[Microsoft]] stepping in at the Narvik site instead. OpenAI now plans to access Norway capacity via its broader Microsoft Azure deal rather than the Aker-Nscale JV. This rehouses what had been branded "Stargate Norway" into the Microsoft cloud relationship.
+
+The implication for Nscale: the Stargate Norway brand loses its anchor tenant ([[OpenAI]]), but the underlying GPU contracts with Microsoft for ~52,000 GB300s at the Narvik site (part of the broader $23B+ Microsoft commitment) are unaffected — same gigawatts, same customer in the form of Microsoft, but no Stargate framing. Combined with the [[UK]] Stargate pause two weeks earlier, Nscale's portfolio is now Microsoft-anchored rather than OpenAI-Stargate-anchored. Two implications heading into the H2 2026 IPO: (1) the customer concentration risk is now visibly singular (Microsoft, not Microsoft + OpenAI offtaker), and (2) the political branding that came with Stargate — [[NVIDIA]]'s "national champion for AI infrastructure in the UK," [[Nick Clegg]]'s appointment for UK political connectivity — loses its operational anchor. The prospectus will need to address whether Nscale's customer base is durable absent the Stargate umbrella.
+
+*Source: FT (Apr 29, 2026)*
+
+---
+
 ## UK Stargate pause (Apr 9, 2026)
 
 OpenAI paused the UK Stargate data center project, citing energy costs and regulatory hurdles — specifically the UK's decision to delay copyright changes that would have eased AI training on copyrighted content (FT, Apr 9). Nscale was the builder, with [[NVIDIA]] supplying GPUs. OpenAI's statement left the door open: "we continue to explore Stargate UK and will move forward when the right conditions such as regulation and the cost of energy enable long-term infrastructure investment." OpenAI said London remains its largest international research hub.
 
 The pause follows OpenAI's broader infrastructure retreat — abandoning own data center plans entirely and losing key infrastructure leaders (see [[Project Stargate]], [[OpenAI Infrastructure Spend]]). For Nscale, the UK site (Loughton, 50MW scalable to 90MW, 23K GB300 GPUs for [[Microsoft]]) is one of eight sites in the portfolio. The [[Microsoft]] contract for Loughton GPUs is separate from the OpenAI/Stargate relationship and may not be affected. But the "Stargate UK" branding — which gave Nscale political cover and sovereign AI credibility — loses its anchor tenant. Whether [[NVIDIA]]'s endorsement of Nscale as a UK "national champion" survives the Stargate brand retrenchment is an open question heading into the H2 2026 IPO.
 
-*Created 2026-01-05. Substantially expanded 2026-03-30 with FT Alphaville investigation (Ashworth & Healy, Mar 23 2026) and comprehensive research. Updated 2026-04-10 with UK Stargate pause.*
+*Created 2026-01-05. Substantially expanded 2026-03-30 with FT Alphaville investigation (Ashworth & Healy, Mar 23 2026) and comprehensive research. Updated 2026-04-10 with UK Stargate pause. Updated 2026-05-12 with FT Apr 29 Narvik flip to Microsoft.*
 
 ---
 

@@ -83,6 +83,18 @@ Annual: FY2024 was the trough at $1.36B rev, -$547M net loss. FY2025 recovered t
 
 ---
 
+## May 2026 optical-networking rerating
+
+The May 11 optical-networking rally extended the AI interconnect trade from transceivers and lasers into the broader fiber stack. Barron's framed Lumentum's upcoming Nasdaq 100 inclusion as the immediate index catalyst, but the underlying read is the same as the [[NVIDIA]] strategic investment: hyperscaler AI clusters are turning optical components into scarcity assets.
+
+Local price data for LITE is stale after May 1, so the vault should treat fresh LITE price-move numbers as unverified locally until the database catches up. The cohort move is still visible through locally verified peers: [[Corning]] closed May 11 at $207.39 versus $186.94 on May 8, a +10.9% move, while QCOM and other AI-infrastructure names were also bid.
+
+The watch item for Lumentum remains capacity and customer concentration. Index inclusion adds passive demand, but the durable thesis still turns on whether 200G EML supply remains scarce into the 1.6T transceiver cycle.
+
+*Sources: Barron's, "Lumentum Stock Soars as AI Optical Networking Rally Resumes," May 11 2026; local GLW price verification in `prices_long`.*
+
+---
+
 ## OFC 2026
 
 Joint demo with [[Marvell]]: COLORZ 800 ZR/ZR+ DCI interop with Lumentum's R300 Optical Circuit Switch — demonstrating end-to-end data center interconnect with optical switching. The R300 is Lumentum's play to replace electrical patch panels in AI clusters with programmable optical switching fabric. See [[OFC 2026]].

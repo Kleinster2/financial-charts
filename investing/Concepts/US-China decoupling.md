@@ -67,6 +67,25 @@ See [[Singapore washing]] and [[Manus AI]].
 
 ---
 
+## China industrial-policy warning (May 2026)
+
+The May 11 FT report on the US Chamber / [[Rhodium Group]] warning reframed China's industrial policy as no longer confined to "Made in China 2025" sectors. The phrase to remember is "industrial policy of everything": Beijing is extending state-backed intervention across manufacturing, services, critical minerals, chemicals, machinery, clean energy, and frontier technologies.
+
+Key reported claims:
+
+| Claim | Read-through |
+|-------|--------------|
+| China's trade surplus doubled to around $2T since 2019 | Export-led pressure is now macro-scale, not sector-specific |
+| Policy shifted from sectoral targeting to broad industrial dominance | Decoupling pressure spreads beyond semis/EVs |
+| Nearly half of top Chinese companies' revenues sourced internationally | Global market-share capture is becoming the outlet for weak domestic demand |
+| Advanced industrial economies face the threat first | Germany, Japan, South Korea, and US industrials are the cleanest exposure set |
+
+This supports the vault's price-gap decoupling framework. Persistent price gaps are one signal of separation; industrial-policy saturation is the policy engine that keeps those gaps from closing.
+
+*Sources: Financial Times, "China expanding its industrial dominance, warns US business group," May 11 2026; [[Rhodium Group]] cited in the report.*
+
+---
+
 ## The investment thesis
 
 Decoupling creates winners and losers:

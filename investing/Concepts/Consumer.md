@@ -11,24 +11,24 @@
 | Metric | Latest | [[Signal]] |
 |--------|--------|--------|
 | Retail sales | +0.6% MoM (Nov) | Beat (+0.4% exp) |
-| Consumer sentiment | Near lows | Weak |
+| [[Consumer sentiment]] | Near lows | Weak |
 | Spending growth | Slowing to ~1.5% | Still positive |
 | Savings rate | Rising | Rebuilding buffers |
 
-**Jan 14, 2026:** Retail sales beat (+0.6% vs +0.4%) confirms consumer resilience despite weak sentiment.
+Jan 14, 2026: Retail sales beat (+0.6% vs +0.4%) confirms consumer resilience despite weak sentiment.
 
 ---
 
-## The K-shaped economy
+## The [[K-shaped economy]]
 
-| Segment | Status | Driver |
+| [[Segment]] | Status | Driver |
 |---------|--------|--------|
-| **Higher income** | Strong | Asset appreciation, wage gains |
-| **Lower income** | Struggling | Inflation erosion, credit tightening |
+| Higher income | Strong | Asset appreciation, wage gains |
+| Lower income | Struggling | Inflation erosion, credit tightening |
 
-**[[Bank of America]] Institute:** "Spending, wages and income continue to grow for both groups" — but gap widening.
+[[Bank of America]] Institute: "Spending, wages and income continue to grow for both groups" — but gap widening.
 
-**[[Moody's]]:** "More cautious consumer behavior and affordability concerns will leave the retail and consumer durable industries the most vulnerable."
+[[Moody's]]: "More cautious consumer behavior and affordability concerns will leave the retail and consumer durable industries the most vulnerable."
 
 ---
 
@@ -36,26 +36,26 @@
 
 | Driver | Current status | Impact |
 |--------|----------------|--------|
-| **Employment** | 4.1% unemployment | Supportive |
-| **Wage growth** | Real wages positive | Supportive |
-| **Wealth effect** | Stocks at highs | Supportive (upper income) |
-| **Savings** | Rebuilding | Neutral |
-| **Credit** | Tightening | Headwind |
-| **Sentiment** | Weak | Headwind |
+| Employment | 4.1% unemployment | Supportive |
+| Wage growth | Real wages positive | Supportive |
+| [[Wealth effect]] | Stocks at highs | Supportive (upper income) |
+| Savings | Rebuilding | Neutral |
+| Credit | Tightening | Headwind |
+| Sentiment | Weak | Headwind |
 
 ---
 
 ## Sentiment vs. spending divergence
 
-**The puzzle:** Sentiment near all-time lows, but spending remains solid.
+The puzzle: Sentiment near all-time lows, but spending remains solid.
 
 | Explanation | Detail |
 |-------------|--------|
 | Political polarization | Sentiment reflects partisan mood, not wallet |
 | Inflation memory | Consumers feel worse than data suggests |
-| Action vs. feeling | People complain but still spend |
+| [[Action]] vs. feeling | People complain but still spend |
 
-**Q4 2025:** Optimism fell 7pp YoY, pessimism rose 9pp — 16-point swing in net optimism.
+Q4 2025: [[Optimism]] fell 7pp YoY, pessimism rose 9pp — 16-point swing in net optimism.
 
 ---
 
@@ -67,7 +67,7 @@
 | [[Bank of America]] | Resilient | "Word of the year: resilient" |
 | [[Goldman Sachs]] | Supportive of 2.5% GDP | Tax cuts, wealth, productivity |
 
-**Risks:**
+Risks:
 - Softening labor market
 - Credit card delinquencies rising
 - [[Credit card rate cap]] uncertainty
@@ -79,12 +79,12 @@
 
 | Category | Trend | Note |
 |----------|-------|------|
-| **Services** | Growing | Experiences over goods |
-| **Durables** | Slowing | Post-COVID normalization |
-| **Nondurables** | Stable | Essentials |
-| **Discretionary** | Bifurcating | [[Luxury]] up, mass market cautious |
+| Services | Growing | Experiences over goods |
+| Durables | Slowing | Post-COVID normalization |
+| Nondurables | Stable | Essentials |
+| Discretionary | Bifurcating | [[Luxury]] up, mass market cautious |
 
-**Value focus:** "Value-focused retailers are poised to gain market share as consumers trade down." — [[Moody's]]
+Value focus: "Value-focused retailers are poised to gain market share as consumers trade down." — [[Moody's]]
 
 ---
 
@@ -92,12 +92,12 @@
 
 | Indicator | Frequency | What it signals |
 |-----------|-----------|-----------------|
-| **Retail sales** | Monthly | Goods spending |
-| **PCE** | Monthly | Total consumption |
-| **Consumer confidence** | Monthly | Future intentions |
-| **Credit card data** | Weekly (bank reports) | Real-time spending |
-| **Savings rate** | Monthly | Buffer status |
-| **Delinquencies** | Quarterly | Stress signals |
+| Retail sales | Monthly | Goods spending |
+| PCE | Monthly | Total consumption |
+| Consumer confidence | Monthly | Future intentions |
+| Credit card data | Weekly (bank reports) | Real-time spending |
+| Savings rate | Monthly | Buffer status |
+| Delinquencies | Quarterly | Stress signals |
 
 ---
 
@@ -105,11 +105,29 @@
 
 | Sector | Sensitivity | Current view |
 |--------|-------------|--------------|
-| **Retail** | High | Trading down, value wins |
-| **Restaurants** | High | Resilient but slowing |
-| **[[Travel]]/leisure** | High | Strong (upper income) |
-| **Autos** | High | Rate-sensitive |
-| **[[Housing]]** | High | Affordability challenged |
+| Retail | High | Trading down, value wins |
+| [[Restaurants]] | High | Resilient but slowing |
+| [[Travel]]/leisure | High | Strong (upper income) |
+| Autos | High | Rate-sensitive |
+| [[Housing]] | High | Affordability challenged |
+
+---
+
+## May 11, 2026 retail stress tape
+
+The May 11 tape showed a clean retail stress read rather than one isolated company catalyst:
+
+| Ticker | Actor | May 11 close vs May 8 | Read |
+|--------|-------|-----------------------|------|
+| [[Target|TGT]] | [[Target]] | -5.4% | Mass-discretionary pressure |
+| [[TJX]] | [[TJX]] | -2.9% | Even off-price/value was not fully insulated |
+| [[Ross Stores|ROST]] | [[Ross Stores]] | -5.0% | Value retail tariff/traffic anxiety re-emerged |
+
+The [[S&P 500]] retail ETF was reported heading for its worst day in more than a year. The important signal is that value-seeking does not automatically protect every retail equity when the market starts pricing weaker household cash flow, tariff pass-through, and discretionary-ticket fatigue at the same time.
+
+This reinforces the K-shaped setup: upper-income services and asset-linked spending can remain healthy while goods retailers de-rate. It also narrows the "value wins" thesis - the winner has to be price/value advantaged and margin-protected, not just off-price.
+
+*Sources: MarketWatch retail ETF live coverage, May 11 2026; local `prices_long` close verification for TGT, TJX, ROST.*
 
 ---
 
@@ -117,10 +135,10 @@
 
 | Scenario | Positioning |
 |----------|-------------|
-| **Resilient consumer (base)** | Discretionary, services |
-| **Consumer weakening** | Staples, discount retail |
-| **K-shape accelerates** | [[Luxury]] + discount, avoid middle |
-| **Credit crunch** | Avoid leveraged consumer plays |
+| Resilient consumer (base) | Discretionary, services |
+| Consumer weakening | Staples, discount retail |
+| K-shape accelerates | [[Luxury]] + discount, avoid middle |
+| Credit crunch | Avoid leveraged consumer plays |
 
 ---
 
@@ -143,7 +161,7 @@
 
 ## Sources
 
-- [[[Bank of America]]: 2026 Consumer Outlook](https://www.privatebank.bankofamerica.com/articles/2026-consumer-outlook.html)
+- [Bank of America: 2026 Consumer Outlook](https://www.privatebank.bankofamerica.com/articles/2026-consumer-outlook.html)
 - [Retail Dive: Consumer spending growth could slow in 2026](https://www.retaildive.com/news/consumer-spending-growth-slow-2026/807782/)
 - [Yahoo Finance: K-Shaped Economy 2026](https://finance.yahoo.com/news/consumer-spending-powers-the-us-economy-a-k-shaped-economy-will-further-test-this-dynamic-in-2026-110830708.html)
 - [NIQ: US Consumers Redefining Value in 2026](https://nielseniq.com/global/en/insights/analysis/2025/us-consumers-redefining-value-2026/)

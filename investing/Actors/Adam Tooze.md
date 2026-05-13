@@ -427,3 +427,71 @@ The Apr 4 "Big oil is not coming to Trump's rescue" framing is directly relevant
 Tooze's main-edition piece on whether a "[[China]] shock" is coming for the "big-ag food regime." Frames into [[Soybean]] / [[Brazil]]-vs-US-corn-and-soy thread, [[Cargill]] / [[ADM]] / [[Bunge]] competitive position, and [[Indian agriculture]] export competitiveness. The most directly investable angle: if China shifts from US ag imports to alternative sources (likely [[Brazil]] / [[Argentina]] / [[Russia]]), the US ag commodity complex faces structural demand reset. See [[2026 recession risk]] consumer-side and [[Brazil]] economic relationships.
 
 *Sources: [Chartbook Top Links 1092-1095](https://adamtooze.substack.com/), May 4-6 2026; [Chartbook 445](https://adamtooze.substack.com/), May 3 2026.*
+
+### Chartbook 446 (May 8) — Soft power with Chinese characteristics? "Chinamaxxing"
+
+Tooze coined "Chinamaxxing" to describe a soft-power register distinct from the [[Joseph Nye]] American liberal-democracy template that anchored the post-1990 conception of soft power. The Chinese version is observational — a fascination with what China is *doing* (BYD plants in Hungary, [[CATL]] capacity in Indonesia, Belt-and-Road infrastructure in East Africa, RMB-settled commodity contracts in the Gulf) rather than what China *represents*. The frame is closer to "engineering-state envy" than "cultural attraction."
+
+The thread builds on the [[Soft power]] historiography that traces the concept from Nye 1990 through to the 2020s contested-multipolarity frame. Tooze's structural read: Chinese soft power no longer needs an ideological export because the *infrastructure footprint itself* communicates capability — and capability is what middle-income and lower-middle-income states are observing.
+
+The investing implication runs against the simple [[de-dollarization]] / yuan-replaces-dollar story: yuan adoption is operational (transactional infrastructure built during the [[2026 Strait of Hormuz crisis|Hormuz crisis]]) rather than ideological, but operational adoption can persist independently of any reserve-currency status shift. The same logic applies to [[BRI]] / [[CATL]] / [[BYD]]: market share gains in EVs, batteries, and grid-scale storage create dependencies that political-economy frameworks have to navigate, regardless of whether those exports come bundled with regime-export messaging.
+
+Cross-vault candidates: belongs in geopolitics as a soft-power frame update; belongs in technologies as a "[[Chinese industrial state model]]" / capability-export thread alongside CATL, BYD, [[SMIC]], and [[Huawei]] cases.
+
+*Source: [Chartbook 446 — Soft power with Chinese characteristics? Notes on Chinamaxxing](https://adamtooze.substack.com/p/chartbook-446), May 8 2026.*
+
+### Chartbook 447 (May 10) — US economy in May 2026: "How much cognitive dissonance can you handle?"
+
+The structural piece on the contradiction between record [[S&P 500]] highs and underlying economic fragility — published the day before [[Ed Yardeni]]'s May 11 8,250 target raise but reading as the bear-side counter-frame to Yardeni's "earnings-led melt-up."
+
+Tooze's central claims:
+
+1. Apparent contradiction: Record S&P 500 highs (~7,400 close May 8) coexist with [[Brent]] ~$100, energy supply disruptions, deteriorating consumer sentiment ([[McDonald's]] May 7 "consumer environment getting worse"), and visible bifurcation. The administration dismisses this; critics argue elites ignore reality to protect profits.
+2. Market concentration risk: Only 42 stocks drive most S&P 500 returns (typical baseline ~100), reading the cohort math from [[Mag 7 cluster]] dispersion. Quoted analyst: *"America has levered its entire retirement system to the performance of Nvidia."* [[Big Tech]] dominance masks weakening fundamentals in [[Consumer Staples]] and elsewhere.
+3. Self-reinforcing AI bubble: Circular logic — hyperscalers ([[Alphabet]], [[Amazon]]) invest in AI companies ([[OpenAI]], [[Anthropic]]), then mark up those stakes as "other income" — *accounting for 60% of these companies' Q1 2026 earnings*. The AI companies become massive cloud customers in the same period, creating closed-loop economic interdependency.
+4. Moral hazard framework: [[Gita Gopinath]]'s "bliss trade" — markets assume bailouts whenever crises emerge. Successive shocks (COVID, Ukraine, Iran conflict) triggered massive fiscal support, pricing in perpetual rescue.
+5. K-shaped economy: Wealth concentration intensifies — top deciles prosper through asset appreciation; lower-income households face "unprecedented adjustment shocks" from AI disruption + elevated living costs.
+6. Policy deficit: Deregulation accelerates risk-taking; systemic vulnerabilities (geopolitical disorder, political dysfunction, AI disruption) remain unaddressed. Gopinath warns that without sustainable fiscal frameworks, "heterodox measures" (price controls, financial repression, nationalization) may emerge, triggering *"synchronised sell-offs across stocks and bonds."*
+
+The 60% mark-up-stake-as-"other income" claim is the most empirically pointed observation Tooze has published this cycle. If the figure is correct, it implies the hyperscaler GAAP earnings beat that anchors the May 11 [[Ed Yardeni|Yardeni]] target raise (84% beat rate, 25.6% YoY EPS growth) is partially circular — Alphabet/Amazon "earnings beats" reflect mark-to-NAV gains on illiquid AI-company stakes, not pure operating-cash-flow growth. The cleanest framework-match is to the [[Private credit retail liquidity crisis 2026]] mark-to-NAV decay critique already in the vault — same structural problem (NAV-based reported returns disconnected from realized cash flows) showing up in public hyperscaler GAAP earnings rather than evergreen retail vehicles.
+
+Vault implication: the Chartbook 447 frame should be cross-referenced when reading [[Mag 7 cluster]] PC1 dispersion (where AMZN/GOOGL/META cluster on PC2 vs MSFT/NVDA chip-compute axis) — Tooze's circular-AI-bubble claim implies the PC2 cluster's earnings power has a synthetic mark-to-NAV component that the bear-case [[Jonathan Krinsky]] 1999-comparison call doesn't reach. Tooze is the structurally bear-side counterpart to Yardeni's structurally bull-side framework, separated by ~21 hours of publication on May 10-11.
+
+*Source: [Chartbook 447 — The US economy in May 2026: How much cognitive dissonance can you handle?](https://adamtooze.substack.com/p/chartbook-447-the-us-economy-in-may), May 10 2026.*
+
+### Top Links 1097 (~May 8) — Tariffs really are bad for your economy + US elite complacency + Ethiopian art
+
+Tooze's third Top Links in the May sequence flagged three threads — the leading title piece on tariffs reinforces the [[Critical Supply]] / [[Tariff regime 2026]] vault threads from a fresh empirical angle (likely [[Peterson Institute]] / [[ATI]] / new academic work). The "complacency of the US elite" framing connects directly to the Chartbook 447 cognitive-dissonance read — both pieces argue the disconnect between elite sentiment and underlying macro stress is the structural risk, not the macro stress itself. The "lost paintings of an Ethiopian master" framing nods to the Gebre Kristos Desta image used in the post header — a non-investing-vault thread but consistent with Tooze's deep-history aesthetic register.
+
+Full content paywalled — analytical detail thin until ingested.
+
+*Source: [Chartbook Top Links 1097](https://adamtooze.substack.com/p/top-links-1097-tariffs-really-are), May 8 2026.*
+
+### Top Links 1099 (May 12) - lopsided stock boom / UAE OPEC exit / working-day politics
+
+The May 12 archive title flags three investing-relevant threads:
+
+1. Lopsided stock boom - continuation of the Chartbook 447 concentration-risk frame, now linked to the market's May 11 record-high / AI-infrastructure rally.
+2. Why UAE exited OPEC - direct bridge to [[2026 UAE OPEC exit]] and the [[2026 Strait of Hormuz crisis]] cohesion problem.
+3. Mexico and Brazil cutting the working day - labor-market / productivity-politics angle, relevant to LatAm macro and margin analysis.
+
+The UAE/OPEC item is the cleanest investing-vault carry-forward. Tooze is implicitly connecting oil-market institutional fracture with the broader crisis-regime question: when physical security fails, commodity institutions and labor-policy regimes both start adapting.
+
+*Source: [[Chartbook]] archive, May 12 2026.*
+
+### Chartbook 448 (May 12) - the Four Horsemen policy regime
+
+Chartbook 448's archive title frames the post-cognitive-dissonance regime as "Price controls, nationalization, financial repression, fiscal-monetary coordination - embracing the Four Horsemen." The subtitle asks what comes next if the current state of the world economy is unsustainable.
+
+For the investing vault, this is the policy tail of the same story as Chartbook 447:
+
+| Horseman | Market implication |
+|----------|--------------------|
+| Price controls | Margin compression and distorted inflation signals |
+| Nationalization | Policy option value shifts from shareholders to the state |
+| Financial repression | Negative real rates / captive savings become explicit tools |
+| Fiscal-monetary coordination | Central-bank independence becomes conditional on debt sustainability |
+
+This is not a trade signal by itself. It is a scenario map for what happens if AI circularity, geopolitical energy stress, fiscal deficits, and consumer bifurcation keep pushing markets into the "bliss trade" that Chartbook 447 warned about.
+
+*Source: [[Chartbook]] archive, May 12 2026.*

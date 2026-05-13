@@ -221,6 +221,24 @@ The data-center inference disclosure is the structural watch item. The other ite
 
 ---
 
+## May 11, 2026 - data-center option rerating
+
+QCOM's locally verified May 11 close was $237.53 versus $219.09 on May 8, a +8.4% move. The May 11 news tape framed the move as a data-center rerating: investors looked past the old handset/Apple-modem debate and started assigning more value to Qualcomm's AI data-center processor roadmap and inference ambitions.
+
+This does not erase the bear case. The same three risks remain live:
+
+| Risk | Why it still matters |
+|------|----------------------|
+| Handsets | The core business still sets earnings scale |
+| [[Apple]] modem transition | Largest structural socket risk |
+| Memory pricing | HBM-driven DRAM tightness can squeeze downstream device economics |
+
+The change is in optionality. If QCOM can show real data-center shipments or multi-generation customer engagement, the market no longer has to value the company as a mobile-only semi with licensing cash flows. The May 11 move is an early public-market vote that the data-center option is becoming visible.
+
+*Sources: TS2, "Qualcomm Stock Hits Record High as AI Data-Center Bet Forces Wall Street Rethink," May 11 2026; local `prices_long` close verification.*
+
+---
+
 ## Q2 FY2026 earnings (Apr 29, 2026)
 
 Qualcomm reported Q2 FY2026 revenue of $10.6B, GAAP EPS of $6.88, and non-GAAP EPS of $2.65 — essentially the high end of the $10.2-11.0B / $2.45-2.65 guide issued in February. The press-release headline mix was more important than the headline EPS: record quarterly QCT automotive revenue, combined QCT automotive + IoT revenue growth of 20% YoY, and a new $20B repurchase authorization after $5.4B of first-half FY2026 buybacks.

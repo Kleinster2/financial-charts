@@ -242,6 +242,14 @@ Wang hired summer 2025 after Meta paid $14.3B for a 49% stake in [[Scale AI]]; F
 
 Vision: Zuckerberg racing to build "personal superintelligence"
 
+### OpenAI Stargate infrastructure team joins (Apr 2026)
+
+Per FT (Apr 29), [[Meta]] is the destination for the three [[OpenAI]] infrastructure leaders who departed together on Apr 10 — Peter Hoeschele (who helped launch [[Project Stargate]]), Shamez Hemani, and Anuj Saharan. All three were directly involved in OpenAI's compute strategy, partnerships, and scaling. The group joins Meta's broader hiring push for [[Meta Superintelligence Labs]] under [[Alexandr Wang]], complementing Wang's product/research bench with infrastructure expertise built across Stargate's first phase. Combined with the earlier Keith Heyde departure (Mar 2026), this represents a near-complete turnover of the OpenAI infrastructure leadership that built Stargate — now operating inside one of the hyperscalers OpenAI rents from.
+
+See [[OpenAI talent exodus]] and [[Project Stargate#Key departures]].
+
+*Source: FT (Hammond, Morris, Keohane, Bradshaw — Apr 29, 2026)*
+
 ### [[Muse Spark]] launch (Apr 8 2026)
 
 First model from [[Meta Superintelligence Labs]], nine months after Wang took over. Proprietary (closed source), breaking with the [[Llama]] open-weights approach — Meta framed the closed release as temporary ("hope to open-source future versions") but rebuilt the architecture, infrastructure, and data pipelines from scratch. Codename *Avocado* in development.

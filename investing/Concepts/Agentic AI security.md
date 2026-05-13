@@ -66,6 +66,20 @@ Lesson: Attackers are watching. Any window, however brief, will be exploited.
 
 ---
 
+### 6. AI-Assisted Zero-Day Exploit Development
+
+May 12, 2026: [[Google]] Threat Intelligence Group reported/disclosed the first known real-world zero-day exploit attempt it assessed as AI-assisted. The exploit targeted an open-source web administration tool and attempted to bypass two-factor authentication through a logic flaw tied to hardcoded trust assumptions. Google disrupted the planned exploitation before broad deployment.
+
+The diagnostic detail matters: the Python exploit contained AI-like artifacts, including a hallucinated CVSS score and textbook-style formatting. This is a different category from AI-branded phishing. It suggests attackers can use LLMs to accelerate vulnerability reasoning, code construction, and payload iteration.
+
+See [[AI-assisted zero-day exploit May 2026]] for the event note.
+
+Investment read: AI-assisted exploit development increases demand for code-intelligence, runtime monitoring, identity controls, and exploit telemetry, but it also pressures traditional vulnerability-scanning vendors if code-generation models commoditize first-pass offensive research.
+
+*Sources: The Verge / AP coverage of Google Threat Intelligence Group report, May 12 2026.*
+
+---
+
 ## Enterprise vs Open-Source Gap
 
 | Enterprise Agents | Open-Source Agents |

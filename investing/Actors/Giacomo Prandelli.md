@@ -38,8 +38,9 @@ Prandelli's post sequence through the [[2026 Strait of Hormuz crisis|Hormuz cris
 | Apr 24 | The 21-Mile War Just Redrew The Oil Map | Energy flow rerouting |
 | Apr 27 | Why Europe Ran Out of Jet Fuel Before It Ran Out of Oil? | Refined-product supply distribution |
 | Apr 29 | Is This the End for OPEC? | UAE departure + cartel collapse risk |
-| **May 1** | **The $1 Trillion AI Trade Runs on Gas** | AI-capex / gas-infrastructure valuation gap |
-| **May 4** | **America Is Now the World's Strategic Reserve** | US as global oil supply backstop |
+| **May 1** | The $1 Trillion AI Trade Runs on Gas | AI-capex / gas-infrastructure valuation gap |
+| May 4 | America Is Now the World's Strategic Reserve | US as global oil supply backstop |
+| May 11 | The Next $5 Trillion Commodity Has No Wells, No Pipelines, No Tankers | AI infrastructure needs a financialized capacity / power / data-center-rights market |
 
 ---
 
@@ -69,6 +70,24 @@ Data points:
 Pairs with [[Helima Croft]] "fine print on reopening" + [[Adam Tooze]] "big oil not coming to Trump's rescue" capital-discipline read: there is no faster supply rescue available, which concentrates the strategic-reserve role on the US Gulf Coast export apparatus.
 
 See [[US Energy Independence Six Countries#May 4, 2026 — "America Is Now the World's Strategic Reserve" (Giacomo Prandelli)|US Energy Independence Six Countries]] for the full ingest.
+
+---
+
+## Key thesis: next $5T commodity has no wells (May 11, 2026)
+
+Prandelli's May 11 archive preview frames the next AI-infrastructure commodity as something without wells, pipelines, or tankers. The visible premise: [[BlackRock]] cannot deploy $100B in AI infrastructure without a futures curve; the winners are the merchants, clearinghouses, and market-makers that can turn data-center capacity, power access, or compute-linked rights into a tradable market.
+
+The investable read is that AI infrastructure is moving from "build physical assets" to "financialize scarce capacity." This extends the May 1 gas thesis:
+
+| Earlier thesis | May 11 extension |
+|----------------|------------------|
+| AI compute runs on gas and power reliability | Scarce capacity may need commodity-market structure |
+| Energy equities are underpriced vs AI semis | Merchants/clearing venues may capture scarcity rents |
+| Data centers need molecules and turbines | Investors may need futures/hedges for capacity delivery |
+
+This belongs with [[AI infrastructure financing]] and [[Power constraints]] rather than only the Hormuz thread. The commodity is not crude or gas itself; it is the tradable right to reliable AI infrastructure capacity.
+
+*Source: [[The Merchant's News]] Substack archive, May 12 2026.*
 
 ---
 

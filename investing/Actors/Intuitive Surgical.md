@@ -105,6 +105,21 @@ AI-in-surgery positioning. The da Vinci 5 platform is Intuitive's primary vehicl
 
 ---
 
+## May 2026 SureForm 30 Gray Reload Class I recall
+
+The FDA updated Intuitive Surgical's 8mm SureForm 30 Gray Reload recall to a Class I recall on May 5, 2026. The affected reloads are used with da Vinci-compatible curved-tip staplers; the risk is incomplete staple-line formation on blood vessels after the system returns a completed stapler fire. FDA's public notice says Intuitive had reported four serious injuries and one death associated with the issue as of February 23, 2026.
+
+The market reaction matters because ISRG had just been rerated on da Vinci 5 adoption. ISRG's locally verified May 11 close was $420.06 versus $450.06 on May 8, a -6.7% move. The read-through is not that the installed-base moat breaks; it is that regulatory/product-risk sensitivity is high when the equity story is priced around flawless procedure growth and software-rich da Vinci 5 adoption.
+
+Watch items:
+- Whether procedure-volume commentary on the next call acknowledges any temporary workflow disruption.
+- Whether the affected reload category is narrow enough to avoid broader stapler/instrument confidence damage.
+- Whether competitors use the recall to revive hospital-procurement objections around robotic-surgery complexity.
+
+*Sources: [FDA recall alert](https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-surgical-stapler-issue-intuitive-surgical), updated May 5 2026; local `prices_long` May 8 / May 11 close verification.*
+
+---
+
 ## Zacks top AI stock (Feb 2026)
 
 Ranked #3 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):

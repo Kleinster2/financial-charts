@@ -1,9 +1,9 @@
 ---
-aliases: []
+aliases: [CBRS]
 ---
-#actor #ai #semiconductor #usa #private
+#actor #ai #semiconductor #usa #private #ipo-pending
 
-**Cerebras** — Wafer-scale AI chips. Entire wafer = one chip. Training + inference. Last independent SRAM player after NVIDIA-Groq deal.
+**Cerebras** — Wafer-scale AI chips. Entire wafer = one chip. Training + inference. Last independent SRAM player after NVIDIA-Groq deal. Nasdaq ticker CBRS is pending May 2026 IPO pricing/trading, but the company has not yet begun trading as of May 12, 2026.
 
 ---
 
@@ -21,6 +21,7 @@ Post-NVIDIA-Groq positioning (per Gavin Baker):
 | Founded | 2016 |
 | Approach | Wafer-scale integration |
 | Strategic position | Last independent SRAM player |
+| Public ticker | CBRS (Nasdaq; IPO expected May 2026) |
 
 ---
 
@@ -157,6 +158,26 @@ This is aggressive positioning ahead of GTC, where NVIDIA plans to unveil its [[
 The renewed US IPO filing and the same-day reporting on the enlarged [[OpenAI]] relationship turned Cerebras from an architecture story into a public-markets underwriting question. The core issue is no longer whether the product is differentiated. It is whether investors are willing to fund a business whose forward demand looks enormous while the disclosed 2025 base was still concentrated in Abu Dhabi-linked customers and GAAP profitability depended on non-operating income.
 
 See [[Cerebras IPO revival April 2026]] for the full event note, including the customer-concentration math, the operating-loss to net-income bridge, and the split between realized 2025 economics and the forward OpenAI story.
+
+---
+
+## May 11-12, 2026 - upsized CBRS IPO
+
+Cerebras upsized the IPO on May 11-12 as AI-chip demand accelerated:
+
+| Term | Updated IPO term |
+|------|------------------|
+| Shares offered | 30M |
+| Price range | $150-$160 |
+| Gross proceeds at high end | Up to $4.8B |
+| Market value at high end | Around $34.4B |
+| Prior range | 28M shares at $115-$125 |
+| Expected pricing | May 13, 2026 |
+| Expected trading | May 14, 2026, Nasdaq: CBRS |
+
+The upsize is a live public-market test of the [[Cerebras IPO revival April 2026]] underwriting tension. Investors are no longer only underwriting the wafer-scale architecture; they are underwriting the idea that inference demand, [[OpenAI]] commitments, and AI-infrastructure scarcity justify a public valuation far above the last private mark.
+
+*Sources: Investors Business Daily, WSJ, Bloomberg-linked reports and amended SEC filing coverage, May 11-12 2026.*
 
 ---
 

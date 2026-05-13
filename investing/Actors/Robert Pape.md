@@ -83,6 +83,51 @@ Implication for portfolios: if Pape is right, the Apr 13 software rebound and [[
 
 ---
 
+## May 4, 2026 — "The United States Just Made a Bet It Cannot Afford to Lose"
+
+Pape's framing of [[Donald Trump|Trump]]'s order to send US Navy warships to escort commercial tankers through the [[Strait of Hormuz]] (Operation Freedom prelude). The bet: that Iran will not strike a ship under American protection. If [[Iran]] complies, the US stabilizes the corridor and demonstrates the protective umbrella works; if Iran strikes once, Washington must escalate — or accept humiliation in full view of the world.
+
+The strategic-game framing is sharp: this is the first time in the conflict that the US has placed its credibility, not just its assets, on a single Iranian decision. The asymmetry favors Iran on signaling — a single drone strike at marginal cost forces a binary US choice between major escalation (which strains the [[2026 Strait of Hormuz crisis#May 6-7, 2026 — "Project Freedom" pause + 14-point MoU framework + Gulf airspace denials|14-point MoU framework]] Trump was simultaneously negotiating) and visible backdown.
+
+The piece reads, in retrospect, as the analytic frame that the May 6-7 Gulf-state airbase denials and the May 10-11 Iranian maximalist counter-offer have substantially confirmed: the Iranian side did not strike, but the operation was paused for other reasons and the bet's payoff matrix collapsed differently than Pape's analysis priced.
+
+*Source: [The United States Just Made a Bet It Cannot Afford to Lose](https://escalationtrap.substack.com/p/the-united-states-just-made-a-bet), Escalation Trap Substack, May 4 2026.*
+
+## May 7, 2026 — "The Gulf States Just Voted on American Power"
+
+The most consequential of Pape's recent posts. After [[Saudi Arabia]] denied US access to Prince Sultan Airbase and Saudi airspace for Operation Freedom — with [[Kuwait]] reportedly doing the same — the operation paused within 36 hours. Pape's framing:
+
+> *"The United States was not blocked primarily by Iran. It was blocked by the states America was supposedly defending."*
+
+The structural mechanism Pape identifies: [[Iran]] destroyed the alternative oil-export routes (the [[Fujairah]] pipeline bypass), eliminating the 1.5-1.8 mb/d workaround that had insulated Gulf states from Hormuz disruption. Once that buffer was gone, Gulf states faced a new payoff calculation where *supporting further US escalation* increases their own economic and infrastructure vulnerability rather than protects them.
+
+> *"Once that became clear, Gulf states faced a new calculation"* where *"survival logic begins to overpower alliance logic."*
+
+The broader strategic implication: this represents *structural weakening* of US influence. The traditional US-Gulf bargain — American protection in exchange for strategic alignment — deteriorates when regional partners conclude that escalation endangers them more than it protects them. Pape's closing frame:
+
+> *"conventional military superiority alone is no longer producing reliable political control."*
+
+Cross-link to vault thesis structure:
+- The May 10-11 [[2026 Strait of Hormuz crisis#May 10-11, 2026 — Trump rejects Iran counterproposal; ceasefire on "massive life support"|Iranian maximalist counter-offer]] is the *positive-direction* response to the regional-leverage shift Pape identifies — Tehran read the airbase denials as license to harden, exactly as Pape's framework predicts.
+- The framework is structurally consistent with [[Robin J. Brooks]]'s late-April thesis on US strategic insulation (US can absorb cost longer than allies), but with a sharper political-economy mechanism: the Gulf-state shift isn't about cost absorption — it's about who absorbs *infrastructure-targeting* risk.
+- The [[Iran conflict supply chain cascade|Fujairah pipeline destruction]] is the prerequisite event in this framework. Without that disruption, Gulf states would not have re-priced US escalation costs.
+
+The piece is one of Pape's cleanest analytical pieces this cycle, and the framing — *"voting on American power"* — is durable enough to become a vault concept. The Gulf-state realignment Pape documents is a candidate concept note in its own right.
+
+*Source: [The Gulf States Just Voted on American Power](https://escalationtrap.substack.com/p/the-gulf-states-just-voted-on-american), Escalation Trap Substack, May 7 2026.*
+
+---
+
+## May 11, 2026 - live briefing cluster
+
+The [[Escalation Trap]] archive shows a May 11 live-briefing cluster: "Final Reminder: Today's Live Briefing - The Deeper Why U.S. Strategy Is Failing in Iran," "Live with Prof Robert Pape," and "Today's Briefing Slides." The public archive text is thin, but the titles and timing matter because they land immediately after the May 10-11 Iranian counterproposal rejection and the US gas-tax pause proposal.
+
+The live-briefing framing confirms that Pape is now treating the conflict as entering a second strategic phase rather than as a ceasefire implementation problem. The policy read is consistent with the existing [[2026 Strait of Hormuz crisis#May 10-11, 2026 — Trump rejects Iran counterproposal; ceasefire on "massive life support"|May 10-11 Hormuz update]]: US military superiority is not translating into reliable political control because Gulf-state risk calculations, oil-flow vulnerability, and domestic gasoline politics now constrain the US decision tree.
+
+*Source: [[Escalation Trap]] Substack archive, May 12 2026.*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — the market side of what Pape analyzes strategically

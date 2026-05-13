@@ -186,6 +186,16 @@ Market sizing (Jan 2026):
 - ~50% from cash flow, ~50% from debt markets
 - [[Banks]] increasingly concentrated in small group of borrowers
 
+### May 11, 2026 - AI funding is price-insensitive
+
+Andrew Sheets's May 11 Thoughts on the Market episode reframed the AI capex cycle as an inelastic-demand problem. Morgan Stanley estimates about $800B of 2026 investment by large US technology companies, nearly double 2025 and triple 2024, with 2027 spending estimated at $1.1T. The input-cost details were the signal: copper up about 40%, gas turbines up 50%, and memory up 150-300% over the last year, while AI buildout demand keeps accelerating.
+
+The financing implication fits Morgan Stanley's own AI-infrastructure role. If hyperscalers and large tech companies are less sensitive to borrowing costs because AI is viewed as strategically non-discretionary, banks can keep arranging record supply. But the same mechanism can widen credit spreads for everyone else if AI funding crowds the corporate bond market.
+
+Cross-link: see [[AI infrastructure financing risk]] for the risk-frame version.
+
+*Source: Morgan Stanley Thoughts on the Market, "Why AI Funding Is So Price-Insensitive," May 11 2026.*
+
 ---
 
 ## SRT exploration (Jan 2026)

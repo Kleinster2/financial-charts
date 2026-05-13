@@ -129,6 +129,22 @@ See [[CoreWeave]] for full business model.
 
 ---
 
+## OpenAI Deployment Company (May 2026)
+
+The [[Brookfield OpenAI deployment platform May 2026]] event adds a services/deployment layer to the AI financing stack. Brookfield agreed to invest $500M in The OpenAI Deployment Company, a new platform built with [[OpenAI]] and global investors to move enterprises from AI pilots to scaled workflow redesign.
+
+This is not data-center project finance, but it belongs in the financing map because it is the demand-conversion layer for the same capex cycle. If model labs and hyperscalers keep spending hundreds of billions on compute, someone has to turn that capacity into enterprise productivity. The Deployment Company is an attempt to securitize/industrialize the messy adoption work through forward-deployed engineers, consulting partners, and private-equity portfolio access.
+
+| Layer | Financing question | May 2026 data point |
+|-------|--------------------|---------------------|
+| Physical AI infra | Who funds chips, power, data centers? | Blue Owl, Brookfield, banks, SPVs |
+| Enterprise adoption | Who converts compute into ROI? | OpenAI Deployment Company |
+| Investor return | Who captures productivity gains? | PE operating partners + OpenAI majority economics |
+
+*Sources: OpenAI announcement and Brookfield 8-K / GlobeNewswire, May 11 2026; Axios DeployCo valuation reporting, May 11 2026.*
+
+---
+
 ## Risks
 
 ### The dot-com comparison

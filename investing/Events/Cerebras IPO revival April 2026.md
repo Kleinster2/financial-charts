@@ -68,6 +68,16 @@ This single April 17 cluster hit at least four durable nodes at once: [[Cerebras
 
 ---
 
+## May 11-12, 2026 - IPO terms upsized
+
+The April filing turned into a live hot-IPO event in May. Cerebras lifted the offering to 30M shares at $150-$160, up from 28M shares at $115-$125. At the high end, proceeds would reach $4.8B and market value would be roughly $34.4B. The expected cadence is pricing on May 13 and Nasdaq trading under CBRS on May 14.
+
+This update sharpens the event note's original point. The public market is being asked to fund the forward OpenAI/inference scarcity story at a valuation that has moved materially above the January private-mark discussion. The better the deal prices, the more it validates AI-infrastructure equity demand; the weaker the aftermarket, the more it exposes the gap between committed AI capacity and realized multi-customer operating profit.
+
+*Sources: Investors Business Daily, WSJ, Bloomberg-linked IPO coverage, May 11-12 2026.*
+
+---
+
 ## Related
 
 - [[Cerebras]] — subject actor

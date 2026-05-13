@@ -90,12 +90,12 @@ A second wave of departures — distinct from the research/safety exodus — hit
 
 | Person | Role | Left | Destination |
 |--------|------|------|-------------|
-| Peter Hoeschele | Helped launch [[Project Stargate|Stargate]] program | Apr 2026 | Same unnamed startup |
-| Shamez Hemani | Compute strategy, partnerships, scaling | Apr 2026 | Same unnamed startup |
-| Anuj Saharan | Compute strategy, partnerships, scaling | Apr 2026 | Same unnamed startup |
+| Peter Hoeschele | Helped launch [[Project Stargate|Stargate]] program | Apr 2026 | [[Meta]] (per FT Apr 29) |
+| Shamez Hemani | Compute strategy, partnerships, scaling | Apr 2026 | [[Meta]] (per FT Apr 29) |
+| Anuj Saharan | Compute strategy, partnerships, scaling | Apr 2026 | [[Meta]] (per FT Apr 29) |
 | Keith Heyde | Director of Physical Infrastructure | Early 2026 | Unknown |
 
-Hoeschele, Hemani, and Saharan all left for the same unnamed new company — suggesting a coordinated departure, not individual poaching. Heyde, a vocal proponent of OpenAI's in-house data center approach, departed quietly ahead of a restructuring that eliminated his strategic vision.
+Hoeschele, Hemani, and Saharan all left for [[Meta]] together — a coordinated departure, not individual poaching. The destination was unconfirmed at the time of the Apr 10 announcement; the FT (Hammond, Morris, Keohane, Bradshaw — Apr 29) identified Meta, which has been hiring aggressively for [[Meta Superintelligence Labs]] under [[Alexandr Wang]]. The three complement Wang's product/research bench with infrastructure expertise built across Stargate's first phase, now operating inside one of the hyperscalers OpenAI rents from. Heyde, a vocal proponent of OpenAI's in-house data center approach, departed quietly ahead of a restructuring that eliminated his strategic vision.
 
 Sachin Katti (ex-[[Intel]] CTO/AI Officer, joined OpenAI November 2025) now leads all infrastructure teams, reorganized into three groups: technical design, commercial partnerships, and facility operations. The reorg reflects OpenAI's pivot from building to renting compute.
 

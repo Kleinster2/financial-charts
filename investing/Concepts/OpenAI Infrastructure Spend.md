@@ -4,6 +4,58 @@ OpenAI Infrastructure Spend — tracking [[OpenAI]]'s compute investment plans, 
 
 ---
 
+## Stargate quietly abandoned as joint venture (FT, Apr 29, 2026)
+
+By the end of April, the original Stargate joint-venture framing had effectively dissolved. The FT (Hammond, Morris, Keohane, Bradshaw — Apr 29) reported that OpenAI has replaced the JV structure with a series of bilateral deals struck opportunistically with [[Oracle]], [[Microsoft]], [[NVIDIA]], [[AMD]], [[Broadcom]], [[CoreWeave]], and [[Cerebras]] — at one point totaling more than $1tn in commitments, some since scaled back. A person involved in the buildout from the outset: "I don't know what 'Stargate' means at this point. I think it is a completely antiquated line right now." A person familiar with [[SoftBank]] thinking: "basically any compute that involves Softbank or Oracle can be Stargate" — the umbrella name now means whatever its users want it to mean.
+
+The numbers underneath have continued to grow even as the JV emptied out:
+
+| Metric | Original (Jan 2025) | Status (Apr 2026) |
+|---|---|---|
+| Capacity target | 10 GW | **>8 GW already secured** |
+| Spend target | $500B by 2029 | **$600B+ by end-2030** |
+| Structure | JV (OpenAI + Oracle + MGX + SoftBank) | Bilateral deals + hyperscaler rentals |
+| Lead financier | [[SoftBank]] $40B+ commitment | Capital markets normalized; JV financing no longer necessary |
+
+The story per the FT internal source: "We created enough demand in the market, and others came along, so we sidelined first party data centers." Translation: the JV was a financing innovation that solved supply-chain complexity and lender wariness, both of which eased once AI capex became investable on its own. The original problems — no credit rating, no operating history at infrastructure scale — were solved by the [[NVIDIA]]/[[Oracle]]/[[Microsoft]] ecosystem absorbing the capex onto their own balance sheets.
+
+The reshuffles by site:
+- **Abilene, TX**: OpenAI declined the Crusoe expansion ("expansion was at an insane price"); [[Microsoft]] took the ~700MW lease (better creditworthiness, per Crusoe sources)
+- **Narvik, Norway**: OpenAI declined to lease from [[Nscale]] directly; now accessing via Microsoft Azure
+- **UK NE England**: Project halted (OpenAI blamed UK regulation and energy costs; UK AI minister Kanishka Narayan blamed "the financing environment for OpenAI")
+- **Michigan**: New cheaper option OpenAI moved to instead of Abilene expansion
+- **Ohio**: SoftBank building own DCs; capacity may go to OpenAI via tender
+
+The pattern: OpenAI walks from anything not creditworthy or not at the right price, and Microsoft picks up the residual capacity. The Microsoft cleanup function is durable — wherever OpenAI exits, Microsoft has stepped in. A person familiar with Microsoft's thinking told FT this "helps out those who are feeling let down and misled by OpenAI on projects." This signals two things: Microsoft's compute appetite is large enough to absorb OpenAI's leavings, and OpenAI's reputational cost for partner whiplash is now non-trivial.
+
+**Anthropic capitulation.** [[Anthropic]] chief executive [[Dario Amodei]] — who had spent 2025 criticizing rivals for "gung-ho" infrastructure plans — signed off "hundreds of billions of dollars of spending on long-term capacity" this month, with power constraints starting to weigh on Claude's ability to meet demand. The Amodei capitulation removes the only frontier-lab framing AI infrastructure spend as imprudent. See [[Anthropic vs OpenAI compute race]].
+
+**Market read-through (Apr 28).** A report that OpenAI had missed internal revenue and user-growth targets sent SoftBank, Oracle, and [[CoreWeave]] shares down — the cleanest market evidence that the buildout's beneficiaries are now priced as OpenAI counterparties, not standalone businesses. OpenAI responded that its business is "firing on all cylinders." See [[AI infrastructure financing risk]].
+
+Denise Dresser, OpenAI chief revenue officer, in an April note to sales staff: "We saw the exponential compute curve earlier, acted on it faster, and now have a real structural advantage." The framing inverts the partner-complaint narrative — what looks like unreliability to [[Nscale]] and [[Crusoe Energy]] looks like optionality from inside OpenAI. The question for the coming quarters is whether [[Amazon]], [[Google]], [[Microsoft]], and [[Meta]] — which generate tens of billions in annual profit and can self-fund infrastructure — can outspend OpenAI on assets they own outright, while OpenAI runs a leaner balance sheet via hyperscaler rentals.
+
+*Source: FT (Hammond, Morris, Keohane, Bradshaw — Apr 29, 2026)*
+
+---
+
+## Sized against the hyperscalers (Apr 2026)
+
+The $600B OpenAI compute target needs to be read against the hyperscalers it now rents from. The Big 4 (AMZN, MSFT, GOOGL, META) committed $710B in 2026 capex alone after the Apr 29 Q1 print night — more than OpenAI's entire 5-year cumulative target in a single year.
+
+![[openai-vs-hyperscaler-capex-2026.png]]
+*OpenAI $600B 2026-2030 cumulative vs Big 4 hyperscaler 2026 single-year capex (AMZN $200B, MSFT $190B, GOOGL $185B, META $135B). Capex/revenue ratio in each bar shows the structural distinction: OpenAI commits at 30x revenue, hyperscalers at 0.3-0.8x. Source: FT Apr 29 2026 (OpenAI $600B); company Q1 2026 capex guides per [[Hyperscaler capex]] note. Revenue uses TTM est.*
+
+| | OpenAI | Big 4 hyperscaler avg | Ratio |
+|---|---|---|---|
+| 2026 capex commitment | ~$120B (linear) | ~$177B (avg of $135-$200B) | OpenAI 0.7x |
+| 5-year cumulative target | $600B | $3.5T+ implied | OpenAI 0.17x |
+| Revenue (2025 exit ARR) | $20B | $362B avg | OpenAI 0.06x |
+| Capex/revenue ratio | ~6x | ~0.5x | OpenAI 12x |
+
+The hyperscalers can self-fund the buildout from operating cash flow — Apple-style. OpenAI cannot. That is the financing-gap concept compressed into a single chart: every dollar of OpenAI capex beyond the $122B Feb 2026 mega-round depends on debt markets staying open and the IPO clearing. The hyperscalers' $710B 2026 spend is a vote of confidence in AI demand; OpenAI's $600B 2026-2030 spend is a hostage to its own revenue trajectory. The FT Apr 28 counterparty selloff (SBG/ORCL/CRWV down on the OpenAI miss-targets report) is the market beginning to price that distinction. See [[AI infrastructure financing risk]] and [[Hyperscaler capex]].
+
+---
+
 ## Compute spend reset (Feb 20, 2026)
 
 OpenAI told investors it's now targeting ~$600B in total compute spend by 2030, down from the $1.4T infrastructure commitment touted by [[Sam Altman]] in late 2025.
@@ -90,6 +142,16 @@ Apr 17, 2026 update: What looked in January like a targeted diversification deal
 
 ---
 
+## Deployment Company (May 2026)
+
+OpenAI's May 11 launch of The OpenAI Deployment Company is not a compute-spend item in the narrow sense, but it is the clearest answer so far to the compute-monetization question. The platform is meant to embed forward-deployed engineers into enterprises, redesign workflows around AI, and convert pilots into durable systems. [[Brookfield]] agreed to invest $500M; Axios reported a $14B post-money valuation frame.
+
+Why it belongs here: OpenAI's infrastructure spend only works if the company can turn compute into revenue and customer productivity fast enough. The Deployment Company is a services-led bridge from model capacity to enterprise adoption. It also gives OpenAI and private-equity partners a channel to monetize AI transformation across portfolio companies rather than waiting for organic SaaS-style adoption.
+
+See [[Brookfield OpenAI deployment platform May 2026]] for deal structure and investor read-through.
+
+---
+
 ## Nvidia inference concerns (Feb 2026)
 
 [[Reuters]] exclusive (Feb 2): OpenAI dissatisfied with some [[NVIDIA]] chips, actively seeking alternatives.
@@ -134,7 +196,7 @@ The earlier timeline for context:
 - Hired away Groq chip designers
 - Non-exclusive licensing deal — Groq pivoting to cloud software
 
-*Updated 2026-04-10*
+*Updated 2026-05-12 with FT Apr 29 reframing and hyperscaler-capex sizing chart*
 
 ---
 

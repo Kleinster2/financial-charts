@@ -83,11 +83,31 @@ try {
 
     # Atomic swap. On NTFS same-volume renames are effectively atomic;
     # serve_static.py may briefly 404 during the rename pair.
+    # Retry: Windows blocks directory renames if any file inside has an open
+    # handle. serve_static.py reads files per-request and releases quickly,
+    # so a brief retry usually clears the race.
+    function Invoke-RenameWithRetry {
+        param([string]$Path, [string]$NewName, [int]$MaxAttempts = 5, [int]$DelaySec = 3)
+        for ($i = 1; $i -le $MaxAttempts; $i++) {
+            try {
+                Rename-Item -Path $Path -NewName $NewName -ErrorAction Stop
+                return
+            } catch {
+                if ($i -eq $MaxAttempts) {
+                    Write-Log "Rename $Path -> $NewName failed after $MaxAttempts attempts: $_"
+                    throw
+                }
+                Write-Log "Rename attempt $i/$MaxAttempts failed ($Path -> $NewName); retrying in ${DelaySec}s"
+                Start-Sleep -Seconds $DelaySec
+            }
+        }
+    }
+
     Write-Log "Swapping public/ -> public-old/ -> remove; public-next/ -> public/"
     if (Test-Path $PublicDir) {
-        Rename-Item -Path $PublicDir -NewName "public-old"
+        Invoke-RenameWithRetry -Path $PublicDir -NewName "public-old"
     }
-    Rename-Item -Path $NextDir -NewName "public"
+    Invoke-RenameWithRetry -Path $NextDir -NewName "public"
 
     # Cleanup the old dir in the background - don't hold up the script.
     if (Test-Path $OldDir) {

@@ -23,11 +23,11 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
-| **[[SpaceX]]** | [[Space]] | **$1.5T** | Musk confirmed "accurate" |
-| **[[Databricks]]** | Data/AI | $134B | Early 2026 target |
-| **[[Anthropic]]** | AI | $60B+ | Wilson Sonsini engaged |
-| **[[Revolut]]** | [[Fintech]] | $75B | [[UK]] neobank |
-| **[[Jio Platforms]]** | [[Telecom]] | $100B+ | [[India]] mega IPO |
+| **[[SpaceX]]** | [[Space]] | $1.5T | Musk confirmed "accurate" |
+| [[Databricks]] | Data/AI | $134B | Early 2026 target |
+| [[Anthropic]] | AI | $60B+ | Wilson Sonsini engaged |
+| [[Revolut]] | [[Fintech]] | $75B | [[UK]] neobank |
+| [[Jio Platforms]] | [[Telecom]] | $100B+ | [[India]] mega IPO |
 
 ---
 
@@ -35,7 +35,7 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
-| [[Cerebras]] | AI chips | $22B | Q2 2026 |
+| [[Cerebras]] | AI chips | ~$34B at high end of upsized IPO range | Pricing expected May 13; Nasdaq CBRS trading expected May 14 |
 | [[Quantinuum]] | Quantum | $20B+ | Filed Jan 2026 |
 | [[Databricks]] | Data/AI | $134B | Early 2026 |
 | [[OpenAI]] | AI | $150B+ | Late 2026/2027 |
@@ -48,8 +48,8 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
 | [[Revolut]] | Neobank | $75B | 65M customers |
-| [[PicPay]] | [[Brazil]] neobank | $2.5B | **3x oversubscribed** (Jan 27) — first [[Brazil]] IPO since 2021 |
-| ~~[[Brex]]~~ | ~~Corp cards~~ | ~~$12.3B~~ | **Acquired by [[Capital One]] $5.15B** (Jan 22) |
+| [[PicPay]] | [[Brazil]] neobank | $2.5B | 3x oversubscribed (Jan 27) — first [[Brazil]] IPO since 2021 |
+| ~~[[Brex]]~~ | ~~Corp cards~~ | ~~$12.3B~~ | Acquired by [[Capital One]] $5.15B (Jan 22) |
 | [[Klarna]] | BNPL | $15B+ | Path to profitability |
 | [[Stripe]] | Payments | $50B+ | No confirmed timeline |
 
@@ -88,22 +88,22 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 | Company | Exchange | Result | Notes |
 |---------|----------|--------|-------|
 | [[Zhipu]] | HK | — | First major [[China]] AI IPO |
-| [[Biren Tech]] | HK | **+76%** | AI chips, $717M raised |
+| [[Biren Tech]] | HK | +76% | AI chips, $717M raised |
 | [[MiniMax]] | HK | — | AI models |
 | [[Versant]] | NYSE | — | [[Comcast]] cable spinoff |
-| [[Fermi]] | — | **+55%** | Nuclear |
+| [[Fermi]] | — | +55% | Nuclear |
 
 ---
 
 ## [[Asia]] pipeline
 
 See [[Asia IPO pipeline 2026]] for detailed coverage:
-- **[[China]] AI/Tech:** ChangXin, [[YMTC]], [[Kunlunxin]], Biren, Syngenta
-- **[[India]]:** Jio, [[PhonePe]], Flipkart, [[Zepto]], NSE [[India]], SBI Funds
-- **[[Japan]]:** [[PayPay]], [[SmartNews]], 7-Eleven N.A. spinoff
-- **Korea:** Toss ($10-15B US listing)
-- **HK/SEA:** A.S. Watson, GCash, [[Sunway Healthcare]]
-- **HK secondary listings:** [[Zhongji Innolight]], Luxshare
+- [[China]] AI/Tech: ChangXin, [[YMTC]], [[Kunlunxin]], Biren, Syngenta
+- [[India]]: Jio, [[PhonePe]], Flipkart, [[Zepto]], NSE [[India]], SBI Funds
+- [[Japan]]: [[PayPay]], [[SmartNews]], 7-Eleven N.A. spinoff
+- Korea: Toss ($10-15B US listing)
+- HK/SEA: A.S. Watson, GCash, [[Sunway Healthcare]]
+- HK secondary listings: [[Zhongji Innolight]], Luxshare
 
 ---
 
@@ -111,12 +111,20 @@ See [[Asia IPO pipeline 2026]] for detailed coverage:
 
 | Theme | Companies |
 |-------|-----------|
-| **AI infrastructure** | Databricks, Cerebras, Anthropic, OpenAI |
-| **[[Space]]** | SpaceX (largest ever) |
-| **[[Fintech]] maturation** | Revolut, PicPay, [[Klarna]] |
-| **[[China]] self-reliance** | Biren, [[Kunlunxin]], ChangXin, [[YMTC]] |
-| **[[India]] digitization** | Jio, [[PhonePe]] |
-| **LatAm reopening** | PicPay (first [[Brazil]] IPO since [[Nubank]] 2021) |
+| AI infrastructure | Databricks, Cerebras, Anthropic, OpenAI |
+| [[Space]] | SpaceX (largest ever) |
+| [[Fintech]] maturation | Revolut, PicPay, [[Klarna]] |
+| [[China]] self-reliance | Biren, [[Kunlunxin]], ChangXin, [[YMTC]] |
+| [[India]] digitization | Jio, [[PhonePe]] |
+| LatAm reopening | PicPay (first [[Brazil]] IPO since [[Nubank]] 2021) |
+
+---
+
+## May 2026 live test: Cerebras
+
+The [[Cerebras]] IPO has become the live test of AI-infrastructure equity demand. On May 11-12, Cerebras upsized the proposed offering to 30M shares at $150-$160, from 28M shares at $115-$125. The high end implies up to $4.8B in gross proceeds and around $34.4B of market value. Pricing is expected May 13 and Nasdaq trading under CBRS is expected May 14.
+
+The event matters beyond Cerebras because it tests whether public investors will fund an AI-inference supplier before its customer base and earnings quality have matured. Strong pricing supports the "last independent SRAM player" scarcity narrative; weak aftermarket performance would be an early warning that AI-infrastructure demand is broad but not infinitely financeable.
 
 ---
 
@@ -124,10 +132,10 @@ See [[Asia IPO pipeline 2026]] for detailed coverage:
 
 | Risk | Impact |
 |------|--------|
-| **AI bubble pop** | [[Deutsche Bank]] poll: greatest market risk |
-| **Rate environment** | Higher rates = lower valuations |
-| **Geopolitics** | [[China]] IPOs face scrutiny |
-| **Window timing** | H1 vs H2 matters |
+| AI bubble pop | [[Deutsche Bank]] poll: greatest market risk |
+| Rate environment | Higher rates = lower valuations |
+| Geopolitics | [[China]] IPOs face scrutiny |
+| Window timing | H1 vs H2 matters |
 
 ---
 

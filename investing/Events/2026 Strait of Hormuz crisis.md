@@ -470,9 +470,13 @@ The financial-physical gap that defined the May 5 [[Helima Croft]] frame inverte
 - [ ] SPR depletion trajectory — 400M bbl released, finite remaining capacity
 - [ ] Brazil diesel cliff — May 2026 Brazilian diesel shortage from refining slate disruption (Felipe Germini Apr 29: "Three Cargoes, No Buyers, Thirty Days") — Petrobras/refining-margin first-order test
 - [ ] Cargo-flow rate watch — count of monthly Hormuz transits as Apr 30 "two cargoes" sample expands (or doesn't); a real-time read on whether the corridor opens beyond test cases
-- [ ] 14-point MoU operational test — does Iran formally accept the May 6-7 framework, and if it does, how fast do tanker movements + war-risk insurance + IRGC-routing approval normalize? The deal text is the easier part; the operational normalization is the [[Helima Croft|Croft]] / [[Karen Young|Young]] / [[Stephen Stapczynski|Stapczynski]] thread
-- [ ] Gulf airspace denial follow-through — does [[Saudi Arabia]] / [[Kuwait]] denial of US airspace harden into a multilateral position with [[Bahrain]] / [[Oman]], or stay isolated to the May 7 cycle? See [[Iran conflict country responses]] for the regional-bloc framing
-- [ ] EM reserve drawdown ([[Robin J. Brooks]] May 6) — [[Turkey]], [[India]], [[Pakistan]] FX reserve losses tracking the war's external-account cost; cross-vault Brooks integration in [[Iran conflict FX dynamics]]
+- [x] **14-point MoU operational test — RESOLVED MAY 10-11 (failed):** Iran rejected the May 6-7 US proposal with a maximalist counter (war reparations + Hormuz sovereignty + sanctions ending + frozen assets); Trump rejected the counter as *"piece of garbage"* and described the ceasefire as on *"massive life support"* with *"only a 1% chance of living."* The MoU operational test resolved to the negative branch identified in the May 8-9 framework. See [[#May 10-11, 2026 — Trump rejects Iran counterproposal; ceasefire on "massive life support"|May 10-11 section]]. The [[Helima Croft]] / [[Karen Young]] / [[Stephen Stapczynski]] physical-market camp's operational-normalization thesis vindicated.
+- [x] Gulf airspace denial follow-through — CONFIRMED MAY 7 (hardened): [[Robert Pape]]'s May 7 [[Escalation Trap]] piece *"The Gulf States Just Voted on American Power"* documented Saudi Arabia + Kuwait blocking US airbase access + airspace for Operation Freedom — forcing operation pause within 36 hours. The denial is now structurally consistent with [[Saudi Arabia]] + [[Kuwait]] + (implicitly) other Gulf states recoalescing toward regional-survival rather than US-alliance posture. ChinaTalk WarTalk May 9 ([[Jack Shanahan]] + [[Bryan Clark]] + [[Eric Robinson]]) operationally confirmed: only 2 US-flagged Maersk ships participated in Project Freedom; commercial shipping refused to join. See [[Robert Pape#May 7, 2026 — "The Gulf States Just Voted on American Power"|Pape May 7 entry]] and [[ChinaTalk#May 9, 2026 — "WarTalk: Iran War with Jack Shanahan" ('Love Tap' edition)|ChinaTalk WarTalk Iran]].
+- [x] EM reserve drawdown — CONFIRMED MAY 6 ([[Robin J. Brooks]]): [[Turkey]], [[India]], [[Pakistan]] FX reserve losses now tracking the war's external-account cost. Pakistan's ~99% Gulf-share import dependency + IMF-program-dependent reserves makes it the most structurally exposed.
+- [ ] NEW (May 9-11): Saudi Vision 2030 capex collapse — [[Jack Shanahan]]'s ChinaTalk WarTalk piece (May 9) confirms [[NEOM]] / [[PIF]] / Red Sea Global megaprojects + mining + tourism initiatives are *"stalling as investors flee regional instability."* The Saudi Vision 2030 capex withdrawal channel is now operational, not speculative — major impact on [[Saudi Aramco]] dividend trajectory + [[PIF]] portfolio mark + non-energy diversification thesis. Cross-link to [[Gulf Sovereign Capital Reallocation]].
+- [ ] NEW (May 11): Trump federal gas tax pause — Proposed pausing the 18¢ federal gas tax. Fiscal cost ~$30B/year if extended for the year; consistent with multi-month war-prolongation domestic-cost-mitigation playbook. Channel implication: the war is now affecting US fiscal policy directly, joining the SPR-depletion + Treasury-mediated swap line + energy-supplemental fiscal channels already operational.
+- [ ] NEW (May 9): Iran retains ~70% of pre-war missile capability — [[Jack Shanahan]] (ChinaTalk WarTalk) disclosed the operational figure. Reframes the bombing-damage thesis that anchored early-April optimism — Iran's strategic-deterrent capability is substantially intact and any future US kinetic escalation faces the same missile-retaliation matrix that existed pre-Operation Epic Fury.
+- [ ] NEW (May 8): Counter-drone + electronic-warfare + spectrum-operations under-investment exposed — Shanahan / Clark / Robinson WarTalk framing: the Iran war revealed critical gaps in [[Defense primes basket]] capability areas relevant to a Taiwan-scenario contingency. Direct readthrough to [[Raytheon]] / [[Northrop Grumman]] / [[L3Harris]] / [[Mercury Systems]] capex priorities for FY 2027 budget. The "Indo-Pacific lessons from Iran" thread is the cleanest defense-sector positioning anchor for the next two budget cycles.
 
 ## May 8-9, 2026 — fragile ceasefire fractures + oil-buffer drawdown framing
 
@@ -522,6 +526,72 @@ The May 8-9 sequence does NOT change the central conclusion of the [[#Apr 17 sec
 The Sept-Oct 2026 question: does the framework get operationalized into actual tanker movement + war-risk insurance unwind + Gulf airspace re-opening, or does it pause-and-fracture cycle indefinitely? May 8-9 is the first data point arguing for the second outcome.
 
 *Sources: [CNBC — Oil resumes rally as US-Iran fire exchange rattles fragile Hormuz ceasefire (May 8 2026)](https://www.cnbc.com/amp/2026/05/08/oil-prices-today-wti-brent-us-iran-fire-war-hormuz-ceasefire.html); [Bloomberg — Iran War Is Draining World's Oil Buffer at an Unprecedented Pace (May 9 2026)](https://www.bloomberg.com/news/articles/2026-05-09/iran-war-is-draining-world-s-oil-buffer-at-unprecedented-pace); [Bloomberg Weekend May 9 2026](https://www.bloomberg.com/news/videos/2026-05-09/bloomberg-this-weekend-5-9-2026-video); [Washington Post — Iran war threatens post-oil Gulf](https://www.washingtonpost.com/business/2026/05/10/iran-war-oil-gulf-economies/), May 8-10 2026.*
+
+## May 10-11, 2026 — Trump rejects Iran counterproposal; ceasefire on "massive life support"
+
+Sunday May 10 evening: [[Donald Trump]] rejected [[Iran]]'s response to the May 6-7 US peace proposal in a [[Truth Social]] post, calling it *"TOTALLY UNACCEPTABLE!"* Monday May 11 in the Oval Office: Trump escalated the rhetoric, describing the counterproposal as a *"piece of garbage"* and saying he didn't even finish reading it. He warned the month-long ceasefire is now on *"massive life support"* with *"only a 1% chance of living."*
+
+Iran's [[Esmail Baghaei]] (Foreign Ministry spokesman) followed Monday with the response that Iran will *"never bow,"* explicitly framing the [[Strait of Hormuz]] standoff as an extended-duration scenario.
+
+### Iran's counter-demands
+
+The leaked counterproposal contents (per [[Washington Post]] + Al Jazeera Monday reporting):
+
+| Demand | Implication |
+|--------|-------------|
+| War reparations from US/Israel | Largest single financial demand, no precedent for US payment |
+| Iranian sovereignty over [[Strait of Hormuz]] | Direct reversal of the US-led freedom-of-navigation framework; would formalize transit-fee regime |
+| US sanctions ending (complete, not phased) | Removes the post-MoU leverage architecture that the 14-point framework was built around |
+| Frozen Iranian assets returned (~$6B+) | Korean accounts + Bank of England + other frozen funds restored |
+
+The demand stack is structurally incompatible with the [[#May 6-7, 2026 — "Project Freedom" pause + 14-point MoU framework + Gulf airspace denials|May 6-7 MoU framework]] — particularly the Hormuz-sovereignty demand, which would convert the chokepoint from "international waterway under freedom-of-navigation" to "Iranian sovereign waters with transit-fee discretion." This is the structural maximalist position [[Robert Pape]] flagged in late April as Iran's hardline-faction default.
+
+### Why Iran went maximalist now
+
+The May 7 [[Escalation Trap]] piece ([[Robert Pape]], "The Gulf States Just Voted on American Power") and Brooks's May 5 "Taking Stock of the US Blockade" both pointed to operational US pressure that should have produced Iranian capitulation, not escalation. The maximalist counter-offer says the opposite: Iran reads the [[Saudi Arabia|Saudi]] and [[Kuwait]]i blocking of US airbase access (May 6-7) as a regional re-coalescence in its favor, removing the US's regional-leverage backstop and making Hormuz sovereignty negotiable.
+
+The structural read: this is not the same negotiation Brooks's May 5 piece anchored. The negotiating environment shifted between May 5 and May 10 because the Gulf-state airbase denials demonstrated regional opinion no longer underwrites US escalation freedom.
+
+### May 11 oil tape + equity reaction
+
+| Asset | May 11 close | Move | Read |
+|---|---|---|---|
+| [[Brent]] (July) | ~$104 | +2.7% | War-premium re-firmed; first close above $103 since Apr 17 |
+| [[WTI]] (June) | ~$98 | +2.8% | US grade catching the spread re-narrowing |
+| S&P 500 futures (overnight) | ~7,387 | -0.11% | Pre-open; muted given oil move |
+| Dow futures | — | -0.18% | Similar muted |
+
+Markets are partially pricing the maximalist counter-proposal as a continuation rather than rupture — the equity tape is barely down despite the oil jump. This suggests the [[Hormuz Permanent Risk Premium]] thesis is already absorbed in equity multiples and the marginal news is oil-only.
+
+### Trump federal gas tax pause proposal (May 11)
+
+Same Oval Office session, Trump proposed pausing the 18¢ federal gas tax: *"We're going to take off the gas tax for a period of time, and when gas goes down, we'll let it phase back in."* The proposal is consistent with the war-prolongation domestic-cost-mitigation playbook used in 1973-74 (Nixon price controls) and 1990-91 ([[George H.W. Bush]] SPR releases). Fiscal cost ~$30B/year if extended for the year, or proportional for the pause window.
+
+The proposal is the cleanest signal yet that the [[Trump]] administration is preparing for a war-prolongation scenario rather than a near-term resolution — the gas-tax pause is structurally a multi-month consumer-relief policy, not a one-week political signaling tool. The political read connects to [[Robin J. Brooks]]'s late-April thesis on US strategic insulation (the US can sustain the blockade longer than allies can sustain the cost) but adds a domestic-political channel that wasn't in the framework before.
+
+### Updated framework outlook
+
+The May 6-7 MoU framework is now retrospectively the *high-water-mark* moment of the negotiation cycle, not its turning point. The May 10-11 sequence — maximalist Iran response + Trump rejection + gas-tax pause proposal — points to extended-duration crisis being the active regime rather than convergence-to-resolution. The Sept-Oct 2026 question from the May 8-9 section ("does the framework operationalize or pause-and-fracture indefinitely?") now leans toward the second branch.
+
+Practical investing implication: the [[Helima Croft]] / [[Karen Young]] / [[Stephen Stapczynski]] physical-market camp's "operational normalization lags headline diplomatic signals" thesis is being vindicated more strongly than the May 8 fire-exchange alone established. The cyclical [[Hormuz]] risk-premium component (compressed Apr 8 + Apr 17) is now re-firming on top of the structural-permanent component the May 8-9 Bloomberg "nearly 1B bbl" anchor established.
+
+*Sources: [NPR — Trump rejects Iran's latest response to U.S. ceasefire proposal](https://www.npr.org/2026/05/10/nx-s1-5817605/trump-rejects-iran-ceasefire-proposal), May 10 2026; [Washington Post — Iran responds to US ceasefire proposal but Trump rejects it as 'unacceptable'](https://www.washingtonpost.com/business/2026/05/10/iran-us-war-attack-may-10-2026/), May 10 2026; [Washington Post — Trump says Iran ceasefire is on 'life support'](https://www.washingtonpost.com/politics/2026/05/10/iran-response-us-proposal-war/), May 10 2026; [Al Jazeera — Trump says ceasefire on 'life support', slams Iran response](https://www.aljazeera.com/news/2026/5/11/trump-says-ceasefire-on-life-support-slams-iran-response-to-us-proposal), May 11 2026; [CNN live updates — Iran war proposal](https://www.cnn.com/2026/05/11/world/live-news/iran-war-proposal-trump), May 11 2026; [CNBC — Iran says it will 'never bow' as Trump rejects peace counteroffer](https://www.cnbc.com/2026/05/11/iran-war-trump-negotiation-hormuz-nuclear-talks.html), May 11 2026; [US News — Trump Says Federal Gas Tax Should Be Paused, CBS News Reports](https://www.usnews.com/news/top-news/articles/2026-05-11/trump-says-federal-gas-tax-should-be-paused-cbs-news-reports), May 11 2026.*
+
+## May 11-12, 2026 - refined-products and gasoline stress
+
+The post-counterproposal tape is now shifting from crude-only framing toward refined products and consumer-price policy. JPMorgan-related coverage warned that gasoline and inflation pressure remain live even if crude headlines stabilize, because the physical system is still short refining, shipping, and inventory buffers.
+
+The May 11 federal gas-tax pause proposal is the policy tell. A temporary 18c/gallon pause does not solve supply, but it acknowledges that the administration is now treating gasoline as a domestic political constraint rather than only a foreign-policy spillover. That puts the crisis into a three-channel regime:
+
+| Channel | Signal |
+|---------|--------|
+| Crude | Brent/WTI war premium re-firmed after the May 10-11 rejection |
+| Refined products | Jet fuel, diesel, gasoline and cracks remain the tighter constraint |
+| Fiscal/political | Gas-tax pause proposal and SPR depletion indicate domestic-cost mitigation |
+
+This strengthens the earlier "operational normalization lags headline diplomacy" framework. Even if negotiations restart, the refined-product channel can stay stressed longer than the crude price because refinery damage, war-risk insurance, routing, and inventory rebuild all operate on slower timelines.
+
+*Sources: TheStreet/JPMorgan gasoline-inflation warning, May 11-12 2026; existing May 10-11 sources above.*
 
 ## Analyst reaction to ceasefire (Apr 8)
 

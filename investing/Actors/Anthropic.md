@@ -78,6 +78,14 @@ Burning 14x less cash than OpenAI before profitability. CFO [[Krishna Rao]]: "Cl
 
 Jensen on Anthropic's [[TPU]] usage (Dwarkesh, Apr 15, 2026): "[[Anthropic]] is a unique instance, not a trend." Characterizes Anthropic running part of its workload on [[Google]] [[TPU]] as bespoke rather than structural — Anthropic trains and serves simultaneously on [[NVIDIA]] GPUs, Google TPUs, and [[Trainium]] ([[AWS]]). "They run everywhere." The framing pushes back on the read that custom silicon is displacing NVIDIA at the frontier. For NVIDIA it matters: the TPU deal is frequently cited as evidence that frontier labs are migrating off GPUs. Jensen's rebuttal is that Anthropic is multihomed by design, not defecting.
 
+### Capex capitulation (Apr 2026)
+
+[[Dario Amodei]] signed off "hundreds of billions of dollars of spending on long-term capacity" in April 2026, per FT (Apr 29) — a sharp reversal of the conservative posture he had held through 2025, when he publicly criticized rivals for "gung-ho" infrastructure plans and was explicit on Dwarkesh's podcast about not wanting to "go crazy on compute" and risk bankruptcy. [[Dylan Patel]] had previously noted that Amodei "purposely undershot estimates" on capacity. The trigger: power constraints starting to weigh on Claude's ability to meet fast-rising demand, especially after [[Claude Cowork]]'s January launch and the run-rate hockey-stick from $14B (Feb) to $30B (Apr). The April 2026 Google ($10B + up to $30B; 5 GW Google Cloud over five years) and Amazon ($5B + up to $20B) strategic deals are the visible piece; the FT framing makes clear additional sign-offs sit alongside them.
+
+The Amodei capitulation matters for the broader buildout: it removes the only frontier-lab framing AI infrastructure spend as imprudent. With [[OpenAI]] at $600B by 2030, [[Anthropic]] at hundreds-of-billions, [[Meta]] adding [[OpenAI]] infrastructure leaders to its [[Superintelligence|Superintelligence Lab]] buildout, and [[xAI]] / [[Google]] / [[Microsoft]] / [[Amazon]] all at hyperscaler capex levels, every frontier lab is now committed to the same capital-intensive race. The capital-efficiency narrative — Anthropic burning 14x less than OpenAI before profitability — survives at the per-unit level but is eroding at the absolute level. See [[Anthropic vs OpenAI compute race]] and [[AI infrastructure financing risk]].
+
+*Source: FT (Hammond, Morris, Keohane, Bradshaw — Apr 29, 2026)*
+
 ---
 
 ## Funding rounds

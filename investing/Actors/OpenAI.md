@@ -171,6 +171,44 @@ Profitability timeline: massive losses projected through 2028, cash-flow positiv
 
 Total raised: ~$180B+ across 11 rounds.
 
+![[openai-private-valuation-arc-mar2026-ft.png]]
+*Top-valued private companies by post-money valuation ($bn), Jan 2024–Mar 2026. OpenAI rises from $29B (Jan 2024) → $80B (Feb 2024) → $157B (Oct 2024) → $300B (Mar 2025) → $500B (Oct 2025) → $812B (Jan 2026) → $852B (Mar 2026). [[SpaceX]] reaches $1,250B by Mar 2026; [[ByteDance]] flat at $480B; [[Anthropic]] from $18B to $380B. OpenAI's climb from the bottom of the top-10 to second place in 26 months tracks the model release cadence (GPT-4o May 2024, o1 Sep 2024, GPT-5 Aug 2025, GPT-5.4 Mar 2026) and the SoftBank/Amazon/NVIDIA mega-rounds. Source: FT / Crunchbase, FT research (animated chart, Apr 29 2026).*
+
+### Top-10 private company valuations, monthly ($bn)
+
+Extracted from the 26 FT animated-chart frames. Blank = company outside top 10 that month.
+
+| Month | OpenAI | SpaceX | ByteDance | Anthropic | xAI | Ant Group | Stripe | Databricks | Reliance Retail | Waymo | Revolut |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Jan 2024 | 29 | 137 | 220 | 18.4 | — | 150 | 50 | 43 | 101.4 | 30 | 0 |
+| Feb 2024 | 80 | 137 | 220 | 18.4 | — | 150 | 50 | 43 | 101.4 | 30 | — |
+| Apr 2024 | 80 | 137 | 220 | 18.4 | 1 | 150 | 65 | 43 | 101.4 | 30 | — |
+| May 2024 | 80 | 137 | 220 | 18.4 | 24 | 150 | 65 | 43 | 101.4 | 30 | — |
+| Jun 2024 | 80 | 137 | 220 | 18.4 | 24 | 150 | 65 | 43 | 101.4 | 31.3 | — |
+| Jul 2024 | 80 | 137 | 220 | 18.4 | 24 | 150 | 65 | 43 | 101.4 | 45 | — |
+| Aug 2024 | 80 | 137 | 220 | — | 24 | 150 | 65 | 43 | 101.4 | 45 | 45 |
+| Sep 2024 | 130.3 | 137 | 220 | — | 24 | 150 | 65 | 43 | 101.4 | 45 | 45 |
+| Oct 2024 | 157 | 137 | 220 | — | 45.8 | 150 | 65 | 43 | 101.4 | 45 | 45 |
+| Nov 2024 | 157 | 137 | 220 | — | 50 | 150 | 65 | 49.9 | 101.4 | 45 | 45 |
+| Dec 2024 | 157 | 137 | 220 | — | 50 | 150 | 65 | 62 | 101.4 | 45 | 45 |
+| Jan 2025 | 157 | 137 | 220 | — | 50 | 150 | 89.8 | 62 | 101.4 | 45 | 45 |
+| Feb 2025 | 241.8 | 137 | 220 | — | 50 | 150 | 91.5 | 62 | 101.4 | 45 | 45 |
+| Mar 2025 | 300 | 137 | 220 | 61.5 | 50 | 150 | 91.5 | 62 | 101.4 | — | 45 |
+| Apr 2025 | 300 | 137 | 220 | 61.5 | 50 | 150 | 91.5 | 62 | 101.4 | — | 45 |
+| May 2025 | 300 | 137 | 220 | 61.5 | 50 | 150 | 91.5 | 62 | 101.4 | — | 45 |
+| Jun 2025 | 300 | 137 | 220 | 61.5 | 50 | 150 | 91.5 | 62 | 101.4 | — | 45 |
+| Jul 2025 | 300 | 345.7 | 220 | 61.5 | 50 | 150 | 91.5 | 62 | 101.4 | — | 45 |
+| Aug 2025 | 300 | 400 | 220 | 173.3 | 50 | 150 | 105.5 | 97 | 101.4 | — | 45 |
+| Sep 2025 | 428.5 | 400 | 220 | 183 | 50 | 150 | 106.7 | 100 | 101.4 | — | 45 |
+| Oct 2025 | 500 | 400 | 397.4 | 183 | 50 | 150 | 106.7 | 100 | 101.4 | — | 65.5 |
+| Nov 2025 | 500 | 688.9 | 480 | 183 | 50 | 150 | 106.7 | 124.6 | 101.4 | — | 75 |
+| Dec 2025 | 500 | 800 | 480 | 183 | 202.8 | 150 | 106.7 | 134 | 101.4 | — | 75 |
+| Jan 2026 | 812.2 | 1,213.2 | 480 | 363.9 | — | 150 | 154.7 | 134 | 101.4 | 119.4 | 75 |
+| Feb 2026 | 850.8 | 1,250 | 480 | 380 | — | 150 | 159 | 134 | 101.4 | 126 | 75 |
+| Mar 2026 | 852 | 1,250 | 480 | 380 | — | 150 | 159 | 134 | 101.4 | 126 | 75 |
+
+The OpenAI trajectory has four distinct step-functions visible in the data: Jan→Feb 2024 (Microsoft $10B/$29B), Aug→Sep→Oct 2024 ($80B→$130B→$157B on the [[Series E]] round), Jan→Mar 2025 ($157B→$300B on the SoftBank-led $40B), and Aug→Oct→Jan 2026 ($300B→$500B→$812B on the Oct 2025 secondary and the $122B Feb 2026 mega-round closing). The plateau periods between rounds are where the company waits for the next financing event — the steps are not organic growth but funding marks. SpaceX shows the cleanest contrast: similar mega-step in Jul-Dec 2025 ($137B→$800B) but on a different revenue and FCF base. *Note: Mar 2026 SpaceX includes [[xAI]] in the consolidated entity from Feb 2026 — the $1,250B figure is post-merger.* Source: FT / Crunchbase + FT research, animated chart Apr 29 2026.
+
 ### Amazon $50B structure
 
 $15B in Series C preferred stock (due Mar 31, 2026). Remaining $35B conditional on milestones including IPO or direct listing — terminates if not invested by Dec 31, 2028. OpenAI committed to $100B [[AWS]] spend over 8 years and 2 GW of [[Amazon]] [[Trainium]] compute. [[AWS]] becomes exclusive cloud distributor for Frontier enterprise platform (alongside Azure for APIs).
