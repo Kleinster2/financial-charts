@@ -143,6 +143,20 @@ Effectively an arb play on Schwab deal closing:
 
 ---
 
+## May 11 2026 — Disputed inclusion in [[Anthropic]] void notice
+
+[[Anthropic]] listed Forge Global (specifically "new offerings on Forge") in its May 11 2026 public notice declaring unauthorized secondary transfers void. Forge disputed the inclusion publicly, stating it requires *"explicit approval of the company"* before facilitating transactions and that its compliance infrastructure precludes unauthorized offerings.
+
+The qualifier ("new offerings on") is the source of the dispute: Anthropic flagged specific offerings, not Forge as a platform. Forge's read is that those offerings were either issuer-approved or had been mischaracterized. The structural significance for the Schwab acquisition thesis: a brokerage-style platform regulated as an alternative trading system (ATS) cannot afford to have its issuer-approval workflows publicly questioned by a trophy-issuer in a press cycle that immediately preceded a planned acquisition close.
+
+[[OpenAI]] issued a parallel void notice on May 12 but the public reporting did not enumerate OpenAI's named platforms — so the May 12 OpenAI exposure to Forge is structurally similar but not publicly confirmed.
+
+Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]].
+
+*Sources: [Anthropic Help Center](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams); [TechCrunch](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026, includes Forge response).*
+
+---
+
 ## Related
 
 - [[Destiny Tech100]] -- [[Sohail Prasad]]'s subsequent venture
@@ -151,3 +165,8 @@ Effectively an arb play on Schwab deal closing:
 - [[Charles Schwab]] -- acquirer ($660M, H1 2026)
 - [[Morgan Stanley]] -- acquired competitor EquityZen
 - [[Coinbase]] -- Asiff Hirji (board) was ex-President
+- [[Anthropic]] -- listed Forge "new offerings" in May 11 2026 void notice; Forge disputed inclusion
+- [[OpenAI]] -- issued parallel May 12 2026 void notice; named platforms not publicly enumerated
+- [[Hiive]] -- competitor also named in Anthropic May 11 notice
+- [[Private market secondaries]] -- concept hub for the pre-IPO trading landscape
+- [[Tokenized private shares]] -- adjacent crypto-native channel

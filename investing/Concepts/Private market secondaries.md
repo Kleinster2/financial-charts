@@ -279,6 +279,70 @@ Manhattan US Attorney [[Jay Clayton]] (former SEC chairman): *"We look across al
 
 Accredited investors ($200K income or $1M net worth) have fewer protections than retail. Layered SPVs would likely not survive regulatory scrutiny if aimed at retail, but accredited investors are assumed to be sophisticated enough to protect themselves — though many may not realize the structural risks they're taking.
 
+### Issuer pushback: the void-declaration mechanism (May 11-12, 2026)
+
+On May 11, 2026, [[Anthropic]] updated its public help-center notice on unauthorized stock sales — explicitly declaring all transfers not approved by its board of directors **void**, naming individual SPV operators and tokenization venues by name for the first time, and warning specifically against forward contracts and tokenized securities. [[OpenAI]] issued an identical-language notice on May 12. Both notices applied to common AND preferred stock and pointed to Delaware bylaw transfer restrictions as the legal basis.
+
+The two notices together are the cleanest evidence the AI-lab issuer side has taken a coordinated stance against the SPV / perp / tokenized-equity complex that grew up around them through 2025-2026. The structural significance is in the word choice.
+
+#### Void vs voidable — what Delaware corporate law actually does
+
+The legal choice of "void" rather than "voidable" is the most aggressive Delaware stance an issuer can take:
+
+| Designation | What it means | What downstream buyers retain |
+|---|---|---|
+| **Voidable** | Transfer is initially effective; issuer can later challenge it | Good-faith purchaser defenses, BFP doctrine, equitable estoppel may still apply |
+| **Void** | Transfer is never effective in the first place | Most equitable defenses fall away — downstream chain of title is treated as having never existed |
+
+In a voidable regime, a downstream SPV LP who bought "Anthropic exposure" in good faith from a layered intermediary could potentially recover via good-faith purchaser doctrine if the issuer challenges late. In a void regime, the same buyer has no claim — they paid for something that under Delaware bylaws never transferred title. The legal premium between *authorized* and *unauthorized* exposure widens dramatically under the void designation.
+
+This matters operationally because most SPV and tokenized-equity products through 2025 had been structured on the assumption that issuer challenges would be slow, narrow, and discretionary — i.e. operating in a *de facto* voidable world even if bylaws said void. The May 11-12 announcements were the issuers publicly walking up to that assumption and severing it.
+
+#### Anthropic's named blocklist (May 11, 2026)
+
+Anthropic explicitly named eight unauthorized platforms:
+
+- [[Open Door Partners]]
+- [[Unicorns Exchange]]
+- [[Pachamama Capital]]
+- [[Lionheart Ventures]]
+- [[Sydecar]]
+- [[Upmarket]]
+- New offerings on [[Forge Global]] and [[Hiive]]
+
+Two of these — [[Forge Global]] and [[Hiive]] — are board-recognized infrastructure providers for *authorized* secondary transactions; the inclusion was specifically about *new* offerings on those platforms that lacked direct issuer sign-off. [[Forge Global]] disputed its inclusion publicly, stating it requires "explicit approval of the company" before facilitating transactions; [[Sydecar]] emphasized its administrative-only capacity; [[Hiive]] defended its compliance infrastructure. The platform-side response made clear the dispute is real and unresolved — not all named platforms accept that their offerings are unauthorized.
+
+[[OpenAI]] named the same target categories (SPVs, tokenized interests, forward contracts) on May 12 but the source reporting does not enumerate OpenAI's specific named platforms.
+
+#### Implied-valuation gap vs primary rounds
+
+The void announcement landed against a tokenized-secondary backdrop where the implied valuations had decoupled materially from primary-round pricing:
+
+| Venue type | Implied [[Anthropic]] valuation (May 11) | vs Feb $380B primary |
+|---|---|---|
+| Tokenized perp DEXs ([[Ventuals]], [[PreStocks]]) | ~$1.6T | ~4.2x |
+| Off-chain secondary ([[Forge Global]]) | ~$1T | ~2.6x |
+| Reported next primary round (TechCrunch, May 12) | ~$900B | ~2.4x |
+
+The gap between the on-chain perp implied valuation ($1.6T) and the off-chain secondary platform price ($1T) within a single asset is the cleanest evidence available that the perp-DEX layer was running on retail FOMO rather than a price-discovery process anchored to real share inventory. The issuer announcement collapsed the legitimacy backstop on both layers simultaneously.
+
+#### Market reaction
+
+| Asset | May 11 / May 12 move | Mechanism |
+|---|---|---|
+| [[Destiny Tech100]] (DXYZ) | $71.24 close May 11 → $53.40 close May 12 (-25.05%) | Held [[Anthropic]] via single-security SPV (Feb 2026 deployment) — pure exposure to the void mechanism |
+| [[OpenAI]] tokenized contracts | ~$1,400 → ~$900 (-36%) in 24h | Direct tokenized-equity exposure to the void announcement |
+
+The DXYZ reaction is structurally important: the fund's [[Anthropic]] position is held via the single-security SPV structure that the Anthropic notice was specifically designed to invalidate (board-approved SPV positions are not voided; unauthorized SPV positions are). DXYZ's drawdown isn't a direct hit on its own position — it's the market repricing the *legitimacy premium* on retail-access vehicles whose structures rely on issuer-side tolerance of secondary plumbing that the issuer just publicly declared illegitimate.
+
+#### Read for the broader market
+
+The void mechanism is unilateral, fast, and operational in a way that prior issuer pushback was not. Earlier 2025-2026 actions (ROFR exercises, employee tender restrictions, blocking specific transactions) were transaction-by-transaction. The May 11-12 announcements declared a category-wide voidance, named platforms publicly, and were duplicated across two of the three trophy AI-lab issuers (Anthropic + OpenAI; [[SpaceX]] has not issued a parallel notice as of May 13). The third trophy issuer is the obvious tail risk for the SPV / tokenization industry — if SpaceX follows, the structural break is complete.
+
+The downstream effect on listed retail-access vehicles ([[Destiny Tech100]], [[Fundrise]] VCX, [[Powerlaw Corp]]) depends on whether their underlying SPV positions are board-approved or unauthorized. Board-approved positions are unaffected; unauthorized positions are now exposed to legal void risk in addition to the existing premium-to-NAV compression risk. The vehicles that disclosed the *mechanism* of their underlying SPV positions (board-approved tender vs unauthorized secondary) will trade with that structural transparency baked in.
+
+*Sources: [Anthropic Help Center — Unauthorized Anthropic Stock Sales and Investment Scams](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams); [TechCrunch — Anthropic warns investors against secondary platforms offering access to its shares](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026); [Yahoo Finance / Bloomberg — Anthropic and OpenAI warn buyers: unauthorized AI startup shares may be worthless](https://finance.yahoo.com/markets/stocks/articles/anthropic-openai-warn-buyers-unauthorized-180743368.html); [Spendnode — Anthropic Voids Unauthorized Stock Trades as Tokens Imply $1.6T](https://www.spendnode.io/blog/anthropic-voids-unauthorized-stock-trades-1-6t-tokenized-may-2026/); local prices_long DXYZ verification May 1-12 2026.*
+
 [[Lead Edge]] partner Zach Ullman: *"A lot of people think they own stock in SpaceX. I'm not sure what the actual percentage of people who do actually own that, at the end of the day, is."*
 
 [[Torch Capital]] founder Jonathan Keidan on late-stage buying: *"It's the tail-end of traders who are just trying to capture that last piece of opportunity."* Hard to make the case that buying SpaceX private shares at this late stage delivers a 5x return.

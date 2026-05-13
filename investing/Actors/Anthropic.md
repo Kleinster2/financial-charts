@@ -760,6 +760,32 @@ The product-side evidence the lease relieved Anthropic's binding capacity constr
 
 *Sources: [Dev.to — Anthropic strikes compute deal with SpaceX](https://dev.to/mcrolly/anthropic-strikes-compute-deal-with-spacex-what-it-means-for-the-future-of-ai-1moj); [The Drive 93.3 — SpaceX to give Anthropic access to its massive AI supercomputer](https://www.933thedrive.com/2026/05/06/spacex-to-give-anthropic-access-to-its-massive-ai-supercomputer/); Mirae Asset Securities note (May 8, 2026); Fortune (citing New Street Research range); [[Tom's Hardware]]; [[Datacenter Dynamics]]; [[Yahoo Finance]]; search-result aggregation May 7, 2026.*
 
+### Secondary-market void declaration (May 11, 2026)
+
+Anthropic updated its public help-center notice on unauthorized stock sales, explicitly declaring all transfers not approved by its board of directors **void** under Delaware bylaw transfer restrictions. The notice applied to both common AND preferred stock and was the first time Anthropic publicly named individual SPV operators and tokenization venues in a blocklist:
+
+- [[Open Door Partners]]
+- [[Unicorns Exchange]]
+- [[Pachamama Capital]]
+- [[Lionheart Ventures]]
+- [[Sydecar]]
+- [[Upmarket]]
+- New offerings on [[Forge Global]] and [[Hiive]]
+
+The choice of "void" rather than "voidable" is the most aggressive Delaware corporate-law stance an issuer can take — it eliminates good-faith-purchaser defenses for downstream buyers in a way prior issuer pushback (transaction-by-transaction ROFR exercises) did not. [[OpenAI]] issued an identical-language notice on May 12.
+
+The implied tokenized [[Anthropic]] valuation on perp DEXs ([[Ventuals]], [[PreStocks]]) had reached ~$1.6T immediately before the announcement, against the $380B Feb Series G primary and a TechCrunch-reported ~$900B next-round mark. The 4.2x gap between the on-chain perp valuation and primary was the cleanest available evidence of retail-FOMO-led price discovery in the AI-lab secondary complex.
+
+Market reaction: [[Destiny Tech100]] (DXYZ) — which holds Anthropic via a single-security SPV deployed Feb 2026 — closed -25.05% on May 12 ($71.24 → $53.40); tokenized [[OpenAI]] contracts crashed $1,400 → $900 (-36%). The DXYZ position is *board-approved* and therefore not directly voided, but the announcement collapsed the legitimacy premium on retail-access vehicles whose structures depend on issuer-side tolerance of secondary plumbing.
+
+Platform response: [[Forge Global]] disputed its inclusion as "erroneous" (says it requires explicit issuer approval); [[Sydecar]] said it operates administrative-only; [[Hiive]] defended its compliance infrastructure. Resolution unsettled as of May 13.
+
+Full structural treatment in [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]] and [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]].
+
+*Sources: [Anthropic Help Center](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams); [TechCrunch](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026); [Yahoo Finance / Bloomberg](https://finance.yahoo.com/markets/stocks/articles/anthropic-openai-warn-buyers-unauthorized-180743368.html); [Spendnode](https://www.spendnode.io/blog/anthropic-voids-unauthorized-stock-trades-1-6t-tokenized-may-2026/).*
+
+---
+
 ### [[Anthropic-Wall Street JV]] — $1.5B Goldman / Blackstone / H&F deployment vehicle (May 4, 2026)
 
 Anthropic launched a $1.5B joint venture with [[Goldman Sachs]], [[Blackstone]], and [[Hellman & Friedman]] to deploy [[Claude]] inside their portfolio companies through embedded engineers. The structural details:
@@ -1107,3 +1133,9 @@ The strategy parallels [[Microsoft]]'s 1990s arc — OS vendor to desktop owner 
 - [[Gambit Security]] - discovered Claude Mexico hack (Feb 2026, [[Unit 8200]] veterans)
 - [[Claude Mythos]] - next frontier model (Capybara tier), revealed via data leak Mar 26
 - [[OpenAI]] - competing with "Spud" model; raising $120B+ total; sweetening PE deals at 17.5% preferred returns
+- [[Private market secondaries]] - concept hub; May 11 2026 void declaration adds the issuer-pushback mechanism subsection
+- [[Tokenized private shares]] - concept hub; Anthropic tokenized perps on [[Ventuals]] / [[PreStocks]] hit ~$1.6T implied valuation before void notice
+- [[Destiny Tech100]] - DXYZ -25% reaction to void declaration (held Anthropic via board-approved single-security SPV)
+- [[Forge Global]] - disputed inclusion in blocklist
+- [[Hiive]] - "new offerings" included in blocklist
+- [[Sydecar]] / [[Open Door Partners]] / [[Unicorns Exchange]] / [[Pachamama Capital]] / [[Lionheart Ventures]] / [[Upmarket]] - named in May 11 unauthorized-platform blocklist

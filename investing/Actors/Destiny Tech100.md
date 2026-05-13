@@ -207,4 +207,62 @@ Bear:
 - [[Private Market Access]] — concept note on the retail private equity trend
 - [[Powerlaw Corp]] — competitor (PWRL, pending Nasdaq)
 - [[Fundrise]] — competitor (VCX, approved for NYSE, expected Mar 2026)
+
+---
+
+## May 8-11, 2026 — SpaceX IPO buzz, +21% session, "new VCX" framing
+
+DXYZ closed +21.3% to $54.60 on May 8 ($45.00 → $54.60, +4.7σ beta-adjusted), with single-day volume of ~6.8M shares (more than 3× average daily). The stock then extended in overnight + Monday trading on continued SpaceX IPO speculation. Two converging catalysts:
+
+1. **[[SpaceX]] IPO timing — Reuters June 2026 debut, $1.75T valuation framing.** [[Reuters]] reported the week of May 5 that [[Elon Musk]]-led [[SpaceX]] is targeting a June 2026 IPO debut at ~$1.75T valuation. SpaceX is DXYZ's largest holding at 16.2% of fund AUM. The DXYZ premium to NAV jumped accordingly — closing May 8 at $54.60 vs the ~$19.97 official NAV/share (December 2025 mark) = ~173% premium.
+2. **[[Brad Gerstner]] (Altimeter Capital) "$5B ace card" framing on Musk AI infrastructure.** Gerstner argued on CNBC that Musk's AI infrastructure positioning at SpaceX (via [[xAI]] / [[Colossus 1]] / [[Memphis]] hyperscale cluster) could add up to $5B in additional annual revenue, anchoring the $1.75T valuation case. The framing went viral on retail-investing platforms — Stocktwits showed +2,100% surge in DXYZ message volume in the week.
+
+### The premium-vs-NAV math
+
+| Metric | Value | Context |
+|---|---|---|
+| DXYZ closing price May 8 | $54.60 | Up from $45.00 on May 7 |
+| Reported NAV/share (Dec 2025) | $19.97 | Per fund disclosure |
+| Implied market premium | ~173% | Versus stated NAV |
+| Market cap | ~$1.1B | Up from ~$444M post-IPO |
+| SpaceX holding (% AUM) | 16.2% | Largest position |
+| Other major holdings | [[OpenAI]], [[Anthropic]] (added Feb 2026), [[Stripe]] | ~30-40% combined |
+
+The 173% premium-to-NAV is structurally remarkable for a closed-end fund — most CEFs trade at discounts to NAV. DXYZ's premium reflects retail demand for [[SpaceX]] exposure that lacks any other reasonable proxy in public markets. The IPO event itself — when SpaceX is publicly traded — should compress this premium toward zero, because investors will be able to access SpaceX directly. The premium is structurally a *carry trade* on IPO timing risk.
+
+### What the trade is actually pricing
+
+Three distinct reads:
+
+1. **Pre-IPO bid for SpaceX** — investors are willing to pay a 173% premium for 16.2% SpaceX exposure rather than wait for direct access. The framing implies $54.60 × 1.0 (DXYZ price) ÷ 0.162 (SpaceX weight) ≈ $336 of implied SpaceX exposure value per share — versus the fund's stated SpaceX position value. The premium has both gating (SpaceX shares are illiquid) and timing (IPO date uncertain) components, but the magnitude is closer to "blind faith in retail-IPO-fever-priced-in" than to "discount-rate-driven valuation."
+2. **Premium contraction on IPO** — the trade has tail risk on both sides. Tail upside: SpaceX prices the IPO above the $1.75T framework + fund-priced exposure stays high. Tail downside: premium snaps to zero on IPO (NAV ≈ $19.97 vs $54.60 stock) = -63% drawdown immediately.
+3. **The Fundrise VCX competitive overhang** — [[Fundrise]] VCX is approved for NYSE listing March 2026, with similar pre-IPO holdings (SpaceX exposure). VCX is structured at NAV without DXYZ's CEF premium mechanism, which could become an "arb the premium" trade for institutional capital once both vehicles are accessible.
+
+### Cross-name read with [[Vault cluster taxonomy]]
+
+The DXYZ premium is in the same conceptual category as the [[Crypto-to-AI]] / [[Space pure-plays]] retail-thematic-flow expressions in the vault — investors are paying for *theme exposure* rather than *fundamental value*. The structural difference is that the underlying SpaceX exposure isn't even publicly priced — DXYZ is a *closed-end fund premium on a pre-IPO event*, which is the cleanest case the vault has of "retail prediction market masquerading as ETF."
+
+The trade's cleanest hedge: short DXYZ vs long [[Rocket Lab|RKLB]] / [[AST SpaceMobile|ASTS]] / [[BlackSky|BKSY]] basket — capture the space-theme exposure without paying the 173% premium-to-NAV. The [[Space pure-plays]] cohort has a much tighter relationship to space-equity fundamentals than DXYZ's premium to SpaceX-private-share-NAV.
+
+*Sources: [Stocktwits — DXYZ Stock Soars Overnight As SpaceX IPO Fever Rises](https://stocktwits.com/news-articles/markets/equity/dxyz-stock-soars-as-spacex-ipo-fever-builds-5b-revenue/cZX9Al7ReWa); [ts2.tech — Destiny Tech100 Stock Jumps as SpaceX IPO Fever Puts Private-Tech Funds Back in Focus](https://ts2.tech/en/destiny-tech100-stock-jumps-as-spacex-ipo-fever-puts-private-tech-funds-back-in-focus/); [primaryignition.com — DXYZ Stock Just Jumped 21% in a Single Day](https://primaryignition.com/2026/05/10/dxyz-stock-just-jumped-21-in-a-single-day-heres-the-spacex-story-behind-it/); [MSN/Stocktwits — DXYZ is the new VCX?](https://www.msn.com/en-us/money/topstocks/dxyz-is-the-new-vcx-as-investors-pile-into-new-spacex-proxy-trade-here-are-destiny-tech100-s-top-holdings/ar-AA1ZqHeJ); local quick_movers.py screen May 8 2026.*
+
+### May 11-12 epilogue — [[Anthropic]] void declaration triggers -25% drawdown
+
+The May 8-11 SpaceX-fever rally peaked on May 11 at $71.24 (intraday high higher; +30.5% from May 8 close of $54.60). After the close on May 11 — or in the May 12 pre-market — [[Anthropic]] updated its public help-center notice declaring all unauthorized secondary stock transfers **void** under Delaware bylaw transfer restrictions, naming individual SPV operators and tokenization venues in a blocklist for the first time. [[OpenAI]] issued an identical-language notice on May 12.
+
+DXYZ closed May 12 at $53.40 — a single-session drop of **-25.05%** from the May 11 close ($71.24 → $53.40). The combined two-session arc:
+
+| Date | DXYZ close | Move | Driver |
+|---|---|---|---|
+| May 8 | $54.60 | +21.3% | [[SpaceX]] IPO fever + Gerstner $5B AI-infra framing |
+| May 11 | $71.24 | +30.5% | Continued IPO-fever squeeze + retail flow |
+| May 12 | $53.40 | -25.05% | [[Anthropic]] + [[OpenAI]] void declarations |
+
+The structural read on the drawdown is important: DXYZ's [[Anthropic]] position (held via single-security SPV, Feb 2026 deployment per the Portfolio section) is *board-approved* and therefore not directly invalidated by Anthropic's void notice. The position remains intact on the cap table. What the market repriced on May 12 was not the position itself but the **legitimacy premium on retail-access vehicles whose structures depend on issuer-side tolerance** of the broader secondary-market plumbing. When the trophy AI-lab issuers publicly drew a line between authorized and unauthorized SPV inventory — and named platforms publicly — the retail-private-equity premium globally re-priced. DXYZ caught the full equity-side beta of that re-pricing despite being on the authorized side of the line.
+
+The contrast with the May 8-11 framing in this note is instructive. The "Three distinct reads" subsection above flagged "Tail downside: premium snaps to zero on IPO (NAV ≈ $19.97 vs $54.60 stock) = -63% drawdown immediately" — a SpaceX-IPO-timing tail. The May 12 drawdown is a *different* tail-risk realization: not IPO timing, but issuer-side enforcement against the secondary complex that retail-access vehicles trade as proxies for. The -25.05% reaction implies the market estimates the issuer-pushback tail at roughly 40% of the IPO-snap tail.
+
+Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]].
+
+*Sources: [Anthropic Help Center](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams); [TechCrunch](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026); local prices_long DXYZ verification ($71.24 → $53.40, May 11-12 2026).*
 - [[Robinhood]] — competitor (RVI, filing for NYSE)

@@ -124,10 +124,27 @@ If you can't answer these, stay away.
 
 | Company | Valuation | Token status |
 |---------|-----------|--------------|
-| [[OpenAI]] | ~$500B (seeking) | Robinhood [[Europe]] |
-| [[SpaceX]] | ~$350B+ | Republic, Robinhood |
-| [[Anthropic]] | ~$60B | Not yet tokenized |
-| [[Databricks]] | ~$60B | Not yet tokenized |
+| [[OpenAI]] | ~$500B (Oct 2025 tender); reported ~$840B (Feb 2026) | Robinhood [[Europe]], [[Ventuals]] (perp), [[PreStocks]], tokenized contracts crashed $1,400 → $900 on May 12 2026 void notice |
+| [[SpaceX]] | $1.25T (Dec 2025 tender 8); reported IPO at $1.75T (summer 2026) | Republic, Robinhood, [[Ventuals]] (perp) |
+| [[Anthropic]] | $380B (Feb 2026 Series G); reported ~$900B next round (May 2026) | [[Ventuals]] (3x perp, $3M OI cap); [[PreStocks]]; tokenized implied valuation reached ~$1.6T May 11 2026 before void notice |
+| [[Databricks]] | ~$100B+ (2025-2026 estimates) | Not yet tokenized |
+
+---
+
+## Issuer pushback: void declarations (May 11-12, 2026)
+
+Both [[Anthropic]] and [[OpenAI]] issued same-week notices declaring unauthorized secondary trades — including tokenized contracts — **void** under Delaware bylaw transfer restrictions. The notices applied to common AND preferred stock and were the first time AI-lab issuers publicly named tokenization venues (alongside SPV operators) in a blocklist.
+
+The legal mechanism — "void" rather than "voidable" — eliminates good-faith-purchaser equitable defenses for downstream token holders. A retail buyer who bought a tokenized [[Anthropic]] perp on [[Ventuals]] or [[PreStocks]] cannot recover under BFP doctrine if the underlying SPV chain is declared void; the bylaw treats the entire chain as having never transferred title.
+
+| Asset | May 11-12 move | Note |
+|---|---|---|
+| Tokenized [[Anthropic]] implied valuation | ~$1.6T → not publicly disclosed post-announcement | ~4.2x the Feb $380B primary |
+| Tokenized [[OpenAI]] contracts | $1,400 → $900 (-36%) in 24h | Same void mechanism, parallel announcement |
+
+Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]].
+
+The legitimacy gap between *authorized* tokenized equity (e.g. board-approved tender-offer tokenization, hypothetical) and *synthetic exposure* (perps, side-bet structures with no claim on actual shares) is structurally wider after the announcement. [[Ventuals]] and [[PreStocks]] sit on the synthetic-derivative side and are not directly threatened operationally — their products were never claims on real shares — but the implied-valuation signals they publish lose their legitimacy backstop when the underlying issuer has declared the chain of secondary inventory void.
 
 ---
 

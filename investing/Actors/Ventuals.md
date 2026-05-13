@@ -130,6 +130,20 @@ The real test is a major private market repricing. When the next AI winter hits 
 - **Liquidity chicken-and-egg:** Private perps need market makers willing to take the other side of illiquid, hard-to-hedge positions. The OI caps suggest this hasn't been solved yet
 - **Competitor risk:** Jarsy, PreStocks, and others are also tokenizing pre-IPO access. First mover doesn't mean winner in DeFi
 
+## May 11-12 2026 issuer pushback — implications for Ventuals
+
+[[Anthropic]] (May 11) and [[OpenAI]] (May 12) issued same-week notices declaring all unauthorized secondary transfers — including tokenized contracts — **void** under Delaware bylaw transfer restrictions. The structural impact for Ventuals is partial rather than direct:
+
+- Ventuals perps are *synthetic* — they speculate on a valuation number, never claim title to actual shares. The void mechanism applies to transfers of shares, not to synthetic derivative positions. Ventuals' on-protocol settlement is therefore not legally invalidated by the issuer announcements.
+- *However*, the hybrid oracle (50% offchain) relies on verified secondary transactions, secondary platform marks, and 409A valuations to anchor the offchain leg. If the secondary-platform inventory feeding those marks is now declared void at the issuer level (or if specific named platforms — [[Forge Global]], [[Hiive]] — face operational disruption), the offchain leg of the oracle becomes thinner and noisier.
+- The on-protocol implied valuation for [[Anthropic]] had reached ~$1.6T immediately before the announcement (per [[Tokenized private shares]] aggregation), against the $380B Feb Series G primary and a reported ~$900B next-round mark. That ~4.2x gap was a price-discovery legitimacy claim that the issuer pushback partially severed — though Ventuals' synthetic structure leaves the *trading* of the price unaffected.
+
+The cleanest read: the structural value of Ventuals as a *price discovery* venue (vs. a casino) depends on the offchain anchors that the void mechanism is designed to discredit. The protocol survives operationally; the legitimacy-of-implied-price narrative takes a hit.
+
+Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]] and [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]].
+
+---
+
 ## Competitors
 
 The pre-IPO crypto access space splits into two camps: synthetic derivatives (no real equity) and asset-backed tokens (claim on actual shares).
@@ -147,7 +161,7 @@ The pre-IPO crypto access space splits into two camps: synthetic derivatives (no
 | Protocol | Chain | Model | Status |
 |----------|-------|-------|--------|
 | **Jarsy** | — | 1:1 backed by actual pre-IPO shares, $10 minimums | Early, liquidity/scalability challenges |
-| **PreStocks** | [[Solana]] (Jupiter) | Similar to Jarsy, DEX-integrated, instant settlement | Launched Aug 2025, no public audit proofs |
+| **[[PreStocks]]** | [[Solana]] (Jupiter) | Similar to Jarsy, DEX-integrated, instant settlement | Launched Aug 2025, no public audit proofs |
 
 The distinction matters: Ventuals and Earlybird are pure derivatives - you never touch real shares, which sidesteps custody risk but means you're speculating on a number, not investing in a company. Jarsy and PreStocks claim actual equity backing, which gives more "real" exposure but creates custody risk and heavier regulatory burden.
 

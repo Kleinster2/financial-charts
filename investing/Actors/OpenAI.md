@@ -488,6 +488,20 @@ The competitive read: [[Anthropic]] — explicitly safety-coded — should benef
 
 ---
 
+## May 12, 2026 — Secondary-market void declaration (parallel to [[Anthropic]])
+
+OpenAI issued a stock-transfer-policy update on May 12, declaring all transfers without written board consent **void** under Delaware bylaw transfer restrictions. The language was identical to [[Anthropic]]'s May 11 notice (same "void" terminology, same target categories — SPVs, tokenized interests, forward contracts). Source reporting did not enumerate OpenAI's specific named platforms but noted "both companies named the same list of targets" (Yahoo / Bloomberg).
+
+OpenAI's notice statement: *"the sale will not be recognized and carry no economic value to you."* The choice of "void" (not voidable) is the most aggressive Delaware corporate-law stance — it eliminates good-faith-purchaser equitable defenses for downstream tokenized-contract buyers.
+
+Market reaction: tokenized [[OpenAI]] contracts on perp DEXs crashed approximately $1,400 → $900 (-36%) in 24 hours after the announcement — a sharper drawdown than tokenized [[Anthropic]] contracts saw on its May 11 notice. The contrast with OpenAI's October 2025 board-authorized tender offer ($6.6B across 600+ employees) is the structural point: the company has not moved against authorized secondary liquidity, only the unauthorized SPV / tokenized / forward-contract layer that grew up alongside it.
+
+Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]] and [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]].
+
+*Sources: [Yahoo Finance / Bloomberg — Anthropic and OpenAI warn buyers](https://finance.yahoo.com/markets/stocks/articles/anthropic-openai-warn-buyers-unauthorized-180743368.html); [Spendnode synthesis](https://www.spendnode.io/blog/anthropic-voids-unauthorized-stock-trades-1-6t-tokenized-may-2026/); [TechCrunch](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026, includes OpenAI parallel context).*
+
+---
+
 ## Related
 
 - [[ChatGPT]] — consumer/enterprise interface, 75% of revenue
@@ -518,3 +532,7 @@ The competitive read: [[Anthropic]] — explicitly safety-coded — should benef
 - [[MediaTek]] — chip co-designer (smartphone, joint with Qualcomm)
 - [[Luxshare Precision]] — exclusive smartphone assembly partner
 - [[Microsoft-OpenAI exclusivity end]] — Apr 27, 2026 partnership reset; cloud distribution opened
+- [[Private market secondaries]] — concept hub; May 12 2026 void declaration adds the issuer-pushback mechanism subsection
+- [[Tokenized private shares]] — concept hub; tokenized OpenAI contracts crashed $1,400 → $900 on May 12 void notice
+- [[Ventuals]] — perp DEX with OpenAI synthetic exposure
+- [[PreStocks]] — asset-backed tokenization platform
