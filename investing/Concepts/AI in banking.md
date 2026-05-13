@@ -141,6 +141,9 @@ Erica virtual assistant: 2B+ interactions. Focus on client service AI.
 
 ## Related
 
+### Parent hub
+- [[AI in financial services]] — parent concept covering banks + asset managers + insurers + fintechs + regulators (anchored on CCAF 2026 Global AI in Financial Services Report, N=628)
+
 ### US Banks
 - [[Wells Fargo]] — most aggressive AI-for-efficiency (65k jobs cut 2019-2025)
 - [[JPMorgan Chase]] — largest tech budget, "AI arms race" leader
@@ -157,3 +160,5 @@ Erica virtual assistant: 2B+ interactions. Focus on client service AI.
 - [[Agentic AI]] — next phase after generative AI
 - [[Singapore Tech]] — government-coordinated approach
 - [[Banking primer]] — industry context
+- [[AI in financial services]] — broader hub (financial services industry-wide adoption data)
+- [[AI infrastructure financing risk]] — capex sustainability + private credit linkage that connects AI deployment to financial stability

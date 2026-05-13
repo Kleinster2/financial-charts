@@ -11,6 +11,8 @@ tags:
 
 Granola — London-based AI meeting notes startup. No-bot architecture captures device audio without joining calls as a visible participant. Founded 2023, valued at $1.5B (March 2026).
 
+One-line read: priced as a context-infrastructure company, growing like one in the Feb 2026 cohort, but the moat is untested across a renewal cycle and the platform gap ([[Android]], web) is real. The [[Index Ventures]] round is a directional bet that the next three [[YipitData]] readings confirm Feb 2026 was the inflection, not the noise.
+
 ---
 
 ## Why Granola matters
@@ -53,6 +55,26 @@ Total raised: $192M across four rounds.
 
 ---
 
+## Growth signals (Feb 2026)
+
+Granola is private and does not publish revenue. [[YipitData]] card-panel and signals data (published Apr 2026, covering Feb 2026 cohort) provide the cleanest third-party read.
+
+| Metric | Value | Window |
+|--------|-------|--------|
+| Net new customers | 4× prior six-month average | Feb 2026 |
+| Gross adds | 9× | Jan 2026 → Feb 2026 |
+| Customer count, month-over-month | +25% | Feb 2026 |
+| Mid-market spend per customer | ~$6K | Feb 2026 |
+| Mid-market spend trajectory | 3× | prior 6 months |
+| Churn | Near zero | trailing |
+| Headcount growth | +49% | prior 6 months |
+
+[[YipitData]] also reports that customers adopting Granola frequently drop competing tools ([[Fathom AI]], [[Fireflies.ai]], [[Otter.ai]]) while the reverse pattern is rarely observed — a displacement signal, not coexistence.
+
+The Feb 2026 acceleration sits between two product milestones: the [[MCP]] server (Feb 2026) and the personal + enterprise APIs (Mar 2026). The growth surge is contemporaneous with — not subsequent to — the platform-positioning shift.
+
+---
+
 ## Product
 
 Core: AI notepad that transcribes meetings and generates structured notes without a bot.
@@ -87,13 +109,24 @@ AI meeting notes is a crowded, commoditizing category. The differentiation axis 
 
 | Competitor | Bot? | Notes |
 |-----------|------|-------|
-| Otter.ai | Yes | Established, enterprise |
-| Fireflies.ai | Yes | Mini-apps, insight extraction |
+| [[Otter.ai]] | Yes | Established, enterprise |
+| [[Fireflies.ai]] | Yes | Mini-apps, insight extraction |
 | tl;dv | Yes | Video clips, timestamps |
 | Read AI | Yes | Email "digital twin" |
-| Fathom | Yes | Free tier, simple UX |
+| [[Fathom AI]] | Yes | Free tier, simple UX |
 | Quill | No | Privacy-first, newer |
 | Talat | No | Fully on-device |
+
+[[YipitData]] customer-baseline comparison (Apr 2026 read):
+
+| Peer | Customer count vs Granola | Trend | Last disclosed round |
+|------|---------------------------|-------|----------------------|
+| [[Fathom AI]] | +20% | Growth slowing; headcount −6% | $17M Series A (Sep 2024) |
+| [[Otter.ai]] | +20% | Spend plateauing; 278 employees (Apr 2026) | $50M Series B (Feb 2021) |
+| [[Fireflies.ai]] | +40% | Spend declining; +5% headcount | $1B+ valuation (Jun 2025) |
+| Avoma | 13 mid-market customers | Flat adoption; +14% headcount | $12M Series A (Dec 2021) |
+
+Granola has the smallest installed base among the named peers but the steepest acquisition curve and the highest mid-market ARPU signal. [[Fireflies.ai]] sits at $1B+ with ~40% more customers than Granola — implying Granola's $1.5B price tag is being underwritten by growth and ARPU, not installed base.
 
 Granola's bet: meeting notes are becoming a commodity — the value is in context-as-infrastructure ([[MCP]], APIs) that feeds downstream AI workflows. This is why the valuation jumped 6× in a year despite the category being crowded.
 
@@ -114,10 +147,37 @@ Bear:
 - $1.5B valuation on unstated revenue — likely aggressive multiple
 - Local audio capture = potential legal liability in two-party consent jurisdictions
 - [[a16z]] partner incident: locking local database broke agent workflows, risking developer trust
-- No Android or web app yet
-- Competitors (Otter, Fireflies) have deeper enterprise footprints
+- Android planned for later 2026 with [[Google]] Drive sync and Google Assistant integration; web client still absent — installed-base gap vs [[Otter.ai]]/[[Fireflies.ai]] continues until ship
+- Competitors ([[Otter.ai]], [[Fireflies.ai]]) have 20–40% larger customer counts; head start on enterprise procurement cycles
 
 Private: no public market exposure. Watch for potential IPO if AI [[SaaS]] IPO window opens.
+
+---
+
+## Analysis
+
+The $1.5B mark is a growth multiple, not a footprint multiple. [[Fireflies.ai]] disclosed $1B+ in June 2025 with roughly 40% more customers than Granola; on a customer basis Granola is priced ~2× richer than its larger-installed-base peer. The [[Index Ventures]]-led round is therefore underwritten by the Feb 2026 inflection — net new customers at 4× the prior six-month average, gross adds 9× month-on-month, mid-market ARPU at ~$6K and 3× over six months — rather than by current installed base. If that acceleration normalises, the multiple compresses.
+
+The platform shift sits at the centre of the bet. The Feb 2026 customer surge is contemporaneous with the [[MCP]] server launch and pre-empts the Mar 2026 personal + enterprise API release; the acquisition layer is responding to platform positioning ahead of any platform revenue. Granola is selling a notepad and pricing a context-infrastructure layer. The Spaces tier and the $35+/user/month Enterprise plan are where that thesis has to materialise — at acquisition the story is working, but the Enterprise ARPU per seat needs to hold across renewal cycles to justify the step-up.
+
+Two structural tensions sit in the data. First, near-zero churn alongside displacement of [[Fathom AI]], [[Fireflies.ai]] and [[Otter.ai]] suggests the category is migrating to bot-free capture rather than fragmenting — Granola is winning on a feature axis competitors cannot easily match without rebuilding their architecture. Second, the platform gap is real: no Android, no web. The Android client is planned for later 2026 with [[Google]] Drive and Google Assistant integration but is undated; until ship, [[Otter.ai]] and [[Fireflies.ai]] retain a structural advantage in mixed-device enterprises and on-the-go capture. The valuation assumes that gap closes before the larger competitors retrofit local-capture.
+
+The Pedregal signal matters here. Socratic was a consumer education app that [[Google]] acquired — a successful exit on a smaller scale, with a Google-shaped buyer at the end. [[Google]] is also the platform owner Granola is most exposed to (Android, Workspace, Meet). The structural question for late-cycle [[SaaS]] is whether Granola becomes the canonical context layer for the [[MCP]] ecosystem or the canonical acquisition target when [[Google]] decides meeting notes belong in Workspace. The platform-positioning shift makes both outcomes more likely simultaneously.
+
+The bear case for the multiple is not "competitors will catch up" but "the data will revert." The Feb 2026 cohort is one month; the next three months of [[YipitData]] readings determine whether $1.5B is conservative or reflexive.
+
+---
+
+## What to watch
+
+| Signal | Why it matters | Trigger |
+|--------|----------------|---------|
+| Next two [[YipitData]] reads (May–Jun 2026 cohorts) | Tests whether Feb 2026 was inflection or noise; the entire $1.5B underwrite hinges on the curve holding | New customer-acquisition or spend readouts published Q2 2026 |
+| [[Android]] ship date | Every quarter of slip is a quarter [[Otter.ai]] and [[Fireflies.ai]] can retrofit local-capture; closes the platform gap that the bear case hinges on | Granola product blog / Pedregal interviews; integration with [[Google]] Drive + Google Assistant |
+| Enterprise renewal data on the $35+/user Spaces tier | Spaces stickiness is the real test of the context-infrastructure thesis; high acquisition with weak renewals = commodity, not platform | First full renewal cohort lands H2 2026 |
+| [[MCP]]-ecosystem retention | Whether meeting context actually shows up in downstream AI products ([[Claude]], [[ChatGPT]], [[Cursor]], [[Lovable]], [[Replit]], v0) validates the platform thesis; absence keeps it a notepad | MCP usage data, customer references for API-driven workflows |
+| AI [[SaaS]] IPO window | If the window opens, Granola is plausibly in the second wave; tests both the price and the public-market read on context-infrastructure | Sector IPO comps re-rate; bookrunner mandates |
+| [[Google]] strategic posture | Whether Workspace bundles a no-bot meeting layer, or [[Google]] approaches Granola for acquisition — both outcomes consistent with the same investor case | [[Workspace]] product announcements; Pedregal–[[Google]] proximity signals |
 
 ---
 
@@ -143,8 +203,11 @@ Private: no public market exposure. Watch for potential IPO if AI [[SaaS]] IPO w
 - [[Kleiner Perkins]] — Series C participant
 - [[Lightspeed Venture Partners]] — seed investor
 - [[Spark Capital]] — Series A lead
-- [[Google]] — acquired Pedregal's previous company Socratic
+- [[Google]] — acquired Pedregal's previous company Socratic; also Android/Workspace platform owner
 - [[Mistral]] — enterprise customer
+- [[Fireflies.ai]], [[Otter.ai]], [[Fathom AI]] — competitive customer-base benchmarks
+- [[YipitData]] — third-party signals source for growth metrics
+- [[MCP]] — context-infrastructure layer Granola is positioning on
 
 ### Cross-vault
 - [Technologies: Granola](obsidian://open?vault=technologies&file=Granola) — technical architecture, competitive landscape
