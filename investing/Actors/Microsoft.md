@@ -249,6 +249,27 @@ The $7.6B is the *incremental* adjustment from the Oct 2025 restructuring, not t
 
 ---
 
+## May 11, 2026 — $92B return target disclosed in Musk-OpenAI trial
+
+A January 2023 internal memo from [[Microsoft]] President [[Brad Smith]] to the [[Microsoft]] board projecting a **$92 billion return** on [[Microsoft]]'s cumulative $13B investment in [[OpenAI]] was disclosed in federal court on May 11, 2026, during [[Satya Nadella]]'s testimony in [[Elon Musk]]'s lawsuit against [[OpenAI]] and [[Microsoft]].
+
+| Disclosure | Value | Context |
+|---|---|---|
+| Memo date | January 2023 | Brad Smith → MSFT board |
+| Target return | $92B | On cumulative $13B invested |
+| Implied multiple at target | 7.1x | $92B / $13B |
+| Disclosed | May 11, 2026 | Federal-court testimony, Musk v OpenAI/MSFT |
+
+The disclosure matters for three reasons:
+
+1. **It under-anchored badly relative to reality.** The Mar 2026 [[OpenAI]] round valued the company at $852B. [[Microsoft]]'s ~27% stake is now worth roughly $220-230B (17-18× the original $13B investment), already 2.4× the January 2023 internal target. The memo represents the *pre-ChatGPT-scaling-revenue* base case from the [[Microsoft]] leadership; reality has overshot by a factor that legitimizes [[Brad Smith]]'s internal projection only in the sense of being unambiguously beaten.
+2. **Revenue-share payments continue through 2030, subject to a total cap.** Per April 27 2026 restructuring (see "Apr 27, 2026 — OpenAI exclusivity ended" section above), revenue share to [[Microsoft]] continues "independent of OpenAI's technology progress" but with an aggregate cap reportedly around $38B over the period (per FX Leaders coverage of the same court testimony). The $92B target therefore had at least two components — equity appreciation plus revenue-share economics — and the equity leg has already done all the work and then some.
+3. **Court disclosure precedent for AGI-clause and revenue-share terms.** The Musk lawsuit is pulling Microsoft's internal OpenAI economics into the public record one document at a time. Future court-disclosed exhibits could surface AGI-clause triggers, IP-access through 2032 details, and the original 32.5% → 27% dilution waterfall — all material to the [[OpenAI]] cap-table reconstruction.
+
+*Sources: [Bloomberg — Microsoft Targeted $92 Billion Return on Early OpenAI Investment](https://www.bloomberg.com/news/articles/2026-05-11/microsoft-targeted-92-billion-return-on-early-openai-investment), May 11 2026; [Seeking Alpha — Microsoft targeted $92B return on early OpenAI investment](https://seekingalpha.com/news/4590981-microsoft-targeted-92b-return-on-early-openai-investment-report); [FX Leaders — MSFT Stock Risks Breakdown Under $400 as OpenAI and Microsoft Set $38B Revenue Sharing Cap](https://www.fxleaders.com/news/2026/05/12/msft-stock-risks-breakdown-under-400-as-openai-and-microsoft-set-38b-revenue-sharing-cap/), May 12 2026.*
+
+---
+
 ## Q2 FY2026 earnings (Jan 28, 2026)
 
 **Beat estimates, but stock -10% on slowing Azure growth**
