@@ -408,6 +408,24 @@ Preferred shares were not split — issue prices below are original. Split-adjus
 
 Total shares outstanding: ~55.64M (preferred). [[Elon Musk]] holds ~42% equity with ~79% voting control. [[Dual-class shares]] structure being formalized for IPO.
 
+### FT monthly valuation arc (Jan 2024 – Mar 2026)
+
+The FT animated chart traces secondary-market marks between cap-table events, giving a higher-resolution view of how the private-market price moved. Extracted from the 27-frame chart embedded in [[OpenAI]]:
+
+| Period | Mark | Cap-table anchor |
+|---|---|---|
+| Jan 2024 – Jun 2025 | $137B | Jan 2023 a16z round at ~$77/share = ~$137B; held flat 17 months |
+| Jul 2025 | $345.7B | Approaching Jul 2025 tender at $212/share (~$400B) |
+| Aug – Oct 2025 | $400B | Jul 2025 tender complete |
+| Nov 2025 | $688.9B | Marking up toward Dec 2025 tender 8 at $421 (~$800B) |
+| Dec 2025 | $800B | Dec 2025 tender 8 complete |
+| Jan 2026 | $1,213.2B | Jan 2026 secondary at ~$588/share + xAI merger pricing in |
+| Feb – Mar 2026 | $1,250B | Post-xAI consolidation (FT chart footnote: "SpaceX includes xAI from Feb 2026") |
+
+The flat 17-month stretch at $137B (Jan 2024 – Jun 2025) reflects a quiet period between the Jan 2023 a16z round and the Jul 2025 tender — secondary marks did not lead the buildout. The acceleration from $137B → $1,250B in 9 months (Jul 2025 – Mar 2026) is what made SpaceX the most-valued private company in history. The Jan 2026 jump ($800B → $1,213B in one month) carries the xAI merger pricing. See the full 11-company comparative table in [[OpenAI]] for context vs OpenAI, Anthropic, ByteDance, and others.
+
+---
+
 ### Key investors
 
 | Investor | Notes |

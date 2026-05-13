@@ -109,6 +109,22 @@ Capital raised/committed: ~$72B+ raised including Apr 2026 upfront Google/Amazon
 
 Second-largest private tech financing on record, behind [[OpenAI]]'s $40B+. Nearly doubled valuation from $183B to $380B in five months.
 
+### FT monthly valuation arc (Jan 2024 – Mar 2026)
+
+Extracted from the 27-frame FT animated chart (full comparative table in [[OpenAI]]). Anthropic's trajectory has a notable feature: a 7-month gap (Aug 2024 – Feb 2025) when it dropped out of the top-10 entirely, before climbing back at 10x its prior mark.
+
+| Period | Mark | Round anchor |
+|---|---|---|
+| Jan – Jul 2024 | $18.4B | Lightspeed-led $750M Mar 2024 |
+| Aug 2024 – Feb 2025 | (off top-10) | Eclipsed by Revolut/Waymo/Databricks while waiting for next mark |
+| Mar – Jul 2025 | $61.5B | Series E $3.5B at $61.5B |
+| Aug 2025 | $173.3B | Pre-Series F secondaries |
+| Sep – Dec 2025 | $183B | Series F at $183B |
+| Jan 2026 | $363.9B | Marking up toward Feb Series G |
+| Feb – Mar 2026 | $380B | Series G $30B at $380B |
+
+The 20x climb (Jan 2024 $18.4B → Mar 2026 $380B) tracks Claude 3 → Claude 4 → Claude 4.6, the $9B → $30B revenue hockey-stick, and the AWS/Google strategic-investment cycle. The Aug 2024 – Feb 2025 gap is when Claude was technically caught up but commercially behind — the Series E mark in Mar 2025 was the first time the private market priced Anthropic ahead of consumer-fintech peers.
+
 ---
 
 ## Cap table

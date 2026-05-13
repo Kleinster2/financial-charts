@@ -316,6 +316,22 @@ Valuation trajectory: $24B → $50B → $200B → $230B → ~$250B (SpaceX merge
 
 Note: X Corp investors received 25% of xAI (announced Nov 2023).
 
+### FT monthly valuation arc (Apr 2024 – Dec 2025)
+
+Extracted from the 27-frame FT animated chart (full comparative table in [[OpenAI]]). xAI's trajectory is unique among top-10 private companies because it has both an entry (Apr 2024, at the chart's $1B threshold) and an exit (Feb 2026, consolidated into [[SpaceX]] per FT chart footnote "SpaceX includes xAI from Feb 2026"). From Jan 2026 onward xAI is not separately tracked.
+
+| Period | Mark | Round anchor |
+|---|---|---|
+| Jan – Mar 2024 | (off top-10) | Pre-Series B, sub-$1B threshold |
+| Apr 2024 | $1B | First entry to chart |
+| May – Sep 2024 | $24B | Series B at $24B |
+| Oct 2024 | $45.8B | Marking up toward Series C |
+| Nov 2024 – Nov 2025 | $50B | Series C $6B at $50B; flat 13 months |
+| Dec 2025 | $202.8B | Series D $10B at $200B + Series E mark-up |
+| Jan – Mar 2026 | (consolidated) | [[SpaceX xAI merger]]; pricing rolls into SpaceX line ($1,213B Jan → $1,250B Mar) |
+
+The 13-month plateau at $50B (Nov 2024 – Nov 2025) is the longest flat stretch for any top-10 company in the period — xAI's mark held while it built [[Colossus]] and pre-Grok-3 capability. The Dec 2025 step from $50B to $202.8B (+4x in one month) marks both Series D and the secondary mark-up before the SpaceX merger closed. Once the merger consolidates the entity, the FT chart treats SpaceX+xAI as a single line — the $202.8B last-mark contributes to SpaceX's Jan 2026 jump from $800B to $1,213B.
+
 ---
 
 ## Key investors

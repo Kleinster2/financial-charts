@@ -297,6 +297,127 @@ All four patterns are deferred-by-default — they're not part of the standard `
 
 ---
 
+## Statistical falsification
+
+The basic validation produces point estimates against heuristic thresholds (0.50 / 0.70 / 70%). The four scripts below put **distributions** behind those point estimates — they turn "above the threshold" into "in the top X% of a null distribution." Use them when a cluster claim needs to survive a rigorous test, not just clear a convention.
+
+| Diagnostic | Script | Answers |
+|---|---|---|
+| Permutation p-values | `scripts/cluster_permutation_test.py` | Could the observed intra-corr / PC1 arise from a random N-pick of comparable names? |
+| Out-of-sample stability | `scripts/cluster_holdout_test.py` | Does the cluster survive a temporal train/test split, or is it a single-regime artifact? |
+| Threshold stability | `scripts/cluster_threshold_scan.py` | Is the cohort intact across a range of dendrogram cuts, or only at one specific threshold? |
+| Multi-test correction | `scripts/cluster_registry.py` | Across all logged cohorts, which validations survive Bonferroni / FDR correction? |
+
+All four scripts share `cluster_analysis.py`'s config schema and data loaders. They auto-append diagnostics to `scripts/cluster_registry.csv` for cross-cohort accounting.
+
+### 1. Permutation p-values
+
+Tests two nulls (default runs both):
+
+**Independence null** — shuffle each ticker's returns independently. Tests "are these series moving together at all?" Almost every cohort passes this. Necessary, not sufficient.
+
+**Random-basket null** — repeatedly sample N=|cohort| tickers from the broader universe (DB `prices_long` with >=200 obs in the window) and compute their intra-corr + PC1. Tests "could the observed cohesion arise from a random N-pick of comparable names?" This is the meaningful pass.
+
+```bash
+python scripts/cluster_permutation_test.py --primary RKLB
+python scripts/cluster_permutation_test.py --primary MAG7 --n-perm 10000
+python scripts/cluster_permutation_test.py --primary RKLB --null random-basket --universe-file scripts/universes/large_cap_us.txt
+```
+
+Output: histogram of null distribution with observed marker + p-values for each null. Interpretation:
+
+| Random-basket p | Verdict |
+|---|---|
+| p < 0.001 | Strong cluster (top 0.1% of random baskets) — Space pure-plays sits here |
+| 0.001 ≤ p < 0.01 | Real cluster but not extreme |
+| 0.01 ≤ p < 0.05 | Marginal — barely beats random — Mag 7 sits here |
+| p >= 0.05 | Falsified — cohesion is indistinguishable from a random N-pick |
+
+Worked examples (1Y window through 2026-05-07):
+- Space pure-plays: random-basket p < 0.001 for both intra-corr and PC1.
+- Mag 7: random-basket p = 0.010 (intra-corr) and 0.027 (PC1). Clears the threshold but the gap to a "real" cluster is enormous.
+
+### 2. Out-of-sample holdout test
+
+Splits the analysis window temporally (older half = train, newer half = test) and computes intra-corr + PC1 + PC1 loadings on each half independently. The stability ratio (test / train intra-corr) tests regime durability.
+
+```bash
+python scripts/cluster_holdout_test.py --primary RKLB --window 2y
+python scripts/cluster_holdout_test.py --primary MAG7 --window 3y
+```
+
+Verdict bands:
+
+| test / train intra-corr | Verdict |
+|---|---|
+| >= 1.10 | STRENGTHENING — cohort consolidating (look for regime shift in train half) |
+| 0.85 – 1.10 | STABLE — durable cluster across regimes |
+| 0.60 – 0.85 | WEAKENED — factor present but eroding |
+| < 0.60 | REGIME-DEPENDENT — cluster does not survive holdout |
+
+PC1 loadings correlation (train vs test) is a second diagnostic — values near 1.0 mean the same factor structure persists; values near 0 mean the factor flipped.
+
+Worked examples (2Y split):
+- Space pure-plays: ratio 1.37 (STRENGTHENING). PC1 loadings corr 0.56. The cohort tightened with the Nov 2025 regime shift.
+- Mag 7: ratio 0.44 (REGIME-DEPENDENT). PC1 loadings corr -0.08. The cohort was tight in 2024 (intra-corr 0.72) but the factor structure flipped — by 2025-2026 the names trade differently from how they used to. This is the strongest single falsifier of Mag 7 as a tradable basket.
+
+### 3. Threshold stability scan
+
+Sweeps distance thresholds from 0.20 to 0.70 in 0.05 steps and reports, at each step, whether the candidate cohort is intact (all members in one cluster, no contamination from non-cohort tickers). The "stable range" is the contiguous threshold band where the cohort is intact.
+
+```bash
+python scripts/cluster_threshold_scan.py --primary RKLB
+python scripts/cluster_threshold_scan.py --primary MAG7 --step 0.01   # finer resolution
+```
+
+Verdict bands:
+
+| Total stable width | Verdict |
+|---|---|
+| >= 0.20 | ROBUST — cohort survives a wide threshold range |
+| 0.10 – 0.20 | MODERATELY ROBUST — finite stable range |
+| 0.05 – 0.10 | FRAGILE — validation depends on threshold pick |
+| 0.00 | BOUNDARY-DEPENDENT — cohort never forms a clean cluster at any threshold (falsification) |
+
+Worked examples (default step 0.05):
+- Space pure-plays: stable range [0.45, 0.50] (width 0.05, FRAGILE). At threshold 0.55+, IWM and SPY contaminate the cluster (the cohort starts trading with broad small-cap risk-on at looser cuts).
+- Mag 7: zero stable range. The 7 names are singletons at every threshold ≤ 0.55, and the first non-cohort tickers to join their cluster are semis (TSM, ASML, AMAT, KLAC, LRCX) — Mag 7 names are MORE similar to semis than to each other.
+
+This is the cleanest binary falsification result in the framework: a cohort that never forms a single cluster at any threshold is not a cluster.
+
+### 4. Multiple-testing correction
+
+Every run of the three test scripts auto-appends a row to `scripts/cluster_registry.csv`. The registry is the cross-cohort log of every diagnostic ever run. When the registry has accumulated N cohorts, applying multiple-testing correction tells you how many of the "validated at p < 0.05" results are likely true discoveries.
+
+```bash
+python scripts/cluster_registry.py list                    # all entries
+python scripts/cluster_registry.py summary                 # one row per cohort
+python scripts/cluster_registry.py correction --alpha 0.05 # Bonferroni + BH
+```
+
+Output is a per-cohort pass/fail table for three thresholds:
+
+| Threshold | Formula | Use case |
+|---|---|---|
+| Uncorrected | p ≤ alpha | Single ex-ante hypothesis |
+| Bonferroni | p ≤ alpha / N | Strict family-wise error control across N tests |
+| Benjamini-Hochberg | sorted p ≤ k × alpha / N (largest k satisfying) | FDR control — better default for exploratory screens |
+
+The expected number of false discoveries after FDR control is `uncorrected_passes - bh_passes`. If the registry has 30 cohorts and 25 pass uncorrected but only 18 pass BH at alpha=0.05, the framework is essentially saying "~7 of those 25 are likely random hits given how many candidates you screened."
+
+### When to invoke
+
+| Situation | Run |
+|---|---|
+| New cohort hitting validated thresholds — sanity-check it isn't random | `cluster_permutation_test.py` |
+| Validated cohort but want to know if it's durable across regimes | `cluster_holdout_test.py` |
+| Cohort claim is borderline (intra-corr 0.50-0.60); want robust boundary | `cluster_threshold_scan.py` |
+| After screening many cohorts; want to know which survive correction | `cluster_registry.py correction` |
+
+Required for every NEW cluster note: at minimum a random-basket p-value and a threshold-stable width. Holdout test is required when the cohort spans a known regime shift or when the cohort intra-corr is borderline. Multiple-testing correction is required quarterly across the active registry.
+
+---
+
 ## Where the diagnostic lives in the vault
 
 Single source of truth: the durable cluster validation diagnostic lives in exactly one note — the `Sectors/` child note (or `Concepts/` note) that owns the cohort identity. Examples:
@@ -370,14 +491,18 @@ When you create or expand a public-company actor note:
 1. Identify the candidate peer cohort (2-7 names typical).
 2. Identify 2-3 adjacent-sector control groups + 3-4 broad ETFs.
 3. Write `scripts/cluster_configs/{primary_ticker}.yaml`.
-4. Run `python scripts/cluster_analysis.py --primary {ticker}`.
+4. Run `python scripts/cluster_analysis.py --primary {ticker}` (basic diagnostics).
 5. Read `results.txt`; verify:
    - Intra-cluster correlation > 0.5
    - Hierarchical clustering returns the proposed cohort (or a close variant)
    - PC1 explained variance > 50%
-6. Iterate the candidate list if the math says the boundary is wrong.
-7. Embed the dendrogram + summary table in the actor or concept note.
-8. Log the validation in today's daily note: "validated [[Cluster name]] cohort (intra-corr X.XX, PC1 XX.X%)".
+6. Run `python scripts/cluster_permutation_test.py --primary {ticker}` (random-basket p-value required for new cohorts).
+7. Run `python scripts/cluster_threshold_scan.py --primary {ticker}` (stable threshold width required).
+8. If the cohort spans a known regime shift OR intra-corr is borderline (0.50-0.60), run `python scripts/cluster_holdout_test.py --primary {ticker} --window 2y`.
+9. Iterate the candidate list if the math says the boundary is wrong.
+10. Embed the dendrogram + summary table in the actor or concept note. Include p-values in the status callout when available.
+11. Log the validation in today's daily note: "validated [[Cluster name]] cohort (intra-corr X.XX, PC1 XX.X%, random-basket p X.XXX)".
+12. Quarterly: run `python scripts/cluster_registry.py correction` to check FDR-corrected status across all logged cohorts.
 
 If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is a sector orphan" — that is itself a valid finding (matches the existing `> [!warning] Sector Orphan` callout used by `add_sector_correlations.py`). Note it in the actor.
 
@@ -391,6 +516,10 @@ If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is
 - Config: `scripts/cluster_configs/rklb.yaml`
 - Scripts (worked examples):
   - `scripts/cluster_analysis.py` (basic validation — produces correlation heatmap, dendrogram, PCA biplot, results.txt)
+  - `scripts/cluster_permutation_test.py` (random-basket + independence null p-values)
+  - `scripts/cluster_holdout_test.py` (temporal train/test split — regime durability)
+  - `scripts/cluster_threshold_scan.py` (threshold-stable range — boundary robustness)
+  - `scripts/cluster_registry.py` (cross-cohort log + Bonferroni / Benjamini-Hochberg correction)
   - `scripts/cluster_stability_check.py` (rolling window stability — YTD/1Y/2Y/3Y)
   - `scripts/chart_pc1_component.py` (PC1 factor index + rolling explained variance)
   - `scripts/cluster_deep_dive.py` (factor decomposition vs benchmarks + PC2 + missing-name screen)
@@ -403,8 +532,8 @@ If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is
 
 ### Worked examples by status
 
-- Canonical validated cluster: [[Space pure-plays]] (intra-corr 0.624, PC1 67.96%, all advanced patterns documented)
-- Canonical falsified cluster: [[Mag 7 cluster]] (intra-corr 0.316, PC1 41.82%, negative intra-advantage vs ETFs at -0.215, 6 of 7 names are hierarchical-clustering singletons — same N=7 as Space pure-plays but materially different result; useful as the "what falsification looks like" reference)
+- Canonical validated cluster: [[Space pure-plays]] (intra-corr 0.624, PC1 67.96%, random-basket p < 0.001 on both diagnostics, holdout ratio 1.37 STRENGTHENING, threshold stable [0.45, 0.50])
+- Canonical falsified cluster: [[Mag 7 cluster]] (intra-corr 0.316, PC1 41.82%, random-basket p = 0.010 / 0.027 — barely beats random, holdout ratio 0.44 REGIME-DEPENDENT, threshold zero-width BOUNDARY-DEPENDENT — never forms a clean cluster at any threshold; first non-cohort tickers to join are semis, not other Mag 7 names)
 - Older basic-validation example: [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] (single-page write-up format, simpler structure than the full Space pure-plays treatment)
 - Config schemas: `scripts/cluster_configs/rklb.yaml` (canonical), `scripts/cluster_configs/mag7.yaml` (falsified), `scripts/cluster_configs/boutique_advisory.yaml` (basic example)
 

@@ -203,6 +203,18 @@ Valuation: ~$300B (secondary market, fluctuates with TikTok news)
 | Pre-IPO   | 2018      | $3B     | $75B        | [[SoftBank]], [[KKR]], [[General Atlantic]] |
 | Secondary | 2020–2025 | Various | $100B–$480B | Secondary market transactions               |
 
+### FT monthly valuation arc (Jan 2024 – Mar 2026)
+
+Extracted from the 27-frame FT animated chart (full comparative table in [[OpenAI]]). ByteDance's trajectory is the cleanest "stuck" story in the dataset: 21 flat months at $220B, then a sudden Oct 2025 re-rating to $397.4B and a Nov 2025 step to $480B that has held since.
+
+| Period | Mark | Notes |
+|---|---|---|
+| Jan 2024 – Sep 2025 | $220B | Flat 21 months; secondary marks suppressed by [[TikTok]] divestiture overhang |
+| Oct 2025 | $397.4B | Step-jump in secondary marks — [[Donald Trump]] / [[CFIUS]] divestment-deal framework cleared overhang |
+| Nov 2025 – Mar 2026 | $480B | Holding flat post-step; matches private secondary tender activity |
+
+The 21-month plateau is the longest flat stretch for any company in the FT chart period — ByteDance was the largest private company in the dataset for most of 2024-2025 but couldn't mark up while the US divestiture question remained unresolved. The Oct 2025 step from $220B → $397.4B (+81% in one month) coincides with the geopolitical clarification on [[TikTok]]'s US status. Even after the re-rating, ByteDance trails [[OpenAI]] ($852B) and [[SpaceX]] ($1,250B) by Mar 2026 — the company that was the largest in the dataset for 21 months is now third by a wide margin, and the gap is widening as OpenAI/SpaceX mark up on AI capex narratives that don't apply to TikTok/Douyin.
+
 ---
 
 ## Memory demand

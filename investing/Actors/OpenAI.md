@@ -176,12 +176,13 @@ Total raised: ~$180B+ across 11 rounds.
 
 ### Top-10 private company valuations, monthly ($bn)
 
-Extracted from the 26 FT animated-chart frames. Blank = company outside top 10 that month.
+Extracted from 27 FT animated-chart frames (Mar 2024 frame added separately on May 13). Blank = company outside top 10 that month.
 
 | Month | OpenAI | SpaceX | ByteDance | Anthropic | xAI | Ant Group | Stripe | Databricks | Reliance Retail | Waymo | Revolut |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Jan 2024 | 29 | 137 | 220 | 18.4 | — | 150 | 50 | 43 | 101.4 | 30 | 0 |
 | Feb 2024 | 80 | 137 | 220 | 18.4 | — | 150 | 50 | 43 | 101.4 | 30 | — |
+| Mar 2024 | 80 | 137 | 220 | 18.4 | — | 150 | 52.7 | 43 | 101.4 | 30 | 0 |
 | Apr 2024 | 80 | 137 | 220 | 18.4 | 1 | 150 | 65 | 43 | 101.4 | 30 | — |
 | May 2024 | 80 | 137 | 220 | 18.4 | 24 | 150 | 65 | 43 | 101.4 | 30 | — |
 | Jun 2024 | 80 | 137 | 220 | 18.4 | 24 | 150 | 65 | 43 | 101.4 | 31.3 | — |
