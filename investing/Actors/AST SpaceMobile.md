@@ -220,6 +220,46 @@ The PC1 score for the cohort tomorrow (Tuesday May 12) is the cleanest single-da
 
 *Sources: [TipRanks — ASTS Q1 options market 19.9% price swing](https://www.tipranks.com/news/ast-spacemobile-asts-q1-earnings-on-deck-options-traders-brace-for-a-19-9-price-swing); [Yahoo / Zacks — Stance on ASTS ahead of Q1 earnings](https://finance.yahoo.com/markets/stocks/articles/stance-asts-stock-ahead-q1-170800818.html); [MarketBeat — ASTS to release Q1 earnings May 11](https://www.marketbeat.com/instant-alerts/ast-spacemobile-asts-to-release-quarterly-earnings-on-monday-2026-05-04/), pre-market May 11 2026.*
 
+## May 11, 2026 — Q1 print (after close): revenue light vs preview, deployment + cash position confirmed
+
+ASTS reported Q1 2026 after market close on May 11. The print delivered substantial detail across the operational + financial framework laid out in the preview, with most watch items confirmed and one (revenue) softer than the Zacks consensus that had set the bar at $38.24M.
+
+| Metric | Q1 2026 actual | Q1 consensus | Q1 prior guide |
+|---|---|---|---|
+| Revenue | $14.7M | $38.24M | — |
+| Net loss attributable to common | -$191.0M | — | — |
+| EPS (diluted) | (commensurate with loss) | -$0.23 | — |
+| Pro forma cash | $3.5B | — | $3.9B (prior guide) |
+| FY 2026 revenue guide | $150-200M (reaffirmed) | — | — |
+| FY 2026 pipeline | $1.2B+ commercial | — | $1B+ pledged |
+
+### Revenue context — light vs Zacks, on-track per management framing
+
+The $14.7M Q1 revenue is below the Zacks $38.24M consensus, but management's framing is that Q1 was driven by US government milestones and gateway hardware sales — discrete project-based revenue rather than the carrier-recurring-revenue stream that the multi-year thesis is built around. The FY 2026 revenue guide of $150-200M is reaffirmed, implying ~$135-185M to come over Q2-Q4 as carrier services activate and government milestones deliver. The Q1 print resets the *quarterly cadence* expectation but not the FY framework.
+
+### Operational milestones — fully confirmed
+
+Three of the four key watch items from the preview confirmed cleanly:
+
+1. **BlueBird 8-10 launch timeline intact** — All three satellites confirmed launching to LEO in **mid-June** (within the ~30-day-from-Q1-call window management had previously articulated). The launch sequence supports the 45-satellite end-of-2026 framework.
+2. **Production pipeline operational** — BlueBird 11 through BlueBird 33 in *advanced stages of production and assembly*. The 23-satellite production pipeline (in addition to BB8-10 launching mid-June) represents the back-loaded 2026 deployment that fills the 45-satellite year-end target.
+3. **45-satellite end-of-2026 target** — Management implicitly reaffirmed the 45-satellite year-end target despite BlueBird-1 loss; the 23-satellite production pipeline (BB11-33) plus BB8-10 launches gives 26 additional satellites within the year, supporting the path to 45 even with BB-1 attrition.
+4. **Cash runway extended** — $3.5B vs prior $3.9B implies ~$400M Q1 cash outflow (in the middle of the $420-500M implied range). Cash position remains 7-8Q runway at this burn pace, lengthened slightly by the convertible-debt raise announced concurrent with the print.
+
+### Stock reaction (post-close)
+
+Initial after-hours reaction: stock up materially despite the revenue light vs consensus. The market is weighing the operational confirmation (BB8-10 mid-June + 45-sat path intact + production pipeline visibility + $1.2B+ pipeline) over the Q1 revenue softness. The +14.8% Friday session already had baked in some bull-case operational expectations; the after-hours move confirms those expectations rather than re-rating higher.
+
+The Tuesday May 12 cash session is the cleanest single-day PC1 read on whether the [[Space pure-plays]] cohort follows ASTS up or whether the basket consolidates ahead of next idiosyncratic catalysts ([[Rocket Lab]] earnings cycle, [[Intuitive Machines]] mission deployments, [[BlackSky]] commercial milestones).
+
+### Strategic stakes for cohort
+
+ASTS Q1 was the binary test for the [[Space pure-plays]] post-regime-shift framework, and the framework passed. Operations on-track, 45-sat target intact, cash visibility healthy. The basket's post-Nov-2025 0.656 intra-correlation and 71.2% PC1 explained variance should hold through the May 12 session, and the bull-case continuation of the cohort's structural-cluster argument depends on whether the remaining single-name catalysts (RKLB, LUNR, BKSY, PL, SPIR, RDW) print equivalently clean operational confirmations through Q2.
+
+The structural read from Q1 2026: ASTS is *closer to commercialization* than the bear case priced. The $1.2B+ pipeline + reaffirmed $150-200M FY guide + on-track production frame the multi-year thesis as ahead-of-schedule, not behind it.
+
+*Sources: [Business Wire — AST SpaceMobile Provides Business Update and First Quarter 2026 Results](https://www.businesswire.com/news/home/20260511685431/en/AST-SpaceMobile-Provides-Business-Update-and-First-Quarter-2026-Results); [The Motley Fool — AST SpaceMobile Q1 2026 Earnings Transcript](https://www.fool.com/earnings/call-transcripts/2026/05/11/ast-spacemobile-asts-q1-2026-earnings-transcript/); [Stocktitan — ASTS 10-Q quarterly earnings report](https://www.stocktitan.net/sec-filings/ASTS/10-q-ast-space-mobile-inc-quarterly-earnings-report-54ad1c7456db.html); [Stocktitan — ASTS 8-K Q1 2026 results and outlook](https://www.stocktitan.net/sec-filings/ASTS/8-k-ast-space-mobile-inc-reports-material-event-75ced08d18a6.html); [Seeking Alpha — ASTS 2026 Q1 results earnings call presentation](https://seekingalpha.com/article/4902657-ast-spacemobile-inc-2026-q1-results-earnings-call-presentation), May 11 2026 (after close).*
+
 ---
 
 ## Related

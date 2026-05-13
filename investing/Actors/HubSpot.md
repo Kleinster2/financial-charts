@@ -126,6 +126,26 @@ The structural read is the binding one for the [[SaaS]] sector going into Q2 rep
 
 *Sources: TheStreet daily wrap May 8; local quick_movers.py screen May 8 2026.*
 
+### Q1 2026 financial detail + BofA double-downgrade
+
+The headline numbers were actually a clean beat:
+
+| Metric | Q1 2026 | YoY | vs Street |
+|---|---|---|---|
+| Revenue | $881M | +23.4% | Beat |
+| Adjusted EPS | $2.73 | +52.8% | Beat |
+| Q2 guide (revenue) | $897-898M | +18% (deceleration) | $902M expected → miss |
+
+The selloff (-21% to a 52-week low) was driven by:
+
+1. **[[Bank of America]] double-downgrade** from Buy → Underperform (skipping Neutral). Price target cut from $300 → $180 (40% cut). The framing: HubSpot's go-to-market shift toward AI/credits-based pricing model brings a new layer of execution risk that the prior multiple did not price.
+2. **Sales-rep retraining cost** — HubSpot disclosed an April investment to retrain reps on new Breeze AI agent products + the pivot to credits-based pricing. The April retraining reduced sales capacity during the month, producing the slow Q2 start.
+3. **Pricing/packaging model change** — the credit-based pricing is structurally different from the seat-based pricing the SaaS equity multiple is built on. Even if total customer spend is preserved or grows, the *consumption-pricing* framing introduces variance that valuation multiples discount.
+
+The BofA double-downgrade is the most aggressive sell-side action in the SaaS cohort this cycle — a Buy-to-Underperform with no Neutral pass is the standard signal that the analyst expects fundamental reset, not multiple compression. HubSpot's stock at the new $180 target would represent another 8-9% downside from May 8 close, framing the BofA call as anchor-on-the-downside rather than passive recalibration.
+
+Cross-read with the May 11 [[Ed Yardeni|Yardeni]] 8,250 target raise: Yardeni's framework requires the no-revisions-cut earnings hypothesis to survive H2. HubSpot is the first prominent SaaS name where Q2 guide explicitly cuts forward revenue estimates — a counter-datapoint to the no-cut framework that has not been priced into the broader [[SaaS]] cohort yet.
+
 ---
 
 ## Related

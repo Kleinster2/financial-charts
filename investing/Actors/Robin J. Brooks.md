@@ -324,6 +324,22 @@ The investing implication: long [[Brazilian real|BRL]] and broader [[EM]]-FX rot
 
 *Source: [Broad Dollar Weakness](https://robinjbrooks.substack.com/p/broad-dollar-weakness), May 9 2026.*
 
+### "The Relationship Between The Dollar And Oil" (May 11)
+
+Brooks documented a structural-regime shift in the [[US dollar|USD]] / [[Oil]] correlation. The historical pattern — operative through ~2008 — had the two assets moving in opposite directions: higher oil hurt the US trade balance and put downward pressure on the [[US dollar|dollar]], which is exactly what produced the canonical "petrodollar recycling" story of the 1970s-2000s.
+
+The post-2008 [[Shale oil revolution]] flipped this. The US became a net energy exporter over the past decade, which means rising oil prices now constitute a *positive* terms-of-trade shock for the US rather than a negative one. Brooks's chart shows the empirical correlation switching from negative (pre-2008) to slightly positive in the most recent decade.
+
+Quoted: *"rising oil prices should — at the margin — lift the Dollar."*
+
+Caveat Brooks explicitly applies: petroleum exports remain a small fraction of US total trade flows. The dollar-oil link is structurally real but secondary to rate-differential and broader monetary-policy factors. Practical importance: when the [[Federal Reserve|Fed]] is cutting (May-Jun 2026 base case), the dollar-oil link is dominated by the rate channel and the structural shift is masked. When the [[Fed]] is on hold, the oil channel can re-emerge as a marginal driver.
+
+The piece is the structural complement to the May 9 [[Broad Dollar Weakness]] and May 7 [[Iran conflict FX dynamics|Dollar Outlook After The War]] work. The implication for the post-resolution scenario: Brooks's base case has the dollar weakening on resolution (energy-shock-relief reduces safe-haven demand) — but the oil-correlation shift means the dollar weakness is bounded if oil declines simultaneously, because the US energy-exporter status now provides a partial buffer the 1970s-2000s dollar didn't have. This is the cleanest reason to expect a contained rather than uncapped post-war dollar correction.
+
+Cross-vault flag: belongs in geopolitics as a [[Shale oil revolution#Petrocurrency dynamics|petrocurrency regime shift]] entry, and in history as evidence that the post-2008 US energy-export regime represents a durable structural rupture vs the petrodollar era.
+
+*Source: [The Relationship Between The Dollar And Oil](https://robinjbrooks.substack.com/p/the-relationship-between-the-dollar), May 11 2026.*
+
 ## Related
 
 - [[2026 Iran conflict market impact]]

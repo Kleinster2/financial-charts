@@ -133,6 +133,28 @@ On the two-week US-Iran ceasefire: "Most portfolios are not built for stagflatio
 
 *Source: CNBC / social media commentary (Apr 8, 2026)*
 
+## April 25, 2026 — "Fiscal Re-Acceleration"
+
+Premium-newsletter installment in the Alden fiscal-dominance series. Title points to the operative claim: US fiscal trajectory is no longer decelerating from pandemic-era peaks but re-accelerating into a fresh cycle — driven by the [[2026 Strait of Hormuz crisis|Iran-war]] supplementals, [[Trump]] administration tax-and-spend posture, and the structural baseline that no political faction is pushing fiscal restraint. The piece is the bridge between the March stagflation framework and the May EM-breakout call: the same fiscal-re-acceleration that pressures the dollar produces the EM-equity break.
+
+*Source: [Fiscal Re-Acceleration — Lyn Alden Premium](https://www.lynalden.com/premium-2026-4-25/), Apr 25 2026 (paywalled).*
+
+## May 10, 2026 — "Emerging Markets Breakout"
+
+Premium-newsletter call repositioning the three-pillar framework into an explicit [[Emerging Markets]] equity overweight. The thesis sits on the convergence of three Alden frameworks that have been building independently:
+
+| Framework | Mechanism | Cross-link |
+|---|---|---|
+| Fiscal dominance | US deficits expand the [[Federal Reserve]] balance sheet to support financial-sector liquidity → suppresses real yields → catalyst for EM-equity flows | [[Fiscal Dominance]] |
+| Dollar weakness | Brooks's May 11 USD-oil-correlation regime shift + post-war dollar weakness scenario reinforces EM-FX appreciation | [[Robin J. Brooks#"The Relationship Between The Dollar And Oil" (May 11)|Brooks May 11]] |
+| Commodity-producer EMs | The [[Iran conflict war duration]] sustained-oil-premium scenario favors commodity-producing EMs (Brazil, Mexico, Indonesia, MENA petrostates) on terms-of-trade | [[Jeff Currie]] commodity supercycle |
+
+Practical positioning: Alden's preferred EM expression is the commodity-producer subset — [[Brazil]] equities (via [[EWZ]] / [[BBD]] / [[VALE]] / [[Petrobras]]), Indonesian banks, and Gulf-petrostate sovereign equity. The piece is the cleanest macro-strategist call this cycle that the dollar-cap regime + fiscal-dominance + commodity-tailwind triple-stack is the EM-breakout setup, distinct from past EM rallies that relied on US disinflation or Chinese demand acceleration.
+
+Cross-name read: the [[MercadoLibre]] May 8 -12.7% reaction is the *single-name* counter to the broader EM-equity setup Alden is calling — MELI's Brazil free-shipping margin compression is a structural Brazil-equity weight rather than a broad EM-thesis weight, and the dispersion between [[EWZ]] (broad Brazil) and [[MELI]] (single-name LatAm e-commerce) is where the active EM-equity allocation will be expressed.
+
+*Source: [Emerging Markets Breakout — Lyn Alden Premium](https://www.lynalden.com/premium-2026-5-10/), May 10 2026 (paywalled).*
+
 ---
 
 ## Related

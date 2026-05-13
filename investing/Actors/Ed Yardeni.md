@@ -242,3 +242,44 @@ The framework pairs with [[Mike Wilson]] May 4 ($600B 2026 capex + 16% Q1 EPS gr
 Cross-name read with the May 7 mover tape: the software / AI / cybersecurity strength ([[Datadog]] +31.3%, [[Fortinet]] +23.7%, [[Axon]] +11.9%) supports Yardeni's case; the consumer-discretionary fade ([[Vital Farms]] -23.8%, [[Zoetis]] -21.1%, [[Whirlpool]] -13.9%) supports the bear-side. The same-day bifurcation is the test the bull case has to survive.
 
 *Sources: [CNBC — Market rally will keep going into next year, says Yardeni Research's Ed Yardeni](https://www.cnbc.com/video/2026/05/05/market-rally-will-keep-going-into-next-year-says-yardeni-researchs-ed-yardeni.html), May 5 2026; [Yardeni Quick Takes — 2026 may be a rare year](https://www.yardeniquicktakes.com/).*
+
+---
+
+## May 11, 2026 — target raised 7,700 → 8,250 ("I've been bullish, but not bullish enough")
+
+CNBC *Squawk Box* (May 11): Yardeni hiked his year-end 2026 [[S&P 500]] target from 7,700 to 8,250 — an 11.5% upside from Friday's close of 7,398.93 and the highest among Wall Street forecasters tracked by Bloomberg. He told CNBC: *"I've been bullish, but not bullish enough."*
+
+The driver is one word: earnings.
+
+| Metric | Q1 2026 | Vs. prior cycle |
+|---|---|---|
+| S&P 500 companies reported | 400+ of 500 | — |
+| Beat rate (bottom line) | 84% | Highest since Q2 2021 |
+| YoY EPS growth | 25.6% | 5-year avg: 7.1% |
+| Full-year 2026 EPS growth (analyst estimate) | ~23% | "Extraordinary" |
+
+Yardeni framed the Q1 print as "gangbusters" and the analyst-revision pattern as anomalous — earnings estimates have continued climbing through the quarter rather than the usual 5-10% mid-year cuts. This is the no-revisions-cut hypothesis from his May 5 framework, now empirically confirmed by the Q1 tape.
+
+### Decadal target maintained
+
+Yardeni stuck with his 10,000 [[S&P 500]] target by end-2029 — and added: *"It might arrive ahead of schedule."* The Roaring 2020s framework remains the base case; the May 11 update is a calibration upward inside that framework, not a regime shift.
+
+### Where 8,250 sits in the strategist range
+
+| Firm | 2026 year-end target | Stance |
+|---|---|---|
+| Yardeni Research | **8,250** | Most bullish on the Street |
+| RBC | 7,800 | Recently raised |
+| HSBC | 7,500 | Recently raised |
+| Morgan Stanley ([[Mike Wilson]]) | ~7,800 (H2-weighted) | Bullish |
+| Bear consensus (BTIG [[Jonathan Krinsky]]) | 25-30% correction risk over 6-12mo | Technical bear |
+
+The 8,250 print places Yardeni well above sell-side consensus and roughly 850 points above the [[S&P 500]]'s Friday close. He acknowledged the "melt-up" risk he flagged in April: that loose policy could compound earnings strength and produce a vertical move that catches investors flat-footed — *not* the 1999 mean-reversion that [[Jonathan Krinsky]] is positioning against, but a continuation of the "fear of missing out on peace" (FOMOOP) dynamic he identified mid-April.
+
+### Cross-name read
+
+The May 11 raise comes the same morning as the [[Akamai]] +27% (May 8 close) on the $1.8B frontier-model AI infrastructure deal, [[Micron]] $700B market cap milestone, and the broadening semi rally ([[Intel]] +14%, [[AMD]] +11%, [[Qualcomm]] +8%, [[Applied Materials]] +6%, [[KLA]] +6%, [[Marvell]] +6%). The earnings-led melt-up Yardeni is calling is concurrently visible in factor-clean form in the [[Semiconductors]] tape — exactly the "AI-driven productivity / Buzz Lightyear" framework he has been building.
+
+The disagreement remains with [[Lyn Alden]] (stagflation hedge), [[2026 recession risk]] consumer-side cracks (see [[Whirlpool]] -6.7%, [[Expedia]] -9.0%, [[Vital Farms]] -6.1% on Friday), and [[Jonathan Krinsky]]'s technical-cycle 1999-comparison. The May 11 raise widens the bull-bear strategist spread to the widest it has been in this cycle.
+
+*Sources: [CNBC — Ed Yardeni sees S&P 500 rising to more than 8,000](https://www.cnbc.com/2026/05/11/ed-yardeni-sees-sp-500-rising-to-more-than-8000-heres-why.html), May 11 2026; [Bloomberg — Wall Street Veteran Yardeni Confident in S&P 500 Eclipsing 8,000](https://www.bloomberg.com/news/articles/2026-05-11/wall-street-veteran-yardeni-confident-in-s-p-500-eclipsing-8-000), May 11 2026; [Fortune — Market guru Yardeni sees S&P 500 hitting 8,250 this year](https://fortune.com/2026/05/10/stock-market-outlook-yardeni-sp500-price-target-hike-8250-earnings-roaring-2020s/), May 10 2026; [Yardeni Quick Takes — Market Call: Raising Our 2026 S&P 500 Target Range](https://www.yardeniquicktakes.com/market-call-raising-our-2026-s-p-500-target-range-due-to-earnings-led-meltup/).*

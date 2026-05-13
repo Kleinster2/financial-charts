@@ -237,6 +237,41 @@ The Micron-specific read is that the rally is running on cycle-positioning rathe
 
 *Source: local quick_movers.py screen May 8 2026.*
 
+## May 5-11, 2026 — Micron crosses $700B market cap; AI memory supercycle full repricing
+
+The May 8 +15.5% session extended into the following week, and on Tuesday May 5 (week-of-week tape) [[Micron]] crossed $700B market cap for the first time. The stock is now up 124% YTD and ~700% over the trailing 12 months, placing MU inside the top-10 most valuable US tech companies — passing [[Adobe]] and approaching [[Salesforce]]'s mid-2024 peak.
+
+| Metric | Value | Read |
+|---|---|---|
+| MU market cap (May 11) | ~$700B+ | First crossing |
+| YTD return | +124% | Highest in [[Semiconductors]] sector |
+| 12-month return | +~700% | Top performance in S&P 500 over the period |
+| Q2 FY26 revenue (Feb 2026) | $23.86B | Beat |
+| Q3 FY26 guide | $33.5B ± $750M | +40% sequential, +85% YoY |
+| Q3 GM guide | ~81% | Among the highest in semis |
+| HBM share (revenue) | 21% | Tripling from 7% in CY2024 |
+
+### Bloomberg framing — memory shortage hits consumer
+
+[[Bloomberg]] May 8 "Why the AI Boom Will Make Phones, Cars and Electronics More Expensive" makes the most pointed structural argument the vault has captured this cycle on the [[Memory shortage 2025-2026]] cascade. The piece argues the AI-HBM diversion of wafer capacity is now visibly reaching consumer-electronics OEMs — phones, autos, PCs, set-top boxes. Apple's March 2026 MacBook price hike (already in the vault below) is now joined by [[Samsung]] and [[Xiaomi]] Q2 commentary on memory cost pressure, [[Ford]] / [[GM]] Q1 calls flagging automotive-grade memory shortages on infotainment / ADAS modules, and IDC's "memory crisis like no other" framing for 2026.
+
+The pricing pass-through is now structurally embedded:
+- Q1 2026 contract DRAM prices: +55-60% QoQ
+- Q1 LPDDR5X: +90% QoQ
+- Q1 NAND: +33-38% QoQ
+- Memory share of PC BOM: 23% in 2026 vs 16% in 2025
+- IDC: AI workloads consuming 20% of global DRAM wafer capacity in 2026
+
+### The semis melt-up broader pattern
+
+The MU $700B milestone sits inside a broader rally that on Friday May 8 lifted [[Intel]] +14.0%, [[AMD]] +11.4%, [[KLA]] +6.0%, [[Applied Materials]] +6.0%, [[Marvell]] +6.3%, [[Qualcomm]] +8.2%, and continued into the May 11 session with [[Qualcomm]] +8% / [[Micron]] +4%. The Philadelphia Semiconductor Index ([[SOX]]) is now +55% QTD — placing the index at the level where [[Jonathan Krinsky]]'s May 8 1999-comparison call is the cleanest bear-side test against the [[Ed Yardeni]] May 11 earnings-led melt-up framework.
+
+The [[24/7 Wall St.]] framing — *"AI semiconductor rally enters parabolic phase"* — is the most pointed of the rally-coverage frames. The structural question for the next 6-8 weeks: does Q3 FY26 (June 2026) capex commentary from hyperscaler customers ([[Microsoft]] / [[Alphabet]] / [[Amazon]] / [[Meta]] / [[Oracle]]) hit the $650B 2026 capex run-rate that the Bloomberg piece anchors on, or do the first signs of capex moderation appear in the same window the [[Cloudflare]] / [[HubSpot]] beat-and-cut layoff signal showed up?
+
+Cross-read with the [[US Memory]] cohort: SNDK's +710% 1Y return + MU's $700B cap + WDC's PC2-aligned share-price recovery combine to make US Memory the most extreme single-cohort return in the vault — the [[Vault cluster taxonomy#Cross-cohort comparison|cross-cohort taxonomy]] should be updated with the May 11 milestone.
+
+*Sources: [CNBC — Micron zooms past $700 billion market cap as rally in memory stocks accelerates](https://www.cnbc.com/2026/05/05/micron-zooms-past-700-billion-market-cap-rally-in-memory-stocks-.html), May 5 2026; [Bloomberg — Why the AI Boom Will Make Phones, Cars and Electronics More Expensive](https://www.bloomberg.com/graphics/2026-ai-boom-memory-chip-shortage/), May 2026; [24/7 Wall St. — Qualcomm Jumps 8%, Micron Pops 4% as AI Semiconductor Rally Enters Parabolic Phase](https://247wallst.com/investing/2026/05/11/qualcomm-jumps-8-micron-pops-4-as-ai-semiconductor-rally-enters-parabolic-phase/), May 11 2026.*
+
 ---
 
 ## Apple MacBook price hikes validate memory crunch (Mar 3, 2026)

@@ -16,7 +16,7 @@ Chief Market Technician at [[BTIG]]. Technical and market-structure analyst wide
 
 In CNBC coverage of the [[Semiconductors]] sector's May 8 2026 rally (Apple-Intel deal + Micron's best week since 2008), Krinsky published the most prominent bear voice on the cycle multiple. His framing: the magnitude of the markup in the PHLX Semiconductor Index ([[SOX]] +65% YTD through May 8) resembles 1999, with a 25-30% correction risk over the next 6-12 months if AI-capex growth decelerates.
 
-The 1999-parallel framing is the cleanest technical-cycle bearish view on the AI-chip rally and a useful counterweight to the [[Ed Yardeni]] +8,250 S&P / "Roaring 2020s" consensus. Krinsky is not predicting a 2000-style burst; he is flagging that historical episodes of this kind of vertical move usually mean-revert hard, and the next Q3 reporting season (testing the Q3 capex-growth deceleration thesis) is the operative test.
+The 1999-parallel framing is the cleanest technical-cycle bearish view on the AI-chip rally and a useful counterweight to the [[Ed Yardeni]] +7,700 / "Roaring 2020s" target prevailing on May 8 (Yardeni later raised to 8,250 on May 11 — widening the bull-bear spread). Krinsky is not predicting a 2000-style burst; he is flagging that historical episodes of this kind of vertical move usually mean-revert hard, and the next Q3 reporting season (testing the Q3 capex-growth deceleration thesis) is the operative test.
 
 Cross-referenced in [[Semiconductors#May 8 2026 rally (Apple-Intel deal extension)|Semiconductors hub May 8 section]].
 

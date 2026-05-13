@@ -106,6 +106,35 @@ The piece is the cleanest read on the [[China]] / [[Anthropic]] backchannel as o
 
 *Source: [Ken Liu on AI and Freedom](https://www.chinatalk.media), May 6 2026.*
 
+## May 4, 2026 — "How to Score Economic Security"
+
+[[Jordan Schneider]] piece on the conceptual architecture for measuring "economic security" — chokepoints, surge capacity, and accountability. The piece is methodological: it lays out how policy-makers should *score* whether a given supply chain is genuinely secure rather than just assumed-secure. Cross-link to the [[Critical Supply]] vault thread and the [[Crit-Min]] / [[Rare earths]] supply-chain governance work.
+
+The framework's investing relevance is its grading criteria: surge capacity (how fast can a chokepoint be replaced?), accountability (which actor owns the failure mode?), and chokepoint position (where in the chain does single-point-of-failure risk concentrate?). The same framework reads against [[Foundry Wars]] (TSMC chokepoint), [[2026 Strait of Hormuz crisis]] (Hormuz physical chokepoint), and the [[US export controls]] thread (sanctions-arbitrage chokepoint).
+
+*Source: [How to Score Economic Security](https://www.chinatalk.media), May 4 2026.*
+
+## May 9, 2026 — "WarTalk: Iran War with Jack Shanahan" ('Love Tap' edition)
+
+[[Jordan Schneider]] interview with retired Air Force Lt. Gen. [[Jack Shanahan]] (former first director of the DoD's Joint Artificial Intelligence Center) and military analysts [[Bryan Clark]] ([[Hudson Institute]]) and [[Eric Robinson]]. Subject: the failed "Project Freedom" convoy operation and the broader strategic failures of the [[2026 Iran conflict market impact|Iran war]] to date.
+
+Key arguments (highly investing-vault-relevant):
+
+| Thread | Specific claim | Read |
+|---|---|---|
+| Strategic confusion | Shanahan: situation is *"bereft of strategic thought,"* no coherent end state beyond Hormuz-open | Closest a former general has come to publicly criticizing the operation's framing |
+| Operational failures | Saudi Arabia denied basing + overflight; only 2 US-flagged Maersk ships participated; commercial shipping refused to join; one F-15E near-shoot-down | Cross-confirms [[Robert Pape#May 7, 2026 — "The Gulf States Just Voted on American Power"|Pape May 7 Gulf-states-voting analysis]] from the operational-detail side |
+| Iranian capability | Iran retains ~70% of pre-war ballistic missile capability | Materially higher than the early-March bombing damage assessment |
+| Saudi Vision 2030 collapse | Mining + megaproject + tourism initiatives stalling as investors flee regional instability | [[NEOM]] / [[Red Sea Global]] capex pause is now operational, not just speculative |
+| Indo-Pacific lessons | Electronic warfare / counter-drone / spectrum operations remain underfunded — the Iran war exposed critical gaps relevant to a Taiwan scenario | Direct readthrough to [[Defense primes basket]] capex priorities |
+| Cyber restraint | Administration hasn't deployed significant offensive cyber operations | Possibly because Iranian defenses improved, possibly to avoid escalation; either reads as cyber-as-bounded-option |
+
+The piece is the cleanest single source on the operational + strategic state of the Iran conflict as of the week before the May 10-11 [[2026 Strait of Hormuz crisis#May 10-11, 2026 — Trump rejects Iran counterproposal; ceasefire on "massive life support"|Trump rejection sequence]]. Shanahan's "bereft of strategic thought" framing is the strongest public assessment from someone with operational credibility, and it reads as the *military-analyst* counterpart to Pape's structural-political analysis. The 70%-of-pre-war-missile-capability figure should anchor any forward Iran-war probabilistic framework — the bombing-damage thesis that anchored early-April optimism is now empirically falsified.
+
+Vault implication: the [[Saudi Arabia]] Vision 2030 collapse claim is the cleanest signal that the war's regional-economic damage has crossed from "headline impact" to "operationally-priced capex pause" — which carries directly into [[Saudi Aramco]], [[PIF]] equity stakes, and the broader Gulf-petrostate sovereign-equity weight that [[Lyn Alden]]'s May 10 EM-breakout call anchors.
+
+*Source: [WarTalk: Iran War with Jack Shanahan ('Love Tap' edition)](https://www.chinatalk.media/p/wartalk-iran-war-with-jack-shanahan), May 9 2026.*
+
 ---
 
 ## Related

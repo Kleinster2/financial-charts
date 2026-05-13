@@ -18,9 +18,25 @@ Gillian Tett — Chair of the editorial board and editor-at-large, [[Financial T
 
 ---
 
+---
+
+## Recent columns
+
+| Date | Column | Vault hook |
+|---|---|---|
+| Apr 2026 | Hedge fund Treasury demand and systemic risk | [[Basis trade]]; [[Hedge fund capital concentration]] |
+| May 8 2026 | "The jury is still out on AI in finance" | [[AI in financial services]] (anchor); cites CCAF 2026 survey, FSB May 6 private credit report, FCA Supercharged Sandbox, the Apr 10 Bessent/Powell Mythos meeting, and the "AI native interns + critical thinking" hiring anecdote |
+
+---
+
 ## Related
 
 - [[Financial Times]] — employer
 - [[Basis trade]] — Apr 2026 column on hedge fund Treasury demand and systemic risk
 - [[Hedge fund capital concentration]] — Cayman Islands as largest foreign UST holder
-- [[Scott Bessent]] — $10T rollover challenge
+- [[Scott Bessent]] — $10T rollover challenge; April 10 2026 Mythos meeting attendee
+- [[AI in financial services]] — May 8 2026 column anchored here; rhetoric vs reality frame
+- [[Cambridge Centre for Alternative Finance]] — survey Tett centered her May 8 column on
+- [[Financial Conduct Authority]] — Supercharged Sandbox highlighted in May 8 column
+- [[Financial Stability Board]] — May 6 private credit report cited in May 8 column
+- [[Claude Mythos]] — April 10 Treasury meeting referenced in May 8 column

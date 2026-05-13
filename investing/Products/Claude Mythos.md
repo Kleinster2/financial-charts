@@ -45,9 +45,28 @@ Leaked internal safety documents flagged that Mythos could significantly heighte
 
 Rather than release Mythos broadly, [[Anthropic]] put the model behind [[Project Glasswing]], a controlled defensive-cyber program. Reuters reported on April 7 that launch partners included [[Amazon]], [[Microsoft]], [[Apple]], [[CrowdStrike]], [[Palo Alto Networks]], [[Google]], and [[NVIDIA]], with roughly 40 additional organizations responsible for critical software infrastructure also receiving access. Anthropic paired the rollout with up to $100M in usage credits and $4M in donations to open-source security groups.
 
-The more important signal was who reacted. Reuters reported on April 9 that U.S. officials briefed major bank CEOs on Mythos' cyber-risk potential. Three days later, the [[Bank of England]], [[Financial Conduct Authority]], and the [[UK National Cyber Security Centre]] were reported to be coordinating on whether Mythos-class models could expose vulnerabilities in critical financial IT systems, with UK banks, insurers, and exchanges due to be briefed within a fortnight.
+### Bessent–Powell emergency Treasury meeting (April 10 2026)
+
+The more important signal was who reacted, and at what level. On April 10 2026, US Treasury Secretary [[Scott Bessent]] and Federal Reserve Chair [[Jerome Powell]] convened an urgent meeting at the Treasury Department with major US bank CEOs to discuss the cyber-risk capabilities of Mythos. The bank CEOs were already in Washington for a Financial Services Forum board meeting, which is how the agenda was set up on short notice.
+
+| Attendee | Bank |
+|---|---|
+| [[Brian Moynihan]] | [[Bank of America]] |
+| [[Jane Fraser]] | [[Citigroup]] |
+| [[David Solomon]] | [[Goldman Sachs]] |
+| [[Ted Pick]] | [[Morgan Stanley]] |
+| [[Charlie Scharf]] | [[Wells Fargo]] |
+| (absent) | [[Jamie Dimon]] ([[JPMorgan Chase]]) — only major banking CEO unable to attend |
+
+That a single AI model triggered a same-day convening of Treasury, the Fed, and the bulge-bracket CEO bench is the cleanest signal to date that frontier AI cyber capabilities have crossed into the financial-stability perimeter. The meeting is read in the vault alongside [[AI in financial services#Systemic risk vectors|systemic AI risks for financial services]] — Mythos is now the canonical case study for the cyber vector in that framework.
+
+### UK parallel (April 12 2026)
+
+Two days later, the [[Bank of England]], [[Financial Conduct Authority]], and the [[UK National Cyber Security Centre]] were reported to be coordinating on whether Mythos-class models could expose vulnerabilities in critical financial IT systems, with UK banks, insurers, and exchanges due to be briefed within a fortnight. See [[Financial Conduct Authority#Anthropic Mythos review (Apr 2026)]].
 
 That is a different category of AI release. Mythos was not treated as a consumer launch or even a normal enterprise product cycle. It was treated as a controlled capability with potential financial-stability and operational-resilience implications.
+
+*Sources: [CNBC: Powell, Bessent discussed Anthropic's Mythos AI cyber threat with major U.S. banks](https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html); [Bloomberg: Bessent, Powell Summon Bank CEOs to Urgent Meeting Over Anthropic's New AI Model](https://www.bloomberg.com/news/articles/2026-04-10/anthropic-model-scare-sparks-urgent-bessent-powell-warning-to-bank-ceos); [Fortune: Bessent and Powell convened Wall Street CEOs](https://fortune.com/2026/04/10/bessent-powell-anthropic-mythos-ai-model-cyber-risk/); [FT, Tett, May 8 2026](https://www.ft.com/content/c0aec3de-b553-4089-b5d3-074c5b83be57).*
 
 ---
 
