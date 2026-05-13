@@ -53,6 +53,18 @@ This is the first material monetization push for the Fitbit asset since the $2.1
 
 ---
 
+## Project Suncatcher — SpaceX launch talks (May 12, 2026)
+
+The Wall Street Journal reported May 12 that [[Alphabet|Google]] is in talks with [[SpaceX]] to launch the [[Project Suncatcher]] prototype payloads — Alphabet's orbital data center initiative, announced November 2025 under the Paradigms of Intelligence research group. The Suncatcher production architecture is a constellation of 81 satellites flying in a ~1 km-radius formation at ~650 km in dawn-dusk sun-synchronous LEO, each carrying [[Trillium]] (TPU v6e) silicon, networked by 800 Gbps each-way DWDM free-space optical links. Hardware partner is [[Planet Labs]]; two prototype satellites target early-2027 launch. CEO [[Sundar Pichai]] has publicly framed orbital data centers as becoming "the new normal" within roughly a decade.
+
+The launch talks are structurally significant in three ways. First, they make Google operationally dependent on the company building its most credible competing orbital-compute stack — [[SpaceX]] / [[xAI]] vertical integration with [[TERAFAB]] silicon, the [[Sovereign AI stack]] frame, and the 100 GW combined-orbital-and-terrestrial capacity vision. Every Suncatcher launch is revenue to a competitor that uses launch margin to fund competing compute. Second, the talks are partly an inside conversation — Alphabet has owned ~6.1% of SpaceX since the 2015 Series G ($900M lead), and Alphabet executive Don Harrison sits on the SpaceX board, which limits how aggressively either side can use the relationship as a strategic lever. Third, by accepting [[SpaceX]] as launch provider, Alphabet is implicitly accepting [[Starship]]-economics as the load-bearing assumption for the entire program — the Suncatcher paper's <$200/kg-to-LEO mid-2030s target only converges if Starship full reusability gets there.
+
+The cleaner read on the Alphabet investment case is that this confirms the [[TPU]] vertical-integration thesis extends beyond [[Google Cloud]] into a second compute frontier. The same custom silicon that anchors the [[Anthropic]] $200B / 5 GW capacity deal (where Anthropic compute spend monetizes through TPU rentals) is being radiation-validated for an orbital deployment that would multiply TPU addressable compute hours without an Earth-side grid-interconnect or water-cooling constraint. Suncatcher is to [[Alphabet]]'s 2030s capex story what [[Google Cloud]] was to its mid-2010s story — a buildout that looks speculative until it isn't, monetized through the same TPU economic flywheel. See [[Project Suncatcher]] for technical specs, [[Trillium]] for the silicon, and [[Space data centers]] for the cross-actor competitive landscape.
+
+*Sources: [Bloomberg — Google in Talks to Use SpaceX to Launch Space Data Centers: WSJ](https://www.bloomberg.com/news/articles/2026-05-12/google-in-talks-to-use-spacex-to-launch-space-data-centers-wsj) (May 12 2026); [Google Research — Exploring a space-based, scalable AI infrastructure system design](https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/); [Fortune — Pichai timeline framing](https://fortune.com/article/what-is-google-ceo-sundar-pichai-timeline-ai-data-centers-in-space/).*
+
+---
+
 ## Q1 2026 earnings — Cloud +63%, capex raised again (Apr 29, 2026)
 
 Alphabet reported Q1 2026: total revenue $109.9B (+20% YoY, fastest growth quarter since 2022), EPS $5.11 vs. $2.62 Street estimate (a 95% surprise — distorted upward by a one-time $36.9B gain on equity securities, contributing $2.35 to diluted EPS and $28.7B to net income). Stripping the equity-securities gain, core operating EPS still cleared the consensus comfortably. Reported net income $62.6B (+81% YoY headline number).
@@ -86,5 +98,11 @@ Stock closed Apr 29 at $349.94, ~flat on the day into the print; the after-hours
 - [[Google Health Premium]] — consumer health AI subscription wrapper
 - [[Google Health Coach]] — Gemini-powered AI health coach
 - [[Gemini]] — terminal subscription target
+- [[Project Suncatcher]] — orbital data center initiative (Nov 2025); SpaceX launch talks (May 12 2026)
+- [[Planet Labs]] — Suncatcher hardware partner
+- [[SpaceX]] — Suncatcher launch-provider candidate; Alphabet ~6.1% equity holder
+- [[Trillium]] — TPU v6e silicon (Suncatcher compute substrate)
+- [[Space data centers]] — competitive landscape
+- [[Sundar Pichai]] — CEO; "new normal" orbital-DC framing
 
-*Stub created 2026-03-24 · Updated 2026-05-10*
+*Stub created 2026-03-24 · Updated 2026-05-13 (added Project Suncatcher / SpaceX launch talks)*

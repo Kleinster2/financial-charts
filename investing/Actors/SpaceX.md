@@ -265,6 +265,18 @@ IPO implication: Moon-first is a more credible near-term narrative for instituti
 
 See [[Lunar Mass Driver]] for full concept analysis (physics, O'Neill lineage, economics, skepticism).
 
+### Google [[Project Suncatcher]] launch talks (May 12, 2026)
+
+The Wall Street Journal reported on May 12 that [[Alphabet|Google]] is in active discussions with SpaceX to launch the [[Project Suncatcher]] prototype payloads. Bloomberg, Reuters, and TechCrunch confirmed the report on the same day. No contract has been signed; the talks are described as exploratory. Google's hardware partnership with [[Planet Labs]] for the two prototype satellites and the early-2027 launch target are unchanged.
+
+For SpaceX, the talks read as confirmation that the launch monopoly extends beyond commercial / institutional payloads into the orbital-DC layer specifically — even competitors building the most credible alternative orbital-compute stacks must come to SpaceX for heavy-lift access on a 2027 timeline. Per the [[Space Capital]] Q1 2026 briefing, Falcon 9 is launching roughly every two days at 99% reliability, and no other provider currently matches that cadence or payload economics at scale; [[Rocket Lab]], [[Blue Origin]], and [[Arianespace]] are years from competitive throughput on heavier classes. The four Falcon 9 list-price increases since commercial launches began ($61M → $74M) are the pricing signal that demand is binding on capacity.
+
+The structural awkwardness runs the other way as well. SpaceX's own [[Space data centers|orbital DC]] vision (100 GW combined-orbital-and-terrestrial capacity, [[Sovereign AI stack]] frame) competes directly with what Suncatcher would deploy. Selling launch services to Google's competing program is the same monetization-of-spare-capacity pattern as the [[Anthropic]] [[Colossus 1]] compute deal (May 6 2026) — when an asset is scarce enough, ideological positioning gives way to revenue. The May 12 Suncatcher talks fit the same template: SpaceX captures the launch margin while a frontier competitor builds its alternative.
+
+The pre-existing equity entanglement matters as a relationship governor. [[Alphabet]] has held ~6.1% of SpaceX since the 2015 Series G ($900M lead investment at $7.75 split-adjusted), and Alphabet executive Don Harrison sits on the SpaceX board. The talks are partly an inside conversation. That entanglement makes a hard breakdown in negotiations structurally less likely than a similar talk with an unaffiliated hyperscaler.
+
+*Sources: [Bloomberg — Google in Talks to Use SpaceX to Launch Space Data Centers: WSJ](https://www.bloomberg.com/news/articles/2026-05-12/google-in-talks-to-use-spacex-to-launch-space-data-centers-wsj) (May 12 2026); [TechCrunch — Report: Google and SpaceX in talks to put data centers into orbit](https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/) (May 12 2026); Reuters via [Investing.com / TradingView](https://www.investing.com/news/stock-market-news/google-spacex-in-talks-to-explore-data-centers-in-orbit-wsj-reports-4681547) (May 12 2026); [Google Research — Suncatcher system design](https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/).*
+
 ---
 
 ## Semiconductor/chip relevance
@@ -574,3 +586,6 @@ Reuters also said it remained unclear whether Intel or the Terafab developers wo
 - [[Nasdaq Fast Entry Rule]] — proposed rule enabling ~1 month index inclusion for megacap IPOs
 - [[S&P Dow Jones Indices]] — reviewing 12-month seasoning rule that blocks immediate S&P 500 inclusion
 - [[S&P 500]] — ~$24T benchmarked; immediate post-IPO inclusion would trigger massive passive flows
+- [[Project Suncatcher]] — Google orbital-DC initiative; May 12 launch-provider talks
+- [[Planet Labs]] — Suncatcher hardware partner (parallel SpaceX relationship via launch services)
+- [[Alphabet]] — ~6.1% SpaceX equity holder since 2015 Series G; Suncatcher counterparty
