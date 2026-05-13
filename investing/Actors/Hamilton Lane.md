@@ -23,8 +23,22 @@ The stock has been a standout performer as institutional allocations to private 
 | Focus | Fund investments, co-investments, secondaries, advisory |
 | Employees | 700+ |
 
+## Secondaries-heavy evergreen exposure
+
+Hamilton Lane's flagship private equity evergreen vehicle allocates roughly 50% to [[Private equity secondaries|secondaries]] — the highest secondaries weight among major [[Evergreen private capital vehicles|evergreen products]] tracked by the FT in April 2026. The structural rationale: evergreen vehicles accept monthly subscriptions that need to be deployed quickly, and secondaries deploy capital materially faster than primary fund commitments. The trade-off is exposure to the discount-to-NAV mark-up mechanic that produces high early reported IRRs but decays as funds mature — a dynamic [[Hamilton Lane]]'s institutional client base understands but that retail wealth-channel investors may not.
+
+The firm sits at the intersection of three structural tailwinds: the $14tn-to-$24tn private capital industry expansion, the wealth-channel pivot through evergreen vehicles, and the [[Private equity secondaries#Elite-firm consolidation (2024-2026)|secondaries consolidation]] that has made specialist secondaries data and pricing capability strategically valuable. Hamilton Lane sells data and analytics to GPs and LPs alongside its allocation services, deepening its informational moat.
+
 ## Related
 - [[Jerusalem Venture Partners]] — LP in Growth Fund X
+- [[Private equity secondaries]] — parent concept; HLNE evergreen ~50% allocation
+- [[Continuation fund]] — GP-led secondaries market
+- [[Evergreen private capital vehicles]] — distribution channel; HLNE has the highest secondaries weight
 - [[Private Credit]] — growing allocation area
 - [[Venture capital]] — allocation area
-- [[Hamilton Lane]] — public market proxy for private markets growth
+- [[HarbourVest]] — public private-markets peer
+- [[StepStone Group]] — public private-markets peer
+- [[Coller Capital]] — secondaries peer (being acquired by [[EQT]])
+- [[Lexington Partners]] — secondaries peer
+- [[AlpInvest]] — secondaries peer ([[Carlyle]] subsidiary)
+- [[Partners Capital]] — OCIO peer

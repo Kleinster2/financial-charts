@@ -92,7 +92,7 @@ Nuttall and Bae became Co-CEOs in 2021 succession from founders.
 
 **Fundraising:** Raised $240B+ — 80% of $300B target (2024-2026). K-Series private wealth raised $16B in 2025, Jan 2026 tracking +20% vs prior year.
 
-**[[Arctos]] acquisition:** Acquiring sports/entertainment PE firm for $1.4B equity/cash + up to $550M performance equity. Adds ~$15B AUM, creates "KKR Solutions" vertical.
+**[[Arctos]] acquisition:** Acquiring sports/entertainment PE firm for $1.4B equity/cash + up to $550M performance equity. Adds ~$15B AUM, creates "KKR Solutions" vertical. The deal is part of the 2024-2026 elite-firm [[Private equity secondaries|secondaries consolidation]] sequence — alongside [[EQT]]'s parallel $3.7bn acquisition of [[Coller Capital]] (Apr 2026), earlier moves by [[Ares Management]] (Landmark Partners 2021), [[CVC Capital Partners|CVC]] (Glendower 2022), [[Carlyle]] ([[AlpInvest]] 2011), and [[Blackstone]] (Strategic Partners 2013). The strategic logic is the same across all six firms: secondaries deals deploy capital faster than primary buyouts and plug operationally into wealth-channel [[Evergreen private capital vehicles|evergreen vehicles]] like KKR's own K-Series. Arctos brings ~$15B AUM (sports + GP solutions) into the platform.
 
 **[[UOB]] asset management bid (Mar 2026):** Competing against [[Amundi]] and [[Temasek]]'s Seviora unit to acquire [[UOB]]'s asset management arm. UOB AM has ~S$41B ($32B) AUM with presence across Brunei, Indonesia, Japan, Malaysia, Taiwan, Thailand, and Vietnam. UOB is streamlining its business. Talks ongoing, no final decision.
 
@@ -196,11 +196,19 @@ Nuttall and Bae became Co-CEOs in 2021 succession from founders.
 - [[Global Atlantic]] — insurance/retirement platform (100% owned, >$200B assets)
 - [[Reinsurance sidecars]] — permanent capital model via insurance
 - [[Arctos]] — acquiring for $1.4B (sports/entertainment PE, ~$15B AUM)
+- [[Private equity secondaries]] — parent concept; Arctos fits the 2024-2026 elite consolidation
+- [[Continuation fund]] — GP-led market practice
+- [[Evergreen private capital vehicles]] — K-Series wealth distribution channel
+- [[Coller Capital]] — parallel target ([[EQT]] $3.7bn, Apr 2026)
+- [[EQT]] — parallel acquirer in consolidation sequence
+- [[HarbourVest]] — secondaries peer
+- [[Lexington Partners]] — secondaries peer
+- [[AlpInvest]] — secondaries peer ([[Carlyle]] subsidiary)
 - [[UOB]] — bidding for asset management arm (~S$41B AUM), competing with [[Amundi]] and [[Temasek]]
 - [[Skydance Media]] — portfolio company
-- [[Blackstone]] — peer
-- [[Apollo]] — peer
-- [[Carlyle]] — peer
+- [[Blackstone]] — peer; Strategic Partners secondaries platform
+- [[Apollo]] — peer; Apollo S3 secondaries
+- [[Carlyle]] — peer; [[AlpInvest]] secondaries
 
 ---
 

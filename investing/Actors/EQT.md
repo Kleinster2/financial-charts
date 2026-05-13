@@ -87,12 +87,41 @@ Sweden's most powerful business dynasty.
 
 ---
 
+## Coller Capital acquisition (Apr 2026)
+
+EQT agreed to acquire [[Coller Capital]] — the London-based [[Private equity secondaries|private-equity secondaries]] pioneer — for $3.7bn.
+
+| Detail | Value |
+|---|---|
+| Target | [[Coller Capital]] |
+| Announced | April 2026 |
+| Deal value | $3.7bn |
+| Coller AUM | ~$36bn |
+| Founder | Jeremy Coller |
+| Strategic logic | Adds dedicated secondaries platform to EQT's PE / Infrastructure / Growth / Real Estate stack; positions EQT in evergreen wealth-channel distribution where secondaries deploy faster than primary funds |
+
+The deal is the largest in the 2024-2026 elite-firm secondaries consolidation sequence — bigger than [[KKR]]'s $1.4bn [[Arctos]] purchase two months earlier, [[Ares Management]]'s 2021 Landmark Partners acquisition ($1.08bn), and [[CVC Capital Partners|CVC]]'s 2022 Glendower Capital deal. EQT is paying a higher multiple than peers for Coller's larger AUM base, longer track record, and established LP-led franchise. See [[Private equity secondaries#Elite-firm consolidation (2024-2026)|PE secondaries — Elite-firm consolidation]] for the full sequence and motivation.
+
+The transaction marks EQT's first major move into secondaries; the firm had previously built around traditional buyout, infrastructure, growth, and real estate strategies without a dedicated secondaries arm. The acquisition gives EQT the deal flow and structured-product capability to plug secondaries supply into its own emerging wealth-channel evergreen vehicles.
+
+*Source: FT (Apr 8, 2026) — Heal + Gara*
+
+---
+
 ## Related
 
 - [[Harvey]] — portfolio company
 - [[EdgeConneX]] — portfolio company (data center operator, Project Walleye)
-- [[KKR]] — peer (PE)
-- [[Blackstone]] — peer (PE)
+- [[Coller Capital]] — acquiring (Apr 2026, $3.7bn)
+- [[Private equity secondaries]] — strategic logic for Coller deal
+- [[Continuation fund]] — GP-led secondaries market context
+- [[Evergreen private capital vehicles]] — wealth-channel distribution rationale
+- [[KKR]] — peer (PE); parallel [[Arctos]] secondaries acquisition (Feb 2026, $1.4bn)
+- [[Arctos]] — KKR's parallel secondaries target
+- [[Blackstone]] — peer (PE); Strategic Partners secondaries platform
+- [[Ares Management]] — peer; built secondaries from Landmark Partners (2021)
+- [[CVC Capital Partners]] — peer; Glendower Capital secondaries
+- [[Carlyle]] — peer; [[AlpInvest]] secondaries
 - [[AI infrastructure financing]] -- EdgeConneX/Meta deal (novel structure)
 - [[Investor AB]] — founding parent (Wallenberg sphere)
 - [[Swedish spheres]] — governance system; EQT as Wallenberg spin-out

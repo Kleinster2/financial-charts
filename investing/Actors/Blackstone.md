@@ -194,6 +194,33 @@ Blackstone raised $10B for an opportunistic credit fund — positioned to capita
 
 ---
 
+## Strategic Partners — secondaries platform
+
+[[Blackstone]]'s [[Private equity secondaries|private-equity secondaries]] arm — Strategic Partners — was built from the 2013 acquisition of Credit Suisse's secondaries unit. It has since grown into one of the largest dedicated secondaries platforms globally (~$84bn+ AUM as of 2026) and is a structural reason Blackstone has been able to push so aggressively into wealth-channel evergreen products.
+
+### Vintage performance and IRR decay
+
+Strategic Partners' fund vintages illustrate the canonical [[Private equity secondaries#The mark-to-NAV problem|mark-to-NAV IRR decay pattern]]:
+
+| Vintage | Reported IRR (after fees) | When reported |
+|---|---|---|
+| 2021 secondaries | 24% | 2023 (two-year mark) |
+| 2021 secondaries | 20% | September 2025 (four-year mark) |
+| Seven-year secondaries vintage | 32% | 2023 |
+| Seven-year secondaries vintage | 20% | September 2025 |
+| Flagship buyout fund (six-year vintage) | 11% | September 2025 |
+| Fund-stated long-term secondaries target | ~16% | Management guidance |
+
+The 19% vs 11% gap between Blackstone's four-year secondaries vintage and its six-year flagship buyout fund (the comparison that anchored the FT's April 2026 analysis) reflects the discount-to-NAV mark-up plus the leverage techniques common across secondaries vehicles. People familiar with the strategy said reported returns are expected to decrease over fund life as the impact of initial discount and leverage dissipate, with the underlying companies determining the realized 16% target. The institutional LP base understands this; the retail wealth investor adding to BXPE or BCRED may not.
+
+### Connection to BXPE evergreen
+
+Strategic Partners deal flow plugs into [[Blackstone]]'s wealth-channel [[Evergreen private capital vehicles|evergreen]] vehicle BXPE, which allocates ~5% to secondaries — smaller than the ~50% Hamilton Lane allocation but material at BXPE's scale. The capability is part of why Blackstone has been the dominant private-wealth distributor in alternatives despite competing against more credit-focused (Apollo) and direct-lending-focused (Blue Owl) peers.
+
+*Source: FT (Apr 8, 2026) — Heal + Gara on Blackstone vintage marks and IRR comparison*
+
+---
+
 ## March 2026 update
 
 Stock +4.6% (+2.2 sigma) on March 13, 2026. Broader rebound in private credit-related names as market sentiment improved. [[Blackstone]] acquired Advanced Cooling Technologies (ACT) during the month — expanding energy portfolio to capitalize on data center cooling demand driven by AI infrastructure buildout.
@@ -231,3 +258,12 @@ The deal is part of a broader wave of alternative capital entering [[Lloyd's of 
 - [[India AI Impact Summit 2026]] — Neysa majority stake ($600M equity + $600M debt)
 - [[India]] — AI compute expansion
 - [[Advanced Cooling Technologies]] — acquired March 2026 (energy portfolio)
+- [[Private equity secondaries]] — Strategic Partners platform (~$84bn AUM)
+- [[Continuation fund]] — major GP-led practitioner
+- [[Evergreen private capital vehicles]] — BXPE vehicle includes ~5% secondaries
+- [[Coller Capital]] — target of [[EQT]] in parallel consolidation move (Apr 2026)
+- [[Arctos]] — target of [[KKR]] in parallel consolidation move (Feb 2026)
+- [[HarbourVest]] — secondaries peer
+- [[Lexington Partners]] — secondaries peer
+- [[AlpInvest]] — secondaries peer ([[Carlyle]] subsidiary)
+- [[Jefferies]] — primary secondaries deal-volume data source

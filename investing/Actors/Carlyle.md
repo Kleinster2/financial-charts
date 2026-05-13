@@ -57,10 +57,12 @@ Plouffe (Deputy CIO Global Credit since 2007) backfilled CFO. Michael Wand becam
 
 | Segment | AUM | Focus |
 |---------|-----|-------|
-| **Global Credit** | ~$194B | Private credit |
-| **AlpInvest** | ~$85B | Primaries, co-invest, secondaries |
-| **Americas CPE** | ~$67B | Corporate private equity |
-| **Real Assets** | ~$50B | Infrastructure, real estate |
+| Global Credit | ~$194B | Private credit |
+| [[AlpInvest]] | ~$85B | Primaries, co-invest, secondaries |
+| Americas CPE | ~$67B | Corporate private equity |
+| Real Assets | ~$50B | Infrastructure, real estate |
+
+[[AlpInvest]] — originally the in-house private-equity investment arm of Dutch pensions [[ABP]] and PFZW (founded 1999), acquired by Carlyle in 2011 — was the first major elite-buyout-firm acquisition of a dedicated [[Private equity secondaries|secondaries]] platform. The move opened the 2011-2026 consolidation sequence that has since drawn in [[Blackstone]] (Strategic Partners 2013), [[Ares Management]] (Landmark 2021), [[CVC Capital Partners|CVC]] (Glendower 2022), [[Apollo]] (S3 organic build), [[KKR]] ([[Arctos]] Feb 2026), and [[EQT]] ([[Coller Capital]] Apr 2026). Carlyle's secondaries arm therefore has more than a decade of integration ahead of its peers — though the $85bn AUM is now within range of single-firm specialists like Coller (~$36bn) and [[HarbourVest]] (~$160bn AUA) at the upper end.
 
 ---
 
@@ -179,10 +181,19 @@ CEO Schwartz exceeded 2025 targets — FRE growth was double the goal. Wealth or
 
 ## Related
 
-- [[KKR]] — peer
-- [[Blackstone]] — peer
-- [[Apollo]] — peer (also took over End Clothing from Carlyle European fund, 2024)
+- [[KKR]] — peer; parallel secondaries acquirer ([[Arctos]] Feb 2026)
+- [[Blackstone]] — peer; Strategic Partners secondaries platform
+- [[Apollo]] — peer; Apollo S3 secondaries (also took over End Clothing from Carlyle European fund, 2024)
+- [[EQT]] — peer; parallel secondaries acquirer ([[Coller Capital]] Apr 2026)
 - [[Warburg Pincus]] — peer
+- [[AlpInvest]] — subsidiary since 2011 (~$85bn AUM secondaries+co-invest)
+- [[Private equity secondaries]] — parent concept; Carlyle opened 2011-2026 consolidation
+- [[Continuation fund]] — GP-led secondaries category
+- [[Evergreen private capital vehicles]] — wealth-channel distribution
+- [[Coller Capital]] — parallel target ([[EQT]] Apr 2026)
+- [[Arctos]] — parallel target ([[KKR]] Feb 2026)
+- [[HarbourVest]] — secondaries peer
+- [[Lexington Partners]] — secondaries peer
 - [[Private Equity]] — category
 - [[David Rubenstein]] — co-founder
 - [[Kewsong Lee]] — former CEO (2018-2022)

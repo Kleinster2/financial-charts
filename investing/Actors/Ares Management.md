@@ -51,11 +51,13 @@ World's largest [[direct lender]]. As banks retreated from [[middle-market]] len
 
 | Segment | AUM | Share | Description |
 |---------|-----|-------|-------------|
-| **Credit** | $391B | 66% | Direct lending, liquid credit, CLOs |
-| **Real Estate** | $110B | 18% | Equity + debt, US/Europe/Japan |
-| **Secondaries** | $38B | 6% | LP stakes across asset classes |
-| **[[Private Equity]]** | $25B | 4% | Corporate PE |
-| **Infrastructure** | $23B | 4% | Digital, energy, transport, utilities |
+| Credit | $391B | 66% | Direct lending, liquid credit, CLOs |
+| Real Estate | $110B | 18% | Equity + debt, US/Europe/Japan |
+| Secondaries | $38B | 6% | LP stakes across asset classes |
+| [[Private Equity]] | $25B | 4% | Corporate PE |
+| Infrastructure | $23B | 4% | Digital, energy, transport, utilities |
+
+The [[Private equity secondaries|secondaries]] segment was built from the 2021 acquisition of Landmark Partners for ~$1.08bn. The deal positioned Ares early in the 2011-2026 elite-firm secondaries consolidation sequence — preceding [[CVC Capital Partners|CVC]]'s Glendower acquisition (2022), [[Apollo]]'s S3 organic build (2023-25), [[KKR]]'s [[Arctos]] deal (Feb 2026, $1.4bn), and [[EQT]]'s [[Coller Capital]] acquisition (Apr 2026, $3.7bn). Ares's positioning is distinctive: the firm's secondaries cover not just private equity but the full credit / real estate / infrastructure stack, leveraging its multi-asset platform to acquire LP stakes across asset classes rather than PE alone.
 
 Credit dominance: two-thirds of assets, primary fee driver.
 
@@ -162,9 +164,17 @@ The structural side-effect: Altice initially hired [[Kirkland & Ellis]] (alongsi
 - [[Apollo]] — peer, co-defendant in Altice suit
 - [[Blackstone]] — peer (alts)
 - [[Blue Owl]] — peer (direct lending)
-- [[KKR]] — peer (alts)
+- [[KKR]] — peer (alts); parallel secondaries consolidation move ([[Arctos]] Feb 2026)
+- [[EQT]] — peer; parallel secondaries consolidation move ([[Coller Capital]] Apr 2026)
 - [[Oaktree Capital]] — peer (credit)
 - [[Private credit]] — industry tailwind
+- [[Private equity secondaries]] — Ares Secondaries via 2021 Landmark Partners acquisition
+- [[Continuation fund]] — GP-led practice
+- [[Evergreen private capital vehicles]] — Ares Wealth Solutions distribution
 - [[ARCC]] — Ares Capital Corp, largest US BDC
+- [[Coller Capital]] — secondaries peer
+- [[HarbourVest]] — secondaries peer
+- [[Lexington Partners]] — secondaries peer
+- [[AlpInvest]] — secondaries peer ([[Carlyle]] subsidiary)
 
 *Created 2026-01-16 · Updated 2026-02-05*

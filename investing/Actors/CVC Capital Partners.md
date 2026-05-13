@@ -49,10 +49,19 @@ CVC = dominant sports PE investor.
 
 | Trait | Description |
 |-------|-------------|
-| **European roots** | Strong in [[Europe]] |
-| **Global reach** | Americas, [[Asia]] |
-| **Sports/media** | Differentiated focus |
-| **Long-term** | Patient capital |
+| European roots | Strong in [[Europe]] |
+| Global reach | Americas, [[Asia]] |
+| Sports/media | Differentiated focus |
+| Long-term | Patient capital |
+| Secondaries | Glendower Capital subsidiary (acquired 2022) |
+
+---
+
+## Glendower Capital — secondaries platform (2022)
+
+CVC acquired London-based [[Glendower Capital]] in 2022 to add a dedicated [[Private equity secondaries|private-equity secondaries]] arm. Glendower was a specialist firm covering both LP-led purchases and GP-led [[Continuation fund|continuation vehicles]], and the integration gave CVC its first material exposure to the secondaries market — early in the broader 2011-2026 elite-firm consolidation sequence (alongside [[Carlyle]]/[[AlpInvest]] 2011, [[Blackstone]]/Strategic Partners 2013, [[Ares Management]]/Landmark 2021, [[Apollo]]/S3 organic 2023-25, [[KKR]]/[[Arctos]] Feb 2026, [[EQT]]/[[Coller Capital]] Apr 2026).
+
+The strategic logic is the same across all six firms: secondaries deploy capital faster than primary buyouts and plug operationally into wealth-channel [[Evergreen private capital vehicles|evergreen vehicles]]. For CVC specifically, secondaries provide a counterbalance to the firm's vintage-concentration risk in flagship buyout funds — the 2021 vintage exposure is the proximate cause of the [[CVC Capital Partners#Performance fee warning (Mar 12, 2026)|March 2026 carry-cut warning]] — and the Glendower platform diversifies the firm's capital deployment across multiple vintages and asset stages.
 
 ---
 
@@ -84,8 +93,19 @@ The entire PE industry has struggled to exit holdings since 2022 rate rises. Fun
 ## Related
 
 - [[Liberty Media]] — bought F1 from CVC
-- [[KKR]] — peer (PE)
-- [[Blackstone]] — peer (PE)
+- [[KKR]] — peer (PE); parallel secondaries consolidation ([[Arctos]] Feb 2026)
+- [[Blackstone]] — peer (PE); Strategic Partners secondaries
+- [[EQT]] — peer; parallel secondaries consolidation ([[Coller Capital]] Apr 2026)
+- [[Carlyle]] — peer; [[AlpInvest]] secondaries
+- [[Apollo]] — peer; Apollo S3 secondaries
+- [[Ares Management]] — peer; Landmark Partners 2021 acquisition
+- [[Glendower Capital]] — secondaries subsidiary (acquired 2022)
+- [[Private equity secondaries]] — parent concept; consolidation sequence
+- [[Continuation fund]] — GP-led market
+- [[Evergreen private capital vehicles]] — wealth-channel distribution
+- [[Coller Capital]] — secondaries peer
+- [[HarbourVest]] — secondaries peer
+- [[Lexington Partners]] — secondaries peer
 - [[Private Credit Software Concentration]] — CVC carry cut as PE downturn data point (Mar 2026)
 
 ---

@@ -5,6 +5,8 @@ aliases: [Continuation vehicle, CV, continuation vehicles, continuation funds, G
 
 **Continuation fund** — A vehicle where a PE sponsor transfers assets from an expiring fund into a new fund it also manages, giving existing LPs the choice to cash out or roll over. The fastest-growing segment of the secondaries market, now ~$100B/yr. Inherently conflicted: the GP sits on both sides of the transaction.
 
+This is the GP-led half of the broader [[Private equity secondaries]] market — the LP-led half (sale of fund stakes) is documented at the parent concept, alongside the leverage techniques, mark-to-NAV mechanics, FT/Jefferies volume data, and the 2026 elite-firm consolidation pattern.
+
 ---
 
 ## Synthesis
@@ -14,6 +16,8 @@ The continuation fund market has gone from niche workaround to dominant PE exit 
 ---
 
 ## Mechanics
+
+See the FT diagrams at [[Private equity secondaries#GP-led secondaries|PE secondaries — GP-led mechanism]] for the visual flow showing how a continuation vehicle takes assets out of a maturing buyout fund using secondaries-fund financing.
 
 A continuation fund transaction works as follows:
 
@@ -39,11 +43,13 @@ Key fact: 80-90% of existing LPs typically cash out rather than roll forward.
 | 2020 | — | — | — | ~5% |
 | 2023 | — | ~79% | ~$100B | — |
 | 2024 | $75B | ~80% | $162B (+45% YoY) | 13% |
-| 2025 | $115B | 89% (~$102B) | — | 14% |
+| 2025 | $115B | 89% (~$102B) | $240B (FT/[[Jefferies]]) | 14% |
 
 75% of the largest global PE firms have executed at least one continuation transaction. 80% of CVs (H1 2024) included GP commitments of 5%+ of deal value.
 
 Unrealized PE value: $3T+ sitting in global buyout portfolios — the demand driver for CV growth.
+
+Cumulative GP-led volume since 2021 reached ~$362bn (vs ~$400bn cumulative LP-led), per Jefferies estimates published in the FT's April 2026 secondaries piece. Continuation vehicles now account for ~89% of all GP-led activity.
 
 ---
 
@@ -131,6 +137,37 @@ Practical reality: With SEC rules vacated, governance depends entirely on what's
 
 ---
 
+## 2026 elite-firm consolidation
+
+The continuation-vehicle business is no longer the domain of specialist secondaries shops. Three drivers — the [[Private equity secondaries|secondaries market]] reaching $240bn annual volume, retail money flooding into [[Evergreen private capital vehicles|evergreen vehicles]] that need fast-deploying strategies, and the structural unrealized-value backlog — have made secondaries capability a competitive requirement for the top six alternative-asset managers.
+
+| Acquirer | Target | Date | Value | Secondaries AUM added |
+|---|---|---|---|---|
+| [[KKR]] | [[Arctos]] | Feb 2026 | $1.4bn + up to $550mn earnout | ~$15bn (GP-solutions + sports) |
+| [[EQT]] | [[Coller Capital]] | Apr 2026 | $3.7bn | ~$36bn |
+
+Earlier moves in the same sequence: [[Carlyle]] acquired [[AlpInvest]] in 2011 (now ~$85bn AUM secondaries+co-invest); [[Blackstone]] bought Credit Suisse's Strategic Partners in 2013; [[Ares Management]] acquired Landmark Partners in 2021 (~$1.08bn, building Ares Secondaries to ~$38bn AUM); [[CVC Capital Partners|CVC]] acquired Glendower Capital in 2022; [[Apollo]] built its Apollo S3 platform organically with acquihires through 2023-25.
+
+The pattern is unambiguous: every top-six PE firm now owns or has built a dedicated secondaries platform, with the two largest acquisitions both closing in 2026. The CV business is now too lucrative — and too operationally important to wealth-channel evergreens — for elite firms to leave to specialists.
+
+---
+
+## Connection to evergreen retail vehicles
+
+CVs are particularly important inside [[Evergreen private capital vehicles|evergreen retail vehicles]] (BCRED-style BDCs, BREIT-style non-traded REITs, [[Hamilton Lane]] / [[StepStone Group|STPEX]] / Partners Group / Apollo Global Wealth / Ares Wealth Solutions). Three reasons:
+
+| Feature | Why CVs fit evergreens |
+|---|---|
+| Faster deployment | Subscription cash deploys into existing portfolios immediately, not over a 3-5 year primary-fund investment period |
+| Closer to exits | Late-stage assets cycle back as distributions sooner, supporting periodic redemption payouts |
+| NAV mark-up at purchase | Buying CV stakes at discount to NAV produces high reported IRRs that attract new subscriptions |
+
+The risk is documented at [[Evergreen private capital vehicles#The mark-to-NAV problem for retail investors|the mark-to-NAV problem]]: retail investors subscribing in year 3+ inherit returns after the discount mark-up has already accrued — high reported IRRs that decay toward fund-stated targets (typically ~16%) over realized fund life. [[Partners Capital]] partner Euan Finlay (Apr 2026): if early returns "had been driven by buying secondaries at a discount and marking them up, you will not benefit from that uplift" as a later investor.
+
+The same exit-market thinness that produces continuation-vehicle supply is the condition that would make a retail-vehicle redemption surge ugly. See [[Private credit retail liquidity crisis 2026]] for the analogous private-credit channel events through Q1 2026.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -147,15 +184,28 @@ Practical reality: With SEC rules vacated, governance depends entirely on what's
 
 ## Related
 
+- [[Private equity secondaries]] — parent concept (LP-led + GP-led); leverage techniques and consolidation
+- [[Evergreen private capital vehicles]] — retail distribution channel that depends on CV supply
 - [[Private Credit]] — parallel liquidity crisis in semi-liquid vehicles
 - [[Private markets]] — fundraising landscape driving CV growth
 - [[Private credit retail liquidity crisis 2026]] — retail liquidity stress
 - [[Mubadala]] — plaintiff in landmark ADIC v. EMG case
 - [[ADIA]] — sister Abu Dhabi SWF
 - [[Secondaries]] — broader market context
-- [[Apollo]] — major CV practitioner
-- [[Blackstone]] — major CV practitioner
-- [[KKR]] — major CV practitioner
+- [[Apollo]] — major CV practitioner (Apollo S3 platform)
+- [[Blackstone]] — major CV practitioner (Strategic Partners)
+- [[KKR]] — major CV practitioner; acquiring [[Arctos]] (Feb 2026)
+- [[EQT]] — acquiring [[Coller Capital]] (Apr 2026, $3.7bn)
+- [[Ares Management]] — Landmark Partners acquisition (2021)
+- [[Carlyle]] — [[AlpInvest]] (2011, first elite acquirer)
+- [[CVC Capital Partners]] — Glendower Capital secondaries
+- [[Coller Capital]] — being acquired by EQT
+- [[Arctos]] — being acquired by KKR
+- [[HarbourVest]] — major LP-led secondaries buyer
+- [[Lexington Partners]] — secondaries pioneer
+- [[AlpInvest]] — Carlyle's secondaries subsidiary
+- [[Jefferies]] — primary deal-volume data source
+- [[Partners Capital]] — OCIO; cited on retail mark-up risk
 
 ---
 

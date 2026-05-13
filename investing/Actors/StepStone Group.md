@@ -47,15 +47,19 @@ aliases: [StepStone, STEP]
 
 | Metric | Value |
 |--------|-------|
-| SPWS AUM | **$10.2B** (Jul 2025) |
+| SPWS AUM | $10.2B (Jul 2025) |
 | Growth driver | US investor demand |
 | Expansion | [[Europe]], [[Australia]], Singapore |
 
-**STPEX Fund (Nov 2025):**
-- Evergreen interval fund
+### STPEX Fund (Nov 2025)
+
+- [[Evergreen private capital vehicles|Evergreen]] interval fund
 - $750M+ raised at launch
 - Access to top-tier PE sponsors
 - Retail/wealth access product
+- Heavy [[Private equity secondaries|secondaries]] allocation supports faster deployment of subscription cash
+
+STPEX is part of the wealth-channel evergreen wave that has made [[Private equity secondaries|secondaries capability]] strategically valuable across the industry — and motivated the 2024-2026 [[Private equity secondaries#Elite-firm consolidation (2024-2026)|elite-firm consolidation]] sequence ([[Carlyle]]/[[AlpInvest]] 2011, [[Blackstone]]/Strategic Partners 2013, [[Ares Management]]/Landmark 2021, [[CVC Capital Partners|CVC]]/Glendower 2022, [[Apollo]]/S3 organic 2023-25, [[KKR]]/[[Arctos]] Feb 2026, [[EQT]]/[[Coller Capital]] Apr 2026). StepStone is the public-markets peer that combines wealth-channel scale (SPWS $10.2bn) with full-stack private-markets advisory and secondaries data — the strategic profile other firms are now trying to replicate.
 
 ---
 
@@ -123,6 +127,16 @@ Participates in major AI rounds through:
 - [[xAI]] — Series E investor
 - [[Apollo]] — competitor
 - [[Blackstone]] — competitor
+- [[Private equity secondaries]] — STPEX vehicle uses secondaries for fast deployment
+- [[Continuation fund]] — GP-led secondaries market
+- [[Evergreen private capital vehicles]] — STPEX is a flagship evergreen example
+- [[Hamilton Lane]] — public peer (HLNE evergreen ~50% secondaries)
+- [[HarbourVest]] — private peer with similar full-stack profile
+- [[Coller Capital]] — secondaries peer
+- [[Lexington Partners]] — secondaries peer
+- [[AlpInvest]] — secondaries peer ([[Carlyle]] subsidiary)
+- [[KKR]] — peer; secondaries consolidation
+- [[EQT]] — peer; secondaries consolidation
 
 ---
 

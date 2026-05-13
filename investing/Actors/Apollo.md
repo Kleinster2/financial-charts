@@ -91,6 +91,16 @@ Part of broader industry push to bring [[Private credit]] to high-net-worth indi
 
 ---
 
+## Apollo S3 secondaries platform
+
+Apollo built its dedicated [[Private equity secondaries|secondaries]] platform — Apollo S3 — organically with acquihires through 2023-2025, in contrast to peers that purchased established specialists. The platform supports both LP-led purchases of fund stakes and GP-led [[Continuation fund|continuation vehicles]], and has been a key deal-flow engine for Apollo's wealth-channel evergreen products (Apollo Global Wealth PE, Apollo Debt Solutions BDC).
+
+Apollo's positioning within the 2011-2026 elite-firm consolidation is distinctive: rather than paying for an established secondaries platform (as [[Carlyle]] did with [[AlpInvest]] in 2011, [[Blackstone]] with Strategic Partners in 2013, [[Ares Management]] with Landmark in 2021, [[CVC Capital Partners|CVC]] with Glendower in 2022, [[KKR]] with [[Arctos]] in Feb 2026, [[EQT]] with [[Coller Capital]] in Apr 2026), Apollo concluded that organic build plus targeted senior hires was lower cost and culturally cleaner. The trade-off is that Apollo S3 has less AUM scale than the established acquired-platform peers, but more native integration with Apollo's credit-heavy origination engine.
+
+The strategic logic — that secondaries deploy capital faster than primary buyouts and plug naturally into wealth-channel [[Evergreen private capital vehicles|evergreen vehicles]] — is the same across all six elite firms. See [[Private equity secondaries#Elite-firm consolidation (2024-2026)|PE secondaries — Elite-firm consolidation]] for the full pattern.
+
+---
+
 ## Apollo Debt Solutions BDC — redemption cap (Mar 23, 2026)
 
 Apollo's flagship semi-liquid private credit vehicle capped investor withdrawals, becoming the latest in the [[Private credit retail liquidity crisis 2026]].
@@ -308,6 +318,12 @@ When the sale was struck (2024), Intel's financial and technical setbacks had le
 - [[AI infrastructure financing]] — indirect exposure
 - [[Saks Global]] — $1.15B term loan exposure
 - [[Saks bankruptcy]] — credit impairment
+- [[Private equity secondaries]] — Apollo S3 platform within consolidation sequence
+- [[Continuation fund]] — major GP-led practitioner
+- [[Evergreen private capital vehicles]] — Apollo Global Wealth PE, ADS BDC
+- [[Coller Capital]] — peer being acquired by [[EQT]] (Apr 2026)
+- [[Arctos]] — peer being acquired by [[KKR]] (Feb 2026)
+- [[HarbourVest]], [[Lexington Partners]], [[AlpInvest]] — secondaries peers
 
 ### Japan
 - [[Japan]] — major growth market, 200-partner meeting (Feb 2026)
