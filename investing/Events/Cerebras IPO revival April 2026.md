@@ -78,6 +78,29 @@ This update sharpens the event note's original point. The public market is being
 
 ---
 
+## May 13, 2026 - pricing print resolves the demand side
+
+The deal cleared at $185/share on the evening of May 13, $25 above the top of the upsized $150-$160 range and ~50% above the midpoint of the prior $115-$125 range from the May 4 amended S-1. At the offered 30M shares, gross proceeds reached $5.55B versus the $4.8B high-end target the road show was anchored on. Fully diluted market cap printed at $56.4B — about 64% above the $34.4B implied at the upsized range's high end and ~2.6x the ~$22B last-private-mark talks from January 2026. CBRS is set to begin trading May 14 on Nasdaq.
+
+| Metric | Value | Vs prior step |
+|--------|-------|---------------|
+| Final price | $185/share | +15.6% above the $160 high end |
+| Shares offered | 30M | At marketed size (no further upsize) |
+| Gross proceeds | $5.55B | +$750M vs $4.8B high end |
+| Fully diluted market cap | $56.4B | +64% vs $34.4B at $160 high end |
+| Vs January 2026 private mark (~$22B) | ~2.6x | Two-and-a-half-bagger before the first trade |
+| Reported demand | Book reportedly >20x oversubscribed | Confirms the above-range outcome reflects deep institutional demand, not a tight float |
+| Top disclosed equity holders at IPO | [[Fidelity]] 11.3%, [[Benchmark]] 9.5%, [[Foundation Capital]] 8.3%, [[Eclipse Ventures]] 7.3%, [[Alpha Wave]] 6.5% | [[UAE G42]] not in top-5; [[MBZUAI]] not on register |
+| [[NVIDIA]] same-day reaction | NVDA close $225.57 (range $221.57–$227.84), small net move | No incumbent-rotation read in regular hours; CBRS strength priced as additive AI-infra signal |
+
+The pricing print resolves the demand side of the underwriting tension this event note was built around: the buyside funded the forward [[OpenAI]] story, the [[OpenAI Infrastructure Spend]] capacity narrative, and the AI-infrastructure scarcity premium at a valuation that puts no implicit weight on the 2025 [[MBZUAI]] / [[UAE G42]] revenue concentration the S-1 disclosed. The earnings-quality side — operating loss masked by non-operating income, $24.6B remaining performance obligations back-end loaded, customer concentration unresolved — is now an aftermarket question, not a deal-clearance question. Every basis point of May 14 first-day pop compounds the gap between what the buyside paid for and what the 2025 income statement actually showed.
+
+The cap-table disclosure also matters. The Crunchbase reading of the final S-1 puts [[Fidelity]] (11.3%), [[Benchmark]] (9.5%), [[Foundation Capital]] (8.3%), [[Eclipse Ventures]] (7.3%), and [[Alpha Wave]] (6.5%) as the disclosed top-5 holders of Class B common. [[UAE G42]] is not in that top-5 despite the strategic-customer / [[Condor Galaxy]] partnership, and [[MBZUAI]] does not appear on the equity register at all. That is a clean separation of customer concentration from equity-side governance — strategically important because the CFIUS overhang that haunted the original 2024 filing was an equity-and-control question, and the final cap-table disclosure puts the public Class B float in the hands of US institutional and venture-side holders rather than the Abu Dhabi anchor.
+
+*Sources: Reuters, Bloomberg, MarketScreener, Crunchbase News, May 13 2026.*
+
+---
+
 ## Related
 
 - [[Cerebras]] — subject actor

@@ -179,6 +179,39 @@ The upsize is a live public-market test of the [[Cerebras IPO revival April 2026
 
 *Sources: Investors Business Daily, WSJ, Bloomberg-linked reports and amended SEC filing coverage, May 11-12 2026.*
 
+### May 13 pricing print
+
+Cerebras priced CBRS at $185/share on May 13, 2026 — a full $25 above the top of the marketed $150-$160 range and $60 above the midpoint of the prior $115-$125 range disclosed in the May 4 amended S-1. The deal raised $5.55B at the offering size of 30M shares, $750M above the $4.8B high-end target the road show was anchored on. Fully diluted market cap at the IPO price came in at $56.4B, ~64% above the $34.4B implied at the upsized range's high end and ~2.6x the ~$22B last private mark from January 2026 talks.
+
+| Term | Pricing print | Vs marketed |
+|------|---------------|-------------|
+| Final price | $185/share | +15.6% above the $160 high end |
+| Shares offered | 30M | At marketed size (no second upsize) |
+| Gross proceeds | $5.55B | +$750M vs $4.8B high-end target |
+| Fully diluted market cap | $56.4B | +64% vs $34.4B at $160 high end |
+| Vs January 2026 private mark (~$22B) | ~2.6x | Two-and-a-half-bagger before the first trade |
+| First trade | Thursday May 14, Nasdaq: CBRS | As guided May 11-12 |
+| Reported demand | Book reportedly >20x oversubscribed | Confirms above-range pricing reflects deep demand, not just a tight float |
+| Green shoe / over-allotment exercise | Not yet disclosed | Watch the closing-of-the-offering 8-K |
+| Allocation skew (institutional vs retail) | Not yet disclosed | Watch DTC + clearing-firm reporting next week |
+| [[NVIDIA]] same-day reaction | NVDA $225.57 close (intraday range $221.57–$227.84), small net move | No incumbent-rotation read; CBRS demand priced as additive AI-infra signal, not GPU-share threat |
+
+Disclosed top equity holders at IPO (Class B common):
+
+| Holder | Stake |
+|--------|-------|
+| [[Fidelity]] | 11.3% |
+| [[Benchmark]] | 9.5% |
+| [[Foundation Capital]] | 8.3% |
+| [[Eclipse Ventures]] | 7.3% |
+| [[Alpha Wave]] | 6.5% |
+
+Worth flagging: [[UAE G42]] is not in the disclosed top-5 holders despite its strategic-customer / Condor Galaxy partnership, and [[MBZUAI]] is not on the equity register at all — the 86% combined revenue concentration documented in [[Cerebras IPO revival April 2026]] is a *customer* concentration, not an equity-ownership overlap.
+
+The pricing settles the live underwriting question opened by the April 17 S-1 in favor of demand: investors funded the forward [[OpenAI]] story and AI-infrastructure scarcity narrative at a valuation 2.6x the last private mark, with no equity-side governance link to the Abu Dhabi customer concentration. The inverse risk now flips to the aftermarket — every basis point above the $185 offer price compounds the earnings-quality gap that the S-1 made unavoidable. Aftermarket trading May 14 is the first independent read on whether the buyside that took allocation believes the same $56.4B fully diluted valuation that the underwriters cleared the book at.
+
+*Sources: Reuters, Bloomberg, MarketScreener, Crunchbase News, May 13 2026.*
+
 ---
 
 ## IPO filing
