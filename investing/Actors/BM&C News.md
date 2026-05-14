@@ -41,6 +41,9 @@ Brazil's first dedicated financial markets TV channel. Started as an independent
 | 2023 | Partners with Nelogica's Profit platform (trading terminal integration) |
 | 2024 | Partners with Grabyo for multi-platform content distribution |
 | Jan 2025 | Celebrates 5 years; 30M+ reach, 1.2M Claro decoders |
+| 2025 | Manhattan Connection contract renewed for 2025 season (per Jornal de Brasília) |
+| Aug 28, 2025 | Premieres Wall Street Cast with [[Bruno Corano]] direct from Times Square — Thursdays 8 PM |
+| 2026 season | Manhattan Connection cast rotation — Danilo Gentili and Sil Curiati out; Martha Gabriel (innovation/digital) and Rossandro Klinjey (psychology/behavior) in; format expands to digital streaming + podcasts + Q&A subscriber sessions |
 
 ---
 
@@ -122,4 +125,4 @@ The channel's growth also reflects a broader trend: YouTube and social media rep
 - [[BTG Pactual]] — owns Exame
 - [[B3]] — Brazilian stock exchange; retail investor growth drove BM&C's audience
 - [[Avenue Securities]] — type of advertiser/partner for cross-border investing coverage
-- [[Bruno Corano]] — hosts Manhattan Connection and Wall Street Cast on BM&C
+- [[Bruno Corano]] — executive producer + presenter of Manhattan Connection (2023 revival, 2026 season); host of Wall Street Cast (BM&C premiere 2025-08-28). Relationship appears to be programming/license, not equity — no public deal terms.
