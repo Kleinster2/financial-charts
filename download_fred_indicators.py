@@ -23,6 +23,9 @@ FRED_INDICATORS = {
         'FEDFUNDS': 'Effective Federal Funds Rate',
         'DFEDTARU': 'Federal Funds Target Rate - Upper Limit',
         'DFEDTARL': 'Federal Funds Target Rate - Lower Limit',
+        # TODO (post-narrow-FRED migration): add DFF (daily eff FF rate),
+        # SOFR (daily), IORB. Blocked by stock_prices_daily wide-table column
+        # limit — needs a narrow-format FRED writer (similar to prices_long).
     },
     'inflation': {
         'CPIAUCSL': 'Consumer Price Index for All Urban Consumers',

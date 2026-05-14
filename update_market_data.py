@@ -247,6 +247,26 @@ def update_fred_data(verbose: bool = True):
         print("=" * 70)
 
 
+def update_rate_futures_data(verbose: bool = True):
+    """Update rate-futures strip (ZQ + SR3) in rate_futures_daily.
+
+    Incremental — fetches last 5d per contract via yfinance and UPSERTs.
+    Run --backfill via the script directly if a full 2y history is wanted.
+    """
+    if verbose:
+        print("\n" + "=" * 70)
+        print("Updating Rate Futures (ZQ + SR3)")
+        print("=" * 70)
+
+    import subprocess
+    repo_root = os.path.dirname(os.path.abspath(__file__))
+    script = os.path.join(repo_root, "scripts", "update_rate_futures.py")
+    subprocess.run([sys.executable, script], check=False)
+
+    if verbose:
+        print("=" * 70)
+
+
 def update_fred_indices_data(verbose: bool = True, lookback_days: int = 30):
     """Update FRED volatility indices (RVX, VXV, VXO, EVZ)."""
     if verbose:
@@ -343,7 +363,7 @@ def show_interactive_menu():
     print("    6. Custom selection")
     print("    7. Cancel")
 
-    all_assets = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"]
+    all_assets = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals", "ratefutures"]
 
     while True:
         choice = input("\nEnter choice [1-7] (default: 1): ").strip()
@@ -414,7 +434,7 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
     start = time.time()
     try:
         # Run equities/FX/crypto updater if requested
-        special_assets = ("futures", "iv", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals")
+        special_assets = ("futures", "iv", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals", "ratefutures")
         non_special_assets = [a for a in assets_to_run if a not in special_assets]
         if non_special_assets:
             if verbose:
@@ -481,6 +501,12 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
             if verbose:
                 print("\n[Orchestrator] Updating FRED economic indicators")
             update_fred_data(verbose=verbose)
+
+        # Run rate-futures (ZQ + SR3) updater if requested
+        if "ratefutures" in assets_to_run:
+            if verbose:
+                print("\n[Orchestrator] Updating rate futures (ZQ + SR3)")
+            update_rate_futures_data(verbose=verbose)
 
         # Run FRED corporate bond yields updater if requested
         if "fredbonds" in assets_to_run:
@@ -564,7 +590,7 @@ def main():
     parser.add_argument(
         "--assets",
         nargs="+",
-        choices=["all", "stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"],
+        choices=["all", "stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals", "ratefutures"],
         default=["all"],
         help=(
             "Asset groups to update. Use one or more of: all, stocks, etfs, mutualfunds, adrs, fx, crypto, futures, iv, china, korea, brazil, canada, india, japan, b3, fxclose, bcb, fred, fredbonds, eodhdbonds, fredindices, fundamentals. "
@@ -582,7 +608,7 @@ def main():
     # Resolve asset selection
     chosen = [a.lower() for a in args.assets]
     if "all" in chosen:
-        assets_to_run = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"]
+        assets_to_run = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals", "ratefutures"]
     else:
         assets_to_run = chosen
 

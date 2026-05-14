@@ -31,6 +31,8 @@ FRED_INDICATORS = {
     'FEDFUNDS': 'Fed Funds Rate',
     'DFEDTARU': 'Fed Target Upper',
     'DFEDTARL': 'Fed Target Lower',
+    # TODO (post-narrow-FRED migration): seed DFF, SOFR, IORB. Blocked by
+    # wide-table column limit — see download_fred_indicators.py fed_policy.
 
     # Inflation (monthly)
     'CPIAUCSL': 'CPI All Items',

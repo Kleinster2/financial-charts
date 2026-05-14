@@ -110,6 +110,14 @@ def download_sr3_curve():
 
 The script plots SR3 as a dashed orange line behind the solid blue ZQ strip. Only the quarterly IMM months exist for SR3 (H/M/U/Z), so the SR3 portion of the chart has fewer points than the ZQ portion (monthly) for any given time horizon.
 
+### Persistence and the SR3 history gap
+
+`scripts/update_rate_futures.py` writes the SR3 strip into `rate_futures_daily` alongside ZQ. Unlike ZQ — where yfinance returns ~2 years of per-contract history — SR3 contracts return only the latest snapshot from yfinance and Stooq. There is no free-tier source for historical SR3 per-contract closes. The practical consequence:
+
+- Going forward: the daily writer accumulates SR3 closes from the day it first runs (May 13 2026 in this vault). Future regime-shift work on SR3 is possible once enough history is collected.
+- Pre-May-2026 SR3 history: not available without CME QuikStrike (paid) or fragile scraping of Barchart / Investing.com. Out of scope for the current pipeline.
+- For longer-dated rate expectations before the persistence window, the vault relies on the ZQ + SR3 splice at snapshot time (live yfinance pull) and on FRED's daily `SOFR` series (the underlying rate, not the forward strip).
+
 ---
 
 ## Related

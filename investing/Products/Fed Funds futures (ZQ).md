@@ -113,7 +113,7 @@ This is one of the simplifications the vault's `fed_rate_expectations.py` does n
 ## Tooling
 
 ```bash
-# Snapshot the strip and FOMC probabilities
+# Snapshot the strip and FOMC probabilities (live yfinance pull)
 python scripts/fed_rate_expectations.py
 
 # Just the table (no chart)
@@ -121,9 +121,61 @@ python scripts/fed_rate_expectations.py --table --no-chart
 
 # How a single contract's implied rate has shifted over time
 python scripts/fed_rate_expectations.py --mode history --history-contract ZQZ26.CBT
+
+# Persist the full ZQ strip to market_data.db rate_futures_daily table
+python scripts/update_rate_futures.py                  # daily incremental
+python scripts/update_rate_futures.py --backfill       # full 2y per-contract history
 ```
 
-Data: `yfinance` for ZQ contracts on CBOT. Database stores the Fed target range (`DFEDTARU` / `DFEDTARL` columns in `stock_prices_daily`) via FRED.
+Live curve data: `yfinance` for ZQ contracts on CBOT. Persisted history: `rate_futures_daily` table (added May 2026) — `(Date, contract, root, delivery_year, delivery_month, delivery_code, price, implied_rate)` long format. Fed target range comes from FRED via `DFEDTARU` / `DFEDTARL` columns in `stock_prices_daily`.
+
+### Per-contract shift history
+
+The snapshot chart in [[Rate expectations]] shows the strip at a single point in time. What it hides is how violently a single contract's implied rate can move while the contract itself sits and waits for its delivery month. Three representative ZQ contracts over the past two years:
+
+![[zq-multi-contract-shift-history.png]]
+*Implied rate for three ZQ contracts (Dec 2026, Jun 2027, Dec 2027) from May 13, 2024 to May 13, 2026. Same y-axis, same time window — what changes is the market's view of where the Fed will be on each delivery date. Vertical dashed line marks the April CPI release on May 12, 2026 (3.8% YoY, 0.6% MoM). Generated via `scripts/chart_zq_shift_history.py`.*
+
+| Contract | Obs | First (2024-05-13) | Trough | Peak | Latest (2026-05-13) | Net |
+|----------|-----|--------------------|--------|------|---------------------|-----|
+| Dec 2026 (ZQZ26) | 503 | 4.12% | 2.82% (~Sept 2024) | 4.33% | 3.72% | -41bp |
+| Jun 2027 (ZQM27) | 503 | 4.25% | 2.84% (~Sept 2024) | 4.46% | 3.84% | -41bp |
+| Dec 2027 (ZQZ27) | 502 | 4.40% | 2.86% (~Sept 2024) | 4.61% | 3.70% | -70bp |
+
+Three things this surface that the snapshot doesn't:
+
+- Peak-to-trough range of ~150bp per contract over two years — much wider than the strip's instantaneous slope ever showed
+- The trough cluster around late September 2024 — when the Fed's first cut landed, the market briefly priced terminal at 2.8% across 2026-2027
+- The May 12 2026 CPI shock visible as a same-direction step across all three contracts — a single inflation print repriced expectations 7, 13, and 19 months out simultaneously
+
+This is the kind of view that argues against treating the strip as a forecast. Each ZQ contract is a moving target whose implied rate reflects today's information about the Fed's path, not a durable belief — and those targets re-price together when macro inputs change.
+
+### Historical reconstruction
+
+The persisted strip enables queries the live API can't answer:
+
+```sql
+-- How has the Dec 2026 implied rate shifted over time?
+SELECT substr(Date,1,10) AS d, implied_rate
+  FROM rate_futures_daily
+ WHERE contract = 'ZQZ26.CBT'
+ ORDER BY Date;
+
+-- Full strip snapshot on a given date (e.g. day before / after CPI shock)
+SELECT contract, delivery_year, delivery_month, price, implied_rate
+  FROM rate_futures_daily
+ WHERE root = 'ZQ' AND Date LIKE '2026-05-09%'
+ ORDER BY delivery_year, delivery_month;
+
+-- Curve slope (front vs back) over time
+SELECT substr(Date,1,10) AS d,
+       MAX(CASE WHEN delivery_month = strftime('%m','now') THEN implied_rate END) AS front,
+       MAX(CASE WHEN delivery_year > strftime('%Y','now') AND delivery_month = 12 THEN implied_rate END) AS dec_next
+  FROM rate_futures_daily
+ WHERE root = 'ZQ'
+ GROUP BY substr(Date,1,10)
+ ORDER BY d;
+```
 
 ---
 

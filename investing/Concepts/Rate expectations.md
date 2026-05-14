@@ -156,9 +156,13 @@ python scripts/fed_rate_expectations.py --mode history --history-contract ZQZ26.
 
 # Table only (no chart)
 python scripts/fed_rate_expectations.py --table --no-chart
+
+# Persist the ZQ + SR3 strip to the database (rate_futures_daily table)
+python scripts/update_rate_futures.py                  # daily incremental append
+python scripts/update_rate_futures.py --backfill       # full 2y per-contract history
 ```
 
-Data source: [[CME Group|CME]] via yfinance. ZQ contracts on CBOT, SR3 on CME. Updated on demand — not stored in the database.
+Data source: [[CME Group|CME]] via yfinance. ZQ contracts on CBOT, SR3 on CME. Snapshot reads pull live from yfinance; persisted history lives in `rate_futures_daily` (long format: Date, contract, root, delivery_year, delivery_month, price, implied_rate) as of May 2026. See [[Fed Funds futures (ZQ)#Historical reconstruction]] for query examples. SR3 historical coverage is limited because yfinance returns snapshot-only data for SR3 contracts — daily SR3 history accumulates going forward from the persistence-script start date.
 
 ---
 
