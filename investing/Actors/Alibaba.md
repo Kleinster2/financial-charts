@@ -332,6 +332,31 @@ Strategic value: Real test cases for industry-specific models (automotive, consu
 
 ---
 
+## Financials
+
+Revenue and net income in RMB billions. Fiscal year ends March 31. All GAAP. Source: Alibaba IR filings (6-K, 20-F).
+
+| FY | Revenue (RMB B) | YoY | Net Income (RMB B) | Operating Margin |
+|----|-----------------|-----|---------------------|------------------|
+| FY18 | 250.3 | +58% | ~63.9 | ~25% |
+| FY21 | 717.3 | — | — | — |
+| FY22 | 853.1 | +19% | ~62.0 | ~7% |
+| FY23 | 868.7 | +2% | ~72.8 | ~10% |
+| FY24 | 941.2 | +8% | — | — |
+| FY25 | 996.4 | +6% | 125.98 (+77%) | ~14% |
+| FY26 (latest) | 1,023.7 | +3% | 102.13 (-19%) | 5% |
+
+![[alibaba-price-chart.png]]
+*BABA on NYSE (ADS = 8 ordinary shares). Jan 2026 +20% Qwen app run-up then "sell-the-news" pullback; Feb 2026 [[OpenAI]] $852B reference round triggered AI-platform comparable rerating; May 12 pre-Q4-print drift +8.2% to $145.81; May 14 -1.8% premarket after Q4 print landed.*
+
+![[alibaba-fundamentals-chart.png]]
+*BABA quarterly revenue (blue) + net income (red) vs price (green). Only FY26 Q4 (Mar 31 2026) currently in `income_statement_quarterly` for BABA — earlier quarterly history not yet backfilled; chart will fill in once `fetch_fundamentals.py BABA` is run or historical data is manually inserted.*
+
+![[alibaba-sankey.png]]
+*FY26 income statement Sankey (RMB billions). Revenue 1,023.7B → OI 50.1B (5% margin) → NI 102.1B; the 52B "Other Income" wedge is the RMB interest+investment income line that lifted GAAP NI above operating income. Note: COGS / GP / OpEx-by-component left NULL in the annual DB row pending full 20-F detail — Sankey will refine once those are backfilled.*
+
+---
+
 ## AI financial performance
 
 Cloud Intelligence Group (Aug 2025):
@@ -339,6 +364,73 @@ Cloud Intelligence Group (Aug 2025):
 - AI-related projects: triple-digit growth for 8 consecutive quarters
 
 [[Morgan Stanley]] projection: China AI investments could deliver 52% returns by 2030.
+
+---
+
+## Q4 FY26 + fiscal year 2026 results (reported May 13, 2026)
+
+Quarter ended March 31, 2026 ("March quarter 2026" in Alibaba's calendar). Stock -1.8% premarket May 14 after print; May 13 close $145.81 (+8.2% on pre-print drift). Print landed after the [[Cisco]] beat and the [[April CPI shock|April CPI 3.8% print]] from May 12 — the mixed shape (cloud strength + headline profit collapse) is the day's clearest single read on the AI-platform capex-vs-margin tension.
+
+### Q4 FY26 GAAP income statement (RMB millions)
+
+| Line | Amount | YoY change |
+|------|--------|------------|
+| Revenue | 243,380 | +3% |
+| Cost of revenue | (159,392) | — |
+| Gross profit | 84,988 | — |
+| Product development (R&D) | (18,957) | — |
+| Sales & marketing | (53,415) | — |
+| General & administrative | (9,949) | — |
+| Amortization & impairment of intangibles | (2,605) | +213% (China e-commerce impairment driven) |
+| Total operating expenses below GP | (84,926) | — |
+| Income (loss) from operations | (848) | operating LOSS — first since reorg |
+| Interest and investment income, net | 33,823 | — |
+| Other income, net | 623 | — |
+| Income before tax | 33,598 | — |
+| Income tax expense | (7,170) | — |
+| GAAP net income | 23,502 | — |
+| GAAP diluted EPS per ADS | RMB 10.36 (US$1.50) | — |
+| GAAP diluted EPS per share | RMB 1.30 (US$0.19) | — |
+
+Non-GAAP adjusted net income was RMB 86M (US$12M) — the gap between GAAP NI (23.5B) and adjusted NI (86M) is roughly the RMB 33.8B in interest + investment income, which non-GAAP backs out as non-operating. The "profit near zero" framing in the press cycle refers to the non-GAAP adjusted figure, not the GAAP statement.
+
+The operating loss was driven by a RMB 2.6B impairment on [[Alibaba China E-commerce Group]] intangibles (up 213% YoY) plus a sales-and-marketing spike to RMB 53.4B (S&M as % of revenue ran 23.9% for FY26 vs 14.5% in FY25 — quick-commerce / instant retail subsidies).
+
+### Cloud Intelligence Group — the structural counterweight
+
+- Revenue Q4 FY26: RMB 41.63B (US$6.04B), +38% YoY
+- Adjusted EBITA: +57% YoY
+- AI-related product revenue: 11 consecutive quarters of triple-digit YoY growth, now 30% of the cloud division's external revenue
+- Management commentary: will scale spend beyond the existing RMB 380B three-year capex framework
+
+### Fiscal year 2026 summary (year ended March 31, 2026)
+
+| Line | Amount |
+|------|--------|
+| Revenue | RMB 1,023,670M (US$148,401M) |
+| Income from operations | RMB 50,150M (US$7,270M, -64% YoY) |
+| GAAP net income | RMB 102,127M (US$14,805M, -19% YoY) |
+| Adjusted EBITA (non-GAAP) | RMB 76,416M (-56% YoY) |
+| Non-GAAP net income | RMB 60,658M (-62% YoY) |
+| S&M expense | RMB 245,023M (23.9% of revenue, up from 14.5% FY25) |
+| G&A expense | RMB 33,082M (3.2% of revenue) |
+| Operating margin | 5% (vs 14% FY25) |
+| Free cash flow | RMB (46,609)M outflow |
+| Operating cash flow Q4 only | RMB 9.4B inflow |
+
+DB ingest note: Q4 FY26 row inserted into `income_statement_quarterly` and FY26 row inserted into `income_statement_annual` in raw RMB units (matching [[JD.com]] / Chinese-ADR convention). EPS stored as per-ADS in RMB (10.36) since 1 ADS = 8 ordinary shares is the trading unit on NYSE. EBITDA and D&A left NULL pending full 20-F cash flow detail; annual COGS / gross profit / OpEx-by-component left NULL pending quarter-by-quarter aggregation (only Q4 detail available from this press release).
+
+### Read
+
+Three things in tension in this print:
+
+- Top-line still growing (Q4 +3% YoY, FY +3-11% depending on adjustments) and the cloud / AI mix is genuinely accelerating (cloud +38% YoY, AI 30% of external cloud revenue, 11 consecutive triple-digit-growth quarters). This is the bull line.
+- Operating income collapsed quarterly to a small loss and annually -64% YoY. The named drags are (1) quick-commerce / instant retail subsidies showing up in S&M, (2) the China e-commerce impairment, (3) heavier AI capex flowing through D&A and via cloud cost-of-revenue.
+- Management is explicitly committing to scale capex beyond the existing RMB 380B three-year framework — same posture as [[Anthropic]]'s April commitment to hundreds-of-billions and [[OpenAI]]'s 2025 trillion-dollar dealmaking. The platform-issuer playbook in 2026 is: accept margin compression now, fund the inference / training capex curve, and let the cloud+AI revenue line catch up.
+
+The non-GAAP $12M / RMB 86M "profit near zero" framing in the press cycle is technically correct but obscures the structural fact: the GAAP P&L still throws off RMB 23.5B per quarter via investment-portfolio mark-to-market. The bear case is that quick-commerce + AI capex compresses operating margin further while the investment-portfolio buffer is finite. The bull case is that cloud / AI revenue acceleration eventually compounds into operating leverage and the capex curve flattens.
+
+Sources: [Alibaba Q4 FY26 + FY26 press release](https://www.businesswire.com/news/home/20260512841182/en/Alibaba-Group-Announces-March-Quarter-2026-and-Fiscal-Year-2026-Results) (May 13 2026); [Form 6-K consolidated income statement](https://www.stocktitan.net/sec-filings/BABA/6-k-alibaba-group-holding-ltd-current-report-foreign-issuer-164c9931befd.html); [Yahoo Finance summary](https://finance.yahoo.com/news/alibaba-q4-2026-earnings-profit-111304555.html).
 
 ---
 
@@ -446,6 +538,9 @@ The framework should be read alongside [[PBOC]] governor [[Pan Gongsheng]]'s par
 - [[China token economy]] — Alibaba Token Hub, vertical integration strategy
 - [[Agentic AI]] — Qwen app integrating Taobao, Alipay, Fliggy (Jan 2026)
 - [[Happy Horse]] — open-source AI video generation (Apr 2026, anonymous release)
+
+### Securities
+- [[Alibaba securities]] — NYSE: BABA / HKEX: 9988
 
 ### Competitors
 - [[ByteDance]] — competitor ([[Doubao]] has 159M MAU vs Qwen's 100M; [[Volcano Engine]] MaaS leader)
