@@ -780,7 +780,7 @@ Market reaction: [[Destiny Tech100]] (DXYZ) — which holds Anthropic via a sing
 
 Platform response: [[Forge Global]] disputed its inclusion as "erroneous" (says it requires explicit issuer approval); [[Sydecar]] said it operates administrative-only; [[Hiive]] defended its compliance infrastructure. Resolution unsettled as of May 13.
 
-Full structural treatment in [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]] and [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]].
+Full structural treatment in [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]] and [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]]. The dated-event hub is [[Anthropic SPV void May 11 2026]] (Events/), which carries the full named-platform list, the void-vs-voidable mechanics, and the day-by-day timeline.
 
 *Sources: [Anthropic Help Center](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams); [TechCrunch](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026); [Yahoo Finance / Bloomberg](https://finance.yahoo.com/markets/stocks/articles/anthropic-openai-warn-buyers-unauthorized-180743368.html); [Spendnode](https://www.spendnode.io/blog/anthropic-voids-unauthorized-stock-trades-1-6t-tokenized-may-2026/).*
 

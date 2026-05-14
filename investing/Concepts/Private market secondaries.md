@@ -281,6 +281,8 @@ Accredited investors ($200K income or $1M net worth) have fewer protections than
 
 ### Issuer pushback: the void-declaration mechanism (May 11-12, 2026)
 
+> Dated-event hub: [[Anthropic SPV void May 11 2026]] (Events/) — carries the per-day timeline, the full named-platform list, the market-impact table (DXYZ -25.05%, tokenized OpenAI -36% in 24h), and the watch list (does SpaceX join, does Forge Global retract).
+
 On May 11, 2026, [[Anthropic]] updated its public help-center notice on unauthorized stock sales — explicitly declaring all transfers not approved by its board of directors **void**, naming individual SPV operators and tokenization venues by name for the first time, and warning specifically against forward contracts and tokenized securities. [[OpenAI]] issued an identical-language notice on May 12. Both notices applied to common AND preferred stock and pointed to Delaware bylaw transfer restrictions as the legal basis.
 
 The two notices together are the cleanest evidence the AI-lab issuer side has taken a coordinated stance against the SPV / perp / tokenized-equity complex that grew up around them through 2025-2026. The structural significance is in the word choice.

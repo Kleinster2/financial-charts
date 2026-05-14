@@ -268,7 +268,7 @@ The structural read on the drawdown is important: DXYZ's [[Anthropic]] position 
 
 The contrast with the May 8-11 framing in this note is instructive. The "Three distinct reads" subsection above flagged "Tail downside: premium snaps to zero on IPO (NAV ≈ $19.97 vs $54.60 stock) = -63% drawdown immediately" — a SpaceX-IPO-timing tail. The May 12 drawdown is a *different* tail-risk realization: not IPO timing, but issuer-side enforcement against the secondary complex that retail-access vehicles trade as proxies for. The -25.05% reaction implies the market estimates the issuer-pushback tail at roughly 40% of the IPO-snap tail.
 
-Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]].
+Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]]. The dated-event hub is [[Anthropic SPV void May 11 2026]] (Events/) — DXYZ is the most visible listed price-discovery casualty (-25.05% close, -4.3σ beta-adjusted in the vault mover screen).
 
 *Sources: [Anthropic Help Center](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams); [TechCrunch](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026); local prices_long DXYZ verification ($71.24 → $53.40, May 11-12 2026).*
 - [[Robinhood]] — competitor (RVI, filing for NYSE)

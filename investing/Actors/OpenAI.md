@@ -496,7 +496,7 @@ OpenAI's notice statement: *"the sale will not be recognized and carry no econom
 
 Market reaction: tokenized [[OpenAI]] contracts on perp DEXs crashed approximately $1,400 → $900 (-36%) in 24 hours after the announcement — a sharper drawdown than tokenized [[Anthropic]] contracts saw on its May 11 notice. The contrast with OpenAI's October 2025 board-authorized tender offer ($6.6B across 600+ employees) is the structural point: the company has not moved against authorized secondary liquidity, only the unauthorized SPV / tokenized / forward-contract layer that grew up alongside it.
 
-Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]] and [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]].
+Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]] and [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]]. The dated-event hub is [[Anthropic SPV void May 11 2026]] (Events/) — carries the timeline, named-platform list, and the void-vs-voidable mechanics.
 
 *Sources: [Yahoo Finance / Bloomberg — Anthropic and OpenAI warn buyers](https://finance.yahoo.com/markets/stocks/articles/anthropic-openai-warn-buyers-unauthorized-180743368.html); [Spendnode synthesis](https://www.spendnode.io/blog/anthropic-voids-unauthorized-stock-trades-1-6t-tokenized-may-2026/); [TechCrunch](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026, includes OpenAI parallel context).*
 
