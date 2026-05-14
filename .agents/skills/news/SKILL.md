@@ -1,198 +1,55 @@
 ---
 name: news
-description: "Full daily news ingestion pipeline: volatility-aware mover cross-check (quick_movers, fallback +/-8%), 8-analyst watchlist, newsletter scan, source discovery with 48h date gate, article ingestion with entity linking and compliance, earnings calendar check, and downstream impact analysis. Use whenever the user mentions news, daily sweep, market movers, what happened today, updating the vault from articles, ingesting Bloomberg/Reuters/FT/WSJ, checking analyst commentary, or asks about significant stock moves. Also triggers on /news."
+description: "Ingest news articles from a specified source (Bloomberg, Reuters, FT, WSJ, or user-named) into the vault. Searches the source for vault-relevant articles, applies a 48-hour date gate, presents candidates, and ingests each selected article via /ingest. Closes with a downstream-impact check on any event/crisis notes updated. Use for /news SOURCE, ingest from Bloomberg, check FT for AI articles. NOT for daily movers (use /morning-scan) or newsletter sweep (use /substacks)."
 ---
 
-# Daily News Ingestion
+# News Article Ingestion
 
-Ingest news articles into the Obsidian vault. Sources: Bloomberg, Reuters, FT, WSJ, or whatever the user specifies.
+Ingest news articles from a named source into the Obsidian vault. The skill orchestrates source discovery → article selection → ingestion → downstream impact. Per-article ingestion is delegated to `/ingest`.
 
 **Before any vault edit**: read `CLAUDE.md` in the vault root.
 
-**Run ALL 5 phases on every invocation**, even when the user specifies a narrow source or sector. A user asking "check Reuters for energy news" still needs the movers cross-check (Phase 0), analyst scan (Phase 0.5), earnings check (Phase 3), and downstream impact (Phase 4). The phases exist because humans forget to ask for them.
-
-## Phase 0: Major Movers Cross-Check (NEVER SKIP)
-
-Before looking at any articles, check yesterday's/today's major stock movers against existing vault actor notes.
-
-1. Preferred path: run `python scripts/quick_movers.py` to get vault actors with statistically unusual moves. As of May 2026 the screen flags any of three triggers (post the May 7 Chime / HawkEye 360 misses):
-   - `>=2.5 sigma` beta-adjusted (the standard threshold)
-   - `>=2.0 sigma` for high-vol names (idiosyncratic vol > 50% — catches recent IPOs and small-cap fintechs that have wide vol bands)
-   - `>=6.0%` absolute move regardless of sigma (the always-on percent backstop — catches borderline-sigma names like CHYM at -7.5% / -2.1σ)
-
-   The full default flag-set is now equivalent to: `python scripts/quick_movers.py` (no args needed; defaults capture the right cases). Each row in the output shows which trigger fired in the trailing "Trigger" column.
-
-2. If the script's data is stale, run `python update_market_data.py --lookback 5 --assets stocks etfs adrs` first.
-
-3. As of March 2026, `quick_movers.py` reads from the wide table (`stock_prices_daily`) when DuckDB is unavailable; the SQLite path also falls back to the narrow `prices_long` table automatically. If both surfaces are stale, run `update_market_data.py` first.
-
-4. If the script is unavailable or still stale, fall back to web search for biggest stock movers and cross-reference any name that moved **+/-8% or more** against vault actors.
-
-5. **Run the vault-ticker audit, IPO debut tracker, and private-capital watch in parallel** with the mover screen (these address the three failure modes that surfaced May 7, 2026):
-   - `python scripts/audit_vault_tickers.py --only-gaps` — catches actor notes that mention NYSE/NASDAQ tickers in the body but don't expose them in `aliases:` (Phase 0 invisible). [[Chime]] had this gap on May 7.
-   - `python scripts/ipo_debut_tracker.py --tickers TICK1 TICK2 --scan-stale-private` — pass any candidate IPO tickers from the day's news scan + scan vault for #private notes whose body mentions a NYSE/NASDAQ ticker pattern (likely IPO'd, status stale). [[HawkEye 360]] May 7 IPO would have surfaced via the --tickers HAWK input.
-   - `python scripts/ipo_debut_tracker.py --private-watch` — show last funding round + age for ~30 tracked pre-IPO actors (Kalshi, Anthropic, OpenAI, Stripe, SpaceX, xAI, Stripe, Cursor, etc.). Highlights rounds older than 120 days as candidates to web-search for fresh activity. [[Kalshi]] $22B Series F (May 7) was a private-capital miss — running --private-watch the morning of would have surfaced "Kalshi: last round Dec 2025 / 5 months stale -> verify."
-
-6. For every vault actor that had a major move:
-   - Check if the actor note already covers the catalyst.
-   - If not, **auto-add it to the candidate list** with highest priority, regardless of which news source is being scanned.
-7. Present these as **"🔴 Major mover — vault actor needs update"** at the top of the candidate table.
-8. **Subsector dispersion**: When multiple vault actors in the same sector move, report dispersion by subsector in the daily note. The dispersion is the insight, it reveals what the market is actually pricing.
-
-This prevents missing stories like IBM -13% that were not on a chosen source's article list but still mattered to the vault — and prevents missing stories like the May 7, 2026 [[Chime]] -7.5% / [[HawkEye 360]] +30% IPO debut that the original 2.5σ-only screen would have silently dropped.
-
-## Phase 0.25: Newsletter / Substack Check (NEVER SKIP)
-
-Check tracked newsletters and Substacks for new posts in the last 48 hours. These are high-signal, low-noise sources that often publish analysis before or instead of mainstream outlets.
-
-| Publication | URL | Focus |
-|-------------|-----|-------|
-| **Vizier Report** | https://vizier.report | Middle East, Iran, strategic analysis |
-| **Robin J. Brooks** | https://robinjbrooks.substack.com | Macro, trade flows, energy markets, AIS shipping data |
-| **Chips and Wafers** | https://chipsandwafers.substack.com | Semiconductor equipment, test ecosystem, packaging |
-| **Ideas in Development** | https://ideasindevelopment.substack.com | Development economics, AI + emerging markets |
-| **Jason's Chips** | https://jasonschips.substack.com | Semiconductor technology primers, packaging, process nodes |
-| **Jimi Finance** | https://jimifinance.substack.com | Taiwan/Asia semi analysis, ASIC test, AI chip supply chain |
-| **Sergey Vakulenko** | https://svakulenko.substack.com | Russian oil/energy sector, upstream economics, OPEC+ |
-| **Zero to Pete** | https://www.zerotopete.com | AI tools, coding workflows, founder/operator lessons |
-| **Gianluca Benigno** | https://gianlucabenigno.substack.com | Central bank policy, monetary economics, inflation, oil/geopolitics |
-| **Escalation Trap** | https://escalationtrap.substack.com | Conflict escalation dynamics, Iran war analysis, strategic patterns |
-| **Chartbook** | https://adamtooze.substack.com | Macro history, geopolitics, financial crises |
-| **Shanaka Anslem Perera** | https://shanakaanslemperera.substack.com | Macro, development economics, inference economics, structural fractures |
-| **Alex Epstein** | https://alexepstein.substack.com | Energy policy, fossil fuels, energy security |
-| **FT Alphaville** | https://ftav.substack.com | Markets, financial analysis, macro |
-| **Alap Shah** | https://alapshah1.substack.com | AI infrastructure, semiconductor strategy, intelligence economics |
-| **Quiet Capital** | https://michaelxbloch.substack.com | AI investment themes, intelligence economics |
-| **Recode China AI** | https://recodechinaai.substack.com | China AI industry, labor displacement, tech policy |
-| **The Register** | https://www.theregister.com/security/ | Cybersecurity, AI infrastructure breaches, supply chain attacks |
-| **BleepingComputer** | https://www.bleepingcomputer.com/news/ | Data breaches, ransomware, vulnerability disclosures |
-| **David Oks** | https://davidoks.blog | Economic development, tech and society, AI and labor |
-| **Critical Supply** | https://substack.com/@criticalsupply | Trade policy, supply chains, EU-US-China economic relations |
-| **Gridlocked and Unlocked** | https://gridlockedunlocked.substack.com | Power markets, grid modernization, data center electricity demand |
-| **Carolyn Kissane (Energy Common Sense)** | https://carolynkissane157206.substack.com | Energy geopolitics, oil/LNG markets, energy security |
-| **Aurelion Research** | https://aurelionresearch.substack.com | Independent equity research, chemicals, fertilizers, oil |
-| **Inverteum Capital** | https://blog.inverteum.com | Long-short market commentary, geopolitics, China/Taiwan |
-| **Principled Perspectives** | https://raydalio.substack.com | Global macro, world order, debt cycles, AI |
-| **China Uncensored** | https://chinauncensored.substack.com | Chinese politics, economy, CCP analysis |
-| **The More Things Change** | https://normanricklefs.substack.com | History, geopolitics, complex systems, military strategy |
-| **ChinaTalk** | https://www.chinatalk.media | China tech, US policy, war, policymaker interviews |
-| **Hey AI News** | https://heyainews.substack.com | AI news, robotics, LLMs |
-| **War and Peace** | https://markurban.substack.com | Defence, diplomacy, intelligence, military history |
-| **ENERGY Pipeline** | https://fgermini.substack.com | Brazil energy, oil trading, gas markets, power dynamics |
-| **The Merchant's News** | https://themerchantsnews.substack.com | Oil, gas, LNG, metals, geopolitics, commodity-linked stocks (Giacomo Prandelli, 12K+ subs) |
-| **Jared Bernstein** | https://econjared.substack.com | US economic and fiscal policy, crypto regulation, budgeting |
-
-For each:
-1. Check the archive/homepage for posts in the last 48 hours.
-2. Cross-reference against vault daily notes and relevant actor/concept notes.
-3. If new material is found, add it to the Phase 1 candidate table with source and date.
-4. Newsletter posts often contain charts and data tables, always extract and embed per vault rules.
-
-**Maintenance**: This list is mirrored in the OpenClaw workspace (`~/clawd/TOOLS.md`). When adding or removing a source, update both locations.
-
-## Phase 0.5: Key Analyst Check (NEVER SKIP)
-
-After the major movers cross-check, search for new commentary from these analysts.
-
-| Analyst | Firm | Focus | Search pattern |
-|---------|------|-------|----------------|
-| [[Helima Croft]] | [[RBC Capital]] | Oil, MENA, energy geopolitics | `"Helima Croft" OR "RBC commodities"` |
-| [[Jeff Currie]] | [[Carlyle]] | Commodities supercycle, metals, macro regime | `"Jeff Currie" OR "Currie Carlyle"` |
-| [[Natasha Kaneva]] | [[JPMorgan]] | Commodities | `"Natasha Kaneva" OR "JPMorgan commodities"` |
-| [[Francisco Blanch]] | [[Bank of America]] | Commodities, oil | `"Francisco Blanch" OR "BofA commodities"` |
-| [[Lyn Alden]] | Independent | Macro, fiscal dominance, energy-to-rates | `"Lyn Alden"` |
-| [[Zoltan Pozsar]] | Ex Uno Plures | Rates, monetary plumbing, petrodollar | `"Zoltan Pozsar" OR "Ex Uno Plures"` |
-| [[Ed Yardeni]] | Yardeni Research | Equity strategy, macro | `"Ed Yardeni" OR "Yardeni Research"` |
-| [[Mike Wilson]] | [[Morgan Stanley]] | US equity strategy | `"Mike Wilson" OR "Morgan Stanley equity strategy"` |
-
-For each:
-1. Search for appearances in the last 48 hours, CNBC, Bloomberg, FT, research notes, interviews.
-2. Check against the actor note to see if the commentary is already captured.
-3. If new material is found, add it to the candidate table with source and date.
-4. Ingest quotes, data points, and price calls into both the analyst note and the relevant concept/event notes.
+**Boundary**:
+- Daily movers, ticker audits, analyst commentary, earnings calendar → `/morning-scan`
+- Curated newsletter/Substack archive sweep → `/substacks`
+- This skill is for **named-source article ingestion** (Bloomberg, Reuters, FT, WSJ, or whatever the user specifies)
 
 ## Phase 1: Source Discovery
 
-1. Search for recent articles from the specified source, focused on vault areas: AI, semiconductors, energy, China, robotics, macro, SaaS, markets, cybersecurity/data breaches at AI companies, and AI infrastructure or supply-chain security.
+1. Search the specified source for recent articles, focused on vault areas: AI, semiconductors, energy, China, robotics, macro, SaaS, markets, cybersecurity/data breaches at AI companies, AI infrastructure or supply-chain security.
 2. **Date gate**: check the publication date of every candidate. Only include articles from the last 48 hours. If an older article appears in a sidebar or recommendation module, skip it unless the user specifically requests historical ingestion.
-3. Check each candidate against the vault, search daily notes and actor notes for existing coverage.
-4. Present the candidate list to the user as a numbered table:
+3. Cross-reference each candidate against the vault — search daily notes and actor notes for existing coverage.
+4. Present the candidate list as a numbered table:
 
 | # | Article | Date | Status |
-|---|---------|------|--------|
-| 1 | Title | Feb 8 | New |
-| 2 | Title | Feb 7 | Already in 2026-02-07.md |
+|---|---|---|---|
+| 1 | Title | May 12 | New |
+| 2 | Title | May 11 | Already in 2026-05-11.md |
 
 **Always include publication dates so the user can spot strays.**
 
 Wait for the user to select which articles to ingest.
 
-## Phase 2: Article Ingestion
+## Phase 2: Article Ingestion (delegated)
 
-For each selected article:
+For each selected article: run `/ingest URL`.
 
-### Read & Extract
-1. Navigate to the article and extract full text via `get_page_text`.
-2. If extraction fails, use browser screenshots, visual scrolling, or page-source fallbacks.
-3. Capture key data points, short quotes, tables, and named entities.
+`/ingest` handles source acquisition, full entity enumeration, classification gates (verification, concept-vs-actor, vault-of-record, cold research), vault writes with compliance, and daily-note logging. Those rules live in `.claude/skills/ingest/SKILL.md` and `docs/research-workflow.md` — don't re-state them here.
 
-### Update Vault
-1. **Daily note** (by article publication date, not ingestion date):
-   - Add a section with summary, data tables, and thesis implications.
-   - Add source URLs to the `## Sources` section.
-   - Create the daily note if it doesn't exist yet.
-2. **Actor/concept notes**:
-   - Update existing notes with new data, never replace, always add.
-   - Check for existing notes before creating: `python scripts/check_before_create.py "Name"`.
-   - Create stubs for new entities when needed.
-3. **Entity linking**:
-   - Every entity gets a `[[wikilink]]`.
-   - Check for existing notes and aliases before linking.
+## Phase 3: Downstream Impact Check
 
-### Event Notes
-4. When a single news event touches **3+ actor notes**, create a dedicated event note in `Events/` with the full detail. Actor notes should carry short summaries plus a `[[link]]` to the event note.
-5. Always run `python scripts/check_before_create.py "Event Name"` before creating.
+After all articles in the batch are ingested, scan the notes that got updated for second-order effects.
 
-### Compliance
-6. Run `python scripts/check_note_compliance.py <file> --fix` on every modified note.
-7. Fix errors before moving on. Warnings such as dead links are expected for new notes.
-
-## Phase 3: Earnings Check
-
-**Always check the earnings calendar when doing daily news.** Major earnings move markets and affect actors.
-
-1. Search for `"earnings reports week [date]"` or check Yahoo Finance's calendar.
-2. Capture all relevant earnings, not just the focus sector.
-3. For each earnings report:
-   - Add a section to the actor note with key metrics, guidance, and stock reaction.
-   - Add it to the daily note.
-   - Note any CEO changes, guidance surprises, or strategic shifts.
-4. Do not wait for the next trading day, search for prior after-hours and pre-market results too.
-
-Earnings that matter beyond focus areas:
-- Mag 7
-- Major financials
-- Consumer bellwethers
-- Industrial and macro signal names
-
-## Phase 4: Downstream Impact Check
-
-After ingesting articles that update a crisis or event note, check for untracked second-order effects.
-
-1. Look for a `## Watch for` section in the updated note.
-2. If one exists, scan each untracked item against the articles just ingested and run a quick web search for the top 2-3 most likely items.
-3. If new coverage is found, ingest it and update the watch-list status.
+1. For each event/crisis note touched, look for a `## Watch for` section.
+2. If one exists, scan each untracked item against the articles just ingested + run a quick web search for the top 2-3 most likely items.
+3. If new coverage is found, ingest it (loop back to Phase 2) and update the watch-list status.
 4. If no watch list exists but the note covers an ongoing crisis, war, supply shock, or policy shift, ask: *What downstream effects of this story haven't we tracked yet?* Then propose a watch list.
 
-This prevents the vault from tracking only the first-order supply shock while missing the demand response, consumer impact, or industrial second-order effects.
+Batch the downstream-impact check at the **end** of all ingestions, not per-article — that lets the check see the full picture of what was just updated.
 
 ## Rules
 
-- **Copyright**: never reproduce 20+ word chunks from articles. Short quotes only, under 15 words.
-- **Cause -> context -> consequence**: for breaking news, research why before analyzing impact.
-- **No info outside note**: all research findings go in the vault, not just chat.
-- **Numbers matter**: use exact figures with sources.
-- **Never replace, always add**: augment existing content.
-- **No ephemeral standalone notes**: data releases and earnings previews/calendars are data points, not standalone notes. Fold them into the relevant actor, concept, or existing event note.
-- **Charts must live in notes**: never save them without embedding.
-- **Every chart needs a data table**: the reader should see the underlying numbers.
+Most ingestion rules are global and live in `CLAUDE.md` or `docs/`. Below are the rules specific to multi-article batched runs:
+
+- **Batch downstream-impact check at end** — see Phase 3.
+- **Cross-article corroboration** — when the same fact appears in multiple articles in the batch, cite the earliest reporting and link the corroborating sources rather than duplicating the claim across notes.
