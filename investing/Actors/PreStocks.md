@@ -38,7 +38,7 @@ The platform reportedly has no public audit proofs of share backing as of mid-20
 
 [[Anthropic]]'s May 11 2026 help-center notice explicitly named "tokenized securities" as an unauthorized mechanism for indirect [[Anthropic]] exposure (alongside SPVs and forward contracts). PreStocks was not named individually but is within the targeted category. The structural significance for PreStocks: if the platform's [[Anthropic]] share inventory was routed through any of the named unauthorized SPV operators ([[Open Door Partners]], [[Unicorns Exchange]], [[Pachamama Capital]], [[Lionheart Ventures]], [[Sydecar]], [[Upmarket]], or new offerings on [[Forge Global]] / [[Hiive]]), those positions are now declared void and the corresponding tokens are effectively unbacked.
 
-Full structural treatment: [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]].
+Full structural treatment: [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]]. Dated-event hub: [[Anthropic SPV void May 11 2026]] (Events/).
 
 ---
 

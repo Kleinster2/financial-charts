@@ -140,7 +140,7 @@ The real test is a major private market repricing. When the next AI winter hits 
 
 The cleanest read: the structural value of Ventuals as a *price discovery* venue (vs. a casino) depends on the offchain anchors that the void mechanism is designed to discredit. The protocol survives operationally; the legitimacy-of-implied-price narrative takes a hit.
 
-Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]] and [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]].
+Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]] and [[Tokenized private shares#Issuer pushback: void declarations (May 11-12, 2026)]]. Dated-event hub: [[Anthropic SPV void May 11 2026]] (Events/).
 
 ---
 

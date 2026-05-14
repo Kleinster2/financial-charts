@@ -151,7 +151,7 @@ The qualifier ("new offerings on") is the source of the dispute: Anthropic flagg
 
 [[OpenAI]] issued a parallel void notice on May 12 but the public reporting did not enumerate OpenAI's named platforms — so the May 12 OpenAI exposure to Forge is structurally similar but not publicly confirmed.
 
-Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]].
+Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]]. Dated-event hub: [[Anthropic SPV void May 11 2026]] (Events/) — Forge appears on the named-platform list, with the publicly disputed inclusion documented in the event note's "Who was named" and "What to watch" sections.
 
 *Sources: [Anthropic Help Center](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams); [TechCrunch](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026, includes Forge response).*
 

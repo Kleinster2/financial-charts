@@ -33,7 +33,7 @@ The qualification matters: unlike pure SPV operators on the list, Hiive (along w
 
 Platform response: Hiive defended its compliance posture, asserting all transfers it facilitates are issuer-approved. The dispute over which specific new offerings were considered unauthorized remained unresolved as of May 13. The structural significance is that even *authorized-secondary* marketplaces have unauthorized-offering layers on top that issuers are now naming and severing.
 
-Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]].
+Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]]. Dated-event hub: [[Anthropic SPV void May 11 2026]] (Events/) — Hiive appears in the named-platform list as "new offerings on Hiive," with the platform's defense documented in the event note's "Who was named" section.
 
 *Sources: [Anthropic Help Center](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams); [TechCrunch](https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/) (May 12, 2026).*
 
