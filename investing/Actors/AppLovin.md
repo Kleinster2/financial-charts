@@ -86,6 +86,59 @@ Q1 2026 guidance: Revenue $1.745-1.775B (~52% YoY), adj EBITDA $1.465-1.495B (84
 
 84% EBITDA and 79% FCF margins are software industry records at this scale. Stock sold off despite the beat — swept up in broader software sector panic.
 
+### Q1 2026 (May 5, 2026) — beat-and-raise
+
+| Metric | Q1 2026 actual | Q1 2026 guide | YoY | vs Guide |
+|--------|---------------|---------------|-----|----------|
+| Revenue | $1,842M | $1,745-1,775M | +59% (vs $1,159M Q1 2025) | +$67-97M above range |
+| GAAP operating income | $1,440M | — | — | 78.2% GAAP op margin |
+| GAAP net income | $1,206M | — | +109% (vs $576M Q1 2025) | — |
+| GAAP diluted EPS | $3.56 | — | — | Consensus was $3.44 — 12¢ beat |
+| Adj EBITDA | $1,557M | $1,465-1,495M | +66% | Top end +$62M |
+| Adj EBITDA margin | 84.5% | 84% | +120bps | — |
+| FCF | $1.3B | — | — | ~71% FCF margin |
+| Buyback | $1.0B / 2.2M shares | — | — | At an average ~$455/share |
+| Shares outstanding | 336M (Class A + B) | — | -1M from share-count reduction | — |
+
+Q1 2026 sub-line GAAP detail (USD thousands):
+
+| Line | Amount |
+|------|--------|
+| Revenue | 1,842,449 |
+| Cost of revenue | 203,632 |
+| Gross profit | 1,638,817 (88.9% margin) |
+| Sales & marketing | 60,751 |
+| Research & development | 94,104 |
+| General & administrative | 44,029 |
+| Total operating expenses below GP | 198,884 |
+| Operating income | 1,439,933 |
+| Interest expense | (51,159) |
+| Other income, net | 42,634 |
+| Income before taxes | 1,431,408 |
+| Income tax provision | 225,795 |
+| GAAP net income | 1,205,613 |
+| GAAP diluted EPS | $3.56 |
+| D&A (cash flow) | 33,665 |
+| Stock-based compensation | 83,469 |
+
+Q2 2026 guidance: $1.915-1.945B (52-55% YoY) — another beat-and-raise framework. [[Axon]] self-service platform opens to all advertisers in June 2026 — the catalyst the post-print profit-take was pricing as "wait-and-see" rather than as a Q1-resolved unknown.
+
+### Read on the May 13 sell-the-news (-7.6%)
+
+The Q1 print was a clean beat across every metric AppLovin reports. The May 13 -7.6% / -2.3σ move (eight trading sessions after the May 5 print) is not earnings-quality: it is a profit-take after the pre-print rally and a "patience problem" on the Axon June launch. Three structural threads sit underneath:
+
+- The 78.2% GAAP operating margin and 88.9% gross margin are unprecedented at $1.8B quarterly revenue scale. The implied operating leverage on every incremental dollar of revenue is roughly 90¢ to gross profit / 80¢+ to operating income. Companies don't compound at this ratio indefinitely — at some point the growth rate decelerates or the margin structure shifts.
+- The $1B / 2.2M-share buyback in the quarter is a small share-count nudge against a 336M share base (~0.7% reduction). Compared to [[Wix]]'s 30% Dutch tender in April, this is incremental capital return, not balance-sheet engineering. The buyback rate is sustainable at current FCF.
+- The Axon self-service launch in June is the structural inflection — once advertisers (not just internal AppLovin teams) can deploy campaigns through Axon, the customer base widens beyond mobile gaming. The May 13 sell-the-news is investors deferring credit on Axon's e-commerce monetization until they see post-launch data.
+
+The shape: a print so clean that the only way for the stock to react was via expectations re-set, not numbers. Consensus is now $1.93B (mid-point of guide) — three months ago it was sub-$1.5B. The bar for Q2 has risen as fast as the company has.
+
+DB ingest: `income_statement_quarterly` now has the Q1 2026 row with all 15 columns filled. The 5 quarters between Q4 2024 (the prior latest) and Q1 2026 (Q1-Q4 2025) remain at top-line-only (Alpha Vantage gap, sub-line items NULL). Backfill via `fetch_fundamentals.py APP` would close that gap.
+
+![[applovin-fundamentals-chart.png|APP revenue (blue), net income (red), price (green) — quarterly cadence. The Q1 2026 row is the latest filled-in datapoint; earlier 2025 quarters have top-line only.]]
+
+Sources: [AppLovin Q1 2026 press release / 8-K SEC filing](https://www.stocktitan.net/sec-filings/APP/8-k-app-lovin-corp-reports-material-event-3a9f786204d2.html); [BigGo Finance Q1 earnings call summary](https://finance.biggo.com/news/US_APP_2026-05-06); [ppc.land Axon platform launch coverage](https://ppc.land/applovins-1-84b-q1-beats-guidance-as-axon-platform-opens-to-all-in-june/).
+
 ## Short seller attacks
 
 Heavy short interest from activist researchers:
