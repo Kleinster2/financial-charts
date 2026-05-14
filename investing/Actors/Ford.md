@@ -5,6 +5,9 @@ aliases: [F]
 
 **Ford** — Legacy automaker pivoting to EVs. F-150 Lightning ending, shifting to extended-range EVs. ~$30K affordable EVs "around the corner."
 
+![[ford-price-chart.png]]
+*F on NYSE from Jan 2020. Apr-May 2026: depressed by FT commodity-squeeze framing (May 3) despite Apr 29 Q1 beat; May 13 +13.2% to $13.57 on [[Andrew Percoco]] / [[Morgan Stanley]] [[Ford Energy]] re-framing — biggest single-day since March 2020.*
+
 ---
 
 ## Sector correlation
@@ -163,6 +166,61 @@ The full Detroit picture: Ford ($2B) + [[General Motors]] ($2B) + [[Stellantis]]
 
 ---
 
+## Q1 2026 earnings + Ford Energy launch — May 13 +13% rally
+
+Two threads converged on May 13, 2026 to produce Ford's biggest single-session gain since March 2020 (+13.2%, +7.9σ, to $13.57 from $11.99 — the strongest performer in the S&P 500 that day).
+
+### April 29 Q1 2026 earnings beat
+
+| Metric | Q1 2026 | vs prior |
+|--------|---------|----------|
+| Revenue | $43.25B | turnaround vs 2025 losses |
+| GAAP net income | $2.55B | Fifth consecutive profitable quarter |
+| Adjusted EBIT | $3.5B | ahead of consensus |
+| Adjusted EPS | $0.66 | beat Wall Street |
+| Q2 dividend | $0.15/share | declared |
+| FY26 adjusted EBIT guidance | $8.5B – $10.5B | raised from $8B – $10B |
+
+Segment view:
+- Ford Blue (legacy ICE): $1.9B segment earnings — the cash engine
+- Ford Pro (commercial / fleet): ~$1.7B segment earnings — the second-largest contributor
+- Model e (EVs): not separately profitable; capital allocation framing is "earning the right to scale"
+
+The guidance raise was the structural surprise: the May 3 Q1 commodity-squeeze coverage (see § above) had positioned investors for a margin step-down on the ~$2B aluminium / Iran-war commodity hit. Ford raised the EBIT band against that headwind, implying the underlying mix is offsetting the cost shock faster than feared.
+
+### Ford Energy — battery-storage subsidiary unveiled
+
+Ford disclosed plans to launch [[Ford Energy]], a new wholly-owned subsidiary that will supply domestically manufactured battery energy storage systems to utility companies, [[Data centers|data center]] operators, and major commercial / industrial customers. Initial target: 20 gigawatt-hours per year of battery storage capacity. About $1.5B of 2026 capital spending is earmarked for the unit.
+
+The strategic logic is structural: Ford's [[BlueOval City|BlueOval]] manufacturing footprint and the [[CATL]] technology-licensing partnership (announced for the Marshall, Michigan LFP plant) give it cell-level capability and US-domestic-content optionality. Rather than confining that capability to passenger EVs — where Model e remains pre-profitability — Ford is opening a second commercial channel to monetize the same cell technology against grid + data-center demand.
+
+### Morgan Stanley's May 12 evening report
+
+[[Andrew Percoco]] at [[Morgan Stanley]] published a research note Tuesday evening (May 12) framing Ford Energy as "an overlooked catalyst in Model e's journey toward profitability." The note's specific numbers:
+
+| Item | Value |
+|------|-------|
+| Run-rate EBIT potential at 20 GWh/year | $500M – $600M |
+| Probability framing | "fairly high likelihood that Ford signs an energy storage system supply agreement with large commercial customers, and potentially hyperscalers, over the next few months" |
+| Morgan Stanley rating | Hold (unchanged) |
+| Price target | $14 |
+
+The Percoco frame is what re-priced the stock: a separately-monetizable battery-storage business with hyperscaler-supply optionality, manufacturing leverage off existing [[BlueOval City|BlueOval]] capex, and a clear path from announcement to commercial agreement within months — none of which was in Ford's prior valuation. The $500-600M run-rate EBIT vs the raised $8.5-10.5B FY26 EBIT band is small in absolute terms but matters because it is non-cyclical and non-aluminium-exposed.
+
+### Why the move was 13% not 3%
+
+Three reasons stack:
+
+- Pre-print Ford was trading around $11.99 (May 12 close) — still depressed by the May 3 FT commodity-squeeze framing despite the April 29 earnings beat (the earnings reaction had been muted because the supply-chain headwind dominated the narrative). The stock entered May 13 with a pessimism premium baked in.
+- The Morgan Stanley note (May 12 evening) provided the narrative bridge that the Q1 print itself didn't: a path from commodity-headwind story to AI-infrastructure-adjacent re-rating. Ford Energy + hyperscaler optionality is the kind of frame that compresses bear-case multiples.
+- The day's macro backdrop — [[April CPI 3.8%|CPI shock]] of May 12 had broken the chip-rally trade and bid hard-asset / infrastructure-adjacent names. Ford Energy fits the same "AI infrastructure demand has to land somewhere physical" thesis that copper (record $14k/ton on May 12) and [[Venture Global]] (+14.2% on Q1 LNG beat) were trading on.
+
+The move from $11.99 to $13.57 puts Ford within striking distance of the $14 Morgan Stanley price target — the implication being that the $14 target itself becomes a near-term ceiling unless Percoco raises it on signed hyperscaler agreements.
+
+Sources: [Morgan Stanley research summary via Bloomberg](https://www.bloomberg.com/news/articles/2026-05-13/ford-shares-soar-after-morgan-stanley-s-bullish-call-on-energy) (May 13 2026); [Motley Fool stock-market-today coverage](https://www.fool.com/coverage/stock-market-today/2026/05/13/stock-market-today-may-13-ford-jumps-after-launching-ford-energy-battery-storage-subsidiary/) (May 13 2026); [GuruFocus on Ford Energy outlook](https://www.gurufocus.com/news/8856919/ford-f-stock-soars-on-optimistic-energy-business-outlook); [Ford Q1 2026 press release](https://www.fromtheroad.ford.com/us/en/articles/2026/ford-reports-first-quarter-2026-financial-results) (April 29 2026); local `prices_long` F May 12-13 verified $11.99 → $13.57 (+13.2%).
+
+---
+
 ## South Africa operations
 
 [[Ford]] manufactures the Ranger pick-up in Silverton, Pretoria, with capacity for 200,000 units/year. The plant is 600 km from the nearest export terminal. SA CEO Neale Hill: *"it's still cheaper to truck our vehicles than put them on the rail"* — rail costs $37 more per vehicle via state-owned [[Transnet]], which "adds up" at plant capacity. Ford cut 470 jobs at its Silverton and Nelson Mandela Bay factories amid the broader SA auto industry crisis driven by cheaper [[China]]/[[India]] imports.
@@ -207,15 +265,34 @@ The full Detroit picture: Ford ($2B) + [[General Motors]] ($2B) + [[Stellantis]]
 
 ## Related
 
+### Securities
+- [[Ford securities]] — NYSE: F equity-market note
+
+### Units / Subsidiaries
+- [[Ford Energy]] — battery-storage subsidiary; May 2026 launch
+- [[Model e]] — EV unit
+- [[Ford Pro]] — commercial fleet
+- [[Ford Blue]] — legacy ICE
+- [[BlueOval City]] — manufacturing footprint
+
+### Competitors
 - [[Tesla]] — competitor (Cybertruck)
 - [[Rivian]] — competitor (R1T truck)
 - [[General Motors]] — competitor (Silverado EV)
+- [[Stellantis]] — Big Three peer; Q1 2026 mostly hedged, projects ~€1B 2026
+- [[Mercedes-Benz]] — European parallel; Wilhelm flagged similar raw-material step-up
+
+### Suppliers / Partners
 - [[LG Energy Solution]] — battery partner
-- [[Lithium]] — battery input
+- [[CATL]] — LFP technology-licensing partner (Marshall, Michigan)
 - [[Novelis]] — aluminium body-sheet supplier; 2026 plant fires + Section 232 pass-through ~$1B of 2026 cost
+- [[Lithium]] — battery input
 - [[Aluminum]] — most exposed input; F-Series all-aluminium body
+
+### Coverage
+- [[Andrew Percoco]] / [[Morgan Stanley]] — Hold, $14 PT (May 12 2026 [[Ford Energy]] re-framing)
+
+### Adjacent
 - [[Section 232]] tariffs — 50% on imported aluminium; survived [[Learning Resources v Trump|SCOTUS IEEPA ruling]]
 - [[Iran conflict supply chain cascade]] — Detroit OEM combined ~$5B commodity hit
-- [[Mercedes-Benz]] — European parallel; Wilhelm flagged similar raw-material step-up
-- [[Stellantis]] — Big Three peer; Q1 2026 mostly hedged, projects ~€1B 2026
 
