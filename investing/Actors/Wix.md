@@ -135,11 +135,74 @@ Bear:
 
 ## Related
 
+### Securities
+- [[Wix securities]] — NASDAQ: WIX
+
+### Competitors / peers
 - [[Shopify]] — e-commerce competitor
 - [[Squarespace]] — competitor
 - [[Monday.com]] — Israeli peer
-- [[Base44]] — acquired June 2025 (vibe coding)
+
+### Adjacent
+- [[Base44]] — acquired June 2025 (vibe coding); integration cost flows through R&D/S&M
 - [[SaaS]] — sector
+
+---
+
+## Financials
+
+USD; fiscal year matches calendar year. Source: company filings (`income_statement_quarterly`).
+
+| Quarter | Revenue | Operating Income | GAAP Net Income | GAAP Diluted EPS | Bookings | ARR |
+|---------|---------|------------------|-----------------|------------------|----------|------|
+| Q1 FY26 (Mar 31 2026) | $541.2M | -$69.7M | -$57.5M (loss) | -$1.02 | $585.0M (+15%) | $1.903B (+15%) |
+
+![[wix-price-chart.png]]
+*WIX on NASDAQ from Jan 2020. March 2026 saw a +27.8% run-up into the Apr 2 Dutch tender close. The Apr 2 Dutch auction cleared 18.7M shares (~30% of outstanding) at the $92 range ceiling — the largest capital return in Wix's history. May 13 Q1 print collapsed the stock -27.1% on the GAAP net-loss reveal vs the non-GAAP $0.68/$1.26 framing the consensus had built around.*
+
+![[wix-fundamentals-chart.png]]
+*WIX quarterly revenue (blue) + net income (red) vs price (green). Only Q1 FY26 currently in `income_statement_quarterly` — earlier history not yet backfilled; chart will fill in once `fetch_fundamentals.py WIX` is run.*
+
+![[wix-sankey.png]]
+*FY2025 income statement Sankey (USD). Revenue $1.99B → operating income $2M (0.1% GAAP op margin) → net income $51M (2.5% net margin). The COGS / Gross Profit / OpEx breakdown is NULL in the annual DB row pending full press-release detail — the visible "Other Income" wedge of $49M is the gap between net income ($50.6M) and operating income ($1.75M), composed of financial income and tax. The structural fact the Sankey surfaces clearly: FY25 was already operating-breakeven on a GAAP basis before Q1 FY26 widened the loss.*
+
+### Q1 FY26 GAAP detail (USD thousands, reported May 13 2026)
+
+| Line | Amount |
+|------|--------|
+| Total revenue | $541,171 |
+| Cost of revenue | $187,805 |
+| Gross profit | $353,366 (65.3% margin) |
+| Research & development | $178,218 |
+| Selling & marketing | $199,590 |
+| General & administrative | $45,278 |
+| Total operating expenses below GP | $423,086 |
+| Operating loss | $(69,720) |
+| Financial income, net | $19,358 |
+| Other income, net | $23 |
+| Income before taxes | $(50,339) |
+| Income tax expense | $6,233 |
+| Loss from equity method investment | $893 |
+| Net loss | $(57,465) |
+| GAAP diluted EPS | $(1.02) |
+| Depreciation (cash flow) | $5,987 |
+| Amortization (cash flow) | $2,023 |
+
+Non-GAAP adjusted EPS was $0.68, vs the $1.26 consensus — a 46% miss against the consensus number that did the work in the press cycle. The GAAP picture is harsher: revenue grew +14% YoY to a record, but operating loss widened to $69.7M, partly on heavier R&D spend (33% of revenue) and S&M spend (37% of revenue) tied to [[Base44]] integration. ARR $1.903B (+15% YoY) and bookings $585M (+15%) confirm the top-line growth story; the gap between growth and profitability is what the market repriced.
+
+Full-year 2026 guidance maintained at mid-teens revenue growth and bookings growth.
+
+### Read
+
+The May 13 -27% reaction has three structural pieces:
+
+- The Apr 2 modified Dutch tender removed ~30% of the share base at $92. With a smaller denominator, every dollar of bottom-line miss hits per-share metrics harder. The tender was not a near-term-earnings confidence signal — it was either pure share-count engineering or management's read on earnings was wrong, or both.
+- Non-GAAP / GAAP gap widened. The press-cycle framing was "$0.68 vs $1.26 miss" (non-GAAP), but GAAP EPS was -$1.02 — a 170-cent swing. Adjusted EPS strips out stock-based comp + amortization of acquired intangibles + one-time integration costs (mostly [[Base44]]). The GAAP P&L tells the structurally honest story.
+- Growth-vs-profitability tension is the [[UBS]] / [[JPMorgan]] April downgrade thesis playing out: revenue still compounding mid-teens but operating margin gone negative on heavier R&D + S&M tied to AI-product investment. [[Base44]] capex still ahead of revenue contribution.
+
+The setup that emerges: a buyback that took the share count down meaningfully right before an earnings reveal that compressed per-share economics further. The buyback timing — Apr 1 close, May 13 print — is structurally adjacent to [[Anthropic]] / [[OpenAI]]'s capex commitments in the same window: companies making big capital-allocation choices ahead of when the operating economics get worse.
+
+Sources: [Wix Q1 2026 press release / Form 6-K](https://www.stocktitan.net/news/WIX/wix-reports-first-quarter-2026-n4elwa17sfze.html); [Q1 earnings call transcript via Seeking Alpha](https://seekingalpha.com/article/4903877-wix-com-ltd-wix-q1-2026-earnings-call-transcript); [Investing.com transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-cisco-q3-2026-beats-expectations-stock-rises-26-93CH-4686794).
 
 ---
 
