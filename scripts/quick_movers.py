@@ -54,8 +54,13 @@ def get_vault_tickers():
         tm = re.search(r"\|\s*Tickers?\s*\|\s*([^\|]+)\|", text, re.IGNORECASE)
         if tm:
             for part in re.split(r"[,;]", tm.group(1).strip()):
-                m = re.match(r"([A-Z]{1,6})", part.strip())
-                if m and m.group(1) not in SKIP:
+                # Strip parenthetical exchange tags before ticker validation, e.g.
+                # "F34 (SGX)" → "F34", "AAPL (NASDAQ)" → "AAPL". Then accept only
+                # pure-letter tickers — F34 fails the anchor, preventing it from
+                # masquerading as 'F' and overwriting Ford in `candidates`.
+                cleaned = re.sub(r"\s*\([^)]*\)\s*", "", part).strip()
+                m = re.match(r"^([A-Z]{1,6})$", cleaned)
+                if m and m.group(1) not in SKIP and m.group(1) not in candidates:
                     candidates[m.group(1)] = f.stem
     return candidates
 
