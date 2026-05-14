@@ -42,6 +42,8 @@ __pycache__/
 !.claude/skills/newsletter/SKILL.md
 !.claude/skills/story/
 !.claude/skills/story/SKILL.md
+!.claude/skills/explain/
+!.claude/skills/explain/SKILL.md
 !.claude/skills/morning-scan/
 !.claude/skills/morning-scan/SKILL.md
 !.claude/skills/substacks/

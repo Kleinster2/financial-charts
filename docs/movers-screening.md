@@ -67,6 +67,35 @@ If the script is unavailable entirely, fall back to web search for biggest stock
 - Present in the briefing as **"🔴 Major mover — vault actor needs update"** at the top of the candidate table.
 - **Subsector dispersion**: when multiple vault actors in the same sector move, report dispersion by subsector in the daily note. The dispersion is the insight — it reveals what the market is actually pricing.
 
+## Group moves go to event notes, not 12 actor notes
+
+When sigma movers detect a cluster of stocks in the same sector/subsector moving together on a single catalyst, the dated analysis goes to an event note — not the sector note, not the individual actor notes. Actor notes get at most a one-line cross-reference.
+
+Why:
+
+- Sector/concept notes are structural references (subsystem maps, player lists, TAM). Dated market events clutter them and go stale.
+- Event notes are the right home for anything with a date stamp.
+- Actor notes shouldn't duplicate group-level analysis. The dispersion (rank-ordering by exposure to the catalyst) IS the insight, and it lives best as a single table in the event note — not 12 paragraphs each restating the same catalyst quote and headline numbers with a link back.
+
+Order of operations:
+
+1. Sigma movers detect cluster → research the catalyst
+2. Create or update the event note with: catalyst, sigma table, dispersion, sector-readthrough table
+3. Sector/group note gets a one-liner under "Recent events" linking to the event note
+4. Actor notes get AT MOST a one-line mention + link to the event note
+5. The event note carries the full story (e.g., dispersion like "CARR (-4.0σ) > TT (-3.0σ) > NVT (-2.6σ, basket) > JCI (-2.5σ)")
+
+Actor-note entry is justified ONLY when one of:
+
+- The actor has a guidance/announcement of its own that day
+- The actor diverges materially from sector beta in a way that suggests something idiosyncratic
+- The actor was in an active multi-day arc the new datum updates
+- The existing positioning was wrong about something the event corrects
+
+Boilerplate-detection check before mass-editing actor notes: read your own draft for two different actors in the cluster. If 70%+ of the text is identical structure, stop and route to the event note instead.
+
+If the named peer cohort doesn't yet have a parent cohort note (Sectors/ child or Concepts/ note), create the cohort note FIRST — the event note then links to the cohort note for the structural content. See `cluster-validation.md` → "Where the diagnostic lives in the vault."
+
 ## Why three triggers, not one
 
 A single sigma threshold is brittle:

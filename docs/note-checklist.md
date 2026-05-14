@@ -181,3 +181,22 @@ Ask: "Are there specific named frameworks, classifications, or mechanisms mentio
 If yes, create the concept note and wikilink it in the same editing pass — don't leave it for later cleanup.
 
 **Rule of thumb:** If the same term appears in 3+ notes as a claim (not just a mention), it almost certainly needs its own concept note. The repetition is the signal.
+
+---
+
+## 9. Reviewing agent-written output
+
+When a sub-agent (research agent, deepdive sub-task, Explore agent) writes or matures a note, treat the output as a draft. Run a full compliance pass against all active vault rules — not just the automated `check_note_compliance.py` script. The script catches structural issues; it does NOT catch editorial rules like country linking, bold violations, plain-language glossing, or honest piped links.
+
+After any agent writes a note:
+
+- Audit for: geographic country links that should be aspect-specific, bare country hubs, bold violations, unexplained jargon, deceptive piped links
+- Don't rely solely on the compliance script
+- Fix all violations before telling the user the note is done
+- This applies even when the agent already updated the daily note — the note itself still needs review
+
+### Agent stub format
+
+Sub-agents creating stub notes systematically place inline tags (`#actor #person` etc.) at the end of the one-liner paragraph instead of on their own line above it. They also add an unnecessary `# H1` header before the one-liner. The vault convention is: frontmatter → inline tags on own line → one-liner (no H1).
+
+After any agent creates stub notes, check the first 8 lines of each file. Fix tag placement and remove H1 headers before declaring done.

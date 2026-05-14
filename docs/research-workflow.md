@@ -15,6 +15,8 @@
 
 Non-filing sources: note it — "~210k employees (company website, Jan 2026)"
 
+**Price timestamp — 4 PM ET for all asset classes.** Use 4 PM Eastern time as the single canonical reference for all prices the vault records — equities, futures, commodities, FX, crypto. No mixing NYMEX pit close (2:30 PM), equity close (4 PM), or futures settlement times. When a data source provides a different settlement time, note the discrepancy but prefer 4 PM ET for vault consistency.
+
 **SEC EDGAR shortcuts:**
 - All filings: `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TICKER&type=10-K`
 - Recent 10-K: search `"[company] 10-K 2024 filetype:pdf"`
@@ -404,3 +406,60 @@ Actor notes answer "how does this affect THIS company specifically?" — don't r
 3. Update daily note (link to event and actors)
 
 Example: Claude Cowork disruption (Feb 2026) hit 10+ companies → create `[[Claude Cowork disruption February 2026]]` event note first, then update Thomson Reuters, RELX, ServiceNow, etc. with links back to the event.
+
+---
+
+## Topic-Relevance Gate (Before Adding Verified Material)
+
+Verification and writing are separate decisions. After verifying a claim, gate what enters the note body by topic-relevance, not by what the verification produced. "I have this material" is not a reason to put it in.
+
+When a sourcing claim turns out to be wrong, ask first whether the underlying fact *moves the analysis on the topic*. If it doesn't, the smallest fix that removes the false claim is the answer — verification is unnecessary, and dropping the unsupported line is correct.
+
+When offering verification as an option to the user, don't label it "the rigorous path" / "fix the note properly" / similar prescriptive framing. Flag the relevance gap explicitly: "the fact is footnote-level, so verification is elective." Don't promote verified material into structural prominence (new table rows, restructured Sources subsections, dated footers) when the verified fact doesn't move the topic.
+
+This is distinct from the verify-announcement-sourcing rule, which still applies when sourcing affects analytical conclusions (who actually announced a deal, what the primary-source numbers are). The distinction is whether the fact moves the analysis.
+
+---
+
+## Promote Structural Synthesis to the Vault (Don't Leave It in Chat)
+
+During ingestion, after Phase 1 enumeration and verification, explicitly ask: *what is the structural lens that ties these facts together?* Then promote that lens into the vault in the same pass — usually into the Event note's "Why it matters" section or a concept-note synthesis paragraph. Do not wait for the user to ask "what is the story" in chat before the lens surfaces.
+
+The analytical lens is the most valuable durable content in the vault. It turns a collection of timeline facts into an allocator-usable frame.
+
+Failure mode (Panama Canal ports, Apr 16 2026): facts loaded correctly (NDRC summons, Clerc Beijing meeting, $2bn CKH claim, April regulations, US-operator-backfill leverage argument), but the symmetric-trap lens (Maersk/MSC face the same two-sided pressure as CKH, just on different time horizons) only emerged when the user asked "what is the story." The lens was extractable from the already-loaded facts; the source-following pass didn't name it because the article didn't.
+
+The discipline:
+
+1. Before closing an ingestion pass, read the event/concept note's "Why it matters" (or equivalent) section and ask: does it *label the structural position*, or just *list the moves on the board*? If the latter, promote the lens.
+2. Resist source-following bias. The article may not name the structural frame even when its facts support it. The frame is *extracted*, not quoted. If the article's framing is one-sided and the facts support a symmetric reading, write the symmetric version into the vault. Treat the article as evidence, not as a structure to inherit.
+3. Resist schema inheritance from existing notes. If the actor note already frames a situation as "risk vs. opportunity" and new facts reveal a structural trap, don't add a row to the old schema — promote the structural insight and link back to the reframed event note.
+4. Test at the actor-note level too. The structural lens on the event note should have one-paragraph echoes in each major actor note so readers arriving from the entity level find the same frame, not a shallower source-following version.
+
+This is not speculation — analytical connections the vault earns by being more thorough than the source. A symmetric-trap frame, a precedent-template frame, a constraint-leverage frame are all editorial parallels (welcome per the Voice rules), not speculative claims about intent.
+
+The rule: if the most interesting sentence said to the user about an ingested source is not in the vault when the conversation ends, the ingestion is incomplete.
+
+---
+
+## No Forced Synthesis Across Unrelated Threads
+
+When the user asks "what's the story?" or "what do these have in common?" across multiple threads of a session, resist the urge to find a unifying pattern if one doesn't exist.
+
+Threads from the same session often share no structural commonality — just temporal co-occurrence. If no real pattern exists, say so plainly: "they're unrelated; here's what each is on its own terms." Surface-level pattern-matching (counting to three, shared vocabulary) is not synthesis.
+
+The closing-summary slot — the chat message after a long deliverable (/story, /newsletter, /report) — is where this rule predictably breaks. The deliverable stays disciplined because the skill explicitly forbids cross-card synthesis. But the chat summary feels like it needs an "insight" to justify the work, and the synthesis-voice habit kicks in even when the deliverable correctly resisted it.
+
+Test the frame against each thread separately before writing a closing summary that proposes a unifying frame. If any thread requires reframing or trimming to fit, the frame is forced — drop it and report each thread on its own terms.
+
+---
+
+## Full Story Includes Pre-Existing Vault Context
+
+When writing a /story card (or /report, /newsletter section) about a thread touched today, the card is not "what got added to the vault today." It is "what is the whole story around this thread right now, in the vault and in the world." That includes everything already in the relevant notes — earlier events, prior framings, structural context, related concepts — plus today's additions.
+
+- Before writing a story card, read the touched note(s) in full — not only the new section
+- Pull in adjacent vault context: parent / sibling concepts, prior events on the same actor, earlier price action, prior framing
+- Include pre-existing structural facts that frame today's additions
+- For ingested-event cards, situate the event inside the running cycle — what came before, what is the next watch item — not just what changed in this session
+- The "What changed today" line stays specific to the session, but the "Why it matters" and "The tension" lines should reflect the whole field, not just today's news

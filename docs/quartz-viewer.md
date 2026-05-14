@@ -56,6 +56,24 @@ Tested 2026-05-04. `npx quartz build --serve` advertises sub-second hot-reload, 
 
 These don't survive a re-clone of upstream Quartz. Re-apply if reinstalling:
 
+### Iframe chart styling
+
+Live `lightweight-charts` iframes embedded in Quartz use a different visual treatment than screenshot/PNG defaults — PNG screenshots are static and viewed at full size, iframes are smaller and live so the visual weight needs to come down. All triggered by `window.INTERACTIVE === true` in `charting_app/templates/chart_render.html` plus the inject CSS in `charting_app/chart_routes.py:_render_chart_html`.
+
+Confirmed preferences:
+
+- `autoSize: true` so the chart fills the iframe width and height (no scrollbars)
+- Axis font 12px (not 20px — 20 is the PNG default for 1200×600)
+- Small legend at top-left with a white-pill background (not the giant 22px overlay)
+- Legend carries the latest-data date as a final item — no separate bottom-left date badge
+- Title overlay hidden (legend suffices)
+- Watermark hidden
+- Crosshair lines + labels visible on hover
+- `crosshairMarkerVisible: true` on each series
+- `lastValueVisible` left at chart_config default (right-edge per-series labels stay)
+
+If the user complains about a chart's appearance in Quartz, check the `INTERACTIVE` conditional in `chart_render.html` and the inject CSS in `_render_chart_html` first. If they want a chart to look more like the screenshot version (denser, bigger fonts), the lever is iframe `height` in `lwcharts.ts` (default 420) and the conditional fontSize in the template.
+
 ### `quartz/plugins/transformers/lwcharts.ts` — new file
 
 Custom rehype transformer. Walks HAST, finds `<img>` whose filename matches a chart pattern (parser logic ported from `obsidian-chart-refresh/src/parser.ts`), replaces with `<iframe>`. Falls through to registry lookup for unparseable filenames. Falls through to static `<img>` for unmatched. Source-of-truth lives in this repo's docs/scripts referenced from session memory; current copy in the install is the one to reproduce.

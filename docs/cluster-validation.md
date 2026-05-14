@@ -7,6 +7,25 @@ This is the rigorous version of the existing `## Sector correlation` section, wh
 > [!info] Reference examples + cross-cohort synthesis
 > [[Vault cluster taxonomy]] is the cross-cohort meta-analysis covering 8+ validated and falsified cohorts with matched methodology. Read it first to understand which cohort your candidate is most similar to. [[Space pure-plays]] is the canonical worked example (validated cluster, all advanced patterns documented). [[Mag 7 cluster]] is the canonical falsified-cluster example (same N=7 as Space pure-plays but intra-corr 0.316 vs 0.624). The three together cover validated, falsified, and the empirical patterns observed across the cross-cohort test set. [[Concepts/Boutique advisory consolidation|Boutique advisory consolidation]] is the older basic-validation example (single-page format without the advanced patterns).
 
+## Scope of a cluster note: structure, not performance
+
+Cluster notes identify structure — which tickers form durable groups and why. They are not for ranking the cluster's attractiveness, valuation, or relative performance versus benchmarks. Those questions belong in thesis notes or basket-tracker notes, not in the concept definition.
+
+When authoring or critiquing a cluster concept note, focus on:
+
+- Does the cluster hold up across correlation windows (persistence)?
+- What control surface / business model / exposure binds these names?
+- Who's on the other side of the same structural split (the natural short)?
+- What would falsify the grouping (single catalyst that breaks correlation)?
+
+Do NOT add:
+
+- Multiples, EV/sales, gross margin, NRR tables framed as "why this cluster gets paid for"
+- YTD or multi-year relative-performance tables
+- Valuation context sections
+
+Defining "excess return" in `cluster_movers` output is still worth anchoring (reproducibility), but ranking the cluster's merit is out of scope. The cluster concept note surfaces *what the market is grouping together as one structural read*; whether that grouping is cheap, outperforming, or trading at premium multiples is a separate question.
+
 ---
 
 ## When to run

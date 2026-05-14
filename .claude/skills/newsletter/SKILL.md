@@ -36,6 +36,8 @@ For each story, identify:
 - The tension or open question (what's unresolved, what the market may be mispricing)
 - Connections to other vault themes
 
+**Newsletter sections weave in pre-existing vault context — not just today's edits.** Read the touched note(s) in full before writing the section, not only the new content. The "what happened" line is today-specific; the "why it matters" and "the tension" lines should reflect the whole arc the note documents, including earlier events, prior framings, and structural context that anchor today's developments. A section that only narrates the day's additions misses the threads the vault has already built up.
+
 ### Step 4: Write the newsletter
 
 **Format:**

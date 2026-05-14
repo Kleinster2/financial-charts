@@ -48,9 +48,13 @@ Use `/story [YYYY-MM-DD]`. If no date is provided, run the local date command an
 
 Read the daily note first, then read the primary touched notes. Use the daily note as the map, not as the source of truth.
 
+**Read each touched note in FULL — not only today's new section.** The card is not "what got added to the vault today." It is "what is the whole story around this thread right now, in the vault and in the world." That includes everything already in the relevant notes — earlier events, prior framings, structural context, related concepts — plus today's additions. Pull in adjacent vault context: parent / sibling concepts, prior events on the same actor, earlier price action, prior framing. For ingested-event cards, situate the event inside the running cycle.
+
+The "What changed today" line stays specific to the session. The "Why it matters" and "The tension" lines reflect the whole field, not just today's news.
+
 For each primary note or thread, capture:
 - What changed today: new fact, new section, new event, new chart, new framing.
-- The story: one sentence naming the real arc.
+- The story: one sentence naming the real arc (drawing on the full note, not just today's slice).
 - Why it matters: structural implication, cross-read, market relevance, or vault architecture relevance.
 - The tension: what is unresolved, contradictory, or conditional.
 - Watch item: the next data point, filing, price, event, or decision that would confirm or break the read.

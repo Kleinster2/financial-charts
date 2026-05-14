@@ -92,6 +92,17 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL,GME&normalize=true&overlay
 
 **Chart notes:** Add 1-2 sentence interpretation below charts (peaks, catalysts, current context).
 
+**Atomic embed.** Chart generation + note embedding + data table is one atomic operation, not three separate steps. Before running any chart command, identify which note will embed it. If no note exists, create it first. Never declare a chart "done" until it's embedded with a data table in a note and logged in the daily note. Charts must live in notes — orphaned PNGs in `attachments/` violate this.
+
+**Actor notes — fundamentals chart only, no standalone price chart.** The fundamentals chart (`metrics=revenue,netincome`) includes stock price on the left axis by default, which is more informative than a price-only chart (it shows how the market prices the business alongside the actual financials).
+
+- Actor notes: embed only the fundamentals chart (price overlay included). No separate `{ticker}-price-chart.png`.
+- Securities notes: still use standalone price charts (relative value, peer comparison, etc.) — those serve a different purpose.
+- Pass `&no_price=true` on the fundamentals URL if the price overlay isn't wanted for a specific case.
+- The compliance check may still flag missing price charts; this rule supersedes that check for actor notes that have a fundamentals chart.
+
+**Use actual fiscal dates on fundamentals charts.** Pass `row['fiscal_date_ending']` directly as the time value — do not snap to calendar quarters. The `fiscal_to_calendar_quarter()` helper still exists in `helpers.py` but should not be called for chart rendering; it mapped all Jan–Mar dates to Mar 31, etc., which made Micron's Feb 28 fiscal quarter show as "Mar 31" — misleading. Users want real dates on charts.
+
 ---
 
 ## Static Image Endpoint (`/api/chart/image`)
@@ -359,6 +370,14 @@ curl "http://localhost:5000/api/chart/sankey?ticker=AAPL&period=quarterly" -o in
 
 **Note:** Plotly auto-layouts nodes — ribbon crossings may occur. This is a known limitation.
 
+**Preserve all Sankey charts — never overwrite.** Sankey charts show income statement flow for a single fiscal year; side-by-side comparison across years reveals margin expansion/contraction visually. That analytical value disappears if you only keep the latest.
+
+- `{ticker}-sankey.png` is always the latest fiscal year
+- Previous years get `{ticker}-sankey-fy{year}.png` (e.g., `mu-sankey-fy2024.png`)
+- Embed newest chart on top, older charts below — reverse chronological order
+- Pattern matches Palantir: `pltr-sankey.png` + `pltr-sankey-2024.png`
+- When regenerating after new fiscal year data arrives, rename the current `{ticker}-sankey.png` to its year-suffixed version *before* generating the new one
+
 ---
 
 ## Waterfall Chart (Income Statement)
@@ -388,6 +407,21 @@ curl "http://localhost:5000/api/chart/waterfall?ticker=MSFT&period=quarterly" -o
 **Shows:** Revenue (blue), COGS (red), Gross Profit (teal), OpEx (red), Operating Income (teal), Tax & Other (red), Net Income (blue). Margin summary at bottom.
 
 **Data source:** `income_statement_annual` / `income_statement_quarterly` tables. Run `fetch_fundamentals.py TICKER` first if data is missing.
+
+---
+
+## Choropleth Maps
+
+For country-level visualizations (membership maps, trade blocs, sanctions coverage, mineral production share, etc.), use Plotly `go.Choropleth` with this style as the base template:
+
+- Miller projection
+- Crop Antarctica: `lataxis=dict(range=[-55, 75])`, `lonaxis=dict(range=[-170, 180])`
+- Legend font 18, marker size 16, background `rgba(255,255,255,0.9)`
+- Clean: no axis ticks, no frame, tight margins `(l=0, r=0, t=0, b=0)`
+- Output at `scale=2` for retina quality
+- Light styling: `landcolor="#f0f0f0"`, `oceancolor="#e8f0f8"`, white country lines
+
+Rationale: natural-earth projection wastes space on Antarctica; default legend font is too small to read at typical Obsidian/Quartz zoom levels.
 
 ---
 

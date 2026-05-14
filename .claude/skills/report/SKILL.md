@@ -79,6 +79,8 @@ Read in this order, capping at ~15 notes total to keep the synthesis tractable:
 
 If `--since YYYY-MM-DD` is set, use `git log --since="YYYY-MM-DD" -- <note-path>` to identify what's been added; bias the gather to those edits.
 
+**Even with `--since`, the synthesis weaves in the full arc.** Recent edits get foreground attention, but the analytical paragraphs should still situate them inside the pre-existing structure documented in the notes — earlier events, prior framings, structural context. A report that narrates only what changed since the cutoff is a changelog, not a synthesis. Same rule applies in stronger form when `--since` is not set: the report reflects the whole field around the topic, not the recently-touched slice.
+
 ---
 
 ## Phase 2 — Synthesize

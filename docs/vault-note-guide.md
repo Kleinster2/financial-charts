@@ -179,6 +179,17 @@ If two or more of these appear, extract to a concept note. The actor keeps the e
 
 When in doubt, create the concept stub. Cost of a premature concept stub is low (it can grow over time). Cost of framework content trapped inside an actor note is high — invisible to future vault searches that reason by topic, not by source.
 
+### Debates and frameworks from podcasts/interviews
+
+When ingesting podcast, interview, or debate content, split material two ways:
+
+- Speaker-specific facts (and speculation about the speaker's own firm) → stay in the actor note.
+- General frameworks, multi-party debates, conceptual arguments → go in a concept note, with speakers attributed inside the concept.
+
+When a speaker lays out a framework (antitrust exposure from bundling, cost-disruption thesis against frontier labs, TAM ceiling from legacy migration), search the vault for an existing concept note that would house it. If one exists, extend it with the framework attributed to the speaker inside. If none exists, consider creating a concept note. Speculation about other firms or general dynamics → concept note. Speculation about the speaker's own firm → labeled investor projection in the actor note. Speculative content is worth recording even when unverified — the speculative framework belongs in the concept note, not discarded.
+
+Structural test: "Would a reader of this note in 6 months still care that [speaker] said this on [date]?" If "only if they're researching the concept, not the speaker" → concept note. If "only because it tells us something specific about this actor" → actor note.
+
 ---
 
 ## Concept Note Structure: Story + Reference
@@ -319,3 +330,133 @@ Reference: See [[EmDash]] for the template.
 ### Market discovery timeline (required for product notes)
 
 Every product note must include a "Market discovery timeline" — a chronological table tracking how information became public and how the market priced each disclosure: rumors/leaks, announcements, spec reveals, customer confirmations, revenue/guidance, and stock price reactions. The analytical value is in the gaps: what the market knew vs. what surprised it.
+
+---
+
+## Voice and Writing Standards
+
+These rules apply to all note bodies — actors, concepts, events, products, daily notes.
+
+### Formatting
+
+No bold in note bodies. Bold is only allowed for section headers and the note name on its first appearance. Not for emphasis, not for key terms, not as rhetorical stress. Evolution bullet openers (`**2022 — Founding.**`), key-term emphasis, and "not investable" stress all violate the rule. If something needs emphasis, restructure the sentence or use a dedicated section header. Compliance hooks flag this.
+
+### Plain language over jargon
+
+The vault should be self-contained for a general reader. On first use of any chemical formula, industry shorthand, or specialist notation, add a brief inline gloss. After that, the shorthand is fine.
+
+- "phosphoric acid (measured as P2O5)" not just "P2O5"
+- "calcium sulfate" not "CaSO4·2H2O" unless crystal chemistry matters
+- "basis points" not "bps" on first use
+- "total rare earth oxide (TREO)" not just "TREO"
+
+The test: would a smart generalist — someone who reads the FT but doesn't work in this industry — understand the sentence without Googling?
+
+Plain language in the investing vault doesn't drop the technical depth — it lives in the technologies vault (or appropriate sibling), linked via cross-vault URI. The investing reader gets the investment story in accessible prose; the technologist follows the cross-vault link.
+
+### No market reads without data
+
+Never write "the market isn't pricing X" or "what the market is missing." That requires positioning data, credit spreads, flow, options markets — data the vault doesn't have. A stock move and an article don't tell you what's priced.
+
+When two facts pull in opposite directions, present both and name the tension. "These two facts create a question" — not "the market is only seeing one side." The reader decides whether the tension is priced.
+
+### Editorial parallels welcome (speculation not)
+
+Analytical parallels and editorial connections are welcome (e.g., linking Bessent's Soros background to oil-market intervention speculation). The line is speculation — don't assert what someone *would* do or *must* be thinking based on biographical parallels. Note the irony/connection and let the reader draw the conclusion.
+
+- "Bessent knows the mechanics of failed government intervention from the other side" — good
+- "This makes him more likely to refuse" — too speculative
+
+### Vault is factual/conceptual, not thesis/trade
+
+The investing vault is a factual and conceptual analyst. It captures underlying stories with their underlying facts. It does not produce theses, trade structures, bull/bear framings, or positioning recommendations — those decisions live with the user.
+
+- Concept notes describe structural features, actors, mechanisms, capital flows, and open questions — as factual observations
+- Never write "Bull case" / "Bear case" / "Tensions and risks" / "What to watch as an investor" sections (the "What to watch" *dial-set* in actor notes is a structural slot, distinct from this — see below)
+- Valuation, capital, and scale figures are facts — include them
+- Trade structures (public vs private access paths, sizing, catalysts to watch as trades) do not belong in the vault
+- When the user asks in conversation "what's the investment angle?" answer in chat — do not persist that answer as a note
+- Concept notes can be long and comprehensive: "atomic" means one concept per note, not one fact per note
+- When synthesizing in response to questions, don't force connections between unrelated threads — if threads share only temporal co-occurrence, say so
+
+Theses/ folder content should migrate away over time; new Theses/ notes should not be created.
+
+### One-line read + What to watch (required for actor notes)
+
+Actor notes (and concept/event notes that anchor an active investment case) include two structural slots in addition to whatever Analysis the note supports:
+
+1. One-line read — a single sentence at the top of the note (above or as the lead of Synopsis) that captures the active position. Form: "[Actor] is [structural position] because [primary driver], with the bet being [trade/outcome being tracked]." A reader should be able to extract "what's the bet" without scrolling.
+
+2. What to watch — a labeled dial-set at or near the bottom. 3–6 named signals, each in the form:
+   - **Signal name** — what it is, what reading changes the position (which way).
+   
+   The dial-set pre-registers where future news, earnings, datapoints, and filings hook into the note.
+
+Both slots are required for actor notes and are structural, not editorial. They do not reintroduce bull/bear or "Tensions and risks" scaffolding — the rest of the note still presents dynamics rather than binary editorial frames. The "what's unresolved" mode in the no-bull/bear rule formalizes as this watch-list slot.
+
+Generalizes beyond actors: earnings notes, event notes ([[Project Stargate]], Hormuz, etc.), and thematic concept notes ([[AI infrastructure financing]]) that anchor an active investment case get a watch-list. The one-line read is actor-specific.
+
+Narrative-read-back gate (done criterion for deepdives): before declaring done, write the one-paragraph narrative read of the entity *using only the note*. If anything in that narrative is sharper in chat than in the file, port it back. Synthesis-in-chat is a vault-bug signal — the fix is structural ("add the section"), not stylistic ("write better next time").
+
+### Synopsis claims must be navigable
+
+Every topic, claim, or attribution in a Synopsis (or any high-visibility section) must give the reader an immediate path to the detail:
+
+- Same note → Obsidian section link (`[[#Section name|display text]]`)
+- Another note → wikilink
+- Neither exists → the claim must be self-contained enough to stand alone
+
+No orphaned claims. The Synopsis is the first thing people read; every reference there must be instantly navigable.
+
+---
+
+## Linking Discipline
+
+CLAUDE.md mandates wikilinks for all entities. These are the editorial rules on top of that mandate.
+
+### Link by reader intent, not entity name
+
+Link by intent, not by noun. When text mentions an entity as an illustration of a concept (e.g., "the March 2026 Strait of Hormuz closure" as an example of paper-physical price divergence), the wikilink should point to the note that serves the reader's need at that moment — the crisis event, not the geography.
+
+Before setting a wikilink target, ask: what is this reference *doing* in context? If it's illustrating a crisis, link the crisis. If it's describing geography, link the geography. Use piped links (`[[Target|display text]]`) to preserve natural prose while routing to the right note.
+
+### Link actors, not role-fillers
+
+Not every person mentioned should be wikilinked. The wikilink signals "this person matters as a standalone entity in the vault." If the person is acting as an agent of an institution, the institution is the actor — name the person but don't link.
+
+- CEO making strategic decisions → link
+- Analyst giving a named opinion → link
+- Cabinet member executing administration policy → name them, link the administration
+- Governor at a groundbreaking → name, don't link
+
+The test: does the person's identity (vs. anyone else in that role) materially change the story?
+
+### Link to specific aspects, not bare countries
+
+When a wikilink to a sovereign country refers to a specific aspect — Indonesia's nickel production, DRC's cobalt mining, Qatar's LNG — link to that aspect rather than the bare country note. `[[Indonesia]]` in a sentence about nickel laterite processing tells the reader nothing they can't infer from the sentence. `[[Indonesia nickel]]` or a link to the nickel section within the Indonesia note is useful.
+
+- If a dedicated aspect note exists (`[[Cobalt]]`, `[[LNG]]`, `[[Helium supply crisis 2026]]`), link there instead of or alongside the country
+- If the country note has a relevant section, use a section link or piped link
+- If neither exists and the aspect is substantial, create the aspect note
+- Bare country links are acceptable only when the reference is genuinely about the country as an actor — geopolitical positioning, diplomatic moves, industrial policy
+- Don't link country names that are purely geographic markers — "Metlen in Greece," "Phalaborwa in South Africa," "pilot plant in Virginia." The country isn't acting; linking sends the reader to a hub that adds nothing.
+
+Honest piped links. Use piped links only for grammatical variations of the same concept (`[[Export controls|export controls]]`, `[[Nickel|nickel laterite]]`). Never hide a different destination behind a familiar word (`[[China retaliatory toolkit|China]]` is deceptive — the reader expects the country hub). Restructure the sentence so the actual note name fits naturally instead.
+
+### Hub linking after creation/edit
+
+After creating or editing any note, check whether parent/hub notes need a backlink or update. See `note-checklist.md` → "Hub linking (reverse direction)" for the procedure.
+
+---
+
+## Concept Architecture: hub / sub-hub / sub-sub-hub
+
+`Concepts/` is organized as a tree of stories, not a flat list. The levels form a narrowing hierarchy, typically via "X in Y" naming:
+
+- Hub — broad concept (`[[Private markets]]`, `[[Drone warfare]]`, `[[European defense spending]]`)
+- Sub-hub — hub applied to a domain (`[[Private capital in defense tech]]`)
+- Sub-sub-hub — sub-hub narrowed by region/segment (`[[Private capital in European defense tech]]`)
+
+During ingestion, ask: what hub(s), sub-hub(s), sub-sub-hub(s) does this story touch? If any layer doesn't exist, create it — the sub-layers often carry the story, not the top hub. Facts go in actor notes (atomic); story narrative goes in the appropriate concept-tree node. Every ingest should audit all three levels of its relevant trees, not just the actor notes.
+
+Distinction from events: `Events/` is for dated calendar things (conferences, specific votes, deals on a given day). Ongoing narratives — "the drone story," "the German defense story," "the private capital in defense tech story" — are concept-tree nodes, not events.
