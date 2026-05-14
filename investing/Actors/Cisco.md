@@ -69,6 +69,47 @@ Largest networking company, AI pivot:
 
 *Source: Company filings. Stock price = fiscal year-end close (Jul). FY2018 NI impacted by TCJA transition.*
 
+### Quarterly (FY26, fiscal year ends Jul 2026)
+
+| Quarter | Revenue | GAAP Op Income | GAAP NI | GAAP Diluted EPS | EBITDA (OI + D&A) | Notes |
+|---------|---------|----------------|---------|------------------|---------------------|-------|
+| Q1 FY26 (Oct 25 close) | $14.88B | $3.36B | $2.86B | n/a (DB gap) | $4.35B | First full quarter post-[[Splunk]] |
+| Q2 FY26 (Jan 24 close) | $15.35B | $3.78B | $3.18B | $0.80 (+31% YoY) | $4.44B | Networking +21% YoY, AI orders $2.1B |
+| Q3 FY26 (Apr 25 close) | $15.84B | $3.96B | $3.37B | $0.85 (+37% YoY) | $4.60B | Record quarter; AI orders YTD $5.3B, FY26 guide raised to $9B |
+
+![[csco-fundamentals.png]]
+*CSCO revenue (blue, left axis), net income (red, left axis), price (green, right axis) from 2006. Quarterly cadence; latest is Q3 FY26 ended Apr 25, 2026 — revenue $15.84B, net income $3.37B, both records. Source: `income_statement_quarterly` table via `/api/chart/lw`.*
+
+![[cisco-sankey.png]]
+*CSCO FY25 (year ended Jul 2025) income statement Sankey: $56.7B revenue → 35% COGS → 65% gross profit; OpEx $25.0B (44%) → 21% operating income → 3% tax → 18% net margin. Updated quarterly cadence will refresh once `income_statement_annual` reflects the in-progress FY26 (Q1+Q2+Q3 booked, Q4 pending Aug 2026 report).*
+
+Q3 FY26 sub-line detail (May 13 2026 release):
+
+| Line | Amount |
+|------|--------|
+| Total revenue | $15,841M |
+| Product revenue | $12,117M (+14% YoY est) |
+| Services revenue | $3,724M |
+| Total cost of sales | $5,761M |
+| Gross profit | $10,080M (63.6% margin) |
+| R&D | $2,377M |
+| Sales & Marketing | $2,855M |
+| G&A | $661M |
+| Amortization of purchased intangibles | $228M |
+| Total operating expenses | $6,120M |
+| Operating income | $3,960M (25.0% GAAP op margin) |
+| Interest income | $214M |
+| Interest expense | $(377)M |
+| Other income, net | $242M |
+| Income before taxes | $4,039M |
+| Income tax provision | $666M |
+| Net income | $3,373M (21.3% net margin) |
+| D&A (cash flow basis) | $637M |
+| GAAP diluted EPS | $0.85 |
+| Non-GAAP diluted EPS | $1.06 |
+
+FY26 guidance lifted at Q3 print to revenue $62.8-63.0B / GAAP EPS not provided / non-GAAP EPS $4.27-4.29. AI infrastructure orders FY26 outlook raised to $9B from $5B prior — about $3B expected to convert to hyperscaler revenue in the period. [[Splunk]] tracking to 1,000 new logos in FY26 (500 booked in H1), with cloud-subscription transition still a near-term revenue drag.
+
 ---
 
 ## AI data center push
@@ -168,12 +209,21 @@ Bear:
 
 ## Related
 
-- [[David Goeckeler]] — former EVP (19 yrs), now CEO of [[SanDisk]]
+### Securities
+- [[Cisco securities]] — NASDAQ: CSCO equity-market note
+
+### Competitors / peers
 - [[Arista Networks]] — competitor (AI data center networking)
 - [[NVIDIA]] — competitor (InfiniBand vs Ethernet)
 - [[Broadcom]] — competitor (networking silicon)
 - [[Juniper Networks]] — competitor (being acquired by HPE)
+
+### People
+- [[David Goeckeler]] — former EVP (19 yrs), now CEO of [[SanDisk]]
+
+### Customers / context
 - [[Microsoft]] — customer (enterprise)
 - [[AI hyperscalers]] — lost share to Arista
 - [[Tax Cuts and Jobs Act]] — $67B repatriation (2018)
+- [[AI infrastructure financing]] — concept consuming Cisco's $9B FY26 AI-order guide
 
