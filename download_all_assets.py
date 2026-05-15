@@ -1534,9 +1534,10 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         conn = get_db_connection(row_factory=None)
         cursor = conn.cursor()
         if not narrow_ok:
-            return
+            return False
 
         # ── WIDE WRITE (compat) ──────────────────────────────────────────
+        wide_ok = True
         try:
             staging_table = "stock_prices_daily_staging"
             vprint(f"  Writing to staging table: {staging_table}")
@@ -1626,8 +1627,14 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
                 conn.commit()
                 vprint(f"  [OK] Volumes table updated successfully")
         except Exception as e:
+            import sys as _sys
+            _sys.stderr.write(f"[STALE-WIDE] stock_prices_daily write failed: {e}\n")
+            _sys.stderr.write("[STALE-WIDE] prices_long is canonical and was updated; "
+                              "stock_prices_daily is now stale. Any caller still querying the wide table will see stale dates. "
+                              "Process will continue but exit non-zero.\n")
             vprint(f"  [Wide] Warning: wide table write failed: {e}")
-            vprint(f"  [Wide] Narrow tables are canonical — continuing.")
+            vprint(f"  [Wide] Narrow tables are canonical — continuing downstream steps.")
+            wide_ok = False
 
         if 'stocks' in selected_set:
             sp500.to_sql("stock_metadata", conn, if_exists="replace", index=False)
@@ -1660,6 +1667,7 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         except Exception as e:
             vprint(f"Warning: Could not auto-update metadata: {e}")
 
+        return wide_ok
     finally:
         conn.close()
 

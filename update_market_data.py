@@ -432,6 +432,7 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
         print("Mode: Full history download")
 
     start = time.time()
+    success = True
     try:
         # Run equities/FX/crypto updater if requested
         special_assets = ("futures", "iv", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals", "ratefutures")
@@ -439,7 +440,9 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
         if non_special_assets:
             if verbose:
                 print(f"\n[Orchestrator] Updating asset groups: {', '.join(non_special_assets)}")
-            update_sp500_data(verbose=verbose, assets=non_special_assets, lookback_days=lookback_days)
+            sp500_ok = update_sp500_data(verbose=verbose, assets=non_special_assets, lookback_days=lookback_days)
+            if sp500_ok is False:
+                success = False
 
         # Run futures updater if requested
         if "futures" in assets_to_run:
@@ -533,13 +536,17 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
             update_fundamentals_data(verbose=verbose)
 
         elapsed = time.time() - start
-        print(f"\nUpdate completed in {elapsed/60:.1f} min")
+        if success:
+            print(f"\nUpdate completed in {elapsed/60:.1f} min")
+        else:
+            print(f"\nUpdate completed in {elapsed/60:.1f} min — WITH FAILURES (see [STALE-WIDE] above)")
     except KeyboardInterrupt:
         print("\nUpdate interrupted by user.")
         raise
     except Exception as e:
         print(f"\nError during update: {e}")
         raise
+    return success
 
 
 def run_status_report():
@@ -561,7 +568,9 @@ def main():
         if result is None:
             sys.exit(0)
         lookback_days, assets_to_run = result
-        run_update(assets_to_run, lookback_days=lookback_days, verbose=True)
+        ok = run_update(assets_to_run, lookback_days=lookback_days, verbose=True)
+        if not ok:
+            sys.exit(1)
         return
 
     parser = argparse.ArgumentParser(
@@ -612,7 +621,7 @@ def main():
     else:
         assets_to_run = chosen
 
-    run_update(assets_to_run, lookback_days=args.lookback, verbose=verbose)
+    ok = run_update(assets_to_run, lookback_days=args.lookback, verbose=verbose)
 
     # Run smoke check if requested
     if args.smoke_check:
@@ -628,6 +637,9 @@ def main():
             print("Smoke check timed out (is the Flask server running?)")
         except FileNotFoundError:
             print("smoke_check.py not found")
+
+    if not ok:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
