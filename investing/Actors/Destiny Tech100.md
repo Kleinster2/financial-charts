@@ -37,9 +37,9 @@ DXYZ shows moderate Regional Banks correlation (KRE r = 0.52).
 | Float | 13.7M shares |
 | Insider ownership | 10.0% |
 | Institutional ownership | 4.1% |
-| Stock price | ~$27 (Feb 23, 2026) |
+| Stock price | ~$45.52 (May 14, 2026) |
 | NAV/share | $19.97 (Q4 2025) |
-| Premium to NAV | ~33% (Feb 2026) |
+| Premium to NAV | ~128% (May 14, 2026) |
 | Portfolio fair value | $434M (Dec 2025) |
 
 ---
@@ -70,9 +70,10 @@ Stock price has been wildly volatile since listing:
 | Mar 26, 2024 | NYSE listing | $9 |
 | Apr 8, 2024 | Peak frenzy | $105 |
 | Apr 2024 (late) | Crash | $27 |
-| 52-week low | | $19.71 |
-| 52-week high | | $55.38 |
-| Feb 23, 2026 | Current | ~$27 |
+| 52-week low | | $20.82 |
+| 52-week high | | $71.24 (May 11, 2026) |
+| May 11, 2026 | SpaceX IPO-fever peak | $71.24 |
+| May 14, 2026 | Current | ~$45.52 |
 
 Daily turnover hit 80% at peak -- average holding period of ~1.2 days. Short-selling costs exceeded 100% annualized, preventing arbitrage.
 
@@ -105,8 +106,10 @@ The defining feature of DXYZ. Acadian Asset Management documented a peak premium
 | Listing (Mar 2024) | ~86% |
 | Peak (Apr 2024) | ~2,000% |
 | Feb 2026 | ~33% |
+| May 11, 2026 | ~257% (SpaceX IPO-fever peak intraday) |
+| May 14, 2026 | ~128% |
 
-Premium has compressed as NAV grew and stock price declined. At ~33%, investors pay $1.33 for every $1 of NAV — approaching rationality relative to the 2,000% peak.
+Premium compressed through 2025 as NAV grew and stock price declined, hitting ~33% by Feb 2026. The May 2026 SpaceX-IPO speculative window re-expanded it sharply — to ~257% at the $71.24 intraday peak on May 11, then back to ~128% after the [[Anthropic]]/[[OpenAI]] secondary-void declarations on May 11-12 (see epilogue below). Premium remains structurally elevated relative to the underlying private-position NAV due to the [[SpaceX]] IPO option value embedded in the closed-end fund.
 
 Key structural issue: CEFs don't issue new shares after IPO, so no creation/redemption mechanism exists to close the gap (unlike ETFs). Short-selling costs too high for arbitrage.
 
@@ -201,7 +204,7 @@ Bear:
 
 ### Securities
 
-- [[Destiny Tech100 securities]] — DXYZ common stock; closed-end fund, 13.7M float, May 12 close $53.40 after -25.05% void-declaration drawdown
+- [[Destiny Tech100 securities note]] — DXYZ common stock; closed-end fund, 13.7M float, May 12 close $53.40 after -25.05% void-declaration drawdown
 
 ### Entities
 

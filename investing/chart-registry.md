@@ -120,6 +120,20 @@ charts:
     normalize: false
   nw-europe-refined-products-vs-brent-apr2026.png:
     skip: true
+  baron-core-funds-price-chart.png:
+    tickers: BPTRX,BFGIX,BFGFX,BGRIX,BIGFX,BREIX
+    normalize: true
+    start: 2011-01-01
+    primary: BPTRX
+  baron-all-funds-price-chart.png:
+    tickers: BPTRX,BARAX,BSCFX,BFGFX,BGRIX,BFTHX,BIGFX,BREIX,BGAIX,BDAFX,BFGIX,BTECX,BRIFX
+    normalize: true
+    start: 2020-01-01
+    primary: BPTRX
+  dxyz-price-vs-nav.png:
+    skip: true
+  bptrx-spacex-dual-axis.png:
+    skip: true
 ---
 
 # Chart Registry

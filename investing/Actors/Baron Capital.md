@@ -80,7 +80,7 @@ BPTRX holds SpaceX across multiple series (Series H, I, N), purchased at split-a
 | Metric                         | Value                  |
 | ------------------------------ | ---------------------- |
 | Ticker                         | BPTRX                  |
-| NAV                            | $251.03 (Feb 13, 2026) |
+| NAV                            | $241.76 (May 14, 2026) |
 | Net assets                     | $9.67B                 |
 | Holdings                       | 29 positions           |
 | Top 10 concentration           | 88.8%                  |
@@ -112,7 +112,7 @@ Baron classifies SpaceX as "less-liquid" rather than illiquid under [[Rule 22e-4
 | Metric | Value |
 |--------|-------|
 | Ticker | BFGIX |
-| NAV | $58.95 (Feb 13, 2026) |
+| NAV | $57.11 (May 14, 2026) |
 | Holdings | 28 issuers |
 | Top 10 concentration | 60.2% |
 | SpaceX allocation | 18.8% |
