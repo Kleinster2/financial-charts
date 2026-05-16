@@ -90,6 +90,22 @@ Private partnership — no external investors, no cap table. Partners are electe
 
 McKinsey does not file financial statements and does not disclose partner compensation tables, profit margins, or balance sheet figures.
 
+### Project Acorn — partner pay revamp (FT May 15, 2026)
+
+McKinsey is cutting the cash share of partner profits and pushing more of the additional award into equity under an internal overhaul codenamed Project Acorn. Per FT sources, the proportion of the additional award diverted into equity could rise by an estimated 3-5 percentage points — a partner might receive 90% of the additional award in cash instead of about 95% previously. The figure varies by year depending on the firm's capital needs.
+
+The structural driver is outcome-based pricing. Consulting fees are increasingly tied to client savings or performance improvements — McKinsey may not be paid in full for projects for several years, and if agreed targets are not met it gets paid less. AI is accelerating the trend: clients are sceptical about consultant value-add, and AI is doing the work of young consultants traditionally billed by the hour. Cash flow becomes more volatile, so the firm needs a thicker capital cushion.
+
+Three additional points from the reporting:
+
+1. Project Acorn replaces an earlier version called Project Oak, which would have sought more capital from the most senior partners. Project Acorn caps the equity-diversion proportion. Took two-plus years of internal debate to finalize.
+2. The new system pulls forward some pay that previously would not have been allocated for several years — benefiting younger partners and removing a recruiting / retention disadvantage on outcome-based engagements.
+3. McKinsey had "disproportionately" preferred AI alliances rather than build or acquire its own technology. Project Acorn explicitly increases management flexibility to make tech investments — suggesting the build/buy posture may shift.
+
+The structural read across this and the Anthropic-style AI labs: consulting firms are the visible carriers of AI's professional-services productivity impact. Outcome-based pricing and equity-heavy partner pay are the financial-engineering responses to a revenue model that increasingly looks like risk capital rather than fee-for-hours.
+
+*Source: [McKinsey cuts partner cash share in post-AI pay revamp](https://www.ft.com/content/07a10974-bdfd-4f31-9aff-9e284c8f8de8), FT, May 15, 2026, by Ellesheva Kissin (London) and Stephen Foley (NY).*
+
 ---
 
 ## Related

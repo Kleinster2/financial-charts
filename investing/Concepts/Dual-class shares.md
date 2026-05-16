@@ -65,7 +65,7 @@ Prevalence: 32% of all IPOs in 2021, 26% in 2023. Among tech IPOs specifically: 
 
 | Company | IPO year | Structure | Founder control |
 |---------|----------|-----------|-----------------|
-| [[SpaceX]] | 2026 (planned) | TBD | [[Elon Musk]] ~79% votes |
+| [[SpaceX]] | June 2026 (S-1 filed) | Class B 10x voting + mandatory arbitration + Mars/orbital-DC contingent supervoting grants | [[Elon Musk]] ≥40% shares / >80% votes (FT May 15 confirmation) |
 
 [[Palantir]]'s Class F is uniquely extreme — it dynamically adjusts to always equal 49.999999% of total voting power regardless of ownership changes. [[Snap]] remains the only major IPO to give public investors zero votes.
 
@@ -107,11 +107,22 @@ Not universal — [[Google]], [[Meta]], and [[Snap]] have no mandatory sunsets.
 
 ---
 
-## SpaceX context (Feb 2026)
+## SpaceX context (Feb 2026 → May 2026 S-1)
 
-[[SpaceX]] weighing formal dual-class structure for its mid-2026 IPO. [[Elon Musk]] currently holds ~42% equity but ~79% voting control. A dual-class IPO would formalize this arrangement for public markets — ensuring Musk retains control of the combined SpaceX-[[xAI]] entity even after dilution from the planned $30-50B raise.
+[[SpaceX]] confirmed a formal dual-class structure in the confidential S-1 filed April 2026. [[Elon Musk]] currently holds ≥40% equity but >80% voting control. A dual-class IPO formalizes this arrangement for public markets — ensuring Musk retains control of the combined SpaceX-[[xAI]] entity even after dilution from the planned $75bn raise.
 
-Key concern for institutional investors: Musk's "key-man risk" is amplified when that key man can't be checked by shareholders.
+The structure goes further than any prior single dual-class IPO captured above. Per FT reporting on May 15, 2026, the S-1 stacks four mechanisms in one package:
+
+| Mechanism | Function |
+|---|---|
+| Class B 10x voting | Standard supervoting (matches [[Google]], [[Meta]] 10:1) |
+| Removal only by class B vote | Public ordinary shareholders cannot remove Musk |
+| Mandatory arbitration | Eliminates Delaware/California court paths; no [[Tornetta]]-style ruling possible |
+| Texas re-incorporation | Texas law governs; the Delaware litigation history is forum-closed |
+
+Pay-package design adds two more contingent control levers — up to 200M class B + 60M supervoting RSUs awarded against Mars-colony and orbital-data-centre milestones. The grants are not just compensation; they also extend the supervoting share base if vested, further entrenching the structure as long as Musk hits the (extreme) milestones. See [[SpaceX IPO 2026]] for the FT-sourced detail.
+
+Pension-fund pushback has begun: officials at NY and CA public pension funds wrote to SpaceX expressing serious concerns. That is the first formal institutional objection on the record — index-tracking allocators will inherit the structure once the [[Nasdaq Fast Entry Rule]] activates, regardless of their view on it.
 
 ---
 

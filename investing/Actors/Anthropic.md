@@ -104,10 +104,23 @@ The Amodei capitulation matters for the broader buildout: it removes the only fr
 | Feb 2026 | Series G | $30B | $380B | [[GIC]], [[Coatue]], [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter]], [[Sequoia]] (36+ total) |
 | Apr 2026 | Strategic | $5B upfront + up to $20B future | Not disclosed | [[Amazon]]; paired with $100B+ AWS/Trainium commitment |
 | Apr 2026 | Strategic | $10B upfront + up to $30B future | $350B pre-money (reported) | [[Google]]; paired with 5 GW Google Cloud capacity over five years |
+| May 2026 | Series H (terms agreed; close imminent) | $30B | $900B | [[Dragoneer]], [[Greenoaks]], [[Sequoia Capital]], [[Altimeter Capital]] co-leads (each $2B+); Big Tech not in this round per FT |
 
-Capital raised/committed: ~$72B+ raised including Apr 2026 upfront Google/Amazon tranches; up to ~$122B+ including future Google/Amazon milestone commitments.
+Capital raised/committed: ~$102B+ raised including the May 2026 Series H once it closes; up to ~$152B+ including future Google/Amazon milestone commitments.
 
-Second-largest private tech financing on record, behind [[OpenAI]]'s $40B+. Nearly doubled valuation from $183B to $380B in five months.
+Second-largest private tech financing on record, behind [[OpenAI]]'s $40B+. Nearly doubled valuation from $183B to $380B in five months — then almost tripled again to $900B in the three months between Series G close (Feb 2026) and the agreed Series H (May 2026).
+
+### Series H — $30B at $900B (FT May 14, 2026)
+
+Anthropic agreed terms on a $30B Series H at a $900B pre-money valuation, expected to close in May 2026. The round leapfrogs the recent [[OpenAI]] mark of $852B, making Anthropic the highest-valued private AI company. Three of the four co-leads ([[Dragoneer]], [[Sequoia Capital]], [[Altimeter Capital]]) also participated in Series G in February — the new co-lead is [[Greenoaks]]. Each lead is putting in approximately $2B or more, with the remainder of the round split among additional investors still being added.
+
+Three of the four co-leads are also significant [[OpenAI]] backers — [[Dragoneer]] invested close to $3B in OpenAI last year, [[Sequoia Capital]] first backed OpenAI in 2021, and [[Altimeter Capital]] CEO [[Brad Gerstner]] has publicly hosted [[Sam Altman]] on his podcast. The dual-bet posture mirrors the [[Amazon]]/[[Google]] bracketing of Anthropic against OpenAI at the hyperscaler layer.
+
+[[Big Tech]] is not expected to participate in this round, although Anthropic has previously taken tens of billions from [[Amazon]] and [[Google]] in strategic rounds. The pace of the deal is notable: investors approached the company in April; CFO [[Krishna Rao]] formally initiated talks in the two weeks before the agreement.
+
+Anthropic's annualised revenue is expected to cross $45B imminently — a fivefold increase from the $9B run rate at the end of 2025, and ahead of the $30B+ mark disclosed alongside the April Google/Broadcom deal. The structural read: Series H is being priced off run-rate revenue rather than forward-revenue multiples, with $900B / $45B ARR ≈ 20x trailing — high relative to public software comps but compressing from the Series G $380B / $14B (27x) mark.
+
+*Source: [Anthropic agrees terms of $30bn funding deal at $900bn valuation](https://www.ft.com/content/9deae3c6-716d-4f4d-8b09-434d8519f847), FT, May 14, 2026, by George Hammond.*
 
 ### FT monthly valuation arc (Jan 2024 – Mar 2026)
 

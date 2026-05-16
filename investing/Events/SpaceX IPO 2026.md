@@ -165,9 +165,65 @@ Scale context: if the 10 largest venture-backed US companies all listed and join
 
 Bloomberg: SpaceX weighing a formal [[Dual-class shares|dual-class]] structure. [[Elon Musk|Musk]] already holds ~42% equity with ~79% voting control — dual-class formalizes this for public markets. Follows the [[Google]]/[[Meta]]/[[Snap]] playbook. S&P reversed its dual-class ban in April 2023, so index inclusion isn't blocked — but governance investors may push for sunset provisions. Key risk: "key-man risk" amplified when the key man can't be checked by shareholders.
 
+The May 15 FT excerpt of the confidential S-1 (see the dedicated section below) confirmed the structure: 10x voting Class B, Musk holdings rounded to ≥40% shares / >80% voting power, and mandatory arbitration for shareholder disputes — extinguishing the Delaware litigation path that produced the Tornetta v. Musk Tesla pay-package ruling.
+
 ### Exchange selection (Mar 10, 2026)
 
 SpaceX leaning [[Nasdaq]] over [[New York Stock Exchange|NYSE]], per Reuters (four sources). Key condition: early [[Nasdaq 100]] inclusion via the Fast Entry rule. NYSE still competing. At $1.75T, SpaceX would slot into the NDX top 6 by market cap.
+
+---
+
+## Governance and trillion-dollar pay package (FT May 15, 2026)
+
+The FT obtained confidential S-1 detail confirming what its sources called the most management-favourable governance structure ever brought to a US public market at this scale. New York and California public pension fund officials wrote to [[SpaceX]] this week expressing "serious concerns" — the formal pushback so far from index-sensitive allocators.
+
+### Governance terms
+
+- Class B carries 10x voting power versus ordinary shares; [[Elon Musk|Musk]] now holds at least 40% of shares and more than 80% of voting power
+- Board is nine directors; Musk is CEO and chair, with [[Gwynne Shotwell]] continuing as president and chief operating officer
+- Removal of Musk requires class B shareholder approval — public ordinary shareholders cannot effect a removal under the bylaws as drafted
+- Mandatory arbitration governs all shareholder disputes, eliminating the Delaware-court / California-court litigation path that previously voided Musk's [[Tesla]] pay package
+- Texas re-incorporation completed after the Delaware ruling; the entity is now governed under Texas law
+
+This is the structural extension of what Tesla partially attempted after the Delaware Chancery Court voided Musk's 2018 pay package — but with governance terms set *before* the public listing rather than retrofitted against existing shareholders. The Delaware litigation path that produced the Tornetta ruling is closed at the prospectus level. The structure is broader than any single prior dual-class IPO captured in [[Dual-class shares]]: combining 10x supervoting, mandatory arbitration, board removal limits, and contingent control-strengthening grants in one package.
+
+### Trillion-dollar pay package
+
+Two distinct pay grants are embedded in the S-1, both Mars-and-orbital-DC contingent:
+
+| Grant | Vesting trigger | Up-to share count | Pay structure |
+|---|---|---|---|
+| Tranche 1 — class B common | $7.5T market cap + 1mn-person Mars colony | 200mn class B shares | Vests in tranches keyed to $500B cap increments |
+| Tranche 2 — supervoting restricted | $6.6T market cap + 100 TW [[Space data centers\|space data-centre]] network | 60mn supervoting RSUs | Awarded if both market cap and DC milestone hit |
+
+Approved by the SpaceX board in January 2026. Reuters first reported the 1mn-person Mars colony milestone; the FT added the 100 TW space DC milestone. Scale context for the 100 TW grant: the largest terrestrial data centres today deliver 1-2 GW — meaning the target equals roughly 50,000x today's largest single-site compute. That order-of-magnitude gap separates the goal from anything humanity has currently built or under construction.
+
+The mechanism echoes Tesla's now-restored 2018 grant where Musk's pay was contingent on sextupling Tesla's valuation and selling millions of [[Tesla Optimus|humanoid robots]]. In each case the contingent metric was a long-tail moonshot rather than near-term execution.
+
+### Refined 2024 → 2025 financials
+
+The S-1 detail in the FT clarifies the swing-year contour:
+
+| Line | 2024 | 2025 |
+|---|---|---|
+| SpaceX consolidated revenue | $14.0B | $18.7B |
+| SpaceX consolidated P&L | +$791M profit | -$4.9B loss |
+| [[xAI]] standalone loss | $1.6B | $6.4B |
+| [[Starlink]] operating profit | $2.0B | $4.4B |
+
+Per the FT, the [[Anthropic]] [[Colossus 1|Colossus]] lease agreed May 6 is generating roughly $5bn/year — an estimate from an investor familiar with the structure. That is the closest concrete dollar figure published to date for the lease revenue line in the consolidated P&L, sitting at the high end of Mirae Asset Securities' $5-6bn estimate and above the New Street Research $3-4bn estimate cited in the May 6 lease section above.
+
+### Aramco comparison
+
+The largest IPO in history to date is [[Saudi Aramco]]'s December 2019 listing — $29bn raised at $1.7T valuation. SpaceX's $75bn raise at $1.75T eclipses both dimensions: roughly 2.6x the proceeds and ~3% above Aramco's headline valuation. The Aramco comp is the closest single-name precedent for absorbing a deal of this scale — but Aramco was a state-supported energy giant with proven cash flows. SpaceX is still showing a consolidated loss year on the page where Aramco was showing the highest profit ever booked by a single company.
+
+### Underwriting and dry-powder context
+
+[[Bank of America]], [[Citigroup]], [[Goldman Sachs]], [[JPMorgan]] and [[Morgan Stanley]] lead a group of more than 20 global banks. [[Michael Grimes]] — Morgan Stanley adviser who returned to the bank in February 2026 after a year in the [[Trump administration]] — is the central deal-runner per FT sources. Advisers quoted by the FT estimate institutional dry powder at ~$270bn heading into the deal. The $600bn tracking [[Nasdaq 100]] will provide passive demand once the 15-trading-day Fast Entry rule activates inclusion. Bankers are expected to allocate a "large tranche" to retail through brokerages, following the [[Robinhood]]-friendly distribution pattern Musk preferred for the Tesla retail base (~30% retail share for a $1.4T company).
+
+Funds may be constrained by the parallel [[Anthropic]] and [[OpenAI]] capital raises also expected in 2026 — see the mega-IPO absorption test section below for the combined sizing.
+
+*Source: [SpaceX IPO set to ensure Elon Musk cannot be fired](https://www.ft.com/content/00382ab9-3dfe-468c-8966-853cd787dd43), FT, May 15, 2026, by Stephen Morris, George Hammond and Ryan McMorrow.*
 
 ---
 

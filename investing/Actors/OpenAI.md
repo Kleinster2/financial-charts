@@ -331,6 +331,21 @@ Enterprise market share (Ramp data, Mar 2026): New corporate AI clients are choo
 
 ChatGPT was integrated into [[Siri]]/iOS in 2024-2025 (no cash exchanged — Apple viewed distribution as compensation). In January 2026, [[Apple]] announced [[Google]] Gemini will power Apple Intelligence and new [[Siri]], displacing ChatGPT as the default.
 
+### Legal threat over 2024 iPhone integration (FT/Bloomberg May 14, 2026)
+
+OpenAI is exploring legal action against [[Apple]] over the 2024 iPhone deal, per FT reporting (Bloomberg first carried the threat). The grievance, attributed to people familiar with OpenAI's thinking: a "pattern of behaviour from Apple... showing no interest in investing required resources to deliver on the promise of the partnership... focused solely on extracting a tax for their market position."
+
+Two structural shifts make this stage of the dispute more than a contract argument:
+
+1. Apple's January 2026 announcement that [[Google]] [[Gemini]] would power Apple Intelligence positioned ChatGPT as a fallback rather than the default. The FT framed that as a "rebuke" of OpenAI.
+2. OpenAI has poached talent from Apple's AI team and hired former Apple design chief [[Jony Ive]] to work on a new device — explicitly positioned by analysts as a potential iPhone competitor (see the device note in the OpenAI hardware push section). The 2024 partnership has now structurally shifted into a competitor relationship.
+
+Apple's expected announcement with its new operating system later this year — allowing users to plug into multiple third-party AI models — would further dilute the original OpenAI-only integration. The legal threat is the lever OpenAI is reaching for to either restore Apple's promotional / engineering investment in the integration or extract damages.
+
+Timing context: the legal threat lands the same week as the Musk-vs-OpenAI for-profit-conversion case verdict expected — OpenAI now defending one suit and threatening another in adjacent windows.
+
+*Source: [OpenAI considering legal action against Apple over iPhone AI deal](https://www.ft.com/content/e6505cf8-9e86-4053-bd34-6ed376c74443), FT, May 14, 2026, by George Hammond + Michael Acton (SF). Original report: Bloomberg.*
+
 ---
 
 ## Key risks

@@ -97,6 +97,28 @@ EY committed **$1.4B** to AI initiatives.
 
 German regulator concluded EY's audit opinions were "objectively inaccurate" with "grave failure" in quality controls. EY dropped its appeal in 2024, accepting sanctions to "bring a conclusion."
 
+### AI-hallucination retraction (FT May 15, 2026) — Points of Attack loyalty study
+
+EY Canada withdrew "Points of Attack: Uncovering Cyber Threats and Fraud in Loyalty Systems" — a marketing study used to pitch the firm's cyber security business — after researchers at [[GPTZero]] (Om Ogale, Paul Esau, Alex Cui) identified apparent AI hallucinations and fake citations. The retracted study referenced a [[McKinsey]] report that does not exist. More than half a dozen footnotes pointed to web pages that did not exist or did not contain the cited claims. An internal inconsistency surfaced as well: the study estimated the loyalty scheme market at $200bn and separately put the number of unclaimed loyalty points at exactly $200bn.
+
+GPTZero's framing in their blog post: "Publishing a report online is essentially a form of data injection into the pool of knowledge that is the internet. When the report includes fake information (either vibed citations or false claims) it can 'poison the well' by misleading future researchers, especially if the report is published by a well-known consulting firm and hosted on a high-traffic website."
+
+EY response: removed the report, "reviewing the circumstances that led to this article's publication"; said the study was not connected to any specific client engagement; "EY Canada takes the accuracy of all the content we publish seriously and we have an organisation-wide commitment to the responsible use of AI."
+
+Pattern across professional services in 2025-26:
+
+| Firm | Incident | Outcome |
+|---|---|---|
+| [[Deloitte]] | Report for a Canadian provincial government with fake academic citations | Revised (2025) |
+| [[Sullivan & Cromwell]] | NY court filing misquoting US bankruptcy code and citing cases incorrectly | Apologised to court (April 2026) |
+| [[EY]] | Loyalty rewards study with fabricated citations + non-existent McKinsey reference | Withdrawn May 15 2026 |
+
+Context for EY's AI exposure: EY claimed in October 2025 that AI-related revenue had grown 30% YoY and that 15,000 staff had worked on client AI projects "ranging from delivering enterprise-wide transformations to AI governance frameworks." The retraction lands inside that growth narrative — the firm is simultaneously selling AI governance services and retracting its own AI-assisted marketing collateral.
+
+Structural read: the recurring hallucinations across [[Big Four]] / law-firm output show that AI-assisted research is being deployed faster than the firms' citation-verification workflows can keep up with — and the cost of failure is content with the firm's name on it that contaminates downstream research. The vault implication is to treat consulting reports with AI-era publication dates as needing the same cite-check as any other secondary source until firms ship visible verification workflows.
+
+*Source: [EY retracts study after researchers discover AI hallucinations](https://www.ft.com/content/a61cbcae-95e4-4449-86e1-ef40fb306f4e), FT, May 15, 2026, by Stephen Foley (NY). Original disclosure: GPTZero blog post.*
+
 ---
 
 ## Workforce dynamics

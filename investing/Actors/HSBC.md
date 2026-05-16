@@ -110,6 +110,35 @@ Elhedery accelerating pivot to [[Asia]]:
 
 ---
 
+## Private credit allocation paused (FT May 15, 2026)
+
+HSBC has not deployed the $4bn allocation to its own asset manager's private credit funds announced in June 2025. Per FT reporting (two sources familiar), there are no current plans to do so. The original announcement was framed as a strategic move to leverage HSBC's $3.2T balance sheet alongside [[Apollo Global Management|Apollo]] and [[Blackstone]]. [[Nicolas Moreau]] (head of asset management) told Reuters at the time: "we see this as an arms race." That framing has now reversed.
+
+### What changed — Apollo / MFS exposure
+
+Q1 2026 brought a $400M charge tied to back-leverage financing extended to an Apollo private-credit unit. The unit had indirect exposure to [[Market Financial Solutions]] (MFS), the collapsed UK mortgage lender whose administrators have accused owner Paresh Raja of misappropriating at least £1.3bn. HSBC, unusually, was hit harder than direct lenders like [[Barclays]] or [[Santander]] because of the indirect route through Apollo — bank financing of a private credit fund's own lending creates exposure that doesn't show up in direct UK mortgage lender credit lines.
+
+| Detail | Value |
+|---|---|
+| Announced allocation (Jun 2025) | $4bn into own asset manager's private credit funds |
+| Deployed (as of May 2026) | $0 |
+| Stated reason for pause | Executives "grown wary... amid wobbles in the US private credit market" |
+| Q1 2026 charge | $400M (back-leverage to Apollo unit with MFS exposure) |
+| Share reaction to charge (May 5 results) | -6% on the day; +12% YTD |
+| Private markets share of $1T loan book | 2% |
+| "Pure" private credit | $6bn |
+| Official line | "Committed to our asset management's offering in private credit funds" |
+
+### Why this matters
+
+HSBC's $4bn allocation was one of the most prominent bank-balance-sheet endorsements of the [[Private credit]] arms race. Pausing it — even before any retail-side fund liquidity event affecting HSBC's own products — is one of the cleanest data points that the bank-side bid for private credit fund placements is waning at the margin. Combined with the May 15 Bloomberg report on the [[BlackRock]] private-credit-fund-valuations DOJ probe and the wave of retail-side withdrawals from [[Blue Owl]]-managed funds (see [[Private credit retail liquidity crisis 2026]]), the cycle's three weakest contagion channels — bank-side allocation, regulatory scrutiny, retail flow — are all showing simultaneous stress.
+
+The cross-bank read: most of HSBC's direct private credit exposure ($6bn "pure") sits at the institutional-only client side, but the back-leverage exposure to Apollo demonstrates that the indirect-financing layer transmits risk regardless of where direct PC lending lines sit on the balance sheet. Other banks providing back-leverage to PC managers may face similar surprise charges if MFS-style borrower fraud cases multiply.
+
+*Source: [HSBC pauses $4bn private credit investment](https://www.ft.com/content/ddce502b-5cb7-4967-9f13-a2944c6a7091), FT, May 15, 2026, by Arjun Neil Alim (Hong Kong) and Ortenca Aliaj (NY).*
+
+---
+
 ## History
 
 | Year | Event |

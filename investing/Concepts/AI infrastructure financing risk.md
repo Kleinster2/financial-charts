@@ -297,6 +297,32 @@ PE firms questioning whether [[SaaS]] debt-fueled buyout model is viable. Two Eu
 
 ---
 
+## Foreign-currency debt expansion (FT May 15, 2026)
+
+The US investment-grade market is being saturated by hyperscaler bond supply. Per FT, foreign-currency debt now makes up ~30% of hyperscaler overall borrowing (Bank of America), up from effectively zero a year ago. [[Alphabet]] had no foreign debt until last year; in recent months it has issued more than $40bn in overseas bonds across euros, Swiss francs, British pounds, and Canadian dollars, capped Friday May 15 by its first yen-denominated bond — ¥576.5bn ($3.6bn) priced after US bankers worked overnight to pitch Tokyo investors.
+
+### Recent hyperscaler debt activity
+
+| Issuer | Recent foreign issuance | Note |
+|---|---|---|
+| [[Alphabet]] / [[Google]] | $40bn+ across EUR / CHF / GBP / CAD; ¥576.5bn ($3.6bn) yen-denominated May 15; rare 100-year sterling bond in Feb 2026 | Pivoted to EUR + CAD partly because Meta's $25bn US deal had depleted US investor appetite for similar tech borrowers |
+| [[Meta]] | ~$25bn US-dollar bond sale | The deal that saturated the US tech-IG bid before Alphabet's foreign pivot |
+| [[Amazon]] | SFr2.8bn ($3.6bn) Swiss bond (Tuesday May 12); €14.5bn ($16.9bn) — largest-ever Eurobond — weeks earlier | Following Alphabet's Swiss path |
+
+The reframing matters: hyperscalers are positioning themselves as "the modern-day railroad" (Scott Schulte, Barclays, on the 100-year Alphabet sterling) — long-duration infrastructure issuers, not tech borrowers. Long-dated paper avoids refinancing risk and fits the multi-decade buildout horizon implied by the $725bn 2026 AI capex run-rate (lowest free cash flow at hyperscalers in over a decade per the FT).
+
+### Why this matters for the financing-risk thesis
+
+Three structural reads:
+
+1. The US IG market is approaching capacity for hyperscaler paper. JPMorgan's John Servidea: "exploring all available [currency] options" to "leave longer intervals between tapping the US market and build some scarcity value." That phrasing implicitly acknowledges saturation risk on the dollar side — a constraint not in the financing thesis a year ago.
+2. The supply pipeline is now globally distributed. CHF and EUR yields are lower because of lower policy rates, so the swapped-back cost can clear at or below dollar-equivalent levels. AUD and SGD bond issuance is reportedly being explored. The lender base is broadening to currency segments where AI capex sensitivity is much lower (Swiss insurers, Japanese real-money), partially insulating the financing complex from a US IG-credit cycle.
+3. The 30% foreign share is a fast-moving number. Up from ~0% a year ago, it implies the next 12-18 months will see the share rise further unless US appetite returns. That puts the global IG investor base — not the dollar IG investor base — at the marginal-bid layer for the AI buildout.
+
+*Source: [Big Tech goes beyond Wall Street for huge AI borrowing](https://www.ft.com/content/d137f1a1-4188-4784-b274-f53082d27aa8), FT, May 15, 2026, by Michelle Chan (NY), additional reporting Stephen Morris (SF). Quoted bankers: John Servidea ([[JPMorgan]]), Dan Mead ([[Bank of America]]), Teddy Hodgson ([[Morgan Stanley]]), Scott Schulte ([[Barclays]]).*
+
+---
+
 ## What to watch
 
 - [ ] CoreWeave refinancing success

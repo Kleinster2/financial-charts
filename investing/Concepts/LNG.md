@@ -371,6 +371,56 @@ Wiggen's long-term view: offshore and onshore oil and gas production globally is
 
 ---
 
+## Middle East → US LNG supply pivot (FT May 15, 2026)
+
+Concrete evidence of the post-Iran-war pivot of LNG investment capital from Middle East expansion projects to US export build-out. [[Caturus]] (US energy group backed by [[Kimmeridge Energy Management|Kimmeridge]]) unveiled the financing package for Commonwealth LNG, a $13bn export facility in Cameron Parish, Louisiana, sized at 9.5 Mt/yr — the first project to receive a vital export permit under the Trump administration.
+
+### Project structure
+
+| Detail | Value |
+|---|---|
+| Project | Commonwealth LNG (Cameron Parish, Louisiana) |
+| Total cost | $13bn |
+| Project financing raised | $9.75bn |
+| Equity contributors | [[Mubadala Energy]] (Abu Dhabi SWF subsidiary), [[CPP Investments]], [[BlackRock]], [[Ares Management]], EOC Partners |
+| Operator equity | [[Kimmeridge Energy Management]] (Ben Dell, chair) |
+| Capacity | 9.5 Mt/yr |
+| Expected ops start | 2030 |
+| Long-term offtake contracts | [[Aramco]] Trading, [[Glencore]], [[Mercuria]], [[Petronas]] |
+| Expected annual export revenue | ~$3bn (operations from 2030) |
+| Political support | Speaker [[Mike Johnson]] (LA): cements LA as "vanguard of Republicans' energy dominance agenda" |
+
+### Middle East capital pivot
+
+The Mubadala equity tranche is one node in a broader wave of Middle East capital deploying into US gas — and explicitly not into Middle East gas — since the strait closed:
+
+| Investor | Commitment | Period |
+|---|---|---|
+| [[Mubadala Energy]] | Commonwealth LNG equity ($1.5-2bn implied) | May 2026 |
+| [[ADNOC]] | Plans "tens of billions" of dollars into US natural gas business | Announced last month (April 2026) |
+| [[Saudi Aramco]] | 17 agreements with US companies, potential value $30B+ | November 2025 |
+
+Mubadala COO Adnan Bu Fateem's public framing — "not driven by the Iran war" but "a long-term investment" — is the diplomatic-cover language for what is structurally an Iran-war response. The bare math from Rapidan's Alex Munton makes the structural point: "the war in the Middle East has knocked Qatar and UAE's proposed LNG expansions sideways and removed about 80mn tonnes from the market currently... Russia is still sanctioned constrained, Australia is stagnating and Mozambique has challenges: so that leaves only the US to provide growth at scale."
+
+### US LNG export trajectory
+
+| Metric | 2026 baseline | 2035 forecast (Rapidan) |
+|---|---|---|
+| US LNG export capacity | ~120 Mt | 241 Mt (doubles) |
+| FID-approved pipeline | Commonwealth LNG + others below | |
+| Awaiting FID | Delfin LNG, Texas LNG | Could push capacity higher |
+| Adjacent expansion | [[Venture Global]] CP2 LNG +$8.6B (March 2026) | Same Cameron Parish geography |
+
+Cameron Parish is now the geographic concentration point of US LNG growth. Two adjacent megaprojects (Commonwealth LNG $13bn + Venture Global CP2 $8.6bn) within the same parish reflect the regulatory permit channel and the rail/feedstock infrastructure that the parish already supports.
+
+### Investor reads
+
+Ben Dell (Kimmeridge): "The biggest shift that has occurred in the market today [due to the war] is in LNG. Buyers have to look for security of supply and they have to diversify, which has been driving them towards taking more US cargoes." That is the cleanest single-line statement of the post-Hormuz LNG geography reset — buyer-side diversification away from the Middle East is the structural force, US capacity is the only supply-side answer at the relevant scale.
+
+*Source: [Abu Dhabi backs $13bn US gas plant as Middle East supplies falter](https://www.ft.com/content/febf8069-df7c-44b3-9313-ffda3c00812a), FT, May 15, 2026, by Jamie Smyth (NY). Rapidan Energy Group analysis cited.*
+
+---
+
 ## Investment case
 
 Bull:

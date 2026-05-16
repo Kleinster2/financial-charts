@@ -1,6 +1,19 @@
 #actor #individual #usa
 
-**Elon Musk** — Controls multiple entities relevant to AI/semiconductor thesis. Political influence through DOGE role.
+**Elon Musk** — Controls multiple entities relevant to AI/semiconductor thesis. Political influence through DOGE role. Pre-[[SpaceX IPO 2026|SpaceX IPO]] S-1 (Apr 2026, FT May 15) discloses a trillion-dollar pay package and the most management-favourable governance structure brought to a US public market at this scale.
+
+---
+
+## SpaceX IPO pay package (S-1 disclosed Apr 2026)
+
+Two contingent grants embedded in [[SpaceX]]'s confidential S-1:
+
+| Grant | Trigger | Up-to share count |
+|---|---|---|
+| Class B common | $7.5T market cap + 1mn-person [[Mars]] colony | 200M (vests in $500B cap tranches) |
+| Supervoting RSU | $6.6T market cap + 100 TW [[Space data centers\|space DC]] network | 60M |
+
+Both grants extend Musk's supervoting base if vested, entrenching his >80% voting position even at hypothetical $7.5T cap. Echo of the [[Tesla]] 2018 pay grant (now restored) where vesting was tied to sextupling Tesla cap + selling millions of [[Tesla Optimus|humanoid robots]] — moonshot triggers rather than near-term metrics. For deal mechanics and pension-fund pushback see [[SpaceX IPO 2026#Governance and trillion-dollar pay package (FT May 15, 2026)|the dedicated section in SpaceX IPO 2026]].
 
 ---
 

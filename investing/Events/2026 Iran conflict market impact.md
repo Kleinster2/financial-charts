@@ -274,6 +274,33 @@ The near-term question: whether Bessent's management holds through the ~$10T deb
 
 *Source: FT (Gillian Tett, Apr 3 2026)*
 
+### May 15, 2026 — global long-end repricing on inflation shock
+
+The long end repriced on Friday May 15 as the Iran-war inflation channel completed its transmission through to nominal yields. Hormuz remains closed; Brent settled +3% at $109.26 (up 50% since the US-Israeli strike on Iran). The worst US PPI print since 2022 this week pushed Fed-hike-by-year-end odds to ~50% per CME federal funds futures.
+
+| Yield benchmark | May 15 level | Δ Friday | Notable |
+|---|---|---|---|
+| US 30Y Treasury | 5.12% | +10 bp | Highest closing yield since July 2007; +~20 bp on the week; US auctioned 30Y at 5% earlier in the week, first time since 2007 |
+| US 10Y Treasury | 4.59% | +11 bp | Highest in nearly a year |
+| Japan 30Y JGB | >4.00% | +14 bp | First time above 4% in history; stronger-than-expected JP CPI added to global rate move |
+| UK 30Y gilt | 5.85% | +20 bp | Highest level this century; inflation + political uncertainty (Burnham challenge — see [[Gilts fall as Burnham challenges Starmer]] F15) |
+| US 1Y1Y inflation swap | — | — | Highest level since Feb 2025 |
+
+Equity reaction: S&P 500 -1.2%, Nasdaq -1.5%, Stoxx Europe 600 -1.5% — first session where the rates regime change visibly tightened risk-asset financial conditions. Quoted desks:
+
+- Priya Misra (JPMorgan Asset Management): "perfect storm... higher inflation readings and global rate move spearheaded by JGBs and gilts... this rate move will begin to tighten financial conditions at the same time as the economy grapples with the ongoing energy shock"
+- Tom Ross (Janus Henderson, head of high yield): "strong repricing higher" reflecting "growing market conviction that inflation risks may ultimately dominate the policy outlook"
+- Deirdre Dunn (Citi, head of rates): if rate sell-off deepens "you might start to see a pick-up in defaults... could propagate through to equities... especially at higher valuations"
+- Emmanuel Cau (Barclays): "It's all about oil now. If oil doesn't fall, the market cannot go up"
+
+Trump-Xi summit aftermath: no indication from Beijing that China would help reopen the strait; the buy-side expectation of a summit-driven de-escalation broke down. That is the cleanest signal yet that the war's duration is being priced as an ongoing variable rather than a near-term resolution scenario.
+
+BofA fund manager survey (May 15): managers "growing more nervous about upside inflation risks in the US"; 25% expect the Fed to deliver more hikes than the market is currently pricing — putting the Fed top of the central-bank surprise-risk list.
+
+The structural read: the war is no longer just an oil-and-gold trade. It is now repricing the global long end. The 30Y JGB break above 4% and 30Y gilt above 5.85% are the visible signs that the inflation-risk premium is being added to nominal yields globally, not just at the US dollar margin where the war's economic disruption originated.
+
+*Source: [Global bonds tumble on fears of inflation shock from Iran war](https://www.ft.com/content/02015e49-fe11-488f-9e45-9fe70943d155), FT, May 15, 2026, by Emily Herbert (London) and Kate Duguid (NY). Cross-source: Bloomberg ran "The Global Bond Rout Catches Up With Wall Street's Risk Rally" the same day.*
+
 ---
 
 ## Expert panels

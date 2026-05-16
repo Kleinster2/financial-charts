@@ -25,7 +25,7 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 |---------|--------|----------------|--------|
 | **[[SpaceX]]** | [[Space]] | $1.5T | Musk confirmed "accurate" |
 | [[Databricks]] | Data/AI | $134B | Early 2026 target |
-| [[Anthropic]] | AI | $60B+ | Wilson Sonsini engaged |
+| [[Anthropic]] | AI | $60B+ | Wilson Sonsini engaged; May 14 2026: $30B Series H terms agreed at $900B (Dragoneer, Greenoaks, Sequoia, Altimeter co-leads) — leapfrogs [[OpenAI]]'s $852B; ARR crossing $45B imminently |
 | [[Revolut]] | [[Fintech]] | $75B | [[UK]] neobank |
 | [[Jio Platforms]] | [[Telecom]] | $100B+ | [[India]] mega IPO |
 
@@ -35,7 +35,7 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
-| [[Cerebras]] | AI chips | ~$34B at high end of upsized IPO range | Pricing expected May 13; Nasdaq CBRS trading expected May 14 |
+| [[Cerebras]] | AI chips | ~$94.8B fully diluted at Day-1 close | Priced May 13 at $185 ($5.55B raised); listed May 14 Nasdaq: CBRS; Day-1 close $311.07 (+68.1%) |
 | [[Quantinuum]] | Quantum | $20B+ | Filed Jan 2026 |
 | [[Databricks]] | Data/AI | $134B | Early 2026 |
 | [[OpenAI]] | AI | $150B+ | Late 2026/2027 |
@@ -120,11 +120,24 @@ See [[Asia IPO pipeline 2026]] for detailed coverage:
 
 ---
 
-## May 2026 live test: Cerebras
+## May 2026 live test: Cerebras — resolved on the demand side
 
-The [[Cerebras]] IPO has become the live test of AI-infrastructure equity demand. On May 11-12, Cerebras upsized the proposed offering to 30M shares at $150-$160, from 28M shares at $115-$125. The high end implies up to $4.8B in gross proceeds and around $34.4B of market value. Pricing is expected May 13 and Nasdaq trading under CBRS is expected May 14.
+The [[Cerebras]] IPO became the live test of AI-infrastructure equity demand. The deal sequence:
 
-The event matters beyond Cerebras because it tests whether public investors will fund an AI-inference supplier before its customer base and earnings quality have matured. Strong pricing supports the "last independent SRAM player" scarcity narrative; weak aftermarket performance would be an early warning that AI-infrastructure demand is broad but not infinitely financeable.
+| Date | Step | Mark |
+|------|------|------|
+| May 11-12 | Terms upsized to 30M shares at $150-$160 (from 28M at $115-$125) | $34.4B at $160 high end |
+| May 13 | Priced at $185, above the upsized high end; reportedly 20× oversubscribed | $56.4B fully diluted |
+| May 14 (open) | First trade $350 on Nasdaq | $107B fully diluted |
+| May 14 (high) | Intraday $386.34 | $117.8B fully diluted |
+| May 14 (close) | $311.07 on 32.68M volume | $94.8B fully diluted |
+| May 14 (after-hours) | $329.57 | $100.5B fully diluted |
+
+The demand-side answer is unambiguous: public investors were willing to fund the forward [[OpenAI]] story, the [[OpenAI Infrastructure Spend]] capacity narrative, and the AI-infrastructure scarcity premium at a valuation 4.3× the ~$22B January 2026 private mark. The Day-1 close at +68.1% above the offer compounded the pricing premium that the road show had already cleared.
+
+What did not get resolved: the close landed in the lower third of the day's range ($300.07-$386.34), meaning the marginal-buyer estimate moved lower as the session went on. The May 15 print is the first independent confirmation — whether the +68% close holds once the IPO-allocation cohort is no longer the only relevant buyer. See [[Cerebras IPO revival April 2026]] for the underlying S-1 underwriting tension that remains unaddressed (customer concentration, operating loss, back-end-loaded revenue recognition).
+
+Read for the broader pipeline: at $56.4B IPO and $94.8B Day-1 close, Cerebras has demonstrated that the public bid for first-tier AI-infrastructure equity is deeper than the upsized $34.4B road-show target. That pulls forward the underwriting math for [[Databricks]] ($134B target), [[Anthropic]] ($60B+), and the smaller AI-infra names ([[Quantinuum]] $20B+). The risk is the inverse: aftermarket weakness in CBRS over the next two weeks would test whether the public bid is structural or a one-name allocation squeeze.
 
 ---
 

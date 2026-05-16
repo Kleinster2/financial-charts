@@ -124,6 +124,40 @@ Major UK stocks trade as ADRs: BP, HSBC, GSK, AZN, RIO, SHEL
 
 ---
 
+## Burnham challenge to Starmer and gilt repricing (FT May 15, 2026)
+
+UK gilts and the pound sold off sharply on Friday May 15 as markets priced in a credible path to a Labour leadership challenge from [[Andy Burnham|Greater Manchester mayor Andy Burnham]]. The trigger: Labour MP Josh Simons resigned his Makerfield seat (near Manchester) on Thursday, creating a by-election Burnham can contest to re-enter parliament — a prerequisite for any leadership challenge against [[Keir Starmer]].
+
+| Asset | May 15 move | Level | Note |
+|---|---|---|---|
+| 10Y gilt yield | +19 bp | 5.18% | Highest since 2008 |
+| 30Y gilt yield | +20 bp | 5.85% | Highest since 1998 |
+| GBP/USD | -0.6% | $1.332 | 1-month low (after -0.9% Thursday) |
+| Brent crude | +3%+ | >$109 | Inflation channel adding pressure |
+| 10Y US Treasury | +13 bp | 4.59% | Co-moving with global bond rout (see [[2026 Iran conflict market impact#May 15, 2026 — global long-end repricing]]) |
+
+The UK was the worst-performing major bond market on the day — outpacing the broader global sell-off documented for May 15 in the Iran-war section above. The marginal driver is political-risk premium on top of the inflation-shock channel.
+
+### Investor framing — "Burnham premium"
+
+The trade attribution is consistent across the desks quoted:
+
+- Adrian Owens (Investcorp-Tages): already short UK bonds and pound; "on a Rayner or Burnham victory, we will be adding to both"
+- Pooja Kumra (TD Securities): the "Burnham premium" is heavily weighing on gilts and sterling; "the path has been set for his return sooner than markets had anticipated"
+- Mohit Kumar (Jefferies): "[The] market's fear is that Burnham would be more left-leaning, and we could see [a] further increase in deficits"
+- Francesco Pesole (ING): pound is more vulnerable to Burnham than to other candidates due to his fiscal views
+- Derek Halpenny (MUFG): "if Burnham is favoured [by the party] then this saga is set to run for longer... not a favourable backdrop for the gilt market or the pound"
+
+The fiscal premise behind the trade: Burnham (or [[Angela Rayner]]) winning a leadership contest would loosen the UK's self-imposed borrowing limits, expanding deficits at exactly the moment global rates are repricing inflation tail risks. Starmer warned that a leadership election would mean "chaos" and business uncertainty.
+
+### Why this matters
+
+The 30Y gilt at 5.85% is the highest since 1998 — predating the Bank of England's operational independence (1997) and matching long-end yields from the late-Thatcher era. The combination of Iran-war energy shock + political-risk premium has compressed the UK's fiscal headroom faster than the 2022 LDI episode. Watch for the by-election timing, Burnham's parliamentary return, and any signal from the [[Bank of England]] on QT pacing or new gilt-market intervention tools.
+
+*Source: [Gilts fall as traders brace for Andy Burnham to challenge Keir Starmer](https://www.ft.com/content/d9a66be6-fa98-43d0-badc-b23a13cc7525), FT, May 15 2026, by Ian Smith / Costas Mourselas / Emily Herbert (London).*
+
+---
+
 ## Structural challenges
 
 | Challenge | Impact |

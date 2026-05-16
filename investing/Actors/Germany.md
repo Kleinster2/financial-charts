@@ -162,6 +162,27 @@ The crisis is now visible in the hard employment, output, and insolvency data:
 
 ---
 
+## US relations under Merz (May 2026)
+
+[[Friedrich Merz|Merz]]'s second-term relationship with [[Donald Trump]] has deteriorated rapidly since the [[2026 Iran conflict|US-Israeli strikes on Iran]] drove up energy prices, compounding Germany's economic malaise. Per the FT (May 15), Merz told students in Würzburg on Friday he would "not recommend my children to move to the US at the moment" given the "social climate developing there." Quotable: "I am a big admirer of the US. But my admiration is currently not growing."
+
+Trigger events for the deterioration:
+
+| Event | Reaction |
+|---|---|
+| Earlier this month: Merz said Iran had "humiliated" the US at a school children's meeting | Trump called Merz "totally ineffective"; said Merz should focus on "fixing his broken country" |
+| Trump announcement | Withdrew 5,000 US troops from Germany, including a US battalion equipped with long-range Tomahawk missiles — leaves gap in Europe's Russia deterrence |
+| This month: Trump threat | Higher tariffs on European cars (hits German auto exports hardest) |
+| May 15 patch-up call | Merz on X: "good phone call"; agreed Iran must reopen Hormuz + must not have nukes; discussed Ukraine peace + coordinated for NATO Ankara summit |
+
+Polling effect: Merz polled the least popular German chancellor since 1997 — 16% approval — driven by sluggish economy + decline in social services quality, despite a debt-fuelled spending push on military + crumbling infrastructure (see [[Schuldenbremse reform (2025)]]).
+
+The investment-relevant pieces: the Tomahawk withdrawal accelerates [[Germany in fresh push to buy Tomahawks]] (FT recent) — German procurement is now under pressure to replace what was previously US-provided deterrence, supporting the [[Rheinmetall]] / [[Hensoldt]] / [[Diehl]] thesis already in [[Zeitenwende]]. The European-cars tariff threat is the visible auto-sector risk channel; the troop withdrawal accelerates the German defense build.
+
+*Source: [Germany's Friedrich Merz says he would not want his children to move to US](https://www.ft.com/content/123f2c88-459a-4991-afb6-bbaa0dbe97fd), FT, May 15, 2026, by Aysun Bora (Berlin).*
+
+---
+
 ## European positioning
 
 ### "Made with Europe" vs "Buy European"
