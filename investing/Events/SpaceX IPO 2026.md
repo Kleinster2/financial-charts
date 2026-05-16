@@ -13,11 +13,16 @@ tags: [event, ipo, space, ai]
 
 | Detail | Value |
 |--------|-------|
-| Target valuation | **$1.75T** (would be 6th-largest US company) |
-| Raise | $75B (up from $50B earlier estimate; up from $25-30B initial) |
-| Exchange | [[Nasdaq]] (leaning, not final) |
-| Listing date | June 2026 (around Musk's birthday) |
-| Filing | Confidential S-1 filed April 1, 2026 |
+| Target valuation | **>$2T** (Bloomberg May 15-16, up from FT's $1.75T earlier the same day; would be 5th-largest US company) |
+| Raise | Up to $75B (up from $50B earlier estimate; up from $25-30B initial) |
+| Exchange | **[[Nasdaq]]** confirmed (Bloomberg May 15 citing Reuters) |
+| Ticker | **SPCX** (Bloomberg May 15 citing Reuters; Tuttle Capital previously dropped its SPCX ETF ticker claim) |
+| Listing date | **June 12, 2026** (Bloomberg May 15) |
+| Pricing | As early as June 11 |
+| Marketing kickoff | As soon as June 4 |
+| Public S-1 filing | As soon as Wednesday (week of May 18) |
+| Confidential S-1 | Filed April 1, 2026 |
+| Stock split | **5-for-1 announced May 15** — FMV per share adjusted from $526.59 to ~$105.32; split processed week of May 18, complete May 22 |
 | Lockup | No standard 6-month lockup — custom arrangement TBD |
 | Retail allocation | >20% (typical is ~10%; Musk personally pushed for this) |
 | Bank hierarchy | Alphabetical order — no "lead left" position |
@@ -224,6 +229,62 @@ The largest IPO in history to date is [[Saudi Aramco]]'s December 2019 listing �
 Funds may be constrained by the parallel [[Anthropic]] and [[OpenAI]] capital raises also expected in 2026 — see the mega-IPO absorption test section below for the combined sizing.
 
 *Source: [SpaceX IPO set to ensure Elon Musk cannot be fired](https://www.ft.com/content/00382ab9-3dfe-468c-8966-853cd787dd43), FT, May 15, 2026, by Stephen Morris, George Hammond and Ryan McMorrow.*
+
+---
+
+## 5-for-1 stock split + concrete IPO timeline (Bloomberg May 15-16, 2026)
+
+Bloomberg reported on May 15 (10:35 PM EDT, updated 11:24 PM) that SpaceX has notified shareholders via email of a 5-for-1 stock split — the company's first public-equity-prep action after the confidential S-1 in April. The split adjusts the fair-market value per share from $526.59 to ~$105.32, lowering the unit price for retail-channel participation. Bloomberg also reported in the same Friday cycle that the public-S-1 filing, marketing window, pricing, and listing dates have hardened from "next month" framing to specific calendar dates — and that the target valuation has jumped from FT's $1.75T morning figure to **above $2T** by evening.
+
+### IPO calendar (as of Bloomberg May 15, 11:24 PM EDT)
+
+| Stage | Date / Window |
+|---|---|
+| 5-for-1 stock split processed | Week of May 18 |
+| Split completion | May 22 |
+| Public S-1 filing | "As soon as Wednesday" (May 20) |
+| Roadshow / marketing kickoff | As soon as June 4 |
+| Pricing | As early as June 11 |
+| Listing | **June 12** |
+
+### Valuation revision
+
+The target valuation moved from $1.75T (FT, May 15 morning) to **above $2T** (Bloomberg, May 15 evening) over the course of a single trading day. Possible drivers: (i) institutional demand reads from preparatory conversations exceeding initial syndicate models; (ii) the publication of the FT pay-package + governance article sharpening the "lock-in Musk" narrative for retail; (iii) the news of the [[Anthropic]] $30B Series H at $900B (FT May 14) compressing relative valuation discount for SpaceX/xAI given the merged AI-stack; (iv) the parallel cross-source SpaceX coverage (WSJ, Bloomberg) confirming filing dates may have reduced perceived execution risk. The >$2T figure makes SpaceX the largest IPO of all time by a wider margin — roughly 17.6x [[Saudi Aramco]]'s 2019 record (taking $75B / $4.3B vs Aramco's $29B at $1.7T).
+
+### 5-for-1 split mechanics
+
+- FMV per share: $526.59 → ~$105.32 (5-for-1 split ratio confirmed by the math)
+- Mechanism: standard pre-IPO split to lower retail-accessible per-share price
+- Echo of [[Tesla]]'s August 2022 and August 2020 splits, both of which preceded retail-volume spikes
+- Combined with the >20% retail allocation in the deal structure above, this is the unambiguous indicator that retail demand is being priced as a load-bearing component of the deal — not just an opportunistic distribution channel
+
+### Cross-source confirmation
+
+- WSJ (May 15): "SpaceX Is Aiming to Go Public on June 12 in What Stands to Be Biggest IPO Ever" — corroborates the June 12 listing date
+- Bloomberg earlier May 15: "Elon Musk's SpaceX Is Said to Plan Public IPO Filing as Soon as Wednesday" — corroborates the Wednesday S-1 filing
+- FT (May 15): the $1.75T figure now superseded by the Bloomberg evening update
+
+*Source: [SpaceX Holders Sign Off on 5-for-1 Stock Split Ahead of IPO](https://www.bloomberg.com/), Bloomberg, May 15 2026 (updated 11:24 PM EDT), by Loren Grush and Edward Ludlow.*
+
+### Ticker + exchange confirmation + revenue picture (Bloomberg May 15, 2:51 PM EDT)
+
+A separate earlier Bloomberg piece by Anthony Hughes and Bailey Lipschultz locked in two structural details:
+
+1. **Ticker SPCX on [[Nasdaq]]** — confirmed (Reuters first reported, Bloomberg cited it). [[Tuttle Capital]] had previously held the SPCX ETF ticker; the drop cleared the path for SpaceX. The exchange decision is consistent with the [[Nasdaq Fast Entry Rule]] and the prior reporting that SpaceX was leaning Nasdaq for the early-index-inclusion benefit.
+2. **Expanded bank syndicate** — Bloomberg confirmed [[Bank of America]] / [[Citigroup]] / [[Goldman Sachs]] / [[JPMorgan]] / [[Morgan Stanley]] in senior roles, with "more banks added to the lineup" beyond the original five. Consistent with the FT May 15 reporting of "more than 20 global banks" in the deal — Bloomberg confirms the syndicate has grown past the initial five-bank alphabetical structure.
+
+### Bloomberg Intelligence revenue picture (May 15, 2026)
+
+Per Bloomberg Intelligence cited in the Hughes/Lipschultz piece:
+
+| Segment | 2026E revenue |
+|---|---|
+| Rocket launch + Starlink (majority) | ~$20B total (combined) |
+| [[xAI]] (post-Feb-2026 acquisition) | Likely less than $1B |
+
+This is the first analyst-disclosed split between the legacy SpaceX revenue base and the xAI contribution. The xAI <$1B figure for 2026E reinforces the structural pattern visible in the FT May 15 detail: xAI is a P&L drag this year (per FT, $6.4B 2025 loss vs $1.6B 2024), with the [[Anthropic]] [[Colossus 1]] compute lease (~$5B/yr) likely becoming the major xAI-related revenue line on the consolidated P&L through 2027 rather than direct [[Grok]] product revenue. The "Bloomberg approaching $20B 2026" total is reasonably consistent with FT's $18.7B 2025 consolidated revenue + an organic-only growth assumption for SpaceX standalone.
+
+*Source: [SpaceX Said to Plan Public IPO Filing as Soon as Wednesday](https://www.bloomberg.com/), Bloomberg, May 15 2026 (updated 4:51 PM EDT), by Anthony Hughes and Bailey Lipschultz.*
 
 ---
 

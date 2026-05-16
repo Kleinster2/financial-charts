@@ -33,6 +33,20 @@ Abel's first annual meeting addressed the structural questions investors had bee
 
 The combined posture — no break-up, no transformative M&A, narrow AI deployment, modest buybacks — telegraphs operational continuity with the Buffett era while introducing a more dynamic capital-return cadence than the late-Buffett 2024-25 freeze.
 
+## Q1 2026 13F — first under Abel's discretion (Reuters May 15, 2026)
+
+The first 13F filing covering the period Abel has fully overseen as CEO (94% of equity portfolio per Feb disclosure; the remaining 6% with [[Ted Weschler]]) shows a sharper de-risking + concentration posture than the late-Buffett portfolio. See [[Berkshire Hathaway#Q1 2026 13F filing (Reuters May 15, 2026)]] for the full disposition table and structural reading. Headline moves attributed to Abel's discretion:
+
+- NEW [[Delta Air Lines]] $2.65B / 6.1% / 39.8M shares — reverses Buffett's April 2020 airline exit
+- NEW [[Macy's]] $55M / 3M shares scout position
+- [[Alphabet]] tripled to $16.6B (top-tier holding)
+- [[New York Times]] doubled to 9.4%
+- Exited: [[Amazon]] / [[UnitedHealth]] / [[Visa]] / [[Mastercard]] / [[Domino's Pizza]] / [[Aon]] / [[Pool Corp]]
+- Trimmed [[Chevron]] 35% into +36% Q1 (still 5th-largest)
+- Net Q1: $15.94B buys / $24.09B sells / -$8.15B disposition into a $288B book
+
+The pattern reads as "tighten grip on the portfolio without changing its size" — Abel is rotating rather than deploying the $397B cash pile. [[Todd Combs]] left for [[JPMorgan]] in December 2025, so Combs's prior allocation now sits under Abel's discretion by default.
+
 ## Related
 
 - [[Berkshire Hathaway]] — firm

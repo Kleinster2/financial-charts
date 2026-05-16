@@ -110,6 +110,69 @@ The meeting is also relevant for the [[GameStop]] / [[eBay]] story breaking the 
 
 ---
 
+## Q1 2026 13F filing (Reuters May 15, 2026)
+
+First 13F under [[Greg Abel]] as CEO — the portfolio reshuffling lines up with Abel's prior disclosure that he now oversees 94% of Berkshire's equity portfolio (vs 6% for [[Ted Weschler]]). [[Todd Combs]] (Buffett protégé who held part of the portfolio) left in December 2025 to join [[JPMorgan Chase]], so Combs's prior holdings are now Abel's by default.
+
+| Q1 2026 portfolio metric | Value |
+|---|---|
+| Total US equity portfolio | $288B (as of March 31) |
+| Q1 stock purchases | $15.94B |
+| Q1 stock sales | $24.09B |
+| Net Q1 disposition | -$8.15B |
+
+### New positions
+
+| Stock | Stake | Notes |
+|---|---|---|
+| [[Delta Air Lines]] (DAL) | $2.65B / 6.1% / 39.8M shares | NEW. Post-pandemic airline re-entry; Berkshire exited DAL + AAL/LUV/UAL April 2020 ("the world had changed" — Buffett). +3.3% AH on disclosure |
+| [[Macy's]] (M) | 3M shares / $55M | NEW small stake. +6.3% AH on disclosure |
+
+### Increased positions
+
+| Stock | New stake | Change |
+|---|---|---|
+| [[Alphabet]] (GOOGL) | $16.6B (one of Berkshire's largest common-stock investments) | More than tripled |
+| [[New York Times]] (NYT) | 9.4% of NYT stock | More than doubled. Up after-hours on disclosure |
+
+### Exits (largest)
+
+| Stock | Status |
+|---|---|
+| [[Amazon]] (AMZN) | Exited |
+| [[UnitedHealth]] (UNH) | Exited |
+| [[Visa]] (V) | Exited |
+| [[Mastercard]] (MA) | Exited |
+| [[Domino's Pizza]] (DPZ) | Exited |
+| [[Aon]] (AON) | Exited |
+| [[Pool Corp]] (POOL) | Exited |
+
+### Trims
+
+| Stock | Action | Note |
+|---|---|---|
+| [[Chevron]] (CVX) | Sold ~35% (~$8B) of position at $182.59 VWAP | Still 4.2% stake of CVX = Chevron's 4th-biggest shareholder per Bloomberg. CVX touched record high in March on US-Israeli strikes on Iran; the trim was disposition into the March peak |
+
+### Remaining top positions
+
+[[Apple]] (AAPL), [[American Express]] (AXP), [[Coca-Cola]] (KO), [[Bank of America]] (BAC), [[Chevron]] (CVX) — these are described in the Reuters filing as "generally Abel's." [[Alphabet]] now joins the top tier at $16.6B.
+
+### Why this matters
+
+Abel's first 13F under his own discretion (he assumed CEO Jan 2026 from [[Warren Buffett]]) demonstrates a sharper de-risking and concentration posture than the late-Buffett portfolio:
+
+1. **Airlines are back in** — the Delta entry reverses Buffett's April 2020 "world had changed" exit. The 6.1% stake at $2.65B implies a view that post-pandemic airline economics have normalized despite the current Middle East fuel-cost overhang. Air-travel demand resilience is now an Abel-era bet.
+2. **Big Tech narrowed to one name** — Amazon exited, Alphabet tripled. Abel is selecting his Big Tech exposure rather than spreading across the cohort. The Alphabet step-up tracks with the underlying business inflection on Google Cloud + Gemini + the [[Anthropic]] strategic stake, while AMZN faces tariff-related consumer-tax litigation and a different competitive map.
+3. **Card networks gone** — V + MA exits remove two of the highest-quality compounders Buffett had held. Possible reads: anticipated regulatory pressure on interchange, or concentration trimming given the cards' high correlation with each other. Either way, a deliberate move out of the rails-of-commerce trade.
+4. **UNH exit** — the late-2025 management turmoil at [[UnitedHealth]] + the broader US healthcare-policy uncertainty under Trump combined with the position's drawdown made this an obvious quality-de-risking exit. Abel did not wait for a recovery to harvest losses.
+5. **Chevron ~$8B trim into +36% Q1** — opportunistic disposition into the oil-spike rally at a $182.59 volume-weighted average price (Bloomberg). Berkshire bought initially in 2020 at ~$65/share, added at $124 in 2022 around Russia-Ukraine, and is now monetizing into the March 2026 record high triggered by the US-Israeli strikes on Iran. Net IRR on the position to date is in the 50-70% range pre-dividend depending on the layered cost basis. Retaining the 4.2% stake / 4th-largest-shareholder position means the structural energy thesis is unchanged. This is exactly the type of risk-managed trimming the "94% Abel" portfolio framing suggests will become standard.
+6. **NYT doubled to 9.4%** — building toward an activist-threshold stake in a media holding. Buffett previously held [[Berkshire Hathaway]]'s newspaper operations directly before selling them to Lee Enterprises in 2020; this is an unusual move back into media via the public-equity book rather than direct ownership.
+7. **Small Macy's stake** — at $55M it's deliberately under the radar (4 bps of $288B portfolio). Likely an Abel/Weschler-team scout position. Macy's +6.3% AH reaction reflects the Berkshire-stamp signaling power even at small position sizes.
+
+The bigger structural read: Abel is using cash-flow allocation rather than cash-pile deployment. The $397B cash pile from the Q1 earnings section above is being held — not put to work on transformative M&A (per Abel's explicit annual-meeting framing) and not put to work on broad-market accumulation. The $15.94B Q1 buying came out of the $24.09B in sales (net -$8.15B) — Abel is rotating, not deploying. Combined with the modest $234M buyback restart, that is a consistent picture of "tightening grip on the portfolio without changing its size."
+
+*Source: [Berkshire buys Delta, more Alphabet; sheds Amazon, UnitedHealth, Visa and Mastercard](https://www.reuters.com/), Reuters, May 15, 2026, by Jonathan Stempel. Bloomberg ran a parallel "Berkshire Sold $8 Billion of Chevron Shares as Prices Soared" piece — the Chevron-specific dollar figure I haven't yet sourced from a primary article in this session.*
+
 ---
 
 ## Performance and alpha debate

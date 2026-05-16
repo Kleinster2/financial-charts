@@ -176,6 +176,29 @@ Bear:
 ![[cvx-employees-chart.png]]
 *Headcount: 43,039 (2025) — down 5.0% YoY*
 
+---
+
+## Berkshire's Q1 2026 trim (Bloomberg May 15, 2026)
+
+[[Berkshire Hathaway]] sold ~$8bn of [[Chevron]] in Q1 2026 — about 35% of its position — at a volume-weighted average price of $182.59 per share. The trim leaves Berkshire with a 4.2% stake, still Chevron's 4th-biggest shareholder per Bloomberg data. Chevron is still Berkshire's 5th-largest equity holding overall (see [[Berkshire Hathaway#Q1 2026 13F filing (Reuters May 15, 2026)]]).
+
+The trim is opportunistic disposition into the March 2026 record high triggered by the US-Israeli strikes on Iran (see [[2026 Iran conflict market impact]] / [[2026 Strait of Hormuz crisis]] for the macro context). CVX touched a record high in March; Chevron stock was +36% in Q1 on the oil surge.
+
+### Berkshire's Chevron position history
+
+| Period | Action | Notes |
+|---|---|---|
+| 2020 | Initial purchase | $65/share range |
+| 2021 | Partial trim | Sold some of the original position |
+| 2022 | Added | $124/share around the time Russia attacked Ukraine |
+| Q1 2026 | Trimmed ~35% (~$8B) | $182.59 VWAP into March oil-spike record high |
+
+Implied pre-dividend IRR on the layered cost basis: ~50-70% range. The structural read is that [[Greg Abel]] is converting paper gains from a war-driven oil-price spike into cash while retaining a meaningful core position — the same "tighten grip without changing portfolio size" pattern that runs across the entire Q1 13F.
+
+*Source: [Berkshire Sold $8 Billion of Chevron Shares as Prices Soared](https://www.bloomberg.com/), Bloomberg, May 15, 2026, by Kevin Crowley.*
+
+---
+
 ## Related
 
 - [[Exxon]] — peer oil major
