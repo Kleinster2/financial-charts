@@ -75,6 +75,21 @@ These are high-signal, low-noise voices — they publish analysis before or inst
 | **Letters from an American (Heather Cox Richardson)** | https://heathercoxrichardson.substack.com | Geopolitics, History | US politics daily with historical context |
 | **Volts (David Roberts)** | https://www.volts.wtf | Investing | Clean energy, electrification, grid, climate policy |
 | **HEATED** | https://heated.world | Investing, Geopolitics | Climate accountability journalism (Emily Atkin) |
+| **Preston Stewart** | https://prestonstew.substack.com | Geopolitics | Defense / national security analysis, video format |
+| **StratComms (Kevin Ivers)** | https://stratcomms.substack.com | Geopolitics | Strategic communications, US foreign policy commentary |
+| **Quantstreet Capital** | https://quantstreet.substack.com | Investing | Quantitative investing, markets, asset pricing |
+| **Global Inequality and More 3.0 (Branko Milanovic)** | https://branko2f7.substack.com | Investing, Geopolitics, History | Global inequality, capitalism, AI and economic order |
+| **Interconnected (Kevin Xu)** | https://interconnect.substack.com | Geopolitics, Investing, Technologies | US-China tech competition, semiconductor policy, China tech analysis |
+| **Prof G Media (Scott Galloway)** | https://www.profgmedia.com | Investing, Technologies | Tech / business commentary, brand strategy, podcasts |
+| **Observing Japan (Tobias Harris)** | https://observingjapan.substack.com | Geopolitics, Investing | Japan politics, economy, foreign policy, LDP analysis |
+| **The Cryptocalypse Chronicles (Cryptadamus)** | https://cryptadamus.substack.com | Investing | Crypto-skeptic commentary, political-economic critique |
+| **Watching China in Europe (Noah Barkin)** | https://nbarkin.substack.com | Geopolitics, Investing | China-Europe relations, German Marshall Fund analysis |
+| **The Journal of Space Commerce** | https://www.exterrajsc.com | Investing, Technologies | Space industry, commercial space economy |
+| **The Noble Update (George Noble)** | https://georgenoble.substack.com | Investing | Investing interviews, markets, macro |
+| **Equity Decoded by Spirit** | https://spicapitalresearch.substack.com | Investing | Equity research, business analysis |
+| **First Followers (Conscious Futurist)** | https://firstfollowers.substack.com | Investing, Technologies | Tech / founders / long-game industry analysis |
+| **Redwood Research Blog** | https://blog.redwoodresearch.org | Technologies | AI safety research, alignment, control evaluations |
+| **Data for Climate Progress** | https://dataforclimateprogress.substack.com | Investing, Geopolitics | Climate data, energy transition, policy |
 
 ## Maintenance
 

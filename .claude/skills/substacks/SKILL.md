@@ -1,6 +1,6 @@
 ---
 name: substacks
-description: "Sweep ~67 tracked newsletter/Substack sources (Chartbook, ChinaTalk, Robin Brooks, Vizier Report, Chips and Wafers, etc. — full list in docs/newsletter-sources.md) for new posts in a configurable window (default 48 hours). Cross-references vault coverage, presents a candidate table, and delegates ingestion to /ingest URL for each selected post. Use for /substacks, newsletter sweep, what did the substacks publish, weekend reading."
+description: "Sweep ~82 tracked newsletter/Substack sources (Chartbook, ChinaTalk, Robin Brooks, Vizier Report, Chips and Wafers, etc. — full list in docs/newsletter-sources.md) for new posts in a configurable window (default 48 hours). Cross-references vault coverage, presents a candidate table, and delegates ingestion to /ingest URL for each selected post. Use for /substacks, newsletter sweep, what did the substacks publish, weekend reading."
 ---
 
 # Substack Sweep
@@ -16,10 +16,21 @@ Scan tracked newsletters and Substacks for new posts and ingest the vault-releva
 
 ## Phase 1: Source Scan
 
-1. Read `docs/newsletter-sources.md` for the full source list (~67 publications).
+1. Read `docs/newsletter-sources.md` for the full source list (~82 publications).
 2. Default window: posts in the last 48 hours. User can override (`/substacks 7d` for a week, `/substacks 14d` for two).
 3. For each source: navigate to the archive/homepage. WebFetch first; fall back to Chrome MCP on 403 (per `[[feedback_chrome_on_403]]`).
 4. Capture title, date, and a one-line summary for each post in the window.
+
+## Phase 1.5: Auto-expand tracked list
+
+If the scan surfaces posts from publications **not yet in `docs/newsletter-sources.md`**, add them to the tracked list before Phase 2. Any publication appearing in Gil's Substack inbox has already passed his curation — the curated list should auto-expand to match.
+
+For each new pub:
+1. Add a row to `docs/newsletter-sources.md` (URL + vault tag inferred from focus area)
+2. Mirror the row to `~/clawd/TOOLS.md`
+3. Subscribe via `POST {pub}/api/v1/free` (idempotent — no-op if already subscribed; use the Chrome-MCP same-origin navigate-then-fetch pattern from `investing/Daily/2026-05-16.md` Round 3)
+
+At end of run, bump count references in `CLAUDE.md` + SKILL.md descriptions (one update covers all increments). Promote SKILL.md to Codex + OpenClaw mirrors via `python scripts/promote_shared_skill.py substacks --from claude` and verify parity.
 
 ## Phase 2: Candidate Table
 
