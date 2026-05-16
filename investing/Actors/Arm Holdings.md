@@ -223,6 +223,53 @@ Arm sued [[Qualcomm]] in 2022 over Qualcomm's acquisition of Nuvia (a startup fo
 
 ---
 
+## FTC antitrust investigation (Bloomberg May 15, 2026)
+
+The US Federal Trade Commission is investigating whether Arm is illegally monopolizing parts of the semiconductor market. Per Bloomberg, the FTC notified Arm earlier in 2026 and demanded document preservation. The probe focuses on whether Arm will refuse or degrade the quality of CPU-blueprint licenses while ramping its own chip-design business — exactly the conflict-of-interest scenario [[Qualcomm]] has been arguing publicly since the AGI CPU announcement.
+
+### Three parallel global investigations now active
+
+| Jurisdiction | Status | Trigger |
+|---|---|---|
+| US FTC | Active investigation; document-preservation demand issued earlier 2026 | Bloomberg May 15 disclosure |
+| European Commission | Active investigation | [[Qualcomm]] 2024 complaint alleging Arm restricting license access + withholding key technology |
+| South Korea Fair Trade Commission | Conducted unannounced inspection at Arm Seoul offices | 2025 inspection per Bloomberg |
+
+The geographic pattern matters: this is no longer a single-jurisdiction grievance from a litigant. Three of the four major semiconductor antitrust regimes (US, EU, Korea) are simultaneously probing the same theory of harm — that the IP licensor with a planned forward integration into chip design will refuse or degrade the licenses that competitors depend on. The only major missing jurisdiction is China, which has its own [[Arm China]] governance complications that limit the FTC-equivalent's reach into Arm proper.
+
+### Stock reaction
+
+Arm shares slid less than 1% to $207.96 in late trading May 15. Year-to-date ARM is nearly doubled and outpacing the PHLX Semiconductor Index. Read: investors are pricing the antitrust probe as material-but-survivable, with the AGI-CPU revenue story (potentially $15B/yr within 5 years per the March 2026 announcement) more than offsetting probe-related discount. The contrast with the much sharper drawdowns at companies hit with cartel-style probes in the auto and pharma sectors is notable — the market is implicitly assuming a remedy short of structural separation.
+
+### Arm's framing on Qualcomm
+
+Arm's public statement on the European complaint: "Qualcomm's baseless allegation of anticompetitive conduct is nothing more than a desperate and underhanded attempt to obtain leverage in the parties' ongoing commercial dispute for its own competitive benefit." The phrasing collapses the antitrust question into the litigation history (see *The Qualcomm litigation* above), which is the strongest single argument Arm has — but it doesn't address the structural concern in the FTC complaint about prospective license-degradation.
+
+### Industry positioning
+
+The AGI-CPU pivot has split Arm's customer base:
+
+| Stance | Customers | Logic |
+|---|---|---|
+| Welcomed Arm's chip-design push | [[Alphabet]] (Google), [[Amazon]], [[AMD]] | More competition vs Intel; AMD's Forrest Norrod: "It keeps us on our toes and keeps us running very fast" |
+| Opposed / antitrust complaint | [[Qualcomm]] | Fears license degradation given Arm's commercial competition |
+| Silent so far | [[Apple]], [[Nvidia]], [[MediaTek]] | Major Arm licensees with potential exposure but no public position; Apple has its own architecture license + the deepest moat against any Arm license-quality move |
+
+Nvidia's silence is the most interesting position — Nvidia tried to acquire Arm in 2020 (the deal failed in 2022 in part due to [[Qualcomm]]'s opposition); a successful FTC investigation that constrains Arm's chip-design ambitions would reopen the strategic landscape Nvidia walked away from. Apple's silence is the most predictable — Apple's perpetual architecture license is the most senior in the customer stack and the hardest for Arm to degrade.
+
+### Structural read
+
+The FTC probe lands at the intersection of two structural shifts the vault has been tracking:
+
+1. **The Arm-Intel-AMD CPU competitive map** is being rewritten by Arm's own silicon push. The AGI-CPU $15B-by-2030 target would put Arm in direct competition with the very licensees ([[Qualcomm]], potentially others) that pay for the architecture. The FTC investigation is the regulatory equivalent of a coalition forcing the issue before Arm's silicon volume becomes self-reinforcing.
+2. **The [[Apple-Intel chip-making agreement May 2026|US foundry repositioning]] story** in the vault is now adjacent — Arm's bet on data-center silicon depends on access to leading-edge foundry capacity (TSMC + potentially Intel 14A), and any FTC remedy that constrains Arm's design ambitions also affects which foundries get the Arm volume.
+
+The probe is also relevant for the [[SoftBank]] thesis: SoftBank's ~87% Arm stake means any structural remedy (forced separation of the design and licensing businesses, for example) would directly hit [[Masayoshi Son]]'s NAV — a 40% ARM decline reportedly triggers margin-call risk on Son's collateralized borrowings. The FTC probe is therefore also indirectly a SoftBank-balance-sheet probe.
+
+*Source: [Arm Holdings to Face US Antitrust Probe Over Chip Tech](https://www.bloomberg.com/), Bloomberg, May 15 2026 (updated 6:53 PM EDT), by Josh Sisco.*
+
+---
+
 ## SoftBank relationship
 
 [[SoftBank]] owns approximately 87% of Arm, making it the crown jewel of [[Masayoshi Son]]'s portfolio — 54.6% of SoftBank's NAV at one point. The small free float (~13%) contributes to ARM's extreme valuation multiples.
@@ -374,7 +421,7 @@ Cross-name reads:
 ## Related
 
 ### Securities
-- [[Arm Holdings securities]] — traded equity for [[Arm Holdings]]
+- [[Arm Holdings securities note]] — traded equity for [[Arm Holdings]]
 
 
 - [[SoftBank]] — parent company (~87%), [[Masayoshi Son]] chairs board

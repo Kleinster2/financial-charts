@@ -27,6 +27,40 @@ Key stages: Seed ($1-5M), Series A ($10-30M), Series B ($30-80M), growth/late-st
 | Key stages | Seed, Series A-D+, growth, pre-IPO |
 | Typical fund life | 10 years (3-5 deploy, 5-7 harvest) |
 
+## Q1 2026 capital concentration — "no modern precedent" (WSJ May 15, 2026)
+
+[[PitchBook]] data cited by WSJ on May 15 2026 confirms that the AI cycle has produced a level of capital concentration in venture investing that the firm characterizes as having no modern precedent. Two simultaneous concentrations are visible:
+
+### Deal-side concentration (5 names absorb 75% of Q1 venture investment)
+
+| Recipient | Q1 capital channel |
+|---|---|
+| [[OpenAI]] | $122B 2026 mega-round (Q1 2026, largest in Silicon Valley history); cumulative $162B since 2024 |
+| [[Anthropic]] | Series H $30B+ at $900B (terms agreed May 14-15 2026, closing imminent); cumulative >$90B since beginning of 2025 |
+| [[xAI]] | Part of post-merger SpaceX combined entity; pre-merger raises |
+| [[Waymo]] | Late-stage growth rounds |
+| [[Databricks]] | Pre-IPO growth capital |
+
+These five names collectively absorbed ~75% of total Q1 2026 venture investment per PitchBook. The disclosed Anthropic + OpenAI raises alone since the beginning of 2025 total >$220B excluding the May Series H — a single-cohort capital scale without modern precedent.
+
+### Supply-side concentration (6 venture firms raise 75%+ of Q1 LP commitments)
+
+| Firm | Notes |
+|---|---|
+| [[Andreessen Horowitz]] | OpenAI backer |
+| [[Thrive Capital]] | OpenAI backer |
+| (4 others, names disclosed in PitchBook data) | — |
+
+These six firms collectively raised $36.4B in Q1 2026 — more than 75% of the quarter's total VC capital deployment. The supply-side concentration mirrors the deal-side concentration — a small number of GPs are now raising the capital that funds a small number of mega-AI bets.
+
+### Structural read
+
+The two concentrations together create a quasi-closed system: the GPs raising the largest funds are the same GPs writing the largest checks into the same AI labs, with limited diversification at either the LP-to-GP or GP-to-portfolio layer. The vault should watch this dynamic for two structural risks: (a) a single-AI-name solvency event would cascade through a concentrated GP base into LP balance sheets fast (the "Tiger Global 2022" pattern at a larger scale), and (b) returns dispersion across the AI cycle will be unusually GP-concentrated, with the top decile of firms capturing nearly all of the AI-thesis return distribution.
+
+The concentration also makes the $4T 2026 IPO cohort ([[SpaceX]] + OpenAI + Anthropic per Buckland's [[De-equitisation]] framework) the single capital-recycling event in the cycle — if those three IPOs absorb cleanly into the public market, the GP cohort recycles capital into the next AI thesis; if the public-market absorption tests strain, the entire VC concentration becomes a structural liquidity problem.
+
+*Source: [Anthropic Raising $30 Billion More as AI Labs Absorb Majority of VC Funding](https://www.wsj.com/), WSJ, May 15 2026, by Kate Clark. PitchBook concentration data cited.*
+
 ## Related
 
 - [[Andreessen Horowitz]] — major VC firm

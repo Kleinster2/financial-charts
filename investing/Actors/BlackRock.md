@@ -230,6 +230,30 @@ Not isolated — BDC-wide stress:
 
 Why it matters: This is [[Private credit]] stress showing up in public markets. If BlackRock's own BDC is cutting dividends 32%, weaker BDCs are in deeper trouble. The Amazon seller roll-up exposure is particularly telling — these are exactly the kind of leveraged, low-quality borrowers that thrived in the easy money era and are now unraveling. Connects to [[Treasury safe asset erosion|credit market echoes]].
 
+### TCPC DOJ valuation probe (Bloomberg May 15, 2026)
+
+The Manhattan US Attorney's office (SDNY, headed by [[Jay Clayton]]) is investigating valuation practices at BlackRock TCP Capital Corp (TCPC). Per Bloomberg, executives have been questioned and SDNY has been seeking information in recent months. BlackRock declined to comment; SDNY did not respond. Clayton has been telegraphing this scrutiny publicly since November 2025: "I'm concerned about how firms value private assets... people should know that the financial regulators and the department are looking at those." This week at a Managed Funds Association conference Clayton reiterated: "if people are mismarking in order to generate fees, that's always been a no-no."
+
+| TCPC stress timeline | Event |
+|---|---|
+| Jan 26, 2026 | Off-cycle disclosure expecting ~19% NAV cut → -13% intraday (worst session since March 2020) |
+| ~Feb 2026 | Q4 NAV officially calculated at $7.07/share (down from $8.71 prior quarter) |
+| Feb 24-27, 2026 | Dividend cut 32% to $0.17/share — covered above |
+| Throughout 2026 YTD | Class-action lawsuits filed alleging "materially false" statements + improper loan valuations; TCPC shares -24% YTD |
+| May 15, 2026 | Bloomberg reveals SDNY criminal probe; executives questioned |
+
+The probe is structurally important for three reasons:
+
+1. **Off-cycle disclosures are now a regulatory tripwire.** BDCs typically only mark quarterly. The January off-cycle disclosure was unusual enough to suggest internal stress; the question SDNY is asking is whether the *earlier* quarterly marks were artificially supported. Mismarking generates two types of artificial benefit: (a) higher reported NAV affects share-price entry/exit and investor capital flows; (b) higher carrying values produce higher manager fees. Either is "always been a no-no" per Clayton.
+
+2. **HPS exec involvement in TCPC governance is now legally significant.** Since BlackRock's [[HPS Investment Partners]] acquisition (closed 2025), HPS executives have taken three of seven seats on TCPC's investment committee. The legal exposure of those individual HPS execs vs the legacy BlackRock execs is now an open question that materially affects the post-acquisition integration.
+
+3. **The probe lands inside the $1.8T private credit market** at the moment when the [[Private credit retail liquidity crisis 2026]] is breaking simultaneously across the bank-allocation channel ([[HSBC]] $4B pause), the regulatory channel (this SDNY probe), and the retail-flow channel ([[Blue Owl]] withdrawal halts). A criminal-statute reading by SDNY of "mismarking for fees" could become the standard the entire industry's valuation policies are written against.
+
+This probe also reframes the [[Private credit lender takeovers 2025]] event the vault tracked last year — those takeovers were driven by manager-level stress that the criminal-investigation lens now puts into a different bucket. Whether SDNY's TCPC probe broadens to a multi-manager inquiry is the open question.
+
+*Source: [BlackRock Private Credit Fund's Valuations Are Probed by DOJ](https://www.bloomberg.com/), Bloomberg, May 15 2026 (updated 8:45 PM EDT), by Olivia Fishlow and Ava Benny-Morrison.*
+
 ### JGBs as safe asset alternative — "Golden Age"
 
 Navin Saigal (BlackRock head of global fixed income, Asia Pacific) on Bloomberg TV called the current backdrop a "golden age" for investing in Japanese government bonds.

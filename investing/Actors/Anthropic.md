@@ -118,9 +118,12 @@ Three of the four co-leads are also significant [[OpenAI]] backers — [[Dragone
 
 [[Big Tech]] is not expected to participate in this round, although Anthropic has previously taken tens of billions from [[Amazon]] and [[Google]] in strategic rounds. The pace of the deal is notable: investors approached the company in April; CFO [[Krishna Rao]] formally initiated talks in the two weeks before the agreement.
 
-Anthropic's annualised revenue is expected to cross $45B imminently — a fivefold increase from the $9B run rate at the end of 2025, and ahead of the $30B+ mark disclosed alongside the April Google/Broadcom deal. The structural read: Series H is being priced off run-rate revenue rather than forward-revenue multiples, with $900B / $45B ARR ≈ 20x trailing — high relative to public software comps but compressing from the Series G $380B / $14B (27x) mark.
+Anthropic's annualised revenue is expected to cross $45B imminently (per FT) — the WSJ's May 15 follow-up sharpens this further: Anthropic is projecting a **$50B revenue run-rate by the end of Q2 2026** per WSJ sources, a fivefold-plus increase from the $9B run rate at the end of 2025 and ahead of the $30B+ mark disclosed alongside the April Google/Broadcom deal. The structural read: Series H is being priced off run-rate revenue rather than forward-revenue multiples, with $900B / $50B ARR ≈ 18x trailing — high relative to public software comps but compressing from the Series G $380B / $14B (27x) mark.
+
+Per WSJ, the round could ultimately raise *significantly* more than $30B as additional investors are added before close. The cumulative Anthropic raise since the beginning of 2025 (per WSJ) crosses $90B — including Series F ($13B), Series G ($30B), the strategic [[Google]] (~$10B upfront + up to $30B future) and [[Amazon]] ($5B + up to $20B) tranches, the [[NVIDIA]]/[[Microsoft]] $15B strategic round (Nov 2025), and now Series H. The $122B [[OpenAI]] round earlier in 2026 remains the single largest round in Silicon Valley history; OpenAI's cumulative raise since 2024 totals $162B per WSJ.
 
 *Source: [Anthropic agrees terms of $30bn funding deal at $900bn valuation](https://www.ft.com/content/9deae3c6-716d-4f4d-8b09-434d8519f847), FT, May 14, 2026, by George Hammond.*
+*Cross-source: [Anthropic Raising $30 Billion More as AI Labs Absorb Majority of VC Funding](https://www.wsj.com/), WSJ, May 15 2026 11:30 AM ET, by Kate Clark.*
 
 ### FT monthly valuation arc (Jan 2024 – Mar 2026)
 

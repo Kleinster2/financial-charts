@@ -299,7 +299,34 @@ BofA fund manager survey (May 15): managers "growing more nervous about upside i
 
 The structural read: the war is no longer just an oil-and-gold trade. It is now repricing the global long end. The 30Y JGB break above 4% and 30Y gilt above 5.85% are the visible signs that the inflation-risk premium is being added to nominal yields globally, not just at the US dollar margin where the war's economic disruption originated.
 
-*Source: [Global bonds tumble on fears of inflation shock from Iran war](https://www.ft.com/content/02015e49-fe11-488f-9e45-9fe70943d155), FT, May 15, 2026, by Emily Herbert (London) and Kate Duguid (NY). Cross-source: Bloomberg ran "The Global Bond Rout Catches Up With Wall Street's Risk Rally" the same day.*
+*Source: [Global bonds tumble on fears of inflation shock from Iran war](https://www.ft.com/content/02015e49-fe11-488f-9e45-9fe70943d155), FT, May 15, 2026, by Emily Herbert (London) and Kate Duguid (NY).*
+
+### Bloomberg parallel detail (Tsekova/Lee, May 15)
+
+Net-new color from the Bloomberg companion piece "The Global Bond Rout Catches Up With Wall Street's Risk Rally":
+
+| Data point | Detail |
+|---|---|
+| US 10Y Treasury yield | Above 4.5% intraday — "psychological 4.5% on the 10-year, it becomes dangerous" (Priya Misra, JPMAM); FT's closing-print 4.59% number matches |
+| S&P 500 May-to-date breadth | 8 of 11 S&P sectors are *down* this month; gains concentrated in information technology |
+| Equity sequence | Despite Friday's drawdown, S&P 500 closed 7th consecutive week of gains |
+| Multilateral convening | G7 finance chiefs set to discuss the global bond selloff |
+| Credit spreads | IG + HY spreads stayed firm through Thursday — earnings + robust primary-market demand cited |
+| Swaps curve repricing | Now pricing a **full 25 bp Fed rate hike by March 2026** policy meeting — Bloomberg chart shows the May 15 curve crossing the +25bp hike line into the 2027 peak |
+| 10Y 5.00% threshold | Lori Calvasina (RBC): bullish US-equity calls "will be challenged if Treasury 10-year yields hit 5%" — historically compresses equity multiples |
+| Bond-as-hedge breakdown | David Lebovitz (JPMAM): bonds no longer hedge equities when inflation is the dominant risk; JPMAM prefers real assets (real estate + infrastructure) |
+| Retail positioning | BofA private clients ($4.5T AUM): record 65.7% in equities; cash allocation at record-low 9.8% |
+| Retail trading volume | +28% since mid-April per Goldman trading desk; Goldman retail-fav basket +30% since April |
+| Defensive flows | $44B JPMorgan Equity Premium Income ETF lagging S&P by 8pp YTD; covered-call + buffer ETFs took >$5B inflows past month |
+| Tech-as-only-secular-demand | Marija Veitmane (State Street): "Tech is the only sector with strong secular demand... All the money that is still fairly abundant in financial markets is finding its way to the tech sector, pushing those stocks higher — but nothing else" |
+
+Time-frame reconciliation argument (Steve Chiavarone, Federated Hermes deputy CIO of equities): oil + bond markets are pricing short-term supply shortages and stickier inflation 3-6 months out; AI stocks are pricing higher productivity and a more medium-term (1-3 year) disinflationary environment. Both can be right simultaneously if the time-frame divergence is real. Chiavarone called the current run of earnings revisions "the strongest he had seen in 20 years."
+
+The opposing view (Gene Goldman, Cetera Financial Group CIO): "Each of these primary asset classes is telling a consistent story, but they are not all telling the same story. Either equity valuations contract or the bond market has to rethink just how restrictive Fed policy needs to be."
+
+The structural read across the FT and Bloomberg coverage together: the May 15 move was the moment global capital began to price the Iran war as a *stagflationary* risk (Misra's framing) rather than a near-term oil-spike + recover-to-trend trajectory. The 10Y crossing 4.5% intraday combined with the JGB 30Y break above 4% + UK 30Y at 28-year high + swaps pricing a full Fed hike makes this a multi-asset / multi-jurisdiction inflection point, not a single-asset move.
+
+*Source (parallel): [The Global Bond Rout Catches Up With Wall Street's Risk Rally](https://www.bloomberg.com/), Bloomberg, May 15 2026 (4:30 PM EDT), by Denitsa Tsekova and Isabelle Lee.*
 
 ---
 

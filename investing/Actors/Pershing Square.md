@@ -74,12 +74,26 @@ Per Bloomberg "The China Show" 4/28/2026 broadcast: PSUS IPO is expected to rais
 | [[Brookfield]] | 18.15% | Largest position |
 | [[Uber]] | 15.90% | — |
 | [[Amazon]] | 14.28% | — |
-| [[Alphabet]] | 12.46% | Class C |
-| [[Meta]] | ~10% | Added Feb 2026 |
+| [[Alphabet]] | 12.46% | Class C — exited (most in Q1, rest in Q2 2026 per Reuters source) |
+| [[Meta]] | ~10% | New position added Feb 2026 — Ackman: META benefits from AI |
 | [[Hilton]] | — | Long-held position |
 | [[Howard Hughes Holdings]] | — | Majority stake; [[Howard Hughes Vantage Risk acquisition\|acquired Vantage Risk]] ($2.1B, Dec 2025) — PS manages Vantage assets |
 
 13 stocks total (as of Mar 2026). Core funds leveraged 1.25x. No short selling — unusual for a hedge fund of this scale.
+
+### Q1 2026 13F rotation (Reuters May 15, 2026)
+
+Three Mag 7 trades in the same quarter mark the year's reshuffling:
+
+| Action | Stock | Rationale (per Ackman / Reuters) |
+|---|---|---|
+| Bought | [[Microsoft]] | Position built in February after MSFT shares dropped — Ackman on X: investors weren't giving credit for Microsoft 365 office suite and AI investments |
+| Exited (most) | [[Alphabet]] | Q1 sale of most of the position; source confirmed remainder sold Q2 2026 |
+| New position | [[Meta]] | First reported by Reuters in February — Ackman to clients: META will benefit from AI |
+
+The Microsoft-vs-Alphabet trade is structurally interesting because it runs in the opposite direction of [[Daniel Loeb]] / [[Third Point]]'s Q1 13F over the same window — Loeb liquidated MSFT (held since late 2022) and bought GOOGL. Two of the loudest former activist names converging on the "be selective in Mag 7" thesis but disagreeing on which names. Both bought new META positions in Q1.
+
+*Source: [Ackman, Loeb take different routes on tech bets in early 2026](https://www.reuters.com/), Reuters, May 15 2026, by Svea Herbst-Bayliss.*
 
 ---
 
