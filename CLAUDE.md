@@ -125,6 +125,8 @@ Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `no
 
 ## Workflows
 
+This repo hosts the cross-vault workflow skills. For architecture, vault scope, and the Claude/Codex/OpenClaw skill-parity model, see `WORKFLOWS.md` at the repo root.
+
 - `/morning-scan` — autonomous daily market scan: sigma movers, ticker/IPO/private-capital audits, analyst watchlist, earnings calendar, pre-market briefing. See `.claude/skills/morning-scan/SKILL.md`.
 - `/substacks [window]` — sweep ~67 tracked newsletter/Substack sources for new posts (default 48h); delegates per-post ingestion to `/ingest`. See `.claude/skills/substacks/SKILL.md`.
 - `/news <source>` — article ingestion from a named source (Bloomberg, Reuters, FT, WSJ, etc.); delegates per-article ingestion to `/ingest`, then runs a downstream-impact check. See `.claude/skills/news/SKILL.md`.
@@ -158,6 +160,7 @@ Docs are the source of truth for workflow rules. Memory is for context that help
 
 | Topic | Location |
 |-------|----------|
+| Workflow architecture, vault scope, skill-parity model | `WORKFLOWS.md` |
 | Chart API, forecasts, data setup | `docs/chart-api.md` |
 | Note completion checklist | `docs/note-checklist.md` |
 | News search, verification, sourcing | `docs/research-workflow.md` |
