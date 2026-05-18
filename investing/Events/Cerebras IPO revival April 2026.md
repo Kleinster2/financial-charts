@@ -144,6 +144,7 @@ What the Day-1 print did not resolve: the gap between the +89% open-pop demand s
 - [[AI infrastructure financing risk]] — financing lens
 - [[Long Cerebras]] — equity-story lens
 - [[Fidelity]] / [[Benchmark]] / [[Foundation Capital]] / [[Eclipse Ventures]] / [[Alpha Wave Global]] — disclosed top-5 Class B holders at IPO
+- [[AI-attached unit IPO playbook]] — Cerebras as the standalone-firm case of the peak-narrative-monetisation framework (vs the Kuaishou-Kling parent-subsidiary case)
 
 ---
 

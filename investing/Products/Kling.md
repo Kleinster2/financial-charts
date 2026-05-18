@@ -153,3 +153,4 @@ Per the FT (Eleanor Olcott in Beijing, May 17), Kling sits in the top tier of th
 - [[China]] — market
 - [[AI Video Generation]] — concept hub with current leaderboard
 - [[Cerebras IPO revival April 2026]] — structural analog (parent monetising AI-attached unit at peak narrative)
+- [[AI-attached unit IPO playbook]] — framework concept; Kuaishou-Kling spinoff exploration is the parent-and-subsidiary case
