@@ -159,6 +159,10 @@ Vincent Yang (Firework CEO; AI video infrastructure for ecommerce): "Before, the
 
 [[ByteDance]] has faced legal threats over alleged copyright violations enabling users to generate videos featuring [[Disney|Marvel]] characters and South Park content without permission. Pledged increased protections; outcome and effectiveness unclear. Looser Chinese content restrictions are simultaneously a competitive advantage (developers report US tools "constantly run into errors") and a structural legal-risk overhang.
 
+### Framework — producer-evaluator asymmetry, geography-axis variant
+
+The China-pulls-ahead story is the geographic-axis case of [[AI producer-evaluator asymmetry]]. Where bug bounties show AI breaking the producer side of an evaluator-bounded market, video AI shows the structural advantage going to whoever already had producer-side data abundance — Chinese platforms via short-video app ownership ([[TikTok]] / [[Douyin]] / [[Kuaishou]]). US labs' "gatekeeping" disadvantage (content moderation, IP enforcement, copyright respect) is symmetric to the bug-bounty evaluator-bottleneck — slow-side adoption loses to fast-side adoption. [[Sora]]'s discontinuation was OpenAI conceding that the gatekeeping constraint isn't recoverable in this segment.
+
 ---
 
 ## Related

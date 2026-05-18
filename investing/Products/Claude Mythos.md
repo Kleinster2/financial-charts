@@ -145,6 +145,8 @@ The market-structure implication: Mythos's deployment converted bug-bounty submi
 
 The vulnerability-discovery story has both a positive externality (more legitimate flaws caught faster by AI-using researchers) and a negative externality (most platforms have to suspend or rebuild to filter noise). The net market read on Anthropic's competitive position is still positive — Mythos is doing what it was designed to — but Anthropic now has a new stakeholder cohort (security-platform operators) whose adaptation costs are real.
 
+Mythos is also the named catalyst in the bug-bounty case of [[AI producer-evaluator asymmetry]] — the structural framework for how AI collapses input cost in markets that depended on input-cost as the implicit filter. The HackerOne diagnostic (+76% volume / 25% legitimate rate steady) is the cleanest empirical signature of the pattern; Mythos sits at the producer-side adoption end of that asymmetry while HackerOne / Bugcrowd / Curl / Nextcloud sit at the evaluator-side adaptation end.
+
 *Source: [FT](https://www.ft.com/content/dbec4441-02dc-4053-8500-85677973d324), May 17, 2026.*
 
 ---

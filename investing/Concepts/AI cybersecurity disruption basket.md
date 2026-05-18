@@ -161,6 +161,8 @@ Google paid out $17M in bounties in 2024 (up from $7.5M in 2021) — the largest
 
 The AI cybersecurity disruption story has now extended from defensive product disruption (the original basket framing — CrowdStrike / Palo Alto Networks / SentinelOne losing ground to AI-native offerings) to *external-research market structure* — the bug-bounty ecosystem that has historically been a counter-balance to vendor security teams is now itself disrupted by the same AI wave. Defensive-vendor short theses gain a second mechanism: the parallel external-research pipeline that helped legacy vendors stay credible is now eroding, not just their internal product offering.
 
+The bug-bounty disruption is also the canonical home case for the [[AI producer-evaluator asymmetry]] framework — the structural pattern where AI collapses input cost while evaluation cost stays unchanged, dilutes signal-to-noise, and forces markets to choose between four equilibria (die / rebuild gate with AI / revert to closed channels / add staking). HackerOne's "+76% volume / 25% legitimate rate steady" is the cleanest empirical diagnostic of the pattern. Applying that framework: this basket thesis will get a parallel set of opportunities anywhere else the pattern shows up — academic peer review, code review at scale, customer-complaint intake, regulatory filings — though those map to different equity baskets.
+
 ---
 
 ## Related
