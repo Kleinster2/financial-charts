@@ -16,12 +16,12 @@ tags: [report, daily-story]
 |---|---|
 | Pentagon procurement reform becomes operational | [[Dan Driscoll]], [[Defense procurement reform]], [[Pentagon]], [[Pete Hegseth]], [[General Motors]], [[Ford]], [[Defense Primes]], [[Defense supply chain]], [[Trump defense budget]], [[Lockheed Martin]], [[RTX]], [[Anduril]], [[Defense]] |
 | Brazil fintech as architecture, C6 as proof point | [[C6 Bank]], [[Brazil fintech]], [[Marcelo Kalim]], [[Neobanks]], [[Fintech]], [[Pix]], [[UPI]] |
-| Redwire — SHIELD call option vs. FY2025 burn | [[Redwire]], [[Redwire securities]], [[Peter Cannito]], [[Edge Autonomy]] |
+| Redwire — SHIELD call option vs. FY2025 burn | [[Redwire]], [[Redwire securities note]], [[Peter Cannito]], [[Edge Autonomy]] |
 | BWET — best-performing ETF, smallest inflow | [[BWET]], [[BDRY]], [[BNO]], [[Breakwave Advisors]], [[John Kartsonas]], [[Shipping]], [[Sinokor Group]], [[Xeneta]], [[DHT Holdings]], [[Peter Sand]], [[Destine Ozuygur]], [[Todd Sohn]], [[Strategas Securities]], [[Mundra]], [[Nhava Sheva]], [[Khor Fakkan]] |
 | Venezuela tries to reenter through a Saudi platform | [[FII Priority Miami 2026]], [[Delcy Rodriguez]], [[Nicolas Maduro]], [[Venezuela]] |
 | Kndrd finds its sector home in the loneliness economy | [[Kndrd]], [[Consumer Internet]] |
 | Chart audit narrows to one unrecovered image | [[Intel]], `60-40-vs-spx-iran-war-bloomberg-mar2026.png`, `orix-vs-peers.png`, `vault_review.py`, `audit_chart_embeds.py` |
-| ORIX turns from compliance debt into a usable Japan/private-credit node | [[ORIX]], [[ORIX securities]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]] |
+| ORIX turns from compliance debt into a usable Japan/private-credit node | [[ORIX]], [[ORIX securities note]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]] |
 
 ---
 
@@ -59,11 +59,11 @@ Watch: digital-bank NPLs across [[Nubank]] / [[Banco Inter|Inter]] / C6, secured
 
 ## Redwire — SHIELD is a call option, not a contract
 
-Touched: [[Redwire]], [[Redwire securities]], [[Peter Cannito]], [[Edge Autonomy]]
+Touched: [[Redwire]], [[Redwire securities note]], [[Peter Cannito]], [[Edge Autonomy]]
 
 The story is that the headline catalyst is real but easy to overread. The Jan 27, 2026 [[MDA]] SHIELD selection ties RDW to [[Golden Dome]], but it is vendor-pool eligibility under a $151B ceiling shared with thousands of vendors, not guaranteed revenue. The actual story is whether [[Redwire]] can convert the [[Edge Autonomy]] acquisition into repeatable Defense Tech production.
 
-What changed: the vault now carries a full RDW actor note plus a [[Redwire securities]] companion. FY2025 revenue $335.4M (+10%), backlog $411.2M, but net loss $226.6M and free-cash-flow burn $190.8M. The FY2025 print included over $130M of non-recurring activity (acquisition, financing, impairment, program-estimate charges). Management guided FY2026 to $450M-$500M. Local price work confirmed Jan 26 close $10.96, Jan 27 $14.20 (+29.6%), Jan 28 $13.29 — the SHIELD spike — and Apr 24 $9.68. Sector correlation table: 0.73 [[Rocket Lab]], 0.54 [[Kratos]], 0.47 [[AeroVironment]], 0.27 ITA, 0.21 [[Lockheed Martin]]. The closer comp is small-cap space, not the primes.
+What changed: the vault now carries a full RDW actor note plus a [[Redwire securities note]] companion. FY2025 revenue $335.4M (+10%), backlog $411.2M, but net loss $226.6M and free-cash-flow burn $190.8M. The FY2025 print included over $130M of non-recurring activity (acquisition, financing, impairment, program-estimate charges). Management guided FY2026 to $450M-$500M. Local price work confirmed Jan 26 close $10.96, Jan 27 $14.20 (+29.6%), Jan 28 $13.29 — the SHIELD spike — and Apr 24 $9.68. Sector correlation table: 0.73 [[Rocket Lab]], 0.54 [[Kratos]], 0.47 [[AeroVironment]], 0.27 ITA, 0.21 [[Lockheed Martin]]. The closer comp is small-cap space, not the primes.
 
 Why it matters: this is a multi-domain defense-tech name being asked to scale through both space and UAS while still negative at the operating line. The Jan 13, 2026 segment reorganization (Space Tech / Defense Tech) makes the integration question visible.
 
@@ -139,9 +139,9 @@ Watch: whether the Bloomberg `asia-hedging-costs-bloomberg-mar2026.png` source c
 
 ## ORIX is now a Japan private-credit node, not just a broken chart reference
 
-Touched: [[ORIX]], [[ORIX securities]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]]
+Touched: [[ORIX]], [[ORIX securities note]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]]
 
-The story is that a compliance cleanup turned [[ORIX]] into a usable Japan financials / private-credit node. ORIX now has a synopsis, sector correlation, ten-year financials, ratings history, financial charts, and a securities split; [[ORIX securities]] carries the IX / 8591.T market wrapper and the Japanese-bank peer chart.
+The story is that a compliance cleanup turned [[ORIX]] into a usable Japan financials / private-credit node. ORIX now has a synopsis, sector correlation, ten-year financials, ratings history, financial charts, and a securities split; [[ORIX securities note]] carries the IX / 8591.T market wrapper and the Japanese-bank peer chart.
 
 What changed: IX fundamentals were added through `fetch_fundamentals.py IX`, then `orix-fundamentals-chart.png` and `orix-sankey.png` were generated from the local fundamentals table. The Hilco thread is now graphable through [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], and [[Distressed assets]]. The Sumitomo Mitsui duplicate risk was avoided by linking the ORIX peer comparison to existing [[SMBC]].
 

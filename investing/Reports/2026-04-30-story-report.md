@@ -17,12 +17,12 @@ tags: [report, daily-story]
 | Big Tech capex reset | [[Microsoft]], [[Alphabet]], [[Amazon]], [[Meta]], [[Hyperscaler capex]], [[Memory shortage 2025-2026]], [[AI capex arms race]] |
 | AI systems-scarcity suppliers | [[Qualcomm]], [[NXP]], [[Teradyne]], [[Generac]], [[Seagate]], [[AI capex arms race]], [[Memory shortage 2025-2026]] |
 | Fed split | [[Federal Reserve]] |
-| Visa payments toll road | [[Visa]], [[Visa securities]], [[Agentic AI]], [[Stablecoins]] |
-| SoFi growth selloff | [[SoFi]], [[SoFi securities]], [[SoFiUSD]], [[Stablecoins]], [[Mastercard]] |
-| General Dynamics backlog | [[General Dynamics]], [[General Dynamics securities]] |
-| Starbucks turnaround | [[Starbucks]], [[Starbucks securities]], [[Brian Niccol]], [[QSR turnaround]], [[Boyu Capital]] |
-| ADP payroll resilience | [[ADP]], [[ADP securities]] |
-| Regeneron franchise transition | [[Regeneron]], [[Regeneron securities]], [[Dupixent]], [[EYLEA]], [[EYLEA HD]], [[Libtayo]], [[Otarmeni]], [[Sanofi]] |
+| Visa payments toll road | [[Visa]], [[Visa securities note]], [[Agentic AI]], [[Stablecoins]] |
+| SoFi growth selloff | [[SoFi]], [[SoFi securities note]], [[SoFiUSD]], [[Stablecoins]], [[Mastercard]] |
+| General Dynamics backlog | [[General Dynamics]], [[General Dynamics securities note]] |
+| Starbucks turnaround | [[Starbucks]], [[Starbucks securities note]], [[Brian Niccol]], [[QSR turnaround]], [[Boyu Capital]] |
+| ADP payroll resilience | [[ADP]], [[ADP securities note]] |
+| Regeneron franchise transition | [[Regeneron]], [[Regeneron securities note]], [[Dupixent]], [[EYLEA]], [[EYLEA HD]], [[Libtayo]], [[Otarmeni]], [[Sanofi]] |
 | Commercial Low Earth Orbit | [[Commercial LEO Destinations]], [[Space]], [[Vast Space]], [[Voyager]], [[Star Lab]], [[Starship]], [[NASA]], [[SpaceX]] |
 | UAE exit and Hormuz demand destruction | [[OPEC fragmentation]], [[2026 UAE OPEC exit]], [[2026 Strait of Hormuz crisis]], [[ADNOC]], [[Karen Young]], [[Demand destruction]], [[UAE]], [[OPEC]], [[Saudi Arabia]] |
 | China biotech R&D leadership | [[China biotech R&D leadership]], [[Innovent Biologics]], [[Hengrui Medicine]], [[WuXi AppTec]], [[Bernstein]] |
@@ -74,7 +74,7 @@ Watch: the next payrolls and core personal-consumption-expenditures inflation pr
 
 ## Visa payments toll road — cross-border and services growth kept the duopoly compounder alive
 
-Touched: [[Visa]], [[Visa securities]], [[Agentic AI]], [[Stablecoins]]
+Touched: [[Visa]], [[Visa securities note]], [[Agentic AI]], [[Stablecoins]]
 
 The story is [[Visa]]'s fiscal Q2 2026 print turned a mature payments network into a clean read-through on global spending breadth, cross-border normalization, and services layered on top of card rails.
 
@@ -88,7 +88,7 @@ Watch: cross-border volume excluding intra-Europe, value-added-services growth, 
 
 ## SoFi growth selloff — record metrics were not enough for a valuation reset
 
-Touched: [[SoFi]], [[SoFi securities]], [[SoFiUSD]], [[Stablecoins]], [[Mastercard]]
+Touched: [[SoFi]], [[SoFi securities note]], [[SoFiUSD]], [[Stablecoins]], [[Mastercard]]
 
 The story is [[SoFi]] delivered another record growth quarter, but the stock sold off because the market wanted a guidance reset, not just strong operating metrics.
 
@@ -102,7 +102,7 @@ Watch: FY2026 adjusted net revenue around $4.655B, adjusted EBITDA around $1.6B,
 
 ## General Dynamics backlog — defense demand repriced the order book
 
-Touched: [[General Dynamics]], [[General Dynamics securities]]
+Touched: [[General Dynamics]], [[General Dynamics securities note]]
 
 The story is [[General Dynamics]]' Apr 29 move was an order-book repricing rather than a simple earnings beat.
 
@@ -116,7 +116,7 @@ Watch: book-to-bill by segment, cash conversion against the 192% Q1 figure, Navy
 
 ## Starbucks turnaround — traffic made the Brian Niccol reset investable again
 
-Touched: [[Starbucks]], [[Starbucks securities]], [[Brian Niccol]], [[QSR turnaround]], [[Boyu Capital]]
+Touched: [[Starbucks]], [[Starbucks securities note]], [[Brian Niccol]], [[QSR turnaround]], [[Boyu Capital]]
 
 The story is [[Starbucks]]' Q2 FY2026 print turned the turnaround from a brand narrative into a traffic-led earnings-recovery case under [[Brian Niccol]], the former [[Chipotle]] operator now leading the Starbucks reset.
 
@@ -130,7 +130,7 @@ Watch: U.S. transaction growth, North America margin, coffee and labor inflation
 
 ## ADP payroll resilience — the employment signal was steady, not euphoric
 
-Touched: [[ADP]], [[ADP securities]]
+Touched: [[ADP]], [[ADP securities note]]
 
 The story is [[ADP]]'s Apr 29 move gave the vault a low-volatility macro read: payroll and human-capital-management demand remains resilient, but not strong enough to call a hiring boom.
 
@@ -144,7 +144,7 @@ Watch: U.S. pays per control, Professional Employer Organization worksite employ
 
 ## Regeneron franchise transition — Dupixent is compounding, but EYLEA and Limerick drove the stock
 
-Touched: [[Regeneron]], [[Regeneron securities]], [[Dupixent]], [[EYLEA]], [[EYLEA HD]], [[Libtayo]], [[Otarmeni]], [[Sanofi]]
+Touched: [[Regeneron]], [[Regeneron securities note]], [[Dupixent]], [[EYLEA]], [[EYLEA HD]], [[Libtayo]], [[Otarmeni]], [[Sanofi]]
 
 The story is [[Regeneron]]'s Q1 2026 showed a high-quality growth engine in [[Dupixent]] but failed to prove that ophthalmology and manufacturing margins are stable.
 
@@ -242,7 +242,7 @@ Watch: official supplier confirmation, end-2026 or early-2027 specifications, wh
 
 ## Mechanical / not a story
 
-- [[ADP securities]], [[Visa securities]], [[SoFi securities]], [[General Dynamics securities]], [[Starbucks securities]], and [[Regeneron securities]] — securities-split companions required by public-company actor-note structure; they support the six earnings-mover cards but are not separate analytical stories.
+- [[ADP securities note]], [[Visa securities note]], [[SoFi securities note]], [[General Dynamics securities note]], [[Starbucks securities note]], and [[Regeneron securities note]] — securities-split companions required by public-company actor-note structure; they support the six earnings-mover cards but are not separate analytical stories.
 - Chart PNG generation for [[Visa]], [[SoFi]], [[General Dynamics]], [[Starbucks]], [[ADP]], and [[Regeneron]] — useful source/fallback artifacts for Quartz and static chart coverage, but not a separate thesis.
 - The bulk commit reconciliation linking [[2026-04-27]], [[2026-04-28]], and [[2026-04-29]] — workflow provenance and daily-note gate satisfaction. The analytical threads from that reconciliation are represented above only where they changed today's story surface; earlier full treatments live in prior story reports.
 - [[chart-registry]] and related chart plumbing — vault infrastructure, not an independent market story.

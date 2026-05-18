@@ -15,10 +15,10 @@ tags: [report, daily-story]
 | Thread | Touched notes |
 |---|---|
 | Electrolyzers turn into a Second China Shock casebook | [[Electrolyzers]], [[Green hydrogen]], [[Second China shock]], [[Nel ASA]], [[ITM Power]], [[Longi Green Energy]], [[Sungrow]], [[Topsoe]], [[Sunfire]], [[Plug Power]], [[Siemens Energy]] |
-| Intel makes AI capex a CPU systems trade | [[Intel]], [[AI capex arms race]], [[Semiconductors]], [[AMD]], [[Arm Holdings]], [[AMD securities]] |
+| Intel makes AI capex a CPU systems trade | [[Intel]], [[AI capex arms race]], [[Semiconductors]], [[AMD]], [[Arm Holdings]], [[AMD securities note]] |
 | China EVs become AI hardware/software platforms | [[Automotive AI]], [[China AI Plus]], [[Chinese EVs enter US]], [[BYD]], [[Xiaomi]], [[NIO]], [[Xpeng]], [[Geely]], [[Huawei]], [[Qualcomm]], [[Autonomous vehicles]], [[Embodied AI]], [[Horizon Robotics]], [[Li Auto]], [[Leapmotor]], [[Dongfeng Motor]], [[Shenji]], [[William Li]] |
 | DeepSeek V4 validates the domestic Chinese AI stack | [[DeepSeek]], [[DeepSeek-V]], [[Huawei]], [[Ascend]], [[China AI clusters]], [[Export controls]], [[Semiconductors]], [[AI capex arms race]], [[Cambricon Technologies]] |
-| Compliance and securities cleanup converts warnings into usable market notes | [[AMD securities]], [[Assets]], [[Arm Holdings]], [[Boeing]], [[Boston Scientific]], [[Danaher]], [[GE Aerospace]], [[IBM]], [[Intuitive Surgical]], [[ITM Power]], [[Lam Research]], [[Longi Green Energy]], [[Nel ASA]], [[Philip Morris]], [[ServiceNow]], [[Sungrow]], [[Tesla]], [[United Airlines]], [[TE Connectivity]], [[USA Rare Earth]] |
+| Compliance and securities cleanup converts warnings into usable market notes | [[AMD securities note]], [[Assets]], [[Arm Holdings]], [[Boeing]], [[Boston Scientific]], [[Danaher]], [[GE Aerospace]], [[IBM]], [[Intuitive Surgical]], [[ITM Power]], [[Lam Research]], [[Longi Green Energy]], [[Nel ASA]], [[Philip Morris]], [[ServiceNow]], [[Sungrow]], [[Tesla]], [[United Airlines]], [[TE Connectivity]], [[USA Rare Earth]] |
 | Chart registry backfill makes sector PNGs live again | [[chart-registry]], [[Sectors]], [[AI Compute]], [[Connectivity]], [[Defense Primes]], [[WFE]], [[Korea Memory]], [[US Memory]] |
 
 ## Electrolyzers become the clean hydrogen version of the Second China Shock
@@ -37,7 +37,7 @@ Watch: IRA 45V durability, EU state-aid response, and whether [[Germany]] / [[De
 
 ## Intel turns AI capex from GPU scarcity into a systems trade
 
-Touched: [[Intel]], [[AI capex arms race]], [[Semiconductors]], [[AMD]], [[Arm Holdings]], [[AMD securities]]
+Touched: [[Intel]], [[AI capex arms race]], [[Semiconductors]], [[AMD]], [[Arm Holdings]], [[AMD securities note]]
 
 The story is that Apr. 24 confirmed the Apr. 20 CPU-broadening thesis: AI capex scarcity is expanding from GPUs into CPUs, analog/power, memory, packaging, and manufacturing capacity.
 
@@ -79,11 +79,11 @@ Watch: whether V4 gets enterprise/government deployment and whether CANN/MindSpo
 
 ## Compliance cleanup turns market stubs into usable securities coverage
 
-Touched: [[AMD securities]], [[Assets]], [[Arm Holdings]], [[Boeing]], [[Boston Scientific]], [[Danaher]], [[GE Aerospace]], [[IBM]], [[Intuitive Surgical]], [[ITM Power]], [[Lam Research]], [[Longi Green Energy]], [[Nel ASA]], [[Philip Morris]], [[ServiceNow]], [[Sungrow]], [[Tesla]], [[United Airlines]], [[TE Connectivity]], [[USA Rare Earth]]
+Touched: [[AMD securities note]], [[Assets]], [[Arm Holdings]], [[Boeing]], [[Boston Scientific]], [[Danaher]], [[GE Aerospace]], [[IBM]], [[Intuitive Surgical]], [[ITM Power]], [[Lam Research]], [[Longi Green Energy]], [[Nel ASA]], [[Philip Morris]], [[ServiceNow]], [[Sungrow]], [[Tesla]], [[United Airlines]], [[TE Connectivity]], [[USA Rare Earth]]
 
 The story is workflow turning into analytical capacity. The day did not just ingest news; it made a large batch of public actor notes behave like usable market notes.
 
-What changed: `scripts/check_note_compliance.py` public-company detection was patched so governments, law firms, SPAC shells, and private-company actor notes no longer trigger public-company price/fundamentals/securities gates merely because they are tagged `#actor`. The cleanup then added securities notes, price charts, fundamentals charts, Sankey charts, and actor-side [[Assets]] links across a 24-note batch, including [[AMD securities]] and refreshed charts for [[TE Connectivity]] and [[USA Rare Earth]].
+What changed: `scripts/check_note_compliance.py` public-company detection was patched so governments, law firms, SPAC shells, and private-company actor notes no longer trigger public-company price/fundamentals/securities gates merely because they are tagged `#actor`. The cleanup then added securities notes, price charts, fundamentals charts, Sankey charts, and actor-side [[Assets]] links across a 24-note batch, including [[AMD securities note]] and refreshed charts for [[TE Connectivity]] and [[USA Rare Earth]].
 
 Why it matters: fewer false public-company gates makes compliance stricter where it should be and quieter where it should not.
 
@@ -115,7 +115,7 @@ Watch: Quartz viewer pickup and whether any chart still falls back to a static a
 
 - The six electrolyzer company notes are still stub-grade; financials, leadership, and full chart coverage remain uneven.
 - Cross-vault follow-up was explicitly deferred for the [[Second China shock]] / [[Electrolyzers]] cluster, especially [[Germany]] and [[Denmark]] industrial-policy relevance.
-- [[BYD securities]] and [[Geely securities]] record local market-data gaps for 1211.HK and 175.HK.
+- [[BYD securities note]] and [[Geely securities note]] record local market-data gaps for 1211.HK and 175.HK.
 - The China auto-AI item may eventually need a technologies-vault explainer on vehicle agents, but no sibling-vault write was done.
 - The DeepSeek V4 / Huawei stack may eventually need a technical technologies-vault long-context or domestic-accelerator explainer.
 - Chart registry backfill needs viewer validation to prove the 14 sector charts are live in Quartz rather than static PNGs.

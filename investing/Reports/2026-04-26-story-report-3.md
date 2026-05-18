@@ -18,12 +18,12 @@ Third story pass for the day. Cards 1–9 carry forward from [[2026-04-26-story-
 |---|---|
 | 1. Pentagon procurement reform becomes operational | [[Dan Driscoll]], [[Defense procurement reform]], [[Pentagon]], [[Pete Hegseth]], [[General Motors]], [[Ford]], [[Defense Primes]], [[Defense supply chain]], [[Trump defense budget]], [[Lockheed Martin]], [[RTX]], [[Anduril]], [[Defense]] |
 | 2. Brazil fintech as public-rail architecture | [[C6 Bank]], [[Brazil fintech]], [[Marcelo Kalim]], [[Neobanks]], [[Fintech]], [[Pix]], [[UPI]] |
-| 3. Redwire SHIELD optionality vs. execution risk | [[Redwire]], [[Redwire securities]], [[Peter Cannito]], [[Edge Autonomy]] |
+| 3. Redwire SHIELD optionality vs. execution risk | [[Redwire]], [[Redwire securities note]], [[Peter Cannito]], [[Edge Autonomy]] |
 | 4. BWET proves the ETF legibility problem | [[BWET]], [[BDRY]], [[BNO]], [[Breakwave Advisors]], [[John Kartsonas]], [[Shipping]], [[Sinokor Group]], [[Xeneta]], [[DHT Holdings]], [[Peter Sand]], [[Destine Ozuygur]], [[Todd Sohn]], [[Strategas Securities]], [[Mundra]], [[Nhava Sheva]], [[Khor Fakkan]] |
 | 5. Venezuela tests capital re-entry through FII | [[FII Priority Miami 2026]], [[Delcy Rodriguez]], [[Nicolas Maduro]], [[Venezuela]] |
 | 6. Kndrd gets a sector home | [[Kndrd]], [[Consumer Internet]] |
 | 7. Chart audit becomes quieter and more useful | [[Intel]], `60-40-vs-spx-iran-war-bloomberg-mar2026.png`, `orix-vs-peers.png` |
-| 8. ORIX becomes a Japan / private-credit node | [[ORIX]], [[ORIX securities]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]] |
+| 8. ORIX becomes a Japan / private-credit node | [[ORIX]], [[ORIX securities note]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]] |
 | 9. Hook gates harden workflow discipline | `.githooks/pre-commit`, `scripts/daily_note_log_gate.py`, `scripts/README.md` |
 | 10. Xiaomi targets the German premium with a European-engineered car | [[Xiaomi]], [[Lei Jun]], [[YU7 GT]], [[YU7]], [[SU7]], [[Munich]], [[Porsche]], [[BMW]], [[Mercedes-Benz]], [[Tesla]], [[Ferrari]], [[Gavekal]], [[Omdia]], [[Government Pension Fund Global]] |
 | 11. xAI sues Colorado, opens the First Amendment lane against state AI laws | [[xAI]], [[Grok]], [[AI regulation]], [[Elon Musk]] |
@@ -46,7 +46,7 @@ The story is that once [[Pix]] turned payments into public infrastructure, the m
 
 ## 3. Redwire SHIELD optionality vs. execution risk
 
-Touched: [[Redwire]], [[Redwire securities]], [[Peter Cannito]], [[Edge Autonomy]]
+Touched: [[Redwire]], [[Redwire securities note]], [[Peter Cannito]], [[Edge Autonomy]]
 
 The story is that [[Redwire]] is a multi-domain defense-tech test case but the Jan. 27 [[MDA]] SHIELD selection is vendor-pool eligibility, not booked revenue. FY2025: $335.4M revenue, $411.2M backlog, $226.6M net loss, $190.8M FCF burn. Local price prints confirmed the spike: $10.96 → $14.20 (Jan. 26 → 27), back to $9.68 by Apr. 24. Watch: funded SHIELD task orders and Stalker / Penguin shipment cadence. (Full card in -2.)
 
@@ -76,7 +76,7 @@ Workflow story: chart audit now matches graph-health scope and stops over-report
 
 ## 8. ORIX becomes a Japan / private-credit node
 
-Touched: [[ORIX]], [[ORIX securities]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]]
+Touched: [[ORIX]], [[ORIX securities note]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]]
 
 The story is that compliance cleanup turned [[ORIX]] into a real analytical node bridging Japan rate normalization, US middle-market private credit, and [[Hilco Global]]'s distressed-asset edge. ORIX gained synopsis, sector correlation, ten-year financials, ratings history, and a securities companion. Tension: the conglomerate model may keep an opacity discount. Watch: FY2026 filings, Hilco integration, and securities companions for [[SMBC]] / [[Mizuho]]. (Full card in -2.)
 

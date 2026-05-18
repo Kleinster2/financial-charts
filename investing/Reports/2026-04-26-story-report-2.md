@@ -16,12 +16,12 @@ tags: [report, daily-story]
 |---|---|
 | Pentagon procurement reform becomes operational | [[Dan Driscoll]], [[Defense procurement reform]], [[Pentagon]], [[Pete Hegseth]], [[General Motors]], [[Ford]], [[Defense Primes]], [[Defense supply chain]], [[Trump defense budget]], [[Lockheed Martin]], [[RTX]], [[Anduril]], [[Defense]] |
 | Brazil fintech as public-rail architecture | [[C6 Bank]], [[Brazil fintech]], [[Marcelo Kalim]], [[Neobanks]], [[Fintech]], [[Pix]], [[UPI]] |
-| Redwire SHIELD optionality vs. execution risk | [[Redwire]], [[Redwire securities]], [[Peter Cannito]], [[Edge Autonomy]] |
+| Redwire SHIELD optionality vs. execution risk | [[Redwire]], [[Redwire securities note]], [[Peter Cannito]], [[Edge Autonomy]] |
 | BWET proves the ETF legibility problem | [[BWET]], [[BDRY]], [[BNO]], [[Breakwave Advisors]], [[John Kartsonas]], [[Shipping]], [[Sinokor Group]], [[Xeneta]], [[DHT Holdings]], [[Peter Sand]], [[Destine Ozuygur]], [[Todd Sohn]], [[Strategas Securities]], [[Mundra]], [[Nhava Sheva]], [[Khor Fakkan]] |
 | Venezuela tests capital re-entry through FII | [[FII Priority Miami 2026]], [[Delcy Rodriguez]], [[Nicolas Maduro]], [[Venezuela]] |
 | Kndrd gets a sector home | [[Kndrd]], [[Consumer Internet]] |
 | Chart audit becomes quieter and more useful | [[Intel]], `60-40-vs-spx-iran-war-bloomberg-mar2026.png`, `orix-vs-peers.png`, `scripts/vault_review.py`, `scripts/audit_chart_embeds.py` |
-| ORIX becomes a Japan/private-credit node | [[ORIX]], [[ORIX securities]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]] |
+| ORIX becomes a Japan/private-credit node | [[ORIX]], [[ORIX securities note]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]] |
 | Hook gates harden workflow discipline | `.githooks/pre-commit`, `scripts/daily_note_log_gate.py`, `scripts/README.md`, `.claude/settings.json`, `.claude/hooks/check-daily-summary.ps1` |
 
 ## Pentagon procurement reform stops being only rhetoric
@@ -54,7 +54,7 @@ Watch: NPLs, secured-vs-unsecured mix, [[Selic]], and Pix P2B share.
 
 ## Redwire's SHIELD selection is a call option, not revenue
 
-Touched: [[Redwire]], [[Redwire securities]], [[Peter Cannito]], [[Edge Autonomy]]
+Touched: [[Redwire]], [[Redwire securities note]], [[Peter Cannito]], [[Edge Autonomy]]
 
 The story is that [[Redwire]] is being pulled from space-SPAC infrastructure into a multi-domain defense-tech test case, but the Jan. 27, 2026 [[MDA]] SHIELD selection is vendor-pool access, not guaranteed dollars.
 
@@ -124,7 +124,7 @@ Watch: `asia-hedging-costs-bloomberg-mar2026.png`, still the unrecovered image.
 
 ## ORIX is now a usable Japan private-credit node
 
-Touched: [[ORIX]], [[ORIX securities]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]]
+Touched: [[ORIX]], [[ORIX securities note]], [[Hilco Global]], [[Hilco Real Estate]], [[Jeffrey Hecktman]], [[Tokyo]], [[Distressed assets]], [[SMBC]]
 
 The story is that compliance cleanup turned [[ORIX]] into a real analytical node for Japan financials, private credit, and distressed collateral underwriting.
 
