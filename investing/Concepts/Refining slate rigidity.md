@@ -109,9 +109,19 @@ The 2026 case is unusual because the loss was concentrated in the lightest end o
 | [[Ryanair]] fuel cost share (2025) | ~35% of revenue ([[Bernstein]]) |
 | Required demand cut to balance ~15% supply loss | ~15% in *each* product, not in aggregate |
 
+## Inverse case — refinery-side damage (supply-side rigidity)
+
+Slate rigidity also operates on the supply side when the damaged asset is the *refinery* rather than crude availability. A Ukrainian drone strike on a Russian refinery removes a fixed slate of products in proportion to that refinery's design — destroying ~240 kb/d of [[Moscow Oil Refinery|Moscow Oil Refinery]] capacity removes the design-fraction of gasoline, diesel, jet, and naphtha that the unit produces, not a single product line. The rigidity is the same mechanism (slates are fixed) operating from the production side instead of the demand side.
+
+Because the slates are fixed, refinery damage tightens *all* downstream product markets simultaneously rather than one specific cut. That's why the crack-spread blowout following a Russian-refinery hit affects diesel + gasoline + jet together, not just one of them — and why the cross-refiner bidding response (other refineries worldwide bidding up crude to capture wider margins) pulls Brent up rather than rotating between products.
+
+See [[Crack spread#Refinery-strike transmission — how product-side damage pulls crude up]] for the five-channel transmission framework specifically. This note is the demand-side rigidity story; the Crack spread note is the supply-side rigidity story; both rest on the same fixed-slate constraint.
+
+---
+
 ## Related
 
-- [[Crack spread]] — the margin blow-out that this rigidity produces
+- [[Crack spread]] — the margin blow-out that this rigidity produces; [[Crack spread#Refinery-strike transmission — how product-side damage pulls crude up|refinery-strike transmission framework]]
 - [[Jet fuel]] — first-mover cut in the 2026 shock
 - [[Diesel fuel]] — second-layer rationing
 - [[Gasoline]] — third-layer

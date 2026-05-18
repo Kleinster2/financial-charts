@@ -371,3 +371,20 @@ The FT's editorial board argues that the binding adjustment now has to come from
 The piece also flags an explicit fiscal-strain concern for the emerging-market cohort: "developing economies may be worst affected; the heavy subsidies they have used to protect consumers from global price rises will become increasingly unaffordable." This is the bridge into the [[Iran conflict sovereign credit risk|sovereign credit thread]] — a fiscal-deterioration warning specifically about [[Indonesia]] (~$22.6B subsidy burden) and similar peers, even though no country is named.
 
 For the [[Iran conflict airline disruption|airline disruption thread]], the editorial confirms that the binding refined-product constraint is now visible at the inventory level — European jet fuel below five-year lows — not just at the spot price level. See [[Iran conflict airline disruption#May 17 — regional jet-fuel spread, peak-summer reset (FT)]].
+
+---
+
+## Compounding with Russian refinery strikes — dual-shock transmission
+
+The Iran-war supply shock does not operate in isolation. Ukraine's parallel campaign against Russian refining capacity — formalised as doctrine in [[Volodymyr Zelenskyy]]'s May 17 2026 "oil industry, military production" targeting commitment (see [[Ukraine war#May 17, 2026 — escalating drone war + peace talks stalled (FT)]]) — operates on the same Brent term-structure through a different physical mechanism.
+
+The asymmetry is what makes the two shocks compound rather than substitute:
+
+| Shock | Tightens crude? | Tightens products? |
+|---|---|---|
+| Iran-war Hormuz closure | Direct (Gulf crude can't ship) | Indirect (Gulf refiners can't get feedstock) |
+| Ukraine refinery strikes | Indirect (Russian production shut-in lag) | Direct (Russian product output drops) |
+
+Both ends of the petroleum value chain tighten simultaneously, which is the structural foundation for analyst scenarios in the $150-180 range ([[Aberdeen]]'s Diggle scenario, [[Morgan Stanley]]'s "escalation" case — see [[Iran conflict oil price timeline#May 17 — Peak-summer crunch in view, Brent $105, scenario reset to $150-180 (FT)]]). Neither shock alone necessarily pushes Brent to those levels; the *combination* of crude-tightening + product-tightening + crack-spread blowout does.
+
+Full transmission-channel framework: [[Crack spread#Refinery-strike transmission — how product-side damage pulls crude up|Crack spread — Refinery-strike transmission]] (5 channels, ranked-magnitude; diagnostic via Brent vs NW Europe diesel divergence; refining-is-binding-not-exports framework).

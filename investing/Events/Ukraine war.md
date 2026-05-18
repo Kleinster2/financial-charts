@@ -78,6 +78,10 @@ The strategic logic: Russia uses winter infrastructure strikes to degrade Ukrain
 
 Russia's mass-drone capability (3,170+ drones in a single week) substantially exceeds pre-war forecast levels. See [[Russian sovereign drone ecosystem]] for the production-side analysis. The May 17 strike pattern is the closest available proxy for what an integrated Russian sovereign drone capability looks like in operations — not single-system effectiveness but sustained mass-production-driven attrition.
 
+### How the refinery-strike pattern transmits into Brent
+
+The price-channel mechanism behind Ukraine's "oil industry" targeting doctrine lives in [[Crack spread#Refinery-strike transmission — how product-side damage pulls crude up|Crack spread — Refinery-strike transmission]]. The summary: crack-spread widening is the dominant channel (Russian product output drops, global product balances tighten, cross-refiner bidding pulls Brent up), with crude-side storage shut-in as a secondary channel. The asymmetry vs Hormuz-style closure is what makes the dual Russia + Iran shock compound rather than substitute — both ends of the petroleum value chain tighten simultaneously. The diagnostic for whether a specific refinery strike is pulling Brent through the crack channel: divergence between Brent spot and Northwest Europe diesel pricing.
+
 ---
 
 *May 17 update sources: [FT](https://www.ft.com/content/c7e98e0b-90c4-4602-86d7-5a99b1b0b7ab), Christopher Miller + Max Seddon, May 17, 2026. Companion FT story on Russian missile parts: [Russian missiles in deadly strike were built with western parts, says Ukraine](https://www.ft.com/topics/Z2VuLWJtbjpkZWFkbHk%3D) (referenced in same article cycle).*
