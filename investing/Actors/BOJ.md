@@ -183,3 +183,18 @@ Two positioning consequences for the vault:
 
 ### Cross-vault
 - [Geopolitics: Japan](obsidian://open?vault=geopolitics&file=Actors%2FJapan) — institutional dynamics, BOJ independence, MOF relationship
+
+---
+
+## June 2026 rate-hike expectation (FT, May 16)
+
+[[FT]] May 16 (Duguid/Clarfelt/Lewis): the market is pricing a quarter-point BOJ rate hike to 1% at the June meeting. Drivers:
+
+- Persistent inflation above the 2% target
+- Additional inflation pressure from the [[2026 Iran conflict|Iran war]] energy shock
+- [[Sanae Takaichi]]'s expansionist fiscal posture (post-Feb election: higher spending + petrol subsidies + expected supplementary budget later in 2026)
+- Record JGB yield prints (10Y at 2.73%, highest since May 1997; 30Y at 4% first time since 1999) confirming market is pricing in further tightening
+
+A 1% policy rate would be the highest since 1996. Combined with [[Yield curve control|YCC]] exit + [[#Quantitative tightening|QT]] (purchase pace cut to ¥200B/quarter from April), the BOJ is the only major G3 central bank actively tightening through mid-2026 — sustained pressure on JGB issuance pricing without the BOJ as a residual buyer.
+
+See [[JGB crash January 2026#May 16-17 update — record yields + repatriation bets (FT)]] for the full thread on the record-yield episode + the repatriation thesis.

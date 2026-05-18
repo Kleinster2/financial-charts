@@ -185,3 +185,22 @@ When the world's largest asset manager goes on TV to tell you Japanese bonds are
 ---
 
 *Source: "The Safe Assets That Weren't" — The Two Cents (Substack). Created 2026-02-27.*
+
+---
+
+## Japanese repatriation channel (FT, May 16-17 2026)
+
+[[FT]] (Duguid/Clarfelt/Lewis, May 16): record JGB yield prints (10Y at 2.73%, highest since May 1997; 30Y at 4% first time since 1999) reignite the Japanese repatriation thesis — the largest single foreign-holder cohort of US Treasuries ($1tn) starting to question the rationale for holding when domestic yields offer structurally better compensation.
+
+The Japanese cohort matters for Treasury safe-asset erosion because its size and price-insensitivity have been load-bearing for the marginal-buyer thesis. Mechanism breakdown:
+
+| Channel | Pre-2026 dynamic | Now |
+|---|---|---|
+| New flows | Japanese institutions allocated overseas (mostly US Treasuries, some corporates) by structural mandate when JGB yields ~0% | New money turning home — [[BlueBay]] CIO Dowding: "new money that's being put to work won't be going into US Treasuries" |
+| Existing stock | $1tn US Treasury holdings, longest-dated cohort by tenor preference (life insurers + pension funds) | Not yet moving — [[RBC Capital|RBC]]'s Keshvani: still net buyers of $50bn foreign bonds over past 12 months because the sell-off path isn't done |
+| FX positioning | Carry-trade-funded short JPY as the default | Asset managers ([[Ruffer]]) long yen as key hedge for "US-credit-market-centric" turmoil |
+| EPFR signal | Decades of net outflows from Japanese sovereign bond funds | March 2026 net inflow ~$700mn — biggest monthly on record |
+
+The "slowly, then quickly" framing applies to the Treasury channel as much as the FX channel. The first 6-12 months are pricing in: (i) Japanese new-money flows redirected home, (ii) marginal Japanese stock-level rebalancing, (iii) yen-strengthening as a side-effect rather than a goal. The acceleration scenario lands if a US-credit shock materialises that triggers full repatriation — at that point, the $1tn stock starts moving and the marginal-buyer thesis for US Treasuries loses its largest single counter-party.
+
+This is the most concrete instance of the "safe asset" thesis being tested by a specific actor's reallocation rather than abstract erosion. Watch the EPFR May-June print for the next inflection. See [[JGB crash January 2026#May 16-17 update — record yields + repatriation bets (FT)]] for full thread; [[Japanese yen#Repatriation thesis — long-yen positioning (FT, May 16-17 2026)]] for the FX side.

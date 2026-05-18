@@ -165,4 +165,32 @@ MoF/BoJ have intervened to support yen:
 
 ---
 
-*Updated 2026-01-29*
+*Updated 2026-01-29.*
+
+---
+
+## Repatriation thesis — long-yen positioning (FT, May 16-17 2026)
+
+[[FT]] May 16: record JGB yields (10Y at 2.73%, highest since May 1997; 30Y at 4% first time since 1999 issuance) trigger institutional positioning for the yen-strengthening leg of the Japanese repatriation thesis.
+
+The mechanism: decades of low Japanese rates pushed Japanese investors to seek returns abroad — ~$1tn of US Treasury debt held by Japanese cohort (largest foreign holder). With domestic yields now offering structurally higher returns, asset managers are positioning for new-money flows to stay home and (eventually) for the existing $1tn stock to be rebalanced.
+
+Key voices:
+
+| Voice | Position | Quote |
+|---|---|---|
+| Mark Dowding ([[BlueBay]] CIO; launched first Japanese bond fund March 2026) | Domestic crowds out new overseas | "The new money that's being put to work won't be put to work overseas. It won't be going into US corporate bonds. It won't be going into US Treasuries. It will be going into those domestic allocations." |
+| Matt Smith ([[Ruffer]] fund manager) | Long yen as key hedge | "We're long yen. It is one of our key hedges. In a moment of market turmoil, especially if the turmoil is US-credit-market-centric, you will see the yen strengthen as Japanese investors bring capital home." |
+| Smith on timing | Slow-then-fast | "Pressure is building — long-end domestic yields are rising. And the institutional framework is now 'please can you bring this money home'. We think yen strength will happen slowly, then quickly." |
+| Abbas Keshvani ([[RBC Capital|RBC Capital Markets]]) | Caveat: stock hasn't moved | Japanese investors net buyers of $50bn foreign bonds over past 12 months despite higher JGB yields offering better compensation — supply-demand path is for higher yields still, so why buy now |
+
+The "slowly, then quickly" framing captures the non-linearity. Until the cohort decides the JGB sell-off has stabilised, no one wants to be the early mover; once that view shifts, the move accelerates. Analyst consensus per the article: 3% on the 10Y JGB later in 2026 — implies ~30bp more sell-off before stabilisation.
+
+EPFR fund flows already confirm the new-money turn:
+
+- March 2026: ~$700mn into Japanese sovereign bond funds (biggest monthly on record)
+- April 2026: $86mn (in line with recent moves)
+
+The March print is the diagnostic. The May yield action will likely produce another spike in the June EPFR data — the next data point worth watching.
+
+See [[JGB crash January 2026#May 16-17 update — record yields + repatriation bets (FT)]] for the full thread. Cross-links: [[Treasury safe asset erosion]] for the broader Treasury-market read; [[BOJ]] for the rate-path (1% expected at June meeting).
