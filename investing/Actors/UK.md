@@ -156,6 +156,24 @@ The 30Y gilt at 5.85% is the highest since 1998 — predating the Bank of Englan
 
 *Source: [Gilts fall as traders brace for Andy Burnham to challenge Keir Starmer](https://www.ft.com/content/d9a66be6-fa98-43d0-badc-b23a13cc7525), FT, May 15 2026, by Ian Smith / Costas Mourselas / Emily Herbert (London).*
 
+### May 17 follow-on — Burnham fiscal-rule walk-back + Streeting EU rejoin
+
+*Source: [FT, "Andy Burnham plays down rejoining EU after Wes Streeting advocates Brexit reversal"](https://www.ft.com/content/6338ad6f-cf26-44c6-96e4-c64f1db615dd), Anna Gross / Jim Pickard / Jennifer Williams, May 17, 2026.*
+
+Two market-relevant updates on the Labour leadership thread, both consequential for the [[#Burnham challenge to Starmer and gilt repricing (FT May 15, 2026)|"Burnham premium"]] priced into gilts on Friday May 15.
+
+[[Andy Burnham]] fiscal-rule walk-back (May 17, ITV): "Let me say this really clearly. I support the fiscal rules, there needs to be a plan to get debt down." A spokesperson on Sunday confirmed he "supports the current fiscal rules" — committing to [[Rachel Reeves]]'s framework (current budget into surplus by 2029-30; debt declining as share of economy by that year). This is the first explicit market-management signal from Burnham's camp after the Friday gilt sell-off — and the diagnostic question now is whether the gilt-premium compresses on these statements. If yes, the May 15 episode reads as a position-trade overshoot rather than a structural repricing. If no, the market is signaling that Burnham's verbal commitment doesn't bind future policy choices.
+
+[[Wes Streeting]] (former Health Secretary) entered the Labour leadership picture as a parallel contender: said on May 16 that Brexit was a "catastrophic mistake" and the UK should rejoin the EU. Streeting added Labour would need to "seek a new mandate" — implying dropping current red lines on customs union / single market / free movement. The position is harder-pro-EU than Burnham's stated stance.
+
+Burnham distanced himself the next day: there is a "case" for rejoining the EU in the long run "but I'm not advocating that" in the Makerfield by-election. [[Lisa Nandy]] (culture secretary, Burnham ally) publicly attacked Streeting's framing.
+
+The leadership contest now has three potential entrants: [[Keir Starmer]] (incumbent), [[Andy Burnham]] (soft-left, fiscal-rule-committed, anti-EU-rejoin in by-election terms), and [[Wes Streeting]] (centre, pro-EU-rejoin). The investor reading is that fiscal posture (rather than EU posture) is the primary gilt-market variable; Burnham's May 17 walk-back is therefore the more market-relevant of the two updates.
+
+Burnham's substantive policy pitch: public control of utilities (energy, housing, water, transport), modeled on Greater Manchester's bus reform (private operators with public-sector route/pricing authority — not nationalisation). The equity implications for [[UK water companies]], [[National Grid]], [[Centrica]], [[Severn Trent]], [[SSE]] are substantial — these face the same political-environment risk Burnham applied to Manchester bus operators. The fiscal implications are less direct than full nationalisation.
+
+Burnham launched the by-election slogan "For Us" — positioning against [[Nigel Farage]]'s Reform UK by attacking "arch Thatcherites." Makerfield by-election expected June 2026.
+
 ---
 
 ## Structural challenges
