@@ -22,12 +22,14 @@ The effective rate typically equals the target. BCB conducts open market operati
 
 ## Current level
 
-| Date | Selic target |
-|------|--------------|
-| Feb 2026 | 15.00% |
-| April 16, 2026 | 14.75% (pre-Apr 28-29 COPOM) |
+| Date | Selic target | Move | Framing |
+|------|--------------|------|---------|
+| Feb 2026 | 15.00% | Peak of cycle | Tight; inflation watch |
+| Apr 16, 2026 | 14.75% | -25bp (Mar COPOM) | First cut after 2024-25 hike cycle |
+| Apr 29, 2026 | 14.50% | -25bp | Hawkish: "inflation moving further away from target"; cycle still on but pace under question |
+| May 9, 2026 | 14.50% (unchanged) | April IPCA prints at 4.39% YoY (vs 3.81% Mar) | Rate-cut path now at risk; market repriced forward DI curve hawkishly |
 
-COPOM hiked aggressively through 2024-2025 (10.75% → 15%) and began cutting in 2026. As of April 16, [[Polymarket]] prices 95% probability of a rate decrease at the April 28-29 COPOM meeting. Focus survey: year-end 2026 Selic forecast 12.5%; 2026 IPCA forecast 4.71% — above the 4.50% ceiling of the target range for the first time this cycle. Election-year fiscal uncertainty ([[2026 Brazil presidential election]]) clouds the rate path. See [[Brazil corporate bond rout February 2026]] for corporate impact.
+COPOM hiked aggressively through 2024-2025 (10.75% → 15%) and began cutting in 2026, with two 25bp moves in March and April. The April 29 cut came with notably hawkish framing — BCB describing inflation as "accelerated, moving further away from target" and citing geopolitical uncertainty (Middle East). Ten days later, the May 9 April IPCA print at 4.39% YoY (up from 3.81% in March) brushed the 4.5% upper tolerance band, putting the remaining cut path at risk. Forward 2027 Selic guidance now ~13.75% (Trading Economics model) vs prior Focus survey 12.5% year-end 2026 — meaning the market priced ~125bp less easing into the curve over the two weeks. Election-year fiscal uncertainty ([[2026 Brazil presidential election]]) and [[Petrobras]] / Brent transmission through diesel imports ([[Brazil's diesel paradox|paradox]]) compound the inflation risk. See [[Brazil corporate bond rout February 2026]] for corporate impact and [[Brazil]] for the May 13 equity-cluster fallout.
 
 ---
 
@@ -111,7 +113,7 @@ Brazil's real rate (Selic minus inflation) among highest globally:
 
 | Country | Policy rate | Inflation | Real rate |
 |---------|-------------|-----------|-----------|
-| [[Brazil]] | 14.75% | 3.81% (IPCA trailing) | ~10.9% |
+| [[Brazil]] | 14.50% | 4.39% (April IPCA YoY) | ~10.1% |
 | [[Mexico]] | 10.00% | ~4% | ~6% |
 | US | 4.50% | ~3% | ~1.5% |
 

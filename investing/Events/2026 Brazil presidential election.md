@@ -13,20 +13,24 @@ tags: [event, brazil, politics, election, allocator]
 
 ## Synthesis
 
-The central insight: [[Polymarket]]'s flip and the Datafolha confirmation have converted the 2026 Brazilian election from a presumed Lula re-coronation into a genuine toss-up, with the right-wing field itself now unsettled between [Flávio](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FFl%C3%A1vio%20Bolsonaro) and [Caiado](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FRonaldo%20Caiado). The constraint: five transmission channels — [[Brazilian real|FX]], [[Ibovespa|equities]], [[Selic|rates]], M&A, and sectoral allocation — will reprice Brazilian assets through a 6-9 month volatility window (historical: 8-15% realized BRL vol in the 60-90 days before a vote). The counter-example: structural endowment (niobium, rare earths, arable land, freshwater, pre-salt oil, clean energy matrix) persists regardless of who wins — the election determines policy speed and direction, not Brazil's fundamental position in the commodity supercycle. The one-line: this is a six-month repricing event inside a much longer thesis, and allocators who position before the vol window opens will pay better entry prices than those who wait for the October 4 result.
+*Original April 16, 2026 reading — superseded in places by #May 2026 reprice — fuller chronology below. Retained as the contemporaneous April 16 view; markers reflect the original sourcing and flag staleness where current pricing has moved.*
+
+The central insight: [[Polymarket]]'s flip and the Datafolha confirmation have converted the 2026 Brazilian election from a presumed Lula re-coronation into a genuine toss-up *(per Apr 16 row of #Polymarket pricing + Apr 11 Datafolha; superseded — see #May 2026 reprice for the partial un-flip back toward Lula)*, with the right-wing field itself now unsettled between [Flávio](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FFl%C3%A1vio%20Bolsonaro) and [Caiado](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FRonaldo%20Caiado) *(inference, as of April 16; the May 15 reprice has Flávio 28 vs Caiado not explicitly priced — see #May 2026 reprice)*. The constraint: five transmission channels — [[Brazilian real|FX]], [[Ibovespa|equities]], [[Selic|rates]], M&A, and sectoral allocation — will reprice Brazilian assets through a 6-9 month volatility window *(per #Transmission channels for institutional capital below)*; historical 8-15% realized BRL vol in the 60-90 days before a vote *(per [[Brazil]] macro section, sourced from prior election studies)*. The counter-example: structural endowment (niobium, rare earths, arable land, freshwater, pre-salt oil, clean energy matrix) persists regardless of who wins — the election determines policy speed and direction, not Brazil's fundamental position in the commodity supercycle *(per #Structural endowment persists below; "the election determines speed not direction" is inference)*. The one-line: this is a six-month repricing event inside a much longer thesis, and allocators who position before the vol window opens will pay better entry prices than those who wait for the October 4 result *(inference)*.
 
 ---
 
-## Quick stats
+## Quick stats (last verified 2026-05-16)
 
 | Metric | Value |
 |--------|-------|
 | First round | October 4, 2026 |
 | Runoff (if needed) | October 25, 2026 |
-| Polymarket snapshot | Flávio 40%, Lula 39%, Field 21% |
-| Polymarket volume | $50.2M since September 2025 |
-| Runoff priced certainty | ~85% (first-round outright win at 14-15%) |
-| Datafolha (Apr 11) | Flávio 46, Lula 45 (runoff) |
+| Polymarket main winner | Lula 45 / Flávio 28 / Renan 9 / Zema 7 / Michelle Bolsonaro 3 (May 15) — partial recovery from Apr 16 peak (Flávio 40 / Lula 39); see #May 2026 reprice |
+| Polymarket volume | $50.2M since September 2025 (cumulative through May) |
+| Runoff priced certainty | ~85% as of April 16 (first-round outright win at 14-15%); not separately checked May 15 |
+| Latest poll (runoff) | Genial/Quaest May 8-11: Lula 42 / Flávio 41 |
+| Latest poll (first round) | Genial/Quaest May 8-11: Lula 39 / Flávio 33 |
+| Datafolha (Apr 11) | Flávio 46, Lula 45 (runoff) — peak Flávio reading |
 | Incumbent margin (2022) | 1.8% (50.9–49.1) — closest in Brazilian history |
 
 ---
@@ -46,6 +50,49 @@ The central insight: [[Polymarket]]'s flip and the Datafolha confirmation have c
 | First-round margin <5% | Lula wins by <5: 36-39 / Flávio wins by <5: 20-21 |
 
 Market narrative: runoff expected, Flávio locked in as right-wing nominee, Lula's incumbency the more uncertain variable, Caiado's third-place positioning determines whether establishment center-right consolidates or fragments. [[Prediction markets]] Brazil section covers the broader jurisdictional context (B3, Kalshi, VoxFi).
+
+---
+
+## May 2026 reprice — fuller chronology (last verified 2026-05-16)
+
+The April 16 snapshot was a peak Flávio reading, not a stable equilibrium *(see #Trajectory)*. The May 15-16 pricing has Lula 45 / Flávio 28 / Renan Santos 9 / Zema 7 / Michelle Bolsonaro 3 ([Polymarket Brazil election page](https://polymarket.com/event/brazil-presidential-election)) — directionally a recovery from the April peak, but still a more competitive race than the December 2025 baseline (Lula was +23 in runoff in December vs Lula 45 / Flávio 28 in main winner pricing now; see #Trajectory) *(inference on "more competitive" framing — the December and May numbers are different markets, not directly comparable)*.
+
+### Trajectory (sourced)
+
+| Window | Reading | Source |
+|--------|---------|--------|
+| Dec 2025 | Lula +23 in simulated runoff | Quaest, cited via AS/COA poll tracker and Rio Times |
+| Apr 9-13 | Genial/Quaest — Flávio first time *numerically* leads runoff | Genial/Quaest, cited via Brasil de Fato and Rio Times |
+| Apr 16 | [[Polymarket]] flips to Flávio 40 / Lula 39 / Field 21 | Drew Crawford / [[Austral Continental]] |
+| Apr 24-26 | BTG Pactual/Nexus — runoff statistical tie at 46-45 Lula | Cited via Rio Times |
+| May 8-11 | Genial/Quaest — runoff 42-41 Lula; first round 39-33 Lula | Brazilian.report, AS/COA |
+| May 12 | Lula signs provisional measure scrapping 20% import duty on cross-border purchases under US$50 | Brazilian.report |
+| May 13 | The Intercept Brasil publishes WhatsApp audio of Flávio Bolsonaro negotiating R$134M from jailed banker [[Daniel Vorcaro\|Vorcaro]] ([[Banco Master]]) to fund the Bolsonaro biopic *Dark Horse*. International coverage follows (UPI, ABC News). Opposition files criminal representation | The Intercept Brasil; UPI; ABC News |
+| May 15 | Polymarket repriced to Lula 45 / Flávio 28 | Polymarket |
+
+### Sourced drivers of the Dec → April Lula decline
+
+- GDP growth slowdown reducing voter confidence in Lula's economic management (cited in Polymarket commentary)
+- Amazon FZA-M-059 oil block — IBAMA approved Petrobras's exploratory drilling license October 20, 2025, ahead of COP30; environmental groups attacked the decision as contradicting Lula's climate-leader posture (Climate Observatory, Mongabay, Reccessary)
+- Fiscal deterioration — 2025 primary deficit breached 7% of GDP; debt stock at R$1.7T
+- Approval rating hit 43/52 (approve/disapprove) in April 2026 — worst since July 2025 (Genial/Quaest)
+- One of the fastest opposition consolidations in recent Brazilian electoral history — Flávio closed a 12-point gap in under four months (Rio Times, AS/COA framing)
+
+### Sourced drivers of the April → May Lula partial recovery
+
+- May 12 import-duty repeal — Lula signed a provisional measure scrapping the 20% tax on cross-border purchases under US$50, a tax that had been widely criticized as anti-consumer
+- Income tax reform passed the House (broader piece of the fiscal agenda)
+- Opening of Lula-Trump dialogue, easing earlier tension
+- May 13 Vorcaro/Flávio scandal — Intercept Brasil's WhatsApp-audio report linking Flávio to a R$134M ask from a jailed banker (currently under Banco Master fraud investigation) materially damaged Flávio's "more centered Bolsonaro" market-liberal positioning. The audio dates from September 8, 2025 — a day before Vorcaro's arrest — but didn't surface until mid-May
+- Recovery to 48% approve / 49% disapprove in later polling (statistical tie, vs the April 43/52)
+
+### What is *not* sourced
+
+The day-by-day mechanism by which Polymarket repriced 12 percentage points off Flávio between April 16 and May 15 is not directly reported in any commentary I located. The sourced events above (import duty, tax reform, Trump dialogue, Vorcaro scandal) are plausible drivers, and the May 13 scandal is timing-consistent with a sharp Flávio repricing, but I have not found a piece that traces the Polymarket curve to specific catalyst days. The Brazilian commentary I accessed mostly describes the *April* dynamic, not the *May* recovery. Treat the May driver list as the candidate set, not a confirmed causal chain.
+
+### Caveat on "right-wing fragmentation" framing
+
+The May 15 Polymarket pricing newly broke out [[Renan Santos]] (9%) and [[Romeu Zema]] (7%) from the previous "Field 21" category *(per #Trajectory May 15 row + Polymarket source)*. That's the market pricing right-wing pluralism more explicitly than it did in April *(inference on what the breakout means)*. But Brazilian political commentary I reviewed describes Flávio as *consolidating* the right's base rather than losing it *(per Polymarket commentary cited in research, summarized inline)*; the fragmentation signal lives in the price structure (explicit Renan/Zema pricing), not in the polling consolidation *(inference)*. Don't read fragmentation as the dominant cause of Flávio's specific 40 → 28 drop — the Vorcaro scandal is a more proportionate single explanation *(inference; not sourced from any commentary — this is reasoning on top of the timing-coincidence)*.
 
 ---
 

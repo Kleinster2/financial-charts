@@ -90,7 +90,7 @@ The deal cleared at $185/share on the evening of May 13, $25 above the top of th
 | Fully diluted market cap | $56.4B | +64% vs $34.4B at $160 high end |
 | Vs January 2026 private mark (~$22B) | ~2.6x | Two-and-a-half-bagger before the first trade |
 | Reported demand | Book reportedly >20x oversubscribed | Confirms the above-range outcome reflects deep institutional demand, not a tight float |
-| Top disclosed equity holders at IPO | [[Fidelity]] 11.3%, [[Benchmark]] 9.5%, [[Foundation Capital]] 8.3%, [[Eclipse Ventures]] 7.3%, [[Alpha Wave]] 6.5% | [[UAE G42]] not in top-5; [[MBZUAI]] not on register |
+| Top disclosed equity holders at IPO | [[Fidelity]] 11.3%, [[Benchmark]] 9.5%, [[Foundation Capital]] 8.3%, [[Eclipse Ventures]] 7.3%, [[Alpha Wave Global]] 6.5% | [[UAE G42]] not in top-5; [[MBZUAI]] not on register |
 | [[NVIDIA]] same-day reaction | NVDA close $225.57 (range $221.57–$227.84), small net move | No incumbent-rotation read in regular hours; CBRS strength priced as additive AI-infra signal |
 
 The pricing print resolves the demand side of the underwriting tension this event note was built around: the buyside funded the forward [[OpenAI]] story, the [[OpenAI Infrastructure Spend]] capacity narrative, and the AI-infrastructure scarcity premium at a valuation that puts no implicit weight on the 2025 [[MBZUAI]] / [[UAE G42]] revenue concentration the S-1 disclosed. The earnings-quality side — operating loss masked by non-operating income, $24.6B remaining performance obligations back-end loaded, customer concentration unresolved — is now an aftermarket question, not a deal-clearance question. Every basis point of May 14 first-day pop compounds the gap between what the buyside paid for and what the 2025 income statement actually showed.
@@ -101,15 +101,49 @@ The cap-table disclosure also matters. The Crunchbase reading of the final S-1 p
 
 ---
 
+## May 14, 2026 — Day-1 trading on Nasdaq
+
+CBRS began trading on Nasdaq under symbol CBRS at the open on May 14. The price-discovery sequence:
+
+| Print | Price | Vs $185 offer |
+|-------|-------|---------------|
+| First trade (open) | $350.00 | +89.2% |
+| Intraday high | $386.34 | +108.8% |
+| Intraday low | $300.07 | +62.2% |
+| Close | $311.07 | +68.1% |
+| After-hours | ~$329.57 | +78.1% |
+| Volume | 32.68M shares | >100% of 30M IPO float |
+| Implied fully diluted market cap at close | ~$94.8B | +68% vs $56.4B IPO mark |
+| Implied fully diluted market cap intraday high | ~$117.8B | +109% vs $56.4B IPO mark |
+
+The session resolved the demand side of the underwriting tension this event note was built around, but on the most aggressive AI-infrastructure mark in the public market. Three structural features:
+
+1. Volume exceeded the entire IPO float. 32.68M shares traded against 30M offered — every IPO share changed hands at least once. This is the opposite of a tight-float squeeze; the demand-supply imbalance the $185 → $350 open captured was real, not mechanical scarcity.
+2. The intraday range was $86.27 = 27.7% from the low. CBRS printed a full 28% intraday range, volatility levels normally associated with single-name event-driven trading rather than Day-1 IPO equity. That is the cleanest read on how unsettled the valuation question was even after pricing cleared.
+3. The close landed in the lower third of the day's range. Open $350, high $386.34, close $311.07 — close-vs-high gap of $75.27 = 19.5%. The price-discovery process moved the marginal-buyer estimate lower as the session progressed. The aftermarket question for May 15 is whether that drift continues or the post-market $329.57 print (buyers absorbing the close-of-day fade overnight) reasserts.
+
+What the Day-1 print resolved: investors paid up at the $185 offer and again in the open market for the forward [[OpenAI]] demand story, the [[OpenAI Infrastructure Spend]] capacity narrative, and the AI-infrastructure scarcity premium. The S-1's customer-concentration math ([[MBZUAI]] 62%, [[UAE G42]] 24%, combined 86% of 2025 revenue) was assigned ~zero implicit weight in the public mark.
+
+What the Day-1 print did not resolve: the gap between the +89% open-pop demand signal and the -19.5% close-vs-high fade. The first independent confirmation is the May 15 regular-hours print — whether the +68% close holds when the IPO-allocation cohort is no longer the only relevant buyer.
+
+[[NVIDIA]] same-day reaction on the May 14 Day-1 print is the relevant incumbent-rotation read. CBRS first-day pop did not visibly hit GPU-incumbent share — NVDA, [[Broadcom]], [[AMD]] all traded as additive AI-infrastructure beneficiaries rather than displacement risk.
+
+*Sources: Reuters, Bloomberg, StockAnalysis.com, VentureBeat, May 14 2026 close data; local market_data.db CBRS row.*
+
+---
+
 ## Related
 
 - [[Cerebras]] — subject actor
+- [[Cerebras securities note]] — equity-market companion (CBRS Day-1 detail)
 - [[OpenAI]] — forward demand anchor
 - [[UAE G42]] — sovereign-AI partner and concentration overhang
 - [[MBZUAI]] — largest 2025 customer
+- [[Condor Galaxy]] — strategic deployment program with [[UAE G42]]
 - [[OpenAI Infrastructure Spend]] — where the OpenAI side of the capacity story lives
 - [[AI infrastructure financing risk]] — financing lens
 - [[Long Cerebras]] — equity-story lens
+- [[Fidelity]] / [[Benchmark]] / [[Foundation Capital]] / [[Eclipse Ventures]] / [[Alpha Wave Global]] — disclosed top-5 Class B holders at IPO
 
 ---
 
