@@ -81,6 +81,7 @@ Whether these counter-builds achieve chokepoint-displacement remains contested. 
 
 - [[Henry Farrell]] — co-author
 - [[Abraham Newman]] — co-author
+- [[Economic latency]] — defensive counterpart framework ([[Guy Ward-Jackson]] / [[Tony Blair Institute]], May 2026)
 - [[Second China shock]] — competing aggregate-flow frame
 - [[Global imbalances]]
 - [[US-China chip export controls]]

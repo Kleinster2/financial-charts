@@ -75,6 +75,7 @@ Structural response (Apr 7): Xi's CCTV speech reframes renewables + nuclear + co
 - [[China retaliatory toolkit]] — offensive companion (weaponized exports)
 - [[China economic transition]] — internal consumption pivot
 - [[Nitrogen Trap]] — pre-Fortress vulnerability analysis for fertiliser chokepoints
+- [[Economic latency]] — calibrated non-authoritarian counterpart for market-economy states ([[Guy Ward-Jackson]] / [[Tony Blair Institute]], May 2026); Fortress China is the maximalist state-directed variant of the same defensive logic
 
 ## Quick stats
 
