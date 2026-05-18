@@ -1121,6 +1121,7 @@ At Day ~78, Brent trades above $105/bbl with the global oil system entering what
 | OECD inventories — operational stress timeline | Early June ([[JPMorgan Chase|JPMorgan]]) | Defined as approach to minimum operating levels |
 | Oil reserve total (industry + government) | ~3 bn bbl | Majority is "system inventory" — pipelines, refineries, tank minimums — not freely available |
 | Brent (May 17 spot) | $105/bbl | Above the $101 May 8 close |
+| Brent (May 15 Friday close) | ~$109/bbl | Per [FT View](https://www.ft.com/content/08665686-f673-46ca-9dba-fd34e1546e7c) (May 17 editorial): off $120+ peak; +60% from prewar |
 
 The 3-bn-barrel figure is the key reframing for any reader anchored to headline reserve numbers. [[Paul Horsnell]] ([[Oxford Institute for Energy Studies]]): "The minimum operating level depends by country and by product." Pipelines need minimum pressure, refineries need continuous feed, tanks cannot be drained without damage. Markets seize up well before headline inventories hit zero — the relevant horizon is the JPMorgan early-June operational-stress estimate, not a literal zero-stocks date.
 

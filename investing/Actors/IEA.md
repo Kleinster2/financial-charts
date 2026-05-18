@@ -215,7 +215,7 @@ The IEA's May 17 framing — relayed in the FT's peak-summer-crunch piece — qu
 
 | Metric | Mar 31 | May 17 |
 |---|---|---|
-| Countries on formal emergency energy measures | 55 | 76 |
+| Countries on formal emergency energy measures | 55 | 76 (rising to "nearly 80" per FT View May 17 editorial) |
 | Global consumption above production (Mar-Jun rolling) | — | ~6 mn bpd (IEA); some analysts 8-9 |
 | Global reserves drawn since Feb 28 (ex-Gulf-trapped) | — | ~380 mn barrels |
 

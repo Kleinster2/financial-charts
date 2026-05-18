@@ -348,3 +348,26 @@ Both buffers are time-limited. The food lag is the planting-season variable. The
 ### EU recession warning
 
 [[Apostolos Tzitzikostas]], EU transport commissioner, at an FT conference in Athens (May 14): if Hormuz does not reopen "in the coming weeks," "I'm afraid a world recession could be on the table." First sitting EU commissioner to invoke global recession in connection with the war. The discourse has crossed from "duration of disruption" to "structural compatibility with continued growth." For the cross-asset scenario set ([[Aberdeen]] $180, [[Morgan Stanley]] $150) see [[Iran conflict oil price timeline#May 17 — Peak-summer crunch in view, Brent $105, scenario reset to $150-180 (FT)|oil price timeline May 17]].
+
+### FT editorial board — "The looming energy crunch" (May 17)
+
+*Source: [FT View, "The looming energy crunch"](https://www.ft.com/content/08665686-f673-46ca-9dba-fd34e1546e7c), May 17, 2026.*
+
+Sister opinion piece to the [FT news write-up](https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb) published the same day. The editorial sharpens a few numbers and lays out the policy-side argument that today's news framing left implicit:
+
+| Metric | FT View number | Comment |
+|---|---|---|
+| Gulf countries crude output loss in April | 14.4 mn b/d | Specific number behind the broader "20+ mn b/d Hormuz" framing — this is the realised output drop, not the chokepoint capacity |
+| Strategic reserve flow rate since mid-April | 2.3 mn b/d | Tightens the ">2 mn b/d" figure from the news piece; precise SPR throughput |
+| Prior reserves drawn | ~1/3 of 1.2 bn bbl (~400 mn) | Consistent with the IEA "~380 mn bbl since the war began" figure in the news piece (margin of difference is rounding + Gulf-trapped stock exclusion) |
+| Brent close | ~$109/bbl Friday | $4 higher than the $105 used in the news piece (May 15 close vs intra-day quote); still off $120+ peak; +60% from prewar |
+| Emergency-measure country count | "Nearly 80" | Slight update from 76; matches the trajectory the news piece anchored |
+| Refined-product binding constraint | European jet fuel inventories below five-year lows; diesel sharp price jumps "could" hit Europe; diesel scarcity risk in Africa | Adds an Africa-side diesel-scarcity angle the news piece didn't carry |
+
+The editorial commitment that matters analytically:
+
+The FT's editorial board argues that the binding adjustment now has to come from rich-country demand suppression — not just emerging-market rationing. The four-day working weeks in [[Pakistan]] / [[Sri Lanka]] / [[Philippines]] (see [[Iran conflict country responses#Pattern 2 — four-day working weeks]]) are framed as the playbook Europe will have to follow: "European countries which have prioritised supporting consumer demand through measures such as fuel tax cuts will also — as many Asian counterparts have done — have to take more robust steps to conserve energy, for example through encouraging people to work from home or use more public transport."
+
+The piece also flags an explicit fiscal-strain concern for the emerging-market cohort: "developing economies may be worst affected; the heavy subsidies they have used to protect consumers from global price rises will become increasingly unaffordable." This is the bridge into the [[Iran conflict sovereign credit risk|sovereign credit thread]] — a fiscal-deterioration warning specifically about [[Indonesia]] (~$22.6B subsidy burden) and similar peers, even though no country is named.
+
+For the [[Iran conflict airline disruption|airline disruption thread]], the editorial confirms that the binding refined-product constraint is now visible at the inventory level — European jet fuel below five-year lows — not just at the spot price level. See [[Iran conflict airline disruption#May 17 — regional jet-fuel spread, peak-summer reset (FT)]].
