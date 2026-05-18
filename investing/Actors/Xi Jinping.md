@@ -77,7 +77,7 @@ The story of Xi Jinping is the story of how China went from "hide your strength,
 | Anti-corruption | 2013 | Centralize power, reduce graft | Luxury demand collapse, bureaucratic paralysis |
 | [[Belt and Road]] | 2013 | Infrastructure diplomacy, commodity demand | $1.4T deployed, EM sovereign debt risk |
 | Made in China 2025 | 2015 | 70% semi self-sufficiency | Triggered U.S. [[export controls]] cascade |
-| Common prosperity | 2021 | Wealth redistribution | $1.5T+ wiped from tech, education sectors destroyed |
+| [[Common Prosperity]] | 2021 | Wealth redistribution; reframed 2026 to "invest in people" via [[Li Shi]] | $1.5T+ wiped from tech, education sectors destroyed; 2026 academic reframing not yet repriced |
 | Dual circulation | 2020 | Domestic demand + selective openness | Structural rebalancing (aspirational) |
 | Private Economy Promotion Law | 2025 | Rehabilitate private sector | Symbolic end of crackdown, legal protections |
 

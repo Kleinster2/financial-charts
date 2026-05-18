@@ -142,7 +142,7 @@ See [[Brazilian cronyism]] for full detail.
 | **Regime change** | Connected companies collapse with patrons |
 | **Factional shifts** | Wrong faction = assets seized |
 | **Sanctions** | Western sanctions target cronies |
-| **Sudden crackdowns** | China-style "common prosperity" |
+| **Sudden crackdowns** | China-style [[Common Prosperity]] |
 | **Nationalization** | Assets taken when convenient |
 | **Opacity** | True ownership hidden |
 

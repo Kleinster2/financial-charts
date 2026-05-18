@@ -129,7 +129,7 @@ Louis Vuitton alone is likely worth more than LVMH's entire market cap. Exceptio
 | Recovery | Slower than expected |
 | Consumer shift | Trading down, domestic brands gaining |
 
-China was the luxury growth engine 2015-2021. Now headwind — consumer confidence weak, property crisis, Xi's "common prosperity" rhetoric.
+China was the luxury growth engine 2015-2021. Now headwind — consumer confidence weak, property crisis, Xi's [[Common Prosperity]] rhetoric.
 
 ---
 
