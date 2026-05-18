@@ -228,17 +228,17 @@ The securities note covers all tradeable instruments and their price dynamics:
 
 Boundary: "Is this about the entity or about the market's pricing of the entity?"
 
-Naming: `[Actor name] securities` (lowercase). Examples: `Micron securities`, `Brazil securities`.
+Naming: `[Actor name] securities note` (lowercase, with " note" suffix to disambiguate from broker/dealer firms named "X Securities" like [[Citadel Securities]] or [[CITIC Securities]]). Examples: `Micron securities note`, `Brazil securities note`. Legacy notes named `[Actor name] securities` were renamed in May 2026 — the old name is preserved as a frontmatter alias for backwards-compat.
 
 Folder: Securities notes live in `investing/Assets/`.
 
-Linking: Actor links to securities in Related under `### Securities`. Securities links back to actor as first Related entry. Same event can appear in both.
+Linking: Actor links to securities note in Related under `### Securities`. Securities note links back to actor as first Related entry. Same event can appear in both.
 
 Applies to: Any actor with tradeable instruments (companies, countries, institutions).
 
 Does NOT apply to: Actors without tradeable instruments. Stubs don't need a securities note.
 
-Reference: See [[Micron]] and [[Micron securities]] as template.
+Reference: See [[Micron]] and [[Micron securities note]] as template.
 
 ---
 

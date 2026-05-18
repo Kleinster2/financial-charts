@@ -112,7 +112,12 @@ def add_tickers(tickers, database_path='market_data.db'):
 
         # Extract close prices
         if len(tickers) == 1:
-            close_data = pd.DataFrame({tickers[0]: data['Close'].squeeze()})
+            # squeeze() collapses to scalar when only one row exists (Day-1 IPO).
+            # Use the Close column directly, then convert to a single-column DataFrame.
+            close_series = data['Close']
+            if isinstance(close_series, pd.DataFrame):
+                close_series = close_series.iloc[:, 0]
+            close_data = close_series.to_frame(name=tickers[0])
         else:
             close_data = data['Close']
 

@@ -503,22 +503,33 @@ def get_chart_lw():
 
                     # Build query with optional date filters (alias column as 'metric_value' for expressions)
                     # Skip date('now') filter if forecast_start is provided (allows future forecast data)
-                    query = f"""
-                        SELECT fiscal_date_ending, ({column}) as metric_value
-                        FROM {table}
-                        WHERE ticker = ?
-                    """
-                    if not forecast_start:
-                        query += " AND fiscal_date_ending <= date('now')"
+                    def build_query(target_table):
+                        q = f"""
+                            SELECT fiscal_date_ending, ({column}) as metric_value
+                            FROM {target_table}
+                            WHERE ticker = ?
+                        """
+                        if not forecast_start:
+                            q += " AND fiscal_date_ending <= date('now')"
+                        if start_date:
+                            q += " AND fiscal_date_ending >= ?"
+                        if end_date:
+                            q += " AND fiscal_date_ending <= ?"
+                        q += " ORDER BY fiscal_date_ending ASC"
+                        return q
+
                     params = [ticker]
                     if start_date:
-                        query += " AND fiscal_date_ending >= ?"
                         params.append(start_date)
                     if end_date:
-                        query += " AND fiscal_date_ending <= ?"
                         params.append(end_date)
-                    query += " ORDER BY fiscal_date_ending ASC"
-                    df = pd.read_sql(query, conn, params=params)
+
+                    df = pd.read_sql(build_query(table), conn, params=params)
+
+                    # Fall back to annual table if quarterly is empty (newly listed / annual-only tickers)
+                    if df.empty and table.endswith('_quarterly'):
+                        annual_table = table.replace('_quarterly', '_annual')
+                        df = pd.read_sql(build_query(annual_table), conn, params=params)
 
                     if not df.empty:
                         data_points = []

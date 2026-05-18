@@ -142,6 +142,63 @@ Before writing any synthesis, concept note, or `/report` output, run an independ
 
 ---
 
+## Vault as Navigation, Primary Sources for Citation
+
+The vault is where to start looking and what has already been ingested. It is not a citable source for new analytical claims. A primary source carries authority because it is the record (a filing, a Polymarket print, a poll release, a press statement, a journalist's reporting); a vault note is a snapshot of prior research that may be stale, partial, or itself built from inference. Treat the vault as a research lead.
+
+**The specific trap:** a note's `## Synopsis`, `## Synthesis`, `## Why it matters`, and scenario / outlook / candidate paragraphs are prior analytical inference written in confident voice. Folding those forward into a new note's analysis is recursive overclaim — laundering old inference as sourced background. The data tables and dated event sections in the same note are usually fine to cite (they came from primary sources at ingestion time); the synthesis paragraphs around them are not. The distinction is: are you citing the *evidence* the vault collected, or the *analysis* it built on top of that evidence?
+
+**The test:** for each load-bearing sentence in a new write-up, ask "would this read differently if the underlying fact were three months stale?" If yes — prices, polls, valuations, attendance, regulatory status, causation / mechanism claims, anything time-stamped to a window where new reporting would change the read — fresh primary source required. If no — founding dates, biographical basics, settled historical events, vault taxonomy, data-table rows the vault collected from primary sources with the original citation still attached — vault is fine. Vault-derived causal or current-state sentences specifically need their own primary-source check before they cross into a new note; if the underlying source is still good, the check costs one search, and if it isn't, the check is what caught the staleness.
+
+**Common failure shape:** the vault already has an analysis paragraph that almost answers the question, and the path of least resistance is to rephrase it as a current-state claim in new analysis. The rephrasing carries the old paragraph's confidence without carrying its primary sourcing — which, on a months-old synthesis, may be no primary sourcing at all. A "major flip in Polymarket odds happened in April" needs a fresh "why did Polymarket flip" search before being cited as causal context in a May write, even when the vault already has a long synthesis paragraph on the flipped state. The synthesis is a research lead about the question; it is not the answer to the question.
+
+---
+
+## Traceability Markers in Synthesis
+
+Every load-bearing claim in a synthesis section (`## Synthesis`, `## Why it matters`, `## Synopsis`, scenario / outlook paragraphs, "Signal | Implication" or "Factor | Implication" table rows) ends with a parenthetical pointer to its evidence. The marker is light and one of four forms:
+
+- **Section / table reference** — `(see Schedule)`, `(per #Market backdrop)` — when the evidence is elsewhere in the same note
+- **Specific row** — `(May 13 row)`, `(Q1 2026 row)` — when the evidence is a single row of an in-note table
+- **Source citation** — `(per Esmael Morais)`, `(Quaest May 8-11)` — when the evidence is a primary source listed in the Sources section
+- **Inference marker** — `(inference)` — when the sentence is interpretation that does not trace to an in-note fact
+
+If a sentence cannot earn one of the four, it doesn't belong in the synthesis. This is the operational version of the existing Analysis Sections rule — the markers make compliance auditable in one read.
+
+**Inference markers are honest, not weak.** An `(inference)` marker is not a hedge — it's a transparent label. The sentence stays in confident voice; the marker tells the reader this is reasoning on top of the facts, not a sourced claim. This is how the vault keeps its analytical layer (per the rule above) — confident inference is welcome; unmarked inference passing as sourced is not. For inference with external structural backing, attach the concept: `(inference, see [[Right-wing fragmentation]])`.
+
+**Setup sentences without claims don't need markers.** Definitional openings ("The 25th edition of the FT Brazil Summit was held May 13"), hub-link sentences ("See [[2026 Brazil presidential election]] for the broader field"), and stage-setting prose that doesn't carry an analytical claim are exempt.
+
+**The failure shape this catches.** When a synthesis paragraph is rewritten in one session edit without re-checking the structural sections it derives from, claims drift from evidence. A "Why it matters" row stating "First-time gathering of the entire right-of-center field" can survive a separate edit that restructures the attendee section into "fragmented across venues" — because the row was never linked to the attendee section in the first place. Traceability markers make this kind of orphaned claim visible during a single audit pass: the row would say "(see Brazilian political presence section)" and the auditor catches that the section now contradicts the row.
+
+**Audit pass on existing notes.** When touching a synthesis section in an existing note (rewrite, expansion, correction), retrofit markers to the existing bullets as part of the same edit. Do not leave half-marked sections. If retrofit reveals an orphaned claim (no in-note evidence supports it, no `(inference)` is defensible), drop the claim — it was already broken; the markers just made it visible.
+
+---
+
+## Staleness Signals — Section Headers and Inline Dates
+
+The traceability marker `(see #Section)` tells you where in the same note the evidence lives. It does not tell you *when that evidence was last verified*. For volatile sections — anything where the underlying fact moves on a sub-quarterly cadence — staleness is a separate signal that needs its own convention.
+
+Two markers, used together:
+
+**Section header — audit-pass stamp.** Volatile section titles end with a parenthetical review date: `## Macro (last verified 2026-05-16)`, `## Current pricing (2026-05-16)`, `## Polling (2026-05-16)`. The marker answers "when was this section last reviewed as a whole?" When you audit and confirm the section's content reflects current reality, update the date to today; if you don't audit, leave it. The honesty rule applies: don't update the date without actually re-checking.
+
+**Inline dates — reference-time anchor.** Volatile values within a section carry a parenthetical anchor date for the specific report or event that produced them: `Selic 14.50% (Apr 29 COPOM)`, `IPCA 4.39% (May 9 print)`, `Polymarket Lula 45 (May 15)`, `Ibovespa 177,098 (May 13 close)`. The marker answers "what is the reference time for this specific number?" — distinguishing values within a section that come from different release dates.
+
+**When to apply each:**
+
+- Section header: mandatory on every volatile section that exists (Macro, Current pricing / valuations, Current odds, Polling, Recent moves, Funding rounds with active rows, Quick stats tables when populated by current-state metrics like ticker price or market cap).
+- Inline date: only on values with a specific report-date anchor that differs from the section's review date. Static values in the same section (founding dates, biographical basics, taxonomy, settled history) don't need inline marking.
+- Both co-exist: when a section was reviewed today AND every value in it comes from today's release, the section header alone suffices and inline dates are redundant. When the values come from a spread of release dates, both markers carry information that the other doesn't.
+
+**Why combined.** Section header alone tells you the section was reviewed but not which specific values come from January's COPOM vs April's. Inline dates alone anchor each value but don't tell you whether the surrounding analysis has been re-checked since. Together they answer both questions from one read: "is this section being maintained?" and "what is the reference date for this specific number?"
+
+**Sections that don't need staleness signaling:** taxonomy, biographical basics, settled historical events, founding-fact rows, hub Related sections, Sources blocks — anything where staleness is structurally bounded. The discipline targets volatility, not coverage.
+
+**Honesty rule.** A section header that says `(last verified 2026-05-16)` is a claim: someone read the section on that date and confirmed it reflects current reality. Do not update the date casually (a wikilink fix or a comment edit does not count as audit). The marker is load-bearing only if the update discipline holds — otherwise it becomes a false freshness signal, worse than no signal. The same applies to inline dates: an anchor date is the reference time for that value, not the time you typed it.
+
+---
+
 ## Hub-Concept Synthesis Pattern
 
 For hub concepts with active market-priced debate (`[[Lithium]]`, `[[CUDA moat]]`, `[[Rare earth leverage]]`, `[[AI consolidation]]`, and similar), the `## Synthesis` section follows an epistemic-scaffolding structure — not just "central insight → constraint → counter-example → one-line." The older arc produces confident prose; this pattern produces tradable propositions with named falsifiers.

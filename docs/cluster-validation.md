@@ -31,7 +31,7 @@ Defining "excess return" in `cluster_movers` output is still worth anchoring (re
 ## When to run
 
 Required:
-- Every new public-company actor note created with a securities companion (`investing/Assets/{Name} securities.md`).
+- Every new public-company actor note created with a securities companion (`investing/Assets/{Name} securities note.md`).
 - Every existing public-company actor note when it is materially expanded (e.g., a quarterly earnings ingestion that adds >100 lines, or a strategic re-classification).
 - Every concept note that names a peer cluster (e.g., [[Boutique advisory consolidation]], [[AI SaaS Disruption]], [[Hyperscaler capex]]).
 

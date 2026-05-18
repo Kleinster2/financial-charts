@@ -933,17 +933,17 @@ aliases: []
         if non_empty < 15:
             return issues
 
-        # Check for [[X securities]] link
+        # Check for [[X securities note]] link (with legacy [[X securities]] still accepted)
         name = filepath.stem
         has_securities_link = bool(re.search(
-            r'\[\[' + re.escape(name) + r'\s+securities\]\]', content, re.IGNORECASE
+            r'\[\[' + re.escape(name) + r'\s+securities(\s+note)?\]\]', content, re.IGNORECASE
         ))
 
         if not has_securities_link:
             issues.append(Issue(
                 "error", "securities-split",
-                f"Public company missing [[{name} securities]] link in Related."
-                f" Create investing/Assets/{name} securities.md and link from Related > ### Securities"
+                f"Public company missing [[{name} securities note]] link in Related."
+                f" Create investing/Assets/{name} securities note.md and link from Related > ### Securities"
             ))
 
         return issues
