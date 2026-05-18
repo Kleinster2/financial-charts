@@ -32,7 +32,7 @@ aliases: [Brasil, BRL, Brazilian]
 
 ---
 
-## Macro (last verified 2026-05-16)
+## Macro (last verified 2026-05-18)
 
 | Metric | Current | Target / outlook |
 |--------|---------|------------------|
@@ -40,9 +40,9 @@ aliases: [Brasil, BRL, Brazilian]
 | [[IPCA]] inflation | 4.39% YoY (May 9 print for April; +0.67% MoM; up from 3.81% YoY March) | [[Target]] 3% (±1.5pp); print just below the 4.5% upper tolerance band |
 | GDP growth | 3.2% avg (2022-24, IBGE annual series) | 2.0-2.2% (2025-27), signs of cooling |
 | Public debt/GDP | ~78% (Q1 2026 reading) | Projected toward 95% by end 2026 absent primary surplus |
-| USDBRL | ~R$4.99 (May 13 close) | +26% BRL appreciation from Dec 2024 low |
-| [[Ibovespa]] | 177,098 (May 13 close) | -2.5% from Apr 14 peak (198,657); cluster sell-off May 13 |
-| [[Polymarket]] (main winner) | Lula 45 / Flávio 28 / Renan Santos 9 / Zema 7 / Michelle Bolsonaro 3 (May 15) | Partial recovery from Apr 16 peak (Flávio 40 / Lula 39); see [[2026 Brazil presidential election#May 2026 reprice — fuller chronology]] |
+| USDBRL | ~R$4.99 (May 13 close — not refreshed May 16-18) | +26% BRL appreciation from Dec 2024 low |
+| [[Ibovespa]] | 177,098 (May 13 close — not refreshed May 16-18) | -2.5% from Apr 14 peak (198,657); cluster sell-off May 13 |
+| [[Polymarket]] (main winner) | Lula 45 / Flávio 33 / Renan ~9 / Zema 7 / Michelle Bolsonaro 3 (May 17-18); Flávio +5pp recovery from May 15 trough of 28 | Partial recovery from Apr 16 peak (Flávio 40 / Lula 39); volume now $78.4M (was $50.2M Apr 16). See [[2026 Brazil presidential election#May 2026 reprice — fuller chronology]] |
 
 Macro story: the easing path the market priced through Q1 just got harder. BCB cut 25bp on Apr 29 (14.75% → 14.50%) with hawkish framing — describing inflation as "moving further away from the target" and citing geopolitical uncertainty. The May 9 April IPCA print at 4.39% YoY accelerated from 3.81% in March, brushing up against the 4.5% upper tolerance band. Food and beverages (+2.69%), housing (+6.19%), and transport (+4.15%) all accelerated; the Brent-driven Hormuz energy bid is feeding through to domestic prices via diesel imports (see [[Brazil's diesel paradox|Petrobras diesel paradox]]).
 
@@ -55,7 +55,10 @@ The May 13 Brazil cluster red day was the equity-market repricing of that combin
 | May 11 | [[Petrobras]] Q1 2026 NI R$32.66B (-7.2% YoY) on 3.23M boe/d production (+16%) — production scaled but realized prices/refining margins compressed |
 | May 11-14 | [[Brazil Week NYC 2026]] — BrazilCham gala (May 13, AMNH), 15th LIDE Brazil Investment Forum (May 12, Harvard Club), 25th FT Brazil Summit (May 13). Right-of-center field present in NYC but *fragmented across venues*: Flávio and Zema spoke at LIDE; Caiado sent remarks remotely; Tarcísio worked closed Citi/BlackRock events — no single-room assembly |
 | May 13 | The Intercept Brasil publishes Flávio Bolsonaro WhatsApp audio negotiating R$134M from [[Banco Master]]'s jailed owner [[Daniel Vorcaro|Vorcaro]] for the *Dark Horse* Bolsonaro biopic — same day as the BrazilCham gala. UPI, ABC News pick it up internationally; opposition files criminal representation |
-| May 15 | [[Polymarket]] reprices Flávio 40 → 28, Lula 39 → 45 from the April 16 peak — partial Lula recovery; Quaest May 8-11 had runoff 42-41 Lula. Sourced May drivers: Lula's May 12 import-duty repeal, House income-tax reform, Lula-Trump dialogue, Vorcaro scandal |
+| May 14 | Federal Police arrest Henrique Vorcaro (Daniel's father) in expanding [[Banco Master]] fraud probe |
+| May 15 | The Intercept Brasil follow-on: Eduardo Bolsonaro had contractual control over *Dark Horse* funding. STF Justice [[Flávio Dino]] opens sealed probe into whether three PL deputies (Mário Frias, Marcos Pollon, Bia Kicis) diverted parliamentary emendas through Instituto Conhecer Brasil to film producer Go Up Entertainment |
+| May 15 | [[Polymarket]] trough: Flávio 40 → 28, Lula 39 → 45 from the April 16 peak. Sourced May drivers: Lula's May 12 import-duty repeal, House income-tax reform, Lula-Trump dialogue, Vorcaro/Dark Horse scandal |
+| May 17-18 | Polymarket partial recovery for Flávio (28 → 33) as the initial *Dark Horse* shock metabolizes — Lula holds 45; market volume now $78.4M (vs $50.2M Apr 16) |
 | May 13 | Ibovespa -1.8%, ADR cluster sells off coordinated (see table below) — same trading session as the Person of the Year gala |
 
 | ADR | May 12 close | May 13 close | Move | Sigma |
@@ -71,7 +74,7 @@ The May 13 Brazil cluster red day was the equity-market repricing of that combin
 
 The shape mirrors the US setup at one degree of separation: an inflation print pushes the rate-cut prior out of the curve, with rate-sensitive equity beta the visible casualty. Banks (BBD, BSBR) hit by both the rate-path repricing and the Petrobras drag (PBR is a top holding for most Brazil equity exposure). Fintechs (PAGS, STNE) hit because their wholesale funding costs trade against forward DI; XP hit on both its broker-dealer and its asset-management exposure. CSN — Brazilian steel cyclical — hit on the macro signal alone. See [[Selic]] for the rate-path detail and [[IPCA]] for the inflation transmission channel.
 
-The [[2026 Brazil presidential election]] (October 4 first round) remains the dominant near-term political catalyst: [[Polymarket]] flipped to price [Flávio Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FFl%C3%A1vio%20Bolsonaro) at 40% vs [[Lula]] 39% on April 16, then partially reversed to Lula 45 / Flávio 28 by May 15 after the May 13 [[Daniel Vorcaro|Vorcaro]]/*Dark Horse* WhatsApp-audio scandal landed during [[Brazil Week NYC 2026]] (Polymarket pricing as of May 15). Historical pattern: every Brazilian election since 2002 has produced 8-15% realized BRL vol in the final 60-90 days before the vote. See [[2026 Brazil presidential election#May 2026 reprice — fuller chronology]] for the full chronology; [[Brazil corporate bond rout February 2026]] for corporate distress backdrop; [[Arcabouço Fiscal]] for the framework under election-year pressure.
+The [[2026 Brazil presidential election]] (October 4 first round) remains the dominant near-term political catalyst: [[Polymarket]] flipped to price [Flávio Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FFl%C3%A1vio%20Bolsonaro) at 40% vs [[Lula]] 39% on April 16, reversed to Lula 45 / Flávio 28 by May 15 after the May 13 [[Daniel Vorcaro|Vorcaro]]/*Dark Horse* WhatsApp-audio scandal landed during [[Brazil Week NYC 2026]], then partially recovered to Lula 45 / Flávio 33 by May 17-18 as the initial shock metabolized (Polymarket pricing as of May 17-18). Historical pattern: every Brazilian election since 2002 has produced 8-15% realized BRL vol in the final 60-90 days before the vote. See [[2026 Brazil presidential election#May 2026 reprice — fuller chronology]] for the full chronology; [[Brazil corporate bond rout February 2026]] for corporate distress backdrop; [[Arcabouço Fiscal]] for the framework under election-year pressure.
 
 ---
 

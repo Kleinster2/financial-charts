@@ -87,12 +87,28 @@ The Intercept Brasil published WhatsApp audio on May 13, 2026 (the same day as t
 | Political fallout | Opposition lawmakers filed criminal representation with the Prosecutor General's Office and Federal Police, requesting investigation of Flávio, Eduardo, and Jair Bolsonaro plus Vorcaro and others |
 | International coverage | UPI, ABC News, devdiscourse.com — first major Bolsonaro-family financial-scandal story to cross into mainstream Anglophone wire coverage in 2026 |
 
-Market context: the audio landed during the May 11-14 [[Brazil Week NYC 2026]] convening, the same trading session as the Brazil ADR cluster sell-off (May 13 EWZ -3.8%; see [[Brazil#Macro (May 2026)|Brazil macro table]]). [[Polymarket]] repriced Flávio from the April 40% peak to 28% by May 15 — see [[2026 Brazil presidential election#May 2026 reprice — fuller chronology]] for the trajectory and the candidate-driver set (the Vorcaro audio is one of several sourced May drivers, alongside Lula's May 12 import-duty repeal and the House income-tax reform).
+### Scandal expansion, May 14-18 (last verified 2026-05-18)
+
+In the days following the May 13 audio, the *Dark Horse* story expanded into three parallel institutional channels:
+
+| Date | Development |
+|------|-------------|
+| May 14 | Federal Police arrest Henrique Vorcaro (Daniel's father, [[Multipar]] real estate founder) per Bloomberg — Banco Master fraud probe expanding into family/asset-tracing |
+| May 15 | The Intercept Brasil publishes follow-on scoop: Eduardo Bolsonaro had *contractual control* over the *Dark Horse* funding — broadening the scandal beyond Flávio (Intercept Brasil, May 15) |
+| May 15 | STF Justice [[Flávio Dino]] opens sealed preliminary probe into whether parliamentary emendas (federal budget earmarks) were diverted through three PL deputies — Mário Frias (R$2M to Instituto Conhecer Brasil), Marcos Pollon (R$1M, claimed redirected), Bia Kicis — to film producer Go Up Entertainment. Probe tests whether the earmarks violated the constitutional "deliver concrete goods and services" requirement (Rio Times, May 15) |
+| May 17-18 | Polymarket Flávio recovers from May 15 trough (28%) to 33% — partial unwind of the scandal repricing as the initial shock metabolizes; volume now $78.4M (vs $50.2M on Apr 16) |
+
+The institutional structure of the scandal: criminal representation at the Prosecutor General's Office (legislative-opposition channel, May 13-14), expanding Banco Master fraud probe with the father's arrest (police/judicial channel, May 14), STF probe into public-money diversion through PL deputies (judicial channel, May 15) — three concurrent investigations across two branches of government, all stemming from Mário Frias's involvement as both screenplay source/producer and PL deputy with the budget earmark *(inference on the multi-channel structure framing; sources reported each channel separately)*.
+
+Market context: the audio landed during the May 11-14 [[Brazil Week NYC 2026]] convening, the same trading session as the Brazil ADR cluster sell-off (May 13 EWZ -3.8%; see [[Brazil#Macro (May 2026)|Brazil macro table]]). [[Polymarket]] trajectory: Flávio peaked Apr 16 at 40%, troughed May 15 at 28% on the audio drop, recovered to 33% by May 17-18 — see [[2026 Brazil presidential election#May 2026 reprice — fuller chronology]] for the full trajectory and the candidate-driver set.
 
 Sources:
-- [The Intercept Brasil — Áudio: Flávio negociou Vorcaro R$ 134 milhões](https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/)
+- [The Intercept Brasil — Áudio: Flávio negociou Vorcaro R$ 134 milhões (May 13)](https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/)
+- [The Intercept Brasil — Eduardo Bolsonaro poder dinheiro Dark Horse contrato (May 15)](https://www.intercept.com.br/2026/05/15/eduardo-bolsonaro-poder-dinheiro-dark-horse-contrato/)
+- [Rio Times — STF investigates public money for Bolsonaro film (May 15)](https://www.riotimesonline.com/stf-flavio-dino-dark-horse-bolsonaro-film-emendas-probe-flavio-vorcaro/)
+- [Bloomberg — Brazil Police Arrest Father of Ex-Banco Master CEO (May 14)](https://www.bloomberg.com/news/articles/2026-05-14/brazil-police-arrest-bank-ceo-s-father-as-master-scandal-deepens)
 - [Rio Times — Flávio Bolsonaro Asked Jailed Banker Vorcaro for R$134 Million](https://www.riotimesonline.com/flavio-bolsonaro-asked-jailed-banker-vorcaro-for-r134-million/)
-- [UPI — Brazilian financial scandal hits Flávio Bolsonaro campaign](https://www.upi.com/Top_News/World-News/2026/05/14/latam-brazil-flavio-Bolsonaro-political-scandal/6501778777777/)
+- [UPI — Brazilian financial scandal hits Flávio Bolsonaro campaign (May 14)](https://www.upi.com/Top_News/World-News/2026/05/14/latam-brazil-flavio-Bolsonaro-political-scandal/6501778777777/)
 - [Patria Latina — Vorcaro pagou R$ 61 milhões para filme](https://patrialatina.com.br/vorcaro-pagou-r-61-milhoes-para-filme-de-bolsonaro-e-flavio-cobrou-dinheiro-diz-midia/)
 - [Dark Horse (2026 film) — Wikipedia](https://en.wikipedia.org/wiki/Dark_Horse_(2026_film))
 

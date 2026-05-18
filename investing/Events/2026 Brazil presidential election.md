@@ -19,16 +19,17 @@ The central insight: [[Polymarket]]'s flip and the Datafolha confirmation have c
 
 ---
 
-## Quick stats (last verified 2026-05-16)
+## Quick stats (last verified 2026-05-18)
 
 | Metric | Value |
 |--------|-------|
 | First round | October 4, 2026 |
 | Runoff (if needed) | October 25, 2026 |
-| Polymarket main winner | Lula 45 / Flávio 28 / Renan 9 / Zema 7 / Michelle Bolsonaro 3 (May 15) — partial recovery from Apr 16 peak (Flávio 40 / Lula 39); see #May 2026 reprice |
-| Polymarket volume | $50.2M since September 2025 (cumulative through May) |
-| Runoff priced certainty | ~85% as of April 16 (first-round outright win at 14-15%); not separately checked May 15 |
-| Latest poll (runoff) | Genial/Quaest May 8-11: Lula 42 / Flávio 41 |
+| Polymarket main winner | Lula 45 / Flávio 33 / Renan ~9 / Zema 7 / Michelle Bolsonaro 3 (May 17-18); Flávio recovered +5pp from the May 15 trough of 28% after the initial scandal shock; see #May 2026 reprice |
+| Polymarket volume | $78.4M as of May 17 (was $50.2M April 16) — ~$28M traded in the Apr-May reprice window |
+| Polymarket runoff advancement | Lula 83 / Flávio 72 (May 17-18) — both heavily expected to advance |
+| Polymarket first-round 2nd place | Flávio 55 / Lula 16 (May 17-18) — Flávio locked as right-wing nominee despite the scandal hit |
+| Latest poll (runoff) | Genial/Quaest May 8-11: Lula 42 / Flávio 41 — no post-May 13 scandal poll yet released |
 | Latest poll (first round) | Genial/Quaest May 8-11: Lula 39 / Flávio 33 |
 | Datafolha (Apr 11) | Flávio 46, Lula 45 (runoff) — peak Flávio reading |
 | Incumbent margin (2022) | 1.8% (50.9–49.1) — closest in Brazilian history |
@@ -53,9 +54,9 @@ Market narrative: runoff expected, Flávio locked in as right-wing nominee, Lula
 
 ---
 
-## May 2026 reprice — fuller chronology (last verified 2026-05-16)
+## May 2026 reprice — fuller chronology (last verified 2026-05-18)
 
-The April 16 snapshot was a peak Flávio reading, not a stable equilibrium *(see #Trajectory)*. The May 15-16 pricing has Lula 45 / Flávio 28 / Renan Santos 9 / Zema 7 / Michelle Bolsonaro 3 ([Polymarket Brazil election page](https://polymarket.com/event/brazil-presidential-election)) — directionally a recovery from the April peak, but still a more competitive race than the December 2025 baseline (Lula was +23 in runoff in December vs Lula 45 / Flávio 28 in main winner pricing now; see #Trajectory) *(inference on "more competitive" framing — the December and May numbers are different markets, not directly comparable)*.
+The April 16 snapshot was a peak Flávio reading, not a stable equilibrium *(see #Trajectory)*. The May 15 trough had Lula 45 / Flávio 28 / Renan Santos 9 / Zema 7 / Michelle Bolsonaro 3; by May 17-18 Flávio had partially recovered to 33% as the initial *Dark Horse* shock metabolized through the market ([Polymarket Brazil election page](https://polymarket.com/event/brazil-presidential-election)). The structural read: scandal-driven repricings have a short half-life when the underlying base is mobilized — Flávio's PL/Bolsonarismo base still treats family-vs-institutions friction as energy rather than damage *(inference)*. The race remains more competitive than the December 2025 baseline (Lula was +23 in runoff in December vs Lula 45 / Flávio 33 in main winner pricing now; see #Trajectory) *(inference on "more competitive" framing — the December and May numbers are different markets, not directly comparable)*.
 
 ### Trajectory (sourced)
 
@@ -68,7 +69,11 @@ The April 16 snapshot was a peak Flávio reading, not a stable equilibrium *(see
 | May 8-11 | Genial/Quaest — runoff 42-41 Lula; first round 39-33 Lula | Brazilian.report, AS/COA |
 | May 12 | Lula signs provisional measure scrapping 20% import duty on cross-border purchases under US$50 | Brazilian.report |
 | May 13 | The Intercept Brasil publishes WhatsApp audio of Flávio Bolsonaro negotiating R$134M from jailed banker [[Daniel Vorcaro\|Vorcaro]] ([[Banco Master]]) to fund the Bolsonaro biopic *Dark Horse*. International coverage follows (UPI, ABC News). Opposition files criminal representation | The Intercept Brasil; UPI; ABC News |
-| May 15 | Polymarket repriced to Lula 45 / Flávio 28 | Polymarket |
+| May 14 | Brazilian Federal Police arrest Henrique Vorcaro (Daniel's father, [[Multipar]] real estate founder) in expanding [[Banco Master]] fraud probe — deepening the financial-scandal pressure on the Vorcaro orbit in the same week as the *Dark Horse* audio | Bloomberg |
+| May 15 | The Intercept Brasil publishes follow-on scoop: Eduardo Bolsonaro had contractual control over *Dark Horse* funding, broadening the scandal beyond Flávio | The Intercept Brasil |
+| May 15 | STF Justice [[Flávio Dino]] opens sealed preliminary probe into whether parliamentary emendas (federal budget earmarks) were diverted through three PL deputies — Mário Frias (R$2M to Instituto Conhecer Brasil), Marcos Pollon (R$1M), Bia Kicis — to film producer Go Up Entertainment | Rio Times |
+| May 15 | Polymarket trough: Lula 45 / Flávio 28 | Polymarket |
+| May 17-18 | Polymarket partial recovery: Lula 45 / Flávio 33 (Flávio +5pp from trough); volume now $78.4M (vs $50.2M Apr 16) | Polymarket |
 
 ### Sourced drivers of the Dec → April Lula decline
 
