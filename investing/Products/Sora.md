@@ -90,11 +90,26 @@ Sora app shut down entirely as part of [[OpenAI]]'s focus pivot. The cancellatio
 
 ---
 
+## Discontinued — March 2026
+
+Per [[FT]] (Eleanor Olcott in Beijing, May 17, 2026): OpenAI discontinued Sora in March 2026, citing high computing costs as the primary reason. Video generation requires vastly more tokens — the units of data processed by AI models — than text or audio, making large-scale deployment economically prohibitive at OpenAI's pricing structure.
+
+The proximate cause was unit economics. The structural reason: OpenAI never closed the training-data gap that Chinese platforms have via short-video app ownership ([[TikTok]] / [[Douyin]] / [[Kuaishou]]). While OpenAI dominates the LLM race, the video-generation race went the other way — by May 2026, [[Kling]] ([[Kuaishou]]), [[Seedance]] 2.0 ([[ByteDance]]), and HappyHorse 1.0 (all Chinese) sit in the top tier of the Arena user-voted leaderboard, with [[Veo]] 3 (Google) competitive but content-restricted, and Sora exited.
+
+The Sora discontinuation is the cleanest single signal of the [[AI Video Generation#May 17, 2026 — Chinese groups pull ahead of US rivals (FT)|US-China divergence in video AI]] — the pioneer of the consumer AI race exiting the video segment while the Chinese cohort was scaling.
+
+*Source: [FT](https://www.ft.com/content/9804b1de-653b-40b2-bffb-17c76ebebe34), May 17, 2026.*
+
+---
+
 ## Related
 
-- [[OpenAI]] — parent actor
-- [[ChatGPT]] — subscription access
+- [[OpenAI]] — parent actor (discontinued the product March 2026)
+- [[ChatGPT]] — subscription access (no longer available)
 - [[DALL-E]] — sibling image product
 - [[Runway Gen]] — competitor
-- [[Kling]] — competitor
+- [[Kling]] — competitor (Chinese; current top tier)
+- [[Seedance]] — competitor ([[ByteDance]], Chinese; current top tier)
+- [[Veo]] — Google competitor
 - [[Pika]] — competitor
+- [[AI Video Generation]] — concept hub with leaderboard + market structure

@@ -130,12 +130,26 @@ Key differentiator: Duration + native audio.
 
 ---
 
+## May 17, 2026 — Kuaishou exploring spinoff + separate listing
+
+The week of May 12, [[Kuaishou]] announced it was exploring options to spin off the Kling business and potentially pursue a separate listing — capitalising on the fast-growing AI video business while the leaderboard position is at its peak. Structurally similar to the [[Cerebras IPO revival April 2026|Cerebras IPO]] move: parent company monetising an AI-attached unit at peak narrative valuation, separating it from the lower-multiple core. Listing-venue choice (HKEX vs US) when announced will signal cross-border listing-receptivity for Chinese AI.
+
+Per the FT (Eleanor Olcott in Beijing, May 17), Kling sits in the top tier of the Arena user-voted video model leaderboard alongside [[Seedance]] 2.0 and HappyHorse 1.0 — the three Chinese models ranking ahead of [[Veo]] 3 (Google's competitive but content-restricted option) and well ahead of the now-discontinued [[Sora]] (OpenAI exited March 2026 on unit economics). Director AI's founder Ben Chiang uses Kling as the primary model. See [[AI Video Generation#May 17, 2026 — Chinese groups pull ahead of US rivals (FT)]] for the full leaderboard + market structure.
+
+*Source: [FT](https://www.ft.com/content/9804b1de-653b-40b2-bffb-17c76ebebe34), May 17, 2026.*
+
+---
+
 ## Related
 
-- [[Kuaishou]] — parent actor
-- [[Sora]] — competitor
+- [[Kuaishou]] — parent actor; May 12 week spinoff exploration
+- [[Sora]] — competitor (discontinued March 2026)
 - [[Runway Gen]] — competitor
 - [[Pika]] — competitor
 - [[Seedance]] — competitor ([[ByteDance]])
+- [[Veo]] — Google competitor
+- [[Hailuo]] — [[MiniMax]] competitor
 - [[Generative AI]] — category
 - [[China]] — market
+- [[AI Video Generation]] — concept hub with current leaderboard
+- [[Cerebras IPO revival April 2026]] — structural analog (parent monetising AI-attached unit at peak narrative)

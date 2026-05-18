@@ -120,11 +120,52 @@ The AI video generation market has characteristics that make it hard for any sin
 
 ---
 
+## May 17, 2026 — Chinese groups pull ahead of US rivals (FT)
+
+*Source: [FT, "Chinese AI groups pull ahead of US rivals in video generation race"](https://www.ft.com/content/9804b1de-653b-40b2-bffb-17c76ebebe34), Eleanor Olcott in Beijing + Cristina Criddle in San Francisco, May 17, 2026.*
+
+The divergence between the LLM race (US still leads — [[OpenAI]] / [[Anthropic]] / [[Google]] dominate large language models + coding) and the video-generation race (China ahead) is now visible enough to be a structural framing rather than a marginal observation. The asymmetry comes down to data: training video models requires vast amounts of high-quality footage, and Chinese platforms own short-video apps ([[TikTok]] / [[Douyin]] / [[Kuaishou]]) whose data feeds are difficult for competitors to replicate. Some experts also flagged that Chinese groups have been more aggressive in accessing copyrighted material.
+
+### Current leaderboard
+
+Per Arena's user-voted ranking (regarded as more reliable than lab-optimised benchmarks):
+
+| Model | Maker | Country | Status |
+|---|---|---|---|
+| [[Kling]] | [[Kuaishou]] | China | Top tier; Director AI primary model |
+| [[Seedance]] 2.0 | [[ByteDance]] | China | Top tier; "game-changer" for camera-angle/speed handling per AI filmmaker George Won |
+| HappyHorse 1.0 | (Chinese) | China | Top tier |
+| [[Veo]] 3 | [[Google]] | US | Competitive — YouTube footage edge — but more safeguards / content limits |
+| [[Hailuo]] | [[MiniMax]] | China | Top quality tier (Director AI's third option after Kling/Seedance) |
+| [[Sora]] | [[OpenAI]] | US | Discontinued March 2026 — high computing costs cited |
+
+The Sora discontinuation is the cleanest single signal. OpenAI — the company that pioneered the consumer-facing AI race overall — exited video generation while the Chinese cohort was scaling. The proximate cause was unit economics (video tokens vastly exceed text/audio per generation), but the structural reason was that OpenAI never closed the training-data gap that Chinese platforms have via short-video app ownership.
+
+### Kuaishou spinoff signal
+
+[[Kuaishou]] announced the week of May 12 it was exploring options to spin off the [[Kling]] business and potentially pursue a separate listing — capitalising on the fast-growing AI video business while the leaderboard position is at its peak. Structurally similar to the [[Cerebras IPO revival April 2026|Cerebras IPO]] move: a parent company monetising an AI-attached unit at peak narrative valuation, separating it from the lower-multiple core. Worth tracking the listing-venue choice (HKEX vs US) as a signal of cross-border listing-receptivity for Chinese AI.
+
+### Pricing structure asymmetry
+
+For individual creators: Chinese platforms cheaper + more flexible than US alternatives; subscription or pay-as-you-go enabling rapid experimentation. Seedance 2.0 demand since February has led to restricted usage + long wait times.
+
+For enterprise: [[ByteDance]] has required some US clients to pay ~$2mn upfront for access + credit allocation — a wholesale-buyer pricing model resembling foundry-capacity reservation more than typical AI-API pricing. Third-party platforms like BeHooked repackage Chinese models with alternative pricing structures for US customers who don't want the upfront commit.
+
+### Use cases reshaping ad + ecommerce
+
+Vincent Yang (Firework CEO; AI video infrastructure for ecommerce): "Before, the videos were cringey and robotic — they couldn't meet brand standards. Now we're at the point where you can't tell if it's AI or human." One retailer commissioned 100,000 AI videos for product pages — economically impossible pre-AI; now standard. Video generation is in the production-utility phase for ecommerce + advertising, not the research-demo phase.
+
+### Copyright concerns
+
+[[ByteDance]] has faced legal threats over alleged copyright violations enabling users to generate videos featuring [[Disney|Marvel]] characters and South Park content without permission. Pledged increased protections; outcome and effectiveness unclear. Looser Chinese content restrictions are simultaneously a competitive advantage (developers report US tools "constantly run into errors") and a structural legal-risk overhang.
+
+---
+
 ## Related
 
 - [[Seedance]] — [[ByteDance]]'s video generation model
-- [[Sora]] — [[OpenAI]]'s video generation model
-- [[Kling]] — [[Kuaishou]]'s video generation model
+- [[Sora]] — [[OpenAI]]'s video generation model (discontinued March 2026)
+- [[Kling]] — [[Kuaishou]]'s video generation model (spinoff exploration May 2026)
 - [[Hailuo]] — [[MiniMax]]'s video generation model
 - [[Runway Gen]] — [[Runway]]'s video generation model
 - [[ByteDance]] — parent of [[Seedance]]
@@ -139,3 +180,4 @@ The AI video generation market has characteristics that make it hard for any sin
 - [[Ellison AI-IP vertical integration]] — related thesis
 - [[NVIDIA]] — GPU supplier for training
 - [[Export controls]] — constrain Chinese model development
+- [[TikTok]], [[Douyin]] — short-video data feeds anchoring the training-data asymmetry
