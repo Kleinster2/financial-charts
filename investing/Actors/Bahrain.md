@@ -157,4 +157,18 @@ Historical:
 
 ---
 
+## S&P sovereign-credit framing — only clear GCC exception (March 12, 2026)
+
+[[S&P Global]] head of sovereign analysis Roberto Sifon-Arevalo, in the agency's March 12 framework on Iran-war credit exposure ([Times Live](https://www.timeslive.co.za/news/world/2026-03-12-rating-firm-sp-says-it-wont-jump-the-gun-with-iran-war-downgrades/), [Arab News](https://www.arabnews.com/node/2636194/pakistan)): most Gulf countries had enough fiscal buffers to weather the crisis for a while, with "more lowly rated Bahrain the only clear exception."
+
+The framing isolates Bahrain from the rest of the GCC analytically: Saudi Arabia, UAE, Qatar, Kuwait, and Oman are all net beneficiaries (revenue-side from elevated prices, even with infrastructure damage); Bahrain enters the crisis with the GCC's weakest pre-existing fiscal position — non-oil-dependence in a region where oil is the binding revenue line, the lowest among major Gulf sovereign ratings (B+ to B2 cluster), and a smaller GCC support cushion than its size might imply.
+
+The note doesn't predict a specific Bahrain downgrade — S&P explicitly framed itself as not in knee-jerk mode — but signals that any sustained Iran-war escalation (especially crossing the [[Iran conflict oil price timeline#May 17 — Peak-summer crunch in view, Brent $105, scenario reset to $150-180 (FT)|3-month duration threshold]]) pushes Bahrain into the cohort most likely to need a formal rating action ahead of any other GCC sovereign. The [[#Aluminium Bahrain]] (Alba) phased shutdown announced March 16 — the world's largest single-site smelter — is the kind of industrial-side data point that compounds the sovereign-credit pressure: it removes a meaningful share of the non-oil GDP base at exactly the moment the oil-side is also stressed.
+
+See [[Iran conflict sovereign credit risk]] for the full cross-country framework.
+
+*Source: [Times Live](https://www.timeslive.co.za/news/world/2026-03-12-rating-firm-sp-says-it-wont-jump-the-gun-with-iran-war-downgrades/), March 12, 2026.*
+
+---
+
 *Created 2026-03-20*

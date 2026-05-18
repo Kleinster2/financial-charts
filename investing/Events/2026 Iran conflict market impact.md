@@ -63,6 +63,8 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | Commodity traders | [[Commodity trading houses]] | [[Oliver Wyman]] 2026 report: "billions" in early-war losses at [[Vitol]], [[Trafigura]], [[Mercuria Energy Group\|Mercuria]] from short hedges + stranded cargo replacement; $7.5B new credit facilities |
 | Structural | [[Hormuz Permanent Risk Premium]] | Even a short war leaves permanent oil/shipping/insurance risk premium |
 | Satellite ISR | [[IRGC Chinese satellite targeting March 2026]] | [[TEE-01B]] via [[Earth Eye Co]]/[[Emposat]] gave Iran 0.5m imagery of 10+ US bases + Gulf civilian infrastructure; dispersion strategy survives Israeli counter-space strikes |
+| Sovereign credit | [[Iran conflict sovereign credit risk]] | [[S&P Global]] (Sifon-Arevalo, Mar 12): no knee-jerk downgrades; Asia second-most-exposed (PA/BD/SL/IN/TH/ID); [[Bahrain]] only clear GCC exception; duration is binding variable |
+| Remittance flows | [[Iran conflict remittance flows]] | ~5M [[Bangladesh]] + ~5M [[Pakistan]] + 9M [[India]] Gulf workers; remittance share of GDP: ~10% [[Nepal]] (most exposed), 3-5% PA/BD/SL, ~1% India; scenario set 30% reduction = 10-15% GDP drag at 3+ months conflict |
 
 ---
 

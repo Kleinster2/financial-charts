@@ -137,6 +137,28 @@ S&P's standard disclaimer notes it does not sponsor these products or vouch for 
 ![[spgi-employees-chart.png]]
 *Headcount: 44,500 (2025) — up 5.1% YoY*
 
+## Iran war sovereign-credit framework (Sifon-Arevalo, March 12 2026)
+
+Roberto Sifon-Arevalo, S&P's head of sovereign analysis, in remarks reported by [Times Live](https://www.timeslive.co.za/news/world/2026-03-12-rating-firm-sp-says-it-wont-jump-the-gun-with-iran-war-downgrades/) and [Arab News](https://www.arabnews.com/node/2636194/pakistan) on March 12, 2026, set out the most-quoted single posture from any major rating agency on the [[Operation Epic Fury|2026 Iran conflict]]:
+
+- "We don't want to jump the gun and just say things are bad" — no knee-jerk downgrades
+- "We are closely monitoring these countries to see how the credit stories evolve"
+- Longer crisis duration → "the more difficult it is going to be"
+- The conflict moved from "low- to moderate-risk scenario"
+
+Named most-exposed cohort:
+
+| Region | Cohort | Driver |
+|---|---|---|
+| Asia (heavily indebted) | [[Pakistan]], [[Bangladesh]], [[Sri Lanka]] | Pre-existing debt + Qatar LNG dependence |
+| Asia (lower oil reserves) | [[India]], [[Thailand]], [[Indonesia]] | Reserve cover declining |
+| Gulf | [[Bahrain]] | "Only clear exception" — non-oil dependence + pre-existing debt |
+| Gulf | [[Qatar]] | Banking-sector deposit-outflow risk (no current evidence of strain) |
+
+The framework's structural commitments — duration > headline price, reserves+debt as cohort filter, GCC framework inverted vs Asia — are the substantive analytical anchors. Full unpacking in [[Iran conflict sovereign credit risk]]. [[Moody's]] and [[Fitch Ratings]] have not produced an equivalent public framework as of May 17, leaving S&P's read as the consensus reference.
+
+---
+
 ## Related
 
 - [[Moody's]] — ratings competitor
@@ -148,5 +170,7 @@ S&P's standard disclaimer notes it does not sponsor these products or vouch for 
 - [[Hyperliquid]] — first decentralized platform with licensed S&P 500 derivative
 - [[trade.xyz]] — builder of licensed S&P 500 perpetual on Hyperliquid
 - [[Centrifuge]] — tokenized S&P 500 index fund on Base
+- [[Iran conflict sovereign credit risk]] — May 17 framing built on the Mar 12 Sifon-Arevalo framework
+- [[Credit rating mechanics]] — general framework
 
 *Sources: [S&P Global IR](https://www.spglobal.com/en/annual-reports/2024), [Wikipedia](https://en.wikipedia.org/wiki/S%26P_Global)*
