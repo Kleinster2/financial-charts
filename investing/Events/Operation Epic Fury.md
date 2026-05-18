@@ -3,6 +3,9 @@ aliases:
   - 2026 Iran strikes
   - US-Israel Iran strikes 2026
   - Iran conflict 2026
+  - 2026 Iran conflict
+  - Iran war 2026
+  - 2026 Iran war
   - Epic Fury
 tags:
   - event

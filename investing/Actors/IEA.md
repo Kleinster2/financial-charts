@@ -209,6 +209,24 @@ The six predictions map onto two opposing forces: the crisis accelerates the ene
 
 ---
 
+## Emergency-measure count and stockpile arithmetic (FT, May 17)
+
+The IEA's May 17 framing — relayed in the FT's peak-summer-crunch piece — quantifies the global response in three data points that anchor [[Iran conflict economic disruption#May 17 — peak-summer crunch in view (FT)|the broader supply-shock picture]].
+
+| Metric | Mar 31 | May 17 |
+|---|---|---|
+| Countries on formal emergency energy measures | 55 | 76 |
+| Global consumption above production (Mar-Jun rolling) | — | ~6 mn bpd (IEA); some analysts 8-9 |
+| Global reserves drawn since Feb 28 (ex-Gulf-trapped) | — | ~380 mn barrels |
+
+The 21-country expansion in six weeks is the diagnostic: the crisis has broadened in coverage even as headline crude has stabilized around $105. The IEA explicitly frames the four-day-working-week measures in [[Pakistan]], [[Sri Lanka]], and [[Philippines]] (see [[Iran conflict country responses#Pattern 2 — four-day working weeks]]) as "evoking memories" of the 2022 post-[[Russia]]-[[Ukraine]] energy crisis that triggered emerging-market debt crises — but flags two buffers absent now (food prices not yet up sharply; strong USD absent). Both buffers are time-limited.
+
+The agency also separately characterized the [[Iran conflict sanctions paradox|Iran-oil sanctions waiver episode]] as "worse than the two oil shocks of the 1970s put together" (cited in the Day 20+ pattern shift, see [[2026 Iran conflict market impact#Pattern shifts]]).
+
+*Source: FT, "Iran energy crisis enters new phase as peak summer season approaches," May 17, 2026.*
+
+---
+
 ## Related
 
 - [[OECD]] — parent organization

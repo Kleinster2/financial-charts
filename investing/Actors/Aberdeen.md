@@ -127,6 +127,22 @@ Named alongside [[St. James's Place]], [[AJ Bell]], [[Quilter]], [[Schroders]], 
 
 ---
 
+## Iran war — Diggle $180/bbl scenario (May 17, 2026)
+
+Paul Diggle, Aberdeen's chief economist, in the [[Financial Times|FT]]'s May 17 peak-summer-crunch piece:
+
+- Aberdeen is "examining a scenario where Brent crude rockets to $180 a barrel, causing surging inflation and recessions in a host of European and Asian countries."
+- "We are taking that outcome very seriously" — qualified as not yet the base case.
+- "We are living on borrowed time."
+
+The $180 scenario sits at the top of the analyst range alongside the [[Morgan Stanley]] "escalation case" of >$150/bbl. The Diggle framing — "borrowed time" — points to the [[Iran conflict economic disruption#May 17 — peak-summer crunch in view (FT)|stockpile arithmetic]]: with global consumption running ~6 mn bpd above production (March-June, IEA estimate) and most strategic-reserve releases expiring by July, the supply buffer that has been suppressing the price reaction is mechanically running out.
+
+Aberdeen's positioning — commodity-friendly per the 2025 wealth-manager survey above, and the firm's own messaging on commodity portfolio inclusion — gives the call commercial relevance beyond a standalone macro forecast.
+
+*Source: FT, "Iran energy crisis enters new phase as peak summer season approaches," May 17, 2026.*
+
+---
+
 ## Related
 
 - [[AI disintermediation]] — wealth management at risk

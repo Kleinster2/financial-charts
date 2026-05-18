@@ -175,6 +175,18 @@ Also falling significantly behind schedule, compounding [[FCAS]] frustration.
 
 ---
 
+## Iran war response — "scope and scale" pledge (May 17, 2026)
+
+The [[Financial Times|FT]] reported on May 17 that France would "change the scope and scale" of its support to shield its economy from the crisis. The language is deliberately undefined — preserving optionality across stockpile expansion, household subsidies, and industrial-fuel relief — but the signaling is significant: Paris is preparing for a longer crisis than the [[EDF|nuclear-baseload]] electricity insulation alone covers.
+
+France entered the Iran war comparatively well-positioned by virtue of nuclear electricity generation: in the March price action documented in [[Iran conflict European impact]], French wholesale electricity sat at ~€30/MWh while [[Germany]] and [[Italy]] hit €90 and €125 respectively. But nuclear protects only the power sector. Road fuels, jet fuel (the [[Iran conflict airline disruption|airline disruption thread]] shows European jet fuel at ~$165/bbl in mid-May), and feedstock for petrochemicals all run through the same Brent-anchored channel as the rest of the EU. The "scope and scale" pledge appears to target those non-electricity channels.
+
+See [[Iran conflict country responses#Pattern 1 — OECD stockpile expansion]] alongside [[Australia]]'s $10bn pledge for the OECD response cluster.
+
+*Source: FT, "Iran energy crisis enters new phase as peak summer season approaches," May 17, 2026.*
+
+---
+
 ## Related
 
 - [[Europe]] — regional hub

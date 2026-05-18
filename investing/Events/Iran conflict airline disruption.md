@@ -216,3 +216,38 @@ Sector read-through: Spirit was the unhedged ULCC outlier. The watch list for th
 See [[2026 Spirit Airlines shutdown]] for full timeline, sector impact, and watch list.
 
 *Source: CNN, Bloomberg, Axios, NPR (May 1-2, 2026).*
+
+---
+
+## May 17 — regional jet-fuel spread, peak-summer reset (FT)
+
+*Source: [FT, "Iran energy crisis enters new phase as peak summer season approaches"](https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb), May 17, 2026.*
+
+The three-month arc of regional jet-fuel spot prices is the clearest single visualization of where the refined-products crisis stands going into the northern-hemisphere summer.
+
+![[ft-jet-fuel-spot-price-iran-war.png]]
+*Jet fuel spot price ($/bbl) for Europe, US Gulf Coast, and Singapore. Pre-war: all three benchmarks ~$80-100. Post-strike spike (Mar 2026): peak ~$220-240. Current (mid-May): partial mean-reversion to ~$150-180, with US Gulf Coast highest and Singapore lowest. Source: FT, May 17, 2026.*
+
+### What the curve shows
+
+| Region | Pre-war | Peak | May 17 |
+|---|---|---|---|
+| US Gulf Coast | ~$85-95 | ~$220 | ~$180 (highest of three) |
+| Europe | ~$85-95 | ~$240 | ~$165 |
+| Singapore | ~$80-90 | ~$230 (Currie estimate, Mar 11) | ~$155 (lowest of three) |
+
+The shape of the curve is the analytical centerpiece. Three observations:
+
+1. **The Asian benchmark (Singapore) is now the *lowest* of the three.** This is an inversion of the March picture where [[Jeff Currie]] flagged Singapore at $230 as the most-stressed benchmark. The pattern flip is consistent with [[Iran conflict country responses|Asian demand destruction]] doing its work — [[Pakistan]]/[[Sri Lanka]]/[[Philippines]] on four-day working weeks, [[India]] suppressing tourism via FX-defense consumer guidance, [[China]]'s [[NDRC]] still hoarding refined product exports.
+2. **The US Gulf Coast benchmark is now highest** — consistent with the [[Iran conflict oil price timeline#US crude exports hit record 5.2 mb/d — Day 47 (April 15)|Apr 15 record US crude/product exports]] flow. The US is the marginal global supplier; its own refining slate is being drained to feed Asian and European substitution buying. The $4.10 US pump-gasoline number tracked since mid-April is the consumer-facing expression of the same dynamic.
+3. **Mean reversion is partial and stalling.** The peaks are off, but the May curve is ~70-80% above pre-war levels and the slope of the post-peak decline has flattened. Kim Fustier ([[HSBC]] head of European O&G research) calls refined fuels the "epicentre" of the current consumer disruption — refiners are reluctant to buy expensive crude and pay soaring shipping costs, so they are drawing stocks while betting on a quick end. The bet implies a fragile equilibrium: any negative surprise on Hormuz reopening triggers a stockout cascade.
+
+### Hedging coverage cliff approaching
+
+The April 27 cut-wave reversal was the first capacity-side response. The May 17 chart says fuel costs are normalizing but not normal, and the [[#Hedging exposure|hedging table]] timing has not changed: well-covered carriers ([[Ryanair]], [[EasyJet]]) have hedge coverage through early 2027 and the market has not yet offered them attractive new 12-month roll-on hedges at these levels. The 2027 coverage cliff is the structural risk that the May 17 stabilization does not address.
+
+### Peak-summer demand surge
+
+The northern-hemisphere summer (June-August) is the structural inflection. The FT frames the AC + holiday-travel surge as the single largest near-term test of refined-product supply. Three of the most-fragile carriers per the [[#Hedging exposure|exposure table]] — [[Wizz Air]], China Big Three, [[IndiGo]] — face the summer with thinner buffers than the Mar-Apr peak. The [[2026 Spirit Airlines shutdown|Spirit Airlines]] precedent (the first US-airline shutdown attributable to the Iran war jet-fuel shock) is the template for what an unhedged carrier collision with summer demand looks like.
+
+*Cross-link: [[Iran conflict economic disruption#May 17 — peak-summer crunch in view (FT)|economic disruption May 17]] for the parent supply-shock framing; [[Iran conflict oil price timeline#May 17 — Peak-summer crunch in view, Brent $105, scenario reset to $150-180 (FT)|oil price timeline May 17]] for the analyst scenario range.*

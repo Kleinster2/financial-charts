@@ -196,6 +196,26 @@ See [[Indian rupee]] for full toolkit and analyst views. See [[Iran conflict FX 
 
 *Source: FT, Mar 19 2026*
 
+### Consumer-side FX defense — gold and tourism guidance (May 17, 2026)
+
+The [[Financial Times|FT]] reported on May 17 that the government has urged the public not to buy [[Gold|gold]] and not to holiday abroad — a consumer-side import compression measure to shield FX reserves alongside the [[Reserve Bank of India|RBI]]'s reserve sales and the Russian/Iranian crude sourcing under the sanctions waiver.
+
+India now runs three simultaneous FX-defense tracks:
+
+| Track | Mechanism | Channel |
+|---|---|---|
+| 1 | RBI reserve sales | >$20bn burned through March; ongoing |
+| 2 | Sanctions-waiver supply diversification | [[Russia]]n + [[Iran]]ian crude at premium prices via [[Indian Oil]] + [[Reliance Industries]]/[[NIOC]] — see [[Iran conflict sanctions paradox]] |
+| 3 | Consumer import compression (May 17) | Anti-gold + anti-foreign-travel guidance to households |
+
+Track 3 is the analytically interesting addition. [[Gold]] is the single largest discretionary FX outflow channel for Indian households outside official statistics — informal imports historically dwarf the official trade-balance figure. Outbound tourism is similar. The guidance is non-binding (no licensing, no quotas), but the act of issuing it signals the RBI has exhausted comfortable non-coercive options on Tracks 1 and 2. Compare to the [[#Reference — household oil spending vulnerability]] context: at 3.5% of household consumption on oil at $100/bbl, India is the largest among major economies and the consumer-side compression channel has the most potential headroom.
+
+The cross-vault [[Gold]] note picks up the demand-side implications: India is the world's second-largest consumer market for gold (after [[China]]), and any sustained compression of Indian demand has flow-through implications for global gold price dynamics — see [[Iran conflict portfolio hedging#Gold]] for the safe-haven thesis that already broke down in March.
+
+See [[Iran conflict country responses#Pattern 1 — OECD stockpile expansion]] alongside Australia and France for the cross-country May 17 picture.
+
+*Source: FT, "Iran energy crisis enters new phase as peak summer season approaches," May 17, 2026.*
+
 ---
 
 ## Energy

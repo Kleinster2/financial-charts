@@ -1099,3 +1099,52 @@ What it does NOT change:
 The next inflection is whether [[OPEC|OPEC+]] reads the May 8 episode as a reason to hold (or even cut) production — or whether the unwind continues. The week-to-week price action implies the market is increasingly comfortable that the disruption window has narrowed, not widened.
 
 *Sources: [CNBC — Oil prices today: U.S.-Iran fire exchange](https://www.cnbc.com/2026/05/08/oil-prices-today-wti-brent-us-iran-fire-war-hormuz-ceasefire.html); [The National — Oil climbs and stocks drop](https://www.thenationalnews.com/business/energy/2026/05/08/oil-prices/); [OilPrice.com — Oil prices jump after fire exchange](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-After-US-and-Iran-Exchange-Fire-in-Strait-of-Hormuz.html); [Al Jazeera — Hormuz oil prices](https://www.aljazeera.com/economy/2026/5/5/oil-prices-surge-as-violence-flares-in-strait-of-hormuz), May 5-8 2026.*
+
+---
+
+## May 17 — Peak-summer crunch in view, Brent $105, scenario reset to $150-180 (FT)
+
+*Source: [FT, "Iran energy crisis enters new phase as peak summer season approaches"](https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb), Malcolm Moore, Sam Fleming, Jonathan Vincent in London + Eleni Varvitsioti in Athens, May 17, 2026.*
+
+At Day ~78, Brent trades above $105/bbl with the global oil system entering what the FT frames as the most dangerous phase of the war. The northern-hemisphere summer demand surge (air conditioning + holiday travel) is loading on top of strategic-reserve drawdowns that mostly expire by July, and the analyst community is rebuilding scenario ranges around an escalation case rather than a resolution case.
+
+![[ft-iran-war-global-oil-production.png]]
+*Global oil production crashed from ~108 mn bpd pre-war to ~95 mn bpd at Apr 2026 lows; dotted line shows forecast recovery to ~107 mn bpd by Oct 2026. Source: FT, May 17, 2026.*
+
+### Stockpile arithmetic
+
+| Metric | Level | Note |
+|---|---|---|
+| Global oil consumption vs production (Mar-Jun) | ~6 mn bpd above production ([[IEA]]) | Some analysts: 8-9 mn bpd |
+| Global reserves drawn since war began | ~380 mn barrels (IEA, ex-Gulf-trapped) | — |
+| Strategic-reserve crude flowing into system | >2 mn bpd | Most releases scheduled to end by July |
+| OECD inventories — operational stress timeline | Early June ([[JPMorgan Chase|JPMorgan]]) | Defined as approach to minimum operating levels |
+| Oil reserve total (industry + government) | ~3 bn bbl | Majority is "system inventory" — pipelines, refineries, tank minimums — not freely available |
+| Brent (May 17 spot) | $105/bbl | Above the $101 May 8 close |
+
+The 3-bn-barrel figure is the key reframing for any reader anchored to headline reserve numbers. [[Paul Horsnell]] ([[Oxford Institute for Energy Studies]]): "The minimum operating level depends by country and by product." Pipelines need minimum pressure, refineries need continuous feed, tanks cannot be drained without damage. Markets seize up well before headline inventories hit zero — the relevant horizon is the JPMorgan early-June operational-stress estimate, not a literal zero-stocks date.
+
+### Scenario range
+
+| Source | Scenario | Trigger |
+|---|---|---|
+| [[Aberdeen]] (Paul Diggle, chief economist) | Brent to $180/bbl | "Examining"; not yet base case. "We are living on borrowed time." Surging inflation + recessions across Europe and Asia |
+| [[Morgan Stanley]] | "Escalation" to >$150/bbl | "Physical shortages, supply chain disruption, recessionary outcomes" |
+| Morgan Stanley | Base case | Global growth continues on US AI-investment boom + firm consumer spending |
+| [[HSBC]] (Kim Fustier, head of European O&G research) | Refined fuels are "epicentre" | Refiners reluctant to buy expensive crude + soaring shipping costs → drawing existing stocks while betting on quick end |
+| Horsnell ([[Oxford Institute for Energy Studies]]) | Headline framing | $105 not yet demand-curbing. All-time high $140 set 18 years ago. "Not very long ago, we thought $90 a barrel was a normal price" |
+
+The Diggle and Morgan Stanley numbers compress the analyst consensus into a $150-180 range as the "escalation case" — significantly above the [[Rapidan Energy Group|Rapidan]] $150 export-control trigger flagged on April 15. The $180 path would route through demand destruction in advanced economies (which has not yet materialized at $105) into the [[Stagflation|stagflationary]] outcomes the FT has flagged since Apr 7.
+
+### EU recession warning — Athens conference
+
+[[Apostolos Tzitzikostas]], the EU transport commissioner, at an FT conference in Athens (Thursday May 14): if the Middle East conflict "does not end in the coming weeks and we don't have the reopening of the Hormuz strait, I'm afraid a world recession could be on the table." This is the first sitting EU commissioner to publicly use the word "recession" in connection with the conflict. Compare the [[#Why oil hasn't hit $100 (FT, March 5)|March 5 framing]] — where the analyst consensus was "Hormuz reopens quickly" — to the May 17 framing where a senior EU policy voice is openly contemplating global recession. The discourse has crossed from "duration of disruption" to "structural compatibility with growth."
+
+### What the May 17 update changes
+
+- Stockpile drawdown is the dominant binding constraint, not headline price. JPMorgan's early-June operational-stress timeline is the key forward calendar marker — earlier than most diplomatic timetables.
+- The scenario set is now stacked above the spot (Diggle $180, MS $150) rather than below it. The market has shifted from "buying the dip" (March 23-25 whiplash) to "fading the peace track" (May 8 fire exchange).
+- The 2022 [[Russia]]-[[Ukraine]] energy crisis is the explicit IEA comparison — but with two key inversions: (i) the strong USD that compounded 2022 for oil importers is "absent now," (ii) food prices have not surged in parallel yet. Both buffers are time-limited; food lag is the planting-season risk flagged in the [[Iran conflict supply chain cascade|fertilizer cascade]].
+- The escalation case ([[Morgan Stanley]]) is no longer "physical shortages somewhere" but "physical shortages, supply chain disruption, and recessionary outcomes" — explicit recession framing from a sell-side house.
+
+See [[Iran conflict country responses#May 17 — emergency-measure count hits 76, four-day weeks spread]] for the country-level emergency-measure update (76 countries, Australia $10bn, France scope-and-scale, India FX-defense consumer guidance, Pakistan/Sri Lanka/Philippines 4-day weeks).

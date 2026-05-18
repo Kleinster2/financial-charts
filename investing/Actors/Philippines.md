@@ -45,12 +45,23 @@ Source: Bloomberg TV, "Stablecoins Are Quietly Changing How the World Sends Mone
 
 ---
 
+## Iran war response
+
+- Early March 2026: Collateral damage from [[China]]'s March 5 [[NDRC]] complete ban on gasoline/diesel/kerosene exports — Philippines had been a meaningful buyer of Chinese refined product, and the ban removed that supply overnight. Identified by [[Nadia Martin Wiggen]] at [[Stellen Capital]] as one of three countries (with [[Australia]] and [[Bangladesh]]) most acutely hit by China's beggar-thy-neighbor refined-product hoarding.
+- May 17, 2026 ([[Financial Times|FT]]): Adopted a formal four-day working week alongside [[Pakistan]] and [[Sri Lanka]]. The [[IEA]] framed the measures as "evoking memories" of the 2022 post-[[Russia]]-[[Ukraine]] energy crisis that triggered emerging-market debt crises. See [[Iran conflict country responses#Pattern 2 — four-day working weeks]].
+
+The Iran war exposure routes through three channels for the Philippines: (i) refined-product imports (China NDRC ban was the binding shock), (ii) refined-fuel costs in domestic distribution and shipping, and (iii) the remittance corridor, where GCC-based overseas Filipino workers face their own employer-side energy-cost compression. The four-day working week is the demand-side response; the remittance corridor (see below) is the consumption-side buffer that has cushioned the shock relative to [[Pakistan]] and [[Sri Lanka]].
+
 ## Related
 
 - [[Iran conflict FX dynamics]]
+- [[Iran conflict country responses]] — full country-level response panorama
+- [[Pakistan]], [[Sri Lanka]] — also on four-day working weeks per FT May 17
 - [[Indian rupee]]
 - [[Coins.ph]] — largest local crypto-native fintech, remittance off-ramp
 - [[Wei Zhou]] — Coins.ph CEO
 - [[Stablecoin sandwich]] — operating model running on this corridor
 - [[Remitly]] — corridor partner on the sender side
 - [[Stablecoins]] — sector context
+
+*Updated 2026-05-17 — Four-day working week per FT.*

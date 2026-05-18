@@ -119,12 +119,12 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 
 | Effect | Why it matters | Status |
 |--------|---------------|--------|
-| Mandatory fuel rationing (SE Asia) | Vietnam <20 days, Indonesia 21-23 — voluntary conservation → rationing if Hormuz stays closed Week 4+ | Untracked |
+| Mandatory fuel rationing (SE Asia) | Vietnam <20 days, Indonesia 21-23 — voluntary conservation → rationing if Hormuz stays closed Week 4+ | Tracked — see [[Iran conflict country responses#Pattern 2 — four-day working weeks]]. FT (May 17): [[Pakistan]], [[Sri Lanka]], [[Philippines]] all on formal 4-day working weeks. IEA: 76 countries on emergency measures (up from 55 at end-March) |
 | Airline route/capacity cuts | Jet fuel approaching $200/bbl. Airlines shifting from surcharges to outright service withdrawal | Tracked — see [[Iran conflict airline disruption]]. JPMorgan (Mar 20): [[Air India]] $125-200 surcharge/pax (long-haul), [[SAS]]/[[Air New Zealand]] first to cancel routes. Asian refined product flows down 35% |
 | Fertilizer shortage → food prices | ~34% of global fertilizer transits Hormuz. Planting season in Northern Hemisphere | Tracked — see [[Iran conflict supply chain cascade]]. ~50% of 2-week urea exports disrupted, QAFCO shut, India/Pakistan/Bangladesh plants cut. Urea +40% |
 | Manufacturing shutdowns — petrochemical cascade | Naphtha/propane/ethylene shortages now forcing force majeures across Asia | Tracked — see [[Iran conflict supply chain cascade]]. YNCC, Lotte, Wanhua, Formosa Plastics force majeures. BASF +30%. US inverse: PE producers at ~100% |
 | Environmental remediation costs | Post-conflict cleanup of oil depot fires, heavy metal contamination, agricultural land damage — decades-long timeline | Tracked — see [[Iran conflict supply chain cascade]] |
-| Sovereign credit actions | Rating agencies reassessing oil-import-dependent sovereigns (Pakistan, Bangladesh, Sri Lanka) | Untracked |
+| Sovereign credit actions | Rating agencies reassessing oil-import-dependent sovereigns (Pakistan, Bangladesh, Sri Lanka) | Flagged — [[S&P Global Ratings|S&P]] head global sovereign analyst (Times Live, Mar 12 2026): no knee-jerk cuts but Asia second-most exposed region; Pakistan, Bangladesh, Sri Lanka named; Bahrain only clearly stressed Gulf sovereign. "The longer the crisis is prolonged, the more difficult it is going to be." Not yet ingested as a vault note |
 | Consumer spending shifts | Gasoline crowds out discretionary — retail, restaurants, travel | India restaurant closures tracked |
 | Gig economy / labor disruption | Delivery workers, ride-hail drivers, trucking | India (~1M workers) tracked |
 | Power grid stress | Countries dependent on oil/gas generation (Pakistan, Bangladesh, Myanmar) | Iraq lost 3,100 MW after Iranian gas cutoff — see [[Iran conflict Gulf infrastructure]] |
@@ -135,7 +135,7 @@ Second-order effects not yet tracked in the vault. Check these during each news 
 | Sovereign energy subsidy fiscal strain | Indonesia $22.6B, others scaling — impact on fiscal deficits | Indonesia tracked, others not |
 | European reindustrialization derailed | LNG/naphtha cost surge may reverse EU industrial recovery narrative | Tracked — see [[Iran conflict European impact]] |
 | Central bank bind | Oil shock persists → dual mandate stuck (inflation vs unemployment). All three major CBs held in March. By Apr 8: two [[ECB]] hikes and two [[Bank of England|BoE]] hikes priced in (FT/FactSet); [[Federal Reserve|Fed]] still on hold; [[BOJ]] continuing normalization regardless | [[Ed Yardeni]] (Mar 9) 35% meltdown odds; Fed "several" members suggested hikes. FT editorial board (Mar 20): embedded inflation risk. FT (Giles/Suss, Apr 8): rate expectations chart confirms divergence — [[Andrew Bailey]] pushing back but market not listening. [[Rick Rieder]] ([[BlackRock]], Apr 7): global peers "all moving rates higher" — largely confirmed |
-| Developing nation remittance flows | Gulf expat populations contracting → weaker remittance flows to South Asia, Africa, SE Asia. Combined with food shortages from fertilizer disruption | Flagged: FT editorial board (Mar 20). Untracked at country level |
+| Developing nation remittance flows | Gulf expat populations contracting → weaker remittance flows to South Asia, Africa, SE Asia. Combined with food shortages from fertilizer disruption | Flagged with country-level data — Times of Oman/NPR/Globe and Mail/Manila Times (Mar-May 2026): ~35M Gulf migrant workers; [[Bangladesh]] and [[Pakistan]] ~5M each, [[Philippines]] ~2.4M. Remittance share of GDP: ~3-5% PA/BD/SL, ~10% Nepal, ~1% India. India: 10-20% hit = $5-10B annual loss. ~300K+ Indian jobs delayed, ~40K Bangladesh workers stuck unable to depart. Vulnerability: Bangladesh/Pakistan workers often informal, no fixed contracts. Not yet ingested as a vault note |
 | Tech-concentrated equity correction | Higher rates + energy uncertainty → portfolios heavily concentrated in highly-valued tech stocks face severe correction. Private markets under strain | Flagged: FT editorial board (Mar 20). Connects to Yardeni 35% meltdown scenario |
 | Paper-physical convergence event | Atlantic basin inventories drawn down → Brent/WTI forced repricing to $150+ | Materializing: [[Rystad Energy]] (Apr 8) — [[Forties]] $34-35 above Brent, [[Atlantic basin]] barrels rerouting to Asia. ~10% of mainline [[VLCC]]s locked in Persian Gulf in first week. 2-4 week physical shortage persists even with ceasefire. See [[Iran conflict oil price timeline]] Apr 8 entry |
 | Buffer rebuild timeline | ~600M barrels lost over 6 weeks of shortfall. At 1M bbl/day overproduction: ~2 years to replenish. Storage demand keeps prices elevated beyond ceasefire | FT (Apr 8): 800+ vessels still stuck in Gulf at ceasefire. Refined products lag crude due to lower pre-crisis storage. [[Australia]] faces multi-step supply chain wait (crude → refiner confidence → product delivery) |
@@ -294,4 +294,57 @@ Giles's assessment: more concerned about the "-flation" than the "stag-" side. M
 
 ---
 
-*Created 2026-03-03. Restructured 2026-03-21 — child notes split out. Updated 2026-03-28 — Tooze US distributional impact, green transition J-curve, petro-state critique.*
+*Created 2026-03-03. Restructured 2026-03-21 — child notes split out. Updated 2026-03-28 — Tooze US distributional impact, green transition J-curve, petro-state critique. Updated 2026-05-17 — FT peak-summer crunch framing, IEA 76-country count, stockpile arithmetic, charts.*
+
+---
+
+## May 17 — peak-summer crunch in view (FT)
+
+*Source: [FT, "Iran energy crisis enters new phase as peak summer season approaches"](https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb), May 17, 2026.*
+
+Day ~78. The system is entering what the FT explicitly calls a "more dangerous phase" — peak-summer demand (air conditioning + holiday travel) loading on top of strategic-reserve releases that mostly expire by July, with [[JPMorgan Chase|JPMorgan]] flagging early June as the OECD "operational stress" inflection.
+
+### Global production — the post-strike crater
+
+![[ft-iran-war-global-oil-production.png]]
+*Global oil production crashed from ~108 mn bpd pre-war to ~95 mn bpd at the April 2026 trough; dotted forecast shows recovery to ~107 mn bpd by Oct 2026. Source: FT, May 17, 2026.*
+
+The chart visualizes what the [[#"Half of Covid" — supply shock sizing (Giles, FT, Apr 7)|Apr 7 "half of Covid"]] framing implied: the strike severed ~13 mn bpd of production capacity in weeks. The dotted recovery line is forecast and assumes Hormuz reopens — it does not encode the [[#"They never knew they could"|Hormuz Permanent Risk Premium]] thesis or the May 8 fire-exchange pattern. The actual recovery trajectory depends on (i) whether infrastructure restoration proceeds in parallel with diplomatic normalization or behind it (Karen Young Apr 12: not before 2027) and (ii) whether the [[Insurance|war-risk coverage]] reopens in time for traffic to resume (binding constraint per [[Iran conflict insurance impact]]).
+
+### US distributional shock — the inventory channel
+
+![[ft-us-petrol-stockpiles-may2026.png]]
+*US petroleum stocks: crude oil (left) and motor gasoline (right). 2026 line tracks well below 2021-2025 range. Source: FT, May 17, 2026.*
+
+This is the chart [[Adam Tooze|Tooze]] anticipated on Mar 27: distributional impact rather than aggregate GDP drag. The US is a net producer; aggregate GDP may benefit. But the consumer-facing inventory series collapsed below the five-year envelope, validating Tooze's read that "American oil producers and exporters win while consumers lose." This is also the price-elasticity-of-demand transmission: at $105 Brent / $4.10 US gasoline (per [[#April 15 — US crude exports hit record 5.2 mb/d|Apr 15 FT data]] in oil price timeline), households have not absorbed the full price increase via demand destruction — they have absorbed it via inventory draws. The buffer is running out.
+
+### Stockpile arithmetic — the binding constraint
+
+The reframing that matters for the next 4-6 weeks:
+
+| Metric | Level | Source |
+|---|---|---|
+| Mar-Jun consumption above production | ~6 mn bpd (some analysts 8-9) | IEA |
+| Global reserves drawn since Feb 28 | ~380 mn barrels (ex-Gulf-trapped) | IEA |
+| Strategic-reserve crude flowing | >2 mn bpd | Most releases end by July |
+| OECD "operational stress" timeline | Early June | [[JPMorgan Chase|JPMorgan]] |
+| Headline reserve total (industry + government) | ~3 bn barrels | Mostly "system inventory" — pipeline-fill, refinery feed, tank minimums — not freely available |
+
+[[Paul Horsnell]] ([[Oxford Institute for Energy Studies]]): "The minimum operating level depends by country and by product." Markets seize up well before headline inventories hit zero. The relevant horizon is operational stress (JPMorgan early-June estimate), not literal depletion. Horsnell's other framing — that $140 was the all-time high "18 years ago" and $90 was recently "a normal price" — anchors the analyst view that $105 has not yet triggered structural demand destruction in advanced economies. See [[Iran conflict oil price timeline#May 17 — Peak-summer crunch in view, Brent $105, scenario reset to $150-180 (FT)|oil price timeline]] for the full scenario reset (Diggle $180, Morgan Stanley $150).
+
+### Refined products vs crude — Fustier's "epicentre"
+
+Kim Fustier ([[HSBC]] head of European O&G research): the "epicentre" of consumer disruption is now refined fuels, not crude. Refiners are reluctant to buy expensive crude *and* pay soaring shipping costs, so they are drawing existing stocks while betting on a quick end. This compounds the Apr 7 [[#"Half of Covid" — supply shock sizing (Giles, FT, Apr 7)|Spencer Dale crack-spread analysis]] — the 3-2-1 already at 56% premium, and the refined-product channel becoming the binding rationing point ahead of crude. The jet-fuel arc (see [[Iran conflict airline disruption]]) is the cleanest expression: regional spot prices doubled at the start of the war, partially mean-reverted, and now sit ~$150-180/bbl across Europe, US Gulf Coast, and Singapore.
+
+### Emerging-market lag — 2022 parallel, with two inversions
+
+The IEA framed the four-day working weeks in [[Pakistan]], [[Sri Lanka]], [[Philippines]] (see [[Iran conflict country responses#Pattern 2 — four-day working weeks]]) as "evoking memories" of the 2022 post-Russia-Ukraine energy shock, which triggered debt crises in several emerging economies. Two buffers are softening the current crisis vs 2022:
+
+- Food prices have not yet risen sharply (lagged risk from [[Iran conflict supply chain cascade|fertilizer disruption]] — ~34% of global fertilizer transits [[Strait of Hormuz|Hormuz]] — flagged but not yet binding)
+- The strong USD that compounded 2022 for oil importers is "absent now"
+
+Both buffers are time-limited. The food lag is the planting-season variable. The USD trajectory tracks the [[Iran conflict FX dynamics]] thread.
+
+### EU recession warning
+
+[[Apostolos Tzitzikostas]], EU transport commissioner, at an FT conference in Athens (May 14): if Hormuz does not reopen "in the coming weeks," "I'm afraid a world recession could be on the table." First sitting EU commissioner to invoke global recession in connection with the war. The discourse has crossed from "duration of disruption" to "structural compatibility with continued growth." For the cross-asset scenario set ([[Aberdeen]] $180, [[Morgan Stanley]] $150) see [[Iran conflict oil price timeline#May 17 — Peak-summer crunch in view, Brent $105, scenario reset to $150-180 (FT)|oil price timeline May 17]].

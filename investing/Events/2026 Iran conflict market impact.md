@@ -84,6 +84,8 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | 24 | Mar 23 | Trump postpones power plant strikes 5 days, claims Iran talks | $99.94 (-11%) | +2.5% | Brent crashes from $112; Dow +1,000 pts; dollar falls |
 | 25 | Mar 24 | Iran denies talks; 82nd Airborne deploying; Bushehr struck again | $104.05 (+4%) | — | Optimism fades; bounce reflects skepticism of deal |
 | 26 | Mar 25 | 15-point ceasefire plan via Pakistan; Iran military mocks it | $98.30 (-6%) | — | Market prices ceasefire hope despite Iran's rejection |
+| 70 | May 8 | US fires on empty Iranian tankers; Iran missiles UAE | $101.29 | — | Ceasefire-as-process new equilibrium |
+| ~78 | May 17 | IEA: 76 countries on emergency measures; PA/SL/PH 4-day weeks; Aberdeen $180 scenario; MS $150 escalation; JPM OECD operational stress early June | $105 | — | Peak-summer crunch in view; EU commissioner Tzitzikostas warns of world recession (FT) |
 
 ### Pattern shifts
 

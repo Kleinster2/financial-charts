@@ -183,4 +183,51 @@ Oil spending for road fuel and residential use as share of household consumption
 
 ---
 
-*Created 2026-03-27. Updated 2026-03-28 — Tooze Gulf state economic differentiation, Dubai resilience.*
+*Created 2026-03-27. Updated 2026-03-28 — Tooze Gulf state economic differentiation, Dubai resilience. Updated 2026-05-17 — FT 76-country count, four-day weeks in PA/SL/PH, Australia $10bn, France scope-and-scale, India FX consumer guidance.*
+
+---
+
+## May 17 — emergency-measure count hits 76, four-day weeks spread
+
+*Source: [FT, "Iran energy crisis enters new phase as peak summer season approaches"](https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb), May 17, 2026.*
+
+The [[IEA]] count of countries on formal emergency energy measures has reached 76, up from 55 at the end of March. The 21-country expansion in six weeks is itself the story — the crisis is broadening in coverage even as headline crude has stabilized around $105. The new measures cluster in two patterns: OECD economies extending pre-existing stockpile programs into larger pledges, and lower-income consumers expanding the 2022 demand-destruction toolkit from voluntary conservation into mandatory shortened working weeks.
+
+### Pattern 1 — OECD stockpile expansion
+
+| Country | Action (May 17) | Source |
+|---|---|---|
+| [[Australia]] | $10bn pledge to boost fuel + fertilizer stockpiles | FT direct (May 17) |
+| [[France]] | "Change the scope and scale" of support to shield economy from crisis | FT direct |
+| [[India]] | Urged public not to buy gold + not to holiday abroad — FX-reserve defense | FT direct |
+
+[[Australia]]'s $10bn pledge is the headline OECD response and a direct sequel to the [[#Reference — fuel cover and vulnerability|fuel-cover collapse]] documented in March (32 days → 10 days). The fertilizer half of the pledge confirms the [[Iran conflict supply chain cascade|fertilizer cascade]] is being managed at sovereign-stockpile level, not left to private buyers. [[France]]'s "scope and scale" language is deliberately vague — it preserves Berlin/Madrid optionality while signaling Paris is preparing for a longer crisis than the nuclear-baseload insulation alone covers (see [[Iran conflict European impact]]).
+
+The [[India]] action is the analytically richest. Telling consumers to defer gold purchases and foreign travel is *consumer-side FX defense* — distinct from the [[#Reference — sanctions waivers and supply diversification|RBI's reserve-burning]] and the [[#India|RBI rate moves]] tracked earlier. India is now operating on three simultaneous FX tracks: (1) reserve sales (>$20bn burned in March), (2) sanctions-waiver sourcing (Russian + Iranian crude at premiums), (3) consumer-side import compression (gold + tourism). Gold is the single largest discretionary FX outflow channel for Indian households outside official channels; foreign tourism is similar. The guidance is non-binding but signals the [[Reserve Bank of India|RBI]] is exhausting non-coercive options.
+
+### Pattern 2 — four-day working weeks
+
+Three lower-income countries have moved from voluntary conservation to formal shortened working weeks:
+
+| Country | Pre-FT-May-17 status | May 17 status |
+|---|---|---|
+| [[Sri Lanka]] | Wednesday public holiday (MEI Mar 20) | Four-day working week (FT May 17) |
+| [[Pakistan]] | Suspended 78 mmcfd LNG to fertilizer sector (Mar 12); near-100% Qatar LNG dependent | Four-day working week (FT May 17) |
+| [[Philippines]] | Collateral damage from China refined-product export ban | Four-day working week (FT May 17) |
+
+The [[IEA]] flagged this directly as "evoking memories" of the 2022 post-Russia-Ukraine energy crisis, which triggered debt crises in several emerging economies. Two inversions vs 2022 are buffering the current shock for these countries:
+
+- Food prices have not yet risen as sharply as energy prices (lagged risk from [[Iran conflict supply chain cascade|fertilizer disruption]], which the FT specifically does not yet flag as binding)
+- The unusually strong USD that compounded the 2022 crisis for oil importers is "absent now"
+
+Both buffers are time-limited. Food lag is the planting-season variable (~34% of global fertilizer transits [[Strait of Hormuz|Hormuz]]); USD trajectory is the [[Iran conflict FX dynamics|FX dynamics]] thread.
+
+### Why the 76-country count matters
+
+The expanded count moves the crisis from a "Gulf-and-immediate-neighbors" issue to a global-emergency-policy phase, and changes what "demand destruction" means analytically. The earlier framing was that demand destruction would be a function of price elasticity (Spencer Dale's 0.1 implies ~100% price rise needed to drop demand 10%, see [[Iran conflict economic disruption#"Half of Covid" — supply shock sizing (Giles, FT, Apr 7)|"Half of Covid"]]). The 76-country count says demand destruction is now also a function of *policy* — governments are forcing consumption down via fiscal pledges, FX-defense guidance, and shortened working weeks rather than waiting for the price signal.
+
+This matters for the [[Iran conflict oil price timeline#May 17 — Peak-summer crunch in view, Brent $105, scenario reset to $150-180 (FT)|scenario range]]. If forced demand destruction is now embedded in the global response, the Diggle ($180) and Morgan Stanley ($150) escalation cases have less work to do — policy is doing some of the rationing that price would otherwise have to do. The trade-off is that policy-side rationing is more fragile (subject to political reversal) and more regressive (falls hardest on countries with the smallest fiscal buffers, per the [[#Reference — household oil spending vulnerability|household spending table]]).
+
+### Tzitzikostas recession warning
+
+[[Apostolos Tzitzikostas]], EU transport commissioner, at an FT conference in Athens (Thursday May 14): if the Middle East conflict "does not end in the coming weeks and we don't have the reopening of the Hormuz strait, I'm afraid a world recession could be on the table." First sitting EU commissioner to invoke world recession in connection with the conflict — a rhetorical update from the March framing, where European officials were focused on naval-deployment refusals (see [[Iran conflict European impact]]).

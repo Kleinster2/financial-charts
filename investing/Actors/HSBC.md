@@ -165,6 +165,18 @@ The cross-bank read: most of HSBC's direct private credit exposure ($6bn "pure")
 
 ---
 
+## Energy research — refined fuels "epicentre" (FT, May 17, 2026)
+
+Kim Fustier, HSBC's head of European oil and gas research, quoted in the [[Financial Times|FT]]'s May 17 peak-summer-crunch piece: the "epicentre" of the current consumer disruption from the [[2026 Iran conflict]] is now refined fuels, not crude. Refiners are reluctant to buy expensive crude *and* pay soaring shipping costs, so they are drawing down existing stocks while betting on a relatively quick end to the conflict.
+
+The mechanism is the inverse of the headline-crude focus: refiner stock draws mask the supply gap visible in spot prices while making the eventual rebound steeper. If the conflict extends past the JPMorgan early-June OECD operational-stress estimate without resolution, the refiner bet fails and refined-product spot prices spike past the partial mean-reversion documented in the [[Iran conflict airline disruption#May 17 — regional jet-fuel spread, peak-summer reset (FT)|May 17 jet-fuel chart]] (US Gulf Coast ~$180, Europe ~$165, Singapore ~$155).
+
+Fustier's "epicentre" framing aligns with the [[Crack spread]] blowout already in the data (3-2-1 at 56% premium per [[Spencer Dale]]'s Apr 7 NIESR webinar) and with the [[Refining slate rigidity]] mechanism — destroying jet-fuel demand alone does not balance crude, because refiner product slates are roughly fixed per barrel.
+
+*Source: FT, "Iran energy crisis enters new phase as peak summer season approaches," May 17, 2026.*
+
+---
+
 ## Related
 
 - [[Barclays]] — [[UK]] peer
@@ -172,6 +184,8 @@ The cross-bank read: most of HSBC's direct private credit exposure ($6bn "pure")
 - [[Standard Chartered]] — [[Asia]]-focused peer
 - [[JPMorgan Chase]] — global competitor
 - [[Investment Banks]] — sector
+- [[Iran conflict economic disruption]] — May 17 refined-fuels "epicentre" framing
+- [[Crack spread]], [[Refining slate rigidity]] — mechanism context for the Fustier call
 
 ---
 

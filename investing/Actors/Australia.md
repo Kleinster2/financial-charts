@@ -114,6 +114,16 @@ Gold mines are shutting down due to [[Diesel fuel|diesel]] shortages — the min
 
 *Source: Nadia Martin Wiggen (Stellen Capital), Other People's Money / Monetary Matters Network, March 23, 2026*
 
+### $10bn stockpile pledge (May 17, 2026)
+
+The [[Financial Times|FT]] reported on May 17 that Australia has pledged $10bn to boost fuel and fertilizer stockpiles — the headline OECD response in the IEA's expanded 76-country emergency-measures count. The pledge addresses the two channels that hit Australia hardest in March: refined-product cover (the 32 → 10-day collapse documented above) and fertilizer (~34% of global supply transits [[Strait of Hormuz|Hormuz]] — the [[Iran conflict supply chain cascade|fertilizer cascade]] threatened the next Australian planting season).
+
+The fertilizer half of the pledge is the analytically interesting half. It signals Canberra is treating fertilizer security as a sovereign-stockpile problem, not a private-buyer problem — the same logic that built the original strategic petroleum reserves. Combined with the OECD-anomalous refined-product gap exposed in March, Australia is now positioned among the most aggressive Western responders despite being a net energy exporter (LNG to Asia, coal).
+
+See [[Iran conflict country responses#Pattern 1 — OECD stockpile expansion]] for the cross-country picture.
+
+*Source: FT, "Iran energy crisis enters new phase as peak summer season approaches," May 17, 2026.*
+
 ---
 
 ## Related

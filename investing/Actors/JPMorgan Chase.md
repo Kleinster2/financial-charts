@@ -524,7 +524,7 @@ See [[Venezuela]].
 - [[Goldman Sachs]] - peer (investment banking)
 
 ### Securities
-- [[JPMorgan Chase securities]]
+- [[JPMorgan Chase securities note]]
 
 ### Consumer payments
 - [[Chase Pay In 4]] -- debit-card BNPL ($50--$400, 4 biweekly payments, interest-free)
@@ -536,3 +536,15 @@ See [[Venezuela]].
 
 ### Other
 - [[Venezuela]] -- 60-year presence, trade finance opportunity
+
+---
+
+## Iran war research — OECD operational stress by early June (FT, May 17, 2026)
+
+JPMorgan in the [[Financial Times|FT]]'s May 17 peak-summer-crunch piece: OECD inventories could approach "operational stress levels" by early June. This is the key forward-calendar marker for the [[Iran conflict economic disruption#May 17 — peak-summer crunch in view (FT)|stockpile arithmetic]] thread — sooner than most diplomatic timetables for ceasefire resolution.
+
+Operational stress is defined (per [[Paul Horsnell]] in the same article) as the level at which pipelines lose pressure, refineries cannot maintain continuous feed, and storage tanks risk damage from over-drawdown. It is well above zero physical inventory: most of the ~3 bn-barrel headline reserve is system inventory, not freely available stock.
+
+The early-June estimate compresses the de-escalation window. If the [[2026 Iran conflict]] does not resolve by then, the stockpile-driven price suppression unwinds — opening the door to the [[Aberdeen]] $180 scenario or the [[Morgan Stanley]] $150 escalation case (both flagged in the same FT piece). JPMorgan's call therefore acts as a date-stamped pressure marker on the diplomatic process — the kind of analytical anchor that policy-side decision-makers (US, EU, Gulf mediators) tend to internalize even when they reject the underlying scenarios.
+
+*Source: FT, "Iran energy crisis enters new phase as peak summer season approaches," May 17, 2026.*

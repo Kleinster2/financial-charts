@@ -304,6 +304,25 @@ Bear:
 
 ---
 
+## Iran war research — bifurcated scenario set (FT, May 17, 2026)
+
+Morgan Stanley analysts in a note this week, quoted in the [[Financial Times|FT]]'s May 17 peak-summer-crunch piece, present an explicitly bifurcated outlook on the [[2026 Iran conflict]]:
+
+| Scenario | Trigger | Outcome |
+|---|---|---|
+| Base case | Supply situation improves soon enough to return crude below $100; AI-investment boom + firm consumer spending continue | Global growth holds |
+| Escalation case | Oil prices surge through $150/bbl | Physical shortages, supply chain disruption, recessionary outcomes |
+
+The bifurcation is the analytically interesting move: rather than a single point forecast, Morgan Stanley sketches two outcomes with the trigger ($150 crude breach) explicitly named. The framing reflects the [[Iran conflict economic disruption#May 17 — peak-summer crunch in view (FT)|stockpile arithmetic]] reality — at Brent $105 and JPMorgan's "early-June OECD operational stress" estimate, the buffer that has been suppressing the price reaction is mechanically running out, and the gap between the two scenarios collapses faster than the headline price has yet reflected.
+
+The base case relies on the US AI-investment cycle plus consumer spending as growth engines — both of which are quite the opposite of recession-proof if Brent breaks through $150 (energy as input cost, AI capex sensitivity to credit conditions, consumer pullback under +30% gasoline). The escalation case is therefore not a tail outcome in the conventional sense but the alternative half of an explicit binary.
+
+Compare with [[Aberdeen]]'s standalone $180 Brent scenario (Diggle, same FT piece) and the [[Rapidan Energy Group]] $150 export-control trigger flagged on Apr 15. The $150 figure now sits at the center of the consensus escalation level — high enough to be plausible without resolution, low enough that history suggests at least one more shock can clear it.
+
+*Source: FT, "Iran energy crisis enters new phase as peak summer season approaches," May 17, 2026.*
+
+---
+
 ## Related
 
 ### Peers
@@ -313,7 +332,7 @@ Bear:
 - [[Charles Schwab]] — competitor (retail wealth)
 
 ### Securities
-- [[Morgan Stanley securities]]
+- [[Morgan Stanley securities note]]
 
 ### Themes and counterparties
 - [[Meta]] — arranged $27B+ Hyperion financing
