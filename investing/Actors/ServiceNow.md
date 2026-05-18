@@ -290,7 +290,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[ServiceNow securities]] — traded equity for [[ServiceNow]]
+- [[ServiceNow securities note]] — traded equity for [[ServiceNow]]
 
 
 - [[Salesforce]] — competitor (enterprise platform)

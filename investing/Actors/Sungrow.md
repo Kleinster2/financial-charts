@@ -100,7 +100,7 @@ The EU Hydrogen Bank auction results from 2023-2024, where Chinese-equipment-dom
 ## Related
 
 ### Securities
-- [[Sungrow securities]] — traded equity for [[Sungrow]]
+- [[Sungrow securities note]] — traded equity for [[Sungrow]]
 
 
 ### Concepts

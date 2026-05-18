@@ -232,7 +232,7 @@ No public S&P / Moody's / Fitch issuer-rating history captured in this pass. The
 ## Related
 
 ### Securities
-- [[Core Scientific securities]] — CORZ common equity
+- [[Core Scientific securities note]] — CORZ common equity
 
 ### Customers and peers
 - [[CoreWeave]] — anchor customer ($3.5B deal, rejected $9B takeover)

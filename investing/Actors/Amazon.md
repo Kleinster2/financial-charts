@@ -567,7 +567,7 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Amazon]] was part of a c
 ## Related
 
 ### Securities
-- [[Amazon securities]] — stock, ETF exposure, options, and price-action context
+- [[Amazon securities note]] — stock, ETF exposure, options, and price-action context
 
 ### Partners / context
 - [[Anthropic]] — $13B invested / up to $33B committed; primary cloud and Trainium partner

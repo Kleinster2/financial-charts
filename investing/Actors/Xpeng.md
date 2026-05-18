@@ -79,4 +79,4 @@ Xpeng has limited financial disclosure in the vault chart pipeline: fundamentals
 - [[Morgan Stanley]] — bank on Aeroht IPO
 
 ### Securities
-- [[Xpeng securities]] — NYSE ADR / XPEV market note
+- [[Xpeng securities note]] — NYSE ADR / XPEV market note

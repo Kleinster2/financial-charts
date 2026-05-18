@@ -296,7 +296,7 @@ See [[2026 OpenAI revenue miss]] for the full event note.
 ## Related
 
 ### Securities
-- [[AMD securities]] — equity-market note
+- [[AMD securities note]] — equity-market note
 
 ### People and ecosystem
 - [[Lisa Su]] — CEO

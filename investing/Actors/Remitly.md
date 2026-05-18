@@ -142,7 +142,7 @@ Bear:
 - [[Matt Oppenheimer]] — co-founder, prior CEO, current chairman
 
 ### Securities
-- [[Remitly securities]] — RELY common equity, price history and earnings reactions
+- [[Remitly securities note]] — RELY common equity, price history and earnings reactions
 
 ### Partners / corridor counterparties
 - [[Coins.ph]] — Philippine off-ramp partner

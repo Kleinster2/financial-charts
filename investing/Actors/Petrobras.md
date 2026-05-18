@@ -31,8 +31,8 @@ PBR shows moderate Oil & Gas E&P correlation (XOP r = 0.67).
 | Metric | Value |
 |--------|-------|
 | Ticker | PBR / PBR.A (NYSE ADR); PETR3 / PETR4 ([[B3]]) |
-| Market cap | ~US$112B (Mar 2026) |
-| Price (PBR ADR) | ~US$18.16 |
+| Market cap | ~US$121B (May 13, 2026) |
+| Price (PBR ADR) | US$19.59 (May 13, 2026 close) |
 | Forward P/E | 7.4x |
 | Dividend yield | ~5.9% |
 | Production | 2.7M boe/d (2.2M bbl/d oil) |
@@ -47,21 +47,46 @@ PBR shows moderate Oil & Gas E&P correlation (XOP r = 0.67).
 
 ## Financials
 
-| Metric | FY2024 | FY2023 | Delta |
-|--------|--------|--------|-------|
-| Revenue | R$490.8B (~US$81.8B) | R$512B (~US$102.4B) | -4% BRL / -20% USD |
-| Net income (GAAP) | R$36.6B (US$7.5B) | R$124.6B (US$24.9B) | -70.6% |
-| Net income (adj, ex FX) | ~US$19.4B | ~US$24.9B | -22% |
-| Adjusted EBITDA | R$214.4B (~US$35.7B) | R$262.2B (~US$52.3B) | -18% |
-| Operating cash flow | US$38.0B | US$43.2B | -12% |
-| Free cash flow | US$23.3B | US$31.1B | -25% |
-| Capex | US$16.6B | US$12.1B | +37% |
-| Gross debt (financial) | US$23.2B (lowest since 2008) | — | |
-| Gross debt incl. leases | US$59.1B | — | |
-| Dividends paid | R$102.6B (~US$18.7B) | R$72.4B (~US$14.5B) | +42% |
-| Taxes paid | R$270B | — | |
+![[petrobras-fundamentals-chart.png]]
 
-The FY2024 GAAP collapse (-70.6%) is almost entirely intercompany FX revaluation — BRL weakness against USD on foreign subsidiary debt. Adjusted for this, earnings declined ~22%, driven by lower Brent and tighter refining margins. The capex ramp (+37%) reflects [[Magda Chambriard]]'s investment push under the 2025-2029 strategic plan.
+*PBR full-series revenue + net income from yfinance ingest. The 2020 trough → 2024 peak → 2025 recovery shape captures the post-COVID re-rate, pre-salt ramp, and the FY2025 +200% NI rebound off the FY2024 FX-revaluation hit.*
+
+![[petrobras-sankey.png]]
+
+*FY2025 income statement Sankey. Revenue → COGS / OpEx / OI / NI flow.*
+
+### Annual (FY)
+
+| Metric | FY2025 | FY2024 | FY2023 | Delta FY25 vs FY24 |
+|--------|--------|--------|--------|-------------------|
+| Revenue | R$497.55B | R$490.8B | R$512B | +1% BRL |
+| Net income (GAAP) | R$110.13B | R$36.6B (US$7.5B) | R$124.6B | +200.85% |
+| Net income (adj, ex FX) | — | ~US$19.4B | ~US$24.9B | — |
+| Adjusted EBITDA | — | R$214.4B (~US$35.7B) | R$262.2B | — |
+| Operating cash flow | — | US$38.0B | US$43.2B | — |
+| Free cash flow | — | US$23.3B | US$31.1B | — |
+| Capex | — | US$16.6B | US$12.1B | — |
+| Gross debt (financial) | — | US$23.2B (lowest since 2008) | — | |
+| Dividends paid | — | R$102.6B (~US$18.7B) | R$72.4B | — |
+| Taxes paid | — | R$270B | — | |
+
+The FY2024 GAAP collapse (-70.6% vs FY2023) was almost entirely intercompany FX revaluation — BRL weakness against USD on foreign subsidiary debt. FY2025 NI recovery (+200.85%) reflects partial reversal of that FX wedge plus pre-salt production ramp. Full FY2025 sub-line detail still pending (sourced from headline disclosure; needs IR release re-ingestion).
+
+### Q1 2026 (announced May 11, 2026)
+
+| Metric | Q1 2026 | YoY |
+|--------|---------|------|
+| Net income (GAAP) | R$32.66B (US$6.68B) | -7.2% |
+| Production (oil + gas + NGL) | 3.23M boe/d | +16% |
+| Interest on equity (JCP) declared | R$9.03B (US$1.85B) | — |
+
+Petrobras posted Q1 2026 net income of R$32.66B, missing market expectations — the -7.2% YoY profit decline came despite record production of 3.23M boe/d (+16% YoY) thanks to lifting volume from Búzios and other pre-salt FPSO ramps. The structural shape: production scaled, but realized Brent lower, BRL-USD translation effects and refining-margin compression more than offset volume gains.
+
+The R$9.03B interest-on-equity declaration (JCP) was the dividend mechanism this quarter — about R$0.70/share — fitting the 45% of FCF formula even on the miss. Treasury share of the JCP is ~R$3.3B (37% of total capital) — meaningful but smaller than the FY2024 R$37.9B annual flow.
+
+Stock reaction: PBR ADR closed May 11 at $20.75, faded to $20.50 on May 12 (-1.2%) and then $19.59 on May 13 (-4.4%, -1.8σ) as the broader [[Brazil]] cluster sold off on the May 9 April IPCA print (4.39% YoY, accelerating). The -5.6% two-day reaction (May 11 → May 13) priced both the idiosyncratic Q1 miss and the macro-cluster sell-off. Volume on May 13 was elevated, consistent with a forced-de-risking session across the Brazilian ADR complex. Full sub-line Q1 detail (revenue, EBITDA, FCF, refining margins) still pending — ingest from 6-K filing.
+
+*Sources: Petrobras Q1 2026 release (May 11 2026); Reuters via StockAnalysis.com; local market_data.db PBR May 11-13 close data.*
 
 ---
 
@@ -105,15 +130,15 @@ Pre-salt went from first oil (2008-2009) to 2.2M boe/d own production and 3.2M b
 
 ### Environmental and logistical advantages
 
-**Low-carbon crude:** Pre-salt oil emits approximately 40% less CO₂ per barrel than the global average (Petrobras data; some sources cite up to 70% for the lightest grades). The crude is light and low-sulfur, commanding a quality premium. As carbon pricing mechanisms like [[CBAM]] expand, this emissions advantage becomes a direct competitive edge over heavier, dirtier crudes from [[Venezuela]], [[Canada]] oil sands, or some Middle Eastern producers.
+Low-carbon crude: Pre-salt oil emits approximately 40% less CO₂ per barrel than the global average (Petrobras data; some sources cite up to 70% for the lightest grades). The crude is light and low-sulfur, commanding a quality premium. As carbon pricing mechanisms like [[CBAM]] expand, this emissions advantage becomes a direct competitive edge over heavier, dirtier crudes from [[Venezuela]], [[Canada]] oil sands, or some Middle Eastern producers.
 
-**Atlantic routing:** All [[Brazil]]ian oil exports transit the South Atlantic — no exposure to the [[Strait of Hormuz]], [[Suez Canal]], or [[Bab el-Mandeb]] chokepoints. During the [[2026 Iran conflict market impact|2026 Hormuz crisis]], this routing advantage translated directly into supply security for Atlantic Basin buyers. [[Brazil]]'s export routes go directly to US Gulf Coast, European, and West African markets without passing through any contested strait.
+Atlantic routing: All [[Brazil]]ian oil exports transit the South Atlantic — no exposure to the [[Strait of Hormuz]], [[Suez Canal]], or [[Bab el-Mandeb]] chokepoints. During the [[2026 Iran conflict market impact|2026 Hormuz crisis]], this routing advantage translated directly into supply security for Atlantic Basin buyers. [[Brazil]]'s export routes go directly to US Gulf Coast, European, and West African markets without passing through any contested strait.
 
 ### Production trajectory (Brazil total)
 
 [[Brazil]]'s total oil and gas production (all operators) reached a record 4.897M boe/d in 2025 — up 13.3% YoY (ANP data, Feb 2026). This includes [[Petrobras]] plus international operators in pre-salt production-sharing contracts.
 
-**Reserve estimates:** Proven reserves (1P) at 11.4B boe ([[Petrobras]] alone, rising to 12.1B boe in 2025). Industry estimates for total pre-salt recoverable resources range from 30-40B boe (Enverus) to higher figures — the Santos and Campos basins are still being explored. Note: the 30-40B figure represents estimated total pre-salt resources, not just Petrobras's proved reserves.
+Reserve estimates: Proven reserves (1P) at 11.4B boe ([[Petrobras]] alone, rising to 12.1B boe in 2025). Industry estimates for total pre-salt recoverable resources range from 30-40B boe (Enverus) to higher figures — the Santos and Campos basins are still being explored. Note: the 30-40B figure represents estimated total pre-salt resources, not just Petrobras's proved reserves.
 
 *Source (routing/emissions framing): Drew Crawford/[[Austral Continental]], "The Case for Brazil" (March 2026); production data from ANP/Agência Brasil (Feb 2026); emissions data from Petrobras IR and US Trade.gov.*
 
@@ -178,21 +203,21 @@ See [[Brazil oil shock trilemma March 2026]] for the full analysis.
 
 ### Diesel shortage & auction (Mar 10, 2026)
 
-The pricing conundrum is now creating **physical supply disruption.** Petrobras is holding domestic diesel prices at a record discount to international benchmarks — and the predictable consequence has arrived:
+The pricing conundrum is now creating physical supply disruption. Petrobras is holding domestic diesel prices at a record discount to international benchmarks — and the predictable consequence has arrived:
 
 | Development | Detail |
 |-------------|--------|
-| **Petrobras refusing extra diesel orders** | Rejecting additional volumes to distributors to prevent arbitrage |
-| **Shortage reports** | Rio Grande do Sul state reporting diesel shortages during **record soybean harvest** |
-| **Emergency auction** | 20 million liters of diesel to be auctioned Wed Mar 12 in RS |
-| **Pickup begins** | Monday Mar 17 |
-| **Mechanism** | Auction allows Petrobras to sell at higher/market-adjacent prices without formally raising posted prices |
+| Petrobras refusing extra diesel orders | Rejecting additional volumes to distributors to prevent arbitrage |
+| Shortage reports | Rio Grande do Sul state reporting diesel shortages during record soybean harvest |
+| Emergency auction | 20 million liters of diesel to be auctioned Wed Mar 12 in RS |
+| Pickup begins | Monday Mar 17 |
+| Mechanism | Auction allows Petrobras to sell at higher/market-adjacent prices without formally raising posted prices |
 
-**Why Petrobras is rationing:** At current posted prices (below international parity), distributors have an incentive to stockpile diesel and wait for an inevitable price hike — buying cheap from Petrobras today, selling at market tomorrow. Petrobras knows this, so it's refusing extra volumes. But refusing volumes during harvest season risks crop losses.
+Why Petrobras is rationing: At current posted prices (below international parity), distributors have an incentive to stockpile diesel and wait for an inevitable price hike — buying cheap from Petrobras today, selling at market tomorrow. Petrobras knows this, so it's refusing extra volumes. But refusing volumes during harvest season risks crop losses.
 
-**The auction workaround:** By auctioning, Petrobras sells at market-driven prices without officially raising its posted price — a clever political sidestep. The posted price stays low (important for inflation optics and Lula's approval ratings), while the auction price moves toward parity on the marginal barrel. This is exactly the kind of Dilma-era pricing gymnastics the oil shock trilemma analysis warned about.
+The auction workaround: By auctioning, Petrobras sells at market-driven prices without officially raising its posted price — a clever political sidestep. The posted price stays low (important for inflation optics and Lula's approval ratings), while the auction price moves toward parity on the marginal barrel. This is exactly the kind of Dilma-era pricing gymnastics the oil shock trilemma analysis warned about.
 
-**Farm sector impact:** Diesel is the single largest input cost for Brazilian agriculture. Farmers are harvesting a record soybean crop and planting corn — delays from diesel shortages could mean billions in losses. The Iran war is now directly threatening Brazilian food production via the diesel supply chain.
+Farm sector impact: Diesel is the single largest input cost for Brazilian agriculture. Farmers are harvesting a record soybean crop and planting corn — delays from diesel shortages could mean billions in losses. The Iran war is now directly threatening Brazilian food production via the diesel supply chain.
 
 *Source: Reuters, Mar 10, 2026*
 
@@ -259,10 +284,10 @@ Petrobras' pre-salt assets are among the cheapest barrels on Earth. The valuatio
 |--------|--------------|
 | 2008 peak (May 21, split-adjusted) | ~US$18.64 |
 | 2016 trough | ~US$2-3 (-90% over 5 years) |
-| Current (Mar 2026) | ~US$18.16 |
-| YTD 2026 | +58% |
+| Current (May 13, 2026) | US$19.59 |
+| YTD 2026 | ~+71% (vs ~US$11.45 Dec 31 2025 close) |
 | 5-year return | +152% |
-| 52-week range | US$11.03 - US$18.56 |
+| 52-week range | US$11.03 - US$20.75 (May 11 2026 post-Q1 print high) |
 | Beta | 0.07 |
 
 Two stock splits (2:1 in Jul 2007, 2:1 in May 2008 = 4:1 cumulative). The current price near US$18 approaches the split-adjusted all-time high for the first time in 18 years.
@@ -292,6 +317,10 @@ Bear:
 
 ## Related
 
+### Securities
+- [[Petrobras securities note]] — NYSE: PBR / [[B3]]: PETR3 / PETR4 equity-market companion
+
+### Hub / context
 - [[Brazil]] — macro and political context
 - [[Magda Chambriard]] — current CEO
 - [[Lava Jato]] — corruption scandal that nearly destroyed the company

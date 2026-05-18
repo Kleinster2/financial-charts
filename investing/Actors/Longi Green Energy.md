@@ -105,7 +105,7 @@ The financial reality is less triumphant: Chinese solar has been in brutal price
 ## Related
 
 ### Securities
-- [[Longi Green Energy securities]] — traded equity for [[Longi Green Energy]]
+- [[Longi Green Energy securities note]] — traded equity for [[Longi Green Energy]]
 
 
 ### Concepts

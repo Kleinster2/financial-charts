@@ -5,7 +5,21 @@ aliases: [STNE, Stone]
 
 # StoneCo
 
-**Brazilian payments fintech** — payment processing, banking, credit for MSMBs. Founded 2012 by André Street and Eduardo Pontes. **[[Nasdaq]]: STNE**. ~$4B market cap. Acquired **Pagar.me** (2016) from [[Brex]] founders. [[Berkshire Hathaway]] IPO investor.
+Brazilian payments fintech — payment processing, banking, credit for MSMBs. Founded 2012 by André Street and Eduardo Pontes. [[Nasdaq]]: STNE. ~$4B market cap. Acquired Pagar.me (2016) from [[Brex]] founders. [[Berkshire Hathaway]] IPO investor.
+
+---
+
+## May 13, 2026 — Brazil cluster sell-off
+
+STNE closed at $9.69 on May 13, -6.6%, part of the coordinated Brazil-ADR cluster sell-off driven by the May 9 April IPCA print (4.39% YoY, accelerating from 3.81% in March), the May 11 [[Petrobras]] Q1 miss (-7.2% YoY profit), and the resulting repricing of the [[Selic]] cut path. StoneCo, like [[PagSeguro]], is rate-sensitive on both wholesale funding costs and its consumer-credit book exposure to Brazilian household cash-flow squeeze from accelerating food / housing / transport inflation. See [[Brazil]] for the full cluster-move read.
+
+---
+
+## Price
+
+![[stoneco-price-chart.png]]
+
+*STNE since 2018 IPO — peaked ~$95 in early 2021, deep structural drawdown as Pix and fintech-multiple-compression repriced the take-rate economics. May 13 close $9.69 reflects the [[Brazil]] cluster sell-off.*
 
 ---
 
@@ -50,6 +64,14 @@ STNE trades between China Internet and Industrials without a tight sector fit.
 
 ## Financials
 
+![[stoneco-fundamentals-chart.png]]
+
+*STNE revenue + net income from yfinance ingest. NI swung from R$1.6B (2023) → -R$1.5B (2024, [[Linx]] divestment loss) → R$2.3B (2025, recovery). Revenue compounded R$10.1B → R$11.5B → R$13.4B across the same window.*
+
+![[stoneco-sankey.png]]
+
+*FY2025 income statement Sankey.*
+
 | Metric | Q3 2025 | YoY |
 |--------|---------|-----|
 | Revenue | BRL 3.6B | +16% |
@@ -63,12 +85,12 @@ STNE trades between China Internet and Industrials without a tight sector fit.
 
 | Person | Role | Background |
 |--------|------|------------|
-| **André Street** | Co-founder | Previously Braspag (payments), stepped down 2024 |
-| **Eduardo Pontes** | Co-founder | Previously Braspag |
+| André Street | Co-founder | Previously Braspag (payments), stepped down 2024 |
+| Eduardo Pontes | Co-founder | Previously Braspag |
 
 Street and Pontes had a decade in Brazilian payments before StoneCo. Their prior company Braspag was successful but they shut it down to build StoneCo from scratch after Brazil's central bank broke the Cielo-Rede duopoly.
 
-**Post-StoneCo:** In 2019, Street and Pontes founded **Salt Pay** to replicate the Stone model in [[Europe]].
+Post-StoneCo: In 2019, Street and Pontes founded Salt Pay to replicate the Stone model in [[Europe]].
 
 ---
 
@@ -93,7 +115,7 @@ Pagar.me was founded by the future [[Brex]] founders when they were 16. After th
 | Date | October 25, 2018 |
 | First-day pop | +30% in two days |
 
-**Notable IPO investor:** [[Berkshire Hathaway]] purchased 14M+ shares at IPO price.
+Notable IPO investor: [[Berkshire Hathaway]] purchased 14M+ shares at IPO price.
 
 ---
 
@@ -101,12 +123,12 @@ Pagar.me was founded by the future [[Brex]] founders when they were 16. After th
 
 | Segment | Description |
 |---------|-------------|
-| **Payments** | Card processing for MSMBs |
-| **Banking** | Business banking services |
-| **Credit** | Working capital loans |
-| **Software** | [[Linx]] (divested Jul 2025) |
+| Payments | Card processing for MSMBs |
+| Banking | Business banking services |
+| Credit | Working capital loans |
+| Software | [[Linx]] (divested Jul 2025) |
 
-**Strategic shift:** Divested [[Linx]] to [[TOTVS]] for R$3.05B (Jul 2025) — took 54% loss vs R$6.7B acquisition price. Now focused on financial services — payments, banking, credit — targeting BRL 100B TAM.
+Strategic shift: Divested [[Linx]] to [[TOTVS]] for R$3.05B (Jul 2025) — took 54% loss vs R$6.7B acquisition price. Now focused on financial services — payments, banking, credit — targeting BRL 100B TAM.
 
 ---
 
@@ -126,38 +148,41 @@ Pagar.me was founded by the future [[Brex]] founders when they were 16. After th
 |-------|------|-------|
 | Acquired [[Linx]] | 2020 | R$6.7B (~$1.2B) |
 | Sold to [[TOTVS]] | Jul 2025 | R$3.05B (~$540M) |
-| **Loss** | — | **-54%** |
+| Loss | — | -54% |
 
-**What went wrong:** Integration difficulties, management distraction, overpaid in bidding war vs TOTVS. "Payments + software" thesis didn't work.
+What went wrong: Integration difficulties, management distraction, overpaid in bidding war vs TOTVS. "Payments + software" thesis didn't work.
 
 ---
 
 ## Recent developments
 
-- **CEO transition:** Pedro Zinner resigning March 2026
-- **Buyback:** BRL 2B share repurchase (Dec 2025)
-- **Credit expansion:** Portfolio to play larger role in 2026 P&L
-- **Linx divested:** Sold to [[TOTVS]] Jul 2025
+- CEO transition: Pedro Zinner resigning March 2026
+- Buyback: BRL 2B share repurchase (Dec 2025)
+- Credit expansion: Portfolio to play larger role in 2026 P&L
+- Linx divested: Sold to [[TOTVS]] Jul 2025
 
 ---
 
 ## Investment relevance
 
-**Why StoneCo matters:**
+Why StoneCo matters:
 
-1. **Brazil digital payments** — ~29% CAGR expected 2025-2029 ($300B → $900B market).
+1. Brazil digital payments — ~29% CAGR expected 2025-2029 ($300B → $900B market).
 
-2. **Berkshire stamp** — Warren Buffett invested at IPO.
+2. Berkshire stamp — Warren Buffett invested at IPO.
 
-3. **Brex connection** — Acquired Pagar.me from Brex founders.
+3. Brex connection — Acquired Pagar.me from Brex founders.
 
-4. **Duopoly breaker** — Built after Brazil opened payments market.
+4. Duopoly breaker — Built after Brazil opened payments market.
 
-5. **Cheap valuation** — 7.5x forward P/E vs growth profile.
+5. Cheap valuation — 7.5x forward P/E vs growth profile.
 
 ---
 
 ## Related
+
+### Securities
+- [[StoneCo securities note]] — Nasdaq: STNE equity-market companion
 
 ### Founders
 - André Street — co-founder, stepped down 2024

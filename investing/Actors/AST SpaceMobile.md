@@ -228,10 +228,42 @@ ASTS reported Q1 2026 after market close on May 11. The print delivered substant
 |---|---|---|---|
 | Revenue | $14.7M | $38.24M | — |
 | Net loss attributable to common | -$191.0M | — | — |
-| EPS (diluted) | (commensurate with loss) | -$0.23 | — |
+| EPS (GAAP basic/diluted) | -$0.66 | -$0.23 (adjusted) | — |
 | Pro forma cash | $3.5B | — | $3.9B (prior guide) |
 | FY 2026 revenue guide | $150-200M (reaffirmed) | — | — |
 | FY 2026 pipeline | $1.2B+ commercial | — | $1B+ pledged |
+
+### Detailed income statement — Q1 2026 (10-Q)
+
+All figures in USD thousands except EPS.
+
+| Line | Q1 2026 | Q1 2025 |
+|---|---|---|
+| Products revenue (incl. $7.85M related-party) | 13,406 | 375 |
+| Services revenue | 1,329 | 343 |
+| **Total revenue** | **14,735** | **718** |
+| Cost of revenue — products (incl. $4.87M related-party) | 11,063 | — |
+| Cost of revenue — services | 586 | — |
+| Engineering services costs | 84,097 | 27,204 |
+| General and administrative costs | 43,657 | 18,384 |
+| Research and development costs | 7,129 | 7,135 |
+| Depreciation and amortization | 17,615 | 10,958 |
+| **Total operating expenses** | **164,147** | **63,681** |
+| Operating loss | (149,412) | (62,963) |
+| Warrant liability remeasurement | (1,174) | (3,206) |
+| Interest expense | (24,278) | (4,736) |
+| Interest income | 26,998 | 8,196 |
+| Other (expense) income, net | (100,546) | (751) |
+| Income tax expense | (1,169) | (168) |
+| **Net loss before NCI** | **(249,581)** | **(63,628)** |
+| Less: NCI allocation | (58,569) | (17,922) |
+| **Net loss attributable to common** | **(191,012)** | **(45,706)** |
+| EPS (basic and diluted, $) | (0.66) | (0.20) |
+| Weighted-avg shares (Class A) | 290,689,457 | 223,974,396 |
+
+The engineering services line ($84.1M, +209% YoY) is the dominant cost driver — it's the satellite-program build-out (employees and consultants on BlueBird design, manufacturing, test, network operations) charged to expense as incurred under the company's pre-commercial-services accounting. R&D is held flat YoY ($7.1M) because most development spend has migrated into engineering services as the program moves from R&D to manufacturing. D&A jumped 61% YoY as the Block 1 BlueBird satellites continue depreciating (60-month useful life, started Oct 2024). The -$100.5M "other expense" line is heavily one-time — induced-conversion expense on the 2032 convertible note repurchases plus FX.
+
+See the `## Financials` section below for the fundamentals chart, Sankey, and waterfall of the Q1 2026 income statement.
 
 ### Revenue context — light vs Zacks, on-track per management framing
 
@@ -259,6 +291,28 @@ ASTS Q1 was the binary test for the [[Space pure-plays]] post-regime-shift frame
 The structural read from Q1 2026: ASTS is *closer to commercialization* than the bear case priced. The $1.2B+ pipeline + reaffirmed $150-200M FY guide + on-track production frame the multi-year thesis as ahead-of-schedule, not behind it.
 
 *Sources: [Business Wire — AST SpaceMobile Provides Business Update and First Quarter 2026 Results](https://www.businesswire.com/news/home/20260511685431/en/AST-SpaceMobile-Provides-Business-Update-and-First-Quarter-2026-Results); [The Motley Fool — AST SpaceMobile Q1 2026 Earnings Transcript](https://www.fool.com/earnings/call-transcripts/2026/05/11/ast-spacemobile-asts-q1-2026-earnings-transcript/); [Stocktitan — ASTS 10-Q quarterly earnings report](https://www.stocktitan.net/sec-filings/ASTS/10-q-ast-space-mobile-inc-quarterly-earnings-report-54ad1c7456db.html); [Stocktitan — ASTS 8-K Q1 2026 results and outlook](https://www.stocktitan.net/sec-filings/ASTS/8-k-ast-space-mobile-inc-reports-material-event-75ced08d18a6.html); [Seeking Alpha — ASTS 2026 Q1 results earnings call presentation](https://seekingalpha.com/article/4902657-ast-spacemobile-inc-2026-q1-results-earnings-call-presentation), May 11 2026 (after close).*
+
+---
+
+## Financials
+
+ASTS is a pre-profit, recently-SPAC'd satellite company with limited historical disclosure. The income statement is dominated by program-build-out spending (engineering services, D&A on Block 1 satellites) rather than commercial revenue, which is still ramping from US government milestones and gateway hardware sales toward the FY 2026 $150-200M guide.
+
+The DB carries only Q1 2026 quarterly data as of this run; older quarters (Q4 2025 $54.31M, Q3 2025 $14.7M) and prior annual reports await a `fetch_fundamentals.py` backfill. See the May 11 print section above for the granular Q1 2026 income-statement table.
+
+![[asts-fundamentals.png]]
+
+*Revenue (blue) and net income (red, right axis, $M) vs price (green, left axis, $). Only the Q1 2026 datapoint is currently in the DB.*
+
+### Income statement composition — Q1 2026
+
+![[ast-spacemobile-sankey.png]]
+
+*Sankey flow of the Q1 2026 income statement. Revenue $15M → COGS $12M (79%) → Gross Profit $3M (21%). The gross-profit margin masks the scale of below-GP spend: engineering services ($84M) and D&A ($18M) sit alongside SG&A ($44M) in the operating-expense block. The chart truncates "Other OpEx" (engineering services + D&A) into one wing to keep the diagram readable.*
+
+![[ast-spacemobile-waterfall.png]]
+
+*Waterfall view of the same Q1 2026 print: revenue $15M → operating loss -$149M → net loss to common -$191M after the convertible-conversion-driven $102M "other expense" line, $24M interest expense, and $59M NCI allocation. Operating margin -1014%, net margin -1296% — the operating-leverage thesis is entirely forward-looking on the carrier-recurring revenue stream beyond the Q1 print.*
 
 ---
 

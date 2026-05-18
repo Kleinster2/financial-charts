@@ -79,7 +79,7 @@ Thesis implication: ResMed remains a profitable connected-device and home-care-s
 
 ### Securities
 
-- [[ResMed securities]] -- RMD equity note
+- [[ResMed securities note]] -- RMD equity note
 
 ### Companies and concepts
 

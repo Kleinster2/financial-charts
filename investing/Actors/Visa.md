@@ -164,7 +164,7 @@ Capital return amplified the signal: Visa repurchased about 25M class A shares f
 ## Related
 
 ### Securities
-- [[Visa securities]] — equity-market note
+- [[Visa securities note]] — equity-market note
 
 
 - [[Mastercard]] — duopoly peer

@@ -112,7 +112,7 @@ The thesis implication: VICI is still compounding, but the public equity is aski
 
 ### Securities
 
-- [[VICI Properties securities]] -- VICI equity note
+- [[VICI Properties securities note]] -- VICI equity note
 
 ### Tenants, partners, and concepts
 

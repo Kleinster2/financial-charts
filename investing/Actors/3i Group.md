@@ -194,7 +194,7 @@ NAV discount context: 3i at -11% is the least discounted UK PE trust (HgCapital 
 ## Related
 
 ### Securities
-- [[3i Group securities]] — LSE: III, FTSE 100
+- [[3i Group securities note]] — LSE: III, FTSE 100
 
 ### Parent
 - [[Alternative Managers]] — broader sector

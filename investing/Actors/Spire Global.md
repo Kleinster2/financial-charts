@@ -199,7 +199,7 @@ Consensus: Buy (4 of 5 analysts). Average PT $14.20. Stock at ~$16 is above aver
 
 ### Securities
 
-- [[Spire Global securities]] — SPIR price history, charts, technicals
+- [[Spire Global securities note]] — SPIR price history, charts, technicals
 
 ### Charts
 

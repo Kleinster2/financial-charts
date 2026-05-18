@@ -246,7 +246,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[Atlassian securities]] - TEAM common stock, price history, and earnings reactions
+- [[Atlassian securities note]] - TEAM common stock, price history, and earnings reactions
 
 ### Peers and context
 - [[Block]] — peer comparison for AI-driven layoffs ([[Block AI layoffs February 2026]])

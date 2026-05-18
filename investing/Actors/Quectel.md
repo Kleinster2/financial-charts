@@ -91,7 +91,7 @@ No public S&P, Moody's, or Fitch issuer rating surfaced in the accessible Englis
 
 ### Securities
 
-- [[Quectel securities]]
+- [[Quectel securities note]]
 
 ### Actors and concepts
 

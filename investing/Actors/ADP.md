@@ -101,7 +101,7 @@ FY2026 guidance moved higher: revenue growth of 6-7%, adjusted EBIT margin expan
 ## Related
 
 ### Securities
-- [[ADP securities]] — equity-market note
+- [[ADP securities note]] — equity-market note
 
 
 - [[Rippling]] — competitor (compound platform)

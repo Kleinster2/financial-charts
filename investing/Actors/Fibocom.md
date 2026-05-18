@@ -91,7 +91,7 @@ No public S&P, Moody's, or Fitch issuer rating surfaced in the accessible Englis
 
 ### Securities
 
-- [[Fibocom securities]]
+- [[Fibocom securities note]]
 
 ### Actors and concepts
 

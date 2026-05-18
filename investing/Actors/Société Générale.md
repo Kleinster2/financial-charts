@@ -62,4 +62,4 @@ Full historical income statement and balance sheet to be added in a follow-up pa
 - [[Sell America trade]] — SocGen's view that 2025 dollar sell-off overshot relative-rate fundamentals
 
 ### Securities
-- [[Société Générale securities]] — tradeable instrument (GLE.PA)
+- [[Société Générale securities note]] — tradeable instrument (GLE.PA)

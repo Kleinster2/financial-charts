@@ -226,7 +226,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[Boeing securities]] — traded equity for [[Boeing]]
+- [[Boeing securities note]] — traded equity for [[Boeing]]
 
 
 ### Competitors

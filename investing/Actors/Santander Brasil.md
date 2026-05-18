@@ -7,7 +7,21 @@ aliases:
 ---
 #actor #company #bank #brazil #public
 
-**[[Santander]]'s Brazilian subsidiary** — \#5 bank in Brazil, largest foreign bank. [[B3]]: SANB11**, NYSE ADR: BSBR. ~R$116B market cap (~$23B). Contributes ~30% of Santander group profits. Built through Banespa (2000) and Banco Real (2007) acquisitions.
+[[Santander]]'s Brazilian subsidiary — #5 bank in Brazil, largest foreign bank. [[B3]]: SANB11, NYSE ADR: BSBR. ~R$116B market cap (~$23B). Contributes ~30% of Santander group profits. Built through Banespa (2000) and Banco Real (2007) acquisitions.
+
+---
+
+## May 13, 2026 — Brazil cluster sell-off
+
+BSBR closed at $5.41 on May 13, -4.4% (-3.2σ), part of the coordinated Brazil-ADR cluster sell-off driven by the May 9 April IPCA print (4.39% YoY, accelerating from 3.81% in March), the May 11 [[Petrobras]] Q1 miss (-7.2% YoY profit), and the resulting repricing of the [[Selic]] cut path. Santander Brasil is hit on two channels: net-interest-margin compression from a slower cut cycle and exposure to corporate credit at the macro turn. See [[Brazil]] for the full cluster-move read.
+
+---
+
+## Price
+
+![[santander-brasil-price-chart.png]]
+
+*BSBR ADR — May 13 close $5.41 within the [[Brazil]] cluster sell-off. The broader long-term structural shape mirrors the Brazilian banking complex (compressed multiples on digital-disruption + sovereign-risk discount).*
 
 ---
 
@@ -43,12 +57,12 @@ BSBR shows moderate China Internet correlation (KWEB r = 0.52).
 
 ## Why Santander Brasil matters
 
-**Largest foreign bank in Brazil with full-service platform:**
+Largest foreign bank in Brazil with full-service platform:
 
-- **Scale**: \#5 by assets, 60M+ customers, 3,000+ branches
-- **Parent support**: Santander group backing + global CIB network
-- **Profit engine**: ~30% of Santander group profits from Brazil alone
-- **Investment banking**: Active in DCM, ECM, M&A — 2024 LatinFinance Bond House of the Year
+- Scale: \#5 by assets, 60M+ customers, 3,000+ branches
+- Parent support: Santander group backing + global CIB network
+- Profit engine: ~30% of Santander group profits from Brazil alone
+- Investment banking: Active in DCM, ECM, M&A — 2024 LatinFinance Bond House of the Year
 
 ---
 
@@ -62,6 +76,14 @@ Stock: SANB11 ~R$34, up +44% in 2025. PE ~24x, P/B ~1.0x.
 
 ## Financials
 
+![[santander-brasil-fundamentals-chart.png]]
+
+*BSBR revenue + net income from yfinance ingest. NI scaled from R$9.4B (2023) → R$13.4B (2024) → R$12.8B (2025), with Q1 2026 already in the DB (latest fiscal_date 2026-03-31).*
+
+![[santander-brasil-sankey.png]]
+
+*FY2025 income statement Sankey.*
+
 | Metric | Value |
 |--------|-------|
 | Total assets | ~R$1T+ (~$200B) |
@@ -69,13 +91,13 @@ Stock: SANB11 ~R$34, up +44% in 2025. PE ~24x, P/B ~1.0x.
 | ROE | ~15-16% |
 | NIM | Competitive with peers |
 
-**Recent:** Board approved R$620M JCP (interest on equity) distribution (Dec 2025).
+Recent: Board approved R$620M JCP (interest on equity) distribution (Dec 2025).
 
 ---
 
 ## Investment banking (Santander CIB Brazil)
 
-Santander CIB was named **2024 LatinFinance Bond House of the Year** — DCM volume +45% YoY, most deals 3x+ oversubscribed.
+Santander CIB was named 2024 LatinFinance Bond House of the Year — DCM volume +45% YoY, most deals 3x+ oversubscribed.
 
 ### Key deals
 
@@ -86,7 +108,7 @@ Santander CIB was named **2024 LatinFinance Bond House of the Year** — DCM vol
 | [[Scala Data Centers]] | R$1.5B green debentures (Aug 2024) | Co-coordinator |
 | [[Elea Data Centers]] | R$790M ESG debentures (Sep 2025) | Co-coordinator |
 
-**DCM capabilities:** BRL, USD, EUR issuance. Strong local syndicate + global distribution via Santander CIB Madrid/NYC/London.
+DCM capabilities: BRL, USD, EUR issuance. Strong local syndicate + global distribution via Santander CIB Madrid/NYC/London.
 
 ---
 
@@ -107,13 +129,13 @@ Mario Leão rose through Santander CIB Brazil before taking the top job — know
 | Year | Event |
 |------|-------|
 | 1982 | Santander enters Brazil |
-| **2000** | **Acquires Banespa** — São Paulo state bank, largest acquisition |
+| 2000 | Acquires Banespa — São Paulo state bank, largest acquisition |
 | 2007 | Acquires Banco Real from ABN AMRO |
 | 2009 | Integration complete, unified as Santander Brasil |
 | 2009 | IPO on B3 (SANB11) |
 | 2022 | Mario Leão becomes CEO |
 
-**Banespa was transformational** — gave Santander instant scale to compete with Itaú and Bradesco. Banco Real added national footprint beyond Southeast.
+Banespa was transformational — gave Santander instant scale to compete with Itaú and Bradesco. Banco Real added national footprint beyond Southeast.
 
 ---
 
@@ -125,29 +147,32 @@ Mario Leão rose through Santander CIB Brazil before taking the top job — know
 | [[Bradesco]] | \#2 | Struggling with fintech |
 | [[Banco do Brasil]] | \#3 | State-owned |
 | Caixa | \#4 | State-owned, housing focus |
-| **Santander Brasil** | **\#5** | Largest foreign bank |
+| Santander Brasil | \#5 | Largest foreign bank |
 
-**Advantage**: Global parent support, CIB network. **Disadvantage**: Foreign ownership limits some government relationships.
+Advantage: Global parent support, CIB network. Disadvantage: Foreign ownership limits some government relationships.
 
 ---
 
 ## Investment relevance
 
-**Why Santander Brasil matters:**
+Why Santander Brasil matters:
 
-1. **Brazil bank exposure** — Separately traded (SANB11/BSBR), pure Brazil play vs parent SAN.
+1. Brazil bank exposure — Separately traded (SANB11/BSBR), pure Brazil play vs parent SAN.
 
-2. **Foreign bank premium** — Better governance, Santander group backing, global CIB reach.
+2. Foreign bank premium — Better governance, Santander group backing, global CIB reach.
 
-3. **DCM strength** — Bond House of the Year 2024. When Brazil issues debt, Santander is on the ticket.
+3. DCM strength — Bond House of the Year 2024. When Brazil issues debt, Santander is on the ticket.
 
-4. **Rate sensitivity** — High Selic (15%) helps NIM but pressures borrowers.
+4. Rate sensitivity — High Selic (15%) helps NIM but pressures borrowers.
 
-5. **Valuation** — P/B ~1.0x, cheaper than Itaú but question marks vs domestic banks.
+5. Valuation — P/B ~1.0x, cheaper than Itaú but question marks vs domestic banks.
 
 ---
 
 ## Related
+
+### Securities
+- [[Santander Brasil securities note]] — NYSE: BSBR / [[B3]]: SANB11 equity-market companion
 
 ### Parent
 - [[Santander]] — Spanish parent (owns majority)

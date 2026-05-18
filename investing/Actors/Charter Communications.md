@@ -157,7 +157,7 @@ The cable thesis has compressed into a Cox-execution-and-mobile-monetization que
 ## Related
 
 ### Securities
-- [[Charter Communications securities]] — equity-market companion note (price + fundamentals + sankey)
+- [[Charter Communications securities note]] — equity-market companion note (price + fundamentals + sankey)
 
 ### Peers
 - [[Comcast]] — duopoly peer; Apr 24 traded down on Charter contagion

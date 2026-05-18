@@ -9,6 +9,12 @@ Companhia Siderurgica Nacional — [[Brazil]]'s largest integrated steel produce
 
 ---
 
+## May 13, 2026 — Brazil cluster sell-off
+
+SID closed at $1.28 on May 13, -6.6% (-3.1σ), part of the coordinated Brazil-ADR cluster sell-off driven by the May 9 April IPCA print (4.39% YoY, accelerating from 3.81% in March), the May 11 [[Petrobras]] Q1 miss (-7.2% YoY profit), and the resulting repricing of the [[Selic]] cut path. CSN — Brazilian steel cyclical — moved on the broader macro signal rather than a name-specific catalyst; cyclicals are first to discount a stalled rate-cut cycle in a tight-credit economy. See [[Brazil]] for the full cluster-move read.
+
+---
+
 ## Sector correlation
 
 | Sector | ETF | Correlation |
@@ -45,6 +51,31 @@ SID shows moderate Regional Banks correlation (KRE r = 0.50).
 
 ![[csna3.sa-vs-sid-price-chart.png]]
 *CSNA3 (BRL, blue) vs SID ADR (USD, red) since 2020. The ADR underperforms the local due to BRL depreciation — ADR holders bear both equity and currency risk.*
+
+---
+
+## Financials
+
+![[csn-fundamentals-chart.png]]
+
+*SID revenue + net income from yfinance ingest. The structural picture: revenue stable at R$44-45B 2023-2025, but net income negative in FY2024 and FY2025 — the interest-expense crowd-out documented below is visible as the divergence between top-line and bottom-line.*
+
+![[csn-sankey.png]]
+
+*FY2025 income statement Sankey.*
+
+| Metric (R$M) | FY2025 | FY2024 | FY2023 |
+|---|---|---|---|
+| Revenue | 44,798 | 43,688 | 45,438 |
+| Gross profit | 12,394 | 11,697 | 11,963 |
+| Operating income | 4,817 | 4,270 | 5,187 |
+| Net income | (1,507) | (1,538) | 403 |
+| EBITDA | 8,967 | 8,061 | 8,566 |
+| Operating margin | 10.75% | 9.78% | 11.42% |
+
+Two consecutive years of bottom-line losses (FY2024 and FY2025) after a modest FY2023 profit, despite stable top-line at ~R$44B. The compression is structural: gross-profit and EBITDA held up reasonably, but interest expense (TTM ~R$4.79B against an R$35.7B net-debt base) is eating through operating income. The deleverage story is gated by either iron-ore price recovery (lifting [[CSN Mineracao]] cash flow) or steel-margin expansion — neither in play at current spreads. The May 13 sigma read on SID was consistent with this fragility: cyclicals are first to discount a stalled [[Selic]] cut cycle when leverage is already binding.
+
+*Source: StockAnalysis.com income statement data, May 2026; figures in BRL millions.*
 
 ---
 
@@ -123,6 +154,10 @@ CSN's leverage is 3.7x higher than [[Gerdau]] and ~20x higher than [[Usiminas]].
 
 ## Related
 
+### Securities
+- [[CSN securities note]] — NYSE: SID / [[B3]]: CSNA3 equity-market companion
+
+### Subsidiaries / peers
 - [[CSN Mineracao]] — iron ore subsidiary, crown jewel (CMIN3)
 - [[Itochu]] — bought 10.74% of [[CSN Mineracao]] for R$4.42B
 - [[Gerdau]], [[Usiminas]] — steel peers (both deleveraged)

@@ -47,6 +47,7 @@ Vorcaro's political sophistication exceeded typical Brazilian business figures. 
 | **Michel Temer** | Former President | Hired as mediator when CB blocked deal |
 | **Guido Mantega** | Former Finance Minister | Consultant; introduced Vorcaro to Lula |
 | **Henrique Meirelles** | Former CB President | Banco Master advisory committee |
+| [Flávio Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FFl%C3%A1vio%20Bolsonaro) | PL Senator (RJ); 2026 presidential candidate | Sept 8, 2025 WhatsApp audio: Flávio negotiated R$134M (~US$24M) ask for the *Dark Horse* Bolsonaro biopic. Audio dropped May 13, 2026 by The Intercept Brasil — see [[#May 2026 — Flávio Bolsonaro Dark Horse negotiation]] below |
 
 ### Supreme Court connections
 
@@ -68,6 +69,32 @@ In March 2026, Federal Police revealed Vorcaro systematically corrupted Central 
 **[[Belline Santana]]** — Former head of banking supervision department.
 
 Both provided prior review of Master's regulatory filings and helped navigate Central Bank requirements. Court rulings cited evidence of bribes paid through sham consulting contracts. Despite their assistance, the BCB ultimately blocked Master's attempted bailout via [[BRB]] and liquidated the bank.
+
+---
+
+## May 2026 — Flávio Bolsonaro Dark Horse negotiation
+
+The Intercept Brasil published WhatsApp audio on May 13, 2026 (the same day as the [[Brazil Week NYC 2026]] BrazilCham gala) of Senator Flávio Bolsonaro pressing Vorcaro for funding for *Dark Horse*, a US-produced biographical film about Jair Bolsonaro's 2018 campaign and stabbing (directed by Cyrus Nowrasteh, based on material by Mário Frias).
+
+| Detail | Value |
+|--------|-------|
+| Audio recorded | September 8, 2025 — one day before Vorcaro's November 17 arrest |
+| Published | May 13, 2026 by [The Intercept Brasil](https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/) |
+| Amount discussed | US$24M (~R$134M at time of audio) |
+| Payment status | Not verified; Intercept could not confirm whether the transfer occurred |
+| Prior Vorcaro contribution to the film | R$61M, per Patria Latina reporting |
+| Flávio's response | Initially denied; later acknowledged seeking "private sponsorship" for "a private film about his father," denied any advantages offered, denied any public money or Lei Rouanet funding |
+| Political fallout | Opposition lawmakers filed criminal representation with the Prosecutor General's Office and Federal Police, requesting investigation of Flávio, Eduardo, and Jair Bolsonaro plus Vorcaro and others |
+| International coverage | UPI, ABC News, devdiscourse.com — first major Bolsonaro-family financial-scandal story to cross into mainstream Anglophone wire coverage in 2026 |
+
+Market context: the audio landed during the May 11-14 [[Brazil Week NYC 2026]] convening, the same trading session as the Brazil ADR cluster sell-off (May 13 EWZ -3.8%; see [[Brazil#Macro (May 2026)|Brazil macro table]]). [[Polymarket]] repriced Flávio from the April 40% peak to 28% by May 15 — see [[2026 Brazil presidential election#May 2026 reprice — fuller chronology]] for the trajectory and the candidate-driver set (the Vorcaro audio is one of several sourced May drivers, alongside Lula's May 12 import-duty repeal and the House income-tax reform).
+
+Sources:
+- [The Intercept Brasil — Áudio: Flávio negociou Vorcaro R$ 134 milhões](https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/)
+- [Rio Times — Flávio Bolsonaro Asked Jailed Banker Vorcaro for R$134 Million](https://www.riotimesonline.com/flavio-bolsonaro-asked-jailed-banker-vorcaro-for-r134-million/)
+- [UPI — Brazilian financial scandal hits Flávio Bolsonaro campaign](https://www.upi.com/Top_News/World-News/2026/05/14/latam-brazil-flavio-Bolsonaro-political-scandal/6501778777777/)
+- [Patria Latina — Vorcaro pagou R$ 61 milhões para filme](https://patrialatina.com.br/vorcaro-pagou-r-61-milhoes-para-filme-de-bolsonaro-e-flavio-cobrou-dinheiro-diz-midia/)
+- [Dark Horse (2026 film) — Wikipedia](https://en.wikipedia.org/wiki/Dark_Horse_(2026_film))
 
 ---
 

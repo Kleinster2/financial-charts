@@ -159,7 +159,7 @@ The bid is consistent with the [[Ryan Cohen]] compensation structure approved in
 | [[eBay]] | Target (~$36B market cap pre-news, +13.7% in extended trading May 1) | Not yet engaged; offer expected later in May |
 | [[Ryan Cohen]] | Architect (Chairman/CEO; $35B max-tier comp award) | Public posture: $100B GME mcap target |
 
-GME closed May 1 at $26.53, +6.3% from Apr 30 (+3.6σ on 60-day vol; β-adjusted) — the rally was largely an extended-hours move concentrated in eBay (+13-14% AH) rather than GME itself, since the cash use is widely seen as defensive (deploying meme-era cash before it earns a holding-company-discount applied by activists). The acquisition-currency question for GameStop — equity or cash — will determine whether the back-half-2026 thesis is "executed-platform pivot" or "$5B cash burn." See [[GameStop securities]] for the price detail.
+GME closed May 1 at $26.53, +6.3% from Apr 30 (+3.6σ on 60-day vol; β-adjusted) — the rally was largely an extended-hours move concentrated in eBay (+13-14% AH) rather than GME itself, since the cash use is widely seen as defensive (deploying meme-era cash before it earns a holding-company-discount applied by activists). The acquisition-currency question for GameStop — equity or cash — will determine whether the back-half-2026 thesis is "executed-platform pivot" or "$5B cash burn." See [[GameStop securities note]] for the price detail.
 
 The deal would also test the [[Wall Street adaptation|institutional Wall Street adaptation]] thesis: Mudrick Capital's "lawyers advise pre-filed shelfs" advice from earlier in the year is now being read by eBay's deal counsel for the inverse — meme-driven stake accumulation is no longer just a retail flow phenomenon, it is now an M&A funding tool used by the cash-rich survivors.
 
@@ -171,7 +171,7 @@ The deal would also test the [[Wall Street adaptation|institutional Wall Street 
 - [[Ryan Cohen]] — Chairman/CEO architect of the acquisition strategy
 - [[Wall Street Journal]] — May 1, 2026 source for the eBay bid story
 - [[Chewy]] — Cohen's prior platform exit ($3.35B sale to PetSmart 2017)
-- [[GameStop securities]] — GME price history and listing details
+- [[GameStop securities note]] — GME price history and listing details
 - [[Berkshire Hathaway]] — only larger US cash-rich corporate; explicitly rules out transformative M&A
 - [[Robinhood]] — halted buying Jan 28, 2021; 90% of accounts from that day still active
 - [[Interactive Brokers]] — halted buying; Peterffy warns vulnerabilities unpatched

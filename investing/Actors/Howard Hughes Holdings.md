@@ -137,6 +137,6 @@ The distinction: Apollo/KKR went for life/annuity float (long-duration, massive 
 - [[Howard Hughes Vantage Risk acquisition]] — deal event
 
 ### Securities
-- [[Howard Hughes Holdings securities]] — NYSE: HHH
+- [[Howard Hughes Holdings securities note]] — NYSE: HHH
 
 *Created 2026-04-10 · Updated 2026-04-10*

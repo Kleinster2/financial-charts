@@ -100,7 +100,7 @@ Zyn: Acquired Swedish Match (2022) for $16B. Nicotine pouches, fastest-growing c
 ## Related
 
 ### Securities
-- [[Philip Morris securities]] — traded equity for [[Philip Morris]]
+- [[Philip Morris securities note]] — traded equity for [[Philip Morris]]
 
 
 - [[Altria]] — US tobacco (former parent)

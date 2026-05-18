@@ -141,7 +141,7 @@ PWP reported Q1 2026 before the open on May 1. The print was the first material 
 
 Revenue declined on fewer fee-paying clients and lower closings across both M&A and financing/capital solutions, partially offset by higher average fee per client. Management commentary framed 2026 as "meaningfully back-half weighted" — closings deferred rather than lost. The [[Gleacher Shacklock]] integration (announced 2026-04-13) added five partners and three managing directors in the UK during the quarter; revenue contribution is back-half loaded. The dividend was held flat alongside the print.
 
-PWP closed May 1 at $20.61, -9.4% from Apr 30 (-4.2σ on 60-day vol; β-adjusted). The reaction read as expectations reset rather than thesis break: 2025 revenue of $750.9M had set a high bar, the senior-banker additions priced in stronger Q1 conversion, and the back-half-weighted tone deferred validation by 6 months. The [[Lazard]] Q1 print on the same day showed the same Financial Advisory dynamic — net revenue -4% as several large transactions slipped — confirming the deal-cycle drag is sector-wide, not PWP-specific. See [[Perella Weinberg Partners securities]] for the May 1 price detail.
+PWP closed May 1 at $20.61, -9.4% from Apr 30 (-4.2σ on 60-day vol; β-adjusted). The reaction read as expectations reset rather than thesis break: 2025 revenue of $750.9M had set a high bar, the senior-banker additions priced in stronger Q1 conversion, and the back-half-weighted tone deferred validation by 6 months. The [[Lazard]] Q1 print on the same day showed the same Financial Advisory dynamic — net revenue -4% as several large transactions slipped — confirming the deal-cycle drag is sector-wide, not PWP-specific. See [[Perella Weinberg Partners securities note]] for the May 1 price detail.
 
 ---
 
@@ -185,7 +185,7 @@ The Q1 2026 -30% revenue print confirmed that the deal-cycle drag is not idiosyn
 
 ### Securities
 
-- [[Perella Weinberg Partners securities]] — PWP (NASDAQ) price history and listing details
+- [[Perella Weinberg Partners securities note]] — PWP (NASDAQ) price history and listing details
 
 ### Deals and peers
 

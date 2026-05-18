@@ -947,7 +947,7 @@ Credit profile: $62.6B cash + securities vs ~$8.5B debt. FCF $96.6B (FY2026). R&
 
 ### Securities
 
-- [[NVIDIA securities]] — price history, relative value, analyst coverage, earnings reactions
+- [[NVIDIA securities note]] — price history, relative value, analyst coverage, earnings reactions
 
 ### Core
 

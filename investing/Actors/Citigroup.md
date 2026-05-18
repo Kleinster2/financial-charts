@@ -255,7 +255,7 @@ Bear:
 - [[Wells Fargo]] — peer
 
 ### Securities
-- [[Citigroup securities]]
+- [[Citigroup securities note]]
 
 ### Other
 - [[BlackRock]] — $80B asset outsourcing deal

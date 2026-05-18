@@ -228,7 +228,7 @@ Revenue flat at ~$29B. Chronic streaming losses and content write-downs have pro
 ## Related
 
 ### Securities
-- [[Paramount Global securities]] — market-facing companion note
+- [[Paramount Global securities note]] — market-facing companion note
 
 ### Acquisition target
 - [[Warner Bros Discovery]] — being acquired for $31/share all-cash

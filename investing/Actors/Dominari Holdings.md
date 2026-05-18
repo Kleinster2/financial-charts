@@ -110,7 +110,7 @@ Dominari's response (March 2026 letter to shareholders and clients): the firm in
 | [[JFB Construction Holdings]] (JFB) | $5.58 | XTEND shell; pre-merger |
 | [[Skyline Builders]] (SKBL) | $3.35 | Cove Kaz shell; pre-merger |
 
-[[Dominari Holdings securities|DOMH]] — Nasdaq-listed; small-cap. Cluster validation TODO (peer cohort: small-cap broker-dealers and investment banks with reverse-merger advisory practices, e.g. [[Revere Securities]], [[D Boral Capital]], [[Yorkville Advisors]]).
+[[Dominari Holdings securities note|DOMH]] — Nasdaq-listed; small-cap. Cluster validation TODO (peer cohort: small-cap broker-dealers and investment banks with reverse-merger advisory practices, e.g. [[Revere Securities]], [[D Boral Capital]], [[Yorkville Advisors]]).
 
 ## Risks
 

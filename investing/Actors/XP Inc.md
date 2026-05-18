@@ -7,6 +7,12 @@ XP Inc — Brazil's largest independent investment platform. Open-architecture b
 
 ---
 
+## May 13, 2026 — Brazil cluster sell-off
+
+XP closed at $17.29 on May 13, -6.8% (-3.3σ), part of a coordinated Brazil-cluster sell-off driven by the May 9 April IPCA print (4.39% YoY, accelerating from 3.81% in March), the May 11 [[Petrobras]] Q1 miss (-7.2% YoY profit), and the resulting repricing of the [[Selic]] cut path. XP is doubly exposed: the broker-dealer book responds to risk-off in Brazilian equities while the asset-management arm sees outflows when rate expectations stiffen. See [[Brazil]] for the full cluster-move read.
+
+---
+
 ## Sector correlation
 
 > [!warning] Sector Orphan

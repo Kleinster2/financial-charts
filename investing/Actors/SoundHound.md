@@ -138,7 +138,7 @@ Bear:
 
 ### Securities
 
-- [[SoundHound securities]] — SOUN equity note
+- [[SoundHound securities note]] — SOUN equity note
 
 ### Companies and concepts
 

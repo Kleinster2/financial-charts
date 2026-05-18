@@ -189,7 +189,7 @@ The new guide implies $4.9B at the high end (+26-28% on the FY2025 base), so the
 ## Related
 
 ### Securities
-- [[nVent Electric securities]] - NVT common stock, price history, and earnings reactions
+- [[nVent Electric securities note]] - NVT common stock, price history, and earnings reactions
 
 ### Peers and context
 - [[Data center infrastructure]] — category

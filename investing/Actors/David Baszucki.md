@@ -12,12 +12,12 @@ David Baszucki is the co-founder and CEO of [[Roblox]]. His market relevance is 
 |--------|-------|
 | Role | CEO / co-founder, [[Roblox]] |
 | Focus | UGC gaming platform, creator economy, child-safety controls |
-| Public ticker exposure | [[Roblox securities]] / RBLX |
+| Public ticker exposure | [[Roblox securities note]] / RBLX |
 
 ## Related
 
 - [[Roblox]] - company
-- [[Roblox securities]] - public equity
+- [[Roblox securities note]] - public equity
 - [[Consumer]] - sector context
 
 ---

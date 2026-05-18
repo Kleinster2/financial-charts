@@ -136,7 +136,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[Wix securities]] — NASDAQ: WIX
+- [[Wix securities note]] — NASDAQ: WIX
 
 ### Competitors / peers
 - [[Shopify]] — e-commerce competitor

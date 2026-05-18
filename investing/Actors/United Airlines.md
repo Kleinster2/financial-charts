@@ -165,7 +165,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[United Airlines securities]] — traded equity for [[United Airlines]]
+- [[United Airlines securities note]] — traded equity for [[United Airlines]]
 
 
 - [[Delta Air Lines]] — competitor

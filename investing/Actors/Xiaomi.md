@@ -296,4 +296,4 @@ Xiaomi has limited financial disclosure in the local vault chart pipeline: funda
 - [[China AI Plus]] — policy umbrella for embedding AI in hardware
 
 ### Securities
-- [[Xiaomi securities]] — Hong Kong equity / 1810.HK market note
+- [[Xiaomi securities note]] — Hong Kong equity / 1810.HK market note

@@ -62,7 +62,7 @@ UK and Scottish governments held talks with [[Vestas]] about co-investing to bui
 
 ### Securities
 
-- [[Ming Yang Smart Energy securities]]
+- [[Ming Yang Smart Energy securities note]]
 
 ### Actors & context
 

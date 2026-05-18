@@ -193,7 +193,7 @@ Specific fee disclosure: Cantor's compensation for the PIPE has not been publicl
 ## Related
 
 ### Securities
-- [[USA Rare Earth securities]]
+- [[USA Rare Earth securities note]]
 
 ### Leadership
 - [[Barbara Humpton]] — CEO

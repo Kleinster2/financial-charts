@@ -143,7 +143,7 @@ Logged as a follow-up gap — formal sell-side initiation list to be populated a
 ## Related
 
 ### Securities
-- [[Voyager securities]] — traded equity for [[Voyager]]
+- [[Voyager securities note]] — traded equity for [[Voyager]]
 
 ### Programs and products
 - [[Star Lab]] — commercial space station JV

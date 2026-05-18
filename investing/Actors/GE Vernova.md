@@ -164,4 +164,4 @@ Bear case: wind losses can still consume attention and margin, tariffs are a rea
 - [[AI infrastructure financing]]
 
 ### Securities
-- [[GE Vernova securities]]
+- [[GE Vernova securities note]]

@@ -1,5 +1,5 @@
 ---
-aliases: [BA]
+aliases: [IAG.L, ICAG.L]
 tags: [actor, aviation, uk, europe]
 ---
 

@@ -485,7 +485,7 @@ The Irish plant stake repurchase is structurally meaningful — the original 202
 ## Related
 
 ### Securities
-- [[Intel securities]] — equity-market note
+- [[Intel securities note]] — equity-market note
 
 ### Coverage
 - [[Cody Acree]] — Benchmark equity research analyst, $105 PT (Apr 24 2026)

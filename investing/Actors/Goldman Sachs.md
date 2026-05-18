@@ -176,7 +176,7 @@ The March 12, 2026 FT episode around [[Kunal Shah]] is telling. A senior Goldman
 
 ## Related
 
-- [[Goldman Sachs securities]] — securities note
+- [[Goldman Sachs securities note]] — securities note
 - [[David Solomon]] — CEO
 - [[John Waldron]] — president and COO
 - [[Denis Coleman]] — CFO

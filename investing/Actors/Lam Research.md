@@ -274,7 +274,7 @@ Stock beta: 1.87 (significantly more volatile than market).
 ## Related
 
 ### Securities
-- [[Lam Research securities]] — traded equity for [[Lam Research]]
+- [[Lam Research securities note]] — traded equity for [[Lam Research]]
 
 
 - [[ASML]] — peer (WFE equipment)

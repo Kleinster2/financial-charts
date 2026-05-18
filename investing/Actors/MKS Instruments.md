@@ -82,7 +82,7 @@ That makes it a semicap exposure, but not a pure-play process-tool vendor. The s
 ## Related
 
 ### Securities
-- [[MKS Instruments securities]]
+- [[MKS Instruments securities note]]
 
 ### Peers and concepts
 - [[Applied Materials]]

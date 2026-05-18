@@ -351,7 +351,7 @@ Bear case:
 
 ## Sector correlation
 
-Local 1211.HK price data unavailable in the vault database as of Apr 24, 2026, so a computed sector-correlation table is deferred until [[BYD securities]] is added to the local market-data pipeline.
+Local 1211.HK price data unavailable in the vault database as of Apr 24, 2026, so a computed sector-correlation table is deferred until [[BYD securities note]] is added to the local market-data pipeline.
 
 ---
 
@@ -387,4 +387,4 @@ BYD has limited financial disclosure in the local vault pipeline relative to US-
 - [[China AI Plus]] — policy umbrella behind AI-in-vehicles push
 
 ### Securities
-- [[BYD securities]] — Hong Kong equity / 1211.HK market note
+- [[BYD securities note]] — Hong Kong equity / 1211.HK market note

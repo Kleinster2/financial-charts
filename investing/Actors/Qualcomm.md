@@ -338,4 +338,4 @@ Impact on Qualcomm:
 - [[OpenAI]] — customer (smartphone chip co-design, per Kuo Apr 2026)
 
 ### Securities
-- [[Qualcomm securities]] — NASDAQ equity / QCOM market note
+- [[Qualcomm securities note]] — NASDAQ equity / QCOM market note

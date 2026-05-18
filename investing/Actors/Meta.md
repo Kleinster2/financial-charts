@@ -382,7 +382,7 @@ NDRC unwind order (Apr 27, 2026):
 - Founders [[Xiao Hong]] (CEO) and [[Ji Yichao]] (chief scientist) barred from leaving mainland China since Mar 22, 2026 — operational binding constraint
 - Capital had already been transferred; ~100 Manus engineers had moved to [[Singapore]]; integration into [[Meta Superintelligence Labs]] paused
 - Unwinding mechanics (return of consideration, IP separation, staff repatriation) undefined in the NDRC statement
-- [[Meta securities|META]] traded ~0.2% lower in pre-market on Apr 27 — muted reaction reflecting that the unwind had been telegraphed by the March travel ban and that Meta's [[AI capex arms race|AI capex commitment]] does not depend on Manus completing
+- [[Meta securities note|META]] traded ~0.2% lower in pre-market on Apr 27 — muted reaction reflecting that the unwind had been telegraphed by the March travel ban and that Meta's [[AI capex arms race|AI capex commitment]] does not depend on Manus completing
 - Strategic implication: Meta's [[Agentic AI]] catch-up timeline lengthens; [[Moltbook]] acqui-hire and in-house [[Meta Superintelligence Labs]] build remain intact but slower
 - Geopolitical implication: first major test and first major reversal of [[Singapore washing]] as a viable exit path for Chinese AI; closes one corridor in the broader [[US-China decoupling]] frame
 
@@ -731,7 +731,7 @@ The structural read: the [[2026 OpenAI revenue miss]] event one day earlier alre
 - [[Stripe]] - leading stablecoin payments partner (Collison on Meta board, Apr 2025). Bridge subsidiary has OCC charter
 
 ### Securities
-- [[Meta securities]]
+- [[Meta securities note]]
 
 ### Debt
 - [[Meta bonds]] - $59B bond inventory (AA-/Aa3, zero to $59B in 3.5 years)

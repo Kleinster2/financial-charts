@@ -40,7 +40,7 @@ First-day action was wild — NAV ~$19/share, opened ~$31, briefly spiked to $12
 ## Related
 
 ### Securities
-- [[Fundrise securities]] — VCX price history and technicals
+- [[Fundrise securities note]] — VCX price history and technicals
 
 ### Competitors
 - [[Powerlaw Corp]] — competitor (PWRL, pending [[Nasdaq]])

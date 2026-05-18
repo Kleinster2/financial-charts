@@ -181,7 +181,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[General Dynamics securities]] — equity-market note
+- [[General Dynamics securities note]] — equity-market note
 
 
 Subsidiaries:

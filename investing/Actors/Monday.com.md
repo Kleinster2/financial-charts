@@ -131,7 +131,7 @@ Three things will determine whether the recovery extends past the May 11 print:
 | SMB customer count | Stabilizes ([[Google]] algo headwind absorbed) | Continues to decline; net adds turn negative |
 | FY2026 guide vs Feb cut | Reaffirmed or modestly raised | Cut again; lawsuit overhang compounds |
 
-See [[Monday.com securities]] for the price detail. The lead-plaintiff deadline overlap with the earnings date means the May 11 session will combine securities-litigation and earnings-driven volatility in one print — execution risk is asymmetrically high.
+See [[Monday.com securities note]] for the price detail. The lead-plaintiff deadline overlap with the earnings date means the May 11 session will combine securities-litigation and earnings-driven volatility in one print — execution risk is asymmetrically high.
 
 ---
 
@@ -152,7 +152,7 @@ See [[Monday.com securities]] for the price detail. The lead-plaintiff deadline 
 
 ### Securities
 
-- [[Monday.com securities]] — MNDY ([[Nasdaq]]) price history and listing details
+- [[Monday.com securities note]] — MNDY ([[Nasdaq]]) price history and listing details
 
 ### Peers / sector
 

@@ -156,7 +156,7 @@ Pressures:
 ## Related
 
 ### Securities
-- [[Roblox securities]] - RBLX common stock, price history, and earnings reactions
+- [[Roblox securities note]] - RBLX common stock, price history, and earnings reactions
 
 ### Peers and context
 - [[Nintendo]] — gaming peer

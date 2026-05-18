@@ -89,7 +89,7 @@ The company's best surviving commercial path appears to be large-project PEM ten
 ## Related
 
 ### Securities
-- [[ITM Power securities]] — traded equity for [[ITM Power]]
+- [[ITM Power securities note]] — traded equity for [[ITM Power]]
 
 
 ### Concepts

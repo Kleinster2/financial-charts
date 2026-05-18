@@ -648,7 +648,7 @@ Analysts see Google at "pole position" in commercializing AI — spending as agg
 ## Related
 
 ### Securities
-- [[Google securities]] — stock, ETF exposure, options, and price-action context
+- [[Google securities note]] — stock, ETF exposure, options, and price-action context
 
 ### Products
 - [[Gemini]] — AI model (750M MAU)

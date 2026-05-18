@@ -266,7 +266,7 @@ Sources: [Morgan Stanley research summary via Bloomberg](https://www.bloomberg.c
 ## Related
 
 ### Securities
-- [[Ford securities]] — NYSE: F equity-market note
+- [[Ford securities note]] — NYSE: F equity-market note
 
 ### Units / Subsidiaries
 - [[Ford Energy]] — battery-storage subsidiary; May 2026 launch

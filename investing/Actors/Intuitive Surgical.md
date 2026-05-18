@@ -179,7 +179,7 @@ Zacks detail: Rank #1 (Strong Buy). Value D, Growth C, Momentum D. Market cap $1
 ## Related
 
 ### Securities
-- [[Intuitive Surgical securities]] — traded equity for [[Intuitive Surgical]]
+- [[Intuitive Surgical securities note]] — traded equity for [[Intuitive Surgical]]
 
 
 - [[Agentic AI]] — surgical automation

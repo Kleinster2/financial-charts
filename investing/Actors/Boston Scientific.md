@@ -121,7 +121,7 @@ Bear case:
 ## Related
 
 ### Securities
-- [[Boston Scientific securities]] — traded equity for [[Boston Scientific]]
+- [[Boston Scientific securities note]] — traded equity for [[Boston Scientific]]
 
 
 - [[Healthcare]] — sector hub

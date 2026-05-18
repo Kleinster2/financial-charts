@@ -190,7 +190,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[DR Horton securities]] — equity-market note
+- [[DR Horton securities note]] — equity-market note
 
 ### Business and ecosystem
 - [[Housing]] — sector hub

@@ -566,7 +566,7 @@ See [[Short interest]] for interpretation framework.
 ## Related
 
 ### Securities
-- [[Tesla securities]] — traded equity for [[Tesla]]
+- [[Tesla securities note]] — traded equity for [[Tesla]]
 
 
 - [[TERAFAB]] — $20-25B joint fab with SpaceX/xAI, announced Mar 21 2026. Inference chips for vehicles + Optimus. Bernstein estimates full vision at $5-13T. Not yet in 2026 capex plan (already >$20B).

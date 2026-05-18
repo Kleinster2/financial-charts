@@ -187,7 +187,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[Regeneron securities]] — equity-market note
+- [[Regeneron securities note]] — equity-market note
 
 
 - [[Biopharma]] — sector

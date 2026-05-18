@@ -317,7 +317,7 @@ Micron exiting Crucial + [[Apple]] passing costs to consumers = the squeeze is r
 ## Related
 
 ### Securities
-- [[Micron securities]] — price history, relative value, ETF exposure, charts, analyst coverage
+- [[Micron securities note]] — price history, relative value, ETF exposure, charts, analyst coverage
 
 ### Sectors
 - [[US Memory]] — sub-sector

@@ -156,7 +156,7 @@ What remains for BP: standalone strategy under continuing investor pressure ([[E
 
 ### Securities
 
-- [[BP securities]] — BP (NYSE/LSE) market data, sector correlation, price chart
+- [[BP securities note]] — BP (NYSE/LSE) market data, sector correlation, price chart
 
 ### Peers
 

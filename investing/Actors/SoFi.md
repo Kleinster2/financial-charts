@@ -206,7 +206,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[SoFi securities]] — equity-market note
+- [[SoFi securities note]] — equity-market note
 
 
 - [[Robinhood]] — competitor (investing)

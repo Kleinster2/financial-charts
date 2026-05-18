@@ -161,7 +161,7 @@ Full structural treatment: [[Private market secondaries#Issuer pushback: the voi
 
 ### Securities
 
-- [[Forge Global securities]] — FRGE common stock; arb-spread to Schwab $45 deal price
+- [[Forge Global securities note]] — FRGE common stock; arb-spread to Schwab $45 deal price
 
 ### Entities
 

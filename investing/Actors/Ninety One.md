@@ -62,4 +62,4 @@ Annual revenue and earnings data to be added in a follow-up pass (requires Alpha
 - [[South Africa]] — dual-listing and operational base via Cape Town office
 
 ### Securities
-- [[Ninety One securities]] — tradeable instrument (N91.L, NY1.JO)
+- [[Ninety One securities note]] — tradeable instrument (N91.L, NY1.JO)

@@ -369,7 +369,7 @@ Bear case:
 ## Related
 
 ### Securities
-- [[IBM securities]] — traded equity for [[IBM]]
+- [[IBM securities note]] — traded equity for [[IBM]]
 
 
 - [[Microsoft]] — competitor (enterprise AI, Copilot)

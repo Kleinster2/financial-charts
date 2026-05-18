@@ -41,7 +41,7 @@ The strategic asset is distribution and data rather than standalone growth. Live
 
 ### Securities
 
-- [[LivePerson securities]] - LPSN equity note
+- [[LivePerson securities note]] - LPSN equity note
 
 ### Companies and concepts
 

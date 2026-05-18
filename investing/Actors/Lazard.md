@@ -41,7 +41,7 @@ The Asset Management inflection is the single most important data point: $9B of 
 
 Financial Advisory was -4% on slipped closings — same pattern that hit [[Perella Weinberg Partners]] (-30% revenue) and that confirms the deal-cycle drag is sector-wide rather than firm-specific. Management framing matched PWP's "back-half-weighted" guide: pipeline intact, closings deferred 6 months by [[2026 Iran conflict market impact|Iran-conflict]]-related buyer caution.
 
-LAZ closed May 1 at $45.13, -6.9% from Apr 30 (-3.1σ on 60-day vol; β-adjusted). The selloff weighed the advisory miss and Lazard CL transaction dilution heavier than the AM inflow inflection — investor reaction read as "we'll re-underwrite when 2027 accretion is closer to print." See [[Lazard securities]] for the price detail.
+LAZ closed May 1 at $45.13, -6.9% from Apr 30 (-3.1σ on 60-day vol; β-adjusted). The selloff weighed the advisory miss and Lazard CL transaction dilution heavier than the AM inflow inflection — investor reaction read as "we'll re-underwrite when 2027 accretion is closer to print." See [[Lazard securities note]] for the price detail.
 
 ---
 
@@ -100,7 +100,7 @@ The Q1 2026 advisory revenue print (-4% YoY on slipped closings) followed the sa
 
 ### Securities
 
-- [[Lazard securities]] — LAZ ([[NYSE]]) price history and listing details
+- [[Lazard securities note]] — LAZ ([[NYSE]]) price history and listing details
 
 ### Q1 2026 deal and leadership
 

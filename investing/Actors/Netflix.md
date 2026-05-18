@@ -372,7 +372,7 @@ Revenue CAGR 2018-2024: ~16%. Net income inflected upward sharply in 2024 on ope
 - [[Netflix-WB Senate Antitrust Hearing 2026-02-03]] — Senate hearing on deal
 
 ### Securities
-- [[Netflix securities]] — stock, ETF exposure, options, and price-action context
+- [[Netflix securities note]] — stock, ETF exposure, options, and price-action context
 
 ---
 

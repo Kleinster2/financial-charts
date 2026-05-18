@@ -188,7 +188,7 @@ Global connector market is an oligopoly. TEL, [[Amphenol]], and Molex (privately
 - [[Terrence Curtin]] — CEO
 
 ### Securities
-- [[TE Connectivity securities]] — ticker-level price history, charts, valuation metrics
+- [[TE Connectivity securities note]] — ticker-level price history, charts, valuation metrics
 
 ### Concepts
 - [[AI infrastructure financing]] — data networks connector tailwind

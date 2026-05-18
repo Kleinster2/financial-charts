@@ -230,7 +230,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[Starbucks securities]] — equity-market note
+- [[Starbucks securities note]] — equity-market note
 
 
 ### People

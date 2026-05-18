@@ -102,7 +102,7 @@ Detailed historical income statement to be backfilled if needed; given the H2 20
 
 ### Securities
 
-- [[ARC Resources securities]] — AETUF (US OTC) market data, sector correlation, price chart
+- [[ARC Resources securities note]] — AETUF (US OTC) market data, sector correlation, price chart
 
 ### Deal counterparties
 

@@ -152,7 +152,7 @@ The story of ACM Research is the story of a Silicon Valley startup that became C
 
 ### Securities
 
-- [[ACM Research securities]]
+- [[ACM Research securities note]]
 
 ### Actors
 

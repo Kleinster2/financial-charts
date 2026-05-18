@@ -108,7 +108,7 @@ Why this matters for [[PE-insurance convergence]]: Marsh/Guy Carpenter places th
 
 ### Securities
 
-- [[Marsh McLennan securities]] -- NYSE common equity
+- [[Marsh McLennan securities note]] -- NYSE common equity
 
 - [[Aon]] — \#2 broker, direct competitor
 - [[Munich Re]] — reinsurance client (Guy Carpenter places business)

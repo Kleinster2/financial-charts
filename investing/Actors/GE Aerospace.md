@@ -159,7 +159,7 @@ Now focused solely on aviation.
 ## Related
 
 ### Securities
-- [[GE Aerospace securities]] — traded equity for [[GE Aerospace]]
+- [[GE Aerospace securities note]] — traded equity for [[GE Aerospace]]
 
 
 ### Competitors

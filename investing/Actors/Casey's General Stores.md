@@ -40,7 +40,7 @@ This is one of the cleaner public examples of voice AI moving into transactional
 
 ### Securities
 
-- [[Casey's General Stores securities]] - CASY equity note
+- [[Casey's General Stores securities note]] - CASY equity note
 
 ### Companies and concepts
 

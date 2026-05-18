@@ -1,6 +1,37 @@
+---
+aliases: [PAGS, PagSeguro Digital, PagBank]
+tags: [actor, fintech, payments, brazil, public]
+---
 #actor #company #fintech #payments #brazil #public
 
-**PagSeguro** (NYSE: PAGS) — Brazilian fintech. Payments acquiring + digital banking (PagBank). R$18.3B revenue, R$2.3B net profit (2024 record). 30M+ customers. IPO 2018 was Brazil's largest fintech debut. Competes with [[Nubank]], [[Mercado Libre]], [[PicPay]], [[StoneCo]].
+PagSeguro (NYSE: PAGS) — Brazilian fintech. Payments acquiring + digital banking (PagBank). R$18.3B revenue, R$2.3B net profit (2024 record). 30M+ customers. IPO 2018 was Brazil's largest fintech debut. Competes with [[Nubank]], [[Mercado Libre]], [[PicPay]], [[StoneCo]].
+
+---
+
+## Sector correlation
+
+| Sector | ETF | Correlation |
+|--------|-----|-------------|
+| [[Consumer]] | XLY | 0.51 |
+| China Internet | KWEB | 0.51 |
+| Technology | XLK | 0.48 |
+| *S&P 500* | *SPY* | *0.54* |
+
+PAGS shows moderate Consumer correlation (XLY r = 0.51).
+
+---
+
+## May 13, 2026 — Brazil cluster sell-off
+
+PAGS closed at $8.63 on May 13, -11.8% (-5.4σ) — the largest single-day Brazil-cluster move and the deepest sigma read across the vault's Brazilian-ADR cohort. The catalyst was not idiosyncratic: it was the coordinated repricing of the [[Selic]] cut path following the May 9 April IPCA print (4.39% YoY, accelerating from 3.81% in March) and the May 11 [[Petrobras]] Q1 miss (-7.2% YoY profit). PAGS is rate-sensitive on both sides — wholesale funding costs trade off forward DI, and the consumer-credit book is exposed to the same Brazilian household-cash-flow channel that responds to higher diesel / food / housing inflation. See [[Brazil]] for the full cluster-move read.
+
+---
+
+## Price
+
+![[pagseguro-price-chart.png]]
+
+*PAGS since 2018 IPO — peaked ~$60 in 2021, structural underperformance through Pix transition and fintech multiple compression. May 13 close $8.63 was the deepest sigma read in the cluster sell-off (-5.4σ).*
 
 ---
 
@@ -22,12 +53,12 @@
 
 ## Business model
 
-**Two integrated segments:**
+Two integrated segments:
 
 | Segment | Description | Revenue driver |
 |---------|-------------|----------------|
-| **Payments (PagSeguro)** | Merchant acquiring, POS terminals | MDR, terminal fees |
-| **Banking (PagBank)** | Digital bank, accounts, cards, credit | NIM, fees, interchange |
+| Payments (PagSeguro) | Merchant acquiring, POS terminals | MDR, terminal fees |
+| Banking (PagBank) | Digital bank, accounts, cards, credit | NIM, fees, interchange |
 
 The model: acquire merchants with payment terminals → convert them to PagBank accounts → cross-sell credit and banking services.
 
@@ -35,14 +66,22 @@ The model: acquire merchants with payment terminals → convert them to PagBank 
 
 ## Financials
 
+![[pagseguro-fundamentals-chart.png]]
+
+*PAGS revenue + net income from yfinance ingest. Revenue stepped from R$15.9B (2023) → R$18.8B (2024) → R$20.4B (2025), net income flat ~R$2.1B 2024-2025 — top-line growth without operating leverage.*
+
+![[pagseguro-sankey.png]]
+
+*FY2025 income statement Sankey.*
+
 | Year | Revenue (R$B) | Net Income (R$B) | Growth |
 |------|---------------|------------------|--------|
 | 2021 | 12.0 | 1.4 | — |
 | 2022 | 14.5 | 1.5 | +21% |
 | 2023 | 15.7 | 1.7 | +8% |
-| 2024 | **18.3** | **2.3** | +17% |
+| 2024 | 18.3 | 2.3 | +17% |
 
-**Q3 2024:** Record revenue R$4.8B (+20% YoY), net income R$572M (+30% YoY)
+Q3 2024: Record revenue R$4.8B (+20% YoY), net income R$572M (+30% YoY)
 
 ---
 
@@ -63,7 +102,7 @@ The model: acquire merchants with payment terminals → convert them to PagBank 
 |------|-------|
 | 2006 | Founded as subsidiary of UOL (Brazilian internet portal) |
 | 2012 | Launches PagSeguro merchant acquiring |
-| Jan 2018 | **IPO on NYSE** — $2.3B raised, largest Brazilian fintech IPO |
+| Jan 2018 | IPO on NYSE — $2.3B raised, largest Brazilian fintech IPO |
 | 2019 | Launches PagBank digital bank |
 | 2020 | [[Pix]] launch intensifies competition |
 | 2024 | Record profitability (R$2.3B net income) |
@@ -117,6 +156,10 @@ Management guidance:
 
 ## Related
 
+### Securities
+- [[PagSeguro securities note]] — NYSE: PAGS equity-market companion
+
+### Competitors
 - [[Nubank]] — competitor (larger, digital bank focus)
 - [[Mercado Libre]] — competitor (Mercado Pago)
 - [[PicPay]] — competitor (digital bank, IPO Jan 2026)

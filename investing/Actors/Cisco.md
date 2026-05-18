@@ -210,7 +210,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[Cisco securities]] — NASDAQ: CSCO equity-market note
+- [[Cisco securities note]] — NASDAQ: CSCO equity-market note
 
 ### Competitors / peers
 - [[Arista Networks]] — competitor (AI data center networking)

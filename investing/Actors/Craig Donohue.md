@@ -18,7 +18,7 @@ Craig Donohue is CEO of [[CBOE]], appointed in May 2025. He is a derivatives-mar
 ## Related
 
 - [[CBOE]] - current company
-- [[CBOE securities]] - public equity
+- [[CBOE securities note]] - public equity
 - [[CME Group]] - prior company
 - [[Market structure]] - domain context
 

@@ -349,7 +349,7 @@ YTD CoreWeave still up 60%+ through May 8 despite the post-earnings selloff. The
 ## Related
 
 ### Securities
-- [[CoreWeave securities]] — equity-market note
+- [[CoreWeave securities note]] — equity-market note
 
 ### Business and ecosystem
 - [[NVIDIA]] — investor, supplier (strategic backer)

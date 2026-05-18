@@ -186,5 +186,5 @@ NIO has limited financial disclosure in the local chart pipeline: fundamentals c
 - [[NVIDIA]] — supplier dependency being reduced
 
 ### Securities
-- [[NIO securities]] — NYSE ADR / market note
+- [[NIO securities note]] — NYSE ADR / market note
 

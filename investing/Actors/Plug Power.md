@@ -229,7 +229,7 @@ This note does not yet track house-by-house target history. The durable pattern 
 
 ### Securities
 
-- [[Plug Power securities]] — common equity listing details
+- [[Plug Power securities note]] — common equity listing details
 
 ### Peers and themes
 

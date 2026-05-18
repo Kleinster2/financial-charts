@@ -180,7 +180,7 @@ Shell announced a definitive agreement to acquire [[ARC Resources]] in a deal va
 
 ### Securities
 
-- [[Shell securities]] — SHEL (NYSE/LSE) market data, sector correlation, price chart
+- [[Shell securities note]] — SHEL (NYSE/LSE) market data, sector correlation, price chart
 
 ### Targets and basins
 

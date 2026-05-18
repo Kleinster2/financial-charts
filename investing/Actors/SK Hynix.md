@@ -274,7 +274,7 @@ Public agency ratings are not yet captured in this note. The current equity deba
 - [[NVIDIA]] — customer ([[HBM]] for GPUs)
 
 ### Securities
-- [[SK Hynix securities]] — listed expression of the HBM, SOCAMM2, and Korea-risk debate
+- [[SK Hynix securities note]] — listed expression of the HBM, SOCAMM2, and Korea-risk debate
 
 ### Context
 - [[Memory shortage 2025-2026]] — thesis ([[HBM]] shortage driver)

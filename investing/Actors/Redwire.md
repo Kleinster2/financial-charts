@@ -161,7 +161,7 @@ Same-session cohort: [[Rocket Lab]] +34, [[BlackSky]] +22, [[Intuitive Machines]
 
 ### Securities
 
-- [[Redwire securities]] — RDW common equity companion note
+- [[Redwire securities note]] — RDW common equity companion note
 
 ### Customers and programs
 

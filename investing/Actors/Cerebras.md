@@ -1,9 +1,42 @@
 ---
 aliases: [CBRS]
 ---
-#actor #ai #semiconductor #usa #private #ipo-pending
+#actor #ai #semiconductor #usa #public
 
-**Cerebras** — Wafer-scale AI chips. Entire wafer = one chip. Training + inference. Last independent SRAM player after NVIDIA-Groq deal. Nasdaq ticker CBRS is pending May 2026 IPO pricing/trading, but the company has not yet begun trading as of May 12, 2026.
+**Cerebras** — Wafer-scale AI chips. Entire wafer = one chip. Training + inference. Last independent SRAM player after NVIDIA-Groq deal. Listed on Nasdaq as CBRS on May 14, 2026 in the largest US tech IPO of 2026 — closed Day-1 at $311.07 (+68.1% vs $185 offer), fully diluted ~$94.8B market cap. See [[Cerebras securities note]] for the equity-market companion.
+
+---
+
+## Price
+
+![[cerebras-price-chart.png]]
+
+*CBRS Day-1 trading on Nasdaq, May 14, 2026 — close $311.07. Chart will fill in as multi-day price action develops.*
+
+---
+
+## Financials
+
+![[cerebras-fundamentals-chart.png]]
+
+*CBRS revenue + net income, FY2022-FY2025 (yfinance ingest May 14 2026). Revenue compounded $24.6M → $79M → $290M → $510M — an exponential ramp that explains the IPO underwriting confidence. Net income line shows the structural story the [[Cerebras IPO revival April 2026]] event note flagged: deeply negative through 2024 (operating loss + non-operating drag), GAAP-positive in 2025 only because of the $363.3M forward-contract extinguishment gain that bridged the still-negative -$145M operating loss into +$237.8M reported earnings. The 2024 dip to -$481.6M is the worst-print year, ~$380M of non-operating expense on top of the -$101.6M operating loss.*
+
+![[cerebras-sankey.png]]
+
+*FY2025 income statement Sankey. Revenue → COGS / OpEx / Op loss / Non-op income / NI flow. The non-operating wedge is the key visual — without it, FY2025 would have been another operating-loss year.*
+
+S-1 disclosed annual income statement (full historical detail in [[Cerebras IPO revival April 2026]]):
+
+| Year | Revenue | GAAP NI / (loss) | Operating income / (loss) | Note |
+|------|---------|------------------|--------------------------|------|
+| 2022 | $24.6M | -$177.7M | -$178.8M | Per yfinance ingest |
+| 2023 | $78.7M | -$127.2M | -$133.9M | Per Sep 2024 S-1 |
+| 2024 | $290.3M | -$481.6M | -$101.6M | Per Apr 2026 S-1; net-income trough on non-operating drag |
+| 2025 | $510.0M | $237.8M | -$145.3M | $390.7M other income (mostly forward-contract extinguishment gain $363.3M) bridged operating loss to GAAP profit |
+
+2025 customer concentration per S-1: [[MBZUAI]] 62%, [[UAE G42]] 24%, combined 86%. Hardware revenue $358.4M, cloud/services $151.6M. Gross margin 39.0% (2025) vs 42.3% (2024). Non-GAAP net loss -$75.7M shows operating economics before the non-operating wedge.
+
+Remaining performance obligations at Apr 2026 filing: $24.6B. Recognition cadence is back-end loaded — ~15% through end of 2027, ~43% in months 25-48, the rest later. No [[OpenAI]] revenue recognized in 2025; the $20B+ commitment is forward-only.
 
 ---
 
@@ -204,13 +237,36 @@ Disclosed top equity holders at IPO (Class B common):
 | [[Benchmark]] | 9.5% |
 | [[Foundation Capital]] | 8.3% |
 | [[Eclipse Ventures]] | 7.3% |
-| [[Alpha Wave]] | 6.5% |
+| [[Alpha Wave Global]] | 6.5% |
 
 Worth flagging: [[UAE G42]] is not in the disclosed top-5 holders despite its strategic-customer / Condor Galaxy partnership, and [[MBZUAI]] is not on the equity register at all — the 86% combined revenue concentration documented in [[Cerebras IPO revival April 2026]] is a *customer* concentration, not an equity-ownership overlap.
 
 The pricing settles the live underwriting question opened by the April 17 S-1 in favor of demand: investors funded the forward [[OpenAI]] story and AI-infrastructure scarcity narrative at a valuation 2.6x the last private mark, with no equity-side governance link to the Abu Dhabi customer concentration. The inverse risk now flips to the aftermarket — every basis point above the $185 offer price compounds the earnings-quality gap that the S-1 made unavoidable. Aftermarket trading May 14 is the first independent read on whether the buyside that took allocation believes the same $56.4B fully diluted valuation that the underwriters cleared the book at.
 
 *Sources: Reuters, Bloomberg, MarketScreener, Crunchbase News, May 13 2026.*
+
+---
+
+## May 14, 2026 — Day-1 trading print
+
+CBRS opened on Nasdaq at $350.00 (+89.2% vs the $185 offer), reached an intraday high of $386.34 (+108.8%), and closed at $311.07 (+68.1%) on 32.68M shares — more than the entire 30M IPO float turned over in 6.5 hours. The session printed a full 28% intraday range from a $300.07 low. After-hours trading lifted to $329.57 (+78.1%) as buyers absorbed the close-of-day fade overnight.
+
+| Print | Price | Vs $185 offer |
+|-------|-------|---------------|
+| Open | $350.00 | +89.2% |
+| High | $386.34 | +108.8% |
+| Low | $300.07 | +62.2% |
+| Close | $311.07 | +68.1% |
+| After-hours | $329.57 | +78.1% |
+| Volume | 32.68M | >100% of 30M IPO float |
+
+At $311.07 close, the implied fully diluted market cap is ~$94.8B (~305M shares × $311.07), ~68% above the $56.4B IPO mark and ~4.3× the ~$22B January 2026 private mark. Intraday high marked the company at ~$117.8B fully diluted.
+
+The Day-1 print resolves the demand side of the [[Cerebras IPO revival April 2026]] underwriting tension. Investors paid up for the forward [[OpenAI]] demand story and AI-infrastructure scarcity premium; the S-1 customer-concentration math ([[MBZUAI]] 62%, [[UAE G42]] 24%) was assigned ~zero implicit weight in the public mark. What did not get resolved: the gap between the +89% open and the -19.5% close-vs-high fade. May 15 regular-hours trading is the first independent read on whether the print holds once the IPO-allocation cohort is no longer the only relevant buyer.
+
+See [[Cerebras securities note]] for full equity-market detail (peer comparisons, holder list, ticker-side notes). See [[Cerebras IPO revival April 2026]] for the full S-1-to-Day-1 timeline.
+
+*Sources: Reuters, Bloomberg, StockAnalysis.com, VentureBeat, May 14 2026 close data; local market_data.db CBRS row.*
 
 ---
 
@@ -309,23 +365,36 @@ Key investors:
 
 | Metric | Value |
 |--------|-------|
-| Ticker | Private (IPO Q2 2026) |
-| Valuation | ~$23.1B last private mark; IPO fundraising reportedly targets ~$35B |
-| Total raised | $2B+ |
+| Ticker | Nasdaq: CBRS (listed May 14, 2026) |
+| IPO price | $185 / share |
+| Gross proceeds | $5.55B (30M shares) |
+| Day-1 close | $311.07 (+68.1% vs offer) |
+| Implied fully diluted mkt cap (close) | ~$94.8B |
+| Total raised pre-IPO | $2B+ |
 | Approach | Wafer-scale chips |
 | Product | WSE-3, CS-3 |
 | Position | Last independent SRAM player |
-| Key customers | OpenAI ($20B+ potential), [[G42]] |
+| Key customers | [[OpenAI]] ($20B+ multi-year), [[UAE G42]], [[MBZUAI]] |
 
-*Updated 2026-04-17*
+*Updated 2026-05-14*
 
 ---
 
 ## Related
 
+### Securities
+- [[Cerebras securities note]] — Nasdaq: CBRS equity-market companion
+
+### IPO event
+- [[Cerebras IPO revival April 2026]] — S-1-to-Day-1 timeline, customer-concentration math, demand-side resolution
+
 ### Customers
 - [[OpenAI]] — $20B+ potential multi-year compute commitment (Apr 2026 update)
-- [[UAE G42]] — Condor Galaxy, strategic partner
+- [[UAE G42]] — [[Condor Galaxy]] strategic partner, 24% of 2025 revenue per S-1
+- [[MBZUAI]] — 62% of 2025 revenue per S-1
+
+### Products / deployments
+- [[Condor Galaxy]] — strategic AI supercomputer cluster with [[UAE G42]]
 
 ### Competitors
 - [[NVIDIA]] — competitor, potential acquirer
@@ -333,9 +402,19 @@ Key investors:
 - [[SambaNova]] — former competitor ([[Intel]]-acquired)
 - [[Tenstorrent]] — AI chip peer
 
+### Top IPO holders (disclosed Class B)
+- [[Fidelity]] (11.3%)
+- [[Benchmark]] (9.5%)
+- [[Foundation Capital]] (8.3%)
+- [[Eclipse Ventures]] (7.3%)
+- [[Alpha Wave Global]] (6.5%)
+
 ### Concepts
+- [[2026 IPO pipeline]] — May 2026 live test of AI-infrastructure equity demand
 - [[Inference disaggregation]] — market context (SRAM for decode)
-- [[Long Cerebras]] — thesis (last independent SRAM player)
+- [[OpenAI Infrastructure Spend]] — forward demand framework
+- [[AI infrastructure financing risk]] — financing-lens framing
+- [[Long Cerebras]] — equity-story thesis
 
 ### Sources
 - [Bloomberg: Cerebras $22B Valuation](https://www.bloomberg.com/news/articles/2026-01-13/cerebras-in-discussions-to-raise-funds-at-22-billion-valuation)

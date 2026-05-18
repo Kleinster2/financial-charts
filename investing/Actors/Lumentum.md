@@ -179,4 +179,4 @@ Daily return correlations since Jan 2025 (available optical/networking peers):
 - [[OFC 2026]] — R300 Optical Circuit Switch demo
 - [[NVIDIA photonics investment March 2026]] — full deal structure
 - [[Broadcom]] — silicon photonics competitor
-- [[Lumentum securities]] — price history and technicals
+- [[Lumentum securities note]] — price history and technicals

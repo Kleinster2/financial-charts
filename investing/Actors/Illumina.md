@@ -153,7 +153,7 @@ Updated FY2026 guidance:
 | Operating margin | n/a | 23.4-23.6% |
 | Non-GAAP diluted EPS | $5.05-5.20 | $5.15-5.30 (both ends +$0.10) |
 
-ILMN closed May 1 at $135.78, +7.1% from Apr 30 (+2.6σ on 60-day vol; β-adjusted). The reaction read as confirmation of the [[NovaSeq X]] transition narrative — high-throughput consumables on the new platform are now the volume base, not the legacy 6000, and the placement pace says clinical labs are committing capex despite the [[China]] headwind. The beat-and-raise also positioned ILMN as the clearest "transition complete" story in the diagnostics complex relative to peer prints. See [[Illumina securities]] for the price detail.
+ILMN closed May 1 at $135.78, +7.1% from Apr 30 (+2.6σ on 60-day vol; β-adjusted). The reaction read as confirmation of the [[NovaSeq X]] transition narrative — high-throughput consumables on the new platform are now the volume base, not the legacy 6000, and the placement pace says clinical labs are committing capex despite the [[China]] headwind. The beat-and-raise also positioned ILMN as the clearest "transition complete" story in the diagnostics complex relative to peer prints. See [[Illumina securities note]] for the price detail.
 
 The print's investability hinges on durability: management's FY guide assumes the consumable-mix lift continues and the [[China]] headwind stays contained at the disclosed tariff cost. Bear case is that the Q1 instrument pace was a pull-forward; bull case is that the cumulative installed base now compounds the consumables tail.
 
@@ -177,7 +177,7 @@ The print's investability hinges on durability: management's FY guide assumes th
 
 ### Securities
 
-- [[Illumina securities]] — ILMN price history and listing details
+- [[Illumina securities note]] — ILMN price history and listing details
 
 ### Sector / customers
 

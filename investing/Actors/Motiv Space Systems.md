@@ -62,7 +62,7 @@ Motiv hardware has flown on multiple [[NASA]] missions. Most notable: the sample
 
 ## Investment relevance
 
-For [[Rocket Lab]] equity holders ([[Rocket Lab securities|RKLB]]), the Motiv acquisition is one of three concurrent May 8 catalysts that drove the +34% session move (alongside the Q1 record print and the [[Golden Dome]] SBI selection). Deal terms not disclosed; assumed to be a tuck-in scale ($50-200M range based on prior Rocket Lab acquisitions), funded from RKLB's $1.21B cash position.
+For [[Rocket Lab]] equity holders ([[Rocket Lab securities note|RKLB]]), the Motiv acquisition is one of three concurrent May 8 catalysts that drove the +34% session move (alongside the Q1 record print and the [[Golden Dome]] SBI selection). Deal terms not disclosed; assumed to be a tuck-in scale ($50-200M range based on prior Rocket Lab acquisitions), funded from RKLB's $1.21B cash position.
 
 ---
 

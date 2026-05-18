@@ -115,7 +115,7 @@ Masimo deal still on track for H2 2026 close (no new disclosure in the call beyo
 ## Related
 
 ### Securities
-- [[Danaher securities]] — traded equity for [[Danaher]]
+- [[Danaher securities note]] — traded equity for [[Danaher]]
 
 
 - [[Thermo Fisher Scientific]] — closest peer

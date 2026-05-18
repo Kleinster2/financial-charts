@@ -93,7 +93,7 @@ Whether Nel survives as an independent entity through 2028-2030 is a genuine ope
 ## Related
 
 ### Securities
-- [[Nel ASA securities]] — traded equity for [[Nel ASA]]
+- [[Nel ASA securities note]] — traded equity for [[Nel ASA]]
 
 
 ### Concepts

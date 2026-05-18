@@ -70,7 +70,7 @@ As a premium-positioned chocolate maker, [[Lindt Spruengli]] is more exposed tha
 ## Related
 
 ### Securities
-- [[Lindt Spruengli securities]] — LISN registered shares; LISP participation certificates
+- [[Lindt Spruengli securities note]] — LISN registered shares; LISP participation certificates
 
 ### Other
 - [[Food Brewer]] — strategic cell-based cocoa partner

@@ -540,7 +540,7 @@ The framework should be read alongside [[PBOC]] governor [[Pan Gongsheng]]'s par
 - [[Happy Horse]] — open-source AI video generation (Apr 2026, anonymous release)
 
 ### Securities
-- [[Alibaba securities]] — NYSE: BABA / HKEX: 9988
+- [[Alibaba securities note]] — NYSE: BABA / HKEX: 9988
 
 ### Competitors
 - [[ByteDance]] — competitor ([[Doubao]] has 159M MAU vs Qwen's 100M; [[Volcano Engine]] MaaS leader)

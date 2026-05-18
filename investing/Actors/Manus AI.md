@@ -71,7 +71,7 @@ The April 25 Seoul Economic Daily reporting that China is now also barring Chine
 | HongShan return | ~24× claim now provisional pending unwind mechanics; capital may be subject to claw-back |
 | Meta agent strategy | Manus was the centerpiece of Meta's [[Agentic AI]] catch-up; alternative path through [[Moltbook]] acqui-hire (Mar 2026) and in-house [[Meta Superintelligence Labs]] build remains intact but slower |
 
-The market reaction was muted: [[Meta securities|META]] traded ~0.2% lower in pre-market on April 27 per Investing.com. The contained move reflects two factors — the unwind had been telegraphed by the March travel ban and the months-long MOFCOM review, and Meta's [[AI capex arms race|AI capex commitment]] and [[Meta Superintelligence Labs]] build do not depend on Manus completing.
+The market reaction was muted: [[Meta securities note|META]] traded ~0.2% lower in pre-market on April 27 per Investing.com. The contained move reflects two factors — the unwind had been telegraphed by the March travel ban and the months-long MOFCOM review, and Meta's [[AI capex arms race|AI capex commitment]] and [[Meta Superintelligence Labs]] build do not depend on Manus completing.
 
 ---
 

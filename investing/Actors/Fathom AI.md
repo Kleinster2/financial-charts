@@ -34,7 +34,7 @@ One-line read: Fathom is the largest-installed-base bot-based AI notetaker now c
 | Status | Private |
 | Notable distribution | [[HubSpot]] 2025 Most Used App; [[G2]] 2026 Best Software Top 100 |
 
-Per [[YipitData]] (Apr 2026 read of Feb 2026 cohort), Fathom has roughly 20% more customers than [[Granola]] but growth is slowing and headcount is down 6% over six months. Customers adopting [[Granola]] frequently drop Fathom while the reverse rarely occurs — a displacement signal that the April 15 2026 "Fathom 3.0" platform update is explicitly designed to neutralise.
+Per [[YipitData]] (Apr 2026 read of Feb 2026 cohort), Fathom has roughly 20% more customers than [[Granola]] but growth is slowing and headcount is down 6% over six months. Customers adopting [[Granola]] frequently drop Fathom while the reverse rarely occurs — a displacement signal that the April 15 2026 "Fathom 3.0" platform update is explicitly designed to neutralize.
 
 ---
 

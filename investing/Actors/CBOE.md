@@ -203,7 +203,7 @@ Strategic read: CBOE moving into prediction markets is the meaningful new vector
 ## Related
 
 ### Securities
-- [[CBOE securities]] - CBOE common stock, price history, and earnings reactions
+- [[CBOE securities note]] - CBOE common stock, price history, and earnings reactions
 
 ### Peers and context
 - [[CME Group]] — competitor (futures, options)

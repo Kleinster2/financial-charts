@@ -156,7 +156,7 @@ Source: ORIX corporate ratings page, as of Dec. 31, 2025.
 
 | Date | Firm / analyst | Change | Notes |
 |------|----------------|--------|-------|
-| 2026-04-26 | Vault baseline | Added tracking placeholder | Analyst actions are not yet maintained in this note; use [[ORIX securities]] for market-pricing updates. |
+| 2026-04-26 | Vault baseline | Added tracking placeholder | Analyst actions are not yet maintained in this note; use [[ORIX securities note]] for market-pricing updates. |
 
 ---
 
@@ -185,7 +185,7 @@ Source: ORIX corporate ratings page, as of Dec. 31, 2025.
 ## Related
 
 ### Securities
-- [[ORIX securities]]
+- [[ORIX securities note]]
 
 ### Operating platform
 - [[Hilco Global]] — majority-owned U.S. distressed-asset and valuation platform

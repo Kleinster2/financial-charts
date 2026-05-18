@@ -80,7 +80,7 @@ Geely is one of three finalists (with [[BYD]] and [[VinFast]]) to acquire the 23
 
 ## Sector correlation
 
-Local 175.HK price data unavailable in the vault database as of Apr 24, 2026, so a computed sector-correlation table is deferred until [[Geely securities]] is added to the local market-data pipeline.
+Local 175.HK price data unavailable in the vault database as of Apr 24, 2026, so a computed sector-correlation table is deferred until [[Geely securities note]] is added to the local market-data pipeline.
 
 ---
 
@@ -106,4 +106,4 @@ Geely has limited financial disclosure in the local vault pipeline relative to U
 - [[China AI Plus]] — policy umbrella behind AI-in-vehicles push
 
 ### Securities
-- [[Geely securities]] — Hong Kong equity / 175.HK market note
+- [[Geely securities note]] — Hong Kong equity / 175.HK market note

@@ -269,7 +269,7 @@ The competitive position of the legacy businesses is irrelevant to the investmen
 ## Related
 
 ### Securities
-- [[EchoStar securities]] — price history, relative value, short interest
+- [[EchoStar securities note]] — price history, relative value, short interest
 
 ### Core
 - [[SpaceX]] — 2.8% equity stake (~$49B at IPO target). The entire investment case

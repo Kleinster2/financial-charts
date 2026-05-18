@@ -619,7 +619,7 @@ The story of Oracle is the story of a database monopolist who bet the entire com
 
 ### Securities
 
-- [[Oracle securities]] — price action, technicals, options, analyst consensus
+- [[Oracle securities note]] — price action, technicals, options, analyst consensus
 
 ### Ecosystem
 

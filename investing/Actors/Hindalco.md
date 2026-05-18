@@ -118,7 +118,7 @@ Surprising finding: the global metals cohort (RIO/BHP/VALE/FCX) clusters with US
 ## Related
 
 ### Securities
-- [[Hindalco securities]] — HINDALCO.NS / BSE 500440 listing detail
+- [[Hindalco securities note]] — HINDALCO.NS / BSE 500440 listing detail
 
 ### Subsidiaries
 - [[Novelis]] — 100% subsidiary; world's largest flat-rolled aluminium producer; primary downstream asset

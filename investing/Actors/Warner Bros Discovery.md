@@ -199,7 +199,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[Warner Bros Discovery securities]] — market-facing companion note
+- [[Warner Bros Discovery securities note]] — market-facing companion note
 
 ### Acquirers / bidders
 - [[Paramount Global]] — winning bidder ($31/share all-cash)

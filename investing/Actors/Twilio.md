@@ -177,7 +177,7 @@ Bear:
 ## Related
 
 ### Securities
-- [[Twilio securities]] - TWLO common stock, price history, and earnings reactions
+- [[Twilio securities note]] - TWLO common stock, price history, and earnings reactions
 
 ### Peers and context
 - [[Datadog]] — API-first developer platform peer

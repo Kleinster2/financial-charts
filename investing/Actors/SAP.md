@@ -30,7 +30,7 @@ The Apr 23 2026 Q1 print moved the debate back toward execution: cloud and Cloud
 | CEO | Christian Klein |
 | CFO | Dominik Asam |
 | Primary transition | ECC / on-premise ERP -> S/4HANA Cloud |
-| Securities note | [[SAP securities]] |
+| Securities note | [[SAP securities note]] |
 
 Status: largest non-American software company and one of [[Europe]]'s few mega-cap software champions.
 
@@ -288,7 +288,7 @@ The incident does not change the [[S/4HANA]] migration thesis but is the second 
 ## Related
 
 ### Securities
-- [[SAP securities]] - equity-market companion note
+- [[SAP securities note]] - equity-market companion note
 
 ### Peers
 - [[Oracle]] - ERP/database competitor

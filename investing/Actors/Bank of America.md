@@ -294,7 +294,7 @@ Bear:
 - [[Credit card rate cap]] — Trump 10% proposal (Jan 2026)
 
 ### Securities
-- [[Bank of America securities]]
+- [[Bank of America securities note]]
 
 ### Research notes
 

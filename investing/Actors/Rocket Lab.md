@@ -197,7 +197,7 @@ Neutron is the second piece of the integrated platform — Electron handles dedi
 ## Related
 
 ### Securities
-- [[Rocket Lab securities]] — RKLB common equity companion note (stub candidate — to be created)
+- [[Rocket Lab securities note]] — RKLB common equity companion note (stub candidate — to be created)
 
 ### Concepts
 - [[Golden Dome]] — missile defense program; SBI contract path

@@ -12,12 +12,12 @@ Beth Wozniak is CEO of [[nVent Electric]]. Her market relevance is nVent's shift
 |--------|-------|
 | Role | CEO, [[nVent Electric]] |
 | Focus | Electrical enclosures, liquid cooling, data-center infrastructure |
-| Public ticker exposure | [[nVent Electric securities]] / NVT |
+| Public ticker exposure | [[nVent Electric securities note]] / NVT |
 
 ## Related
 
 - [[nVent Electric]] - current company
-- [[nVent Electric securities]] - public equity
+- [[nVent Electric securities note]] - public equity
 - [[Data center infrastructure]] - demand context
 
 ---
