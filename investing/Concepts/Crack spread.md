@@ -83,7 +83,95 @@ The 3-2-1 crack stayed wide even as Brent gave back part of its peak — confirm
 | Normal | ~$15-25/bbl (3-2-1) | Competitive refining, adequate crude supply |
 | Hurricane season | Temporary spike | Gulf Coast refinery shutdowns |
 | 2022 Russia-Ukraine | $50+/bbl (record at the time) | Russian diesel/product sanctions, European shortage |
+| 2024-26 Russian refinery strikes | Periodic widening; sustained through 2026 | Ukrainian drone-strike campaign on Russian refining capacity |
 | 2026 Iran/Hormuz | 56% premium (vs 23% pre-war) | Physical shortage + crude grade mismatch + jet fuel crisis |
+
+---
+
+## Refinery-strike transmission — how product-side damage pulls crude up
+
+A refinery is geographically immobile and physically vulnerable; an oil well is mostly the opposite. So an attack pattern that targets refineries — like Ukraine's 2024-26 drone campaign against Russian refining capacity, formalized as doctrine in [[Volodymyr Zelenskyy]]'s May 17 2026 "oil industry, military production" targeting commitment (see [[Ukraine war#May 17, 2026 — escalating drone war + peace talks stalled (FT)]]) — produces a specific transmission pattern from physical damage into [[Brent crude|Brent]] pricing that the crack-spread concept is structurally designed to capture.
+
+Five channels, ranked by magnitude:
+
+### 1. Crack-spread widening (dominant channel)
+
+The mechanism most consumers would not predict from headlines:
+
+- Russia exports ~600-700 kb/d of [[Diesel fuel|diesel]] + ~100-200 kb/d of [[Gasoline|gasoline]] globally — a meaningful sleeve of world product markets, especially for European and emerging-Asia buyers
+- Refinery strikes degrade Russian refined-product *output*, not crude production
+- Less Russian product on global markets = tighter global product balances = diesel/gasoline spot prices rise (and elevated jet fuel via the [[Iran conflict airline disruption|airline disruption]] thread compounds)
+- 3-2-1 crack widens — exactly the Dale framing above (23% → 56% premium during 2026 Iran war)
+- Wider crack spreads mean refiners *everywhere else* (US Gulf Coast, India, Singapore, Middle East) can bid more aggressively for crude because their downstream margins are exceptional
+- That cross-refiner bidding pressure pulls Brent up
+
+In short: refinery damage tightens products → products pull crude up through the cross-refiner bidding channel. Brent rises but products rise more. The asymmetric response is the diagnostic — if you see crack spreads blow out without an obvious crude-side disruption, the binding constraint is product, and the damaged-refinery hypothesis is the prime explanation.
+
+### 2. Crude storage-constraint shut-in (secondary channel)
+
+When refineries can't process crude, upstream producers run into storage limits at the wellhead. [[Iran conflict oil price timeline#Iraq's Rumaila shutdown (Mar 4)|Iraq's Rumaila shut-in]] (March 2026) is the cleanest recent example — exactly the same dynamic, just at the chokepoint rather than the refinery.
+
+For Russia specifically, the constraint is partial because shadow-fleet exports route around domestic-refining bottlenecks:
+
+- Some Russian production gets shut in if domestic refining can't absorb it AND export channels can't take the excess
+- Shadow-fleet buyers ([[China]] teapot refineries, [[India]], [[Turkey]]) are already running near capacity, so they can't absorb a step-up in Russian crude without proportional cuts to their other slates
+- Net: meaningful but smaller than Channel 1; varies with how saturated shadow-fleet logistics are
+
+### 3. Asymmetry vs Hormuz-style chokepoint closure
+
+The reason the dual-shock (Russia + Iran) compounds more than the sum of parts:
+
+| Shock | Tightens crude? | Tightens products? |
+|---|---|---|
+| Iran-war Hormuz closure | Direct (Gulf crude can't ship) | Indirect (Gulf refiners can't get feedstock) |
+| Ukraine refinery strikes | Indirect (Russian production shut-in lag) | Direct (Russian product output drops) |
+
+Combined, both ends of the petroleum value chain are squeezed simultaneously. That's the structural foundation for analyst scenarios like [[Aberdeen]]'s $180/bbl Brent ([[Iran conflict oil price timeline#May 17 — Peak-summer crunch in view, Brent $105, scenario reset to $150-180 (FT)|FT May 17]]) and [[Morgan Stanley]]'s $150 "escalation" case — neither shock alone necessarily pushes Brent to those levels; the *combination* of crude-tightening + product-tightening + crack-spread blowout does.
+
+### 4. War-risk premium (smaller real driver than headlines suggest)
+
+Strategic strikes on hydrocarbon infrastructure inside Russia signal escalation, raising the market-assigned probability of:
+
+- Further attacks on Russian energy export terminals (Ust-Luga, Primorsk, Novorossiysk)
+- Russian retaliation against Ukrainian + European energy infrastructure
+- Conflict spread (Belarus, Baltic states)
+
+Shows up in implied volatility and forward-curve premia, not necessarily spot. Smaller real driver than headlines suggest. The risk-premium component is what makes the 6-month forward Brent track higher than spot even when no physical disruption has yet materialised — the structural [[Hormuz Permanent Risk Premium|risk-premium concept]] applies symmetrically to the Russian-refinery-strike thread.
+
+### 5. Russian crude redirection (counter-pressure, mostly muted)
+
+Theoretically, if Russia can't refine, more crude flows to the shadow-fleet export channel — adding supply that *pushes Brent down*. In practice this counter-pressure is small because shadow-fleet buyers are capacity-constrained on their own refineries, and the volumes that can be absorbed at acceptable discounts are limited. This is the only one of the five channels that pushes Brent the wrong way; the other four all push it up.
+
+### Diagnostic test
+
+The cleanest empirical test of which channel dominates after a Russian refinery strike is the divergence between Brent and Northwest Europe diesel/gasoline pricing:
+
+| Pattern | Dominant channel |
+|---|---|
+| Brent +5%, NW Europe diesel +15% | Channel 1 (crack-spread widening; product is binding) |
+| Brent and products move in lockstep | Channel 2 (Russian production shut-in; crude is binding) |
+| Brent + products both spike on no physical change | Channel 4 (war-risk premium repricing) |
+
+The Russian-refinery-strike pattern through 2024-26 has consistently shown Channel 1 — refined products outperforming crude on the upside. That's why Zelenskyy's "oil industry" doctrine is structurally designed to exploit the crack-spread channel: it's the largest single price-transmission lever the targeting strategy has access to, and it's the channel where the geography of the damaged asset matters least because refiners are connected globally through margin arbitrage.
+
+### Why refining is the binding constraint, not exports
+
+Russian crude *exports* are not the binding constraint because the shadow fleet has been routing around sanctions for years (~978 tankers per [[Russia#Shadow fleet]]). Russian *refining* is the binding constraint because:
+
+- It is geographically immobile (cannot be relocated to avoid drones)
+- It is physically damaged by drones (export terminals are also exposed but typically harder to disable durably than complex catalytic-cracking equipment)
+- Repair times for cracker units and catalytic-reforming complexes run 3-9 months minimum; for major fire damage, 1-2 years
+- Substitute refining capacity for Russian product exports is not idle elsewhere in the world
+
+That asymmetry — exports adaptable, refining not — is why refinery strikes have more economic impact per attack than equivalent strikes on export infrastructure would. It's the same logic, inverted, that makes [[Strait of Hormuz|Hormuz]] the binding chokepoint on the Iran side: geographic constraint that cannot be substituted.
+
+### Scale context
+
+A single major Russian refinery — Moscow Oil Refinery (Gazprom Neft, ~240 kb/d), Ryazan (~340 kb/d), Volgograd (~280 kb/d) — represents roughly 4-6% of Russia's ~5.5 mb/d total refining capacity if fully offline. A sustained one-major-refinery-per-week strike pattern compounds into a ~10-15% Russian refining-capacity reduction over a quarter — comparable in magnitude to what Hurricane Katrina did to the US Gulf in 2005, except sustained rather than punctuated.
+
+That's the scale at which Channel 1 stops being a marginal price-influence and becomes the dominant supply-side variable for global refined-product balances.
+
+*See [[Refining slate rigidity]] for why partial product-demand destruction (e.g., airline cuts) does not by itself rebalance crude under this transmission pattern; [[Ukraine war]] for the operational pattern of the strikes themselves; [[Iran conflict economic disruption]] for the parallel Iran-war shock that compounds with the Russian-refinery channel.*
 
 ---
 
