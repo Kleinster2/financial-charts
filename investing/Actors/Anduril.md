@@ -347,3 +347,11 @@ Anduril simultaneously raising $4B from [[Thrive Capital]] and [[Andreessen Horo
 - [[Rare earth leverage]] — supply chain risk (drone magnets)
 - [[China retaliatory toolkit]] — REE military denial risk
 
+---
+
+## Foroohar reference — "growth play" exemplar (FT, May 17 2026)
+
+[[Rana Foroohar]] in the [FT](https://www.ft.com/content/713d7483-0ca6-46ae-b287-c501b5d81644) (May 17) cited Anduril as the canonical example of the next-generation defence-tech cohort capturing the incremental growth and investor excitement around the [[Defense procurement reform|three-Ds framework]] (Disruption, Dual use, Decentralisation): "the incremental growth, along with most of the excitement, is around the next generation of defence technology firms, such as Anduril Industries, a privately owned firm which recently doubled its valuation."
+
+The doubling reference is to the recent valuation move covered separately in the news cycle (~$60bn range per FT sidebar reporting). The structural argument: while the primes still capture most absolute dollars (the [[Defense primes basket]] cohort, +573% YoY ETF flows through Q3 2025), the marginal investor dollar + procurement-reform narrative is routed to Anduril and peers ([[Palantir]], etc.). The [[US Navy]] shipbuilding plan introduced the week of May 12 — emphasizing "speed, flexibility and technology that can be deployed in multiple ways" — is structurally aligned with the Anduril go-to-market.
+

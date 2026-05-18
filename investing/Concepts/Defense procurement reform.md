@@ -112,6 +112,28 @@ The market reaction in [[Trump defense budget]] (primes +6.7% on the $1.5T headl
 
 ---
 
+## Foroohar three-Ds framework + Navy shipbuilding plan (FT, May 17 2026)
+
+[[Rana Foroohar]] in the [Financial Times](https://www.ft.com/content/713d7483-0ca6-46ae-b287-c501b5d81644) (May 17 2026) framed the procurement-reform direction around three Ds: Disruption, Dual use, Decentralisation. The substantive May 2026 anchor for the framework is the [[US Navy]] shipbuilding plan introduced the week of May 12 — the first DoD planning document since the [[Trump defense budget]] / executive-order cycle to put "speed, flexibility and technology that can be deployed in multiple ways" at the center of capability planning. Quote from the plan itself: "High-end platforms remain essential, but they must be complemented by systems that can be produced at volume and adapted in real time," with production spread "across multiple yards and suppliers."
+
+| Element | Foroohar framing | Concrete signal |
+|---|---|---|
+| Disruption | Old-line primes ([[Lockheed Martin]], [[General Dynamics]], [[RTX]], [[Northrop Grumman]]) still get most absolute dollars; incremental growth + investor excitement around next-gen defence tech ([[Anduril]] "recently doubled its valuation") | Q3 2025 — US defence + aerospace ETF flows +573% YoY; monthly record in March 2026 |
+| Dual use | Decoupling of US-China tech stacks creating opportunities for startups in both countries as the old globalised, concentrated model shifts | $65.8bn new shipbuilding financing requested by Trump for FY26; "Finnish model" for arctic icebreakers (build domestically + in [[Finland]]) |
+| Decentralisation | Distributed production to add resilience; in drone warfare, "almost anything visible is a target" → hyperlocal supply | $9mn US Army contract to Biosphere for "portable biomanufacturing system" producing protein-based food rations from air, water, electrical energy |
+
+Jerry Hendrix ([[OMB]] shipbuilding tsar, quoted by Foroohar): the new strategy aims to "connect commercial and military production and to work with allies to build in multiple yards." The Finnish-model phrasing is the cleanest single articulation of the dual-use + decentralisation overlap — domestic primes + ally-side yards working from a shared design and contract framework.
+
+Foroohar's framing extension: the security pay-off depends on the *integration* of new technologies into existing institutions and procurement, not the technologies themselves. Munitions shortages, budget overruns, [[Strait of Hormuz|maritime chokepoints that can't be controlled]], and adversaries who can't be beaten by the most expensive hardware alone (her examples: Ukraine, Iran) are the evidence that capability spending alone has not been enough — the procurement model is the binding constraint.
+
+The "is the Pentagon adjusting?" question is the analytical centerpiece. Foroohar reads the May Navy shipbuilding plan as a genuine narrative shift even if execution lags — "in the slow-moving world of the US military even a narrative shift matters." The plan's emphasis on multiple yards + adaptable systems is a substantive break from the previous concentration model, consistent with the [[Trump defense budget#Capital-return restrictions on primes]] direction.
+
+Cross-link: Molly Jahn (University of Wisconsin biologist; previously [[DARPA]]) flagged by Foroohar as articulating the broader thesis — "we're exiting the period of 'ordinary' and moving into a period of 'extraordinary'" using Thomas Kuhn's *Structure of Scientific Revolutions* as the framework. Foroohar's read: such periods are disruptive and profitable; the defense investment thesis is one application of a much wider technological + geopolitical shift.
+
+*Source: FT, "The future of America's military industrial complex," Rana Foroohar, May 17, 2026.*
+
+---
+
 ## Cross-vault
 
 - [Geopolitics: Defense Industry](obsidian://open?vault=geopolitics&file=Concepts%2FDefense%20Industry) -- statecraft lens on US dual-use industrial-base rebuilding and defense surge capacity.

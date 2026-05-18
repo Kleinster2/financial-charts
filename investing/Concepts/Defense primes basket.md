@@ -260,3 +260,17 @@ The 6-name core sits in the validated band but at the lower end (intra-corr 0.55
 The 7-name cohort with LDOS slips below 0.55 intra-corr but stays above the 0.50 falsification threshold. The 6-name core is the cleaner expression of the cohort identity.
 
 *Diagnostic source: `python scripts/cluster_analysis.py --config scripts/cluster_configs/defense_primes.yaml` + `defense_primes_core.yaml` + `python scripts/defense_primes_full_analysis.py`, May 11 2026 with methodology matched to [[Space pure-plays]].*
+
+---
+
+## Flow context — value trade → growth play (Foroohar, FT May 17)
+
+[[Rana Foroohar]] in the [Financial Times](https://www.ft.com/content/713d7483-0ca6-46ae-b287-c501b5d81644) (May 17 2026) characterized the cohort as having transitioned from a "value trade" to a "growth play" — a framing shift driven by global conflict acceleration + AI / drone / sensor / robotics integration into modern warfare:
+
+- US defence + aerospace ETF flows: **+573% YoY as of Q3 2025**; monthly record in March 2026
+- Most absolute dollars still going to old-line primes (the cohort in this note)
+- Most incremental growth + investor excitement around next-gen defence-tech firms ([[Anduril]], [[Palantir]], et al.) — but the primes still hold program-of-record contracts, qualified-supplier ecosystems, and security clearances
+
+The "value-to-growth" reframing matters for cluster validation: a growth-play cohort tends to exhibit higher intra-correlation than a value cohort because shared growth-narrative beta dominates over idiosyncratic earnings drivers. The Defense primes' 0.556 intra-corr (above) is at the *lower* end of the validated band — consistent with "value cohort transitioning, not yet a fully integrated growth cluster." If the Foroohar thesis holds (procurement reform sustains ETF flows + secular tailwind continues), the intra-corr should drift higher over the next 4-8 quarters as the cohort behaves more uniformly.
+
+Cross-link: the procurement-side framework lives in [[Defense procurement reform#Foroohar three-Ds framework + Navy shipbuilding plan (FT, May 17 2026)|Defense procurement reform — Foroohar three-Ds framework + May Navy shipbuilding plan]].
