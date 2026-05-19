@@ -44,6 +44,8 @@ Brazil's first dedicated financial markets TV channel. Started as an independent
 | 2025 | Manhattan Connection contract renewed for 2025 season (per Jornal de Brasília) |
 | Aug 28, 2025 | Premieres Wall Street Cast with [[Bruno Corano]] direct from Times Square — Thursdays 8 PM |
 | 2026 season | Manhattan Connection cast rotation — Danilo Gentili and Sil Curiati out; Martha Gabriel (innovation/digital) and Rossandro Klinjey (psychology/behavior) in; format expands to digital streaming + podcasts + Q&A subscriber sessions |
+| 2026 (Mar) | Launched three new prime-time 2026 programs aimed at SME owners: Rota Fácil (Mar 4, 22:30), Repcast (Mar 9, 22:00), and Global Wallet with Rafael Lara (Mar 9, 23:00) — all non-Corano hosted |
+| 2026-05-13 | Brazilian Week 2026 (NYC) — BM&C-organized event "in partnership with" Manhattan Connection (NOT an MC episode); topics: production reshoring, AI, semiconductors, energy security, critical minerals, infrastructure, industrial digitalization. No named on-screen MC talent in source. |
 
 ---
 
