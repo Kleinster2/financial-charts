@@ -139,6 +139,34 @@ For any domain query, enumerate canonical entities:
 
 Don't confuse infrastructure with foundations. Coinbase is crypto infrastructure; Bitcoin is a crypto foundation.
 
+## Individual creator completeness (journalists, analysts, researchers, podcasters)
+
+**Use an enumerative search query, not a confirmatory one.**
+
+Failure mode this prevents: question-shaped searches return question-shaped answers. If you query `"<name>" <publication>` to confirm an affiliation, the search delivers that affiliation and stops — you miss everything else. The first-pass Michael Weiss note (May 19, 2026) shipped without his Substack, podcast, Free Russia Foundation affiliation, or forthcoming book because the search was built to confirm the Insider connection, not to enumerate his platforms.
+
+When creating an actor stub for an individual content producer, run an explicit enumerative pass before considering the note complete:
+
+| Platform | What to search |
+|----------|----------------|
+| Newsletter / Substack | `"<name>" substack` — many journalists run a personal Substack distinct from their employer outlets |
+| Podcast | `"<name>" podcast site:apple.com/podcasts OR site:open.spotify.com` |
+| Books | `"<name>" books` — published + forthcoming; pulls bibliography pages from Wikipedia / personal site |
+| Personal site | `"<name>" "personal website" OR "<firstname><lastname>.com"` — often the most complete affiliations list |
+| Wikipedia | `"<name> (journalist)" OR "<name> (analyst)" wikipedia` — the page usually enumerates outlets cleanly |
+| Adjacent affiliations | `"<name>" "senior fellow" OR "visiting scholar" OR "contributing editor"` — surfaces second-tier positions the main biography skips |
+
+**Stopping condition:** the note is complete when you can answer all five questions:
+1. Where does this person publish their own work? (newsletter / Substack / personal blog)
+2. Where do they appear as a host or recurring voice? (podcast, video series)
+3. What books have they written or contributed to? (published + forthcoming)
+4. What institutional affiliations do they hold? (employer + think-tank + foundation + visiting positions)
+5. What is the primary collaboration network? (co-authors, co-hosts, regular outlets)
+
+**Stopping condition is NOT "question I was just asked is answered."** That's the failure mode. Confirmation searches end when the immediate question is satisfied; completeness passes end when the five questions all have answers (or explicit "no evidence found").
+
+This applies to the `/deepdive` skill when the entity is an individual content producer rather than a company — see `.claude/skills/deepdive/SKILL.md` Phase 2.
+
 ## 7. Claims grounding
 
 After distributing facts from a source, check that every claim is supported by a concept note or current entity note.

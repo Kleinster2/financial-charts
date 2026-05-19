@@ -68,6 +68,11 @@ Most entities already have some vault presence. The default path is expansion, n
 - No SEC filings, no ticker to add, no price chart
 - The funding rounds table and cap table estimates replace financial data sections
 
+### Individual content producers (journalists, analysts, researchers, podcasters) — additional steps:
+- **Enumerate platforms, don't confirm a single role.** Run an explicit enumerative pass: newsletter/Substack + podcast + books (published + forthcoming) + personal site + Wikipedia + adjacent affiliations (think tank + foundation + visiting positions). See `docs/note-checklist.md` "Individual creator completeness" section for the full search-query template
+- Stopping condition: five questions answered (where they publish, where they host, what they've written, institutional affiliations, collaboration network) — *not* "the immediate question is answered." Confirmatory searches return confirmatory answers; the completeness pass needs an enumerative shape
+- Failure pattern to avoid: first-pass note ships with affiliation-only coverage and misses the Substack/podcast/books. Caught in the May 19 2026 Michael Weiss note — first pass missed his Foreign Office Substack, weekly podcast, Free Russia Foundation affiliation, and forthcoming GRU history book; surfaced only on a second search after the user pointed it out
+
 ### Concepts — structural differences:
 - Route to `investing/Concepts/`, not `Actors/`
 - Use Synthesis (not Synopsis) — interpretive framing of where the concept stands now

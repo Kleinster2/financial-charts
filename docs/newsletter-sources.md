@@ -90,6 +90,7 @@ These are high-signal, low-noise voices — they publish analysis before or inst
 | **First Followers (Conscious Futurist)** | https://firstfollowers.substack.com | Investing, Technologies | Tech / founders / long-game industry analysis |
 | **Redwood Research Blog** | https://blog.redwoodresearch.org | Technologies | AI safety research, alignment, control evaluations |
 | **Data for Climate Progress** | https://dataforclimateprogress.substack.com | Investing, Geopolitics | Climate data, energy transition, policy |
+| **Foreign Office by M. Weiss** | https://macspaunday.substack.com | Geopolitics | Russian intelligence operations, FSB/GRU, disinformation, active measures (Michael Weiss — The Insider EIC, New Lines contributing editor; forthcoming GRU history *Trouble with the Neighbors*) |
 
 ## Maintenance
 
