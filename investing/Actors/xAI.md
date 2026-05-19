@@ -594,6 +594,8 @@ For the regulatory landscape and the Colorado statute itself see [[AI regulation
 
 ### Products
 - [[Grok]] — AI model (Colossus 200K GPUs)
+- [[Grok Imagine Video]] — AI video generation (#3 Arena image-to-video and video edit, May 2026 — only non-Chinese model in top 3)
+- [[Aurora]] — image generation model
 
 ### People/Partners
 - [[Elon Musk]] — founder and controller

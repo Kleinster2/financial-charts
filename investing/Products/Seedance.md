@@ -85,6 +85,26 @@ Chinese models ([[Kling]], Seedance) are pulling ahead on features and speed of 
 
 ---
 
+## Arena leaderboard — #1 across all three categories (May 2026)
+
+Per the Arena user-voted blind-test rankings published in the FT (Eleanor Olcott in Beijing, May 17 2026), Seedance 2.0 took the top score in every video category:
+
+| Category | Score | Margin vs #2 |
+|---|---|---|
+| Text-to-Video (39 models) | **1,460** | +16 vs HappyHorse 1.0 |
+| Image-to-Video (39 models) | **1,454** | +10 vs HappyHorse 1.0 |
+| Video edit (6 models) | **1,362** | +60 vs HappyHorse 1.0 |
+
+The clean sweep is what makes Seedance 2.0 the structural #1 — runner-up [[Happy Horse|HappyHorse 1.0]] is also Chinese ([[Alibaba]]). The first non-Chinese model on any board is [[Veo]] 3.1 (text-to-Video #3 at 1,375) or [[Grok Imagine Video]] (image-to-Video #3 at 1,421; video-edit #3 at 1,259) — depending on the category. [[Sora]] does not appear because [[OpenAI]] discontinued it in March 2026.
+
+George Won (independent AI filmmaker, Tbilisi): *"Seedance 2.0 has been a game-changer for my creative freedom. It handles aggressive camera angles and speed without losing the character's face or lighting contrast. Most AI models start to wobble or drift when things move fast."* The structural attribute Won is calling out — motion stability under aggressive camera moves — is the same attribute that makes the model usable for [[Director AI]] and ecommerce platforms like [[Firework]].
+
+Enterprise pricing (US clients): [[ByteDance]] has required ~$2mn upfront for access + credit allocation, structuring video-API access more like foundry-capacity reservation than typical AI-API metering. Third-party platforms like [[BeHooked]] repackage Seedance with alternative pricing for US customers who don't want the upfront commit. See [[AI Video Generation#May 17, 2026 — Chinese groups pull ahead of US rivals (FT)|AI Video Generation hub]] for the full market structure.
+
+*Source: [FT](https://www.ft.com/content/9804b1de-653b-40b2-bffb-17c76ebebe34), May 17, 2026; chart on the concept hub.*
+
+---
+
 ## Related
 
 - [[ByteDance]] — parent actor

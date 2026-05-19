@@ -51,6 +51,7 @@ See [[AI distillation wars (2025-2026)]] and [[model distillation]].
 
 ## Related
 
+- [[Hailuo]] — MiniMax's video generation product (Chinese top-tier; [[Director AI]] uses it)
 - [[HongShan]]
 - [[Neil Shen]]
 - [[Moonshot AI]]
@@ -58,5 +59,6 @@ See [[AI distillation wars (2025-2026)]] and [[model distillation]].
 - [[Chinese AI labs]]
 - [[Inference economics]]
 - [[AI adoption curve]]
+- [[AI Video Generation]] — concept hub
 - [[AI distillation wars (2025-2026)]] — largest distillation campaign (13M exchanges with Claude)
 - [[Model distillation]] — technique, accused by Anthropic (Feb 2026)

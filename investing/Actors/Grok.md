@@ -93,9 +93,28 @@ Musk's bet: raw compute scale + X distribution = AI dominance.
 | **Real-time X integration** | Analyzes trending topics, posts |
 | **Web search** | Live information |
 | **Image generation** | [[Aurora]] model |
+| **Video generation** | [[Grok Imagine Video]] — competes with [[Seedance]], [[Kling]], [[Veo]] |
 | **Personality** | "Rebellious," willing to answer edgy questions |
 | **Feed ranking** | Now ranks "Following" feed by predicted engagement |
 | **Translation** | Auto-translates X posts |
+
+---
+
+## Grok Imagine Video — the one competitive US video model
+
+Per the FT Arena leaderboard published May 17 2026 (Eleanor Olcott in Beijing), [[Grok Imagine Video]] is the only non-Chinese model in the top 3 of either image-to-video or video edit:
+
+| Category | Rank | Score | Beats |
+|---|---|---|---|
+| Image-to-Video | #3 | 1,421 | [[Veo]] 3.1 audio (1,402) — Grok beats Google here |
+| Video edit | #3 | 1,259 | [[Veo]] not in top 4; Grok ahead of [[Kling]] O3 Pro (1,244) |
+| Text-to-Video | Not in top 4 | — | [[Seedance]] 2.0, HappyHorse, both Veo variants ahead |
+
+The FT article's narrative is "Chinese ahead, US behind" — but the chart shows xAI's video product is competitive enough in two of three categories to beat Google's Veo on image-to-video. This is the kind of detail the article doesn't surface but the chart does: in image-to-video specifically, the US has *one* competitive model — and it's not Google's, it's Musk's. The video-edit ranking confirms Grok Imagine Video as the strongest US offering after [[OpenAI]]'s [[Sora]] exited in March 2026.
+
+The strategic implication: [[xAI]]'s broader product expansion into video is producing results commensurate with the [[Colossus]] compute investment — Grok is not just a chatbot competitor in this telling, it's an image+video generation stack that beats Google in at least one category. See [[AI Video Generation#May 17, 2026 — Chinese groups pull ahead of US rivals (FT)|AI Video Generation hub]] for the full leaderboard.
+
+*Source: [FT](https://www.ft.com/content/9804b1de-653b-40b2-bffb-17c76ebebe34), May 17, 2026.*
 
 ---
 
@@ -154,9 +173,16 @@ For the legal arguments and federal-preemption context see [[xAI]]'s Colorado se
 ## Related
 
 - [[xAI]] — parent company
+- [[Grok Imagine Video]] — video generation product (Arena top-3 image-to-video and video edit, May 2026)
+- [[Aurora]] — image generation model
 - [[Tesla]] — Musk synergies
 - [[NVIDIA]] — GPU supplier ($18B)
 - [[ChatGPT]] — competitor
 - [[Gemini]] — competitor
 - [[Claude]] — competitor
 - [[DeepSeek]] — competitor (efficiency vs scale)
+- [[Seedance]] — video competitor ([[ByteDance]]) — currently #1 across all Arena categories
+- [[Veo]] — video competitor ([[Google]])
+- [[Kling]] — video competitor ([[Kuaishou]])
+- [[AI Video Generation]] — concept hub
+- [[Colossus]] — training compute (200K+ GPUs)

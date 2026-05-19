@@ -128,15 +128,27 @@ The divergence between the LLM race (US still leads — [[OpenAI]] / [[Anthropic
 
 ### Current leaderboard
 
+![[ai-video-arena-leaderboard-may2026.png]]
+*Arena user-voted rankings across text-to-video, image-to-video, and video edit (39 models in the first two categories, 6 in video edit). Chinese models (blue bars) sweep the top 2 of text-to-video and image-to-video; in video edit they take the top 2 plus 4th. The one non-Chinese model placing top-4 outside Google is xAI's Grok Imagine Video — see [[Grok]] for the Imagine product line. Source: FT (Eleanor Olcott, May 17 2026) via Arena.*
+
 Per Arena's user-voted ranking (regarded as more reliable than lab-optimised benchmarks):
+
+| Category | #1 | #2 | #3 | #4 |
+|---|---|---|---|---|
+| Text-to-Video | [[Seedance]] 2.0 — **1,460** | HappyHorse 1.0 — 1,444 | [[Veo]] 3.1 audio — 1,375 | [[Veo]] 3.1 fast — 1,368 |
+| Image-to-Video | [[Seedance]] 2.0 — **1,454** | HappyHorse 1.0 — 1,444 | [[Grok Imagine Video]] — 1,421 | [[Veo]] 3.1 audio — 1,402 |
+| Video edit | [[Seedance]] 2.0 — **1,362** | HappyHorse 1.0 — 1,302 | [[Grok Imagine Video]] — 1,259 | [[Kling]] O3 Pro — 1,244 |
+
+Status by model:
 
 | Model | Maker | Country | Status |
 |---|---|---|---|
-| [[Kling]] | [[Kuaishou]] | China | Top tier; Director AI primary model |
-| [[Seedance]] 2.0 | [[ByteDance]] | China | Top tier; "game-changer" for camera-angle/speed handling per AI filmmaker George Won |
-| HappyHorse 1.0 | (Chinese) | China | Top tier |
-| [[Veo]] 3 | [[Google]] | US | Competitive — YouTube footage edge — but more safeguards / content limits |
-| [[Hailuo]] | [[MiniMax]] | China | Top quality tier (Director AI's third option after Kling/Seedance) |
+| [[Seedance]] 2.0 | [[ByteDance]] | China | #1 across all three categories; "game-changer" for camera-angle/speed handling per AI filmmaker George Won |
+| HappyHorse 1.0 | [[Alibaba]] (ATH Innovation Unit) | China | #2 across all three categories |
+| [[Kling]] | [[Kuaishou]] | China | Top tier; Kling O3 Pro #4 in video edit; [[Director AI]] primary model; spin-off announced week of May 12 |
+| [[Grok Imagine Video]] | [[xAI]] | US | **Only non-Chinese top-3 model** — #3 in image-to-video and video edit |
+| [[Veo]] 3.1 | [[Google]] | US | Competitive — YouTube footage edge — but more safeguards / content limits; #3-#4 text-to-video, #4 image-to-video |
+| [[Hailuo]] | [[MiniMax]] | China | Top quality tier ([[Director AI]]'s third option after Kling/Seedance) |
 | [[Sora]] | [[OpenAI]] | US | Discontinued March 2026 — high computing costs cited |
 
 The Sora discontinuation is the cleanest single signal. OpenAI — the company that pioneered the consumer-facing AI race overall — exited video generation while the Chinese cohort was scaling. The proximate cause was unit economics (video tokens vastly exceed text/audio per generation), but the structural reason was that OpenAI never closed the training-data gap that Chinese platforms have via short-video app ownership.

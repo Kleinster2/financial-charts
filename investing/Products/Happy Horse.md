@@ -41,6 +41,24 @@ Alibaba's dual-track play: developing HappyHorse in-house while also leading the
 
 ---
 
+## Arena rankings dropped to #2 (May 2026)
+
+By the May 17 FT update, HappyHorse 1.0 had been displaced from #1 by [[Seedance]] 2.0 across every Arena category. The model still ranks #2 in all three:
+
+| Category | Score | Gap to #1 |
+|---|---|---|
+| Text-to-Video | 1,444 | -16 vs Seedance 2.0 |
+| Image-to-Video | 1,444 | -10 vs Seedance 2.0 |
+| Video edit | 1,302 | -60 vs Seedance 2.0 |
+
+The displacement is interesting given timing — [[Seedance]] 2.0 was released Feb 10 2026 and HappyHorse 1.0 reached #1 in April. A single quarter of iteration was enough for [[ByteDance]] to retake the lead. The structural read: Arena rankings churn fast in this category — leadership won this cycle does not lock in.
+
+[[Alibaba]]'s sweeping bet on the broader video category ([[Vidu]] Series B lead, [[PixVerse]] backer) means Alibaba captures upside regardless of whether HappyHorse holds rank or one of the funded competitors leapfrogs.
+
+*Source: [FT](https://www.ft.com/content/9804b1de-653b-40b2-bffb-17c76ebebe34), May 17, 2026; chart on the [[AI Video Generation]] concept hub.*
+
+---
+
 ## Related
 
 - [[Alibaba]] — parent company
