@@ -62,12 +62,12 @@ Neobanks proved digital-only banking works. Now the question: can they become pr
 | Company | Users | Valuation/Mkt Cap | Geography | Status |
 |---------|-------|-------------------|-----------|--------|
 | [[Nubank]] | 100M+ | ~$60B | LatAm | Public (NU) |
-| [[Revolut]] | 50M+ | ~$45B | Global | Private; IPO 2026 |
+| [[Revolut]] | ~70M global (~13M UK) | $75B (Nov 2025) | Global | Private; IPO 2026 |
 | [[Chime]] | 20M+ | ~$25B (2021) | US | Private |
 | [[Banco Inter|Inter]] | 43M+ | ~$4B | [[Brazil]] | Public |
 | [[C6 Bank]] | 40M+ | Private; no current disclosed valuation | [[Brazil]] | Private |
 | [[N26]] | 8M+ | ~$9B (2021) | [[Europe]] | Private |
-| [[Monzo]] | 9M+ | ~$5B | [[UK]] | Private |
+| [[Monzo]] | 15.2M | ~$6B (May 2026) | [[UK]] | Private |
 | [[SoFi]] | 9M+ | ~$15B | US | Public (SOFI) |
 | Starling | 4M+ | ~$3B | [[UK]] | Private |
 | KakaoBank | 24M+ | ~$15B | Korea | Public |
@@ -119,10 +119,10 @@ Strong ecosystem driven by open banking regulation (PSD2).
 
 | Company | Users | HQ | Differentiator |
 |---------|-------|-----|----------------|
-| [[Revolut]] | 50M+ | [[UK]]/[[Lithuania]] | FX, crypto, global |
+| [[Revolut]] | ~70M global | [[UK]]/[[Lithuania]] | FX, crypto, global |
 | [[N26]] | 8M+ | [[Germany]] | Design-focused |
-| [[Monzo]] | 9M+ | [[UK]] | Community, transparency |
-| Starling | 4M+ | [[UK]] | SMB banking |
+| [[Monzo]] | 15.2M | [[UK]] (+EU via [[Ireland]] Dec 2025) | Community, transparency, primary-account franchise |
+| [[Starling Bank]] | ~4.2M | [[UK]] | SMB banking |
 | Bunq | 12M+ | [[Netherlands]] | Green banking |
 
 European advantages:
@@ -130,6 +130,8 @@ European advantages:
 - Faster Payments ([[UK]]), SEPA Instant
 - Single market (pre-Brexit)
 - Less entrenched mobile banking from incumbents
+
+Cross-border expansion playbook (May 2026): The [[UK]] neobank cohort is increasingly using [[Central Bank of Ireland]] licensing as an [[EU]] passporting gateway. [[Monzo]] secured its EU licence Dec 2025 and opened [[Ireland]] + [[Spain]] outposts in 2026, while exiting the US after the [[OCC]] rejected its national-charter application in 2021. [[Revolut]] continues to passport from [[Lithuania]] for the [[EU]]. The structural read: a US national bank charter has become so difficult for non-US fintechs that the marginal effort is now redirecting to [[Europe]], where the licensing path is clearer and the addressable market is comparable.
 
 ---
 
@@ -152,7 +154,8 @@ Most neobanks followed this evolution:
 | [[Revolut]] | ✅ Yes (2024) | Subscriptions + FX + crypto |
 | [[Chime]] | ❌ No | Still interchange-dependent |
 | [[N26]] | ❌ No | Struggled with expansion |
-| [[Monzo]] | ❌ No | [[UK]]-focused, lending scaling |
+| [[Monzo]] | ✅ Yes (FY24 onward) | £87M pre-tax FY26 on £1.7B revenue; lending + fee income mix |
+| [[Starling Bank]] | ✅ Yes (FY21 onward) | SME banking + BBLS deposit float |
 | [[SoFi]] | ✅ Yes (2024) | Lending + bank charter |
 
 The formula: Need lending or high-margin products. Pure interchange doesn't work.
@@ -218,6 +221,8 @@ Most traditional banks struggle to compete — legacy tech, branch costs, cultur
 - [[Brazil fintech]] — most advanced market
 - [[Nubank]] — largest neobank globally
 - [[Revolut]] — European leader, IPO candidate
+- [[Monzo]] — UK primary-account franchise, FY26 profitable, EU pivot
+- [[Starling Bank]] — UK SMB-focused, profitable
 - [[Banco Inter|Inter]] — [[Brazil]] super-app
 - [[C6 Bank]] — JPMorgan-backed
 - [[SoFi]] — US super-app

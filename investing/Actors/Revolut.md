@@ -3,7 +3,7 @@ aliases: [Revolut Ltd]
 ---
 #actor #fintech #neobank #uk #private
 
-**Revolut** — [[UK]] neobank. $75B valuation. 65M customers. IPO expected 2026.
+**Revolut** — [[UK]] neobank. $75B valuation. ~70M customers globally (May 2026), of which ~13M in the [[UK]]. IPO expected 2026.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [Revolut Ltd]
 | Valuation | $75B (Nov 2025) |
 | Revenue (2024) | $4B (+72% YoY) |
 | Profit (2024) | $1.4B pre-tax (+149%) |
-| Customers | 65M |
+| Customers | ~70M global / ~13M UK (May 2026) |
 | Countries | 48+ |
 | Founded | 2015, London |
 
@@ -178,7 +178,7 @@ Why delay?
 
 | Company | Valuation | Customers | HQ |
 |---------|-----------|-----------|-----|
-| Revolut | $75B | 65M | [[UK]] |
+| Revolut | $75B | ~70M global (~13M UK) | [[UK]] |
 | Nubank | ~$45B (public) | 100M+ | [[Brazil]] |
 | [[Chime]] | ~$25B | 9.5M active | US |
 | N26 | ~$9B | 8M | [[Germany]] |
@@ -225,7 +225,7 @@ Bear:
 |--------|-------|
 | Status | Private (IPO 2026?) |
 | Valuation | $75B |
-| Customers | 65M |
+| Customers | ~70M global / ~13M UK (May 2026) |
 | Revenue | $4B (2024) |
 | Profitable | Yes |
 
@@ -241,6 +241,7 @@ Bear:
 - [[JPMorgan Chase]] — traditional bank competitor
 - [[Stripe]] — fintech peer
 - [[Rachel Reeves]] — UK Chancellor, closely watching licence saga
+- [[Monzo]] — UK neobank peer; 15.2M customers, $6B valuation, primary-account-balance leader
 
 ---
 
@@ -251,5 +252,6 @@ Bear:
 - [Contrary Research](https://research.contrary.com/company/revolut)
 
 - [FT: Was Revolut's banking licence worth the wait?](https://www.ft.com/content/b601b464-a60a-4d12-8c43-b366b949ce0e) (Mar 16, 2026) — deposit economics, balance comparisons, lending risk
+- [FT: Monzo boss pledges European expansion as profits jump](https://www.ft.com/content/8e876ceb-234b-4cfa-954b-61cae8ede712) (May 19, 2026) — referenced for Revolut's ~70M global / 13M UK customer figures
 
-*Updated 2026-03-19*
+*Updated 2026-05-19*
