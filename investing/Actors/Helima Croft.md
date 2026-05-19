@@ -1,11 +1,13 @@
 ---
-aliases: [Croft]
+aliases: [Croft, Dr Helima Croft]
 tags: [actor, person, energy, commodities, analyst]
 ---
 
 # Helima Croft
 
-Head of Global Commodity Strategy and MENA Research at [[RBC Capital]]. Former [[CIA]] analyst. PhD in economic history from [[Princeton]] (2001). CNBC contributor. One of the most-quoted energy analysts during the [[2026 Iran conflict market impact|Iran conflict]].
+Head of Global Commodity Strategy and MENA Research at [[RBC Capital]]. Former [[CIA]] senior economic analyst. PhD in economic history from [[Princeton]] (2001). CNBC contributor. One of the most-quoted energy analysts during the [[2026 Iran conflict market impact|Iran conflict]]. No personal book or Substack — her published output runs through RBC research notes, CNBC commentary, and op-eds in mainstream outlets.
+
+Frequent podcast guest network (notable appearances): [Stay Tuned with Preet Bharara](https://staytuned.substack.com/p/the-iran-war-energy-crisis-is-here) (May 2026, Iran-energy-crisis episode); [On The Tape](https://www.cnbc.com/) with [[Guy Adami]], [[Dan Nathan]], [[Danny Moses]] (CNBC Fast Money podcast); [The Long Game](https://energycouncil.com/articles/podcast-helima-croft-managing-director-and-global-head-of-commodity-strategy-rbc-capital-markets/) (Energy Council); Women's Energy Council podcast series; [The Cycle Is Coming](https://podcasts.apple.com/in/podcast/the-cycle-is-coming-with-helima-croft/id1545205930?i=1000661009321) (commodity-cycle interview series, episode-format). Recurring keynote-speaker circuit (AAE Speakers Bureau / Keynote Curators / All American Speakers).
 
 ---
 

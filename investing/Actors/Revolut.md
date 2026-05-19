@@ -5,6 +5,8 @@ aliases: [Revolut Ltd]
 
 **Revolut** — [[UK]] neobank. $75B valuation. ~70M customers globally (May 2026), of which ~13M in the [[UK]]. IPO expected 2026.
 
+Revolut is the global-scale outlier in [[Neobanks]] — the only major neobank operating in 48+ countries from a single product stack, the only one profitable at $1B+ pre-tax run-rate, and the only one with both [[UK]] and [[EU]] full banking licences. Its franchise spans FX, multi-currency accounts, [[Crypto]] trading, equities, and (as of [[Bank of England]] full licence in March 2026) deposit-funded lending. The customer-balance-quality gap versus [[UK]] peers ([[Monzo]] at ~£1,400 vs Revolut at ~£575) is the defining strategic question — Revolut wins on scale but lags on primary-account behaviour, and the [[UK]] licence is the lever it's using to close that gap. IPO is widely expected in 2026 on [[NYSE]], though [[Rachel Reeves]] and the [[UK]] government continue to push for a London listing.
+
 ---
 
 ## Why Revolut matters
@@ -22,7 +24,7 @@ Growth: adding ~1 million customers every 17 days.
 
 ---
 
-## Founders
+## Leadership
 
 ### Nik Storonsky (CEO)
 
@@ -31,7 +33,7 @@ Growth: adding ~1 million customers every 17 days.
 | Born | July 21, 1984 |
 | From | Dolgoprudny, [[Russia]] |
 | Education | Moscow Institute of Physics (MS), New Economic School (MS Economics) |
-| Previous | [[Lehman Brothers]], [[Credit Suisse]] (equity derivatives trader) |
+| Previous role | [[Lehman Brothers]], [[Credit Suisse]] (equity derivatives trader) |
 | Initial investment | £300,000 personal savings |
 
 Background: father worked at Gazprom research center. Renounced Russian citizenship after [[Ukraine]] invasion.
@@ -45,7 +47,7 @@ Origin story: frustrated by FX fees while traveling — paying 3% on every curre
 | Born | 1983, East [[Germany]] |
 | Heritage | Ukrainian parents |
 | Education | National University of Kyiv-Mohyla Academy (MS Computer Science) |
-| Previous | [[UBS]], [[Deutsche Bank]], [[Credit Suisse]] (financial software) |
+| Previous role | [[UBS]], [[Deutsche Bank]], [[Credit Suisse]] (financial software) |
 | Citizenship | British-Ukrainian |
 
 ### Martin Gilbert (Chairman)
@@ -53,21 +55,60 @@ Origin story: frustrated by FX fees while traveling — paying 3% on every curre
 | Detail | Value |
 |--------|-------|
 | Role | Chairman (since 2019) |
-| Previous | Founder/CEO, Aberdeen Asset Management |
+| Previous role | Founder/CEO, [[Aberdeen]] Asset Management |
 | Residence | Swiss permit (Zug), [[UK]] tax resident |
 
 ---
 
 ## Funding history
 
-| Round | Date | Valuation |
-|-------|------|-----------|
-| Early rounds | 2015-2020 | — |
-| Series E | 2021 | $33B |
-| Secondary | Summer 2024 | $45B |
-| Latest | Nov 2025 | $75B |
+| Round | Date | Amount | Valuation | Lead investors |
+|-------|------|--------|-----------|----------------|
+| Seed | 2015 | $2.3M | — | Balderton, Index, Point Nine |
+| Series A | Jul 2016 | £6.5M ($8.5M) | — | Balderton Capital |
+| Series B | Jul 2017 | $66M | $350M | [[Index Ventures]] (Balderton, Ribbit, Crowdcube) |
+| Series C | Apr 2018 | $250M | $1.7B | [[DST Global]] (first unicorn round) |
+| Series D | Feb 2020 | $500M | $5.5B | [[TCV]] |
+| Series E | Jul 2021 | $800M | $33B | [[SoftBank Vision Fund]] 2 + [[Tiger Global]] |
+| Secondary | Aug 2024 | $1B+ | $45B | [[Coatue]], D1, [[Tiger Global]] |
+| Secondary | Nov 2025 | $3B | $75B | Existing investors + new (Greenoaks, NVentures) |
 
-Current raise: $3B round at $75B valuation (+67% from 2024).
+Current raise: $3B at $75B valuation (+67% from 2024 secondary).
+
+---
+
+## Ownership (estimates)
+
+| Holder | % (approx.) | Notes |
+|--------|-------------|-------|
+| Nik Storonsky (founder/CEO) | ~17–25% | Largest individual holder; reduced via secondaries |
+| Vlad Yatsenko (founder/CTO) | ~8–10% | Reduced via secondaries |
+| Employees & ESOP | ~10–15% | Significant grants given scale-up trajectory |
+| [[SoftBank Vision Fund]] 2 | ~5% | Series E lead 2021 |
+| [[Tiger Global]] | ~5% | Series E + 2024 secondary |
+| [[DST Global]] | ~5% | Series C unicorn round 2018 |
+| [[TCV]] | ~4% | Series D 2020 |
+| [[Index Ventures]] | ~3% | Series B 2017 |
+| Balderton Capital | ~2% | Seed + Series A |
+| [[Coatue]] / D1 / Greenoaks / NVentures | ~10–15% combined | Late-stage secondaries 2024–2025 |
+| Smaller VCs + crowdfunders | ~10–15% | Crowdcube rounds + minor stakes |
+
+Estimates only — Revolut does not disclose a full cap table. Composition has shifted via secondaries rather than primary dilution.
+
+---
+
+## Evolution
+
+| Phase | Years | What changed |
+|-------|-------|--------------|
+| Pre-paid card launch | 2015–2016 | Multi-currency pre-paid [[Mastercard]]; FX disruption thesis |
+| EU banking foundation | 2017–2018 | Series B → C; Lithuanian banking licence 2018; unicorn status |
+| Multi-product expansion | 2019–2020 | Crypto, stock trading, savings; Series D during pandemic |
+| Pandemic super-cycle | 2020–2021 | FX-light book; crypto trading revenue boom; Series E at $33B |
+| Profitability arrival | 2022–2023 | First profitable year FY22; $700M+ profit FY23 |
+| US scrutiny + UK licence wait | 2023–2024 | FT/auditor red flags resolved; UK PRA process delays |
+| Global push + crypto rebuild | 2024–2025 | India, LatAm, Switzerland licensing; $45B → $75B secondaries |
+| Full UK licence + IPO setup | Mar 2026– | Bank of England full licence; FSCS-protected deposits; IPO talks NYSE-leaning |
 
 ---
 
@@ -181,7 +222,7 @@ Why delay?
 | Revolut | $75B | ~70M global (~13M UK) | [[UK]] |
 | Nubank | ~$45B (public) | 100M+ | [[Brazil]] |
 | [[Chime]] | ~$25B | 9.5M active | US |
-| N26 | ~$9B | 8M | [[Germany]] |
+| [[N26]] | ~$9B | 8M | [[Germany]] |
 | [[Monzo]] | ~$5B | 9M | [[UK]] |
 
 Revolut advantage: profitability, global scale, product breadth.
@@ -213,7 +254,7 @@ Bear:
 |------|--------|
 | Regulatory | Past compliance issues, AML scrutiny |
 | Lending execution | Scaling loan book without impairment losses; accounting drag on growth |
-| Competition | Banks improving digital offerings |
+| Competition | [[Banks]] improving digital offerings |
 | Founder | Storonsky's management style criticized |
 | Macro | FX volumes tied to travel/trade |
 
@@ -235,7 +276,7 @@ Bear:
 
 - [[Nubank]] — [[LATAM]] neobank competitor
 - [[Monzo]] — [[UK]] neobank peer, £1,400 avg balance (2.4x Revolut's)
-- [[Klarna]] — BNPL/neobank, lending scale-up cautionary tale
+- [[Klarna]] — [[BNPL]]/neobank, lending scale-up cautionary tale
 - [[Chime]] — US neobank, 9.5M active users without banking licence
 - [[NatWest]] — [[UK]] incumbent, £20,000+ avg balance benchmark
 - [[JPMorgan Chase]] — traditional bank competitor

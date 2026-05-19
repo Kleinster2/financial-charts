@@ -1,21 +1,23 @@
 ---
-aliases: [Vakulenko]
+aliases: [Vakulenko, Sergei Vakulenko]
+substack: https://svakulenko.substack.com
+substack_name: "On Energy, Cabbages and Kings"
 tags: [analyst, russia, oil, energy, expert]
 ---
 
 # Sergey Vakulenko
 
-Senior fellow at [[Carnegie Russia Eurasia Center]], widely considered one of the most credible analysts on Russian oil economics and energy sector dynamics.
+Senior fellow at [[Carnegie Russia Eurasia Center]], widely considered one of the most credible analysts on Russian oil economics and energy sector dynamics. Publishes the Substack "[On Energy, Cabbages and Kings](https://svakulenko.substack.com)" — the title is a Lewis Carroll *Walrus and the Carpenter* reference, signalling the analytical register Vakulenko prefers (oblique, historically grounded, with an undertone of dark humour about what's actually being negotiated).
 
 ## Synopsis
 
-**Sergey Vakulenko** is the definitive Western analyst on [[Russia]]'s oil sector structural outlook, combining deep technical expertise with insider knowledge of Russian energy companies. His March 2026 Carnegie paper "A Tight Spot: Challenges Facing the Russian Oil Sector Through 2035" provides the most authoritative assessment of Russia's oil production trajectory under sanctions and OPEC+ constraints. Previously served in corporate strategy at [[Gazprom Neft]] and [[Shell]] Russia, giving him rare insight into both Russian and international oil company operations. His analysis is essential reading for understanding how geopolitical pressures, fiscal policy, and investment climate interact to shape Russia's energy export capacity.
+**Sergey Vakulenko** is the definitive Western analyst on [[Russia]]'s oil sector structural outlook, combining 25+ years of oil and gas industry experience with insider knowledge of Russian energy companies. His March 2026 Carnegie paper "A Tight Spot: Challenges Facing the Russian Oil Sector Through 2035" provides the most authoritative assessment of Russia's oil production trajectory under sanctions and OPEC+ constraints. His analysis is essential reading for understanding how geopolitical pressures, fiscal policy, and investment climate interact to shape Russia's energy export capacity.
 
 ## Background
 
-Former corporate strategy executive at [[Gazprom Neft]] and [[Shell]] Russia. His dual experience at both a Russian state energy champion and a Western major provides unique perspective on the structural differences between Russian and international oil operations.
+25+ years of oil and gas industry experience as an economist, manager, executive, and consultant. Prior roles include corporate strategy executive at [[Gazprom Neft]] (Russian state energy champion), [[Royal Dutch Shell]] (Russia operations), and [[IHS CERA]] (energy consulting). The dual Russian-state-champion + Western-major + Western-consulting experience provides unique perspective on structural differences between Russian and international oil operations.
 
-Currently senior fellow at [[Carnegie Russia Eurasia Center]], focusing on energy economics, Russian oil sector analysis, and the intersection of geopolitics with energy markets.
+Currently senior fellow at [[Carnegie Russia Eurasia Center]], focusing on energy economics, Russian oil sector analysis, and the intersection of geopolitics with energy markets. Regular contributor to the [Moscow Times](https://www.themoscowtimes.com/author/sergey-vakulenko) (English-language Russia outlet operating from exile). Periodic guest on Carnegie Berlin's Russia-focused podcasts (Russian-language coverage of Russian energy sector outlook).
 
 ## Key Analysis (March 2026)
 

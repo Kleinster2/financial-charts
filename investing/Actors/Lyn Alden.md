@@ -56,9 +56,9 @@ She tracks [[global liquidity]] — [[M2 money supply]], [[Fed balance sheet]], 
 
 ## Influence & Reach
 
-- Newsletter/website: lynalden.com — one of the most-read independent macro research sites
+- Newsletter/website: [lynalden.com](https://www.lynalden.com) — one of the most-read independent macro research sites; premium tier behind paywall
 - Social media: ~1M+ followers across [[Twitter]]/X
-- Podcast circuit: Regular guest on macro and crypto podcasts
+- Podcast circuit: Regular guest on [[MacroVoices]] (10+ appearances 2022-2025; listener-favourite metric by downloads), [[Real Vision]], [[The Investor's Podcast]], plus the Bitcoin podcast circuit (Stephan Livera Podcast, What Bitcoin Did, etc.). No own podcast as host — appears as recurring guest rather than as interviewer
 - Institutional crossover: Read by both retail and institutional investors
 - Book: *Broken Money* (2023) — well-received exploration of monetary history and Bitcoin
 

@@ -1,11 +1,14 @@
 ---
-aliases: [Germini, ENERGY Pipeline]
-tags: [actor, person, analyst, energy, brazil, oil]
+aliases: [Germini, ENERGY Pipeline, A|F Consulting Partners]
+substack: https://fgermini.substack.com
+tags: [actor, person, analyst, energy, brazil, oil, executive]
 ---
 
 # Felipe Germini
 
-Brazilian-based energy analyst publishing the [ENERGY Pipeline](https://fgermini.substack.com) substack. Focus: Brazil energy, oil trading, gas markets, OPEC dynamics, and global refining-side analysis with strong physical-market grounding. Emerged as a high-signal voice during the [[2026 Strait of Hormuz crisis|Iran-Hormuz crisis]] for tracking actual cargo-flow data and the front-end-curve mispricing of disruption vs reopening scenarios.
+Brazilian energy executive, consultant, and analyst with 25+ years in the oil and gas industry. Publishes the weekly [ENERGY Pipeline](https://fgermini.substack.com) substack on Brazilian and global oil and gas dynamics. Focus: Brazil energy, oil trading, gas markets, OPEC dynamics, and global refining-side analysis with strong physical-market grounding. Emerged as a high-signal voice during the [[2026 Strait of Hormuz crisis|Iran-Hormuz crisis]] for tracking actual cargo-flow data and the front-end-curve mispricing of disruption vs reopening scenarios.
+
+Operating roles beyond the newsletter: Founder and Managing Partner of A|F Consulting Partners (Brazilian oil & gas consultancy); Founder and Managing Director of Germini Energy (trading and brokerage in diesel, crude, refined products); Senior Vice President of Well Construction (Drilling) at Seacrest Petroleo Bermuda Limited (since March 2024). Prior career: 25+ years at [[Schlumberger]] across executive management and onshore/deepwater operations globally, securing major offshore and onshore contracts with [[Petrobras]], [[Rosneft]], and [[TotalEnergies|Total]] across Latin America, Africa, the Middle East, and North America. Civil engineering degree from the Federal University of Rio de Janeiro (UFRJ). The operating-side career — not just analyst commentary — is what gives the Germini cargo-flow analysis its physical-market grounding.
 
 ---
 
@@ -13,10 +16,13 @@ Brazilian-based energy analyst publishing the [ENERGY Pipeline](https://fgermini
 
 | Field | Detail |
 |-------|--------|
-| Publication | [ENERGY Pipeline](https://fgermini.substack.com) (Substack) |
+| Publication | [ENERGY Pipeline](https://fgermini.substack.com) (Substack, weekly) |
 | Geography | Brazil-based (with global energy coverage) |
 | Focus | Oil/gas physical markets, OPEC, Brazil energy, refining slate |
 | Methodology | Cargo-flow data, refining margins, physical-vs-paper market disconnect |
+| Operating roles | Founder + Managing Partner, A|F Consulting Partners; Founder + Managing Director, Germini Energy; SVP Well Construction (Drilling), [[Seacrest Petroleo]] Bermuda (since March 2024) |
+| Prior career | 25+ years at [[Schlumberger]] (executive management, onshore + deepwater operations, global) |
+| Education | Civil Engineering, [[Federal University of Rio de Janeiro]] (UFRJ) |
 
 ---
 
