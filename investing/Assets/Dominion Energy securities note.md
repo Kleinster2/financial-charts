@@ -39,6 +39,10 @@ Dominion Energy securities — NYSE: D. Equity-market note for [[Dominion Energy
 
 The [[NextEra-Dominion merger 2026]] announcement was positive for D on the first-day tape: Dominion rose about 9-10% as the market capitalized the takeout premium. Because consideration is primarily NEE stock, D remains tethered to NEE's approval-risk and valuation-risk discount through closing.
 
+At May 18, 2026 closes, the current implied deal value was about $72.87 per D share: `0.8138 * $89.04 NEE + ~$0.41 cash`. Against D at $67.56, that left a ~$5.31 / ~7.9% gross spread. A crude binary model using D's $61.73 pre-deal close as the break value implies roughly 52% close / 48% fail, better read as a material regulatory/execution-risk discount than a precise probability.
+
+External check: [[RBC Capital]] raised its D target to $72 after the deal, maintained Sector Perform, and flagged approval timelines plus possible NEPOOL divestiture requirements. That corroborates the direction of the spread read without publishing the same binary probability math.
+
 ---
 
 ## Income statement

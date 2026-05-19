@@ -182,14 +182,23 @@ The 20x climb (Jan 2024 $18.4B → Mar 2026 $380B) tracks Claude 3 → Claude 4 
 | [[Sound Ventures]] | - | [[Ashton Kutcher]]'s fund |
 | [[Jaan Tallinn]] | - | [[Skype]] co-founder, safety-focused |
 | [[Eric Yuan]] | - | [[Zoom]] founder |
+| [[Demis Hassabis]] | - | [[Google DeepMind]] CEO; early angel investor (disclosed FT May 19 2026 — undisclosed for ~5 years). Anthropic CEO [[Dario Amodei]] considers him a role model per FT. Position long predates [[Google]]'s corp investment via cloud partnership |
 
 Capital raised/committed: ~$72B+ raised including Apr 2026 upfront Google/Amazon tranches; up to ~$122B+ including future Google/Amazon milestone commitments.
 
-Notable: Both Google AND Amazon invested (rare). Microsoft invested despite OpenAI partnership (hedging). [[Altimeter]] and [[Sequoia]] - both OpenAI backers - also investing in Anthropic's Series G.
+Notable: Both Google AND Amazon invested (rare). Microsoft invested despite OpenAI partnership (hedging). [[Altimeter]] and [[Sequoia]] - both OpenAI backers - also investing in Anthropic's Series G. [[Demis Hassabis]] held an early angel position that was undisclosed until May 2026 — meaning Google's CEO of frontier AI was personally exposed to its largest competitor at both individual and corporate level.
 
 ---
 
 ## Recent developments
+
+### Hassabis as early angel — disclosed (FT May 19 2026)
+
+The [[Financial Times]] reported that [[Demis Hassabis]] — [[Google DeepMind]] CEO — was a previously-undisclosed early angel investor in Anthropic. The position long predates [[Google]]'s corporate billions invested via the cloud and TPU partnerships. [[Dario Amodei]] considers Hassabis a role model, according to people close to the company.
+
+The disclosure matters as a structural data point on the [[DeepMind diaspora]] and the relationship between [[Google]]'s in-house frontier AI lab and its largest external AI competitor: Google's CEO of frontier AI was personally exposed to Anthropic's upside from the earliest days, even as he ran the lab whose product (Gemini) competes with Claude head-to-head. Per the FT, the position is one of several Hassabis angel investments in AI labs founded by former DeepMind colleagues and adjacent founders — [[Inflection AI]] (Suleyman), [[Ineffable Intelligence]] (Silver), and [[Entrepreneurs First]] (Clifford).
+
+*Source: [Google DeepMind's Demis Hassabis emerges as early Anthropic investor](https://www.ft.com/content/8f2a529e-7a1b-4d8e-95be-338d0c4c98f5), FT, May 19 2026, by Madhumita Murgia.*
 
 ### Claude Cowork launch + $285B selloff (Jan-Feb 2026)
 

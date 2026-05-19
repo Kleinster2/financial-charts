@@ -280,6 +280,7 @@ The competitive position of the legacy businesses is irrelevant to the investmen
 - [[S&P 500]] — added Mar 23, 2026
 - [[DirecTV]] — failed Dish TV sale (2024)
 - [[Baron Capital]] — largest outside SpaceX investor (comparator for proxy plays)
+- [[Darsana Capital Partners]] — notable SATS institutional holder; uses [[EchoStar]] as a second leg of SpaceX exposure on top of its direct SpaceX position (FT May 18 2026)
 - [[Destiny Tech100]] — another public SpaceX proxy (closed-end fund vs operating company)
 - [[Private market secondaries]] — alternative SpaceX exposure route
 - [[Dual-class shares]] — Ergen holds ~52% voting control

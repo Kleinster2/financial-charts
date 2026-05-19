@@ -411,9 +411,9 @@ Total raised: ~$12B across 31 rounds from 229+ investors. All preferred series c
 | Series H             | Jul 2017   | $452.25M             | $135.00      | $13.50            | ~$21.2B   | —                           | —                                                                                                                      |
 | Series I             | Apr 2018   | $507M                | $169.00      | $16.90            | —         | [[Fidelity]]                | —                                                                                                                      |
 | Series J             | Dec 2018   | $500.3M              | $186.00      | $18.60            | —         | —                           | —                                                                                                                      |
-| Series K             | Apr 2019   | $540.8M              | $204.00      | $20.40            | ~$33.3B   | [[Baillie Gifford]]         | —                                                                                                                      |
+| Series K             | Apr 2019   | $540.8M              | $204.00      | $20.40            | ~$33.3B   | [[Baillie Gifford]]         | [[Darsana Capital Partners]] (entered SpaceX at this round price per FT May 18 2026) |
 | Series L             | Jun 2019   | $314.2M              | $214.00      | $21.40            | —         | —                           | —                                                                                                                      |
-| Series M             | Feb 2020   | $600.2M              | $220.00      | $22.00            | ~$36B     | —                           | —                                                                                                                      |
+| Series M             | Feb 2020   | $600.2M              | $220.00      | $22.00            | ~$36B     | —                           | [[D1 Capital]] (entered SpaceX at this round price per FT May 18 2026) |
 | Series N             | Aug 2020   | $2.567B              | $270.00      | $27.00            | ~$46B     | [[Legendary Ventures]]      | —                                                                                                                      |
 | Equity round         | Feb 2021   | $1.61B               | ~$420        | ~$42              | ~$74B     | [[Sequoia Capital]]         | [[Valor Equity Partners]], [[Coatue]], [[Fidelity]] (99 investors)                                                     |
 | Secondary sale       | Oct 2021   | $755M (insiders)     | $560.00      | $56.00            | ~$100.3B  | —                           | Insider shares sold to new and existing investors; no primary capital raised                                            |
@@ -470,7 +470,9 @@ The flat 17-month stretch at $137B (Jan 2024 – Jun 2025) reflects a quiet peri
 | Investor | Notes |
 |----------|-------|
 | [[Elon Musk]] | Founder, ~42% equity, ~79% voting |
-| [[Baron Capital]] | ~$10B across funds (largest outside investor), Series H/I/N shares |
+| [[D1 Capital]] | Entered 2020 at Series M ($36bn); reported ~$20bn stake at $1.75T IPO target (FT May 18 2026) — largest reported hedge-fund holder. Sundheim 2025 stance: no intent to sell |
+| [[Darsana Capital Partners]] | Entered 2019 at ~$33bn (Series K era); reported ~$15bn stake at $1.75T IPO target (FT May 18 2026); ~60% of Darsana AUM concentration |
+| [[Baron Capital]] | ~$10B across funds (long the largest *disclosed* outside investor before the FT reporting on D1/Darsana); Series H/I/N shares |
 | [[Fidelity]] | Series G, I, and later rounds |
 | [[Founders Fund]] | Series A, C, E, G ([[Peter Thiel]]) |
 | [[Sequoia Capital]] | Feb 2021 round |

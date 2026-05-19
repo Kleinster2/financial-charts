@@ -441,7 +441,9 @@ The IPO is no longer being marketed as a pure space scarcity story. The analyst-
 - [[Renaissance Capital]] — IPO market sizing
 - [[Anthropic]] — competing mega-IPO ($60B, Q4 2026)
 - [[OpenAI]] — competing mega-IPO (late 2026-2027)
-- [[Baron Capital]] — largest outside investor (~$10B)
+- [[Baron Capital]] — largest outside investor (~$10B) — see also [[D1 Capital]] (~$20B reported stake at $1.75T) and [[Darsana Capital Partners]] (~$15B) as the hedge-fund-cohort tail
+- [[D1 Capital]] — single largest reported hedge-fund holder; ~$20B stake at IPO target
+- [[Darsana Capital Partners]] — ~$15B stake; ~60% of AUM concentration
 - [[Neuberger Berman]] — Quality Equity Fund holds ~10% of $2.6B AUM in SpaceX (Hanson)
 - [[Nasdaq Private Market]] — $1.54T current secondary mark on combined entity
 - [[Rainmaker Securities]] — secondary trading platform, Greg Martin commentary
@@ -456,6 +458,40 @@ The IPO is no longer being marketed as a pure space scarcity story. The analyst-
 
 ### Cross-vault
 - [Geopolitics: Elon Musk](obsidian://open?vault=geopolitics&file=Actors%2FElon%20Musk) — political power, DOGE, Musk-Trump relationship
+
+---
+
+## Hedge fund winners (FT May 18 2026)
+
+The [[Financial Times]] (Amelia Pollard and George Hammond, May 18, 2026) detailed the hedge fund payouts the IPO is set to deliver. The cohort is small — most hedge funds did not have access to SpaceX rounds in 2019-2020 — but the windfalls are large enough to redefine fund-level returns for the firms that did. Two firms stand out: [[D1 Capital]] and [[Darsana Capital Partners]]. Both are NY-based long/short equity firms with Tiger Cub-era lineage; both entered at funding-round valuations rather than later secondaries; neither has trimmed.
+
+| Firm | Founder | Entry year | Entry valuation | Stake at $1.75T IPO target | Notes |
+|------|---------|------------|-----------------|----------------------------|-------|
+| [[D1 Capital]] | Dan Sundheim (ex-[[Viking Global]] CIO) | 2020 | $36B (= SpaceX [[SpaceX#Funding rounds (complete)\|Series M]], Feb 2020) | ~$20B | Largest reported single-firm windfall. Sundheim told investors in 2025 he did not intend to sell "despite very substantial inbound interest" |
+| [[Darsana Capital Partners]] | [[Anand Desai]] (ex-[[Eton Park Capital Management]] partner) | 2019 | $33B (= SpaceX [[SpaceX#Funding rounds (complete)\|Series K]], Apr 2019, [[Baillie Gifford]]-led) | ~$15B | Position represents ~60% of Darsana's AUM. Position was sourced when partner Dan Irom met SpaceX while researching publicly traded satellite companies |
+
+Both firms also picked up indirect SpaceX exposure through the [[SpaceX xAI merger|Feb 2026 xAI consolidation]] — earlier [[X (Twitter)|X]] holdings converted via the 2025 X→[[xAI]] merger, then to SpaceX shares in February. Darsana additionally holds [[EchoStar]], whose ~2.8% SpaceX equity from the [[EchoStar#2025 Sep 8 (SpaceX spectrum deal #1)|spectrum-for-shares deals]] adds another indirect leg.
+
+The FT also confirmed that [[Wall Street Journal]] first reported Darsana's expected payday, slightly ahead of the FT's same-day coverage; the cross-source corroboration matters because Darsana is intensely private and there are no public disclosures of either the position size or the AUM concentration.
+
+### Structural read — "lines on Wall Street started to blur"
+
+The article reproduces an adviser's framing — that the industry's exposure to [[SpaceX]] is a sign of how the lines between [[Private Equity|private equity]], [[Venture Capital|venture capital]], and hedge funds have "started to blur." The pattern is established but the SpaceX IPO crystallizes it at a scale not seen before:
+
+- D1 and Darsana entered private SpaceX rounds at $33-36bn valuations — the kind of primary round historically reserved for growth-equity sponsors and crossover funds like [[T. Rowe Price]] / [[Fidelity]] / [[Baillie Gifford]], not L/S equity managers
+- Both held through five subsequent valuation step-ups via tenders and round participations — a buy-and-hold horizon closer to PE than to L/S equity convention
+- The realization is structured as a public IPO rather than a secondary or M&A — both firms accept the public-market exit path
+- Position concentration (~60% of AUM at Darsana) is more consistent with a single-bet venture vehicle than a diversified L/S book
+
+The vault frame for this pattern lives in [[Hedge Funds#Tiger cubs / L/S equity]] (Tiger Cub crossover lineage) and [[Private markets]] (the broader crossover trend including [[Tiger Global]], [[Coatue]], [[Whale Rock Capital]], etc.). The FT framing is well-established industry observation; what's specifically new here is the dollar quantum — the D1/Darsana combined ~$35bn is larger than the entire 2024 VC-fund US fundraise for the largest single firms.
+
+### Lock-up implications
+
+For both D1 and Darsana, the IPO's custom non-standard lock-up arrangement (see [[SpaceX IPO 2026#What makes this IPO structurally unusual]]) governs whether the paper gain converts to cash on the typical 6-month timeline, faster, or later. SpaceX raised ~$10bn over 20+ years as a private company — creating substantial pent-up insider liquidity demand — so the lock-up is being negotiated to manage selling pressure rather than to impose the standard 6-month freeze.
+
+Sundheim's 2025 statement that he had no intent to sell despite "very substantial inbound interest" is the cleanest signal that the largest reported holder will not be a Day-1 seller. Whether that extends through the entire post-IPO year, or whether D1 begins distributing after the lock-up window opens, is unstated.
+
+*Source: [[Financial Times|FT]] "SpaceX IPO set to hand $20bn stake to one hedge fund" (May 18 2026, Amelia Pollard and George Hammond); [[Wall Street Journal]] first reported the Darsana payday earlier on May 18 (per FT).*
 
 ---
 
@@ -482,4 +518,4 @@ The bear case fits the pattern of pre-IPO transparency forcing the prospect of a
 
 ---
 
-*Created 2026-03-29, updated 2026-04-09 with Reuters valuation math and Deepwater sovereign AI thesis. Split from [[SpaceX]] actor note. May 18 2026: Lockett Starship bear case section added.*
+*Created 2026-03-29, updated 2026-04-09 with Reuters valuation math and Deepwater sovereign AI thesis. Split from [[SpaceX]] actor note. May 18 2026: Lockett Starship bear case section added. May 19 2026: hedge-fund-winners section added from FT May 18 reporting (D1 Capital + Darsana Capital Partners stake sizing).*

@@ -20,6 +20,7 @@ tags: [actor, ai, modellab, uk, private]
 | Co-leads | [[Sequoia Capital]], [[Lightspeed Venture Partners]] |
 | Strategic backer | [[NVIDIA]] (≥$250M) |
 | Other backers | [[Google]], [[DST Global]], [[Index Ventures]], [[EQT]], [[BOND Capital]], [[UK Sovereign AI Fund]], [[British Business Bank]] |
+| Angel | [[Demis Hassabis]] (disclosed FT May 19 2026 as part of his broader [[DeepMind diaspora]] angel portfolio) |
 | Founder pledge | 100% of personal equity proceeds via [[Founders Pledge]] |
 | Approach | RL-first; no pre-training; no human data |
 
@@ -95,6 +96,10 @@ The competitive question is whether the RL-from-experience thesis requires envir
 - [[OpenAI]], [[Anthropic]], [[Google DeepMind]] — paradigm being challenged
 - [[Thinking Machines Lab]], [[SSI]] — other ex-frontier-lab founder bets
 - [[xAI]], [[Mistral]] — sovereign / billionaire-funded peers
+
+### Diaspora context
+- [[DeepMind diaspora]] — Ineffable is one of the larger alumni-founded labs in the network
+- [[Demis Hassabis]] — angel investor (in addition to [[Google]]'s corporate position)
 
 ---
 

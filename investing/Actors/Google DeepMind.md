@@ -66,9 +66,10 @@ Google's advantage: Distribution to billions through Search, Android, Gmail.
 
 | Person | Role |
 |--------|------|
-| [[Demis Hassabis]] | CEO (DeepMind founder) |
-| Jeff Dean | Chief Scientist |
-| Koray Kavukcuoglu | VP Research |
+| [[Demis Hassabis]] | CEO (DeepMind founder); also hub investor for the [[DeepMind diaspora]] |
+| [[Jeff Dean]] | Chief Scientist |
+| [[Koray Kavukcuoglu]] | Chief AI Architect, [[Google]] (SVP, reports to [[Sundar Pichai]]) — promoted Jun 2025 from Google DeepMind CTO; moved from London to Mountain View |
+| [[Pushmeet Kohli]] | VP Research, Google DeepMind + Chief Scientist, [[Google Cloud]] (Apr 2026); leads AI for Science Unit that produced AlphaFold + [[Isomorphic Labs]] spinout |
 
 ---
 
@@ -129,13 +130,56 @@ Google's AI capabilities are underappreciated:
 
 ---
 
+## Alumni founder factory
+
+DeepMind has become the dominant source of new frontier-AI founders globally. Per Evertrace data (May 2026), 112 DeepMind alumni have founded startups in the 18 months to May 2026 — 70 in the [[US]], 28 in the [[UK]], 14 elsewhere. Aggregate capital raised by alumni-founded startups since 2021: $14bn+ ([[PitchBook]] / [[Dealroom]] via FT). See [[DeepMind diaspora]] for full structural treatment.
+
+Notable founder departures and their companies:
+
+| Person | Departed | Company | Status |
+|---|---|---|---|
+| [[Mustafa Suleyman]] | 2019 (DeepMind co-founder) | [[Inflection AI]] → [[Microsoft AI]] (Mar 2024 acquihire) | Now leads Microsoft AI |
+| [[David Silver]] | Early 2026 (VP RL) | [[Ineffable Intelligence]] | $1.1B seed Apr 2026 |
+| [[Arthur Mensch]] | 2023 | [[Mistral]] (co-founder, CEO) | $14B (Sep 2025) |
+| [[Tim Rocktäschel]] | 2025 | Recursive Superintelligence | $500M-650M raised; targeting up to $1B |
+| [[Tantum Collins]] | (~2024 to White House → stealth) | Stealth AI startup (King's Cross) | — |
+| [[Gabriel Pereyra]] | (research scientist) | [[Harvey]] (co-founder, President) | ~$8B (late 2025) |
+
+[[Demis Hassabis]] himself is an angel investor in [[Anthropic]], [[Inflection AI]], [[Ineffable Intelligence]], and [[Entrepreneurs First]] (FT, May 2026) — the hub-investor pattern that structurally resembles the [[PayPal mafia]]'s Thiel-as-hub configuration. [[Google]] separately holds corporate stakes in many of these (notably Anthropic and Ineffable).
+
+The 2025-2026 internal promotions of [[Koray Kavukcuoglu]] and [[Pushmeet Kohli]] into senior [[Google]]-wide roles can be read as part of the company's response to the diaspora — creating bigger internal mandates for senior researchers at the moment when external founder economics have never been better.
+
+---
+
 ## Related
 
+### Parent and adjacent
 - [[Google]] — parent company
+- [[Alphabet]] — corporate parent
+- [[Sundar Pichai]] — Google CEO
+
+### Competitors
 - [[OpenAI]] — competitor
-- [[Anthropic]] — competitor (founded by ex-OpenAI)
-- [[Demis Hassabis]] — CEO
+- [[Anthropic]] — competitor (founded by ex-OpenAI); Hassabis personally invested as angel
+- [[Mistral]] — alumnus-founded competitor
+- [[Ineffable Intelligence]] — alumnus-founded competitor
 - [[AI hyperscalers]] — category
+
+### Leadership
+- [[Demis Hassabis]] — CEO; angel investor across the [[DeepMind diaspora]]
+- [[Koray Kavukcuoglu]] — Chief AI Architect, Google (promoted Jun 2025)
+- [[Pushmeet Kohli]] — Chief Scientist, Google Cloud (Apr 2026)
+
+### Spinouts and alumni-founded companies
+- [[DeepMind diaspora]] — structural concept
+- [[Isomorphic Labs]] — DeepMind drug-discovery spinout
+- [[Mustafa Suleyman]] — co-founder → [[Inflection AI]] → [[Microsoft AI]]
+- [[David Silver]] → [[Ineffable Intelligence]]
+- [[Tim Rocktäschel]] → Recursive Superintelligence
+- [[Tantum Collins]] → stealth (King's Cross)
+
+### Products and projects
+- [[Genie 3]] — world model (Feb 2026)
 - [[Waymo]] -- [[Genie 3]] applied to AV simulation (Feb 2026)
 - [[AlphaGo]] — Go-playing AI, defeated Lee Sedol 2016
 - [[Chain-of-thought monitoring]] — cross-lab alignment collaboration with [[OpenAI]] and [[Anthropic]]

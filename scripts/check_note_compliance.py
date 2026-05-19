@@ -264,6 +264,10 @@ class NoteChecker:
         if note_type in ("concept", "event"):
             issues.extend(self._check_synthesis(content, filepath))
 
+        # Public-company M&A event notes must capture the tape, not only the strategy.
+        if note_type == "event":
+            issues.extend(self._check_ma_market_reaction(content, filepath))
+
         # Hub checks (concept and sector notes)
         if note_type in ("concept", "sector"):
             issues.extend(self._check_oneliner_links(content, filepath))
@@ -1414,6 +1418,71 @@ aliases: []
                 "Concept/event note missing '## Synthesis' section"))
 
         return issues
+
+    def _check_ma_market_reaction(self, content: str, filepath: Path) -> list[Issue]:
+        """Check that public-company M&A event notes capture market reaction.
+
+        Strategic rationale and the market's first judgment are separate facts.
+        If at least one linked actor is public, require a dedicated section for
+        acquirer/target price moves, premium or exchange-ratio implications,
+        implied consideration/spread math, and closing-risk read.
+        """
+        issues = []
+
+        if not self._is_ma_event(content, filepath):
+            return issues
+
+        if not self._ma_event_involves_public_company(content):
+            return issues
+
+        has_market_reaction = bool(re.search(
+            r'^##\s+Market\s+Reaction\b',
+            content,
+            re.IGNORECASE | re.MULTILINE
+        ))
+
+        if not has_market_reaction:
+            issues.append(Issue(
+                "warning",
+                "market-reaction",
+                "Public-company M&A event missing ## Market Reaction section "
+                "with acquirer/target stock moves, premium or exchange-ratio "
+                "implication, implied consideration/spread math, close/fail odds "
+                "when defensible, external proxies, and tape verdict."
+            ))
+
+        return issues
+
+    def _is_ma_event(self, content: str, filepath: Path) -> bool:
+        """Detect M&A event notes from tags, filename, or deal language."""
+        if self._has_tag(content, "#ma"):
+            return True
+
+        text = f"{filepath.stem}\n{content}"
+        return bool(re.search(
+            r'\b(M&A|merger|acquisition|takeover|buyout|spin-merger|'
+            r'all-stock|cash-and-stock|stock-and-cash|exchange\s+ratio|'
+            r'definitive\s+(agreement|transaction)|acquir(?:e|es|ed|ing))\b',
+            text,
+            re.IGNORECASE
+        ))
+
+    def _ma_event_involves_public_company(self, content: str) -> bool:
+        """Return True when an M&A event links to at least one public actor."""
+        linked_names = set(re.findall(r'\[\[([^\]|\\]+)(?:\\?\|[^\]]+)?\]\]', content))
+
+        for name in linked_names:
+            actor_path = self.vault_root / "Actors" / f"{name}.md"
+            if not actor_path.exists():
+                continue
+            try:
+                actor_content = actor_path.read_text(encoding="utf-8")
+            except (OSError, UnicodeDecodeError):
+                continue
+            if self._is_public_company(actor_content):
+                return True
+
+        return False
 
     def _check_oneliner_links(self, content: str, filepath: Path) -> list[Issue]:
         """Check that hub one-liners link to the entities they enumerate.

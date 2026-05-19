@@ -60,6 +60,34 @@ The first-day tape was not a clean endorsement from NextEra holders. Dominion tr
 
 The all-stock structure matters: Dominion holders receive 0.8138 NEE shares for each D share, so NEE's selloff immediately reduces the realized value of Dominion's consideration. The market reaction therefore says "strategically logical, financially and politically unproven," not "obvious win." The burden of proof sits with NextEra: closing approvals, ratepayer protections, data-center cost allocation, and whether the combined platform can earn regulated returns on the AI-power buildout without triggering political backlash.
 
+### Implied completion risk
+
+Using May 18, 2026 closes, the spread implies a large discount to completion, though not a literal probability because the deal has a 12-18 month path, dividends, hedging costs, and regulatory time value.
+
+| Input | Value |
+|---|---:|
+| NEE close | $89.04 |
+| D close | $67.56 |
+| Exchange ratio | 0.8138 NEE per D |
+| Pro-rata $360M cash payment | About $0.41 per D share |
+| Implied current deal value | ~$72.87 per D share |
+| Gross spread | ~$5.31 / ~7.9% |
+| D pre-deal close / simple break value | $61.73 |
+| Binary close probability using break value | ~52% close / ~48% fail |
+
+The binary math is deliberately crude: `D price = P(close) * deal value + P(fail) * break value`. With D at $67.56, current deal value around $72.87, and a $61.73 break value, the implied close probability is roughly 52%. That should be read as "market is charging a material discount for approval and execution risk," not as a precise forecast that the deal is more likely than not to fail.
+
+External corroboration is directional, not a published 52/48 probability. [[RBC Capital]] raised its Dominion price target to $72 after the announcement, kept a Sector Perform rating, and highlighted Virginia/South Carolina/North Carolina regulatory approval timelines plus potential NEPOOL divestiture requirements. That sits close to the $72.87 current implied deal value while still embedding a risk discount versus the announced implied value around $77. The spread interpretation follows standard [[Merger Arbitrage|merger arbitrage]] logic: the target's discount to consideration compensates for time-to-close and completion risk.
+
+Other external risk markers point the same way, but none publish a precise close/fail probability:
+
+| Source | Marker | Completion-risk read |
+|---|---|---|
+| [[RBC Capital]] | $72 D price target, ~7% arb spread, Sector Perform | Quantified spread proxy; regulatory timelines and potential NEPOOL divestitures keep the target below implied consideration. |
+| TIKR | Pre-announcement Street range of ~$59 low / ~$70 high | Binary framing: successful deal pulls D toward the high end; collapse returns it toward the standalone utility valuation. |
+| FX Leaders | Consensus target ~$65.69 vs D close $67.56; $65-$68 near-term battleground | Analysts saw deal premium largely priced in; 12-18 months of regulatory uncertainty remains the live risk. |
+| TheStreet | Deal confirmation makes the spread the arbitrage; collapse gives back merger speculation gains | Qualitative arb framing consistent with the spread math but not a probability estimate. |
+
 ---
 
 ## Why It Matters
@@ -110,6 +138,10 @@ The structural read connecting the two: where the FT article identified the *flo
 - [Clean Virginia - NextEra moves to acquire Dominion Energy](https://www.cleanvirginia.org/2026/05/18/nextera_dominion_proposed_merger/) (May 18, 2026).
 - [[Fortune]] - [NextEra's $67 billion Dominion takeover creates world's largest utility to win the AI power surge](https://fortune.com/2026/05/18/nextera-dominion-67-billion-acquisition-ai-data-centers-largest-utility/) (May 18, 2026; market-reaction read).
 - [Motley Fool - Why NextEra Energy Stock Fell 5.4% Today](https://www.fool.com/investing/2026/05/18/why-nextera-energy-stock-fell-54-today/) (May 18, 2026; acquirer-shareholder reaction).
+- [[RBC Capital|RBC Capital Markets]] via [Investing.com - analyst price-target update on Dominion after NEE deal](https://www.investing.com/news/analyst-ratings/rbc-capital-raises-dominion-resources-stock-price-target-on-nee-deal-93CH-4696811) (May 18, 2026; target-price and regulatory-risk read).
+- [TIKR - Dominion Energy stock jumps on NextEra merger talks](https://www.tikr.com/blog/dominion-energy-stock-jumps-on-400-billion-nextera-merger-talks-what-investors-need-to-know) (May 16, 2026; pre-announcement binary range framing).
+- [FX Leaders - NextEra-Dominion merger risks](https://www.fxleaders.com/news/2026/05/19/67-billion-nextera-dominion-energy-merger-to-take-on-the-ai-power-age-but-can-it-deliver/) (May 19, 2026; regulatory-risk and consensus-target framing).
+- [TheStreet - NextEra eyes Dominion Energy](https://www.thestreet.com/investing/stocks/nextera-eyes-400b-buyout-of-dominion-energy-stock) (May 18, 2026; deal-spread / arbitrage framing).
 
 ---
 

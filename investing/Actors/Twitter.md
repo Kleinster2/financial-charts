@@ -1,5 +1,5 @@
 ---
-aliases: [Twitter Inc, pre-X Twitter]
+aliases: [Twitter Inc, pre-X Twitter, X (Twitter)]
 tags: [actor, social-media, usa, private, historical]
 ---
 

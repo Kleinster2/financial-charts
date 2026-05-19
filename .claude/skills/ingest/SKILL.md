@@ -49,6 +49,8 @@ Enumerate three lists:
 
 Present enumeration to user as a table before vault work begins.
 
+**Public-company M&A reaction trigger.** If the source is a merger, acquisition, take-private, spin-merger, or strategic combination involving any listed company, enumerate market-reaction data as first-class data points: acquirer move, target move, premium/exchange-ratio value, current implied consideration, gross and annualized spread, break-value assumption, crude implied close/fail odds when defensible, external probability/spread proxies, and "what did the tape believe?" Treat this as separate from the strategic rationale. Strategic logic answers why the deal could make sense; market reaction records whether investors agreed.
+
 ## Phase 1.5: Classify before writing
 
 Four gates run in order before any vault writes. Each gate filters what gets written, where it goes, and how confident the framing is. Run cold research (gate 4) last because it depends on knowing what concept-level writes are planned.
@@ -182,6 +184,8 @@ Process the full survey table:
 **Stubs for dead links:** frontmatter + one-liner + Quick stats + Related
 
 **3+ actors touched by one event** → create Event note in `Events/`. Actor notes carry short summary + wikilink.
+
+**Public-company M&A event gate:** when the event is M&A involving at least one listed company, the event note must include `## Market Reaction` with acquirer/target stock moves, premium or exchange-ratio implications, current implied consideration, gross and annualized spread, break-value assumption, crude implied close/fail odds when defensible, external probability/spread proxies, and one sentence answering "what did the tape believe?" Mirror the short version into the public acquirer/target securities notes as `## Market reaction` sections that link back to the event note. See `docs/note-checklist.md#public-company-ma-market-reaction`.
 
 **Copyright on quoted material:** max 15-word quotes from copyrighted articles. Paraphrase the rest with attribution.
 

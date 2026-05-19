@@ -23,6 +23,7 @@ Fix all errors before proceeding to manual checks.
 - Funding rounds table — exists, complete (no gaps/catch-all rows), individual rounds listed
 - Missing ownership % estimates table (private)
 - Missing credit rating in Financial position or Quick stats table (public companies)
+- Missing `## Market Reaction` on public-company M&A event notes
 - Table formatting (blank lines before tables)
 
 **Exit codes:** 0 = pass, 1 = errors
@@ -59,6 +60,24 @@ These cannot be automated. Review each one.
 - [ ] Stubs and thin notes skip this (not enough surface area to interpret)
 - [ ] Tensions, contradictions, and structural patterns in the facts are surfaced
 - [ ] Open questions are explicit, not papered over with a tidy narrative
+
+### Public-company M&A market reaction
+
+For any merger, acquisition, take-private, spin-merger, or strategic combination involving a listed company, the event note is incomplete until it separates strategic logic from market verdict. Add a `## Market Reaction` section even when the deal rationale already feels obvious.
+
+- [ ] Acquirer stock reaction is captured (same-day and next-day when available)
+- [ ] Target stock reaction is captured
+- [ ] Deal premium, exchange-ratio value, or cash/stock mix implication is stated
+- [ ] Current implied consideration is calculated from live deal terms (cash, stock ratio, collars, contingent payments)
+- [ ] Gross spread and annualized spread are calculated when the target still trades
+- [ ] Break value / standalone downside assumption is stated when defensible
+- [ ] Crude implied close/fail odds are calculated for merger-arb setups where a break value can be estimated; if not defensible, say why
+- [ ] External estimates or proxies are checked (analyst targets, arb-spread commentary, options/prediction-market odds); if none exist, state that the probability is internal math
+- [ ] One sentence answers: "what did the tape believe?"
+- [ ] Source is cited and price moves are verified against local closes when writing precise price-performance claims
+- [ ] Securities notes for the public acquirer/target have short `## Market reaction` mirrors that link back to the event note
+
+Failure mode this prevents: the note captures the strategic thesis ("why the deal matters") but misses the market's first judgment ("who got paid, who got discounted, and what risk the tape is pricing"). This happened in the first-pass [[NextEra-Dominion merger 2026]] note on May 19, 2026: the event note had the AI-power consolidation thesis, but not Dominion's target-premium rally versus NextEra's acquirer selloff, and the first market-reaction fix still missed the standard merger-arb implied-odds calculation.
 
 ### Charts
 
