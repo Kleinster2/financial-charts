@@ -1,6 +1,6 @@
 ---
 name: substacks
-description: "Sweep ~82 tracked newsletter/Substack sources (Chartbook, ChinaTalk, Robin Brooks, Vizier Report, Chips and Wafers, etc. — full list in docs/newsletter-sources.md) for new posts in a configurable window (default 48 hours). Cross-references vault coverage, presents a candidate table, and delegates ingestion to /ingest URL for each selected post. Use for /substacks, newsletter sweep, what did the substacks publish, weekend reading."
+description: "Sweep ~83 tracked newsletter/Substack sources (Chartbook, ChinaTalk, Robin Brooks, Vizier Report, Chips and Wafers, etc. — full list in docs/newsletter-sources.md) for new posts in a configurable window (default 48 hours). Cross-references vault coverage, presents a candidate table, and delegates ingestion to /ingest URL for each selected post. Use for /substacks, newsletter sweep, what did the substacks publish, weekend reading."
 ---
 
 # Substack Sweep
@@ -10,13 +10,13 @@ Scan tracked newsletters and Substacks for new posts and ingest the vault-releva
 **Before any vault edit**: read `CLAUDE.md` in the vault root.
 
 **Boundary**:
-- Daily movers, ticker audits, analyst commentary, earnings → `/morning-scan`
+- Daily movers, ticker audits, analyst commentary, earnings → `/daily-scan`
 - Named-source article ingestion (Bloomberg, Reuters, FT, WSJ) → `/news <source>`
 - This skill is for the curated newsletter/Substack archive list
 
 ## Phase 1: Source Scan
 
-1. Read `docs/newsletter-sources.md` for the full source list (~82 publications).
+1. Read `docs/newsletter-sources.md` for the full source list (~83 publications).
 2. Default window: posts in the last 48 hours. User can override (`/substacks 7d` for a week, `/substacks 14d` for two).
 3. For each source: navigate to the archive/homepage. WebFetch first; fall back to Chrome MCP on 403 (per `[[feedback_chrome_on_403]]`).
 4. Capture title, date, and a one-line summary for each post in the window.
@@ -58,7 +58,7 @@ After all ingestions complete, append a `## Substack sweep` section to today's d
 
 ## Cadence
 
-No fixed cadence. `/morning-scan`'s "Suggested follow-ups" surfaces "5+ days since last substack sweep" as a soft trigger. Weekend reading and quiet-news afternoons are natural moments.
+No fixed cadence. `/daily-scan`'s "Suggested follow-ups" surfaces "5+ days since last substack sweep" as a soft trigger. Weekend reading and quiet-news afternoons are natural moments.
 
 ## Failure modes
 

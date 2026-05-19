@@ -1,6 +1,6 @@
 # Movers Screening Logic
 
-`/morning-scan` runs the sigma screen plus three audit scripts in parallel. The screen alone misses three structural failure modes; the audits exist to catch them.
+`/daily-scan` runs the sigma screen plus three audit scripts in parallel. The screen alone misses three structural failure modes; the audits exist to catch them.
 
 ## Three-trigger sigma screen
 

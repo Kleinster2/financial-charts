@@ -1,6 +1,6 @@
 # Analyst Watchlist
 
-8 tracked analysts scanned by `/morning-scan`. When they publish new commentary, ingest their quotes, data points, and price calls into both their actor note and the relevant concept/event notes — not just the analyst note.
+8 tracked analysts scanned by `/daily-scan`. When they publish new commentary, ingest their quotes, data points, and price calls into both their actor note and the relevant concept/event notes — not just the analyst note.
 
 ## Watchlist
 

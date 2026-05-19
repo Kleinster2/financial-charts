@@ -1,6 +1,6 @@
 ---
 name: news
-description: "Ingest news articles from a specified source (Bloomberg, Reuters, FT, WSJ, or user-named) into the vault. Searches the source for vault-relevant articles, applies a 48-hour date gate, presents candidates, and ingests each selected article via /ingest. Closes with a downstream-impact check on any event/crisis notes updated. Use for /news SOURCE, ingest from Bloomberg, check FT for AI articles. NOT for daily movers (use /morning-scan) or newsletter sweep (use /substacks)."
+description: "Ingest news articles from a specified source (Bloomberg, Reuters, FT, WSJ, or user-named) into the vault. Searches the source for vault-relevant articles, applies a 48-hour date gate, presents candidates, and ingests each selected article via /ingest. Closes with a downstream-impact check on any event/crisis notes updated. Use for /news SOURCE, ingest from Bloomberg, check FT for AI articles. NOT for daily movers (use /daily-scan) or newsletter sweep (use /substacks)."
 ---
 
 # News Article Ingestion
@@ -10,7 +10,7 @@ Ingest news articles from a named source into the Obsidian vault. The skill orch
 **Before any vault edit**: read `CLAUDE.md` in the vault root.
 
 **Boundary**:
-- Daily movers, ticker audits, analyst commentary, earnings calendar → `/morning-scan`
+- Daily movers, ticker audits, analyst commentary, earnings calendar → `/daily-scan`
 - Curated newsletter/Substack archive sweep → `/substacks`
 - This skill is for **named-source article ingestion** (Bloomberg, Reuters, FT, WSJ, or whatever the user specifies)
 

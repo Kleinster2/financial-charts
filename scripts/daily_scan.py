@@ -1,14 +1,16 @@
 """
-Morning scan — automated pre-market data gathering.
+Daily scan — automated market data gathering for the /daily-scan skill.
 
 Runs before the AI synthesis step to prepare structured data:
 1. Updates market data (stocks, ETFs, ADRs, FX, futures)
 2. Runs sigma movers against vault actors
 3. Checks earnings calendar for today/this week
-4. Outputs structured JSON for the morning briefing skill
+4. Outputs structured JSON for the daily briefing skill
+
+Renamed from morning_scan.py 2026-05-19 — the script is time-of-day agnostic.
 
 Usage:
-    python scripts/morning_scan.py [--skip-update] [--output FILE]
+    python scripts/daily_scan.py [--skip-update] [--output FILE]
 """
 
 import argparse

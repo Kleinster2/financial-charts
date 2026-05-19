@@ -10,7 +10,7 @@ Definitions live in `.claude/skills/<name>/SKILL.md`. The cross-runtime mirrors 
 
 | Skill | Purpose | Primary vault(s) |
 |---|---|---|
-| `/morning-scan` | Daily market scan: sigma movers, ticker audits, IPO debuts, analyst watchlist, earnings calendar, pre-market briefing | investing |
+| `/daily-scan` | Daily market scan: sigma movers, ticker audits, IPO debuts, analyst watchlist, earnings calendar, pre-market briefing | investing |
 | `/substacks` | Sweep ~67 tracked newsletter/Substack sources for new posts; delegate per-post ingestion | investing, geopolitics, technologies, history (varies by post) |
 | `/news <source>` | Article ingestion from a named source (Bloomberg, Reuters, FT, WSJ) with downstream-impact check | varies by article |
 | `/ingest` | Single-source ingestion (interview, article, filing, screenshots) — handles entity sweep, image routing, note creation | varies by source |
