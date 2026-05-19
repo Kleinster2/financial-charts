@@ -132,6 +132,7 @@ GE Vernova is the former GE power, renewables, and electrification portfolio sep
 ## Analyst timeline
 
 - Apr. 22, 2026 — Reuters and company results: raised 2026 revenue and margin guidance, backlog rose by $13 billion to $163 billion, and management said combined gas-turbine backlog plus slot reservations should reach at least 110 GW by year-end.
+- May 3, 2026 — FT identified GE Vernova as the top US name in the renewable-energy / clean-power flow rally, up 65% YTD at the article's publication. DB verification: +61.4% YTD May 3 close ($1,062.95), moderating to +59.3% by May 15 ($1,049.23). The FT framing positioned GE Vernova as a US AI-power play (per [[Nordea Asset Management|Nordea]]'s Kasper Elmgreen: "In the US it is about: how do we build enough power for the AI data centres? It's all hands on deck") rather than an energy-security autonomy play, which differentiates it from the European cohort ([[Orsted|Ørsted]], [[Nordex]], [[Acciona]]) sharing the rally on different framing. See [[Energy security as investment thesis]] for the geographic-differentiation discussion.
 
 ---
 
@@ -162,6 +163,10 @@ Bear case: wind losses can still consume attention and margin, tariffs are a rea
 - [[Power constraints]]
 - [[Grid infrastructure super-cycle]]
 - [[AI infrastructure financing]]
+- [[Energy security as investment thesis]] — 2026 thesis context (US AI-power leg)
+
+### Events
+- [[2026 Iran conflict market impact]] — proximate driver of 2026 sector re-rating
 
 ### Securities
 - [[GE Vernova securities note]]

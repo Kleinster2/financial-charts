@@ -120,6 +120,30 @@ Part of Meta's hybrid fleet (4 turbine types, ~307 MW gross). [[Siemens]] provid
 
 ---
 
+## Energy-security re-rating (2026 YTD)
+
+Per FT, May 3 2026: Siemens Energy was up 50% YTD on the [[Energy security as investment thesis|European energy-security capex cycle]] driven by the [[2026 Iran conflict market impact|Iran war]]. DB verification confirms +50.6% YTD as of May 3 close (€180.58), with subsequent moderation to +41.4% YTD as of May 15 (€169.54).
+
+| Metric | Value |
+|---|---|
+| YE 2025 close | €119.89 |
+| May 3 2026 close | €180.58 |
+| May 15 2026 close | €169.54 |
+| YTD May 3 (per FT) | +50% |
+| YTD May 3 (DB) | +50.6% |
+| YTD May 15 (DB) | +41.4% |
+
+The dual-driver structure makes Siemens Energy a hybrid play in the FT-identified cohort:
+1. Gas turbine business — US AI data center power demand (the [[AI infrastructure financing|AI capex bottleneck]] thesis, same as [[GE Vernova]])
+2. Siemens Gamesa wind business — EU offshore + onshore sovereignty thesis (the [[Energy security as investment thesis|energy-security frame]])
+3. Grid technologies — both drivers; grid investment is the binding constraint in both the US AI buildout and the EU autonomy timeline
+
+The market is pricing Siemens Energy as participating in both legs of the FT-quoted asset-manager framing (Elmgreen's "all hands on deck" for US grid + "sovereignty and autonomy" for EU). This dual exposure is structurally different from the single-leg expressions like [[Orsted|Ørsted]] (pure EU offshore) or [[NextEra Energy]] (pure US utility + renewable developer).
+
+*Source: FT, "Investors pile into clean power as Iran war drives push for energy security" (Emily Herbert and Ramsay Hodgson, May 3 2026).*
+
+---
+
 ## Wind business
 
 **[[Siemens]] Gamesa (wind subsidiary):**
@@ -178,12 +202,25 @@ Part of Meta's hybrid fleet (4 turbine types, ~307 MW gross). [[Siemens]] provid
 
 ## Related
 
+### Concepts
 - [[Power constraints]] — thesis context (gas turbine demand)
 - [[BYOP]] — on-site generation pattern
+- [[Energy security as investment thesis]] — 2026 dual-driver re-rating thesis (EU wind leg)
+- [[AI infrastructure financing]] — context (DC power leg)
+
+### Companies
 - [[GE Vernova]] — competitor (\#1 turbine maker)
 - [[Ansaldo Energia]] — competitor ([[OpenAI]] deal)
 - [[Solar Turbines]] — co-supplier (Meta Socrates South)
 - [[Meta]] — customer (Socrates South)
 - [[AI hyperscalers]] — customer (power demand)
+- [[Orsted|Ørsted]] — offshore-wind customer-developer
+- [[Nordex]], [[Acciona]] — EU renewables cohort peers
+- [[Vestas]] — wind-turbine competitor
+
+### Events
+- [[2026 Iran conflict market impact]] — proximate driver of energy-security re-rating
+- [[Ukraine war]] — original EU autonomy wake-up call
+
+### Other
 - [[AI datacenter architecture]] — design context
-- [[AI infrastructure financing]] — context (DC power)

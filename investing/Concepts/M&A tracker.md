@@ -10,6 +10,7 @@ Tracking major mergers and acquisitions relevant to portfolio.
 
 | Acquirer | [[Target]] | Value | Status | Sector |
 |----------|--------|-------|--------|--------|
+| [[NextEra Energy]] | [[Dominion Energy]] | $66.8B equity / ~$420B EV | Definitive agreement; expected close 2H 2027 | Power / AI infrastructure |
 | [[Merck]] | [[Revolution Medicines]] | $32B | In talks | Pharma |
 
 ---

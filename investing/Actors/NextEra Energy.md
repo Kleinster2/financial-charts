@@ -5,18 +5,20 @@ aliases: [NEE]
 
 **NextEra Energy** — Largest US utility by market cap (~$170B). Largest renewable energy producer globally. Pioneer of "Bring Your Own Generation" (BYOG) model for AI data centers.
 
+NextEra is the cleanest large-cap US expression of the AI power bottleneck: a regulated [[Florida]] utility, a scaled renewables/storage developer, a nuclear-restart operator, and now the agreed buyer of [[Dominion Energy]]'s Virginia/PJM data-center load corridor. The note is no longer just a renewables compounder; it is about whether NextEra can turn power scarcity into a regulated and contracted growth platform without handing the political upside to hyperscalers and the bill to ordinary ratepayers.
+
 ---
 
 ## Sector correlation
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| Utilities | XLU | 0.69 |
-| [[Consumer Staples]] | XLP | 0.54 |
-| [[Real estate\|Real Estate]] | XLRE | 0.47 |
-| *S&P 500* | *SPY* | *0.38* |
+| Utilities | [[XLU]] | 0.69 |
+| [[Consumer Staples]] | [[XLP]] | 0.54 |
+| [[Real estate\|Real Estate]] | [[XLRE]] | 0.47 |
+| *[[S&P 500]]* | *[[SPY]]* | *0.38* |
 
-NEE shows moderate Utilities correlation (XLU r = 0.69).
+NEE shows moderate Utilities correlation ([[XLU]] r = 0.69).
 
 ---
 
@@ -24,7 +26,7 @@ NEE shows moderate Utilities correlation (XLU r = 0.69).
 
 | Metric | Value |
 |--------|-------|
-| Ticker | NEE (NYSE) |
+| Ticker | NEE ([[NYSE]]) |
 | Market cap | ~$176B |
 | TTM revenue | $26.3B |
 | FY 2025 adj EPS | $3.71 (+8% YoY) |
@@ -35,7 +37,7 @@ NEE shows moderate Utilities correlation (XLU r = 0.69).
 | Backlog | ~33 GW total |
 | FPL data center pipeline | 21 GW of requests |
 | Advanced FPL talks | 10+ GW |
-| Japan-backed gas projects | ~10 GW in PA + TX |
+| [[Japan]]-backed gas projects | ~10 GW in PA + [[Texas]] |
 
 *Updated 2026-01-28*
 
@@ -44,6 +46,13 @@ NEE shows moderate Utilities correlation (XLU r = 0.69).
 ## Charts
 
 ![[nextera-energy-price-chart.png]]
+*NEE trades as the liquid equity expression of regulated utility growth, AI-power development, and now Dominion/PJM load-center optionality.*
+
+![[nextera-energy-fundamentals-chart.png]]
+*Revenue and net income show the utility/developer earnings base behind the AI-power rerating thesis.*
+
+![[nextera-energy-sankey.png]]
+*FY2025 income-statement flow for the utility/developer platform.*
 
 ![[ai-power-plays-comparison.png]]
 *[[Bloom Energy]] · [[Dominion Energy]]*
@@ -52,17 +61,17 @@ NEE shows moderate Utilities correlation (XLU r = 0.69).
 
 ## What makes NextEra, NextEra
 
-**Scale + BYOG = unique competitive moat.** NextEra is both the largest US utility (Florida Power & Light, ~12M customers) and the largest US renewable developer (NextEra Energy Resources). This dual structure means it can offer hyperscalers something nobody else can at scale: build dedicated power generation next to your data center, sell it to you via long-term PPA, and handle everything.
+Scale + BYOG = unique competitive moat. NextEra is both the largest US utility ([[Florida]] Power & Light, ~12M customers) and the largest US renewable developer (NextEra Energy Resources). This dual structure means it can offer hyperscalers something nobody else can at scale: build dedicated power generation next to your data center, sell it to you via long-term PPA, and handle everything.
 
-**The BYOG model:** CEO John Ketchum (Dec 2025 Investor Day) declared the US has entered a "golden age of power demand." NextEra's pitch: rather than waiting years for grid connections, let us build generation co-located with your data center. Analysts ([[UBS]], [[Morgan Stanley]]) see this as a competitive advantage few can replicate at scale.
+The BYOG model: CEO John Ketchum (Dec 2025 Investor Day) declared the US has entered a "golden age of power demand." NextEra's pitch: rather than waiting years for grid connections, let us build generation co-located with your data center. Analysts ([[UBS]], [[Morgan Stanley]]) see this as a competitive advantage few can replicate at scale.
 
 ---
 
 ## Two businesses
 
-### Florida Power & Light (FPL)
+### [[Florida]] Power & Light (FPL)
 - Regulated utility, ~12M customers
-- Florida = high growth market (population inflows)
+- [[Florida]] = high growth market (population inflows)
 - Rate base expansion
 - Nuclear fleet provides baseload
 - Some data center demand (growing)
@@ -78,35 +87,35 @@ NEE shows moderate Utilities correlation (XLU r = 0.69).
 
 ## Q4 2025 Earnings (Jan 27, 2026)
 
-**Beat estimates:**
+Beat estimates:
 - Q4 adj EPS: $0.54 vs $0.53 expected
 - FY 2025 adj EPS: $3.71 (+8% YoY)
 
-**Segment performance:**
-- **FPL net income:** $958M (+13.4% YoY) — driven by higher capital investment
-- **NextEra Energy Resources:** $545M profit vs -$442M loss year ago
+Business-line performance:
+- FPL net income: $958M (+13.4% YoY) — driven by higher capital investment
+- NextEra Energy Resources: $545M profit vs -$442M loss year ago
 
-**Backlog growth:**
+Backlog growth:
 - Added 13.5 GW of new generation and battery storage to backlog in 2025
 - 3.6 GW added since Q3 call (October)
 - Total backlog: ~30 GW
 
-**Nuclear expansion plans:**
-- In "advanced discussions" to power additional **9 GW** of data centers
-- Can add **6 GW of new nuclear** capacity at existing sites
-- Considering **greenfield sites** for advanced nuclear builds
-- ~20 GW of data center customer interest in Florida alone
+Nuclear expansion plans:
+- In "advanced discussions" to power additional 9 GW of data centers
+- Can add 6 GW of new nuclear capacity at existing sites
+- Considering greenfield sites for advanced nuclear builds
+- ~20 GW of data center customer interest in [[Florida]] alone
 - Nearly half in advanced discussions, potential to come online by 2028
 - Company expects "some announcements in 2026"
 
-**Guidance reaffirmed:**
+Guidance reaffirmed:
 - 2026 adj EPS: $3.92-$4.02
 - 8%+ annual EPS growth through 2032
 - 10% dividend growth through 2026
 
-## Q1 2026 earnings + Japan-backed gas projects (Apr 23, 2026)
+## Q1 2026 earnings + [[Japan]]-backed gas projects (Apr 23, 2026)
 
-NextEra's Apr. 23 print made the power-for-AI story more concrete. The company beat Q1 estimates, held full-year guidance, and said it expects to finalize agreements within about three months on two Japan-backed natural-gas projects for U.S. data centers, one in Pennsylvania and one in Texas, totaling nearly 10 GW.
+NextEra's Apr. 23 print made the power-for-AI story more concrete. The company beat Q1 estimates, held full-year guidance, and said it expects to finalize agreements within about three months on two [[Japan]]-backed natural-gas projects for U.S. data centers, one in Pennsylvania and one in [[Texas]], totaling nearly 10 GW.
 
 | Metric | Value |
 |--------|-------|
@@ -119,7 +128,23 @@ NextEra's Apr. 23 print made the power-for-AI story more concrete. The company b
 | Advanced FPL discussions | More than half of pipeline |
 | Stock reaction | $96.25 close, +6.9% on Apr. 23 |
 
-The important distinction is that NextEra is now attacking the AI power problem from both sides of the meter. Inside regulated utility territory, Florida Power & Light says data-center requests have reached 21 GW and more than half are in advanced talks, with the advanced tranche expected online by 2028. Outside the utility footprint, the company is developing nearly 10 GW of gas-fired projects backed by Japan for large data-center customers. That is not just a renewable developer selling PPAs. It is utility-scale BYOP formalized into a cross-border financing structure.
+The important distinction is that NextEra is now attacking the AI power problem from both sides of the meter. Inside regulated utility territory, [[Florida]] Power & Light says data-center requests have reached 21 GW and more than half are in advanced talks, with the advanced tranche expected online by 2028. Outside the utility footprint, the company is developing nearly 10 GW of gas-fired projects backed by [[Japan]] for large data-center customers. That is not just a renewable developer selling PPAs. It is utility-scale BYOP formalized into a cross-border financing structure.
+
+---
+
+## Dominion merger agreement (May 18, 2026)
+
+[[NextEra Energy]] signed a definitive all-stock agreement to combine with [[Dominion Energy]]; see [[NextEra-Dominion merger 2026]]. The acquisition would add Dominion's Virginia/North Carolina/South Carolina regulated platforms and [[PJM]] data-center load exposure to NextEra's existing FPL utility, renewables, gas, storage, and [[BYOP]] development machine.
+
+| Item | Detail |
+|---|---|
+| Structure | 0.8138 NEE shares for each D share |
+| Deal value | $66.8B equity value; about $420B pro forma enterprise value |
+| Ownership | NEE holders about 74.5%; D holders about 25.5% |
+| Combined platform | About 10M utility accounts, 110 GW of generation, and more than 130 GW of large-load opportunities |
+| Closing target | 12-18 months / second half of 2027, subject to shareholder, [[FERC]], nuclear-regulator, and state utility approvals |
+
+Strategically, this is the moment NextEra's AI-power thesis moves from selling power to hyperscalers toward owning one of the most valuable regulated load centers in the AI economy. The regulatory test is whether the combined company can keep the benefits of scale visible to ordinary ratepayers while building enough generation and grid capacity for data centers.
 
 ---
 
@@ -127,42 +152,91 @@ The important distinction is that NextEra is now attacking the AI power problem 
 
 | Partner | Deal | Details |
 |---------|------|---------|
-| **Google Cloud** | 25-year PPA | Restart Duane Arnold nuclear plant (Iowa, 615 MW) for 24/7 carbon-free AI power |
-| **Meta** | 2.5 GW clean energy | 11 PPAs + 2 energy storage agreements, projects online 2026-2028 |
-| **ExxonMobil** | 1.2 GW gas + CCS | [[Natural gas]] plant with carbon capture |
-| **Basin Electric** | ~1,450 MW gas | North Dakota combined-cycle, foundation for multi-GW DC campus |
+| [[Google Cloud]] | 25-year PPA | Restart Duane Arnold nuclear plant (Iowa, 615 MW) for 24/7 carbon-free AI power |
+| Meta | 2.5 GW clean energy | 11 PPAs + 2 energy storage agreements, projects online 2026-2028 |
+| ExxonMobil | 1.2 GW gas + CCS | [[Natural gas]] plant with carbon capture |
+| Basin Electric | ~1,450 MW gas | North Dakota combined-cycle, foundation for multi-GW DC campus |
 
 ---
 
-## Data center infrastructure buildout
+## [[Data center infrastructure]] buildout
 
-- **Backlog:** ~33 GW total (Q1 2026)
-- **FPL request pipeline:** 21 GW of data center load requests; more than half in advanced talks
-- **Japan-backed off-system projects:** ~10 GW across Pennsylvania and Texas, agreements expected within about three months
-- **Nuclear expansion:** 6 GW potential at existing sites + greenfield advanced nuclear
-- **Pipeline covers:** wind, solar, storage, nuclear restart, natural gas with CCS, and dedicated gas-fired data center generation
-- **Competitive advantage:** lowest-cost developer, best sites locked up, procurement leverage
+- Backlog: ~33 GW total (Q1 2026)
+- FPL request pipeline: 21 GW of data center load requests; more than half in advanced talks
+- [[Japan]]-backed off-system projects: ~10 GW across Pennsylvania and [[Texas]], agreements expected within about three months
+- Nuclear expansion: 6 GW potential at existing sites + greenfield advanced nuclear
+- Pipeline covers: wind, solar, storage, nuclear restart, natural gas with CCS, and dedicated gas-fired data center generation
+- Competitive advantage: lowest-cost developer, best sites locked up, procurement leverage
 
 ---
 
-## Revenue and growth
+## Leadership
 
-| Year | Revenue |
-|------|---------|
-| 2023 | $28.1B |
-| 2024 | $24.8B |
-| TTM (Jan 2026) | $26.3B |
+| Role | Person | Notes |
+|------|--------|-------|
+| CEO | John W. Ketchum | Chairman, president, and CEO since the 2022 succession; central voice for BYOG/data-center strategy. |
+| CFO | Michael Dunne | Executive vice president, finance and CFO; official leadership page lists him as current CFO. |
+| NEER CEO | Brian Bolster | Runs the development arm that converts AI load requests into generation/storage projects. |
+| FPL CEO | Scott Bores | Runs the regulated [[Florida]] utility platform. |
 
-EPS trajectory:
+Source: NextEra official leadership page, checked 2026-05-19.
+
+---
+
+## Evolution
+
+| Period | Phase | What changed |
+|--------|-------|--------------|
+| 1925-2000s | Regulated utility base | FPL became the high-growth [[Florida]] utility anchor. |
+| 2000s-2024 | Renewables platform | NextEra Energy Resources scaled into the largest US renewable/storage developer. |
+| 2025-2026 | AI-power platform | BYOG/BYOP became the customer proposition: build generation, storage, nuclear, and gas capacity around data-center load. |
+| May 2026 onward | Load-center consolidation | The [[NextEra-Dominion merger 2026]] would add Dominion's Virginia/PJM exposure to NextEra's generation-development machine. |
+
+---
+
+## Financials
+
+### Annual
+
+| Year | Revenue | Net income | Diluted EPS |
+|------|---------|------------|-------------|
+| 2021 | $17.1B | $3.6B | $1.81 |
+| 2022 | $21.0B | $4.1B | $2.10 |
+| 2023 | $28.1B | $7.3B | $3.60 |
+| 2024 | $24.8B | $6.9B | $3.37 |
+| 2025 | $27.4B | $6.8B | $3.30 |
+
+Source: local `market_data.db` annual income-statement rows; NEE rows backfilled from StockAnalysis after the [[Alpha Vantage]] pull returned no income rows.
+
+Adjusted EPS trajectory:
 - 2025A: $3.71 (+8% YoY)
 - 2026E: $3.92-$4.02
 - Long-term: 8%+ annual growth through 2032
 
 ---
 
+## Ratings history
+
+| Date | Agency | Rating / action | Outlook | Notes |
+|------|--------|-----------------|---------|-------|
+| 2026-05 | S&P / [[Moody's]] / Fitch | A- / Baa1 / A- corporate credit rating | Stable / Stable / Stable | NextEra official fixed-income page. |
+| 2026-05-18 | S&P | Ratings affirmed after announced Dominion transaction | Stable | S&P action tied to the stock-for-stock merger announcement. |
+
+---
+
+## Analyst timeline
+
+| Date | Source | Read-through |
+|------|--------|--------------|
+| 2025-12 | Investor Day / sell-side notes | Ketchum's "golden age of power demand" framing pushed the note from renewables growth toward AI-power infrastructure. |
+| 2026-04-23 | Q1 2026 print | Beat, guidance reaffirmed, 4 GW backlog add, and nearly 10 GW of [[Japan]]-backed gas projects made the BYOP thesis more concrete. |
+| 2026-05-18 | [[Reuters]] / [[Financial Times\|FT]] merger cluster | Dominion agreement reframed NEE as a regulated-load-center consolidator, not just a generation supplier. |
+
+---
+
 ## Investment case
 
-**Bull:**
+Bull:
 - Largest, lowest-cost renewable developer globally
 - BYOG model = unique competitive advantage
 - 15 GW DC power hub pipeline
@@ -171,7 +245,7 @@ EPS trajectory:
 - 8%+ EPS growth through 2035
 - Dividend Aristocrat (30+ years of increases)
 
-**Bear:**
+Bear:
 - Premium valuation (~22x 2025 EPS)
 - Revenue declined 2023→2024
 - Interest rate sensitivity (capital-intensive)
@@ -181,13 +255,31 @@ EPS trajectory:
 
 ---
 
+## Energy-security flows context (May 3 2026)
+
+Per FT, May 3 2026: NextEra was identified as a US name participating in the broader clean-energy fund-flow rally, up 22% YTD. DB verification: +21.2% YTD as of May 3 close ($96.95), moderating to +16.7% by May 15 ($93.36). Per the FT-quoted [[Nordea Asset Management|Nordea]]'s Kasper Elmgreen, the US-side flows are driven by AI data center power demand (validating the BYOG / BYOP framing already in this note) rather than the [[Energy security as investment thesis|European energy-security / sovereignty thesis]]. NextEra is a clean expression of the US leg: largest renewable developer + regulated utility + nuclear restart capacity, all serving the same buyer category (hyperscalers + their proximate utilities).
+
+The flow data validates the existing thesis without changing the structural framing. The April 23 print already established NextEra's position; the FT article confirms the broader sector flows are landing on the names that solve the AI-power constraint.
+
+*Source: FT, "Investors pile into clean power as [[Iran]] war drives push for energy security" (Emily Herbert and Ramsay Hodgson, May 3 2026).*
+
+---
+
 ## Related
 
+### Securities
+- [[NextEra Energy securities note]] — equity-market / chart companion
+
+### Operating thesis
 - [[Power constraints]] — thesis context (NextEra solves grid gap via BYOG)
 - [[BYOP]] — NextEra's model (Bring Your Own Generation)
-- [[Dominion Energy]] — peer (utility with direct DC load)
+- [[Energy security as investment thesis]] — 2026 sector flow context (US AI-power leg)
+- [[2026 Iran conflict market impact]] — proximate sector re-rating driver
+- [[Dominion Energy]] — pending combination target (May 2026)
+- [[NextEra-Dominion merger 2026]] — all-stock merger agreement
 - [[Constellation Energy]] — peer (nuclear for AI)
 - [[Vistra]] — peer (power for AI)
+- [[GE Vernova]] — US AI-power cohort peer (different segment)
 - [[Google]] — customer (Duane Arnold nuclear restart)
 - [[Meta]] — customer (2.5 GW clean energy PPAs)
 - [[Talen Energy]] — peer (nuclear-adjacent DC power)

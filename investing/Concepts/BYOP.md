@@ -60,6 +60,7 @@ Grid power availability is the binding constraint on AI infrastructure buildout.
 | [[Google]] | [[Kairos Power]] | 500MW | SMR development |
 | [[Oracle]] | Nuclear DC | TBD | Nuclear permits ([[Larry Ellison]]) |
 | [[NextEra Energy]] | Pennsylvania + Texas projects | ~10GW | Japan-backed gas-fired fleet for data centers |
+| [[NextEra Energy]] / [[Dominion Energy]] | [[NextEra-Dominion merger 2026]] | >130GW large-load pipeline | Utility-platform consolidation around AI load |
 | [[xAI]] | Colossus | 2GW | Bitcoin miner partnerships |
 | [[Meta]] / [[EdgeConneX]] | Project Walleye (Ohio) | TBD | Island mode -- on-site gas microgrid, first combined DC + power financing ($3B) |
 
@@ -68,6 +69,12 @@ Grid power availability is the binding constraint on AI infrastructure buildout.
 [[NextEra Energy]] said on Apr. 23 that it expects to finalize agreements within about three months on two Japan-backed gas-fired projects for U.S. data centers, one in Pennsylvania and one in Texas, totaling nearly 10 GW. That is an important step in the evolution of BYOP.
 
 Until now, many of the flagship examples were hyperscalers contracting directly for power or co-locating with generation assets. NextEra shows the next phase: utilities and utility-adjacent developers industrializing BYOP as a dedicated product for data-center customers, with cross-border financing and multi-gigawatt scale.
+
+### Utility-platform consolidation (May 18, 2026)
+
+The [[NextEra-Dominion merger 2026]] pushes the BYOP thesis one level up the stack. Instead of merely building dedicated generation for hyperscalers, [[NextEra Energy]] is trying to own the regulated load center and the development engine together. [[Dominion Energy]] supplies the Virginia data-center corridor and [[PJM]] exposure; NextEra supplies the scale to finance, procure, and build generation around that load.
+
+This does not replace behind-the-meter power. It changes the bargaining environment around it: a larger utility platform can offer integrated grid-plus-generation solutions, while hyperscalers may keep pursuing direct BYOP contracts to preserve speed and negotiating leverage.
 
 ---
 

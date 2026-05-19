@@ -21,6 +21,15 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 | [[BlackRock]] AIP | $100B target | Infra fund | [[Temasek]], KIA anchors |
 | Anthropic-[[Amazon]] | $100B+ cloud spend; up to $33B equity committed | Strategic cloud offtake + equity | AWS/Trainium capacity, up to 5 GW |
 | Anthropic-[[Google]] | Up to $40B equity; reported ~$200B cloud capacity | Strategic cloud offtake + equity | Google Cloud/TPU capacity, 5 GW over five years |
+| [[NextEra-Dominion merger 2026]] | $66.8B equity / ~$420B EV | Utility M&A / power platform | Stock-for-stock combination around >130 GW large-load pipeline |
+
+---
+
+## Power-platform consolidation (May 2026)
+
+The [[NextEra-Dominion merger 2026]] is not a GPU-collateral or SPV financing structure, but it belongs in the AI infrastructure deal ledger because it is the largest balance-sheet response so far to AI power demand. [[NextEra Energy]] is using stock to acquire [[Dominion Energy]]'s regulated data-center load territory, creating a utility platform with about 10M accounts, 110 GW of generation, and more than 130 GW of large-load opportunities.
+
+The transaction widens the infrastructure-financing map. AI capacity is no longer only funded through cloud offtake, GPU debt, or data-center JVs; it is also reshaping regulated utility M&A and the politics of [[DC power prices]].
 
 ---
 
