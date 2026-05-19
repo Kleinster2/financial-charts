@@ -22,6 +22,7 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 | Anthropic-[[Amazon]] | $100B+ cloud spend; up to $33B equity committed | Strategic cloud offtake + equity | AWS/Trainium capacity, up to 5 GW |
 | Anthropic-[[Google]] | Up to $40B equity; reported ~$200B cloud capacity | Strategic cloud offtake + equity | Google Cloud/TPU capacity, 5 GW over five years |
 | [[NextEra-Dominion merger 2026]] | $66.8B equity / ~$420B EV | Utility M&A / power platform | Stock-for-stock combination around >130 GW large-load pipeline |
+| [[Google-Blackstone TPU cloud venture 2026]] | $5B initial equity; up to ~$25B with leverage (FT) | Chip-backed TPU neo-cloud JV | Google supplies TPU + software; Blackstone majority (per FT); 500 MW online 2027; [[Benjamin Treynor Sloss]] CEO |
 
 ---
 

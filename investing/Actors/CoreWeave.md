@@ -9,7 +9,7 @@ CoreWeave — GPU cloud provider. NVIDIA-backed. Poster child for AI infrastruct
 
 ## Why CoreWeave matters
 
-CoreWeave is the largest "neocloud" — GPU-focused cloud competing with hyperscalers:
+CoreWeave is the largest "neocloud" — GPU-focused cloud competing with hyperscalers. As of May 18, 2026 it also has a structural TPU-cloud peer in the [[Google-Blackstone TPU cloud venture 2026|Blackstone-backed Google TPU JV]] — same business model, different silicon, backed by one of CoreWeave's own debt providers.
 
 | Metric | Value |
 |--------|-------|
@@ -76,6 +76,14 @@ Intrator's three pillars (Davos, Jan 2026):
 3. Capital structure — "East Coast capital" (debt) for infrastructure, "West Coast capital" (equity) for software
 
 Key quote: "Planetary scale computing buildout" — infrastructure at a scale "that defied the imagination."
+
+---
+
+## Google-Blackstone TPU cloud peer (May 18, 2026)
+
+On May 18, 2026, [[Alphabet|Google]] and [[Blackstone]] announced a new U.S.-based [[Google-Blackstone TPU cloud venture 2026|TPU cloud joint venture]] that mirrors CoreWeave's structural model — chip-vendor-backed neo-cloud — but on the [[TPU]] side. The new company will sell [[Google Cloud]] TPU access as a compute-as-a-service offering, with $5B initial Blackstone equity and up to ~$25B in total investment with leverage (per [[Financial Times|FT]] anonymous sourcing). 500 MW of capacity targets 2027.
+
+The competitive landscape implication for CoreWeave is direct. The category CoreWeave defined — fast accelerator access outside hyperscaler quotas, backed by a chip vendor's capital — now has a TPU twin backed by [[Blackstone]] (also one of CoreWeave's own debt providers in the $7.5B facility). The 65% [[Microsoft]] revenue concentration insulates CoreWeave in the near term, but the long-term TAM for non-hyperscaler accelerated cloud is now contested across chip families. Cohort comparison: CoreWeave (Nvidia/GPU side) and the Google-Blackstone JV (Google/TPU side) are now the two anchor chip-vendor-backed neo-clouds in the market.
 
 Customers:
 - Microsoft (65% of revenue)

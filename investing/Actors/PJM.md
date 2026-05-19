@@ -41,6 +41,16 @@ PJM warned of a potential **60 GW** power supply shortfall over the next decade 
 
 ---
 
+## Battery storage pressure valve (May 2026)
+
+Reuters' May 18 storage scan reinforces why [[PJM]] keeps recurring in the AI-power conversation: data-center load is arriving faster than generation and transmission interconnection can clear. Battery storage can help shave peaks and integrate renewables, but it does not remove PJM's deeper capacity-market problem or the need for new dispatchable supply.
+
+For investors, the implication is that PJM is both a bottleneck and a demand signal. The more data centers chase fast grid access in PJM territory, the more value shifts toward batteries, generation owners, transmission contractors, and customers able to bring their own generation.
+
+*Source: [Reuters via MarketScreener, May 18 2026](https://www.marketscreener.com/news/battery-storage-firms-eye-ai-demand-but-face-grid-supply-hurdles-ce7f5adadf81f62c).*
+
+---
+
 ## Why this matters for investors
 
 60 GW = roughly 60 new large nuclear reactors' worth of capacity needed. This is the most concrete quantification of the [[Power infrastructure bottleneck]] from the entity most responsible for US grid reliability. Beneficiaries: gas turbine makers ([[GE Vernova]], [[Siemens Energy]]), nuclear ([[Constellation Energy]], [[Vistra]], [[Oklo]]), grid infrastructure ([[Quanta Services]]).

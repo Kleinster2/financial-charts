@@ -125,7 +125,7 @@ AI/ML used for risk analytics, portfolio optimization.
 | Acquisition | Focus | Status |
 |-------------|-------|--------|
 | Global Infrastructure Partners (GIP) | Infrastructure | Completed |
-| HPS Investment Partners | [[Private credit]] | Completed July 2024 |
+| [[HPS Investment Partners]] | [[Private Credit]] | Completed July 2024. AUM scaled from ~$100B at acquisition to $381B (Mar 31, 2026) — 3.8x in 21 months. [[Citi-HPS direct lending EMEA partnership May 2026|Citi-HPS €15B EMEA program]] (May 18 2026) is the highest-profile validation of the integration. |
 | Preqin | [[Private markets]] data | Completed |
 
 Q4 private/alternatives inflows: $15.6B

@@ -17,6 +17,16 @@ Both grants extend Musk's supervoting base if vested, entrenching his >80% votin
 
 ---
 
+## OpenAI lawsuit verdict (May 18, 2026)
+
+A federal advisory jury rejected Musk's $134B damages case against [[OpenAI]], [[Sam Altman]], and other co-founders on May 18, 2026. The jury found Musk was not entitled to damages on the claim that he was cheated out of a founding stake after OpenAI moved toward a for-profit structure.
+
+The verdict matters for Musk less as cash damages and more as leverage. It weakens one route to constrain OpenAI's corporate structure while Musk's own [[xAI]] competes against it. The caveat: the jury was advisory, so Judge Yvonne Gonzalez Rogers still retains formal authority over equitable relief.
+
+*Sources: [Investing.com, May 18 2026](https://www.investing.com/news/stock-market-news/elon-musk-loses-lawsuit-against-openai-4696614), [AP](https://apnews.com/article/0b9b0bfaffe96f2c930341f52dfe4f8c).*
+
+---
+
 ## Why Musk matters for semis
 
 Musk's combined entities represent significant chip demand and policy influence:

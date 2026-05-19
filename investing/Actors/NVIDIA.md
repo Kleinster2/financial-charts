@@ -94,6 +94,26 @@ NVIDIA's moat isn't just GPUs — it's [[CUDA moat|CUDA]], the software ecosyste
 
 ---
 
+## TPU-cloud competitive frame (May 2026)
+
+On May 18, 2026, [[Alphabet|Google]] and [[Blackstone]] announced a new U.S.-based [[Google-Blackstone TPU cloud venture 2026|TPU cloud joint venture]] — a structural mirror of NVIDIA's own neo-cloud playbook ([[CoreWeave]], [[Nebius]], [[Nscale]], plus [[Blackstone]] itself on the debt side of CoreWeave). The JV externalises [[TPU]] distribution into a non-Google brand backed by $5B Blackstone equity and up to ~$25B with leverage (per [[Financial Times|FT]] anonymous sourcing). [[Benjamin Treynor Sloss]] — Google's [[Site Reliability Engineering|SRE]] founder — was named CEO.
+
+The competitive read: the chip race is now also a capital-structure race. NVIDIA's edge in neo-cloud financing (equity in CoreWeave, financing arrangements with Lambda, Nscale, and others) was a structural advantage; that advantage now has a credibly-backed mirror image on the TPU side. NVDA closed up modestly on the day (sources vary $222-$223), consistent with the deal being incremental to the [[Google TPU Competitive Position|TPU shift]] already priced in after Cloud Next 2026, and overshadowed in the near term by Nvidia's own earnings due later in the week.
+
+The narrower [[Jensen Huang]] critique that TPU has not been submitted to MLPerf survives this announcement; the customer-share and capital-structure disputes are weakening.
+
+---
+
+## China access optionality (Reuters, May 2026)
+
+On May 18, 2026, [[Jensen Huang]] told [[Reuters]] after a Beijing visit that he believes the [[China]] market will "open over time." The comment matters because NVIDIA's latest guidance assumes zero China data-center compute revenue, while the strategic downside of prolonged exclusion is ecosystem migration toward [[Huawei]] / [[Ascend]] and away from [[CUDA moat|CUDA]].
+
+This is optionality, not a reopened sales channel. Washington still controls export licenses, Beijing has discouraged Chinese buyers at points in the cycle, and the managed-access shipment architecture remains contested. But Huang is still spending CEO attention on China access rather than treating the market as abandoned territory.
+
+*Source: [Reuters via Investing.com, May 18 2026](https://www.investing.com/news/stock-market-news/nvidia-ceo-says-he-believes-china-market-will-open-over-time-4696684).*
+
+---
+
 ## Evolution
 
 - 1993: [[Jensen Huang]], Chris Malachowsky, and Curtis Priem found NVIDIA in a Denny's booth in San Jose. The name derives from "NV" (next version) + "invidia" (Latin: envy). Jensen was 30, an engineer at LSI Logic.

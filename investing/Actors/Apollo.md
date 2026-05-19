@@ -221,9 +221,11 @@ Bear:
 | Partnership | Amount | Detail |
 |-------------|--------|--------|
 | [[Mubadala]] private credit anchor | $12B | 2020 platform launch |
-| [[Citigroup]]/Apollo private credit | $25B | 2024-25 program |
+| [[Citigroup]]/Apollo private credit | $25B | Sep 26 2024 — 5-year North American program; Mubadala + [[Athene]] participate alongside Apollo |
 
 Apollo is a top destination for Abu Dhabi sovereign capital seeking private credit exposure.
+
+The 2024 [[Citigroup]]-Apollo program established the format that [[Citigroup|Citi]] subsequently replicated in EMEA with [[HPS Investment Partners|HPS]] / [[BlackRock]] in May 2026. The Apollo program's exclusivity is geographic (North America), so the EMEA Citi-HPS deal doesn't conflict — but the precedent that Citi will use multiple regional private-credit partners weakens any informal expectation of broader exclusivity. See [[Bank-private credit partnerships]] for the structural pattern and [[Citi-HPS direct lending EMEA partnership May 2026]] for the European leg.
 
 ---
 

@@ -26,16 +26,17 @@ Blackstone is the largest alternative asset manager — and increasingly an AI i
 
 | Metric | Value |
 |--------|-------|
-| AUM | $1T+ |
-| Data center platform | QTS (acquired 2021) |
+| AUM | $1.3T (May 2026, per company release) |
+| Data center platform | [[QTS]] (acquired 2021) |
 | QTS acquisition price | $10B |
 | CoreWeave financing | Part of $7.5B debt |
+| Google TPU JV (May 2026) | $5B initial equity, up to ~$25B with leverage (FT) |
 
 ---
 
 ## QTS [[Data Centers]]
 
-**Acquired 2021 for $10B** — now cornerstone of Blackstone's digital infra strategy:
+[[QTS]] (acquired 2021 for $10B) is the cornerstone of Blackstone's digital infra strategy:
 
 | Metric | Value |
 |--------|-------|
@@ -221,6 +222,18 @@ Strategic Partners deal flow plugs into [[Blackstone]]'s wealth-channel [[Evergr
 
 ---
 
+## Google-Blackstone TPU cloud joint venture (May 18, 2026)
+
+[[Blackstone]] anchored a new U.S.-based joint venture with [[Alphabet|Google]] on May 18, 2026 to sell [[Google Cloud]] [[TPU]] capacity as a compute-as-a-service offering. Initial commitment: $5B equity from Blackstone-managed funds; first 500 MW of capacity in 2027; total potential investment with leverage up to roughly $25B per [[Financial Times|FT]]'s anonymous sourcing. [[Jon Gray]] framed it as a "generational opportunity to invest capital at scale building AI infrastructure." [[Benjamin Treynor Sloss]] — a 20-year Google veteran who founded the [[Site Reliability Engineering|SRE]] practice — was named CEO of the new company; Blackstone owns the majority per FT (the official Blackstone PR does not disclose the ownership split).
+
+The JV is the largest single AI-infrastructure equity check Blackstone has anchored — larger than the $10B [[QTS]] take-private (2021) and larger than its share of the [[CoreWeave]] debt facility (2024). With this deal Blackstone's AI infra stack now covers all three layers: model-equity ([[Anthropic]], [[OpenAI]]), colocation ([[QTS]]), and now captive accelerator-cloud (GPU side via [[CoreWeave]] debt, TPU side via this JV). It is the structural twin of [[NVIDIA]]'s neo-cloud playbook ([[CoreWeave]], [[Nebius]], [[Nscale]]) — applied to TPU silicon — and gives [[Blackstone]] the dominant private-capital position across both AI chip families.
+
+BX closed -0.72% on the announcement day; investors weighed capital intensity, execution complexity, and long-dated returns against the strategic positioning. Full event detail in [[Google-Blackstone TPU cloud venture 2026]].
+
+*Sources: [Blackstone press release](https://www.blackstone.com/news/press/blackstone-announces-joint-venture-with-google-to-create-new-tpu-cloud/) (May 18 2026); [FT — Google makes chip push with Blackstone-backed AI cloud group](https://www.ft.com/content/5730b605-8fb2-4973-a188-b4a587ce3580) (May 18 2026).*
+
+---
+
 ## March 2026 update
 
 Stock +4.6% (+2.2 sigma) on March 13, 2026. Broader rebound in private credit-related names as market sentiment improved. [[Blackstone]] acquired Advanced Cooling Technologies (ACT) during the month — expanding energy portfolio to capitalize on data center cooling demand driven by AI infrastructure buildout.
@@ -258,6 +271,11 @@ The deal is part of a broader wave of alternative capital entering [[Lloyd's of 
 - [[India AI Impact Summit 2026]] — Neysa majority stake ($600M equity + $600M debt)
 - [[India]] — AI compute expansion
 - [[Advanced Cooling Technologies]] — acquired March 2026 (energy portfolio)
+- [[Google-Blackstone TPU cloud venture 2026]] — May 18 2026 TPU compute-as-a-service JV ($5B equity, up to ~$25B with leverage)
+- [[Jon Gray]] — president/COO, quoted on the JV
+- [[Benjamin Treynor Sloss]] — JV CEO (Google SRE founder)
+- [[TPU]] — silicon at the centre of the JV
+- [[Neocloud financing]] — chip-backed neo-cloud taxonomy
 - [[Private equity secondaries]] — Strategic Partners platform (~$84bn AUM)
 - [[Continuation fund]] — major GP-led practitioner
 - [[Evergreen private capital vehicles]] — BXPE vehicle includes ~5% secondaries

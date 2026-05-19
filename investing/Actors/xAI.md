@@ -210,7 +210,7 @@ xAI / SpaceXAI signed a single-tenant lease handing the entirety of [[Colossus|C
 
 The strategic logic Mirae Asset Securities laid out in its May 8 note: xAI judged Colossus 1 was not efficient enough for frontier training, moved its own workloads to Colossus 2, and rented the now-surplus heterogeneous cluster to a buyer whose workload neutralizes the inefficiency. See [[Training-to-inference cluster rotation]] for the framework and [[Colossus#Anthropic single-tenant lease (May 6 2026)|Colossus single-tenant lease section]] for the full transaction context.
 
-Musk's public framing was uncharacteristically dry given the prior public attacks on [[Anthropic]]: *"No one set off my evil detector"* (per Tom's Hardware reporting). The deal makes Anthropic the largest single customer of xAI compute infrastructure within weeks of *Musk v. OpenAI* trial proceedings (Apr 2026). See [[SpaceX xAI merger]] for the consolidated entity context.
+Musk's public framing was uncharacteristically dry given the prior public attacks on [[Anthropic]]: *"No one set off my evil detector"* (per Tom's Hardware reporting). The deal makes Anthropic the largest single customer of xAI compute infrastructure within weeks of *Musk v. OpenAI* trial proceedings (Apr 2026). The May 18 advisory verdict against Musk weakens one legal-pressure route on [[OpenAI]], so xAI's competitive path is increasingly commercial and infrastructure-led rather than litigation-led. See [[SpaceX xAI merger]] for the consolidated entity context.
 
 ---
 

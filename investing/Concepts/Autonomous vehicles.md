@@ -152,6 +152,14 @@ Key difference: Faster regulatory approval, more permissive testing.
 
 The distinction is important: China is not only racing for Level 4 robotaxis. It is embedding agentic behavior into mass-market EVs, where even supervised systems can become strategic differentiators if they make the car easier to command, park, navigate, and personalize.
 
+### May 2026: China production vs Tesla rollout claims
+
+Two May 18 Reuters items show the split in autonomy strategies. [[Xpeng]] began mass production of robotaxis in [[Guangzhou]] with a driverless-public-operation target in early 2027, a China-style path where local production, municipal approvals, and fleet operation are bundled. [[Tesla]], by contrast, is still primarily selling a broad US rollout narrative: [[Elon Musk]] said he expects Tesla cars without human monitors to be in widespread US use this year, while the installed base remains a supervised-FSD-to-limited-robotaxi transition.
+
+The contrast is useful: China is trying to industrialize robotaxis city by city; Tesla is trying to convert a consumer fleet and software stack into unsupervised autonomy without first building a classic lidar/sensor-fusion robotaxi network.
+
+*Sources: Reuters via [Yahoo Finance on Xpeng](https://uk.finance.yahoo.com/news/china-xpeng-begins-mass-production-092659786.html/) and [Investing.com on Tesla](https://m.investing.com/news/stock-market-news/teslas-musk-expects-widespread-use-in-us-of-cars-without-human-monitors-this-year-4695062?ampMode=1), May 18 2026.*
+
 ---
 
 ## Investment framework

@@ -1,18 +1,26 @@
 ---
-aliases: [Eric Jang AI, Eric Jang robotics]
-tags: [actor, ai, researcher, robotics, reinforcement_learning]
+aliases: [Eric Jang AI, Eric Jang robotics, ericjang]
+personal_site: https://evjang.com
+book: AI Is Good for You
+github: https://github.com/ericjang
+tags: [actor, ai, researcher, robotics, reinforcement_learning, author]
 ---
 
 # Eric Jang
 
-AI researcher with a robotics + reinforcement-learning background, formerly at [[Google]] [[Brain]]/Robotics, currently a research engineer working on agentic AI and embodied learning. Author of the May 15, 2026 [[Dwarkesh Podcast]] interview "Building AlphaGo from scratch" — the canonical articulation of the MCTS-vs-LLM-RL framework via his open-source modern AlphaGo reconstruction at [github.com/ericjang/autogo](https://github.com/ericjang/autogo).
+AI researcher with a robotics + reinforcement-learning background. Most recently VP of AI at [[1X Technologies]] (humanoid robotics), currently on sabbatical from 1X (per a May 2026 interview); previously Senior Research Scientist at [[Google]] [[Brain]] Robotics (2016-2022). Co-inventor of the Gumbel-Softmax / Concrete distribution — a foundational categorical-reparameterisation technique used widely in modern deep-learning architectures. Author of *AI Is Good for You* (self-published; he began writing it in 2019), a book-length treatment of his views on AGI development.
+
+Author of the May 15, 2026 [[Dwarkesh Podcast]] interview "Building AlphaGo from scratch" — the canonical articulation of the MCTS-vs-LLM-RL framework via his open-source modern AlphaGo reconstruction at [github.com/ericjang/autogo](https://github.com/ericjang/autogo). Maintains a personal blog at [evjang.com](https://evjang.com) with regular posts on AI / robotics / reinforcement-learning topics (most recent at time of writing: "As Rocks May Think," Feb 2026).
 
 ## Quick stats
 
 | Field | Value |
 |-------|-------|
-| Background | Robotics, reinforcement learning, AI research |
-| Prior affiliations | [[Google]] [[Brain]], Google Robotics, [[1X Technologies]] (humanoid robotics) |
+| Current role | On sabbatical from [[1X Technologies]] (was VP of AI; per May 2026 interview) |
+| Prior role | Senior Research Scientist, [[Google]] [[Brain]] Robotics, 2016-2022 |
+| Personal site / blog | [evjang.com](https://evjang.com) |
+| Book | *AI Is Good for You* (self-published, evjang.com/book/) |
+| Notable research contribution | Co-inventor, Gumbel-Softmax / Concrete distribution (2016) |
 | Notable May 2026 content | "Building AlphaGo from scratch" — [[Dwarkesh Podcast]] May 15 |
 | Open-source artefact | [github.com/ericjang/autogo](https://github.com/ericjang/autogo) — modern AlphaGo reconstruction |
 | Areas of focus | Agentic AI, embodied learning, RL training dynamics, robotics |

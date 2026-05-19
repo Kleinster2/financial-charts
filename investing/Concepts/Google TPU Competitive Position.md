@@ -15,6 +15,10 @@ For years, TPUs were an internal Google tool with limited external relevance. Th
 | FluidStack $100M investment | Google pushing TPUs into "neo cloud" | Feb 2026 |
 | GPU financing tightening | [[Blue Owl]] balked at $4B [[CoreWeave]] DC | Feb 2026 |
 | Alphabet +4% on positioning | Analysts see "pole position" in AI commercialization | Feb 21, 2026 |
+| TPU v7+ → Anthropic 3.5 GW | Up from 1 GW; ~$175B all-in via [[Broadcom]] through 2031 | Apr 6, 2026 |
+| Anthropic Google Cloud expansion | 5 GW of [[Google Cloud]] capacity over 5 years; up to $40B equity | Apr 24, 2026 |
+| Cloud Next 2026 + Epoch share | TPU 8t/8i unveiled; ~25% global AI compute (3.8M TPUs + 1.3M GPUs) | Apr 22-26, 2026 |
+| Google-Blackstone TPU cloud JV | $5B Blackstone equity, ~500 MW 2027, ~$25B all-in w/ leverage (FT); [[Benjamin Treynor Sloss]] CEO | May 18, 2026 |
 
 ---
 
@@ -147,6 +151,18 @@ Independent reporting around Cloud Next 2026 corroborates the earlier Neimucha/T
 
 ---
 
+## May 18, 2026: Google-Blackstone TPU cloud JV
+
+[[Alphabet|Google]] and [[Blackstone]] announced a new U.S.-based joint venture to sell [[TPU]] capacity as compute-as-a-service. Initial $5B [[Blackstone]] equity, first 500 MW online in 2027, total potential investment up to ~$25B with leverage per [[Financial Times|FT]] (Blackstone PR confirms only the $5B equity, not the leverage figure). [[Benjamin Treynor Sloss]] — Google's [[Site Reliability Engineering|SRE]] founder and most recently chief programs officer leading data-centre efficiency, AI diffusion, and "infrastructure capital structures and long-term capacity and supply assurance" — was named CEO.
+
+The competitive significance for TPU's market position is the *structural* one: TPU is now distributed through the same business model [[NVIDIA]] uses to widen its addressable market — chip vendor + private-capital sponsor + standalone customer-facing brand. Previously TPU access required a [[Google Cloud]] contract; now there is a Blackstone-controlled brand for customers who want TPU exposure without that constraint. This was the structural moat NVIDIA had via [[CoreWeave]], [[Nebius]], [[Nscale]], plus [[Blackstone]] itself on the CoreWeave debt side. As of May 2026, that moat has a TPU mirror image — backed by the same private-capital sponsor.
+
+The JV also lifts ~500 MW of buildout off Alphabet's $180-190B FY26 [[Hyperscaler capex|capex line]] — a financial-engineering benefit beyond the strategic positioning. The Sloss appointment signals functional continuity: Google is sending the executive whose internal remit literally included "infrastructure capital structures" to run the externalised version.
+
+Full event detail: [[Google-Blackstone TPU cloud venture 2026]].
+
+---
+
 ## Related
 
 - [[TPU]] — product detail (architecture, versions, specs)
@@ -159,3 +175,7 @@ Independent reporting around Cloud Next 2026 corroborates the earlier Neimucha/T
 - [[GPU Financing Risk]] — structural tailwind for TPU adoption
 - [[CoreWeave]] — GPU neocloud facing financing headwinds
 - [[AI accelerators]] — broader competitive landscape
+- [[Google-Blackstone TPU cloud venture 2026]] — May 2026 captive TPU neo-cloud
+- [[Benjamin Treynor Sloss]] — JV CEO
+- [[Blackstone]] — TPU-JV anchor sponsor
+- [[Neocloud financing]] — taxonomy includes chip-backed TPU clouds as of May 2026

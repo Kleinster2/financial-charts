@@ -53,6 +53,20 @@ This is the first material monetization push for the Fitbit asset since the $2.1
 
 ---
 
+## Google-Blackstone TPU cloud joint venture (May 18, 2026)
+
+[[Alphabet|Google]] and [[Blackstone]] announced a new U.S.-based joint venture on May 18, 2026 to sell [[Google Cloud]] [[TPU]] capacity as a compute-as-a-service offering. Blackstone commits $5B initial equity from its managed funds; first 500 MW of capacity targets 2027; total potential investment with leverage runs to about $25B per [[Financial Times|FT]]'s anonymous sourcing (Blackstone's official release confirms only the $5B equity, not the leverage figure). [[Benjamin Treynor Sloss]] — Google's [[Site Reliability Engineering|SRE]] founder, more recently chief programs officer running data-centre efficiency, AI diffusion, and "infrastructure capital structures and long-term capacity and supply assurance" — was named CEO of the new company.
+
+The structural read is that Google is externalising the *third-party* tranche of TPU demand into a [[Blackstone]]-controlled vehicle rather than absorbing it onto [[Google Cloud]]'s own balance sheet. That solves the [[Google Cloud]] vs [[Google DeepMind]] internal allocation tension surfaced after the [[Anthropic hyperscaler financing surge April 2026|April 2026 Anthropic deal]], lifts 500 MW of buildout off Alphabet's $180-190B FY26 [[Hyperscaler capex|capex line]], and competes with [[NVIDIA]] not just on chips but on the capital structure around chips — mirroring Nvidia's neo-cloud playbook with [[CoreWeave]], [[Nebius]], and [[Nscale]] on the TPU side. The Sloss hire is the functional-continuity signal: Google is sending the executive whose internal remit literally included "infrastructure capital structures" to run the externalised version.
+
+GOOGL closed $396.78 on the announcement day — modestly positive, well inside the recent trading range. The market did not reprice the AI complex on the news, consistent with the deal being incremental to the [[Google TPU Competitive Position|TPU shift]] already priced in after Cloud Next 2026.
+
+Full event detail and the Blackstone / NVIDIA / CoreWeave read-throughs in [[Google-Blackstone TPU cloud venture 2026]].
+
+*Sources: [Blackstone press release](https://www.blackstone.com/news/press/blackstone-announces-joint-venture-with-google-to-create-new-tpu-cloud/) (May 18 2026); [FT — Google makes chip push with Blackstone-backed AI cloud group](https://www.ft.com/content/5730b605-8fb2-4973-a188-b4a587ce3580) (May 18 2026).*
+
+---
+
 ## Project Suncatcher — SpaceX launch talks (May 12, 2026)
 
 The Wall Street Journal reported May 12 that [[Alphabet|Google]] is in talks with [[SpaceX]] to launch the [[Project Suncatcher]] prototype payloads — Alphabet's orbital data center initiative, announced November 2025 under the Paradigms of Intelligence research group. The Suncatcher production architecture is a constellation of 81 satellites flying in a ~1 km-radius formation at ~650 km in dawn-dusk sun-synchronous LEO, each carrying [[Trillium]] (TPU v6e) silicon, networked by 800 Gbps each-way DWDM free-space optical links. Hardware partner is [[Planet Labs]]; two prototype satellites target early-2027 launch. CEO [[Sundar Pichai]] has publicly framed orbital data centers as becoming "the new normal" within roughly a decade.

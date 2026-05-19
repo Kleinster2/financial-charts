@@ -87,6 +87,19 @@ If borrower breaches covenants: demand equity injection from PE sponsor, force a
 
 ---
 
+## Bank-private credit partnerships
+
+A new structural format is replacing parts of the syndicated leveraged-loan market: major global banks form multi-year origination partnerships with major private credit firms. The bank originates deals through its corporate client relationships and earns origination fees; the private credit firm supplies capital and holds the paper to maturity. The bank gets fee revenue without balance-sheet exposure; the private credit firm gets institutional-grade deal flow that no organic platform can match.
+
+| Program | Date | Size | Geography | Bank | Capital partner |
+|---|---|---|---|---|---|
+| [[Citigroup|Citi]]-[[Apollo]] | Sep 26 2024 | $25B | North America | [[Citigroup]] | [[Apollo]] + [[Mubadala]] + [[Athene]] |
+| [[Citi-HPS direct lending EMEA partnership May 2026|Citi-HPS]] | May 18 2026 | €15B (~$17.48B) | EMEA | [[Citigroup]] | [[HPS Investment Partners|HPS]] (part of [[BlackRock]]) |
+
+Full structural treatment in [[Bank-private credit partnerships]] concept note. The format is on a trajectory to become the dominant structure for sub-IG corporate financing across major economies by 2027-2028, with implications for credit cycle dynamics, capital concentration among top private credit firms, and the [[AI infrastructure financing risk|circular-financing]] frame.
+
+---
+
 ## Key players
 
 ### Managers

@@ -17,7 +17,7 @@ Founded in 1965 by [[Marty Lipton|Martin Lipton]], Herbert Wachtell, Leonard Ros
 
 Sixty years on, the firm remains <300 lawyers in one Midtown Manhattan office, ~80 partners, ~$1.4bn in 2025 revenue, and the highest profits per equity partner of any major US firm (~$12M in 2025, per Am Law 100). It advised on nine of the twenty largest US M&A transactions of 2025 ([[M&A tracker]]) and on six of the top ten US deals last year by value, including the pending [[Paramount Skydance]]–[[Warner Bros Discovery]] $109.9bn transaction, the [[Union Pacific]]–[[Norfolk Southern]] $87.7bn rail merger, the [[Saudi PIF|PIF]]-led [[Electronic Arts]] $48.1bn take-private, the [[Charter Communications]]–[[Cox Communications]] $35.2bn cable consolidation, the [[SoftBank]]-led $30bn [[OpenAI]] investment, and [[Palo Alto Networks]]'s $24.7bn acquisition of [[CyberArk]].
 
-The firm's distinctive economics rest on three structural choices: lockstep compensation (pay tied to seniority, no internal competition for fees), one-partner-one-vote governance (despite no partnership agreement), and project-based fees with a large discretionary "success" component. The 2022 [[Twitter]] / [[Elon Musk]] deal closed with a $90M Wachtell fee against time sheets that suggested under $30M — that gap is the model. [[Andrew Nussbaum]] and [[William Savitt]] have co-chaired the executive committee since 2023; Savitt represents [[OpenAI]] in its dispute with [[Elon Musk]] and cross-examined the billionaire in the same week (early May 2026) the FT published its profile of the firm. Real authority within the firm still concentrates around [[Marty Lipton]] (94, in office almost daily) and especially [[Edward Herlihy]] (79, his protégé and the firm's largest individual revenue generator across decades of bank-sector dealmaking).
+The firm's distinctive economics rest on three structural choices: lockstep compensation (pay tied to seniority, no internal competition for fees), one-partner-one-vote governance (despite no partnership agreement), and project-based fees with a large discretionary "success" component. The 2022 [[Twitter]] / [[Elon Musk]] deal closed with a $90M Wachtell fee against time sheets that suggested under $30M — that gap is the model. [[Andrew Nussbaum]] and [[William Savitt]] have co-chaired the executive committee since 2023; Savitt represents [[OpenAI]] in its dispute with [[Elon Musk]], cross-examined the billionaire in early May 2026, and then saw an advisory jury reject Musk's damages claim on May 18. Real authority within the firm still concentrates around [[Marty Lipton]] (94, in office almost daily) and especially [[Edward Herlihy]] (79, his protégé and the firm's largest individual revenue generator across decades of bank-sector dealmaking).
 
 ![[wachtell-2025-top10-us-ma.png]]
 *Wachtell advised on six of the ten largest US M&A deals of 2025 (bold = Wachtell): Paramount Skydance–Warner Bros Discovery $109.9bn, Union Pacific–Norfolk Southern $87.7bn, PIF–Electronic Arts $48.1bn, Charter–Cox Communications $35.2bn, SoftBank-led OpenAI $30bn, Palo Alto Networks–CyberArk $24.7bn. The four it did not advise on (Kimberly-Clark–Kenvue, GIP–Aligned Data Centers, Alphabet–Wiz, Constellation Energy–Calpine) were structurally less defensive in profile. Source: LSEG via FT.*
@@ -80,7 +80,7 @@ The economics that hold the model together:
 ## Selected representations
 
 - *2022:* [[Twitter]] board, defending against [[Elon Musk]]'s hostile bid then enforcing his takeover obligations. $90M fee.
-- *2025-26:* [[OpenAI]] in its dispute with [[Elon Musk]]. [[William Savitt]] cross-examined Musk in court (early May 2026).
+- *2025-26:* [[OpenAI]] in its dispute with [[Elon Musk]]. [[William Savitt]] cross-examined Musk in court (early May 2026); advisory jury rejected Musk's damages claim on May 18, 2026.
 - *2008:* [[Bank of America]] acquisition of [[Merrill Lynch]] — era-defining bank-sector deal during the financial crisis.
 - *2025:* [[Paramount Skydance]] in its $109.9bn pending sale to [[Warner Bros Discovery]].
 - *2025:* [[Union Pacific]] in $87.7bn merger with [[Norfolk Southern]].
@@ -95,6 +95,7 @@ The economics that hold the model together:
 - Am Law 100 — revenue and PEP series.
 - LSEG — 2025 US M&A league tables.
 - John Coates (former Wachtell partner, Harvard Law School) and John Morley (Yale Law School) — quoted academic commentary.
+- Investing.com / AP, May 18 2026 — advisory verdict in Musk v. OpenAI.
 
 ## Related
 

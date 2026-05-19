@@ -1,15 +1,19 @@
 ---
-aliases: [Robin Brooks]
+aliases: [Robin Brooks, Shadow Price Macro]
 type: person
 affiliation: [Brookings Institution]
-former: [Institute of International Finance]
+former: [Institute of International Finance, Goldman Sachs]
+substack: https://robinjbrooks.substack.com
+substack_name: Shadow Price Macro
 focus: [macroeconomics, energy markets, trade flows, FX]
 tags: [analyst, economics, energy]
 ---
 
 # Robin J. Brooks
 
-Senior Fellow at [[Brookings Institution]]. Former Chief Economist at the Institute of International Finance (IIF). Known for data-driven macro analysis using real-time indicators - AIS vessel tracking, capital flows, trade data.
+Senior Fellow at [[Brookings Institution]]. Former Chief Economist at the Institute of International Finance (IIF) and former Chief FX Strategist at [[Goldman Sachs]]. Publishes "[Shadow Price Macro](https://robinjbrooks.substack.com)" on Substack (~17,000+ subscribers), where he posts near-daily macro analysis. Known for data-driven macro using real-time indicators — AIS vessel tracking, capital flows, trade data.
+
+Vault-relevant collaboration network: ongoing Brookings work with [[Ben Harris]] tracking Russia oil exports; joint shadow-fleet enforcement proposal with [[Harold Koh]] (Yale Law) on European interdiction architecture. Recurring podcast guest at [[Paul Krugman]]'s Substack live videos and on the Mercatus Center's *Macro Musings* (dollar, fiscal dominance, geoeconomics).
 
 ## Relevant analysis
 

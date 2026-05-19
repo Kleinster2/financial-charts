@@ -258,7 +258,21 @@ Bear:
 - [[Citigroup securities note]]
 
 ### Other
-- [[BlackRock]] — $80B asset outsourcing deal
+- [[BlackRock]] — $80B asset outsourcing deal; also HPS parent (Citi-HPS EMEA partnership May 2026)
 - [[Credit card rate cap]] — Trump 10% proposal (Jan 2026)
 - [[Venezuela]] — exited 2021 (sold to BNC), potential re-entry if sanctions ease
+
+### Private credit partnerships
+
+| Program | Date | Size | Geography | Capital partner |
+|---|---|---|---|---|
+| [[Citigroup|Citi]]-[[Apollo]] direct lending | Sep 26, 2024 | $25B | North America | [[Apollo]] + [[Mubadala]] + [[Athene]] |
+| [[Citi-HPS direct lending EMEA partnership May 2026|Citi-HPS]] EMEA program | May 18, 2026 | €15B (~$17.48B) | Continental Europe + UK + Middle East | [[HPS Investment Partners|HPS]] (part of [[BlackRock]]) |
+
+Combined: ~$42.5B of committed bank-private-credit origination capacity with Citi as the bank-side anchor across two regions. The format fits cleanly with [[Jane Fraser]]'s turnaround thesis — fee-origination revenue without balance-sheet consumption directly improves return-on-tangible-equity, which is exactly the kind of structural earnings re-rating Citi needs to close the valuation gap with [[JPMorgan Chase]] and [[Bank of America]]. See [[Bank-private credit partnerships]] for the structural pattern.
+
+- [[Apollo]] — Citi's North American private-credit partner
+- [[HPS Investment Partners]] — Citi's EMEA private-credit partner
+- [[Citi-HPS direct lending EMEA partnership May 2026]] — May 2026 event note
+- [[Bank-private credit partnerships]] — structural pattern
 

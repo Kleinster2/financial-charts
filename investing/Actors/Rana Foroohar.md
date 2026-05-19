@@ -10,7 +10,7 @@ tags:
 
 #actor #person #journalist #opinion #ft
 
-**Rana Foroohar** is the [[Financial Times]]' global business columnist and CNN's global economic analyst, focused on the intersection of economics, geopolitics, technology, and business. Author of multiple books on financial-services excess, Silicon Valley power, and the future of capitalism. The kind of recurring FT byline whose views are worth tracking as a leading-indicator on framing shifts in the consensus financial-press worldview.
+**Rana Foroohar** is the [[Financial Times]]' global business columnist and associate editor + CNN's global economic analyst, focused on the intersection of economics, geopolitics, technology, and business. Author of three books on financial-services excess, Silicon Valley power, and the post-globalisation order. The kind of recurring FT byline whose views are worth tracking as a leading-indicator on framing shifts in the consensus financial-press worldview.
 
 ---
 
@@ -18,11 +18,20 @@ tags:
 
 | Metric | Value |
 |---|---|
-| Role | [[Financial Times]] global business columnist; CNN global economic analyst |
+| Role | [[Financial Times]] global business columnist + associate editor; CNN global economic analyst |
 | Coverage | Economics + geopolitics + technology + business intersections |
 | Affiliations | FT (primary); CNN (TV analyst); previous at TIME |
-| Books | *Makers and Takers* (2016, financial services); *Don't Be Evil* (2019, Silicon Valley) |
-| Recurring themes | Industrial policy, financialization, China-US decoupling, tech regulation |
+| Personal site | [ranaforoohar.com](https://www.ranaforoohar.com) |
+| Recurring themes | Industrial policy, financialization, China-US decoupling, tech regulation, post-globalisation |
+| Recent podcast appearances | Top Traders Unplugged (Jan 2025), Krystal Kyle & Friends (Ep. 97), others |
+
+## Books
+
+| Year | Title | Subject |
+|------|-------|---------|
+| 2016 | *Makers and Takers: The Rise of Finance and the Fall of American Business* | Financialization of US economy and consequences for industrial sectors |
+| 2019 | *Don't Be Evil: How Big Tech Betrayed Its Founding Principles—and All of Us* | Silicon Valley antitrust + power concentration |
+| 2022 | *Homecoming: The Path to Prosperity in a Post-Global World* | Post-globalisation order; reshoring; industrial policy; the analytical foundation for her current FT commentary on industrial policy and reshoring |
 
 ---
 

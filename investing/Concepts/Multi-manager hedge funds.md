@@ -51,7 +51,7 @@ The central firm provides: capital, risk infrastructure, operations, compliance,
 
 Traditional hedge fund: 2% management + 20% performance.
 
-Pod shop: **Pass-through + incentive allocation.**
+Pod shop: pass-through + incentive allocation.
 
 | Component | Detail |
 |-----------|--------|
@@ -60,7 +60,9 @@ Pod shop: **Pass-through + incentive allocation.**
 | Pass-through expenses | 5-10%+ of AUM (salaries, tech, data, prime brokerage) |
 | Effective fee | Can exceed 10% of AUM in high-expense years |
 
-LPs accept this because returns (net of fees) still beat alternatives.
+LPs accept this because returns (net of fees) still beat alternatives. By 2025, more than 80% of multi-strategy firms used some form of pass-through ([Bloomberg](https://www.bloomberg.com/graphics/2025-hedge-fund-investment-fees/)). The structural reason pass-through emerged: it solves netting risk by severing the link between firm-wide performance and top-PM bonuses. The full mechanics — pass-through, accelerator, centre book, above/below-line, worked example of $250mn → $36mn take-home, and the $100mn package buildup — are in [[Pod shop compensation]].
+
+The LP arithmetic in soft years can be brutal. [[Balyasny]]'s Atlas Enhanced fund returned 15.2% gross in 2023 but only 2.8% net after $768mn in pass-through expenses, with employee compensation the dominant line.
 
 ---
 
@@ -78,6 +80,8 @@ Pod shops compete aggressively for top PMs:
 This creates a flywheel: best talent → best returns → most capital → can pay more for talent.
 
 The losers: traditional single-manager funds can't compete on comp. Boutiques struggle to launch.
+
+The high-water mark by 2025: [[Steve Schurr]]'s ~$100mn move from [[Balyasny]] to [[Millennium]] in April 2025 — see [[Pod shop compensation]] for the FT's worked example of how $100mn packages are structured (team budget + cash advance + cost savings + accelerator), and [[Steve Schurr]] for the deal specifics. Alternative bidders for the same talent, when the multi-managers cool: [[Jane Street]], [[Citadel Securities]], and family offices like [[BlueCrest]] ([[Michael Platt]]'s $50-60bn proprietary vehicle).
 
 ---
 
@@ -144,6 +148,7 @@ New fund launches contracted for 4 consecutive years (2021-2024) as capital conc
 ## Related
 
 ### Concepts
+- [[Pod shop compensation]] — pass-through fees, accelerator, centre book, worked example, $100mn packages
 - [[Hedge fund capital concentration]] — the effect of pod shop dominance
 - [[Prime brokerage]] — pod shops as primary PB clients
 - [[HFT-hedge fund convergence]] — prop firms invading stat-arb territory
@@ -166,6 +171,13 @@ New fund launches contracted for 4 consecutive years (2021-2024) as capital conc
 - [[Izzy Englander]] — Millennium founder, pod model pioneer
 - [[Ken Griffin]] — Citadel founder
 - [[Steve Cohen]] — Point72 founder
+- [[Steve Schurr]] — Apr 2025 ~$100mn Balyasny → Millennium move, FT's framing data point
+- [[Michael Platt]] — BlueCrest founder; alternative-bidder example
+
+### Alternative bidders (per FT, Sep 2025)
+- [[Jane Street]] — proprietary trading firm with growing talent overlap
+- [[Citadel Securities]] — Citadel's market-making arm
+- [[BlueCrest]] — Michael Platt's family office, $50-60bn proprietary
 
 ---
 

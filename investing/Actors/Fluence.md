@@ -90,6 +90,14 @@ Battery storage solves solar intermittency — essential for AI data centers:
 - Others building storage portfolios
 - Growing with solar procurement
 
+### May 2026: data-center storage pipeline
+
+[[Reuters]] reported on May 18, 2026 that Fluence had roughly 30 GWh of data-center storage projects under negotiation as AI campuses look for faster ways to manage grid limits and renewable intermittency. That figure sits neatly beside the Q2 FY2026 $10.1B backlog below: data-center storage is no longer only a thematic adjacency, it is becoming an identifiable pipeline category.
+
+The catch is execution. Storage can reduce grid dependency and smooth peak demand, but it does not by itself solve multi-day reliability or interconnection bottlenecks. For Fluence, the setup is attractive only if the company can convert negotiations into projects without margin leakage from supply-chain and site delays.
+
+*Source: [Reuters via MarketScreener, May 18 2026](https://www.marketscreener.com/news/battery-storage-firms-eye-ai-demand-but-face-grid-supply-hurdles-ce7f5adadf81f62c).*
+
 ---
 
 ## Competitive position

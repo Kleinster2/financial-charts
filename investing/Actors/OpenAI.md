@@ -57,7 +57,7 @@ The org chart is the strategy made visible. The CTO vacancy (19 months), the dis
 
 OpenAI is the most heavily funded private company in history and the dominant consumer AI platform, but its financial profile looks more like a hyperscaler buildout than a software company. The $20B ARR headline masks a cost structure growing faster than revenue: inference costs alone hit $8.4B in 2025 and are projected at $14.1B for 2026, compressing gross margins to 33%. The company projects massive losses through 2028 and doesn't expect cash-flow positivity until 2029-2030. The $110B mega-round (Feb 2026) — [[Amazon]] $50B, [[SoftBank]] $30B, [[NVIDIA]] $30B — buys time but creates obligations: $100B in [[AWS]] spend over 8 years, 2 GW of Amazon [[Trainium]] compute, and an implicit IPO path (Amazon's $35B tranche terminates if no IPO/listing by Dec 2028).
 
-The competitive picture is more nuanced than the user numbers suggest. [[Anthropic]]'s [[Claude]] is gaining enterprise share rapidly — overtaking OpenAI in enterprise preference surveys (Jul 2025) while growing from $900M to $14B ARR in the same period OpenAI went from $6B to $20B. Google Gemini replaced ChatGPT as Apple's default AI provider (Jan 2026). The talent exodus — [[Ilya Sutskever]] (SSI, $32B), [[Mira Murati]] (Thinking Machines Lab, $12B), [[John Schulman]] (Anthropic), 7+ researchers to [[Meta]]'s [[Superintelligence]] Lab — has stripped the safety and research bench. The Mission Alignment team was disbanded in Feb 2026. Elon Musk's $134B lawsuit goes to jury trial in April 2026.
+The competitive picture is more nuanced than the user numbers suggest. [[Anthropic]]'s [[Claude]] is gaining enterprise share rapidly — overtaking OpenAI in enterprise preference surveys (Jul 2025) while growing from $900M to $14B ARR in the same period OpenAI went from $6B to $20B. Google Gemini replaced ChatGPT as Apple's default AI provider (Jan 2026). The talent exodus — [[Ilya Sutskever]] (SSI, $32B), [[Mira Murati]] (Thinking Machines Lab, $12B), [[John Schulman]] (Anthropic), 7+ researchers to [[Meta]]'s [[Superintelligence]] Lab — has stripped the safety and research bench. The Mission Alignment team was disbanded in Feb 2026. Elon Musk's $134B lawsuit reached an adverse advisory jury verdict for Musk on May 18, 2026, reducing but not fully ending the litigation overhang because the judge retains formal authority.
 
 The strategic bet is infrastructure + distribution: $600B in compute spend by 2030 via [[Project Stargate]] (7 GW planned capacity, $500B commitment), a Cerebras relationship that now appears headed above $20B for inference diversification, and the personal agent platform play (Codex relaunch, [[Peter Steinberger]] acqui-hire). If OpenAI can convert its 900M user base into a durable platform — where agents, not just models, are the product — the current losses are a land grab. If the models commoditize faster than the platform locks in, the $840B valuation becomes the most expensive AI bet in history.
 
@@ -365,7 +365,7 @@ Timing context: the legal threat lands the same week as the Musk-vs-OpenAI for-p
 - [[Claude]] Code at $2.5B ARR vs OpenAI's Codex playing catch-up
 
 ### Legal
-- [[Elon Musk]] lawsuit: $134B damages claim, jury trial April 2026 (Oakland). Judge denied preliminary injunction but case proceeds.
+- [[Elon Musk]] lawsuit: advisory jury rejected Musk's damages claim on May 18, 2026; judge retains formal authority because the jury was advisory.
 - 50+ copyright lawsuits consolidated in SDNY (before Judge Stein)
 - GEMA v. OpenAI: German court ruled training on copyrighted data without license violates German copyright law (appeal expected 2026)
 
@@ -429,7 +429,7 @@ See [[2026 OpenAI revenue miss]] for the full event note covering compute-covera
 
 ---
 
-## Apr 27, 2026 — Musk trial begins (jury selection)
+## Apr-May 2026 — Musk trial and advisory verdict
 
 The [[Elon Musk]] $134B lawsuit against [[OpenAI]] entered jury selection in Oakland on April 27, 2026. The trial concerns two remaining claims (others dismissed): (1) [[Sam Altman]] and OpenAI violated a promise to Musk that OpenAI would maintain a permanent charitable mission, breached when the 2019 for-profit affiliate was created; (2) Altman/OpenAI received undeserved benefits (Musk's investment) from those broken promises. Witnesses include Altman, Musk, and [[Satya Nadella]].
 
@@ -437,7 +437,11 @@ Procedural detail material to outcome: the jury is advisory only — the judge i
 
 The judge has called out Musk's potential motive — operating [[xAI]] as a competing for-profit AI company while suing to retroactively unwind OpenAI's for-profit conversion. SpaceX IPO disclosures explicitly note that [[Grok]] would benefit if the suit succeeds.
 
-*Source: Bloomberg Tech 4/27/26 (Professor Eric Lund interview); existing Musk lawsuit context.*
+On May 18, 2026, the advisory jury rejected Musk's damages case, finding he was not entitled to compensation on the claim that OpenAI, Altman, and other co-founders cheated him out of his founding stake. Reuters and AP framed the result as a win for OpenAI and Altman. Because the jury was advisory, the formal equitable ruling still sits with Judge Yvonne Gonzalez Rogers, but the practical read is that Musk lost the cleanest damages route.
+
+Litigation overhang moves from existential unwind risk toward residual judge-discretion risk. The verdict also weakens the [[xAI]] competitive-leverage angle: Musk still competes with OpenAI commercially, but the lawsuit no longer looks like a near-term path to re-open OpenAI's corporate structure.
+
+*Sources: Bloomberg Tech 4/27/26 (Professor Eric Lund interview); [Reuters via Investing.com, May 18 2026](https://www.investing.com/news/stock-market-news/elon-musk-loses-lawsuit-against-openai-4696614); [AP, May 18 2026](https://apnews.com/article/0b9b0bfaffe96f2c930341f52dfe4f8c).*
 
 ---
 

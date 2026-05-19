@@ -47,6 +47,18 @@ This pairs with the [[AI capex arms race]] thesis on the *infrastructure* side a
 
 ---
 
+## Battery storage as the pressure valve (Reuters, May 2026)
+
+[[Reuters]]' May 18 battery-storage scan adds the modular counterweight to the gas/nuclear framing above. Storage is not a full baseload substitute for hyperscale AI campuses, but it is becoming the fastest deployable tool for shaving peaks, pairing with renewables, and buying time when interconnection queues or generation procurement lag demand.
+
+The strongest company-level data point came from [[Fluence]], which said it had roughly 30 GWh of data-center storage projects under negotiation. The constraint is not demand. It is execution: grid interconnection, transformer and battery supply, site-specific permitting, and the fact that data centers want reliability floors that four-hour batteries alone cannot guarantee.
+
+Investment read: storage benefits from the same [[Power constraints|power-constraint regime]] as gas turbines and nuclear restarts, but the role is different. It is a flexibility layer and queue workaround, not the sole answer to 24/7 AI load.
+
+*Source: [Reuters via MarketScreener, May 18 2026](https://www.marketscreener.com/news/battery-storage-firms-eye-ai-demand-but-face-grid-supply-hurdles-ce7f5adadf81f62c).*
+
+---
+
 ## PJM BYOG proposal (Jan 2026)
 
 **PJM releases "Bring Your Own Generation" proposal:**

@@ -262,6 +262,14 @@ Challenges:
 Bull thesis: Robotaxi = $5T+ market opportunity if Tesla solves autonomy
 Bear thesis: Perpetually "next year" — FSD promised since 2016
 
+### May 2026: no-human-monitor rollout claim
+
+After the Smart Mobility Summit, [[Elon Musk]] told [[Reuters]] he expects Tesla cars without human monitors to be in widespread US use this year. Treat this as a rollout claim, not a verified regulatory status change: the January/Q1 sections above still show a small, geography-limited driverless footprint and a broader FSD base that remains supervised.
+
+The market-relevant tension is familiar: Tesla keeps pushing the narrative from supervised software toward unsupervised fleet autonomy, while the binding constraints remain geography, regulator comfort, incident history, and whether "widespread" means limited service areas or genuinely broad consumer deployment.
+
+*Source: [Reuters via Investing.com, May 18 2026](https://m.investing.com/news/stock-market-news/teslas-musk-expects-widespread-use-in-us-of-cars-without-human-monitors-this-year-4695062?ampMode=1).*
+
 ### California Autopilot ruling (Feb 2026)
 
 California DMV ruled (Dec 2025) that Tesla's use of "Autopilot" and "Full Self-Driving" branding was misleading and violated state law. Judge found Tesla's naming followed "a long but unlawful tradition of intentionally using ambiguity to mislead consumers."

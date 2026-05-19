@@ -82,9 +82,25 @@ Google invests through FluidStack → FluidStack contracts with miners → Miner
 
 ## Google $100M investment (Feb 2026)
 
-WSJ reported [[Google]] looking to invest **$100M into FluidStack** (Feb 21, 2026) — a play to push [[TPU]]s into the "neo cloud" ecosystem. Comes as GPU financing faces headwinds ([[Blue Owl]]/[[CoreWeave]] $4B deal rejection) and Google's custom silicon gains pricing advantage over [[NVIDIA]].
+WSJ reported [[Google]] looking to invest $100M into FluidStack (Feb 21, 2026) — a play to push [[TPU]]s into the "neo cloud" ecosystem. Comes as GPU financing faces headwinds ([[Blue Owl]]/[[CoreWeave]] $4B deal rejection) and Google's custom silicon gains pricing advantage over [[NVIDIA]].
 
 *Updated 2026-02-21*
+
+---
+
+## Recontextualization after the Google-Blackstone TPU cloud JV (May 18, 2026)
+
+The February 2026 $100M Google investment in FluidStack reads cleanly as the *first step* in Google's TPU-neocloud strategy and the May 18, 2026 [[Google-Blackstone TPU cloud venture 2026|Blackstone JV]] as the *much larger second step*. The two are complementary on capacity but structurally different:
+
+| Dimension | FluidStack | Google-Blackstone TPU JV |
+|---|---|---|
+| Role | Physical-operations layer (cabling, burn-in, remote hands) for specific TPU deployments | Full-stack capacity-and-software cloud offering with its own customer-facing brand |
+| Capital | $100M Google equity (Feb 2026) | $5B initial Blackstone equity, up to ~$25B with leverage (FT) |
+| Capacity scope | Specific Anthropic / [[Hut 8]] / [[TeraWulf]] / [[Cipher Mining]] sites | 500 MW initial buildout in 2027, scaling beyond |
+| Customer-facing | Background operator | Standalone branded cloud |
+| Leadership | Founder-led | [[Benjamin Treynor Sloss]] (Google SRE founder) as CEO |
+
+FluidStack remains the deployment-services partner of choice for specific TPU customer wins, particularly those with crypto-miner real estate. The Blackstone JV adds a separate higher-level brand for customers who want TPU access without a [[Google Cloud]] contract.
 
 ---
 
@@ -99,3 +115,6 @@ WSJ reported [[Google]] looking to invest **$100M into FluidStack** (Feb 21, 202
 - [[Crypto-to-AI pivot]] — thesis context
 - [[CoreWeave]] — competitor (GPU cloud)
 - [[Lambda Labs]] — competitor (GPU cloud)
+- [[Google-Blackstone TPU cloud venture 2026]] — May 2026 larger TPU-cloud peer (different model)
+- [[Blackstone]] — sponsor of the new TPU JV
+- [[Benjamin Treynor Sloss]] — CEO of the new TPU JV

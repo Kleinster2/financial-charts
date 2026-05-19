@@ -52,6 +52,16 @@ This is the clearest hyperscaler-CEO statement to date that the private AI model
 
 ---
 
+## Google-Blackstone TPU cloud JV (May 18, 2026)
+
+Kurian's TPU monetization thesis took another step on May 18, 2026 with the announcement of a new U.S.-based joint venture with [[Blackstone]] to sell [[TPU]] access as a compute-as-a-service offering — the first major distribution channel for TPUs outside [[Google Cloud]]'s own retail interface. Blackstone commits $5B in initial equity; 500 MW of capacity targets 2027 (FT said "next year," official PR confirms 2027); total potential investment with leverage runs to about $25B per FT's anonymous sourcing. [[Benjamin Treynor Sloss]] — a 20-year Google veteran and founder of the [[Site Reliability Engineering|SRE]] practice — was named CEO of the new company.
+
+Kurian's framing in the Blackstone release: the venture "helps meet growing demand for TPUs, which are optimized specifically for efficiency" and provides "more options for organisations to access accelerated compute capability." Reading that against the [[Google TPU Competitive Position|nine-of-ten-AI-labs roster]] he disclosed in April, the JV is the supply-side response to the Cloud Next 2026 demand picture. It also lifts a chunk of the buildout off Alphabet's $180-190B FY26 capex line — a financial-engineering benefit on top of the strategic positioning. See [[Google-Blackstone TPU cloud venture 2026]] for the full structure.
+
+*Sources: [Blackstone press release](https://www.blackstone.com/news/press/blackstone-announces-joint-venture-with-google-to-create-new-tpu-cloud/) (May 18 2026); [FT](https://www.ft.com/content/5730b605-8fb2-4973-a188-b4a587ce3580) (May 18 2026).*
+
+---
+
 ## Related
 
 - [[Google Cloud]] — division he runs
@@ -66,3 +76,7 @@ This is the clearest hyperscaler-CEO statement to date that the private AI model
 - [[NVIDIA]] / [[Jensen Huang]] — competitor; Huang criticized TPU benchmarking
 - [[Hyperscaler capex]] — $185B 2026 Alphabet guide
 - [[Oracle]] — prior employer (22 years)
+- [[Google-Blackstone TPU cloud venture 2026]] — May 2026 TPU compute-as-a-service JV
+- [[Benjamin Treynor Sloss]] — JV CEO
+- [[Jon Gray]] — Blackstone counterpart
+- [[Blackstone]] — JV sponsor

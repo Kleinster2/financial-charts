@@ -40,13 +40,13 @@ parent_concept: "AI accelerators"
 | TPU v1 | 2016 | Inference only, 8-bit integers |
 | TPU v2 | 2017 | Training + inference, HBM, 180 TFLOPS |
 | TPU v3 | 2018 | Liquid cooling, 420 TFLOPS |
-| **TPU v4** | 2021 | 4,096-chip pods, 275 TFLOPS BF16 |
+| TPU v4 | 2021 | 4,096-chip pods, 275 TFLOPS BF16 |
 | TPU v5e | 2023 | Cost-optimized, inference focus |
 | TPU v5p | 2023 | Performance flagship, 459 TFLOPS |
 | TPU v6 (Trillium) | 2024 | 4.7x v5e performance |
 | TPU v7 | Late 2025 | Reached ~94% of [[NVIDIA]] GB200 BF16 TFLOPS (first TPU at NVIDIA parity) |
-| **TPU 8t** (8th gen, training) | Unveiled Apr 22, 2026 (Cloud Next 2026, Las Vegas) | Specialised for training AI models |
-| **TPU 8i** (8th gen, inference) | Unveiled Apr 22, 2026 (Cloud Next 2026, Las Vegas) | More memory to run AI systems faster — designed for inference at scale, the agentic-era split |
+| TPU 8t (8th gen, training) | Unveiled Apr 22, 2026 (Cloud Next 2026, Las Vegas) | Specialised for training AI models |
+| TPU 8i (8th gen, inference) | Unveiled Apr 22, 2026 (Cloud Next 2026, Las Vegas) | More memory to run AI systems faster — designed for inference at scale, the agentic-era split |
 
 ---
 
@@ -148,8 +148,8 @@ Key limitation: TPUs only available on Google Cloud. No on-premise, no other clo
 
 At Google Cloud Next 2026 in Las Vegas (Apr 22 2026), [[Google Cloud]] unveiled the 8th generation of the TPU line as two distinct chips:
 
-- **TPU 8t** — training-optimised, the successor to TPU v7 ("Ironwood") at the frontier-training tier.
-- **TPU 8i** — inference-optimised with more memory, designed for the agentic-era inference workload.
+- TPU 8t — training-optimised, the successor to TPU v7 ("Ironwood") at the frontier-training tier.
+- TPU 8i — inference-optimised with more memory, designed for the agentic-era inference workload.
 
 The split-purpose design tracks the broader industry move from a single all-purpose chip toward dedicated training-vs-inference silicon (see [[Training-inference convergence]]).
 
@@ -187,6 +187,27 @@ According to an [[Epoch AI]] estimate cited by [[FT]] (Apr 2026), Google now con
 
 ---
 
+## Google-Blackstone TPU cloud JV (May 18, 2026)
+
+[[Alphabet|Google]] and [[Blackstone]] announced a new U.S.-based joint venture to sell TPU access as a compute-as-a-service offering — the first time TPUs have been distributed outside [[Google Cloud]]'s own retail channel at material scale. $5B initial Blackstone equity; first 500 MW online in 2027; total potential investment with leverage up to ~$25B per [[Financial Times|FT]]. [[Benjamin Treynor Sloss]] (Google's [[Site Reliability Engineering|SRE]] founder) leads the new company as CEO; Blackstone owns the majority per FT (the official Blackstone PR does not disclose the ownership split).
+
+Strategic significance for TPU specifically:
+
+| Dimension | Before this deal | After this deal |
+|---|---|---|
+| Distribution | Google Cloud only | Google Cloud + Blackstone-backed standalone TPU cloud |
+| Capital structure for buildout | Alphabet capex line ($180-190B FY26 guide) | Off-balance-sheet via Blackstone equity + project leverage |
+| Customer optionality | Sign with [[Google Cloud]] (and live with internal capacity allocation) | Sign with a non-Google brand for TPU exposure |
+| Competitive frame vs [[NVIDIA]] | TPU as Google-internal silicon | TPU distributed through the same business model Nvidia uses (neo-cloud + chip-vendor equity) |
+
+The JV is structurally distinct from [[FluidStack]] (the earlier Google-backed TPU deployment partner) — Fluidstack handles the *physical* operations layer for specific Anthropic/Hut 8/TeraWulf deployments, while the Blackstone JV is a full-stack capacity-and-software cloud offering with its own customer-facing brand.
+
+Full event detail: [[Google-Blackstone TPU cloud venture 2026]].
+
+*Sources: [Blackstone press release](https://www.blackstone.com/news/press/blackstone-announces-joint-venture-with-google-to-create-new-tpu-cloud/) (May 18 2026); [FT — Google makes chip push with Blackstone-backed AI cloud group](https://www.ft.com/content/5730b605-8fb2-4973-a188-b4a587ce3580) (May 18 2026).*
+
+---
+
 ## Anthropic as external anchor tenant (2026)
 
 [[Anthropic]] is the cleanest external validation of [[Google]]'s TPU strategy. The Apr 6 2026 Google + [[Broadcom]] agreement gave Anthropic multiple gigawatts of next-generation TPU capacity starting in 2027, later reported at about 3.5 GW. The Apr 24 2026 financing package added a reported 5 GW Google Cloud capacity layer over five years, alongside Google's $10B upfront / up to $40B total equity commitment to Anthropic.
@@ -220,3 +241,7 @@ Google is least dependent on NVIDIA among hyperscalers due to TPU investment.
 - [[Trainium]] — AWS equivalent
 - [[Gaudi]] — Intel competitor
 - [[Vertex]] — Google Cloud ML platform
+- [[Google-Blackstone TPU cloud venture 2026]] — May 2026 captive TPU cloud JV
+- [[Benjamin Treynor Sloss]] — CEO of the new JV (Google SRE founder)
+- [[Blackstone]] — JV anchor sponsor
+- [[Neocloud financing]] — TPU-cloud category now mirrors GPU-cloud playbook

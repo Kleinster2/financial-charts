@@ -101,6 +101,10 @@ Jane Fraser's simplification plan includes AI for back-office efficiency.
 
 Erica virtual assistant: 2B+ interactions. Focus on client service AI.
 
+### [[Standard Chartered]] — AI tied to corporate-function cuts
+
+On May 19, 2026, [[Reuters]] reported Standard Chartered plans to cut about 15% of corporate-function roles by 2030 as AI and automation adoption escalates. FT framing put the job count at almost 8,000; Reuters headlines put it above 7,000. This is the cleanest UK-listed / emerging-markets-bank data point that AI adoption is moving from productivity tooling into explicit medium-term headcount targets.
+
 ### Contrast with Singapore
 
 | Approach | US Big Banks | Singapore |

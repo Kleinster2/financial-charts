@@ -67,6 +67,16 @@ Jensen walks the line — maintains US government relations while preserving [[C
 
 ---
 
+### May 2026: China market will "open over time"
+
+After a Beijing visit, Huang told [[Reuters]] on May 18, 2026 that he believes the [[China]] market will "open over time." The message extends the same export-control rebuttal below: exclusion is not just lost near-term revenue, it risks pushing Chinese AI developers toward [[Huawei]] / [[Ascend]] and away from [[CUDA moat|CUDA]].
+
+For [[NVIDIA]], the comment keeps China access framed as an option on future policy loosening rather than a dead market. It does not change the current constraint set: US export licenses, Beijing procurement pressure, and the managed-access architecture still determine whether any reopened sales can actually clear.
+
+*Source: [Reuters via Investing.com, May 18 2026](https://www.investing.com/news/stock-market-news/nvidia-ceo-says-he-believes-china-market-will-open-over-time-4696684).*
+
+---
+
 ## [[Export controls]] rebuttal (Dwarkesh, Apr 2026)
 
 Jensen's most detailed public pushback on the containment thesis to date. The argument is structured around six claims:

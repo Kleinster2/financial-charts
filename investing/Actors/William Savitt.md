@@ -5,7 +5,7 @@ tags: [actor, person, lawyer, usa]
 
 # William Savitt
 
-Trial lawyer at [[Wachtell Lipton]]. Co-chair of the firm's executive committee since 2023 alongside [[Andrew Nussbaum]]. Currently lead trial counsel for [[OpenAI]] in its dispute with [[Elon Musk]]; cross-examined Musk in California in early May 2026 — the same week the FT published its profile of Wachtell ("the law firm that helped invent Wall Street, is under siege"). Savitt is in his sixties.
+Trial lawyer at [[Wachtell Lipton]]. Co-chair of the firm's executive committee since 2023 alongside [[Andrew Nussbaum]]. Lead trial counsel for [[OpenAI]] in its dispute with [[Elon Musk]]; cross-examined Musk in court in early May 2026, and the May 18 advisory jury rejected Musk's damages claim. The trial landed the same month the FT published its profile of Wachtell ("the law firm that helped invent Wall Street, is under siege"). Savitt is in his sixties.
 
 ## Why he matters
 
@@ -20,6 +20,7 @@ Savitt's role is the highest-profile public manifestation of [[Wachtell Lipton]]
 
 ### Sources
 - FT, "Wachtell, the law firm that helped invent Wall Street, is under siege" (May 2026)
+- Investing.com / AP, May 18 2026 — advisory verdict in Musk v. OpenAI
 
 ---
 

@@ -136,6 +136,18 @@ Hedge funds can offer $100mn PM packages; prop firms counter with partnership ec
 
 ---
 
+## Schurr hire (April 2025) — the $100mn data point
+
+Bloomberg reported on April 29, 2025 that Millennium had agreed a deal with [[Steve Schurr]] — at the time [[Balyasny]]'s senior managing director of Fundamental Equities and a member of the Balyasny leadership team — for a package potentially exceeding $100mn. The structure followed the standard [[Pod shop compensation|multi-manager template]]: upfront cash compensation, performance-based carry, team-hiring budget, and reportedly an accelerator clause on first-tranche profits. Schurr begins at Millennium in 2026 after a one-year garden leave.
+
+Schurr's career path before the Millennium move ran Kynikos Associates → [[Point72]] → [[Balyasny]] (2021) → [[Millennium]] (2025), with each move negotiated against multiple competing bids. The Balyasny → Millennium move was significant for both firms: Balyasny was rebuilding its equities division and lost a leadership-team member, while Millennium continued [[Izzy Englander]]'s long-standing strategy of paying top-of-market to absorb proven PMs from peer pod shops.
+
+The deal became the framing data point for the [[Financial Times|FT]]'s September 22, 2025 explainer on multi-manager pay structures, "How top hedge funds can pay traders $100mn" (Costas Mourselas), which used Schurr's package as the lead before walking through the structural mechanics in detail. See [[Pod shop compensation]] for the worked example and full breakdown of how a $100mn package gets built from cash advance + team budget + cost-savings + accelerator components.
+
+*Sources: [Bloomberg, Apr 29 2025](https://www.bloomberg.com/news/articles/2025-04-29/millennium-poaches-balyasny-s-schurr-with-100-million-offer); [FT, Sep 22 2025](https://www.ft.com/content/4e56e245-93e5-4129-9972-602abe3dbd23)*
+
+---
+
 ## Recent developments
 
 ### Nov 2025 stake sale
@@ -212,9 +224,13 @@ See [[Hedge fund capital concentration]] for the structural dynamics.
 ### Peer pod shops
 - [[Citadel Securities]] — Ken Griffin, rival pod shop
 - [[Point72]] — [[Steve Cohen]], pod shop
-- [[Balyasny]] — Dmitry [[Balyasny]], pod shop
+- [[Balyasny]] — Dmitry [[Balyasny]], pod shop; lost [[Steve Schurr]] to Millennium April 2025
 - [[ExodusPoint]] — Michael Gelband (ex-Millennium)
 - [[Schonfeld]] — pod shop
+
+### Talent moves
+- [[Steve Schurr]] — joined April 2025 on ~$100mn package from [[Balyasny]]
+- [[Pod shop compensation]] — Schurr deal was the FT's framing data point in Sep 22 2025 explainer
 
 ### Peer quant/multi-strat
 - [[D.E. Shaw]] — quant, multi-strategy

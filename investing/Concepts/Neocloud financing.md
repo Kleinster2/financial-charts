@@ -17,7 +17,9 @@ NVIDIA invests in or finances "neoclouds" — GPU cloud providers that compete w
 | [[Nscale]] | ~$667M equity investor, priority allocation (630K GPUs) | $23B+ [[Microsoft]] contracts; Stargate Norway/UK |
 | [[Crusoe Energy]] | Customer | — |
 
-**The symbiosis:**
+As of May 2026 there is a structural twin on the [[TPU]] side — see the new chip-backed TPU-cloud category below.
+
+The symbiosis:
 - NVIDIA needs buyers to hit "Beat and Raise"
 - Neoclouds need GPUs to compete
 - NVIDIA finances their GPU purchases
@@ -31,7 +33,7 @@ Alleged pattern (per Kakashiii analysis, Nov 2025):
 
 > "When a quarter needs a little help, Jensen picks up the phone: 'Take the chips now — I'll assign you the clients later.'"
 
-**Evidence:**
+Evidence:
 - Recent deals ([[Scale AI]], [[IREN]], [[Nebius]], CoreWeave) share common threads
 - Microsoft ties across multiple neoclouds
 - NVIDIA involvement in financing/facilitation
@@ -40,12 +42,12 @@ Alleged pattern (per Kakashiii analysis, Nov 2025):
 
 ## Why this matters
 
-**If neoclouds are real demand:**
+### If neoclouds are real demand
 - GPU shortage validates NVIDIA's dominance
 - Neoclouds fill hyperscaler capacity gaps
 - Distributed AI infrastructure is healthy
 
-**If neoclouds are demand orchestration:**
+### If neoclouds are demand orchestration
 - NVIDIA controlling both supply AND demand
 - Pattern resembles "channel stuffing" structurally
 - Revenue quality question: proportion of arms-length vs. strategic-investor demand
@@ -65,7 +67,7 @@ Alleged pattern (per Kakashiii analysis, Nov 2025):
 | Debt | $7.5B+ | High leverage |
 | IPO timing | March 2025 | Monetized at peak hype? |
 
-**The question:** Is CoreWeave a real business or NVIDIA inventory management?
+The question: is CoreWeave a real business or NVIDIA inventory management?
 
 ---
 
@@ -73,11 +75,11 @@ Alleged pattern (per Kakashiii analysis, Nov 2025):
 
 NVIDIA runs what Kakashiii calls "a self-sustaining ecosystem where supply creates demand, and the seller, buyer, and broker are all the same person wearing different hats."
 
-**Control mechanisms:**
-1. **Supply** — Lock [[TSMC]] wafers before demand exists
-2. **Demand** — Finance neoclouds to absorb inventory
-3. **Allocation** — Control who gets GPUs and when
-4. **Timing** — Manage shipments to hit quarterly numbers
+Control mechanisms:
+1. Supply — lock [[TSMC]] wafers before demand exists
+2. Demand — finance neoclouds to absorb inventory
+3. Allocation — control who gets GPUs and when
+4. Timing — manage shipments to hit quarterly numbers
 
 ---
 
@@ -89,6 +91,21 @@ This connects to [[GPU deployment bottleneck]]:
 - Neoclouds may not deploy immediately (no DC capacity)
 - "Shipped ≠ Deployed" amplified by financing relationships
 - Creates layered opacity: NVIDIA → Neocloud → End customer
+
+---
+
+## Chip-backed TPU clouds: the May 2026 mirror category
+
+The [[Google-Blackstone TPU cloud venture 2026|May 18, 2026 Google-Blackstone JV]] opens a parallel category: chip-vendor-backed neo-clouds on the [[TPU]] side. The structure mirrors the Nvidia-GPU pattern in every dimension that matters — chip vendor supplies silicon and software, private-capital sponsor supplies the buildout equity, separate entity sells capacity to customers under its own brand — but reverses the chip family.
+
+| TPU-cloud | Chip-vendor (Google) role | Capital sponsor | Notes |
+|---|---|---|---|
+| Google-Blackstone JV (May 2026) | TPU hardware, software, services | [[Blackstone]] | $5B equity, up to ~$25B with leverage (FT); 500 MW in 2027; [[Benjamin Treynor Sloss]] CEO; Blackstone majority per FT (PR silent on split) |
+| [[FluidStack]] (Feb 2026) | $100M equity + TPU supply | Founder-led | Smaller, deployment-services layer for specific Anthropic / Hut 8 / TeraWulf wins |
+
+The structural significance: TPU is now distributed through the same business model NVIDIA uses, not just through [[Google Cloud]]'s own retail interface. Combined with the [[Anthropic hyperscaler financing surge April 2026|April 2026 Anthropic deals]] and the [[Google TPU Competitive Position|Cloud Next 2026 customer roster]], the TPU competitive frame has decisively shifted from "Google-internal tool" to "Nvidia-style ecosystem with private-capital intermediation."
+
+The implications for the channel-stuffing question below are interesting — if the chip-vendor-backed neo-cloud model is a structural feature of accelerated compute distribution rather than an Nvidia-specific tactic, the "phone call" framing becomes weaker as a critique of Nvidia specifically. The same structure now exists for TPU under a different parent.
 
 ---
 
@@ -115,14 +132,14 @@ For neoclouds:
 
 ## Demand-side counterexample: sovereign-cloud procurement
 
-The Apr 17, 2026 [[EU]] sovereign-cloud tender is a useful counterweight to the "phone call" framing because it shows a different route by which non-hyperscaler cloud providers can get demand. The Commission awarded a **€180M, six-year** framework to European providers including [[Scaleway]] and a Proximus-led consortium that included [[Mistral]] and [[Thales]].
+The Apr 17, 2026 [[EU]] sovereign-cloud tender is a useful counterweight to the "phone call" framing because it shows a different route by which non-hyperscaler cloud providers can get demand. The Commission awarded a €180M six-year framework to European providers including [[Scaleway]] and a Proximus-led consortium that included [[Mistral]] and [[Thales]].
 
 This is not the same business model as an NVIDIA-financed GPU neocloud. The demand is policy-created and control-driven, not generated by vendor financing or hyperscaler overflow. In other words, Europe may be creating a second path for regional cloud operators: not "rent excess GPUs faster than AWS" but "qualify for workloads hyperscalers cannot politically or legally win under a [[Sovereign cloud|sovereign-cloud]] framework."
 
 That distinction matters. It suggests the neocloud category is splitting in two:
 
-1. **AI-capacity neoclouds** — economically tied to GPU allocation, hyperscaler gaps, and financing
-2. **Sovereign-cloud providers** — economically tied to procurement, digital-sovereignty policy, and trusted-jurisdiction requirements
+1. AI-capacity neoclouds — economically tied to GPU allocation, hyperscaler gaps, and financing
+2. Sovereign-cloud providers — economically tied to procurement, digital-sovereignty policy, and trusted-jurisdiction requirements
 
 ---
 
@@ -156,3 +173,7 @@ This is distinct from the channel-stuffing question above. The "phone call" fram
 - [[Law of one price]] — fragmentation regime driving cross-border arbitrage demand
 - [[US-China decoupling]] — policy regime creating the dispersion neoclouds arbitrage
 - [[Patrick Foulis]] — "golden age of arbitrage" framing
+- [[Google-Blackstone TPU cloud venture 2026]] — May 2026 chip-backed TPU-cloud (structural twin to Nvidia-backed GPU-clouds)
+- [[FluidStack]] — Google-backed TPU-cloud deployment partner (Feb 2026 $100M)
+- [[Blackstone]] — TPU-cloud sponsor (also CoreWeave debt lead)
+- [[TPU]] — accelerator silicon at the centre of the May 2026 category opening

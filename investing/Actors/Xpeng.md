@@ -37,6 +37,14 @@ At the Apr 2026 Beijing Auto Show, [[Reuters]] highlighted Xpeng as an early exa
 
 That is a meaningful change in framing. Xpeng's autonomy story is not just about higher L2/L3 automation; it is about turning the car into an agent that interprets user intent and acts in the physical world. That links Xpeng to both [[Autonomous vehicles]] and [[Embodied AI]].
 
+### May 2026: robotaxi mass production in Guangzhou
+
+[[Reuters]] reported on May 18, 2026 that Xpeng began mass production of robotaxis in [[Guangzhou]], moving its autonomy push from demo/software framing into fleet-production cadence. Management framed the program around a dedicated robotaxi platform and an early-2027 target for driverless public operation, subject to local approvals and operating readiness.
+
+The strategic read is that Xpeng is trying to make [[Autonomous vehicles]] a manufacturing-scale product line rather than an app-layer ADAS feature. That puts it closer to the China robotaxi industrial-policy path while preserving the broader [[Automotive AI]] story already in this note.
+
+*Source: [Reuters, May 18 2026](https://uk.finance.yahoo.com/news/china-xpeng-begins-mass-production-092659786.html/).*
+
 ---
 
 ## Subsidiaries
