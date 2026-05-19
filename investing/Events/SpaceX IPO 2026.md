@@ -459,4 +459,27 @@ The IPO is no longer being marketed as a pure space scarcity story. The analyst-
 
 ---
 
-*Created 2026-03-29, updated 2026-04-09 with Reuters valuation math and Deepwater sovereign AI thesis. Split from [[SpaceX]] actor note.*
+## Bear case — Starship economics (Will Lockett, DeLong crosspost May 17 2026)
+
+The strongest articulated bear case on the IPO's Starship-narrative thesis comes from Will Lockett, crossposted by [[Brad DeLong]] on May 17 2026. The IPO filings are forcing visibility into Starship's economics that the previously private structure obscured (per Will Lockett via DeLong, May 17 2026):
+
+| Metric | Value | Context |
+|--------|-------|---------|
+| Total Starship program spend | >$15B | Lockett: program budget overrun by 200%+ vs initial $5B target |
+| Falcon 9 development cost comparison | $400M | Per Lockett — Starship is 37x more expensive than the predecessor that proved SpaceX's launch economics |
+| Initial Starship budget | $5B | Lockett's framing of the budget overrun denominator |
+| Technical milestones achieved | 4 of 15 | Suborbital flight, orbital velocity (without orbit), booster landing/relaunch, upper stage splashdown |
+| Technical milestones remaining | 11 of 15 | Payload capacity increase, orbital deployment, upper stage landing/catch, rapid reusability, orbital refueling, depot/tanker variants, human landing systems, boil-off reduction |
+| IPO raise allocation | "$75 billion... designated for AI data centers and Starlink expansion" | Notably — *not* designated for Starship completion |
+
+Lockett's core framing: "biblically expensive mess" and "hopeless money pit." The IPO raise allocation pattern (AI data centers + Starlink rather than Starship completion) is the most telling data point — it implies the underlying capital allocation isn't betting on Starship completion either (inference — Lockett implies this; the framing is mine).
+
+What this bear case *doesn't* address (countervailing): Starship completion isn't required for the IPO thesis — Starlink + xAI compute + defense launch contracts on existing Falcon 9 architecture support the standalone valuation. The bull case can be sustained even if Starship is permanently delayed (inference). The Lockett critique is a meaningful narrative-discount risk rather than a cash-flow-existential risk.
+
+The bear case fits the pattern of pre-IPO transparency forcing the prospect of a public company having to deliver on its most ambitious narrative claims — a recurring feature of mega-IPOs from the 2010s onward (inference). Worth tracking whether the S-1 (week of May 18-22) addresses Starship economics or sidesteps them.
+
+*Source: [Will Lockett crosspost via Brad DeLong, "Starship Is Going Nowhere," DeLong's Grasping Reality Substack, May 17 2026](https://braddelong.substack.com/p/crosspost-will-lockett-starship-is).*
+
+---
+
+*Created 2026-03-29, updated 2026-04-09 with Reuters valuation math and Deepwater sovereign AI thesis. Split from [[SpaceX]] actor note. May 18 2026: Lockett Starship bear case section added.*

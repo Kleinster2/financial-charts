@@ -62,6 +62,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | Fuel oil | [[Fuel oil]] | Bunker fuel $140-175/bbl record; Asian bunkering ports running dry |
 | Commodity traders | [[Commodity trading houses]] | [[Oliver Wyman]] 2026 report: "billions" in early-war losses at [[Vitol]], [[Trafigura]], [[Mercuria Energy Group\|Mercuria]] from short hedges + stranded cargo replacement; $7.5B new credit facilities |
 | Structural | [[Hormuz Permanent Risk Premium]] | Even a short war leaves permanent oil/shipping/insurance risk premium |
+| Renewable equity flows | [[Energy security as investment thesis]] | $3bn+ April clean-energy ETF inflows (largest since Jan 2021); EU "sovereignty" / US "AI-power" dual driver |
 | Satellite ISR | [[IRGC Chinese satellite targeting March 2026]] | [[TEE-01B]] via [[Earth Eye Co]]/[[Emposat]] gave Iran 0.5m imagery of 10+ US bases + Gulf civilian infrastructure; dispersion strategy survives Israeli counter-space strikes |
 | Sovereign credit | [[Iran conflict sovereign credit risk]] | [[S&P Global]] (Sifon-Arevalo, Mar 12): no knee-jerk downgrades; Asia second-most-exposed (PA/BD/SL/IN/TH/ID); [[Bahrain]] only clear GCC exception; duration is binding variable |
 | Remittance flows | [[Iran conflict remittance flows]] | ~5M [[Bangladesh]] + ~5M [[Pakistan]] + 9M [[India]] Gulf workers; remittance share of GDP: ~10% [[Nepal]] (most exposed), 3-5% PA/BD/SL, ~1% India; scenario set 30% reduction = 10-15% GDP drag at 3+ months conflict |
@@ -246,6 +247,39 @@ This is the first major market-moving event where a blockade announcement — no
 
 *Source: CNN Fareed Zakaria GPS, April 12, 2026.*
 
+### May 3, 2026 — clean-energy ETF flows hit 5-year peak on energy-security trade
+
+The FT reported that global clean-energy ETFs took >$3bn of inflows in April 2026 — the largest single-month inflow since January 2021 — and total clean-energy ETF AUM reached $43bn (Morningstar). The S&P Global Clean Energy Transition index outpaced the S&P Global Oil index from Feb 28 through April, crossing above oil equities in mid-April after a stalemate in negotiations dragged on.
+
+The structural read is that the rally is not a climate-policy trade — it is an energy-security capital-flow expression. Asset-manager voices in the article reframed the trade explicitly:
+
+- Charles de Boissezon ([[Société Générale]]): "What may look like a renewables bounce is really an energy security trade — investors are pricing the cost of relying on imported fuels in a world that keeps springing geopolitical surprises." Added an "additional irony" — US policy U-turns and uncertainty on clean energy have "actually been a tailwind."
+- Deepa Venkateswaran ([[Bernstein]]): fossil-fuel prices offer "short-term boost" but "in the long run, it's going to create demand destruction," strengthening the case for renewables.
+- Kasper Elmgreen ([[Nordea Asset Management]]): "The agenda around clean tech in the past was driven by an [ESG] agenda and a political will to tackle climate change. Now, in Europe, it is about sovereignty and autonomy." On the US: "It's all hands on deck . . . they need more generation and they need to invest in the grid" for AI data centers.
+
+[[Bank of America]] upgraded [[Orsted|Ørsted]] to overweight at the end of March on the same thesis ("the war in the Middle East will create impetus for fossil fuel independence in Europe, with offshore wind a key beneficiary").
+
+![[clean-energy-etf-flows-2020-2026-ft.png]]
+*Global clean-energy ETF flows ($bn). April 2026's inflow is the largest single-month figure since the early-2021 climate-policy peak — and the first sustained inflow window since 2021 after three years of net outflows. Source: Morningstar via FT, May 3 2026.*
+
+![[clean-energy-vs-oil-index-iran-war-ft.png]]
+*S&P Global Clean Energy Transition Index vs S&P Global Oil Index (clean-energy equities vs oil equities, not crude itself) since the war started Feb 28. The clean-energy line crossed above oil equities by mid-April. Source: LSEG via markets.ft.com, FT May 3 2026.*
+
+YTD performance for the FT-identified cohort as of May 3 (verified against DB):
+
+| Name | YTD May 3 (FT) | YTD May 3 (DB) | YTD May 15-18 (DB) | Driver |
+|---|---|---|---|---|
+| [[GE Vernova]] | +65% | +61.4% | +59.3% | US AI-power |
+| [[Nordex]] | +67% | +66.6% | +55.5% | EU onshore wind sovereignty |
+| [[Siemens Energy]] | +50% | +50.6% | +41.4% | Dual: US gas turbines + EU wind |
+| [[Orsted|Ørsted]] | +37% | +38.9% | +35.4% | EU offshore wind sovereignty |
+| [[Acciona]] | +33% | +32.9% | +39.3% | EU renewables + Nordex stake |
+| [[NextEra Energy]] | +22% | +21.2% | +16.7% | US utility + renewables + AI |
+
+The geographic-differentiation pattern in the cohort — Europe driven by sovereignty/autonomy framing vs US driven by AI-power framing — is the structural insight the FT article surfaces. Both legs are pulling capital into the same names but on different framings, which has implications for which way the flows persist if either driver weakens (Hormuz reopens / AI capex thesis softens). See [[Energy security as investment thesis]] for the full framework write-up.
+
+*Source: FT, "Investors pile into clean power as Iran war drives push for energy security" (Emily Herbert and Ramsay Hodgson, May 3 2026); DB verification via [[market_data.db|prices_long table]].*
+
 ### May 4, 2026 — Strait fire exchange, UAE strike, Williams supply-shock warning
 
 The shaky mid-April ceasefire frayed on Monday May 4. [[United States|US]] and [[Iran]] forces exchanged fire near the [[Strait of Hormuz]]; the [[UAE]] intercepted Iranian missiles and drones (first attack on UAE since the ceasefire) and an Iranian drone struck a [[Fujairah]] petrochemical site, sparking a major fire. US Centcom positioned warships as a "defensive umbrella" rather than direct convoy escort under the "Project Freedom" program announced after the Apr 12 blockade — Trump said the US had shot down "more than half a dozen" small boats and that two American-flagged ships had transited the strait under that program.
@@ -329,6 +363,36 @@ Time-frame reconciliation argument (Steve Chiavarone, Federated Hermes deputy CI
 The opposing view (Gene Goldman, Cetera Financial Group CIO): "Each of these primary asset classes is telling a consistent story, but they are not all telling the same story. Either equity valuations contract or the bond market has to rethink just how restrictive Fed policy needs to be."
 
 The structural read across the FT and Bloomberg coverage together: the May 15 move was the moment global capital began to price the Iran war as a *stagflationary* risk (Misra's framing) rather than a near-term oil-spike + recover-to-trend trajectory. The 10Y crossing 4.5% intraday combined with the JGB 30Y break above 4% + UK 30Y at 28-year high + swaps pricing a full Fed hike makes this a multi-asset / multi-jurisdiction inflection point, not a single-asset move.
+
+### "Liz Truss" bond-market blow-up pattern (Robin Brooks, May 17-18)
+
+[[Robin J. Brooks]] (Shadow Price Macro) articulated the framework that ties the May 15 long-end repricing to a broader 2024-2026 pattern in a pair of posts on May 17 ("Four Charts for Sunday") and May 18 ("'Liz Truss' Bond Market Blow-Ups"). The framework names a specific violation of textbook uncovered interest parity that signals risk-premium repricing rather than growth-driven yield rises (per Robin Brooks, May 17-18 2026):
+
+The textbook UIP relationship: higher yields attract foreign capital → currency appreciates. The "Liz Truss" violation: yields rise + currency falls simultaneously because investors are exiting the jurisdiction entirely, not just rebalancing along the yield curve. The pattern is rare in developed economies historically but increasingly common as public-debt levels rise and institutional credibility erodes.
+
+| Case | Period | Pattern detail |
+|------|--------|---------------|
+| United Kingdom (original) | September 23, 2022 | Truss "mini-budget" deficit expansion → gilt yields spiked + sterling fell; "exceptionally violent" episode |
+| Japan | 2024-onward (slow-motion) | 30Y interest differential vs trading partners rising continuously since 2024 + yen falling despite higher differential; repeated FX intervention attempts unsuccessful; Brooks: "denial regarding asset sales and debt reduction necessitates further Yen depreciation" |
+| United States | April 2025 ("Liberation Day") | Reciprocal-tariff rollout triggered the dual movement — yields rose + dollar fell |
+| Switzerland | 2024-2026 | Notably immune; opposite pattern (rising currency despite falling yields) — Brooks's reverse-control case |
+
+Brooks's bond-market liquidity assessment (May 17 Four Charts via yield-curve kink as Bloomberg proxy): US and Germany show strong liquidity; UK, Japan, France at intermediate / concerning levels. The rising yields are *healthy repricing* (risk premium reflecting fundamentals) rather than dysfunction — bond markets continue to function. That distinction matters because "bond market dysfunction" historically triggers central-bank intervention while "healthy repricing" does not.
+
+The structural implication of the framework for the Iran-war thread: the May 15 long-end move documented above is one instance of a broader "Liz Truss" pattern that has been operative across multiple G10 jurisdictions since 2022. The Iran-war stagflationary read combines with the secular debt-driven Liz Truss pattern, which is why the cross-jurisdictional bond rout (US 10Y >4.5%, JGB 30Y >4%, UK 30Y at 28-year high, Italy "bottled up") moved together rather than US-led with EM-following lag.
+
+The framework's implication for asset-class positioning (inference — this is the vault-side extension):
+
+| Asset class | Liz Truss implication |
+|-------------|----------------------|
+| Long-duration sovereign bonds (UK 30Y, JGB 30Y, US 30Y) | Continued repricing risk; the secular trend doesn't reverse on Iran-war resolution alone |
+| FX hedging on G10 sovereign bond exposure | Standard "yields vs currency" hedge no longer works in Liz Truss regimes; requires explicit risk-premium hedging |
+| Gold / debasement trade | Brooks May 16 "Moment of Truth for Gold" — gold down 14% since late Feb 2026 while S&P up 8%; gold trades as a high-beta asset, not safe haven; the debasement trade is in trouble due to retail-positioning washout |
+| Swiss franc + Swiss assets | The "control case" — preserved as the contrast jurisdiction; structurally distinct position |
+
+The Brooks framework is now the canonical articulation of the bond-market dynamic the [[Iran war and bond market connection]] adjacent note has been gesturing at. Cross-link added.
+
+*Source: [Robin J. Brooks, "Four Charts for Sunday," Shadow Price Macro Substack, May 17 2026](https://robinjbrooks.substack.com/p/four-charts-for-sunday-575); [Robin J. Brooks, "'Liz Truss' Bond Market Blow-Ups," Shadow Price Macro Substack, May 18 2026](https://robinjbrooks.substack.com/p/liz-truss-bond-market-blow-ups); [Robin J. Brooks, "A Moment of Truth for Gold," Shadow Price Macro Substack, May 16 2026](https://robinjbrooks.substack.com/p/the-moment-of-truth-for-gold).*
 
 *Source (parallel): [The Global Bond Rout Catches Up With Wall Street's Risk Rally](https://www.bloomberg.com/), Bloomberg, May 15 2026 (4:30 PM EDT), by Denitsa Tsekova and Isabelle Lee.*
 
@@ -420,6 +484,7 @@ Two major expert panels produced the deepest structural analysis:
 - [[Jones Act]] — maritime constraint on US coastal supply
 - [[Fuel oil]] — bunker fuel crisis
 - [[Iranian economic collapse]] — pre-war economic context
+- [[Energy security as investment thesis]] — renewable equity flow expression of the war
 
 ### Cross-vault
 - [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — military timeline, casualties, diplomatic responses

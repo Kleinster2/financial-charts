@@ -106,6 +106,8 @@ The investing-vault read: Russian sovereign credit spreads, RUB pricing, and Rus
 ### Cross-vault
 
 - [Geopolitics: Vladimir Putin](obsidian://open?vault=geopolitics&file=Actors%2FVladimir%20Putin) — statecraft lens, doctrine evolution, succession scenarios (stub candidate)
+- [Geopolitics: Michael Weiss](obsidian://open?vault=geopolitics&file=Analysts%2FMichael%20Weiss) — investigative journalism layer on Russian intelligence-service operations; editor-in-chief of The Insider English edition
+- [Geopolitics: The Insider](obsidian://open?vault=geopolitics&file=Sources%2FThe%20Insider) — primary outlet for original GRU/FSB-operations investigations (Skripal, Navalny, 2024 Latvian MEP/FSB exposé); collaborates with Bellingcat on landmark cases
 
 ---
 
