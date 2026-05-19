@@ -79,6 +79,7 @@ Net: most non-semiconductor pillars of MIC 2025 are substantially achieved by 20
 
 ## Related
 
+- [[Industrial policy]] — Made in China 2025 is the canonical China-side instance of the broader industrial-policy framework; the [[CHIPS Act]] and [[Inflation Reduction Act]] are the US-side counterparts
 - [[China]]
 - [[Xi Jinping]]
 - [[Li Keqiang]]

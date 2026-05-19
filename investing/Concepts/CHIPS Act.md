@@ -135,6 +135,7 @@ The **CHIPS and Science Act** (2022) provides ~$52.7B to boost U.S. semiconducto
 
 ## Related
 
+- [[Industrial policy]] — CHIPS Act is the canonical US-side instance of the broader industrial-policy framework; parallels [[Made in China 2025]] (China-side), [[Inflation Reduction Act]] (US clean-energy side), and the EU European Chips Act
 - [[Intel Foundry Services]] — recipient ($8.5B + $11B loans, largest)
 - [[TSMC]] — recipient ($6.6B for Arizona fabs)
 - [[Samsung]] — recipient ($6.4B for Taylor, Texas)

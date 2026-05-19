@@ -15,6 +15,7 @@ For the vault, the IRA matters less as a budget bill than as a capital-allocatio
 
 ## Related
 
+- [[Industrial policy]] — IRA is the US clean-energy industrial-policy companion to the [[CHIPS Act]] semiconductor side; together they form the largest US industrial-policy package since the 1950s
 - [[CHIPS Act]]
 - [[Grid infrastructure super-cycle]]
 - [[Joe Biden]]

@@ -130,7 +130,7 @@ The framework's market-relevant outputs cluster by sector (inference — this sy
 | Luxury / spirits ([[LVMH]], [[Kering]], [[Hermès]], [[Pernod Ricard]]) | Demand headwind via anti-ostentation | Persistent through 2025-2026 | Reframing does not relieve this; "divide the cake better" does not legitimise luxury growth |
 | Private equity ([[Hillhouse]] / [[Zhang Lei]], [[Sequoia China]] / HongShan) | Foreign-LP scrutiny + "patriotic" repositioning | Quieter; hard-tech focus | Reframing modestly supportive; doesn't resolve the structural foreign-capital question |
 | Wealth management / private banking | HNW assets re-disclosure pressure | Sustained; offshore growth | The "third distribution" framing has not been revoked but is dormant |
-| Healthcare ([[Ping An Healthcare]], [[Yaoji Holdings]]) | Limited 2021 impact | Common Prosperity 2026 directly supportive of public-health investment | Sector beneficiary if delivery materialises |
+| Healthcare ([[Ping An Healthcare]], [[Alibaba Health]], [[JD Health]]) | Limited 2021 impact | Common Prosperity 2026 directly supportive of public-health investment | Sector beneficiary if delivery materialises |
 | Education-services (post-tutoring-ban: livestream commerce, vocational, ed-tech) | Pivot beneficiaries | Mixed | Beneficiary of Li Shi's "equal-access education" line |
 | Childcare / preschool operators | Limited 2021 impact | Demographic-policy and Common Prosperity 2026 both supportive | Direct beneficiary cluster |
 
