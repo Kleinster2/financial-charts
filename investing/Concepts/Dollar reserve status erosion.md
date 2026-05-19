@@ -13,10 +13,20 @@ tags:
 
 # Dollar reserve status erosion
 
-The US dollar's share of global foreign currency reserves has declined from **~65% (2000) to ~41% (2025)** — a 24 percentage point drop over 25 years, with the decline accelerating sharply post-2022.
+The US dollar's share of global foreign currency reserves has declined materially over the past two decades. Two measures circulate widely and disagree by roughly 15 percentage points — both show the same direction and the same 2022 inflection, but they measure different things and require careful attribution.
+
+## Two methodologies — IMF COFER vs Bloomberg Intelligence
+
+- [[IMF]] COFER (Currency Composition of Official Foreign Exchange Reserves) — the canonical reference. Measures currency composition of *allocated* official reserves reported by 149 central banks. USD share: 65.1% in 2014 → 56.77% in Q4 2025 (-8.3pp over the decade). Released quarterly with a ~3-month lag.
+- Bloomberg Intelligence — a broader proprietary measure of institutional USD reserve exposure. Likely incorporates gold valuation effects and a different denominator. USD share: ~65% in 2000 → ~41% in 2025.
+
+The IMF figure is the standard for reserve-currency composition citations. The Bloomberg series is useful for trend visualisation of broader institutional dollar exposure but should not be quoted as "IMF data" or as "global reserve share" without the methodology caveat. Where this note cites a specific figure, the attribution is given inline.
+
+![[usd-reserve-share-cofer.png]]
+*USD share of allocated FX reserves per the IMF COFER standard, end-of-Q4. Source: [[IMF]] COFER, Q4 2025 release (26 March 2026).*
 
 ![[usd-share-global-reserves-bloomberg.jpg]]
-*USD share of global foreign currency reserves. Source: Bloomberg Intelligence.*
+*Bloomberg Intelligence's proprietary USD-share series — broader scope than IMF COFER, hence the lower endpoint (~41% vs IMF's 57%). Same directional story, different denominator. Source: Bloomberg Intelligence.*
 
 ## The acceleration (2022-2026)
 
@@ -52,7 +62,7 @@ Every new sanctions regime — Iran, Russia, Venezuela, now [[Chile]] officials 
 
 | Currency/Asset | Share of reserves | Trend |
 |---------------|------------------|-------|
-| **USD** | ~41% | Declining sharply |
+| **USD** | 56.77% (IMF COFER Q4 2025) / ~41% (Bloomberg Intelligence broader measure) | Declining steadily, post-2022 acceleration |
 | **Euro** | ~20% | Stable |
 | **Gold** | Growing (non-currency) | Record central bank buying |
 | **Yuan (CNY)** | ~2-3% | Growing slowly, capital controls limit uptake |
@@ -94,14 +104,16 @@ The debate is political as much as economic: Norwegian parliament members have p
 
 ## The counterpoint
 
-41% is still dominant — nothing else is close. The yuan is at 2-3% and constrained by capital controls. The euro has no fiscal union behind it. Crypto is negligible. The dollar still denominates ~88% of FX transactions and ~40% of international trade. Reserve status erodes slowly, then quickly — but we may still be in the "slowly" phase.
+57% (IMF COFER) — or 41% by Bloomberg's broader measure — is still dominant; nothing else is close. The euro is at ~20% (COFER), constrained by no fiscal union. The yuan is at ~2% and constrained by capital controls. Crypto is negligible. The dollar still denominates ~88% of FX transactions and ~40% of international trade. Reserve status erodes slowly, then quickly — but we may still be in the "slowly" phase.
 
 The real risk isn't replacement — it's **marginal diversification**. If central banks shift from 60% USD to 40% USD, that's $2-3T in selling over a decade. Not catastrophic, but it means the US can't take infinite demand for Treasuries for granted.
 
 ## Related
 
+- [[Petrodollar]] — companion concept, the oil-pricing leg of dollar dominance
 - [[US-China decoupling]]
 - [[China]]
 - [[US Sanctions]]
 - [[BRICS]]
 - [[Gold]]
+- [[IMF]] — publisher of the canonical COFER reserve data

@@ -30,6 +30,8 @@ charts:
     skip: true
   cl-term-structure.png:
     skip: true
+  usd-reserve-share-cofer.png:
+    skip: true
   ai-compute-sector-chart.png:
     tickers: TSM,NVDA,AMD
     normalize: true

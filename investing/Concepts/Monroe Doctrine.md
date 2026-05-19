@@ -84,5 +84,6 @@ If Monroe Doctrine revival is policy, watch for:
 - [[Venezuela oil rebuild]] — investment thesis
 - [[Maduro capture 2026]] — catalyst event
 - [[Chevron]] — primary beneficiary
+- [[Petrodollar]] — Monroe Doctrine as the hemisphere-protection arm of dollar dominance
 - [[Russia]] — excluded power
 - [[Sovereign AI race]] — parallel dynamic (US vs [[China]] competition)

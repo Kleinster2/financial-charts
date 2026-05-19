@@ -81,8 +81,9 @@ See [[Monroe Doctrine]] and [[Venezuela]].
 
 ## Related
 
+- [[Petrodollar]] — the dollar-pricing system BRICS is trying to erode
 - [[Monroe Doctrine]] — opposing framework
 - [[Russia]] — core member, sanctions target
 - [[Venezuela]] — flashpoint for US vs BRICS
 - [[Sovereign AI race]] — parallel competition dynamic
-- [[Saudi Arabia Tech]] — invited member, straddling both camps
+- [[Saudi Arabia]] — invited member, straddling both camps
