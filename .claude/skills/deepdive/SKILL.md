@@ -41,6 +41,7 @@ Most entities already have some vault presence. The default path is expansion, n
 - Multiple web searches to triangulate: identity, recent developments, hard numbers
 - Search the vault for related concepts, sectors, and themes — not just the entity itself but adjacent ideas
 - Gather and attribute hard numbers. No "significant" or "substantial."
+- For infrastructure, energy, data-center, utility, logistics, mining, semiconductor, or capital-stack entities, run the physical-bottleneck sweep from `docs/note-checklist.md`: if MW/GW, power, sites, interconnections, PPAs, permits, construction, transformers, cooling, "energy and digital infrastructure," "long-term capacity," or "supply assurance" appear, identify what constraint the entity solves. Separate capital from deliverability, link the relevant constraint hubs, and state explicitly when no power plant/PPA/interconnection/grid region/site has been disclosed.
 
 ### Public companies — additional steps:
 - **SEC filings** — always pull the latest 10-K and most recent 10-Q:
@@ -69,9 +70,14 @@ Most entities already have some vault presence. The default path is expansion, n
 - The funding rounds table and cap table estimates replace financial data sections
 
 ### Individual content producers (journalists, analysts, researchers, podcasters) — additional steps:
-- **Enumerate platforms, don't confirm a single role.** Run an explicit enumerative pass: newsletter/Substack + podcast + books (published + forthcoming) + personal site + Wikipedia + adjacent affiliations (think tank + foundation + visiting positions). See `docs/note-checklist.md` "Individual creator completeness" section for the full search-query template
+- **Enumerate platforms, don't confirm a single role.** Run an explicit enumerative pass: newsletter/Substack + podcast + books (published + forthcoming) + personal site + Wikipedia + adjacent affiliations (think tank + foundation + visiting positions). See `docs/note-checklist.md` "Individual creator completeness" section for the full search-query template + the three retroactive-audit refinements
 - Stopping condition: five questions answered (where they publish, where they host, what they've written, institutional affiliations, collaboration network) — *not* "the immediate question is answered." Confirmatory searches return confirmatory answers; the completeness pass needs an enumerative shape
-- Failure pattern to avoid: first-pass note ships with affiliation-only coverage and misses the Substack/podcast/books. Caught in the May 19 2026 Michael Weiss note — first pass missed his Foreign Office Substack, weekly podcast, Free Russia Foundation affiliation, and forthcoming GRU history book; surfaced only on a second search after the user pointed it out
+- **Books are the highest-priority gap category** — elevate the books question in the enumerative-search order; verify any claimed book title against a search result before shipping (the "definitive book on RLHF" pattern caught in the May 19 audit was a fabrication that the verification step prevents)
+- **Negative answers count as completeness data** when stated explicitly. "She doesn't have a Substack" or "He doesn't host his own podcast" is a finding, not a gap — but only if the note states the absence. A silent gap is an unanswered question
+- **Capture non-obvious biographical dimensions** in the synopsis when they define the actor. Michael Pettis's Maybe Mars / D-22 / Beijing indie-music-scene founder role is the canonical case — doesn't fit the five-question template cleanly but changes how readers interpret him
+- Failure patterns this prevents:
+  - May 19 2026 Michael Weiss note — first pass missed his Foreign Office Substack, weekly podcast, Free Russia Foundation affiliation, and forthcoming GRU history book; surfaced only on a second search after the user pointed it out
+  - May 18 2026 Nathan Lambert stub — claimed an unverified "definitive book on RLHF" that the May 19 retroactive audit corrected. Same fabrication pattern as the *Menace of Unreality* misattribution and Yaoji Holdings → Alibaba Health correction
 
 ### Concepts — structural differences:
 - Route to `investing/Concepts/`, not `Actors/`

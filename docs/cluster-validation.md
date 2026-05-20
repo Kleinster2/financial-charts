@@ -34,10 +34,12 @@ Required:
 - Every new public-company actor note created with a securities companion (`investing/Assets/{Name} securities note.md`).
 - Every existing public-company actor note when it is materially expanded (e.g., a quarterly earnings ingestion that adds >100 lines, or a strategic re-classification).
 - Every concept note that names a peer cluster (e.g., [[Boutique advisory consolidation]], [[AI SaaS Disruption]], [[Hyperscaler capex]]).
+- Every framework update that materially redefines a listed peer set, capital-stack category, or "trades-like" cohort and maps onto an already identifiable cluster. The update may start in an event, actor, or financing note, but the immediate task is to scope against existing validated/falsified clusters, not to speculate a new re-clustering from one event. New cluster formation is confirmed ex post after enough return history.
 
 Optional but useful:
 - After a major sector shock (e.g., the May 1 2026 boutique-advisory print), to test whether cluster cohesion held or broke.
 - When evaluating whether a new ticker belongs to an existing cluster (add it to the candidate list, re-run, check whether the dendrogram includes it below the threshold).
+- After repeated event reactions or enough post-event return history suggest an existing cluster has changed. Treat one-day tape as a watchlist signal, not as a validation trigger by itself.
 
 Skip:
 - Private companies (no return data).

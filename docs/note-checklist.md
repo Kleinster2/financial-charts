@@ -79,6 +79,21 @@ For any merger, acquisition, take-private, spin-merger, or strategic combination
 
 Failure mode this prevents: the note captures the strategic thesis ("why the deal matters") but misses the market's first judgment ("who got paid, who got discounted, and what risk the tape is pricing"). This happened in the first-pass [[NextEra-Dominion merger 2026]] note on May 19, 2026: the event note had the AI-power consolidation thesis, but not Dominion's target-premium rally versus NextEra's acquirer selloff, and the first market-reaction fix still missed the standard merger-arb implied-odds calculation.
 
+### Listed-company event / peer reaction
+
+For any non-M&A event involving listed companies or listed peer sets — joint venture, strategic partnership, product launch, financing, customer win/loss, regulatory decision, or competitive announcement — the event note is incomplete until it distinguishes broad tape from event-specific read-through.
+
+- [ ] Primary listed actors' same-day stock reactions are captured
+- [ ] Next-day reactions are captured when available
+- [ ] Obvious second-order peers / competitors are checked, including listed peers already named elsewhere in the note/entity list/read-through, not just named companies in the headline
+- [ ] Relevant benchmark or sector ETF moves are included (`[[SPY]]`, `[[QQQ]]`, sector ETF, peer basket)
+- [ ] One sentence separates broad-market/sector tape from the event-specific read-through
+- [ ] If local data is stale or missing, use an external historical-price source rather than leaving a placeholder
+- [ ] `## Market Reaction` contains no unresolved `TODO`, `TBD`, or "verify later" text
+- [ ] If same-day close is not yet available, state the status explicitly and log a daily-note follow-up to fill it after the close
+
+Failure mode this prevents: the first-pass [[Google-Blackstone TPU cloud venture 2026]] note correctly identified [[CoreWeave]] as the exposed peer but left `CRWV | TODO verify`; the first repair then chased CRWV without systematically checking other listed peers already named in the note, especially [[Nebius]] / NBIS. The fix was to check CRWV, NBIS, and the broader AI-capacity basket against [[SPY]], [[QQQ]], and [[SMH]], showing the JV did not broadly reprice AI infrastructure but did hit listed neocloud peers.
+
 ### Charts
 
 - [ ] Price chart has actor + peers/benchmark (not just actor alone)
@@ -114,6 +129,53 @@ Quick hub audit:
 # Find notes that mention the new entity but don't wikilink it
 grep -rl "VLCC" investing/ | grep -v "VLCC.md"
 ```
+
+---
+
+### Scope expansion / framework-cluster sweep
+
+Reverse-link checks catch missing backlinks, but they do not catch the deeper failure mode where a fact changes a framework and only the direct entity notes get updated. Run this sweep whenever an edit changes a taxonomy, capital stack, risk map, peer set, market structure, or named playbook.
+
+- [ ] **Classify the update** — is this only an entity fact, or does it change a broader framework? Phrases like "structural twin," "new category," "capital-stack split," "risk taxonomy," "playbook," "distribution model," or "peer set" trigger the sweep.
+- [ ] **Search sibling framework notes** — grep the important entities plus the mechanism, not just the event name. Search `Concepts/`, `Theses/`, and `Sectors/` before stopping at actor/event notes.
+- [ ] **Read the likely hubs before finalizing** — at minimum: direct note, parent concept hub, risk/financing/deals ledger if one exists, and any active thesis note that depends on the framework.
+- [ ] **Update or explicitly defer** — either patch stale hub notes, add cross-links to the canonical note, or write a one-line daily-note explanation for why no hub update was needed.
+
+### Physical-bottleneck / constraint-cluster sweep
+
+For infrastructure, energy, logistics, data-center, mining, semiconductor, or utility-linked updates, the framework sweep must ask: *what physical bottleneck does this capital or contract solve?* Do this before finalizing any note that mentions MW/GW, data-center capacity, power, grid, interconnection, [[Power purchase agreement|PPA]], site selection, land, permits, construction, transformers, cooling, "energy and digital infrastructure," "long-term capacity," or "supply assurance."
+
+- [ ] **Separate money from deliverability** — state who provides equity/debt, who provides technology/offtake, and who converts the money into physical capacity.
+- [ ] **Check already identifiable constraint clusters** — power availability, grid/interconnection, site control, permitting, equipment lead times, cooling, and data-center operator platforms. Use existing hubs such as [[Power constraints]], [[Power purchase agreement]], [[Power grid primer]], [[Power-constrained geography]], [[AI infrastructure financing]], [[AI infrastructure deals]], and [[AI infrastructure financing risk]] where relevant.
+- [ ] **Avoid overclaiming assets** — distinguish "brings powered-capacity delivery capability" from "brings a named power plant/PPA/interconnection/site." If the source does not disclose a power asset, grid region, interconnection, PPA, or site, say so explicitly.
+- [ ] **Update the constraint home** — if the event materially changes a power/site/interconnection/cooling/transformer frame, update or link the canonical constraint note, not just the deal or actor note.
+
+Failure mode this prevents: the first Google-Blackstone TPU JV pass captured [[Blackstone]]'s $5B equity and the 500 MW target, but treated the deal mostly as a capital-provider map. The missing synthesis was that Blackstone's edge is powered-capacity delivery — site, grid/interconnection, construction, operations, and energy procurement — while no specific power plant, [[Power purchase agreement|PPA]], utility interconnection, grid region, or facility site had been disclosed.
+
+### Correlation-cluster scoping
+
+If the framework sweep involves public tickers, scope the edit against already identifiable market-behavior clusters. Do not use a fresh event to speculate that a new durable cluster exists; re-clustering is confirmed ex post after enough return history. The near-term job is to check whether existing cluster notes, sector-correlation sections, or cluster configs already cover the relevant names.
+
+- [ ] **List the affected public tickers** — primary names, obvious listed peers already named in the note, adjacent-sector controls, and broad ETFs.
+- [ ] **Search existing cluster evidence** — check `scripts/cluster_configs/`, cluster concept notes, actor `## Sector correlation` sections, and `docs/cluster-validation.md` examples. Prefer existing validated/falsified clusters over proposing a new cohort.
+- [ ] **Map to existing clusters, or mark "no established cluster"** — if the affected names already belong to an identifiable cluster, update/link that canonical cluster note. If they do not, do not invent a cluster; note that the event is only a candidate future re-clustering signal.
+- [ ] **Run validation only when there is enough history** — run `python scripts/cluster_analysis.py --primary TICKER` or config-based validation when an existing cluster needs refresh or a proposed cohort has enough ex-post return data. For event-level changes, explicitly log why validation is deferred.
+- [ ] **Keep the canonical home clean** — event notes can cite the one-day tape, but the durable correlation diagnostic belongs in the actor note's `## Cluster validation` section or the cohort concept note, not duplicated across every event note.
+- [ ] **Separate tape from cluster** — same-day peer reaction is evidence of event sensitivity, not proof of a durable correlation cluster. Durable cluster claims require windowed return correlations, dendrogram boundary, and PC1 diagnostics over a relevant history window.
+
+Quick framework audit:
+
+```bash
+rg -n "(ENTITY_A|ENTITY_B|mechanism phrase|capital stack|risk taxonomy)" investing/Concepts investing/Theses investing/Sectors
+```
+
+Quick cluster audit:
+
+```bash
+rg -n "(TICKER_A|TICKER_B|existing cluster name|cluster validation|Sector correlation)" scripts/cluster_configs investing/Actors investing/Concepts investing/Sectors
+```
+
+Failure mode this prevents: the first-pass [[Google-Blackstone TPU cloud venture 2026]] / CRWV / NBIS capital-provider update correctly touched the event note, [[CoreWeave]], and [[Neocloud financing]], but initially missed broader framework notes like [[AI infrastructure financing]], [[AI infrastructure deals]], and [[AI infrastructure financing risk]]. The fix was not more entity search; it was recognizing that "who provides the capital" changed the AI-infrastructure financing framework.
 
 ---
 
@@ -178,13 +240,27 @@ When creating an actor stub for an individual content producer, run an explicit 
 **Stopping condition:** the note is complete when you can answer all five questions:
 1. Where does this person publish their own work? (newsletter / Substack / personal blog)
 2. Where do they appear as a host or recurring voice? (podcast, video series)
-3. What books have they written or contributed to? (published + forthcoming)
+3. What books have they written or contributed to? (published + forthcoming) — **highest-priority gap category** (see #Refinements from retroactive audit below)
 4. What institutional affiliations do they hold? (employer + think-tank + foundation + visiting positions)
 5. What is the primary collaboration network? (co-authors, co-hosts, regular outlets)
 
 **Stopping condition is NOT "question I was just asked is answered."** That's the failure mode. Confirmation searches end when the immediate question is satisfied; completeness passes end when the five questions all have answers (or explicit "no evidence found").
 
+### Refinements from retroactive audit (May 19, 2026)
+
+A 13-note retroactive audit of existing journalist/analyst notes (~77% gap-hit-rate; 10 corrected, 2 already exemplary, 1 already complete) surfaced three refinements to the rule:
+
+1. **Negative answers count as completeness data.** "She doesn't have a Substack" or "He doesn't host his own podcast" is a useful finding *when stated explicitly* — it prevents future re-audits from re-asking the same question. The stopping condition is "all five questions answered (or explicitly 'no evidence found')" — a negative answer counts as an answer, but only if the note explicitly states the absence. A silent gap is not a negative answer; it's an unanswered question.
+
+2. **Books are the highest-priority gap category.** Across the 13-note audit, missing books were the most-common and most-impactful gap (Chris Miller had 3 missing prior books; Foroohar's *Homecoming* was missing; Eric Jang's *AI Is Good for You* was missing; Nathan Lambert had an *unverified* book claim that needed removal). Books carry the actor note's authority — missing them is more damaging than missing podcasts or newsletters. Two implications: (a) elevate the books question in the enumerative-search order (don't leave it for last); (b) when a book is claimed in a stub, verify the title against a search result before shipping — the "definitive book on RLHF" pattern (claimed → unverified → caught retroactively) is the same fabrication mode as the *Menace of Unreality* misattribution and the Yaoji Holdings → Alibaba Health correction.
+
+3. **Non-obvious biographical dimensions matter.** Some actors have unusual non-economic dimensions that materially change how readers interpret them: Michael Pettis's Beijing indie-music-scene founder role (D-22 rock club + [[Maybe Mars]] record label) doesn't fit cleanly into any of the five questions, but it defines who he is in a way that the academic-economist framing alone misses. Rule: if a biography has an unusual non-economic dimension that defines the actor, capture it explicitly in the synopsis or quick-stats — don't leave it implicit. The five-question template covers professional outputs; this is the affiliation-outside-the-affiliation that gives the note its texture.
+
+### When this applies
+
 This applies to the `/deepdive` skill when the entity is an individual content producer rather than a company — see `.claude/skills/deepdive/SKILL.md` Phase 2.
+
+The same five-question + three-refinement pattern works retroactively as an audit tool: read existing notes, identify gaps via the 5-question template, run enumerative searches for the gaps in parallel, edit in parallel, log the audit. Demonstrated on 13 notes May 18-19, 2026 with ~77% gap-hit-rate.
 
 ## 7. Claims grounding
 

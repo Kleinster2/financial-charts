@@ -267,6 +267,8 @@ class NoteChecker:
         # Public-company M&A event notes must capture the tape, not only the strategy.
         if note_type == "event":
             issues.extend(self._check_ma_market_reaction(content, filepath))
+            issues.extend(self._check_market_reaction_placeholders(content, filepath))
+            issues.extend(self._check_market_reaction_peer_coverage(content, filepath))
 
         # Hub checks (concept and sector notes)
         if note_type in ("concept", "sector"):
@@ -380,6 +382,68 @@ class NoteChecker:
         m = re.search(r"\|\s*Ticker(?:\s*\([^)]*\))?\s*\|\s*([A-Z0-9][A-Z0-9.\-]{0,12})", content)
         return m.group(1) if m else None
 
+    @staticmethod
+    def _extract_aliases(content: str) -> list[str]:
+        """Extract aliases from YAML frontmatter without requiring PyYAML."""
+        if not content.startswith("---"):
+            return []
+
+        second_dash = content.find("---", 3)
+        if second_dash == -1:
+            return []
+
+        frontmatter = content[3:second_dash]
+        aliases: list[str] = []
+
+        inline = re.search(r'^aliases:\s*\[([^\]]*)\]', frontmatter, re.MULTILINE)
+        if inline:
+            aliases.extend(
+                alias.strip().strip('"').strip("'")
+                for alias in inline.group(1).split(",")
+                if alias.strip()
+            )
+
+        block = re.search(r'^aliases:\s*\n((?:\s+-\s+.+\n?)+)', frontmatter, re.MULTILINE)
+        if block:
+            aliases.extend(
+                alias.strip().strip('"').strip("'")
+                for alias in re.findall(r'^\s+-\s+(.+?)$', block.group(1), re.MULTILINE)
+                if alias.strip()
+            )
+
+        return aliases
+
+    @classmethod
+    def _extract_alias_ticker(cls, content: str) -> str | None:
+        """Extract a ticker-like frontmatter alias when no explicit ticker exists."""
+        for alias in cls._extract_aliases(content):
+            if re.fullmatch(r"[A-Z][A-Z0-9]{1,5}(?:[.-][A-Z0-9]{1,4})?", alias):
+                return alias
+        return None
+
+    def _extract_public_actor_ticker(self, content: str) -> str | None:
+        """Return a ticker for public/listed actor notes, including alias-only stubs."""
+        if self._is_public_company_exempt(content):
+            return None
+
+        ticker = self._extract_ticker(content)
+        if ticker:
+            return ticker
+
+        alias_ticker = self._extract_alias_ticker(content)
+        if not alias_ticker:
+            return None
+
+        if self._is_public_company(content):
+            return alias_ticker
+
+        public_listing_language = re.search(
+            r'\b(NASDAQ|NYSE|listed|publicly traded|IPO)\b',
+            content,
+            re.IGNORECASE,
+        )
+        return alias_ticker if public_listing_language else None
+
     def _is_public_company_exempt(self, content: str) -> bool:
         """Check for actor tags that should never trigger public-company gates."""
         exempt_tags = [
@@ -387,7 +451,8 @@ class NoteChecker:
             "#professional-services", "#private", "#private_company", "#brand",
             "#spac", "#de-spac", "#person", "#country", "#region", "#city",
             "#geography", "#vc", "#investor", "#hedgefund", "#pe", "#nonprofit",
-            "#university", "#think-tank", "#academic", "#politician",
+            "#university", "#think-tank", "#academic", "#politician", "#macro",
+            "#central-bank",
         ]
         return any(self._has_tag(content, tag) for tag in exempt_tags)
 
@@ -1449,6 +1514,109 @@ aliases: []
                 "with acquirer/target stock moves, premium or exchange-ratio "
                 "implication, implied consideration/spread math, close/fail odds "
                 "when defensible, external proxies, and tape verdict."
+            ))
+
+        return issues
+
+    def _check_market_reaction_placeholders(self, content: str, filepath: Path) -> list[Issue]:
+        """Warn when a Market Reaction section still has unresolved placeholders."""
+        issues = []
+
+        match = re.search(
+            r'^##\s+Market\s+Reaction\b(?P<body>.*?)(?=^##\s+|\Z)',
+            content,
+            re.IGNORECASE | re.MULTILINE | re.DOTALL
+        )
+        if not match:
+            return issues
+
+        body = match.group("body")
+        if re.search(r'\b(TODO|TBD|verify later|TODO verify)\b', body, re.IGNORECASE):
+            issues.append(Issue(
+                "warning",
+                "market-reaction-placeholder",
+                "Market Reaction section contains unresolved TODO/TBD/verify placeholder; "
+                "verify primary and peer tape or state explicitly why closes are not yet available."
+            ))
+
+        return issues
+
+    @staticmethod
+    def _extract_wikilink_targets(content: str) -> set[str]:
+        """Extract Obsidian wikilink targets as note names without headings/aliases."""
+        targets: set[str] = set()
+        for match in re.finditer(r'\[\[([^\]]+)\]\]', content):
+            target = match.group(1).split("|", 1)[0].split("#", 1)[0].strip()
+            if target:
+                targets.add(target)
+        return targets
+
+    @staticmethod
+    def _extract_market_reaction_body(content: str) -> str | None:
+        match = re.search(
+            r'^##\s+Market\s+Reaction\b(?P<body>.*?)(?=^##\s+|\Z)',
+            content,
+            re.IGNORECASE | re.MULTILINE | re.DOTALL
+        )
+        return match.group("body") if match else None
+
+    def _event_related_or_readthrough_targets(self, content: str) -> set[str]:
+        """Return entity-list/read-through links that should be market-reaction candidates."""
+        targets: set[str] = set()
+
+        related = re.search(
+            r'^##\s+Related\b(?P<body>.*?)(?=^##\s+|\Z)',
+            content,
+            re.IGNORECASE | re.MULTILINE | re.DOTALL
+        )
+        if related:
+            targets.update(self._extract_wikilink_targets(related.group("body")))
+
+        for heading in re.finditer(
+            r'^#{2,4}\s+(?:For\s+)?(?P<body>.*\[\[[^\]]+\]\].*)$',
+            content,
+            re.IGNORECASE | re.MULTILINE
+        ):
+            targets.update(self._extract_wikilink_targets(heading.group("body")))
+
+        return targets
+
+    def _check_market_reaction_peer_coverage(self, content: str, filepath: Path) -> list[Issue]:
+        """Warn when listed actors in entity/read-through links are absent from Market Reaction."""
+        issues = []
+        market_body = self._extract_market_reaction_body(content)
+        if market_body is None:
+            return issues
+
+        missing: list[str] = []
+        for name in sorted(self._event_related_or_readthrough_targets(content)):
+            actor_path = self.vault_root / "Actors" / f"{name}.md"
+            if not actor_path.exists():
+                continue
+
+            try:
+                actor_content = actor_path.read_text(encoding="utf-8")
+            except (OSError, UnicodeDecodeError):
+                continue
+
+            ticker = self._extract_public_actor_ticker(actor_content)
+            if not ticker:
+                continue
+
+            link_pattern = rf'\[\[{re.escape(name)}(?:[#|][^\]]*)?\]\]'
+            ticker_pattern = rf'(?<![A-Z0-9.\-]){re.escape(ticker)}(?![A-Z0-9.\-])'
+            if re.search(link_pattern, market_body) or re.search(ticker_pattern, market_body):
+                continue
+
+            missing.append(f"[[{name}]] ({ticker})")
+
+        if missing:
+            issues.append(Issue(
+                "warning",
+                "market-reaction-peer-coverage",
+                "Market Reaction may be missing listed related/read-through actors: "
+                + ", ".join(missing)
+                + ". Add same-day/next-day tape or explicitly state why excluded."
             ))
 
         return issues

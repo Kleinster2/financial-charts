@@ -193,6 +193,7 @@ playwright-report/
 # Ad-hoc tmp scripts and scratch helpers
 tmp_*.py
 scripts/_*.py
+logs/
 
 # Hidden newsletter / report drafts (leading-dot HTML)
 investing/Newsletter/.*.html
