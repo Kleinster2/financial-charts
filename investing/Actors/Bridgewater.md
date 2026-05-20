@@ -144,7 +144,7 @@ AIA Macro fund incorporates AI into investment decisions — signals Bridgewater
 
 The [[Iran conflict portfolio hedging|March 2026 correlation breakdown]] — bonds and stocks falling together on stagflation from the [[Strait of Hormuz]] oil shock — is a direct test of the All Weather premise. The [[Stock-Bond Correlation Regime]] shift (G4 correlation ~+0.55) means leveraged bonds amplify losses rather than cushion them.
 
-[[ALLW]]'s positioning going into the crisis: 1.71x leverage, ~10-11 year weighted average duration, and a commodity gap (8.5% vs ~20-25% typical All Weather). The fund is ~72% gold / ~28% BCOMTR in its commodity sleeve — limited exposure to the energy/agriculture complex that benefits from the Hormuz disruption.
+[[ALLW]]'s positioning going into the crisis: 1.71x leverage, ~10-11 year weighted average duration, and a commodity gap (8.5% vs ~20-25% typical All Weather). The fund is ~72% gold / ~28% [[Bloomberg Commodity Index|BCOMTR]] in its commodity sleeve — limited exposure to the energy/agriculture complex that benefits from the Hormuz disruption.
 
 This is the second correlation breakdown in four years (after 2022). Bridgewater's institutional All Weather reportedly lost ~22% in 2022. Whether the proprietary daily model can adapt faster than the systematic alternatives ([[RPAR ETF|RPAR]], [[UPAR ETF|UPAR]]) is the live question.
 

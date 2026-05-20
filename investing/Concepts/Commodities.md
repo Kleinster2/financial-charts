@@ -3,7 +3,7 @@ aliases: [commodities, commodity, DBC, GSG, raw materials]
 ---
 #concept #commodities #macro
 
-**Commodities** — Raw materials traded on global markets: energy, metals, agriculture. Inflation hedge, growth proxy, and diversifier. Primary vehicles: DBC (Invesco DB Commodity Index), GSG (iShares S&P GSCI).
+**Commodities** — Raw materials traded on global markets: energy, metals, agriculture. Inflation hedge, growth proxy, and diversifier. Primary benchmarks: [[Bloomberg Commodity Index|BCOM]] for diversified institutional futures beta, DBC (Invesco DB Commodity Index), GSG (iShares S&P GSCI).
 
 ---
 
@@ -27,6 +27,12 @@ aliases: [commodities, commodity, DBC, GSG, raw materials]
 ---
 
 ## Index composition
+
+### BCOM (Bloomberg Commodity Index)
+
+[[Bloomberg Commodity Index|BCOM]] is the institutional broad-commodity benchmark. Its target weights use a two-thirds liquidity / one-third production framework with diversification caps: no group above 33%, no single commodity above 15%, and annual rebalancing. The total-return version, BCOMTR, is the relevant allocation benchmark because it captures the collateralized futures return.
+
+As of Bloomberg's April 30, 2026 factsheet, BCOM's current sector weights were 39.28% energy, 26.64% agriculture, 15.50% precious metals, 13.48% industrial metals, and 5.10% livestock. The local DB has `BCOM` and `BCOMTR` in `prices_long`; use [[COMB]] when a tradable Bloomberg-linked ETF proxy is needed.
 
 ### DBC (Invesco DB Commodity Index)
 
@@ -92,6 +98,7 @@ Most commodity ETFs hold futures, not physical. Roll yield matters for long-term
 
 | Ticker | Name | Structure |
 |--------|------|-----------|
+| COMB | GraniteShares Bloomberg Commodity Broad Strategy | BCOM-linked, no K-1 |
 | DBC | Invesco DB Commodity | Optimized roll |
 | GSG | iShares S&P GSCI | Production-weighted |
 | PDBC | Invesco Optimized Commodity | K-1 free |
@@ -114,6 +121,8 @@ Most commodity ETFs hold futures, not physical. Roll yield matters for long-term
 ## Related
 
 - [[Oil]] — largest commodity market
+- [[Bloomberg Commodity Index]] — institutional broad commodity benchmark
+- [[COMB]] — Bloomberg-linked ETF proxy
 - [[Natural gas]] — energy sector
 - [[Gold]] — safe haven precious metal
 - [[Copper]] — industrial bellwether

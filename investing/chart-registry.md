@@ -136,6 +136,11 @@ charts:
     skip: true
   bptrx-spacex-dual-axis.png:
     skip: true
+  bcomtr-vs-bcom-price-chart.png:
+    tickers: BCOMTR,BCOM
+    normalize: true
+    start: 2001-08-20
+    primary: BCOMTR
 ---
 
 # Chart Registry

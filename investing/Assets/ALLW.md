@@ -12,7 +12,7 @@ ticker: ALLW
 
 ## Synopsis
 
-The investment case for ALLW is access to Bridgewater's proprietary daily model at 0.85% expense vs a $7.5B institutional minimum. The fund has grown rapidly ($245M at launch → $1.03B by March 2026) but the actual portfolio diverges from "balanced all-weather" marketing. As of March 11, 2026: 1.71x leverage (below ~2x target), commodities only 8.5% deleveraged (vs ~25% theoretical), and equities dominating risk contribution at 40% (vs 25% ERC target). The commodity gap is critical — ALLW is ~72% gold / ~28% BCOMTR in its commodity sleeve, meaning it has almost no exposure to energy, agriculture, or industrial metals. In a supply-shock like the [[Operation Epic Fury|2026 Iran conflict]] (oil >$90, Hormuz closed), broad commodities outperform but ALLW captures only the gold component.
+The investment case for ALLW is access to Bridgewater's proprietary daily model at 0.85% expense vs a $7.5B institutional minimum. The fund has grown rapidly ($245M at launch -> $1.03B by March 2026) but the actual portfolio diverges from "balanced all-weather" marketing. As of March 11, 2026: 1.71x leverage (below ~2x target), commodities only 8.5% deleveraged (vs ~25% theoretical), and equities dominating risk contribution at 40% (vs 25% ERC target). The commodity gap is critical - ALLW is ~72% gold / ~28% [[Bloomberg Commodity Index|BCOMTR]] in its commodity sleeve, meaning it has almost no exposure to energy, agriculture, or industrial metals. In a supply-shock like the [[Operation Epic Fury|2026 Iran conflict]] (oil >$90, Hormuz closed), broad commodities outperform but ALLW captures only the gold component.
 
 The March 2026 correlation breakdown — bonds and stocks falling together on stagflation fears — is the exact scenario All Weather was designed for. ALLW's TIPS allocation (21.5%) provides inflation linkage that [[RPAR ETF|RPAR]] dropped to 0%. But the duration exposure (~10-11 years weighted average) means bond losses can overwhelm the inflation hedge, as happened in 2022 when Bridgewater's institutional All Weather reportedly lost ~22%.
 
@@ -73,9 +73,9 @@ Equities dominate risk (40% vs 25% target). Commodities underweight (8.5% vs ~20
 | Holding | Notional | % of commodity sleeve |
 |---------|----------|----------------------|
 | Gold 100 oz futures (Apr 2026) | $106.2M | 72% |
-| Bloomberg Commodity TRS (BCOMTR) | $42.3M | 28% |
+| Bloomberg Commodity TRS ([[Bloomberg Commodity Index|BCOMTR]]) | $42.3M | 28% |
 
-The BCOMTR swap grew from negligible ($0.4M in Dec 2025) to $42.3M by March 2026 — Bridgewater may be addressing the broad commodity gap.
+The [[Bloomberg Commodity Index|BCOMTR]] swap grew from negligible ($0.4M in Dec 2025) to $42.3M by March 2026 — Bridgewater may be addressing the broad commodity gap.
 
 ---
 
@@ -89,13 +89,13 @@ The BCOMTR swap grew from negligible ($0.4M in Dec 2025) to $42.3M by March 2026
 | Dec 2025 | $667M | 1.60x | 45.2% | 26.9% | 21.5% | 6.4% |
 | Mar 2026 | $1,030M | 1.71x | 42.9% | 27.1% | 21.5% | 8.5% |
 
-All figures deleveraged. Leverage ramp-up: 0.78x at launch → 1.71x at 1 year. Equity-first transition (peaked 53.9% in Aug) before normalizing. Commodities consistently low but BCOMTR growing.
+All figures deleveraged. Leverage ramp-up: 0.78x at launch -> 1.71x at 1 year. Equity-first transition (peaked 53.9% in Aug) before normalizing. Commodities consistently low but [[Bloomberg Commodity Index|BCOMTR]] growing.
 
 ### Daily holdings detail (Jan 8 - Mar 12, 2026)
 
 41 daily snapshots from SSGA disclosures reveal the granular evolution:
 
-| Date | NAV | Leverage | Risk (B/E/T/C) | Gold | BCOMTR | BCOMTR % |
+| Date | NAV | Leverage | Risk (B/E/T/C) | Gold | [[Bloomberg Commodity Index|BCOMTR]] | BCOMTR % |
 |------|-----|----------|-----------------|------|--------|----------|
 | Jan 8 | $678M | 1.68x | 35/35/15/15 | $73.6M | $3.7M | 5% |
 | Feb 3 | $761M | 1.76x | 34/40/15/11 | $84.9M | $13.6M | 14% |
@@ -103,7 +103,7 @@ All figures deleveraged. Leverage ramp-up: 0.78x at launch → 1.71x at 1 year. 
 | Mar 4 | $995M | 1.69x | 34/40/15/11 | $102.2M | $27.5M | 21% |
 | Mar 12 | $1,050M | 1.72x | 33/39/15/13 | $106.2M | $48.7M | 31% |
 
-Key patterns: (1) risk contribution shifted from balanced 35/35/15/15 to equity-heavy 33/39/15/13, (2) BCOMTR swap scaled 13x ($3.7M → $48.7M) in two months — [[Bridgewater]] actively addressing the broad commodity gap, (3) leverage stabilized at 1.71-1.72x, (4) NAV grew $678M → $1,050M (+55%) driven by inflows not just returns.
+Key patterns: (1) risk contribution shifted from balanced 35/35/15/15 to equity-heavy 33/39/15/13, (2) [[Bloomberg Commodity Index|BCOMTR]] swap scaled 13x ($3.7M → $48.7M) in two months — [[Bridgewater]] actively addressing the broad commodity gap, (3) leverage stabilized at 1.71-1.72x, (4) NAV grew $678M → $1,050M (+55%) driven by inflows not just returns.
 
 ![[allw-notional-evolution-chart.png]]
 *Notional exposure by asset class since inception (Mar 2025 - Mar 2026). Gross notional grew from $191M (0.78x leverage on $245M NAV) to $1.81B (1.72x on $1,050M). Gray dashed line = NAV; the gap above NAV is the leveraged futures overlay. The equity-first ramp is visible: equities (pink) dominated mid-2025 as [[Bridgewater]] built equity exposure first, then bonds (blue) surged from Dec 2025 as leverage scaled to 1.6-1.7x and the allocation normalized. Pre-Jan 2026 NAV interpolated from $245M launch and $667M Dec 2025 anchor; daily snapshots from Jan 8.*
@@ -119,7 +119,7 @@ Key patterns: (1) risk contribution shifted from balanced 35/35/15/15 to equity-
 *ALLW vs RPAR normalized since inception (March 2025). RPAR's heavier commodity allocation (~27% vs 8.5%) drove outperformance through the Iran conflict commodity spike. Both sold off in March 2026 as bonds and equities fell together.*
 
 ![[allw-vs-spy-vs-tlt-vs-tip-vs-gld-price-chart.png]]
-*ALLW vs all proxy ETFs used in replication analysis. Original four: [[SPY]] (+22%), [[TLT]] (-2%), [[TIP]] (+6%), [[GLD]] (+80%). International additions: [[BNDX]] (~flat), [[VGK]] (+30%), [[EWJ]] (+8%), [[GSG]] (-13%). GLD is the runaway performer but ALLW allocates only 8.5% to commodities. VGK outperformed SPY — explaining why ALLW's heavy European equity futures helped. But BNDX (flat) massively lagged ALLW's actual Euro-Bund/Gilt futures, and GSG (-13%) was a drag vs ALLW's BCOMTR swap. These two mismatches explain why the 11-ETF replication performed worse than 4-ETF: the ETF proxies for international bonds and broad commodities don't track the actual futures ALLW holds.*
+*ALLW vs all proxy ETFs used in replication analysis. Original four: [[SPY]] (+22%), [[TLT]] (-2%), [[TIP]] (+6%), [[GLD]] (+80%). International additions: [[BNDX]] (~flat), [[VGK]] (+30%), [[EWJ]] (+8%), [[GSG]] (-13%). GLD is the runaway performer but ALLW allocates only 8.5% to commodities. VGK outperformed SPY — explaining why ALLW's heavy European equity futures helped. But BNDX (flat) massively lagged ALLW's actual Euro-Bund/Gilt futures, and GSG (-13%) was a drag vs ALLW's [[Bloomberg Commodity Index|BCOMTR]] swap. These two mismatches explain why the 11-ETF replication performed worse than 4-ETF: the ETF proxies for international bonds and broad commodities don't track the actual futures ALLW holds.*
 
 ![[allw-replication-comparison-chart.png]]
 *ALLW vs three replication approaches, all using daily weights and leverage (0.78x→1.72x). Red = Futures Proxy (+9.4%) using equity indices, US bond futures, and currency-unhedged international bond ETFs. Green = 4-ETF (+8.5%) using SPY/TLT/TIP/GLD. Orange = 11-ETF (+7.2%) adding geographic ETF proxies (VGK, EWJ, BNDX) that underperform the actual futures. The hierarchy confirms: closer instrument matching helps (futures proxy > 4-ETF), but adding bad proxies hurts (11-ETF < 4-ETF). The ~7-8pp gap to ALLW is irreducible.*
@@ -143,7 +143,7 @@ Can you replicate ALLW? Tested six approaches — ETFs, indices, futures proxies
 | 11-ETF 5-point interp (same 11 ETFs, 5 quarterly snapshots) | +6.8% | -10.0pp |
 | 4-ETF static 1x | +8.3% | -8.5pp |
 
-Adding geographic ETF granularity made it worse: [[BNDX]] (~flat) underperformed ALLW's Euro-Bund/Gilt futures, and [[GSG]] (-13%) dragged vs ALLW's BCOMTR swap. The futures-proxy approach — replacing ETFs with equity indices (EURO STOXX 50, FTSE, ASX 200, Nikkei), actual US bond futures (ZN, ZB), and currency-unhedged international bond ETFs (iShares Euro Govt Bond + EUR/USD, iShares Gilt + GBP/USD, Vanguard Aust Bond + AUD/USD) — closed an additional 0.8pp. Using actual daily holdings data (41 SSGA snapshots) instead of 5-point quarterly interpolation added only 0.3pp — confirming the gap is instrument-level, not weight-timing.
+Adding geographic ETF granularity made it worse: [[BNDX]] (~flat) underperformed ALLW's Euro-Bund/Gilt futures, and [[GSG]] (-13%) dragged vs ALLW's [[Bloomberg Commodity Index|BCOMTR]] swap. The futures-proxy approach — replacing ETFs with equity indices (EURO STOXX 50, FTSE, ASX 200, Nikkei), actual US bond futures (ZN, ZB), and currency-unhedged international bond ETFs (iShares Euro Govt Bond + EUR/USD, iShares Gilt + GBP/USD, Vanguard Aust Bond + AUD/USD) — closed an additional 0.8pp. Using actual daily holdings data (41 SSGA snapshots) instead of 5-point quarterly interpolation added only 0.3pp — confirming the gap is instrument-level, not weight-timing.
 
 ### Holdings-to-proxy mapping (March 12, 2026)
 
@@ -163,7 +163,7 @@ Adding geographic ETF granularity made it worse: [[BNDX]] (~flat) underperformed
 | Aust 10Y Bond futures | $104.7M | BNDX | VGB_AX + AUD/USD | Currency + index mismatch |
 | 22 individual TIPS (2033-2056) | $394M | [[TIP]] | TIP | ~11yr duration vs TIP ~7yr |
 | Gold 100oz futures | $108.7M | [[GLD]] | GC=F | GLD = physical trust; GC=F = actual futures |
-| BCOMTR total return swap | $48.7M | [[GSG]] | GSG | BCOMTR vs GSCI; swap vs ETF |
+| [[Bloomberg Commodity Index|BCOMTR]] total return swap | $48.7M | [[GSG]] | GSG | BCOMTR vs GSCI; swap vs ETF |
 | Money market + T-bills | $421M | *none* | *none* | ETF replication deploys all capital |
 
 The worst mismatches are the international bonds: $371M in currency-unhedged futures proxied by BNDX (USD-hedged). With EUR +5.9% and GBP +2.6% vs USD over the period, the hedging alone explains most of the 11-ETF underperformance vs 4-ETF.
@@ -251,7 +251,7 @@ The [[Iran conflict portfolio hedging|March 2026 correlation breakdown]] — bon
 
 - Bond-equity positive correlation: ALLW's 43% bond + 27% equity allocation both under pressure simultaneously
 - TIPS as partial hedge: 21.5% TIPS allocation provides inflation linkage that RPAR (0% TIPS) lacks
-- Commodity gap exposed: oil >$90 but ALLW is ~72% gold, ~28% BCOMTR — limited energy/agriculture exposure
+- Commodity gap exposed: oil >$90 but ALLW is ~72% gold, ~28% [[Bloomberg Commodity Index|BCOMTR]] — limited energy/agriculture exposure
 - Duration risk: ~10-11 year weighted average duration means rate repricing (2Y yields +9bp on Mar 12) hits the bond sleeve hard
 
 The [[Stock-Bond Correlation Regime]] shift is the core risk to All Weather. The strategy was built for the negative-correlation era (2000-2020) when bonds hedged equity drawdowns. In positive-correlation regimes (1970s, 2022, 2026), leveraged bonds amplify losses rather than cushion them.
