@@ -1,9 +1,9 @@
 ---
-aliases: [Starwood Capital, Starwood, SREIT, Starwood Real Estate Income Trust]
+aliases: [Starwood Capital, Starwood, Starwood Real Estate Income Trust]
 ---
 #actor #investor #realestate #usa #private
 
-**Starwood Capital Group** — Global real estate investment firm founded 1991 by [[Barry Sternlicht]]. $115B+ AUM. Created Starwood Hotels & Resorts (W Hotels, Westin, Sheraton — sold to [[Marriott]] in 2016). Operates Starwood Property Trust (NYSE: STWD), a publicly traded mortgage REIT, and SREIT, a non-traded REIT.
+**Starwood Capital Group** — Global real estate investment firm founded 1991 by [[Barry Sternlicht]]. $115B+ AUM. Created Starwood Hotels & Resorts (W Hotels, Westin, Sheraton — sold to [[Marriott]] in 2016). Operates Starwood Property Trust, ticker STWD on the NYSE, and SREIT, a non-traded REIT.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-aliases: [QTS, QTS Realty Trust, Quality Technology Services, QTS Data Centers]
+aliases: [QTS Realty Trust, Quality Technology Services, QTS Data Centers]
 ---
 #actor #datacenter #usa #private
 
@@ -14,6 +14,7 @@ QTS — largest privately held data center platform in the US. Owned by [[Blacks
 | Owner | [[Blackstone]] (BREIT + BIP) |
 | Acquired | August 2021 |
 | Acquisition price | ~$10B |
+| Former ticker | QTS (NYSE; delisted Aug 2021 after [[Blackstone]] take-private) |
 | Capacity | 2+ GW |
 | Footprint | 9M+ sq ft |
 | Pipeline | $25B+ |
@@ -69,7 +70,7 @@ Notable pre-Blackstone acquisitions: former Chicago Sun-Times printing plant; Ri
 | Round | Date | Lead / participant | Detail |
 |---|---|---|---|
 | Series funding | 2009 | [[General Atlantic]] | Growth equity investment supporting Williams's expansion strategy. Specific terms undisclosed. |
-| IPO | Oct 2013 | NYSE: QTS | Listed as a data-center REIT. Priced at $21/share; market cap ~$510M at debut. |
+| IPO | Oct 2013 | Former ticker QTS on NYSE | Listed as a data-center REIT. Priced at $21/share; market cap ~$510M at debut. |
 | Take-private | Aug 2021 | [[Blackstone]] (BREIT + BIP) | $10B all-cash acquisition. Blackstone funds — BREIT (retail-channel REIT) and BIP (infrastructure-strategy fund) — split the equity, with QTS removed from public markets. |
 | Williams stake buyout | Apr 2025 | [[Blackstone]] | ~$3B buyout of founder Chad Williams's residual stake after his Spring 2025 departure. |
 | Pennsylvania capital commitment | Jul 2025 | [[Blackstone]] | $25B platform-level commitment to PA digital + energy infrastructure through QTS — not a "round" in the conventional sense but the largest single capital allocation to the platform post-take-private. |

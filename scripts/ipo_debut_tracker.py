@@ -136,7 +136,8 @@ def find_note_by_name_substring(query):
 
 
 def is_private(text):
-    return "#private" in text or "private" in re.findall(r"#([a-z][a-z0-9-]*)", text)
+    tags = set(re.findall(r"(?:^|\s)#([a-z][a-z0-9-]*)", text))
+    return "private" in tags
 
 
 def report_ticker(ticker, db_tickers):

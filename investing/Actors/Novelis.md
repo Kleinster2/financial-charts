@@ -28,7 +28,7 @@ tags: [actor, aluminum, materials, private, india]
 |-------|-------|--------|
 | [[Hindalco Industries]] | 100% | Wholly-owned subsidiary since 2007; $6B all-cash deal |
 
-No external equity, no funding rounds — Novelis was a public company (NYSE: NVL) prior to the 2007 take-private by Hindalco. Operates as a standalone subsidiary with its own management team but consolidated into Hindalco financials (reported via parent on NSE/BSE).
+No external equity, no funding rounds — Novelis was formerly listed on the NYSE under NVL prior to the 2007 take-private by Hindalco. Operates as a standalone subsidiary with its own management team but consolidated into Hindalco financials (reported via parent on NSE/BSE).
 
 ## Funding rounds / capital history
 

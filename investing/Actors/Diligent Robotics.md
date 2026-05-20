@@ -79,7 +79,7 @@ Key investors: [[Tiger Global]], Canaan, True Ventures, DNX Ventures, Ubiquity V
 | Total raised | ~$100M |
 | Implied loss | ~70%+ on invested capital |
 
-[[Serve Robotics]] (NASDAQ: SERV) is an [[Uber]] spinout focused on sidewalk delivery robots. The acquisition extends Serve's autonomy platform from outdoor delivery into indoor hospital logistics. Diligent continues as a subsidiary under Andrea Thomaz.
+[[Serve Robotics]], public as SERV on Nasdaq, is an [[Uber]] spinout focused on sidewalk delivery robots. The acquisition extends Serve's autonomy platform from outdoor delivery into indoor hospital logistics. Diligent continues as a subsidiary under Andrea Thomaz.
 
 The deal math is stark: $29M for a company that raised $100M. Even with the earnout ($34.3M max), investors lost most of their money. The gap between peak valuation ($150M in 2023) and exit price ($29M in 2026) reflects the difficulty of scaling hospital robotics.
 
