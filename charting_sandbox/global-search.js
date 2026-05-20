@@ -7,6 +7,7 @@
     'use strict';
 
     let tickerMetadata = {};
+    let availableTickers = [];
     let searchIndex = [];
     let pageIndex = []; // { pageNum, pageName }
 
@@ -24,8 +25,8 @@
 
         console.log('[GlobalSearch] Starting initialization...');
 
-        // Load ticker metadata
-        await loadTickerMetadata();
+        // Load ticker universe + metadata
+        await Promise.all([loadTickerMetadata(), loadAvailableTickers()]);
 
         // Build search index (async)
         await buildSearchIndex();
@@ -51,6 +52,24 @@
         } catch (error) {
             console.warn('[GlobalSearch] Failed to load metadata:', error);
             // Continue with empty metadata
+        }
+    }
+
+    /**
+     * Load available tickers from API so search can find symbols not yet in cards
+     */
+    async function loadAvailableTickers() {
+        try {
+            const response = await fetch(window.ChartUtils.apiUrl('/api/tickers'));
+            if (response.ok) {
+                availableTickers = await response.json();
+                console.log('[GlobalSearch] Loaded ticker universe:', availableTickers.length);
+            } else {
+                console.warn('[GlobalSearch] /api/tickers returned non-OK status:', response.status);
+            }
+        } catch (error) {
+            console.warn('[GlobalSearch] Failed to load ticker universe:', error);
+            availableTickers = [];
         }
     }
 
@@ -82,11 +101,14 @@
 
         // Build index of ticker -> [locations]
         const tickerLocations = new Map();
+        const pageCardCounts = new Map();
 
         workspace.forEach((card, cardIndex) => {
             const page = card.page || '1';
             const title = card.title || `Chart ${cardIndex + 1}`;
             const tickers = card.tickers || [];
+            const pageCardIndex = pageCardCounts.get(page) || 0;
+            pageCardCounts.set(page, pageCardIndex + 1);
 
             tickers.forEach(ticker => {
                 if (!tickerLocations.has(ticker)) {
@@ -96,19 +118,22 @@
                     page,
                     title,
                     cardIndex,
+                    pageCardIndex,
                     card
                 });
             });
         });
 
-        // Convert to search index array
-        tickerLocations.forEach((locations, ticker) => {
+        // Convert to search index array. Include DB tickers even if they are not
+        // currently present in a saved chart card.
+        const allTickers = new Set([...availableTickers, ...tickerLocations.keys()]);
+        allTickers.forEach((ticker) => {
             const name = tickerMetadata[ticker] || '';
 
             searchIndex.push({
                 ticker,
                 name,
-                locations
+                locations: tickerLocations.get(ticker) || []
             });
         });
 
@@ -222,6 +247,21 @@
             });
         }
 
+        tickerResults.sort((a, b) => {
+            const aTicker = a.ticker.toUpperCase();
+            const bTicker = b.ticker.toUpperCase();
+            const score = (item, ticker) => {
+                if (ticker === queryUpper) return 0;
+                if (ticker.startsWith(queryUpper)) return 1;
+                if (item.locations.length > 0) return 2;
+                return 3;
+            };
+            const aScore = score(a, aTicker);
+            const bScore = score(b, bTicker);
+            if (aScore !== bScore) return aScore - bScore;
+            return a.ticker.localeCompare(b.ticker);
+        });
+
         // Limit to top 40 ticker results (leave room for pages)
         const limitedTickerResults = tickerResults.slice(0, 40);
 
@@ -283,7 +323,8 @@
             searchResults.appendChild(tickerHeader);
 
             tickerResults.forEach(item => {
-                item.locations.forEach(location => {
+                const locations = item.locations.length ? item.locations : [null];
+                locations.forEach(location => {
                     const resultItem = document.createElement('div');
                     resultItem.className = 'search-result-item';
 
@@ -298,15 +339,19 @@
                     const locationSpan = document.createElement('span');
                     locationSpan.className = 'search-result-location';
 
-                    // Get page name from localStorage
-                    let pageName = `Page ${location.page}`;
-                    try {
-                        const pagesData = JSON.parse(localStorage.getItem('sandbox_pages') || '{}');
-                        pageName = pagesData?.names?.[location.page] || `Page ${location.page}`;
-                    } catch (e) {
-                        // Fallback to Page N
+                    if (location) {
+                        // Get page name from localStorage
+                        let pageName = `Page ${location.page}`;
+                        try {
+                            const pagesData = JSON.parse(localStorage.getItem('sandbox_pages') || '{}');
+                            pageName = pagesData?.names?.[location.page] || `Page ${location.page}`;
+                        } catch (e) {
+                            // Fallback to Page N
+                        }
+                        locationSpan.textContent = `${pageName}: ${location.title}`;
+                    } else {
+                        locationSpan.textContent = 'Add to active chart';
                     }
-                    locationSpan.textContent = `${pageName}: ${location.title}`;
 
                     resultItem.appendChild(tickerSpan);
                     if (item.name) {
@@ -316,7 +361,11 @@
 
                     // Click handler - navigate to chart
                     resultItem.addEventListener('click', () => {
-                        navigateToChart(location.page, location.cardIndex);
+                        if (location) {
+                            navigateToChart(location.page, location.pageCardIndex, location.cardIndex);
+                        } else {
+                            addTickerToActiveChart(item.ticker);
+                        }
                         hideSearchResults(searchResults);
                         document.getElementById('global-search-input').value = '';
                     });
@@ -339,27 +388,65 @@
     /**
      * Navigate to specific chart
      */
-    function navigateToChart(page, cardIndex) {
-        console.log('[GlobalSearch] Navigating to page', page, 'card', cardIndex);
+    function navigateToChart(page, pageCardIndex, fallbackCardIndex) {
+        console.log('[GlobalSearch] Navigating to page', page, 'card', pageCardIndex);
 
         // Switch to the page
-        if (window.PageManager && typeof window.PageManager.switchToPage === 'function') {
+        if (window.PageManager && typeof window.PageManager.showPage === 'function') {
+            window.PageManager.showPage(parseInt(page, 10));
+        } else if (window.PageManager && typeof window.PageManager.switchToPage === 'function') {
             window.PageManager.switchToPage(page);
         }
 
         // Wait for page to render, then scroll to chart
         setTimeout(() => {
-            const cards = document.querySelectorAll('.chart-card');
-            if (cards[cardIndex]) {
-                cards[cardIndex].scrollIntoView({ behavior: 'smooth', block: 'start' });
+            const pageEl = document.querySelector(`.page[data-page="${page}"]`);
+            const pageCards = pageEl ? pageEl.querySelectorAll('.chart-card') : [];
+            const allCards = document.querySelectorAll('.chart-card');
+            const card = pageCards[pageCardIndex] || allCards[fallbackCardIndex];
 
+            if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 // Briefly highlight the card
-                cards[cardIndex].style.boxShadow = '0 0 0 3px #007bff';
+                card.style.boxShadow = '0 0 0 3px #007bff';
                 setTimeout(() => {
-                    cards[cardIndex].style.boxShadow = '';
+                    card.style.boxShadow = '';
                 }, 2000);
             }
         }, 300);
+    }
+
+    /**
+     * Add an available ticker to the first visible chart, creating one if needed.
+     */
+    function addTickerToActiveChart(ticker) {
+        let card = Array.from(document.querySelectorAll('.chart-card'))
+            .find(candidate => {
+                const page = candidate.closest('.page');
+                return !page || page.style.display !== 'none';
+            });
+
+        if (!card && typeof window.createChartCard === 'function') {
+            let wrapperEl = null;
+            if (window.PageManager && typeof window.PageManager.getActivePage === 'function' &&
+                typeof window.PageManager.ensurePage === 'function') {
+                wrapperEl = window.PageManager.ensurePage(window.PageManager.getActivePage());
+            }
+            card = window.createChartCard({ tickers: ticker, wrapperEl });
+        } else if (card) {
+            const input = card.querySelector('.ticker-input');
+            const addBtn = card.querySelector('.add-ticker-btn');
+            if (input && addBtn) {
+                input.value = ticker;
+                addBtn.click();
+            }
+        }
+
+        if (card) {
+            const plotBtn = card.querySelector('.plot-btn');
+            if (plotBtn) plotBtn.click();
+            card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
     }
 
     // Expose functions globally

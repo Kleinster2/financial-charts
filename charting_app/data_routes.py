@@ -373,7 +373,11 @@ def get_data():
 
     # Use narrow-format tables if enabled
     if USE_NARROW and NARROW_AVAILABLE:
-        price_data = narrow_get_price_data(regular_tickers)
+        price_data = narrow_get_price_data(
+            regular_tickers,
+            start_date=start_date or None,
+            end_date=end_date or None,
+        )
 
         # Apply interval resampling if needed
         if interval in ('weekly', 'monthly'):

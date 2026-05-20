@@ -69,7 +69,11 @@ def get_volume_tickers() -> Set[str]:
 # Chart-ready data (long format → {ticker: [{time, value}]})
 # ---------------------------------------------------------------------------
 
-def get_price_data(tickers: List[str], start_date: Optional[str] = None) -> Dict[str, List[dict]]:
+def get_price_data(
+    tickers: List[str],
+    start_date: Optional[str] = None,
+    end_date: Optional[str] = None,
+) -> Dict[str, List[dict]]:
     """
     Get price data for tickers in lightweight-chart format.
 
@@ -91,7 +95,12 @@ def get_price_data(tickers: List[str], start_date: Optional[str] = None) -> Dict
                 result[ticker] = []
                 continue
 
-            date_filter = "AND Date >= ?" if start_date else ""
+            date_filters = []
+            if start_date:
+                date_filters.append("Date >= ?")
+            if end_date:
+                date_filters.append("Date <= ?")
+            date_filter = f"AND {' AND '.join(date_filters)}" if date_filters else ""
             query = f"""
                 SELECT Date, Close AS value
                 FROM {table}
@@ -101,6 +110,8 @@ def get_price_data(tickers: List[str], start_date: Optional[str] = None) -> Dict
             params = [ticker]
             if start_date:
                 params.append(start_date)
+            if end_date:
+                params.append(end_date)
 
             df = pd.read_sql(query, conn, params=params)
             if df.empty:
