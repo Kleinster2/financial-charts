@@ -28,6 +28,20 @@ aliases: [cryptocurrency, blockchain, digital assets]
 | Stablecoins | Dollar-pegged ([[Circle\|USDC]], [[Tether\|USDT]]) |
 | Others | Thousands of altcoins |
 
+## Kalshi pricing layer (May 20, 2026)
+
+[[Kalshi]]'s longer-dated crypto ladders are now useful as a sentiment layer on the two largest tokens:
+
+| Contract family | Current signal |
+|-----------------|----------------|
+| KXBTCMAXY | [[Bitcoin]] above $100K before Dec. 31, 2026 trades at 41c last; $150K trades at 10c; $200K trades at 6c. The market prices recovery optionality, not a straight-line return to the 2025 mania high. |
+| KXETHMAXY | [[Ethereum]] above $3,500 before Jan. 1, 2027 trades at 27c last; $4,000 trades at 16c; $5,000 trades at 10c; $6,000 trades at 7c. The ETH tail is present but thin. |
+| Stablecoin / regulation candidates | Candidate series KXSTABLECOINGENIUS and KXSOLSTABLESUPP returned no active API markets in the May 20 pull, so there is not yet a useful Kalshi market-implied signal for the [[GENIUS Act]] or Solana stablecoin-supply thesis. |
+
+This keeps the vault's Kalshi signal disciplined: BTC/ETH price distribution can be logged; stablecoin adoption and regulation still need to be tracked through legislation, issuer data, payment-flow research, and listed-equity read-throughs rather than a liquid event-contract price.
+
+*Sources: [[Kalshi]] API series KXBTCMAXY, KXETHMAXY, KXSTABLECOINGENIUS, and KXSOLSTABLESUPP, read May 20, 2026.*
+
 ---
 
 ## Infrastructure companies

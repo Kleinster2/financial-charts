@@ -26,6 +26,24 @@ aliases: [BTC, BTC-USD]
 ![[btc-price-chart.png]]
 *From ~$3,200 (2018 crypto winter) to ATH of $126K (Oct 2025). Major catalysts: 2020-21 institutional adoption, 2024 ETF approval, 2025 Trump election + Strategic Reserve.*
 
+### Kalshi 2026 upside ladder (May 20, 2026)
+
+[[Kalshi]]'s KXBTCMAXY year-end ladder prices whether [[Bitcoin]] crosses specified thresholds before Dec. 31, 2026 at 11:59 PM ET. The contracts can resolve early if the CF Bitcoin Real-Time Index crosses the threshold, so this is closer to a 2026 high-water-mark distribution than a year-end close distribution.
+
+| Threshold | Last | Bid / ask | Volume | Open interest |
+|-----------|------|-----------|--------|---------------|
+| >$99,999.99 | 41c | 40c / 41c | 882,990.46 | 174,269.47 |
+| >$109,999.99 | 28c | 27c / 28c | 439,705.05 | 78,906.37 |
+| >$119,999.99 | 18c | 18c / 19c | 418,784.03 | 107,263.58 |
+| >$129,999.99 | 14c | 14c / 15c | 343,475.57 | 90,072.33 |
+| >$139,999.99 | 11c | 11c / 12c | 214,153.27 | 66,859.65 |
+| >$149,999.99 | 10c | 9c / 10c | 269,957.21 | 125,135.48 |
+| >$199,999.99 | 6c | 6c / 7c | 650,630.71 | 212,838.65 |
+
+Read-through: traders are not pricing a clean return to the 2025 all-time high as the base case, but they are leaving a persistent right tail. The most useful anchor is the spread between 41c for a $100K revisit and 10c for $150K: the market sees recovery optionality, not a straightforward new bubble impulse.
+
+*Source: [[Kalshi]] API series KXBTCMAXY, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXBTCMAXY*
+
 ### Major cycles
 
 | Period | Event | Move |

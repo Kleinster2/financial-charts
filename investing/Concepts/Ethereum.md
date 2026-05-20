@@ -27,6 +27,25 @@ aliases: [ETH, ETH-USD, Ether]
 ![[eth-price-chart.png]]
 *From ~$80 (2018 low) to ATH of $4.9K (Nov 2021). Highly correlated with Bitcoin but with higher beta. The Merge (Sep 2022) didn't immediately impact price.*
 
+### Kalshi 2026 upside ladder (May 20, 2026)
+
+[[Kalshi]]'s KXETHMAXY ladder prices whether [[Ethereum]] reaches specified thresholds before Jan. 1, 2027 at 12:00 AM ET. Like the BTC ladder, it is a high-water-mark contract family rather than a clean closing-price forecast.
+
+| Threshold | Last | Bid / ask | Volume | Open interest |
+|-----------|------|-----------|--------|---------------|
+| >$3,500 | 27c | 26c / 27c | 270,958.99 | 65,783.14 |
+| >$3,750 | 21c | 20c / 21c | 102,877.60 | 41,775.14 |
+| >$4,000 | 16c | 16c / 17c | 150,663.48 | 66,273.80 |
+| >$4,250 | 12c | 12c / 13c | 94,447.06 | 37,434.27 |
+| >$4,500 | 10c | 10c / 11c | 190,530.15 | 56,879.14 |
+| >$4,750 | 9c | 8c / 9c | 173,916.44 | 45,466.01 |
+| >$5,000 | 10c | 9c / 10c | 238,395.10 | 97,278.39 |
+| >$6,000 | 7c | 6c / 7c | 380,355.78 | 148,245.16 |
+
+Read-through: the market prices a modest chance that ETH retakes the $3.5K-$4K zone, but treats a decisive break above the prior-cycle high as low-probability optionality. The slightly non-monotone last-price prints around $4.75K-$5K are a reminder to treat these as individual contract markets, not a perfectly smoothed distribution.
+
+*Source: [[Kalshi]] API series KXETHMAXY, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXETHMAXY*
+
 ---
 
 ## How it differs from Bitcoin
