@@ -18,7 +18,7 @@
 | Reporting | US GAAP |
 | Expected close | Year-end 2026 |
 
-**Structure:** UMG merges with Pershing Square SPARC Holdings. Cash funded by SPARC rights holders, debt, and proceeds from Pershing Square's [[Spotify]] stake.
+Structure: UMG merges with Pershing Square SPARC Holdings. Cash funded by SPARC rights holders, debt, and proceeds from Pershing Square's [[Spotify]] stake.
 
 ---
 
@@ -46,7 +46,7 @@
 
 ## Proposed board changes
 
-- **[[Michael Ovitz]]** (CAA co-founder, former [[Walt Disney]] president) → Chairman
+- [[Michael Ovitz]] (CAA co-founder, former [[Walt Disney]] president) → Chairman
 - Two [[Pershing Square]] representatives join board
 
 ---
@@ -67,6 +67,9 @@
 - UMG shares surged 13-29% on Apr 7
 - [[Bolloré Group]] shares rose ~6%
 - UMG had fallen 23% YTD prior to announcement
+- Funding/shareholder read-throughs were mixed rather than deal-defining: [[Spotify]] fell 1.18% from Apr 2 to Apr 7 ($488.97 → $483.18), [[Tencent]] ADR TCEHY rose 0.37% ($62.27 → $62.50), and [[Vivendi]] Paris rose 9.07% on Apr 7. The clean tape was UMG/Bolloré; Spotify, Tencent, and Vivendi were related-holder/funding-context names rather than primary securities whose moves validated the bid.
+
+Price source: local `prices_long` close-to-close data for SPOT and TCEHY; StockAnalysis historical table for Vivendi Paris / VIV.
 
 ---
 
@@ -88,9 +91,9 @@ On an investor call in the week of Apr 7, Ackman was blunt: the stock is "tradin
 
 ## Analyst commentary
 
-**ING:** Called the bid non-binding and possibly likely to fail, but said it "has the merit of raising valid questions and making the case for dramatic changes." Flagged risk that UMG management could leave, given management's plans for ~€1B/year in emerging-market M&A.
+ING: Called the bid non-binding and possibly likely to fail, but said it "has the merit of raising valid questions and making the case for dramatic changes." Flagged risk that UMG management could leave, given management's plans for ~€1B/year in emerging-market M&A.
 
-**Clay Griffin (MoffettNathanson):** A US listing could have a "material positive impact" by broadening the investor base, but would not be "transformative" on its own.
+Clay Griffin (MoffettNathanson): A US listing could have a "material positive impact" by broadening the investor base, but would not be "transformative" on its own.
 
 ---
 

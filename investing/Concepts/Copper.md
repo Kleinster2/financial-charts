@@ -14,6 +14,23 @@ aliases: [copper, CPER, HG, Dr. Copper]
 ![[copper-price-chart.png]]
 *From ~$2.10/lb at the COVID low to ~$6.00/lb in early 2026 — nearly tripled. The 2024-2025 range ($4.00-5.20) gave way to a sharp breakout driven by AI/data center demand, supply disruptions (Grasberg force majeure), and tariff-related stockpiling. Priced in $/lb on COMEX; multiply by ~2,205 for $/tonne equivalent.*
 
+### Kalshi weekly pricing layer (May 20, 2026)
+
+[[Kalshi]]'s KXCOPPERW market prices whether copper closes above strike thresholds on May 22, 2026 at 5:00 PM EDT:
+
+| Threshold | Last | Bid / ask | Volume | Open interest |
+|-----------|------|-----------|--------|---------------|
+| >$6.14/lb | 0c | 53c / 59c | 0.00 | 0.00 |
+| >$6.17/lb | 0c | 46c / 50c | 0.00 | 0.00 |
+| >$6.20/lb | 51c | 39c / 42c | 11.09 | 11.09 |
+| >$6.29/lb | 26c | 19c / 21c | 150.10 | 150.10 |
+| >$6.32/lb | 27c | 13c / 18c | 165.96 | 145.46 |
+| >$6.38/lb | 33c | 4c / 11c | 180.00 | 180.00 |
+
+Read-through: the cleaner bid/ask signal centers the weekly close just below or around $6.20/lb, with a live but thin right tail above $6.30/lb. The contract is less liquid than oil, but it confirms that copper remains one of the more tradeable commodity expressions of the AI/grid/electrification scarcity stack.
+
+*Source: [[Kalshi]] API series KXCOPPERW, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCOPPERW*
+
 ---
 
 ## Current status (Jan 29, 2026)

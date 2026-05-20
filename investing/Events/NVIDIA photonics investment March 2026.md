@@ -92,6 +92,10 @@ By locking in purchase commitments with both leading photonics suppliers, NVIDIA
 
 POET Technologies (optical communications) caught a sympathy bid.
 
+Secondary peer check: [[Fabrinet]] rose 6.55% close-to-close on Mar 2 ($545.63 → $581.37), consistent with supplier sympathy for the optical-packaging layer. [[Arista Networks]] fell 3.15% ($133.50 → $129.30), which looks more like networking/broader tape than a CPO-specific winner read. [[Broadcom]] was essentially flat at -0.23% ($318.88 → $318.15), so the market did not immediately reprice Broadcom as a displaced silicon-photonics competitor.
+
+Price source: local `prices_long` for ANET, AVGO, NVDA, LITE, SPY, QQQ, and SMH; StockAnalysis historical table for FN because Fabrinet was absent from local `prices_long`.
+
 ### Analyst commentary
 
 Bloomberg Intelligence (Jake Silverman): Lumentum has "strengthened position as key supplier for ultra high-powered lasers for CPO." Expansion plans carry "reduced risk" given NVIDIA's purchase commitments.

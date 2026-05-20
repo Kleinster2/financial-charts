@@ -87,6 +87,28 @@ The April 15 data point is the cleanest evidence yet of US energy independence t
 
 ---
 
+## Kalshi weekly pricing layer (May 20, 2026)
+
+[[Kalshi]]'s KXWTIW market prices the July 2026 WTI crude oil settlement range for May 22, 2026. These are mutually exclusive range contracts plus upper/lower tails, so overround and stale prints mean the rows should be read as market color rather than a perfectly normalized distribution.
+
+| Range / threshold | Last | Bid / ask | Volume | Open interest |
+|-------------------|------|-----------|--------|---------------|
+| <$95.00 | 5c | 4c / 5c | 84,721.12 | 73,031.07 |
+| $100.00-$100.99 | 5c | 4c / 5c | 6,256.44 | 3,409.19 |
+| $102.00-$102.99 | 8c | 7c / 8c | 12,015.66 | 11,489.24 |
+| $103.00-$103.99 | 7c | 8c / 10c | 11,743.85 | 10,659.83 |
+| $104.00-$104.99 | 11c | 10c / 11c | 11,392.16 | 11,079.94 |
+| $105.00-$105.99 | 10c | 8c / 9c | 15,992.81 | 13,032.51 |
+| $106.00-$106.99 | 7c | 6c / 7c | 14,775.48 | 9,787.95 |
+| $107.00-$107.99 | 6c | 6c / 7c | 59,742.12 | 34,879.76 |
+| >$107.99 | 29c | 28c / 30c | 113,486.73 | 77,105.51 |
+
+Read-through: WTI's center of mass is still below the Brent weekly ladder, and the below-$95 tail is only 5c. That fits the existing note's framework: the US benchmark is insulated by domestic production and export substitution, but the market still assigns roughly a high-20s probability to a settlement above $107.99.
+
+*Source: [[Kalshi]] API series KXWTIW, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXWTIW*
+
+---
+
 ## Related
 
 - [[Oil]] — parent commodity

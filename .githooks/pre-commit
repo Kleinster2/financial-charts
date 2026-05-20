@@ -3,18 +3,19 @@ set -eu
 
 changed_files="$(git diff --cached --name-only)"
 
-if printf '%s\n' "$changed_files" | grep -Eq '^(\.claude/skills/[^/]+/SKILL\.md|\.agents/skills/[^/]+/SKILL\.md|skills/shared-workflows\.json|scripts/(check_skill_parity|promote_shared_skill|sync_codex_skills|skill_manifest)\.py)$'; then
-  echo "Skill workflow files changed; checking exact skill parity..."
+if printf '%s\n' "$changed_files" | grep -Eq '^(\.claude/skills/[^/]+/SKILL\.md|\.agents/skills/[^/]+/SKILL\.md|skills/shared-workflows\.json|scripts/(check_skill_parity|promote_shared_skill|sync_codex_skills|skill_manifest|check_note_compliance)\.py|tests/note_compliance_regression\.py|package\.json)$'; then
+  echo "Consistency-sensitive files changed; checking skill parity and note-compliance regressions..."
 
   if ! npm run test:consistency; then
     cat <<'MSG'
 
-Skill parity check failed.
+Consistency check failed.
 If one runtime has the intended workflow text, promote it everywhere:
   python scripts/promote_shared_skill.py SKILL --from newest
 or use --from claude, --from codex, or --from openclaw when the source is explicit.
 
-Then stage the synced files and retry the commit.
+If the note-compliance regression failed, fix scripts/check_note_compliance.py
+or tests/note_compliance_regression.py, then retry the commit.
 MSG
     exit 1
   fi

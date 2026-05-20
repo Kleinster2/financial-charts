@@ -61,8 +61,11 @@ The antitrust filing on March 20 was not the sole driver. Two additional catalys
 | NVT | [[nVent Electric]] | $127.01 | $118.44 | -6.7% | -4.4pp excess |
 | TT | [[Trane Technologies]] | $434.00 | $407.13 | -6.2% | -3.8pp excess |
 | JCI | [[Johnson Controls]] | $137.48 | $131.57 | -4.3% | -1.9pp excess |
+| 6367.T | [[Daikin]] | ¥19,765 | ¥20,510 | +3.77% | Tokyo listing did not show the same negative read |
 
-All four were ≥2.5σ moves against their own 60-day rolling volatility. The dispersion reveals the market's read: CARR (most exposed to residential pricing, -4.0σ) > NVT (basket selling, -2.6σ) > TT (diversified but named, -3.0σ) > JCI (most diversified, -2.5σ).
+All four U.S.-listed industrial/HVAC names were ≥2.5σ moves against their own 60-day rolling volatility. The dispersion reveals the market's read: CARR (most exposed to residential pricing, -4.0σ) > NVT (basket selling, -2.6σ) > TT (diversified but named, -3.0σ) > JCI (most diversified, -2.5σ). Daikin was a named defendant, but its Tokyo tape did not confirm the U.S. selloff on March 26; treat the immediate reaction as concentrated in the U.S.-listed HVAC/data-center-infrastructure basket.
+
+Price source: local `prices_long` for CARR, NVT, TT, JCI, SPY, and XLI; StockAnalysis historical table for Daikin / 6367.T.
 
 ---
 

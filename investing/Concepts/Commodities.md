@@ -26,6 +26,27 @@ aliases: [commodities, commodity, DBC, GSG, raw materials]
 
 ---
 
+## Kalshi commodity pricing layer (May 20, 2026)
+
+[[Kalshi]] announced a dedicated commodities hub on April 15, 2026, expanding from existing [[WTI]], [[Brent crude]], [[Gold]], and [[Silver]] markets into additional physical-market categories. For the vault, the useful signal is not that these contracts replace futures curves; it is that [[Prediction markets]] now provide a retail-accessible, 24/7 probability layer around commodity thresholds when futures markets are closed or hard to interpret.
+
+May 20 API pull, weekly contracts expiring May 22:
+
+| Series | Market | Read |
+|--------|--------|------|
+| KXBRENTW | [[Brent crude]] close above thresholds | >$105.99 traded at 60c last, >$107.99 at 46c, >$111.99 at 25c, and >$115.99 at 12c. Brent is still priced with a large oil-shock right tail, but not a clean $120 base case. |
+| KXWTIW | [[WTI]] July 2026 settlement range | The range bins cluster around $102-$107, with >$107.99 at 29c and below $95 at 5c. WTI remains the more shielded US benchmark relative to Brent. |
+| KXGOLDW | [[Gold]] close above thresholds | Bid/ask crosses around the mid-$4,400/oz area; >$4,735.99 had a 0c / 5c bid-ask despite a large stale last-volume footprint. Treat the gold ladder as useful but noisy. |
+| KXSILVERW | [[Silver]] close above thresholds | >$73.99 traded at 54c last, >$75.99 at 35c, and >$79.99 at 6c. The near-term center is far below the January $93.75 spike, but the contract ladder still prices a visible upper tail. |
+| KXCOPPERW | [[Copper]] close above thresholds | Bid/ask crosses near $6.17-$6.20/lb; >$6.29 was 19c / 21c and >$6.38 was 4c / 11c. Copper remains a live AI/infrastructure scarcity expression, but the weekly Kalshi liquidity is thin. |
+| KXNATGASW | [[Natural gas]] close above thresholds | >$3.199 traded at 74c, >$3.299 at 38c, >$3.399 at 25c, and >$3.499 at 5c. Henry Hub is not pricing an immediate $4+ spike. |
+
+Scope note: obvious D/W series probes for [[Lithium]], [[Nickel]], and [[Diesel fuel]] returned no active markets in this pull, so those were not written as live market-implied signals.
+
+*Sources: [Kalshi commodities hub announcement](https://news.kalshi.com/p/kalshi-launches-commodities-hub-new-markets), Apr 15 2026; [[Kalshi]] API series KXBRENTW, KXWTIW, KXGOLDW, KXSILVERW, KXCOPPERW, and KXNATGASW, read May 20 2026.*
+
+---
+
 ## Index composition
 
 ### BCOM (Bloomberg Commodity Index)

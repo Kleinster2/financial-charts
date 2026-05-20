@@ -23,6 +23,27 @@ The most politically sensitive refined petroleum product in the US — the price
 
 ---
 
+## Kalshi pump-price ladder (May 20, 2026)
+
+[[Kalshi]] now has active AAA regular-gasoline ladders for the May 25 weekly print, the May 31 month-end print, and the maximum national average price reached at any point in 2026. The market-implied signal is that the pump-price pain threshold has moved from "breached" to "how high and how long."
+
+| Contract | Market pricing | Read |
+|---|---|---|
+| AAA regular gas >$4.58 on May 25 | 47c last; 43c / 46c bid-ask; $2.0K OI | Weekly market centers near the high-$4.50s. |
+| AAA regular gas >$4.60 on May 25 | 17c last; 10c / 18c bid-ask; $3.1K OI | $4.60+ by May 25 is possible but not the base case. |
+| AAA regular gas >$4.50 on May 31 | 69c last; 67c / 69c bid-ask; $34.0K OI | Month-end market treats $4.50+ as base case. |
+| AAA regular gas >$4.60 on May 31 | 55c last; 57c / 59c bid-ask; $35.8K OI | May 31 center is roughly around the $4.60 threshold. |
+| AAA regular gas >$4.80 on May 31 | 12c last; 11c / 15c bid-ask; $23.3K OI | A late-May acceleration is tail, not base case. |
+| AAA regular gas >$5.00 on May 31 | 5c last; 4c / 5c bid-ask; $26.5K OI | $5 by month-end is priced as low probability. |
+| 2026 maximum AAA regular gas >$5.00 | 54c last; 54c / 75c bid-ask; $12.1K OI | A $5 handle at some point in 2026 is live. |
+| 2026 maximum AAA regular gas >$6.00 | 15c last; 15c / 34c bid-ask; $24.7K OI | The far tail remains noisy but non-zero. |
+
+Read-through: the near-term ladder points to national average gasoline around the mid-to-high $4s by late May, while the full-year maximum market says traders still assign real odds to at least one $5+ national average print in 2026. That keeps the consumer-sentiment and political constraint live even if the immediate May 31 $5 scenario is not the base case.
+
+Source: [[Kalshi]] API series KXAAAGASW, KXAAAGASM, and KXAAAGASMAX, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXAAAGASW, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXAAAGASM, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXAAAGASMAX
+
+---
+
 ## Why gasoline is the political benchmark
 
 [[Robin J. Brooks]] (March 23, 2026) made the analytical case: US gasoline prices track [[WTI]], not [[Brent crude|Brent]] or [[Dubai crude|Dubai]]. This matters because [[Iran]]'s strategy in the 2026 conflict is to spike oil prices high enough to undercut American domestic support for the war. The politically decisive question is not "where is Brent?" but "what does the pump say?"

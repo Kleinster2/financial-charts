@@ -36,13 +36,14 @@ Verified Apr 28 closing prices vs Apr 27 close:
 | [[AMD]] | $334.63 | $323.21 | -3.41% |
 | [[Marvell Technology\|MRVL]] | $158.21 | $153.23 | -3.15% |
 | [[NVIDIA\|NVDA]] | $216.61 | $213.17 | -1.59% |
+| [[Microsoft\|MSFT]] | $424.82 | $429.25 | +1.04% |
 | [[IREN]] | $48.36 | $44.44 | -8.10% |
 | [[Cipher Mining\|CIFR]] | $18.16 | $17.26 | -4.96% |
 | [[Qualcomm\|QCOM]] | $150.26 | $150.00 | -0.17% |
 
 Tokyo: [[SoftBank]] -10% (largest single-day drop attributed to OpenAI exposure since Feb 2026 mega-round). Broader index: [[Nasdaq-100]] -1.01%, [[Nasdaq Composite]] -0.90%, [[Russell 2000]] -1.15%.
 
-Pre-market read into close: ORCL was reported -7.5% in pre-market and -6% intraday before bouncing to -4% on the close — the relative recovery suggests the market separated *concentration risk* (negative for ORCL alone) from *AI-capex risk* (negative for the whole stack), and partially defanged the first while keeping the second. CoreWeave, IREN, and Cipher — the smaller pure-play AI infrastructure names — closed near their lows, consistent with the second framing.
+Pre-market read into close: ORCL was reported -7.5% in pre-market and -6% intraday before bouncing to -4% on the close — the relative recovery suggests the market separated *concentration risk* (negative for ORCL alone) from *AI-capex risk* (negative for the whole stack), and partially defanged the first while keeping the second. CoreWeave, IREN, and Cipher — the smaller pure-play AI infrastructure names — closed near their lows, consistent with the second framing. Microsoft was the exception: MSFT rose 1.04%, consistent with the read-through that the Apr 27 partnership reset reduced Microsoft's distribution risk before the OpenAI revenue-miss story hit.
 
 ---
 

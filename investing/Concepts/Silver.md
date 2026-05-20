@@ -22,6 +22,25 @@ aliases: [XAG, silver, Silver price]
 
 ---
 
+## Kalshi weekly pricing layer (May 20, 2026)
+
+[[Kalshi]]'s KXSILVERW market prices whether silver closes above strike thresholds on May 22, 2026 at 5:00 PM EDT:
+
+| Threshold | Last | Bid / ask | Volume | Open interest |
+|-----------|------|-----------|--------|---------------|
+| >$70.99 | 77c | 77c / 80c | 101.97 | 101.97 |
+| >$72.99 | 64c | 56c / 62c | 423.05 | 383.86 |
+| >$73.99 | 54c | 44c / 52c | 667.67 | 475.11 |
+| >$75.99 | 35c | 25c / 30c | 831.36 | 457.01 |
+| >$77.99 | 20c | 10c / 17c | 1,529.41 | 685.99 |
+| >$79.99 | 6c | 4c / 10c | 198.47 | 171.92 |
+
+Read-through: the weekly market centers silver in the mid-$70s, well below the January $93.75 high. That supports the current note's caution: the structural solar/industrial thesis is intact, but the parabolic monetary squeeze has cooled.
+
+*Source: [[Kalshi]] API series KXSILVERW, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXSILVERW*
+
+---
+
 ## Why silver matters
 
 Unique dual demand profile:

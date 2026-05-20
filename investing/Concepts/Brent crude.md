@@ -68,6 +68,28 @@ Oxford Analytica: US "washed its hands" of Strait navigation
 
 ---
 
+## Kalshi weekly pricing layer (May 20, 2026)
+
+[[Kalshi]]'s KXBRENTW contract family prices whether the BRENTQ6 contract closes above strike thresholds on May 22, 2026 at 5:00 PM EDT:
+
+| Threshold | Last | Bid / ask | Volume | Open interest |
+|-----------|------|-----------|--------|---------------|
+| >$99.99 | 85c | 87c / 88c | 4,136.69 | 3,989.73 |
+| >$103.99 | 68c | 64c / 65c | 2,488.80 | 2,053.92 |
+| >$105.99 | 60c | 55c / 57c | 5,109.78 | 4,648.32 |
+| >$107.99 | 46c | 45c / 46c | 3,940.64 | 3,344.81 |
+| >$109.99 | 34c | 33c / 34c | 2,238.85 | 2,008.85 |
+| >$111.99 | 25c | 20c / 22c | 3,462.27 | 2,841.21 |
+| >$113.99 | 14c | 13c / 14c | 1,489.49 | 1,226.69 |
+| >$115.99 | 12c | 9c / 11c | 3,074.79 | 3,029.48 |
+| >$117.99 | 8c | 5c / 7c | 762.04 | 612.30 |
+
+Read-through: the near-term Brent distribution centers around the $106-$108 zone. Traders still pay for a meaningful $112+ tail, but a $116-$118 close is priced as low-probability optionality rather than the base case.
+
+*Source: [[Kalshi]] API series KXBRENTW, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXBRENTW*
+
+---
+
 ## Related
 
 - [[Forties]] — most common price-setting grade in the BFOET basket

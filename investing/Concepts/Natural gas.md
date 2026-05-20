@@ -21,6 +21,25 @@ Natural gas — US [[Henry Hub]] positioning for firmer 2026. AI power demand + 
 
 ---
 
+## Kalshi weekly pricing layer (May 20, 2026)
+
+[[Kalshi]]'s KXNATGASW market prices whether the NGDN6 natural gas contract closes above strike thresholds on May 22, 2026 at 5:00 PM EDT:
+
+| Threshold | Last | Bid / ask | Volume | Open interest |
+|-----------|------|-----------|--------|---------------|
+| >$2.899/MMBtu | 93c | 93c / 97c | 1,041.15 | 1,041.15 |
+| >$3.199/MMBtu | 74c | 71c / 74c | 452.16 | 257.25 |
+| >$3.299/MMBtu | 38c | 39c / 45c | 145.89 | 110.79 |
+| >$3.399/MMBtu | 25c | 15c / 20c | 220.00 | 173.00 |
+| >$3.499/MMBtu | 5c | 3c / 8c | 96.00 | 96.00 |
+| >$3.999/MMBtu | 1c | 0c / 1c | 73.00 | 52.00 |
+
+Read-through: Henry Hub is priced around a low-$3 handle for this week, with $3.30 plausible but $3.50+ low-probability and $4 effectively out of the money. That contrasts with the import-dependent [[TTF]] shock framework below: US gas remains far more insulated than European gas.
+
+*Source: [[Kalshi]] API series KXNATGASW, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXNATGASW*
+
+---
+
 ## 2026 outlook
 
 | Source | Target | View |

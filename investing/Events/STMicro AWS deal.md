@@ -58,6 +58,10 @@ For [[AWS]]:
 
 STM stock +8.27% on announcement day, adding ~$2.2B in market cap. Market read: structural positive outweighs dilution concern.
 
+Peer/customer tape check: [[Amazon]] / AMZN fell 0.76% from Feb 6 to Feb 9 ($210.32 → $208.72), while [[QQQ]] rose 0.77% and [[SMH]] rose 1.24%. That is not a clean AWS-specific negative read; the deal was material for [[STMicro]] because it opened a hyperscaler channel, but immaterial inside Amazon's market cap and AWS capex base.
+
+Price source: local `prices_long` close-to-close data for STM, AMZN, QQQ, and SMH.
+
 ---
 
 ## Related

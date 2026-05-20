@@ -36,6 +36,14 @@ The composite read is "stagflation pressure, not recession panic." CPI pricing i
 
 *Sources: [[Kalshi]] API series KXRECSSNBER, KXCPIYOY, KXPAYROLLS, KXU3, and KXGDP, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXRECSSNBER, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCPIYOY, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXPAYROLLS, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXU3, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXGDP*
 
+### Gasoline / CPI stress overlay (May 20, 2026)
+
+The May 20 [[Kalshi]] gasoline and CPI ladders reinforce the same "stagflation pressure, not recession panic" read. AAA regular gas for May 31 is priced above $4.60 at 55c and above $5.00 at only 5c, so the immediate shock is severe but not yet priced as a national $5 print by month-end. The 2026 maximum gasoline market is more concerning: >$5.00 at 54c and >$6.00 at 15c keeps the full-year consumer-pain tail alive.
+
+On CPI, the May YoY ladder still centers around 4.2-4.3%, while the highest-2026 CPI market prices >=5.0% at 51c and >=6.0% at 21c. The key distinction for recession risk is composition: the core CPI MoM ladder has >0.2% at 52c and >0.3% at 12c, which argues for sticky core inflation rather than an immediate wage-price break. That keeps the Fed constrained and household sentiment vulnerable without, by itself, confirming near-term recession.
+
+*Sources: [[Kalshi]] API series KXAAAGASM, KXAAAGASMAX, KXCPIYOY, KXCPICORE, and KXLCPIMAXYOY, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXAAAGASM, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXAAAGASMAX, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCPIYOY, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCPICORE, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXLCPIMAXYOY*
+
 ---
 
 ## Drivers

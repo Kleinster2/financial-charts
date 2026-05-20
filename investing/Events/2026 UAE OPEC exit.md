@@ -106,6 +106,8 @@ See [history vault: OPEC](obsidian://open?vault=history&file=05%20-%20Modern%2FO
 
 Brent held above $108 through the announcement (already up 8-9 straight days on the Iran war / Hormuz tightness — see [[2026 Strait of Hormuz crisis]]). The market read the announcement as not immediately moving balance because the strait is closed. The repricing is forward — the question is what happens to OPEC+ price discipline once Hormuz reopens.
 
+Listed-proxy check: local data did not have May 18/19 Tadawul closes for [[Saudi Aramco]] / 2222.SR, so the usable same-window market read is oil-proxy rather than Aramco-specific: [[USO]] rose 2.46% and [[BNO]] rose 2.01% from May 18 to May 19. That supports the note's existing read that the event mattered through forward oil-market discipline, not through an immediately observable Saudi Aramco equity repricing in the local database.
+
 [[Jorge Leon]] ([[Rystad Energy]]): losing the UAE removes "significant leverage from OPEC"; Saudi Arabia must now "do more of the heavy lifting on price stability" as the bloc loses a key "[[Shock absorber|shock absorber]]." The shock-absorber framing is the operational point — the UAE has historically been the member willing to absorb above-quota cuts to support Saudi-led production discipline; that buffer is gone.
 
 [[Anwar Gargash]] (UAE diplomatic adviser, separately): "The Gulf Cooperation Council countries supported each other logistically, but politically and militarily, I think their position has been the weakest historically." This is the cleanest UAE-side framing of the war's effect on Gulf cohesion — and an unusual public admission for an Emirati official.

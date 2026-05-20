@@ -22,6 +22,24 @@
 
 ---
 
+## Kalshi CPI / gasoline nowcast (May 20, 2026)
+
+[[Kalshi]]'s CPI and AAA gasoline markets now price a much hotter consumer-facing inflation regime than the stale January status table above. The useful split is that headline and pump-price risk are live, while core CPI is not priced as an immediate runaway.
+
+| Signal | Market pricing | Read |
+|---|---|---|
+| May 2026 CPI YoY | >4.2% at 74c; >4.3% at 41c; >4.4% at 17c | Headline CPI center is roughly 4.2-4.3%. |
+| May 2026 core CPI MoM | >0.2% at 52c; >0.3% at 12c | Core CPI is firm, but 0.3%+ is not the base case. |
+| Highest CPI YoY print in 2026 | >=5.0% at 51c; >=6.0% at 21c | At least one 5% YoY CPI print in 2026 is priced near coin-flip. |
+| AAA regular gas on May 31 | >$4.60 at 55c; >$5.00 at 5c | Gasoline pass-through is immediate, but $5 by month-end is a low-probability tail. |
+| Maximum AAA regular gas in 2026 | >$5.00 at 54c; >$6.00 at 15c | A $5 national average pump-price print sometime in 2026 is live. |
+
+Interpretation: this is a headline-inflation and consumer-sentiment problem more than a clean wage-price spiral signal. The market is pricing energy-driven CPI pressure high enough to keep the [[Federal Reserve]] pinned, but the core CPI ladder still looks closer to "sticky" than "unanchored."
+
+Sources: [[Kalshi]] API series KXCPIYOY, KXCPICORE, KXLCPIMAXYOY, KXAAAGASM, and KXAAAGASMAX, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCPIYOY, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCPICORE, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXLCPIMAXYOY, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXAAAGASM, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXAAAGASMAX
+
+---
+
 ## Key measures
 
 | Measure | What it tracks | Fed preference |

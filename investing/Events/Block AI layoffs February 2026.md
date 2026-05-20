@@ -42,7 +42,11 @@ This was not a struggling company. Block was growing, profitable, and guiding up
 
 Stock (ticker: XYZ, formerly SQ) surged ~24% after-hours on Feb 26, +18% premarket Feb 27. Billions in market cap created the moment Dorsey announced he was eliminating 4,000 jobs.
 
-The signal to every CEO: **the market will reward you for replacing humans with AI.**
+Related-labor-exposure check: [[Teleperformance]] / TEP Paris fell 3.56% on Feb 27, so the read-through was not "AI labor replacement lifts all exposed names." The clean positive tape was Block-specific cost-takeout; BPO incumbents remained on the other side of the same AI-labor substitution trade.
+
+The signal to every CEO: the market will reward you for replacing humans with AI.
+
+Price source: local `prices_long` for XYZ, SPY, and QQQ; StockAnalysis historical table for Teleperformance / TEP Paris.
 
 ---
 
@@ -80,7 +84,7 @@ Block is the largest and most explicit [[AI labor displacement]] event to date, 
 | [[CrowdStrike]] | Feb 2026 | Undisclosed | AI reshaping workforce |
 | [[Salesforce]] | 2025 | ~4,000 support roles | AI customer service |
 | [[Amazon]] | Jan 2026 | 16,000 | AI implied (not explicit) |
-| **[[Block]]** | **Feb 2026** | **4,000 (40%)** | **Direct, unambiguous** |
+| [[Block]] | Feb 2026 | 4,000 (40%) | Direct, unambiguous |
 
 Challenger, Gray and Christmas data: 55,000 jobs in 2025 directly attributed to AI — 12× the number two years prior.
 

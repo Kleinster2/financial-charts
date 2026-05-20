@@ -28,6 +28,22 @@ The [[2026 Iran conflict market impact|Iran conflict]] broke gold's safe-haven t
 
 Gold surged +3% on Jan 28 as [[US dollar]] hit 4-year lows (DXY 96.16), then gave back gains on Warsh nomination.
 
+### Kalshi weekly pricing layer (May 20, 2026)
+
+[[Kalshi]]'s KXGOLDW market prices whether gold closes above strike thresholds on May 22, 2026 at 5:00 PM EDT. The ladder has visible stale-last artifacts, so bid/ask is the cleaner read than last price.
+
+| Threshold | Last | Bid / ask | Volume | Open interest |
+|-----------|------|-----------|--------|---------------|
+| >$4,395.99 | 91c | 74c / 81c | 1.09 | 1.09 |
+| >$4,455.99 | 0c | 52c / 59c | 0.00 | 0.00 |
+| >$4,495.99 | 42c | 37c / 44c | 128.89 | 91.68 |
+| >$4,555.99 | 27c | 18c / 23c | 598.72 | 459.30 |
+| >$4,735.99 | 2c | 0c / 5c | 1,840.96 | 1,441.96 |
+
+Read-through: near-term gold is no longer priced like the January crisis trade. The Kalshi order book sits around a mid-$4,400s close, with a thin upper tail above $4,700. The sharp fall from the January peak remains the live story.
+
+*Source: [[Kalshi]] API series KXGOLDW, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXGOLDW*
+
 ### Warsh reaction (Jan 30)
 
 Gold and silver sold off sharply when Trump nominated [[Kevin Warsh]] for Fed Chair. Markets interpreted Warsh as a credible, independent choice — reducing the Fed independence crisis premium that had driven gold to records.
