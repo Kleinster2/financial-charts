@@ -12,13 +12,13 @@ Newest entries first.
 
 **Change:** Added `market-reaction-peer-coverage`, a compliance warning for event notes where a listed actor appears in `## Related` or read-through headings but is absent from `## Market Reaction`. The checker now extracts ticker-like frontmatter aliases, exempts macro / central-bank actors from public-company inference, and accepts either a wikilink or ticker in the market-reaction section as coverage.
 
-**Regression:** Added `tests/note_compliance_regression.py` with three focused cases: an NBIS-style missing peer warning, a ticker-covered peer that should pass, and a Federal Reserve / FOMC macro-alias false-positive guard. `npm run test:consistency` now runs the regression after skill parity.
+**Regression:** Added `tests/note_compliance_regression.py` with four focused cases: an NBIS-style missing peer warning, a ticker-covered peer that should pass, a Federal Reserve / FOMC macro-alias false-positive guard, and a CLI sweep assertion that `--market-reaction-peer-sweep` returns `TOTAL=0`. `npm run test:consistency` now runs the regression and the live event-note sweep after skill parity.
 
-**Hook/CI:** CI already runs `npm run test:consistency`; `.githooks/pre-commit` now also runs it when `scripts/check_note_compliance.py`, the regression test, `package.json`, or shared workflow files change.
+**Hook/CI:** CI already runs `npm run test:consistency`; `.githooks/pre-commit` now also runs it when `scripts/check_note_compliance.py`, the regression test, `package.json`, or shared workflow files change, and runs the focused market-reaction peer sweep whenever staged event notes change.
 
 **Motivation:** The first Google-Blackstone TPU JV market-reaction pass chased the visible `CRWV | TODO verify` placeholder but missed NBIS, even though [[Nebius]] was named elsewhere in the note as a listed neocloud peer. The new rule makes that failure mode visible before a note is treated as complete.
 
-**Verification:** `npm run test:consistency`; live `investing/Events` peer-coverage sweep returns `TOTAL=0`; the nine historical backfill candidates surfaced by the rule were triaged and patched.
+**Verification:** `npm run test:consistency`; `python scripts/check_note_compliance.py --market-reaction-peer-sweep` returns `TOTAL=0`; the nine historical backfill candidates surfaced by the rule were triaged and patched.
 
 ---
 

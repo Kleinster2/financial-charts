@@ -2080,6 +2080,8 @@ def main():
     parser.add_argument("--fix", action="store_true", help="Auto-fix missing wikilinks (requires --suggest-links)")
     parser.add_argument("--create-stubs", action="store_true", help="Create stub notes for dead links")
     parser.add_argument("--all", action="store_true", help="Check all notes (Actors, Concepts, Events, Theses)")
+    parser.add_argument("--market-reaction-peer-sweep", action="store_true",
+                        help="Check all event notes for listed related/read-through actors missing from ## Market Reaction")
     parser.add_argument("--log", action="store_true", help="Log fixes to today's daily note")
     parser.add_argument("--limit", "-n", type=int, help="Stop after N files")
     parser.add_argument("--offset", type=int, default=0, help="Skip first N files")
@@ -2098,6 +2100,30 @@ def main():
     # (bold fix always works with --fix)
 
     checker = NoteChecker(vault_root, suggest_links=args.suggest_links)
+
+    # Handle focused market-reaction peer coverage sweep.
+    if args.market_reaction_peer_sweep:
+        events_dir = vault_root / "Events"
+        results: list[tuple[str, Issue]] = []
+
+        for filepath in sorted(events_dir.glob("*.md")):
+            try:
+                content = filepath.read_text(encoding="utf-8", errors="ignore")
+            except (OSError, UnicodeDecodeError) as exc:
+                results.append((filepath.name, Issue(
+                    "warning",
+                    "read-error",
+                    f"Could not read event note: {exc}"
+                )))
+                continue
+
+            for issue in checker._check_market_reaction_peer_coverage(content, filepath):
+                results.append((filepath.name, issue))
+
+        for filename, issue in results:
+            print(f"{filename}: {issue.message}")
+        print(f"TOTAL={len(results)}")
+        sys.exit(1 if results else 0)
 
     # Handle --orphans mode
     if args.orphans:

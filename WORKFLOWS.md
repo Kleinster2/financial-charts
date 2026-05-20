@@ -51,7 +51,7 @@ python scripts/promote_shared_skill.py <skill> --from claude    # or codex / ope
 python scripts/check_skill_parity.py --strict                    # verify
 ```
 
-A pre-commit hook runs `npm run test:consistency` for consistency-sensitive edits, including shared workflow skill parity and note-compliance regressions. See `docs/skill-parity.md` for details.
+A pre-commit hook runs `npm run test:consistency` for consistency-sensitive edits, including shared workflow skill parity, note-compliance regressions, and the market-reaction peer sweep. See `docs/skill-parity.md` for details.
 
 ## Vault outputs
 

@@ -30,7 +30,7 @@ The source of truth is [skills/shared-workflows.json](../skills/shared-workflows
   ```
 - Then run `python scripts/check_skill_parity.py --strict`.
 - When adding or removing a shared workflow, update `skills/shared-workflows.json` first.
-- For the normal repo check, run `npm run test:consistency`. It checks OpenClaw when the OpenClaw skills directory exists; in CI-only checkouts without OpenClaw, it still enforces Codex/Claude parity. The same command also runs focused note-compliance regressions such as market-reaction peer coverage.
+- For the normal repo check, run `npm run test:consistency`. It checks OpenClaw when the OpenClaw skills directory exists; in CI-only checkouts without OpenClaw, it still enforces Codex/Claude parity. The same command also runs focused note-compliance regressions and the live `--market-reaction-peer-sweep`.
 
 ## Local Hook Setup
 

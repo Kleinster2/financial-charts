@@ -25,3 +25,8 @@ if printf '%s\n' "$changed_files" | grep -Eq '^investing/.*\.md$'; then
   echo "Investing vault notes changed; checking daily-note log..."
   python scripts/daily_note_log_gate.py --staged
 fi
+
+if printf '%s\n' "$changed_files" | grep -Eq '^investing/Events/.*\.md$'; then
+  echo "Event notes changed; checking market-reaction peer coverage..."
+  python scripts/check_note_compliance.py --market-reaction-peer-sweep
+fi

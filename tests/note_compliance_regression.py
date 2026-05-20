@@ -1,6 +1,7 @@
 import unittest
 from pathlib import Path
 import sys
+import subprocess
 
 sys.dont_write_bytecode = True
 ROOT = Path(__file__).resolve().parents[1]
@@ -82,6 +83,18 @@ Rate-sensitive equities sold off.
         )
 
         self.assertEqual(issues, [])
+
+    def test_market_reaction_peer_sweep_cli_is_clean(self) -> None:
+        result = subprocess.run(
+            [sys.executable, "scripts/check_note_compliance.py", "--market-reaction-peer-sweep"],
+            cwd=ROOT,
+            check=False,
+            capture_output=True,
+            text=True,
+        )
+
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertIn("TOTAL=0", result.stdout)
 
 
 if __name__ == "__main__":
