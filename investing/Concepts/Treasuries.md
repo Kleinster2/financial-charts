@@ -12,13 +12,13 @@ US Treasury securities—the benchmark "risk-free" asset class. Backed by the fu
 | TIPS | 5, 10, 30 years | Real + inflation adjustment | Quarterly |
 | FRNs | 2 years | Floating (T-bill + spread) | Monthly |
 
-**T-bills** are sold at a discount and mature at par—the difference is your return. **Notes and bonds** pay coupons semi-annually.
+T-bills are sold at a discount and mature at par—the difference is your return. Notes and bonds pay coupons semi-annually.
 
 ## Market size
 
 The Treasury market is ~$30 trillion—the deepest, most liquid bond market in the world.
 
-**2025 issuance:** ~$29.7 trillion across 444 auctions. Quarterly borrowing estimates:
+2025 issuance: ~$29.7 trillion across 444 auctions. Quarterly borrowing estimates:
 - Q3 2025: $1.007 trillion
 - Q4 2025: $590 billion
 
@@ -32,31 +32,31 @@ The relationship between yields at different maturities. The shape signals econo
 
 | Shape | What it means | Economic signal |
 | ----- | ------------- | --------------- |
-| **Normal (upward)** | Long yields > short yields | Growth expected, stable economy |
-| **Flat** | Similar yields across maturities | Uncertainty, transition |
-| **Inverted** | Short yields > long yields | Recession warning |
+| Normal (upward) | Long yields > short yields | Growth expected, stable economy |
+| Flat | Similar yields across maturities | Uncertainty, transition |
+| Inverted | Short yields > long yields | Recession warning |
 
-**Why longer maturities usually pay more:** Investors demand compensation for locking up money longer and bearing more interest rate risk. Historically, 20-year bonds yield ~2% more than 3-month bills.
+Why longer maturities usually pay more: Investors demand compensation for locking up money longer and bearing more interest rate risk. Historically, 20-year bonds yield ~2% more than 3-month bills.
 
 ### Key spreads
 
 | Spread | What it tracks |
 | ------ | -------------- |
-| **10Y-2Y (T10Y2Y)** | Most-watched recession indicator |
-| **10Y-3M** | NY Fed's preferred recession model |
-| **30Y-10Y** | Long-end steepness |
+| 10Y-2Y (T10Y2Y) | Most-watched recession indicator |
+| 10Y-3M | NY Fed's preferred recession model |
+| 30Y-10Y | Long-end steepness |
 
 The 10Y-2Y spread inverted before the 2001, 2008, and 2020 recessions. It was negative from Oct 2022 to Dec 2024.
 
 ## Why Treasuries matter
 
-**Risk-free rate:** All other assets are priced as a spread over Treasuries. When Treasury yields rise, discount rates rise, and asset valuations fall.
+Risk-free rate: All other assets are priced as a spread over Treasuries. When Treasury yields rise, discount rates rise, and asset valuations fall.
 
-**Safe haven:** In [[Risk-on risk-off|risk-off]] episodes, capital flows to Treasuries, pushing yields down. Exception: [[Sell America trade]] when even Treasuries get sold.
+Safe haven: In [[Risk-on risk-off|risk-off]] episodes, capital flows to Treasuries, pushing yields down. Exception: [[Sell America trade]] when even Treasuries get sold.
 
-**Fed policy transmission:** The Fed controls short-term rates directly (fed funds). Long-term Treasury yields reflect market expectations for future Fed policy plus term premium.
+Fed policy transmission: The Fed controls short-term rates directly (fed funds). Long-term Treasury yields reflect market expectations for future Fed policy plus term premium.
 
-**Global reserve asset:** Foreign central banks and investors hold ~$8 trillion in Treasuries as reserve assets and dollar liquidity.
+Global reserve asset: Foreign central banks and investors hold ~$8 trillion in Treasuries as reserve assets and dollar liquidity.
 
 ## Foreign holdings
 
@@ -74,10 +74,10 @@ Foreign flows matter: net selling pressures yields higher regardless of Fed poli
 
 Treasury announces a tentative auction schedule quarterly (first Wednesday of Feb, May, Aug, Nov).
 
-**Auction metrics to watch:**
-- **Bid-to-cover ratio:** Demand indicator (higher = stronger)
-- **Tail:** Difference between auction yield and when-issued yield (positive tail = weak demand)
-- **Direct vs indirect bidders:** Indirect often proxies foreign central banks
+Auction metrics to watch:
+- Bid-to-cover ratio: Demand indicator (higher = stronger)
+- Tail: Difference between auction yield and when-issued yield (positive tail = weak demand)
+- Direct vs indirect bidders: Indirect often proxies foreign central banks
 
 Weak auctions (low bid-to-cover, large tail) can spike yields across the curve.
 
@@ -85,7 +85,7 @@ Weak auctions (low bid-to-cover, large tail) can spike yields across the curve.
 
 The extra yield investors demand for holding long-duration bonds beyond expected future short rates. When term premium rises, long yields rise even if Fed expectations are unchanged. For full decomposition mechanics (ACM model, Kim-Wright, how to isolate term premium from [[Inflation expectations|inflation expectations]]), see [[Term premium]].
 
-**Drivers:**
+Drivers:
 - Fiscal deficit concerns (dominant in 2026)
 - Inflation uncertainty
 - Supply/demand imbalance
@@ -93,11 +93,19 @@ The extra yield investors demand for holding long-duration bonds beyond expected
 
 2025 saw elevated term premium on deficit fears and Moody's downgrade. In Apr 2026, term premium rose further on fiscal overextension fears — yields climbing despite stable long-term inflation expectations and unchanged Fed rate path. See [[Term premium#April 2026: fiscal term premium|Term premium § April 2026]].
 
+### Kalshi 10-year yield bucket (May 20, 2026)
+
+[[Kalshi]]'s active KXTNOTED daily market for the May 20 10-year Treasury yield is thin, but directionally consistent with the broader tape: the only traded bucket in the API snapshot was 4.67-4.69%, last 56c with 24c / 72c bid-ask, $128 volume, and $128 open interest. Adjacent buckets from 4.64-4.72 had wide quotes and little or no volume.
+
+Read-through: this is not liquid enough to treat as a standalone forecast. It is useful as a confirmation that the live prediction-market bucket is centered around the high-4.60s / low-4.70s, matching the daily macro tape where the 10-year Treasury yield is the main tightening channel. KX10Y3M, the year-end 10Y-3M spread market, was finalized on May 19 and should not be used as an active curve signal.
+
+Source: [[Kalshi]] API series KXTNOTED and KX10Y3M, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXTNOTED and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KX10Y3M
+
 ## Trading Treasuries
 
-**Direct:** TreasuryDirect (retail), primary dealers (institutional)
+Direct: TreasuryDirect (retail), primary dealers (institutional)
 
-**ETFs:**
+ETFs:
 | Ticker | Exposure |
 | ------ | -------- |
 | SHY | 1-3 year |
@@ -106,7 +114,7 @@ The extra yield investors demand for holding long-duration bonds beyond expected
 | GOVT | Broad market |
 | TIP | TIPS |
 
-**Futures:** 2Y, 5Y, 10Y, 30Y Treasury futures on CME—highly liquid, basis trade vehicle.
+Futures: 2Y, 5Y, 10Y, 30Y Treasury futures on CME—highly liquid, basis trade vehicle.
 
 ---
 

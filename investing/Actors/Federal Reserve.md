@@ -13,10 +13,10 @@ aliases: [Fed, FOMC, Federal Reserve System]
 |--------|-------|
 | Founded | 1913 |
 | HQ | Washington, D.C. |
-| Chair | [[Jerome Powell]] (term ends May 2026) |
+| Chair | [[Jerome Powell]] chair pro tempore; [[Kevin Warsh]] confirmed, awaiting swearing-in |
 | Mandate | Maximum employment + price stability (2% inflation) |
 | Balance sheet | ~$7T (down from $9T peak) |
-| Fed funds rate | 3.50-3.75% (Mar 19, 2026) |
+| Fed funds rate | 3.50-3.75% (held Apr 29, 2026) |
 
 ---
 
@@ -70,6 +70,7 @@ At risk under Warsh? [[Martin Sandbu]] argues (Jan 2026) that Warsh's tolerance 
 | Pause | Jan 28, 2026 | First hold since July |
 | Pause | Mar 19, 2026 | Second consecutive hold; Iran oil shock |
 | Pause | Apr 29, 2026 | Third consecutive hold; four dissents split between a cut and opposition to the easing-bias language |
+| Chair transition | May 13-22, 2026 | Warsh confirmed by Senate; Powell serves pro tempore until Warsh is sworn in |
 
 Jan 28-29, 2026 decision:
 - Rates held at 3.50-3.75% — first pause since July
@@ -166,12 +167,17 @@ The remarks landed on a day when [[United States|US]] and [[Iran]] exchanged fir
 
 | Factor | Detail |
 |--------|--------|
-| Current chair | [[Jerome Powell]] — term ends May 15, 2026 |
+| Current chair | [[Jerome Powell]] — chair pro tempore after his formal chair term ended May 15 |
 | Trump stance | Will not reappoint Powell |
-| Nominee | [[Kevin Warsh]] (Jan 30, 2026) |
-| Confirmation | Pending Senate; DOJ probe of Powell closed Apr 24, 2026 ([[Jeanine Pirro]]) — reservation language leaves reopen risk |
-| Powell on staying | Will remain temporarily if Warsh not confirmed by May; may stay on as Governor through Jan 2028 to support Warsh transition |
-| [[Polymarket]] Warsh-by-May-15 | 82% (Apr 24, post-Pirro) |
+| Confirmed successor | [[Kevin Warsh]] (nominated Jan 30, confirmed May 13) |
+| Senate vote | 54-45 |
+| Swearing-in | Scheduled for Friday, May 22, 2026 |
+| Powell on staying | Powell will serve as chair pro tempore until Warsh is sworn in; Powell may also remain as Governor through Jan 2028 |
+| [[Kalshi]] confirmation markets | KXFEDCHAIRCONFIRMED and KXFEDCHAIRCONFIRM finalized near 100c for Warsh after confirmation |
+
+The confirmation risk is gone, but the market-relevant uncertainty has shifted to reaction function and governance. [[Reuters]]' May 13 read framed Warsh as taking over with inflation rising, oil prices elevated, and the administration demanding cuts. The May 20 [[Rate expectations|Kalshi policy overlay]] says traders are not validating a quick pivot: June no-change is 97c, July no-change is 92c, zero 2026 cuts is 63.2c, and the September 25 bp hike bucket is more live than the September cut bucket.
+
+Sources: [Federal Reserve Board press release](https://www.federalreserve.gov/newsevents/pressreleases/other20260515a.htm), May 15, 2026; [Reuters via Investing.com](https://www.investing.com/news/economy-news/warsh-wins-confirmation-as-fed-chair-with-inflation-on-the-march-4685952), May 13, 2026; [Reuters via Investing.com](https://www.investing.com/news/economy-news/warsh-to-be-sworn-in-as-fed-chair-at-white-house-on-friday-fox-business-reports-4696538), May 18, 2026; [[Kalshi]] API series KXFEDCHAIRCONFIRMED, KXFEDCHAIRCONFIRM, KXFEDDECISION, and KXRATECUTCOUNT, read May 20, 2026.
 
 ### Warsh nomination (Jan 30, 2026)
 
@@ -249,17 +255,17 @@ QT pace: ~$60B/month Treasury runoff, ~$35B/month MBS runoff
 
 ---
 
-Powell on succession (Mar 19 presser): expects to remain as chair temporarily if [[Kevin Warsh]] not confirmed by Senate before his May term end. On the DOJ probe over $2.5bn HQ refurbishment: *"I have no intention of leaving the board until the investigation is well and truly over with transparency and finality."* Has not decided whether he will continue as governor after the investigation concludes and after his term expires in 2028.
+Transition status (May 20): [[Jerome Powell]] is serving as chair pro tempore after his formal chair term ended on May 15. [[Kevin Warsh]] has been confirmed by the Senate and is scheduled to be sworn in on May 22. Powell may still remain as a governor through January 2028, which would keep him inside the institution during the Warsh transition.
 
-*Updated 2026-03-19*
+*Updated 2026-05-20*
 
 ---
 
 ## Related
 
 ### Leadership
-- [[Jerome Powell]] — current chair (term ends May 2026)
-- [[Kevin Warsh]] — chair nominee (former Fed Governor)
+- [[Jerome Powell]] — chair pro tempore until Warsh is sworn in
+- [[Kevin Warsh]] — confirmed chair successor (former Fed Governor)
 - [[Kevin Hassett]] — NEC Director (former chair candidate)
 - [[Mohamed El-Erian]] — prominent Fed commentator
 - [[Martin Sandbu]] — FT commentator on Fed structural risks
@@ -271,7 +277,7 @@ Powell on succession (Mar 19 presser): expects to remain as chair temporarily if
 ### Macro
 - [[Lyn Alden]] — "A Flywheel of Chaos" (Mar 22): Fed balance sheet up $120B from Dec low (~$420B/yr annualized pace, ~6% of base). Still "gradual print" — big print threshold is $2T+ from $6.5T starting base. QE comparison: QE1 140%, QE2 25%, QE3 50%, QE4 115%, current 6%
 - [[Gold]] — safe haven, independence barometer
-- [[Treasury]] — fiscal counterpart
+- [[Treasuries]] — fiscal counterpart / long-rate transmission
 - [[Credit markets]] — Fed policy transmission
 - [[Iran conflict economic disruption]] — oil shock constraining rate path (2026)
 - [[Oil]] — energy price transmission channel to PCE

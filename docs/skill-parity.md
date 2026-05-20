@@ -30,11 +30,11 @@ The source of truth is [skills/shared-workflows.json](../skills/shared-workflows
   ```
 - Then run `python scripts/check_skill_parity.py --strict`.
 - When adding or removing a shared workflow, update `skills/shared-workflows.json` first.
-- For the normal repo check, run `npm run test:consistency`. It checks OpenClaw when the OpenClaw skills directory exists; in CI-only checkouts without OpenClaw, it still enforces Codex/Claude parity.
+- For the normal repo check, run `npm run test:consistency`. It checks OpenClaw when the OpenClaw skills directory exists; in CI-only checkouts without OpenClaw, it still enforces Codex/Claude parity. The same command also runs focused note-compliance regressions such as market-reaction peer coverage.
 
 ## Local Hook Setup
 
-The repo tracks `.githooks/pre-commit` because it enforces project rules: skill parity and daily-note logging for staged investing notes. Enable it in a checkout with:
+The repo tracks `.githooks/pre-commit` because it enforces project rules: consistency-sensitive edits run `npm run test:consistency`, and staged investing-note edits must satisfy the daily-note log gate. Enable it in a checkout with:
 
 ```powershell
 git config core.hooksPath .githooks

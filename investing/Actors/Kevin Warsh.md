@@ -1,9 +1,9 @@
 ---
 aliases: [Warsh]
 ---
-#actor #individual #usa #macro #fedcandidate
+#actor #individual #usa #macro #fedchair
 
-**Kevin Warsh** — Trump's nominee for Fed Chair (Jan 30, 2026). Former Fed Governor (2006-2011). [[Stanford]]/[[Morgan Stanley]] background. Would replace [[Jerome Powell]] when term ends May 2026.
+**Kevin Warsh** — Confirmed successor to [[Jerome Powell]] as [[Federal Reserve]] Chair. Former Fed Governor (2006-2011). [[Stanford]]/[[Morgan Stanley]] background. Senate confirmed him on May 13, 2026; formal swearing-in is scheduled for May 22, with Powell serving as chair pro tempore until then.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [Warsh]
 
 | Metric | Value |
 |--------|-------|
-| Status | **Nominated for Fed Chair** (Jan 30, 2026) |
+| Status | Confirmed Fed Chair; awaiting swearing-in (May 22, 2026 scheduled) |
 | Current roles | Partner, [[Duquesne Family Office]] (with [[Stanley Druckenmiller|Druckenmiller]]) |
 | | Shepard Family Distinguished Visiting Fellow, Hoover Institution |
 | | Lecturer, Stanford Graduate School of Business |
@@ -24,7 +24,7 @@ aliases: [Warsh]
 | Date | Kalshi | Event |
 |------|--------|-------|
 | Jan 14 | 39-41% | Neck-and-neck with Hassett |
-| **Jan 16** | **60%** | Trump signals Hassett staying at NEC |
+| Jan 16 | 60% | Trump signals Hassett staying at NEC |
 
 ---
 
@@ -34,17 +34,17 @@ aliases: [Warsh]
 |--------|------|
 | Pre-2002 | [[Morgan Stanley]] M&A (VP, Executive Director) |
 | 2002-2006 | White House — Special Assistant to President, Executive Secretary of NEC |
-| 2006-2011 | Fed Board of Governors (**youngest ever at 35**) |
+| 2006-2011 | Fed Board of Governors (youngest ever at 35) |
 | 2011-present | Hoover Institution, [[Stanford]]; Partner at [[Duquesne Family Office]] |
 | Various | Board: [[UPS]], Coupang; Advisor to Congressional Budget Office |
 
-**At the Fed:**
+At the Fed:
 - G-20 representative
 - Emissary to Emerging and Advanced Economies in Asia
 - Administrative Governor (managed Board operations, personnel, financial performance)
 - Served through 2008 financial crisis and Great Recession
 
-**Bank of England:** Authored independent report proposing monetary policy reforms. Parliament adopted the recommendations.
+Bank of England: Authored independent report proposing monetary policy reforms. Parliament adopted the recommendations.
 
 ---
 
@@ -52,12 +52,12 @@ aliases: [Warsh]
 
 | Issue | Warsh position |
 |-------|----------------|
-| **History** | Hawkish — known for preferring higher rates, lower inflation |
-| **Current** | Aligning with Trump on rate cuts |
-| **[[Inflation]]** | "Policy choices, not inevitable cycles" |
-| **AI** | "Significant disinflationary force" |
+| History | Hawkish — known for preferring higher rates, lower inflation |
+| Current | Aligning with Trump on rate cuts |
+| [[Inflation]] | "Policy choices, not inevitable cycles" |
+| AI | "Significant disinflationary force" |
 
-**Market perception:** Historically hawkish, but has told Trump "borrowing costs must come down." Still seen as less aggressive on cuts than Hassett.
+Market perception: Historically hawkish, but has told Trump "borrowing costs must come down." Still seen as less aggressive on cuts than Hassett.
 
 ---
 
@@ -67,7 +67,7 @@ aliases: [Warsh]
 
 Trump named Warsh as his pick to replace [[Jerome Powell]].
 
-**Market reaction:**
+Market reaction:
 
 | Asset | Move | Interpretation |
 |-------|------|----------------|
@@ -77,30 +77,30 @@ Trump named Warsh as his pick to replace [[Jerome Powell]].
 | S&P 500 | -0.4% | |
 | Nasdaq | -0.6% | |
 | Dollar | ↑ | Credibility boost |
-| **Gold** | **-9%** | Worst day in decade; safe haven unwind |
-| **Silver** | **-26%** | Largest single-day drop on record |
+| Gold | -9% | Worst day in decade; safe haven unwind |
+| Silver | -26% | Largest single-day drop on record |
 | XLF | Stable | Deregulation, steeper curve |
 | KRE | Outperform | Dodd-Frank relief expected |
 
-**Precious metals crash:** The nomination triggered the [[Silver crash January 2026]] — silver plunged 26% ($40/oz) in under 20 hours, the largest single-day drop on record. Gold fell 9%, its worst day in over a decade. The dollar rally unwound a speculative [[Gamma squeeze]] that had driven silver to $121/oz and gold to $5,595/oz.
+Precious metals crash: The nomination triggered the [[Silver crash January 2026]] — silver plunged 26% ($40/oz) in under 20 hours, the largest single-day drop on record. Gold fell 9%, its worst day in over a decade. The dollar rally unwound a speculative [[Gamma squeeze]] that had driven silver to $121/oz and gold to $5,595/oz.
 
-**Curve steepened** — Warsh seen as more hawkish long-term but aligned with Trump on near-term cuts.
+Curve steepened — Warsh seen as more hawkish long-term but aligned with Trump on near-term cuts.
 
-**Analyst reaction:**
-- **BMO:** "By selecting Warsh, the Administration has clearly offered a nod to the necessity of Fed credibility"
-- **El-Erian:** "Strong mix of deep expertise, broad experience, and sharp communication skills"
-- **Jamie Dimon:** Had signaled support, called Warsh candidate with "market credibility"
+Analyst reaction:
+- BMO: "By selecting Warsh, the Administration has clearly offered a nod to the necessity of Fed credibility"
+- El-Erian: "Strong mix of deep expertise, broad experience, and sharp communication skills"
+- Jamie Dimon: Had signaled support, called Warsh candidate with "market credibility"
 
 ### "Battle of the Kevins" (resolved)
 
 | Metric | Warsh | [[Kevin Hassett]] |
 |--------|-------|-------------------|
-| Kalshi odds (Jan 16) | **60%** | **16%** |
+| Kalshi odds (Jan 16) | 60% | 16% |
 | Trump proximity | Distant | Daily contact (NEC) |
 | Independence perception | Higher | Lower |
 | Market credibility | Higher | Lower |
 
-**Jan 16 shift:** Trump publicly said he wants Hassett to stay at NEC. Warsh now clear front-runner.
+Jan 16 shift: Trump publicly said he wants Hassett to stay at NEC. Warsh now clear front-runner.
 
 ### Market reaction (Jan 16)
 
@@ -112,7 +112,7 @@ Trump named Warsh as his pick to replace [[Jerome Powell]].
 
 Curve steepened — Warsh = fewer rate cuts vs Hassett ("cut early, cut often").
 
-**Evercore:** "Warsh is trusted by Senate Republicans and would be much easier to confirm."
+Evercore: "Warsh is trusted by Senate Republicans and would be much easier to confirm."
 
 ### Warsh advantages
 
@@ -137,9 +137,9 @@ Curve steepened — Warsh = fewer rate cuts vs Hassett ("cut early, cut often").
 
 ## Trump's view
 
-**Dec 2025:** "I think you have Kevin and Kevin. They're both — I think the two Kevins are great."
+Dec 2025: "I think you have Kevin and Kevin. They're both — I think the two Kevins are great."
 
-**Trump also said** Warsh is "at top of Fed chair candidate list" and that president "should be consulted on rates."
+Trump also said Warsh is "at top of Fed chair candidate list" and that president "should be consulted on rates."
 
 ---
 
@@ -159,9 +159,9 @@ Traders see Warsh as "Goldilocks" solution:
 
 | Risk | Detail |
 |------|--------|
-| **Political pressure** | Fed Chair role now under sustained pressure not seen for decades — tilts mandate toward growth/employment regardless of Warsh's orthodoxy |
-| **Global public goods** | Swap lines and global bank regulation may be curtailed — Warsh's tolerance for "market self-correction" compounds this |
-| **[[Greenspan put]] tension** | Warsh's "tough love" instinct vs Trump's expectation of turbocharged market bailouts |
+| Political pressure | Fed Chair role now under sustained pressure not seen for decades — tilts mandate toward growth/employment regardless of Warsh's orthodoxy |
+| Global public goods | Swap lines and global bank regulation may be curtailed — Warsh's tolerance for "market self-correction" compounds this |
+| [[Greenspan put]] tension | Warsh's "tough love" instinct vs Trump's expectation of turbocharged market bailouts |
 
 > "That tension, rather than monetary policy, may be the real challenge Warsh will sooner or later have to face."
 
@@ -221,21 +221,33 @@ The framing is complementary to the [[Kevin Warsh#Structural risks (Sandbu analy
 
 ---
 
+### May 13-22, 2026 — confirmed, not yet sworn in
+
+The Senate confirmed Warsh as Fed Chair on May 13, 2026 in a 54-45 vote. The [[Federal Reserve]] then named [[Jerome Powell]] chair pro tempore on May 15 after Powell's formal chair term ended, with Powell serving until Warsh is sworn in. [[Reuters]] reported on May 18 that the swearing-in is scheduled for Friday, May 22, 2026.
+
+[[Kalshi]]'s chair-confirmation markets are now post-event rather than forward-looking: KXFEDCHAIRCONFIRMED and KXFEDCHAIRCONFIRM finalized near 100c for Warsh. The market question has moved from "does Warsh get the job?" to "does a Warsh-led Fed sound hawkish enough to keep long-end rates from selling off while the administration demands cuts?" The May 20 [[Rate expectations|Fed-policy ladder]] leans hard against a quick easing pivot: June no-change is 97c, zero 2026 cuts is 63.2c, and the September 25 bp hike bucket is more live than the September cut bucket.
+
+[[Reuters]]' May 13 market reaction captured the bind: Warsh takes over with inflation rising, oil prices elevated, and a market already debating whether the next surprise is a hike, not a cut. That makes his first communications more important than the formal confirmation itself.
+
+Sources: [Federal Reserve Board press release](https://www.federalreserve.gov/newsevents/pressreleases/other20260515a.htm), May 15, 2026; [Reuters via Investing.com](https://www.investing.com/news/economy-news/warsh-wins-confirmation-as-fed-chair-with-inflation-on-the-march-4685952), May 13, 2026; [Reuters via Investing.com](https://www.investing.com/news/economy-news/warsh-to-be-sworn-in-as-fed-chair-at-white-house-on-friday-fox-business-reports-4696538), May 18, 2026; [[Kalshi]] API series KXFEDCHAIRCONFIRMED, KXFEDCHAIRCONFIRM, KXFEDDECISION, and KXRATECUTCOUNT, read May 20, 2026.
+
+---
+
 ## Balance sheet views (from Bessent, April 2026)
 
 Bessent on implementing the Warsh vision of a smaller Fed balance sheet: "Very difficult to get to a much smaller balance sheet from here." Regime shift to ample reserves would require banking regulation changes, which "could be done through the agencies" rather than needing Congress. Bessent admires the [[Bank of England]] QE approach — "step in during a market dislocation, stabilize the market, then move away" — and claims BoE "probably made a lot of money on their bond trading" vs. the Fed losing "$100 billion a year because they purchased so much at such terrible prices." See [[Fed balance sheet QT]].
 
 ---
 
-*Created 2026-01-14 · Updated 2026-04-15*
+*Created 2026-01-14 · Updated 2026-05-20*
 
 ---
 
 ## Related
 
 ### Institution
-- [[Federal Reserve]] — potential chair
-- [[Jerome Powell]] — would replace
+- [[Federal Reserve]] — confirmed chair successor
+- [[Jerome Powell]] — chair pro tempore until Warsh is sworn in
 
 ### Theory
 - [[Time consistency]] — Fed Chair role is chief credibility manager; must solve commitment problem

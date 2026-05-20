@@ -120,7 +120,7 @@ The contrast with the March 2026 baseline is the point: in March, the highest me
 
 ---
 
-## Kalshi policy overlay (May 19, 2026)
+## Kalshi policy overlay (May 20, 2026)
 
 [[Kalshi]]'s [[Federal Reserve|Fed]] policy markets provide a second market-implied view alongside the [[Fed Funds futures (ZQ)|ZQ]] strip. The signal is the same as the post-CPI futures curve: no near-term cut, high probability of no 2026 cuts, and a small but nonzero hike tail.
 
@@ -130,14 +130,17 @@ The contrast with the March 2026 baseline is the point: in March, the highest me
 | June 25 bp cut | 3c | 2c / 3c | Cut pricing is basically residual. |
 | June 25 bp hike | 2c | 1c / 2c | Hike tail exists but is not central. |
 | July FOMC no change | 92c | 91c / 92c | No-change expectation extends through July. |
+| September FOMC no change | 82c | 77c / 83c | Hold remains the base case, but the tails widen by late Q3. |
+| September 25 bp hike | 15c | 13c / 14c | Hike risk is more visible than a September cut. |
 | Dec 2026 upper bound above 3.50% | 68c | 64c / 68c | Market leans against substantial year-end easing. |
-| 2026 cut count: zero cuts | 64.8c | 63.2c / 64.9c | The modal 2026 path is no further easing. |
-| 2026 cut count: one cut | 18.5c | 18.4c / 18.5c | One cut is the main alternative. |
-| 2026 cut count: two cuts | 11.6c | 10.1c / 11.7c | The March-style two-cut path is now a low-probability outcome. |
+| Dec 2026 upper bound above 3.75% | 35c | 36c / 44c | Thin but live hike-tail marker. |
+| 2026 cut count: zero cuts | 63.2c | 63.2c / 64.5c | The modal 2026 path is no further easing. |
+| 2026 cut count: one cut | 19.8c | 18.4c / 19.6c | One cut is the main alternative. |
+| 2026 cut count: two cuts | 9.7c | 7.0c / 11.7c | The March-style two-cut path is now a low-probability outcome. |
 
-The useful distinction is that [[Kalshi]] expresses the path as event probabilities while [[Fed Funds futures (ZQ)]] expresses it as a continuous rate curve. Both are pointing at the same regime: the [[Federal Reserve]] is priced as pinned by [[Inflation]], not preparing to ease into a growth scare.
+The useful distinction is that [[Kalshi]] expresses the path as event probabilities while [[Fed Funds futures (ZQ)]] expresses it as a continuous rate curve. Both are pointing at the same regime: the [[Federal Reserve]] is priced as pinned by [[Inflation]], not preparing to ease into a growth scare. The market no longer treats the [[Kevin Warsh]] confirmation as the live uncertainty; the live uncertainty is whether a Warsh-led Fed can keep the long end contained while refusing to validate the administration's preference for cuts.
 
-*Sources: [[Kalshi]] API series KXFEDDECISION, KXFED, and KXRATECUTCOUNT, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFEDDECISION, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFED, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXRATECUTCOUNT*
+*Sources: [[Kalshi]] API series KXFEDDECISION, KXFED, and KXRATECUTCOUNT, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFEDDECISION, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFED, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXRATECUTCOUNT*
 
 ---
 
