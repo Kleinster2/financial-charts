@@ -2,12 +2,12 @@
 """
 create_allw_repl_11etf.py
 
-11-ETF replication of ALLW matching actual geographic exposure.
+11-proxy replication of ALLW matching actual geographic exposure.
 
 Equity (27.1%):  SPLG 8.6%, VGK 10.9%, EWJ 3.1%, SPEM 2.7%, GXC 1.8%
 Bonds (42.9%):   BNDX 21.0%, TLT 13.1%, IEF 8.8%
 TIPS (21.5%):    TIP 21.5%
-Commodities (8.5%): GLD 6.1%, GSG 2.4%
+Commodities (8.5%): GLD 6.1%, BCOMTR 2.4%
 
 Variants:
   ALLW_11ETF     — static 1x
@@ -50,8 +50,8 @@ BOND_SUBS = {
 
 # Commodity sub-weights (from holdings)
 COMMOD_SUBS = {
-    'GLD': 0.72,   # Gold futures
-    'GSG': 0.28,   # BCOMTR broad commodity
+    'GLD': 0.72,     # Gold futures
+    'BCOMTR': 0.28,  # Actual Bloomberg Commodity Total Return index
 }
 
 # --- Asset class weight snapshots (from allocation evolution table) ---
@@ -88,16 +88,54 @@ ALL_TICKERS = list(STATIC_WEIGHTS.keys())
 
 
 def get_component_prices():
-    """Get prices for all 11 proxy ETFs."""
+    """Get prices for all proxies from wide and narrow price tables."""
     conn = sqlite3.connect(DB_PATH)
-    ticker_cols = ', '.join([f'"{t}"' for t in ALL_TICKERS])
-    query = f"""
-        SELECT Date, {ticker_cols}
-        FROM stock_prices_daily
-        WHERE Date >= '2025-03-01'
-        ORDER BY Date ASC
-    """
-    df = pd.read_sql_query(query, conn)
+    cursor = conn.cursor()
+    cursor.execute("PRAGMA table_info(stock_prices_daily)")
+    wide_cols = {row[1] for row in cursor.fetchall()}
+
+    try:
+        narrow_tickers = {r[0] for r in cursor.execute(
+            "SELECT DISTINCT Ticker FROM prices_long").fetchall()}
+    except sqlite3.OperationalError:
+        narrow_tickers = set()
+
+    wide_tickers = [t for t in ALL_TICKERS if t in wide_cols]
+    narrow_only = [t for t in ALL_TICKERS if t not in wide_cols and t in narrow_tickers]
+
+    if wide_tickers:
+        ticker_cols = ', '.join([f'"{t}"' for t in wide_tickers])
+        df = pd.read_sql_query(
+            f"""
+            SELECT Date, {ticker_cols}
+            FROM stock_prices_daily
+            WHERE Date >= '2025-03-01'
+            ORDER BY Date ASC
+            """,
+            conn,
+        )
+    else:
+        df = pd.read_sql_query(
+            "SELECT DISTINCT Date FROM stock_prices_daily WHERE Date >= '2025-03-01' ORDER BY Date",
+            conn,
+        )
+
+    if narrow_only:
+        ph = ','.join(['?'] * len(narrow_only))
+        ndf = pd.read_sql_query(
+            f"""
+            SELECT Date, Ticker, Close
+            FROM prices_long
+            WHERE Ticker IN ({ph}) AND Date >= '2025-03-01'
+            ORDER BY Date ASC
+            """,
+            conn,
+            params=narrow_only,
+        )
+        if not ndf.empty:
+            pivot = ndf.pivot(index='Date', columns='Ticker', values='Close').reset_index()
+            df = df.merge(pivot, on='Date', how='left')
+
     conn.close()
     return df
 
@@ -113,6 +151,21 @@ def get_allw_prices():
     df = pd.read_sql_query(query, conn)
     conn.close()
     return df
+
+
+def get_prices_long_return(ticker, start_date=BASE_DATE):
+    """Return total return from a stored narrow-table series, if present."""
+    conn = sqlite3.connect(DB_PATH)
+    df = pd.read_sql_query(
+        'SELECT Date, Close FROM prices_long '
+        'WHERE Ticker = ? AND Date >= ? ORDER BY Date',
+        conn,
+        params=(ticker, start_date),
+    )
+    conn.close()
+    if len(df) < 2:
+        return None
+    return (float(df['Close'].iloc[-1]) / float(df['Close'].iloc[0]) - 1) * 100
 
 
 def compute_returns(prices_df):
@@ -222,7 +275,7 @@ def main():
     store = '--store' in sys.argv
 
     print(f"\n{'='*60}")
-    print("ALLW 11-ETF Replication")
+    print("ALLW 11-Proxy Replication")
     print(f"{'='*60}\n")
 
     print("Components:")
@@ -269,6 +322,8 @@ def main():
     s_ret = (result_df['ALLW_11ETF'].iloc[-1] / result_df['ALLW_11ETF'].iloc[0] - 1) * 100
     d_ret = (result_df['ALLW_11ETF_DYN'].iloc[-1] / result_df['ALLW_11ETF_DYN'].iloc[0] - 1) * 100
     allw_ret = (float(allw_base.iloc[-1]) / float(allw_base.iloc[0]) - 1) * 100 if not allw_base.empty else 0
+    prior_4_ret = get_prices_long_return('ALLW_REPL_DYN')
+    prior_4_residual = allw_ret - prior_4_ret if prior_4_ret is not None else None
 
     print(f"\n{'='*55}")
     print(f"  ALLW actual:          {allw_ret:+.2f}%")
@@ -276,8 +331,9 @@ def main():
     print(f"  ALLW_11ETF (1x):      {s_ret:+.2f}%  (static)")
     print(f"  ---")
     print(f"  Residual (vs DYN):    {allw_ret - d_ret:+.2f}pp")
-    print(f"  4-ETF residual was:   +8.59pp")
-    print(f"  Gap closed:           {8.59 - (allw_ret - d_ret):.2f}pp")
+    if prior_4_residual is not None:
+        print(f"  4-ETF residual was:   {prior_4_residual:+.2f}pp")
+        print(f"  Gap closed:           {prior_4_residual - (allw_ret - d_ret):+.2f}pp")
     print(f"{'='*55}")
 
     if store:
@@ -302,7 +358,7 @@ def main():
                 (ticker, name, table_name, data_type, first_date, last_date, data_points)
                 VALUES (?, ?, 'prices_long', 'index', ?, ?, ?)
             ''', (ticker,
-                  f'ALLW 11-ETF Replication {"Dynamic Lev" if "DYN" in ticker else "1x"}',
+                  f'ALLW 11-Proxy Replication {"Dynamic Lev" if "DYN" in ticker else "1x"}',
                   result_df['Date'].min(), result_df['Date'].max(), len(result_df)))
             conn.commit()
             conn.close()

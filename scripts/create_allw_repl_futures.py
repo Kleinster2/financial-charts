@@ -13,7 +13,7 @@ Using BNDX (USD-hedged) misses the FX component entirely. This script uses:
            Converted to USD returns using FX pairs (unhedged, like ALLW)
            Plus ZN=F, ZB=F for US bonds (actual futures in our DB)
   TIPS:    TIP (same as before)
-  Commod:  GC=F (gold futures) + GSG (BCOMTR proxy)
+  Commod:  GC=F (gold futures) + BCOMTR
 
 Produces:
   ALLW_FUTURES   -- futures-proxy replication with daily weights + leverage
@@ -32,7 +32,7 @@ import pandas as pd
 import numpy as np
 
 DB_PATH = Path(__file__).parent.parent / 'market_data.db'
-VAULT_PATH = Path('C:/Users/klein/obsidian/Risk Parity/10 - Portfolio Tracking/ALLW')
+VAULT_PATH = Path('C:/Users/klein/obsidian/risk-parity/10 - Portfolio Tracking/ALLW')
 BASE_DATE = '2025-03-06'
 FINANCING_RATE = 0.048
 
@@ -40,7 +40,8 @@ FINANCING_RATE = 0.048
 sys.path.insert(0, str(Path(__file__).parent))
 from create_allw_repl_daily import (
     parse_all_snapshots, build_daily_schedule,
-    WEIGHT_SCHEDULE, LEVERAGE_SCHEDULE_FALLBACK
+    WEIGHT_SCHEDULE, LEVERAGE_SCHEDULE_FALLBACK,
+    get_prices_long_return
 )
 
 # ---------------------------------------------------------------------------
@@ -84,7 +85,7 @@ BOND_INTL_SUBS = {
 # Commodities
 COMMOD_MAP = {
     'commod_gld': 'GC=F',   # Gold futures (was GLD)
-    'commod_gsg': 'GSG',    # BCOMTR proxy (no futures available)
+    'commod_bcomtr': 'BCOMTR',
 }
 
 # All tickers we need
@@ -96,7 +97,7 @@ ALL_TICKERS = (
     + ['IBGL_L', 'IGLT_L', 'VGB_AX']  # International bond ETFs
     + ['EURUSD=X', 'GBPUSD=X', 'AUDUSD=X']  # FX pairs
     + ['TIP']  # TIPS
-    + ['GC=F', 'GSG']  # Commodities
+    + ['GC=F', 'BCOMTR']  # Commodities
 )
 
 
@@ -264,8 +265,8 @@ def build_futures_repl(dates, returns, unhedged_bonds, schedule, initial_price):
         # --- Commodities ---
         if 'GC=F' in returns:
             r += commod_w * sub['commod_gld'][i] * returns['GC=F'][i]
-        if 'GSG' in returns:
-            r += commod_w * sub['commod_gsg'][i] * returns['GSG'][i]
+        if 'BCOMTR' in returns:
+            r += commod_w * sub['commod_bcomtr'][i] * returns['BCOMTR'][i]
 
         lev = schedule['leverage'][i]
         port_ret[i] = lev * r - (lev - 1) * daily_fin
@@ -363,15 +364,21 @@ def main():
     # Performance
     f_ret = (result_df['ALLW_FUTURES'].iloc[-1] / result_df['ALLW_FUTURES'].iloc[0] - 1) * 100
     allw_ret = (float(allw_base.iloc[-1]) / float(allw_base.iloc[0]) - 1) * 100
+    prior_4_ret = get_prices_long_return('ALLW_REPL_DAILY')
+    prior_11_ret = get_prices_long_return('ALLW_11ETF_DAILY')
+    if prior_4_ret is None:
+        prior_4_ret = 5.77
+    if prior_11_ret is None:
+        prior_11_ret = 4.68
 
     print(f"\n{'='*60}")
     print(f"  ALLW actual:              {allw_ret:+.2f}%")
     print(f"  ALLW_FUTURES:             {f_ret:+.2f}%  (futures-proxy + daily wts)")
     print(f"  ---")
-    print(f"  Prior best (4-ETF Daily): +8.54%")
-    print(f"  Prior best (11-ETF Daily):+7.24%")
+    print(f"  Prior best (4-ETF Daily): {prior_4_ret:+.2f}%")
+    print(f"  Prior best (11-proxy Daily): {prior_11_ret:+.2f}%")
     print(f"  ---")
-    print(f"  Improvement vs 4-ETF:     {f_ret - 8.54:+.2f}pp")
+    print(f"  Improvement vs 4-ETF:     {f_ret - prior_4_ret:+.2f}pp")
     print(f"  Residual:                 {allw_ret - f_ret:+.2f}pp")
     print(f"{'='*60}")
 

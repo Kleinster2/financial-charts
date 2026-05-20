@@ -4,15 +4,15 @@ create_allw_repl_daily.py
 
 ALLW Replication using actual daily holdings data from Risk Parity vault.
 
-Reads ~41 daily snapshots (Jan 8 - Mar 12, 2026) from:
-  C:/Users/klein/obsidian/Risk Parity/10 - Portfolio Tracking/ALLW/
+Reads daily snapshots from:
+  C:/Users/klein/obsidian/risk-parity/10 - Portfolio Tracking/ALLW/
 
 For the pre-snapshot period (Mar 2025 - Jan 2026), falls back to the
 5-point interpolation from create_allw_repl_index.py.
 
 Produces:
   ALLW_REPL_DAILY  -- 4-ETF (SPY/TLT/TIP/GLD) with actual daily weights + leverage
-  ALLW_11ETF_DAILY -- 11-ETF with actual daily sub-weights + leverage
+  ALLW_11ETF_DAILY -- 11-proxy with actual daily sub-weights + leverage
 
 Usage:
     python scripts/create_allw_repl_daily.py [--store]
@@ -29,7 +29,7 @@ import pandas as pd
 import numpy as np
 
 DB_PATH = Path(__file__).parent.parent / 'market_data.db'
-VAULT_PATH = Path('C:/Users/klein/obsidian/Risk Parity/10 - Portfolio Tracking/ALLW')
+VAULT_PATH = Path('C:/Users/klein/obsidian/risk-parity/10 - Portfolio Tracking/ALLW')
 BASE_DATE = '2025-03-06'
 FINANCING_RATE = 0.048
 
@@ -52,10 +52,10 @@ LEVERAGE_SCHEDULE_FALLBACK = [
 # Static sub-weight defaults (used before Jan 2026 snapshot coverage)
 DEFAULT_EQ_SUBS = {'us': 0.316, 'europe': 0.401, 'japan': 0.116, 'em': 0.100, 'china': 0.068}
 DEFAULT_BOND_SUBS = {'tlt': 0.306, 'ief': 0.204, 'bndx': 0.490}
-DEFAULT_COMMOD_SUBS = {'gld': 0.72, 'gsg': 0.28}
+DEFAULT_COMMOD_SUBS = {'gld': 0.72, 'bcomtr': 0.28}
 
 TICKERS_4ETF = ['SPY', 'TLT', 'TIP', 'GLD']
-TICKERS_11ETF = ['SPLG', 'VGK', 'EWJ', 'SPEM', 'GXC', 'TLT', 'IEF', 'BNDX', 'TIP', 'GLD', 'GSG']
+TICKERS_11ETF = ['SPLG', 'VGK', 'EWJ', 'SPEM', 'GXC', 'TLT', 'IEF', 'BNDX', 'TIP', 'GLD', 'BCOMTR']
 
 
 # ---------------------------------------------------------------------------
@@ -239,7 +239,7 @@ def parse_snapshot(filepath):
     total_commod = gold_notional + bcomtr_notional
     if total_commod > 0:
         result['commod_gld'] = gold_notional / total_commod
-        result['commod_gsg'] = bcomtr_notional / total_commod
+        result['commod_bcomtr'] = bcomtr_notional / total_commod
     else:
         for k, v in DEFAULT_COMMOD_SUBS.items():
             result[f'commod_{k}'] = v
@@ -321,7 +321,7 @@ def build_daily_schedule(snapshots, all_dates):
     # Sub-weights for 11-ETF (interpolated between snapshots, defaults before)
     sub_keys = ['eq_us', 'eq_europe', 'eq_japan', 'eq_em', 'eq_china',
                 'bond_tlt', 'bond_ief', 'bond_bndx',
-                'commod_gld', 'commod_gsg']
+                'commod_gld', 'commod_bcomtr']
 
     defaults = {**{f'eq_{k}': v for k, v in DEFAULT_EQ_SUBS.items()},
                 **{f'bond_{k}': v for k, v in DEFAULT_BOND_SUBS.items()},
@@ -410,6 +410,21 @@ def get_allw_prices():
     return df
 
 
+def get_prices_long_return(ticker, start_date=BASE_DATE):
+    """Return total return from a stored narrow-table series, if present."""
+    conn = sqlite3.connect(DB_PATH)
+    df = pd.read_sql_query(
+        'SELECT Date, Close FROM prices_long '
+        'WHERE Ticker = ? AND Date >= ? ORDER BY Date',
+        conn,
+        params=(ticker, start_date),
+    )
+    conn.close()
+    if len(df) < 2:
+        return None
+    return (float(df['Close'].iloc[-1]) / float(df['Close'].iloc[0]) - 1) * 100
+
+
 def compute_returns(prices_df, tickers):
     returns = {}
     for t in tickers:
@@ -472,7 +487,7 @@ def build_11etf(dates, returns, schedule, initial_price):
     eq_map = [('SPLG', 'eq_us'), ('VGK', 'eq_europe'), ('EWJ', 'eq_japan'),
               ('SPEM', 'eq_em'), ('GXC', 'eq_china')]
     bond_map = [('TLT', 'bond_tlt'), ('IEF', 'bond_ief'), ('BNDX', 'bond_bndx')]
-    commod_map = [('GLD', 'commod_gld'), ('GSG', 'commod_gsg')]
+    commod_map = [('GLD', 'commod_gld'), ('BCOMTR', 'commod_bcomtr')]
 
     port_ret = np.zeros(n)
     for i in range(n):
@@ -547,18 +562,21 @@ def main():
     # Parse vault snapshots
     print("Parsing Risk Parity vault snapshots...")
     snapshots = parse_all_snapshots()
-    print(f"  {len(snapshots)} snapshots: {snapshots[0]['date']} to {snapshots[-1]['date']}")
+    if snapshots:
+        print(f"  {len(snapshots)} snapshots: {snapshots[0]['date']} to {snapshots[-1]['date']}")
 
-    print(f"\n  Sample allocations:")
-    for s in [snapshots[0], snapshots[len(snapshots)//2], snapshots[-1]]:
-        print(f"    {s['date']}: eq={s['equities']*100:.1f}% bonds={s['bonds']*100:.1f}% "
-              f"tips={s['tips']*100:.1f}% commod={s['commodities']*100:.1f}% lev={s['leverage']:.2f}x")
-        print(f"      Eq: US={s.get('eq_us',0)*100:.0f}% EU={s.get('eq_europe',0)*100:.0f}% "
-              f"JP={s.get('eq_japan',0)*100:.0f}% EM={s.get('eq_em',0)*100:.0f}% "
-              f"CN={s.get('eq_china',0)*100:.0f}%")
-        print(f"      Bond: TLT={s.get('bond_tlt',0)*100:.0f}% IEF={s.get('bond_ief',0)*100:.0f}% "
-              f"BNDX={s.get('bond_bndx',0)*100:.0f}%")
-        print(f"      Commod: GLD={s.get('commod_gld',0)*100:.0f}% GSG={s.get('commod_gsg',0)*100:.0f}%")
+        print(f"\n  Sample allocations:")
+        for s in [snapshots[0], snapshots[len(snapshots)//2], snapshots[-1]]:
+            print(f"    {s['date']}: eq={s['equities']*100:.1f}% bonds={s['bonds']*100:.1f}% "
+                  f"tips={s['tips']*100:.1f}% commod={s['commodities']*100:.1f}% lev={s['leverage']:.2f}x")
+            print(f"      Eq: US={s.get('eq_us',0)*100:.0f}% EU={s.get('eq_europe',0)*100:.0f}% "
+                  f"JP={s.get('eq_japan',0)*100:.0f}% EM={s.get('eq_em',0)*100:.0f}% "
+                  f"CN={s.get('eq_china',0)*100:.0f}%")
+            print(f"      Bond: TLT={s.get('bond_tlt',0)*100:.0f}% IEF={s.get('bond_ief',0)*100:.0f}% "
+                  f"BNDX={s.get('bond_bndx',0)*100:.0f}%")
+            print(f"      Commod: GLD={s.get('commod_gld',0)*100:.0f}% BCOMTR={s.get('commod_bcomtr',0)*100:.0f}%")
+    else:
+        print(f"  0 snapshots found under {VAULT_PATH}; using fallback schedule only")
 
     # Load prices
     all_tickers = list(set(TICKERS_4ETF + TICKERS_11ETF))
@@ -599,25 +617,31 @@ def main():
     d4_ret = (result_df['ALLW_REPL_DAILY'].iloc[-1] / result_df['ALLW_REPL_DAILY'].iloc[0] - 1) * 100
     d11_ret = (result_df['ALLW_11ETF_DAILY'].iloc[-1] / result_df['ALLW_11ETF_DAILY'].iloc[0] - 1) * 100
     allw_ret = (float(allw_base.iloc[-1]) / float(allw_base.iloc[0]) - 1) * 100 if not allw_base.empty else 0
+    prior_4_ret = get_prices_long_return('ALLW_REPL_DYN')
+    prior_11_ret = get_prices_long_return('ALLW_11ETF_DYN')
+    if prior_4_ret is None:
+        prior_4_ret = 5.18
+    if prior_11_ret is None:
+        prior_11_ret = 4.12
 
     print(f"\n{'='*60}")
     print(f"  ALLW actual:              {allw_ret:+.2f}%")
     print(f"  ALLW_REPL_DAILY (4-ETF):  {d4_ret:+.2f}%  (daily weights)")
-    print(f"  ALLW_11ETF_DAILY (11-ETF): {d11_ret:+.2f}%  (daily sub-weights)")
+    print(f"  ALLW_11ETF_DAILY (11-proxy): {d11_ret:+.2f}%  (daily sub-weights)")
     print(f"  ---")
-    print(f"  Prior 4-ETF DYN (5-pt):   +8.21%")
-    print(f"  Prior 11-ETF DYN (5-pt):  +6.82%")
+    print(f"  Prior 4-ETF DYN (5-pt):   {prior_4_ret:+.2f}%")
+    print(f"  Prior 11-proxy DYN (5-pt): {prior_11_ret:+.2f}%")
     print(f"  ---")
-    print(f"  4-ETF improvement:        {d4_ret - 8.21:+.2f}pp  vs 5-point interpolation")
-    print(f"  11-ETF improvement:       {d11_ret - 6.82:+.2f}pp  vs 5-point interpolation")
+    print(f"  4-ETF improvement:        {d4_ret - prior_4_ret:+.2f}pp  vs 5-point interpolation")
+    print(f"  11-proxy improvement:     {d11_ret - prior_11_ret:+.2f}pp  vs 5-point interpolation")
     print(f"  ---")
     print(f"  Residual (4-ETF):         {allw_ret - d4_ret:+.2f}pp")
-    print(f"  Residual (11-ETF):        {allw_ret - d11_ret:+.2f}pp")
+    print(f"  Residual (11-proxy):      {allw_ret - d11_ret:+.2f}pp")
     print(f"{'='*60}")
 
     if store:
         store_ticker(result_df, 'ALLW_REPL_DAILY', 'ALLW 4-ETF Daily-Weight Replication')
-        store_ticker(result_df, 'ALLW_11ETF_DAILY', 'ALLW 11-ETF Daily-Weight Replication')
+        store_ticker(result_df, 'ALLW_11ETF_DAILY', 'ALLW 11-Proxy Daily-Weight Replication')
         print(f"\n[DONE] Chart: /api/chart/lw?tickers=ALLW,ALLW_REPL_DAILY,ALLW_REPL_DYN"
               f"&start=2025-03-06&normalize=true&primary=ALLW"
               f"&labels=ALLW_REPL_DAILY:4-ETF%20Daily,ALLW_REPL_DYN:4-ETF%205-Point")

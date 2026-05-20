@@ -1,6 +1,6 @@
 ---
 aliases: [ALLW ETF, SPDR Bridgewater All Weather ETF, SPDR All Weather]
-tags: [actor, etf, risk-parity, bridgewater]
+tags: [asset, etf, risk-parity, bridgewater]
 ticker: ALLW
 ---
 
@@ -37,7 +37,7 @@ ALLW trades as a core Industrials name (XLI r = 0.73).
 |--------|-------|
 | Ticker | ALLW |
 | Issuer | [[State Street]] Global Advisors |
-| Sub-adviser | [[Bridgewater Associates]] |
+| Sub-adviser | [[Bridgewater]] |
 | Inception | March 2025 |
 | Expense ratio | 0.85% |
 | AUM | $1.03B (Mar 11, 2026) |
@@ -91,9 +91,9 @@ The [[Bloomberg Commodity Index|BCOMTR]] swap grew from negligible ($0.4M in Dec
 
 All figures deleveraged. Leverage ramp-up: 0.78x at launch -> 1.71x at 1 year. Equity-first transition (peaked 53.9% in Aug) before normalizing. Commodities consistently low but [[Bloomberg Commodity Index|BCOMTR]] growing.
 
-### Daily holdings detail (Jan 8 - Mar 12, 2026)
+### Daily holdings detail (Jan 8 - Mar 19, 2026)
 
-41 daily snapshots from SSGA disclosures reveal the granular evolution:
+46 daily snapshots from SSGA disclosures reveal the granular evolution; selected points:
 
 | Date | NAV | Leverage | Risk (B/E/T/C) | Gold | [[Bloomberg Commodity Index|BCOMTR]] | BCOMTR % |
 |------|-----|----------|-----------------|------|--------|----------|
@@ -119,10 +119,10 @@ Key patterns: (1) risk contribution shifted from balanced 35/35/15/15 to equity-
 *ALLW vs RPAR normalized since inception (March 2025). RPAR's heavier commodity allocation (~27% vs 8.5%) drove outperformance through the Iran conflict commodity spike. Both sold off in March 2026 as bonds and equities fell together.*
 
 ![[allw-vs-spy-vs-tlt-vs-tip-vs-gld-price-chart.png]]
-*ALLW vs all proxy ETFs used in replication analysis. Original four: [[SPY]] (+22%), [[TLT]] (-2%), [[TIP]] (+6%), [[GLD]] (+80%). International additions: [[BNDX]] (~flat), [[VGK]] (+30%), [[EWJ]] (+8%), [[GSG]] (-13%). GLD is the runaway performer but ALLW allocates only 8.5% to commodities. VGK outperformed SPY — explaining why ALLW's heavy European equity futures helped. But BNDX (flat) massively lagged ALLW's actual Euro-Bund/Gilt futures, and GSG (-13%) was a drag vs ALLW's [[Bloomberg Commodity Index|BCOMTR]] swap. These two mismatches explain why the 11-ETF replication performed worse than 4-ETF: the ETF proxies for international bonds and broad commodities don't track the actual futures ALLW holds.*
+*Legacy ETF-proxy comparison. Original four: [[SPY]], [[TLT]], [[TIP]], [[GLD]]. International additions: [[BNDX]], [[VGK]], [[EWJ]], and the old [[GSG]] broad-commodity proxy. The refreshed replication scripts now use direct [[Bloomberg Commodity Index|BCOMTR]] from `prices_long`; that cleans up the commodity sleeve, but it does not solve the larger mismatch from currency-unhedged international bonds, futures/cash mechanics, and Bridgewater's model.*
 
 ![[allw-replication-comparison-chart.png]]
-*ALLW vs three replication approaches, all using daily weights and leverage (0.78x→1.72x). Red = Futures Proxy (+9.4%) using equity indices, US bond futures, and currency-unhedged international bond ETFs. Green = 4-ETF (+8.5%) using SPY/TLT/TIP/GLD. Orange = 11-ETF (+7.2%) adding geographic ETF proxies (VGK, EWJ, BNDX) that underperform the actual futures. The hierarchy confirms: closer instrument matching helps (futures proxy > 4-ETF), but adding bad proxies hurts (11-ETF < 4-ETF). The ~7-8pp gap to ALLW is irreducible.*
+*ALLW vs refreshed replication approaches through May 19, 2026, all using stored synthetic series in `prices_long`. Red = futures proxy (+8.9%) using equity indices, US bond futures, currency-unhedged international bond proxies, GC=F, and direct BCOMTR. Green = 4-ETF daily (+5.8%) using SPY/TLT/TIP/GLD. Orange = 11-proxy daily (+4.7%) adding geographic ETF proxies and direct BCOMTR. The hierarchy confirms that instrument matching helps, but the gap to ALLW remains large even after replacing GSG with BCOMTR.*
 
 ![[allw-daily-vs-interpolated-chart.png]]
 *Daily-weight test: ALLW vs 4-ETF replication using actual daily holdings (41 SSGA snapshots, Jan 8 - Mar 12, 2026) vs 5-point quarterly interpolation. The two replication lines are nearly identical — switching from 5 quarterly weight estimates to 41 daily observations closes only 0.3pp of the 8.2pp gap. The residual is structural: futures carry advantages, daily ERC rebalancing, currency exposure, and contract-specific selection that no ETF replication can capture regardless of weight accuracy.*
@@ -131,19 +131,19 @@ Key patterns: (1) risk contribution shifted from balanced 35/35/15/15 to equity-
 
 ## Replication analysis
 
-Can you replicate ALLW? Tested six approaches — ETFs, indices, futures proxies — all fail by a wide margin.
+Can you replicate ALLW? Refreshed through May 19, 2026, six approaches — ETFs, indices, futures proxies — all fail by a wide margin.
 
 | Method | Return | Gap to ALLW |
 |--------|--------|-------------|
-| ALLW actual | +16.8% | — |
-| Futures-proxy (indices + unhedged bonds + GC=F, daily weights) | +9.4% | -7.4pp |
-| 4-ETF daily weights (SPY/TLT/TIP/GLD, 41 daily snapshots + leverage) | +8.5% | -8.2pp |
-| 4-ETF 5-point interp (same ETFs, 5 quarterly snapshots interpolated) | +8.2% | -8.6pp |
-| 11-ETF daily weights (adding BNDX, VGK, EWJ, SPEM, GXC, IEF, GSG) | +7.2% | -9.5pp |
-| 11-ETF 5-point interp (same 11 ETFs, 5 quarterly snapshots) | +6.8% | -10.0pp |
-| 4-ETF static 1x | +8.3% | -8.5pp |
+| ALLW actual | +18.0% | — |
+| Futures-proxy (indices + unhedged bonds + GC=F + BCOMTR, daily weights) | +8.9% | -9.1pp |
+| 4-ETF daily weights (SPY/TLT/TIP/GLD, 46 daily snapshots + leverage) | +5.8% | -12.2pp |
+| 4-ETF 5-point interp (same ETFs, 5 quarterly snapshots interpolated) | +5.2% | -12.8pp |
+| 11-proxy daily weights (adding BNDX, VGK, EWJ, SPEM, GXC, IEF, BCOMTR) | +4.7% | -13.3pp |
+| 11-proxy 5-point interp (same proxy set, 5 quarterly snapshots) | +4.1% | -13.9pp |
+| 4-ETF static 1x | +7.1% | -10.9pp |
 
-Adding geographic ETF granularity made it worse: [[BNDX]] (~flat) underperformed ALLW's Euro-Bund/Gilt futures, and [[GSG]] (-13%) dragged vs ALLW's [[Bloomberg Commodity Index|BCOMTR]] swap. The futures-proxy approach — replacing ETFs with equity indices (EURO STOXX 50, FTSE, ASX 200, Nikkei), actual US bond futures (ZN, ZB), and currency-unhedged international bond ETFs (iShares Euro Govt Bond + EUR/USD, iShares Gilt + GBP/USD, Vanguard Aust Bond + AUD/USD) — closed an additional 0.8pp. Using actual daily holdings data (41 SSGA snapshots) instead of 5-point quarterly interpolation added only 0.3pp — confirming the gap is instrument-level, not weight-timing.
+Adding geographic ETF granularity still makes the result worse: [[BNDX]] underperforms ALLW's currency-unhedged Euro-Bund/Gilt/Australian bond futures, and [[VGK]]/[[EWJ]] do not line up perfectly with the equity futures basket. Replacing legacy [[GSG]] with direct [[Bloomberg Commodity Index|BCOMTR]] fixes the commodity benchmark mismatch, but the BCOMTR sleeve is too small to close the replication gap. The futures-proxy approach — replacing ETFs with equity indices, US bond futures, currency-unhedged international bond proxies, GC=F, and BCOMTR — is the best local approximation, yet still leaves about 9pp of residual return. Actual daily holdings data now adds about 0.6pp versus 5-point interpolation, confirming the main gap is instrument/model/cash mechanics rather than weight timing.
 
 ### Holdings-to-proxy mapping (March 12, 2026)
 
@@ -163,7 +163,7 @@ Adding geographic ETF granularity made it worse: [[BNDX]] (~flat) underperformed
 | Aust 10Y Bond futures | $104.7M | BNDX | VGB_AX + AUD/USD | Currency + index mismatch |
 | 22 individual TIPS (2033-2056) | $394M | [[TIP]] | TIP | ~11yr duration vs TIP ~7yr |
 | Gold 100oz futures | $108.7M | [[GLD]] | GC=F | GLD = physical trust; GC=F = actual futures |
-| [[Bloomberg Commodity Index|BCOMTR]] total return swap | $48.7M | [[GSG]] | GSG | BCOMTR vs GSCI; swap vs ETF |
+| [[Bloomberg Commodity Index|BCOMTR]] total return swap | $48.7M | BCOMTR | BCOMTR | Direct official total-return index now in `prices_long`; swap/index level vs ETF wrapper |
 | Money market + T-bills | $421M | *none* | *none* | ETF replication deploys all capital |
 
 The worst mismatches are the international bonds: $371M in currency-unhedged futures proxied by BNDX (USD-hedged). With EUR +5.9% and GBP +2.6% vs USD over the period, the hedging alone explains most of the 11-ETF underperformance vs 4-ETF.
@@ -182,9 +182,9 @@ ALLW deploys capital fundamentally differently than an ETF portfolio:
 
 Two structural mismatches the ETF replication can't fix:
 
-**Physical TIPS vs TIP ETF:** ALLW holds a 21-bond TIPS ladder with ~10-12yr weighted average duration. [[TIP]] tracks the Bloomberg TIPS index at ~7yr duration. On the 21.5% TIPS allocation, this duration gap adds ~0.7pp annually when rates move favorably. Bridgewater chose physical bonds over a TIPS ETF to avoid layered fees, control duration precisely, and save ~$100K/year in fund-of-fund costs.
+Physical TIPS vs TIP ETF: ALLW holds a 21-bond TIPS ladder with ~10-12yr weighted average duration. [[TIP]] tracks the Bloomberg TIPS index at ~7yr duration. On the 21.5% TIPS allocation, this duration gap adds ~0.7pp annually when rates move favorably. Bridgewater chose physical bonds over a TIPS ETF to avoid layered fees, control duration precisely, and save ~$100K/year in fund-of-fund costs.
 
-**Cash collateral yield:** The 42.5% in money market/T-bills earns ~4.8% = +2.0pp annually. In theory, futures cost of carry should offset this (futures return = spot return - risk-free). In practice, the offset is imperfect — roll yield, basis, and contract-specific dynamics create real differences.
+Cash collateral yield: The 42.5% in money market/T-bills earns ~4.8% = +2.0pp annually. In theory, futures cost of carry should offset this (futures return = spot return - risk-free). In practice, the offset is imperfect — roll yield, basis, and contract-specific dynamics create real differences.
 
 ### Return decomposition
 
@@ -195,8 +195,8 @@ Two structural mismatches the ETF replication can't fix:
 | Futures carry cost (1.71 × 4.8%) | -8.2pp |
 | Cash collateral yield (0.425 × 4.8%) | +2.0pp |
 | TIPS duration alpha (11yr vs 7yr) | +0.7pp |
-| **Theoretical (from ETF spot returns)** | **+8.7%** |
-| **Unexplained residual** | **+8.1pp** |
+| Theoretical (from ETF spot returns) | +8.7% |
+| Unexplained residual | +8.1pp |
 
 The residual has been progressively decomposed through six replication attempts:
 

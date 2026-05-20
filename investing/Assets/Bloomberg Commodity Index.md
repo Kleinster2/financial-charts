@@ -15,7 +15,7 @@ BCOM is best understood as the "balanced" broad-commodity benchmark: more divers
 
 The 2026 version matters because the index moved back toward a broader inflation basket just as commodities re-accelerated. [[Bloomberg LP]]'s October 30, 2025 target-weight announcement put the 2026 target mix at 29.44% energy, 18.84% precious metals, 15.76% industrial metals, 21.15% grains, 9.17% softs, and 5.64% livestock. Cocoa returned to the benchmark in January 2026 after meeting inclusion criteria for two consecutive years. By the April 30, 2026 factsheet, market moves had pushed current weights to 39.28% energy and 26.64% agriculture, while precious metals had drifted down to 15.50% despite gold remaining the largest single component.
 
-For this vault, the practical data-access issue is now mostly solved. `market_data.db` has `BCOM` and `BCOMTR` daily history in `prices_long` as of the May 19, 2026 import from Investing.com's historical index pages. The old `stock_prices_daily` wide table is already at SQLite's 2,000-column limit, so the official index series live in the canonical narrow table rather than as wide columns. [[COMB]] remains useful as a tradable ETF wrapper/proxy, while [[DBC]], [[GSG]], [[PDBC]], and [[COMT]] are comparison vehicles with different roll and sector exposures.
+For this vault, the practical data-access issue is now mostly solved. `market_data.db` has `BCOM` and `BCOMTR` daily history in `prices_long` as of the May 19, 2026 import from Investing.com's historical index pages, and `update_market_data.py --assets bcomindices` now refreshes the pair incrementally. The old `stock_prices_daily` wide table is already at SQLite's 2,000-column limit, so the official index series live in the canonical narrow table rather than as wide columns. [[COMB]] remains useful as a tradable ETF wrapper/proxy, while [[DBC]], [[GSG]], [[PDBC]], and [[COMT]] are comparison vehicles with different roll and sector exposures.
 
 ---
 
@@ -150,6 +150,9 @@ Verified against `market_data.db` after refreshing ETF prices on 2026-05-19.
 
 ![[comb-vs-dbc-vs-gsg-vs-pdbc-price-chart.png]]
 *COMB vs [[DBC]], [[GSG]], and [[PDBC]] normalized since May 2021. The Bloomberg-linked COMB proxy captured the broad commodity rally but lagged the more energy-sensitive GSG/DBC complex during the 2021-2026 energy-led run.*
+
+![[bcomtr-vs-comb-dbc-gsg-price-chart.png]]
+*BCOMTR vs tradable commodity ETF wrappers normalized from [[COMB]] inception on July 14, 2017. [[DBC]] (+149%) and [[GSG]] (+147%) outran BCOMTR (+117%) because the local window was energy-heavy; COMB (+90%) is the closest Bloomberg-linked wrapper but still carries ETF and roll implementation drag versus official BCOMTR levels.*
 
 ---
 

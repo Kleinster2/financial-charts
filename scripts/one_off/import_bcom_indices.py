@@ -71,6 +71,14 @@ def parse_args() -> argparse.Namespace:
         help="Last date to request from Investing.com (YYYY-MM-DD; default: today)",
     )
     parser.add_argument(
+        "--start-date",
+        default=None,
+        help=(
+            "First date to request (YYYY-MM-DD). "
+            "Default: full configured history for each series"
+        ),
+    )
+    parser.add_argument(
         "--chunk-years",
         type=int,
         default=5,
@@ -205,31 +213,47 @@ def fetch_and_merge(
         time.sleep(sleep)
 
 
-def fetch_series(config: SeriesConfig, end_date: date, chunk_years: int, sleep: float) -> List[Tuple[str, float]]:
+def fetch_series(
+    config: SeriesConfig,
+    end_date: date,
+    chunk_years: int,
+    sleep: float,
+    start_date: date | None = None,
+) -> List[Tuple[str, float]]:
     values: Dict[str, float] = {}
+    fetch_start = max(config.start_date, start_date) if start_date else config.start_date
 
     print(f"\nFetching {config.ticker} ({config.instrument_id})")
-    for start, end in date_windows(config.start_date, end_date, chunk_years):
+    for start, end in date_windows(fetch_start, end_date, chunk_years):
         fetch_and_merge(config, values, start, end, sleep)
 
     # Investing.com occasionally returns sparse data for one window size and
     # complete data for another. Backfill sparse full years with annual windows,
     # then with a surrounding five-year window if the annual request is sparse.
-    for year in sparse_years(values, config, end_date):
+    if start_date is None:
+        candidate_sparse_years = sparse_years(values, config, end_date)
+    else:
+        candidate_sparse_years = []
+
+    for year in candidate_sparse_years:
         start = date(year, 1, 1)
         end = date(year, 12, 31)
         fetch_and_merge(config, values, start, end, sleep, label="annual backfill")
 
-    for year in sparse_years(values, config, end_date):
+    if start_date is None:
+        candidate_sparse_years = sparse_years(values, config, end_date)
+
+    for year in candidate_sparse_years:
         start = date(max(config.start_date.year, year - 2), 1, 1)
         end = date(min(end_date.year, year + 2), 12, 31)
         if end > end_date:
             end = end_date
         fetch_and_merge(config, values, start, end, sleep, label="range backfill")
 
-    remaining_sparse = sparse_years(values, config, end_date)
-    if remaining_sparse:
-        print(f"  Warning: sparse years remain for {config.ticker}: {remaining_sparse}")
+    if start_date is None:
+        remaining_sparse = sparse_years(values, config, end_date)
+        if remaining_sparse:
+            print(f"  Warning: sparse years remain for {config.ticker}: {remaining_sparse}")
 
     result = sorted(values.items())
     if not result:
@@ -413,16 +437,21 @@ def print_fetch_summary(fetched: Dict[str, List[Tuple[str, float]]]) -> None:
 def main() -> int:
     args = parse_args()
     end_date = datetime.strptime(args.end_date, DATE_FMT).date()
+    start_date = datetime.strptime(args.start_date, DATE_FMT).date() if args.start_date else None
     if end_date < min(config.start_date for config in SERIES.values()):
         raise ValueError("--end-date is before all configured series start dates")
+    if start_date and start_date > end_date:
+        raise ValueError("--start-date is after --end-date")
 
     print(f"Database: {DB_PATH}")
+    if start_date:
+        print(f"Requested start date: {start_date}")
     print(f"Requested end date: {end_date}")
 
     fetched = {
-        ticker: fetch_series(config, end_date, args.chunk_years, args.sleep)
+        ticker: fetch_series(config, end_date, args.chunk_years, args.sleep, start_date=start_date)
         for ticker, config in SERIES.items()
-        if config.start_date <= end_date
+        if config.start_date <= end_date and (start_date is None or start_date <= end_date)
     }
     print_fetch_summary(fetched)
 

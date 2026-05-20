@@ -141,6 +141,16 @@ charts:
     normalize: true
     start: 2001-08-20
     primary: BCOMTR
+  bcomtr-vs-comb-dbc-gsg-price-chart.png:
+    tickers: BCOMTR,COMB,DBC,GSG
+    normalize: true
+    start: 2017-07-14
+    primary: BCOMTR
+  allw-replication-comparison-chart.png:
+    tickers: ALLW,ALLW_FUTURES,ALLW_REPL_DAILY,ALLW_11ETF_DAILY
+    normalize: true
+    start: 2025-03-06
+    primary: ALLW
 ---
 
 # Chart Registry

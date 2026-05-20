@@ -15,7 +15,7 @@ import os
 import subprocess
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from constants import DB_PATH
 from download_all_assets import update_sp500_data
@@ -280,6 +280,77 @@ def update_fred_indices_data(verbose: bool = True, lookback_days: int = 30):
         print("=" * 70)
 
 
+def bcom_indices_have_history() -> bool:
+    """Return True if BCOM and BCOMTR already exist in prices_long."""
+    import sqlite3
+
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        rows = conn.execute(
+            """
+            SELECT Ticker, COUNT(*)
+            FROM prices_long
+            WHERE Ticker IN ('BCOM', 'BCOMTR')
+            GROUP BY Ticker
+            """
+        ).fetchall()
+    except sqlite3.OperationalError:
+        return False
+    finally:
+        conn.close()
+
+    counts = {ticker: count for ticker, count in rows}
+    return counts.get("BCOM", 0) > 0 and counts.get("BCOMTR", 0) > 0
+
+
+def update_bcom_indices_data(verbose: bool = True, lookback_days: int = 10):
+    """Update Bloomberg Commodity Index series (BCOM, BCOMTR)."""
+    if verbose:
+        print("\n" + "=" * 70)
+        print("Updating Bloomberg Commodity Index Series (BCOM, BCOMTR)")
+        print("=" * 70)
+
+    repo_root = os.path.dirname(os.path.abspath(__file__))
+    script = os.path.join(repo_root, "scripts", "one_off", "import_bcom_indices.py")
+    args = [sys.executable, script, "--sleep", "0.1"]
+
+    if lookback_days and bcom_indices_have_history():
+        start_date = (datetime.now() - timedelta(days=max(lookback_days, 5))).strftime("%Y-%m-%d")
+        args.extend(["--start-date", start_date])
+        if verbose:
+            print(f"Incremental BCOM fetch from {start_date}")
+    elif verbose:
+        print("BCOM/BCOMTR history missing or full mode requested; running full import")
+
+    try:
+        result = subprocess.run(
+            args,
+            cwd=repo_root,
+            timeout=300,
+            capture_output=not verbose,
+        )
+        if result.returncode != 0:
+            if not verbose and result.stderr:
+                print(result.stderr.decode(errors="replace"))
+            return False
+        return True
+    except subprocess.TimeoutExpired:
+        if verbose:
+            print("  BCOM/BCOMTR update timed out")
+        return False
+    except FileNotFoundError:
+        if verbose:
+            print("  import_bcom_indices.py not found")
+        return False
+    except Exception as e:
+        if verbose:
+            print(f"  BCOM/BCOMTR update error: {e}")
+        return False
+    finally:
+        if verbose:
+            print("=" * 70)
+
+
 def update_fundamentals_data(verbose: bool = True):
     """Update Alpha Vantage fundamentals (priority tickers).
 
@@ -363,7 +434,7 @@ def show_interactive_menu():
     print("    6. Custom selection")
     print("    7. Cancel")
 
-    all_assets = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals", "ratefutures"]
+    all_assets = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "bcomindices", "fundamentals", "ratefutures"]
 
     while True:
         choice = input("\nEnter choice [1-7] (default: 1): ").strip()
@@ -435,7 +506,7 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
     success = True
     try:
         # Run equities/FX/crypto updater if requested
-        special_assets = ("futures", "iv", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals", "ratefutures")
+        special_assets = ("futures", "iv", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "bcomindices", "fundamentals", "ratefutures")
         non_special_assets = [a for a in assets_to_run if a not in special_assets]
         if non_special_assets:
             if verbose:
@@ -529,6 +600,13 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
                 print("\n[Orchestrator] Updating FRED volatility indices")
             update_fred_indices_data(verbose=verbose, lookback_days=lookback_days or 30)
 
+        # Run Bloomberg Commodity Index updater if requested
+        if "bcomindices" in assets_to_run:
+            if verbose:
+                print("\n[Orchestrator] Updating Bloomberg commodity index series")
+            if update_bcom_indices_data(verbose=verbose, lookback_days=lookback_days or 10) is False:
+                success = False
+
         # Run Alpha Vantage fundamentals updater if requested (rate-limited)
         if "fundamentals" in assets_to_run:
             if verbose:
@@ -599,10 +677,10 @@ def main():
     parser.add_argument(
         "--assets",
         nargs="+",
-        choices=["all", "stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals", "ratefutures"],
+        choices=["all", "stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "bcomindices", "fundamentals", "ratefutures"],
         default=["all"],
         help=(
-            "Asset groups to update. Use one or more of: all, stocks, etfs, mutualfunds, adrs, fx, crypto, futures, iv, china, korea, brazil, canada, india, japan, b3, fxclose, bcb, fred, fredbonds, eodhdbonds, fredindices, fundamentals. "
+            "Asset groups to update. Use one or more of: all, stocks, etfs, mutualfunds, adrs, fx, crypto, futures, iv, china, korea, brazil, canada, india, japan, b3, fxclose, bcb, fred, fredbonds, eodhdbonds, fredindices, bcomindices, fundamentals. "
             "Default: all"
         ),
     )
@@ -617,7 +695,7 @@ def main():
     # Resolve asset selection
     chosen = [a.lower() for a in args.assets]
     if "all" in chosen:
-        assets_to_run = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals", "ratefutures"]
+        assets_to_run = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "india", "japan", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "bcomindices", "fundamentals", "ratefutures"]
     else:
         assets_to_run = chosen
 
