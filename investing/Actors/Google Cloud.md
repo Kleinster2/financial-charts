@@ -47,7 +47,7 @@ Source for Epoch estimate: report cited by [[FT]] (Apr 26 2026) — see [[Epoch 
 
 ## Apr 22, 2026: Cloud Next 2026, TPU 8t / 8i unveiling
 
-At Google Cloud Next 2026 in Las Vegas (Apr 22 2026), Google Cloud unveiled the 8th generation of [[TPU]] as two distinct chips: **TPU 8t** (training) and **TPU 8i** (inference, more memory). The agentic-era split tracks the broader industry move from a single all-purpose chip toward dedicated training-vs-inference silicon (see [[Training-inference convergence]] and [[Google TPU Competitive Position]] for competitive structure).
+At Google Cloud Next 2026 in Las Vegas (Apr 22 2026), Google Cloud unveiled the 8th generation of [[TPU]] as two distinct chips: TPU 8t (training) and TPU 8i (inference, more memory). The agentic-era split tracks the broader industry move from a single all-purpose chip toward dedicated training-vs-inference silicon (see [[Training-inference convergence]] and [[Google TPU Competitive Position]] for competitive structure).
 
 ### Customer roster as named
 
@@ -125,7 +125,7 @@ The print resolved most of the watch items below in the bullish direction:
 | Watch item | Q1 2026 outcome |
 |---|---|
 | GCP revenue growth rate | $20.02B (+63% YoY) — accelerated from Q4 2025 +48%. First quarter cleared $20B. |
-| Cloud RPO / backlog disclosure | Backlog **roughly doubled QoQ to over $460B** — the [[Anthropic]] $200B / 5 GW commitment + smaller frontier-lab and enterprise contracts are loading the runway. |
+| Cloud RPO / backlog disclosure | Backlog roughly doubled QoQ to over $460B — the [[Anthropic]] $200B / 5 GW commitment + smaller frontier-lab and enterprise contracts are loading the runway. |
 | Capex commentary | FY26 capex raised to $180-190B from $175-185B. Q1 capex $35.7B. |
 | Capacity-constrained framing | [[Sundar Pichai]] on the call: *"compute constrained in the near term... our cloud revenue would have been higher if we were able to meet the demand."* Same supply-side tell as [[Microsoft]] [[Azure]]. |
 
@@ -157,6 +157,24 @@ The cleanest disclosure to watch is whether GCP RPO breaks out separately from t
 
 ---
 
+## Google I/O 2026 agentic layer
+
+Google I/O 2026 made [[Google Cloud]] the runtime and enterprise pull-through layer for the [[Gemini]] product reset. The consumer-facing story is [[Gemini Spark]] running on dedicated Google Cloud VMs and using the [[Google Antigravity]] harness; the developer-facing story is Antigravity 2.0, Gemini API updates, AI Studio [[Android]] app generation, [[Google Workspace]] integrations, and provenance tooling such as the AI Content Detection API.
+
+| Product | Cloud role | Why it matters |
+|---------|------------|----------------|
+| [[Gemini Spark]] | Persistent runtime on dedicated Google Cloud VMs | Moves Cloud behind consumer personal-agent execution |
+| [[Google Antigravity]] | Agentic development and execution harness | Gives GCP a path from code-agent use into deployment and enterprise accounts |
+| [[Search AI Mode]] / [[Gemini]] 3.5 Flash | Search-scale inference economics | Tests whether Google's model/cloud stack can carry agentic Search cost effectively |
+| [[Google Workspace]] integrations | Enterprise data and admin surface | Pulls Gemini usage into business workflows where Cloud procurement can follow |
+| Provenance APIs | Detection and trust infrastructure | Turns synthetic-media governance into a Cloud/platform service |
+
+The investment read is that GCP is no longer only selling external TPU/GPU capacity. It is also becoming the hidden runtime for Google's own agent products. That helps the vertical-stack story: model, silicon, cloud runtime, product distribution, and subscription limits can all be tuned together. The risk is capacity allocation. Cloud already has Anthropic, Meta, Apple, OpenAI, enterprise, and internal Gemini demand competing for the same build-out.
+
+*Sources: [Google I/O 2026 collection](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/), [Gemini app update](https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/), [content provenance update](https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/), May 19 2026.*
+
+---
+
 ## Related
 
 - [[Thomas Kurian]] — CEO since Nov 2018
@@ -165,6 +183,10 @@ The cleanest disclosure to watch is whether GCP RPO breaks out separately from t
 - [[Sundar Pichai]] — Alphabet CEO
 - [[Google DeepMind]] — sister AI division (12-year investment, Gemini origin)
 - [[Gemini]] — first-party frontier model
+- [[Gemini Spark]] — consumer personal-agent runtime on Google Cloud VMs
+- [[Google Antigravity]] — agentic execution harness
+- [[Search AI Mode]] — Search-scale [[Gemini]] inference surface
+- [[Google IO 2026 agentic reset]] — Google-wide product bundle
 - [[TPU]] — proprietary silicon (8th gen unveiled Apr 2026)
 - [[Google TPU Competitive Position]] — competitive structure
 - [[AWS]] — cloud competitor (#1)

@@ -5,7 +5,7 @@ aliases: [GOOGL, GOOG, Google DeepMind, DeepMind, Alphabet]
 
 Google (Alphabet) — Tier 1 AI hyperscaler. DeepMind/Gemini, TPU pioneer, Anthropic investor, [[Broadcom]] disintermediation in progress.
 
-Most vertically integrated AI hyperscaler: owns DeepMind (Gemini), designs custom TPUs (7 generations), runs GCP (#3 cloud), and has invested $13B in Anthropic upfront and committed up to $43B including milestones. AI capex was $91B in 2025 with $175-185B guided for 2026 — the largest infrastructure commitment of any hyperscaler. Controlled by co-founders Larry Page and Sergey Brin (majority voting power). Led by Sundar Pichai with new CFO Anat Ashkenazi (from Eli Lilly, Jul 2024). Broadcom disintermediation in progress as Google brings more silicon design in-house. The bull case: search moat + YouTube + Cloud + DeepMind AI lab is the deepest tech stack in the industry, and advertising revenue funds AI investment without dilution. The bear case: antitrust risk (DOJ cases on search and ad tech), AI search disruption could cannibalize core ad revenue, and GCP remains distant #3 behind AWS and Azure.
+Most vertically integrated AI hyperscaler: owns DeepMind ([[Gemini]]), designs custom TPUs, runs GCP (#3 cloud), and has invested $13B in Anthropic upfront and committed up to $43B including milestones. AI capex was $91B in 2025 with $180-190B guided for 2026 — the largest infrastructure commitment of any hyperscaler. Google I/O 2026 made the product strategy explicit: Gemini is being turned from a model family into an agentic layer across Search, Workspace, YouTube, Android, Cloud, and developer tools. Controlled by co-founders Larry Page and Sergey Brin (majority voting power). Led by Sundar Pichai with new CFO Anat Ashkenazi (from Eli Lilly, Jul 2024). Broadcom disintermediation in progress as Google brings more silicon design in-house. The bull case: search moat + YouTube + Cloud + DeepMind AI lab is the deepest tech stack in the industry, and advertising revenue funds AI investment without dilution. The bear case: antitrust risk (DOJ cases on search and ad tech), AI search disruption could cannibalize core ad revenue, and GCP remains distant #3 behind AWS and Azure.
 
 ---
 
@@ -57,9 +57,9 @@ Google is the most vertically integrated AI hyperscaler:
 
 | Metric | Value |
 |--------|-------|
-| AI capex | $91B (2025), $175-185B guided (2026) |
+| AI capex | $91B (2025), $180-190B guided (2026) |
 | AI lab | DeepMind (Gemini) |
-| Custom silicon | TPU (7 generations) |
+| Custom silicon | TPU (8 generations disclosed through TPU 8t / 8i) |
 | Cloud | GCP (\#3 behind AWS, Azure) |
 | AI investment | [[Anthropic]] ($13B invested; up to $43B committed including milestones) |
 
@@ -270,21 +270,40 @@ Alphabet's stated rationale for not breaking out a full [[YouTube]] P&L: YouTube
 Google's AI research arm:
 - Merged Google Brain + DeepMind (2023)
 - Led by [[Demis Hassabis]]
-- Gemini model family (competing with GPT-4, [[Claude]])
+- Gemini model family (competing with [[ChatGPT]], [[Claude]], and other frontier AI systems)
 
-| Model | Tier | Notes |
-|-------|------|-------|
-| Gemini 3 | Latest | Released Q1 2026, outperforms competitors on benchmarks |
-| Gemini 2.0 | Previous gen | Agentic capabilities |
-| Gemini Ultra | Flagship | Multimodal |
-| Gemini Pro | Mid-tier | API access |
-| Gemini Nano | On-device | Mobile/edge |
+| Model / product | Status | Notes |
+|-------|--------|-------|
+| [[Gemini]] 3.5 Flash | Released May 19 2026 | Default in [[Search AI Mode]]; agentic/coding model available across Gemini app, [[Google Antigravity]], Gemini API, AI Studio, Android Studio, and enterprise products |
+| Gemini 3.5 Pro | Expected Jun 2026 | In internal Google use at I/O; public rollout planned for the following month |
+| [[Gemini Omni]] Flash | Released May 19 2026 | Video-first multimodal creation/editing model for Gemini app, [[Google Flow]], [[YouTube]] Shorts, and YouTube Create |
+| [[Gemini Spark]] | Trusted testers week of I/O; U.S. Google AI Ultra beta planned next week | 24/7 personal agent running on dedicated Google Cloud VMs and the [[Google Antigravity]] harness |
+| [[Daily Brief]] | I/O 2026 launch | Morning agent that synthesizes inbox, calendar, and Gemini context into priorities and next steps |
+| Gemini 3 Deep Think | AI Ultra | Multi-stream reasoning mode for math, science, coding, and planning |
 
-Scale: 750M MAU (up from 650M in Q3 2025). Serving unit costs down 78% over 2025 through model optimizations and efficiency improvements.
+Scale: The Gemini app surpassed 900M monthly active users by I/O 2026, up from 400M at I/O 2025. Serving unit costs fell 78% over 2025 through model optimizations and efficiency improvements, and Google says 3.5 Flash runs at less than half the price of comparable frontier models.
 
 Apple deal: Multiyear agreement for [[Apple]] to use Gemini in revamped [[Siri]]. Initial features iOS 26.5 (May/June 2026), full chatbot revamp iOS 27 (September 2026) — delayed from original March target after testing snags (Feb 12 Gurman). Reaches Apple's 2.5B active devices — major distribution win. Gurman: Gemini collaboration is the reason Apple can still ship this year. See [[Apple-Google AI deal]].
 
-Competitive position: Roughly par with OpenAI, gaining on consumer mindshare. Gemini 3 benchmarks ahead of competitors.
+Competitive position: Roughly par with OpenAI at the frontier-model layer, but Google's stronger advantage is distribution. I/O 2026 pushed Gemini into default surfaces — [[Search AI Mode]], [[Google Workspace]] voice tools, [[Ask YouTube]], [[Google Flow]], AI Studio, [[Android Halo]], intelligent eyewear, and AI subscription bundles — where usage can compound without users opening a standalone chatbot.
+
+### Google I/O 2026 agentic reset
+
+Google I/O 2026 was the cleanest statement of the post-chatbot strategy: make Gemini the agent that acts across the Google estate. The announcements were broad, but the structure is coherent. [[Google Search]] gets Gemini 3.5 Flash, information agents, generated UI, booking/calling agents, and persistent trackers. [[Google Workspace]] gets voice in Gmail, Docs and Keep, AI Inbox, and [[Google Pics]]. [[YouTube]] gets [[Ask YouTube]] and [[Gemini Omni]] remixing in Shorts. [[Android]] gets Gemini-powered eyewear and [[Android Halo]] for live agent status. Developers get [[Google Antigravity]] 2.0, AI Studio Android generation, Workspace integrations, and a mobile AI Studio app. Subscriptions get a new $100 [[Google AI Ultra]] tier and a repriced $200 top tier.
+
+| Surface | I/O 2026 update | Strategic read |
+|---------|-----------------|----------------|
+| [[Google Search]] | Gemini 3.5 Flash default in [[Search AI Mode]]; information agents; generated UI; persistent trackers | Defends the core query habit by turning Search into task monitoring and mini-app creation |
+| [[YouTube]] | [[Ask YouTube]] conversational search; [[Gemini Omni]] remixing in Shorts and YouTube Create | Turns the video library into a searchable answer corpus and gives Shorts a native AI creation loop |
+| [[Google Workspace]] | Voice features in Gmail, Docs and Keep; AI Inbox expansion; [[Google Pics]] | Moves Gemini from assistant to capture/triage/drafting workflow inside business data |
+| [[Google Cloud]] / developers | [[Google Antigravity]] 2.0 desktop app, Antigravity CLI, AI Studio Android app generation, Gemini API updates | Gives Google a builder funnel from prompt to app to Cloud deployment |
+| [[Android]] / XR | Intelligent eyewear with Gemini; [[Android Halo]] agent status layer | Extends Gemini beyond screens into ambient and wearable form factors |
+| Subscriptions | New $100 AI Ultra plan; top Ultra tier cut to $200; compute-based usage limits | Creates a paid ladder for heavy Gemini, Antigravity, Flow, and storage users |
+| Trust layer | SynthID / C2PA verification in Gemini, Search, Chrome and Pixel; AI Content Detection API | Tries to make provenance infrastructure part of the generative-media stack |
+
+The structural tension is trust. Google has the distribution to make agents ubiquitous, but background task execution asks users to accept a higher level of delegation than search snippets or chatbot answers. [[Gemini Spark]] is the key tell: it runs 24/7 on Google Cloud VMs, uses the [[Google Antigravity]] harness, integrates with first-party tools first, and is designed to ask before high-stakes actions like sending email or adding calendar events. If users accept that control model, Gemini becomes workflow infrastructure. If they do not, I/O 2026 risks being remembered as a feature flood rather than a behavioral shift.
+
+*Sources: [Google I/O 2026 collection](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/), [Pichai keynote transcript](https://blog.google/intl/en-nz/company-news/sundar-pichai-io-2026/), [Gemini 3.5](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/), [Gemini Omni](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/), [Search](https://blog.google/products-and-platforms/products/search/search-io-2026/), [Workspace](https://blog.google/products-and-platforms/products/workspace/workspace-updates/), [YouTube](https://blog.youtube/news-and-events/youtube-news-google-io-2026/), [Google AI subscriptions](https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/), [intelligent eyewear](https://blog.google/products-and-platforms/platforms/android/android-xr-io-2026/), [content provenance](https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/), May 19 2026.*
 
 ---
 
@@ -459,10 +478,10 @@ Waymo is the crown jewel — $16B raised Feb 2026 at $126B valuation (~6% of Alp
 
 | vs | Google advantage | Google disadvantage |
 |----|------------------|---------------------|
-| [[Microsoft]] | Custom silicon (TPU) | Cloud market share |
+| [[Microsoft]] | Custom silicon (TPU), Search/Android/YouTube distribution for Gemini agents | Cloud market share |
 | [[Amazon]] | AI research depth | Cloud dominance |
 | [[Meta]] | Cloud business | Open-source momentum |
-| [[OpenAI]] | Distribution (Search, Android) | [[Consumer]] mindshare |
+| [[OpenAI]] | Distribution (Search, Android, YouTube, Workspace), custom silicon, browser/search task surfaces | [[Consumer]] mindshare |
 
 ---
 
@@ -594,17 +613,18 @@ See [[Short interest]] for interpretation framework.
 | Revenue (2025) | $403B |
 | EPS (2025) | $10.70 |
 | AI capex (2025) | $91B |
-| AI capex (2026 guided) | $175-185B |
-| TPU generations | v1 through v7 |
+| AI capex (2026 guided) | $180-190B |
+| TPU generations | v1 through v8 disclosed |
 | Cloud rank | \#3 (GCP) |
 | AI lab | DeepMind |
-| Key model | Gemini |
+| Key model | Gemini 3.5 Flash |
+| Gemini app MAU | >900M (May 2026) |
 | Foundry | [[TSMC]] (via Broadcom) |
-| Anthropic stake | $2B+ |
+| Anthropic stake | $13B invested; up to $43B committed including milestones |
 | Long-term debt | $46.5B book (Dec 2025). See [[Alphabet bonds]] |
 | Short interest | 1.12% (Jan 2026) |
 
-*Updated 2026-02-09 — bond issuance*
+*Updated 2026-05-19 — Google I/O 2026 / Gemini 3.5 reset*
 
 ![[goog-price-chart.png]]
 
@@ -651,8 +671,23 @@ Analysts see Google at "pole position" in commercializing AI — spending as agg
 - [[Google securities note]] — stock, ETF exposure, options, and price-action context
 
 ### Products
-- [[Gemini]] — AI model (750M MAU)
+- [[Gemini]] — AI model and agentic product layer (>900M Gemini app MAU at I/O 2026)
+- [[Gemini Spark]] — 24/7 personal agent inside Gemini
+- [[Gemini Omni]] — video-first generative media model
+- [[Daily Brief]] — proactive morning synthesis surface inside Gemini
+- [[Search AI Mode]] — agentic Search surface
+- [[Google Search]] — core search platform and AI Mode parent
+- [[Google Workspace]] — productivity-suite distribution surface for Gemini
+- [[Google Flow]] — creative workflow surface for Gemini Omni
+- [[Ask YouTube]] — conversational YouTube search feature
+- [[Google Pics]] — Workspace-adjacent AI image tool
+- [[Android]] — mobile platform for Gemini and Android Halo
 - [[Apple]] — Gemini-Siri deal (spring 2026). See [[Apple-Google AI deal]]
+- [[Google AI Ultra]] — paid AI subscription ladder for heavy Gemini / Antigravity / Flow users
+- [[Google Antigravity]] — agentic execution harness for developers and Spark
+- [[Android Halo]] — Android agent-status layer
+- [[Project Genie]] — world-model / simulation product tied to Google AI Ultra and Street View
+- [[Google IO 2026 agentic reset]] — synthesis of the I/O 2026 AI product bundle
 
 ### Platforms
 - [[Google TV]] — smart TV OS (300M+ devices, not yet profitable)
