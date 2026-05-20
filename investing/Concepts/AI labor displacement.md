@@ -159,13 +159,24 @@ The interesting residual question: what portion of the 55,000 "AI-attributed" la
 
 ---
 
-## Kalshi signal: Challenger May report (May 19, 2026)
+## Kalshi signal: Challenger May report and labor tape (May 20, 2026)
 
-[[Kalshi]]'s KXCHAICUTS contract asks whether "Artificial Intelligence" will be the number-one cited reason for job cuts in [[Challenger, Gray and Christmas]]'s May 2026 report. At the API read, the contract last traded at 60c with a 60c / 74c bid-ask, 21,620.30 volume, and 3,959 open interest.
+[[Kalshi]]'s KXCHAICUTS contract asks whether "Artificial Intelligence" will be the number-one cited reason for job cuts in [[Challenger, Gray and Christmas]]'s May 2026 report. At the May 20 API read, the contract last traded at 60c with a 60c / 61c bid-ask, 21,620.30 volume, and 3,959 open interest. The market is still treating AI-attribution as the base case, but the quote has tightened from the May 19 read rather than repricing higher.
 
 That makes AI-attribution a live base case rather than a tail. The market is not saying AI is truly causing every cut; it is pricing the report's stated-reason category. That distinction matters because this note already separates genuine workflow replacement from the rate-cycle / narrative-cover counter-reading. If the May report prints AI as the top cited reason, the right update is "managements are increasingly using AI as the language of labor reduction," not automatically "AI has replaced the marginal worker."
 
-*Source: [[Kalshi]] API series KXCHAICUTS, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCHAICUTS*
+The adjacent macro-labor markets keep the same distinction intact:
+
+| Market | Pricing | Read |
+|---|---|---|
+| Challenger May report: AI number-one layoff reason | 60c last; 60c / 61c bid-ask | AI-attribution is the base case for the report category. |
+| May nonfarm payrolls | >0 at 88c; >60K at 58c; >80K at 43c; >100K at 29c | Payrolls are priced soft-positive, not recessionary collapse. |
+| May U-3 unemployment | >4.2% at 71c; >4.3% at 43c; >4.4% at 11c | Unemployment centers around 4.3%, still controlled but softening. |
+| May ADP employment change | >50K at 65c; >75K at 46c; >100K at 28c | Private-payroll read is softer and thinner than the BLS payroll market. |
+
+Interpretation: the prediction-market layer is not saying AI is already big enough to dominate the aggregate labor market. It is saying AI is likely to dominate the narrative label in layoff announcements while the broad labor tape remains a slow-softening macro story. That is exactly the awkward middle regime: companies can cite AI, investors can reward margin discipline, and yet the unemployment rate can still look orderly.
+
+*Source: [[Kalshi]] API series KXCHAICUTS, KXPAYROLLS, KXU3, and KXADP, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCHAICUTS, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXPAYROLLS, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXU3, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXADP*
 
 ---
 

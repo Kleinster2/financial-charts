@@ -5,7 +5,7 @@
     "@playwright/test": "^1.60.0"
   },
   "scripts": {
-    "test:consistency": "python scripts/check_skill_parity.py --strict --optional-openclaw && python tests/note_compliance_regression.py && python scripts/check_note_compliance.py --market-reaction-peer-sweep",
+    "test:consistency": "python scripts/check_skill_parity.py --strict --optional-openclaw && python tests/note_compliance_regression.py && python tests/kalshi_watchlist_tests.py && python scripts/check_note_compliance.py --market-reaction-peer-sweep",
     "test:unit": "node --test tests/unit/*.test.js",
     "test:smoke": "playwright test --project=chromium",
     "test:smoke:ui": "playwright test --project=chromium --ui"

@@ -39,18 +39,22 @@ Gap closure is the key signal: [[MMLU]] gap between open and closed models shran
 
 ---
 
-## Prediction-market layer (May 19, 2026)
+## Prediction-market layer (May 20, 2026)
 
 [[Kalshi]] now has liquid AI-model-leadership markets that can be used as a sentiment overlay on benchmark data. These are not benchmark results; they are market-implied expectations about which lab will sit at the top of named ranking systems at resolution.
 
 | Market | Top prices | Read-through |
 |---|---|---|
-| Best AI in Dec 2026 (KXLLM1) | [[Claude]] / [[Anthropic]] 59c; [[Gemini]] / [[Google DeepMind]] 20.9c; [[ChatGPT]] / [[OpenAI]] 12c; [[Grok]] / [[xAI]] 6.9c | Traders are pricing [[Anthropic]] as the year-end general-model leader, even with [[OpenAI]] still holding the distribution advantage. |
-| Best coding model on Dec 31, 2026 (KXCODINGMODEL) | [[Anthropic]] 58c; [[OpenAI]] 25c; [[Google DeepMind]] 16c; [[xAI]] 4c | The coding-specific market is even more Anthropic-skewed, which makes it a useful cross-check against [[Claude Code]], [[Terminal-Bench]], and agentic-workflow revenue signals. |
+| Best AI on May 23, 2026 (KXLLM1-26MAY23) | [[Claude]] / [[Anthropic]] 96c last, 96c / 97c bid-ask; [[ChatGPT]] / [[OpenAI]] 3c; [[Gemini]] / [[Google DeepMind]] 1c; [[Grok]] / [[xAI]] 1c | The near-term ranking market treats [[Claude]] as already entrenched at the top, not merely as a year-end contender. |
+| Best AI on May 31, 2026 (KXLLM1-26MAY31) | [[Claude]] / [[Anthropic]] 97c; [[ChatGPT]] / [[OpenAI]] 3c; [[Gemini]] / [[Google DeepMind]] 3c; [[Grok]] / [[xAI]] 1c | Month-end pricing is even more concentrated than the longer-dated market, so any non-Anthropic win would be a genuine benchmark-tape upset. |
+| Best AI in Dec 2026 (KXLLM1-26DEC31) | [[Claude]] / [[Anthropic]] 64c last, 62.6c / 62.9c bid-ask; [[Gemini]] / [[Google DeepMind]] 20.6c; [[ChatGPT]] / [[OpenAI]] 12c; [[Grok]] / [[xAI]] 5.1c; [[Meta]] LLaMA 2.1c | Traders are still paying up for an [[Anthropic]] year-end leadership thesis, but the longer-dated market leaves meaningful room for [[Google DeepMind]] or [[OpenAI]] catch-up. |
+| Best coding model on Dec 31, 2026 (KXCODINGMODEL) | [[Anthropic]] 55c; [[OpenAI]] 25c; [[Google DeepMind]] 13c; [[xAI]] 4c | The coding-specific market is still Anthropic-skewed, making it a useful cross-check against [[Claude Code]], [[Terminal-Bench]], [[SWE-Bench]], and agentic-workflow revenue signals. |
 
-The useful vault read is not that [[Claude]] will necessarily win. It is that public prediction-market participants are willing to pay up for an [[Anthropic]] leadership thesis in both general and coding benchmarks, while treating [[OpenAI]] as a strong but second-place probability mass and [[Google DeepMind]] as the main non-OpenAI challenger.
+The useful vault read is not that [[Claude]] will necessarily win. It is that public prediction-market participants are willing to pay up for an [[Anthropic]] leadership thesis in both general and coding benchmarks, while treating [[OpenAI]] as a strong but second-place probability mass and [[Google DeepMind]] as the main non-OpenAI challenger. The shape also fits the enterprise-agent tape: [[Anthropic]] is priced strongest where benchmarks map most directly to monetizable coding and workflow products, while [[OpenAI]] still owns distribution.
 
-*Sources: [[Kalshi]] API series KXLLM1 and KXCODINGMODEL, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXLLM1 and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCODINGMODEL*
+Adjacent lab-capital-market read: KXOAIANTH prices [[Anthropic]] at 83c last, 79c / 82c bid-ask to IPO before [[OpenAI]], versus [[OpenAI]] at 27c last, 27c / 30c bid-ask. That is not a benchmark market, but it reinforces the same public-market narrative: traders currently prefer the Anthropic execution story even though OpenAI remains the larger consumer platform.
+
+*Sources: [[Kalshi]] API series KXLLM1, KXCODINGMODEL, and KXOAIANTH, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXLLM1, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCODINGMODEL, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXOAIANTH*
 
 ---
 

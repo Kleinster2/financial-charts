@@ -43,6 +43,24 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 ---
 
+## Kalshi OpenAI timing overlay (May 20, 2026)
+
+[[Kalshi]]'s KXIPOOPENAI ladder turns the [[OpenAI]] IPO timing debate into a visible probability curve. The active monthly contracts do not make a 2026 IPO the base case: Dec. 1, 2026 was 24c / 28c, Jan. 1, 2027 was 34c / 35c, and the ladder only crosses the 50c area around Apr. 1, 2027. By Jun. 1, 2027, the contract was 58c / 63c.
+
+| Deadline | Last | Bid / ask | Read |
+|---|---:|---:|---|
+| Before Dec. 1, 2026 | 25c | 24c / 28c | 2026 listing remains possible, but not the market base case. |
+| Before Jan. 1, 2027 | 33c | 34c / 35c | Year-end 2026 probability is roughly one-third. |
+| Before Mar. 1, 2027 | 46c | 48c / 50c | Late Q1 2027 is close to coin-flip. |
+| Before Apr. 1, 2027 | 52c | 51c / 54c | Spring 2027 is where the curve turns base-case. |
+| Before Jun. 1, 2027 | 60c | 58c / 63c | The market expects the window to be open by mid-2027. |
+
+The related KXOPENAICEOCHANGE-26 market priced an [[OpenAI]] CEO change during 2026 at 22c last, with a 19c / 21c bid-ask and more than 33,000 open interest. For the IPO pipeline, that is a governance-risk overlay rather than a base-case succession view: meaningful enough to track, not high enough to assume.
+
+*Sources: [[Kalshi]] API series KXIPOOPENAI and event KXOPENAICEOCHANGE-26, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXIPOOPENAI and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXOPENAICEOCHANGE-26*
+
+---
+
 ## [[Fintech]]
 
 | Company | Sector | Est. valuation | Status |
@@ -158,6 +176,7 @@ Read for the broader pipeline: at $56.4B IPO and $94.8B Day-1 close, Cerebras ha
 - [[SpaceX]] — largest potential IPO ever
 - [[Databricks]] — AI/data leader
 - [[Anthropic]] — AI lab
+- [[OpenAI]] — AI lab with market-implied IPO timing centered around spring 2027
 - [[Cerebras]] — AI chips
 - [[Quantinuum]] — quantum computing
 - [[Revolut]] — neobank
@@ -170,5 +189,6 @@ Read for the broader pipeline: at $56.4B IPO and $94.8B Day-1 close, Cerebras ha
 - [[Toss]] — Korea fintech US listing
 - [[GCash]] — Philippines fintech
 - [[NSE India]] — [[India]] stock exchange
+- [[Kalshi]] — prediction-market source for live IPO-timing overlays
 
 *Created 2026-01-24*

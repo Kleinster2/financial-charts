@@ -23,6 +23,28 @@ Pre-SCOTUS (Jan 2026): ~49% general rate. Post-SCOTUS: Section 301 rates only (2
 
 ---
 
+## Kalshi trade-deal proxy (May 20, 2026)
+
+[[Kalshi]]'s KXFTAPRC market prices whether [[Donald Trump|Trump]] makes a new free trade agreement with [[China]] before Jan. 20, 2029. At the May 20 API read, it last traded at 36c with a 35c / 40c bid-ask, 61,824.02 volume, and 12,053.31 open interest.
+
+The useful read is not that a comprehensive US-[[China]] FTA is likely. It is that traders assign a non-trivial probability to a formal detente-style trade package during the Trump term, even after the Section 301 / Section 232 tariff stack survives the IEEPA rollback. For this note, KXFTAPRC is the upside-tail counterpart to the tariff-replacement thesis: policy can still move toward managed bilateral bargaining rather than pure tariff escalation.
+
+*Source: [[Kalshi]] API series KXFTAPRC, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFTAPRC*
+
+---
+
+## Kalshi tariff-persistence overlay (May 20, 2026)
+
+The broader [[Kalshi]] tariff stack says traders expect the tariff regime to remain fiscally material even after the IEEPA rollback. Q2 2026 effective-tariff-rate contracts price more than 5% at 93c last and more than 7.5% at 89c, but the higher tails fall quickly: more than 10% last traded at 20c, more than 12.5% at 6c, and more than 15% at 4c. That fits a replacement-tariff world, not a full reversion to pre-2018 trade normality.
+
+The revenue ladder is the cleaner fiscal read. 2026 tariff revenue above $150B last traded at 83c, above $200B at 66c, and above $250B at 35c. New tariff legislation is priced much lower: KXTARIFFBILL was 5.6c last for any new/increased-tariff legislation becoming law before Jan. 1, 2027. Traders are paying for executive/statutory-authority persistence rather than a clean Congressional tariff bill.
+
+Sector-specific risk is uneven. The 2026 sector-tariff market had wind turbines around 50c last, critical minerals at 31c, Canadian aircraft at 17c, and foreign-made films at 14c. The China read-through is indirect but important: if the administration keeps using sector and national-security authorities, [[China]] exposure remains a product-by-product tariff problem rather than a single headline bilateral rate.
+
+*Sources: [[Kalshi]] API series KXEFFTARIFF, KXTARIFFREVENUE, KXTARIFFBILL, and KXTARIFFSECTOR, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXEFFTARIFF, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXTARIFFREVENUE, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXTARIFFBILL, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXTARIFFSECTOR*
+
+---
+
 ## Section 301 rates by product
 
 | Category | Rate | Effective |

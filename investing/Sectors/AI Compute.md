@@ -122,19 +122,20 @@ TSMC's stock moves with its AI customers, not "foundry peers."
 
 ---
 
-## Kalshi compute-rental pricing layer (May 19, 2026)
+## Kalshi compute-rental pricing layer (May 20, 2026)
 
-[[Kalshi]]'s end-of-May GPU hourly-price ladders are a noisy but useful sentiment layer for [[AI Compute]]. They are prediction-market contracts on whether rental prices clear specific thresholds, not observed cloud prices. The liquid signal is strongest in H100 and weaker in H200 / RTX 5090; A100, B200, and RTX PRO 6000 ladders had little or no usable open interest in this pull.
+[[Kalshi]]'s end-of-May GPU hourly-price ladders are a noisy but useful sentiment layer for [[AI Compute]]. They are prediction-market contracts on whether rental prices clear specific thresholds, not observed cloud prices. The liquid signal is strongest in [[H100]] and weaker in [[H200]] / [[RTX 5090]]; [[A100]], [[B200]], and [[Nvidia RTX PRO 6000|RTX PRO 6000]] ladders had little or no usable open interest in this pull.
 
 | Contract family | Cleanest ladder points | Read |
 |---|---|---|
-| H100 SXM hourly compute | >$1.78 at 92c / 100c bid-ask; >$2.10 at 86c / 97c; >$2.17 at 85c / 96c | Market is pricing H100 rental above $2/hour as the base case. |
-| H200 hourly compute | >$2.50 at 85c / 99c; >$2.60 at 58c / 98c; >$2.70 at 60c / 98c | Directionally tight supply, but the ladder is wide enough to avoid a precise midpoint. |
-| RTX 5090 hourly compute | >$0.54 at 94c / 99c; >$0.55 at 85c / 98c; >$0.67 at 50c / 78c | Consumer/prosumer compute remains bid; signal is rough because upper strikes are wide. |
+| [[H100]] SXM hourly compute | Monthly >$2.17/hr at 86c / 96c bid-ask and 96c last, with 2,278.03 aggregate active volume and 1,625.77 open interest; weekly $3.14 price-up strike at 85c / 87c but tiny volume. | Market is pricing [[H100]] rental above $2/hour as the base case. |
+| [[H200]] hourly compute | Monthly >$2.74/hr at 70c / 100c bid-ask and 70c last; weekly $4.96 price-up strike at 12c / 27c with 199 volume. | Directionally tight month-end supply, but weekly momentum does not confirm a near-term jump. |
+| [[RTX 5090]] hourly compute | Monthly >$0.67/hr at 50c / 79c bid-ask and 53c last; weekly $0.59 price-up strike at 88c / 99c with 150.19 volume and 142.11 open interest. | Consumer/prosumer compute remains bid; this is the cleanest non-data-center signal. |
+| [[A100]] / [[B200]] / [[Nvidia RTX PRO 6000|RTX PRO 6000]] | [[A100]] and [[B200]] ladders showed little or no usable liquidity; [[Nvidia RTX PRO 6000|RTX PRO 6000]] returned no active API markets. | Do not use these for a durable pricing read yet. |
 
-The useful read is scarcity, not valuation precision. Traders are not pricing a collapse in high-end [[NVIDIA]] compute rental rates even after the Blackwell transition. That supports the broader sector view that [[AI hyperscalers]] are still competing for constrained accelerator supply rather than entering a clean post-shortage phase.
+The useful read is scarcity, not valuation precision. Traders are not pricing a collapse in high-end [[NVIDIA]] compute rental rates even after the Blackwell transition. That supports the broader sector view that [[AI hyperscalers]] are still competing for constrained accelerator supply rather than entering a clean post-shortage phase. The biggest hole is [[B200]]: the prediction-market order book is not yet liquid enough to test whether [[Blackwell]] rental economics are clearing smoothly.
 
-*Sources: [[Kalshi]] API series KXH100MON, KXH200MON, and KXRTX5090MON, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXH100MON, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXH200MON, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXRTX5090MON*
+*Sources: [[Kalshi]] API series KXH100MON, KXH100W, KXH200MON, KXH200W, KXRTX5090MON, KXRTX5090W, KXA100MON, KXA100W, KXB200MON, KXB200W, KXRTXPRO6000MON, and KXRTXPRO6000W, read May 20, 2026.*
 
 ---
 

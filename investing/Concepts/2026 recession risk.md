@@ -19,22 +19,22 @@ Tracking Wall Street recession probability estimates for the US economy in 2026,
 
 ---
 
-## Kalshi macro nowcast (May 19, 2026)
+## Kalshi macro nowcast (May 20, 2026)
 
 [[Kalshi]]'s macro contracts are useful here as a real-time prediction-market overlay on the recession debate. They are not official data and should not replace [[BLS]] or [[Federal Reserve]] releases; they show what traders are willing to price before those releases arrive.
 
 | Variable | Market pricing | Read |
 |---|---|---|
-| 2026 recession | 19c last, 19c / 20c bid-ask | Recession is a meaningful tail, not the base case. |
-| 2027 recession | 43c last, 37c / 40c bid-ask | The tail risk shifts out into 2027 rather than resolving as immediate contraction. |
-| May CPI YoY | >4.2% at 74c; >4.3% at 37c; >4.4% at 17c; >4.6% at 2c | Market center is roughly 4.2-4.3%, keeping the inflation problem live. |
-| May nonfarm payrolls | >0 at 87c; >60K at 58c; >80K at 43c; >100K at 29c | Positive but soft job growth, not a clean collapse. |
-| May U-3 unemployment | >4.2% at 71c; >4.3% at 42c; >4.4% at 11c | Market center is around 4.3%, consistent with a softening but not disorderly labor market. |
-| Q2 2026 real GDP | >1.0% at 88c; >2.0% at 65c; >2.5% at 45c; >3.0% at 29c | Growth remains positive enough to resist a near-term recession call. |
+| 2026 recession | 18c last, 17c / 18c bid-ask | Recession is a meaningful tail, not the base case. |
+| 2027 recession | 41c last, 37c / 41c bid-ask | The tail risk shifts out into 2027 rather than resolving as immediate contraction. |
+| May CPI YoY | >4.2% at 74c; >4.3% at 41c; >4.4% at 16c; >4.6% at 2c | Market center is roughly 4.2-4.3%, keeping the inflation problem live. |
+| May nonfarm payrolls | >0 at 88c; >60K at 58c; >80K at 43c; >100K at 29c | Positive but soft job growth, not a clean collapse. |
+| May U-3 unemployment | >4.2% at 71c; >4.3% at 43c; >4.4% at 11c | Market center is around 4.3%, consistent with a softening but not disorderly labor market. |
+| Q2 2026 real GDP | >1.0% at 88c; >2.0% at 64c; >2.5% at 45c; >3.0% at 29c | Growth remains positive enough to resist a near-term recession call. |
 
-The composite read is "stagflation pressure, not recession panic." CPI pricing is hot enough to validate the [[Rate expectations#Kalshi policy overlay (May 19, 2026)|no-cut Fed path]], but payrolls, unemployment, and Q2 GDP pricing do not yet describe an economy falling off a cliff. That helps explain why the 2026 recession market is only around 19c despite the oil shock, tariff drag, and weak household-survey labor data already captured below.
+The composite read is "stagflation pressure, not recession panic." CPI pricing is hot enough to validate the [[Rate expectations|no-cut Fed path]], but payrolls, unemployment, and Q2 GDP pricing do not yet describe an economy falling off a cliff. That helps explain why the 2026 recession market is only around 18c despite the oil shock, tariff drag, and weak household-survey labor data already captured below.
 
-*Sources: [[Kalshi]] API series KXRECSSNBER, KXCPIYOY, KXPAYROLLS, KXU3, and KXGDP, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXRECSSNBER, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCPIYOY, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXPAYROLLS, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXU3, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXGDP*
+*Sources: [[Kalshi]] API series KXRECSSNBER, KXCPIYOY, KXPAYROLLS, KXU3, and KXGDP, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXRECSSNBER, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCPIYOY, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXPAYROLLS, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXU3, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXGDP*
 
 ### Gasoline / CPI stress overlay (May 20, 2026)
 

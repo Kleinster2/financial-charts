@@ -30,7 +30,7 @@ The [[UK]] government's listing-venue pitch has had mixed traction. [[Revolut]] 
 The broader reform package includes:
 - Listing rule modernisation (allowing dual-class shares, easing free-float requirements)
 - [[Pension reform]] — Mansion House Compact / Mansion House Accord pushing UK DC pension schemes toward higher UK equity allocations
-- [[AIM]] reforms — reviewing junior market structure
+- [[AIM]] reforms (junior-market structure) — reviewing junior market structure
 - ISA reforms — increasing allowance for UK-listed equities
 
 The structural problem the reforms try to solve: [[UK]] equity markets have lost relative scale to [[NYSE]] and [[Asia]] over two decades; UK domestic institutions have systematically reduced UK equity weight; major UK-domiciled tech and fintech firms have defaulted to US listings.

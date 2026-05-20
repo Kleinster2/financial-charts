@@ -5,7 +5,8 @@ Runs before the AI synthesis step to prepare structured data:
 1. Updates market data (stocks, ETFs, ADRs, FX, futures)
 2. Runs sigma movers against vault actors
 3. Checks earnings calendar for today/this week
-4. Outputs structured JSON for the daily briefing skill
+4. Checks Kalshi overlay freshness
+5. Outputs structured JSON for the daily briefing skill
 
 Renamed from morning_scan.py 2026-05-19 — the script is time-of-day agnostic.
 
@@ -39,7 +40,7 @@ def run_cmd(cmd, cwd=None):
 
 def update_market_data():
     """Update prices with a 5-day lookback."""
-    print("[1/4] Updating market data...")
+    print("[1/5] Updating market data...")
     stdout, stderr, rc = run_cmd(
         "python update_market_data.py --lookback 5 --assets stocks etfs adrs fx futures"
     )
@@ -54,7 +55,7 @@ def update_market_data():
 
 def run_movers():
     """Run quick_movers.py, return parsed output."""
-    print("[2/4] Scanning sigma movers...")
+    print("[2/5] Scanning sigma movers...")
     stdout, stderr, rc = run_cmd("python scripts/quick_movers.py --sigma 2.5")
     if rc != 0:
         print(f"  WARN: quick_movers exited {rc}")
@@ -74,7 +75,7 @@ def run_movers():
 
 def check_earnings_calendar():
     """Check for upcoming earnings from vault actors using DB metadata."""
-    print("[3/4] Checking earnings calendar...")
+    print("[3/5] Checking earnings calendar...")
     if not DB_PATH.exists():
         print("  WARN: market_data.db not found")
         return []
@@ -103,7 +104,7 @@ def check_earnings_calendar():
 
 def check_data_freshness():
     """Check when data was last updated."""
-    print("[4/4] Checking data freshness...")
+    print("[4/5] Checking data freshness...")
     if not DB_PATH.exists():
         return None
 
@@ -124,6 +125,43 @@ def check_data_freshness():
         conn.close()
 
 
+def check_kalshi_watchlist():
+    """Run offline Kalshi overlay freshness check."""
+    print("[5/5] Checking Kalshi overlay freshness...")
+    script = BASEDIR / "scripts" / "refresh_kalshi_watchlist.py"
+    config = BASEDIR / "kalshi_watchlist.yml"
+    if not script.exists() or not config.exists():
+        print("  WARN: Kalshi watchlist tooling not found")
+        return None
+
+    result = subprocess.run(
+        [sys.executable, str(script), "--json"],
+        cwd=str(BASEDIR),
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode != 0:
+        print(f"  WARN: Kalshi watchlist exited {result.returncode}")
+        if result.stderr:
+            print(f"  {result.stderr[:500]}")
+        return {"error": result.stderr.strip() or result.stdout.strip()}
+
+    try:
+        payload = json.loads(result.stdout)
+    except json.JSONDecodeError as exc:
+        print(f"  WARN: could not parse Kalshi watchlist JSON: {exc}")
+        return {"error": result.stdout[:500]}
+
+    counts = payload.get("counts", {})
+    print(
+        "  "
+        f"{counts.get('stale', 0)} stale, "
+        f"{counts.get('material', 0)} material, "
+        f"{counts.get('review', 0)} review"
+    )
+    return payload
+
+
 def check_daily_note_exists(date_str):
     """Check if today's daily note exists."""
     path = DAILY_DIR / f"{date_str}.md"
@@ -131,7 +169,7 @@ def check_daily_note_exists(date_str):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Morning scan — pre-market data gathering")
+    parser = argparse.ArgumentParser(description="Daily scan — market data gathering")
     parser.add_argument("--skip-update", action="store_true",
                         help="Skip market data update (use existing data)")
     parser.add_argument("--output", type=str, default=None,
@@ -147,7 +185,7 @@ def main():
     if not args.skip_update:
         update_ok = update_market_data()
     else:
-        print("[1/4] Skipping market data update")
+        print("[1/5] Skipping market data update")
 
     # Step 2: Sigma movers
     movers = run_movers()
@@ -157,6 +195,9 @@ def main():
 
     # Step 4: Data freshness
     latest_date = check_data_freshness()
+
+    # Step 5: Kalshi overlay freshness
+    kalshi_watchlist = check_kalshi_watchlist()
 
     # Check daily note
     daily_exists = check_daily_note_exists(today)
@@ -168,6 +209,7 @@ def main():
         "data_update_ok": update_ok,
         "latest_price_date": latest_date,
         "daily_note_exists": daily_exists,
+        "kalshi_watchlist": kalshi_watchlist,
         "sigma_movers": movers,
         "recent_earnings": earnings,
     }

@@ -29,6 +29,16 @@ The monthly Challenger Job Cut Report is one of the few high-frequency private d
 
 ---
 
+## Kalshi wrapper (May 20, 2026)
+
+[[Kalshi]]'s KXCHAICUTS market wraps the May 2026 Challenger Job Cut Report into a binary question: whether "Artificial Intelligence" is the number-one cited reason for job cuts. The May 20 API read showed the market at 60c last with a 60c / 61c bid-ask, 21,620.30 volume, and 3,959 open interest. Close time is June 4, 2026 at 09:29 UTC.
+
+Read-through: the market is pricing the report's stated-reason category, not the true causal decomposition of layoffs. For vault purposes, Challenger is the attribution dataset; [[AI labor displacement]] carries the causality debate.
+
+Source: [[Kalshi]] API series KXCHAICUTS, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCHAICUTS
+
+---
+
 ## Leadership
 
 Public leadership not expanded in this stub pass; capture named executives when a dedicated source is ingested.

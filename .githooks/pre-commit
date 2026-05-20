@@ -3,7 +3,7 @@ set -eu
 
 changed_files="$(git diff --cached --name-only)"
 
-if printf '%s\n' "$changed_files" | grep -Eq '^(\.claude/skills/[^/]+/SKILL\.md|\.agents/skills/[^/]+/SKILL\.md|skills/shared-workflows\.json|scripts/(check_skill_parity|promote_shared_skill|sync_codex_skills|skill_manifest|check_note_compliance)\.py|tests/note_compliance_regression\.py|package\.json)$'; then
+if printf '%s\n' "$changed_files" | grep -Eq '^(\.claude/skills/[^/]+/SKILL\.md|\.agents/skills/[^/]+/SKILL\.md|skills/shared-workflows\.json|scripts/(check_skill_parity|promote_shared_skill|sync_codex_skills|skill_manifest|check_note_compliance|refresh_kalshi_watchlist)\.py|tests/(note_compliance_regression|kalshi_watchlist_tests)\.py|package\.json)$'; then
   echo "Consistency-sensitive files changed; checking skill parity and note-compliance regressions..."
 
   if ! npm run test:consistency; then

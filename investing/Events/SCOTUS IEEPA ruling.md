@@ -122,6 +122,16 @@ For Congress: Ruling reasserts Congressional tariff authority. Future tariff pol
 
 ---
 
+## Post-ruling litigation tail
+
+[[Kalshi]]'s KXTRUMPTARIFFHEAR-27JAN market prices whether the [[Supreme Court]] agrees to hear a case primarily related to tariffs imposed by [[Donald Trump|Trump]] before Jan. 1, 2027. At the May 20 API read, it last traded at 39c with a 39c / 44c bid-ask, 22,776.70 volume, and 7,488.54 open interest.
+
+This is not a market on reversing the Feb. 20 IEEPA holding. It is a market on follow-on litigation around replacement authorities, future executive actions, or tariff implementation disputes. For investors, it keeps tariff-law uncertainty alive even after the headline constitutional question was decided.
+
+*Source: [[Kalshi]] API series KXTRUMPTARIFFHEAR, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXTRUMPTARIFFHEAR*
+
+---
+
 ## Related
 
 - [[US-China tariffs]] — China-specific tariff structure post-ruling

@@ -7,7 +7,7 @@ tags: [concept, uk, pensions, capital-markets, regulation]
 
 UK pension reform — the package of voluntary and proposed-mandatory measures pushing UK defined-contribution (DC) pension schemes to allocate more to UK equities and private markets. The two named anchors are the [[Mansion House Compact]] (2023, voluntary, signed under [[Jeremy Hunt]]) and the Mansion House Accord (2025, voluntary "beefed-up" version under [[Rachel Reeves]]). A proposed mandation provision in the [[Pension Schemes Bill 2025]] would give the government power to legally require allocation if the voluntary route stalls — currently being debated in the House of Lords on fiduciary-duty grounds.
 
-The structural problem the reforms try to solve: UK DC schemes have ~6–9% UK equity allocation as of 2024, down from ~50% in the early 2000s. The de-allocation runs across two decades and reflects both the [[Defined benefit pension|defined-benefit]] decline / [[DC pension|DC]] rise and DC default funds gradually diversifying overseas. The reform package wants to bend that curve without breaching fiduciary duty — voluntary commitments first, mandation as backstop. It sits alongside parallel [[UK]] capital-markets reforms (listing rules, [[ISA]] allowance changes, [[AIM]] review) as the components of a broader push to deepen [[UK]] equity markets and capture more domestic capital for [[LSE]]-listed names.
+The structural problem the reforms try to solve: UK DC schemes have ~6–9% UK equity allocation as of 2024, down from ~50% in the early 2000s. The de-allocation runs across two decades and reflects both the [[Defined benefit pension|defined-benefit]] decline / [[DC pension|DC]] rise and DC default funds gradually diversifying overseas. The reform package wants to bend that curve without breaching fiduciary duty — voluntary commitments first, mandation as backstop. It sits alongside parallel [[UK]] capital-markets reforms (listing rules, [[Stocks and shares ISA|ISA]] allowance changes, [[AIM]] review) as the components of a broader push to deepen [[UK]] equity markets and capture more domestic capital for [[LSE]]-listed names.
 
 ---
 
@@ -79,8 +79,8 @@ The provision has been the focus of intense parliamentary debate:
 | Reform | Detail |
 |--------|--------|
 | Pension reform | This note — DC allocation push via Compact, Accord, mandation |
-| [[Listing rule modernisation]] | [[FCA]] reforms — dual-class shares permitted, free-float requirements eased, sponsor regime simplified |
-| [[ISA]] reform | Increased allowance for UK-listed equities; "British ISA" concept (deferred but kept on the policy menu) |
+| [[Listing rule modernisation]] | [[Financial Conduct Authority|FCA]] reforms — dual-class shares permitted, free-float requirements eased, sponsor regime simplified |
+| [[Stocks and shares ISA|ISA]] reform | Increased allowance for UK-listed equities; "British ISA" concept (deferred but kept on the policy menu) |
 | [[AIM]] review | Junior-market structure reform; tax-relief preservation debates |
 
 The four threads are coordinated to address one structural problem (eroded UK equity market depth) from four angles (supply side / listing rules; demand side / pension capital + retail ISAs; lifecycle / junior market). The pension thread is the largest by capital scale.
@@ -129,7 +129,7 @@ Net winner if reform succeeds — more UK-allocated AUM means more fee income. [
 
 ## Synthesis
 
-The reform package is a structural bet that [[UK]] equity-market depth can be rebuilt by redirecting domestic pension capital. Three distinct mechanisms are working in parallel: voluntary signalling (Compact + Accord), credible mandation threat (Pension Schemes Bill), and parallel reforms removing other obstacles (listing rules, [[ISA]], [[AIM]]). The political cost-benefit favours voluntary: if signatories deliver, mandation never activates; if they stall, mandation is the legally-prepared backstop.
+The reform package is a structural bet that [[UK]] equity-market depth can be rebuilt by redirecting domestic pension capital. Three distinct mechanisms are working in parallel: voluntary signalling (Compact + Accord), credible mandation threat (Pension Schemes Bill), and parallel reforms removing other obstacles (listing rules, [[Stocks and shares ISA|ISA]], [[AIM]]). The political cost-benefit favours voluntary: if signatories deliver, mandation never activates; if they stall, mandation is the legally-prepared backstop.
 
 The hardest question the reforms don't answer: do UK private markets have £25bn of investable opportunities that meet pension-fund fiduciary thresholds at current valuations? If yes, the reform is a clean win — pension funds get diversification, UK companies get capital. If no, the forced allocation will either chase poor risk-adjusted returns or pool into a handful of mega-deals that don't broaden market depth.
 
@@ -146,8 +146,8 @@ The reform is also a real-time test of whether [[UK]] domestic listings ([[Revol
 - [[Local Government Pension Scheme]] — parallel reform track via pooling
 - [[Pension risk transfer]] — separate concept (DB liabilities → insurers); demand-side counterpart on the corporate-pension side
 - [[Listing rule modernisation]] — parallel UK capital-markets reform
-- [[FCA]] — listing rule regulator
-- [[ISA]] — UK retail savings product, parallel reform track
+- [[Financial Conduct Authority|FCA]] — listing rule regulator
+- [[Stocks and shares ISA|ISA]] — UK retail savings product, parallel reform track
 - [[AIM]] — UK junior market, parallel reform track
 - [[LSE]] / [[LSEG]] — listing venue beneficiary
 - [[Revolut]] — UK fintech, IPO venue test case

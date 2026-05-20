@@ -240,23 +240,29 @@ The 90%-eventual-return view is the supply-side mirror of the [[Hormuz Permanent
 
 ---
 
-## Prediction market update — Kalshi reopening ladder (May 19, 2026)
+## Prediction market update — Kalshi reopening ladder (May 20, 2026)
 
 [[Kalshi]]'s active KXHORMUZNORM ladder uses the same structural metric as the earlier [[Polymarket]] contract: the 7-day moving average of transit calls through the [[Strait of Hormuz]] as reported by [[IMF]] PortWatch must be above 60 before the stated date.
 
 | Normalization before | Last | Bid / ask |
 |---|---:|---:|
-| Jun 1, 2026 | 3.6c | 3.6c / 3.7c |
+| Jun 1, 2026 | 4.9c | 4.2c / 4.6c |
 | Jun 15, 2026 | 11c | 10c / 11c |
-| Jul 1, 2026 | 22c | 21c / 22c |
-| Aug 1, 2026 | 38c | 38c / 39c |
+| Jul 1, 2026 | 21c | 21c / 22c |
+| Aug 1, 2026 | 34c | 34c / 35c |
 | Sep 1, 2026 | 49c | 49c / 50c |
-| Oct 1, 2026 | 62c | 62c / 64c |
-| Jan 1, 2027 | 73c | 72c / 73c |
+| Oct 1, 2026 | 59c | 59c / 60c |
+| Jan 1, 2027 | 72c | 72c / 73c |
+| Apr 1, 2027 | 83c | 83c / 84c |
+| Jul 1, 2027 | 85c | 85c / 87c |
 
 The market-implied timeline has shifted later than the March [[Polymarket]] framing and is only partly aligned with the [[Federal Reserve Bank of Dallas|Dallas Fed]] producer survey. Traders are assigning very low odds to a near-term June normalization, still less than even odds by August 1, and only a clear majority by October. That reinforces the [[Hormuz Permanent Risk Premium]] thesis: even if physical flows eventually resume, the market is pricing a long commercial-confidence tail rather than a clean reopening event.
 
-*Source: [[Kalshi]] API series KXHORMUZNORM, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXHORMUZNORM*
+The weekly KXHORMUZWEEKLY market for May 18-24 gives the near-term flow read. More than 20 calls was 64c / 65c with a 66c last, more than 25 calls was 56c / 57c with a 59c last, more than 30 calls was 44c / 55c with a 38c last, more than 40 calls was 31c / 40c with a 42c last, and more than 50 calls was 8c / 19c with a 22c last. The market is clustering around 20-30 weekly transit calls, far below normal, and treating a 50+ week as an outside outcome.
+
+The related KXUSAIRANAGREEMENT nuclear-deal ladder is not yet an immediate shipping unlock: before Jun. 1, 2026 traded at 8c, before Jul. 1 at 23c, before Aug. 1 at 27c, before Sep. 1 at 34c, and before Jan. 1, 2027 at 50c. That says traders see diplomacy as a live year-end pathway, but not a near-term fix for the insurance and commercial-confidence constraint.
+
+*Sources: [[Kalshi]] API series KXHORMUZNORM, KXHORMUZWEEKLY, and KXUSAIRANAGREEMENT, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXHORMUZNORM, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXHORMUZWEEKLY, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXUSAIRANAGREEMENT*
 
 ---
 

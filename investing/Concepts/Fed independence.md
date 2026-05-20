@@ -15,7 +15,7 @@
 | Stable currency | Currency weakness |
 | Predictable policy | Political cycle volatility |
 
-**Core insight:** Markets trust central banks that can inflict short-term pain (rate hikes) to achieve long-term stability. Political pressure for easy money destroys that trust.
+Core insight: Markets trust central banks that can inflict short-term pain (rate hikes) to achieve long-term stability. Political pressure for easy money destroys that trust.
 
 ---
 
@@ -23,34 +23,34 @@
 
 | Date | Event |
 |------|-------|
-| **Jan 9, 2026** | DOJ serves Fed with grand jury subpoenas |
-| **Jan 11, 2026** | Powell discloses investigation, calls it "pretext" |
-| **Jan 13, 2026** | Global central bank chiefs support Powell |
-| **Jan 14, 2026** | [[Gold]] hits record $4,641/oz on Fed concerns |
-| **Jan 21, 2026** | Supreme Court hearing — **6+ justices skeptical**, including Trump appointees Kavanaugh & Barrett |
-| **Jan 28, 2026** | Fed hasn't complied with subpoenas; Bill Pulte (FHFA) identified as instigator |
-| **Jan 29, 2026** | Powell: Cook case "most important legal case in Fed's 113-year history" |
-| **May 2026** | Powell's term ends; Trump will not reappoint |
+| Jan 9, 2026 | DOJ serves Fed with grand jury subpoenas |
+| Jan 11, 2026 | Powell discloses investigation, calls it "pretext" |
+| Jan 13, 2026 | Global central bank chiefs support Powell |
+| Jan 14, 2026 | [[Gold]] hits record $4,641/oz on Fed concerns |
+| Jan 21, 2026 | Supreme Court hearing — 6+ justices skeptical, including Trump appointees Kavanaugh & Barrett |
+| Jan 28, 2026 | Fed hasn't complied with subpoenas; Bill Pulte (FHFA) identified as instigator |
+| Jan 29, 2026 | Powell: Cook case "most important legal case in Fed's 113-year history" |
+| May 2026 | Powell's term ends; Trump will not reappoint |
 
-**Jan 21 SCOTUS outcome:**
+Jan 21 SCOTUS outcome:
 
 At least six justices — including Trump appointees Kavanaugh and Barrett — questioned the administration's attempt to fire Cook. Powell and former chair Ben Bernanke watched from the gallery.
 
-**Kavanaugh's warning:** "Because if this were set as a precedent... what goes around, comes around. All the current president's appointees would likely be removed for cause on January 20th, 2029."
+Kavanaugh's warning: "Because if this were set as a precedent... what goes around, comes around. All the current president's appointees would likely be removed for cause on January 20th, 2029."
 
-**The allegations:** Cook allegedly claimed two properties (Michigan, Georgia) as "primary residences" in June/July 2021. Bank documents obtained by NBC appear to contradict the fraud claim.
+The allegations: Cook allegedly claimed two properties (Michigan, Georgia) as "primary residences" in June/July 2021. Bank documents obtained by NBC appear to contradict the fraud claim.
 
-**Cook's statement:** "This case is about whether the Federal Reserve will set key interest rates guided by evidence and independent judgment or will succumb to political pressure."
+Cook's statement: "This case is about whether the Federal Reserve will set key interest rates guided by evidence and independent judgment or will succumb to political pressure."
 
-**Likely outcome:** Court appears ready to block the firing, at least temporarily. No president has fired a sitting Fed governor in 112 years.
+Likely outcome: Court appears ready to block the firing, at least temporarily. No president has fired a sitting Fed governor in 112 years.
 
-**Powell's Jan 11 statement:**
+Powell's Jan 11 statement:
 > "The threat of criminal charges is a consequence of the Federal Reserve setting interest rates based on our best assessment of what will serve the public, rather than following the preferences of the President."
 
-**Powell's Jan 29 statement (on Cook case):**
+Powell's Jan 29 statement (on Cook case):
 > "That case is perhaps the most important legal case in the Fed's 113-year history."
 
-**Powell on Fed independence (Jan 29):**
+Powell on Fed independence (Jan 29):
 > "If people lose their faith that we're making decisions only on the basis of our assessment of what's best for everyone... it's going to be hard to retain it. And we haven't lost it. I don't believe we will."
 
 > "I am strongly committed to that and so are my colleagues."
@@ -66,7 +66,7 @@ At least six justices — including Trump appointees Kavanaugh and Barrett — q
 | Risk premium increases | Equities de-rate |
 | Bond vigilantes activate | Force policy reversal or crisis |
 
-**Rebecca Patterson (CFR):**
+Rebecca Patterson (CFR):
 > "A high-risk and potentially self-defeating effort... higher long-term borrowing costs for households and businesses and a weaker currency that would support inflation."
 
 ---
@@ -75,7 +75,7 @@ At least six justices — including Trump appointees Kavanaugh and Barrett — q
 
 ### Turkey (2018-2023)
 
-**What happened:** Erdogan fired central bank governors who wouldn't cut rates. Appointed loyalists who slashed rates even as inflation spiked.
+What happened: Erdogan fired central bank governors who wouldn't cut rates. Appointed loyalists who slashed rates even as inflation spiked.
 
 | Metric | Impact |
 |--------|--------|
@@ -85,9 +85,9 @@ At least six justices — including Trump appointees Kavanaugh and Barrett — q
 | FX reserves | Depleted to negative $50B |
 | CB governors | 4 in 3 years |
 
-**Erdogan's view:** "The central bank can't take this independence and set aside the signals given by the president."
+Erdogan's view: "The central bank can't take this independence and set aside the signals given by the president."
 
-**Result:** Capital flight, currency crisis, forced reversal. Eventually allowed independence in 2023 — but damage done.
+Result: Capital flight, currency crisis, forced reversal. Eventually allowed independence in 2023 — but damage done.
 
 ### [[UK]] mini-budget (2022)
 
@@ -100,7 +100,7 @@ See [[UK mini-budget crisis 2022]].
 | Pension funds near collapse | £425B paper losses |
 | Resolution | Truss resigns after 45 days |
 
-**Lesson:** Bond vigilantes can force policy reversal within days, not months.
+Lesson: Bond vigilantes can force policy reversal within days, not months.
 
 ### Nixon (1972)
 
@@ -116,9 +116,9 @@ See [[UK mini-budget crisis 2022]].
 
 ### Time consistency problem
 
-The theoretical case for Fed independence rests on the **[[Time consistency]]** research of [[Finn Kydland]] and [[Edward Prescott]] (2004 Nobel Prize).
+The theoretical case for Fed independence rests on the [[Time consistency]] research of [[Finn Kydland]] and [[Edward Prescott]] (2004 Nobel Prize).
 
-**Core insight:** A central bank that cannot commit to rules in advance will produce higher inflation than one that can — even with identical preferences. Without independence, rational actors anticipate political pressure for easy money, set higher wages/prices, and inflation becomes self-fulfilling.
+Core insight: A central bank that cannot commit to rules in advance will produce higher inflation than one that can — even with identical preferences. Without independence, rational actors anticipate political pressure for easy money, set higher wages/prices, and inflation becomes self-fulfilling.
 
 | Without independence | With independence |
 |---------------------|-------------------|
@@ -127,7 +127,7 @@ The theoretical case for Fed independence rests on the **[[Time consistency]]** 
 | Higher inflation expectations | Anchored expectations |
 | Higher actual inflation | Lower actual inflation |
 
-**Policy solution:** Institutional independence + explicit inflation targets = commitment device that solves time consistency problem.
+Policy solution: Institutional independence + explicit inflation targets = commitment device that solves time consistency problem.
 
 ### Empirical evidence
 
@@ -141,7 +141,7 @@ Research on Turkey's central bank dismissals found:
 
 ## Bond vigilantes
 
-**Definition:** Bond market participants who sell government debt (pushing yields higher) when they believe fiscal or monetary policy is irresponsible.
+Definition: Bond market participants who sell government debt (pushing yields higher) when they believe fiscal or monetary policy is irresponsible.
 
 | Vigilante trigger | Response |
 |-------------------|----------|
@@ -149,12 +149,12 @@ Research on Turkey's central bank dismissals found:
 | Central bank credibility loss | Demand higher risk premium |
 | Inflation tolerance | Steepen yield curve |
 
-**Why they matter:**
+Why they matter:
 - Governments must roll over debt constantly
 - Higher yields = higher borrowing costs = fiscal pressure
 - Can force policy reversal faster than elections
 
-**El-Erian (Jan 2026):**
+El-Erian (Jan 2026):
 > "Bond vigilantes will react if policy becomes political... [[UK mini-budget crisis 2022|Liz Truss precedent]] — bond vigilantes forced policy reversal in days."
 
 ---
@@ -168,8 +168,22 @@ Research on Turkey's central bank dismissals found:
 | Treasury market depth | Harder to manipulate but not immune |
 | Foreign holdings | ~30% of [[Treasuries]] — flight risk |
 
-**Lazard:**
+Lazard:
 > "The biggest US debt market risk is diminished Fed independence, which could undermine inflation-fighting credibility and the dollar."
+
+---
+
+## Kalshi institutional-risk overlay (May 20, 2026)
+
+[[Kalshi]] separates the extreme institutional-collapse tail from the more plausible interference tail. KXFEDEND prices ending the [[Federal Reserve]] before Jan. 1, 2027 at 3c last with a very wide 0.2c / 3.1c bid-ask, and before Jan. 20, 2029 at 9c last with a 9c / 12c bid-ask. The market is not pricing literal abolition as the base case.
+
+The sharper market is KXTRYFIREPOWELL-26MAY12: trying to fire [[Jerome Powell]] before Jun. 1, 2026 was only 3c last, but the Jan. 1, 2027 deadline last traded at 27c with a tight 26c / 27c bid-ask, 48,704.68 volume, and 17,018.12 open interest. That is a live institutional-risk premium even after the near-term deadline decayed.
+
+The broader independent-agency signal is even stronger. KXTRUMPVSLAUGHTER prices a [[Supreme Court]] ruling for [[Donald Trump|Trump]] in Trump v. Slaughter at 93c last with a 90c / 92.9c bid-ask, while the vote-count market puts exactly 6 justices for the petitioner at 90c last. The case is about [[FTC]] commissioner removal, not the Fed, but a pro-removal ruling would make independent-agency insulation more politically contingent across the regulatory state.
+
+Operational Fed-procedure markets are thinner and should be treated as color, not hard forecast. The strongest KXFEDREFORM bid-ask signal is a 62c / 74c market that an FOMC statement contains no forward-looking funds-rate guidance before 2027. Other listed breaks, such as no post-meeting press conference or dot-plot omission, have stale last prices and wide spreads.
+
+*Sources: [[Kalshi]] API series KXFEDEND, KXTRYFIREPOWELL, KXTRUMPVSLAUGHTER, KXTRUMPSLAUGHTERVOTE, and KXFEDREFORM, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFEDEND, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXTRYFIREPOWELL-26MAY12, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXTRUMPVSLAUGHTER, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXTRUMPSLAUGHTERVOTE, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFEDREFORM*
 
 ---
 
@@ -177,11 +191,11 @@ Research on Turkey's central bank dismissals found:
 
 | Scenario | Positioning |
 |----------|-------------|
-| **Independence maintained** | Risk-on, growth equities |
-| **Chair transition (orderly)** | Watch new chair's credibility |
-| **Independence eroded** | Long gold, short duration, quality |
-| **Bond vigilante response** | Long gold, short long-duration [[Treasuries]] |
-| **Full Turkey scenario** | [[Commodities]], non-USD assets |
+| Independence maintained | Risk-on, growth equities |
+| Chair transition (orderly) | Watch new chair's credibility |
+| Independence eroded | Long gold, short duration, quality |
+| Bond vigilante response | Long gold, short long-duration [[Treasuries]] |
+| Full Turkey scenario | [[Commodities]], non-USD assets |
 
 ---
 

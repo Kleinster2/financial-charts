@@ -29,12 +29,19 @@ The streaming wars produced a clear winner ([[Netflix]] at 300M+ global subs) an
 | Paramount+ | [[Paramount Global]] | 72M+ |
 | YouTube Premium | [[Alphabet]] | 100M+ |
 
+## AI-generated scripted-series signal
+
+[[Kalshi]]'s KXAISTREAMSERIES-27 market prices which streaming platform owner will release a fully AI-generated multi-episode scripted series before Jan. 1, 2027. At the May 20, 2026 read, [[Amazon]] led at 24c last, [[Netflix]] followed at 21c, and [[Disney]], [[Paramount Global]], and [[Apple]] clustered around 9c-10c. The signal is not that audiences already want AI-written shows; it is that the first public test is expected to come from a platform with distribution scale, experimentation capacity, and enough legal control to absorb the backlash.
+
+*Source: [[Kalshi]] API event KXAISTREAMSERIES-27, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXAISTREAMSERIES-27*
+
 ## Related
 
 - [[Cord-cutting]] — consumer behavior enabling streaming growth
 - [[Linear TV]] — the declining predecessor
 - [[Streaming wars]] — competitive dynamics
 - [[Streaming data]] — audience measurement
+- [[AI Video Generation]] — production technology pushing toward automated scripted video
 - [[Netflix]] — category creator and profitability leader
 - [[Rich Greenfield]] — leading streaming analyst
 - [[AVOD]] — ad-supported model

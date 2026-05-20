@@ -18,7 +18,7 @@ Global M&A requires approval from major markets:
 Any major market can block by:
 1. Formal rejection
 2. Imposing unacceptable conditions
-3. **Running out the clock** ([[China]]'s preferred method)
+3. Running out the clock ([[China]]'s preferred method)
 
 ---
 
@@ -62,10 +62,22 @@ The West escalated from blocking to seizing:
 
 This was the first nationalization of a Chinese-owned semiconductor company in [[Europe]]. The Netherlands used a Cold War-era law to take control of [[Nexperia]] from Wingtech, citing technology transfer concerns.
 
-**Implications:**
+Implications:
 - Precedent for future [[EU]] interventions
 - [[China]] retaliated with export controls
 - Escalation spiral risk
+
+---
+
+## Kalshi US antitrust overlay (May 20, 2026)
+
+[[Kalshi]]'s AMAZONFTC-29DEC31 market prices whether a court finds that [[Amazon]] illegally maintained a monopoly before 2030. At the May 20 API read, it last traded at 52c with a 53c / 58c bid-ask, 23,993.61 volume, and 5,858.89 open interest. The useful signal is not a single-case verdict forecast; it is that public traders are willing to price Big Tech monopoly findings as a coin-flip regulatory risk over the medium term.
+
+The KXFTCNEXT-27 market is thinner but maps the enforcement-watch list: [[Microsoft]] last traded at 12c, while [[Meta]], [[Google]], [[Amazon]], and [[Tesla]] clustered around 9c-11c with wide spreads. This is not liquid enough to rank targets precisely, but it confirms that the FTC-risk surface is still concentrated in large platform companies rather than scattered across the economy.
+
+Trump v. Slaughter is the governance overlay. KXTRUMPVSLAUGHTER prices a [[Supreme Court]] ruling for [[Donald Trump|Trump]] at 93c last, and the vote-count market prices exactly 6 justices for the petitioner at 90c last. If the Court allows at-will removal of [[FTC]] commissioners, antitrust enforcement becomes more directly tied to presidential-cycle priorities, making "weaponized antitrust" less just a China/US M&A veto story and more a domestic political-control story.
+
+*Sources: [[Kalshi]] API event AMAZONFTC-29DEC31 and series KXFTCNEXT, KXTRUMPVSLAUGHTER, and KXTRUMPSLAUGHTERVOTE, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=AMAZONFTC-29DEC31, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFTCNEXT, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXTRUMPVSLAUGHTER, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXTRUMPSLAUGHTERVOTE*
 
 ---
 

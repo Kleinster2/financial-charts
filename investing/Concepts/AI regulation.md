@@ -10,15 +10,15 @@
 
 | Jurisdiction | Framework | Approach | Status | Extraterritorial |
 |--------------|-----------|----------|--------|------------------|
-| **[[EU]]** | EU AI Act | Risk-based, comprehensive | **Law** (high-risk Aug 2026) | Yes |
-| **[[Brazil]]** | Marco Legal (PL 2338) | Risk-based, social inclusion | Bill (in Chamber) | TBD |
-| **[[China]]** | Multiple regulations | Content control, algorithmic | **Law** (multiple in force) | Limited |
-| **[[UK]]** | Pro-innovation | Sector-specific, principles | Framework (no horizontal law) | No |
-| **US Federal** | None (preemption push) | Deregulatory | Proposal stage | N/A |
-| **US States** | Colorado, California | Patchwork | **Law** (2026) | No |
-| **[[India]]** | None | Advisory only | Draft rules | No |
-| **[[Singapore]]** | Model Framework | Voluntary, governance | Guidance | No |
-| **International** | OECD, UNESCO | Principles | Soft law | N/A |
+| [[EU]] | EU AI Act | Risk-based, comprehensive | Law (high-risk Aug 2026) | Yes |
+| [[Brazil]] | Marco Legal (PL 2338) | Risk-based, social inclusion | Bill (in Chamber) | TBD |
+| [[China]] | Multiple regulations | Content control, algorithmic | Law (multiple in force) | Limited |
+| [[UK]] | Pro-innovation | Sector-specific, principles | Framework (no horizontal law) | No |
+| US Federal | None (preemption push) | Deregulatory | Proposal stage | N/A |
+| US States | Colorado, California | Patchwork | Law (2026) | No |
+| [[India]] | None | Advisory only | Draft rules | No |
+| [[Singapore]] | Model Framework | Voluntary, governance | Guidance | No |
+| International | OECD, UNESCO | Principles | Soft law | N/A |
 
 ---
 
@@ -26,12 +26,12 @@
 
 | Approach | Jurisdictions | Philosophy |
 |----------|---------------|------------|
-| **Comprehensive/horizontal** | EU, Brazil | One law covering all AI |
-| **Sector-specific** | UK, US (proposed) | Existing regulators adapt |
-| **Content/algorithmic control** | China | State control of information |
-| **Disclosure/transparency** | California | Label AI, don't restrict it |
-| **Consequential decisions** | Colorado | Focus on high-stakes uses |
-| **Voluntary/principles** | Singapore, OECD | Industry self-governance |
+| Comprehensive/horizontal | EU, Brazil | One law covering all AI |
+| Sector-specific | UK, US (proposed) | Existing regulators adapt |
+| Content/algorithmic control | China | State control of information |
+| Disclosure/transparency | California | Label AI, don't restrict it |
+| Consequential decisions | Colorado | Focus on high-stakes uses |
+| Voluntary/principles | Singapore, OECD | Industry self-governance |
 
 ---
 
@@ -39,15 +39,15 @@
 
 | Law | Effective | Jurisdiction | Focus |
 |-----|-----------|--------------|-------|
-| **California AI Transparency Act** | Jan 1, 2026 | California | AI content disclosure |
-| **Colorado AI Act** | Jun 30, 2026 | Colorado | High-risk AI systems |
-| **EU AI Act (high-risk)** | Aug 2, 2026 | European Union | High-risk requirements |
+| California AI Transparency Act | Jan 1, 2026 | California | AI content disclosure |
+| Colorado AI Act | Jun 30, 2026 | Colorado | High-risk AI systems |
+| EU AI Act (high-risk) | Aug 2, 2026 | European Union | High-risk requirements |
 
 ---
 
 ## EU AI Act
 
-**World's first comprehensive AI law.**
+World's first comprehensive AI law.
 
 ### Timeline
 
@@ -56,17 +56,17 @@
 | Aug 2024 | Entered into force |
 | Feb 2025 | Prohibited AI practices apply |
 | Aug 2025 | GPAI model rules apply |
-| **Aug 2026** | **High-risk system requirements apply** |
+| Aug 2026 | High-risk system requirements apply |
 | Aug 2027 | All systems must comply |
 
 ### Risk categories
 
 | Category | Examples | Requirements |
 |----------|----------|--------------|
-| **Unacceptable** | Social scoring, manipulative AI | Banned |
-| **High-risk** | Medical devices, employment, credit | Strict compliance |
-| **Limited** | Chatbots, deepfakes | Transparency only |
-| **Minimal** | Spam filters, games | No requirements |
+| Unacceptable | Social scoring, manipulative AI | Banned |
+| High-risk | Medical devices, employment, credit | Strict compliance |
+| Limited | Chatbots, deepfakes | Transparency only |
+| Minimal | Spam filters, games | No requirements |
 
 ### High-risk requirements (Aug 2026)
 
@@ -93,11 +93,11 @@
 
 ## Colorado AI Act
 
-**First comprehensive US state AI law.**
+First comprehensive US state AI law.
 
 ### Effective date
 
-Originally Feb 1, 2026 → **Extended to Jun 30, 2026**
+Originally Feb 1, 2026 → Extended to Jun 30, 2026
 
 ### Scope
 
@@ -112,9 +112,9 @@ Applies to "high-risk" AI systems making consequential decisions about:
 
 | Party | Obligation |
 |-------|------------|
-| **Developers** | Document risks/limitations, disclose to deployers |
-| **Deployers** | Annual impact assessments, consumer notice, opt-out rights |
-| **Both** | Risk disclosure, impact documentation |
+| Developers | Document risks/limitations, disclose to deployers |
+| Deployers | Annual impact assessments, consumer notice, opt-out rights |
+| Both | Risk disclosure, impact documentation |
 
 ### Key provisions
 
@@ -135,8 +135,8 @@ This drafting choice is the central focus of [[xAI]]'s April 2026 First Amendmen
 
 In April 2026, [[xAI]] sued the state of [[Colorado]] over the Colorado AI Act. The complaint advances two arguments:
 
-1. **First Amendment / forced speech.** xAI argues the law forces it to change [[Grok]] to incorporate "the controversial viewpoints of legislators," infringing the company's speech rights.
-2. **Viewpoint non-neutrality.** xAI argues the diversity / historical-discrimination carve-out is evidence that the statute embeds a particular set of values into permissible AI behavior — making the law a content-based regulation of protected speech rather than a neutral anti-discrimination rule.
+1. First Amendment / forced speech. xAI argues the law forces it to change [[Grok]] to incorporate "the controversial viewpoints of legislators," infringing the company's speech rights.
+2. Viewpoint non-neutrality. xAI argues the diversity / historical-discrimination carve-out is evidence that the statute embeds a particular set of values into permissible AI behavior — making the law a content-based regulation of protected speech rather than a neutral anti-discrimination rule.
 
 The narrowest legal effect of the law on xAI, if upheld, is that [[Grok]] cannot be used by Colorado deployers for allocation decisions in the listed sectors (education, housing, healthcare, credit, employment, plus certain government services) without complying with the law's transparency, duty-of-care, and impact-assessment requirements.
 
@@ -182,7 +182,7 @@ This is the kind of doctrinal question the Colorado litigation is the first to p
 
 ## Brazil — Marco Legal (PL 2338/2023)
 
-**LatAm's first comprehensive AI framework.** Modeled on EU AI Act but emphasizes social inclusion and fairness.
+LatAm's first comprehensive AI framework. Modeled on EU AI Act but emphasizes social inclusion and fairness.
 
 | Milestone | Date |
 |-----------|------|
@@ -190,7 +190,7 @@ This is the kind of doctrinal question the Colorado litigation is the first to p
 | Senate approval | December 10, 2024 |
 | Sent to Chamber | March 17, 2025 |
 | Special committee | April 29, 2025 |
-| **Status** | **In Chamber of Deputies** |
+| Status | In Chamber of Deputies |
 
 ### Key provisions
 
@@ -207,12 +207,12 @@ This is the kind of doctrinal question the Colorado litigation is the first to p
 | Aspect | EU AI Act | Brazil Marco Legal |
 |--------|-----------|-------------------|
 | Risk tiers | 4 (unacceptable → minimal) | Similar tiered approach |
-| Social focus | Limited | **Strong** (fairness, inclusion) |
+| Social focus | Limited | Strong (fairness, inclusion) |
 | Penalties | Up to 7% global revenue | TBD |
 | Status | Law (phasing in) | Bill |
 | GDPR/LGPD link | Parallel | Explicit integration |
 
-**Political context:** Lula pushing before 2026 elections. If passed, becomes model for Argentina, Chile, Colombia.
+Political context: Lula pushing before 2026 elections. If passed, becomes model for Argentina, Chile, Colombia.
 
 See [[Brazil AI]] for full detail including REDATA infrastructure incentives.
 
@@ -220,7 +220,7 @@ See [[Brazil AI]] for full detail including REDATA infrastructure incentives.
 
 ## China — Algorithmic & content control
 
-**Multiple overlapping regulations** — not one comprehensive law, but layered control.
+Multiple overlapping regulations — not one comprehensive law, but layered control.
 
 | Regulation | Effective | Focus |
 |------------|-----------|-------|
@@ -244,18 +244,18 @@ See [[Brazil AI]] for full detail including REDATA infrastructure incentives.
 
 | Aspect | China | EU/US |
 |--------|-------|-------|
-| Primary concern | **State control, social stability** | Safety, rights, innovation |
+| Primary concern | State control, social stability | Safety, rights, innovation |
 | Content rules | Prescriptive (socialist values) | Proscriptive (ban harms) |
 | Enforcement | Proactive, licensing | Reactive, penalties |
 | Innovation stance | Controlled development | Permissionless (US) / regulated (EU) |
 
-**Investment implication:** Foreign AI companies cannot operate freely in China. Domestic champions ([[Baidu]], [[Alibaba]], [[Tencent]], [[ByteDance]]) have regulatory moat.
+Investment implication: Foreign AI companies cannot operate freely in China. Domestic champions ([[Baidu]], [[Alibaba]], [[Tencent]], [[ByteDance]]) have regulatory moat.
 
 ---
 
 ## UK — Pro-innovation framework
 
-**No horizontal AI law.** Sector regulators adapt existing rules.
+No horizontal AI law. Sector regulators adapt existing rules.
 
 | Element | Detail |
 |---------|--------|
@@ -282,9 +282,9 @@ See [[Brazil AI]] for full detail including REDATA infrastructure incentives.
 | ICO | Data protection |
 | MHRA | Medical devices |
 
-**Philosophy:** "Regulate the use, not the technology." Avoid EU-style horizontal law. Post-Brexit divergence from EU AI Act.
+Philosophy: "Regulate the use, not the technology." Avoid EU-style horizontal law. Post-Brexit divergence from EU AI Act.
 
-**Risk:** UK companies serving EU customers still must comply with EU AI Act.
+Risk: UK companies serving EU customers still must comply with EU AI Act.
 
 ---
 
@@ -300,7 +300,7 @@ See [[Brazil AI]] for full detail including REDATA infrastructure incentives.
 | Robustness | Safe and secure |
 | Accountability | Responsibility for AI systems |
 
-**Signatories:** 46 countries including US, UK, EU members, Japan, Korea, Brazil, Argentina, Chile, Mexico.
+Signatories: 46 countries including US, UK, EU members, Japan, Korea, Brazil, Argentina, Chile, Mexico.
 
 Not legally binding but influential — referenced in national frameworks.
 
@@ -327,20 +327,20 @@ Voluntary code of conduct for frontier AI developers. Endorsed by major AI labs.
 
 | Aspect | EU AI Act | Brazil Marco Legal | China |
 |--------|-----------|-------------------|-------|
-| **Scope** | All AI systems | All AI systems | Algorithms, GenAI, deepfakes |
-| **Approach** | Risk-based tiers | Risk-based + social | Content control |
-| **Penalties** | Up to 7% global revenue | TBD | Licensing revocation |
-| **Status** | Law (phasing in) | Bill | Multiple laws in force |
-| **Philosophy** | Rights protection | Inclusion + rights | State stability |
+| Scope | All AI systems | All AI systems | Algorithms, GenAI, deepfakes |
+| Approach | Risk-based tiers | Risk-based + social | Content control |
+| Penalties | Up to 7% global revenue | TBD | Licensing revocation |
+| Status | Law (phasing in) | Bill | Multiple laws in force |
+| Philosophy | Rights protection | Inclusion + rights | State stability |
 
 ### US landscape
 
 | Aspect | Federal (proposed) | Colorado | California |
 |--------|-------------------|----------|------------|
-| **Scope** | Preemption of states | High-risk decisions | Content/transparency |
-| **Approach** | Lightweight standard | Consequential decisions | Disclosure-focused |
-| **Penalties** | TBD | TBD | $5K/day/violation |
-| **Status** | Proposal | Law (Jun 2026) | Law (Jan 2026) |
+| Scope | Preemption of states | High-risk decisions | Content/transparency |
+| Approach | Lightweight standard | Consequential decisions | Disclosure-focused |
+| Penalties | TBD | TBD | $5K/day/violation |
+| Status | Proposal | Law (Jun 2026) | Law (Jan 2026) |
 
 ### Liability models
 
@@ -370,12 +370,12 @@ Voluntary code of conduct for frontier AI developers. Endorsed by major AI labs.
 
 | Dimension | Divergence |
 |-----------|-----------|
-| **Content control** | China prescriptive; West proscriptive |
-| **Centralization** | EU/Brazil horizontal; UK/US sectoral |
-| **Innovation stance** | US permissionless; EU precautionary; China controlled |
-| **Extraterritoriality** | EU yes; others limited |
-| **Social goals** | Brazil explicit; others implicit |
-| **Enforcement** | EU fines; China licensing; US litigation |
+| Content control | China prescriptive; West proscriptive |
+| Centralization | EU/Brazil horizontal; UK/US sectoral |
+| Innovation stance | US permissionless; EU precautionary; China controlled |
+| Extraterritoriality | EU yes; others limited |
+| Social goals | Brazil explicit; others implicit |
+| Enforcement | EU fines; China licensing; US litigation |
 
 ### The Brussels Effect
 
@@ -384,7 +384,7 @@ EU AI Act likely to become de facto global standard (like GDPR) because:
 - Compliance cost — easier to build one global product than regional variants
 - First-mover — most detailed framework
 
-**But:** US pushing back (Sacks), China has own ecosystem, UK deliberately diverging.
+But: US pushing back (Sacks), China has own ecosystem, UK deliberately diverging.
 
 ---
 
@@ -394,17 +394,17 @@ EU AI Act likely to become de facto global standard (like GDPR) because:
 
 | Company type | Impact |
 |--------------|--------|
-| **AI developers** | Documentation, testing, auditing |
-| **AI deployers** | Impact assessments, disclosures |
-| **Foundational model cos** | Training data transparency |
+| AI developers | Documentation, testing, auditing |
+| AI deployers | Impact assessments, disclosures |
+| Foundational model cos | Training data transparency |
 
 ### Winners
 
 | Category | Why |
 |----------|-----|
-| **AI compliance tools** | New compliance market |
-| **AI auditing firms** | Mandatory assessments |
-| **Explainable AI** | Transparency requirements |
+| AI compliance tools | New compliance market |
+| AI auditing firms | Mandatory assessments |
+| Explainable AI | Transparency requirements |
 
 ### Affected companies
 
@@ -420,9 +420,9 @@ EU AI Act likely to become de facto global standard (like GDPR) because:
 
 ## Trump administration federal preemption push (Jan 2026)
 
-**The problem:** Over **1,200 AI bills** going through state legislatures simultaneously ([[David Sacks]], Davos Jan 23). Many are "knee-jerk reactions" to hypothetical concerns before seeing how AI is actually used.
+The problem: Over 1,200 AI bills going through state legislatures simultaneously ([[David Sacks]], Davos Jan 23). Many are "knee-jerk reactions" to hypothetical concerns before seeing how AI is actually used.
 
-**Why it matters:** Patchwork is most detrimental to early-stage companies and entrepreneurs — large companies can navigate 50 different rules, startups cannot. This stifles precisely the permissionless innovation that makes Silicon Valley work.
+Why it matters: Patchwork is most detrimental to early-stage companies and entrepreneurs — large companies can navigate 50 different rules, startups cannot. This stifles precisely the permissionless innovation that makes Silicon Valley work.
 
 | Element | Detail |
 |---------|--------|
@@ -434,22 +434,22 @@ EU AI Act likely to become de facto global standard (like GDPR) because:
 | Working on | Legislative proposal for "lightweight federal standard" |
 | Lead | [[David Sacks]] + [[Michael Kratsios]] together |
 
-**Sacks on regulatory philosophy:**
+Sacks on regulatory philosophy:
 - Biden left 300 pages of AI/semiconductor regulations — would have changed "permissionless innovation" to "go to Washington for approval"
 - Trump rescinded all in first week
 - Since then: pro innovation, pro infrastructure, pro energy, pro export
 - "Since Hewlett and Packard started 85 years ago... founders don't need to go to Washington to get permission for their idea"
 
-**AI optimism gap ([[Stanford]] polling):**
+AI optimism gap ([[Stanford]] polling):
 
 | Country | "AI more beneficial than harmful" |
 |---------|-----------------------------------|
-| [[China]] | **83%** |
-| US | **39%** |
+| [[China]] | 83% |
+| US | 39% |
 
 Asian countries high, Western countries low. Sacks attributes to: (1) media doom/gloom, (2) Hollywood dystopian portrayals, (3) tech leaders talking about eliminating jobs. Low AI optimism feeds regulatory frenzy — could "shoot ourselves in the foot" and cost the race.
 
-**EU criticism (Sacks):** "Bad case of main character syndrome" — when EU talks about AI leadership, they mean regulators showing the regulatory model. "Regulators are supporting players. The main characters always have to be the entrepreneurs." EU AI Act passed before [[ChatGPT]] existed.
+EU criticism (Sacks): "Bad case of main character syndrome" — when EU talks about AI leadership, they mean regulators showing the regulatory model. "Regulators are supporting players. The main characters always have to be the entrepreneurs." EU AI Act passed before [[ChatGPT]] existed.
 
 *Source: Davos panel (Sacks, Kratsios, Bartiromo), Jan 23 2026*
 
@@ -498,18 +498,28 @@ The current patchwork guarantees regulators learn *less* about deployed AI syste
 
 ---
 
+## Kalshi federal-law overlay (May 20, 2026)
+
+[[Kalshi]]'s KXAILEGISLATION-27 market prices whether AI regulation becomes US federal law before Jan. 1, 2027. At the May 20 API read, the contract last traded at 29c with a 28c / 31c bid-ask, 40,598.82 volume, and 14,409.59 open interest. That makes federal AI law in 2026 a live possibility, but not the base case.
+
+The adjacent KXSCOTUSAICOPYRIGHT-27JAN market prices whether the [[Supreme Court]] hears an AI copyright case before 2027. It last traded at 13c with a 14c / 20c bid-ask, 8,064.54 volume, and 3,767.43 open interest. The market is saying statutory action is the more plausible near-term federal path than a Supreme Court copyright intervention.
+
+*Sources: [[Kalshi]] API series KXAILEGISLATION and KXSCOTUSAICOPYRIGHT, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXAILEGISLATION and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXSCOTUSAICOPYRIGHT*
+
+---
+
 ## What to watch
 
 ### Global
-- [ ] **Brazil Marco Legal** — Chamber vote (2026 election pressure)
-- [ ] **EU AI Act** — high-risk requirements (Aug 2026)
-- [ ] **China** — next wave of generative AI rules
-- [ ] **UK** — whether pro-innovation stance holds
-- [ ] **India** — draft rules finalization
+- [ ] Brazil Marco Legal — Chamber vote (2026 election pressure)
+- [ ] EU AI Act — high-risk requirements (Aug 2026)
+- [ ] China — next wave of generative AI rules
+- [ ] UK — whether pro-innovation stance holds
+- [ ] India — draft rules finalization
 
 ### US
-- [ ] **Federal preemption legislation** — Sacks/Kratsios working on in 2026
-- [ ] **1,200+ state bills** — regulatory frenzy trajectory
+- [ ] Federal preemption legislation — Sacks/Kratsios working on in 2026
+- [ ] 1,200+ state bills — regulatory frenzy trajectory
 - [ ] Colorado enforcement rules (Jun 2026)
 - [ ] California AG enforcement actions
 - [ ] Other state AI laws (Texas, Illinois pending)
