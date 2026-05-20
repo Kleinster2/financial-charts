@@ -141,6 +141,14 @@ Strategic logic: Beijing needs domestic chip demand to fund Huawei [[Ascend]] de
 
 Implication: Companies cannot plan long-term. Capex decisions complicated by regulatory whiplash.
 
+### Kalshi read-through: H200-to-China confirmation (May 19, 2026)
+
+[[Kalshi]]'s KXH200CHINA contract prices a 75c last, 75c / 76c bid-ask probability that [[NVIDIA]] H200 chips being delivered to mainland [[China]] will be confirmed before Jan. 1, 2027. Volume was 1,035.84 with 298.04 open interest at the API read.
+
+This is not evidence that delivery has happened; it is a market-implied probability that delivery will be confirmed. The read-through is that traders lean toward some path through the policy maze - licenses, managed access, special-circumstance imports, or a confirmed leakage route - despite China's January import resistance and the US managed-access framework. That fits the core [[Export controls|export-control]] theme: policy is trying to deny, meter, and monetize access at the same time, which creates whiplash rather than a clean embargo.
+
+*Source: [[Kalshi]] API series KXH200CHINA, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXH200CHINA*
+
 ### Jan 14-15, 2026: Section 232 semiconductor tariff — new policy tool
 
 The biggest shift since export controls began. See [[Section 232 semiconductor tariff]] for full details.
@@ -532,3 +540,4 @@ The policy readthrough is uncomfortable: hardware denial and API-access controls
 - [[DeepSeek]] — model layer of China AI export threat
 - [[Jensen Huang]] — Apr 2026 rebuttal (ecosystem diffusion over chip denial)
 - [[Jensen Five Layer Cake]] — framework Jensen uses to argue against single-layer denial
+- [[Kalshi]] — prediction-market read-through on H200-to-China confirmation

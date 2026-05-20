@@ -23,6 +23,7 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 | Anthropic-[[Google]] | Up to $40B equity; reported ~$200B cloud capacity | Strategic cloud offtake + equity | Google Cloud/TPU capacity, 5 GW over five years |
 | [[NextEra-Dominion merger 2026]] | $66.8B equity / ~$420B EV | Utility M&A / power platform | Stock-for-stock combination around >130 GW large-load pipeline |
 | [[Google-Blackstone TPU cloud venture 2026]] | $5B initial equity; up to ~$25B with leverage (FT) | Chip-backed TPU neo-cloud JV | Google supplies TPU + software; Blackstone majority (per FT); 500 MW online 2027; [[Benjamin Treynor Sloss]] CEO |
+| [[Nebius]] capital markets stack | $700M strategic equity + ~$4.3375B convertibles | Listed neocloud financing | [[Accel]] / [[NVIDIA]] / [[Orbis Investments]] strategic equity; private convertible notes to qualified institutional buyers; [[Microsoft]] and [[Meta]] as demand anchors |
 
 ---
 
@@ -153,12 +154,19 @@ Pioneer of [[GPU-as-collateral]].
 | IPO | $1.5B | Mar 2025 |
 | DDTL 3.0 | $2.6B | Jul 2025 |
 | Current total debt | $18.81B | Sep 2025 |
+| Delayed-draw term loan | $8.5B | Mar 2026 |
 
 ### $7.5B facility participants
 
 - Blackstone (co-lead)
 - Magnetar (co-lead)
 - [[Coatue]], Carlyle, CDPQ, [[DigitalBridge]] Credit, [[BlackRock]], Eldridge
+
+### March 2026 $8.5B delayed-draw facility
+
+The March 2026 update is the current capital-provider datapoint for CRWV. CoreWeave secured an $8.5B delayed-draw term loan facility to expand its AI cloud platform. The facility was anchored by [[Blackstone]] Credit & Insurance; [[Morgan Stanley]] and [[MUFG]] were structuring agents and bookrunners; [[Goldman Sachs]] and [[JPMorgan Chase]] were joint lead arrangers.
+
+This makes the contrast with the [[Google-Blackstone TPU cloud venture 2026]] sharper: Blackstone is a private-credit/debt anchor for CoreWeave's GPU cloud, but an equity sponsor for Google's TPU operating company.
 
 ### Debt terms
 
@@ -311,6 +319,37 @@ Lesson: Credit quality matters. PE won't finance everyone.
 
 ---
 
+## 11. [[Google-Blackstone TPU cloud venture 2026]] ($5B equity; ~$25B FT-only total)
+
+This is the first large chip-backed TPU neocloud JV in the ledger.
+
+| Component | Amount / role | Details |
+|---|---|---|
+| Initial equity | $5B | Funds managed by [[Blackstone]] |
+| Hardware/software | In-kind / commercial supply | [[Alphabet|Google]] supplies [[TPU]] hardware, software, and services |
+| First capacity | 500 MW in 2027 | Official Blackstone target |
+| Potential total | Up to ~$25B | FT-only leverage figure, not confirmed by Blackstone release |
+| Operator | New U.S.-based company | [[Benjamin Treynor Sloss]] CEO |
+| Powered-capacity role | Sites / grid / construction / operations | [[Blackstone]] brings digital-infrastructure and energy-execution capability through its data-center platform, not a disclosed named power plant or [[Power purchase agreement|PPA]] |
+
+The financing read-through is not just "more data centers." It is Google adopting the non-hyperscaler distribution model Nvidia used through [[CoreWeave]] / [[Nebius]], but with Blackstone carrying the external capital burden and Google preserving control of the TPU stack. The operational read-through is that capital and power are converging: Blackstone's edge is the ability to convert capital into powered, permitted, operable data-center capacity, while the specific sites, grid regions, PPAs, and interconnections remain undisclosed.
+
+---
+
+## 12. [[Nebius]] capital markets stack
+
+Nebius is not a Blackstone-style infra JV. It is the listed-neocloud variant of the same funding need.
+
+| Component | Amount | Capital providers / buyers | Read |
+|---|---:|---|---|
+| Strategic equity | $700M | Institutional/accredited investors including [[Accel]], [[NVIDIA]], and [[Orbis Investments]]-managed accounts | Supplier/venture support for GPU-cloud rollout |
+| Convertible senior notes | ~$4.3375B | Private offering to qualified institutional buyers | Public-company capital markets funding data centers, AI cloud development, footprint expansion, and GPU procurement |
+| Customer demand | Up to $19.4B [[Microsoft]]; roughly $3B [[Meta]] | Customers, not equity sponsors | Offtake supports utilization but is not sponsor capital |
+
+See [[Neocloud financing]] for the CRWV / NBIS / Google-Blackstone comparison.
+
+---
+
 ## Patterns across deals
 
 ### Chip vendor financing
@@ -330,12 +369,12 @@ Lesson: Credit quality matters. PE won't finance everyone.
 | JPMorgan | Construction | Crusoe $9.6B |
 | Blue Owl | SPV equity | Meta, Crusoe, [[Oracle]] |
 | Pimco | Debt anchor | Meta ($18B) |
-| Blackstone | Debt lead | CoreWeave |
+| [[Blackstone]] | Debt lead + equity sponsor | CoreWeave debt; Google-Blackstone TPU JV |
 | [[Apollo]] | Debt | Meta, xAI |
 
 ---
 
-*Updated 2026-01-26*
+*Updated 2026-05-19*
 
 ## Related
 
@@ -348,4 +387,7 @@ Lesson: Credit quality matters. PE won't finance everyone.
 - [[CoreWeave]] — pioneer GPU financing
 - [[Blue Owl]] — key SPV equity provider
 - [[Blackstone]] — CoreWeave lead
+- [[Nebius]] — listed neocloud capital-markets stack
+- [[Google-Blackstone TPU cloud venture 2026]] — TPU neocloud JV
+- [[Neocloud financing]] — capital-provider comparison
 - [[Stargate]] — $500B consortium

@@ -46,6 +46,16 @@ See [[Space Geopolitics]] for strategic implications and governance gaps.
 
 ---
 
+## Kalshi launch-timing market (May 19, 2026)
+
+[[Kalshi]]'s active [[Starship]] timing market is pricing another SpaceX Starship launch by May 31, 2026 at 85c, with a much lower 38c price for a launch by May 21 and 1c for May 19-20. The read-through is a late-May launch window rather than an immediate next-day attempt.
+
+This matters for [[SpaceX IPO 2026]] because the public-market story depends on investors believing [[Starship]] cadence is moving from dramatic test article to reliable heavy-lift platform. The market is not pricing a solved program; it is pricing one more near-term test launch as likely.
+
+*Source: [[Kalshi]] API series KXSPACEXSTARSHIP, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXSPACEXSTARSHIP*
+
+---
+
 ## Related
 
 - [[SpaceX]] — manufacturer

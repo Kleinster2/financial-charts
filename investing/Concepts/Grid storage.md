@@ -63,6 +63,23 @@ Battery energy storage systems (BESS) for utility-scale applications. Distinct m
 
 ---
 
+## Kalshi Tesla Energy deployment ladder (May 19, 2026)
+
+[[Kalshi]]'s KXTESLAENERGYBY-27 market prices how much [[Tesla Energy]] can scale energy-product deployments in any single quarter before Q1 2027:
+
+| Single-quarter deployment threshold | Last | Bid / ask | Volume | Open interest |
+|---|---:|---:|---:|---:|
+| Above 15 GWh | 61c | 62c / 68c | 10,894.98 | 6,513.83 |
+| Above 20 GWh | 32c | 32c / 40c | 8,045.47 | 6,121.85 |
+| Above 30 GWh | 25c | 22c / 24c | 6,608.00 | 3,232.00 |
+| Above 50 GWh | 3c | 2c / 11c | 1,718.99 | 1,388.67 |
+
+This is a clean grid-storage sentiment read: traders believe [[Tesla Energy]] can probably clear a 15 GWh quarter, but are much less willing to underwrite a 20-30 GWh quarter before 2027 and treat 50 GWh as remote. The implication for this note is that utility-scale storage demand is real, but near-term deployment is still gated by factory ramp, battery supply, interconnection, and project execution rather than by headline demand alone.
+
+*Source: [[Kalshi]] API event KXTESLAENERGYBY-27, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/events/KXTESLAENERGYBY-27?with_nested_markets=true*
+
+---
+
 ## Investment dynamics
 
 **Bull case:**

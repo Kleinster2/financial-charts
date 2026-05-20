@@ -139,6 +139,22 @@ For the [[Long nuclear]] thesis: fission is the trade, fusion is the option. Fus
 
 ---
 
+## Kalshi timeline pricing (May 19, 2026)
+
+[[Kalshi]]'s KXFUSION ladder puts a prediction-market price on the fusion timeline embedded in this note:
+
+| Contract | Last | Bid / ask | Volume | Open interest |
+|---|---:|---:|---:|---:|
+| Fusion achieved before Jan. 1, 2030 | 27.6c | 27.6c / 28.0c | 28,270.67 | 11,348.61 |
+| Fusion achieved before Jan. 1, 2035 | 48.8c | 44.1c / 48.8c | 5,488.61 | 2,355.23 |
+| Fusion achieved before Jan. 1, 2040 | 50.0c | 49.0c / 50.0c | 8,588.82 | 3,421.18 |
+
+The useful read is that traders price a meaningful 2030 option but not a base case, while the 2035-2040 window is roughly coin-flip. That matches the investing frame above: fusion can be a long-dated upside option on [[Power constraints]] and [[Clean energy for AI]], but it does not displace fission, gas, interconnection, or storage as the 2025-2030 bottleneck trade.
+
+*Source: [[Kalshi]] API series KXFUSION, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFUSION*
+
+---
+
 ## Investment access
 
 Almost entirely private. Public market exposure:

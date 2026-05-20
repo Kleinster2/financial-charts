@@ -134,6 +134,14 @@ Both valid strategies — depends on risk tolerance and scale.
 
 **Current trend:** Gas turbines for speed, nuclear for long-term.
 
+### Kalshi nuclear data-center market (May 19, 2026)
+
+[[Kalshi]]'s KXDATACENTER contract prices a 52c last, 52c / 57c bid-ask probability that the US starts the process of building a nuclear-powered data center on a military base before 2030. Volume was 7,559.88 and open interest was 3,455.33 at the API read.
+
+This is a useful BYOP signal because it puts a market price on the most politically explicit version of the thesis: compute demand, federal land, and nuclear baseload bundled together. A roughly coin-flip probability says traders view military-base nuclear data centers as plausible, but not yet a consensus deployment path. That fits the broader power stack: gas remains the near-term buildout answer, while nuclear is the long-duration option if AI demand keeps compounding and grid interconnection remains the bottleneck.
+
+*Source: [[Kalshi]] API series KXDATACENTER, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXDATACENTER*
+
 ---
 
 ## Alternative power providers
@@ -249,3 +257,4 @@ Demand backdrop: [[BloombergNEF]] estimates US data center power demand surges f
 - [[DC power prices]] — ratepayer impact of DC demand
 - [[Global DC grid strain]] — grid queue crisis driving BYOP adoption (UK: 125 GW queue, 8-10 yr waits)
 - [[Ratepayer Protection Pledge]] — Trump's take-or-pay formalization
+- [[Kalshi]] — prediction-market layer for nuclear data-center and power-demand expectations

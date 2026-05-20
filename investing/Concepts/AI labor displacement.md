@@ -19,7 +19,7 @@ Three phases are emerging:
 Companies quietly reduce hiring and let attrition work. AI handles tasks previously done by new hires who never get hired. [[Klarna]]'s chatbot handling two-thirds of customer interactions (Feb 2024) was the first concrete proof point. Nobody calls it "AI layoffs" yet.
 
 **Phase 2: Attribution begins (2025)**
-Companies start naming AI explicitly in layoff announcements. Challenger, Gray and Christmas tracked 55,000 US jobs directly attributed to AI in 2025 — 12× the number in 2023. Still mostly concentrated in tech (51,000 of 55,000).
+Companies start naming AI explicitly in layoff announcements. [[Challenger, Gray and Christmas]] tracked 55,000 US jobs directly attributed to AI in 2025 — 12× the number in 2023. Still mostly concentrated in tech (51,000 of 55,000).
 
 **Phase 3: Structural cuts (2026)**
 [[Block AI layoffs February 2026|Block cuts 40%]] of its workforce while posting record profits, explicitly blaming AI. [[Jack Dorsey]] predicts "the majority of companies" will follow within a year. The market rewards it with a 24% stock jump. This is the phase where AI displacement becomes a *strategy*, not a side effect.
@@ -159,6 +159,16 @@ The interesting residual question: what portion of the 55,000 "AI-attributed" la
 
 ---
 
+## Kalshi signal: Challenger May report (May 19, 2026)
+
+[[Kalshi]]'s KXCHAICUTS contract asks whether "Artificial Intelligence" will be the number-one cited reason for job cuts in [[Challenger, Gray and Christmas]]'s May 2026 report. At the API read, the contract last traded at 60c with a 60c / 74c bid-ask, 21,620.30 volume, and 3,959 open interest.
+
+That makes AI-attribution a live base case rather than a tail. The market is not saying AI is truly causing every cut; it is pricing the report's stated-reason category. That distinction matters because this note already separates genuine workflow replacement from the rate-cycle / narrative-cover counter-reading. If the May report prints AI as the top cited reason, the right update is "managements are increasingly using AI as the language of labor reduction," not automatically "AI has replaced the marginal worker."
+
+*Source: [[Kalshi]] API series KXCHAICUTS, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCHAICUTS*
+
+---
+
 ## Macro implications
 
 - **55,000 AI-attributed layoffs in 2025** (Challenger data) — still tiny vs. 160M US workforce
@@ -269,3 +279,5 @@ The anxiety was a side effect they didn't plan for but arguably benefited from �
 - [[Federal Reserve]] — rate cycle as alternative driver of the developer-job collapse
 - [[Oracle]] — the applied counter-reading: layoffs as cash-flow management for the [[Warner Bros Discovery]] bid, not AI efficiency
 - [[Big Law transformation]] — junior-associate work in Big Law is the most exposed white-collar category to AI displacement
+- [[Challenger, Gray and Christmas]] — job-cut reason dataset used to track AI-attribution
+- [[Kalshi]] — prediction-market layer on whether AI leads Challenger job-cut reasons

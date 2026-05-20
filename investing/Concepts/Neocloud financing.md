@@ -1,6 +1,6 @@
 #concept #risk #nvidia #neocloud
 
-NVIDIA finances GPU cloud companies that absorb inventory and help hit quarterly numbers. Is this real demand or orchestrated demand?
+[[NVIDIA]] finances GPU cloud companies that absorb inventory and help hit quarterly numbers. Is this real demand or orchestrated demand?
 
 ---
 
@@ -96,16 +96,30 @@ This connects to [[GPU deployment bottleneck]]:
 
 ## Chip-backed TPU clouds: the May 2026 mirror category
 
-The [[Google-Blackstone TPU cloud venture 2026|May 18, 2026 Google-Blackstone JV]] opens a parallel category: chip-vendor-backed neo-clouds on the [[TPU]] side. The structure mirrors the Nvidia-GPU pattern in every dimension that matters — chip vendor supplies silicon and software, private-capital sponsor supplies the buildout equity, separate entity sells capacity to customers under its own brand — but reverses the chip family.
+The [[Google-Blackstone TPU cloud venture 2026|May 18, 2026 Google-Blackstone JV]] opens a parallel category: chip-vendor-backed neo-clouds on the [[TPU]] side. The structure mirrors the Nvidia-GPU pattern in every dimension that matters — chip vendor supplies silicon and software, private-capital sponsor supplies the buildout equity and powered-capacity delivery, separate entity sells capacity to customers under its own brand — but reverses the chip family. In this structure, "capital sponsor" includes the practical work of turning equity into sites, grid access, construction, operations, and energy procurement; no specific power plant, [[Power purchase agreement|PPA]], interconnection, or grid region has been disclosed for the Google-Blackstone JV.
 
 | TPU-cloud | Chip-vendor (Google) role | Capital sponsor | Notes |
 |---|---|---|---|
-| Google-Blackstone JV (May 2026) | TPU hardware, software, services | [[Blackstone]] | $5B equity, up to ~$25B with leverage (FT); 500 MW in 2027; [[Benjamin Treynor Sloss]] CEO; Blackstone majority per FT (PR silent on split) |
+| Google-Blackstone JV (May 2026) | TPU hardware, software, services | [[Blackstone]] | $5B equity, up to ~$25B with leverage (FT); 500 MW in 2027; powered-capacity delivery via Blackstone's energy/digital-infra platform, but no named power asset disclosed; [[Benjamin Treynor Sloss]] CEO; Blackstone majority per FT (PR silent on split) |
 | [[FluidStack]] (Feb 2026) | $100M equity + TPU supply | Founder-led | Smaller, deployment-services layer for specific Anthropic / Hut 8 / TeraWulf wins |
 
 The structural significance: TPU is now distributed through the same business model NVIDIA uses, not just through [[Google Cloud]]'s own retail interface. Combined with the [[Anthropic hyperscaler financing surge April 2026|April 2026 Anthropic deals]] and the [[Google TPU Competitive Position|Cloud Next 2026 customer roster]], the TPU competitive frame has decisively shifted from "Google-internal tool" to "Nvidia-style ecosystem with private-capital intermediation."
 
 The implications for the channel-stuffing question below are interesting — if the chip-vendor-backed neo-cloud model is a structural feature of accelerated compute distribution rather than an Nvidia-specific tactic, the "phone call" framing becomes weaker as a critique of Nvidia specifically. The same structure now exists for TPU under a different parent.
+
+---
+
+## Capital-provider map: Google-Blackstone vs CRWV vs NBIS
+
+The Google-Blackstone JV is in the same broad neocloud category as [[CoreWeave]] / CRWV and [[Nebius]] / NBIS, but the capital stack is different. It is a private-capital TPU operating company; CoreWeave is the Nvidia-backed GPU neocloud financed by private credit plus customer contracts; Nebius is a listed GPU cloud using strategic equity and convertible debt.
+
+| Vehicle | Who provides the capital | Demand / offtake support | Read |
+|---|---|---|---|
+| [[Google-Blackstone TPU cloud venture 2026]] | [[Blackstone]] funds provide the $5B initial equity commitment; [[Alphabet|Google]] supplies TPU hardware, software, and services. FT reported up to ~$25B total investment with leverage, but Blackstone's release confirms only the $5B equity commitment. | Future TPU customers; [[Anthropic]] is the most obvious demand anchor given the April 2026 TPU-capacity context, but no anchor customer has been formally named. | TPU-side mirror of the Nvidia neocloud playbook, with Blackstone carrying the capital-heavy buildout. |
+| [[CoreWeave]] / CRWV | [[NVIDIA]] equity, public equity, and private-credit/debt facilities. The March 2026 $8.5B delayed-draw term loan was anchored by [[Blackstone]] Credit & Insurance, with [[Morgan Stanley]] and [[MUFG]] as structuring agents/bookrunners and [[Goldman Sachs]] / [[JPMorgan Chase]] as lead arrangers. | [[Microsoft]] revenue concentration and contracted backlog support the debt stack; [[Meta]] and [[Perplexity]] broaden the demand story. | GPU neocloud financed by chip-vendor support, customer contracts, and private credit. |
+| [[Nebius]] / NBIS | $700M Dec 2024 strategic equity from investors including [[Accel]], [[NVIDIA]], and [[Orbis Investments]]-managed accounts; about $4.3375B March 2026 convertible senior notes sold privately to qualified institutional buyers. | [[Microsoft]] deal up to $19.4B and roughly $3B [[Meta]] contract are customer/offtake support, not sponsor equity. | Listed GPU-cloud buildout funded more through strategic equity and public-company capital markets than a Blackstone-style infrastructure JV. |
+
+Sources: [Blackstone May 18 2026 release](https://www.blackstone.com/news/press/blackstone-announces-joint-venture-with-google-to-create-new-tpu-cloud/); [Reuters via StreetInsider on CoreWeave's $8.5B loan](https://www.streetinsider.com/Reuters/CoreWeave%2Bsecures%2B%248.5%2Bbillion%2Bloan%2Bto%2Bexpand%2BAI%2Binfrastructure/26246783.html); [CoreWeave Q1 2026 release](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/); [Nebius Dec 2024 strategic equity release](https://nebius.com/newsroom/nebius-announces-oversubscribed-strategic-equity-financing-of-usd-700-million-to-accelerate-roll-out-of-full-stack-ai-infrastructure); [Nebius Mar 2026 convertible notes release](https://nebius.com/newsroom/nebius-group-announces-closing-of-private-offering-of-convertible-senior-notes-with-aggregate-gross-proceeds-of-approximately-4-3-billion).
 
 ---
 
@@ -169,6 +183,8 @@ This is distinct from the channel-stuffing question above. The "phone call" fram
 - [[Crusoe Energy]] — neocloud competitor
 - [[GPU deployment bottleneck]] — shipped ≠ deployed
 - [[AI infrastructure financing risk]] — broader financing concerns
+- [[AI infrastructure financing]] — overview capital-stack map
+- [[AI infrastructure deals]] — deal-by-deal ledger
 - [[Microsoft]] — key customer across multiple neoclouds
 - [[Law of one price]] — fragmentation regime driving cross-border arbitrage demand
 - [[US-China decoupling]] — policy regime creating the dispersion neoclouds arbitrage
@@ -177,3 +193,4 @@ This is distinct from the channel-stuffing question above. The "phone call" fram
 - [[FluidStack]] — Google-backed TPU-cloud deployment partner (Feb 2026 $100M)
 - [[Blackstone]] — TPU-cloud sponsor (also CoreWeave debt lead)
 - [[TPU]] — accelerator silicon at the centre of the May 2026 category opening
+- [[Orbis Investments]] — Nebius strategic-equity participant

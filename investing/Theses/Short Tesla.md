@@ -208,6 +208,7 @@ A merger would increase Musk's combined stake. Tesla shareholders would be dilut
 | **2026-01-30** | **Tesla/SpaceX/xAI merger speculation (Bloomberg)** | **Bearish** |
 | **2026-01-28** | **$2B Tesla investment in xAI announced** | **Bearish** |
 | **2026-01-28** | **Capex guidance >$20B (doubling YoY)** | **Bearish** |
+| 2026-05-19 | [[Kalshi]] KXTESLAENERGYBY prices [[Tesla Energy]] above 15 GWh deployed in a single quarter before 2027 at 61c, but above 20 GWh at 32c and above 50 GWh at 3c | Mixed: validates energy optionality, but not an explosive enough ramp to erase auto/FSD risk |
 | 2026-01-12 | L&F contract collapsed ($2.9B → $7K) | Bearish |
 | 2026-01-02 | Q4 deliveries miss (418K vs 426K expected) | Bearish |
 | 2025-12 | Austin unsupervised FSD testing started | Neutral |

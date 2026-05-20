@@ -67,6 +67,22 @@ Sprott: Market defined by "two speeds" — short-term volatility masking bullish
 
 [[China]] leading buildout. See [[China nuclear buildout]].
 
+### Kalshi reactor-approval and energy-mix overlay (May 19, 2026)
+
+[[Kalshi]]'s nuclear and primary-energy markets provide a useful prediction-market overlay on the uranium thesis:
+
+| Market | Last | Bid / ask | Read |
+|---|---:|---:|---|
+| New US nuclear reactor approved by Dec. 31, 2026 | 20.3c | 19.3c / 20.3c | Traders price a real but non-base-case 2026 approval event. |
+| Largest global primary-energy source in 2030: [[Oil]] | 48c | 48c / 52c | Fossil incumbency remains the market's base case. |
+| Largest global primary-energy source in 2030: [[Coal]] | 15c | 13c / 15c | Coal still has meaningful tail odds. |
+| Largest global primary-energy source in 2030: [[Natural gas]] | 9c | 9c / 16c | Gas is not priced as the global primary-energy winner, despite AI/data-center demand. |
+| Largest global primary-energy source in 2030: nuclear | 4c | 2c / 4c | Nuclear renaissance is not priced as a primary-energy-share takeover by 2030. |
+
+The market read is not bearish for [[Uranium]] so much as it is timing-disciplined. AI/data-center demand can tighten nuclear fuel markets and support advanced-reactor optionality without nuclear becoming the world's largest primary-energy source this decade. The 20c reactor-approval contract is the cleaner near-term policy signal; the 4c primary-energy-share contract says the market still treats nuclear as a capacity-growth and scarcity story, not a 2030 displacement story.
+
+*Sources: [[Kalshi]] API series KXREACTOR and KXPRIMEENGCONSUMPTION, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXREACTOR and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXPRIMEENGCONSUMPTION*
+
 ---
 
 ## Investment thesis
@@ -137,3 +153,4 @@ Sprott: Market defined by "two speeds" — short-term volatility masking bullish
 - [[China nuclear buildout]] — demand growth
 - [[Power constraints]] — AI power thesis
 - [[TerraPower]] — advanced reactor developer
+- [[Kalshi]] — prediction-market layer for reactor approval and primary-energy mix

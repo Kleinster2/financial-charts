@@ -114,6 +114,20 @@ The deals are not fraudulent round-tripping; the capacity is real and Anthropic 
 
 ---
 
+### Neocloud capital-stack fork (May 2026)
+
+The Google-Blackstone TPU JV makes the risk taxonomy more precise. CRWV, NBIS, and the TPU JV are all accelerated-cloud capacity vehicles, but they do not put risk in the same place.
+
+| Vehicle | Capital stack | Risk channel |
+|---|---|---|
+| [[CoreWeave]] / CRWV | [[NVIDIA]] equity + public equity + private credit; March 2026 $8.5B DDTL anchored by [[Blackstone]] Credit & Insurance | Customer-contract durability, GPU depreciation, refinancing, and [[Microsoft]] concentration |
+| [[Nebius]] / NBIS | Strategic equity from [[Accel]] / [[NVIDIA]] / [[Orbis Investments]] plus ~$4.3375B convertible notes | Public-market dilution/convertible rollover risk plus GPU-cloud execution |
+| [[Google-Blackstone TPU cloud venture 2026]] | [[Blackstone]] $5B initial equity commitment; [[Alphabet|Google]] supplies TPU hardware/software/services | Operating-company execution, leverage terms, and anchor-customer opacity rather than public-neocloud refinancing |
+
+That split matters for the risk note: not every "AI cloud" is the same circular-financing exposure. CoreWeave is a customer-backed private-credit structure, Nebius is a public-company capital-markets structure, and the Google-Blackstone JV is a private-capital TPU operating-company structure. See [[Neocloud financing]] for the live comparison.
+
+---
+
 ### Chronology of circular entanglement
 
 [[Bloomberg]] traces the evolution through five phases:
@@ -124,6 +138,7 @@ The deals are not fraudulent round-tripping; the capacity is real and Anthropic 
 | Duplication | 2024 | [[Google]] up to $4B + [[Amazon]] $2B into [[Anthropic]] | Second cloud tier replicates MSFT-OpenAI template; Anthropic uses both AWS and Google chips/cloud |
 | Chip vendor enters | 2025 | [[NVIDIA]] invests in [[OpenAI]], [[xAI]], [[Mistral]] | GPU maker finances customers who buy its GPUs — 3-way circularity |
 | Neocloud layer | 2025 | [[NVIDIA]] 7% [[CoreWeave]] stake + $6.3B cloud purchase from CoreWeave; backs [[Nebius]], [[Nscale]] | NVIDIA invests in GPU resellers, then buys cloud from them |
+| TPU neocloud layer | 2026 | [[Google-Blackstone TPU cloud venture 2026]] | [[Alphabet|Google]] supplies TPUs/software while [[Blackstone]] funds a separate TPU-cloud operating company |
 | Mega-commitments | 2025-26 | OpenAI $250B [[Microsoft]] cloud + tens of billions [[AMD]] chips; [[NVIDIA]] up to $100B into OpenAI; MSFT + NVIDIA up to $15B into [[Anthropic]]; [[Amazon]] in talks for $10B+ into OpenAI | Commitment scale now exceeds most sovereign budgets |
 
 The web tightened at each phase. By 2026, nearly every major AI transaction involves at least two of the same counterparties.
@@ -357,6 +372,9 @@ The risk is concentrated in second-tier players (Oracle, CoreWeave, [[SoftBank]]
 - [[OpenAI]] — exposed ($115B losses through 2029)
 - [[Blue Owl]] — financier ([[Meta]] $30B deal, pulling from Oracle)
 - [[Blackstone]] — financier (CoreWeave debt)
+- [[Google-Blackstone TPU cloud venture 2026]] — TPU-cloud capital-stack fork
+- [[Nebius]] — listed neocloud capital-markets exposure
+- [[Neocloud financing]] — CRWV / NBIS / TPU JV comparison
 - [[Adriatic DC]] — new entrant (€50B Puglia, speculative)
 - [[Fermi Inc]] — new entrant (11GW [[Texas]], lost anchor tenant)
 - [[Nscale]] — crypto pivot ($23B [[Microsoft]] deal)

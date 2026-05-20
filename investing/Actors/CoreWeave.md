@@ -49,7 +49,7 @@ CRWV sits between sectors — more correlated with crypto-to-AI pivots (GPU host
 | IPO valuation | ~$23B | Mar 2025 |
 | Real EBITDA | ~$2B | Jensen Huang disclosure, Apr 2026 |
 | Revenue concentration | 65% from [[Microsoft]] | 2025-2026 setup |
-| Debt financing | $7.5B+ | Infrastructure buildout |
+| Debt financing | $8.5B DDTL plus prior facilities | Infrastructure buildout |
 
 ---
 
@@ -203,9 +203,14 @@ The "equity slug":
 Not speculative: GPUs are pre-sold to counterparties before purchase. Risk capital goes to "the long pole" — physical data centers.
 
 Debt load:
-- $7.5B+ debt financing (Blackstone, others)
+- $8.5B delayed-draw term loan facility secured in March 2026, anchored by [[Blackstone]] Credit & Insurance, with [[Morgan Stanley]] and [[MUFG]] as structuring agents/bookrunners and [[Goldman Sachs]] / [[JPMorgan Chase]] as lead arrangers
+- Prior $7.5B+ debt financing baseline (Blackstone, others)
 - High leverage for growth-stage company
 - GPUs as collateral
+
+This is the cleanest capital-provider contrast with the [[Google-Blackstone TPU cloud venture 2026]]: Blackstone is a debt/private-credit anchor for CoreWeave's GPU buildout, but an equity sponsor in the Google TPU JV. The former is customer-contract-backed GPU project finance; the latter is a Blackstone-backed TPU operating company.
+
+*Sources: Reuters via StreetInsider, "CoreWeave secures $8.5 billion loan to expand AI infrastructure," Mar 31 2026; CoreWeave Q1 2026 release, May 7 2026.*
 
 IPO (March 2025):
 - Raised capital to fund GPU purchases

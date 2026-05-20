@@ -13,16 +13,16 @@ tags: [event, ipo, space, ai]
 
 | Detail | Value |
 |--------|-------|
-| Target valuation | **>$2T** (Bloomberg May 15-16, up from FT's $1.75T earlier the same day; would be 5th-largest US company) |
+| Target valuation | >$2T (Bloomberg May 15-16, up from FT's $1.75T earlier the same day; would be 5th-largest US company) |
 | Raise | Up to $75B (up from $50B earlier estimate; up from $25-30B initial) |
-| Exchange | **[[Nasdaq]]** confirmed (Bloomberg May 15 citing Reuters) |
-| Ticker | **SPCX** (Bloomberg May 15 citing Reuters; Tuttle Capital previously dropped its SPCX ETF ticker claim) |
-| Listing date | **June 12, 2026** (Bloomberg May 15) |
+| Exchange | [[Nasdaq]] confirmed (Bloomberg May 15 citing Reuters) |
+| Ticker | SPCX (Bloomberg May 15 citing Reuters; Tuttle Capital previously dropped its SPCX ETF ticker claim) |
+| Listing date | June 12, 2026 (Bloomberg May 15) |
 | Pricing | As early as June 11 |
 | Marketing kickoff | As soon as June 4 |
 | Public S-1 filing | As soon as Wednesday (week of May 18) |
 | Confidential S-1 | Filed April 1, 2026 |
-| Stock split | **5-for-1 announced May 15** — FMV per share adjusted from $526.59 to ~$105.32; split processed week of May 18, complete May 22 |
+| Stock split | 5-for-1 announced May 15 — FMV per share adjusted from $526.59 to ~$105.32; split processed week of May 18, complete May 22 |
 | Lockup | No standard 6-month lockup — custom arrangement TBD |
 | Retail allocation | >20% (typical is ~10%; Musk personally pushed for this) |
 | Bank hierarchy | Alphabetical order — no "lead left" position |
@@ -101,8 +101,8 @@ The connection back to the analyst-tour design is direct: SpaceX's choice to wal
 
 Two open risks the lease does not resolve:
 
-1. **Counterparty concentration.** xAI / SpaceXAI is now structurally dependent on a single tenant ([[Anthropic]]) for the bulk of Colossus 1 monetization. Same risk profile as [[CoreWeave]]'s 65% [[Microsoft]] dependence (see [[Neocloud financing]]).
-2. **Asset depreciation.** The H100 share of Colossus 1 (~150K of the 220K GPU base) depreciates as [[Blackwell]] inference variants ramp. The lease premium of ~$2.60/GPU-hr vs $1.80-$2.20 commodity rates may compress over the lease term.
+1. Counterparty concentration. xAI / SpaceXAI is now structurally dependent on a single tenant ([[Anthropic]]) for the bulk of Colossus 1 monetization. Same risk profile as [[CoreWeave]]'s 65% [[Microsoft]] dependence (see [[Neocloud financing]]).
+2. Asset depreciation. The H100 share of Colossus 1 (~150K of the 220K GPU base) depreciates as [[Blackwell]] inference variants ramp. The lease premium of ~$2.60/GPU-hr vs $1.80-$2.20 commodity rates may compress over the lease term.
 
 See [[Colossus#Anthropic single-tenant lease (May 6 2026)|Colossus single-tenant lease section]] for the transaction structure and [[Anthropic hyperscaler financing surge April 2026#May 6 capstone Anthropic single-tenant lease of Colossus 1|the April surge capstone framing]] for how the deal slots into Anthropic's broader compute posture.
 
@@ -234,7 +234,7 @@ Funds may be constrained by the parallel [[Anthropic]] and [[OpenAI]] capital ra
 
 ## 5-for-1 stock split + concrete IPO timeline (Bloomberg May 15-16, 2026)
 
-Bloomberg reported on May 15 (10:35 PM EDT, updated 11:24 PM) that SpaceX has notified shareholders via email of a 5-for-1 stock split — the company's first public-equity-prep action after the confidential S-1 in April. The split adjusts the fair-market value per share from $526.59 to ~$105.32, lowering the unit price for retail-channel participation. Bloomberg also reported in the same Friday cycle that the public-S-1 filing, marketing window, pricing, and listing dates have hardened from "next month" framing to specific calendar dates — and that the target valuation has jumped from FT's $1.75T morning figure to **above $2T** by evening.
+Bloomberg reported on May 15 (10:35 PM EDT, updated 11:24 PM) that SpaceX has notified shareholders via email of a 5-for-1 stock split — the company's first public-equity-prep action after the confidential S-1 in April. The split adjusts the fair-market value per share from $526.59 to ~$105.32, lowering the unit price for retail-channel participation. Bloomberg also reported in the same Friday cycle that the public-S-1 filing, marketing window, pricing, and listing dates have hardened from "next month" framing to specific calendar dates — and that the target valuation has jumped from FT's $1.75T morning figure to above $2T by evening.
 
 ### IPO calendar (as of Bloomberg May 15, 11:24 PM EDT)
 
@@ -245,11 +245,11 @@ Bloomberg reported on May 15 (10:35 PM EDT, updated 11:24 PM) that SpaceX has no
 | Public S-1 filing | "As soon as Wednesday" (May 20) |
 | Roadshow / marketing kickoff | As soon as June 4 |
 | Pricing | As early as June 11 |
-| Listing | **June 12** |
+| Listing | June 12 |
 
 ### Valuation revision
 
-The target valuation moved from $1.75T (FT, May 15 morning) to **above $2T** (Bloomberg, May 15 evening) over the course of a single trading day. Possible drivers: (i) institutional demand reads from preparatory conversations exceeding initial syndicate models; (ii) the publication of the FT pay-package + governance article sharpening the "lock-in Musk" narrative for retail; (iii) the news of the [[Anthropic]] $30B Series H at $900B (FT May 14) compressing relative valuation discount for SpaceX/xAI given the merged AI-stack; (iv) the parallel cross-source SpaceX coverage (WSJ, Bloomberg) confirming filing dates may have reduced perceived execution risk. The >$2T figure makes SpaceX the largest IPO of all time by a wider margin — roughly 17.6x [[Saudi Aramco]]'s 2019 record (taking $75B / $4.3B vs Aramco's $29B at $1.7T).
+The target valuation moved from $1.75T (FT, May 15 morning) to above $2T (Bloomberg, May 15 evening) over the course of a single trading day. Possible drivers: (i) institutional demand reads from preparatory conversations exceeding initial syndicate models; (ii) the publication of the FT pay-package + governance article sharpening the "lock-in Musk" narrative for retail; (iii) the news of the [[Anthropic]] $30B Series H at $900B (FT May 14) compressing relative valuation discount for SpaceX/xAI given the merged AI-stack; (iv) the parallel cross-source SpaceX coverage (WSJ, Bloomberg) confirming filing dates may have reduced perceived execution risk. The >$2T figure makes SpaceX the largest IPO of all time by a wider margin — roughly 17.6x [[Saudi Aramco]]'s 2019 record (taking $75B / $4.3B vs Aramco's $29B at $1.7T).
 
 ### 5-for-1 split mechanics
 
@@ -270,8 +270,8 @@ The target valuation moved from $1.75T (FT, May 15 morning) to **above $2T** (Bl
 
 A separate earlier Bloomberg piece by Anthony Hughes and Bailey Lipschultz locked in two structural details:
 
-1. **Ticker SPCX on [[Nasdaq]]** — confirmed (Reuters first reported, Bloomberg cited it). [[Tuttle Capital]] had previously held the SPCX ETF ticker; the drop cleared the path for SpaceX. The exchange decision is consistent with the [[Nasdaq Fast Entry Rule]] and the prior reporting that SpaceX was leaning Nasdaq for the early-index-inclusion benefit.
-2. **Expanded bank syndicate** — Bloomberg confirmed [[Bank of America]] / [[Citigroup]] / [[Goldman Sachs]] / [[JPMorgan]] / [[Morgan Stanley]] in senior roles, with "more banks added to the lineup" beyond the original five. Consistent with the FT May 15 reporting of "more than 20 global banks" in the deal — Bloomberg confirms the syndicate has grown past the initial five-bank alphabetical structure.
+1. Ticker SPCX on [[Nasdaq]] — confirmed (Reuters first reported, Bloomberg cited it). [[Tuttle Capital]] had previously held the SPCX ETF ticker; the drop cleared the path for SpaceX. The exchange decision is consistent with the [[Nasdaq Fast Entry Rule]] and the prior reporting that SpaceX was leaning Nasdaq for the early-index-inclusion benefit.
+2. Expanded bank syndicate — Bloomberg confirmed [[Bank of America]] / [[Citigroup]] / [[Goldman Sachs]] / [[JPMorgan]] / [[Morgan Stanley]] in senior roles, with "more banks added to the lineup" beyond the original five. Consistent with the FT May 15 reporting of "more than 20 global banks" in the deal — Bloomberg confirms the syndicate has grown past the initial five-bank alphabetical structure.
 
 ### Bloomberg Intelligence revenue picture (May 15, 2026)
 
@@ -285,6 +285,25 @@ Per Bloomberg Intelligence cited in the Hughes/Lipschultz piece:
 This is the first analyst-disclosed split between the legacy SpaceX revenue base and the xAI contribution. The xAI <$1B figure for 2026E reinforces the structural pattern visible in the FT May 15 detail: xAI is a P&L drag this year (per FT, $6.4B 2025 loss vs $1.6B 2024), with the [[Anthropic]] [[Colossus 1]] compute lease (~$5B/yr) likely becoming the major xAI-related revenue line on the consolidated P&L through 2027 rather than direct [[Grok]] product revenue. The "Bloomberg approaching $20B 2026" total is reasonably consistent with FT's $18.7B 2025 consolidated revenue + an organic-only growth assumption for SpaceX standalone.
 
 *Source: [SpaceX Said to Plan Public IPO Filing as Soon as Wednesday](https://www.bloomberg.com/), Bloomberg, May 15 2026 (updated 4:51 PM EDT), by Anthony Hughes and Bailey Lipschultz.*
+
+---
+
+## Kalshi market-implied IPO timing (May 19, 2026)
+
+[[Kalshi]]'s SpaceX IPO ladder has become a useful source for how traders are reconciling the reported June 12 listing date with residual filing/execution risk. The cumulative timing market is priced as a June event, but not a pre-June event:
+
+| Contract | Last | Bid / ask | Read |
+|---|---:|---:|---|
+| SpaceX IPO before Jun 1, 2026 | 12c | 11c / 12c | Public filing before June is not the same as an IPO before June. |
+| SpaceX IPO before Jul 1, 2026 | 91c | 91c / 92c | Market base case is a June listing. |
+| SpaceX IPO before Aug 1, 2026 | 95c | 96c / 97c | High confidence by midsummer. |
+| SpaceX IPO before Sep 1, 2026 | 95c | 96c / 98c | Little extra probability after August, implying the expected window is June/July. |
+
+The broader "who will IPO before 2027" market reinforces the same hierarchy: [[SpaceX]] 98c, [[Anthropic]] 69c, [[OpenAI]] 38c, [[Databricks]] 14c, and [[Anduril]] 7c. That matters for the mega-IPO absorption test: the market now treats [[Anthropic]] as a more probable 2026 public-market supply event than [[OpenAI]], while treating SpaceX as almost certain.
+
+Kalshi's SpaceX launch-count ladder also supports the operational-cadence side of the IPO pitch. Annual 2026 contracts price more than 120 launches at 96c, more than 140 at 64c, more than 160 at 28c, and more than 180 at 20c. The market is therefore underwriting a very high cadence, but not a clean 160-plus launch year.
+
+*Sources: [[Kalshi]] API series KXIPOSPACEX, KXIPO, and KXSPACEXCOUNT, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXIPOSPACEX, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXIPO, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXSPACEXCOUNT*
 
 ---
 

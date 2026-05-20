@@ -1,6 +1,7 @@
 ---
 aliases: [Michael Wilson]
-tags: [actor, person, analyst, strategist, sell-side]
+podcast: Thoughts on the Market
+tags: [actor, person, analyst, strategist, sell-side, podcast_host]
 type: person
 ---
 
@@ -13,9 +14,11 @@ type: person
 | Current Role | CIO, Chair of Global Investment Committee, Head of Research — Wealth Management |
 | Firm | [[Morgan Stanley]] |
 | Focus Areas | [[US equities]], [[earnings estimates]], [[market cycles]], macro-equity linkage |
+| Podcast (host) | [Thoughts on the Market](https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market) — short-form weekday market commentary podcast, [[Morgan Stanley]] flagship audio product; Wilson hosts the US equities thread alongside rotating colleagues |
 | Known For | Called 2022 bear market; stayed bearish through 2023 rally (badly wrong) |
 | Career Start | Joined [[Morgan Stanley]] in 1989 as investment banker |
 | Education | Not widely disclosed |
+| Book | None — output runs through MS research notes, Sunday Start memos, and the Thoughts on the Market podcast |
 
 ## Career Arc
 

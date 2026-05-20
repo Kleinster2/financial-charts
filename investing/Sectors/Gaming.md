@@ -37,7 +37,7 @@
 | PlayStation | [[Sony]] | Premium exclusives |
 | Xbox | [[Microsoft]] | Game Pass subscription |
 | Switch | [[Nintendo]] | Hybrid innovation |
-| Steam | Valve (private) | PC distribution |
+| [[Steam platform|Steam]] | [[Valve]] (private) | PC distribution + SteamOS hardware ecosystem |
 | Epic Games Store | Epic (private) | Exclusives, free games |
 
 ---
@@ -93,10 +93,10 @@ See [[US Sports Betting and iGaming]] for full sector coverage.
 
 | Model | Description | Examples |
 |-------|-------------|----------|
-| **Premium** | $60-70 upfront | AAA titles |
-| **Free-to-play** | Microtransactions | Fortnite, Genshin |
-| **Subscription** | Monthly fee | Game Pass, PS Plus |
-| **Live service** | Ongoing content | Destiny, Fortnite |
+| Premium | $60-70 upfront | AAA titles |
+| Free-to-play | Microtransactions | Fortnite, Genshin |
+| Subscription | Monthly fee | Game Pass, PS Plus |
+| Live service | Ongoing content | Destiny, Fortnite |
 
 ---
 
@@ -104,11 +104,12 @@ See [[US Sports Betting and iGaming]] for full sector coverage.
 
 | Theme | Impact |
 |-------|--------|
-| **Subscription** | Game Pass changing economics |
-| **Mobile growth** | Largest segment |
-| **Live service** | Recurring revenue focus |
-| **AI** | NPC behavior, content generation |
-| **Cloud gaming** | Emerging but slow |
+| Subscription | Game Pass changing economics |
+| Mobile growth | Largest segment |
+| Live service | Recurring revenue focus |
+| AI | NPC behavior, content generation |
+| Cloud gaming | Emerging but slow |
+| SteamOS hardware | [[Valve]] extending the PC library into handheld, living-room, and VR form factors |
 
 ---
 
@@ -121,6 +122,7 @@ See [[US Sports Betting and iGaming]] for full sector coverage.
 | Sports/betting | [[DraftKings]], [[Electronic Arts]] |
 | Engines | [[Unity Technologies]] |
 | Community | [[Discord]] (private) |
+| Platform hardware | [[Valve]] (private) |
 
 ---
 
@@ -160,6 +162,7 @@ See [[US Sports Betting and iGaming]] for full sector coverage.
 ### Infrastructure
 - [[Unity Technologies]] — game engine
 - [[Discord]] — community platform
+- [[Valve]] — Steam platform + SteamOS hardware ecosystem
 
 ### Sports betting / iGaming
 - [[US Sports Betting and iGaming]] — full sector note

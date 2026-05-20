@@ -5,6 +5,8 @@ aliases: [PRT, pension buyout, group annuity buyout, buy-in, buyout]
 
 **Pension risk transfer** — Corporate sponsors offload defined benefit pension liabilities to insurers via group annuity contracts. US market $51.8B in 2024 (+14% YoY, record 794 contracts). Global market heading for £1T over the next decade. Key demand driver for the [[PE-insurance convergence]].
 
+Distinct from but conceptually adjacent to [[Pension reform]] — pension risk transfer is the corporate-pension (DB) demand side; pension reform addresses the personal-pension (DC) allocation rules. Both reshape the institutional-capital landscape but from opposite ends of the lifecycle.
+
 ---
 
 ## Why this matters
@@ -27,13 +29,14 @@ Sponsor pays premium (= present value of liabilities + insurer profit margin)
 Insurer invests premium as float → earns spread
 ```
 
-**Types:**
+Types:
+
 | Type | Description |
 |------|-------------|
-| **Buy-in** | Insurer covers liabilities but pension plan continues to exist |
-| **Buyout** | Full transfer — plan terminates, insurer pays retirees directly |
-| **Longevity swap** | Transfers only longevity risk, not investment risk |
-| **Lift-out** | Partial transfer of specific participant groups |
+| Buy-in | Insurer covers liabilities but pension plan continues to exist |
+| Buyout | Full transfer — plan terminates, insurer pays retirees directly |
+| Longevity swap | Transfers only longevity risk, not investment risk |
+| Lift-out | Partial transfer of specific participant groups |
 
 ---
 
@@ -66,11 +69,11 @@ Insurer invests premium as float → earns spread
 
 ## Why now? (demand drivers)
 
-1. **Funded status improved** — higher rates in 2022-2024 pushed many plans to fully-funded
-2. **PBGC premiums rising** — makes maintaining plans expensive for sponsors
-3. **Accounting simplification** — removes pension volatility from corporate earnings
-4. **Regulatory pressure** — sponsors want to de-risk before next downturn
-5. **CEO/CFO preference** — legacy pensions seen as distracting from core business
+1. Funded status improved — higher rates in 2022-2024 pushed many plans to fully-funded
+2. PBGC premiums rising — makes maintaining plans expensive for sponsors
+3. Accounting simplification — removes pension volatility from corporate earnings
+4. Regulatory pressure — sponsors want to de-risk before next downturn
+5. CEO/CFO preference — legacy pensions seen as distracting from core business
 
 ---
 
@@ -93,17 +96,23 @@ PRT is the single largest source of *block* inflows for PE-owned insurers. Unlik
 
 This is why [[Reinsurance sidecars]] exist — [[Athene]]'s ACRA was specifically designed to provide capital for PRT deals. Most PRT deals go through ACRA because the capital requirements exceed what Athene's balance sheet alone can support.
 
-**Capacity constraints (Q4 2025):** Some carriers unable to participate in new transactions — demand exceeding capital availability. Signals strong pricing power for incumbents.
+Capacity constraints (Q4 2025): Some carriers unable to participate in new transactions — demand exceeding capital availability. Signals strong pricing power for incumbents.
 
 ---
 
 ## Investment implications
 
-**For PE-insurers:** PRT = large, predictable blocks of long-duration liabilities. Ideal for private credit deployment. Competitive moat via capital scale.
+For PE-insurers: PRT = large, predictable blocks of long-duration liabilities. Ideal for private credit deployment. Competitive moat via capital scale.
 
-**For plan sponsors:** Increasingly attractive as funded ratios improve. Expect acceleration of full plan terminations.
+For plan sponsors: Increasingly attractive as funded ratios improve. Expect acceleration of full plan terminations.
 
-**For traditional insurers:** [[UK]] market seeing M&A (3 of 11 active bulk annuity insurers acquired by international insurers in 2025). Scale matters.
+For traditional insurers: [[UK]] market seeing M&A (3 of 11 active bulk annuity insurers acquired by international insurers in 2025). Scale matters.
+
+---
+
+## Synthesis
+
+Pension risk transfer and [[Pension reform]] are adjacent but opposite institutional-capital channels. PRT moves legacy corporate defined-benefit liabilities into insurer balance sheets, creating long-duration capital for insurers and PE-insurance platforms. Pension reform tries to redirect defined-contribution savings toward domestic equities and private markets. Together they show the same policy problem from two ends: who controls long-horizon retirement capital, and what balance of fiduciary duty, national strategy, and private-market capacity determines where that capital flows.
 
 ---
 
@@ -118,4 +127,5 @@ This is why [[Reinsurance sidecars]] exist — [[Athene]]'s ACRA was specificall
 - [[MetLife]] — major traditional PRT provider
 - [[Prudential Financial]] — traditional PRT provider, Prismic sidecar
 - [[Insurance]] — sector hub
+- [[Pension reform]] — UK DC pension allocation reform; conceptually adjacent (DC side vs PRT's DB side)
 

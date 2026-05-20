@@ -122,6 +122,22 @@ TSMC's stock moves with its AI customers, not "foundry peers."
 
 ---
 
+## Kalshi compute-rental pricing layer (May 19, 2026)
+
+[[Kalshi]]'s end-of-May GPU hourly-price ladders are a noisy but useful sentiment layer for [[AI Compute]]. They are prediction-market contracts on whether rental prices clear specific thresholds, not observed cloud prices. The liquid signal is strongest in H100 and weaker in H200 / RTX 5090; A100, B200, and RTX PRO 6000 ladders had little or no usable open interest in this pull.
+
+| Contract family | Cleanest ladder points | Read |
+|---|---|---|
+| H100 SXM hourly compute | >$1.78 at 92c / 100c bid-ask; >$2.10 at 86c / 97c; >$2.17 at 85c / 96c | Market is pricing H100 rental above $2/hour as the base case. |
+| H200 hourly compute | >$2.50 at 85c / 99c; >$2.60 at 58c / 98c; >$2.70 at 60c / 98c | Directionally tight supply, but the ladder is wide enough to avoid a precise midpoint. |
+| RTX 5090 hourly compute | >$0.54 at 94c / 99c; >$0.55 at 85c / 98c; >$0.67 at 50c / 78c | Consumer/prosumer compute remains bid; signal is rough because upper strikes are wide. |
+
+The useful read is scarcity, not valuation precision. Traders are not pricing a collapse in high-end [[NVIDIA]] compute rental rates even after the Blackwell transition. That supports the broader sector view that [[AI hyperscalers]] are still competing for constrained accelerator supply rather than entering a clean post-shortage phase.
+
+*Sources: [[Kalshi]] API series KXH100MON, KXH200MON, and KXRTX5090MON, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXH100MON, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXH200MON, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXRTX5090MON*
+
+---
+
 ## Why this cluster exists
 
 TSMC's revenue concentration:
@@ -166,5 +182,6 @@ The insight: "Foundry" isn't a sector. TSMC is effectively a levered bet on NVDA
 ### Context
 - [[AI hyperscalers]] — demand driver
 - [[Leading edge race]] — TSMC moat
+- [[Kalshi]] — prediction-market layer for compute-price and AI-market expectations
 
 *Created 2026-01-30*

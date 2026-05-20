@@ -1,11 +1,12 @@
 ---
-aliases: [Kissane, Energy Common Sense]
-tags: [actor, person, analyst, energy, geopolitics]
+aliases: [Kissane, Energy Common Sense, Dr. Carolyn Kissane]
+substack: https://carolynkissane157206.substack.com
+tags: [actor, person, analyst, energy, geopolitics, academic]
 ---
 
 # Carolyn Kissane
 
-Energy-policy analyst and academic publishing the [Energy Common Sense](https://carolynkissane157206.substack.com) substack. Focus: energy geopolitics, oil/LNG markets, energy security with emphasis on policy and market interaction. Affiliated with [[NYU]] Center for Global Affairs (academic background); editorial voice combines policy-school rigor with market-aware framing.
+Energy-policy analyst and academic publishing the [Energy Common Sense](https://carolynkissane157206.substack.com) substack. Focus: energy geopolitics, oil/LNG markets, energy security with emphasis on policy and market interaction. Associate Dean of the graduate programs in Global Affairs and Global Security, Conflict and Cybercrime at the [[NYU]] SPS Center for Global Affairs; Clinical Professor; Founding Director of the SPS Energy, Climate Justice and Sustainability Lab. Editorial voice combines policy-school rigor with market-aware framing. No published book confirmed — output runs through the Substack, NYU teaching, Project Syndicate columns, Carnegie Council, and Payne Institute work.
 
 ---
 
@@ -14,9 +15,17 @@ Energy-policy analyst and academic publishing the [Energy Common Sense](https://
 | Field | Detail |
 |-------|--------|
 | Publication | [Energy Common Sense](https://carolynkissane157206.substack.com) (Substack) |
-| Affiliation | [[NYU]] Center for Global Affairs (academic), various media |
-| Focus | Energy geopolitics, oil markets, LNG, energy security |
+| Primary academic role | Associate Dean for graduate programs in Global Affairs + Global Security, Conflict and Cybercrime, [[NYU]] SPS Center for Global Affairs |
+| Founding directorship | SPS Energy, Climate Justice and Sustainability Lab (NYU) |
+| Faculty rank | Clinical Professor |
+| Additional teaching roles | Coordinator of Energy and Environment concentration; faculty adviser, Energy Policy International Club |
+| Focus | Energy geopolitics, oil markets, LNG, energy security, energy transition, sustainability innovation, cybersecurity |
 | Methodology | Policy-aware market commentary; weekly cadence |
+| Memberships | Lifetime member, [[Council on Foreign Relations]]; member, [[National Committee on US-China Relations]]; non-resident fellow, [[Payne Institute for Public Policy]] (Colorado School of Mines) |
+| Board service | New York Energy Forum; New York Energy Week; Clean Start Advisory Board; advisory roles at Ridgewood Infrastructure; George H. W. Bush Foundation for US-China Relations |
+| Other writing | Project Syndicate columnist; Carnegie Council for Ethics in International Affairs commentator |
+| Teaching recognition | NYU Excellence in Teaching Award (2007); SCPS Award for Teaching Excellence (2009); Distinguished Teaching Award nominee (2008, 2009, 2016, 2021) |
+| Industry recognition | Breaking Energy's Top Ten New York Women in Energy; Top Ten Energy Communicator |
 
 ---
 

@@ -44,6 +44,20 @@ The single-source caveat: the *majority-ownership* claim and the $25B leverage f
 
 ---
 
+## Capital-provider comparison vs CRWV / NBIS
+
+The JV sits beside [[CoreWeave]] / CRWV and [[Nebius]] / NBIS in the accelerated-cloud category, but the capital provider is not the same. The Google-Blackstone structure is private-capital equity for a TPU operating company; the listed GPU clouds depend more on Nvidia support, customer contracts, public equity, private credit, and convertible debt.
+
+| Vehicle | Capital providers | Customer/offtake support | Read-through |
+|---|---|---|---|
+| Google-Blackstone TPU JV | [[Blackstone]] funds provide $5B initial equity; [[Alphabet|Google]] contributes TPU hardware, software, and services. FT's up-to-$25B leverage figure remains FT-only. | No named anchor customer yet; [[Anthropic]] is the obvious demand candidate from the April 2026 TPU-capacity context. | TPU-side CoreWeave analogue, but capitalized as a Blackstone-backed private operating company. |
+| [[CoreWeave]] / CRWV | [[NVIDIA]] equity plus public equity and private-credit facilities. The March 2026 $8.5B delayed-draw term loan was anchored by [[Blackstone]] Credit & Insurance, with [[Morgan Stanley]] / [[MUFG]] structuring and [[Goldman Sachs]] / [[JPMorgan Chase]] as lead arrangers. | [[Microsoft]] revenue concentration/backlog, plus [[Meta]] / [[Perplexity]] diversification. | GPU neocloud funded through Nvidia support, customer-backed debt, and private credit. |
+| [[Nebius]] / NBIS | $700M strategic equity from investors including [[Accel]], [[NVIDIA]], and [[Orbis Investments]]-managed accounts; about $4.3375B convertible notes sold privately to qualified institutional buyers. | [[Microsoft]] up to $19.4B and roughly $3B [[Meta]] contract as demand anchors, not sponsor capital. | Listed GPU-cloud buildout funded through strategic equity and capital markets rather than a Blackstone-style infra JV. |
+
+Sources: Blackstone release (May 18 2026), Reuters / StreetInsider on CoreWeave's $8.5B loan, CoreWeave Q1 2026 release, Nebius Dec 2024 strategic-equity release, Nebius Mar 2026 convertible-notes release.
+
+---
+
 ## Leadership
 
 | Role | Person | Background |
@@ -68,14 +82,19 @@ FT framing: "the most aggressive move yet by the world's third-largest cloud pro
 
 ## Market Reaction
 
-| Ticker | May 18, 2026 close | Notes |
-|---|---|---|
-| GOOGL | $396.78 | Modestly positive; well within the recent trading range ($393.18-$399.54 intraday); 52-week high $403.70 |
-| NVDA | ~$222-$223 | Modestly positive (sources vary $222.32 / $223.38). Market did not interpret the TPU JV as an immediate threat to Nvidia's quarterly trajectory; Nvidia earnings due later in the week |
-| BX | -0.72% on the day | Mild risk-off — investors weighing capital intensity, execution complexity, long-dated returns |
-| CRWV | TODO verify | Most exposed to a TPU-backed neo-cloud peer; competitive landscape narrowed |
+| Ticker | May 18 close / move | May 19 close / move | Read |
+|---|---:|---:|---|
+| GOOGL | $396.94 / +0.04% | $387.66 / -2.34% | No clean positive repricing for [[Alphabet]]. Announcement-day price action was essentially flat and the next session was dominated by broader Google I/O / AI-duration tape. |
+| NVDA | $222.32 / -1.33% | $220.61 / -0.77% | No immediate TPU-threat repricing in [[NVIDIA]]. NVDA outperformed [[SMH]] on May 18 (-1.33% vs -1.83%), with earnings later in the week still the dominant near-term catalyst. |
+| BX | $117.04 / -0.72% | $114.26 / -2.38% | Mild negative read for [[Blackstone]]: investors treated the deal as capital-intensive and long dated rather than immediately accretive. |
+| CRWV | $103.77 / -3.29% | $99.81 / -3.82% | The clearest affected equity. [[CoreWeave]] underperformed [[QQQ]] by about 286 bps and [[SPY]] by about 322 bps on May 18 as investors priced a TPU-backed neocloud peer into the competitive set. |
+| NBIS | $199.86 / -9.13% | $197.73 / -1.07% | [[Nebius]] was hit even harder on May 18. Attribution is slightly messier because NBIS had run sharply into the event and analyst-rating noise followed, but multiple market write-ups grouped Nebius with CoreWeave as the AI-cloud names pressured by the Google-Blackstone TPU push. |
 
-The single-day tape did not reprice the AI complex. Two reads are consistent with that: (1) the deal is incremental — the [[Google TPU Competitive Position|TPU shift]] was already priced in after the [[Anthropic hyperscaler financing surge April 2026|April 2026 Anthropic deal]] and Cloud Next 2026 customer roster; (2) the Blackstone PR did not confirm the most striking FT details (Blackstone majority, $25B all-in), so the market may be waiting for governance and capacity-disclosure clarity.
+The single-day tape did not reprice the AI complex broadly. [[SPY]] fell 0.07%, [[QQQ]] fell 0.43%, and [[SMH]] fell 1.83% on May 18; against that backdrop, GOOGL was flat, NVDA traded with semiconductors rather than as a singled-out loser, and BX's decline was modest. The market impact showed up most clearly in the listed neoclouds: CRWV because the Google-Blackstone JV directly narrows the non-hyperscaler accelerated-cloud category that [[CoreWeave]] helped define, and NBIS because [[Nebius]] is the closest public GPU-cloud comparable. A broader crypto-to-AI capacity basket was also red on May 18 — [[Applied Digital]] -8.04%, [[Hut 8]] -6.12%, [[Cipher Mining]] -5.95%, [[TeraWulf]] -5.29%, [[IREN]] -4.68%, [[Core Scientific]] -2.64% — but attribution is weaker there because that cohort had already been selling off on May 15 and several names had separate financing, acquisition, or Bitcoin/AI-capacity catalysts. Two broader reads are consistent with that: (1) the deal is incremental for [[Alphabet|Google]] and [[NVIDIA|Nvidia]] because the [[Google TPU Competitive Position|TPU shift]] was already visible after the [[Anthropic hyperscaler financing surge April 2026|April 2026 Anthropic deal]] and Cloud Next 2026 customer roster; (2) the Blackstone PR did not confirm the most striking FT details (Blackstone majority, $25B all-in), so the broader market may be waiting for governance and capacity-disclosure clarity.
+
+Correlation-cluster scoping: this is event tape, not fresh cluster validation. The already identifiable clusters to check are [[AI Compute]] and [[Crypto-to-AI]]. AI Compute remains a chip/foundry/customer triangle centered on [[TSMC|TSM]], [[NVIDIA|NVDA]], and [[AMD]], with [[Alphabet|GOOGL]] as a hyperscaler buyer/control; the Google-Blackstone JV is a TPU-vs-GPU competitive signal, not evidence that CRWV or NBIS belong in that cluster. Crypto-to-AI already captures miner-to-AI capacity names such as CORZ, HUT, IREN, WULF, MARA, RIOT, and CLSK; [[CoreWeave]] is an AI-infra control/adjacent factor in that framework, while [[Nebius]] has no established cluster validation in the vault. Treat the CRWV/NBIS move and capacity-basket weakness as market-reaction evidence and future-watch signal, not proof of a durable listed-neocloud return-correlation cluster.
+
+Price source: StockAnalysis historical tables for GOOGL, NVDA, BX, CRWV, NBIS, APLD, HUT, CIFR, WULF, IREN, CORZ, SPY, QQQ, and SMH, accessed May 19, 2026. Invezz separately tied CRWV's May 19 premarket weakness to the Google-Blackstone deal and quoted [[Bernstein]]'s Madison Rezaei saying the 500 MW plan is "not immediately problematic" but marks "the beginning of a more earnest hyperscale attack" on the market. BanklessTimes and Investing.com market write-ups also grouped Nebius with CoreWeave as pressured AI-cloud names.
 
 ---
 
@@ -92,6 +111,8 @@ The longer-term competitive optionality is the more interesting prize. Embedding
 The JV is the largest AI-infrastructure deal Blackstone has anchored on its own — bigger than the $10B [[QTS]] take-private (2021), bigger than its portion of the $7.5B [[CoreWeave]] debt facility (2024). It positions Blackstone as the dominant private-capital intermediary for AI infrastructure across both chip families: equity in [[Anthropic]] and [[OpenAI]] on the model side, [[QTS]] data centres on the colocation side, [[CoreWeave]] financing on the GPU-cloud side, and now equity in the largest TPU-cloud venture. The cleanest comparison is to [[Blue Owl]]'s $60B [[Meta]] Hyperion JV — but Blackstone's structure is a *durable operating company*, not a project SPV, which carries different risk and return characteristics.
 
 The 2021 [[Blackstone]] AI thesis — built around [[QTS]] colocation for hyperscalers — is now layered with a captive TPU-cloud operating business. Blackstone's AI infrastructure exposure stack is now arguably broader than any other private-capital sponsor.
+
+The "power" contribution is best read as powered-capacity delivery capability, not a disclosed power asset. [[Blackstone]] is not just writing a cheque; it is underwriting the site selection, utility/interconnection, construction, operations, and energy-procurement problem that turns [[Alphabet|Google]]'s TPUs into billable 500 MW data-centre capacity. That matches Jon Gray's official framing of Blackstone's "energy and digital infrastructure" strength and its existing digital-infra base in [[QTS]] and [[AirTrunk]]. The caveat is important: no specific power plant, [[Power purchase agreement|PPA]], utility interconnection, grid region, or site has been disclosed, so the note should not treat Blackstone as bringing named electricity supply yet.
 
 ### For [[NVIDIA]]
 
@@ -176,4 +197,6 @@ The JV is a structural shift, not a one-off deal. The following downstream items
 - [Reuters via Investing.com — Google, Blackstone to launch AI cloud venture](https://www.investing.com/news/stock-market-news/google-blackstone-to-create-new-ai-cloud-company-wsj-reports-4697320)
 - [Cryptopolitan — Google and Blackstone form AI cloud venture to challenge CoreWeave](https://www.cryptopolitan.com/google-and-blackstone-form-ai-cloud-venture/)
 - [Benzinga — Google-Blackstone AI Venture Targets Exploding Demand For Compute Power With $5 Billion Initial](https://www.benzinga.com/markets/tech/26/05/52653665/google-blackstone-ai-cloud-business-data-centers-chips)
+- [Invezz — CoreWeave stock falls 4%: why Google Blackstone deal is bad for the stock?](https://invezz.com/news/2026/05/19/coreweave-stock-falls-4-why-google-blackstone-deal-is-bad-for-the-stock/) — May 19 2026
+- [BanklessTimes — CoreWeave Stock Drops on Google-Blackstone Deal: Is the Dip Justified?](https://www.banklesstimes.com/articles/2026/05/19/coreweave-stock-drops-on-google-blackstone-deal-is-the-dip-justified/) — May 19 2026
 - Sloss SRE/role background: [Google SRE — Ben Treynor Sloss on SRE](https://sre.google/in-conversation/), [DevOps Institute — Origins of SRE](https://www.devopsinstitute.com/blog-the-origins-of-sre-from-the-director-of-sre-education-at-google/)

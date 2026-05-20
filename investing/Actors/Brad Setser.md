@@ -1,11 +1,11 @@
 ---
 aliases: [Setser]
-tags: [actor, person, economist, trade, cfr]
+tags: [actor, person, economist, trade, cfr, author]
 ---
 
 # Brad Setser
 
-Brad Setser is a senior fellow at the [[Council on Foreign Relations]] and the most-cited specialist on global trade and capital-flow data. His running blog work on Chinese trade mismeasurement, US deficits, and balance-of-payments arithmetic has made him the reference point for [[Adam Tooze]], [[Michael Pettis]], and most serious writers on [[Global imbalances]]. Prior US Treasury official (2009-2011, under [[Tim Geithner]]); then [[Office of the US Trade Representative|USTR]] senior adviser (2021-2022) in the Biden administration.
+Brad Setser is a senior fellow at the [[Council on Foreign Relations]] and the most-cited specialist on global trade and capital-flow data. His running blog work on Chinese trade mismeasurement, US deficits, and balance-of-payments arithmetic has made him the reference point for [[Adam Tooze]], [[Michael Pettis]], and most serious writers on [[Global imbalances]]. Prior US Treasury official (2009-2011, under [[Tim Geithner]]); then [[Office of the US Trade Representative|USTR]] senior adviser (2021-2022) in the Biden administration. Co-author with [[Nouriel Roubini]] of *Bailouts or Bail-ins? Responding to Financial Crises in Emerging Economies* (Peterson Institute, 2004) — the standard reference on sovereign-debt-crisis resolution mechanics through the 2000s.
 
 ---
 
@@ -15,9 +15,12 @@ Brad Setser is a senior fellow at the [[Council on Foreign Relations]] and the m
 |---|---|
 | Role | Senior fellow, [[Council on Foreign Relations]] |
 | Focus | Global imbalances, sovereign debt, trade-data integrity, reserve currencies |
-| Prior roles | US Treasury (2009-2011); [[USTR]] senior adviser (2021-2022) |
+| Prior roles | US Treasury (2009-2011 under [[Tim Geithner]]); [[USTR]] senior adviser (2021-2022, Biden administration) |
 | Key blog | [Follow the Money](https://www.cfr.org/blog/follow-money) at CFR |
+| Book | *Bailouts or Bail-ins? Responding to Financial Crises in Emerging Economies* (Peterson Institute, 2004; with [[Nouriel Roubini]]) |
 | Education | PhD economics, Harvard; BA Harvard |
+| Twitter | @Brad_Setser |
+| Notable podcast appearances | [[Mercatus Center]] *Macro Musings* (multiple — 2018 global imbalances; 2020 dollar shortage + COVID); [[Hidden Forces]] (geopolitics of finance); [[Exorbitant Privilege]] chat series |
 
 ---
 
@@ -50,4 +53,5 @@ Setser also tracks:
 
 - [CFR profile](https://www.cfr.org/expert/brad-w-setser)
 - [Follow the Money blog](https://www.cfr.org/blog/follow-money)
+- [Peterson Institute / RePEc record — *Bailouts or Bail-ins?*](https://ideas.repec.org/b/iie/ppress/378.html)
 - Setser on X/Twitter: @Brad_Setser

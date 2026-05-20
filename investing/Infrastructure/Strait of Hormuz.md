@@ -27,36 +27,36 @@ Strategic waterway between [[Iran]] and Oman connecting the Persian Gulf to the 
 
 | Metric | Value (Mar 2) | Value (Mar 7) | Source |
 |--------|---------------|---------------|--------|
-| Ships stalled/idle | ~150 | **~700** | Al Jazeera, Wikipedia |
-| Traffic decline | ~75% | **~86%** (near zero) | Kpler, Al Jazeera |
-| Days closed | 2+ | **8+** (Feb 28–ongoing) | — |
+| Ships stalled/idle | ~150 | ~700 | Al Jazeera, Wikipedia |
+| Traffic decline | ~75% | ~86% (near zero) | Kpler, Al Jazeera |
+| Days closed | 2+ | 8+ (Feb 28–ongoing) | — |
 | Estimated disruption | ~40M barrels (2 days) | 160M+ barrels (8 days) | [[FGE]] initial; extrapolated |
 | Transit halted | Crude, LNG, LPG, naphtha, products | Same — no resumption | — |
-| Vessels attacked by Iran | 2 | **17+** | Wikipedia (through Mar 7) |
+| Vessels attacked by Iran | 2 | 17+ | Wikipedia (through Mar 7) |
 
-[[Maersk]] blocked all vessels from transiting. Most shipping companies and insurers refusing to route through. The closure is **de facto, not physical** — [[Kpler]] analysis (Mar 1): "Insurance withdrawal is doing the work that physical blockade has not — the outcome for cargo flow is largely the same." War-risk premiums surged from 0.125% to 0.2-0.4% of ship insurance value per transit, adding ~$250K per VLCC crossing.
+[[Maersk]] blocked all vessels from transiting. Most shipping companies and insurers refusing to route through. The closure is de facto, not physical — [[Kpler]] analysis (Mar 1): "Insurance withdrawal is doing the work that physical blockade has not — the outcome for cargo flow is largely the same." War-risk premiums surged from 0.125% to 0.2-0.4% of ship insurance value per transit, adding ~$250K per VLCC crossing.
 
 ### Iran-to-China oil flows through the "closed" strait (Mar 11)
 
-The blockade is selective by design. On March 5, [[IRGC]] declared Hormuz closed **only to US, Israeli, and Western-allied ships**. Iranian vessels — including the [[shadow fleet]] — keep transiting freely, all bound for [[China]].
+The blockade is selective by design. On March 5, [[IRGC]] declared Hormuz closed only to US, Israeli, and Western-allied ships. Iranian vessels — including the [[shadow fleet]] — keep transiting freely, all bound for [[China]].
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| Iranian crude exported since Feb 28 | **13.7M bbl** (TankerTrackers) / **16.5M bbl** ([[Kpler]]) | CNBC, Reuters (Mar 11) |
+| Iranian crude exported since Feb 28 | 13.7M bbl (TankerTrackers) / 16.5M bbl ([[Kpler]]) | CNBC, Reuters (Mar 11) |
 | Daily export rate (wartime) | ~1.1–1.5M bbl/day | CNBC |
 | Pre-war February rate | 2.17M bbl/day (highest since Jul 2018) | [[Kpler]] |
-| Pre-war record week (Feb 16) | **3.78M bbl/day** — more than double normal | [[Kpler]] |
+| Pre-war record week (Feb 16) | 3.78M bbl/day — more than double normal | [[Kpler]] |
 | Tankers departed Iran since Feb 28 | 6 crude + 2 LPG | TankerTrackers, [[Kpler]], [[Lloyd's List]] |
 | Iranian-flagged of those 6 | 3 | TankerTrackers |
-| Destination of all exports | **100% [[China]]** | CNBC, Reuters |
+| Destination of all exports | 100% [[China]] | CNBC, Reuters |
 
-**How they transit:** Iranian tankers sail within Iran's exclusive economic zone (12–24 nautical miles) — staying in Iranian waters provides protection. Many operate with AIS transponders off ("gone dark"). [[TankerTrackers]] uses satellite imagery to capture vessels that would otherwise go undetected. At least 4 supertankers carrying 8M bbl have arrived in waters around [[Singapore]].
+How they transit: Iranian tankers sail within Iran's exclusive economic zone (12–24 nautical miles) — staying in Iranian waters provides protection. Many operate with AIS transponders off ("gone dark"). [[TankerTrackers]] uses satellite imagery to capture vessels that would otherwise go undetected. At least 4 supertankers carrying 8M bbl have arrived in waters around [[Singapore]].
 
-**Why the US isn't intercepting:** Unlike [[Venezuela]] — where the US set up a naval blockade and seized tankers (Jan 2026) — Washington has not moved against Iranian oil tankers. The logic is deterrence equilibrium: if the US starts seizing Iranian tankers, Iran has *less* incentive to keep Hormuz even partially open and could escalate to full mine warfare. David Tannenbaum (Blackstone Compliance): *"I'm surprised, given their successful seizures of Venezuela-related vessels, that the U.S. did not initiate a similar campaign."* James Lightbourn (Cavalier Shipping): *"If the U.S. were seizing tankers, it would give Iran less to lose by shutting the strait entirely."*
+Why the US isn't intercepting: Unlike [[Venezuela]] — where the US set up a naval blockade and seized tankers (Jan 2026) — Washington has not moved against Iranian oil tankers. The logic is deterrence equilibrium: if the US starts seizing Iranian tankers, Iran has *less* incentive to keep Hormuz even partially open and could escalate to full mine warfare. David Tannenbaum (Blackstone Compliance): *"I'm surprised, given their successful seizures of Venezuela-related vessels, that the U.S. did not initiate a similar campaign."* James Lightbourn (Cavalier Shipping): *"If the U.S. were seizing tankers, it would give Iran less to lose by shutting the strait entirely."*
 
-**Jask bypass:** Iran resumed loading tankers at the **Jask oil terminal** on the Gulf of Oman — south of Hormuz, bypassing the strait entirely. Only the 5th loading there in 5 years. An Iranian vessel loaded 2M bbl of crude. Limitation: ~10 days to load a VLCC at Jask vs 1–2 days at [[Kharg Island]]. TankerTrackers' Samir Madani: *"Good domestic propaganda value, but not much in terms of a logistical advantage."*
+Jask bypass: Iran resumed loading tankers at the Jask oil terminal on the Gulf of Oman — south of Hormuz, bypassing the strait entirely. Only the 5th loading there in 5 years. An Iranian vessel loaded 2M bbl of crude. Limitation: ~10 days to load a VLCC at Jask vs 1–2 days at [[Kharg Island]]. TankerTrackers' Samir Madani: *"Good domestic propaganda value, but not much in terms of a logistical advantage."*
 
-**China's pre-war stockpiling:** Beijing anticipated disruption. In Jan-Feb 2026, Chinese crude imports surged **15.8% YoY**. China holds an estimated **1.2B barrels** of crude stockpile (~104 days of import cover, per [[Atlantic Council]]). Iranian crude loadings hit a record **3.78M bbl/day** the week of Feb 16 — more than double the ~1.48M bbl/day weekly average — as both sides front-ran the conflict. 100% of Iranian exports went to China in February.
+China's pre-war stockpiling: Beijing anticipated disruption. In Jan-Feb 2026, Chinese crude imports surged 15.8% YoY. China holds an estimated 1.2B barrels of crude stockpile (~104 days of import cover, per [[Atlantic Council]]). Iranian crude loadings hit a record 3.78M bbl/day the week of Feb 16 — more than double the ~1.48M bbl/day weekly average — as both sides front-ran the conflict. 100% of Iranian exports went to China in February.
 
 *Sources: CNBC (Mar 11), Reuters (Mar 11), TankerTrackers.com, [[Kpler]], [[Atlantic Council]]*
 
@@ -70,12 +70,12 @@ The blockade is selective by design. On March 5, [[IRGC]] declared Hormuz closed
 |------|---------------|-------|
 | Feb 27 (pre-strike) | Normal (~50 tankers + other vessels/day) | — |
 | Feb 28 (strikes break) | Visibly thinning | Ships collecting outside |
-| Mar 1 | **-75%** | Insurance withdrawal begins |
+| Mar 1 | -75% | Insurance withdrawal begins |
 | Mar 2 | ~6 ships (vs ~100 normal) | Effectively closed |
-| Mar 4-7 | **Near zero** | ~700 ships idle; 86% traffic decline |
-| Mar 6 | **3 tankers exited** (vs normal ~50/day) | MEI briefing, Dr. Karen Young |
+| Mar 4-7 | Near zero | ~700 ships idle; 86% traffic decline |
+| Mar 6 | 3 tankers exited (vs normal ~50/day) | MEI briefing, Dr. Karen Young |
 
-Iranian tankers **ironically still getting through** — Tehran's own crude exports continue while blocking everyone else's transit.
+Iranian tankers ironically still getting through — Tehran's own crude exports continue while blocking everyone else's transit.
 
 ### Scale of disruption — Goldman Sachs analysis (Mar 12)
 
@@ -92,7 +92,7 @@ Iran attacked 3 additional vessels near the strait on Mar 11, even as the US cla
 ![[hormuz-vessel-traffic-ft-mar13.png]]
 *Vessels entering the neck of the Strait with transponders on, per day. Source: MarineTraffic / FT analysis (as of 4:30pm GMT, Mar 13). Neck defined by lines running NW and NE from Khasab in Oman.*
 
-**Out of Gulf** — pre-attack baseline ~80-105 vessels/day (Iran-flagged ~10-20, other ~65-85):
+Out of Gulf — pre-attack baseline ~80-105 vessels/day (Iran-flagged ~10-20, other ~65-85):
 
 | Date | Iran flag | Other flag | Total | vs baseline |
 |------|-----------|------------|-------|-------------|
@@ -105,7 +105,7 @@ Iran attacked 3 additional vessels near the strait on Mar 11, even as the US cla
 | Mar 12 | ~5 | ~0 | ~5 | -95% |
 | Mar 13 | ~7 | ~3 | ~10 | -90% |
 
-**Into Gulf** — pre-attack baseline ~60-85 vessels/day (Iran-flagged ~5-10, other ~55-75):
+Into Gulf — pre-attack baseline ~60-85 vessels/day (Iran-flagged ~5-10, other ~55-75):
 
 | Date | Iran flag | Other flag | Total | vs baseline |
 |------|-----------|------------|-------|-------------|
@@ -118,11 +118,11 @@ Iran attacked 3 additional vessels near the strait on Mar 11, even as the US cla
 
 Three insights the aggregate "86% decline" headline misses:
 
-1. **Iranian-flagged vessels never stopped.** Iran's own ships — presumably its crude export fleet — have continued flowing out of the Gulf at 5-25/day while non-Iranian traffic collapsed to near zero. Tehran is extracting revenue from the blockade it created.
+1. Iranian-flagged vessels never stopped. Iran's own ships — presumably its crude export fleet — have continued flowing out of the Gulf at 5-25/day while non-Iranian traffic collapsed to near zero. Tehran is extracting revenue from the blockade it created.
 
-2. **Into-Gulf traffic more suppressed than out-of-Gulf.** By Mar 11-13, only ~2-3 ships/day entering the Gulf vs ~5-10 exiting. The Strait is functioning as a one-way valve — ships leaving but almost none entering. At a net drain of ~7-8 vessels/day against ~700 idle ships (Mar 7 count), the pool depletes slowly — but no fresh tonnage is arriving to load. When the blockade lifts, producers will face a vessel shortage inside the Gulf that delays the resumption of exports.
+2. Into-Gulf traffic more suppressed than out-of-Gulf. By Mar 11-13, only ~2-3 ships/day entering the Gulf vs ~5-10 exiting. The Strait is functioning as a one-way valve — ships leaving but almost none entering. At a net drain of ~7-8 vessels/day against ~700 idle ships (Mar 7 count), the pool depletes slowly — but no fresh tonnage is arriving to load. When the blockade lifts, producers will face a vessel shortage inside the Gulf that delays the resumption of exports.
 
-3. **Mar 8 outbound spike** (~45 vessels, ~25 Iranian-flagged) suggests a coordinated convoy or fleet movement — possibly Iranian tankers making a push to get crude out. Reversed immediately, back to ~5-10/day by Mar 12-13.
+3. Mar 8 outbound spike (~45 vessels, ~25 Iranian-flagged) suggests a coordinated convoy or fleet movement — possibly Iranian tankers making a push to get crude out. Reversed immediately, back to ~5-10/day by Mar 12-13.
 
 ### Hormuz dependency — not just oil
 
@@ -215,7 +215,7 @@ Wiggen highlighted mines as "extremely difficult" — thousands of small fishing
 
 ## Prediction market — 39% chance of normalization by April 30 (Polymarket, March 25)
 
-[[Polymarket]] is pricing a **39% probability** that Hormuz traffic returns to normal by end of April ($1.1M total volume, opened March 9). Resolution: [[IMF]] Portwatch 7-day moving average of transit calls ("Arrivals of Ships") ≥ 60 for any date through April 30, 2026.
+[[Polymarket]] is pricing a 39% probability that Hormuz traffic returns to normal by end of April ($1.1M total volume, opened March 9). Resolution: [[IMF]] Portwatch 7-day moving average of transit calls ("Arrivals of Ships") ≥ 60 for any date through April 30, 2026.
 
 The market's 61% No aligns with the expert consensus: [[Amrita Sen]] pushed [[Energy Aspects]]' reopening estimate to end of April (March 23), and [[Nadia Martin Wiggen]] at [[Stellen Capital]] hears "not until May" as the earliest military reopening. The prediction market is effectively pricing in a ~40% chance the experts are wrong — or that a diplomatic breakthrough (Iran reportedly reaching out through third parties) accelerates the timeline.
 
@@ -227,16 +227,36 @@ The resolution metric is revealing: 60 daily transit calls would still be well b
 
 ## Producer survey — Aug 2026 reopening expected (Dallas Fed Q1 2026)
 
-The [[Federal Reserve Bank of Dallas|Dallas Fed]] Q1 2026 Energy Survey (released Apr 23 2026) asked oil & gas executives directly when they expect Hormuz to "return to normal levels." **Most respondents cited August 2026** — roughly four months further out than the [[Polymarket]] / [[Energy Aspects]] / [[Stellen Capital]] consensus tracked through late March, and consistent with the post-ceasefire reopening logic that has unfolded since.
+The [[Federal Reserve Bank of Dallas|Dallas Fed]] Q1 2026 Energy Survey (released Apr 23 2026) asked oil & gas executives directly when they expect Hormuz to "return to normal levels." Most respondents cited August 2026 — roughly four months further out than the [[Polymarket]] / [[Energy Aspects]] / [[Stellen Capital]] consensus tracked through late March, and consistent with the post-ceasefire reopening logic that has unfolded since.
 
 | Question | Result |
 |---|---|
-| When do producers expect Hormuz back to normal? | Most: **August 2026** |
+| When do producers expect Hormuz back to normal? | Most: August 2026 |
 | Will trapped Gulf production return to market? | ~2/3 expect 90% to return eventually |
 
-The 90%-eventual-return view is the supply-side mirror of the [[Hormuz Permanent Risk Premium]] thesis: the lost cargoes mostly come back, but the **risk premium** doesn't — and producers' refusal to expand US output even at $100 prices ([[Shale supply discipline]]) means the premium has no offset on the supply side either.
+The 90%-eventual-return view is the supply-side mirror of the [[Hormuz Permanent Risk Premium]] thesis: the lost cargoes mostly come back, but the risk premium doesn't — and producers' refusal to expand US output even at $100 prices ([[Shale supply discipline]]) means the premium has no offset on the supply side either.
 
 *Source: Stephanie Findlay, "US shale bosses resist boosting oil output over Iran war 'chaos'," Financial Times, Apr 23 2026.*
+
+---
+
+## Prediction market update — Kalshi reopening ladder (May 19, 2026)
+
+[[Kalshi]]'s active KXHORMUZNORM ladder uses the same structural metric as the earlier [[Polymarket]] contract: the 7-day moving average of transit calls through the [[Strait of Hormuz]] as reported by [[IMF]] PortWatch must be above 60 before the stated date.
+
+| Normalization before | Last | Bid / ask |
+|---|---:|---:|
+| Jun 1, 2026 | 3.6c | 3.6c / 3.7c |
+| Jun 15, 2026 | 11c | 10c / 11c |
+| Jul 1, 2026 | 22c | 21c / 22c |
+| Aug 1, 2026 | 38c | 38c / 39c |
+| Sep 1, 2026 | 49c | 49c / 50c |
+| Oct 1, 2026 | 62c | 62c / 64c |
+| Jan 1, 2027 | 73c | 72c / 73c |
+
+The market-implied timeline has shifted later than the March [[Polymarket]] framing and is only partly aligned with the [[Federal Reserve Bank of Dallas|Dallas Fed]] producer survey. Traders are assigning very low odds to a near-term June normalization, still less than even odds by August 1, and only a clear majority by October. That reinforces the [[Hormuz Permanent Risk Premium]] thesis: even if physical flows eventually resume, the market is pricing a long commercial-confidence tail rather than a clean reopening event.
+
+*Source: [[Kalshi]] API series KXHORMUZNORM, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXHORMUZNORM*
 
 ---
 
@@ -261,7 +281,12 @@ The 90%-eventual-return view is the supply-side mirror of the [[Hormuz Permanent
 - [[Nadia Martin Wiggen]] — May reopening, physical market assessment, go-quiet-then-strike risk
 - [[Stellen Capital]] — commodities/shipping hedge fund
 - [[Polymarket]] — 39% normalization by April 30 (prediction market)
+- [[Kalshi]] — active reopening ladder using [[IMF]] PortWatch transit-call metric
 - [[Gulf pipeline bypass planning 2026]] — structural bypass network planning (FT Apr 2)
+
+### Cross-vault
+
+- [Geopolitics: Strait of Hormuz](obsidian://open?vault=geopolitics&file=Concepts%2FStrait%20of%20Hormuz) — military/statecraft counterpart; investing note carries market pricing, energy flows, and portfolio read-throughs
 
 ---
 
@@ -298,7 +323,7 @@ Vessels seeking transit must provide: crew manifests, cargo details, voyage hist
 
 Lloyd's Market Association (LMA) issued a statement (March 22) explicitly pushing back on narratives that insurance was "cancelled or unaffordable":
 
-> "Three weeks since the start of the hostilities... we are still seeing reports that suggest insurance coverage is cancelled or unaffordable and that this is the reason that vessels are not transiting. **This is not accurate.**" — Neil Roberts, Head of Marine & Aviation, LMA
+> "Three weeks since the start of the hostilities... we are still seeing reports that suggest insurance coverage is cancelled or unaffordable and that this is the reason that vessels are not transiting. This is not accurate." — Neil Roberts, Head of Marine & Aviation, LMA
 
 Coverage remains available in the Lloyd's and London company market. What changed is pricing:
 
@@ -369,7 +394,7 @@ Nicholas Crown (@nicholas_crown) laid out the agricultural transmission chain fr
 | Feed chain | Less corn = less livestock feed |
 | Inflation | Meat/grain inflation late 2026-2027 |
 
-**No strategic nitrogen reserve exists anywhere.** This is the core vulnerability the [[Nitrogen Trap]] concept describes. The transmission chain runs: Hormuz closes → urea spikes → farmers can't buy nitrogen → corn acreage compresses → soybeans absorb the pivot → livestock feed shortage → food inflation.
+No strategic nitrogen reserve exists anywhere. This is the core vulnerability the [[Nitrogen Trap]] concept describes. The transmission chain runs: Hormuz closes → urea spikes → farmers can't buy nitrogen → corn acreage compresses → soybeans absorb the pivot → livestock feed shortage → food inflation.
 
 Market signals already confirming: [[CF Industries]] up 13% in early March on nitrogen exposure; [[Nutrien]] up 20% since January. Corn futures repricing on acreage compression; soybean futures absorbing the acreage pivot.
 

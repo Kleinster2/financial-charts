@@ -1,13 +1,14 @@
 ---
-aliases: [Pape, Prof Robert Pape]
-tags: [actor, person, academic, political-science, escalation]
+aliases: [Pape, Prof Robert Pape, Robert A. Pape]
+substack: https://escalationtrap.substack.com
+tags: [actor, person, academic, political-science, escalation, think_tank_director]
 ---
 
 # Robert Pape
 
-Political scientist at the [[University of Chicago]]. Studies how force is used to achieve political objectives, how escalation unfolds, and how strategies of restraint succeed or fail. Author of the Escalation Trap framework — a recurring dynamic in modern war where early battlefield success produces strategic disappointment, and leaders escalate rather than reconsider.
+Political scientist at the [[University of Chicago]] and founding director of the [[Chicago Project on Security and Threats]] (CPOST) — the UChicago think tank he founded in 2004 as the Chicago Project on Suicide Terrorism, renamed in 2014 as its scope broadened to global security. Studies how force is used to achieve political objectives, how escalation unfolds, and how strategies of restraint succeed or fail. Author of the Escalation Trap framework — a recurring dynamic in modern war where early battlefield success produces strategic disappointment, and leaders escalate rather than reconsider.
 
-Publishes the [Escalation Trap Substack](https://escalationtrap.substack.com/). Became a prominent analytical voice during the [[2026 Iran conflict market impact|2026 Iran conflict]], applying his escalation theory to real-time events.
+Publishes the [Escalation Trap Substack](https://escalationtrap.substack.com/) and runs occasional live-briefing sessions on it. Became a prominent analytical voice during the [[2026 Iran conflict market impact|2026 Iran conflict]], applying his escalation theory to real-time events. CPOST itself produced notable empirical findings on the January 6, 2021 Capitol attack (American Political Violence research stream) and runs ongoing survey work on US democratic stability.
 
 ---
 
@@ -16,9 +17,13 @@ Publishes the [Escalation Trap Substack](https://escalationtrap.substack.com/). 
 | Metric | Value |
 |--------|-------|
 | Role | Professor of Political Science, [[University of Chicago]] |
-| Focus | Military strategy, escalation dynamics, air power, suicide terrorism |
-| Major works | *Dying to Win* (2005), *Cutting the Fuse* (2010), *Bombing to Win* (1996) |
-| Substack | Escalation Trap (launched during 2026 Iran war) |
+| Think-tank role | Founding Director, [[Chicago Project on Security and Threats]] (CPOST) — founded 2004 as Chicago Project on Suicide Terrorism, renamed 2014 |
+| Prior academic | [[Dartmouth College]] (international relations, 5 years); USAF School of Advanced Airpower Studies (air power strategy, 3 years pre-1999) |
+| Focus | Military strategy, escalation dynamics, air power, suicide terrorism, American political violence |
+| Major works | *Bombing to Win: Air Power and Coercion in War* (1996); *Dying to Win: The Strategic Logic of Suicide Terrorism* (2005); *Cutting the Fuse: The Explosion of Global Suicide Terrorism and How to Stop It* (2010) |
+| Substack | [Escalation Trap](https://escalationtrap.substack.com) (launched during 2026 Iran war) |
+| Live-briefing format | Periodic live video briefings via Escalation Trap Substack (notable May 11 2026 cluster on US strategy failure in Iran) |
+| CPOST research streams | Suicide terrorism, American Political Violence, social media propaganda |
 
 ---
 

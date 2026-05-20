@@ -101,6 +101,7 @@ Nuclear power is the only scalable, baseload solution for AI data center demand.
 | 2026-01 | [[EnergyX]] launches NUKE-it platform | Materials supply chain forming |
 | 2026-02 | [[Inertia Enterprises]] $450M Series A | ICF fusion commercializing, [[Jeff Lawson]] (ex-[[Twilio]]) |
 | 2026-03 | [[UK Fusion Energy]] restructured for private investment | Government fusion going commercial; £1.3bn backing, STEP reactor targets grid by 2040 |
+| 2026-05 | [[Kalshi]] KXFUSION prices fusion before 2030 at 27.6c, before 2035 at 48.8c, and before 2040 at 50.0c | Fusion remains a long-dated option; fission stays the 2025-2035 trade |
 
 ---
 

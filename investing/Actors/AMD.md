@@ -68,6 +68,12 @@ AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by
 | AI/GPU | [[NVIDIA]] | Behind, but software improving |
 | Desktop | Intel | Competitive |
 
+### Steam Machine semi-custom win (Nov 2025)
+
+[[Valve]]'s 2026 [[Steam Machine]] uses a semi-custom [[AMD]] package: Zen 4 CPU with 6 cores / 12 threads up to 4.8GHz, plus RDNA3 GPU with 28 compute units, 8GB GDDR6 VRAM, and a 2.45GHz max sustained clock. This is not thesis-changing next to AMD's data-center AI business, but it is a clean semi-custom gaming design win in a console-like PC form factor and keeps AMD embedded in Valve's [[SteamOS]] hardware family.
+
+*Sources: [Valve / Steam hardware announcement mirrored by Gematsu](https://www.gematsu.com/2025/11/valve-announces-steam-machine-steam-frame-and-steam-controller); [Tom's Hardware hands-on/specs](https://www.tomshardware.com/video-games/console-gaming/valve-brings-back-steam-machine-and-steam-controller-hands-on-with-valves-new-amd-based-living-room-gaming-hardware), Nov 12 2025.*
+
 ### Intel CPU readthrough rally (Apr 24, 2026)
 
 AMD closed Apr 24 at $347.81, up 13.9%, after [[Intel]]'s Q1/Q2 results convinced the market that AI inference and [[Agentic AI]] workloads are pulling CPUs back into the center of the data-center spend map. [[Reuters]] framed the move as a CPU-demand readthrough rather than a simple Intel-specific turnaround: Intel's tight server-CPU supply and above-consensus Q2 guide lifted AMD and [[Arm Holdings]] because both are credible beneficiaries if the AI cycle broadens from GPU training into inference control-plane compute.
@@ -302,6 +308,8 @@ See [[2026 OpenAI revenue miss]] for the full event note.
 - [[Lisa Su]] — CEO
 - [[NVIDIA]] — competitor (GPU/AI, NVL72 vs Helios)
 - [[Intel]] — competitor (CPU)
+- [[Valve]] — semi-custom [[Steam Machine]] CPU/GPU customer
+- [[Steam Machine]] — Valve's 2026 SteamOS living-room PC
 - [[CUDA moat]] — competitive barrier in AI
 - [[Samsung]] — potential 2nm foundry
 - [[TSMC]] — primary foundry

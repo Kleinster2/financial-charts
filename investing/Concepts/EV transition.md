@@ -15,6 +15,23 @@
 
 ---
 
+### Kalshi 2030 EV-share ladder (May 19, 2026)
+
+[[Kalshi]]'s EVSHARE-30JAN ladder prices the probability that electric light-duty vehicles sold in January 2030 clear several share thresholds:
+
+| Threshold | Last | Bid / ask | Volume | Open interest |
+|---|---:|---:|---:|---:|
+| Above 10% | 85c | 85c / 87c | 1,851.12 | 347.12 |
+| Above 20% | 62c | 63c / 64c | 10,224.87 | 3,628.78 |
+| Above 30% | 43c | 43c / 46c | 13,132.37 | 3,353.47 |
+| Above 50% | 26c | 22c / 26c | 8,788.79 | 4,025.58 |
+
+The market read is adoption, not a vertical takeoff. Traders price a greater-than-20% share as more likely than not, but a greater-than-30% outcome is still below even odds and a greater-than-50% outcome is a tail. That fits this note's split between [[China]] / [[Europe]] momentum and US policy reversal: EV penetration keeps rising structurally, but the 2030 curve is now paced by charging, affordability, policy support, and battery supply rather than by the early-2020s subsidy boom.
+
+*Source: [[Kalshi]] API event EVSHARE-30JAN / series KXEVSHARE, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/events/EVSHARE-30JAN?with_nested_markets=true*
+
+---
+
 ## Transition drivers
 
 | Driver | Impact |

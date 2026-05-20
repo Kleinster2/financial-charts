@@ -30,6 +30,7 @@ Per vault taxonomy: actual correlation clusters, private peers included, segment
 | ROG | [[Asustek]] | Republic of Gamers line |
 | HyperX | [[HP]] | Acquired 2021, peripherals |
 | AORUS | [[Gigabyte]] | Gaming brand |
+| Steam hardware | [[Valve]] | [[Steam Deck]], [[Steam Machine]], [[Steam Controller]], [[Steam Frame]] |
 
 ### Private
 
@@ -45,11 +46,12 @@ Per vault taxonomy: actual correlation clusters, private peers included, segment
 
 | Driver | Impact |
 |--------|--------|
-| **GPU cycle** | Nvidia launches drive upgrade demand |
-| **PC refresh** | 4-5 year replacement cycle |
-| **Consumer sentiment** | Discretionary spend sensitivity |
-| **Panel/component costs** | Margin pressure when tight |
-| **Esports/streaming** | Demand tailwind |
+| GPU cycle | Nvidia launches drive upgrade demand |
+| PC refresh | 4-5 year replacement cycle |
+| Consumer sentiment | Discretionary spend sensitivity |
+| Panel/component costs | Margin pressure when tight |
+| Esports/streaming | Demand tailwind |
+| SteamOS adoption | Valve hardware and third-party SteamOS devices can pull PC gaming toward console-like form factors |
 
 ---
 
@@ -57,8 +59,8 @@ Per vault taxonomy: actual correlation clusters, private peers included, segment
 
 | Cluster | Tickers | Notes |
 |---------|---------|-------|
-| **US-listed** | CRSR, LOGI | Clean USD exposure |
-| **Asia-listed** | 1337.HK, 2377.TW, 2357.TW | FX noise, different hours |
+| US-listed | CRSR, LOGI | Clean USD exposure |
+| Asia-listed | 1337.HK, 2377.TW, 2357.TW | FX noise, different hours |
 
 Corsair is the purest US-traded proxy. Logitech has enterprise diversification (video conferencing, business peripherals).
 
@@ -69,6 +71,7 @@ Corsair is the purest US-traded proxy. Logitech has enterprise diversification (
 ### Upstream
 - [[Nvidia]] — GPU supplier, cycle driver
 - [[AMD]] — GPU/CPU supplier
+- [[Valve]] — SteamOS hardware platform owner
 - [[Semiconductors]] — component suppliers
 
 ### Adjacent sectors
@@ -82,5 +85,6 @@ Corsair is the purest US-traded proxy. Logitech has enterprise diversification (
 - [[Logitech]] — diversified but meaningful gaming exposure
 - [[Dell]] — Alienware parent
 - [[Asustek]] — ROG parent
+- [[Valve]] — [[Steam Deck]] and [[Steam Machine]]
 
 *Created 2026-02-02*

@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #energy #nuclear #usa #public
 
-**Oklo** — Sam Altman-backed SMR company. [[Aurora]] microreactor. OpenAI connection.
+Oklo — Sam Altman-backed SMR company. [[Aurora]] microreactor. OpenAI connection.
 
 ---
 
@@ -11,12 +11,12 @@ aliases: []
 
 | Sector | ETF | Correlation |
 |--------|-----|-------------|
-| Technology | XLK | 0.56 |
-| [[Semiconductors]] | SMH | 0.50 |
-| Software | IGV | 0.50 |
-| *S&P 500* | *SPY* | *0.49* |
+| Technology | [[XLK]] | 0.56 |
+| [[Semiconductors]] | [[SMH]] | 0.50 |
+| Software | [[IGV]] | 0.50 |
+| *[[S&P 500]]* | *[[SPY]]* | *0.49* |
 
-OKLO shows moderate Technology correlation (XLK r = 0.56).
+OKLO shows moderate Technology correlation ([[XLK]] r = 0.56).
 
 ---
 
@@ -27,7 +27,7 @@ OKLO shows moderate Technology correlation (XLK r = 0.56).
 | Metric | Value |
 |--------|-------|
 | Ticker | OKLO |
-| Market cap | ~$8B |
+| Market cap | ~$10.2B |
 | Chairman | [[Sam Altman]] |
 | CEO | Jake DeWitte |
 | Pipeline | 14 GW (predominantly data center/hyperscaler) |
@@ -37,13 +37,40 @@ OKLO shows moderate Technology correlation (XLK r = 0.56).
 
 ---
 
-## Q4/FY2025 earnings (reported Mar 17, 2026)
+## Charts
+
+![[oklo-price-chart.png]]
+*OKLO common-stock price history from the local market-data database. The equity is a milestone-duration instrument: reactor schedule, hyperscaler demand, and financing capacity dominate the read-through more than current revenue.*
+
+![[oklo-fundamentals-chart.png]]
+*Revenue remains zero through FY2025; the relevant financial signal is widening development-stage losses as licensing, engineering, fuel, and site work scale.*
+
+![[oklo-sankey.png]]
+*FY2025 income-statement flow. The Sankey is mainly a burn-rate map because Oklo is still pre-commercial.*
+
+---
+
+## Financials
+
+### Annual history
+
+| Fiscal year | Revenue | Gross profit | Operating income | Net income |
+|-------------|---------|--------------|------------------|------------|
+| 2021 | $0 | $0 | -$5.16M | -$5.16M |
+| 2022 | $0 | $0 | -$10.0M | -$10.0M |
+| 2023 | $0 | -$0.08M | -$18.6M | -$32.2M |
+| 2024 | $0 | -$0.27M | -$52.8M | -$73.6M |
+| 2025 | $0 | -$0.52M | -$139.3 million | -$105.7M |
+
+*Source: local `market_data.db`; OKLO fundamentals fetched during the May 19, 2026 vault session via `fetch_fundamentals.py OKLO`.*
+
+### Q4/FY2025 earnings (reported Mar 17, 2026)
 
 | Metric | FY2025 | FY2024 |
 |--------|--------|--------|
 | Revenue | $0 (pre-revenue) | $0 |
 | Net loss | $105.7M | $73.6M |
-| Operating loss | $139.3M | — |
+| Operating loss | $139.3 million | — |
 | Non-cash stock comp | $41.8M | — |
 | Operating cash used | $82.2M (adj: $69.2M, within $65-80M guide) | — |
 | EPS | -$0.27 (vs -$0.17 est) | — |
@@ -78,7 +105,7 @@ Total pipeline: 14 GW, predominantly data center and hyperscaler customers.
 |-----------|--------|
 | DOE Other Transaction Authority (OTA) for Aurora-INL | Executed |
 | Nuclear Safety Design Agreement (NSDA) | Approved |
-| NRC materials license (Idaho Radiochemistry Lab) | Obtained — first NRC license (major milestone for isotope business) |
+| NRC materials license ([[Idaho]] Radiochemistry Lab) | Obtained — first NRC license (major milestone for isotope business) |
 | NRC pre-application engagement | Completed |
 | Rolling NRC readiness review | Initiated |
 | DOE recycling R&D funding | Awarded |
@@ -89,12 +116,20 @@ Total pipeline: 14 GW, predominantly data center and hyperscaler customers.
 
 | Project | Status |
 |---------|--------|
-| Groves Project (Idaho) | Criticality target July 4; structure, reactor tank, and major components in place; fuel procured |
+| Groves Project ([[Idaho]]) | Criticality target July 4; structure, reactor tank, and major components in place; fuel procured |
 | Atomic Alchemy (isotopes) | Expected first revenue mid-2026; Idaho lab now NRC-licensed |
 | Tennessee Advanced Fuel Center | Initial geotechnical surveys and soil borings completed; site development initiated |
 | Meta Aurora campus (Ohio) | Pre-construction and site characterization beginning 2026 |
 
 European partnerships: BlueCala (joint technology development — balance of plant, regulatory, fuel strategy) and newcleo/Nucleo (strategic partnership with potential $2B manufacturing investment to expand US fuel fabrication capacity).
+
+### Kalshi criticality pricing (May 19, 2026)
+
+[[Kalshi]]'s KXCRITICALITY market prices [[Oklo]] achieving criticality before Aug. 1, 2026 at 18c last, 17c / 20c bid-ask. Volume was 10,853.86 and open interest was 4,650.65 at the API read.
+
+That is the market's cleanest near-term read on the Groves Project criticality target embedded in this note: traders view a 2026 criticality event as possible but not base case. The pricing is consistent with the bull/bear split below: [[Oklo]] has cash, hyperscaler demand, and regulatory momentum, but the equity story still depends on proving that the first reactor milestone happens on a credible schedule.
+
+*Source: [[Kalshi]] API series KXCRITICALITY, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXCRITICALITY*
 
 ---
 
@@ -139,19 +174,23 @@ Bear:
 | Metric | Value |
 |--------|-------|
 | Ticker | OKLO |
-| Market cap | ~$8B |
+| Market cap | ~$10.2B |
 | Chairman | [[Sam Altman]] |
 | CEO | Jake DeWitte |
 | Pipeline | 14 GW |
 | Cash | ~$2.6B |
 | Status | Pre-commercial; first revenue (isotopes) expected mid-2026 |
 
-*Updated 2026-03-19*
+*Updated 2026-05-19*
 
 ---
 
 ## Related
 
+### Securities
+- [[Oklo securities note]] — OKLO common equity, charts, and market-pricing companion
+
+### Strategic / operating context
 - [[OpenAI]] — connection (Sam Altman chairs both, AI power demand)
 - [[Sam Altman]] — chairman (invested pre-OpenAI)
 - [[Meta]] — 1.2 GW Aurora campus binding deal (Jan 2026)
