@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Check and optionally refresh Kalshi overlay freshness.
+"""Check and optionally refresh prediction-market overlay freshness.
 
-The watchlist treats Kalshi data as expiring note overlays. Offline mode checks
-whether stored snapshots are stale. Live mode fetches Kalshi's public API and
-flags material price moves, status changes, or missing contracts.
+The watchlist treats Kalshi and Polymarket data as expiring note overlays.
+Offline mode checks whether stored snapshots are stale. Live mode fetches public
+APIs and flags material price moves, status changes, or missing contracts.
 
 Usage:
   python scripts/refresh_kalshi_watchlist.py
@@ -21,7 +21,7 @@ import json
 from pathlib import Path
 import sys
 import time
-from urllib.parse import urlencode
+from urllib.parse import quote, urlencode
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
@@ -36,7 +36,7 @@ DEFAULT_STALE_AFTER = {
     "monthly": 35,
     "quarterly": 100,
 }
-USER_AGENT = "financial-charts-kalshi-watchlist/1.0"
+USER_AGENT = "financial-charts-prediction-market-watchlist/1.0"
 
 
 @dataclass
@@ -73,14 +73,87 @@ def number(value: object) -> float | None:
         return None
 
 
-def market_price(market: dict) -> float | None:
+def parse_json_array(value: object) -> list[object]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return value
+    text = str(value).strip()
+    if not text:
+        return []
+    try:
+        parsed = json.loads(text)
+    except json.JSONDecodeError:
+        return []
+    return parsed if isinstance(parsed, list) else []
+
+
+def market_status(market: dict) -> str | None:
+    if market.get("status") is not None:
+        return str(market["status"])
+    if market.get("closed") is True:
+        return "closed"
+    if market.get("active") is True:
+        return "active"
+    if market.get("active") is False:
+        return "inactive"
+    return None
+
+
+def market_ids(market: dict) -> list[str]:
+    ids: list[str] = []
+    for key in ("ticker", "slug", "id", "conditionId", "condition_id"):
+        value = market.get(key)
+        if value:
+            ids.append(str(value))
+    return ids
+
+
+def tracked_market_id(tracked_market: dict) -> str:
+    for key in ("ticker", "slug", "id", "condition_id", "conditionId"):
+        value = tracked_market.get(key)
+        if value:
+            return str(value).strip()
+    return ""
+
+
+def market_close_time(market: dict) -> str | None:
+    for key in ("close_time", "closedTime", "endDate", "endDateIso"):
+        value = market.get(key)
+        if value:
+            return str(value)
+    return None
+
+
+def market_price(market: dict, *, outcome: str | None = None) -> float | None:
+    outcomes = [str(item) for item in parse_json_array(market.get("outcomes"))]
+    prices = parse_json_array(market.get("outcomePrices"))
+    if prices:
+        desired = outcome or "Yes"
+        index = 0
+        for i, item in enumerate(outcomes):
+            if item.lower() == desired.lower():
+                index = i
+                break
+        if index < len(prices):
+            value = number(prices[index])
+            if value is not None:
+                return value
+
     for key in ("last_price_dollars", "last_price"):
         value = number(market.get(key))
         if value is not None:
             return value
 
+    value = number(market.get("lastTradePrice"))
+    if value is not None:
+        return value
+
     bid = number(market.get("yes_bid_dollars") or market.get("yes_bid"))
     ask = number(market.get("yes_ask_dollars") or market.get("yes_ask"))
+    if bid is None and ask is None:
+        bid = number(market.get("bestBid"))
+        ask = number(market.get("bestAsk"))
     if bid is not None and ask is not None:
         return (bid + ask) / 2
     return bid if bid is not None else ask
@@ -90,15 +163,33 @@ def build_api_url(entry: dict) -> str:
     if entry.get("api_url"):
         return str(entry["api_url"])
 
+    provider = str(entry.get("provider") or "kalshi").lower()
     source_kind = entry.get("source_kind")
     source_ticker = entry.get("source_ticker")
-    if source_kind not in {"series_ticker", "event_ticker"} or not source_ticker:
+    if not source_ticker:
+        raise ValueError(f"{entry.get('id', '<unknown>')}: provide api_url or source_ticker")
+
+    if provider == "kalshi":
+        if source_kind not in {"series_ticker", "event_ticker"}:
+            raise ValueError(
+                f"{entry.get('id', '<unknown>')}: Kalshi requires series_ticker or event_ticker"
+            )
+        params = {"limit": 1000, source_kind: source_ticker}
+        return "https://external-api.kalshi.com/trade-api/v2/markets?" + urlencode(params)
+
+    if provider == "polymarket":
+        slug = quote(str(source_ticker).strip(), safe="")
+        if source_kind == "event_slug":
+            return f"https://gamma-api.polymarket.com/events/slug/{slug}"
+        if source_kind == "market_slug":
+            return f"https://gamma-api.polymarket.com/markets/slug/{slug}"
+        if source_kind == "market_id":
+            return f"https://gamma-api.polymarket.com/markets/{slug}"
         raise ValueError(
-            f"{entry.get('id', '<unknown>')}: provide api_url or source_kind/source_ticker"
+            f"{entry.get('id', '<unknown>')}: Polymarket requires event_slug, market_slug, or market_id"
         )
 
-    params = {"limit": 1000, source_kind: source_ticker}
-    return "https://external-api.kalshi.com/trade-api/v2/markets?" + urlencode(params)
+    raise ValueError(f"{entry.get('id', '<unknown>')}: unsupported provider {provider}")
 
 
 def fetch_markets(api_url: str, *, retries: int = 2) -> list[dict]:
@@ -113,9 +204,14 @@ def fetch_markets(api_url: str, *, retries: int = 2) -> list[dict]:
                 raise
             retry_after = number(exc.headers.get("Retry-After")) or (2.0 * (attempt + 1))
             time.sleep(float(retry_after))
-    markets = payload.get("markets")
-    if not isinstance(markets, list):
-        raise ValueError(f"Kalshi response missing markets list for {api_url}")
+    if isinstance(payload, list):
+        markets = payload
+    elif isinstance(payload, dict) and isinstance(payload.get("markets"), list):
+        markets = payload["markets"]
+    elif isinstance(payload, dict) and (payload.get("slug") or payload.get("conditionId")):
+        markets = [payload]
+    else:
+        raise ValueError(f"Prediction-market response missing market data for {api_url}")
     return markets
 
 
@@ -182,14 +278,13 @@ def evaluate_entry(
     if fetched_markets is None:
         return alerts
 
-    by_ticker = {
-        str(m.get("ticker")): m
-        for m in fetched_markets
-        if m.get("ticker")
-    }
+    by_id: dict[str, dict] = {}
+    for market in fetched_markets:
+        for identifier in market_ids(market):
+            by_id[identifier] = market
     tracked = entry.get("tracked_markets") or []
     if not tracked:
-        active = sum(1 for m in fetched_markets if m.get("status") == "active")
+        active = sum(1 for m in fetched_markets if market_status(m) == "active")
         if active == 0:
             alerts.append(
                 Alert("review", "no-active-markets", watch_id, note, "source returned no active markets")
@@ -197,16 +292,16 @@ def evaluate_entry(
         return alerts
 
     for tracked_market in tracked:
-        ticker = str(tracked_market.get("ticker") or "").strip()
-        if not ticker:
+        identifier = tracked_market_id(tracked_market)
+        if not identifier:
             continue
-        current = by_ticker.get(ticker)
+        current = by_id.get(identifier)
         if current is None:
-            alerts.append(Alert("review", "missing-contract", watch_id, note, f"{ticker} not found"))
+            alerts.append(Alert("review", "missing-contract", watch_id, note, f"{identifier} not found"))
             continue
 
         old_status = tracked_market.get("status")
-        new_status = current.get("status")
+        new_status = market_status(current)
         if old_status and new_status and str(old_status) != str(new_status):
             alerts.append(
                 Alert(
@@ -214,12 +309,12 @@ def evaluate_entry(
                     "status-change",
                     watch_id,
                     note,
-                    f"{ticker} status changed {old_status} -> {new_status}",
+                    f"{identifier} status changed {old_status} -> {new_status}",
                 )
             )
 
         old_price = number(tracked_market.get("last_price"))
-        new_price = market_price(current)
+        new_price = market_price(current, outcome=tracked_market.get("outcome"))
         if old_price is None or new_price is None:
             continue
 
@@ -232,7 +327,7 @@ def evaluate_entry(
                     "price-move",
                     watch_id,
                     note,
-                    f"{ticker} moved {old_price:.1%} -> {new_price:.1%} ({delta_pp:+.1f}pp)",
+                    f"{identifier} moved {old_price:.1%} -> {new_price:.1%} ({delta_pp:+.1f}pp)",
                 )
             )
 
@@ -298,24 +393,29 @@ def update_state(config: dict, *, as_of: date, fetched_by_id: dict[str, list[dic
         if markets is None:
             continue
         entry["last_read"] = as_of.isoformat()
-        by_ticker = {str(m.get("ticker")): m for m in markets if m.get("ticker")}
+        by_id: dict[str, dict] = {}
+        for market in markets:
+            for identifier in market_ids(market):
+                by_id[identifier] = market
         for tracked in entry.get("tracked_markets") or []:
-            current = by_ticker.get(str(tracked.get("ticker")))
+            current = by_id.get(tracked_market_id(tracked))
             if current is None:
                 continue
-            price = market_price(current)
+            price = market_price(current, outcome=tracked.get("outcome"))
             if price is not None:
                 tracked["last_price"] = round(price, 4)
-            if current.get("status"):
-                tracked["status"] = str(current["status"])
-            if current.get("close_time"):
-                tracked["close_time"] = str(current["close_time"])
+            status = market_status(current)
+            if status:
+                tracked["status"] = status
+            close_time = market_close_time(current)
+            if close_time:
+                tracked["close_time"] = close_time
 
 
 def markdown_report(report: dict) -> str:
     counts = report["counts"]
     lines = [
-        f"### Kalshi watchlist freshness ({report['as_of']})",
+        f"### Prediction-market watchlist freshness ({report['as_of']})",
         "",
         (
             f"- Tracked overlays: {report['entries']}; "
@@ -323,7 +423,7 @@ def markdown_report(report: dict) -> str:
         ),
     ]
     if not report["alerts"]:
-        lines.append("- No stale or material Kalshi overlay alerts.")
+        lines.append("- No stale or material prediction-market overlay alerts.")
         return "\n".join(lines)
 
     lines.extend(
@@ -359,10 +459,10 @@ def append_daily(markdown: str, as_of: date) -> Path:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Check Kalshi overlay freshness")
+    parser = argparse.ArgumentParser(description="Check prediction-market overlay freshness")
     parser.add_argument("--config", default=str(DEFAULT_CONFIG), help="Watchlist YAML path")
     parser.add_argument("--date", default=date.today().isoformat(), help="As-of date, YYYY-MM-DD")
-    parser.add_argument("--refresh", action="store_true", help="Fetch Kalshi API and compare prices/status")
+    parser.add_argument("--refresh", action="store_true", help="Fetch public APIs and compare prices/status")
     parser.add_argument("--delay", type=float, default=0.5, help="Delay between live API requests in seconds")
     parser.add_argument("--update-state", action="store_true", help="Write refreshed prices/read date back to YAML")
     parser.add_argument("--append-daily", action="store_true", help="Append markdown alert report to today's daily note")

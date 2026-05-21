@@ -2,9 +2,9 @@
 
 # Long Apple
 
-**Status**: Active — silicon advantage compounding
-**Created**: 2025-12-29
-**Last reviewed**: 2026-01-06
+Status: Active — silicon advantage compounding
+Created: 2025-12-29
+Last reviewed: 2026-05-20
 
 ---
 
@@ -18,12 +18,12 @@ Apple's silicon design team is a hidden asset. They extract more value from each
 
 Apple's A-series and M-series chips consistently outperform at equivalent nodes because of:
 
-1. **Co-design depth**: Years of TSMC optimization
-2. **Vertical integration**: Hardware + software + silicon unified
-3. **Design talent**: Best-in-class chip architects
-4. **First access**: Priority on new TSMC nodes
+1. Co-design depth: Years of TSMC optimization
+2. Vertical integration: Hardware + software + silicon unified
+3. Design talent: Best-in-class chip architects
+4. First access: Priority on new TSMC nodes
 
-**Evidence: A19 (Dec 2025)**
+Evidence: A19 (Dec 2025)
 - 10% die shrink on N3P vs A18 on N3E
 - Node only gave 4% — rest from design optimization
 - 2x cache density, layout efficiency gains
@@ -41,9 +41,9 @@ Apple's A-series and M-series chips consistently outperform at equivalent nodes 
 | [[Intel]] | Process struggles + design transition |
 
 Apple's silicon lead translates to:
-- **Better margins**: More efficient die = lower cost per chip
-- **Better products**: Performance/watt leadership
-- **Supply security**: TSMC prioritizes Apple
+- Better margins: More efficient die = lower cost per chip
+- Better products: Performance/watt leadership
+- Supply security: TSMC prioritizes Apple
 
 ---
 
@@ -82,7 +82,19 @@ Apple's silicon lead translates to:
 |------|------------|-------|
 | 2025-12 | | |
 
-**Hedge portfolio**: Short [[QQQ]], buy back AAPL weight (~8%). Isolates Apple silicon advantage from large-cap tech beta.
+Hedge portfolio: Short [[QQQ]], buy back AAPL weight (~8%). Isolates Apple silicon advantage from large-cap tech beta.
+
+---
+
+## Kalshi product-cycle overlay (May 20, 2026)
+
+[[Kalshi]]'s Apple-specific markets lean toward a 2026 foldable launch, but price it as a premium niche extension rather than a full iPhone-cycle reset. APPLEFOLD-26DEC31 last traded at 86c for an Apple foldable-phone announcement before 2027. The related price ladder is high-end: a foldable iPhone above $1,800 was 87c, above $2,000 was 65c, and above $2,200 was 46c.
+
+The other Apple markets keep the read mixed. The iPhone 18 release-timing ladder does not price a broad 2026 release as the base case: before Oct. 1, 2026 was 21c and before Jan. 1, 2027 was 23c. A Mac with cellular before 2027 was 21c. An [[Apple Music]] individual-plan price increase before 2027 was 56c, which is a modest services-pricing-power signal. The [[DOJ]] antitrust win market against [[Apple]] before 2030 was 27c, meaningful but not the dominant thesis variable.
+
+Read-through for the long: the foldable market supports Apple ASP optionality and supplier demand, but the silicon-compounding thesis still needs evidence from M-series/A-series performance, margin durability, and category expansion. A high-price foldable can help mix; it cannot by itself prove the silicon moat.
+
+*Sources: [[Kalshi]] API events APPLEFOLD, KXAAPLPRICEFOLD-27, KXIPHONERELEASE-IPHONE18, KXMACCELL-27, KXPRICEINCREASEAPPLEMUSIC-26, and APPLEUS-29DEC31, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=APPLEFOLD, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXAAPLPRICEFOLD-27, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXIPHONERELEASE-IPHONE18, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXMACCELL-27, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXPRICEINCREASEAPPLEMUSIC-26, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=APPLEUS-29DEC31*
 
 ---
 
@@ -90,6 +102,7 @@ Apple's silicon lead translates to:
 
 | Date | Observation | Implication |
 |------|-------------|-------------|
+| 2026-05-20 | [[Kalshi]] priced a 2026 Apple foldable-phone announcement at 86c, with the foldable iPhone price ladder above $2,000 at 65c | Supports premium-product / ASP optionality, but not enough to update the core silicon thesis alone |
 | 2025-12-29 | A19 10% shrink from 4% node + 6% design | Design team extracting above-node gains |
 | 2025-12-29 | Apple + [[NVIDIA]] lock TSMC 2nm capacity | Supply security advantage |
 

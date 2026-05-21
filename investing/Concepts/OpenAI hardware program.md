@@ -30,6 +30,16 @@ The two are different bets, not the same product on different timelines. The io 
 
 ---
 
+## Kalshi form-factor overlay (May 20, 2026)
+
+[[Kalshi]]'s OpenAI / [[Jony Ive]] hardware markets lean toward a screenless companion device, not a clean smartphone-first read. In KXOAIHARDWARE-27, earbuds led at 40c last, followed by a clip-on device at 30c, phone at 27c, glasses at 20c, and ring in the high-teens / low-20s depending on bid-ask. The separate KXOAISCREEN-27 market priced the first device having a screen at only 17c last.
+
+That does not invalidate the [[Ming-Chi Kuo]] smartphone track. It suggests traders separate the first io/Jony Ive product from the later agent-phone supply-chain report. For the vault, the live market read is: late-2026 / early-2027 launch risk belongs to a screenless wearable/companion category, while the 2028 phone remains the larger strategic threat to [[Apple]] and [[Google]] if the supplier report holds.
+
+*Sources: [[Kalshi]] API events KXOAIHARDWARE-27 and KXOAISCREEN-27, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXOAIHARDWARE-27 and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXOAISCREEN-27*
+
+---
+
 ## Apr 27, 2026 — the Kuo supplier-identification report
 
 [[Ming-Chi Kuo]] (TF International Securities) published a research note identifying the supplier triumvirate for OpenAI's smartphone:

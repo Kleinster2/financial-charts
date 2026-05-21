@@ -288,22 +288,36 @@ This is the first analyst-disclosed split between the legacy SpaceX revenue base
 
 ---
 
-## Kalshi market-implied IPO timing (May 19, 2026)
+## Kalshi market-implied IPO timing (May 20, 2026)
 
 [[Kalshi]]'s SpaceX IPO ladder has become a useful source for how traders are reconciling the reported June 12 listing date with residual filing/execution risk. The cumulative timing market is priced as a June event, but not a pre-June event:
 
 | Contract | Last | Bid / ask | Read |
 |---|---:|---:|---|
-| SpaceX IPO before Jun 1, 2026 | 12c | 11c / 12c | Public filing before June is not the same as an IPO before June. |
-| SpaceX IPO before Jul 1, 2026 | 91c | 91c / 92c | Market base case is a June listing. |
-| SpaceX IPO before Aug 1, 2026 | 95c | 96c / 97c | High confidence by midsummer. |
-| SpaceX IPO before Sep 1, 2026 | 95c | 96c / 98c | Little extra probability after August, implying the expected window is June/July. |
+| SpaceX IPO before Jun 1, 2026 | 15c | 14c / 15c | Public filing before June is not the same as an IPO before June. |
+| SpaceX IPO before Jul 1, 2026 | 92c | 92c / 93c | Market base case is a June listing. |
+| SpaceX IPO before Aug 1, 2026 | 95c | 95c / 96c | High confidence by midsummer. |
+| SpaceX IPO before Sep 1, 2026 | 93c | 94c / 97c | The ladder still centers on June/July; later contracts are high but noisier. |
 
-The broader "who will IPO before 2027" market reinforces the same hierarchy: [[SpaceX]] 98c, [[Anthropic]] 69c, [[OpenAI]] 38c, [[Databricks]] 14c, and [[Anduril]] 7c. That matters for the mega-IPO absorption test: the market now treats [[Anthropic]] as a more probable 2026 public-market supply event than [[OpenAI]], while treating SpaceX as almost certain.
+Kalshi's SpaceX launch-count ladder also supports the operational-cadence side of the IPO pitch. Annual 2026 contracts price more than 120 launches at 97c, more than 140 at 62c, more than 160 at 27c, and more than 180 at 20c. The market is therefore underwriting a very high cadence, but not a clean 160-plus launch year. The May-only launch ladder is nearly resolved around 11-12 launches: more than 11 May launches was 61c, while more than 12 was only 4c.
 
-Kalshi's SpaceX launch-count ladder also supports the operational-cadence side of the IPO pitch. Annual 2026 contracts price more than 120 launches at 96c, more than 140 at 64c, more than 160 at 28c, and more than 180 at 20c. The market is therefore underwriting a very high cadence, but not a clean 160-plus launch year.
+Two adjacent markets keep the IPO story from becoming a one-note listing-date trade. KXIPOSTARLINK prices a separate [[Starlink]] IPO before Jan. 1, 2027 at only 6c, so traders are not paying for an immediate spinout. KXSPACEXSTARSHIP-12 prices another [[Starship]] launch before May 31 at 86c, but the before-May-21 contract was 41c; near-term Starship progress is still a schedule-risk variable rather than a settled input.
 
-*Sources: [[Kalshi]] API series KXIPOSPACEX, KXIPO, and KXSPACEXCOUNT, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXIPOSPACEX, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXIPO, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXSPACEXCOUNT*
+*Sources: [[Kalshi]] API events KXIPOSPACEX, KXIPOSTARLINK, KXSPACEXCOUNT-26B, KXSPACEXCOUNT-26MAY, and KXSPACEXSTARSHIP-12, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXIPOSPACEX, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXIPOSTARLINK, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXSPACEXCOUNT-26B, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXSPACEXCOUNT-26MAY, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXSPACEXSTARSHIP-12*
+
+## Polymarket IPO valuation overlay (May 20, 2026)
+
+[[Polymarket]] adds a cleaner valuation distribution than the Kalshi timing ladder. The market is effectively saying "the IPO happens and clears trillion-dollar scale," but it is not pricing a clean $3T print:
+
+| Contract | Last | Read |
+|---|---:|---|
+| IPO closing market cap above $1T | 97.85c | Trillion-dollar outcome is treated as close to locked. |
+| IPO closing market cap above $2T | 69.5c | Market leans toward the Bloomberg >$2T valuation frame holding at the close. |
+| IPO closing market cap above $3T | 18.5c | A $3T-plus first-day close is live upside, not the base case. |
+
+The separate Polymarket timing event lines up with Kalshi's June-window read: SpaceX IPO by May 31 was only 0.25c, by Jun. 15 was 84.35c, and by Jun. 30 was 94.25c. That makes the combined prediction-market signal more precise: timing risk has collapsed into June execution, while valuation risk is now the main live debate.
+
+*Sources: [[Polymarket]] Gamma events `spacex-ipo-closing-market-cap-above` and `spacex-ipo-by`, read May 20, 2026: https://gamma-api.polymarket.com/events/slug/spacex-ipo-closing-market-cap-above and https://gamma-api.polymarket.com/events/slug/spacex-ipo-by*
 
 ---
 

@@ -44,6 +44,12 @@ Read-through: traders are not pricing a clean return to the 2025 all-time high a
 
 *Source: [[Kalshi]] API series KXBTCMAXY, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXBTCMAXY*
 
+### Polymarket $150K cross-check (May 20, 2026)
+
+[[Polymarket]]'s dedicated $150K event is a useful cross-venue check on the same right tail. It priced [[Bitcoin]] hitting $150K by Jun. 30, 2026 at 1.35c, and hitting $150K by Dec. 31, 2026 at 9.5c. That is nearly identical to [[Kalshi]]'s 10c for crossing $149,999.99 before year-end, so the signal is less "Polymarket disagrees" and more "two venues agree that $150K remains a live but low-probability 2026 outcome."
+
+*Source: [[Polymarket]] Gamma event `when-will-bitcoin-hit-150k`, read May 20, 2026: https://gamma-api.polymarket.com/events/slug/when-will-bitcoin-hit-150k*
+
 ### Major cycles
 
 | Period | Event | Move |
@@ -59,11 +65,11 @@ Read-through: traders are not pricing a clean return to the 2025 all-time high a
 
 ## How it works
 
-**Proof-of-Work:** Miners compete to solve cryptographic puzzles, validating transactions and securing the network. Winner gets block reward + fees.
+Proof-of-Work: Miners compete to solve cryptographic puzzles, validating transactions and securing the network. Winner gets block reward + fees.
 
-**Fixed supply:** Hard cap of 21 million BTC. ~98% mined by 2030, final coin ~2140.
+Fixed supply: Hard cap of 21 million BTC. ~98% mined by 2030, final coin ~2140.
 
-**Halvings:** Block reward cuts in half every ~4 years, reducing new supply:
+Halvings: Block reward cuts in half every ~4 years, reducing new supply:
 
 | Halving | Date | Reward |
 |---------|------|--------|
@@ -74,7 +80,7 @@ Read-through: traders are not pricing a clean return to the 2025 all-time high a
 | 4th | Apr 2024 | 3.125 BTC |
 | 5th | ~Mar 2028 | 1.5625 BTC |
 
-**Lightning Network:** Layer 2 for instant, low-fee payments. 15,000+ nodes, $200M+ capacity.
+Lightning Network: Layer 2 for instant, low-fee payments. 15,000+ nodes, $200M+ capacity.
 
 ---
 
@@ -90,13 +96,13 @@ Read-through: traders are not pricing a clean return to the 2025 all-time high a
 | [[Binance]] | ~249K | ~1.2% |
 | [[El Salvador]] | 7.5K | <0.1% |
 
-**ETFs:** ~1.5M BTC held by ETFs/funds (7% of supply).
+ETFs: ~1.5M BTC held by ETFs/funds (7% of supply).
 
 ---
 
 ## ETF approval (Jan 2024)
 
-**SEC approved 11 spot Bitcoin ETFs on January 10, 2024** — ending a 10+ year battle (first filing: Winklevoss 2013).
+SEC approved 11 spot Bitcoin ETFs on January 10, 2024, ending a 10+ year battle (first filing: Winklevoss 2013).
 
 | ETF | Issuer | AUM |
 |-----|--------|-----|
@@ -105,7 +111,7 @@ Read-through: traders are not pricing a clean return to the 2025 all-time high a
 | GBTC | Grayscale | Converted from trust |
 | ARKB | ARK/21Shares | |
 
-**Impact:** $52B+ cumulative inflows to IBIT alone. ETFs absorbed more than annual mined supply.
+Impact: $52B+ cumulative inflows to IBIT alone. ETFs absorbed more than annual mined supply.
 
 ---
 
@@ -113,9 +119,9 @@ Read-through: traders are not pricing a clean return to the 2025 all-time high a
 
 [[Trump II]] administration established US [[Strategic Bitcoin Reserve]] via executive order (Mar 2025):
 
-- **Goal:** Acquire 1M BTC (~5% of supply) over 5 years
-- **Mechanism:** Treasury purchases + converting seized assets
-- **Rationale:** Hedge against dollar debasement, counter China's gold/CBDC moves
+- Goal: acquire 1M BTC (~5% of supply) over 5 years
+- Mechanism: Treasury purchases + converting seized assets
+- Rationale: hedge against dollar debasement, counter China's gold/CBDC moves
 
 See [[Strategic Bitcoin Reserve]] for details.
 
@@ -142,13 +148,13 @@ See [[Strategic Bitcoin Reserve]] for details.
 
 ## Mining
 
-**Current state (Jan 2026):**
+Current state (Jan 2026):
 - Hash rate: 1.12 billion TH/s (record)
 - Energy: ~212 TWh/year
 - Energy mix: 52% non-fossil (hydro, wind, nuclear, solar)
 - Geography: US (38%), Kazakhstan, Russia, Canada
 
-**Key miners:** [[Marathon Digital]], [[Riot Platforms]], [[CleanSpark]], [[Bitdeer]], [[TeraWulf]], [[Core Scientific]], [[Hut 8]], [[IREN]], [[HIVE Digital]], [[Cipher Mining]]
+Key miners: [[Marathon Digital]], [[Riot Platforms]], [[CleanSpark]], [[Bitdeer]], [[TeraWulf]], [[Core Scientific]], [[Hut 8]], [[IREN]], [[HIVE Digital]], [[Cipher Mining]]
 
 See [[Crypto-to-AI]] for miners pivoting to AI hosting.
 

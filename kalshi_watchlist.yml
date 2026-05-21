@@ -307,3 +307,281 @@ markets:
       - ticker: KXNUMSHUTDOWNS-27JAN01-T2
         last_price: 0.64
         status: active
+
+  - id: tesla-q2-deliveries
+    note: investing/Theses/Short Tesla.md
+    note_link: Short Tesla
+    source_kind: event_ticker
+    source_ticker: KXTSLA-26JULDELIV
+    cadence: weekly
+    last_read: '2026-05-20'
+    thesis: Tesla Q2 delivery rebound threshold overlay.
+
+  - id: tesla-q2-production
+    note: investing/Theses/Short Tesla.md
+    note_link: Short Tesla
+    source_kind: event_ticker
+    source_ticker: KXTSLA-26JULPROD
+    cadence: weekly
+    last_read: '2026-05-20'
+    thesis: Tesla Q2 production rebound threshold overlay.
+
+  - id: tesla-energy-scale
+    note: investing/Theses/Short Tesla.md
+    note_link: Short Tesla
+    source_kind: event_ticker
+    source_ticker: KXTESLAENERGYBY-27
+    cadence: monthly
+    last_read: '2026-05-20'
+    thesis: Tesla Energy single-quarter deployment scale overlay.
+
+  - id: tesla-semi-scale
+    note: investing/Theses/Short Tesla.md
+    note_link: Short Tesla
+    source_kind: event_ticker
+    source_ticker: KXTESLASEMI-27JAN
+    cadence: monthly
+    last_read: '2026-05-20'
+    thesis: Tesla Semi delivery-scale optionality before 2027.
+
+  - id: tesla-optimus-sale
+    note: investing/Theses/Short Tesla.md
+    note_link: Short Tesla
+    source_kind: event_ticker
+    source_ticker: TESLAOPTIMUS-26DEC31
+    cadence: monthly
+    last_read: '2026-05-20'
+    thesis: Optimus commercialization tail before 2027.
+
+  - id: spacex-ipo-timing
+    note: investing/Events/SpaceX IPO 2026.md
+    note_link: SpaceX IPO 2026
+    source_kind: event_ticker
+    source_ticker: KXIPOSPACEX
+    cadence: daily
+    last_read: '2026-05-20'
+    thesis: SpaceX June/July IPO execution window.
+
+  - id: starlink-ipo-timing
+    note: investing/Concepts/2026 IPO pipeline.md
+    note_link: 2026 IPO pipeline
+    source_kind: event_ticker
+    source_ticker: KXIPOSTARLINK
+    cadence: monthly
+    last_read: '2026-05-20'
+    thesis: Starlink spinout timing distinct from parent SpaceX listing.
+
+  - id: spacex-launch-cadence
+    note: investing/Events/SpaceX IPO 2026.md
+    note_link: SpaceX IPO 2026
+    source_kind: event_ticker
+    source_ticker: KXSPACEXCOUNT-26B
+    cadence: weekly
+    last_read: '2026-05-20'
+    thesis: SpaceX 2026 launch-count operating-cadence support for IPO story.
+
+  - id: apple-foldable-announcement
+    note: investing/Theses/Long Apple.md
+    note_link: Long Apple
+    source_kind: event_ticker
+    source_ticker: APPLEFOLD
+    cadence: monthly
+    last_read: '2026-05-20'
+    thesis: Apple foldable-phone announcement timing / ASP optionality.
+    tracked_markets:
+      - ticker: APPLEFOLD-26DEC31
+        last_price: 0.86
+        status: active
+
+  - id: apple-foldable-price
+    note: investing/Theses/Long Apple.md
+    note_link: Long Apple
+    source_kind: event_ticker
+    source_ticker: KXAAPLPRICEFOLD-27
+    cadence: monthly
+    last_read: '2026-05-20'
+    thesis: Foldable iPhone high-end price ladder.
+
+  - id: ai-release-cadence-anthropic
+    note: investing/Concepts/AI benchmarks.md
+    note_link: AI benchmarks
+    source_kind: event_ticker
+    source_ticker: KXCLAUDE5-27
+    cadence: weekly
+    last_read: '2026-05-20'
+    thesis: Anthropic Claude 5 release-cadence expectation.
+
+  - id: ai-release-cadence-openai
+    note: investing/Concepts/AI benchmarks.md
+    note_link: AI benchmarks
+    source_kind: event_ticker
+    source_ticker: KXGPT-OPEN
+    cadence: weekly
+    last_read: '2026-05-20'
+    thesis: OpenAI GPT-6 release-cadence ladder.
+
+  - id: openai-hardware-form-factor
+    note: investing/Concepts/OpenAI hardware program.md
+    note_link: OpenAI hardware program
+    source_kind: event_ticker
+    source_ticker: KXOAIHARDWARE-27
+    cadence: monthly
+    last_read: '2026-05-20'
+    thesis: OpenAI / Jony Ive device form-factor distribution.
+
+  - id: openai-hardware-screen
+    note: investing/Concepts/OpenAI hardware program.md
+    note_link: OpenAI hardware program
+    source_kind: event_ticker
+    source_ticker: KXOAISCREEN-27
+    cadence: monthly
+    last_read: '2026-05-20'
+    thesis: Whether first OpenAI hardware device has a screen.
+
+  - id: openai-nyt-copyright
+    note: investing/Concepts/AI regulation.md
+    note_link: AI regulation
+    source_kind: event_ticker
+    source_ticker: NYTOAI-27DEC31
+    cadence: monthly
+    last_read: '2026-05-20'
+    thesis: New York Times copyright infringement ruling risk against OpenAI.
+
+  - id: openai-tort-liability
+    note: investing/Concepts/AI regulation.md
+    note_link: AI regulation
+    source_kind: event_ticker
+    source_ticker: KXOAIDAMAGE-28
+    cadence: monthly
+    last_read: '2026-05-20'
+    thesis: OpenAI tort-claim damages tail before 2028.
+
+  - id: polymarket-brazil-presidential-election
+    provider: polymarket
+    note: investing/Events/2026 Brazil presidential election.md
+    note_link: 2026 Brazil presidential election
+    source_kind: event_slug
+    source_ticker: brazil-presidential-election
+    cadence: daily
+    last_read: '2026-05-20'
+    thesis: Polymarket Brazil presidential-election leaderboard; high-reflexivity political market that should be refreshed before citation.
+    tracked_markets:
+      - slug: will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election
+        outcome: 'Yes'
+        label: Luiz Inácio Lula da Silva
+        last_price: 0.455
+        status: active
+      - slug: will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election
+        outcome: 'Yes'
+        label: Flávio Bolsonaro
+        last_price: 0.2805
+        status: active
+      - slug: will-renan-santos-win-the-2026-brazilian-presidential-election
+        outcome: 'Yes'
+        label: Renan Santos
+        last_price: 0.1195
+        status: active
+      - slug: will-romeu-zema-win-the-2026-brazilian-presidential-election
+        outcome: 'Yes'
+        label: Romeu Zema
+        last_price: 0.0545
+        status: active
+
+  - id: polymarket-bitcoin-150k
+    provider: polymarket
+    note: investing/Concepts/Bitcoin.md
+    note_link: Bitcoin
+    source_kind: event_slug
+    source_ticker: when-will-bitcoin-hit-150k
+    cadence: weekly
+    last_read: '2026-05-20'
+    thesis: Polymarket cross-venue check on Bitcoin 2026 right-tail pricing around $150K.
+    tracked_markets:
+      - slug: will-bitcoin-hit-150k-by-june-30-2026
+        outcome: 'Yes'
+        label: Bitcoin $150K by Jun. 30, 2026
+        last_price: 0.0135
+        status: active
+      - slug: will-bitcoin-hit-150k-by-december-31-2026
+        outcome: 'Yes'
+        label: Bitcoin $150K by Dec. 31, 2026
+        last_price: 0.095
+        status: active
+
+  - id: polymarket-spacex-ipo-valuation
+    provider: polymarket
+    note: investing/Events/SpaceX IPO 2026.md
+    note_link: SpaceX IPO 2026
+    source_kind: event_slug
+    source_ticker: spacex-ipo-closing-market-cap-above
+    cadence: daily
+    last_read: '2026-05-20'
+    thesis: Polymarket SpaceX IPO closing-market-cap thresholds; complements Kalshi timing markets with valuation distribution.
+    tracked_markets:
+      - slug: spacex-ipo-closing-market-cap-above-1t-274-469
+        outcome: 'Yes'
+        label: SpaceX IPO closing market cap above $1T
+        last_price: 0.9785
+        status: active
+      - slug: spacex-ipo-closing-market-cap-above-2t-649-783
+        outcome: 'Yes'
+        label: SpaceX IPO closing market cap above $2T
+        last_price: 0.695
+        status: active
+      - slug: spacex-ipo-closing-market-cap-above-3t-337-436
+        outcome: 'Yes'
+        label: SpaceX IPO closing market cap above $3T
+        last_price: 0.185
+        status: active
+
+  - id: polymarket-spacex-ipo-timing
+    provider: polymarket
+    note: investing/Events/SpaceX IPO 2026.md
+    note_link: SpaceX IPO 2026
+    source_kind: event_slug
+    source_ticker: spacex-ipo-by
+    cadence: daily
+    last_read: '2026-05-20'
+    thesis: Polymarket SpaceX IPO timing cross-check against Kalshi's June-listing base case.
+    tracked_markets:
+      - slug: will-spacex-ipo-by-may-31-2026-259
+        outcome: 'Yes'
+        label: SpaceX IPO by May 31, 2026
+        last_price: 0.0025
+        status: active
+      - slug: will-spacex-ipo-by-june-15-2026-789-854
+        outcome: 'Yes'
+        label: SpaceX IPO by Jun. 15, 2026
+        last_price: 0.8435
+        status: active
+      - slug: will-spacex-ipo-by-june-30-2026-372-264-619
+        outcome: 'Yes'
+        label: SpaceX IPO by Jun. 30, 2026
+        last_price: 0.9425
+        status: active
+
+  - id: polymarket-openai-ipo-valuation
+    provider: polymarket
+    note: investing/Concepts/2026 IPO pipeline.md
+    note_link: 2026 IPO pipeline
+    source_kind: event_slug
+    source_ticker: openai-ipo-closing-market-cap
+    cadence: weekly
+    last_read: '2026-05-20'
+    thesis: Polymarket OpenAI IPO closing-market-cap and no-2026-IPO distribution.
+    tracked_markets:
+      - slug: will-openai-not-ipo-by-december-31-2026
+        outcome: 'Yes'
+        label: OpenAI does not IPO by Dec. 31, 2026
+        last_price: 0.745
+        status: active
+      - slug: will-openais-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day
+        outcome: 'Yes'
+        label: OpenAI IPO market cap between $1.25T and $1.5T
+        last_price: 0.0345
+        status: active
+      - slug: will-openais-market-cap-be-less-than-500b-at-market-close-on-ipo-day
+        outcome: 'Yes'
+        label: OpenAI IPO market cap below $500B
+        last_price: 0.0045
+        status: active

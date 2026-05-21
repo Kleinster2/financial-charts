@@ -5,7 +5,7 @@ Runs before the AI synthesis step to prepare structured data:
 1. Updates market data (stocks, ETFs, ADRs, FX, futures)
 2. Runs sigma movers against vault actors
 3. Checks earnings calendar for today/this week
-4. Checks Kalshi overlay freshness
+4. Checks prediction-market overlay freshness
 5. Outputs structured JSON for the daily briefing skill
 
 Renamed from morning_scan.py 2026-05-19 — the script is time-of-day agnostic.
@@ -125,13 +125,13 @@ def check_data_freshness():
         conn.close()
 
 
-def check_kalshi_watchlist():
-    """Run offline Kalshi overlay freshness check."""
-    print("[5/5] Checking Kalshi overlay freshness...")
+def check_prediction_market_watchlist():
+    """Run offline prediction-market overlay freshness check."""
+    print("[5/5] Checking prediction-market overlay freshness...")
     script = BASEDIR / "scripts" / "refresh_kalshi_watchlist.py"
     config = BASEDIR / "kalshi_watchlist.yml"
     if not script.exists() or not config.exists():
-        print("  WARN: Kalshi watchlist tooling not found")
+        print("  WARN: prediction-market watchlist tooling not found")
         return None
 
     result = subprocess.run(
@@ -141,7 +141,7 @@ def check_kalshi_watchlist():
         text=True,
     )
     if result.returncode != 0:
-        print(f"  WARN: Kalshi watchlist exited {result.returncode}")
+        print(f"  WARN: prediction-market watchlist exited {result.returncode}")
         if result.stderr:
             print(f"  {result.stderr[:500]}")
         return {"error": result.stderr.strip() or result.stdout.strip()}
@@ -149,7 +149,7 @@ def check_kalshi_watchlist():
     try:
         payload = json.loads(result.stdout)
     except json.JSONDecodeError as exc:
-        print(f"  WARN: could not parse Kalshi watchlist JSON: {exc}")
+        print(f"  WARN: could not parse prediction-market watchlist JSON: {exc}")
         return {"error": result.stdout[:500]}
 
     counts = payload.get("counts", {})
@@ -196,8 +196,8 @@ def main():
     # Step 4: Data freshness
     latest_date = check_data_freshness()
 
-    # Step 5: Kalshi overlay freshness
-    kalshi_watchlist = check_kalshi_watchlist()
+    # Step 5: prediction-market overlay freshness
+    prediction_market_watchlist = check_prediction_market_watchlist()
 
     # Check daily note
     daily_exists = check_daily_note_exists(today)
@@ -209,7 +209,8 @@ def main():
         "data_update_ok": update_ok,
         "latest_price_date": latest_date,
         "daily_note_exists": daily_exists,
-        "kalshi_watchlist": kalshi_watchlist,
+        "prediction_market_watchlist": prediction_market_watchlist,
+        "kalshi_watchlist": prediction_market_watchlist,
         "sigma_movers": movers,
         "recent_earnings": earnings,
     }

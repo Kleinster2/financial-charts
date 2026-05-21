@@ -58,6 +58,18 @@ Adjacent lab-capital-market read: KXOAIANTH prices [[Anthropic]] at 83c last, 79
 
 ---
 
+## Release-cadence overlay (May 20, 2026)
+
+The adjacent [[Kalshi]] model-release markets are useful for separating current benchmark leadership from expected lab cadence. KXCLAUDE5-27 priced [[Anthropic]] releasing Claude 5 before 2027 at 88c last, while KXLLAMA5-27 priced [[Meta]] releasing [[Llama|Llama 5]] before 2027 at only 20c. That is a sharp market distinction between a lab expected to keep shipping frontier upgrades and an open-source challenger where traders remain skeptical on 2026 timing.
+
+The [[OpenAI]] [[GPT|GPT-6]] ladder is more liquid at the later dates than the early ones, and several prints are wide enough to treat cautiously: before Jun. 1, 2026 was 9c, before Jul. 1 was 16c, before Sep. 1 was 49c, and before Nov. 1 was 77c. [[xAI]]'s Grok 5 ladder has a later-2026 center: before Jul. 1 was 9c, before Oct. 1 was 74c, and before Jan. 1, 2027 was 80c.
+
+Read-through: the market-implied cadence layer reinforces the benchmark layer's Anthropic skew. It does not say [[Claude]] will keep winning every leaderboard, but it does say traders expect Anthropic to have the next named frontier-model refresh in market by year-end while OpenAI/xAI timing is treated as a later-2026 contest and Meta's [[Llama|Llama 5]] timing is discounted.
+
+*Sources: [[Kalshi]] API events KXCLAUDE5-27, KXLLAMA5-27, KXGPT-OPEN, and KXGROK-GROK5, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXCLAUDE5-27, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXLLAMA5-27, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXGPT-OPEN, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXGROK-GROK5*
+
+---
+
 ## Related
 
 - [[Frontier models]] — primary subjects of benchmark evaluation

@@ -504,7 +504,9 @@ The current patchwork guarantees regulators learn *less* about deployed AI syste
 
 The adjacent KXSCOTUSAICOPYRIGHT-27JAN market prices whether the [[Supreme Court]] hears an AI copyright case before 2027. It last traded at 13c with a 14c / 20c bid-ask, 8,064.54 volume, and 3,767.43 open interest. The market is saying statutory action is the more plausible near-term federal path than a Supreme Court copyright intervention.
 
-*Sources: [[Kalshi]] API series KXAILEGISLATION and KXSCOTUSAICOPYRIGHT, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXAILEGISLATION and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXSCOTUSAICOPYRIGHT*
+The company-specific litigation layer is harsher for [[OpenAI]] than the Supreme Court timing market alone implies. NYTOAI-27DEC31 prices whether a court finds OpenAI infringed [[The New York Times|New York Times]] copyright before 2028 at 66.4c last, with a 66.4c / 76c bid-ask. KXOAIDAMAGE-28 prices OpenAI paying more than $1M on a tort claim before 2028 at 72c last. Read together, the market is saying near-term Supreme Court review is unlikely, but lower-court copyright and liability outcomes remain live operating risks.
+
+*Sources: [[Kalshi]] API series KXAILEGISLATION and KXSCOTUSAICOPYRIGHT plus events NYTOAI-27DEC31 and KXOAIDAMAGE-28, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXAILEGISLATION, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXSCOTUSAICOPYRIGHT, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=NYTOAI-27DEC31, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXOAIDAMAGE-28*
 
 ---
 

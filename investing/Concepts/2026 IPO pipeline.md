@@ -59,6 +59,24 @@ The related KXOPENAICEOCHANGE-26 market priced an [[OpenAI]] CEO change during 2
 
 *Sources: [[Kalshi]] API series KXIPOOPENAI and event KXOPENAICEOCHANGE-26, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXIPOOPENAI and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXOPENAICEOCHANGE-26*
 
+## Polymarket OpenAI valuation overlay (May 20, 2026)
+
+[[Polymarket]]'s OpenAI IPO market mostly reinforces the Kalshi timing curve: traders are paying for "not in 2026" more than for a specific IPO valuation bucket. The "OpenAI does not IPO by Dec. 31, 2026" market was 74.5c, directionally stronger than Kalshi's roughly one-third probability for an IPO before Jan. 1, 2027.
+
+The valuation ladder is thinner and should be treated as color rather than a hard comp. The visible top market priced a $1.25T-$1.5T closing market cap at 3.45c and a sub-$500B close at 0.45c. That distribution says the market's live question is still timing / issuance, not whether public investors can underwrite an AI-lab mega-cap valuation if the deal actually comes.
+
+*Source: [[Polymarket]] Gamma event `openai-ipo-closing-market-cap`, read May 20, 2026: https://gamma-api.polymarket.com/events/slug/openai-ipo-closing-market-cap*
+
+---
+
+## Kalshi SpaceX / Starlink timing overlay (May 20, 2026)
+
+[[Kalshi]]'s SpaceX IPO ladder is the opposite of the [[OpenAI]] curve: the market treats a 2026 listing as nearly locked and concentrates the uncertainty around June execution. Before Jun. 1, 2026 was only 15c, but before Jul. 1 was 92c, before Aug. 1 was 95c, and before Dec. 1 was roughly 96c-97c. In pipeline terms, SpaceX is no longer just "expected"; it is the near-term supply event around which the rest of the mega-IPO absorption test has to be modeled.
+
+The [[Starlink]] market is much colder. KXIPOSTARLINK priced a Starlink IPO before Jan. 1, 2027 at 6c and before Jun. 30, 2027 at 9c. That separation matters: traders are paying for the parent-company listing, not a clean satellite-internet spinout window.
+
+*Sources: [[Kalshi]] API events KXIPOSPACEX and KXIPOSTARLINK, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXIPOSPACEX and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&event_ticker=KXIPOSTARLINK*
+
 ---
 
 ## [[Fintech]]
