@@ -205,6 +205,14 @@ US Henry Hub barely budged — stockpiles ample, US LNG export terminals already
 
 Short-term response mechanisms are limited: find ways to use less gas (demand destruction via price), increase domestic production, or source replacement cargoes from non-Hormuz suppliers ([[Australia]], US, [[Russia]]). China's unconventional gas production (43% of total in 2025, including shale and tight gas) provides some domestic buffer but cannot replace the scale of Qatari LNG imports.
 
+### Power of Siberia 2 as pipeline hedge (May 20)
+
+The May 20 Xi-Putin meeting moved [[Power of Siberia 2]] back into the center of China's gas-security map. Bloomberg's transcript said the Kremlin described deal parameters as agreed with remaining nuances, and AP framed the Beijing meeting around growing energy trade during the Middle East crisis. The project does not solve 2026 spot LNG tightness because it is a late-decade infrastructure asset, but it changes the medium-term gas-security option set: a 50 bcm/year Russia-to-China pipeline via [[Mongolia]] is a non-Hormuz supply source at precisely the moment Hormuz exposed China's LNG vulnerability.
+
+The investment read is not "Russian gas wins" in isolation. It is that gas importers now have two separate credibility problems to price: LNG reliability after Hormuz, and Russian counterparty/geopolitical risk after 2022. China is uniquely willing to hold both risks if the diversification value and price are attractive.
+
+*Sources: Bloomberg Television / YouTube transcript, May 20 2026; AP Xi-Putin coverage, May 20 2026; Caliber.Az on Power of Siberia 2 parameters, May 20 2026.*
+
 ---
 
 ## vs Oil
@@ -261,3 +269,4 @@ Two supply shocks in four years ([[Russia]]-[[Ukraine]] 2022 + [[2026 Strait of 
 - [[TTF]] — European gas benchmark
 - [[EQT]] — largest US gas producer
 - [[Coal]] — crisis substitute; Asian switching documented in Waha section
+- [[Power of Siberia 2]] — Russia-China pipeline hedge

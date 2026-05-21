@@ -593,6 +593,16 @@ This strengthens the earlier "operational normalization lags headline diplomacy"
 
 *Sources: TheStreet/JPMorgan gasoline-inflation warning, May 11-12 2026; existing May 10-11 sources above.*
 
+## May 20, 2026 - NATO transit proposal and China-Russia energy hedge
+
+Bloomberg's May 20 "The Pulse" segment keeps the Hormuz crisis in the awkward middle state the note has been tracking: paper negotiations and geopolitical meetings are active, but the physical transit problem is still unresolved. The segment reported that [[NATO]] is considering a mechanism to help safe transit of vessels through the [[Strait of Hormuz]] if the strait is not fully reopened by early July. The same discussion stressed the practical constraint: alliance members are not unanimous, NATO is a defense alliance rather than a standing commercial-shipping escort service, and mine risk/surveillance/escort assets remain the real bottleneck.
+
+The segment also tied [[Xi Jinping]] hosting [[Vladimir Putin]] to energy security. [[Power of Siberia 2]] is not a direct Hormuz fix, but it is a medium-term China hedge against Middle East [[LNG]] fragility: Russia gets a post-Europe gas outlet; [[China]] gets non-Hormuz pipeline molecules. That makes the Xi-Putin meeting part of the Hormuz aftershock, not just a Russia-China bilateral event.
+
+The tape read from [[UBS]]'s [[Bhanu Baweja]] in the same broadcast matches the physical-market camp already in this note: financial oil volatility had compressed, but physical indicators such as jet fuel were still firming. His framing was that markets were taking a "rearview mirror" view of the conflict while the physical market remained tighter than paper prices implied.
+
+*Sources: Bloomberg Television / YouTube transcript, "The Pulse 5/20," May 20 2026; AP Xi-Putin coverage, May 20 2026; Breaking Defense on Project Freedom operational limits, May 4 2026.*
+
 ## Analyst reaction to ceasefire (Apr 8)
 
 The ceasefire exposed a sharp split between physical-market and financial-market analysts:

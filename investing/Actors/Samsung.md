@@ -82,6 +82,16 @@ Risk factor: [[2026 Strait of Hormuz crisis|Iran conflict]] disrupting helium sh
 
 *Sources: CNBC, SamMobile, Bloomberg (Apr 7, 2026), Financial Times (Apr 12, 2026)*
 
+## May 20, 2026 - labor strike risk
+
+Samsung's [[National Samsung Electronics Union|largest labor union]] failed to reach a last-minute wage deal with management on May 20 and said workers would begin an 18-day strike from Thursday. AP framed the dispute as a potential shock to global semiconductor supply and [[South Korea]]'s trade-dependent economy; [[Reuters]]/Yonhap coverage put the planned walkout at roughly 48,000 workers.
+
+The strategic read for the Samsung thesis: this is the downside of being both a national industrial champion and the world's largest memory-chip producer. A work stoppage during an [[HBM]]/DRAM supercycle does not just reduce near-term output; it turns labor relations into a new supply-assurance variable for customers comparing Samsung with [[SK Hynix]], [[Micron]], and [[TSMC]]-anchored logic supply chains.
+
+No market-reaction table is added here because this is a labor/supply-chain risk update, not a M&A or strategic partnership announcement, and the note is not writing a verified closing-price move.
+
+*Sources: AP, "Samsung faces strike after pay talks with union fall apart," May 20 2026; [[Reuters]]/Yonhap follow-up summaries, May 20 2026; [[Bloomberg]] Television / [[YouTube]] transcript, May 20 2026.*
+
 ## Open questions
 
 - [[Can Samsung ever catch TSMC]]
@@ -98,7 +108,7 @@ Risk factor: [[2026 Strait of Hormuz crisis|Iran conflict]] disrupting helium sh
 - Persistent yield gap vs TSMC
 - Customer trust deficit
 - Conglomerate complexity
-- [[IP leakage risk]] — DRAM secrets leaked to [[China]]'s [[CXMT]] (Dec 2025)
+- [[IP leakage risk]] — DRAM secrets leaked to [[China]]'s [[ChangXin Memory|CXMT]] (Dec 2025)
 
 ## Quick stats
 

@@ -162,6 +162,24 @@ This is not data-center project finance, but it belongs in the financing map bec
 
 ---
 
+## Private-market power constraint read (May 20, 2026)
+
+The JPMorgan Asset Management private-markets segment on Bloomberg adds a useful allocator-side confirmation to the financing map. The "AI infrastructure" trade is not just GPU debt, neocloud SPVs, or data-center real estate. It is also the regulated and quasi-regulated power/water/utility layer that converts capital into powered capacity.
+
+Three data anchors:
+
+| Data point | Source / attribution | Read |
+|------------|----------------------|------|
+| Private markets scale | JPMAM on Bloomberg cited ~$21T | Large enough to move the financing frontier, but not large enough to ignore manager selection and vintage risk |
+| U.S./Europe power demand | JPMAM cited ~2.5% annual growth after 20 years flat | Confirms load growth is now an allocator thesis, not just a utility-planning issue |
+| Infrastructure need | McKinsey's 2026 infrastructure report cites $106T global infrastructure need through 2040 and nearly $7T of data-center investment through 2030 | Capital stack must fund grids, generation, cooling, and digital infrastructure together |
+
+No specific power plant, [[Power purchase agreement|PPA]], interconnection, grid region, or site was disclosed in the Bloomberg segment. The correct filing is therefore concept-level: private capital is crowding into the physical-services layer, but each actual deal still needs the [[Power constraints]] diligence checklist before being treated as executable capacity.
+
+*Sources: Bloomberg Television / YouTube transcript, May 20 2026; McKinsey Global Infrastructure Report 2026; J.P. Morgan Asset Management "Why Alternatives?", data as of Mar 2026.*
+
+---
+
 ## Risks
 
 ### The dot-com comparison

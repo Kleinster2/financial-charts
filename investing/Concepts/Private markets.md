@@ -62,6 +62,14 @@ Capital rotating away from [[Private Equity|PE]]/[[Venture Capital|VC]] toward [
 
 **Distributions crisis constraining LPs.** Distributions as % of NAV: ~17% (vs 10-year avg of 26%). With realizations subdued, LPs have less cash to reinvest → constraining new commitments → reinforcing concentration toward established managers.
 
+### JPMAM May 2026 read: infrastructure as the barbell anchor
+
+JPMorgan Asset Management's global private-markets framing on Bloomberg (May 20) was a clean expression of the current private-markets barbell. On one end, investors want core [[Infrastructure]] and essential-services assets that can survive inflation, produce yield, and pass through costs. On the other, they still want AI-linked upside even as 2021-2023 vintage exits remain clogged.
+
+The power point is the important bridge: JPMAM described itself as positioned at the "power end" of infrastructure -- heat, water, electricity, and utility-like essential services -- because energy demand is reaccelerating after two decades of flat U.S./European demand. That connects the private-markets note directly to [[AI infrastructure financing]] and [[Power constraints]]: private capital is no longer just funding data centers; it is underwriting the physical services that make data centers operable.
+
+*Sources: Bloomberg Television / YouTube transcript, May 20 2026; J.P. Morgan Asset Management "Why Alternatives?", data as of Mar 2026.*
+
 ### Top funds closed in 2025
 
 | Fund | Manager | Size | Strategy |
@@ -250,4 +258,3 @@ See [[Tokenized private shares]] for risks.
 - [[OpenAI]] — largest private company (~$500B seeking)
 - [[SpaceX]] — second largest (~$350B)
 - [[Anthropic]] — Constitutional AI (~$60B)
-

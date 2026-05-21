@@ -248,7 +248,19 @@ The watch item is whether the talks produce technical working groups or stay at 
 
 ---
 
-*Updated [[2026-04-15]]*
+## Mallaby near-parity / proliferation frame (May 20, 2026)
+
+[[Sebastian Mallaby]]'s Bloomberg interview pushed the note's guardrails logic one step further. His claim was not that the U.S. has lost the AI race; it was that the race is close enough that policy should stop assuming durable unilateral denial. He estimated the frontier-model gap at roughly eight months and argued that the policy objective should shift toward U.S.-China cooperation on keeping destabilizing models away from criminals, terrorists, and rogue states.
+
+Cold-research anchors broadly support the premise while not endorsing every policy conclusion. [[Stanford]] HAI's 2026 AI Index says the U.S.-China model-performance gap has effectively closed, with Anthropic's top model leading China's top model by just 2.7% as of March 2026. The [[Bletchley Declaration]] is the governance precedent: it showed the [[United States]], [[China]], and [[EU]] could publicly acknowledge shared frontier-AI risks even inside a rivalry frame.
+
+Investment implication: export controls remain necessary but no longer sufficient as the only policy lens. If the race is measured in months and open-source diffusion continues, the investable layer shifts toward safety evaluation, model-governance infrastructure, cyber containment, sovereign compute, and compliance tooling rather than a simple "U.S. labs permanently ahead" basket.
+
+*Sources: Bloomberg Television / YouTube transcript, May 20 2026; Stanford HAI 2026 AI Index; GOV.UK Bletchley Declaration page.*
+
+---
+
+*Updated [[2026-05-20]]*
 
 ---
 
