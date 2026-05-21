@@ -5,7 +5,6 @@ aliases:
   - Doug O Laughlin
   - Fabricated Knowledge
 tags:
-  - actor
   - person
   - analyst
   - semiconductors

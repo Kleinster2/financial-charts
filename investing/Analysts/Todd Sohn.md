@@ -2,7 +2,6 @@
 aliases:
   - Sohn
 tags:
-  - actor
   - person
   - etf-analyst
 ---

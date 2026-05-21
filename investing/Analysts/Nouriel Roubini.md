@@ -3,7 +3,7 @@ aliases: [Roubini, Dr. Doom]
 ---
 #individual #macro #commentator
 
-**Nouriel Roubini** — "Dr. Doom." Predicted 2008 crisis when Wall Street dismissed him. NYU Stern professor emeritus. Now chairman of Roubini Macro Associates. Surprisingly bullish on US exceptionalism (2024-2026).
+Nouriel Roubini — "Dr. Doom." Predicted 2008 crisis when Wall Street dismissed him. NYU Stern professor emeritus. Now chairman of Roubini Macro Associates. Surprisingly bullish on US exceptionalism (2024-2026).
 
 ---
 
@@ -45,7 +45,7 @@ aliases: [Roubini, Dr. Doom]
 
 ## The 2008 call
 
-**Sep 2006 — IMF speech:**
+Sep 2006 — IMF speech:
 Predicted deep recession, housing crash, mortgage defaults, financial crisis. Audience dismissed him.
 
 | What he predicted | What happened |
@@ -55,7 +55,7 @@ Predicted deep recession, housing crash, mortgage defaults, financial crisis. Au
 | Banking crisis | ✓ Lehman, Bear Stearns |
 | Global recession | ✓ Great Recession |
 
-**"Dr. Doom" earned:** Name stuck after he was "catastrophically right."
+"Dr. Doom" earned: Name stuck after he was "catastrophically right."
 
 ---
 
@@ -65,32 +65,32 @@ From his book *MegaThreats*, 10 mutually-reinforcing dangers:
 
 | Threat | Current status (2025) |
 |--------|----------------------|
-| **Debt crisis** | Global debt >350% of GDP; rising in 80% of economies |
-| **Stagflation** | Growth ~2.8%, core services inflation sticky |
-| **Great-power conflict** | US-[[China]] tensions high, South [[China]] Sea incidents |
-| **Deglobalization** | Supply chain fragmentation ongoing |
-| **AI disruption** | Labor displacement accelerating |
-| **Climate shocks** | Extreme weather events increasing |
-| **Pandemics** | COVID aftermath, future risk |
-| **Currency instability** | [[De-dollarization]] attempts ([[BRICS]]) |
-| **Populism** | Rising globally |
-| **Geopolitical fracture** | US-[[China]], [[Russia]]-West divides |
+| Debt crisis | Global debt >350% of GDP; rising in 80% of economies |
+| Stagflation | Growth ~2.8%, core services inflation sticky |
+| Great-power conflict | US-[[China]] tensions high, South [[China]] Sea incidents |
+| Deglobalization | Supply chain fragmentation ongoing |
+| AI disruption | Labor displacement accelerating |
+| Climate shocks | Extreme weather events increasing |
+| Pandemics | COVID aftermath, future risk |
+| Currency instability | [[De-dollarization]] attempts ([[BRICS]]) |
+| Populism | Rising globally |
+| Geopolitical fracture | US-[[China]], [[Russia]]-West divides |
 
 ---
 
 ## Current views (2025-2026)
 
-**Plot twist: Dr. Doom turned bullish on US**
+Plot twist: Dr. Doom turned bullish on US
 
 ### The bull case
 
 | View | Roubini position |
 |------|------------------|
 | US economy | "Best positioned among advanced economies" |
-| AI bubble | **No** — productivity gains real |
-| US potential growth | 1.8% today → **4% by 2030** |
+| AI bubble | No — productivity gains real |
+| US potential growth | 1.8% today → 4% by 2030 |
 | American exceptionalism | Gets even stronger with higher growth |
-| AGI timeline | 3-5 years away; could **5x valuations** of winners |
+| AGI timeline | 3-5 years away; could 5x valuations of winners |
 | Mag 7 winners | "Maybe three or four" will achieve AGI — not all seven |
 
 ### 15 technologies, not just AI
@@ -108,14 +108,14 @@ From his book *MegaThreats*, 10 mutually-reinforcing dangers:
 
 | Period | [[Productivity]] growth |
 |--------|---------------------|
-| 2009-2019 (post-GFC) | **1.0%** average |
-| Since 2019 | **~2.0%** (doubled) |
-| 2024 | **2.4%** |
-| Q3 2024 | **~5%** |
+| 2009-2019 (post-GFC) | 1.0% average |
+| Since 2019 | ~2.0% (doubled) |
+| 2024 | 2.4% |
+| Q3 2024 | ~5% |
 
-**S&P 500 real revenue per worker:** +15% since [[ChatGPT]] launch (Nov 2022) — ~5%/year
+S&P 500 real revenue per worker: +15% since [[ChatGPT]] launch (Nov 2022) — ~5%/year
 
-**By sector:**
+By sector:
 - Tech & communications: ~20%
 - Broad-based across sectors
 
@@ -123,13 +123,13 @@ From his book *MegaThreats*, 10 mutually-reinforcing dangers:
 
 | Factor | Impact on potential growth |
 |--------|---------------------------|
-| Technology upside | **+200bp** |
-| Bad policies downside | **-50bp** |
-| **Ratio** | **4:1** |
+| Technology upside | +200bp |
+| Bad policies downside | -50bp |
+| Ratio | 4:1 |
 
 "Bad stagflationary policies of Trump" = trade restrictions, migration limits, fiscal deficit, [[Fed independence]] threats, rule of law concerns
 
-**Net:** Tech benefits overwhelm policy drag.
+Net: Tech benefits overwhelm policy drag.
 
 ### Who captures the gains?
 
@@ -141,7 +141,7 @@ From his book *MegaThreats*, 10 mutually-reinforcing dangers:
 | Workers | Real wages lag productivity |
 | Consumers | Affordability concerns |
 
-**Implication:** Long equities, not labor income.
+Implication: Long equities, not labor income.
 
 ### On geopolitical risks
 
@@ -160,7 +160,7 @@ Markets "shrugged off" DOJ-Powell news because tech thesis dominates.
 
 ---
 
-**Key shift:** Bearish on structural risks (debt, geopolitics) but bullish on US relative performance. Technology is first-order; everything else is second-order.
+Key shift: Bearish on structural risks (debt, geopolitics) but bullish on US relative performance. Technology is first-order; everything else is second-order.
 
 *Source: Bloomberg Surveillance, Jan 2026*
 
@@ -179,7 +179,7 @@ Markets "shrugged off" DOJ-Powell news because tech thesis dominates.
 
 ## Views on crypto
 
-**Harsh critic:**
+Harsh critic:
 
 > "All this talk of decentralization is just bullsh*t."
 
@@ -191,13 +191,13 @@ Dismisses Bitcoin and crypto as speculative, not transformative.
 
 | Call | Outcome |
 |------|---------|
-| **2006: [[Housing]] crash** | ✓ Correct — made his reputation |
-| **2010s: Double-dip recession** | ✗ Wrong — recovery continued |
-| **2020: COVID worse than 2008** | Partially — severe but shorter |
-| **2022: Stagflation coming** | Mixed — inflation spiked, no recession |
-| **2024: US exceptionalism** | TBD — bullish turn |
+| 2006: [[Housing]] crash | ✓ Correct — made his reputation |
+| 2010s: Double-dip recession | ✗ Wrong — recovery continued |
+| 2020: COVID worse than 2008 | Partially — severe but shorter |
+| 2022: Stagflation coming | Mixed — inflation spiked, no recession |
+| 2024: US exceptionalism | TBD — bullish turn |
 
-**Pattern:** Famous for one spectacular call, but persistent bearishness led to missed rallies.
+Pattern: Famous for one spectacular call, but persistent bearishness led to missed rallies.
 
 ---
 

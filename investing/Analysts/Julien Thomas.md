@@ -1,7 +1,6 @@
 ---
 aliases: []
 tags:
-  - actor
   - person
   - analyst
   - france

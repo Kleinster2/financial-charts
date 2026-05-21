@@ -2,9 +2,8 @@
 aliases:
   - Jim Krane
   - James Krane
-type: actor
+type: analyst
 tags:
-  - actor
   - person
   - analyst
   - energy

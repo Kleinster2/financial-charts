@@ -87,7 +87,7 @@ Chart finding: Turkish Lira outperformed [[Brazilian real|BRL]] and Chilean Peso
 
 ### "Turkey's in trouble for the same old reason" (Apr 19)
 
-Brooks revisited [[Turkey]] after policymakers spent the IMF/World Bank meetings arguing that recent reserve losses were mainly about the Iran war. His rebuttal is that the pre-war data already gave the game away. Turkey ran a **$14.54bn** current-account deficit in Jan-Feb 2026 versus $9.25bn in the same period a year earlier, the second-widest start to a year in the chart after the 2023 election-credit surge. February alone printed a $7.50bn deficit, while the ex-gold / ex-energy balance swung to a $1.46bn deficit from a $1.35bn surplus a year earlier.
+Brooks revisited [[Turkey]] after policymakers spent the IMF/World Bank meetings arguing that recent reserve losses were mainly about the Iran war. His rebuttal is that the pre-war data already gave the game away. Turkey ran a $14.54bn current-account deficit in Jan-Feb 2026 versus $9.25bn in the same period a year earlier, the second-widest start to a year in the chart after the 2023 election-credit surge. February alone printed a $7.50bn deficit, while the ex-gold / ex-energy balance swung to a $1.46bn deficit from a $1.35bn surplus a year earlier.
 
 The analytical point is consistent with Brooks' earlier Turkey work but cleaner in this post: the recurring problem is growth pushed beyond Turkey's external financing capacity, not just one-off energy shocks. He explicitly argues that oil may stay structurally elevated for a while even if the war has moved into negotiation mode, which leaves Turkey better off floating the currency and tolerating more exchange-rate volatility than continuing to burn reserves defending an unsustainable growth mix.
 

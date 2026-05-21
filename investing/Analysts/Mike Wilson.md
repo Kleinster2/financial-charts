@@ -96,7 +96,7 @@ The March 31 market action (+1.14% S&P on Trump ceasefire signals) partially val
 
 ## March 30-April 2, 2026 — Hormuz reopening buy list
 
-**"Correction getting closer to ending."** S&P fwd P/E compressed 17%. Half of R3000 down ≥20%
+"Correction getting closer to ending." S&P fwd P/E compressed 17%. Half of R3000 down ≥20%
 
 11-stock buy list for Hormuz reopening: BKNG, CHWY, HAS, W, C, MA, STT, ZION, JCI, TT, ROK
 

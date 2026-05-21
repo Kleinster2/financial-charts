@@ -2,7 +2,6 @@
 aliases:
   - Ozuygur
 tags:
-  - actor
   - person
   - shipping
   - analyst

@@ -2,7 +2,6 @@
 aliases:
   - Sand
 tags:
-  - actor
   - person
   - shipping
   - analyst

@@ -2,9 +2,8 @@
 aliases:
   - Marc Lynch
   - Lynch (Marc)
-type: actor
+type: analyst
 tags:
-  - actor
   - person
   - analyst
   - middle-east

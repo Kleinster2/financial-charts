@@ -2,7 +2,6 @@
 aliases:
   - Dylan Patel
 tags:
-  - actor
   - person
   - analyst
   - semiconductors

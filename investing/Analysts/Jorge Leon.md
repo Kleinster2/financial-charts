@@ -2,7 +2,7 @@
 aliases:
   - Jorge León
   - Jorge Leon Rystad
-type: actor
+type: analyst
 tags: [person, analyst, energy, oil]
 ---
 

@@ -38,7 +38,7 @@ Prandelli's post sequence through the [[2026 Strait of Hormuz crisis|Hormuz cris
 | Apr 24 | The 21-Mile War Just Redrew The Oil Map | Energy flow rerouting |
 | Apr 27 | Why Europe Ran Out of Jet Fuel Before It Ran Out of Oil? | Refined-product supply distribution |
 | Apr 29 | Is This the End for OPEC? | UAE departure + cartel collapse risk |
-| **May 1** | The $1 Trillion AI Trade Runs on Gas | AI-capex / gas-infrastructure valuation gap |
+| May 1 | The $1 Trillion AI Trade Runs on Gas | AI-capex / gas-infrastructure valuation gap |
 | May 4 | America Is Now the World's Strategic Reserve | US as global oil supply backstop |
 | May 11 | The Next $5 Trillion Commodity Has No Wells, No Pipelines, No Tankers | AI infrastructure needs a financialized capacity / power / data-center-rights market |
 

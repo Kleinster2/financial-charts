@@ -1,4 +1,7 @@
-#investor #usa #thinker
+---
+aliases: [Michael Mauboussin, Mauboussin]
+tags: [analyst, investor, thinker, usa]
+---
 
 Michael Mauboussin — Investment strategist and author. Head of Consilient Research at [[Counterpoint Global]] ([[Morgan Stanley]]). Adjunct professor at Columbia Business School. Known for applying complexity science to investing. Author of *More Than You Know*, *The Success Equation*, *Expectations Investing*.
 

@@ -2,7 +2,6 @@
 aliases:
   - Sankey
 tags:
-  - actor
   - person
   - analyst
   - energy

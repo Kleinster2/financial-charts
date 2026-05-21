@@ -93,7 +93,7 @@ The dual-strait framing aligns with [[Robin J. Brooks]]'s argument that Iran's 2
 
 ## April 2026 — No near-term reopening outlook
 
-**CNBC Power Lunch (Apr 2):** "No indication of near-term plan to reopen Hormuz"
+CNBC Power Lunch (Apr 2): "No indication of near-term plan to reopen Hormuz"
 
 Carnegie Endowment (Apr 1): "Crude Diplomacy" with Aaron David Miller
 

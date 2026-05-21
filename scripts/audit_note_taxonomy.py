@@ -2,8 +2,8 @@
 """Audit investing vault folder taxonomy.
 
 Flags source-person notes that are still stored in Actors/ even though their
-tags mark them as analyst/strategist/commentator notes. Those notes should
-normally live in Analysts/.
+tags mark them as analyst/strategist/commentator notes. Also flags stale
+actor taxonomy markers on notes that already live in Analysts/.
 """
 
 from __future__ import annotations
@@ -59,33 +59,70 @@ def extract_tags(content: str) -> set[str]:
     return tags
 
 
+def extract_frontmatter_type(content: str) -> str | None:
+    """Extract a simple YAML frontmatter type field."""
+    if not content.startswith("---"):
+        return None
+
+    end = content.find("---", 3)
+    if end == -1:
+        return None
+
+    fm = content[3:end]
+    match = re.search(r"^type:\s*([A-Za-z0-9_-]+)\s*$", fm, re.MULTILINE)
+    return match.group(1) if match else None
+
+
 def audit() -> list[dict[str, object]]:
-    """Return source-person notes that appear misplaced in Actors/."""
+    """Return notes that appear misplaced or carry stale taxonomy markers."""
     findings: list[dict[str, object]] = []
-    if not ACTORS.exists():
-        return findings
 
-    for path in sorted(ACTORS.glob("*.md")):
-        try:
-            content = path.read_text(encoding="utf-8")
-        except (OSError, UnicodeDecodeError):
-            continue
+    if ACTORS.exists():
+        for path in sorted(ACTORS.glob("*.md")):
+            try:
+                content = path.read_text(encoding="utf-8")
+            except (OSError, UnicodeDecodeError):
+                continue
 
-        tags = extract_tags(content)
-        matched = sorted(tags & SOURCE_PERSON_TAGS)
-        if not matched:
-            continue
+            tags = extract_tags(content)
+            matched = sorted(tags & SOURCE_PERSON_TAGS)
+            if not matched:
+                continue
 
-        destination = ANALYSTS / path.name
-        findings.append(
-            {
-                "note": path.stem,
-                "path": str(path.relative_to(ROOT)).replace("\\", "/"),
-                "matched_tags": matched,
-                "suggested_path": str(destination.relative_to(ROOT)).replace("\\", "/"),
-                "destination_exists": destination.exists(),
-            }
-        )
+            destination = ANALYSTS / path.name
+            findings.append(
+                {
+                    "issue": "source_person_in_actors",
+                    "note": path.stem,
+                    "path": str(path.relative_to(ROOT)).replace("\\", "/"),
+                    "matched_tags": matched,
+                    "suggested_path": str(destination.relative_to(ROOT)).replace("\\", "/"),
+                    "destination_exists": destination.exists(),
+                }
+            )
+
+    if ANALYSTS.exists():
+        for path in sorted(ANALYSTS.glob("*.md")):
+            try:
+                content = path.read_text(encoding="utf-8")
+            except (OSError, UnicodeDecodeError):
+                continue
+
+            tags = extract_tags(content)
+            frontmatter_type = extract_frontmatter_type(content)
+            if "actor" not in tags and frontmatter_type != "actor":
+                continue
+
+            findings.append(
+                {
+                    "issue": "actor_marker_in_analysts",
+                    "note": path.stem,
+                    "path": str(path.relative_to(ROOT)).replace("\\", "/"),
+                    "matched_tags": ["actor"] if "actor" in tags else [],
+                    "frontmatter_type": frontmatter_type,
+                    "suggested_fix": "remove actor tag or change type to analyst",
+                }
+            )
 
     return findings
 
@@ -102,13 +139,31 @@ def main() -> int:
         print(json.dumps({"findings": findings, "count": len(findings)}, indent=2))
     else:
         if not findings:
-            print("Taxonomy audit passed: no analyst/strategist source-person tags remain in Actors/.")
+            print("Taxonomy audit passed: analyst/source-person folder taxonomy is clean.")
         else:
-            print("Source-person notes still in Actors/:")
-            for item in findings:
-                tags = ", ".join(item["matched_tags"])
-                collision = " (destination exists)" if item["destination_exists"] else ""
-                print(f"- {item['path']} [{tags}] -> {item['suggested_path']}{collision}")
+            source_actor_findings = [
+                item for item in findings if item["issue"] == "source_person_in_actors"
+            ]
+            stale_marker_findings = [
+                item for item in findings if item["issue"] == "actor_marker_in_analysts"
+            ]
+
+            if source_actor_findings:
+                print("Source-person notes still in Actors/:")
+                for item in source_actor_findings:
+                    tags = ", ".join(item["matched_tags"])
+                    collision = " (destination exists)" if item["destination_exists"] else ""
+                    print(f"- {item['path']} [{tags}] -> {item['suggested_path']}{collision}")
+
+            if stale_marker_findings:
+                if source_actor_findings:
+                    print()
+                print("Analysts/ notes still carrying actor taxonomy markers:")
+                for item in stale_marker_findings:
+                    tags = ", ".join(item["matched_tags"]) or "none"
+                    note_type = item.get("frontmatter_type") or "none"
+                    print(f"- {item['path']} [type={note_type}, tags={tags}]")
+
             print(f"TOTAL={len(findings)}")
 
     return 0 if args.no_fail or not findings else 1

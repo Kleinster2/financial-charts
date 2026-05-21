@@ -125,7 +125,7 @@ Connects to March 2026 newsletter finding: net US jobs added since April 2025 â‰
 
 *Source: [CNBC, April 2 2026](https://www.cnbc.com/video/2026/04/02/lyn-alden-most-portfolios-are-not-built-for-stagflation-risks.html)*
 
-**McCormack interview (Mar 31):** "DEFCON 5... catastrophe" on debt crisis
+McCormack interview (Mar 31): "DEFCON 5... catastrophe" on debt crisis
 
 ## April 8, 2026 â€” Ceasefire: stagflation risk persists
 

@@ -2,7 +2,6 @@
 aliases:
   - Jaluria
 tags:
-  - actor
   - person
   - analyst
   - usa

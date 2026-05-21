@@ -2,9 +2,8 @@
 aliases:
   - Karen E. Young
   - Karen E Young
-type: actor
+type: analyst
 tags:
-  - actor
   - person
   - analyst
   - energy
