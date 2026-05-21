@@ -36,6 +36,7 @@ Daily-use and core module scripts remain in the repo root:
 - `fetch_*.py` - Data fetchers
 - `constants.py`, `metadata_utils.py` - Shared config/utilities
 - `check_skill_parity.py` - Verify shared workflow skills match across Codex, Claude Code, and OpenClaw using `skills/shared-workflows.json`
+- `audit_note_taxonomy.py` - Flag source-person notes tagged analyst/strategist/commentator that still live in `investing/Actors/` instead of `investing/Analysts/`
 - `daily_note_log_gate.py` - Verify staged investing notes are linked in the session daily note before commit
 - `discover_polymarket_markets.py` - Search Polymarket Gamma `public-search` for vault-relevant active events, filter existing watchlist slugs and near-expiry markets, and print candidate event slugs / YAML stubs for `kalshi_watchlist.yml`
 - `promote_shared_skill.py` - Promote the intended shared workflow skill copy from Claude, Codex, OpenClaw, or the newest runtime into all runtimes
