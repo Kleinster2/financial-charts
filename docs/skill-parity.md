@@ -26,6 +26,12 @@ C:\Users\klein\.agents\skill-parity\skill-parity.cmd check --all-scopes --strict
 
 Its registry lives at `C:\Users\klein\.agents\skill-parity\registry.json` and points to scope manifests such as this repo's `skills/skill-parity-scopes.json`. Keep repo-owned skill lists in their repo manifests; the global runner only discovers and executes registered scopes.
 
+The tracked source for that installed runner lives at `agent-tools/skill-parity/`. After changing it, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File C:\Users\klein\financial-charts\agent-tools\skill-parity\install.ps1
+```
+
 ## Rules
 
 - Codex, Claude Code, and OpenClaw skills should match byte-for-byte after newline normalization.

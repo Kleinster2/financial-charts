@@ -32,6 +32,7 @@ Definitions live in `.claude/skills/<name>/SKILL.md`. The cross-runtime mirrors 
 
 skills/shared-workflows.json    Registry of financial-charts workflow skills
 skills/skill-parity-scopes.json Registry of repo-scoped skill parity groups
+agent-tools/skill-parity/       Tracked source for the home-global parity runner
 scripts/check_skill_parity.py   Verifies all three runtimes are byte-aligned
 scripts/promote_shared_skill.py Canonical update path: edit one runtime, promote to the others
 

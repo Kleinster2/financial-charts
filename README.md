@@ -652,6 +652,7 @@ When modifying JS files, increment version in `index.html`:
 Fast repository hygiene checks. This verifies registered skill parity scopes across Codex, Claude Code, and OpenClaw when the OpenClaw skills directory is available.
 The parity scopes are defined in `skills/skill-parity-scopes.json`; the financial-charts workflow set is still defined in `skills/shared-workflows.json`.
 For the global cross-repo check, use `C:\Users\klein\.agents\skill-parity\skill-parity.cmd check --all-scopes --strict --optional-openclaw`.
+The tracked source for that global runner lives in `agent-tools/skill-parity/`.
 
 ```powershell
 npm run test:consistency
