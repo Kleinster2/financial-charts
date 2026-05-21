@@ -10,6 +10,7 @@ Checks actor notes against the standards defined in:
 Usage:
     python scripts/check_note_compliance.py investing/Actors/Snap.md
     python scripts/check_note_compliance.py investing/Actors/*.md  # Check all
+    python scripts/check_note_compliance.py investing/Analysts/*.md
     python scripts/check_note_compliance.py --changed  # Check git-changed files
     python scripts/check_note_compliance.py --orphans  # Find frequently mentioned terms without notes
 """
@@ -242,14 +243,14 @@ class NoteChecker:
         content = filepath.read_text(encoding="utf-8")
         lines = content.split("\n")
 
-        # Determine note type from hashtags
-        note_type = self._get_note_type(content)
+        # Determine note type from folder and hashtags
+        note_type = "analyst" if self._is_under_folder(filepath, "Analysts") else self._get_note_type(content)
 
         # Universal checks (all note types)
         issues.extend(self._check_bold_formatting(content, filepath))
         issues.extend(self._check_dead_links(content, filepath))
         issues.extend(self._check_cross_vault_links(content, filepath))
-        if note_type in ("actor", "etf", "benchmark", "concept", "event", "thesis"):
+        if note_type in ("actor", "analyst", "etf", "benchmark", "concept", "event", "thesis"):
             issues.extend(self._check_missing_links(content, filepath))
 
         # Concept-specific checks
@@ -275,6 +276,13 @@ class NoteChecker:
             issues.extend(self._check_oneliner_links(content, filepath))
             issues.extend(self._check_table_cell_links(content, filepath))
             issues.extend(self._check_bidirectional_related(content, filepath))
+
+        if note_type == "analyst":
+            issues.extend(self._check_frontmatter(content, filepath))
+            issues.extend(self._check_related_section(content, filepath))
+            issues.extend(self._check_quick_stats(content, filepath))
+            issues.extend(self._check_table_formatting(content, filepath))
+            return issues
 
         # Remaining checks are actor-specific
         if note_type not in ("actor", "etf", "benchmark"):
@@ -372,6 +380,11 @@ class NoteChecker:
         if self._has_tag(content, "#thesis"):
             return "thesis"
         return "unknown"
+
+    @staticmethod
+    def _is_under_folder(filepath: Path, folder_name: str) -> bool:
+        """Return True when a note path is inside a vault folder."""
+        return folder_name in filepath.parts
 
     @staticmethod
     def _extract_ticker(content: str) -> str | None:
@@ -2056,10 +2069,14 @@ def get_changed_files(vault_root: Path) -> list[Path]:
         )
         files.extend(result2.stdout.strip().split("\n"))
 
-        # Filter to .md files in investing/Actors
+        # Filter to note classes with structural compliance checks.
         md_files = []
         for f in files:
-            if f and f.endswith(".md") and "investing/Actors" in f:
+            if (
+                f
+                and f.endswith(".md")
+                and any(f"investing/{folder}" in f for folder in ("Actors", "Analysts"))
+            ):
                 full_path = vault_root.parent / f
                 if full_path.exists():
                     md_files.append(full_path)
@@ -2161,20 +2178,24 @@ def main():
     if args.changed:
         files = get_changed_files(vault_root)
         if not files:
-            print("No changed .md files in investing/Actors")
+            print("No changed .md files in investing/Actors or investing/Analysts")
             sys.exit(0)
     elif args.files:
         files = [Path(f) for f in args.files]
     elif args.all:
         # Check all note types
         files = []
-        for folder in ["Actors", "Concepts", "Events", "Theses"]:
+        for folder in ["Actors", "Analysts", "Concepts", "Events", "Theses"]:
             folder_path = vault_root / folder
             if folder_path.exists():
                 files.extend(folder_path.glob("*.md"))
     else:
-        # Default: check all Actors
-        files = list((vault_root / "Actors").glob("*.md"))
+        # Default: check all primary source/entity notes.
+        files = []
+        for folder in ["Actors", "Analysts"]:
+            folder_path = vault_root / folder
+            if folder_path.exists():
+                files.extend(folder_path.glob("*.md"))
 
     # Check each file
     total_errors = 0

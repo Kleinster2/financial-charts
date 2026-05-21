@@ -17,6 +17,7 @@ Usage:
 import argparse
 import json
 import os
+import re
 import sqlite3
 import subprocess
 import sys
@@ -27,6 +28,9 @@ BASEDIR = Path(__file__).resolve().parent.parent
 DB_PATH = BASEDIR / "market_data.db"
 VAULT_DIR = BASEDIR / "investing"
 DAILY_DIR = VAULT_DIR / "Daily"
+ANALYSTS_DIR = VAULT_DIR / "Analysts"
+ACTORS_DIR = VAULT_DIR / "Actors"
+ANALYST_WATCHLIST = BASEDIR / "docs" / "analyst-watchlist.md"
 
 
 def run_cmd(cmd, cwd=None):
@@ -40,7 +44,7 @@ def run_cmd(cmd, cwd=None):
 
 def update_market_data():
     """Update prices with a 5-day lookback."""
-    print("[1/5] Updating market data...")
+    print("[1/6] Updating market data...")
     stdout, stderr, rc = run_cmd(
         "python update_market_data.py --lookback 5 --assets stocks etfs adrs fx futures"
     )
@@ -55,7 +59,7 @@ def update_market_data():
 
 def run_movers():
     """Run quick_movers.py, return parsed output."""
-    print("[2/5] Scanning sigma movers...")
+    print("[2/6] Scanning sigma movers...")
     stdout, stderr, rc = run_cmd("python scripts/quick_movers.py --sigma 2.5")
     if rc != 0:
         print(f"  WARN: quick_movers exited {rc}")
@@ -75,7 +79,7 @@ def run_movers():
 
 def check_earnings_calendar():
     """Check for upcoming earnings from vault actors using DB metadata."""
-    print("[3/5] Checking earnings calendar...")
+    print("[3/6] Checking earnings calendar...")
     if not DB_PATH.exists():
         print("  WARN: market_data.db not found")
         return []
@@ -104,7 +108,7 @@ def check_earnings_calendar():
 
 def check_data_freshness():
     """Check when data was last updated."""
-    print("[4/5] Checking data freshness...")
+    print("[4/6] Checking data freshness...")
     if not DB_PATH.exists():
         return None
 
@@ -127,7 +131,7 @@ def check_data_freshness():
 
 def check_prediction_market_watchlist():
     """Run offline prediction-market overlay freshness check."""
-    print("[5/5] Checking prediction-market overlay freshness...")
+    print("[5/6] Checking prediction-market overlay freshness...")
     script = BASEDIR / "scripts" / "refresh_kalshi_watchlist.py"
     config = BASEDIR / "kalshi_watchlist.yml"
     if not script.exists() or not config.exists():
@@ -162,6 +166,69 @@ def check_prediction_market_watchlist():
     return payload
 
 
+def _extract_watchlist_names(text: str) -> list[str]:
+    """Return analyst names from docs/analyst-watchlist.md table links."""
+    names: list[str] = []
+    seen: set[str] = set()
+
+    for line in text.splitlines():
+        if not line.strip().startswith("|"):
+            continue
+        match = re.search(r"\|\s*\[\[([^\]|#]+)(?:[#|][^\]]*)?\]\]", line)
+        if not match:
+            continue
+        name = match.group(1).strip()
+        if name and name not in seen:
+            names.append(name)
+            seen.add(name)
+
+    return names
+
+
+def resolve_analyst_note(name: str) -> dict:
+    """Resolve an analyst source-person note, preferring Analysts/ over Actors/."""
+    candidates = [
+        ("Analysts", ANALYSTS_DIR / f"{name}.md"),
+        ("Actors", ACTORS_DIR / f"{name}.md"),
+    ]
+    for folder, path in candidates:
+        if path.exists():
+            return {
+                "name": name,
+                "folder": folder,
+                "path": str(path.relative_to(BASEDIR)).replace("\\", "/"),
+                "status": "ok",
+            }
+    return {
+        "name": name,
+        "folder": None,
+        "path": None,
+        "status": "missing",
+    }
+
+
+def check_analyst_watchlist_notes():
+    """Check that tracked analyst notes resolve, preferring investing/Analysts."""
+    print("[6/6] Resolving analyst watchlist notes...")
+    if not ANALYST_WATCHLIST.exists():
+        print("  WARN: docs/analyst-watchlist.md not found")
+        return {"error": "docs/analyst-watchlist.md not found", "analysts": []}
+
+    text = ANALYST_WATCHLIST.read_text(encoding="utf-8")
+    names = _extract_watchlist_names(text)
+    analysts = [resolve_analyst_note(name) for name in names]
+    missing = [row["name"] for row in analysts if row["status"] != "ok"]
+    fallback = [row["name"] for row in analysts if row["folder"] == "Actors"]
+
+    print(f"  {len(analysts)} tracked, {len(missing)} missing, {len(fallback)} still in Actors/")
+    return {
+        "source": str(ANALYST_WATCHLIST.relative_to(BASEDIR)).replace("\\", "/"),
+        "analysts": analysts,
+        "missing": missing,
+        "fallback_actors": fallback,
+    }
+
+
 def check_daily_note_exists(date_str):
     """Check if today's daily note exists."""
     path = DAILY_DIR / f"{date_str}.md"
@@ -177,7 +244,7 @@ def main():
     args = parser.parse_args()
 
     today = datetime.now().strftime("%Y-%m-%d")
-    print(f"Morning scan — {today}")
+    print(f"Daily scan — {today}")
     print("=" * 50)
 
     # Step 1: Update market data
@@ -185,7 +252,7 @@ def main():
     if not args.skip_update:
         update_ok = update_market_data()
     else:
-        print("[1/5] Skipping market data update")
+        print("[1/6] Skipping market data update")
 
     # Step 2: Sigma movers
     movers = run_movers()
@@ -199,6 +266,9 @@ def main():
     # Step 5: prediction-market overlay freshness
     prediction_market_watchlist = check_prediction_market_watchlist()
 
+    # Step 6: analyst watchlist note paths
+    analyst_watchlist = check_analyst_watchlist_notes()
+
     # Check daily note
     daily_exists = check_daily_note_exists(today)
 
@@ -211,6 +281,7 @@ def main():
         "daily_note_exists": daily_exists,
         "prediction_market_watchlist": prediction_market_watchlist,
         "kalshi_watchlist": prediction_market_watchlist,
+        "analyst_watchlist": analyst_watchlist,
         "sigma_movers": movers,
         "recent_earnings": earnings,
     }
