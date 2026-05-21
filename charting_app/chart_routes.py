@@ -293,6 +293,7 @@ def get_chart_lw():
         show_title: Show title on chart (optional, default true)
         show_last_date: Show last data date in bottom-left (optional, default true)
         normalize: Rebase all tickers to 0% at start (optional, default false)
+        log_y: Log y-axis (optional, default true only for normalized charts)
         metrics: Fundamentals metrics to chart instead of price (optional)
                  Options: revenue, netIncome, eps, fcf, operatingIncome, ebitda, grossProfit
         forecast_start: Date to begin dotted forecast line (optional), e.g., 2026-01-01
@@ -327,6 +328,8 @@ def get_chart_lw():
     show_title = request.args.get('show_title', 'false').lower() == 'true'
     show_last_date = request.args.get('show_last_date', 'true').lower() != 'false'
     normalize = request.args.get('normalize', 'false').lower() == 'true'
+    log_y_arg = request.args.get('log_y', request.args.get('log', '')).strip().lower()
+    log_y = (log_y_arg in ('true', '1', 'yes')) if log_y_arg else normalize
 
     # Default to 8 years for normalized charts if no start date specified
     if normalize and not start_date:
@@ -435,6 +438,7 @@ def get_chart_lw():
                 'showLastValue': show_last_value,
                 'normalize': normalize,
                 'isFundamentals': True,  # Use bar chart style
+                'logY': False,
                 'forecastStart': forecast_start if forecast_start else None,
                 'labels': labels if labels else None,
                 'separatePanes': len(prod_metrics) > 1,
@@ -633,6 +637,7 @@ def get_chart_lw():
                 'showLastValue': show_last_value,
                 'normalize': normalize,
                 'isFundamentals': True,
+                'logY': False,
                 'forecastStart': forecast_start if forecast_start else None,
                 'labels': labels if labels else None,
                 'separatePanes': len(metrics) > 1 and not combine_panes,
@@ -941,6 +946,7 @@ def get_chart_lw():
             'showLastDate': show_last_date,
             'showLastValue': show_last_value,
             'normalize': normalize,
+            'logY': log_y,
             'forecastStart': forecast_start if forecast_start else None,
             'labels': labels if labels else None,
             'overlay': overlay_config,
@@ -1084,6 +1090,7 @@ def get_chart_segment():
             'showLastValue': False,
             'normalize': False,
             'isFundamentals': chart_type == 'bar',
+            'logY': False,
             'forecastStart': None,
             'labels': None,
         }

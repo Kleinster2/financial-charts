@@ -132,7 +132,8 @@
 
         // Create a single chart pane with series
         function createChartPane(container, seriesData, config, paneHeight, colorMap, isLastPane) {
-            const { width, showLastValue, normalize, isFundamentals, forecastStart, labels } = config;
+            const { width, showLastValue, normalize, isFundamentals, forecastStart, labels, logY } = config;
+            const priceScaleMode = logY ? 1 : 0;
 
             const chart = LightweightCharts.createChart(container, {
                 width: width || 1200,
@@ -161,7 +162,7 @@
                     visible: true,
                     borderColor: '#ccc',
                     scaleMargins: { top: 0.1, bottom: 0.1 },
-                    mode: isFundamentals ? 0 : 1,  // Arithmetic for fundamentals (can go negative), log for prices
+                    mode: isFundamentals ? 0 : priceScaleMode,
                     minimumWidth: isFundamentals ? 110 : 0
                 },
                 leftPriceScale: {
@@ -446,7 +447,9 @@
 
         // Chart configuration will be injected via window.CHART_CONFIG
         function renderChart(config) {
-            const { data, title, width, height, showTitle, showLastDate, showLastValue, normalize, isFundamentals, forecastStart, labels, separatePanes, paneGroups, overlay, dualAxis, primaryTicker, leftAxisSeries } = config;
+            const { data, title, width, height, showTitle, showLastDate, showLastValue, normalize, isFundamentals, forecastStart, labels, separatePanes, paneGroups, overlay, dualAxis, primaryTicker, leftAxisSeries, logY } = config;
+            const priceScaleMode = logY ? 1 : 0;
+            const leftAxisPriceLike = !!dualAxis || (leftAxisSeries && leftAxisSeries.length > 0);
 
             // Use multi-pane rendering for fundamentals with multiple metrics
             if (separatePanes && paneGroups && Object.keys(paneGroups).length > 1) {
@@ -520,14 +523,14 @@
                     borderColor: '#ccc',
                     scaleMargins: { top: 0.1, bottom: 0.1 },
                     autoScale: true,
-                    mode: isFundamentals ? 0 : 1  // Arithmetic for fundamentals, log for prices
+                    mode: isFundamentals ? 0 : priceScaleMode
                 },
                 leftPriceScale: {
                     visible: !!overlay || !!dualAxis || (leftAxisSeries && leftAxisSeries.length > 0),
                     borderColor: '#ccc',
                     scaleMargins: { top: 0.1, bottom: 0.1 },
                     autoScale: true,
-                    mode: 1  // Log scale for price on left axis
+                    mode: leftAxisPriceLike ? priceScaleMode : 0
                 },
                 crosshair: {
                     horzLine: { visible: window.INTERACTIVE === true, labelVisible: window.INTERACTIVE === true },

@@ -35,6 +35,7 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome"
 | `start` | | Start date (YYYY-MM-DD) |
 | `end` | | End date |
 | `normalize` | false | Normalize to 100 at start |
+| `log_y` | `true` only when `normalize=true` | Log y-axis. Use only for return/performance views; raw levels should be linear |
 | `primary` | | Actor ticker — always gets blue (#2962FF) |
 | `metrics` | | Fundamentals: revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit |
 | `forecast_start` | | Date to begin dotted forecast line |
@@ -78,6 +79,8 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL,GME&normalize=true&overlay
 
 **Prefer peer comparisons** — single-ticker charts waste the comparison opportunity. Include 2-4 relevant peers with `normalize=true`.
 
+**Axis scale follows the chart's claim.** Charts that are not about returns must use a linear y-axis. Log scale is only the default for normalized return/performance charts (`normalize=true`) or an explicitly return/growth-rate interpretation. Raw rates, yields, spreads, macro levels, fundamentals, segments, and other level/unit charts should pass or inherit `log_y=false`.
+
 **No titles needed** — legend already shows tickers. Leave `show_title=false`.
 
 **Naming convention:** `aapl-price-chart.png`, `tsmc-vs-samsung-foundry.png`, `nvda-2024-rally.png`
@@ -113,14 +116,14 @@ Matplotlib-based endpoint for single-ticker charts. **Use this instead of `/api/
 
 - Data is sparse (funding rounds, private market marks, annual snapshots) — LW Charts spaces points equally regardless of time gaps
 - Price range spans orders of magnitude (e.g., $0.10 → $588) — LW Charts' `fitContent()` auto-zooms to dense recent data and clips early history
-- You need log scale with labeled data points
+- You need an explicitly return/growth-rate log view with labeled data points
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | `ticker` | required | Single ticker column from `stock_prices_daily` |
 | `start` | | Start date (YYYY-MM-DD) |
 | `end` | | End date |
-| `log` | false | Log scale y-axis |
+| `log` | false | Log scale y-axis; use only for return/growth-rate views |
 | `label` | ticker | Legend label (e.g., `SpaceX (private)`) |
 | `markers` | false | Show dots at data points |
 | `point_labels` | | Comma-separated labels for each data point |
@@ -128,8 +131,8 @@ Matplotlib-based endpoint for single-ticker charts. **Use this instead of `/api/
 | `height` | 6 | Image height in inches |
 
 ```bash
-# Private market funding rounds with log scale and labeled points
-curl "http://localhost:5000/api/chart/image?ticker=SPACEX_PRIVATE&start=2002-01-01&log=true\
+# Private market funding rounds with labeled points
+curl "http://localhost:5000/api/chart/image?ticker=SPACEX_PRIVATE&start=2002-01-01\
 &label=SpaceX%20(private)&width=14&height=10&markers=true\
 &point_labels=Series%20A,Series%20B,Series%20C" \
   -o investing/attachments/spacex-private-price-chart.png
@@ -139,7 +142,7 @@ curl "http://localhost:5000/api/chart/image?ticker=SPACEX_PRIVATE&start=2002-01-
 
 - **Don't forward-fill** sparse data to daily rows — matplotlib draws straight lines between actual points, which is the correct behavior for funding rounds
 - **Store only actual data points** in the DB column (e.g., 24 rows for 24 funding rounds, not 8,555 forward-filled daily rows)
-- When log scale is enabled, a $1,000 dashed reference line is auto-drawn; y-axis appears on the right
+- If a chart is explicitly framed as a return/growth-rate view and `log=true` is enabled, a $1,000 dashed reference line is auto-drawn; y-axis appears on the right
 
 ---
 
