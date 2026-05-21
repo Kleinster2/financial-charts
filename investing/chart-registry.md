@@ -26,6 +26,26 @@ charts:
     skip: true
   fed-fomc-probabilities.png:
     skip: true
+  treasury-5y-real-yield-decomposition-lw.png:
+    tickers: DGS5,DFII5,T5YIE
+    normalize: false
+    log_y: false
+    start: 2026-01-01
+    labels: DGS5:5Y nominal,DFII5:5Y real yield,T5YIE:5Y breakeven
+  treasury-10y-real-yield-decomposition-lw.png:
+    tickers: DGS10,DFII10,T10YIE
+    normalize: false
+    log_y: false
+    start: 2026-01-01
+    labels: DGS10:10Y nominal,DFII10:10Y real yield,T10YIE:10Y breakeven
+  treasury-30y-real-yield-decomposition-lw.png:
+    tickers: DGS30,DFII30
+    normalize: false
+    log_y: false
+    start: 2026-01-01
+    labels: DGS30:30Y nominal,DFII30:30Y real yield
+  treasury-real-yield-decomposition-may13-19-2026.png:
+    skip: true
   cl-contango-spread.png:
     skip: true
   cl-term-structure.png:

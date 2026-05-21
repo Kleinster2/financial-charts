@@ -2,7 +2,7 @@
 
 ## Overview
 
-Your database now includes **13 essential economic indicators** from FRED (Federal Reserve Economic Data) to provide macro context for market analysis. These complement your 1,277+ stocks, ETFs, and indices with key economic data.
+Your database includes **13 wide-table economic indicators** from FRED (Federal Reserve Economic Data), plus narrow-only rates-decomposition series in `prices_long`, to provide macro context for market analysis. These complement your stock, ETF, futures, FX, crypto, and index data.
 
 ## Current Indicators (Tier 1)
 
@@ -19,6 +19,19 @@ Your database now includes **13 essential economic indicators** from FRED (Feder
 - Track interest rate environment
 - T10Y2Y inversion (negative spread) predicts recessions (2007, 2019, 2022)
 - Affects discount rates for equity valuation
+
+### Rates Decomposition (Narrow-Only)
+
+`stock_prices_daily` is at SQLite's 2000-column limit, so new macro series that are not already wide-table columns are stored in `prices_long` and tracked through `update_fred_indicators.py --codes ...`.
+
+| Code | Description | Storage | Why it matters |
+|------|-------------|---------|----------------|
+| **DGS5** | 5-Year Treasury Constant Maturity Rate | `prices_long` | 5Y nominal yield for belly decomposition |
+| **DFII5** | 5-Year TIPS Real Yield | `prices_long` | 5Y real-rate component |
+| **DFII10** | 10-Year TIPS Real Yield | `prices_long` | 10Y real-rate component |
+| **DFII30** | 30-Year TIPS Real Yield | `prices_long` | 30Y real-rate component |
+
+Use these alongside **T5YIE** and **T10YIE** to split nominal yield moves into real-yield and breakeven components. For 30Y, use `DGS30 - DFII30` as the residual inflation/breakeven proxy.
 
 ### Fed Policy (Daily/Monthly Updates)
 
@@ -290,6 +303,6 @@ Browse 841,000+ series at https://fred.stlouisfed.org/
 
 **Last Updated:** 2025-11-21
 **Database:** market_data.db
-**Total FRED Indicators:** 13 (Tier 1) / 39 (Tier 1 + Tier 2 available)
+**Total FRED Indicators:** 13 wide Tier 1 indicators plus 4 narrow-only rates-decomposition series (Tier 1); 39 wide Tier 1 + Tier 2 candidates remain available.
 **Oldest Data:** 1947 (CPIAUCSL)
 **Update Source:** https://fred.stlouisfed.org/

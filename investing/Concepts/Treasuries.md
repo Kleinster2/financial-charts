@@ -93,6 +93,36 @@ Drivers:
 
 2025 saw elevated term premium on deficit fears and Moody's downgrade. In Apr 2026, term premium rose further on fiscal overextension fears — yields climbing despite stable long-term inflation expectations and unchanged Fed rate path. See [[Term premium#April 2026: fiscal term premium|Term premium § April 2026]].
 
+### Real-yield decomposition tracker (May 2026)
+
+The live tracker now keeps the real-rate input series in `prices_long` because `stock_prices_daily` is at SQLite's 2000-column limit. The decomposition uses nominal Treasury yields, [[TIP|TIPS]] real yields, and breakevens from FRED:
+
+![[treasury-5y-real-yield-decomposition-lw.png]]
+*5Y nominal yield, 5Y TIPS real yield, and 5Y breakeven. This is the belly where the May selloff was more than fully explained by real yields.*
+
+![[treasury-10y-real-yield-decomposition-lw.png]]
+*10Y nominal yield, 10Y TIPS real yield, and 10Y breakeven. The 10Y move was almost entirely real-rate led.*
+
+![[treasury-30y-real-yield-decomposition-lw.png]]
+*30Y nominal yield and 30Y TIPS real yield. FRED does not provide the same daily 30Y breakeven series in this tracker, so the table below uses DGS30 - DFII30 as the residual.*
+
+| Tenor | Nominal series | Real-yield series | Breakeven proxy | Common window | Nominal move | Real-yield move | Breakeven / residual move | Read |
+|-------|----------------|-------------------|-----------------|---------------|--------------|-----------------|---------------------------|------|
+| 5Y | DGS5 | DFII5 | T5YIE | May 13-19 2026 | +20 bp | +24 bp | -4 bp | More than all of the nominal selloff came from real yields |
+| 10Y | DGS10 | DFII10 | T10YIE | May 13-19 2026 | +21 bp | +19 bp | +2 bp | Almost entirely a real-yield move |
+| 30Y | DGS30 | DFII30 | DGS30 - DFII30 | May 13-19 2026 | +15 bp | +10 bp | +5 bp | Mostly real yields, with a smaller inflation/residual component |
+
+This provides the reusable Treasury-market diagnostic behind [[Bhanu Baweja]]'s May 20 claim. Mechanically, the recent nominal selloff was mostly real yields, not breakevens. The interpretation remains separate: "real yields rose" is observable; whether that means nominal-growth repricing, fiscal term premium, duration supply, or a mix has to be triangulated against [[Rate expectations]], [[Inflation expectations]], and auction/demand data. The point-in-time visual check belongs with [[Bhanu Baweja]]'s rates view.
+
+Operational refresh:
+
+```bash
+python update_fred_indicators.py --lookback 30 --skip-b3 --codes DGS5 DGS10 DGS30 T5YIE T10YIE DFII5 DFII10 DFII30
+python scripts/chart_treasury_real_yield_decomposition.py --force
+```
+
+Sources: FRED series [DGS5](https://fred.stlouisfed.org/series/DGS5), [DGS10](https://fred.stlouisfed.org/series/DGS10), [DGS30](https://fred.stlouisfed.org/series/DGS30), [DFII5](https://fred.stlouisfed.org/series/DFII5), [DFII10](https://fred.stlouisfed.org/series/DFII10), [DFII30](https://fred.stlouisfed.org/series/DFII30), [T5YIE](https://fred.stlouisfed.org/series/T5YIE), and [T10YIE](https://fred.stlouisfed.org/series/T10YIE), refreshed May 20 2026.
+
 ### Kalshi 10-year yield bucket (May 20, 2026)
 
 [[Kalshi]]'s active KXTNOTED daily market for the May 20 10-year Treasury yield is thin, but directionally consistent with the broader tape: the only traded bucket in the API snapshot was 4.67-4.69%, last 56c with 24c / 72c bid-ask, $128 volume, and $128 open interest. Adjacent buckets from 4.64-4.72 had wide quotes and little or no volume.

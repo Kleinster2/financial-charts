@@ -45,6 +45,15 @@ FRED_INDICATORS = {
     'BAMLC0A0CM': 'Corporate Spread',
 }
 
+# FRED series stored only in prices_long. stock_prices_daily is at SQLite's
+# 2000-column limit, so new macro series should enter through the narrow table.
+NARROW_ONLY_FRED_INDICATORS = {
+    'DGS5': '5-Year Treasury',
+    'DFII5': '5-Year TIPS Real Yield',
+    'DFII10': '10-Year TIPS Real Yield',
+    'DFII30': '30-Year TIPS Real Yield',
+}
+
 # Add Tier 2 indicators if they've been downloaded
 TIER2_INDICATORS = {
     # Labor (monthly)
@@ -103,17 +112,96 @@ def get_existing_indicators(conn):
 
     return existing
 
-def update_fred_indicators(lookback_days=60):
+def get_latest_narrow_date(conn, ticker):
+    """Return latest date for a ticker in prices_long, or None if absent."""
+    try:
+        row = conn.execute(
+            """
+            SELECT MAX(Date)
+            FROM prices_long
+            WHERE Ticker = ? AND Close IS NOT NULL
+            """,
+            (ticker,),
+        ).fetchone()
+        return row[0] if row else None
+    except Exception:
+        return None
+
+def refresh_fred_metadata(codes, descriptions):
+    """Refresh ticker_metadata for FRED series present in prices_long."""
+    if not codes:
+        return
+
+    conn = get_db_connection(row_factory=None)
+    try:
+        for code in codes:
+            row = conn.execute(
+                """
+                SELECT MIN(Date), MAX(Date), COUNT(*)
+                FROM prices_long
+                WHERE Ticker = ? AND Close IS NOT NULL
+                """,
+                (code,),
+            ).fetchone()
+            if not row or not row[0]:
+                continue
+
+            conn.execute(
+                """
+                INSERT INTO ticker_metadata
+                    (ticker, name, table_name, data_type, first_date, last_date, data_points)
+                VALUES (?, ?, 'prices_long', 'macro', ?, ?, ?)
+                ON CONFLICT(ticker) DO UPDATE SET
+                    name = excluded.name,
+                    table_name = excluded.table_name,
+                    data_type = excluded.data_type,
+                    first_date = excluded.first_date,
+                    last_date = excluded.last_date,
+                    data_points = excluded.data_points
+                """,
+                (code, descriptions.get(code, code), row[0], row[1], row[2]),
+            )
+        conn.commit()
+    finally:
+        conn.close()
+
+def sync_fred_narrow_only(narrow_updates):
+    """Write narrow-only FRED series to prices_long and ticker_metadata."""
+    if not narrow_updates:
+        return True
+
+    if not NARROW_SYNC:
+        print("  [Narrow] prices_long unavailable; skipped narrow-only FRED series")
+        return False
+
+    narrow_df = pd.concat(
+        [data['Close'].rename(code) for code, data in narrow_updates.items()],
+        axis=1,
+    ).sort_index()
+
+    try:
+        sync_wide_to_narrow(narrow_df, table='prices_long', value_col='Close', verbose=True)
+        refresh_fred_metadata(narrow_updates.keys(), NARROW_ONLY_FRED_INDICATORS)
+
+        return True
+    except Exception as e:
+        print(f"  [Narrow] ERROR syncing narrow-only FRED series: {e}")
+        return False
+
+def update_fred_indicators(lookback_days=60, codes=None):
     """
     Update FRED economic indicators.
 
     Args:
         lookback_days: How many days back to check/update (default 60 for monthly data)
+        codes: Optional iterable of FRED codes to update.
     """
     print("Updating FRED Economic Indicators")
     print("="*60)
     print(f"Looking back {lookback_days} days for updates")
     print()
+
+    selected_codes = {code.upper() for code in codes} if codes else None
 
     cutoff_date = datetime.now() - timedelta(days=lookback_days)
 
@@ -126,15 +214,26 @@ def update_fred_indicators(lookback_days=60):
         print(f"ERROR checking database: {e}")
         return False
 
+    if selected_codes:
+        existing_indicators = {
+            code: description
+            for code, description in existing_indicators.items()
+            if code in selected_codes
+        }
+
     if not existing_indicators:
-        print("No FRED indicators found in database.")
-        print("Run 'python download_fred_indicators.py' first to add indicators.")
-        return False
+        if selected_codes:
+            print("No selected wide FRED indicators found in stock_prices_daily.")
+        else:
+            print("No FRED indicators found in database.")
+            print("Run 'python download_fred_indicators.py' first to add indicators.")
+            return False
 
     print(f"Found {len(existing_indicators)} FRED indicators in database")
     print()
 
-    all_updates = {}
+    wide_updates = {}
+    narrow_updates = {}
 
     for i, (code, description) in enumerate(existing_indicators.items(), 1):
         print(f"[{i}/{len(existing_indicators)}] {code:20} {description:25}...", end=" ")
@@ -146,19 +245,79 @@ def update_fred_indicators(lookback_days=60):
             recent_data = data[data.index >= cutoff_date]
 
             if not recent_data.empty:
-                all_updates[code] = recent_data
+                wide_updates[code] = recent_data
                 print(f"OK ({len(recent_data):3} new points, latest {recent_data.index[-1].strftime('%Y-%m-%d')})")
             else:
                 print("OK (no new data)")
         else:
             print("FAIL")
 
-    if not all_updates:
+    print()
+    narrow_indicators = {
+        code: description
+        for code, description in NARROW_ONLY_FRED_INDICATORS.items()
+        if selected_codes is None or code in selected_codes
+    }
+
+    print(f"Checking {len(narrow_indicators)} narrow-only FRED indicators")
+    conn = get_db_connection(row_factory=None)
+    try:
+        narrow_latest = {
+            code: get_latest_narrow_date(conn, code)
+            for code in narrow_indicators
+        }
+    finally:
+        conn.close()
+
+    for i, (code, description) in enumerate(narrow_indicators.items(), 1):
+        latest = narrow_latest.get(code)
+        filter_cutoff = datetime(1900, 1, 1) if latest is None else cutoff_date
+        seed_note = "seed" if latest is None else "update"
+        print(f"[{i}/{len(narrow_indicators)}] {code:20} {description:25} ({seed_note})...", end=" ")
+
+        data = download_from_fred(code)
+
+        if data is not None and not data.empty:
+            recent_data = data[data.index >= filter_cutoff]
+            if not recent_data.empty:
+                narrow_updates[code] = recent_data
+                print(f"OK ({len(recent_data):3} points, latest {recent_data.index[-1].strftime('%Y-%m-%d')})")
+            else:
+                print("OK (no new data)")
+        else:
+            print("FAIL")
+
+    if not wide_updates and not narrow_updates:
         print("\nNo updates needed - all indicators are current")
         return True
 
+    narrow_success = True
+    if narrow_updates:
+        print(f"\nUpdating prices_long with {len(narrow_updates)} narrow-only indicators...")
+        narrow_success = sync_fred_narrow_only(narrow_updates)
+
+        print("\nNarrow-only verification:")
+        conn = get_db_connection(row_factory=None)
+        try:
+            for code in narrow_updates:
+                row = conn.execute(
+                    """
+                    SELECT MIN(Date), MAX(Date), COUNT(*)
+                    FROM prices_long
+                    WHERE Ticker = ? AND Close IS NOT NULL
+                    """,
+                    (code,),
+                ).fetchone()
+                if row and row[0]:
+                    print(f"  {code:20} {row[2]:5} rows, {row[0][:10]} to {row[1][:10]}")
+        finally:
+            conn.close()
+
+    if not wide_updates:
+        return narrow_success
+
     # Update database
-    print(f"\nUpdating database with {len(all_updates)} indicators...")
+    print(f"\nUpdating stock_prices_daily with {len(wide_updates)} wide indicators...")
 
     conn = get_db_connection(row_factory=None)
     try:
@@ -169,7 +328,7 @@ def update_fred_indicators(lookback_days=60):
         # Update each indicator
         combined_df = existing_df.copy()
 
-        for code, data in all_updates.items():
+        for code, data in wide_updates.items():
             if code not in combined_df.columns:
                 combined_df[code] = pd.NA
 
@@ -202,13 +361,19 @@ def update_fred_indicators(lookback_days=60):
         # Sync to narrow-format table
         if NARROW_SYNC:
             try:
-                sync_wide_to_narrow(combined_df, table='prices_long', value_col='Close', verbose=True)
+                sync_wide_to_narrow(
+                    combined_df[list(wide_updates.keys())],
+                    table='prices_long',
+                    value_col='Close',
+                    verbose=True,
+                )
+                refresh_fred_metadata(wide_updates.keys(), existing_indicators)
             except Exception as e:
                 print(f"  [Narrow] Warning: sync failed: {e}")
 
         # Verify
         print("\nVerification:")
-        for code in all_updates.keys():
+        for code in wide_updates.keys():
             cursor.execute(f'''
                 SELECT MAX(Date)
                 FROM stock_prices_daily
@@ -219,7 +384,7 @@ def update_fred_indicators(lookback_days=60):
                 print(f"  {code:20} latest: {latest[:10]}")
 
         conn.close()
-        return True
+        return narrow_success
 
     except Exception as e:
         print(f"ERROR: {e}")
@@ -262,12 +427,14 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Update FRED economic indicators')
     parser.add_argument('--lookback', type=int, default=60,
                        help='Days to look back for updates (default: 60 for monthly data)')
+    parser.add_argument('--codes', nargs='+',
+                       help='Optional FRED codes to update, e.g. DGS5 DFII5 DFII10 DFII30')
     parser.add_argument('--skip-b3', action='store_true',
                        help='Skip B3 yield curve update')
 
     args = parser.parse_args()
 
-    success = update_fred_indicators(lookback_days=args.lookback)
+    success = update_fred_indicators(lookback_days=args.lookback, codes=args.codes)
 
     # Also update B3 yield curve (daily data, shorter lookback)
     if not args.skip_b3:
