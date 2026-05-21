@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "defaultScope": "financial-charts",
+  "scopes": [
+    {
+      "name": "financial-charts",
+      "description": "Shared investing and cross-vault research workflow skills hosted in this repository.",
+      "root": ".",
+      "skillsFrom": {
+        "path": "skills/shared-workflows.json",
+        "key": "workflowSkills"
+      },
+      "runtimes": {
+        "codex": ".agents/skills",
+        "claude": ".claude/skills",
+        "openclaw": "$OPENCLAW_SKILLS_DIR"
+      }
+    },
+    {
+      "name": "personal-vault",
+      "description": "Repo-local personal vault communications workflows.",
+      "root": "C:/Users/klein/obsidian/personal",
+      "optional": true,
+      "skills": [
+        "comms-sweep",
+        "matter",
+        "party"
+      ],
+      "runtimes": {
+        "codex": ".agents/skills",
+        "claude": ".claude/skills",
+        "openclaw": "$OPENCLAW_SKILLS_DIR"
+      }
+    }
+  ]
+}

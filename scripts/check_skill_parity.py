@@ -6,6 +6,8 @@ Usage:
     python scripts/check_skill_parity.py
     python scripts/check_skill_parity.py news ingest earnings
     python scripts/check_skill_parity.py --all
+    python scripts/check_skill_parity.py --scope personal-vault --strict
+    python scripts/check_skill_parity.py --all-scopes --strict
     python scripts/check_skill_parity.py --json
     python scripts/check_skill_parity.py --strict
     python scripts/check_skill_parity.py --strict --optional-openclaw
@@ -16,23 +18,16 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import os
 import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from skill_manifest import read_manifest_list
+from skill_manifest import SkillParityScope, read_skill_parity_scopes
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-RUNTIMES = {
-    "codex": REPO_ROOT / ".agents" / "skills",
-    "claude": REPO_ROOT / ".claude" / "skills",
-    "openclaw": Path(
-        os.environ.get("OPENCLAW_SKILLS_DIR", r"C:\Users\klein\clawd\skills")
-    ),
-}
+RUNTIME_ORDER = ["codex", "claude", "openclaw"]
 
 
 @dataclass(frozen=True)
@@ -84,13 +79,25 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--all",
         action="store_true",
-        help="Compare the union of all discovered skill names.",
+        help="Compare the union of all discovered skill names in the selected scope.",
+    )
+    parser.add_argument(
+        "--scope",
+        help=(
+            "Skill parity scope from skills/skill-parity-scopes.json. "
+            "Defaults to that manifest's defaultScope."
+        ),
+    )
+    parser.add_argument(
+        "--all-scopes",
+        action="store_true",
+        help="Compare every registered scope whose root is available.",
     )
     parser.add_argument(
         "--openclaw-skills",
         type=Path,
-        default=RUNTIMES["openclaw"],
-        help="Path to OpenClaw skills directory.",
+        default=None,
+        help="Override the OpenClaw skills directory for every selected scope.",
     )
     parser.add_argument(
         "--optional-openclaw",
@@ -156,7 +163,9 @@ def status_for(name: str, inventory: dict[str, dict[str, SkillFile]]) -> dict[st
 
 
 def resolve_skill_names(
-    args: argparse.Namespace, inventory: dict[str, dict[str, SkillFile]]
+    args: argparse.Namespace,
+    scope: SkillParityScope,
+    inventory: dict[str, dict[str, SkillFile]],
 ) -> list[str]:
     if args.all:
         names = set()
@@ -167,19 +176,71 @@ def resolve_skill_names(
     if args.skills:
         return list(dict.fromkeys(args.skills))
 
-    return read_manifest_list("workflowSkills")
+    return scope.skills
 
 
-def build_report(args: argparse.Namespace) -> dict[str, Any]:
-    runtime_roots = dict(RUNTIMES)
-    runtime_roots["openclaw"] = args.openclaw_skills
+def selected_scopes(args: argparse.Namespace) -> list[SkillParityScope]:
+    default_scope, scopes = read_skill_parity_scopes()
+    by_name = {scope.name: scope for scope in scopes}
+
+    if args.all_scopes:
+        return scopes
+
+    scope_name = args.scope or default_scope
+    scope = by_name.get(scope_name)
+    if scope is None:
+        names = ", ".join(sorted(by_name))
+        raise ValueError(f"Unknown skill parity scope {scope_name!r}. Registered scopes: {names}")
+    return [scope]
+
+
+def runtime_roots_for_scope(
+    args: argparse.Namespace, scope: SkillParityScope
+) -> tuple[dict[str, Path], list[str]]:
+    runtime_roots = {
+        runtime: scope.runtimes[runtime]
+        for runtime in RUNTIME_ORDER
+        if runtime in scope.runtimes
+    }
+    if args.openclaw_skills is not None and "openclaw" in runtime_roots:
+        runtime_roots["openclaw"] = args.openclaw_skills
+
     skipped_runtimes = []
-    if args.optional_openclaw and not runtime_roots["openclaw"].exists():
+    if (
+        args.optional_openclaw
+        and "openclaw" in runtime_roots
+        and not runtime_roots["openclaw"].exists()
+    ):
         skipped_runtimes.append("openclaw")
         runtime_roots.pop("openclaw")
+    return runtime_roots, skipped_runtimes
 
+
+def build_scope_report(args: argparse.Namespace, scope: SkillParityScope) -> dict[str, Any]:
+    if scope.optional and not scope.root.exists():
+        return {
+            "scope": scope.name,
+            "description": scope.description,
+            "scope_root": str(scope.root),
+            "optional": scope.optional,
+            "skipped": True,
+            "skip_reason": "scope root not found",
+            "runtime_roots": {},
+            "inventory_counts": {},
+            "selected_skills": scope.skills,
+            "skipped_runtimes": [],
+            "skills": [],
+            "summary": {
+                "shared_all": [],
+                "missing_by_runtime": {},
+                "codex_claude_drift": [],
+                "openclaw_unexpected_drift": [],
+            },
+        }
+
+    runtime_roots, skipped_runtimes = runtime_roots_for_scope(args, scope)
     inventory = {runtime: discover(root) for runtime, root in runtime_roots.items()}
-    skill_names = resolve_skill_names(args, inventory)
+    skill_names = resolve_skill_names(args, scope, inventory)
     skills = [status_for(name, inventory) for name in skill_names]
 
     shared_all = [
@@ -199,6 +260,12 @@ def build_report(args: argparse.Namespace) -> dict[str, Any]:
     ]
 
     return {
+        "scope": scope.name,
+        "description": scope.description,
+        "scope_root": str(scope.root),
+        "optional": scope.optional,
+        "skipped": False,
+        "skip_reason": None,
         "runtime_roots": {runtime: str(root) for runtime, root in runtime_roots.items()},
         "inventory_counts": {
             runtime: len(skills_for_runtime)
@@ -216,6 +283,14 @@ def build_report(args: argparse.Namespace) -> dict[str, Any]:
     }
 
 
+def build_report(args: argparse.Namespace) -> dict[str, Any]:
+    scopes = selected_scopes(args)
+    return {
+        "selected_scope_names": [scope.name for scope in scopes],
+        "scopes": [build_scope_report(args, scope) for scope in scopes],
+    }
+
+
 def print_list(title: str, values: list[str]) -> None:
     if values:
         print(f"{title}: {', '.join(values)}")
@@ -223,14 +298,22 @@ def print_list(title: str, values: list[str]) -> None:
         print(f"{title}: none")
 
 
-def print_text_report(report: dict[str, Any]) -> None:
-    print("Skill Parity Report")
-    print("===================")
+def print_scope_report(scope_report: dict[str, Any]) -> None:
+    print(f"Scope: {scope_report['scope']}")
+    print(f"Root:  {scope_report['scope_root']}")
+    if scope_report["description"]:
+        print(f"About: {scope_report['description']}")
     print()
-    for runtime, root in report["runtime_roots"].items():
-        count = report["inventory_counts"][runtime]
+
+    if scope_report["skipped"]:
+        print(f"Skipped: {scope_report['skip_reason']}")
+        print()
+        return
+
+    for runtime, root in scope_report["runtime_roots"].items():
+        count = scope_report["inventory_counts"][runtime]
         print(f"{runtime:8} {count:3} skills  {root}")
-    for runtime in report["skipped_runtimes"]:
+    for runtime in scope_report["skipped_runtimes"]:
         print(f"{runtime:8} skipped   directory not found")
     print()
 
@@ -240,11 +323,11 @@ def print_text_report(report: dict[str, Any]) -> None:
     )
     print(header)
     print("-" * len(header))
-    for item in report["skills"]:
+    for item in scope_report["skills"]:
         present = set(item["present"])
         codex = "yes" if "codex" in present else "missing"
         claude = "yes" if "claude" in present else "missing"
-        if "openclaw" in report["skipped_runtimes"]:
+        if "openclaw" in scope_report["skipped_runtimes"]:
             openclaw = "skipped"
         else:
             openclaw = "yes" if "openclaw" in present else "missing"
@@ -255,19 +338,31 @@ def print_text_report(report: dict[str, Any]) -> None:
         )
 
     print()
-    summary = report["summary"]
+    summary = scope_report["summary"]
     shared_label = "Shared across selected runtimes"
-    if not report["skipped_runtimes"]:
+    if not scope_report["skipped_runtimes"]:
         shared_label = "Shared across all three"
     print_list(shared_label, summary["shared_all"])
     for runtime, values in summary["missing_by_runtime"].items():
         print_list(f"Missing in {runtime}", values)
     print_list("Codex/Claude drift", summary["codex_claude_drift"])
     print_list("OpenClaw unexpected drift", summary["openclaw_unexpected_drift"])
+    print()
 
 
-def has_strict_failures(report: dict[str, Any]) -> bool:
-    summary = report["summary"]
+def print_text_report(report: dict[str, Any]) -> None:
+    print("Skill Parity Report")
+    print("===================")
+    print()
+    for scope_report in report["scopes"]:
+        print_scope_report(scope_report)
+
+
+def has_scope_strict_failures(scope_report: dict[str, Any]) -> bool:
+    if scope_report["skipped"]:
+        return False
+
+    summary = scope_report["summary"]
     has_missing = any(summary["missing_by_runtime"].values())
     return bool(
         has_missing
@@ -276,9 +371,17 @@ def has_strict_failures(report: dict[str, Any]) -> bool:
     )
 
 
+def has_strict_failures(report: dict[str, Any]) -> bool:
+    return any(has_scope_strict_failures(scope_report) for scope_report in report["scopes"])
+
+
 def main() -> int:
     args = parse_args()
-    report = build_report(args)
+    try:
+        report = build_report(args)
+    except ValueError as exc:
+        print(exc, file=sys.stderr)
+        return 2
 
     if args.json:
         print(json.dumps(report, indent=2, sort_keys=True))

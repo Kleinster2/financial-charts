@@ -30,7 +30,8 @@ Definitions live in `.claude/skills/<name>/SKILL.md`. The cross-runtime mirrors 
 .agents/skills/                 Codex mirror (synced via scripts/promote_shared_skill.py)
 ~/clawd/skills/                 OpenClaw mirror (synced via promote helper, env override)
 
-skills/shared-workflows.json    Registry of workflow skills that must be parity-mirrored
+skills/shared-workflows.json    Registry of financial-charts workflow skills
+skills/skill-parity-scopes.json Registry of repo-scoped skill parity groups
 scripts/check_skill_parity.py   Verifies all three runtimes are byte-aligned
 scripts/promote_shared_skill.py Canonical update path: edit one runtime, promote to the others
 
@@ -42,13 +43,13 @@ docs/note-checklist.md          Per-edit compliance checklist
 
 ## Skill parity
 
-Workflow skills in `skills/shared-workflows.json` must stay byte-aligned across Claude / Codex / OpenClaw runtimes — they're the same code that should behave identically regardless of which runtime invokes them.
+Workflow skills registered in `skills/skill-parity-scopes.json` must stay byte-aligned across Claude / Codex / OpenClaw runtimes — they're the same code that should behave identically regardless of which runtime invokes them.
 
 **Update path**: edit any one runtime's `SKILL.md`, then:
 
 ```bash
 python scripts/promote_shared_skill.py <skill> --from claude    # or codex / openclaw
-python scripts/check_skill_parity.py --strict                    # verify
+python scripts/check_skill_parity.py --all-scopes --strict        # verify
 ```
 
 A pre-commit hook runs `npm run test:consistency` for consistency-sensitive edits, including shared workflow skill parity, note-compliance regressions, and the market-reaction peer sweep. See `docs/skill-parity.md` for details.

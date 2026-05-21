@@ -1,18 +1,30 @@
 # Skill Parity
 
-Shared investing-vault workflows live in three runtimes:
+Shared workflow skills live in three runtimes:
 
 | Runtime | Path |
 |---|---|
-| Codex | `.agents/skills/` |
-| Claude Code | `.claude/skills/` |
+| Codex | scope-relative `.agents/skills/` |
+| Claude Code | scope-relative `.claude/skills/` |
 | OpenClaw | `C:\Users\klein\clawd\skills\` |
 
-## Shared Workflow Set
+## Registered Scopes
 
-The source of truth is [skills/shared-workflows.json](../skills/shared-workflows.json).
+The source of truth for parity scope registration is [skills/skill-parity-scopes.json](../skills/skill-parity-scopes.json).
 
-- `workflowSkills` lists skills expected to exist in all three runtimes.
+- `financial-charts` uses [skills/shared-workflows.json](../skills/shared-workflows.json) for the investing/cross-vault workflow set.
+- `personal-vault` tracks repo-local communications workflows in `C:\Users\klein\obsidian\personal`.
+- Optional external scopes are skipped when their root checkout is absent, so CI-only checkouts do not fail on local vault paths.
+
+## Global Runner
+
+The global orchestration entrypoint is:
+
+```powershell
+C:\Users\klein\.agents\skill-parity\skill-parity.cmd check --all-scopes --strict --optional-openclaw
+```
+
+Its registry lives at `C:\Users\klein\.agents\skill-parity\registry.json` and points to scope manifests such as this repo's `skills/skill-parity-scopes.json`. Keep repo-owned skill lists in their repo manifests; the global runner only discovers and executes registered scopes.
 
 ## Rules
 
@@ -28,8 +40,14 @@ The source of truth is [skills/shared-workflows.json](../skills/shared-workflows
   python scripts\promote_shared_skill.py story --from openclaw
   python scripts\promote_shared_skill.py story --from claude
   ```
-- Then run `python scripts/check_skill_parity.py --strict`.
-- When adding or removing a shared workflow, update `skills/shared-workflows.json` first.
+- For a repo-scoped skill, select that scope:
+  ```powershell
+  python scripts\promote_shared_skill.py --scope personal-vault comms-sweep --from claude
+  python scripts\check_skill_parity.py --scope personal-vault --strict
+  ```
+- Then run `python scripts/check_skill_parity.py --all-scopes --strict`.
+- When adding or removing a financial-charts workflow, update `skills/shared-workflows.json` first.
+- When adding a new parity group or repo-local skill family, update `skills/skill-parity-scopes.json`.
 - For the normal repo check, run `npm run test:consistency`. It checks OpenClaw when the OpenClaw skills directory exists; in CI-only checkouts without OpenClaw, it still enforces Codex/Claude parity. The same command also runs focused note-compliance regressions and the live `--market-reaction-peer-sweep`.
 
 ## Local Hook Setup
