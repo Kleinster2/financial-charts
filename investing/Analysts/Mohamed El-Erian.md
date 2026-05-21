@@ -1,9 +1,9 @@
 ---
 aliases: [El-Erian]
 ---
-#actor #individual #macro #commentator
+#individual #macro #commentator
 
-**Mohamed El-Erian** — Chief Economic Advisor at Allianz, former CEO/co-CIO of PIMCO. Coined "New Normal" (2009). One of the most influential macro voices. Frequent Bloomberg/CNBC commentator.
+Mohamed El-Erian — Chief Economic Advisor at Allianz, former CEO/co-CIO of PIMCO. Coined "New Normal" (2009). One of the most influential macro voices. Frequent Bloomberg/CNBC commentator.
 
 ---
 
@@ -42,11 +42,11 @@ aliases: [El-Erian]
 | Partner | Bill Gross (co-founder) |
 | Exit | Jan 2014 — conflict with Gross |
 
-**Notable calls:**
+Notable calls:
 - Avoided [[Argentina]] 2001 default (made his reputation)
 - "New Normal" concept (Jan 2009) — predicted post-GFC low growth, low rates
 
-**Departure:** Widely reported as conflict with Gross over firm direction. Was seen as heir apparent.
+Departure: Widely reported as conflict with Gross over firm direction. Was seen as heir apparent.
 
 ---
 
@@ -67,7 +67,7 @@ Became standard framework for understanding 2010s economy.
 
 ## Current views (2026)
 
-**On [[Fed independence]] (Jan 2026):**
+On [[Fed independence]] (Jan 2026):
 
 | Point | El-Erian view |
 |-------|---------------|
@@ -76,12 +76,12 @@ Became standard framework for understanding 2010s economy.
 | Off-ramp | "Hard to find... I don't see it as yet" |
 | Market calm | New chair "will need time to impose their authority" |
 
-**On global positioning:**
+On global positioning:
 > "The rest of the world is overweight the U.S... The U.S. is perceived not as pristine but as the cleanest dirty shirt. If the U.S. starts eroding its standing in the global economy, then the rest of the world will look to reduce its overweight."
 
-**On gold:** Rising price indicates "at the margin, people are reducing their exposure to the U.S. dollar."
+On gold: Rising price indicates "at the margin, people are reducing their exposure to the U.S. dollar."
 
-**On [[Blue Owl OBDC II redemption gate]] (Feb 19, 2026):**
+On [[Blue Owl OBDC II redemption gate]] (Feb 19, 2026):
 
 Posted on X after Blue Owl permanently halted OBDC II redemptions. Direct quotes (via CNBCTV18, NYT):
 
@@ -121,7 +121,7 @@ Frequent commentator on:
 - CNBC
 - Financial Times (columnist)
 
-**Style:** Measured, academic, non-partisan. Known for nuanced "on the one hand / on the other hand" analysis.
+Style: Measured, academic, non-partisan. Known for nuanced "on the one hand / on the other hand" analysis.
 
 ---
 

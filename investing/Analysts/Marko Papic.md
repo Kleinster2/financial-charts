@@ -1,6 +1,6 @@
 ---
 aliases: [Papic]
-tags: [actor, person, analyst]
+tags: [person, analyst]
 ---
 
 # Marko Papic

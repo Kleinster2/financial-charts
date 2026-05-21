@@ -34,7 +34,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 
 - gh CLI: `gh` (on PATH)
 - SEC filings: `python scripts/parse_sec_filing.py TICKER` — run with `--help` for full usage
-- Obsidian CLI: `"/c/Users/klein/AppData/Local/Programs/Obsidian/Obsidian.com"` (requires Obsidian running). Key commands: `move`/`rename` (link-preserving), `search query=X`, `unresolved`, `backlinks file=X`, `--help` for full list.
+- Obsidian CLI: `"/c/Users/klein/AppData/Local/Programs/Obsidian/Obsidian.com"` (requires Obsidian running). Key commands: `move`/`rename` (link-preserving), `search query=X`, `unresolved`, `backlinks file=X`, `--help` for full list. When opening notes via `obsidian://open`, always open in a new tab / leaf (use `newleaf=true`).
 - YouTube: `python scripts/transcribe_youtube.py URL --save output.txt` (`--language pt` for Portuguese)
 - App: backend `charting_app/app.py` | dashboard `charting_sandbox/chart-dashboard.js` | tests `tests/`
 
@@ -45,6 +45,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 | Folder | Contents |
 |--------|----------|
 | `Actors/` | Companies, orgs, people, **countries** (not Regions). See `India.md` for hub template. |
+| `Analysts/` | Market analysts, strategists, commentators, and source-people whose frameworks or calls recur across notes. Use tags/role fields for strategist, analyst, economist, journalist, etc. |
 | `Products/` | Things made by Actors (chips, models, drugs). No agency — parent decides. Every Product requires a parent Actor note. Don’t merge companies into product notes even if the company is small, acquired, or subsidiary — the taxonomy doesn’t care about salience. See `[[Linking and hierarchy]]`. |
 | `Infrastructure/` | Fixed physical assets enabling trade/energy flows: straits, pipelines, terminals. |
 | `Assets/` | Securities notes — tradeable instruments, price history, charts. See `docs/vault-note-guide.md`. |
@@ -82,9 +83,13 @@ Full reference: `docs/chart-api.md` | Start server: `python charting_app/app.py`
 
 Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `normalize`, `primary` (actor = blue).
 
+**Axis scale:** Charts that are not about returns must use a linear y-axis. Use log scale only for normalized return/performance charts (`normalize=true`, default `log_y=true`) or an explicitly return/growth-rate interpretation. Raw rates, yields, spreads, macro levels, fundamentals, segments, and other level/unit charts must keep `log_y=false`.
+
 **Naming (CRITICAL):** `-vs-` format for comparisons (`aapl-vs-qqq-price-chart.png`). First ticker = blue (primary). Chart-refresh plugin parses tickers from filenames. Financial statements: `{ticker}-sankey.png`, `{ticker}-waterfall.png` (lowercase, no suffixes).
 
 **Practices:** Peer comparisons (2-4 tickers), no titles (legend suffices), italicized interpretation below, charts must live in notes with data tables, ETF benchmarks get normalized comparison vs benchmark.
+
+**Series coverage:** Every newly added database series must appear in at least one generated chart embedded in a vault note. Don't leave fresh price/macro series as DB-only or table-only artifacts; create or update the relevant chart in `investing/attachments/` and embed it where the series is discussed.
 
 ---
 

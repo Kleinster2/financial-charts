@@ -1,7 +1,7 @@
 ---
 aliases: []
 ---
-#actor #individual #macro #energy #analyst #usa
+#individual #macro #energy #analyst #usa
 
 **Luke Gromen** — Founder and President of [[FFTT|FFTT LLC]] ("Forest for the Trees"), a macro/thematic research firm (est. 2014). 25+ years in institutional equity research. Known for his energy-dollar-fiscal nexus framework, [[petrodollar]] decline thesis, and argument that [[U.S. fiscal deficit|fiscal dominance]] has supplanted monetary policy as the primary macro driver.
 

@@ -1,5 +1,5 @@
 ---
-tags: [actor, analyst, strategist, sell-side]
+tags: [analyst, strategist, sell-side]
 type: person
 ---
 

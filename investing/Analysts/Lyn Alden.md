@@ -1,5 +1,5 @@
 ---
-tags: [actor, analyst, macro, independent]
+tags: [analyst, macro, independent]
 type: person
 aliases: [Lyn Alden Schwartzer]
 ---

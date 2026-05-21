@@ -5,7 +5,7 @@ aliases: [Analyst Hub, Strategist Hub, Market Analysts]
 
 # Analysts and Strategists
 
-The vault's analyst bench — the voices that shape narratives, move markets, or provide frameworks worth tracking. Organized by what they cover, not where they sit.
+The vault's analyst bench — the voices that shape narratives, move markets, or provide frameworks worth tracking. Source-person notes live in `Analysts/`; this sector note is the cross-coverage hub. Organized by what they cover, not where they sit.
 
 ---
 

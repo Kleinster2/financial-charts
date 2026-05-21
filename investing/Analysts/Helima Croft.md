@@ -1,6 +1,6 @@
 ---
 aliases: [Croft, Dr Helima Croft]
-tags: [actor, person, energy, commodities, analyst]
+tags: [person, energy, commodities, analyst]
 ---
 
 # Helima Croft

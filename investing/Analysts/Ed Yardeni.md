@@ -1,10 +1,10 @@
 ---
 aliases: [Yardeni, Dr. Ed Yardeni, Edward Yardeni]
-tags: [actor, person, strategist, macro]
+tags: [person, strategist, macro]
 type: person
 ---
 
-**Ed Yardeni** — President of Yardeni Research. Veteran Wall Street strategist. Coined "Fed model" (1997) and "AI fatigue" (2026).
+Ed Yardeni — President of Yardeni Research. Veteran Wall Street strategist. Coined "Fed model" (1997) and "AI fatigue" (2026).
 
 ---
 
@@ -268,7 +268,7 @@ Yardeni stuck with his 10,000 [[S&P 500]] target by end-2029 — and added: *"It
 
 | Firm | 2026 year-end target | Stance |
 |---|---|---|
-| Yardeni Research | **8,250** | Most bullish on the Street |
+| Yardeni Research | 8,250 | Most bullish on the Street |
 | RBC | 7,800 | Recently raised |
 | HSBC | 7,500 | Recently raised |
 | Morgan Stanley ([[Mike Wilson]]) | ~7,800 (H2-weighted) | Bullish |

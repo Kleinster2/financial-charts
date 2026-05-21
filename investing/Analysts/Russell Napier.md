@@ -1,7 +1,7 @@
 ---
 aliases: []
 ---
-#actor #individual #macro #financialhistory #analyst #uk #scotland
+#individual #macro #financialhistory #analyst #uk #scotland
 
 **Russell Napier** — Financial historian, author of "The Solid Ground" investment report, and co-founder of [[ERIC]] (Electronic Research Interchange). Keeper of the [[Library of Mistakes]] in Edinburgh. 30+ years advising global institutional investors on asset allocation. Known for his [[financial repression]] thesis, capital controls framework, and deep study of [[bear market]] anatomy. Author of *Anatomy of the Bear* (2005).
 

@@ -1,5 +1,5 @@
 ---
-tags: [actor, analyst, tech, independent]
+tags: [analyst, tech, independent]
 type: person
 ---
 

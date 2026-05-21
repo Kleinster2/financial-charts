@@ -1,9 +1,9 @@
 ---
 aliases: [Rasgon]
 ---
-#actor #analyst #semiconductors
+#analyst #semiconductors
 
-**Stacy Rasgon** — Bernstein's semiconductor analyst. PhD in plasma etch, built actual chip equipment before covering stocks. The "grown-up in the room" for semi analysis — rigorous, data-driven, not a hype machine.
+Stacy Rasgon — Bernstein's semiconductor analyst. PhD in plasma etch, built actual chip equipment before covering stocks. The "grown-up in the room" for semi analysis — rigorous, data-driven, not a hype machine.
 
 ---
 
@@ -28,7 +28,7 @@ aliases: [Rasgon]
 | Prior | McKinsey (semi consulting), [[IBM]] T.J. Watson (lithography) |
 | Education | PhD (plasma etch / semiconductor manufacturing) |
 
-**Unique background:** Actually built plasma etchers before analyzing the companies that make them. PhD thesis on etch transfers and sidewall roughness.
+Unique background: Actually built plasma etchers before analyzing the companies that make them. PhD thesis on etch transfers and sidewall roughness.
 
 ---
 
@@ -40,7 +40,7 @@ aliases: [Rasgon]
 | Avg return | 27.8% per transaction |
 | Best call | NVIDIA +256% (Mar 2023 - Mar 2024) |
 
-**Style:** Measured, technical, doesn't chase hype. When Rasgon turns bullish, it means something — see AMD flip after 10 years bearish.
+Style: Measured, technical, doesn't chase hype. When Rasgon turns bullish, it means something — see AMD flip after 10 years bearish.
 
 ---
 
@@ -52,7 +52,7 @@ aliases: [Rasgon]
 | [[AMD]] | Market Perform | $140 |
 | [[Intel]] | Coverage |
 
-**AMD upgrade (2025):** After 10 years bearish, called valuation "downright attractive, execution stellar, earnings power bankable."
+AMD upgrade (2025): After 10 years bearish, called valuation "downright attractive, execution stellar, earnings power bankable."
 
 ---
 
@@ -81,4 +81,3 @@ On NVIDIA roadmap: Product cadence evolving, Blackwell transition.
 - [[AMD]] — recent upgrade after decade bearish
 - [[Intel]] — turnaround skeptic
 - [[Semiconductors]] — sector hub
-

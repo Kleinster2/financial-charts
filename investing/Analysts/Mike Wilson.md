@@ -1,7 +1,7 @@
 ---
 aliases: [Michael Wilson]
 podcast: Thoughts on the Market
-tags: [actor, person, analyst, strategist, sell-side, podcast_host]
+tags: [person, analyst, strategist, sell-side, podcast_host]
 type: person
 ---
 

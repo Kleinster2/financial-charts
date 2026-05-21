@@ -1,7 +1,7 @@
 ---
 aliases: [James Bianco]
 ---
-#actor #individual #macro #rates #credit #analyst #usa
+#individual #macro #rates #credit #analyst #usa
 
 **Jim Bianco** — Founder and President of [[Bianco Research]] (est. 1998). One of the most respected independent macro/rates strategists on [[Wall Street]]. Known for contrarian bond market calls, early and persistent inflation warnings in 2021-22, and deep expertise in [[fixed income]] markets. CMT designation holder.
 

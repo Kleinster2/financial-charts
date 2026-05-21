@@ -1,9 +1,9 @@
 ---
 aliases: [Kuo]
 ---
-#actor #analyst #apple #supplychainresearch
+#analyst #apple #supplychainresearch
 
-**Ming-Chi Kuo** — TF International Securities analyst, the "Apple supply chain oracle." Best-in-class source for unreleased Apple product details via Asian supply chain contacts.
+Ming-Chi Kuo — TF International Securities analyst, the "Apple supply chain oracle." Best-in-class source for unreleased Apple product details via Asian supply chain contacts.
 
 ---
 
@@ -27,7 +27,7 @@ aliases: [Kuo]
 | Prior firms | KGI Securities, Concord Securities, DigiTimes |
 | [[Media]] presence | Active on X/Twitter (blurs leaks vs speculation) |
 
-**Method:** Gathers intelligence from Apple's Asian supply chain contacts, translates into research notes. Shuns spotlight, doesn't do interviews.
+Method: Gathers intelligence from Apple's Asian supply chain contacts, translates into research notes. Shuns spotlight, doesn't do interviews.
 
 ---
 
@@ -38,7 +38,7 @@ aliases: [Kuo]
 | AppleTrack | 72.5% |
 | AppleScoop | 80.95% |
 
-**Notable correct calls:**
+Notable correct calls:
 - White iPhone 4 delay (2011) — started his streak
 - MacBook Pro Retina display (2012)
 - Touch ID / iPhone 5s details (2013)
@@ -46,7 +46,7 @@ aliases: [Kuo]
 - Apple Watch Ultra rugged design
 - iPhone 14 Pro 48MP camera
 
-**Caveats:** Twitter activity since 2022 has mixed actual supply chain intel with speculation. Research notes from TF International more reliable than social posts.
+Caveats: Twitter activity since 2022 has mixed actual supply chain intel with speculation. Research notes from TF International more reliable than social posts.
 
 ---
 
@@ -64,4 +64,3 @@ Primarily Apple and Apple suppliers:
 - [[Apple]] — primary coverage
 - [[TSMC]] — Apple chip supplier he tracks
 - [[Foxconn]] — assembly partner intel
-

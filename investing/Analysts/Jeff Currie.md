@@ -1,7 +1,7 @@
 ---
 aliases: [Currie, Jeffrey Currie]
 ---
-#actor #analyst #commodities #supercycle
+#analyst #commodities #supercycle
 
 **Jeff Currie** — Chief Strategy Officer, Energy Pathways at [[Carlyle]]. Former Global Head of Commodities Research at [[Goldman Sachs]] (1996-2023). The most prominent supercycle bull on Wall Street. Called the 2000s commodity boom, the shale "lower for longer" period, and the current metals supercycle starting late 2020.
 

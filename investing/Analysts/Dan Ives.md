@@ -1,9 +1,9 @@
 ---
 aliases: [Daniel Ives]
 ---
-#actor #analyst #tech #ai
+#analyst #tech #ai
 
-**Dan Ives** — Wedbush Securities Managing Director, perma-bull tech analyst. Ubiquitous media presence, "AI is the biggest tech theme we've ever seen." Has his own AI ETF (IVES).
+Dan Ives — Wedbush Securities Managing Director, perma-bull tech analyst. Ubiquitous media presence, "AI is the biggest tech theme we've ever seen." Has his own AI ETF (IVES).
 
 ---
 
@@ -39,9 +39,9 @@ aliases: [Daniel Ives]
 | Coverage | 110 stocks |
 | PT hit rate | 64% within 237 days |
 
-**Best call:** Palantir — initiated July 2023 at $16.15 with $25 PT, called it "the Messi of AI." Stock hit ~$180 by late 2025 (+523%).
+Best call: Palantir — initiated July 2023 at $16.15 with $25 PT, called it "the Messi of AI." Stock hit ~$180 by late 2025 (+523%).
 
-**Style:** Aggressive price targets, memorable soundbites ("Fourth Industrial Revolution"), willing to be early and loud.
+Style: Aggressive price targets, memorable soundbites ("Fourth Industrial Revolution"), willing to be early and loud.
 
 ---
 
@@ -58,7 +58,7 @@ aliases: [Daniel Ives]
 
 ## The IVES ETF
 
-**Wedbush AI Revolution ETF (IVES)** — launched 2024:
+Wedbush AI Revolution ETF (IVES) — launched 2024:
 - 30 US tech companies selected by Ives team
 - AI exposure focus
 - Actively managed based on his research
@@ -71,4 +71,3 @@ aliases: [Daniel Ives]
 - [[Palantir]] — signature bull call
 - [[NVIDIA]] — AI infrastructure coverage
 - [[Hyperscaler capex]] — AI buildout thesis
-

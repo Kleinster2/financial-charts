@@ -1,7 +1,7 @@
 ---
 aliases: [Rosie]
 ---
-#actor #individual #macro #economist #analyst #canada
+#individual #macro #economist #analyst #canada
 
 **David Rosenberg** — Founder and President of [[Rosenberg Research]] (est. 2020). Former Chief North American Economist at [[Merrill Lynch]] (2002-2009) and Chief Economist at [[Gluskin Sheff]] (2009-2019). Consistently ranked in [[Institutional Investor]] All-Star analyst rankings. Known as a perma-bear, famous for calling the 2008 [[housing]] crisis early. Publishes "Breakfast with Dave" daily newsletter.
 

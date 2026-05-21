@@ -1,7 +1,7 @@
 ---
 aliases: [Kaneva]
 ---
-#actor #analyst #commodities
+#analyst #commodities
 
 **Natasha Kaneva** — Global Head of Commodities Research at [[JPMorgan]]. One of the most cited commodity forecasters on Wall Street.
 

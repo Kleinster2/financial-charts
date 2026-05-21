@@ -1,6 +1,6 @@
 # Analyst Watchlist
 
-8 tracked analysts scanned by `/daily-scan`. When they publish new commentary, ingest their quotes, data points, and price calls into both their actor note and the relevant concept/event notes — not just the analyst note.
+8 tracked analysts scanned by `/daily-scan`. When they publish new commentary, ingest their quotes, data points, and price calls into both their `Analysts/` note and the relevant concept/event notes — not just the source-person note.
 
 ## Watchlist
 
@@ -18,7 +18,7 @@
 ## Scan discipline
 
 1. Search the pattern for appearances in the last 48 hours: CNBC, Bloomberg, FT, research notes, interviews.
-2. Check against the actor note to see if the commentary is already captured.
+2. Check against the `Analysts/` note to see if the commentary is already captured.
 3. If new, surface in the morning briefing's "Analyst signals" section.
 4. Full ingestion (quotes into concept/event notes, not just the analyst note) happens via `/ingest URL` — the morning scan surfaces; `/ingest` writes.
 

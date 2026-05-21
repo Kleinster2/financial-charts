@@ -1,7 +1,7 @@
 ---
 aliases: [Damodaran, Dean of Valuation]
 ---
-#actor #academic #valuation #finance #usa
+#academic #valuation #finance #usa
 
 **Aswath Damodaran** — Professor of Finance at [[NYU Stern School of Business]]. Known as the "Dean of Valuation." Publishes public valuations of companies, freely shares all data and models. Author of definitive textbooks on [[valuation]], [[corporate finance]], and investment. Voted Professor of the Year nine times by NYU MBA students.
 

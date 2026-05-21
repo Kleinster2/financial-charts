@@ -1,9 +1,9 @@
 ---
 aliases: [Mosesmann]
 ---
-#actor #analyst #semiconductors
+#analyst #semiconductors
 
-**Hans Mosesmann** — Rosenblatt Securities semiconductor analyst. Street's most aggressive NVIDIA bull — first to $1,000+ pre-split PT. "AI is the real deal, an everything cycle never seen before."
+Hans Mosesmann — Rosenblatt Securities semiconductor analyst. Street's most aggressive NVIDIA bull — first to $1,000+ pre-split PT. "AI is the real deal, an everything cycle never seen before."
 
 ---
 
@@ -37,7 +37,7 @@ aliases: [Mosesmann]
 | PT hit rate | 67% |
 | Analyst rank | \#35 / 5,097 |
 
-**Style:** Aggressive, conviction-driven. Willing to have Street-high price targets and defend them on CNBC.
+Style: Aggressive, conviction-driven. Willing to have Street-high price targets and defend them on CNBC.
 
 ---
 
@@ -56,9 +56,9 @@ aliases: [Mosesmann]
 
 ## Investment thesis
 
-**Hardware + software:** "The real narrative lies in the software that complements all the hardware goodness."
+Hardware + software: "The real narrative lies in the software that complements all the hardware goodness."
 
-**Key points:**
+Key points:
 - NVIDIA software business underappreciated (CUDA ecosystem, enterprise AI)
 - Blackwell Ultra easy upgrade path from Blackwell — seamless production ramp
 - AI is "an everything cycle that's never been seen before"
@@ -84,4 +84,3 @@ aliases: [Mosesmann]
 - [[NVIDIA]] — signature coverage
 - [[Stacy Rasgon]] — Bernstein semi analyst (peer)
 - [[Semiconductors]] — sector hub
-

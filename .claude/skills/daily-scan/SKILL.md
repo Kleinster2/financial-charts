@@ -56,7 +56,7 @@ Don't fold the calendar into the vault as a standalone note — earnings calenda
 Scan the 8 tracked analysts in `docs/analyst-watchlist.md`. For each:
 1. One WebSearch with the watchlist's search pattern, scoped to the last 48 hours.
 2. Only flag if they published something new.
-3. Check against the analyst's actor note to see if commentary is already captured.
+3. Check against the analyst's `Analysts/` note to see if commentary is already captured.
 4. Surface new material in the briefing's "Analyst signals" section.
 
 Deep ingestion (quotes and data points into both the analyst note and the relevant concept/event notes) happens via `/ingest URL` — this phase only surfaces what's new.
