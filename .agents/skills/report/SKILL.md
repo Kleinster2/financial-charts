@@ -1,21 +1,21 @@
 ---
 name: report
-description: "Cross-vault topic synthesis. Reads existing notes across investing + sibling vaults (geopolitics, Brazil, history, technologies) and writes a 400-800 word narrative brief saved to investing/Reports/. Read-only — never modifies entity notes. Use when the user asks to brief them on a topic, says /report TOPIC, or wants a pointed read on something already in the vault. NOT for new research (use /deepdive) or daily wrap-ups (use /newsletter)."
+description: "Cross-vault topic synthesis. Reads existing notes across investing + sibling vaults (geopolitics, Brazil, history, technologies) and writes a 400-800 word narrative brief saved to investing/Reports/. Default is read-mostly and never modifies entity notes; optional --deepdive runs a bounded pre-report deepdive to create/expand weak anchor notes before synthesis. Use when the user asks to brief them on a topic, says /report TOPIC, wants a pointed read on something already in the vault, or asks for a report with a deepdive/research component. NOT for daily wrap-ups (use /newsletter)."
 ---
 
 # /report — Cross-Vault Topic Synthesis
 
-Read-only synthesis skill. Pulls existing notes across all vaults that have content on a topic and produces a narrative brief. Never edits entity notes; only writes the report itself.
+Default read-mostly synthesis skill. Pulls existing notes across all vaults that have content on a topic and produces a narrative brief. In normal mode, never edits entity notes; only writes the report itself plus the daily-note log line. With `--deepdive`, first run a bounded deepdive component to create or expand weak anchor notes, then synthesize from the improved vault state.
 
-Usage: `/report <topic> [--lens neutral|allocator|contrarian|what-changed] [--since YYYY-MM-DD] [--full]`
+Usage: `/report <topic> [--lens neutral|allocator|contrarian|what-changed] [--since YYYY-MM-DD] [--full] [--force] [--deepdive]`
 
 ## What this skill is NOT
 
-- Not `/deepdive` — no web research, no SEC filings, no DB lookups, no chart generation. If primary note is missing, stop and suggest `/deepdive`.
+- Not `/deepdive` by default — no note expansion, no SEC filings, no DB lookups, no chart generation. Default reports may use a cold framing search for the report body, but they do not write fresh research back into entity notes. If the primary note is missing or a stub, stop and suggest `/deepdive` unless `--deepdive` is set.
 - Not `/newsletter` — that's today's short daily wrap.
 - Not `/story` — that's the exhaustive "what is the story" map for everything touched in one daily note.
 - Not `/ingest` — that processes a single source. This synthesizes existing vault content.
-- Not a note expansion — never touches the entity notes it reads. Only writes to `investing/Reports/`.
+- Not a note expansion unless `--deepdive` is explicit. Normal mode never touches the entity notes it reads. `--deepdive` may edit source notes under the full `/deepdive` gates.
 
 ## Hard rules
 
@@ -23,6 +23,7 @@ Usage: `/report <topic> [--lens neutral|allocator|contrarian|what-changed] [--si
 - `[[wikilinks]]` preserved in body — reports are printable per CLAUDE.md printing rule.
 - No bold in body. Headers only. Same voice rules as `/newsletter`.
 - All four sibling vaults (geopolitics, Brazil, history, technologies) consulted on every run; report integrates whatever they have.
+- Default mode writes only the report and the daily-note report line. `--deepdive` may also write entity/concept notes, stubs, charts, DB rows, and daily-note edit-log entries exactly as `/deepdive` requires.
 - Reports are disposable. Re-run anytime; old reports are not load-bearing.
 
 ---
@@ -50,11 +51,36 @@ Usage: `/report <topic> [--lens neutral|allocator|contrarian|what-changed] [--si
    - **Exact match** → use that note as primary. (Comparison reports require exact match on both anchors.)
    - **Multiple candidates** → ask user to pick.
    - **No match in investing** → check sibling vaults (`grep -r` on `~/obsidian/{geopolitics,brazil,history,technologies}/`). If found in a sibling, ask user: "Primary note is in `<sibling>` vault. Generate report from that lens?"
-   - **No match anywhere** → stop, tell user, suggest `/deepdive`.
+   - **No match anywhere** → if `--deepdive`, run Phase 0.5 to create the anchor note, then continue. Otherwise stop, tell user, suggest `/deepdive`.
 
 5. **Stub gate** — count substantive lines in primary note (exclude frontmatter, Quick stats, Related). If under 30 lines:
-   - Stop. Output: "`<Topic>` is a stub (N lines of substance). Run `/deepdive <Topic>` first, or re-run with `--force` to synthesize what's there."
-   - For comparison reports, apply the stub gate to both anchors; if either is a stub, stop.
+   - If `--deepdive`, run Phase 0.5 to expand the weak anchor(s), then re-check the stub gate.
+   - If no `--deepdive`, stop. Output: "`<Topic>` is a stub (N lines of substance). Run `/deepdive <Topic>` first, re-run `/report <Topic> --deepdive`, or re-run with `--force` to synthesize what's there."
+   - For comparison reports, apply the stub gate to both anchors; if either is a stub, use the same branch.
+
+---
+
+## Phase 0.5 — Optional deepdive component (`--deepdive` only)
+
+Run this phase only when the flag is explicit or the user clearly asks for "a report with deepdive/research first." Do not infer it from a broad topic or from normal curiosity.
+
+Purpose: make the report synthesize from a vault state that is good enough to trust. This is a pre-report research pass, not a separate final deliverable.
+
+1. **Scope the anchors** — for single-topic reports, deepdive the resolved primary anchor. For comparison reports, deepdive both anchors that are missing, stubby, or stale enough to distort the comparison. For comma-separated sequential reports, run this phase separately per topic.
+
+2. **Follow `/deepdive` gates for source-note edits** — use `.claude/skills/deepdive/SKILL.md` as the controlling procedure for the entity type:
+   - `check_before_create.py` before any new note.
+   - Vault-search first, then web/source research.
+   - SEC filings, DB setup, price freshness, chart generation, and price verification for public companies.
+   - Funding-round and valuation work for private companies.
+   - Concept structure for concepts; no actor template leakage.
+   - Actor-note compliance checks, daily-note edit logging, stale-reference scan, concept extraction, and cross-vault gate.
+
+3. **Keep it bounded** — the deepdive component must make the reportable anchor(s) substantive, not recursively repair the whole vault. Create or expand first-order notes only when a missing/stub entity is essential to the report's central argument. Default cap: primary anchor(s) plus up to 3 essential first-order supporting notes. Put the rest in the report's `## Gaps`.
+
+4. **Respect DB and chart hard gates** — never DELETE or UPDATE DB rows without explicit authorization. Never overwrite existing chart files or remove chart embeds without asking. Verify chart file sizes before embedding.
+
+5. **Resume `/report` from the improved state** — after the deepdive component, re-run Phase 0 resolution and stub checks, then continue into Phase 1. Include newly created/expanded notes in `sources_read`; set `deepdive: true` in report frontmatter.
 
 ---
 
@@ -75,7 +101,7 @@ Read in this order, capping at ~15 notes total to keep the synthesis tractable:
    "/c/Users/klein/AppData/Local/Programs/Obsidian/Obsidian.com" vault=investing backlinks file="<primary-note>"
    ```
    Rank by mention count × section depth. Use top 5 for context. Show all under "Other vault references" footer.
-6. **Cold research pass (mandatory)** — before Phase 2, run WebSearch on the concept itself, not on whatever was most recently ingested. Use domain-independent queries ("X market structure 2026 analyst consensus," "X regulatory framework 2026 academic," "X structural analysis CSIS/IEA/Wood Mackenzie"). Pull authoritative framings from agencies, academic work, law-firm annual reviews, and research houses. The gate applies to framing writes (new concept notes, `## Synthesis` sections, and critically **retitled or rewritten sections in existing notes** — framing-shift, not just new-note creation). See `docs/research-workflow.md#cold-research-pass` for the full discipline, failure modes, scope, and the test question. **Skipping this step is the single largest source of bias in report output.**
+6. **Cold research pass (mandatory)** — before Phase 2, run WebSearch on the concept itself, not on whatever was most recently ingested. Use domain-independent queries ("X market structure 2026 analyst consensus," "X regulatory framework 2026 academic," "X structural analysis CSIS/IEA/Wood Mackenzie"). Pull authoritative framings from agencies, academic work, law-firm annual reviews, and research houses. In default mode, use this only to calibrate the report body and Gaps; do not edit source notes. With `--deepdive`, merge this discipline into the Phase 0.5 source-note work as needed. See `docs/research-workflow.md#cold-research-pass` for the full discipline, failure modes, scope, and the test question. **Skipping this step is the single largest source of bias in report output.**
 
 If `--since YYYY-MM-DD` is set, use `git log --since="YYYY-MM-DD" -- <note-path>` to identify what's been added; bias the gather to those edits.
 
@@ -164,6 +190,7 @@ name: <Topic>
 type: report
 topic: "[[<Primary Note>]]"
 lens: <neutral|allocator|contrarian|what-changed>
+deepdive: <true|false>
 generated: YYYY-MM-DD HH:MM
 sources_read: N
 tags: [report]
@@ -207,8 +234,10 @@ Inline `[[wikilinks]]` to entities. Inline `[History: X](obsidian://...)` to cro
    ```markdown
    ## Reports
 
-   - 14:23 — `/report <Topic>` → `[[YYYY-MM-DD-<topic-slug>]]` (lens: <flag>, N sources)
+   - 14:23 — `/report <Topic>` → `[[YYYY-MM-DD-<topic-slug>]]` (lens: <flag>, N sources, deepdive: <yes|no>)
    ```
+
+   If `--deepdive` edited or created notes, also ensure the `/deepdive`-style `## Notes created/expanded` and `## Edit log` entries exist for those source-note edits.
 
 2. **Echo the report body to chat** so the user reads it without opening the file. Mention the saved path in one line at the end:
    > Saved to `investing/Reports/YYYY-MM-DD-<topic-slug>.md`. Disposable — re-run anytime.
@@ -218,7 +247,7 @@ Inline `[[wikilinks]]` to entities. Inline `[History: X](obsidian://...)` to cro
 ## Reports/ folder hygiene
 
 - `investing/Reports/` is the canonical location.
-- Reports carry `tags: [report]` and `type: report` so they can be filtered out of compliance scans, vault-of-record gates, and cross-vault gates (none of those apply to disposable synthesis).
+- Reports carry `tags: [report]` and `type: report` so they can be filtered out of compliance scans, vault-of-record gates, and cross-vault gates (none of those apply to disposable synthesis). Source notes edited by `--deepdive` still require their normal compliance gates.
 - Reports are NOT entity notes — `check_note_compliance.py` should not run against them. If a hook trips on a report, exclude `investing/Reports/` in the hook config.
 - Old reports stay on disk indefinitely. The user manually clears `investing/Reports/` when it gets noisy. No auto-expiry.
 
@@ -229,5 +258,6 @@ Inline `[[wikilinks]]` to entities. Inline `[History: X](obsidian://...)` to cro
 - **Re-stating the primary note.** If the report could be generated by reading just the primary note alone, the cross-vault gather added nothing. Re-do the synthesis or surface the actual cross-vault tension.
 - **Vault-by-vault sections.** "Investing perspective:", "History perspective:" is concatenation, not synthesis. Weave them inline.
 - **Editorial framing.** "This is bullish for X" is wrong. "The setup that would make X bullish requires Y; today Y is at Z" is right.
-- **Touching entity notes.** This skill is read-only on the rest of the vault. The only file this skill writes is the report itself plus the daily note line.
+- **Stealth deepdive.** Never edit source notes unless `--deepdive` is explicit. Normal `/report` writes only the report itself plus the daily-note report line.
+- **Runaway deepdive.** `--deepdive` prepares the anchor(s) for a better report; it does not chase every gap recursively. Essential first-order support only, then surface the rest.
 - **Dropping wikilinks.** `[[NVIDIA]]` stays as `[[NVIDIA]]` in the output, never collapsed to "NVIDIA" or "Nvidia". CLAUDE.md printing rule applies.
