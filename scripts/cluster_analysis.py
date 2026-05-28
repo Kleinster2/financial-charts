@@ -110,7 +110,9 @@ def load_returns(universe: dict, window_start: str, window_end: str) -> pd.DataF
     placeholders = ",".join("?" for _ in tickers)
     sql = (
         "SELECT Date, Ticker, Close FROM prices_long "
-        f"WHERE Ticker IN ({placeholders}) AND Date >= ? AND Date <= ? ORDER BY Date"
+        f"WHERE Ticker IN ({placeholders}) "
+        "AND date(Date) >= date(?) AND date(Date) <= date(?) "
+        "ORDER BY Date"
     )
     with sqlite3.connect(DB) as conn:
         df = pd.read_sql(sql, conn, params=tickers + [window_start, window_end])

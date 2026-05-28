@@ -1,0 +1,67 @@
+Global luxury candidate basket CLUSTER ANALYSIS
+Window 1y: 2025-05-30 -> 2026-05-27 (134 obs)
+Window 2y: 2024-07-15 -> 2026-05-27 (185 obs)
+Universe: 21 tickers across 4 groups
+Dendrogram cut threshold: 0.4
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker   MC.PA  RMS.PA  KER.PA  CFR.SW  1913.HK  MONC.MI  BRBY.L  BC.MI   ZGN
+Ticker
+MC.PA     1.00    0.69    0.64    0.74     0.31     0.65    0.60   0.53  0.46
+RMS.PA    0.69    1.00    0.71    0.72     0.28     0.61    0.58   0.51  0.40
+KER.PA    0.64    0.71    1.00    0.69     0.25     0.56    0.59   0.43  0.44
+CFR.SW    0.74    0.72    0.69    1.00     0.31     0.63    0.65   0.59  0.53
+1913.HK   0.31    0.28    0.25    0.31     1.00     0.38    0.29   0.24  0.23
+MONC.MI   0.65    0.61    0.56    0.63     0.38     1.00    0.53   0.55  0.35
+BRBY.L    0.60    0.58    0.59    0.65     0.29     0.53    1.00   0.46  0.47
+BC.MI     0.53    0.51    0.43    0.59     0.24     0.55    0.46   1.00  0.42
+ZGN       0.46    0.40    0.44    0.53     0.23     0.35    0.47   0.42  1.00
+Average intra-cluster correlation: 0.501
+Range: [0.226, 0.739]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  beauty_  luxury_  broad_m
+    cluster    0.501    0.302    0.307    0.353
+beauty_eyew    0.302    0.189    0.226    0.280
+luxury_auto    0.307    0.226    0.258    0.375
+broad_marke    0.353    0.280    0.375    0.745
+
+Cluster vs others:
+  cluster vs beauty_eyewear_adjacent: 0.302  (intra advantage: +0.199)
+  cluster vs luxury_auto_premium: 0.307  (intra advantage: +0.194)
+  cluster vs broad_market: 0.353  (intra advantage: +0.147)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.4) ---
+  Cluster 1: 1913.HK
+  Cluster 2: BOSS.DE
+  Cluster 3: MC.PA, RMS.PA, KER.PA, CFR.SW, MONC.MI
+  Cluster 4: BRBY.L
+  Cluster 5: BC.MI
+  Cluster 6: OR.PA
+  Cluster 7: EL.PA
+  Cluster 8: EL
+  Cluster 9: GOOS
+  Cluster 10: SPY, XLY, VGK, EWQ
+  Cluster 11: RL
+  Cluster 12: ZGN
+  Cluster 13: RACE
+  Cluster 14: PUIG.MC
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 56.22%
+  PC2: 9.50%
+  PC3: 7.95%
+  PC4: 7.36%
+  PC5: 4.76%
+
+PC1 loadings:
+MC.PA      0.370
+RMS.PA     0.361
+KER.PA     0.358
+CFR.SW     0.386
+1913.HK    0.201
+MONC.MI    0.355
+BRBY.L     0.347
+BC.MI      0.298
+ZGN        0.284

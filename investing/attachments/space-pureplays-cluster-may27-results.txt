@@ -1,0 +1,52 @@
+Space pure-plays CLUSTER ANALYSIS
+Window 1y: 2025-05-30 -> 2026-05-27 (185 obs)
+Window 2y: 2024-07-15 -> 2026-05-27 (241 obs)
+Universe: 15 tickers across 4 groups
+Dendrogram cut threshold: 0.5
+
+--- 1Y INTRA-CLUSTER PAIRWISE CORRELATIONS ---
+Ticker  RKLB   RDW  LUNR  BKSY  ASTS  SPIR    PL
+Ticker
+RKLB    1.00  0.69  0.75  0.72  0.73  0.54  0.62
+RDW     0.69  1.00  0.60  0.62  0.71  0.54  0.52
+LUNR    0.75  0.60  1.00  0.66  0.67  0.56  0.59
+BKSY    0.72  0.62  0.66  1.00  0.66  0.61  0.64
+ASTS    0.73  0.71  0.67  0.66  1.00  0.57  0.55
+SPIR    0.54  0.54  0.56  0.61  0.57  1.00  0.56
+PL      0.62  0.52  0.59  0.64  0.55  0.56  1.00
+Average intra-cluster correlation: 0.625
+Range: [0.521, 0.748]
+
+--- AVG GROUP-PAIR CORRELATIONS (1Y) ---
+             cluster  defense  small_c      etf
+    cluster    0.625    0.261    0.496    0.481
+defense_pri    0.261    0.610    0.236    0.447
+  small_cap    0.496    0.236      nan    0.742
+        etf    0.481    0.447    0.742    0.740
+
+Cluster vs others:
+  cluster vs defense_primes: 0.261  (intra advantage: +0.365)
+  cluster vs small_cap : 0.496  (intra advantage: +0.129)
+  cluster vs etf       : 0.481  (intra advantage: +0.144)
+
+--- HIERARCHICAL CLUSTERS (1Y, distance threshold 0.5) ---
+  Cluster 1: LMT, RTX, NOC, LHX, ITA, XAR
+  Cluster 2: IWM, SPY
+  Cluster 3: RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL
+
+--- PCA ON CANDIDATE COHORT (1Y) ---
+Explained variance ratio:
+  PC1: 68.04%
+  PC2: 8.15%
+  PC3: 6.88%
+  PC4: 5.42%
+  PC5: 4.54%
+
+PC1 loadings:
+RKLB    0.404
+RDW     0.373
+LUNR    0.385
+BKSY    0.391
+ASTS    0.391
+SPIR    0.345
+PL      0.355

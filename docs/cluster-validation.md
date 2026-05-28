@@ -523,7 +523,8 @@ When you create or expand a public-company actor note:
 9. Iterate the candidate list if the math says the boundary is wrong.
 10. Embed the dendrogram + summary table in the actor or concept note. Include p-values in the status callout when available.
 11. Log the validation in today's daily note: "validated [[Cluster name]] cohort (intra-corr X.XX, PC1 XX.X%, random-basket p X.XXX)".
-12. Quarterly: run `python scripts/cluster_registry.py correction` to check FDR-corrected status across all logged cohorts.
+12. After any exploratory cluster screen, append a row to [[Vault cluster taxonomy#Ongoing exploration log]], even when the hypothesis is falsified.
+13. Quarterly: run `python scripts/cluster_registry.py correction` to check FDR-corrected status across all logged cohorts.
 
 If steps 5-6 cannot reach a defensible cluster, the conclusion is "this actor is a sector orphan" — that is itself a valid finding (matches the existing `> [!warning] Sector Orphan` callout used by `add_sector_correlations.py`). Note it in the actor.
 

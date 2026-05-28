@@ -1,0 +1,24 @@
+# Global luxury candidate basket — tests whether listed luxury houses form one
+# correlation cluster after adding the missing primary listings.
+# Result expected to be boundary-testing rather than assumed-valid: the
+# France/Switzerland/Italy luxury core is likely tighter than the full global set.
+
+name: Global luxury candidate basket
+primary: MC.PA
+prefix: global-luxury-cluster
+threshold: 0.4
+window_end: 2026-05-27
+
+groups:
+  cluster:
+    color: "#2962FF"
+    tickers: [MC.PA, RMS.PA, KER.PA, CFR.SW, 1913.HK, MONC.MI, BRBY.L, BC.MI, ZGN]
+  beauty_eyewear_adjacent:
+    color: "#7E57C2"
+    tickers: [EL.PA, PUIG.MC, OR.PA, EL]
+  luxury_auto_premium:
+    color: "#EF6C00"
+    tickers: [RACE, RL, BOSS.DE, GOOS]
+  broad_market:
+    color: "#9E9E9E"
+    tickers: [SPY, XLY, VGK, EWQ]

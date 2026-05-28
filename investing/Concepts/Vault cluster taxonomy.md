@@ -29,6 +29,19 @@ All 8+ cohorts run with matched methodology except Boutique advisory (older numb
 
 ---
 
+## Ongoing exploration log
+
+This section records boundary tests, candidate screens, and falsified cluster hypotheses that are too important to leave only in daily notes but are not yet part of the matched cross-cohort comparison table. Durable diagnostics still live in the cohort-owning note; this log tracks what was tested, what changed, and where the evidence lives.
+
+| Date | Exploration | Status | Finding | Canonical evidence |
+|---|---|---|---|---|
+| 2026-05-27 | [[Space pure-plays]] post-SpaceX-IPO-hype refresh | Existing cluster held | Refreshed `prices_long` through 2026-05-27 and fixed date filtering in `scripts/cluster_analysis.py`; the seven-name cohort still clustered together at the 0.5 threshold with 1Y intra-correlation 0.625 and PC1 68.0%. `VOYG` is the best watch-list addition candidate, `KTOS` remains a defense-tech boundary case, and `DXYZ` is an event co-mover rather than structural member. | [[Space pure-plays]]; `scripts/cluster_configs/rklb.yaml`; `space-pureplays-cluster-may27-*` diagnostics |
+| 2026-05-28 | [[Luxury]] / global luxury basket retest | Validated narrower core; broad basket falsified | Broad "global luxury" is a useful industry basket, not one clean correlation cluster. Strict European core = `MC.PA`, `RMS.PA`, `KER.PA`, `CFR.SW`, `MONC.MI` with 1Y avg correlation 0.664 and PC1 73.3%; loose core adds `BRBY.L` and `BC.MI`. `1913.HK` and `ZGN` remain outside the validated core. | [[Luxury]]; `scripts/cluster_configs/luxury_global.yaml`; `global-luxury-cluster-*` diagnostics |
+| 2026-05-28 | [[Prada]]/[[Zegna]] fashion-cluster hypothesis | Falsified | `1913.HK` / `ZGN` pair correlation was only 0.175 over 1Y and 0.151 over 2Y; the wider fashion/premium set had only 0.288 1Y avg correlation and 39.1% PC1. [[Burberry]] and [[Brunello Cucinelli]] attach more to the loose luxury core than to a fashion sleeve. | [[Luxury]]; `scripts/cluster_configs/luxury_global.yaml`; follow-up Python screen logged in `investing/Daily/2026-05-28.md` |
+| 2026-05-28 | Luxury-adjacent cluster screen | Watch list | Strongest neighbor was affluent-consumer beta, not fashion: `RACE`, `RL`, `ZGN`, `SPY`, `XLY`, `VGK`, `EWQ` showed 0.591 2Y avg correlation and 67.2% PC1. U.S. accessible premium/apparel was moderate; athletic premium was weaker; beauty/eyewear did not validate as one adjacent cluster. | [[Luxury]]; `investing/Daily/2026-05-28.md` |
+
+---
+
 ## Structural patterns observed across cohorts
 
 ### 1. Cohort size does not determine cluster structure

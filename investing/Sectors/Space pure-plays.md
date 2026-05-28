@@ -7,7 +7,7 @@ aliases: [Space pure-play basket, Space cohort, Small-cap space, Public space pu
 
 The tradeable public-equity cohort of small-cap space companies. Seven NASDAQ/NYSE names that listed 2020-2024 via SPAC or direct IPO, all operating as pure-play space businesses (launch + Space Systems, earth observation, communications, RF data, on-orbit hardware). Distinct from heritage defense primes ([[Lockheed Martin]], [[Northrop Grumman]], [[RTX]], [[L3Harris]]) which have space exposure embedded inside broader defense portfolios.
 
-Mathematically validated as a single statistical cluster (intra-cluster avg correlation 0.624 over trailing 1Y, PC1 explained variance 67.96%, all 7 names grouped at hierarchical distance <0.5). The cohort is the right entry point for the "public-tradeable space sector" exposure — distinct from [[SpaceX|SpaceX private]], distinct from heritage defense primes.
+Mathematically validated as a single statistical cluster (latest refresh through May 27, 2026: intra-cluster avg correlation 0.625 over trailing 1Y, PC1 explained variance 68.04%, all 7 names grouped at hierarchical distance <0.5). The cohort is the right entry point for the "public-tradeable space sector" exposure — distinct from [[SpaceX|SpaceX private]], distinct from heritage defense primes.
 
 ---
 
@@ -41,16 +41,18 @@ Excluded from the validated cluster (different structural profile):
 
 ## Cluster validation diagnostic
 
-Per CLAUDE.md Hard Gate 11. Config: `scripts/cluster_configs/rklb.yaml`. Run: `python scripts/cluster_analysis.py --primary RKLB`. Window: 1-year daily returns through 2026-05-07 (173 observations).
+Per CLAUDE.md Hard Gate 11. Config: `scripts/cluster_configs/rklb.yaml`. Latest refresh run: `python scripts/cluster_analysis.py --primary RKLB --prefix space-pureplays-cluster-may27`. Window: 1-year daily returns through 2026-05-27 (185 observations).
 
 ### Diagnostic summary
 
 | Diagnostic | Value | Read |
 |---|---|---|
-| Intra-cluster avg correlation (1Y) | 0.624 | Tight; range 0.494-0.749 |
+| Intra-cluster avg correlation (1Y) | 0.625 | Tight; range 0.521-0.748 |
 | Hierarchical clustering @ 0.5 threshold | All 7 names in single cluster | RKLB, RDW, LUNR, BKSY, ASTS, SPIR, PL |
-| PC1 explained variance | 67.96% | One factor drives ~2/3 of variance |
-| PC1 loadings | 0.35-0.40 across all 7 | Single common factor, no sub-cluster splits |
+| PC1 explained variance | 68.04% | One factor drives ~2/3 of variance |
+| PC1 loadings | 0.345-0.404 across all 7 | Single common factor, no sub-cluster splits |
+
+The May 27 refresh after the [[Reuters]] / [[SpaceX IPO 2026]] halo session confirms the existing cluster rather than redefining it. Cohesion barely changed from the May 8 baseline: intra-cluster correlation moved from 0.624 to 0.625 and PC1 from 67.96% to 68.04%. The important finding is stability: the SpaceX-proxy rally did not fragment the cohort into SpaceX-adjacent winners and nonparticipants; it kept all seven public pure-plays inside the same statistical basket.
 
 ### Pairwise correlations (1Y)
 
@@ -259,23 +261,30 @@ Investment relevance: PC2 is the natural pair-trade axis within the cohort. Long
 
 The validated 7-name cohort is the candidate set defined a priori. The boundary test: are there other tickers in the local universe that *also* belong in the cluster but were excluded?
 
-Run via `cluster_deep_dive.py`. Average correlation to the validated 7-name cohort over the trailing 1Y:
+Refreshed after the May 27 price update using canonical `prices_long` returns. Screen rule: a name must pass both tests to join the cohort:
+
+1. Statistical fit: average correlation to the seven validated members is >=0.50 over the available trailing-year window.
+2. Business identity: the issuer is primarily a public space pure-play, not an ETF, synthetic basket, broad defense-tech contractor, or closed-end private-tech vehicle.
 
 | Candidate | Actor | Avg corr | Verdict |
 |---|---|---|---|
-| [[Kratos]] (KTOS) | Defense-tech: drones, missiles, hypersonic | 0.523 | JOIN cluster (above 0.50 threshold) |
-| [[AeroVironment]] (AVAV) | UAS, loitering munitions | 0.485 | MAYBE (just below threshold) |
-| [[Iridium Communications]] (IRDM) | Satellite communications (large-cap) | 0.312 | Exclude — different beta profile |
-| [[Destiny Tech100]] (DXYZ) | SpaceX proxy + closed-end private-tech basket | 0.280 | Exclude — confirms DXYZ is NOT a clean space-pure-play proxy despite the Friday May 8 +21% move |
-| [[Momentus]] (MNTS) | Orbital transfer micro-cap | 0.118 | Exclude — too idiosyncratic |
-| KARO | (not in local DB) | — | — |
-| SIDU | (Sidus Space — micro-cap) | — | (not in local DB) |
+| [[Voyager]] (VOYG) | Commercial space station / space-tech holding | 0.603 | Best actual-company candidate; statistically fits, but local price series is only current to 2026-05-01 and history is still short post-IPO |
+| [[Kratos]] (KTOS) | Defense-tech: drones, missiles, hypersonic systems | 0.501 | Boundary fit, but keep outside: primary identity is defense-tech, not space pure-play |
+| [[Mercury Systems]] (MRCY) | Defense electronics | 0.443 | Watch, but too defense-electronics / small-cap-beta driven |
+| [[AeroVironment]] (AVAV) | UAS, loitering munitions | 0.402 | Keep in [[UAS defense micro-cluster]], not space pure-plays |
+| [[Iridium Communications]] (IRDM) | Satellite communications | 0.348 | Exclude - different services-revenue beta profile |
+| [[Globalstar]] (GSAT) | Satellite communications / spectrum | 0.321 | Exclude - satellite operator, not same risk factor |
+| [[Destiny Tech100]] (DXYZ) | SpaceX proxy + closed-end private-tech basket | 0.235 | Exclude - tactical SpaceX-event co-mover, not structural cohort member |
+| [[EchoStar]] (SATS) | Satellite operator + spectrum holder | 0.208 | Exclude - different beta profile |
+| [[Momentus]] (MNTS) | Orbital transfer micro-cap | 0.146 | Exclude - idiosyncratic / retail-froth profile |
 
-The most surprising finding is [[Kratos]] (KTOS) at 0.523 — Kratos is conventionally classified as a defense-tech name (drones, missiles, ground systems), not space. But its return profile correlates with the space pure-play cohort more than any of the other tested candidates. Plausible explanation: Kratos has substantial space-segment exposure (target drones, hypersonic systems, satellite servicing experiments) that traders implicitly bucket alongside the pure-play cohort, and the broader "Golden Dome / defense-tech / non-prime defense" theme bridges the two categories.
+Non-company controls validate the screen but are not eligible cohort members. `DDSD`, the internal space-and-defense drawdown basket, shows 0.768 average correlation because it was built from the theme itself. [[XAR]] shows 0.564 because aerospace/defense ETF flows now overlap with the space-factor trade, but an ETF is a benchmark/control, not a cluster member.
 
-[[Destiny Tech100]] (DXYZ) at 0.28 is the most diagnostic exclusion. DXYZ was up +21.3% on May 8 alongside the cohort, so the casual read might be "DXYZ is the public SpaceX proxy + space cohort member." The full-year correlation says otherwise — DXYZ trades on its own private-tech-basket NAV dynamics most of the time, and only co-moves with the space cohort on specific SpaceX-IPO catalyst days. DXYZ is a tactical-event-co-mover, not a structural cluster member.
+Decision on [[Voyager]]: keep as the first watch-list addition, not a formal eighth member yet. On the common VOYG data window (2025-06-18 to 2026-05-01), adding VOYG barely loosens the basket: the seven-name cohort's same-window intra-correlation is 0.622 and PC1 is 67.8%; the eight-name VOYG-inclusive basket is 0.618 and PC1 is 66.8%. That is a real statistical fit. The caveat is data quality and maturity: local VOYG prices stop at 2026-05-01, and the stock has less than a year of public trading history after the June 2025 IPO. Once the series is current through May 27 and the next CLD / [[Star Lab]] catalyst cycle is visible, VOYG is the natural first retest.
 
-Decision on KTOS: not added to the validated cohort yet, because (a) KTOS's primary classification is defense-tech, not space pure-play, and (b) including it would broaden the cluster identity from "space pure-plays" to "Golden-Dome-tied small-mid-cap defense-tech," which changes the analytical proposition. AVAV at 0.485 reinforces this — the second-highest correlation is also a defense-tech name. See the falsified-hypothesis section below for the test of whether the broader Golden-Dome-thematic super-cluster actually exists.
+Decision on [[Kratos]]: not added. KTOS still screens just above the statistical threshold at 0.501, but including it would broaden the cluster identity from "space pure-plays" to "Golden-Dome-tied small-mid-cap defense-tech." That is a different analytical proposition. The KTOS / AVAV pair already lives in [[UAS defense micro-cluster]], which remains the cleaner home for the defense-tech boundary case.
+
+[[Destiny Tech100]] (DXYZ) remains the most diagnostic exclusion. DXYZ can rip on SpaceX IPO days because it is a public private-tech / SpaceX exposure wrapper, but its 0.235 average correlation confirms that it trades on private-basket NAV dynamics most of the time. DXYZ is a tactical event co-mover, not a structural space-pure-play factor member.
 
 ---
 
@@ -746,7 +755,18 @@ Anyone holding the basket as part of a portfolio gets factor exposure that's sub
 
 ---
 
-### Validation charts
+### May 27 refresh charts
+
+![[space-pureplays-cluster-may27-dendrogram-1y.png]]
+*May 27 refresh: all 7 space pure-plays still cluster together at distance <0.5, separate from the defense-prime / aerospace-ETF block and the broad-market / small-cap block.*
+
+![[space-pureplays-cluster-may27-correlation-1y.png]]
+*May 27 refresh: 1Y pairwise correlation heatmap across the full 15-ticker universe. The space pure-play block remains visually and numerically distinct from defense primes and ETF controls.*
+
+![[space-pureplays-cluster-may27-pca-1y.png]]
+*May 27 refresh: PC1 explains 68.04% of the seven-name cohort's variance, essentially unchanged from the May 8 validation run.*
+
+### Original validation charts
 
 ![[space-pureplays-cluster-dendrogram-1y.png]]
 *Hierarchical clustering dendrogram — all 7 space pure-plays cluster together at distance < 0.5, separated from defense primes, small-cap (IWM/SPY), and ETF controls.*
@@ -794,6 +814,32 @@ The cohort does NOT share execution risk. Business-model heterogeneity (launch +
 
 ---
 
+## May 27 2026 - SpaceX IPO halo becomes a public-basket catalyst
+
+[[Reuters]]' May 27 space-stock piece is the cleanest external confirmation that the public market is using the cohort as a pre-IPO proxy for [[SpaceX]]. Reuters framed the move around the idea that a very large SpaceX listing could force investors to rethink the valuation of the space economy, and it named [[Rocket Lab]], [[Planet Labs]], [[Intuitive Machines]], [[AST SpaceMobile]], plus retail-trending microcaps such as [[Redwire]], Momentus, and Sidus Space.
+
+Verified May 27 closes show the move was broad but uneven:
+
+| Ticker | Actor | May 27 close | Daily move | Cohort read |
+|---|---|---:|---:|---|
+| LUNR | [[Intuitive Machines]] | $40.34 | +15.7% | Led the validated cohort; lunar-services scarcity bid |
+| RDW | [[Redwire]] | $24.00 | +8.9% | Follow-through from the May 26 SpaceX halo; Reuters also flagged retail attention |
+| ASTS | [[AST SpaceMobile]] | $129.60 | +8.3% | Direct-to-cell scarcity read-through |
+| RKLB | [[Rocket Lab]] | $150.23 | +4.9% | Most liquid public-space proxy, but less explosive than smaller hardware names |
+| PL | [[Planet Labs]] | $50.48 | +4.5% | Data sleeve participated despite lower historical PC1 loading |
+| UFO | Procure Space ETF | $66.65 | +1.9% | ETF wrapper participated, but diluted |
+| ARKX | ARK Space & Defense Innovation ETF | $36.40 | +0.2% | Broad aerospace/defense mix diluted the SpaceX halo |
+
+This reinforces the post-November regime-shift read: the market increasingly treats the public space names as one factor when the catalyst is sector-level capital allocation. The fundamental caution is unchanged. These companies did not receive new May 27 orders, launches, or earnings updates. The move was multiple expansion on scarcity and proxy demand. It is durable only if the SpaceX IPO expands the investor base for public space exposure rather than absorbing the proxy trade into `SPCX`.
+
+The refreshed cluster diagnostic says the halo move strengthened the existing basket thesis at the margin without changing the member set. Through May 27, the 1Y intra-cluster correlation is 0.625, PC1 explains 68.04% of cohort variance, and hierarchical clustering still groups RKLB, RDW, LUNR, BKSY, ASTS, SPIR, and PL together at the 0.5 distance threshold. That is the right conclusion: May 27 was not evidence for a new "SpaceX halo" cluster; it was evidence that the existing [[Space pure-plays]] cluster remains the public proxy basket.
+
+Momentus, Sidus Space, and Virgin Galactic belong outside the validated cohort for now. Reuters' mention of retail-trending tickers makes them useful as froth indicators, not as cluster members, because they are smaller, less liquid, and either absent from the local DB or structurally outside the seven-name factor.
+
+*Sources: [[Reuters]] via Investing.com, "US space stocks rise on SpaceX IPO hype," May 27 2026, https://www.investing.com/news/stock-market-news/us-space-stocks-rise-on-spacex-ipo-hype-4712652; Reuters via CNA, https://www.channelnewsasia.com/business/us-space-stocks-rise-spacex-ipo-hype-6145121; [[Yahoo Finance]] daily closes pulled May 27 2026.*
+
+---
+
 ## Events touching the cohort
 
 - [[Space basket rally May 8 2026]] — Friday May 8 single-session basket rally, average +20.4%, range +10.8% to +34.2%
@@ -824,4 +870,4 @@ The cohort does NOT share execution risk. Business-model heterogeneity (launch +
 
 ---
 
-*Created 2026-05-10 from May 8 basket-rally cluster validation. Cluster validation diagnostic migrated from [[Space basket rally May 8 2026]] event note (event keeps the dated narrative; cohort definition + diagnostic live here).*
+*Created 2026-05-10 from May 8 basket-rally cluster validation. Cluster validation diagnostic migrated from [[Space basket rally May 8 2026]] event note (event keeps the dated narrative; cohort definition + diagnostic live here). Updated May 27 2026 with Reuters public-space IPO-halo screen and refreshed May 27 cluster diagnostics.*
