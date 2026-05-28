@@ -24,7 +24,9 @@
       "skills": [
         "comms-sweep",
         "matter",
-        "party"
+        "party",
+        "youtube-matter-ingest",
+        "media-source-to-production-packet"
       ],
       "runtimes": {
         "codex": ".agents/skills",

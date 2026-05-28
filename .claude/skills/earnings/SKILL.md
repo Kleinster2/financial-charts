@@ -53,6 +53,7 @@ While analyzing the existing rows, scan for anomalies — unexpected jumps, sign
    - Forward guidance if provided
    - **All sub-line items**: R&D, SGA (or its components), D&A, interest expense, income tax expense. Press releases often have quarterly breakdowns that 10-K annual filings don't split per-quarter — use whichever source gives the most granular data.
    - **D&A sourcing priority**: Quarterly D&A often isn't in the 10-K. Check these sources in order: (1) earnings press release cash flow section, (2) earnings supplement, (3) derive from 10-Q comparisons (e.g., 9-month D&A minus 6-month D&A = Q3 D&A). Leaving D&A as NULL when it's findable is a quality failure.
+   - **Investment gains/losses sourcing**: If GAAP net income, EPS, or other income is materially affected by equity securities, investment gains/losses, fair-value marks, equity-method income, or similar below-the-line items, pull the latest 13F / 13D / 13G / investment footnote and include a holdings/source-map table in the actor note. This is mandatory even when the company does not disclose the exact attribution. State the limitation clearly: public filings can explain visible holdings, while private/non-marketable marks may remain undisclosed.
 4. **Verify currency** — match the reporting currency already in the database for that ticker
 
 ## Phase 3: Insert Data
@@ -92,6 +93,7 @@ Some companies (e.g., Palantir, Berkshire) have net interest *income*, not expen
 1. **Actor note** (`investing/Actors/`):
    - Add earnings data under a `## Financials` or `## Recent earnings` section
    - Include key metrics, segment breakdown, guidance
+   - If investment gains/losses materially affected GAAP earnings, include the latest 13F / investment-holdings source-map table and explain what can and cannot be attributed
    - Mark preliminary data so it can be replaced later
    - Add italicized interpretation below any charts
 2. **Daily note** (`investing/Daily/YYYY-MM-DD.md`):

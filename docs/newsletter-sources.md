@@ -91,6 +91,7 @@ These are high-signal, low-noise voices — they publish analysis before or inst
 | **Redwood Research Blog** | https://blog.redwoodresearch.org | Technologies | AI safety research, alignment, control evaluations |
 | **Data for Climate Progress** | https://dataforclimateprogress.substack.com | Investing, Geopolitics | Climate data, energy transition, policy |
 | **Foreign Office by M. Weiss** | https://macspaunday.substack.com | Geopolitics | Russian intelligence operations, FSB/GRU, disinformation, active measures (Michael Weiss — The Insider EIC, New Lines contributing editor; forthcoming GRU history *Trouble with the Neighbors*) |
+| **badlands (Borzou Daragahi)** | https://borzou.substack.com | Geopolitics | Middle East, Iran, Iraq, Turkey, Syria, Lebanon, North Africa, Europe, conflict reporting (*The Independent* international correspondent) |
 
 ## Maintenance
 

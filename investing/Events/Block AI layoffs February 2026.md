@@ -42,11 +42,11 @@ This was not a struggling company. Block was growing, profitable, and guiding up
 
 Stock (ticker: XYZ, formerly SQ) surged ~24% after-hours on Feb 26, +18% premarket Feb 27. Billions in market cap created the moment Dorsey announced he was eliminating 4,000 jobs.
 
-Related-labor-exposure check: [[Teleperformance]] / TEP Paris fell 3.56% on Feb 27, so the read-through was not "AI labor replacement lifts all exposed names." The clean positive tape was Block-specific cost-takeout; BPO incumbents remained on the other side of the same AI-labor substitution trade.
+Related-labor-exposure check: [[Teleperformance]] / TEP Paris fell 3.56% on Feb 27, and [[Klarna]] / KLAR fell 4.1% from $14.14 to $13.56, so the read-through was not "AI labor replacement lifts all exposed names." The clean positive tape was Block-specific cost-takeout; BPO incumbents and BNPL peers with their own credit/execution overhangs remained on the other side of the same AI-labor substitution trade.
 
 The signal to every CEO: the market will reward you for replacing humans with AI.
 
-Price source: local `prices_long` for XYZ, SPY, and QQQ; StockAnalysis historical table for Teleperformance / TEP Paris.
+Price source: local `prices_long` for XYZ, KLAR, SPY, and QQQ; StockAnalysis historical table for Teleperformance / TEP Paris.
 
 ---
 

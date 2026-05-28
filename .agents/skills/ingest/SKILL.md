@@ -23,7 +23,7 @@ Detect source type and acquire content:
 | Source type | Acquisition |
 |---|---|
 | YouTube URL | `python scripts/transcribe_youtube.py URL --save /tmp/transcript.txt` (`--language pt` for Portuguese) |
-| Screenshots/images | Read all images via Read tool |
+| Screenshots/images | Read all images via Read tool; treat chart screenshots as first-class source material |
 | Article URL | WebFetch; if 403 → Chrome MCP (`get_page_text`); if interactive → visual scrolling |
 | SEC filing | `python scripts/parse_sec_filing.py TICKER` (never WebFetch on sec.gov) |
 | User-pasted text | Use directly |
@@ -45,7 +45,7 @@ Enumerate three lists:
 
 - **Entities** — every actor, concept, product, event, country, person, firm mentioned. Include secondary mentions ("they're competing with X" counts).
 - **Data points** — every price, AUM figure, percentile, growth rate, date, deal term, production volume, headcount. Exact figures with attribution.
-- **Images/charts** — for each screenshot or chart, identify which CONCEPT it depicts, not which source it came from. A yield percentile chart is a "CLO yield data" chart, not a "Rieder interview chart."
+- **Images/charts** — every provided chart, screenshot, table-like graphic, or source visualization. Identify which CONCEPT it depicts, not which source it came from. A yield percentile chart is a "CLO yield data" chart, not a "Rieder interview chart." Each chart must have a disposition: saved/embeded if rights allow, or extracted into note text/tables if copying is inappropriate.
 
 Present enumeration to user as a table before vault work begins.
 
@@ -156,12 +156,16 @@ Two biases to resist: "I noticed a gap so I should write something" (manufacture
 
 ## Phase 3: Image Routing
 
+**Every provided chart is ingested.** A chart supplied by the user or present in the source is never optional. If rights allow, preserve the image. If publisher terms or copyright make copying inappropriate, ingest the chart by extracting the axes, series, dates, visible values/estimates, and takeaway into the relevant note with source attribution, and log that the image itself was not copied.
+
 **Charts follow concepts, not sources.** For each image:
 
 1. Ask: "What concept does this depict?" — the answer determines the destination note
-2. Save to `investing/attachments/` with a descriptive name tied to the concept (e.g., `clo-yield-percentile-mar2026.png`), not the source
+2. Save to `investing/attachments/` with a descriptive name tied to the concept (e.g., `clo-yield-percentile-mar2026.png`), not the source, when rights allow
 3. Embed in the concept note with italic caption and source attribution, even if that note is not otherwise on the update list — the image creates the reason to touch the note
-4. If the image also contextualizes the source actor (e.g., a fund's own allocation), embed in BOTH the concept note and the actor note
+4. If the image cannot be copied, add a chart-derived table or paragraph to the concept note instead, including axes/series/time period, visible values or estimates, and the source attribution
+5. If the image also contextualizes the source actor (e.g., a fund's own allocation), embed or extract it in BOTH the concept note and the actor note
+6. Record chart disposition in the daily note: `saved/embedded`, `extracted/not copied`, or `needs follow-up` with the reason
 
 **New tickers:**
 1. `python scripts/add_ticker.py TICKER`

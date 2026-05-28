@@ -40,6 +40,6 @@ Daily-use and core module scripts remain in the repo root:
 - `daily_note_log_gate.py` - Verify staged investing notes are linked in the session daily note before commit
 - `discover_polymarket_markets.py` - Search Polymarket Gamma `public-search` for vault-relevant active events, filter existing watchlist slugs and near-expiry markets, and print candidate event slugs / YAML stubs for `kalshi_watchlist.yml`
 - `promote_shared_skill.py` - Promote the intended shared workflow skill copy from Claude, Codex, OpenClaw, or the newest runtime into all runtimes
-- `refresh_kalshi_watchlist.py` - Check provider-aware prediction-market overlays in `kalshi_watchlist.yml` (Kalshi by ticker, Polymarket by Gamma slug) for stale reads and optional live price/status refreshes
+- `refresh_kalshi_watchlist.py` - Check provider-aware prediction-market overlays in `kalshi_watchlist.yml` (Kalshi by ticker, Polymarket by Gamma slug) for stale reads, optional live price/status refreshes, and configured cross-venue comparison spreads
 - `skill_manifest.py` - Shared manifest loader for skill sync/parity scripts
 - `sync_codex_skills.py` - Legacy helper that copies repo workflow skills from `.claude/skills` into `.agents/skills`

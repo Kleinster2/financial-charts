@@ -16,6 +16,8 @@ Stock price moves, analyst calls, and catalysts go in the securities note (`Asse
 
 Synopsis framing: key economic questions, not market recap. Center on the questions that matter: Is the core business durable? Is the valuation justified? What structural forces help or hurt? Catalysts are evidence supporting a question, not standalone listicle items.
 
+Earnings quality must be source-mapped. When GAAP net income, EPS, or other income is materially affected by equity securities, investment gains/losses, fair-value marks, equity-method income, or similar below-the-line items, the earnings section must include the latest 13F / 13D / 13G / investment-footnote holdings table. If the company does not disclose exact attribution, state that explicitly: public filings explain visible holdings; private/non-marketable marks remain unattributed.
+
 Answer your own questions. The body must contain analytical sections that directly address the Synopsis questions — not just factual/historical sections. A note that frames three questions and then provides only chronological facts is half a note.
 
 No bull/bear framing. Do not organize analysis into "bull case" / "bear case." Present dynamics, what's structurally different or historically consistent, and what's unresolved. Same applies to "risks vs. opportunities" and any other binary editorial frame.
@@ -252,7 +254,7 @@ Not every person mentioned gets an investing-vault Actors/ note. The test: **is 
 - Sitting heads of state with direct policy impact on tracked assets (Lula, Trump, Xi)
 - CEOs of tracked companies (Huang, Zuckerberg, Musk)
 - Fund managers and allocators whose calls are the record (Gerstner, Ackman, Dalio, Druckenmiller)
-- Analysts whose published work is repeatedly cited (McNally at Rapidan, Toland at Citi)
+- Analysts whose published work is repeatedly cited (McNally at Rapidan, Toland at Citi) live in `Analysts/`, not `Actors/`
 
 **Cross-vault link — not an investing-vault actor:**
 - Political figures without direct market-lever roles (opposition candidates, legislators, local officials)

@@ -152,6 +152,149 @@ class KalshiWatchlistTests(unittest.TestCase):
         self.assertEqual(report["counts"]["stale"], 1)
         self.assertEqual(report["counts"]["material"], 0)
 
+    def test_build_report_adds_cross_provider_comparison(self) -> None:
+        config = {
+            "defaults": {**DEFAULTS, "cross_provider_divergence_pp": 8},
+            "comparisons": [
+                {
+                    "id": "openai-no-ipo",
+                    "note_link": "2026 IPO pipeline",
+                    "legs": [
+                        {
+                            "label": "Kalshi no OpenAI IPO",
+                            "watch_id": "kalshi-openai",
+                            "market_id": "KXOPENAI",
+                            "invert": True,
+                        },
+                        {
+                            "label": "Polymarket no OpenAI IPO",
+                            "watch_id": "poly-openai",
+                            "market_id": "openai-no-ipo",
+                        },
+                    ],
+                }
+            ],
+            "markets": [
+                {
+                    "id": "kalshi-openai",
+                    "last_read": "2026-05-20",
+                    "tracked_markets": [{"ticker": "KXOPENAI", "last_price": 0.33}],
+                },
+                {
+                    "id": "poly-openai",
+                    "provider": "polymarket",
+                    "last_read": "2026-05-20",
+                    "tracked_markets": [{"slug": "openai-no-ipo", "last_price": 0.745}],
+                },
+            ],
+        }
+
+        report, _ = build_report(config, as_of=date(2026, 5, 20), refresh=False)
+
+        self.assertEqual(report["comparisons"][0]["spread_pp"], 7.5)
+        self.assertEqual(report["counts"]["material"], 0)
+
+    def test_cross_provider_divergence_becomes_material(self) -> None:
+        config = {
+            "defaults": DEFAULTS,
+            "comparisons": [
+                {
+                    "id": "btc-150k",
+                    "note_link": "Bitcoin",
+                    "threshold_pp": 5,
+                    "legs": [
+                        {"label": "Kalshi", "watch_id": "kalshi-btc", "market_id": "KXBTC"},
+                        {"label": "Polymarket", "watch_id": "poly-btc", "market_id": "btc-150k"},
+                    ],
+                }
+            ],
+            "markets": [
+                {
+                    "id": "kalshi-btc",
+                    "last_read": "2026-05-20",
+                    "tracked_markets": [{"ticker": "KXBTC", "last_price": 0.10}],
+                },
+                {
+                    "id": "poly-btc",
+                    "provider": "polymarket",
+                    "last_read": "2026-05-20",
+                    "tracked_markets": [{"slug": "btc-150k", "last_price": 0.18}],
+                },
+            ],
+        }
+
+        report, _ = build_report(config, as_of=date(2026, 5, 20), refresh=False)
+
+        self.assertEqual(report["counts"]["material"], 1)
+        self.assertEqual(report["alerts"][0]["kind"], "provider-divergence")
+
+    def test_build_report_adds_interpolated_band_median(self) -> None:
+        config = {
+            "defaults": DEFAULTS,
+            "markets": [
+                {
+                    "id": "openai-valuation",
+                    "provider": "polymarket",
+                    "note_link": "2026 IPO pipeline",
+                    "last_read": "2026-05-20",
+                    "derived_metrics": [
+                        {
+                            "id": "openai-ipo-median-market-cap",
+                            "label": "OpenAI IPO implied median market cap",
+                            "method": "bands",
+                            "percentile": 0.5,
+                            "unit": "T",
+                            "condition": "conditional on IPO",
+                            "bins": [
+                                {"slug": "below-1t", "lower": 0, "upper": 1, "last_price": 0.20},
+                                {"slug": "one-to-two", "lower": 1, "upper": 2, "last_price": 0.60},
+                                {"slug": "above-2t", "lower": 2, "upper": 3, "last_price": 0.20},
+                            ],
+                        }
+                    ],
+                }
+            ],
+        }
+
+        report, _ = build_report(config, as_of=date(2026, 5, 20), refresh=False)
+
+        metric = report["derived_metrics"][0]
+        self.assertEqual(metric["id"], "openai-ipo-median-market-cap")
+        self.assertEqual(metric["condition"], "conditional on IPO")
+        self.assertAlmostEqual(metric["value"], 1.5)
+
+    def test_build_report_adds_interpolated_threshold_median(self) -> None:
+        config = {
+            "defaults": DEFAULTS,
+            "markets": [
+                {
+                    "id": "spacex-valuation",
+                    "provider": "polymarket",
+                    "note_link": "SpaceX IPO 2026",
+                    "last_read": "2026-05-20",
+                    "derived_metrics": [
+                        {
+                            "id": "spacex-ipo-median-market-cap",
+                            "label": "SpaceX IPO implied median market cap",
+                            "method": "thresholds",
+                            "percentile": 0.5,
+                            "unit": "T",
+                            "thresholds": [
+                                {"slug": "above-1t", "threshold": 1, "last_price": 0.80},
+                                {"slug": "above-2t", "threshold": 2, "last_price": 0.20},
+                            ],
+                        }
+                    ],
+                }
+            ],
+        }
+
+        report, _ = build_report(config, as_of=date(2026, 5, 20), refresh=False)
+
+        metric = report["derived_metrics"][0]
+        self.assertEqual(metric["id"], "spacex-ipo-median-market-cap")
+        self.assertAlmostEqual(metric["value"], 1.5)
+
     def test_builds_polymarket_search_url(self) -> None:
         url = build_search_url("OpenAI hardware", limit_per_type=3)
         parsed = urlparse(url)

@@ -2,7 +2,7 @@
 """
 Note compliance checker for the investing vault.
 
-Checks actor notes against the standards defined in:
+Checks actor and analyst/source-person notes against the standards defined in:
 - investing/Meta/Note structures.md
 - investing/Meta/Financials templates.md
 - CLAUDE.md
@@ -278,9 +278,10 @@ class NoteChecker:
             issues.extend(self._check_bidirectional_related(content, filepath))
 
         if note_type == "analyst":
-            issues.extend(self._check_frontmatter(content, filepath))
+            issues.extend(self._check_frontmatter(content, filepath, missing_alias_severity="error"))
+            issues.extend(self._check_analyst_structure(content, filepath))
             issues.extend(self._check_related_section(content, filepath))
-            issues.extend(self._check_quick_stats(content, filepath))
+            issues.extend(self._check_quick_stats(content, filepath, missing_severity="error"))
             issues.extend(self._check_table_formatting(content, filepath))
             return issues
 
@@ -487,7 +488,12 @@ class NoteChecker:
             return True
         return False
 
-    def _check_frontmatter(self, content: str, filepath: Path) -> list[Issue]:
+    def _check_frontmatter(
+        self,
+        content: str,
+        filepath: Path,
+        missing_alias_severity: str = "warning",
+    ) -> list[Issue]:
         """Check for proper frontmatter."""
         issues = []
 
@@ -504,7 +510,7 @@ class NoteChecker:
         frontmatter = content[3:second_dash]
 
         if "aliases:" not in frontmatter:
-            issues.append(Issue("warning", "frontmatter", "Missing aliases in frontmatter"))
+            issues.append(Issue(missing_alias_severity, "frontmatter", "Missing aliases in frontmatter"))
         elif "[[" in frontmatter:
             # Wikilinks in aliases cause Obsidian type mismatch errors
             issues.append(Issue("error", "frontmatter", "Aliases contain [[wikilinks]] — use plain text only"))
@@ -592,12 +598,51 @@ class NoteChecker:
 
         return issues
 
-    def _check_quick_stats(self, content: str, filepath: Path) -> list[Issue]:
+    def _check_quick_stats(
+        self,
+        content: str,
+        filepath: Path,
+        missing_severity: str = "warning",
+    ) -> list[Issue]:
         """Check for Quick stats section."""
         issues = []
 
         if "## Quick stats" not in content:
-            issues.append(Issue("warning", "structure", "Missing '## Quick stats' section"))
+            issues.append(Issue(missing_severity, "structure", "Missing '## Quick stats' section"))
+
+        return issues
+
+    def _check_analyst_structure(self, content: str, filepath: Path) -> list[Issue]:
+        """Check source-person notes in Analysts/ for the folder's minimum shape."""
+        issues = []
+
+        if not content.startswith("---"):
+            return issues
+
+        second_dash = content.find("---", 3)
+        if second_dash == -1:
+            return issues
+
+        frontmatter = content[3:second_dash]
+        body = content[second_dash + 3:]
+
+        if "tags:" not in frontmatter:
+            issues.append(Issue("error", "frontmatter", "Analyst notes require YAML tags in frontmatter"))
+
+        if re.search(r"(?m)^type:\s*actor\s*$", frontmatter):
+            issues.append(Issue("error", "taxonomy", "Analyst note frontmatter should not use type: actor"))
+
+        if self._has_tag(content, "#actor"):
+            issues.append(Issue("error", "taxonomy", "Analyst notes should not carry the actor tag"))
+
+        body_tag_lines = re.findall(r"(?m)^#[A-Za-z0-9_-][^\n]*", body)
+        if body_tag_lines:
+            examples = ", ".join(line.strip() for line in body_tag_lines[:3])
+            remaining = len(body_tag_lines) - min(len(body_tag_lines), 3)
+            message = f"Analyst tags belong in YAML frontmatter, not body hashtag lines: {examples}"
+            if remaining:
+                message += f" (+{remaining} more)"
+            issues.append(Issue("error", "taxonomy", message))
 
         return issues
 

@@ -117,12 +117,24 @@ def tracked_market_id(tracked_market: dict) -> str:
     return ""
 
 
+def leg_market_id(leg: dict) -> str:
+    for key in ("market_id", "ticker", "slug", "id", "condition_id", "conditionId"):
+        value = leg.get(key)
+        if value:
+            return str(value).strip()
+    return ""
+
+
 def market_close_time(market: dict) -> str | None:
     for key in ("close_time", "closedTime", "endDate", "endDateIso"):
         value = market.get(key)
         if value:
             return str(value)
     return None
+
+
+def provider_label(entry: dict) -> str:
+    return str(entry.get("provider") or "kalshi").lower()
 
 
 def market_price(market: dict, *, outcome: str | None = None) -> float | None:
@@ -247,6 +259,178 @@ def note_label(entry: dict) -> str:
     return ""
 
 
+def build_market_lookup(markets: list[dict]) -> dict[str, dict]:
+    by_id: dict[str, dict] = {}
+    for market in markets:
+        for identifier in market_ids(market):
+            by_id[identifier] = market
+    return by_id
+
+
+def metric_items(metric: dict) -> list[dict]:
+    for key in ("bins", "thresholds", "markets", "distribution"):
+        items = metric.get(key)
+        if isinstance(items, list):
+            return items
+    return []
+
+
+def item_price(item: dict, *, by_id: dict[str, dict] | None = None) -> float | None:
+    identifier = tracked_market_id(item)
+    if by_id is not None and identifier:
+        current = by_id.get(identifier)
+        if current is not None:
+            price = market_price(current, outcome=item.get("outcome"))
+            if price is not None:
+                return price
+
+    for key in ("last_price", "price", "probability"):
+        value = number(item.get(key))
+        if value is not None:
+            return value
+    return None
+
+
+def interpolated_percentile_from_bands(
+    bins: list[dict],
+    *,
+    percentile: float,
+    normalize: bool = True,
+) -> dict | None:
+    rows: list[dict] = []
+    for item in bins:
+        price = number(item.get("price"))
+        lower = number(item.get("lower"))
+        upper = number(item.get("upper"))
+        if price is None or lower is None or price < 0:
+            continue
+        rows.append({"lower": lower, "upper": upper, "price": price, "label": item.get("label")})
+
+    rows.sort(key=lambda row: row["lower"])
+    total = sum(row["price"] for row in rows)
+    if total <= 0:
+        return None
+
+    target = percentile * total if normalize else percentile
+    cumulative = 0.0
+    for row in rows:
+        next_cumulative = cumulative + row["price"]
+        if target <= next_cumulative:
+            upper = row["upper"]
+            if upper is None:
+                return {
+                    "value": row["lower"],
+                    "bound": "at_or_above",
+                    "bucket": row["label"],
+                    "total_probability": total,
+                }
+            if upper <= row["lower"] or row["price"] == 0:
+                return None
+            within_bucket = (target - cumulative) / row["price"]
+            value = row["lower"] + within_bucket * (upper - row["lower"])
+            return {
+                "value": value,
+                "bound": "interpolated",
+                "bucket": row["label"],
+                "total_probability": total,
+            }
+        cumulative = next_cumulative
+    return None
+
+
+def interpolated_percentile_from_thresholds(
+    thresholds: list[dict],
+    *,
+    percentile: float,
+) -> dict | None:
+    rows: list[dict] = []
+    for item in thresholds:
+        price = number(item.get("price"))
+        threshold = number(item.get("threshold"))
+        if price is None or threshold is None:
+            continue
+        rows.append({"threshold": threshold, "price": price, "label": item.get("label")})
+
+    rows.sort(key=lambda row: row["threshold"])
+    if not rows:
+        return None
+    if rows[0]["price"] < percentile:
+        return {"value": rows[0]["threshold"], "bound": "below", "bucket": rows[0]["label"]}
+    if rows[-1]["price"] > percentile:
+        return {"value": rows[-1]["threshold"], "bound": "above", "bucket": rows[-1]["label"]}
+
+    for lower, upper in zip(rows, rows[1:]):
+        lower_price = lower["price"]
+        upper_price = upper["price"]
+        if lower_price >= percentile >= upper_price:
+            if lower_price == upper_price:
+                value = (lower["threshold"] + upper["threshold"]) / 2
+            else:
+                share = (percentile - lower_price) / (upper_price - lower_price)
+                value = lower["threshold"] + share * (upper["threshold"] - lower["threshold"])
+            return {
+                "value": value,
+                "bound": "interpolated",
+                "bucket": f"{lower.get('label') or lower['threshold']} / {upper.get('label') or upper['threshold']}",
+            }
+    return None
+
+
+def evaluate_derived_metrics(
+    config: dict,
+    *,
+    fetched_by_id: dict[str, list[dict]],
+) -> list[dict]:
+    results: list[dict] = []
+    for entry in config["markets"]:
+        watch_id = str(entry.get("id") or entry.get("source_ticker") or "<unknown>")
+        metrics = entry.get("derived_metrics") or []
+        if not isinstance(metrics, list):
+            continue
+
+        by_id = build_market_lookup(fetched_by_id.get(watch_id) or [])
+        for metric in metrics:
+            metric_id = str(metric.get("id") or "<unknown>")
+            method = str(metric.get("method") or metric.get("kind") or "bands").lower()
+            percentile = float(metric.get("percentile", 0.5))
+            items = []
+            for item in metric_items(metric):
+                enriched = dict(item)
+                price = item_price(item, by_id=by_id if by_id else None)
+                if price is not None:
+                    enriched["price"] = price
+                items.append(enriched)
+
+            if method in {"band", "bands", "bucket", "buckets"}:
+                result = interpolated_percentile_from_bands(
+                    items,
+                    percentile=percentile,
+                    normalize=bool(metric.get("normalize", True)),
+                )
+            elif method in {"threshold", "thresholds", "cumulative"}:
+                result = interpolated_percentile_from_thresholds(items, percentile=percentile)
+            else:
+                result = None
+
+            results.append(
+                {
+                    "id": metric_id,
+                    "watch_id": watch_id,
+                    "note": note_label(entry),
+                    "label": str(metric.get("label") or metric_id),
+                    "method": method,
+                    "percentile": percentile,
+                    "unit": metric.get("unit"),
+                    "condition": metric.get("condition"),
+                    "value": None if result is None else result.get("value"),
+                    "bound": None if result is None else result.get("bound"),
+                    "bucket": None if result is None else result.get("bucket"),
+                    "input_probability": None if result is None else result.get("total_probability"),
+                }
+            )
+    return results
+
+
 def evaluate_entry(
     entry: dict,
     *,
@@ -278,10 +462,7 @@ def evaluate_entry(
     if fetched_markets is None:
         return alerts
 
-    by_id: dict[str, dict] = {}
-    for market in fetched_markets:
-        for identifier in market_ids(market):
-            by_id[identifier] = market
+    by_id = build_market_lookup(fetched_markets)
     tracked = entry.get("tracked_markets") or []
     if not tracked:
         active = sum(1 for m in fetched_markets if market_status(m) == "active")
@@ -334,6 +515,118 @@ def evaluate_entry(
     return alerts
 
 
+def comparison_threshold_pp(comparison: dict, defaults: dict) -> float:
+    if comparison.get("threshold_pp") is not None:
+        return float(comparison["threshold_pp"])
+    return float(defaults.get("cross_provider_divergence_pp", 8.0))
+
+
+def resolve_leg_price(
+    leg: dict,
+    entry: dict,
+    *,
+    fetched_markets: list[dict] | None = None,
+) -> float | None:
+    identifier = leg_market_id(leg)
+    outcome = leg.get("outcome")
+
+    if fetched_markets is not None:
+        current = build_market_lookup(fetched_markets).get(identifier)
+        if current is not None:
+            price = market_price(current, outcome=outcome)
+            if price is not None:
+                return 1 - price if leg.get("invert") else price
+
+    for tracked in entry.get("tracked_markets") or []:
+        if tracked_market_id(tracked) != identifier:
+            continue
+        price = number(tracked.get("last_price"))
+        if price is not None:
+            return 1 - price if leg.get("invert") else price
+    return None
+
+
+def evaluate_comparisons(
+    config: dict,
+    *,
+    defaults: dict,
+    fetched_by_id: dict[str, list[dict]],
+) -> tuple[list[Alert], list[dict]]:
+    alerts: list[Alert] = []
+    results: list[dict] = []
+    entries_by_id = {
+        str(entry.get("id") or entry.get("source_ticker") or "<unknown>"): entry
+        for entry in config["markets"]
+    }
+
+    for comparison in config.get("comparisons") or []:
+        comparison_id = str(comparison.get("id") or "<unknown>")
+        note = str(comparison.get("note_link") or Path(str(comparison.get("note") or "")).stem)
+        threshold = comparison_threshold_pp(comparison, defaults)
+        legs: list[dict] = []
+
+        for leg in comparison.get("legs") or []:
+            watch_id = str(leg.get("watch_id") or "")
+            entry = entries_by_id.get(watch_id)
+            if entry is None:
+                alerts.append(
+                    Alert("review", "comparison-missing-watch", comparison_id, note, f"{watch_id} not found")
+                )
+                continue
+
+            price = resolve_leg_price(leg, entry, fetched_markets=fetched_by_id.get(watch_id))
+            label = str(leg.get("label") or watch_id)
+            legs.append(
+                {
+                    "label": label,
+                    "provider": provider_label(entry),
+                    "watch_id": watch_id,
+                    "market_id": leg_market_id(leg),
+                    "price": price,
+                }
+            )
+            if price is None:
+                alerts.append(
+                    Alert(
+                        "review",
+                        "comparison-missing-price",
+                        comparison_id,
+                        note,
+                        f"{label} has no comparable price",
+                    )
+                )
+
+        priced = [leg for leg in legs if leg["price"] is not None]
+        result = {
+            "id": comparison_id,
+            "note": note,
+            "threshold_pp": threshold,
+            "legs": legs,
+            "spread_pp": None,
+        }
+        if len(priced) >= 2:
+            high = max(priced, key=lambda item: item["price"])
+            low = min(priced, key=lambda item: item["price"])
+            spread_pp = (high["price"] - low["price"]) * 100
+            result["spread_pp"] = round(spread_pp, 2)
+            if spread_pp >= threshold:
+                alerts.append(
+                    Alert(
+                        "material",
+                        "provider-divergence",
+                        comparison_id,
+                        note,
+                        (
+                            f"{high['label']} {high['price']:.1%} vs "
+                            f"{low['label']} {low['price']:.1%} ({spread_pp:.1f}pp)"
+                        ),
+                    )
+                )
+        results.append(result)
+
+    return alerts, results
+
+
 def build_report(
     config: dict,
     *,
@@ -372,10 +665,20 @@ def build_report(
             )
         )
 
+    comparison_alerts, comparison_results = evaluate_comparisons(
+        config,
+        defaults=defaults,
+        fetched_by_id=fetched_by_id,
+    )
+    alerts.extend(comparison_alerts)
+    derived_metric_results = evaluate_derived_metrics(config, fetched_by_id=fetched_by_id)
+
     serialized = [asdict(alert) for alert in alerts]
     report = {
         "as_of": as_of.isoformat(),
         "entries": len(config["markets"]),
+        "comparisons": comparison_results,
+        "derived_metrics": derived_metric_results,
         "alerts": serialized,
         "counts": {
             "stale": sum(1 for alert in alerts if alert.level == "stale"),
@@ -393,10 +696,7 @@ def update_state(config: dict, *, as_of: date, fetched_by_id: dict[str, list[dic
         if markets is None:
             continue
         entry["last_read"] = as_of.isoformat()
-        by_id: dict[str, dict] = {}
-        for market in markets:
-            for identifier in market_ids(market):
-                by_id[identifier] = market
+        by_id = build_market_lookup(markets)
         for tracked in entry.get("tracked_markets") or []:
             current = by_id.get(tracked_market_id(tracked))
             if current is None:
@@ -411,6 +711,23 @@ def update_state(config: dict, *, as_of: date, fetched_by_id: dict[str, list[dic
             if close_time:
                 tracked["close_time"] = close_time
 
+        by_id = build_market_lookup(markets)
+        for metric in entry.get("derived_metrics") or []:
+            for item in metric_items(metric):
+                price = item_price(item, by_id=by_id)
+                if price is not None:
+                    item["last_price"] = round(price, 4)
+
+        metric_results = evaluate_derived_metrics({"markets": [entry]}, fetched_by_id={watch_id: markets})
+        for result in metric_results:
+            for metric in entry.get("derived_metrics") or []:
+                if str(metric.get("id") or "<unknown>") != result["id"]:
+                    continue
+                if result.get("value") is not None:
+                    metric["last_value"] = round(float(result["value"]), 4)
+                if result.get("bound"):
+                    metric["last_bound"] = result["bound"]
+
 
 def markdown_report(report: dict) -> str:
     counts = report["counts"]
@@ -419,9 +736,53 @@ def markdown_report(report: dict) -> str:
         "",
         (
             f"- Tracked overlays: {report['entries']}; "
+            f"comparisons: {len(report.get('comparisons') or [])}; "
             f"stale: {counts['stale']}; material: {counts['material']}; review: {counts['review']}."
         ),
     ]
+    if report.get("comparisons"):
+        lines.extend(
+            [
+                "",
+                "| Comparison | Note | Spread | Legs |",
+                "|---|---|---:|---|",
+            ]
+        )
+        for comparison in report["comparisons"]:
+            note = f"[[{comparison['note']}]]" if comparison.get("note") else ""
+            spread = comparison.get("spread_pp")
+            spread_text = "n/a" if spread is None else f"{spread:.1f}pp"
+            legs = "; ".join(
+                (
+                    f"{leg['label']} "
+                    f"({'n/a' if leg.get('price') is None else f'{leg['price']:.1%}'})"
+                )
+                for leg in comparison.get("legs") or []
+            )
+            lines.append(f"| `{comparison['id']}` | {note} | {spread_text} | {legs} |")
+
+    if report.get("derived_metrics"):
+        lines.extend(
+            [
+                "",
+                "| Derived metric | Note | Value | Basis |",
+                "|---|---|---:|---|",
+            ]
+        )
+        for metric in report["derived_metrics"]:
+            note = f"[[{metric['note']}]]" if metric.get("note") else ""
+            value = metric.get("value")
+            unit = metric.get("unit") or ""
+            if value is None:
+                value_text = "n/a"
+            else:
+                prefix = ">=" if metric.get("bound") in {"above", "at_or_above"} else "<" if metric.get("bound") == "below" else ""
+                value_text = f"{prefix}{value:.2f}{unit}"
+            basis = f"{metric.get('percentile', 0.5):.0%} cumulative"
+            if metric.get("condition"):
+                basis += f"; {metric['condition']}"
+            lines.append(f"| {metric['label']} | {note} | {value_text} | {basis} |")
+
     if not report["alerts"]:
         lines.append("- No stale or material prediction-market overlay alerts.")
         return "\n".join(lines)

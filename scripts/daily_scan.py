@@ -157,8 +157,10 @@ def check_prediction_market_watchlist():
         return {"error": result.stdout[:500]}
 
     counts = payload.get("counts", {})
+    comparisons = len(payload.get("comparisons") or [])
     print(
         "  "
+        f"{comparisons} comparisons, "
         f"{counts.get('stale', 0)} stale, "
         f"{counts.get('material', 0)} material, "
         f"{counts.get('review', 0)} review"

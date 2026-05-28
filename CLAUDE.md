@@ -15,6 +15,8 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 9. **Concept extraction**: After edits, scan for terms deserving their own concept note. If yes, create and wikilink in same pass. See `docs/note-checklist.md`.
 10. **No ephemeral notes**: Dated data releases (jobs reports, CPI prints, PMI, GDP) and earnings previews/calendars are NOT standalone notes. They are data points — fold them into the relevant existing concept or actor note (e.g., NFP data → `2026 recession risk`, bank earnings preview → the bank's actor note). A note earns existence by being a **durable, referenceable entity or concept** — not a single release date or a calendar of upcoming dates. Ask: "Will this note still be useful in 6 months, or will it be stale?" If stale → don't create it.
 11. **Cluster validation (public actor notes)**: Every new public-company actor note (with a securities companion) and every concept note that names a peer cohort must include cluster validation: write `scripts/cluster_configs/{primary_ticker}.yaml` defining the candidate cohort + control groups, run `python scripts/cluster_analysis.py --primary TICKER`, embed the dendrogram + summary table in the actor or its parent concept note. The intra-cluster correlation, hierarchical clustering boundary, and PC1 explained variance are required diagnostics — they answer "where does this name actually trade" mathematically, not by analogy. See `docs/cluster-validation.md`.
+12. **Provided chart ingestion**: Every chart, table-like visualization, or screenshot supplied by the user or present in an ingested source must leave a durable vault artifact. If rights allow, save the image to `investing/attachments/` and embed it with attribution. If publisher terms or copyright make copying inappropriate, extract the chart's axes, series, dates, values/estimates, and takeaway into the relevant note instead, cite the source, and state in the daily note that the chart was ingested as extracted data rather than copied.
+13. **Table-safe wikilinks**: In Markdown table cells, never use raw alias wikilinks like `[[Note|alias]]`; the `|` splits the table into extra columns. Prefer `[[Note]]` in tables, or escape the pipe as `[[Note\|alias]]`. Before finishing table-heavy edits, run `rg -n "\|.*\[\[[^\]\\]+\|" .` and fix any unescaped table-cell alias pipes.
 
 ---
 
@@ -34,7 +36,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 
 - gh CLI: `gh` (on PATH)
 - SEC filings: `python scripts/parse_sec_filing.py TICKER` — run with `--help` for full usage
-- Obsidian CLI: `"/c/Users/klein/AppData/Local/Programs/Obsidian/Obsidian.com"` (requires Obsidian running). Key commands: `move`/`rename` (link-preserving), `search query=X`, `unresolved`, `backlinks file=X`, `--help` for full list. When opening notes via `obsidian://open`, always open in a new tab / leaf (use `newleaf=true`).
+- Obsidian CLI: `"/c/Users/klein/AppData/Local/Programs/Obsidian/Obsidian.com"` (requires Obsidian running). Key commands: `move`/`rename` (link-preserving), `search query=X`, `unresolved`, `backlinks file=X`, `--help` for full list. When opening notes for the user, use `obsidian://open?...&paneType=tab` for a new tab. If Obsidian still reuses a tab, focus Obsidian, send `Ctrl+T`, then open the note URI into the blank tab. Do not use the stale `newleaf=true` parameter.
 - YouTube: `python scripts/transcribe_youtube.py URL --save output.txt` (`--language pt` for Portuguese)
 - App: backend `charting_app/app.py` | dashboard `charting_sandbox/chart-dashboard.js` | tests `tests/`
 
@@ -116,7 +118,7 @@ Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `no
 
 **Product note gate:** Major product launch catalyzing an actor update → create product note in same pass. Actor keeps strategy; product carries specs. See `docs/vault-note-guide.md`.
 
-**Harvest source charts:** Save useful charts/visualizations from sources to `investing/attachments/`, embed with attribution.
+**Harvest provided/source charts:** Every chart or visualization provided by the user or present in an ingested source must be ingested. Save and embed the image with attribution when rights allow; otherwise extract its data/structure/takeaway into the relevant note and cite the source. Do not skip charts just because the article text was ingested.
 
 **Cross-vault gate:** After new events or major updates, flag relevant sibling vaults (geopolitics, Brazil, history, technologies). Don't silently skip. See `docs/cross-vault-rules.md`.
 
@@ -133,7 +135,7 @@ Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `no
 This repo hosts the cross-vault workflow skills. For architecture, vault scope, and the Claude/Codex/OpenClaw skill-parity model, see `WORKFLOWS.md` at the repo root.
 
 - `/daily-scan` — autonomous daily market scan: sigma movers, ticker/IPO/private-capital audits, analyst watchlist, earnings calendar, pre-market briefing. See `.claude/skills/daily-scan/SKILL.md`. (Renamed from `/morning-scan` 2026-05-19 — the skill is time-of-day agnostic.)
-- `/substacks [window]` — sweep ~83 tracked newsletter/Substack sources for new posts (default 48h); delegates per-post ingestion to `/ingest`. See `.claude/skills/substacks/SKILL.md`.
+- `/substacks [window]` — sweep ~84 tracked newsletter/Substack sources for new posts (default 48h); delegates per-post ingestion to `/ingest`. See `.claude/skills/substacks/SKILL.md`.
 - `/news <source>` — article ingestion from a named source (Bloomberg, Reuters, FT, WSJ, etc.); delegates per-article ingestion to `/ingest`, then runs a downstream-impact check. See `.claude/skills/news/SKILL.md`.
 - `/ingest` — single-source ingestion (interview, article, filing, screenshots). See `.claude/skills/ingest/SKILL.md`.
 - `/earnings TICKER` — DB check, data insert, chart regen, note update. See `.claude/skills/earnings/SKILL.md`.

@@ -96,6 +96,9 @@ Failure mode this prevents: the first-pass [[Google-Blackstone TPU cloud venture
 
 ### Charts
 
+- [ ] **All provided/source charts ingested** — every user-provided chart, screenshot, table-like graphic, or article visualization has a durable note artifact
+- [ ] Rights path chosen — image saved/embedded with attribution when allowed; otherwise chart axes/series/dates/values/takeaway extracted into note text or tables with source attribution
+- [ ] Daily note records chart disposition (`saved/embedded`, `extracted/not copied`, or follow-up reason)
 - [ ] Price chart has actor + peers/benchmark (not just actor alone)
 - [ ] Fundamentals chart exists (public companies)
 - [ ] Income statement Sankey exists (public companies with income data in DB)
