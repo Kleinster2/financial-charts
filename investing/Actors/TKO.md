@@ -1,5 +1,5 @@
 ---
-aliases: [TKO Group Holdings, TKO Group]
+aliases: [TKO Group Holdings, TKO Group, TKO]
 ---
 #actor #company #media #entertainment #sports #usa #public
 

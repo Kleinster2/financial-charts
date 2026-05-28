@@ -11,7 +11,7 @@ Harvey — leading legal AI company. Customized LLMs for law firms and in-house 
 |--------|-------|
 | Legal name | Counsel AI Corporation |
 | Founded | 2022 (San Francisco) |
-| Valuation | ~$5-8B (latest reports range) |
+| Valuation | $11B (Mar 2026) |
 | Revenue | $190M (2025) |
 | ARR | $100M+ |
 | Total funding | $1B+ |
@@ -43,11 +43,14 @@ Sales team heavily recruited from Big Law (White & Case, Latham, Skadden, Paul W
 | Series C | Jul 2024 | $100M | $1.5B | — |
 | Series D | Feb 2025 | $250M+ | $3B | [[Sequoia Capital]] |
 | Series E | Jun 2025 | — | $5B | — |
-| Late 2025 | Dec 2025 | — | ~$8B (reported) | — |
+| Late 2025 | Dec 2025 | — | ~$8B (reported) | [[Andreessen Horowitz]] |
+| Growth | Mar 2026 | $200M | $11B | [[Sequoia Capital]], [[GIC]] |
 
 Seed investors included [[Jeff Dean]] (Google AI), [[Sarah Guo]] (Conviction), [[Elad Gil]].
 
-Total raised: $1B+ across all rounds.
+Total raised: $1B+ across all rounds. The March 2026 round moved Harvey from the stale late-2025 valuation mark to an $11B current mark.
+
+Source: [TechCrunch, Mar 25 2026](https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/).
 
 ### Ownership estimates
 

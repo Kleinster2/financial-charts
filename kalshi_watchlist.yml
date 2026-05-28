@@ -6,582 +6,864 @@ defaults:
     monthly: 35
     quarterly: 100
   material_move_pp: 10
-
+  cross_provider_divergence_pp: 8
+comparisons:
+- id: bitcoin-150k-2026-cross-venue
+  note: investing/Concepts/Bitcoin.md
+  note_link: Bitcoin
+  threshold_pp: 5
+  thesis: Kalshi and Polymarket should broadly agree on Bitcoin's 2026 $150K right tail.
+  legs:
+  - label: Kalshi BTC $150K by Dec. 31
+    watch_id: btc-upside-2026
+    market_id: KXBTCMAXY-26DEC31-149999.99
+  - label: Polymarket BTC $150K by Dec. 31
+    watch_id: polymarket-bitcoin-150k
+    market_id: will-bitcoin-hit-150k-by-december-31-2026
+- id: spacex-june-ipo-cross-venue
+  note: investing/Events/SpaceX IPO 2026.md
+  note_link: SpaceX IPO 2026
+  threshold_pp: 8
+  thesis: Cross-venue June-listing probability check for SpaceX IPO timing.
+  legs:
+  - label: Kalshi SpaceX IPO before Jul. 1
+    watch_id: spacex-ipo-timing
+    market_id: KXIPOSPACEX-26JUL01
+  - label: Polymarket SpaceX IPO by Jun. 30
+    watch_id: polymarket-spacex-ipo-timing
+    market_id: will-spacex-ipo-by-june-30-2026-372-264-619
+- id: openai-no-2026-ipo-cross-venue
+  note: investing/Concepts/2026 IPO pipeline.md
+  note_link: 2026 IPO pipeline
+  threshold_pp: 8
+  thesis: Cross-venue check on whether OpenAI misses the 2026 IPO window.
+  legs:
+  - label: Kalshi no OpenAI IPO before Jan. 1, 2027
+    watch_id: openai-ipo-timing
+    market_id: KXIPOOPENAI-27JAN01
+    invert: true
+  - label: Polymarket no OpenAI IPO by Dec. 31
+    watch_id: polymarket-openai-ipo-valuation
+    market_id: will-openai-not-ipo-by-december-31-2026
 markets:
-  - id: steam-machine-price
-    note: investing/Actors/Valve.md
-    note_link: Valve
-    source_kind: event_ticker
-    source_ticker: KXSTEAMPRICE-27
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Steam Machine price-expectation overlay; refresh before treating the PC-like price center as current.
-
-  - id: btc-upside-2026
-    note: investing/Concepts/Bitcoin.md
-    note_link: Bitcoin
-    source_kind: series_ticker
-    source_ticker: KXBTCMAXY
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Bitcoin 2026 high-water-mark distribution.
-
-  - id: eth-upside-2026
-    note: investing/Concepts/Ethereum.md
-    note_link: Ethereum
-    source_kind: series_ticker
-    source_ticker: KXETHMAXY
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Ethereum 2026 high-water-mark distribution.
-
-  - id: commodity-weekly-ladders
-    note: investing/Concepts/Commodities.md
-    note_link: Commodities
-    source_kind: series_ticker
-    source_ticker: KXBRENTW
-    cadence: daily
-    last_read: '2026-05-20'
-    thesis: Weekly commodity ladders decay quickly; refresh before using quoted Brent/WTI/gold/silver/copper/gas levels.
-
-  - id: gasoline-cpi-stress
-    note: investing/Concepts/2026 recession risk.md
-    note_link: 2026 recession risk
-    source_kind: series_ticker
-    source_ticker: KXAAAGASM
-    cadence: daily
-    last_read: '2026-05-20'
-    thesis: Consumer inflation stress overlay from gasoline and CPI ladders.
-
-  - id: rates-fed-path
-    note: investing/Concepts/Rate expectations.md
-    note_link: Rate expectations
-    source_kind: series_ticker
-    source_ticker: KXFEDDECISION
-    cadence: daily
-    last_read: '2026-05-20'
-    thesis: FOMC no-change / rate-cut count overlay used for rate-path language.
-
-  - id: ai-labor-challenger
-    note: investing/Concepts/AI labor displacement.md
-    note_link: AI labor displacement
-    source_kind: series_ticker
-    source_ticker: KXCHAICUTS
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Challenger May report AI-attribution market plus labor tape overlay.
-
-  - id: ai-model-leadership
-    note: investing/Concepts/AI benchmarks.md
-    note_link: AI benchmarks
-    source_kind: series_ticker
-    source_ticker: KXLLM1
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Prediction-market overlay on public model-leadership narratives.
-
-  - id: gpu-rental-prices
-    note: investing/Concepts/GPU rental price index.md
-    note_link: GPU rental price index
-    source_kind: series_ticker
-    source_ticker: KXH100MON
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: H100/H200/RTX rental-price scarcity overlay.
-
-  - id: agi-announcement
-    note: investing/Concepts/AGI timelines.md
-    note_link: AGI timelines
-    source_kind: series_ticker
-    source_ticker: KXAGICO
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Public AGI-announcement timing ladder.
-
-  - id: openai-ipo-timing
-    note: investing/Concepts/2026 IPO pipeline.md
-    note_link: 2026 IPO pipeline
-    source_kind: series_ticker
-    source_ticker: KXIPOOPENAI
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: OpenAI IPO timing and CEO-change governance overlay.
-
-  - id: ai-streaming-series
-    note: investing/Concepts/AI Video Generation.md
-    note_link: AI Video Generation
-    source_kind: event_ticker
-    source_ticker: KXAISTREAMSERIES-27
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: First fully AI-generated scripted streaming-series market.
-
-  - id: hormuz-normalization
-    note: investing/Infrastructure/Strait of Hormuz.md
-    note_link: Strait of Hormuz
-    source_kind: series_ticker
-    source_ticker: KXHORMUZNORM
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Hormuz commercial-traffic normalization probability curve.
-
-  - id: taiwan-level-4
-    note: investing/Infrastructure/South China Sea.md
-    note_link: South China Sea
-    source_kind: series_ticker
-    source_ticker: KXTAIWANLVL4
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Taiwan travel-advisory proxy for geopolitical tail risk.
-
-  - id: china-fta
-    note: investing/Concepts/US-China tariffs.md
-    note_link: US-China tariffs
-    source_kind: series_ticker
-    source_ticker: KXFTAPRC
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: US-China detente / trade-deal upside-tail proxy.
-
-  - id: ai-federal-law
-    note: investing/Concepts/AI regulation.md
-    note_link: AI regulation
-    source_kind: series_ticker
-    source_ticker: KXAILEGISLATION
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: US federal AI law before 2027.
-    tracked_markets:
-      - ticker: KXAILEGISLATION-27-JAN01
-        last_price: 0.29
-        status: active
-
-  - id: ai-copyright-scotus
-    note: investing/Concepts/AI regulation.md
-    note_link: AI regulation
-    source_kind: series_ticker
-    source_ticker: KXSCOTUSAICOPYRIGHT
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Supreme Court AI copyright intervention before 2027.
-    tracked_markets:
-      - ticker: KXSCOTUSAICOPYRIGHT-27JAN-AICOPYRIGHT
-        last_price: 0.13
-        status: active
-
-  - id: bitcoin-reserve
-    note: investing/Concepts/Strategic Bitcoin Reserve.md
-    note_link: Strategic Bitcoin Reserve
-    source_kind: series_ticker
-    source_ticker: KXBTCRESERVE
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: National Bitcoin Reserve implementation before 2027.
-    tracked_markets:
-      - ticker: KXBTCRESERVE-27-JAN01
-        last_price: 0.33
-        status: active
-
-  - id: tariff-effective-rate
-    note: investing/Concepts/US-China tariffs.md
-    note_link: US-China tariffs
-    source_kind: series_ticker
-    source_ticker: KXEFFTARIFF
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Q2 2026 effective tariff-rate persistence after IEEPA rollback.
-    tracked_markets:
-      - ticker: KXEFFTARIFF-26JUL30-T7.5
-        last_price: 0.89
-        status: active
-      - ticker: KXEFFTARIFF-26JUL30-T10
-        last_price: 0.20
-        status: active
-
-  - id: tariff-revenue
-    note: investing/Concepts/US-China tariffs.md
-    note_link: US-China tariffs
-    source_kind: series_ticker
-    source_ticker: KXTARIFFREVENUE
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Fiscal materiality of 2026 tariff revenue.
-    tracked_markets:
-      - ticker: KXTARIFFREVENUE-26DEC31-T200
-        last_price: 0.66
-        status: active
-      - ticker: KXTARIFFREVENUE-26DEC31-T250
-        last_price: 0.35
-        status: active
-
-  - id: tariff-scotus-hear
-    note: investing/Events/SCOTUS IEEPA ruling.md
-    note_link: SCOTUS IEEPA ruling
-    source_kind: series_ticker
-    source_ticker: KXTRUMPTARIFFHEAR
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Follow-on Supreme Court tariff-litigation tail.
-    tracked_markets:
-      - ticker: KXTRUMPTARIFFHEAR-27JAN-X
-        last_price: 0.39
-        status: active
-
-  - id: fed-abolition-tail
-    note: investing/Concepts/Fed independence.md
-    note_link: Fed independence
-    source_kind: series_ticker
-    source_ticker: KXFEDEND
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Extreme Fed abolition tail, separate from interference risk.
-    tracked_markets:
-      - ticker: KXFEDEND-29-JAN20
-        last_price: 0.09
-        status: active
-
-  - id: powell-firing-attempt
-    note: investing/Concepts/Fed independence.md
-    note_link: Fed independence
-    source_kind: event_ticker
-    source_ticker: KXTRYFIREPOWELL-26MAY12
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Powell firing-attempt interference risk.
-    tracked_markets:
-      - ticker: KXTRYFIREPOWELL-26MAY12-GOV2
-        last_price: 0.27
-        status: active
-
-  - id: independent-agency-removal
-    note: investing/Concepts/Fed independence.md
-    note_link: Fed independence
-    source_kind: series_ticker
-    source_ticker: KXTRUMPVSLAUGHTER
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Independent-agency removal power via Trump v. Slaughter.
-    tracked_markets:
-      - ticker: KXTRUMPVSLAUGHTER
-        last_price: 0.93
-        status: active
-
-  - id: amazon-antitrust
-    note: investing/Concepts/Weaponized antitrust.md
-    note_link: Weaponized antitrust
-    source_kind: event_ticker
-    source_ticker: AMAZONFTC-29DEC31
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Big Tech monopoly-finding risk as a medium-term antitrust overlay.
-    tracked_markets:
-      - ticker: AMAZONFTC-29DEC31
-        last_price: 0.52
-        status: active
-
-  - id: sec-quarterly-reporting
-    note: investing/Actors/SEC.md
-    note_link: SEC
-    source_kind: series_ticker
-    source_ticker: KXSECQUARTERLY
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Optional quarterly reporting as a 2027 disclosure-regime risk.
-    tracked_markets:
-      - ticker: KXSECQUARTERLY-26MAR-27JAN01
-        last_price: 0.15
-        status: active
-      - ticker: KXSECQUARTERLY-26MAR-27APR01
-        last_price: 0.47
-        status: active
-
-  - id: shutdown-count
-    note: investing/Daily/2026-05-20.md
-    note_link: 2026-05-20
-    source_kind: series_ticker
-    source_ticker: KXNUMSHUTDOWNS
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Daily-note-only shutdown-count signal; promote only after primary-source event check.
-    tracked_markets:
-      - ticker: KXNUMSHUTDOWNS-27JAN01-T2
-        last_price: 0.64
-        status: active
-
-  - id: tesla-q2-deliveries
-    note: investing/Theses/Short Tesla.md
-    note_link: Short Tesla
-    source_kind: event_ticker
-    source_ticker: KXTSLA-26JULDELIV
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Tesla Q2 delivery rebound threshold overlay.
-
-  - id: tesla-q2-production
-    note: investing/Theses/Short Tesla.md
-    note_link: Short Tesla
-    source_kind: event_ticker
-    source_ticker: KXTSLA-26JULPROD
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Tesla Q2 production rebound threshold overlay.
-
-  - id: tesla-energy-scale
-    note: investing/Theses/Short Tesla.md
-    note_link: Short Tesla
-    source_kind: event_ticker
-    source_ticker: KXTESLAENERGYBY-27
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Tesla Energy single-quarter deployment scale overlay.
-
-  - id: tesla-semi-scale
-    note: investing/Theses/Short Tesla.md
-    note_link: Short Tesla
-    source_kind: event_ticker
-    source_ticker: KXTESLASEMI-27JAN
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Tesla Semi delivery-scale optionality before 2027.
-
-  - id: tesla-optimus-sale
-    note: investing/Theses/Short Tesla.md
-    note_link: Short Tesla
-    source_kind: event_ticker
-    source_ticker: TESLAOPTIMUS-26DEC31
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Optimus commercialization tail before 2027.
-
-  - id: spacex-ipo-timing
-    note: investing/Events/SpaceX IPO 2026.md
-    note_link: SpaceX IPO 2026
-    source_kind: event_ticker
-    source_ticker: KXIPOSPACEX
-    cadence: daily
-    last_read: '2026-05-20'
-    thesis: SpaceX June/July IPO execution window.
-
-  - id: starlink-ipo-timing
-    note: investing/Concepts/2026 IPO pipeline.md
-    note_link: 2026 IPO pipeline
-    source_kind: event_ticker
-    source_ticker: KXIPOSTARLINK
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Starlink spinout timing distinct from parent SpaceX listing.
-
-  - id: spacex-launch-cadence
-    note: investing/Events/SpaceX IPO 2026.md
-    note_link: SpaceX IPO 2026
-    source_kind: event_ticker
-    source_ticker: KXSPACEXCOUNT-26B
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: SpaceX 2026 launch-count operating-cadence support for IPO story.
-
-  - id: apple-foldable-announcement
-    note: investing/Theses/Long Apple.md
-    note_link: Long Apple
-    source_kind: event_ticker
-    source_ticker: APPLEFOLD
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Apple foldable-phone announcement timing / ASP optionality.
-    tracked_markets:
-      - ticker: APPLEFOLD-26DEC31
-        last_price: 0.86
-        status: active
-
-  - id: apple-foldable-price
-    note: investing/Theses/Long Apple.md
-    note_link: Long Apple
-    source_kind: event_ticker
-    source_ticker: KXAAPLPRICEFOLD-27
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Foldable iPhone high-end price ladder.
-
-  - id: ai-release-cadence-anthropic
-    note: investing/Concepts/AI benchmarks.md
-    note_link: AI benchmarks
-    source_kind: event_ticker
-    source_ticker: KXCLAUDE5-27
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Anthropic Claude 5 release-cadence expectation.
-
-  - id: ai-release-cadence-openai
-    note: investing/Concepts/AI benchmarks.md
-    note_link: AI benchmarks
-    source_kind: event_ticker
-    source_ticker: KXGPT-OPEN
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: OpenAI GPT-6 release-cadence ladder.
-
-  - id: openai-hardware-form-factor
-    note: investing/Concepts/OpenAI hardware program.md
-    note_link: OpenAI hardware program
-    source_kind: event_ticker
-    source_ticker: KXOAIHARDWARE-27
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: OpenAI / Jony Ive device form-factor distribution.
-
-  - id: openai-hardware-screen
-    note: investing/Concepts/OpenAI hardware program.md
-    note_link: OpenAI hardware program
-    source_kind: event_ticker
-    source_ticker: KXOAISCREEN-27
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: Whether first OpenAI hardware device has a screen.
-
-  - id: openai-nyt-copyright
-    note: investing/Concepts/AI regulation.md
-    note_link: AI regulation
-    source_kind: event_ticker
-    source_ticker: NYTOAI-27DEC31
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: New York Times copyright infringement ruling risk against OpenAI.
-
-  - id: openai-tort-liability
-    note: investing/Concepts/AI regulation.md
-    note_link: AI regulation
-    source_kind: event_ticker
-    source_ticker: KXOAIDAMAGE-28
-    cadence: monthly
-    last_read: '2026-05-20'
-    thesis: OpenAI tort-claim damages tail before 2028.
-
-  - id: polymarket-brazil-presidential-election
-    provider: polymarket
-    note: investing/Events/2026 Brazil presidential election.md
-    note_link: 2026 Brazil presidential election
-    source_kind: event_slug
-    source_ticker: brazil-presidential-election
-    cadence: daily
-    last_read: '2026-05-20'
-    thesis: Polymarket Brazil presidential-election leaderboard; high-reflexivity political market that should be refreshed before citation.
-    tracked_markets:
-      - slug: will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election
-        outcome: 'Yes'
-        label: Luiz Inácio Lula da Silva
-        last_price: 0.455
-        status: active
-      - slug: will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election
-        outcome: 'Yes'
-        label: Flávio Bolsonaro
-        last_price: 0.2805
-        status: active
-      - slug: will-renan-santos-win-the-2026-brazilian-presidential-election
-        outcome: 'Yes'
-        label: Renan Santos
-        last_price: 0.1195
-        status: active
-      - slug: will-romeu-zema-win-the-2026-brazilian-presidential-election
-        outcome: 'Yes'
-        label: Romeu Zema
-        last_price: 0.0545
-        status: active
-
-  - id: polymarket-bitcoin-150k
-    provider: polymarket
-    note: investing/Concepts/Bitcoin.md
-    note_link: Bitcoin
-    source_kind: event_slug
-    source_ticker: when-will-bitcoin-hit-150k
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Polymarket cross-venue check on Bitcoin 2026 right-tail pricing around $150K.
-    tracked_markets:
-      - slug: will-bitcoin-hit-150k-by-june-30-2026
-        outcome: 'Yes'
-        label: Bitcoin $150K by Jun. 30, 2026
-        last_price: 0.0135
-        status: active
-      - slug: will-bitcoin-hit-150k-by-december-31-2026
-        outcome: 'Yes'
-        label: Bitcoin $150K by Dec. 31, 2026
-        last_price: 0.095
-        status: active
-
-  - id: polymarket-spacex-ipo-valuation
-    provider: polymarket
-    note: investing/Events/SpaceX IPO 2026.md
-    note_link: SpaceX IPO 2026
-    source_kind: event_slug
-    source_ticker: spacex-ipo-closing-market-cap-above
-    cadence: daily
-    last_read: '2026-05-20'
-    thesis: Polymarket SpaceX IPO closing-market-cap thresholds; complements Kalshi timing markets with valuation distribution.
-    tracked_markets:
-      - slug: spacex-ipo-closing-market-cap-above-1t-274-469
-        outcome: 'Yes'
-        label: SpaceX IPO closing market cap above $1T
-        last_price: 0.9785
-        status: active
-      - slug: spacex-ipo-closing-market-cap-above-2t-649-783
-        outcome: 'Yes'
-        label: SpaceX IPO closing market cap above $2T
-        last_price: 0.695
-        status: active
-      - slug: spacex-ipo-closing-market-cap-above-3t-337-436
-        outcome: 'Yes'
-        label: SpaceX IPO closing market cap above $3T
-        last_price: 0.185
-        status: active
-
-  - id: polymarket-spacex-ipo-timing
-    provider: polymarket
-    note: investing/Events/SpaceX IPO 2026.md
-    note_link: SpaceX IPO 2026
-    source_kind: event_slug
-    source_ticker: spacex-ipo-by
-    cadence: daily
-    last_read: '2026-05-20'
-    thesis: Polymarket SpaceX IPO timing cross-check against Kalshi's June-listing base case.
-    tracked_markets:
-      - slug: will-spacex-ipo-by-may-31-2026-259
-        outcome: 'Yes'
-        label: SpaceX IPO by May 31, 2026
-        last_price: 0.0025
-        status: active
-      - slug: will-spacex-ipo-by-june-15-2026-789-854
-        outcome: 'Yes'
-        label: SpaceX IPO by Jun. 15, 2026
-        last_price: 0.8435
-        status: active
-      - slug: will-spacex-ipo-by-june-30-2026-372-264-619
-        outcome: 'Yes'
-        label: SpaceX IPO by Jun. 30, 2026
-        last_price: 0.9425
-        status: active
-
-  - id: polymarket-openai-ipo-valuation
-    provider: polymarket
-    note: investing/Concepts/2026 IPO pipeline.md
-    note_link: 2026 IPO pipeline
-    source_kind: event_slug
-    source_ticker: openai-ipo-closing-market-cap
-    cadence: weekly
-    last_read: '2026-05-20'
-    thesis: Polymarket OpenAI IPO closing-market-cap and no-2026-IPO distribution.
-    tracked_markets:
-      - slug: will-openai-not-ipo-by-december-31-2026
-        outcome: 'Yes'
-        label: OpenAI does not IPO by Dec. 31, 2026
-        last_price: 0.745
-        status: active
-      - slug: will-openais-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day
-        outcome: 'Yes'
-        label: OpenAI IPO market cap between $1.25T and $1.5T
-        last_price: 0.0345
-        status: active
-      - slug: will-openais-market-cap-be-less-than-500b-at-market-close-on-ipo-day
-        outcome: 'Yes'
-        label: OpenAI IPO market cap below $500B
-        last_price: 0.0045
-        status: active
+- id: steam-machine-price
+  note: investing/Actors/Valve.md
+  note_link: Valve
+  source_kind: event_ticker
+  source_ticker: KXSTEAMPRICE-27
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Steam Machine price-expectation overlay; refresh before treating the PC-like price center as current.
+- id: btc-upside-2026
+  note: investing/Concepts/Bitcoin.md
+  note_link: Bitcoin
+  source_kind: series_ticker
+  source_ticker: KXBTCMAXY
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Bitcoin 2026 high-water-mark distribution.
+  tracked_markets:
+  - ticker: KXBTCMAXY-26DEC31-149999.99
+    label: Bitcoin above $149,999.99 before Dec. 31, 2026
+    last_price: 0.1
+    status: active
+    close_time: '2027-01-01T04:59:00Z'
+- id: eth-upside-2026
+  note: investing/Concepts/Ethereum.md
+  note_link: Ethereum
+  source_kind: series_ticker
+  source_ticker: KXETHMAXY
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Ethereum 2026 high-water-mark distribution.
+- id: commodity-weekly-ladders
+  note: investing/Concepts/Commodities.md
+  note_link: Commodities
+  source_kind: series_ticker
+  source_ticker: KXBRENTW
+  cadence: daily
+  last_read: '2026-05-28'
+  thesis: Weekly commodity ladders decay quickly; refresh before using quoted Brent/WTI/gold/silver/copper/gas levels.
+- id: gasoline-cpi-stress
+  note: investing/Concepts/2026 recession risk.md
+  note_link: 2026 recession risk
+  source_kind: series_ticker
+  source_ticker: KXAAAGASM
+  cadence: daily
+  last_read: '2026-05-28'
+  thesis: Consumer inflation stress overlay from gasoline and CPI ladders.
+- id: rates-fed-path
+  note: investing/Concepts/Rate expectations.md
+  note_link: Rate expectations
+  source_kind: series_ticker
+  source_ticker: KXFEDDECISION
+  cadence: daily
+  last_read: '2026-05-28'
+  thesis: FOMC no-change / rate-cut count overlay used for rate-path language.
+- id: ai-labor-challenger
+  note: investing/Concepts/AI labor displacement.md
+  note_link: AI labor displacement
+  source_kind: series_ticker
+  source_ticker: KXCHAICUTS
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Challenger May report AI-attribution market plus labor tape overlay.
+- id: ai-model-leadership
+  note: investing/Concepts/AI benchmarks.md
+  note_link: AI benchmarks
+  source_kind: series_ticker
+  source_ticker: KXLLM1
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Prediction-market overlay on public model-leadership narratives.
+- id: gpu-rental-prices
+  note: investing/Concepts/GPU rental price index.md
+  note_link: GPU rental price index
+  source_kind: series_ticker
+  source_ticker: KXH100MON
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: H100/H200/RTX rental-price scarcity overlay.
+- id: agi-announcement
+  note: investing/Concepts/AGI timelines.md
+  note_link: AGI timelines
+  source_kind: series_ticker
+  source_ticker: KXAGICO
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Public AGI-announcement timing ladder.
+- id: openai-ipo-timing
+  note: investing/Concepts/2026 IPO pipeline.md
+  note_link: 2026 IPO pipeline
+  source_kind: series_ticker
+  source_ticker: KXIPOOPENAI
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: OpenAI IPO timing and CEO-change governance overlay.
+  tracked_markets:
+  - ticker: KXIPOOPENAI-27JAN01
+    label: OpenAI IPO before Jan. 1, 2027
+    last_price: 0.86
+    status: active
+    close_time: '2027-01-01T04:59:00Z'
+- id: ai-streaming-series
+  note: investing/Concepts/AI Video Generation.md
+  note_link: AI Video Generation
+  source_kind: event_ticker
+  source_ticker: KXAISTREAMSERIES-27
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: First fully AI-generated scripted streaming-series market.
+- id: hormuz-normalization
+  note: investing/Infrastructure/Strait of Hormuz.md
+  note_link: Strait of Hormuz
+  source_kind: series_ticker
+  source_ticker: KXHORMUZNORM
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Hormuz commercial-traffic normalization probability curve.
+- id: taiwan-level-4
+  note: investing/Infrastructure/South China Sea.md
+  note_link: South China Sea
+  source_kind: series_ticker
+  source_ticker: KXTAIWANLVL4
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Taiwan travel-advisory proxy for geopolitical tail risk.
+- id: china-fta
+  note: investing/Concepts/US-China tariffs.md
+  note_link: US-China tariffs
+  source_kind: series_ticker
+  source_ticker: KXFTAPRC
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: US-China detente / trade-deal upside-tail proxy.
+- id: ai-federal-law
+  note: investing/Concepts/AI regulation.md
+  note_link: AI regulation
+  source_kind: series_ticker
+  source_ticker: KXAILEGISLATION
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: US federal AI law before 2027.
+  tracked_markets:
+  - ticker: KXAILEGISLATION-27-JAN01
+    last_price: 0.2
+    status: active
+    close_time: '2027-01-02T04:59:00Z'
+- id: ai-copyright-scotus
+  note: investing/Concepts/AI regulation.md
+  note_link: AI regulation
+  source_kind: series_ticker
+  source_ticker: KXSCOTUSAICOPYRIGHT
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Supreme Court AI copyright intervention before 2027.
+  tracked_markets:
+  - ticker: KXSCOTUSAICOPYRIGHT-27JAN-AICOPYRIGHT
+    last_price: 0.21
+    status: active
+    close_time: '2027-01-01T15:00:00Z'
+- id: bitcoin-reserve
+  note: investing/Concepts/Strategic Bitcoin Reserve.md
+  note_link: Strategic Bitcoin Reserve
+  source_kind: series_ticker
+  source_ticker: KXBTCRESERVE
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: National Bitcoin Reserve implementation before 2027.
+  tracked_markets:
+  - ticker: KXBTCRESERVE-27-JAN01
+    last_price: 0.24
+    status: active
+    close_time: '2027-01-01T15:00:00Z'
+- id: tariff-effective-rate
+  note: investing/Concepts/US-China tariffs.md
+  note_link: US-China tariffs
+  source_kind: series_ticker
+  source_ticker: KXEFFTARIFF
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Q2 2026 effective tariff-rate persistence after IEEPA rollback.
+  tracked_markets:
+  - ticker: KXEFFTARIFF-26JUL30-T7.5
+    last_price: 0.89
+    status: active
+    close_time: '2026-07-30T12:29:00Z'
+  - ticker: KXEFFTARIFF-26JUL30-T10
+    last_price: 0.15
+    status: active
+    close_time: '2026-07-30T12:29:00Z'
+- id: tariff-revenue
+  note: investing/Concepts/US-China tariffs.md
+  note_link: US-China tariffs
+  source_kind: series_ticker
+  source_ticker: KXTARIFFREVENUE
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Fiscal materiality of 2026 tariff revenue.
+  tracked_markets:
+  - ticker: KXTARIFFREVENUE-26DEC31-T200
+    last_price: 0.66
+    status: active
+    close_time: '2027-06-01T03:59:00Z'
+  - ticker: KXTARIFFREVENUE-26DEC31-T250
+    last_price: 0.35
+    status: active
+    close_time: '2027-06-01T03:59:00Z'
+- id: tariff-scotus-hear
+  note: investing/Events/SCOTUS IEEPA ruling.md
+  note_link: SCOTUS IEEPA ruling
+  source_kind: series_ticker
+  source_ticker: KXTRUMPTARIFFHEAR
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Follow-on Supreme Court tariff-litigation tail.
+  tracked_markets:
+  - ticker: KXTRUMPTARIFFHEAR-27JAN-X
+    last_price: 0.38
+    status: active
+    close_time: '2027-01-01T15:00:00Z'
+- id: fed-abolition-tail
+  note: investing/Concepts/Fed independence.md
+  note_link: Fed independence
+  source_kind: series_ticker
+  source_ticker: KXFEDEND
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Extreme Fed abolition tail, separate from interference risk.
+  tracked_markets:
+  - ticker: KXFEDEND-29-JAN20
+    last_price: 0.075
+    status: active
+    close_time: '2029-01-20T15:00:00Z'
+- id: powell-firing-attempt
+  note: investing/Concepts/Fed independence.md
+  note_link: Fed independence
+  source_kind: event_ticker
+  source_ticker: KXTRYFIREPOWELL-26MAY12
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Powell firing-attempt interference risk.
+  tracked_markets:
+  - ticker: KXTRYFIREPOWELL-26MAY12-GOV2
+    last_price: 0.19
+    status: active
+    close_time: '2027-01-01T15:00:00Z'
+- id: independent-agency-removal
+  note: investing/Concepts/Fed independence.md
+  note_link: Fed independence
+  source_kind: series_ticker
+  source_ticker: KXTRUMPVSLAUGHTER
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Independent-agency removal power via Trump v. Slaughter.
+  tracked_markets:
+  - ticker: KXTRUMPVSLAUGHTER
+    last_price: 0.91
+    status: active
+    close_time: '2027-08-01T14:00:00Z'
+- id: amazon-antitrust
+  note: investing/Concepts/Weaponized antitrust.md
+  note_link: Weaponized antitrust
+  source_kind: event_ticker
+  source_ticker: AMAZONFTC-29DEC31
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Big Tech monopoly-finding risk as a medium-term antitrust overlay.
+  tracked_markets:
+  - ticker: AMAZONFTC-29DEC31
+    last_price: 0.53
+    status: active
+    close_time: '2030-01-01T18:58:00Z'
+- id: sec-quarterly-reporting
+  note: investing/Actors/SEC.md
+  note_link: SEC
+  source_kind: series_ticker
+  source_ticker: KXSECQUARTERLY
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Optional quarterly reporting as a 2027 disclosure-regime risk.
+  tracked_markets:
+  - ticker: KXSECQUARTERLY-26MAR-27JAN01
+    last_price: 0.25
+    status: active
+    close_time: '2027-01-01T04:59:00Z'
+  - ticker: KXSECQUARTERLY-26MAR-27APR01
+    last_price: 0.42
+    status: active
+    close_time: '2027-04-01T03:59:00Z'
+- id: shutdown-count
+  note: investing/Daily/2026-05-20.md
+  note_link: 2026-05-20
+  source_kind: series_ticker
+  source_ticker: KXNUMSHUTDOWNS
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Daily-note-only shutdown-count signal; promote only after primary-source event check.
+  tracked_markets:
+  - ticker: KXNUMSHUTDOWNS-27JAN01-T2
+    last_price: 0.6
+    status: active
+    close_time: '2027-01-01T14:59:00Z'
+- id: tesla-q2-deliveries
+  note: investing/Theses/Short Tesla.md
+  note_link: Short Tesla
+  source_kind: event_ticker
+  source_ticker: KXTSLA-26JULDELIV
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Tesla Q2 delivery rebound threshold overlay.
+- id: tesla-q2-production
+  note: investing/Theses/Short Tesla.md
+  note_link: Short Tesla
+  source_kind: event_ticker
+  source_ticker: KXTSLA-26JULPROD
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Tesla Q2 production rebound threshold overlay.
+- id: tesla-energy-scale
+  note: investing/Theses/Short Tesla.md
+  note_link: Short Tesla
+  source_kind: event_ticker
+  source_ticker: KXTESLAENERGYBY-27
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Tesla Energy single-quarter deployment scale overlay.
+- id: tesla-semi-scale
+  note: investing/Theses/Short Tesla.md
+  note_link: Short Tesla
+  source_kind: event_ticker
+  source_ticker: KXTESLASEMI-27JAN
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Tesla Semi delivery-scale optionality before 2027.
+- id: tesla-optimus-sale
+  note: investing/Theses/Short Tesla.md
+  note_link: Short Tesla
+  source_kind: event_ticker
+  source_ticker: TESLAOPTIMUS-26DEC31
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Optimus commercialization tail before 2027.
+- id: spacex-ipo-timing
+  note: investing/Events/SpaceX IPO 2026.md
+  note_link: SpaceX IPO 2026
+  source_kind: event_ticker
+  source_ticker: KXIPOSPACEX
+  cadence: daily
+  last_read: '2026-05-28'
+  thesis: SpaceX June/July IPO execution window.
+  tracked_markets:
+  - ticker: KXIPOSPACEX-26JUL01
+    label: SpaceX IPO before Jul. 1, 2026
+    last_price: 0.95
+    status: active
+    close_time: '2026-07-01T03:59:00Z'
+- id: starlink-ipo-timing
+  note: investing/Concepts/2026 IPO pipeline.md
+  note_link: 2026 IPO pipeline
+  source_kind: event_ticker
+  source_ticker: KXIPOSTARLINK
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Starlink spinout timing distinct from parent SpaceX listing.
+- id: spacex-launch-cadence
+  note: investing/Events/SpaceX IPO 2026.md
+  note_link: SpaceX IPO 2026
+  source_kind: event_ticker
+  source_ticker: KXSPACEXCOUNT-26B
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: SpaceX 2026 launch-count operating-cadence support for IPO story.
+- id: apple-foldable-announcement
+  note: investing/Theses/Long Apple.md
+  note_link: Long Apple
+  source_kind: event_ticker
+  source_ticker: APPLEFOLD
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Apple foldable-phone announcement timing / ASP optionality.
+  tracked_markets:
+  - ticker: APPLEFOLD-26DEC31
+    last_price: 0.87
+    status: active
+    close_time: '2027-01-01T04:59:00Z'
+- id: apple-foldable-price
+  note: investing/Theses/Long Apple.md
+  note_link: Long Apple
+  source_kind: event_ticker
+  source_ticker: KXAAPLPRICEFOLD-27
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Foldable iPhone high-end price ladder.
+- id: ai-release-cadence-anthropic
+  note: investing/Concepts/AI benchmarks.md
+  note_link: AI benchmarks
+  source_kind: event_ticker
+  source_ticker: KXCLAUDE5-27
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Anthropic Claude 5 release-cadence expectation.
+- id: ai-release-cadence-openai
+  note: investing/Concepts/AI benchmarks.md
+  note_link: AI benchmarks
+  source_kind: event_ticker
+  source_ticker: KXGPT-OPEN
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: OpenAI GPT-6 release-cadence ladder.
+- id: openai-hardware-form-factor
+  note: investing/Concepts/OpenAI hardware program.md
+  note_link: OpenAI hardware program
+  source_kind: event_ticker
+  source_ticker: KXOAIHARDWARE-27
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: OpenAI / Jony Ive device form-factor distribution.
+- id: openai-hardware-screen
+  note: investing/Concepts/OpenAI hardware program.md
+  note_link: OpenAI hardware program
+  source_kind: event_ticker
+  source_ticker: KXOAISCREEN-27
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: Whether first OpenAI hardware device has a screen.
+- id: openai-nyt-copyright
+  note: investing/Concepts/AI regulation.md
+  note_link: AI regulation
+  source_kind: event_ticker
+  source_ticker: NYTOAI-27DEC31
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: New York Times copyright infringement ruling risk against OpenAI.
+- id: openai-tort-liability
+  note: investing/Concepts/AI regulation.md
+  note_link: AI regulation
+  source_kind: event_ticker
+  source_ticker: KXOAIDAMAGE-28
+  cadence: monthly
+  last_read: '2026-05-28'
+  thesis: OpenAI tort-claim damages tail before 2028.
+- id: polymarket-brazil-presidential-election
+  provider: polymarket
+  note: investing/Events/2026 Brazil presidential election.md
+  note_link: 2026 Brazil presidential election
+  source_kind: event_slug
+  source_ticker: brazil-presidential-election
+  cadence: daily
+  last_read: '2026-05-28'
+  thesis: Polymarket Brazil presidential-election leaderboard; high-reflexivity political market that should be refreshed
+    before citation.
+  tracked_markets:
+  - slug: will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election
+    outcome: 'Yes'
+    label: Luiz Inácio Lula da Silva
+    last_price: 0.405
+    status: active
+    close_time: '2026-10-04T00:00:00Z'
+  - slug: will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election
+    outcome: 'Yes'
+    label: Flávio Bolsonaro
+    last_price: 0.2875
+    status: active
+    close_time: '2026-10-04T00:00:00Z'
+  - slug: will-renan-santos-win-the-2026-brazilian-presidential-election
+    outcome: 'Yes'
+    label: Renan Santos
+    last_price: 0.1505
+    status: active
+    close_time: '2026-10-04T00:00:00Z'
+  - slug: will-romeu-zema-win-the-2026-brazilian-presidential-election
+    outcome: 'Yes'
+    label: Romeu Zema
+    last_price: 0.0325
+    status: active
+    close_time: '2026-10-04T00:00:00Z'
+- id: polymarket-bitcoin-150k
+  provider: polymarket
+  note: investing/Concepts/Bitcoin.md
+  note_link: Bitcoin
+  source_kind: event_slug
+  source_ticker: when-will-bitcoin-hit-150k
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Polymarket cross-venue check on Bitcoin 2026 right-tail pricing around $150K.
+  tracked_markets:
+  - slug: will-bitcoin-hit-150k-by-june-30-2026
+    outcome: 'Yes'
+    label: Bitcoin $150K by Jun. 30, 2026
+    last_price: 0.0135
+    status: active
+    close_time: '2026-07-01T04:00:00Z'
+  - slug: will-bitcoin-hit-150k-by-december-31-2026
+    outcome: 'Yes'
+    label: Bitcoin $150K by Dec. 31, 2026
+    last_price: 0.095
+    status: active
+    close_time: '2027-01-01T05:00:00Z'
+- id: polymarket-spacex-ipo-valuation
+  provider: polymarket
+  note: investing/Events/SpaceX IPO 2026.md
+  note_link: SpaceX IPO 2026
+  source_kind: event_slug
+  source_ticker: spacex-ipo-closing-market-cap-above
+  cadence: daily
+  last_read: '2026-05-28'
+  thesis: Polymarket SpaceX IPO closing-market-cap thresholds; complements Kalshi timing markets with valuation distribution.
+  tracked_markets:
+  - slug: spacex-ipo-closing-market-cap-above-1t-274-469
+    outcome: 'Yes'
+    label: SpaceX IPO closing market cap above $1T
+    last_price: 0.977
+    status: active
+    close_time: '2027-12-31T00:00:00Z'
+  - slug: spacex-ipo-closing-market-cap-above-2t-649-783
+    outcome: 'Yes'
+    label: SpaceX IPO closing market cap above $2T
+    last_price: 0.715
+    status: active
+    close_time: '2027-12-31T00:00:00Z'
+  - slug: spacex-ipo-closing-market-cap-above-3t-337-436
+    outcome: 'Yes'
+    label: SpaceX IPO closing market cap above $3T
+    last_price: 0.145
+    status: active
+    close_time: '2027-12-31T00:00:00Z'
+  derived_metrics:
+  - id: spacex-ipo-implied-median-market-cap
+    label: SpaceX IPO implied median closing market cap
+    method: thresholds
+    percentile: 0.5
+    unit: T
+    thresholds:
+    - slug: spacex-ipo-closing-market-cap-above-1t-274-469
+      outcome: 'Yes'
+      label: above $1T
+      threshold: 1.0
+      last_price: 0.977
+    - slug: spacex-ipo-closing-market-cap-above-2t-649-783
+      outcome: 'Yes'
+      label: above $2T
+      threshold: 2.0
+      last_price: 0.715
+    - slug: spacex-ipo-closing-market-cap-above-3t-337-436
+      outcome: 'Yes'
+      label: above $3T
+      threshold: 3.0
+      last_price: 0.145
+    last_value: 2.3772
+    last_bound: interpolated
+- id: polymarket-spacex-ipo-timing
+  provider: polymarket
+  note: investing/Events/SpaceX IPO 2026.md
+  note_link: SpaceX IPO 2026
+  source_kind: event_slug
+  source_ticker: spacex-ipo-by
+  cadence: daily
+  last_read: '2026-05-28'
+  thesis: Polymarket SpaceX IPO timing cross-check against Kalshi's June-listing base case.
+  tracked_markets:
+  - slug: will-spacex-ipo-by-may-31-2026-259
+    outcome: 'Yes'
+    label: SpaceX IPO by May 31, 2026
+    last_price: 0.0005
+    status: active
+    close_time: '2026-05-31T00:00:00Z'
+  - slug: will-spacex-ipo-by-june-15-2026-789-854
+    outcome: 'Yes'
+    label: SpaceX IPO by Jun. 15, 2026
+    last_price: 0.83
+    status: active
+    close_time: '2026-06-15T00:00:00Z'
+  - slug: will-spacex-ipo-by-june-30-2026-372-264-619
+    outcome: 'Yes'
+    label: SpaceX IPO by Jun. 30, 2026
+    last_price: 0.9415
+    status: active
+    close_time: '2026-06-30T00:00:00Z'
+- id: polymarket-openai-ipo-valuation
+  provider: polymarket
+  note: investing/Concepts/2026 IPO pipeline.md
+  note_link: 2026 IPO pipeline
+  source_kind: event_slug
+  source_ticker: openai-ipo-closing-market-cap
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Polymarket OpenAI IPO closing-market-cap and no-2026-IPO distribution.
+  tracked_markets:
+  - slug: will-openai-not-ipo-by-december-31-2026
+    outcome: 'Yes'
+    label: OpenAI does not IPO by Dec. 31, 2026
+    last_price: 0.305
+    status: active
+    close_time: '2026-06-30T00:00:00Z'
+  - slug: will-openais-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day
+    outcome: 'Yes'
+    label: OpenAI IPO market cap between $1.25T and $1.5T
+    last_price: 0.135
+    status: active
+    close_time: '2026-06-30T00:00:00Z'
+  - slug: will-openais-market-cap-be-less-than-500b-at-market-close-on-ipo-day
+    outcome: 'Yes'
+    label: OpenAI IPO market cap below $500B
+    last_price: 0.0105
+    status: active
+    close_time: '2026-06-30T00:00:00Z'
+  - slug: will-openais-market-cap-be-between-500b-and-750b-at-market-close-on-ipo-day
+    outcome: 'Yes'
+    label: OpenAI IPO market cap between $500B and $750B
+    last_price: 0.039
+    status: active
+    close_time: '2026-06-30T00:00:00Z'
+  - slug: will-openais-market-cap-be-between-750b-and-1t-at-market-close-on-ipo-day
+    outcome: 'Yes'
+    label: OpenAI IPO market cap between $750B and $1T
+    last_price: 0.0855
+    status: active
+    close_time: '2026-06-30T00:00:00Z'
+  - slug: will-openais-market-cap-be-between-1t-and-1pt25t-at-market-close-on-ipo-day
+    outcome: 'Yes'
+    label: OpenAI IPO market cap between $1T and $1.25T
+    last_price: 0.1335
+    status: active
+    close_time: '2026-06-30T00:00:00Z'
+  - slug: will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day
+    outcome: 'Yes'
+    label: OpenAI IPO market cap above $1.5T
+    last_price: 0.297
+    status: active
+    close_time: '2026-06-30T00:00:00Z'
+  derived_metrics:
+  - id: openai-ipo-implied-median-market-cap
+    label: OpenAI IPO implied median closing market cap
+    method: bands
+    percentile: 0.5
+    unit: T
+    condition: conditional on IPO by Dec. 31, 2026; excludes the no-IPO leg
+    bins:
+    - slug: will-openais-market-cap-be-less-than-500b-at-market-close-on-ipo-day
+      outcome: 'Yes'
+      label: below $500B
+      lower: 0.0
+      upper: 0.5
+      last_price: 0.0105
+    - slug: will-openais-market-cap-be-between-500b-and-750b-at-market-close-on-ipo-day
+      outcome: 'Yes'
+      label: $500B-$750B
+      lower: 0.5
+      upper: 0.75
+      last_price: 0.039
+    - slug: will-openais-market-cap-be-between-750b-and-1t-at-market-close-on-ipo-day
+      outcome: 'Yes'
+      label: $750B-$1T
+      lower: 0.75
+      upper: 1.0
+      last_price: 0.0855
+    - slug: will-openais-market-cap-be-between-1t-and-1pt25t-at-market-close-on-ipo-day
+      outcome: 'Yes'
+      label: $1T-$1.25T
+      lower: 1.0
+      upper: 1.25
+      last_price: 0.1335
+    - slug: will-openais-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day
+      outcome: 'Yes'
+      label: $1.25T-$1.5T
+      lower: 1.25
+      upper: 1.5
+      last_price: 0.135
+    - slug: will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day
+      outcome: 'Yes'
+      label: above $1.5T
+      lower: 1.5
+      last_price: 0.297
+    last_value: 1.4014
+    last_bound: interpolated
+- id: polymarket-anthropic-valuation-2026
+  provider: polymarket
+  note: investing/Actors/Anthropic.md
+  note_link: Anthropic
+  source_kind: event_slug
+  source_ticker: will-anthropics-valuation-hit-by-december-31
+  cadence: weekly
+  last_read: '2026-05-28'
+  thesis: Polymarket threshold ladder for Anthropic's 2026 Nasdaq Private Market valuation high-water mark.
+  tracked_markets:
+  - slug: will-anthropics-valuation-hit-high-1pt0t-by-december-31-878
+    outcome: 'Yes'
+    label: Anthropic valuation high-water mark above $1.0T by Dec. 31, 2026
+    last_price: 0.9905
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-high-1pt1t-by-december-31-646
+    outcome: 'Yes'
+    label: Anthropic valuation high-water mark above $1.1T by Dec. 31, 2026
+    last_price: 0.9625
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-high-1pt25t-by-december-31-429
+    outcome: 'Yes'
+    label: Anthropic valuation high-water mark above $1.25T by Dec. 31, 2026
+    last_price: 0.9
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-high-1pt5t-by-december-31-797
+    outcome: 'Yes'
+    label: Anthropic valuation high-water mark above $1.5T by Dec. 31, 2026
+    last_price: 0.76
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-high-1pt75t-by-december-31-328
+    outcome: 'Yes'
+    label: Anthropic valuation high-water mark above $1.75T by Dec. 31, 2026
+    last_price: 0.595
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-high-2pt0t-by-december-31-922
+    outcome: 'Yes'
+    label: Anthropic valuation high-water mark above $2.0T by Dec. 31, 2026
+    last_price: 0.465
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-high-2pt5t-by-december-31-169
+    outcome: 'Yes'
+    label: Anthropic valuation high-water mark above $2.5T by Dec. 31, 2026
+    last_price: 0.395
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-high-3pt0t-by-december-31
+    outcome: 'Yes'
+    label: Anthropic valuation high-water mark above $3.0T by Dec. 31, 2026
+    last_price: 0.225
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-high-4pt0t-by-december-31
+    outcome: 'Yes'
+    label: Anthropic valuation high-water mark above $4.0T by Dec. 31, 2026
+    last_price: 0.105
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-high-5pt0t-by-december-31
+    outcome: 'Yes'
+    label: Anthropic valuation high-water mark above $5.0T by Dec. 31, 2026
+    last_price: 0.075
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-low-600b-by-december-31-732
+    outcome: 'Yes'
+    label: Anthropic valuation low-water mark below $600B by Dec. 31, 2026
+    last_price: 0.075
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-low-700b-by-december-31-928
+    outcome: 'Yes'
+    label: Anthropic valuation low-water mark below $700B by Dec. 31, 2026
+    last_price: 0.095
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  - slug: will-anthropics-valuation-hit-low-800b-by-december-31-957-743
+    outcome: 'Yes'
+    label: Anthropic valuation low-water mark below $800B by Dec. 31, 2026
+    last_price: 0.115
+    status: active
+    close_time: '2027-01-01T12:00:00Z'
+  derived_metrics:
+  - id: anthropic-2026-npm-high-implied-median-valuation
+    label: Anthropic 2026 NPM high-water implied median valuation
+    method: thresholds
+    percentile: 0.5
+    unit: T
+    condition: high-water Nasdaq Private Market valuation by Dec. 31, 2026
+    thresholds:
+    - slug: will-anthropics-valuation-hit-high-1pt0t-by-december-31-878
+      outcome: 'Yes'
+      label: above $1.0T
+      threshold: 1.0
+      last_price: 0.9905
+    - slug: will-anthropics-valuation-hit-high-1pt1t-by-december-31-646
+      outcome: 'Yes'
+      label: above $1.1T
+      threshold: 1.1
+      last_price: 0.9625
+    - slug: will-anthropics-valuation-hit-high-1pt25t-by-december-31-429
+      outcome: 'Yes'
+      label: above $1.25T
+      threshold: 1.25
+      last_price: 0.9
+    - slug: will-anthropics-valuation-hit-high-1pt5t-by-december-31-797
+      outcome: 'Yes'
+      label: above $1.5T
+      threshold: 1.5
+      last_price: 0.76
+    - slug: will-anthropics-valuation-hit-high-1pt75t-by-december-31-328
+      outcome: 'Yes'
+      label: above $1.75T
+      threshold: 1.75
+      last_price: 0.595
+    - slug: will-anthropics-valuation-hit-high-2pt0t-by-december-31-922
+      outcome: 'Yes'
+      label: above $2.0T
+      threshold: 2.0
+      last_price: 0.465
+    - slug: will-anthropics-valuation-hit-high-2pt5t-by-december-31-169
+      outcome: 'Yes'
+      label: above $2.5T
+      threshold: 2.5
+      last_price: 0.395
+    - slug: will-anthropics-valuation-hit-high-3pt0t-by-december-31
+      outcome: 'Yes'
+      label: above $3.0T
+      threshold: 3.0
+      last_price: 0.225
+    - slug: will-anthropics-valuation-hit-high-4pt0t-by-december-31
+      outcome: 'Yes'
+      label: above $4.0T
+      threshold: 4.0
+      last_price: 0.105
+    - slug: will-anthropics-valuation-hit-high-5pt0t-by-december-31
+      outcome: 'Yes'
+      label: above $5.0T
+      threshold: 5.0
+      last_price: 0.075
+    last_value: 1.9327
+    last_bound: interpolated

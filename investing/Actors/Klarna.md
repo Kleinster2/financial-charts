@@ -1,9 +1,9 @@
 ---
-aliases: [Klarna Bank]
+aliases: [Klarna Bank, KLAR]
 ---
-#actor #company #fintech #bnpl #sweden #private
+#actor #company #fintech #bnpl #sweden #public
 
-**Klarna** — World's largest BNPL provider. 150M+ users. Swedish. IPO expected 2025.
+**Klarna** — World's largest BNPL provider. Swedish. Public on the NYSE as `KLAR`; by May 2026 the stock traded far below its IPO price, shifting the note from pre-IPO watch to public fintech execution/rerating risk.
 
 ---
 
@@ -11,9 +11,9 @@ aliases: [Klarna Bank]
 
 | Metric | Value |
 |--------|-------|
-| Valuation | ~$15B (down from $46B) |
-| Users | 150M+ |
-| Merchants | 500K+ |
+| Market cap | ~$5-6B (May 2026) |
+| Ticker | KLAR (NYSE) |
+| Revenue | $1.01B in Q1 2026 (+44% YoY) |
 | HQ | Stockholm |
 | Founded | 2005 |
 
@@ -55,7 +55,8 @@ Strong in [[Europe]], investing in US.
 | 2021 | **$46B** | Peak ([[SoftBank]] round) |
 | 2022 | $6.7B | Down round |
 | 2024 | ~$15B | Recovery |
-| 2025 | IPO target | US listing expected |
+| 2025 | IPO | NYSE listing under `KLAR`; later traded sharply below IPO price |
+| May 2026 | ~$5-6B market cap | Q1 revenue beat, but public multiple still compressed |
 
 Major down round in 2022.
 
@@ -98,10 +99,10 @@ Sebastian Siemiatkowski aggressive on AI.
 
 | Aspect | Detail |
 |--------|--------|
-| Timeline | 2025 expected |
-| Exchange | US (NYSE or [[Nasdaq]]) |
-| [[Target]] | $15-20B+ |
-| Obstacle | Need sustained profitability |
+| Status | Completed |
+| Exchange | NYSE |
+| Ticker | KLAR |
+| Post-IPO issue | Public market now prices BNPL credit/regulation risk rather than pre-IPO scarcity |
 
 ---
 
@@ -120,12 +121,14 @@ Sebastian Siemiatkowski aggressive on AI.
 
 | Metric | Value |
 |--------|-------|
-| Valuation | ~$15B |
-| Users | 150M+ |
-| Status | IPO expected 2025 |
+| Market cap | ~$5-6B (May 2026) |
+| Ticker | KLAR |
+| Status | Public |
 | HQ | Stockholm |
 
 ---
+
+Sources: [StockAnalysis KLAR profile](https://stockanalysis.com/stocks/klar/); [StockAnalysis KLAR revenue](https://stockanalysis.com/stocks/klar/revenue/); [Klarna Q1 2026 earnings event](https://quartr.com/events/klarna-group-plc-klar-q1-2026_oC8SzBMT).
 
 ## Related
 

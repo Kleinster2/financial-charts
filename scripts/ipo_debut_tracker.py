@@ -48,6 +48,11 @@ import sys
 from datetime import datetime, date
 from pathlib import Path
 
+try:
+    import yaml
+except ImportError:  # pragma: no cover - repo tooling normally has PyYAML
+    yaml = None
+
 ROOT = Path(__file__).parent.parent
 ACTORS = ROOT / "investing" / "Actors"
 DB = ROOT / "market_data.db"
@@ -57,14 +62,14 @@ DB = ROOT / "market_data.db"
 # Order is rough valuation rank (highest first) but doesn't have to be exact.
 DEFAULT_PRIVATE_WATCH = [
     # Megacap AI / infra
-    "OpenAI", "Anthropic", "SpaceX", "xAI", "Stripe", "Databricks",
+    "OpenAI", "Anthropic", "SpaceX", "Stripe", "Databricks",
     # Prediction markets / fintech
-    "Kalshi", "Polymarket", "Klarna", "Mercury", "Brex", "Ramp", "Plaid",
+    "Kalshi", "Polymarket", "Mercury", "Ramp", "Plaid",
     # AI tooling
     "Cursor", "Anysphere", "Mistral", "ElevenLabs", "Cohere", "Perplexity",
     "Replit", "Glean", "Harvey", "EvenUp", "Suno", "Runway", "Sierra",
     # Consumer / design
-    "Canva", "Figma", "Discord",
+    "Canva", "Discord",
 ]
 
 TICKER_RE = re.compile(r"^[A-Z]{1,6}$")
@@ -83,6 +88,32 @@ BODY_TICKER_PATTERNS = [
 ]
 
 
+def parse_frontmatter(text):
+    """Return YAML frontmatter as a dict when present and parseable."""
+    if yaml is None or not text.startswith("---"):
+        return {}
+    match = re.match(r"^---\s*\n(.*?)\n---\s*", text, re.DOTALL)
+    if not match:
+        return {}
+    try:
+        data = yaml.safe_load(match.group(1)) or {}
+    except Exception:
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def list_field(data, key):
+    value = data.get(key)
+    if isinstance(value, list):
+        return [str(item).strip().strip("'\"") for item in value if str(item).strip()]
+    if isinstance(value, str):
+        text = value.strip()
+        if text.startswith("[") and text.endswith("]"):
+            text = text[1:-1]
+        return [item.strip().strip("'\"") for item in text.split(",") if item.strip()]
+    return []
+
+
 def get_db_tickers():
     if not DB.exists():
         return set()
@@ -96,11 +127,20 @@ def get_db_tickers():
 
 
 def extract_aliases(text):
-    m = re.search(r"^aliases:\s*\[(.*?)\]", text, flags=re.MULTILINE)
-    if not m:
-        return set()
-    raw = [a.strip().strip("'\"") for a in m.group(1).split(",") if a.strip()]
-    return {a for a in raw if TICKER_RE.match(a) and a not in SKIP}
+    fm = parse_frontmatter(text)
+    raw = list_field(fm, "aliases") + list_field(fm, "ticker")
+    if not raw:
+        # Legacy fallback for malformed notes without parseable frontmatter.
+        m = re.search(r"^aliases:\s*\[(.*?)\]", text, flags=re.MULTILINE)
+        if m:
+            raw = [a.strip().strip("'\"") for a in m.group(1).split(",") if a.strip()]
+    found = set()
+    for item in raw:
+        token = item.upper()
+        for candidate in (token, re.split(r"[-.]", token)[0]):
+            if TICKER_RE.match(candidate) and candidate not in SKIP:
+                found.add(candidate)
+    return found
 
 
 def extract_body_tickers(text):
@@ -136,7 +176,12 @@ def find_note_by_name_substring(query):
 
 
 def is_private(text):
-    tags = set(re.findall(r"(?:^|\s)#([a-z][a-z0-9-]*)", text))
+    tags = {
+        tag
+        for tag in list_field(parse_frontmatter(text), "tags")
+        if re.match(r"^[a-z][a-z0-9-]*$", tag)
+    }
+    tags.update(re.findall(r"(?:^|\s)#([a-z][a-z0-9-]*)", text))
     return "private" in tags
 
 
@@ -204,7 +249,12 @@ def scan_stale_private():
 
 # Funding-section heading patterns (case-insensitive).
 FUNDING_HEADERS = re.compile(
-    r"^\s{0,3}#{2,3}\s+(funding\s+(?:rounds?|history)|cap\s+table|valuation\s+history)\s*$",
+    r"^\s{0,3}#{2,3}\s+("
+    r"funding(?:\s+(?:rounds?|history))?"
+    r"|cap\s+table(?:\s*/\s*investors)?"
+    r"|valuation\s+history"
+    r"|\d{4}\s+valuation\s+run"
+    r")\s*$",
     re.IGNORECASE | re.MULTILINE,
 )
 

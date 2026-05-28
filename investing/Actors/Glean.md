@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #enterprise #usa #private
 
-**Glean** — Enterprise AI search. $7.2B valuation. 100M+ agent actions/year. Ex-Google founders.
+**Glean** — Enterprise AI search and agent platform. $7.2B valuation after a May 2026 Series F. 100M+ agent actions/year. Ex-Google founders.
 
 ---
 
@@ -13,9 +13,9 @@ Enterprise search + [[AI agents]] at scale:
 
 | Metric | Value |
 |--------|-------|
-| Valuation | $7.2B (June 2025) |
+| Valuation | $7.2B (May 2026) |
 | ARR | $100M+ |
-| Total raised | $610M |
+| Total raised | $600M+ |
 | Agent actions | 100M+/year |
 
 ---
@@ -30,8 +30,8 @@ Enterprise search + [[AI agents]] at scale:
 | Series C | 2022 | $100M | $1B |
 | Series D | 2024 | $200M | $2.2B |
 | Series E | Late 2024 | — | $4.6B |
-| Series F | June 2025 | $230M | $7.2B |
-| **Total** | | **$610M** | |
+| Series F | May 2026 | $150M+ | $7.2B |
+| **Total** | | **$600M+** | |
 
 **Key investors:**
 
@@ -44,7 +44,9 @@ Enterprise search + [[AI agents]] at scale:
 | [[Kleiner Perkins]] | Growth |
 | [[General Catalyst]] | Growth |
 
-**Total raised:** $610M
+**Total raised:** $600M+
+
+Source: [Glean Series F announcement, May 19 2026](https://www.glean.com/blog/glean-series-f-announcement).
 
 ---
 

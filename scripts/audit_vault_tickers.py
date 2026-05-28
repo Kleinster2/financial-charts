@@ -30,6 +30,11 @@ import sqlite3
 import sys
 from pathlib import Path
 
+try:
+    import yaml
+except ImportError:  # pragma: no cover - repo tooling normally has PyYAML
+    yaml = None
+
 ROOT = Path(__file__).parent.parent
 ACTORS = ROOT / "investing" / "Actors"
 DB = ROOT / "market_data.db"
@@ -59,13 +64,47 @@ BODY_TICKER_PATTERNS = [
 ]
 
 
+def parse_frontmatter(text):
+    """Return YAML frontmatter as a dict when present and parseable."""
+    if yaml is None or not text.startswith("---"):
+        return {}
+    match = re.match(r"^---\s*\n(.*?)\n---\s*", text, re.DOTALL)
+    if not match:
+        return {}
+    try:
+        data = yaml.safe_load(match.group(1)) or {}
+    except Exception:
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def list_field(data, key):
+    value = data.get(key)
+    if isinstance(value, list):
+        return [str(item).strip().strip("'\"") for item in value if str(item).strip()]
+    if isinstance(value, str):
+        text = value.strip()
+        if text.startswith("[") and text.endswith("]"):
+            text = text[1:-1]
+        return [item.strip().strip("'\"") for item in text.split(",") if item.strip()]
+    return []
+
+
 def extract_aliases(text):
-    """Return uppercase-ticker aliases plus the raw aliases list."""
-    m = re.search(r"^aliases:\s*\[(.*?)\]", text, flags=re.MULTILINE)
-    if not m:
-        return set(), []
-    raw = [a.strip().strip("'\"") for a in m.group(1).split(",") if a.strip()]
-    tickers = {a for a in raw if TICKER_RE.match(a) and a not in SKIP}
+    """Return exposed ticker aliases plus the raw aliases/ticker list."""
+    fm = parse_frontmatter(text)
+    raw = list_field(fm, "aliases") + list_field(fm, "ticker")
+    if not raw:
+        # Legacy fallback for malformed notes without parseable frontmatter.
+        m = re.search(r"^aliases:\s*\[(.*?)\]", text, flags=re.MULTILINE)
+        if m:
+            raw = [a.strip().strip("'\"") for a in m.group(1).split(",") if a.strip()]
+    tickers = set()
+    for item in raw:
+        token = item.upper()
+        for candidate in (token, re.split(r"[-.]", token)[0]):
+            if TICKER_RE.match(candidate) and candidate not in SKIP:
+                tickers.add(candidate)
     return tickers, raw
 
 
@@ -81,20 +120,88 @@ def extract_table_tickers(text):
     return found
 
 
-def extract_body_tickers(text):
-    """Return tickers mentioned in body via NYSE:/NASDAQ:/Ticker: patterns."""
+def _name_marker(name):
+    return re.sub(r"[^a-z0-9]+", "", name.lower())
+
+
+def _looks_like_own_ticker(text, match, actor_name):
+    """Heuristic: exchange/trades-as mentions must name this actor nearby first."""
+    if not actor_name:
+        return True
+    marker = _name_marker(actor_name)
+    if not marker:
+        return True
+    before = text[max(0, match.start() - 240):match.start()]
+    before = re.sub(r"[^a-z0-9]+", "", before.lower())
+    # Prefer the start/end of the stem so "Altice USA" still matches "Altice".
+    probes = {marker}
+    if len(marker) > 8:
+        probes.add(marker[:8])
+        probes.add(marker[-8:])
+    nearby = text[max(0, match.start() - 120):match.start()]
+    nearby_lower = nearby.lower()
+    relationship_terms = (
+        "subsidiary of",
+        "acquired by",
+        "owned by",
+        "parent",
+        "former ticker",
+        "formerly",
+        "founder of",
+        "co-founder of",
+        "competitor",
+        "buyer",
+        "investor",
+        "stake",
+        "joint venture between",
+        "separately listed",
+    )
+    if any(term in nearby_lower for term in relationship_terms):
+        return False
+
+    # If the immediate subject is a wikilink, require that subject to be the
+    # current actor. This avoids turning parent/peer tickers into child aliases.
+    links = list(re.finditer(r"\[\[([^\]|#]+)", nearby))
+    if links and links[-1].end() >= len(nearby) - 40:
+        subject = _name_marker(links[-1].group(1))
+        return any(probe and probe in subject for probe in probes)
+
+    bold = list(re.finditer(r"\*\*([^*]+)\*\*", nearby))
+    if bold and bold[-1].end() >= len(nearby) - 40:
+        subject = _name_marker(bold[-1].group(1))
+        return any(probe and probe in subject for probe in probes)
+
+    clause = re.split(r"[\n.;|:]", nearby)[-1]
+    clause = re.sub(r"[^a-z0-9]+", "", clause.lower())
+    return any(probe and probe in clause for probe in probes)
+
+
+def extract_body_tickers(text, actor_name=None):
+    """Return own tickers mentioned in body via NYSE:/NASDAQ:/Ticker: patterns."""
     found = set()
     for pat in BODY_TICKER_PATTERNS:
         for m in pat.finditer(text):
             t = m.group(1).upper()
-            if TICKER_RE.match(t) and t not in SKIP:
+            # "Ticker: XYZ" is usually an explicit self-description. Exchange
+            # and "trades as" mentions often refer to parents, buyers, peers, or
+            # counterparties, so require the actor's name nearby before them.
+            explicit_ticker_field = pat.pattern.startswith(r"\bTicker")
+            if (
+                TICKER_RE.match(t)
+                and t not in SKIP
+                and (explicit_ticker_field or _looks_like_own_ticker(text, m, actor_name))
+            ):
                 found.add(t)
     return found
 
 
 def extract_tags(text):
     """Return the set of #tags in the note body."""
-    tags = set()
+    tags = {
+        tag
+        for tag in list_field(parse_frontmatter(text), "tags")
+        if re.match(r"^[a-z][a-z0-9-]*$", tag)
+    }
     for m in re.finditer(r"(?:^|\s)#([a-z][a-z0-9-]*)", text):
         tags.add(m.group(1))
     return tags
@@ -122,7 +229,7 @@ def audit_note(path, db_tickers):
 
     alias_tickers, _ = extract_aliases(text)
     table_tickers = extract_table_tickers(text)
-    body_tickers = extract_body_tickers(text)
+    body_tickers = extract_body_tickers(text, path.stem)
     tags = extract_tags(text)
 
     exposed = alias_tickers | table_tickers  # what quick_movers.py sees

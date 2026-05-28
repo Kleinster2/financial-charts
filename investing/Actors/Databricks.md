@@ -37,6 +37,8 @@ Largest private enterprise software company, AI infrastructure critical:
 | Series L | Dec 2025 | $4B+ | $134B |
 | **Total** | | **$10B+** | |
 
+Source: [Databricks / PRNewswire, Dec 16 2025](https://www.prnewswire.com/news-releases/databricks-grows-55-yoy-surpasses-4-8b-revenue-run-rate-and-is-raising-4b-series-l-at-134b-valuation-302643445.html); [Reuters via Investing.com, Dec 16 2025](https://www.investing.com/news/stock-market-news/data-analytics-firm-databricks-valued-at-134-billion-in-latest-funding-round-4410737).
+
 **Key investors:**
 
 | Investor | Notes |

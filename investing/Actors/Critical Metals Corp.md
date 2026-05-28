@@ -1,3 +1,8 @@
+---
+aliases: [CRML]
+tags: [actor, company, mining, rareearths, greenland, public]
+---
+
 #company #mining #rareearths #greenland #crml
 
 **Critical Metals Corp** (CRML) — Emerging rare earth mining company developing the Tanbreez project in Greenland, one of the world's largest untapped rare earth deposits. Ticker: CRML.

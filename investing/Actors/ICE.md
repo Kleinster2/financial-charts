@@ -1,5 +1,5 @@
 ---
-aliases: [Intercontinental Exchange, ICE Futures]
+aliases: [Intercontinental Exchange, ICE Futures, ICE]
 tags: [actor, exchange, derivatives]
 ---
 

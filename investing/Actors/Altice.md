@@ -1,3 +1,8 @@
+---
+aliases: [Altice USA, Optimum Communications, OPTU, ATUS]
+tags: [actor, telecom, cable, public, usa, europe, distressed]
+---
+
 # Altice
 
 Debt-laden telecom empire controlled by [[Patrick Drahi]], spanning the US (Optimum), France (SFR), Portugal, Israel, and the Caribbean. Once valued at over $60B, now fighting creditors for survival as the leverage that built the empire unwinds.

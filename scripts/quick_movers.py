@@ -18,6 +18,11 @@ import math
 from pathlib import Path
 
 try:
+    import yaml
+except ImportError:  # pragma: no cover - repo tooling normally has PyYAML
+    yaml = None
+
+try:
     import duckdb
     HAS_DUCKDB = True
 except ImportError:
@@ -37,6 +42,50 @@ BETA_LOOKBACK = 120  # trading days for beta estimation
 BENCHMARK = "SPY"
 
 
+def _frontmatter(text):
+    """Return YAML frontmatter as a dict when present."""
+    if yaml is None or not text.startswith("---"):
+        return {}
+    match = re.match(r"^---\s*\n(.*?)\n---\s*", text, re.DOTALL)
+    if not match:
+        return {}
+    try:
+        data = yaml.safe_load(match.group(1)) or {}
+    except Exception:
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def _list_field(data, key):
+    value = data.get(key)
+    if isinstance(value, list):
+        return [str(item).strip().strip("'\"") for item in value if str(item).strip()]
+    if isinstance(value, str):
+        text = value.strip()
+        if text.startswith("[") and text.endswith("]"):
+            text = text[1:-1]
+        return [item.strip().strip("'\"") for item in text.split(",") if item.strip()]
+    return []
+
+
+def extract_alias_tickers(text):
+    """Extract ticker-like aliases/ticker fields from YAML frontmatter."""
+    fm = _frontmatter(text)
+    raw = _list_field(fm, "aliases") + _list_field(fm, "ticker")
+    if not raw:
+        # Legacy fallback for malformed notes without parseable frontmatter.
+        match = re.search(r"aliases:\s*\[(.*?)\]", text)
+        if match:
+            raw = [a.strip().strip("'\"") for a in match.group(1).split(",") if a.strip()]
+    found = set()
+    for item in raw:
+        token = item.upper()
+        for candidate in (token, re.split(r"[-.]", token)[0]):
+            if re.match(r"^[A-Z]{1,6}$", candidate) and candidate not in SKIP:
+                found.add(candidate)
+    return found
+
+
 def get_vault_tickers():
     """Extract ticker candidates from vault actor notes."""
     candidates = {}
@@ -45,12 +94,8 @@ def get_vault_tickers():
             text = f.read_text(encoding="utf-8", errors="ignore")[:2000]
         except Exception:
             continue
-        am = re.search(r"aliases:\s*\[(.*?)\]", text)
-        if am:
-            for a in am.group(1).split(","):
-                a = a.strip().strip("'\"")
-                if re.match(r"^[A-Z]{1,6}$", a) and a not in SKIP:
-                    candidates[a] = f.stem
+        for ticker in extract_alias_tickers(text):
+            candidates[ticker] = f.stem
         tm = re.search(r"\|\s*Tickers?\s*\|\s*([^\|]+)\|", text, re.IGNORECASE)
         if tm:
             for part in re.split(r"[,;]", tm.group(1).strip()):
