@@ -14,6 +14,7 @@ Overview of the cybersecurity industry.
 | [[Segment]] | Key players | Trend |
 |---------|-------------|-------|
 | **Network security** | [[Palo Alto Networks]], [[Fortinet]], [[Cisco]] | Platform consolidation |
+| [[SASE]] / secure access | [[Zscaler]], [[Palo Alto Networks]], [[Fortinet]], [[Cloudflare]] | Zero trust and SD-WAN converge |
 | Endpoint/XDR | [[CrowdStrike]], [[SentinelOne]], Microsoft | Cloud-native winning |
 | Identity | [[Okta]], [[CyberArk]], Microsoft | Zero trust adoption |
 | Cloud security | Palo Alto (Prisma), [[Wiz]], Orca | Fastest growth |
@@ -29,7 +30,7 @@ Overview of the cybersecurity industry.
 | [[Palo Alto Networks]] | ~$120B | Enterprise platform | Platformization |
 | [[CrowdStrike]] | ~$90B | Endpoint, cloud | Cloud-native |
 | [[Fortinet]] | ~$75B | Mid-market, firewall | Hardware + subscription |
-| Zscaler | ~$30B | Zero trust, SASE | Cloud proxy |
+| [[Zscaler]] | ~$30B | Zero trust, [[SASE]] | Cloud proxy |
 | [[Okta]] | ~$15B | Identity | IAM platform |
 | [[SentinelOne]] | ~$8B | Endpoint AI | Autonomous |
 
@@ -44,7 +45,7 @@ Overview of the cybersecurity industry.
 | Approach | Leader |
 |----------|--------|
 | Network → cloud → SOC | Palo Alto |
-| Endpoint → cloud → identity | CrowdStrike |
+| Endpoint → cloud → identity | [[CrowdStrike]] |
 | Identity → governance | [[Okta]] |
 
 Winners: Platform vendors
@@ -131,7 +132,7 @@ Cybersecurity no longer trades as one clean factor. The tighter market-implied c
 |--------|--------|
 | AI-powered attacks | Force multiplier — single operator = team-scale campaigns (see above) |
 | Cloud migration | New attack surface |
-| Remote work | Zero trust adoption |
+| Remote work | [[SASE]] / zero trust adoption |
 | Regulatory compliance | Mandatory spend |
 | AI-native defense tools | Commoditization risk for detection layer |
 | Skill shortage | 3.5M unfilled jobs → automation tailwind |
@@ -159,7 +160,7 @@ Subscription/recurring = high visibility.
 | [[Palo Alto Networks]] | Platform leader, AI | Execution risk, free trials |
 | [[CrowdStrike]] | Cloud-native, endpoint leader | Valuation, July 2024 outage |
 | [[Fortinet]] | Mid-market, margins | Enterprise weakness |
-| Zscaler | Zero trust leader | Competition, growth slowing |
+| [[Zscaler]] | Zero trust leader | Competition, growth slowing |
 
 ---
 
@@ -169,7 +170,7 @@ Subscription/recurring = high visibility.
 |------|--------|
 | Microsoft bundling | Pricing pressure |
 | Economic slowdown | IT budget cuts |
-| Breach at vendor | Reputation (see CrowdStrike outage) |
+| Breach at vendor | Reputation (see [[CrowdStrike]] outage) |
 | AI labs entering security | [[Claude Code Security]], [[Aardvark]], [[Claude Mythos]] — commoditize detection layer; Mythos escalates from scanning to autonomous exploitation |
 | AI-accelerated attacks | Faster breach cycles force faster vendor response or lose relevance |
 
@@ -178,6 +179,14 @@ Subscription/recurring = high visibility.
 ## Policy & regulation
 
 2026-04-03: [[Donald Trump|Trump]] administration proposes slashing $707M from [[CISA]] budget. Former CISA official warns the cut would weaken federal cyber risk management capabilities across critical infrastructure sectors. Source: The Register (Apr 3, 2026).
+
+---
+
+## Journal
+
+| Date | Event | Impact |
+|------|-------|--------|
+| 2026-05-26 | [[Zscaler]] Q3 FY2026 beat revenue/EPS but guided Q4 revenue $875-878M, slightly below Reuters/LSEG consensus, and cut FY2026 FCF-margin guidance to 22.8-23.3% from 26.5-27.0% | Confirms SASE demand is still growing, but the sector read shifted toward platform competition, capex burden, and forward-growth deceleration. [[Palo Alto Networks]] platformization remains the key competitive read-through. |
 
 ---
 
@@ -195,6 +204,7 @@ Subscription/recurring = high visibility.
 - [[Claude Mythos]] — Anthropic's Capybara-tier model, leaked Mar 2026 (cybersecurity selloff catalyst)
 - [[OpenAI Spud]] — OpenAI's next-gen model, competing announcement same week
 - [[Cybersecurity consolidation]] — sector M&A dynamics
+- [[SASE]] — secure-access architecture and platform-budget battleground
 - [[Security control points]] — structural cluster inside the sector
 - [[Zero Trust|Zero trust]] — architectural trend
 - [[Identity and Access Management]] — subsector

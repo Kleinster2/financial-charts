@@ -30,11 +30,13 @@ Rystad differentiates from legacy energy consultancies ([[IHS Markit]], [[Wood M
 ## Vault appearances
 
 - Apr 8, 2026: Rystad analyst ([[CNBC]]) on physical-futures disconnect during [[2026 Strait of Hormuz crisis|Hormuz crisis]] — [[Forties]] $34-35 above [[Brent crude|Brent]], [[Atlantic basin|Atlantic]]-to-[[Asia]] rerouting, 10% of [[VLCC]]s locked in Persian Gulf first week, tiered restart timelines, 2-4 week shortage even with ceasefire. See [[Iran conflict oil price timeline]].
+- May 23, 2026: [[Financial Times]] cited [[Rystad Energy]] modelling that US oil producers would receive a $63.4 billion cash-flow boost if crude prices stayed elevated and averaged $100/bbl in 2026. This is the producer-side mirror of the household fuel-cost estimate cited from [[Brown University]].
 
 ## Related
 
 - [[Oil]] — primary coverage area
 - [[2026 Strait of Hormuz crisis]] — physical market analysis during Hormuz closure
+- [[Shale supply discipline]] — framework affected by producer cash-flow incentives
 - [[Chinese teapot refineries]] — supply diversification analysis
 - [[Argus Media]] — peer energy data/analytics firm
 - [[IHS Markit]] — competitor (now part of S&P Global)

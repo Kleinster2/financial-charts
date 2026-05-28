@@ -274,6 +274,16 @@ Cross-read with the [[US Memory]] cohort: SNDK's +710% 1Y return + MU's $700B ca
 
 ---
 
+## May 26, 2026 — Micron joins the $1T club (+19.3%, +4.0σ)
+
+MU closed $895.88 on May 26, up 19.3% from $751.00 while [[SPY]] rose 0.66%. The move screened at +4.0σ on a beta-adjusted basis using Yahoo Finance daily closes, a 120-session beta estimate, and 60-session residual volatility. Reuters reported the same-day catalyst as [[UBS]] lifting its price target to $1,625 from $535, the highest among the 46 brokerages covering Micron in LSEG data, while Micron crossed $1T market value for the first time.
+
+The read-through is that the market is no longer valuing Micron as a normal memory-cycle rebound. The UBS target change effectively reframed the stock from "cyclical memory winner" to "AI memory scarcity compounder." That strengthens the [[HBM]] / [[Memory shortage 2025-2026]] thesis, but it also raises the bar: at $1T+, the next proof point has to be sustained HBM pricing and Q3 FY2026 guide conversion, not just another analyst rerating.
+
+*Sources: Yahoo Finance chart data pulled May 26 2026; Reuters via Investing.com, "Micron joins $1 trillion club as AI race powers memory chip boom," May 26 2026, https://m.investing.com/news/stock-market-news/micron-joins-1-trillion-club-as-ai-race-powers-memory-chip-boom-4710313?ampMode=1.*
+
+---
+
 ## Apple MacBook price hikes validate memory crunch (Mar 3, 2026)
 
 [[Apple]] raised MacBook Air/Pro prices by $100-$400, explicitly driven by memory costs — the most visible consumer-facing confirmation of the [[Memory shortage 2025-2026]]:

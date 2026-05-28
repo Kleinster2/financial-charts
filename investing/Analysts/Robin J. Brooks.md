@@ -15,6 +15,15 @@ Senior Fellow at [[Brookings Institution]]. Former Chief Economist at the Instit
 
 Vault-relevant collaboration network: ongoing Brookings work with [[Ben Harris]] tracking Russia oil exports; joint shadow-fleet enforcement proposal with [[Harold Koh]] (Yale Law) on European interdiction architecture. Recurring podcast guest at [[Paul Krugman]]'s Substack live videos and on the Mercatus Center's *Macro Musings* (dollar, fiscal dominance, geoeconomics).
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Current role | Senior Fellow, [[Brookings Institution]] |
+| Former roles | Chief Economist, Institute of International Finance; Chief FX Strategist, [[Goldman Sachs]] |
+| Publication | Shadow Price Macro |
+| Focus | Macro, FX, energy markets, trade flows, fiscal risk |
+
 ## Relevant analysis
 
 ### Strait of Hormuz blockade (March 2026)

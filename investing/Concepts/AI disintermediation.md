@@ -39,7 +39,7 @@ The middleman's margin is a function of complexity and opacity. AI reduces both.
 
 ### Week 2 continued: Financial data middlemen (Feb 11)
 
-**Dealogic/Mergermarket bonds hit by AI fears** — [[ION Group]]'s bonds — parent of financial data providers [[Dealogic]] and [[Mergermarket]] — sold off as AI tools threaten to replicate deal intelligence and M&A data products. Dealogic provides deal league tables, origination data, and analytics to the top 50 investment banks. Mergermarket provides predictive M&A intelligence. Both are classic information intermediaries. ION Group's leveraged debt structure makes it particularly vulnerable if revenue comes under pressure. The AI narrative complicates ION's planned refinancing of expensive private debt.
+Dealogic/Mergermarket bonds hit by AI fears — [[ION Group]]'s bonds — parent of financial data providers [[Dealogic]] and [[Mergermarket]] — sold off as AI tools threaten to replicate deal intelligence and M&A data products. Dealogic provides deal league tables, origination data, and analytics to the top 50 investment banks. Mergermarket provides predictive M&A intelligence. Both are classic information intermediaries. ION Group's leveraged debt structure makes it particularly vulnerable if revenue comes under pressure. The AI narrative complicates ION's planned refinancing of expensive private debt.
 
 ### Week 2 continued: Industrial software (Feb 11)
 
@@ -65,9 +65,9 @@ All events hit the distribution/advisory/middleware layer, not the production/ex
 | Advertising | [[Omnicom]], [[Publicis]] | AI creates campaigns directly | Hit in SaaSpocalypse |
 | IT consulting | [[Infosys]], [[TCS]], [[Accenture]] | AI automates implementation work | Hit in SaaSpocalypse |
 | Real estate | Brokers/agents | AI comparison, virtual tours, automated transactions | Partial (Zillow/Redfin era) |
-| **Financial data** | [[Dealogic]], [[Mergermarket]], [[ION Group]] | AI replicates deal intel, M&A data, league tables | **Bond selloff (Feb 11)** |
-| **Industrial software** | [[Dassault Systèmes]], [[PTC]], [[Autodesk]] | AI generates 3D models, automates simulation/PLM | **DSY -18% (Feb 11)** |
-| **European wealth mgmt** | [[St. James's Place]], [[Quilter]], [[AJ Bell]], [[Rathbones]], [[Julius Baer]] | AI tax planning, portfolio construction | **Selloff (Feb 11)** |
+| Financial data | [[Dealogic]], [[Mergermarket]], [[ION Group]] | AI replicates deal intel, M&A data, league tables | Bond selloff (Feb 11) |
+| Industrial software | [[Dassault Systèmes]], [[PTC]], [[Autodesk]] | AI generates 3D models, automates simulation/PLM | DSY -18% (Feb 11) |
+| European wealth mgmt | [[St. James's Place]], [[Quilter]], [[AJ Bell]], [[Rathbones]], [[Julius Baer]] | AI tax planning, portfolio construction | Selloff (Feb 11) |
 | Recruiting | Staffing agencies | AI matching, screening, outreach | Early stage |
 | Financial advisory | Wealth managers, RIAs | AI portfolio construction, tax optimization | Robo-advisors + AI agents |
 | Travel | OTAs, travel agents | AI trip planning, booking agents | Ongoing since 2000s |
@@ -140,6 +140,24 @@ Each wave follows the same arc: technology makes comparison free → incumbents 
 
 ---
 
+## IT services counter-read (May 2026)
+
+The cleanest counter-read inside the current market is [[IT services]]. AI clearly threatens routine implementation work, but it also makes enterprise change more complex. [[Capgemini]]'s May 27, 2026 Capital Markets Day made that argument explicitly: clients are treating AI as an operating-model redesign rather than a normal IT upgrade, opening spending pools outside the CIO budget. Management said the opportunity pipeline already exceeded $12B and tied the work to agentic workflows, local / regulated deployments, and cloud partnerships with [[AWS]], [[Google Cloud]], and [[Microsoft]].
+
+This is not a full rebuttal to disintermediation. It is a sorting mechanism:
+
+| Vulnerable | More defensible |
+|------------|-----------------|
+| Staff augmentation, app maintenance, QA, routine BPO | Workflow redesign, governance, security, compliance, sector-specific implementation |
+| Labor-arbitrage vendors paid for bodies | Transformation partners paid for accountability and outcome design |
+| Generic AI "strategy" decks | Deep integration with data, cloud, process, and controls |
+
+The market response matters: Capgemini still fell 3.5% on the day. Investors are demanding conversion, not narrative. The live test for the thesis is whether AI-driven services revenue accelerates before automation compresses billable labor.
+
+*Sources: [Reuters via Investing.com, May 27 2026](https://www.investing.com/news/stock-market-news/capgemini-says-ai-widens-client-spending-pool-4712824); [Capgemini 2026 Capital Markets Day press release](https://investors.capgemini.com/en/publication/2026-capital-markets-day/); [Bourse Direct historical quote table, May 27 2026](https://www.boursedirect.fr/fr/marche/euronext-paris/capgemini-se-FR0000125338-CAP-EUR-XPAR/graphiques).*
+
+---
+
 ## Related
 
 - [[Claude Cowork disruption February 2026]] — SaaS disintermediation event
@@ -158,6 +176,8 @@ Each wave follows the same arc: technology makes comparison free → incumbents 
 - [[Insurance]] — sector note
 - [[Thomson Reuters]] — exemplar SaaS victim
 - [[Willis Towers Watson]] — exemplar broker victim
+- [[IT services]] — sector where the AI threat and AI implementation opportunity collide
+- [[Capgemini]] — May 2026 counter-read: AI expands transformation budgets
 
 - [[ION Group]] — Dealogic/Mergermarket parent, bonds hit by AI fears
 - [[Dealogic]] — financial data provider (deal league tables, origination data)

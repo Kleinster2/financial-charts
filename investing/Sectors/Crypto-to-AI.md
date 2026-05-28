@@ -41,8 +41,23 @@ CORZ slightly less correlated — further along in AI pivot (CoreWeave deal).
 |---------|--------|-------------|----------|
 | [[Core Scientific]] | CORZ | GPU hosting | $3.5B CoreWeave partnership |
 | [[Hut 8]] | HUT | Hybrid BTC + AI | Building AI infrastructure |
-| [[IREN]] | IREN | Expanding AI capacity | Data center buildout |
+| [[IREN]] | IREN | Managed GPU cloud | $9.7B Microsoft + $3.4B NVIDIA |
 | [[TeraWulf]] | WULF | AI hosting | Zero-carbon focus |
+
+---
+
+## IREN May 2026 Blackwell conversion
+
+The May 26, 2026 IREN-Dell agreement reinforces the sector split identified below. IREN is no longer just the high-return member of the cohort; it is the most explicit transition from mined-power asset to managed GPU cloud operator. The chain is:
+
+| Layer | Counterparty | Detail |
+|-------|--------------|--------|
+| Demand anchor | [[Microsoft]] | $9.7B five-year AI cloud contract |
+| Demand anchor / strategic partner | [[NVIDIA]] | $3.4B five-year managed cloud contract; up to $2.1B investment right |
+| Hardware integrator | [[Dell]] | ~$1.6B air-cooled [[Blackwell]] systems for Childress |
+| Physical asset | Childress, Texas | Existing data centers, ~60MW for NVIDIA contract, early 2027 commissioning target |
+
+That is the cleanest current expression of the cohort's PC2 business-model divide: pure miners still need Bitcoin beta, while AI-pivot names are being revalued on the ability to convert powered land into contracted accelerator capacity. On the May 26 tape, the whole cohort was bid, but IREN's +5.2% move matters more as confirmation of the idiosyncratic-capacity leg than as a standalone momentum signal.
 
 ---
 

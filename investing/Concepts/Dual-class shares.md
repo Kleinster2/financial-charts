@@ -91,7 +91,7 @@ Prevalence: 32% of all IPOs in 2021, 26% in 2023. Among tech IPOs specifically: 
 
 - [[Council of Institutional Investors]]: lobbies for "one share, one vote" and sunset provisions (7-year conversion). Academic research finds dual-class valuation premium fades to a discount after ~7 years
 - S&P Dow Jones Indices: banned dual-class from S&P 500 in 2017, then reversed in April 2023 — dual-class companies now eligible again. [[DoorDash]] and [[Palantir]] subsequently added to S&P 500/100
-- FTSE Russell: requires minimum 5% voting rights for index inclusion
+- [[FTSE Russell]]: historically required at least 5% public voting rights, but its 2026 fast-entry consultation considered relaxing the threshold for issuers with large investable market capitalization as long as the public shares carry voting rights
 - Yale study (2024): dual-class Russell 3000 companies outperformed single-class peers across short and long term
 
 ---
@@ -122,7 +122,7 @@ The structure goes further than any prior single dual-class IPO captured above. 
 
 Pay-package design adds two more contingent control levers — up to 200M class B + 60M supervoting RSUs awarded against Mars-colony and orbital-data-centre milestones. The grants are not just compensation; they also extend the supervoting share base if vested, further entrenching the structure as long as Musk hits the (extreme) milestones. See [[SpaceX IPO 2026]] for the FT-sourced detail.
 
-Pension-fund pushback has begun: officials at NY and CA public pension funds wrote to SpaceX expressing serious concerns. That is the first formal institutional objection on the record — index-tracking allocators will inherit the structure once the [[Nasdaq Fast Entry Rule]] activates, regardless of their view on it.
+Pension-fund pushback has begun: officials at NY and CA public pension funds wrote to SpaceX expressing serious concerns. That is the first formal institutional objection on the record. Index-tracking allocators will inherit the structure once the [[Nasdaq Fast Entry Rule]] and [[FTSE Russell]] fast-entry mechanics activate, regardless of their view on it.
 
 ---
 

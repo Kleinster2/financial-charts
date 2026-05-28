@@ -603,6 +603,52 @@ The tape read from [[UBS]]'s [[Bhanu Baweja]] in the same broadcast matches the 
 
 *Sources: Bloomberg Television / YouTube transcript, "The Pulse 5/20," May 20 2026; AP Xi-Putin coverage, May 20 2026; Breaking Defense on Project Freedom operational limits, May 4 2026.*
 
+## May 22-23, 2026 - US shale response begins, but not enough to close the gap
+
+The first visible US supply response finally appeared in the weekly rig data. [[Baker Hughes]] reported total US rigs at 558 in the week ended May 22, up 7 from the prior week but still down 8 year over year. Oil-directed rigs rose 10 to 425, the largest weekly oil-rig gain since April 2022, after four straight weeks of increases. [[Bloomberg]] / World Oil framed the move as shale operators responding to the [[Operation Epic Fury|Iran war]] price signal and a still-disrupted [[Strait of Hormuz]].
+
+The [[Financial Times]] fills in the company-level mechanism behind the rig-count print. [[Diamondback Energy]] is adding rigs after CEO [[Kaes Van't Hof]] described the disruption as the world's largest oil supply disruption. [[Continental Resources]] owner [[Harold Hamm]] said he planned to raise 2026 capex by about $300 million to $2.8 billion and revisit a January decision to stop new [[North Dakota]] drilling. [[Enverus]] data cited by the FT showed public shale producers had raised 2026 capex guidance by $490 million versus the guidance issued three months earlier.
+
+This changes the interpretation at the margin, not the structure. [[EIA]]'s May 2026 STEO assumes [[Persian Gulf]] producers collectively shut in 10.5 mb/d in April, with global inventories drawing by 8.5 mb/d in 2Q26 and Brent around $106 in May-June. [[IEA]]'s May Oil Market Report says affected Gulf output was 14.4 mb/d below pre-war levels, while non-Gulf producers pushed supply and exports higher: [[Atlantic basin]] supply-growth expectations are up more than 600 kb/d since the start of the year, and Atlantic Basin crude exports are up 3.5 mb/d since February. The FT also cited [[EIA]] projections that US crude output could rise from 13.53 mb/d in Q1 2026 to a record 14.21 mb/d by the end of 2027, which is directionally meaningful but still too slow for the immediate Gulf shortfall.
+
+The read-through is that [[Shale supply discipline]] has bent, not broken. The old 2010s reflex was high oil -> immediate shale capex -> enough barrels to cap the price cycle. The 2026 sequence is different: inventory draws, emergency stocks, lower refinery runs, [[Atlantic basin]] rerouting, and demand destruction are still doing most of the balancing work before US rigs respond. Incremental shale helps the marginal barrel, boosts producer cash flow, and supports [[Baker Hughes]], [[Halliburton]], and [[Schlumberger]] services demand, but it does not remove the [[Hormuz Permanent Risk Premium]] while commercial transit remains permissioned, insured poorly, and vulnerable to renewed closure.
+
+*Sources: [[Financial Times]], Jamie Smyth and Stephanie Findlay, "US oil producers increase output to capture price surge from Iran war," May 23 2026; [World Oil / Bloomberg, "U.S. oil rig count posts largest weekly gain since 2022"](https://worldoil.com/news/2026/5/22/u-s-oil-rig-count-posts-largest-weekly-gain-since-2022/), May 22 2026; [Baker Hughes Rig Count Overview](https://rigcount.bakerhughes.com/), May 22 2026; [EIA Short-Term Energy Outlook](https://www.eia.gov/outlooks/steo/report/), May 2026; [IEA Oil Market Report - May 2026](https://www.iea.org/reports/oil-market-report-may-2026), May 13 2026.*
+
+## May 24, 2026 - FT visual story turns Hormuz into a global chokepoint template
+
+The FT's May 24 visual story, "The power struggle in the world's narrow seas," turns the Hormuz crisis from an oil-only event into a broader [[Maritime chokepoint dependency]] case study. The article's [[MarineTraffic]] / [[IMF PortWatch]] visual compares the pre-war Feb 20-26 window with the Mar 25-31 war window and shows traffic thinning around [[Iran]], [[Oman]], and [[UAE]] while the daily transit-call series stays far below normal.
+
+The useful addition to this event note is not a new price target. It is the framework separation between chokepoints with real reroutes and chokepoints that strand cargo. [[Jasper Verschuur]] tells the FT that about 80% of Hormuz trade has no alternative route. That maps cleanly onto the vault's existing thesis: a diplomatic headline can reprice paper oil quickly, but physical normalization depends on vessel availability, war-risk cover, mine and missile confidence, and the willingness of commercial operators to be first movers.
+
+The article also widens the supply-chain channel beyond crude:
+
+| Channel | FT read | Vault implication |
+|---|---|---|
+| Fertilizer and food | West African countries are flagged as vulnerable if fertilizer shortages hit harvests and food prices into 2027 | Reinforces [[Nitrogen Trap]] and [[Iran conflict economic disruption]] |
+| Logistics lag | [[Bjorn Vang Jensen]] frames one week of Hormuz closure as roughly a month of disruption | Reopening date is not normalization date |
+| Overland workarounds | [[DSV]] is moving selected cargo through [[Saudi Arabia]] and [[Turkey]] | Useful for high-priority cargo, not a vessel-capacity substitute |
+| Copycat risk | Experts flag [[Red Sea]], [[Suez Canal]], and Middle East routes as most vulnerable to copycat pressure | Keeps [[Bab el-Mandeb]] and [[Suez Canal]] in the same risk cluster as Hormuz |
+
+*Source: [[Financial Times]], "The power struggle in the world's narrow seas," May 24 2026; user-provided article text and screenshots. FT visual modules were extracted into [[Maritime chokepoint dependency]] rather than copied.*
+
+## May 25, 2026 - Japan naphtha shortage warning
+
+*Source: [[Reuters]] via [MarketScreener](https://www.marketscreener.com/news/former-marubeni-ceo-warns-japan-could-face-chemical-product-shortages-from-late-june-ce7f5addd98bfe27), May 25, 2026.*
+
+The May 25 [[Fumiya Kokubu]] warning is the cleanest Japan-specific evidence that the crisis has moved from headline crude availability into refined-product and petrochemical availability. Kokubu, former [[Marubeni]] CEO and current executive corporate adviser, told an [[IEEJ]] virtual seminar that [[Japan]] could face chemical-products shortages from around the end of June, or at latest by late August / September, if Middle East [[Naphtha]] supply cannot be replaced.
+
+This matters because it pinpoints where the Hormuz no-reroute problem becomes industrial. Japan had sourced about 40% of naphtha directly from the Middle East before the war; another roughly 40% of domestic naphtha demand comes from domestic refining, but that crude input is roughly 95% Middle East-dependent. The apparent distinction between direct imports and domestic refining is therefore misleading: both channels depend on the same Middle East molecule flow.
+
+| Hormuz channel | Japan read-through |
+|---|---|
+| Direct cargo loss | Middle East naphtha import exposure cannot be replaced one-for-one |
+| Crude-refining channel | Domestic naphtha inherits Middle East crude dependence |
+| Product specificity | Chemical products, solvents, coatings, and plastic packaging tighten before crude runs out |
+| Policy tension | Government says naphtha-derived chemicals can last into the new year; Kokubu argues source replacement is the binding constraint |
+
+The read-through is that physical normalization has a second lag beyond tanker traffic and insurance. Even if crude headlines stabilize, Japan's petrochemical chain remains constrained by feedstock chemistry and refinery slate. That makes [[Naphtha]] the Japan-facing proof point for the broader [[Iran conflict supply chain cascade]].
+
 ## Analyst reaction to ceasefire (Apr 8)
 
 The ceasefire exposed a sharp split between physical-market and financial-market analysts:
@@ -627,6 +673,9 @@ Consensus: unanimous that a two-week truce is not a resolution. The question is 
 - [[Hormuz Transit Regime]] — transit fees, bilateral access, yuan settlement
 - [[Strait of Hormuz]] — the chokepoint
 - [[Iran]] — belligerent controlling the strait
+- [[Naphtha]] — Japan petrochemical shortage channel
+- [[Fumiya Kokubu]] — Japan shortage-window warning
+- [[IEEJ]] — May 25 2026 energy-security seminar venue
 - [[1973 oil crisis]] — historical benchmark for supply shocks
 - [[Paul Sankey]] — "worst since 1973," prominent media analyst on the crisis
 - [[Oil]] — primary commodity affected
@@ -636,6 +685,7 @@ Consensus: unanimous that a two-week truce is not a resolution. The question is 
 - [[US Energy Independence Six Countries]] — US exposure despite "energy independence"
 - [[Gulf Sovereign Capital Reallocation]] — capital flow implications
 - [[War premium sector map]] — beta-adjusted sector dispersion on ceasefire (Apr 8): staples, insurers, European banks carried hidden premium; SaaS accumulated safety premium that reversed
+- [[Maritime chokepoint dependency]] — broader route-risk framework from FT / Verschuur-Lumma-Hall
 
 ### Cross-vault
 - [geopolitics: Strait of Hormuz](obsidian://open?vault=geopolitics&file=Concepts%2FStrait%20of%20Hormuz) — chokepoint doctrine, blockade mechanics, Gulf political exposure

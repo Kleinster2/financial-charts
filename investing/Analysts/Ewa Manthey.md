@@ -1,8 +1,7 @@
 ---
 aliases: [Manthey]
+tags: [analyst, commodities]
 ---
-#analyst #commodities
-
 Ewa Manthey — Commodities strategist at [[ING]], covering the full complex with a focus on metals. Argues we're entering the most significant metals shift since the [[China]]-led super-cycle of the early 2000s.
 
 ---

@@ -259,7 +259,7 @@ The industrial-policy revival has reshaped sectoral risk-return profiles across 
 | Sector | Direction | Mechanism |
 |--------|-----------|-----------|
 | Semiconductors (front-end manufacturing) | Beneficiary | Direct subsidy + tax credits; [[TSMC]], [[Intel]], [[Samsung]], [[Micron]] all building US fabs |
-| Critical minerals + processing | Beneficiary | Domestic content rules + IRA + Defense Production Act; [[USA Rare Earth]], [[MP Materials]], [[Lynas]] |
+| Critical minerals + processing | Beneficiary | Domestic content rules + IRA + Defense Production Act; [[USA Rare Earth]], [[MP Materials]], [[Lynas Rare Earths|Lynas]] |
 | Clean energy manufacturing | Mixed | IRA tax credits create demand; Chinese overcapacity compresses pricing |
 | EV manufacturing | Mixed | IRA + tariffs vs Chinese EV competitiveness; sector economics still developing |
 | Defense primes | Beneficiary | DPA expansion + budget priorities; [[Lockheed Martin]], [[RTX]], [[Northrop Grumman]] |

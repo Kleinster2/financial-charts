@@ -72,6 +72,26 @@ The important classification shift: naphtha is no longer just an upstream cracke
 
 ---
 
+## May 25 2026 — Japan shortage window
+
+*Source: [[Reuters]] via [MarketScreener](https://www.marketscreener.com/news/former-marubeni-ceo-warns-japan-could-face-chemical-product-shortages-from-late-june-ce7f5addd98bfe27), May 25, 2026.*
+
+Reuters' May 25 report from an [[IEEJ]] virtual seminar moves [[Japan]]'s naphtha problem from price and operating-rate stress to a timed shortage window. [[Fumiya Kokubu]], former [[Marubeni]] CEO and current executive corporate adviser, warned that chemical-product shortages could begin around the end of June, or at latest from late August or September, if Japan cannot replace lost Middle East supply.
+
+The dependency math is worse than the headline "44% Middle East naphtha" number used in earlier reports. Kokubu said Japan had sourced about 40% of its naphtha directly from the Middle East before the war, while another roughly 40% of domestic naphtha demand comes from domestic crude refining. Because Japan's crude slate is roughly 95% Middle East-dependent, "domestic" naphtha is still exposed to the same Strait of Hormuz supply source.
+
+| Constraint | Reuters / Kokubu datapoint | Why it matters |
+|---|---|---|
+| Direct naphtha import exposure | ~40% from the Middle East before the war | Immediate cargo-substitution problem |
+| Domestic-refining channel | ~40% of demand from domestic crude refining; crude input ~95% Middle East-dependent | Domestic refined naphtha still inherits Middle East crude exposure |
+| Replacement volume | ~15m kilolitres of Middle East supply described as impossible to replace | The gap cannot be solved with spot diversions alone |
+| Shortage window | End-June risk; late-August/September latest-risk framing | Downstream chemical and packaging stress becomes calendar-bound |
+| Official buffer claim | Government says naphtha-derived chemicals can be maintained into the new year | Kokubu's warning challenges the buffer from the source-volume side |
+
+The useful read is not simply that Japan is short naphtha. It is that [[Naphtha]] has become the refined-product proof that the [[2026 Strait of Hormuz crisis|Hormuz crisis]] is not just an oil-price shock. A crude cargo can be rationed through reserves and alternative blends for a time; a petrochemical feedstock shortage shows up as missing solvents, resins, packaging, coatings, and other chemical products with thinner inventories and less visible policy buffers.
+
+---
+
 ## Wiggen: global shortage — dual use bottleneck (March 23)
 
 [[Nadia Martin Wiggen]] ([[Stellen Capital]], March 23) identified a dual-use bottleneck: naphtha is needed both as a diluent for [[Venezuela]]n heavy sour crude (which is too thick to load onto ships without thinning) AND as petrochemical feedstock for plastics. With [[LPG]] also in global shortage, Asian petrochemical producers are "making big cuts" — not gradually reducing, but shutting capacity. Wiggen: the petchem industry in Asia "just doesn't have the LPG available." If feedstock shortages persist, recycled plastics become a potential beneficiary as the only alternative supply source for downstream manufacturing.
@@ -88,5 +108,7 @@ The important classification shift: naphtha is no longer just an upstream cracke
 - [[Iran conflict economic disruption]] — demand destruction hub
 - [[Iran conflict oil price timeline]] — includes product pricing
 - [[Natasha Kaneva]] — JPMorgan demand destruction analysis
+- [[Fumiya Kokubu]] — Japan shortage-window warning
+- [[IEEJ]] — May 25 2026 energy-security seminar venue
 
 *Created 2026-03-23*

@@ -50,7 +50,7 @@ aliases: [REE, REEs, rare earths]
 
 **Why it matters**: Without dysprosium, NdFeB magnets lose 50% strength at 150°C. With 6% Dy, only 15% loss. Essential for EV motors.
 
-**The bottleneck**: Most constrained REE. Almost no non-[[China]] production. 2025 controls specifically targeted Dy. **Myanmar supplies ~50% of global Dy mining** — but all goes to [[China]] for processing. [[Lynas]] Malaysia expansion for Dy/Tb expected June 2025. See [[Dysprosium]] for full analysis.
+**The bottleneck**: Most constrained REE. Almost no non-[[China]] production. 2025 controls specifically targeted Dy. **Myanmar supplies ~50% of global Dy mining** — but all goes to [[China]] for processing. [[Lynas Rare Earths|Lynas]] Malaysia expansion for Dy/Tb expected June 2025. See [[Dysprosium]] for full analysis.
 
 ---
 

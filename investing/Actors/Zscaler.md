@@ -3,7 +3,7 @@ aliases: [ZS]
 ---
 #actor #cybersecurity #usa #public
 
-**Zscaler** — Zero trust security leader. Cloud-native architecture. Replacing legacy firewalls.
+**Zscaler** — cloud-native [[Zero Trust]] / [[SASE]] security platform with $3.53B ARR (+25% YoY) and Q3 FY2026 revenue of $850.5M (+25%). The May 2026 print kept the growth/profitability story alive, but the market read shifted hard to guidance quality: ZS closed down 31.5% on May 27, an estimated -7.6σ beta-adjusted move, after Q4 revenue guidance landed just below LSEG consensus and FY2026 free-cash-flow margin guidance was cut to fund higher capex. Reuters framed the pressure as [[Palo Alto Networks]]-led platform competition in SASE. Bull case: AI agents, cloud migration, and zero-trust architecture expand the attack surface Zscaler protects. Bear case: platform bundling, sales-transition noise, and capex-heavy AI/security infrastructure compress what investors are willing to pay for the growth.
 
 ---
 
@@ -27,9 +27,11 @@ ZS trades as a core Software name (IGV r = 0.72).
 | Metric | Value |
 |--------|-------|
 | Ticker | ZS (NASDAQ) |
-| Market cap | ~$30B |
+| Market cap | ~$20.5B (May 27 2026 close) |
 | Position | \#1 zero trust/SASE |
 | Key product | Zero Trust Exchange |
+| ARR | $3.525B (Q3 FY2026, +25% YoY) |
+| FY2026 revenue guide | $3.3295-3.3325B (+24.6-24.7%) |
 
 ---
 
@@ -43,6 +45,7 @@ Zero Trust Exchange platform:
 | ZPA | Zero Trust Network Access |
 | ZDX | Digital Experience |
 | Workload protection | Cloud security |
+| Zero Trust SD-WAN | Branch / site connectivity for single-vendor SASE |
 
 Architecture: All traffic through Zscaler cloud — no on-prem appliances.
 
@@ -69,7 +72,18 @@ Zero trust model:
 | Zscaler | Pure-play zero trust |
 | [[Palo Alto Networks]] | Prisma SASE (platform) |
 | [[Cisco]] | Umbrella (legacy vendor) |
+| [[Cloudflare]] | Global edge / Cloudflare One |
 | Netskope | CASB + SASE |
+
+---
+
+## SASE architecture
+
+Zscaler's SASE story starts from cloud-native security rather than firewall distribution. ZIA, ZPA, and ZDX made the Zero Trust Exchange a secure-access and observability platform before Zscaler had a full branch-networking answer. The January 2024 Zero Trust SASE launch added Zero Trust SD-WAN so Zscaler could pitch single-vendor SASE: users, devices, branches, workloads, and private applications connect through the same Zero Trust Exchange instead of splitting security policy from SD-WAN policy.
+
+That makes Zscaler's competitive position sharper but more exposed. The company can argue that its architecture avoids legacy firewall/VPN assumptions. At the same time, the move into SD-WAN confirms that enterprise SASE evaluations increasingly reward a unified networking-plus-security platform, which is exactly where [[Palo Alto Networks]], [[Fortinet]], and [[Cloudflare]] press the account-consolidation argument.
+
+*Source: [Zscaler Zero Trust SASE release, Jan 23 2024](https://ir.zscaler.com/news-releases/news-release-details/zscaler-introduces-industrys-first-zero-trust-sase-built-zero).*
 
 ---
 
@@ -98,7 +112,7 @@ Bear:
 | Metric | Value |
 |--------|-------|
 | Ticker | ZS |
-| Market cap | ~$30B |
+| Market cap | ~$20.5B |
 | Founded | 2007 |
 | CEO | Jay Chaudhry |
 
@@ -142,8 +156,43 @@ The risk into May 26 is asymmetric: the sympathy bid raised the bar, while ZS st
 
 ---
 
+## Q3 FY2026 (reported May 26, 2026) — beat, but guide/FCF reset
+
+| Metric | Q3 FY2026 / guide | Read |
+|--------|-------------------|------|
+| Revenue | $850.5M, +25% YoY | Above Reuters/LSEG consensus of $835.4M |
+| ARR | $3.525B, +25% YoY | +21% excluding Red Canary; net new ARR +14% ex-acquisition |
+| Non-GAAP operating income | $195.8M; 23% margin | Record operating margin, up from 22% a year earlier |
+| Non-GAAP EPS | $1.08 | Above the prior-year $0.84 |
+| Free cash flow | $136.0M; 16% margin | Dollar FCF +14% YoY, margin down from 18% |
+| Deferred revenue | $2.477B, +25% YoY | Still growing in line with reported revenue |
+| Q4 FY2026 revenue guide | $875-878M, ~22% growth | Slightly below Reuters/LSEG consensus of $878.6M |
+| Q4 FY2026 EPS guide | $1.08-1.09 | Above consensus of $1.03 |
+| FY2026 FCF margin guide | 22.8-23.3% | Cut from 26.5-27.0% due to high-single-digit capex as % of revenue |
+
+The fundamental read is more nuanced than the Reuters headline. Q3 itself was clean: revenue, ARR, operating margin, EPS, and full-year revenue guidance all moved in the right direction. The pressure point was forward visibility. Q4 revenue guidance sat just under consensus, organic ARR growth was slower after stripping out Red Canary, and the free-cash-flow margin cut turned AI/security infrastructure capex into a first-order investor variable.
+
+Reuters' competitive framing matters because Zscaler is not only selling a zero-trust architecture anymore; it is competing for platform budgets. The article named [[Palo Alto Networks]] as the larger rival pushing SASE platform offerings, while Zscaler's own model depends on converting secure access, data security, AI security, and managed detection into one Zero Trust Exchange account motion. The question is no longer "does zero trust grow?" It is whether Zscaler can keep enough share of wallet while the security platforms bundle adjacent controls.
+
+Management's call added two operational flags: two sales leaders departed at quarter-end, and the early FY2027 view was for ARR and revenue growth of 16-17%. That does not make Zscaler broken; it makes the multiple more sensitive to any hint that growth is decelerating from mid-20s toward high-teens while capex rises.
+
+*Sources: [Zscaler Q3 FY2026 release](https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-strong-third-quarter-fiscal-2026-results); [Reuters via StreetInsider, May 26 2026](https://www.streetinsider.com/Reuters/Zscaler%2Bsees%2Bdownbeat%2Bquarterly%2Brevenue%2Bas%2Bcompetition%2Bheats%2Bup%2Bin%2Bcybersecurity%2Bmarket/26550638.html); [Motley Fool transcript, May 26 2026](https://www.fool.com/earnings/call-transcripts/2026/05/26/zscaler-zs-q3-2026-earnings-call-transcript/).*
+
+---
+
+## May 27, 2026 — closing selloff confirms multiple reset
+
+ZS closed at $126.41, down 31.5% on the session, versus a flat S&P 500 tape. Using the stale local history through May 1 only as the volatility baseline, that maps to roughly a -7.6σ beta-adjusted move, so the signal is not just "large SaaS stock down after earnings"; it is a regime-level repricing of Zscaler's growth multiple.
+
+The close makes the Q3 interpretation more severe than the after-hours reaction captured in the initial note. Investors punished the combination of (1) Q4 revenue guidance just below consensus, (2) FY2026 free-cash-flow margin reset to 22.8-23.3% from 26.5-27.0%, (3) management's early FY2027 16-17% ARR/revenue growth frame, and (4) sales-leadership turnover. The core question for the next print is whether Zscaler can prove the capex and Red Canary integration are temporary pressure points rather than evidence that SASE platform competition is forcing structurally lower growth and cash conversion.
+
+*Sources: [StockAnalysis ZS quote, May 27 2026 close](https://stockanalysis.com/stocks/zs/); [Zscaler Q3 FY2026 release](https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-strong-third-quarter-fiscal-2026-results); [Reuters via StreetInsider, May 26 2026](https://www.streetinsider.com/Reuters/Zscaler%2Bsees%2Bdownbeat%2Bquarterly%2Brevenue%2Bas%2Bcompetition%2Bheats%2Bup%2Bin%2Bcybersecurity%2Bmarket/26550638.html).*
+
+---
+
 ## Related
 
 - [[Palo Alto Networks]] — competitor (Prisma SASE)
 - [[CrowdStrike]] — peer (endpoint complement)
 - [[Cybersecurity consolidation]] — thesis context
+- [[SASE]] — secure-access architecture and budget-control layer

@@ -33,6 +33,14 @@ COPOM hiked aggressively through 2024-2025 (10.75% → 15%) and began cutting in
 
 ---
 
+## Fiscal last-mile diagnosis (BTG AgroForum, May 2026)
+
+[[Mansueto Almeida]]'s AgroForum Cuiabá framework is that [[Selic]] is high because Brazil has not yet solved the final spending-growth constraint, not because a double-digit real rate is structurally unavoidable. He used the Temer-era sequence as the benchmark: when the government slowed real federal spending growth and made pension reform credible, the market rapidly repriced Selic from the mid-teens toward single digits.
+
+For the 2026 cycle, the diagnosis is narrower but still binding. Almeida argued that Brazil enters the election year with mid-single-digit inflation, deep reserves, low unemployment, and private capital markets capable of funding infrastructure without a BNDES credit boom. The unresolved variable is mandatory spending growth. If that slows, the DI curve can price a lower terminal rate; if it does not, the central bank stays trapped between fiscal impulse, indexation, and inflation expectations.
+
+---
+
 ## COPOM (Monetary Policy Committee)
 
 | Feature | Detail |

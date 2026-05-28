@@ -70,6 +70,14 @@ Across Starliner, Gateway, SLS, and CLD, the pattern is consistent: legacy fixed
 
 ---
 
+## Artemis timeline and China pressure (May 2026)
+
+NASA's public Artemis page now frames Artemis III as a 2027 low-Earth-orbit demonstration mission to test one or both commercial landers, with the first crewed Artemis lunar landing shifted to Artemis IV in early 2028. That sequencing matters for the contractor map: [[SpaceX]] [[Starship]] and [[Blue Origin]] Blue Moon are no longer just follow-on lander options; they are the gating assets between Artemis II's successful lunar flyby and the first US crewed landing since Apollo.
+
+Reuters' May 2026 report on [[China]]'s [[Shenzhou]]-23 launch makes the strategic timing pressure explicit. [[China Manned Space Agency|CMSA]] is using [[Tiangong]] for a one-year astronaut mission and lunar-readiness tests while targeting a first crewed moon landing before 2030. For NASA, this keeps Artemis inside a great-power competition frame, which strengthens the funding logic for the lunar base program even as the agency shifts away from legacy Gateway/SLS-heavy architecture.
+
+---
+
 ## Historical contracts to SpaceX
 
 | Year | Contract | Value |
@@ -88,6 +96,7 @@ Across Starliner, Gateway, SLS, and CLD, the pattern is consistent: legacy fixed
 - [[Artemis]] — lunar exploration program (architecture restructured Q1 2026)
 - [[Lunar Gateway]] — paused Mar 2026
 - [[Commercial LEO Destinations]] — post-ISS commercial space station program
+- [[Chinese crewed lunar program]] — strategic timing pressure on Artemis
 - [[Star Lab]] — [[Voyager]] commercial space station program
 
 ### Administration

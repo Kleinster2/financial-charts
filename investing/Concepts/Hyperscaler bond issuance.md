@@ -3,7 +3,7 @@ aliases: [hyperscaler debt, tech bond issuance, hyperscaler bonds, AI bond wave]
 ---
 #concept #fixed-income #ai
 
-**Hyperscaler bond issuance** — The wave of corporate debt issuance by [[AI hyperscalers]] to fund AI infrastructure capex that is exceeding free cash flow. Emerged as a distinct pattern in 2025, accelerating sharply in 2026.
+**Hyperscaler bond issuance** — The wave of corporate debt issuance by [[AI hyperscalers]] to fund AI infrastructure capex that is exceeding free cash flow. Emerged as a distinct pattern in 2025, accelerating sharply in 2026 as the Big 4 capex envelope moved toward roughly $725B and free cash flow compressed.
 
 ---
 
@@ -33,6 +33,7 @@ AI capex is now outpacing cash generation at most hyperscalers, forcing them int
 | **Feb 9, 2026** | **[[Google\|Alphabet]]** | **$20B** | **$100B+** | **7 tranches, longest 2066 at ~95 bps. Largest tech bond offering in history** |
 | Feb 10, 2026 (est.) | [[Google\|Alphabet]] | TBD | — | Sterling debut incl. [[Century Bond]] + Swiss franc debut |
 | TBD | [[Amazon]] | TBD | — | Filed regulatory notice signaling capital raise |
+| May 2026 | [[Google\|Alphabet]] | ~€9B + C$9.5B | — | Euro and Canadian-dollar senior notes after Q1 debt proceeds of $31.4B |
 
 ### Alphabet Feb 9 USD tranches (detail)
 
@@ -79,6 +80,16 @@ See [[AI infrastructure deals]] for SPV and [[GPU-as-collateral]] structures ([[
 | TD Securities expected IG (week of Feb 10) | $80B | 2x normal pace |
 
 The $400B hyperscaler forecast represents a 2.4x increase from 2025. If realized, hyperscaler debt alone would account for ~18% of total US IG issuance.
+
+---
+
+## May 2026 cash-return break
+
+The May 8 FT / [[Visible Alpha]] capex pass makes the debt wave easier to explain: capex is no longer comfortably funded by post-dividend surplus cash. [[Alphabet]] reported no Q1 2026 Class A/C repurchases and $31.4B of debt proceeds; [[Meta]] reported no Q1 repurchases and $59.0B of senior notes outstanding; [[Amazon]] said Q1 2026 financing inflows rose to $52.8B and that it expects additional financing activity in 2026.
+
+This does not mean every hyperscaler is credit-stressed. [[Microsoft]] remains the cleanest balance sheet and can fund more internally than peers. The structural change is that shareholder-return policy, bond issuance, and AI infrastructure capacity are now one integrated capital-allocation decision.
+
+*Sources: [FT article](https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494), May 8 2026; [Alphabet Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm); [Meta Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm); [Amazon Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm).*
 
 ---
 

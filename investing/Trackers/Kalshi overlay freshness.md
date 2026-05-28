@@ -32,6 +32,29 @@ python scripts/refresh_kalshi_watchlist.py --refresh --update-state
 
 Offline mode flags stale `last_read` dates. `--refresh` fetches public provider APIs and flags representative contract moves above the configured threshold. `--update-state` records a reviewed snapshot back into the YAML file after the daily note has captured the alert.
 
+The same watchlist can also define `comparisons` for matching Kalshi/Polymarket thesis legs. Each comparison names two or more tracked contracts and a divergence threshold. The refresh script reports the current spread and raises a `provider-divergence` material alert when the cross-venue gap is large enough to deserve a durable-note reread.
+
+For outcome-slicing markets, do not treat the highest-priced bucket as the forecast. When contracts divide a numeric outcome into bands (for example IPO closing market cap buckets such as `$1.25T-$1.5T`), calculate the 50% cumulative point and linearly interpolate inside the bucket where the cumulative distribution crosses 50%. That interpolated median is the market-implied best prediction guess as of the read date. Individual bucket prices are supporting distribution shape, not the headline estimate. If the market includes a non-numeric outcome such as "no IPO by deadline," cite that probability separately and compute the numeric median conditional on the numeric event happening.
+
+The watchlist supports this through `derived_metrics`:
+
+```yaml
+derived_metrics:
+  - id: openai-ipo-implied-median-market-cap
+    label: OpenAI IPO implied median closing market cap
+    method: bands
+    percentile: 0.5
+    unit: T
+    condition: conditional on IPO by Dec. 31, 2026; excludes the no-IPO leg
+    bins:
+      - slug: will-openais-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day
+        outcome: 'Yes'
+        lower: 1.25
+        upper: 1.5
+```
+
+For threshold ladders such as "market cap above $1T / $2T / $3T," use `method: thresholds`; the script interpolates where the cumulative `P(outcome > threshold)` curve crosses 50%.
+
 For Polymarket candidate discovery, run:
 
 ```bash
@@ -47,6 +70,20 @@ Supported providers:
 |----------|--------------|-------|
 | `kalshi` | `series_ticker`, `event_ticker` | Default for legacy entries; fetches Kalshi's public markets API. |
 | `polymarket` | `event_slug`, `market_slug`, `market_id` | Uses Polymarket Gamma API. Track individual markets by `slug` inside `tracked_markets`. |
+
+---
+
+## Cross-venue comparisons
+
+Current comparison set:
+
+| Comparison | Note | Why it matters |
+|------------|------|----------------|
+| `bitcoin-150k-2026-cross-venue` | [[Bitcoin]] | Checks whether Kalshi and Polymarket agree on the 2026 $150K right tail. |
+| `spacex-june-ipo-cross-venue` | [[SpaceX IPO 2026]] | Checks whether both venues still price a June IPO as the base case. |
+| `openai-no-2026-ipo-cross-venue` | [[2026 IPO pipeline]] | Compares Kalshi's inverted "IPO before Jan. 1, 2027" leg with Polymarket's direct "no IPO by Dec. 31, 2026" leg. |
+
+Small spreads are useful confirmation. Large spreads are a research prompt: check contract definitions first, then decide whether the note needs a cross-venue disagreement paragraph.
 
 ---
 

@@ -94,6 +94,24 @@ The April hold came with a mixed macro signal: first-quarter growth printed 5.0%
 
 Significance: breaks the structural deflation narrative that had priced sustained Chinese industrial overcapacity, and puts [[PBOC]] in a bind — the "moderately loose" easing cycle now runs into imported cost inflation.
 
+### Industrial profits (Jan-Apr 2026)
+
+The May 27 [[NBS]] industrial-profits release confirms that the March factory-gate turn is now flowing into corporate margins. Profits at industrial enterprises above the designated size reached 2.43584 trillion yuan in January-April 2026, up 18.2% year on year and faster than the 15.5% growth recorded in Q1. April alone rose 24.7% year on year.
+
+| Metric | Jan-Apr 2026 | Signal |
+|--------|--------------|--------|
+| Total profits | 2.43584T yuan, +18.2% yoy | Profit cycle accelerating from Q1 |
+| Operating revenue | 44.89T yuan, +5.2% yoy | Revenue recovery, but slower than profit growth |
+| Operating costs | 38.13T yuan, +4.5% yoy | Cost growth lagged revenue |
+| Revenue profit margin | 5.43%, +0.60pp yoy | Best same-period margin since 2023 per NBS |
+| Manufacturing profits | +20.4% yoy | Production-side recovery remains the engine |
+| Mining profits | +26.0% yoy | Commodity-price support |
+| Utilities profits | -1.9% yoy | Still lagging |
+
+The composition matters more than the headline. Equipment manufacturing profits rose 15.4%, high-tech manufacturing profits rose 44.8%, electronics profits rose 107.7%, and raw-material manufacturing profits rose 88.1%. NBS statistician Yu Weining tied the improvement to faster industrial production, recovering industrial-product prices, new growth drivers, and falling unit costs. The caveat was explicit: the external environment remains volatile and China's domestic imbalance between strong supply and weak demand is still prominent.
+
+*Source: Reuters / NBS, May 27 2026; NBS industrial-profits interpretation by Yu Weining.*
+
 ---
 
 ## Bond market dynamics (Feb 2026)
@@ -311,6 +329,12 @@ Possible explanations (Sacks): (1) Western media focuses on doom/gloom, (2) Holl
 
 - Less regulatory friction for deployment
 - 15th Five-Year Plan explicitly pro-AI
+
+### Space / lunar program acceleration (May 2026)
+
+The [[China Manned Space Agency]] is turning the [[Tiangong]] space station into the working testbed for the [[Chinese crewed lunar program]]. Reuters reported that [[Shenzhou]]-23 launched from [[Jiuquan Satellite Launch Center]] on May 24 with a plan for one crew member to remain aboard Tiangong for a year, China's longest human-spaceflight mission. The test is not just prestige duration: it studies radiation exposure, bone-density loss, psychological stress, long-duration crew performance, and autonomous rendezvous/docking needed for a 2030 crewed moon landing.
+
+The hardware stack is now visible: [[Long March 10]] heavy lift, [[Mengzhou]] crew spacecraft, and [[Lanyue]] lunar lander. Chinese state media also framed Tiangong as a three-part support system for the moon target: astronaut training, in-orbit validation of key technologies, and a platform for testing spacecraft specifications. The strategic read is that China is using a state-integrated cadence to pressure the more commercialized US [[Artemis]] architecture. The investable read is on the US side: a credible Chinese 2030 target strengthens the budget and urgency case for [[NASA]], [[SpaceX]] [[Starship]], [[Blue Origin]], and lunar-surface infrastructure.
 
 ---
 

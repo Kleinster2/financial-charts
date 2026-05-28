@@ -537,9 +537,11 @@ Capex guidance — the headline line: FY26 capex now guided to roughly $190B for
 
 The structural read: Microsoft's capex now exceeds Street's prior $121-140B FY26 estimates ([[Jefferies]], [[Cantor]]) by ~50% at the high end. The Q3 capex undershoot is incidental — likely a server-build timing slip — and should reverse in Q4. The bigger signal is that the $25B "memory mark" framing tells investors the marginal capex dollar is increasingly going to the [[SK Hynix]]/[[Samsung]]/[[Micron]] complex rather than the [[NVIDIA]]/[[AMD]] complex on the GPU bill. [[Hyperscaler capex]] now needs revising up across the Big 4.
 
+The May 8 FT / [[Visible Alpha]] cash-flow pass still flags Microsoft as part of the group-wide FCF trough, with at least one expected negative-FCF quarter as capex lands before revenue. The distinction is balance-sheet quality: Microsoft remains the cleanest funding source in the cohort, so the pressure shows up more as lower near-term FCF and slower capital return than as credit stress.
+
 Stock closed Apr 29 at $424.46 (-1.12% on the day, into the print); after-hours reaction muted vs. the [[Meta]] -7% AH drop, reflecting the ~$3.4B capex undershoot reading more bullishly into a memory-mark guidance bump than Meta's pure raise.
 
-*Sources: [Microsoft press release](https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/press-release-webcast), [CNBC](https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html), [investingLive Q3 capex breakdown](https://investinglive.com/stocks/microsoft-q3-beats-on-revenue-eps-and-cloud-as-capex-comes-in-34bn-below-estimates-20260429/), [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/04/29/microsoft-msft-q3-2026-earnings-transcript/), Apr 29 2026.*
+*Sources: [Microsoft press release](https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/press-release-webcast), [Microsoft FY26 Q3 earnings transcript](https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3), [CNBC](https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html), [investingLive Q3 capex breakdown](https://investinglive.com/stocks/microsoft-q3-beats-on-revenue-eps-and-cloud-as-capex-comes-in-34bn-below-estimates-20260429/), [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/04/29/microsoft-msft-q3-2026-earnings-transcript/), Apr 29 2026; [FT](https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494), May 8 2026.*
 
 ---
 

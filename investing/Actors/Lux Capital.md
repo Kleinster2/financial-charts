@@ -22,7 +22,7 @@ Premier deep tech VC, comfortable with hardware:
 
 ## Investment focus
 
-**"Backs the sci-fi future":**
+Backs the sci-fi future:
 
 | Category | Examples |
 |----------|----------|
@@ -38,7 +38,7 @@ Not afraid of atoms + bits.
 
 ## Unconventional AI investment
 
-**Co-investor with a16z:**
+Co-investor with a16z:
 - Brain-inspired chips
 - Post-GPU architectures
 - Naveen Rao (ex-[[Databricks]])
@@ -50,7 +50,7 @@ Shows Lux's frontier tech appetite.
 
 ## Semiconductor relevance
 
-**More chip-adjacent than most VCs:**
+More chip-adjacent than most VCs:
 - Comfortable with hardware risk
 - Novel compute architectures
 - Manufacturing investments
@@ -60,7 +60,7 @@ Shows Lux's frontier tech appetite.
 
 ## Portfolio approach
 
-**Long time horizons:**
+Long time horizons:
 - Deep tech needs patience
 - 10+ year outcomes
 - Willing to fund R&D phase
@@ -75,7 +75,7 @@ Shows Lux's frontier tech appetite.
 | [[a16z]] | Platform, media presence |
 | [[Sequoia Capital]] | Multi-stage, growth |
 | [[Lightspeed Venture Partners]] | Scale, AI apps |
-| **Lux Capital** | Deep tech, hardware |
+| Lux Capital | Deep tech, hardware |
 
 Lux = the VC that understands physics.
 
@@ -89,6 +89,16 @@ Lux = the VC that understands physics.
 | Peter Hébert | Co-founder |
 
 Josh Wolfe active on X, shapes deep tech narrative.
+
+---
+
+## Mega-IPO absorption view (May 2026)
+
+FT's May 23 2026 SpaceX / OpenAI / Anthropic IPO article used Lux as one of the investor voices arguing that public markets can absorb the trophy-issuer supply. The useful read for Lux is consistent with the firm's deep-tech bias: a $75B [[SpaceX]] raise is being framed as financeable because public investors have spent years seeking indirect AI exposure through semiconductors and now may finally get direct access to frontier labs and the Musk space/AI stack.
+
+The caution is that the argument depends on scarcity. If [[SpaceX]] trades poorly, it weakens the direct-access thesis before [[OpenAI]] and [[Anthropic]] can list.
+
+*Source: [[Financial Times|FT]] article, May 23 2026: https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12.*
 
 ---
 

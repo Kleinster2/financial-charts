@@ -211,11 +211,20 @@ On Apr 20, SK Hynix said it had begun mass production of a 192GB SOCAMM2 module 
 
 The readthrough is that SK Hynix is not just defending its lead inside [[HBM]]. It is trying to widen its position across the broader AI-memory stack, including the server-side modules that sit around training and inference systems. That mattered for the Korea tape too. As [[2026 Iran conflict market impact|Iran-war]] energy fears faded, SK Hynix again traded as AI infrastructure rather than as a cyclical memory beta, helping pull the broader Korean equity story back toward semiconductors.
 
+## $1T market-cap milestone (May 2026)
+
+On May 27, [[Reuters]] reported that SK Hynix topped $1T in market value for the first time, joining [[Samsung]] and [[Micron]] in the memory-chip $1T club. The milestone matters less as a round number than as confirmation that the market is valuing HBM leadership as AI infrastructure scarcity, not generic DRAM beta.
+
+The timing is the signal. The broader [[Reuters]] cross-asset graphic was about the [[2026 Iran conflict market impact|Iran war]] splitting markets into winners and losers: oil, the dollar, and AI-led equities in the winner camp; airlines, luxury, Asian oil-importer currencies, and bonds in the loser camp. SK Hynix landing in the winner camp while Korea remains structurally energy-import exposed shows how strong the AI-memory factor has become inside [[Kospi]]. The market is willing to look through the terms-of-trade shock when the earnings duration is tied to HBM, Rubin, and hyperscaler capex.
+
+Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | [[HBM]] position | \#1 globally (50%+ share) |
+| Market cap milestone | Topped $1T for first time on May 27 2026 |
 | HBM4 status | Paid samples delivered to NVIDIA (Dec 2025) |
 | HBM3E pricing | +20% for 2026 |
 | Q4 2025 gross margin | 63-67% (exceeding TSMC, first since Q4 2018) |
@@ -223,7 +232,7 @@ The readthrough is that SK Hynix is not just defending its lead inside [[HBM]]. 
 | 2.5D mass production | Targeting 2028 |
 | US listing | Exploring (2026) |
 
-*Updated 2026-01-27*
+*Updated 2026-05-28*
 
 ---
 

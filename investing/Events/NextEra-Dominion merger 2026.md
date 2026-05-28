@@ -98,6 +98,8 @@ For [[NextEra Energy]], the deal adds the Virginia/North Carolina/South Carolina
 
 The [[Financial Times|FT]] framing is the important second-order question: the merger may create the platform needed to build faster, but it also makes the fight over who pays for the AI boom more explicit. The proposed bill credits help sell the transaction; they do not by themselves answer how future generation, transmission, interconnection, and reliability costs get allocated between hyperscalers and ordinary ratepayers.
 
+The later FT Lex / Markets item, "A gargantuan energy deal for the AI age," sharpened the same point: the [[NextEra Energy]]-[[Dominion Energy]] combination is best read as a pragmatic utility response to structurally larger power needs, not simply a financial roll-up. The body remained subscriber-only in this session, so only the public headline/deck is used here; deal terms and platform metrics continue to rest on the companies' release and corroborating coverage.
+
 ### Relation to the broader energy-security capex cycle
 
 This deal is the canonical M&A expression of the US AI-power leg of the [[Energy security as investment thesis]] — the framework that organizes the 2026 renewable-equity rally as a sovereignty ([[Europe]]) plus AI-power (US) capital-flow story. Per the FT May 3 2026 piece on clean-energy fund flows (Emily Herbert and Ramsay Hodgson), [[Nordea Asset Management]] CIO Kasper Elmgreen described the US side as "all hands on deck . . . they need more generation and they need to invest in the grid." This merger consolidates exactly that: 110 GW of owned generation + more than 130 GW of large-load opportunities + [[PJM]] entry at scale.
@@ -132,6 +134,7 @@ The structural read connecting the two: where the FT article identified the *flo
 - [NextEra/Dominion joint release - all-stock combination announcement](https://www.investor.nexteraenergy.com/news-and-events/news-releases/2026/05-18-2026-123054903) (May 18, 2026).
 - [[Reuters]] via [Investing.com - NextEra plans to buy Dominion for $66.8B](https://www.investing.com/news/stock-market-news/nextera-energy-to-buy-dominion-in-668-billion-us-power-deal-4695477) (May 18, 2026).
 - [[Financial Times|FT]] - [Project Astra: the $420bn merger powering the US AI revolution](https://www.ft.com/content/4850e61e-df5b-4219-85cc-f039af545110) (May 18, 2026; subscription page visible).
+- [[Financial Times|FT]] Lex / Markets - [A gargantuan energy deal for the AI age](https://www.ft.com/content/d70509da-493c-4648-921f-8a8a9a98395c) (May 22, 2026; public headline/deck only visible).
 - [Utility Dive - Combined NextEra-Dominion would have 130-GW large-load pipeline](https://www.utilitydive.com/news/nextera-dominion-merger-would-create-worlds-largest-regulated-electric-ut/820457/) (May 18, 2026).
 - [Latitude - NextEra-Dominion: A mega-deal for the AI era](https://www.latitudemedia.com/news/the-nextera-dominion-tie-up-is-a-mega-deal-for-the-ai-era/) (May 18, 2026).
 - [Axios Richmond - What the Dominion-NextEra merger could mean for Richmond](https://www.axios.com/local/richmond/2026/05/18/dominion-nextera-merger-richmond-virginia) (May 18, 2026).

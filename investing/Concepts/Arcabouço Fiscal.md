@@ -15,6 +15,14 @@ The central insight: the Arcabouço is more credible than the post-Teto vacuum b
 
 ---
 
+## BTG/Mansueto 2026 constraint map
+
+At [[BTG Pactual]]'s May 22, 2026 AgroForum Cuiabá panel, [[Mansueto Almeida]] sharpened the Arcabouço problem into a mandatory-spending problem. In his telling, Brazil does not need a shock program because inflation is not Argentina-style and the country still has reserves, a current-account deficit covered by FDI, and functioning private capital markets. It needs a credible cap on the real growth of benefits, pensions, floors, and indexed spending lines that keep expanding even when the formal fiscal rule is observed.
+
+This distinction matters for allocators because the market can reprice faster than the fiscal accounts. A credible signal on mandatory-spending growth would hit [[Selic]] expectations first, then BRL risk premium and equity duration. A failure to signal it leaves the Arcabouço as a procedural rule around an unsolved spending base.
+
+---
+
 ## Structure
 
 | Element | Mechanics |

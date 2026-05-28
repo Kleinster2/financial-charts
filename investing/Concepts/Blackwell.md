@@ -4,13 +4,19 @@
 
 ---
 
+## Synthesis
+
+Blackwell is the first NVIDIA architecture where the deployment bottleneck is as visible as the chip bottleneck. The silicon matters, but the tradeable constraint has moved into rack power, cooling, site readiness, power smoothing, integration, and customer-specific commissioning. That is why the note spans both the architecture and deployments such as IREN's Childress buildout.
+
+---
+
 ## Architecture
 
 | Chip | Specs | Status |
 |------|-------|--------|
 | B100 | 208B transistors, 4nm | Shipping |
 | B200 | Dual-die design, 8 HBM stacks | Limited (packaging issues) |
-| **B200A** | Single B102 die, 4 HBM stacks | Rework — main volume |
+| B200A | Single B102 die, 4 HBM stacks | Rework — main volume |
 | GB200 | Grace Blackwell superchip | Shipping |
 | NVL72 | 72-GPU rack system | Shipping |
 
@@ -39,14 +45,14 @@
 
 ## Packaging issues & rework (Sep 2024)
 
-**Per [[SemiAnalysis]]:** Blackwell had significant packaging problems requiring design changes.
+Per [[SemiAnalysis]]: Blackwell had significant packaging problems requiring design changes.
 
 | Issue | Detail |
 |-------|--------|
 | Root cause | First high-volume design using [[TSMC]]'s CoWoS-L technology |
 | Problems | Packaging issues at TSMC + NVIDIA design flaws |
 | Cancelled | HGX form-factors (B100/B200) outside initial lower volumes |
-| Rework | **B200A** introduced — single monolithic B102 die + 4 HBM stacks |
+| Rework | B200A introduced — single monolithic B102 die + 4 HBM stacks |
 
 ### B200A vs original B200
 
@@ -57,7 +63,7 @@
 | Complexity | Higher | Simplified |
 | CoWoS-L | Yes | Reduced requirements |
 
-**Why it matters:** CoWoS-L was supposed to be NVIDIA's packaging upgrade, but yield issues forced a simpler design. This validated concerns about [[Advanced packaging]] as the binding constraint on AI chips, not fab capacity.
+Why it matters: CoWoS-L was supposed to be NVIDIA's packaging upgrade, but yield issues forced a simpler design. This validated concerns about [[Advanced packaging]] as the binding constraint on AI chips, not fab capacity.
 
 Source: [[SemiAnalysis]] — [Blackwell Reworked](https://newsletter.semianalysis.com/p/nvidias-blackwell-reworked-shipment)
 
@@ -97,6 +103,14 @@ Mitigation work is ongoing across [[Meta]], [[Google]], and [[NVIDIA]]'s referen
 
 ---
 
+## IREN Childress deployment (May 2026)
+
+[[IREN]]'s May 2026 Childress sequence is a useful deployment marker because it is an air-cooled Blackwell build outside the classic hyperscaler owned-campus model. IREN signed a five-year, ~$3.4B managed GPU cloud contract with [[NVIDIA]] for internal AI and research workloads, then agreed to buy about $1.6B of Dell-supplied Blackwell systems for the same Childress, Texas deployment.
+
+The systems are scheduled for existing IREN data centers, with commissioning targeted for early 2027. The disclosure did not identify a specific Blackwell SKU in the May 26 release, but the May 7 IREN materials said the NVIDIA contract would be serviced by air-cooled Blackwell platform systems across roughly 60MW. The operational read-through is that Blackwell deployment bottlenecks are spreading from hyperscaler campuses into the crypto-to-AI cohort: procurement, integration services, post-shipment payment terms, and site readiness are now part of the tradeable story.
+
+---
+
 ## Successor: Rubin
 
 | Chip | Timeline | Notes |
@@ -119,7 +133,9 @@ Mitigation work is ongoing across [[Meta]], [[Google]], and [[NVIDIA]]'s referen
 - [[GPU deployment bottleneck]] — infrastructure constraints
 - [[AI datacenter architecture]] — infrastructure requirements
 - [[HBM]] — memory technology
+- [[IREN]] — May 2026 air-cooled Blackwell deployment at Childress
+- [[Dell]] — system supplier for IREN's Childress Blackwell purchase
 
 ---
 
-*Updated 2026-02-01*
+*Updated 2026-05-26*

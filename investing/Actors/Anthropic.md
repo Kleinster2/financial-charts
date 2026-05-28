@@ -17,7 +17,7 @@ Anthropic - AI lab, maker of Claude. More capital-efficient than [[OpenAI]].
 | CEO | [[Dario Amodei]] |
 | Flagship product | [[Claude]] |
 | Revenue run rate | $30B+ (Apr 2026) |
-| Valuation | $380B post-money Series G (Feb 2026); Apr 2026 Google tranche reported at $350B pre-money |
+| Valuation | $380B post-money Series G (Feb 2026); Apr 2026 Google tranche reported at $350B pre-money; May 2026 Series H terms agreed at $900B |
 | Major hyperscaler investors | [[Amazon]], [[Google]], [[Microsoft]], [[NVIDIA]] |
 | Primary cloud partner | [[AWS]] / [[Amazon]] |
 | Major compute suppliers | [[AWS]] [[Trainium]], [[Google Cloud]] [[TPU]], [[NVIDIA]] GPUs |
@@ -74,7 +74,7 @@ Burning 14x less cash than OpenAI before profitability. CFO [[Krishna Rao]]: "Cl
 ![[ramp-anthropic-market-share-mar2026.png]]
 *Market share among companies paying for AI models: Anthropic ~30%, OpenAI ~25%, Google ~10% by Jan 2026. Source: Ramp AI Index (FT, Mar 21 2026)*
 
-[[NVIDIA]] CEO [[Jensen Huang]] (Mar 2026): expects his recent $40B investment across Anthropic and [[OpenAI]] to be his "last money in" — both companies will go public this year. [[Brad Gerstner]] ([[Altimeter]]): Opus 4.6 crossed a threshold where models compete with **labor budgets**, not IT budgets — "you could not possibly have a $6B month by displacing IT budgets."
+[[NVIDIA]] CEO [[Jensen Huang]] (Mar 2026): expects his recent $40B investment across Anthropic and [[OpenAI]] to be his "last money in" — both companies will go public this year. [[Brad Gerstner]] ([[Altimeter]]): Opus 4.6 crossed a threshold where models compete with labor budgets, not IT budgets — "you could not possibly have a $6B month by displacing IT budgets."
 
 Jensen on Anthropic's [[TPU]] usage (Dwarkesh, Apr 15, 2026): "[[Anthropic]] is a unique instance, not a trend." Characterizes Anthropic running part of its workload on [[Google]] [[TPU]] as bespoke rather than structural — Anthropic trains and serves simultaneously on [[NVIDIA]] GPUs, Google TPUs, and [[Trainium]] ([[AWS]]). "They run everywhere." The framing pushes back on the read that custom silicon is displacing NVIDIA at the frontier. For NVIDIA it matters: the TPU deal is frequently cited as evidence that frontier labs are migrating off GPUs. Jensen's rebuttal is that Anthropic is multihomed by design, not defecting.
 
@@ -85,6 +85,14 @@ Jensen on Anthropic's [[TPU]] usage (Dwarkesh, Apr 15, 2026): "[[Anthropic]] is 
 The Amodei capitulation matters for the broader buildout: it removes the only frontier-lab framing AI infrastructure spend as imprudent. With [[OpenAI]] at $600B by 2030, [[Anthropic]] at hundreds-of-billions, [[Meta]] adding [[OpenAI]] infrastructure leaders to its [[Superintelligence|Superintelligence Lab]] buildout, and [[xAI]] / [[Google]] / [[Microsoft]] / [[Amazon]] all at hyperscaler capex levels, every frontier lab is now committed to the same capital-intensive race. The capital-efficiency narrative — Anthropic burning 14x less than OpenAI before profitability — survives at the per-unit level but is eroding at the absolute level. See [[Anthropic vs OpenAI compute race]] and [[AI infrastructure financing risk]].
 
 *Source: FT (Hammond, Morris, Keohane, Bradshaw — Apr 29, 2026)*
+
+### IPO-readiness stress test (May 2026)
+
+FT's May 23 2026 mega-IPO piece adds the public-market version of the same tension. Anthropic's first quarterly profit and the $900B Series H framing make it the cleanest of the three trophy issuers on near-term economics, but that profit signal may be fleeting because the company is simultaneously stepping into much heavier fixed capacity obligations.
+
+The most concrete new datapoint is buyer-side concentration with [[SpaceX]]: FT says Anthropic agreed to become SpaceX's largest customer, spending about $15B a year on data-center capacity and computing power. That sits on top of the existing [[Google]] / [[Amazon]] commitments worth hundreds of billions over time. The underwriting question for a public listing is therefore not "is Anthropic less capital-intensive than OpenAI?" It is "does Anthropic's enterprise revenue scale fast enough to cover the absolute-dollar capacity ramp after the Series H?"
+
+*Source: [[Financial Times|FT]] article, May 23 2026: https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12.*
 
 ---
 
@@ -118,12 +126,37 @@ Three of the four co-leads are also significant [[OpenAI]] backers — [[Dragone
 
 [[Big Tech]] is not expected to participate in this round, although Anthropic has previously taken tens of billions from [[Amazon]] and [[Google]] in strategic rounds. The pace of the deal is notable: investors approached the company in April; CFO [[Krishna Rao]] formally initiated talks in the two weeks before the agreement.
 
-Anthropic's annualised revenue is expected to cross $45B imminently (per FT) — the WSJ's May 15 follow-up sharpens this further: Anthropic is projecting a **$50B revenue run-rate by the end of Q2 2026** per WSJ sources, a fivefold-plus increase from the $9B run rate at the end of 2025 and ahead of the $30B+ mark disclosed alongside the April Google/Broadcom deal. The structural read: Series H is being priced off run-rate revenue rather than forward-revenue multiples, with $900B / $50B ARR ≈ 18x trailing — high relative to public software comps but compressing from the Series G $380B / $14B (27x) mark.
+Anthropic's annualised revenue is expected to cross $45B imminently (per FT) — the WSJ's May 15 follow-up sharpens this further: Anthropic is projecting a $50B revenue run-rate by the end of Q2 2026 per WSJ sources, a fivefold-plus increase from the $9B run rate at the end of 2025 and ahead of the $30B+ mark disclosed alongside the April Google/Broadcom deal. The structural read: Series H is being priced off run-rate revenue rather than forward-revenue multiples, with $900B / $50B ARR ≈ 18x trailing — high relative to public software comps but compressing from the Series G $380B / $14B (27x) mark.
 
 Per WSJ, the round could ultimately raise *significantly* more than $30B as additional investors are added before close. The cumulative Anthropic raise since the beginning of 2025 (per WSJ) crosses $90B — including Series F ($13B), Series G ($30B), the strategic [[Google]] (~$10B upfront + up to $30B future) and [[Amazon]] ($5B + up to $20B) tranches, the [[NVIDIA]]/[[Microsoft]] $15B strategic round (Nov 2025), and now Series H. The $122B [[OpenAI]] round earlier in 2026 remains the single largest round in Silicon Valley history; OpenAI's cumulative raise since 2024 totals $162B per WSJ.
 
 *Source: [Anthropic agrees terms of $30bn funding deal at $900bn valuation](https://www.ft.com/content/9deae3c6-716d-4f4d-8b09-434d8519f847), FT, May 14, 2026, by George Hammond.*
 *Cross-source: [Anthropic Raising $30 Billion More as AI Labs Absorb Majority of VC Funding](https://www.wsj.com/), WSJ, May 15 2026 11:30 AM ET, by Kate Clark.*
+
+### Polymarket / NPM valuation high-water ladder (May 21, 2026)
+
+[[Polymarket]] opened a threshold ladder on whether [[Anthropic]]'s private-market valuation, measured by the [[Nasdaq Private Market|NPM]] Price, reaches specified high-water marks by Dec. 31, 2026. The event had $346K volume, $1.21M liquidity, and $207K open interest at the May 21 read.
+
+The attached Polymarket/NPM chart showed current NPM valuation at $936.23B (+1,256.23%) as of the May 21 screenshot. That places the live NPM mark just above the agreed $900B Series H valuation and still below the first high-side Polymarket thresholds ($1.0T / $1.1T), which explains why those contracts price near-certain but not resolved.
+
+The ladder prices the current private-market argument as a move from "can Anthropic clear $1T?" to "where between $1.5T and $1.75T does the market's median sit?" Applying the vault's 50% cumulative interpolation rule to the high-side threshold contracts gives an implied median high-water valuation of about $1.69T.
+
+| Threshold | Yes price |
+|---|---:|
+| $1.0T | 94.5c |
+| $1.1T | 93.5c |
+| $1.25T | 77.5c |
+| $1.5T | 57.5c |
+| $1.75T | 47.5c |
+| $2.0T | 35.5c |
+| $2.5T | 27.5c |
+| $3.0T | 16.5c |
+| $4.0T | 10.5c |
+| $5.0T | 6.5c |
+
+Downside tail pricing is much lighter: 13.5c for an $800B low-water mark, 9.5c for $700B, and 7.5c for $600B. That sits below the agreed $900B Series H mark, so the downside contracts are pricing a post-round secondary-market break rather than a failed Series H.
+
+*Sources: [[Polymarket]] Gamma event `will-anthropics-valuation-hit-by-december-31`, read May 21, 2026: https://gamma-api.polymarket.com/events/slug/will-anthropics-valuation-hit-by-december-31; user-provided Polymarket/NPM chart screenshot, May 21, 2026.*
 
 ### FT monthly valuation arc (Jan 2024 – Mar 2026)
 
@@ -501,7 +534,7 @@ Key improvements: less over-engineering and "laziness," better instruction follo
 
 Also announced: Claude Cowork desktop app (macOS, Windows coming) - native app controlling mouse, keyboard, and browser for multi-step tasks (file organization, document editing, web browsing). Extends Cowork from cloud to local desktop.
 
-Available on claude.ai, API, [[Amazon|Amazon Bedrock]], [[Google|Vertex AI]], [[Microsoft|Microsoft Foundry]].
+Available on claude.ai, API, [[Amazon\|Amazon Bedrock]], [[Google\|Vertex AI]], [[Microsoft\|Microsoft Foundry]].
 
 *Sources: [[CNBC]] (Feb 17), TechCrunch (Feb 17), VentureBeat (Feb 17)*
 
@@ -528,7 +561,7 @@ New capabilities:
 - Effort controls - four levels (low/medium/high/max) for developer control over intelligence/speed/cost
 - Fast mode - research preview, up to 2.5x faster output token generation at premium pricing
 
-Standard pricing: $5/$25 per MTok input/output (unchanged). Available on claude.ai, API, [[Amazon|Amazon Bedrock]], [[Google|Vertex AI]], [[Microsoft|Microsoft Foundry]].
+Standard pricing: $5/$25 per MTok input/output (unchanged). Available on claude.ai, API, [[Amazon\|Amazon Bedrock]], [[Google\|Vertex AI]], [[Microsoft\|Microsoft Foundry]].
 
 Scott White (Anthropic head of product, enterprise): "We are now transitioning almost into vibe working."
 
@@ -576,6 +609,24 @@ Opposed by Leading the Future PAC ($125M budget, backed by [[Greg Brockman]], [[
 Polling: 69% of Americans think government "not doing enough to regulate AI."
 
 *Sources: Anthropic blog (Feb 12), [[CNBC]] (Feb 12), [[Bloomberg]] (Feb 12), Axios (Feb 12)*
+
+---
+
+### Chris Olah Vatican AI remarks (May 25, 2026)
+
+[[Chris Olah]] spoke at the Vatican City presentation of Pope Leo XIV's AI encyclical, "Magnifica humanitas," and Anthropic published the remarks in full. The strategic signal is that Anthropic is extending its safety posture beyond technical evals and PAC-funded regulation into a broader moral-governance channel: Olah explicitly argued that frontier AI labs, including Anthropic, operate under commercial, geopolitical, pride, and ambition pressures that can conflict with doing the right thing, so outside critics are necessary.
+
+The content maps directly onto Anthropic's three most exposed non-financial risk channels:
+
+| Channel | Olah framing | Vault read-through |
+|---------|--------------|--------------------|
+| [[AI labor displacement]] | Large-scale job displacement is a real possibility and gain-sharing has no mechanism | Anthropic is acknowledging the distribution problem from inside the frontier-lab leadership layer |
+| [[AI safety]] | Model nature is not only a computer-science question | Interpretability becomes a governance input, not just a research demo |
+| External oversight | Religious communities, civil society, scholars, governments, and critics should push labs | Supports Anthropic's legitimacy posture, while creating a standard against which its own deployment choices can be judged |
+
+This sits next to the [[Public First Action]] donation rather than replacing it. Public First is the electoral/regulatory channel; the Vatican remarks are the moral-legitimacy channel. Both reinforce Anthropic's differentiated safety brand, and both raise the cost of any future move that looks like mission drift.
+
+*Source: [Anthropic - Chris Olah remarks on Pope Leo XIV's AI encyclical](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical), May 25, 2026.*
 
 ---
 
@@ -776,7 +827,7 @@ Three numerical claims from Mirae worth tracking:
 | Claim | Mirae figure | Cross-check |
 |---|---|---|
 | xAI annual revenue from lease | $5-6B at ~$2.60/GPU-hr blended | New Street Research (per Fortune) cites $3-4B range — the spread is large enough to flag |
-| Anthropic spend → ARR conversion | ~$5B spend → ~$15B Claude inference ARR | Consistent with [[Inference economics#Anthropic's actual company-level margins|80-95% per-token gross margins]] documented at the unit level |
+| Anthropic spend → ARR conversion | ~$5B spend → ~$15B Claude inference ARR | Consistent with [[Inference economics#Anthropic's actual company-level margins\|80-95% per-token gross margins]] documented at the unit level |
 | xAI hedge value | $5-6B revenue almost exactly offsets Q1 2026 annualized net loss of ~$6B | Material for [[SpaceX IPO 2026]] narrative — reframes "AGI cash incinerator" to "infrastructure tollgate" |
 
 Mirae also separately notes that the May 6 lease, classified within Anthropic's April capacity surge, brings Anthropic's 30-day commitment total to 13.8 GW — a wall-clock pace that took [[OpenAI]] more than a year to assemble at ~18 GW cumulative. Crucially, the Colossus 1 share is the *only* piece of that 13.8 GW deliverable inside May 2026; the [[AWS]] / [[Google Cloud]] / [[Google]]-[[Broadcom]] commitments come online over 2026-2027. See [[Anthropic vs OpenAI compute race#May 2026 update deliverable vs committed capacity]] for the deliverable-vs-committed breakdown.
@@ -787,7 +838,7 @@ The product-side evidence the lease relieved Anthropic's binding capacity constr
 
 ### Secondary-market void declaration (May 11, 2026)
 
-Anthropic updated its public help-center notice on unauthorized stock sales, explicitly declaring all transfers not approved by its board of directors **void** under Delaware bylaw transfer restrictions. The notice applied to both common AND preferred stock and was the first time Anthropic publicly named individual SPV operators and tokenization venues in a blocklist:
+Anthropic updated its public help-center notice on unauthorized stock sales, explicitly declaring all transfers not approved by its board of directors void under Delaware bylaw transfer restrictions. The notice applied to both common AND preferred stock and was the first time Anthropic publicly named individual SPV operators and tokenization venues in a blocklist:
 
 - [[Open Door Partners]]
 - [[Unicorns Exchange]]
@@ -850,7 +901,7 @@ Combined with the same-week [[Google Cloud]] $200B / 5-year commitment that surf
 |---|---|---|
 | ARR trajectory | "$9B → $35-40B and probably by the time this airs $40-45B; adding $10B/month" | Vault-confirmed: $30B+ by Apr 6, 2026 (Bloomberg, CNBC, TechCrunch). Patel's $40-45B claim runs ahead of confirmed disclosure by ~3 weeks; treat as projection |
 | Gross-margin floor 72% | "Even if you assume all incremental compute they've gotten has gone towards inference, their margins are at a floor of 72%" — calculation not company disclosure | The Information (Jan 2026) reported gross margin ~40% projected for 2025, revised down from 50%, with inference costs 23% above plan; target 77% by 2028. Patel's 72% floor calculation contradicts The Information's reporting and should be treated as Patel's view, not fact |
-| Compute as binding constraint, not demand | "[[Mythos]] is a model where if the world had enough compute, it'd be $500B of revenue or something crazy" | Consistent with Mar 13 Patel framing on the [[Anthropic vs OpenAI compute race|conservative-compute thesis]] and Apr 20-24 [[Google]]/[[Amazon]] capacity-financing surge; capacity binding is the consensus view |
+| Compute as binding constraint, not demand | "[[Mythos]] is a model where if the world had enough compute, it'd be $500B of revenue or something crazy" | Consistent with Mar 13 Patel framing on the [[Anthropic vs OpenAI compute race\|conservative-compute thesis]] and Apr 20-24 [[Google]]/[[Amazon]] capacity-financing surge; capacity binding is the consensus view |
 
 The reasoning behind the 72% floor: Patel assumes ARR growth from $9B to $40-45B with compute capacity not having grown proportionally. If incremental compute went mostly to inference (rather than research/training), his calculation produces 72% as the implied floor. Two reasons that calculation may overstate margin: (1) [[Anthropic]] has explicitly continued large research-compute spend (Mythos, Opus 4.7 both shipped under the period in question); (2) cloud markup on third-party-served inference (Bedrock, Vertex, Foundry) compresses realized margin, per the [[Anthropic vs OpenAI compute race|Patel Mar 13 framing]] he separately articulated. The contradiction with The Information's 40% figure is unresolved as of the ingestion date.
 

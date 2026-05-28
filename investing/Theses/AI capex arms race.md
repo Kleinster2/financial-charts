@@ -109,6 +109,61 @@ The [[FOMC]] decision sits alongside as macro overlay. The AI capex thesis is fu
 
 ---
 
+## May 2026 refinement IV: capex engine vs commodity constraint
+
+The clearest cross-asset split is now [[Morgan Stanley]] versus [[Jeff Currie]]. Morgan Stanley's midyear outlook treats the AI buildout as a durable risk-asset engine: higher capex feeds revenues for hyperscalers, semis, power equipment, industrial suppliers, and eventually productivity users. The firm raised its [[S&P 500]] path to 8,000 by year-end 2026 and 8,300 by mid-2027, with the equity case resting on earnings growth rather than multiple expansion.
+
+Currie is not rejecting the AI buildout. He is shifting the profit pool. His May 2026 framing says the highest-return "AI trade" may be oil majors and old-economy assets, not Big Tech, because AI infrastructure ultimately consumes power, fuel, copper, gas turbines, cooling, land, grid equipment, and logistics. Hyperscaler capex creates demand for molecules and electrons; commodity underinvestment determines who captures the scarcity rent.
+
+That makes the tension sharper than a simple tech bull vs commodity bull argument:
+
+| Frame | What AI capex means | Trade expression | Main risk |
+|---|---|---|---|
+| [[Morgan Stanley]] | Earnings and productivity cycle; U.S. equities lead, suppliers and financing channels benefit | U.S. equities, hyperscalers, industrials, financials, selected AI infrastructure suppliers | Credit supply pressure and inflation forcing tighter liquidity |
+| [[Jeff Currie]] | Physical-demand shock landing on capital-starved energy/materials supply | Oil majors, miners, midstream, utilities, HALO assets | AI demand disappoints before commodity scarcity can reprice |
+
+The synthesis: Morgan Stanley is long the first derivative of AI capex - revenue growth, earnings, and capital-markets activity. Currie is long the second derivative - the scarce physical inputs without which that capex cannot be delivered. Both can be right for a while: equities can rally on visible AI demand while commodities and energy equities rerate as investors realize the buildout is not asset-light.
+
+Watch the confirmation tests:
+- Hyperscaler free cash flow versus capex guidance: if FCF compresses while capex rises, Currie's critique gains force.
+- AI-related IG and private-credit spreads: if financing pressure stays contained, Morgan Stanley's risk-on frame holds.
+- Power, gas turbine, copper, and oil-major relative performance versus hyperscalers: if the input basket outperforms the buyers, the trade is migrating from AI beneficiaries to AI constraints.
+- [[Oil]] / [[Strait of Hormuz]] persistence: elevated energy prices turn AI infrastructure from a growth story into a margin and inflation stress test.
+
+*Sources: [Morgan Stanley 2026 Midyear Investment Outlook](https://www.morganstanley.com/insights/articles/investment-outlook-midyear-2026), May 15 2026; [Brazil Journal summary of Jeff Currie's Bloomberg-linked May 2026 comments](https://braziljournal.com/maior-trade-de-ai-sao-petroleiras-nao-big-techs/), May 19 2026.*
+
+---
+
+## May 2026 refinement V: platform cash flow vs supplier pricing power
+
+The May 21, 2026 FT interview with [[James Anderson]] and [[Morgan Samet]] adds a stock-picker version of the same split. Their claim is not simply that AI capex is large. It is that the old platform model itself has changed: [[Microsoft]], [[Alphabet]], [[Amazon]], and [[Meta]] still control distribution and cloud channels, but AI forces them to fund a running infrastructure war instead of harvesting the low-capex free-cash-flow profile that defined the prior software/platform era.
+
+That turns the AI capex question into a profit-pool question. The buyers of capacity may still grow, but the suppliers of scarce capacity have the cleaner pricing-power claim. Anderson named [[NVIDIA]], [[TSMC]], and [[ASML]] as the kind of hardware suppliers likely to capture disproportionate economics from the buildout, while Samet framed the current market as one where customers cannot yet refuse supplier price increases. This reinforces the [[AI capex chain basket]] result: the hyperscalers are conceptually linked by spend, but the validated co-moving factor sits downstream in the supplier chain.
+
+The independent data points line up with the frame without requiring the FT article to carry it alone. [[Morgan Stanley]]'s March 2026 AI power outlook says large technology companies could spend more than $1T in 2025-2026 and rely heavily on credit markets, while Reuters' May 20 ASML interview has CEO Christophe Fouquet describing semiconductors as supply-limited for the foreseeable future. The open question is therefore not just whether AI demand persists, but how much of the marginal dollar goes to platform owners versus the physical and semiconductor bottlenecks they must buy.
+
+*Sources: [FT article — Big Tech software era is over, says top investor James Anderson](https://www.ft.com/content/9d2bd5b3-80c6-49b9-a04b-edc4162c9320), May 21 2026; [Morgan Stanley — Powering AI](https://www.morganstanley.com/insights/articles/powering-ai-energy-market-outlook-2026), Mar 2026; [Reuters via Investing.com — ASML CEO sees tight supply](https://www.investing.com/news/stock-market-news/exclusiveasml-ceo-sees-tight-supply-in-booming-chip-market-as-ai-demand-soars-4701446), May 20 2026.*
+
+---
+
+## May 2026 refinement VI: free cash flow becomes the constraint
+
+The May 8 FT / [[Visible Alpha]] work makes the capex arms race measurable at the cash-flow line, not just the guidance line. The four core hyperscalers are now expected to spend about $725B on AI infrastructure in 2026, while combined Q3 free cash flow is projected near $4B. That is the cleanest current evidence that the industry has crossed from "AI capex funded by surplus cash" into "AI capex funded by lower buybacks, more debt, leases, and project-finance vehicles."
+
+This tightens the thesis in three ways:
+
+| Mechanism | Why it matters |
+|---|---|
+| Buybacks become discretionary | [[Alphabet]] and [[Meta]] both reported no Q1 2026 share repurchases; the old capital-return floor is no longer automatic |
+| Debt markets become part of the AI trade | Alphabet's Q1 10-Q shows $31.4B of debt proceeds; Meta's 10-Q shows $59.0B senior notes outstanding; [[Amazon]] says it expects additional financing activity in 2026 |
+| Supplier pricing power gets stronger | The buyers are spending through FCF compression because capacity is strategic; that keeps the marginal economics pointed toward [[NVIDIA]], [[TSMC]], [[ASML]], [[SK Hynix]], [[Samsung]], and [[Micron]] |
+
+This is why the [[James Anderson]] / [[Morgan Samet]] platform-vs-supplier frame and the [[Jeff Currie]] physical-constraint frame now reinforce each other. The hyperscalers are still the demand engine, but the more they spend through the cash-flow trough, the more the investment question shifts from "who grows revenue fastest?" to "who captures the scarce input rent while the buyers absorb the financing strain?"
+
+*Sources: [FT article — Big Tech's $725bn AI spending spree sends free cash flow to a decade low](https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494), May 8 2026; [Alphabet Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm); [Meta Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm); [Amazon Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm).*
+
+---
+
 ## Corporate restructuring response
 
 ### Musk empire convergence
@@ -232,6 +287,12 @@ The question: Will hundreds of billions in AI spending quickly pay off?
 
 | Date | Observation | Implication |
 |------|-------------|-------------|
+| 2026-05-27 | [[Marvell]] reported Q1 FY2027 revenue of $2.418B, data-center revenue of $1.833B, Q2 revenue guidance of $2.7B, FY2028 revenue outlook of about $16.5B, and Reuters-reported custom-chip revenue target above $10B in FY2029 | Phase 2 systems scarcity is showing up in networking, custom XPUs, optical interconnect, and XPU-attach silicon, not just GPUs; Marvell is now a concrete supplier-side confirmation point alongside [[Broadcom]] |
+| 2026-05-23 | FT frames [[SpaceX]], [[OpenAI]], and [[Anthropic]] IPOs as a single 2026 public-market absorption test: SpaceX up to $75B, OpenAI's $122B round already the year's largest private raise, and Anthropic near a $30B round at $900B | The capital bottleneck is moving from private rounds and hyperscaler balance sheets toward public-market float capacity; direct lab exposure may compete with semiconductor proxies for the same AI risk budget |
+| 2026-05-21 | [[James Anderson]] / [[Morgan Samet]] tell FT that AI capex is ending the old low-capex platform era and shifting marginal economics toward [[NVIDIA]], [[TSMC]], and [[ASML]] | Adds an allocator-source confirmation of the buyer-vs-supplier split already visible in [[AI hyperscalers]] and [[AI capex chain basket]] |
+| 2026-05-20 | [[Morgan Stanley]] midyear outlook raises the year-end 2026 [[S&P 500]] target to 8,000 and mid-2027 target to 8,300, while warning that AI debt issuance can pressure credit markets | The AI capex thesis now has an explicit cross-asset expression: long U.S. earnings and AI infrastructure beneficiaries, but monitor credit supply as the pressure valve |
+| 2026-05-19 | [[Jeff Currie]] reframes the "AI trade" as old-economy energy and commodities, citing oil-major FCF yield versus hyperscaler reinvestment pressure | AI capex demand can migrate returns away from the buyers of infrastructure and toward the constrained physical inputs that make the buildout possible |
+| 2026-05-08 | FT / [[Visible Alpha]] estimate Big 4 2026 AI capex near $725B while combined Q3 FCF falls toward roughly $4B | Confirms the cash-flow trough: AI capex is now funded by lower buybacks, debt, leases, and project finance rather than surplus platform cash |
 | 2026-04-29 | Big 4 hyperscaler print night: [[Microsoft]] guides ~$190B 2026 capex with ~$25B attributed to higher component pricing; [[Alphabet]] raises FY26 capex to $180-190B and discloses [[Google Cloud]] backlog >$460B; [[Amazon]] reports Q1 property/equipment expense $44.2B and AWS +28%; [[Meta]] raises FY26 capex to $125-145B and falls ~7% AH on capex + user-growth miss | The earnings-test phase partially validates the thesis: capex is still funded by cloud demand where backlog/AI ARR is visible, but the market is now differentiating demand-backed spend (GOOGL/AMZN) from capex raises without offsetting demand evidence (META). Memory-cost inflation is now explicit in capex guidance. |
 | 2026-04-29 | [[Teradyne]] reports Q1 revenue +87% YoY with ~70% of revenue tied to AI-related demand; [[Generac]] raises guidance on data-center backup-power backlog; [[Seagate]] guides Q4 revenue/EPS above prior run-rate on AI storage demand; [[NXP]] +25.5% on auto/Industrial-IoT recovery | Systems scarcity is broadening beyond GPUs into test, backup power, storage, and edge/vehicle compute — the Phase 2 refinement is showing up in actual earnings and price action. |
 | 2026-04-26 | [[Patrick Moorhead]] "Week Ahead in Tech" (TikTok preview, posted Apr 26 for the Apr 27 print week) frames the upcoming Mag 7 reporting cycle as the AI capex earnings test; six watch items spanning [[Azure]] re-acceleration, [[Meta]] capex/revenue, [[Google Cloud]] backlog conversion, [[Qualcomm]] data-center inference, [[Samsung]] HBM share, and [[Tenstorrent]] SF customer benchmarks | Apr 28 - May 1 is the first quarter where systems-scarcity (refinement I) gets tested against actual hyperscaler results. Codified as Phase 3. |

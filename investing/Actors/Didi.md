@@ -23,6 +23,8 @@ aliases: [DiDi, Didi Chuxing, Didi Global, DIDIY]
 
 Didi's June 2021 [[NYSE]] IPO — days after Beijing warned against it — triggered a sweeping regulatory crackdown. App removed from Chinese stores, cybersecurity review launched, $1.2B fine imposed. Forced to delist from NYSE by June 2022. Became the poster child for Xi Jinping's tech crackdown. Now trades OTC at a fraction of IPO price.
 
+The May 25 2026 [[Reuters]] [[SpaceX IPO 2026]] screen used [[Didi]] as one of the downside comps for large recent IPOs: the stock was down about 74% from its $14 offer price after the NYSE delisting and Beijing regulatory pressure. The lesson for the broader [[2026 IPO pipeline]] is that oversubscription at launch says little about political-risk durability once the issuer becomes a public-market security.
+
 ---
 
 ## Related

@@ -7,8 +7,6 @@ tags:
   - semiconductors
 ---
 
-#person #analyst #semiconductors
-
 # Dylan Patel
 
 Founder and CEO of [[SemiAnalysis]] (2020); the most-cited independent voice on AI infrastructure, semiconductor supply chain, and frontier-lab compute economics. Started consulting on chip supply chains in 2017, went full-time with [[SemiAnalysis]] in 2020, scaled it into the #1 Technology Substack (221K+ subscribers) with multiple paid institutional models. Tracks AI infrastructure via satellite imagery, fab visit relationships across US/Taiwan/Korea/Japan/China, and leaked-document distribution.

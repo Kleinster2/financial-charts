@@ -76,6 +76,12 @@ The shape mirrors the US setup at one degree of separation: an inflation print p
 
 The [[2026 Brazil presidential election]] (October 4 first round) remains the dominant near-term political catalyst: [[Polymarket]] flipped to price [Flávio Bolsonaro](obsidian://open?vault=Brazil%20News%20%26%20Analysis&file=People%2FFl%C3%A1vio%20Bolsonaro) at 40% vs [[Lula]] 39% on April 16, reversed to Lula 45 / Flávio 28 by May 15 after the May 13 [[Daniel Vorcaro|Vorcaro]]/*Dark Horse* WhatsApp-audio scandal landed during [[Brazil Week NYC 2026]], then partially recovered to Lula 45 / Flávio 33 by May 17-18 as the initial shock metabolized (Polymarket pricing as of May 17-18). Historical pattern: every Brazilian election since 2002 has produced 8-15% realized BRL vol in the final 60-90 days before the vote. See [[2026 Brazil presidential election#May 2026 reprice — fuller chronology]] for the full chronology; [[Brazil corporate bond rout February 2026]] for corporate distress backdrop; [[Arcabouço Fiscal]] for the framework under election-year pressure.
 
+## BTG AgroForum 2026 allocator frame
+
+[[BTG Pactual]]'s May 22, 2026 AgroForum Cuiabá panel adds a useful allocator frame to the election-year Brazil note. [[Andre Esteves]] described the move in the [[Brazilian real]] from roughly the R$6.20 stress point at end-2024 toward the R$5 area as mostly a global allocation story: capital had become too concentrated in [[US dollar]] assets and AI-linked US equities, and the marginal flow began diversifying toward cheaper, geopolitically predictable markets. Brazil then screened well because it combines high carry, cheap resource assets, renewable power, food, metals, and hydrocarbons.
+
+[[Mansueto Almeida]] supplied the fiscal counterpart: Brazil's problem is not a classic stabilization crisis but a "last mile" spending-growth problem. The source's claim is that with inflation around the mid-single digits, large reserves, and deep private capital markets, the main repricing lever is credible restraint on mandatory federal spending. That restraint would matter first through [[Selic]] and the DI curve, then through equity duration, private-credit spreads, and BRL risk premium.
+
 ---
 
 ## Why Brazil matters

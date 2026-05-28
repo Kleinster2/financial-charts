@@ -101,6 +101,23 @@ USD/JPY range: ¥156.85-158.00, with ¥158 as the intervention line in the sand.
 
 Key divergence: oil *exporters* (MXN should benefit from higher crude but peso still weakened — risk-off sentiment overwhelming fundamentals) vs oil *importers* (INR, KRW getting hammered on terms-of-trade deterioration).
 
+### May 27 -- Asian oil-importer stress broadens
+
+By the three-month mark, the FX story had moved beyond the initial short-dollar squeeze into a clearer oil-importer balance-of-payments shock. [[Reuters]]' May 27 cross-asset graphic reported the dollar up 1.5% against other major currencies since the war began, outperforming the Swiss franc and yen as higher U.S. Treasury yields reinforced the safe-haven bid. That keeps the March framing intact: the dollar rally is tactical and rate-supported, not a clean vote of confidence in the U.S. policy mix.
+
+The sharper signal is in Asia. [[Reuters]] reported that Asia had bought about 80% of the oil shipped through the now-shuttered [[Strait of Hormuz]]. With available fuel costlier, [[India]]'s rupee, [[Indonesia]]'s rupiah, and the [[Philippines|Philippine peso]] hit record lows against the dollar. Some countries hiked rates or drew down reserves to dampen the shock; [[Sri Lanka]] delivered a 100 bp hike on May 26. The yuan was the exception, helped by China's domestic energy reserves and policy-controlled currency regime.
+
+| Currency / market | May 27 signal | Read |
+|-------------------|---------------|------|
+| Dollar vs majors | +1.5% since war began | Safe-haven bid plus higher U.S. yields, but still medium-term fragile |
+| INR / IDR / PHP | Record lows vs USD | Terms-of-trade and reserve-defense stress in Asian oil importers |
+| [[Sri Lanka]] | +100 bp rate hike | Energy shock forcing defensive monetary tightening |
+| Yuan | Held up | Energy reserves and policy management insulating the currency from the regional oil-importer shock |
+
+Van Luu at Russell Investments framed the trade as neutral near term but still dollar-bearish medium term. That is the right distinction for the vault: the war can sustain a dollar bid while the shooting continues, yet a de-escalation would remove the same safe-haven and real-yield supports that are holding the currency up.
+
+Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
+
 ### India — the acute case (March 2026)
 
 India is the most detailed case study of the oil-importer FX trap. The [[Reserve Bank of India]] has burned through >$20B in FX reserves in under three weeks defending the [[Indian rupee]], which hit a record low of ~93.2/USD on Mar 19. The RBI's net-short book (forward dollar sales) has grown to >$100B. Despite ₹1T ($10.7B) in government bond purchases in March alone, the 10Y yield has climbed ~0.2pp YTD to ~6.7%.
@@ -167,6 +184,7 @@ The peace signal on March 4 (Iran outreach via NYT) triggered the biggest dollar
 | Mar 3 | Hezbollah front opens, KOSPI -7.2% | DXY reaches 99.1, highest since Jan 19 |
 | Mar 4 | Iran peace outreach (NYT) | Dollar drops most in a month; EUR/USD recovers to $1.165 |
 | Mar 4 | Reuters FX poll: 60 strategists still expect dollar weakness | Consensus: war rally is positioning, not structural |
+| May 27 | [[Reuters]] cross-asset graphic at three-month mark | Dollar +1.5% vs majors; INR, IDR, PHP at record lows; Sri Lanka +100 bp; yuan held up |
 
 ---
 

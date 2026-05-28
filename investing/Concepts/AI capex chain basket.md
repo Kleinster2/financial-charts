@@ -132,6 +132,16 @@ The hyperscaler buyers don't co-move because they each have their own product cy
 
 ---
 
+## May 2026 allocator confirmation
+
+The May 21, 2026 FT interview with [[James Anderson]] and [[Morgan Samet]] is useful because it reaches the same conclusion from portfolio construction rather than from the vault's cluster math. Anderson's argument is that AI has changed the platform economics of Big Tech: the buyers of infrastructure lose the old low-capex free-cash-flow profile, while suppliers with scarce hardware capacity keep pricing power. Samet's version is the customer-refusal test: right now hyperscalers cannot say no to the bottleneck suppliers.
+
+That is exactly the distinction this basket formalizes. [[Microsoft]], [[Alphabet]], [[Amazon]], [[Meta]], and [[Oracle]] create the demand, but [[NVIDIA]], [[TSMC]], [[ASML]], [[Applied Materials]], [[KLA Corporation]], [[Lam Research]], and [[Micron]] form the tighter co-moving exposure. The FT source is not needed to prove the cluster; it is useful because it shows a long-duration growth investor explicitly rotating the narrative from platform owners to the hardware chain.
+
+*Sources: [Financial Times — Big Tech software era is over, says top investor James Anderson](https://www.ft.com/content/9d2bd5b3-80c6-49b9-a04b-edc4162c9320), May 21 2026; [Reuters via Investing.com — ASML CEO sees tight supply](https://www.investing.com/news/stock-market-news/exclusiveasml-ceo-sees-tight-supply-in-booming-chip-market-as-ai-demand-soars-4701446), May 20 2026.*
+
+---
+
 ## Trade implications
 
 | Trade | Expression | Factor isolated |
@@ -187,6 +197,7 @@ The first scenario (capex pause) is the most likely cluster-cohesion test in the
 - [[AI hyperscalers]] — the FAILED cluster (buyers don't co-move) that this basket is the constructive answer to
 - [[Hyperscaler capex]] — capex narrative that drives AICX
 - [[Foundry monopoly consolidation]] — falsified cluster (TSM has no peers); confirms TSM's central position in AICX
+- [[Lingotto]] — Anderson/Samet source of May 2026 allocator confirmation
 - [[Boutique advisory consolidation]] — adjacent VALIDATED cluster (different sector; same validation pattern)
 - [[Alternative asset managers basket]] — adjacent VALIDATED cluster (different sector; tighter than boutique)
 - [[Advanced packaging]] — CoWoS as foundry-side moat

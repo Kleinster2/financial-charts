@@ -466,6 +466,16 @@ Key datapoints:
 
 The investment read is that the Hormuz cascade has crossed from "industrial input shock" into *retail shelf availability*. That is the threshold at which a petrochemical feedstock becomes politically visible: food wrappers, instant noodles, IV bags, syringes, beverage bottles, and cosmetics packaging. It also separates the 2026 shock from a generic oil-price spike. A normal oil shock raises transport costs; this one removes the physical packaging layer required for Asian consumer goods to ship at all.
 
+### Japan naphtha shortage window — late June risk ([[Reuters]], May 25)
+
+*Source: [[Reuters]] via [MarketScreener](https://www.marketscreener.com/news/former-marubeni-ceo-warns-japan-could-face-chemical-product-shortages-from-late-june-ce7f5addd98bfe27), May 25, 2026.*
+
+The May 25 [[Reuters]] / [[Fumiya Kokubu]] warning turns the Japan plastic shock from packaging-price stress into a dated chemical-products shortage risk. Speaking at an [[IEEJ]] virtual seminar, Kokubu said shortages could begin around the end of June, or at latest from late August or September, if [[Japan]] cannot replace Middle East [[Naphtha]] supply.
+
+The key mechanism is source exposure, not only logistics. Japan sourced about 40% of naphtha directly from the Middle East before the war, and another roughly 40% of domestic naphtha demand comes from domestic refining of crude that is itself about 95% Middle East-dependent. That means the "domestic" naphtha channel is still Middle East molecule exposure. Kokubu described replacement of roughly 15m kilolitres of Middle East supply as impractical, pushing the policy question from distribution bottlenecks toward demand curbs.
+
+This is the first Japan-specific calendar marker in the petrochemical cascade. The May 7 FT plastic shock showed downstream availability stress; the Kokubu warning gives it a depletion window.
+
 ## Detroit auto OEMs — combined ~$5B commodity hit (FT, May 3)
 
 *Source: FT (Kana Inagaki, Christian Davies, Sebastien Ash), May 3, 2026.*
@@ -617,7 +627,9 @@ Tehran was already heavily polluted before the war. Researchers including [[Neja
 - [[Mary Barra]] — Iran-war commodity quote (GM CEO)
 - [[BCG]], [[AlixPartners]] — auto consultancy framing on supplier renegotiation lag and per-vehicle aluminium passthrough
 - [[Decarbonization]] — sibling concept; the commodity-shock thread interacts with energy-transition cost structure (aluminium electrolysis, EV-battery materials)
+- [[Fumiya Kokubu]] — Japan naphtha shortage-window warning
+- [[IEEJ]] — May 25 2026 energy-security seminar venue
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-05-04 (Detroit auto OEM section, FT). Updated [[2026-05-07]] ([[Asia]] plastic shock, FT).*
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-05-04 (Detroit auto OEM section, FT). Updated [[2026-05-07]] ([[Asia]] plastic shock, FT). Updated 2026-05-25 (Japan naphtha shortage window, [[Reuters]] / Kokubu).*

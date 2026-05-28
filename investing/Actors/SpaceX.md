@@ -53,7 +53,15 @@ The arc: greenhouse on Mars → laughed out of Russia → $100M personal bet →
 
 ## IPO (2026)
 
-Targeting June 2026: $75B raise at $1.75T valuation on [[Nasdaq]] — would be the largest IPO in history. The deal is structurally unprecedented: no lead bank (five advisers listed alphabetically), no standard lockup, >20% retail allocation, and divided geographic roles. The S-1 may show a net loss after absorbing [[xAI]]'s ~$1B/month burn. Both [[Nasdaq]] and [[S&P Dow Jones Indices]] have rewritten index inclusion rules to accommodate the listing.
+Public S-1 filed May 20, 2026. SpaceX is targeting a June 2026 listing process on [[Nasdaq]] under `SPCX`; press reporting still frames the deal as up to a $75B raise at a >$2T target valuation, but the preliminary prospectus leaves price, share count, and net proceeds blank. The deal remains structurally unprecedented: [[Goldman Sachs]] now has the lead-left / strategic-adviser role, [[Morgan Stanley]] has the stabilization mandate, there is no standard lockup, retail allocation is expected above 20%, and the Class B supervoting structure keeps [[Elon Musk]] in control. [[Nasdaq]], [[FTSE Russell]], and [[S&P Dow Jones Indices]] have rewritten, confirmed, or reviewed index inclusion rules to accommodate the listing.
+
+The public filing confirms the financial shape that the leaked S-1 excerpts implied. The issuer is no longer standalone historical SpaceX: its financial statements retrospectively combine [[xAI]] and [[Twitter|X]] under common-control accounting, producing 2025 consolidated revenue of $18.674B and a $4.937B net loss. Segment disclosure is the clean read: Space revenue $4.086B / operating loss $657M; Connectivity revenue $11.387B / operating income $4.423B; AI revenue $3.201B / operating loss $6.355B. [[Starlink]] is now visibly the profit engine funding the AI and orbital-compute story.
+
+The May 21 FT bank update matters because it gives the roadshow a clearer control point. Goldman controls the pricing, valuation, roadshow, and allocation discussions, while Morgan Stanley's role is post-pricing support. For SpaceX, that reduces the earlier flat-syndicate oddity but concentrates execution risk in Goldman's hands if investors push back on the consolidated loss, governance structure, or AI-stack valuation.
+
+The May 25 [[Reuters]] aftermarket screen adds a second hurdle: the deal can be oversubscribed and still be a bad relative-return setup for public buyers. [[Reuters]]'s analysis of the 50 highest-valuation IPOs over the past five years found that the [[S&P 500]] beat the IPO buyer about three-quarters of the time, with average IPO-buyer returns of 27% through May 21 versus 53% for the matched index periods. The specific SpaceX implication is valuation discipline: at [[Reuters]]'s $1.75T frame, SpaceX is near 100x sales while [[NVIDIA]] is around 24x, and the consolidated issuer lost nearly $5B last year. See [[SpaceX IPO 2026]] for the comp set.
+
+The May 26 [[Reuters]] / [[FTSE Russell]] update adds the passive-flow layer. FTSE Russell said SpaceX appears eligible for fast entry into Russell U.S. Equity Indexes and the FTSE Global Equity Index Series, using roughly $70B of investable market capitalization. That clears the $17.5B Russell Top 500 market-adjusted breakpoint and the $13.5B FTSE GEIS fast-entry threshold, subject to final review of later S-1 filings. The practical read: the first week of public trading could set the reference price for both US and global index products, not only for the Nasdaq 100.
 
 Reuters added an important detail on Apr. 21: the pre-roadshow choreography now includes three days of analyst briefings across the combined physical and AI stack. Day one is Starbase in Boca Chica, day two is a separate Starbase session for analysts tied to large institutional investors, and day three is a visit to the "Macrohard" project at [[Colossus]] in Memphis. A later modeling day is expected to walk select analysts through the financial projections. In other words, SpaceX is not selling a rocket company with an AI appendix. It is explicitly touring Wall Street through launch, manufacturing, and data-center infrastructure as one integrated IPO story.
 
@@ -61,7 +69,9 @@ Reuters then added a more important S-1 excerpt on Apr. 23: SpaceX lists "manufa
 
 That changes the read on the sovereign-AI story. Vertical integration on silicon is not only upside optionality anymore, it is also a disclosed bottleneck-management response inside the IPO filing itself. The report further said it remained unclear whether Intel or the Terafab developers would control the fabrication technologies inside the plant, and Musk told [[Tesla]] analysts that Intel's 14A process would probably be mature enough by the time Terafab scales and "seems like the right move." The cleaner interpretation is now: Intel is the clearest publicly signaled manufacturing path, but node choice, scope, and timetable are still fluid.
 
-See **[[SpaceX IPO 2026]]** for full deal structure, index rule changes (Nasdaq Fast Entry, S&P seasoning review), dual-class governance, space sector contagion trade, PitchBook SOTP analysis, and the $200B mega-IPO absorption test ([[Anthropic]] $60B + [[OpenAI]] TBD in the same year).
+The public S-1 also hardens the main operating risk: [[Starship]] is not just narrative upside. SpaceX says V3 satellites, V2 mobile, and orbital AI compute all depend on Starship scale, cadence, and reusability. That makes [[Starship]] the gating physical asset behind the [[Space data centers]] thesis and the bull-case multiple, even though current reported profits are driven by [[Starlink]].
+
+See [[SpaceX IPO 2026]] for full deal structure, index rule changes (Nasdaq Fast Entry, FTSE Russell fast entry, S&P seasoning review), dual-class governance, bank mandate split, space sector contagion trade, PitchBook SOTP analysis, S-1 segment financials, and the $200B mega-IPO absorption test ([[Anthropic]] $60B + [[OpenAI]] TBD in the same year).
 
 ---
 
@@ -77,11 +87,11 @@ See [[SpaceX Cursor partnership and acquisition option April 2026]] for full ter
 
 ## Anthropic compute deal (May 6, 2026)
 
-[[SpaceX]] signed a compute agreement with [[Anthropic]] granting Anthropic access to 300 MW+ of capacity and 220,000+ [[NVIDIA H100|NVIDIA GPUs]] at the [[Colossus 1]] supercomputer in [[Memphis]]. The deal also includes "expressed interest" in developing multiple gigawatts of orbital AI compute capacity.
+[[SpaceX]] signed a compute agreement with [[Anthropic]] granting Anthropic access to 300 MW+ of capacity and 220,000+ [[NVIDIA H100|NVIDIA GPUs]] at the [[Colossus|Colossus 1]] supercomputer in [[Memphis]]. The deal also includes "expressed interest" in developing multiple gigawatts of orbital AI compute capacity.
 
-The structural read for SpaceX is the inversion of the [[xAI]] / [[Grok]] capacity-utilization profile. [[Colossus 1]] was built primarily for xAI's [[Grok]] training, but Grok's revenue ramp has lagged [[OpenAI]] / [[Anthropic]] / [[Google DeepMind]] through 2025-early 2026 (xAI revenue ~$208M in 9M 2025 per the [[xAI acquisition (Feb 2, 2026)]] section above). Selling Colossus 1 capacity to Anthropic monetizes the spare capacity at scale and turns Colossus from a [[Grok]]-cost-center into a [[SpaceX]] / [[xAI]] compute-marketplace asset.
+The structural read for SpaceX is the inversion of the [[xAI]] / [[Grok]] capacity-utilization profile. [[Colossus|Colossus 1]] was built primarily for xAI's [[Grok]] training, but Grok's revenue ramp has lagged [[OpenAI]] / [[Anthropic]] / [[Google DeepMind]] through 2025-early 2026 (xAI revenue ~$208M in 9M 2025 per the xAI acquisition section below). Selling Colossus 1 capacity to Anthropic monetizes the spare capacity at scale and turns Colossus from a [[Grok]]-cost-center into a [[SpaceX]] / [[xAI]] compute-marketplace asset.
 
-The deal also gives [[SpaceX]] a recurring compute-rental revenue stream that is independent of [[Grok]]'s end-product traction. For the IPO narrative (June 2026 target), having three large external compute customers ([[Cursor]] training workload + [[Anthropic]] + the in-house [[Tesla]] / [[xAI]] users) is materially more compelling than a single internal customer. See [[Anthropic#SpaceX compute deal (May 6, 2026)]] for the buyer-side context, and [[Colossus 1]] for the underlying infrastructure detail.
+The deal also gives [[SpaceX]] a recurring compute-rental revenue stream that is independent of [[Grok]]'s end-product traction. For the IPO narrative (June 2026 target), having three large external compute customers ([[Cursor]] training workload + [[Anthropic]] + the in-house [[Tesla]] / [[xAI]] users) is materially more compelling than a single internal customer. See [[Anthropic]] for the buyer-side context, and [[Colossus|Colossus 1]] for the underlying infrastructure detail.
 
 The orbital-AI-compute "expressed interest" is far more speculative — orbital data centers don't exist at production scale yet and [[Starship]] is still pre-operational for heavy-payload orbital deliveries. The signal value is thematic alignment with [[Sovereign AI stack]] / [[Space data centers]] frames already in the SpaceX note.
 
@@ -91,13 +101,13 @@ The orbital-AI-compute "expressed interest" is far more speculative — orbital 
 
 ## Secondary-market status post-Anthropic/OpenAI void notices (May 11-13, 2026)
 
-[[Anthropic]] (May 11) and [[OpenAI]] (May 12) issued same-week notices declaring all unauthorized secondary stock transfers **void** under Delaware bylaw transfer restrictions, naming SPV operators and tokenization venues by name. Full structural treatment: [[Private market secondaries#Issuer pushback: the void-declaration mechanism (May 11-12, 2026)]].
+[[Anthropic]] (May 11) and [[OpenAI]] (May 12) issued same-week notices declaring all unauthorized secondary stock transfers void under Delaware bylaw transfer restrictions, naming SPV operators and tokenization venues by name. Full structural treatment: [[Private market secondaries]].
 
-SpaceX has **not** issued a parallel notice as of May 13, 2026. Two structural reads:
+SpaceX has not issued a parallel notice as of May 13, 2026. Two structural reads:
 
-1. **Existing posture is ROFR-based, not void-based.** SpaceX uses right-of-first-refusal on secondary transactions — the company can match any external offer and purchase the shares directly, making every deal subject to its final approval. ROFR is a transaction-by-transaction enforcement mechanism that operates *within* the secondary plumbing rather than severing it. The Anthropic/OpenAI "void" mechanism is the categorically more aggressive Delaware corporate-law stance.
+1. Existing posture is ROFR-based, not void-based. SpaceX uses right-of-first-refusal on secondary transactions — the company can match any external offer and purchase the shares directly, making every deal subject to its final approval. ROFR is a transaction-by-transaction enforcement mechanism that operates *within* the secondary plumbing rather than severing it. The Anthropic/OpenAI "void" mechanism is the categorically more aggressive Delaware corporate-law stance.
 
-2. **The private-market price did not collapse on the announcement.** SpaceX closed at $634.05/share on [[Forge Global]] on May 12 — a $1.51T implied valuation, up 215% trailing 12 months. The Anthropic / OpenAI void announcements did not produce the kind of price reaction that hit [[Destiny Tech100]] (-25.05%) or tokenized [[OpenAI]] contracts (-36%) on the same tape. The off-chain Forge price for SpaceX sits *below* the reported $1.75T June IPO target framing rather than above it — there is no perp-DEX-style implied-valuation gap to break.
+2. The private-market price did not collapse on the announcement. SpaceX closed at $634.05/share on [[Forge Global]] on May 12 — a $1.51T implied valuation, up 215% trailing 12 months. The Anthropic / OpenAI void announcements did not produce the kind of price reaction that hit [[Destiny Tech100]] (-25.05%) or tokenized [[OpenAI]] contracts (-36%) on the same tape. The off-chain Forge price for SpaceX sits *below* the reported $1.75T June IPO target framing rather than above it — there is no perp-DEX-style implied-valuation gap to break.
 
 ### Why a SpaceX void notice is the structurally important tail risk
 
@@ -107,12 +117,22 @@ The cleanest tail-risk asymmetry: SpaceX has a credible *defensive* incentive to
 
 ### What to watch
 
-- **support.spacex.com / SpaceX investor-relations stockholder communications** — the venue Anthropic used for its notice was its own help center, then amplified via press cycle. SpaceX has no equivalent public stockholder-notice page yet but could create one.
-- **[[Hiive]] / [[Forge Global]] SpaceX-specific listings** — those are the platforms where any SpaceX issuer pushback would land first. The May 12 Forge price implies no pushback yet.
-- **[[Destiny Tech100]] price action** — DXYZ is the cleanest listed proxy: its 16.2% SpaceX position would face the same void-mechanism repricing that hit its 4-5% Anthropic position on May 12. The combined position weight is meaningful.
-- **June 2026 IPO filing** — the S-1 will disclose secondary-trading restriction language directly; the language pattern (void vs voidable) becomes public on filing rather than via a separate notice.
+- support.spacex.com / SpaceX investor-relations stockholder communications — the venue Anthropic used for its notice was its own help center, then amplified via press cycle. SpaceX has no equivalent public stockholder-notice page yet but could create one.
+- [[Hiive]] / [[Forge Global]] SpaceX-specific listings — those are the platforms where any SpaceX issuer pushback would land first. The May 12 Forge price implies no pushback yet.
+- [[Destiny Tech100]] price action — DXYZ is the cleanest listed proxy: its 16.2% SpaceX position would face the same void-mechanism repricing that hit its 4-5% Anthropic position on May 12. The combined position weight is meaningful.
+- June 2026 IPO filing — the S-1 will disclose secondary-trading restriction language directly; the language pattern (void vs voidable) becomes public on filing rather than via a separate notice.
 
 *Sources: [Motley Fool — SpaceX Just Hit an All-Time High in Private-Market Trading](https://www.fool.com/investing/2026/05/12/spacex-just-hit-record-high-private-market-trading/) (May 12 2026); search-aggregated absence of SpaceX void notice on May 13 2026.*
+
+---
+
+## Starship Flight 12 and Artemis pressure (May 22-24, 2026)
+
+[[Starship]] Flight 12 resolved the late-May launch-timing question with a V3 debut on May 22, 2026. AP reported that the upgraded vehicle reached its Indian Ocean endpoint despite engine trouble and released mock Starlink satellites, while nothing was recovered. The right read for SpaceX is "cadence improved, core bottleneck still open": Flight 12 supports the IPO story that V3 is moving, but it does not close full reusability or orbital refueling, the two capabilities that matter most for [[Artemis]] HLS and heavy-payload economics.
+
+The China overlay makes that bottleneck more urgent. Reuters' May 24 [[Shenzhou]]-23 report tied [[China]]'s one-year [[Tiangong]] mission directly to its 2030 crewed-moon target. That keeps NASA's commercial lander procurement in a strategic race frame: [[SpaceX]] and [[Blue Origin]] are not only competing with each other for Artemis surface access, they are the US commercial answer to the [[Chinese crewed lunar program]].
+
+*Sources: AP, May 22 2026; Reuters / Internazionale, May 24 2026; NASA Artemis page, accessed May 25 2026.*
 
 ---
 
@@ -202,8 +222,8 @@ The SpaceX-owned layers Deepwater maps to the stack:
 | Launch | [[Starship]] / Falcon 9 | Dominant (reusable Falcon, Starship in iterative test cadence) |
 | Distribution | [[Starlink]] | 9M+ subscribers, globally end-to-end; no other AI company has a last-mile answer |
 | Model | [[Grok]] | [[xAI]] absorbed Feb 2026; Grok 5 Q1 2026 at 6T params |
-| Data | [[X]] (social graph, real-time pulse) | Inherited via xAI absorbing X; scientific content increasingly flowing through it |
-| Compute infrastructure | [[Colossus]] (Memphis), Colossus 2, orbital DCs (optionality) | 2GW on Earth target; [[Space data centers|orbital]] is upside, not load-bearing |
+| Data | [[Twitter]] / X (social graph, real-time pulse) | Inherited via xAI absorbing X; scientific content increasingly flowing through it |
+| Compute infrastructure | [[Colossus]] (Memphis), Colossus 2, orbital DCs (optionality) | 2GW on Earth target; [[Space data centers]] orbital layer is upside, not load-bearing |
 | Chips (design) | [[TERAFAB]] D3 orbital processors | Announced Mar 21, 2026 |
 | Chips (fab) | [[TERAFAB]] + [[Intel]] (node still fluid) | Apr 7 Intel post signaled involvement; Apr 23 Reuters said scope and node remain unsettled |
 | Energy | (via [[Tesla]] sibling + Colossus gas-turbine improvisation) | Tesla Energy + Megapack at Colossus; long-term nuclear TBD |
@@ -211,7 +231,7 @@ The SpaceX-owned layers Deepwater maps to the stack:
 
 Deepwater's point is that no other hyperscaler owns every layer. [[Google]] is closest but still fabs through [[Broadcom]] and [[TSMC]] and has no last-mile distribution answer — Google tried fiber and failed. [[OpenAI]], [[Meta]], [[Amazon]], [[Microsoft]] are all missing two or three layers and every one of them is net-long Nvidia exposure via [[TSMC]]. The Apple analogy governs the margin case: extreme vertical integration captured ~90% of the smartphone category's profit pool against a consensus the market would be commoditized; the bet is that SpaceX plays the same hand in AI and ends up the only player meaningfully profitable at scale.
 
-Investment reframe: treat the [[SpaceX IPO 2026|SpaceX IPO]] as an AI bet rather than a space bet. That changes which comparables govern the multiple — AI comps (Nvidia, [[Palantir]], private OpenAI rounds) support the [[SpaceX IPO 2026#Reuters valuation math (Apr 8, 2026)|56x forward revenue / 109x forward EBITDA]] Reuters ran the math on, where space-business comps would not.
+Investment reframe: treat the [[SpaceX IPO 2026|SpaceX IPO]] as an AI bet rather than a space bet. That changes which comparables govern the multiple — AI comps (Nvidia, [[Palantir]], private OpenAI rounds) support the 56x forward revenue / 109x forward EBITDA Reuters ran the math on, where space-business comps would not.
 
 See [[Sovereign AI stack]] for the full framework, scorecard against each hyperscaler, and the Apple analogy.
 
@@ -271,7 +291,7 @@ The Wall Street Journal reported on May 12 that [[Alphabet|Google]] is in active
 
 For SpaceX, the talks read as confirmation that the launch monopoly extends beyond commercial / institutional payloads into the orbital-DC layer specifically — even competitors building the most credible alternative orbital-compute stacks must come to SpaceX for heavy-lift access on a 2027 timeline. Per the [[Space Capital]] Q1 2026 briefing, Falcon 9 is launching roughly every two days at 99% reliability, and no other provider currently matches that cadence or payload economics at scale; [[Rocket Lab]], [[Blue Origin]], and [[Arianespace]] are years from competitive throughput on heavier classes. The four Falcon 9 list-price increases since commercial launches began ($61M → $74M) are the pricing signal that demand is binding on capacity.
 
-The structural awkwardness runs the other way as well. SpaceX's own [[Space data centers|orbital DC]] vision (100 GW combined-orbital-and-terrestrial capacity, [[Sovereign AI stack]] frame) competes directly with what Suncatcher would deploy. Selling launch services to Google's competing program is the same monetization-of-spare-capacity pattern as the [[Anthropic]] [[Colossus 1]] compute deal (May 6 2026) — when an asset is scarce enough, ideological positioning gives way to revenue. The May 12 Suncatcher talks fit the same template: SpaceX captures the launch margin while a frontier competitor builds its alternative.
+The structural awkwardness runs the other way as well. SpaceX's own [[Space data centers|orbital DC]] vision (100 GW combined-orbital-and-terrestrial capacity, [[Sovereign AI stack]] frame) competes directly with what Suncatcher would deploy. Selling launch services to Google's competing program is the same monetization-of-spare-capacity pattern as the [[Anthropic]] [[Colossus|Colossus 1]] compute deal (May 6 2026) — when an asset is scarce enough, ideological positioning gives way to revenue. The May 12 Suncatcher talks fit the same template: SpaceX captures the launch margin while a frontier competitor builds its alternative.
 
 The pre-existing equity entanglement matters as a relationship governor. [[Alphabet]] has held ~6.1% of SpaceX since the 2015 Series G ($900M lead investment at $7.75 split-adjusted), and Alphabet executive Don Harrison sits on the SpaceX board. The talks are partly an inside conversation. That entanglement makes a hard breakdown in negotiations structurally less likely than a similar talk with an unaffiliated hyperscaler.
 
@@ -346,7 +366,7 @@ Other fund families with smaller allocations:
 
 ### Post-IPO (June 2026)
 
-The IPO itself is designed for broad access: >20% retail allocation (vs ~10% typical), distribution via [[Robinhood]] and bank platforms. If the [[Nasdaq Fast Entry Rule]] passes, [[Nasdaq 100]] inclusion within ~1 month of listing — triggering passive fund buying almost immediately. S&P 500 inclusion timeline depends on whether [[S&P Dow Jones Indices]] drops the 12-month seasoning rule.
+The IPO itself is designed for broad access: >20% retail allocation (vs ~10% typical), distribution via [[Robinhood]] and bank platforms. If the [[Nasdaq Fast Entry Rule]] passes, [[Nasdaq 100]] inclusion within ~1 month of listing triggers passive fund buying almost immediately. [[FTSE Russell]] has separately assessed SpaceX as apparently eligible for Russell U.S. and FTSE GEIS fast entry, which would pull global-index money into the same early price-discovery window. S&P 500 inclusion timeline depends on whether [[S&P Dow Jones Indices]] drops the 12-month seasoning rule.
 
 ### Vendor equity — [[EchoStar]] (SATS)
 
@@ -489,16 +509,18 @@ The flat 17-month stretch at $137B (Jan 2024 – Jun 2025) reflects a quiet peri
 
 | Metric | Value |
 |--------|-------|
-| Status | Private (2026 IPO planned, leaning [[Nasdaq]]) |
-| Valuation | $1.75T target (up from $1.25T combined, Feb 2026) |
-| IPO target | $1.75T |
-| IPO raise | $75B (see [[SpaceX IPO 2026]]) |
+| Status | Public S-1 filed May 20, 2026; IPO planned on [[Nasdaq]] under `SPCX` |
+| Valuation | >$2T target reported; preliminary S-1 price/share count still blank |
+| IPO timing | June 2026 target, with June 12 listing reported |
+| IPO raise | Up to $75B reported; S-1 net proceeds still blank |
 | Satellites | 9,000+ (1M applied for) |
-| 2025 revenue | ~$15B |
-| 2025 profit | ~$8B |
+| Starlink subscribers | 10.3M (Mar. 31, 2026 S-1 metric) |
+| 2025 revenue | $18.674B consolidated, recast including [[xAI]] / [[Twitter]] / X |
+| 2025 net income (loss) | -$4.937B consolidated |
+| 2025 segment operating income | Space -$657M; Connectivity +$4.423B; AI -$6.355B |
 | CEO | [[Elon Musk]] |
 
-*Updated 2026-03-10*
+*Updated 2026-05-23 from public SEC S-1.*
 
 ---
 

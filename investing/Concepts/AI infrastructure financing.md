@@ -180,6 +180,23 @@ No specific power plant, [[Power purchase agreement|PPA]], interconnection, grid
 
 ---
 
+## Hyperscaler FCF squeeze as financing catalyst (May 2026)
+
+The May 8 FT / [[Visible Alpha]] hyperscaler cash-flow pass is now the bridge between [[Hyperscaler capex]] and this financing note. The Big 4 AI capex envelope is about $725B for 2026, but combined Q3 free cash flow is expected near $4B. That means the incremental funding question is no longer theoretical: even the strongest platform companies are funding the buildout by cutting or pausing buybacks, issuing debt, leaning on leases, and externalizing selected projects into SPVs.
+
+| Financing pressure | Evidence | Read |
+|---|---|---|
+| Buyback deferral | [[Alphabet]] and [[Meta]] reported no Q1 2026 share repurchases | Cash is being retained for technical infrastructure |
+| Corporate debt | Alphabet's Q1 10-Q shows $31.4B of debt proceeds; Meta's Q1 10-Q shows $59.0B senior notes outstanding | IG balance sheets are becoming part of the AI capacity stack |
+| Project finance / SPVs | Meta-style off-balance-sheet data-center vehicles and Oracle/OpenAI project finance push exposure away from headline corporate debt | Reported leverage can understate economic risk |
+| Metric discretion | [[Christian Leuz]] notes that free cash flow is not standardized under GAAP | FCF comparisons need lease/SBC/project-finance adjustments |
+
+The key distinction is between a temporary cash-flow trough and a structural funding regime change. If AI revenue catches up in 2027, the trough is a working-capital bridge. If demand disappoints or component inflation persists, the same structures become the transmission channel into [[AI infrastructure financing risk]].
+
+*Sources: [FT article](https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494), May 8 2026; Alphabet, Meta, and Amazon Q1 2026 10-Qs.*
+
+---
+
 ## Risks
 
 ### The dot-com comparison

@@ -6,7 +6,7 @@ Training gets the headlines. Inference is where the money is - or isn't.
 
 ---
 
-## The price collapse (Dec 2025)
+## The price collapse (Dec 2025-May 2026)
 
 | Provider | Model | Input / Output per 1M tokens |
 |----------|-------|------------------------------|
@@ -15,6 +15,7 @@ Training gets the headlines. Inference is where the money is - or isn't.
 | [[Anthropic]] | [[Claude]] Sonnet 4 | $3 / $15 |
 | [[Anthropic]] | [[Claude]] Haiku 3.5 | $1 / $5 |
 | **[[DeepSeek]]** | **V3.2** | **$0.27 / $1.10** |
+| [[DeepSeek]] | V4-Pro permanent price (May 2026) | $0.435 / $0.87; cache-hit input $0.003625 |
 
 **10-30x price gap** between frontier and open source.
 
@@ -27,6 +28,18 @@ Training gets the headlines. Inference is where the money is - or isn't.
 3. **Quantization** - Smaller models, less compute
 4. **Inference-specific chips** - Groq LPUs, [[Cerebras]], custom silicon
 5. **Competition** - Too many providers, not enough differentiation
+
+---
+
+## May 2026: DeepSeek turns a promotion into a floor
+
+[[Reuters]] reported on May 23, 2026 that [[DeepSeek]] would make its 75% V4-Pro API price cut permanent. The official pricing page sets V4-Pro at 3 yuan per million uncached input tokens and 6 yuan per million output tokens, with cache-hit input at 0.025 yuan. In USD terms, DeepSeek lists $0.435 input, $0.87 output, and $0.003625 cache-hit input per million tokens.
+
+The distinction between promotion and floor matters. A temporary discount is customer acquisition; a permanent posted price is a market-clearing signal. If V4-Pro is good enough for a large class of coding, agentic, and enterprise workloads, the premium US API price has to be defended by reliability, distribution, compliance, workflow integration, and frontier capability — not just by the fact that model access is scarce.
+
+[[Reuters]] also noted the unresolved supply-side question: DeepSeek did not say whether the cut was caused by increased [[Huawei]] [[Ascend]] 950 availability. That keeps the unit-economics question open. The pricing signal is real; the margin behind it is still unproven.
+
+*Sources: [[Reuters]] via MarketScreener, May 23 2026; DeepSeek API pricing docs.*
 
 ---
 

@@ -2,8 +2,6 @@
 aliases: []
 tags: [person, analyst, ai-bull]
 ---
-#person #analyst #ai-bull
-
 **Doug Clinton** — co-founder and managing partner of [[Deepwater Asset Management]]. Former equity research analyst at [[Piper Sandler]] (then Piper Jaffray) covering [[Apple]], [[Google]], and [[Facebook]]/[[Meta]]. Also co-founder and CEO of Intelligent Alpha. One of the two voices on Deepwater's Pressure Points podcast alongside [[Gene Munster]].
 
 ---

@@ -110,6 +110,8 @@ On May 18, 2026, [[Jensen Huang]] told [[Reuters]] after a Beijing visit that he
 
 This is optionality, not a reopened sales channel. Washington still controls export licenses, Beijing has discouraged Chinese buyers at points in the cycle, and the managed-access shipment architecture remains contested. But Huang is still spending CEO attention on China access rather than treating the market as abandoned territory.
 
+The May 2026 [[Huawei]] [[Tau Scaling Law]] announcement makes the downside of prolonged exclusion more concrete. Huawei is no longer only scaling [[Ascend]] supply on lagging [[SMIC]] nodes; it is also publishing a system-level design roadmap, [[LogicFolding]], meant to shorten signal paths and improve density/performance without TSMC-class process access. Reuters reported that LogicFolding is planned for Ascend and large AI clusters by around 2030. That does not threaten Blackwell or Rubin on near-term specs, but it strengthens Huang's strategic point: if NVIDIA exits China, the local stack gets protected demand, benchmarks to optimize against, and time to build developer habit around alternatives to [[CUDA moat|CUDA]].
+
 *Source: [Reuters via Investing.com, May 18 2026](https://www.investing.com/news/stock-market-news/nvidia-ceo-says-he-believes-china-market-will-open-over-time-4696684).*
 
 ---
@@ -315,13 +317,13 @@ Supply side:
 - "Beat and Raise" requires ever-larger tricks as company grows
 
 Demand side — Neocloud financing:
-NVIDIA finances GPU buyers who absorb inventory when needed:
+NVIDIA finances GPU buyers who absorb inventory when needed, and in the May 2026 IREN structure it also becomes a direct managed-cloud customer.
 
-| Company | NVIDIA role | [[Microsoft]] ties |
-|---------|-------------|----------------|
+| Company | NVIDIA role | Demand / financing tie |
+|---------|-------------|------------------------|
 | [[CoreWeave]] | Investor, priority allocation | 65% revenue from MSFT |
 | [[Lambda Labs]] | Financing involved | — |
-| [[IREN]] | Deal facilitation | [[Microsoft]] ties |
+| [[IREN]] | Cloud customer, DSX partner, up to $2.1B investment right | $9.7B Microsoft contract + $3.4B NVIDIA contract |
 | [[Nebius]] | Deal facilitation | [[Microsoft]] ties |
 | [[Scale AI]] | — | [[Microsoft]] ties |
 
@@ -464,21 +466,23 @@ See [[Short interest]] for interpretation framework.
 
 | Metric | Value |
 |--------|-------|
-| Stock price | ~$165 |
-| Market cap | ~$4.0T |
+| Stock price | $223.47 (May 20, 2026 close) |
+| Market cap | ~$5.4T |
 | FY2026 revenue | $215.9B (+65% Y/Y) |
 | FY2026 net income | $120.1B |
 | FY2026 FCF | $96.6B |
-| Q1 FY27 guide | $78B ±2% (beat $72.6B est.) |
+| Q1 FY27 revenue | $81.6B (+85% Y/Y, +20% Q/Q) |
+| Q1 FY27 net income | $58.3B (GAAP; includes $15.9B equity-securities gains) |
+| Q2 FY27 guide | $91B ±2%, excluding [[China]] Data Center compute revenue |
 | AI training share | >90% |
 | Primary foundry | [[TSMC]] |
 | Packaging | [[TSMC]] CoWoS (constrained) |
-| Supply commitments | $95.2B (up from $50.3B end Q3) |
-| Cash + securities | $62.6B |
-| Inventories | $21.4B |
+| Supply commitments | $119.0B |
+| Cash + marketable debt securities | $50.3B |
+| Inventories | $25.8B |
 | Short interest | 1.1% (Jan 2026) |
 
-*Updated 2026-03-30*
+*Updated 2026-05-20*
 
 ![[nvda-price-chart.png]]
 *NVDA vs SMH, 2-year normalized*
@@ -492,29 +496,29 @@ See [[Short interest]] for interpretation framework.
 
 [[Jensen Huang]] sat with Dwarkesh Patel for a 103-minute wide-ranging interview on moat architecture, the roadmap cadence, export controls, and circular-financing accusations. Net-new points beyond existing vault coverage:
 
-**Roadmap cadence — annual releases through 2029.** Vera Rubin first samples back "a few weeks ago," fully healthy. Vera Rubin Ultra in 2027. Feynman in 2028. A fourth unnamed architecture in 2029. Jensen claims Rubin is still 25%/yr Moore's Law pace at the transistor layer — but when composed with algorithms, architecture, and co-design across generations, [[Blackwell]] delivered 50x [[Hopper]] energy efficiency. Framing: "That's impossible by Moore's Law alone."
+Roadmap cadence — annual releases through 2029. Vera Rubin first samples back "a few weeks ago," fully healthy. Vera Rubin Ultra in 2027. Feynman in 2028. A fourth unnamed architecture in 2029. Jensen claims Rubin is still 25%/yr Moore's Law pace at the transistor layer — but when composed with algorithms, architecture, and co-design across generations, [[Blackwell]] delivered 50x [[Hopper]] energy efficiency. Framing: "That's impossible by Moore's Law alone."
 
-**CoWoS is no longer the bottleneck.** [[TSMC]] "swarmed the problem" and is "catching up with demand as fast as they possibly can." Bottleneck has shifted to (1) energy, (2) electricians, (3) plumbers. Jensen flags a 2-3 year ceiling on global AI buildout tied to physical construction trades, not silicon.
+CoWoS is no longer the bottleneck. [[TSMC]] "swarmed the problem" and is "catching up with demand as fast as they possibly can." Bottleneck has shifted to (1) energy, (2) electricians, (3) plumbers. Jensen flags a 2-3 year ceiling on global AI buildout tied to physical construction trades, not silicon.
 
-**TSMC is "the only partner we have" — 30 years, no contract.** Jensen describes a three-decade relationship with [[TSMC]] built on "just trust — we've never had a contract with TSMC." NVIDIA is now TSMC's single largest customer. Attributed TSMC's willingness to "go build a Giga fab in Arizona" to trust plus Trump administration tariff architecture.
+TSMC is "the only partner we have" — 30 years, no contract. Jensen describes a three-decade relationship with [[TSMC]] built on "just trust — we've never had a contract with TSMC." NVIDIA is now TSMC's single largest customer. Attributed TSMC's willingness to "go build a Giga fab in Arizona" to trust plus Trump administration tariff architecture.
 
-**Fixed-price FIFO allocation, not high-bidder.** When asked why NVIDIA doesn't auction capacity at peak demand, Jensen: "The last thing that we want to do is make ourselves undependable. We want to be a dependable foundation on top of which they can build their computers." Prices are contracted in advance; whoever is first in line gets the chips. Rejects the supply-auction model as short-term thinking.
+Fixed-price FIFO allocation, not high-bidder. When asked why NVIDIA doesn't auction capacity at peak demand, Jensen: "The last thing that we want to do is make ourselves undependable. We want to be a dependable foundation on top of which they can build their computers." Prices are contracted in advance; whoever is first in line gets the chips. Rejects the supply-auction model as short-term thinking.
 
-**[[Groq]] folded into CUDA ecosystem (confirmation).** Jensen explicitly frames the [[Groq]] deal as CUDA-compatible premium inference tokens. "We decided that we should take the best of Groq and enable it within the CUDA ecosystem." Positions Groq as delivering "premium tokens" — higher-ASP, lower-latency inference for interactive use cases. Market segmentation: not a defensive hedge; a second CUDA-compatible ASP tier.
+[[Groq]] folded into CUDA ecosystem (confirmation). Jensen explicitly frames the [[Groq]] deal as CUDA-compatible premium inference tokens. "We decided that we should take the best of Groq and enable it within the CUDA ecosystem." Positions Groq as delivering "premium tokens" — higher-ASP, lower-latency inference for interactive use cases. Market segmentation: not a defensive hedge; a second CUDA-compatible ASP tier.
 
-**CoreWeave economics disclosed.** Jensen: "[[CoreWeave]]'s EBITDA is $2B of real EBITDA. The cost of goods is $6.3B. We only guaranteed the difference. And we only have $2B of equity in them." Reframes the oft-cited "NVIDIA backstops CoreWeave" narrative as a structured $6.3B backstop against a company generating $2B real EBITDA — not a circular-revenue loop. Consistent with [[CoreWeave]]'s own Box SPV framework.
+CoreWeave economics disclosed. Jensen: "[[CoreWeave]]'s EBITDA is $2B of real EBITDA. The cost of goods is $6.3B. We only guaranteed the difference. And we only have $2B of equity in them." Reframes the oft-cited "NVIDIA backstops CoreWeave" narrative as a structured $6.3B backstop against a company generating $2B real EBITDA — not a circular-revenue loop. Consistent with [[CoreWeave]]'s own Box SPV framework.
 
-**"Do as much as needed, as little as possible."** Philosophy for infrastructure investment: NVIDIA invests when it's necessary to activate demand ([[OpenAI]] $30B, [[Anthropic]] $10B, [[CoreWeave]] backstop) but explicitly rejects the hyperscaler path. "Trying to do as little as necessary" is the stated rule — capex externalized to partners when possible, internalized only when required to unblock deployment.
+"Do as much as needed, as little as possible." Philosophy for infrastructure investment: NVIDIA invests when it's necessary to activate demand ([[OpenAI]] $30B, [[Anthropic]] $10B, [[CoreWeave]] backstop) but explicitly rejects the hyperscaler path. "Trying to do as little as necessary" is the stated rule — capex externalized to partners when possible, internalized only when required to unblock deployment.
 
-**"Anthropic is a unique instance, not a trend."** On Anthropic running part of workload on [[Google]] [[TPU]]: Jensen characterizes this as bespoke, not structural. Anthropic trains and serves on GPUs, TPUs, and Trainium simultaneously — "they run everywhere." The framing pushes back on the read that custom silicon is displacing NVIDIA at the frontier. "It's not a trend — Anthropic is a unique instance."
+"Anthropic is a unique instance, not a trend." On Anthropic running part of workload on [[Google]] [[TPU]]: Jensen characterizes this as bespoke, not structural. Anthropic trains and serves on GPUs, TPUs, and Trainium simultaneously — "they run everywhere." The framing pushes back on the read that custom silicon is displacing NVIDIA at the frontier. "It's not a trend — Anthropic is a unique instance."
 
-**ASIC margin math.** Jensen's counter to "ASICs win on cost": [[Broadcom]]'s ASIC business runs ~65% gross margin vs NVIDIA's ~70%. The headline 5-point spread is the entire margin gap on the bill-of-materials — a rounding error against the full stack NVIDIA delivers (CUDA, networking, packaging, system-level optimization). Implication: ASIC programs are expensive to run *and* don't materially undercut NVIDIA gross dollars per rack.
+ASIC margin math. Jensen's counter to "ASICs win on cost": [[Broadcom]]'s ASIC business runs ~65% gross margin vs NVIDIA's ~70%. The headline 5-point spread is the entire margin gap on the bill-of-materials — a rounding error against the full stack NVIDIA delivers (CUDA, networking, packaging, system-level optimization). Implication: ASIC programs are expensive to run *and* don't materially undercut NVIDIA gross dollars per rack.
 
-**Premium inference tokens — Jensen's new framing.** The inference market is disaggregating into interactive/real-time (premium ASP, demands Groq-class latency) and batch/reasoning (volume, demands Rubin-class throughput). "Tokens are not commodities." NVIDIA's stack serves both tiers. See [[Premium inference tokens]] for the disaggregation framework.
+Premium inference tokens — Jensen's new framing. The inference market is disaggregating into interactive/real-time (premium ASP, demands Groq-class latency) and batch/reasoning (volume, demands Rubin-class throughput). "Tokens are not commodities." NVIDIA's stack serves both tiers. See [[Premium inference tokens]] for the disaggregation framework.
 
-**5-layer AI cake, reused.** Jensen reuses the Davos Jan 2026 framing (electrons → chips → infrastructure → models → applications) as his China rebuttal scaffold. Only the full-stack player captures every layer. See [[Jensen Five Layer Cake]] for the full framework and [[Export controls]] for the China-specific application.
+5-layer AI cake, reused. Jensen reuses the Davos Jan 2026 framing (electrons → chips → infrastructure → models → applications) as his China rebuttal scaffold. Only the full-stack player captures every layer. See [[Jensen Five Layer Cake]] for the full framework and [[Export controls]] for the China-specific application.
 
-**Accelerated computing thesis without AI.** Asked what NVIDIA would be doing if deep learning never happened, Jensen: "If there was no AI, NVIDIA would be very, very large." The company's premise predates AI — general-purpose CPU scaling ran out; domain-specific acceleration through CUDA is the successor. Cited non-AI workloads already depending on the stack: computational lithography (cuLitho), molecular dynamics, quantum chromodynamics, seismic processing for energy discovery, structured and unstructured data processing, computer graphics, image generation, particle physics, fluid dynamics. "Tensors is not the only way that you compute with NVIDIA." Counterpoint to the "AI-is-a-bubble → NVIDIA-crashes" framing: a meaningful fraction of GTC keynote content is non-AI scientific and industrial compute, and that workload base would remain even if AI capex compressed.
+Accelerated computing thesis without AI. Asked what NVIDIA would be doing if deep learning never happened, Jensen: "If there was no AI, NVIDIA would be very, very large." The company's premise predates AI — general-purpose CPU scaling ran out; domain-specific acceleration through CUDA is the successor. Cited non-AI workloads already depending on the stack: computational lithography (cuLitho), molecular dynamics, quantum chromodynamics, seismic processing for energy discovery, structured and unstructured data processing, computer graphics, image generation, particle physics, fluid dynamics. "Tensors is not the only way that you compute with NVIDIA." Counterpoint to the "AI-is-a-bubble → NVIDIA-crashes" framing: a meaningful fraction of GTC keynote content is non-AI scientific and industrial compute, and that workload base would remain even if AI capex compressed.
 
 *Source: Dwarkesh Patel podcast, "Will Nvidia's moat persist?" Apr 15, 2026. 103m12s.*
 
@@ -815,6 +819,63 @@ Market positioning (Dec 2025):
 
 ---
 
+## Q1 FY2027 earnings (May 20, 2026)
+
+Q1 FY27 was a clean demand confirmation and a messier GAAP quality print. Revenue was $81.6B (+85% Y/Y, +20% Q/Q), above the prior $78B guide. Data Center was $75.2B (+92% Y/Y), with hyperscale still about half of Data Center revenue and the other half now explicitly framed as AI Clouds, Industrial, and Enterprise (ACIE). Q2 guide stepped to $91.0B +/-2%, and management said the outlook assumes no Data Center compute revenue from [[China]].
+
+The nuance: GAAP net income of $58.3B and diluted EPS of $2.39 were inflated by $15.9B of equity-securities gains. Non-GAAP net income was $45.5B and non-GAAP diluted EPS was $1.87. That does not weaken the operating story, but it matters for comparability: operating income was $53.5B, operating margin 65.6%, and GAAP net margin reached 71.5% only because of the below-the-line gain.
+
+Latest [[13F]] source map: the public holdings explain the visible part of the gain, but they do not reconcile the full $15.936B because NVIDIA says the quarter also included non-marketable equity securities. The table is therefore attribution scaffolding, not proof of exact gain contribution.
+
+| Holding | 13F value (Mar. 31, 2026) | Read-through |
+|---------|---------------------------|--------------|
+| [[Intel]] | $9.48B | Largest visible public mark; original strategic investment was $5B |
+| [[CoreWeave]] | $3.66B | Customer/investee circularity optic; visible Class A stake only |
+| [[Synopsys]] | $1.91B | Semiconductor design-tools ecosystem stake |
+| [[Coherent]] | $1.86B | Photonics / optical-interconnect capacity stake |
+| [[Nokia]] | $1.34B | Networking / telecom-infrastructure adjacency |
+| [[Nebius]] | $124M | AI cloud / neo-cloud exposure |
+| [[Generate Biomedicines]] | $10M | Small AI-biology / protein-design exposure |
+
+Inference: [[Intel]] is the obvious public contributor, while the unexplained remainder likely sits in private AI-ecosystem marks and other non-marketable holdings. Treat the $15.9B as ecosystem valuation income, not operating earnings.
+
+| Metric | Q1 FY27 | Q/Q | Y/Y |
+|--------|---------|-----|-----|
+| Revenue | $81.6B | +20% | +85% |
+| Gross profit | $61.2B | +20% | +129% |
+| Operating income | $53.5B | +21% | +147% |
+| GAAP net income | $58.3B | +36% | +211% |
+| GAAP diluted EPS | $2.39 | +36% | +214% |
+| Non-GAAP diluted EPS | $1.87 | +18% | +140% |
+| Operating cash flow | $50.3B | +39% | +84% |
+| Free cash flow | $48.6B | +39% | +86% |
+
+| Market platform | Q1 FY27 | Q/Q | Y/Y | Read-through |
+|-----------------|---------|-----|-----|--------------|
+| Data Center | $75.2B | +21% | +92% | [[Blackwell]] 300 ramp plus networking demand; no Data Center Hopper shipments to [[China]] |
+| Hyperscale | $37.9B | +12% | +115% | Still about half of Data Center revenue |
+| ACIE | $37.4B | +31% | +74% | AI clouds, industrial, enterprise, and sovereign customers are diversifying the demand base |
+| Edge Computing | $6.4B | +10% | +29% | Workstation strength partly offset by memory/system price pressure in consumer PCs |
+| Compute & Networking | $74.6B | +21% | +88% | New reportable segment, effectively the infrastructure core |
+| Graphics | $7.1B | +9% | +58% | Legacy reporting bucket remains relevant but no longer the thesis center |
+
+![[nvda-q1-fy27-fundamentals.png]]
+*Quarterly revenue, operating income, and net income through Q1 FY27. The slope remains extreme even after the FY26 step-change.*
+
+![[nvda-q1-fy27-waterfall.png]]
+*Q1 FY27 waterfall. The operating engine is the story, but the $16.4B other-income bridge is why GAAP net margin exceeds post-tax operating profit.*
+
+![[nvda-q1-fy27-sankey.png]]
+*Q1 FY27 flow view. Data Center demand is not the only force: equity-securities gains were large enough to visibly change the GAAP earnings bridge.*
+
+Balance-sheet and allocation read-through: cash plus marketable debt securities was $50.3B, inventories rose to $25.8B, supply-related commitments reached $119.0B, and multi-year cloud service commitments rose to $30.0B. The board also authorized an additional $80B share repurchase program. The buyback size reinforces NVIDIA's cash-machine status, but the more important operating signal is the scale of supply commitments: management is still securing inventory and capacity several quarters forward rather than managing for a near-term demand air pocket.
+
+Strategic read-through: the Q2 guide excluding [[China]] compute revenue keeps the China access story as option value, not a base-case assumption. The result also weakens the "hyperscaler saturation" critique because ACIE grew faster sequentially than hyperscale. The bear case is not that demand stopped; it is that investors will increasingly ask how much of the profit pool belongs to NVIDIA once inference shifts toward cost-per-token optimization and once customers use their own equity stakes, cloud commitments, and custom silicon to negotiate economics.
+
+*Source: [NVIDIA Q1 FY27 release](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027), [Q1 FY27 CFO commentary](https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q127/Q1FY27-CFO-Commentary.pdf), and [NVIDIA Q1 2026 13F information table](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000042/xslForm13F_X02/information_table.xml). Preliminary press-release data; final 10-Q can supersede classification details.*
+
+---
+
 ## Q4 FY2026 earnings (Feb 25, 2026)
 
 First $200B revenue year. Q4 revenue $68.1B (+73% Y/Y, +20% Q/Q), beating $66.2B consensus. Data Center $62.3B (+75% Y/Y) = 91.5% of total. Non-GAAP EPS $1.62 (beat $1.53). Gross margins recovered to 75.0% after H20 charges depressed H1.
@@ -988,6 +1049,8 @@ Credit profile: $62.6B cash + securities vs ~$8.5B debt. FCF $96.6B (FY2026). R&
 - [[Stacy Rasgon]] — Bernstein analyst (Outperform, $275 PT)
 - [[Hans Mosesmann]] — Rosenblatt analyst (first $1K+ PT)
 - [[NVIDIA as kingmaker]] — concept (strategic investments)
+- [[Tau Scaling Law]] — Huawei's post-node scaling framework under sanctions
+- [[LogicFolding]] — Huawei architecture planned for Kirin and later Ascend clusters
 - [[Jevons Paradox]] — concept (efficiency → more demand)
 - [[Training-inference convergence]] — concept (unified architectures win)
 - [[Foundry Wars]] — manufacturing context

@@ -174,6 +174,16 @@ The most concrete near-term [[Space data centers|space DC]] initiative. Planet's
 
 ---
 
+## May 27 2026 SpaceX IPO halo - +4.5%
+
+PL closed $50.48 on May 27, up 4.5% from $48.32, as part of the [[Reuters]]-reported public-space rally tied to [[SpaceX IPO 2026|SpaceX IPO]] expectations. Reuters' morning snapshot had Planet Labs up less; the full-day close showed stronger follow-through.
+
+The important read is that Planet participated even though it is the validated cohort's lowest-PC1-loading member and the cleanest data-sleeve business. A SpaceX-driven proxy bid is broad enough to pull both hardware/launch names and Earth-observation data businesses into the same factor move. That supports the [[Space pure-plays]] regime-shift thesis, but it does not change the company-specific test: Planet still needs government-contract conversion, gross-margin leverage, and analytics revenue to justify the elevated multiple.
+
+*Sources: [[Reuters]] via Investing.com, "US space stocks rise on SpaceX IPO hype," May 27 2026, https://www.investing.com/news/stock-market-news/us-space-stocks-rise-on-spacex-ipo-hype-4712652; [[Yahoo Finance]] daily closes pulled May 27 2026.*
+
+---
+
 ## Investment case
 
 ![[pl-vs-spy-price-chart.png]]

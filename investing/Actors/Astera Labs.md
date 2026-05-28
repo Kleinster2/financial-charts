@@ -20,6 +20,16 @@ Astera Labs provides the silicon that enables high-speed connectivity in AI serv
 
 ---
 
+## IPO aftermarket signal (Reuters May 2026)
+
+The May 25 [[Reuters]] [[SpaceX IPO 2026]] screen put [[Astera Labs]] at the top of its recent large-IPO performance set, with shares up more than 700% from the 2024 IPO. The vault read is that Astera is the clean positive comp for [[2026 IPO pipeline]] bulls: AI-infrastructure scarcity can overwhelm a rich IPO valuation when the company owns a real bottleneck layer in GPU-cluster connectivity.
+
+The caveat is that Astera's success also narrows the lesson. It is not a generic "hot IPOs work" precedent; it is a specific data-center interconnect scarcity precedent. That makes it useful for [[Cerebras]], [[Arm Holdings]], and parts of the [[SpaceX IPO 2026]] story, but much less useful for software or EV debuts where the bottleneck is less defensible.
+
+*Source: [[Reuters]] / MarketScreener republication, Noel Randewich, May 25-26 2026.*
+
+---
+
 ## Product portfolio
 
 | Category | Products | Use case |
@@ -141,7 +151,7 @@ Astera = pure-play connectivity IC leader.
 |--------|-------|
 | Ticker | ALAB |
 | Market cap | **~$24B** |
-| Valuation growth | 4x since IPO |
+| Share performance | Reuters May 2026 screen: >700% since IPO |
 | HQ | Santa Clara, CA |
 | IPO | March 2024 |
 | Key product | PCIe retimers |

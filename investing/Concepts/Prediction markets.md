@@ -7,6 +7,12 @@ aliases: [event contracts, event contract markets, prediction market]
 
 ---
 
+## Synthesis
+
+Prediction markets are becoming a two-layer market: mass retail flow supplies breadth and entertainment-driven volume, while thin bespoke contracts still leave room for domain specialists to earn excess returns before institutional capital standardizes the edge away. The investable issue is not whether event-contract prices can be informative; it is who captures the surplus. [[Kalshi]] is turning federal regulatory status and broker integrations into the institutional route, [[Polymarket]] has global crypto-native liquidity and [[Intercontinental Exchange]] backing, and trading firms such as [[Susquehanna]] and [[DRW]] are moving the market from novelty wagering toward exchange microstructure. That should improve liquidity and hedging utility, but it also shifts profits toward market makers, prime-brokered hedge funds, and fast information processors while leaving casual traders as the likely liquidity takers.
+
+---
+
 ## Why it works
 
 Prediction markets operationalize [[Friedrich Hayek]]'s insight that prices aggregate dispersed knowledge. Each trader brings private information — the market synthesizes it into a probability.
@@ -67,8 +73,8 @@ Likely headed to Supreme Court given circuit split.
 
 | Platform | Status | Valuation | Notes |
 |----------|--------|-----------|-------|
-| [[Kalshi]] | CFTC-regulated (US) | $11B | First federally licensed; sports = 90% of volume |
-| [[Polymarket]] | Offshore (crypto-based) | $9B | ICE investment; settled 2022 CFTC probe; US users technically prohibited |
+| [[Kalshi]] | CFTC-regulated (US) | $22B | First federally licensed; sports dominant, institutional volume accelerating |
+| [[Polymarket]] | Offshore (crypto-based) | $9B+ | [[Intercontinental Exchange]] strategic investment; settled 2022 CFTC probe; US users technically prohibited |
 | [[Crypto.com]] | CFTC-regulated (CDNA) | — | [[Truth Social]] partnership; sports focus |
 | Robinhood | Sports contracts | — | Facing Ohio cease-and-desist |
 
@@ -159,6 +165,21 @@ Wall Street trading firms began building dedicated prediction market operations:
 
 The dominant institutional strategy is cross-platform arbitrage — exploiting price discrepancies between platforms offering similar outcomes — not directional bets. This mimics how HFT firms arbitrage spreads across stock exchanges.
 
+### Retail sharps and adverse selection (May 2026)
+
+Adam Iscoe's NYT Magazine profile (May 26, 2026) adds the missing microstructure layer: the best retail traders are not generic gamblers beating Wall Street; they are narrow-domain specialists exploiting contracts too idiosyncratic, small, or culturally specific for Wall Street to price efficiently yet. The examples in the article cluster around music charts, papal succession, vice-presidential selection, and Nobel outcomes — markets where the advantage comes from bespoke data, source-cultivation, scraping, and fast interpretation rather than balance sheet.
+
+| Layer | Evidence from the source | Read-through |
+|-------|--------------------------|--------------|
+| Domain specialists | Teacher and IT-professional examples turned small accounts into six-figure or larger profits by focusing on music/culture markets | Thin contracts can reward specialist knowledge before professional capital arrives |
+| Market makers | [[Susquehanna]] is often the liquidity provider on [[Kalshi]] and is explicitly exposed when sharps identify mispriced contracts | Market-maker losses are adverse selection, not house-edge leakage |
+| Hedge-fund access | The article says prime-broker channels including Clear Street and Marex are building access for hedge-fund clients on Kalshi | Institutional adoption depends on operational plumbing, not just front-end platform growth |
+| Venue economics | [[Intercontinental Exchange]] completed $1.6B of disclosed direct cash investment in [[Polymarket]] across Oct 2025 and Mar 2026 | Exchanges are buying event-contract data and venue optionality before the regulatory perimeter fully settles |
+
+The durable conclusion is that prediction-market alpha is likely to migrate in stages. Early retail specialists can still win where markets are bespoke and thin. As brokers, prime brokers, market makers, and prop firms connect the venue to institutional workflows, the residual edge should compress toward classic [[Market structure]] advantages: speed, liquidity provision, cross-venue arbitrage, and better information pipelines.
+
+*Sources: Adam Iscoe, NYT Magazine, "The Average Guys Outsmarting Wall Street on Prediction Markets," May 26, 2026; ICE press release, Mar 27, 2026; Kalshi Series F announcement, May 7, 2026; CRS, "Prediction Markets: Policy Issues for Congress," Mar 20, 2026.*
+
 [[Saba Capital]]'s [[Boaz Weinstein]] argued at a closed-door conference (Oct 2025, alongside [[Polymarket]]'s [[Shayne Coplan]]) that prediction markets enable more specific hedging, allowing portfolio managers to go "bigger" on trades. He cited a divergence: [[Polymarket]] showed 50% recession probability while credit markets indicated ~2% risk. Saba had "done nothing yet" but watch as of January 2026.
 
 Most large multi-manager hedge funds remained on the sidelines — relative lack of liquidity versus traditional asset classes makes it difficult to justify deployment.
@@ -212,6 +233,8 @@ Regulatory jurisdiction unresolved: SPA (sports betting regulator under [[Lei da
 - [[CFTC]] — federal regulator
 - [[Michael Selig]] — CFTC chairman driving rulemaking
 - [[Crypto]] — blockchain infrastructure for Polymarket
+- [[Market structure]] — execution, market making, and information-edge context
+- [[Prime brokerage]] — institutional access layer for hedge funds
 - [[Ultra-short-term contracts]] — 5/15-minute crypto bets, 0DTE parallel, three-party extraction framework
 - [[Derivatives]] — prediction markets are a form of derivative
 - [[Brazil]] — emerging prediction markets jurisdiction (2026)

@@ -10,8 +10,6 @@ tags:
   - semiconductors
 ---
 
-#person #analyst #semiconductors
-
 # Doug O'Laughlin
 
 President of [[SemiAnalysis]] and author of the [[Fabricated Knowledge]] newsletter on [[Substack]]. Co-runs the firm with founder [[Dylan Patel]]; the public-facing analyst pairing makes [[SemiAnalysis]] one of the few semiconductor research shops with two senior independent voices on Substack. Based in NYC, ex-Bowie Capital ([[Texas]]) — buy-side background that brings investor framing to the firm's reports.

@@ -3,13 +3,13 @@ aliases: [China rebalancing, China property crash, New Three]
 ---
 #concept #macro #china
 
-**China economic transition** — Traditional economy (property, infrastructure) collapsing faster than new industries (EVs, solar, batteries) can grow to replace it. The core macro challenge for China 2023-2025+.
+**China economic transition** — [[China]]'s traditional economy (property, infrastructure) collapsing faster than new industries (EVs, solar, batteries) can grow to replace it. The core macro challenge for China 2023-2025+.
 
 ---
 
 ## The problem
 
-**Traditional industries fell ~5pp of GDP (2023-2025), new industries grew <1pp.**
+Traditional industries fell ~5pp of GDP (2023-2025), new industries grew <1pp.
 
 *Source: National Bureau of Statistics, Rhodium Group*
 
@@ -21,10 +21,10 @@ aliases: [China rebalancing, China property crash, New Three]
 
 | Sector | 2023 | 2025 | Change |
 |--------|------|------|--------|
-| Property/residential construction | ~16% | ~10% | **-6pp** |
+| Property/residential construction | ~16% | ~10% | -6pp |
 | Infrastructure | ~3% | ~3% | flat |
 | Gasoline vehicles | ~1% | ~2% | +1pp |
-| **Total traditional** | **~20%** | **~15%** | **-5pp** |
+| Total traditional | ~20% | ~15% | -5pp |
 
 ### New industries (stagnant)
 
@@ -36,9 +36,9 @@ aliases: [China rebalancing, China property crash, New Three]
 | Solar | ~1% | ~1% |
 | [[Lithium]]-ion batteries | ~1% | ~1% |
 | New energy vehicles | ~2% | ~2% |
-| **Total new** | **~6%** | **~6%** |
+| Total new | ~6% | ~6% |
 
-**Key insight:** New industries added <1pp of GDP despite massive policy push. Traditional economy lost 5pp.
+Key insight: New industries added <1pp of GDP despite massive policy push. Traditional economy lost 5pp.
 
 ---
 
@@ -48,20 +48,20 @@ Changes in intermediate goods demand to fulfill final demand (billions of yuan):
 
 | Sector | Traditional | New Three + Power | Net |
 |--------|-------------|-------------------|-----|
-| Steel rolling products | **-700B** | +100B | -600B |
+| Steel rolling products | -700B | +100B | -600B |
 | Gypsum & cement | -400B | +50B | -350B |
 | Road freight transport | -350B | +100B | -250B |
 | Banking service | -350B | +50B | -300B |
 | Coal mining | -300B | +50B | -250B |
-| Auto parts | -200B | **+400B** | +200B |
+| Auto parts | -200B | +400B | +200B |
 | Electronic components | -150B | +50B | -100B |
 | Electric motors | ~0 | +50B | +50B |
 | [[Batteries]] | ~0 | +100B | +100B |
 | Boilers & prime movers | ~0 | +50B | +50B |
 
-**"New Three"** = EVs, batteries, solar
+"New Three" = EVs, batteries, solar
 
-**Only auto parts shows net positive** — EV production offsetting ICE decline.
+Only auto parts shows net positive — EV production offsetting ICE decline.
 
 ---
 
@@ -69,10 +69,10 @@ Changes in intermediate goods demand to fulfill final demand (billions of yuan):
 
 | Factor | Challenge |
 |--------|-----------|
-| **Scale mismatch** | Property was 16% of GDP; new industries are 6% combined |
-| **Export dependence** | EVs/solar/batteries face tariffs in key markets |
-| **Overcapacity** | Domestic market saturated, margins compressed |
-| **Multiplier effects** | Property drives steel, cement, banking; EVs don't |
+| Scale mismatch | Property was 16% of GDP; new industries are 6% combined |
+| Export dependence | EVs/solar/batteries face tariffs in key markets |
+| Overcapacity | Domestic market saturated, margins compressed |
+| Multiplier effects | Property drives steel, cement, banking; EVs don't |
 
 ### Q1 2026 live read
 
@@ -80,17 +80,23 @@ The April 2026 data release sharpened the transition problem rather than resolvi
 
 The demand side stayed much weaker. March retail sales grew only 1.7% year on year, Q1 property investment fell 11.2%, and new commercial-building sales value fell 16.7%. [[Capital Economics]]' China activity proxy, cited by FT, put January-February growth around 3% and probably a little lower in March. The headline 5% print therefore looks like industrial-policy success masking a still-unfinished domestic rebalancing.
 
+### Jan-April 2026 profit read
+
+The May industrial-profit release fits the same transition pattern. [[NBS]] reported that profits at industrial enterprises above the designated size rose 18.2% year on year in January-April 2026, accelerating from 15.5% in Q1, while April alone rose 24.7%. That is real profit relief, but it is concentrated in the production and price-recovery side of the economy: high-tech manufacturing profits rose 44.8%, equipment manufacturing rose 15.4%, raw-material manufacturing rose 88.1%, and electronics rose 107.7%.
+
+The demand-side checks are still weak. In the separate April activity releases, industrial value added grew 4.1% year on year in April and 5.6% in January-April, high-tech manufacturing still grew 12.6% year to date, but retail sales were only +0.2% in April and fixed-asset investment was -1.6% in January-April. This is why the profit data should not be read as China having completed a consumption rebalancing. It says the industrial stack got margin relief from PPI/product-price recovery, commodity-linked raw materials, high-tech demand, and lower unit costs while the household/property/investment channel remained soft.
+
 ---
 
 ## Investment implications
 
-**Bearish signals:**
+Bearish signals:
 - Traditional economy deflating faster than expected
 - New industries not achieving escape velocity
 - Banking sector exposure to property still large
 - Stimulus required to prevent hard landing
 
-**Watch for:**
+Watch for:
 - Fiscal stimulus scale (does Beijing accept slower growth?)
 - Export market access for "New Three"
 - Property stabilization measures

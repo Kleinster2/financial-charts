@@ -24,6 +24,7 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 | [[NextEra-Dominion merger 2026]] | $66.8B equity / ~$420B EV | Utility M&A / power platform | Stock-for-stock combination around >130 GW large-load pipeline |
 | [[Google-Blackstone TPU cloud venture 2026]] | $5B initial equity; up to ~$25B with leverage (FT) | Chip-backed TPU neo-cloud JV | Google supplies TPU + software; Blackstone majority (per FT); 500 MW online 2027; [[Benjamin Treynor Sloss]] CEO |
 | [[Nebius]] capital markets stack | $700M strategic equity + ~$4.3375B convertibles | Listed neocloud financing | [[Accel]] / [[NVIDIA]] / [[Orbis Investments]] strategic equity; private convertible notes to qualified institutional buyers; [[Microsoft]] and [[Meta]] as demand anchors |
+| [[IREN]]-[[Dell]]-[[NVIDIA]] Childress | ~$1.6B purchase; $3.4B service contract; up to $2.1B NVIDIA investment right | Supplier order + customer offtake + strategic equity option | Dell supplies air-cooled Blackwell systems; NVIDIA is managed-cloud customer and potential equity investor; IREN guarantees purchase obligations |
 
 ---
 
@@ -350,6 +351,23 @@ See [[Neocloud financing]] for the CRWV / NBIS / Google-Blackstone comparison.
 
 ---
 
+## 13. [[IREN]]-[[Dell]]-[[NVIDIA]] Childress stack
+
+IREN's May 2026 structure is the listed crypto-to-AI version of neocloud financing. It is smaller than the hyperscaler SPVs but cleaner as a public-market signal because the pieces are visible:
+
+| Component | Amount / capacity | Counterparty | Read |
+|---|---:|---|---|
+| Customer contract | ~$3.4B over five years | [[NVIDIA]] | Managed GPU cloud services for NVIDIA internal AI and research workloads |
+| Hardware procurement | ~$1.6B | [[Dell]] | Air-cooled [[Blackwell]] systems, including GPUs, servers, storage, networking, integration, and warranties |
+| Strategic investment right | Up to $2.1B | [[NVIDIA]] | Five-year right to buy up to 30M IREN shares at $70, subject to conditions |
+| Site / power | ~60MW for NVIDIA contract | Childress, Texas | Existing IREN data centers; commissioning targeted for early 2027 |
+
+This is not a Meta-Blue Owl-style off-balance-sheet SPV. It is a direct supplier purchase agreement at an operating company whose entire thesis depends on converting powered mining infrastructure into GPU cloud services. The May 26 8-K says payments to Dell are due in installments within 30 days of each shipment tranche, and IREN unconditionally guarantees the obligations of its IE US Hardware 4 subsidiary. IREN is advancing GPU financing, but the May 26 filing did not disclose the final financing provider or site-level power-contract terms.
+
+The financing read-through is that the crypto-to-AI cohort can graduate from "land and power optionality" to "procurement-backed contracted compute," but only by taking on hardware-cycle and commissioning risk. For NVIDIA, the structure also repeats the supplier-financing loop: NVIDIA is a customer for cloud services, a potential equity investor, and the platform beneficiary when Dell ships NVIDIA systems into IREN's powered footprint.
+
+---
+
 ## Patterns across deals
 
 ### Chip vendor financing
@@ -374,7 +392,7 @@ See [[Neocloud financing]] for the CRWV / NBIS / Google-Blackstone comparison.
 
 ---
 
-*Updated 2026-05-19*
+*Updated 2026-05-26*
 
 ## Related
 
@@ -388,6 +406,7 @@ See [[Neocloud financing]] for the CRWV / NBIS / Google-Blackstone comparison.
 - [[Blue Owl]] — key SPV equity provider
 - [[Blackstone]] — CoreWeave lead
 - [[Nebius]] — listed neocloud capital-markets stack
+- [[IREN]] — listed crypto-to-AI Childress stack
 - [[Google-Blackstone TPU cloud venture 2026]] — TPU neocloud JV
 - [[Neocloud financing]] — capital-provider comparison
 - [[Stargate]] — $500B consortium

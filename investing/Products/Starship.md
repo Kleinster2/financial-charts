@@ -23,7 +23,7 @@ Starship — [[SpaceX]]'s fully reusable super-heavy launch vehicle. Designed to
 | Status | Testing (2025-26) |
 | NASA HLS contract | Up to $4.5B |
 | Key milestone | Super Heavy booster catch (Oct 2024) |
-| Next milestone | Orbital refueling demo (June 2026 target) |
+| Next milestone | Orbital refueling demo still pending after Flight 12 (May 2026) |
 | Launch cost target | $10-100/kg to LEO (vs [[Falcon Heavy]] ~$1,500/kg, [[Delta IV Heavy]] >$10,000/kg) |
 
 ---
@@ -56,10 +56,21 @@ This matters for [[SpaceX IPO 2026]] because the public-market story depends on 
 
 ---
 
+## Flight 12 / V3 debut (May 22, 2026)
+
+The Kalshi-implied late-May launch window resolved with Flight 12 on May 22, 2026. AP reported that the redesigned V3 Starship reached its Indian Ocean endpoint despite engine trouble, released mock Starlink satellites, and was not recovered. This was a meaningful cadence / V3 validation step, but not a solved-program moment: full reusability and orbital refueling remain unproven, and those are the gating capabilities for [[Artemis]] HLS and the larger [[SpaceX]] IPO story.
+
+The Artemis read-through tightened in the same news cycle. NASA now has Artemis III as a 2027 low-Earth-orbit docking trial with Starship, Blue Moon, or both, and Artemis IV as the first crewed lunar landing target in early 2028. The [[Chinese crewed lunar program]] adds timing pressure from the other side: [[China]] is using [[Tiangong]] and [[Shenzhou]]-23 to prepare for a first crewed moon landing before 2030.
+
+*Sources: AP, May 22 2026; NASA Artemis page, accessed May 25 2026; Reuters / Internazionale, May 24 2026.*
+
+---
+
 ## Related
 
 - [[SpaceX]] — manufacturer
 - [[Artemis]] — NASA lunar program, HLS contract
+- [[Chinese crewed lunar program]] — competing national lunar timeline
 - [[Lunar Mass Driver]] — depends on Starship for Earth-to-Moon logistics
 - [[Space data centers]] — depends on Starship for heavy satellite deployment
 - [[Starlink]] — V3 satellites deployed via Starship

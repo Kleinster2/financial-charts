@@ -13,7 +13,7 @@ The structural shift, since the 2014–2016 oil crash and reinforced by the 2020
 
 For a decade after the [[US Shale|shale revolution]] reached scale (~2011), the standard market expectation was that crude above $70-80 brought a wall of US barrels within months. Short-cycle drilling, private land, and abundant Tier 1 acreage made shale the marginal swing supplier. Two cycles broke that model: the 2014-2016 collapse (when growth-at-any-cost producers blew up balance sheets and got punished by capital markets) and the 2020 COVID crash (which accelerated investor demands for cash returns and triggered the consolidation wave). What emerged is a different industry — fewer, larger operators with public-market discipline, higher breakevens (Tier 1 acreage drilled, services-cost inflation), and an explicit cultural norm of returns over volume.
 
-The 2026 [[Operation Epic Fury|Iran conflict]] is the cleanest stress test of the new regime. WTI ~$100, Brent ~$110+, futures briefly at $14 backwardation, and physical Middle East crude over $150 — yet the [[Federal Reserve Bank of Dallas|Dallas Fed]] Q1 2026 Energy Survey finds 73% of producers expect <=+0.25 mb/d of US production growth in 2026. Sentiment indices flipped sharply positive (business activity −6.2 → +21.0; company outlook −15.2 → +32.2), but rig counts stayed flat. That gap — positive sentiment, high prices, no supply — is the discipline framework binding in real time.
+The 2026 [[Operation Epic Fury|Iran conflict]] is the cleanest stress test of the new regime. WTI ~$100, Brent ~$110+, futures briefly at $14 backwardation, and physical [[Persian Gulf]] crude over $150 initially produced the pure discipline signal: the [[Federal Reserve Bank of Dallas|Dallas Fed]] Q1 2026 Energy Survey found 73% of producers expected <=+0.25 mb/d of US production growth in 2026 even as sentiment indices flipped sharply positive. By late May the response was no longer zero: [[Baker Hughes]] data showed oil rigs up 10 to 425 in the week ended May 22, the biggest weekly gain since April 2022, after four straight weekly increases, while the [[Financial Times]] reported [[Diamondback Energy]] rig additions, a [[Continental Resources]] capex increase, and [[Enverus]] data showing public-producer 2026 capex guidance up $490 million versus guidance three months earlier. That is the first crack in the "no supply" version of the thesis, but not a return to the pre-2020 wall-of-shale model. The response is lagged, small against a 10+ mb/d [[Persian Gulf]] disruption, and still framed by public-market capital discipline rather than growth-at-any-cost.
 
 ---
 
@@ -26,7 +26,7 @@ The 2026 [[Operation Epic Fury|Iran conflict]] is the cleanest stress test of th
 | 2017–2019 | Investor pressure builds; "free cash flow" enters earnings calls | Sustained sub-$70 prices; equity returns lag oil |
 | 2020 | Second discipline shock | Demand collapse, negative WTI; survivors reset to maintenance-only capex |
 | 2021–2024 | Returns-over-growth becomes formal capital allocation policy | Public investor mandate; Buyback + dividend competition with Big Oil |
-| 2024–2026 | Consolidation wave; Tier 1 acreage exhaustion; breakevens rise | Exxon-Pioneer, Chevron-Hess, Diamondback-Endeavor, ConocoPhillips-Marathon |
+| 2024–2026 | [[2024-2026 shale consolidation wave]]; Tier 1 acreage exhaustion; breakevens rise | [[Exxon Pioneer acquisition|Exxon-Pioneer]], [[Chevron]]-[[Hess Corporation]], [[Diamondback Energy]]-[[Endeavor Energy Resources]], [[ConocoPhillips]]-[[Marathon Oil]] |
 
 By 2026 the public-market culture has hardened. CEOs who lean into volume growth get punished. CEOs who return cash get rewarded. The cycle that previously drove rig counts in lockstep with WTI has decoupled.
 
@@ -114,12 +114,35 @@ The framework's clearest stress test. Each leg of the chain that historically wo
 |---|---|---|
 | Crude breaks $80 | Rig adds within 2-3 months | Rig counts flat through Q1 2026 |
 | Front-month spikes to $100+ | Producers lock hedges, accelerate drilling | Producers don't trust the front month given paper-physical disconnect |
-| 2-year forward strip rises | Incremental capex sanctioned | Forward strip stayed $60-70; capex decisions don't change |
+| 2-year forward strip rises | Incremental capex sanctioned | Deferred [[Brent crude]] finally moved into the mid/high-$70s by May 2026, triggering selective additions but not a full volume-growth pivot |
 | Administration applies pressure | Industry coordinates with policy | [[Chris Wright]] + [[Doug Burgum]] producer call (Apr 2026); rig counts unchanged |
+
+### May 22 first-crack test
+
+The May 22 rig-count print is the cleanest update to the framework since the April Dallas Fed survey. [[Baker Hughes]] reported total US rigs at 558, up 7 for the week but still down 8 year over year. The oil-specific count rose 10 to 425, which [[Bloomberg]] / World Oil described as the largest weekly oil-rig increase since April 2022 and the fourth straight week of gains. Activity is picking up because the [[Strait of Hormuz]] disruption has made the oil-price signal look less like a one-day tweet shock and more like a sustained physical shortage.
+
+The [[Financial Times]] company detail clarifies what "response" now means. [[Diamondback Energy]] is adding rigs; [[Continental Resources]] is lifting 2026 capex by about $300 million to $2.8 billion; [[Enverus]] says public shale producers raised 2026 capex guidance by $490 million versus the guidance issued three months earlier. [[Rystad Energy]] modelled a $63.4 billion producer cash-flow boost if crude averages $100/bbl in 2026, while [[Brown University]] research cited by the FT put the household fuel-cost hit above $40 billion, or about $316 per household. The same price signal is therefore a producer windfall and a consumer tax.
+
+The discipline thesis therefore weakens from "US shale does not respond" to "US shale responds late and cautiously." The scale matters. [[EIA]]'s May 2026 STEO assumes [[Persian Gulf]] producers collectively shut in 10.5 mb/d in April and global inventories draw by 8.5 mb/d in 2Q26. [[IEA]]'s May Oil Market Report puts affected Gulf output 14.4 mb/d below pre-war levels and says the [[Atlantic basin]] supply-growth expectation has been revised up by more than 600 kb/d since the start of the year. A few dozen incremental US rigs and a few hundred million dollars of capex guidance can help the marginal barrel and support services demand; they do not restore the 2010s reaction function in which shale capped any durable oil premium.
 
 [[Halliburton]] Q1 2026 results triangulate the same picture from the services side: NA revenue $2.1B, -4% YoY; total revenue flat; CEO [[Jeff Miller]] characterizing recovery as "early innings" with smaller producers moving first and larger operators "less clear today." Halliburton even warned of a forward $0.09 EPS hit from continued Middle East-related disruption — a services company sees demand softening on the geopolitical premium, not the price level.
 
-The Wright + Burgum producer call last week (April 2026) — explicitly urging more drilling — is the political clincher: an administration with explicit "energy dominance" rhetoric, explicit affordability concerns ahead of midterms, direct calls to executives. Rig counts stayed flat. The political channel that historically supplemented the price channel has also stopped working.
+The remaining constraint is inventory quality. [[Scott Sheffield]], former [[Pioneer Natural Resources]] chief executive, told the FT that private producers would probably add rigs and crews first, but that high-quality [[Permian Basin]] inventory scarcity prevents the industry from expanding as rapidly as in past shortage cycles. Accelerating remaining Tier 1 wells can simply shorten the runway.
+
+The Wright + Burgum producer call in April 2026 — explicitly urging more drilling — is the political clincher: an administration with explicit "energy dominance" rhetoric, explicit affordability concerns ahead of midterms, direct calls to executives. The response eventually appeared only after the forward curve moved and the physical shortage persisted. The political channel alone did not bring back the old shale reaction function.
+
+### FT Brent futures curve extraction
+
+The user supplied an FT chart titled "Brent crude oil futures ($ per barrel), by date." Because the FT sharing warning did not grant reuse rights, the chart was ingested as extracted data rather than copied into attachments.
+
+| Curve date | Front / near contract, approx | Around Jan 2027, approx | Around Jan 2028, approx | Takeaway |
+|---|---:|---:|---:|---|
+| Feb 27, 2026 pre-war | ~$72 | ~$68 | ~$66 | Pre-war curve still looked like a low-$70s prompt market fading into the mid-$60s |
+| Mar 6, 2026 | ~$93 | ~$73 | ~$70 | First Iran-war repricing lifted the whole strip but still left deferred prices near normal shale planning levels |
+| Apr 6, 2026 | ~$118 | ~$79 | ~$74 | Escalation pushed the one-year strip into a zone where selective additions became easier to defend |
+| May 6, 2026 | Mid-$110s | High-$80s | ~$78 | The signal stopped being only a front-month spike; deferred prices now supported a cautious activity increase |
+
+The chart is the clean visual bridge between the April "discipline still binding" view and the May "discipline bending" update. Producers do not sanction multi-year drilling against a single spot price. They respond when the strip they can budget and hedge against moves high enough for long enough. By early May, the FT curve shows that the Iran-war premium had migrated far enough into 2027-2028 to explain the rig-count and capex response without implying a full return to growth-at-any-cost shale.
 
 ---
 
@@ -155,8 +178,8 @@ This is the structural pricing thesis the [[2026 Iran conflict market impact|202
 |---|---|---|
 | Public E&P quarterly capex guidance | Any major raising 2026 capex >5% YoY | First crack in the discipline norm |
 | Halliburton / Schlumberger / Baker Hughes commentary | "Big operators moving" replacing "early innings" | Public-major participation broadening |
-| 2027/2028 forward curve | WTI 2027 strip rising into the $70s-80s | Producers' planning prices catching up to prompt — could trigger lagged sanctioning |
-| Smaller-private-operator activity | Land rig count picking up faster than public-co rigs | Confirms the Miller "small companies first" framing |
+| 2027/2028 forward curve | Deferred crude staying in the high-$70s/low-$80s rather than reverting | Producers' planning prices catching up to prompt; partially triggered by the FT May 6 Brent curve |
+| Smaller-private-operator activity | Partially triggered May 22: oil rigs +10 to 425 after four weekly gains | Confirms lagged private/smaller-operator response; not yet a public-major discipline break |
 | Investor reaction to a growth announcement | If a major announces growth and stock rises | Discipline norm cracking from the demand side |
 
 ---
@@ -169,9 +192,16 @@ This is the structural pricing thesis the [[2026 Iran conflict market impact|202
 - [[OPEC]] — counterparty whose pricing power is restored by shale discipline
 - [[Federal Reserve Bank of Dallas]] — institutional source of the Q1 2026 empirical anchor
 - [[Permian Basin]] — primary basin where the discipline mechanism binds
+- [[Bakken]] — mature shale basin where Continental reversed its [[North Dakota]] drilling pause
+- [[2024-2026 shale consolidation wave]] — M&A expression of inventory scarcity and returns discipline
+- [[Continental Resources]] — private-operator capex reversal
+- [[Enverus]] — capex-guidance data source
+- [[Rystad Energy]] — producer cash-flow modelling source
 - [[EOG Resources]] — pure-play example, low-cost operator, returns-disciplined
 - [[Diamondback Energy]] — pure-play Permian, post-Endeavor consolidation
+- [[Kaes Van't Hof]] — Diamondback CEO
 - [[ConocoPhillips]] — major E&P, returns-disciplined model
+- [[Scott Sheffield]] — inventory-quality warning
 - [[Halliburton]] — services counterparty; Q1 2026 demand softening evidence
 - [[Schlumberger]], [[Baker Hughes]] — services peers
 - [[Chris Wright]], [[Doug Burgum]] — administration energy pressure

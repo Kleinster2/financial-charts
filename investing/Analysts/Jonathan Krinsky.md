@@ -12,6 +12,17 @@ Chief Market Technician at [[BTIG]]. Technical and market-structure analyst wide
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Firm | [[BTIG]] |
+| Role | Chief Market Technician |
+| Focus | Technical analysis, market structure, sector rotation |
+| Notable vault use | May 2026 [[Semiconductors]] / SOX correction-risk call |
+
+---
+
 ## May 8, 2026 — SOX 1999-comparison call
 
 In CNBC coverage of the [[Semiconductors]] sector's May 8 2026 rally (Apple-Intel deal + Micron's best week since 2008), Krinsky published the most prominent bear voice on the cycle multiple. His framing: the magnitude of the markup in the PHLX Semiconductor Index ([[SOX]] +65% YTD through May 8) resembles 1999, with a 25-30% correction risk over the next 6-12 months if AI-capex growth decelerates.

@@ -3,8 +3,6 @@ aliases: []
 tags: [person, analyst, ai-bull]
 ---
 
-#person #analyst #ai-bull
-
 **Gene Munster** — co-founder and managing partner of [[Deepwater Asset Management]]. Former star tech analyst at [[Piper Sandler]] (then Piper Jaffray) where he covered [[Apple]], [[Amazon]], [[Google]], and [[Meta]] for 21 years. Now one of the most visible AI bulls in institutional investing.
 
 ---

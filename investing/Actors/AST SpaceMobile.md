@@ -294,6 +294,16 @@ The structural read from Q1 2026: ASTS is *closer to commercialization* than the
 
 ---
 
+## May 27 2026 SpaceX IPO proxy bid - +8.3%
+
+ASTS closed $129.60 on May 27, up 8.3% from $119.70, as part of the [[Reuters]]-reported public-space rally around the [[SpaceX IPO 2026|SpaceX IPO]]. Reuters' syndicated CNA version named AST SpaceMobile alongside Rocket Lab, Planet Labs, Intuitive Machines, and Virgin Galactic; the Investing.com version's ticker strip also captured the same broad space-stock move.
+
+The read-through is different from the May 8 ASTS move. May 8 had AST-specific catalysts: FCC approval and the Falcon 9 launch plan. May 27 was mostly sector-level scarcity demand. ASTS benefits because it is the only scaled public direct-to-cell satellite pure-play, but the same valuation warning applies: a SpaceX halo can expand the multiple before the carrier-revenue ramp has arrived.
+
+*Sources: [[Reuters]] via CNA, "US space stocks rise on SpaceX IPO hype," May 27 2026, https://www.channelnewsasia.com/business/us-space-stocks-rise-spacex-ipo-hype-6145121; [[Yahoo Finance]] daily closes pulled May 27 2026.*
+
+---
+
 ## Financials
 
 ASTS is a pre-profit, recently-SPAC'd satellite company with limited historical disclosure. The income statement is dominated by program-build-out spending (engineering services, D&A on Block 1 satellites) rather than commercial revenue, which is still ramping from US government milestones and gateway hardware sales toward the FY 2026 $150-200M guide.

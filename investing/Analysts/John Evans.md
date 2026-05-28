@@ -1,8 +1,7 @@
 ---
 aliases: []
+tags: [analyst, energy, uk]
 ---
-#individual #energy #analyst #uk
-
 **John Evans** — Oil market analyst at [[PVM]], London-based oil brokerage. Publishes regular market commentary on crude and refined product pricing.
 
 ---

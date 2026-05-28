@@ -1,8 +1,7 @@
 ---
 aliases: [Kolanovic, Gandalf of Wall Street]
+tags: [analyst, strategist, quant, equity, usa]
 ---
-#strategist #quant #equity #usa
-
 **Marko Kolanovic** — Ex-[[JPMorgan]] chief global market strategist & co-head of global research. Earned "Gandalf" nickname for prescient quant calls. Left JPMorgan July 2024 after prolonged bearish stance proved wrong during 2023–24 rally. Now independent commentator.
 
 ---

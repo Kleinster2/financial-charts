@@ -7,6 +7,12 @@ aliases: [Bitcoin miners to AI]
 
 ---
 
+## Synthesis
+
+The pivot is no longer only a story about miners having spare power. The durable signal is conversion: signed hyperscaler or lab demand, financed GPU procurement, and live commissioned capacity. IREN's May 2026 NVIDIA-Dell stack is the cleanest current example because it shows all three legs at once.
+
+---
+
 ## The thesis
 
 AI hosting pays more than mining:
@@ -35,7 +41,7 @@ AI hosting pays more than mining:
 
 | Company | Ticker | 2024 Return | Key Deal |
 |---------|--------|-------------|----------|
-| [[IREN]] | IREN | +300% | Microsoft $9.7B |
+| [[IREN]] | IREN | +300% | Microsoft $9.7B + [[NVIDIA]] $3.4B |
 | [[Hut 8]] | HUT | Strong | Fluidstack/[[Google]] $7B |
 | [[Core Scientific]] | CORZ | Strong | CoreWeave $3.5B |
 | [[Cipher Mining]] | CIFR | +230% | Pivoting |
@@ -68,7 +74,7 @@ Pure Bitcoin exposure = no hyperscaler validation.
 
 ## What miners have
 
-**Reusable infrastructure:**
+Reusable infrastructure:
 - Land
 - Power contracts (cheap)
 - Substations
@@ -84,18 +90,36 @@ Everything except GPUs.
 | Miner | Partner | Deal |
 |-------|---------|------|
 | IREN | Microsoft | $9.7B |
+| IREN | NVIDIA / Dell | $3.4B managed AI cloud contract; $1.6B Blackwell procurement |
 | Hut 8 | Fluidstack/[[Google]] | $7B |
 | Core Scientific | CoreWeave | $3.5B |
 | TeraWulf | Fluidstack | 200MW |
-| **TeraWulf + Hut 8 + Cipher** | **Anthropic** | **~1M TPUv7 infrastructure** |
+| TeraWulf + Hut 8 + Cipher | Anthropic | ~1M TPUv7 infrastructure |
 
 Hyperscalers AND AI labs paying premium for powered land.
 
 ---
 
+## IREN capacity conversion (May 2026)
+
+The May 2026 IREN sequence is the thesis in compressed form:
+
+| Leg | Counterparty | Value / capacity | Read |
+|-----|--------------|------------------|------|
+| Customer demand | [[Microsoft]] | $9.7B, five years | Anchor validates Childress Horizons 1-4 |
+| Customer demand | [[NVIDIA]] | $3.4B, five years, ~60MW | Supplier becomes compute customer for internal AI/research workloads |
+| Hardware supply | [[Dell]] | ~$1.6B air-cooled [[Blackwell]] systems | Powered land becomes actual GPU cloud capacity |
+| Strategic capital option | [[NVIDIA]] | Up to $2.1B investment right | NVIDIA can finance demand absorption through customer equity |
+
+The important distinction is that Dell is not the cloud customer. Dell supplies the Blackwell systems; the $3.4B service contract is with NVIDIA. That makes IREN a neocloud-style operator sitting between NVIDIA as chip/platform owner, Dell as rack/system integrator, and Microsoft/NVIDIA as contracted demand anchors.
+
+The risk is now balance-sheet and buildout execution. The May 26 filing makes IREN the guarantor of the Dell purchase obligations, with payments due within 30 days of each shipment tranche. The company is pursuing GPU financing and targets early 2027 commissioning. That is precisely the pivot's hard part: cheap power and signed demand only matter if the operator can finance and convert them into live clusters before hardware economics roll forward.
+
+---
+
 ## Anthropic deal (Jan 2026)
 
-**Landmark AI lab deal (per SemiAnalysis):**
+Landmark AI lab deal (per SemiAnalysis):
 
 | Component | Provider |
 |-----------|----------|
@@ -103,7 +127,7 @@ Hyperscalers AND AI labs paying premium for powered land.
 | DC infrastructure | [[TeraWulf]], [[Hut 8]], [[Cipher Mining]] |
 | Deployment/ops | [[FluidStack]] |
 
-**Why this matters:**
+Why this matters:
 - First major AI lab (not hyperscaler) using crypto miners
 - Validates pivot thesis beyond Microsoft/[[Google]]
 - Anthropic controlling own facilities, not renting cloud
@@ -113,12 +137,12 @@ Hyperscalers AND AI labs paying premium for powered land.
 
 ## Investment implications
 
-**Long pivoting miners:**
+Long pivoting miners:
 - IREN, Hut 8, Core Scientific
 - Power infrastructure plays
 - Hyperscaler validation
 
-**Avoid pure Bitcoin:**
+Avoid pure Bitcoin:
 - [[Marathon]], Bitdeer
 - No pivot = left behind
 
@@ -133,13 +157,13 @@ Hyperscalers AND AI labs paying premium for powered land.
 | IREN 2024 | +300% |
 | Bitdeer 2024 | -50% |
 
-*Updated 2026-01-05*
+*Updated 2026-05-26*
 
 ---
 
 ## Related
 
-- [[IREN]] — winner (Microsoft $9.7B deal, +300%)
+- [[IREN]] — winner (Microsoft $9.7B, NVIDIA $3.4B, Dell $1.6B Blackwell procurement)
 - [[Hut 8]] — winner (Fluidstack/[[Google]] $7B + Anthropic)
 - [[Core Scientific]] — winner (CoreWeave $3.5B)
 - [[TeraWulf]] — winner (Fluidstack 200MW + Anthropic)

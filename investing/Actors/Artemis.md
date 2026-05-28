@@ -1,6 +1,11 @@
+---
+aliases: [Artemis Program, NASA Artemis]
+tags: [actor, space, usa, government]
+---
+
 #actor #space #usa #government
 
-**Artemis** — [[NASA]]'s lunar exploration program. Architecture restructured Q1 2026 under [[Jared Isaacman]]: $20B over 7 years for permanent lunar base near south pole, [[Lunar Gateway]] paused, SLS stripped of core role, [[SpaceX]] [[Starship]] docks with [[Orion]] in Earth orbit and delivers crew to surface.
+**Artemis** — [[NASA]]'s lunar exploration program. Architecture restructured Q1 2026 under [[Jared Isaacman]]: $20B over 7 years for permanent lunar base near south pole, [[Lunar Gateway]] paused, SLS stripped of core role, and the first post-Artemis-II landing shifted to Artemis IV in early 2028 after a 2027 low-Earth-orbit lander docking demo.
 
 ---
 
@@ -8,13 +13,13 @@
 
 | Element | Contractor | Contract value |
 |---------|------------|----------------|
-| **SLS rocket** | [[Boeing]] | ~$23B cumulative |
-| **Orion capsule** | [[Lockheed Martin]] | ~$20B cumulative |
-| **Starship HLS** | [[SpaceX]] | $2.89B + $1.15B |
-| **Blue Moon lander** | [[Blue Origin]] | $3.4B |
-| **Gateway HALO** | [[Northrop Grumman]] | $935M |
-| **Gateway PPE** | Maxar | $375M |
-| **Spacesuits** | [[Axiom Space]] | ~$230M |
+| SLS rocket | [[Boeing]] | ~$23B cumulative |
+| Orion capsule | [[Lockheed Martin]] | ~$20B cumulative |
+| Starship HLS | [[SpaceX]] | $2.89B + $1.15B |
+| Blue Moon lander | [[Blue Origin]] | $3.4B |
+| Gateway HALO | [[Northrop Grumman]] | $935M |
+| Gateway PPE | Maxar | $375M |
+| Spacesuits | [[Axiom Space]] | ~$230M |
 
 Largest NASA human spaceflight program since Space Shuttle.
 
@@ -24,13 +29,15 @@ Largest NASA human spaceflight program since Space Shuttle.
 
 | Mission | Target date | Milestone |
 |---------|-------------|-----------|
-| **Artemis II** | Feb 2026 | Crewed lunar flyby (first humans beyond LEO since 1972) |
-| **Artemis III** | Mid-2027 | First crewed landing (SpaceX Starship HLS) |
-| **Artemis IV** | Late 2028 | Gateway docking, second landing |
-| **Artemis V** | Early 2030 | Blue Origin Blue Moon lander debut |
-| **Artemis VI** | Early 2031 | Continued exploration |
+| Artemis II | Apr 2026 | Crewed lunar flyby completed (first humans beyond LEO since 1972) |
+| Artemis III | 2027 | Low-Earth-orbit demonstration mission testing docking with one or both commercial landers |
+| Artemis IV | Early 2028 | First crewed Artemis lunar landing, using whichever commercial lander is safest and ready |
+| Artemis V | Late 2028 | Follow-on lunar surface mission |
+| Later cadence | Annual-ish | Sustained lunar exploration and south-pole base buildout |
 
 Artemis II crew: Reid Wiseman, Victor Glover, Christina Koch, Jeremy Hansen (first non-American on lunar mission).
+
+The competitive clock is now explicit. Reuters' May 2026 [[Shenzhou]]-23 report framed [[NASA]]'s 2028 landing target as roughly two years ahead of [[China]]'s public 2030 target. [[Chinese crewed lunar program|China's program]] is not only a geopolitical backdrop; it is a funding and schedule-pressure input for Artemis.
 
 ---
 
@@ -71,7 +78,7 @@ Starship-native economy enables the scope change: prior architecture brought 50-
 | Moon to Mars Transportation | $4.9B |
 | Moon to Mars Systems | $2.8B |
 | Human Exploration Architecture | $603M |
-| **Total lunar exploration** | ~$7B+ |
+| Total lunar exploration | ~$7B+ |
 
 Trump administration proposed canceling SLS/Orion/Gateway after Artemis III. Congress allocated $4.1B for Artemis IV-V SLS through 2032 via reconciliation bill.
 
@@ -79,12 +86,12 @@ Trump administration proposed canceling SLS/Orion/Gateway after Artemis III. Con
 
 ## Human Landing System competition
 
-**Two landers selected:**
+Two landers selected:
 
 | Lander | Contractor | First mission | Notes |
 |--------|------------|---------------|-------|
-| **Starship HLS** | [[SpaceX]] | Artemis III | Requires orbital refueling |
-| **Blue Moon** | [[Blue Origin]] | Artemis V | $7B total development (incl. Blue's contribution) |
+| Starship HLS | [[SpaceX]] | Artemis III | Requires orbital refueling |
+| Blue Moon | [[Blue Origin]] | Artemis V | $7B total development (incl. Blue's contribution) |
 
 NASA interim administrator reopened Starship HLS contract in early 2025 — both companies submitted revised architectures that could accelerate timeline.
 
@@ -94,10 +101,12 @@ NASA interim administrator reopened Starship HLS contract in early 2025 — both
 
 | Risk | Impact |
 |------|--------|
-| **Starship readiness** | HLS requires successful orbital refueling (undemonstrated) |
-| **Budget uncertainty** | Political shifts, cost overruns |
-| **SLS sustainability** | $2B+ per launch, cancellation pressure |
-| **Schedule slippage** | NASA IG called timeline "unrealistic" |
+| Starship readiness | HLS requires successful orbital refueling (undemonstrated) |
+| Blue Moon readiness | Alternative commercial lander path, but prototype still pre-flight |
+| Budget uncertainty | Political shifts, cost overruns |
+| SLS sustainability | $2B+ per launch, cancellation pressure |
+| Schedule slippage | NASA IG called timeline "unrealistic" |
+| China cadence | [[Chinese crewed lunar program]] keeps pressure on NASA to sustain schedule and funding |
 
 GAO noted NASA lacks official Artemis III cost estimate despite $6.8B FY2024 request.
 
@@ -105,13 +114,13 @@ GAO noted NASA lacks official Artemis III cost estimate despite $6.8B FY2024 req
 
 ## Investment relevance
 
-**Winners:**
+Winners:
 - [[SpaceX]] — $4B+ in HLS contracts, Falcon Heavy for Gateway
 - [[Blue Origin]] — $3.4B lander contract validates New Glenn/BE-4
 - [[Northrop Grumman]] — Gateway modules
 - [[Lockheed Martin]] — Orion continues through Artemis V+
 
-**At risk:**
+At risk:
 - [[Boeing]] — SLS cancellation post-Artemis III; Feb 2025 employee layoff warnings
 
 ---
@@ -123,9 +132,9 @@ GAO noted NASA lacks official Artemis III cost estimate despite $6.8B FY2024 req
 | Program start | 2017 |
 | Total cost (est.) | $93B through 2025 (NASA IG) |
 | Goal | Sustainable lunar presence, Mars prep |
-| First landing | Artemis III (mid-2027) |
+| First landing | Artemis IV (early 2028 target) |
 
-*Updated 2026-02-02*
+*Updated 2026-05-25*
 
 ---
 
@@ -135,6 +144,7 @@ GAO noted NASA lacks official Artemis III cost estimate despite $6.8B FY2024 req
 - [[NASA]] — agency-level Q1 2026 restructuring
 - [[Lunar Gateway]] — paused Mar 2026
 - [[Commercial LEO Destinations]] — sibling commercial-transition program
+- [[Chinese crewed lunar program]] — strategic competitor targeting crewed landing before 2030
 
 ### Contractors
 - [[SpaceX]] — Starship HLS, Earth-orbit Orion docking, Falcon Heavy launches

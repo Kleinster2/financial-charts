@@ -1,8 +1,7 @@
 ---
 aliases: [Blanch]
+tags: [analyst, commodities]
 ---
-#analyst #commodities
-
 **Francisco Blanch** — Head of Global Commodities, Equity Derivatives and Cross-Asset Quantitative Investment Strategies at [[Bank of America]] Global Research. One of the most cited commodity strategists on Wall Street.
 
 ---

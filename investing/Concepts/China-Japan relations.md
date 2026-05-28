@@ -1,10 +1,10 @@
 #concept #geopolitics #china #japan #asia
 
-**China-Japan relations** — Geopolitical rivalry between [[Asia]]'s two largest economies. Escalating in Jan 2026 over Taiwan comments.
+**China-Japan relations** — Geopolitical rivalry between [[Asia]]'s two largest economies. Escalating since Jan 2026 over [[Taiwan]] comments, with rare earth controls now the main economic-coercion channel.
 
 ---
 
-## Current status (Jan 2026)
+## Current status (Jan-May 2026)
 
 **Major escalation.** Neither side can back down without losing face.
 
@@ -52,6 +52,14 @@ PM Sanae Takaichi said in parliament that a Taiwan "contingency" could threaten 
 | Inventory response | Japanese firms securing 6+ months |
 | Overall status | Export applications still processing, but slower |
 
+### May 2026 rare-earth cutoff
+
+[[Reuters]]' May 22 customs-data review shows the escalation moved from slow licensing into a de facto upstream cutoff. Since December 2025, Chinese exports to [[Japan]] of [[Dysprosium]], [[Terbium]], [[Yttrium|yttrium oxide]], and [[Gallium]] were effectively zero, except for tiny yttrium shipments in March. Finished rare earth magnets still moved, which makes the pressure more targeted: [[China]] is squeezing Japan's ability to make or source non-China magnets without fully interrupting Chinese finished-product exports.
+
+[[Ryosei Akazawa]]'s May trip to China was the diplomatic release valve. It made him the highest-ranking Japanese official to visit China since the Takaichi Taiwan remarks, and it put rare earths at the center of the relationship rather than the usual tourism / maritime-friction mix. [[METI]] said Japan could release stockpiles if needed, pulling [[JOGMEC]]'s stockpile model back into the center of the crisis.
+
+The corporate signals are mixed but important. [[Shin-Etsu]] was said by a Western customer to have stopped taking new dysprosium-magnet orders; Shin-Etsu declined comment. [[TDK]] said it had no major impact yet and was diversifying sources. [[Mitsubishi Motors]] said it had secured rare earth supply until around mid-2026. That is a staggered-impact pattern: materials suppliers feel the cutoff first, end-users feel it when inventory and procurement contracts roll.
+
 ---
 
 ## Japan's response options
@@ -77,7 +85,7 @@ Curbing exports would hit China's chip self-sufficiency ambitions — especially
 
 ### Option 3: Coordinate on rare earths
 Rally countries facing similar risks. Japan diversified since 2010:
-- Backed [[Lynas]] (now biggest non-China mined supply)
+- Backed [[Lynas Rare Earths|Lynas]] (now biggest non-China mined supply)
 - Recycling programs
 - Built strategic stockpiles
 
@@ -174,7 +182,9 @@ Xi attempted to recruit South Korean President Lee Jae Myung for anti-Japan alli
 | [[Signal]] | De-escalation | Escalation |
 |--------|---------------|------------|
 | Takaichi | Softens Taiwan language | Doubles down |
-| China export controls | Lifted | Expanded to rare earths fully |
+| China export controls | Dy/Tb/yttrium/gallium customs flow resumes | Finished-magnet exports restricted too |
+| Japan stockpiles | [[METI]] keeps stockpiles untouched | [[JOGMEC]] / METI release strategic stocks |
+| Company procurement | [[TDK]] / [[Mitsubishi Motors]] continue reporting no disruption | [[Shin-Etsu]] order freeze broadens to other magnet users |
 | Diplomatic contact | Resumed | Frozen |
 | Military | Reduced exercises | Incidents |
 | Xi-Japan | Dialogue overture | Continued pressure |
@@ -187,6 +197,10 @@ Xi attempted to recruit South Korean President Lee Jae Myung for anti-Japan alli
 - [[China]] — country actor
 - [[Taiwan]] — trigger issue
 - [[Critical minerals]] — China weapon deployment
+- [[Rare earth leverage]] — supply-chain coercion mechanism
+- [[JOGMEC]] — stockpile and diversification model
+- [[METI]] — Japanese industry ministry
+- [[Ryosei Akazawa]] — May 2026 trade diplomacy
 - [[Sensors]] — included in export ban
 - [[China retaliatory toolkit]] — coercion playbook
 - [[US-China security]] — Japan as key US ally

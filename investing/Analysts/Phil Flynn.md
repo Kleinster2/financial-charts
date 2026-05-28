@@ -7,6 +7,8 @@ tags:
 
 Phil Flynn — Senior energy analyst at PRICE Futures Group. Frequent [[CNBC]]/Fox Business contributor on oil markets.
 
+## Quick stats
+
 | Metric | Value |
 |--------|-------|
 | Firm | PRICE Futures Group |

@@ -511,9 +511,17 @@ That makes the V4 launch the first concrete example of the scenario [[Jensen Hua
 
 The policy readthrough is uncomfortable: hardware denial and API-access controls can reduce leakage at the margin, but they also create the protected market that lets Huawei, Cambricon, and DeepSeek converge into a sovereign stack.
 
+## Huawei Tau Scaling / LogicFolding (May 25, 2026)
+
+Huawei's [[Tau Scaling Law]] announcement is the design-side version of the same substitution loop. The company is not claiming open access to [[TSMC]]-class manufacturing; it is claiming a route around that constraint by reducing signal-propagation time and optimizing across devices, circuits, chips, and systems. [[LogicFolding]] is the named architecture, with fall 2026 [[Kirin]] chips as the first planned product and [[Ascend]] / AI clusters later in the roadmap.
+
+For export controls, this is exactly the second-order problem: controls can slow node access while also forcing the sanctioned actor to build tools, architectures, and domestic demand around constrained nodes. If Huawei can make [[SMIC]]-class output good enough through system design, the US gains less from denying the last generation of chips and risks accelerating a sovereign Chinese stack.
+
+The evidence is still preliminary. Reuters noted Huawei did not provide independent performance data, and analysts flagged cost, power, heat, design tools, and cloud-system integration as constraints. The policy implication is therefore probabilistic, not settled: denial is buying time, but the time is being used to build substitutes.
+
 ---
 
-*Updated 2026-04-24*
+*Updated 2026-05-25*
 
 ## Related
 
@@ -541,3 +549,6 @@ The policy readthrough is uncomfortable: hardware denial and API-access controls
 - [[Jensen Huang]] — Apr 2026 rebuttal (ecosystem diffusion over chip denial)
 - [[Jensen Five Layer Cake]] — framework Jensen uses to argue against single-layer denial
 - [[Kalshi]] — prediction-market read-through on H200-to-China confirmation
+- [[Tau Scaling Law]] — Huawei's post-node scaling framework under sanctions
+- [[LogicFolding]] — Huawei architecture tied to the Tau Scaling roadmap
+- [[He Tingbo]] — Huawei semiconductor executive who presented the framework

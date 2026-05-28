@@ -86,7 +86,7 @@ The four-way Big Tech earnings print on Apr 29 reset the FY26 hyperscaler capex 
 | [[Amazon]] | $44.2B | $200B (reaffirmed) | $200B (Feb-quarter); Q1 run-rate trending higher | [[AWS]] +28% YoY ($37.6B) | Modestly positive |
 | [[Meta]] | (not detailed) | $125-145B | $115-135B | (no breakout) | -7% AH |
 
-Big 4 FY26 capex now centers near **$700-720B** — up from the $600-630B framing entering print night, and a rough doubling of the $397B 2025 actual. Two structural changes from this print:
+Big 4 FY26 capex now centers near **$700-725B** — up from the $600-630B framing entering print night, and a rough doubling of the $397B 2025 actual. Two structural changes from this print:
 
 **1. Memory-cost capitalization is the new line item.** [[Microsoft]] explicitly tagged ~$25B of its FY26 capex as memory-cost markup; [[Meta]] attributed its $10B raise (midpoint to midpoint) to "higher component pricing this year." For the first time the [[Memory shortage 2025-2026|memory shortage]] is showing up in hyperscaler capex guidance rather than as a future-period margin warning. The marginal capex dollar is increasingly going to the [[SK Hynix]] / [[Samsung]] / [[Micron]] complex via [[NVIDIA]]-bundled HBM and discrete server DRAM, not just to merchant GPUs.
 
@@ -97,6 +97,40 @@ Big 4 FY26 capex now centers near **$700-720B** — up from the $600-630B framin
 The forward question for [[NVIDIA]], [[AMD]], [[Broadcom]], [[TSMC]], [[SK Hynix]] is whether the [[Memory shortage 2025-2026|memory mark]] increment crowds out merchant-GPU TAM (zero-sum) or stacks on top of it (additive). Microsoft's "two-thirds of Q3 capex on short-lived assets" disclosure suggests the GPU bill is still rising — the memory mark is layered, not substituted.
 
 *Sources: per-actor sources in [[Microsoft]], [[Alphabet]], [[Amazon]], [[Meta]] Q1 sections, Apr 29 2026.*
+
+---
+
+## May 8, 2026 FT / Visible Alpha free-cash-flow trough
+
+The May 8 [[Financial Times]] / [[Visible Alpha]] pass turns the Apr 29 capex reset into a cash-flow story. [[Amazon]], [[Alphabet]], [[Microsoft]], and [[Meta]] are expected to spend roughly $725B on AI infrastructure in 2026, while combined free cash flow is projected to fall toward about $4B in Q3 2026, versus a post-Covid quarterly run-rate around $45B. The full-year free-cash-flow line is now expected to be the weakest since 2014, even though the revenue base is many times larger.
+
+The company-level read is now:
+
+| Company | FT / filing datapoint | Capex-cycle read |
+|---|---|---|
+| [[Amazon]] | Q1 2026 cash capex was $43.2B, almost 2x Q1 2025; Amazon's filing says it expects those investments to increase in 2026 and financing inflows rose sharply | Largest single-company outlay; expected to burn cash for the year unless AWS monetization catches up quickly |
+| [[Alphabet]] | Q1 2026 OCF was $45.8B, PP&E purchases were $35.7B, debt proceeds were $31.4B, and the 10-Q shows no Class A/C share repurchases | Still FCF-positive, but capital returns are now the pressure valve |
+| [[Microsoft]] | FY26 calendar capex guide is roughly $190B, including about $25B from higher component pricing | Strongest balance sheet, but even MSFT is letting component inflation flow through capex |
+| [[Meta]] | Q1 2026 10-Q shows no share repurchases and $59.0B of senior notes outstanding | Ad cash flows still strong, but buybacks are no longer the default use of cash while capex ramps |
+| [[Oracle]] | Outside the Big 4 chart, but FT frames Oracle as the most stressed cloud builder, with cash burn tied to the OpenAI capacity buildout | More direct credit-risk expression of the same cycle |
+
+Provided-chart disposition from the user screenshots:
+
+| FT chart | Extracted vault datapoint | Destination |
+|---|---|---|
+| Big 4 total capex vs free cash flow | Projected capex keeps rising into 2026 while combined free cash flow compresses toward the article's roughly $4B Q3 trough estimate | This section; [[AI capex arms race]] |
+| [[Microsoft]] tab | Microsoft remains in the group FCF squeeze despite the cleanest balance sheet; capex is still expected to outpace near-term cash conversion | [[Microsoft]]; [[AI hyperscalers]] |
+| [[Meta]] tab | Meta's projected period shows capex pushing above historical run-rate while free cash flow dips under pressure | [[Meta]]; [[AI infrastructure financing]] |
+| [[Alphabet]] / Google tab | Alphabet stays healthier than Meta but the chart still shows capex steepening while FCF becomes volatile and much thinner than the pre-2026 run-rate | [[Alphabet]]; [[Hyperscaler bond issuance]] |
+| [[Amazon]] tab | Amazon shows the largest single-company capex ramp and the article's expected full-year cash burn risk | [[Amazon]]; this section |
+| Big 4 capex-plan stack | The screenshot shows companies adding about $65B to 2026 capex plans between Dec 2025 and Mar 2026, taking the stack from roughly $665B to roughly $730B | This section; [[AI capex arms race]] |
+| Debt and lease-liability stack | The screenshot shows Big Tech total debt and lease liabilities rising from roughly $220B in 2021 to roughly $360B in 2025 | [[Hyperscaler bond issuance]]; [[AI infrastructure financing risk]] |
+
+The FT screenshots were ingested as extracted chart data rather than copied images because the source is copyrighted and the article itself instructs readers to use FT sharing tools rather than copying. Values read directly from the screenshots are treated as visual estimates; exact numbers above come from the article text or official filings where available.
+
+Two caveats matter. First, free cash flow is not a GAAP-defined metric; leased data centers, share-based compensation treatment, and project-finance vehicles can make the economic exposure worse than headline FCF suggests. Second, charts that show liabilities or FCF under publisher methodology need reconciliation against filings before being reused as standalone hard data.
+
+*Sources: [FT article](https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494), May 8 2026; [Alphabet Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm); [Amazon Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm); [Meta Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm); [Microsoft FY26 Q3 earnings transcript](https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3).*
 
 ---
 

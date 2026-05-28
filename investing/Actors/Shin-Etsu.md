@@ -33,6 +33,14 @@ Every chip starts with a silicon wafer. Shin-Etsu makes more than anyone:
 
 ---
 
+## Rare earth magnet exposure
+
+Shin-Etsu's electronics materials business makes the company part of Japan's rare earth vulnerability, not only its semiconductor-wafer strength. Reuters reported on May 22, 2026 that a Western customer had been told Shin-Etsu stopped accepting new orders for magnets containing [[Dysprosium]] because Chinese exports of dysprosium, [[Terbium]], [[Yttrium|yttrium oxide]], and [[Gallium]] to [[Japan]] had largely stopped since December 2025. Shin-Etsu declined comment, so the order freeze should be treated as customer-sourced rather than company-confirmed.
+
+This matters because it links two previously separate Japan theses: wafer / photoresist strength and critical-minerals exposure. Shin-Etsu remains one of the upstream winners of the AI semiconductor cycle, but the rare earth magnet line is exposed to the same [[China-Japan relations]] pressure that pushed [[METI]] and [[JOGMEC]] back toward stockpile release planning.
+
+---
+
 ## Silicon wafer market
 
 | Company | Share | HQ |
@@ -111,3 +119,7 @@ Every chip starts with a silicon wafer. Shin-Etsu makes more than anyone:
 - [[Tokyo Ohka Kogyo]] — \#2 photoresist competitor
 - [[Fujifilm]] — photoresist competitor
 - [[Sumitomo Chemical]] — photoresist competitor
+- [[Rare earth leverage]] — China export-control exposure
+- [[Dysprosium]] — magnet input risk
+- [[Terbium]] — magnet input risk
+- [[JOGMEC]] — Japan stockpile / diversification model

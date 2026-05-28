@@ -8,9 +8,9 @@ The gap between AI hype and enterprise reality.
 
 ## The headline numbers (2025)
 
-- **$37B** enterprise AI spending (up from $1.7B in 2023)
-- **88%** of organizations using AI in at least one function
-- **6%** of global [[SaaS]] market
+- $37B enterprise AI spending (up from $1.7B in 2023)
+- 88% of organizations using AI in at least one function
+- 6% of global [[SaaS]] market
 
 Sounds bullish. But...
 
@@ -18,15 +18,15 @@ Sounds bullish. But...
 
 ## The reality check
 
-- **95% of AI pilots delivered no measurable P&L impact** (MIT "GenAI Divide" study, Aug 2025)
-- **31%** of use cases reached full production (double from 2024, but still low)
+- 95% of AI pilots delivered no measurable P&L impact (MIT "GenAI Divide" study, Aug 2025)
+- 31% of use cases reached full production (double from 2024, but still low)
 - VCs predicted 2025 would be "the year" — now saying 2026
 
-**Important caveat**: The 95% failure rate applies to broad enterprise pilots. Two clear exceptions:
-1. **Coding tools** — 55% of departmental spend, clear ROI
-2. **Agents** — 35% adoption, 66% seeing measurable value (see [[Agentic AI]])
+Important caveat: The 95% failure rate applies to broad enterprise pilots. Two clear exceptions:
+1. Coding tools — 55% of departmental spend, clear ROI
+2. Agents — 35% adoption, 66% seeing measurable value (see [[Agentic AI]])
 
-**Pattern**: AI works where output is measurable and tasks are defined. Struggles where ROI is fuzzy (generic "transformation").
+Pattern: AI works where output is measurable and tasks are defined. Struggles where ROI is fuzzy (generic "transformation").
 
 ---
 
@@ -34,16 +34,16 @@ Sounds bullish. But...
 
 | Category | Share of departmental AI spend | ROI evidence |
 |----------|-------------------------------|--------------|
-| **Coding** | 55% ($4B) | **Strong** — GitHub Copilot, [[Claude]] Code, [[Cursor]] |
+| Coding | 55% ($4B) | Strong — GitHub Copilot, [[Claude]] Code, [[Cursor]] |
 | IT | 10% | Moderate |
 | Marketing | 9% | Weak |
 | Customer success | 9% | Mixed |
 | Design | 7% | Moderate |
 | HR | 5% | Weak |
 
-**Coding is the killer app** — measurable output, clear productivity gains. Tools like [[Claude]] Code, GitHub Copilot, [[Cursor]] have proven ROI. Everything else is more experimental.
+Coding is the killer app — measurable output, clear productivity gains. Tools like [[Claude]] Code, GitHub Copilot, [[Cursor]] have proven ROI. Everything else is more experimental.
 
-**Why coding works:**
+Why coding works:
 - Output is measurable (lines of code, tasks completed)
 - Feedback loop is immediate (does it compile/run?)
 - Developers are early adopters
@@ -72,28 +72,40 @@ This TAM framing is the analytical counter to "Anthropic is compute-constrained 
 
 ## Why adoption lags
 
-1. **Integration complexity** — AI doesn't plug into existing workflows
-2. **Data readiness** — Enterprises don't have clean, accessible data
-3. **ROI measurement** — Hard to quantify "productivity gains"
-4. **Security/compliance** — Regulated industries move slow
-5. **Vendor sprawl** — Too many tools, no clear winner
+1. Integration complexity — AI doesn't plug into existing workflows
+2. Data readiness — Enterprises don't have clean, accessible data
+3. ROI measurement — Hard to quantify "productivity gains"
+4. Security/compliance — Regulated industries move slow
+5. Vendor sprawl — Too many tools, no clear winner
+
+---
+
+## May 2026: the services-budget counter-signal
+
+[[Capgemini]]'s May 27, 2026 Capital Markets Day is useful because it reframes enterprise AI adoption from "tool rollout" to operating-model redesign. The company told investors that clients are treating AI as a broader business transformation rather than a standard IT upgrade, which means budgets can come from business functions as well as the CIO. Reuters also reported management's claim that the AI-related opportunity pipeline already exceeded $12B.
+
+This is not a contradiction of the adoption-lag problem above. It is the reason the lag exists. If AI value requires a full reset of data foundations, governance, workflows, security controls, human-agent supervision, and cloud architecture, then adoption is slow -- but the spend pool shifts toward [[IT services]] firms that can do the integration work.
+
+The market's skepticism remains important. Capgemini shares fell 3.5% on May 27 even after the strategy update, which says investors want proof that agentic-AI consulting turns into revenue and margin rather than just pipeline language. The watch item is whether services firms begin reporting accelerating organic growth from AI transformation, or whether AI remains a pitch overlay on flat consulting demand.
+
+*Sources: [Reuters via Investing.com, May 27 2026](https://www.investing.com/news/stock-market-news/capgemini-says-ai-widens-client-spending-pool-4712824); [Capgemini 2026 Capital Markets Day press release](https://investors.capgemini.com/en/publication/2026-capital-markets-day/); [Bourse Direct historical quote table, May 27 2026](https://www.boursedirect.fr/fr/marche/euronext-paris/capgemini-se-FR0000125338-CAP-EUR-XPAR/graphiques).*
 
 ---
 
 ## [[Trade]] implications
 
-**Be skeptical of:**
+Be skeptical of:
 - "AI revenue growth" without margin disclosure
 - Enterprise AI startups outside coding (long sales cycles, high churn)
 - "AI transformation" narratives from legacy vendors
 - Vertical AI solutions (customer service bots, sales AI)
 
-**Bullish:**
-- **Coding tools** — GitHub Copilot, [[Claude]] Code, [[Cursor]] — proven ROI, clear winner
+Bullish:
+- Coding tools — GitHub Copilot, [[Claude]] Code, [[Cursor]] — proven ROI, clear winner
 - Infrastructure (compute, not applications)
 - Horizontal platforms with coding use cases
 
-**The coding exception matters:**
+The coding exception matters:
 - 55% of spend, clear ROI = this segment is real
 - Companies enabling developer productivity are investable
 - Don't conflate "enterprise AI failing" with "all AI failing"
@@ -106,7 +118,7 @@ VCs say 2026 is "the year" enterprises see real value.
 
 They said the same about 2025. And 2024.
 
-**What to watch:**
+What to watch:
 - CIO surveys on AI budget growth vs cuts
 - Enterprise contract renewals (churn data)
 - Actual productivity metrics (not surveys)
@@ -118,5 +130,7 @@ They said the same about 2025. And 2024.
 - [[Agentic AI]] — exception (35% adoption, 66% seeing value)
 - [[Model lab economics]] — context (infrastructure vs application spend)
 - [[AI hyperscalers]] — infrastructure (compute, not applications)
+- [[IT services]] — services layer that benefits if AI adoption requires integration
+- [[Capgemini]] — May 2026 example of the services-budget counter-signal
 - [[Anysphere]] — beneficiary ([[Cursor]], coding tools)
 - [[Anthropic]] — beneficiary ([[Claude]] Code, coding tools)

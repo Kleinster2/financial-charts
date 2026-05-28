@@ -121,6 +121,7 @@ Each theme is anchored in a child or concept where the live data lives.
 | [[Export controls]] / [[China]] bifurcation | [[Korea AI chips]], [[Semiconductor Materials]] |
 | [[Power constraints]] for fabs | [[Power constraints]] concept |
 | [[Leading edge race]] — 2nm competition | [[AI Compute]] ([[TSMC]] vs [[Samsung]] vs [[Intel]]) |
+| Post-node scaling / system optimization | [[Tau Scaling Law]], [[Advanced packaging]], [[NVIDIA alternatives]] |
 
 ### Apr 24 2026: CPU-led record rally
 
@@ -133,6 +134,12 @@ The sector implication is that the AI cycle is no longer priced as a single [[NV
 The same day, [[DeepSeek]] V4 Preview showed the other side of the cycle: not just more demand for US chips, but substitution pressure inside [[China]]. [[CNN]] reported that [[Huawei]] supports V4 with Supernode technology combining large [[Ascend]] 950 clusters, and [[Counterpoint Research|Counterpoint]]'s Wei Sun said V4 runs on domestic chips from Huawei and [[Cambricon Technologies]] rather than NVIDIA hardware.
 
 For semiconductors, the signal is that export controls are creating a protected domestic accelerator market. Huawei and [[Cambricon]] do not need to beat [[Blackwell]] chip-for-chip if Chinese model developers optimize around their clusters and Chinese customers accept slightly lower frontier performance in exchange for sovereignty, cost, and availability. This is the semiconductor expression of [[China AI Plus]].
+
+### May 25 2026: Huawei post-node scaling claim
+
+[[Huawei]]'s [[Tau Scaling Law]] / [[LogicFolding]] announcement adds a design-framework layer to the China semiconductor story. Huawei says the approach can raise performance and transistor density by reducing signal-propagation time across devices, circuits, chips, and systems; Reuters framed the claim around a 2031 target for 14 angstrom / 1.4nm-equivalent density, while noting no independent performance data was supplied.
+
+Sector read-through: the China gap is shifting from "can [[SMIC]] reach the next node?" to "how much of the node gap can a vertically integrated system designer offset?" That pulls [[Advanced packaging]], interconnect, EDA, thermals, and cluster networking into the same competitive question as lithography. The first observable test is fall 2026 [[Kirin]] chips using LogicFolding; the larger investment test is whether the same ideas improve [[Ascend]] AI clusters.
 
 ### May 8 2026 rally (Apple-Intel deal extension)
 
@@ -161,6 +168,16 @@ Same-session structural reads:
 - The two-anchor Intel demand portfolio now stands: [[TERAFAB]] (Apr 7, Tesla/SpaceX/xAI cluster) + Apple (May 8). Two structurally different demand pillars hedge each other if 18A HVM stumbles.
 
 *Sources: [CNBC — Wall Street AI chip love moves from NVIDIA to Intel, AMD, Micron](https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html); [Apple-Intel chip-making agreement May 2026]; local `quick_movers.py` May 8 screen.*
+
+### May 20-21 2026: supply-limited framing hardens
+
+Reuters' May 20 interview with [[ASML]] CEO Christophe Fouquet and the May 21 FT interview with [[James Anderson]] / [[Morgan Samet]] point at the same sector structure from opposite sides. Fouquet describes a supply-limited market driven by AI, satellites, and robotics, with bottlenecks likely to recur across the chain as the market scales. Anderson and Samet describe the demand-side consequence: platform buyers must keep spending, while the bottleneck suppliers have the cleaner pricing-power position.
+
+That strengthens the parent-sector read that semiconductors should be mapped through children, not as one broad "chips" factor. The supplier scarcity lives most clearly in [[AI Compute]], [[WFE]], [[Memory]], and [[AI capex chain basket]]. The buyer-side pressure lives in [[AI hyperscalers]], [[AI infrastructure financing]], and [[AI capex arms race]].
+
+[[TERAFAB]] is the stress test. Reuters reported on May 6 that [[SpaceX]] proposed a $55B initial Texas semiconductor facility, with total investment potentially rising to $119B if later phases are completed. If the project stays aspirational, it still functions as evidence that large AI buyers want to escape supplier dependence. If it becomes real, it pulls more demand into the same equipment bottlenecks that benefit [[ASML]], [[Applied Materials]], [[KLA Corporation]], and [[Lam Research]].
+
+*Sources: [Reuters via Investing.com — ASML CEO sees tight supply](https://www.investing.com/news/stock-market-news/exclusiveasml-ceo-sees-tight-supply-in-booming-chip-market-as-ai-demand-soars-4701446), May 20 2026; [Financial Times — Big Tech software era is over, says top investor James Anderson](https://www.ft.com/content/9d2bd5b3-80c6-49b9-a04b-edc4162c9320), May 21 2026; [Reuters via Investing.com — SpaceX files plan for $55 billion Terafab chip facility in Texas](https://www.investing.com/news/economy-news/spacex-plans-55-billion-chip-plant-in-texas-4662329), May 6 2026.*
 
 ---
 
@@ -211,6 +228,8 @@ Traditional cycle: 3-4 years, inventory-driven. AI capex is decoupling the leadi
 - [[Advanced packaging]] — key bottleneck (→ OSAT)
 - [[Memory shortage 2025-2026]] — near-term theme (→ [[Memory]])
 - [[Taiwan]] — geographic risk (→ [[AI Compute]])
+- [[Tau Scaling Law]] — Huawei's post-node scaling framework
+- [[LogicFolding]] — architecture scheduled for fall 2026 Kirin and later Ascend
 
 ### Cross-vault
 - [Technologies: Semiconductors](obsidian://open?vault=technologies&file=Semiconductors) — fabrication processes, transistor physics, node scaling
@@ -220,6 +239,7 @@ Traditional cycle: 3-4 years, inventory-driven. AI capex is decoupling the leadi
 
 - [[Gartner]], Jan 2026 — industry size figures
 - [[Reuters]] / [[LSEG]] consensus, Apr 24 2026 — Q1 earnings growth and forward-multiple comparison
+- [[Reuters]] / [[Financial Times]], May 2026 — supply-limited and platform-vs-supplier framing
 - [[2026-05-09-sector-internal-correlation-diagnostic]] — children correlation table
 
 *Restructured 2026-05-10 — promoted from member-list to index hub. Members live in children.*

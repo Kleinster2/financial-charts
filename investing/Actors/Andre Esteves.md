@@ -18,6 +18,14 @@ aliases: [André Esteves, Esteves]
 
 ---
 
+## AgroForum Cuiabá 2026
+
+At [[BTG Pactual]]'s May 22, 2026 AgroForum Cuiabá panel, Esteves framed [[Brazil]] as a cheap resource, energy, capital-markets, and institutional-improvement story rather than a broken macro story. His strongest allocator point was that the [[Brazilian real]] rally was mostly global: investors had become over-concentrated in [[US dollar]] and AI-linked assets, and marginal diversification made Brazil attractive because it offers high carry, cheap real assets, renewable power, food, metals, and hydrocarbons.
+
+The more structural point was industrial strategy. Esteves rejected a generic reindustrialization push in favor of resource-linked upgrading: pulp instead of raw eucalyptus, processed [[Rare earths|rare earths]] instead of ore, food/protein scale, and clean-power-backed data centers or sovereign cloud. That puts him in the "Brazil as [[Canada]]/[[Australia]] plus fintech" camp: a commodity superpower whose real industrial edge is embedded in resource processing, logistics, energy, and capital markets.
+
+---
+
 ## Related
 
 - [[BTG Pactual]] — founded and controls

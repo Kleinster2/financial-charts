@@ -12,6 +12,17 @@ Analyst at [[Haitong International Securities]] (Hong Kong). Apple supply-chain 
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Firm | [[Haitong International Securities]] |
+| Focus | Apple supply chain, semiconductors, consumer hardware |
+| Geography | Hong Kong / Asia supply chain |
+| Adjacent analyst | [[Ming-Chi Kuo]] |
+
+---
+
 ## December 2025 — Apple-Intel iPhone-chip-scope possibility
 
 Pu published one of the first analyst notes flagging the possibility that the rumored Apple-Intel foundry partnership ([[Ming-Chi Kuo]] had first reported on it in Nov 2025) might extend to iPhone A-series chips by 2028, not just M-class chips by 2027. The iPhone-scope read became central to the May 8, 2026 [[Wall Street Journal]] confirmation of the [[Apple-Intel chip-making agreement May 2026|preliminary deal]] — the WSJ explicitly noted "It's still unclear which Apple products Intel would make chips for," but Pu's earlier note set the framework that iPhone inclusion was on the table.

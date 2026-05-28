@@ -2,8 +2,6 @@
 aliases: [Cody Acree]
 tags: [individual, analyst, equity-research, semiconductors, usa]
 ---
-#individual #analyst #semiconductors
-
 **Cody Acree** — Equity research analyst at [[Benchmark]] covering semiconductors. Notable for raising his [[Intel]] price target from $76 to $105 the morning of Intel's Q1 2026 print (Apr 24).
 
 ---

@@ -28,6 +28,7 @@ For the vault, UChicago matters as a talent and ideas pipeline. [[Jeff Currie]] 
 ## Related
 
 - [[Jeff Currie]] — PhD Economics; chairs EPIC advisory group
+- [[Christian Leuz]] — Booth accounting professor; source on hyperscaler FCF and off-balance-sheet AI infrastructure accounting risk
 - [[Milton Friedman]] — monetarism, Chicago school founder
 - [[Federal Reserve]] — heavily influenced by Chicago school alumni
 

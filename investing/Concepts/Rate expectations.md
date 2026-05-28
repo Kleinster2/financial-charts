@@ -142,6 +142,14 @@ The useful distinction is that [[Kalshi]] expresses the path as event probabilit
 
 *Sources: [[Kalshi]] API series KXFEDDECISION, KXFED, and KXRATECUTCOUNT, read May 20, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFEDDECISION, https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXFED, and https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXRATECUTCOUNT*
 
+### Reuters policy-pressure overlay (May 24, 2026)
+
+Reuters' May 24 Treasury-rout analysis added the Washington side of the same pricing. The administration is still pressing for lower borrowing costs, but Fed officials have been discussing rate hikes rather than cuts because oil and inflation risk remain elevated. That matches the Kalshi overlay above: no-change is the base case, the September hike tail is more visible than the cut tail, and zero 2026 cuts remains the modal outcome.
+
+The useful read is that political pressure and market pricing have now cleanly diverged. [[Trump II|Trump]] wants easier financial conditions before the midterms; the long end is tightening mortgage and credit conditions; and the front-end market is not validating an easing response. That is a [[Fiscal Dominance]] setup only if the administration tries to force accommodation. For now it is a constrained-hold setup: inflation risk blocks cuts, while higher yields create political pressure to end the Iran shock.
+
+Source: Reuters, [US Treasury rout tests Washington's tolerance for higher borrowing costs](https://wtvbam.com/2026/05/24/analysis-us-treasury-rout-tests-washingtons-tolerance-for-higher-borrowing-costs/), May 24 2026.
+
 ---
 
 ## How it works

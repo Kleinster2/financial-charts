@@ -65,6 +65,18 @@ Sharma's framing: the world is more energy-efficient than in the 1970s (which sh
 
 ---
 
+## May 2026 -- bond-market tolerance test
+
+Reuters' May 24 coverage made the fiscal-dominance mechanism concrete. The 10-year Treasury touched 4.69% during the Iran-war selloff, with the move driven by sticky inflation, strong growth, elevated energy prices, and term premium rather than a sudden Treasury default scare. That distinction matters: when yields rise because markets think inflation and nominal growth remain too hot, official attempts to cap borrowing costs look like accommodation, not financial-stability policy.
+
+The administration's constraint is therefore political and monetary at the same time. Higher yields raise mortgage, credit-card, and business-loan costs into the midterms. But the same war that makes those borrowing costs painful also makes rate cuts harder for the [[Federal Reserve]] to justify. [[Scott Bessent]] and the White House can describe the long-end move as temporary disruption, and that may be right if a peace deal arrives quickly. If the 10-year presses toward the 5% pain level Reuters' sources flagged while equities and credit remain orderly, the policy toolkit becomes visibly thin: debt-management can alter issuance mix, but it cannot make investors accept low real yields without some form of monetary accommodation.
+
+This is the live fiscal-dominance test: not outright monetization yet, but a narrowing policy corridor where the government needs lower yields and the inflation backdrop argues against delivering them.
+
+Source: Reuters, [US Treasury rout tests Washington's tolerance for higher borrowing costs](https://wtvbam.com/2026/05/24/analysis-us-treasury-rout-tests-washingtons-tolerance-for-higher-borrowing-costs/), May 24 2026.
+
+---
+
 ## Related
 
 - [[Federal Reserve]] — the institution constrained by fiscal dominance

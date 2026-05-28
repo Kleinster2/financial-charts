@@ -11,9 +11,11 @@ aliases: [Rare earth controls, Critical minerals leverage]
 
 Rare earth prices have an answer embedded in them. Dysprosium +180% in 60 days after China's April 2025 export controls (per CSIS) prices an answer to the question "how durable is China's processing chokepoint over 2026-2030?" The market prices three things accurately — China's current refining dominance (~90%+ overall, effectively 100% for heavy REE since Vietnam's only non-Chinese refinery shut down in a tax dispute), the weaponization precedent (April 2025 terbium/dysprosium controls, January 2026 dual-use ban on [[Japan]] over Taiwan remarks), and the strategic-foresight premium (Deng Xiaoping's 1992 "Middle East has oil, China has rare earths" played out over three decades). It also attempts to price the fourth thing: the rate at which the Western response closes the chokepoint.
 
+The May 2026 [[Reuters]] customs-data check makes the Japan leg concrete. China had largely stopped exporting [[Dysprosium]], [[Terbium]], [[Yttrium|yttrium oxide]], and [[Gallium]] to [[Japan]] since December 2025, while still exporting finished rare earth magnets. That pattern is more surgical than a full 2010-style embargo: it pressures Japan's upstream magnet and materials ecosystem while preserving Chinese finished-magnet export revenue and some downstream customer relationships.
+
 Two forces are actively subtracting from China's forward-monopoly assumption:
 
-1. **Replication at the processing level** — [[Lynas]] Malaysia became the first non-Chinese producer of separated heavy REEs in May 2025. [[MP Materials]] received a Pentagon $400M investment July 2025. Iluka's Eneabba refinery (A$1.25B Australian government loan) is commissioning 2026 for separated NdPr + dysprosium + terbium. Arafura's Nolans Project, Vital Metals + Saskatoon, REEtec Norway, and Japanese magnet-grade expansion through Shin-Etsu Chemical and Hitachi Metals add parallel capacity. US VC funding in REE startups hit $628M in 2025, up ~2,900% from 2024 per PitchBook.
+1. **Replication at the processing level** — [[Lynas Rare Earths|Lynas]] Malaysia became the first non-Chinese producer of separated heavy REEs in May 2025. [[MP Materials]] received a Pentagon $400M investment July 2025. Iluka's Eneabba refinery (A$1.25B Australian government loan) is commissioning 2026 for separated NdPr + dysprosium + terbium. Arafura's Nolans Project, Vital Metals + Saskatoon, REEtec Norway, and Japanese magnet-grade expansion through [[Shin-Etsu]] and Hitachi Metals add parallel capacity. US VC funding in REE startups hit $628M in 2025, up ~2,900% from 2024 per PitchBook.
 2. **Technology unlock at the extraction level** — Rainbow Rare Earths / Mosaic phosphogypsum joint venture at Uberaba (Minas Gerais, [[Brazil]]) targets ~2,600 tpa NdPr oxide + heavy REE from fertilizer waste with no mining required; Uberaba PEA economics are $916M NPV / 45% IRR. If replicable on US phosphogypsum stacks — Florida alone holds 1B+ tonnes with ~200,000 tonnes trapped REE — the mining-chokepoint framing weakens.
 
 Combined: the 30-year Chinese head start is being attacked simultaneously at the mining layer, the processing layer, and the extraction-technology layer.
@@ -100,7 +102,7 @@ The processing bottleneck is the real chokepoint. Even ore mined elsewhere often
 
 ## April 2025 controlled elements (refined output share)
 
-*Source: Project Blue*
+*Source: [[Project Blue]]*
 
 | Element | [[China]] | Vietnam | Other |
 |---------|-------|---------|-------|
@@ -109,7 +111,7 @@ The processing bottleneck is the real chokepoint. Even ore mined elsewhere often
 | [[Terbium]] | ~99% | ~1% | — |
 | [[Dysprosium]] | ~97% | ~3% | — |
 | Lutetium | ~96% | ~2% | [[Japan]] ~2% |
-| Yttrium | ~90% | ~5% | [[Japan]], [[Russia]] |
+| [[Yttrium]] | ~90% | ~5% | [[Japan]], [[Russia]] |
 | Scandium | ~80% | — | [[India]] ~10%, [[Russia]] ~10% |
 
 **Key insight:** Vietnam is only meaningful alternative for 6 of 7 elements. Scandium has more diversified supply ([[India]], [[Russia]]).
@@ -291,7 +293,7 @@ Timeline to reduce dependence: 10+ years minimum.
 
 ---
 
-## [[Japan]] supply chain impact (Jan 2026)
+## [[Japan]] supply chain impact (Jan-May 2026)
 
 **Kihara (Chief Cabinet Secretary):** "[[China]]'s export control measures on rare earths and other materials have been ongoing for some time and are having a serious impact on the global supply chain."
 
@@ -301,6 +303,16 @@ Timeline to reduce dependence: 10+ years minimum.
 | Customs processing | Lengthened since end of 2025 |
 | Japanese firm response | Securing 6+ months inventory |
 | Status | Export applications still processing, but slower |
+
+### May 2026 customs confirmation
+
+[[Reuters]] reported on May 22 that Chinese customs data showed no meaningful exports to [[Japan]] of [[Dysprosium]], [[Terbium]], [[Yttrium|yttrium oxide]], or [[Gallium]] since December 2025, except for tiny yttrium shipments in March. The distinction matters: [[China]] was not fully stopping finished rare earth magnets, but was choking off the upstream inputs that Japanese magnet and materials firms need to keep non-China production running.
+
+The company-level read-through is uneven. A Western customer told Reuters that [[Shin-Etsu]] had stopped accepting new orders for dysprosium-containing magnets; Shin-Etsu declined comment. [[TDK]] said it had not yet seen a major impact and was diversifying sources. [[Mitsubishi Motors]] said it had secured required rare earth volumes until around mid-2026. That spread says the first-order shock is not visible in every end customer at once; it appears first at the magnet-input and procurement-renewal layer.
+
+Scale is still the constraint on the non-China alternative. [[Lynas Rare Earths|Lynas]] produced 8 metric tons of separated dysprosium / terbium in Q1 2026, while Reuters' customs review showed China exported roughly 14 tons per month of the same elements to Japan in 2024. Japan has stockpiles and lower heavy-rare-earth intensity than in 2010, but the replacement channel is still too small to absorb a prolonged cutoff without inventory release, demand rationing, or specification changes.
+
+[[Ryosei Akazawa]]'s May 2026 China trip is therefore a supply-chain diplomacy event, not just a trade meeting. [[METI]] said Japan could release stockpiles if necessary; that makes the [[JOGMEC]] model the immediate buffer while the processing-replication track catches up.
 
 **[[Japan]] allied outreach:** Finance Minister Katayama meeting G7 counterparts on critical minerals; PM Takaichi hosting South Korea's Lee and Italy's Meloni.
 
@@ -397,6 +409,12 @@ A less obvious but critical dependency:
 - [[Dutch seizure of Nexperia]] — 2025 rare earth escalation example
 - [[Japan Chikyu rare earth mission 2026-01]] — [[Japan]]'s domestic sourcing attempt
 - [[China-Japan relations]] — current escalation context
+- [[JOGMEC]] — [[Japan]] stockpile / financing buffer
+- [[Lynas Rare Earths]] — main non-China producer and Japan-backed supply source
+- [[Shin-Etsu]] — Japanese materials firm exposed through dysprosium magnets
+- [[TDK]] — Japanese magnet / components buyer
+- [[Mitsubishi Motors]] — auto end-user inventory read-through
+- [[Project Blue]] — critical-minerals research source
 - [[MP Materials]] — Only US rare earth mine at scale
 - [[Anduril]] — [[Defense]] exposure to rare earth supply
 - [[Adamas Intelligence]] — Rare earth research firm

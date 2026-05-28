@@ -66,6 +66,10 @@ NSR offers:
 
 Not meant to replace Suez — meant to provide **optionality** during disruptions.
 
+### May 2026 chokepoint optionality update
+
+The FT's May 24 chokepoint visual story argues that the [[2026 Strait of Hormuz crisis]] could accelerate Chinese interest in the Northern Sea Route because it would bypass several traditional chokepoints. The caveat is the same one this note already tracks: a viable Arctic route is still a long-dated option, and its Pacific entrance/exit runs through [[Bering Strait]], creating a new dependency even as it reduces exposure to [[Suez Canal]], [[Bab el-Mandeb]], and [[Strait of Malacca]].
+
 ## Operational Challenges
 
 | Challenge | Details |
@@ -111,3 +115,5 @@ See [[Northwest Passage]].
 - [[Yamal LNG]] — Arctic LNG project using NSR
 - [[Novatek]] — Russian LNG operator
 - [[Greenland]] — nearby strategic territory
+- [[Bering Strait]] — Arctic-Pacific chokepoint
+- [[Maritime chokepoint dependency]] — route-risk framework

@@ -38,6 +38,7 @@ PANW trades as a core Software name (IGV r = 0.78).
 | Category | Products |
 |----------|----------|
 | Network Security | Next-gen firewall (origin), Prisma SD-WAN |
+| Secure access / SASE | Prisma Access, Prisma SD-WAN, Prisma Access Browser |
 | Cloud Security | Prisma Cloud, Cortex Cloud |
 | Security Operations | Cortex XDR, XSIAM |
 | AI Security | Precision AI, AI Access Security |
@@ -71,6 +72,30 @@ Goal: Become the "one vendor" for enterprise security.
 | Free trials | "Land and expand" |
 
 Controversial: Q4 2024 free trial announcement hit stock.
+
+---
+
+## SASE stack
+
+Palo Alto's [[SASE]] posture is the cleanest example of bundled SASE in the vault. Prisma Access provides cloud-delivered secure access; Prisma SD-WAN pulls branch connectivity into the same sale; Prisma Access Browser, Prisma Agent, SWG, CASB, FWaaS, and ZTNA extend policy into web, SaaS, private-app, and browser workflows. The strategy is not to win secure access as a point product. It is to make SASE another module in the broader platformization account motion.
+
+| Layer | Palo Alto product surface | Function |
+|-------|---------------------------|----------|
+| Private-app access | Prisma Access / ZTNA | Least-privilege access without broad VPN-style network reach |
+| Web and SaaS | SWG, CASB, DLP, RBI | Controls browsing, cloud-app usage, and sensitive data movement |
+| Branch / WAN | Prisma SD-WAN and remote networks | Connects branches and sites through the SASE fabric |
+| Firewall policy | FWaaS / NGFW heritage | Moves Palo Alto inspection depth into cloud-delivered enforcement |
+| Telemetry / experience | ADEM, Prisma Access Browser, Prisma Agent | Makes secure access observable and easier to operate |
+
+*Sources: [Palo Alto Networks Prisma Access](https://www.paloaltonetworks.com/sase/access); [Palo Alto Networks SASE architecture guide](https://www.paloaltonetworks.com/cyberpedia/sase-architecture).*
+
+---
+
+## May 2026 — Zscaler SASE read-through
+
+Reuters' May 26 coverage of [[Zscaler]]'s Q3 FY2026 guide named Palo Alto's platform offerings as a competitive pressure in [[SASE]]. The read-through is not a Palo Alto earnings event; it is validation that Prisma SASE and broader platformization are becoming share-of-wallet threats even for the zero-trust pure-play. If customers consolidate secure access, cloud security, endpoint telemetry, and SOC automation with fewer vendors, Palo Alto's pitch improves; if best-of-breed architecture wins, Zscaler keeps more of the SASE budget.
+
+*Source: [Reuters via StreetInsider, May 26 2026](https://www.streetinsider.com/Reuters/Zscaler%2Bsees%2Bdownbeat%2Bquarterly%2Brevenue%2Bas%2Bcompetition%2Bheats%2Bup%2Bin%2Bcybersecurity%2Bmarket/26550638.html).*
 
 ---
 
@@ -207,4 +232,4 @@ Bear:
 - [[CyberArk]] — $25B acquisition (largest in cybersecurity history), closed Feb 11 2026
 - [[Chronosphere]] — $3B+ cloud observability acquisition, closed Jan 2026
 - [[Cybersecurity consolidation]] — sector trend driving M&A strategy
-
+- [[SASE]] — secure-access architecture where Prisma SASE expresses platformization

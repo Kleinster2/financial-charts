@@ -40,6 +40,14 @@ The breadth, not concentration, was the signal: applications, distribution, and 
 
 ---
 
+## China lunar cadence as strategic demand floor (May 2026)
+
+[[China Manned Space Agency|CMSA]]'s May 2026 [[Shenzhou]]-23 launch makes the state-space side of the sector more tangible. Reuters reported that one crew member will stay aboard [[Tiangong]] for a year, while Chinese state media framed the station as a testbed for the 2030 crewed moon landing. The architecture is a national stack: [[Long March 10]] heavy lift, [[Mengzhou]] crew spacecraft, [[Lanyue]] lander, and Tiangong as the human-spaceflight laboratory.
+
+This is not directly investable through Chinese public equities, but it matters for the sector because it keeps lunar infrastructure inside a great-power competition frame. The US commercial stack - [[NASA]] [[Artemis]], [[SpaceX]] [[Starship]], [[Blue Origin]] Blue Moon, [[Intuitive Machines]], [[Lunar Outpost]], and the broader [[Space pure-plays]] cohort - benefits from the political argument that lunar capacity is strategic infrastructure rather than optional exploration spending.
+
+---
+
 ## May 8, 2026 — synchronized public-equity rerating across the sector
 
 The May 8 session produced the cleanest cross-name rally in the public space sector since the cohort began listing in 2020-2024. Every single public space-pure-play in the vault printed a >+5% session, and most printed double-digit gains:
@@ -64,6 +72,16 @@ Three structural reads:
 The follow-on question for next week: does the rerating extend (factor-style continuation) or unwind (single-day positioning move)? The Q1 IPO + IRAQ war data combination argues for the former; the magnitude of RKLB's +34% argues that some unwind is probable.
 
 *Source: local quick_movers.py screen May 8 2026; [[#Q1 2026 — record investment quarter|Space Capital Q1 2026 data]] (Apr 26).*
+
+---
+
+## May 27, 2026 - SpaceX IPO halo reaches listed space proxies
+
+[[Reuters]] reported that US listed space stocks continued to rally as investors used public names to express the upcoming [[SpaceX IPO 2026]] before `SPCX` itself trades. The verified closing pattern was broad but concentrated in pure-play proxies: [[Intuitive Machines]] +15.7%, [[Redwire]] +8.9%, [[AST SpaceMobile]] +8.3%, [[Rocket Lab]] +4.9%, and [[Planet Labs]] +4.5%. Space ETFs moved less because their broader aerospace/defense holdings dilute the pure-space beta.
+
+The sector read is that SpaceX's listing is already acting as a valuation anchor for the public space economy. That supports the [[Space pure-plays]] cluster thesis, but the move is still a halo trade rather than new single-name fundamentals. The risk is rotation: `SPCX` could expand the sector's capital pool, or it could absorb capital that is currently parked in proxies.
+
+*Sources: [[Reuters]] via Investing.com, May 27 2026, https://www.investing.com/news/stock-market-news/us-space-stocks-rise-on-spacex-ipo-hype-4712652; [[Yahoo Finance]] daily closes pulled May 27 2026.*
 
 ---
 
@@ -118,6 +136,7 @@ The follow-on question for next week: does the rerating extend (factor-style con
 | Blue Origin | Lunar, New Glenn |
 | Astrobotic | Lunar landers |
 | Intuitive Machines | Lunar services |
+| [[China Manned Space Agency]] | State lunar program / [[Tiangong]] / [[Shenzhou]] |
 
 ---
 
@@ -273,6 +292,9 @@ The exports use commercial wrapping ([[Military-civil fusion]] talent and fundin
 - [[Space data centers]] — orbital DC platform war (concept)
 - [[Commercial LEO Destinations]] — post-ISS commercial station program
 - [[Artemis]] — lunar program, Q1 2026 architecture restructure
+- [[Chinese crewed lunar program]] — state lunar program pressure on [[Artemis]]
+- [[China Manned Space Agency]] — operator of [[Tiangong]] / [[Shenzhou]]
+- [[Tiangong]] — Chinese space-station testbed
 - [[Isar Aerospace]] — leading European launch startup
 - [[Germany]] — €35B space-defense investment
 - [[Defense]] — space defense overlap

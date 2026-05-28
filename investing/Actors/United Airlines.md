@@ -107,6 +107,16 @@ See [[Iran conflict airline disruption]] for the sector-level supply-chain mecha
 
 ---
 
+## May 27, 2026 — oil relief and merger-deal discipline
+
+UAL closed at $112.62, up 6.3% on May 27, an estimated +2.5σ beta-adjusted move using local volatility history through May 1 as the baseline. The move fits the reversal of the April fuel-shock thesis rather than a new demand surprise: lower oil prices reduced the hurdle to recover fuel costs, and Reuters reported Scott Kirby telling a Bernstein investor conference that United does not expect to pursue airline consolidation for the foreseeable future after [[American Airlines]] rejected the merger approach.
+
+Kirby's comments matter because they narrow the strategic read-through. United is not abandoning capacity discipline, but the immediate investor focus shifted from "fuel shock plus risky consolidation fantasy" to "fuel cost recovery and no smaller deal chase." Reuters also reported Kirby expects to recover a little less than half of the current-quarter fuel hit, with no meaningful demand pullback after fare increases. That is a cleaner setup for the equity than the April print, but it is still conditional on the oil move holding.
+
+*Sources: [StockAnalysis UAL quote, May 27 2026 close](https://stockanalysis.com/stocks/ual/); [Reuters via Investing.com, May 27 2026](https://www.investing.com/news/stock-market-news/united-airlines-ceo-rules-out-consolidation-push-after-american-rebuff-4712941).*
+
+---
+
 ## Investment case
 
 Bull:

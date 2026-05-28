@@ -43,8 +43,11 @@ See [[Rare earth leverage]], [[Rare earth elements]].
 | Dec 2025 | Ga/Ge controls suspended | US | Exchange for Affiliate Rule suspension |
 | **Jan 2026** | **Dual-use equipment ban** | **Japan** | **PM Takaichi [[Taiwan]] comments** |
 | Jan 2026 | Dichlorosilane anti-dumping probe | Japan | Chip manufacturing chemical |
+| May 2026 | Customs data confirms Japan cutoff in Dy/Tb/[[Yttrium|yttrium]]/gallium | Japan | Follow-through from Takaichi escalation; see [[Rare earth leverage]] |
 
 **Jan 2026 Japan escalation:** [[China]] banned exports of dual-use equipment including sensors, semiconductors, batteries, chemicals, and items using rare earths. Triggered by PM Takaichi saying [[Taiwan]] contingency could necessitate Japan military response. See [[China-Japan relations]].
+
+**May 2026 confirmation:** [[Reuters]]' review of Chinese customs data showed no meaningful Chinese shipments to [[Japan]] of [[Dysprosium]], [[Terbium]], [[Yttrium|yttrium oxide]], or [[Gallium]] since December 2025. That converts the January policy escalation from "controls and slower processing" into a de facto upstream cutoff for the most strategically sensitive materials, while finished magnets continued to move. This is exactly the kind of high-precision pressure that makes critical minerals more coercive than ordinary commodities.
 
 See [[China retaliatory toolkit]] for full countermeasure list.
 
@@ -117,7 +120,7 @@ FT compares three approaches to critical mineral supply chain resilience:
 ## Investment implications
 
 **If [[China]] restricts:**
-- Non-[[China]] miners rally ([[MP Materials]], Lynas, Perpetua Resources)
+- Non-[[China]] miners rally ([[MP Materials]], [[Lynas Rare Earths]], Perpetua Resources)
 - [[Defense]] stocks at risk (supply chain exposure)
 - EV cost inflation
 - Battery recyclers gain ([[Redwood Materials]], Li-Cycle)
@@ -126,7 +129,7 @@ FT compares three approaches to critical mineral supply chain resilience:
 | Company | Mineral | Location |
 |---------|---------|----------|
 | [[MP Materials]] | Rare earths | US (California) |
-| Lynas | Rare earths | [[Australia]] |
+| [[Lynas Rare Earths]] | Rare earths | [[Australia]] |
 | Perpetua Resources | Antimony | US (Idaho) |
 | Syrah Resources | Graphite | Mozambique |
 | REalloys | Heavy rare earths | [[Canada]] (Saskatchewan) — first NA refinery |

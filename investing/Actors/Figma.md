@@ -1,9 +1,9 @@
 ---
 aliases: []
 ---
-#actor #company #saas #design #usa #private
+#actor #company #saas #design #usa #public
 
-**Figma** — Collaborative design platform. Adobe acquisition blocked. ~$12.5B valuation. Founded 2012.
+**Figma** — Collaborative design platform. Adobe acquisition blocked, IPO completed, and public-market debate now centers on whether generative AI commoditizes the design-software layer.
 
 ---
 
@@ -11,11 +11,11 @@ aliases: []
 
 | Metric | Value |
 |--------|-------|
-| Valuation | ~$12.5B |
+| Market cap | ~$12B (May 2026) |
 | ARR | ~$600M+ |
 | Users | Millions |
 | HQ | San Francisco |
-| Status | Private (Adobe deal blocked) |
+| Status | Public (FIG; IPO completed) |
 
 Dominant design tool for product teams.
 
@@ -102,9 +102,11 @@ Shares +15% after-hours, settled +7% on Feb 19. Despite the beat, analysts flagg
 
 **BofA:** AI monetization timeline on track, but shares could stay pressured until tangible AI revenue disclosure.
 
+The May 25 2026 [[Reuters]] [[SpaceX IPO 2026]] screen turned Figma into a warning comp for the [[2026 IPO pipeline]]. Shares nearly quadrupled in the first trading session, but [[Reuters]] said the stock was down 35% from its $33 IPO price by the May 21 cutoff as investors worried that generative AI could commoditize design software. That is the exact distinction the note should preserve: first-day heat proved demand for the brand, while the later drawdown priced product-layer disruption risk.
+
 ---
 
-## Investment case (if IPO)
+## Investment case
 
 **Bull:**
 - Category dominant

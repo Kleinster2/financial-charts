@@ -1,8 +1,7 @@
 ---
 aliases: [Kuo]
+tags: [analyst, apple, supply-chain-research]
 ---
-#analyst #apple #supplychainresearch
-
 Ming-Chi Kuo — TF International Securities analyst, the "Apple supply chain oracle." Best-in-class source for unreleased Apple product details via Asian supply chain contacts.
 
 ---
@@ -18,7 +17,7 @@ Ming-Chi Kuo — TF International Securities analyst, the "Apple supply chain or
 
 ---
 
-## Profile
+## Quick stats
 
 | Attribute | Value |
 |-----------|-------|

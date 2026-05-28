@@ -68,18 +68,28 @@ Other reported features:
 | Openness | Open-source / open-weight strategy continues |
 | Relative position | Strongest among Chinese/open systems, still behind the latest [[Gemini]]-class frontier systems per CNN's summary |
 
-### V4 pricing (Apr 24, 2026)
+### V4 pricing (Apr-May 2026)
 
-[[Fortune]] reported the headline output-token prices alongside US-frontier comparisons:
+[[Fortune]] reported the launch output-token prices alongside US-frontier comparisons:
 
 | Model | Output price (per 1M tokens) | Anchor |
 |-------|------------------------------|--------|
 | V4 Flash | $0.28 | Cheaper-tier open model |
-| V4 Pro | $3.48 | Reasoning-tier open model |
+| V4 Pro | $3.48 | Original reasoning-tier open model price |
 | [[OpenAI]] equivalent | ~$30 | Per Fortune's framing of "equivalent usage" |
 | [[Anthropic]] equivalent | ~$25 | Per Fortune's framing of "equivalent usage" |
 
 The pricing is the structural weapon. Open weights remove the captive-API moat; aggressive token pricing on the hosted endpoint removes any remaining cost rationale for serving DeepSeek through [[OpenAI]] or [[Anthropic]] APIs in China. Inference-cost arbitrage now tilts strongly toward V4 + domestic compute for any workload where the capability gap is tolerable.
+
+On May 23, 2026, [[Reuters]] reported that DeepSeek would make the 75% V4-Pro API price cut permanent. DeepSeek's official API docs now show the post-promotion V4-Pro price as one quarter of the original level after May 31, 2026:
+
+| V4-Pro usage type | Original CNY / 1M tokens | Permanent CNY / 1M tokens | Official USD / 1M tokens |
+|---|---:|---:|---:|
+| Input, cache hit | 0.1 yuan | 0.025 yuan | $0.003625 |
+| Input, cache miss | 12 yuan | 3 yuan | $0.435 |
+| Output | 24 yuan | 6 yuan | $0.87 |
+
+That changes the commercial read. The April framing was "discount until capacity improves"; the May pricing page turns it into a posted price floor. [[Reuters]] explicitly noted that DeepSeek did not say whether the move reflected increased [[Huawei]] [[Ascend]] 950 supply, so the right inference is not "supply solved." It is that DeepSeek is willing to anchor the Chinese model-pricing curve before the Ascend supernode ramp is externally visible.
 
 ### V4 frontier-gap framing (Apr 24, 2026)
 
@@ -95,13 +105,13 @@ A social-media account affiliated with Chinese state media on Apr 27 framed the 
 
 [[Bloomberg Intelligence]]'s [[Robert Lee]] on Bloomberg "The China Show" (Apr 27) added three structural points:
 
-- **Training stack**: V4's accompanying technical white paper describes the model as trained "almost exclusively" on [[Huawei]] [[Ascend]] chips. This is consistent with the prior Counterpoint reporting but now carries the weight of DeepSeek's own documentation, which closes the door on near-term wholesale [[Nvidia]] orders from [[China]] for V4-class workloads.
+- **Training stack**: V4's accompanying technical white paper describes the model as trained "almost exclusively" on [[Huawei]] [[Ascend]] chips. This is consistent with the prior Counterpoint reporting but now carries the weight of DeepSeek's own documentation, which closes the door on near-term wholesale [[NVIDIA]] orders from [[China]] for V4-class workloads.
 - **Pricing as loss-leader plus cost-down**: V4's external token pricing sits at an estimated 80–90% discount to leading [[Anthropic]] models. Lee's read: pricing is partly subsidized loss-leading and partly genuine cost optimization from software efficiency on cheaper compute. The combination is what allows the structural pricing pressure to hold without obvious unit-economics stress signals from DeepSeek.
 - **Frontier gap is narrow, not wide**: external benchmark Lifebench (US-based) shows the leading Anthropic model maintaining only an ~10% performance premium over V4 — i.e., China is not "miles behind"; it is competing neck-and-neck on the trailing-edge frontier. The US likely retains some technical lead, but the cost advantage is what pushes adoption inside [[China]].
 
 Lee's structural framing of the Chinese AI commercial model: the playbook is the generic Internet-platform strategy — build user base via low/zero pricing, squeeze out competition, then monetize at scale. The constraint is that **every** Chinese AI lab is running the same playbook simultaneously in a fragmented market with no clear sustainable competitive moat. None are making money today. The eventual winners will be determined by balance-sheet endurance, not benchmark wins. Pricing has to rise eventually for the sector to be commercially viable, even if the structural cost gap with US frontier models persists.
 
-The combined readthrough: V4 confirms three trends — chip-ecosystem decoupling, software-optimization-led cost competitiveness, and persistent fragmented-market unprofitability inside [[China]]. The first two compress the addressable market for [[Nvidia]]; the third constrains the addressable market for any single Chinese AI lab.
+The combined readthrough: V4 confirms three trends — chip-ecosystem decoupling, software-optimization-led cost competitiveness, and persistent fragmented-market unprofitability inside [[China]]. The first two compress the addressable market for [[NVIDIA]]; the third constrains the addressable market for any single Chinese AI lab.
 
 *Source: Bloomberg "The China Show," Apr 27 2026 — Robert Lee interview with David Ingles.*
 

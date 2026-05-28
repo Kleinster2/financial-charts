@@ -21,6 +21,14 @@ tags: [actor, geography, chokepoint]
 
 ---
 
+## May 2026 chokepoint-power read
+
+The FT's May 24 visual story places Bab el-Mandeb in the same risk family as [[Strait of Hormuz]] and [[Suez Canal]]: a narrow route where the cost of threatening passage is low relative to the cost of guaranteeing safety. [[Djibouti]]'s coastline along the waterway and foreign military-base density matter because the strait is not just a shipping lane; it is a forward-positioning point for the US, [[China]], [[Japan]], [[France]], [[Italy]], and other powers.
+
+The article also reinforces the "psychological closure" mechanism. [[Houthis|Houthi]] attacks did not need to physically seal the [[Red Sea]] strait to make many European carriers reroute around the [[Cape of Good Hope]]. The no-go decision sits with shippers and insurers as much as with navies.
+
+---
+
 ## Related
 
 - [[Global oil trade flows]] — Red Sea chokepoint
@@ -28,6 +36,9 @@ tags: [actor, geography, chokepoint]
 - [[Strait of Hormuz]] — linked disruption risk (Gulf → Red Sea route)
 - [[Iran conflict economic disruption]] — Houthi proxy attacks
 - [[Yemen]] — Houthi-controlled northern shore
+- [[Djibouti]] — coastline and military-base node
+- [[Eritrea]] — opposing shore / Horn of Africa risk
+- [[Maritime chokepoint dependency]] — global framework
 
 ---
 

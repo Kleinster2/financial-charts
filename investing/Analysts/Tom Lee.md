@@ -1,8 +1,7 @@
 ---
 aliases: [Thomas Lee, Thomas Jong Lee]
+tags: [analyst, strategist, equity, crypto, usa]
 ---
-#strategist #equity #crypto #usa
-
 **Tom Lee** — [[Fundstrat Global Advisors]] co-founder & Head of Research. Ex-[[JPMorgan]] chief equity strategist. Perma-bull. First major Wall Street strategist to cover [[Bitcoin]] formally. CNBC regular.
 
 ---

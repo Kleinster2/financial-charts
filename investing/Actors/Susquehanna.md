@@ -151,6 +151,14 @@ As of January 2026, hiring traders to "detect incorrect fair values" and identif
 
 Source: FT (Jan 14, 2026)
 
+### Adverse-selection role on Kalshi
+
+NYT Magazine's May 26, 2026 profile makes explicit what Susquehanna's Kalshi role means economically: SIG is not merely betting on prediction markets as a venue; it is often the standing liquidity provider that informed traders hit when they find a mispriced contract. [[Jeff Yass]] described the firm's hedge-fund clients as increasingly interested in event contracts as a risk-hedging tool and framed the large institutional ramp as dependent on clearer [[CFTC]] rules.
+
+The strategic read is consistent with SIG's options-market roots. Prediction markets are structurally close to small, event-specific binary options: many are illiquid, information arrives discontinuously, and the market maker earns spread until a specialist identifies an edge. If the category scales, Susquehanna's advantage is less in forecasting every pope, song, or election than in building the quoting, risk, and cross-market infrastructure that lets it warehouse and recycle that flow.
+
+*Source: Adam Iscoe, NYT Magazine, "The Average Guys Outsmarting Wall Street on Prediction Markets," May 26, 2026.*
+
 ---
 
 ## Investment relevance

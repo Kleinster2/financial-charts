@@ -169,6 +169,9 @@ Dell is a price taker on memory — no leverage.
 ![[dell-fundamentals.png]]
 *Revenue grew from ~$14B/Q (2015) to ~$25B/Q (2025). EMC acquisition (2016) drove the step-up. Net income volatile: loss in 2016-17 (EMC integration), profit spikes 2019-21 ([[VMware]] gains), normalizing ~$1-2B/Q now.*
 
+![[dell-sankey.png]]
+*Dell income-statement flow from local chart API. Use alongside the AI-server order flow to separate revenue scale from hardware-margin pass-through.*
+
 ---
 
 ## AI server opportunity
@@ -180,6 +183,12 @@ Offsetting factor:
 - But memory costs hit here too
 
 Mixed picture: AI demand helps revenue, memory costs hurt margins.
+
+### IREN Blackwell order (May 2026)
+
+[[IREN]]'s May 26, 2026 purchase agreement is a clean example of Dell's AI-server role: Dell supplies the full system layer while the customer owns the powered site and the cloud contract. IREN's wholly owned subsidiary IE US Hardware 4 Inc. agreed to buy about $1.6B of GPUs and related infrastructure from Dell Marketing L.P., including servers, storage, networking, ancillary equipment, integration services, and warranties. The systems are air-cooled [[Blackwell]] platform deployments for IREN's Childress, Texas campus.
+
+The customer economics sit outside Dell: the equipment services IREN's five-year, ~$3.4B managed GPU cloud contract with [[NVIDIA]], not a Dell cloud contract. Dell's read-through is supply-chain conversion. It turns NVIDIA Blackwell demand and IREN's powered-land position into a large systems order, with payments due within 30 days of each shipment tranche. For scale, the $1.6B order is roughly 6% of Dell's FY2026 AI server shipments and about 3% of the FY2027 AI-server revenue guide.
 
 ---
 
@@ -244,11 +253,19 @@ Bull:
 
 ## Related
 
+### Securities
+- [[Dell securities note]] — public-market/security read
+
+### Corporate history
 - [[EMC]] — acquired 2016 ($67B)
 - [[VMware]] — spun off 2021 (now [[Broadcom]])
 - [[Perot Systems]] — acquired 2009 ($3.9B)
+
+### Markets and counterparties
 - [[HPE]] — competitor (servers, storage)
 - [[Lenovo]] — competitor (PCs)
+- [[IREN]] — May 2026 $1.6B Blackwell systems customer
+- [[Blackwell]] — NVIDIA platform Dell packages into AI systems
 - [[Memory shortage victims]] — thesis context
 - [[Memory shortage 2025-2026]] — crisis context
 - [[NVIDIA]] — partner (AI servers)

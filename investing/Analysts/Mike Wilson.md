@@ -148,7 +148,7 @@ Watch: whether a single catalyst (oil spike from sanctions enforcement, banks Q1
 
 ## April 2026 — 7,800 upside anchor
 
-Morgan Stanley's published 12-month [[S&P 500]] target for Wilson's framework is 7,800, assuming roughly 17% earnings growth next year and only a modest contraction in valuation multiples. The firm's preferred sector mix inside that framework is [[Financials]], [[Industrials]], and [[Healthcare]].
+Morgan Stanley's published 12-month [[S&P 500]] target for Wilson's framework is 7,800, assuming roughly 17% earnings growth next year and only a modest contraction in valuation multiples. The firm's preferred sector mix inside that framework is financials, industrials, and [[Healthcare]].
 
 That target clarifies how bullish Wilson's April commentary actually is. The thesis is not just that the correction is ending around the 6,300-6,500 zone. It is that earnings breadth can carry the index materially above prior highs even after the Iran/Hormuz shock, so long as the oil spike does not turn into a genuine earnings recession.
 
@@ -185,6 +185,26 @@ Combined with his May 1 "bond vol is the bigger risk than Iran" framing and his 
 The implicit divergence with [[Lyn Alden]] / stagflation-hedging analysts is on duration. Wilson's earnings-and-capex framing is a 1-2 quarter view; Alden's stagflation-portfolio framing is a 12-24 month view. Both can be right — earnings deliver in H1 2026 while consumer / fiscal cracks accumulate into H2 2026 (per [[McDonald's]] CEO May 7 commentary on consumer environment getting "a little bit worse").
 
 *Sources: Wilson commentary ([[Morgan Stanley]] May 4, 2026); cross-references in [[2026 Iran conflict market impact]] and [[2026 recession risk]].*
+
+---
+
+## May 15-20, 2026 — midyear target: AI capex supports risk assets
+
+Morgan Stanley's midyear outlook formalizes Wilson's May 4 "earnings doing the heavy lifting" framework into a higher target path. The firm raised its year-end 2026 [[S&P 500]] target to 8,000 and set a mid-2027 target of 8,300, with the case driven by earnings rather than multiple expansion. The published path assumes roughly 23% S&P earnings growth in 2026 and 12% in 2027.
+
+The AI capex point is central. Morgan Stanley argues the infrastructure cycle is still powerful enough to support U.S. equities, especially hyperscalers, industrials, financials, and consumer discretionary names that can show earnings leverage. But the firm is also explicit that AI spending can pressure credit markets as companies issue more debt to finance data centers, chips, power systems, and networks.
+
+This is the clean equity-strategy side of the [[Morgan Stanley]] vs [[Jeff Currie]] tension:
+
+| Question | Wilson / Morgan Stanley answer | Currie answer |
+|---|---|---|
+| What does AI capex do first? | Supports earnings and risk assets | Creates physical-input scarcity |
+| Where is the clean expression? | U.S. equities, suppliers, financials, AI infrastructure | Oil majors, miners, utilities, HALO assets |
+| What breaks the thesis? | Inflation high enough that the [[Federal Reserve]] cannot ignore it | AI demand disappoints before commodities can reprice |
+
+Wilson's version is a duration-managed bullish call: AI capex can keep earnings expanding even without Fed cuts. Currie's version is a supply-chain claim: AI capex may ultimately pay the owners of scarce molecules and electrons more than the firms buying the infrastructure. Both can coexist until funding costs or energy prices force the market to choose.
+
+*Sources: [Morgan Stanley 2026 Midyear Investment Outlook](https://www.morganstanley.com/insights/articles/investment-outlook-midyear-2026), May 15 2026; [Daily Hodl recap of Morgan Stanley cross-asset strategist Serena Tang](https://dailyhodl.com/2026/05/20/macro-and-micro-fundamentals-support-risk-assets-morgan-stanley-strategist-favors-stocks-over-core-fixed-income/amp/), May 20 2026.*
 
 ---
 

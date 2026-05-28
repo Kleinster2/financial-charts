@@ -318,4 +318,14 @@ Governments considering subsidies have been warned they must still comply with E
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg). Updated 2026-04-03 (Jørgensen/FT → [[EU]]). Updated 2026-04-06 (EU fiscal response/windfall tax). Updated 2026-04-11 (HSBC Mar 16 forecast/Bloomberg).*
+## May 27 -- PMI contraction, ECB warning, Bund repricing
+
+[[Reuters]]' May 27 cross-asset graphic adds a macro-financial layer to the earlier European energy story. In the eurozone, S&P's composite PMI showed activity shrinking at the sharpest rate in more than two-and-a-half years in May. The [[ECB]] warned the war was amplifying Europe's financial vulnerabilities, while British companies reported falling activity and rising input prices as energy costs passed through.
+
+The bond market is now expressing that vulnerability directly. [[Reuters]] reported German Bund yields at their highest in more than 15 years, with traders pricing at least two ECB hikes by year-end. That is the ugly policy mix for Europe: the energy shock weakens activity, but it also raises inflation enough to make easier policy harder to justify.
+
+Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg). Updated 2026-04-03 (Jørgensen/FT → [[EU]]). Updated 2026-04-06 (EU fiscal response/windfall tax). Updated 2026-04-11 (HSBC Mar 16 forecast/Bloomberg). Updated 2026-05-28 -- added Reuters May 27 PMI/ECB/Bund repricing.*

@@ -32,6 +32,14 @@ Highest real rates among major EMs:
 
 ---
 
+## BTG AgroForum read-through (May 2026)
+
+At [[BTG Pactual]]'s AgroForum Cuiabá panel, [[Andre Esteves]] framed the 2025-2026 real rally as a global allocation shift first and a Brazil story second. His claim was that nothing domestically decisive had happened to explain the move from roughly R$6.20 at year-end 2024 toward the R$5 area; instead, global investors diversified marginal inflows away from a [[US dollar]] and AI-equity concentration trade after dollar-weaponization concerns, US tariff rhetoric, and the search for cheap EM assets.
+
+Brazil and LatAm then became unusually attractive because the region is geopolitically predictable, election outcomes across the region have moved more business-friendly, and Brazil combines high carry with low-cost food, metals, energy, and hydrocarbons. The oil and war shock changes the rate path but not necessarily the flow direction: Esteves described the shock as a pause in the diversification trend rather than a reversal, because oil-driven inflation keeps central banks cautious but has not forced a full BRL giveback.
+
+---
+
 ## Key risks
 
 | Risk | Impact |

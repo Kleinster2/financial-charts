@@ -180,6 +180,16 @@ ProPublica found Yass paid average federal tax rate of **19%** — far below Wal
 
 ---
 
+## Prediction markets
+
+Yass is also a visible institutional validator for [[Prediction markets]] through [[Susquehanna]]'s role as an early [[Kalshi]] market maker. NYT Magazine's May 26, 2026 profile placed him at the center of the institutionalization story: Susquehanna operates its own prediction-market desk, provides liquidity on Kalshi, and fields hedge-fund client interest in event contracts as risk hedges. His framing is that the market can expand sharply once the [[CFTC]] gives clearer rules.
+
+The relevance to this note is not personal trading; it is Yass applying Susquehanna's options-market DNA to a new binary-event market where specialists, market makers, and institutional clients are still sorting out who owns the edge.
+
+*Source: Adam Iscoe, NYT Magazine, "The Average Guys Outsmarting Wall Street on Prediction Markets," May 26, 2026.*
+
+---
+
 ## Personal
 
 | Detail | Value |
@@ -209,6 +219,7 @@ ProPublica found Yass paid average federal tax rate of **19%** — far below Wal
 
 - [[Susquehanna]] — his trading firm, $720B AUM
 - [[ByteDance]] — 7% personal stake via early investment
+- [[Prediction markets]] — Susquehanna market-making and institutional-adoption theme
 - [[Trump]] — political relationship; [[TikTok]] influence
 - [[Cato Institute]] — vice chairman; libertarian think tank
 - [[Club for Growth]] — top donor ($61M+)

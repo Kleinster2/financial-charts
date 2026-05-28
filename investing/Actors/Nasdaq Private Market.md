@@ -9,6 +9,8 @@ Nasdaq Private Market (NPM) is a US-based secondary trading platform for shares 
 
 NPM is one of the principal venues where [[SpaceX]] secondary trading occurs. Per Greg Martin (co-founder, [[Rainmaker Securities]], April 2026), SpaceX is *"consistently one of the most actively traded names on our platform because there's nothing else like it in the private markets today. Demand has also almost always outpaced supply, and that's been true even during periods where broader secondary market activity has been more muted."* As of early April 2026, the SpaceX/[[xAI]] combined entity was marked at $1.54T on NPM \u2014 a ~13.6% discount to the $1.75T target valuation in the upcoming [[SpaceX IPO 2026|SpaceX IPO]].
 
+In May 2026, [[Polymarket]] began using NPM Price prints as explicit resolution data for private-company valuation markets, including the [[Anthropic]] valuation high-water ladder expiring Dec. 31, 2026. A May 21 Polymarket/NPM chart screenshot showed Anthropic's current NPM valuation at $936.23B. That makes NPM more than a secondary-market venue in the vault: its prints are becoming reference prices for prediction-market contracts on late-stage private AI companies.
+
 ## Quick stats
 
 | Metric | Value |

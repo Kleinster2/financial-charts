@@ -9,6 +9,15 @@ tags: [analyst, russia, oil, energy, expert]
 
 Senior fellow at [[Carnegie Russia Eurasia Center]], widely considered one of the most credible analysts on Russian oil economics and energy sector dynamics. Publishes the Substack "[On Energy, Cabbages and Kings](https://svakulenko.substack.com)" — the title is a Lewis Carroll *Walrus and the Carpenter* reference, signalling the analytical register Vakulenko prefers (oblique, historically grounded, with an undertone of dark humour about what's actually being negotiated).
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Current role | Senior fellow, [[Carnegie Russia Eurasia Center]] |
+| Focus | Russian oil economics, energy-sector structure, sanctions, OPEC+ |
+| Publication | On Energy, Cabbages and Kings |
+| Prior roles | [[Gazprom Neft]], [[Royal Dutch Shell]], [[IHS CERA]] |
+
 ## Synopsis
 
 Sergey Vakulenko is the definitive Western analyst on [[Russia]]'s oil sector structural outlook, combining 25+ years of oil and gas industry experience with insider knowledge of Russian energy companies. His March 2026 Carnegie paper "A Tight Spot: Challenges Facing the Russian Oil Sector Through 2035" provides the most authoritative assessment of Russia's oil production trajectory under sanctions and OPEC+ constraints. His analysis is essential reading for understanding how geopolitical pressures, fiscal policy, and investment climate interact to shape Russia's energy export capacity.

@@ -18,6 +18,7 @@ Templates and required content for different note types.
 | ✓ | Leadership section |
 | ✓ | Table formatting (blank line before) |
 | ✓ | Frontmatter |
+| ✓ | Analyst note minimum shape |
 | ✓ | Correlation structure (sector and index notes) |
 | | Currency/specificity (subjective) |
 | | Sector correlation section (actor notes) |
@@ -44,6 +45,40 @@ Templates and required content for different note types.
 > Issuer of USDC, the #2 stablecoin ($75B in circulation). IPO'd June 2025 at $31, now trading ~$83 after a blowout first earnings report (Q4 revenue $770M, +77% YoY; FY $2.7B, +64%). The bull case: USDC is becoming the regulated stablecoin rail — Visa settlement, OCC charter, 55 financial institutions on Circle Payments Network, and Meta testing USDC payments for 3.5B users. The bear case: still GAAP-negative, rate cuts would compress reserve income, and Tether holds 60%+ market share.
 
 **Keep it to one paragraph.** Dense, specific, no filler. If you can't summarize the thesis in one paragraph, you don't understand it well enough.
+
+---
+
+## Analyst Notes
+
+Analyst, strategist, commentator, and recurring source-person notes live in `Analysts/`.
+
+Minimum enforced shape:
+
+```markdown
+---
+aliases: [Surname or common short name]
+tags: [analyst, macro]
+---
+
+Name — recurring market source whose framework or calls matter to the vault.
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Role | |
+| Focus | |
+
+## Related
+
+- [[Relevant concept or actor]]
+```
+
+Rules enforced by `scripts/check_note_compliance.py`:
+- `aliases:` and `tags:` must live in YAML frontmatter.
+- Body hashtag lines are not allowed in `Analysts/`; they render as duplicate tag chips and drift from the queryable frontmatter.
+- `type: actor` and `actor` tags are not allowed in `Analysts/`.
+- `## Quick stats` and `## Related` are required.
 
 ---
 

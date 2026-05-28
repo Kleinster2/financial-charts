@@ -17,6 +17,12 @@ tags:
 
 ---
 
+## Synthesis
+
+Prime brokerage is the operational layer that turns hedge-fund intent into tradable, financed positions. Its value is not just execution support; it is balance sheet, securities lending, margining, reporting, and the aggregate positioning intelligence that comes from seeing client books. The 2026 extension into [[Prediction markets]] is a logical next step: nontraditional event-risk trades become institutionally useful only when they can move through familiar prime-broker, clearing, risk, and compliance plumbing.
+
+---
+
 ## What it is
 
 A prime broker provides the full operational stack a hedge fund needs to trade: borrowing shares for short selling, financing leveraged positions on margin, clearing and settling trades, holding assets in custody, and generating portfolio reports. Revenue comes from securities lending fees, margin interest, transaction fees, and financing spreads.
@@ -122,6 +128,16 @@ The key nuance: the rally was covering, not conviction. Gross leverage at 2.9x m
 
 ---
 
+## Event-contract access as a new PB workflow
+
+The May 2026 NYT Magazine profile on prediction-market traders adds a new use case for prime brokerage: connecting hedge-fund clients to [[Kalshi]] event contracts. The article identified Clear Street and Marex as building access for hedge-fund clients, which matters less as a standalone product announcement than as a workflow signal. Event contracts become institutionally usable only when funds can route them through familiar prime-broker, clearing, reporting, margin, and compliance pipes.
+
+For the PB note, the read-through is that prime brokerage is expanding from securities-financing and positioning data into nontraditional event-risk access. The same institutional plumbing that made swaps, portfolio margin, and multi-prime reporting usable can make prediction markets actionable for hedge funds once the [[CFTC]] perimeter is clearer.
+
+*Source: Adam Iscoe, NYT Magazine, "The Average Guys Outsmarting Wall Street on Prediction Markets," May 26, 2026.*
+
+---
+
 ## Related
 
 - [[Goldman Sachs]] — largest PB desk, April 2026 data
@@ -134,6 +150,8 @@ The key nuance: the rally was covering, not conviction. Gross leverage at 2.9x m
 - [[LTCM]] — canonical gross leverage blow-up (1998)
 - [[Total return swaps]] — synthetic short exposure, partially visible to PB
 - [[Multi-manager hedge funds]] — pod shops as primary PB clients
+- [[Prediction markets]] — event-contract venue category becoming prime-brokered
+- [[Kalshi]] — US-regulated platform cited in hedge-fund access buildout
 
 ---
 

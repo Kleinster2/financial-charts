@@ -14,8 +14,10 @@ TERAFAB — $20-25B joint chip fabrication facility announced by [[Elon Musk]] o
 | Detail | Value |
 |--------|-------|
 | Announced | March 21, 2026 |
-| Location | Austin, TX (multiple large sites under consideration) |
+| Location | Austin event origin; May 2026 filing names Grimes County, TX reinvestment zone |
 | Initial cost estimate | $20-25B (Tesla CFO: not yet in 2026 capex plan, which already exceeds $20B) |
+| May 2026 filed initial investment | $55B |
+| May 2026 potential total investment | Up to $119B if later phases are completed |
 | Full-scale cost (Bernstein) | $5-13 trillion (140-360 fabs) |
 | Target output | 1 TW AI compute annually (100-200 GW on Earth, 1 TW in space) |
 | Current global AI output | ~20 GW (Musk's claim: 2% of what he needs) |
@@ -92,6 +94,18 @@ That matters because the Apr. 7 Intel X post had allowed the market shorthand to
 
 ---
 
+## Grimes County filing and ASML read-through (May 2026)
+
+Reuters reported on May 6 that [[SpaceX]] proposed a $55B initial investment for a Texas semiconductor facility called Terafab, with total investment potentially reaching $119B if additional phases are completed. The facility is tied to a Grimes County reinvestment zone and is framed as a multi-phase chip fabrication and advanced-computing complex. Reuters also reported that the project is intended to reduce dependence on external suppliers such as [[Samsung]] and [[TSMC]], while the S-1 still warns that SpaceX expects to rely substantially on third-party suppliers.
+
+The May 20 ASML read-through makes Terafab relevant even if the project remains uncertain. [[ASML]] CEO Christophe Fouquet told Reuters that AI, satellites, and robots are likely to keep semiconductors supply-limited, and he singled out projects like Terafab and Starlink as sources of future demand. In other words, Terafab is both a substitution attempt and a demand amplifier: Musk wants to escape the supplier bottleneck, but a real Terafab would still consume the same lithography and wafer-fab-equipment capacity the rest of the AI chain needs.
+
+This is the exact mechanism highlighted by the May 21 FT [[James Anderson]] / [[Morgan Samet]] article: platform and AI-infrastructure buyers may be forced into ever-larger capex commitments, while bottleneck hardware suppliers retain the pricing-power position.
+
+*Sources: [Reuters via Investing.com — SpaceX files plan for $55 billion Terafab chip facility in Texas](https://www.investing.com/news/economy-news/spacex-plans-55-billion-chip-plant-in-texas-4662329), May 6 2026; [Reuters via Investing.com — ASML CEO sees tight supply](https://www.investing.com/news/stock-market-news/exclusiveasml-ceo-sees-tight-supply-in-booming-chip-market-as-ai-demand-soars-4701446), May 20 2026; [Financial Times — Big Tech software era is over, says top investor James Anderson](https://www.ft.com/content/9d2bd5b3-80c6-49b9-a04b-edc4162c9320), May 21 2026.*
+
+---
+
 ## Related
 
 - [[Intel]] — foundry partner (18A process, packaging)
@@ -107,7 +121,9 @@ That matters because the Apr. 7 Intel X post had allowed the market shorthand to
 - [[NVIDIA]] — AI accelerator demand driver, also constrained by TSMC capacity
 - [[Broadcom]] — flagged TSMC capacity limits
 - [[Synopsys]] — chip crunch through 2026-2027
+- [[ASML]] — lithography bottleneck any real Terafab would need
+- [[AI capex chain basket]] — supplier-chain expression of the same scarcity
 - [[Foundry Wars]] — competitive context
 - [[IDM model]] — structural economics of vertically-integrated fab
 
-*Created 2026-03-23 · Expanded 2026-03-24 (Bloomberg/Bernstein/Barclays/Prism data) · Intel partnership 2026-04-08 · Primary-source recording 2026-04-28*
+*Created 2026-03-23 · Expanded 2026-03-24 (Bloomberg/Bernstein/Barclays/Prism data) · Intel partnership 2026-04-08 · Primary-source recording 2026-04-28 · Grimes County filing 2026-05-24*

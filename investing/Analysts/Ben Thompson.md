@@ -1,8 +1,7 @@
 ---
 aliases: [Thompson, Stratechery]
+tags: [analyst, strategist, tech, media, usa]
 ---
-#strategist #tech #media #usa
-
 **Ben Thompson** — Founder of [[Stratechery]], the influential tech strategy newsletter. Creator of [[Aggregation Theory]]. Former [[Apple]], [[Microsoft]], and [[Automattic]] employee. Pioneered the paid newsletter business model that inspired [[Substack]]. Based in the US (relocated from [[Taiwan]] in Aug 2025).
 
 ---

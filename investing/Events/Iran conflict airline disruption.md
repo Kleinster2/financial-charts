@@ -107,6 +107,14 @@ The delayed risk: with jet fuel at $150-200/bbl and volatility elevated, no carr
 
 *See [[2026 Iran conflict market impact]] for full day-by-day equity tables.*
 
+### May 27 -- airlines still in the loser camp
+
+[[Reuters]]' May 27 cross-asset graphic reported the [[S&P 500]] passenger-airline index down more than 6% since the conflict began. That is less severe than the early Bloomberg World Airlines Index drawdown, but it matters because it persisted while broad U.S. stocks reached record highs. Airlines remain one of the cleanest public-equity losers from the war: jet fuel, rerouting, safety perception, and discretionary travel all pull in the same direction.
+
+The relative move is the point. AI optimism can lift the index, but it does not repair airline unit economics. The sector continues to sit on the wrong side of both the physical shock ([[Jet fuel]], route disruption) and the consumer shock ([[Gasoline]]/headline inflation squeezing travel budgets).
+
+Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
+
 ---
 
 ## Winners — route reshuffling

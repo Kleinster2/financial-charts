@@ -1,8 +1,7 @@
 ---
 aliases: [DiFucci]
+tags: [person, analyst, usa]
 ---
-
-#person #analyst #usa
 
 John DiFucci — Senior Managing Director and Senior Research Analyst at [[Guggenheim Partners|Guggenheim Securities]], covering software equities globally. number 1-ranked software analyst by Institutional Investor (2013). Known for contrarian calls — long-running [[Oracle]] bull, [[Salesforce]] Sell. Army engineer turned Wall Street analyst.
 

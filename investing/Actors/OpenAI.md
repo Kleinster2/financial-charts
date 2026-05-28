@@ -507,9 +507,19 @@ The competitive read: [[Anthropic]] — explicitly safety-coded — should benef
 
 ---
 
+## May 23, 2026 — accelerated IPO window and runway math
+
+FT's May 23 2026 mega-IPO article says leaks about [[OpenAI]]'s accelerated IPO timetable are now being read by public investors as a signal that the AI labs could follow [[SpaceX]] in short order. The same piece puts the latest private mark at $852B and says OpenAI booked almost $6B of revenue last quarter, driven by [[ChatGPT]] and growing [[Codex]] usage.
+
+The tension is the burn line. FT reports OpenAI has told investors it expects to burn roughly $600B before reaching profitability in 2030, despite already raising more private capital than any start-up in history and closing a $122B 2026 round. That makes the IPO less a celebratory exit than a funding mechanism: public investors are being asked to extend the runway for the [[Project Stargate]] / compute strategy while the company tries to prove that consumer distribution plus coding-agent growth can outrun infrastructure commitments.
+
+*Source: [[Financial Times|FT]] article, May 23 2026: https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12.*
+
+---
+
 ## May 12, 2026 — Secondary-market void declaration (parallel to [[Anthropic]])
 
-OpenAI issued a stock-transfer-policy update on May 12, declaring all transfers without written board consent **void** under Delaware bylaw transfer restrictions. The language was identical to [[Anthropic]]'s May 11 notice (same "void" terminology, same target categories — SPVs, tokenized interests, forward contracts). Source reporting did not enumerate OpenAI's specific named platforms but noted "both companies named the same list of targets" (Yahoo / Bloomberg).
+OpenAI issued a stock-transfer-policy update on May 12, declaring all transfers without written board consent void under Delaware bylaw transfer restrictions. The language was identical to [[Anthropic]]'s May 11 notice (same "void" terminology, same target categories — SPVs, tokenized interests, forward contracts). Source reporting did not enumerate OpenAI's specific named platforms but noted "both companies named the same list of targets" (Yahoo / Bloomberg).
 
 OpenAI's notice statement: *"the sale will not be recognized and carry no economic value to you."* The choice of "void" (not voidable) is the most aggressive Delaware corporate-law stance — it eliminates good-faith-purchaser equitable defenses for downstream tokenized-contract buyers.
 

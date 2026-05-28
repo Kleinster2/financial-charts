@@ -35,6 +35,14 @@ Alibaba is reinventing itself as an AI company:
 
 ---
 
+## US IPO aftermarket precedent
+
+The May 25 2026 [[Reuters]] [[SpaceX IPO 2026]] screen used [[Alibaba]] as an older mega-IPO caution outside its five-year cohort. Alibaba roughly doubled from its 2014 US IPO, but the [[S&P 500]] returned more than 300% over the same period. The vault read is not that Alibaba was a failed IPO; it is that even the iconic "largest ever" listing can be an absolute winner and still lose badly to the benchmark. That distinction matters for [[SpaceX]] if public buyers anchor on deal size and brand scarcity rather than relative-return math.
+
+*Source: [[Reuters]] / MarketScreener republication, Noel Randewich, May 25-26 2026.*
+
+---
+
 ## Alibaba Cloud
 
 China's largest cloud:

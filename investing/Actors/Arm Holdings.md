@@ -46,6 +46,16 @@ The questions that determine Arm's economic value are no longer about whether th
 
 ---
 
+## IPO aftermarket signal (Reuters May 2026)
+
+The May 25 [[Reuters]] [[SpaceX IPO 2026]] screen named [[Arm Holdings]] as one of the rare large recent IPOs that beat the market, with shares up about 400% from the September 2023 debut. The read-through is that public investors rewarded Arm only after the company moved from a steady smartphone-IP royalty story into a direct [[AI Infrastructure|AI-infrastructure]] scarcity story around data-center CPUs and in-house AGI CPU silicon.
+
+For the [[2026 IPO pipeline]], Arm is a positive comp but not a loose one. It supports rich multiples for companies that can credibly map themselves onto the AI compute bottleneck. It does not prove that mega-IPO scarcity alone is enough.
+
+*Source: [[Reuters]] / MarketScreener republication, Noel Randewich, May 25-26 2026.*
+
+---
+
 ## Sector correlation
 
 | Sector | ETF | Correlation |

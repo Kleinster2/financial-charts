@@ -1,8 +1,7 @@
 ---
 aliases: [Daniel Ives]
+tags: [analyst, tech, ai]
 ---
-#analyst #tech #ai
-
 Dan Ives — Wedbush Securities Managing Director, perma-bull tech analyst. Ubiquitous media presence, "AI is the biggest tech theme we've ever seen." Has his own AI ETF (IVES).
 
 ---
@@ -18,7 +17,7 @@ Dan Ives — Wedbush Securities Managing Director, perma-bull tech analyst. Ubiq
 
 ---
 
-## Profile
+## Quick stats
 
 | Attribute | Value |
 |-----------|-------|

@@ -1,13 +1,12 @@
 ---
 aliases: [Roubini, Dr. Doom]
+tags: [analyst, macro, commentator]
 ---
-#individual #macro #commentator
-
 Nouriel Roubini — "Dr. Doom." Predicted 2008 crisis when Wall Street dismissed him. NYU Stern professor emeritus. Now chairman of Roubini Macro Associates. Surprisingly bullish on US exceptionalism (2024-2026).
 
 ---
 
-## Overview
+## Quick stats
 
 | Metric | Value |
 |--------|-------|

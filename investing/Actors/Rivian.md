@@ -41,6 +41,8 @@ RIVN trades between Regional Banks and Consumer without a tight sector fit.
 
 *RIVN -85% from Nov 2021 IPO peak. [[Tesla]] roughly flat over the same period; [[Lucid]] -97%. R2 launch and VW JV are the catalysts for re-rating — but the stock remains a show-me story.*
 
+The May 25 2026 [[Reuters]] [[SpaceX IPO 2026]] screen used [[Rivian]] as a physical-product downside comp: the stock was down 82% from its 2021 IPO, after briefly becoming the second-most-valuable US automaker, and [[Reuters]] framed the company as still burning roughly $1B of cash per quarter. For the [[2026 IPO pipeline]], Rivian is the caution that a huge strategic narrative and real product demand do not protect public buyers if unit economics and capital intensity remain unresolved.
+
 ---
 
 ## Vehicle lineup

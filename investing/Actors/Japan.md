@@ -109,6 +109,30 @@ PM [[Sanae Takaichi]]'s March 19, 2026 summit with Trump is described by officia
 
 ---
 
+## 2026 rare-earth cutoff
+
+[[Reuters]]' May 22, 2026 customs-data review shows the [[China-Japan relations]] escalation turning into a materials bottleneck. Since December 2025, [[China]] had largely stopped exporting [[Dysprosium]], [[Terbium]], [[Yttrium|yttrium oxide]], and [[Gallium]] to [[Japan]], except for tiny yttrium shipments in March. Finished magnets still moved, so the pressure is not a blanket embargo; it is a choke on upstream inputs that Japan needs to maintain non-China magnet and materials production.
+
+Japan is better prepared than in the 2010 Senkaku rare earth shock, but not self-sufficient. [[JOGMEC]], trading houses, [[Lynas Rare Earths|Lynas]] backing, recycling, and stockpiles reduced dependence, yet Reuters' scale comparison remains tight: Lynas produced 8 metric tons of separated dysprosium / terbium in Q1 2026, while China exported roughly 14 tons per month of those elements to Japan in 2024. [[METI]] said stockpile releases are available if necessary.
+
+The portfolio read-through is staggered. [[Shin-Etsu]] appears closest to the input shortage through dysprosium magnets; [[TDK]] said it had no major impact yet and was diversifying sources; [[Mitsubishi Motors]] said it had secured required rare earths until around mid-2026. That maps the timing: materials suppliers first, auto and electronics end-users later as inventories roll down.
+
+*Source: [[Reuters]] via [MarketScreener](https://ca.marketscreener.com/news/china-squeezes-japan-over-rare-earths-in-repeat-of-2010-showdown-ce7f5adfdd8cf622), May 22, 2026.*
+
+---
+
+## 2026 Hormuz naphtha constraint
+
+*Source: [[Reuters]] via [MarketScreener](https://www.marketscreener.com/news/former-marubeni-ceo-warns-japan-could-face-chemical-product-shortages-from-late-june-ce7f5addd98bfe27), May 25, 2026.*
+
+The 2026 [[Strait of Hormuz]] crisis exposes Japan's petrochemical vulnerability more sharply than the headline crude-import dependency. [[Fumiya Kokubu]], former [[Marubeni]] CEO and current executive corporate adviser, warned at an [[IEEJ]] virtual seminar that Japan could face chemical-products shortages from around the end of June, or at latest from late August / September, if lost Middle East [[Naphtha]] supply is not replaced.
+
+The hard part is the double exposure. Japan had sourced about 40% of naphtha directly from the Middle East before the war, while another roughly 40% of domestic naphtha demand comes from domestic refining of crude that is itself about 95% Middle East-dependent. The result is that Japan's "domestic" naphtha channel is still Middle East supply-chain exposure, not a clean substitute.
+
+This adds a concrete bear-side channel to the Japan macro thesis. Reflation and corporate governance remain the structural bull case, but Japan is still a price-taking island economy for key energy and petrochemical inputs. A prolonged Hormuz disruption turns that into packaging, coatings, solvents, resins, and medical / consumer-goods availability risk, not merely higher oil import bills.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -175,11 +199,18 @@ Largest foreign holder of US [[Treasuries]]. Holdings: $325.8B (Mar 2000) → $1
 - [[SMBC]] — megabank, Apollo partnership
 - [[Private Credit]] — emerging financing channel for Japan
 - [[US-Japan Investment Framework]] — $550B deal, governance tensions
+- [[China-Japan relations]] — Taiwan-triggered escalation and rare-earth cutoff
+- [[Rare earth leverage]] — critical-minerals coercion mechanism
+- [[JOGMEC]] — stockpile / diversification agency
+- [[METI]] — industry ministry
+- [[Lynas Rare Earths]] — non-China rare-earth supply source
 - [[JBIC]] — government policy bank, deal funder
 - [[Nexi]] — export credit agency, deal guarantor
 - [[SoftBank]] — first project developer (Portsmouth gas plant)
 - [[Masayoshi Son]] — deal architect, direct Trump access
 - [[GPIF]] — $1.7T pension fund
+- [[Naphtha]] — petrochemical feedstock exposed to Middle East supply
+- [[2026 Strait of Hormuz crisis]] — crisis creating Japan's naphtha constraint
 
 ### Cross-vault
 - [History: Japanese asset price bubble](obsidian://open?vault=history&file=Events%2FJapanese%20asset%20price%20bubble) — 1980s bubble mechanics and aftermath *(create if missing)*

@@ -35,6 +35,12 @@ Suez is one of the three pivotal maritime chokepoints regularly tracked for trad
 
 In Apr 2026, FT reporting on [[Pistachio market|pistachios]] cited Iranian land-rerouting via [[Turkey]]/[[Mersin]] and Suez Canal transit to [[India]] as one of the active alternatives to the disrupted [[Bandar Abbas]] route, at "significantly more expensive and time-consuming" cost.
 
+## May 2026 visual-story extraction
+
+The FT's May 24 chokepoint visual story uses Suez as the clean blockage example. The extracted [[MarineTraffic]] / [[IMF PortWatch]] chart compares Mar 17-21, 2021 with Mar 24-28, 2021, showing the temporary transit halt around the [[Ever Given]] grounding. The article pairs that with the post-2023 [[Houthis|Houthi]] disruption: a short physical blockage produced a temporary shock, while a persistent security risk pushed many carriers into the [[Cape of Good Hope]] route for much longer.
+
+The investing read is that Suez is a long-reroute chokepoint. Disruption raises freight, absorbs vessel capacity, and hits [[Egypt]] toll revenue, but the system has a costly relief valve. That is different from [[Strait of Hormuz]], where much trade has no true seaborne alternative.
+
 ---
 
 ## Related
@@ -46,3 +52,4 @@ In Apr 2026, FT reporting on [[Pistachio market|pistachios]] cited Iranian land-
 - [[Mersin]] — Turkish port using Suez for Asia-bound transit
 - [[Pistachio market]] — Apr 2026 reroute case
 - [[Iran conflict supply chain cascade]] — broader disruption event
+- [[Maritime chokepoint dependency]] — rerouting framework

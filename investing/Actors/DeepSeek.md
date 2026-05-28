@@ -74,9 +74,9 @@ NVIDIA assistance allegations (Jan 28, 2026):
 
 ---
 
-## V4 release + 75% price cut (Apr 24-27, 2026)
+## V4 release + permanent 75% price cut (Apr-May 2026)
 
-DeepSeek released [[DeepSeek-V|V4-Pro]] and V4-Flash in preview on Apr 24, 2026 — the company's first significant model launch since December 2025. On Apr 27, DeepSeek announced major API price reductions: input cache hit fees cut to one-tenth of original price, plus a 75% promotional discount on V4-Pro through May 5.
+DeepSeek released [[DeepSeek-V|V4-Pro]] and V4-Flash in preview on Apr 24, 2026 — the company's first significant model launch since December 2025. On Apr 27, DeepSeek announced major API price reductions: input cache-hit fees cut to one-tenth of original price, plus a 75% V4-Pro discount. On May 23, [[Reuters]] reported that DeepSeek would make the V4-Pro cut permanent; the official DeepSeek pricing page now says V4-Pro API pricing will be formally adjusted to one quarter of the original price after the promotional window ends on May 31, 2026.
 
 | V4-Pro spec | Value |
 |---|---|
@@ -86,12 +86,17 @@ DeepSeek released [[DeepSeek-V|V4-Pro]] and V4-Flash in preview on Apr 24, 2026 
 | Math/coding benchmarks | Beats all rival open-weight models |
 | World knowledge | Trails only [[Google]] [[Gemini]] 3.1-Pro (closed) |
 
-Promotional pricing (through May 5):
-- V4-Pro input cache hit: 0.025 yuan (~$0.0036) per million tokens
-- Standard input: 3 yuan per million tokens
-- Standard output: 6 yuan per million tokens
+Permanent V4-Pro API pricing:
+
+| Usage type | Permanent CNY / 1M tokens | Official USD / 1M tokens |
+|---|---:|---:|
+| Input, cache hit | 0.025 yuan | $0.003625 |
+| Input, cache miss | 3 yuan | $0.435 |
+| Output | 6 yuan | $0.87 |
 
 Western competitor output prices for comparable tier: $12-25 per million tokens. The DeepSeek pricing is roughly an order of magnitude undercut.
+
+[[Reuters]] noted that DeepSeek did not disclose whether the permanent cut reflected improved [[Huawei]] [[Ascend]] 950 supply. That caveat matters: when V4 launched, DeepSeek had framed Pro as compute-constrained and more expensive than Flash because of high-end capacity scarcity, with sharper price declines expected only once Ascend 950 supernodes scale in the second half of 2026. The May 23 update pulls the commercial price floor forward before that supply claim is externally proven.
 
 ### Independent benchmarks ([[Artificial Analysis]], Apr 2026)
 
@@ -108,7 +113,7 @@ Comparison cost data point: [[Anthropic]] Claude Opus 4.7 costs $4,811 to run th
 
 Implication for [[AI capex arms race]] and [[Inference economics]]: the [[China]] cost-floor on inference continues to compress. Combined with [[Anthropic]]'s and [[OpenAI]]'s gross-margin pressure (33% at OpenAI), the structural question is whether US frontier labs can sustain pricing in markets where DeepSeek is available. The "[[DeepSeek day]]" thesis from Jan 2025 — that Chinese open-weight models would commoditize inference — extends with this release. Independent benchmark validation has now landed (Artificial Analysis, Apr 2026): the math/coding wins are confirmed; world-knowledge trails Gemini 3.1-Pro; hallucination rate is the binding capability constraint.
 
-*Source: Bloomberg ("DeepSeek Slashes Fees for New AI Model in Chinese Price War"), Reuters via Investing.com, Dataconomy, TechBriefly; Apr 27, 2026.*
+*Sources: Bloomberg ("DeepSeek Slashes Fees for New AI Model in Chinese Price War"), [[Reuters]] via Investing.com / MarketScreener, DeepSeek API pricing docs, Dataconomy, TechBriefly; Apr-May 2026.*
 
 ---
 
@@ -335,7 +340,7 @@ Thesis implications:
 
 ---
 
-*Updated 2026-04-25*
+*Updated 2026-05-25*
 
 ---
 

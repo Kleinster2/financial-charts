@@ -6,7 +6,7 @@ aliases: [Lyn Alden Schwartzer]
 
 # Lyn Alden
 
-## Quick Stats
+## Quick stats
 
 | Field | Detail |
 |-------|--------|

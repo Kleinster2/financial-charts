@@ -1,8 +1,7 @@
 ---
 aliases: [Richard Greenfield, RichLightShed]
+tags: [analyst, media, streaming, usa]
 ---
-#individual #analyst #media #streaming #usa
-
 **Rich Greenfield** — Co-founder and Partner at [[LightShed Partners]] (est. 2019). One of the most visible and opinionated media/TMT equity analysts on [[Wall Street consensus|Wall Street]]. Known for calling the secular decline of [[Linear TV]] years before consensus, persistent [[Netflix]] bullishness, and willingness to take controversial positions (including the $0.01 [[AMC Entertainment]] price target during the 2021 meme stock frenzy).
 
 ---

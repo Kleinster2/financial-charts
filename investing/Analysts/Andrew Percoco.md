@@ -2,8 +2,6 @@
 aliases: [Andrew Percoco]
 tags: [analyst, person, morgan-stanley, energy-storage, ev]
 ---
-#analyst #person #usa
-
 # Andrew Percoco
 
 [[Morgan Stanley]] equity research analyst covering clean energy and energy transition. Coverage universe includes [[Ford]] (energy-storage subsidiary), residential and commercial solar, battery storage, and grid infrastructure. Notable on the May 12, 2026 [[Ford]] note that re-framed Ford Energy as "an overlooked catalyst in Model e's journey toward profitability."

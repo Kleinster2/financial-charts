@@ -65,6 +65,18 @@ This finding reinforces the [[Private Credit Software Concentration]] story: BDC
 
 ---
 
+## Hyperscaler FCF definition risk (May 2026)
+
+The May 8 FT / [[Visible Alpha]] capex story adds an accounting-risk layer to the financing-risk note. The headline is not just that Big 4 free cash flow is expected to fall near a decade low. It is that "free cash flow" itself is non-standard, while the AI buildout is increasingly financed through leases, off-balance-sheet data-center vehicles, and project-level debt.
+
+[[Christian Leuz]]'s warning is the useful accounting frame: the economic free cash flow of hyperscalers may be worse than reported if leased data centers, share-based compensation, and project-finance obligations are not treated consistently. That matters for credit analysis because the buildout can look cleaner at the parent-company level while risk migrates into SPVs, suppliers, banks, private-credit funds, or long-term offtake commitments.
+
+Risk test: when a hyperscaler reports FCF improvement, check whether the improvement came from higher operating cash conversion or from moving infrastructure outside the parent-company cash-flow statement.
+
+*Source: [FT article](https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494), May 8 2026.*
+
+---
+
 ## Overbuild warnings
 
 The bears:

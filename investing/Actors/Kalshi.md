@@ -1,6 +1,6 @@
 #actor #fintech #private
 
-[[Kalshi]] — First federally regulated [[prediction markets|prediction market]] in the US. CFTC-licensed Designated Contract Market (DCM) since 2020. Founded by [[Tarek Mansour]] and [[Luana Lopes Lara]]. $22B valuation (May 7, 2026, [[Coatue Management]]-led Series F — doubled from $11B Series E in five months). ~$1.5B annualized revenue.
+[[Kalshi]] — First federally regulated [[Prediction markets|prediction market]] in the US. CFTC-licensed Designated Contract Market (DCM) since 2020. Founded by [[Tarek Mansour]] and [[Luana Lopes Lara]]. $22B valuation (May 7, 2026, [[Coatue Management]]-led Series F — doubled from $11B Series E in five months). ~$1.5B annualized revenue.
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Metric | Value |
 |--------|-------|
-| **Valuation** | $22B (Mar 2026) |
+| **Valuation** | $22B (May 7, 2026) |
 | **Total raised** | ~$2.6B |
 | **Ann. revenue** | ~$1.5B run rate (Mar 2026) |
 | **Open interest** | $400M+ (Mar 2026) |
@@ -146,6 +146,23 @@ As of January 2026, [[DRW]], [[Jump Trading]], and [[Flow Traders]] also trading
 
 Source: FT (Jan 14, 2026)
 
+### Retail sharps and institutional access (May 2026)
+
+The May 26, 2026 NYT Magazine profile reframes Kalshi's market-maker program as the point where retail specialist alpha meets professional liquidity provision. The strongest retail examples were not broad-market traders; they were niche information specialists in culture and music markets, using public but under-modeled data to price contracts that large firms had not yet standardized.
+
+For Kalshi, the significance is two-sided:
+
+| Mechanism | Why it matters |
+|-----------|----------------|
+| [[Susquehanna]] as standing liquidity provider | Sharp traders can win directly from the market maker when small, bespoke markets are mispriced |
+| Hedge-fund client demand | Jeff Yass told NYT that large-money clients are increasingly interested because event contracts can hedge risks that traditional assets express only indirectly |
+| Prime-broker access | Clear Street and Marex were identified as building Kalshi access for hedge-fund clients, turning prediction markets into a prime-brokered workflow rather than a retail-only app |
+| Regulatory trigger | Yass framed the institutional flood as dependent on further [[CFTC]] clarification, matching the Series F use-of-proceeds focus on hedge funds, asset managers, prop firms, insurers, block trades, and broker integrations |
+
+This is the same transition visible in the Series F metrics: institutional volume up 800% in six months, annualized platform volume up from $52B to $178B, and Morgan Stanley joining the cap table. The retail-sharp story is real, but the direction of travel is institutionalization.
+
+*Sources: Adam Iscoe, NYT Magazine, "The Average Guys Outsmarting Wall Street on Prediction Markets," May 26, 2026; Kalshi Series F announcement, May 7, 2026.*
+
 ---
 
 ## Media partnerships
@@ -180,18 +197,6 @@ Source: FT (Mar 13, 2026)
 The pitch: probabilistic, forward-looking risk signals embedded directly in institutional trading workflows — macro traders see real-time event probabilities alongside rates and credit. This is Kalshi's institutional legitimacy play — moving beyond retail/sports into the kind of data product that desks would actually pay for.
 
 Source: Tradeweb press release (Feb 19, 2026)
-
----
-
-## Series F — $1B+ at $22B (Mar 2026)
-
-[[Coatue Management]]-led round closed at $22B valuation, doubling from $11B in three months (Bloomberg, Mar 19). Annualized revenue run rate: $1.5B. Open interest: $400M+ vs [[Polymarket]]'s $360M.
-
-The round closed despite escalating state-level legal attacks (see below) — investor appetite for prediction market exposure outweighing regulatory risk. [[Polymarket]] independently pursuing a similar ~$20B valuation (WSJ, Mar 7).
-
-Valuation trajectory: $5B (Oct 2025) → $11B (Dec 2025) → $22B (Mar 2026). 4.4x in five months.
-
-Source: Bloomberg (Tsekova/Beyoud, Mar 19, 2026)
 
 ---
 

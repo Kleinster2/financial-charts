@@ -126,6 +126,14 @@ The distinction matters. Ascend's biggest weakness has been CUDA ecosystem depth
 
 ---
 
+## May 2026: LogicFolding roadmap
+
+Huawei's May 2026 [[Tau Scaling Law]] announcement adds a second path to the Ascend story. The near-term test is [[Kirin]] in fall 2026, but Reuters reported that [[LogicFolding]] is also planned for [[Ascend]] chips and large AI clusters by around 2030.
+
+That matters because Ascend's competitive gap is not only a chip spec gap; it is a system-efficiency gap against [[NVIDIA]]'s GPU, NVLink, CUDA, and data-center stack. If Tau Scaling can shorten data movement and reduce latency at chip and cluster level, Huawei can make more useful systems out of [[SMIC]]-fabricated chips that still trail TSMC nodes. The caveat is the same as before: power, heat, tooling, and integration decide whether the architecture scales beyond a conference roadmap.
+
+---
+
 ## Manufacturing
 
 | Aspect | Details |
@@ -192,3 +200,6 @@ Huawei closing gap but still behind NVIDIA's current generation.
 - [[Biren]] — Chinese competitor
 - [[GLM]] — trained on Ascend-only
 - [[China]] — market context
+- [[Tau Scaling Law]] — Huawei's post-node scaling framework
+- [[LogicFolding]] — roadmap architecture planned for Ascend clusters
+- [[Kirin]] — first planned commercial test before Ascend adoption

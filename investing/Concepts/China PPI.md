@@ -34,6 +34,12 @@ PPI is a composite across manufacturing, extraction, and utilities. [[NBS]] trac
 3. Puts Beijing in a bind: [[PBOC]] easing cycle runs into imported cost inflation; stimulus could compound the problem.
 4. Signals [[China PPI]] has become a war-premium transmission channel, not just a demand-cycle indicator.
 
+## Profit pass-through (April 2026)
+
+April 2026 confirmed the pass-through. [[NBS]] reported PPI at +2.8% year on year and +1.7% month on month, with producer purchasing prices +3.5% year on year and +2.1% month on month. Means-of-production prices drove the move: mining and quarrying was +10.6% year on year, raw materials +7.1%, and processing +1.5%, while consumer-goods producer prices were still -1.0%.
+
+That split explains why industrial profits could rebound without a broad consumer-demand recovery. The May 27 industrial-profits release showed profits at industrial enterprises above the designated size up 18.2% in January-April and 24.7% in April alone. NBS explicitly tied the profit acceleration to recovering industrial-product prices, lower unit costs, and sectors exposed to raw materials, high-tech manufacturing, and electronics. PPI is therefore acting as a margin-relief channel for upstream and industrial firms, not yet as evidence of healthy final demand.
+
 ## Historical context
 
 | Year | PPI yoy trajectory | Driver |
@@ -42,6 +48,7 @@ PPI is a composite across manufacturing, extraction, and utilities. [[NBS]] trac
 | 2022 mid | Peak | Russia-Ukraine feedstock shock |
 | 2022 late - 2026 Feb | Negative | Property crash, industrial overcapacity, weak domestic demand |
 | March 2026 | +0.5% yoy; Q1 still -0.6% | Iran war feedstock shock (not a demand recovery) |
+| April 2026 | +2.8% yoy; +1.7% mom; Jan-Apr average +0.2% | Commodity/feedstock pass-through begins supporting industrial profits |
 
 ## 2026 Hormuz crisis — commodity drivers
 
@@ -69,6 +76,7 @@ Key factory-gate price moves through April 11 2026 (NBS / Wind via FT):
 | Frequency | Monthly |
 | Market coverage | 300+ markets, ~2,000 wholesalers / agents / dealers |
 | March 2026 milestone | +0.5% yoy; first positive monthly year-on-year reading since 2022 |
+| April 2026 print | +2.8% yoy; +1.7% mom; Jan-Apr average +0.2% |
 | Driver | Iran war feedstock shock, not demand recovery |
 | Source of March 2026 framing | [[FT]] Edward White, April 11 2026 |
 

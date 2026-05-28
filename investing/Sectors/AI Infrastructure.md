@@ -150,6 +150,7 @@ The trade for this hub is [[AI infrastructure financing]] — capital providers 
 - [[Anthropic hyperscaler financing surge April 2026]] — cross-layer financing case
 - [[Training-to-inference cluster rotation]] — cluster-asset rotation framework
 - [[Anthropic vs OpenAI compute race]] — capacity-procurement contest
+- [[Situational Awareness LP]] — AI-infrastructure investor whose 13F separates bottleneck longs from crowded semiconductor-beta hedges
 
 ## Sources
 

@@ -1,8 +1,7 @@
 ---
 aliases: [Currie, Jeffrey Currie]
+tags: [analyst, commodities, supercycle]
 ---
-#analyst #commodities #supercycle
-
 **Jeff Currie** — Chief Strategy Officer, Energy Pathways at [[Carlyle]]. Former Global Head of Commodities Research at [[Goldman Sachs]] (1996-2023). The most prominent supercycle bull on Wall Street. Called the 2000s commodity boom, the shale "lower for longer" period, and the current metals supercycle starting late 2020.
 
 ---
@@ -181,6 +180,26 @@ Currie identified diesel, jet fuel, and LPG as the most vulnerable products beca
 This pairs directly with [[US Energy Independence Six Countries|Prandelli's September buffer-depletion clock]], but pulls the stress date forward for refined products. The analytical reconciliation: systemwide crude+product buffer exhaustion may be a September problem, while specific refined-product categories can hit critical stress by early July because they are not fungible with generic crude barrels.
 
 *Sources: Bloomberg Television video, May 6, 2026; EFE/Infobae summary, May 6, 2026.*
+
+### Bloomberg / Brazil Journal (May 19-20, 2026) — AI trade as oil majors
+
+Currie's latest articulation turns the AI capex boom back into an old-economy trade. The claim is not that AI demand is fake. It is that the market is overpaying for the companies writing the capex checks and underpaying for the physical assets needed to make those checks productive.
+
+Core points:
+
+| Claim | Currie's framing |
+|---|---|
+| Trade label | "Munificent Seven" oil majors: [[Exxon|ExxonMobil]], [[Chevron]], [[ConocoPhillips]], [[Shell]], [[TotalEnergies]], [[BP]], [[Equinor]] |
+| Relative yield | Oil majors around 15.5% free-cash-flow yield versus effectively zero for hyperscalers after capex |
+| AI input logic | AI is data plus commodities: electrons still need molecules, grid equipment, turbines, copper, fuel, and physical infrastructure |
+| Capital imbalance | Hyperscaler capex is enormous, while upstream/refining/commodity capex has been capital-starved for years |
+| Portfolio rotation | Tech weight near 43% of the [[S&P 500]] versus energy/materials near 6%; a neutralization of that gap could force a multi-trillion-dollar rotation |
+
+This is the cleanest bridge between Currie's HALO / "revenge of the old economy" framework and the AI trade. He is effectively saying the AI capex arms race validates the commodity supercycle: every additional data center intensifies demand for the scarce old-economy assets that the prior tech cycle underfunded.
+
+The useful contrast is [[Morgan Stanley]]'s May 2026 midyear outlook. Morgan Stanley treats AI infrastructure capex as a support for risk assets and S&P earnings. Currie treats the same capex as a demand shock for energy and materials. The disagreement is over where the rents settle, not over whether AI spending continues.
+
+*Source: [Brazil Journal summary of Currie's Bloomberg-linked May 2026 comments](https://braziljournal.com/maior-trade-de-ai-sao-petroleiras-nao-big-techs/), May 19 2026.*
 
 ### "Reverse COVID" framing — with Amrita Sen (CNBC, March 23)
 

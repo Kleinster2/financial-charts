@@ -1,8 +1,7 @@
 ---
 aliases: [Rasgon]
+tags: [analyst, semiconductors]
 ---
-#analyst #semiconductors
-
 Stacy Rasgon — Bernstein's semiconductor analyst. PhD in plasma etch, built actual chip equipment before covering stocks. The "grown-up in the room" for semi analysis — rigorous, data-driven, not a hype machine.
 
 ---
@@ -18,7 +17,7 @@ Stacy Rasgon — Bernstein's semiconductor analyst. PhD in plasma etch, built ac
 
 ---
 
-## Profile
+## Quick stats
 
 | Attribute | Value |
 |-----------|-------|

@@ -1,11 +1,12 @@
 ---
+aliases: [Evans]
 tags: [analyst, tech, independent]
 type: person
 ---
 
 # Benedict Evans
 
-## Quick Stats
+## Quick stats
 
 | Field | Detail |
 |-------|--------|

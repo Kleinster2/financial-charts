@@ -5,7 +5,7 @@ aliases: [PDD, Pinduoduo, Temu]
 
 # PDD Holdings
 
-**Chinese e-commerce giant** — owns Pinduoduo (China domestic) and Temu (international ultra-cheap marketplace). RMB 393.8B (~$54B) revenue (2024, **+59%**), RMB 112.4B (~$15B) net income (+87%). Temu reached ~$48B GMV in 2024, expanding to 80+ countries. Trading at **8.6x PE** — one of the cheapest large-cap tech stocks globally. De minimis tariff loophole under threat. Founded by Colin Huang (now stepped back), China's richest person at times.
+**Chinese e-commerce giant** — owns Pinduoduo (China domestic) and Temu (international ultra-cheap marketplace). Growth has slowed sharply from the 2024 boom: Q1 2026 revenue rose 11% YoY to RMB106.2B, but missed LSEG consensus, while GAAP net income fell 15% as supply-chain and first-party brand investment rose. PDD closed down 10.4% on May 27, 2026, an estimated -7.0σ beta-adjusted move. Bull case: RMB436B cash/short-term investments, Temu scale, and a still-profitable transaction-services engine. Bear case: China demand softness, Alibaba/JD/Douyin discount pressure, and de minimis/tariff changes in the US/EU force a lower-growth, lower-margin model.
 
 ---
 
@@ -27,12 +27,12 @@ PDD shows moderate China Internet correlation (KWEB r = 0.67).
 | Metric | Value |
 |--------|-------|
 | Ticker | PDD (NASDAQ) |
-| Market cap | ~$150B |
-| Revenue (2024) | RMB 393.8B (~$54B) |
-| Revenue growth (2024) | **+59%** |
-| Net income (2024) | RMB 112.4B (~$15B, +87%) |
-| Cash reserves | RMB 331.6B (~$45B) |
-| PE ratio | **8.6x** |
+| Market cap | ~$123B (May 27 2026 close) |
+| Revenue (2025) | RMB 431.9B |
+| Q1 2026 revenue | RMB 106.2B (+11% YoY) |
+| Q1 2026 net income | RMB 12.5B (-15% YoY) |
+| Cash and short-term investments | RMB 436.1B (~$63.2B) |
+| PE ratio | ~10x |
 | Founder | Colin Huang (stepped back) |
 | HQ | Dublin (legal), Shanghai (ops) |
 
@@ -48,6 +48,18 @@ PDD shows moderate China Internet correlation (KWEB r = 0.67).
 | Net margin | 24% | 24% | 29% |
 
 Extraordinary growth and profitability. Revenue nearly tripled in two years.
+
+---
+
+## Q1 2026 — revenue miss and profit reset
+
+PDD reported Q1 2026 revenue of RMB106.2B, up 11% YoY, with transaction-services revenue up 20% to RMB56.3B and online-marketing revenue roughly flat at RMB49.9B. The issue was not a collapse; it was the mismatch between a still-large business and investor expectations formed during the 2023-2024 hypergrowth phase. Reuters reported the revenue line missed the LSEG estimate of RMB109.33B, and the stock closed at $86.61, down 10.4% on May 27, an estimated -7.0σ beta-adjusted move using local history through May 1 as the volatility baseline.
+
+Profitability is becoming the live debate. GAAP net income attributable to ordinary shareholders fell 15% to RMB12.5B, non-GAAP net income fell 17% to RMB14.1B, and non-GAAP diluted EPS fell to RMB9.51 from RMB11.41. Management framed the pressure as intentional supply-chain and first-party brand investment, but the market is treating that spending as a lower-margin transition in a tougher China consumer environment.
+
+The Temu regulatory story also moved from "risk" to "model stress." Reuters noted that the US ended the sub-$800 duty-free exemption last year and the EU has agreed to end its under-EUR150 duty-free allowance from July 2026. PDD can still use cash, logistics scale, and merchant density to adapt, but the old cheap-cross-border-arbitrage version of Temu is no longer the clean base case.
+
+*Sources: [PDD Q1 2026 release](https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-first-quarter-2026-unaudited-financial); [Reuters via MarketScreener, May 27 2026](https://www.marketscreener.com/news/china-s-pdd-misses-quarterly-revenue-estimates-ce7f5ad2d08cf720); [StockAnalysis PDD quote, May 27 2026 close](https://stockanalysis.com/stocks/pdd/).*
 
 ---
 
@@ -119,6 +131,21 @@ Pinduoduo is \#3 in China e-commerce (behind [[Alibaba]], JD.com) but growing fa
 - Product quality/safety concerns
 - China tech regulation uncertainty
 - Tariff escalation under new US administration
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | PDD |
+| Market cap | ~$123B |
+| Q1 2026 revenue | RMB 106.2B |
+| Q1 2026 net income | RMB 12.5B |
+| Cash and short-term investments | RMB 436.1B |
+| Platforms | Pinduoduo, [[Temu]] |
+
+*Updated 2026-05-27*
 
 ---
 

@@ -350,7 +350,7 @@ Net-new color from the Bloomberg companion piece "The Global Bond Rout Catches U
 | Equity sequence | Despite Friday's drawdown, S&P 500 closed 7th consecutive week of gains |
 | Multilateral convening | G7 finance chiefs set to discuss the global bond selloff |
 | Credit spreads | IG + HY spreads stayed firm through Thursday — earnings + robust primary-market demand cited |
-| Swaps curve repricing | Now pricing a **full 25 bp Fed rate hike by March 2026** policy meeting — Bloomberg chart shows the May 15 curve crossing the +25bp hike line into the 2027 peak |
+| Swaps curve repricing | Now pricing a full 25 bp Fed rate hike by March 2026 policy meeting — Bloomberg chart shows the May 15 curve crossing the +25bp hike line into the 2027 peak |
 | 10Y 5.00% threshold | Lori Calvasina (RBC): bullish US-equity calls "will be challenged if Treasury 10-year yields hit 5%" — historically compresses equity multiples |
 | Bond-as-hedge breakdown | David Lebovitz (JPMAM): bonds no longer hedge equities when inflation is the dominant risk; JPMAM prefers real assets (real estate + infrastructure) |
 | Retail positioning | BofA private clients ($4.5T AUM): record 65.7% in equities; cash allocation at record-low 9.8% |
@@ -395,6 +395,35 @@ The Brooks framework is now the canonical articulation of the bond-market dynami
 *Source: [Robin J. Brooks, "Four Charts for Sunday," Shadow Price Macro Substack, May 17 2026](https://robinjbrooks.substack.com/p/four-charts-for-sunday-575); [Robin J. Brooks, "'Liz Truss' Bond Market Blow-Ups," Shadow Price Macro Substack, May 18 2026](https://robinjbrooks.substack.com/p/liz-truss-bond-market-blow-ups); [Robin J. Brooks, "A Moment of Truth for Gold," Shadow Price Macro Substack, May 16 2026](https://robinjbrooks.substack.com/p/the-moment-of-truth-for-gold).*
 
 *Source (parallel): [The Global Bond Rout Catches Up With Wall Street's Risk Rally](https://www.bloomberg.com/), Bloomberg, May 15 2026 (4:30 PM EDT), by Denitsa Tsekova and Isabelle Lee.*
+
+### May 24, 2026 -- Treasury rout becomes a Washington tolerance test
+
+Reuters' May 24 Washington / rates piece is the next leg of the same chain. The May 15 move above documented the cross-market repricing; by May 24 the question had shifted to political tolerance. A White House official told Reuters that staff were anxious about gasoline prices and the bond market. The administration wants lower borrowing costs and lower fuel prices before the November midterms, but the war is pushing in the opposite direction: oil keeps inflation risk alive, the long end sells off, and the higher risk-free rate passes into mortgages, credit cards, and business loans.
+
+The market levels tie the narrative back to the vault's rates tracker. Reuters reported the 10-year yield touched 4.69% earlier in the week, the highest since January 2025, and had risen more than 50 bp since the February 28 start of the US-Israeli war with Iran before last trading at 4.56%. The local FRED series already captured the close-through: DGS10 at 4.67% and DGS30 at 5.18% on May 19. The 10-year breakeven at 2.49% means the move was still not simply a long-run inflation-expectations break.
+
+The political constraint is asymmetric. If a peace deal arrives, Bessent's "temporary long-end disruption" framing may prove right and the move can fade. If the war persists and yields move toward the 5% pain threshold that Reuters' sources identified, Washington has fewer clean tools. Direct pressure on the [[Federal Reserve]] to cut would undermine inflation credibility; Treasury debt-management tricks can smooth supply but cannot erase a real-yield repricing; and fiscal expansion ahead of the midterms would amplify the deficit premium the market is already sensitive to. This is the point where the Iran-war market note overlaps with [[Fiscal Dominance]]: the war exposes how little policy room exists when debt service, energy prices, and electoral affordability all bind at once.
+
+Source: Reuters, [US Treasury rout tests Washington's tolerance for higher borrowing costs](https://wtvbam.com/2026/05/24/analysis-us-treasury-rout-tests-washingtons-tolerance-for-higher-borrowing-costs/), May 24 2026; FRED DGS10 / DGS30 / T10YIE via local `prices_long`, checked May 25 2026.
+
+### May 27, 2026 -- Reuters winners/losers scoreboard
+
+[[Reuters]]' May 27 graphic turns the war from a single "oil shock" story into a cleaner cross-asset split. Three months in, the winners are the assets with direct scarcity value or secular AI demand; the losers are energy importers, consumer-discretionary exposures, airlines, and long-duration bonds. The same conflict can push [[Oil]] and the [[US dollar]] up, leave the [[S&P 500]] at records through AI optimism, and still hammer [[Indian rupee|INR]], [[Indonesia|IDR]], [[Philippines|PHP]], airlines, luxury, and duration.
+
+| Bucket | Reuters May 27 signal | Market read |
+|--------|------------------------|-------------|
+| Oil / physical energy | Crude prices roughly 40% above pre-war; physical crude well above $100/bbl; early-April physical prices nearly double pre-war; major economies released a record 400M barrels from strategic reserves | The supply shock is being cushioned, not solved. Inventory releases and substitute sourcing slow the squeeze but do not reopen [[Strait of Hormuz]]. |
+| AI stocks / Korea | U.S. stocks and [[Kospi]] at records; European shares near records; [[SK Hynix]] topped $1T market value for the first time, joining [[Samsung]] and [[Micron]] | AI earnings duration is offsetting the near-term energy shock in the equity index tape, especially where memory is the index driver. |
+| Airlines | S&P 500 passenger-airline index down more than 6% since the conflict began | The route-disruption and fuel-cost thesis remains intact even as broad equities rally. This is the clean loser leg of the public-equity basket. |
+| Luxury / discretionary | Global luxury basket down 10%; HSBC Private Bank underweight consumer-related goods and services as conflict hedge | Inflation is starting to hit the aspirational/discretionary demand sleeve while wealthy U.S. AI-linked households cushion only part of the consumer complex. |
+| FX | Dollar +1.5% vs majors; outperforming Swiss franc and yen; INR, IDR, and PHP at record lows; Sri Lanka hiked 100 bp; yuan held up on domestic energy reserves | The war is a terms-of-trade shock first. The dollar benefits tactically from safe-haven demand and higher U.S. yields, while Asian oil importers pay the balance-of-payments bill. |
+| Macro / bonds | Eurozone PMI contracted at the sharpest rate in more than 2.5 years; U.S. gasoline hit $4.56/gal; U.S. 30Y traded above 5%, highest since 2007; Bund yields highest in more than 15 years; at least two ECB hikes priced by year-end | The second-order trade is now policy-rate and long-end repricing. Energy inflation is forcing central banks toward tighter reaction functions even as growth slows. |
+
+The structural read is time-frame divergence. Oil, FX, bonds, airlines, and luxury are pricing a 3-6 month physical shock; AI semis and U.S./Korean equity leadership are pricing a 1-3 year productivity and capex cycle. That is why the tape looks inconsistent but is internally coherent: one war is being priced through several clocks at once.
+
+Chart handling: [[Reuters]] packaged the piece as a graphic; the vault extraction above converts the visible chart/article values into a text table and does not copy the Reuters image.
+
+Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
 
 ---
 
@@ -446,6 +475,7 @@ Two major expert panels produced the deepest structural analysis:
 ### Treasury market / capital flows
 - [[Basis trade]] — third stress test (after 2020, 2025); some crowded trades flushed out but no systemic unwinding
 - [[Scott Bessent]] — $10T rollover facing hedge-fund-dependent demand; "numerous tricks" to maintain calm
+- [[Treasuries]] — May 24 2026 borrowing-cost tolerance test; 10Y touched 4.69% as Iran-war inflation risk met fiscal term-premium pressure
 - [[De-dollarization]] — central banks sold $82B Treasuries (Fed custody at 2012 low); Iran demanding yuan/crypto for Hormuz passage
 - [[Dollar reserve status erosion]] — foreign ownership <30% (from 46% in 2008); compositional shift to hedge funds
 - [[Hedge fund capital concentration]] — Cayman Islands as largest foreign UST holder (NY Fed); 37% of net issuance

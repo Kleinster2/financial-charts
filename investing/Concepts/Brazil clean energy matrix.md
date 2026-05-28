@@ -13,6 +13,8 @@ aliases: [Brazilian energy matrix, Brazil renewable energy, Brazil clean energy]
 
 The investment implication becomes concrete as carbon border pricing mechanisms deploy. The [[EU]]'s [[CBAM]] (phasing in 2026-2034) will impose carbon costs on imports from high-emission countries, directly advantaging producers in low-emission grids. [[Brazil]]ian steel, aluminum, pulp, and cement — all produced on renewable electricity — will face structurally lower carbon border costs than competitors from [[China]], [[India]], or even the US. This is a durable competitive advantage that scales with carbon price ambition globally.
 
+The May 2026 [[BTG Pactual]] AgroForum panel added a compute angle to the same thesis. [[Andre Esteves]] argued that Brazil's clean, relatively cheap power should be treated as an industrial input for domestic data centers and sovereign cloud, not just as a climate credential. That does not make Brazil an AI-chip manufacturing base; it points to resource-linked digital infrastructure where the energy advantage is local and defensible.
+
 The bear case: hydropower dependency creates drought vulnerability (the 2021 water crisis forced thermal backup, spiking electricity prices), and high real interest rates ([[Selic]] at 15%) compress returns on capital-intensive renewable projects.
 
 ---

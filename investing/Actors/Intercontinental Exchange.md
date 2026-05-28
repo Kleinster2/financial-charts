@@ -68,9 +68,19 @@ ICE shows moderate Financials correlation (XLF r = 0.62).
 | 2020 | Ellie Mae | $11B | Mortgage origination |
 | 2023 | **Black Knight** | $11.7B | Mortgage servicing |
 | 2025 | American Financial Exchange | — | AMERIBOR |
-| 2025 | Polymarket (investment) | $2B at $8B val | Event contracts data |
+| 2025-2026 | [[Polymarket]] (investment) | $1.6B disclosed direct cash investment; up to $40M expected secondary purchases | Event-contract data and venue optionality |
 
 **NYSE (2013):** Spun off Euronext (2014), kept NYSE + LIFFE (now ICE Futures [[Europe]]).
+
+---
+
+## [[Prediction markets]] and Polymarket
+
+ICE's Polymarket investment is best read as a data-and-venue option rather than a near-term earnings event. ICE disclosed a $1B initial direct investment in Oct 2025 and a further $600M direct cash investment on Mar 27, 2026; it also expected to buy up to $40M of Polymarket securities from existing holders. ICE said the investments were not expected to have a material impact on its financial results or capital-return plans.
+
+The strategic fit is clear: ICE already owns exchanges, clearing houses, data services, and the NYSE brand. Polymarket gives it exposure to event-probability data and retail/institutional demand for contracts that sit between derivatives, wagering, and information markets. The regulatory question is still unresolved, but the investment positions ICE before the market's final US shape is known.
+
+*Sources: ICE press release, Mar 27, 2026; Adam Iscoe, NYT Magazine, "The Average Guys Outsmarting Wall Street on Prediction Markets," May 26, 2026.*
 
 ---
 

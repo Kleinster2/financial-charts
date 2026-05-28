@@ -80,6 +80,8 @@ Should be the biggest beneficiary (makes the chips, runs the cloud, has governme
 
 All five subsidize at different points. ByteDance subsidizes tokens directly (99.3% price cut). Alibaba subsidizes through free Qwen downloads that drive paid cloud compute. Tencent subsidized ¥1B in Yuanbao red packets. Baidu spent ¥500M. Government subsidizes 50% of data center electricity. When subsidies stop, whose users stay? Tencent arguably has strongest retention (WeChat lock-in), ByteDance weakest (users came for free tokens).
 
+[[DeepSeek]]'s May 2026 V4-Pro update raises the subsidy bar for everyone else. By making a 75% V4-Pro API cut permanent, DeepSeek turned a promotional discount into a public price floor: 3 yuan per million uncached input tokens and 6 yuan per million output tokens, with cache-hit input at 0.025 yuan. The cloud-war implication is that MaaS competitors can no longer treat DeepSeek's flagship pricing as temporary customer acquisition. They either route demand to it, match it with their own models, or justify a premium through distribution, enterprise support, sovereignty, and bundled workflow value.
+
 ---
 
 ## Likely resolution — partitioned market
@@ -109,7 +111,7 @@ The open question is which segment generates the most long-term value. Enterpris
 | Key model | [[Doubao]] | [[Qwen]] | [[Hunyuan]] | — | [[Ernie]] |
 | Distribution | Douyin/TikTok | Taobao/Alipay/DingTalk | **WeChat 1.3B MAU** | Telecom/govt | Search/auto |
 
-*Updated 2026-04-07*
+*Updated 2026-05-25*
 
 ---
 

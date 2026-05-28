@@ -25,8 +25,8 @@ The tension is execution. FY2025 revenue rose to $335.4M and backlog reached $41
 | Metric | Value |
 |--------|-------|
 | Ticker | RDW ([[NYSE]]) |
-| Latest close | $9.68 on Apr. 24, 2026 |
-| Market cap | $1.93B using 198.9 million shares outstanding |
+| Latest close | $24.00 on May 27, 2026 |
+| Market cap | ~$4.77B using 198.9 million shares outstanding |
 | 52-week range | $4.87 - $22.25 |
 | CEO | [[Peter Cannito]] |
 | Headquarters | Jacksonville, FL |
@@ -154,6 +154,20 @@ The basket-move dispersion also matters for the Redwire-specific thesis. The May
 Same-session cohort: [[Rocket Lab]] +34, [[BlackSky]] +22, [[Intuitive Machines]] +20, [[AST SpaceMobile]] +15, [[Spire Global]] +15, [[Planet Labs]] +11.
 
 *Sources: local `quick_movers.py` screen May 8 2026; [[Space basket rally May 8 2026]] event note.*
+
+---
+
+## May 26 2026 SpaceX IPO halo — +26.0%, +3.6σ
+
+RDW closed $22.04 on May 26, up 26.0% from $17.49 while [[SPY]] rose 0.66%. The move screened at +3.6σ beta-adjusted using Yahoo Finance daily closes, a 120-session beta estimate, and 60-session residual volatility. This was not a Redwire-specific contract announcement; it was the public-space-equity halo from [[SpaceX]]'s S-1 filing and expected [[Nasdaq]] listing. Reuters reported on May 20 that SpaceX filed for its IPO and selected Nasdaq, and StockStory framed Redwire's May 26 move as a rocket/satellite-stock rally sparked by the filing.
+
+The right interpretation is cohort re-rating, not confirmed backlog conversion. Redwire has the public-market scarcity value of being a small-cap space and defense supplier at the moment investors are trying to express SpaceX exposure before the IPO, but the fundamental test remains the same: SHIELD / Golden Dome task orders, Edge Autonomy integration, gross-margin repair, and cash-burn control. The risk is crowding: if the SpaceX IPO becomes the liquidity event that absorbs space-sector capital rather than expands it, RDW can give back a halo move quickly.
+
+*Sources: [[Yahoo Finance]] chart data pulled May 26 2026; Reuters via Investing.com, "SpaceX files long awaited IPO, creating a fresh AI play," May 20 2026, https://www.investing.com/news/stock-market-news/spacex-files-long-awaited-ipo-creating-a-fresh-ai-play-4702657; StockStory, "Why Redwire (RDW) Stock Is Up Today," May 26 2026, https://stockstory.org/us/stocks/nyse/rdw/news/why-up-down/why-redwire-rdw-stock-is-up-today-4.*
+
+May 27 confirmed the same halo trade rather than reversing it. RDW closed $24.00, up another 8.9% from $22.04, after [[Reuters]] explicitly identified public space stocks as beneficiaries of SpaceX IPO expectations and named Redwire among the retail-trending space tickers on Stocktwits. That keeps the interpretation consistent: RDW is acting as a high-beta scarcity proxy for the public-space basket, while the company-specific burden remains funded task orders, Edge Autonomy integration, and margin repair.
+
+*Additional sources: [[Reuters]] via Investing.com, "US space stocks rise on SpaceX IPO hype," May 27 2026, https://www.investing.com/news/stock-market-news/us-space-stocks-rise-on-spacex-ipo-hype-4712652; [[Yahoo Finance]] daily closes pulled May 27 2026.*
 
 ---
 

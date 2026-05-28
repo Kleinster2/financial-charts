@@ -25,7 +25,19 @@ The trajectory: 100 billion daily tokens in early 2024, 100 trillion by end-2025
 
 The defining tension: scale and revenue are moving in opposite directions. IDC tracked 536.7T total tokens in H1 2025 across China's MaaS market. At prevailing prices (~¥0.0005 per 1K tokens), that entire market generated only ¥500-600M ($70-84M) in revenue. For context, [[Alibaba]] Cloud alone earned ¥80B+ in 2024 — the MaaS token market is a rounding error on one company's cloud revenue.
 
-The pricing collapse started in May 2024 when [[ByteDance]] cut [[Doubao]] Pro-32K prices by 99.3% (¥0.12 → ¥0.0008 per 1K tokens). [[DeepSeek]]'s API prices (~$0.028 per million tokens) are roughly 1/180th of [[GPT]] pricing. RAND (2026) estimates Chinese models cost 1/6 to 1/4 of US systems. The market is drowning in cheap tokens — the question is whether volume eventually generates value or whether China is subsidizing a permanent loss leader.
+The pricing collapse started in May 2024 when [[ByteDance]] cut [[Doubao]] Pro-32K prices by 99.3% (¥0.12 → ¥0.0008 per 1K tokens). [[DeepSeek]] then made the pressure more durable: in May 2026 it converted the 75% V4-Pro API promotion into a permanent price cut, with the official price running from $0.003625 per million cache-hit input tokens to $0.87 per million output tokens. RAND (2026) estimates Chinese models cost 1/6 to 1/4 of US systems. The market is drowning in cheap tokens — the question is whether volume eventually generates value or whether China is subsidizing a permanent loss leader.
+
+### DeepSeek V4-Pro price floor (May 2026)
+
+[[Reuters]] reported on May 23, 2026 that [[DeepSeek]] would keep V4-Pro API pricing at one quarter of its original level after the promotional period. DeepSeek's official pricing page now shows:
+
+| V4-Pro usage type | Permanent price / 1M tokens |
+|---|---:|
+| Input, cache hit | 0.025 yuan / $0.003625 |
+| Input, cache miss | 3 yuan / $0.435 |
+| Output | 6 yuan / $0.87 |
+
+This is a token-economy event because it turns a discount into an anchor. Every Chinese cloud and MaaS provider now competes against a flagship open-weight model with a public low price. The unresolved issue is who absorbs the subsidy: DeepSeek, [[Huawei]] / [[Ascend]] capacity providers, cloud distributors, the state-backed power/data-center stack, or some combination.
 
 ---
 
@@ -59,7 +71,7 @@ Agentic AI workloads consume 10-100x more tokens than conversational chat. A sim
 
 ## Growth projections
 
-[[JPMorgan]] projects China inference volumes will grow 370x between 2025 and 2030. The "AI+" national action framework in the 15th Five-Year Plan positions AI as a cross-sector productivity tool (manufacturing, healthcare, logistics, government services). Industry forecasts place China AI-related revenue above 10 trillion yuan by 2030 — but this requires the volume-revenue disconnect to close. Token prices would need to stabilize or value would need to shift to adjacent services (SaaS, enterprise tools, agent-specific revenue models) rather than raw token sales.
+[[JPMorgan Chase|JPMorgan]] projects China inference volumes will grow 370x between 2025 and 2030. The "AI+" national action framework in the 15th Five-Year Plan positions AI as a cross-sector productivity tool (manufacturing, healthcare, logistics, government services). Industry forecasts place China AI-related revenue above 10 trillion yuan by 2030 — but this requires the volume-revenue disconnect to close. Token prices would need to stabilize or value would need to shift to adjacent services (SaaS, enterprise tools, agent-specific revenue models) rather than raw token sales.
 
 ---
 
@@ -82,14 +94,14 @@ Agentic AI workloads consume 10-100x more tokens than conversational chat. A sim
 | H1 2025 total tokens (IDC) | 536.7T |
 | H1 2025 MaaS revenue (est.) | ¥500-600M ($70-84M) |
 | MaaS market share leader | [[Volcano Engine]] (49.2%, IDC H1 2025) |
-| Cheapest API pricing | [[DeepSeek]] ~$0.028/M tokens |
+| Cheapest API pricing | [[DeepSeek]] V4-Pro cache-hit input $0.003625/M tokens; output $0.87/M tokens after May 2026 permanent cut |
 | Price vs US models | 1/6 to 1/4 (RAND 2026) |
-| JPMorgan inference growth forecast | 370x (2025-2030) |
+| [[JPMorgan Chase|JPMorgan]] inference growth forecast | 370x (2025-2030) |
 | 2030 AI revenue forecast | >10 trillion yuan |
 | Spring Festival 2026 subsidies | >$1.1B (one week) |
 | Industrial AI agent target | 1,000 by 2027 (8-ministry directive) |
 
-*Updated 2026-04-07*
+*Updated 2026-05-25*
 
 ---
 

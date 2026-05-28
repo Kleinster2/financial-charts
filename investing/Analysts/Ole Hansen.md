@@ -1,8 +1,7 @@
 ---
 aliases: [Hansen]
+tags: [analyst, commodities]
 ---
-#analyst #commodities
-
 Ole Hansen — Head of Commodity Strategy at [[Saxo Bank]] since 2010. Focuses on precious metals rotation and the structural shift toward physical stores of value. Regular on CNBC, Bloomberg, WSJ.
 
 ---

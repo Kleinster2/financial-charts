@@ -400,6 +400,8 @@ Capital structure: Raised $30B of $50B plan (IG bonds + mandatory convertible pr
 
 RPO funding model: Most of the $553B RPO increase relates to large-scale AI contracts where Oracle doesn't need incremental funding — customers either prepay for GPUs or supply their own hardware ("bring your own chip"). This partially addresses the negative FCF concern.
 
+The May 8 FT / [[Visible Alpha]] capex story puts Oracle on the stressed edge of the same hyperscaler cycle. Unlike [[Microsoft]], [[Alphabet]], [[Amazon]], and [[Meta]], Oracle is not a legacy cash gusher choosing to tolerate a temporary FCF trough; it is a lower-rated cloud challenger using debt, customer prepayments, bring-your-own-chip structures, and project finance to turn [[OpenAI]] demand into physical capacity. That is why Oracle belongs in [[AI infrastructure financing risk]] as much as in [[Hyperscaler capex]].
+
 $29B in new contracts signed this quarter under alternative funding/delivery models, in addition to the RPO figure.
 
 AI infrastructure gross margin: 32% (above 30% guidance). Database services in OCI significantly higher.

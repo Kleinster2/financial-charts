@@ -1,11 +1,12 @@
 ---
+aliases: [Subramanian]
 tags: [analyst, strategist, sell-side]
 type: person
 ---
 
 # Savita Subramanian
 
-## Quick Stats
+## Quick stats
 
 | Field | Detail |
 |-------|--------|

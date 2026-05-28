@@ -6,7 +6,7 @@ aliases: [F]
 **Ford** — Legacy automaker pivoting to EVs. F-150 Lightning ending, shifting to extended-range EVs. ~$30K affordable EVs "around the corner."
 
 ![[ford-price-chart.png]]
-*F on NYSE from Jan 2020. Apr-May 2026: depressed by FT commodity-squeeze framing (May 3) despite Apr 29 Q1 beat; May 13 +13.2% to $13.57 on [[Andrew Percoco]] / [[Morgan Stanley]] [[Ford Energy]] re-framing — biggest single-day since March 2020.*
+*F on NYSE from Jan 2020. Apr-May 2026: depressed by FT commodity-squeeze framing (May 3) despite Apr 29 Q1 beat; May 13 +13.2% to $13.57 on [[Andrew Percoco]] / [[Morgan Stanley]] [[Ford Energy]] re-framing — biggest single-day since March 2020. May 22 added another +9.2% to $14.93 (+3.5σ beta-adjusted vs SPY), confirming the re-rating had not fully burned off after the initial analyst note.*
 
 ---
 
@@ -215,9 +215,9 @@ Three reasons stack:
 - The Morgan Stanley note (May 12 evening) provided the narrative bridge that the Q1 print itself didn't: a path from commodity-headwind story to AI-infrastructure-adjacent re-rating. Ford Energy + hyperscaler optionality is the kind of frame that compresses bear-case multiples.
 - The day's macro backdrop — [[April CPI 3.8%|CPI shock]] of May 12 had broken the chip-rally trade and bid hard-asset / infrastructure-adjacent names. Ford Energy fits the same "AI infrastructure demand has to land somewhere physical" thesis that copper (record $14k/ton on May 12) and [[Venture Global]] (+14.2% on Q1 LNG beat) were trading on.
 
-The move from $11.99 to $13.57 puts Ford within striking distance of the $14 Morgan Stanley price target — the implication being that the $14 target itself becomes a near-term ceiling unless Percoco raises it on signed hyperscaler agreements.
+The move from $11.99 to $13.57 put Ford within striking distance of the $14 Morgan Stanley price target. The follow-through on May 22 was the real tell: Ford closed at $14.93, up 9.2% on the day and +3.5σ beta-adjusted versus SPY, meaning the market pushed through the initial price-target ceiling before any signed hyperscaler storage agreements were reported.
 
-Sources: [Morgan Stanley research summary via Bloomberg](https://www.bloomberg.com/news/articles/2026-05-13/ford-shares-soar-after-morgan-stanley-s-bullish-call-on-energy) (May 13 2026); [Motley Fool stock-market-today coverage](https://www.fool.com/coverage/stock-market-today/2026/05/13/stock-market-today-may-13-ford-jumps-after-launching-ford-energy-battery-storage-subsidiary/) (May 13 2026); [GuruFocus on Ford Energy outlook](https://www.gurufocus.com/news/8856919/ford-f-stock-soars-on-optimistic-energy-business-outlook); [Ford Q1 2026 press release](https://www.fromtheroad.ford.com/us/en/articles/2026/ford-reports-first-quarter-2026-financial-results) (April 29 2026); local `prices_long` F May 12-13 verified $11.99 → $13.57 (+13.2%).
+Sources: [Reuters via Investing.com on Ford Energy](https://www.investing.com/news/stock-market-news/ford-stock-surges-13-on-investor-optimism-for-new-energy-storage-business-4686531) (May 13 2026); [Morgan Stanley research summary via Bloomberg](https://www.bloomberg.com/news/articles/2026-05-13/ford-shares-soar-after-morgan-stanley-s-bullish-call-on-energy) (May 13 2026); [Motley Fool stock-market-today coverage](https://www.fool.com/coverage/stock-market-today/2026/05/13/stock-market-today-may-13-ford-jumps-after-launching-ford-energy-battery-storage-subsidiary/) (May 13 2026); [GuruFocus on Ford Energy outlook](https://www.gurufocus.com/news/8856919/ford-f-stock-soars-on-optimistic-energy-business-outlook); [Ford Q1 2026 press release](https://www.fromtheroad.ford.com/us/en/articles/2026/ford-reports-first-quarter-2026-financial-results) (April 29 2026); [FordAuthority weekly price table](https://fordauthority.com/2026/05/ford-stock-value-analysis-performance-may-18-may-22-2026/) (May 22 2026); Yahoo chart data for May 22 close and local beta-adjusted calculation.
 
 ---
 

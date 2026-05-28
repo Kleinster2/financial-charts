@@ -20,10 +20,18 @@ tags: [actor, geography, chokepoint]
 
 ---
 
+## May 2026 Oresund dependency read
+
+The FT's May 24 visual story uses the [[Oresund Strait]] as a no-reroute chokepoint in the Verschuur-Lumma-Hall framework. In the article's country table, Oresund accounts for about 27% of [[Ukraine]]'s seaborne trade, showing that Baltic/North Sea access can matter even for a country whose headline maritime gate is the [[Turkish Straits]].
+
+---
+
 ## Related
 
 - [[Global oil trade flows]] — Baltic export corridor
 - [[Russia]] — major crude exporter through Baltic ports
+- [[Oresund Strait]] — component chokepoint
+- [[Maritime chokepoint dependency]] — global framework
 
 ---
 

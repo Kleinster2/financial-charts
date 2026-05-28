@@ -1,6 +1,6 @@
 #actor #fintech #private #crypto
 
-**Polymarket** — Largest crypto-based [[prediction markets|prediction market]]. Founded 2020 by [[Shayne Coplan]]. Offshore (US users technically prohibited). $9B valuation (Oct 2025) after [[ICE]] $2B investment. 2024 election validated platform — Trump probability diverged from polls.
+**Polymarket** — Largest crypto-based [[Prediction markets|prediction market]]. Founded 2020 by [[Shayne Coplan]]. Offshore (US users technically prohibited). $9B+ valuation reference after [[Intercontinental Exchange]] strategic investment; ICE has disclosed $1.6B of direct cash investment across Oct 2025 and Mar 2026. 2024 election validated platform — Trump probability diverged from polls.
 
 ---
 
@@ -9,7 +9,7 @@
 | Metric | Value |
 |--------|-------|
 | **Valuation** | $9B (Oct 2025) |
-| **Total raised** | $2.3B+ |
+| **Total raised** | $1.7B+ disclosed direct ICE cash investment plus prior venture rounds |
 | **Founded** | 2020 |
 | **HQ** | Manhattan, New York |
 | **Founder stake** | ~11% |
@@ -52,11 +52,12 @@ Origin story: At 14, emailed SEC asking how to create new marketplaces. Founded 
 | Seed | 2020 | — | — | — |
 | Series A | 2022 | $25M | — | Polychain |
 | Series B | May 2024 | $70M | — | Founders Fund (Thiel) |
-| Strategic | Oct 2025 | $2B | $9B | [[ICE]] |
+| Strategic | Oct 2025 | $1B | Not disclosed in ICE release; press reported ~$9B+ | [[Intercontinental Exchange]] |
+| Strategic add-on | Mar 27, 2026 | $600M direct cash investment; up to $40M expected secondary purchases | Terms to be disclosed after fundraising completion | [[Intercontinental Exchange]] |
 
 **Key investors:** [[ICE]] (NYSE parent), [[Founders Fund]], General Catalyst, Polychain, Blockchain Capital, [[Point72]], [[Vitalik Buterin]], [[Coinbase]]
 
-**ICE investment (Oct 2025):** Intercontinental Exchange (owns NYSE) invested $2B — signals traditional finance validation of prediction markets.
+**ICE investment (Oct 2025-Mar 2026):** Intercontinental Exchange (owns NYSE) disclosed a $1B initial direct investment in Oct 2025, then completed a new $600M direct cash investment on Mar 27, 2026, with up to $40M of additional purchases expected from existing holders. The strategic read is traditional exchange infrastructure buying event-contract venue and data optionality before the US regulatory perimeter is fully settled.
 
 ---
 
@@ -128,6 +129,16 @@ Polymarket has drawn scrutiny over suspicious trading patterns:
 Rep. Ritchie Torres proposed legislation to prohibit insiders "from engaging in covered transactions involving prediction market contracts" — the first Congressional response to potential insider-driven manipulation on prediction markets.
 
 Source: FT (Jan 14, 2026)
+
+## Power users and profit concentration (2026)
+
+NYT Magazine's May 26, 2026 profile turns Polymarket's headline "wisdom of crowds" story into a sharper market-structure question: the most visible profits are concentrated among traders with narrow informational advantages, speed, or investigative workflows. The article's examples included a pseudonymous trader with nearly $5M in gains, another with more than $1.3M, and a user up more than $750,000 after a Nobel Peace Prize market that raised website-scraping questions.
+
+That pattern is consistent with the 2026 academic work by Pat Akey, Vincent Grégoire, Nicolas Harvie, and Charles Martineau on Polymarket trading outcomes. Their SSRN abstract describes a dataset spanning 2022-2026, more than 2.4M users, $67B in volume, and 588M trades; the top 1% of users captured 76.5% of trading gains, while profits flowed mainly to sophisticated limit-order traders and losses to liquidity takers.
+
+The platform-level implication is mixed. Concentrated informed trading makes prices more useful as signals, but it also means the surplus comes from less sophisticated flow. For [[Intercontinental Exchange]], the asset is not only the retail user base; it is the event-probability data and the exchange plumbing that can be professionalized if US access becomes cleaner.
+
+*Sources: Adam Iscoe, NYT Magazine, "The Average Guys Outsmarting Wall Street on Prediction Markets," May 26, 2026; Pat Akey, Vincent Grégoire, Nicolas Harvie, and Charles Martineau, "Who Wins and Who Loses In Prediction Markets? Evidence from Polymarket," SSRN, 2026; ICE press release, Mar 27, 2026.*
 
 ---
 

@@ -1,13 +1,12 @@
 ---
 aliases: [El-Erian]
+tags: [analyst, macro, commentator]
 ---
-#individual #macro #commentator
-
 Mohamed El-Erian — Chief Economic Advisor at Allianz, former CEO/co-CIO of PIMCO. Coined "New Normal" (2009). One of the most influential macro voices. Frequent Bloomberg/CNBC commentator.
 
 ---
 
-## Overview
+## Quick stats
 
 | Metric | Value |
 |--------|-------|

@@ -55,7 +55,7 @@ NET trades as a core Software name (IGV r = 0.70).
 | **DDoS protection** | Largest network (>300 Tbps capacity) |
 | **WAF** | Web application firewall |
 | **Bot management** | Credential stuffing, scraping defense |
-| **Zero Trust** | SASE, secure access |
+| **Zero Trust** | [[SASE]], secure access |
 | **Email security** | Area 1 acquisition (2022) |
 
 ### Performance

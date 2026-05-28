@@ -2,8 +2,6 @@
 aliases: [Kunjan Sobhani]
 tags: [individual, analyst, semiconductors, bloomberg]
 ---
-#individual #analyst #semiconductors
-
 **Kunjan Sobhani** — Senior semiconductor analyst at [[Bloomberg Intelligence]]. Covers [[Intel]], foundry, and broader semiconductor industry dynamics.
 
 ---

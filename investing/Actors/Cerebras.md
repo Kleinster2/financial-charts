@@ -264,6 +264,8 @@ At $311.07 close, the implied fully diluted market cap is ~$94.8B (~305M shares 
 
 The Day-1 print resolves the demand side of the [[Cerebras IPO revival April 2026]] underwriting tension. Investors paid up for the forward [[OpenAI]] demand story and AI-infrastructure scarcity premium; the S-1 customer-concentration math ([[MBZUAI]] 62%, [[UAE G42]] 24%) was assigned ~zero implicit weight in the public mark. What did not get resolved: the gap between the +89% open and the -19.5% close-vs-high fade. May 15 regular-hours trading is the first independent read on whether the print holds once the IPO-allocation cohort is no longer the only relevant buyer.
 
+The May 25 [[Reuters]] [[SpaceX IPO 2026]] screen kept [[Cerebras]] in the positive-comp column, but with a warning embedded: by the May 21 cutoff, CBRS was still up 52% from the May 14 offer price, while already down about 27% from its first intraday high. That makes Cerebras a useful bridge between the bull and bear versions of the [[2026 IPO pipeline]]: public buyers are still paying for AI-chip scarcity, but the first-day squeeze is no longer enough evidence by itself.
+
 See [[Cerebras securities note]] for full equity-market detail (peer comparisons, holder list, ticker-side notes). See [[Cerebras IPO revival April 2026]] for the full S-1-to-Day-1 timeline.
 
 *Sources: Reuters, Bloomberg, StockAnalysis.com, VentureBeat, May 14 2026 close data; local market_data.db CBRS row.*

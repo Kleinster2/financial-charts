@@ -5,7 +5,7 @@ tags: [event, ipo, space, ai]
 
 # SpaceX IPO 2026
 
-[[SpaceX]] is preparing the largest IPO in history — targeting a $75B raise at a $1.75T valuation with a June 2026 listing on [[Nasdaq]]. The deal is rewriting IPO conventions: no lead bank, no standard lockup, >20% retail allocation, and divided geographic roles among five Wall Street banks. The filing comes after SpaceX absorbed [[xAI]] in February at a $1.25T combined valuation, meaning the prospectus will present a company that is simultaneously a launch monopoly, a satellite internet provider, a defense contractor, and an AI compute platform — and may be showing a net loss because of xAI's ~$1B/month burn rate.
+[[SpaceX]] is preparing the largest IPO in history - reported at up to a $75B raise and a >$2T target valuation, with a June 2026 listing process on [[Nasdaq]]. The May 20 public S-1 confirms the real filing architecture even though price, share count, and net proceeds are still blank: a [[Texas]] parent company, Class A public stock under `SPCX`, Class B supervoting control, retrospectively combined [[xAI]] / [[Twitter|X]] financials, and a three-segment business that is now Space, Connectivity, and AI. The May 26 [[FTSE Russell]] read adds the global-index layer: under newly announced fast-entry rules, SpaceX appears eligible for Russell U.S. and FTSE global index inclusion soon after listing if final terms match the current filing. The filing turns the earlier "SpaceX plus AI appendix" story into the formal issuer story.
 
 ---
 
@@ -15,33 +15,131 @@ tags: [event, ipo, space, ai]
 |--------|-------|
 | Target valuation | >$2T (Bloomberg May 15-16, up from FT's $1.75T earlier the same day; would be 5th-largest US company) |
 | Raise | Up to $75B (up from $50B earlier estimate; up from $25-30B initial) |
-| Exchange | [[Nasdaq]] confirmed (Bloomberg May 15 citing Reuters) |
-| Ticker | SPCX (Bloomberg May 15 citing Reuters; Tuttle Capital previously dropped its SPCX ETF ticker claim) |
+| Exchange | Applied to list Class A common stock on [[Nasdaq]] and [[Nasdaq]] Texas in the public S-1 |
+| Ticker | SPCX in the public S-1 |
 | Listing date | June 12, 2026 (Bloomberg May 15) |
 | Pricing | As early as June 11 |
 | Marketing kickoff | As soon as June 4 |
-| Public S-1 filing | As soon as Wednesday (week of May 18) |
+| Public S-1 filing | Filed May 20, 2026; preliminary prospectus still leaves price range, share count, and net proceeds blank |
 | Confidential S-1 | Filed April 1, 2026 |
+| FTSE/Russell fast entry | May 26 [[FTSE Russell]] assessment says SpaceX appears eligible for Russell U.S. Equity Indexes and FTSE GEIS fast entry, subject to final filing review |
 | Stock split | 5-for-1 announced May 15 — FMV per share adjusted from $526.59 to ~$105.32; split processed week of May 18, complete May 22 |
 | Lockup | No standard 6-month lockup — custom arrangement TBD |
 | Retail allocation | >20% (typical is ~10%; Musk personally pushed for this) |
-| Bank hierarchy | Alphabetical order — no "lead left" position |
-| Advisers | [[Bank of America]], [[Citigroup]], [[Goldman Sachs]], [[JPMorgan]], [[Morgan Stanley]] (none formally hired, all preparing) |
+| Bank hierarchy | [[Goldman Sachs]] now controls the lead-left / strategic-adviser role per FT May 21; [[Morgan Stanley]] has the stabilization mandate |
+| Advisers | [[Goldman Sachs]], [[Morgan Stanley]], [[Bank of America]], [[Citigroup]], [[JPMorgan Chase]] and a broader global syndicate |
 | International | Several international banks enlisted for overseas buyers |
 | Role division | By geography and investor type (US institutional, US retail, international) |
 | Scale context | $75B exceeds total raised by all US IPOs in 2025 ([[Renaissance Capital]]) |
 
+### FT May 23 absorption-test frame
+
+The May 23 2026 [[Financial Times]] article frames [[SpaceX]] as the first and largest transaction in a three-company absorption test alongside [[OpenAI]] and [[Anthropic]]. FT still used the $1.75T SpaceX valuation target in that piece, while the vault's headline keeps the later >$2T target from Bloomberg May 15-16 reporting and the public S-1's still-blank final price/share count. Treat $1.75T as one press-reported banker target, not the current single best headline mark.
+
+FT's useful valuation math is the public-market hurdle: at $1.75T, SpaceX would be roughly 91x trailing revenue of about $19B, versus [[NVIDIA]] at roughly 21x trailing sales while already massively profitable. That puts the roadshow theater in context. The reported [[Starbase]] visits are not decoration; they are part of getting institutions to underwrite a physical-manifesto story that conventional revenue multiples cannot justify alone.
+
+![[spacex-valuation-surge-ft-crunchbase-may2026.png]]
+*SpaceX valuation arc shown in the FT article, sourced there to Crunchbase. The image is most useful as a visual of private-market step changes, not as the final IPO price.*
+
+The cross-issuer read is that a weak SpaceX debut would not be isolated. It would hit the next two AI-lab listings, the [[2026 IPO pipeline]], and the broader "direct AI exposure beats semiconductor proxies" argument. A strong debut would give [[OpenAI]] and [[Anthropic]] permission to accelerate rather than wait for another window.
+
+*Source: [[Financial Times|FT]] article, May 23 2026: https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12.*
+
+### Reuters May 25 aftermarket-performance screen
+
+[[Reuters]] added a different underwriting lens on May 25-26: not whether the [[SpaceX]] IPO can draw orders, but whether buyers at the IPO price are likely to beat the simple alternative of owning the [[S&P 500]]. Its analysis of the 50 IPOs with the highest valuations over the prior five years found that the index would have beaten the IPO buyer about three-quarters of the time. The basket of IPO buyers was up an average 27% through May 21, versus 53% for the S&P 500 over matched periods, and first-day trading buyers fared worse.
+
+| Reuters datapoint | SpaceX read |
+|---|---|
+| 50 highest-valuation IPOs over the past five years underperformed the S&P 500 about three-quarters of the time | Demand and scarcity do not automatically translate into relative alpha for public buyers |
+| Average IPO-buyer return +27% through May 21 vs +53% for the S&P 500 over matched periods | The post-pricing hurdle is relative performance, not simply whether the stock trades above issue price |
+| At a $1.75T valuation, [[Reuters]] puts SpaceX near 100x sales, versus [[NVIDIA]] around 24x | The pitch asks public buyers to pay a late-stage private-market exhaustion multiple for a still-lossmaking consolidated issuer |
+| [[SpaceX]] lost nearly $5B last year on the consolidated basis | The valuation has to capitalize optionality while also absorbing visible [[xAI]] / [[Twitter\|X]] loss drag |
+
+The comp set sharpens the risk map. [[Astera Labs]] and [[Arm Holdings]] show that AI-infrastructure scarcity can overcome rich IPO valuation: [[Reuters]] put Astera up more than 700% from its 2024 IPO and Arm up about 400% from its 2023 debut. [[Cerebras]] was still up 52% from its May 14 offer price by the May 21 cutoff, but already about 27% below its first intraday high. The negative comps are different failure modes: [[Didi]] was down about 74% from its $14 offer after the Beijing crackdown and NYSE delisting; [[Rivian]] was down 82% from its 2021 IPO after the public market forced unit-economics discipline onto an expensive EV story; [[Figma]] was down 35% from its $33 IPO price as investors worried that generative AI could commoditize design software. [[Alibaba]] sits outside the five-year Reuters cohort but is the older cautionary precedent: it roughly doubled from the 2014 IPO while the S&P 500 rose more than 300%.
+
+The read-through for SpaceX is simple: the deal can be both oversubscribed and a bad relative-return setup. That matters because Musk's retail-access push through [[Robinhood]], [[SoFi]], and bank platforms widens participation at exactly the point where [[Reuters]]'s base-rate warning is strongest. The question is not "will people want the stock?" It is whether the first public price leaves enough upside after private investors have already captured the 2002-2026 compounding arc.
+
+*Source: [[Reuters]] / MarketScreener republication, Noel Randewich, May 25-26 2026: https://www.marketscreener.com/news/spacex-debut-draws-a-crowd-but-few-recent-hot-ipos-outpace-the-market-ce7f5addda8bff23.*
+
+### Reuters May 27 public-space sympathy screen
+
+[[Reuters]]' May 27 market piece shows the IPO story spilling from SpaceX itself into the scarce public-space proxy basket. The article's core point is not that [[Rocket Lab]], [[Planet Labs]], [[Intuitive Machines]], [[AST SpaceMobile]], or [[Redwire]] received new fundamental news. It is that public investors are trying to buy the nearest listed expressions of a private SpaceX revaluation before the `SPCX` float exists. That turns the IPO from a single-issuer absorption test into a sector-multiple catalyst for [[Space pure-plays]].
+
+Verified May 27 closes were stronger than Reuters' morning snapshot for the main listed proxies:
+
+| Ticker | Actor | May 27 close | Daily move | Read |
+|---|---|---:|---:|---|
+| LUNR | [[Intuitive Machines]] | $40.34 | +15.7% | Highest-quality listed lunar-services read-through; still no same-day company-specific catalyst |
+| RDW | [[Redwire]] | $24.00 | +8.9% | Follow-through from the May 26 SpaceX halo move; retail/Stocktwits attention was explicit in Reuters |
+| ASTS | [[AST SpaceMobile]] | $129.60 | +8.3% | Direct-to-cell scarcity bid; Reuters named it in the broader public-space cohort |
+| RKLB | [[Rocket Lab]] | $150.23 | +4.9% | Largest and most liquid pure-play proxy; the institutional default if SpaceX demand spills into public markets |
+| PL | [[Planet Labs]] | $50.48 | +4.5% | Data-sleeve participation despite the cohort's usual lower PC1 loading |
+| UFO | Procure Space ETF | $66.65 | +1.9% | ETF wrapper participated, but the single-name proxies carried the move |
+| ARKX | ARK Space & Defense Innovation ETF | $36.40 | +0.2% | ETF exposure diluted by broader aerospace/defense holdings |
+
+The important interpretation is crowding. If SpaceX's IPO expands the investable space-equity pool, the public proxies get a flow tailwind. If the IPO absorbs sector capital because investors rotate from proxies into `SPCX`, the same names can give back the halo quickly. The May 27 screen belongs in the IPO note because it is the first Reuters piece explicitly making that public-proxy channel the story rather than treating it as incidental price action.
+
+*Sources: [[Reuters]] via Investing.com, "US space stocks rise on SpaceX IPO hype," May 27 2026, https://www.investing.com/news/stock-market-news/us-space-stocks-rise-on-spacex-ipo-hype-4712652; Reuters via CNA, same story with full author line, https://www.channelnewsasia.com/business/us-space-stocks-rise-spacex-ipo-hype-6145121; [[Yahoo Finance]] daily closes pulled May 27 2026.*
+
 ### What makes this IPO structurally unusual
 
-No lead bank. The five advising banks will be listed alphabetically on the prospectus. In normal IPOs, the "lead left" position is a massive status symbol — banks fight over it. Musk is telling five of the most powerful banks on earth that none of them are special. He can do it because they all want in badly enough to accept.
+Lead-left hierarchy despite broad-bank optics. Early reporting and the prospectus presentation made the syndicate look deliberately flat. The FT's May 21 follow-up says the operating hierarchy has hardened: [[Goldman Sachs]] secured the lead-left / strategic-adviser role, with control over valuation and pricing discussions, the roadshow, and allocation decisions. [[Morgan Stanley]] still has a valuable stabilization mandate, but the status signal moved toward Goldman.
 
 No standard lockup. Most IPOs have a 6-month lockup preventing insiders from selling. SpaceX raised ~$10B over 20 years as a private company, creating enormous pent-up demand for liquidity among early investors. Rather than a standard lockup, they're designing a custom arrangement to manage the selling — details still being finalized. It's unclear whether insiders wait longer than 6 months or get to sell earlier.
 
 20%+ retail allocation. Normal IPOs reserve ~10% for retail. Musk personally pushed for more than 20%, including smaller investors via [[Robinhood]] and wealthy bank clients. This creates a built-in fan base of shareholders who'll defend the stock. The retail army play.
 
-Divided roles. Banks aren't just co-managing — they're being assigned different territories and investor types. Some handle US institutional, some US retail, some international. The deal is so large that no single bank's distribution network can absorb it.
+Divided roles. Banks are not just co-managing - they are being assigned different territories and investor types. Some handle US institutional, some US retail, some international, and Morgan Stanley's public stabilization mandate makes post-pricing support its own role rather than a hidden back-office function. The deal is so large that no single bank's distribution network can absorb it.
 
-*Sources: The Information (Mar 25); Bloomberg (Mar 25); Reuters (Mar 25); WSJ (Mar 27-28)*
+*Sources: The Information (Mar 25); Bloomberg (Mar 25); Reuters (Mar 25); WSJ (Mar 27-28); Financial Times (May 21).*
+
+### Goldman / Morgan Stanley mandate split (FT May 21, 2026)
+
+The May 21 FT piece is the cleanest update to the bank-power map. [[Goldman Sachs]] is no longer merely one of several alphabetically presented senior banks. It has the lead strategic-adviser role after years of preparation and after drafting the S-1 prospectus in December 2025, before the planned IPO surfaced publicly in Davos in January. The named Goldman team is [[Kim Posnett]], [[David Ludwig]], [[Dan Dees]], and [[Susie Scher]].
+
+[[Morgan Stanley]] remains important and reportedly carried a similar amount of listing work, but its visible edge is now the stabilization mandate. That could still be economically attractive because it governs support for the stock during the volatile immediate post-IPO period. The status read is different: stabilization may pay, while lead-left owns the pre-pricing investor narrative.
+
+The person-level read is that [[Michael Grimes]] did not translate his long [[Elon Musk]] relationship into control of the listing. FT says Grimes remains involved, but [[Kate Claassen]] and [[Colin Stewart]] have been in the daily Morgan Stanley process. Grimes' 2025-26 detour through [[Commerce Department]] work also shifted his live mandate mix toward strategic transactions in rare earths, semiconductors, and other politically sensitive sectors rather than the tech-IPO lane exactly as SpaceX hardened the bank roles.
+
+The risk for Goldman is that the mandate comes with asymmetric blame. Winning lead-left on what could be the largest IPO ever is franchise-defining, but the issuer is also heavily lossmaking on the consolidated SpaceX / [[xAI]] / [[Twitter|X]] basis and has unusually complex governance, AI-infrastructure, and Musk-key-person risk.
+
+*Source: [Financial Times - Goldman Sachs eclipses Morgan Stanley's Michael Grimes on SpaceX IPO](https://www.ft.com/content/10cecc4e-dbce-477d-9f10-068581c6e650), May 21 2026.*
+
+---
+
+## Public S-1 read-through (May 20, 2026)
+
+The public S-1 turns the leaked April/May details into a primary-source map. The most important point is not only that [[SpaceX]] filed; it is that the company is presenting itself as a consolidated space-connectivity-AI platform and asking investors to underwrite all three layers together.
+
+| Area                  | S-1 fact                                                                                                                                                                                        | Vault read                                                                                                                                                                           |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Offering shell        | Preliminary S-1 for Class A common stock; `SPCX`; price/share count/net proceeds blank                                                                                                          | The filing confirms the path but not final sizing. The $75B / >$2T figures remain press-reported until an amended prospectus fills the blanks                                        |
+| Recast basis          | Financials retrospectively combine [[SpaceX]], [[xAI]], and [[Twitter\|X (Twitter)]] under common-control accounting                                                                            | The "IPO company" is not historical SpaceX alone. It is the Musk-controlled stack, with X/Grok/legal baggage inside the same reporting entity                                        |
+| 2025 P&L              | Revenue $18.674B; net loss $4.937B; operating loss $2.589B                                                                                                                                      | The prior fear of an xAI-driven loss is now confirmed by primary filing, not just press inference                                                                                    |
+| 2025 segments         | Space revenue $4.086B / operating loss $657M; Connectivity revenue $11.387B / operating income $4.423B; AI revenue $3.201B / operating loss $6.355B                                             | [[Starlink]] is the profit engine; AI is the cash-burn and optionality layer; launch/space is strategically central but not the current earnings driver                              |
+| Q1 2026 balance sheet | Cash $15.852B; total liabilities $60.512B; long-term debt $29.111B, including the $20B SpaceX bridge loan                                                                                       | IPO proceeds are not just growth fuel. They also de-risk a much more levered balance sheet after the xAI/X consolidation                                                             |
+| Starlink metrics      | 10.3M subscribers at Mar. 31, 2026; ARPU $66/month in Q1 2026 versus $86 a year earlier                                                                                                         | The subscriber curve is scaling fast, but ARPU compression is now a visible public-company KPI                                                                                       |
+| Starship risk         | Filing says V3 satellites, V2 mobile, and orbital AI compute depend on [[Starship]] scale, cadence, and reusability                                                                             | The [[Starship]] bear case belongs inside the IPO risk stack, not as an external skeptic-only argument                                                                               |
+| Subsequent events     | Public filing discloses [[Cursor]] option terms, [[Anthropic]] cloud services agreement, $2B turbine acquisition, $6.587B AI hardware sale-leaseback, and [[Tesla]] / [[TERAFAB]] collaboration | The AI-infrastructure balance-sheet build is much more concrete than the roadshow narrative: compute, power, software distribution, and chip manufacturing are all in the prospectus |
+
+The filing also reclassifies the investor problem. A buyer is no longer only choosing whether to pay a scarcity multiple for rockets and [[Starlink]]. They are choosing whether [[SpaceX]] can convert a profitable connectivity franchise into the funding base for [[xAI]], [[Twitter|X]], [[Colossus|Colossus 1]], [[TERAFAB]], [[Cursor]], and eventually [[Space data centers]] without overwhelming the launch/connectivity cash engine.
+
+*Source: [SEC S-1, Space Exploration Technologies Corp.](https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm), filed May 20, 2026; parsed locally with `python scripts/parse_sec_filing.py` on May 23, 2026.*
+
+### Starlink subscriber curve in the S-1
+
+The public filing gives the cleanest primary-source subscriber series so far:
+
+| Period | Starlink subscribers | Read |
+|---|---:|---|
+| 2023 | 2.3M | Baseline year in the S-1 segment table |
+| 2024 | 4.4M | +91% versus 2023 |
+| Q1 2025 | 5.0M | Prior-year comp for the Q1 2026 disclosure |
+| 2025 | 8.9M | +102% versus 2024 |
+| Q1 2026 | 10.3M | +105% versus Q1 2025 |
+
+The filing defines [[Starlink]] subscribers per service line rather than per end user, so the actual number of people using the network is likely higher than the reported subscriber count.
 
 ---
 
@@ -76,9 +174,9 @@ For the IPO story, that matters more than the buzzword. Vertical integration on 
 
 ## P&L problem
 
-The S-1 may show SpaceX losing money. SpaceX's standalone business generates ~$8B annual profit on ~$16B revenue ($10.6B Starlink, $5.2B launch). But the February [[SpaceX xAI merger|xAI acquisition]] absorbs ~$1B/month in burn ($208M xAI revenue in 9M 2025) — enough to flip the combined entity to a net loss.
+The public S-1 shows SpaceX losing money on the combined reporting basis. The 2025 filing shows $18.674B of revenue, $2.589B of operating loss, and $4.937B of net loss. Segment disclosure makes the cross-subsidy explicit: Connectivity generated $11.387B of revenue and $4.423B of operating income, while AI generated $3.201B of revenue and a $6.355B operating loss.
 
-Investors will have to look through the combined losses to the thesis: Starlink profitable + launch dominant + xAI's AI compute infrastructure = future earnings power. Many are reluctant to bet against Musk, but the loss profile creates a hurdle for governance-focused institutional allocators.
+Investors will have to look through the combined losses to the thesis: [[Starlink]] profitable + launch dominant + [[xAI]] compute infrastructure = future earnings power. Many are reluctant to bet against Musk, but the loss profile creates a hurdle for governance-focused institutional allocators and makes the [[Anthropic]] compute agreement an IPO-defense item rather than a side story.
 
 ---
 
@@ -124,7 +222,7 @@ See [[SpaceX Cursor partnership and acquisition option April 2026]].
 
 ## Index inclusion — structural rule changes
 
-The SpaceX IPO triggered both [[Nasdaq]] and [[S&P Dow Jones Indices]] to rewrite their index inclusion rules. At $1.75T, SpaceX would be larger than all but five S&P 500 companies — [[Nvidia]], [[Apple]], [[Microsoft]], [[Amazon]], [[Alphabet]] — and bigger than both [[Meta]] and [[Tesla]].
+The SpaceX IPO triggered [[Nasdaq]], [[FTSE Russell]], and [[S&P Dow Jones Indices]] to rewrite, confirm, or review index inclusion rules. At $1.75T, SpaceX would be larger than all but five S&P 500 companies — [[Nvidia]], [[Apple]], [[Microsoft]], [[Amazon]], [[Alphabet]] — and bigger than both [[Meta]] and [[Tesla]].
 
 ### Nasdaq Fast Entry Rule (Feb 2026)
 
@@ -137,9 +235,25 @@ The SpaceX IPO triggered both [[Nasdaq]] and [[S&P Dow Jones Indices]] to rewrit
 | Exemptions | Waives 3-month seasoning period and liquidity requirements |
 | Filed with SEC | Feb 20, 2026 (Federal Register Mar 6) |
 | Status | Proposed; public comment closed Feb 27; implementation expected after Mar 2026 quarterly rebalance |
-| Contagion | [[FTSE Russell]] proposed its own fast-entry rule (Feb 18) for Russell US Equity Indexes |
+| Contagion | [[FTSE Russell]] followed with its own fast-entry rule for Russell U.S. Equity Indexes and assessed SpaceX as apparently eligible on May 26 |
 
 Under current rules, newly listed companies wait up to a year for major index inclusion. The Fast Entry rule eliminates this delay — a direct competitive play to win SpaceX's listing. The rule also allows the Nasdaq 100 to temporarily exceed 100 members.
+
+### FTSE Russell fast-entry eligibility (May 26, 2026)
+
+Reuters reported that [[FTSE Russell]] said SpaceX appears eligible for fast entry into both the Russell U.S. Equity Indexes and FTSE Global Equity Index Series. That converts the February consultation from "index-industry contagion" into a live SpaceX eligibility read.
+
+| Mechanic | SpaceX read |
+|---|---|
+| Investable market cap estimate | ~$70B |
+| Russell U.S. threshold | $17.5B market-adjusted breakpoint for Russell Top 500 inclusion |
+| FTSE GEIS threshold | $13.5B fast-entry threshold |
+| Expected Russell indexes | Russell Top 50, Russell Top 200, Russell 1000 |
+| Possible FTSE global indexes | FTSE GEIS Global All Series, FTSE All-World, FTSE World, FTSE Global Total Cap |
+| Timing | Eligible large IPOs can enter after market close on the fifth trading day |
+| Caveat | Based on current S-1 and limited public information; final treatment can change with later filings |
+
+The real change is the breadth of forced-index plumbing. [[Nasdaq 100]] fast entry pulls in US growth-index money, but FTSE Russell reaches global equity products and Russell U.S. benchmarks. If SpaceX prices on June 11 and lists June 12 as reported, the first week of public trading could become the price-discovery window for multiple index families rather than only the Nasdaq 100.
 
 ### S&P 500 seasoning rule review (Mar 3-14, 2026)
 
@@ -178,9 +292,9 @@ SpaceX leaning [[Nasdaq]] over [[New York Stock Exchange|NYSE]], per Reuters (fo
 
 ---
 
-## Governance and trillion-dollar pay package (FT May 15, 2026)
+## Governance and trillion-dollar pay package (FT May 15 / public S-1 May 20, 2026)
 
-The FT obtained confidential S-1 detail confirming what its sources called the most management-favourable governance structure ever brought to a US public market at this scale. New York and California public pension fund officials wrote to [[SpaceX]] this week expressing "serious concerns" — the formal pushback so far from index-sensitive allocators.
+The FT obtained confidential S-1 detail confirming what its sources called the most management-favourable governance structure ever brought to a US public market at this scale; the public S-1 now confirms the core mechanics. New York and California public pension fund officials wrote to [[SpaceX]] this week expressing "serious concerns" — the formal pushback so far from index-sensitive allocators.
 
 ### Governance terms
 
@@ -198,10 +312,10 @@ Two distinct pay grants are embedded in the S-1, both Mars-and-orbital-DC contin
 
 | Grant | Vesting trigger | Up-to share count | Pay structure |
 |---|---|---|---|
-| Tranche 1 — class B common | $7.5T market cap + 1mn-person Mars colony | 200mn class B shares | Vests in tranches keyed to $500B cap increments |
-| Tranche 2 — supervoting restricted | $6.6T market cap + 100 TW [[Space data centers\|space data-centre]] network | 60mn supervoting RSUs | Awarded if both market cap and DC milestone hit |
+| Tranche 1 — class B common | $7.5T market cap + 1mn-person Mars colony | 1,000mn class B shares after the 5-for-1 split (200mn pre-split) | Vests in 15 equal tranches keyed to $500B cap increments |
+| Tranche 2 — supervoting restricted | $6.565T market cap + 100 TW [[Space data centers\|space data-centre]] network | 302.1mn class B restricted shares after the 5-for-1 split (about 60.4mn pre-split) | Vests in 12 tranches keyed to $500B cap increments |
 
-Approved by the SpaceX board in January 2026. Reuters first reported the 1mn-person Mars colony milestone; the FT added the 100 TW space DC milestone. Scale context for the 100 TW grant: the largest terrestrial data centres today deliver 1-2 GW — meaning the target equals roughly 50,000x today's largest single-site compute. That order-of-magnitude gap separates the goal from anything humanity has currently built or under construction.
+Approved by the SpaceX board in January and March 2026. Reuters first reported the 1mn-person Mars colony milestone; the FT added the 100 TW space DC milestone; the public S-1 gives the post-split share counts and says no share-based compensation expense had been recognized for either award as of Mar. 31 because the performance milestones were considered improbable. Scale context for the 100 TW grant: the largest terrestrial data centres today deliver 1-2 GW — meaning the target equals roughly 50,000x today's largest single-site compute. That order-of-magnitude gap separates the goal from anything humanity has currently built or under construction.
 
 The mechanism echoes Tesla's now-restored 2018 grant where Musk's pay was contingent on sextupling Tesla's valuation and selling millions of [[Tesla Optimus|humanoid robots]]. In each case the contingent metric was a long-tail moonshot rather than near-term execution.
 
@@ -224,11 +338,11 @@ The largest IPO in history to date is [[Saudi Aramco]]'s December 2019 listing �
 
 ### Underwriting and dry-powder context
 
-[[Bank of America]], [[Citigroup]], [[Goldman Sachs]], [[JPMorgan]] and [[Morgan Stanley]] lead a group of more than 20 global banks. [[Michael Grimes]] — Morgan Stanley adviser who returned to the bank in February 2026 after a year in the [[Trump administration]] — is the central deal-runner per FT sources. Advisers quoted by the FT estimate institutional dry powder at ~$270bn heading into the deal. The $600bn tracking [[Nasdaq 100]] will provide passive demand once the 15-trading-day Fast Entry rule activates inclusion. Bankers are expected to allocate a "large tranche" to retail through brokerages, following the [[Robinhood]]-friendly distribution pattern Musk preferred for the Tesla retail base (~30% retail share for a $1.4T company).
+[[Goldman Sachs]], [[Morgan Stanley]], [[Bank of America]], [[Citigroup]] and [[JPMorgan Chase|JPMorgan]] lead a group of more than 20 global banks. The May 15 FT story still framed [[Michael Grimes]] as the central Morgan Stanley relationship figure, but the May 21 FT follow-up revises the bank hierarchy: Goldman has the lead-left / strategic-adviser role, while Morgan Stanley has the stabilization mandate and remains a major fee participant. Advisers quoted by the FT estimate institutional dry powder at ~$270bn heading into the deal. The $600bn tracking [[Nasdaq 100]] will provide passive demand once the 15-trading-day Fast Entry rule activates inclusion; the May 26 [[FTSE Russell]] assessment adds a second passive-demand channel across Russell U.S. and FTSE global index products if final IPO terms hold. Bankers are expected to allocate a large tranche to retail through brokerages, following the [[Robinhood]]-friendly distribution pattern Musk preferred for the Tesla retail base (~30% retail share for a $1.4T company).
 
 Funds may be constrained by the parallel [[Anthropic]] and [[OpenAI]] capital raises also expected in 2026 — see the mega-IPO absorption test section below for the combined sizing.
 
-*Source: [SpaceX IPO set to ensure Elon Musk cannot be fired](https://www.ft.com/content/00382ab9-3dfe-468c-8966-853cd787dd43), FT, May 15, 2026, by Stephen Morris, George Hammond and Ryan McMorrow.*
+*Sources: [SpaceX IPO set to ensure Elon Musk cannot be fired](https://www.ft.com/content/00382ab9-3dfe-468c-8966-853cd787dd43), FT, May 15, 2026; [Goldman Sachs eclipses Morgan Stanley's Michael Grimes on SpaceX IPO](https://www.ft.com/content/10cecc4e-dbce-477d-9f10-068581c6e650), FT, May 21, 2026.*
 
 ---
 
@@ -271,7 +385,7 @@ The target valuation moved from $1.75T (FT, May 15 morning) to above $2T (Bloomb
 A separate earlier Bloomberg piece by Anthony Hughes and Bailey Lipschultz locked in two structural details:
 
 1. Ticker SPCX on [[Nasdaq]] — confirmed (Reuters first reported, Bloomberg cited it). [[Tuttle Capital]] had previously held the SPCX ETF ticker; the drop cleared the path for SpaceX. The exchange decision is consistent with the [[Nasdaq Fast Entry Rule]] and the prior reporting that SpaceX was leaning Nasdaq for the early-index-inclusion benefit.
-2. Expanded bank syndicate — Bloomberg confirmed [[Bank of America]] / [[Citigroup]] / [[Goldman Sachs]] / [[JPMorgan]] / [[Morgan Stanley]] in senior roles, with "more banks added to the lineup" beyond the original five. Consistent with the FT May 15 reporting of "more than 20 global banks" in the deal — Bloomberg confirms the syndicate has grown past the initial five-bank alphabetical structure.
+2. Expanded bank syndicate — Bloomberg confirmed [[Bank of America]] / [[Citigroup]] / [[Goldman Sachs]] / [[JPMorgan Chase|JPMorgan]] / [[Morgan Stanley]] in senior roles, with "more banks added to the lineup" beyond the original five. Consistent with the FT May 15 reporting of "more than 20 global banks" in the deal — Bloomberg confirms the syndicate has grown past the initial five-bank alphabetical structure.
 
 ### Bloomberg Intelligence revenue picture (May 15, 2026)
 
@@ -282,7 +396,7 @@ Per Bloomberg Intelligence cited in the Hughes/Lipschultz piece:
 | Rocket launch + Starlink (majority) | ~$20B total (combined) |
 | [[xAI]] (post-Feb-2026 acquisition) | Likely less than $1B |
 
-This is the first analyst-disclosed split between the legacy SpaceX revenue base and the xAI contribution. The xAI <$1B figure for 2026E reinforces the structural pattern visible in the FT May 15 detail: xAI is a P&L drag this year (per FT, $6.4B 2025 loss vs $1.6B 2024), with the [[Anthropic]] [[Colossus 1]] compute lease (~$5B/yr) likely becoming the major xAI-related revenue line on the consolidated P&L through 2027 rather than direct [[Grok]] product revenue. The "Bloomberg approaching $20B 2026" total is reasonably consistent with FT's $18.7B 2025 consolidated revenue + an organic-only growth assumption for SpaceX standalone.
+This is the first analyst-disclosed split between the legacy SpaceX revenue base and the xAI contribution. The xAI <$1B figure for 2026E reinforces the structural pattern visible in the FT May 15 detail: xAI is a P&L drag this year (per FT, $6.4B 2025 loss vs $1.6B 2024), with the [[Anthropic]] [[Colossus|Colossus 1]] compute lease (~$5B/yr) likely becoming the major xAI-related revenue line on the consolidated P&L through 2027 rather than direct [[Grok]] product revenue. The "Bloomberg approaching $20B 2026" total is reasonably consistent with FT's $18.7B 2025 consolidated revenue + an organic-only growth assumption for SpaceX standalone.
 
 *Source: [SpaceX Said to Plan Public IPO Filing as Soon as Wednesday](https://www.bloomberg.com/), Bloomberg, May 15 2026 (updated 4:51 PM EDT), by Anthony Hughes and Bailey Lipschultz.*
 
@@ -394,7 +508,7 @@ The ~13.6% premium between secondary ($1.54T) and IPO target ($1.75T) is the sla
 
 [[Deepwater Asset Management]] ([[Gene Munster]] + [[Doug Clinton]]) put out a Pressure Points special edition the day after the Reuters valuation piece, with a deliberately sharp framing: *SpaceX is building the first sovereign AI.* This is a different bull case than the one most investors have been running. Until now the IPO narrative has centered on the space business — [[Starlink]] cash flows, Starship cadence, defense contracts, [[NASA]] momentum. Deepwater's argument inverts that stack. Space is important, but AI is more important, and what SpaceX has quietly assembled under the hood is the only end-to-end AI stack owned by a single company. Treat the IPO as an AI bet, not primarily a space bet — that reframing changes which comparables govern the multiple.
 
-The stack, in their framing, has three big pieces. Energy creation: Tesla's energy business plus Colossus's gas-turbine improvisation in Memphis is the best energy-execution track record in AI. Chips and compute: [[TERAFAB]] with [[Intel]] 18A as foundry partner is the piece that differentiates SpaceX from every other hyperscaler, who all still rent silicon from [[Nvidia]] via [[TSMC]]. Models, data and distribution: [[Grok]] is the model, [[X]] is the data layer (real-time pulse of the world, increasing scientific content), [[Starlink]] is the only globally-capable last-mile distribution network — no other AI company has any answer to last mile. Deepwater ran through each hyperscaler — [[OpenAI]], [[Meta]], [[Amazon]], [[Microsoft]], [[Google]] — and called out the missing layers in each case. [[Google]] is closest on sovereignty but still fabs through [[Broadcom]] and [[TSMC]] and has no last-mile answer. See [[Sovereign AI stack]] for the full scorecard.
+The stack, in their framing, has three big pieces. Energy creation: Tesla's energy business plus Colossus's gas-turbine improvisation in Memphis is the best energy-execution track record in AI. Chips and compute: [[TERAFAB]] with [[Intel]] 18A as foundry partner is the piece that differentiates SpaceX from every other hyperscaler, who all still rent silicon from [[Nvidia]] via [[TSMC]]. Models, data and distribution: [[Grok]] is the model, [[Twitter|X]] is the data layer (real-time pulse of the world, increasing scientific content), [[Starlink]] is the only globally-capable last-mile distribution network — no other AI company has any answer to last mile. Deepwater ran through each hyperscaler — [[OpenAI]], [[Meta]], [[Amazon]], [[Microsoft]], [[Google]] — and called out the missing layers in each case. [[Google]] is closest on sovereignty but still fabs through [[Broadcom]] and [[TSMC]] and has no last-mile answer. See [[Sovereign AI stack]] for the full scorecard.
 
 The Apple analogy is doing a lot of work for them. Extreme vertical integration in smartphones captured ~90% of the category's profit against a consensus that the market would be profitless prosperity. Apply the same logic to AI and the bet is that SpaceX becomes the only AI player meaningfully profitable at scale — which is ultimately what would justify the multiple Reuters ran the math on a day earlier. Deepwater also leaned on Musk's "physical AI is half of global GDP" framing to rope [[Tesla]] — FSD, [[Tesla Optimus|Optimus]], Tesla Energy — into the same stack, positioning an eventual Tesla-SpaceX recombination as the natural completion of the framework rather than a power play. See the Tesla-SpaceX section in [[SpaceX]].
 
@@ -452,7 +566,9 @@ Artemis 2 milestone: Moon orbit mission launched with crew of 4, validating luna
 
 ## Synthesis
 
-The IPO is no longer being marketed as a pure space scarcity story. The analyst-tour design, the financial excerpts, and the valuation comps all point the same way: SpaceX is asking public investors to price a hybrid of launch monopoly, satellite utility, defense contractor, and AI infrastructure platform. That broadens the multiple story, but it also means the first consolidated xAI loss year is no side issue. It is the central credibility test for whether public investors will finance the full-stack thesis at trillion-plus scale.
+The IPO is no longer being marketed as a pure space scarcity story. The public S-1 formalizes the combined issuer as a hybrid of launch, satellite connectivity, defense, AI model distribution, terrestrial compute, and future orbital compute. That broadens the multiple story, but it also means the first consolidated xAI/X loss year is no side issue. It is the central credibility test for whether public investors will finance the full-stack thesis at trillion-plus scale.
+
+The cleanest underwriting question after the public filing: is [[Starlink]]'s subscription and operating-income base strong enough to fund the AI layer while [[Starship]] remains a gating risk for V3, direct-to-cell scale, and orbital compute? If yes, the S-1 is a platform prospectus. If no, it is a profitable connectivity company being asked to carry a speculative AI-industrial complex on its balance sheet.
 
 ---
 
@@ -467,13 +583,18 @@ The IPO is no longer being marketed as a pure space scarcity story. The analyst-
 - [[Nasdaq Fast Entry Rule]] — proposed megacap fast-track inclusion
 - [[S&P Dow Jones Indices]] — reviewing 12-month seasoning rule
 - [[S&P 500]] — ~$24T benchmarked; immediate inclusion = massive passive flows
-- [[FTSE Russell]] — proposed own fast-entry rule (contagion)
+- [[FTSE Russell]] — May 26 assessment says SpaceX appears eligible for Russell U.S. and FTSE GEIS fast entry
 - [[Dual-class shares]] — governance structure
-- [[Goldman Sachs]], [[Morgan Stanley]], [[Bank of America]], [[JPMorgan]], [[Citigroup]] — co-advisers (alphabetical, no lead left)
+- [[Goldman Sachs]] — lead-left / strategic adviser per FT May 21
+- [[Morgan Stanley]] — stabilization mandate; still a major syndicate role
+- [[Bank of America]], [[JPMorgan Chase|JPMorgan]], [[Citigroup]] — senior syndicate banks
 - [[Robinhood]] — retail distribution channel
+- [[SoFi]] — retail distribution channel mentioned in the May 25 [[Reuters]] aftermarket screen
 - [[Renaissance Capital]] — IPO market sizing
 - [[Anthropic]] — competing mega-IPO ($60B, Q4 2026)
 - [[OpenAI]] — competing mega-IPO (late 2026-2027)
+- [[2026 IPO pipeline]] — broader mega-IPO absorption and aftermarket-performance frame
+- [[Astera Labs]], [[Arm Holdings]], [[Cerebras]], [[Didi]], [[Rivian]], [[Figma]], [[Alibaba]] — Reuters May 25 IPO-performance comps
 - [[Baron Capital]] — largest outside investor (~$10B) — see also [[D1 Capital]] (~$20B reported stake at $1.75T) and [[Darsana Capital Partners]] (~$15B) as the hedge-fund-cohort tail
 - [[D1 Capital]] — single largest reported hedge-fund holder; ~$20B stake at IPO target
 - [[Darsana Capital Partners]] — ~$15B stake; ~60% of AUM concentration
@@ -503,7 +624,7 @@ The [[Financial Times]] (Amelia Pollard and George Hammond, May 18, 2026) detail
 | [[D1 Capital]] | Dan Sundheim (ex-[[Viking Global]] CIO) | 2020 | $36B (= SpaceX [[SpaceX#Funding rounds (complete)\|Series M]], Feb 2020) | ~$20B | Largest reported single-firm windfall. Sundheim told investors in 2025 he did not intend to sell "despite very substantial inbound interest" |
 | [[Darsana Capital Partners]] | [[Anand Desai]] (ex-[[Eton Park Capital Management]] partner) | 2019 | $33B (= SpaceX [[SpaceX#Funding rounds (complete)\|Series K]], Apr 2019, [[Baillie Gifford]]-led) | ~$15B | Position represents ~60% of Darsana's AUM. Position was sourced when partner Dan Irom met SpaceX while researching publicly traded satellite companies |
 
-Both firms also picked up indirect SpaceX exposure through the [[SpaceX xAI merger|Feb 2026 xAI consolidation]] — earlier [[X (Twitter)|X]] holdings converted via the 2025 X→[[xAI]] merger, then to SpaceX shares in February. Darsana additionally holds [[EchoStar]], whose ~2.8% SpaceX equity from the [[EchoStar#Deal 1: AWS-4 + H-Block spectrum (Sep 8, 2025)|spectrum-for-shares deals]] adds another indirect leg.
+Both firms also picked up indirect SpaceX exposure through the [[SpaceX xAI merger|Feb 2026 xAI consolidation]] — earlier [[Twitter|X]] holdings converted via the 2025 X→[[xAI]] merger, then to SpaceX shares in February. Darsana additionally holds [[EchoStar]], whose ~2.8% SpaceX equity from the [[EchoStar#Deal 1: AWS-4 + H-Block spectrum (Sep 8, 2025)|spectrum-for-shares deals]] adds another indirect leg.
 
 The FT also confirmed that [[Wall Street Journal]] first reported Darsana's expected payday, slightly ahead of the FT's same-day coverage; the cross-source corroboration matters because Darsana is intensely private and there are no public disclosures of either the position size or the AUM concentration.
 
@@ -551,4 +672,4 @@ The bear case fits the pattern of pre-IPO transparency forcing the prospect of a
 
 ---
 
-*Created 2026-03-29, updated 2026-04-09 with Reuters valuation math and Deepwater sovereign AI thesis. Split from [[SpaceX]] actor note. May 18 2026: Lockett Starship bear case section added. May 19 2026: hedge-fund-winners section added from FT May 18 reporting (D1 Capital + Darsana Capital Partners stake sizing).*
+*Created 2026-03-29, updated 2026-04-09 with Reuters valuation math and Deepwater sovereign AI thesis. Split from [[SpaceX]] actor note. May 18 2026: Lockett Starship bear case section added. May 19 2026: hedge-fund-winners section added from FT May 18 reporting (D1 Capital + Darsana Capital Partners stake sizing). May 24 2026: Goldman / Morgan Stanley mandate split added from FT May 21 reporting. May 26 2026: Reuters aftermarket-performance screen and FTSE Russell fast-entry eligibility added. May 27 2026: Reuters public-space proxy-rally screen added.*

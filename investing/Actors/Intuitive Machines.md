@@ -37,6 +37,16 @@ Same-session cohort: [[Rocket Lab]] +34, [[BlackSky]] +22, [[Redwire]] +20, [[AS
 
 ---
 
+## May 27 2026 SpaceX IPO proxy bid - +15.7%
+
+LUNR closed $40.34 on May 27, up 15.7% from $34.86, the strongest verified move among the main public-space proxies named in the May 27 [[Reuters]] SpaceX-IPO-halo piece. Reuters' morning snapshot had Intuitive Machines up 8.5%; the close showed a much larger full-session re-rating.
+
+The move looks like pure factor expression rather than new LUNR-specific fundamentals. Investors are treating lunar services as one of the scarce public ways to buy the space-infrastructure theme before [[SpaceX IPO 2026|SpaceX]] lists. That supports LUNR's role as a high-beta [[Space pure-plays]] member, but it raises the bar for execution: the stock is now pricing more confidence in NASA CLPS backlog conversion, Earth-to-moon communications, and future lunar infrastructure demand than the company itself updated on May 27.
+
+*Sources: [[Reuters]] via CNA, "US space stocks rise on SpaceX IPO hype," May 27 2026, https://www.channelnewsasia.com/business/us-space-stocks-rise-spacex-ipo-hype-6145121; [[Yahoo Finance]] daily closes pulled May 27 2026.*
+
+---
+
 ## Related
 
 - [[NASA]] — CLPS contracts

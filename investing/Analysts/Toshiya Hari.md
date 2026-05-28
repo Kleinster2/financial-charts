@@ -1,11 +1,12 @@
 ---
+aliases: [Hari]
 tags: [analyst, semiconductors, sell-side]
 type: person
 ---
 
 # Toshiya Hari
 
-## Quick Stats
+## Quick stats
 
 | Field | Detail |
 |-------|--------|

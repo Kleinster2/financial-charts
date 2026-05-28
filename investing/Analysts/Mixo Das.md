@@ -1,9 +1,9 @@
 ---
 aliases:
+
+tags: [person, strategist, asia, jpmorgan]
   - Das
 ---
-#person #strategist #asia #jpmorgan
-
 Mixo Das — [[JPMorgan Chase|JPMorgan]] Head of Asia Equity & Quantitative Strategy. Covers [[South Korea]], [[Taiwan]], [[India]], [[China]]. Known for framework-driven country allocation and the highest-profile Korea governance reform call of 2025.
 
 ## Quick stats

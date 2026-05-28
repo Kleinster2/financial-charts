@@ -25,6 +25,8 @@ That distinction matters inside the same ETF. [[Oracle]] increasingly trades lik
 
 The April 2026 [[Anthropic Managed Agents selloff April 2026]] pushed the split down another layer. The market had briefly rotated from application software into infrastructure software under the idea that even if apps were threatened, the plumbing would win. Managed Agents broke that simplification. [[Cloudflare]], [[Fastly]], and [[Akamai]] sold off because frontier labs can internalize parts of the runtime and orchestration layer too. So the real question is not app versus infra. It is where control of the stack sits, and which layers remain vendor-neutral once model providers start bundling execution, state, permissions, and tracing.
 
+The May 2026 [[James Anderson]] / [[Morgan Samet]] FT framing adds a capex dimension to the same bifurcation. Software platforms are not automatically the winners of AI just because they own distribution. If AI forces them to keep buying chips, power, land, cloud capacity, and deployment labor, the old asset-light software multiple has to compete with a much heavier reinvestment profile. The distinction becomes: which software companies can turn AI into higher-margin control points, and which are simply turning into infrastructure buyers with software labels.
+
 The durable read is that software is now being repriced by ownership of bottlenecks rather than by sector labels. Workflow software without a hard moat gets treated as disintermediation risk. Platforms that own enterprise data, identity, or compute access can still gain. Neutral infrastructure helps if traffic grows, but its narrative premium shrinks whenever a frontier lab proves it can absorb more of the control plane itself.
 
 ---
@@ -78,3 +80,6 @@ The label is no longer enough.
 - [[Oracle]]
 - [[Microsoft]]
 - [[Salesforce]]
+- [[AI capex arms race]]
+- [[AI capex chain basket]]
+- [[Lingotto]]

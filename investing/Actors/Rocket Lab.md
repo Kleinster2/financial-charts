@@ -98,6 +98,16 @@ CEO [[Peter Beck]] quote: *"Rocket Lab has delivered another exceptional quarter
 
 ---
 
+## May 27 2026 SpaceX IPO proxy bid - +4.9%
+
+RKLB closed $150.23 on May 27, up 4.9% from $143.20, as part of the [[Reuters]]-reported public-space rally tied to [[SpaceX IPO 2026|SpaceX IPO]] expectations. This was not a new Rocket Lab contract or earnings catalyst. The read-through is liquidity and proxy status: RKLB is the largest and most liquid listed pure-play space name, so generalist funds that want pre-IPO space exposure can buy it without reaching into microcaps.
+
+The move is smaller than [[Intuitive Machines]] (+15.7%), [[Redwire]] (+8.9%), and [[AST SpaceMobile]] (+8.3%) because RKLB had already absorbed a much larger May 8 idiosyncratic re-rating from its Q1 print and Golden Dome/SBI catalyst stack. On May 27 it functioned more as the institutional anchor of the basket than as the high-beta tail.
+
+*Sources: [[Reuters]] via Investing.com, "US space stocks rise on SpaceX IPO hype," May 27 2026, https://www.investing.com/news/stock-market-news/us-space-stocks-rise-on-spacex-ipo-hype-4712652; [[Yahoo Finance]] daily closes pulled May 27 2026.*
+
+---
+
 ## Financials
 
 ![[rocket-lab-fundamentals-chart.png]]

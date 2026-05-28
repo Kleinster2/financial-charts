@@ -196,6 +196,30 @@ Cross-link: see [[AI infrastructure financing risk]] for the risk-frame version.
 
 *Source: Morgan Stanley Thoughts on the Market, "Why AI Funding Is So Price-Insensitive," May 11 2026.*
 
+### May 15, 2026 - Midyear outlook: constructive, not complacent
+
+Morgan Stanley's 2026 midyear outlook makes AI infrastructure the bridge between its equity call and its credit caution. The firm raised its year-end 2026 [[S&P 500]] target to 8,000 and mid-2027 target to 8,300, with U.S. equities expected to lead global gains because earnings growth remains resilient and AI-related investment keeps feeding demand across semis, data centers, power, industrial equipment, and financial intermediation.
+
+The credit warning is equally important for the Morgan Stanley actor note. A year earlier, the firm expected the five largest U.S. technology companies to spend roughly $450B in both 2026 and 2027. After Q1 2026 earnings, its estimates moved to about $800B in 2026 and $1.16T in 2027. That is exactly the setup in which Morgan Stanley benefits as arranger and adviser, while also needing tools like [[Significant risk transfer]] to manage data-center credit concentration.
+
+Strategic read: Morgan Stanley is not simply bullish on AI. It is positioned at three layers of the cycle: (1) research tells clients to stay constructive on U.S. risk assets, (2) investment banking arranges the AI financing wave, and (3) credit-risk-transfer desks help recycle the balance-sheet exposure that wave creates. That triangulates the firm inside the [[AI capex arms race]] rather than adjacent to it.
+
+The live counterframe is [[Jeff Currie]]: if AI capex ultimately pays the owners of scarce energy and materials more than the buyers of compute, Morgan Stanley still earns financing fees, but its U.S.-equity preference faces a commodity/inflation constraint.
+
+*Source: [Morgan Stanley 2026 Midyear Investment Outlook](https://www.morganstanley.com/insights/articles/investment-outlook-midyear-2026), May 15 2026.*
+
+---
+
+## SpaceX IPO mandate read-through (May 2026)
+
+Morgan Stanley still has a major role in the [[SpaceX IPO 2026]], but the May 21 FT update changes the status read. Earlier reporting made the five-bank group look unusually flat and elevated [[Michael Grimes]] as the Morgan Stanley relationship banker closest to [[Elon Musk]]. The newer FT account says [[Goldman Sachs]] secured the lead-left / strategic-adviser role, while Morgan Stanley holds the stabilization mandate.
+
+That split is not trivial. Stabilization can be lucrative because it governs stock support in the volatile post-IPO period, and SpaceX made the role unusually visible in the filing. But it is not the same as controlling valuation, pricing, the roadshow, and allocations. In franchise terms, Morgan Stanley preserved economics but lost the prestige point it was expected to win.
+
+The person-level signal matters for the Morgan Stanley note. Grimes' return from the [[Commerce Department]] in February 2026 did not simply reactivate the old Musk shortcut. FT says he remains involved, but [[Kate Claassen]] and [[Colin Stewart]] have been in the daily listing process. The read-through is that the Morgan Stanley tech franchise is broader than Grimes, while the Grimes-Musk relationship is less decisive when the issuer has already been working with a rival bank for years.
+
+*Source: [Financial Times - Goldman Sachs eclipses Morgan Stanley's Michael Grimes on SpaceX IPO](https://www.ft.com/content/10cecc4e-dbce-477d-9f10-068581c6e650), May 21 2026.*
+
 ---
 
 ## SRT exploration (Jan 2026)
@@ -338,6 +362,10 @@ Compare with [[Aberdeen]]'s standalone $180 Brent scenario (Diggle, same FT piec
 - [[Meta]] — arranged $27B+ Hyperion financing
 - [[Blue Owl]] — partner on Meta SPV
 - [[AI infrastructure financing]] — key arranger for hyperscaler capital
+- [[SpaceX IPO 2026]] — stabilization mandate after Goldman won lead-left
+- [[Michael Grimes]] — senior tech banker whose Musk relationship mattered less than expected
+- [[Kate Claassen]] — Morgan Stanley banker involved daily on SpaceX IPO process
+- [[Colin Stewart]] — Morgan Stanley banker involved daily on SpaceX IPO process
 - [[Significant risk transfer]] — exploring to offload data center exposure
 - [[TeraWulf]], [[Cipher Mining]], [[Applied Digital]] — led junk bond offerings
 - [[Basis trade]] — research on $1.5T Treasury basis trade risk

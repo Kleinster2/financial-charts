@@ -123,6 +123,24 @@ python scripts/chart_treasury_real_yield_decomposition.py --force
 
 Sources: FRED series [DGS5](https://fred.stlouisfed.org/series/DGS5), [DGS10](https://fred.stlouisfed.org/series/DGS10), [DGS30](https://fred.stlouisfed.org/series/DGS30), [DFII5](https://fred.stlouisfed.org/series/DFII5), [DFII10](https://fred.stlouisfed.org/series/DFII10), [DFII30](https://fred.stlouisfed.org/series/DFII30), [T5YIE](https://fred.stlouisfed.org/series/T5YIE), and [T10YIE](https://fred.stlouisfed.org/series/T10YIE), refreshed May 20 2026.
 
+### May 24, 2026 -- Washington borrowing-cost tolerance test
+
+Reuters' May 24 analysis turned the May long-end selloff from a market-structure story into a political constraint story. The sequence was simple: the [[Operation Epic Fury|Iran war]] kept oil and inflation risk elevated; investors pushed the 10-year above 4.5%; those yields fed into [[Mortgage rates]], credit cards, and business loans; and the administration's room to keep pressing the war narrowed as midterm-election affordability risk rose.
+
+The source-reported market level was that the 10-year Treasury had touched 4.69% earlier in the week, the highest since January 2025, before last trading at 4.56%. That lines up with the vault's FRED-backed close data: DGS10 closed at 4.67% and DGS30 at 5.18% on May 19, while the 10-year breakeven was still only 2.49%. The observable move remained mostly a real-yield / term-premium move rather than a pure inflation-expectations break.
+
+The policy implication is the important part. [[Scott Bessent]] and the White House framed elevated long-end yields as temporary Iran-war disruption. Market participants quoted by Reuters were less categorical: if yields approach the 5% pain level while stocks and credit remain orderly, aggressive official intervention would look less like market stabilization and more like inflation accommodation. That is exactly where the [[Fiscal Dominance]] constraint becomes practical rather than theoretical.
+
+Source: Reuters, [US Treasury rout tests Washington's tolerance for higher borrowing costs](https://wtvbam.com/2026/05/24/analysis-us-treasury-rout-tests-washingtons-tolerance-for-higher-borrowing-costs/), May 24 2026.
+
+### May 27, 2026 -- 30-year yield stays in the war loser bucket
+
+[[Reuters]]' May 27 cross-asset graphic placed government bonds firmly in the conflict's loser camp. The mechanism is the same one this note has been tracking: higher oil prices keep inflation risk alive, fiscal and military spending expectations pressure duration, and central banks have less room to lean against growth weakness. [[Reuters]] reported the U.S. 30-year Treasury yield trading above 5%, its highest since 2007.
+
+The May 24 Washington-tolerance story and the May 27 global-winners/losers story are the same chain at different zoom levels. May 24 asked when higher Treasury yields become a political problem for Washington; May 27 showed that the bond selloff is not isolated to the U.S. German Bund yields hit their highest in more than 15 years as traders priced at least two ECB hikes by year-end. The shared driver is the Iran-war energy shock forcing rate markets to price inflation persistence even as PMIs and activity weaken.
+
+Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
+
 ### Kalshi 10-year yield bucket (May 20, 2026)
 
 [[Kalshi]]'s active KXTNOTED daily market for the May 20 10-year Treasury yield is thin, but directionally consistent with the broader tape: the only traded bucket in the API snapshot was 4.67-4.69%, last 56c with 24c / 72c bid-ask, $128 volume, and $128 open interest. Adjacent buckets from 4.64-4.72 had wide quotes and little or no volume.
@@ -152,6 +170,8 @@ Futures: 2Y, 5Y, 10Y, 30Y Treasury futures on CME—highly liquid, basis trade v
 
 | Date | Event | Impact |
 |------|-------|--------|
+| 2026-05-27 | Reuters cross-asset graphic puts bonds in Iran-war loser camp | U.S. 30Y traded above 5%, highest since 2007; Bund yields highest in more than 15 years; at least two ECB hikes priced by year-end |
+| 2026-05-24 | Reuters frames Treasury rout as Washington borrowing-cost tolerance test | 10Y touched 4.69% and last traded 4.56%; higher long-end yields now transmit directly into mortgage, credit, and midterm affordability risk |
 | 2026-04-03 | Fund managers buying sovereign bonds on growth fears | See below — shift from inflation to growth pricing |
 | 2026-01-30 | [[Kevin Warsh]] nominated Fed Chair | Curve steepened: 10Y +2bp (4.25%), 2Y -2bp (3.53%), 30Y +3bp (4.89%). Long end up on balance sheet concerns — Warsh opposes Fed holding bonds/MBS |
 | 2026-01-28 | FOMC holds at 3.50-3.75% | First pause since July. Waller/Miran dissented for 25bp cut |

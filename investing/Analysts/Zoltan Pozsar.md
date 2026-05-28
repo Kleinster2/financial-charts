@@ -1,8 +1,7 @@
 ---
 aliases: [Pozsar]
+tags: [analyst, macro, rates, usa, hungary]
 ---
-#individual #macro #rates #analyst #usa #hungary
-
 **Zoltan Pozsar** — Hungarian-American economist, founder of [[Ex Uno Plures]] (2023). Foremost expert on monetary "plumbing" — repo markets, reserves, shadow banking architecture. Creator of the [[Bretton Woods III]] thesis. Previously at [[Federal Reserve Bank of New York]], [[U.S. Treasury]], and [[Credit Suisse]].
 
 ---

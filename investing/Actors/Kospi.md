@@ -19,6 +19,14 @@ By Apr 20, the market had effectively unwound the Iran-war drawdown and returned
 
 The distinction is between **shock sensitivity** and structural identity. The March selloff showed how violently Kospi can de-rate when oil spikes and crowded foreign positions unwind. The April recovery showed the underlying earnings engine was still semiconductors, industrials, and AI-linked capex. In other words, the Iran shock interrupted the Korea trade, but it did not redefine it.
 
+## May 2026: record high despite war drag
+
+[[Reuters]]' May 27 cross-asset graphic reported [[Kospi]] at a record high three months into the [[Operation Epic Fury|Iran war]]. That is the strongest possible confirmation of the April read: Korea remains an energy importer and therefore vulnerable to the Hormuz shock, but the index's marginal driver is still AI memory. [[SK Hynix]] topping $1T in market value the same day turns the index-level move into a constituent-level signal.
+
+The useful framing is not "war no longer matters." It is "war is no longer the dominant clock for Korea equities." Oil, FX, and bonds are pricing the 3-6 month supply shock; Kospi is again pricing the 1-3 year AI capex and HBM earnings cycle.
+
+Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
+
 ## Correlation structure
 
 Using [[EWY]] as the liquid foreign-investor proxy, Kospi screens less like a generic emerging-markets beta and more like a semiconductor-heavy industrial export market.
@@ -42,6 +50,7 @@ Avg correlation (EWY proxy basket): 0.61.
 | Major weights | [[Samsung]], [[SK Hynix]], [[Hyundai]] |
 | US proxy ETF | [[EWY]] |
 | 2026 peak | ~+45% YTD through Feb 27 |
+| May 27 status | Record high despite three-month Iran-war energy shock |
 | Iran strike drawdown | ~-19% in 1 week; -12% record single day (Mar 4, 2026) |
 
 ## Related

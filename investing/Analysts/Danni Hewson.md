@@ -3,8 +3,6 @@ aliases: [Danni Hewson]
 tags: [person, analyst, uk]
 ---
 
-#person #analyst #uk
-
 Danni Hewson — Head of Financial Analysis at [[AJ Bell]]. Frequent UK financial-press commentator on equities and macro.
 
 ---

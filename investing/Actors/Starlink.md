@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #satellite #telecom #usa #subsidiary
 
-**Starlink** — [[SpaceX]] satellite internet. 10M+ subscribers (Q1 2026). ~$20B 2026 revenue tracking. 70%+ of SpaceX revenue. Profitable.
+**Starlink** — [[SpaceX]] satellite internet. 10.3M subscribers as of Mar. 31, 2026 in the public [[SpaceX IPO 2026|SpaceX S-1]]. ~$20B 2026 revenue tracking. 70%+ of SpaceX revenue. Profitable.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: []
 | Metric | Value |
 |--------|-------|
 | Parent | [[SpaceX]] |
-| Subscribers | 10M+ (Q1 2026) |
+| Subscribers | 10.3M (Mar. 31, 2026 S-1; reported per service line) |
 | 2025E revenue | $11.8B |
 | 2026 revenue tracking | ~$20B (per [[Space Capital]] Space IQ Q1 2026) |
 | % of SpaceX | ~70% of revenue |
@@ -24,15 +24,17 @@ aliases: []
 
 ## Subscriber growth
 
-| Date | Subscribers | Growth |
-|------|-------------|--------|
-| Dec 2024 | 4.6M | — |
-| Aug 2025 | 7M | +52% |
-| Nov 2025 | 8M | +14% |
-| Dec 2025 | 9M+ | +12% |
-| Q1 2026 | 10M+ | first 10M-subscriber satellite ISP |
+| Period | Subscribers | Growth / read |
+|------|-------------:|--------|
+| 2023 | 2.3M | S-1 baseline |
+| 2024 | 4.4M | +91% versus 2023 |
+| Q1 2025 | 5.0M | Q1 comp |
+| 2025 | 8.9M | +102% versus 2024 |
+| Q1 2026 | 10.3M | +105% versus Q1 2025 |
 
-Growth rate: 20,000+ new users per day. Anderson framing ([[Space Capital]] Space IQ Q1 2026): "10 million paying customers for a satellite internet service that didn't exist 6 years ago" — service launched May 2019.
+The S-1 definition counts subscribers per service line rather than per end user, so the number of individual users on the network is likely higher. Earlier 2025 press checkpoints still show the same direction, but the S-1 table is now the cleaner primary-source series.
+
+Anderson framing ([[Space Capital]] Space IQ Q1 2026): "10 million paying customers for a satellite internet service that didn't exist 6 years ago" — service launched May 2019.
 
 ---
 
@@ -43,7 +45,7 @@ Growth rate: 20,000+ new users per day. Anderson framing ([[Space Capital]] Spac
 | [[Consumer]] services | $7.5B |
 | Government contracts | $3.0B |
 | Hardware sales | $1.3B |
-| **Total** | **$11.8B** |
+| Total | $11.8B |
 
 ---
 
@@ -89,7 +91,7 @@ Growth rate: 20,000+ new users per day. Anderson framing ([[Space Capital]] Spac
 | IPO target | $1.5T (2026E) |
 | Starlink spinoff | Possible standalone IPO |
 
-**Baron Capital:** Largest SpaceX investor (~$10B position).
+Baron Capital: largest SpaceX investor (~$10B position).
 
 ---
 
@@ -103,22 +105,22 @@ Growth rate: 20,000+ new users per day. Anderson framing ([[Space Capital]] Spac
 | Telesat Lightspeed | In development |
 | Traditional ISPs | Terrestrial competition |
 
-**Moat:** First-mover, scale, vertical integration with SpaceX launches.
+Moat: first-mover, scale, vertical integration with SpaceX launches.
 
-**LEO consolidation (2025-2026):** Smaller satellite operators becoming acquisition targets for hyperscaler-backed constellations. Bloomberg reported (Oct 2025) [[SpaceX]] held early acquisition talks with [[Globalstar]]; [[Amazon]] now in advanced talks. The endgame may be 2-3 vertically integrated platforms (rockets + satellites + cloud + ground stations) rather than a fragmented market of independent operators.
+LEO consolidation (2025-2026): smaller satellite operators becoming acquisition targets for hyperscaler-backed constellations. Bloomberg reported (Oct 2025) [[SpaceX]] held early acquisition talks with [[Globalstar]]; [[Amazon]] now in advanced talks. The endgame may be 2-3 vertically integrated platforms (rockets + satellites + cloud + ground stations) rather than a fragmented market of independent operators.
 
 ---
 
 ## Investment case
 
-**Bull:**
+Bull:
 - 9M+ subscribers, growing 20K/day
 - Profitable at scale
 - Government contract runway
 - SpaceX IPO catalyst
 - Global connectivity monopoly emerging
 
-**Bear:**
+Bear:
 - No direct public investment
 - [[Amazon]] Kuiper competition coming
 - Regulatory/spectrum challenges
@@ -132,7 +134,7 @@ Growth rate: 20,000+ new users per day. Anderson framing ([[Space Capital]] Spac
 | Metric | Value |
 |--------|-------|
 | Parent | SpaceX |
-| Subscribers | 10M+ (Q1 2026) |
+| Subscribers | 10.3M (Mar. 31, 2026 S-1) |
 | Revenue | ~$11.8B (2025); ~$20B tracking (2026) |
 | Status | Profitable |
 
@@ -140,26 +142,26 @@ Growth rate: 20,000+ new users per day. Anderson framing ([[Space Capital]] Spac
 
 ## Geopolitical deployments
 
-**Starlink as foreign policy tool:**
+Starlink as foreign policy tool:
 
 | Deployment | Status |
 |------------|--------|
 | Ukraine | Active — $537M military contract |
 | Iran (2022) | Offered during Mahsa Amini protests |
-| **Iran (Jan 2026)** | Trump to call Musk about deployment |
+| Iran (Jan 2026) | Trump to call Musk about deployment |
 
-**Jan 12, 2026 — Iran:**
+Jan 12, 2026 — Iran:
 - Internet blackout 4+ days amid protests
 - Iran using military-grade jamming to block Starlink
 - Trump: "I'm going to call [Musk] as soon as I'm finished with you"
 
-**FCC approval (Jan 10, 2026):** 7,500 additional Gen2 satellites approved — total now 15,000.
+FCC approval (Jan 10, 2026): 7,500 additional Gen2 satellites approved — total now 15,000.
 
 ---
 
 ## Q1 2026 — 10M subscribers + 10K satellites simultaneously in orbit (Apr 26, 2026)
 
-[[Space Capital]] (Chad Anderson) reported in the Space IQ Q1 2026 briefing that Starlink crossed 10M subscribers during the quarter — the first satellite ISP to clear that threshold and roughly a 6-year arc from 0 (service launched May 2019). In mid-March 2026, the constellation hit 10,000 simultaneous satellites in orbit, with [[SpaceX]] adding ~5 new satellites per day. SpaceX as a whole is now tracking toward ~$20B in 2026 revenue, the bulk of which is Starlink subscription revenue rather than launch services. Falcon 9 list pricing was raised to $74M (the fourth increase since commercial launches began at $61M); rideshare moved from $6,000 to $7,000/kg. Anderson read those price increases as confidence signals that SpaceX is capacity-constrained by *internal* demand — Starlink, [[Direct to Cell]], and orbital data centers compete for launch slots that would otherwise go to commercial customers, opening room for [[Blue Origin]], [[Rocket Lab]], [[Firefly Aerospace]], and [[Arianespace]] to absorb commercial and institutional demand.
+[[Space Capital]] (Chad Anderson) reported in the Space IQ Q1 2026 briefing that Starlink crossed 10M subscribers during the quarter — the first satellite ISP to clear that threshold and roughly a 6-year arc from 0 (service launched May 2019). The public [[SpaceX IPO 2026|SpaceX S-1]] later put the exact Q1 2026 figure at 10.3M subscribers as of Mar. 31. In mid-March 2026, the constellation hit 10,000 simultaneous satellites in orbit, with [[SpaceX]] adding ~5 new satellites per day. SpaceX as a whole is now tracking toward ~$20B in 2026 revenue, the bulk of which is Starlink subscription revenue rather than launch services. Falcon 9 list pricing was raised to $74M (the fourth increase since commercial launches began at $61M); rideshare moved from $6,000 to $7,000/kg. Anderson read those price increases as confidence signals that SpaceX is capacity-constrained by *internal* demand — Starlink, [[Direct to Cell]], and orbital data centers compete for launch slots that would otherwise go to commercial customers, opening room for [[Blue Origin]], [[Rocket Lab]], [[Firefly Aerospace]], and [[Arianespace]] to absorb commercial and institutional demand.
 
 *Source: [Space IQ Q1 2026 briefing — Space Capital](https://youtu.be/iGmr4g4Iot4) (Apr 26, 2026), recorded at NASDAQ MarketSite.*
 
@@ -184,5 +186,6 @@ Growth rate: 20,000+ new users per day. Anderson framing ([[Space Capital]] Spac
 - [Teslarati: 9M subscribers](https://www.teslarati.com/starlink-passes-9-million-active-customers-just-weeks-after-hitting-8-million/)
 - [Sacra: SpaceX analysis](https://sacra.com/c/spacex/)
 - [Space Capital Space IQ Q1 2026 briefing](https://youtu.be/iGmr4g4Iot4) — 10M subscribers, 10K simultaneous satellites, $20B 2026 revenue tracking
+- [SEC S-1: Space Exploration Technologies Corp.](https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm) — subscriber series and service-line definition
 
-*Created 2026-01-09 · Updated 2026-04-27 (Q1 2026 milestones)*
+*Created 2026-01-09 · Updated 2026-05-23 (S-1 subscriber series)*

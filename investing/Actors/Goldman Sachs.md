@@ -125,6 +125,16 @@ Q4 2025 already showed the franchise mix Goldman wants: strong trading, healthie
 
 ## Research teams and public market framing
 
+### SpaceX IPO lead-left win (May 2026)
+
+The May 2026 [[SpaceX IPO 2026]] mandate is the clearest recent advisory-franchise win. The FT reported on May 21 that Goldman secured the lead-left / strategic-adviser role, giving it control over pricing and valuation discussions, the investor roadshow, and equity allocation decisions. That moves Goldman from one senior bank in a sprawling syndicate to the bank most visibly responsible for making the largest-ever IPO clear.
+
+The win is strategically clean because it offsets two prior narratives. First, [[Morgan Stanley]] and [[Michael Grimes]] were widely expected to own the Musk relationship after Grimes' long history with [[Elon Musk]] and Morgan Stanley's role in the Twitter financing. Second, Goldman had been seen as politically disadvantaged after advising Twitter's board during Musk's contested 2022 takeover. The FT's detail that Goldman had drafted the S-1 in December 2025 suggests process depth beat relationship mythology.
+
+The named Goldman team on the deal is [[Kim Posnett]], [[David Ludwig]], [[Dan Dees]], and [[Susie Scher]]. The upside is a historic underwriting fee pool and a status win over Morgan Stanley. The risk is equally concentrated: if SpaceX's consolidated loss profile, AI-infrastructure complexity, or Musk governance risk disrupts the listing, Goldman owns the visible lead role.
+
+*Source: [Financial Times - Goldman Sachs eclipses Morgan Stanley's Michael Grimes on SpaceX IPO](https://www.ft.com/content/10cecc4e-dbce-477d-9f10-068581c6e650), May 21 2026.*
+
 | Team | Lead | Focus |
 |------|------|-------|
 | US Economics | David Mericle | GDP, inflation, Fed path |
@@ -184,6 +194,10 @@ The March 12, 2026 FT episode around [[Kunal Shah]] is telling. A senior Goldman
 - [[Anshul Sehgal]] — global co-head of FICC
 - [[Kunal Shah]] — global co-head of FICC, Goldman Sachs International
 - [[Jared Cohen]] — president of Global Affairs; co-head, [[Goldman Sachs Global Institute]]
+- [[Kim Posnett]] — SpaceX IPO senior banker
+- [[David Ludwig]] — SpaceX IPO equity-capital-markets lead
+- [[Dan Dees]] — senior Goldman leader on the SpaceX IPO
+- [[Susie Scher]] — senior adviser on the SpaceX IPO
 - [[Goldman Sachs Global Institute]] — geopolitics, technology, and markets advisory platform
 - [[JPMorgan Chase]] — peer
 - [[Citigroup]] — peer

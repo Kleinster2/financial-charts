@@ -3,8 +3,6 @@ aliases: [Moorhead]
 tags: [person, analyst, semiconductors]
 ---
 
-#person #analyst
-
 Patrick Moorhead — founder and CEO of Moor Insights & Strategy, a semiconductor and technology advisory firm. Prominent industry analyst covering chip manufacturing, AI infrastructure, and compute platforms. Skeptic of [[Elon Musk]]'s [[TERAFAB]] vision — stated it's unlikely Musk will ultimately build chip fab facilities at all (March 2026).
 
 ---

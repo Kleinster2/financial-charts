@@ -11,17 +11,25 @@ Distinct from [[AI disintermediation]] (which reprices business models) and auto
 
 ---
 
+## Synthesis
+
+AI labor displacement is still an attribution problem before it is a clean macro statistic. The visible layer is named layoffs and job cuts that companies explicitly connect to AI; the deeper layer is hiring that never happens, back-office work that gets absorbed by software, and productivity gains that let companies finance AI capex with headcount discipline. The awkward middle regime is that management teams can cite AI, investors can reward margin expansion, and the aggregate labor tape can still look orderly.
+
+[[Chris Olah]]'s May 2026 Vatican remarks add a moral-distribution frame to the same pattern. From inside a frontier lab, the problem is no longer only whether AI replaces work; it is whether the gains can be shared before firms and model labs realize the upside. That makes displacement a policy and legitimacy issue for [[Anthropic]], [[OpenAI]], hyperscalers, and enterprise deployers, not just a labor-market data series.
+
+---
+
 ## The pattern
 
 Three phases are emerging:
 
-**Phase 1: Stealth replacement (2023-2024)**
+Phase 1: Stealth replacement (2023-2024)
 Companies quietly reduce hiring and let attrition work. AI handles tasks previously done by new hires who never get hired. [[Klarna]]'s chatbot handling two-thirds of customer interactions (Feb 2024) was the first concrete proof point. Nobody calls it "AI layoffs" yet.
 
-**Phase 2: Attribution begins (2025)**
+Phase 2: Attribution begins (2025)
 Companies start naming AI explicitly in layoff announcements. [[Challenger, Gray and Christmas]] tracked 55,000 US jobs directly attributed to AI in 2025 — 12× the number in 2023. Still mostly concentrated in tech (51,000 of 55,000).
 
-**Phase 3: Structural cuts (2026)**
+Phase 3: Structural cuts (2026)
 [[Block AI layoffs February 2026|Block cuts 40%]] of its workforce while posting record profits, explicitly blaming AI. [[Jack Dorsey]] predicts "the majority of companies" will follow within a year. The market rewards it with a 24% stock jump. This is the phase where AI displacement becomes a *strategy*, not a side effect.
 
 ---
@@ -39,14 +47,14 @@ Companies that have explicitly attributed layoffs to AI:
 | [[Pinterest]] | Jan 2026 | Undisclosed | — | — |
 | [[CrowdStrike]] | Feb 2026 | Undisclosed | — | — |
 | [[Amazon]] | Jan 2026 | 16,000 | ~3% | — |
-| [[Block]] | Feb 2026 | 4,000 | **40%** | **+24%** |
+| [[Block]] | Feb 2026 | 4,000 | 40% | +24% |
 | [[Clifford Chance]] | End 2025 | 10% back office | ~10% (back office) | Private |
 | [[Meta]] | Apr 23 2026 | 8,000 + 6,000 unfilled | 10% | +2.4% |
 | [[Microsoft]] | Apr 23 2026 | ~8,750 (voluntary buyout) | 7% of US workforce | +2.1% |
 
 [[Clifford Chance]]'s cut is notable as the first Magic Circle law firm to explicitly link headcount reductions to AI anticipation — see [[AI in legal services]].
 
-**Not counting:** Companies that cite "efficiency" or "restructuring" without naming AI, even when AI is the obvious driver. The real number is much higher.
+Not counting: Companies that cite "efficiency" or "restructuring" without naming AI, even when AI is the obvious driver. The real number is much higher.
 
 ---
 
@@ -86,7 +94,7 @@ Block's +24% stock reaction created a template:
 
 Dorsey said it explicitly: "Within the next year, I believe the majority of companies will reach the same conclusion." He's not predicting — he's creating a self-fulfilling prophecy by demonstrating the playbook.
 
-**The uncomfortable question:** How much of this is genuine AI capability replacing human work, vs. companies using "AI" as cover for overdue right-sizing that the market wouldn't reward under the old "restructuring" label?
+The uncomfortable question: How much of this is genuine AI capability replacing human work, vs. companies using "AI" as cover for overdue right-sizing that the market wouldn't reward under the old "restructuring" label?
 
 ### Apr 23 2026 cluster — capex offset goes explicit
 
@@ -182,11 +190,19 @@ Interpretation: the prediction-market layer is not saying AI is already big enou
 
 ## Macro implications
 
-- **55,000 AI-attributed layoffs in 2025** (Challenger data) — still tiny vs. 160M US workforce
+- 55,000 AI-attributed layoffs in 2025 (Challenger data) — still tiny vs. 160M US workforce
 - But concentrated in high-wage tech/knowledge work, not broadly distributed
 - [[ECB]]'s [[Christine Lagarde]]: AI boosting productivity but "not yet" triggering a wave of layoffs (Feb 26, 2026)
 - No government or central bank has a policy framework for AI displacement
 - If Dorsey is right about "majority of companies" following within a year, this becomes a macro employment event, not just a tech story
+
+### Olah/Vatican moral frame (May 25, 2026)
+
+[[Chris Olah]]'s May 25, 2026 remarks at Pope Leo XIV's AI encyclical presentation are not a layoff datapoint, but they are a frontier-lab insider signal that the displacement problem has moved from productivity narrative to distribution politics. Olah said large-scale AI labor displacement is a real possibility and that global sharing of AI gains has no obvious mechanism. That is the problem this note tracks from the company and labor-market side: the firms can realize productivity gains faster than society can design transfer, retraining, tax, or ownership structures around them.
+
+The read-through for the investing vault is that [[Anthropic]] is now publicly acknowledging the moral externality while selling the productivity tool. That does not resolve the macro risk; it makes the tension explicit. If AI displacement becomes politically salient, the policy response will likely target the labs and deployers that made the upside visible before the distribution mechanism existed.
+
+*Source: [Anthropic - Chris Olah remarks on Pope Leo XIV's AI encyclical](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical), May 25, 2026.*
 
 ---
 
@@ -220,7 +236,7 @@ The macro tail Block wires to this: see [[Passive investing fragility]] — the 
 
 ## The productivity paradox
 
-UC Berkeley research (cited in Bloomberg, Feb 2026): workers offloading tasks to AI agents are **working longer hours**, not fewer. AI increases output expectations faster than it reduces workload. Companies capture the productivity gains; workers absorb the pace increase.
+UC Berkeley research (cited in Bloomberg, Feb 2026): workers offloading tasks to AI agents are working longer hours, not fewer. AI increases output expectations faster than it reduces workload. Companies capture the productivity gains; workers absorb the pace increase.
 
 This suggests displacement won't be uniform. Some roles get eliminated entirely. Others get intensified — same headcount, more output, higher burnout. The jobs that survive may not be better jobs.
 
@@ -230,26 +246,26 @@ This suggests displacement won't be uniform. Some roles get eliminated entirely.
 
 China flipped from AI optimism to mass anxiety in a matter of weeks. The trigger was [[OpenClaw]].
 
-**The numbers:** WeChat Index for "AI焦虑" (AI anxiety) spiked from a baseline of ~20,000 to over 2 million on March 10, 2026. Briefly hit Weibo trending. KPMG's 47-country survey had 69% of Chinese saying AI benefits outweigh risks (vs 35% of Americans) — that number is now stale.
+The numbers: WeChat Index for "AI焦虑" (AI anxiety) spiked from a baseline of ~20,000 to over 2 million on March 10, 2026. Briefly hit Weibo trending. KPMG's 47-country survey had 69% of Chinese saying AI benefits outweigh risks (vs 35% of Americans) — that number is now stale.
 
-**What happened:**
+What happened:
 - OpenClaw mania swept China in Feb-March 2026. 1,000 people lined up outside Tencent HQ in Shenzhen for a free install session. Longgang district government offered 2-10M yuan for approved OpenClaw projects. Corporate pile-on: ByteDance (ArkClaw), Tencent (WeChat suite), Alibaba (JVS Claw), Baidu, Zhipu.ai, Moonshot all launched OpenClaw-adjacent products
 - Market frenzy: Hangzhou Shunwang +21%, Talkweb +12%, Beijing Vrv Software +15%, [[MiniMax]] +27.4% (now +600% from IPO), [[Tencent]] +8.9% in a week — all vs CSI 300 +0.9%
 - Then the backlash: central government warned SOEs and agencies against installing OpenClaw (data leakage, unauthorized access). Same people who charged hundreds of yuan to install it started charging 299 yuan to uninstall it
 
-**Why the mood shifted from excitement to anxiety:**
+Why the mood shifted from excitement to anxiety:
 
-1. **Job insecurity meets reality gap.** Most Chinese people knew AI as chatbots (Doubao, Qwen). Claude Code and Codex aren't available in China. Then suddenly media claims OpenClaw can "handle a wide range of tasks autonomously." The gap between what people experienced and what they were told deepened the sense of being left behind.
+1. Job insecurity meets reality gap. Most Chinese people knew AI as chatbots (Doubao, Qwen). Claude Code and Codex aren't available in China. Then suddenly media claims OpenClaw can "handle a wide range of tasks autonomously." The gap between what people experienced and what they were told deepened the sense of being left behind.
 
-2. **Job market context.** Peking University study (Bloomberg): sectors with higher AI exposure (accounting, editing, sales, programming) saw larger recruitment declines across 1M+ job postings (2018-2024). Record 12.7M university graduates entering the market in 2026. Government building an "employment-friendly growth model" (FT).
+2. Job market context. Peking University study (Bloomberg): sectors with higher AI exposure (accounting, editing, sales, programming) saw larger recruitment declines across 1M+ job postings (2018-2024). Record 12.7M university graduates entering the market in 2026. Government building an "employment-friendly growth model" (FT).
 
-3. **The [[Citrini 2028 Global Intelligence Crisis|Citrini 2028 report]] went viral in Chinese.** Bob Chen (BroadVision Fund, ex-CASS economist) published a response arguing China would be insulated because SaaS never took off there — China's economy is built on heavy staffing, offline relationships, and customized solutions with leaders making final calls and workers as "atomized information processors relying on Excel." That structure is better suited to AI efficiency gains than AI replacement. Reassuring thesis, but the anxiety ran deeper.
+3. The [[Citrini 2028 Global Intelligence Crisis|Citrini 2028 report]] went viral in Chinese. Bob Chen (BroadVision Fund, ex-CASS economist) published a response arguing China would be insulated because SaaS never took off there — China's economy is built on heavy staffing, offline relationships, and customized solutions with leaders making final calls and workers as "atomized information processors relying on Excel." That structure is better suited to AI efficiency gains than AI replacement. Reassuring thesis, but the anxiety ran deeper.
 
-4. **Pace anxiety.** A RedNote post: "I haven't figured out Claude Code, and Skills is already out. I haven't understood Skills, and Clawdbot is out. I haven't installed Clawdbot, and the Mac Mini price is already up." Jensen's quote circulates widely in China: "You're not going to lose your job to AI, but you're going to lose your job to someone who uses AI."
+4. Pace anxiety. A RedNote post: "I haven't figured out Claude Code, and Skills is already out. I haven't understood Skills, and Clawdbot is out. I haven't installed Clawdbot, and the Mac Mini price is already up." Jensen's quote circulates widely in China: "You're not going to lose your job to AI, but you're going to lose your job to someone who uses AI."
 
-5. **AI in warfare.** US military use of AI in Iran operations + the Anthropic/DoD saga made Chinese citizens reconsider AI as a civilian technology. Despite China's civil-military fusion policy, ordinary people had maintained a mental separation between AI and violence. That separation is dissolving.
+5. AI in warfare. US military use of AI in Iran operations + the Anthropic/DoD saga made Chinese citizens reconsider AI as a civilian technology. Despite China's civil-military fusion policy, ordinary people had maintained a mental separation between AI and violence. That separation is dissolving.
 
-**The Bob Chen "SaaS immunity" thesis — and its weakness:**
+The Bob Chen "SaaS immunity" thesis — and its weakness:
 
 Chen's argument has a structural logic: the US automated its first layer of knowledge work via SaaS (Salesforce, Workday, ServiceNow). AI's next move is replacing the SaaS itself. China skipped that step — enterprise software penetration is famously low. Companies run on WeChat groups, personal relationships, and Excel. A sales team in the US has a CRM pipeline with automated follow-ups. A sales team in China has a guy with 5,000 WeChat contacts and a boss who makes the calls.
 
@@ -257,7 +273,7 @@ If you never automated the first layer (SaaS), there's no second layer for AI to
 
 The weakness: this assumes the human-relationship model is durable. But AI agents don't just replace software — they replace coordination work. If an AI agent can manage 5,000 WeChat contacts, draft personalized messages, follow up, and report to the boss... why do you need the guy? Chen's thesis may hold for a few years. It's a delay argument, not a permanent immunity.
 
-**The corporate incentive layer (the part nobody's saying out loud):**
+The corporate incentive layer (the part nobody's saying out loud):
 
 The OpenClaw frenzy wasn't organic — it was amplified by companies who profit from adoption:
 - Cloud companies ([[Tencent]], [[Baidu]], [[ByteDance]]): OpenClaw needs cloud backends. Free install sessions = customer acquisition funnels dressed as community support
@@ -266,9 +282,9 @@ The OpenClaw frenzy wasn't organic — it was amplified by companies who profit 
 
 The anxiety was a side effect they didn't plan for but arguably benefited from — urgency drives adoption. Same dynamic as crypto bull runs: infrastructure providers hype the wave, retail absorbs the risk. The 299-yuan install/uninstall grift is the perfect coda.
 
-**Investment implication:** This is the first evidence that AI anxiety has jumped from elite/tech circles to mass culture in a major economy. If China's 1.4 billion people start feeling AI displacement before it fully arrives, the political response (regulation, protectionism, employment mandates) could reshape the AI investment landscape — especially for companies dependent on China's market or Chinese token consumption.
+Investment implication: This is the first evidence that AI anxiety has jumped from elite/tech circles to mass culture in a major economy. If China's 1.4 billion people start feeling AI displacement before it fully arrives, the political response (regulation, protectionism, employment mandates) could reshape the AI investment landscape — especially for companies dependent on China's market or Chinese token consumption.
 
-**The policy trap:** Beijing is simultaneously pushing AI as national strategic priority, building an "employment-friendly growth model," dealing with politically sensitive youth unemployment, and warning SOEs not to install OpenClaw. These goals conflict. You can't be the world's AI superpower AND protect 12.7M new graduates from AI displacement. Something gives.
+The policy trap: Beijing is simultaneously pushing AI as national strategic priority, building an "employment-friendly growth model," dealing with politically sensitive youth unemployment, and warning SOEs not to install OpenClaw. These goals conflict. You can't be the world's AI superpower AND protect 12.7M new graduates from AI displacement. Something gives.
 
 *Source: [Recode China AI](https://recodechinaai.substack.com/p/ai-anxiety-is-blooming-in-china) (Mar 17, 2026)*
 

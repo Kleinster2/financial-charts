@@ -289,6 +289,7 @@ The related KXUSAIRANAGREEMENT nuclear-deal ladder is not yet an immediate shipp
 - [[Polymarket]] — 39% normalization by April 30 (prediction market)
 - [[Kalshi]] — active reopening ladder using [[IMF]] PortWatch transit-call metric
 - [[Gulf pipeline bypass planning 2026]] — structural bypass network planning (FT Apr 2)
+- [[Maritime chokepoint dependency]] — broader no-reroute framework
 
 ### Cross-vault
 
@@ -405,3 +406,13 @@ No strategic nitrogen reserve exists anywhere. This is the core vulnerability th
 Market signals already confirming: [[CF Industries]] up 13% in early March on nitrogen exposure; [[Nutrien]] up 20% since January. Corn futures repricing on acreage compression; soybean futures absorbing the acreage pivot.
 
 *Source: Nicholas Crown (@nicholas_crown) TikTok (April 9, 2026)*
+
+---
+
+## May 24 FT chokepoint comparison
+
+The FT's May 24 visual story makes [[Strait of Hormuz]] the live no-reroute example in the global [[Maritime chokepoint dependency]] framework. Its route maps compare Feb 20-26, 2026 with Mar 25-31, 2026 and use [[MarineTraffic]] plus [[IMF PortWatch]] to show the post-war traffic collapse. The key incremental datapoint is from [[Jasper Verschuur]]: the FT attributes to him the estimate that roughly 80% of Hormuz trade lacks a practical alternative route.
+
+That matters because Hormuz differs from [[Suez Canal]] / [[Bab el-Mandeb]]. Suez can lose traffic to the [[Cape of Good Hope]] at the cost of time, fuel, and vessel capacity. Hormuz traps Gulf exports unless pipelines, overland routes, or non-Gulf supply can substitute. This is why the crisis keeps showing up in refined products, fertilizer, LNG, and food-security channels even when headline oil markets try to price a reopening.
+
+*Source: [[Financial Times]], "The power struggle in the world's narrow seas," May 24 2026; user-provided article text and screenshots.*

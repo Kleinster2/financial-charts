@@ -3,7 +3,7 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 ---
 #concept #ai #chips #competition
 
-**NVIDIA alternatives** — Companies building AI chips to compete with NVIDIA's GPU dominance. Most target inference (where CUDA moat is weaker) rather than training.
+NVIDIA alternatives — Companies building AI chips to compete with the dominant GPU stack. Most target inference where the [[CUDA moat]] is weaker rather than training.
 
 ---
 
@@ -18,7 +18,7 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 | Power | GPUs power-hungry |
 | Concentration risk | Customers want optionality |
 
-**Thesis:** No market stays 90% concentrated forever. Alternatives will capture share, especially in inference.
+Thesis: No market stays 90% concentrated forever. Alternatives will capture share, especially in inference.
 
 ---
 
@@ -26,10 +26,10 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 
 | Market | NVIDIA position | Alternative opportunity |
 |--------|-----------------|------------------------|
-| **Training** | Dominant (CUDA essential) | Harder to displace |
-| **Inference** | Strong but contestable | Power efficiency matters more |
+| Training | Dominant (CUDA essential) | Harder to displace |
+| Inference | Strong but contestable | Power efficiency matters more |
 
-**Key insight:** Training happens once. Inference happens billions of times. Power/cost efficiency wins in inference.
+Key insight: Training happens once. Inference happens billions of times. Power/cost efficiency wins in inference.
 
 ---
 
@@ -39,12 +39,12 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 
 | Company | Approach | Stage | Valuation |
 |---------|----------|-------|-----------|
-| [[Groq]] | LPU, inference speed | **Acquired by NVIDIA** (Dec 2025) | $20B deal |
+| [[Groq]] | LPU, inference speed | Acquired by NVIDIA (Dec 2025) | $20B deal |
 | [[Cerebras]] | Wafer-scale chips | [[Shipping]] | ~$4B |
 | [[Tenstorrent]] | [[RISC-V]], open architecture | [[Shipping]] | ~$2.6B |
 | [[SambaNova]] | Dataflow architecture | [[Shipping]] | ~$5B |
 | [[Graphcore]] | IPU | Struggling | — |
-| [[FuriosaAI]] | [[NPU]], inference | **Mass prod Jan 2026** | $735M |
+| [[FuriosaAI]] | [[NPU]], inference | Mass prod Jan 2026 | $735M |
 
 ### Hyperscaler custom silicon
 
@@ -63,6 +63,12 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 | [[Biren Tech]] | BR100 | Entity List |
 | [[Enflame]] | CloudBlazer | Entity List |
 | [[Kunlunxin]] | Kunlun | [[Baidu]] spinout |
+
+#### May 2026: Huawei's post-node path
+
+Huawei's [[Tau Scaling Law]] / [[LogicFolding]] announcement makes the China alternatives story less purely about duplicating NVIDIA's chip spec sheet. The company is trying to substitute at the architecture and system layer: shorten interconnect, reduce latency, co-optimize software/silicon, and bind many domestic chips into usable clusters. Fall 2026 [[Kirin]] chips are the first commercial test; [[Ascend]] and large AI clusters are the later strategic target.
+
+This reinforces the core alternatives thesis in China: a sovereign chip does not need to beat [[NVIDIA]] globally if export controls, procurement pressure, and domestic model deployment make it the default local target. The bear case remains power, heat, tooling, and system integration.
 
 ### Incumbents
 
@@ -88,7 +94,7 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 
 ## The CUDA moat
 
-**Why NVIDIA is hard to displace:**
+Why NVIDIA is hard to displace:
 
 | Factor | Description |
 |--------|-------------|
@@ -98,7 +104,7 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 | Libraries | 15+ years of optimization |
 | [[Network effects]] | More developers → more libraries → more developers |
 
-**How alternatives compete:**
+How alternatives compete:
 - [[Target]] inference (less CUDA-dependent)
 - Offer massive cost/power savings
 - Open-source software stacks
@@ -108,14 +114,14 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 
 ## Investment thesis
 
-**Bull case for alternatives:**
+Bull case for alternatives:
 - Inference market growing faster than training
 - Hyperscalers want supplier diversity
 - Power efficiency increasingly critical
 - NVIDIA can't supply everyone
 - Some workloads don't need CUDA
 
-**Bear case:**
+Bear case:
 - CUDA moat is real
 - NVIDIA keeps innovating
 - Switching costs high
@@ -129,29 +135,29 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 | Company | Status |
 |---------|--------|
 | [[AMD]] | Gaining share, MI300 competitive |
-| [[Groq]] | **Acquired by NVIDIA** ($20B, Dec 2025) |
+| [[Groq]] | Acquired by NVIDIA ($20B, Dec 2025) |
 | [[Cerebras]] | Training niche, big customers |
 | Google TPU | Internal success |
 | Amazon Inferentia | Growing AWS adoption |
 | [[Tenstorrent]] | Early, Jim Keller credibility |
-| [[FuriosaAI]] | **Mass production started**, LG design win |
+| [[FuriosaAI]] | Mass production started, LG design win |
 | Graphcore | Struggling |
 | Intel Gaudi | Struggling |
 
-**Post-Groq landscape:** NVIDIA absorbed its most visible inference competitor. [[FuriosaAI]] and [[Cerebras]] are now the leading independent AI chip startups.
+Post-Groq landscape: NVIDIA absorbed its most visible inference competitor. [[FuriosaAI]] and [[Cerebras]] are now the leading independent AI chip startups.
 
 ---
 
 ## How to play it
 
-**Direct (private):**
+Direct private exposure:
 - Groq, Cerebras, Tenstorrent — need private access or IPO
 
-**Public alternatives:**
+Public alternatives:
 - [[AMD]] — \#2 GPU, MI300X competitive
 - [[Broadcom]] — custom ASIC for Google
 
-**Indirect:**
+Indirect exposure:
 - Bet on customers diversifying (hyperscalers)
 - Short NVIDIA concentration (risky)
 
@@ -165,6 +171,9 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 - [[Cerebras]], [[Tenstorrent]], [[SambaNova]] — US alternatives
 - [[FuriosaAI]] — Korean alternative (leading independent)
 - [[Ascend]] — [[China]] alternative
+- [[Huawei]] — China alternative integrating chips, clusters, and software
+- [[Tau Scaling Law]] — Huawei post-node design framework
+- [[LogicFolding]] — Huawei architecture tied to Kirin and later Ascend
 - [[AMD]] — \#2 GPU
 - [[CUDA moat]] — why NVIDIA is hard to displace
 - [[Inference disaggregation]] — structural trend

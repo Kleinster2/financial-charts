@@ -3,8 +3,6 @@ aliases: [Matthew Sheehan]
 tags: [analyst, china, ai, media]
 ---
 
-#person
-
 # Matt Sheehan
 
 China and AI analyst focused on Chinese model development, industrial policy, and U.S.-China technology competition. Frequent contributor to [[ChinaTalk]] and a useful bridge between policy and commercial AI analysis.

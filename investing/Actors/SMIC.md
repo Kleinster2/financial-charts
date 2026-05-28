@@ -136,6 +136,16 @@ See [[Jensen Huang]] for the full argument and [[Export controls]] for the polic
 
 ---
 
+## Huawei Tau Scaling read-through (May 2026)
+
+[[Huawei]]'s [[Tau Scaling Law]] announcement is a demand-side amplifier for SMIC, not proof that SMIC has closed the process-node gap. The framework tries to recover performance by shortening signal paths and optimizing across chip and system layers while the foundry base remains constrained by DUV multi-patterning.
+
+For SMIC, that matters because 7nm-class domestic output becomes more useful if Huawei can extract more system performance per wafer through [[LogicFolding]], [[Kirin]], [[Ascend]], and SuperPoD-level design. Reuters reported that SMIC shares rose after the announcement, but this pass did not independently verify the closing price move, so the note treats the reaction as source-reported rather than a measured market signal.
+
+The structural test remains unchanged: node lag, yield, power, and heat. Tau Scaling can reduce the penalty of being behind [[TSMC]], but it does not erase the equipment gap.
+
+---
+
 ## What to watch
 
 - [ ] 5nm progress and yield reports
@@ -144,6 +154,7 @@ See [[Jensen Huang]] for the full argument and [[Export controls]] for the polic
 - [ ] Huawei chip roadmap (SMIC-dependent)
 - [ ] US tightening of DUV restrictions
 - [ ] AI data center utilization rates — Zhao's overcapacity warning
+- [ ] [[LogicFolding]] benchmarks in fall 2026 [[Kirin]] chips
 
 ---
 
@@ -171,3 +182,5 @@ See [[Jensen Huang]] for the full argument and [[Export controls]] for the polic
 - [[Foundry Wars]] — context ([[China]]'s flagship)
 - [[ASML]] — supplier (EUV blocked, DUV only)
 - [[Memory shortage 2025-2026]] — constrains SMIC customers (logic orders limited by memory availability)
+- [[Tau Scaling Law]] — Huawei's system-level workaround for node constraints
+- [[LogicFolding]] — architecture that could lift effective performance on SMIC nodes

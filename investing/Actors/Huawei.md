@@ -88,6 +88,18 @@ For export controls, this is the scenario [[Jensen Huang]] warned about: if US h
 
 DeepSeek's V4 technical white paper, surfaced in commentary on Bloomberg "The China Show" Apr 27, describes V4 as trained "almost exclusively" on Huawei [[Ascend]] hardware. A social-media account affiliated with Chinese state media on the same day framed the launch timing as evidence of "deeper integration with the Chinese chip ecosystem" — turning what could have been an engineering footnote into the official narrative anchor of the release. [[Bloomberg Intelligence]]'s [[Robert Lee]]: with V4 running near-frontier (~10% gap to leading [[Anthropic]] models per Lifebench) on cheap domestic compute, the practical chance of Chinese hyperscalers issuing wholesale [[Nvidia]] orders for V4-class workloads is "probably pretty limited." That moves Huawei from "domestic alternative" to default Chinese training-stack provider for the sovereign-deployment use case. See [[DeepSeek-V]] Apr 27 entry for the broader frontier-gap and pricing discussion.
 
+### May 2026: Tau Scaling and LogicFolding as the post-node workaround
+
+On May 25, 2026, Huawei used IEEE ISCAS in Shanghai to publish [[Tau Scaling Law]], a chip-design framework that shifts the optimization target from pure geometric shrink toward reducing signal-propagation time across devices, circuits, chips, and systems. [[He Tingbo]], president of Huawei's semiconductor business and director of its Scientist Committee per Reuters, presented the framework alongside [[LogicFolding]], the architecture Huawei says will first appear in fall 2026 [[Kirin]] chips.
+
+The announcement is strategically important because it gives Huawei a roadmap that does not require immediate [[TSMC]]-class process parity. Huawei says it has designed and mass-produced 381 chips over six years using Tau Scaling principles and expects high-end chips based on the framework to reach 14 angstrom / 1.4nm-equivalent transistor density by 2031. Reuters noted that Huawei did not provide independent performance data, so the right read is not "Huawei caught TSMC"; it is "Huawei is trying to make node denial less binding through vertical system optimization."
+
+The later AI read-through is [[Ascend]]. Reuters reported that LogicFolding is planned for Ascend chips and large AI clusters by around 2030. That ties the mobile SoC test to the same SuperPoD / CloudMatrix strategy already visible in [[DeepSeek]] V4: more domestic chips, stronger interconnect, more software-hardware co-design, and a protected Chinese demand base created by [[Export controls]].
+
+The constraints stay real. [[Brady Wang]] at [[Counterpoint Research]] flagged cost, power, heat, and system integration as the hard problems, especially for cloud-AI servers; Reuters also noted He Tingbo's caveat that new design tools and thermal control remain hurdles. The investable signal is the direction of travel, not verified parity.
+
+*Sources: [Huawei official release, May 25 2026](https://www.huawei.com/en/news/2026/5/ieee-iscas-tau-scaling); [Reuters via Investing.com, May 25 2026](https://m.investing.com/news/economy-news/huawei-proposes-new-path-for-chip-development-amid-us-sanctions-4708270?ampMode=1).*
+
 ### Networking
 - Still major [[5G]] equipment provider (outside US/allies)
 - Banned from US, [[UK]], [[Australia]], others
@@ -240,6 +252,8 @@ Jensen's framing: the point is not that Huawei has matched [[NVIDIA]], but that 
 - [ ] Global AI chip proliferation — Huawei [[Ascend]] exports to global south
 - [ ] Automotive AI compute — >$10B five-year smart-driving compute investment, domestic alternative to foreign auto-AI stacks
 - [ ] American AI Export Program — US counter to Huawei global push
+- [ ] Fall 2026 [[Kirin]] launch — first commercial test for [[LogicFolding]]
+- [ ] [[Ascend]] / AI-cluster Tau Scaling roadmap — whether system-level gains survive cloud-AI power and heat constraints
 
 ---
 
@@ -258,7 +272,7 @@ Ownership: Employee stock ownership plan. Not investable directly.
 
 ---
 
-*Updated 2026-04-24*
+*Updated 2026-05-25*
 
 ---
 
@@ -281,3 +295,7 @@ Ownership: Employee stock ownership plan. Not investable directly.
 - [[Automotive AI]] — smart-driving compute and vehicle OS context
 - [[Dongfeng Motor]] — state-owned smart-driving partner context
 - [[China AI Plus]] — policy umbrella for embedding AI in hardware
+- [[Tau Scaling Law]] — Huawei's post-node scaling framework
+- [[LogicFolding]] — circuit/chip architecture scheduled for fall 2026 Kirin
+- [[Kirin]] — first planned LogicFolding product family
+- [[He Tingbo]] — Huawei semiconductor executive who presented the framework

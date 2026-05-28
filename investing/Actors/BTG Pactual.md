@@ -63,6 +63,14 @@ Esteves became Vice Chairman of [[Cosan]]'s board following BTG's R$4.5B partici
 
 ---
 
+## AgroForum Cuiabá 2026
+
+The May 22, 2026 AgroForum Cuiabá closing panel paired [[Andre Esteves]] with [[Mansueto Almeida]] and shows BTG acting as a macro narrative platform for Brazil allocation. The panel's core message was not bank-specific earnings guidance; it was a sell-side allocator thesis: Brazil is unusually fixable if the next government controls mandatory spending growth, while the country's private capital markets, concessions pipeline, food base, clean energy, and digital financial infrastructure are already stronger than the old public-bank-led model implied.
+
+For BTG, the read-through is strategic rather than immediate P&L. The same thesis supports BTG's fee pool across infrastructure finance, private credit, wealth, agribusiness capital markets, and macro distribution: a Brazil repricing cycle would increase deal activity and wealth-client risk appetite, while a failed fiscal adjustment would keep the carry trade alive but cap duration assets.
+
+---
+
 ## Business lines
 
 | Segment | Description |

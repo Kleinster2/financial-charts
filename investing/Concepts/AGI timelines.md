@@ -1,5 +1,5 @@
 ---
-aliases: [timeline to AGI, ASI timeline, Situational Awareness]
+aliases: [timeline to AGI, ASI timeline, Situational Awareness report, The Decade Ahead]
 ---
 
 Debate over when AI reaches human-level or superhuman capability.
@@ -12,10 +12,13 @@ ASI: Artificial superintelligence. Finding unexpected scientific discoveries, se
 
 ## Situational Awareness report
 
-Leopold Aschenbrenner's influential report predicted:
-- Superhuman coder → superhuman AI researcher → ASI
-- Originally: 2027-28
-- Updated: pushed back to 2031 mean prediction
+[[Leopold Aschenbrenner]]'s June 2024 report, *Situational Awareness: The Decade Ahead*, argued that [[AGI timelines|AGI]] by 2027 was "strikingly plausible" and that the path from AGI to superintelligence could move quickly if AI systems begin automating AI research itself.
+
+Core chain:
+- Superhuman coder -> superhuman AI researcher -> ASI
+- 2027 as the original high-salience AGI window
+- Trillion-dollar-cluster economics, lab security, and state involvement as the non-model bottlenecks
+- Current prediction-market aggregates are less aggressive than the original report, but still cluster around late-2020s / early-2030s rather than distant-2040s timelines
 
 Core thesis: once you have superhuman coder, everything else follows quickly because AI can accelerate its own research.
 

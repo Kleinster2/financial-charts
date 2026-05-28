@@ -17,6 +17,7 @@ The most politically sensitive refined petroleum product in the US — the price
 | Futures benchmark | RBOB (NYMEX) |
 | 2022 peak price | ~$5.00/gallon (June 2022) |
 | Apr 15 2026 level | $4.10/gallon (AAA national avg) — $4 threshold breached |
+| May 27 2026 level | $4.56/gallon — four-year high during Iran-war oil shock |
 | Mar 21 2026 reference | ~$3.19/gallon, +32% since conflict |
 | Political pain threshold | ~$4.00/gallon (erodes approval ratings) |
 | Tracks | [[WTI]] (not [[Brent crude|Brent]] or [[Dubai crude|Dubai]]) |
@@ -68,12 +69,17 @@ The threshold crossing: the vault's March 21 Brooks reference had US gasoline "s
 | Apr 3 | National avg "over $4" | All-In E222 readout — $4 threshold crossed between Mar 21 and Apr 3 |
 | Apr 15 | $4.10/gallon national avg (AAA) | +~$1/gal since war began |
 | Apr 15 | Diesel $5.63/gallon | Within $0.18 of $5.81 ATH |
+| May 27 | $4.56/gallon national avg | Four-year high; Reuters framed it as the U.S. consumer-facing leak-through from global oil markets |
 
 **[[Amos Hochstein]] assessment (Mar 31):** $4/gallon "already a psychological barrier, not for the White House, but for the American people." California gasoline already over $6/gallon.
 
 US diesel at $5/gallon (Will Kennedy, Bloomberg, March 19) is running well ahead of gasoline — trucking and agriculture absorbing more of the shock than consumers at the pump. The refined product spread (diesel premium over gasoline) widening signals industrial pain arriving before consumer pain.
 
 By April 15, diesel reached $5.63/gallon, within $0.18 of the all-time high of $5.81. Hochstein's March 31 framing of diesel as the more economically consequential product — because trucking costs pass through to every consumer good — is playing out: pump gasoline at $4.10 is the political threshold; diesel near ATH is the goods-inflation transmission channel.
+
+By May 27, [[Reuters]] reported U.S. gasoline at $4.56/gallon, a four-year high. The number matters because it confirms the U.S. energy-independence buffer is partial, not absolute: domestic oil and gas self-sufficiency softens the growth hit, but the global nature of crude and refined-product markets still pushes the pump price into the mid-$4s. That keeps the White House borrowing-cost / gasoline-price tolerance problem live alongside the [[Treasuries]] selloff.
+
+Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
 
 ---
 
@@ -97,4 +103,4 @@ The pump price has been above $4 since approximately early April (All-In E222 re
 - [[Rapidan Energy Group]] — $150/bbl export-restriction trigger (Apr 15)
 - [[Donald Trump]] — 2024 campaign energy-cost promise now inverted
 
-*Created 2026-03-23. Updated 2026-04-15 — $4 pump-price threshold breached at $4.10, diesel near ATH $5.63, Rapidan export-control trigger flagged.*
+*Created 2026-03-23. Updated 2026-05-28 -- Reuters May 27 four-year high at $4.56/gallon added.*

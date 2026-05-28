@@ -1,9 +1,11 @@
 ---
 aliases: [MOD]
+tags: [actor, public, datacenter, cooling, usa]
+ticker: MOD
+exchange: NYSE
 ---
-#actor #datacenter #cooling #usa #public
 
-**Modine Manufacturing** — Liquid cooling for data centers. 2024 breakout stock. AI thermal play.
+**Modine Manufacturing** — thermal-management company pivoting from legacy vehicle and HVAC exposure toward data-center cooling. The May 26, 2026 $4B Airedale long-term capacity agreement turned the note from a generic AI-cooling watchlist item into a concrete hyperscaler-capacity story.
 
 ---
 
@@ -14,8 +16,9 @@ Liquid cooling specialist:
 | Metric | Value |
 |--------|-------|
 | Ticker | MOD |
-| Market cap | ~$5B |
-| 2024 return | +150%+ |
+| Latest close | $295.88 on May 26, 2026 |
+| Market cap | ~$15.8B |
+| May 26 2026 move | +13.6%, +3.4σ beta-adjusted |
 | Focus | Thermal management |
 | Data center | Fastest growing segment |
 
@@ -23,7 +26,7 @@ Liquid cooling specialist:
 
 ## Business transformation
 
-**From auto to data centers:**
+From auto to data centers:
 - Legacy: [[Automotive]] thermal
 - Growth: Data center cooling
 - Pivot accelerating
@@ -44,7 +47,7 @@ Liquid cooling specialist:
 
 ## Liquid cooling advantage
 
-**Why liquid for AI:**
+Why liquid for AI:
 - GPU power: 700W+ each
 - Air cooling insufficient
 - Direct-to-chip liquid
@@ -56,7 +59,7 @@ AI = thermal emergency.
 
 ## Airedale acquisition
 
-**[[UK]] precision cooling:**
+[[UK]] precision cooling:
 - Acquired 2023
 - Precision cooling units
 - Data center focused
@@ -64,9 +67,21 @@ AI = thermal emergency.
 
 ---
 
+## May 26, 2026 — $4B Airedale capacity agreement (+13.6%, +3.4σ)
+
+MOD closed $295.88 on May 26, up 13.6% from $260.52 while [[SPY]] rose 0.66%. The move screened at +3.4σ beta-adjusted using Yahoo Finance daily closes, a 120-session beta estimate, and 60-session residual volatility.
+
+The catalyst was Modine's long-term capacity agreement with an unnamed strategic data-center customer. Modine will reserve capacity to supply more than $4B of Airedale data-center cooling products during calendar years 2027-2029, and received a $165M upfront cash payment to support the capacity buildout. This is the concrete evidence the old note was missing: Airedale is no longer only a liquid-cooling option in the AI infrastructure stack; it has customer-funded capacity reservation tied to multi-year hyperscaler demand.
+
+The read-through for the thesis is positive but specific. It validates Modine's pivot toward mission-critical data-center cooling and offsets part of the January 2026 "Rubin without chillers" concern, because the agreement covers Airedale cooling systems at scale rather than a single chiller product. The remaining risk is customer concentration and execution: Modine has to convert the upfront payment into capacity without margin leakage while still separating the lower-margin Performance Technologies business.
+
+*Sources: Yahoo Finance chart data pulled May 26 2026; Modine / PRNewswire, "Modine Announces Landmark $4 Billion Long-Term Capacity Agreement through 2029 with Strategic Data Center Customer for Airedale by Modine Cooling Solutions," May 26 2026, https://www.prnewswire.com/news-releases/modine-announces-landmark-4-billion-long-term-capacity-agreement-through-2029-with-strategic-data-center-customer-for-airedale-by-modine-cooling-solutions-302779610.html.*
+
+---
+
 ## 2024 performance
 
-**Breakout year:**
+Breakout year:
 - Stock +150%+
 - Data center revenue surge
 - Hyperscaler wins
@@ -102,37 +117,37 @@ Data center = growth engine.
 
 ## Rubin cooling risk (Jan 2026)
 
-**[[Jensen Huang]] CES comment hit cooling stocks:**
+[[Jensen Huang]] CES comment hit cooling stocks:
 
 | Detail | Impact |
 |--------|--------|
-| Statement | Rubin chips can be cooled in water **without a chiller** |
+| Statement | Rubin chips can be cooled in water without a chiller |
 | MOD reaction | Stock "pounded" |
 | JCI reaction | Also hit |
 | Risk | Reduced need for chiller equipment |
 
-**Eric Clark (Rational Dynamic Brands):**
+Eric Clark (Rational Dynamic Brands):
 > "There's certainly a risk in names that are tied to the cooling side."
 
-**Counter-argument:** Even without chillers, liquid cooling infrastructure still needed. Modine makes coolant distribution units and heat exchangers beyond just chillers.
+Counter-argument: Even without chillers, liquid cooling infrastructure still needed. Modine makes coolant distribution units and heat exchangers beyond just chillers.
 
 ---
 
 ## Investment case
 
-**Bull:**
+Bull case:
 - Liquid cooling = AI necessity
 - Transformation working
 - Hyperscaler relationships
 - Smaller = more upside
 - Beyond just chillers (CDUs, heat exchangers)
 
-**Bear:**
+Bear case:
 - Already up 150%
 - Auto legacy drag
 - Vertiv/Schneider scale
 - Execution on transformation
-- **Rubin chiller-free cooling risk**
+- Rubin chiller-free cooling risk
 
 ---
 
@@ -141,11 +156,12 @@ Data center = growth engine.
 | Metric | Value |
 |--------|-------|
 | Ticker | MOD |
-| Market cap | ~$5B |
-| 2024 return | +150%+ |
-| Focus | Liquid cooling |
+| Latest close | $295.88 on May 26, 2026 |
+| Market cap | ~$15.8B |
+| May 26 2026 move | +13.6%, +3.4σ beta-adjusted |
+| Focus | Thermal management and data-center cooling |
 
-*Updated 2026-01-15*
+*Updated 2026-05-26*
 
 ---
 

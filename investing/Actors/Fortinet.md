@@ -41,7 +41,7 @@ FTNT trades as a core Software name (IGV r = 0.73).
 | **FortiManager** | Centralized management |
 | **FortiAnalyzer** | Security analytics |
 | **FortiSIEM** | Security operations |
-| **FortiSASE** | Secure access service edge |
+| **FortiSASE** | [[SASE]] / secure access service edge |
 
 Security Fabric = integrated platform.
 
@@ -77,7 +77,7 @@ High gross margins, growing recurring revenue.
 **Bull:**
 - Integrated security platform
 - Mid-market dominance
-- SASE opportunity
+- [[SASE]] opportunity
 - Founder-led
 
 **Bear:**

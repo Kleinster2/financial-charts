@@ -110,7 +110,11 @@ The challenge is compounded by a structural shift in the buyer base. [[Federal R
 
 During the Iran war's early volatility, some crowded hedge fund trades were "flushed out" but the selling did not accelerate. [[Gillian Tett]] (FT, Apr 3 2026) credits Bessent with deploying "numerous tricks" to maintain calm. Long-term asset owners (insurers) have held. Whether this stability persists through the rollover depends on whether the war drags on, raises inflation further, or produces additional geopolitical shocks.
 
+By May 24, Reuters was describing the same constraint as a Washington tolerance test. The 10-year Treasury had touched 4.69% earlier in the week and the long-end move was feeding into mortgages, credit cards, and business loans. Bessent's public line was that elevated long-end yields were a temporary effect of the Iran-war energy shock. That framing is defensible if a peace deal arrives quickly, but it also makes the risk binary: if the war persists and yields move toward 5%, Treasury's ability to soothe the market through issuance management alone looks thin.
+
 *Source: FT (Gillian Tett, Apr 3 2026)*
+
+*Source: Reuters, [US Treasury rout tests Washington's tolerance for higher borrowing costs](https://wtvbam.com/2026/05/24/analysis-us-treasury-rout-tests-washingtons-tolerance-for-higher-borrowing-costs/), May 24 2026.*
 
 ---
 

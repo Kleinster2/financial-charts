@@ -7,9 +7,21 @@ aliases: [Japan Organization for Metals and Energy Security, Japan Organisation 
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Full name | Japan Organization for Metals and Energy Security |
+| Country | [[Japan]] |
+| Parent ministry | [[METI]] |
+| Focus | Energy and critical-minerals security |
+| Key tool | Strategic stockpiles and overseas project finance |
+
+---
+
 ## Why JOGMEC matters
 
-JOGMEC is the most successful example of a state-backed critical minerals diversification strategy. In a decade, it reduced [[Japan]]'s dependence on [[China]] for rare earths from **90% to 58%** — through a combination of overseas investment, stockpiling, technology development, and recycling.
+JOGMEC is the most successful example of a state-backed critical minerals diversification strategy. In a decade, it reduced [[Japan]]'s dependence on [[China]] for rare earths from 90% to 58% — through a combination of overseas investment, stockpiling, technology development, and recycling.
 
 Western countries are now copying this model. The US–Japan Critical Minerals Agreement (Oct 2025) explicitly draws on JOGMEC's approach.
 
@@ -27,6 +39,8 @@ Western countries are now copying this model. The US–Japan Critical Minerals A
 
 Expanded in 2020 to 180 days for minerals with high geopolitical risk (e.g., those dominated by [[China]]).
 
+In May 2026, Reuters reported that [[METI]] could release rare earth stockpiles if China's Japan-specific cutoff tightened enough to threaten users. That is the JOGMEC model's live test: stockpiles buy time, but they do not replace the processing capacity Japan still needs from [[Lynas Rare Earths]], Caremag, and other non-China projects.
+
 ---
 
 ## Overseas investment portfolio
@@ -41,7 +55,7 @@ $11B total spending (2023), half on investments and loans. 100+ projects in 15 c
 | REAlloys | US/[[Canada]] | Rare earths + magnets | MoU, financing under discussion | First JOGMEC partnership with US producer |
 | ECERDC | Malaysia | Rare earths | MoC signed Dec 2025 | Cooperative framework |
 
-**Caremag is significant** — the first facility outside [[China]] to extract heavy rare earths (dysprosium, terbium), critical for high-temperature magnets in EVs and defense.
+Caremag is significant: the first facility outside [[China]] to extract heavy rare earths (dysprosium, terbium), critical for high-temperature magnets in EVs and defense.
 
 ---
 
@@ -91,8 +105,9 @@ FT contrasts this favorably with the US approach of stake-building in specific d
 
 JOGMEC is not investable directly — it's a government agency. But its activities create investable signals:
 
-- **JOGMEC-backed projects** get de-risked (equity, offtake, technology transfer)
+- JOGMEC-backed projects get de-risked (equity, offtake, technology transfer)
 - [[Lynas Rare Earths]] is the prime example — JOGMEC backing transformed it into the only non-China major rare earth producer
+- May 2026: [[Reuters]] reported [[Lynas Rare Earths|Lynas]] produced 8 metric tons of separated [[Dysprosium]] / [[Terbium]] in Q1 2026, versus China's 2024 flow to Japan of roughly 14 tons per month of the same elements. That scale gap explains why stockpiles still matter even after diversification.
 - REAlloys partnership signals JOGMEC expanding into North American magnet supply chains
 - JOGMEC's stockpile purchases move markets in cobalt, tungsten, rare earths
 

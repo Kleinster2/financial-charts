@@ -3,7 +3,7 @@ aliases: [GFS, GloFo]
 ---
 #actor #foundry #usa
 
-GlobalFoundries — Third-largest foundry globally. Spun off from AMD (2009). Focus on mature/specialty nodes (12nm+) — automotive, RF, IoT. Mubadala-controlled, US fabs.
+GlobalFoundries — Third-largest foundry globally. Spun off from AMD (2009). Focus on mature/specialty nodes (12nm+) — automotive, RF, IoT. Mubadala-controlled, but the public float is widening after a May 2026 block sale reduced Mubadala's stake to roughly 73%. US fabs make GFS a geopolitical/CHIPS Act asset, while mature-node cyclicality and shareholder overhang keep the multiple fragile.
 
 ---
 
@@ -28,7 +28,7 @@ GF occupies a strategic niche between leading-edge and commodity:
 |------|---------|
 | Position | \#3 foundry (after TSMC, Samsung) |
 | Strategy | Mature nodes, specialty processes |
-| Ownership | Mubadala (Abu Dhabi) ~85% |
+| Ownership | Mubadala (Abu Dhabi) ~73% after May 2026 block sale |
 | US presence | Malta NY fab — geopolitical value |
 
 ---
@@ -137,12 +137,22 @@ Abu Dhabi sovereign wealth:
 
 | Metric | Value |
 |--------|-------|
-| Stake | ~85% |
+| Stake | ~73% after May 2026 block sale |
 | Acquired | AMD spinoff (2009) |
 | IPO | Oct 2021 |
 | Control | Effective control despite public listing |
 
-Mubadala provides patient capital — not forcing leading-edge race.
+Mubadala still provides patient capital and strategic control, but the May 2026 block sale made the ownership overhang explicit. The trade broadens the institutional float while reminding public investors that a sovereign holder can monetize into strength.
+
+---
+
+## May 27, 2026 — Mubadala block sale hits the tape
+
+GFS closed at $81.11, down 9.8% on May 27, an estimated -3.1σ beta-adjusted move using local volatility history through May 1 as the baseline. The catalyst was not a demand shock inside the foundry business; it was supply of stock. Mubadala sold 22M GlobalFoundries shares under Rule 144, reducing its beneficial ownership from about 422M shares, or 77% of shares outstanding, to about 400M shares, or 73%.
+
+The market read is straightforward: GFS has re-rated hard on US semiconductor reshoring, silicon photonics, data center, and quantum optionality, but the share register still has a large controlling-seller overhang. Mubadala's stated commitment lowers strategic-control risk, yet the discount block trade shows that any further monetization can dominate company-level news in the short run.
+
+*Sources: [StockAnalysis GFS quote, May 27 2026 close](https://stockanalysis.com/stocks/gfs/); [Mubadala sale announcement via EIN Presswire, May 27 2026](https://www.einnews.com/pr_news/915362963/mubadala-announces-sale-of-22-million-shares-of-globalfoundries); [Investing.com block-trade report, May 27 2026](https://ca.investing.com/news/stock-market-news/mubadala-sells-globalfoundries-stake-for-191-billion-93CH-4661539).*
 
 ---
 
@@ -151,12 +161,12 @@ Mubadala provides patient capital — not forcing leading-edge race.
 | Metric | Value |
 |--------|-------|
 | Ticker | GFS (NASDAQ) |
-| Market cap | ~$25B |
-| Revenue (TTM) | ~$7B |
+| Market cap | ~$44.5B (May 27 2026 close) |
+| Revenue (TTM) | ~$6.84B |
 | Gross margin | ~25% |
 | Capex | ~$1.5B/year |
-| P/E | ~20x |
-| Float | ~15% (Mubadala controls rest) |
+| P/E | ~58x |
+| Float | ~27% (Mubadala controls ~73%) |
 
 ---
 
@@ -210,14 +220,14 @@ Stock -3.7% — market may have wanted stronger forward guide.
 | Metric | Value |
 |--------|-------|
 | Ticker | GFS |
-| Market cap | ~$25B |
+| Market cap | ~$44.5B |
 | Revenue | $6.79B (FY2025) |
 | Position | \#3 foundry |
 | Nodes | 12nm+ (mature) |
 | US fab | Malta, NY |
-| Owner | Mubadala (~85%) |
+| Owner | Mubadala (~73%) |
 
-*Updated 2026-02-11*
+*Updated 2026-05-27*
 
 ---
 

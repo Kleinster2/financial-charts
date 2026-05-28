@@ -54,6 +54,16 @@ The leadership story is less about churn than about discipline. Moynihan has spe
 
 ---
 
+## AI capex research read-through
+
+[[Justin Post]], Bank of America's internet analyst, is now one of the named sell-side sources in the hyperscaler FCF debate. His May 2026 FT framing is that [[Amazon]], [[Alphabet]], [[Microsoft]], and [[Meta]] entered the AI capex cycle with strong balance sheets, so short periods of negative free cash flow are financeable, but the capital-allocation tradeoff is real: infrastructure takes priority over near-term shareholder returns.
+
+For BAC, the relevance is less direct stock exposure than capital-markets signal. The AI buildout creates underwriting, credit, and research demand for the bank, but also makes tech credit supply and concentration a live risk topic for money-center banks.
+
+*Source: [FT article](https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494), May 8 2026.*
+
+---
+
 ## Charts
 
 ![[bank-of-america-fundamentals-chart.png]]

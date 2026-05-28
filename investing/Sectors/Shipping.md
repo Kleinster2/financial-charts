@@ -133,6 +133,22 @@ Post-resolution congestion risk: even if the strait reopens in May/June, ships a
 
 ---
 
+## Maritime chokepoint resilience regime (May 2026)
+
+The FT's May 24 visual story pushes shipping from an efficiency regime toward a resilience regime. [[Maersk]] CEO [[Vincent Clerc]] frames trade routes as increasingly weaponized, while [[Wallenius Wilhelmsen]]'s [[Lasse Kristoffersen]] uses the Manon route around the [[Cape of Good Hope]] as the operating example: the safer route can be materially longer, but a real alternative route is still better than a no-reroute chokepoint.
+
+Three operating rules follow:
+
+| Rule | Shipping read |
+|---|---|
+| Rerouting is capacity absorption | Every extra day at sea removes effective vessel supply from the network |
+| Open water is not open commerce | Insurance, crew safety, port clearance, and carrier risk committees determine actual routability |
+| Overland substitutes are niche | [[DSV]] can move selected cargo through [[Saudi Arabia]] and [[Turkey]], but trucks cannot replace large container ships or tankers |
+
+This makes [[Maritime chokepoint dependency]] a sector-level variable alongside rates, fleet supply, and fuel prices.
+
+---
+
 ## Freight ETFs and imaginary rates (Mar-Apr 2026)
 
 The [[2026 Strait of Hormuz crisis]] produced the most extreme freight-ETF trade in history. [[BWET]] — the only retail-accessible crude tanker ETF, sub-advised by [[Breakwave Advisors]] — rose 836% YTD through April 9, 2026 ($18.73 → $175.29), making it the best-performing US-listed ETF of 2026. It holds near-dated [[Baltic Exchange]] TD3C (Middle East Gulf → China [[VLCC]]) and TD20 FFAs. Its sibling [[BDRY]] drew attention as the historical precedent — dry bulk ETF that rose ~390% in 2021 then gave it all back by end-2022.
@@ -162,6 +178,7 @@ That gap says the investable shipping thesis is still narrow. The purer rate ins
 - [[Yangshan Deep Water Port]] — world's busiest port
 - [[Port automation]] — efficiency driver
 - [[Northern Sea Route]] — Arctic corridor
+- [[Maritime chokepoint dependency]] — chokepoint exposure framework
 - [[Fuel oil]] — bunker fuel pricing crisis (Mar 2026)
 - [[Vincent Clerc]] — Maersk CEO, warned of dry supply points
 - [[VLCC]] — supertanker class, crude oil transport, rate dynamics
