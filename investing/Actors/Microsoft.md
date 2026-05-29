@@ -322,7 +322,7 @@ Q3 FY26 (calendar Q1 2026) is the print where the [[Azure]] trajectory question 
 | OpenAI revenue concentration disclosure | 45% of RPO is tied to OpenAI's $250B cloud commitment. Any disclosure on OpenAI's actual spend pace and Azure's revenue recognition cadence reframes Microsoft's AI exposure. |
 | Capacity-constrained vs demand-constrained framing | Nadella / Hood phrasing on the call. "Capacity-constrained" means demand still exceeds supply (supply tightness tell). "Demand-constrained" means buildout has caught up — bearish for capex thesis. |
 | Capex range update (FY26 trending toward $90-100B+) | Direction of capex guide signals whether the Phase 1 (GPU scarcity) buildout is continuing or transitioning to Phase 2 (systems scarcity — CPUs, memory, packaging). |
-| Gross margin trajectory (Q2 FY26 at 68%, 3-year low) | AI infrastructure cost intensity. Stabilization or recovery validates the capex/ROI bridge; further compression validates the [[AI capex arms race#Market skepticism emerging|capex skepticism]] case. |
+| Gross margin trajectory (Q2 FY26 at 68%, 3-year low) | AI infrastructure cost intensity. Stabilization or recovery validates the capex/ROI bridge; further compression validates the capex-skepticism case in [[AI capex arms race]]. |
 
 [[OpenAI]] concentration is the single most material disclosure risk. The 45% RPO concentration figure is unprecedented for a hyperscaler — a number this large is the kind of detail that reframes the equity story regardless of headline beat / miss.
 
@@ -493,6 +493,12 @@ $46.2B face value (Dec 2025), deleveraging. Rated AAA/Aaa — one of two AAA-rat
 ## February 2026: India AI infrastructure commitment
 
 At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Microsoft]] was part of a combined **$68B commitment** with [[Google]] and [[Amazon]] for AI and cloud infrastructure in [[India]] through 2030.
+
+Reuters reported in May 2026 that Microsoft's largest India data center, in Hyderabad, was on track to go live in mid-2026, with local reporting around a roughly 300 MW campus. [[Asia Tech Lens]] uses that buildout as part of the broader India data-center demand stack: the issue is not only hyperscaler appetite, but whether local grids can deliver stable site-level power on schedule.
+
+For Microsoft, India is therefore an Azure growth market and another proof point for the global [[Power constraints]] thesis. Announced cloud regions do not monetize until land, power, cooling, fiber, and permits become usable capacity.
+
+*Sources: Reuters via Investing.com, May 2026; [[Asia Tech Lens]], May 28 2026.*
 
 ---
 

@@ -79,6 +79,12 @@ Goal: Move upstream from packaging to design and fab.
 | [[China+1]] semiconductor | US-China tensions benefit | Competition from Vietnam |
 | Upstream expansion | Wafer fab ambitions | Massive capex required |
 
+### Energy rerouting signal (Apr 2026)
+
+[[Robin J. Brooks]]'s May 27 [[South Korea]] import-data post captures Malaysia as a tactical replacement supplier during the [[Strait of Hormuz]] shock. South Korean HS code 27 imports from Malaysia rose 63% year over year in April 2026 while the implied average price paid rose only 12%. That makes Malaysia one of the lower-cost substitution channels in Brooks's explanation for why [[Brent crude]] did not need to rise to $200.
+
+*Source: [Robin J. Brooks, "Why did the Brent oil price not go to $200?"](https://robinjbrooks.substack.com/p/why-did-the-brent-oil-price-not-go), May 27 2026.*
+
 ---
 
 ## Risks

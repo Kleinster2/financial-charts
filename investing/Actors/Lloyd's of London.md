@@ -68,6 +68,14 @@ Precedent cuts both ways: Ukrainian government-backed insurance through Lloyd's 
 
 See [[Iran conflict insurance impact]] for full pricing data and market reaction.
 
+### Late-May normalization test
+
+[[Felipe Germini]]'s May 27 ENERGY Pipeline public section shows why Lloyd's remains the practical gatekeeper even when diplomacy uses the word "reopen." The cited [[Bloomberg]] tanker-desk number had Hormuz war-risk cover near 5% of hull value since March 17, or roughly $5M for a $100M [[VLCC]]. That price keeps many independent traders and smaller refiners out of the water even without a hard physical blockade.
+
+The more important Lloyd's / P&I point is legal rather than actuarial. The International Group of P&I Clubs reissued the position that paying a sanctioned entity for safe-passage cover can void the underlying P&I policy. That turns Tehran's "Hormuz Safe" concept from a potential workaround into a sanctions trap for ordinary operators: Iranian clearance paper and Western liability cover may be mutually incompatible.
+
+*Source: [Felipe Germini / ENERGY Pipeline, "The Insurance Geometry That Replaced the Strait"](https://fgermini.substack.com/p/the-insurance-geometry-that-replaced), May 27 2026. Public section only.*
+
 ---
 
 ## Alternative capital influx (Dec 2025)

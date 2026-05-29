@@ -34,10 +34,17 @@ Operating a [[Meta]]-backed data center campus in New Albany, Ohio. Seeking $3B 
 
 ---
 
+## AdaniConneX JV
+
+[[AdaniConneX]] is EdgeConneX's 50:50 Indian data-center joint venture with [[Adani Group]]. The platform targets 1 GW of data-center capacity by 2030 and gives EdgeConneX local execution through Adani's power, land, renewable-energy, and infrastructure stack.
+
+---
+
 ## Related
 
 - [[EQT]] -- owner (PE)
 - [[Meta]] -- anchor tenant (Project Walleye)
+- [[AdaniConneX]] -- India data-center JV with [[Adani Group]]
 - [[BYOP]] -- island mode / behind-the-meter power
 - [[AI infrastructure financing]] -- novel combined DC + power financing
 - [[AI datacenter architecture]] -- hyperscale design

@@ -52,6 +52,28 @@
 
 ---
 
+## May 2026: the "bridge" thesis breaks on dependency
+
+[[Critical Supply]]'s May 27, 2026 post framed the current European temptation clearly: as US security guarantees feel less reliable, some European political voices look for a balancing relationship with China. The article's core objection is that Europe would be trading one asymmetric dependency for another, but with a more direct industrial competitor.
+
+The structural problem is sector composition. [[China]] and the [[EU]] both need export-goods manufacturing, so the relationship is competitive in autos, chemicals, pharmaceuticals, solar, rail, and aviation. The US relationship is politically more volatile, but its export mix is more services-heavy and therefore less directly collision-prone for Europe's manufacturing base.
+
+Reuters reported on May 29, 2026 that the European Commission described the EU-China trade and investment relationship as "not sustainable" and said economic and security interests now require a more robust and coherent response. That makes the Critical Supply argument useful because it anticipated the same direction: tariff policy alone is too narrow if the underlying issue is strategic dependency.
+
+The control surfaces to watch are not just imports. Critical Supply flagged Chinese ownership or access across ports, telecom towers, cable networks, data centers, and buses. The practical policy implication is a broader investment-screening and procurement-review agenda rather than a single EV tariff file.
+
+![[critical-supply-eu-china-auto-production-2026.png]]
+
+*Critical Supply / IEA chart, using 2024 data: China produced about 16.0 million EVs versus 3.2 million in the EU and 1.2 million in the US. The scale gap explains why European policy keeps moving from ordinary trade defense toward industrial-security language.*
+
+![[critical-supply-eu-china-ev-cost-2026.png]]
+
+*Critical Supply / Reuters chart: average EV retail prices were about $25,000 in China, $49,700 in the EU, and $57,245 in the US. The price gap means minimum-price deals can slow undercutting, but they do not close the underlying cost and scale disadvantage.*
+
+The API-dependency claim needs a tighter footnote than the article's China framing. EU materials and pharmaceutical trade studies support a real China/India concentration problem in active pharmaceutical ingredients, but a narrower China-only share is contested: one EFPIA/Eurostat-based analysis puts EU API dependency on China at 22.6%, while European advisory materials cite up to 80% of APIs from China or India combined. The durable fact is pharmaceutical supply-chain concentration; the stronger wording is China-plus-India, not China alone.
+
+---
+
 ## Investment implications
 
 **For European OEMs:**
@@ -80,3 +102,4 @@
 - [[EU-China EV tariffs]] — specific policy (Jan 2026)
 - [[US-China trade]] — parallel relationship (harsher approach)
 - [[Germany]] — largest EU economy, most exposed to China
+- [[Critical Supply]] — May 2026 EU-China strategic-dependency source

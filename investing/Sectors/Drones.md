@@ -90,6 +90,16 @@ DoD's parallel attritable-autonomous program. Replicator 1 (Aug 2023 → Aug 202
 
 ---
 
+## May 2026 domestic-drone rerating
+
+May 28, 2026 confirmed that U.S. drone equities are trading as a policy/industrial-base basket, not only on company-level contracts. Reports that the Trump administration and Pentagon were discussing direct financial support for domestic drone manufacturers drove the public names sharply higher: [[Unusual Machines]] +57.2%, [[Red Cat Holdings]] +32.6%, [[AeroVironment]] +16.6%, and [[Kratos]] roughly +14%. The clean interpretation is that the market is pricing a government-backed capacity buildout around [[Drone Dominance]], with the largest move in the speculative component supplier ([[Unusual Machines]]) and still-large moves in public tactical/attritable drone proxies.
+
+The distinction matters: direct funding talks are not the same as booked awards. [[Red Cat Holdings]] was not reported as a named funding target, but it rallied as an investable U.S.-made sUAS proxy; [[AeroVironment]] had its own $20M AFRL ceramic/CMC contract the same day; [[Kratos]] rallied primarily on policy read-through and its Valkyrie/attritable-drone exposure. Treat the move as sector validation plus speculation, not proof that every public drone name has won funding.
+
+*Sources: [StockAnalysis May 28 movers](https://stockanalysis.com/markets/gainers/); [Investing.com on Red Cat catalyst](https://www.investing.com/news/stock-market-news/why-is-red-cat-stock-surging-today-93CH-4714692); [Investing.com on AV's AFRL contract](https://www.investing.com/news/company-news/aerovironment-wins-20m-air-force-ceramics-contract-93CH-4714610); [Simply Wall St on Kratos drone-funding read-through](https://simplywall.st/stocks/us/capital-goods/nasdaq-ktos/kratos-defense-security-solutions/news/kratos-weighs-government-drone-funding-talks-against-lofty-v).*
+
+---
+
 ## Commercial/industrial
 
 | Company | HQ | Specialty | Notes |

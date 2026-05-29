@@ -165,6 +165,16 @@ The bug-bounty disruption is also the canonical home case for the [[AI producer-
 
 ---
 
+## May 26, 2026 — Glassworm developer supply-chain takedown
+
+[[CrowdStrike]], [[Google]], and the Shadowserver Foundation disrupted the [[Glassworm botnet takedown May 2026]] botnet by hitting four C2 channels simultaneously: [[Solana]] transaction memos, BitTorrent DHT, Google Calendar event-title dead drops, and VPS infrastructure. Glassworm had targeted developers through trojanized VS Code/OpenVSX extensions, compromised npm and Python packages, and more than 300 poisoned [[GitHub]] repositories.
+
+This is a useful counterweight to the pure AI-disruption bear case for cybersecurity vendors. AI-native tools may commoditize parts of vulnerability discovery, but Glassworm shows why endpoint telemetry, identity, repository governance, package controls, and incident disruption remain mandatory control surfaces. The result does not erase the AICD short thesis; it sharpens the split between vulnerable scan/triage layers and vendors that can still sit on live enterprise enforcement points.
+
+*Sources: CrowdStrike, "Inside CrowdStrike's Takedown of a Developer-Targeting Botnet" (May 2026); The Register, "CrowdStrike, Google shatter Glassworm botnet" (May 27 2026); TechCrunch, "CrowdStrike and Google take down botnet used by hackers to target open source software developers" (May 27 2026).*
+
+---
+
 ## Related
 
 - [[February 2026 AI Disruption Cascade]] — broader software repricing that this basket sits inside
@@ -174,6 +184,8 @@ The bug-bounty disruption is also the canonical home case for the [[AI producer-
 - [[Anthropic]] — disruptor
 - [[Cybersecurity consolidation]] — sector dynamics
 - [[CrowdStrike]] — bellwether constituent
+- [[Software supply chain attacks]] — developer-toolchain control-point demand driver
+- [[Glassworm botnet takedown May 2026]] — May 2026 endpoint/threat-intelligence validation case
 - [[Palo Alto Networks]] — bull case spokesperson
 - [[Inference economics]] — AI cost structure enables low-cost security tooling
 - [[HackerOne]], [[Bugcrowd]] — bug-bounty platforms (TODO: stubs if missing)

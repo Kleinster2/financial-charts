@@ -14,6 +14,18 @@ Nearly $1T in CapEx is being invested in US data centers this year. The ROIC loo
 
 ---
 
+## AI R&D automation makes compute a labor input
+
+[[Ryan Greenblatt]]'s May 2026 [[Redwood Research]] post adds a second reason the compute demand curve may steepen near the frontier. If AI systems fully automate AI R&D, compute is no longer only the capital used to train larger models, run experiments, and serve customers. It also becomes the capital used to run the AI researchers doing the R&D, make them faster, and improve the next generation of AI labor.
+
+That changes the marginal return to capacity. A lab with more compute can run more experiments, train larger systems, serve more inference revenue, and potentially accelerate the research loop itself. Greenblatt's key point is that this can matter even without a sustained [[Software-only singularity]]: a subcritical feedback loop can still produce a large one-time speed-up and make subsequent compute scaling more productive than it was in the human-labor bottleneck regime.
+
+The caveat is equally important. By the time full AI R&D automation arrives, physical compute scaling may be slower than it is today because chip, power, data-center, and financing constraints have already tightened. The demand curve can become more convex at the same time the supply curve becomes harder to move.
+
+*Source: [Ryan Greenblatt / Redwood Research, May 27 2026](https://blog.redwoodresearch.org/p/full-automation-of-ai-r-and-d-probably).*
+
+---
+
 ## Current and projected capacity
 
 ### AI lab compute (critical IT capacity)
@@ -136,6 +148,8 @@ Currently: [[Opus 4.6]] and [[GPT-5.4]] have "really pulled away" from Chinese m
 - [[TSMC]] — fabrication capacity
 - [[NVIDIA]] — chip supply and pricing power
 - [[Anthropic vs OpenAI compute race]] — how labs compete for scarce capacity
+- [[AI R&D automation]] — why compute may become a direct research-speed input
+- [[Software-only singularity]] — runaway version of the AI R&D feedback loop
 - [[SemiAnalysis]] — data source for supply chain tracking
 - [[Space data centers]] — proposed alternative (not viable this decade)
 - [[AI Infrastructure]] — sector overview

@@ -37,6 +37,16 @@ Tencent's AI strategy: embed into WeChat's 1.3B users rather than compete as sta
 
 ---
 
+## Agent product wave (May 2026)
+
+[[Hello China Tech]]'s May 27 2026 public preview shows Tencent moving Hunyuan/Yuanbao from assistant distribution into agent-surface proliferation. The named wave includes WorkBuddy for office productivity, CodeBuddy for software development, QClaw for desktop control, DataBuddy for analytics and data pipelines, Ardot for UI/UX design and code handoff, and Marvis as an OS-level assistant using a main agent plus File, Computer, App, Browser, and Search sub-agents.
+
+The product strategy is WeChat logic applied to AI: occupy every user surface first, then improve the model and workflow quality from inside the ecosystem. The data challenge is that Yuanbao's reported 57.35M monthly active users trail [[Doubao]] at 345M and [[Qwen]] at 166M in the source's May 2026 app data, so distribution breadth is not yet the same as standalone AI app leadership.
+
+*Source: [[Poe Zhao]] / [[Hello China Tech]], [May 27 2026](https://hellochinatech.com/p/tencent-agent-flood). Public preview only; no paid-body claims inferred.*
+
+---
+
 ## Hunyuan 2.0 (Dec 2025)
 
 | Spec | Details |
@@ -107,7 +117,7 @@ Tencent subsidizing developers to build on Hunyuan within WeChat ecosystem.
 | QQ | 600M+ MAU |
 | Tencent Meeting | Enterprise |
 | Tencent Docs | [[Productivity]] |
-| Yuanbao app | Standalone |
+| Yuanbao app | Standalone; 57.35M MAU in May 2026 third-party data cited by [[Hello China Tech]] |
 
 **Key advantage:** No app download needed — AI comes to existing products.
 

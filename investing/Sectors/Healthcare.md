@@ -79,6 +79,14 @@ See [[Drug Distribution]] for detail. The integrated insurer-PBM model ([[United
 - Negative: Bariatric surgery, diabetes devices, junk food
 - Positive: Drug manufacturers, injection devices
 
+### US outcomes split: cancer vs lifestyle disease
+
+Chartbook's May 27 link to the FT's U.S. health-outcomes piece adds nuance to the "America has uniquely bad healthcare outcomes" shorthand. The reported split is that U.S. cancer mortality is lower than in Western Europe and falling faster, while the weaker U.S. outcomes cluster more heavily in lifestyle-linked cardiovascular disease and diabetes. That makes GLP-1 adoption a system-wide healthcare variable, not just a pharma growth theme.
+
+Investment read-through: high U.S. uptake of obesity drugs could shift multi-year demand across [[Eli Lilly]], [[Novo Nordisk]], insurers, hospitals, diabetes devices, bariatric surgery, and food-exposed equities. The important uncertainty is not only drug revenue; it is whether downstream claims and procedure volumes begin to move if obesity-linked disease incidence falls.
+
+Source: [[Adam Tooze]], Chartbook Top Links 1114, May 27 2026; FT John Burn-Murdoch health-outcomes item via Chartbook.
+
 ### Patent cliffs
 
 | Company | Drug | Patent expiry | Revenue at risk |

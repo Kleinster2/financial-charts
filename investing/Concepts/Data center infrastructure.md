@@ -89,6 +89,24 @@
 
 ---
 
+## India microgrid read-through (May 2026)
+
+[[Asia Tech Lens]]' India grid-risk piece is a useful reminder that data-center infrastructure is not only buildings and racks. In fast-growth markets, the investable constraint can be the bundle: substation access, transmission timing, power quality, renewable procurement, batteries, backup generation, fiber, water, cooling, and local permitting.
+
+For [[India AI]], the local data-center winners are the operators that can turn that bundle into powered capacity. This makes [[Power constraints]] and [[BYOP]] part of the physical data-center supply chain, not adjacent macro context.
+
+---
+
+## US large-load interconnection policy (May 2026)
+
+The US version of the same physical constraint is now running through [[FERC]]. In April 2026, FERC said it would act by June on the large-load interconnection docket covering data centers and other major electricity users. In May, DOE used emergency authority to let [[PJM]] deploy backup generation resources at data centers and other major facilities during a short reliability window.
+
+The market implication is that "data-center infrastructure" includes the regulatory adapter between hyperscaler demand and grid planning. A campus with land, cooling design, and capital is still an option until the grid interconnection, cost-allocation, and backup-power pathway is bankable.
+
+This supports the supplier thesis but changes the risk map. Standardization can make more sites financeable, while also forcing clearer cost recovery for grid upgrades. The companies with value are not only colocation operators; they include utilities, engineering firms, switchgear suppliers, transformer suppliers, backup-generation providers, and developers that can match large-load rules to physical equipment procurement.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

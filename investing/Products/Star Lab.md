@@ -48,9 +48,19 @@ The 10K disclosure has implications beyond Star Lab itself. It's the cleanest pu
 
 Three threads converge on Star Lab:
 
-1. **Voyager equity story** — VOYG's post-IPO valuation hinges on Star Lab's success. The CLD Phase 2 selection (mid-2026) is the single biggest equity catalyst.
-2. **Starship economics validation** — The $90M / $900/kg disclosure is the single most-cited figure in Q1 2026 for the structural cost shift that's restructuring NASA's contracting posture.
-3. **Multi-national customer base** — Airbus stake brings ESA; Mitsubishi brings Japan; MDA brings Canada. Star Lab is structurally pre-positioned for international agency demand that Vast must compete for case-by-case.
+1. Voyager equity story — VOYG's post-IPO valuation hinges on Star Lab's success. The CLD Phase 2 selection (mid-2026) is the single biggest equity catalyst.
+2. Starship economics validation — The $90M / $900/kg disclosure is the single most-cited figure in Q1 2026 for the structural cost shift that's restructuring NASA's contracting posture.
+3. Multi-national customer base — Airbus stake brings ESA; Mitsubishi brings Japan; MDA brings Canada. Star Lab is structurally pre-positioned for international agency demand that Vast must compete for case-by-case.
+
+---
+
+## May 2026 - 1789 Capital financing signal
+
+Starlab and [[1789 Capital]] announced a strategic investment on May 21 2026. The amount was not disclosed, so the signal is qualitative rather than a balance-sheet de-risking event. The notable shift is framing: Starlab is being pitched as an American strategic-infrastructure asset for the post-ISS era, with [[Tiangong]] used as the geopolitical comparator and low-Earth-orbit continuity described as relevant to national-security and science missions.
+
+This strengthens the political case for Star Lab inside the [[Commercial LEO Destinations]] debate. It also clarifies what the equity story needs from here: Phase 2 credibility, enough NASA / allied-agency demand to close the business case, and continued financing through the 2029 target launch window. Strategic-investor symbolism is helpful, but the program still depends on NASA anchor-customer behavior.
+
+*Sources: Starlab / Voyager official announcement, May 21 2026; [[Journal of Space Commerce]], "Strategic Investment Backs Commercial Space Station as ISS Retirement Nears," May 27 2026.*
 
 ---
 

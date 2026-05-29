@@ -29,6 +29,28 @@ The [[Trump II|Trump]] administration's own actions are accelerating the conditi
 
 The investment implications cascade across three timeframes. In the immediate term (weeks), the $2 million toll is a rounding error on a VLCC carrying $200 million of crude — it adds ~1% to cargo costs, well below the war-risk insurance premium already being charged. The real cost is the *process*: bilateral negotiation, Iranian approval, route constraints within the EEZ. This adds days of delay and uncertainty to every transit, which compounds into logistics costs and inventory management headaches for refiners. In the medium term (months), if Iran codifies transit fees in legislation and the post-war settlement includes any recognition of Iranian "sovereignty" over strait passage, it creates a permanent extraction mechanism — a chokepoint tax that gets embedded into the cost structure of Gulf crude. In the long term (years), the yuan settlement condition, even if it remains aspirational, adds another data point to the [[De-dollarization|de-dollarization]] trend. The question isn't whether Iran can force yuan settlement on all Hormuz traffic (it can't), but whether this precedent encourages other chokepoint-adjacent states — [[China]] at the [[Taiwan Strait]], future actors at the [[Strait of Malacca]] — to think in similar terms about fusing geography with monetary power.
 
+## May 26, 2026 - re-mining during reopening talks
+
+[[Preston Stewart]]'s May 26 transcript adds the operational caveat to the legal/fee discussion: a transit regime can be reopened on paper while still being reversible in the water. U.S. Central Command said U.S. forces struck missile launch sites and Iranian boats attempting to emplace mines in southern [[Iran]]; The Aviationist, citing U.S. officials and Jennifer Griffin's Fox reporting, described two [[IRGC]] boats caught laying mines in the [[Strait of Hormuz]] and a [[Bandar Abbas]] SAM site targeting U.S. aircraft.
+
+That makes the reopening bargain more fragile than a fee schedule. If new mines can be added during the same period that negotiators are discussing reopening terms, then a durable settlement needs verified mine removal, no-new-mine monitoring, recognized clearance procedures, and insurance paper that shipowners can actually use. Stewart also described leaked preliminary-deal chatter in which Tehran might reframe tolls as an environmental or traffic-management fee; treat that as unverified deal commentary, but it fits the broader regime question. The issue is not only whether Iran charges a posted toll. It is whether Hormuz returns to neutral passage or remains a permissioned, monitored, fee-adjacent lane.
+
+*Sources: [[Preston Stewart]], ["Iran Just Tried Mining The Strait of Hormuz"](https://prestonstew.substack.com/p/iran-just-tried-mining-the-strait), May 26 2026; [Reuters via GMA News](https://www.gmanetwork.com/news/topstories/world/988962/us-forces-conducted-self-defense-strikes-in-southern-iran-report/story/), May 26 2026; [The Aviationist](https://theaviationist.com/2026/05/26/u-s-launches-defensive-strikes-in-iran/), May 26 2026.*
+
+## May 27, 2026 - insurance regime test
+
+The late-May variant of the transit regime is less about a posted $2M toll and more about who can write valid paper. [[Felipe Germini]]'s May 27 ENERGY Pipeline public section frames the strait as a three-corner contest:
+
+| Corner | Move | Why it matters |
+|---|---|---|
+| Tehran | Iranian state media announced "Hormuz Safe," a [[Bitcoin]]-settled digital insurance / safe-passage platform with a reported $10B annual revenue target; Germini attributes the operating logic to the [[IRGC]]-linked Khatam al-Anbiya commercial arm rather than the oil ministry | Turns the toll idea into a standing financial product, potentially giving the [[IRGC]] a recurring chokepoint revenue stream |
+| London / P&I clubs | The International Group of P&I Clubs reissued the position that payment to a sanctioned entity for safe-passage cover can void the underlying P&I policy | Blocks the obvious workaround: a ship cannot simply buy Iranian clearance and keep normal Western liability cover |
+| [[ADNOC]] / Gulf sellers | ADNOC's marketing arm loaded voyages with explicit war-risk surcharges in FOB pricing | Gulf producers are beginning to price the surcharge as a transaction term, not a temporary headline shock |
+
+This is the practical version of "open but not normalized." If the Iranian safe-passage product remains legally toxic, and if London P&I cover remains conditional, the binding constraint is not a minefield alone. It is the absence of a mutually recognized insurance stack that charterers, banks, shipowners, and cargo buyers can all accept.
+
+*Source: [Felipe Germini / ENERGY Pipeline, "The Insurance Geometry That Replaced the Strait"](https://fgermini.substack.com/p/the-insurance-geometry-that-replaced), May 27 2026. Public section only.*
+
 ## Reference
 
 ### IRGC clearance procedure (Lloyd's List, Mar 25)

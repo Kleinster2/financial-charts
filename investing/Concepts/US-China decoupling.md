@@ -67,6 +67,16 @@ See [[Singapore washing]] and [[Manus AI]].
 
 ---
 
+## Talent mobility becomes a control surface (May 2026)
+
+The April offshore-exit pattern widened in May from capital and corporate domicile to human mobility. Bloomberg-reported restrictions, summarized by TechCrunch, said Beijing is requiring approval before some AI specialists at private firms leave China, extending a practice more familiar for state-sector researchers and sensitive technical personnel. The reported screen is strategic value to China's AI ambitions, not only formal employer type.
+
+This is decoupling moving from chips, cloud, and capital to people. For [[Moonshot AI]], [[StepFun]], [[ByteDance]], [[DeepSeek]], and adjacent AI labs, founder and senior-engineer mobility is now part of the policy risk surface. The US-side equivalent is visa/research-security tightening; the China-side version is retention by exit permission. Both reduce the probability that talent arbitrage quietly equalizes the two ecosystems.
+
+*Source: TechCrunch summary of Bloomberg reporting, "China is increasingly keeping its best AI talent to itself," May 27 2026: https://techcrunch.com/2026/05/27/china-is-increasingly-keeping-its-best-ai-talent-to-itself/.*
+
+---
+
 ## China industrial-policy warning (May 2026)
 
 The May 11 FT report on the US Chamber / [[Rhodium Group]] warning reframed China's industrial policy as no longer confined to "Made in China 2025" sectors. The phrase to remember is "industrial policy of everything": Beijing is extending state-backed intervention across manufacturing, services, critical minerals, chemicals, machinery, clean energy, and frontier technologies.
@@ -141,3 +151,4 @@ Key figures:
 - [[Singapore washing]] — offshore-restructuring corridor for Chinese AI exits, now contested by Beijing
 - [[Manus AI]] — first major reversal of the Singapore-routed US-acquirer path (NDRC unwind, Apr 27 2026)
 - [[NDRC]] — Chinese regulator that ordered the Meta-Manus unwind
+- [[US-China AI race]] — talent and model-capability competition downstream of decoupling

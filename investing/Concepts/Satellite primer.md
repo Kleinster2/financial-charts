@@ -105,6 +105,14 @@ Costs:
 
 **GEO challenge:** High upfront cost, long payback, technology risk over 15-year life.
 
+### GEO space-domain awareness
+
+GEO is not only a communications orbit. For military space operations, it is also a custody problem: high-value satellites sit in predictable slots, and the operator needs persistent awareness of nearby objects, inspection behavior, station-keeping changes, debris, and potential counterspace activity.
+
+The May 2026 [[Rocket Lab]] / [[US Space Force|Space Systems Command]] Heimdall award is the clean example in the vault. The command awarded Rocket Lab $90M for two geostationary satellites hosting optical space-domain-awareness payloads. Rocket Lab will use the Lightning bus, integrate the internally produced Heimdall payload from Rocket Lab Optical Systems / [[GEOST]], handle launch integration onto a government-furnished vehicle, and operate the satellites for up to five years after commissioning.
+
+The architecture point: LEO constellation economics reward cheap iteration and launch cadence; GEO SDA rewards high-reliability buses, radiation/thermal tolerance, propulsion and station-keeping, precision optical payloads, and trusted mission operations. That is why the same "satellite" label hides very different supplier moats.
+
 ---
 
 ## Launch economics
@@ -248,6 +256,12 @@ Laser links between satellites. Reduce ground station dependency.
 | **Maxar** | High-resolution imagery |
 | **BlackSky** | Real-time intelligence |
 | **Capella** | SAR (sees through clouds) |
+
+### Space-domain awareness
+
+| Company | Focus |
+|---------|-------|
+| [[Rocket Lab]] / [[GEOST]] | GEO optical custody payloads and buses for USSF |
 
 ---
 

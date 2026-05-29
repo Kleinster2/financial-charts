@@ -35,6 +35,16 @@ All FERC commissioners attended the White House [[Ratepayer Protection Pledge]] 
 
 ---
 
+## Large-load and data-center interconnection (May-June 2026)
+
+FERC's data-center relevance became explicit in spring 2026. On Apr 16, FERC said it would act by June 2026 on Docket RM26-4-000, the large-load interconnection ANOPR initiated by the Energy Secretary. The proceeding targets timely, orderly, and equitable integration of large loads such as data centers into transmission infrastructure.
+
+The agency also listed the intermediate steps already taken: transparent PJM rules for substantial co-located loads, SPP's High Impact Large Load initiative, and multiple tariff/agreement actions around large-load interconnections. DOE then used emergency Federal Power Act section 202(c) authority on May 18, 2026 to authorize PJM to deploy backup generation resources at data centers and other major facilities for May 18-20.
+
+For the [[Power infrastructure bottleneck]] thesis, this is the policy counterweight. FERC cannot manufacture transformers, turbines, or transmission steel. But standardized large-load interconnection rules can reduce queue uncertainty, move more projects toward planner-approved nodes, and make data-center power procurement less purely local and bespoke.
+
+---
+
 ## Related
 
 - [[PJM]] — largest US grid operator, regulated by FERC

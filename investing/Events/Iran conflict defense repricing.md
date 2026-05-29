@@ -115,6 +115,14 @@ FT reported the Pentagon is preparing a formal request for up to **$50 billion**
 
 The US is pulling advanced air/missile defense systems and naval assets from the Indo-Pacific to sustain [[Operation Epic Fury]]. Stars and Stripes/Bloomberg (Mar 12) brought the two-front problem into sharp focus: the US cannot sustain a Middle East war and maintain credible deterrence against China simultaneously.
 
+### Simultaneity doctrine as policy rationale (May 27)
+
+Chartbook's May 27 link to the FT's "simultaneity" frame turns the two-front problem from an operational observation into a policy rationale. The argument is that the post-1945 security order is being stress-tested by the possibility of overlapping crises across China, Russia, North Korea, Iran, Venezuela, and the Houthis. Read that way, the administration's mix of preemptive strikes, selective diplomacy, and defense-budget acceleration is an attempt to sequence or degrade adversaries before they can present the U.S. with concurrent wars.
+
+Investment read-through: the Iran war, the Pacific defense gap, and the Trump defense budget are one defense-industrial-base story. If simultaneity is the binding threat model, then spare capacity, missile/interceptor depth, shipyard throughput, and allied co-production become strategic assets rather than ordinary procurement categories. That reinforces the long-duration case for replenishment and distributed manufacturing even after a single theater quiets.
+
+Source: [[Adam Tooze]], Chartbook Top Links 1114, May 27 2026; FT Patrick Foulis simultaneity analysis via Chartbook.
+
 ### Assets redirected from Indo-Pacific
 
 | Asset | Detail |

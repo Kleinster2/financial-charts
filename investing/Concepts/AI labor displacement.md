@@ -19,6 +19,18 @@ AI labor displacement is still an attribution problem before it is a clean macro
 
 ---
 
+## Noah Smith: verification labor as the complement
+
+[[Noah Smith]]'s May 27 2026 [[Noahpinion]] public preview adds the labor-market complement to this note's displacement frame. If agentic AI takes over more technical production, the residual human role is not only "prestige human service" or artisanal work. It is operational alignment: specifying goals, checking output, correcting drift, and keeping [[AI agents]] pointed at what the firm or user actually wants.
+
+That distinction matters for the displacement scoreboard. Automation can reduce the number of humans needed to generate code, documents, support replies, research memos, or analysis, while increasing the share of remaining human time spent verifying model output. The surviving job looks more like supervision and quality control than direct production. In the near term, this is already visible as workers reviewing AI-generated work. In the longer-term version Smith sketches, humans supervise autonomous systems that might otherwise reward-hack, pursue the wrong objective, or wander away from the task.
+
+The market read-through is that [[Enterprise AI adoption]] has a labor-cost floor even when models are capable. Firms still need humans who understand intent, context, liability, customer tolerance, and organizational priorities. The cleaner investment question becomes which workflows can be verified cheaply enough for AI output to compound, and which ones preserve expensive human review because the cost of being wrong is too high.
+
+*Source: [[Noah Smith]], [[Noahpinion]], [May 27 2026](https://www.noahpinion.blog/p/your-future-job-will-be-to-keep-ai). Public preview only; no paid-body claims inferred.*
+
+---
+
 ## The pattern
 
 Three phases are emerging:
@@ -308,3 +320,4 @@ The policy trap: Beijing is simultaneously pushing AI as national strategic prio
 - [[Big Law transformation]] — junior-associate work in Big Law is the most exposed white-collar category to AI displacement
 - [[Challenger, Gray and Christmas]] — job-cut reason dataset used to track AI-attribution
 - [[Kalshi]] — prediction-market layer on whether AI leads Challenger job-cut reasons
+- [[Noah Smith]] — verification labor / operational alignment frame for human work after agentic automation

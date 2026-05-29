@@ -104,6 +104,16 @@ Record ARR, record margins, record cash flow. The July 2024 outage is fully in t
 
 ---
 
+## Glassworm botnet takedown (May 26, 2026)
+
+CrowdStrike's Counter Adversary Operations team, working with [[Google]] and the Shadowserver Foundation, disrupted the [[Glassworm botnet takedown May 2026]] developer-targeting botnet at 14:00 UTC on May 26, 2026. The campaign had spread through trojanized VS Code/OpenVSX extensions, compromised npm and Python packages, and more than 300 poisoned [[GitHub]] repositories. Its C2 design used [[Solana]] transaction memos, BitTorrent DHT, Google Calendar event titles, and VPS servers, so CrowdStrike said all four channels had to be hit simultaneously.
+
+The read-through is positive for CrowdStrike's control-point case. This was not just endpoint cleanup after a breach; it was live disruption of a developer-toolchain operation that turned infected workstations into supply-chain beachheads. It strengthens the argument that endpoint telemetry plus threat intelligence remains a mandatory layer even as AI-native security tools pressure parts of traditional detection.
+
+*Sources: CrowdStrike, ["Inside CrowdStrike's Takedown of a Developer-Targeting Botnet"](https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/), May 2026; Jessica Lyons, ["CrowdStrike, Google shatter Glassworm botnet"](https://www.theregister.com/cyber-crime/2026/05/27/crowdstrike-google-shatter-glassworm-botnet/5247337), The Register, May 27 2026.*
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -150,3 +160,5 @@ CRWD -7.5% (2.5σ) while S&P 500 +0.62%. Part of a sector-wide selloff: [[Zscale
 - [[Zscaler]] — peer (zero trust)
 - [[China cybersecurity ban]] — banned in China (Jan 2026)
 - [[China]] — policy driver
+- [[Software supply chain attacks]] — developer-toolchain attack surface
+- [[Glassworm botnet takedown May 2026]] — May 2026 live disruption case

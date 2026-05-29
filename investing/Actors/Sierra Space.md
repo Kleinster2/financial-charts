@@ -47,11 +47,20 @@ Sierra Space's 2021 Series A was one of the largest space-startup rounds at the 
 
 ---
 
+## Pax Silica supplier-screening risk (May 2026)
+
+The May 28, 2026 [[Journal of Space Commerce]] / Ex Terra Media excerpt names [[Sierra Space]] among commercial-space procurement networks exposed to [[Pax Silica]] trusted-vendor screening. The relevant exposure is in Dream Chaser, LIFE habitat, and Orbital Reef-adjacent hardware supply chains: power electronics, RF systems, electro-optical sensors, precision structures, composites, and rare-earth magnet-dependent mechanisms.
+
+Because Sierra is private and program-heavy, the market signal will likely show up first through contract qualification, schedule risk, and supplier substitutions rather than daily equity pricing. A documented [[China plus one]] or [[ASEAN]] sourcing posture becomes more important as NASA, defense, and allied customers treat trusted-vendor compliance as a procurement screen.
+
+---
+
 ## Related
 
 - [[Blue Origin]] — Orbital Reef partner
 - [[Orbital Reef]] — commercial space station JV
 - [[Commercial LEO Destinations]] — CLD program
 - [[NASA]] — CRS-2 customer
+- [[Pax Silica]] — trusted-vendor framework affecting space-hardware suppliers
 
 *Created 2026-04-27*

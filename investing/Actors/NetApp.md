@@ -26,6 +26,18 @@ NetApp is a Sunnyvale-based storage software and systems company best known for 
 
 ---
 
+## Q4 FY2026 result and May 29 AI-storage repricing
+
+NetApp's Q4 FY2026 result pulled the storage incumbents into the same AI-infrastructure bid that repriced [[Dell]]. Q4 net revenue was $1.95B (+15% YoY), FY2026 net revenue was $7.63B (+17%), and annualized all-flash-array revenue run rate reached $4.2B (+28%). Full-year operating cash flow was $1.80B and free cash flow was $1.63B. FY2027 guidance called for $7.325-7.575B of revenue and non-GAAP EPS of $8.70-9.00.
+
+NTAP closed at $173.95 on May 29, 2026, up 22.2%. Using the current web close with the local `quick_movers.py` beta/idiosyncratic-volatility framework, the move was roughly +8.6 sigma.
+
+The read-through is that AI storage is being repriced alongside AI servers: the bottleneck is not only GPUs, but the data plane that feeds them. NetApp is still an incumbent hybrid/cloud storage vendor, not an AI-native GPU storage architecture. The key question is whether ONTAP, AIPod, and first-party hyperscaler integrations can capture enterprise AI data spending before VAST, Weka, and other GPU-first architectures take the strategic share.
+
+*Source: [NetApp Q4 and FY2026 results](https://investors.netapp.com/news/news-details/2026/NetApp-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx), May 29 2026; local `quick_movers.py` fallback screen, May 29 2026.*
+
+---
+
 ## Related
 
 - [[AI Storage]] — sector hub

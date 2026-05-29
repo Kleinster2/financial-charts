@@ -3,7 +3,7 @@ aliases: [National Aeronautics and Space Administration]
 ---
 #actor #government #space #usa
 
-NASA — US federal agency for civilian space program, aeronautics research, and space science. Under [[Jared Isaacman]] (administrator since 2025), the agency is undergoing the most significant restructuring of its contractor relationships in a generation: SLS stripped of core role, [[Lunar Gateway]] paused, [[Boeing Starliner]] reclassified as Type A mishap, and the [[Commercial LEO Destinations]] program proposed for partial recentralization. Net direction: more launch and lunar surface dollars to [[SpaceX]] and the new entrant cohort ([[Vast]], [[Lunar Outpost]], [[Voyager]]); less to legacy primes ([[Boeing]], [[Northrop Grumman]] on Gateway).
+NASA — US federal agency for civilian space program, aeronautics research, and space science. Under [[Jared Isaacman]] (administrator since 2025), the agency is undergoing the most significant restructuring of its contractor relationships in a generation: SLS stripped of core role, [[Lunar Gateway]] paused, [[Boeing Starliner]] reclassified as Type A mishap, the [[Commercial LEO Destinations]] program proposed for partial recentralization, and the mission directorates realigned into a direct-report structure around human spaceflight, research/technology, and science. Net direction: more launch and lunar surface dollars to [[SpaceX]] and the new entrant cohort ([[Vast]], [[Lunar Outpost]], [[Voyager]]); less to legacy primes ([[Boeing]], [[Northrop Grumman]] on Gateway).
 
 ---
 
@@ -52,6 +52,20 @@ Isaacman proposed an alternative path for [[Commercial LEO Destinations]] (CLD) 
 Per Vast: nearly $4B in private capital is invested across CLD entrants on the original commercial framework. A unilateral pivot to a NASA-designed module risks investor confidence in NASA as a reliable anchor customer for future commercial space programs. NASA's Phase 2 selection (commercial provider awards) was originally targeted mid-2026.
 
 See [[Commercial LEO Destinations]] for full program structure, competitor map, and the Isaacman proposal.
+
+### Mission directorate realignment (May 22, 2026)
+
+NASA's May 22, 2026 realignment turned the Q1 contractor reset into an operating chart. The agency collapsed its four mission directorates into three: Human Spaceflight, Research and Technology, and Science. Mission-directorate leaders now report directly to Isaacman, while the associate administrator role shifts toward center oversight and agency chief engineer duties. This is a control change, not only a box shuffle: Artemis, LEO commercialization, nuclear surface power, and space-technology programs now sit closer to the administrator's office.
+
+| New structure | Scope | Named leadership |
+|---|---|---|
+| Human Spaceflight Mission Directorate | Merges Exploration Systems Development and Space Operations; owns Artemis, commercial LEO, and human-spaceflight operations | Lori Glaze leads HSMD; Jeremy Parsons runs [[Artemis]]; Carlos Garcia-Galan runs Moon Base; Dana Weigel runs Low Earth Orbit |
+| Research and Technology Mission Directorate | Merges aeronautics and space technology; includes nuclear surface-power and propulsion work | James Kenyon leads RTMD; Steve Sinacore runs the Space Reactor Office |
+| Science Mission Directorate | Keeps science missions as a separate directorate | Remains the science home rather than being folded into human exploration |
+
+The market read-through is concentration. [[Artemis]], the Moon Base office, [[Commercial LEO Destinations]], and nuclear power are now easier to coordinate as a single human-spaceflight / surface-infrastructure stack. That should speed decisions if Isaacman has budget support, but it also makes the agency more exposed to a small number of commercial bottlenecks: [[SpaceX]] Starship refueling, [[Blue Origin]] Blue Moon / [[New Glenn]] readiness, and post-ISS commercial-station selection.
+
+*Sources: NASA, "NASA Announces Realignment to Accelerate Mission Delivery," May 22 2026; Tom Patton, [[Journal of Space Commerce]], "NASA Reorganizes Mission Directorates," May 28 2026.*
 
 ---
 
@@ -117,5 +131,7 @@ Reuters' May 2026 report on [[China]]'s [[Shenzhou]]-23 launch makes the strateg
 ### Sources
 - [[Space Capital]] — Q1 2026 contractor-renegotiation framing
 - [[Chad Anderson]] — Space IQ briefing source
+- NASA, "NASA Announces Realignment to Accelerate Mission Delivery," May 22 2026
+- [[Journal of Space Commerce]] — May 28 2026 mission-directorate realignment read-through
 
 *Updated 2026-04-27 (Isaacman restructuring sweep)*

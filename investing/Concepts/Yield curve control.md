@@ -28,4 +28,5 @@ Monetary policy framework where a central bank targets a specific yield on gover
 - [[Haruhiko Kuroda]]
 - [[Kazuo Ueda]]
 - [[JGB]]
+- [[Japan debt trap]] — post-YCC residual yield suppression as debt/FX pressure
 - [[Abenomics]]

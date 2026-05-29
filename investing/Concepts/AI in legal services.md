@@ -74,6 +74,8 @@ The judges: *"Artificial intelligence is a tool that carries with it risks as we
 
 This judgment has no direct parallel in other professions. A hallucinated medical research reference embarrasses the user; a hallucinated case citation in court undermines the administration of justice and exposes the barrister to professional sanctions.
 
+The risk kept surfacing at elite firms into 2026. [[Sullivan & Cromwell]] told a US federal bankruptcy court (April 2026) that a major filing in a high-profile case contained multiple AI hallucinations. A London court reprimanded [[Pinsent Masons]] (May 2026) for false submissions based on AI. That these incidents reached the largest, most sophisticated firms — not just sole practitioners — underscores that the sanction asymmetry is structural to the profession, not a function of inexperience, and is itself part of why firms like [[Kirkland & Ellis]] argue for owning and controlling their AI stack rather than relying only on general tools.
+
 ## UK government reform plans
 
 Proposed reforms described as the biggest overhaul of the criminal justice system in modern times. Plans include AI for:
@@ -91,14 +93,30 @@ Two venture-backed pure-play legal AI companies dominate:
 
 | Company | Revenue | Valuation | Funding | Customers | Differentiation |
 |---------|---------|-----------|---------|-----------|-----------------|
-| [[Harvey]] | $190M (2025) | $5-8B | $1B+ | 235+ (42 countries) | Deep Big Law penetration, OpenAI strategic relationship |
-| [[Legora]] | Undisclosed | $1.8B → $6B target | $265M+ | 400+ (40+ countries) | Collaborative model, Portal feature, fastest valuation growth |
+| [[Harvey]] | $190M (2025) | $11B (Mar 2026) | $1B+ | 235+ (42 countries) | Deep Big Law penetration, OpenAI strategic relationship |
+| [[Legora]] | Undisclosed | $1.8B (Oct 2025); later 2026 mark divergent across vault notes | $265M+ | 400+ (40+ countries) | Collaborative model, Portal feature, fastest valuation growth |
 
 Both are built on [[OpenAI]] and [[Anthropic]] models — an infrastructure dependency that is also their moat (domain-specific tuning, audit trails, firm-specific workflows on top of foundation models). See [[Horizontal vs vertical AI]].
 
 The incumbent: [[RELX]] (LexisNexis) — £9.6B revenue, ~£70B market cap, complete law library that neither startup can match. The integration with LexisNexis is already part of [[Harvey]]'s product.
 
 [[Anthropic]]'s Cowork and generic AI assistants are the horizontal threat — JPMorgan (Feb 2026) assessed Cowork as "just catching up" with Harvey and RELX, noting it lacks a complete legal library.
+
+## Build vs. buy: how firms source legal AI
+
+A second axis became visible by mid-2026 — not whether firms adopt AI, but how they acquire the capability. Three sourcing strategies are now distinguishable:
+
+| Strategy | Example | Mechanics |
+|---|---|---|
+| Buy / standardise | most firms | License a finished third-party platform — [[Harvey]] or [[Legora]] — running on [[OpenAI]] / [[Anthropic]] models |
+| Co-build with a model provider | [[Freshfields]] | April 2026 alliance with [[Anthropic]] to help build specialist legal tools (potentially sellable to rival firms) in exchange for early access to future Anthropic models |
+| Build proprietary | [[Kirkland & Ellis]] | $500M committed (May 2026) to an owned platform, designed from ~250 lawyers' workflows, built by ~180 technologists; vendors cannot resell it |
+
+The split maps onto the [[Big Law transformation]] scale logic. Only the largest revenue pools can fund a nine-figure proprietary build and absorb the near-term hit to partner profit — Kirkland's record $10.556B in 2025 revenue is what makes a $500M commitment affordable. Smaller firms rationally rent. Kirkland chair Jon Ballis cast bought-in AI as "raising the floor for everyone," with the proprietary build aimed above that floor.
+
+For the pure-play platforms this extends the competitive risk [[Harvey]] CEO Winston Weinberg already named — that the firm's largest long-term competition is the model providers themselves. The build/co-build path adds a step: the biggest customers may bypass both the vendor and the raw model by self-supplying, concentrating Harvey/Legora's third-party TAM in the mid-market while the top revenue pools build in-house.
+
+No specific market reaction is tied to the Kirkland announcement (Kirkland is a private partnership). The listed read-through runs through the Ring 1 legal-data incumbents — [[RELX]] (LexisNexis), [[Thomson Reuters]], [[Wolters Kluwer]] — already under an AI-substitution overhang, where proprietary and co-build firm platforms add to the pressure on the search-and-retrieval value layer. See [[Big Law transformation]] for the investable rings.
 
 ## Barriers to deeper adoption
 
@@ -111,7 +129,7 @@ Searle: *"The legal system and the rule of law is about humans... There still ne
 
 ## Investment read
 
-The legal AI market is a microcosm of the [[AI adoption curve]] pattern: massive TAM ($1T+ global legal services), enthusiastic experimentation, minimal integration, and venture valuations that assume the integration gap closes faster than institutional friction suggests. [[Harvey]] at $5-8B and [[Legora]] at $6B target are priced for rapid enterprise adoption in a profession that has resisted every prior wave of technology disruption.
+The legal AI market is a microcosm of the [[AI adoption curve]] pattern: massive TAM ($1T+ global legal services), enthusiastic experimentation, minimal integration, and venture valuations that assume the integration gap closes faster than institutional friction suggests. [[Harvey]] at $11B (Mar 2026) and [[Legora]] in the multi-billion range are priced for rapid enterprise adoption in a profession that has resisted every prior wave of technology disruption — and that now sees its largest customers ([[Kirkland & Ellis]]) build proprietary alternatives rather than standardise on a vendor.
 
 The UK government reform push could be a catalyst if it normalizes AI use in courts — but the June 2025 High Court judgment is a counter-signal that weighs on adoption speed.
 
@@ -133,5 +151,11 @@ The Searle example points to the underappreciated use case: AI for adjacent tech
 - [[Horizontal vs vertical AI]] — competitive framework
 - [[AI SaaS Disruption]] — broader SaaS displacement thesis
 - [[Big Law transformation]] — structural reshaping of elite US corporate law that AI legal tools sell into
+- [[Kirkland & Ellis]] — $500M proprietary AI build (May 2026); build-your-own end of the sourcing spectrum
+- [[Freshfields]] — April 2026 Anthropic co-build alliance; co-build sourcing path
+- [[Jon Ballis]] — Kirkland chairman who announced the proprietary build
+- [[Sullivan & Cromwell]], [[Pinsent Masons]] — 2026 elite-firm AI hallucination incidents
+- [[Wolters Kluwer]] — Ring 1 legal-data incumbent under AI-substitution overhang
 
 *Created 2026-03-23 · Source: FT (Suzi Ring, Mar 22, 2026)*
+*Updated 2026-05-29 · build-vs-buy sourcing + 2026 hallucination incidents · Source: FT (Suzi Ring & Kaye Wiggins, May 28 2026)*

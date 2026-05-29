@@ -87,6 +87,21 @@ See [[Venezuela oil rebuild]] for rare earths section.
 
 ---
 
+## Conflict-mineral recognition trap: DRC/M23 (May 2026)
+
+[[Critical Supply]]'s May 27, 2026 post connected the eastern DRC conflict to critical-minerals bargaining with the US. The investable issue is not only whether the DRC has the minerals. It is which authority controls the relevant deposit and whether the buyer's security arrangement can reach it.
+
+Rubaya is the clean case. Reuters reported in March 2026 that the rebel-held Rubaya coltan mine produces around 15% of the world's coltan, which is processed into tantalum for phones, computers, aerospace components, and gas turbines. The site has been under AFC/M23 control since 2024 and was on a shortlist of mining assets the Congolese government offered to the US under a minerals cooperation framework.
+
+That creates a recognition trap for Western minerals policy:
+- If the US works only with Kinshasa, it secures cobalt/copper better than eastern tantalum.
+- If buyers route around Kinshasa to rebel-held supply, they undermine the state and normalize conflict control of mineral nodes.
+- If banking, sanctions, or peace talks are adjusted to access the minerals, supply-chain policy becomes conflict diplomacy.
+
+The broader lesson is that "secure supply" is not only geology, permits, and refining. It can require stabilizing the local political authority that controls the mine.
+
+---
+
 ## Rare earth refining — IEA projections
 
 ![[rare-earth-refining-by-country-2024-2030.png]]

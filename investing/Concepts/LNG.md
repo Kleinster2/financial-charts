@@ -421,6 +421,18 @@ Ben Dell (Kimmeridge): "The biggest shift that has occurred in the market today 
 
 ---
 
+## Europe-US LNG dependency repricing (Merchant's News, May 27, 2026)
+
+[[Giacomo Prandelli]]'s public May 27 [[The Merchant's News]] post reframes the post-Ukraine gas adjustment as a dependency migration, not an autonomy win. Europe did cut Russian pipeline exposure, but the replacement volume increasingly comes from the US LNG complex: the post cites Russian pipeline flows to the EU falling from 165 bcm in 2019 to roughly 20 bcm in 2025, while US LNG to Europe rose from 5 bcm to 81 bcm. IEEFA's January 2026 scenario gives the same strategic warning from a different source: under announced contracts and weak demand reduction, the US could supply 75-80% of EU LNG imports by 2030 and 40% of total EU gas/LNG imports.
+
+That matters because storage and price structure decide whether the dependency is benign or coercive. Europe started refill season around the mid-30s percent storage range versus a normal near-50% seasonal level. Reuters reported [[Equinor]]'s view that a quick Hormuz normalization could leave Europe tight but manageable around 75% storage, while another 1-3 months of disruption could become critical. The public post adds the market mechanism: TTF backwardation breaks the usual summer-fill economics, because traders pay more for summer gas than winter contracts guarantee.
+
+For the LNG value chain, the thesis is not "buy every gas name." The public section points to the specific chokepoint stack: US export capacity, LNG carrier availability, ship technology, Gulf Coast midstream feedgas, adjacent NGL/LPG exports, integrated-major terminal exposure, and LNG trading optionality. The named 8-position portfolio section was gated, so this note treats those categories as the public thesis, not as inferred recommendations.
+
+*Sources: [The Merchant's News, May 27 2026](https://themerchantsnews.substack.com/p/europes-gas-crisis-just-repriced); [IEEFA, January 19 2026](https://ieefa.org/resources/eu-risks-new-energy-dependence-us-could-supply-80-its-lng-imports-2030); Reuters/[[Equinor]] storage report, May 21 2026.*
+
+---
+
 ## Investment case
 
 Bull:

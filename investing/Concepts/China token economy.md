@@ -67,6 +67,8 @@ The pricing war is not organic — it's state-subsidized. During Spring Festival
 
 Agentic AI workloads consume 10-100x more tokens than conversational chat. A simple chatbot query might generate hundreds of tokens; an agent making phone calls, browsing the web, executing multi-step tasks generates tens of thousands per session. [[ByteDance]] reported individual user token consumption grew 16x in a single month as agent frameworks proliferated. The 8-ministry directive targeting 1,000 industrial AI agents by 2027 will accelerate this — every agent deployed is a structural increase in token demand. Whoever controls token delivery infrastructure at the lowest marginal cost holds the advantage. See [[Agentic AI]].
 
+[[Tencent]]'s May 2026 agent flood is the distribution-side version of the same multiplier. [[Hello China Tech]] tracked Tencent pushing [[AI agents|agents]] into office productivity, coding, desktop control, data analytics, design, OS-level assistance, browser, input, meetings, and eventually WeChat Mini Programs as AI-callable skills. If those surfaces become active, Tencent creates token demand inside a 1.3B-user super-app ecosystem. The public-preview caveat is that Tencent still lacks the strongest token-delivery position: Yuanbao trailed [[Doubao]] and [[Qwen]] in reported MAU, [[Tencent Cloud]] ranked #5 in public [[IaaS]] at 8%, and the leading MaaS trio held nearly 90% combined share.
+
 ---
 
 ## Growth projections

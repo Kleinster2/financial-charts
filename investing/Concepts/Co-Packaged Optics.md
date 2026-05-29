@@ -116,6 +116,20 @@ Source: [[Broadcom]] (800G), Andy Bechtolsheim/[[Arista Networks]] OFC 2025 (1.6
 | 3.2T+ (400G/lane) | DSP power/insertion loss exceed pluggable limits |
 | Inflection | 2028-2030 |
 
+### Sivers architecture test (Jason's Chips, May 2026)
+
+[[Jason's Chips]] used [[Sivers Semiconductors]] as a valuation stress test for the CPO trade. The useful framework is not "Sivers is bad"; it is that CPO exposure must be separated into three different claims:
+
+| Claim | Evidence needed |
+|-------|-----------------|
+| Conversation / JDA | Customer is evaluating the part |
+| Qualification | Part meets power, thermal, reliability, and yield specs |
+| Bottleneck | Supplier controls scarce qualified production capacity at scale |
+
+Sivers discloses opportunity-pipeline and development-program language, but no public data-center photonics volume order. Jason argues that Sivers' WDM laser-array path solves bandwidth density while the production CPO constraint is more likely optical power after coupling loss. On that reading, [[Lumentum]]-style ultra-high-power external laser sources are the better fit for early volume CPO because they start with more photons and can tolerate splitter/coupler/waveguide losses.
+
+Treat this as a live architecture debate, not settled fact. Lumentum publicly markets UHP CPO lasers at up to 350mW at 50°C and 235mW at 70°C, while Sivers' public CW-WDM material emphasizes multi-channel DFB arrays. The investable lesson is that "photonics exposure" is too broad; CPO winners depend on which light-source architecture actually qualifies with hyperscalers and switch/GPU vendors.
+
 ---
 
 ## Related

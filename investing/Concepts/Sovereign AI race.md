@@ -28,11 +28,21 @@ AI is becoming national security infrastructure:
 | [[Saudi PIF]] | $100B+ | [[a16z]] partnership |
 | [[G42]] | $1.5B MSFT | Falcon LLM, severed [[China]] ties |
 | [[Japan Semiconductor Revival]] | $50B+ | [[Rapidus]] 2nm |
-| [[India AI]] | $1.2B | 10K+ GPUs |
+| [[India AI]] | Rs 10,371.92 crore mission + $15B Google Vizag hub | 38K+ common-compute GPUs onboarded; producer-vs-tenant question unresolved |
 | [[Brazil AI]] | $4B | Clean energy angle |
 | [[Israel Tech]] | Private | NVIDIA's "second home" |
 
 ---
+
+## India as the ambiguous case (May 2026)
+
+[[India AI]] is the best test of whether sovereign AI means domestic capability or only domestic hosting. The official mission has scaled faster than the original 10,000-GPU target: PIB reported more than 38,000 GPUs onboarded through the AI compute portal by March 2026, with 190 projects approved. Google is also building a $15B, 2026-2030, gigawatt-scale AI hub in Visakhapatnam with [[AdaniConneX]] and [[Nxtra]].
+
+[[Rohit Lamba]] and [[Raghuram Rajan]] argue that this still may leave India a tenant rather than a producer of intelligence if model weights, advanced silicon, training depth, and research labs stay foreign. The Economic Survey data point sharpens the concern: India is about 2% of global AI training-data startups, versus 40% for the US and 21% for the EU.
+
+The market implication is that India can generate infrastructure winners even before it proves sovereign capability. Data centers, power, fiber, and construction are enough for local capex beneficiaries. The higher-quality sovereign-AI thesis requires the next layer: Indian models, datasets, labs, and procurement/deal terms that transfer capability instead of only leasing land and power.
+
+*Sources: Government of India / PIB, Mar 25 2026; Google Cloud, Apr 28 2026; Rohit Lamba and Raghuram Rajan, May 7 2026; Business Standard / Economic Survey 2025-26, Jan 29 2026.*
 
 ## Why nations are investing
 

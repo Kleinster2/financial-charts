@@ -196,6 +196,14 @@ Watch list for the next Q2-print confirmation:
 
 *Sources: [Cloudflare layoffs / CNBC](https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html); [HubSpot / Motley Fool](https://www.fool.com/investing/2026/05/08/why-hubspot-plunged-today/); [Toast / StockStory](https://stockstory.org/us/stocks/nyse/tost/news/earnings/toasts-nysetost-q1-cy2026-earnings-results-revenue-in-line-with-expectations-but-stock-drops-105percent); [BofA HubSpot downgrade / TheStreet](https://www.thestreet.com/investing/stocks/bank-of-america-downgrades-hubspot-stock-after-earnings); local `quick_movers.py` May 8 screen.*
 
+## May 29 2026 software relief rally - adapters bid, thesis not repealed
+
+The May 29 tape produced the first broad counter-swing after the early-May AI-SaaS disruption derate. IGV closed up 6.2%, and several vault software actors cleared the market-close sigma threshold: [[Okta]] +30.1% (~+8.0 sigma), [[Workday]] +12.4% (~+3.8 sigma), [[ServiceNow]] +14.4% (~+3.4 sigma), and [[Atlassian]] +15.3% (~+2.7 sigma). Okta was company-specific, driven by Q1 FY2027 results, free-cash-flow guidance, and the agent-identity governance narrative. NOW, WDAY, and TEAM look more like high-beta beneficiaries of a broad software relief rally.
+
+This does not repeal the disruption thesis. It sharpens the dispersion rule: the market is willing to pay for software that can plausibly become a control plane, workflow backend, or agent-governance layer, while it keeps punishing names where AI shows up as seat compression, weaker guides, or restructuring. The next useful test is whether the Q2 print cycle confirms actual agent monetization rather than only narrative repair.
+
+*Sources: [Okta Q1 FY2027 results / Business Wire](https://www.businesswire.com/news/home/20260528809289/en/Okta-Announces-First-Quarter-Fiscal-Year-2027-Financial-Results), May 28 2026; local `quick_movers.py` fallback screen, May 29 2026.*
+
 ## Related
 
 - [[OpenAI]] — foundation model infrastructure

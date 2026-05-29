@@ -98,6 +98,24 @@ The economics: a [[VLCC]] voyage from the Gulf to [[China]] earns roughly $12M-$
 
 War risk is a tiny premium pool globally - less than $3B/year across marine and aviation, with little standalone disclosure. This means even modest aggregate losses can spike premiums dramatically, because the pool has no depth to absorb them.
 
+### May 27 AWRP update - the quote became the closure
+
+[[Felipe Germini]]'s May 27 ENERGY Pipeline public section puts the post-March state in one number: since March 17, war-risk cover for Hormuz transit was quoted around 5% of vessel value. For a $100M [[VLCC]], that is roughly $5M per crossing. The important point is not only the cost; it is that a quote at that level becomes a commercial refusal for independent traders and smaller refiners. Sovereign-backed producers can self-insure or use owned tonnage. Everyone else faces charter-party frustration, P&I sanctions exposure, bank-financing uncertainty, and demurrage terms that keep the voyage from clearing even if a naval lane is physically open.
+
+The sequence in the public section:
+
+| Date / step | Insurance-market event | Commercial effect |
+|---|---|---|
+| Feb 28 | US-Israeli air war triggers the [[Lloyd's of London|Lloyd's]] Joint War Committee to extend the listed war-risk area to the [[Persian Gulf]] / Hormuz | Standard policies stop treating Gulf transit as routine |
+| Mar 3-17 | Additional war-risk premium rises from roughly 0.5% to 5% of hull value | Cargo flows slow toward roughly 30% of pre-crisis levels |
+| Mid-April | US announces a $20B reinsurance backstop | Helpful stopgap, but only about two weeks of insured Hormuz transit value at pre-crisis volumes |
+| May 22 | International Group of P&I Clubs restates that paying a sanctioned entity for safe-passage cover can void underlying P&I policy | "Dual coverage" with an Iranian safe-passage product remains legally toxic |
+| May 27 | AWRP still around 4.5%-5% despite reopening headlines | The strait is open in language but still paper-closed for many voyages |
+
+The historical precedent also argues against quick normalization. The 1973 Yom Kippur War tanker-insurance spike took about 18 months to fully reverse after the political crisis ended; in the 1980s Tanker War, AWRP quotes peaked near 7% of hull value and did not normalize while the conflict remained live.
+
+*Source: [Felipe Germini / ENERGY Pipeline, "The Insurance Geometry That Replaced the Strait"](https://fgermini.substack.com/p/the-insurance-geometry-that-replaced), May 27 2026. Public section only.*
+
 ### Tiered pricing - flag and ownership matter
 
 [[Marsh McLennan|Marsh]] broker Dylan Mortimer confirmed tiered pricing to the FT (Mar 5): US/[[UK]]/[[Israel]]-linked vessels quoted at 2-3x the base rate. Iranian targeting has been flag-agnostic (17+ vessels attacked through Mar 7, flags of convenience from Palau to Malta), but insurers price perceived targeting risk by ownership and flag state.

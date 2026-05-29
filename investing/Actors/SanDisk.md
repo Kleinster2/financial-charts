@@ -168,6 +168,14 @@ The company's exabyte growth forecast revision (mid-20s% → high-60s%) reflects
 
 ---
 
+## May 2026 optics-comparison read
+
+[[Jason's Chips]] used SanDisk as a contrast to [[Sivers Semiconductors]] in the May 2026 Sivers critique. The point was not that NAND and optics are peers; it was that memory ASP/supply scarcity can justify a moving valuation target when the commodity cycle tightens, while an asset-light photonics company needs specific qualification and production evidence as the market cap rises.
+
+For SanDisk, that reinforces the existing note's framing: the extreme rerating has at least been accompanied by reported revenue, margin, and guidance acceleration. Sivers' rerating is more dependent on future CPO proof.
+
+---
+
 ## Financials
 
 *Note: Limited history — SanDisk spun off Feb 2025. Only two quarters as public company.*

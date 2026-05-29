@@ -62,7 +62,7 @@ ChinaTalk appears to be a founder-led private media property rather than a ventu
 
 ## Contributors
 
-In addition to [[Jordan Schneider]], ChinaTalk features regular contributions from [[Matt Sheehan]] (China AI governance) and other specialists. Matt Sheehan also publishes a separate, personal [[Substack]] with overlapping but distinct coverage.
+In addition to [[Jordan Schneider]], ChinaTalk features regular contributions from [[Matt Sheehan]] (China AI governance), [[Irene Zhang]] (China technology, politics, and culture), and other specialists. Matt Sheehan also publishes a separate, personal [[Substack]] with overlapping but distinct coverage.
 
 ---
 
@@ -137,10 +137,38 @@ Vault implication: the [[Saudi Arabia]] Vision 2030 collapse claim is the cleane
 
 ---
 
+## May 27, 2026 - "China's Father of Robotics"
+
+[[Irene Zhang]]'s May 27 robotics history piece is useful because it breaks the false impression that China's 2026 humanoid / quadruped surge appeared from nowhere. The lineage starts before commercial robotics existed in China: Shanghai Jiao Tong students built the Xianfeng 1 automated metal-cutting robot in the early 1970s; [[Shenyang Institute of Automation]] / [[Chinese Academy of Sciences]] researchers built China's first industrial robot prototype in 1980 and the SZJ-1 teach-and-playback industrial manipulator in 1982; Jiang Xinsong then pushed robotics into the 863 Program's intelligent-robot agenda and into commercial industrialization.
+
+The through-line matters for the vault. China's current robotics edge is not only cheaper hardware or 2026 media heat around [[Unitree]]. It is the result of a long state-lab to factory-commercialization pathway: SIA's control theory, precision-instrumentation, mobile robot, underwater robot, and arc-welding work; the 1999/2000 Siasun spinout from the CAS system; and later regional clusters like [[Hangzhou Robotics Cluster]] that commercialized legged and humanoid robotics on top of a much deeper national base.
+
+**Source-image record:**
+
+![[chinatalk-xianfeng-1-1973.png]]
+*Xianfeng 1, the early Shanghai Jiao Tong automated metal-cutting robot. Source image via ChinaTalk, May 27 2026.*
+
+![[chinatalk-jiang-sjtu-1956.png]]
+*Shanghai Jiao Tong University's 1956 industrial-electrification cohort; Jiang Xinsong is identified by the source caption as seventh from the left in the top row.*
+
+![[chinatalk-szj-1-industrial-robot.png]]
+*SZJ-1 teach-and-playback industrial manipulator, deployed by Shenyang Institute of Automation in 1982.*
+
+![[chinatalk-sia-robotics-lab-1990.png]]
+*SIA robotics demonstration laboratory buildings, completed in 1990.*
+
+![[chinatalk-jiang-at-work.png]]
+*Jiang Xinsong at work, undated.*
+
+*Source: [Irene Zhang, "China's Father of Robotics"](https://www.chinatalk.media/p/chinas-father-of-robotics), ChinaTalk, May 27 2026. Cross-checks: Chinese Academy of Sciences on China's first industrial robot; SIASUN official company profile; People's Daily July 2000 on Siasun's commercialization setup.*
+
+---
+
 ## Related
 
 - [[Jordan Schneider]] — founder and editor-in-chief
 - [[Matt Sheehan]] — contributor
+- [[Irene Zhang]] — contributor
 - [[Rhodium Group]] — Schneider's prior employer, adjacent China research
 - [[Rush Doshi]] — parallel US-China industrial-competition voice
 - [[US-China tech race]] — core topic area

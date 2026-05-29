@@ -57,6 +57,28 @@ OKTA trades as a core Software name (IGV r = 0.73).
 - Okta for AI Agents — govern non-human identities
 - 100+ customers already engaged
 
+### Shadow AI survey and governance gap (May 2026)
+
+Okta's May 27, 2026 "AI Agents at Work" survey is the strongest evidence so far that the AI-agent identity opportunity is not only a product narrative. Okta surveyed 292 executives and 492 knowledge workers across seven countries. The headline gap: 90% of executives said they were confident in visibility into AI tools and 95% said employees used AI responsibly, while 52% of employees admitted using unapproved AI tools.
+
+The risk is not abstract. Okta reported that 58% of executives had seen an AI-related security incident or close call in the prior year. Among workers using unapproved AI tools, 54% shared internal messages/emails, 45% HR-related information, 39% confidential company documents, more than 20% login credentials/passwords, and 28% banking/payment information. Only 34% of organizations always applied the same security controls to AI agents or "digital labor" as to human employees.
+
+For [[Okta]], this supports the bull case that agent identity and [[Shadow AI]] governance can become a real budget line. The challenge is timing: the need is visible now, but Okta still has to convert "AI agents need identity" into revenue before the base workforce-IAM business decelerates too far.
+
+*Sources: Okta, ["AI Agents at Work 2026: Securing the agentic enterprise"](https://www.okta.com/newsroom/articles/ai-agents-at-work-2026-agentic-enterprise-security/), May 27 2026; Thomas Claburn, ["Bosses blinded by confidence about shadow AI use by workers"](https://www.theregister.com/ai-ml/2026/05/27/bosses-blinded-by-confidence-about-shadow-ai-use-by-workers/), The Register, May 27 2026.*
+
+---
+
+### Q1 FY2027 earnings and May 29 identity-software rerating
+
+Okta's Q1 FY2027 print converted the shadow-AI / agent-identity story into a price signal. Total revenue was $765M (+11% YoY), subscription revenue was $750M (+11%), operating cash flow was $276M, and free cash flow was $271M. Management guided Q2 revenue to $780-782M and FY2027 revenue to $3.185-3.205B, with FY2027 free cash flow of $855-885M.
+
+OKTA closed at $152.45 on May 29, 2026, up 30.1%. Using the current web close with the local `quick_movers.py` beta/idiosyncratic-volatility framework, the move was roughly +8.0 sigma. The stock reaction matters because the market paid for a combination that had been scarce in the AI-SaaS disruption tape: moderate but stable growth, very high cash generation, and a credible governance angle for non-human AI identities.
+
+This does not remove the base-workforce-IAM deceleration risk. It does raise the probability that Okta can defend relevance if agent identity, privilege, and shadow-AI governance become budgeted control-plane categories.
+
+*Source: [Okta Q1 FY2027 results / Business Wire](https://www.businesswire.com/news/home/20260528809289/en/Okta-Announces-First-Quarter-Fiscal-Year-2027-Financial-Results), May 28 2026; local `quick_movers.py` fallback screen, May 29 2026.*
+
 ---
 
 ## Financial performance
@@ -150,6 +172,8 @@ OKTA -10.9% (3.4σ) while S&P 500 +0.62%. Cybersecurity cluster sold off togethe
 - [[CrowdStrike]] — security peer
 - [[Zscaler]] — security peer
 - [[SaaS]] — sector
+- [[Shadow AI]] — AI-agent identity and governance demand driver
+- [[Agentic AI security]] — agent permission and identity-risk framework
 
 ---
 

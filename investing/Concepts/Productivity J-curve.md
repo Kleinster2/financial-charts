@@ -33,6 +33,22 @@ The Solow Paradox — "you can see the computer age everywhere except in the pro
 
 ---
 
+## Electrification ladder as AI deployment map
+
+[[Exponential View]]'s May 2026 AI-productivity essay turns the electrification analogy into a more concrete operating-model ladder. The point is that a general-purpose technology can be installed widely before the firm reorganizes around it.
+
+| Stage | Electricity analogue | Organizing logic | AI analogue | ROI signal |
+|-------|----------------------|------------------|-------------|------------|
+| 1. Lightbulb | Electric lighting in the old factory | Make local work safer or faster | Individual [[ChatGPT]] / [[Claude Code]] / copilot usage | Personal output improves; firm-level throughput barely moves |
+| 2. Group drive | Central power or one motor driving existing shafts and belts | Cost savings inside the old layout | Agents inside existing recruiting, support, sales, coding, or marketing workflows | Cost and cycle-time savings inside a function |
+| 3. Unit drive | One motor per machine, workflow organized around throughput | Redesign the production system | AI observes signals, orients against context, decides inside governed bounds, and routes/builds across workflows | Firm-level cycle time and decision throughput improve |
+
+This clarifies the current enterprise AI puzzle. Stage 1 and Stage 2 can both be real while measured ROI disappoints. If AI lets a developer, support team, or recruiter produce more output, but that output waits in the same review queues, legal checks, product prioritization meetings, and management sign-offs, the firm has congestion rather than transformation.
+
+The historical source image in the Exponential View essay was not copied into the vault; the extracted claim is what matters: the factory electrification phase preceded the productivity harvest. David's and Devine's work put the core reorganization in the shift from shaft-driven layouts to machine-level electric drive, and the essay highlights the 1919-1929 period when US manufacturing labor productivity grew about 5.4% per year as unit-drive layouts diffused.
+
+---
+
 ## 2025 evidence (Brynjolfsson, Feb 2026)
 
 | Signal | Data |
@@ -75,6 +91,11 @@ Risks:
 - [[Jevons Paradox]] — complementary concept (efficiency increases total demand)
 - [[AI disintermediation]] — context (the disruption driving the restructuring)
 - [[Agentic AI]] — catalyst (agents compress weeks of work into hours — Brynjolfsson's "power user" cohort)
+- [[Enterprise AI adoption]] — firm-level ROI puzzle and workflow-redesign bottleneck
+- [[Exponential View]] — May 2026 lightbulb / group-drive / unit-drive ladder
+- [[Claude Code]] — individual and team-level productivity signal
+- [[Klarna]] — Stage 2 customer-service agent example
+- [[Uber]] — AI-token usage vs useful-feature output example
 - [[Stanford]] — source (Digital Economy Lab)
 
 *Created 2026-02-16*
@@ -85,3 +106,6 @@ Risks:
 
 - [FT: The AI productivity take-off is finally visible](https://www.ft.com/) — Erik Brynjolfsson (Feb 15, 2026)
 - Bureau of Labor Statistics benchmark revisions (Feb 2026)
+- [Exponential View: Why AI isn't showing up on your bottom line](https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line) — [[Azeem Azhar]] and Nathan Warren (May 27, 2026)
+- [NBER: The Productivity J-Curve](https://www.nber.org/system/files/working_papers/w25148/w25148.pdf) — Erik Brynjolfsson, Daniel Rock, and Chad Syverson
+- [Paul David: The Dynamo and the Computer](https://www.almendron.com/tribuna/wp-content/uploads/2018/03/the-dynamo-and-the-computer-an-historical-perspective-on-the-modern-productivity-paradox.pdf)

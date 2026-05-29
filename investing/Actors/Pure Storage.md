@@ -1,8 +1,13 @@
-# Pure Storage
+---
+aliases: [Pure Storage, PSTG, Everpure, P]
+tags: [actor, public, usa, infrastructure, storage, ai]
+---
+
+# Everpure (formerly Pure Storage)
 
 #actor #public #usa #infrastructure #storage #ai
 
-**Pure Storage** (PSTG) — Enterprise all-flash storage leader. **$24B market cap, $3.5B revenue.** Deep [[NVIDIA]] partnership (AIRI, DGX SuperPOD certified). AI data infrastructure play — storage layer for enterprise AI factories. [[Gartner]] Leader (highest execution, furthest vision).
+**Everpure** (formerly **Pure Storage**, NYSE: P; formerly PSTG) — Enterprise all-flash storage and data-management platform. Deep [[NVIDIA]] partnership (AIRI, DGX SuperPOD certified). AI data infrastructure play — storage layer for enterprise AI factories, now repositioning from storage hardware into an enterprise data-cloud/data-orchestration platform. [[Gartner]] Leader (highest execution, furthest vision).
 
 ---
 
@@ -10,7 +15,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Ticker | PSTG (NYSE) |
+| Ticker | P (NYSE; formerly PSTG) |
 | Founded | 2009 |
 | IPO | 2015 |
 | HQ | Santa Clara, CA |
@@ -45,6 +50,18 @@
 | Rating | Buy consensus |
 
 **Recent:** $400M share repurchase announced Dec 2025.
+
+---
+
+## Rebrand and Q1 FY2027 earnings (May 2026)
+
+Everpure formally transitioned the corporate brand from Pure Storage and updated its ticker to NYSE: P, framing the shift as an expansion from storage provider to broader data-management platform. Q1 FY2027 revenue was $1.053B (+35% YoY), product revenue $576.5M (+55%), subscription-services revenue $476.4M (+17%), subscription ARR $2.0B (+19%), and RPO $3.8B (+41%). GAAP operating income was $20M, non-GAAP operating income was $159M, and free cash flow was $112M.
+
+The company also completed the acquisition of 1touch, adding data-security posture management, data discovery/classification, and semantic context capabilities to the Everpure platform. FY2027 guidance moved up to $4.41-4.51B revenue (+20-23%) from $4.3-4.4B and $820-860M non-GAAP operating income from $780-820M.
+
+Market read: the May 28 close check flagged P as a significant negative move despite the guide raise. Without a local P/PSTG series in the database, the exact beta-adjusted sigma was not computable; qualitatively, the reaction looks like a sell-the-news / AI-storage-expectation reset rather than a deterioration in reported fundamentals.
+
+*Sources: [Everpure Q1 FY2027 results](https://investor.everpuredata.com/news-and-events/press-releases/press-release-details/2026/Everpure-Announces-First-Quarter-Fiscal-2027-Financial-Results/default.aspx); [SEC 8-K exhibit](https://www.sec.gov/Archives/edgar/data/1474432/000147443226000046/pstg-ex991q1fy2027xpressre.htm).*
 
 ---
 

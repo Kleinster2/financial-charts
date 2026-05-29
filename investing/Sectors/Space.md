@@ -48,6 +48,38 @@ This is not directly investable through Chinese public equities, but it matters 
 
 ---
 
+## Post-ISS commercial-station capital signal (May 2026)
+
+[[1789 Capital]]'s May 2026 strategic investment in [[Star Lab]] is a small but telling signal for the commercial-station segment. The amount was not disclosed, so the investment is not a funding-gap solution. The useful point is that commercial LEO infrastructure is attracting political capital under a national-strategic frame: post-ISS American presence, [[Tiangong]] competition, NASA continuity, allied agency demand, and microgravity science all folded into one orbital-infrastructure thesis.
+
+The sector read: commercial stations remain a policy-dependent market. [[NASA]] is still the anchor customer, and the [[Commercial LEO Destinations]] Phase 2 path determines whether private capital is underwriting a real services market or bridging an uncertain procurement redesign. Strategic investors can help the politics; they cannot substitute for NASA demand.
+
+*Sources: Starlab / Voyager official announcement, May 21 2026; [[Journal of Space Commerce]], May 27 2026; NASA Commercial Space Stations page; CSIS, May 27 2026.*
+
+---
+
+## Rocket Lab GEO SDA prime award (May 2026)
+
+[[Rocket Lab]]'s $90M [[US Space Force|Space Systems Command]] award for two geostationary space-domain-awareness satellites is a sector signal because it moves a public new-space name into GEO national-security mission delivery. The program combines Rocket Lab's Lightning bus, the Heimdall optical payload from Rocket Lab Optical Systems / [[GEOST]], launch integration onto a government-furnished launch vehicle, and up to five years of on-orbit operations.
+
+This is different from the May 27 [[SpaceX IPO 2026]] proxy trade. The IPO halo is valuation/liquidity; the GEO award is funded backlog and mission eligibility. It validates the acquisition stack Rocket Lab has been building across buses, optical payloads, robotics, solar, flight software, and operations. For the sector, the important line is not "small-launch company wins contract"; it is "commercial-space vertical stack becomes acceptable for GEO custody work normally held by heritage primes."
+
+*Sources: [Rocket Lab official release, May 21 2026](https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-awarded-90m-contract-build-geo-satellites-hosting); [[Journal of Space Commerce]], May 27 2026.*
+
+---
+
+## NASA realignment and Blue Origin cadence risk (May 2026)
+
+NASA's May 22, 2026 realignment is the institutional version of the Q1 Isaacman architecture reset. Human spaceflight, low Earth orbit, Artemis, Moon Base, and LEO commercialization now sit under a tighter direct-report structure, while research/technology absorbs aeronautics and space technology. For the sector, that means NASA is trying to manage the lunar base, post-ISS transition, and enabling technology stack as one execution problem rather than as isolated program offices.
+
+The same week exposed the commercial bottleneck. [[Blue Origin]] announced a roughly $600M Cape Canaveral upper-stage manufacturing expansion, then suffered a [[New Glenn]] hotfire explosion at Launch Complex 36. That juxtaposition is the whole new-space trade in miniature: capital and factory square footage are arriving, but flight cadence still has to be earned. Until New Glenn becomes repeatable, Blue Origin's Blue Moon, Orbital Reef, and [[Project Sunrise]] roadmaps remain downstream of launch reliability.
+
+For public markets, the read-through is not direct Blue Origin equity exposure. It is benchmark pressure on [[SpaceX IPO 2026]], [[Rocket Lab]], and the [[Space pure-plays]] basket: the sector will keep rewarding names that can turn policy demand and capital spending into launches, payloads, and contracted operations.
+
+*Sources: NASA realignment announcement, May 22 2026; [[Journal of Space Commerce]], May 28 2026; Space Florida / Florida governor announcement, May 22 2026; AP, May 29 2026.*
+
+---
+
 ## May 8, 2026 — synchronized public-equity rerating across the sector
 
 The May 8 session produced the cleanest cross-name rally in the public space sector since the cohort began listing in 2020-2024. Every single public space-pure-play in the vault printed a >+5% session, and most printed double-digit gains:
@@ -200,7 +232,7 @@ See [[Starlink]] for details.
 | Space Force | US military branch |
 | National security launches | SpaceX, ULA |
 | Missile warning | Space Force, contractors |
-| Space Domain Awareness | Growing priority |
+| Space Domain Awareness | Growing priority; [[Rocket Lab]] won a $90M GEO SDA satellite award in May 2026 |
 
 ---
 
@@ -266,6 +298,16 @@ See [[Starlink]] for details.
 
 ---
 
+## Pax Silica supplier-screening risk (May 2026)
+
+[[Pax Silica]] extends the trusted-vendor logic of semiconductors, AI hardware, critical minerals, advanced manufacturing, and logistics into commercial space. The Journal of Space Commerce's May 28, 2026 read is that satellite and launch-vehicle suppliers are not merely exposed to export controls at the finished-system level; their sub-tier inputs can become procurement-qualification problems if they remain China-anchored.
+
+The relevant components are the parts where commercial space still leans on broad electronics and industrial supply chains: RF systems, PCB assemblies, power electronics, electro-optical sensors, carbon-fiber composites, precision-machined aluminum structures, and rare-earth permanent magnets for actuators and reaction wheels. The named procurement networks were [[Terran Orbital]], [[L3Harris]], [[Axiom Space]], [[Safran]], and [[Sierra Space]].
+
+The practical investor screen is whether a space-hardware supplier can show a documented [[China plus one]] or [[ASEAN]] sourcing posture. The policy risk is less a single new rule than a gradual downlisting channel as US-aligned contracts treat trusted-vendor compliance as part of supplier qualification.
+
+---
+
 ## Chinese commercial-space dual-use channel
 
 Two publicly documented cases of Chinese commercial satellite operators supplying targeting-relevant imagery or satellite control to US-designated adversaries, complicating the "civilian" framing of the Chinese commercial-space sector:
@@ -297,6 +339,8 @@ The exports use commercial wrapping ([[Military-civil fusion]] talent and fundin
 - [[Tiangong]] — Chinese space-station testbed
 - [[Isar Aerospace]] — leading European launch startup
 - [[Germany]] — €35B space-defense investment
+- [[Pax Silica]] — trusted-vendor framework now touching commercial space suppliers
+- [[Terran Orbital]] — Lockheed-owned small-satellite supplier network named in Pax Silica read-through
 - [[Defense]] — space defense overlap
 - [[European defense spending]] — driving European space demand
 - [[Submarine Cables]] — connectivity alternative

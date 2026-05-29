@@ -67,6 +67,14 @@ Markets responded with the "Takaichi Trade" — Nikkei +5% in days, outperformin
 
 **Fiscal risk**: 240% debt/GDP + expansionary fiscal policy + potential tax cuts = bond market tension. Solís: "the voters have given her a very overwhelming mandate, but the markets have not." How she navigates fiscal ambition vs bond market discipline is the key story. See [[Abenomics]] for the comparison with Abe's more restrained fiscal approach.
 
+## Debt trap and yen pressure
+
+[[Robin J. Brooks]]' May 28 2026 debt-trap frame turns Japan's fiscal risk into a three-market loop: [[BOJ]] purchases keep [[JGB]] yields below where they might clear without official support; the missing risk premium appears in the [[Japanese yen|yen]] instead; and periodic FX intervention then supports the currency without solving the bond-market clearing problem. The result is a slow-motion version of the [[UK gilt crisis|Liz Truss]] mix: rising long-end yields and a falling currency at the same time.
+
+The balance-sheet escape route is politically cleaner in theory than in practice. Brooks argues that Japan should sell government financial assets and use the proceeds to reduce debt. IMF's 2026 Article IV confirms that Japan has a large public-sector asset buffer, but it also says many assets are encumbered, operationally independent, or held by social security funds for future benefits. That makes the issue a fiscal-institutional restructuring problem, not a simple asset-sale button.
+
+Market read: Japan's bull case still rests on reflation, governance reform, and household asset rotation. The debt-trap risk is the counterweight. If the yen keeps weakening while 30-year JGB yields grind higher, the market is saying BOJ normalization is still too slow to clear the risk premium. See [[Japan debt trap]], [[JGB]], [[Japanese yen]], and [[BOJ]].
+
 ## Demographics — the structural headwind
 
 Working-age population (15-64) peaked in 1990. Japan loses ~500K people per year. Responses:

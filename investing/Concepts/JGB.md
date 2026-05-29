@@ -74,7 +74,7 @@ See [[Carry trade]] for August 2024 unwind specifics.
 - `jgb_yields` table in database (FRED source, monthly, lagged)
 - Real-time: Bloomberg, [[TradingView]] "JP10Y"
 
-## Current dynamics (Jan 2026)
+## Current dynamics (2026)
 
 - BOJ raised rates to 0.5% in Dec 2025 — highest in 30 years
 - **40Y yields >4%** — first JGB maturity above 4% in 30+ years
@@ -90,6 +90,16 @@ See [[Carry trade]] for August 2024 unwind specifics.
 
 **Key risk:** $280M of trading caused $41B wipeout. Thin liquidity + constrained dealer balance sheets = vulnerable to further shocks.
 
+### May 2026 debt-trap repricing
+
+The May 2026 update is that the long end kept selling off even after the January crash ceased to be fresh news. Trading Economics showed Japan's 30-year yield at 3.94% on May 29, after an all-time high of 4.20% earlier in May. The May 14 30-year JGB auction cleared at 3.842%, up from 3.697% in April. That matters because the BOJ is still present in the market even while tapering.
+
+[[Robin J. Brooks]]' May 28 debt-trap post framed the issue as suppressed yield risk rather than a simple "rates are high" story. Japan's 30-year yield is now near Germany's despite a much higher public-debt stock. Brooks' argument is that ongoing BOJ purchases keep yields below equilibrium, and that the missing risk premium shows up in the [[Japanese yen|yen]] instead.
+
+IMF's 2026 Article IV gives the cold-data check: BOJ JGB holdings fell from 91% of GDP in June 2024 to about 80% in January 2026, and gross monthly JGB purchases are scheduled to fall from 3.3 trillion yen in December 2025 to 2.1 trillion yen by March 2027. QT is meaningful, but the BOJ remains large enough that the market is still pricing the handoff from official to private balance sheets.
+
+See [[Japan debt trap]] for the fiscal-balance-sheet version of the mechanism.
+
 ## Investment implications
 
 | Scenario | Expression |
@@ -102,6 +112,7 @@ See [[Carry trade]] for August 2024 unwind specifics.
 ## Related
 
 - [[JGB crash January 2026]] — $280M trading → $41B wipeout
+- [[Japan debt trap]] — fiscal-balance-sheet pressure behind yen/yield repricing
 - [[BOJ policy]] — policy framework driving JGB yields
 - [[Carry trade]] — JGBs as funding source
 - [[Treasuries]] — US comparison

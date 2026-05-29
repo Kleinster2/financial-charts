@@ -78,7 +78,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | 5 | Mar 4 | Iran peace outreach — first diplomatic signal | ~$76 | — | Dollar's biggest drop in a month; [[Kospi]] -12% record one-day drop; DXY best week in 4 months (+1.3%) |
 | 8 | Mar 6 | February NFP: -92K (vs +50K est) | ~$88 | -1.3% | Stagflation print; Russell -2.39% |
 | 9 | Mar 7 | 17 vessels attacked; Trump "unconditional surrender" | $92.69 | -1.3% | Worst week since Oct; dip-buy broke |
-| 14 | Mar 13 | Saudi +1.7% vs Dubai -17% | ~$100 | — | [[Iran conflict Gulf equity divergence|Gulf equity divergence]] |
+| 14 | Mar 13 | Saudi +1.7% vs Dubai -17% | ~$100 | — | [[Iran conflict Gulf equity divergence\|Gulf equity divergence]] |
 | 15 | Mar 14 | Brent >$100; US producer +$5B/month windfall | >$100 | — | RBC targets $128; [[Equinor]] best major |
 | 18 | Mar 18 | South Pars / Ras Laffan strikes; 4 emergency measures | $107.38 | -1.36% | Energy infrastructure war begins |
 | 19 | Mar 19 | QatarEnergy: 17% LNG capacity offline 3-5 years | ~$113 | — | $26B damage; ~$20B/yr revenue loss |
@@ -272,7 +272,7 @@ YTD performance for the FT-identified cohort as of May 3 (verified against DB):
 | [[GE Vernova]] | +65% | +61.4% | +59.3% | US AI-power |
 | [[Nordex]] | +67% | +66.6% | +55.5% | EU onshore wind sovereignty |
 | [[Siemens Energy]] | +50% | +50.6% | +41.4% | Dual: US gas turbines + EU wind |
-| [[Orsted|Ørsted]] | +37% | +38.9% | +35.4% | EU offshore wind sovereignty |
+| [[Orsted\|Ørsted]] | +37% | +38.9% | +35.4% | EU offshore wind sovereignty |
 | [[Acciona]] | +33% | +32.9% | +39.3% | EU renewables + Nordex stake |
 | [[NextEra Energy]] | +22% | +21.2% | +16.7% | US utility + renewables + AI |
 
@@ -424,6 +424,14 @@ The structural read is time-frame divergence. Oil, FX, bonds, airlines, and luxu
 Chart handling: [[Reuters]] packaged the piece as a graphic; the vault extraction above converts the visible chart/article values into a text table and does not copy the Reuters image.
 
 Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
+
+### May 27, 2026 -- Chartbook: inflation volatility becomes the bond-market hinge
+
+[[Adam Tooze]]'s Chartbook Top Links 1114 adds a useful curation layer to the same rates story. The Bloomberg item he surfaced frames the Iran war as a second inflation shock after the post-Covid price spike: fuel and fertilizer are trapped around the [[Strait of Hormuz]], European airlines have canceled flights, U.S. consumers have spent roughly an extra $20B at the pump, and Asian rice farmers have weighed skipping planting. The key market expression is the same one visible in the Reuters table above: more than $50T of G7 sovereign debt is being repriced as long-term yields press toward two-decade highs.
+
+The read-through is not that long-run inflation expectations have cleanly broken. It is that investors are demanding more compensation for inflation volatility and supply-shock recurrence, while central banks face pressure to keep policy tighter even as activity weakens. The FT caveat Chartbook highlighted is especially important for this note: inflation expectations, inflation-linked bonds, and real-yield proxies are traded asset prices, not pure macro observables. Liquidity, QE, supply/demand technicals, and inflation-risk premia can pollute the signal. That supports keeping the May selloff decomposed into real yield, breakeven, and term-premium channels instead of labeling it as a simple expectations un-anchoring.
+
+Source: [[Adam Tooze]], Chartbook Top Links 1114, May 27 2026; Chartbook curation of Bloomberg and FT bond-market items.
 
 ---
 

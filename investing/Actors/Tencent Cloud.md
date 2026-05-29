@@ -14,13 +14,13 @@ Tencent doesn't need to win the model race or the token volume race. It has WeCh
 | Metric | Value |
 |--------|-------|
 | Parent | [[Tencent]] |
-| Cloud market share | **~20%** (#2-3 China) |
+| Cloud market share | Legacy all-cloud estimate ~20%; public [[IaaS]] #5 / 8% in May 2026 data cited by [[Hello China Tech]] |
 | 2025 business services revenue | **+22% YoY** |
 | MaaS platform | **TokenHub** (rebranded Mar 27, 2026) |
 | Billing system | **Token Plan** — unified across models |
 | Models hosted | [[Hunyuan]], [[DeepSeek]], [[MiniMax]] + others |
 | AI investment | **$5.2B** (doubling, Forbes Mar 2026) |
-| Yuanbao AI assistant | **50M DAU**, **114M MAU** (Feb 2026) |
+| Yuanbao AI assistant | 57.35M MAU in May 2026 third-party data cited by [[Hello China Tech]]; older Feb 2026 figures should be treated as a separate claim |
 | AI leadership | Yao Shunyu (from [[OpenAI]], joined Jan 2026) |
 | Distribution moat | WeChat (1.3B+ MAU) |
 
@@ -54,6 +54,29 @@ If AI agents become the primary user interface (the shared thesis across all Chi
 **Yuanbao AI assistant:** 50M DAU, 114M MAU (Feb 2026). Includes Yuanbao PAI — group-based AI coordination feature designed for multi-person planning via summaries, reminders, and shared outputs.
 
 **Cautious integration:** Tencent is NOT dropping AI into WeChat group chats directly. It's ringfencing the experiment inside Yuanbao, using PAI as a bridge to WeChat's social graph without risking backlash in the core messaging product.
+
+---
+
+## Agent flood and infrastructure risk (May 2026)
+
+[[Hello China Tech]] / [[Poe Zhao]]'s May 27 2026 public preview stress-tests the distribution thesis. Tencent has launched agents across office productivity, coding, desktop control, data analytics, design, OS-level assistance, browser, input, meetings, and is preparing to convert WeChat Mini Programs into AI-callable skills. That is exactly the super-app distribution strategy this note expects.
+
+The problem is the foundation underneath the distribution layer:
+
+| Metric | May 2026 public-preview read |
+|--------|------------------------------|
+| Yuanbao MAU | 57.35M |
+| [[Doubao]] MAU | 345M |
+| [[Qwen]] app MAU | 166M |
+| Public cloud [[IaaS]] | Tencent Cloud ranked #5 at 8% share |
+| MaaS leaders | [[Volcano Engine]], [[Alibaba Cloud]], and [[Baidu]] AI Cloud nearly 90% combined |
+| AI operating-profit drag | Roughly Rmb 8.8B quarterly non-[[IFRS]] drag, per Zhao's read of Tencent disclosures |
+
+The read-through is that Tencent's distribution moat is real but not self-executing. If WeChat Mini Programs become callable services for agents, Tencent can route AI demand through the existing super-app ecosystem. But if token economics, model quality, and cloud reliability determine adoption, the company has to catch up to ByteDance and Alibaba on the infrastructure layer while funding a broad product wave.
+
+Chart handling: the source included two visible infographics. Their useful data is extracted in the table above rather than copied as local images.
+
+*Source: [[Poe Zhao]] / [[Hello China Tech]], [May 27 2026](https://hellochinatech.com/p/tencent-agent-flood). Public preview only; no paid-body claims inferred.*
 
 ---
 
@@ -92,11 +115,11 @@ If AI agents become the primary user interface (the shared thesis across all Chi
 |--------|-------|
 | Parent | [[Tencent]] |
 | HQ | Shenzhen |
-| Cloud rank | #2-3 China (~20%) |
+| Cloud rank | Legacy all-cloud estimate ~20%; public [[IaaS]] #5 / 8% in May 2026 data cited by [[Hello China Tech]] |
 | 2025 biz services growth | +22% YoY |
 | MaaS platform | TokenHub |
 | AI investment | $5.2B (doubling) |
-| Yuanbao | 50M DAU, 114M MAU |
+| Yuanbao | 57.35M MAU in May 2026 third-party data cited by [[Hello China Tech]] |
 | AI leader | Yao Shunyu (ex-OpenAI) |
 | Key model | [[Hunyuan]] |
 
@@ -121,3 +144,4 @@ If AI agents become the primary user interface (the shared thesis across all Chi
 - [[China token economy]] — market framework
 - [[Agentic AI]] — demand driver
 - [[Export controls]] — GPU constraint
+- [[Hello China Tech]] — May 2026 agent-flood stress test

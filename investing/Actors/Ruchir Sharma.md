@@ -37,12 +37,23 @@ This was a continuation, not a reversal, of his earlier 2026 view that global le
 
 ---
 
+## India as anti-AI play (Apr 2026)
+
+At Express Adda in Mumbai, Sharma argued that global investors had become unusually indifferent toward [[India]] because the 2026 market narrative was dominated by AI exposure and India lacked a clean listed AI hardware or frontier-model play. His comparison was not "India has no growth"; it was "India has no AI beta" relative to the US platform firms and the Asian hardware winners in [[Taiwan]], South Korea, and Japan.
+
+That framing is now one side of the [[India AI]] debate. [[Rohit Lamba]] and [[Raghuram Rajan]] use it as the market symptom: India can host hyperscaler data centers and still fail to own the high-rent layers of intelligence unless it builds research, model, and dataset capability.
+
+*Source: Indian Express, Apr 30 2026.*
+
+---
+
 ## Related
 
 - [[Rockefeller International]] — firm
 - [[Fiscal Dominance]] — framework for the policy ammunition exhaustion thesis
 - [[Hormuz Permanent Risk Premium]] — the shock being amplified by fiscal constraints
 - [[2026 recession risk]] — vulnerability ranking
+- [[India AI]] — source of the anti-AI-play debate
 
 ---
 

@@ -50,6 +50,14 @@ Read-through for the [[Co-Packaged Optics]] thesis: the Marvell-POET dispute is 
 
 ---
 
+## May 2026 small-cap optics read-through
+
+[[Jason's Chips]] used POET as part of the broader Sivers caution: CPO-adjacent small caps can trade on customer adjacency and architecture narratives before qualification and production are proven. That matters for POET because the Apr 2026 [[Marvell Technology]] / [[Celestial AI]] cancellation already showed that a named optics relationship can disappear before it becomes a durable revenue stream.
+
+The read-through is not that POET and [[Sivers Semiconductors]] have the same product. It is that the public-market optics trade is now assigning bottleneck multiples to companies whose disclosed evidence is still closer to development programs, collaborations, or early orders than to scaled production.
+
+---
+
 ## Related
 
 - [[Silicon Photonics]] — target market
@@ -58,5 +66,6 @@ Read-through for the [[Co-Packaged Optics]] thesis: the Marvell-POET dispute is 
 - [[Celestial AI]] — former customer; acquired by [[Marvell Technology]] Feb 2, 2026
 - [[Marvell Technology]] — cancelled all Celestial AI POs Apr 23, 2026
 - [[Lightmatter]], [[Ayar Labs]], [[Eliyan]] — peer photonic-interconnect designers exposed to similar customer-concentration dynamics
+- [[Sivers Semiconductors]] — May 2026 optics valuation caution
 
 *Source: Photon Capital PC101, March 2026; Marvell-POET cancellation Apr 27, 2026.*

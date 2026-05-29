@@ -227,10 +227,13 @@ KTOS shows moderate [[Defense]] correlation (ITA r = 0.61) — distinct from bro
 
 ## Recent developments (Feb 2026)
 
+- May 28, 2026: KTOS closed up roughly 14.3%, which screens at about +3.4 sigma on the local beta/idio-vol profile. This was a policy read-through rather than a booked Kratos contract: the market rerated public U.S. tactical-drone and attritable-aircraft names after reports that the Trump administration and Pentagon were discussing direct financial support for domestic drone manufacturers. Kratos fits the basket through XQ-58 Valkyrie, target drones, jet engines, and affordable-at-scale unmanned systems, but the May 28 move should be treated as industrial-policy optionality, not backlog.
 - Feb 18, 2026: Awarded JHTO contract for thermal protection systems testing for hypersonic vehicles â€” standardized test methodologies and material test campaigns
 - Feb 17, 2026: Satellite ground systems contract (details limited)
 - Jan 2026: [[Northrop Grumman]]/Kratos team selected for USMC MUX TACAIR CCA
 - Nomad acquisition: recently completed, earning out via $7M holdback + $10M milestone equity
+
+Sources for May 2026 update: [Investing.com market-cap movers](https://m.investing.com/news/stock-market-news/arm-and-snowflake-among-market-cap-stock-movers-on-thursday-93CH-4714851?ampMode=1), [Simply Wall St on Kratos drone-funding read-through](https://simplywall.st/stocks/us/capital-goods/nasdaq-ktos/kratos-defense-security-solutions/news/kratos-weighs-government-drone-funding-talks-against-lofty-v), [StockAnalysis May 28 gainers](https://stockanalysis.com/markets/gainers/).
 
 ---
 

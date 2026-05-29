@@ -25,8 +25,33 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 | [[Google-Blackstone TPU cloud venture 2026]] | $5B initial equity; up to ~$25B with leverage (FT) | Chip-backed TPU neo-cloud JV | Google supplies TPU + software; Blackstone majority (per FT); 500 MW online 2027; [[Benjamin Treynor Sloss]] CEO |
 | [[Nebius]] capital markets stack | $700M strategic equity + ~$4.3375B convertibles | Listed neocloud financing | [[Accel]] / [[NVIDIA]] / [[Orbis Investments]] strategic equity; private convertible notes to qualified institutional buyers; [[Microsoft]] and [[Meta]] as demand anchors |
 | [[IREN]]-[[Dell]]-[[NVIDIA]] Childress | ~$1.6B purchase; $3.4B service contract; up to $2.1B NVIDIA investment right | Supplier order + customer offtake + strategic equity option | Dell supplies air-cooled Blackwell systems; NVIDIA is managed-cloud customer and potential equity investor; IREN guarantees purchase obligations |
+| [[Google Cloud]] / [[AdaniConneX]] / [[Nxtra]] Vizag | $15B over 2026-2030 | Hyperscaler + local infrastructure partners | Google anchor; AdaniConneX and Nxtra build/operate data-center and connectivity layer; gigawatt-scale hub |
 
 ---
+
+## Google India AI hub - Vizag (Apr 2026)
+
+Google broke ground on its Visakhapatnam AI hub on Apr 28, 2026. The project belongs in this deal ledger because it shows the sovereign-AI infrastructure template outside the US: a hyperscaler contributes model/cloud demand and capital, while local partners convert land, power, data-center operations, fiber, and cable-landing infrastructure into usable capacity.
+
+| Component | Detail |
+|-----------|--------|
+| Sponsor / anchor | [[Google Cloud]] |
+| Local partners | [[AdaniConneX]] and [[Nxtra]] |
+| Size | $15B over 2026-2030 |
+| Scale | Gigawatt-scale AI ecosystem; three data-center campuses |
+| Location | Tarluvada / Visakhapatnam, Andhra Pradesh |
+| Power language | Long-term clean-energy strategy; no named [[Power purchase agreement]] (PPA), utility interconnection, or dedicated generation disclosed in the press release |
+| Strategic read | Strong for Indian AI infrastructure; weaker proof of Indian model capability unless deal terms expand domestic research, data, and model-building capacity |
+
+The [[Rohit Lamba]] / [[Raghuram Rajan]] critique is the right caveat for investors: this is not automatically a sovereign-AI capability win. It is clearly a powered-capacity and digital-infrastructure win. Whether it becomes an Indian AI capability win depends on who owns the model weights, what training happens locally, whether Indian startups and researchers get meaningful access, and whether the foreign deal transfers capability rather than only renting Indian land and power.
+
+*Sources: Google Cloud press release, Apr 28 2026; Rohit Lamba and Raghuram Rajan, May 7 2026.*
+
+### Power-delivery caveat (May 2026)
+
+[[Asia Tech Lens]] adds a second caveat: even a gigawatt-scale announced hub is only as valuable as the site-level power that can actually be delivered. India has rapid renewable additions and large data-center demand, but transmission delays, curtailment, and local grid-quality problems push operators toward microgrids, behind-the-meter renewables, batteries, PPAs, and demand scheduling.
+
+For this ledger, the Google / AdaniConneX / Nxtra Vizag deal is therefore a test of [[Power constraints]] as much as sovereign AI. The local partner value is not just constructing data-center shells; it is converting land, power procurement, fiber, and regulatory execution into bankable capacity.
 
 ## Power-platform consolidation (May 2026)
 
@@ -327,11 +352,11 @@ This is the first large chip-backed TPU neocloud JV in the ledger.
 | Component | Amount / role | Details |
 |---|---|---|
 | Initial equity | $5B | Funds managed by [[Blackstone]] |
-| Hardware/software | In-kind / commercial supply | [[Alphabet|Google]] supplies [[TPU]] hardware, software, and services |
+| Hardware/software | In-kind / commercial supply | [[Alphabet]] / Google supplies [[TPU]] hardware, software, and services |
 | First capacity | 500 MW in 2027 | Official Blackstone target |
 | Potential total | Up to ~$25B | FT-only leverage figure, not confirmed by Blackstone release |
 | Operator | New U.S.-based company | [[Benjamin Treynor Sloss]] CEO |
-| Powered-capacity role | Sites / grid / construction / operations | [[Blackstone]] brings digital-infrastructure and energy-execution capability through its data-center platform, not a disclosed named power plant or [[Power purchase agreement|PPA]] |
+| Powered-capacity role | Sites / grid / construction / operations | [[Blackstone]] brings digital-infrastructure and energy-execution capability through its data-center platform, not a disclosed named power plant or [[Power purchase agreement]] (PPA) |
 
 The financing read-through is not just "more data centers." It is Google adopting the non-hyperscaler distribution model Nvidia used through [[CoreWeave]] / [[Nebius]], but with Blackstone carrying the external capital burden and Google preserving control of the TPU stack. The operational read-through is that capital and power are converging: Blackstone's edge is the ability to convert capital into powered, permitted, operable data-center capacity, while the specific sites, grid regions, PPAs, and interconnections remain undisclosed.
 

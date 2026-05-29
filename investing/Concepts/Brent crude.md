@@ -68,6 +68,18 @@ Oxford Analytica: US "washed its hands" of Strait navigation
 
 ---
 
+## May 27, 2026 — why Brent did not reach $200
+
+[[Robin J. Brooks]]'s May 27 [[South Korea]] import-data post gives the strongest counterweight to the $150-200 Brent scenarios. The mechanism is substitution. South Korea's April 2026 imports of HS code 27 mineral fuels, oils, and refined products were down only 8% year over year even though imports from [[Saudi Arabia]] fell 40%. Korea paid up, but not catastrophically: its average paid price across the full import basket rose just under 20%, compared with a 55% rise in front-month Brent and a 55% rise in the implied price of Saudi barrels.
+
+The replacement barrels were expensive but available. Korean imports from [[Canada]] rose 174% with an implied price up 86%; imports from [[Malaysia]] rose 63% with an implied price up 12%. That is why Brent did not need to do the full demand-destruction work. The trade system rerouted enough supply to keep a large Asian importer close to normal volumes.
+
+This does not invalidate the [[Hormuz Permanent Risk Premium]]; it narrows the acute-scarcity case. The cleaner read is: Brent can retain a structural Gulf-risk premium after Hormuz, while the $200 path requires a much larger realized physical shortfall than Brooks finds in April Korean trade data.
+
+*Source: [Robin J. Brooks, "Why did the Brent oil price not go to $200?"](https://robinjbrooks.substack.com/p/why-did-the-brent-oil-price-not-go), May 27 2026.*
+
+---
+
 ## Kalshi weekly pricing layer (May 20, 2026)
 
 [[Kalshi]]'s KXBRENTW contract family prices whether the BRENTQ6 contract closes above strike thresholds on May 22, 2026 at 5:00 PM EDT:

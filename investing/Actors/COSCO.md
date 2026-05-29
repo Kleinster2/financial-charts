@@ -40,6 +40,16 @@ Subsidiary of China COSCO Shipping Corporation (central SOE).
 
 Strategic asset for [[China]] — aligns with Belt and Road Initiative.
 
+## European strategic port exposure
+
+[[Critical Supply]]'s May 27, 2026 EU-China piece placed COSCO inside the same strategic-infrastructure debate as telecom towers, cable networks, data centers, and municipal buses. The point is not that every Chinese-owned port stake creates an immediate security event. It is that ports sit at the junction of logistics data, military mobility, customs flows, and commercial leverage.
+
+Two European stakes matter for the policy debate:
+- Piraeus, where COSCO holds a controlling 67% stake after Greece's debt-crisis privatization.
+- Hamburg, where Germany approved a reduced 24.99% COSCO stake despite cabinet and security-service objections.
+
+The investment read-through is that COSCO's European terminal assets are commercially valuable but politically less frictionless than ordinary port investments. If the EU moves toward a tougher China trade-defense and investment-screening posture in 2026, COSCO is one of the obvious test cases because it sits directly on physical trade infrastructure.
+
 ## Arctic / Polar Silk Road
 
 COSCO is China's primary operator on the [[Northern Sea Route]]:

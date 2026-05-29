@@ -1,5 +1,5 @@
 ---
-aliases: [GPS, Gap Inc, Old Navy, Banana Republic, Athleta]
+aliases: [GAP, GPS, Gap Inc, Old Navy, Banana Republic, Athleta]
 ---
 #actor #fashion #retail #usa #public
 
@@ -117,6 +117,18 @@ The **Athleta -10% comp** is the real concern. Old Navy's +3% was held back by w
 Stock dropped **-13.49%** on Mar 6. The one-cent EPS miss was the trigger, but the magnitude of the selloff reflects concern about Athleta and the uninspiring guide range after a strong FY24.
 
 *Source: CNBC, Fast Company (Mar 5-6, 2026)*
+
+---
+
+## May 29 2026 guide cut and apparel-demand selloff
+
+Gap closed at $26.37 on May 29, 2026, down 15.4%, after the company cut its annual sales growth forecast to 1-2% from 2-3%. Same-day Reuters/Investing.com reporting tied the selloff to weaker discretionary-apparel demand, with Old Navy trends and women's apparel weakness the most important read-throughs.
+
+The local market DB did not have a usable current GAP/GPS series for the May 29 fallback sigma screen, so this move is flagged qualitatively rather than with a sigma estimate. The alias list now includes `GAP` as well as legacy `GPS` so future ticker coverage checks do not miss the actor.
+
+For the thesis, the move tests whether Richard Dickson's brand turnaround can absorb a softer consumer tape. The prior Q4 concern was Athleta; the May 29 reset is broader because a revenue-guide cut turns the story from brand mix to demand resilience.
+
+*Source: [Reuters via Investing.com - Gap, American Eagle fall as brand troubles weaken annual forecasts](https://www.investing.com/news/stock-market-news/gap-american-eagle-fall-as-weak-apparel-demand-signals-constrained-consumer-spending-4716198), May 29 2026; local `quick_movers.py` fallback screen, May 29 2026.*
 
 ---
 

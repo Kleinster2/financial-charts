@@ -27,6 +27,7 @@ tags: [actor, publication, newsletter, commodities]
 | May 1 | The $1 Trillion AI Trade Runs on Gas | [[Power constraints]], [[Natural gas]], AI data-center power |
 | May 4 | America Is Now the World's Strategic Reserve | US oil-export buffer, Hormuz disruption |
 | May 11 | The Next $5 Trillion Commodity Has No Wells, No Pipelines, No Tankers | AI infrastructure needs a commodity-like financial market for capacity / power / data-center rights |
+| May 27 | Europe's Gas Crisis Just Repriced 8 Of My 12 Positions | Europe-US LNG dependency, TTF backwardation, gas-storage refill risk |
 
 ---
 

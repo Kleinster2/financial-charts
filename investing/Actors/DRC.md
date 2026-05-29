@@ -38,6 +38,20 @@ See [[Cobalt]] for full market analysis.
 
 ---
 
+## M23 / tantalum leverage (May 2026)
+
+The eastern DRC mineral story is no longer only a cobalt/copper story. [[Critical Supply]]'s May 27, 2026 post flagged that Rwanda-backed M23 controls tin/tungsten/tantalum territory in the east while Kinshasa controls the cobalt/copper belt in the southeast. Reuters' March 2026 Rubaya reporting gives the hard supply-chain anchor: Rubaya produces around 15% of the world's coltan, processed into tantalum, and has been under AFC/M23 control since 2024.
+
+This creates a recognition-and-security trap. The Congolese state can offer Western governments a minerals-for-security framework, but some strategic minerals sit in rebel-held territory. If foreign buyers need tantalum security, they cannot treat battlefield control as irrelevant. That does not make M23 a legitimate commercial counterparty; it means the supply chain forces the question into diplomacy, sanctions, banking access, and conflict mediation.
+
+For markets, the clean mapping is:
+- Katanga / southeast DRC: cobalt and copper, state-controlled, tied to [[Cobalt]], [[Copper]], [[CMOC Group]], [[Glencore]], and [[Ivanhoe Mines]].
+- Eastern DRC / Rubaya: coltan/tantalum, tin, tungsten, conflict control, tied to electronics, aerospace, gas turbines, and defense supply-chain risk.
+
+The next risk is strategic mimicry: armed groups elsewhere may learn that controlling the right mineral node creates foreign-policy leverage beyond the local conflict.
+
+---
+
 ## Related
 
 - [[Cobalt]] — dominant global supplier
@@ -52,6 +66,7 @@ See [[Cobalt]] for full market analysis.
 - [[Battery supply chain]] — downstream cobalt demand
 - [[Strategic mineral stockpiles]] — cobalt stockpiling context
 - [[Africa]] — region
+- [[Critical minerals]] — wider minerals-security frame
 
 ---
 

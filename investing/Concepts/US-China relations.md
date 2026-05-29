@@ -4,6 +4,18 @@
 
 ---
 
+## May 2026: constructive strategic stability
+
+After the May 13-15 2026 [[2026 Trump-Xi summit|Trump-Xi state visit]] to [[Beijing]], Chinese state-media and Foreign Ministry messaging began using "constructive strategic stability" as the new positioning for the relationship. The investing read is not "detente." It is managed competition with lower left-tail risk if the channels hold.
+
+The formula matters because it changes the policy tape from escalation-by-default to bounded competition. Beijing's version says cooperation remains primary, competition should be kept within limits, differences should be controllable, and peace should remain foreseeable. That lowers the probability of abrupt trade or military discontinuity at the margin, but it does not remove the structural issues: [[Taiwan]], export controls, sanctions, AI competition, [[Iran]]-war aftershocks, and domestic politics still set the ceiling.
+
+The concrete channels named by Gao Fei / People's Daily are the market-relevant part: a Trade Council, an Investment Council, agricultural market-access resolution, reciprocal tariff reductions, and dialogue on Middle East, [[Ukraine]], and Korean Peninsula issues. Watch whether these channels produce actual tariff, agriculture, investment, or tech-control movement; otherwise the phrase is a volatility dampener, not a regime change.
+
+*Sources: Gao Fei / People's Daily, May 27 2026; Tracking People's Daily translation and framing, May 27 2026; Xinhua / People's Daily Online, May 15 and May 29 2026; Reuters via Investing.com, May 14 2026.*
+
+---
+
 ## [[Trade]]
 
 Traded goods, services, and restrictions. See [[US-China trade]].
@@ -78,6 +90,7 @@ Military competition and flashpoints. See [[US-China security]].
 | [[Trade]]/tariffs | Supreme Court ruling pending Jan 14 |
 | Tech controls | VEU revoked, new semi tariffs 2027 |
 | [[Venezuela]] | New oil leverage post-Maduro |
+| Constructive strategic stability | May 2026 Chinese post-summit formula; practical test is Trade Council / Investment Council output |
 
 ---
 

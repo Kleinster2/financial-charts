@@ -48,11 +48,19 @@ Clawdbot case: Researcher uploaded benign skill to marketplace, inflated downloa
 
 [[2026-05-07]]: Fake [[Claude]] installer campaigns began distributing [[Beagle backdoor]], a Windows payload delivered from `claude-pro[.]com` through a 505MB `Claude-Pro-windows-x64.zip` archive. The campaign used a trojanized Claude-looking installer that appeared functional while deploying a PlugX-style chain in the background: signed `NOVupdate.exe` side-loading `avk.dll`, decrypting `NOVupdate.exe.dat`, loading DonutLoader, then injecting Beagle in memory. The practical lesson is that AI-agent adoption now creates a brand-impersonation attack surface: users looking for premium AI clients, relays, plugins, or unofficial harnesses are exactly the population most willing to install broad-permission binaries. Source: BleepingComputer / Sophos / Malwarebytes (May 7, 2026).
 
+2026-05-26: [[CrowdStrike]], [[Google]], and the Shadowserver Foundation disrupted the [[Glassworm botnet takedown May 2026]] botnet, a developer-targeting [[Software supply chain attacks]] campaign that spread through trojanized VS Code/OpenVSX extensions, compromised npm and Python packages, and more than 300 poisoned [[GitHub]] repositories. This is not strictly an AI-agent incident, but it is the same trust-boundary failure that agent plugin ecosystems inherit: developer-side tools and extensions run with enough local authority to steal tokens, poison code, and pivot into CI/CD or cloud systems. Source: CrowdStrike / The Register (May 2026).
+
 ### 4. Credential Exposure
 
 Agents need API keys, tokens, and credentials to act. Many store these in plaintext config files.
 
 Risk: Any malware (infostealer) on the same machine can grab them in seconds. One password security blog: "If your agent stores plain text API keys, an info stealer can grab them in seconds."
+
+### Shadow AI and unmanaged agents
+
+[[Shadow AI]] is the organizational form of the same permission problem. [[Okta]]'s May 2026 survey found that 52% of employees use unapproved AI tools, while 90% of executives say they are confident in visibility. More than half of executives reported an AI-related security incident or close call in the prior year, and only 34% of organizations consistently apply the same security controls to AI agents or digital labor as to human workers.
+
+The security implication is practical: if an employee grants a personal AI tool access to email, cloud storage, collaboration data, or a CRM, the organization has created a privileged non-human actor without normal lifecycle management, logging, revocation, or data-loss controls. That makes agent identity, discovery, and policy enforcement part of the core agent-security stack, not a compliance afterthought.
 
 ### Device Code Phishing
 
@@ -205,6 +213,9 @@ Source: FT (Mar 12, 2026) — Ellesheva Kissin and Stephen Foley.
 - [[Agentic AI]] — What agents are and why they matter
 - [[Clawdbot viral growth]] — Case study in security failures
 - [[Cloudflare agentic infrastructure]] — [[Infrastructure]] play
+- [[Software supply chain attacks]] — developer/package/repository compromise pattern
+- [[Glassworm botnet takedown May 2026]] — May 2026 developer-toolchain botnet disruption
+- [[Shadow AI]] — unapproved AI tools and unmanaged AI-agent identities inside enterprises
 - [[Local-first AI]] — Architecture pattern with security tradeoffs
 - [[Cyata]] — First agentic identity startup acquired ([[Check Point]], Feb 2026)
 - [[Check Point]] — Acquirer, entering agentic security via M&A

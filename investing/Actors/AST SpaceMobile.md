@@ -304,6 +304,16 @@ The read-through is different from the May 8 ASTS move. May 8 had AST-specific c
 
 ---
 
+## May 29 2026 SpaceX-proxy reversal
+
+ASTS closed at $114.40 on May 29, 2026, down 14.8%. Using the current web close with the local `quick_movers.py` beta/idiosyncratic-volatility framework, the move was roughly -2.7 sigma. Same-day reporting tied the premarket weakness to a lower-than-rumored potential [[SpaceX IPO 2026|SpaceX IPO]] valuation anchor, which unwound part of the public-space proxy bid from May 27.
+
+This is not the same as an AST-specific operational miss. It is a valuation and scarcity-premium reversal in a high-beta space-stock basket. The fundamental watch remains Block 2 launch cadence, mobile-network-operator revenue conversion, and whether FY2026 revenue guidance can become recurring-service revenue rather than one-off government/gateway milestones.
+
+*Source: [Investing.com - AST SpaceMobile stock tumbling](https://uk.investing.com/news/stock-market-news/why-is-ast-spacemobile-stock-tumbling-10-today-93CH-4704123), May 29 2026; local `quick_movers.py` fallback screen, May 29 2026.*
+
+---
+
 ## Financials
 
 ASTS is a pre-profit, recently-SPAC'd satellite company with limited historical disclosure. The income statement is dominated by program-build-out spending (engineering services, D&A on Block 1 satellites) rather than commercial revenue, which is still ramping from US government milestones and gateway hardware sales toward the FY 2026 $150-200M guide.

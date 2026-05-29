@@ -87,6 +87,8 @@ Decade prior ([[China]]): $912B govt-backed VC → 1.4M AI-related firms.
 
 Risk: US talent pipeline depends on immigration policy. Tighter visas = advantage [[China]].
 
+May 2026 update: [[China]] is also turning talent retention into an explicit control surface. Bloomberg-reported restrictions, summarized by TechCrunch on May 27, require approval for some AI specialists at private firms before overseas travel, with strategic relevance to China's AI ambitions the reported criterion. The same pattern already appeared around [[Manus AI]], where co-founders were reportedly barred from leaving while Beijing pushed to unwind [[Meta]]'s acquisition. The race is therefore not just model quality, chips, or power; it is also whether frontier engineers can physically move between ecosystems.
+
 ---
 
 ## [[Infrastructure]] asymmetry
@@ -260,7 +262,7 @@ Investment implication: export controls remain necessary but no longer sufficien
 
 ---
 
-*Updated [[2026-05-20]]*
+*Updated [[2026-05-28]]*
 
 ---
 

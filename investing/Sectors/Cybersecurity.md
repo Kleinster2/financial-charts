@@ -114,6 +114,22 @@ The same day (Apr 30), [[Google]] disclosed and patched a CVSS 10.0 remote-code-
 
 The pattern across [[Axios]] (Apr 4), the Apr 22 [[npm]] worm, the Apr 29 SAP packages, and the Apr 30 [[Gemini CLI]] CVE is consistent: developer-side and CI/CD toolchains are now the preferred soft entry point for credential theft and supply-chain pivots, and frontier-AI developer tooling sits squarely inside that surface. See [[Agentic AI security]] and [[AI cybersecurity disruption basket]] for the cross-vendor read.
 
+### May 26 2026 — Glassworm developer botnet disruption
+
+[[CrowdStrike]], [[Google]], and the Shadowserver Foundation disrupted the [[Glassworm botnet takedown May 2026]] botnet at 14:00 UTC on May 26, 2026 by hitting all four of its C2 channels at once. The campaign had used trojanized VS Code/OpenVSX extensions, compromised npm and Python packages, and more than 300 poisoned [[GitHub]] repositories to compromise developers across [[Windows]], macOS, and [[Linux]].
+
+The Glassworm detail matters because it turns "developer toolchain risk" from a set of isolated package incidents into a multi-ecosystem operating model. The same attacker workflow can start in an IDE extension, harvest repository/package/cloud credentials, poison repositories or packages, and then use resilient public infrastructure such as [[Solana]], BitTorrent DHT, and Google Calendar as command resolution. For sector positioning, this supports the [[Software supply chain attacks]] / [[Security control points]] read: spend should keep migrating toward endpoint telemetry, developer identity, repository/package governance, secret detection, and runtime response.
+
+*Sources: CrowdStrike, "Inside CrowdStrike's Takedown of a Developer-Targeting Botnet" (May 2026); The Register, "CrowdStrike, Google shatter Glassworm botnet" (May 27 2026); TechCrunch, "CrowdStrike and Google take down botnet used by hackers to target open source software developers" (May 27 2026).*
+
+### May 27 2026 — shadow AI becomes an incident category
+
+Okta's 2026 "AI Agents at Work" survey, covered by *The Register*, gives the identity/security side of the same AI adoption problem. 90% of executives said they were confident in visibility into AI tools, while 52% of employees used unapproved AI tools and 24% did so regularly. 58% of executives reported an AI-related security incident or close call in the prior year.
+
+The sensitive-data detail is the market signal. Among employees using unapproved tools, Okta reported that 54% shared internal messages/emails, 45% HR-related information, 39% confidential company documents, more than 20% login credentials/passwords, and 28% banking/payment information. This makes [[Shadow AI]] a direct cybersecurity budget driver: AI discovery, browser/app data-loss prevention, identity governance for non-human actors, and agent access controls all move from optional policy projects into necessary control surfaces.
+
+*Sources: Okta, "AI Agents at Work 2026: Securing the agentic enterprise" (May 27 2026); The Register, "Bosses blinded by confidence about shadow AI use by workers" (May 27 2026).*
+
 ## Security control-point cluster
 
 A separate cross-sectional read emerged on Apr 13, 2026. `scripts/cluster_movers.py` flagged a strong up-cluster in [[Fortinet]], [[Zscaler]], [[Palo Alto Networks]], [[CrowdStrike]], [[Cloudflare]], and [[Rubrik]], with [[Akamai]] screening as a looser adjacent member. Persistence checks across 60-day, 90-day, and 120-day windows suggested the durable core was not broad cybersecurity but a narrower set of names that still own traffic policy, telemetry, secure access, or recovery bottlenecks.
@@ -206,6 +222,8 @@ Subscription/recurring = high visibility.
 - [[Cybersecurity consolidation]] — sector M&A dynamics
 - [[SASE]] — secure-access architecture and platform-budget battleground
 - [[Security control points]] — structural cluster inside the sector
+- [[Software supply chain attacks]] — developer/package/repository attack-surface concept
+- [[Shadow AI]] — unapproved AI-tool and AI-agent governance risk
 - [[Zero Trust|Zero trust]] — architectural trend
 - [[Identity and Access Management]] — subsector
 
@@ -218,5 +236,9 @@ Subscription/recurring = high visibility.
 - Investing.com, 2026-03-27: "Cybersecurity stocks plunge as [[Claude]] Mythos leak sparks AI fear"
 - The Register, 2026-04-30: "Ongoing supply chain attacks worm into SAP npm packages" (Mini Shai-Hulud)
 - The Register, 2026-04-30: "Google fixes CVSS 10.0 vulnerability in Gemini CLI"
+- CrowdStrike, 2026-05: "Inside CrowdStrike's Takedown of a Developer-Targeting Botnet"
+- The Register, 2026-05-27: "CrowdStrike, Google shatter Glassworm botnet"
+- Okta, 2026-05-27: "AI Agents at Work 2026: Securing the agentic enterprise"
+- The Register, 2026-05-27: "Bosses blinded by confidence about shadow AI use by workers"
 
-*Updated 2026-04-05 · Updated 2026-05-01 (SAP npm Mini Shai-Hulud + Gemini CLI CVSS 10.0)*
+*Updated 2026-04-05 · Updated 2026-05-01 (SAP npm Mini Shai-Hulud + Gemini CLI CVSS 10.0) · Updated 2026-05-29 (Glassworm developer botnet takedown; shadow AI survey)*

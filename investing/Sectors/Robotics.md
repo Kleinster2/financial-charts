@@ -85,6 +85,25 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 
 ## Industrial robotics
 
+### China's long robotics lineage
+
+[[Irene Zhang]]'s May 27 2026 ChinaTalk history of Jiang Xinsong usefully puts the 2026 Chinese robotics boom in a longer industrial-policy sequence. The starting point is not [[Unitree]]'s Spring Festival Gala visibility or the current humanoid funding cycle. It is the 1970s-1980s state-lab pathway around Shanghai Jiao Tong University, the [[Shenyang Institute of Automation]], and the Chinese Academy of Sciences.
+
+The sequence:
+
+| Period | Node | Why it matters |
+|---|---|---|
+| Early 1970s | Xianfeng 1 at Shanghai Jiao Tong | First generation of Chinese robot / automated metal-cutting work; political-era technical experimentation before a commercial robotics market existed |
+| 1977-1982 | Jiang Xinsong / [[Shenyang Institute of Automation]] | Robotics moved from lab curiosity into national science planning; [[Chinese Academy of Sciences]] records China's first industrial robot prototype in 1980 and SZJ-1 teach-and-playback manipulator in 1982 |
+| 1986 onward | 863 Program intelligent robots | Robotics became part of the high-tech self-strengthening agenda: control, navigation, multi-sensor fusion, robot engineering, special robots, and automated production lines |
+| 1980s-1990s | Mobile, underwater, and welding robots | SIA moved beyond manipulator prototypes into autonomous mobile robots, HR-01 / CR-01 undersea vehicles, and SYG-200 arc-welding; the problem shifted from demo to industrialization |
+| 1999-2000 | Siasun commercialization | The CAS/SIA system spun robotics into a market-facing manufacturer, later linked to auto assembly lines, AGVs, logistics automation, and intelligent manufacturing |
+| 2010s-2020s | [[Unitree]], [[Deep Robotics]], Hangzhou / YRD cluster | Startup robotics sits on top of the older national lab / industrial automation base, plus the modern AI, EV, sensor, battery, and supply-chain ecosystem |
+
+The investment read is that China robotics has two layers. The headline layer is humanoids, quadrupeds, and consumer-visible demos. The deeper layer is accumulated industrial-automation capability: controls, precision components, system integration, factory-line experience, and the state habit of pushing research into commercial production. That deeper layer is why Chinese robotics should be read through [[China tech-industrial ecosystems]] rather than only through venture-cycle humanoid valuations.
+
+*Sources: [[Irene Zhang]], "China's Father of Robotics," [[ChinaTalk]], May 27 2026; Chinese Academy of Sciences, "China's First Industrial Robot"; SIASUN company profile; People's Daily, "China's First Robot Manufacturing Company Set up," July 11 2000.*
+
 ### Big Four
 
 | Company | HQ | Market share | Specialty |
@@ -104,6 +123,14 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 | Techman | TM series | Vision integration |
 
 **Growth driver:** SMB adoption, no safety cages needed.
+
+### Peer-belief adoption effect
+
+Cullen, Faia, Guglielminetti, Perez-Truglia, and Rondinelli's [[Italy|Italian]] central-bank survey experiment gives robotics a cleaner social-diffusion signal than generic enterprise AI. In a sample of roughly 3,000 Italian firms, managers were asked about their beliefs on competitor AI/robotics adoption and then some non-adopters were shown the true peer-adoption rate. The NBER paper estimates that a 1 percentage-point increase in expected competitor adoption raised intended future robotics adoption by 0.704 percentage points.
+
+The market implication is that robotics adoption can kink upward once managers believe competitors are already automating. Physical automation is easier to observe and benchmark than a broad AI pilot. That makes peer information a more direct trigger for robotics capex, especially in manufacturing settings where the production process is comparable across firms.
+
+*Sources: [Joachim Klement, "If your peer does it, do you do it?", May 28 2026](https://klementoninvesting.substack.com/p/if-your-peer-does-it-do-you-do-it); [Cullen et al., "The Innovation Race", NBER WP 34532](https://www.nber.org/papers/w34532).*
 
 ---
 
@@ -284,6 +311,9 @@ For investment positioning, the Patel call sharpens an existing tension: [[VLA m
 - [[Figure AI]] — humanoid startup
 - [[Tesla]] — Optimus
 - [[Unitree]] — Chinese humanoids
+- [[ChinaTalk]] — May 2026 Jiang Xinsong / Chinese robotics lineage
+- [[Irene Zhang]] — ChinaTalk contributor on Chinese robotics history
+- [[Shenyang Institute of Automation]] — CAS institute behind China's early industrial robot prototypes
 - [[Agility Robotics]] — Digit
 - [[AGIBOT]] — Chinese humanoids
 - [[Fourier Intelligence]] — Chinese humanoids (healthcare focus)
@@ -310,6 +340,8 @@ For investment positioning, the Patel call sharpens an existing tension: [[VLA m
 - [[Drones]] — aerial vehicles (separate sector)
 - [[Agentic AI]] — AI for physical world
 - [[AI Infrastructure]] — compute for training
+- [[Enterprise AI adoption]] — contrast case where peer information has not clearly moved AI plans
+- [[AI adoption curve]] — diffusion curve and peer-belief channel
 
 ---
 

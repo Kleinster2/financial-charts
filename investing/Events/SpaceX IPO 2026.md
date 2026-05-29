@@ -141,6 +141,43 @@ The public filing gives the cleanest primary-source subscriber series so far:
 
 The filing defines [[Starlink]] subscribers per service line rather than per end user, so the actual number of people using the network is likely higher than the reported subscriber count.
 
+### Aurelion valuation stress test (May 26, 2026)
+
+[[Aurelion Research]] adds a useful valuation stress test on top of the S-1 facts. Its May 26 article treats the IPO less as a launch-company listing and more as the first public test of a combined rockets, [[Starlink]], AI-compute, and [[Space data centers]] narrative. The important contribution is not a different reported filing date; it is the dependency map. Aurelion's view is that conventional launch plus Starlink economics can support a very large company, but not the whole $1.75T-$2T-plus public-market ask unless investors assign a major option value to orbital AI compute.
+
+![[aurelion-ai-ipo-summary-cards-2026.png]]
+*Aurelion's May 26 2026 comparison of the three mega-IPO candidates. The SpaceX card is a source estimate built from the public S-1 and Aurelion's valuation framing; final IPO price, share count, and proceeds remain blank in the preliminary S-1.*
+
+![[spacex-s1-tam-by-segment-2026.png]]
+*Aurelion extraction of the SpaceX S-1 TAM framing: AI $26.5T, connectivity $1.6T, and launch $370B. The S-1 itself makes the IPO pitch AI-first by opportunity size, even though Starlink is the current profit engine.*
+
+![[spacex-s1-starlink-subscribers-2026.png]]
+*Aurelion visualization of the S-1 Starlink subscriber series. Subscriber scale is real, but the valuation step-change depends on whether that connectivity base can fund the AI and orbital-compute layer.*
+
+![[aurelion-spacex-financials-2026.png]]
+*Aurelion summary of SpaceX consolidated revenue and losses. The key S-1 fact is still the same: 2025 revenue of $18.7B arrived with a $4.9B net loss on the combined SpaceX / xAI / X basis.*
+
+![[aurelion-spacex-revenue-segment-pie-2026.png]]
+*Aurelion segment mix chart: Starlink/connectivity is the majority revenue line, while the AI segment is already large enough to shape the public valuation story despite being loss-making.*
+
+![[aurelion-spacex-segment-financials-2026.png]]
+*Aurelion segment-financials chart from the S-1. Connectivity carries profit, space remains strategically central but modestly loss-making, and AI is the loss layer with the largest optionality claim.*
+
+![[aurelion-spacex-sotp-valuation-2026.png]]
+*Aurelion's sum-of-the-parts stress test. Treat this as Aurelion's valuation opinion, not primary S-1 disclosure: the article argues that SpaceX is worth at most about $700B without assigning roughly $1T of value to space data centers.*
+
+| Stress point | Aurelion datapoint | IPO read |
+|---|---|---|
+| Consolidated P&L | 2025 revenue $18.7B; net loss $4.9B | The public company is not a clean profitable Starlink-plus-launch vehicle |
+| Segment split | Starlink/connectivity revenue $11.4B and operating income $4.4B; AI revenue $3.2B and operating loss $6.4B | Starlink funds the story; AI explains the valuation optionality and burn |
+| AI capex | $12.7B in 2025 and $7.7B in Q1 2026, with Aurelion attributing most Q1 capex to GPU clusters | The IPO proceeds and public valuation are tied to compute capacity, not only rockets |
+| Orbital-compute hurdle | Aurelion/Morningstar estimate that one million orbital data-center satellites would require about 6,667 Starship flights per year and roughly 530x current global annual launch mass | The physical execution bridge is enormous; the valuation wedge is a bet on launch cadence, satellite manufacturing, and power architecture all scaling together |
+| Non-space valuation floor | Aurelion estimates at most about $700B without space data centers | The $1T-plus upside wedge is the speculative orbital-compute layer, not today's Starlink cash flow |
+
+The practical takeaway is that Aurelion separates the filing fact from the valuation leap. The S-1 validates a real combined platform, but the roadshow still has to persuade public investors to pay today for a physical compute architecture that remains far less proven than Starlink. Decorative source images, including the rocket-launch photo and Cybertruck parking-lot photo, were skipped; the analytical charts were saved and embedded here.
+
+*Source: [[Aurelion Research]], "Special Article: SpaceX, OpenAI, and Anthropic IPOs," May 26 2026: https://read.aurelionresearch.com/p/special-article-spacex-openai-and.*
+
 ---
 
 ## Analyst briefings and pre-roadshow choreography (Apr 21, 2026)

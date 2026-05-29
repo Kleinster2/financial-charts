@@ -54,6 +54,24 @@ Isaacman publicly framed this as an idea, not a decision — soliciting industry
 
 RFI responses submitted; NASA decision pending; original Phase 2 SAAs targeted for early 2026 awards. The Phase 2 procurement strategy is genuinely fluid.
 
+## May 2026 - LEO inside Human Spaceflight
+
+NASA's May 22, 2026 mission-directorate realignment moved low Earth orbit into the Human Spaceflight Mission Directorate, with Dana Weigel named program manager for LEO. That does not settle the Phase 2 procurement model, but it clarifies the institutional home: post-ISS commercial stations are now being managed alongside [[Artemis]] and Moon Base execution rather than as a looser commercialization experiment.
+
+This cuts both ways for the commercial thesis. The positive read is that CLD is harder to ignore if it is part of the same human-spaceflight continuity stack as Artemis. The risk is that recentralization becomes easier: if NASA treats LEO continuity as an agency-owned bridge problem, the Phase 2 structure can tilt back toward a NASA-designed core module and away from pure service procurement.
+
+*Sources: NASA realignment announcement, May 22 2026; [[Journal of Space Commerce]], May 28 2026.*
+
+---
+
+## May 2026 - strategic capital enters Starlab
+
+The May 21 Starlab / [[1789 Capital]] strategic investment adds a political-capital data point to the CLD file. The amount was undisclosed, so it should not be treated as a balance-sheet solution. The important signal is that conservative / Trump-aligned private capital is willing to frame commercial space stations as national infrastructure, with [[Tiangong]] used as the strategic comparator and post-ISS LEO continuity treated as a national-security issue.
+
+This supports the pro-commercialization argument but also exposes the unresolved business-case dependency. [[CSIS]]'s May 27 critique is the useful counterweight: the market for commercial stations is largely NASA's willingness to spend. Without a credible anchor-customer path, private investments signal confidence but do not close the economics. With NASA committed, strategic capital can make Star Lab and peer candidates look like infrastructure assets rather than speculative research platforms.
+
+*Sources: Starlab / Voyager official announcement, May 21 2026; Tom Patton, [[Journal of Space Commerce]], May 27 2026; Clayton Swope, CSIS, "NASA Changes Course on Commercial Space Stations," May 27 2026.*
+
 ---
 
 ## Candidate field

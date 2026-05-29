@@ -7,6 +7,16 @@ aliases: [China rebalancing, China property crash, New Three]
 
 ---
 
+## Long-arc context
+
+The transition problem comes after an unmatched growth surge, not after a normal EM credit boom. [[Adam Tooze]]'s [[Chartbook]] 450 frames [[China]] 1978-2022 as the largest single development shock in recorded economic history: roughly 8.1% annual per-capita growth across an average population of about 1.23B, about $25.3T of added GDP in 2011 international dollars, and roughly one-quarter of global GDP growth from 1980 to the early 2020s.
+
+That makes the 2023-2026 downshift structurally different from an ordinary slowdown. Property, [[Infrastructure]], [[Coal]], steel, cement, and local-government finance were not just sectors; they were the physical channels through which the post-1978 surge was built. The "New Three" can be huge investable industries and still fail to absorb the macro drag because the old stack was the distribution network for a world-historical buildout.
+
+Source: [[Adam Tooze]], [[Chartbook]] 450, May 28 2026; Branko Milanovic, *The Great Global Transformation*; Bolt and van Zanden / Maddison Project Database 2023 via OWID.
+
+---
+
 ## The problem
 
 Traditional industries fell ~5pp of GDP (2023-2025), new industries grew <1pp.
@@ -22,7 +32,7 @@ Traditional industries fell ~5pp of GDP (2023-2025), new industries grew <1pp.
 | Sector | 2023 | 2025 | Change |
 |--------|------|------|--------|
 | Property/residential construction | ~16% | ~10% | -6pp |
-| Infrastructure | ~3% | ~3% | flat |
+| [[Infrastructure]] | ~3% | ~3% | flat |
 | Gasoline vehicles | ~1% | ~2% | +1pp |
 | Total traditional | ~20% | ~15% | -5pp |
 
@@ -85,6 +95,12 @@ The demand side stayed much weaker. March retail sales grew only 1.7% year on ye
 The May industrial-profit release fits the same transition pattern. [[NBS]] reported that profits at industrial enterprises above the designated size rose 18.2% year on year in January-April 2026, accelerating from 15.5% in Q1, while April alone rose 24.7%. That is real profit relief, but it is concentrated in the production and price-recovery side of the economy: high-tech manufacturing profits rose 44.8%, equipment manufacturing rose 15.4%, raw-material manufacturing rose 88.1%, and electronics rose 107.7%.
 
 The demand-side checks are still weak. In the separate April activity releases, industrial value added grew 4.1% year on year in April and 5.6% in January-April, high-tech manufacturing still grew 12.6% year to date, but retail sales were only +0.2% in April and fixed-asset investment was -1.6% in January-April. This is why the profit data should not be read as China having completed a consumption rebalancing. It says the industrial stack got margin relief from PPI/product-price recovery, commodity-linked raw materials, high-tech demand, and lower unit costs while the household/property/investment channel remained soft.
+
+### Hukou reform as demand plumbing (May 2026)
+
+The May 22 State Council opinion on providing basic public services by actual residence is the household-demand side of the transition problem. It does not replace property or export demand, but it addresses one reason the household channel has stayed structurally weak: migrant workers save more when schooling, healthcare, housing support, social insurance, and other safety-net services are tied to hukou registration rather than where they work. [[Hukou]] reform therefore belongs in the same basket as household-income support and service-sector rebalancing, not in the short-term stimulus basket.
+
+The implementation risk is local finance. [[Sinocism]]'s public Sharp China preview emphasized that the reform is meaningful but gradual, with Beijing/Shanghai likely to remain restrictive and local governments needing fiscal-transfer support to fund services for permanent residents. That makes hukou reform a positive rebalancing signal, but only if central transfers follow the population.
 
 ---
 

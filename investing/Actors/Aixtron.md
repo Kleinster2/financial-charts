@@ -69,6 +69,14 @@ Sell-side revision cycle appears to be behind Jason's Chips analysis — the com
 
 ---
 
+## Sivers read-through: manufacturing is the moat
+
+[[Jason's Chips]]' May 2026 critique of [[Sivers Semiconductors]] reinforces the Aixtron thesis from the opposite direction. If InP laser manufacturing yield is the scarce constraint in AI optics, the value chain should reward proven MOCVD users and tool suppliers more than asset-light design narratives that still depend on outsourced qualification.
+
+Jason's Chips argues that Sivers' fabless production path weakens the bottleneck claim because scale depends on manufacturing partners such as [[WIN Semiconductors]]. For Aixtron, the same point is positive: MOCVD process control and the installed base behind [[Lumentum]], [[Coherent]], and other compound-semi producers are what turn photonics demand into a durable order cycle.
+
+---
+
 ## Related
 
 - [[Optoelectronics]] — primary end market

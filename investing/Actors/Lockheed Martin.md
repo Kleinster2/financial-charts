@@ -89,6 +89,12 @@ F-35 cited: Trump's order mentioned delivery delays and cost overruns.
 
 See [[Trump defense budget]] for full context.
 
+### Terran Orbital and space supplier control
+
+Lockheed completed its acquisition of [[Terran Orbital]] on October 30, 2024, folding the small-satellite manufacturer into Lockheed Martin Space while keeping it as a merchant supplier to the broader industry. The deal gives Lockheed more direct control over satellite-bus production, modular spacecraft platforms, launch planning, mission operations, and sub-tier space-hardware supply.
+
+That vertical-integration angle matters more after the May 2026 [[Pax Silica]] supplier-screening read-through. If trusted-vendor compliance becomes a de facto qualification criterion for US-aligned space contracts, ownership of Terran helps Lockheed audit and requalify deeper parts of its small-satellite supply chain.
+
 ### Procurement reform overhang
 
 The Jan 8 executive order is the enforcement layer of [[Defense procurement reform]] — a 12-month structural campaign by Army Secretary [[Dan Driscoll]] and [[Pete Hegseth]] aimed at inverting the Army's purchasing mix from roughly 90% purpose-built to 90% commercial off-the-shelf. Driscoll's stated goal — "kill a prime in two years" — is a multi-year overhang on the prime equity story that the budget upside does not fully offset. The April 2026 [[Pentagon|Department of War]] talks with [[General Motors]] and [[Ford]] CEOs about supplying weapons-system components are the supply-side operational expression of the same campaign. Lockheed is not specifically targeted in the FT/WSJ reporting (unlike [[RTX]], which [[Donald Trump|Trump]] singled out in the Jan 8 EO), but every move that routes demand outside the prime ecosystem is a structural threat to terminal-margin assumptions for LMT.
@@ -103,4 +109,6 @@ The Jan 8 executive order is the enforcement layer of [[Defense procurement refo
 - [[Anduril]] — competitor (defense AI)
 - [[Palantir]] — partner (defense software)
 - [[Rare earth leverage]] — supply chain risk
+- [[Terran Orbital]] — Lockheed-owned small-satellite manufacturer
+- [[Pax Silica]] — trusted-vendor framework affecting space supplier qualification
 - [[European defense spending]] — contrast

@@ -255,6 +255,16 @@ Power availability will drive DC location decisions:
 
 ---
 
+## India grid-risk variant (May 2026)
+
+[[India]] is a different version of the same power constraint. In the US, the headline is a multi-GW grid shortfall and long interconnection queues. In India, the headline is a delivery mismatch: rapid renewable additions, but transmission delays, local power-quality problems, and city-level distribution stress. [[Asia Tech Lens]] frames this as the reason Indian data-center operators will be pushed toward microgrids.
+
+The investable distinction is national electricity vs site-level power. India can cross 50% non-fossil installed capacity and still fail a hyperscaler if a specific data-center cluster cannot secure reliable 24/7 delivery. That is why the local winners are not just colocation platforms; they are platforms with land, grid access, renewable procurement, fiber, storage execution, and customer offtake. See [[India AI]], [[AdaniConneX]], [[Nxtra]], and [[Yotta Data Services]].
+
+This is also why the India case belongs in [[BYOP]]. The likely response is not one single nuclear or gas megadeal; it is a hybrid stack of contracted renewables, batteries, on-site generation, co-location with generation, power-quality equipment, and demand scheduling.
+
+---
+
 ## [[China]]'s power advantage
 
 **The asymmetry:**

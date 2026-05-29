@@ -95,6 +95,8 @@ Junestrand (LinkedIn, Feb 2026) on [[Anthropic]]'s Cowork launch: distinguished 
 
 See [[Horizontal vs vertical AI]] for the broader debate.
 
+A 2026 sourcing shift cuts the other way for both pure-plays: the largest firms building proprietary AI instead of standardising on a vendor. [[Kirkland & Ellis]] committed $500M (May 2026) to an owned platform and [[Freshfields]] chose an April 2026 co-build with [[Anthropic]]. Legora's collaborative, partner-led rollout model is one answer to this — embedding deeply enough that a firm treats Legora as infrastructure rather than a tool it could replicate — but the build/co-build path concentrates the third-party TAM in the mid-market. See [[AI in legal services]] for the build-vs-buy axis.
+
 ## Key clients
 
 - [[Linklaters]] — Magic Circle firm
@@ -134,5 +136,8 @@ Bear:
 - [[Horizontal vs vertical AI]] — competitive framework
 - [[Data Analytics Conglomerates]] — incumbent sector
 - [[Big Law transformation]] — Legora is a Ring 2 (private growth-stage AI-legal platform) proxy for the structural Big Law cycle
+- [[AI in legal services]] — build-vs-buy sourcing axis
+- [[Kirkland & Ellis]] — largest firm building proprietary AI (May 2026) rather than buying
+- [[Freshfields]] — Anthropic co-build path (Apr 2026)
 
 *Created 2026-02-18*

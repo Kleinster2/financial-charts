@@ -229,21 +229,21 @@ This validates the [[Colby Connelly|Connelly]] assessment from the MEI panel (Ma
 
 "Europeans, though, fundamentally say, look. NATO and our alliance is when one is attacked, the other is attacked. You know, one for all and all for one. Their view is The United States wasn't attacked. This was a decision to go in a preemptive war that no one really understood, wasn't lobbied for. We didn't have months of of explanation of why we're going to war. It was a decision and then an expectation that they join."
 
-**Core statement:** "You took us for granted. You didn't even come and tell us why you were going to war and then told us we had to go." The resentment stems from process, not substance — lack of consultation before war initiation, followed by expectation of military support.
+Core statement: "You took us for granted. You didn't even come and tell us why you were going to war and then told us we had to go." The resentment stems from process, not substance — lack of consultation before war initiation, followed by expectation of military support.
 
 ### Spain as anti-American outlier
 
 Hochstein singled out [[Spain]] as an extreme case: "Spain is an outlier, and I will say Spain was an outlier during the Biden administration. It has taken a, this leadership, played with its own scandals, has been, taking a very hard line anti American generally. And almost pro China."
 
-**Intelligence security breach:** "This past summer, they granted them [[[Huawei]]] a, a contract for their wiretapping for their intelligence community." Hochstein's assessment: "I don't believe we should be doing business with when it comes to sensitive technology because they've opened. They've allowed [[Huawei]] into their intelligence systems."
+Intelligence security breach: "This past summer, they granted them [[Huawei]] a, a contract for their wiretapping for their intelligence community." Hochstein's assessment: "I don't believe we should be doing business with when it comes to sensitive technology because they've opened. They've allowed [[Huawei]] into their intelligence systems."
 
-**Military non-cooperation:** Spain closed airspace to US aircraft during the conflict.
+Military non-cooperation: Spain closed airspace to US aircraft during the conflict.
 
 ### Other European responses
 
-- **UK:** Offered navy "after the conflict was over" — support contingent on ceasefire
-- **Italy:** "reportedly" blocked US aircraft landing rights
-- **General pattern:** Fragmented, non-unified EU position with no clear leadership structure
+- UK: Offered navy "after the conflict was over" — support contingent on ceasefire
+- Italy: "reportedly" blocked US aircraft landing rights
+- General pattern: Fragmented, non-unified EU position with no clear leadership structure
 
 ### European energy situation
 
@@ -328,4 +328,14 @@ Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners 
 
 ---
 
-*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg). Updated 2026-04-03 (Jørgensen/FT → [[EU]]). Updated 2026-04-06 (EU fiscal response/windfall tax). Updated 2026-04-11 (HSBC Mar 16 forecast/Bloomberg). Updated 2026-05-28 -- added Reuters May 27 PMI/ECB/Bund repricing.*
+## May 27 -- Europe-US LNG dependency and storage squeeze
+
+[[The Merchant's News]] adds a second May 27 layer to the European impact map: the war did not merely raise energy prices; it exposed that Europe's post-2022 "diversification" partly concentrated dependence on US [[LNG]]. [[Giacomo Prandelli]]'s public figures are stark: Russian pipeline gas to the EU down from 165 bcm in 2019 to roughly 20 bcm in 2025; US LNG to Europe up from 5 bcm to 81 bcm. IEEFA's January 2026 scenario independently points in the same direction, with the US potentially supplying 75-80% of EU LNG imports by 2030 if contracts materialize and demand cuts disappoint.
+
+That dependency tightens the transmission from Hormuz to Europe. Europe entered refill season around the mid-30s percent storage range, and backwardated [[TTF]] curves reduce the incentive to inject summer gas for winter use. Reuters reported [[Equinor]] executives warning that another 1-3 months of Hormuz disruption could make Europe's storage path critical. In market terms, the European problem is now both macro and logistical: PMI weakness, Bund repricing, and ECB inflation pressure sit on top of a physical gas-fill problem.
+
+Source: [The Merchant's News, May 27 2026](https://themerchantsnews.substack.com/p/europes-gas-crisis-just-repriced); [IEEFA, January 19 2026](https://ieefa.org/resources/eu-risks-new-energy-dependence-us-could-supply-80-its-lng-imports-2030); Reuters/[[Equinor]] report by Francesca Landini, May 21 2026.
+
+---
+
+*Split from [[Iran conflict economic disruption]], 2026-03-21. Updated 2026-03-22 (MEI panel). Updated 2026-03-23 (Brooks Substack). Updated 2026-03-24 (Wiggen/Stellen Capital). Updated 2026-03-31 (Hochstein/Bloomberg). Updated 2026-04-03 (Jørgensen/FT → [[EU]]). Updated 2026-04-06 (EU fiscal response/windfall tax). Updated 2026-04-11 (HSBC Mar 16 forecast/Bloomberg). Updated 2026-05-28 -- added Reuters May 27 PMI/ECB/Bund repricing. Updated 2026-05-29 -- added Merchant's News / IEEFA Europe-US LNG dependency and storage squeeze.*

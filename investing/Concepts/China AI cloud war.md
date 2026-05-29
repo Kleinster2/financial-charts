@@ -37,6 +37,8 @@ March 27, 2026: rebranded MaaS platform as "TokenHub." Launched "Token Plan" —
 
 The asymmetric bet: WeChat's 1.3B+ MAU. If models commoditize (Tencent's explicit thesis), value shifts to the platform routing demand. TokenHub is the App Store of inference. Doubling AI investment to $5.2B. Yuanbao: 50M DAU, 114M MAU (Feb 2026).
 
+[[Hello China Tech]]'s May 27 public preview adds a tougher stress test. Tencent's agent wave now spans WorkBuddy, CodeBuddy, QClaw, DataBuddy, Ardot, Marvis, browser, input, meetings, and planned WeChat Mini Program skills. But the same source cites Yuanbao at 57.35M monthly active users versus [[Doubao]] at 345M and [[Qwen]] at 166M, [[Tencent Cloud]] at #5 / 8% in public-cloud [[IaaS]], and the top three MaaS players excluding Tencent while holding nearly 90% combined. Distribution is Tencent's advantage; infrastructure is the constraint.
+
 **Chosen metric:** Platform reach / distribution.
 **Risk:** If one model pulls decisively ahead, aggregation loses its value proposition.
 
@@ -106,7 +108,7 @@ The open question is which segment generates the most long-term value. Enterpris
 |---|---|---|---|---|---|
 | Strategy | Commodity tokens | Vertical integration | Neutral aggregator | Domestic hardware | Productized AI |
 | Chosen metric | Token volume | Total AI revenue | Platform reach | Sovereignty | Contract value |
-| Cloud share | 13% rev, 49% tokens | **~35%** | ~20% | #2-3, declining | 17% MaaS |
+| Cloud share | 13% rev, 49% tokens | **~35%** | Legacy all-cloud estimate ~20%; public [[IaaS]] #5 / 8% in May 2026 data cited by [[Hello China Tech]] | #2-3, declining | 17% MaaS |
 | Revenue trend | Explosive (small base) | **+36%** | +22% | **-3.5%** external | — |
 | Key model | [[Doubao]] | [[Qwen]] | [[Hunyuan]] | — | [[Ernie]] |
 | Distribution | Douyin/TikTok | Taobao/Alipay/DingTalk | **WeChat 1.3B MAU** | Telecom/govt | Search/auto |

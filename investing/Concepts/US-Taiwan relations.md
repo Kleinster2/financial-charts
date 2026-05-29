@@ -17,7 +17,7 @@ Passed after US switched recognition to PRC. Key provisions:
 | No recognition | US doesn't recognize ROC government |
 | People-to-people | Maintains unofficial relations via AIT |
 
-**Strategic ambiguity:** TRA doesn't commit US to defend Taiwan, but doesn't rule it out.
+Strategic ambiguity: TRA doesn't commit US to defend Taiwan, but doesn't rule it out.
 
 ### Six Assurances (1982)
 
@@ -41,7 +41,7 @@ Made public 2020; codified by Congress.
 | Opposes | Unilateral changes to status quo by either side |
 | Based on | Three Joint Communiqués + TRA + Six Assurances |
 
-**Note:** US "One [[China]] policy" ≠ PRC "One [[China]] principle" — critical distinction.
+Note: US "One [[China]] policy" ≠ PRC "One [[China]] principle" — critical distinction.
 
 ---
 
@@ -57,7 +57,7 @@ Made public 2020; codified by Congress.
 | M1A2 tanks | 2019 | $2B | 108 tanks |
 | Abrams + Stingers | 2023 | $500M | Drawdown authority |
 
-**Annual average:** ~$1-2B in recent years; increasing.
+Annual average: ~$1-2B in recent years; increasing.
 
 ### Training and exercises
 
@@ -70,9 +70,9 @@ Made public 2020; codified by Congress.
 
 ### Unofficial commitments
 
-**Biden's statements (2021-2024):** Four times stated US would defend Taiwan militarily — each time walked back by staff as "policy unchanged."
+Biden's statements (2021-2024): Four times stated US would defend Taiwan militarily — each time walked back by staff as "policy unchanged."
 
-**Interpretation:** Strategic ambiguity eroding toward strategic clarity.
+Interpretation: Strategic ambiguity eroding toward strategic clarity.
 
 ---
 
@@ -153,7 +153,7 @@ See [[TSMC Arizona expansion]] for details.
 | Arms sales | Strong bipartisan |
 | Recognition/independence | Minority view |
 
-**Shift:** Taiwan support increasing across parties since ~2019.
+Shift: Taiwan support increasing across parties since ~2019.
 
 ### Administration differences
 
@@ -199,6 +199,14 @@ Commerce Secretary Lutnick: TSMC "just bought hundreds of acres adjacent to thei
 | Late-2025 arms sale | $11B | Largest single package — HIMARS, howitzers, Javelins, [[Anduril]] drones |
 | Pipeline backlog | ~$19B | Delivery ongoing |
 
+### Arms-sale pause report (May 2026)
+
+AP reported on May 22 that Taiwan had not been formally notified of a pause in a planned $14B US arms sale, but acting US Navy Secretary Hung Cao told a Senate appropriations panel that some foreign military sales were being delayed to preserve munitions for the Iran operation ("Epic Fury") and would resume when the administration deemed it appropriate. The same AP report noted [[Donald Trump]]'s earlier Fox News framing of Taiwan arms sales as "a very good negotiating chip" in US-China dealings.
+
+Market read: this is not a legal collapse of the Taiwan Relations Act framework, but it does make the delivery cadence and political signalling of Taiwan arms sales a live risk variable. Defense-prime exposure depends not only on authorization/backlog, but on whether Taiwan packages become bargaining chips inside broader US-China and Middle East munitions management.
+
+*Source: AP, May 22 2026: https://apnews.com/article/taiwan-us-arms-china-fa36646d6b370a4cd3da756d2fafb77a.*
+
 ### [[China]] response (Jan 2026)
 
 | Action | Detail |
@@ -225,7 +233,7 @@ Commerce Secretary Lutnick: TSMC "just bought hundreds of acres adjacent to thei
 | Crisis | [[Defense]] stocks, chip shortage plays |
 | De-escalation | Taiwan tech rally, reduced risk premium |
 
-**Key exposures:**
+Key exposures:
 - [[TSMC]] — direct beneficiary of US ties
 - [[Lockheed Martin]], [[RTX]] — arms sales
 - [[Apple]], [[NVIDIA]] — supply chain risk if relations deteriorate
@@ -254,4 +262,4 @@ Commerce Secretary Lutnick: TSMC "just bought hundreds of acres adjacent to thei
 
 ---
 
-*Updated 2026-01-16*
+*Updated 2026-05-28*

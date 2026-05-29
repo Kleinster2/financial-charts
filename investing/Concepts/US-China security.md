@@ -51,6 +51,16 @@ WSJ-reported May 7 deliberations put AI guardrails onto the US-China security ma
 
 The practical security read: bilateral AI talks would not mean strategic trust. They would mean both sides recognize that AI competition has become a military/cyber flashpoint adjacent to Taiwan, [[South China Sea]], and export controls.
 
+### Constructive strategic stability (May 2026)
+
+The May 2026 [[2026 Trump-Xi summit|Trump-Xi summit]] language gives the security file a stabilizing frame without removing the flashpoints. Chinese messaging defines constructive strategic stability as cooperation-centered, competition-bounded, difference-managed, and peace-preserving. That sounds like guardrails, but on [[Beijing]]'s terms and after Beijing argues that US containment has failed.
+
+The security test is [[Taiwan]]. Chinese May 29 Xinhua/People's Daily remarks repeated the strategic-stability language while also saying Taiwan independence is incompatible with peace and stability across the Strait. So the formula can reduce accidental-escalation risk around AI, crisis dialogue, [[Ukraine]], Korea, or Middle East issues, but it does not soften China's core-interest red lines.
+
+For markets, treat this as a volatility dampener rather than a de-risking event. Defense, Taiwan, semiconductor, and China-exposed equity risk premia should not collapse unless the diplomatic formula produces observable changes in military operations, sanctions, export controls, or Taiwan arms-sale behavior.
+
+*Sources: Gao Fei / People's Daily, May 27 2026; Tracking People's Daily translation and framing, May 27 2026; Xinhua / People's Daily Online, May 29 2026.*
+
 ---
 
 ## Military balance

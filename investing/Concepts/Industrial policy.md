@@ -50,6 +50,10 @@ Alexander Hamilton's *Report on Manufactures* (1791) to the US Congress argued f
 
 The Hamiltonian tradition is the source of the modern "infant industry" argument: industries with significant learning-curve effects or coordination requirements can be permanently uncompetitive without temporary protection, even if they would be globally competitive once mature.
 
+Chartbook's May 27 link to the New York Almanac is a useful historical corrective to a purely tariff/subsidy version of the story. Early U.S. industrialization also depended on the transfer of British machinery designs, skilled-worker know-how, and production routines that Britain tried to restrict. For modern investing, that makes export controls and industrial policy partly a tacit-knowledge problem: legal controls can slow technology leakage, but catch-up happens through people, tools, memorized process knowledge, and organizational replication, not only through formal trade in machines.
+
+Source: [[Adam Tooze]], Chartbook Top Links 1114, May 27 2026; New York Almanac item on early U.S. industrial technology transfer via Chartbook.
+
 ### 3. The Listian tradition (1841-)
 
 Friedrich List's *National System of Political Economy* (1841) gave the Hamiltonian framework its theoretical foundation, arguing that classical economics' free-trade-as-universal-good prescription applied only to economies at the same stage of development. For catching-up economies, protective industrial policy was the necessary path to industrialisation. List's framework directly influenced 19th-century German industrialisation, late-19th-century Japanese Meiji-era reforms, and the post-WWII East Asian developmental state model.
@@ -198,6 +202,16 @@ The 2022 [[CHIPS Act]] + [[Inflation Reduction Act]] + [[Defense Production Act]
 
 Visible beneficiaries: [[TSMC]] Arizona, [[Intel]] Ohio, [[Micron]] Idaho/New York, [[Samsung]] Texas, [[GlobalFoundries]] New York; on the IRA side, EV battery firms ([[LG Energy Solution]], [[CATL]] via Ford partnership), solar manufacturers, hydrogen-hub partnerships.
 
+### Biden clean-energy standards vs administrative capacity
+
+The May 2026 Volts / Roosevelt Institute debate usefully separates two questions that are often collapsed in the "everything bagel" critique of Biden-era industrial policy: whether labor/community standards themselves slow deployment, and whether the administrative system implementing them has enough capacity to process large flows of money quickly. Betony Jones, who ran labor and jobs policy at the [[Department of Energy]] (DOE) under [[Joe Biden]], argues from interviews with more than a dozen clean-energy funding recipients that the main friction points were not prevailing-wage, apprenticeship, or community-benefit standards. Recipients more often cited permitting delays, US supply-chain constraints, steep learning curves, and government contracting timelines.
+
+The Roosevelt report's quantitative frame is material: DOE tied 74% of major IIJA/IRA clean-energy project funding, or $91B across 110 major projects, to formal labor or community agreements. Clean-energy manufacturing investment rose from less than $5B in 2019 to nearly $60B in 2023, while clean-energy manufacturing employment grew 9.5% versus 1.8% for broader manufacturing. The report's claim is not that standards remove trade-offs; it is that community benefits plans and labor partnerships can turn workforce/community risk into a project-development discipline. That matters for industrial-policy design because it points to administrative capacity and policy stability, not necessarily deregulation, as the binding implementation variable.
+
+For the investing lens, this slightly changes the clean-energy industrial-policy read-through. If the constraint is weak execution capacity, permitting, contracting, and supply-chain depth, then the beneficiaries are not only manufacturers receiving credits; they include firms and localities that can navigate federal compliance, secure labor supply, pre-negotiate community support, and keep projects bankable through policy volatility. [[One Big Beautiful Bill Act]] rollbacks still hurt the IRA demand signal, but the operational lesson survives: standards can either be bureaucratic drag or execution-risk management depending on administrative design and project sponsor capability.
+
+*Sources: [Volts, "A limited defense of Biden's everything-bagel industrial policy"](https://www.volts.wtf/p/a-limited-defense-of-bidens-everything), interview with Betony Jones, May 27 2026; [Roosevelt Institute, "The Receipts: The Untold and Underappreciated Outcomes of Biden's Clean Energy Strategy"](https://rooseveltinstitute.org/publications/the-receipts-the-untold-and-underappreciated-outcomes-of-bidens-clean-energy-strategy/), Betony Jones and Joe Peck, Apr 16 2026.*
+
 ### China
 
 China's industrial policy is the most ambitious in absolute scale and most integrated across instruments:
@@ -259,7 +273,7 @@ The industrial-policy revival has reshaped sectoral risk-return profiles across 
 | Sector | Direction | Mechanism |
 |--------|-----------|-----------|
 | Semiconductors (front-end manufacturing) | Beneficiary | Direct subsidy + tax credits; [[TSMC]], [[Intel]], [[Samsung]], [[Micron]] all building US fabs |
-| Critical minerals + processing | Beneficiary | Domestic content rules + IRA + Defense Production Act; [[USA Rare Earth]], [[MP Materials]], [[Lynas Rare Earths|Lynas]] |
+| Critical minerals + processing | Beneficiary | Domestic content rules + IRA + Defense Production Act; [[USA Rare Earth]], [[MP Materials]], [[Lynas Rare Earths\|Lynas]] |
 | Clean energy manufacturing | Mixed | IRA tax credits create demand; Chinese overcapacity compresses pricing |
 | EV manufacturing | Mixed | IRA + tariffs vs Chinese EV competitiveness; sector economics still developing |
 | Defense primes | Beneficiary | DPA expansion + budget priorities; [[Lockheed Martin]], [[RTX]], [[Northrop Grumman]] |

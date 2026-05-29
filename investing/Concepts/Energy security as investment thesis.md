@@ -62,6 +62,8 @@ The thesis manifests differently across regions, which matters because it determ
 
 Per Elmgreen: "In the US it is about: how do we build enough power for the AI data centres? It's all hands on deck . . . they need more generation and they need to invest in the grid." The US case is therefore not strictly an energy-security trade by the IEA Four As frame — it is an [[AI infrastructure financing|AI capex bottleneck]] trade that incidentally pulls capital into the same names. The European case is the canonical energy-security expression.
 
+Prandelli's May 27 gas note adds an important caveat to the EU row: replacing Russian pipeline gas with US LNG is not strategic autonomy. It is supplier substitution. The investment thesis remains strongest where Europe reduces import volumes structurally -- electrification, renewables, grids, storage, industrial efficiency -- and weakest where Europe merely changes which external seller owns the marginal molecule.
+
 The differentiation matters for stock-level positioning. Names with European offshore wind exposure ([[Orsted|Ørsted]], [[Nordex]], [[Siemens Energy|Siemens Gamesa]]) are direct sovereignty plays. Names with US AI-power exposure ([[GE Vernova]], [[NextEra Energy]], [[Constellation Energy]], [[Vistra]]) are AI-power plays sharing flows but not framing.
 
 ---

@@ -133,6 +133,44 @@ The implication for the permanent premium: the conventional reflex that "high pr
 
 ---
 
+## Oil-price normalization test (May 27-29, 2026)
+
+[[Robert Pape]]'s May 26-27 [[Escalation Trap]] public sequence usefully turns the permanent-premium thesis into a simple market test. The May 26 teaser set up the key move: the negotiation was less about uranium levels, inspection formulas, or whether vessels could physically pass, and more about whether markets would now treat the Gulf as permanently dangerous. The May 27 preview then made that test explicit: if [[Brent crude]] stays above $90 after Hormuz is nominally reopened, then the war's strategic residue is visible in price, not just in diplomatic language.
+
+The May 29 Reuters tape sits right on that line. Brent was down hard for the week on reports of a tentative US-Iran ceasefire extension and possible reopening, but July Brent still traded around $91.97 late Friday morning US time and the more active August contract around $91.06. Reuters also reported that Hormuz traffic remained a small fraction of pre-war levels, oil inventories were still falling, and the US/Iran descriptions of reopening terms diverged: Washington wanted unrestricted passage; Iranian state-linked reporting described reopening under Tehran's own arrangements, consistent with the post-March [[Hormuz Transit Regime]] rather than a return to pre-war neutrality.
+
+That distinction is the entire point of the permanent-premium note. Physical passage can resume before commercial confidence, war-risk insurance, inventory rebuilding, and legal/political expectations normalize. If the post-deal steady state is fee-bearing or permissioned transit, then the market can remove the panic premium while preserving a structural premium.
+
+The May 26 [[Preston Stewart]] transcript supplies the tactical reason the premium can survive a deal headline. U.S. reporting that Iranian boats were attempting to emplace mines while ceasefire talks continued means the market is pricing not only the mines already in the water, but the possibility that the route can be re-contaminated at low cost. The same-day UKMTO / Reuters Olympic Life incident off Oman remained unattributed and unknown-cause, but it reinforced the practical problem: shipowners and insurers react to uncertainty in the operating area, not only to confirmed attribution.
+
+*Sources: [Escalation Trap, "The Real Iran Negotiation May Have Nothing to Do With Uranium"](https://escalationtrap.substack.com/p/the-real-iran-negotiation-may-have), May 26 2026; [Escalation Trap, "The Price of Oil Is the Real Iran Deal"](https://escalationtrap.substack.com/p/the-price-of-oil-is-the-real-iran), May 27 2026 (paid; public preview only); [[Preston Stewart]], ["Iran Just Tried Mining The Strait of Hormuz"](https://prestonstew.substack.com/p/iran-just-tried-mining-the-strait), May 26 2026; [Reuters via GMA News](https://www.gmanetwork.com/news/topstories/world/988962/us-forces-conducted-self-defense-strikes-in-southern-iran-report/story/), May 26 2026; [Reuters via StreetInsider](https://www.streetinsider.com/Reuters/Tanker%2Breports%2Bexternal%2Bexplosion%2Boff%2BOman%2Bcoast%2C%2Bcrew%2Bsafe%2C%2BUKMTO%2Bsays/26549727.html), May 26 2026; [Reuters via MarketScreener](https://ca.marketscreener.com/news/oil-steadies-as-market-awaits-possible-us-iran-ceasefire-deal-ce7f5ddbd988ff24), May 29 2026.*
+
+### Insurance closure - the paper chokepoint
+
+[[Felipe Germini]]'s May 27 ENERGY Pipeline public section gives the mechanical version of the same test. The strait did not need to be fully closed by mines once underwriting became the bottleneck. War-risk cover for Hormuz transit was quoted around 5% of vessel value, so a $100M [[VLCC]] faced a roughly $5M transit insurance cost before fuel, crew, demurrage, cargo financing, or routing uncertainty. At that level the quote behaves less like a price and more like a refusal to normalize.
+
+![[energy-pipeline-lloyds-awrp-hormuz-volume-2026.png]]
+
+*Extracted from Germini's chart. AWRP quotes are indicative weekly broker ranges; cargo-volume index uses Q4 2025 = 100.*
+
+| Date | AWRP for Hormuz VLCC (% hull value, approx.) | Hormuz tanker cargo volume (Q4 2025 = 100, approx.) | Read-through |
+|---|---:|---:|---|
+| Feb 14 | 0.4% | 100 | Pre-war baseline |
+| Feb 28 | 0.6% | 96 | Air war begins; insurance not yet binding |
+| Mar 7 | 1.2% | 78 | First repricing phase |
+| Mar 14 | 2.1% | 55 | Crosses the chart's 2% reopening threshold |
+| Mar 21 | 3.4% | 42 | Flow collapse becomes self-reinforcing |
+| Mar 28 | 4.6% | 35 | Underwriting, not physical lane width, is the choke |
+| Apr 4 | 5.0% | 32 | Peak quote; volume near floor |
+| Apr 18 | 4.7% | 30 | Backstop/ceasefire headlines do not normalize cover |
+| May 23 | 4.5% | 33 | Persistent paper closure |
+
+The chart's causal claim matters more than the exact datapoints: cargo volume collapsed in lockstep with AWRP repricing, not only with missile or mine headlines. That is the market structure behind the permanent premium. Reopening requires the quote to fall back below a commercially tolerable threshold, not simply a statement that vessels may pass.
+
+*Source: [Felipe Germini / ENERGY Pipeline, "The Insurance Geometry That Replaced the Strait"](https://fgermini.substack.com/p/the-insurance-geometry-that-replaced), May 27 2026. Public section only; paid trade map and catalyst calendar not ingested.*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — the event that created the premium

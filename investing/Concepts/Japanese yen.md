@@ -61,6 +61,14 @@ A "rate check" is when a central bank asks dealers for exchange rates — signal
 
 USDJPY went from 103 (Jan 2021) to 160+ (2024 high).
 
+## May 2026 debt-trap signal
+
+The May 2026 yen problem is not just the bilateral USDJPY rate. On FRED/BIS broad real effective exchange-rate data, Japan's index fell to 65.70 in April 2026, while Turkey's broad real index was 108.84. [[Robin J. Brooks]]' May 28 chart used a different 2014 base and showed the same directional point: the real effective yen had fallen below the Turkish lira, an extreme signal for a currency that was historically treated as a developed-market safe haven.
+
+Brooks' mechanism is that [[JGB]] yields are still being held below full market-clearing levels by ongoing [[BOJ]] purchases. If the risk premium cannot fully appear in bond yields, it appears in the currency. That is why yen weakness can coexist with rising long-end JGB yields: both are pricing the same fiscal / monetary credibility problem through different channels.
+
+Official FX intervention can arrest the spot move temporarily, but it does not settle the underlying question of what 30-year JGB yields should be without the BOJ as residual buyer. See [[Japan debt trap]].
+
 ---
 
 ## BoJ normalization (2024-2026)
@@ -148,6 +156,7 @@ MoF/BoJ have intervened to support yen:
 - [[Japan]] — macro, BoJ policy, demographics
 
 ### Concepts
+- [[Japan debt trap]] — yen weakness as the adjustment valve for suppressed JGB risk premia
 - [[Carry trade]] — JPY is primary funding currency
 - [[De-dollarization]] — yen's role in reserves
 - [[US dollar]] — DXY at 4-year low amid rate check event

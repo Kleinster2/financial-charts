@@ -83,6 +83,12 @@ Major down round in 2022.
 
 Sebastian Siemiatkowski aggressive on AI.
 
+[[Exponential View]]'s May 2026 AI-productivity ladder puts Klarna in Stage 2 rather than Stage 3. Klarna's [[OpenAI]]-powered assistant handled 2.3m conversations in its first month, or two-thirds of customer-service chats, did work the company described as equivalent to 700 full-time agents, cut repeat inquiries by 25%, and reduced resolution time from 11 minutes to under 2 minutes. That is a real cost and service-speed result inside a defined workflow.
+
+The limitation is that support automation alone does not prove whole-firm operating-model redesign. It shows AI attached to an existing support process and lowering the human load -- the "group drive" case in [[Enterprise AI adoption]] -- not necessarily a faster company-wide decision loop.
+
+*Sources: [Klarna press release via PRNewswire, Feb 27 2024](https://www.prnewswire.co.uk/news-releases/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month-302072744.html); [Exponential View, May 27 2026](https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line).*
+
 ---
 
 ## Leadership

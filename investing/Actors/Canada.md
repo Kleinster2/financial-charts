@@ -45,6 +45,12 @@ Canada — G7 economy. $2.1T GDP. Resources, financials, US integration. Commodi
 | TC Energy | Pipelines |
 | Pembina | Midstream |
 
+#### Korea substitution demand (Apr 2026)
+
+[[Robin J. Brooks]]'s May 27 South Korea import-data post captures Canada as one of the replacement suppliers during the [[Strait of Hormuz]] shock. South Korean imports of HS code 27 mineral fuels/oils/refined products from Canada rose 174% year over year in April 2026, with the implied average price paid up 86%. The high price says these were not cheap barrels; the volume surge says Canada became part of the emergency rerouting system for Asian buyers replacing Saudi supply.
+
+*Source: [Robin J. Brooks, "Why did the Brent oil price not go to $200?"](https://robinjbrooks.substack.com/p/why-did-the-brent-oil-price-not-go), May 27 2026.*
+
 ### Mining
 | Company | Focus |
 |---------|-------|

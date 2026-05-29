@@ -39,6 +39,8 @@ US-based defense and national-security drone holding company (Nasdaq: RCAT). Ope
 
 ## Recent developments
 
+- May 28, 2026 — RCAT closed +32.6% during the domestic-drone funding rerating. The direct catalyst was a Wall Street Journal-reported Trump administration/Pentagon discussion of direct financial support for U.S. drone manufacturers; Red Cat was not reported as a named funding target, but it re-rated with the sector as an investable U.S.-made sUAS proxy. The move also built on H.C. Wainwright coverage and the Japan contract below.
+- Apr 30, 2026 — disclosed the previously announced Asia-Pacific order as Japan Ministry of Defense / ATLA procurement for 173 Black Widow sUAS systems, delivered under Japan FY2026 funding through HAMA K.K. and ITOCHU Aviation.
 - Apr 2026 — closes acquisition of Apium Swarm Robotics.
 - Mar 2026 — NATO ally selects Black Widow on competitive tender; CY2026 deliveries.
 - Feb 2026 — Asia-Pacific ally selects Black Widow on competitive tender; CY2026 deliveries.
@@ -68,3 +70,5 @@ Public-market exposure to the [[Replicator Initiative]] / [[Defense Autonomous W
 ---
 
 *Created 2026-04-25 (stub — financials, evolution, full leadership not yet captured). Sources: Red Cat Holdings investor relations press releases (Mar 2026 NATO order; Feb 2026 APAC order; Apr 2026 Apium acquisition), Globe Newswire (Apr 2, 2026 — "Red Cat Secures New Orders for Black Widow Drones from NATO Ally"), redcat.red product pages.*
+
+*May 28 update sources: [StockAnalysis May 28 movers](https://stockanalysis.com/markets/gainers/); [Investing.com on RCAT drone-funding catalyst](https://www.investing.com/news/stock-market-news/why-is-red-cat-stock-surging-today-93CH-4714692); [Red Cat Japan ATLA contract release](https://www.globenewswire.com/news-release/2026/04/30/3284629/0/en/red-cat-to-deliver-173-black-widow-drone-systems-under-japan-ministry-of-defense-contract.html).*

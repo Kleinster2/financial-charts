@@ -167,6 +167,16 @@ Stock +3.2% on Mar 10 — muted reaction as market digested server decline along
 
 ---
 
+## May 29 2026 Dell AI-server read-through
+
+HPE closed at $46.09 on May 29, 2026, up 12.7%. Using the current web close with the local `quick_movers.py` beta/idiosyncratic-volatility framework, the move was roughly +4.1 sigma. The catalyst was not an HPE-specific print; it was the read-through from [[Dell]]'s Q1 FY2027 AI-server order and backlog disclosure.
+
+The sympathy bid reframes HPE's Q1 FY2026 Cloud & AI weakness. The March print showed server revenue down 2.7% because of supply constraints, even as AI backlog exceeded $5B and 64% came from enterprise/sovereign customers. Dell's May 29 tape makes the "supply constraint, not demand weakness" interpretation more credible. HPE still has to prove shipment conversion and margins, especially with the post-[[Juniper Networks|Juniper]] networking mix now central to the equity story.
+
+*Sources: [Dell Technologies Q1 FY2027 results / Business Wire](https://www.businesswire.com/news/home/20260528449392/en/Dell-Technologies-Delivers-First-Quarter-Fiscal-2027-Financial-Results), May 28 2026; local `quick_movers.py` fallback screen, May 29 2026.*
+
+---
+
 ![[hpe-employees-chart.png]]
 *Headcount: 67,000 (2025) — up 12.4% YoY*
 

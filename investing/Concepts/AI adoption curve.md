@@ -74,6 +74,16 @@ Software engineering is half of all agent usage — consistent with the 0.04% co
 
 The long tail is where growth will come. Finance (4%), data/BI (3.5%), and cybersecurity (2.4%) are nascent. Legal (0.9%) and healthcare (1.0%) are barely started — regulatory constraints slow adoption but the eventual TAM is massive.
 
+## Peer-belief diffusion channel
+
+The adoption curve is not only a function of model capability, price, or product distribution. It is also shaped by what managers believe their peers are doing. A May 2026 [[Joachim Klement]] post highlighted Cullen, Faia, Guglielminetti, Perez-Truglia, and Rondinelli's [[Italy|Italian]] central-bank survey experiment of roughly 3,000 Italian firms: managers systematically underestimated peer AI/robotics adoption, and many non-adopters were given corrected information about competitor adoption rates.
+
+The experiment matters because the response differed by technology. The corrected peer signal increased intended future [[Robotics|robotics]] adoption: the NBER paper estimates that a 1 percentage-point rise in expected competitor adoption raised intended robotics adoption by 0.704 percentage points. The AI effect was not statistically significant. That says the adoption curve can steepen when peer use becomes visible, but AI may still be too diffuse, workflow-specific, or hard to evaluate for peer information alone to change plans.
+
+Investment implication: peer FOMO is a plausible accelerator for legible automation markets, especially industrial robotics and factory workflows. For enterprise AI, the proof point to watch is when "our competitors use it" starts changing procurement behavior, not just conference rhetoric or pilot counts.
+
+*Sources: [Joachim Klement, May 28 2026](https://klementoninvesting.substack.com/p/if-your-peer-does-it-do-you-do-it); [Cullen et al., "The Innovation Race", NBER WP 34532](https://www.nber.org/papers/w34532).*
+
 ## Comparison to other technologies
 
 | Technology | Time to 1B users | Current AI equivalent |
@@ -102,3 +112,5 @@ AI is reaching free users faster than any prior technology. The question is whet
 - [[Google]]
 - [[Cursor]]
 - [[AI Ad Monetization]]
+- [[Enterprise AI adoption]]
+- [[Robotics]]

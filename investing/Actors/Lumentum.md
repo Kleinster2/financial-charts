@@ -120,6 +120,16 @@ The competitive moat is the 200G EML technology lead. The open question is how l
 
 ---
 
+## UHP laser vs WDM array debate
+
+The May 2026 [[Jason's Chips]] critique of [[Sivers Semiconductors]] sharpened Lumentum's CPO role: if early CPO deployments need maximum optical power after connector, fiber, splitter, and waveguide losses, the scarce asset is not generic "photonics exposure" but qualified ultra-high-power external laser supply.
+
+Lumentum's public UHP CPO product page claims up to 350mW at 50°C and 235mW at 70°C with power-conversion efficiency above 20%, built on its InP platform. Jason's Chips contrasts that with Sivers' WDM DFB-laser-array pitch and argues that WDM solves color/channel density while UHP solves the more immediate photon-budget problem in early CPO production.
+
+That makes Lumentum the cleaner bottleneck comparator for the Sivers trade. Sivers may still win sockets, but Lumentum already has the manufacturing history, reliability disclosure, and CPO UHP product positioning that the market is imputing to smaller optics names.
+
+---
+
 ## Dynamics and open questions
 
 The revenue ramp from $308M (Jun 2024 trough) to $666M (Dec 2025) is a 2.2× acceleration in 18 months — driven almost entirely by AI datacom demand. The stock has gone from a 52-week low of $49 to nearly $960, reflecting the market repricing Lumentum from a struggling optical company to an AI infrastructure bottleneck.

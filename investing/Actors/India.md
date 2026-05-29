@@ -1,6 +1,13 @@
+---
+aliases: [Republic of India, Bharat]
+tags: [actor, country, asia, emerging, tariffs]
+---
+
 #actor #country #asia #emerging #tariffs
 
 India — World's 5th largest economy, fastest-growing major economy. Caught between US and China.
+
+India matters for the investing vault because it combines large-scale domestic demand, global services depth, manufacturing ambition, AI infrastructure buildout, and recurring external-balance constraints. The market question is whether India can turn scale into domestic capability rather than remaining a user, assembler, or hosting layer for foreign technology and capital.
 
 ---
 
@@ -104,7 +111,19 @@ Challenges:
 | Infrastructure boom | [[Larsen & Toubro]], cement, steel | Execution risk |
 | [[China+1]] manufacturing | Electronics, pharma | Assembly only — see [[India Industry]] |
 | Digital / IT services | [[TCS]], [[Infosys]] | Talent competition |
-| [[India AI]] | Compute buildout | Behind US/China |
+| [[India AI]] | Compute buildout, data centers, diffusion across small firms | Capability gap vs. foreign models and chips |
+
+---
+
+## AI infrastructure vs AI capability (May 2026)
+
+[[India AI]] now has real infrastructure momentum: the IndiaAI Mission has onboarded more than 38,000 GPUs through the common compute portal, and [[Google Cloud]] is building a $15B gigawatt-scale AI hub in Visakhapatnam with [[AdaniConneX]] and [[Nxtra]]. For markets, this supports the physical-infrastructure side of the India AI trade: data centers, power, electrical equipment, fiber, construction, and telecom infrastructure.
+
+The caveat from [[Rohit Lamba]] and [[Raghuram Rajan]] is that infrastructure can still leave India as a tenant of foreign intelligence. If the model weights, advanced silicon, and research frontier stay foreign, the local economy captures land/power/operations while the high-rent AI layer remains elsewhere. This makes India AI a split theme: positive for infrastructure buildout, unresolved for sovereign model capability.
+
+[[Asia Tech Lens]] adds a second caveat: the infrastructure layer itself can be power-constrained. India has fast renewable additions and a large hyperscaler pipeline, but local grid quality, transmission delays, and renewable curtailment mean the investable bottleneck is powered capacity, not announced data-center capacity. That shifts the positive read toward local operators and suppliers that can build microgrids, PPAs, batteries, substations, cooling, and fiber around AI load.
+
+*Sources: Government of India / PIB, Mar 25 2026; Google Cloud, Apr 28 2026; Lamba/Rajan, May 7 2026; [[Asia Tech Lens]], May 28 2026.*
 
 ---
 
@@ -291,6 +310,7 @@ Three pillars: infrastructure, users, talent.
 - [[Microsoft]]: $17.5B (largest-ever Asia investment) for cloud/AI infra (Dec 2025)
 - [[Amazon]]: $35B across India operations over 5 years (Dec 2025)
 - [[Adani Group]]: $100B AI data centers with renewable energy by 2035 (announced at [[India AI Impact Summit 2026]])
+- [[Asia Tech Lens]] flags the constraint behind the headline numbers: data-center demand may push operators toward microgrids because local grid delivery can lag national renewable additions.
 - India approved $18B in semiconductor projects to build domestic chip supply chain
 - $1.1B earmarked for state-backed VC fund targeting AI and advanced manufacturing startups
 - New Indian data localization rules helped attract foreign investment

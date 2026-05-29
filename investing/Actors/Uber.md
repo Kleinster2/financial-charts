@@ -77,6 +77,14 @@ AI throughout the platform:
 
 AI is core to unit economics — better matching = lower costs.
 
+### AI budget discipline (May 2026)
+
+[[Exponential View]] uses Uber as a clean example of the enterprise AI ROI measurement problem. Uber is already deeply algorithmic -- routing, pricing, matching, ETAs, fraud, and delivery optimization are core to the platform -- but COO Andrew Macdonald still questioned whether rising [[Claude Code]] / AI-token usage clearly translated into more useful consumer features.
+
+The distinction matters. Uber's marketplace AI is production infrastructure with direct unit-economic feedback. Generative-AI tooling for engineers sits in a different bucket: it can raise individual or team output while feature selection, review, testing, legal, and product-decision bottlenecks remain unchanged. That is the [[Enterprise AI adoption]] problem in public-company form.
+
+*Sources: [Exponential View, May 27 2026](https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line); [[Fortune]], May 26 2026: https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/.*
+
 ---
 
 ## Autonomous vehicle strategy

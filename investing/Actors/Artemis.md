@@ -5,7 +5,7 @@ tags: [actor, space, usa, government]
 
 #actor #space #usa #government
 
-**Artemis** — [[NASA]]'s lunar exploration program. Architecture restructured Q1 2026 under [[Jared Isaacman]]: $20B over 7 years for permanent lunar base near south pole, [[Lunar Gateway]] paused, SLS stripped of core role, and the first post-Artemis-II landing shifted to Artemis IV in early 2028 after a 2027 low-Earth-orbit lander docking demo.
+**Artemis** — [[NASA]]'s lunar exploration program. Architecture restructured Q1 2026 under [[Jared Isaacman]]: $20B over 7 years for permanent lunar base near south pole, [[Lunar Gateway]] paused, SLS stripped of core role, and the first post-Artemis-II landing shifted to Artemis IV in early 2028 after a 2027 low-Earth-orbit lander docking demo. NASA's May 2026 mission-directorate realignment then put Artemis, Moon Base, and low Earth orbit under the same Human Spaceflight Mission Directorate.
 
 ---
 
@@ -38,6 +38,14 @@ Largest NASA human spaceflight program since Space Shuttle.
 Artemis II crew: Reid Wiseman, Victor Glover, Christina Koch, Jeremy Hansen (first non-American on lunar mission).
 
 The competitive clock is now explicit. Reuters' May 2026 [[Shenzhou]]-23 report framed [[NASA]]'s 2028 landing target as roughly two years ahead of [[China]]'s public 2030 target. [[Chinese crewed lunar program|China's program]] is not only a geopolitical backdrop; it is a funding and schedule-pressure input for Artemis.
+
+## May 2026 program-office hardening
+
+NASA's May 22, 2026 realignment matters for Artemis because it turns the Q1 architecture reset into named execution offices. [[Artemis]] now sits inside the Human Spaceflight Mission Directorate under Lori Glaze, with Jeremy Parsons as Artemis program manager and Carlos Garcia-Galan as Moon Base program manager. [[Commercial LEO Destinations]] also sits in the same directorate under Dana Weigel.
+
+The read-through is that Artemis is being managed as surface infrastructure rather than a single landing campaign. Moon Base, landers, LEO transition, and human-spaceflight operations are now closer together organizationally. That makes sense if the real program is sustained lunar presence before [[Chinese crewed lunar program|China]] reaches the Moon, but it also raises the dependency on commercial execution: [[SpaceX]] orbital refueling and [[Blue Origin]] Blue Moon / [[New Glenn]] cadence have to work on NASA's schedule.
+
+*Sources: NASA realignment announcement, May 22 2026; [[Journal of Space Commerce]], May 28 2026.*
 
 ---
 
@@ -103,6 +111,7 @@ NASA interim administrator reopened Starship HLS contract in early 2025 — both
 |------|--------|
 | Starship readiness | HLS requires successful orbital refueling (undemonstrated) |
 | Blue Moon readiness | Alternative commercial lander path, but prototype still pre-flight |
+| New Glenn reliability | May 2026 launch-pad explosion during hotfire adds investigation and pad-recovery risk to Blue Moon / Blue Origin cadence |
 | Budget uncertainty | Political shifts, cost overruns |
 | SLS sustainability | $2B+ per launch, cancellation pressure |
 | Schedule slippage | NASA IG called timeline "unrealistic" |

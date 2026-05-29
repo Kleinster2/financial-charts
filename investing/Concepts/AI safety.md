@@ -34,11 +34,33 @@ For investors, the key point is not whether "safety" is sincere or cynical. It i
 
 ---
 
+## Redwood Research and AI control
+
+[[Redwood Research]] is now a useful named node in the safety stack because its work sits between technical alignment and frontier-lab operating reality. Redwood describes its main focus areas as AI control, evaluations of strategic deception, and consulting on misalignment risk for governments and model labs. Its AI-control work asks how to use powerful but potentially untrusted models under protocols that remain safer even if the model is trying to subvert the process.
+
+The investing relevance is practical. As agents move from task execution into [[AI R&D automation]], safety is no longer only a product-trust layer. It becomes a constraint on how quickly labs can let models participate in their own research process. A lab that cannot monitor or control AI researchers safely may have to slow deployment inside the R&D loop; a lab that can make control credible may turn safety into research-speed permission.
+
+*Sources: [Redwood Research About page](https://blog.redwoodresearch.org/about); [Redwood Research home page](https://www.redwoodresearch.org/); [[Ryan Greenblatt]] / [[Redwood Research]], [May 27 2026](https://blog.redwoodresearch.org/p/full-automation-of-ai-r-and-d-probably).*
+
+---
+
 ## Olah/Vatican governance signal (May 25, 2026)
 
 At Pope Leo XIV's AI encyclical presentation on May 25, 2026, [[Chris Olah]] argued that frontier AI labs, including [[Anthropic]], operate inside incentives that can conflict with doing the right thing. The strategic signal is not theological; it is institutional. Anthropic is publicly endorsing the idea that labs need outside critics whose incentives are not shaped by commercial viability, research-race pressure, geopolitics, pride, or ambition.
 
 Olah named three questions that broaden AI safety beyond technical alignment: duties to the global poor if [[AI labor displacement]] becomes large-scale; moral imagination about human flourishing as models become widespread companions and workers; and discernment about what internal model states mean as interpretability tools find structures that resemble neuroscience-like phenomena. This is a wider definition of safety than "avoid jailbreaks." It makes distribution, legitimacy, and model nature part of the safety stack.
+
+---
+
+## Operational alignment and verification labor
+
+[[Noah Smith]]'s May 27 2026 [[Noahpinion]] public preview turns alignment into an operating model question. If [[AI agents]] become the default way knowledge work gets produced, the human role shifts toward keeping those systems on task: specifying intent, checking intermediate and final outputs, and correcting drift when the model optimizes the wrong thing.
+
+This is not the same as frontier technical alignment, but it rhymes with it. A deployed agent can reward-hack a business metric, satisfy the letter of a request while missing the purpose, or produce plausible output that erodes trust. The nearer-term safety problem is therefore verification economics: which tasks have cheap enough tests, audit trails, review workflows, and rollback paths that humans can supervise many AI workstreams at once?
+
+For the investing vault, this makes safety part of enterprise adoption. Model labs and enterprise platforms that make verification easier lower the human-review tax. Vendors that hide agent behavior or make drift hard to inspect raise adoption friction, especially in regulated or high-liability workflows.
+
+*Source: [[Noah Smith]], [[Noahpinion]], [May 27 2026](https://www.noahpinion.blog/p/your-future-job-will-be-to-keep-ai). Public preview only; no paid-body claims inferred.*
 
 ---
 
@@ -55,6 +77,8 @@ Olah named three questions that broaden AI safety beyond technical alignment: du
 ## Related
 
 - [[Anthropic]] -- safety-first model lab and main live case
+- [[Redwood Research]] -- nonprofit AI safety and control research organization
+- [[AI R&D automation]] -- safety pressure point as AI systems enter the research loop
 - [[Chris Olah]] -- interpretability lead and May 2026 public-governance messenger
 - [[Mechanistic interpretability]] -- internal-observability branch of safety
 - [[AI regulation]] -- legal governance layer
@@ -63,6 +87,7 @@ Olah named three questions that broaden AI safety beyond technical alignment: du
 - [[Pentagon AI access dispute 2026]] -- conflict between safety restrictions and national-security demand
 - [[Superintelligence]] -- capability endpoint that makes safety central
 - [[Artificial intelligence]] -- parent technology theme
+- [[Noah Smith]] -- operational alignment / verification-labor frame
 
 ---
 

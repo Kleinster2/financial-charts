@@ -217,6 +217,18 @@ SNOW closed +8.8% to $152.10 from $139.74 with no own catalyst — a sympathy mo
 
 ---
 
+## Q1 FY2027 earnings and AWS commitment (May 27-28, 2026)
+
+The May 27 print turned the May 7 sympathy bid into an own-fundamentals inflection. Q1 FY2027 revenue was $1.391B (+33% YoY), product revenue was $1.334B (+34%), net revenue retention was 126%, $1M+ customers reached 779, and RPO was $9.21B (+38%). Management raised FY2027 product-revenue guidance to $5.84B (+31%) from $5.66B (+27%) and lifted non-GAAP operating-margin guidance to 13.5% from 12.5%.
+
+The same news cycle added a strategic layer: Snowflake committed $6B of Graviton compute and AI spend to [[Amazon]] Web Services over five years, its largest AWS infrastructure commitment to date. AWS said Snowflake had surpassed $7B of lifetime AWS Marketplace sales, and Snowflake framed the deal as moving AI from experiments into governed agentic workflows on enterprise data. Snowflake also signed a definitive agreement to acquire [[Natoma]], an enterprise Model Context Protocol platform for AI agents.
+
+Market read: SNOW closed +36.5% on May 28, which the stale local quick-mover database could not capture directly; using the local 60-day idiosyncratic volatility profile through May 27, the move screens around a +9 sigma beta-adjusted event. This is no longer just "warehouse growth with an AI wrapper"; it is a rerating of Snowflake as an enterprise AI control-plane candidate, though the [[Databricks]] AI-revenue gap remains the key comparative risk.
+
+*Sources: [Snowflake Q1 FY2027 results via SEC exhibit](https://www.sec.gov/Archives/edgar/data/1640147/000164014726000027/fy2027q1earnings.htm); [Amazon/Snowflake AWS collaboration release](https://press.aboutamazon.com/2026/5/snowflake-expands-aws-collaboration-with-6b-commitment-to-accelerate-enterprise-agentic-ai-adoption); [StockAnalysis May 28 movers](https://stockanalysis.com/markets/gainers/).*
+
+---
+
 ## Related
 
 - [[Databricks]] — competitor (lakehouse vs warehouse, 14x AI revenue gap)

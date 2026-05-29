@@ -71,6 +71,18 @@ Published 10 days before the Apr 8 ceasefire announcement from the [[2026 Strait
 
 ---
 
+## May 27 refill-season repricing
+
+The May 27 [[The Merchant's News]] public post makes [[TTF]] the clearest price signal for Europe's new gas dependency. The issue is not simply high spot gas. It is that storage is low, [[LNG]] supply is politically concentrated, and the curve is backwardated: summer gas is dearer than winter delivery, so the normal carry trade that fills storage works against the refill target.
+
+The public source says Europe entered refill season around 35% storage, with [[Netherlands]] storage at 5.8%, [[Germany]] around 20%, and [[France]] around 27% after winter. Reuters' May 21 [[Equinor]] report is directionally consistent: Europe was just above 35% full, below a roughly 50% seasonal norm, and a 1-3 month extension of [[Strait of Hormuz]] disruption could make the storage path critical. [[ICIS]] scenario work, reported by Riviera Maritime, put a three-month Hormuz closure case above €90/MWh for front-month TTF.
+
+The important correction: €90/MWh is demand-destruction territory, not a new all-time high. The 2022 crisis peak in this note is €345/MWh. The risk is that €90 would arrive during refill season, with industrial demand, gas-to-power burn, and storage mandates all fighting over the same marginal cargoes.
+
+*Sources: [The Merchant's News, May 27 2026](https://themerchantsnews.substack.com/p/europes-gas-crisis-just-repriced); Reuters/[[Equinor]] report by Francesca Landini, May 21 2026; Riviera Maritime summary of [[ICIS]] modeling, March 3 2026.*
+
+---
+
 ## Related
 
 - [[Natural gas]] — parent commodity

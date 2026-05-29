@@ -33,6 +33,16 @@ Presidency defined for investing-vault purposes by: the [[Inflation Reduction Ac
 
 ---
 
+## Industrial-policy implementation debate
+
+The May 2026 Volts interview with Betony Jones adds a more precise frame to Biden's clean-energy legacy. The standard "everything bagel" critique says the administration attached too many progressive conditions to climate spending - labor standards, community benefits, local hiring, domestic-content rules - and thereby slowed deployment. Jones's counter, backed by the Roosevelt Institute's April 2026 report with Joe Peck, is that funding recipients mainly cited permitting, supply-chain constraints, learning curves, and government contracting timelines as the real friction points. DOE tied 74% of major IIJA/IRA clean-energy project funding, or $91B across 110 major projects, to formal labor/community agreements, while clean-energy manufacturing investment rose from less than $5B in 2019 to nearly $60B in 2023.
+
+The legacy read-through is narrower than either side's slogan. Biden's [[Inflation Reduction Act]] strategy did fuse climate policy with labor, local coalition, and domestic-production politics; that was the coalition that got the bill passed. The open question is whether the federal government had enough administrative capacity and policy continuity to convert that design into visible household and industrial outcomes before the 2024 political reversal. For investing purposes, this is the bridge between Biden's policy design and [[One Big Beautiful Bill Act]] rollback risk: clean-energy credits matter, but permitting, contracting, sponsor capability, and state-capacity bottlenecks determine which projects actually become steel in the ground.
+
+*Sources: [Volts](https://www.volts.wtf/p/a-limited-defense-of-bidens-everything), May 27 2026; [Roosevelt Institute, "The Receipts"](https://rooseveltinstitute.org/publications/the-receipts-the-untold-and-underappreciated-outcomes-of-bidens-clean-energy-strategy/), Apr 16 2026.*
+
+---
+
 ## Related
 
 - [[Donald Trump]] — 2020 opponent and 2024 successor

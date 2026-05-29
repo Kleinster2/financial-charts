@@ -564,6 +564,12 @@ The structural read: AWS is the only Big 4 hyperscaler simultaneously (a) reacce
 
 At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Amazon]] was part of a combined $68B commitment with [[Google]] and [[Microsoft]] for AI and cloud infrastructure in [[India]] through 2030.
 
+[[Asia Tech Lens]] cites Amazon's $35B India investment plan as part of the demand stack behind Indian data-center growth. The read-through is the same as for the US AI capex cycle: AWS growth requires not only chips and buildings, but power procurement, grid access, cooling, and local execution. In India, those constraints push the economics toward microgrids, PPAs, storage, and co-location with generation.
+
+For [[Amazon]], India is a growth market, but it also reinforces the power-bottleneck problem already visible in AWS capex. Capacity announcements only become revenue when they become powered, connected capacity.
+
+*Sources: [[Asia Tech Lens]], May 28 2026.*
+
 ---
 
 ## Related

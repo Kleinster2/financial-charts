@@ -206,6 +206,12 @@ China's battery/materials dominance:
 
 BYD Atto 2 pricing: €22,990 in Europe — competitive against European alternatives despite shipping costs and potential tariffs. This price point targets mass market European buyers, not just early adopters.
 
+### May 2026: municipal procurement becomes a security lens
+
+[[Critical Supply]]'s May 27, 2026 EU-China piece used BYD's European bus procurement exposure as a warning that the Chinese EV question is not only passenger-car price competition. Public bus systems can carry route, traffic, passenger-flow, and municipal operating data. The source flagged a Spanish public-bus award to BYD as the type of contract that should be examined through procurement-security and data-governance rules, not only through price and emissions criteria.
+
+For BYD, the read-through is mixed. European municipal procurement opens a fleet channel adjacent to passenger EVs, batteries, and charging infrastructure. But it also pulls BYD into the same security vocabulary already applied to Chinese telecom, ports, and grid infrastructure. The bear case shifts from "tariff risk" to "infrastructure trust risk."
+
 ### US energy shock catalyst
 
 Rising US gasoline prices (WTI heading toward $100+ in March 2026 Iran conflict) strengthen the EV value proposition globally. Higher fossil fuel costs make BYD's EVs relatively more attractive to cost-conscious buyers worldwide.

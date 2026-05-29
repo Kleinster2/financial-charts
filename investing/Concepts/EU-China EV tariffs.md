@@ -106,6 +106,18 @@
 
 ---
 
+## May 2026: price floors do not solve the scale gap
+
+[[Critical Supply]]'s May 27, 2026 EU-China piece used two simple EV charts to make the strategic point behind the tariff debate. In 2024, China produced roughly 16.0 million EVs versus 3.2 million in the [[EU]] and 1.2 million in the US. Average EV retail prices were about $25,000 in China, $49,700 in the EU, and $57,245 in the US.
+
+That gap matters for the minimum-price mechanism. Price floors can prevent visible dumping and preserve European market access for Chinese OEMs, but they do not close the manufacturing-scale, battery-supply-chain, and cost-structure gap. They may even convert part of the original tariff burden into Chinese OEM margin if the price floor lands above the importer's true breakeven.
+
+The policy file is therefore widening. EV tariffs are now part of a broader economic-security debate that includes procurement, strategic infrastructure ownership, port exposure, data access from public transport systems, and anti-circumvention rules for unfinished products routed through third countries.
+
+See [[EU-China trade]] for the chart captions and broader May 2026 Commission context.
+
+---
+
 ## Contrast with US approach
 
 | Policy | [[EU]] | US |

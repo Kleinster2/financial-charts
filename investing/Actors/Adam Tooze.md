@@ -77,6 +77,21 @@ Recent coverage (2025-2026):
 - [[Venezuela]] sanctions and petroleum industry
 - Comparison of US business elite to Weimar-era German industrialists
 
+### Chartbook 450: Modern growth surges - China as unique development shock (May 28, 2026)
+
+Tooze's Chartbook 450 is a long-arc China-growth piece, but the market implication is direct: [[China]] was not simply another emerging-market catch-up story. It was a one-off industrial demand shock whose aftermath now shapes the [[China economic transition]] problem.
+
+| Lens | Investing read-through |
+|------|------------------------|
+| Population-weighted growth | Citing Branko Milanovic, Tooze frames China 1978-2022 as 8.1% annual per-capita growth across an average population of roughly 1.23B - about 20x postwar Japan's boom and more than 290x the US 1865-1914 takeoff on that measure. |
+| GDP increment | Maddison/OWID data imply China added about $25.3T in 2011 international-dollar GDP from 1978-2022, versus Japan's +$3.5T from 1953-1991 and the US +$738B from 1865-1914. |
+| Global-demand share | Tooze puts China at roughly one-quarter of world GDP growth from 1980 to the early 2020s. That helps explain why the property/infrastructure downshift is a commodity, manufacturing, and capital-flow event rather than a local cycle. |
+| Energy base | The coal chart is the material reminder: the 2000s China buildout was a fossil-energy and construction surge on a scale far beyond prior industrializations. |
+
+For the vault, this anchors the transition from "China as growth engine" to "China as post-surge rebalancing problem." The current weakness in property, cement, steel, local-government finance, and household demand is not normal mid-cycle cooling; it is the unwind phase after the largest industrial buildout in recorded economic history.
+
+Source: [Chartbook 450](https://adamtooze.substack.com/p/chartbook-450-modern-growth-surges), May 28 2026; Branko Milanovic, *The Great Global Transformation*; Bolt and van Zanden / Maddison Project Database 2023 via OWID.
+
 ### Chartbook 442: Global imbalances — "a new cocktail in old bottles" (Apr 22, 2026)
 
 Tooze's framing for the [[IMF]]/[[World Bank]] spring meetings argues the 2026 imbalances debate is "old wine in new bottles" — the macro-accounting language is familiar, but four radical forces are doing the work underneath:

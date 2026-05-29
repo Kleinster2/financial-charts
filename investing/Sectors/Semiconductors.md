@@ -179,6 +179,30 @@ That strengthens the parent-sector read that semiconductors should be mapped thr
 
 *Sources: [Reuters via Investing.com — ASML CEO sees tight supply](https://www.investing.com/news/stock-market-news/exclusiveasml-ceo-sees-tight-supply-in-booming-chip-market-as-ai-demand-soars-4701446), May 20 2026; [Financial Times — Big Tech software era is over, says top investor James Anderson](https://www.ft.com/content/9d2bd5b3-80c6-49b9-a04b-edc4162c9320), May 21 2026; [Reuters via Investing.com — SpaceX files plan for $55 billion Terafab chip facility in Texas](https://www.investing.com/news/economy-news/spacex-plans-55-billion-chip-plant-in-texas-4662329), May 6 2026.*
 
+### May 28 2026: best year since 1999, rally broadens past a lagging Nvidia
+
+The FT marked the [[PHLX Semiconductor]] index up roughly 75% year-to-date — its best start to a year since the 1999 dotcom peak — and up more than $5tn in market value over the prior two months, about 1.5x the entire FTSE 100. The vault's tradeable proxy confirms the magnitude: [[SOXX]] closed +79.9% YTD at the May 27 2026 session (the close before the article), with [[Lam Research]] +72.5% and [[KLA]] +53.8% YTD.
+
+The defining feature of the 2026 leg is that [[NVIDIA]] is the laggard, not the leader. Verified YTD moves through the May 27 close (vault `prices_long`):
+
+| Ticker | Actor | YTD 2026 | Driver per FT |
+|--------|-------|---------:|---------------|
+| INTC | [[Intel]] | +209.2% | CPU-demand outlook; shares above their dotcom-era all-time high; US 10% stake plus [[NVIDIA]] / [[SoftBank]] investments |
+| MU | [[Micron]] | +194.5% | Memory supercycle; crossed $1tn market value this week |
+| ARM | [[Arm Holdings]] | +163.8% | Strategic pivot to selling its own chips; forecasts a fivefold revenue rise over five years |
+| AMD | [[AMD]] | +121.7% | Chip-supply deals with [[Meta]] and [[OpenAI]] |
+| NVDA | [[NVIDIA]] | +12.6% | Still the largest public company (~$5.1tn cap), but its competitors massively outpaced it this year |
+
+Nvidia's relative lag while Intel, AMD, and Arm multiplied is the cleanest market expression yet of the broadening already logged in the Apr 24 and May 8 sections: the AI cycle is no longer priced as a single GPU trade. The FT attributes the diversification partly to anticipation that the AI infrastructure market is shifting toward CPUs alongside GPUs — the same systems-scarcity refinement tracked in [[AI capex arms race]].
+
+The memory leg hardened: [[Micron]] and [[SK Hynix]] crossed $1tn in market value on successive days, joining the trillion-dollar club; [[UBS]] said Micron could more than double over the next 12 months even after an ~860% gain in the prior year (vault confirms MU +864.8% over the trailing year through May 27). See [[Memory shortage 2025-2026]] and [[US Memory]] / [[Korea Memory]].
+
+Demand sits against the hyperscaler-capex backdrop the vault already sizes: [[Meta]], [[Alphabet]], [[Amazon]], and [[Microsoft]] have earmarked about $725bn for AI data centres and equipment in 2026 (see [[AI capex arms race]] refinement VI). [[Bank of America]] reiterated high conviction in continued AI infrastructure strength, citing under-appreciated sovereign, enterprise, and industrial demand.
+
+The supercycle-versus-bubble question is now explicit at the top of the market, and the May 28 piece adds three attributed voices to the running debate. [[Jamie Dimon]] told a conference there was "a lot of exuberance," likening the mood to the run-ups before the 1972, 1986, 2000, and 2007 downturns and saying that did not give him comfort. Charles Lemonides of ValueWorks read the same tape constructively, calling hyperscaler demand "locked and loaded" with the chip and memory groups minting money. Nelson Yu of AllianceBernstein held both: real demand creation is underway, but he warned that — as with any commodity — rising prices eventually beget demand destruction, and that Big Tech's spending plans would likely be scaled back in a recession. This extends the caution [[Jonathan Krinsky]] voiced on May 8 (25-30% SOX correction risk, the markup "resembling 1999").
+
+*Source: [Financial Times — Chip stocks race towards biggest gains since dotcom era on AI demand](https://www.ft.com/content/48cdf575-5509-4b50-a54d-1b767e41be47) (George Steer & Michael Acton, May 28 2026); price moves verified against vault `prices_long` at the May 27 2026 close, one session before the article.*
+
 ---
 
 ## Theses anchored to this hub

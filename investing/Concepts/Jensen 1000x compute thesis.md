@@ -58,6 +58,16 @@ The 1,000x figure is clearly aspirational and telescopic — it's not a 2027 for
 
 ---
 
+## May 2026 profitability reframing
+
+NVIDIA's Q1 FY2027 call sharpened the thesis from "AI needs more compute" to "compute capacity is operating leverage." In Jensen's closing remarks, he tied the parabolic demand claim directly to [[Agentic AI]] and token profitability: once tokens are profitable, model makers race to produce more of them, and the AI factory becomes a revenue engine rather than only a capex sink.
+
+The public preview of The Transcript's May 27 Catalyst Watch picked up the same point, framing AI capex as potentially moving toward $3-$4T per year by the end of the decade. The post itself is paid, so only the public preview was processed. The useful durable signal is not the exact upper bound; it is the shift in language from GPU scarcity to factory economics: tokens per watt, tokens per dollar, uptime, utilization, networking, and full-stack optimization.
+
+*Sources: NVIDIA Q1 FY2027 earnings call transcript, May 20 2026; The Transcript, "Catalyst Watch," public preview, May 27 2026.*
+
+---
+
 ## Who agrees
 
 | Voice | Take |

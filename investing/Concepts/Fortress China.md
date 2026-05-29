@@ -76,6 +76,7 @@ Structural response (Apr 7): Xi's CCTV speech reframes renewables + nuclear + co
 - [[China economic transition]] — internal consumption pivot
 - [[Nitrogen Trap]] — pre-Fortress vulnerability analysis for fertiliser chokepoints
 - [[Economic latency]] — calibrated non-authoritarian counterpart for market-economy states ([[Guy Ward-Jackson]] / [[Tony Blair Institute]], May 2026); Fortress China is the maximalist state-directed variant of the same defensive logic
+- [[People's Liberation Army]] total-war thinking — military-doctrine counterpart: food, energy, industrial, finance, information, and space resilience are not just macro buffers; they are civilian systems that can be mobilized into wartime effects
 
 ## Quick stats
 

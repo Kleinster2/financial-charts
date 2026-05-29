@@ -39,6 +39,14 @@ This circular structure compresses the boundary between LP, strategic, and custo
 
 The Pentagon motor contract win (3,500 units initial with 20,000 expected) preceded and supported the bull case for further Trump-family drone-sector investments. Combined with the [[FCC]] foreign-drone ban in late 2025 (which removed [[DJI]] from federal procurement) and Pentagon Secretary [[Pete Hegseth]]'s reclassification of small drones as "consumable" supplies, the policy stack created a procurement environment that has favored U.S. drone components players including Unusual Machines.
 
+## May 2026 funding-rumor rerating
+
+UMAC closed +57.2% on May 28, 2026 after reports that the Trump administration and Pentagon were discussing direct financial support for U.S. drone companies. Secondary reports said Unusual Machines was one of the companies named as a possible funding-deal target, while also emphasizing that no funding deal had been confirmed. The move therefore belongs in the [[Drone Dominance]] / domestic-drone industrial-policy bucket rather than as a booked contract.
+
+The same week, [[Powerus]] announced it had been selected to compete in the qualifier for Phase II of the Pentagon's $1B Drone Dominance Program with its MatrixFold attack drone. Powerus also disclosed an order of more than $5M from Unusual Machines for U.S.-made counter-drone components. That keeps UMAC in two positions at once: a speculative public-market beneficiary of government drone funding and an actual component supplier into the Powerus/MatrixFold program path.
+
+*Sources: [StockAnalysis May 28 movers](https://stockanalysis.com/markets/gainers/); [Daily Beast on WSJ-reported UMAC funding talks](https://www.thedailybeast.com/don-trump-jr-makes-instant-millions-from-pentagon-pete-hegseth-drone-revelation/); [Benzinga on UMAC / Powerus catalyst](https://www.benzinga.com/trading-ideas/movers/26/05/52838936/trump-jr-s-drone-stock-just-got-a-pentagon-catalyst); [Powerus Phase II release](https://www.globenewswire.com/news-release/2026/05/27/3301946/0/en/Powerus-Selected-to-Compete-in-Phase-II-of-Pentagon-s-1-Billion-Drone-Dominance-Program.html).*
+
 ## Related
 
 - [[Donald Trump Jr.]] — shareholder / advisory board

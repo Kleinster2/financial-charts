@@ -110,6 +110,28 @@ Pax Silica is broader than any of these — it tries to connect the **entire sup
 
 ---
 
+## Commercial space supplier qualification risk (May 2026)
+
+The May 28, 2026 [[Journal of Space Commerce]] / Ex Terra Media piece reframes Pax Silica as a near-term supplier-screening mechanism for commercial [[Space]] hardware, not just a high-level technology bloc. The free excerpt argues that suppliers with China-anchored sourcing are already accumulating qualification exposure before the end-2026 procurement cycle, especially where US or allied primes need to show a trusted-vendor posture.
+
+The exposed input categories map directly onto satellite and launch-vehicle production:
+
+| Space-hardware input | Why it matters |
+|---|---|
+| RF systems | Communications payloads and satellite links |
+| Printed circuit board assemblies | Electronics integration across satellite buses and payloads |
+| Power electronics | Spacecraft power management and conversion |
+| Electro-optical sensors | Earth observation, ISR, navigation, and inspection payloads |
+| Carbon-fiber composites | Launch vehicles, spacecraft structures, lightweight components |
+| Precision-machined aluminum structures | Bus, payload, and launch-vehicle structures |
+| Rare-earth permanent magnets | Actuators, reaction wheels, pointing systems |
+
+Named procurement networks in the excerpt include [[Terran Orbital]], [[L3Harris]], [[Axiom Space]], [[Safran]], and [[Sierra Space]]. The investment read-through is that Pax Silica can become a de facto qualification layer: a sub-tier supplier that cannot document a [[China plus one]] posture or an [[ASEAN]] diversification plan may face downlisting risk for US-aligned contracts even without a formal export-control action.
+
+*Source: [[Journal of Space Commerce]] / Ex Terra Media, "Pax Silica Is Sorting Your Suppliers," May 28 2026. Only the free excerpt was available; the paid signals/actions section was not ingested.*
+
+---
+
 ## Criticism / limitations
 
 - **Non-binding** — no enforcement mechanism; depends on voluntary alignment
@@ -131,5 +153,7 @@ Pax Silica is broader than any of these — it tries to connect the **entire sup
 - [[Samsung]] — South Korea founding member
 - [[SK Hynix]] — South Korea founding member
 - [[Nvidia]] — US chip company; export controls context
+- [[Terran Orbital]] — commercial space supplier network named in May 2026 supplier-screening read
+- [[Space]] — commercial hardware supply-chain exposure
 - [[US-China decoupling]] — strategic backdrop
 - [[Delhi Declaration 2026]] — announced same day at same summit

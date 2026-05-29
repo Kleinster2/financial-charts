@@ -517,6 +517,25 @@ The tension is the burn line. FT reports OpenAI has told investors it expects to
 
 ---
 
+## May 26, 2026 — Aurelion valuation critique
+
+[[Aurelion Research]]'s May 26 mega-IPO note is most skeptical on OpenAI because the $852B post-money private mark already capitalizes a very large 2029/2030 revenue outcome while the company still needs outside capital to finance the compute runway. Aurelion's critique is not that OpenAI lacks demand. It is that demand is being converted into an enormous public-market funding ask before investors can see durable margins on owned infrastructure.
+
+![[aurelion-openai-revenue-path-2026.png]]
+*Aurelion revenue-path chart for OpenAI. The key source-attributed point is that OpenAI already has massive revenue scale, but the valuation asks buyers to underwrite several more years of growth and infrastructure spend.*
+
+![[aurelion-openai-internal-forecast-2026.png]]
+*Aurelion reproduction of an OpenAI forecast path. Treat this as Aurelion's presentation of source/forecast data, not a new company filing.*
+
+![[aurelion-openai-valuation-model-2026.png]]
+*Aurelion downside model: if OpenAI ends 2026 around a $20B revenue run rate and trades at 20x revenue, Aurelion's toy valuation lands near $400B. This is an opinionated stress case, not a verified market price.*
+
+The clean read-through is that OpenAI has the broadest distribution and the most visible consumer franchise, but the public-market ask is also the most explicitly financial. Aurelion frames the IPO as a mechanism for funding the [[Project Stargate]] / compute strategy rather than just a liquidity event. That fits the FT burn math: a company can have extraordinary revenue scale and still be structurally dependent on capital markets if the next model cycle requires infrastructure commitments ahead of cash payback.
+
+*Sources: [[Aurelion Research]], "Special Article: SpaceX, OpenAI, and Anthropic IPOs," May 26 2026: https://read.aurelionresearch.com/p/special-article-spacex-openai-and; OpenAI official financing release, Mar. 31 2026: https://openai.com/index/accelerating-the-next-phase-ai/.*
+
+---
+
 ## May 12, 2026 — Secondary-market void declaration (parallel to [[Anthropic]])
 
 OpenAI issued a stock-transfer-policy update on May 12, declaring all transfers without written board consent void under Delaware bylaw transfer restrictions. The language was identical to [[Anthropic]]'s May 11 notice (same "void" terminology, same target categories — SPVs, tokenized interests, forward contracts). Source reporting did not enumerate OpenAI's specific named platforms but noted "both companies named the same list of targets" (Yahoo / Bloomberg).

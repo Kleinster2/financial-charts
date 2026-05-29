@@ -51,6 +51,16 @@ The capex was originally scheduled for full-capacity delivery by 2030; the 2027 
 
 ---
 
+## Hormuz war-risk surcharge pricing (May 2026)
+
+[[Felipe Germini]]'s May 27 ENERGY Pipeline public section says ADNOC's marketing arm loaded voyages with explicit war-risk surcharges in FOB pricing during the late-May [[Strait of Hormuz]] reopening debate. The important signal is not a single surcharge amount; it is that ADNOC is pricing the insurance shock into cargo terms rather than waiting for the headline "reopening" to erase it.
+
+For ADNOC, this sits alongside the existing [[Fujairah]] / ADCOP bypass logic. The UAE has more non-Hormuz optionality than Qatar or Kuwait, but if London war-risk quotes and P&I sanctions rules remain binding, even UAE cargoes carry a paper-market surcharge until commercial [[Insurance|insurance]] normalizes.
+
+*Source: [Felipe Germini / ENERGY Pipeline, "The Insurance Geometry That Replaced the Strait"](https://fgermini.substack.com/p/the-insurance-geometry-that-replaced), May 27 2026. Public section only.*
+
+---
+
 ## Investment case
 
 **Partially investable** via:

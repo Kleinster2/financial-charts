@@ -39,6 +39,14 @@ The strategy's dynamics accelerated in 2025 as [[US-China trade]] decoupled. [[C
 
 ---
 
+## Trusted-vendor procurement layer (May 2026)
+
+[[Pax Silica]] pushes China plus one from a cost-and-resilience strategy into a procurement-qualification signal. In the commercial [[Space]] hardware context, the May 28, 2026 Journal of Space Commerce / Ex Terra Media excerpt argues that suppliers to US-aligned primes may need to document either a China plus one sourcing posture or a formal [[ASEAN]] diversification plan to avoid being downlisted from new program awards.
+
+That is a different mechanism from tariffs. It treats supplier geography as part of eligibility for US and allied technology contracts, especially for RF systems, PCB assemblies, power electronics, electro-optical sensors, composites, precision-machined structures, and rare-earth magnets. For investors, the question becomes whether diversification is visible enough for procurement teams to underwrite, not only whether final assembly has moved outside [[China]].
+
+---
+
 ## Related
 
 - [[India]] — largest structural beneficiary
@@ -49,3 +57,5 @@ The strategy's dynamics accelerated in 2025 as [[US-China trade]] decoupled. [[C
 - [[Taiwan]] — geopolitical catalyst (invasion risk accelerates diversification)
 - [[Apple]] — poster child for supply chain diversification (India assembly)
 - [[Tariffs]] — policy driver
+- [[Pax Silica]] — trusted-vendor framework turning diversification into a supplier-qualification issue
+- [[Space]] — commercial hardware supply chains now exposed to China plus one screening

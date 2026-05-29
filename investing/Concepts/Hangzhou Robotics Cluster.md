@@ -78,6 +78,12 @@ Hangzhou's robotics cluster didn't emerge organically. It was deliberately culti
 
 Key insight: Hangzhou is not the largest robotics city by output value — Shenzhen and Shanghai are bigger. But Hangzhou punches above its weight in *innovation and startup density*, particularly in quadruped/humanoid robotics and AI. It's the best city for a *robotics startup*; not necessarily the best for a *robotics manufacturer*.
 
+### Pre-Hangzhou lineage: Shenyang / CAS / Siasun
+
+The Hangzhou story should not be mistaken for the origin story of Chinese robotics. [[Irene Zhang]]'s May 27 2026 ChinaTalk piece on Jiang Xinsong shows an older Shenyang / CAS lineage: Shanghai Jiao Tong's early 1970s Xianfeng 1, [[Shenyang Institute of Automation]]'s 1980 industrial robot prototype, the 1982 SZJ-1 teach-and-playback manipulator, 863 Program intelligent-robot research, SIA's undersea/mobile/welding robot programs, and the late-1990s / 2000 Siasun commercialization path.
+
+That older lineage matters because Hangzhou is the current startup frontier, not the whole national capability base. Unitree and Deep Robotics benefit from ZJU, YRD supply chains, and Zhejiang policy speed, but the industrial-robotics stack they now commercialize has decades of Chinese state-lab and factory-automation precedent behind it. In portfolio terms, Hangzhou is the high-beta expression of a broader Chinese robotics system.
+
 ---
 
 ## The Yangtze River Delta supply chain

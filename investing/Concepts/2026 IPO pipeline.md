@@ -51,7 +51,7 @@ Source: Renaissance Capital 2025 US IPO market review and the live 2026 pipeline
 |---------|--------|----------------|--------|
 | **[[SpaceX]]** | [[Space]] / [[Starlink]] / AI infrastructure | >$2T reported target | Public S-1 filed May 20; `SPCX` on [[Nasdaq]]; final price/share count still blank |
 | [[Databricks]] | Data/AI | $134B | Early 2026 target |
-| [[Anthropic]] | AI | $60B+ | Wilson Sonsini engaged; May 14 2026: $30B Series H terms agreed at $900B ([[Dragoneer]], [[Greenoaks]], [[Sequoia]], [[Altimeter]] co-leads) — leapfrogs [[OpenAI]]'s $852B; ARR crossing $45B imminently |
+| [[Anthropic]] | AI | $965B post-money Series H (May 28 2026 official) | Wilson Sonsini engaged; May 14 $30B / $900B report was superseded by the May 28 $65B Series H close led by [[Altimeter Capital]], [[Dragoneer]], [[Greenoaks]], and [[Sequoia Capital]]; run-rate revenue crossed $47B earlier in May |
 | [[OpenAI]] | AI | $852B recent private mark | Accelerated IPO-timetable leaks after the $122B 2026 round; FT May 23 says the company booked almost $6B revenue last quarter but still expects roughly $600B of burn before 2030 profitability |
 | [[Revolut]] | [[Fintech]] | $75B | [[UK]] neobank |
 | [[Jio Platforms]] | [[Telecom]] | $100B+ | [[India]] mega IPO |
@@ -70,7 +70,7 @@ The May 21 FT bank-mandate update adds a process variable to the absorption test
 |---|---|---|
 | [[SpaceX]] | Aiming to raise about $75B; FT article still used a $1.75T valuation target, while other reporting already pushed the target above $2T | First and largest supply event; tests whether public investors underwrite a hybrid launch / [[Starlink]] / [[xAI]] / AI-infrastructure platform |
 | [[OpenAI]] | Recently valued at $852B; $122B 2026 round; almost $6B revenue last quarter; about $600B expected burn before 2030 profitability | Direct lab exposure, but with the highest runway dependency and public-market tolerance test |
-| [[Anthropic]] | Close to $30B Series H at $900B; first quarterly profit reported; new $15B/year SpaceX compute commitment | Cleaner enterprise narrative, but profitability may be transient as capacity obligations step up |
+| [[Anthropic]] | May 28 official $65B Series H at $965B post-money; first quarterly profit reported in the FT frame; new $15B/year SpaceX compute commitment | Cleaner enterprise narrative, but valuation convergence with [[OpenAI]] reduces the public buyer's margin of safety |
 
 *Source: [[Financial Times|FT]] article, May 23 2026: https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12.*
 
@@ -104,6 +104,26 @@ The broader read-through is that the 2026 pipeline is not only reopening the pub
 *Source: [[Reuters]] / MarketScreener republication, May 26 2026: https://www.marketscreener.com/news/spacex-set-for-fast-entry-into-us-global-indexes-under-new-ftse-rules-ce7f5ad2dd8dfe27.*
 
 ---
+
+## May 26 Aurelion mega-IPO narrative cycle
+
+[[Aurelion Research]]'s May 26 note is useful because it treats the SpaceX / OpenAI / Anthropic sequence as one market structure. The article's core point is that the listings themselves can create a narrative cycle: public roadshows, direct access to AI-lab equity, index eligibility, and media attention can lift thematic multiples before the accounting catches up. That is different from saying the valuations are cheap.
+
+![[aurelion-ai-ipo-valuation-trajectory-2026.png]]
+*Aurelion valuation trajectory chart for SpaceX, OpenAI, and Anthropic. The Anthropic estimate was overtaken two days later by the official $65B Series H at $965B post-money.*
+
+![[roundhill-sp500-tech-return-breakdown-1996-2025.png]]
+*Roundhill decomposition reproduced in the Aurelion article: 1996-1999 tech returns were mostly multiple expansion, while 2021-2025 tech returns were more earnings-growth driven. The 2026 IPO question is whether new AI listings restart a multiple-expansion phase.*
+
+| Issuer | Aurelion frame | Pipeline read |
+|---|---|---|
+| [[SpaceX]] | Aurelion uses a $1.75T target and argues the non-orbital-data-center business supports at most about $700B | The first deal tests whether public investors will capitalize speculative orbital compute, not just current Starlink economics |
+| [[OpenAI]] | $852B private mark, $25B run-rate revenue, and a loss-heavy forecast path | The hardest ask because the IPO is also a runway-extension mechanism for compute commitments |
+| [[Anthropic]] | Aurelion's pre-close $900B+ estimate was followed by the official $965B Series H close on May 28 | Better revenue and enterprise mix, but the private round already prices much of that relative advantage |
+
+The resulting pipeline view is sharper: SpaceX sets the supply tone, OpenAI tests public tolerance for AI-lab burn, and Anthropic tests whether a more efficient lab can still be attractive once the private market has already re-rated it to near-trillion-dollar status. If the first deal trades well, the entire sequence can pull capital out of semi proxies and into direct AI / space issuers. If it trades poorly, the same sequence becomes a public-market referendum on private AI marks.
+
+*Sources: [[Aurelion Research]], "Special Article: SpaceX, OpenAI, and Anthropic IPOs," May 26 2026: https://read.aurelionresearch.com/p/special-article-spacex-openai-and; Anthropic official Series H release, May 28 2026: https://www.anthropic.com/news/series-h.*
 
 ## AI / Tech
 

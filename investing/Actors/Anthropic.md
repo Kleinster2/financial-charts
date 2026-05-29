@@ -16,8 +16,8 @@ Anthropic - AI lab, maker of Claude. More capital-efficient than [[OpenAI]].
 | Structure | Public Benefit Corporation |
 | CEO | [[Dario Amodei]] |
 | Flagship product | [[Claude]] |
-| Revenue run rate | $30B+ (Apr 2026) |
-| Valuation | $380B post-money Series G (Feb 2026); Apr 2026 Google tranche reported at $350B pre-money; May 2026 Series H terms agreed at $900B |
+| Revenue run rate | $47B+ (May 2026 official Series H disclosure); $30B+ (Apr 2026) |
+| Valuation | $965B post-money Series H (May 2026); $380B post-money Series G (Feb 2026); Apr 2026 Google tranche reported at $350B pre-money |
 | Major hyperscaler investors | [[Amazon]], [[Google]], [[Microsoft]], [[NVIDIA]] |
 | Primary cloud partner | [[AWS]] / [[Amazon]] |
 | Major compute suppliers | [[AWS]] [[Trainium]], [[Google Cloud]] [[TPU]], [[NVIDIA]] GPUs |
@@ -48,31 +48,37 @@ The arc: seven OpenAI defectors → Constitutional AI → [[FTX]]-funded safety 
 
 ---
 
-## Financial position (Apr 2026)
+## Financial position (Apr-May 2026)
 
 | Metric | Value |
 |--------|-------|
-| Revenue | ~$30B+ annualized run rate (Apr 6 2026, disclosed by Anthropic alongside Google/Broadcom deal; confirmed by [[Bloomberg]], [[CNBC]], TechCrunch). Was $20B mid-Mar, $14B mid-Feb, $9B end-2025. 1,000+ enterprise customers at $1M+ ARR (doubled since Feb) |
+| Revenue | $47B+ annualized run rate crossed earlier in May 2026 (Anthropic official Series H release); ~$30B+ Apr 6 2026 alongside Google/Broadcom deal; $20B mid-Mar, $14B mid-Feb, $9B end-2025. 1,000+ enterprise customers at $1M+ ARR as of Apr 2026 |
 | Claude Code run rate | $2.5B (launched publicly May 2025) |
 | Revenue mix | 80% enterprise, 20% consumer |
 | Business customers | 300,000+ |
 | Large accounts ($100K+ ARR) | 7x growth in past year |
-| $1M+ ARR customers | 500 (was 12 two years ago) |
+| $1M+ ARR customers | 1,000+ (Apr 2026; 500 in Feb; roughly 12 two years earlier) |
 | Fortune 10 clients | 8 of 10 |
 | 2025 loss | $5.6B (confirmed Jan 2026) |
 | Burn rate | Dropping to 9% of revenue by 2027 |
 | Break-even target | 2028 |
-| Valuation | $380B post-money (Series G close, Feb 12 2026). [[Google]] Apr 2026 commitment reported at $350B pre-money for the initial $10B tranche; secondary/IPO talk ranges much higher but is not primary pricing. [[NEA]]'s Neimucha (Apr 7): "wouldn't be surprised if when they go public gets closer to the trillion dollar range" |
+| Valuation | $965B post-money (Series H close, May 28 2026); $380B post-money (Series G close, Feb 12 2026). [[Google]] Apr 2026 commitment reported at $350B pre-money for the initial $10B tranche; the May 28 official round effectively resolved the earlier "near trillion" private-market talk |
 
 Burning 14x less cash than OpenAI before profitability. CFO [[Krishna Rao]]: "Claude is increasingly becoming critical to how businesses work." FT (Mar 21 2026): Anthropic is adding $1B in annualized revenue each week in 2026. Business customers purchasing AI for the first time are choosing Anthropic at 3x the rate of [[OpenAI]], per [[Ramp]] AI Index data from 50,000+ customers — a reversal of the companies' positions a year ago.
 
-[[NEA]] partner Mustapa Neimucha (The Information, Apr 7): compared Anthropic's Q1 2026 growth to adding "five [[Palantir]]s in the first quarter" and "two [[Workday]]s in a quarter." At $30B ARR vs [[OpenAI]]'s latest reported $25B, Anthropic appears to have overtaken on headline run rate — though revenue recognition differences remain (see [[OpenAI]] note, Chamath on rev rec).
+[[NEA]] partner Mustapa Neimucha (The Information, Apr 7): compared Anthropic's Q1 2026 growth to adding "five [[Palantir]]s in the first quarter" and "two [[Workday]]s in a quarter." At $47B+ ARR in the May 28 official Series H release versus [[OpenAI]]'s latest reported $25B run rate, Anthropic has overtaken OpenAI on headline run rate — though revenue recognition differences remain (see [[OpenAI]] note, Chamath on rev rec).
 
 ![[ramp-anthropic-vs-openai-new-customers-mar2026.png]]
 *Share of new corporate AI clients: Anthropic ~80% vs OpenAI ~20% by Feb 2026. Source: Ramp AI Index (FT, Mar 21 2026)*
 
 ![[ramp-anthropic-market-share-mar2026.png]]
 *Market share among companies paying for AI models: Anthropic ~30%, OpenAI ~25%, Google ~10% by Jan 2026. Source: Ramp AI Index (FT, Mar 21 2026)*
+
+[[Exponential View]]'s May 27 productivity piece uses Anthropic as the cleanest evidence that tool-level demand is real even while firm-level AI ROI remains hard to prove. Anthropic's own Series G release said $1M+ Claude customers moved from roughly a dozen two years earlier to more than 500 by February 2026; the April Google/Broadcom compute announcement said that cohort exceeded 1,000 less than two months later. [[Dealroom]]'s write-up of CFO [[Krishna Rao]]'s Invest Like the Best interview also framed Anthropic's enterprise economics as unusually expansion-heavy, citing 500%+ net dollar retention.
+
+That validates the usage side of [[Enterprise AI adoption]], not the whole ROI chain. Customers are expanding Claude spend quickly, but the Exponential View puzzle is whether local productivity and token consumption turn into faster firm-level decisions, shipped features, and measurable P&L.
+
+*Sources: [Exponential View, May 27 2026](https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line); [Anthropic Series G release, Feb 12 2026](https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation); [Anthropic Google/Broadcom partnership release, Apr 6 2026](https://www.anthropic.com/news/google-broadcom-partnership-compute); [Dealroom.co, May 2026](https://app.dealroom.co/news/note/the-250m-to--30b-rocket-ship-anthropic-s-cfo-pulls-back-the-curtain).*
 
 [[NVIDIA]] CEO [[Jensen Huang]] (Mar 2026): expects his recent $40B investment across Anthropic and [[OpenAI]] to be his "last money in" — both companies will go public this year. [[Brad Gerstner]] ([[Altimeter]]): Opus 4.6 crossed a threshold where models compete with labor budgets, not IT budgets — "you could not possibly have a $6B month by displacing IT budgets."
 
@@ -94,6 +100,22 @@ The most concrete new datapoint is buyer-side concentration with [[SpaceX]]: FT 
 
 *Source: [[Financial Times|FT]] article, May 23 2026: https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12.*
 
+[[Aurelion Research]]'s May 26 2026 comparative note made the same point from the valuation side. Aurelion preferred Anthropic to [[OpenAI]] at similar near-trillion-dollar marks because Anthropic had the stronger enterprise mix, faster visible revenue trajectory, and a less extreme burn path. The May 28 official Series H then closed at $965B post-money, which confirms the private market was already pricing that relative advantage. The upside question is therefore no longer "will Anthropic catch OpenAI's mark?" but whether public investors can still earn enough after private buyers already paid for the convergence.
+
+![[aurelion-anthropic-run-rate-revenue-2026.png]]
+*Aurelion's pre-close Anthropic run-rate chart. Anthropic's official May 28 Series H release later put run-rate revenue above $47B earlier in May 2026.*
+
+![[aurelion-anthropic-internal-forecast-2026.png]]
+*Aurelion's Anthropic forecast chart. Treat this as source-attributed forecast work, not company guidance from the official Series H release.*
+
+![[aurelion-anthropic-valuation-history-2026.png]]
+*Aurelion valuation-history chart. The May 28 official $965B post-money Series H now sits above the article's $900B estimate.*
+
+![[aurelion-anthropic-multiple-parity-2026.png]]
+*Aurelion multiple-parity chart comparing Anthropic and OpenAI. The useful read is the compression of valuation/revenue gaps, not a guarantee that either company deserves the same public multiple.*
+
+*Sources: [[Aurelion Research]], "Special Article: SpaceX, OpenAI, and Anthropic IPOs," May 26 2026: https://read.aurelionresearch.com/p/special-article-spacex-openai-and; Anthropic official Series H release, May 28 2026: https://www.anthropic.com/news/series-h.*
+
 ---
 
 ## Funding rounds
@@ -112,26 +134,27 @@ The most concrete new datapoint is buyer-side concentration with [[SpaceX]]: FT 
 | Feb 2026 | Series G | $30B | $380B | [[GIC]], [[Coatue]], [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter]], [[Sequoia]] (36+ total) |
 | Apr 2026 | Strategic | $5B upfront + up to $20B future | Not disclosed | [[Amazon]]; paired with $100B+ AWS/Trainium commitment |
 | Apr 2026 | Strategic | $10B upfront + up to $30B future | $350B pre-money (reported) | [[Google]]; paired with 5 GW Google Cloud capacity over five years |
-| May 2026 | Series H (terms agreed; close imminent) | $30B | $900B | [[Dragoneer]], [[Greenoaks]], [[Sequoia Capital]], [[Altimeter Capital]] co-leads (each $2B+); Big Tech not in this round per FT |
+| May 2026 | Series H | $65B | $965B post-money | Led by [[Altimeter Capital]], [[Dragoneer]], [[Greenoaks]], and [[Sequoia Capital]]; co-led by Capital Group, Coatue, D1 Capital Partners, GIC, ICONIQ, and XN; includes $15B of previously committed hyperscaler investments |
 
-Capital raised/committed: ~$102B+ raised including the May 2026 Series H once it closes; up to ~$152B+ including future Google/Amazon milestone commitments.
+Capital raised/committed: roughly $137B+ raised including the May 2026 Series H close; up to roughly $187B+ including future Google/Amazon milestone commitments not already counted in the official Series H release.
 
-Second-largest private tech financing on record, behind [[OpenAI]]'s $40B+. Nearly doubled valuation from $183B to $380B in five months — then almost tripled again to $900B in the three months between Series G close (Feb 2026) and the agreed Series H (May 2026).
+The May 2026 Series H nearly tripled valuation from $380B to $965B in the three months after the Series G close. It also pushed Anthropic above [[OpenAI]]'s $852B post-money mark, at least on latest disclosed private-round valuation.
 
-### Series H — $30B at $900B (FT May 14, 2026)
+### Series H - from $30B/$900B report to $65B/$965B close (May 2026)
 
-Anthropic agreed terms on a $30B Series H at a $900B pre-money valuation, expected to close in May 2026. The round leapfrogs the recent [[OpenAI]] mark of $852B, making Anthropic the highest-valued private AI company. Three of the four co-leads ([[Dragoneer]], [[Sequoia Capital]], [[Altimeter Capital]]) also participated in Series G in February — the new co-lead is [[Greenoaks]]. Each lead is putting in approximately $2B or more, with the remainder of the round split among additional investors still being added.
+The initial May 14 FT report had Anthropic agreeing terms on a $30B Series H at a $900B pre-money valuation. That was a live negotiation snapshot, not the final close. On May 28, Anthropic announced a $65B Series H at a $965B post-money valuation, led by [[Altimeter Capital]], [[Dragoneer]], [[Greenoaks]], and [[Sequoia Capital]].
 
-Three of the four co-leads are also significant [[OpenAI]] backers — [[Dragoneer]] invested close to $3B in OpenAI last year, [[Sequoia Capital]] first backed OpenAI in 2021, and [[Altimeter Capital]] CEO [[Brad Gerstner]] has publicly hosted [[Sam Altman]] on his podcast. The dual-bet posture mirrors the [[Amazon]]/[[Google]] bracketing of Anthropic against OpenAI at the hyperscaler layer.
+Three of the initial FT co-leads are also significant [[OpenAI]] backers: [[Dragoneer]] invested close to $3B in OpenAI last year, [[Sequoia Capital]] first backed OpenAI in 2021, and [[Altimeter Capital]] CEO [[Brad Gerstner]] has publicly hosted [[Sam Altman]] on his podcast. The dual-bet posture mirrors the [[Amazon]]/[[Google]] bracketing of Anthropic against OpenAI at the hyperscaler layer.
 
-[[Big Tech]] is not expected to participate in this round, although Anthropic has previously taken tens of billions from [[Amazon]] and [[Google]] in strategic rounds. The pace of the deal is notable: investors approached the company in April; CFO [[Krishna Rao]] formally initiated talks in the two weeks before the agreement.
+The official close included $15B of previously committed hyperscaler investments and added strategic infrastructure partners [[Micron]], [[Samsung]], and [[SK Hynix]]. That means the final round was less cleanly separated from the compute supply chain than the May 14 report implied.
 
-Anthropic's annualised revenue is expected to cross $45B imminently (per FT) — the WSJ's May 15 follow-up sharpens this further: Anthropic is projecting a $50B revenue run-rate by the end of Q2 2026 per WSJ sources, a fivefold-plus increase from the $9B run rate at the end of 2025 and ahead of the $30B+ mark disclosed alongside the April Google/Broadcom deal. The structural read: Series H is being priced off run-rate revenue rather than forward-revenue multiples, with $900B / $50B ARR ≈ 18x trailing — high relative to public software comps but compressing from the Series G $380B / $14B (27x) mark.
+Anthropic's official release says run-rate revenue crossed $47B earlier in May. The structural read is that Series H was priced off a revenue ramp that had already moved past the $30B Apr 2026 disclosure, while the compute commitments were also expanding through [[Amazon]], [[Google]] / [[Broadcom]], [[SpaceX]], and memory suppliers.
 
-Per WSJ, the round could ultimately raise *significantly* more than $30B as additional investors are added before close. The cumulative Anthropic raise since the beginning of 2025 (per WSJ) crosses $90B — including Series F ($13B), Series G ($30B), the strategic [[Google]] (~$10B upfront + up to $30B future) and [[Amazon]] ($5B + up to $20B) tranches, the [[NVIDIA]]/[[Microsoft]] $15B strategic round (Nov 2025), and now Series H. The $122B [[OpenAI]] round earlier in 2026 remains the single largest round in Silicon Valley history; OpenAI's cumulative raise since 2024 totals $162B per WSJ.
+The May 14-to-May 28 progression is worth preserving because it shows negotiation momentum: a reported $30B / $900B round became an official $65B / $965B round less than two weeks later. The private market did not wait for the IPO to close the valuation gap with OpenAI.
 
 *Source: [Anthropic agrees terms of $30bn funding deal at $900bn valuation](https://www.ft.com/content/9deae3c6-716d-4f4d-8b09-434d8519f847), FT, May 14, 2026, by George Hammond.*
 *Cross-source: [Anthropic Raising $30 Billion More as AI Labs Absorb Majority of VC Funding](https://www.wsj.com/), WSJ, May 15 2026 11:30 AM ET, by Kate Clark.*
+*Final terms: [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h), Anthropic, May 28 2026.*
 
 ### Polymarket / NPM valuation high-water ladder (May 21, 2026)
 

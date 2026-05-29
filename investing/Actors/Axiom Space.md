@@ -63,6 +63,14 @@ Strong government relationships enable commercial expansion.
 
 ---
 
+## Pax Silica supplier-screening risk (May 2026)
+
+The May 28, 2026 [[Journal of Space Commerce]] / Ex Terra Media excerpt names [[Axiom Space]] among commercial-space procurement networks exposed to [[Pax Silica]] trusted-vendor screening. The risk sits in Axiom's supplier base for station modules, spacesuit hardware, power electronics, RF systems, electro-optical components, precision structures, and rare-earth magnet-dependent motion systems.
+
+For Axiom, the issue is not a direct China-revenue exposure; it is whether sub-tier vendors can prove a [[China plus one]] or [[ASEAN]] diversification posture before NASA and allied customers fold trusted-vendor compliance into contract qualification.
+
+---
+
 ## Investment case
 
 **Not investable** — private.
@@ -93,3 +101,4 @@ Strong government relationships enable commercial expansion.
 - [[Space data centers]] — developing orbital compute
 - [[SpaceX]] — launch provider
 - [[NASA]] — key customer
+- [[Pax Silica]] — trusted-vendor framework affecting space-hardware suppliers

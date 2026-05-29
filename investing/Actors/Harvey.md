@@ -103,6 +103,8 @@ Harvey is the most-funded pure-play legal AI company. JPMorgan (Feb 2026) assess
 
 See [[Horizontal vs vertical AI]] for the broader generalist vs specialist debate.
 
+A further vector emerged in 2026: the largest firms sourcing AI by building rather than buying. [[Kirkland & Ellis]] committed $500M (May 2026) to a proprietary owned platform, and [[Freshfields]] chose an April 2026 co-build with [[Anthropic]] for early model access. Both bypass a third-party vendor entirely — extending Weinberg's "model providers are the real competition" thesis to a build/co-build threat that concentrates Harvey's third-party TAM in the mid-market while the top revenue pools self-supply. See [[AI in legal services]] for the build-vs-buy sourcing axis.
+
 ## Customer base
 
 - Majority of top 10 US law firms
@@ -142,5 +144,8 @@ Bear:
 - [[Horizontal vs vertical AI]] — competitive framework
 - [[Agentic AI]] — thesis context
 - [[Big Law transformation]] — Harvey is a Ring 2 (private growth-stage AI-legal platform) proxy for the structural Big Law cycle
+- [[AI in legal services]] — build-vs-buy sourcing axis
+- [[Kirkland & Ellis]] — largest firm building proprietary AI (May 2026) rather than buying
+- [[Freshfields]] — Anthropic co-build path (Apr 2026)
 
 *Created 2026-01-01 · Updated 2026-02-18 · Big Law transformation backlink added 2026-05-04*

@@ -105,6 +105,18 @@ ISG segment (+73%) driven by AI server demand. $43B AI backlog confirms enterpri
 
 ---
 
+## Q1 FY2027 earnings and May 29 repricing
+
+Dell's Q1 FY2027 print reset the AI-server tape. The company reported record Q1 revenue of $43.8B (+51% YoY) and diluted EPS of $2.64 (+17% YoY). More important for the vault thesis, AI-optimized server orders were $24.4B, shipments were $16.1B, and backlog was $33.6B. The result pushed the market's FY2027 AI-server revenue anchor above the earlier ~$50B guide and made Dell the cleanest public high-volume proxy for enterprise AI infrastructure capacity.
+
+DELL closed at $405.43 on May 29, 2026, up 32.8%. Because the local market DB had not populated the May 29 close, the market-close screen used the current web close with the local `quick_movers.py` beta/idiosyncratic-volatility framework; the move was roughly +7.9 sigma versus SPY's +0.24% session.
+
+The investment question is now less "is there demand?" and more "how much AI-server gross margin does Dell retain after GPU, memory, and networking suppliers capture their economics?" The backlog scale is real, but the model still has hardware-pass-through risk.
+
+*Sources: [Dell Technologies Q1 FY2027 results / Business Wire](https://www.businesswire.com/news/home/20260528449392/en/Dell-Technologies-Delivers-First-Quarter-Fiscal-2027-Financial-Results), May 28 2026; [AP market close](https://apnews.com/article/82c0b13a9b0bec79cc907cc122cac328), May 29 2026; local `quick_movers.py` fallback screen, May 29 2026.*
+
+---
+
 ## Why Dell matters for this vault
 
 ![[dell-vs-peers.png]]

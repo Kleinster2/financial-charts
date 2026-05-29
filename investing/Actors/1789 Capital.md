@@ -33,6 +33,7 @@ The firm's AUM and returns are not publicly disclosed, but its deal flow benefit
 | Company | Sector | Notes |
 |---------|--------|-------|
 | [[Enhanced Games]] | Sports/consumer health | PED sports + peptide sales; SPAC listing pending on [[NYSE]]. [[Peter Thiel]] co-investor. |
+| [[Star Lab]] | Commercial space infrastructure | May 2026 strategic investment into Voyager-led Starlab; amount undisclosed; framed as post-ISS American orbital infrastructure. |
 
 ## Related
 
@@ -40,5 +41,6 @@ The firm's AUM and returns are not publicly disclosed, but its deal flow benefit
 - [[Anthropic]] — declined investment
 - [[Donald Trump]] — political ties
 - [[Enhanced Games]] — portfolio company (sports + peptide consumer health)
+- [[Star Lab]] — portfolio company / strategic investment (commercial LEO station)
 - [[Venture capital]] — asset class
 - [[Palantir]] — ideologically adjacent portfolio company

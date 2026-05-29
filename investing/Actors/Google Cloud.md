@@ -118,6 +118,18 @@ See [[Anthropic hyperscaler financing surge April 2026]] and [[Anthropic vs Open
 
 ---
 
+## India AI hub - Vizag (Apr 2026)
+
+Google Cloud's Visakhapatnam AI hub adds a sovereign-infrastructure variant to the GCP thesis. The official project is $15B over 2026-2030, gigawatt-scale, and developed with [[Adani Group]]'s [[AdaniConneX]] and [[Bharti Airtel]]'s [[Nxtra]]. Google frames it as India's first gigawatt-scale AI hub and a local ecosystem project, including three data-center campuses, fiber/cable-landing infrastructure, local workforce programs, and a long-term clean-energy strategy.
+
+The market read is that Google is exporting its AI cloud footprint into a high-growth, power-constrained sovereign market while keeping the hard layers of the stack - model weights, TPU/GPU allocation, software, and customer relationship - inside the Google system. That is good for GCP capacity monetization. It is less clear that it transfers enough capability to make [[India AI]] a model producer rather than a local host for foreign intelligence.
+
+[[Asia Tech Lens]] adds the power-delivery caveat: gigawatt-scale framing and clean-energy language do not by themselves prove that site-level 24/7 power is solved. The Vizag hub is therefore a Google Cloud growth project and a test of Indian grid execution, microgrids, PPAs, batteries, and local partners' ability to deliver powered capacity.
+
+*Sources: Google Cloud press release, Apr 28 2026; [[Rohit Lamba]] / [[Raghuram Rajan]], May 7 2026; [[Asia Tech Lens]], May 28 2026.*
+
+---
+
 ## Q1 2026 print — Cloud +63%, backlog $460B+, "compute constrained" (Apr 29, 2026)
 
 The print resolved most of the watch items below in the bullish direction:
@@ -147,7 +159,7 @@ The [[Thomas Kurian|Kurian]] vertical-stack-economics thesis (TPU + own DC + own
 |---|---|---|
 | GCP revenue growth rate | Acceleration from Q4 2025 +48% would confirm GCP is taking share in the Mag 7 hyperscaler split. Deceleration would mean the announcement avalanche is running ahead of fulfilment. | Q4 2025 +48% YoY (fastest of the three) |
 | Cloud RPO / backlog disclosure | Whether [[Alphabet]] discloses cloud-specific RPO (vs total Alphabet RPO). Backlog growing faster than recognized revenue means the [[Anthropic]] / [[OpenAI]] / [[Meta]] commitments are loading the runway through 2026-2028. | $86B Q3 2025 cloud backlog (last disclosed) |
-| TPU vs GPU revenue mix commentary | The [[Thomas Kurian|Kurian]] vertical-stack-economics claim is testable on margin. Higher TPU mix = better gross margin than GPU resellers. | TPU 8t/8i unveiled Apr 22 |
+| TPU vs GPU revenue mix commentary | [[Thomas Kurian]]'s vertical-stack-economics claim is testable on margin. Higher TPU mix = better gross margin than GPU resellers. | TPU 8t/8i unveiled Apr 22 |
 | GCP operating margin trajectory | Cloud margin was 17.5% Q3 2025. Margin expansion validates Kurian's stack-economics framing; compression suggests TPU pricing concession to win the [[Anthropic]] / [[OpenAI]] anchors. | ~17.5% Q3 2025 |
 | Capex commentary vs $185B FY26 guide | $185B is more than 2023-2025 combined. Direction of capex commentary signals whether the Phase 1 GPU rush is continuing or transitioning to Phase 2 systems scarcity. | $185B FY26 guide |
 | Anthropic 5GW ramp timing | The largest single contract in cloud history. Specific ramp commentary (when the 5GW is online and revenue-recognized) reframes the GCP runway through 2030. | 5GW over five years from Apr 2026 |

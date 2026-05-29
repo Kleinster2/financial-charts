@@ -31,6 +31,14 @@ General tariff rates, Section 301 duties, trade deals.
 
 See [[US-China tariffs]] for full detail.
 
+### May 2026: Trade Council / Investment Council channel
+
+The May 2026 [[2026 Trump-Xi summit|Trump-Xi state visit]] created a Chinese-side framing of "constructive strategic stability" and, more concretely for markets, a reported agreement to establish a Trade Council and Investment Council. Gao Fei's People's Daily article also pointed to agricultural market-access concerns and reciprocal tariff reductions as areas for follow-through.
+
+This is the tradable part of the diplomatic formula. If the councils produce tariff relief, agriculture access, licensing clarity, or investment-channel stabilization, China-exposed multinationals and Chinese risk assets get a lower-policy-risk tailwind. If they remain summit language while export controls, sanctions, and [[Taiwan]] frictions tighten, the market should treat the phrase as rhetoric rather than trade-regime change.
+
+*Sources: Gao Fei / People's Daily, May 27 2026; Tracking People's Daily translation and framing, May 27 2026.*
+
 ---
 
 ## [[Semiconductors]]

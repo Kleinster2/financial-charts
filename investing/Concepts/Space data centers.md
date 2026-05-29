@@ -163,14 +163,20 @@ NVIDIA's Vera Rubin Space 1 module is the clearest signal that the supplier ecos
 
 ## SpaceX IPO connection
 
-**$30B+ IPO (2026) partly to fund space DCs:**
+The 2026 [[SpaceX IPO 2026]] turns space data centers from a speculative engineering concept into a valuation wedge. The preliminary public S-1 still leaves final price, share count, and proceeds blank, but press reporting has moved from an initial $30B-plus deal to a potential $75B raise and a valuation target above $2T. [[Aurelion Research]] uses the earlier $1.75T valuation frame and argues that today's launch plus [[Starlink]] economics do not carry the whole mark without a large orbital-compute option value.
 
 | Factor | Detail |
 |--------|--------|
-| IPO size | $30B+ |
-| Purpose | Starship development, space DCs |
+| IPO size | Press-reported up to $75B; final S-1 terms still blank |
+| Purpose | Starship development, AI compute, possible space DCs, balance-sheet de-risking after xAI/X consolidation |
 | Advantage | [[Starlink]] experience (9,300+ satellites) |
 | Strategy | Repurpose [[Starlink]] technology |
+
+[[Aurelion Research]] / Morningstar's launch-mass stress test is the important physical bottleneck. A one-million-satellite orbital data-center architecture would require roughly 6,667 [[Starship]] flights per year and about 530x current global annual launch mass to orbit. That is the bridge between the TAM slide and the valuation: investors are not merely buying a data-center concept, they are underwriting a manufacturing, launch-cadence, power, thermal-management, and satellite-servicing system that has to scale together.
+
+The S-1 TAM framing reinforces the same point. Aurelion's chart extracts SpaceX's opportunity set as AI $26.5T, connectivity $1.6T, and launch $370B. If AI is the largest stated opportunity, then [[Space data centers]] become the route by which a rocket-and-connectivity company claims AI-infrastructure multiples rather than only aerospace or telecom multiples.
+
+*Source: [[Aurelion Research]], "Special Article: SpaceX, OpenAI, and Anthropic IPOs," May 26 2026: https://read.aurelionresearch.com/p/special-article-spacex-openai-and.*
 
 ---
 

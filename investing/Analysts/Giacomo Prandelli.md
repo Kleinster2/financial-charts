@@ -41,6 +41,7 @@ Prandelli's post sequence through the [[2026 Strait of Hormuz crisis|Hormuz cris
 | May 1 | The $1 Trillion AI Trade Runs on Gas | AI-capex / gas-infrastructure valuation gap |
 | May 4 | America Is Now the World's Strategic Reserve | US as global oil supply backstop |
 | May 11 | The Next $5 Trillion Commodity Has No Wells, No Pipelines, No Tankers | AI infrastructure needs a financialized capacity / power / data-center-rights market |
+| May 27 | Europe's Gas Crisis Just Repriced 8 Of My 12 Positions | Europe replaced Russian pipeline gas with concentrated US LNG dependence; TTF/storage structure reprices the LNG value chain |
 
 ---
 
@@ -88,6 +89,18 @@ The investable read is that AI infrastructure is moving from "build physical ass
 This belongs with [[AI infrastructure financing]] and [[Power constraints]] rather than only the Hormuz thread. The commodity is not crude or gas itself; it is the tradable right to reliable AI infrastructure capacity.
 
 *Source: [[The Merchant's News]] Substack archive, May 12 2026.*
+
+---
+
+## Key thesis: Europe traded Russian pipeline leverage for US LNG dependence (May 27, 2026)
+
+Prandelli's public May 27 post shifts the European gas story from "can Europe survive without [[Russia]]?" to "can Europe survive without the [[United States]]?" The visible premise is that Russian pipeline gas to the [[EU]] collapsed from 165 bcm in 2019 to roughly 20 bcm in 2025, while US [[LNG]] into Europe rose from 5 bcm to 81 bcm over the same window. IEEFA's January 2026 analysis independently supports the direction of the claim: if announced contracts materialize and EU gas-demand cuts falter, the US could supply 75-80% of EU LNG imports by 2030.
+
+The market hook is storage and curve shape. Europe entered refill season with gas storage around the mid-30s percent range, below a normal near-50% seasonal level, and [[TTF]] backwardation made the usual summer-injection/winter-withdrawal economics unattractive. Reuters, via [[Equinor]] executives at the Flame conference, reported that if [[Strait of Hormuz]] disruption lasted another 1-3 months, Europe risked critical storage shortfalls; [[ICIS]] modeling separately put a three-month Hormuz closure scenario above €90/MWh for TTF. That is severe enough to force demand destruction and fuel switching, but still well below the August 2022 TTF peak of €345/MWh.
+
+The named portfolio section was not accessible in this session. The durable ingestion is therefore the public thesis only: the value chain exposed to Europe needing more US LNG includes exporters, carriers, carrier technology, Gulf Coast midstream, NGL/LPG adjacency, integrated-major LNG terminals, and global LNG trading. No specific position names were inferred from the paywalled section.
+
+*Sources: [[The Merchant's News]], ["Europe's Gas Crisis Just Repriced 8 Of My 12 Positions"](https://themerchantsnews.substack.com/p/europes-gas-crisis-just-repriced), May 27 2026; IEEFA, ["EU risks new energy dependence as US could supply 80% of its LNG imports by 2030"](https://ieefa.org/resources/eu-risks-new-energy-dependence-us-could-supply-80-its-lng-imports-2030), January 19 2026; Reuters report by Francesca Landini syndicated May 21 2026; Riviera Maritime summary of [[ICIS]] modeling, March 3 2026.*
 
 ---
 

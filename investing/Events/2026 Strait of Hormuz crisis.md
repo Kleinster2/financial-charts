@@ -649,6 +649,34 @@ This matters because it pinpoints where the Hormuz no-reroute problem becomes in
 
 The read-through is that physical normalization has a second lag beyond tanker traffic and insurance. Even if crude headlines stabilize, Japan's petrochemical chain remains constrained by feedstock chemistry and refinery slate. That makes [[Naphtha]] the Japan-facing proof point for the broader [[Iran conflict supply chain cascade]].
 
+## May 25-29, 2026 - renewed mine-laying vs reopening terms
+
+The late-May deal watch was already unstable before the May 27-29 oil-price test. On May 25/26, U.S. Central Command said it conducted self-defense strikes in southern [[Iran]] against missile launch sites and Iranian boats attempting to emplace mines. Reuters carried the CENTCOM statement; defense reporting added the more specific account that two [[IRGC]] boats were caught laying mines in the [[Strait of Hormuz]] and that a surface-to-air missile site in [[Bandar Abbas]] had targeted U.S. aircraft.
+
+[[Preston Stewart]]'s May 26 transcript is useful because it turns that tactical incident into an operating-state test. A ceasefire can remain formally alive while Hormuz remains commercially abnormal if the IRGC can add new mines, use coastal air defenses to threaten patrol aircraft, or keep shipowners guessing about whether the cleared route will stay cleared. That makes mine removal a continuous verification problem, not a one-time reopening box to check.
+
+The same day, UKMTO / Reuters reported that the Greek-owned VLCC Olympic Life suffered an external explosion near the port-side waterline about 60 nautical miles off Muscat; the crew and vessel were safe, bunker fuel was discharged, and the cause was unknown. Treat that as maritime-risk context rather than attribution: the source did not identify Iran or any claimant.
+
+[[Robert Pape]]'s May 27 [[Escalation Trap]] preview reframes the late-May deal watch around price normalization rather than passage alone. His public test is whether oil remains above $90 after Hormuz is nominally reopened. If it does, the strategic effect is that markets now treat the Gulf as durably risky, even if ships can physically move.
+
+The May 29 Reuters/AP sequence puts that test live:
+
+| Signal | May 29 status | Interpretation |
+|---|---|---|
+| Brent | July around $91.97; active August around $91.06 late Friday morning US time | Panic premium compressing but still above Pape's $90 test |
+| Weekly move | Brent down roughly 11% | Deal hopes are being priced aggressively |
+| Traffic | Still a small fraction of pre-conflict levels | Physical reopening remains incomplete |
+| US terms | Reopen without restrictions, no tolls, mines removed; gradual US pressure relief | Return-to-neutrality framework |
+| Iran-side framing | Reopening according to Tehran's own arrangements; traffic regulation and fees still in view | Permissioned-transit framework |
+
+This is the exact distinction the crisis note has tracked since March: "open" can mean several different operating states. Pre-war Hormuz was a neutral commercial artery; March-April Hormuz became a selective [[Hormuz Transit Regime]]; late-May Hormuz may become something in between. The market will care less about the word "reopen" than about whether war-risk cover, mine confidence, port operations, and traffic rights make the strait commercially neutral again.
+
+[[Felipe Germini]]'s May 27 ENERGY Pipeline public section adds the underwriting mechanism behind that distinction. [[Bloomberg]] tanker-desk pricing cited in the piece put Hormuz war-risk cover around 5% of vessel value since March 17. A $100M [[VLCC]] therefore needs roughly $5M of war-risk cover to clear the strait, and cargo volumes in the source chart fell toward roughly 30% of the pre-crisis baseline as AWRP repriced. This is why reopening has a second threshold: the physical lane must be passable, but the insurance quote must also fall back below a level that independent charterers can absorb.
+
+The same piece identifies the late-May fault line: Tehran's "Hormuz Safe" safe-passage insurance idea, London P&I clubs' warning that sanctioned safe-passage payments can void underlying cover, and ADNOC pricing explicit war-risk surcharges into FOB terms. That is the live operating question for the next phase of the crisis: whether Hormuz returns to neutral commercial passage or settles into a fee-bearing, permissioned, surcharge-loaded transit regime.
+
+*Sources: [[Preston Stewart]], ["Iran Just Tried Mining The Strait of Hormuz"](https://prestonstew.substack.com/p/iran-just-tried-mining-the-strait), May 26 2026; [Reuters via GMA News](https://www.gmanetwork.com/news/topstories/world/988962/us-forces-conducted-self-defense-strikes-in-southern-iran-report/story/), May 26 2026; [The Aviationist](https://theaviationist.com/2026/05/26/u-s-launches-defensive-strikes-in-iran/), May 26 2026; [Reuters via StreetInsider](https://www.streetinsider.com/Reuters/Tanker%2Breports%2Bexternal%2Bexplosion%2Boff%2BOman%2Bcoast%2C%2Bcrew%2Bsafe%2C%2BUKMTO%2Bsays/26549727.html), May 26 2026; [Escalation Trap, "The Price of Oil Is the Real Iran Deal"](https://escalationtrap.substack.com/p/the-price-of-oil-is-the-real-iran), May 27 2026 (paid; public preview only); [Felipe Germini / ENERGY Pipeline, "The Insurance Geometry That Replaced the Strait"](https://fgermini.substack.com/p/the-insurance-geometry-that-replaced), May 27 2026 (public section only); [Reuters via MarketScreener](https://ca.marketscreener.com/news/oil-steadies-as-market-awaits-possible-us-iran-ceasefire-deal-ce7f5ddbd988ff24), May 29 2026; [AP](https://apnews.com/article/iran-us-war-ceasefire-nuclear-talks-cac5206df0f0c7b79fe9321c08d63096), May 29 2026.*
+
 ## Analyst reaction to ceasefire (Apr 8)
 
 The ceasefire exposed a sharp split between physical-market and financial-market analysts:

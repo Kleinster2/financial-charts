@@ -59,6 +59,16 @@ See [[Star Lab]] for module spec, mission profile, and JV structure.
 
 ---
 
+## May 2026 - 1789 Capital strategic investment
+
+Starlab announced on May 21 2026 that [[1789 Capital]] made a strategic investment in the station venture. The amount was not disclosed, so this is not a financing-round size signal. The useful read is political-capital alignment: 1789 is Trump-world / conservative venture capital, and the announcement framed Starlab as post-ISS national infrastructure rather than only a commercial microgravity platform.
+
+[[Journal of Space Commerce]] amplified the point on May 27. The article's read-through is that Star Lab is being sold to investors as an orbital-infrastructure asset whose customer logic includes [[NASA]], allied agencies, national-security users, and scientific customers. That helps the [[Commercial LEO Destinations]] thesis if NASA remains a credible anchor buyer, but it does not by itself remove Star Lab's engineering, schedule, Phase 2 selection, or funding risks.
+
+*Sources: Starlab / Voyager official announcement, May 21 2026; Tom Patton, "Strategic Investment Backs Commercial Space Station as ISS Retirement Nears," [[Journal of Space Commerce]], May 27 2026.*
+
+---
+
 ## Q1 2026 — 10K Starship economics disclosure
 
 Per [[Space Capital]] (Chad Anderson, Apr 2026): Voyager's 10K is the cleanest public-domain source on Starship pricing for a real customer contract. The $90M / $900/kg figure ([[NASA]] reference: SLS at >$10K/kg) is what's doing the structural work behind the Q1 2026 NASA architecture pivot away from SLS/[[Lunar Gateway]] toward Starship-native lunar surface deployment.

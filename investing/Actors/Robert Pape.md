@@ -133,6 +133,20 @@ The live-briefing framing confirms that Pape is now treating the conflict as ent
 
 ---
 
+## May 27, 2026 — "The Price of Oil Is the Real Iran Deal"
+
+The May 27 post is paid; only the public preview was accessible in this session. The preview is still analytically useful because it gives Pape's test for whether the war has changed the strategic regime: if oil remains above $90 even after [[Strait of Hormuz|Hormuz]] is nominally reopened, the important outcome is no longer the physical fact of ships moving. It is the market's belief that Gulf passage has become durably dangerous.
+
+That moves the negotiation question away from a narrow nuclear-file frame. Uranium enrichment levels, inspections, missile language, and freedom-of-navigation wording matter, but the market test is whether the pre-war oil-price band returns. If it does not, Iran has extracted a non-nuclear deterrent: the ability to sustain a price floor through controlled instability rather than through conventional victory.
+
+The May 29 tape partially validates the frame but does not settle it. [[Reuters]] reported Brent futures falling on ceasefire-extension hopes, with July [[Brent crude]] around $91.97 and the more active August contract around $91.06 late Friday morning US time. That is far below the April/May peaks, but still above Pape's $90 threshold while traffic through Hormuz remained a small fraction of normal and inventories kept falling. The diplomatic split is the key: US-side reporting framed the agreement as unrestricted reopening, while Iranian state-linked reporting described reopening according to Tehran's own arrangements and Iran's intent to regulate traffic and charge fees.
+
+The implication is that "reopened" and "normalized" are now separate market states. A permissioned, fee-bearing, insurance-constrained Hormuz is not the same asset as pre-war Hormuz, even if some tankers move. That is the bridge between Pape's escalation framework and the vault's [[Hormuz Permanent Risk Premium]] thesis.
+
+*Sources: [The Price of Oil Is the Real Iran Deal](https://escalationtrap.substack.com/p/the-price-of-oil-is-the-real-iran), Escalation Trap Substack, May 27 2026 (paid; public preview only); [Reuters via MarketScreener, "Oil prices fall 2% as market awaits possible US-Iran ceasefire deal"](https://ca.marketscreener.com/news/oil-steadies-as-market-awaits-possible-us-iran-ceasefire-deal-ce7f5ddbd988ff24), May 29 2026; [AP, "Trump meeting with aides to make 'final determination' on moving forward with Iran deal"](https://apnews.com/article/iran-us-war-ceasefire-nuclear-talks-cac5206df0f0c7b79fe9321c08d63096), May 29 2026.*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — the market side of what Pape analyzes strategically

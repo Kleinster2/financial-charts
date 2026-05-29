@@ -39,6 +39,19 @@ State actor shaping semiconductor industry through industrial policy, export con
 
 [[NBS]] preliminary accounting put Q1 2026 GDP at 33.4193 trillion yuan, up 5.0% year on year at constant prices and 1.3% quarter on quarter. The production-side split matters: industry grew 6.1%, manufacturing 6.3%, construction fell 3.8%, and real estate was still negative at -0.1%. The headline hit the upper end of the 4.5-5.0% target range, but it was not a consumption-led rebalancing.
 
+### Long-arc scale check
+
+The macro snapshot needs the long baseline: China 1978-2022 was the largest single growth surge in recorded economic history, not a normal emerging-market credit cycle. [[Adam Tooze]]'s [[Chartbook]] 450, using Branko Milanovic and Maddison/OWID data, puts the scale this way:
+
+| Lens | Read-through |
+|------|--------------|
+| Per-capita growth | 1978-2022: roughly 8.1% annual per-capita growth across an average population of about 1.23B |
+| Output increment | GDP rose by about $25.3T in 2011 international dollars, vs Japan 1953-1991 +$3.5T and US 1865-1914 +$738B |
+| Global contribution | Roughly one-quarter of the world GDP increment from 1980 to the early 2020s |
+| Market implication | The 2023-2026 [[China economic transition]] is the after-phase of an exceptional industrial buildout, so property, cement, steel, [[Coal]], local-government finance, and household demand have to be read as post-surge normalization rather than ordinary cyclical softness |
+
+Source: [[Adam Tooze]], [[Chartbook]] 450, May 28 2026; Branko Milanovic, *The Great Global Transformation*; Bolt and van Zanden / Maddison Project Database 2023 via OWID.
+
 ### Demand and investment (Q1 2026)
 
 | Metric | Latest | Signal |
@@ -52,6 +65,12 @@ State actor shaping semiconductor industry through industrial policy, export con
 | High-tech manufacturing | +12.5% yoy Q1 | Industrial upgrade remains the growth engine |
 
 The FT's April 15/16 read on the same data is the right synthesis: exports, fiscal support, equipment manufacturing, and high-tech manufacturing are offsetting weak household demand and the property slump. [[Capital Economics]]' alternative China activity proxy was much weaker than official GDP, around 3% year on year in January-February and probably lower in March, which keeps the official 5% print in the "production strength, weak domestic demand" bucket.
+
+### Hukou public-services reform (May 2026)
+
+The State Council's May 22 2026 [[Hukou]] guidelines are a domestic-demand plumbing reform: basic public services should follow actual residence, not only household registration. Official language highlights education support for migrant children, broader public rental housing access, removal of household-registration barriers to employee social insurance, and gradual expansion of medical, employment, child welfare, elder care, social assistance, and disability services for residents without local hukou.
+
+The investable read is constructive but slow. This can reduce precautionary saving and lift service/retail demand at the margin, but the fiscal burden sits with local governments unless central transfers are reweighted toward resident population. It is rebalancing infrastructure, not a sudden consumption shock.
 
 ### Cement collapse (Jan 2026)
 
@@ -111,6 +130,21 @@ The May 27 [[NBS]] industrial-profits release confirms that the March factory-ga
 The composition matters more than the headline. Equipment manufacturing profits rose 15.4%, high-tech manufacturing profits rose 44.8%, electronics profits rose 107.7%, and raw-material manufacturing profits rose 88.1%. NBS statistician Yu Weining tied the improvement to faster industrial production, recovering industrial-product prices, new growth drivers, and falling unit costs. The caveat was explicit: the external environment remains volatile and China's domestic imbalance between strong supply and weak demand is still prominent.
 
 *Source: Reuters / NBS, May 27 2026; NBS industrial-profits interpretation by Yu Weining.*
+
+---
+
+## Total war / systems confrontation frame (May 2026)
+
+Howard Wang's 2026 RAND / Journal of Contemporary China paper, discussed on Tracking People's Daily, adds a useful market lens to China's security state. China's "total war" concept is not scorched-earth war. It is peacetime mobilization of civilian institutional advantages that party leaders can convert into warfighting effects during conflict.
+
+This matters for investing because it broadens the set of assets that US and allied governments can treat as military-relevant. Under ordinary [[Military-civil fusion]], civilian technology and talent feed PLA modernization. Under the broader total-war / INSS&C frame, civilian systems themselves - finance, commercial satellites, cyber, information networks, industrial production, food, energy, logistics, and even payment rails - can be synchronized with the [[People's Liberation Army]].
+
+The cleaner market examples are already in the vault:
+- [[Chinese dual-use commercial satellite exports]] - commercial space assets become ISR and targeting infrastructure for sanctioned actors.
+- [[Fortress China]] - food, energy, and industrial stockpiling become wartime resilience, not only macro stabilization.
+- [[Military-civil fusion]] - the narrower pipeline that still explains why suppliers are screened for latent PLA use.
+
+The key implication is policy reach. A firm can become a sanctions or procurement-risk target even if its product is civilian, if the product is part of a mobilizable national system.
 
 ---
 
@@ -630,6 +664,14 @@ Alice Han predicted Trump-Xi summit won't happen in May due to:
 - US distraction with Iran escalation and lack of "homework" preparation
 
 FT's Apr 15/16 growth piece still treated a mid-May [[Donald Trump]]-[[Xi Jinping]] meeting in Beijing as the base case, with both sides trying to preserve the one-year trade truce reached in 2025. That does not invalidate Han's risk call, but it keeps the summit as a live catalyst for [[US-China trade]] rather than a canceled event.
+
+### May 2026: constructive strategic stability
+
+The May 13-15 2026 [[2026 Trump-Xi summit|Trump-Xi state visit]] to [[Beijing]] produced a new Chinese formula for the relationship: "constructive strategic stability." Gao Fei's People's Daily article frames it as cooperation-centered, competition-bounded, difference-managed, and peace-preserving. The important market signal is that Beijing is now speaking the language of guardrails and competition boundaries, while still presenting dialogue as the result of Chinese strength after US containment pressure failed.
+
+The practical channels are what matter for this note: Trade Council, Investment Council, agricultural market access, reciprocal tariff reductions, and talks on Middle East, [[Ukraine]], Korean Peninsula, AI, supply chains, and the global economic order. If these channels turn into tariff or investment-policy steps, China risk assets get a real policy tailwind. If [[Taiwan]], export controls, or sanctions keep tightening, the phrase is a diplomatic volatility dampener, not a market-regime change.
+
+*Sources: Gao Fei / People's Daily, May 27 2026; Tracking People's Daily translation and framing, May 27 2026; Xinhua / People's Daily Online, May 15 and May 29 2026; Reuters via Investing.com, May 14 2026.*
 
 ---
 

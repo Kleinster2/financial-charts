@@ -45,6 +45,16 @@ The two May 1 pieces together form the analytical pair that complements [[Helima
 
 ---
 
+## May 27, 2026 — insurance geometry as the real closure
+
+Germini's May 27 ENERGY Pipeline piece, "The Insurance Geometry That Replaced the Strait," sharpened the earlier cargo-flow thesis into an underwriting thesis: [[Iran]] did not need to keep the [[Strait of Hormuz]] physically closed if the [[Lloyd's of London|London]] war-risk market priced transit as functionally uninsurable. The public section's key number is the [[Bloomberg]] tanker-desk quote: war-risk cover for a Hormuz transit at roughly 5% of hull value since March 17, meaning a $100M [[VLCC]] pays about $5M just to clear the strait.
+
+The useful addition is the three-party geometry. Tehran floated "Hormuz Safe," a [[Bitcoin]]-settled insurance/safe-passage platform reportedly tied to the [[IRGC]]'s Khatam al-Anbiya commercial arm; the International Group of P&I Clubs warned that paying a sanctioned entity for safe-passage cover could void the underlying P&I policy; and [[ADNOC]] began pricing voyages with explicit war-risk surcharges in FOB terms. That turns reopening into a paper-market problem: the mine or missile headline can fade before the charter party, P&I cover, demurrage language, and voyage-specific war-risk quote normalize.
+
+Source access caveat: the post was paid below the public section. The gated trade map, catalyst calendar, Brazil diesel reroute, and presentation pack were not ingested.
+
+---
+
 ## Brazil-specific coverage
 
 Germini's geographic edge is on Brazil — both as a [[Petrobras]] / [[Brazil clean energy matrix|domestic energy market]] commentator and as a window into how the Iran shock transmits into LATAM refining. The Apr 29 "May Diesel Cliff" piece — three cargoes, no buyers, thirty days — is the kind of granular cargo-flow data point that tests the [[Refining slate rigidity]] thesis at a country level. Brazil's diesel-import profile and biodiesel blending requirements ([[Brazil Biodiesel Program]]) make it especially exposed to mid-distillate-side disruption.

@@ -24,16 +24,36 @@ OpenAI burning **14x more cash** than Anthropic before reaching profitability.
 
 ## May 2026 public-market test
 
-The May 23 2026 FT mega-IPO article moves the model-lab economics question from private financing into public absorption. [[OpenAI]] and [[Anthropic]] are no longer only competing for private rounds and hyperscaler commitments; they are preparing to ask public investors to fund the next stage of the same compute race.
+The May 2026 mega-IPO sequence moves the model-lab economics question from private financing into public absorption. [[OpenAI]] and [[Anthropic]] are no longer only competing for private rounds and hyperscaler commitments; they are preparing to ask public investors to fund the next stage of the same compute race.
 
-| Lab | FT May 2026 datapoint | Economics read |
-|-----|------------------------|----------------|
-| [[OpenAI]] | Almost $6B revenue last quarter; $852B recent private mark; about $600B expected burn before 2030 profitability | Revenue scale is real, but the company still needs public capital to extend runway through the compute buildout |
-| [[Anthropic]] | First quarterly profit reported; $30B Series H near $900B; about $15B/year [[SpaceX]] compute commitment | Profitability improves the IPO story, but fixed capacity obligations can quickly absorb the margin signal |
+![[aurelion-ai-lab-revenue-trajectory-2026.png]]
+*Aurelion's lab revenue-trajectory chart. The important update is that Anthropic's official May 28 Series H release later put run-rate revenue above $47B, above the article's pre-close comparison.*
 
-The refined read: Anthropic remains more capital-efficient on a per-dollar basis, but both labs are now absolute-dollar infrastructure borrowers. That is why the IPO window matters. A receptive public market lowers the cost of staying at the frontier; a weak debut forces the labs back toward strategic-capital circularity with [[Amazon]], [[Google]], [[Microsoft]], [[NVIDIA]], and [[SoftBank]].
+![[aurelion-ai-lab-losses-2026.png]]
+*Aurelion's loss-comparison chart. The source framing is that OpenAI's path needs public capital to finance losses through the compute buildout, while Anthropic's path is more efficient but still demands much larger absolute capacity commitments.*
 
-*Source: [[Financial Times|FT]] article, May 23 2026: https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12.*
+| Lab | May 2026 datapoint | Economics read |
+|-----|--------------------|----------------|
+| [[OpenAI]] | $852B post-money private mark from the $122B Mar 2026 financing; almost $6B revenue last quarter in FT's May 23 frame; Aurelion uses a $25B run-rate reference and a loss-heavy internal forecast | Revenue scale is real, but the company still needs public capital to extend runway through the compute buildout |
+| [[Anthropic]] | $65B Series H at $965B post-money on May 28; run-rate revenue crossed $47B earlier in May; FT reported about $15B/year of [[SpaceX]] compute commitment | Better enterprise mix and revenue momentum, but the official round already priced much of the relative advantage |
+
+The refined read: Anthropic remains more capital-efficient on a per-dollar basis, but both labs are now absolute-dollar infrastructure borrowers. That is why the IPO window matters. A receptive public market lowers the cost of staying at the frontier; a weak debut forces the labs back toward strategic-capital circularity with [[Amazon]], [[Google]], [[Microsoft]], [[NVIDIA]], [[SoftBank]], and infrastructure counterparties.
+
+[[Aurelion Research]]'s useful contribution is to make the comparison less "which lab grows fastest" and more "which lab converts growth into financeable burn." [[OpenAI]] has distribution breadth but the heavier runway problem. [[Anthropic]] has a cleaner enterprise revenue story, but the May 28 $965B close means the private market has already capitalized the cleaner story before public investors see the stock.
+
+*Sources: [[Financial Times|FT]] article, May 23 2026: https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12; [[Aurelion Research]], May 26 2026: https://read.aurelionresearch.com/p/special-article-spacex-openai-and; Anthropic official Series H release, May 28 2026: https://www.anthropic.com/news/series-h; OpenAI official financing release, Mar. 31 2026: https://openai.com/index/accelerating-the-next-phase-ai/.*
+
+---
+
+## AI R&D automation and durable compute premia
+
+[[AI R&D automation]] adds a reason model labs may keep paying extreme prices for compute even after current customer-facing scarcity eases. If AI systems can automate enough of frontier-model R&D, compute is not only revenue capacity; it is research labor, experiment throughput, and future model quality.
+
+This makes the lab economics more reflexive. Revenue buys compute; compute buys faster R&D; faster R&D can buy better products and more revenue. The same loop can work in reverse if revenue stalls or if compute commitments arrive later than the capability window they were meant to fund. That is why the lab-capital question is not just "can the product margin cover inference?" It is also "does marginal compute produce enough research acceleration to justify being financed before ordinary ROI is visible?"
+
+Greenblatt's caveat matters here: full AI R&D automation may arrive after some earlier partial automation has already consumed low-hanging gains, and physical compute scaling may be slower by then. The premium is conditional, not automatic.
+
+*Source: [[Ryan Greenblatt]] / [[Redwood Research]], [May 27 2026](https://blog.redwoodresearch.org/p/full-automation-of-ai-r-and-d-probably).*
 
 ---
 
@@ -119,10 +139,11 @@ The counter: Coding tools require trust, integration, support — not just raw m
 
 ## Related
 
-- [[Anthropic]] — efficient ($9B revenue, 9% burn by 2027)
-- [[OpenAI]] — aggressive ($13B revenue, 57% burn, 2030 target)
+- [[Anthropic]] — efficient relative to peers, but now a $47B+ run-rate / $965B valuation infrastructure borrower
+- [[OpenAI]] — aggressive ($852B post-money mark, $122B 2026 financing, 2030 profitability target)
 - [[Recursive]] — pre-revenue ($4B valuation, pure research bet)
 - [[Open source commoditization]] — pressure (erodes pricing power)
 - [[Enterprise AI adoption]] — context (coding works, rest uncertain)
 - [[Superintelligence]] — long-term goal driving lab investment
+- [[AI R&D automation]] — why compute can become research labor, not just serving capacity
 - [[Long Anthropic]] — thesis (capital efficiency matters)

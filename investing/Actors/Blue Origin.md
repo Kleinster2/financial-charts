@@ -1,6 +1,11 @@
+---
+aliases: [Blue Origin, Blue Origin LLC]
+tags: [actor, space, usa, private]
+---
+
 #actor #space #usa #private
 
-**Blue Origin** — Bezos space company. New Glenn rocket. [[Project Sunrise]] orbital data center constellation (51,600 satellites filed with FCC March 2026). Competitor to [[SpaceX]].
+**Blue Origin** — Bezos space company. [[New Glenn]] rocket. [[Project Sunrise]] orbital data center constellation (51,600 satellites filed with FCC March 2026). Competitor to [[SpaceX]]. May 2026 sharpened both sides of the Blue Origin story: Florida approved a $600M upper-stage manufacturing expansion, then a New Glenn vehicle exploded during launch-pad hotfire days later.
 
 ---
 
@@ -8,7 +13,7 @@
 
 | Business | Status | Relevance |
 |----------|--------|-----------|
-| New Glenn | 2 orbital launches as of Q1 2026 | Heavy-lift rocket |
+| New Glenn | 3 orbital launches through Apr 2026; May 2026 hotfire explosion under investigation | Heavy-lift rocket |
 | New Shepard | Paused (Jan 2026) | Suborbital tourism |
 | Blue Moon | NASA contract | [[Artemis]] V lander ($3.4B) |
 | [[Project Sunrise]] | FCC-filed Mar 2026 | 51,600-satellite orbital data center constellation |
@@ -18,33 +23,33 @@
 
 ## New Shepard pause (Jan 2026)
 
-**Halting space tourism to focus on lunar program:**
+Halting space tourism to focus on lunar program:
 
 | Detail | Value |
 |--------|-------|
 | Announced | Jan 30, 2026 |
-| Duration | **2+ years minimum** |
+| Duration | 2+ years minimum |
 | Last flight | Jan 22, 2026 |
 | Reason | Redirect resources to [[Artemis]] lunar lander |
 
 New Shepard flew 38 missions, carried 98 humans above Kármán line (including Bezos, Shatner, Katy Perry, Michael Strahan).
 
-**Signal:** Blue Origin prioritizing $3.4B NASA contract over tourism revenue. Blue Moon Mk 1 uncrewed lunar landing targeted for 2026; Mk 2 crewed lander for [[Artemis]] V (~2030).
+Signal: Blue Origin prioritizing $3.4B NASA contract over tourism revenue. Blue Moon Mk 1 uncrewed lunar landing targeted for 2026; Mk 2 crewed lander for [[Artemis]] V (~2030).
 
 ---
 
 ## [[Artemis]] lunar lander
 
-**Blue Moon program:**
+Blue Moon program:
 
 | Variant | Mission | Timeline |
 |---------|---------|----------|
-| **Mk 1** | Uncrewed demo + VIPER delivery | 2026 |
-| **Mk 2** | Crewed landing ([[Artemis]] V) | ~2030 |
+| Mk 1 | Uncrewed demo + VIPER delivery | 2026 |
+| Mk 2 | Crewed landing ([[Artemis]] V) | ~2030 |
 
 | Financial | Value |
 |-----------|-------|
-| NASA contract | **$3.4B** |
+| NASA contract | $3.4B |
 | Blue Origin contribution | $3.5B+ additional |
 | Total development | ~$7B |
 
@@ -58,14 +63,14 @@ Blue Origin filed plans with the FCC on March 19, 2026 for [[Project Sunrise]], 
 
 | Detail | Value |
 |--------|-------|
-| Filed | Mar 19, 2026 (FCC) |
+| Filed | Mar 19, 2026 ([[FCC]]) |
 | Satellites | Up to 51,600 |
 | Orbit | Sun-synchronous, 500-1,800 km altitude |
 | Inter-satellite links | Optical (laser) — hyperscaler-grade transport |
 | Complement | TeraWave constellation (5,408 satellites, prior filing) |
 | Operator | Blue Origin (not [[Amazon]]) |
 
-The structural read: Blue is building the constellation directly, not Amazon — meaning rockets and compute are vertically integrating inside Blue, mirroring how SpaceX/Starlink/[[TERAFAB]] integrates inside Musk's stack. Per [[Space Capital]] (Anderson, Apr 26, 2026): "The architecture points toward a single institutional anchor customer — a hyperscaler or a government — that makes the whole system viable. That's the same playbook as [[Starshield]]."
+The structural read: Blue is building the constellation directly, not Amazon — meaning rockets and compute are vertically integrating inside Blue, mirroring how SpaceX/[[Starlink]]/[[TERAFAB]] integrates inside Musk's stack. Per [[Space Capital]] (Anderson, Apr 26, 2026): "The architecture points toward a single institutional anchor customer — a hyperscaler or a government — that makes the whole system viable. That's the same playbook as Starshield."
 
 Bezos's earlier 10-20 year orbital DC timeline (Oct 2025) had been read as conservative versus Musk's 4-5 year framing. The Project Sunrise filing — and the optical-mesh + 51,600-satellite scale — moves Blue from "vision" to "active program" and into the same league as SpaceX's 1M-satellite FCC filing (Jan 2026, with [[xAI]]).
 
@@ -85,7 +90,7 @@ This is one analyst's interpretation, not a Blue Origin disclosure — Blue is p
 
 ## New Glenn rocket
 
-**Heavy-lift vehicle:**
+Heavy-lift vehicle:
 
 | Spec | Value |
 |------|-------|
@@ -94,7 +99,65 @@ This is one analyst's interpretation, not a Blue Origin disclosure — Blue is p
 | First launch | 2024 |
 | Engines | BE-4 (methane) |
 
-Competitor to SpaceX Falcon Heavy and Starship.
+Competitor to SpaceX Falcon Heavy and [[Starship]].
+
+---
+
+## May 2026 - Project Horizon and New Glenn pad explosion
+
+Blue Origin's May 2026 "Project Horizon" expansion is the capacity half of the story. Space [[Florida]] and Florida officials described a roughly $600M investment to build an 830,000-square-foot upper-stage manufacturing facility at Cape Canaveral / Rocket Park, tied to about 500 jobs and framed around New Glenn upper-stage production. The state-level economic-development pitch was that Blue Origin already had almost 4,000 Florida employees, 11 sites, more than 500 Florida suppliers, and more than $2.3B invested in the state.
+
+The timing matters because New Glenn's upper stage is the visible bottleneck behind Blue Origin's broader plan. [[Project Sunrise]], Blue Moon, [[Orbital Reef]], and third-party launch customers all need New Glenn to move from proof of orbit into repeatable cadence. A dedicated upper-stage facility is therefore not just local jobs; it is an attempt to convert Bezos-funded ambition into manufactured flight rate.
+
+The setback came immediately. On May 28, 2026, a New Glenn vehicle exploded during hotfire testing at Launch Complex 36. No injuries were reported, and Blue Origin said it was reviewing the anomaly and pad damage. The vehicle had reportedly been expected to launch the following week. This does not negate the expansion, but it moves the near-term constraint back from factory scale to investigation, pad recovery, and flight reliability.
+
+The investable read-through is indirect because Blue Origin is private. The event matters for [[SpaceX IPO 2026]] and [[Space pure-plays]] because public investors will keep benchmarking the entire space cohort against the same question: which operators can actually turn capital intensity into cadence?
+
+*Sources: Space Florida / Florida governor announcement, May 22 2026; Richard Tribou, Orlando Sentinel via The Spokesman-Review, May 26 2026; AP, May 29 2026; [[Reuters]] via GMA News, May 29 2026.*
+
+---
+
+## Leadership
+
+| Role | Person | Notes |
+|------|--------|-------|
+| Founder / Executive Chairman | [[Jeff Bezos]] | Founder-controlled private company |
+| CEO | Dave Limp | Former Amazon devices executive; appointed Blue Origin CEO in 2023 |
+| Space mobility adviser | Tory Bruno | Former [[ULA]] CEO; joined Blue Origin in late 2025 |
+
+---
+
+## Funding history
+
+Blue Origin is not venture-backed in the normal startup sense. It is a privately controlled Bezos company, with long-running founder funding supplemented by NASA awards, defense and launch contracts, customer revenue, and state-level facility incentives.
+
+### Funding rounds
+
+| Date | Type | Amount | Source / counterparty | Notes |
+|------|------|--------|-----------------------|-------|
+| 2000-present | Founder funding | Not disclosed; [[Space Capital]] / Chad Anderson estimated roughly $27B cumulative by Q1 2026 | [[Jeff Bezos]] | Estimate, not company disclosure |
+| 2023 | NASA Human Landing System award | $3.4B contract | [[NASA]] | Blue Moon / [[Artemis]] V lander |
+| May 2026 | Project Horizon facility investment | ~$600M facility investment | Blue Origin / Florida economic-development support | 830,000-square-foot New Glenn upper-stage facility at Cape Canaveral |
+
+### Ownership estimates
+
+| Holder | Stake / ownership | Basis |
+|--------|-------------------|-------|
+| [[Jeff Bezos]] / founder-controlled private vehicle | Controlling; exact percentage not disclosed | Blue Origin remains private and founder-funded |
+| Outside equity investors | No disclosed material outside equity round | No public cap table |
+
+---
+
+## Financials
+
+Blue Origin is private and has limited financial disclosure. Publicly visible economics are therefore contract awards, facility investment, customer announcements, and analyst estimates rather than audited revenue and margin data.
+
+| Metric | Disclosure status | Read-through |
+|--------|-------------------|--------------|
+| Revenue | Not disclosed | Mix of NASA awards, defense work, launch/customer contracts, and New Shepard revenue before the Jan 2026 pause |
+| EBITDA | Not disclosed | Likely negative or heavily reinvested given New Glenn, Blue Moon, and Project Sunrise capital intensity |
+| Net income | Not disclosed | No public financial statements |
+| Capital funding | Founder-funded plus contracts | [[Space Capital]] / Chad Anderson estimates roughly $27B cumulative founder investment by Q1 2026 |
 
 ---
 
@@ -104,7 +167,7 @@ Competitor to SpaceX Falcon Heavy and Starship.
 |--------|-------|
 | Role | Founder, Executive Chairman |
 | Funding | ~$1B+/year personal investment |
-| Other | Amazon founder, Washington Post owner |
+| Known for | Amazon founder, Washington Post owner |
 
 Blue Origin funded primarily by Bezos selling Amazon stock.
 
@@ -116,7 +179,7 @@ Blue Origin funded primarily by Bezos selling Amazon stock.
 |--------|-------------|--------|
 | Pace | Slower, methodical | Fast, iterative |
 | Philosophy | "Gradatim Ferociter" (step by step) | "Move fast, break things" |
-| Launch cadence | Low | High (Falcon 9 dominance) |
+| Launch cadence | Low | High ([[Falcon 9]] dominance) |
 | [[Space]] DCs | 10-20 years | 4-5 years (Musk) |
 | Funding | Bezos personal | Private + govt contracts |
 
@@ -126,9 +189,9 @@ SpaceX far ahead on execution; Blue Origin catching up.
 
 ## Investment case
 
-**Not investable** — private, Bezos-funded.
+Not investable — private, Bezos-funded.
 
-**Watch for:**
+Watch for:
 - IPO unlikely near-term
 - Amazon Kuiper (separate, within Amazon)
 - [[Space]] DC progress
@@ -145,7 +208,7 @@ SpaceX far ahead on execution; Blue Origin catching up.
 | Founder | [[Jeff Bezos]] |
 | Employees | ~10,000 |
 
-*Updated 2026-02-02*
+*Updated 2026-05-29*
 
 ---
 
@@ -160,6 +223,6 @@ SpaceX far ahead on execution; Blue Origin catching up.
 - [[Power constraints]] — problem space DCs solve
 - [[Amazon]] — Bezos's other company (Kuiper satellite, distinct from Blue Origin)
 - [[Jeff Bezos]] — founder
-- [[Tory Bruno]] — joined Dec 2025 (former ULA CEO)
+- Tory Bruno — joined Dec 2025 (former [[ULA]] CEO)
 - [[Space Capital]] — Q1 2026 capital-efficiency framing source (Anderson)
 - [[Chad Anderson]] — Space Capital CEO, Apr 2026 framing

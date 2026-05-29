@@ -5,7 +5,7 @@ ticker: RKLB
 ---
 #securities
 
-Rocket Lab securities — NASDAQ: RKLB. Equity-market note for [[Rocket Lab]], whose shares trade as a blended exposure to Electron small-sat launch cadence, the Neutron debut binary (H2 2026), Space Systems revenue ramp ([[Motiv Space Systems]] integration + solar/avionics tuck-ins), and [[Golden Dome]] Space-Based-Interceptor production-contract optionality via the [[Raytheon]] partnership.
+Rocket Lab securities — NASDAQ: RKLB. Equity-market note for [[Rocket Lab]], whose shares trade as a blended exposure to Electron small-sat launch cadence, the Neutron debut binary (H2 2026), Space Systems revenue ramp ([[Motiv Space Systems]] integration + solar/avionics/optical-payload tuck-ins), [[Golden Dome]] Space-Based-Interceptor production-contract optionality via the [[Raytheon]] partnership, and funded [[US Space Force]] GEO space-domain-awareness work.
 
 ---
 
@@ -55,6 +55,16 @@ The structural read: RKLB is the cohort's single-name catalyst engine. The baske
 
 ---
 
+## Contract catalysts
+
+| Date | Contract / program | Amount | Read-through |
+|------|--------------------|--------|--------------|
+| May 21, 2026 | [[US Space Force|Space Systems Command]] GEO space-domain-awareness satellites | $90M | Validates Space Systems vertical integration: Lightning bus + [[GEOST]] / Heimdall optical payload + operations |
+
+The $90M GEO SDA award is small against Rocket Lab's $2.2B Q1 backlog, but it is high signal for the equity story. It turns the 2025 [[GEOST]] acquisition into a funded national-security prime contract and extends Rocket Lab beyond LEO constellation production into GEO custody. In a stock already trading on Space Systems optionality, the contract matters less for immediate revenue scale and more for proof that the bus/payload/operations stack is credible to Space Systems Command.
+
+---
+
 ## Earnings reactions
 
 | Date | Print | Move | Driver |
@@ -67,7 +77,7 @@ See [[Rocket Lab]] for the full Q1 detail.
 
 ## Investment frame
 
-For exposure to the [[Space pure-plays]] factor, RKLB is the most volatile and catalyst-rich single-name expression — appropriate for traders who want the basket thesis plus binary catalyst optionality (Neutron debut H2 2026, Golden Dome production contracts pending). For cleaner factor exposure with less single-name idiosyncrasy, the [[Space pure-plays#Minimum-name expressions|LUNR + BKSY 2-name basket]] tracks the factor at 94% correlation while excluding RKLB's binary catalyst risk.
+For exposure to the [[Space pure-plays]] factor, RKLB is the most volatile and catalyst-rich single-name expression — appropriate for traders who want the basket thesis plus binary catalyst optionality (Neutron debut H2 2026, Golden Dome production contracts pending, funded GEO SDA work now in backlog). For cleaner factor exposure with less single-name idiosyncrasy, the [[Space pure-plays#Minimum-name expressions|LUNR + BKSY 2-name basket]] tracks the factor at 94% correlation while excluding RKLB's binary catalyst risk.
 
 ---
 

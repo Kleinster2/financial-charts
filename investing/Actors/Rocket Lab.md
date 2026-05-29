@@ -5,7 +5,7 @@ tags: [actor, space, launch, defense, usa, public]
 
 #actor #space #launch #defense #usa #public
 
-**Rocket Lab** — End-to-end space company. Operates the Electron rocket (small-sat launch, 60+ missions), is finishing the medium-lift Neutron vehicle (H2 2026 debut), builds satellites and components through its Space Systems segment, and is moving into national-security primes work via Golden Dome interceptor contracts and the [[Motiv Space Systems]] robotics acquisition. Founded by [[Peter Beck]] in New Zealand, HQ in Long Beach, CA. The second-most-frequent US orbital launch provider after [[SpaceX]], and the only NASDAQ-listed pure-play space launch + systems company at scale.
+**Rocket Lab** — End-to-end space company. Operates the Electron rocket (small-sat launch, 60+ missions), is finishing the medium-lift Neutron vehicle (H2 2026 debut), builds satellites and components through its Space Systems segment, and is moving into national-security prime work via [[Golden Dome]] interceptor contracts, [[Motiv Space Systems]] robotics, and geostationary [[US Space Force]] space-domain-awareness satellites. Founded by [[Peter Beck]] in New Zealand, HQ in Long Beach, CA. The second-most-frequent US orbital launch provider after [[SpaceX]], and the only NASDAQ-listed pure-play space launch + systems company at scale.
 
 ---
 
@@ -32,6 +32,7 @@ The cleanest cohort for read-across is the space-launch + space-services basket:
 | Q1 2026 revenue | $200.3M (+63.5% YoY, record) |
 | Q1 2026 backlog | $2.2B (+20.2% QoQ, record) |
 | Q2 2026 guide | $225-240M revenue |
+| May 2026 GEO SDA award | $90M [[US Space Force|Space Systems Command]] contract for two geostationary satellites |
 | Cash (Mar 31 2026) | $1.21B |
 | Stock (May 8 2026) | $105.47 (+34.2% +7.5σ on Q1 print) |
 
@@ -98,6 +99,18 @@ CEO [[Peter Beck]] quote: *"Rocket Lab has delivered another exceptional quarter
 
 ---
 
+## May 21 2026 - $90M Space Force GEO space-domain-awareness award
+
+Rocket Lab was awarded a $90M contract by [[US Space Force|Space Systems Command]] to design, manufacture, integrate, and operate two geostationary satellites carrying the Heimdall space-domain-awareness optical payload. This is Rocket Lab's first satellite production program for geostationary orbit, and it moves the company from LEO-heavy constellation work into the high-altitude custody layer around the GEO belt.
+
+The award is an end-to-end prime contract: Rocket Lab is responsible for spacecraft design and manufacture, integration of the internally produced Heimdall optical payload, launch integration onto a government-furnished launch vehicle, and on-orbit operations for up to five years after commissioning. The spacecraft will use Rocket Lab's Lightning bus, adapted for GEO thermal, radiation, propulsion, and station-keeping requirements. Heimdall comes from Rocket Lab Optical Systems, the payload arm created after Rocket Lab acquired [[GEOST]] in 2025.
+
+The investor read is that Rocket Lab's vertical-integration story is becoming funded prime work rather than just strategic positioning. The May 8 [[Golden Dome]] / SBI announcement showed missile-defense optionality through a [[Raytheon]] partnership; the May 21 award is a direct $90M operational-space-vehicle contract where Rocket Lab owns bus, payload integration, and operations. The amount is small relative to the $2.2B Q1 backlog, but the program validates the GEOST acquisition and gives RKLB a live foothold in GEO space-domain awareness, a mission category usually associated with heritage national-security primes.
+
+*Sources: [Rocket Lab official release, May 21 2026](https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-awarded-90m-contract-build-geo-satellites-hosting); [[Journal of Space Commerce]], "Vertical Integration Powers Rocket Lab's $90M Space Force GEO Satellite Award," May 27 2026.*
+
+---
+
 ## May 27 2026 SpaceX IPO proxy bid - +4.9%
 
 RKLB closed $150.23 on May 27, up 4.9% from $143.20, as part of the [[Reuters]]-reported public-space rally tied to [[SpaceX IPO 2026|SpaceX IPO]] expectations. This was not a new Rocket Lab contract or earnings catalyst. The read-through is liquidity and proxy status: RKLB is the largest and most liquid listed pure-play space name, so generalist funds that want pre-IPO space exposure can buy it without reaching into microcaps.
@@ -158,6 +171,7 @@ The move is smaller than [[Intuitive Machines]] (+15.7%), [[Redwire]] (+8.9%), a
 | [[Advanced Solutions Inc|ASI]] | 2021 | Spacecraft flight software / mission ops |
 | Sinclair Interplanetary | 2020 | Star trackers, reaction wheels |
 | Planetary Systems Corp | 2021 | Separation systems |
+| [[GEOST]] | 2025 | Electro-optical / infrared payloads for national-security space |
 | [[Motiv Space Systems]] | 2026 (signed May 8) | Robotic arms, spacecraft mechanisms |
 
 ---

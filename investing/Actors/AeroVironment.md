@@ -338,6 +338,16 @@ Notable: Jefferies maintained Buy in March 2026. Keybanc maintained Overweight w
 
 ---
 
+## May 2026 domestic-drone rerating
+
+On May 28, 2026, AVAV closed up 16.6%, a statistically unusual move even after adjusting for its high-beta, high-volatility profile; the local beta/idio-vol screen implies roughly a +3.6 sigma move. The direct company catalyst was a $20M Air Force Research Laboratory contract for advanced ceramics and ceramic-matrix-composite materials, but the larger tape was a domestic-drone-policy rerating: investors bought AVAV, [[Kratos]], [[Red Cat Holdings]], and [[Unusual Machines]] as public proxies for Pentagon and administration support for U.S.-made tactical-drone capacity.
+
+The signal is less about the $20M contract size than about AVAV's position in the part of the defense-industrial base policymakers are trying to scale: loitering munitions, counter-UAS, Group 1-3 drones, and related materials/manufacturing capacity. This fits the existing bull case, but the March SCAR episode remains the reminder that AVAV is still exposed to single-program procurement risk even when the sector narrative is strong.
+
+Sources: [StockAnalysis May 28 gainers](https://stockanalysis.com/markets/gainers/), [Investing.com on AV's AFRL contract](https://www.investing.com/news/company-news/aerovironment-wins-20m-air-force-ceramics-contract-93CH-4714610), [Investing.com market-cap movers](https://m.investing.com/news/stock-market-news/arm-and-snowflake-among-market-cap-stock-movers-on-thursday-93CH-4714851?ampMode=1).
+
+---
+
 ## Investment case
 
 Bull:

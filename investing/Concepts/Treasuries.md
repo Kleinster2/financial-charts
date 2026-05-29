@@ -141,6 +141,14 @@ The May 24 Washington-tolerance story and the May 27 global-winners/losers story
 
 Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
 
+### May 27, 2026 -- inflation expectations are not clean bond-market signals
+
+Chartbook's May 27 bond-market link set is a useful measurement warning for this note. The FT caveat it highlighted is that market-implied inflation expectations, inflation swaps, TIPS, linkers, and "real yield" series are traded prices. They embed liquidity, supply/demand technicals, central-bank balance-sheet effects, and inflation-risk premia, so they should not be treated as direct survey-like reads of expected CPI.
+
+Vault practice: keep real yields, breakevens, term premia, nominal yields, and survey expectations as separate diagnostics. The May Iran-war selloff can still be described as an inflation-volatility and supply-shock repricing, but the observed FRED decomposition remains real-yield / term-premium heavy rather than a clean breakeven-only break. That distinction matters for policy read-through: a central bank facing higher oil and long-end yields is not the same thing as a central bank facing a fully de-anchored expectations regime.
+
+Source: [[Adam Tooze]], Chartbook Top Links 1114, May 27 2026; FT bond-market measurement caveat via Chartbook.
+
 ### Kalshi 10-year yield bucket (May 20, 2026)
 
 [[Kalshi]]'s active KXTNOTED daily market for the May 20 10-year Treasury yield is thin, but directionally consistent with the broader tape: the only traded bucket in the API snapshot was 4.67-4.69%, last 56c with 24c / 72c bid-ask, $128 volume, and $128 open interest. Adjacent buckets from 4.64-4.72 had wide quotes and little or no volume.
@@ -170,6 +178,7 @@ Futures: 2Y, 5Y, 10Y, 30Y Treasury futures on CME—highly liquid, basis trade v
 
 | Date | Event | Impact |
 |------|-------|--------|
+| 2026-05-27 | Chartbook/FT warns against reading market-implied inflation as a clean expectations series | Keep real yields, breakevens, term premia, nominal yields, and surveys separate; May selloff still looks more real-yield / term-premium heavy than pure breakeven de-anchoring |
 | 2026-05-27 | Reuters cross-asset graphic puts bonds in Iran-war loser camp | U.S. 30Y traded above 5%, highest since 2007; Bund yields highest in more than 15 years; at least two ECB hikes priced by year-end |
 | 2026-05-24 | Reuters frames Treasury rout as Washington borrowing-cost tolerance test | 10Y touched 4.69% and last traded 4.56%; higher long-end yields now transmit directly into mortgage, credit, and midterm affordability risk |
 | 2026-04-03 | Fund managers buying sovereign bonds on growth fears | See below — shift from inflation to growth pricing |

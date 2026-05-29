@@ -46,9 +46,19 @@ Very large Blackwell clusters and gigawatt-scale facilities coming online. Contr
 
 This compute will be used. Question is how: more pre-training, longer RL, or inference?
 
+## AI R&D automation feedback loop
+
+[[AI R&D automation]] is a separate scaling question from ordinary pre-training, RL, or inference-time scaling. The object being scaled is the research process itself: if AI systems can do enough frontier-model R&D, then AI progress depends not only on how much compute is used by the next model, but also on how much compute is used by the AI labor force improving future models.
+
+The [[Software-only singularity]] version is the extreme case where recursive software improvement becomes self-accelerating. [[Ryan Greenblatt]]'s May 2026 framing is more useful for investing because it weakens the claim: even if the loop is subcritical and eventually fizzles, full AI R&D automation can still create a large one-time speed-up and increase the returns to marginal compute.
+
+That makes scaling-law analysis more path-dependent. The same number of GPUs can represent more effective progress after the research loop is partially automated than before, because the GPUs support both the experiments and the AI researchers choosing and executing them.
+
 ## Related
 
 - [[RLVR]] — RL scaling axis
 - [[Inference-time scaling]] — test-time scaling axis
 - [[NVIDIA]] — compute provider
 - [[Blackwell]] — next-gen chips
+- [[AI R&D automation]] — scaling the research loop itself
+- [[Software-only singularity]] — recursive software-improvement threshold

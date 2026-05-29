@@ -104,11 +104,21 @@ EPS guidance was the headline — consensus expected -$0.64 loss, company guided
 
 Stock dipped ~4% after-hours on mixed guidance, recovered to $14.46 on Mar 13 as profitability inflection registered.
 
+## Q1 FY2027 earnings and May 29 guide selloff
+
+SentinelOne's Q1 FY2027 result kept the profitability story alive but disappointed growth buyers. Revenue was $277.2M (+21% YoY) and ARR was $1.16B (+23%), while same-day reporting highlighted a cautious Q2 revenue guide and an announced workforce reduction of about 8%.
+
+S closed at $15.09 on May 29, 2026, down 8.2%. Using the current web close with the local `quick_movers.py` beta/idiosyncratic-volatility framework, the move was roughly -2.9 sigma. The reaction is a useful counterpoint to the same-session [[Okta]] rerating: cybersecurity software did not get a blanket bid. The market rewarded identity/control-plane cash generation, but punished endpoint/security names where growth deceleration and restructuring clouded the AI investment narrative.
+
+*Sources: [SentinelOne Q1 FY2027 results / Business Wire](https://www.businesswire.com/news/home/20260528861478/en/SentinelOne-Announces-First-Quarter-Fiscal-Year-2027-Financial-Results), May 28 2026; [Investing.com - SentinelOne stock plunges after Q1 results](https://www.investing.com/news/stock-market-news/why-is-sentinelone-stock-plunging-20-today-93CH-4716174), May 29 2026; local `quick_movers.py` fallback screen, May 29 2026.*
+
+---
+
 ### Analyst reactions
 
 | Firm | Rating | Price Target |
 |------|--------|-------------|
-| [[Guggenheim Partners|Guggenheim]] | Buy | $24 (from $28) |
+| [[Guggenheim Partners\|Guggenheim]] | Buy | $24 (from $28) |
 | Needham | Buy | $18 (from $21) |
 | Cantor Fitzgerald | Overweight | $18 |
 | [[Goldman Sachs]] | Neutral | $16.50 (from $19) |

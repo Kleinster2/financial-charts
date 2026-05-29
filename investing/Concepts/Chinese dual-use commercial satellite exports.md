@@ -47,6 +47,12 @@ China's official framing is commercial exports under the civilian space sector, 
 
 Dennis Wilder (former head of China analysis at CIA) placed satellite exports within a longer arc of Chinese weapons transfers to Iran going back to Silkworm anti-ship missiles — "a pragmatic strategy to influence the Islamic republic on other issues." A former senior Western intelligence official: "There is no way that any Chinese company could do something like launch a satellite without somebody in the administration giving it the go-ahead."
 
+### SatNet as the domestic version of the same logic
+
+Howard Wang's May 2026 discussion of PLA total-war thinking adds the domestic infrastructure counterpart. China SatNet, created in 2021, is the state vehicle for a proliferated LEO broadband constellation with civilian internet use cases. PLA writing discusses how such a constellation could be weaponized against Starlink and folded into a resilient ISR architecture.
+
+That matters because it makes the commercial-export cases look less like one-off opportunism. They fit a broader doctrine in which space services are civilian in peacetime and mobilizable in conflict. The same logic that lets [[Earth Eye Co]] and [[Emposat]] provide sanctioned actors with operational satellite capacity also makes Chinese LEO broadband a national-war-system asset rather than a normal telecom product.
+
 ## The dispersion problem for counter-space
 
 [[Israel]] hit multiple satellite-related targets inside Iran during the 2026 war, including the main research centre of the [[Iranian Space Agency]] in mid-March. Those strikes degrade Iranian domestic capability but do not touch Chinese commercial ground stations operated by [[Emposat]] from third countries. The result is an ISR capability that is, in [[Jim Lamson]]'s framing, survivable against the counter-space campaign that would otherwise blind Iran: "Iran's satellite ground stations, which were hit in 2025 and 2026, can be hit very easily by missiles from a thousand miles away. You can't just hit a Chinese ground station located in another country."
@@ -55,11 +61,17 @@ Dennis Wilder (former head of China analysis at CIA) placed satellite exports wi
 
 **Chinese commercial-space sector.** The model is replicable. Other [[Belt and Road]] states (for example, members with limited indigenous space capability and strained relations with the West) are plausible next customers. [[Earth Eye Co]] confirmed one prior BRI transfer; [[Emposat]]'s ground network supports global customer on-boarding. Incremental capacity lands in a sector that is largely private but domestically subsidised through [[Made in China 2025]] and military-civil fusion funds.
 
-**US export-control exposure.** US policy tools calibrated to hardware export lose grip when the hardware never leaves China. Primary available levers: sanctions on Chinese firms (Emposat, Earth Eye, Chang Guang), secondary sanctions on counterparties (e.g., BRI states, Iranian entities), and action against Chinese banks processing payments for the contracts (see [[Operation Economic Fury]]). [[Scott Bessent]]'s April 14 announcement reaching to Chinese banks on secondary-sanctions exposure is the natural financial chokepoint.
+### US export-control exposure
 
-**Insurance and Gulf infrastructure pricing.** That [[Khor Fakkan]], [[Qidfa]], and [[Alba]] were on an IRGC tasking list raises the question of whether Gulf war-risk and property insurance models capture the shift in ISR fidelity against civilian infrastructure. See [[Iran conflict Gulf infrastructure]] and [[Iran conflict insurance impact]].
+US policy tools calibrated to hardware export lose grip when the hardware never leaves China. Primary available levers: sanctions on Chinese firms (Emposat, Earth Eye, Chang Guang), secondary sanctions on counterparties (e.g., BRI states, Iranian entities), and action against Chinese banks processing payments for the contracts (see [[Operation Economic Fury]]). [[Scott Bessent]]'s April 14 announcement reaching to Chinese banks on secondary-sanctions exposure is the natural financial chokepoint.
 
-**Commercial-space equity exposure.** Western EO names ([[Planet Labs]], [[Maxar]], [[BlackSky]]) sell commercial imagery into the same market segment. The dual-use flap arguably pulls Western commercial-imagery capacity into the defence supply chain faster (re-tasking, higher-priority contracts) and forces the sector into a sharper bifurcation between Western-aligned and Chinese-aligned providers. See [[Sectors/Space]] for market structure.
+### Insurance and Gulf infrastructure pricing
+
+That [[Khor Fakkan]], [[Qidfa]], and [[Alba]] were on an IRGC tasking list raises the question of whether Gulf war-risk and property insurance models capture the shift in ISR fidelity against civilian infrastructure. See [[Iran conflict Gulf infrastructure]] and [[Iran conflict insurance impact]].
+
+### Commercial-space equity exposure
+
+Western EO names ([[Planet Labs]], [[Maxar]], [[BlackSky]]) sell commercial imagery into the same market segment. The dual-use flap arguably pulls Western commercial-imagery capacity into the defence supply chain faster (re-tasking, higher-priority contracts) and forces the sector into a sharper bifurcation between Western-aligned and Chinese-aligned providers. See [[Sectors/Space]] for market structure.
 
 ## Pattern questions for the next case
 
@@ -101,6 +113,7 @@ Dennis Wilder (former head of China analysis at CIA) placed satellite exports wi
 
 ### Cross-vault
 - [Geopolitics: Military-civil fusion](obsidian://open?vault=geopolitics&file=Concepts%2FMilitary-civil%20fusion) — Chinese doctrine (stub candidate if missing)
+- [Geopolitics: Chinese total war doctrine](obsidian://open?vault=geopolitics&file=Concepts%2FChinese%20total%20war%20doctrine) — broader national mobilization doctrine
 - [Technologies: Chinese commercial space sector](obsidian://open?vault=technologies&file=Chinese%20commercial%20space%20sector) — industrial context
 
 ## Sources
@@ -110,5 +123,6 @@ Dennis Wilder (former head of China analysis at CIA) placed satellite exports wi
 - US House China Select Committee — Emposat ties to PLA Aerospace.
 - Aidan Powers-Riggs ([[CSIS]]) — Emposat/MCF funding analysis.
 - CNN — China considering shoulder-fired missiles for Iran (person familiar with the matter).
+- Tracking People's Daily / Howard Wang interview, May 27, 2026.
 
 *Created 2026-04-15.*

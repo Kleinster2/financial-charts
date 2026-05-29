@@ -155,6 +155,21 @@ The diversification campaign is the cleanest evidence that the [[Strait of Hormu
 
 *Source: Bloomberg interview with Trade Minister Joo Hyung-Hwan, Singapore, Apr 27 2026.*
 
+## April 2026 oil import substitution
+
+[[Robin J. Brooks]]'s May 27 import-data post shows the Korean diversification campaign already visible in the hard trade data. In April 2026, South Korea's HS code 27 imports - mineral fuels, oils, refined products, LNG, and related products - were down only 8% year over year even though Saudi-origin imports fell 40%. Korea paid up for replacement supply, but avoided the scale of volume collapse that would have validated $200 Brent scenarios.
+
+| April 2026 vs April 2025 | Volume | Implied price paid |
+|---|---:|---:|
+| Global HS 27 imports | -8% | Just under +20% |
+| [[Saudi Arabia]] | -40% | +55% |
+| [[Canada]] | +174% | +86% |
+| [[Malaysia]] | +63% | +12% |
+
+The read-through is that Korean energy security is shifting from "replace Middle East barrels eventually" to "reroute the import basket immediately." That creates higher average procurement cost and more logistics complexity, but it also shows more resilience than the extreme oil-shock forecasts assumed.
+
+*Source: [Robin J. Brooks, "Why did the Brent oil price not go to $200?"](https://robinjbrooks.substack.com/p/why-did-the-brent-oil-price-not-go), May 27 2026.*
+
 ## Market proxy
 
 ![[south-korea-price-chart.png]]

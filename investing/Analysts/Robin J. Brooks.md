@@ -353,6 +353,46 @@ Cross-vault flag: belongs in geopolitics as a [[Shale oil revolution#Petrocurren
 
 *Source: [The Relationship Between The Dollar And Oil](https://robinjbrooks.substack.com/p/the-relationship-between-the-dollar), May 11 2026.*
 
+### "Why did the Brent oil price not go to $200?" (May 27)
+
+Brooks's May 27 post is the cleanest empirical rebuttal to the $150-200 oil-shock camp. His argument is not that the [[2026 Strait of Hormuz crisis|Hormuz shock]] was irrelevant; it is that the realized supply shortfall visible in importer data was not large enough to force the kind of demand destruction that a $200 [[Brent crude]] scenario requires.
+
+The data point is [[South Korea]], a high-exposure Asian importer. Brooks uses South Korea's HS code 27 data - mineral fuels, oils, and refined products, so broader than crude alone - to compare April 2026 import volumes and implied prices. Total Korean imports fell only 8% year over year even though imports from [[Saudi Arabia]] fell 40%. Korea offset the Saudi drop by buying much more from [[Canada]] and [[Malaysia]].
+
+![[brooks-korea-oil-imports-saudi-price-2026.png]]
+
+![[brooks-korea-oil-imports-canada-malaysia-2026.png]]
+
+*Extracted from Brooks / Haver Analytics charts. Volumes are monthly South Korean imports of HS code 27 in millions of barrels; prices are backed out from import value divided by volume, so they mix crude, refined products, LNG, and related fuels.*
+
+| April 2026 vs April 2025 | Volume change | Implied price change | Read-through |
+|---|---:|---:|---|
+| South Korea global HS 27 imports | -8% | Just under +20% | Shock visible but modest at aggregate level |
+| South Korea imports from [[Saudi Arabia]] | -40% | +55% | Saudi barrels repriced in line with front-month Brent |
+| South Korea imports from [[Canada]] | +174% | +86% | Canada became a high-cost replacement barrel |
+| South Korea imports from [[Malaysia]] | +63% | +12% | Regional substitution cushioned the aggregate price shock |
+| Front-month Brent | n/a | +55% | Futures overstate Korea's average paid price across the import basket |
+
+The investment implication is that the oil market's rerouting capacity was larger than the extreme forecasts assumed. Brent failed to go to $200 because the world found replacement barrels and products fast enough to keep a major Asian importer near normal volumes. That does not erase the [[Hormuz Permanent Risk Premium]], because insurance and routing remain structurally more expensive, but it lowers the probability that the shock alone requires a 1970s-style demand-destruction price.
+
+Brooks also uses the 2022 [[Russia]] oil-price-cap scare as the political analogy: extreme oil forecasts can make governments timid. His claim is that the 2022 $380 Brent scenario around a Russian price cap and the 2026 $200 scenario around Iran share the same error - assuming a supply gap that real trade data did not confirm at that scale.
+
+*Source: [Why did the Brent oil price not go to $200?](https://robinjbrooks.substack.com/p/why-did-the-brent-oil-price-not-go), May 27 2026.*
+
+### "Can Japan escape its debt trap?" (May 28)
+
+Brooks' May 28 Japan post extends his May 8-9 G10 debt/yield work into a country-specific mechanism. His argument is that Japan's long-end yields are still below equilibrium because the [[BOJ]] remains a large buyer of [[JGB]]s even after formal [[Yield curve control|YCC]] ended. The missing risk premium then appears in the [[Japanese yen|yen]]: real effective yen weakness becomes the adjustment valve for a bond market that is still partially suppressed.
+
+The four-chart structure is now filed in [[Japan debt trap]]:
+- Real effective yen weakness is extreme, with Brooks' Haver chart showing the yen below the Turkish lira on a 2014-base comparison; FRED/BIS broad REER confirms Japan at 65.70 in April 2026 versus Turkey at 108.84 on a 2020 base.
+- Japan's 30-year yield is near Germany's despite a far higher public-debt stock.
+- Since 2024, Japan has had the uncomfortable combination of rising 30-year yield differentials and a falling trade-weighted yen.
+- Net debt is much lower than gross debt, so government financial assets are the escape hatch in Brooks' framework.
+
+The IMF caveat matters. IMF's 2026 Article IV says Japan's government assets are large, but many are encumbered, operationally independent, or held by social security funds. So Brooks' "sell assets to pay down debt" route is analytically clean but institutionally hard.
+
+*Source: [Can Japan escape its debt trap?](https://robinjbrooks.substack.com/p/can-japan-escape-its-debt-trap), May 28 2026.*
+
 ## Related
 
 - [[2026 Iran conflict market impact]]

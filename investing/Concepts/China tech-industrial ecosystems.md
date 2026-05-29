@@ -85,6 +85,12 @@ Two or more related industries developing together in an iterative, two-way proc
 
 **Weak-link intervention:** When coevolution exposes a lagging sector, MIIT steps in. Current example: China's automakers still rely heavily on foreign automotive semiconductor chips. Government now pushing carmakers to use up to 25% domestic chips by 2025, accepting short-term cost/quality penalties to close the gap. The feedback loop demands it — every other piece of the EV ecosystem is domestic except the chips.
 
+### Robotics lineage as ecosystem evidence
+
+[[Irene Zhang]]'s ChinaTalk history of Jiang Xinsong adds a time dimension to the ecosystem thesis. Chinese robotics is not only a 2020s startup cluster; it is an old state-lab to commercial-manufacturing pathway. Shanghai Jiao Tong's early 1970s Xianfeng 1, [[Shenyang Institute of Automation]]'s 1980 industrial robot prototype, SZJ-1 in 1982, 863 Program intelligent-robot funding, mobile / undersea / welding robot programs, and the 1999/2000 Siasun spinout all predate the current [[Unitree]] / [[Hangzhou Robotics Cluster]] wave.
+
+That history fits the coevolution model. Robotics drew on precision instrumentation, control theory, machine tools, hydraulics, factory integration, undersea vehicle work, and later auto-assembly demand. Once EVs, batteries, sensors, AI, and YRD supply chains scaled, the older robotics base had more adjacent "pieces" to connect to. This is the jigsaw-puzzle mechanism with a longer memory: modern humanoid and quadruped names are the visible edge of a system whose foundations were laid in industrial automation decades earlier.
+
 ---
 
 ## Tech convergence: the Swiss Army knife effect

@@ -42,6 +42,14 @@ LHX shows moderate Defense correlation (ITA r = 0.67).
 
 ---
 
+## Pax Silica supplier-screening risk (May 2026)
+
+The May 28, 2026 [[Journal of Space Commerce]] / Ex Terra Media excerpt names [[L3Harris]] among the space-hardware procurement networks exposed to [[Pax Silica]] trusted-vendor screening. L3Harris sits close to the affected component set: RF systems, ISR payloads, power electronics, electro-optical sensors, and space-qualified electronics.
+
+The practical risk is at the sub-tier level. A supplier to L3Harris space or defense programs that cannot document a [[China plus one]] or [[ASEAN]] sourcing plan may face higher qualification friction as US-aligned contracts turn trusted-vendor posture into part of award eligibility. This reinforces the existing [[Defense supply chain]] thesis: the bottleneck is no longer only prime capacity, but visibility and control deep in the supplier base.
+
+---
+
 ## AI applications
 
 | Area | Application |
@@ -106,4 +114,5 @@ See [[Trump defense budget]] for full context.
 - [[RTX]], [[Northrop Grumman]] — peers
 - [[Lockheed Martin]], [[General Dynamics]] — peers
 - [[Defense supply chain]] — missile spinoff, production constraints
+- [[Pax Silica]] — trusted-vendor framework touching space electronics suppliers
 - [[Palantir]] — AI defense partner

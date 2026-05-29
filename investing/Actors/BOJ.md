@@ -198,3 +198,11 @@ Two positioning consequences for the vault:
 A 1% policy rate would be the highest since 1996. Combined with [[Yield curve control|YCC]] exit + [[#Quantitative tightening|QT]] (purchase pace cut to ¥200B/quarter from April), the BOJ is the only major G3 central bank actively tightening through mid-2026 — sustained pressure on JGB issuance pricing without the BOJ as a residual buyer.
 
 See [[JGB crash January 2026#May 16-17 update — record yields + repatriation bets (FT)]] for the full thread on the record-yield episode + the repatriation thesis.
+
+## May 2026 debt-trap pressure
+
+[[Robin J. Brooks]]' May 28 2026 Japan debt-trap frame makes the BOJ the hinge between fiscal risk and FX pressure. The argument is not that the BOJ is still formally doing [[Yield curve control|YCC]]; that framework ended in March 2024. The point is that ongoing JGB purchases still matter enough to keep long-end yields below where a private-only market might clear. If that is true, the missing risk premium migrates into the [[Japanese yen|yen]].
+
+IMF's 2026 Article IV gives the institutional baseline. BOJ JGB holdings fell from 91% of GDP in June 2024 to about 80% in January 2026, while gross JGB purchases are scheduled to decline from 3.3 trillion yen per month in December 2025 to 2.1 trillion yen by March 2027. That is a real QT path, but still a very large flow relative to the market. The BOJ is trying to restore price discovery without creating a [[JGB]] accident.
+
+Policy implication: the BOJ's normalization is now a fiscal-financial stability operation as much as an inflation operation. If it tapers too slowly, the yen absorbs the pressure. If it tapers too quickly, the long end can gap higher and tighten financial conditions before the fiscal side has adjusted. See [[Japan debt trap]].

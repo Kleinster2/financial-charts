@@ -11,6 +11,10 @@ tags: [concept, china, defense, geopolitics, doctrine]
 
 MCF matters because it lets [[China]] accumulate strategic capability through firms that present as ordinary commercial vendors. The space-sector cases make the logic obvious, but the same logic now extends into quieter layers of the industrial stack such as embedded connectivity. When Chinese firms dominate a commercial bottleneck like cellular modules, the investable question is not only whether a backdoor exists. It is whether the U.S. and its allies decide that a nominally civilian supplier base has become latent military infrastructure and force a substitution cycle. The April 2026 [[Chinese cellular module risk analysis April 2026]] debate is the clearest recent example of MCF logic migrating from satellites and drones into factories, ports, vehicles, hospitals, and utility networks.
 
+The May 2026 Howard Wang / Tracking People's Daily total-war discussion clarifies the upper layer. MCF is a modernization pipeline: civilian technology, talent, and logistics strengthen the [[People's Liberation Army]]. China's broader "total war" / INSS&C concept is wider: civilian systems themselves - finance, space services, cyber, information operations, energy, food, industrial production, and logistics - can be directed by the party center as wartime effects alongside the PLA.
+
+For markets, that means the screening frontier can keep moving outward. A product does not need to be a weapon to be read as military-relevant. If it becomes a civilian system that the party center can mobilize in conflict, it can become a sanctions, procurement, export-control, or replacement-cycle issue.
+
 ## Quick stats
 
 | Metric | Value |
@@ -67,6 +71,7 @@ That is why the module story matters for markets. It suggests the next U.S.-Chin
 
 ### Cross-vault
 - [Geopolitics: Military-civil fusion](obsidian://open?vault=geopolitics&file=Concepts%2FMilitary-civil%20fusion)
+- [Geopolitics: Chinese total war doctrine](obsidian://open?vault=geopolitics&file=Concepts%2FChinese%20total%20war%20doctrine)
 - [Technologies: Chinese commercial space sector](obsidian://open?vault=technologies&file=Chinese%20commercial%20space%20sector)
 
 ## Sources
@@ -75,6 +80,7 @@ That is why the module story matters for markets. It suggests the next U.S.-Chin
 - US House China Select Committee reports.
 - [[Aidan Powers-Riggs]] ([[CSIS]]).
 - The Hill, April 15, 2026.
+- Howard Wang / RAND, "China Plans for 'Total War'," 2026; Tracking People's Daily interview, May 27, 2026.
 - Industrial Cyber, April 2026.
 
 *Created [[2026-04-15]]. Expanded 2026-04-19.*

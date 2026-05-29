@@ -89,6 +89,16 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Adani Group]] announced 
 
 ---
 
+## Google Vizag AI hub partner (Apr 2026)
+
+[[AdaniConneX]] is one of the two named local infrastructure partners for [[Google Cloud]]'s $15B Visakhapatnam AI hub, alongside [[Bharti Airtel]]'s [[Nxtra]]. The project is framed as a gigawatt-scale AI ecosystem with three data-center campuses, local construction/operations, fiber and cable-landing infrastructure, and a long-term clean-energy strategy.
+
+For Adani, this is the concrete version of the February 2026 AI data-center commitment. The group is not getting model economics; it is converting land, power, construction, and data-center operations into hyperscaler-grade capacity. That can be a strong infrastructure business even if the [[India AI]] sovereignty question remains open.
+
+*Sources: Google Cloud press release, Apr 28 2026; [[Rohit Lamba]] / [[Raghuram Rajan]], May 7 2026.*
+
+---
+
 ## US legal-resolution (FT May 14, 2026)
 
 The [[SEC]] settled its case with Gautam Adani and his nephew Sagar Adani on Thursday May 14. [[DoJ]] and [[OFAC]] are preparing follow-on resolutions that would close all open US enforcement actions against Adani and the group. Adani's legal team disclosed to SEC and DoJ officials that the billionaire had pledged $10B of US investment after Trump's 2024 election win — the person familiar said the investment was not part of any law-enforcement deal, but the timing is unmissable.
@@ -119,6 +129,7 @@ Regulatory backdrop: The Trump administration last year halted then restarted en
 ### Sectors
 - [[Infrastructure]] — core business
 - [[Renewable Energy]] — growth area
+- [[AdaniConneX]] — data-center JV with [[EdgeConneX]]
 - [[India AI Impact Summit 2026]] — $100B AI data center commitment
 
 ---

@@ -39,7 +39,7 @@ Sightline's 2026 pipeline data made the bottleneck more concrete. The schedule-s
 1. AI capex surge — Hyperscalers committing unprecedented capital
 2. Queue congestion — Berkeley Lab shows "unprecedented backlogs"
 3. Supply lag — Large turbine orders won't deliver until late 2020s
-4. Regulatory friction — FERC reforms not final until April 2026
+4. Regulatory friction — FERC's large-load docket is moving by June 2026, but project-level implementation still depends on RTO tariffs, cost allocation, and physical equipment
 
 "Power crunch appears most severe through 2028-2029."
 
@@ -61,6 +61,16 @@ Vistra + Cogentrix (pending 2026): Adding 5.5 GW gas fleet to nuclear portfolio.
 
 ---
 
+## Policy counterweight: FERC large-load standardization
+
+The May 2026 [[Critical Supply]] data-center read-through points to a real regulatory easing path: the White House, DOE, and [[FERC]] are trying to turn data-center power from a local permitting fight into a more standardized large-load interconnection process. FERC's Apr 16 announcement says it will act by June 2026 on RM26-4-000, explicitly covering major loads such as data centers.
+
+This does not break the thesis by itself. It changes the bottleneck from "can the project get a grid answer?" toward "can the project pay for and source the hardware implied by that answer?" The winners may shift from sites with purely informal local political access toward developers and utilities that can fit standardized interconnection, cost-allocation, and planner-approved-node rules.
+
+DOE's May 18 emergency order authorizing PJM to deploy backup generation resources at data centers and other major facilities shows the other side of the same issue: large-load integration is now urgent enough to be treated as a near-term reliability problem, not only a long-cycle planning exercise.
+
+---
+
 ## IPP thesis
 
 Independent power producers benefit from:
@@ -77,7 +87,7 @@ Independent power producers benefit from:
 
 | Risk | Impact |
 |------|--------|
-| Regulatory acceleration | FERC reforms could ease queues |
+| Regulatory acceleration | FERC large-load rules could ease queue uncertainty, especially for planner-approved nodes |
 | Demand slowdown | AI capex pullback |
 | Distributed generation | On-site power bypasses grid |
 | Nuclear sentiment shift | Political/safety concerns |

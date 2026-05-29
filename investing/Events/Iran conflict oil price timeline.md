@@ -1149,3 +1149,45 @@ The Diggle and Morgan Stanley numbers compress the analyst consensus into a $150
 - The escalation case ([[Morgan Stanley]]) is no longer "physical shortages somewhere" but "physical shortages, supply chain disruption, and recessionary outcomes" — explicit recession framing from a sell-side house.
 
 See [[Iran conflict country responses#May 17 — emergency-measure count hits 76, four-day weeks spread]] for the country-level emergency-measure update (76 countries, Australia $10bn, France scope-and-scale, India FX-defense consumer guidance, Pakistan/Sri Lanka/Philippines 4-day weeks).
+
+---
+
+## May 27 — South Korea substitution explains why Brent did not hit $200
+
+*Source: [Robin J. Brooks, "Why did the Brent oil price not go to $200?"](https://robinjbrooks.substack.com/p/why-did-the-brent-oil-price-not-go), May 27 2026.*
+
+Brooks's May 27 post uses April 2026 [[South Korea]] import data to test the extreme oil-price forecasts against observed trade behavior. The conclusion is a useful correction to the vault's earlier escalation-case stack: the market did suffer a Gulf shock, but the realized import shortfall for one of Asia's most exposed buyers was not large enough to force $200 Brent-style demand destruction.
+
+| April 2026 vs April 2025 | South Korean import volume | Implied price paid | Interpretation |
+|---|---:|---:|---|
+| Global HS 27 imports | -8% | Just under +20% | Aggregate energy-import shock was manageable |
+| [[Saudi Arabia]] | -40% | +55% | Gulf barrels repriced sharply and volumes fell |
+| [[Canada]] | +174% | +86% | Expensive replacement supply appeared |
+| [[Malaysia]] | +63% | +12% | Regional substitution helped cushion the average |
+| Front-month [[Brent crude]] | n/a | +55% | Futures rose much more than Korea's average paid price |
+
+The methodological caveat matters: HS code 27 is broader than crude, covering mineral fuels, oils, refined products, LNG, and related products. That makes the implied price a basket price rather than a clean crude quote. But that is also why the data is useful for macro: households, refiners, petrochemicals, and utilities consume the basket, not the Brent future.
+
+The May 27 read therefore separates two ideas that had been blended in the market narrative. First, the [[Strait of Hormuz]] crisis created a durable [[Hormuz Permanent Risk Premium]] through insurance, routing, and demonstrated chokepoint power. Second, the immediate physical shortfall did not yet match the assumptions behind the $150-200 panic scenarios because buyers rerouted cargoes quickly enough.
+
+---
+
+## May 29 — Brent tests Pape's $90 normalization line
+
+*Sources: [Escalation Trap, "The Price of Oil Is the Real Iran Deal"](https://escalationtrap.substack.com/p/the-price-of-oil-is-the-real-iran), May 27 2026 (paid; public preview only); [Reuters via MarketScreener](https://ca.marketscreener.com/news/oil-steadies-as-market-awaits-possible-us-iran-ceasefire-deal-ce7f5ddbd988ff24), May 29 2026; [AP](https://apnews.com/article/iran-us-war-ceasefire-nuclear-talks-cac5206df0f0c7b79fe9321c08d63096), May 29 2026.*
+
+[[Robert Pape]]'s May 27 public preview gives the late-May price tape a clean diagnostic: if oil remains above $90 even after Hormuz reopens, the strategic outcome of the Iran war may already be embedded in the market. The point is not that $90 is a magic price target. It is that the pre-war oil regime does not return merely because negotiators announce a reopening.
+
+By late Friday morning US time on May 29, [[Reuters]] reported July [[Brent crude]] around $91.97 and the more active August contract around $91.06, with [[WTI]] around $87.55. The weekly move was sharply bearish — Brent down roughly 11% on ceasefire-extension hopes — but the level remained above Pape's threshold while Reuters also reported that traffic through the [[Strait of Hormuz]] remained only a small fraction of pre-conflict levels and inventories continued to fall.
+
+The contradiction in the diplomatic descriptions is what matters for pricing. The AP reported US-side terms that would reopen Hormuz, remove mines, prohibit tolls, and gradually relax US pressure on Iranian ports and oil sales. Reuters' Iran-side reporting pointed to reopening according to Tehran's own arrangements, with continued regulation and possible fees. If the latter is closer to the operating reality, the oil market can remove the panic premium while retaining the [[Hormuz Permanent Risk Premium]].
+
+### Price-state map
+
+| State | Brent signal | Interpretation |
+|---|---:|---|
+| Full normalization | Sustained return to pre-war band | Hormuz is open, insurable, and politically neutral enough for commercial confidence |
+| Pape line | $90+ after reopening headlines | Panic premium faded, but structural Gulf risk remains |
+| Escalation case | $150-180 | Physical shortages, product scarcity, recession channel; see May 17 scenario range |
+
+The May 29 tape is therefore not a simple "peace deal means oil down" print. It is a transition from acute scarcity pricing to regime-risk pricing.

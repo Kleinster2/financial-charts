@@ -100,6 +100,29 @@ See [[China token economy]].
 
 ---
 
+## May 2026 agent flood stress test
+
+[[Hello China Tech]] / [[Poe Zhao]]'s May 27 2026 public preview reframes Tencent's AI strategy as a distribution flood sitting on a thinner model and cloud foundation. Between March and May, Tencent pushed agents across office productivity, software development, desktop control, data analytics, UI/UX design, OS-level assistance, browser, input, meetings, and soon WeChat Mini Programs as AI-callable skills.
+
+The product list is broad: WorkBuddy, CodeBuddy, QClaw, DataBuddy, Ardot, and Marvis. Marvis is the cleanest architecture signal because it uses a main agent that delegates to File, Computer, App, Browser, and Search agents. This is Tencent applying the WeChat playbook to agents: occupy every surface first, improve later.
+
+The public-preview data also resets the risk case:
+
+| Metric | May 2026 public-preview read |
+|--------|------------------------------|
+| Yuanbao monthly active users | 57.35M |
+| [[Doubao]] monthly active users | 345M |
+| [[Qwen]] app monthly active users | 166M |
+| Tencent Cloud public [[IaaS]] rank / share | #5 / 8% |
+| MaaS concentration | [[Volcano Engine]], [[Alibaba Cloud]], and [[Baidu]] AI Cloud nearly 90% combined |
+| Tencent AI drag | Roughly Rmb 8.8B quarterly non-[[IFRS]] operating-profit drag, per Zhao's read of Tencent disclosures |
+
+The investment implication is more nuanced than "WeChat wins." Tencent owns the best distribution surface, but the agent era also demands model quality, token delivery, cloud scale, and visible product retention. If agents become a routing layer over many Mini Program services, Tencent's moat matters. If the market rewards the best model or lowest-cost MaaS infrastructure, Tencent is still playing catch-up.
+
+*Source: [[Poe Zhao]] / [[Hello China Tech]], [May 27 2026](https://hellochinatech.com/p/tencent-agent-flood). Public preview only; no paid-body claims inferred.*
+
+---
+
 ## [[Gaming]] AI
 
 **Unique angle:**
@@ -162,11 +185,10 @@ Tencent is also a major tech investor, not just operator.
 | Market cap | ~$400B+ |
 | HQ | [[Shenzhen]], [[China]] |
 | WeChat MAU | 1.3B+ |
-| Cloud share | \#2 [[China]] (~20%) |
+| Cloud share | Legacy all-cloud estimate ~20%; public [[IaaS]] #5 / 8% in May 2026 data cited by [[Hello China Tech]] |
 | AI model | [[Hunyuan]] (via TokenHub) |
 | AI investment | **$5.2B** (doubling) |
-| Yuanbao DAU | **50M** (Feb 2026) |
-| Yuanbao MAU | **114M** (Feb 2026) |
+| Yuanbao usage | 57.35M MAU in May 2026 third-party data cited by [[Hello China Tech]]; older Feb 2026 figures in this note should be treated as a separate claim |
 
 *Updated 2026-04-07*
 
@@ -187,3 +209,4 @@ Tencent is also a major tech investor, not just operator.
 - [[AI hyperscalers]] — category ([[China]] tier)
 - [[China token economy]] — neutral aggregator strategy
 - [[Agentic AI]] — token demand multiplier
+- [[Hello China Tech]] — May 2026 agent-flood stress test

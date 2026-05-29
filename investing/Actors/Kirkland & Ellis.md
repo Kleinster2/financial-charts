@@ -44,13 +44,23 @@ In 2025, [[Josh Feltman]], previously head of [[Wachtell Lipton]]'s corporate re
 
 ## The Altice conflict
 
-**Sep 2025**: [[Altice]] (Optimum) hired Kirkland + Evercore to advise on $26B debt restructuring.
+Sep 2025: [[Altice]] (Optimum) hired Kirkland + [[Evercore]] to advise on $26B debt restructuring.
 
-**Nov 2025**: Altice filed antitrust lawsuit alleging "illegal cartel" among creditors — [[Apollo]], [[Ares Management]], [[BlackRock]].
+Nov 2025: Altice filed antitrust lawsuit alleging "illegal cartel" among creditors — [[Apollo]], [[Ares Management]], [[BlackRock]].
 
-**Post-filing**: Kirkland withdrew. All three defendants are major Kirkland clients. Kellogg Hansen (antitrust boutique) had architected the lawsuit.
+Post-filing: Kirkland withdrew. All three defendants are major Kirkland clients. Kellogg Hansen (antitrust boutique) had architected the lawsuit.
 
 Textbook illustration of why PE-side dominance creates structural conflicts in distressed situations.
+
+## The $500M proprietary AI build
+
+May 2026: Kirkland committed $500M to build its own AI platform rather than rely solely on the third-party legal-AI tools available to competitors. Chair [[Jon Ballis]] told the FT the firm expects to spend more than $100M in 2026 and hundreds of millions more over the following three to four years — on top of continued licensing of external tools such as [[Harvey]] and [[Legora]].
+
+The logic is differentiation, not cost reduction. Ballis framed widely available AI as "raising the floor for everyone," while Kirkland is "not hired for the floor." The platform is being designed from interviews with about 250 Kirkland lawyers (including roughly 100 partners) on how they actually work, and built by about 180 technology professionals — outside firms working alongside Kirkland's own engineers and data scientists. Kirkland will own, or hold the right to own, the resulting technology, and the vendors building it cannot resell it to others. The platform name and the technology companies involved are due to be disclosed within weeks.
+
+The investment is funded from revenue (record $10.556B in 2025; see Quick stats), eating into the profit available to equity partners in the near term. Ballis tied the build to a shift away from the billable hour toward value-based, outcome-linked pricing as AI automates routine billable work — saying the firm already runs some matters that way and intends to lean into the change.
+
+This is the build-your-own end of the legal-AI sourcing spectrum analysed in [[AI in legal services]]: the world's largest firm by revenue choosing a proprietary platform over standardising on [[Harvey]] / [[Legora]], in the same window [[Freshfields]] opted for a co-build partnership with [[Anthropic]]. It fits the [[Big Law transformation]] scale logic — only the largest revenue pools can fund a nine-figure proprietary build and absorb the near-term hit to partner distributions.
 
 ## Related
 
@@ -69,6 +79,7 @@ Textbook illustration of why PE-side dominance creates structural conflicts in d
 - [[Altice]] — hired then dropped due to creditor conflicts (2025)
 
 ### People
+- [[Jon Ballis]] — chairman; announced the $500M proprietary AI build (May 2026)
 - [[Josh Feltman]] — recruited from [[Wachtell Lipton]] 2025, $80M / 3yr
 - Ed Lee — recruited from [[Wachtell Lipton]] 2019/20
 
@@ -79,5 +90,6 @@ Textbook illustration of why PE-side dominance creates structural conflicts in d
 
 ### Sources
 - FT, "Wachtell, the law firm that helped invent Wall Street, is under siege" (May 2026)
+- FT, "Kirkland & Ellis to spend $500mn building its own AI technology" (May 28 2026)
 - Am Law 100 / 200
 - LSEG league tables

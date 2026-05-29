@@ -48,6 +48,14 @@ Grid power availability is the binding constraint on AI infrastructure buildout.
 
 ---
 
+## India microgrid variant (May 2026)
+
+[[Asia Tech Lens]]' India note is the emerging-market version of BYOP. It is less about hyperscalers buying nuclear plants and more about data-center operators building microgrid-like stacks: on-site solar where land allows, battery storage, contracted renewables, fuel cells or backup generation, and demand-response scheduling to avoid weak-grid hours.
+
+The lesson for [[India AI]] is that "data-center capacity" only becomes AI capacity when it is powered, cooled, connected, and stable. [[AdaniConneX]], [[Nxtra]], and [[Yotta Data Services]] are therefore not just colocation stories; their value depends on whether they can convert Indian renewable capacity and local grid access into bankable 24/7 load for hyperscalers and AI-cloud customers.
+
+---
+
 ## BYOP deals
 
 | Company | Project | Capacity | Strategy |

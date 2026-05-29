@@ -80,6 +80,58 @@ This TAM framing is the analytical counter to "Anthropic is compute-constrained 
 
 ---
 
+## May 2026: individual speed vs firm-level ROI
+
+[[Exponential View]]'s May 27 2026 framework is useful because it separates AI tool adoption from operating-model redesign. The essay starts from the puzzle most visible in engineering orgs: individual developers using [[Claude Code]] can ship more code and more pull requests, yet the company does not automatically ship proportionally more useful product.
+
+The historical analogy is factory electrification. Stage 1 is the lightbulb: safer, faster local work with the same operating logic. For AI, this is the individual productivity layer: email, research, coding assistance, presentations, and other single-worker tasks. Stage 2 is the group drive: a motor attached to the existing shafting. For AI, this is the agent attached to legacy workflow geometry -- support tickets, recruiting screens, marketing variants, sales proposals, internal analysis packets. It can cut cost and cycle time inside the workflow, but the firm is still governed by the old decision layers.
+
+Stage 3 is the unit drive: redesign the flow around throughput rather than grafting the new power source onto the old layout. For AI, that means the system can observe a signal, orient against the roadmap / codebase / policy context, decide within governed bounds, build or route the work, and shorten the full decision loop. The bottleneck moves from "can one worker produce more output?" to "can the organization absorb, decide, ship, and learn faster?"
+
+This is why [[Uber]]'s AI-token-spend concern matters. Uber is one of the most algorithmic companies in public markets, but COO Andrew Macdonald still questioned whether rising [[Claude Code]] / AI-token usage mapped cleanly to more useful consumer features. It is also why [[Klarna]]'s customer-service assistant is best read as Stage 2 rather than proof of enterprise-wide transformation: the bot absorbed tickets and reduced human load, but it stayed inside the support workflow.
+
+The [[Oliver Wyman]] Forum survey provides the macro cross-check: only 27% of CEOs said AI ROI had met or exceeded expectations, while 53% said it was too early to assess ROI. That is not evidence that AI has no utility; it is evidence that installation has moved faster than organizational redesign.
+
+*Sources: [Exponential View, "Why AI isn't showing up on your bottom line", May 27 2026](https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line); [Oliver Wyman Forum CEO Agenda 2026](https://www.oliverwymanforum.com/ceo-agenda/how-ceos-navigate-geopolitics-trade-technology-people.html); [Business Insider / Rapid Response via Exponential View](https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line); [Klarna press release via PRNewswire, Feb 27 2024](https://www.prnewswire.co.uk/news-releases/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month-302072744.html).*
+
+---
+
+## May 2026: verification labor as adoption cost
+
+[[Noah Smith]]'s May 27 2026 [[Noahpinion]] public preview adds a labor-market version of the same adoption bottleneck. If AI agents become powerful enough to do much of the technical work, firms still need humans to specify goals, verify output, and keep systems aligned with what the organization actually wants. Human work shifts from direct production toward supervision and correction.
+
+That is not a bearish claim about AI capability. It is a constraint on realized enterprise ROI. The value of an agentic workflow depends on the verification ratio: how much human time is required per unit of model output before the work can be trusted. In software coding, the ratio can be favorable because tests, compilers, code review, and production telemetry create feedback loops. In legal, finance, medicine, regulated customer communication, and strategic analysis, the verification layer can remain expensive because the cost of a subtle error is high.
+
+This slots between the Exponential View operating-model ladder and the Okta shadow-AI finding. Individual usage can explode, and agents can do real work, but firm-level adoption still requires a governance process that decides what work can be delegated, how outputs are checked, who owns liability, and when humans override the system.
+
+*Source: [[Noah Smith]], [[Noahpinion]], [May 27 2026](https://www.noahpinion.blog/p/your-future-job-will-be-to-keep-ai). Public preview only; no paid-body claims inferred.*
+
+---
+
+## May 2026: shadow AI adoption outpaces governance
+
+[[Okta]]'s May 2026 survey adds the security/governance version of the same adoption-vs-ROI gap. Workers are already using AI tools heavily, but a large share of that adoption sits outside formal enterprise control. Okta found that 52% of employees use unapproved AI tools, while 90% of executives say they are confident in visibility into AI tools and 95% believe employees use AI responsibly.
+
+This is why high reported usage does not automatically equal mature enterprise adoption. [[Shadow AI]] can inflate the apparent penetration rate while leaving the organization without inventory, identity controls, data-loss policy, or measurement. The usage is real, but the operating model is immature. The same pattern appears in the Exponential View framework above: individual productivity can rise before the firm redesigns workflows, security, and decision throughput.
+
+The investment read is that shadow AI creates budget for [[Okta]], [[Cybersecurity]], browser/DLP vendors, and services firms that can turn unmanaged usage into governed workflows. It also raises adoption friction: regulated enterprises cannot scale AI from personal accounts and policy exceptions into core workflows without solving identity, visibility, and auditability.
+
+*Sources: Okta, ["AI Agents at Work 2026: Securing the agentic enterprise"](https://www.okta.com/newsroom/articles/ai-agents-at-work-2026-agentic-enterprise-security/), May 27 2026; The Register, ["Bosses blinded by confidence about shadow AI use by workers"](https://www.theregister.com/ai-ml/2026/05/27/bosses-blinded-by-confidence-about-shadow-ai-use-by-workers/), May 27 2026.*
+
+---
+
+## Peer-belief bottleneck
+
+[[Joachim Klement]]'s May 28, 2026 read of Cullen, Faia, Guglielminetti, Perez-Truglia, and Rondinelli's [[Italy|Italian]] central-bank firm survey adds a social-learning channel to the adoption-lag problem. Managers of roughly 3,000 Italian firms were asked about their own AI/robotics adoption and their beliefs about peer adoption. Klement reports that 93% underestimated peer adoption by at least 2.5 percentage points, with the average manager underestimating adoption by roughly a quarter.
+
+The crucial split is that correcting the belief gap did not move AI adoption plans in a statistically clear way, while it did move robotics. The NBER version of the paper estimates that a 1 percentage-point increase in expected competitor adoption raised intended future robotics adoption by 0.704 percentage points, with no comparable significant AI effect.
+
+The read-through is not simply "peer pressure will accelerate AI." It is more precise: enterprise managers may be running on stale priors about how far peers have moved, but AI adoption still needs visible ROI and implementation confidence before peer information changes behavior. Robotics is more legible: a factory can see that competitors are automating a physical process, and the competitive-response channel is cleaner. For generic AI, the binding constraint still looks like workflow fit, data readiness, governance, and measurable value.
+
+*Sources: [Joachim Klement, "If your peer does it, do you do it?", May 28 2026](https://klementoninvesting.substack.com/p/if-your-peer-does-it-do-you-do-it); [Cullen et al., "The Innovation Race", NBER WP 34532](https://www.nber.org/papers/w34532).*
+
+---
+
 ## May 2026: the services-budget counter-signal
 
 [[Capgemini]]'s May 27, 2026 Capital Markets Day is useful because it reframes enterprise AI adoption from "tool rollout" to operating-model redesign. The company told investors that clients are treating AI as a broader business transformation rather than a standard IT upgrade, which means budgets can come from business functions as well as the CIO. Reuters also reported management's claim that the AI-related opportunity pipeline already exceeded $12B.
@@ -128,9 +180,17 @@ What to watch:
 ## Related
 
 - [[Agentic AI]] — exception (35% adoption, 66% seeing value)
+- [[AI adoption curve]] — diffusion curve and peer-belief channel
 - [[Model lab economics]] — context (infrastructure vs application spend)
 - [[AI hyperscalers]] — infrastructure (compute, not applications)
 - [[IT services]] — services layer that benefits if AI adoption requires integration
 - [[Capgemini]] — May 2026 example of the services-budget counter-signal
+- [[Exponential View]] — May 2026 framework: lightbulb / group drive / unit drive
+- [[Productivity J-curve]] — historical general-purpose-technology lag framework
+- [[Shadow AI]] — unmanaged adoption as a governance/security version of the adoption gap
+- [[Klarna]] — customer-service agent as Stage 2 workflow-cost example
+- [[Uber]] — AI-token spend vs useful consumer-feature output example
+- [[Robotics]] — peer-belief channel is cleaner for physical automation than for generic AI
 - [[Anysphere]] — beneficiary ([[Cursor]], coding tools)
 - [[Anthropic]] — beneficiary ([[Claude]] Code, coding tools)
+- [[Noahpinion]] — verification-labor frame for the human role inside agentic adoption
