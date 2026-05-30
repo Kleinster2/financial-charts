@@ -46,6 +46,18 @@ Key point: Arizona is ~5% of TSMC's total capacity. It cannot absorb [[Taiwan]]'
 - Reduce single-point-of-failure exposure
 - Deliberate [[Node lag as strategy]] — Arizona trails [[Taiwan]] by 1-2 nodes
 
+## May 2026 execution read - Arizona abundance
+
+[[ChinaTalk]]'s May 28 2026 interview with Ian O'Grady reframes the Arizona buildout as a state-capacity case study. The live issues are not only subsidy size or TSMC technology transfer. They are permits, power, people, roads, rail, water, apprenticeships, safety, worker facilities, Mandarin-language support for incoming engineers, schools, and coordination among TSMC, contractors, unions, community colleges, utilities, state agencies and the federal CHIPS office.
+
+The important state-level institution is the [[Arizona Commerce Authority]], which functions as a quasi-public quarterback across localities and companies. O'Grady's read is that Arizona's combination of engineering-heavy legacy industries, centralized commerce authority, and growth-state politics helps it build where other states get caught between metros, litigation and legacy-sector inertia.
+
+The official scale is now large enough to make this an institutional test rather than a single-company story. Arizona Commerce Authority says the state has won more than 60 semiconductor expansions since 2020 and more than $210B in semiconductor investment. NIST's CHIPS Program Office describes TSMC Arizona as a $65B-plus three-fab leading-edge cluster with up to $6.6B in direct federal funding, $5B in available loans, roughly 6,000 direct manufacturing jobs and more than 20,000 accumulated construction jobs.
+
+The risk is that Arizona's success becomes non-replicable. If the differentiator is a rare bundle of state capacity, water politics, technical culture, local supplier depth and population growth, then CHIPS Act execution will be geographically concentrated even if federal incentives are national. The water angle is the clearest constraint: Arizona is trying to argue that Colorado River water should be allocated by strategic economic return, not only by historical basin claims.
+
+*Sources: [[ChinaTalk]], "Arizona's Abundance Playbook," May 28 2026; Arizona Commerce Authority, "Semiconductor Advantages," accessed May 30 2026; NIST / CHIPS for America, "TSMC Arizona," accessed May 30 2026.*
+
 ## What it reveals about TSMC
 
 - Execution certainty over speed

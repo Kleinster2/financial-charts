@@ -212,6 +212,28 @@ For the investing lens, this slightly changes the clean-energy industrial-policy
 
 *Sources: [Volts, "A limited defense of Biden's everything-bagel industrial policy"](https://www.volts.wtf/p/a-limited-defense-of-bidens-everything), interview with Betony Jones, May 27 2026; [Roosevelt Institute, "The Receipts: The Untold and Underappreciated Outcomes of Biden's Clean Energy Strategy"](https://rooseveltinstitute.org/publications/the-receipts-the-untold-and-underappreciated-outcomes-of-bidens-clean-energy-strategy/), Betony Jones and Joe Peck, Apr 16 2026.*
 
+### Arizona abundance playbook
+
+[[ChinaTalk]]'s May 28 2026 interview with Ian O'Grady, senior policy adviser to Arizona Governor Katie Hobbs, turns the CHIPS Act from a federal subsidy story into a state-capacity story. The useful frame is mundane execution: permits, power, people, construction workforce, apprenticeships, local schools, water allocation, and mediation among companies, contractors, unions, community colleges, utilities, and federal agencies.
+
+Arizona's edge is not only that [[TSMC]], [[Intel]], and [[LG Energy Solution]] chose the state. It is that the state has built a quasi-public [[Arizona Commerce Authority]] as a quarterbacking institution, kept a long-serving economic-development leadership layer, and cultivated an engineering-first culture around aerospace, semiconductors, defense, water management, and growth politics. O'Grady's argument is effectively that abundance is an institutional operating model: fewer veto points, more technical coordination, and a local political story that makes industrial construction socially legible.
+
+The official numbers support the scale of the claim. Arizona Commerce Authority says the state has won more than 60 semiconductor expansions since 2020, representing more than $210B in capital investment. NIST's CHIPS Program Office describes [[TSMC Arizona expansion|TSMC Arizona]] as a $65B-plus three-fab leading-edge cluster with up to $6.6B in direct federal funding, $5B in available loans, about 6,000 direct manufacturing jobs, and over 20,000 accumulated construction jobs. That scale means the bottleneck shifts from "can Washington allocate money?" to "can a state assemble workforce, permitting, infrastructure, housing, water and political consent fast enough for federal industrial policy to become real capacity?"
+
+The market read-through is specific. If industrial policy is capacity policy, the advantaged geographies are not just low-tax states. They are places with permitting competence, utility coordination, workforce institutions, trade-school credibility, regional suppliers, and a narrative that lets communities accept construction externalities. Arizona's water politics are the live stress test: O'Grady frames Colorado River allocation in national-priority terms, arguing that no basin state converts water into advanced chips, guided missiles, and leafy greens as efficiently as Arizona. That is an industrial-policy claim disguised as a water-rights claim.
+
+*Sources: [[ChinaTalk]], "Arizona's Abundance Playbook," May 28 2026; Arizona Commerce Authority, "Semiconductor Advantages," accessed May 30 2026; NIST / CHIPS for America, "TSMC Arizona," accessed May 30 2026.*
+
+### Policy tooling and the cost of policy entrepreneurship
+
+[[ChinaTalk]]'s May 29 2026 "Adventures in Vibecoding Policy" is important less for any individual proposal than for what it reveals about the falling cost of policy entrepreneurship. Schneider used [[Claude Code]] and other coding agents to turn policy kernels around green-card procedure, Chinese biotech licensing, Chinese EV border enforcement, and a revived [[Office of Technology Assessment]] into microsites, draft arguments, rough legislative/regulatory language, and devil's-advocate pages.
+
+The narrow lesson is that AI agents can now compress the first-pass policy-research stack: issue framing, stakeholder-specific messaging, web presentation, counterargument generation, and rough legal-text ideation. The broader industrial-policy lesson is more uncomfortable: if cheap agents make policy advocacy cheaper, the scarce asset moves from memo production to taste, fact-checking, human networks, and in-person persuasion. That favours operators with domain judgment and political access, while also lowering the barrier for sloppy or manipulative policy campaigns.
+
+For this note, the connection is direct. Industrial policy is no longer only about factories and subsidies; it is also about the policy-production function that selects, advocates, defends, and iterates those interventions. AI can make the policy pipeline faster, but it does not solve the two hardest problems: whether the mechanism actually works in the real economy, and whether the political coalition can carry it through implementation.
+
+*Source: [[ChinaTalk]], "Adventures in Vibecoding Policy," May 29 2026.*
+
 ### China
 
 China's industrial policy is the most ambitious in absolute scale and most integrated across instruments:

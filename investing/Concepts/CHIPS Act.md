@@ -99,6 +99,16 @@ The **CHIPS and Science Act** (2022) provides ~$52.7B to boost U.S. semiconducto
 - But insurance assumes the insured asset survives
 - Arizona can't *replace* [[Taiwan]], only provide partial continuity
 
+### State execution layer - Arizona case
+
+The May 2026 [[ChinaTalk]] Arizona interview makes the CHIPS Act implementation problem more concrete. Federal subsidies improve project economics, but the binding constraint on the ground is state and local execution: construction labor, apprenticeships, water, power, sewer, roads, rail, permitting, community acceptance, and the ability to mediate between companies, contractors, unions, local governments and Washington.
+
+Arizona's working model is centralized quarterbacking through the [[Arizona Commerce Authority]], long-tenured economic-development leadership, and a local industrial culture already shaped by [[Intel]], aerospace, defense, water engineering and rapid population growth. That matters because the CHIPS Act is not self-executing. The money only becomes foundry capacity where a state can assemble the project stack fast enough.
+
+Official sources show why Arizona has become the cleanest test case. Arizona Commerce Authority says the state has won more than 60 semiconductor expansions since 2020, representing more than $210B in capital investment. NIST's CHIPS Program Office describes [[TSMC Arizona expansion|TSMC Arizona]] as a three-fab, $65B-plus leading-edge cluster with up to $6.6B in direct funding, $5B in loans, and more than 20,000 accumulated construction jobs. The question is whether that state-capacity model scales outside a handful of already-prepared geographies.
+
+*Sources: [[ChinaTalk]], "Arizona's Abundance Playbook," May 28 2026; Arizona Commerce Authority, "Semiconductor Advantages," accessed May 30 2026; NIST / CHIPS for America, "TSMC Arizona," accessed May 30 2026.*
+
 ---
 
 ## Effectiveness assessment

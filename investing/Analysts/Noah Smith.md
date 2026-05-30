@@ -27,6 +27,14 @@ The practical labor implication is not that humans simply disappear from knowled
 
 For the investing vault this connects [[AI labor displacement]] to [[Enterprise AI adoption]]: if agentic systems need humans to keep them on task, then the displacement story is also a management and governance story. Firms do not just buy models; they need operating processes that turn agent output into verified work.
 
+### Liberal nationalism as political-economy frame (May 2026)
+
+Smith's May 29 2026 Noahpinion essay argues that technocratic policy advice now has to be nested inside an explicit account of what kind of country the United States should be. His preferred frame is "liberal nationalism": a civic, integrationist national identity capable of supporting immigration, industrial policy, public investment, and social cohesion without collapsing into ethnic nationalism or anti-corporate left populism.
+
+The investing relevance is indirect but real. Industrial policy needs a political coalition durable enough to survive fiscal stress, tariff pain, immigration conflict, and construction externalities. Smith's argument is that the 20th-century US formula - national greatness plus liberal inclusion - was the ideology that made mass immigration, technological growth, military mobilization and prosperity politically compatible. If that formula fails, the market-facing consequence is not just worse rhetoric; it is weaker state capacity and more volatile policy execution.
+
+*Source: Noah Smith, [America needs liberal nationalism back](https://www.noahpinion.blog/p/america-needs-liberal-nationalism), Noahpinion, May 29 2026.*
+
 ## Related
 
 - [[Noahpinion]] - publication
@@ -39,3 +47,4 @@ For the investing vault this connects [[AI labor displacement]] to [[Enterprise 
 
 - [Noahpinion - About](https://www.noahpinion.blog/about), accessed May 29 2026.
 - Noah Smith, [Your future job will be to keep AI on task](https://www.noahpinion.blog/p/your-future-job-will-be-to-keep-ai), Noahpinion, May 27 2026.
+- Noah Smith, [America needs liberal nationalism back](https://www.noahpinion.blog/p/america-needs-liberal-nationalism), Noahpinion, May 29 2026.

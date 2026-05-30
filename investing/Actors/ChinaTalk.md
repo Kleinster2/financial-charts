@@ -164,6 +164,16 @@ The through-line matters for the vault. China's current robotics edge is not onl
 
 ---
 
+## May 28-29, 2026 - abundance and policy tooling
+
+The May 28 "Arizona's Abundance Playbook" interview is a useful example of ChinaTalk's best mode outside China proper: translating state-capacity details into technology and industrial-policy implications. The piece treats Arizona's [[TSMC Arizona expansion|TSMC]] / [[Intel]] / [[LG Energy Solution]] cluster as a practical governance problem - workforce, permitting, water, power, roads, rail, community colleges, contractors, unions, and the [[Arizona Commerce Authority]] as a coordinating institution. That makes it a companion piece to [[Industrial policy]] and [[CHIPS Act]], not just a local economic-development story.
+
+The May 29 "Adventures in Vibecoding Policy" piece is the other side of the same theme: AI agents are reducing the cost of producing the first layer of policy entrepreneurship. Schneider used [[Claude Code]] and other coding agents to create policy microsites, draft argument stacks, rough legislative/regulatory text, and devil's-advocate pages around immigration, biotech, Chinese EVs, and a revived [[Office of Technology Assessment]]. The lasting read is not that agents replace policy expertise. It is that memo/web/proposal production is becoming cheap, which shifts the bottleneck to judgment, verification, human networks and persuasion.
+
+*Sources: [ChinaTalk, "Arizona's Abundance Playbook"](https://www.chinatalk.media/p/arizonas-abundance-playbook), May 28 2026; [ChinaTalk, "Adventures in Vibecoding Policy"](https://www.chinatalk.media/p/adventures-in-vibecoding-policy), May 29 2026.*
+
+---
+
 ## Related
 
 - [[Jordan Schneider]] — founder and editor-in-chief
