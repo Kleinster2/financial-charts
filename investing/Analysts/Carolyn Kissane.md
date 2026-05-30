@@ -42,6 +42,7 @@ Kissane's spring 2026 coverage tracked the [[2026 Iran conflict market impact|Ir
 | Apr 23 | "Energy Markets Are Working for Putin" | Russia profiting eight weeks in |
 | Apr 28 | "Two Months and Counting" | Cumulative cost of war still building |
 | Apr 29 | "Go Your Own Way" | UAE OPEC exit; what cartel "no longer fully controls" |
+| May 29 | "Never Comin' Back" | Even if Hormuz reopens, governments/companies/consumers have learned to adapt to constrained oil availability |
 
 The Apr 29 "Go Your Own Way" piece is the strongest analytical complement to the [[2026 UAE OPEC exit]] event note — frames the UAE departure as a structural-rather-than-tactical reduction of OPEC's market-buffer function. Reads alongside [[Felipe Germini]]'s May 1 "OPEC for Dummies" piece as confirming the OPEC-decay thesis from two different analytical angles.
 
@@ -50,6 +51,12 @@ The Apr 29 "Go Your Own Way" piece is the strongest analytical complement to the
 ## Analytical lens
 
 Kissane's recurring framing across the spring is the futures-vs-physical disconnect — the financial market repeatedly prices peace and resolution that the physical market (cargo flows, refinery operations, infrastructure status) does not yet support. This is the same analytical gap [[Helima Croft]] tracks at the analyst-desk level and that [[Felipe Germini]] tracks at the trader/refining-physical level. Kissane's distinct contribution is policy-side context — the political economy of why the gap persists (Gulf state hedging, Russia's structural beneficiary status, US administration narrative incentives).
+
+Her May 29 public post, "Never Comin' Back," adds demand adaptation as the policy-side extension of that lens. The useful claim is not simply that Hormuz remains risky. It is that the crisis taught countries how to operate with less vulnerable oil: stockpile drawdowns, refinery adjustments, coal substitution in some petrochemical feedstocks, slower inventory building, work-from-home/four-day-week measures, cooling restrictions, rationing, subsidies and tax relief. She frames this as a demand-side story that can survive a ceasefire because operating practices and energy-security assumptions do not reset automatically.
+
+The investing-vault use is to connect [[Hormuz Permanent Risk Premium]] to lower-but-stickier demand, not just higher-and-stickier supply risk. The crisis can both reduce the $200 panic case and raise the long-run value of redundancy, diversification and non-Hormuz supply routes.
+
+*Source: [Never Comin' Back](https://carolynkissane157206.substack.com/p/never-comin-back), May 29 2026.*
 
 ---
 

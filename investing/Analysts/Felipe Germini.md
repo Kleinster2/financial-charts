@@ -40,6 +40,7 @@ Germini's late-April / early-May coverage captured a turning-point in the [[2026
 | Apr 30 | "The Strait That Broke the Textbook" | Reported two cargoes crossing Hormuz — first observed live transits since selective-regime/blockade phase |
 | May 1 | "OPEC for Dummies: The Most Powerful Cartel Looking for an Exit" | Post-UAE-exit OPEC structural-degradation framing |
 | May 1 | "The Market Has Priced the Blockade. It Hasn't Priced the Reopening" | Front-month Brent mispriced symmetrically on both reopening upside and continued-blockade downside |
+| May 29 | "The Freight Market Already Priced the Deal" / "The Reopening Trap" | Freight repriced the reopening before physical/insurance/transit normalization; Brazil and Atlantic Basin barrels gained bargaining power |
 
 The two May 1 pieces together form the analytical pair that complements [[Helima Croft]]'s "fine print on reopening matters" framing — Croft from the analyst desk emphasizing insurer/shipper certainty as gating; Germini from the physical-trader frame emphasizing curve mispricing relative to both tail scenarios.
 
@@ -52,6 +53,20 @@ Germini's May 27 ENERGY Pipeline piece, "The Insurance Geometry That Replaced th
 The useful addition is the three-party geometry. Tehran floated "Hormuz Safe," a [[Bitcoin]]-settled insurance/safe-passage platform reportedly tied to the [[IRGC]]'s Khatam al-Anbiya commercial arm; the International Group of P&I Clubs warned that paying a sanctioned entity for safe-passage cover could void the underlying P&I policy; and [[ADNOC]] began pricing voyages with explicit war-risk surcharges in FOB terms. That turns reopening into a paper-market problem: the mine or missile headline can fade before the charter party, P&I cover, demurrage language, and voyage-specific war-risk quote normalize.
 
 Source access caveat: the post was paid below the public section. The gated trade map, catalyst calendar, Brazil diesel reroute, and presentation pack were not ingested.
+
+---
+
+## May 29, 2026 — reopening trap and USGC-Brazil freight
+
+Germini's May 29 pair is now the cleanest "priced deal vs normalized route" update in the Hormuz stack.
+
+In "The Freight Market Already Priced the Deal," the public section reports the Platts Clean USGC-Brazil 38kt MR assessment falling from $137.36/t on Apr 14 to $40.70/t on May 26; Worldscale fell from an estimated WS 585 late-March peak to WS 200, roughly the Feb 2 pre-war level. That is a huge confirmation of the market's ceasefire/reopening trade. It is also not full normalization: the $40.70/t print remains above the pre-war $28-35/t range, and the vessel stack is still distorted by LR2 clean tankers switching into dirty crude and Cape of Good Hope rerouting absorbing voyage days.
+
+In "The Reopening Trap," the public section turns that route-specific freight signal into the broader framework: the right question is not whether Hormuz reopens, but which premium survives reopening. Germini's residue list includes Iranian management/toll claims, Atlantic Basin barrels filling the Gulf hole, Brazil's pre-salt as an Asian replacement barrel, UAE/OPEC spare-capacity loss, and buyers that may keep some diversified supply routes after the headline crisis fades.
+
+Source access caveat: both posts are paid after the public section. The scenario tables, variables, trading views, board deck, and paid catalyst maps were not ingested.
+
+*Sources: [The Freight Market Already Priced the Deal. The Strait Has Not Been Told.](https://fgermini.substack.com/p/the-freight-market-already-priced), May 29 2026; [The Reopening Trap](https://fgermini.substack.com/p/the-reopening-trap), May 29 2026.*
 
 ---
 

@@ -55,6 +55,14 @@ Blue Moon program:
 
 Second human landing system after [[SpaceX]] Starship HLS.
 
+### Moon Base delivery task order (May 2026)
+
+NASA's May 26, 2026 Moon Base update added a nearer-term Blue Origin surface-logistics role. NASA awarded Blue Origin a $188M CLPS task order, with a $280.4M option period, to deliver lunar terrain vehicles to the Moon's South Pole using Blue Moon Mark 1. That puts Blue Moon in the critical path before the later crewed Mk 2 role: Blue Origin has to prove uncrewed delivery, not just win the Artemis V human-lander slot.
+
+The task order makes the New Glenn cadence issue more material. A private Blue Origin valuation is not directly investable, but public space proxies will benchmark the whole sector against whether Blue can turn Blue Moon, New Glenn, and Florida upper-stage capacity into dependable mission delivery.
+
+*Source: [NASA Moon Base update](https://www.nasa.gov/news-release/nasa-provides-update-on-moon-base-rovers-landers-missions/), May 26 2026.*
+
 ---
 
 ## [[Project Sunrise]] — 51,600-satellite orbital data center (Mar 2026)

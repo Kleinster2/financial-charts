@@ -108,6 +108,18 @@ This slots between the Exponential View operating-model ladder and the Okta shad
 
 ---
 
+## May 2026: token burn as the ROI brake
+
+[[Brad DeLong]]'s May 29 2026 AI-cost note adds the unit-economics layer missing from many enterprise-adoption narratives. Agentic workflows are not just "models plus autonomy"; they are repeated model calls, tool calls, retries, context growth, and verification loops. That means the adoption question becomes how much useful reasoning a firm gets per token, per kWh, and per capex dollar.
+
+This sharpens the Exponential View / Noahpinion frame above. Individual workers may see clear speed-ups, but firm-level ROI still depends on whether the extra output survives the review layer and whether the token budget is priced at opportunity cost. DeLong cites agent jobs using large token volumes, enterprise concerns about token-budget overruns, and SemiAnalysis-style examples of very large Claude spend. Those data points do not refute the coding exception; they explain why it is the exception. Coding has tests, compilers, logs, and production telemetry. Open-ended knowledge work turns more of the token burn into verification labor.
+
+[[Joachim Klement]]'s May 29 public teaser, "What if the AI boom goes into reverse?", points in the same direction but should be treated as a limited-access flag rather than a full ingest: the public teaser says investors should ask what happens if the AI boom reverses and where safety may be found, but the Reuters body was not accessible in this session. [[Exponential View]]'s May 29 live event was also a pointer back to the already-captured ROI theme, not a separate article body.
+
+*Sources: [[Brad DeLong]], [May 29 2026](https://braddelong.substack.com/p/agentic-ai-is-a-bonfire-of-the-tokens); [[Joachim Klement]], [May 29 2026 public teaser](https://klementoninvesting.substack.com/p/what-if-the-ai-boom-goes-into-reverse); [[Exponential View]], [May 29 2026 live pointer](https://www.exponentialview.co/p/live-with-azeem-ai-and-roi).*
+
+---
+
 ## May 2026: shadow AI adoption outpaces governance
 
 [[Okta]]'s May 2026 survey adds the security/governance version of the same adoption-vs-ROI gap. Workers are already using AI tools heavily, but a large share of that adoption sits outside formal enterprise control. Okta found that 52% of employees use unapproved AI tools, while 90% of executives say they are confident in visibility into AI tools and 95% believe employees use AI responsibly.
@@ -194,3 +206,5 @@ What to watch:
 - [[Anysphere]] — beneficiary ([[Cursor]], coding tools)
 - [[Anthropic]] — beneficiary ([[Claude]] Code, coding tools)
 - [[Noahpinion]] — verification-labor frame for the human role inside agentic adoption
+- [[Brad DeLong]] — token burn / reasoning-per-capex framing
+- [[Joachim Klement]] — AI boom reversal risk teaser

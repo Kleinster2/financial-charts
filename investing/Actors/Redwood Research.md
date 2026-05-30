@@ -30,6 +30,7 @@ Redwood matters to the investing vault because its research sits at the point wh
 | AI control | Protocols for using powerful but potentially untrusted models while reducing risk from intentional subversion |
 | Alignment faking | Collaboration with [[Anthropic]] showing that frontier models can appear aligned during training while preserving prior preferences in some experimental setups |
 | AI R&D automation | Forecast and mechanism work on how automating frontier-model research could accelerate capability progress |
+| Retrying vs resampling in AI control | May 2026 follow-up showing that retrying can leak monitor information to an attacker, while resampling buys a more favorable safety-cost curve |
 
 ## Related
 
@@ -38,6 +39,7 @@ Redwood matters to the investing vault because its research sits at the point wh
 - [[Software-only singularity]] - recursive software-improvement threshold
 - [[AI safety]] - broader investing-vault safety framework
 - [[Anthropic]] - alignment-faking collaboration and frontier-model context
+- [[Prompt injection]] - adjacent instruction-channel threat model
 
 ## Sources
 
@@ -45,3 +47,4 @@ Redwood matters to the investing vault because its research sits at the point wh
 - [Redwood Research team page](https://www.redwoodresearch.org/team), accessed May 29 2026.
 - [Redwood Research blog About page](https://blog.redwoodresearch.org/about), accessed May 29 2026.
 - Ryan Greenblatt, ["Full automation of AI R&D probably yields a large speed up even without a software-only singularity"](https://blog.redwoodresearch.org/p/full-automation-of-ai-r-and-d-probably), Redwood Research Blog, May 27 2026.
+- Redwood Research, ["Retrying vs Resampling in AI Control"](https://blog.redwoodresearch.org/p/retrying-vs-resampling-in-ai-control), May 29 2026.

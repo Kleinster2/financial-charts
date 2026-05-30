@@ -233,6 +233,14 @@ All Arctic and frontier projects mothballed — sanctions cut off specialized eq
 
 Iran conflict provides Russia "tens of billions of extra revenues per annum" but changes nothing structurally. Short-term cash windfall from higher prices doesn't solve the fundamental investment climate or OPEC+ constraints driving long-term decline.
 
+[[Robin J. Brooks]]' May 29 update quantifies the near-term fiscal channel. His public post argues the [[Strait of Hormuz]] closure lifted [[Urals crude]] both through the general oil deficit and through a narrower Russia-specific channel: US sanctions waivers reduced the stigma discount on Russian barrels, so the Urals discount versus Brent nearly disappeared in April. Brooks reports Russian oil-tax collection rising to about $10B in April from $4B in March, the highest level in two years.
+
+The governance point is as important as the price point. Brooks argues the windfall cannot be blamed only on Washington's Iran-war waivers because the EU allowed the shadow-fleet problem to persist. In his framing, shadow-fleet vessels account for around two-thirds of Russian oil exports from Baltic ports, and Baltic ports are roughly half of Russia's seaborne oil exports. The EU has sanctioned many vessels, but enforcement remains weak when ships can keep operating and when Greece, Cyprus and Malta protect shipowner interests inside EU sanctions negotiations.
+
+Investment read-through: the windfall is a fiscal bridge, not a structural repair. It can finance the war machine and buy time for the budget, but it does not solve Russia's frontier-project sanctions, infill-drilling trap, OPEC+ constraints, or long-run decline path.
+
+*Source: [Robin J. Brooks, "Russia's Massive Oil Price Windfall"](https://robinjbrooks.substack.com/p/russias-massive-oil-price-windfall), May 29 2026.*
+
 ### Infill drilling trap
 
 Companies pursue infill drilling to accelerate revenue in current low-price environment, but this cannibalizes future production — accelerates near-term cash flow at the cost of sharper future decline curves.
@@ -287,4 +295,3 @@ Full war mobilization + severe underinvestment could trigger 1988-95 style colla
 ### Energy
 - [[Oil]] — major producer
 - [[LNG]] — [[Europe]] replaced Russian gas
-

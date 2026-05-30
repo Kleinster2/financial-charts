@@ -1191,3 +1191,15 @@ The contradiction in the diplomatic descriptions is what matters for pricing. Th
 | Escalation case | $150-180 | Physical shortages, product scarcity, recession channel; see May 17 scenario range |
 
 The May 29 tape is therefore not a simple "peace deal means oil down" print. It is a transition from acute scarcity pricing to regime-risk pricing.
+
+### Theme 2 addendum - commodity inflation and windfall distribution
+
+The May 29 Substack energy cluster adds a second map to the price-state table: where the remaining premium goes after the panic trade fades.
+
+1. [[Russia]] captures part of the residue. [[Robin J. Brooks]]' May 29 public post argues that the Iran war lifted [[Urals crude]] through two channels: the global oil deficit lifted all prices, and US sanctions waivers reduced the stigma discount on Russian barrels. Brooks reports Russian oil-tax collection jumping to about $10B in April from $4B in March, the highest level in two years. That makes the Hormuz shock a fiscal transfer to Moscow even if Brent avoids the $150-200 extreme case.
+2. The US [[Strategic Petroleum Reserve]] has moved from psychological price tool to operating buffer. EIA weekly data show SPR stocks falling from 384.095M barrels on May 8 to 374.175M on May 15 and 365.112M on May 22; the May 15 weekly draw was about 9.92M barrels. The Merchant's News public section interprets that draw as refinery support rather than pump-price theater, especially with refinery utilization at 91.6% in the May 15 EIA report and 94.5% on May 22.
+3. Central banks get a cleaner theoretical reason to look through the shock, but not a free pass. The May 2026 NBER paper by Thomas Drechsel, Michael McLeay, Silvana Tenreyro and Enrico Turri argues that optimal policy for commodity-input economies can look through both direct and indirect commodity-price effects when expectations and wages remain contained. That supports the Merchant's policy frame, but it also makes wage growth and expectations the real tripwire.
+
+This matters for the oil timeline because the end of the acute Hormuz price spike does not end the macro transmission. It redistributes the shock into fiscal windfalls for sanctioned producers, strategic-reserve depletion for importers, and a central-bank reaction-function problem where energy-driven headline CPI is tolerated until it starts contaminating wages or expectations.
+
+*Sources: [Robin J. Brooks, "Russia's Massive Oil Price Windfall"](https://robinjbrooks.substack.com/p/russias-massive-oil-price-windfall), May 29 2026; [The Merchant's News, "Central Banks Just Lost The Fight Against Commodity Inflation. 10 Million SPR Barrels Just Proved It."](https://themerchantsnews.substack.com/p/central-banks-just-lost-the-fight), May 29 2026 (paid after public section); EIA, [U.S. Weekly Supply Estimates](https://www.eia.gov/dnav/pet/pet_sum_sndw_dcus_nus_w.htm), accessed May 30 2026; Thomas Drechsel, Michael McLeay, Silvana Tenreyro and Enrico D. Turri, ["How Should Central Banks Respond to Commodity Price Shocks?"](https://www.nber.org/papers/w35164), NBER Working Paper 35164, May 2026.*

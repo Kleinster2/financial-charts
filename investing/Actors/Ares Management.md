@@ -84,6 +84,14 @@ Largest self-originating direct lender to US and European middle markets. Ares C
 - Speed and certainty — sponsors prefer reliability
 - Low leverage — positioned to gain share in credit cycle
 
+## ASIF redemption stress and liquidity-option read (Q1 2026)
+
+Ares is better diversified than [[Blue Owl]] and has a stronger direct-lending brand, but its wealth-channel product still faced the same semi-liquid wrapper constraint in Q1 2026. [[Shanaka Anslem Perera]]'s May 2026 process-verification framing records ASIF receiving redemption requests equal to 11.6% of shares, repurchasing $524.5M under the 5% cap, and requiring unfilled tenders to resubmit.
+
+The read-through is not that Ares credit suddenly broke. It is that the retail-friendly private-credit wrapper sold periodic liquidity, not continuous exit. Ares can remain a scaled direct lender with real underwriting advantages while ASIF still demonstrates the collective-liquidity-option problem: when too many holders exercise at once, NAV is process-verified but cash is rationed.
+
+*Source: [[Shanaka Anslem Perera]], [May 29 2026](https://shanakaanslemperera.substack.com/p/the-great-unverification).*
+
 ---
 
 ## Financials
@@ -171,6 +179,7 @@ The structural side-effect: Altice initially hired [[Kirkland & Ellis]] (alongsi
 - [[Private equity secondaries]] — Ares Secondaries via 2021 Landmark Partners acquisition
 - [[Continuation fund]] — GP-led practice
 - [[Evergreen private capital vehicles]] — Ares Wealth Solutions distribution
+- [[Private credit retail liquidity crisis 2026]] — ASIF redemption stress and semi-liquid wrapper risk
 - [[ARCC]] — Ares Capital Corp, largest US BDC
 - [[Coller Capital]] — secondaries peer
 - [[HarbourVest]] — secondaries peer

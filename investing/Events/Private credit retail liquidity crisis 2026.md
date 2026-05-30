@@ -708,6 +708,16 @@ US Treasury OFR estimates bank lending to private credit funds could be **$540B*
 
 Trump decision to allow 401(k) retirement savings accounts to invest in private markets — opening the largest-ever retail channel at the exact moment existing retail investors are fleeing. The industry's largest untapped capital pool (**$7T+ in 401(k) assets**) becomes accessible just as the credibility of the retail private credit model is under fire.
 
+### Process-verification read (May 2026)
+
+[[Shanaka Anslem Perera]]'s May 2026 "Great Unverification" note helps classify the crisis. The issue is not that every private-credit mark is automatically false. It is that the system has migrated from price verification to process verification. Under SEC Rule 2a-5-style fair-value practice, boards and valuation designees can certify methods, pricing-service oversight, testing, and governance. That does not mean every fund interest could clear today at NAV if investors collectively demanded cash.
+
+The Blue Owl data shows the split. The Feb 2026 selected loan sale cleared at 99.7 cents on the dollar across 128 borrowers and 27 industries, which is evidence of institutional demand for a selected pool. But the Apr 2026 OTIC and OCIC tenders showed the wrapper-level liquidity shortage: OTIC investors tendered 40.7% of shares and OCIC investors tendered 21.9%, while each fund honored the 5% quarterly cap. In liquidity terms, that is roughly 12 cents of liquidity per tendered OTIC dollar and 23 cents per tendered OCIC dollar.
+
+[[Ares Management]] adds the same pattern at a less extreme level. ASIF received redemption requests equal to 11.6% of shares, repurchased $524.5M under the 5% cap, and required unfilled tenders to resubmit. The cap mechanism worked as designed, but it revealed that semi-liquid credit funds are selling limited periodic liquidity rather than continuous market exit.
+
+*Source: [[Shanaka Anslem Perera]], [May 29 2026](https://shanakaanslemperera.substack.com/p/the-great-unverification).*
+
 ---
 
 ## What to watch

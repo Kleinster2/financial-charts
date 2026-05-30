@@ -57,6 +57,18 @@ Greenblatt's caveat matters here: full AI R&D automation may arrive after some e
 
 ---
 
+## Agentic inference cost and token-budget proof
+
+The May 2026 ROI debate puts a second hurdle in front of model labs: they must prove not only that training capex creates better models, but that agentic inference can earn back its cost. [[Brad DeLong]]'s token-burn frame is the useful discipline. More-runs reasoning works best when the environment provides crisp feedback - tests, compilers, API responses, simulations, or other cheap verification. In those domains, extra model calls can produce better work. In fuzzy domains, extra calls may mostly create more output that humans have to inspect.
+
+That distinction matters for lab economics. [[Anthropic]]'s enterprise and coding mix can be economically real while still failing to prove that every model-lab workload has attractive inference margins. [[OpenAI]] and [[Anthropic]] can both show massive demand and still face a public-market question about whether the marginal token is being sold above its full infrastructure opportunity cost.
+
+[[Joachim Klement]]'s May 29 Reuters-linked teaser is therefore a useful watch flag, not a full source: the public teaser says the market should consider where safety lies if the AI boom reverses, but the Reuters body was not accessible here. The right vault treatment is to record the risk prompt and keep the economics grounded in accessible sources.
+
+*Sources: [[Brad DeLong]], [May 29 2026](https://braddelong.substack.com/p/agentic-ai-is-a-bonfire-of-the-tokens); [[Joachim Klement]], [May 29 2026 public teaser](https://klementoninvesting.substack.com/p/what-if-the-ai-boom-goes-into-reverse).*
+
+---
+
 ## May 2026 China price-floor test
 
 [[DeepSeek]]'s May 23, 2026 V4-Pro pricing update is the opposite pressure point: instead of asking investors to finance frontier burn, a Chinese lab is making a flagship-model API discount permanent. The official V4-Pro output price is now $0.87 per million tokens after the May 31 promotional window, down from $3.48, with cache-hit input at $0.003625 per million tokens.
@@ -147,3 +159,4 @@ The counter: Coding tools require trust, integration, support — not just raw m
 - [[Superintelligence]] — long-term goal driving lab investment
 - [[AI R&D automation]] — why compute can become research labor, not just serving capacity
 - [[Long Anthropic]] — thesis (capital efficiency matters)
+- [[Brad DeLong]] — agentic token-burn economics

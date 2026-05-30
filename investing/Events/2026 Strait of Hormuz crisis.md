@@ -677,6 +677,28 @@ The same piece identifies the late-May fault line: Tehran's "Hormuz Safe" safe-p
 
 *Sources: [[Preston Stewart]], ["Iran Just Tried Mining The Strait of Hormuz"](https://prestonstew.substack.com/p/iran-just-tried-mining-the-strait), May 26 2026; [Reuters via GMA News](https://www.gmanetwork.com/news/topstories/world/988962/us-forces-conducted-self-defense-strikes-in-southern-iran-report/story/), May 26 2026; [The Aviationist](https://theaviationist.com/2026/05/26/u-s-launches-defensive-strikes-in-iran/), May 26 2026; [Reuters via StreetInsider](https://www.streetinsider.com/Reuters/Tanker%2Breports%2Bexternal%2Bexplosion%2Boff%2BOman%2Bcoast%2C%2Bcrew%2Bsafe%2C%2BUKMTO%2Bsays/26549727.html), May 26 2026; [Escalation Trap, "The Price of Oil Is the Real Iran Deal"](https://escalationtrap.substack.com/p/the-price-of-oil-is-the-real-iran), May 27 2026 (paid; public preview only); [Felipe Germini / ENERGY Pipeline, "The Insurance Geometry That Replaced the Strait"](https://fgermini.substack.com/p/the-insurance-geometry-that-replaced), May 27 2026 (public section only); [Reuters via MarketScreener](https://ca.marketscreener.com/news/oil-steadies-as-market-awaits-possible-us-iran-ceasefire-deal-ce7f5ddbd988ff24), May 29 2026; [AP](https://apnews.com/article/iran-us-war-ceasefire-nuclear-talks-cac5206df0f0c7b79fe9321c08d63096), May 29 2026.*
 
+### May 29 Substack theme read - freight prices a deal before the strait normalizes
+
+The May 29 newsletter cluster sharpens the same distinction from three angles: financial markets can remove the panic premium before the operating system returns to its pre-war state.
+
+[[Felipe Germini]]'s public section in "The Freight Market Already Priced the Deal" shows the clean-products route from the US Gulf Coast to Brazil repricing ahead of physical normalization. The Platts Clean USGC-Brazil 38kt MR assessment fell from $137.36/t on Apr 14 to $40.70/t on May 26, and the Worldscale quote fell from an estimated WS 585 peak in late March to WS 200, near the pre-war Feb 2 level. That is a freight-market vote that the strait will reopen, not proof that the vessel stack has normalized. Germini's same public section still flags a residual premium versus the pre-war $28-35/t range because clean tanker capacity did not instantly return: roughly 68 LR2s had switched into dirty crude trading during the crisis, and Cape of Good Hope rerouting still absorbed 10-14 extra voyage days on Asia-Europe lanes.
+
+His later May 29 "Reopening Trap" public section makes the trading question explicit: "will Hormuz reopen?" is now too binary. The live question is what survives the reopening. Germini reports Iranian state-media language that treats reopening as incomplete unless it reflects Tehran's management role, and he frames the seven-figure passage charge as evidence that a fee-bearing waterway is not a neutral commercial artery. The same piece argues that the physical crude map has shifted while headlines focused on diplomacy: Atlantic Basin exports have risen since February, with US, Brazilian, Canadian, Kazakh and Venezuelan barrels moving east to replace Gulf supply. Brazil is the most important incremental example because pre-salt crude is low-cost, lower-carbon and already scaled enough to function as an Asian replacement barrel.
+
+[[Carolyn Kissane]]'s public "Never Comin' Back" post adds the demand-side mirror. Before Feb 28, roughly 130-150 vessels per day moving through Hormuz was treated as vulnerable but dependable. The past three months taught governments and companies that the strait can be functionally constrained without a formal closure. Her useful addition is that this is no longer only a supply story: China and other Asian consumers have learned to operate with lower import volumes through stockpile use, refinery adjustments, coal substitution in some petrochemical feedstocks, slower inventory building and conservation. If some of those emergency responses persist, the post-war demand baseline is lower and the crisis residue is a changed operating model, not just a price chart.
+
+The market read-through: Theme 2 moves the crisis note from "deal or no deal" to three separate states:
+
+| State | What must normalize | Why it matters |
+|---|---|---|
+| Headline reopening | Diplomatic framework, de-mining schedule, public permission for traffic | Already priced by Brent and USGC-Brazil freight |
+| Commercial reopening | P&I cover, war-risk quotes, charter-party terms, bankable voyage economics | Determines whether independent charterers can actually use the route |
+| Strategic normalization | No toll/fee regime, no Iranian veto, no durable emergency-demand behavior | Determines whether the pre-Feb 28 energy-security assumption returns |
+
+Theme 2 is therefore a residue test. If freight, insurance, reserves, supply-chain planning and demand policy do not revert together, the crisis is ending as an acute shock but continuing as a [[Hormuz Permanent Risk Premium]].
+
+*Sources: [Felipe Germini / ENERGY Pipeline, "The Freight Market Already Priced the Deal. The Strait Has Not Been Told."](https://fgermini.substack.com/p/the-freight-market-already-priced), May 29 2026 (paid after public section); [Felipe Germini / ENERGY Pipeline, "The Reopening Trap"](https://fgermini.substack.com/p/the-reopening-trap), May 29 2026 (paid after public section); [Carolyn Kissane / Energy Common Sense, "Never Comin' Back"](https://carolynkissane157206.substack.com/p/never-comin-back), May 29 2026.*
+
 ## Analyst reaction to ceasefire (Apr 8)
 
 The ceasefire exposed a sharp split between physical-market and financial-market analysts:

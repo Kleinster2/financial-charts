@@ -379,6 +379,21 @@ Brooks also uses the 2022 [[Russia]] oil-price-cap scare as the political analog
 
 *Source: [Why did the Brent oil price not go to $200?](https://robinjbrooks.substack.com/p/why-did-the-brent-oil-price-not-go), May 27 2026.*
 
+### "Russia's Massive Oil Price Windfall" (May 29)
+
+Brooks' May 29 public post is the fiscal-distribution counterpart to his May 27 price-elasticity correction. The May 27 piece explains why Brent did not need to go to $200; the May 29 piece asks who still captured the upside from the realized oil shock. His answer is [[Russia]].
+
+Mechanism:
+- The [[Strait of Hormuz]] closure lifted the whole oil complex.
+- [[Urals crude]] rose disproportionately because US sanctions waivers made Russian barrels easier to buy during the shortage, compressing the Urals discount to [[Brent crude]].
+- Russian oil-tax collection rose to about $10B in April from $4B in March, the highest level in two years.
+
+Brooks' sharper institutional claim is that the EU shares responsibility with the US. He attributes much of the shadow-fleet workaround to European shipping interests that sold vessels into the Russian ecosystem and then limited tougher EU action through Greece, Cyprus and Malta. His public post says shadow-fleet vessels are about two-thirds of Russian oil exports out of Baltic ports, and Baltic ports are about half of Russia's seaborne oil exports.
+
+Vault read-through: this belongs in [[Russia]] as a temporary war-finance windfall, not as a reversal of the long-run Russian oil-sector decline thesis. It also links to [[Hormuz Permanent Risk Premium]] because the same Gulf shock that failed to produce $200 Brent still redistributed rents to sanctioned producers and weakly enforced shadow fleets.
+
+*Source: [Russia's Massive Oil Price Windfall](https://robinjbrooks.substack.com/p/russias-massive-oil-price-windfall), May 29 2026.*
+
 ### "Can Japan escape its debt trap?" (May 28)
 
 Brooks' May 28 Japan post extends his May 8-9 G10 debt/yield work into a country-specific mechanism. His argument is that Japan's long-end yields are still below equilibrium because the [[BOJ]] remains a large buyer of [[JGB]]s even after formal [[Yield curve control|YCC]] ended. The missing risk premium then appears in the [[Japanese yen|yen]]: real effective yen weakness becomes the adjustment valve for a bond market that is still partially suppressed.

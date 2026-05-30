@@ -103,6 +103,12 @@ The fastest-growing channel — and now the one under stress:
 
 This is the retail pipeline that the [[Private credit retail liquidity crisis 2026]] is now testing. The industry scaled a nearly $500B semi-liquid base — mostly direct lending — on the assumption that redemptions would stay within 5% quarterly caps.
 
+### Verification clocks and the retail-wrapper problem
+
+[[Shanaka Anslem Perera]]'s May 29 2026 "Great Unverification" frame is a useful overlay on the retail-private-credit stress. The issue is not only whether a given loan book is good or bad. It is which verification clock investors are using: continuous market prices, periodic marks, board/process attestations, model outputs, actuarial assumptions, or supervisory review.
+
+Semi-liquid private-credit funds sit in the awkward middle. Their NAVs can be process-verified under fair-value rules while their investor base wants market-like exit liquidity. When redemptions hit the 5% tender cap, the product reveals that it sold a limited collective liquidity option, not continuous market verification. That is why [[Blue Owl]] can sell a selected loan pool near par and still have OTIC/OCIC investors receive only prorated liquidity: the sale validates a slice, not the exit value of the entire wrapper.
+
 ### Dry powder
 
 | Strategy | Dry powder (mid-2025) |
@@ -248,6 +254,8 @@ See [[Tokenized private shares]] for risks.
 - [[Alternative asset manager valuation]] — fee-based valuation framework
 - [[Private capital in defense tech]] — sub-hub on VC/PE/sovereign capital mobilizing into defense tech since 2022
 - [[Private capital in European defense tech]] — regional sub-sub-hub (European slice; sovereignty tensions and US-VC-led rounds)
+- [[Evergreen private capital vehicles]] — semi-liquid wrapper and liquidity-option mechanics
+- [[Shanaka Anslem Perera]] — verification-clock framing
 
 ### Platforms
 - [[Forge Global]] — secondary platform (being acquired by [[Charles Schwab]])

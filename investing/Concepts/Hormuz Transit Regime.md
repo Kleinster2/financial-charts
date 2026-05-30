@@ -51,6 +51,24 @@ This is the practical version of "open but not normalized." If the Iranian safe-
 
 *Source: [Felipe Germini / ENERGY Pipeline, "The Insurance Geometry That Replaced the Strait"](https://fgermini.substack.com/p/the-insurance-geometry-that-replaced), May 27 2026. Public section only.*
 
+## May 29, 2026 - freight reprices before the transit regime disappears
+
+The May 29 ENERGY Pipeline pair adds a clean market signal to the legal/insurance note. Germini reports the Platts Clean USGC-Brazil 38kt MR route falling from $137.36/t on Apr 14 to $40.70/t on May 26, while Worldscale fell back to WS 200, near its Feb 2 pre-war level. That tells us clean-products freight priced the diplomatic deal before Hormuz had actually returned to neutral passage.
+
+The important detail is what did *not* normalize. The $40.70/t print still sat above the pre-war $28-35/t range; Germini attributes the residual premium to vessel-supply changes, including roughly 68 LR2 clean tankers that had switched into dirty crude trading and Asia-Europe Cape rerouting that still absorbs 10-14 extra voyage days. In other words, the transit regime can disappear from the headline before it disappears from the available-tonnage map.
+
+His later "Reopening Trap" public section frames the same point from Tehran's side. If Iran still claims management authority, keeps a seven-figure fee/toll concept alive, or treats reopening as incomplete unless it reflects Iranian arrangements, then the operating state is not pre-war Hormuz. It is a lower-stress version of the same permissioned regime.
+
+This note should therefore distinguish three things in future updates:
+
+| Layer | Normalization evidence | Failure evidence |
+|---|---|---|
+| Physical lane | Mines removed, traffic visibly rises, first VLCC transits without incident | De-mining slips, new mine-laying attempts, traffic stuck at a fraction of baseline |
+| Legal/insurance paper | P&I and AWRP terms normalize without sanctioned safe-passage payments | Iranian safe-passage fee or insurance product remains legally toxic |
+| Freight market | Route quotes return to pre-war range and stay there | Freight prices the deal, but residual vessel scarcity keeps rates elevated |
+
+*Sources: [Felipe Germini / ENERGY Pipeline, "The Freight Market Already Priced the Deal. The Strait Has Not Been Told."](https://fgermini.substack.com/p/the-freight-market-already-priced), May 29 2026 (paid after public section); [Felipe Germini / ENERGY Pipeline, "The Reopening Trap"](https://fgermini.substack.com/p/the-reopening-trap), May 29 2026 (paid after public section).*
+
 ## Reference
 
 ### IRGC clearance procedure (Lloyd's List, Mar 25)

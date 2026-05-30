@@ -90,6 +90,16 @@ NASA's public Artemis page now frames Artemis III as a 2027 low-Earth-orbit demo
 
 Reuters' May 2026 report on [[China]]'s [[Shenzhou]]-23 launch makes the strategic timing pressure explicit. [[China Manned Space Agency|CMSA]] is using [[Tiangong]] for a one-year astronaut mission and lunar-readiness tests while targeting a first crewed moon landing before 2030. For NASA, this keeps Artemis inside a great-power competition frame, which strengthens the funding logic for the lunar base program even as the agency shifts away from legacy Gateway/SLS-heavy architecture.
 
+## Moon Base procurement and supply-chain risk (May 2026)
+
+NASA's May 26 Moon Base update made the surface architecture concrete. The first three Moon Base missions are targeted for 2026: Blue Origin's Blue Moon Mark 1 Endurance lander to Shackleton Connecting Ridge, Astrobotic's Griffin lander carrying Astrolab's FLIP rover, and [[Intuitive Machines]]' Nova-C Trinity carrying Lunar Vertex plus ESA and Korean payloads. NASA also awarded Astrolab $219M and [[Lunar Outpost]] $220M for first-phase Lunar Terrain Vehicles, and awarded [[Blue Origin]] $188M with a $280.4M option period for rover delivery services.
+
+The investing read-through is that Moon Base is now a procurement architecture rather than just a Mars-preparation slogan. The public roster pulls emerging commercial actors into prime-adjacent roles while leaving NASA dependent on a chain of landers, rovers, CLPS payloads, international contributions, and sub-tier suppliers.
+
+That makes the old Artemis supply-chain problem newly relevant. NASA OIG's 2023 Artemis audit found that NASA lacked comprehensive visibility into subcontractors and sub-tier suppliers and that this visibility gets weaker as the agency moves toward fixed-price and service-type contracts. The Moon Base program is leaning exactly into that commercial-services model. That can improve cost discipline, but it also means NASA has to manage a surface-infrastructure program while seeing less of the lower-tier fragility than an internally integrated program would expose.
+
+*Sources: [NASA Moon Base update](https://www.nasa.gov/news-release/nasa-provides-update-on-moon-base-rovers-landers-missions/), May 26 2026; [NASA OIG IG-24-003](https://www.nasa.gov/wp-content/uploads/2023/10/ig-24-003.pdf), Oct 19 2023; [[Journal of Space Commerce]], May 29 2026.*
+
 ---
 
 ## Historical contracts to SpaceX

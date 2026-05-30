@@ -42,6 +42,7 @@ Prandelli's post sequence through the [[2026 Strait of Hormuz crisis|Hormuz cris
 | May 4 | America Is Now the World's Strategic Reserve | US as global oil supply backstop |
 | May 11 | The Next $5 Trillion Commodity Has No Wells, No Pipelines, No Tankers | AI infrastructure needs a financialized capacity / power / data-center-rights market |
 | May 27 | Europe's Gas Crisis Just Repriced 8 Of My 12 Positions | Europe replaced Russian pipeline gas with concentrated US LNG dependence; TTF/storage structure reprices the LNG value chain |
+| May 29 | Central Banks Just Lost The Fight Against Commodity Inflation | SPR drawdown and NBER commodity-shock paper as the monetary-policy reaction-function problem |
 
 ---
 
@@ -101,6 +102,21 @@ The market hook is storage and curve shape. Europe entered refill season with ga
 The named portfolio section was not accessible in this session. The durable ingestion is therefore the public thesis only: the value chain exposed to Europe needing more US LNG includes exporters, carriers, carrier technology, Gulf Coast midstream, NGL/LPG adjacency, integrated-major LNG terminals, and global LNG trading. No specific position names were inferred from the paywalled section.
 
 *Sources: [[The Merchant's News]], ["Europe's Gas Crisis Just Repriced 8 Of My 12 Positions"](https://themerchantsnews.substack.com/p/europes-gas-crisis-just-repriced), May 27 2026; IEEFA, ["EU risks new energy dependence as US could supply 80% of its LNG imports by 2030"](https://ieefa.org/resources/eu-risks-new-energy-dependence-us-could-supply-80-its-lng-imports-2030), January 19 2026; Reuters report by Francesca Landini syndicated May 21 2026; Riviera Maritime summary of [[ICIS]] modeling, March 3 2026.*
+
+---
+
+## Key thesis: SPR as refinery feedstock buffer, not CPI tool (May 29, 2026)
+
+Prandelli's May 29 public section ties the Hormuz oil shock to monetary policy. The claim is that central banks are being told to look through commodity-driven inflation just as the physical oil system is using reserves for survival, not price management.
+
+The public evidence stack:
+- EIA weekly data show a roughly 9.92M barrel SPR draw in the week ending May 15, with refinery utilization at 91.6%.
+- The May 2026 NBER paper by Thomas Drechsel, Michael McLeay, Silvana Tenreyro and Enrico D. Turri argues that optimal policy for commodity-input economies can look through both direct and indirect commodity-price effects, with wages/expectations as the binding tripwire.
+- Prandelli interprets the SPR draw as refinery feedstock support: barrels are being released to keep refineries running, not mainly to cap pump prices.
+
+The public section is enough for the durable framework, but not enough for the portfolio claims or premium-section welfare math. Those were not ingested.
+
+*Sources: [[The Merchant's News]], ["Central Banks Just Lost The Fight Against Commodity Inflation. 10 Million SPR Barrels Just Proved It."](https://themerchantsnews.substack.com/p/central-banks-just-lost-the-fight), May 29 2026 (paid after public section); EIA, [U.S. Weekly Supply Estimates](https://www.eia.gov/dnav/pet/pet_sum_sndw_dcus_nus_w.htm), accessed May 30 2026; Thomas Drechsel, Michael McLeay, Silvana Tenreyro and Enrico D. Turri, ["How Should Central Banks Respond to Commodity Price Shocks?"](https://www.nber.org/papers/w35164), NBER Working Paper 35164, May 2026.*
 
 ---
 

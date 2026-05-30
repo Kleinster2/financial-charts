@@ -112,6 +112,12 @@ The full landscape is documented in [[Private credit retail liquidity crisis 202
 - Same dependence on a functioning exit environment for the underlying portfolio
 - Greater illiquidity in the underlying assets than private credit (which has loan-level cash flows)
 
+### Liquidity option and verification clock
+
+[[Shanaka Anslem Perera]]'s May 2026 framing gives the structure a cleaner label: an evergreen private-capital vehicle sells a collective liquidity option. The option feels valuable while only a small share of holders exercises it. Once redemption demand exceeds the quarterly cap, the option is rationed and NAV-based liquidity becomes a queue rather than a price.
+
+That distinction explains why near-par institutional transactions do not fully solve the retail concern. A manager can sell selected loans to institutions at 99.7 cents on the dollar and still leave retail holders prorated at the wrapper level. The sale verifies the tradability of a selected pool. It does not prove that every holder can exit the vehicle at the stated NAV on demand.
+
 ---
 
 ## The mark-to-NAV problem for retail investors
@@ -185,6 +191,7 @@ The regulatory direction has been broadly toward wider retail access, not narrow
 - [[Morgan Stanley]] — PCRX Q1 2026 stress
 - [[Starwood]] — SREIT persistent gating
 - [[Partners Capital]] — OCIO investor cited on mark-up risk
+- [[Shanaka Anslem Perera]] — verification-clock and liquidity-option frame
 
 ---
 
@@ -193,6 +200,7 @@ The regulatory direction has been broadly toward wider retail access, not narrow
 - [FT: How private equity became hooked on second-hand deals (Apr 8, 2026)](https://www.ft.com/content/d1343e8c-2515-4749-9125-c00e938e76f0) — Heal + Gara
 - [FT: Private credit retail liquidity crisis tracking (Mar 23, 2026)](https://www.ft.com/) — Eric Platt
 - [[Private credit retail liquidity crisis 2026]] for full stress-event documentation
+- [Shanaka Anslem Perera, "The Great Unverification"](https://shanakaanslemperera.substack.com/p/the-great-unverification), May 29 2026
 
 ---
 

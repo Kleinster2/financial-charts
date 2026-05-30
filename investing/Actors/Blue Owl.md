@@ -198,6 +198,8 @@ Blue Owl pulled out of ~$10B Oracle Michigan data center:
 
 **Feb 18-19, 2026:** Blue Owl sold **$1.4B in loans** from three BDC funds to four buyers at 99.7% of par. OWL shares **-8.7%** on the news, hitting lowest level in **~2.5 years**. For comparison, software debt in the public leveraged loan market was trading at **~91 cents on the dollar** — Blue Owl's sold loans clearing at par undercuts fire-sale narrative but also means they likely sold the best-priced assets first.
 
+**Process-verification read (May 2026):** [[Shanaka Anslem Perera]]'s "Great Unverification" frame is the cleanest way to read the contradiction. The 99.7-cent selected loan sale validates that institutions would buy a curated slice of the book; it does not prove that every retail holder in OTIC or OCIC could exit the wrapper at NAV. When OTIC tender requests hit 40.7% and OCIC hit 21.9%, the 5% quarterly cap translated into roughly 12 cents of liquidity per tendered OTIC dollar and 23 cents per tendered OCIC dollar.
+
 **Buyers (Bloomberg, Feb 20):**
 
 | Buyer | Type |
@@ -518,3 +520,4 @@ The rebuff is a net positive read on Blue Owl shareholder conviction — the ins
 - [[PIMCO]] — anchored $400M OBDC bond offering (Apr 13, 2026); pricing signal for BDC spreads
 - [[BlackFin Capital Partners]] — Paris-based PE firm; minority stake agreed Apr 14, 2026
 - OBDC — publicly-traded flagship BDC; issued $400M notes Apr 13 (see [[Blue Owl OBDC II redemption gate]] for the related retail vehicle)
+- [[Shanaka Anslem Perera]] — process-verification / liquidity-rationing read

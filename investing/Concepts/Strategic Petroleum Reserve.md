@@ -146,6 +146,18 @@ Chris Giles (FT, Apr 7) noted global observed oil stocks at 8.21 billion barrels
 
 ---
 
+## Feedstock buffer, not price cap (May 2026)
+
+The late-May drawdown confirms the tool has migrated from market psychology to refinery survival. EIA weekly data show US SPR stocks falling from 384.095M barrels on May 8 to 374.175M barrels on May 15 and 365.112M barrels on May 22. The May 8 to May 15 decline was about 9.92M barrels, larger than the 7.1M barrel week that EIA had flagged on Apr 30 as the largest since October 2022. Refiner utilization was still high at 91.6% on May 15 and 94.5% on May 22.
+
+The Merchant's News public May 29 section uses that same 9.9M barrel draw to argue that SPR is no longer acting primarily as a pump-price cap. The reserve is being used as a feedstock buffer that keeps refineries running into peak demand while commercial crude stocks, distillate inventories and global spare routes remain strained by the Hormuz disruption. That is a more serious policy posture: if the reserve is supporting throughput rather than sentiment, each release reduces the cushion against a later logistics failure.
+
+This also changes the inflation read-through. A price-management SPR release can be treated as a temporary CPI dampener. A feedstock-support release says the supply chain itself is short of flexible crude at the place and grade refiners need. That is why the same theme belongs in [[Inflation]] and [[Oil]], not only in this operational note.
+
+*Sources: EIA, [U.S. Weekly Supply Estimates](https://www.eia.gov/dnav/pet/pet_sum_sndw_dcus_nus_w.htm), accessed May 30 2026; EIA, ["DOE has released 17.5 million barrels from the Strategic Petroleum Reserve since March"](https://www.eia.gov/todayinenergy/detail.php?id=67625), Apr 30 2026; [The Merchant's News, "Central Banks Just Lost The Fight Against Commodity Inflation. 10 Million SPR Barrels Just Proved It."](https://themerchantsnews.substack.com/p/central-banks-just-lost-the-fight), May 29 2026 (paid after public section).*
+
+---
+
 ## Related
 
 - [[Oil]] — underlying commodity (crude oil stockpiles)

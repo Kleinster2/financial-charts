@@ -32,6 +32,14 @@ Example: Researcher sent crafted email to a [[Clawdbot viral growth|Clawdbot]] i
 
 Why it's hard: No technical solution exists. The model processes text; it can't know which text is "trusted."
 
+### Browser-rendered assistant output as phishing surface (May 2026)
+
+The Register's May 2026 Permiso case turns prompt injection into a UI-security problem. The model read attacker-controlled web content and returned output that looked like a normal summary plus a fake security alert. In one variant, the assistant rendered an attacker-controlled QR-code image, moving the victim from desktop chat output to a phone browser pointed at attacker infrastructure.
+
+The lesson is that "model output" is now part of the browser attack surface. Links, Markdown, embedded images, previews, and QR codes need the same suspicion as the page content that generated them. Agent products should sandbox rendering, strip or gate remote embeds, and preserve source provenance rather than letting retrieved content dictate trusted-looking UI.
+
+*Source: The Register / Permiso, May 29 2026.*
+
 ### 2. Localhost Authentication Bypass
 
 Many agents trust all localhost connections by default. If deployed behind a reverse proxy, that proxy traffic gets treated as local → full access without authentication.
@@ -217,6 +225,7 @@ Source: FT (Mar 12, 2026) — Ellesheva Kissin and Stephen Foley.
 - [[Glassworm botnet takedown May 2026]] — May 2026 developer-toolchain botnet disruption
 - [[Shadow AI]] — unapproved AI tools and unmanaged AI-agent identities inside enterprises
 - [[Local-first AI]] — Architecture pattern with security tradeoffs
+- [[Prompt injection]] — rendered-output phishing and indirect instruction attacks
 - [[Cyata]] — First agentic identity startup acquired ([[Check Point]], Feb 2026)
 - [[Check Point]] — Acquirer, entering agentic security via M&A
 - [[CyberTech Global Tel Aviv 2026]] — Conference context
@@ -238,6 +247,7 @@ Source: FT (Mar 12, 2026) — Ellesheva Kissin and Stephen Foley.
 - 1Password security blog analysis
 - Slowmist authentication bypass report
 - [[Google]] agentic AI principles documentation
+- The Register / Permiso, ["ChatGPT prompt injection turns web pages into phishing lures"](https://www.theregister.com/research/2026/05/29/chatgpt-prompt-injection-turns-web-pages-into-phishing-lures/5248137), May 29 2026
 
 ---
 

@@ -169,6 +169,20 @@ The chart's causal claim matters more than the exact datapoints: cargo volume co
 
 *Source: [Felipe Germini / ENERGY Pipeline, "The Insurance Geometry That Replaced the Strait"](https://fgermini.substack.com/p/the-insurance-geometry-that-replaced), May 27 2026. Public section only; paid trade map and catalyst calendar not ingested.*
 
+### Reopening residue - freight, Atlantic barrels, demand adaptation (May 29)
+
+The May 29 energy-newsletter cluster turns the permanent-premium thesis into a practical residue test. The all-clear headline is only one input. The premium survives wherever the crisis changed route economics, supplier bargaining power, buyer behavior, or policy doctrine.
+
+[[Felipe Germini]] supplies the freight side. On the USGC-Brazil 38kt MR clean-products route, his public May 29 post reports Platts freight falling from $137.36/t on Apr 14 to $40.70/t on May 26, with Worldscale back near WS 200 versus an estimated WS 585 peak in late March. That looks like a full reopening trade, but the route still sits above the pre-war $28-35/t range and the physical vessel stack remains altered: about 68 LR2s had switched into dirty crude service, and Cape of Good Hope rerouting still ties up vessel days. The market priced the deal before the logistics system proved it.
+
+Germini's "Reopening Trap" public section adds the supply-side residue: Atlantic Basin barrels walked into the Gulf hole. He reports Atlantic Basin exports up about 3.5 mb/d since February and flags Brazil's pre-salt as the marginal replacement barrel for Asian refiners. The investment implication is not only "Brazil benefits"; it is that alternative supply routes gain bargaining power while the crisis persists, and some contracts may remain diversified even after Hormuz is passable.
+
+[[Carolyn Kissane]] adds the demand-side residue. Her May 29 public post argues that the conflict taught governments and companies to operate with less Gulf oil: stockpile drawdowns, refinery adjustments, coal substitution in some petrochemical feedstocks, slower inventory building, workweek and cooling restrictions, industrial rationing, subsidies and tax relief. Her reported IEA framing has 2026 oil demand around 1.3 mb/d lower than expected before the war. That lowers the probability of the $200 panic case, but it also makes the permanent premium less about spot scarcity and more about redundancy spending, route diversification and changed energy-security behavior.
+
+The live test is whether the market keeps treating $90 Brent, explicit war-risk pricing, and emergency reserve drawdowns as normal after the headline reopening. If yes, the premium has migrated from panic into the operating cost of the system.
+
+*Sources: [Felipe Germini / ENERGY Pipeline, "The Freight Market Already Priced the Deal. The Strait Has Not Been Told."](https://fgermini.substack.com/p/the-freight-market-already-priced), May 29 2026 (paid after public section); [Felipe Germini / ENERGY Pipeline, "The Reopening Trap"](https://fgermini.substack.com/p/the-reopening-trap), May 29 2026 (paid after public section); [Carolyn Kissane / Energy Common Sense, "Never Comin' Back"](https://carolynkissane157206.substack.com/p/never-comin-back), May 29 2026.*
+
 ---
 
 ## Related

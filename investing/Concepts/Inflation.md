@@ -40,6 +40,18 @@ Sources: [[Kalshi]] API series KXCPIYOY, KXCPICORE, KXLCPIMAXYOY, KXAAAGASM, and
 
 ---
 
+## Commodity-shock reaction function (May 2026)
+
+The May 2026 Hormuz/SPR sequence makes the inflation problem less like ordinary overheating and more like a commodity-exposure problem. The useful policy update is NBER Working Paper 35164 by Thomas Drechsel, Michael McLeay, Silvana Tenreyro and Enrico D. Turri. Their model finds that the welfare-optimal monetary framework depends on whether an economy is a commodity exporter, commodity importer, or a producer that uses commodities as inputs. For commodity-input economies, optimal policy can largely look through both direct energy effects on headline inflation and indirect effects on domestic prices, provided the central bank can keep wages, employment and expectations stable.
+
+That maps cleanly onto the late-May energy shock. The Merchant's News public section uses the paper to argue that central banks should not fight a refinery-feedstock shortage with rates alone. The stronger version is: rates cannot create crude, tanker insurance, distillate inventories, or Hormuz transit confidence. The monetary-policy tripwire is not the first-round energy CPI print; it is whether the energy shock turns into wage growth, unanchored expectations, or a broader nominal catch-up process.
+
+This is a better frame than "central banks lost." They lost the ability to offset the physical commodity shock directly, but they still own the second-round channel. For the vault, the watch items are wage growth, inflation expectations, distillate/freight persistence, and whether policy officials explicitly adopt a broader "look through indirect effects" language.
+
+*Sources: Thomas Drechsel, Michael McLeay, Silvana Tenreyro and Enrico D. Turri, ["How Should Central Banks Respond to Commodity Price Shocks? Optimal Monetary and Exchange Rate Frameworks for Commodity-Exposed Economies"](https://www.nber.org/papers/w35164), NBER Working Paper 35164, May 2026; [The Merchant's News, "Central Banks Just Lost The Fight Against Commodity Inflation. 10 Million SPR Barrels Just Proved It."](https://themerchantsnews.substack.com/p/central-banks-just-lost-the-fight), May 29 2026 (paid after public section).*
+
+---
+
 ## Key measures
 
 | Measure | What it tracks | Fed preference |

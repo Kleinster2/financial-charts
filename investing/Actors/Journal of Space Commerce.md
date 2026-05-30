@@ -78,6 +78,26 @@ The follow-on risk is immediate: AP and Reuters reported on May 29 that a New Gl
 
 ---
 
+## May 29, 2026 - space industrial base theme
+
+The May 29 Journal of Space Commerce cluster is useful as a theme rather than as five isolated posts. Together, the pieces argue that the bottleneck in commercial space is moving from aspiration to industrial base: launch-site throughput, non-US launch redundancy, lunar surface logistics, rover and lander procurement, and supplier visibility.
+
+Source-by-source role in the vault:
+
+| Post | Durable signal |
+|------|----------------|
+| "European Launch Capacity as a U.S. Supply Chain Hedge" | [[PLD Space]] as a European non-US launch-capacity node, backed by a EUR180M Series C and EUR30M EIB venture debt. |
+| "The Moon Base Supply Chain Is Already Behind" | Moon Base is a procurement architecture and supply-chain visibility problem, not simply a lunar exploration headline. |
+| "NASA Outlines First Missions, Awards Rover Contracts for Permanent Moon Base" | NASA's first Moon Base missions and rover/lander awards make the lunar surface stack concrete. |
+| "U.S. Launch Capacity Could Fall Short as Satellite Demand Surges" | The CSF / Rational Futures report turns launch capacity into an infrastructure and policy bottleneck. |
+| "Nova Scotia Spaceport Gains Orbital Launch Partner in Isar Aerospace Agreement" | [[Isar Aerospace]], [[Maritime Launch Services]], and [[Spaceport Nova Scotia]] extend the theme into allied launch-site redundancy. |
+
+The paid-source boundary matters for the Moon Base supply-chain piece: the public section was enough to capture the procurement architecture and NASA OIG link, but the paid sub-tier dependency map was not inferred.
+
+*Sources: Journal of Space Commerce posts dated May 29 2026; NASA Moon Base update, May 26 2026; NASA OIG IG-24-003; CSF / Rational Futures "SCRUBBED" release; Isar Aerospace / Maritime Launch Services release.*
+
+---
+
 ## Related
 
 - [[Space]] -- sector hub
@@ -91,5 +111,8 @@ The follow-on risk is immediate: AP and Reuters reported on May 29 that a New Gl
 - [[NASA]] -- May 2026 mission-directorate realignment
 - [[Blue Origin]] -- May 2026 upper-stage facility and New Glenn setback
 - [[New Glenn]] -- launch vehicle whose cadence gates multiple Blue Origin programs
+- [[PLD Space]] -- European launch-capacity hedge
+- [[Maritime Launch Services]] -- Canadian launch-site developer
+- [[Spaceport Nova Scotia]] -- allied non-traditional launch infrastructure
 
 *Created 2026-05-28.*

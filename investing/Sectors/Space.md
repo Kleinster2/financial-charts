@@ -80,6 +80,29 @@ For public markets, the read-through is not direct Blue Origin equity exposure. 
 
 ---
 
+## Space industrial base bottlenecks (May 2026)
+
+Theme 3 of the May 29 Substack sweep ties five Journal of Space Commerce posts into one sector question: can the space economy add launch, landing, lunar mobility, and supplier capacity fast enough for the policy and capital-market demand already being assigned to it?
+
+The clearest split is between rocket companies and industrial-base assets. [[SpaceX]] still dominates launch execution, but the bottleneck set is broader than rockets: launch-site scheduling, range coordination, licensing, airspace, safety systems, ground infrastructure, non-US redundancy, lunar cargo logistics, rover qualification, and sub-tier supplier visibility. The Commercial Space Federation / Rational Futures "SCRUBBED" report says US launch demand could require thousands of launches per year in high-satellite scenarios, with traditional ranges constrained by coordination and non-traditional spaceports constrained by economics.
+
+The allied redundancy layer is now visible. [[PLD Space]] is a European launch-capacity hedge after its EUR180M Series C and EUR30M EIB debt package. [[Isar Aerospace]] and [[Maritime Launch Services]] signed a May 2026 letter of intent to pair Spectrum with [[Spaceport Nova Scotia]], creating a possible North American allied launch site for mid- to high-inclination and polar missions. These are not SpaceX killers; they are redundancy attempts in a launch system where concentration risk has become strategically expensive.
+
+The lunar layer is the same problem in a different orbit. [[NASA]]'s Moon Base update moved from concept to task orders: Blue Origin delivery services, Astrolab and [[Lunar Outpost]] rover development, Astrobotic and [[Intuitive Machines]] CLPS missions, and Firefly's MoonFall drone transport. NASA OIG's 2023 Artemis supply-chain report is the deep-dive context: NASA lacked full visibility into many Artemis suppliers, especially under fixed-price/service-type contracting. Moon Base therefore scales the same problem the agency had not fully solved.
+
+| Bottleneck | May 2026 signal | Market read-through |
+|------------|-----------------|---------------------|
+| Launch capacity | CSF / Rational Futures launch-capacity report; non-traditional spaceports need federal support | Launch-site and range process become industrial-base constraints, not back-office details. |
+| Non-US redundancy | [[PLD Space]] financing; [[Isar Aerospace]] / [[Spaceport Nova Scotia]] LOI | Allied launch nodes become procurement hedges for operators exposed to US concentration, tariffs, ITAR, and range congestion. |
+| Lunar surface logistics | NASA Moon Base missions I-III, LTV awards, Blue Origin delivery task orders | Lunar infrastructure demand is becoming specific enough to matter for [[Blue Origin]], [[Lunar Outpost]], [[Intuitive Machines]], Astrobotic, Firefly, and supplier networks. |
+| Supplier visibility | NASA OIG IG-24-003 on Artemis supplier visibility | Fixed-price commercial procurement can lower NASA cost exposure while reducing NASA's view into sub-tier fragility. |
+
+The investor test is execution density: which names can convert policy demand into launched payloads, qualified surface hardware, and actual cadence. The companies that only own narratives will be repriced against the companies that own capacity.
+
+*Sources: [[Journal of Space Commerce]], May 29 2026; NASA Moon Base update, May 26 2026; Commercial Space Federation / Rational Futures "SCRUBBED," May 2026; NASA OIG IG-24-003, Oct 2023; Isar Aerospace, May 26 2026; PLD Space / EIB, Mar-Apr 2026.*
+
+---
+
 ## May 8, 2026 — synchronized public-equity rerating across the sector
 
 The May 8 session produced the cleanest cross-name rally in the public space sector since the cohort began listing in 2020-2024. Every single public space-pure-play in the vault printed a >+5% session, and most printed double-digit gains:
@@ -200,7 +223,7 @@ Startup challengers (ESA European Launcher Challenge, €900M):
 |---------|---------|--------|
 | [[Isar Aerospace]] | Germany | First launch attempted 2025 (failed ~30s), retry 2026 |
 | Rocket Factory Augsburg | Germany | Pre-orbital |
-| PLD Space | Spain | Pre-orbital |
+| [[PLD Space]] | Spain | Pre-orbital |
 | MaiaSpace | France | ArianeGroup subsidiary |
 | Orbex | UK | Pre-orbital |
 
@@ -338,6 +361,9 @@ The exports use commercial wrapping ([[Military-civil fusion]] talent and fundin
 - [[China Manned Space Agency]] — operator of [[Tiangong]] / [[Shenzhou]]
 - [[Tiangong]] — Chinese space-station testbed
 - [[Isar Aerospace]] — leading European launch startup
+- [[PLD Space]] — Spanish launch startup and May 2026 European launch hedge
+- [[Maritime Launch Services]] — Canadian spaceport operator
+- [[Spaceport Nova Scotia]] — non-traditional allied launch site
 - [[Germany]] — €35B space-defense investment
 - [[Pax Silica]] — trusted-vendor framework now touching commercial space suppliers
 - [[Terran Orbital]] — Lockheed-owned small-satellite supplier network named in Pax Silica read-through
