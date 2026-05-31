@@ -150,6 +150,12 @@ The useful read is that political pressure and market pricing have now cleanly d
 
 Source: Reuters, [US Treasury rout tests Washington's tolerance for higher borrowing costs](https://wtvbam.com/2026/05/24/analysis-us-treasury-rout-tests-washingtons-tolerance-for-higher-borrowing-costs/), May 24 2026.
 
+### Schmid transitory-risk overlay (May 29, 2026)
+
+Schmid's Iceland speech leans against quick-cut pricing: he kept the base case open for temporary oil effects, but warned the Fed should not simply label a prolonged Iran-war oil shock "transitory." That keeps June/July cuts hard to price unless inflation expectations and energy pass-through calm first.
+
+*Source: [Kansas City Fed, May 29 2026](https://www.kansascityfed.org/speeches/the-local-and-the-global-in-monetary-policy/).*
+
 ---
 
 ## How it works

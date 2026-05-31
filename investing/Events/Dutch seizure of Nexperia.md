@@ -18,6 +18,7 @@ aliases: [Nexperia seizure, Nexperia nationalization]
 | Oct 7, 2025 | Dutch Enterprise Chamber emergency hearing |
 | Oct 9, 2025 | [[China]] tightens rare-earth export controls |
 | Oct 14, 2025 | Dutch government announces takeover |
+| May 29, 2026 | Nexperia China says production and delivery capability are recovering; CEO Yang Mu points to independent operating functions and broader wafer/raw-material sourcing |
 
 ---
 
@@ -96,6 +97,12 @@ Beijing's commerce ministry escalated: "If this triggers a global semiconductor 
 
 **Why it matters:** The Oct 2025 auto chip shortage showed this dispute can cascade globally. The IT lockout suggests the corporate-level conflict is intensifying even as governments push for resolution. Both entities continue trading bad-faith accusations while wafer supply to the Chinese plant remains suspended.
 
+## May 2026 recovery claim
+
+Nexperia China's May 29 message changes the supply-chain read more than the legal read. The Chinese unit says production/delivery capability is recovering because it rebuilt its own customer, customs/logistics, IT, HR, supply-chain, and manufacturing operations, and diversified wafer/raw-material sourcing. That reduces the immediate repeat-shortage risk for automotive discretes, but it also confirms the split-company reality: Dutch HQ and the Chinese operation are no longer behaving like a single controlled enterprise.
+
+*Source: [Reuters via WTVB, May 29 2026](https://wtvbam.com/2026/05/29/nexperia-chinas-production-capacity-and-delivery-capabilities-are-recovering-local-media-reports/).*
+
 ---
 
 ## Sources
@@ -104,6 +111,7 @@ Beijing's commerce ministry escalated: "If this triggers a global semiconductor 
 - [CNBC](https://www.cnbc.com/2025/10/13/dutch-government-takes-control-of-chinese-owned-chipmaker-nexperia.html)
 - [Bloomberg](https://www.bloomberg.com/news/articles/2025-10-14/china-puts-export-controls-on-nexperia-after-dutch-takeover)
 - [Reuters — China warns of global chip shortages (Mar 7, 2026)](https://www.reuters.com/business/autos-transportation/china-warns-global-chip-shortages-nexperia-dispute-escalates-again-2026-03-07/)
+- [Reuters via WTVB — Nexperia China's production capacity and delivery capabilities are recovering (May 29, 2026)](https://wtvbam.com/2026/05/29/nexperia-chinas-production-capacity-and-delivery-capabilities-are-recovering-local-media-reports/)
 
 ---
 

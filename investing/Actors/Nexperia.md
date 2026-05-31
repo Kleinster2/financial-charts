@@ -95,6 +95,14 @@ The Chinese subsidiary — which declared independence from Dutch parent in Sep 
 
 Mediation efforts from Beijing, [[The Hague]], and Brussels have failed to resolve the impasse. Amsterdam court proceedings that transferred [[Wingtech]]'s shares to a Dutch lawyer in Oct 2025 remain a core grievance for Beijing.
 
+## May 2026 China recovery claim
+
+Reuters reported on May 29, citing Securities Times / China Star Market, that Nexperia China said production capacity and delivery capability were recovering. The operating claim is separability: CEO Yang Mu said the China unit had rebuilt sales/customer service, logistics/customs, IT, HR/labor-union, supply-chain, and manufacturing functions, while broadening wafer and raw-material sourcing away from single-source dependence.
+
+This lowers the near-term auto-discrete shortage risk, but it does not settle the ownership fight. The Dutch parent, Amsterdam court process, and [[Wingtech]]'s loss of control remain unresolved; the China unit is trying to turn operational independence into bargaining power.
+
+*Source: [Reuters via WTVB, May 29 2026](https://wtvbam.com/2026/05/29/nexperia-chinas-production-capacity-and-delivery-capabilities-are-recovering-local-media-reports/).*
+
 ---
 
 ## Related

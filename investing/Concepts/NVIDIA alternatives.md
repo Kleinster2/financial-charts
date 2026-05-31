@@ -161,6 +161,12 @@ Indirect exposure:
 - Bet on customers diversifying (hyperscalers)
 - Short NVIDIA concentration (risky)
 
+## China hyperscaler custom silicon (May 2026)
+
+ByteDance's reported training ASIC and ReRAM inference-chip work with [[InnoStar Semiconductor]] adds a third China path beyond buying [[Huawei]] Ascend or rationed [[NVIDIA]] H200s: hyperscalers with enough token volume can internalize the chip road map. This does not create an immediate NVIDIA substitute, but it means export controls push large Chinese AI platforms toward sovereign, workload-specific silicon.
+
+*Source: [The Information, May 29 2026](https://www.theinformation.com/articles/chinas-bytedance-developing-new-ai-chips-like-nvidia-partner-groq).*
+
 ---
 
 ## Related

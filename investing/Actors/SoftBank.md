@@ -37,6 +37,14 @@ Announced at White House with Trump administration endorsement.
 
 See [[Project Stargate]] for full details.
 
+## France AI data-center plan (May 2026)
+
+SoftBank said on May 31, 2026 that it is pursuing a French AI data-center buildout through SB Energy, centered on 5 GW of capacity. Bloomberg/Fortune framed the potential investment at up to EUR75B. This is the European counterpart to SoftBank's US Stargate/Portsmouth push: [[France]] supplies low-carbon baseload power and sovereign-AI politics; SoftBank supplies capital, Arm/OpenAI adjacency, and a willingness to own the infrastructure layer.
+
+The official release lists French power and infrastructure partners including [[EDF]] and [[Schneider Electric]]. The market read is not that SoftBank suddenly has unlimited balance-sheet capacity; it is that Masayoshi Son is trying to turn AI power procurement into a repeatable geopolitical franchise across the US, Japan, and Europe.
+
+*Sources: [SoftBank Group press release, May 31 2026](https://group.softbank/en/news/press/20260531_0); Bloomberg/Fortune, May 30-31 2026.*
+
 ---
 
 ## DigitalBridge acquisition (Dec 2025)

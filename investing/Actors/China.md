@@ -650,6 +650,12 @@ China-Russia relationship is deeper due to:
 
 China exports projected above $4T for first time in 2026, reaching 17-18% of global exports — a historic record surpassing US peak of 16% in 1968. Chinese exports as share of GDP also hitting abnormal levels (6% trade surplus vs US peak of 1% during 1870-1970 surplus era).
 
+### Export-price reversal (April 2026)
+
+Bloomberg reported that China's overall export prices rose 5% year on year in April 2026, the fastest pace in nearly three years, after 24 consecutive months of decline. This complicates the pure deflation-exporter frame: Iran-war commodity costs and AI/semiconductor demand let at least some Chinese exporters pass higher input costs abroad.
+
+*Source: [Bloomberg Law, May 29 2026](https://news.bloomberglaw.com/artificial-intelligence/war-and-ai-demand-break-chinas-record-of-falling-export-prices).*
+
 ### Suez analogy — China ascendant moment?
 
 Host [[Alice Han]] raised 1956 Suez Crisis analogy: Britain/France tried to stop Nasser from nationalizing Suez Canal, but US under Eisenhower economically coerced them to back down, paving the way for American dominance over British Empire. Question: "Is Iran the Suez crisis of today and does that mean that China is ascendant and the US is in decline?"

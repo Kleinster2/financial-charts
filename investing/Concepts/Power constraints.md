@@ -637,7 +637,15 @@ The cost advantage of [[Natural gas|natural gas]] over other generation technolo
 
 ---
 
-*Updated 2026-02-27*
+## France as AI-power host (May 2026)
+
+SoftBank's 5 GW French data-center plan is the nuclear-grid version of BYOP. Instead of building a giant gas plant like Portsmouth, SoftBank is trying to anchor AI load in a country with existing low-carbon baseload and a state industrial-policy wrapper. The constraint remains physical: transmission, transformers, substations, cooling water, and permitting.
+
+*Sources: [SoftBank Group press release, May 31 2026](https://group.softbank/en/news/press/20260531_0); Bloomberg/Fortune, May 30-31 2026.*
+
+---
+
+*Updated 2026-05-31*
 
 ---
 

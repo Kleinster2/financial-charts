@@ -107,6 +107,14 @@ This supports the supplier thesis but changes the risk map. Standardization can 
 
 ---
 
+## France / SoftBank 5 GW plan (May 2026)
+
+SoftBank's proposed French 5 GW AI data-center buildout shows the geography shifting toward power-rich sovereign hosts. France's nuclear-heavy grid makes it a plausible European AI-load destination; the hard constraint is deliverable grid capacity and equipment, not abstract national generation.
+
+The supplier read-through is direct: [[EDF]] is the baseload/grid anchor and [[Schneider Electric]] is a power/cooling/electrical-integration beneficiary. The project is therefore a national power-system integration problem as much as a data-center real estate problem.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

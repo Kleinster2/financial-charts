@@ -20,6 +20,14 @@ aliases: [Wingtech Technology, 闻泰科技]
 
 ---
 
+## Nexperia China recovery claim (May 2026)
+
+Reuters reported on May 29, 2026 that Nexperia China's production and delivery capability were recovering, with the Chinese unit claiming independent sales, logistics/customs, IT, HR, supply-chain, and manufacturing operations. For [[Wingtech]], this is useful leverage but not restoration of control: the disputed Dutch legal process and share transfer remain the binding problem.
+
+*Source: [Reuters via WTVB, May 29 2026](https://wtvbam.com/2026/05/29/nexperia-chinas-production-capacity-and-delivery-capabilities-are-recovering-local-media-reports/).*
+
+---
+
 ## Related
 
 - [[Nexperia]] — former subsidiary (seized by Netherlands)

@@ -69,6 +69,8 @@ Agentic AI workloads consume 10-100x more tokens than conversational chat. A sim
 
 [[Tencent]]'s May 2026 agent flood is the distribution-side version of the same multiplier. [[Hello China Tech]] tracked Tencent pushing [[AI agents|agents]] into office productivity, coding, desktop control, data analytics, design, OS-level assistance, browser, input, meetings, and eventually WeChat Mini Programs as AI-callable skills. If those surfaces become active, Tencent creates token demand inside a 1.3B-user super-app ecosystem. The public-preview caveat is that Tencent still lacks the strongest token-delivery position: Yuanbao trailed [[Doubao]] and [[Qwen]] in reported MAU, [[Tencent Cloud]] ranked #5 in public [[IaaS]] at 8%, and the leading MaaS trio held nearly 90% combined share.
 
+ByteDance's reported May 2026 training/inference chip program is the hardware back-end of the token-price war. At 120T daily tokens, a small reduction in per-token inference cost has platform-level value. That is why a ReRAM/Groq-like inference architecture matters: it would convert token volume from a gross-margin problem into a defensible scale advantage if it works.
+
 ---
 
 ## Growth projections

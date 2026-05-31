@@ -40,6 +40,14 @@ April 2026 confirmed the pass-through. [[NBS]] reported PPI at +2.8% year on yea
 
 That split explains why industrial profits could rebound without a broad consumer-demand recovery. The May 27 industrial-profits release showed profits at industrial enterprises above the designated size up 18.2% in January-April and 24.7% in April alone. NBS explicitly tied the profit acceleration to recovering industrial-product prices, lower unit costs, and sectors exposed to raw materials, high-tech manufacturing, and electronics. PPI is therefore acting as a margin-relief channel for upstream and industrial firms, not yet as evidence of healthy final demand.
 
+## Export-price pass-through (April 2026)
+
+Bloomberg reported that China's overall export prices rose 5% year on year in April, the fastest pace in nearly three years, after 24 months of declines. That is the external leg of the same PPI story: higher commodity/feedstock costs and strong overseas demand for semiconductors and AI-related electronics are no longer being fully absorbed inside Chinese producer margins.
+
+The macro point is that Chinese factory-gate inflation has stopped being purely domestic. If PPI now travels through export prices, China can transmit war/AI input scarcity to global goods inflation even while its domestic consumer demand remains weak.
+
+*Source: [Bloomberg Law, May 29 2026](https://news.bloomberglaw.com/artificial-intelligence/war-and-ai-demand-break-chinas-record-of-falling-export-prices).*
+
 ## Historical context
 
 | Year | PPI yoy trajectory | Driver |

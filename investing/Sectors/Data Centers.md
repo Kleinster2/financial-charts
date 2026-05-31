@@ -105,6 +105,7 @@ See [[Crypto-to-AI pivot]] for full analysis.
 | [[Rio de Janeiro Data Hub]] | Rio AI City (3.2GW) |
 | [[Singapore Tech]] | Asia-Pacific hub |
 | [[India]] | Fast-growing AI/data-center market where grid delivery and microgrids are the bottleneck |
+| [[France]] | Nuclear-heavy grid and SoftBank/SB Energy 5 GW AI data-center plan (May 2026) |
 | London | European financial hub |
 | Frankfurt | European cloud hub |
 
@@ -115,6 +116,12 @@ See [[Crypto-to-AI pivot]] for full analysis.
 [[Asia Tech Lens]]' May 2026 India grid-risk piece makes the sector point cleanly: data-center demand can grow faster than usable, site-level power. The country has strong hyperscaler demand, Google Vizag, Microsoft Hyderabad, Amazon investment plans, AdaniConneX, Nxtra, and Yotta, but the bottleneck is deliverable 24/7 power rather than abstract national capacity.
 
 The sector read is positive for operators and suppliers that can solve the bundle: grid interconnection, renewable PPAs, batteries, substations, backup generation, cooling, fiber, and local permitting. See [[India AI]], [[Power constraints]], and [[BYOP]].
+
+---
+
+## France
+
+SoftBank's May 2026 plan for 5 GW of French AI data centers turns France into the main European sovereign-AI power host to watch. It is a power-first siting thesis: nuclear baseload, grid access, [[Schneider Electric]]/[[EDF]] industrial partners, and state support are the asset.
 
 ---
 

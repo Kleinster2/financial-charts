@@ -59,6 +59,12 @@ Vertiv = purer play; Schneider = diversified.
 - AI buildout driving demand
 - Hyperscaler + enterprise
 
+### SoftBank France plan (May 2026)
+
+SoftBank's official May 31 release named Schneider Electric among the partners for a 5 GW French AI data-center capacity plan. This is a flagship demand signal for electrical distribution, switchgear, cooling/power management, and grid integration, not just IT racks.
+
+*Source: [SoftBank Group press release, May 31 2026](https://group.softbank/en/news/press/20260531_0).*
+
 ---
 
 ## Liquid cooling

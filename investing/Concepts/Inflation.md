@@ -50,6 +50,8 @@ This is a better frame than "central banks lost." They lost the ability to offse
 
 *Sources: Thomas Drechsel, Michael McLeay, Silvana Tenreyro and Enrico D. Turri, ["How Should Central Banks Respond to Commodity Price Shocks? Optimal Monetary and Exchange Rate Frameworks for Commodity-Exposed Economies"](https://www.nber.org/papers/w35164), NBER Working Paper 35164, May 2026; [The Merchant's News, "Central Banks Just Lost The Fight Against Commodity Inflation. 10 Million SPR Barrels Just Proved It."](https://themerchantsnews.substack.com/p/central-banks-just-lost-the-fight), May 29 2026 (paid after public section).*
 
+[[Jeffrey Schmid]] is the official counterweight to a clean "look through" read. On May 29, 2026, the Kansas City Fed president said the Fed should not assume the Iran oil shock is transitory simply because the first-round channel is energy. The relevant risk is duration: if oil stays elevated long enough to hit confidence, wages, and expectations, the shock becomes monetary-policy relevant even if the initial impulse is physical supply.
+
 ---
 
 ## Key measures

@@ -116,6 +116,12 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 
 Key variable is duration. A resolved conflict (days) = mean-reversion in oil/defense. A prolonged campaign (weeks+) = sustained repricing across all of these. See [[Iran conflict war duration]] for Polymarket probabilities and Gass assessment.
 
+### May 29, 2026 - Fed oil-shock language hardens
+
+Jeffrey Schmid's Kansas City Fed speech turns the oil-price channel into a reaction-function issue. The direct inflation print is not the whole problem; a prolonged oil shock can depress confidence, slow growth, and still keep the Fed focused on inflation if expectations begin to move. This matters for the war market map because it keeps the "oil down, cuts up" trade from becoming automatic. The Fed can look through a short supply shock, but it cannot easily look through a replay of the 2021 "transitory" mistake while headline CPI and gasoline are already politically visible.
+
+*Source: [Kansas City Fed, May 29 2026](https://www.kansascityfed.org/speeches/the-local-and-the-global-in-monetary-policy/).*
+
 ### Global equity dispersion — popular trades unwind (FT, Mar 4)
 
 The strike flipped the 2026 leaderboard. Before the Feb 27 strike, the [[S&P 500]] was the year's laggard while [[Kospi]], [[Topix]], the FTSE 100, Stoxx Europe 600, and the major European benchmarks all sat on single- to double-digit YTD gains. In the week after, the ranking inverted — the former winners took the hardest selling while Wall Street was nearly flat. The mechanism was position squaring, not fundamentals: the most crowded trades of 2026 (short dollar, long non-US equities) were also the ones most exposed to forced unwinds.

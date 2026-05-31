@@ -223,6 +223,8 @@ STMicro SiC revenue trajectory tells the story:
 - Quality gap closing but still exists
 - [[Export controls]] less relevant (mature nodes)
 
+Nexperia China's May 2026 recovery claim is relevant because auto discretes are mature-node, low-glamour components where logistics disruption can matter more than leading-edge capacity. If the Chinese unit can source wafers/raw materials independently, the immediate shortage risk eases; if the Dutch-Chinese governance split hardens, automakers still face a structurally bifurcated supplier.
+
 ---
 
 ## Foundry relationships

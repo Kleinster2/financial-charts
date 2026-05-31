@@ -43,8 +43,13 @@ aliases: [Électricité de France, Electricite de France]
 | OpCore | AI data center | €4.3B campus near Paris |
 | Fluidstack | AI supercomputer | €10B Phase 1, operational 2026 |
 | NVIDIA/[[Mistral]]/[[MGX]] | Paris campus | 1.4 GW site, 2028 target |
+| [[SoftBank]] / SB Energy | AI data centers | 5 GW French capacity plan, announced May 2026 |
 
 **CAPN (Nuclear Production Allocation Contract):** First-of-kind for data centers.
+
+SoftBank's May 2026 plan is the larger version of the same EDF thesis: AI load turns nuclear baseload into a siting asset. For EDF, the question is less whether demand exists than whether grid connection, permitting, and commercial power contracts can convert national nuclear capacity into usable data-center capacity.
+
+*Source: [SoftBank Group press release, May 31 2026](https://group.softbank/en/news/press/20260531_0).*
 
 ---
 

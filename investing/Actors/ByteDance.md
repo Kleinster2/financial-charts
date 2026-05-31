@@ -53,6 +53,14 @@ Context:
 - But Chinese — subject to [[Export controls]]
 - [[H200]] is "previous gen" ([[Blackwell]] unavailable to China)
 
+## Custom AI chips (May 2026)
+
+The Information reported on May 29 that ByteDance is developing two AI chips: a training ASIC and an inference chip using resistive RAM with Shanghai-based [[InnoStar Semiconductor]], designed to echo the low-latency, memory-heavy logic behind [[Groq]]'s LPU. Treat this as reported, not confirmed; the public signal is directionally important even before tape-out details are visible.
+
+The strategic logic is clear from ByteDance's own token economics. [[Volcano Engine]] is already above 100T daily inference tokens, and [[Doubao]] is a mass-market model platform. At that scale, in-house silicon is not a prestige project; it is an attempt to control marginal token cost under [[Export controls]] when [[Blackwell]] and future US accelerators are unavailable.
+
+*Sources: [The Information, May 29 2026](https://www.theinformation.com/articles/chinas-bytedance-developing-new-ai-chips-like-nvidia-partner-groq); Tom's Hardware, May 29 2026.*
+
 ---
 
 ## AI capabilities
@@ -304,6 +312,7 @@ Irony: ByteDance's [[Seedance]] pirates American IP while its [[TikTok]] US oper
 
 ### Suppliers
 - [[NVIDIA]] — GPU supplier ($14B order)
+- [[InnoStar Semiconductor]] — reported ReRAM inference-chip partner
 - [[SK Hynix]] — [[HBM]] supplier
 - [[Samsung]] — memory supplier
 - [[HongShan]] — early investor (formerly Sequoia China)

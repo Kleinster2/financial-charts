@@ -111,6 +111,12 @@ Jensen chose to extend the platform rather than disrupt himself.
 
 **Jensen confirmation (Dwarkesh, Apr 15, 2026):** "We decided that we should take the best of Groq and enable it within the [[CUDA moat|CUDA]] ecosystem." Explicit positioning of Groq as the [[Premium inference tokens|premium-token tier]] inside CUDA — not a defensive hedge. The deal is now framed publicly as deliberate market segmentation: Groq-class silicon serves low-latency interactive inference (real-time agents, voice, coding), Rubin-class silicon serves high-throughput batch/reasoning. Two tiers, one CUDA ecosystem.
 
+## ByteDance imitation signal (May 2026)
+
+The Information's May 2026 report that ByteDance is exploring a ReRAM-based inference chip with [[InnoStar Semiconductor]] is a validation signal for the Groq thesis even though it is not a Groq customer win. A Chinese hyperscaler with 100T+ daily token volume is apparently trying to reproduce the same architectural idea: keep model weights close to compute, reduce memory movement, and make low-latency decode cheaper than GPU serving under export controls.
+
+*Source: [The Information, May 29 2026](https://www.theinformation.com/articles/chinas-bytedance-developing-new-ai-chips-like-nvidia-partner-groq).*
+
 ---
 
 ## Jonathan Ross

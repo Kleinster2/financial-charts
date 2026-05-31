@@ -149,6 +149,8 @@ This is not evidence that delivery has happened; it is a market-implied probabil
 
 *Source: [[Kalshi]] API series KXH200CHINA, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXH200CHINA*
 
+ByteDance's reported May 2026 custom-chip effort shows the demand-side adaptation. When US controls keep [[Blackwell]] out of China and restrict the frontier of NVIDIA supply, the largest Chinese AI platforms do not simply wait for domestic merchant chips; they try to design around the controlled layer. A training ASIC plus ReRAM inference chip would be a vertical response to export controls, not just a procurement workaround.
+
 ### Jan 14-15, 2026: Section 232 semiconductor tariff — new policy tool
 
 The biggest shift since export controls began. See [[Section 232 semiconductor tariff]] for full details.

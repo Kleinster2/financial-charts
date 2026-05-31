@@ -161,6 +161,14 @@ The remarks landed on a day when [[United States|US]] and [[Iran]] exchanged fir
 
 *Source: [[Financial Times|FT]] live blog and "Donald Trump's Iran war leaves US with sharpest fuel shock in G7" (May 4, 2026).*
 
+### May 29, 2026 - Schmid pushes back on "transitory" oil-shock framing
+
+[[Jeffrey Schmid]] used his May 29 Iceland speech to narrow the Fed's room to look through the Iran oil shock. His base case still treated oil-price effects as potentially temporary, but he stressed that policy has to watch the probability distribution: a prolonged oil-price rise would mean higher headline inflation, slower growth, and weaker confidence, and the 2021 "transitory" episode makes the label politically and analytically costly.
+
+The policy implication is hawkish optionality. Schmid is not saying the Fed should mechanically hike on the first oil print; he is saying the committee should avoid assuming the shock is harmless before expectations, wages, and pass-through are tested.
+
+*Sources: [Kansas City Fed, "The Local and the Global in Monetary Policy," May 29 2026](https://www.kansascityfed.org/speeches/the-local-and-the-global-in-monetary-policy/); Reuters/MarketScreener, May 29 2026.*
+
 ---
 
 ## Chair transition (May 2026)

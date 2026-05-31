@@ -58,6 +58,12 @@ France maintains an independent nuclear deterrent and arms industry — strategi
 
 70%+ of French electricity comes from nuclear — the lowest-carbon major grid in Europe. Building new EPR reactors.
 
+### SoftBank AI data-center plan (May 2026)
+
+SoftBank's May 31 plan for 5 GW of French AI data-center capacity makes France a live sovereign-AI infrastructure venue, not just a policy talker. The French edge is nuclear-heavy, low-carbon power plus a state willing to package data centers as industrial strategy. The constraint is execution: 5 GW is a national-grid-scale load, so the plan depends on EDF/grid capacity, permitting, equipment supply, and political tolerance for AI load growth.
+
+*Sources: [SoftBank Group press release, May 31 2026](https://group.softbank/en/news/press/20260531_0); Bloomberg/Fortune, May 30-31 2026.*
+
 ### [[Semiconductors]]
 
 | Company | Focus |

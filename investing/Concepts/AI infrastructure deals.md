@@ -17,6 +17,7 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 | OpenAI-[[NVIDIA]] | $100B | Supply + equity | [[Progressive]] per GW |
 | OpenAI-[[AMD]] | $100B | Supply + warrants | 160M shares at $0.01 |
 | [[SoftBank]]-OpenAI | $41B | Pure equity | Mizuho loan + [[NVIDIA]] sale |
+| [[SoftBank]] / SB Energy France | Up to EUR75B | Sovereign AI data-center buildout | 5 GW French capacity plan with [[EDF]] and [[Schneider Electric]] partner hooks |
 | Stargate | $500B target | Consortium | Mixed financing |
 | [[BlackRock]] AIP | $100B target | Infra fund | [[Temasek]], KIA anchors |
 | Anthropic-[[Amazon]] | $100B+ cloud spend; up to $33B equity committed | Strategic cloud offtake + equity | AWS/Trainium capacity, up to 5 GW |
@@ -26,6 +27,16 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 | [[Nebius]] capital markets stack | $700M strategic equity + ~$4.3375B convertibles | Listed neocloud financing | [[Accel]] / [[NVIDIA]] / [[Orbis Investments]] strategic equity; private convertible notes to qualified institutional buyers; [[Microsoft]] and [[Meta]] as demand anchors |
 | [[IREN]]-[[Dell]]-[[NVIDIA]] Childress | ~$1.6B purchase; $3.4B service contract; up to $2.1B NVIDIA investment right | Supplier order + customer offtake + strategic equity option | Dell supplies air-cooled Blackwell systems; NVIDIA is managed-cloud customer and potential equity investor; IREN guarantees purchase obligations |
 | [[Google Cloud]] / [[AdaniConneX]] / [[Nxtra]] Vizag | $15B over 2026-2030 | Hyperscaler + local infrastructure partners | Google anchor; AdaniConneX and Nxtra build/operate data-center and connectivity layer; gigawatt-scale hub |
+
+---
+
+## SoftBank France AI data-center plan (May 2026)
+
+SoftBank's France plan belongs in the deal ledger because it is a power-sovereignty structure, not just another data-center announcement. The headline is 5 GW of AI data-center capacity in France, with Bloomberg/Fortune reporting potential investment of up to EUR75B. The operating structure runs through SB Energy and named French partners including [[EDF]] and [[Schneider Electric]].
+
+The strategic read is that sovereign AI is becoming a power-procurement contest. France offers low-carbon baseload, industrial-policy sponsorship, and a European jurisdictional wrapper; SoftBank brings capital and AI platform adjacency. Execution remains the constraint: 5 GW requires grid interconnection, electrical equipment, permits, cooling, and bankable offtake.
+
+*Sources: [SoftBank Group press release, May 31 2026](https://group.softbank/en/news/press/20260531_0); Bloomberg/Fortune, May 30-31 2026.*
 
 ---
 

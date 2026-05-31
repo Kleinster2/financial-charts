@@ -119,6 +119,12 @@ The Pettis and Baldwin versions are more structurally pessimistic about China's 
 
 The second-shock frame has nonetheless become the dominant reference point in European policy circles and in analyses from Tooze, Pettis, Baldwin, and Setser through 2024-2026.
 
+## April 2026 export-price reversal caveat
+
+The second China shock is no longer only a cheap-goods deflation story. Bloomberg reported that China's overall export prices rose 5% year on year in April 2026 after two years of declines, driven by war-linked commodity costs and AI/semiconductor demand. That means Europe can face both parts of the shock at once: competitive pressure from Chinese scale and price pressure from Chinese pass-through.
+
+*Source: [Bloomberg Law, May 29 2026](https://news.bloomberglaw.com/artificial-intelligence/war-and-ai-demand-break-chinas-record-of-falling-export-prices).*
+
 ---
 
 ## Related
