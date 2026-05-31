@@ -43,6 +43,18 @@ The distinction between promotion and floor matters. A temporary discount is cus
 
 ---
 
+## May 2026: enterprise rationing proves tokens are a budget line
+
+The May 29 WSJ / Hindustan Times report is the clearest demand-side confirmation that inference is now a managed corporate cost center. Usage is not collapsing; it is being governed. Enterprises have hit annual AI budgets early, seen bills double or triple, and started routing employees toward cheaper or internally standardized tools. That is the economic moment when AI moves from "innovation budget" to operating expense.
+
+Google's I/O 2026 keynote gives the scale backdrop: more than 3.2 quadrillion tokens per month across Google surfaces, roughly 19B tokens per minute through model APIs, and more than 375 Google Cloud customers each over 1T tokens in the prior year. The same keynote pitched Gemini 3.5 Flash as a cost-control product, not only a model launch, arguing that shifting routine workloads away from more expensive frontier models could save very large enterprises more than $1B annually.
+
+The inference-economics implication is segmentation. Premium models can still hold price where the task is high-value, latency-sensitive, or trust-sensitive. Routine summarization, basic coding help, internal chat, and low-risk agent loops will be routed to cheaper models or homegrown tools. The market is therefore unlikely to be one commodity token price or one premium token price; it becomes a router-mediated stack.
+
+*Sources: [WSJ via Hindustan Times, May 29 2026](https://www.hindustantimes.com/technology/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-101780051280269.html); [Google I/O 2026 keynote transcript, May 19 2026](https://blog.google/intl/en-nz/company-news/sundar-pichai-io-2026/).*
+
+---
+
 ## Training vs inference economics
 
 | | Training | Inference |

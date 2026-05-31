@@ -94,6 +94,12 @@ The **€43B [[European Chips Act]]** (2023) focused on semiconductor manufactur
 
 The proposal has already been **delayed twice**. Fierce debate between France and Germany/Nordics means significant amendments are likely. Final law could look quite different from the draft.
 
+## May 2026: folded into China's retaliation narrative
+
+By late May 2026, the IAA had become part of Beijing's broader case that EU economic-security policy is turning discriminatory. Dow Jones reported that a Chinese state-media social account cited the IAA while warning that China's authorities could investigate the EU's proposed overcapacity instrument through anti-discrimination and supply-chain-security channels. Reuters separately reported that China's Commerce Ministry warned of countermeasures if Brussels introduced new discriminatory trade restrictions.
+
+That makes the IAA more than a procurement/local-content file. It is now one node in a package Beijing reads as EU industrial containment: local-content preferences, cybersecurity exclusions, Foreign Subsidies Regulation probes, and possible sector-wide import caps. For investors, the direct beneficiary screen is still EU manufacturing exposure, but the risk screen is broader: exporters and companies with China revenue can be hit by retaliation even if they are not covered by the local-content rules themselves.
+
 ## Investment Implications
 
 **Potential beneficiaries of EU industrial sovereignty push:**
@@ -114,6 +120,8 @@ The proposal has already been **delayed twice**. Fierce debate between France an
 - [Reuters: What is in the EU's draft 'made in Europe' law?](https://www.reuters.com/sustainability/boards-policy-regulation/what-is-eus-draft-made-europe-law-2026-02-17/) (Feb 17, 2026)
 - [Politico: New EU industry act keeps friends closer — and shuts out China](https://www.politico.eu/article/new-eu-industry-act-keeps-friends-closer-and-shuts-out-china/) (Feb 12, 2026)
 - [Euronews: 'European preference is a risk to healthy supply chains'](https://www.euronews.com/my-europe/2026/02/10/european-preference-is-a-risk-to-healthy-supply-chains-eu-industries-tell-euronews) (Feb 10, 2026)
+- [Dow Jones via MarketScreener: China threatens trade probes against the EU](https://www.marketscreener.com/news/china-threatens-to-launch-trade-probes-against-the-european-union-2nd-update-ce7f5ddbdf89f220) (May 29, 2026)
+- [Reuters via Investing.com: China warns of retaliation if EU imposes new trade restrictions](https://au.investing.com/news/economy-news/china-warns-of-retaliation-if-eu-imposes-new-trade-restrictions-4463409) (May 30, 2026)
 
 ## Related
 

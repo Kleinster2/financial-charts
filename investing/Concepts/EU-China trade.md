@@ -74,6 +74,20 @@ The API-dependency claim needs a tighter footnote than the article's China frami
 
 ---
 
+## May 2026: overcapacity instrument becomes the retaliation trigger
+
+The May 29 European Commission readout turned the trade relationship into an explicit economic-security problem: the Commission said the current EU-China trade and investment relationship was not sustainable and that trade and security now require a more coherent response. That is the official EU-side anchor; the policy details are still being negotiated before the June G7 and European Council discussions.
+
+Dow Jones reported the market-relevant next step the same day: Beijing threatened trade probes if the EU moves ahead with an "overcapacity instrument" aimed at curbing heavily subsidized imports. The report said a state-media social account, Yuyuantantian, claimed Chinese authorities could open anti-discrimination and supply-chain-security investigations into the EU tool, while a joint paper from France, Spain, the Netherlands, and two other member states pushed for more probes, more proactive WTO disputes, anti-circumvention rule changes, and more trade-policy resources.
+
+This shifts the EU-China story from product-specific files -- EVs, steel, solar, chemicals -- toward a systemwide trade-defense regime. If Brussels can cap imports or impose sector-wide safeguards, the policy becomes faster than ordinary anti-dumping cases. If Beijing answers through anti-discrimination, supply-chain-security, or Foreign Subsidies Regulation countermeasures, European exporters and China-exposed operators face retaliation risk even when the original EU measure targets Chinese imports.
+
+The link to [[EU Made in Europe Tech Rules 2026]] matters because Beijing is treating the Industrial Accelerator Act, cybersecurity restrictions, and the potential overcapacity instrument as one protectionist package. That makes retaliation risk part of the same industrial-policy thesis, not a separate diplomatic complaint.
+
+*Sources: [European Commission readout, May 29 2026](https://ec.europa.eu/commission/presscorner/api/files/document/print/en/read_26_1201/READ_26_1201_EN.pdf); [Dow Jones via MarketScreener, May 29 2026](https://www.marketscreener.com/news/china-threatens-to-launch-trade-probes-against-the-european-union-2nd-update-ce7f5ddbdf89f220); [Reuters via Investing.com, May 30 2026](https://au.investing.com/news/economy-news/china-warns-of-retaliation-if-eu-imposes-new-trade-restrictions-4463409).*
+
+---
+
 ## Investment implications
 
 **For European OEMs:**

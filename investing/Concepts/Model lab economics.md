@@ -69,6 +69,18 @@ That distinction matters for lab economics. [[Anthropic]]'s enterprise and codin
 
 ---
 
+## Customer rationing as the second IPO test
+
+The May 29 WSJ / Hindustan Times enterprise-rationing report adds the customer-side test for the model labs preparing public listings. [[Anthropic]]'s official May 28 Series H confirms extreme demand: $65B raised, $965B post-money valuation, run-rate revenue above $47B, and new capacity agreements across [[Amazon]], [[Google]] / [[Broadcom]], and [[SpaceX]]. But one day later, the market also got evidence that major customers are now trying to manage, route, and ration token usage.
+
+Both facts can be true. Customer spend can be exploding because AI is useful, while the marginal premium-token dollar faces procurement scrutiny. The question for [[OpenAI]] and [[Anthropic]] is no longer just "can they sell more tokens?" It is whether customers route enough high-value work to their premium models to protect price, gross margin, and utilization as cheaper internal tools and lower-tier models absorb routine work.
+
+[[Google]] is making that segmentation argument explicitly. Its I/O 2026 keynote said top companies can process about 1T tokens per day and claimed an 80% workload shift to Gemini 3.5 Flash could save more than $1B annually. That is a direct challenge to premium-model pricing: the lab that wins enterprise budgets may be the one that gives customers a credible router, not only the one with the best frontier model.
+
+*Sources: [WSJ via Hindustan Times, May 29 2026](https://www.hindustantimes.com/technology/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-101780051280269.html); [Google I/O 2026 keynote transcript, May 19 2026](https://blog.google/intl/en-nz/company-news/sundar-pichai-io-2026/); [Anthropic Series H release, May 28 2026](https://www.anthropic.com/news/series-h).*
+
+---
+
 ## May 2026 China price-floor test
 
 [[DeepSeek]]'s May 23, 2026 V4-Pro pricing update is the opposite pressure point: instead of asking investors to finance frontier burn, a Chinese lab is making a flagship-model API discount permanent. The official V4-Pro output price is now $0.87 per million tokens after the May 31 promotional window, down from $3.48, with cache-hit input at $0.003625 per million tokens.

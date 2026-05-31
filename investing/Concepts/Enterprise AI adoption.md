@@ -120,6 +120,20 @@ This sharpens the Exponential View / Noahpinion frame above. Individual workers 
 
 ---
 
+## May 2026: token budgets become the AI operating model
+
+The WSJ / Hindustan Times May 29 report adds the enterprise-budget version of the same ROI constraint. Large companies did not stop using AI; some started rationing it because usage-based token pricing made experimentation visible in the budget. The reported pattern was broad: some enterprises reached annual AI budgets in three months, others saw bills double or triple, and technical leaders at [[Uber]], [[Meta]], [[Microsoft]], [[Salesforce]], [[DoorDash]], and others began steering employees toward cheaper or more controlled AI tools.
+
+The details matter because they separate demand from discipline. [[Uber]] reportedly blew through its annual agentic-AI budget by March. [[Salesforce]] introduced a system to connect token usage to business outcomes. [[Microsoft]] limited access to an [[Anthropic]] coding tool for some employees, while saying the driver was standardization rather than cost. [[Meta]] CTO Andrew Bosworth's April memo treated token usage as an activity metric, not an impact metric. Those are not bearish "AI failed" signals; they are the first signs of AI FinOps becoming a management function.
+
+[[Google]]'s own I/O 2026 keynote confirms the demand side is still vertical. It said token processing across Google surfaces reached more than 3.2 quadrillion tokens per month, roughly 7x YoY, and that model APIs were processing about 19B tokens per minute. It also said 375+ Google Cloud customers each processed more than 1T tokens in the prior year, and explicitly pitched Gemini 3.5 Flash as a way for large companies to cut annual AI bills by routing most workloads to cheaper frontier-grade models.
+
+The investment read is tighter than "enterprise AI adoption is slowing." Adoption is moving from all-you-can-eat experimentation to budget-aware routing: premium models for high-value tasks, cheaper models for routine tasks, internal tools where standardization matters, and measurement systems that tie token burn to shipped output. That supports [[IT services]], identity/governance, AI observability, model-routing infrastructure, and cheaper inference providers. It pressures pure premium-API pricing unless the lab can prove workflow value, not just model quality.
+
+*Sources: [WSJ via Hindustan Times, May 29 2026](https://www.hindustantimes.com/technology/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-101780051280269.html); [Google I/O 2026 keynote transcript, May 19 2026](https://blog.google/intl/en-nz/company-news/sundar-pichai-io-2026/); [Anthropic Series H release, May 28 2026](https://www.anthropic.com/news/series-h).*
+
+---
+
 ## May 2026: shadow AI adoption outpaces governance
 
 [[Okta]]'s May 2026 survey adds the security/governance version of the same adoption-vs-ROI gap. Workers are already using AI tools heavily, but a large share of that adoption sits outside formal enterprise control. Okta found that 52% of employees use unapproved AI tools, while 90% of executives say they are confident in visibility into AI tools and 95% believe employees use AI responsibly.

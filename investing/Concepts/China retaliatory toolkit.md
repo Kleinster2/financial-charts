@@ -21,6 +21,7 @@ aliases: [Chinese retaliation, China countermeasures]
 | **Withdrawal demands on foreign operators** | Foreign companies in PRC-claimed strategic-asset perimeter | [[NDRC]] tells [[Maersk]] and [[MSC]] to drop Panama Canal port concessions (early Mar 2026) |
 | **Supply chain security law** | Any foreign or domestic actor | Apr 2026 PRC regulations criminalize "harm to security of the country's industrial and supply chains," with exit-ban threat for violators |
 | **Counter-extraterritorial jurisdiction rules** | Foreign jurisdictional reach | Apr 2026 PRC rules giving Beijing authority to assess and retaliate against foreign extraterritorial actions across trade, investment, and international cooperation |
+| **Anti-discrimination / supply-chain probes** | Foreign policy instruments and trade rules | Threatened against the [[EU]] overcapacity instrument (May 2026) |
 
 ---
 
@@ -119,6 +120,14 @@ Why this case is structurally different from prior toolkit entries:
 The episode also confirms NDRC's role as a retaliation tool, not just a domestic planner — issuing the same-day summons alongside the transport ministry's separate Iran/Hormuz freight-rate complaint. See [[Panama Canal Ports Crisis 2025-2026]] for the full proxy-battle context.
 
 *Source: [[FT]], Ryan McMorrow + Joe Leahy, Apr 15, 2026*
+
+## Case study: EU overcapacity-instrument threat (May 2026)
+
+The May 2026 EU-China trade-defense escalation shows the legal toolkit being pointed at a policy instrument rather than at a single company. Dow Jones reported on May 29 that Yuyuantantian, a state-media social account, warned China could open anti-discrimination and supply-chain-security investigations if the EU advances an overcapacity instrument to cap heavily subsidized imports. Reuters then reported on May 30 that China's Commerce Ministry warned of countermeasures if the EU introduced new discriminatory trade restrictions.
+
+This is a meaningful broadening. The trigger is not a single acquisition, sanctions listing, or export-control package. It is Brussels considering a faster, sector-wide trade-defense architecture aimed at overcapacity in EVs, steel, solar, chemicals, and clean technology. Beijing's response path would let it challenge the EU tool itself while preserving optionality on which European companies, supply chains, or market-access channels to squeeze.
+
+*Sources: [Dow Jones via MarketScreener, May 29 2026](https://www.marketscreener.com/news/china-threatens-to-launch-trade-probes-against-the-european-union-2nd-update-ce7f5ddbdf89f220); [Reuters via Investing.com, May 30 2026](https://au.investing.com/news/economy-news/china-warns-of-retaliation-if-eu-imposes-new-trade-restrictions-4463409).*
 
 ## 2026 legal infrastructure
 
