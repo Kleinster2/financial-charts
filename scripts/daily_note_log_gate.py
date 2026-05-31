@@ -16,6 +16,8 @@ import unicodedata
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SKIP_DIRS = {"Daily", "Meta", "Reports", "Newsletter", ".obsidian"}
 WIKILINK_RE = re.compile(r"\[\[([^\]\n]+)\]\]")
+SYNTHESIS_HEADING_RE = re.compile(r"^##\s+Synthesis\s*$", re.IGNORECASE | re.MULTILINE)
+NEXT_HEADING_RE = re.compile(r"^##\s+", re.MULTILINE)
 
 
 def run_git(args: list[str]) -> subprocess.CompletedProcess[str]:
@@ -107,6 +109,17 @@ def read_index_file(path: Path) -> str | None:
     return result.stdout
 
 
+def has_nonempty_synthesis(content: str) -> bool:
+    match = SYNTHESIS_HEADING_RE.search(content)
+    if not match:
+        return False
+
+    next_match = NEXT_HEADING_RE.search(content, match.end())
+    end = next_match.start() if next_match else len(content)
+    body = content[match.end():end].strip()
+    return bool(body)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
@@ -163,6 +176,12 @@ def main() -> int:
         print("No staged investing notes require daily-note reporting.")
         return 0
 
+    staged_daily_candidates = {
+        path
+        for status, path in staged_paths()
+        if status != "D" and path in daily_paths(args.date, args.early_hour)
+    }
+
     daily_contents = []
     for path in daily_paths(args.date, args.early_hour):
         content = read_index_file(path)
@@ -181,6 +200,39 @@ def main() -> int:
         print("Add today's daily note with links for:", file=sys.stderr)
         for path in touched:
             print(f"  - [[{path.stem}]] ({path.as_posix()})", file=sys.stderr)
+        return 1
+
+    if not staged_daily_candidates:
+        checked_paths = ", ".join(
+            path.as_posix() for path, _content in daily_contents
+        )
+        print(
+            "Daily note log check failed: staged note edits require a staged "
+            f"daily note update with an explanation: {checked_paths}.",
+            file=sys.stderr,
+        )
+        print(
+            "Stage today's daily note after adding/updating ## Notes "
+            "created/expanded and ## Synthesis.",
+            file=sys.stderr,
+        )
+        return 1
+
+    daily_with_synthesis = [
+        path for path, content in daily_contents if has_nonempty_synthesis(content)
+    ]
+    if not daily_with_synthesis:
+        checked_paths = ", ".join(path.as_posix() for path, _content in daily_contents)
+        print(
+            "Daily note log check failed: checked daily note(s) lack a "
+            f"non-empty ## Synthesis section: {checked_paths}.",
+            file=sys.stderr,
+        )
+        print(
+            "Add the reusable explanation: what changed, why it matters, "
+            "and the causal read-through.",
+            file=sys.stderr,
+        )
         return 1
 
     linked = set()

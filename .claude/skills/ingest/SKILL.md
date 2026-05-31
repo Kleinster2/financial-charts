@@ -216,4 +216,8 @@ Format:
 
 Every entity touched must appear here — the daily note hook validates this.
 
+**Explanation requirement.** The daily note must also contain a non-empty `## Synthesis` section for the ingestion. This is not an edit log. It preserves the reusable explanation: what changed, why it matters, the causal mechanism, who benefits or is pressured, and which vault got which part of the story. If the user receives a chat explanation, the same analytical frame must be promoted into this section before the session closes.
+
+For single-source ingestions, the synthesis can be 1-3 tight paragraphs. For multi-article batches, write the through-line across articles plus any deliberate skips or source-quality caveats. The test: a reader opening only the daily note should understand the story, not just which files were touched.
+
 **Cross-vault gate.** After completing updates, check sibling vaults per `docs/cross-vault-rules.md`. Flag to user.

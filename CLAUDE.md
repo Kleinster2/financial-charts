@@ -4,7 +4,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 
 ## Hard Gates (CRITICAL — do not skip)
 
-1. **Daily note**: After creating/expanding any note, log it in today's daily note (`investing/Daily/YYYY-MM-DD.md`). Run `date` to confirm current date. Every stub counts. #1 compliance failure.
+1. **Daily note**: After creating/expanding any note, log it in today's daily note (`investing/Daily/YYYY-MM-DD.md`). Run `date` to confirm current date. Every stub counts. Also add or update a non-empty `## Synthesis` section that explains what changed, why it matters, and the causal read-through; the daily note is not complete if it only lists touched files. #1 compliance failure.
 2. **Pre-create**: `python scripts/check_before_create.py "Note Name"` before creating ANY new note. If conflicts → link to existing.
 3. **Post-edit compliance**: `python scripts/check_note_compliance.py investing/Actors/Note.md` after creating/editing actor notes. Fix errors. Create stubs for dead links (frontmatter, one-line description, Quick stats, Related).
 4. **Chart overwrite**: NEVER overwrite existing chart files or remove `![[...]]` embeds without asking.

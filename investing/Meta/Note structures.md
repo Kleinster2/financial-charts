@@ -944,11 +944,19 @@ Actor notes should have a "Key events" section:
 1. **Vault activity** (at top): Track notes created/modified
    - Created: table with Note, Type, Topic
    - Modified: table with Note, Changes
-2. **Market data**: Levels, moves, key stats
-3. **Topic sections**: News by category (varies by day)
-4. **Thesis implications table**: Columns: Thesis, New evidence, Direction
-5. **Open threads**: Checklist of things to track/follow up
-6. **Sources**: Articles referenced
+2. **Synthesis**: Explain the story behind the edits
+   - What changed versus what was already true
+   - Why it matters, including the causal mechanism and read-through
+   - Who benefits or is pressured
+   - Which vault got which part of the story, for cross-vault work
+   - Any skipped items, source-quality caveats, or follow-up gaps
+3. **Market data**: Levels, moves, key stats
+4. **Topic sections**: News by category (varies by day)
+5. **Thesis implications table**: Columns: Thesis, New evidence, Direction
+6. **Open threads**: Checklist of things to track/follow up
+7. **Sources**: Articles referenced
+
+The daily note is not just an edit ledger. For every ingestion or material note-expansion batch, include a non-empty `## Synthesis` section so the explanation survives outside chat.
 
 ---
 

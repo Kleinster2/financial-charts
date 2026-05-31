@@ -47,9 +47,24 @@ After all articles in the batch are ingested, scan the notes that got updated fo
 
 Batch the downstream-impact check at the **end** of all ingestions, not per-article — that lets the check see the full picture of what was just updated.
 
+## Phase 4: Daily Note Synthesis
+
+Before reporting completion, reopen `investing/Daily/YYYY-MM-DD.md` and make sure the batch has a non-empty `## Synthesis` section. This section is mandatory for `/news` batches.
+
+Write the explanation that would otherwise live only in chat:
+
+- the through-line tying the selected stories together, or a clear statement that they are unrelated;
+- what changed versus what was already true;
+- the causal mechanism and market/geopolitical/technology read-through;
+- why selected items were ingested and lower-priority candidates were skipped;
+- which vault got each part of the story and why.
+
+The daily note should let future readers recover the "why this mattered" frame without scrolling the Telegram thread.
+
 ## Rules
 
 Most ingestion rules are global and live in `CLAUDE.md` or `docs/`. Below are the rules specific to multi-article batched runs:
 
 - **Batch downstream-impact check at end** — see Phase 3.
 - **Cross-article corroboration** — when the same fact appears in multiple articles in the batch, cite the earliest reporting and link the corroborating sources rather than duplicating the claim across notes.
+- **Daily synthesis is required** — the batch is incomplete until the explanation is in `## Synthesis`, not only in the final chat message.
