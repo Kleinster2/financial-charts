@@ -175,6 +175,30 @@ The bigger structural read: Abel is using cash-flow allocation rather than cash-
 
 ---
 
+## Taylor Morrison acquisition — Abel's first big deal (May 31, 2026)
+
+Berkshire agreed to buy US homebuilder [[Taylor Morrison]] for $8.5bn (enterprise value), the first major acquisition originated by [[Greg Abel]] since taking over as CEO. It is the clearest sign yet that the ~$397B cash pile is starting to move — though at $8.5bn it is a deployment, not the "transformative" deal Abel explicitly ruled out at the May 2 annual meeting (the May 2 framing holds; this is mid-size).
+
+| Deal term | Value |
+|---|---|
+| Price per share | $72.50 |
+| Equity value | $6.8bn |
+| Enterprise value (incl. debt) | $8.5bn |
+| Premium to prior Friday close | 24% |
+| Target revenue (last year) | $8.1bn |
+| Footprint | 21 markets, 12 US states |
+| Target CEO | Sheryl Palmer (stays on) |
+| Expected close | H2 2026 |
+| Advisers | Goldman Sachs + Moelis (target); Simpson Thacher (target legal); Gibson Dunn (Berkshire) |
+
+Market reaction: the 24% premium ($72.50 vs a Friday close implying ~$58.5) is the disclosed tape; [[Taylor Morrison]] is not in the local DB and BRK's own reaction was immaterial at ~$1tn cap. (Berkshire's prior big deal was the $9.7bn OxyChem purchase from [[Occidental Petroleum]] last October, when Abel was CEO-elect.)
+
+Strategic logic: Taylor Morrison would be combined with Berkshire-owned Clayton Homes; Berkshire already holds public stakes in homebuilders [[D.R. Horton]], [[Lennar]] and [[NVR]], and owns building-products names Benjamin Moore (paint) and Johns Manville (roofing/insulation), so this deepens an existing vertical rather than entering a new one. It is a counter-cyclical housing bet — the NAHB projects single-family construction +1% to 940,000 units in 2026 and +5% to 984,000 in 2027 despite high mortgage rates. Two tailwinds: Trump's affordability drive (Taylor Morrison is among builders discussing a federal rent-to-own programme) and the broader building-products M&A wave that Brad Jacobs' ~$50bn roll-up ambitions have spurred ([[Home Depot]], [[Lowe's]] dealmaking). Taylor Morrison's Yardly rental brand and in-house mortgage arm add rent-and-finance exposure to the homeownership bet.
+
+*Source: [[Financial Times]], "Berkshire buys homebuilder Taylor Morrison for $8.5bn in Abel's first big deal" (Oliver Barnes, May 31 2026).*
+
+---
+
 ## Performance and alpha debate
 
 | Period | Annual alpha vs R1000V | t-stat |
