@@ -170,6 +170,12 @@ The read-through is that Korean energy security is shifting from "replace Middle
 
 *Source: [Robin J. Brooks, "Why did the Brent oil price not go to $200?"](https://robinjbrooks.substack.com/p/why-did-the-brent-oil-price-not-go), May 27 2026.*
 
+## Won weakness — the "DRam dollars" puzzle (May 2026)
+
+The flip side of the AI-memory boom is a currency that will not appreciate. In 2026 the [[Korean won]] fell about 4% against the dollar to around ₩1,500 — its worst since the 2008-09 financial crisis — even as Korea ran a Q1 current-account surplus of $73.8bn and [[Samsung]] and [[SK Hynix]] posted Q1 net profits of $28.3bn and $22.4bn, lifting both to $1tn market caps. Brad Setser ([[Council on Foreign Relations]]) called this the "DRam dollars" puzzle (a manufacturing-surplus analog to petrodollars). The drivers are flow, not fundamentals: the [[Kospi]] doubling forced index-benchmarked foreigners to sell Korean equities (a record $79bn net selling) to avoid going overweight, and exporters are parking earnings in dollars rather than repatriating. The asymmetry: if the won turns, a repatriation rush could snap it sharply higher. See [[Korean won]] for the full mechanism and chart.
+
+*Source: [[Financial Times]], "Why South Korea's won is falling despite a chip export earnings bonanza" (May 28 2026).*
+
 ## Market proxy
 
 ![[south-korea-price-chart.png]]

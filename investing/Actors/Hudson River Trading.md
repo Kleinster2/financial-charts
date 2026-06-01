@@ -40,6 +40,12 @@ HRT has also tapped debt markets to boost firepower beyond retained profits, alo
 
 *Source: FT Alphaville (Sep 29 2025)*
 
+### Record Q1 2026 trading revenue
+
+HRT brought in $6.4bn of trading revenue in the first quarter of 2026, riding the same volatility regime that lifted the whole market-making cohort — oil and Treasury-rate swings from the [[Operation Epic Fury|Iran war]] plus AI-driven equity volatility (see [[2026 Iran conflict market impact]]). [[Jane Street]] led with a record $16.1bn and [[Citadel Securities]] earned a record $4.3bn over the same period; the three firms together generated roughly $27bn of Q1 trading revenue.
+
+*Source: [[Financial Times]], "Citadel Securities posts record $4.3bn in trading revenues on Iran volatility" (Jill R Shah and Eric Platt, May 29 2026); HRT figure first reported FT, "Hudson River Trading generates $6.4bn in first-quarter trading revenue" (May 11 2026).*
+
 ---
 
 ## Trading activity

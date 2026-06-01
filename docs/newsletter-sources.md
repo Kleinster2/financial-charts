@@ -10,6 +10,7 @@ These are high-signal, low-noise voices — they publish analysis before or inst
 |-------------|-----|----------|-------|
 | **Vizier Report** | https://vizier.report | Geopolitics | Middle East, Iran, strategic analysis |
 | **Robin J. Brooks** | https://robinjbrooks.substack.com | Geopolitics, Investing | Macro, trade flows, energy markets, AIS shipping data |
+| **Brad Setser (Follow the Money)** | https://www.cfr.org/blog/Setser | Investing, Geopolitics | Cross-border capital flows, FX reserves, foreign Treasury demand, sovereign debt restructuring (CFR; also on the `/daily-scan` analyst watchlist) |
 | **Chips and Wafers** | https://chipsandwafers.substack.com | Investing | Semiconductor equipment, test ecosystem, packaging |
 | **Ideas in Development** | https://ideasindevelopment.substack.com | Investing | Development economics, AI + emerging markets, VoxDev podcast |
 | **Jason's Chips** | https://jasonschips.substack.com | Investing | Semiconductor technology primers, packaging, process nodes |

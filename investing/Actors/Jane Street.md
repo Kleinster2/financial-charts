@@ -39,6 +39,12 @@ Jane Street, [[Citadel Securities]], and [[Hudson River Trading]] have all tappe
 
 *Source: FT Alphaville (Sep 29 2025)*
 
+### Record Q1 2026 — beat the bulge bracket
+
+Jane Street posted record revenues of $16.1bn in the first quarter of 2026, a haul that beat both [[JPMorgan Chase|JPMorgan]] and [[Goldman Sachs]] over the same period and confirmed it as the market leader of the prop-trading cohort. The quarter was powered by the volatility regime detailed in [[2026 Iran conflict market impact]] — oil and Treasury-rate swings from the [[Operation Epic Fury|Iran war]] layered on AI-driven equity volatility. [[Citadel Securities]] earned a record $4.3bn and [[Hudson River Trading]] $6.4bn in the same quarter; together the three firms generated roughly $27bn of Q1 trading revenue.
+
+*Source: [[Financial Times]], "Citadel Securities posts record $4.3bn in trading revenues on Iran volatility" (Jill R Shah and Eric Platt, May 29 2026).*
+
 ---
 
 ## Tech investments

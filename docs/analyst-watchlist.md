@@ -1,6 +1,6 @@
 # Analyst Watchlist
 
-8 tracked analysts scanned by `/daily-scan`. When they publish new commentary, ingest their quotes, data points, and price calls into both their `Analysts/` note and the relevant concept/event notes — not just the source-person note.
+9 tracked analysts scanned by `/daily-scan`. When they publish new commentary, ingest their quotes, data points, and price calls into both their `Analysts/` note and the relevant concept/event notes — not just the source-person note.
 
 ## Watchlist
 
@@ -14,6 +14,7 @@
 | [[Zoltan Pozsar]] | Ex Uno Plures | Rates, monetary plumbing, petrodollar | `"Zoltan Pozsar" OR "Ex Uno Plures"` |
 | [[Ed Yardeni]] | Yardeni Research | Equity strategy, macro | `"Ed Yardeni" OR "Yardeni Research"` |
 | [[Mike Wilson]] | [[Morgan Stanley]] | US equity strategy | `"Mike Wilson" OR "Morgan Stanley equity strategy"` |
+| [[Brad Setser]] | [[Council on Foreign Relations]] | Cross-border capital flows, FX reserves, foreign Treasury demand, sovereign debt | `"Brad Setser" OR "Follow the Money" OR "Setser CFR"` |
 
 ## Scan discipline
 
@@ -22,12 +23,13 @@
 3. If new, surface in the morning briefing's "Analyst signals" section.
 4. Full ingestion (quotes into concept/event notes, not just the analyst note) happens via `/ingest URL` — the morning scan surfaces; `/ingest` writes.
 
-## Why these eight
+## Why these nine
 
 Each covers a high-leverage corner of the vault's theses:
 
 - **Commodities cohort (Croft, Currie, Kaneva, Blanch)** — four desks with distinct house views on oil and metals; consensus or dissent between them is itself a signal.
 - **Macro independents (Alden, Pozsar)** — fiscal-dominance / monetary-plumbing frames that mainstream sell-side rarely articulates.
 - **Equity strategists (Yardeni, Wilson)** — opposite poles of US equity positioning; their disagreement is durable enough to be a vault structure.
+- **Capital flows (Setser)** — cross-border flows, FX-reserve accumulation, foreign Treasury demand, and sovereign debt. Added 2026-05-31 to close a structural gap: this is the domain behind the vault's [[Treasuries]] foreign-demand, [[De-dollarization]], [[Basis trade]], [[Dollar reserve status erosion]], and chip-exporter-FX ([[Korean won]] "DRam dollars") threads, which none of the other eight own. Primary outlets: the CFR [Follow the Money](https://www.cfr.org/blog/Setser) blog and X ([@Brad_Setser](https://x.com/Brad_Setser)); also tracked as a `/substacks` source.
 
-Adding a ninth analyst should require a thesis-relevant gap, not just a name recognition vote.
+Adding a tenth analyst should require a thesis-relevant gap, not just a name recognition vote.

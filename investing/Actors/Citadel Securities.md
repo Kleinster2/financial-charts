@@ -22,6 +22,18 @@ aliases: [Citadel]
 
 ---
 
+## Record Q1 2026 + push into bank turf (May 2026)
+
+Citadel Securities brought in a record $4.3bn in trading revenue in the first quarter of 2026 and earned $1.9bn in net income, per people familiar with the matter (the firm declined to comment). The driver was the volatility regime documented in [[2026 Iran conflict market impact]]: oil prices and short- and long-term [[Treasuries|Treasury]] rates seesawed on the [[Operation Epic Fury|Iran war]], stacked on top of AI-driven swings in US equities as investors repriced business-model risk in software. Market makers profit from this kind of volatility because they match buyers and sellers and capture the spread — the structural mirror image of the [[Goldman Sachs]] rates desk that was wrongfooted by the same shock.
+
+The quarter was a cohort event, not a Citadel-specific one. Market leader [[Jane Street]] posted record revenues of $16.1bn and beat [[JPMorgan Chase|JPMorgan]] and [[Goldman Sachs]] over the same period; [[Hudson River Trading]] brought in $6.4bn. Together the three firms generated roughly $27bn of Q1 trading revenue.
+
+Separately, Citadel Securities is expanding from pure electronic market making into high-touch client servicing in areas such as equity trading, recruiting Elan Luger, head of JPMorgan's high-touch equities trading service. The move puts the firm in direct competition with the banks; Citadel Securities has said this is not a conflict with any one bank, including JPMorgan. This continues the encroachment-on-banks pattern already visible in the [[Morgan Stanley]] options-unit acquisition and the debt-market funding shift described under [[HFT-hedge fund convergence]].
+
+*Source: [[Financial Times]], "Citadel Securities posts record $4.3bn in trading revenues on Iran volatility" (Jill R Shah and Eric Platt, May 29 2026).*
+
+---
+
 ## Payment for order flow (PFOF)
 
 **How it works:**

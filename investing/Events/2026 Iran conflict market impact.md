@@ -210,6 +210,21 @@ This matters because it extends the March regime break from the buy side into th
 
 *Source: FT, "Goldman traders wrongfooted as Iran war upended interest rate expectations" (Apr 15, 2026, pasted by user); Goldman Sachs Q1 2026 earnings results.*
 
+### May 29, 2026 — market-maker volatility windfall (the other side of the desk P&L)
+
+The desk that loses on a directional rates bet is not the desk that loses on volatility. The Goldman rates-desk wrongfooting above is the loss leg; the market makers are the win leg. Firms that match buyers and sellers and capture the spread are structurally long volatility, and Q1 2026 delivered two independent volatility engines at once — the [[Operation Epic Fury|Iran war]] (seesawing oil and short- and long-term Treasury rates) and AI-driven swings in US equities as investors repriced software business models.
+
+| Firm | Q1 2026 trading revenue | Note |
+|---|---|---|
+| [[Jane Street]] | $16.1bn (record) | Beat [[JPMorgan Chase\|JPMorgan]] and [[Goldman Sachs]] that quarter; cohort leader |
+| [[Hudson River Trading]] | $6.4bn | First reported FT May 11 |
+| [[Citadel Securities]] | $4.3bn (record) | $1.9bn net income; ~25% of US equity volume |
+| Combined | ~$27bn | Three private prop firms, one quarter |
+
+This is the cleanest illustration of how the same supply shock splits Wall Street P&L by mandate. Macro hedge funds running the consensus [[Steepener trade]] were down 6-15% in March (hedge-fund table above); the [[Goldman Sachs]] rates desk was wrongfooted; but the private market-making cohort booked record quarters off the volatility those same moves created. [[Citadel Securities]] also used the moment to push into high-touch bank turf (recruiting JPMorgan's head of high-touch equities trading), so the windfall is funding competitive encroachment, not just one-quarter profit. See [[HFT-hedge fund convergence]] and the [[Market Makers]] sector for the structural backdrop.
+
+*Source: [[Financial Times]], "Citadel Securities posts record $4.3bn in trading revenues on Iran volatility" (Jill R Shah and Eric Platt, May 29 2026).*
+
 ### April 8-9 ceasefire short squeeze — Goldman Sachs PB data
 
 [[Trump II|Trump]]'s ceasefire announcement on April 8 triggered the largest short squeeze since March 2020. [[Goldman Sachs]] prime brokerage data revealed the pre-squeeze positioning:
