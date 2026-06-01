@@ -22,6 +22,7 @@
 2. Check against the `Analysts/` note to see if the commentary is already captured.
 3. If new, surface in the morning briefing's "Analyst signals" section.
 4. Full ingestion (quotes into concept/event notes, not just the analyst note) happens via `/ingest URL` — the morning scan surfaces; `/ingest` writes.
+5. X-primary sources (e.g., [[Brad Setser]] at [@Brad_Setser](https://x.com/Brad_Setser)): web search misses raw posts, so also sweep their X profile via Claude-in-Chrome MCP during `/daily-scan` when the authenticated browser is available. This is a triggered manual step, not autonomous — Chrome MCP needs the live logged-in session (Playwright has no cookies; X's API is gated). Load older posts before reading, ingest thesis-relevant ones via `/ingest`, and skip retweets/replies unless they carry original data or a call.
 
 ## Why these nine
 
