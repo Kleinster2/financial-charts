@@ -130,6 +130,14 @@ Stock +2% on results.
 
 ---
 
+## Loses "Japan's largest company" title to SoftBank (Jun 1, 2026)
+
+Toyota was overtaken by [[SoftBank]] as Japan's biggest company by market capitalisation on June 1, 2026, ending a run at the top that had lasted more than 20 years (Toyota displaced [[NTT Docomo]] in 2003). Toyota fell ~4.5% on the day to below ¥46tn (from just over ¥48tn at the prior Friday's close) while SoftBank rose ~8% to >¥46tn. The handover is less about Toyota's fundamentals than about where the marginal equity bid is going: the [[Nikkei 225]]'s record run above 67,000 is being led by AI and semiconductor names ([[SoftBank]], [[Kioxia]]), not the industrial champions that defined the prior era. See [[Nikkei 225]] for the index-level read.
+
+*Source: [[Financial Times]], "SoftBank overtakes Toyota to become Japan's largest company" (David Keohane and Leo Lewis, June 1 2026).*
+
+---
+
 ## Financial position
 
 | Metric | Value |

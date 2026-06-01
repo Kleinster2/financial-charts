@@ -373,6 +373,26 @@ See [[2026 OpenAI revenue miss]] for the full event note covering market reactio
 
 ---
 
+## June 1, 2026 — overtakes Toyota as Japan's largest company
+
+SoftBank became [[Japan]]'s biggest company by market value on June 1, 2026, overtaking [[Toyota]], which had held the top slot for more than 20 years (since displacing [[NTT Docomo]] in 2003). This is the punctuation mark on the recovery from the [[SoftBank#Share price collapse (Oct 2025 – Mar 2026)|Oct 2025 – Mar 2026 ~50% collapse]]: SoftBank is up nearly 73% year-to-date, hit another all-time high on June 1, and rose more than 8% on the day after pledging up to [[SoftBank#France AI data-center plan (May 2026)|€75bn for AI clusters in France]].
+
+| Metric | Value |
+|--------|-------|
+| SoftBank market cap | >¥46tn ($288bn) |
+| SoftBank YTD | +73%; +8% on June 1 |
+| Toyota market cap | ¥48tn (Fri) → <¥46tn (−4.5% Mon) |
+| Toyota's prior reign | Japan's largest since 2003 (overtook [[NTT Docomo]]) |
+| [[Nikkei 225]] | passed 67,000 first time, +~30% YTD (DB ^N225 ~66,330 May 29) |
+
+The mechanism is the same OpenAI-proxy beta documented throughout this note, now running in the up direction: [[OpenAI]]'s US-listing plans taking shape, plus [[Arm Holdings|Arm]] forecasting higher revenue from its coming in-house semiconductor, flipped the sentiment that had cut SoftBank ~50% from its October peak. The same balance-sheet leverage and OpenAI concentration that make SoftBank a high-beta proxy on the way down (S&P negative outlook, LTV stress) are what let it lead on the way up.
+
+Wider tape: this is an AI-mania milestone for the whole [[Nikkei 225]], not a SoftBank-only move. Memory maker [[Kioxia]] is up more than 525% YTD on data-center demand — now the third most valuable Japanese listed company, ahead of [[MUFG]]. Nomura's Tomochika Kitaoka cautioned on whether the pace of AI/semiconductor earnings upgrades is sustainable; Jesper Koll (Monex Group) framed the regime shift as "charismatic leadership and daredevil risk-taking" beating "fortress balance sheets." See [[Nikkei 225]] for the index-level read.
+
+*Source: [[Financial Times]], "SoftBank overtakes Toyota to become Japan's largest company" (David Keohane and Leo Lewis, June 1 2026). Nikkei level cross-checked against market_data.db (^N225).*
+
+---
+
 ## Quick stats
 
 | Metric | Value |

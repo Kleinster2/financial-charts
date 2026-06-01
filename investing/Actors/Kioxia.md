@@ -103,6 +103,14 @@ Second-largest NAND producer, but structurally disadvantaged:
 
 ---
 
+## 2026 surge — third most valuable Japanese listed company (Jun 2026)
+
+Kioxia is up more than 525% YTD in 2026 on expectations of massive demand for the memory chips needed to build data centers, making it the third most valuable Japanese listed company — ahead of [[MUFG]], Japan's largest bank — within the [[Nikkei 225]]'s June 1 record above 67,000. This partly complicates the "missing the AI boom" framing below: even a pure-NAND maker with no [[HBM]] is being repriced as data-center storage demand absorbs conventional memory, not just the [[SK Hynix]]/[[Samsung]] HBM tier. The structural HBM gap remains real, but the 2026 tape says the AI buildout is now bidding the whole memory stack, NAND included. See [[Nikkei 225]] for the index context and [[Memory shortage 2025-2026]].
+
+*Source: [[Financial Times]], "SoftBank overtakes Toyota to become Japan's largest company" (David Keohane and Leo Lewis, June 1 2026).*
+
+---
+
 ## Competitive position
 
 | vs Competitor | Assessment |
