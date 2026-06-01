@@ -3,7 +3,7 @@ aliases: [Warsh]
 ---
 #actor #individual #usa #macro #fedchair
 
-**Kevin Warsh** — Confirmed successor to [[Jerome Powell]] as [[Federal Reserve]] Chair. Former Fed Governor (2006-2011). [[Stanford]]/[[Morgan Stanley]] background. Senate confirmed him on May 13, 2026; formal swearing-in is scheduled for May 22, with Powell serving as chair pro tempore until then.
+**Kevin Warsh** — Chair of the [[Federal Reserve]], succeeding [[Jerome Powell]]. Former Fed Governor (2006-2011). [[Stanford]]/[[Morgan Stanley]] background. Senate confirmed him on May 13, 2026 (54-45) and he was sworn in at the White House in late May; [[Jerome Powell]] stayed on as a Fed governor rather than departing.
 
 ---
 
@@ -230,6 +230,14 @@ The Senate confirmed Warsh as Fed Chair on May 13, 2026 in a 54-45 vote. The [[F
 [[Reuters]]' May 13 market reaction captured the bind: Warsh takes over with inflation rising, oil prices elevated, and a market already debating whether the next surprise is a hike, not a cut. That makes his first communications more important than the formal confirmation itself.
 
 Sources: [Federal Reserve Board press release](https://www.federalreserve.gov/newsevents/pressreleases/other20260515a.htm), May 15, 2026; [Reuters via Investing.com](https://www.investing.com/news/economy-news/warsh-wins-confirmation-as-fed-chair-with-inflation-on-the-march-4685952), May 13, 2026; [Reuters via Investing.com](https://www.investing.com/news/economy-news/warsh-to-be-sworn-in-as-fed-chair-at-white-house-on-friday-fox-business-reports-4696538), May 18, 2026; [[Kalshi]] API series KXFEDCHAIRCONFIRMED, KXFEDCHAIRCONFIRM, KXFEDDECISION, and KXRATECUTCOUNT, read May 20, 2026.
+
+---
+
+### Sworn in as chair; Powell stays on (late May 2026)
+
+Warsh was sworn in as Fed chair at the White House by Supreme Court justice Clarence Thomas. Trump used the swearing-in to publicly press for independence — "I want him to be independent and just do a great job. Don't look at me, don't look at anybody" — language that reads as much as expectation-setting as reassurance given the parallel pressure on [[Jerome Powell]] and [[Lisa Cook]]. Notably, Powell did not leave the building: he stayed on as a Fed governor (first chair to remain in ~80 years, board seat to Jan 2028), a check on the transition that also helps Warsh build FOMC relationships after his prior public criticism of sitting governors. See [[Federal Reserve#Transition complete — Warsh sworn in, Powell stays as governor (late May 2026)|the Fed transition entry]] and [[Fed independence]].
+
+*Source: [[Financial Times]], "Jay Powell warns Federal Reserve is undergoing 'stress test'" (Claire Jones, May 31 2026).*
 
 ---
 

@@ -257,6 +257,16 @@ Market reaction: S&P -1.4%, Dow -768pts to new 2026 closing low, 2Y yield +10bp 
 
 ---
 
+## May 31, 2026 — stays on as governor; "stress test" speech
+
+The two open questions from the March/April pressers are now resolved. Powell's chair term ended in May, [[Kevin Warsh]] was sworn in as chair (at the White House, by justice Clarence Thomas), and Powell chose to remain as a Fed governor — the first chair to stay on at the central bank in almost 80 years — explicitly citing concern over the administration's threats to Fed independence. (His board seat runs to January 2028.)
+
+In his first public remarks since stepping down — a Boston speech on May 31 accepting the JFK Profile in Courage Award — Powell said the Fed is "like many other [US] institutions . . . undergoing a stress test," and warned that if any administration removes Fed officials over policy differences, "future administrations will do so as well," costing the Fed its credibility. He cast it as a rule-of-law issue without naming Trump. The pressure is still live: [[Jeanine Pirro]] opened a criminal investigation into the $2.5bn Fed HQ renovation (the $700mn cost-overrun piece handed to the Fed inspector general) — note this reopens the thread after her April 24 "closing" with a reserved right to reopen — and [[Lisa Cook]] keeps her seat by Supreme Court order pending the justices' ruling on Trump's removal attempt. See [[Fed independence]].
+
+*Source: [[Financial Times]], "Jay Powell warns Federal Reserve is undergoing 'stress test'" (Claire Jones, May 31 2026).*
+
+---
+
 ## Related
 
 ### Institution

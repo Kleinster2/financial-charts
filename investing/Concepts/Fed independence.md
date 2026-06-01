@@ -57,6 +57,18 @@ Powell on Fed independence (Jan 29):
 
 ---
 
+## May 2026 — transition completes, the "stress test" continues
+
+The leadership transition resolved without removing the independence question. [[Kevin Warsh]] was sworn in as chair; [[Jerome Powell]] stayed on as a Fed governor (first chair to remain in ~80 years), explicitly citing the administration's threats to Fed independence. In a May 31 Boston speech (JFK Profile in Courage Award) — his first since stepping down as chair — Powell said the Fed is "undergoing a stress test" and gave the cleanest statement of the precedent risk this concept turns on:
+
+> "If any administration finds a way to remove Fed officials over policy differences, then future administrations will do so as well . . . The public would lose faith that the central bank will make decisions based only on what's best for all Americans. The Fed's credibility would be lost."
+
+This is the same what-goes-around logic justice Kavanaugh used at the Jan SCOTUS hearing, now voiced by the outgoing chair. Live pressure points: [[Jeanine Pirro]] opened a criminal investigation into the $2.5bn Fed HQ renovation (the $700mn overrun referred to the Fed inspector general), reopening the thread after her April "close"; [[Lisa Cook]] keeps her seat by Supreme Court order pending the ruling on Trump's removal attempt. The institutional-risk tail is no longer about confirmation — it is whether "for cause" removal of a sitting governor survives the courts.
+
+*Source: [[Financial Times]], "Jay Powell warns Federal Reserve is undergoing 'stress test'" (Claire Jones, May 31 2026).*
+
+---
+
 ## Market transmission
 
 | If independence erodes | Market response |

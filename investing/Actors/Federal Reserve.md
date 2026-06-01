@@ -187,6 +187,14 @@ The confirmation risk is gone, but the market-relevant uncertainty has shifted t
 
 Sources: [Federal Reserve Board press release](https://www.federalreserve.gov/newsevents/pressreleases/other20260515a.htm), May 15, 2026; [Reuters via Investing.com](https://www.investing.com/news/economy-news/warsh-wins-confirmation-as-fed-chair-with-inflation-on-the-march-4685952), May 13, 2026; [Reuters via Investing.com](https://www.investing.com/news/economy-news/warsh-to-be-sworn-in-as-fed-chair-at-white-house-on-friday-fox-business-reports-4696538), May 18, 2026; [[Kalshi]] API series KXFEDCHAIRCONFIRMED, KXFEDCHAIRCONFIRM, KXFEDDECISION, and KXRATECUTCOUNT, read May 20, 2026.
 
+### Transition complete — Warsh sworn in, Powell stays as governor (late May 2026)
+
+The transition is now done: [[Kevin Warsh]] was sworn in as chair at the White House by Supreme Court justice Clarence Thomas, and [[Jerome Powell]] resolved the open question by staying on as a Fed governor rather than leaving — the first chair to remain at the central bank in almost 80 years, a decision he attributed to concerns over the administration's threats to Fed independence. Trump said at the swearing-in that he wanted Warsh "totally independent" ("Don't look at me, don't look at anybody").
+
+In his first public comments since stepping down as chair — a May 31 Boston speech accepting the JFK Profile in Courage Award — Powell said the Fed is "like many other [US] institutions . . . undergoing a stress test" and warned: "If any administration finds a way to remove Fed officials over policy differences, then future administrations will do so as well . . . The Fed's credibility would be lost." He framed the defense of independence as respect for the rule of law. The governance pressure remains live: [[Jeanine Pirro]] (DC US Attorney, Trump ally) opened a criminal investigation into Powell over the $2.5bn Fed HQ renovation, and the DOJ has handed the $700mn cost-overrun probe to the Fed's inspector general; [[Lisa Cook]] retains her seat by Supreme Court order while the justices weigh Trump's attempt to remove her. See [[Fed independence]] for the concept-level read.
+
+*Source: [[Financial Times]], "Jay Powell warns Federal Reserve is undergoing 'stress test'" (Claire Jones, May 31 2026).*
+
 ### Warsh nomination (Jan 30, 2026)
 
 Trump named former Fed Governor [[Kevin Warsh]] as his pick to replace Powell. Markets fell on the news — S&P -0.43%, Nasdaq -0.94% — as rising Treasury yields reflected expectations of a less dovish Fed.
