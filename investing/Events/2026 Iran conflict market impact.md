@@ -454,6 +454,27 @@ The read-through is not that long-run inflation expectations have cleanly broken
 
 Source: [[Adam Tooze]], Chartbook Top Links 1114, May 27 2026; Chartbook curation of Bloomberg and FT bond-market items.
 
+### June 1, 2026 -- inflation shock tracking well below the 2022 surge
+
+An FT analysis of Consensus Economics forecasts frames the war's inflation channel against the 2022 Russia-Ukraine energy shock, and the verdict is that 2026 is materially milder so far. This is the magnitude counterpart to the [[#May 15, 2026 — global long-end repricing on inflation shock|May 15 long-end repricing]] and the [[#May 29, 2026 - Fed oil-shock language hardens|Schmid Fed-speech]] entries: the war is real-economy inflationary, but not 2022-scale.
+
+| Metric | 2022 (Ukraine) | 2026 (Iran) so far |
+|---|---|---|
+| Inflation forecast rise, 3 months into crisis | +2.3 pp | +0.8 pp |
+| US 2026/2022 inflation forecast rise (Feb→May) | +2.0 pp | +0.9 pp |
+| UK inflation forecast rise (Feb→May) | +2.4 pp | +0.9 pp |
+| Global GDP forecast cut (similar stage) | −0.9 pp | −0.3 pp (as of May 11) |
+| Global growth level pencilled in | 3.1% (May 2022) | 2.5% (now) |
+| Global inflation predicted | 6.5% (May 2022) → 7.5% (Dec 2022) | ~3.25% (current) |
+| European gas peak | >€300/MWh | ~€60/MWh, now <€50 |
+| Brent | >$100 | >$100 (since eased on deal talks) |
+
+US CPI did hit a three-year high of 3.8% in April 2026, so the shock is real. But economists attribute the smaller pass-through to five structural differences from 2022: (1) the world entered with less momentum — labour markets are "significantly cooler" (James Smith, [[ING]]) rather than riding post-Covid fiscal coattails; (2) this is "an oil and not — yet — a natural gas crisis" (Smith), where 2022 was both, and the gas gap is the key tell (€60 vs €300/MWh); (3) AI optimism is acting as a disinflation/growth counterweight where post-Covid demand amplified the 2022 shock (Jumana Saleheen, [[Vanguard]]); (4) monetary policy is already tight and inflation near target in most countries, vs the double-target, double-digit-money 2022 backdrop (Tomasz Wieladek, [[T. Rowe Price]]; Holger Schmieding, [[Berenberg]]); (5) high government debt limits fiscal support to the hardest-hit, muting the demand echo. Holger Schmieding's structural point: the odds of a Hormuz resolution are far above the near-zero 2022 probability that Russian gas would return — the supply shock is more reversible. Nathan Sheets ([[Citigroup]]): the global economy "takes a licking and it keeps on ticking."
+
+The forward risk this entry deliberately does not dismiss: the IEA still calls the near-closure of the [[Strait of Hormuz]] the worst-ever energy crisis, and the comparison holds only while it stays an oil-not-gas shock and while the US-Iran ceasefire-extension talks (a reported 60-day extension plus Hormuz reopening) hold. If gas joins oil, the 2022 analogy re-arms. Cross-vault: the ceasefire-extension diplomacy is geopolitics-primary — flag for the geopolitics [[Operation Epic Fury]] timeline.
+
+*Source: [[Financial Times]], "Iran war inflation shock set to fall short of 2022 surge" (Sam Fleming and Valentina Romei, June 1 2026); Consensus Economics.*
+
 ---
 
 ## Expert panels
