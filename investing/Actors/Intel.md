@@ -473,6 +473,27 @@ The Irish plant stake repurchase is structurally meaningful — the original 202
 
 ---
 
+## Crescent Island AI inference GPU (Jun 1, 2026)
+
+Intel's first real push into the AI-accelerator (GPU) market under [[Lip-Bu Tan]], distinct from the CPU/inference and foundry threads above. The "Crescent Island" GPU — first unveiled in October 2025, an 18-month build — will ship in limited quantities to customers by end-2026. Kevork Kechichian (head of Intel's data-centre group, joined from [[Arm Holdings|Arm]] in 2025) framed it as "starting with the basics."
+
+The strategy is deliberately narrow and cost-led:
+
+| Choice | Crescent Island | Nvidia Blackwell / AMD |
+|---|---|---|
+| Workload | Inference only | Training-dominant (Nvidia) |
+| Memory | LPDDR5 (cheap) | HBM (expensive, supply-tight) |
+| Cooling | Air-cooled | Liquid-cooling infrastructure |
+| Manufacturing | Moving to in-house Intel foundry | TSMC-reliant |
+
+Intel is explicitly not chasing the training market where [[NVIDIA]] dominates — a lesson from the failed "Gaudi" training GPU, whose successor was cancelled in 2025. Instead it targets the two cost constraints rivals carry: expensive HBM and liquid cooling. Building the chip in Intel's own fabs ("for all data centre products we are moving aggressively into our own foundry") is the second cost lever versus TSMC-dependent competitors. Intel is also assessing a lower tier that could comply with US [[Export controls]] for sale in [[China]], where Nvidia and AMD AI-chip sales are blocked — "clearly there is demand for that particular price point in that particular market."
+
+This is the GPU complement to the CPU-inference re-rating in the Apr 24 print: Intel's whole AI pitch is becoming "cheaper inference," not "frontier training." It slots into [[NVIDIA alternatives]] and [[Inference economics]] — the same cost-of-inference pressure pushing hyperscalers toward [[Groq]]/ASICs and away from scarce HBM-laden training GPUs. Intel shares are up more than 200% year-to-date (from >120% at the Apr 24 print), part of the broader semiconductor rally.
+
+*Source: [[Financial Times]], "Intel targets new AI data centre chip by year end" (Michael Acton, June 1 2026).*
+
+---
+
 ## For theses
 
 [[Short TSMC long Korea]]: Intel weakness = fewer competitors for Samsung
