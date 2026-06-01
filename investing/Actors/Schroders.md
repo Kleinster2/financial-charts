@@ -108,6 +108,14 @@ Paul O'Donnell (investment manager, Schroders Greencoat): even scaling back to 2
 
 ---
 
+## China mainland exit (2026)
+
+Schroders is exiting its wholly-owned mainland [[China]] mutual-fund business just three years after launch — it ran only Rmb1.7bn there out of ~$1tn managed globally — and has regulatory approval to transfer three funds and an investment team to [[Neuberger Berman]]. It keeps a JV presence and says it "remains fully committed to China." Schroders is one of six global managers whose greenfield China units together captured just 0.1% of the market in five years; see [[Foreign asset managers in China]] for the cohort picture.
+
+*Source: [[Financial Times]], June 1 2026 (and earlier FT report this month on the planned exit).*
+
+---
+
 ## Related
 
 - [[Nuveen]] — acquirer ($13.5B deal)
