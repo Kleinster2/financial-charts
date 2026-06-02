@@ -9,6 +9,8 @@ A methodological framework articulated by [[Paul Krugman]] in his May 16-18, 202
 
 The framework is structurally important for the vault thread because it directly affects the analytical foundation for [[Industrial policy]] EU regime evaluation, [[De-equitisation]] EU market commentary, and any cross-jurisdictional comparison that relies on productivity-growth data. If the constant-price-vs-PPP distinction is load-bearing, then a substantial portion of the conventional EU-decline narrative used by Western analysts and policymakers is methodologically unstable.
 
+On May 30 2026 the paradox stopped being a Krugman-solo argument and became a named three-way debate — economists [[Philippe Aghion]], [[Antonin Bergeaud]], and [[Luis Garicano]] ("ABG") pushed back, Krugman answered, and [[Brad DeLong]] supplied a distributional mechanism. See the "May 30 2026 escalation" section below.
+
 ---
 
 ## The paradox
@@ -47,6 +49,51 @@ The framework explicitly disclaims the strong version of the EU-rehabilitation a
 - The "Europe is technologically backward" common characterisation "rests on bad data analysis" — but other criticisms of European economic performance may stand on different grounds
 
 The careful framing matters for the vault thread because it limits how much the paradox can be used to support specific investing or policy positions (inference — Krugman doesn't stake out the limits explicitly but his hedged language implies them).
+
+---
+
+## May 30 2026 escalation: the ABG critique and the Krugman-DeLong defense
+
+Two weeks after the original pair, the paradox became a named three-way debate. [[Paul Krugman]]'s "Europe Versus America: A Response to the Critics" (May 30 2026) answers a critique from [[Philippe Aghion]], [[Antonin Bergeaud]], and [[Luis Garicano]] ("ABG"); [[Brad DeLong]]'s "Cui Bono from the Coming of the Bio-Info-Tech-Attention Economy" (May 30 2026) backs Krugman and supplies the distributional mechanism the measurement argument implies but did not spell out.
+
+### The four ABG criticisms and Krugman's answers
+
+(Per Krugman, May 30 2026 — the ABG source piece itself is not reproduced here, so the criticisms are as Krugman characterises them.)
+
+| ABG criticism | Krugman's rebuttal |
+|---|---|
+| PPP comparisons are unreliable | Constant-price comparisons are equally problematic — the choice is not "clean vs dirty," it is two flawed methods that happen to disagree |
+| US productivity growth genuinely exceeds Europe's | Conceded — but that is the starting point of the paradox, not a refutation of it |
+| Current PPPs and price deflators give different answers | "Precisely the mechanism" — the divergence is the phenomenon to be explained, not an objection |
+| US tech leadership drives widening wage/profit gaps | Disputed as unsupported by the data |
+
+### The Netherlands numbers Krugman cites
+
+The Netherlands is his clean test case — small, rich, and high-tech-adjacent (per Krugman, May 30 2026):
+
+| Measure | Result |
+|---|---|
+| Productivity growth, 2000-2025 | US ~1.6%/yr vs Netherlands ~0.6%/yr |
+| Productivity level at 2020 constant prices | Netherlands ~25% higher than US in 2000 |
+| Productivity level at current PPP | Netherlands ≈ US (slightly higher in 2000, slightly higher now) |
+| Household income, 2000-2021 (nominal) | Netherlands 3.1%/yr vs US 3.3%/yr — with lower Dutch inflation, no widening real gap |
+| Euro-area GDP per capita vs US (price-adjusted) | Somewhat lower, but the gap has not widened over time |
+
+The mechanism remains the product mix: the US specialises in high-tech goods whose constant-price productivity rockets while their relative prices fall, so the constant-price series credits the US with output that the PPP series treats as cheaper goods available to everyone.
+
+### DeLong's addition: product wage vs user wage
+
+DeLong separates the product wage (what producers earn making a good) from the user wage (what consumers gain through falling prices). ABG, he argues, commit a neo-mercantilist error — assuming productivity gains accrue to producers, and thus to national wage and profit aggregates. In the information-technology era the opposite holds: the gains flow to users through collapsing prices, so "European users of high-tech have seen their real earnings rise about as fast as American users have," even though the US books the producer-side productivity.
+
+DeLong anchors this in the Lewis-Prebisch-Singer fact: since roughly 1870, productivity gains in primary products have flowed to consumers via falling relative prices, while manufacturing gains were captured by producers. His "bio-info-tech-attention economy" framing extends the logic — the emerging system distributes its surplus to users rather than letting producers extract it, which is exactly why a producer-side productivity gap need not show up as a user-side living-standards gap.
+
+### Why the escalation matters for the vault
+
+The original pair established that the EU-decline productivity narrative is methodology-dependent. The May 30 round hardens that into a structural claim with named opposition: if DeLong's product-wage/user-wage split holds, then even granting ABG's faster US producer-side productivity, European living standards need not diverge — which further weakens the urgency case behind the [[Mario Draghi report]] competitiveness agenda and EU [[Industrial policy]] scale-matching, without claiming Europe has no problems (Krugman's careful framing in the section above still stands). The debate is now a clean producer-surplus (ABG) vs user-surplus (Krugman/DeLong) disagreement, which is the more tractable question (inference — this framing is mine, synthesising the two May 30 posts).
+
+### The producer-vs-user-surplus axis
+
+This debate is one instance of a general principle carried by [[Technological surplus capture]]: where the gains from a technological lead land — diffused to users through falling prices, or fenced with producers. DeLong's argument is the diffusion case — an information-technology lead's surplus cannot be hoarded, so a producer-side productivity gap (the US "winning") need not be a user-side living-standards gap (Europe "losing"). Its mirror image is the [[Chad Bown]]/[[Soumaya Keynes]] battery-tech thread on Krugman's same-day podcast (see [[China retaliatory toolkit]]), where China licenses the outbound flow of [[BYD]]/[[CATL]] technology precisely to stop that diffusion and trap the surplus on the producer side. Which force dominates a given technology decides whether "who's ahead in tech" maps onto "who's better off" — see [[Technological surplus capture]] for the general frame and the other vault cases.
 
 ---
 
@@ -95,6 +142,11 @@ The paradox is most actionable at the analytical-discipline level: any vault cla
 ## Related
 
 - [[Paul Krugman]] — framework articulator
+- [[Brad DeLong]] — supplies the product-wage/user-wage mechanism defending Krugman (May 30 2026)
+- [[Technological surplus capture]] — the general frame this debate instantiates (the diffusion-to-users case)
+- [[Philippe Aghion]] — named critic (ABG), producer-surplus reading
+- [[Antonin Bergeaud]] — named critic (ABG)
+- [[Luis Garicano]] — named critic (ABG), EU-competitiveness voice
 - [[Industrial policy]] — EU regime section directly affected
 - [[De-equitisation]] — EU market commentary affected
 - [[Second China shock]] — competing frame on Western relative position
@@ -113,6 +165,8 @@ The paradox is most actionable at the analytical-discipline level: any vault cla
 
 - [Paul Krugman, "Challenging the Narrative of European Decline, Continued," Substack, May 16, 2026](https://paulkrugman.substack.com/p/challenging-the-narrative-of-european) — original framing, paywall-stripped
 - [Paul Krugman, "Europe Versus America: A Wonkish Data Follow-up," Substack, May 18, 2026](https://paulkrugman.substack.com/p/europe-versus-america-a-wonkish-data) — methodological detail, the wonkish data presentation
+- [Paul Krugman, "Europe Versus America: A Response to the Critics," Substack, May 30, 2026](https://paulkrugman.substack.com/p/europe-versus-america-a-response) — response to the Aghion-Bergeaud-Garicano critique; Netherlands data
+- [Brad DeLong, "Cui Bono from the Coming of the Bio-Info-Tech-Attention Economy…," Substack, May 30, 2026](https://braddelong.substack.com/p/paul-krugman-qui-bono-from-the-coming) — product-wage vs user-wage defense of Krugman
 - World Bank productivity data 2000-2023
 - IMF productivity estimates 2000-2023
 - OECD Data Explorer euro area vs US comparisons 2000-2023

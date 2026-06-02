@@ -44,7 +44,9 @@ Three structural reasons for vault relevance:
 
 ## Recent vault-relevant work (May 2026)
 
-- "Challenging the Narrative of European Decline, Continued" (May 16, 2026) + "Europe Versus America: A Wonkish Data Follow-up" (May 18, 2026) — methodological paradox in EU-vs-US productivity comparison; canonical text for the new [[US-Europe productivity paradox]] concept note
+- "Challenging the Narrative of European Decline, Continued" (May 16, 2026) + "Europe Versus America: A Wonkish Data Follow-up" (May 18, 2026) — methodological paradox in EU-vs-US productivity comparison; canonical text for the [[US-Europe productivity paradox]] concept note
+- "Europe Versus America: A Response to the Critics" (May 30, 2026) — answers the [[Philippe Aghion]]/[[Antonin Bergeaud]]/[[Luis Garicano]] ("ABG") critique with Netherlands data; [[Brad DeLong]] backs him with the product-wage/user-wage distinction. Folded into [[US-Europe productivity paradox]]
+- "How to Win a Trade War" (podcast, May 30, 2026) — interview with [[Chad Bown]] and [[Soumaya Keynes]] on their book; strategic/defensive trade in a broken rules-based system, plus China's battery-tech-retention licensing on [[BYD]]/[[CATL]]. Folded into [[China retaliatory toolkit]] and [[Industrial policy]]
 - "A Tale of Thucydides" (May 17, 2026) — China-US framing; Trump weakness thesis
 - "Talking With Robin Brooks" (substack podcast) — recurring conversations with [[Robin J. Brooks]] on macro
 - "Talking With Lina Khan" (substack podcast) — antitrust + tech regulation
@@ -52,10 +54,12 @@ Three structural reasons for vault relevance:
 ## Related
 
 - [[Robin J. Brooks]] — recurring podcast guest; macro counterpoint
-- [[Brad DeLong]] — adjacent center-left macro voice
+- [[Brad DeLong]] — adjacent center-left macro voice; defends Krugman in the May 30 productivity debate
+- [[Chad Bown]] — May 30 podcast guest; trade-war strategy
+- [[Soumaya Keynes]] — May 30 podcast guest; trade-war strategy
+- [[US-Europe productivity paradox]] — May 16-30, 2026 framework
 - [[Adam Tooze]] — adjacent heterodox-Keynesian voice
 - [[Elhanan Helpman]] — Nobel co-thinker on new trade theory
-- [[US-Europe productivity paradox]] — May 16-18, 2026 framework
 - [[Federal Reserve]] — recurring subject
 - [[Second China shock]] — analytical lineage
 - [[Global imbalances]] — analytical lineage

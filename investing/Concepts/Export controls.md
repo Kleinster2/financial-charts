@@ -536,6 +536,7 @@ The evidence is still preliminary. Reuters noted Huawei did not provide independ
 - [[Naura Technology]] — beneficiary (50% domestic mandate)
 - [[AMEC]] — beneficiary (50% domestic mandate)
 - [[China retaliatory toolkit]] — counter-measures
+- [[Technological surplus capture]] — fencing the producer/compute layer as surplus capture
 - [[SEA chip diversion]] — leakage route (Malaysia, Singapore, Thailand)
 - [[Southeast Asia tech race]] — destination for Chinese DC buildout
 - [[US-China AI race]] — broader competition context

@@ -584,6 +584,7 @@ The [[Blackwell]] power-smoothing factor compounds the training-side problem on 
 
 ## Related
 
+- [[Technological surplus capture]] - the diffusion case: token-price collapse pushes AI's surplus to users, not labs
 - [[NVIDIA]] - player (acquired Groq $20B for inference)
 - [[Groq]] - acquired (LPUs for fast inference)
 - [[OpenAI]] - exposed (GPT-5 $30/$60 vs [[DeepSeek]] $0.27/$1.10)

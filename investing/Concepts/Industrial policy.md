@@ -120,6 +120,10 @@ Industries with steep learning curves or economies of scale cannot compete with 
 
 When global markets are imperfectly competitive with rents to incumbents, government subsidy can shift the rent distribution toward domestic firms. The 1980s [[Boeing]]-[[Airbus]] subsidy competition is the canonical case. Strategic trade theory was the academic high-water mark for industrial-policy reasoning in the 1980s; [[Paul Krugman]]'s own subsequent reconsideration (the political-economy difficulty of implementation) is also part of the story.
 
+The 2026 update of this lineage comes from [[Chad Bown]] and [[Soumaya Keynes]] (*How to Win a Trade War*), discussed on Krugman's May 30 2026 podcast. Their argument: the post-WWII rules-based system has collapsed under [[Second China shock|the China shock]], Russia's war, and asymmetric-interdependence strategies ([[Made in China 2025]], [[Dual circulation]]), so the relevant policy question shifts from "is free trade optimal?" to "how does a state play a strategic, defensive trade game?" Their prescriptions — stockpiling, selective industrial policy, preserving critical manufacturing capacity, and coordinating with allies against China rather than fighting intra-Western tariff battles — are an industrial-policy reading of trade strategy. The sharpest concrete example is China inverting the West's forced-technology-transfer model by licensing the outbound flow of its own battery/EV technology (see [[China retaliatory toolkit]]).
+
+*Source: [Paul Krugman, "How to Win a Trade War" (podcast with [[Chad Bown]] and [[Soumaya Keynes]]), May 30 2026](https://paulkrugman.substack.com/p/how-to-win-a-trade-war).*
+
 ### Learning by doing + path dependence
 
 Industries with significant tacit knowledge, "learning by doing" effects, or network externalities can be permanently stuck in a low-equilibrium without coordinated intervention. The semiconductor industry is the canonical case — fab construction costs grow with each node and tacit process knowledge is non-transferable. The TSMC-MIT-DARPA collaboration in the 1980s-90s is the kind of intervention that builds permanent capability.
@@ -340,6 +344,7 @@ The two-track risk for foreign-policy reasons: (1) industrial policy invites ret
 - [[Export controls]] — defensive offensive instrument
 - [[China semiconductor strategy]] — China sector-specific policy
 - [[Second China shock]] — analytical frame for why industrial policy returned
+- [[Technological surplus capture]] — appropriability / where-the-surplus-lands frame (production-vs-profit debate)
 - [[US-China decoupling]] — broader strategic context
 - [[US-China AI race]] — adjacent sectoral framework
 - [[Foundry Wars]] — semiconductor-industry frame

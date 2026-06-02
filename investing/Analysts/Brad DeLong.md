@@ -27,6 +27,14 @@ The investing read is not "agentic AI does not work." It is that useful agentic 
 
 *Source: [Brad DeLong, "Agentic AI is a bonfire of the tokens", May 29 2026](https://braddelong.substack.com/p/agentic-ai-is-a-bonfire-of-the-tokens).*
 
+### Product wage vs user wage in the US-EU productivity debate (May 30 2026)
+
+DeLong's May 30 post defends [[Paul Krugman]] against the [[Philippe Aghion]]/[[Antonin Bergeaud]]/[[Luis Garicano]] ("ABG") critique in the [[US-Europe productivity paradox]] argument. His useful contribution is the distinction between the product wage (what producers earn) and the user wage (what consumers gain through falling prices). ABG, he argues, make a neo-mercantilist error by assuming productivity gains accrue to producers; in the info-tech era they flow to users via collapsing prices, so "European users of high-tech have seen their real earnings rise about as fast as American users have" despite slower European producer-side productivity.
+
+He grounds it historically in the Lewis-Prebisch-Singer fact (since ~1870, primary-product productivity gains went to consumers, manufacturing gains to producers) and labels the emerging regime a "bio-info-tech-attention economy" that favours user surplus over producer extraction. The investing read-through: a measured producer-side productivity gap between the US and EU is weaker evidence of diverging living standards than the headline numbers imply — which softens the urgency framing behind EU [[Industrial policy]] scale-matching and the [[Mario Draghi report]] agenda.
+
+*Source: [Brad DeLong, "Cui Bono from the Coming of the Bio-Info-Tech-Attention Economy…", May 30 2026](https://braddelong.substack.com/p/paul-krugman-qui-bono-from-the-coming).*
+
 ## Related
 
 - [[Enterprise AI adoption]] - token burn as the ROI brake
@@ -35,3 +43,7 @@ The investing read is not "agentic AI does not work." It is that useful agentic 
 - [[Productivity J-curve]] - historical general-purpose-technology adoption lag
 - [[Anthropic]] - enterprise/coding exception and inference-spend test
 - [[OpenAI]] - model-lab burn and capital-market test
+- [[US-Europe productivity paradox]] - the debate he joined on Krugman's side (May 30 2026)
+- [[Paul Krugman]] - defended against the ABG critique
+- [[Philippe Aghion]] - named critic (ABG) DeLong rebuts
+- [[Mario Draghi report]] - EU competitiveness agenda the debate bears on

@@ -22,6 +22,7 @@ aliases: [Chinese retaliation, China countermeasures]
 | **Supply chain security law** | Any foreign or domestic actor | Apr 2026 PRC regulations criminalize "harm to security of the country's industrial and supply chains," with exit-ban threat for violators |
 | **Counter-extraterritorial jurisdiction rules** | Foreign jurisdictional reach | Apr 2026 PRC rules giving Beijing authority to assess and retaliate against foreign extraterritorial actions across trade, investment, and international cooperation |
 | **Anti-discrimination / supply-chain probes** | Foreign policy instruments and trade rules | Threatened against the [[EU]] overcapacity instrument (May 2026) |
+| Outbound technology-retention licensing | China's own strategic tech (batteries/EV) | Licensing controls on [[BYD]], [[CATL]] to deny technology transfer to European JV partners |
 
 ---
 
@@ -129,6 +130,27 @@ This is a meaningful broadening. The trigger is not a single acquisition, sancti
 
 *Sources: [Dow Jones via MarketScreener, May 29 2026](https://www.marketscreener.com/news/china-threatens-to-launch-trade-probes-against-the-european-union-2nd-update-ce7f5ddbdf89f220); [Reuters via Investing.com, May 30 2026](https://au.investing.com/news/economy-news/china-warns-of-retaliation-if-eu-imposes-new-trade-restrictions-4463409).*
 
+## Case study: outbound battery-tech-retention licensing (BYD/CATL)
+
+On [[Paul Krugman]]'s May 30 2026 Substack podcast, trade economist [[Chad Bown]] (with co-author [[Soumaya Keynes]], from their book *How to Win a Trade War*) flagged a tool that inverts the West's own playbook. In the early 2000s, China extracted technology from Western automakers by requiring joint ventures as the price of market access — forced technology transfer. Europe has floated copying that model to pull Chinese EV/battery know-how onshore. Beijing has pre-empted it by centralising licensing over the outbound flow of its own battery technology.
+
+Per Bown: "The Chinese government has already set up a system of licensing for its technology and saying, 'No, [[BYD]], [[CATL]], these companies, you're not allowed to just go out and negotiate with the Europeans. We're gonna be the one controlling access to that technology from foreigners.'"
+
+Why this belongs in the toolkit even though it is proactive rather than reactive:
+
+| Dimension | Pattern |
+|---|---|
+| Direction | Outbound — controls how much of China's *own* lead leaks abroad, the mirror of Western [[Export controls]]/FDPR |
+| Trigger | A foreign partner (the [[EU]]) attempting forced-JV technology capture in EVs/batteries |
+| Tool | State licensing over [[BYD]]/[[CATL]] foreign tech transfer; companies cannot independently deal |
+| Strategic logic | Preserve the battery/EV moat that production-school analysts (see [[Industrial policy]]) treat as China's clearest manufacturing lead |
+
+This aligns with China's broader 2025-26 move to put battery cathode and lithium-processing technology on its export-control catalogue — the same instinct that produced the 50% domestic-equipment mandate ([[Export controls]]) on the inbound side, now applied to keep the outbound crown jewels from being licensed away cheaply. It also sharpens the Bown/Keynes thesis that the rules-based trading order has given way to a strategic, defensive game in which both sides police technology in both directions.
+
+This is the producer-side mirror of the [[US-Europe productivity paradox]] debate. There, [[Brad DeLong]] argues an information-technology lead's surplus cannot be hoarded — it leaks to users worldwide through falling prices. China's battery-tech licensing is the deliberate attempt to defeat exactly that diffusion: keep the surplus trapped on the producer (Chinese) side rather than letting it escape to European users and producers. Whether a technological lead's gains diffuse to users or can be fenced with producers is the variable that connects the two threads — see the producer-vs-user-surplus synthesis in [[US-Europe productivity paradox]].
+
+*Source: [Paul Krugman, "How to Win a Trade War" (podcast with [[Chad Bown]] and [[Soumaya Keynes]]), May 30 2026](https://paulkrugman.substack.com/p/how-to-win-a-trade-war).*
+
 ## 2026 legal infrastructure
 
 Two new April 2026 PRC regulations institutionalized the toolkit and gave it broader reach than ad-hoc retaliation. Both were rolled out in the same window as the Panama port escalation and apply directly to that case.
@@ -198,6 +220,11 @@ See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for 
 - [[Panama Canal Ports Crisis 2025-2026]] — full proxy-battle context for the Panama case study
 - [[CK Hutchison]] — Chinese-linked operator displaced by [[Panama]] Supreme Court
 - [[China soft power]] — paired concept; soft-power flows are the attraction-side toolkit while this note catalogues the coercive-side toolkit
+- [[BYD]] — battery/EV champion subject to outbound tech-retention licensing
+- [[CATL]] — battery champion subject to outbound tech-retention licensing
+- [[Chad Bown]] — source for the battery-tech-retention point (May 30 2026)
+- [[Industrial policy]] — strategic-trade framework and CATL production-school context
+- [[Technological surplus capture]] — the general frame; outbound battery licensing is the fencing case
 
 ---
 
