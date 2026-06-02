@@ -408,6 +408,14 @@ The IMF caveat matters. IMF's 2026 Article IV says Japan's government assets are
 
 *Source: [Can Japan escape its debt trap?](https://robinjbrooks.substack.com/p/can-japan-escape-its-debt-trap), May 28 2026.*
 
+### "How Quickly Will Oil Normalize?" (May 30)
+
+The reverse of his March 23 "near the peak" elasticity call: with a ceasefire-extension deal in view, Brooks maps how fast the war premium unwinds. With front-month [[Brent crude|Brent]] around $90 (verified BZ=F: $94.29 May 27 → $92.05 May 29 → $94.61 Jun 1), he sees a peace agreement taking Brent to ~$85 or just below and US pump prices toward ~$4/gallon within weeks — a fast unwind, not a gradual one.
+
+Magnitude anchor: the oil move was ~2x the 2022 [[Russia]]-[[Ukraine]] rise on a similar timescale, yet the [[Strait of Hormuz]] is ~3x as important to global oil as Russia — so against the importance differential the realized premium is contained, and should deflate quickly once panic is removed. He names three normalization signals to watch over price targets: [[Brent crude|Brent]]-[[Dubai crude|Dubai]] regional recoupling, physical-paper convergence (spot falling back toward futures), and US gasoline tracking the August Brent future. Consistent with [[Hormuz Permanent Risk Premium]], a fast spot-premium unwind is compatible with a structural premium that never returns to the pre-war band. The same-day companion video "Markets after the Iran war" was subscriber video content and was not ingested.
+
+*Source: [How Quickly Will Oil Normalize?](https://robinjbrooks.substack.com/p/how-quickly-will-oil-normalize), May 30 2026.*
+
 ## Related
 
 - [[2026 Iran conflict market impact]]

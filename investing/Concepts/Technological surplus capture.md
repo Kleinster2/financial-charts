@@ -132,6 +132,14 @@ This note is easy to confuse with adjacent frameworks. The boundary:
 - [[Critical minerals]] — fenced processing layer as a durable-rent example
 - [[ASML]] — high-appropriability exemplar (EUV ecosystem)
 
+### Cross-vault
+
+- [History: Technology Fencing](obsidian://open?vault=history&file=Themes%2FTechnology%20Fencing) — the two-millennia long-arc of keeping vs losing a technological lead (silk → EUV); the durable precedent this note's framework rests on
+- [Technologies: Technology Appropriability](obsidian://open?vault=technologies&file=Technology%20Appropriability) — the engineering anatomy of why some technologies resist replication (EUV ecosystem, fab yield-learning)
+- [History: Trade Theory](obsidian://open?vault=history&file=Themes%2FTrade%20Theory) — the 250-year arc of who captures the gains from trade; durable home for the producer-vs-user-surplus question
+- [History: Growth Theory](obsidian://open?vault=history&file=Themes%2FGrowth%20Theory) — Schumpeterian creative destruction and innovation-rent appropriability ([[Philippe Aghion]] lineage)
+- [Geopolitics: Critical Minerals](obsidian://open?vault=geopolitics&file=Concepts%2FCritical%20Minerals) — statecraft lens on fencing the surplus of a strategic input
+
 ---
 
 ## Sources

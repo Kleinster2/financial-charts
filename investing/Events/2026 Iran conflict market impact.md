@@ -473,6 +473,8 @@ US CPI did hit a three-year high of 3.8% in April 2026, so the shock is real. Bu
 
 The forward risk this entry deliberately does not dismiss: the IEA still calls the near-closure of the [[Strait of Hormuz]] the worst-ever energy crisis, and the comparison holds only while it stays an oil-not-gas shock and while the US-Iran ceasefire-extension talks (a reported 60-day extension plus Hormuz reopening) hold. If gas joins oil, the 2022 analogy re-arms. Cross-vault: the ceasefire-extension diplomacy is geopolitics-primary — flag for the geopolitics [[Operation Epic Fury]] timeline.
 
+Price-verification note: the FT table's "Brent >$100" was war-peak framing, not the late-May tape. Verified front-month Brent (BZ=F) had already eased below $100 — $103.54 May 22 → $94.29 May 27 → $92.05 May 29 → $94.61 Jun 1. [[Robin J. Brooks]]'s May 30 "How Quickly Will Oil Normalize?" reads this as a fast panic-premium unwind toward ~$85 on a peace deal (pump ~$4/gal in weeks), watching Brent-Dubai recoupling and physical-paper convergence as the confirmation signals — while the [[Hormuz Permanent Risk Premium]] survives the spot unwind. Detail in [[Iran conflict oil price timeline#May 30 — Brooks maps the normalization path|the oil-price timeline]].
+
 *Source: [[Financial Times]], "Iran war inflation shock set to fall short of 2022 surge" (Sam Fleming and Valentina Romei, June 1 2026); Consensus Economics.*
 
 ---

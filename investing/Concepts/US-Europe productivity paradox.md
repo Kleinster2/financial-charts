@@ -159,6 +159,11 @@ The paradox is most actionable at the analytical-discipline level: any vault cla
 - [[Hedonic adjustment]] — methodological mechanism (stub candidate)
 - [[Purchasing Power Parity]] — measurement framework (stub candidate)
 
+### Cross-vault
+
+- [History: Growth Theory](obsidian://open?vault=history&file=Themes%2FGrowth%20Theory) — Schumpeterian growth / creative destruction, the durable home for the [[Philippe Aghion]] producer-side innovation argument
+- [History: Trade Theory](obsidian://open?vault=history&file=Themes%2FTrade%20Theory) — long-arc on how the gains from trade and technology are distributed (the user-surplus side of the debate)
+
 ---
 
 ## Sources

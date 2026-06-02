@@ -1203,3 +1203,29 @@ The May 29 Substack energy cluster adds a second map to the price-state table: w
 This matters for the oil timeline because the end of the acute Hormuz price spike does not end the macro transmission. It redistributes the shock into fiscal windfalls for sanctioned producers, strategic-reserve depletion for importers, and a central-bank reaction-function problem where energy-driven headline CPI is tolerated until it starts contaminating wages or expectations.
 
 *Sources: [Robin J. Brooks, "Russia's Massive Oil Price Windfall"](https://robinjbrooks.substack.com/p/russias-massive-oil-price-windfall), May 29 2026; [The Merchant's News, "Central Banks Just Lost The Fight Against Commodity Inflation. 10 Million SPR Barrels Just Proved It."](https://themerchantsnews.substack.com/p/central-banks-just-lost-the-fight), May 29 2026 (paid after public section); EIA, [U.S. Weekly Supply Estimates](https://www.eia.gov/dnav/pet/pet_sum_sndw_dcus_nus_w.htm), accessed May 30 2026; Thomas Drechsel, Michael McLeay, Silvana Tenreyro and Enrico D. Turri, ["How Should Central Banks Respond to Commodity Price Shocks?"](https://www.nber.org/papers/w35164), NBER Working Paper 35164, May 2026.*
+
+---
+
+## May 30 — Brooks maps the normalization path
+
+*Source: [Robin J. Brooks, "How Quickly Will Oil Normalize?"](https://robinjbrooks.substack.com/p/how-quickly-will-oil-normalize), May 30 2026. (Companion video "Markets after the Iran war," same day, was a subscriber video whose body could not be extracted and is not ingested.)*
+
+Where the May 27 ("why not $200?") and May 29 (Pape $90-line / price-state map) entries map the *end states*, Brooks's May 30 post maps the *path and speed* of normalization now that a ceasefire-extension deal is in view. His call: with front-month [[Brent crude|Brent]] around $90, a peace agreement takes it to roughly $85 or slightly below, and US pump prices toward ~$4/gallon within weeks — a fast, not gradual, unwind.
+
+Verified front-month Brent (BZ=F) confirms the easing was already underway before the post, and corrects the [[2026 Iran conflict market impact#June 1, 2026 -- inflation shock tracking well below the 2022 surge|FT June 1 ">$100"]] figure, which was war-peak framing rather than the late-May tape:
+
+| Date | Brent (BZ=F close) |
+|---|---:|
+| May 22 | $103.54 |
+| May 26 | $99.58 |
+| May 27 | $94.29 |
+| May 28 | $93.71 |
+| May 29 | $92.05 |
+| Jun 1 | $94.61 |
+
+Brooks's two analytical anchors:
+
+1. Magnitude check. The oil move was about twice the 2022 [[Russia]]-[[Ukraine]] rise on a similar timescale, yet the [[Strait of Hormuz]] is roughly three times as important to global oil as Russia. Read against that importance differential, the realized premium is *contained*, which is why he expects it to deflate quickly once the panic input is removed — the same elasticity logic as his March 23 "near the peak" and May 27 "why not $200" pieces, now run in reverse.
+2. Normalization signals to watch (not price targets). Brooks names three observable tells that the unwind is real rather than a headline head-fake: regional benchmark recoupling ([[Brent crude|Brent]] vs [[Dubai crude|Dubai]] correlation returning to its normal range), physical-paper convergence (spot differentials falling back toward futures, reversing the war-era premium), and US gasoline tracking the August Brent future. These are the cleaner confirmation set than any single Brent print.
+
+The caveat this entry preserves, consistent with [[Hormuz Permanent Risk Premium]]: a fast panic-premium unwind toward ~$85 is fully compatible with a *structural* premium that never returns to the pre-war band — normalization of the spot price is not normalization of insurance, routing, or commercial confidence.
