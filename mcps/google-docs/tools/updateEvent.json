@@ -1,0 +1,87 @@
+{
+  "name": "updateEvent",
+  "description": "Updates an existing Google Calendar event with PATCH semantics — only the fields you provide are changed; everything else stays the same. Common uses: reschedule (set start+end), retitle (set summary), add/remove attendees (set attendees array which fully replaces).",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "calendarId": {
+        "type": "string",
+        "default": "primary",
+        "description": "Calendar ID. Defaults to \"primary\"."
+      },
+      "eventId": {
+        "type": "string",
+        "description": "The event ID to update (from listEvents)."
+      },
+      "summary": {
+        "type": "string",
+        "description": "New event title."
+      },
+      "description": {
+        "type": "string",
+        "description": "New event description."
+      },
+      "location": {
+        "type": "string",
+        "description": "New location."
+      },
+      "start": {
+        "type": "object",
+        "properties": {
+          "dateTime": {
+            "type": "string",
+            "description": "RFC3339 timestamp with timezone offset, e.g. \"2026-04-15T14:00:00-08:00\". Use this for timed events."
+          },
+          "date": {
+            "type": "string",
+            "description": "ISO date \"YYYY-MM-DD\" for all-day events. Use instead of dateTime."
+          },
+          "timeZone": {
+            "type": "string",
+            "description": "IANA timezone like \"America/Los_Angeles\". Optional when dateTime has an offset."
+          }
+        },
+        "additionalProperties": false,
+        "description": "New start time."
+      },
+      "end": {
+        "$ref": "#/properties/start",
+        "description": "New end time."
+      },
+      "attendees": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            },
+            "optional": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "email"
+          ],
+          "additionalProperties": false
+        },
+        "description": "Replaces the entire attendee list. To add one, fetch the event first."
+      },
+      "sendUpdates": {
+        "type": "string",
+        "enum": [
+          "all",
+          "externalOnly",
+          "none"
+        ],
+        "default": "none",
+        "description": "Whether to email attendees about the change."
+      }
+    },
+    "required": [
+      "eventId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

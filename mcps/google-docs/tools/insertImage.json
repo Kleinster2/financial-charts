@@ -1,0 +1,47 @@
+{
+  "name": "insertImage",
+  "description": "Inserts an inline image into a Google Document. Provide either a publicly accessible URL or a local file path. Local files are automatically uploaded to Google Drive before insertion.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "imageUrl": {
+        "type": "string",
+        "format": "uri",
+        "description": "Publicly accessible URL to the image (http:// or https://)."
+      },
+      "localImagePath": {
+        "type": "string",
+        "description": "Absolute path to a local image file (supports .jpg, .jpeg, .png, .gif, .bmp, .webp, .svg). The file will be uploaded to Google Drive."
+      },
+      "index": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based character index in the document body where the image should be inserted. Use readDocument with format='json' to inspect indices."
+      },
+      "width": {
+        "type": "number",
+        "minimum": 1,
+        "description": "Width of the image in points."
+      },
+      "height": {
+        "type": "number",
+        "minimum": 1,
+        "description": "Height of the image in points."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the specific tab to insert into. Use listDocumentTabs to get tab IDs. If not specified, inserts into the first tab."
+      }
+    },
+    "required": [
+      "documentId",
+      "index"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

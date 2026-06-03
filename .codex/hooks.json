@@ -1,0 +1,44 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"TODAY=$(date +%Y-%m-%d)\" > /tmp/claude_today.env",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python C:/Users/klein/financial-charts/.claude/scripts/quick_compliance_check.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python C:/Users/klein/financial-charts/.claude/scripts/check_daily_summary.py",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "python C:/Users/klein/financial-charts/.claude/scripts/check_tech_changelog.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

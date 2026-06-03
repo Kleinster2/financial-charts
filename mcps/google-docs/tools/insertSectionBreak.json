@@ -1,0 +1,37 @@
+{
+  "name": "insertSectionBreak",
+  "description": "Inserts a section break at a character index in the document. A section break starts a new section whose style (page orientation, margins, columns, page numbering) can then be customized with updateSectionStyle. Use sectionType=\"NEXT_PAGE\" when you want the new section to start on a fresh page (required for mixing portrait and landscape pages in a single document) and \"CONTINUOUS\" when the new section should begin inline without a page break.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "index": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based character index within the document body where the section break will be inserted. Use readDocument with format='json' to inspect indices."
+      },
+      "sectionType": {
+        "type": "string",
+        "enum": [
+          "NEXT_PAGE",
+          "CONTINUOUS"
+        ],
+        "default": "NEXT_PAGE",
+        "description": "The type of section break. NEXT_PAGE starts the new section on the next page (required to change page orientation). CONTINUOUS starts the new section inline without a page break. Defaults to NEXT_PAGE."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the specific tab to insert into. Use listDocumentTabs to get tab IDs. If not specified, inserts into the first tab."
+      }
+    },
+    "required": [
+      "documentId",
+      "index"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

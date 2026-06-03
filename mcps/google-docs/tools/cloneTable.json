@@ -1,0 +1,69 @@
+{
+  "name": "cloneTable",
+  "description": "Clones a source Google Docs table into a target document, preserving text, column widths, row styles, cell styles, and pinned header rows where supported.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "sourceDocumentId": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Document ID containing the source table template."
+      },
+      "sourceTableId": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Source MCP table ID from listDocumentTables."
+      },
+      "index": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based character index in the target document where the cloned table should be inserted."
+      },
+      "sourceTabId": {
+        "type": "string",
+        "description": "Optional tab ID for the source document table."
+      },
+      "targetTabId": {
+        "type": "string",
+        "description": "Optional tab ID for the target document insertion point."
+      },
+      "copyColumnWidths": {
+        "type": "boolean",
+        "default": true,
+        "description": "Copy fixed column widths from the source table."
+      },
+      "copyRowStyles": {
+        "type": "boolean",
+        "default": true,
+        "description": "Copy row min height and overflow settings from the source table."
+      },
+      "copyCellStyles": {
+        "type": "boolean",
+        "default": true,
+        "description": "Copy cell-level formatting such as background, padding, alignment, and borders."
+      },
+      "copyPinnedHeaderRows": {
+        "type": "boolean",
+        "default": true,
+        "description": "Copy pinned header rows from the source table when present."
+      },
+      "copyHeaderBold": {
+        "type": "boolean",
+        "default": true,
+        "description": "Apply bold text to cloned cells whose source cell text was bold."
+      }
+    },
+    "required": [
+      "documentId",
+      "sourceDocumentId",
+      "sourceTableId",
+      "index"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "setRowHeights",
+  "description": "Sets a fixed pixel height for a range of rows in a spreadsheet. Useful for ensuring rows are tall enough to display wrapped text.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Name of the sheet/tab. Defaults to the first sheet if not provided."
+      },
+      "startRow": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based start row index (inclusive)."
+      },
+      "endRow": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based end row index (inclusive)."
+      },
+      "pixelSize": {
+        "type": "integer",
+        "minimum": 2,
+        "description": "Height in pixels (e.g., 40 for comfortable single-line, 80 for two-line wrapped text)."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "startRow",
+      "endRow",
+      "pixelSize"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

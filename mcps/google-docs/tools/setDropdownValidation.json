@@ -1,0 +1,39 @@
+{
+  "name": "setDropdownValidation",
+  "description": "Adds or removes a dropdown list on a range of cells. Provide values to create a dropdown restricting input to those options. Omit values to remove dropdown validation from the range.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "range": {
+        "type": "string",
+        "description": "A1 notation range to apply the dropdown to (e.g., \"Sheet1!B2:B100\" or \"C2:C50\")."
+      },
+      "values": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "The allowed dropdown options (e.g., [\"Open\", \"In Progress\", \"Done\"]). Omit to remove existing dropdown validation from the range."
+      },
+      "strict": {
+        "type": "boolean",
+        "default": true,
+        "description": "If true, reject input that does not match one of the dropdown values."
+      },
+      "inputMessage": {
+        "type": "string",
+        "description": "Help text shown when a cell with the dropdown is selected."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "range"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

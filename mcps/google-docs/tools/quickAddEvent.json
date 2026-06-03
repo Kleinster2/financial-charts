@@ -1,0 +1,33 @@
+{
+  "name": "quickAddEvent",
+  "description": "Creates a calendar event from a natural-language string using Google Calendar's quick-add parser. Examples: \"Lunch with Sarah tomorrow at 12pm\", \"Dentist appointment next Tuesday 3-4pm\", \"Team standup every weekday 9am\". Faster than createEvent when you don't need attendees, descriptions, or precise control over fields.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "calendarId": {
+        "type": "string",
+        "default": "primary",
+        "description": "Calendar ID. Defaults to \"primary\"."
+      },
+      "text": {
+        "type": "string",
+        "description": "Natural-language description of the event. Google parses the title and time from this string."
+      },
+      "sendUpdates": {
+        "type": "string",
+        "enum": [
+          "all",
+          "externalOnly",
+          "none"
+        ],
+        "default": "none",
+        "description": "Whether to email invitations (rarely useful for quick add)."
+      }
+    },
+    "required": [
+      "text"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

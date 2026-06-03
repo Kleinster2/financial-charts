@@ -1,0 +1,23 @@
+{
+  "name": "clearRange",
+  "description": "Clears all cell values in a range without deleting the cells themselves. Formatting is preserved.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "range": {
+        "type": "string",
+        "description": "A1 notation range to clear (e.g., \"A1:B10\" or \"Sheet1!A1:B10\")."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "range"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

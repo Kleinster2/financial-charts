@@ -1,0 +1,47 @@
+{
+  "name": "insertTableWithData",
+  "description": "Inserts a table pre-populated with data at a specific index in the document. All cell content is inserted in a single operation. Optionally bolds the first row as a header. Ragged rows are padded with empty cells to match the widest row.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "data": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 50
+        },
+        "minItems": 1,
+        "maxItems": 200,
+        "description": "A 2D array of strings representing the table contents. Each inner array is one row. Example: [[\"Name\", \"Age\"], [\"Alice\", \"30\"], [\"Bob\", \"25\"]]"
+      },
+      "index": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based character index within the document body where the table should be inserted. Use readDocument with format='json' to inspect indices."
+      },
+      "hasHeaderRow": {
+        "type": "boolean",
+        "default": false,
+        "description": "If true, the first row is treated as a header and its text will be bolded."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the specific tab to insert into. Use listDocumentTabs to get tab IDs. If not specified, inserts into the first tab."
+      }
+    },
+    "required": [
+      "documentId",
+      "data",
+      "index"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

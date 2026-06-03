@@ -1,0 +1,28 @@
+{
+  "name": "deleteTable",
+  "description": "Deletes a table from a spreadsheet. By default, only removes the table object and formatting while keeping the cell data. Optionally clears the data as well.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "tableIdentifier": {
+        "type": "string",
+        "description": "The table name or table ID to delete. Use listTables to see available tables."
+      },
+      "deleteData": {
+        "type": "boolean",
+        "default": false,
+        "description": "If true, also clears the cell data in the table range. If false (default), only removes the table object and formatting."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "tableIdentifier"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

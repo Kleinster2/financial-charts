@@ -1,0 +1,58 @@
+{
+  "name": "listDriveFiles",
+  "description": "Lists files across Google Drive with optional filtering by type, folder, and ownership. Unlike listDocuments (which only returns Google Docs), this tool works with all file types (Sheets, PDFs, images, folders, etc.) and supports sort direction and size-based ordering. Use mimeType shortcuts: \"document\", \"spreadsheet\", \"presentation\", \"folder\", \"form\", \"pdf\", \"zip\" or pass any full MIME type string.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "maxResults": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 100,
+        "default": 20,
+        "description": "Maximum number of files to return (1-100)."
+      },
+      "mimeType": {
+        "type": "string",
+        "description": "Filter by file type. Shortcuts: \"document\", \"spreadsheet\", \"presentation\", \"folder\", \"form\", \"pdf\", \"zip\". Or pass a full MIME type (e.g. \"image/png\")."
+      },
+      "folderId": {
+        "type": "string",
+        "description": "Only return files directly inside this folder. Use \"root\" for the top-level Drive. Omit to search across all folders."
+      },
+      "orderBy": {
+        "type": "string",
+        "enum": [
+          "name",
+          "modifiedTime",
+          "createdTime",
+          "quotaBytesUsed"
+        ],
+        "default": "modifiedTime",
+        "description": "Field to sort results by. \"quotaBytesUsed\" sorts by file size (note: Google-native files report 0)."
+      },
+      "sortDirection": {
+        "type": "string",
+        "enum": [
+          "asc",
+          "desc"
+        ],
+        "default": "desc",
+        "description": "Sort direction: \"asc\" for oldest/smallest first, \"desc\" for newest/largest first."
+      },
+      "ownedByMe": {
+        "type": "boolean",
+        "description": "If true, only return files owned by the authenticated user."
+      },
+      "sharedWithMe": {
+        "type": "boolean",
+        "description": "If true, only return files shared with the authenticated user (excludes files they own). Cannot be combined with ownedByMe."
+      },
+      "modifiedAfter": {
+        "type": "string",
+        "description": "Only return files modified after this date (ISO 8601 format, e.g. \"2024-01-01\")."
+      }
+    },
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

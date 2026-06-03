@@ -83,10 +83,15 @@ Failure mode this prevents: the note captures the strategic thesis ("why the dea
 
 For any non-M&A event involving listed companies or listed peer sets — joint venture, strategic partnership, product launch, financing, customer win/loss, regulatory decision, or competitive announcement — the event note is incomplete until it distinguishes broad tape from event-specific read-through.
 
-- [ ] Primary listed actors' same-day stock reactions are captured
-- [ ] Next-day reactions are captured when available
+- [ ] `/event-tape` is run or manually replicated before finalizing the `## Market Reaction` section
+- [ ] The event window is explicit: intraday anchor, after-close/pre-open prior close to stabilized next-day print around 10:00-10:30 ET, or final close-to-close update
+- [ ] Primary listed actors' raw stock reactions are captured
+- [ ] Benchmark/sector-adjusted abnormal moves are calculated or explicitly approximated
 - [ ] Obvious second-order peers / competitors are checked, including listed peers already named elsewhere in the note/entity list/read-through, not just named companies in the headline
 - [ ] Relevant benchmark or sector ETF moves are included (`[[SPY]]`, `[[QQQ]]`, sector ETF, peer basket)
+- [ ] Peer read-through is measured separately; peer moves are not subtracted by default when the event plausibly affects peers indirectly
+- [ ] Three sigma views are shown when data allows: raw move / historical raw volatility, abnormal move / historical residual volatility, and abnormal move / historical raw volatility
+- [ ] If a peer-adjusted residual is shown, it is compared with the historical residual volatility from the same peer model
 - [ ] One sentence separates broad-market/sector tape from the event-specific read-through
 - [ ] If local data is stale or missing, use an external historical-price source rather than leaving a placeholder
 - [ ] `## Market Reaction` contains no unresolved `TODO`, `TBD`, or "verify later" text

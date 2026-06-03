@@ -1,0 +1,34 @@
+{
+  "name": "listMessages",
+  "description": "Lists Gmail messages for the authenticated user. Supports the full Gmail search syntax via the q parameter (e.g. \"is:unread\", \"from:alice@example.com\", \"subject:invoice newer_than:7d\"). Returns message IDs with sender, subject, date, and snippet for each result.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "maxResults": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 100,
+        "default": 10,
+        "description": "Maximum number of messages to return (1-100). Defaults to 10."
+      },
+      "q": {
+        "type": "string",
+        "description": "Gmail search query using the same syntax as the Gmail search box. Examples: \"is:unread\", \"from:boss@acme.com\", \"has:attachment newer_than:3d\"."
+      },
+      "labelIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Only return messages with these label IDs (e.g. [\"INBOX\"], [\"STARRED\"]). Use listLabels to discover custom label IDs."
+      },
+      "includeSpamTrash": {
+        "type": "boolean",
+        "default": false,
+        "description": "If true, also include messages from SPAM and TRASH."
+      }
+    },
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

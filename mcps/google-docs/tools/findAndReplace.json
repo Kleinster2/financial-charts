@@ -1,0 +1,37 @@
+{
+  "name": "findAndReplace",
+  "description": "Replaces all occurrences of a text string throughout the document (or a specific tab). Returns the number of replacements made. Use an empty replaceText to delete all matches.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "findText": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The text to search for in the document."
+      },
+      "replaceText": {
+        "type": "string",
+        "description": "The replacement text. Use an empty string to delete all occurrences."
+      },
+      "matchCase": {
+        "type": "boolean",
+        "description": "Whether the search should be case-sensitive. Defaults to false."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "Scope replacement to a specific tab. If omitted, replaces across all tabs."
+      }
+    },
+    "required": [
+      "documentId",
+      "findText",
+      "replaceText"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "addComment",
+  "description": "Adds a comment to the document at the specified text range. Use listComments to retrieve the comment ID after creation. Note: programmatically created comments appear in the comments panel but may not show as anchored highlights in the document UI.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "startIndex": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "The starting index of the text range (inclusive, starts from 1)."
+      },
+      "endIndex": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "The ending index of the text range (exclusive)."
+      },
+      "content": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The text content of the comment."
+      }
+    },
+    "required": [
+      "documentId",
+      "startIndex",
+      "endIndex",
+      "content"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

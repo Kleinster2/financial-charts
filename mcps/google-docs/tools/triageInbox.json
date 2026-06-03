@@ -1,0 +1,29 @@
+{
+  "name": "triageInbox",
+  "description": "Composite tool: fetches the user's most recent unread Gmail messages with full content and heuristic categorization in a single call. Returns headers, body excerpts, labels, plus per-message signals (newsletter, meeting reference, contains question, action requested) AND aggregate stats (total unread, top senders, breakdown by category). Designed for AI inbox triage workflows — use the returned data to decide which messages need a reply, can be archived, or warrant a draft response. Pairs naturally with createDraft, modifyMessageLabels, and trashMessage.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "maxResults": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 50,
+        "default": 20,
+        "description": "How many unread messages to triage in one pass (1-50). Defaults to 20."
+      },
+      "additionalQuery": {
+        "type": "string",
+        "description": "Optional Gmail query appended to \"is:unread\", e.g. \"newer_than:2d\" or \"-from:notifications@\"."
+      },
+      "bodyExcerptLength": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 2000,
+        "default": 400,
+        "description": "Max characters of body text to include per message (0 to skip bodies)."
+      }
+    },
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

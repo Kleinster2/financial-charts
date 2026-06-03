@@ -1,0 +1,72 @@
+{
+  "name": "updateSectionStyle",
+  "description": "Updates the style of a section identified by a character range. The range must cover the section whose style is changing — typically from the character right after an inserted section break to any index inside that section. Supports flipping page orientation (landscape <-> portrait), setting margins, and changing the section type. Common workflow for a landscape page: call insertSectionBreak with sectionType=\"NEXT_PAGE\" before the landscape content, call insertSectionBreak again after it, then call updateSectionStyle on the range between the two breaks with flipPageOrientation=true.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "startIndex": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "The starting index of the range covering the section to style (inclusive, 1-based). Typically the index immediately after the section break that opened this section."
+      },
+      "endIndex": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "The ending index of the range covering the section to style (exclusive). Any index inside the section works — the style applies to the whole section."
+      },
+      "flipPageOrientation": {
+        "type": "boolean",
+        "description": "If true, swaps the section page width and height (effectively toggling between portrait and landscape). If false, keeps the default document orientation."
+      },
+      "sectionType": {
+        "type": "string",
+        "enum": [
+          "SECTION_TYPE_UNSPECIFIED",
+          "CONTINUOUS",
+          "NEXT_PAGE"
+        ],
+        "description": "Changes the section type after the break. Usually set at insert time via insertSectionBreak, but can be updated here."
+      },
+      "marginTop": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Top margin of the section in points (1 inch = 72 points)."
+      },
+      "marginBottom": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Bottom margin of the section in points."
+      },
+      "marginLeft": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Left margin of the section in points."
+      },
+      "marginRight": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Right margin of the section in points."
+      },
+      "pageNumberStart": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Page number to start the section from. If unset, numbering continues from the previous section."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the specific tab to update. Use listDocumentTabs to get tab IDs. If not specified, targets the first tab."
+      }
+    },
+    "required": [
+      "documentId",
+      "startIndex",
+      "endIndex"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

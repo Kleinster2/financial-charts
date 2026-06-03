@@ -1,0 +1,18 @@
+{
+  "name": "trashMessage",
+  "description": "Moves a Gmail message to Trash. This is the same as clicking Delete in the Gmail UI — reversible from the Trash folder for 30 days. Not a permanent delete.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "messageId": {
+        "type": "string",
+        "description": "The Gmail message ID to move to Trash."
+      }
+    },
+    "required": [
+      "messageId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

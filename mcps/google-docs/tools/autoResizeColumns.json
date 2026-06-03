@@ -1,0 +1,26 @@
+{
+  "name": "autoResizeColumns",
+  "description": "Auto-resizes columns in a spreadsheet to fit their content. Optionally restrict to a column range (e.g., \"A:S\"); defaults to all columns.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Name of the sheet/tab. Defaults to the first sheet if not provided."
+      },
+      "columns": {
+        "type": "string",
+        "description": "Column range to resize in A1 notation (e.g., \"A:S\"). Omit to resize all columns."
+      }
+    },
+    "required": [
+      "spreadsheetId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

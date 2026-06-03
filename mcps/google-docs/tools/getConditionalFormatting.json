@@ -1,0 +1,22 @@
+{
+  "name": "getConditionalFormatting",
+  "description": "Lists all conditional formatting rules for a sheet as JSON. Each rule includes its index (needed for deleteConditionalFormatting), kind (BOOLEAN or GRADIENT), ranges, condition type/values, and applied formats (colors, bold, italic).",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Name of the sheet/tab. Defaults to the first sheet if not provided."
+      }
+    },
+    "required": [
+      "spreadsheetId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

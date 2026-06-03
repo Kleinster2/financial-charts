@@ -1,0 +1,28 @@
+{
+  "name": "copySheetTo",
+  "description": "Copies a sheet (tab) from one spreadsheet to another spreadsheet. Use getSpreadsheetInfo to find the numeric sheet ID. The copied sheet will be appended to the destination spreadsheet.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "sourceSpreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID of the source file."
+      },
+      "sheetId": {
+        "type": "integer",
+        "description": "The numeric sheet ID to copy. Use getSpreadsheetInfo to find sheet IDs."
+      },
+      "destinationSpreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID of the destination file."
+      }
+    },
+    "required": [
+      "sourceSpreadsheetId",
+      "sheetId",
+      "destinationSpreadsheetId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

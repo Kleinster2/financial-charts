@@ -1,0 +1,34 @@
+{
+  "name": "protectRange",
+  "description": "Locks (protects) a range or an entire sheet to prevent accidental edits. Optionally specify a description. The protection applies to the authenticated user's account.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Name of the sheet/tab. Defaults to the first sheet if not provided."
+      },
+      "range": {
+        "type": "string",
+        "description": "A1 notation range to protect (e.g., \"A1:D10\", \"1:1\"). Omit to protect the entire sheet."
+      },
+      "description": {
+        "type": "string",
+        "description": "Human-readable description for this protection (e.g., \"Header row — do not edit\")."
+      },
+      "warningOnly": {
+        "type": "boolean",
+        "description": "If true, shows a warning when editing but does not block it. Defaults to false (fully locked)."
+      }
+    },
+    "required": [
+      "spreadsheetId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

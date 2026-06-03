@@ -1,0 +1,23 @@
+{
+  "name": "getTable",
+  "description": "Gets detailed information about a specific table including its columns, range, and properties. Use the table name or ID returned by listTables.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "tableIdentifier": {
+        "type": "string",
+        "description": "The table name or table ID. Names are resolved first, then IDs. Use listTables to see available tables."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "tableIdentifier"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

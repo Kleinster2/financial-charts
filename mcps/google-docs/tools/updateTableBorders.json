@@ -1,0 +1,82 @@
+{
+  "name": "updateTableBorders",
+  "description": "Applies table border styles to a Google Docs table range. Supports top/bottom/left/right borders across a cell range.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "tableId": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The MCP table ID returned by listDocumentTables."
+      },
+      "rowStart": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Zero-based starting row index."
+      },
+      "rowEnd": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Zero-based ending row index (inclusive)."
+      },
+      "columnStart": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Zero-based starting column index."
+      },
+      "columnEnd": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Zero-based ending column index (inclusive)."
+      },
+      "top": {
+        "type": "object",
+        "properties": {
+          "color": {
+            "type": "string"
+          },
+          "widthPt": {
+            "type": "number",
+            "minimum": 0
+          },
+          "dashStyle": {
+            "type": "string",
+            "enum": [
+              "SOLID",
+              "DASHED",
+              "DOTTED"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "bottom": {
+        "$ref": "#/properties/top"
+      },
+      "left": {
+        "$ref": "#/properties/top"
+      },
+      "right": {
+        "$ref": "#/properties/top"
+      },
+      "tabId": {
+        "type": "string",
+        "description": "Optional target tab ID."
+      }
+    },
+    "required": [
+      "documentId",
+      "tableId",
+      "rowStart",
+      "rowEnd",
+      "columnStart",
+      "columnEnd"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

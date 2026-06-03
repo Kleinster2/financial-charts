@@ -1,0 +1,39 @@
+{
+  "name": "replaceDocumentWithMarkdown",
+  "description": "Replaces the entire document body with content parsed from markdown. Supports headings, bold, italic, strikethrough, links, and bullet/numbered lists. Use readDocument with format='markdown' first to get the current content, edit it, then call this tool to apply changes.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "markdown": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 500000,
+        "description": "The markdown content to apply to the document."
+      },
+      "preserveTitle": {
+        "type": "boolean",
+        "default": false,
+        "description": "If true, preserves the first heading/title and replaces content after it."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the specific tab to replace content in. If not specified, replaces content in the first tab."
+      },
+      "firstHeadingAsTitle": {
+        "type": "boolean",
+        "default": true,
+        "description": "If true (default), the first H1 heading (# ...) in the markdown is styled as a Google Docs TITLE instead of Heading 1. Useful when the markdown represents a full document whose first line is the document title. Set to false if the first H1 should remain a Heading 1."
+      }
+    },
+    "required": [
+      "documentId",
+      "markdown"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

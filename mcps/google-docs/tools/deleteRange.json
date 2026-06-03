@@ -1,0 +1,34 @@
+{
+  "name": "deleteRange",
+  "description": "Deletes content within a character range [startIndex, endIndex) from a document. Use readDocument with format='json' to determine index positions.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "startIndex": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based character index within the document body. The start of the range to delete (inclusive)."
+      },
+      "endIndex": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based character index within the document body. The end of the range to delete (exclusive)."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the specific tab to delete from. If not specified, deletes from the first tab (or legacy document.body for documents without tabs)."
+      }
+    },
+    "required": [
+      "documentId",
+      "startIndex",
+      "endIndex"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

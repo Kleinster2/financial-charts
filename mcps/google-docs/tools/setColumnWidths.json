@@ -1,0 +1,47 @@
+{
+  "name": "setColumnWidths",
+  "description": "Sets the width (in pixels) of one or more columns in a spreadsheet. Accepts multiple column specs in a single call, each targeting a single column or a contiguous range (e.g., \"A\", \"B:D\").",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Name of the sheet/tab. Defaults to the first sheet if not provided."
+      },
+      "columnWidths": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "column": {
+              "type": "string",
+              "description": "Column or column range in A1 notation (e.g., \"A\", \"B:D\")."
+            },
+            "width": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Width in pixels. Use 0 to hide the column."
+            }
+          },
+          "required": [
+            "column",
+            "width"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "description": "List of column width specifications to apply."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "columnWidths"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

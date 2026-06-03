@@ -1,0 +1,49 @@
+{
+  "name": "appendTableRows",
+  "description": "Appends rows to the end of a table using table-aware insertion. This method respects footers and automatically inserts rows before the footer if one exists.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "tableIdentifier": {
+        "type": "string",
+        "description": "The table name or table ID to append rows to. Use listTables to see available tables."
+      },
+      "values": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "number",
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "minItems": 1,
+        "description": "2D array of values to append. Each inner array represents a row."
+      },
+      "valueInputOption": {
+        "type": "string",
+        "enum": [
+          "RAW",
+          "USER_ENTERED"
+        ],
+        "default": "USER_ENTERED",
+        "description": "How input data should be interpreted. RAW: values are stored as-is. USER_ENTERED (default): values are parsed as if typed by a user."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "tableIdentifier",
+      "values"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

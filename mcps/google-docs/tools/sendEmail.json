@@ -1,0 +1,57 @@
+{
+  "name": "sendEmail",
+  "description": "Sends a plain-text email from the authenticated Gmail account. Supports cc/bcc and optional threading by passing replyToMessageId (which copies threadId and sets In-Reply-To/References so the reply lands in the same thread).",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "to": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          }
+        ],
+        "description": "Recipient email address, or an array of recipient email addresses."
+      },
+      "subject": {
+        "type": "string",
+        "description": "Email subject line."
+      },
+      "body": {
+        "type": "string",
+        "description": "Plain-text body of the email."
+      },
+      "cc": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Optional list of Cc recipients."
+      },
+      "bcc": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Optional list of Bcc recipients."
+      },
+      "replyToMessageId": {
+        "type": "string",
+        "description": "Optional Gmail message ID to reply to. When set, the new email is threaded with the original and uses In-Reply-To/References headers."
+      }
+    },
+    "required": [
+      "to",
+      "subject",
+      "body"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

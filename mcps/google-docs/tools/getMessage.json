@@ -1,0 +1,28 @@
+{
+  "name": "getMessage",
+  "description": "Fetches a single Gmail message by ID with headers, decoded plain-text body, HTML body, and a list of attachments (metadata only). Use listMessages to discover message IDs.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "messageId": {
+        "type": "string",
+        "description": "The Gmail message ID, typically from listMessages results."
+      },
+      "format": {
+        "type": "string",
+        "enum": [
+          "full",
+          "metadata",
+          "minimal"
+        ],
+        "default": "full",
+        "description": "\"full\" returns headers + body + attachments; \"metadata\" returns headers only; \"minimal\" returns just labels/snippet."
+      }
+    },
+    "required": [
+      "messageId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

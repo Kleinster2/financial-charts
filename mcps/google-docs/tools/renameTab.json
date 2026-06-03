@@ -1,0 +1,29 @@
+{
+  "name": "renameTab",
+  "description": "Renames a tab in a Google Docs document. Use listDocumentTabs to get tab IDs first.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the tab to rename. Use listDocumentTabs to get tab IDs."
+      },
+      "newTitle": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The new title for the tab."
+      }
+    },
+    "required": [
+      "documentId",
+      "tabId",
+      "newTitle"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

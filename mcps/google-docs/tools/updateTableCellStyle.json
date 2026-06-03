@@ -1,0 +1,85 @@
+{
+  "name": "updateTableCellStyle",
+  "description": "Applies cell-level formatting to a Google Docs table range, including background color, alignment, padding, and borders.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "tableId": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The MCP table ID returned by listDocumentTables."
+      },
+      "rowStart": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Zero-based starting row index."
+      },
+      "rowEnd": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Zero-based ending row index (inclusive)."
+      },
+      "columnStart": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Zero-based starting column index."
+      },
+      "columnEnd": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Zero-based ending column index (inclusive)."
+      },
+      "backgroundColor": {
+        "type": "string",
+        "description": "Cell background color, e.g. \"#D9E2F3\"."
+      },
+      "contentAlignment": {
+        "type": "string",
+        "enum": [
+          "TOP",
+          "MIDDLE",
+          "BOTTOM"
+        ],
+        "description": "Vertical content alignment inside cells."
+      },
+      "paddingTopPt": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Top padding in points."
+      },
+      "paddingBottomPt": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Bottom padding in points."
+      },
+      "paddingLeftPt": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Left padding in points."
+      },
+      "paddingRightPt": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Right padding in points."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "Optional target tab ID."
+      }
+    },
+    "required": [
+      "documentId",
+      "tableId",
+      "rowStart",
+      "rowEnd",
+      "columnStart",
+      "columnEnd"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

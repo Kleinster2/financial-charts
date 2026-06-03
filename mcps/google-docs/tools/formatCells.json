@@ -1,0 +1,99 @@
+{
+  "name": "formatCells",
+  "description": "Applies formatting to a range of cells in a spreadsheet. Supports bold, italic, font size, text color, background color, alignment, and number format. Use range '1:1' to format an entire header row, 'A:A' for an entire column, or 'A1:D1' for specific cells. Use numberFormat to control how values are displayed (e.g. as numbers, text, dates) or to clear a format by setting type to 'TEXT'.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "range": {
+        "type": "string",
+        "description": "A1 notation range to format. Examples: \"Sheet1!A1:D1\", \"1:1\" (entire row 1), \"A:A\" (entire column A), \"B2:E10\"."
+      },
+      "bold": {
+        "type": "boolean",
+        "description": "Apply bold text formatting."
+      },
+      "italic": {
+        "type": "boolean",
+        "description": "Apply italic text formatting."
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 1,
+        "description": "Font size in points."
+      },
+      "foregroundColor": {
+        "type": "string",
+        "description": "Text color as hex (e.g., \"#FF0000\")."
+      },
+      "backgroundColor": {
+        "type": "string",
+        "description": "Cell background color as hex (e.g., \"#D9EAD3\")."
+      },
+      "horizontalAlignment": {
+        "type": "string",
+        "enum": [
+          "LEFT",
+          "CENTER",
+          "RIGHT"
+        ],
+        "description": "Horizontal text alignment."
+      },
+      "verticalAlignment": {
+        "type": "string",
+        "enum": [
+          "TOP",
+          "MIDDLE",
+          "BOTTOM"
+        ],
+        "description": "Vertical text alignment within the cell."
+      },
+      "wrapStrategy": {
+        "type": "string",
+        "enum": [
+          "OVERFLOW_CELL",
+          "CLIP",
+          "WRAP"
+        ],
+        "description": "Text wrap strategy: WRAP wraps to multiple lines, CLIP truncates, OVERFLOW_CELL overflows into adjacent cells."
+      },
+      "numberFormat": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "TEXT",
+              "NUMBER",
+              "PERCENT",
+              "CURRENCY",
+              "DATE",
+              "TIME",
+              "DATE_TIME",
+              "SCIENTIFIC"
+            ],
+            "description": "Number format type. Use \"TEXT\" to treat cells as plain text (also clears any existing date/number format). Use \"NUMBER\" for general numeric display."
+          },
+          "pattern": {
+            "type": "string",
+            "description": "Optional custom format pattern (e.g., \"0.00\", \"#,##0\", \"yyyy-MM-dd\"). If omitted, the default pattern for the type is used."
+          }
+        },
+        "required": [
+          "type"
+        ],
+        "additionalProperties": false,
+        "description": "Controls how cell values are displayed. Useful for clearing date formatting (set type to \"TEXT\") or applying a custom number pattern."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "range"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

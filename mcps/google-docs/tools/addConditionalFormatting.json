@@ -1,0 +1,85 @@
+{
+  "name": "addConditionalFormatting",
+  "description": "Adds a conditional formatting rule to one or more ranges in a spreadsheet. Applies a format (background color, bold, text color, etc.) when cells meet a specified condition. Use CUSTOM_FORMULA for complex conditions like \"=$A1>$B1\". Note: each call appends a new rule — use deleteConditionalFormatting to remove existing rules before re-adding.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Name of the sheet/tab. Defaults to the first sheet if not provided."
+      },
+      "ranges": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "description": "One or more A1 notation ranges the rule applies to (e.g., [\"B2:S68\"] or [\"A1:A10\", \"C1:C10\"])."
+      },
+      "conditionType": {
+        "type": "string",
+        "enum": [
+          "NUMBER_GREATER",
+          "NUMBER_GREATER_THAN_EQ",
+          "NUMBER_LESS",
+          "NUMBER_LESS_THAN_EQ",
+          "NUMBER_EQ",
+          "NUMBER_NOT_EQ",
+          "CUSTOM_FORMULA",
+          "NUMBER_BETWEEN",
+          "NUMBER_NOT_BETWEEN",
+          "BLANK",
+          "NOT_BLANK"
+        ],
+        "description": "The condition type. NUMBER_* types compare cell values numerically. CUSTOM_FORMULA evaluates a formula (e.g., \"=$A1>10\"). BLANK/NOT_BLANK check whether a cell is empty."
+      },
+      "conditionValues": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Values for the condition. Omit or pass [] for BLANK and NOT_BLANK. Pass one value for all NUMBER_* single-operand types and CUSTOM_FORMULA. Pass two values for NUMBER_BETWEEN and NUMBER_NOT_BETWEEN (lower bound first)."
+      },
+      "backgroundColor": {
+        "type": "string",
+        "description": "Cell background color as hex (e.g., \"#FF9900\")."
+      },
+      "bold": {
+        "type": "boolean",
+        "description": "Apply bold text formatting."
+      },
+      "italic": {
+        "type": "boolean",
+        "description": "Apply italic text formatting."
+      },
+      "strikethrough": {
+        "type": "boolean",
+        "description": "Apply strikethrough text formatting."
+      },
+      "underline": {
+        "type": "boolean",
+        "description": "Apply underline text formatting."
+      },
+      "foregroundColor": {
+        "type": "string",
+        "description": "Text (foreground) color as hex (e.g., \"#FF0000\")."
+      },
+      "fontSize": {
+        "type": "number",
+        "minimum": 1,
+        "description": "Font size in points."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "ranges",
+      "conditionType"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "createDocument",
+  "description": "Creates a new empty Google Document. Optionally places it in a specific folder and adds initial text content.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Title for the new document."
+      },
+      "parentFolderId": {
+        "type": "string",
+        "description": "ID of folder where document should be created. If not provided, creates in Drive root."
+      },
+      "initialContent": {
+        "type": "string",
+        "description": "Initial content to add to the document. By default, markdown syntax is converted to formatted Google Docs content (headings, bold, italic, links, lists, etc.)."
+      },
+      "contentFormat": {
+        "type": "string",
+        "enum": [
+          "markdown",
+          "raw"
+        ],
+        "default": "markdown",
+        "description": "How to interpret initialContent. 'markdown' (default) converts markdown to formatted Google Docs content. 'raw' inserts the text as-is without any conversion."
+      }
+    },
+    "required": [
+      "title"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "freezeRowsAndColumns",
+  "description": "Pins rows and/or columns so they stay visible when scrolling. Use frozenRows=1 to freeze a header row. Set a value to 0 to unfreeze.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Name of the sheet/tab. Defaults to the first sheet if not provided."
+      },
+      "frozenRows": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Number of rows to freeze from the top (e.g., 1 for a header row). Set to 0 to unfreeze rows."
+      },
+      "frozenColumns": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Number of columns to freeze from the left. Set to 0 to unfreeze columns."
+      }
+    },
+    "required": [
+      "spreadsheetId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

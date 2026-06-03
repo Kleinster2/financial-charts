@@ -1,0 +1,33 @@
+{
+  "name": "appendText",
+  "description": "Appends plain text to the end of a document. For formatted content, use appendMarkdown instead.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "text": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The plain text to append to the end of the document."
+      },
+      "addNewlineIfNeeded": {
+        "type": "boolean",
+        "default": true,
+        "description": "Automatically add a newline before the appended text if the doc doesn't end with one."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the specific tab to append to. If not specified, appends to the first tab (or legacy document.body for documents without tabs)."
+      }
+    },
+    "required": [
+      "documentId",
+      "text"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

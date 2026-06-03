@@ -1,0 +1,38 @@
+{
+  "name": "appendMarkdown",
+  "description": "Appends formatted content to the end of a document using markdown syntax. Supports headings, bold, italic, strikethrough, links, and bullet/numbered lists. Use this instead of appendText when you need formatting.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "markdown": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The markdown content to append."
+      },
+      "addNewlineIfNeeded": {
+        "type": "boolean",
+        "default": true,
+        "description": "Add spacing before appended content if needed."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the specific tab to append to. If not specified, appends to the first tab."
+      },
+      "firstHeadingAsTitle": {
+        "type": "boolean",
+        "default": false,
+        "description": "If true, the first H1 heading (# ...) in the markdown is styled as a Google Docs TITLE instead of Heading 1. Useful when the markdown represents a full document whose first line is the document title."
+      }
+    },
+    "required": [
+      "documentId",
+      "markdown"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

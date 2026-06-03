@@ -1,0 +1,48 @@
+{
+  "name": "appendRows",
+  "description": "Appends rows to the end of a sheet. Data is added after the last row with content in the specified range.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "range": {
+        "type": "string",
+        "description": "A1 notation range indicating where to append (e.g., \"A1\" or \"Sheet1!A1\"). Data will be appended starting from this range."
+      },
+      "values": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "number",
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "description": "2D array of values to append. Each inner array represents a row."
+      },
+      "valueInputOption": {
+        "type": "string",
+        "enum": [
+          "RAW",
+          "USER_ENTERED"
+        ],
+        "default": "USER_ENTERED",
+        "description": "How input data should be interpreted. RAW: values are stored as-is. USER_ENTERED: values are parsed as if typed by a user."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "range",
+      "values"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

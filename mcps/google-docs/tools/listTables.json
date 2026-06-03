@@ -1,0 +1,22 @@
+{
+  "name": "listTables",
+  "description": "Lists all tables in a spreadsheet or specific sheet. Use this to discover table names and IDs before performing table operations.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Optional: filter tables to only those on this specific sheet."
+      }
+    },
+    "required": [
+      "spreadsheetId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

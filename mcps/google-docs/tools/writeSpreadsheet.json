@@ -1,0 +1,50 @@
+{
+  "name": "writeSpreadsheet",
+  "description": "Writes data to a range in a spreadsheet, overwriting existing values. Use appendRows to add data without overwriting.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "range": {
+        "type": "string",
+        "description": "A1 notation range to write to (e.g., \"A1:B2\" or \"Sheet1!A1:B2\")."
+      },
+      "values": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "number",
+              "boolean",
+              "null"
+            ]
+          },
+          "maxItems": 500
+        },
+        "maxItems": 500,
+        "description": "2D array of values to write. Each inner array represents a row."
+      },
+      "valueInputOption": {
+        "type": "string",
+        "enum": [
+          "RAW",
+          "USER_ENTERED"
+        ],
+        "default": "USER_ENTERED",
+        "description": "How input data should be interpreted. RAW: values are stored as-is. USER_ENTERED: values are parsed as if typed by a user."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "range",
+      "values"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

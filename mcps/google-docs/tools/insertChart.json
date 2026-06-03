@@ -1,0 +1,108 @@
+{
+  "name": "insertChart",
+  "description": "Inserts a chart into a Google Sheet. Supports bar, column, line, area, scatter, pie, donut, and treemap (hierarchical) chart types. For treemap charts, the data must have a label column and a parent label column (use empty string for root nodes) plus a numeric size column. Chart is placed as an overlay at the specified anchor cell.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Name of the sheet/tab containing the data. Defaults to the first sheet."
+      },
+      "chartType": {
+        "type": "string",
+        "enum": [
+          "BAR",
+          "COLUMN",
+          "LINE",
+          "AREA",
+          "SCATTER",
+          "PIE",
+          "DONUT",
+          "TREEMAP"
+        ],
+        "description": "Chart type to create."
+      },
+      "stackedType": {
+        "type": "string",
+        "enum": [
+          "NOT_STACKED",
+          "STACKED",
+          "PERCENT_STACKED"
+        ],
+        "default": "NOT_STACKED",
+        "description": "For bar/column/area charts: whether to stack series. NOT_STACKED = grouped, STACKED = absolute stacked, PERCENT_STACKED = 100% stacked."
+      },
+      "title": {
+        "type": "string",
+        "description": "Chart title."
+      },
+      "dataRange": {
+        "type": "string",
+        "description": "A1 notation range of the data (e.g., \"A1:E50\"). Include the header row if present."
+      },
+      "headerRow": {
+        "type": "boolean",
+        "default": true,
+        "description": "Whether the first row of the data range is a header row."
+      },
+      "labelColumnIndex": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "For pie/donut/treemap: 1-based column index for node labels (default: 1). For treemap this is the leaf/child label."
+      },
+      "parentColumnIndex": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "For treemap: 1-based column index for parent node labels. Root nodes should have an empty string in this column."
+      },
+      "valueColumnIndex": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "For pie/donut/treemap: 1-based column index for the numeric size/value (default: 2)."
+      },
+      "anchorRow": {
+        "type": "integer",
+        "minimum": 0,
+        "default": 0,
+        "description": "Row index (0-based) of the anchor cell for chart placement."
+      },
+      "anchorColumn": {
+        "type": "integer",
+        "minimum": 0,
+        "default": 6,
+        "description": "Column index (0-based) of the anchor cell for chart placement."
+      },
+      "offsetXPixels": {
+        "type": "integer",
+        "default": 0,
+        "description": "Horizontal offset in pixels from the anchor cell."
+      },
+      "offsetYPixels": {
+        "type": "integer",
+        "default": 0,
+        "description": "Vertical offset in pixels from the anchor cell."
+      },
+      "widthPixels": {
+        "type": "integer",
+        "default": 600,
+        "description": "Chart width in pixels."
+      },
+      "heightPixels": {
+        "type": "integer",
+        "default": 400,
+        "description": "Chart height in pixels."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "chartType",
+      "dataRange"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

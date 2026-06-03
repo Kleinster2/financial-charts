@@ -1,0 +1,63 @@
+{
+  "name": "insertDateChip",
+  "description": "Inserts a Google Docs date smart chip at a specific paragraph location. This creates a real date element, not plain text.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "index": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based character index within an existing paragraph where the date chip should be inserted."
+      },
+      "date": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Date or date-time input parseable by JavaScript Date, e.g. \"2026-05-07T15:30:00+09:00\"."
+      },
+      "timeZoneId": {
+        "type": "string",
+        "description": "Optional CLDR/IANA time zone, e.g. \"Asia/Tokyo\"."
+      },
+      "locale": {
+        "type": "string",
+        "description": "Optional locale, e.g. \"ja\" or \"en\"."
+      },
+      "dateFormat": {
+        "type": "string",
+        "enum": [
+          "DATE_FORMAT_UNSPECIFIED",
+          "DATE_FORMAT_MONTH_DAY_ABBREVIATED",
+          "DATE_FORMAT_MONTH_DAY_FULL",
+          "DATE_FORMAT_MONTH_DAY_YEAR_ABBREVIATED",
+          "DATE_FORMAT_ISO8601"
+        ],
+        "description": "How the date portion should be displayed."
+      },
+      "timeFormat": {
+        "type": "string",
+        "enum": [
+          "TIME_FORMAT_UNSPECIFIED",
+          "TIME_FORMAT_DISABLED",
+          "TIME_FORMAT_HOUR_MINUTE",
+          "TIME_FORMAT_HOUR_MINUTE_TIMEZONE"
+        ],
+        "description": "How the time portion should be displayed."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "Optional target tab ID."
+      }
+    },
+    "required": [
+      "documentId",
+      "index",
+      "date"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

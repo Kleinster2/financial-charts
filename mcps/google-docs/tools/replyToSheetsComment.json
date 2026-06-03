@@ -1,0 +1,29 @@
+{
+  "name": "replyToSheetsComment",
+  "description": "Adds a reply to an existing comment thread in a Google Spreadsheet. Use listSheetsComments or getSheetsComment to find the comment ID.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "commentId": {
+        "type": "string",
+        "description": "The ID of the comment to reply to."
+      },
+      "content": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The text content of the reply."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "commentId",
+      "content"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

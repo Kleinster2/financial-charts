@@ -1,0 +1,38 @@
+{
+  "name": "insertPerson",
+  "description": "Inserts a Google Docs person smart chip at a specific paragraph location using an email address.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "index": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based character index within an existing paragraph where the person chip should be inserted."
+      },
+      "email": {
+        "type": "string",
+        "format": "email",
+        "description": "Email address linked to the person smart chip."
+      },
+      "name": {
+        "type": "string",
+        "description": "Optional display name hint when Google Docs resolves the person mention."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "Optional target tab ID."
+      }
+    },
+    "required": [
+      "documentId",
+      "index",
+      "email"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

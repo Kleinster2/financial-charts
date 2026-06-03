@@ -1,0 +1,52 @@
+{
+  "name": "updateTableRowStyle",
+  "description": "Applies row-level styling to a Google Docs table, including minimum row height and optional pinned header rows.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "tableId": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The MCP table ID returned by listDocumentTables."
+      },
+      "rowIndices": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "minItems": 1,
+        "description": "Zero-based row indices to style."
+      },
+      "minRowHeightPt": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Minimum row height in points."
+      },
+      "preventOverflow": {
+        "type": "boolean",
+        "description": "Whether row content should avoid overflowing outside the row."
+      },
+      "pinnedHeaderRowsCount": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Optional number of header rows to pin at the top of the table."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "Optional target tab ID."
+      }
+    },
+    "required": [
+      "documentId",
+      "tableId",
+      "rowIndices"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

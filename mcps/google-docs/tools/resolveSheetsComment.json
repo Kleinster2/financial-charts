@@ -1,0 +1,23 @@
+{
+  "name": "resolveSheetsComment",
+  "description": "Marks a comment as resolved in a Google Spreadsheet. Note: resolved status may not persist in the Sheets UI due to a Drive API limitation.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "commentId": {
+        "type": "string",
+        "description": "The ID of the comment to resolve."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "commentId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

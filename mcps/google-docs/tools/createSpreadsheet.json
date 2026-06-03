@@ -1,0 +1,38 @@
+{
+  "name": "createSpreadsheet",
+  "description": "Creates a new spreadsheet. Optionally places it in a specific folder and populates it with initial data.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Title for the new spreadsheet."
+      },
+      "parentFolderId": {
+        "type": "string",
+        "description": "ID of folder where spreadsheet should be created. If not provided, creates in Drive root."
+      },
+      "initialData": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "number",
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "description": "Optional initial data to populate in the first sheet. Each inner array represents a row."
+      }
+    },
+    "required": [
+      "title"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

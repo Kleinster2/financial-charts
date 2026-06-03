@@ -1,0 +1,23 @@
+{
+  "name": "resolveComment",
+  "description": "Marks a comment as resolved. Note: resolved status may not persist in the Google Docs UI due to a Drive API limitation.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "commentId": {
+        "type": "string",
+        "description": "The ID of the comment to resolve"
+      }
+    },
+    "required": [
+      "documentId",
+      "commentId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

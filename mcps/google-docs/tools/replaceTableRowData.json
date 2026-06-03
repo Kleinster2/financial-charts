@@ -1,0 +1,43 @@
+{
+  "name": "replaceTableRowData",
+  "description": "Replaces the plain-text contents of a single row in an existing Google Docs table while preserving the table structure and formatting.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "tableId": {
+        "type": "string",
+        "minLength": 1,
+        "description": "The MCP table ID returned by listDocumentTables, for example \"table:body:0\"."
+      },
+      "rowIndex": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Zero-based row index to replace."
+      },
+      "values": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "maxItems": 50,
+        "description": "Plain-text values to place into the row cells from left to right."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the specific tab containing the table. If not specified, uses the first tab or legacy document body."
+      }
+    },
+    "required": [
+      "documentId",
+      "tableId",
+      "rowIndex",
+      "values"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

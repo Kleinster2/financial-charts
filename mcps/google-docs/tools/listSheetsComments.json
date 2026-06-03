@@ -1,0 +1,48 @@
+{
+  "name": "listSheetsComments",
+  "description": "Lists all comments in a Google Spreadsheet. Filter by sheet name, specific row(s), specific cell, or a cell range. Returns comment IDs needed for getSheetsComment, replyToSheetsComment, resolveSheetsComment, or deleteSheetsComment.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Optional: filter comments to only this sheet/tab name."
+      },
+      "row": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Optional: filter to comments on this specific row number (1-based, e.g., 5 for row 5)."
+      },
+      "rows": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "description": "Optional: filter to comments on any of these row numbers (1-based, e.g., [3, 5, 12]). Ignored if \"row\" is set."
+      },
+      "cell": {
+        "type": "string",
+        "description": "Optional: filter to comments on this specific cell in A1 notation (e.g., \"B3\"). Overrides row/rows filters."
+      },
+      "range": {
+        "type": "string",
+        "description": "Optional: filter to comments within this A1 range (e.g., \"A1:D10\", \"B:B\" for entire column B). Overrides row/rows/cell filters."
+      },
+      "includeResolved": {
+        "type": "boolean",
+        "default": false,
+        "description": "If true, include resolved comments. Defaults to false."
+      }
+    },
+    "required": [
+      "spreadsheetId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

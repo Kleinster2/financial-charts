@@ -1,0 +1,46 @@
+{
+  "name": "groupRows",
+  "description": "Creates collapsible row groups in a Google Sheet using the Sheets API addDimensionGroup request. Each group specifies a range of rows (1-based, inclusive) to collapse.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "sheetName": {
+        "type": "string",
+        "description": "Name of the sheet/tab. Defaults to the first sheet if not provided."
+      },
+      "groups": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "startRowIndex": {
+              "type": "integer",
+              "description": "1-based row number of the first row in the group (inclusive)."
+            },
+            "endRowIndex": {
+              "type": "integer",
+              "description": "1-based row number of the last row in the group (inclusive)."
+            }
+          },
+          "required": [
+            "startRowIndex",
+            "endRowIndex"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "description": "Array of row ranges to group. Each entry is {startRowIndex, endRowIndex} using 1-based row numbers."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "groups"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

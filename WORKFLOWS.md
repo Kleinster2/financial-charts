@@ -16,6 +16,7 @@ Definitions live in `.claude/skills/<name>/SKILL.md`. The cross-runtime mirrors 
 | `/ingest` | Single-source ingestion (interview, article, filing, screenshots) — handles entity sweep, image routing, note creation | varies by source |
 | `/deepdive <entity>` | Comprehensive entity research and note creation for companies, people, concepts, countries, products | varies by entity |
 | `/earnings <ticker>` | Earnings ingestion: DB check, data insert, chart regen, actor + daily note update | investing |
+| `/event-tape` | Adjusted market-reaction measurement for listed-company catalysts: raw move, abnormal move, peer read-through, and sigma stack | investing |
 | `/replicate <ticker>` | ETF/fund replication: proxy mapping, synthetic indices, charts, vault-note update | investing |
 | `/report <topic>` | Cross-vault topic synthesis — saves narrative brief to `investing/Reports/` | investing (read-only across siblings) |
 | `/explain <topic>` | Plain-language briefing on a vault topic with first-mention introductions | investing (read-only across siblings) |

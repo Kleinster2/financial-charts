@@ -1,0 +1,35 @@
+{
+  "name": "createDocumentFromTemplate",
+  "description": "Creates a new document by copying an existing template and optionally replacing placeholder text. Provide key-value pairs in the replacements parameter to substitute template variables.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "templateId": {
+        "type": "string",
+        "description": "ID of the template document to copy from."
+      },
+      "newTitle": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Title for the new document."
+      },
+      "parentFolderId": {
+        "type": "string",
+        "description": "ID of folder where document should be created. If not provided, creates in Drive root."
+      },
+      "replacements": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "string"
+        },
+        "description": "Key-value pairs for text replacements in the template (e.g., {\"{{NAME}}\": \"John Doe\", \"{{DATE}}\": \"2024-01-01\"})."
+      }
+    },
+    "required": [
+      "templateId",
+      "newTitle"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

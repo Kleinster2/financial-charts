@@ -1,0 +1,23 @@
+{
+  "name": "deleteFile",
+  "description": "Moves a file or folder to the trash, or permanently deletes it. Set permanent=true for irreversible deletion.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "fileId": {
+        "type": "string",
+        "description": "The file or folder ID from a Google Drive URL or a previous tool result."
+      },
+      "permanent": {
+        "type": "boolean",
+        "default": false,
+        "description": "If true, permanently deletes the file instead of moving it to trash."
+      }
+    },
+    "required": [
+      "fileId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

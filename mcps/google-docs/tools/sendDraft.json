@@ -1,0 +1,18 @@
+{
+  "name": "sendDraft",
+  "description": "Sends an existing Gmail draft. After sending, the draft is removed and the message appears in Sent. This is the second half of the compose-review-send flow that pairs with createDraft.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "draftId": {
+        "type": "string",
+        "description": "The Gmail draft ID to send (from createDraft or listDrafts)."
+      }
+    },
+    "required": [
+      "draftId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

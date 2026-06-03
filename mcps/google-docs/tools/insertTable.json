@@ -1,0 +1,40 @@
+{
+  "name": "insertTable",
+  "description": "Inserts an empty table with the specified number of rows and columns at a character index in the document.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "rows": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Number of rows for the new table."
+      },
+      "columns": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Number of columns for the new table."
+      },
+      "index": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based character index within the document body. Use readDocument with format='json' to inspect indices."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "The ID of the specific tab to insert into. Use listDocumentTabs to get tab IDs. If not specified, inserts into the first tab."
+      }
+    },
+    "required": [
+      "documentId",
+      "rows",
+      "columns",
+      "index"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

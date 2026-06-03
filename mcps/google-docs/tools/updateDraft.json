@@ -1,0 +1,62 @@
+{
+  "name": "updateDraft",
+  "description": "Replaces the contents of an existing Gmail draft. The new contents fully overwrite the old draft (this is a full replace, not a patch). Use this when iterating on an AI-composed draft before sending.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "draftId": {
+        "type": "string",
+        "description": "The Gmail draft ID to update."
+      },
+      "to": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          }
+        ],
+        "description": "Recipient email address, or an array of recipient email addresses."
+      },
+      "subject": {
+        "type": "string",
+        "description": "Email subject line."
+      },
+      "body": {
+        "type": "string",
+        "description": "New plain-text body of the draft."
+      },
+      "cc": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Optional list of Cc recipients."
+      },
+      "bcc": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Optional list of Bcc recipients."
+      },
+      "replyToMessageId": {
+        "type": "string",
+        "description": "Optional Gmail message ID to thread the draft with."
+      }
+    },
+    "required": [
+      "draftId",
+      "to",
+      "subject",
+      "body"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

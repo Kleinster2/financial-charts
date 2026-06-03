@@ -1,0 +1,23 @@
+{
+  "name": "deleteChart",
+  "description": "Deletes a chart from a Google Spreadsheet by chart ID. The chart ID is returned when a chart is created with insertChart.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "chartId": {
+        "type": "integer",
+        "description": "The numeric chart ID to delete."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "chartId"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

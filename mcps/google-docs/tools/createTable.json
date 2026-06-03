@@ -1,0 +1,77 @@
+{
+  "name": "createTable",
+  "description": "Creates a new named table with specific column types. Tables provide structured data with typed columns, automatic formatting, and special features like dropdown validation.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Unique name for the table within this spreadsheet. Table names must be unique."
+      },
+      "range": {
+        "type": "string",
+        "description": "A1 notation range for the table (e.g., \"Sheet1!A1:E10\"). Must be within existing sheet boundaries."
+      },
+      "columns": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "columnName": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Display name for the column header."
+            },
+            "columnType": {
+              "type": "string",
+              "enum": [
+                "TEXT",
+                "NUMBER",
+                "DATE",
+                "DROPDOWN",
+                "CHECKBOX",
+                "PERCENT",
+                "CURRENCY"
+              ],
+              "description": "Data type for the column (default: TEXT)."
+            },
+            "dropdownValues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Required for DROPDOWN type: list of dropdown options."
+            }
+          },
+          "required": [
+            "columnName"
+          ],
+          "additionalProperties": false
+        },
+        "description": "Column definitions. If not specified, columns are auto-detected from first row."
+      },
+      "hasHeaderRow": {
+        "type": "boolean",
+        "default": true,
+        "description": "Whether the table has a header row (default: true)."
+      },
+      "hasFooterRow": {
+        "type": "boolean",
+        "default": false,
+        "description": "Whether the table should have a footer row (default: false)."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "name",
+      "range"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

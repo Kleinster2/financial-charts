@@ -1,0 +1,70 @@
+{
+  "name": "setCellBorders",
+  "description": "Sets borders on a range of cells. Each side (top, bottom, left, right, innerHorizontal, innerVertical) can be configured independently with a style and color. Use style \"NONE\" to remove a border.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "spreadsheetId": {
+        "type": "string",
+        "description": "The spreadsheet ID — the long string between /d/ and /edit in a Google Sheets URL."
+      },
+      "range": {
+        "type": "string",
+        "description": "A1 notation range (e.g., \"Sheet1!A1:D10\", \"1:1\", \"A:A\")."
+      },
+      "top": {
+        "type": "object",
+        "properties": {
+          "style": {
+            "type": "string",
+            "enum": [
+              "SOLID",
+              "SOLID_MEDIUM",
+              "SOLID_THICK",
+              "DOTTED",
+              "DASHED",
+              "DOUBLE",
+              "NONE"
+            ],
+            "description": "Border line style."
+          },
+          "color": {
+            "type": "string",
+            "description": "Border color as hex (e.g., \"#000000\"). Defaults to black."
+          }
+        },
+        "required": [
+          "style"
+        ],
+        "additionalProperties": false,
+        "description": "Top border of the range."
+      },
+      "bottom": {
+        "$ref": "#/properties/top",
+        "description": "Bottom border of the range."
+      },
+      "left": {
+        "$ref": "#/properties/top",
+        "description": "Left border of the range."
+      },
+      "right": {
+        "$ref": "#/properties/top",
+        "description": "Right border of the range."
+      },
+      "innerHorizontal": {
+        "$ref": "#/properties/top",
+        "description": "Horizontal borders between rows inside the range."
+      },
+      "innerVertical": {
+        "$ref": "#/properties/top",
+        "description": "Vertical borders between columns inside the range."
+      }
+    },
+    "required": [
+      "spreadsheetId",
+      "range"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

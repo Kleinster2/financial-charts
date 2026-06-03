@@ -1,0 +1,71 @@
+{
+  "name": "searchDriveFiles",
+  "description": "Searches across all file types in Google Drive by name or content. Unlike searchDocuments (which only searches Google Docs), this tool finds Sheets, PDFs, presentations, folders, and any other Drive file. Supports filtering by MIME type, scoping to a specific folder subtree, controllable sort order, and pagination via pageToken.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "query": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Search term to find in file names or content."
+      },
+      "searchIn": {
+        "type": "string",
+        "enum": [
+          "name",
+          "content",
+          "both"
+        ],
+        "default": "both",
+        "description": "Where to search: \"name\" matches file titles only, \"content\" searches inside files, \"both\" searches names and content (default)."
+      },
+      "mimeType": {
+        "type": "string",
+        "description": "Restrict search to a specific file type. Shortcuts: \"document\", \"spreadsheet\", \"presentation\", \"folder\", \"form\", \"pdf\", \"zip\". Or pass a full MIME type string."
+      },
+      "folderId": {
+        "type": "string",
+        "description": "Restrict search to files inside this folder (and its subfolders). Use \"root\" for the top-level Drive. Omit to search all of Drive."
+      },
+      "orderBy": {
+        "type": "string",
+        "enum": [
+          "name",
+          "modifiedTime",
+          "createdTime"
+        ],
+        "default": "modifiedTime",
+        "description": "Field to sort results by."
+      },
+      "sortDirection": {
+        "type": "string",
+        "enum": [
+          "asc",
+          "desc"
+        ],
+        "default": "desc",
+        "description": "Sort direction: \"asc\" for oldest first, \"desc\" for newest first (default)."
+      },
+      "maxResults": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 100,
+        "default": 10,
+        "description": "Maximum number of results to return per page (1-100)."
+      },
+      "modifiedAfter": {
+        "type": "string",
+        "description": "Only return files modified after this date (ISO 8601 format, e.g. \"2024-01-01\")."
+      },
+      "pageToken": {
+        "type": "string",
+        "description": "Pagination token from a previous searchDriveFiles response. Pass this to retrieve the next page of results."
+      }
+    },
+    "required": [
+      "query"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

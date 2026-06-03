@@ -1,0 +1,10 @@
+{
+  "name": "listLabels",
+  "description": "Lists all Gmail labels for the authenticated user, including system labels (INBOX, SENT, STARRED, UNREAD, etc.) and custom user-created labels. Use the returned IDs with modifyMessageLabels or listMessages labelIds filter.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}

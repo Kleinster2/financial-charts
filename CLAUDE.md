@@ -139,6 +139,7 @@ This repo hosts the cross-vault workflow skills. For architecture, vault scope, 
 - `/news <source>` — article ingestion from a named source (Bloomberg, Reuters, FT, WSJ, etc.); delegates per-article ingestion to `/ingest`, then runs a downstream-impact check. See `.claude/skills/news/SKILL.md`.
 - `/ingest` — single-source ingestion (interview, article, filing, screenshots). See `.claude/skills/ingest/SKILL.md`.
 - `/earnings TICKER` — DB check, data insert, chart regen, note update. See `.claude/skills/earnings/SKILL.md`.
+- `/event-tape` — adjusted market-reaction measurement for listed-company catalysts: raw move, abnormal move, peer read-through, and sigma stack. See `.claude/skills/event-tape/SKILL.md`.
 - `/report TOPIC` — read-only cross-vault synthesis on an existing topic. Saves to `investing/Reports/`. See `.claude/skills/report/SKILL.md`.
 - `/explain TOPIC` — plain-language briefing on an existing vault topic for a reader unfamiliar with the actors and subtopics. Same gather as `/report`, journalistic-explainer voice with first-mention introductions and subtopic glosses. Saves to `investing/Reports/`. See `.claude/skills/explain/SKILL.md`.
 - `/story [YYYY-MM-DD]` — daily "what is the story" report. Reads the daily note and every meaningful note/topic touched that day, then saves a compact story-card map to `investing/Reports/YYYY-MM-DD-story-report.md`. See `.claude/skills/story/SKILL.md`.

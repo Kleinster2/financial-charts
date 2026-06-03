@@ -1,0 +1,4 @@
+interface:
+  display_name: "Event Tape"
+  short_description: "Measure adjusted market reactions"
+  default_prompt: "Measure the event-specific market reaction and sigma stack for this listed-company catalyst."

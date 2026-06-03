@@ -1,0 +1,42 @@
+{
+  "name": "insertRichLink",
+  "description": "Inserts a Google Docs rich link smart chip at a specific paragraph location. Use for Google resource links such as Drive files or Calendar events.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "documentId": {
+        "type": "string",
+        "description": "The document ID — the long string between /d/ and /edit in a Google Docs URL."
+      },
+      "index": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "1-based character index within an existing paragraph where the rich link should be inserted."
+      },
+      "uri": {
+        "type": "string",
+        "format": "uri",
+        "description": "URI of the Google resource for the rich link smart chip."
+      },
+      "mimeType": {
+        "type": "string",
+        "description": "Optional MIME type of the linked resource, if known."
+      },
+      "title": {
+        "type": "string",
+        "description": "Optional title hint. Google Docs may still resolve and display the canonical resource title."
+      },
+      "tabId": {
+        "type": "string",
+        "description": "Optional target tab ID."
+      }
+    },
+    "required": [
+      "documentId",
+      "index",
+      "uri"
+    ],
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-07/schema#"
+  }
+}
