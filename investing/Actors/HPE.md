@@ -177,6 +177,26 @@ The sympathy bid reframes HPE's Q1 FY2026 Cloud & AI weakness. The March print s
 
 ---
 
+## Q2 FY2026 earnings shock (June 1 2026)
+
+HPE's Q2 print turned the May 29 [[Dell]] sympathy trade into company-specific confirmation: [[AI Infrastructure]] demand is flowing through both servers and the post-[[Juniper Networks|Juniper]] networking mix, while cost synergies pulled the FY2028 financial plan into FY2026.
+
+| Metric | Q2 FY2026 / guide | Why it matters |
+|--------|-------------------|----------------|
+| Revenue | $10.7B, +40% YoY | Record quarter, above the March guide range |
+| Non-GAAP EPS | $0.79 vs prior outlook $0.51-0.55 | Biggest upside surprise in the print |
+| Free cash flow | $0.9B | Highest-ever Q2 free cash flow generation |
+| Networking | $2.7B, +148.2% YoY | Juniper integration makes networking the profit lever |
+| Cloud & AI | $7.7B, +22.9% YoY | Server/AI demand is no longer just backlog language |
+| Q3 FY2026 guide | Revenue $11.5-12.1B; non-GAAP EPS $0.88-0.93 | Points to another sequential step-up |
+| FY2026 guide | Revenue growth 29-33%; non-GAAP EPS $3.35-3.45; FCF at least $3.5B | Above what management previously targeted for FY2028 |
+
+The market read is that HPE is being re-rated from old enterprise hardware into the AI-server / AI-networking basket. The regular June 1 close was $47.00 (+9.2%); several market-data feeds reported an indicative post-close spike above $64 after the release. Treat the after-hours price as provisional until the next regular-session close, but the sigma signal is already clear: against the local beta/idiosyncratic-volatility framework, this is a material company-specific earnings shock rather than broad market beta.
+
+*Sources: [HPE Q2 FY2026 results](https://www.hpe.com/us/en/newsroom/press-release/2026/06/hpe-reports-fiscal-2026-second-quarter-results.html), June 1 2026; [Investing.com after-hours report](https://www.investing.com/news/stock-market-news/why-is-hewlett-packard-enterprise-stock-skyrocketing-afterhours-today-93CH-4720498), June 1 2026.*
+
+---
+
 ![[hpe-employees-chart.png]]
 *Headcount: 67,000 (2025) — up 12.4% YoY*
 

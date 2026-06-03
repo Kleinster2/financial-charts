@@ -175,12 +175,38 @@ This is a useful counterweight to the pure AI-disruption bear case for cybersecu
 
 ---
 
+## May 22, 2026 — Project Glasswing exposes the patching bottleneck
+
+Anthropic's first [[Project Glasswing]] update adds a second, cleaner data channel to the May 17 bug-bounty slop story. Bug bounties show low-quality AI submission volume overwhelming external-research intake. Glasswing shows the high-quality version of the same structural pressure: even when Mythos Preview produces real vulnerabilities, the scarce resource becomes human triage, disclosure, maintainer review, and patch deployment.
+
+| Glasswing metric | May 22 read |
+|---|---|
+| Partners | Roughly 50 |
+| Partner findings | More than 10,000 high- or critical-severity vulnerabilities |
+| Open-source projects scanned | 1,000+ |
+| Total open-source findings | 23,019 estimated vulnerabilities |
+| Estimated high/critical | 6,202 |
+| Assessed high/critical findings | 1,752 |
+| Valid true positives after assessment | 90.6% |
+| High/critical disclosed to maintainers | 530 |
+| Patched | 75 |
+| Public advisories | 65 |
+
+The implication for the basket is nuanced. It strengthens the AI-native disruption thesis against pure vulnerability-management and AppSec tooling: discovery at frontier-model scale is real enough to overwhelm established workflows. But it also supports the bull case for vendors that own control points after discovery: endpoint telemetry, identity, repository/package governance, patch orchestration, and runtime response become more valuable when vulnerability discovery outpaces patch capacity.
+
+The tradeable split is therefore not "short all cyber." It is "pressure the detection/triage layers that can be replicated by frontier models; prefer the control-point vendors that can turn a flood of AI findings into enforced changes in live environments."
+
+*Source: [Anthropic, Project Glasswing initial update](https://www.anthropic.com/research/glasswing-initial-update), May 22 2026.*
+
+---
+
 ## Related
 
 - [[February 2026 AI Disruption Cascade]] — broader software repricing that this basket sits inside
 - [[Claude Code Security]] — catalyst (Feb 20 announcement)
 - [[Claude Cowork disruption February 2026]] — prior AI-driven software selloff
 - [[Claude Mythos]] — May 17 catalyst for bug-bounty submission flood
+- [[Project Glasswing]] — controlled Mythos deployment showing the high-signal discovery/patching bottleneck
 - [[Anthropic]] — disruptor
 - [[Cybersecurity consolidation]] — sector dynamics
 - [[CrowdStrike]] — bellwether constituent

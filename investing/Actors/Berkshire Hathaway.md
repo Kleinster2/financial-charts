@@ -41,7 +41,7 @@ BRK-B trades as a core Financials name (XLF r = 0.72).
 | **Utilities** | Berkshire Hathaway Energy |
 | **Manufacturing** | Precision Castparts, Lubrizol |
 | **Retail** | See's Candies, Dairy Queen |
-| **Equity Portfolio** | Apple (~45%), Bank of America, [[Coca-Cola]] |
+| **Equity Portfolio** | Apple, [[Alphabet]], Bank of America, [[Coca-Cola]] |
 
 Insurance float funds everything else.
 
@@ -175,6 +175,18 @@ The bigger structural read: Abel is using cash-flow allocation rather than cash-
 
 ---
 
+## Alphabet private placement - Abel doubles AI-infrastructure exposure (Jun 1, 2026)
+
+[[Berkshire Hathaway]] agreed to buy $10B of [[Alphabet]] stock in a private placement tied to Alphabet's up-to-$80B AI infrastructure equity raise. The [[SEC]] 424B5 supplement gives the placement terms: 14,212,035 Class A shares at about $351.81 and 14,359,656 Class C shares at about $348.20. FT reported the placement lifts Berkshire's Alphabet holdings to roughly $32B, about one-tenth of its stock portfolio and one of its five largest publicly traded holdings, alongside [[Coca-Cola]].
+
+The capital-allocation read is that [[Greg Abel]] is doubling down on the Q1 2026 [[13F]] signal above. Berkshire had already more than tripled Alphabet to $16.6B in the first quarter; the private placement adds another direct public-equity AI-infrastructure bet rather than a wholly owned operating acquisition. That matters because it follows the [[Taylor Morrison]] acquisition by one day: Abel is willing to deploy cash, but the public-equity book is absorbing the larger AI wager while the operating-company side remains disciplined and mid-sized.
+
+For Berkshire, this is not a generic Mag 7 rotation. The Q1 [[13F]] exited [[Amazon]] while increasing Alphabet, and the Jun 1 placement narrows the technology exposure around Google's [[TPU]] / [[Google Cloud]] / [[Gemini]] stack. The risk is that Berkshire is now underwriting the same dilution and capex-intensity trade that pressured Alphabet after hours; the offset is that Berkshire is entering through a negotiated placement rather than chasing the open-market tape.
+
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet [[SEC]] 424B5 supplement, Jun 2 2026.*
+
+---
+
 ## Taylor Morrison acquisition — Abel's first big deal (May 31, 2026)
 
 Berkshire agreed to buy US homebuilder [[Taylor Morrison]] for $8.5bn (enterprise value), the first major acquisition originated by [[Greg Abel]] since taking over as CEO. It is the clearest sign yet that the ~$397B cash pile is starting to move — though at $8.5bn it is a deployment, not the "transformative" deal Abel explicitly ruled out at the May 2 annual meeting (the May 2 framing holds; this is mid-size).
@@ -242,6 +254,7 @@ More likely a combination: Reg FD removed information advantages, but size const
 | Chairman | Warren Buffett |
 | Q1 2026 operating earnings | $11.35B (+18% YoY) |
 | Q1 2026 buyback | $234.2M (first since May 2024) |
+| Alphabet exposure | FT-reported roughly $32B after Jun 2026 private placement |
 
 *Created 2026-01-08*
 *Q1 2026 + May 2 annual meeting expansion 2026-05-03*
@@ -251,6 +264,8 @@ More likely a combination: Reg FD removed information advantages, but size const
 ## Related
 
 - [[Greg Abel]] — CEO (since Jan 2026); first annual meeting May 2, 2026
+- [[Alphabet]] — major public-equity holding; $10B Jun 2026 private placement
+- [[Alphabet equity raise June 2026]] — placement event and AI-infrastructure funding read-through
 - [[Apple]] — largest equity holding
 - [[Bank of America]] — major holding
 - [[Progressive]] — competitor (auto)

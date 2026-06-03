@@ -172,10 +172,10 @@ INTC closed +14.0% on May 8 ($109.62 → $124.92, +2.4σ beta-adjusted) after [[
 
 | Item | Detail |
 |------|--------|
-| Products in scope | Future [[M-series chips|M-class]] for [[Mac]] / [[iPad]] (target 2027) |
+| Products in scope | Future [[M-series chips]] M-class for [[Mac]] / [[iPad]] (target 2027) |
 | iPhone scope | Possible inclusion (target 2028, per [[Jeff Pu]]) |
 | Process node | Presumed [[Intel 18A]] or [[14A]]; not disclosed |
-| Government role | [[Donald Trump|Trump]] personally advocated to [[Tim Cook]] in a White House meeting |
+| Government role | [[Donald Trump]] personally advocated to [[Tim Cook]] in a White House meeting |
 | Financial terms | Not disclosed |
 | Anchor sequence | [[TERAFAB]] (Apr 7) + Apple (May 8) = two structurally different anchor demand pillars |
 
@@ -477,6 +477,8 @@ The Irish plant stake repurchase is structurally meaningful — the original 202
 
 Intel's first real push into the AI-accelerator (GPU) market under [[Lip-Bu Tan]], distinct from the CPU/inference and foundry threads above. The "Crescent Island" GPU — first unveiled in October 2025, an 18-month build — will ship in limited quantities to customers by end-2026. Kevork Kechichian (head of Intel's data-centre group, joined from [[Arm Holdings|Arm]] in 2025) framed it as "starting with the basics."
 
+[[Computex 2026]] turned the earlier OCP disclosure into the live product hook. Intel's official October 2025 announcement described Crescent Island as an Xe3P-based enterprise inference accelerator with 160GB of LPDDR5X memory, optimized for air-cooled enterprise servers and targeted for customer sampling in the second half of 2026. Intel's Computex materials then placed that accelerator inside a broader AI portfolio message: Xeon 6+ for servers, Core Ultra AI PCs, software tooling, and partner systems.
+
 The strategy is deliberately narrow and cost-led:
 
 | Choice | Crescent Island | Nvidia Blackwell / AMD |
@@ -490,7 +492,7 @@ Intel is explicitly not chasing the training market where [[NVIDIA]] dominates �
 
 This is the GPU complement to the CPU-inference re-rating in the Apr 24 print: Intel's whole AI pitch is becoming "cheaper inference," not "frontier training." It slots into [[NVIDIA alternatives]] and [[Inference economics]] — the same cost-of-inference pressure pushing hyperscalers toward [[Groq]]/ASICs and away from scarce HBM-laden training GPUs. Intel shares are up more than 200% year-to-date (from >120% at the Apr 24 print), part of the broader semiconductor rally.
 
-*Source: [[Financial Times]], "Intel targets new AI data centre chip by year end" (Michael Acton, June 1 2026).*
+*Sources: [[Financial Times]], "Intel targets new AI data centre chip by year end" (Michael Acton, June 1 2026); Intel Newsroom Crescent Island announcement (Oct 14 2025); Intel Computex 2026 materials (Jun 1 2026).*
 
 ---
 

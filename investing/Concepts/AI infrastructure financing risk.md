@@ -77,6 +77,23 @@ Risk test: when a hyperscaler reports FCF improvement, check whether the improve
 
 ---
 
+## Hyperscaler equity-dilution channel (Jun 2026)
+
+The Jun 1 [[Alphabet equity raise June 2026]] adds a new risk channel: dilution at the mega-cap hyperscaler level. Before this, the main AI-infrastructure financing risks in this note were private-credit exposure, SPV opacity, lease/accounting treatment, counterparty circularity, and GPU depreciation. Alphabet's up-to-$80B stock raise says the parent-company share count itself can become part of the AI-capex funding stack.
+
+| Risk channel | Alphabet evidence | Why it matters |
+|---|---|---|
+| Dilution / share-count pressure | Up to $80B planned equity issuance, including $15B common stock, $15B mandatory-convertible preferred/depositary shares, a $40B ATM program, and $10B to [[Berkshire Hathaway]] | AI capacity now competes directly with existing shareholders, not only with buybacks |
+| Mixed funding stack | FT reported $85B of fresh debt and more than $100B of total debt alongside the equity plan | Equity issuance does not remove credit exposure; it layers onto it |
+| Tax / SBC mechanics | 424B5 says ATM proceeds mainly facilitate a change in how Alphabet meets tax obligations tied to vesting employee equity awards | AI-capex funding is intertwined with compensation-share treatment and share-count management |
+| Market-reaction uncertainty | FT reported an after-hours decline; Jun 2 close was not available during ingestion | A completed market-reaction check is needed before treating the tape as settled |
+
+The risk is not that Alphabet cannot raise the money. It can. The risk is that AI infrastructure becomes an equity-market absorption problem even for the highest-quality platforms. If peers follow, the financing-risk note should treat "hyperscaler dilution" as its own category beside private credit and off-balance-sheet vehicles.
+
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026.*
+
+---
+
 ## Overbuild warnings
 
 The bears:
@@ -134,7 +151,7 @@ The Google-Blackstone TPU JV makes the risk taxonomy more precise. CRWV, NBIS, a
 |---|---|---|
 | [[CoreWeave]] / CRWV | [[NVIDIA]] equity + public equity + private credit; March 2026 $8.5B DDTL anchored by [[Blackstone]] Credit & Insurance | Customer-contract durability, GPU depreciation, refinancing, and [[Microsoft]] concentration |
 | [[Nebius]] / NBIS | Strategic equity from [[Accel]] / [[NVIDIA]] / [[Orbis Investments]] plus ~$4.3375B convertible notes | Public-market dilution/convertible rollover risk plus GPU-cloud execution |
-| [[Google-Blackstone TPU cloud venture 2026]] | [[Blackstone]] $5B initial equity commitment; [[Alphabet|Google]] supplies TPU hardware/software/services | Operating-company execution, leverage terms, and anchor-customer opacity rather than public-neocloud refinancing |
+| [[Google-Blackstone TPU cloud venture 2026]] | [[Blackstone]] $5B initial equity commitment; [[Google]] supplies TPU hardware/software/services | Operating-company execution, leverage terms, and anchor-customer opacity rather than public-neocloud refinancing |
 
 That split matters for the risk note: not every "AI cloud" is the same circular-financing exposure. CoreWeave is a customer-backed private-credit structure, Nebius is a public-company capital-markets structure, and the Google-Blackstone JV is a private-capital TPU operating-company structure. See [[Neocloud financing]] for the live comparison.
 
@@ -150,7 +167,7 @@ That split matters for the risk note: not every "AI cloud" is the same circular-
 | Duplication | 2024 | [[Google]] up to $4B + [[Amazon]] $2B into [[Anthropic]] | Second cloud tier replicates MSFT-OpenAI template; Anthropic uses both AWS and Google chips/cloud |
 | Chip vendor enters | 2025 | [[NVIDIA]] invests in [[OpenAI]], [[xAI]], [[Mistral]] | GPU maker finances customers who buy its GPUs — 3-way circularity |
 | Neocloud layer | 2025 | [[NVIDIA]] 7% [[CoreWeave]] stake + $6.3B cloud purchase from CoreWeave; backs [[Nebius]], [[Nscale]] | NVIDIA invests in GPU resellers, then buys cloud from them |
-| TPU neocloud layer | 2026 | [[Google-Blackstone TPU cloud venture 2026]] | [[Alphabet|Google]] supplies TPUs/software while [[Blackstone]] funds a separate TPU-cloud operating company |
+| TPU neocloud layer | 2026 | [[Google-Blackstone TPU cloud venture 2026]] | [[Google]] supplies TPUs/software while [[Blackstone]] funds a separate TPU-cloud operating company |
 | Mega-commitments | 2025-26 | OpenAI $250B [[Microsoft]] cloud + tens of billions [[AMD]] chips; [[NVIDIA]] up to $100B into OpenAI; MSFT + NVIDIA up to $15B into [[Anthropic]]; [[Amazon]] in talks for $10B+ into OpenAI | Commitment scale now exceeds most sovereign budgets |
 
 The web tightened at each phase. By 2026, nearly every major AI transaction involves at least two of the same counterparties.

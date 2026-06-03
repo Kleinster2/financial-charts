@@ -7,6 +7,12 @@ aliases: [China rebalancing, China property crash, New Three]
 
 ---
 
+## Synthesis
+
+China's transition is not a simple slowdown. It is a composition problem: the old property/infrastructure stack is shrinking faster than EVs, batteries, solar, robotics, AI, and high-tech manufacturing can replace its demand multipliers. The 2026 evidence keeps reinforcing that split. Q1 GDP and Jan-April industrial profits show production-side resilience, but retail sales, property investment, fixed-asset investment, official PMI orders, construction, imports, and smaller manufacturers still point to weak final demand.
+
+The investable conclusion is that China can keep producing strong sector winners while the aggregate macro remains fragile. High-tech manufacturing, equipment, batteries, EVs, robotics, and selected exporters can look healthy at the same time that households, property, construction suppliers, banks, and smaller firms remain under pressure. A durable rebalancing needs more than industrial profit relief; it needs household-income confidence, property stabilization, service-sector demand, and fiscal plumbing that lets reforms like [[Hukou]] actually reduce precautionary saving.
+
 ## Long-arc context
 
 The transition problem comes after an unmatched growth surge, not after a normal EM credit boom. [[Adam Tooze]]'s [[Chartbook]] 450 frames [[China]] 1978-2022 as the largest single development shock in recorded economic history: roughly 8.1% annual per-capita growth across an average population of about 1.23B, about $25.3T of added GDP in 2011 international dollars, and roughly one-quarter of global GDP growth from 1980 to the early 2020s.
@@ -96,6 +102,14 @@ The May industrial-profit release fits the same transition pattern. [[NBS]] repo
 
 The demand-side checks are still weak. In the separate April activity releases, industrial value added grew 4.1% year on year in April and 5.6% in January-April, high-tech manufacturing still grew 12.6% year to date, but retail sales were only +0.2% in April and fixed-asset investment was -1.6% in January-April. This is why the profit data should not be read as China having completed a consumption rebalancing. It says the industrial stack got margin relief from PPI/product-price recovery, commodity-linked raw materials, high-tech demand, and lower unit costs while the household/property/investment channel remained soft.
 
+### May 2026 PMI read
+
+The May PMI print keeps the transition story in the same bucket. [[NBS]] official manufacturing PMI slipped to 50.0 from 50.3, exactly on the expansion threshold. The internals are more useful than the headline: production stayed positive at 51.2, but new orders fell to 49.9, new export orders to 48.6, employment to 48.6, and import demand to 48.8. Large manufacturers improved to 51.1, while medium and small firms were back below threshold at 48.6 and 48.5. Non-manufacturing recovered only to 50.1, with construction still contracting at 48.8.
+
+The [[RatingDog]] / [[S&P Global]] private manufacturing PMI stayed better at 51.8, down from 52.2 in April but still above the 51.6 [[Reuters]] consensus. That divergence fits the note's core frame rather than breaking it: parts of the private/export/high-tech stack can expand while the broad domestic-demand base remains thin. The May read therefore reinforces the "production strength, weak demand" regime. It is not a clean recession signal, but it is a warning against treating the Jan-April profit rebound as completed rebalancing.
+
+*Sources: [NBS PMI release, June 1 2026](https://www.stats.gov.cn/english/PressRelease/202606/t20260601_1963851.html); [[Reuters]] via [Investing.com, June 1 2026](https://www.investing.com/news/economy-news/china-may-factory-activity-expands-for-sixth-month-as-price-pressures-ease-private-pmi-shows-4717983).*
+
 ### Hukou reform as demand plumbing (May 2026)
 
 The May 22 State Council opinion on providing basic public services by actual residence is the household-demand side of the transition problem. It does not replace property or export demand, but it addresses one reason the household channel has stayed structurally weak: migrant workers save more when schooling, healthcare, housing support, social insurance, and other safety-net services are tied to hukou registration rather than where they work. [[Hukou]] reform therefore belongs in the same basket as household-income support and service-sector rebalancing, not in the short-term stimulus basket.
@@ -127,6 +141,7 @@ Watch for:
 - [[BYD]] — New Three beneficiary (EVs)
 - [[Capital flow reversal]] — China companies expanding abroad as domestic market depressed
 - [[China solar buildout]] — Part of new industries push
+- [[RatingDog]] — private China PMI source actor
 - [[Rare earth leverage]] — Related industrial policy
 
 *Created 2026-01-15*

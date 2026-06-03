@@ -6,7 +6,7 @@ parent_actor: "Anthropic"
 
 # Claude Mythos
 
-[[Anthropic]]'s next-generation [[Claude]] model, leaked on 2026-03-27 through a misconfigured content management system. Capybara is a new tier above [[Claude Opus|Opus]] — the first expansion of [[Anthropic]]'s three-tier naming hierarchy since [[Claude]] launched. [[Anthropic]] confirmed the model exists but has not announced a release date. Currently in testing with a limited group of early-access customers.
+[[Anthropic]]'s next-generation [[Claude]] model, leaked on 2026-03-27 through a misconfigured content management system and then surfaced officially through [[Project Glasswing]]. Capybara is a new tier above [[Claude Opus|Opus]] — the first expansion of [[Anthropic]]'s three-tier naming hierarchy since [[Claude]] launched. As of May 28, 2026, Mythos Preview remains restricted to defensive-cyber partners, but Anthropic says Mythos-class models are expected to reach all customers in the coming weeks once stronger cyber safeguards are in place.
 
 ---
 
@@ -18,10 +18,11 @@ parent_actor: "Anthropic"
 | Product family | [[Claude]] |
 | Tier | Capybara (above Opus) |
 | Codename | Mythos |
-| Status | In testing with early-access customers (as of Mar 27 2026) |
+| Status | Restricted [[Project Glasswing]] preview; Mythos-class general availability expected "in the coming weeks" (Anthropic, May 28 2026) |
 | Leak date | 2026-03-27 |
 | Leak vector | Misconfigured CMS — ~3,000 unpublished assets publicly searchable |
 | Discovered by | Alexandre Pauwels (Cambridge), Roy Paz (LayerX Security) |
+| Public bridge model | [[Claude Opus|Claude Opus 4.8]] (May 28 2026) |
 
 ---
 
@@ -33,7 +34,7 @@ parent_actor: "Anthropic"
 - Academic reasoning
 - Cybersecurity (vulnerability discovery and exploitation)
 
-An [[Anthropic]] spokesperson confirmed they are "developing a general purpose model with meaningful advances in reasoning, coding, and cybersecurity." No public benchmarks released.
+An [[Anthropic]] spokesperson confirmed they are "developing a general purpose model with meaningful advances in reasoning, coding, and cybersecurity." Anthropic has not published a full Mythos benchmark card for broad customers, but the May 22 [[Project Glasswing]] update provides public evidence from controlled deployment: partners reported more than ten thousand high- or critical-severity vulnerabilities, the UK AI Security Institute said Mythos Preview was the first model to solve both of its cyber ranges end to end, and Mozilla reported 271 vulnerabilities found and fixed in Firefox 150 while testing Mythos Preview.
 
 ---
 
@@ -70,14 +71,30 @@ That is a different category of AI release. Mythos was not treated as a consumer
 
 ---
 
+## May 2026 — Glasswing evidence and release path
+
+Anthropic's May 22 Glasswing update changed the note from a leak-and-regulatory-response story into a measured deployment story. After one month, roughly 50 partners were using Mythos Preview, and Anthropic said those partners had collectively found more than ten thousand high- or critical-severity vulnerabilities. Cloudflare alone reported 2,000 bugs across critical-path systems, including 400 high- or critical-severity findings, with a false-positive rate Cloudflare considered better than human testers.
+
+The open-source scan is the cleaner bottleneck data. Anthropic said it had scanned more than 1,000 open-source projects and that Mythos Preview estimated 23,019 vulnerabilities, including 6,202 high- or critical-severity findings. Of 1,752 high- or critical-rated findings assessed by external security firms or Anthropic, 90.6% were valid true positives and 62.4% were confirmed high or critical. By May 22, Anthropic estimated it had disclosed 530 high- or critical-severity bugs to maintainers; 75 had been patched and 65 had public advisories.
+
+That moves the core risk from "can AI find vulnerabilities?" to "can humans verify, disclose, and patch them fast enough?" Anthropic explicitly frames the new constraint as coordinated disclosure capacity: high-quality model output still runs into maintainer time, security-firm triage, patch design, and the 90-day disclosure window.
+
+The May 28 [[Claude Opus|Claude Opus 4.8]] launch then supplied the release signal. Opus 4.8 is Anthropic's most capable generally available model and is priced at $5/M input tokens and $25/M output tokens, with fast mode at $10/M input and $50/M output. The release note says Anthropic is making progress on the stronger cyber safeguards required for Mythos-class models and expects to bring them to all customers in the coming weeks.
+
+The market read: Mythos is moving from exceptional restricted capability toward a near-term commercial tier, but the public version is likely to remain safety-shaped. The investable signal is less "one model launches" and more "AI vulnerability discovery becomes cheap enough that disclosure and patching capacity become the scarce resource."
+
+*Sources: [Anthropic, Project Glasswing initial update](https://www.anthropic.com/research/glasswing-initial-update), May 22 2026; [Anthropic, Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8), May 28 2026.*
+
+---
+
 ## Model tier: Capybara
 
 | Tier | Model class | Positioning |
 |------|-------------|-------------|
 | [[Claude Haiku|Haiku]] | Smallest | Fast, cheap, simple tasks |
 | [[Claude Sonnet|Sonnet]] | Mid-range | Balanced performance/cost |
-| [[Claude Opus|Opus]] | Largest (current) | Maximum capability |
-| Capybara | Next-gen | Step change above Opus |
+| [[Claude Opus|Opus]] | Largest generally available | Maximum public capability; [[Claude Opus|Opus 4.8]] as of May 28 2026 |
+| Capybara | Next-gen / restricted | Step change above Opus; Mythos-class models expected for all customers in coming weeks |
 
 Whether Capybara becomes a permanent tier or is specific to the Mythos generation is unclear from the leaked materials.
 
@@ -89,7 +106,9 @@ Whether Capybara becomes a permanent tier or is specific to the Mythos generatio
 |------|-------|-----------------|
 | 2026-03-27 | CMS misconfiguration exposes ~3,000 unpublished assets including Mythos benchmarks and safety evaluations | Cybersecurity selloff: CRWD -7%, PANW -6%, ZS -4.5%, OKTA -3%, S -3%, FTNT -3% |
 | 2026-03-27 | [[Anthropic]] spokesperson confirms model exists, describes "step change" in reasoning/coding/cybersecurity | — |
-| TBD | Public release | — |
+| 2026-04-07 | [[Project Glasswing]] officially launches as restricted defensive-cyber deployment for Mythos Preview | Reframes Mythos as dual-use cyber capability, not normal consumer model launch |
+| 2026-05-22 | Anthropic says roughly 50 Glasswing partners found more than 10,000 high- or critical-severity vulnerabilities; open-source scan bottleneck shifts to verification/disclosure/patching | Validates AI-native vulnerability-discovery capability while showing maintainer and CVD capacity constraints |
+| 2026-05-28 | [[Claude Opus|Opus 4.8]] launches; Anthropic says Mythos-class models are expected for all customers in coming weeks | Raises probability that Mythos moves from restricted preview to commercial release path |
 
 ---
 
@@ -111,11 +130,11 @@ This is the first senior administration source to publicly endorse Mythos as the
 
 [[Dylan Patel]] on [[Invest Like the Best]] (Apr 23, 2026, recorded the day [[Claude Opus|Opus 4.7]] launched) added detail on Mythos's internal availability and capability framing that complements the public benchmarks-and-leak story:
 
-- **Internal availability since Feb 2026.** [[Anthropic]] had Mythos working internally roughly two months before the late-March CMS-leak discovery. The selective-deployment program ([[Project Glasswing]]) — which Patel calls "earwig" / "glasswig" as a running joke — released the model only to [[Cybersecurity]] firms and ~40 critical-infrastructure organizations, deliberately delaying broad release on safety grounds
-- **Capability tier: L4 → L6 software engineer in two months.** [[Anthropic]]'s 2024-2025 internal goal was "an L4 software engineer" by end of 2025; Patel's read is that [[Claude Opus|Opus 4.6]] (Feb 2026) hit L4 and Mythos reached L6 by February 2026 — a step Patel calls "potentially the biggest step up in model capabilities in 2 years." See [[Idea-execution inversion]] for the structural implication
-- **Per-token cost 5-10x prior tier; lower per-task cost.** Patel: "Mythos is more expensive as a model but it spends a lot less tokens to do the thing and therefore it is actually cheaper in most tasks than [[Claude Opus|4.6 Opus]] because it's just way more efficient even though each individual token is smarter." The pricing is per the model card already published to selective customers
-- **Public release deliberately weakened at cyber.** Per the model card disclosed to [[Project Glasswing]] participants, the broader public release (when it lands) will have measurably reduced cyber-offensive capability versus the version currently in defenders' hands. Patel: "they explicitly said in the model card hey we actually preferentially made it worse at cyber"
-- **Begging-for-access anecdote.** Patel's framing of capacity scarcity at the frontier: "One of my funniest memories in the past month and a half is myself and [[Leopold Aschenbrenner|Leopold]] being on our knees in front of an Anthropic co-founder begging him for access to Mythos and then pretending it doesn't exist cuz we knew it existed." Color illustrates the gating dynamic that drives [[Inference economics#Permanent-underclass thesis (Patel, Apr 2026)|the permanent-underclass thesis]] — concentration of frontier-tier access among well-capitalized customers with [[Anthropic]] relationships
+- Internal availability since Feb 2026 — [[Anthropic]] had Mythos working internally roughly two months before the late-March CMS-leak discovery. The selective-deployment program ([[Project Glasswing]]) — which Patel calls "earwig" / "glasswig" as a running joke — released the model only to [[Cybersecurity]] firms and ~40 critical-infrastructure organizations, deliberately delaying broad release on safety grounds
+- Capability tier: L4 → L6 software engineer in two months — [[Anthropic]]'s 2024-2025 internal goal was "an L4 software engineer" by end of 2025; Patel's read is that [[Claude Opus|Opus 4.6]] (Feb 2026) hit L4 and Mythos reached L6 by February 2026 — a step Patel calls "potentially the biggest step up in model capabilities in 2 years." See [[Idea-execution inversion]] for the structural implication
+- Per-token cost 5-10x prior tier; lower per-task cost — Patel: "Mythos is more expensive as a model but it spends a lot less tokens to do the thing and therefore it is actually cheaper in most tasks than [[Claude Opus|4.6 Opus]] because it's just way more efficient even though each individual token is smarter." The pricing is per the model card already published to selective customers
+- Public release deliberately weakened at cyber — per the model card disclosed to [[Project Glasswing]] participants, the broader public release (when it lands) will have measurably reduced cyber-offensive capability versus the version currently in defenders' hands. Patel: "they explicitly said in the model card hey we actually preferentially made it worse at cyber"
+- Begging-for-access anecdote — Patel's framing of capacity scarcity at the frontier: "One of my funniest memories in the past month and a half is myself and [[Leopold Aschenbrenner|Leopold]] being on our knees in front of an Anthropic co-founder begging him for access to Mythos and then pretending it doesn't exist cuz we knew it existed." Color illustrates the gating dynamic that drives [[Inference economics#Permanent-underclass thesis (Patel, Apr 2026)|the permanent-underclass thesis]] — concentration of frontier-tier access among well-capitalized customers with [[Anthropic]] relationships
 
 The April 23 framing sits alongside [[Scott Bessent|Bessent]]'s "step function change" Treasury endorsement and the [[Jensen Huang|Jensen]] / [[Dwarkesh Patel|Dwarkesh]] policy debate — three different uses of the same model: as compounding-lead exemplar (Bessent), as cyber-containment justification (Dwarkesh), as evidence that scaling laws still work and execution costs continue collapsing (Patel).
 
@@ -156,7 +175,7 @@ Mythos is also the named catalyst in the bug-bounty case of [[AI producer-evalua
 - [[Anthropic]] — parent company
 - [[Project Glasswing]] — controlled early-access program for Mythos Preview
 - [[Claude]] — product family
-- [[Claude Opus]] — current top tier (Opus 4.6), which Mythos reportedly surpasses
+- [[Claude Opus]] — current generally available top tier (Opus 4.8), which Mythos Preview still reportedly surpasses
 - [[Claude Code Security]] — Anthropic's existing AI vulnerability scanner
 - [[OpenAI Spud]] — OpenAI's competing next-gen model, teased the same week
 - [[AI cybersecurity disruption basket]] — tracks vendor disruption from AI labs

@@ -131,6 +131,25 @@ The composition matters more than the headline. Equipment manufacturing profits 
 
 *Source: Reuters / NBS, May 27 2026; NBS industrial-profits interpretation by Yu Weining.*
 
+### May 2026 PMI threshold read
+
+The May 2026 PMI release confirms the same production-versus-demand split. [[NBS]] reported official manufacturing PMI at 50.0, down from 50.3 in April and exactly on the expansion/contraction threshold. Production stayed above water at 51.2, but new orders fell to 49.9, new export orders to 48.6, imports to 48.8, employment to 48.6, and supplier delivery times to 49.2. Large firms improved to 51.1, while medium and small firms fell to 48.6 and 48.5. Non-manufacturing recovered only to 50.1, with construction still below threshold at 48.8 and services at 50.3.
+
+The private PMI is better but still slowing. [[RatingDog]] / [[S&P Global]] manufacturing PMI fell to 51.8 from 52.2 in April, beating the [[Reuters]] consensus of 51.6 and marking a sixth month of expansion, but the newswire summary still noted easing momentum, slightly weaker export orders, and softer price pressure. The useful read is not official-versus-private contradiction. It is segmentation: export-oriented and high-tech manufacturers are still expanding, but the broad official survey shows domestic orders, smaller firms, employment, construction, and imports stuck in the weak-demand regime.
+
+| May 2026 indicator | Reading | Signal |
+|---|---:|---|
+| Official manufacturing PMI | 50.0 | At threshold, down 0.3pp |
+| Production | 51.2 | Output still expanding |
+| New orders | 49.9 | Demand slipped back below threshold |
+| New export orders | 48.6 | External-demand pressure returned |
+| Large / medium / small firms | 51.1 / 48.6 / 48.5 | Recovery concentrated in large firms |
+| Non-manufacturing | 50.1 | Barely expansionary |
+| Construction | 48.8 | Property/infrastructure drag still live |
+| RatingDog / S&P manufacturing PMI | 51.8 | Private survey still expanding, slower than April |
+
+*Sources: [NBS PMI release, June 1 2026](https://www.stats.gov.cn/english/PressRelease/202606/t20260601_1963851.html); [[Reuters]] via [Investing.com, June 1 2026](https://www.investing.com/news/economy-news/china-may-factory-activity-expands-for-sixth-month-as-price-pressures-ease-private-pmi-shows-4717983).*
+
 ---
 
 ## Total war / systems confrontation frame (May 2026)
@@ -488,7 +507,7 @@ Chinese tech stocks testing how far AI-fueled rally can run. Key listings:
 |---------|-------|--------|
 | Shanghai Biren Technology | HK IPO (Jan 2026) | +120% on debut, raised $717M — AI chip designer |
 | [[Baidu]] AI chip unit (Kunlun) | Filed confidentially | HK listing planned |
-| [[MiniMax]] Group | Expected H1 2026 | AI foundation model startup |
+| [[MiniMax]] Group | HK-listed Jan 2026; proposed STAR Market RMB shares May 31, 2026 | AI foundation model startup; direct public-market proxy via 0100.HK |
 | [[Zhipu]] AI | Expected H1 2026 | AI foundation model startup |
 
 Open-source AI strategy gaining global traction: [[Meta]] reportedly using [[Alibaba]]'s [[Qwen]] model in training for new model (code-named "Avocado"). Chinese firms' embrace of open source earning goodwill despite geopolitical antagonism.
@@ -743,6 +762,7 @@ The decline reflects reserve diversification (into gold, bilateral currency swap
 - [[Palo Alto Networks]] — banned cybersecurity vendor
 - [[Check Point]] — banned cybersecurity vendor (Israeli)
 - [[China-Africa trade]] — fastest growing export destination (+26%, $348B)
+- [[China economic transition]] — domestic-demand and property-rebalancing framework
 - [[China A-share exchanges]] — Shanghai, [[Shenzhen]], Beijing exchanges (margin policy)
 - [[Chile-China Express]] — proposed submarine cable (Valparaiso → Hong Kong)
 - [[China Mobile]] — state telecom, cable operator

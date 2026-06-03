@@ -38,7 +38,7 @@ Gateway for [[China]] capital:
 |---------|----------|-------------|
 | [[Biren Tech]] | Jan 3, 2026 | +76% |
 | [[Zhipu]] | Jan 8, 2026 | +13.2% |
-| [[MiniMax]] | Jan 9, 2026 | TBD |
+| [[MiniMax]] | Jan 9, 2026 | 0100.HK; later proposed RMB-share / [[STAR Market]] route on May 31, 2026 |
 
 Chinese AI/chip companies choosing HKEX over US.
 
@@ -114,6 +114,7 @@ Chinese AI/chip companies choosing HKEX over US.
 - [[Zhipu]] — listed Jan 8, 2026
 - [[Biren Tech]] — listed Jan 3, 2026
 - [[MiniMax]] — IPO Jan 9, 2026
+- [[MiniMax securities note]] — 0100.HK and proposed RMB shares
 - [[Alibaba]] — dual-listed
 - [[Tencent]] — listed
 - [[Intercontinental Exchange]] — peer (NYSE)

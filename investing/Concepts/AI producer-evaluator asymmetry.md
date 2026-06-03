@@ -9,6 +9,12 @@ A structural framework for how generative AI breaks market designs that depend o
 
 ---
 
+## Synthesis
+
+The investable pattern is not simply that AI creates slop. The deeper pattern is that AI lets one side of a market scale faster than the side responsible for evaluation, trust, and remediation. In low-quality markets, that shows up as spammy bug-bounty reports, job applications, or submissions. In high-quality markets, [[Project Glasswing]] shows the same imbalance with real vulnerability findings: the model can discover faster than humans can verify, disclose, patch, and enforce. The winners are platforms that rebuild the gate or own the downstream control points; the losers are markets and vendors whose economics depended on human-paced input scarcity.
+
+---
+
 ## The asymmetry that breaks
 
 Many economic systems work because of a roughly balanced cost structure between producers and evaluators:
@@ -130,11 +136,34 @@ Three implications worth carrying forward when evaluating AI investments and exp
 
 ---
 
+## Project Glasswing variant — good output can still overwhelm evaluation
+
+The [[Project Glasswing]] update on May 22, 2026 shows the same producer-evaluator asymmetry without the "slop" problem. In bug bounties, AI-generated submissions flood evaluators with low-quality reports. In Glasswing, [[Claude Mythos]] appears to generate many real findings, but the evaluator and remediation side still cannot scale at the same pace.
+
+| Metric | Value |
+|---|---|
+| Partner findings | More than 10,000 high- or critical-severity vulnerabilities |
+| Open-source projects scanned | 1,000+ |
+| Total open-source findings | 23,019 estimated vulnerabilities |
+| Estimated high/critical | 6,202 |
+| High/critical findings assessed | 1,752 |
+| Valid true positives after assessment | 90.6% |
+| High/critical bugs disclosed to maintainers | 530 |
+| Patched | 75 |
+| Public advisories | 65 |
+
+This is a cleaner version of the framework because the output quality is high after triage. The failure mode is not fake reports; it is throughput mismatch. Anthropic says even its relatively slow disclosure pace is adding pressure to an already overloaded maintainer ecosystem, and some maintainers have asked it to slow down. The market design problem is therefore broader than slop: any system where AI scales discovery faster than verification and remediation will need new gates, automation, staking, or prioritization.
+
+*Source: [Anthropic, Project Glasswing initial update](https://www.anthropic.com/research/glasswing-initial-update), May 22 2026.*
+
+---
+
 ## Related
 
 - [[AI cybersecurity disruption basket]] — bug bounty as the home case; bidirectional cross-link to May 17 section
 - [[AI Video Generation]] — the Sora-inversion case (geography-based asymmetry)
 - [[Claude Mythos]] — named catalyst for the bug-bounty submission flood
+- [[Project Glasswing]] — high-signal version of the discovery/triage/patching throughput mismatch
 - [[Claude Code]] — agentic coding tool generating PRs at machine rate; producer-side AI in the code-review asymmetry
 - [[AI disintermediation]] — adjacent thesis on AI displacing intermediary professional services
 - [[Inference economics]] — supply-side cost-structure context that makes producer-side AI deployment economic

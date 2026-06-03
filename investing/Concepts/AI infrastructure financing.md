@@ -1,6 +1,6 @@
 #concept #finance #datacenter #ai
 
-The capital stack behind AI buildout. Hyperscalers need $100Bs — private credit and PE are filling the gap.
+The capital stack behind AI buildout. Hyperscalers need $100Bs; private credit, PE, debt markets, partner vehicles, and now common-equity issuance are filling the gap.
 
 **Deep dives:**
 - [[AI infrastructure deals]] — detailed capital stacks for 10 major deals
@@ -74,6 +74,7 @@ Problem: Even hyperscalers don't want this on balance sheet. Enter private capit
 | Strategic cloud equity + offtake | Cloud provider invests in frontier lab while lab commits to buy cloud/chip capacity | [[Anthropic hyperscaler financing surge April 2026]] ([[Amazon]] + [[Google]]) |
 | Chip-backed neocloud JV | Chip vendor supplies silicon/software while private capital funds a separate operating company | [[Google-Blackstone TPU cloud venture 2026]] |
 | Listed neocloud capital markets | Strategic equity + convertible notes fund GPU-cloud buildout; customers provide demand anchors | [[Nebius]] $700M strategic equity + ~$4.3375B convertibles |
+| Hyperscaler equity issuance | Mega-cap issuer sells stock / equity-linked securities to fund AI infrastructure and tax/share-compensation mechanics | [[Alphabet equity raise June 2026]] |
 
 See [[AI infrastructure deals]] for detailed capital stacks.
 
@@ -85,7 +86,7 @@ The Google-Blackstone / CRWV / NBIS comparison is now part of the financing map,
 
 | Vehicle | Capital provider | Customer support | Risk location |
 |---|---|---|---|
-| [[Google-Blackstone TPU cloud venture 2026]] | [[Blackstone]] funds provide $5B initial equity; [[Alphabet|Google]] provides TPU hardware/software/services | Anchor customer not disclosed; [[Anthropic]] is the obvious candidate but not confirmed | Blackstone-backed operating-company risk, plus FT-only leverage uncertainty |
+| [[Google-Blackstone TPU cloud venture 2026]] | [[Blackstone]] funds provide $5B initial equity; [[Google]] provides TPU hardware/software/services | Anchor customer not disclosed; [[Anthropic]] is the obvious candidate but not confirmed | Blackstone-backed operating-company risk, plus FT-only leverage uncertainty |
 | [[CoreWeave]] / CRWV | [[NVIDIA]] equity + public equity + private credit; March 2026 $8.5B DDTL anchored by [[Blackstone]] Credit & Insurance | [[Microsoft]] concentration and backlog support the debt stack | Customer-contract / GPU-depreciation / refinancing risk |
 | [[Nebius]] / NBIS | $700M strategic equity from [[Accel]], [[NVIDIA]], and [[Orbis Investments]]-managed accounts; ~$4.3375B convertible notes | [[Microsoft]] and [[Meta]] customer contracts support the buildout, but are not sponsor capital | Public-equity / convertible-market risk, with GPU-cloud execution risk |
 
@@ -194,6 +195,14 @@ The May 8 FT / [[Visible Alpha]] hyperscaler cash-flow pass is now the bridge be
 The key distinction is between a temporary cash-flow trough and a structural funding regime change. If AI revenue catches up in 2027, the trough is a working-capital bridge. If demand disappoints or component inflation persists, the same structures become the transmission channel into [[AI infrastructure financing risk]].
 
 *Sources: [FT article](https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494), May 8 2026; Alphabet, Meta, and Amazon Q1 2026 10-Qs.*
+
+### Alphabet equity issuance as new funding channel (Jun 2026)
+
+The Jun 1 [[Alphabet equity raise June 2026]] turns the May 2026 FCF squeeze into an explicit equity-market financing channel. Alphabet is planning up to $80B of equity funding: $15B of Class A / Class C common stock, $15B of mandatory-convertible preferred/depositary shares, a $40B at-the-market Class A / Class C program, and $10B privately placed with [[Berkshire Hathaway]]. That sits beside the existing debt stack rather than replacing it; FT also reported $85B of fresh debt and more than $100B of total debt.
+
+The taxonomy implication is important: the AI infrastructure funding map no longer stops at "hyperscaler balance sheet vs private-credit SPV." It now includes direct dilution at the mega-cap platform layer. That is still cheaper and cleaner than distressed borrowing, but it changes the investor bargain: shareholders are funding capacity in exchange for future AI revenue, not merely accepting lower buybacks while operating cash flow covers the build.
+
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026.*
 
 ---
 

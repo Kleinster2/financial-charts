@@ -44,7 +44,7 @@ Oracle not shown (fiscal year ends May, quarters don't align).
 | Hyperscaler | 2026 Estimate | Source |
 |-------------|---------------|--------|
 | **AMZN** | ~$150B | CFO: "will grow in 2026" |
-| **GOOG** | ~$115B (CFO Q4 2025 guide) → **$185B** (Apr 2026 forecast cited by [[FT]]) | CFO: "significant increase"; later [[Thomas Kurian]] confirmation around the [[Anthropic]] capacity deal |
+| **GOOG** | ~$115B (CFO Q4 2025 guide) → **$180-190B** (Apr 2026 guide / FT context) | CFO: "significant increase"; later [[Thomas Kurian]] confirmation around the [[Anthropic]] capacity deal |
 | **META** | ~$100B | CFO: "notably larger" |
 | **MSFT** | $121-140B | Jefferies, Cantor |
 | **ORCL** | ~$50B+ | Already at $50B for FY26 |
@@ -131,6 +131,16 @@ The FT screenshots were ingested as extracted chart data rather than copied imag
 Two caveats matter. First, free cash flow is not a GAAP-defined metric; leased data centers, share-based compensation treatment, and project-finance vehicles can make the economic exposure worse than headline FCF suggests. Second, charts that show liabilities or FCF under publisher methodology need reconciliation against filings before being reused as standalone hard data.
 
 *Sources: [FT article](https://www.ft.com/content/b3dfaba9-17a2-4fac-90fe-4ab3ca7c9494), May 8 2026; [Alphabet Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm); [Amazon Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm); [Meta Q1 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm); [Microsoft FY26 Q3 earnings transcript](https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3).*
+
+---
+
+## Jun 1, 2026 Alphabet equity raise - common equity enters the stack
+
+[[Alphabet]]'s up-to-$80B equity raise is the cleanest evidence that the hyperscaler capex cycle has moved beyond the "free cash flow trough" framing. The May 8 FT / [[Visible Alpha]] story showed the Big 4 capex and FCF lines crossing uncomfortably; the Jun 1 FT report and Jun 2 SEC supplements show the next funding instrument. Alphabet is adding common equity to the stack through $15B of common stock, $15B of mandatory-convertible preferred/depositary shares, a $40B ATM program, and a $10B [[Berkshire Hathaway]] private placement.
+
+The capex read-through is that 2026's $180-190B guide is not the endpoint. FT reported Alphabet expects capex to rise significantly in 2027 and that Big Tech expects to spend about $725B on AI this year. The immediate physical bottleneck is still undisclosed - no new data-center site, PPA, interconnection, grid region, or MW target came with the financing - so the right filing is funding-side, not power-asset-side. See [[Alphabet equity raise June 2026]], [[AI infrastructure financing]], and [[AI infrastructure financing risk]].
+
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026.*
 
 ---
 

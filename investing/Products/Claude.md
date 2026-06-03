@@ -6,6 +6,7 @@ aliases:
   - Claude 4
   - Claude 4.5
   - Claude 4.6
+  - Claude 4.8
 tags:
   - product-family
   - ai
@@ -17,7 +18,7 @@ parent_concept: "Frontier models"
 
 [[Anthropic]]'s AI assistant family. Known for reasoning, coding, and safety. Competes with [[ChatGPT]].
 
-Structure: One model family with generations (3, 3.5, 4, 4.5) and capability tiers:
+Structure: One model family with generations (3, 3.5, 4, 4.5, 4.6, 4.8) and capability tiers:
 - [[Claude Opus]] — Most capable, deep reasoning
 - [[Claude Sonnet]] — Balanced performance/cost
 - [[Claude Haiku]] — Fastest, cheapest
@@ -54,7 +55,9 @@ Enterprise-focused: 80% of Anthropic's revenue from enterprise customers. [[Cham
 | Claude 4.5 Haiku | 2025 | Fast/cheap tier |
 | [[Claude Opus|Claude Opus 4.6]] | Feb 5 2026 | 1M context, agent teams, 65.4% Terminal-Bench |
 | [[Claude Sonnet|Claude Sonnet 4.6]] | Feb 17 2026 | Opus-level reasoning at Sonnet pricing, 1M context (beta), 72.5% OSWorld |
-| [[Claude Mythos|Claude Mythos (Capybara)]] | TBD (leaked Mar 27 2026) | New tier above Opus. "Step change" in reasoning, coding, cybersecurity. In testing with early-access customers. |
+| [[Claude Opus|Claude Opus 4.7]] | Apr 16 2026 | Stronger coding, vision, and complex multi-step tasks |
+| [[Claude Opus|Claude Opus 4.8]] | May 28 2026 | Most capable generally available Opus; stronger coding/agentic/professional work, dynamic workflows, effort control, 1M context |
+| [[Claude Mythos|Claude Mythos (Capybara)]] | Coming weeks (restricted preview since Apr 2026) | New tier above Opus. Restricted in [[Project Glasswing]]; Anthropic says Mythos-class models should reach all customers in coming weeks after stronger cyber safeguards. |
 
 ---
 
@@ -62,11 +65,11 @@ Enterprise-focused: 80% of Anthropic's revenue from enterprise customers. [[Cham
 
 | Model | Positioning | API pricing (per M tokens) |
 |-------|-------------|---------------------------|
-| [[Claude Opus|Opus 4.6]] | Most capable, reasoning | $5 input / $25 output |
+| [[Claude Opus|Opus 4.8]] | Most capable generally available, reasoning and agents | $5 input / $25 output; fast mode $10 / $50 |
 | [[Claude Sonnet|Sonnet 4.6]] | Balanced, default (free + pro) | $3 input / $15 output |
 | [[Claude Haiku|Haiku 4.5]] | Fastest, cheapest | $0.80 input / $4 output |
 
-Batch API offers 50% discount for async processing. 1M context window available in beta for Opus 4.6 and Sonnet 4.6 (premium pricing above 200K).
+Batch API offers 50% discount for async processing. 1M context window is available for Opus 4.8; Anthropic also offers US-only inference at 1.1x pricing.
 
 ---
 
@@ -142,7 +145,7 @@ Multi-cloud strategy reduces single-vendor dependency.
 | Pro price | $20/mo |
 | Context | 200K-1M tokens (1M beta) |
 
-*Updated 2026-03-30*
+*Updated 2026-06-02*
 
 ---
 
@@ -159,6 +162,6 @@ Multi-cloud strategy reduces single-vendor dependency.
 - [[OpenClaw]] — open-source agent that uses Claude as backend; Anthropic C&D forced rebrand from "Clawdbot"
 - [[Agentic AI]] — Claude Code's category
 - [[AI agents]] — broader category
-- [[Claude Mythos]] — next-gen Capybara tier (leaked Mar 2026)
+- [[Claude Mythos]] — next-gen Capybara tier; restricted in [[Project Glasswing]], with Mythos-class models expected for all customers in coming weeks
 - [[Claude Cowork disruption February 2026]] — $285B selloff catalyst
 - [[February 2026 AI Disruption Cascade]] — software disruption exposure tracked in the event note

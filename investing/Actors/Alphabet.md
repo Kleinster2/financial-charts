@@ -5,7 +5,7 @@ tags: [actor, company, mag7, ai, hyperscaler, usa]
 
 #actor #company #mag7 #hyperscaler
 
-Alphabet — parent company of [[Google]], YouTube, Waymo, DeepMind, Google Cloud. One of the "Mag 7" megacaps. Hyperscaler spending heavily on AI data center infrastructure (part of ~$650B combined hyperscaler capex planned for 2026). Designing custom TPU chips manufactured by [[TSMC]]. [[DeepMind]] partnership with [[Hyundai]] for Atlas humanoid AI.
+Alphabet — parent company of [[Google]], YouTube, Waymo, DeepMind, Google Cloud. One of the "Mag 7" megacaps. Hyperscaler spending heavily on AI data center infrastructure (part of Big Tech's roughly $725B 2026 AI-spend envelope). Designing custom TPU chips manufactured by [[TSMC]]. [[DeepMind]] partnership with [[Hyundai]] for Atlas humanoid AI.
 
 ---
 
@@ -18,6 +18,7 @@ Alphabet — parent company of [[Google]], YouTube, Waymo, DeepMind, Google Clou
 | Key segments | Google Search, YouTube, Google Cloud, Waymo, DeepMind |
 | Custom silicon | TPU (Tensor Processing Unit) |
 | Foundry | [[TSMC]] |
+| AI infrastructure funding | Up to $80B Jun 2026 equity raise; Feb 2026 debt issuance already in the stack |
 
 ---
 
@@ -55,9 +56,9 @@ This is the first material monetization push for the Fitbit asset since the $2.1
 
 ## Google-Blackstone TPU cloud joint venture (May 18, 2026)
 
-[[Alphabet|Google]] and [[Blackstone]] announced a new U.S.-based joint venture on May 18, 2026 to sell [[Google Cloud]] [[TPU]] capacity as a compute-as-a-service offering. Blackstone commits $5B initial equity from its managed funds; first 500 MW of capacity targets 2027; total potential investment with leverage runs to about $25B per [[Financial Times|FT]]'s anonymous sourcing (Blackstone's official release confirms only the $5B equity, not the leverage figure). [[Benjamin Treynor Sloss]] — Google's [[Site Reliability Engineering|SRE]] founder, more recently chief programs officer running data-centre efficiency, AI diffusion, and "infrastructure capital structures and long-term capacity and supply assurance" — was named CEO of the new company.
+[[Google]] and [[Blackstone]] announced a new U.S.-based joint venture on May 18, 2026 to sell [[Google Cloud]] [[TPU]] capacity as a compute-as-a-service offering. Blackstone commits $5B initial equity from its managed funds; first 500 MW of capacity targets 2027; total potential investment with leverage runs to about $25B per [[Financial Times]] / FT anonymous sourcing (Blackstone's official release confirms only the $5B equity, not the leverage figure). [[Benjamin Treynor Sloss]] — Google's [[Site Reliability Engineering|SRE]] founder, more recently chief programs officer running data-centre efficiency, AI diffusion, and "infrastructure capital structures and long-term capacity and supply assurance" — was named CEO of the new company.
 
-The structural read is that Google is externalising the *third-party* tranche of TPU demand into a [[Blackstone]]-controlled vehicle rather than absorbing it onto [[Google Cloud]]'s own balance sheet. That solves the [[Google Cloud]] vs [[Google DeepMind]] internal allocation tension surfaced after the [[Anthropic hyperscaler financing surge April 2026|April 2026 Anthropic deal]], lifts 500 MW of buildout off Alphabet's $180-190B FY26 [[Hyperscaler capex|capex line]], and competes with [[NVIDIA]] not just on chips but on the capital structure around chips — mirroring Nvidia's neo-cloud playbook with [[CoreWeave]], [[Nebius]], and [[Nscale]] on the TPU side. The Sloss hire is the functional-continuity signal: Google is sending the executive whose internal remit literally included "infrastructure capital structures" to run the externalised version.
+The structural read is that Google is externalising the *third-party* tranche of TPU demand into a [[Blackstone]]-controlled vehicle rather than absorbing it onto [[Google Cloud]]'s own balance sheet. That solves the [[Google Cloud]] vs [[Google DeepMind]] internal allocation tension surfaced after the April 2026 [[Anthropic hyperscaler financing surge April 2026]] deal, lifts 500 MW of buildout off Alphabet's $180-190B FY26 [[Hyperscaler capex|capex line]], and competes with [[NVIDIA]] not just on chips but on the capital structure around chips — mirroring Nvidia's neo-cloud playbook with [[CoreWeave]], [[Nebius]], and [[Nscale]] on the TPU side. The Sloss hire is the functional-continuity signal: Google is sending the executive whose internal remit literally included "infrastructure capital structures" to run the externalised version.
 
 GOOGL closed $396.78 on the announcement day — modestly positive, well inside the recent trading range. The market did not reprice the AI complex on the news, consistent with the deal being incremental to the [[Google TPU Competitive Position|TPU shift]] already priced in after Cloud Next 2026.
 
@@ -95,6 +96,20 @@ Stock closed Apr 29 at $349.94, ~flat on the day into the print; the after-hours
 
 ---
 
+## $80B equity raise for AI infrastructure (Jun 1, 2026)
+
+[[Alphabet]] announced plans to raise up to $80B in equity to fund the AI infrastructure buildout: a $15B Class A / Class C common-stock offering, $15B of depositary shares representing mandatory convertible preferred stock, a $40B at-the-market Class A / Class C program, and a $10B private placement to [[Berkshire Hathaway]]. FT frames it as Alphabet's first stock offering in more than two decades and one of the largest equity raises on record.
+
+The structural change is that Alphabet's AI funding stack now includes common equity, not just operating cash flow, buyback deferral, investment-grade debt, and off-balance-sheet / partner structures such as the [[Google-Blackstone TPU cloud venture 2026]]. FT reported Alphabet has reiterated up to $190B of 2026 capex and expects spending to increase significantly in 2027; it also reported $174B of operating cash flow over the past year, $85B of fresh debt, and more than $100B of total debt. The equity raise says capacity demand is still pulling forward, but the funding pressure has moved from "lower buybacks" into dilution.
+
+The [[SEC]] 424B5 supplements put the underwritten offerings and private placement proceeds toward general corporate purposes, including AI infrastructure and global compute capex, with part of the preferred/depositary-share proceeds funding capped call transactions. The $40B ATM program mainly supports a change in how Alphabet meets tax obligations tied to vesting employee equity awards. The Berkshire placement terms are 14,212,035 Class A shares at about $351.81 and 14,359,656 Class C shares at about $348.20.
+
+Market reaction was not fully verified at ingestion time: FT reported more than a 2% after-hours decline, but Jun 2 regular-session close was not available as of 12:31 ET. The event-level market-reaction status and follow-up live in [[Alphabet equity raise June 2026]] and [[Google securities note]].
+
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; [[Cleary Gottlieb]] (Jun 2 2026); Alphabet [[SEC]] 424B5 supplements, Jun 2 2026.*
+
+---
+
 ## Related
 
 - [[Google]] — core subsidiary
@@ -120,5 +135,10 @@ Stock closed Apr 29 at $349.94, ~flat on the day into the print; the after-hours
 - [[Trillium]] — TPU v6e silicon (Suncatcher compute substrate)
 - [[Space data centers]] — competitive landscape
 - [[Sundar Pichai]] — CEO; "new normal" orbital-DC framing
+- [[Alphabet equity raise June 2026]] — up to $80B AI-infrastructure equity raise
+- [[Berkshire Hathaway]] — $10B private-placement buyer
+- [[Google securities note]] — market-facing stock and dilution read-through
+- [[AI infrastructure financing]] — funding-structure taxonomy
+- [[AI infrastructure financing risk]] — dilution / funding-risk channel
 
 *Stub created 2026-03-24 · Updated 2026-05-13 (added Project Suncatcher / SpaceX launch talks)*

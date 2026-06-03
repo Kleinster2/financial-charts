@@ -27,6 +27,25 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 | [[Nebius]] capital markets stack | $700M strategic equity + ~$4.3375B convertibles | Listed neocloud financing | [[Accel]] / [[NVIDIA]] / [[Orbis Investments]] strategic equity; private convertible notes to qualified institutional buyers; [[Microsoft]] and [[Meta]] as demand anchors |
 | [[IREN]]-[[Dell]]-[[NVIDIA]] Childress | ~$1.6B purchase; $3.4B service contract; up to $2.1B NVIDIA investment right | Supplier order + customer offtake + strategic equity option | Dell supplies air-cooled Blackwell systems; NVIDIA is managed-cloud customer and potential equity investor; IREN guarantees purchase obligations |
 | [[Google Cloud]] / [[AdaniConneX]] / [[Nxtra]] Vizag | $15B over 2026-2030 | Hyperscaler + local infrastructure partners | Google anchor; AdaniConneX and Nxtra build/operate data-center and connectivity layer; gigawatt-scale hub |
+| [[Alphabet equity raise June 2026]] | Up to $80B | Hyperscaler equity issuance | $15B common stock; $15B mandatory-convertible preferred/depositary shares; $40B ATM program; $10B [[Berkshire Hathaway]] private placement |
+
+---
+
+## Alphabet equity raise (Jun 2026)
+
+The Alphabet raise is not a site-level data-center deal, but it belongs in the capital-stack ledger because it funds the AI infrastructure buildout at the parent-company equity layer. It is the first large example in this vault of a Mag 7 hyperscaler using a stock offering as a direct AI-capex funding instrument.
+
+| Component | Amount | Financing read |
+|---|---:|---|
+| Common-stock offering | $15B | Class A / Class C public equity funding |
+| Mandatory-convertible preferred / depositary shares | $15B | Equity-linked funding with capped call transactions |
+| At-the-market program | Up to $40B | Class A / Class C sales from time to time, mainly for employee-equity tax-obligation mechanics |
+| [[Berkshire Hathaway]] private placement | $10B | Strategic validation from [[Greg Abel]] and a negotiated anchor buyer |
+| Total | Up to $80B | Equity funding layered on top of prior operating cash flow, debt, leases, and partner vehicles |
+
+No new power plant, [[Power purchase agreement]], utility interconnection, grid region, or site-level capacity was disclosed in the FT report. Treat the event as a funding-stack update to [[AI infrastructure financing]] and [[Hyperscaler capex]], not as new deliverable MW.
+
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026.*
 
 ---
 

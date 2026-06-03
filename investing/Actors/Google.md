@@ -5,7 +5,7 @@ aliases: [GOOGL, GOOG, Google DeepMind, DeepMind, Alphabet]
 
 Google (Alphabet) — Tier 1 AI hyperscaler. DeepMind/Gemini, TPU pioneer, Anthropic investor, [[Broadcom]] disintermediation in progress.
 
-Most vertically integrated AI hyperscaler: owns DeepMind ([[Gemini]]), designs custom TPUs, runs GCP (#3 cloud), and has invested $13B in Anthropic upfront and committed up to $43B including milestones. AI capex was $91B in 2025 with $180-190B guided for 2026 — the largest infrastructure commitment of any hyperscaler. Google I/O 2026 made the product strategy explicit: Gemini is being turned from a model family into an agentic layer across Search, Workspace, YouTube, Android, Cloud, and developer tools. Controlled by co-founders Larry Page and Sergey Brin (majority voting power). Led by Sundar Pichai with new CFO Anat Ashkenazi (from Eli Lilly, Jul 2024). Broadcom disintermediation in progress as Google brings more silicon design in-house. The bull case: search moat + YouTube + Cloud + DeepMind AI lab is the deepest tech stack in the industry, and advertising revenue funds AI investment without dilution. The bear case: antitrust risk (DOJ cases on search and ad tech), AI search disruption could cannibalize core ad revenue, and GCP remains distant #3 behind AWS and Azure.
+Most vertically integrated AI hyperscaler: owns DeepMind ([[Gemini]]), designs custom TPUs, runs GCP (#3 cloud), and has invested $13B in Anthropic upfront and committed up to $43B including milestones. AI capex was $91B in 2025 with $180-190B guided for 2026 — the largest infrastructure commitment of any hyperscaler. Google I/O 2026 made the product strategy explicit: Gemini is being turned from a model family into an agentic layer across Search, Workspace, YouTube, Android, Cloud, and developer tools. Controlled by co-founders Larry Page and Sergey Brin (majority voting power). Led by Sundar Pichai with new CFO Anat Ashkenazi (from Eli Lilly, Jul 2024). Broadcom disintermediation in progress as Google brings more silicon design in-house. The bull case: search moat + YouTube + Cloud + DeepMind AI lab is the deepest tech stack in the industry, and Google Cloud demand is capacity constrained. The bear case: antitrust risk (DOJ cases on search and ad tech), AI search disruption could cannibalize core ad revenue, GCP remains distant #3 behind AWS and Azure, and the June 2026 equity raise means the AI buildout now has dilution risk rather than being purely self-funded.
 
 ---
 
@@ -58,6 +58,7 @@ Google is the most vertically integrated AI hyperscaler:
 | Metric | Value |
 |--------|-------|
 | AI capex | $91B (2025), $180-190B guided (2026) |
+| AI financing | Feb 2026 bond sale plus Jun 2026 up-to-$80B equity raise |
 | AI lab | DeepMind (Gemini) |
 | Custom silicon | TPU (8 generations disclosed through TPU 8t / 8i) |
 | Cloud | GCP (\#3 behind AWS, Azure) |
@@ -165,6 +166,16 @@ Order book >$100B at peak. USD tranche upsized from initial $15B plan. 100-year 
 Funding the $185B AI capex for 2026. Long-term debt quadrupled in 2025 to $46.5B. Alphabet acknowledged potential "excess capacity" risk from AI investments in bond disclosures.
 
 Context: [[Oracle]] raised $25B last week. [[Meta]] preparing large debt offering. Morgan Stanley estimates tech hyperscalers will borrow ~$400B in 2026 (2x 2025's $165B).
+
+### Up to $80B equity raise (Jun 1, 2026)
+
+[[Alphabet]]'s Jun 1 equity plan turns Google's AI funding story from self-funding-plus-debt into explicit equity issuance. The package is up to $80B: a $15B Class A / Class C common-stock offering, $15B of depositary shares representing mandatory convertible preferred stock, a $40B at-the-market Class A / Class C program, and a $10B private placement to [[Berkshire Hathaway]].
+
+The read-through for [[Google]] is not that AI demand weakened. It is the opposite: [[Google Cloud]] grew 63% year over year in Q1 2026, management reiterated up to $190B of 2026 capex, and FT reported that 2027 spending is expected to increase significantly. The change is funding mix. The ad engine and Q1 debt proceeds were not enough to keep the capex cycle off the equity line indefinitely, so the investment case now includes a share-count / dilution variable alongside the TPU and Cloud growth variables.
+
+See [[Alphabet equity raise June 2026]] for the event-level market-reaction status. Jun 2 regular-session close was not available as of 12:31 ET during ingestion, so the note records FT's after-hours decline as preliminary only.
+
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; [[Cleary Gottlieb]] (Jun 2 2026); Alphabet [[SEC]] 424B5 supplements, Jun 2 2026.*
 
 ---
 
@@ -622,6 +633,7 @@ See [[Short interest]] for interpretation framework.
 | Foundry | [[TSMC]] (via Broadcom) |
 | Anthropic stake | $13B invested; up to $43B committed including milestones |
 | Long-term debt | $46.5B book (Dec 2025). See [[Alphabet bonds]] |
+| Jun 2026 equity raise | Up to $80B for AI infrastructure funding |
 | Short interest | 1.12% (Jan 2026) |
 
 *Updated 2026-05-19 — Google I/O 2026 / Gemini 3.5 reset*
@@ -630,7 +642,7 @@ See [[Short interest]] for interpretation framework.
 
 ![[goog-fundamentals.png]]
 
-*Notable: $175-185B 2026 capex guidance nearly doubles 2025 spend. Market selling the beat on capex concerns — same pattern as every hyperscaler this cycle.*
+*Notable: $180-190B 2026 capex guidance roughly doubles 2025 spend. Market selling the beat on capex concerns — same pattern as every hyperscaler this cycle.*
 
 ---
 
@@ -657,7 +669,7 @@ GOOG +4% (Feb 21) on convergence of tailwinds:
 2. "Photoshoot" AI ad feature — Google quietly updated its AI ad platform to automate high-end ad campaigns. Gene Munster ([[Deepwater Asset Management]]): incremental AI product improvements are the real stock driver
 3. TPU pricing advantage crystallized — [[Broadcom]] disclosed [[Anthropic]] bought $21B in TPUs, undercutting [[NVIDIA]] on price. Independent TPU sales growing
 4. [[FluidStack]] investment — WSJ reported Google looking to invest $100M into [[FluidStack]] to push TPUs into "neo cloud" ecosystem
-5. GPU financing headwinds — [[Blue Owl]] lenders balked at $4B [[CoreWeave]] data center financing, creating problems for the NVIDIA GPU complex while Google self-finances
+5. GPU financing headwinds — [[Blue Owl]] lenders balked at $4B [[CoreWeave]] data center financing, creating problems for the NVIDIA GPU complex while Google initially funded through cash flow and debt; the Jun 2026 equity raise later made the funding pressure explicit
 
 Analysts see Google at "pole position" in commercializing AI — spending as aggressively as any Mag 7 name but with better perceived ROI.
 
@@ -703,6 +715,7 @@ Analysts see Google at "pole position" in commercializing AI — spending as agg
 - [[Microsoft]] — hyperscaler competitor
 - [[Amazon]] — hyperscaler competitor
 - [[Meta]] — hyperscaler competitor
+- [[Berkshire Hathaway]] — $10B private-placement buyer in the Jun 2026 equity raise
 - [[OpenAI]] — AI lab competitor
 - [[AI hyperscalers]] — peer category
 - [[Waymo]] — subsidiary (autonomous driving)
@@ -715,6 +728,9 @@ Analysts see Google at "pole position" in commercializing AI — spending as agg
 - [[Tax Cuts and Jobs Act]] — ~$50B repatriation (2018)
 - [[Hyperscaler chip roadmap]] — TPU generational roadmap, custom silicon competition
 - [[Alphabet bonds]] — full bond inventory (6 issuances, 30+ tranches, spreads, embedded options)
+- [[Alphabet equity raise June 2026]] — AI capex equity funding event
+- [[AI infrastructure financing]] — capital-stack context for the Jun 2026 raise
+- [[AI infrastructure financing risk]] — dilution and balance-sheet risk channel
 - [[Century Bond]] — 100-year sterling bond (Feb 2026), first tech century bond since Motorola 1997
 - [[Michael Burry]] — warned Alphabet century bond mirrors Motorola's 1997 decline
 - [[Morgan Stanley]] — estimates $400B hyperscaler issuance in 2026

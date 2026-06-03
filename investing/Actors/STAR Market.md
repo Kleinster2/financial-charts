@@ -33,9 +33,10 @@ Target sectors: AI, semiconductors, new materials, new energy, biomedicine, high
 
 ## Notable upcoming listings
 
-| Company | Sector | Target valuation |
+| Company | Sector | Status / signal |
 |---------|--------|-----------------|
-| [[Unitree]] | Humanoid robotics | ~$7B (mid-2026) |
+| [[MiniMax]] | AI foundation models | Proposed RMB-share issue and STAR Market listing announced May 31, 2026; no application / approval yet |
+| [[Unitree]] | Humanoid robotics | ~$7B target valuation (mid-2026) |
 | [[Cambricon Technologies]] | AI chips | Already listed (688256.SS) |
 | [[AMEC]] | Semiconductor equipment | Already listed (688012.SS) |
 
@@ -45,6 +46,7 @@ Target sectors: AI, semiconductors, new materials, new energy, biomedicine, high
 
 - [[China]] — government-backed exchange
 - [[Hong Kong]] — alternative listing venue (HKEX)
+- [[MiniMax]] — HK-listed AI lab exploring RMB-share route
 - [[Unitree]] — upcoming IPO (mid-2026)
 - [[CITIC Securities]] — top underwriter by revenue
 - [[Xi Jinping]] — announced creation (Nov 2018)

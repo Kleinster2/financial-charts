@@ -819,6 +819,23 @@ Market positioning (Dec 2025):
 
 ---
 
+## June 2026: RTX Spark pushes CUDA/RTX into Windows AI PCs
+
+[[NVIDIA]] and [[Microsoft]] announced [[NVIDIA RTX Spark]] at [[GTC]] Taipei / [[Computex 2026]] as a Windows AI PC superchip for local personal agents, creators, developers, and gaming. The product note carries the specs; the actor-level read-through is strategic: NVIDIA is trying to make the premium PC a local endpoint for CUDA, RTX, TensorRT, and Blackwell rather than leaving agentic workloads as a cloud-only service.
+
+| Layer | Update | Read-through |
+|---|---|---|
+| Silicon | [[Blackwell]] RTX GPU, 20-core Grace CPU, up to 1 petaflop AI compute, and up to 128GB unified memory. | NVIDIA is importing its data-center unified-memory / accelerator logic into client devices. |
+| Platform | [[Windows]] agent runtime, [[Microsoft]] security primitives, and NVIDIA OpenShell. | The AI PC thesis needs operating-system containment and policy controls before agents can run on primary devices. |
+| Ecosystem | Initial systems expected from [[Microsoft]], [[Asustek]], [[Dell]], [[HP]], [[Lenovo]], and [[MSI]] in fall 2026. | NVIDIA is leaning on the PC OEM channel rather than building a standalone consumer hardware stack. |
+| Software | [[Adobe]] and other creator/developer apps are optimizing for RTX Spark. | The launch only matters commercially if native workloads use the local GPU and unified memory. |
+
+Investment read: this is NVIDIA's PC-side platform defense. The data-center bull case says NVIDIA owns the AI factory; RTX Spark says the local agent PC should also be an NVIDIA system. The upside is a premium AI PC replacement cycle and a tighter CUDA/RTX bridge between cloud and edge. The risk is that "personal agents" stay mostly cloud-routed, leaving RTX Spark as a high-end creator/developer SKU rather than a mass PC architecture shift.
+
+*Sources: [NVIDIA press release](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Microsoft-Reinvent-Windows-PCs-for-the-Age-of-Personal-AI/default.aspx), June 1, 2026; [Microsoft Windows Blog](https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/), May 31, 2026.*
+
+---
+
 ## Q1 FY2027 earnings (May 20, 2026)
 
 Q1 FY27 was a clean demand confirmation and a messier GAAP quality print. Revenue was $81.6B (+85% Y/Y, +20% Q/Q), above the prior $78B guide. Data Center was $75.2B (+92% Y/Y), with hyperscale still about half of Data Center revenue and the other half now explicitly framed as AI Clouds, Industrial, and Enterprise (ACIE). Q2 guide stepped to $91.0B +/-2%, and management said the outlook assumes no Data Center compute revenue from [[China]].
