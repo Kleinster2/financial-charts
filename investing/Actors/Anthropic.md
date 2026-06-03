@@ -116,6 +116,14 @@ The most concrete new datapoint is buyer-side concentration with [[SpaceX]]: FT 
 
 *Sources: [[Aurelion Research]], "Special Article: SpaceX, OpenAI, and Anthropic IPOs," May 26 2026: https://read.aurelionresearch.com/p/special-article-spacex-openai-and; Anthropic official Series H release, May 28 2026: https://www.anthropic.com/news/series-h.*
 
+### IPO filing — confidential draft S-1 (June 1 2026)
+
+Anthropic confidentially filed a draft registration statement on Form S-1 with the [[SEC]] on June 1, 2026, formally beginning the listing process. Investors anticipate a valuation above $1tn, though no share count or price range is set. Anthropic's statement: the filing "gives us the option to go public after the SEC completes its review," with the offering depending on "market conditions and other factors." A debut could follow within a few months of review. The move puts Anthropic ahead of [[OpenAI]] (readying its own confidential filing) and behind [[SpaceX]] in the trophy-issuer queue. The May 28 $65B Series H at $965B post-money is, per multiple investors, likely the last private round.
+
+The filing rides the run-rate arc: annualized revenue rose fivefold since the start of 2026 to pass $47bn last month (up from ~$10bn of annual revenue last year), and the private valuation has risen more than 15-fold in 15 months from the ~$60bn March 2025 round. Coverage names [[Claude Code]] and the [[Claude Cowork]] agent as the enterprise traction drivers, with [[Claude Mythos|Mythos]] (rolling out to US allies including the EU) as the capability story. The standing underwriting tension is unchanged from the May stress test: the IPO is also a financing event against the [[Google]] / [[Broadcom]] / [[Amazon]] compute deals "potentially worth hundreds of billions" and the ~$15B/year [[SpaceX]] data-center leases. Full event detail, the three-issuer absorption frame, and the watch list live in [[Anthropic IPO 2026]].
+
+*Sources: [[Financial Times|FT]] (George Hammond), June 1 2026: https://www.ft.com/content/4f82f41c-24e7-4323-899a-17a04badd29e; corroborated by CNBC, TechCrunch, NPR, Fox Business. Supersedes the March 2026 "[[Anthropic#Q4 2026 IPO discussion (March 2026)|Q4 2026 IPO discussion]]" framing below.*
+
 ---
 
 ## Funding rounds

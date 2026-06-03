@@ -5,7 +5,7 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 # 2026 IPO pipeline
 
-2026 expected to be strongest IPO year since 2021. Renaissance Capital estimates 200-230 US IPOs raising $40-60B, but the real swing factor is now the trophy-private-company supply shock. Mega-deals dominate: [[SpaceX]] filed its public S-1 on May 20, 2026, with press reporting up to a $75B raise and a >$2T target valuation even though the preliminary prospectus still leaves price, share count, and net proceeds blank. [[OpenAI]] and [[Anthropic]] are close enough behind that 2026 may become a direct test of how much AI / space scarcity public markets can absorb at once.
+2026 expected to be strongest IPO year since 2021. Renaissance Capital estimates 200-230 US IPOs raising $40-60B, but the real swing factor is now the trophy-private-company supply shock. Mega-deals dominate: [[SpaceX]] filed its public S-1 on May 20, 2026, with press reporting up to a $75B raise and a >$2T target valuation even though the preliminary prospectus still leaves price, share count, and net proceeds blank. [[Anthropic]] followed with a confidential draft S-1 on June 1, 2026 (see [[Anthropic IPO 2026]]; valuation anticipated above $1tn), and [[OpenAI]] is preparing its own confidential filing imminently — making 2026 a direct test of how much AI / space scarcity public markets can absorb at once.
 
 ---
 
@@ -51,7 +51,7 @@ Source: Renaissance Capital 2025 US IPO market review and the live 2026 pipeline
 |---------|--------|----------------|--------|
 | **[[SpaceX]]** | [[Space]] / [[Starlink]] / AI infrastructure | >$2T reported target | Public S-1 filed May 20; `SPCX` on [[Nasdaq]]; final price/share count still blank |
 | [[Databricks]] | Data/AI | $134B | Early 2026 target |
-| [[Anthropic]] | AI | $965B post-money Series H (May 28 2026 official) | Wilson Sonsini engaged; May 14 $30B / $900B report was superseded by the May 28 $65B Series H close led by [[Altimeter Capital]], [[Dragoneer]], [[Greenoaks]], and [[Sequoia Capital]]; run-rate revenue crossed $47B earlier in May |
+| [[Anthropic]] | AI | $965B post-money Series H (May 28 2026 official); >$1tn anticipated at IPO | Confidential draft S-1 filed June 1 2026 (see [[Anthropic IPO 2026]]); May 14 $30B / $900B report was superseded by the May 28 $65B Series H close led by [[Altimeter Capital]], [[Dragoneer]], [[Greenoaks]], and [[Sequoia Capital]]; run-rate revenue crossed $47B earlier in May; likely last private round |
 | [[OpenAI]] | AI | $852B recent private mark | Accelerated IPO-timetable leaks after the $122B 2026 round; FT May 23 says the company booked almost $6B revenue last quarter but still expects roughly $600B of burn before 2030 profitability |
 | [[Revolut]] | [[Fintech]] | $75B | [[UK]] neobank |
 | [[Jio Platforms]] | [[Telecom]] | $100B+ | [[India]] mega IPO |
@@ -124,6 +124,12 @@ The broader read-through is that the 2026 pipeline is not only reopening the pub
 The resulting pipeline view is sharper: SpaceX sets the supply tone, OpenAI tests public tolerance for AI-lab burn, and Anthropic tests whether a more efficient lab can still be attractive once the private market has already re-rated it to near-trillion-dollar status. If the first deal trades well, the entire sequence can pull capital out of semi proxies and into direct AI / space issuers. If it trades poorly, the same sequence becomes a public-market referendum on private AI marks.
 
 *Sources: [[Aurelion Research]], "Special Article: SpaceX, OpenAI, and Anthropic IPOs," May 26 2026: https://read.aurelionresearch.com/p/special-article-spacex-openai-and; Anthropic official Series H release, May 28 2026: https://www.anthropic.com/news/series-h.*
+
+## June 1 — Anthropic confidential S-1 filing
+
+[[Anthropic]] confidentially filed a draft registration statement on Form S-1 with the [[SEC]] on June 1, 2026, four days after closing the $65B Series H. That makes it the second trophy issuer to formally enter the queue after [[SpaceX]] and puts it ahead of [[OpenAI]], which the [[Financial Times]] says is preparing its own confidential filing imminently. Investors anticipate a valuation above $1tn; no share count or price range is set, and a debut could follow within a few months of SEC review. Multiple investors describe the Series H as Anthropic's likely last private round, which is the cleaner signal for the pipeline: the absorption test is no longer hypothetical sequencing but two confirmed confidential filings (SpaceX public, Anthropic confidential) with OpenAI's filing pending. Full event detail and watch list in [[Anthropic IPO 2026]].
+
+*Source: [[Financial Times|FT]] (George Hammond), June 1 2026: https://www.ft.com/content/4f82f41c-24e7-4323-899a-17a04badd29e; corroborated by CNBC, TechCrunch, NPR, Fox Business.*
 
 ## AI / Tech
 
