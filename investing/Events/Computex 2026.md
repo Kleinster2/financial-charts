@@ -36,6 +36,7 @@ aliases:
 | [[Intel]] inference stack | Intel used the Computex window to frame its AI portfolio around Xeon 6+, AI PCs, software, and partner rack systems with [[Foxconn]], [[SambaNova]], [[Vista Equity Partners]], and [[Perplexity]]. | Intel is trying to make the AI story broader than GPUs: CPU-heavy inference, enterprise deployment, and software partnerships. |
 | [[Intel]] Crescent Island | The Crescent Island inference GPU became the concrete accelerator hook: Xe3P architecture, LPDDR5X memory, air-cooled deployment, and customer sampling targeted for the second half of 2026. | This is the [[NVIDIA alternatives]] lane: cheaper inference hardware that avoids [[HBM]] and liquid-cooling constraints rather than fighting [[NVIDIA]] for frontier training. |
 | [[NVIDIA]] / [[GTC]] Taipei | [[Jensen Huang]] used GTC Taipei at Computex to keep NVIDIA's message centered on full-stack AI infrastructure, developer ecosystem, physical AI, and Taiwan supply-chain depth. | NVIDIA is defending the platform layer, not just the accelerator socket: GPUs, networking, systems, software, factories, and partners. |
+| [[Marvell]] / NVIDIA endorsement | Huang called Marvell the next "trillion-dollar company" while appearing with CEO Matt Murphy, extending the March [[NVIDIA]] investment / [[NVLink]] Fusion partnership into an explicit public endorsement. | Computex did not only showcase NVIDIA's own stack; it also anointed selected connective-tissue suppliers for custom XPUs, optical interconnect, and AI data-center networking. |
 | [[NVIDIA RTX Spark]] | [[NVIDIA]] and [[Microsoft]] announced a [[Windows]] AI PC superchip with a [[Blackwell]] RTX GPU, 20-core Grace CPU, up to 128GB unified memory, and up to 1 petaflop of AI compute for local agents, creator work, development, and gaming. Initial systems are expected from [[Microsoft]], [[Asustek]], [[Dell]], [[HP]], [[Lenovo]], and [[MSI]] in fall 2026. | This is the PC-side version of NVIDIA's platform defense: make CUDA/RTX and Windows agents a local endpoint, not only a cloud service. |
 | Taiwan systems layer | The event reinforces [[Taiwan]] as more than [[TSMC]] wafers: ODMs, board makers, thermal/power vendors, foundry capacity, and AI-server assembly all converge at Computex. | The AI buildout bottleneck is increasingly system-level. The investable question is who turns chips into deployable racks, PCs, and edge devices. |
 | Physical and edge AI | Robotics, mobility, AI PCs, and edge inference were official show pillars rather than side demos. | The post-training phase of AI infrastructure shows up as devices and robots that need local inference, power efficiency, and deployment into existing physical environments. |
@@ -49,6 +50,8 @@ Computex 2026 is useful because it turns the abstract "AI hardware stack" into a
 That makes [[Intel]]'s Crescent Island update important even if it is not a direct [[Blackwell]] rival. The bet is that inference becomes large and cost-sensitive enough for buyers to accept lower bandwidth and a weaker software ecosystem in exchange for cheaper, easier-to-deploy capacity. The risk is that [[CUDA moat|CUDA]] and NVIDIA's system-level lead keep the low-cost lane narrow.
 
 For [[NVIDIA]], the event is the opposite message: if the market is moving from chips to systems, NVIDIA wants to own the system definition too. GTC Taipei at Computex is therefore not just a local keynote; it is a defense of the full-stack AI factory model in the middle of the supplier base that builds it.
+
+The [[Marvell]] endorsement is the supplier-selection version of that same message. NVIDIA can tolerate custom silicon when the custom XPU still attaches to NVIDIA networking, CPUs, interconnect standards, and system architecture. That is why Marvell's Computex signal belongs with the event rather than only in the company note: it shows NVIDIA defining which third-party alternatives are complementary to its platform instead of purely competitive.
 
 [[NVIDIA RTX Spark]] makes the client-device side of that defense explicit. NVIDIA is not only arguing that the data center should be an AI factory; it is also arguing that the premium PC should become a local agent endpoint with CUDA/RTX, large unified memory, and Windows security primitives. That pulls [[Microsoft]] and the PC OEM channel directly into the same post-training bottleneck story.
 
@@ -76,6 +79,7 @@ For [[NVIDIA]], the event is the opposite message: if the market is moving from 
 - [Intel - Crescent Island AI accelerator portfolio announcement](https://newsroom.intel.com/artificial-intelligence/intel-to-expand-ai-accelerator-portfolio-with-new-gpu)
 - [NVIDIA - NVIDIA and Microsoft Reinvent Windows PCs for the Age of Personal AI](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Microsoft-Reinvent-Windows-PCs-for-the-Age-of-Personal-AI/default.aspx)
 - [Microsoft Windows Blog - Introducing a powerful new chapter for Windows PCs, accelerated by NVIDIA RTX Spark](https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/)
+- [[Reuters]] via Investing.com, "Marvell shares touch record high after Nvidia's Huang calls it 'next trillion-dollar company'" (June 2 2026)
 - [[Financial Times]], "Intel targets new AI data centre chip by year end" (Michael Acton, June 1 2026)
 
 ---
@@ -87,6 +91,7 @@ For [[NVIDIA]], the event is the opposite message: if the market is moving from 
 - [[GTC]] - NVIDIA's recurring developer and AI infrastructure event
 - [[Intel]] - Crescent Island and AI-inference strategy
 - [[NVIDIA]] - full-stack AI infrastructure platform
+- [[Marvell]] - NVIDIA-endorsed custom XPU / optical interconnect supplier
 - [[NVIDIA RTX Spark]] - Windows AI PC superchip launched during GTC Taipei / Computex
 - [[Taiwan]] - AI hardware supply-chain geography
 - [[Inference economics]] - demand-side reason cheaper accelerator lanes can matter

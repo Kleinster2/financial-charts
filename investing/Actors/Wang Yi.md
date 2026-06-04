@@ -32,6 +32,12 @@ On May 26 2026, Wang chaired a UN Security Council high-level meeting convened u
 
 The market signal is China's order strategy. Wang's speech framed the UN Charter around sovereign equality, non-interference, opposition to unilateral military action, opposition to sanctions beyond Security Council resolutions, more developing-country representation at the [[IMF]] and World Bank, and UN-centered rules for AI, outer space, polar regions, and cyberspace. That is not a withdrawal from institutions; it is a bid to use institutions as the venue for contesting Western "rules-based order" language.
 
+## June 2026 - China-UK Strategic Dialogue
+
+On June 2, 2026, Wang held the 11th China-UK Strategic Dialogue in Beijing with UK Foreign Secretary [[Yvette Cooper]], following Cooper's June 1-3 China visit. The official Chinese readout framed UK-China ties as returning to a normal track after [[Keir Starmer]]'s January 2026 China visit and called for more high-level exchanges, practical results, and alignment between China's 15th Five-Year Plan and the UK's modern industrial strategy.
+
+The investable sentence is Wang's request that the UK give Chinese enterprises a fair, just, non-discriminatory business environment and keep national-security boundaries reasonable. That lands directly on the UK screening problem visible in [[Ming Yang Smart Energy]]: London wants trade, finance, energy, AI, and climate cooperation, but it is still reserving veto power over Chinese infrastructure exposure.
+
 ## Related
 
 - [[China]] - sovereign policy context
@@ -39,6 +45,8 @@ The market signal is China's order strategy. Wang's speech framed the UN Charter
 - [[US-China security]] - Taiwan, sanctions, and military-risk channel
 - [[Qin Gang]] - predecessor and purge/governance-risk reference
 - [[Sinocism]] - May 2026 source that surfaced the UN speech in the newsletter queue
+- [[Yvette Cooper]] - UK counterpart at the June 2026 Strategic Dialogue
+- [[Ming Yang Smart Energy]] - UK security-screening case tied to Wang's business-environment language
 
 ## Sources
 
@@ -46,3 +54,5 @@ The market signal is China's order strategy. Wang's speech framed the UN Charter
 - Ministry of Foreign Affairs of the People's Republic of China, [Wang Yi Chairs United Nations Security Council High-Level Meeting](https://www.fmprc.gov.cn/eng/wjbzhd/202605/t20260528_11919478.html), May 27 2026.
 - Ministry of Foreign Affairs of the People's Republic of China, [Remarks by H.E. Wang Yi at the United Nations Security Council High-Level Meeting](https://www.fmprc.gov.cn/mfa_eng/wjbzhd/202605/t20260527_11918935.html), May 27 2026.
 - Bill Bishop / Sinocism, [Wang Yi at the UN; American Xinhua "journalist" arrested; Keeping AI talent at home; Recalculating carbon intensity; Another WMP blowup](https://sinocism.com/p/wang-yi-at-the-un-american-xinhua), May 26 2026. Public preview only.
+- Ministry of Foreign Affairs of the People's Republic of China, [UK Foreign Secretary Yvette Cooper to Visit China and Hold the 11th China-UK Strategic Dialogue](https://www.mfa.gov.cn/eng/xw/wsrc/202605/t20260531_11921896.html), May 31 2026.
+- Xinhua, [China hopes for sound atmosphere to boost China-UK ties, deepen cooperation: Chinese FM](https://english.news.cn/20260602/fcfcd32a4efe471896d0104543b7140f/c.html), June 2 2026.

@@ -283,6 +283,16 @@ Strategic context: this is NVIDIA's response to the custom silicon trend ([[Broa
 
 ---
 
+## Jensen Huang "next trillion-dollar company" endorsement (June 2026)
+
+At [[Computex 2026]] in Taipei on June 2, 2026, [[Jensen Huang]] publicly called Marvell the next "trillion-dollar company" while appearing with CEO Matt Murphy. The importance is not the literal valuation target; it is NVIDIA's CEO turning Marvell from a behind-the-scenes custom-silicon and optical-interconnect supplier into a named beneficiary of the AI-factory buildout. Reuters reported that the comment pushed MRVL to a record high intraday, but the vault should wait for refreshed local closing data before recording a verified daily price move.
+
+The signal extends the March [[NVIDIA]] investment section above: NVIDIA is not just permitting hyperscaler custom silicon around the GPU platform; it is actively endorsing Marvell as one of the preferred connective-tissue suppliers for custom XPUs, [[NVLink]] Fusion, optical interconnect, and AI data-center networking. That makes Marvell a stronger read-through for [[Connectivity]], [[Co-Packaged Optics]], and the [[AI capex chain basket]] than for generic semiconductor cyclicality.
+
+*Sources: [[Reuters]] via Investing.com, June 2 2026; Axios, June 3 2026.*
+
+---
+
 ## Related
 
 ### Securities

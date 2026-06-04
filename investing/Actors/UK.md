@@ -43,7 +43,7 @@ Major UK stocks trade as ADRs: BP, HSBC, GSK, AZN, RIO, SHEL
 | Lloyd's | [[Insurance]] market |
 | LSE Group | Exchanges, data |
 
-**Post-Brexit:** Lost some [[EU]] passporting, but remains major center.
+Post-Brexit: Lost some [[EU]] passporting, but remains major center.
 
 ### [[Semiconductors]] / Tech IP
 
@@ -53,7 +53,7 @@ Major UK stocks trade as ADRs: BP, HSBC, GSK, AZN, RIO, SHEL
 | Imagination Tech | GPU IP |
 | [[Graphcore]] | AI accelerators |
 
-**Arm** is UK's tech crown jewel — ~$150B market cap.
+Arm is UK's tech crown jewel — ~$150B market cap.
 
 ### Pharma / [[Life Sciences]]
 
@@ -91,7 +91,19 @@ Major UK stocks trade as ADRs: BP, HSBC, GSK, AZN, RIO, SHEL
 | Immigration | Points-based system |
 | Tech/[[AI regulation]] | Lighter than [[EU]] |
 
-**Opportunity:** Positioning as AI-friendly jurisdiction vs [[EU]] regulation.
+Opportunity: Positioning as AI-friendly jurisdiction vs [[EU]] regulation.
+
+### China reset under security constraints (June 2026)
+
+Foreign Secretary [[Yvette Cooper]]'s June 1-3, 2026 China visit is the first clean post-Starmer test of the UK-China reset as an investable channel rather than a slogan. Cooper held the 11th China-UK Strategic Dialogue with [[Wang Yi]] in Beijing on June 2, met [[Han Zheng]], and then travelled to [[Shenzhen]] for a science-and-technology program. Reuters framed the China-India trip around global challenges including the [[Strait of Hormuz]], the Russia-Ukraine war, and Ebola; the Chinese readout emphasized trade, finance, energy, AI, climate, and institutional dialogue.
+
+The policy signal is dual-track. London wants commercial access, AI/tech dialogue, and crisis-management channels with the world's second-largest economy. Beijing wants a fair, non-discriminatory operating environment for Chinese enterprises and narrower national-security screens. The market expression is not a broad reopening to Chinese infrastructure names. It is case-by-case permission: [[Ming Yang Smart Energy]] remains the counterexample where UK offshore wind cost savings collided with national-security veto power.
+
+### BoE credibility channel (June 2026)
+
+The central-bank side of UK macro risk is now cleaner: [[Bank of England]] Governor [[Andrew Bailey]] is defending the 2% CPI target while allowing a temporary energy-driven overshoot. The BoE's public Bank Rate page shows 3.75% as the current rate, with the next MPC decision due June 18. Bailey's May 29 Reykjavik speech framed the [[Operation Epic Fury|Iran conflict]] as a negative supply shock that monetary policy can partly look through; his June 2 House of Lords evidence, reported by [[Reuters]], rejected moving the target to 3%.
+
+The investor read is that UK asset risk is not only fiscal politics. The [[#Burnham challenge to Starmer and gilt repricing (FT May 15, 2026)|Burnham premium]] and gilt selloff sit on top of a monetary credibility problem: if public-sector pay, energy bills, or inflation expectations turn the Gulf shock into second-round pressure, the BoE cannot validate cuts even if growth is weak. The near-term UK macro test is therefore policy mix: can the government avoid making Bailey's second-round-effects problem harder?
 
 ---
 

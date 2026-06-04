@@ -216,7 +216,7 @@ At the WSJ CEO Council, [[Scott Bessent]] pushed back on assessments (the interv
 | Metric | Bessent claim |
 |---|---|
 | Current gap | "3 to 6 months ahead" |
-| Compounding advantage | [[Claude Mythos|Anthropic mythos model]] "a step function change" — learning is logarithmic, "x to the 10th to x to the 12th" hard to catch up |
+| Compounding advantage | [[Claude Mythos]] / Anthropic mythos model "a step function change" — learning is logarithmic, "x to the 10th to x to the 12th" hard to catch up |
 | US compute share (historical) | "We were in the 30s" |
 | US compute share (current) | "Now I think we're in the 50s" |
 | US compute share (projected) | 70-80% of global compute in "a few years" |
@@ -262,7 +262,17 @@ Investment implication: export controls remain necessary but no longer sufficien
 
 ---
 
-*Updated [[2026-05-28]]*
+## Chip controls move from geography to ownership (May 31, 2026)
+
+[[BIS]]'s May 31 guidance makes the compute layer of the [[US-China AI race]] more explicitly ownership-based. Advanced-computing exports remain license-controlled when the buyer is China/Macau-headquartered or ultimately China/Macau-parented, even if the immediate entity sits outside China. Reuters framed the target as Chinese firms using overseas subsidiaries to obtain top [[NVIDIA]] [[Blackwell]] processors.
+
+That matters because Chinese compute strategy increasingly sits outside the mainland border: overseas data centers, [[Southeast Asia]] cloud capacity, and corporate subsidiaries can all carry China-controlled demand. The US policy move is to treat that as part of the same race rather than as neutral third-country demand. The Chinese response space is also clear: more careful overseas structures where possible, more domestic [[Huawei]] / [[Ascend]] substitution where not, and more incentive to make Chinese models efficient enough to run under constrained frontier-chip access.
+
+*Sources: [BIS guidance, May 31 2026](https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf); [Reuters via Investing.com, May 31 2026](https://www.investing.com/news/stock-market-news/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china-4717939).*
+
+---
+
+*Updated [[2026-06-04]]*
 
 ---
 

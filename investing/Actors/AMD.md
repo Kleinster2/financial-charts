@@ -181,6 +181,16 @@ Stock hit after-hours ATH of $379.90. [[Morgan Stanley]] raised PT to $360 the n
 
 ---
 
+## China export-control exposure (June 2026)
+
+[[BIS]]'s May 31, 2026 overseas-subsidiary guidance applies to advanced-computing items broadly, not just to [[NVIDIA]]. For AMD, the clean read-through is that any China-linked [[Instinct]] optionality faces a tighter ownership and ultimate-parent test: a buyer outside mainland China can still trigger license requirements if it is headquartered in China / Macau or ultimately parented there.
+
+This does not change the Q1 2026 demand acceleration or the MI325/MI450 ramp thesis by itself. It does make the China access channel more compliance-heavy for AMD in the same way it does for NVIDIA: non-China geography is not enough if the demand is China-controlled demand. The relevant hub notes are [[Export controls]] and [[SEA chip diversion]].
+
+*Sources: [BIS guidance, May 31 2026](https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf); [Reuters via Investing.com, May 31 2026](https://www.investing.com/news/stock-market-news/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china-4717939).*
+
+---
+
 ## Q4 2025 earnings (Feb 3, 2026)
 
 Record quarter — beat expectations but guidance disappointed:

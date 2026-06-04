@@ -54,6 +54,18 @@ This is a better frame than "central banks lost." They lost the ability to offse
 
 ---
 
+## UK target-credibility test (May-Jun 2026)
+
+The [[Bank of England]] is the cleanest 2026 example of the "look through first-round energy, defend the second-round channel" problem. Governor [[Andrew Bailey]]'s May 29 Reykjavik speech argued that the [[Operation Epic Fury|Iran conflict]] is a negative supply shock for the UK: higher oil, gas, and utility costs can push CPI above target, while tighter monetary policy cannot reverse the physical energy shock. The policy job is to keep the shock from becoming embedded in wages, expectations, and broader price-setting.
+
+Bailey's June 2 House of Lords evidence added the target-credibility boundary. [[Reuters]] reported that he rejected a move from a 2% to 3% inflation target and said households needed confidence that the target is real. That matters for the general inflation note because it is the institutional version of the same commodity-shock reaction function above: central banks may look through direct energy effects, but they cannot look through a loss of credibility.
+
+Market implication: UK inflation risk is not simply "higher CPI equals higher rates." The tighter question is persistence. If inflation expectations soften and the pass-through stays energy-led, Bank Rate can remain at 3.75% while the BoE waits. If wages, administered pay, or pricing behavior validate the shock, the 2% anchor forces Bailey back toward tightening even with weak activity.
+
+Sources: Bank of England, "Monetary Policy in an unpredictable world", May 29 2026; UK Parliament, House of Lords Economic Affairs Committee evidence session, Jun 2 2026; [[Reuters]] via MarketScreener, "Bank of England's Bailey says public must be given confidence in 2% inflation target", Jun 2 2026.
+
+---
+
 ## Key measures
 
 | Measure | What it tracks | Fed preference |

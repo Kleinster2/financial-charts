@@ -150,6 +150,16 @@ Does SEA's legitimate AI compute demand justify $23B+ in chip imports? Or is sur
 
 ---
 
+## BIS ownership test (May 31, 2026)
+
+The May 31 [[BIS]] guidance changes the enforcement test from a simple destination screen toward an ownership and ultimate-parent screen. Advanced-computing items still require licenses when the buyer is headquartered in Country Group D:5 / Macau or has an ultimate parent headquartered there, even if the entity buying the chips is physically outside China.
+
+For this note, that is the direct pressure point. A Chinese AI company cannot make the problem disappear merely by routing procurement through a [[Malaysia]], [[Singapore]], or other [[Southeast Asia]] subsidiary. Reuters' read was that Washington was closing a potential route for overseas subsidiaries of Chinese firms to obtain [[NVIDIA]] [[Blackwell]]-class chips. That does not eliminate all leakage, and it does not force existing data centers to stop using or servicing already-installed advanced-computing items, but it makes the legal version of the SEA route much harder to scale.
+
+*Sources: [BIS guidance, May 31 2026](https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf); [Reuters via Investing.com, May 31 2026](https://www.investing.com/news/stock-market-news/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china-4717939).*
+
+---
+
 ## Implications
 
 **For [[NVIDIA]]:**
@@ -172,7 +182,7 @@ Does SEA's legitimate AI compute demand justify $23B+ in chip imports? Or is sur
 
 ---
 
-*Updated 2026-01-04*
+*Updated 2026-06-04*
 
 ---
 

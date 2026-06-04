@@ -16,7 +16,7 @@ aliases: [Bureau of Industry and Security, Commerce Department export controls]
 | License decisions | Approves/denies restricted sales |
 | Enforcement | Investigates violations |
 
-**Key lever:** BIS decides which chips [[NVIDIA]], [[AMD]], and equipment makers can sell to [[China]].
+Key lever: BIS decides which chips [[NVIDIA]], [[AMD]], and equipment makers can sell to [[China]].
 
 ---
 
@@ -29,14 +29,25 @@ aliases: [Bureau of Industry and Security, Commerce Department export controls]
 | 2022 | October 7 rules | Advanced AI chips banned to [[China]] |
 | 2023 | Updated controls | Closed loopholes, more restrictions |
 | 2024 | Further tightening | [[HBM]], equipment scope expanded |
+| May 31, 2026 | Overseas-subsidiary advanced-computing guidance | License-risk lens extends to China/Macau-headquartered buyers and ultimate parents outside China |
 
 See [[Export controls]] for full policy details.
 
 ---
 
+## May 2026 overseas-subsidiary guidance
+
+On May 31, 2026, BIS clarified that advanced-computing items still require licenses when exported to entities headquartered in Country Group D:5 / Macau or to entities whose ultimate parent company is headquartered there, even if the immediate buyer is located outside those destinations. Reuters read the guidance as a move to close a potential route for Chinese firms to obtain [[NVIDIA]] [[Blackwell]]-class chips through overseas subsidiaries.
+
+The important institutional signal is that BIS is enforcing by control and beneficial ownership, not only by shipment geography. That pulls the [[SEA chip diversion]] issue into the formal [[Export controls|export-control]] regime and raises the due-diligence burden across chip vendors, data-center operators, server integrators, and foundries.
+
+*Sources: [BIS guidance, May 31 2026](https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf); [Reuters via Investing.com, May 31 2026](https://www.investing.com/news/stock-market-news/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china-4717939).*
+
+---
+
 ## Entity List
 
-**Companies banned from US technology:**
+Companies banned from US technology:
 
 | Company | Status |
 |---------|--------|
@@ -46,7 +57,7 @@ See [[Export controls]] for full policy details.
 | Cambricon | Listed |
 | Many others | 600+ Chinese entities |
 
-**Effect:** Cannot buy US chips, software, equipment without license (usually denied).
+Effect: Cannot buy US chips, software, equipment without license (usually denied).
 
 ---
 
@@ -65,7 +76,7 @@ See [[Export controls]] for full policy details.
 
 | Agency | Focus |
 |--------|-------|
-| **BIS** | Technology/goods exports |
+| BIS | Technology/goods exports |
 | [[OFAC]] | Financial sanctions, asset freezes |
 
 BIS = what you can sell. OFAC = who you can transact with.

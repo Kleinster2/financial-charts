@@ -149,6 +149,16 @@ This is not evidence that delivery has happened; it is a market-implied probabil
 
 *Source: [[Kalshi]] API series KXH200CHINA, read May 19, 2026: https://external-api.kalshi.com/trade-api/v2/markets?limit=1000&series_ticker=KXH200CHINA*
 
+### May 31, 2026: BIS overseas-subsidiary guidance
+
+[[BIS]]'s May 31 guidance tightens the legal space between "direct [[China]] shipment" and "third-country demand." The agency clarified that advanced-computing items remain license-controlled for entities headquartered in Country Group D:5 / Macau, or whose ultimate parent company is headquartered there, even when the buying entity itself is outside those destinations. [[Reuters]] framed the target as Chinese firms using overseas subsidiaries, including in places such as [[Malaysia]], to obtain top [[NVIDIA]] [[Blackwell]]-class chips.
+
+The mechanism matters more than any single shipment. Controls are shifting from shipment geography to control: destination, end user, ultimate parent, and data-center purpose now all matter. That narrows the clean legal version of the [[SEA chip diversion]] workaround while raising compliance burden for [[NVIDIA]], [[AMD]], server integrators, cloud/data-center operators, and foundries such as [[TSMC]].
+
+The investment read-through is not that China demand disappears. It is that the path bifurcates: legal access becomes narrower and more license-heavy, gray-market risk rises, and Chinese buyers have a stronger incentive either to structure non-China compute footprints that survive BIS scrutiny or accelerate the domestic [[Huawei]] / [[Ascend]] substitution stack.
+
+*Sources: [BIS guidance, May 31 2026](https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf); [Reuters via Investing.com, May 31 2026](https://www.investing.com/news/stock-market-news/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china-4717939).*
+
 ByteDance's reported May 2026 custom-chip effort shows the demand-side adaptation. When US controls keep [[Blackwell]] out of China and restrict the frontier of NVIDIA supply, the largest Chinese AI platforms do not simply wait for domestic merchant chips; they try to design around the controlled layer. A training ASIC plus ReRAM inference chip would be a vertical response to export controls, not just a procurement workaround.
 
 ### Jan 14-15, 2026: Section 232 semiconductor tariff — new policy tool
@@ -437,6 +447,7 @@ The admission is significant: industry insiders publicly quantifying the gap at 
 - [ ] China 50% mandate enforcement strictness
 - [ ] Naura/AMEC capability progression
 - [ ] SEA diversion enforcement — Malaysia, Thailand, Indonesia scrutiny
+- [ ] BIS overseas-subsidiary guidance enforcement — buyer headquarters, ultimate parent, and data-center-use tests
 - [ ] NVIDIA geographic reporting — further methodology changes
 - [ ] Section 232 Jul 1 review — Commerce may modify tariff rate
 - [ ] Phase 3 legacy chips — Jun 2027 expansion to mature nodes

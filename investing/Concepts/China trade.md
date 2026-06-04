@@ -19,6 +19,7 @@ The vault already has several specific China-trade notes, but they were floating
 | [[United States]] | Decoupling, tariffs, export controls, commodity leverage | [[US-China trade]] |
 | [[Europe]] | De-risking without full decoupling | [[EU-China trade]] |
 | [[Africa]] | Export redirection, infrastructure-for-market-access, BRI | [[China-Africa trade]] |
+| [[UK]] | Post-Brexit commercial reset constrained by security screening | [[UK]] |
 
 ---
 
@@ -61,6 +62,24 @@ That matters for this hub because it shows a recurring feature of trade weaponiz
 The readthrough is not that tariffs no longer matter. It is that trade coercion without policy discipline degrades into noise, and noise still changes flows. Firms delay commitments, rerouting grows, and the bargaining position of both sides becomes shaped by administrative confusion as much as by headline tariff rates.
 
 *Sources: Reuters, "With tariffs stalled, Trump's China policy drifts" (Apr 21, 2026); Jared Bernstein, "Once Again, Consumers End Up Losing Out On Trump's Tariffs" (Apr 21, 2026).*
+
+---
+
+## UK reset under security screens (June 2026)
+
+The June 2026 [[Yvette Cooper]]-[[Wang Yi]] Strategic Dialogue adds the UK as a useful China-trade case: post-Brexit Britain wants trade, finance, energy, AI, climate, and crisis-management channels with [[China]], while still preserving national-security vetoes over Chinese infrastructure exposure. Wang's request for a fair, non-discriminatory environment for Chinese enterprises is the diplomatic version of a recurring company-level problem: [[Ming Yang Smart Energy]] offered cheaper UK offshore-wind hardware and a Scottish factory, but the UK blocked the exposure on security grounds.
+
+For this hub, the UK case is a smaller version of Europe's broader de-risking problem. China trade is not being unwound; it is being segmented into permitted commercial lanes and restricted strategic-infrastructure lanes.
+
+---
+
+## AI-chip rerouting enforcement (May 2026)
+
+The May 31 [[BIS]] advanced-computing guidance adds another version of the same segmentation logic. [[United States|Washington]] is not only asking where chips are shipped; it is asking who controls the buyer and ultimate parent. A Chinese AI firm with an overseas subsidiary is still China-linked demand if the entity is headquartered in China/Macau or ultimately parented there.
+
+For [[China trade]], this matters because rerouting is becoming part of the policy object itself. [[Southeast Asia]] can still be a real compute destination, but it cannot function as a clean legal wrapper for China-controlled access to [[NVIDIA]] [[Blackwell]]-class chips. The trade lane is no longer just country-to-country. It is geography plus ownership plus end use.
+
+*Sources: [BIS guidance, May 31 2026](https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf); [Reuters via Investing.com, May 31 2026](https://www.investing.com/news/stock-market-news/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china-4717939).*
 
 ---
 

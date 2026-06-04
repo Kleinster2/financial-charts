@@ -5,6 +5,8 @@ aliases: [BoE, BOE]
 
 **Bank of England** — UK central bank. Monetary policy, financial regulation, lender of last resort.
 
+The BoE is now a live test of commodity-shock central banking: Bank Rate sits at 3.75%, the next MPC decision is June 18, and Governor [[Andrew Bailey]] is trying to preserve the 2% CPI anchor while the [[Iran]]/Gulf energy shock pushes inflation back above target. The investable read is credibility rather than a simple hike/cut call: the Bank can look through first-round energy effects, but not second-round pressure in wages, expectations, or price-setting.
+
 ---
 
 ## Quick stats
@@ -12,27 +14,42 @@ aliases: [BoE, BOE]
 | Metric | Value |
 |--------|-------|
 | Founded | 1694 |
-| Governor | Andrew Bailey |
-| Base rate | 4.50% (as of Feb 2026) |
+| Governor | [[Andrew Bailey]] |
+| Base rate | 3.75% (as of Jun 2026; next decision Jun 18) |
+| Current CPI | 2.8% (Apr 2026; target 2%) |
 | Mandate | Price stability (2% CPI target), financial stability |
 
 ---
 
 ## Basel III / private credit
 
-Delayed part of its [[Basel III]] reforms to see how Washington would apply the Endgame rules. The lenient US outcome (Mar 2026) likely to intensify pressure from UK banks to ease their own requirements. Running first stress test of [[Private credit]] / private markets companies. Source: FT (Mar 12, 2026)
+Delayed part of its [[Basel III]] reforms to see how Washington would apply the Endgame rules. The lenient US outcome (Mar 2026) likely to intensify pressure from UK banks to ease their own requirements. Running first stress test of [[Private Credit]] / private markets companies. Source: FT (Mar 12, 2026)
 
 ---
 
 ## Iran war rate shift (Apr 2026)
 
-The [[Operation Epic Fury|Iran conflict]] oil shock has flipped UK rate expectations from easing to tightening. FT/FactSet futures curves (Apr 8, 2026) show two rate hikes now priced in from the current 4.50% — the sharpest divergence from pre-war expectations among the four major central banks tracked.
+The [[Operation Epic Fury|Iran conflict]] oil shock flipped [[UK]] rate expectations from easing to tightening in April. FT/[[FactSet]] futures curves (Apr 8, 2026) showed two rate hikes priced from the then-current 4.50% base rate - the sharpest divergence from pre-war expectations among the four major central banks tracked.
 
 Governor [[Andrew Bailey]] pushed back, saying "again last week that markets had gone too far" in pricing hikes (FT, Apr 8). But the market is not listening: the "today" futures curve sits at ~4.0-4.2% through 2028, well above start-of-year expectations of ~3.5% (which had priced in continued cuts).
 
 The BoE faces a tighter bind than the [[ECB]]: UK gas-fired plants set the electricity price ~2/3 of the time despite >50% of power from renewables and nuclear (see [[Iran conflict European impact]]). UK gas prices surged 50% in a single day on Mar 2. The transmission from energy to CPI is more direct and faster than in the Eurozone.
 
 [[Rick Rieder]] ([[BlackRock]], Apr 7) cited the BoE among central banks "all moving rates higher" — a claim the FT futures data supports despite Bailey's public resistance.
+
+---
+
+## Inflation-target defense (May-Jun 2026)
+
+Governor [[Andrew Bailey]]'s late-May / early-June communication moved the BoE story from "did markets overprice Iran-war hikes?" to "how does the Bank defend the 2% anchor while looking through an energy shock?" In his May 29 Reykjavik speech, Bailey argued that the Middle East conflict was a negative supply shock: energy prices would push UK [[Inflation|inflation]] above target, but monetary policy should focus on preventing the shock from becoming embedded through wages, expectations, and broader price-setting.
+
+The operational stance is constrained discretion. The BoE can tolerate a temporary overshoot because rates cannot create oil, gas, or reopened Hormuz transit. But that flexibility is conditional on credibility: the 2% CPI target still applies, the Governor must write to the Chancellor when inflation is more than 1 percentage point away from target, and the MPC has to adjust if second-round effects threaten the anchor.
+
+Bailey reinforced the point in his June 2 House of Lords Economic Affairs Committee appearance. Reuters reported that he rejected raising the inflation target to 3%, said the public needed confidence that the 2% target was "for real," and described the current overshoot as largely driven by Gulf events. Reuters also reported that the BoE expected inflation to approach 4% by end-2026 in its central case, with an adverse energy scenario above 6% in early 2027.
+
+Market read: the BoE is resisting both extremes. It is not mechanically validating every rate-hike impulse from the Iran/energy shock, but it is also not relaxing the target to accommodate the shock. With Bank Rate at 3.75% and the next MPC decision due June 18, cuts remain constrained until energy pass-through, inflation expectations, and wage-setting show the overshoot is staying first-round.
+
+Sources: Bank of England, "Monetary Policy in an unpredictable world", May 29 2026; UK Parliament, House of Lords Economic Affairs Committee evidence session, Jun 2 2026; [[Reuters]] via MarketScreener, "Bank of England's Bailey says public must be given confidence in 2% inflation target", Jun 2 2026.
 
 ---
 
@@ -48,13 +65,13 @@ The significance is not that the BoE became an AI regulator. It is that frontier
 
 - [[Federal Reserve]] — US counterpart (on hold)
 - [[ECB]] — Eurozone counterpart (also pricing hikes)
-- [[BOJ]] — Japan counterpart (continuing normalization)
+- [[BOJ]] — [[Japan]] counterpart (continuing normalization)
 - [[Financial Conduct Authority]] — UK conduct regulator involved in the talks
 - [[UK National Cyber Security Centre]] — cyber agency involved in the talks
 - [[Anthropic]] — developer of Mythos Preview
 - [[Claude Mythos]] — model under review
 - [[Basel III]] — delayed reforms pending US approach
-- [[Private credit]] — running first private markets stress test
+- [[Private Credit]] — running first private markets stress test
 - [[Iran conflict economic disruption]] — oil shock driving rate repricing
 - [[Iran conflict European impact]] — UK gas/electricity price transmission
 

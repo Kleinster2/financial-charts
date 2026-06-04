@@ -955,6 +955,18 @@ The pricing signal also feeds the [[NVIDIA as kingmaker]] frame: [[NVIDIA]] hard
 
 ---
 
+## May 31, 2026: BIS tightens overseas-subsidiary route
+
+[[BIS]]'s May 31 guidance makes NVIDIA's China optionality more compliance-heavy. The official point is that advanced-computing items still need licenses when the purchaser is headquartered in [[China]] / Macau, or has an ultimate parent headquartered there, even if the buying entity is outside China. Reuters framed the practical target as overseas subsidiaries of Chinese companies seeking access to NVIDIA's top [[Blackwell]] processors, including through places such as [[Malaysia]].
+
+This is negative for any clean "China outside China" workaround, but it also confirms the demand signal in the April B300 price note above. The market question is no longer just whether chips cross the mainland border. It is whether the buyer, parent, data-center use, and servicing chain can pass an ownership/end-use test. That raises compliance pressure on NVIDIA, server integrators, and cloud/data-center intermediaries, while pushing Chinese AI firms either toward more defensible non-China compute footprints or faster substitution through [[Huawei]] / [[Ascend]].
+
+NVIDIA's position in Reuters was that the guidance did not change its own shipping posture because Commerce had already imposed a license requirement on the company. The investment read is therefore not a new revenue guide-down by itself; it is a narrowing of the legal-access channel that sits between Jensen's long-term China-access argument and the visible gray-market premium.
+
+*Sources: [BIS guidance, May 31 2026](https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf); [Reuters via Investing.com, May 31 2026](https://www.investing.com/news/stock-market-news/us-takes-step-to-halt-nvidia-ai-chip-shipments-to-chinese-firms-outside-china-4717939).*
+
+---
+
 ## March 2026: H200 China production halted, TSMC capacity shifted to Vera Rubin
 
 FT reports (Mar 5) NVIDIA has stopped producing H200 chips for the Chinese market and reallocated [[TSMC]] manufacturing capacity to next-gen [[Rubin|Vera Rubin]] hardware.
