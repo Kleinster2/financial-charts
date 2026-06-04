@@ -1630,8 +1630,8 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             import sys as _sys
             _sys.stderr.write(f"[STALE-WIDE] stock_prices_daily write failed: {e}\n")
             _sys.stderr.write("[STALE-WIDE] prices_long is canonical and was updated; "
-                              "stock_prices_daily is now stale. Any caller still querying the wide table will see stale dates. "
-                              "Process will continue but exit non-zero.\n")
+                              "stock_prices_daily is now a deprecated compatibility snapshot. "
+                              "Any caller still querying the wide table may see stale dates.\n")
             vprint(f"  [Wide] Warning: wide table write failed: {e}")
             vprint(f"  [Wide] Narrow tables are canonical — continuing downstream steps.")
             wide_ok = False
@@ -1667,6 +1667,8 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         except Exception as e:
             vprint(f"Warning: Could not auto-update metadata: {e}")
 
+        if USE_NARROW and NARROW_AVAILABLE:
+            return True
         return wide_ok
     finally:
         conn.close()

@@ -6,6 +6,16 @@ Newest entries first.
 
 ---
 
+## 2026-06-04 — Deprecate wide price/volume tables as canonical
+
+**Files:** `scripts/diagnostics/status_report.py`, `scripts/daily_scan.py`, `download_all_assets.py`, `CLAUDE.md`, `docs/data/DATABASE_GUIDE.md`, `docs/movers-screening.md`
+
+**Change:** Promoted `prices_long` / `volumes_long` to the freshness authority for stock price and volume data. The status report now checks canonical long tables, broad credit/FRED data through `prices_long`/`fred_series`, and treats individual bond CSV data as a manual source rather than a core freshness blocker. `/daily-scan` now reports SPY freshness from `prices_long`. The updater now treats wide-table rebuild failure as a deprecated compatibility issue when the narrow write succeeded.
+
+**Motivation:** `stock_prices_daily` reached SQLite's wide-table column limit and normal refreshes can fail with `too many columns on stock_prices_daily_staging` even though canonical `prices_long` / `volumes_long` updated successfully.
+
+---
+
 ## 2026-05-20 — Note-compliance market-reaction peer coverage
 
 **Files:** `scripts/check_note_compliance.py`, `tests/note_compliance_regression.py`, `package.json`, `.githooks/pre-commit`, `docs/note-checklist.md`, `.claude/skills/ingest/SKILL.md`, `.agents/skills/ingest/SKILL.md`

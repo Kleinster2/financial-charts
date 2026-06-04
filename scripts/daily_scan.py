@@ -107,7 +107,7 @@ def check_earnings_calendar():
 
 
 def check_data_freshness():
-    """Check when data was last updated."""
+    """Check when canonical price data was last updated."""
     print("[4/6] Checking data freshness...")
     if not DB_PATH.exists():
         return None
@@ -115,12 +115,27 @@ def check_data_freshness():
     conn = sqlite3.connect(str(DB_PATH))
     try:
         cursor = conn.execute("""
-            SELECT MAX(Date) FROM stock_prices_daily
+            SELECT MAX(Date)
+            FROM prices_long
+            WHERE Ticker = 'SPY'
+              AND Close IS NOT NULL
         """)
         row = cursor.fetchone()
         if row and row[0]:
-            print(f"  Latest price date: {row[0]}")
+            print(f"  Latest canonical price date (SPY): {row[0]}")
             return row[0]
+
+        # Compatibility fallback for pre-narrow sample databases.
+        cursor = conn.execute("""
+            SELECT MAX(Date)
+            FROM stock_prices_daily
+            WHERE SPY IS NOT NULL
+        """)
+        row = cursor.fetchone()
+        if row and row[0]:
+            print(f"  Latest legacy wide price date (SPY): {row[0]}")
+            return row[0]
+
         return None
     except Exception as e:
         print(f"  WARN: {e}")

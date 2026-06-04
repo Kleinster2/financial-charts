@@ -62,9 +62,9 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 
 ## Database
 
-**Location:** `market_data.db` (root). Wide format — tickers are columns. `PRAGMA table_info(stock_prices_daily)`.
+**Location:** `market_data.db` (root). Canonical price/volume storage is narrow format: `prices_long(Date, Ticker, Close)` and `volumes_long(Date, Ticker, Volume)`.
 
-**Tables:** `stock_prices_daily` (wide, Date + ticker cols), `ticker_metadata`, `income_statement_annual`, `income_statement_quarterly`, `short_interest`.
+**Tables:** `prices_long` and `volumes_long` (canonical live prices/volumes), `futures_prices_long` (canonical futures), `ticker_metadata`, `income_statement_annual`, `income_statement_quarterly`, `short_interest`. `stock_prices_daily` / `stock_volumes_daily` are deprecated wide-format compatibility snapshots only; do not treat them as freshness authority.
 
 **Date format (CRITICAL):** `'YYYY-MM-DD HH:MM:SS'` always. Never date-only — causes silent duplicates.
 
@@ -75,7 +75,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 - Update prices: `python update_market_data.py --lookback 10 --assets stocks etfs mutualfunds adrs fx crypto futures iv`
 - Synthetic indices: `python scripts/create_aiwd_index.py --store`
 
-**Data freshness and stale symbols:** If publicly available, find and ingest it. Use `/earnings TICKER` for full procedure. Update prices before generating charts if data >1 day old. Never remove historical data for delisted, acquired, bankrupt, or renamed tickers; keep legacy series for charts, audit trails, and deal/delisting analysis. Exclude dead or renamed symbols only from live refresh and mover screening. In notes, preserve them as "Former ticker" rather than live aliases when they would pollute `quick_movers`. `quick_movers.py` should prefer canonical `prices_long` and compare each ticker's latest non-null close to the latest [[SPY]] session before treating it as a current mover.
+**Data freshness and stale symbols:** If publicly available, find and ingest it. Use `/earnings TICKER` for full procedure. Update prices before generating charts if canonical `prices_long` data is >1 day old. Never remove historical data for delisted, acquired, bankrupt, or renamed tickers; keep legacy series for charts, audit trails, and deal/delisting analysis. Exclude dead or renamed symbols only from live refresh and mover screening. In notes, preserve them as "Former ticker" rather than live aliases when they would pollute `quick_movers`. `quick_movers.py` should prefer canonical `prices_long` and compare each ticker's latest non-null close to the latest [[SPY]] session before treating it as a current mover. `stock_prices_daily` can be stale even after a successful refresh; it has hit SQLite's column limit and should be used only as a compatibility fallback.
 
 ---
 

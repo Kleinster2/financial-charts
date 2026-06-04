@@ -57,7 +57,7 @@ If `quick_movers.py` data is stale, refresh first:
 python update_market_data.py --lookback 5 --assets stocks etfs adrs
 ```
 
-As of March 2026, `quick_movers.py` reads from `stock_prices_daily` (wide) when DuckDB is unavailable, with a SQLite fallback to `prices_long` (narrow). If both surfaces are stale, refresh before running the screen.
+As of June 2026, `quick_movers.py` should read from canonical `prices_long` when DuckDB is unavailable, with `stock_prices_daily` only as a deprecated compatibility fallback. If `prices_long` is stale, refresh before running the screen; a stale wide table by itself is not authoritative.
 
 If the script is unavailable entirely, fall back to web search for biggest stock movers and cross-reference any name that moved **±8% or more** against vault actors.
 

@@ -2,7 +2,20 @@
 
 ## Overview
 
-The `market_data.db` SQLite database (~400 MB) contains all market data. This guide documents what data exists, what's critical, and how to protect it.
+The `market_data.db` SQLite database contains all market data. This guide documents what data exists, what's critical, and how to protect it.
+
+## Canonical Storage
+
+Live price and volume data is now canonical in narrow tables:
+
+| Table | Shape | Role |
+|-------|-------|------|
+| `prices_long` | `Date`, `Ticker`, `Close` | Canonical stocks, ETFs, FX, crypto, macro/FRED, and synthetic index prices |
+| `volumes_long` | `Date`, `Ticker`, `Volume` | Canonical volume data |
+| `futures_prices_long` | `Date`, `Ticker`, `Close` | Canonical futures prices |
+| `futures_volumes_long` | `Date`, `Ticker`, `Volume` | Canonical futures volume data |
+
+`stock_prices_daily` and `stock_volumes_daily` are deprecated wide-format compatibility snapshots. They may be stale after a successful update because the wide table is at SQLite's column limit. Do not use those wide tables as freshness authority, and do not add new columns there unless explicitly doing a compatibility repair.
 
 ## Data Classification
 
@@ -12,7 +25,7 @@ These tables contain cleaned, curated, or user-generated data that **cannot be r
 
 | Table | Rows | Description | Why Critical |
 |-------|------|-------------|--------------|
-| `B3_DI_*` columns | 5,445 days | Brazil DI yield curve (1M-10Y) | **Manually cleaned** historical data back to 2003. Raw B3 data has errors/gaps that were fixed. |
+| `B3_DI_*` series | 5,445 days | Brazil DI yield curve (1M-10Y) | **Manually cleaned** historical data back to 2003. Raw B3 data has errors/gaps that were fixed. |
 | `bond_prices_daily` | ~2,400 | Corporate bond prices | Scraped/manual - no bulk API |
 | `credit_spreads_daily` | ~340 | Calculated credit spreads | Derived from cleaned bond data |
 | `portfolios` | varies | User portfolio definitions | User-created |
@@ -26,8 +39,10 @@ These can be fully reconstructed by running update scripts:
 
 | Table | Source | Recovery Command |
 |-------|--------|------------------|
-| `stock_prices_daily` | yfinance | `python update_market_data.py --assets stocks etfs` |
-| `stock_volumes_daily` | yfinance | Same as above |
+| `prices_long` | yfinance/FRED/synthetic writers | `python update_market_data.py --assets stocks etfs` |
+| `volumes_long` | yfinance | Same as above |
+| `stock_prices_daily` | deprecated compatibility snapshot | Best-effort only; do not rely on for freshness |
+| `stock_volumes_daily` | deprecated compatibility snapshot | Best-effort only; do not rely on for freshness |
 | `futures_prices_daily` | yfinance | `python update_market_data.py --assets futures` |
 | `cboe_indices_daily` | CBOE | `python update_market_data.py --assets iv` |
 | `implied_volatility_daily` | CBOE | Same as above |
@@ -40,7 +55,7 @@ These can be fully reconstructed by running update scripts:
 
 ### SPECIAL: B3 DI Yield Curve Data
 
-The `stock_prices_daily` table contains these columns with **cleaned Brazilian interest rate data**:
+The database contains these **cleaned Brazilian interest rate series**. Older wide snapshots store them as `stock_prices_daily` columns; live/canonical reads should prefer the corresponding narrow series when available:
 
 - `B3_DI_1M` - 1 month DI rate
 - `B3_DI_3M` - 3 month DI rate

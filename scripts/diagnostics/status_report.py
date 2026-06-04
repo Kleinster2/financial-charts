@@ -47,6 +47,17 @@ def get_latest_date(conn: sqlite3.Connection, table: str, date_col: str = "Date"
         return None, 0
 
 
+def get_sql_latest(conn: sqlite3.Connection, sql: str, params: tuple = ()) -> tuple:
+    """Get latest date and row count from a custom freshness query."""
+    try:
+        row = conn.execute(sql, params).fetchone()
+        if row and row[0]:
+            return datetime.strptime(str(row[0])[:10], "%Y-%m-%d"), row[1]
+        return None, row[1] if row else 0
+    except sqlite3.OperationalError:
+        return None, 0
+
+
 def get_wide_table_latest(conn: sqlite3.Connection, table: str) -> tuple:
     """Get latest date from wide-format table (Date as row index)."""
     try:
@@ -91,47 +102,120 @@ def main():
     cutoff = trading_days_ago(args.max_age)
     today = datetime.now().date()
 
-    # Define tables to check: (display_name, table_name, is_wide_table)
-    tables = [
-        ("Stock Prices", "stock_prices_daily", True),
-        ("Stock Volumes", "stock_volumes_daily", True),
-        ("CBOE Indices", "cboe_indices_daily", True),
-        ("Implied Vol", "implied_volatility_daily", True),
-        ("Credit Spreads", "credit_spreads_daily", True),
-        ("Bond Prices", "bond_prices_daily", True),
-        ("Futures Prices", "futures_prices_daily", True),
+    checks = [
+        {
+            "name": "Stock Prices",
+            "sql": """
+                SELECT MAX(date(Date)), COUNT(*)
+                FROM prices_long
+                WHERE Close IS NOT NULL
+                  AND Ticker IN ('SPY', 'QQQ', 'IWM', 'DIA')
+            """,
+            "source": "prices_long",
+        },
+        {
+            "name": "Stock Volumes",
+            "sql": """
+                SELECT MAX(date(Date)), COUNT(*)
+                FROM volumes_long
+                WHERE Volume IS NOT NULL
+                  AND Ticker IN ('SPY', 'QQQ', 'IWM', 'DIA')
+            """,
+            "source": "volumes_long",
+        },
+        {
+            "name": "CBOE Indices",
+            "table": "cboe_indices_daily",
+            "date_col": "date",
+            "source": "cboe_indices_daily",
+        },
+        {
+            "name": "Implied Vol",
+            "table": "implied_volatility_daily",
+            "date_col": "date",
+            "source": "implied_volatility_daily",
+        },
+        {
+            "name": "Credit Spreads",
+            "sql": """
+                SELECT MAX(date(Date)), COUNT(*)
+                FROM prices_long
+                WHERE Close IS NOT NULL
+                  AND Ticker IN ('BAMLH0A0HYM2', 'BAMLC0A0CM', 'BAMLC0A4CBBB')
+            """,
+            "source": "prices_long/FRED",
+        },
+        {
+            "name": "FRED Yields",
+            "table": "fred_series",
+            "source": "fred_series",
+        },
+        {
+            "name": "Futures Prices",
+            "table": "futures_prices_long",
+            "source": "futures_prices_long",
+        },
+        {
+            "name": "Rate Futures",
+            "table": "rate_futures_daily",
+            "source": "rate_futures_daily",
+        },
+        {
+            "name": "Individual Bonds",
+            "table": "bond_prices_daily",
+            "source": "bond_prices_daily",
+            "manual": True,
+        },
     ]
 
     results = []
     stale = []
 
-    for name, table, is_wide in tables:
-        if is_wide:
-            latest, _ = get_wide_table_latest(conn, table)
+    for check in checks:
+        name = check["name"]
+        if "sql" in check:
+            latest, count = get_sql_latest(conn, check["sql"])
         else:
-            latest, _ = get_latest_date(conn, table)
+            latest, count = get_latest_date(
+                conn,
+                check["table"],
+                check.get("date_col", "Date"),
+            )
+
+        source = check["source"]
+        is_manual = check.get("manual", False)
 
         if latest is None:
-            results.append((name, "NO DATA", True))
-            stale.append(name)
+            results.append((name, f"NO DATA [{source}]", True, is_manual))
+            if not is_manual:
+                stale.append(name)
         elif latest < cutoff:
             age = (today - latest.date()).days
-            results.append((name, f"{latest.date()} ({age}d ago)", True))
-            stale.append(name)
+            status = f"{latest.date()} ({age}d ago"
+            if count:
+                status += f", {count:,} rows"
+            status += f") [{source}]"
+            results.append((name, status, True, is_manual))
+            if not is_manual:
+                stale.append(name)
         else:
             age = (today - latest.date()).days
-            results.append((name, f"{latest.date()} ({age}d ago)", False))
+            status = f"{latest.date()} ({age}d ago"
+            if count:
+                status += f", {count:,} rows"
+            status += f") [{source}]"
+            results.append((name, status, False, is_manual))
 
     # Check fundamentals separately (uses last_updated timestamp)
     fund_latest, fund_count = get_fundamentals_latest(conn)
     if fund_latest is None:
-        results.append(("Fundamentals", "NO DATA", True))
+        results.append(("Fundamentals", "NO DATA [company_overview]", True, False))
         stale.append("Fundamentals")
     else:
         age = (today - fund_latest.date()).days
         # Fundamentals updated less frequently, use 7 day threshold
         is_stale = age > 7
-        results.append(("Fundamentals", f"{fund_latest.date()} ({age}d ago, {fund_count} tickers)", is_stale))
+        results.append(("Fundamentals", f"{fund_latest.date()} ({age}d ago, {fund_count} tickers) [company_overview]", is_stale, False))
         if is_stale:
             stale.append("Fundamentals")
 
@@ -154,8 +238,11 @@ def main():
   Cutoff: {cutoff.date()} ({args.max_age} trading days)
 {'='*60}
 """)
-        for name, status, is_stale in results:
-            flag = "[STALE]" if is_stale else "[OK]   "
+        for name, status, is_stale, is_manual in results:
+            if is_manual and is_stale:
+                flag = "[MANUAL]"
+            else:
+                flag = "[STALE]" if is_stale else "[OK]   "
             print(f"  {flag} {name:20} {status}")
 
         print(f"\n{'='*60}")
@@ -164,6 +251,7 @@ def main():
             sys.exit(1)
         else:
             print("  All tables up to date")
+            print("  Manual sources are reported but do not fail freshness.")
             sys.exit(0)
 
     sys.exit(1 if stale else 0)
