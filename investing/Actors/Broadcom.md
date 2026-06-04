@@ -231,6 +231,26 @@ CEO Hock Tan: line of sight to installed capacity approaching 10GW by 2027 and A
 
 ---
 
+## Q2 FY2026 earnings (Jun 3, 2026)
+
+Broadcom delivered a strong absolute AI quarter but became a valuation/perfection test for the custom-silicon trade. Q2 revenue was $22.187B (+48% YoY), slightly below consensus despite record AI semiconductor revenue. AI semiconductor revenue reached $10.8B (+143% YoY), above Broadcom's forecast, and Q3 AI semiconductor revenue guidance was $16.0B (>200% YoY). Q3 total revenue guidance was about $29.4B (+84% YoY), above Street consensus.
+
+| Metric | Q2 FY26 | Read-through |
+|--------|---------|--------------|
+| Revenue | $22.187B (+48% YoY) | Record, but slightly under the Street's very high bar |
+| Semiconductor solutions | $15.009B (+79% YoY) | AI accelerators and networking now dominate the equity story |
+| Infrastructure software | $7.178B (+9% YoY) | [[VMware]] integration is still a steadier, lower-growth leg |
+| AI semiconductor revenue | $10.8B (+143% YoY) | Above company forecast |
+| Q3 revenue guide | ~$29.4B (+84% YoY) | Above [[LSEG]] consensus cited by [[Reuters]] |
+| Q3 AI semiconductor guide | $16.0B (>200% YoY) | Slightly below [[Visible Alpha]] estimate cited by [[Reuters]] |
+| [[Free cash flow]] | $10.262B | 46% of revenue |
+
+The market reaction was not that Broadcom's AI business is weak. It was that the stock had started pricing a larger raise to the 2027 AI-chip revenue trajectory. Hock Tan said Broadcom now expects to ship more than 10GW of AI chips in 2027 but kept the long-range $100B AI-chip sales forecast intact. That reframes the note's Broadcom thesis: the core ASIC/networking opportunity is still accelerating, but the equity is now sensitive to *rate of upward revisions*, not just absolute growth.
+
+*Sources: Broadcom Q2 FY2026 press release (Jun 3 2026); [[Reuters]] via Investing.com (Jun 3-4 2026).*
+
+---
+
 ![[avgo-employees-chart.png]]
 *Headcount: 33,000 (2025) — down 10.8% YoY*
 
@@ -260,7 +280,7 @@ CEO Hock Tan: line of sight to installed capacity approaching 10GW by 2027 and A
 | Gross margin | ~65% |
 | Dividend yield | ~1.1% |
 
-*Updated 2026-04-16 — Jensen ASIC margin rebuttal*
+*Updated 2026-06-04 — Q2 FY2026 AI-revenue/perfection-test update*
 
 ![[avgo-price-chart.png]]
 

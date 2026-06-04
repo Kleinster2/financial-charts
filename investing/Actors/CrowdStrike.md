@@ -114,6 +114,26 @@ The read-through is positive for CrowdStrike's control-point case. This was not 
 
 ---
 
+## Q1 FY2027 earnings (reported after close Jun 3, 2026)
+
+Q1 FY27 was a cleaner "AI security infrastructure" proof point than the stock reaction implied. Revenue was $1.39B (+26% YoY), subscription revenue was $1.32B (+26%), ending ARR reached $5.51B (+24%), and net new ARR was a record Q1 $255.8M (+32% YoY). CrowdStrike also announced a 4-for-1 stock split, with split-adjusted trading expected July 2, 2026.
+
+| Metric | Q1 FY27 | Change / read-through |
+|--------|---------|-----------------------|
+| Revenue | $1.39B | +26% YoY |
+| Subscription revenue | $1.32B | +26% YoY |
+| Ending ARR | $5.51B | +24% YoY |
+| Net new ARR | $255.8M | Record Q1, +32% YoY |
+| [[GAAP]] operating loss | $30.6M | Improved from $118.7M loss in Q1 FY26 |
+| Non-[[GAAP]] operating income | $325.7M | Up from $201.1M |
+| [[Free cash flow]] | $468.5M | Record Q1 |
+
+George Kurtz framed the quarter as the "Mythos moment": [[CrowdStrike]] presenting itself as the security control plane for frontier-AI adoption rather than a legacy endpoint vendor threatened by AI-native tooling. The important tension is that investors sold the name anyway after a very sharp pre-earnings rally. That makes the read-through similar to [[Broadcom]]: operational numbers are strong, but AI-exposed software stocks are being judged against revision momentum and valuation, not just beats.
+
+*Sources: CrowdStrike Q1 FY2027 press release (Jun 3 2026); [[Reuters]] via Investing.com (Jun 4 2026).*
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -144,7 +164,7 @@ The read-through is positive for CrowdStrike's control-point case. This was not 
 | Founded | 2011 |
 | CEO | George Kurtz |
 
-*Updated 2026-01-15*
+*Updated 2026-06-04 — Q1 FY2027 ARR / AI-security update*
 
 ## April 9, 2026 — AI disruption selloff continues
 
