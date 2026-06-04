@@ -184,7 +184,8 @@ def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
         # Get latest prices and previous day prices for all tickers
         if USE_NARROW and NARROW_AVAILABLE:
             # Narrow path: read from prices_long, pivot to wide, convert to row tuples
-            wide_df = narrow_get_price_data_wide(valid_tickers)
+            dashboard_start = (datetime.now() - timedelta(days=550)).strftime('%Y-%m-%d')
+            wide_df = narrow_get_price_data_wide(valid_tickers, start_date=dashboard_start)
             if wide_df.empty:
                 return []
             wide_df = wide_df.sort_index(ascending=False).head(252)

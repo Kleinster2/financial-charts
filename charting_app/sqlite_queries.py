@@ -144,27 +144,30 @@ def get_price_data_wide(tickers: List[str], start_date: Optional[str] = None) ->
 
     conn = get_db_connection(row_factory=None)
     try:
-        for ticker in tickers:
-            if ticker in stock_tickers:
-                table = 'prices_long'
-            elif ticker in futures_tickers:
-                table = 'futures_prices_long'
-            else:
+        for table, table_tickers in (
+            ('prices_long', [t for t in tickers if t in stock_tickers]),
+            ('futures_prices_long', [t for t in tickers if t in futures_tickers]),
+        ):
+            if not table_tickers:
                 continue
 
-            date_filter = "AND Date >= ?" if start_date else ""
-            query = f"""
-                SELECT Date, Ticker, Close
-                FROM {table}
-                WHERE Ticker = ? {date_filter}
-                ORDER BY Date
-            """
-            params = [ticker]
-            if start_date:
-                params.append(start_date)
-            df_t = pd.read_sql(query, conn, params=params)
-            if not df_t.empty:
-                records.append(df_t)
+            # SQLite's variable limit can vary by build, so keep batches modest.
+            for i in range(0, len(table_tickers), 500):
+                batch = table_tickers[i:i + 500]
+                placeholders = ','.join(['?'] * len(batch))
+                date_filter = "AND Date >= ?" if start_date else ""
+                query = f"""
+                    SELECT Date, Ticker, Close
+                    FROM {table}
+                    WHERE Ticker IN ({placeholders}) {date_filter}
+                    ORDER BY Date
+                """
+                params = list(batch)
+                if start_date:
+                    params.append(start_date)
+                df_t = pd.read_sql(query, conn, params=params)
+                if not df_t.empty:
+                    records.append(df_t)
     finally:
         conn.close()
 
@@ -325,6 +328,7 @@ def _ensure_narrow_table(table: str, value_col: str):
         )''')
         conn.execute(f'CREATE INDEX IF NOT EXISTS idx_{table}_ticker ON {table}(Ticker)')
         conn.execute(f'CREATE INDEX IF NOT EXISTS idx_{table}_date ON {table}(Date)')
+        conn.execute(f'CREATE INDEX IF NOT EXISTS idx_{table}_ticker_date ON {table}(Ticker, Date)')
         conn.commit()
     finally:
         conn.close()

@@ -34,6 +34,7 @@ def create_narrow_tables(conn):
         );
         CREATE INDEX IF NOT EXISTS idx_prices_long_ticker ON prices_long(Ticker);
         CREATE INDEX IF NOT EXISTS idx_prices_long_date ON prices_long(Date);
+        CREATE INDEX IF NOT EXISTS idx_prices_long_ticker_date ON prices_long(Ticker, Date);
 
         CREATE TABLE IF NOT EXISTS volumes_long (
             Date TEXT NOT NULL,
@@ -43,6 +44,7 @@ def create_narrow_tables(conn):
         );
         CREATE INDEX IF NOT EXISTS idx_volumes_long_ticker ON volumes_long(Ticker);
         CREATE INDEX IF NOT EXISTS idx_volumes_long_date ON volumes_long(Date);
+        CREATE INDEX IF NOT EXISTS idx_volumes_long_ticker_date ON volumes_long(Ticker, Date);
 
         CREATE TABLE IF NOT EXISTS futures_prices_long (
             Date TEXT NOT NULL,
@@ -52,6 +54,7 @@ def create_narrow_tables(conn):
         );
         CREATE INDEX IF NOT EXISTS idx_futures_prices_long_ticker ON futures_prices_long(Ticker);
         CREATE INDEX IF NOT EXISTS idx_futures_prices_long_date ON futures_prices_long(Date);
+        CREATE INDEX IF NOT EXISTS idx_futures_prices_long_ticker_date ON futures_prices_long(Ticker, Date);
 
         CREATE TABLE IF NOT EXISTS futures_volumes_long (
             Date TEXT NOT NULL,
@@ -61,6 +64,7 @@ def create_narrow_tables(conn):
         );
         CREATE INDEX IF NOT EXISTS idx_futures_volumes_long_ticker ON futures_volumes_long(Ticker);
         CREATE INDEX IF NOT EXISTS idx_futures_volumes_long_date ON futures_volumes_long(Date);
+        CREATE INDEX IF NOT EXISTS idx_futures_volumes_long_ticker_date ON futures_volumes_long(Ticker, Date);
     """)
 
 
