@@ -51,7 +51,9 @@ Secondary drag: Mitul Kotecha ([[Barclays]]) cited higher Middle East energy pri
 
 The same mechanics that suppress the won set up a sharp potential reversal. Keshvani (RBC) forecasts a rush of repatriation should the won begin to strengthen, which could cause a sharp upward move — exporters sitting on large unconverted dollar balances would convert at once. Sam Konrad ([[Jupiter Asset Management]]) expects both the won and the [[Taiwan dollar]] — another chip-exporter currency with the same surplus-but-weak-currency profile — to appreciate, though he could not name the catalyst or timing.
 
-The Bank of Korea's own read reinforces the fundamentals case: governor Shin Hyun-song said the gain from semiconductor exports would exceed the economic hit from the Iran war, projecting 2026 GDP growth 0.7 percentage points higher thanks to booming chip sales.
+The Bank of Korea's own read reinforces the fundamentals case: governor Shin Hyun-song said the gain from semiconductor exports would exceed the economic hit from the [[2026 Iran conflict market impact|Iran war]], projecting 2026 GDP growth 0.7 percentage points higher thanks to booming chip sales.
+
+The May 28 policy statement adds the constraint: even if the semiconductor cycle supports growth, the BoK still sees inflation and financial-stability pressure as reasons to raise rates at an appropriate point. In FX terms, that means the won is caught between strong export fundamentals and imported-energy/dollar pressure. A hawkish BoK can support the currency at the margin, but the deeper catalyst remains exporter repatriation and a turn in foreign-equity selling rather than the rate signal alone.
 
 ---
 

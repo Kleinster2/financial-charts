@@ -25,7 +25,11 @@ The distinction is between **shock sensitivity** and structural identity. The Ma
 
 The useful framing is not "war no longer matters." It is "war is no longer the dominant clock for Korea equities." Oil, FX, and bonds are pricing the 3-6 month supply shock; Kospi is again pricing the 1-3 year AI capex and HBM earnings cycle.
 
+The [[Bank of Korea]] made that market read official on May 28. Its 2026 forecast bridge assigned +0.1 percentage points of GDP to the stock-market boom and +0.7 percentage points to stronger semiconductor and IT exports, versus a -0.4 percentage-point drag from the Middle East war. The index is no longer only reflecting expected earnings; it is feeding back into domestic demand and investment through the wealth-effect channel the central bank now includes in the growth forecast.
+
 Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
+
+Additional source: [[Financial Times|FT]], "AI boom outweighs Iran war pain, Korean central bank chief says," May 28 2026: https://www.ft.com/content/2d1c6dbb-aef5-4f08-bc5a-20c0aa3c1149; Bank of Korea, "Economic Outlook (May 2026)": https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400423&menuNo=400423&nttId=10098207&programType=newsDataEng&relate=Y.
 
 ## Correlation structure
 
@@ -33,7 +37,7 @@ Using [[EWY]] as the liquid foreign-investor proxy, Kospi screens less like a ge
 
 | Proxy regime | Liquid comparison | Correlation | Readthrough |
 |--------------|-------------------|-------------|-------------|
-| Memory / semis | [[Semiconductors|SMH]] via [[EWY]] | 0.65 | Index leadership is still set by Samsung, SK Hynix, and the broader AI-memory complex |
+| Memory / semis | [[Semiconductors\|SMH]] via [[EWY]] | 0.65 | Index leadership is still set by Samsung, SK Hynix, and the broader AI-memory complex |
 | Industrial exports | XLI via [[EWY]] | 0.60 | Korea remains tied to global capex and manufacturing demand |
 | Large-cap tech | XLK via [[EWY]] | 0.57 | Tech sentiment still matters because the index is so concentrated |
 | *Average of top 3* | *EWY proxy basket* | *0.61* | *Kospi behaves more like a semiconductor-industrial mix than a plain EM basket* |

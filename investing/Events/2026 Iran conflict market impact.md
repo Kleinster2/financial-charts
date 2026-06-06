@@ -446,6 +446,16 @@ Chart handling: [[Reuters]] packaged the piece as a graphic; the vault extractio
 
 Source: [[Reuters]], [GRAPHIC-Iran war splits global markets into clear winners and losers](https://www.lse.co.uk/news/graphic-iran-war-splits-global-markets-into-clear-winners-and-losers-f7nir94d9i1wz8l.html), May 27 2026.
 
+### May 28, 2026 -- Korea central bank quantifies the offset
+
+The [[Bank of Korea]]'s May 28 policy meeting turns the Korea line in the winners/losers scoreboard into official macro arithmetic. The bank held the base rate at 2.50%, but raised its 2026 [[South Korea]] GDP forecast to 2.6% from 2.0%. The bridge is the clearest country-level example of the war's time-frame split: the Middle East shock subtracts 0.4 percentage points from growth, while stronger semiconductor and IT exports add 0.7 percentage points, the supplementary budget adds 0.2, and the [[Kospi]] wealth effect adds 0.1.
+
+That does not make the war painless for Korea. The same statement lifted 2026 inflation forecasts to 2.7% headline and 2.4% core, flagged the [[Korean won]] near crisis-era weakness, and pointed to Seoul-area housing and household debt as financial-stability constraints. The useful read is narrower: AI-memory demand is strong enough to offset the GDP hit from the war, but not enough to neutralize the inflation/FX/rate channel. Korea is therefore the clean case where the equity clock and the central-bank clock point in opposite directions.
+
+Chart handling: the FT article included a news photograph, not a chart/table graphic; source data was extracted and paraphrased, and no FT image or article body was copied.
+
+*Sources: [[Financial Times|FT]], "AI boom outweighs Iran war pain, Korean central bank chief says," May 28 2026: https://www.ft.com/content/2d1c6dbb-aef5-4f08-bc5a-20c0aa3c1149; Bank of Korea, "Monetary Policy Decision & Opening Remarks to the Press Conference (May 28, 2026)": https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400069&menuNo=400069&nttId=10098190&oldMenuNo=400007&programType=newsDataEng&relate=Y; Bank of Korea, "Economic Outlook (May 2026)": https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400423&menuNo=400423&nttId=10098207&programType=newsDataEng&relate=Y.*
+
 ### May 27, 2026 -- Chartbook: inflation volatility becomes the bond-market hinge
 
 [[Adam Tooze]]'s Chartbook Top Links 1114 adds a useful curation layer to the same rates story. The Bloomberg item he surfaced frames the Iran war as a second inflation shock after the post-Covid price spike: fuel and fertilizer are trapped around the [[Strait of Hormuz]], European airlines have canceled flights, U.S. consumers have spent roughly an extra $20B at the pump, and Asian rice farmers have weighed skipping planting. The key market expression is the same one visible in the Reuters table above: more than $50T of G7 sovereign debt is being repriced as long-term yields press toward two-decade highs.

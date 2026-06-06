@@ -104,6 +104,16 @@ Korea controls ~95% of HBM production — the premium AI memory product.
 
 ---
 
+## Macro pass-through
+
+The Korea Memory cluster has become large enough to move [[South Korea]]'s national forecast. First-quarter 2026 semiconductor exports reached $78.5bn, up 139% year over year, with the acceleration concentrated in memory demand tied to AI servers. On May 28, 2026, the [[Bank of Korea]] raised its 2026 GDP forecast to 2.6% from 2.0% and attributed +0.7 percentage points of growth to stronger semiconductor and IT exports, more than offsetting the -0.4 percentage-point drag from the [[2026 Iran conflict market impact|Iran-war]] energy shock.
+
+That confirms the cluster's distinct behavior in the correlation work above. [[Samsung]] and [[SK Hynix]] are no longer just country beta or generic memory cyclicals; they are the domestic growth engine strong enough to affect monetary-policy arithmetic. The trade still carries KRW, energy, and China proximity risk, but the upside driver is now explicitly macro-recognized HBM scarcity.
+
+*Sources: [[Financial Times|FT]], "AI boom outweighs Iran war pain, Korean central bank chief says," May 28 2026: https://www.ft.com/content/2d1c6dbb-aef5-4f08-bc5a-20c0aa3c1149; Bank of Korea, "Economic Outlook (May 2026)": https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400423&menuNo=400423&nttId=10098207&programType=newsDataEng&relate=Y; Aju Press report citing Ministry of Trade, Industry and Energy Q1 export data, May 6 2026: https://www.ajupress.com/view/20260506170570667.*
+
+---
+
 ## Characteristics
 
 | Factor | Korea Memory | vs US Memory |

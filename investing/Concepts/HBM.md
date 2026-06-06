@@ -88,6 +88,15 @@ Only 3 suppliers:
 - HBM is 5x+ ASP vs commodity DRAM — margin accretive
 - Yield is challenging — vertical stacking compounds defect rates
 - [[Advanced packaging]] required (CoWoS at [[TSMC]])
+- Macro pass-through is now visible in Korea: the [[Bank of Korea]]'s May 2026 outlook attributed +0.7 percentage points of 2026 GDP growth to stronger semiconductor and IT exports, more than offsetting the [[2026 Iran conflict market impact|Iran-war]] energy drag.
+
+### Korea macro bridge (May 2026)
+
+The HBM cycle is now a central-bank input, not just a chip-industry theme. The [[Bank of Korea]] raised its 2026 [[South Korea]] growth forecast to 2.6% from 2.0% on May 28, 2026, with stronger semiconductor and IT exports adding 0.7 percentage points to GDP. The same bridge put the Middle East war drag at -0.4 percentage points, which means AI-memory demand is large enough to offset a national energy-import shock in the official forecast.
+
+The investment implication is that [[HBM]] scarcity has two channels: direct supplier pricing power for [[SK Hynix]] and [[Samsung]], and a country-level growth/wealth channel through [[Kospi]], exports, and BoK policy. That is why Korea can look like both an oil-importer casualty in FX and a winner in equities at the same time.
+
+*Sources: [[Financial Times|FT]], "AI boom outweighs Iran war pain, Korean central bank chief says," May 28 2026: https://www.ft.com/content/2d1c6dbb-aef5-4f08-bc5a-20c0aa3c1149; Bank of Korea, "Economic Outlook (May 2026)": https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400423&menuNo=400423&nttId=10098207&programType=newsDataEng&relate=Y.*
 
 ---
 

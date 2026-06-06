@@ -17,6 +17,7 @@ Critical US ally and export powerhouse whose listed market is dominated by semic
 | Population | 52M |
 | HBM market share | ~88% (SK Hynix 53% + Samsung 35%) |
 | Memory exports | ~20% of total exports |
+| 2026 GDP forecast | 2.6% ([[Bank of Korea]], May 2026) |
 
 ---
 
@@ -49,6 +50,14 @@ SK Hynix: Most profitable semiconductor company globally in 2025.
 | [[Micron]] | 12% |
 
 HBM demand from AI servers drove record results.
+
+### Q1 2026 export concentration
+
+The 2026 AI-memory boom has become macro-large. South Korea's first-quarter semiconductor exports reached $78.5bn, up 139% year over year, with DRAM and NAND exports rising 249.1% and 377.5%, respectively, as AI-server demand pulled through [[HBM]] and adjacent memory supply. Semiconductors accounted for 35.7% of total exports in the quarter; exports excluding semiconductors rose only 11.6%, which is why the growth number is impressive and concentrated at the same time.
+
+The [[Bank of Korea]] converted that export concentration into the May 2026 policy bridge: stronger semiconductor and IT exports add 0.7 percentage points to 2026 GDP, more than the 0.4 percentage-point drag from the [[2026 Iran conflict market impact|Iran-war]] energy shock. The same concentration creates the "one-engine economy" risk in the table below: when [[Korea Memory]] works, it can carry national growth; when oil, FX, or memory pricing turns against Korea, the rest of the economy has less room to cushion the move.
+
+*Sources: [[Financial Times|FT]], "AI boom outweighs Iran war pain, Korean central bank chief says," May 28 2026: https://www.ft.com/content/2d1c6dbb-aef5-4f08-bc5a-20c0aa3c1149; Bank of Korea, "Economic Outlook (May 2026)": https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400423&menuNo=400423&nttId=10098207&programType=newsDataEng&relate=Y; Aju Press report citing Ministry of Trade, Industry and Energy Q1 export data, May 6 2026: https://www.ajupress.com/view/20260506170570667.*
 
 ---
 
@@ -144,10 +153,10 @@ The earnings bridge matters. Reuters reported on Apr 8 that Samsung's blowout pr
 
 Trade Minister [[Joo Hyung-Hwan]] used an Apr 27, 2026 Bloomberg interview from Singapore to lay out the Korean response to the [[2026 Strait of Hormuz crisis]]. The structural points:
 
-- **Naphtha re-sourcing**: Approximately 80% of Korean petrochemical naphtha was historically sourced from the Middle East. The Hormuz disruption has forced Korea to (a) implement domestic measures restraining naphtha exports and (b) accelerate diversification of supply origins. Korea is now actively engaging India and other regional partners to secure alternative naphtha supply. See [[Naphtha]] and [[Iran conflict supply chain cascade]].
-- **March exports record**: Korean exports hit a record $68B in March 2026, with the figure driven by sustained semiconductor demand. The export base has held up despite the war and despite tariff uncertainty — ten consecutive months of YoY growth.
-- **Korea-India [[CEPA]] upgrade**: During [[Lee Jae Myung]]'s Apr 2026 state visit to [[India]], the two governments agreed to accelerate the upgrade of the existing 17-year-old Comprehensive Economic Partnership Agreement. Korea-side industrial focus: automotive, electronics, shipbuilding, and energy-supply diversification.
-- **US-China meeting framing**: Joo described [[China]] as Korea's #1 trading partner and the [[United States]] as #2 — "neck and neck." Korea's stated interest is stabilization of US-China relations through the May 2026 [[Trump]]-[[Xi Jinping]] meeting. Stabilization gives Korea a more predictable trading environment than the current swing between tariff threats and supply-chain shocks.
+- Naphtha re-sourcing: Approximately 80% of Korean petrochemical naphtha was historically sourced from the Middle East. The Hormuz disruption has forced Korea to (a) implement domestic measures restraining naphtha exports and (b) accelerate diversification of supply origins. Korea is now actively engaging India and other regional partners to secure alternative naphtha supply. See [[Naphtha]] and [[Iran conflict supply chain cascade]].
+- March exports record: Korean exports hit a record $68B in March 2026, with the figure driven by sustained semiconductor demand. The export base has held up despite the war and despite tariff uncertainty — ten consecutive months of YoY growth.
+- Korea-India [[CEPA]] upgrade: During [[Lee Jae Myung]]'s Apr 2026 state visit to [[India]], the two governments agreed to accelerate the upgrade of the existing 17-year-old Comprehensive Economic Partnership Agreement. Korea-side industrial focus: automotive, electronics, shipbuilding, and energy-supply diversification.
+- US-China meeting framing: Joo described [[China]] as Korea's #1 trading partner and the [[United States]] as #2 — "neck and neck." Korea's stated interest is stabilization of US-China relations through the May 2026 [[Trump]]-[[Xi Jinping]] meeting. Stabilization gives Korea a more predictable trading environment than the current swing between tariff threats and supply-chain shocks.
 
 The diversification campaign is the cleanest evidence that the [[Strait of Hormuz]] disruption is reshaping Asian trade architecture in real time, not just adjusting energy spreads. Korea's prior comfort with concentrated Middle East sourcing is no longer the operating assumption.
 
@@ -175,6 +184,14 @@ The read-through is that Korean energy security is shifting from "replace Middle
 The flip side of the AI-memory boom is a currency that will not appreciate. In 2026 the [[Korean won]] fell about 4% against the dollar to around ₩1,500 — its worst since the 2008-09 financial crisis — even as Korea ran a Q1 current-account surplus of $73.8bn and [[Samsung]] and [[SK Hynix]] posted Q1 net profits of $28.3bn and $22.4bn, lifting both to $1tn market caps. Brad Setser ([[Council on Foreign Relations]]) called this the "DRam dollars" puzzle (a manufacturing-surplus analog to petrodollars). The drivers are flow, not fundamentals: the [[Kospi]] doubling forced index-benchmarked foreigners to sell Korean equities (a record $79bn net selling) to avoid going overweight, and exporters are parking earnings in dollars rather than repatriating. The asymmetry: if the won turns, a repatriation rush could snap it sharply higher. See [[Korean won]] for the full mechanism and chart.
 
 *Source: [[Financial Times]], "Why South Korea's won is falling despite a chip export earnings bonanza" (May 28 2026).*
+
+## May 2026 BoK policy bridge
+
+The May 28 [[Bank of Korea]] meeting is the official macro version of the Korea trade. The central bank held rates at 2.50%, but raised its 2026 GDP forecast to 2.6% from 2.0% and signalled that rate hikes would be needed at the appropriate point. The forecast bridge explains the tension: [[Korea Memory]] and IT exports add 0.7 percentage points to growth; the [[2026 Iran conflict market impact|Iran-war]] energy shock subtracts 0.4; the supplementary budget adds 0.2; the [[Kospi]] wealth effect adds 0.1. That is why the same country can have a weak [[Korean won]], elevated imported inflation, and a record equity market.
+
+The domestic read-through is bifurcated. Semiconductors, IT, and shipbuilding are strong enough to lift aggregate GDP, while steel, petrochemicals, youth employment, Seoul-area housing affordability, and household debt still constrain policy room. The source therefore belongs in investing as a macro-market filing, not just a central-bank headline: the marginal question is whether the AI-memory upper arm can keep outrunning the energy and household-balance-sheet lower arm.
+
+*Sources: [[Financial Times|FT]], "AI boom outweighs Iran war pain, Korean central bank chief says," May 28 2026: https://www.ft.com/content/2d1c6dbb-aef5-4f08-bc5a-20c0aa3c1149; Bank of Korea, "Monetary Policy Decision & Opening Remarks to the Press Conference (May 28, 2026)": https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400069&menuNo=400069&nttId=10098190&oldMenuNo=400007&programType=newsDataEng&relate=Y.*
 
 ## Market proxy
 
