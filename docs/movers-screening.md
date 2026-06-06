@@ -54,7 +54,7 @@ Shows last funding round + age for ~30 tracked pre-IPO actors (Kalshi, Anthropic
 If `quick_movers.py` data is stale, refresh first:
 
 ```
-python update_market_data.py --lookback 5 --assets stocks etfs adrs
+python update_market_data.py --lookback 5 --assets all
 ```
 
 As of June 2026, `quick_movers.py` should read from canonical `prices_long` when DuckDB is unavailable, with `stock_prices_daily` only as a deprecated compatibility fallback. If `prices_long` is stale, refresh before running the screen; a stale wide table by itself is not authoritative.

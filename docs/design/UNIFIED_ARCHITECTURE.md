@@ -212,7 +212,7 @@ cd /c/Users/klein/financial-charts
 python update_market_data.py  # Updates ALL data (prices + CBOE indices)
 ```
 
-Or specifically:
+Narrow asset selections are diagnostic/backfill-only:
 ```bash
 python update_market_data.py --assets iv      # Just CBOE indices
 python update_market_data.py --assets stocks  # Just price data

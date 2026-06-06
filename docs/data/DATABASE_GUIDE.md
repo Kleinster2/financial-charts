@@ -39,12 +39,12 @@ These can be fully reconstructed by running update scripts:
 
 | Table | Source | Recovery Command |
 |-------|--------|------------------|
-| `prices_long` | yfinance/FRED/synthetic writers | `python update_market_data.py --assets stocks etfs` |
+| `prices_long` | yfinance/FRED/synthetic writers | `python update_market_data.py --assets all --lookback 10` |
 | `volumes_long` | yfinance | Same as above |
 | `stock_prices_daily` | deprecated compatibility snapshot | Best-effort only; do not rely on for freshness |
 | `stock_volumes_daily` | deprecated compatibility snapshot | Best-effort only; do not rely on for freshness |
-| `futures_prices_daily` | yfinance | `python update_market_data.py --assets futures` |
-| `cboe_indices_daily` | CBOE | `python update_market_data.py --assets iv` |
+| `futures_prices_daily` | yfinance | `python update_market_data.py --assets all --lookback 10` |
+| `cboe_indices_daily` | CBOE | `python update_market_data.py --assets all --lookback 10` |
 | `implied_volatility_daily` | CBOE | Same as above |
 | `ticker_metadata` | yfinance | Auto-generated during updates |
 | `company_overview` | Alpha Vantage | `python fetch_fundamentals.py` |

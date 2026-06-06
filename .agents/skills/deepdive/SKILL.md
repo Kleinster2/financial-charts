@@ -59,7 +59,7 @@ Most entities already have some vault presence. The default path is expansion, n
 
 - **Price freshness** — update before generating charts:
   ```bash
-  python update_market_data.py --lookback 10 --assets stocks
+  python update_market_data.py --lookback 10 --assets all
   ```
 
 - **Price verification** — before writing any stock price into the note, verify against actual DB closing prices. Never trust secondary sources for price data.

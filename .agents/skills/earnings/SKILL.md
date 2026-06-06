@@ -79,7 +79,7 @@ Some companies (e.g., Palantir, Berkshire) have net interest *income*, not expen
 
 1. Start the charting app: `cd /c/Users/klein/financial-charts && python charting_app/app.py`
    - On Windows/Git Bash, background `&` doesn't work. Run in foreground or use `app.test_client()` for verification.
-2. Update price data: `python update_market_data.py --lookback 10 --assets stocks`
+2. Update price data: `python update_market_data.py --lookback 10 --assets all`
 3. Regenerate the fundamentals chart:
    ```bash
    curl "http://localhost:5000/api/chart/lw?tickers=TICKER&metrics=revenue,netincome" \

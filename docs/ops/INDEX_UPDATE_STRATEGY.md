@@ -15,7 +15,7 @@ Your database has **49 index tickers** (^ prefix) tracking market volatility, in
 - **Single-stock volatility indices** (^VXAPL, ^VXAZN, ^VXGOG, ^VXGS, ^VXIBM)
 - Treasury yields (^IRX, ^FVX, ^TNX, ^TYX)
 
-**Script:** `python update_market_data.py --assets etfs --lookback 10`
+**Routine script:** `python update_market_data.py --assets all --lookback 10`
 
 ### Secondary Source: FRED (5 of 49 indices)
 
@@ -26,7 +26,7 @@ Your database has **49 index tickers** (^ prefix) tracking market volatility, in
 4. **^VXV** - 3-Month VIX (discontinued July 2020)
 5. **^EVZ** - Euro Currency Volatility (last updated March 2025)
 
-**Script:** `python update_market_data.py --assets fredindices --lookback 30`
+**Routine script:** `python update_market_data.py --assets all --lookback 10`
 
 ## Daily Update Workflow
 
@@ -42,9 +42,9 @@ python update_market_data.py --status
 
 **Total time:** ~5 minutes for complete update (1,290+ series)
 
-### Alternative: ETFs Only
+### Diagnostic / Backfill Only
 
-If you only want to update indices and ETFs (not stocks):
+Narrow asset selections are for targeted diagnostics or backfills, not routine freshness:
 
 ```bash
 python update_market_data.py --assets etfs fredindices --lookback 10

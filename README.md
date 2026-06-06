@@ -168,9 +168,9 @@ python update_market_data.py --assets all --lookback 10
 # Check data freshness
 python update_market_data.py --status
 
-# Specific asset types only
-python update_market_data.py --assets futures fredindices --lookback 10
-python update_market_data.py --assets fundamentals
+# Narrow asset selections are for diagnostics/backfills only.
+# Routine updates should stay universal:
+python update_market_data.py --assets all --lookback 10
 ```
 
 ### Launch Application

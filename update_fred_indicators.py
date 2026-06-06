@@ -188,13 +188,36 @@ def sync_fred_narrow_only(narrow_updates):
         print(f"  [Narrow] ERROR syncing narrow-only FRED series: {e}")
         return False
 
-def update_fred_indicators(lookback_days=60, codes=None):
+def sync_fred_wide_to_narrow(wide_updates, descriptions):
+    """Write wide-listed FRED series to canonical prices_long."""
+    if not wide_updates:
+        return True
+
+    if not NARROW_SYNC:
+        print("  [Narrow] prices_long unavailable; skipped wide FRED sync")
+        return False
+
+    narrow_df = pd.concat(
+        [data['Close'].rename(code) for code, data in wide_updates.items()],
+        axis=1,
+    ).sort_index()
+
+    try:
+        sync_wide_to_narrow(narrow_df, table='prices_long', value_col='Close', verbose=True)
+        refresh_fred_metadata(wide_updates.keys(), descriptions)
+        return True
+    except Exception as e:
+        print(f"  [Narrow] ERROR syncing wide FRED series: {e}")
+        return False
+
+def update_fred_indicators(lookback_days=60, codes=None, update_legacy_wide=False):
     """
     Update FRED economic indicators.
 
     Args:
         lookback_days: How many days back to check/update (default 60 for monthly data)
         codes: Optional iterable of FRED codes to update.
+        update_legacy_wide: Also rebuild stock_prices_daily compatibility columns.
     """
     print("Updating FRED Economic Indicators")
     print("="*60)
@@ -312,6 +335,17 @@ def update_fred_indicators(lookback_days=60, codes=None):
                     print(f"  {code:20} {row[2]:5} rows, {row[0][:10]} to {row[1][:10]}")
         finally:
             conn.close()
+
+    wide_narrow_success = True
+    if wide_updates:
+        print(f"\nUpdating prices_long with {len(wide_updates)} wide FRED indicators...")
+        wide_narrow_success = sync_fred_wide_to_narrow(wide_updates, existing_indicators)
+
+    if not update_legacy_wide:
+        if wide_updates:
+            print("\nSkipped legacy stock_prices_daily rebuild; prices_long is canonical.")
+            print("Use --legacy-wide only when the deprecated wide compatibility table must be rebuilt.")
+        return narrow_success and wide_narrow_success
 
     if not wide_updates:
         return narrow_success
@@ -431,10 +465,16 @@ if __name__ == "__main__":
                        help='Optional FRED codes to update, e.g. DGS5 DFII5 DFII10 DFII30')
     parser.add_argument('--skip-b3', action='store_true',
                        help='Skip B3 yield curve update')
+    parser.add_argument('--legacy-wide', action='store_true',
+                       help='Also rebuild deprecated stock_prices_daily compatibility columns')
 
     args = parser.parse_args()
 
-    success = update_fred_indicators(lookback_days=args.lookback, codes=args.codes)
+    success = update_fred_indicators(
+        lookback_days=args.lookback,
+        codes=args.codes,
+        update_legacy_wide=args.legacy_wide,
+    )
 
     # Also update B3 yield curve (daily data, shorter lookback)
     if not args.skip_b3:

@@ -72,7 +72,7 @@ Integrated system: database (raw data) → charts (visualization) → vault (`in
 - Add tickers: `python scripts/add_ticker.py TRI RELX MORN`
 - Add fundamentals: `python fetch_fundamentals.py PM` (requires price data first via add_ticker)
 - Check existing fundamentals: `SELECT DISTINCT ticker FROM income_statement_annual ORDER BY ticker;`
-- Update prices: `python update_market_data.py --lookback 10 --assets stocks etfs mutualfunds adrs fx crypto futures iv`
+- Update prices: `python update_market_data.py --lookback 10 --assets all`
 - Synthetic indices: `python scripts/create_aiwd_index.py --store`
 
 **Data freshness and stale symbols:** If publicly available, find and ingest it. Use `/earnings TICKER` for full procedure. Update prices before generating charts if canonical `prices_long` data is >1 day old. Never remove historical data for delisted, acquired, bankrupt, or renamed tickers; keep legacy series for charts, audit trails, and deal/delisting analysis. Exclude dead or renamed symbols only from live refresh and mover screening. In notes, preserve them as "Former ticker" rather than live aliases when they would pollute `quick_movers`. `quick_movers.py` should prefer canonical `prices_long` and compare each ticker's latest non-null close to the latest [[SPY]] session before treating it as a current mover. `stock_prices_daily` can be stale even after a successful refresh; it has hit SQLite's column limit and should be used only as a compatibility fallback.
@@ -86,6 +86,8 @@ Full reference: `docs/chart-api.md` | Start server: `python charting_app/app.py`
 Always use `/api/chart/lw` for price charts. Key params: `tickers`, `start`, `normalize`, `primary` (actor = blue).
 
 **Axis scale:** Charts that are not about returns must use a linear y-axis. Use log scale only for normalized return/performance charts (`normalize=true`, default `log_y=true`) or an explicitly return/growth-rate interpretation. Raw rates, yields, spreads, macro levels, fundamentals, segments, and other level/unit charts must keep `log_y=false`.
+
+**Freshness:** Unless the note is an event note, embedded charts must show the latest available canonical data at generation time. Event notes may keep event-window snapshots; non-event notes can retain older snapshots only in explicitly historical/event sections and must label them as such.
 
 **Naming (CRITICAL):** `-vs-` format for comparisons (`aapl-vs-qqq-price-chart.png`). First ticker = blue (primary). Chart-refresh plugin parses tickers from filenames. Financial statements: `{ticker}-sankey.png`, `{ticker}-waterfall.png` (lowercase, no suffixes).
 

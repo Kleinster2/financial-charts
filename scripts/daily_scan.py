@@ -2,7 +2,7 @@
 Daily scan — automated market data gathering for the /daily-scan skill.
 
 Runs before the AI synthesis step to prepare structured data:
-1. Updates market data (stocks, ETFs, ADRs, FX, futures)
+1. Updates market data across all configured asset groups
 2. Runs sigma movers against vault actors
 3. Checks earnings calendar for today/this week
 4. Checks prediction-market overlay freshness
@@ -43,10 +43,10 @@ def run_cmd(cmd, cwd=None):
 
 
 def update_market_data():
-    """Update prices with a 5-day lookback."""
+    """Update all configured market data with a 5-day lookback."""
     print("[1/6] Updating market data...")
     stdout, stderr, rc = run_cmd(
-        "python update_market_data.py --lookback 5 --assets stocks etfs adrs fx futures"
+        "python update_market_data.py --lookback 5 --assets all"
     )
     if rc != 0:
         print(f"  WARN: update_market_data exited {rc}")

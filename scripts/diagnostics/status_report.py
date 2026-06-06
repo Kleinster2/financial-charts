@@ -100,6 +100,7 @@ def main():
 
     conn = sqlite3.connect(DB_PATH)
     cutoff = trading_days_ago(args.max_age)
+    cutoff_date = cutoff.date()
     today = datetime.now().date()
 
     checks = [
@@ -147,8 +148,19 @@ def main():
         },
         {
             "name": "FRED Yields",
-            "table": "fred_series",
-            "source": "fred_series",
+            "sql": """
+                SELECT
+                    CASE WHEN COUNT(*) = 4 THEN MIN(latest_date) END,
+                    COALESCE(SUM(row_count), 0)
+                FROM (
+                    SELECT Ticker, MAX(date(Date)) AS latest_date, COUNT(*) AS row_count
+                    FROM prices_long
+                    WHERE Close IS NOT NULL
+                      AND Ticker IN ('DGS2', 'DGS5', 'DGS10', 'DGS30')
+                    GROUP BY Ticker
+                )
+            """,
+            "source": "prices_long/DGS2-DGS30",
         },
         {
             "name": "Futures Prices",
@@ -189,7 +201,7 @@ def main():
             results.append((name, f"NO DATA [{source}]", True, is_manual))
             if not is_manual:
                 stale.append(name)
-        elif latest < cutoff:
+        elif latest.date() < cutoff_date:
             age = (today - latest.date()).days
             status = f"{latest.date()} ({age}d ago"
             if count:
@@ -227,7 +239,7 @@ def main():
             print(f"STALE: {', '.join(stale)}")
             sys.exit(1)
         else:
-            print(f"OK: All data fresh (cutoff: {cutoff.date()})")
+            print(f"OK: All data fresh (cutoff: {cutoff_date})")
             sys.exit(0)
 
     if not args.quiet or stale:
@@ -235,7 +247,7 @@ def main():
 {'='*60}
   DATA FRESHNESS REPORT
   {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-  Cutoff: {cutoff.date()} ({args.max_age} trading days)
+  Cutoff: {cutoff_date} ({args.max_age} trading days)
 {'='*60}
 """)
         for name, status, is_stale, is_manual in results:

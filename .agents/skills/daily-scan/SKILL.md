@@ -1,6 +1,6 @@
 ---
 name: daily-scan
-description: "Autonomous daily market scan. Updates market data, screens vault actors for sigma movers (2.5σ standard / 2.0σ high-vol / 6% absolute — see docs/movers-screening.md), audits ticker aliases for Phase-0-invisible names, tracks IPO debuts and stale pre-IPO rounds, scans 8 tracked analysts (docs/analyst-watchlist.md) for new commentary, checks today's earnings calendar, and writes a briefing to the daily note. Time-of-day agnostic — pre-market, intraday, post-close all work. Use for /daily-scan, /morning-scan (legacy), daily sweep, what moved today, pre-market check, what's on the earnings calendar."
+description: "Autonomous daily market scan. Updates market data, screens vault actors for sigma movers (2.5σ standard / 2.0σ high-vol / 6% absolute — see docs/movers-screening.md), audits ticker aliases for Phase-0-invisible names, tracks IPO debuts and stale pre-IPO rounds, scans 8 tracked analysts (docs/analyst-watchlist.md) for new commentary, checks today's earnings calendar, writes a briefing to the daily note, and returns the briefing in chat. Time-of-day agnostic — pre-market, intraday, post-close all work. Use for /daily-scan, /morning-scan (legacy), daily sweep, what moved today, pre-market check, what's on the earnings calendar."
 ---
 
 # Daily Scan
@@ -13,11 +13,15 @@ Act like Eve at Epicenter Capital. Don't wait to be told what to look at. Scan e
 
 ## Workflow
 
+## Output contract
+
+The daily note is the durable copy, but the chat is the user-facing output. Every `/daily-scan` run must end by showing the completed briefing in the conversation, not just a summary of files touched. If the scan was also written to `investing/Daily/YYYY-MM-DD.md`, say that briefly after the briefing; do not replace the briefing with a save confirmation.
+
 ### Phase 0: Data Update, Movers & Audits (local, fast)
 
 Full screening logic and rationale: `docs/movers-screening.md`.
 
-1. `python scripts/daily_scan.py --output /tmp/daily_scan.json` — updates market data (5-day lookback: stocks, ETFs, ADRs, FX, futures), runs `quick_movers.py` with the three-trigger default (2.5σ / 2.0σ high-vol / 6% absolute), reports data freshness.
+1. `python scripts/daily_scan.py --output /tmp/daily_scan.json` — updates market data universally (`update_market_data.py --lookback 5 --assets all`), runs `quick_movers.py` with the three-trigger default (2.5σ / 2.0σ high-vol / 6% absolute), reports data freshness.
 
 Run these three audit scripts in parallel with the sigma screen — they catch failure modes the sigma alone misses:
 
@@ -63,7 +67,7 @@ Deep ingestion (quotes and data points into both the analyst note and the releva
 
 ### Phase 4: Generate Briefing
 
-Write the morning briefing directly in chat. Format:
+Draft the briefing in the exact form that will be both appended to the daily note and shown in chat. Format:
 
 ```
 # Daily Scan — [Date]
@@ -102,6 +106,7 @@ Write the morning briefing directly in chat. Format:
 1. If today's daily note doesn't exist, create it with standard frontmatter.
 2. Add a `## Daily scan` section at the top (before Notes created/expanded) with the briefing. If the day already has a scan section, append a new subsection with the timestamp rather than overwriting — multiple runs per day are fine.
 3. The vault-actions checklist becomes the day's work queue.
+4. Final response: paste the complete briefing in chat, followed by a one-line durability note with the daily-note path and structured-output path when available.
 
 ## Voice
 
