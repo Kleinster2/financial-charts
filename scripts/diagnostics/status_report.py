@@ -15,6 +15,11 @@ import sqlite3
 from datetime import datetime, timedelta
 
 from constants import DB_PATH
+from brazil_rate_series_registry import (
+    BRAZIL_RATE_FREQUENCY_LAG_DAYS,
+    FREQUENCY_DAILY as BRAZIL_FREQUENCY_DAILY,
+    active_brazil_rate_series,
+)
 from fred_series_registry import (
     FRED_FREQUENCY_LAG_DAYS,
     FREQUENCY_DAILY,
@@ -167,6 +172,79 @@ def get_fred_registry_freshness(
     return ("FRED Series", status, False, False), None
 
 
+def get_brazil_rate_freshness(
+    conn: sqlite3.Connection,
+    max_age: int,
+    today,
+) -> tuple[tuple[str, str, bool, bool], str | None]:
+    """Check every active Brazil rate series expected in prices_long."""
+    registry = active_brazil_rate_series()
+    placeholders = ",".join("?" for _ in registry)
+    rows = conn.execute(
+        f"""
+        SELECT Ticker, MAX(date(Date)), COUNT(*)
+        FROM prices_long
+        WHERE Close IS NOT NULL
+          AND Ticker IN ({placeholders})
+        GROUP BY Ticker
+        """,
+        tuple(registry.keys()),
+    ).fetchall()
+    present = {row[0]: (row[1], row[2]) for row in rows}
+
+    daily_cutoff = trading_days_ago(max_age).date()
+    checked = []
+    stale_items = []
+    missing_items = []
+    oldest_by_source = {}
+    total_rows = 0
+
+    for code, series in sorted(registry.items()):
+        row = present.get(code)
+        if row is None:
+            if series.required:
+                missing_items.append(f"{code} NO DATA")
+            continue
+
+        latest = datetime.strptime(str(row[0])[:10], "%Y-%m-%d").date()
+        total_rows += row[1]
+        checked.append(code)
+        oldest = oldest_by_source.get(series.source)
+        if oldest is None or latest < oldest:
+            oldest_by_source[series.source] = latest
+
+        if series.allowed_lag_days is not None:
+            cutoff = today - timedelta(days=series.allowed_lag_days)
+        elif series.frequency == BRAZIL_FREQUENCY_DAILY:
+            cutoff = daily_cutoff
+        else:
+            allowed_lag = BRAZIL_RATE_FREQUENCY_LAG_DAYS[series.frequency]
+            cutoff = today - timedelta(days=allowed_lag)
+
+        if latest < cutoff:
+            age = (today - latest).days
+            stale_items.append(f"{code} {latest} ({age}d, {series.source})")
+
+    if stale_items or missing_items:
+        details = stale_items + missing_items
+        status = (
+            f"{len(details)} stale/missing of {len(checked) + len(missing_items)} checked: "
+            f"{', '.join(details)} [{total_rows:,} rows, prices_long/Brazil rates]"
+        )
+        stale_label = f"Brazil Rates ({', '.join(item.split()[0] for item in details)})"
+        return ("Brazil Rates", status, True, False), stale_label
+
+    freshness_bits = [
+        f"{source} oldest {latest}"
+        for source, latest in sorted(oldest_by_source.items())
+    ]
+    status = (
+        f"{len(checked)} checked; {', '.join(freshness_bits)} "
+        f"({total_rows:,} rows) [prices_long/Brazil rates]"
+    )
+    return ("Brazil Rates", status, False, False), None
+
+
 def main():
     parser = argparse.ArgumentParser(description="Data freshness dashboard")
     parser.add_argument("--max-age", type=int, default=2,
@@ -275,6 +353,11 @@ def main():
     results.append(fred_result)
     if fred_stale:
         stale.append(fred_stale)
+
+    brazil_result, brazil_stale = get_brazil_rate_freshness(conn, args.max_age, today)
+    results.append(brazil_result)
+    if brazil_stale:
+        stale.append(brazil_stale)
 
     # Check fundamentals separately (uses last_updated timestamp)
     fund_latest, fund_count = get_fundamentals_latest(conn)

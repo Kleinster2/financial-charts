@@ -24,9 +24,108 @@ from cboe_iv_fetcher import CBOEImpliedVolatilityFetcher
 from fetch_b3_yield_curve import fetch_historical_curves, update_database as update_b3_database
 from update_fx_ny_close import get_fx_tickers_from_db, download_fx_at_ny_close, update_database as update_fx_database
 from fetch_bcb_rates import fetch_all_bcb_rates, update_database as update_bcb_database
+from brazil_rate_series_registry import B3_DI_SERIES, BCB_RATE_SERIES
 from fred_series_registry import FRED_BOND_SERIES
 from update_fred_indicators import DEFAULT_FRED_LOOKBACK_DAYS, update_fred_indicators
 from update_indices_from_fred import update_indices_from_fred
+
+BRAZIL_UPDATE_OVERLAP_DAYS = 7
+
+
+def get_prices_long_min_latest(tickers: list[str]):
+    """Return the oldest latest date among tickers in canonical prices_long."""
+    import sqlite3
+
+    if not tickers:
+        return None
+
+    placeholders = ",".join("?" for _ in tickers)
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        rows = conn.execute(
+            f"""
+            SELECT Ticker, MAX(date(Date))
+            FROM prices_long
+            WHERE Close IS NOT NULL
+              AND Ticker IN ({placeholders})
+            GROUP BY Ticker
+            """,
+            tuple(tickers),
+        ).fetchall()
+    finally:
+        conn.close()
+
+    if not rows:
+        return None
+
+    return min(datetime.strptime(row[1], "%Y-%m-%d") for row in rows if row[1])
+
+
+def brazil_update_start_date(tickers: list[str], lookback_days: int | None, default_days: int):
+    """Use requested lookback, but expand to heal stale canonical Brazil series."""
+    requested_start = datetime.now() - timedelta(days=lookback_days or default_days)
+    latest = get_prices_long_min_latest(tickers)
+    if latest is None:
+        return requested_start
+
+    catchup_start = latest - timedelta(days=BRAZIL_UPDATE_OVERLAP_DAYS)
+    return min(requested_start, catchup_start)
+
+
+def refresh_prices_long_metadata(series_names: dict[str, str], data_type: str = "macro"):
+    """Refresh ticker_metadata for series present in canonical prices_long."""
+    import sqlite3
+
+    conn = sqlite3.connect(DB_PATH)
+    try:
+        for ticker, name in series_names.items():
+            row = conn.execute(
+                """
+                SELECT MIN(Date), MAX(Date), COUNT(*)
+                FROM prices_long
+                WHERE Ticker = ? AND Close IS NOT NULL
+                """,
+                (ticker,),
+            ).fetchone()
+            if not row or not row[0]:
+                continue
+            conn.execute(
+                """
+                INSERT INTO ticker_metadata
+                    (ticker, name, table_name, data_type, first_date, last_date, data_points)
+                VALUES (?, ?, 'prices_long', ?, ?, ?, ?)
+                ON CONFLICT(ticker) DO UPDATE SET
+                    name = excluded.name,
+                    table_name = excluded.table_name,
+                    data_type = excluded.data_type,
+                    first_date = excluded.first_date,
+                    last_date = excluded.last_date,
+                    data_points = excluded.data_points
+                """,
+                (ticker, name, data_type, row[0], row[1], row[2]),
+            )
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def sync_brazil_rates_to_prices_long(df, series_names: dict[str, str], verbose: bool = True):
+    """Sync fetched Brazil rate DataFrame into canonical prices_long."""
+    if df.empty:
+        return
+
+    cols = [col for col in series_names if col in df.columns]
+    if not cols:
+        return
+
+    import pandas as _pd
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'charting_app'))
+    from sqlite_queries import sync_wide_to_narrow as _sync_wide_to_narrow
+
+    canonical_df = df[cols].copy()
+    canonical_df.index = _pd.to_datetime(canonical_df.index)
+    _sync_wide_to_narrow(canonical_df, table='prices_long', value_col='Close', verbose=verbose)
+    refresh_prices_long_metadata({ticker: series_names[ticker] for ticker in cols})
 
 
 def update_fred_bonds(verbose: bool = True):
@@ -174,18 +273,16 @@ def update_iv_data(verbose: bool = True):
         print("=" * 70)
 
 
-def update_b3_yield_curve(verbose: bool = True):
+def update_b3_yield_curve(verbose: bool = True, lookback_days: int | None = None):
     """Update Brazil DI yield curve from B3."""
-    from datetime import timedelta
 
     if verbose:
         print("\n" + "=" * 70)
         print("Updating B3 DI Yield Curve")
         print("=" * 70)
 
-    # Fetch last 10 days to catch any gaps
     end_date = datetime.now()
-    start_date = end_date - timedelta(days=10)
+    start_date = brazil_update_start_date(list(B3_DI_SERIES), lookback_days, default_days=10)
 
     if verbose:
         print(f"Fetching B3 yield curves from {start_date.date()} to {end_date.date()}...")
@@ -194,11 +291,15 @@ def update_b3_yield_curve(verbose: bool = True):
 
     if not df.empty:
         update_b3_database(df, verbose=verbose)
+        sync_brazil_rates_to_prices_long(df, B3_DI_SERIES, verbose=verbose)
+        ok = True
     elif verbose:
         print("No B3 yield curve data fetched.")
+        ok = False
 
     if verbose:
         print("=" * 70)
+    return ok
 
 
 def update_fx_ny_close(verbose: bool = True):
@@ -226,28 +327,30 @@ def update_fx_ny_close(verbose: bool = True):
         print("=" * 70)
 
 
-def update_bcb_rates_data(verbose: bool = True):
+def update_bcb_rates_data(verbose: bool = True, lookback_days: int | None = None):
     """Update Brazil central bank rates (SELIC, CDI)."""
-    from datetime import timedelta
 
     if verbose:
         print("\n" + "=" * 70)
         print("Updating BCB Rates (SELIC, CDI)")
         print("=" * 70)
 
-    # Fetch last 30 days
     end_date = datetime.now()
-    start_date = end_date - timedelta(days=30)
+    start_date = brazil_update_start_date(list(BCB_RATE_SERIES), lookback_days, default_days=30)
 
     df = fetch_all_bcb_rates(start_date, end_date, verbose=verbose)
 
     if not df.empty:
         update_bcb_database(df, verbose=verbose)
+        sync_brazil_rates_to_prices_long(df, BCB_RATE_SERIES, verbose=verbose)
+        ok = True
     elif verbose:
         print("No BCB rates fetched.")
+        ok = False
 
     if verbose:
         print("=" * 70)
+    return ok
 
 
 def update_fred_data(verbose: bool = True, lookback_days: int | None = None):
@@ -579,7 +682,8 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
         if "b3" in assets_to_run:
             if verbose:
                 print("\n[Orchestrator] Updating B3 DI yield curve")
-            update_b3_yield_curve(verbose=verbose)
+            if update_b3_yield_curve(verbose=verbose, lookback_days=lookback_days) is False:
+                success = False
 
         # Run FX/Crypto NY close updater if requested (corrects to 4pm EST)
         if "fxclose" in assets_to_run:
@@ -591,7 +695,8 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
         if "bcb" in assets_to_run:
             if verbose:
                 print("\n[Orchestrator] Updating BCB rates (SELIC, CDI)")
-            update_bcb_rates_data(verbose=verbose)
+            if update_bcb_rates_data(verbose=verbose, lookback_days=lookback_days) is False:
+                success = False
 
         # Run FRED indicators updater if requested (ECB rates, etc.)
         if "fred" in assets_to_run:
