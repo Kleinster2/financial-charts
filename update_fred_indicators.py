@@ -18,88 +18,26 @@ try:
 except ImportError:
     NARROW_SYNC = False
 from fred_utils import download_from_fred
+from fred_series_registry import (
+    FRED_NARROW_ONLY_SERIES,
+    FRED_TIER2_SERIES,
+    FRED_UPDATE_WIDE_SERIES,
+)
 
 DEFAULT_FRED_LOOKBACK_DAYS = 120
+FRED_UPDATE_OVERLAP_DAYS = 7
+FRED_FETCH_RETRIES = 0
+FRED_FETCH_TIMEOUT_SECONDS = 10.0
 
 # FRED economic indicators currently in database
-FRED_INDICATORS = {
-    # Treasury yields (daily)
-    'DGS2': '2-Year Treasury',
-    'DGS10': '10-Year Treasury',
-    'DGS30': '30-Year Treasury',
-    'T10Y2Y': '10Y-2Y Spread',
-
-    # Fed policy (monthly/daily)
-    'FEDFUNDS': 'Fed Funds Rate',
-    'DFEDTARU': 'Fed Target Upper',
-    'DFEDTARL': 'Fed Target Lower',
-    # TODO (post-narrow-FRED migration): seed DFF, SOFR, IORB. Blocked by
-    # wide-table column limit — see download_fred_indicators.py fed_policy.
-
-    # Inflation (monthly)
-    'CPIAUCSL': 'CPI All Items',
-    'CPILFESL': 'Core CPI',
-    'T5YIE': '5Y Breakeven Inflation',
-    'T10YIE': '10Y Breakeven Inflation',
-
-    # Credit spreads (daily)
-    'BAMLH0A0HYM2': 'High Yield Spread',
-    'BAMLC0A0CM': 'Corporate Spread',
-}
+FRED_INDICATORS = FRED_UPDATE_WIDE_SERIES
 
 # FRED series stored only in prices_long. stock_prices_daily is at SQLite's
 # 2000-column limit, so new macro series should enter through the narrow table.
-NARROW_ONLY_FRED_INDICATORS = {
-    'DGS5': '5-Year Treasury',
-    'DFII5': '5-Year TIPS Real Yield',
-    'DFII10': '10-Year TIPS Real Yield',
-    'DFII30': '30-Year TIPS Real Yield',
-}
+NARROW_ONLY_FRED_INDICATORS = FRED_NARROW_ONLY_SERIES
 
 # Add Tier 2 indicators if they've been downloaded
-TIER2_INDICATORS = {
-    # Labor (monthly)
-    'UNRATE': 'Unemployment Rate',
-    'PAYEMS': 'Nonfarm Payrolls',
-    'CIVPART': 'Labor Force Participation',
-    'U6RATE': 'U6 Unemployment',
-
-    # Economic activity
-    'GDP': 'GDP',
-    'GDPC1': 'Real GDP',
-    'UMCSENT': 'Consumer Sentiment',
-    'RSXFS': 'Retail Sales',
-
-    # Liquidity
-    'WALCL': 'Fed Balance Sheet',
-    'RRPONTSYD': 'Reverse Repo',
-    'WTREGEN': 'Treasury General Account',
-
-    # Financial stress
-    'STLFSI4': 'Financial Stress Index',
-    'TEDRATE': 'TED Spread',
-
-    # Commodities (daily)
-    'DCOILWTICO': 'WTI Crude Oil',
-    'GOLDAMGBD228NLBM': 'Gold Price',
-    'DCOILBRENTEU': 'Brent Crude',
-
-    # Forex (daily)
-    'DEXCHUS': 'CNY/USD',
-    'DEXJPUS': 'JPY/USD',
-    'DEXUSEU': 'USD/EUR',
-
-    # Brazil interest rates (monthly)
-    'INTDSRBRM193N': 'Brazil SELIC Rate',
-    'IRSTCI01BRM156N': 'Brazil CDI Rate',
-    'INTGSTBRM193N': 'Brazil T-Bill Rate',
-
-    # ECB/Euro rates (daily)
-    'ECBDFR': 'ECB Deposit Rate',
-    'ECBESTRVOLWGTTRMDMNRT': 'Euro STR (overnight)',
-    'ECBMRRFR': 'ECB Main Refi Rate',
-    'ECBMLFR': 'ECB Marginal Lending Rate',
-}
+TIER2_INDICATORS = FRED_TIER2_SERIES
 
 def get_existing_indicators(conn):
     """Check which FRED indicators are already in the database."""
@@ -128,6 +66,22 @@ def get_latest_narrow_date(conn, ticker):
         return row[0] if row else None
     except Exception:
         return None
+
+
+def parse_db_date(value):
+    """Parse a SQLite date/timestamp string to datetime."""
+    return datetime.strptime(str(value)[:10], "%Y-%m-%d")
+
+
+def get_series_update_cutoff(conn, ticker, fallback_cutoff, seed_full_history=False):
+    """Use local latest date plus overlap instead of a fixed global window."""
+    latest = get_latest_narrow_date(conn, ticker)
+    if latest:
+        return parse_db_date(latest) - timedelta(days=FRED_UPDATE_OVERLAP_DAYS)
+    if seed_full_history:
+        return datetime(1900, 1, 1)
+    return fallback_cutoff
+
 
 def refresh_fred_metadata(codes, descriptions):
     """Refresh ticker_metadata for FRED series present in prices_long."""
@@ -261,15 +215,29 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
 
     wide_updates = {}
     narrow_updates = {}
+    failed_codes = []
+
+    conn = get_db_connection(row_factory=None)
+    try:
+        wide_cutoffs = {
+            code: get_series_update_cutoff(conn, code, cutoff_date)
+            for code in existing_indicators
+        }
+    finally:
+        conn.close()
 
     for i, (code, description) in enumerate(existing_indicators.items(), 1):
         print(f"[{i}/{len(existing_indicators)}] {code:20} {description:25}...", end=" ")
 
-        data = download_from_fred(code)
+        data = download_from_fred(
+            code,
+            retries=FRED_FETCH_RETRIES,
+            timeout=FRED_FETCH_TIMEOUT_SECONDS,
+        )
 
         if data is not None and not data.empty:
             # Filter to recent data only
-            recent_data = data[data.index >= cutoff_date]
+            recent_data = data[data.index >= wide_cutoffs[code]]
 
             if not recent_data.empty:
                 wide_updates[code] = recent_data
@@ -277,6 +245,7 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
             else:
                 print("OK (no new data)")
         else:
+            failed_codes.append(code)
             print("FAIL")
 
     print()
@@ -293,16 +262,24 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
             code: get_latest_narrow_date(conn, code)
             for code in narrow_indicators
         }
+        narrow_cutoffs = {
+            code: get_series_update_cutoff(conn, code, cutoff_date, seed_full_history=True)
+            for code in narrow_indicators
+        }
     finally:
         conn.close()
 
     for i, (code, description) in enumerate(narrow_indicators.items(), 1):
         latest = narrow_latest.get(code)
-        filter_cutoff = datetime(1900, 1, 1) if latest is None else cutoff_date
+        filter_cutoff = narrow_cutoffs[code]
         seed_note = "seed" if latest is None else "update"
         print(f"[{i}/{len(narrow_indicators)}] {code:20} {description:25} ({seed_note})...", end=" ")
 
-        data = download_from_fred(code)
+        data = download_from_fred(
+            code,
+            retries=FRED_FETCH_RETRIES,
+            timeout=FRED_FETCH_TIMEOUT_SECONDS,
+        )
 
         if data is not None and not data.empty:
             recent_data = data[data.index >= filter_cutoff]
@@ -312,9 +289,13 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
             else:
                 print("OK (no new data)")
         else:
+            failed_codes.append(code)
             print("FAIL")
 
     if not wide_updates and not narrow_updates:
+        if failed_codes:
+            print(f"\nFAILED FRED series: {', '.join(failed_codes)}")
+            return False
         print("\nNo updates needed - all indicators are current")
         return True
 
@@ -349,7 +330,9 @@ def update_fred_indicators(lookback_days=DEFAULT_FRED_LOOKBACK_DAYS, codes=None,
         if wide_updates:
             print("\nSkipped legacy stock_prices_daily rebuild; prices_long is canonical.")
             print("Use --legacy-wide only when the deprecated wide compatibility table must be rebuilt.")
-        return narrow_success and wide_narrow_success
+        if failed_codes:
+            print(f"\nFAILED FRED series: {', '.join(failed_codes)}")
+        return narrow_success and wide_narrow_success and not failed_codes
 
     if not wide_updates:
         return narrow_success

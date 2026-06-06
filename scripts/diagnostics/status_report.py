@@ -15,6 +15,11 @@ import sqlite3
 from datetime import datetime, timedelta
 
 from constants import DB_PATH
+from fred_series_registry import (
+    FRED_FREQUENCY_LAG_DAYS,
+    FREQUENCY_DAILY,
+    active_prices_long_fred_series,
+)
 
 
 def trading_days_ago(n: int) -> datetime:
@@ -70,24 +75,6 @@ def get_wide_table_latest(conn: sqlite3.Connection, table: str) -> tuple:
         return None, None
 
 
-def fred_prices_long_check(tickers: tuple[str, ...]) -> str:
-    """Return SQL checking the oldest latest date across required FRED tickers."""
-    placeholders = ", ".join(f"'{ticker}'" for ticker in tickers)
-    required_count = len(tickers)
-    return f"""
-        SELECT
-            CASE WHEN COUNT(*) = {required_count} THEN MIN(latest_date) END,
-            COALESCE(SUM(row_count), 0)
-        FROM (
-            SELECT Ticker, MAX(date(Date)) AS latest_date, COUNT(*) AS row_count
-            FROM prices_long
-            WHERE Close IS NOT NULL
-              AND Ticker IN ({placeholders})
-            GROUP BY Ticker
-        )
-    """
-
-
 def get_fundamentals_latest(conn: sqlite3.Connection) -> tuple:
     """Get latest update from company_overview table."""
     try:
@@ -104,6 +91,80 @@ def get_fundamentals_latest(conn: sqlite3.Connection) -> tuple:
         return None, row[1] if row else 0
     except sqlite3.OperationalError:
         return None, 0
+
+
+def get_fred_registry_freshness(
+    conn: sqlite3.Connection,
+    max_age: int,
+    today,
+) -> tuple[tuple[str, str, bool, bool], str | None]:
+    """Check every active FRED registry series that is present in prices_long."""
+    registry = active_prices_long_fred_series()
+    if not registry:
+        return ("FRED Series", "NO REGISTRY [prices_long/FRED]", True, False), "FRED Series"
+
+    placeholders = ",".join("?" for _ in registry)
+    rows = conn.execute(
+        f"""
+        SELECT Ticker, MAX(date(Date)), COUNT(*)
+        FROM prices_long
+        WHERE Close IS NOT NULL
+          AND Ticker IN ({placeholders})
+        GROUP BY Ticker
+        """,
+        tuple(registry.keys()),
+    ).fetchall()
+    present = {row[0]: (row[1], row[2]) for row in rows}
+
+    daily_cutoff = trading_days_ago(max_age).date()
+    checked = []
+    stale_items = []
+    missing_items = []
+    oldest_by_frequency = {}
+    total_rows = 0
+
+    for code, series in sorted(registry.items()):
+        row = present.get(code)
+        if row is None:
+            if series.required:
+                missing_items.append(f"{code} NO DATA")
+            continue
+
+        latest = datetime.strptime(str(row[0])[:10], "%Y-%m-%d").date()
+        total_rows += row[1]
+        checked.append(code)
+        oldest = oldest_by_frequency.get(series.frequency)
+        if oldest is None or latest < oldest:
+            oldest_by_frequency[series.frequency] = latest
+
+        if series.frequency == FREQUENCY_DAILY:
+            cutoff = daily_cutoff
+        else:
+            allowed_lag = series.allowed_lag_days or FRED_FREQUENCY_LAG_DAYS[series.frequency]
+            cutoff = today - timedelta(days=allowed_lag)
+
+        if latest < cutoff:
+            age = (today - latest).days
+            stale_items.append(f"{code} {latest} ({age}d, {series.frequency})")
+
+    if stale_items or missing_items:
+        details = stale_items + missing_items
+        status = (
+            f"{len(details)} stale/missing of {len(checked) + len(missing_items)} checked: "
+            f"{', '.join(details)} [{total_rows:,} rows, prices_long/FRED registry]"
+        )
+        stale_label = f"FRED Series ({', '.join(item.split()[0] for item in details)})"
+        return ("FRED Series", status, True, False), stale_label
+
+    freshness_bits = [
+        f"{frequency} oldest {latest}"
+        for frequency, latest in sorted(oldest_by_frequency.items())
+    ]
+    status = (
+        f"{len(checked)} checked; {', '.join(freshness_bits)} "
+        f"({total_rows:,} rows) [prices_long/FRED registry]"
+    )
+    return ("FRED Series", status, False, False), None
 
 
 def main():
@@ -153,31 +214,6 @@ def main():
             "table": "implied_volatility_daily",
             "date_col": "date",
             "source": "implied_volatility_daily",
-        },
-        {
-            "name": "Credit Spreads",
-            "sql": """
-                SELECT MAX(date(Date)), COUNT(*)
-                FROM prices_long
-                WHERE Close IS NOT NULL
-                  AND Ticker IN ('BAMLH0A0HYM2', 'BAMLC0A0CM', 'BAMLC0A4CBBB')
-            """,
-            "source": "prices_long/FRED",
-        },
-        {
-            "name": "FRED Yields",
-            "sql": fred_prices_long_check(("DGS2", "DGS5", "DGS10", "DGS30")),
-            "source": "prices_long/DGS2-DGS30",
-        },
-        {
-            "name": "FRED Curve",
-            "sql": fred_prices_long_check(("T10Y2Y",)),
-            "source": "prices_long/T10Y2Y",
-        },
-        {
-            "name": "FRED Breakevens",
-            "sql": fred_prices_long_check(("T5YIE", "T10YIE")),
-            "source": "prices_long/T5YIE-T10YIE",
         },
         {
             "name": "Futures Prices",
@@ -234,6 +270,11 @@ def main():
                 status += f", {count:,} rows"
             status += f") [{source}]"
             results.append((name, status, False, is_manual))
+
+    fred_result, fred_stale = get_fred_registry_freshness(conn, args.max_age, today)
+    results.append(fred_result)
+    if fred_stale:
+        stale.append(fred_stale)
 
     # Check fundamentals separately (uses last_updated timestamp)
     fund_latest, fund_count = get_fundamentals_latest(conn)

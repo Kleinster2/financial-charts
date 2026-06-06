@@ -219,6 +219,10 @@ This adds:
 
 ## Troubleshooting
 
+### Freshness audit
+
+`python update_market_data.py --status` uses `fred_series_registry.py` to check every active FRED series present in canonical `prices_long`, not just a few hand-picked buckets. Daily series use the report's trading-day cutoff; weekly, monthly, and quarterly series use frequency-aware lag windows from the registry. If a FRED series is stale, the report names the exact ticker.
+
 ### If update fails:
 
 1. **Check internet connection**
@@ -288,13 +292,10 @@ No code changes needed - FRED indicators are first-class citizens in your databa
 
 ## Future Expansion
 
-Want to add more FRED series? Edit `download_fred_indicators.py` and add to `FRED_INDICATORS` dict:
+Want to add more FRED series? Add it first to `fred_series_registry.py` with its description, category, frequency, update group, and whether it is required. Then wire the initial download category in `download_fred_indicators.py` if it needs a historical wide-table seed:
 
 ```python
-'your_category': {
-    'FRED_CODE': 'Description',
-    'DEXUSUK': 'USD/GBP Exchange Rate',
-}
+FredSeries("DEXUSUK", "USD/GBP Exchange Rate", "forex", FREQUENCY_DAILY, "tier2")
 ```
 
 Browse 841,000+ series at https://fred.stlouisfed.org/

@@ -24,6 +24,7 @@ from cboe_iv_fetcher import CBOEImpliedVolatilityFetcher
 from fetch_b3_yield_curve import fetch_historical_curves, update_database as update_b3_database
 from update_fx_ny_close import get_fx_tickers_from_db, download_fx_at_ny_close, update_database as update_fx_database
 from fetch_bcb_rates import fetch_all_bcb_rates, update_database as update_bcb_database
+from fred_series_registry import FRED_BOND_SERIES
 from update_fred_indicators import DEFAULT_FRED_LOOKBACK_DAYS, update_fred_indicators
 from update_indices_from_fred import update_indices_from_fred
 
@@ -40,26 +41,7 @@ def update_fred_bonds(verbose: bool = True):
         print("Updating FRED Corporate Bond Yields")
         print("=" * 70)
 
-    series_map = {
-        "BAMLC0A0CM": "ICE BofA US Corporate Index OAS",
-        "BAMLC0A4CBBB": "ICE BofA BBB US Corporate Index OAS",
-        "BAMLC0A1CAAA": "ICE BofA AAA US Corporate Index OAS",
-        "BAMLH0A0HYM2": "ICE BofA US High Yield Index OAS",
-        "AAA": "Moodys Aaa Corporate Bond Yield",
-        "BAA": "Moodys Baa Corporate Bond Yield",
-        "BAA10Y": "Moodys Baa-10Y Treasury Spread",
-        "AAA10Y": "Moodys Aaa-10Y Treasury Spread",
-        "BAMLC0A1CAAAEY": "ICE BofA AAA Corporate Effective Yield",
-        "BAMLC0A2CAAEY": "ICE BofA AA Corporate Effective Yield",
-        "BAMLC0A3CAEY": "ICE BofA A Corporate Effective Yield",
-        "BAMLC0A4CBBBEY": "ICE BofA BBB Corporate Effective Yield",
-        "BAMLH0A0HYM2EY": "ICE BofA High Yield Effective Yield",
-        "BAMLC1A0C13YEY": "ICE BofA 1-3 Year Corporate Yield",
-        "BAMLC2A0C35YEY": "ICE BofA 3-5 Year Corporate Yield",
-        "BAMLC8A0C15PY": "ICE BofA 15+ Year Corporate Yield",
-        "BAMLC0A2CAA": "ICE BofA AA Corporate Index OAS",
-        "BAMLC0A3CA": "ICE BofA A Corporate Index OAS",
-    }
+    series_map = FRED_BOND_SERIES
 
     conn = sqlite3.connect(DB_PATH)
     start = datetime.now() - timedelta(days=60)
@@ -93,9 +75,43 @@ def update_fred_bonds(verbose: bool = True):
         existing.index.name = "Date"
         existing.to_sql("fred_series", conn, if_exists="replace", index=True)
 
-        # Add metadata
+        # Canonical sync: keep prices_long current as the freshness authority.
         for series_id, name in series_map.items():
-            conn.execute("INSERT OR REPLACE INTO ticker_metadata (ticker, name) VALUES (?, ?)", (series_id, name))
+            if series_id not in existing.columns:
+                continue
+            series = existing[series_id].dropna()
+            for date, value in series.items():
+                conn.execute(
+                    """
+                    INSERT OR REPLACE INTO prices_long (Date, Ticker, Close)
+                    VALUES (?, ?, ?)
+                    """,
+                    (date.strftime("%Y-%m-%d 00:00:00"), series_id, float(value)),
+                )
+            row = conn.execute(
+                """
+                SELECT MIN(Date), MAX(Date), COUNT(*)
+                FROM prices_long
+                WHERE Ticker = ? AND Close IS NOT NULL
+                """,
+                (series_id,),
+            ).fetchone()
+            if row and row[0]:
+                conn.execute(
+                    """
+                    INSERT INTO ticker_metadata
+                        (ticker, name, table_name, data_type, first_date, last_date, data_points)
+                    VALUES (?, ?, 'prices_long', 'macro', ?, ?, ?)
+                    ON CONFLICT(ticker) DO UPDATE SET
+                        name = excluded.name,
+                        table_name = excluded.table_name,
+                        data_type = excluded.data_type,
+                        first_date = excluded.first_date,
+                        last_date = excluded.last_date,
+                        data_points = excluded.data_points
+                    """,
+                    (series_id, name, row[0], row[1], row[2]),
+                )
         conn.commit()
 
     conn.close()
