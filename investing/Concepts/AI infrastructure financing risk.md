@@ -79,18 +79,26 @@ Risk test: when a hyperscaler reports FCF improvement, check whether the improve
 
 ## Hyperscaler equity-dilution channel (Jun 2026)
 
-The Jun 1 [[Alphabet equity raise June 2026]] adds a new risk channel: dilution at the mega-cap hyperscaler level. Before this, the main AI-infrastructure financing risks in this note were private-credit exposure, SPV opacity, lease/accounting treatment, counterparty circularity, and GPU depreciation. Alphabet's up-to-$80B stock raise says the parent-company share count itself can become part of the AI-capex funding stack.
+The Jun 1 [[Alphabet equity raise June 2026]] adds a new risk channel: dilution at the mega-cap hyperscaler level. Before this, the main AI-infrastructure financing risks in this note were private-credit exposure, SPV opacity, lease/accounting treatment, counterparty circularity, and GPU depreciation. Alphabet's initial up-to-$80B stock raise, later FT-described as $85B after demand upsizing, says the parent-company share count itself can become part of the AI-capex funding stack.
 
 | Risk channel | Alphabet evidence | Why it matters |
 |---|---|---|
-| Dilution / share-count pressure | Up to $80B planned equity issuance, including $15B common stock, $15B mandatory-convertible preferred/depositary shares, a $40B ATM program, and $10B to [[Berkshire Hathaway]] | AI capacity now competes directly with existing shareholders, not only with buybacks |
+| Dilution / share-count pressure | Initial up-to-$80B planned equity issuance, later described by FT as $85B after a $5B demand upsizing; includes $15B common stock, $15B mandatory-convertible preferred/depositary shares, a $40B ATM program, and $10B to [[Berkshire Hathaway]] | AI capacity now competes directly with existing shareholders, not only with buybacks |
 | Mixed funding stack | FT reported $85B of fresh debt and more than $100B of total debt alongside the equity plan | Equity issuance does not remove credit exposure; it layers onto it |
 | Tax / SBC mechanics | 424B5 says ATM proceeds mainly facilitate a change in how Alphabet meets tax obligations tied to vesting employee equity awards | AI-capex funding is intertwined with compensation-share treatment and share-count management |
 | Market-reaction uncertainty | FT reported an after-hours decline; Jun 2 close was not available during ingestion | A completed market-reaction check is needed before treating the tape as settled |
 
 The risk is not that Alphabet cannot raise the money. It can. The risk is that AI infrastructure becomes an equity-market absorption problem even for the highest-quality platforms. If peers follow, the financing-risk note should treat "hyperscaler dilution" as its own category beside private credit and off-balance-sheet vehicles.
 
-*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026.*
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026; [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026.*
+
+### Meta peer-copycat signal (Jun 2026)
+
+FT's Jun. 5 [[Meta]] report is the first live test of the peer-following clause. Meta is considering a tens-of-billions stock sale to fund AI infrastructure after Alphabet's raise cleared strong demand, while still keeping all options open and without hiring banks. META closed Jun. 5 down 5.51%, versus XLC -1.27% and QQQ -4.80%; the XLC-adjusted abnormal move was -4.24%, about -2.0x the prior-90-session META-minus-XLC residual volatility.
+
+That tape is not a full verdict because the same session had a broad Nasdaq/chip selloff. But the sector-adjusted move shows the market is already charging Meta for the possibility that AI capex becomes direct dilution, not just lower buybacks, higher debt, or off-balance-sheet leases.
+
+*Source: [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026; price source: local `prices_long` closes through Jun. 5 2026.*
 
 ---
 

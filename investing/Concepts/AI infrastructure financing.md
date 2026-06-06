@@ -1,6 +1,6 @@
 #concept #finance #datacenter #ai
 
-The capital stack behind AI buildout. Hyperscalers need $100Bs; private credit, PE, debt markets, partner vehicles, and now common-equity issuance are filling the gap.
+The capital stack behind AI buildout. Hyperscalers need $100Bs; private credit, PE, debt markets, partner vehicles, customer offtake, and now common-equity issuance are filling the gap.
 
 **Deep dives:**
 - [[AI infrastructure deals]] — detailed capital stacks for 10 major deals
@@ -74,8 +74,9 @@ Problem: Even hyperscalers don't want this on balance sheet. Enter private capit
 | Strategic cloud equity + offtake | Cloud provider invests in frontier lab while lab commits to buy cloud/chip capacity | [[Anthropic hyperscaler financing surge April 2026]] ([[Amazon]] + [[Google]]) |
 | Chip-backed neocloud JV | Chip vendor supplies silicon/software while private capital funds a separate operating company | [[Google-Blackstone TPU cloud venture 2026]] |
 | Listed neocloud capital markets | Strategic equity + convertible notes fund GPU-cloud buildout; customers provide demand anchors | [[Nebius]] $700M strategic equity + ~$4.3375B convertibles |
-| Hyperscaler equity issuance | Mega-cap issuer sells stock / equity-linked securities to fund AI infrastructure and tax/share-compensation mechanics | [[Alphabet equity raise June 2026]] |
+| Hyperscaler equity issuance | Mega-cap issuer sells stock / equity-linked securities to fund AI infrastructure and tax/share-compensation mechanics | [[Alphabet equity raise June 2026]] ($85B per FT after upsizing); [[Meta]] exploration |
 | IPO primary equity | Private platform sells public common stock to fund AI compute plus launch/satellite capacity | [[SpaceX IPO 2026]] |
+| Compute-capacity offtake | AI lab or hyperscaler signs multi-year lease for GPU capacity; contract supports utilization but is not sponsor capital | [[SpaceX]] / [[Google Cloud]] Jun. 2026 lease; [[Anthropic]] Colossus capacity |
 
 See [[AI infrastructure deals]] for detailed capital stacks.
 
@@ -88,6 +89,14 @@ The Jun. 4 [[SpaceX IPO 2026]] FWP adds public IPO equity to the AI-infrastructu
 That makes the structure different from a clean data-center SPV. Public investors are funding the integrated stack: terrestrial compute, [[xAI]] / [[Grok]] distribution, [[Starlink]] constellation expansion, and the launch infrastructure needed to scale V3 satellites, V2 mobile, and future orbital compute. The financing read is therefore broader than "AI data center capital raise." It is common-equity funding for a vertically integrated AI / space platform whose bottlenecks sit across chips, power, launch cadence, satellites, and balance-sheet leverage.
 
 *Sources: SEC S-1/A filed Jun. 3 2026; SEC FWP filed Jun. 4 2026; see [[SpaceX IPO 2026]].*
+
+### Customer offtake as IPO de-risking (Jun. 2026)
+
+FT's Jun. 5 Google update adds a second, non-equity support channel to the SpaceX IPO financing story: customer offtake. [[Google Cloud]] is paying $920M/month for access to 110,000 [[NVIDIA]] GPUs plus supporting components through Jun. 2029 unless canceled earlier, while FT says [[Anthropic]]'s SpaceX capacity agreements include 325,000 [[NVIDIA]] GPUs at [[Colossus]] facilities in Tennessee. Together, the Google and Anthropic agreements would contribute >$26B of annual SpaceX revenue.
+
+This is not capital raised by SpaceX, but it can serve the same underwriting function: it shows public investors that new AI compute capacity has identifiable external buyers. The risk is cancellation/customer concentration and the fact that the economics still depend on [[NVIDIA]] GPU capacity rather than proprietary [[TERAFAB]] chips.
+
+*Source: FT, Jun. 5 2026: https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626.*
 
 ---
 
@@ -209,11 +218,21 @@ The key distinction is between a temporary cash-flow trough and a structural fun
 
 ### Alphabet equity issuance as new funding channel (Jun 2026)
 
-The Jun 1 [[Alphabet equity raise June 2026]] turns the May 2026 FCF squeeze into an explicit equity-market financing channel. Alphabet is planning up to $80B of equity funding: $15B of Class A / Class C common stock, $15B of mandatory-convertible preferred/depositary shares, a $40B at-the-market Class A / Class C program, and $10B privately placed with [[Berkshire Hathaway]]. That sits beside the existing debt stack rather than replacing it; FT also reported $85B of fresh debt and more than $100B of total debt.
+The Jun 1 [[Alphabet equity raise June 2026]] turns the May 2026 FCF squeeze into an explicit equity-market financing channel. Alphabet's initial package was up to $80B of equity funding: $15B of Class A / Class C common stock, $15B of mandatory-convertible preferred/depositary shares, a $40B at-the-market Class A / Class C program, and $10B privately placed with [[Berkshire Hathaway]]. FT's Jun. 5 Meta follow-up described the transaction as a record $85B share deal after a $5B increase on strong demand. That sits beside the existing debt stack rather than replacing it; FT also reported $85B of fresh debt and more than $100B of total debt.
 
 The taxonomy implication is important: the AI infrastructure funding map no longer stops at "hyperscaler balance sheet vs private-credit SPV." It now includes direct dilution at the mega-cap platform layer. That is still cheaper and cleaner than distressed borrowing, but it changes the investor bargain: shareholders are funding capacity in exchange for future AI revenue, not merely accepting lower buybacks while operating cash flow covers the build.
 
-*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026.*
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026; [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026.*
+
+### Meta peer follow-through watch (Jun 2026)
+
+FT's Jun. 5 [[Meta]] report turns Alphabet's stock offering from an idiosyncratic Google funding event into a possible peer category. Meta is considering a tens-of-billions stock sale after Alphabet's $85B deal was upsized by $5B on demand, with [[Susan Li]] and [[Dina Powell McCormick]] leading internal talks. The important caveat is status: Meta has not hired banks and may not issue equity.
+
+If Meta proceeds, the funding taxonomy changes again. The AI buildout would have moved through four listed-hyperscaler pressure valves in sequence: debt issuance, buyback suspension, off-balance-sheet / private-capital data-center vehicles, and then direct common-equity or equity-linked issuance. That means dilution is no longer just an Alphabet-specific implementation detail; it becomes a live funding channel for any hyperscaler whose capex guide is outrunning operating cash flow and investor tolerance.
+
+No new power plant, [[Power purchase agreement]], interconnection, grid region, or MW target was disclosed. This is a capital-stack story, not a new physical-capacity asset.
+
+*Source: [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026.*
 
 ---
 
@@ -266,7 +285,7 @@ Who loses:
 
 ---
 
-*Updated 2026-06-05*
+*Updated 2026-06-06*
 
 Sources:
 - [[Bloomberg]] (Oct 31, 2025) — off-balance-sheet trend
@@ -284,6 +303,7 @@ Sources:
 - [[Nebius]] — listed GPU neocloud capital-markets stack
 - [[Google-Blackstone TPU cloud venture 2026]] — chip-backed TPU neocloud JV
 - [[Neocloud financing]] — capital-provider map across CRWV / NBIS / TPU JV
+- [[SpaceX IPO 2026]] — IPO primary equity and customer-offtake case
 - [[Meta]] — SPV template deal + Project Walleye (combined DC + power financing)
 - [[EdgeConneX]] — Meta-backed DC operator, first combined DC + power loan ($3B, [[EQT]])
 - [[OpenAI]] — 26 GW committed

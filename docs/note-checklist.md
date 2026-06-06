@@ -45,6 +45,7 @@ These cannot be automated. Review each one.
 - [ ] **No info left outside note** — all research findings go in the note, not just conversation
 - [ ] Board table exists (companies) — Chair, independent vs insider, notable affiliations
 - [ ] Principals table exists (funds) — PE/VC: founding partners; sovereign funds: CEO, CIO; hedge funds: founder, PM
+- [ ] **Founder edge captured for funds/private capital** — PE/VC/hedge fund notes explain who the founders/principals are, why their network or prior platform gives the firm access, and what third-party source confirms the origin story. A founder row in Quick stats is not enough.
 
 ### Specificity
 
@@ -60,6 +61,7 @@ These cannot be automated. Review each one.
 - [ ] Stubs and thin notes skip this (not enough surface area to interpret)
 - [ ] Tensions, contradictions, and structural patterns in the facts are surfaced
 - [ ] Open questions are explicit, not papered over with a tidy narrative
+- [ ] **Chat read-back matches the file** — before calling a fund/private-capital note done, answer in one paragraph: "who are the people and why can they source this capital/access?" If the answer is sharper in chat than in the note, port it back before finishing.
 
 ### Public-company M&A market reaction
 

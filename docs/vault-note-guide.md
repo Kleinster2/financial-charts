@@ -113,6 +113,20 @@ An optional "Leadership (current)" table for actor notes where organizational st
 
 ---
 
+## Founder Edge (Private Capital / Funds)
+
+For PE, VC, hedge fund, family-office, and other private-capital actor notes, founder identity is often the thesis. A mature fund note must explain who the founders or principals are, not merely list their names in Quick stats.
+
+Required when the note is more than a stub:
+- `## Founder read` or `## Principals` section with the key people, prior platforms, family/business networks, sourcing edge, and capital-formation role
+- At least one third-party or independent source for the origin/network story when available, not only official bios
+- A sentence connecting those people to the firm's actual edge: LP access, founder access, customer introductions, regulatory/political network, sector expertise, or proprietary sourcing
+- Support stubs for the people and non-obvious institutions that make the network legible
+
+Failure mode this prevents: creating a compliant fund note that lists founders but misses why those founders make the fund investable or differentiated. For private capital, "who are they?" is not biographical garnish; it is often the core answer.
+
+---
+
 ## Synthesis Sections
 
 Distinct from Synopsis (which frames the key economic questions for actors). Synthesis is the "so what" — interpretation of where a thesis or situation stands now, derived from the accumulated data in the note.

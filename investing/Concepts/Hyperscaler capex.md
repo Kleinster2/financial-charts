@@ -136,11 +136,23 @@ Two caveats matter. First, free cash flow is not a GAAP-defined metric; leased d
 
 ## Jun 1, 2026 Alphabet equity raise - common equity enters the stack
 
-[[Alphabet]]'s up-to-$80B equity raise is the cleanest evidence that the hyperscaler capex cycle has moved beyond the "free cash flow trough" framing. The May 8 FT / [[Visible Alpha]] story showed the Big 4 capex and FCF lines crossing uncomfortably; the Jun 1 FT report and Jun 2 SEC supplements show the next funding instrument. Alphabet is adding common equity to the stack through $15B of common stock, $15B of mandatory-convertible preferred/depositary shares, a $40B ATM program, and a $10B [[Berkshire Hathaway]] private placement.
+[[Alphabet]]'s equity raise is the cleanest evidence that the hyperscaler capex cycle has moved beyond the "free cash flow trough" framing. The May 8 FT / [[Visible Alpha]] story showed the Big 4 capex and FCF lines crossing uncomfortably; the Jun 1 FT report and Jun 2 SEC supplements show the next funding instrument. Alphabet's initial package was up to $80B, and FT's Jun. 5 Meta follow-up described it as $85B after a $5B demand upsizing. The components include $15B of common stock, $15B of mandatory-convertible preferred/depositary shares, a $40B ATM program, and a $10B [[Berkshire Hathaway]] private placement.
 
 The capex read-through is that 2026's $180-190B guide is not the endpoint. FT reported Alphabet expects capex to rise significantly in 2027 and that Big Tech expects to spend about $725B on AI this year. The immediate physical bottleneck is still undisclosed - no new data-center site, PPA, interconnection, grid region, or MW target came with the financing - so the right filing is funding-side, not power-asset-side. See [[Alphabet equity raise June 2026]], [[AI infrastructure financing]], and [[AI infrastructure financing risk]].
 
-*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026.*
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026; [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026.*
+
+---
+
+## Jun 5, 2026 Meta equity-raise exploration - peer validation
+
+FT's Jun. 5 report that [[Meta]] is considering a tens-of-billions stock sale is the first peer-validation datapoint after the [[Alphabet equity raise June 2026]]. The capex backdrop is already in this note: Meta raised 2026 capex guidance to $125-145B, up $10B at the midpoint from the prior guide, while FT says 2027 could be higher. The new information is not more spend; it is the financing instrument Meta may use if debt, buyback suspension, the [[Blue Owl]] / Hyperion structure, and cost cuts are not enough.
+
+The market reaction fits the capex-skepticism frame. META closed Jun. 5 down 5.51%, versus XLC -1.27% and QQQ -4.80%. The QQQ comparison makes the day look mostly like a tech selloff, but the communications-services comparison shows a Meta-specific dilution penalty.
+
+No new physical capacity was disclosed: no data-center site, PPA, interconnection, grid region, or MW target. This belongs in [[AI infrastructure financing]] and [[AI infrastructure financing risk]] as funding-side pressure, not in the power-asset map.
+
+*Source: [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026; price source: local `prices_long` closes through Jun. 5 2026.*
 
 ---
 

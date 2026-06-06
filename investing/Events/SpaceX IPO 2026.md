@@ -5,7 +5,7 @@ tags: [event, ipo, space, ai]
 
 # SpaceX IPO 2026
 
-[[SpaceX]] has moved from a reported mega-IPO target to SEC-backed roadshow terms. The Jun. 3 S-1/A and Jun. 4 FWP set a preliminary 555.6M-share primary Class A offering at an expected $135/share, implying about $75.0B of gross proceeds before a 15% primary over-allotment and a reported roughly $1.77T valuation, with final pricing still scheduled for Jun. 11 and trading expected Jun. 12 on [[Nasdaq]] / [[Nasdaq]] Texas under `SPCX`. The issuer is the combined [[SpaceX]] / [[xAI]] / [[Twitter|X]] stack, with Space, Connectivity, and AI segments, Class B supervoting control, [[Elon Musk]] retaining about 82.4% voting power after the offering, and proceeds earmarked for AI compute infrastructure, launch infrastructure and vehicles, satellite-constellation scale/capacity, and general corporate purposes.
+[[SpaceX]] has moved from a reported mega-IPO target to SEC-backed roadshow terms. The Jun. 3 S-1/A and Jun. 4 FWP set a preliminary 555.6M-share primary Class A offering at an expected $135/share, implying about $75.0B of gross proceeds before a 15% primary over-allotment and a reported roughly $1.77T valuation, with final pricing still scheduled for Jun. 11 and trading expected Jun. 12 on [[Nasdaq]] / [[Nasdaq]] Texas under `SPCX`. The issuer is the combined [[SpaceX]] / [[xAI]] / [[Twitter|X]] stack, with Space, Connectivity, and AI segments, Class B supervoting control, [[Elon Musk]] retaining about 82.4% voting power after the offering, and proceeds earmarked for AI compute infrastructure, launch infrastructure and vehicles, satellite-constellation scale/capacity, and general corporate purposes. A Jun. 5 FT-reported customer update added external compute offtake: [[Google Cloud]] at $920M/month for 110,000 [[NVIDIA]] GPUs through Jun. 2029, plus [[Anthropic]] agreements covering 325,000 [[NVIDIA]] GPUs at [[Colossus]] facilities.
 
 ---
 
@@ -22,6 +22,7 @@ tags: [event, ipo, space, ai]
 | Pricing | Final IPO share price expected June 11, 2026; $135 is the roadshow / offering-price indication, not the final print |
 | Marketing kickoff | Roadshow began June 4 |
 | Public S-1/FWP filings | Initial public S-1 filed May 20; Jun. 3 S-1/A and Jun. 4 FWP filled price/share/proceeds mechanics |
+| Jun. 5 customer update | FT-reported SpaceX filing disclosed a [[Google Cloud]] lease: $920M/month, 110,000 [[NVIDIA]] GPUs plus supporting components, roughly $11B/year until Jun. 2029, cancelable earlier by either side |
 | Confidential S-1 | Filed April 1, 2026 |
 | FTSE/Russell fast entry | May 26 [[FTSE Russell]] assessment says SpaceX appears eligible for Russell U.S. Equity Indexes and FTSE GEIS fast entry, subject to final filing review |
 | Stock split | 5-for-1 announced May 15 — FMV per share adjusted from $526.59 to ~$105.32; split processed week of May 18, complete May 22 |
@@ -40,6 +41,14 @@ The Jun. 3 S-1/A is the pivot from blank prospectus shell to price-discovery eve
 The proceeds wording matters. This is not a clean "AI data center IPO" or a clean "Starlink expansion IPO." Public equity is funding the integrated stack: compute, launch, satellites, and balance-sheet flexibility inside one Musk-controlled issuer.
 
 *Sources: [SEC S-1/A](https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm), filed Jun. 3 2026; [SEC FWP](https://www.sec.gov/Archives/edgar/data/1181412/000162828026040610/spacexfwp.htm), filed Jun. 4 2026; [SEC submissions JSON](https://data.sec.gov/submissions/CIK0001181412.json).*
+
+### Jun. 5 Google compute-capacity lease
+
+FT reported from the Jun. 5 filing that [[SpaceX]] signed a compute-capacity agreement with [[Google Cloud]]: $920M/month for access to 110,000 [[NVIDIA]] GPUs plus supporting components, roughly $11B/year until Jun. 2029 and >$30B over the contract life if not canceled early. Google framed the contract as bridge capacity for surging AI-model customer demand rather than a permanent strategy shift. The same FT piece says [[Anthropic]]'s SpaceX capacity agreements include 325,000 [[NVIDIA]] GPUs at [[Colossus]] facilities in Tennessee; together, the Google and Anthropic contracts would contribute >$26B to SpaceX annual revenue.
+
+The underwriting implication is that the IPO story now has explicit third-party compute offtake. That helps the AI segment look less like [[Grok]]-only burn and more like rented scarce capacity, but it also complicates the clean sovereign-AI frame: two of the largest customers are external model competitors, and Google is renting [[NVIDIA]] GPU capacity from SpaceX despite its own TPU stack.
+
+*Source: [[Financial Times|FT]], Ryan McMorrow and George Hammond, Jun. 5 2026: https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626.*
 
 ### FT May 23 absorption-test frame
 
@@ -612,9 +621,9 @@ Artemis 2 milestone: Moon orbit mission launched with crew of 4, validating luna
 
 ## Synthesis
 
-The IPO is no longer being marketed as a pure space scarcity story, and it is no longer only a blank-prospectus story. The Jun. 3 S-1/A and Jun. 4 FWP convert SpaceX from "reported target" to active roadshow price discovery: 555.6M primary Class A shares at expected $135, roughly $75B base gross proceeds, a 15% primary over-allotment, and a reported roughly $1.77T valuation, with final pricing still due Jun. 11. Public investors are being asked to fund an integrated launch, satellite connectivity, defense, AI model distribution, terrestrial compute, and future orbital-compute platform through common equity.
+The IPO is no longer being marketed as a pure space scarcity story, and it is no longer only a blank-prospectus story. The Jun. 3 S-1/A and Jun. 4 FWP convert SpaceX from "reported target" to active roadshow price discovery: 555.6M primary Class A shares at expected $135, roughly $75B base gross proceeds, a 15% primary over-allotment, and a reported roughly $1.77T valuation, with final pricing still due Jun. 11. Public investors are being asked to fund an integrated launch, satellite connectivity, defense, AI model distribution, terrestrial compute, and future orbital-compute platform through common equity. The Jun. 5 Google/Anthropic customer-contract update adds another support layer: third-party compute offtake would cover >$26B of annual SpaceX revenue if the contracts run as described.
 
-The cleanest underwriting question after the amended filing: is [[Starlink]]'s subscription and operating-income base strong enough to support AI compute expansion while [[Starship]] remains a gating risk for V3, direct-to-cell scale, and orbital compute? If yes, the S-1/A is a platform prospectus. If no, it is a profitable connectivity company being asked to carry a speculative AI-industrial complex on its balance sheet at record IPO size.
+The cleanest underwriting question after the amended filing: is [[Starlink]]'s subscription and operating-income base strong enough to support AI compute expansion while [[Starship]] remains a gating risk for V3, direct-to-cell scale, and orbital compute? If yes, the S-1/A is a platform prospectus with customer-backed compute revenue. If no, it is a profitable connectivity company being asked to carry a speculative AI-industrial complex on its balance sheet at record IPO size.
 
 ---
 
@@ -624,6 +633,10 @@ The cleanest underwriting question after the amended filing: is [[Starlink]]'s s
 - [[SpaceX xAI merger]] — Feb 2026 acquisition creating the combined entity
 - [[Elon Musk]] — CEO/controller; about 82.4% post-offering voting power and 366-day lock-up
 - [[xAI]] — subsidiary, AI compute thesis, Colossus/Colossus II cloud-services economics
+- [[Google Cloud]] — Jun. 5 compute-capacity lease customer
+- [[NVIDIA]] — GPU substrate for the Google capacity lease and Colossus capacity
+- [[Colossus]] — Tennessee compute facilities tied to Anthropic capacity agreements
+- [[Grok]] — internal model product whose revenue ramp is now contrasted with external compute offtake
 - [[Starlink]] — revenue/profit driver; 10.3M subscribers in the S-1 and proceeds tie to satellite-constellation scale/capacity
 - [[Nasdaq]] — preferred exchange
 - [[Nasdaq Fast Entry Rule]] — proposed megacap fast-track inclusion
@@ -718,4 +731,4 @@ The bear case fits the pattern of pre-IPO transparency forcing the prospect of a
 
 ---
 
-*Created 2026-03-29, updated 2026-04-09 with Reuters valuation math and Deepwater sovereign AI thesis. Split from [[SpaceX]] actor note. May 18 2026: Lockett Starship bear case section added. May 19 2026: hedge-fund-winners section added from FT May 18 reporting (D1 Capital + Darsana Capital Partners stake sizing). May 24 2026: Goldman / Morgan Stanley mandate split added from FT May 21 reporting. May 26 2026: Reuters aftermarket-performance screen and FTSE Russell fast-entry eligibility added. May 27 2026: Reuters public-space proxy-rally screen added. Jun. 5 2026: Jun. 3 S-1/A and Jun. 4 FWP roadshow terms folded in.*
+*Created 2026-03-29, updated 2026-04-09 with Reuters valuation math and Deepwater sovereign AI thesis. Split from [[SpaceX]] actor note. May 18 2026: Lockett Starship bear case section added. May 19 2026: hedge-fund-winners section added from FT May 18 reporting (D1 Capital + Darsana Capital Partners stake sizing). May 24 2026: Goldman / Morgan Stanley mandate split added from FT May 21 reporting. May 26 2026: Reuters aftermarket-performance screen and FTSE Russell fast-entry eligibility added. May 27 2026: Reuters public-space proxy-rally screen added. Jun. 5 2026: Jun. 3 S-1/A and Jun. 4 FWP roadshow terms folded in. Jun. 6 2026: FT-reported Google compute-capacity lease and Anthropic Colossus capacity update added.*

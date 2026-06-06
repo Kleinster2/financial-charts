@@ -3,7 +3,7 @@ aliases: [Starshield]
 ---
 #actor #space #usa #private
 
-SpaceX — Musk's rocket/satellite company. [[Starlink]] dominates satellite internet. Acquired [[xAI]] Feb 2026 and is now in Jun. 2026 IPO roadshow price discovery: expected $135/share, 555.6M primary Class A shares, roughly $75B base gross proceeds, and `SPCX` on [[Nasdaq]] / [[Nasdaq]] Texas.
+SpaceX — Musk's rocket/satellite company. [[Starlink]] dominates satellite internet. Acquired [[xAI]] Feb 2026 and is now in Jun. 2026 IPO roadshow price discovery: expected $135/share, 555.6M primary Class A shares, roughly $75B base gross proceeds, and `SPCX` on [[Nasdaq]] / [[Nasdaq]] Texas. The Jun. 5 FT update adds a customer-offtake layer: [[Google Cloud]] at $920M/month for 110,000 [[NVIDIA]] GPUs through Jun. 2029.
 
 ---
 
@@ -96,6 +96,16 @@ The deal also gives [[SpaceX]] a recurring compute-rental revenue stream that is
 The orbital-AI-compute "expressed interest" is far more speculative — orbital data centers don't exist at production scale yet and [[Starship]] is still pre-operational for heavy-payload orbital deliveries. The signal value is thematic alignment with [[Sovereign AI stack]] / [[Space data centers]] frames already in the SpaceX note.
 
 *Sources: [Dev.to — Anthropic strikes compute deal with SpaceX](https://dev.to/mcrolly/anthropic-strikes-compute-deal-with-spacex-what-it-means-for-the-future-of-ai-1moj); [The Drive 93.3 — SpaceX to give Anthropic access to its massive AI supercomputer](https://www.933thedrive.com/2026/05/06/spacex-to-give-anthropic-access-to-its-massive-ai-supercomputer/).*
+
+---
+
+## Google compute-capacity lease (Jun. 5, 2026)
+
+[[SpaceX]] signed a FT-reported compute-capacity lease with [[Google Cloud]] at $920M/month for 110,000 [[NVIDIA]] GPUs plus supporting components, running through Jun. 2029 unless canceled earlier. At roughly $11B/year and >$30B over the stated contract life, it is now the largest explicit external-customer bridge in the IPO story. Google framed the contract as temporary bridge capacity for AI-model customers, not a replacement for its TPU strategy.
+
+For SpaceX, the strategic point is utilization and underwriting. The AI segment can now point to external compute customers ([[Google Cloud]] and [[Anthropic]]) rather than relying only on [[Grok]] end-product traction. The counter-read is that the sovereign-AI story is still dependent on [[NVIDIA]] GPUs and third-party model demand until [[TERAFAB]] and orbital compute are real.
+
+*Source: FT, Jun. 5 2026: https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626.*
 
 ---
 
@@ -518,9 +528,11 @@ The flat 17-month stretch at $137B (Jan 2024 – Jun 2025) reflects a quiet peri
 | 2025 revenue | $18.674B consolidated, recast including [[xAI]] / [[Twitter]] / X |
 | 2025 net income (loss) | -$4.937B consolidated |
 | 2025 segment operating income | Space -$657M; Connectivity +$4.423B; AI -$6.355B |
+| Google compute lease | FT-reported $920M/month for 110K [[NVIDIA]] GPUs through Jun. 2029; >$30B if not canceled early |
+| External AI capacity revenue | Google + Anthropic compute deals >$26B annual revenue (FT, Jun. 5 2026) |
 | CEO | [[Elon Musk]] |
 
-*Updated 2026-06-05 from Jun. 3 S-1/A and Jun. 4 FWP.*
+*Updated 2026-06-06 from Jun. 5 FT Google compute-capacity lease update.*
 
 ---
 
@@ -576,7 +588,7 @@ Reuters also said it remained unclear whether Intel or the Terafab developers wo
 
 ## For theses
 
-[[AI capex arms race]]: Jun. 2026 IPO roadshow terms point to about $75B base gross proceeds to fund AI compute infrastructure, launch infrastructure/vehicles, satellite scale/capacity, and general corporate purposes.
+[[AI capex arms race]]: Jun. 2026 IPO roadshow terms point to about $75B base gross proceeds to fund AI compute infrastructure, launch infrastructure/vehicles, satellite scale/capacity, and general corporate purposes. The Jun. 5 FT update adds customer-backed compute revenue: Google and Anthropic leases would contribute >$26B annually, making SpaceX a compute landlord before orbital data centers or TERAFAB chips are real.
 
 ---
 
@@ -587,6 +599,11 @@ Reuters also said it remained unclear whether Intel or the Terafab developers wo
 - [[Elon Musk]] — CEO
 - [[Tesla]] — sibling company (not included in merger)
 - [[xAI]] — subsidiary (acquired Feb 2026)
+- [[Google Cloud]] — Jun. 5 compute-capacity lease customer
+- [[Anthropic]] — external compute customer; Colossus capacity buyer
+- [[Colossus]] — xAI / SpaceX compute facilities
+- [[NVIDIA]] — GPU substrate for current external compute leases
+- [[Grok]] — internal model product contrasted with external compute monetization
 - [[Samsung]] — chip partner (AI modem, 3nm)
 - [[Submarine Cables]] — terrestrial competition
 - [[Iran]] — Jan 2026 [[Starlink]] deployment discussion

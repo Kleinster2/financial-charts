@@ -22,12 +22,24 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 | [[BlackRock]] AIP | $100B target | Infra fund | [[Temasek]], KIA anchors |
 | Anthropic-[[Amazon]] | $100B+ cloud spend; up to $33B equity committed | Strategic cloud offtake + equity | AWS/Trainium capacity, up to 5 GW |
 | Anthropic-[[Google]] | Up to $40B equity; reported ~$200B cloud capacity | Strategic cloud offtake + equity | Google Cloud/TPU capacity, 5 GW over five years |
+| [[SpaceX]]-[[Google Cloud]] | >$30B total; ~$11B/year | Compute-capacity offtake | Google rents 110K [[NVIDIA]] GPUs plus components through Jun. 2029; bridge capacity, cancelable early |
 | [[NextEra-Dominion merger 2026]] | $66.8B equity / ~$420B EV | Utility M&A / power platform | Stock-for-stock combination around >130 GW large-load pipeline |
 | [[Google-Blackstone TPU cloud venture 2026]] | $5B initial equity; up to ~$25B with leverage (FT) | Chip-backed TPU neo-cloud JV | Google supplies TPU + software; Blackstone majority (per FT); 500 MW online 2027; [[Benjamin Treynor Sloss]] CEO |
 | [[Nebius]] capital markets stack | $700M strategic equity + ~$4.3375B convertibles | Listed neocloud financing | [[Accel]] / [[NVIDIA]] / [[Orbis Investments]] strategic equity; private convertible notes to qualified institutional buyers; [[Microsoft]] and [[Meta]] as demand anchors |
 | [[IREN]]-[[Dell]]-[[NVIDIA]] Childress | ~$1.6B purchase; $3.4B service contract; up to $2.1B NVIDIA investment right | Supplier order + customer offtake + strategic equity option | Dell supplies air-cooled Blackwell systems; NVIDIA is managed-cloud customer and potential equity investor; IREN guarantees purchase obligations |
 | [[Google Cloud]] / [[AdaniConneX]] / [[Nxtra]] Vizag | $15B over 2026-2030 | Hyperscaler + local infrastructure partners | Google anchor; AdaniConneX and Nxtra build/operate data-center and connectivity layer; gigawatt-scale hub |
-| [[Alphabet equity raise June 2026]] | Up to $80B | Hyperscaler equity issuance | $15B common stock; $15B mandatory-convertible preferred/depositary shares; $40B ATM program; $10B [[Berkshire Hathaway]] private placement |
+| [[Alphabet equity raise June 2026]] | Up to $85B per FT after upsizing | Hyperscaler equity issuance | Initial $80B package: $15B common stock; $15B mandatory-convertible preferred/depositary shares; $40B ATM program; $10B [[Berkshire Hathaway]] private placement; FT later described $5B demand upsizing |
+| [[Meta]] equity-raise watch | Tens of billions if pursued | Exploratory hyperscaler equity issuance | FT reports talks led by [[Susan Li]] and [[Dina Powell McCormick]]; no banks hired and no issuance decision |
+
+---
+
+## SpaceX-Google compute lease (Jun 2026)
+
+FT reported that [[Google Cloud]] signed a compute-capacity lease with [[SpaceX]] at $920M/month for access to 110,000 [[NVIDIA]] GPUs plus supporting components through Jun. 2029, cancelable earlier by either side. The contract is worth roughly $11B/year and >$30B over the stated life if it runs.
+
+This belongs in the deal ledger because it is customer offtake rather than sponsor capital. The structure de-risks SpaceX's IPO AI segment by converting spare/scarce GPU capacity into third-party revenue, while giving Google near-term bridge capacity for AI-model customers. It is not a disclosed power-site deal: no new power plant, PPA, interconnection, or location for the Google capacity was provided in the FT article.
+
+*Source: FT, Jun. 5 2026: https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626.*
 
 ---
 
@@ -41,11 +53,24 @@ The Alphabet raise is not a site-level data-center deal, but it belongs in the c
 | Mandatory-convertible preferred / depositary shares | $15B | Equity-linked funding with capped call transactions |
 | At-the-market program | Up to $40B | Class A / Class C sales from time to time, mainly for employee-equity tax-obligation mechanics |
 | [[Berkshire Hathaway]] private placement | $10B | Strategic validation from [[Greg Abel]] and a negotiated anchor buyer |
-| Total | Up to $80B | Equity funding layered on top of prior operating cash flow, debt, leases, and partner vehicles |
+| FT-reported upsizing | +$5B | Strong investor demand; FT's Jun. 5 follow-up did not identify the exact tranche |
+| Total | Up to $85B per FT after upsizing | Equity funding layered on top of prior operating cash flow, debt, leases, and partner vehicles |
 
 No new power plant, [[Power purchase agreement]], utility interconnection, grid region, or site-level capacity was disclosed in the FT report. Treat the event as a funding-stack update to [[AI infrastructure financing]] and [[Hyperscaler capex]], not as new deliverable MW.
 
-*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026.*
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; Alphabet 424B5 supplements, Jun 2 2026; [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026.*
+
+---
+
+## Meta equity-raise watch (Jun 2026)
+
+This is not yet a completed deal. FT reported Jun. 5 that [[Meta]] is considering a stock offering worth tens of billions of dollars to fund AI infrastructure after Alphabet's $85B raise was upsized by $5B on strong demand. Meta has not hired banks, and one source told FT no financing decision has been made.
+
+The deal-ledger relevance is that Meta is the first explicit peer-copycat watch item after [[Alphabet equity raise June 2026]]. Meta already used the [[Blue Owl]] / Hyperion off-balance-sheet structure, recent corporate debt, buyback suspension, and workforce cuts to fund the AI buildout. A stock offering would add the same mega-cap equity layer that Alphabet just opened.
+
+No site, power plant, [[Power purchase agreement]], utility interconnection, grid region, or MW target was disclosed in the FT report. If the deal happens, it belongs as hyperscaler equity issuance; until then it remains a watch item rather than a capital stack with final terms.
+
+*Source: [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026.*
 
 ---
 
@@ -447,7 +472,7 @@ The financing read-through is that the crypto-to-AI cohort can graduate from "la
 
 ---
 
-*Updated 2026-05-26*
+*Updated 2026-06-06*
 
 ## Related
 
@@ -465,3 +490,6 @@ The financing read-through is that the crypto-to-AI cohort can graduate from "la
 - [[Google-Blackstone TPU cloud venture 2026]] — TPU neocloud JV
 - [[Neocloud financing]] — capital-provider comparison
 - [[Stargate]] — $500B consortium
+- [[SpaceX]] — Jun. 2026 Google compute-capacity lease counterparty
+- [[Google Cloud]] — customer in the SpaceX compute lease
+- [[SpaceX IPO 2026]] — underwriting context for customer offtake

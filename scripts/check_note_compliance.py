@@ -307,6 +307,10 @@ class NoteChecker:
         issues.extend(self._check_quick_stats(content, filepath))
         issues.extend(self._check_table_formatting(content, filepath))
 
+        # Private-capital notes need the founder/principal story, not just names in Quick stats.
+        if (is_vc or is_investor) and not is_person and not is_geography and not is_product:
+            issues.extend(self._check_private_capital_founder_edge(content, filepath))
+
         # Chart checks (public companies and ETFs, not products)
         if ((is_public and not is_public_exempt) or is_etf) and not is_product:
             issues.extend(self._check_price_chart(content, filepath, is_etf))
@@ -611,6 +615,40 @@ class NoteChecker:
 
         if "## Quick stats" not in content:
             issues.append(Issue(missing_severity, "structure", "Missing '## Quick stats' section"))
+
+        return issues
+
+    def _check_private_capital_founder_edge(self, content: str, filepath: Path) -> list[Issue]:
+        """Warn when a mature fund note lacks a founder/principals narrative section."""
+        issues = []
+
+        body = content
+        if content.startswith("---"):
+            second_dash = content.find("---", 3)
+            if second_dash != -1:
+                body = content[second_dash + 3:]
+
+        non_empty_lines = sum(1 for line in body.split("\n") if line.strip())
+        if non_empty_lines < 40:
+            return issues
+
+        founder_sections = [
+            "## Founder read",
+            "## Founder edge",
+            "## Principals",
+            "## Partners",
+            "## Notable partners",
+        ]
+        if any(section in content for section in founder_sections):
+            return issues
+
+        issues.append(Issue(
+            "warning",
+            "founder-edge",
+            "Mature private-capital/fund note missing founder/principals narrative. "
+            "Add ## Founder read or ## Principals explaining who the people are, "
+            "their network/source-of-capital edge, and third-party origin context."
+        ))
 
         return issues
 

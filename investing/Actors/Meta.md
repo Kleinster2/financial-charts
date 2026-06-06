@@ -5,7 +5,7 @@ aliases: [META]
 
 **Meta (Facebook)** - Tier 1 AI hyperscaler, massive NVIDIA buyer, open-source AI leader (Llama).
 
-Largest social media company with 3.5B daily active users, $200.9B FY2025 revenue (+22% YoY), and $78.5B net income. Q4 2025 beat estimates ($59.9B revenue, $8.88 EPS vs $8.16 expected) and guided Q1 2026 revenue $53.5-56.5B above consensus. AI capex guidance of $115-135B for 2026 (up 60-87% from $72.2B) makes Meta one of the largest NVIDIA GPU buyers - 350K H100s deployed, multiyear NVIDIA deal signed Feb 2026. [[Muse Spark]] (Apr 8 2026) confirmed the proprietary pivot flagged on the Q4 call — first model from [[Meta Superintelligence Labs]], closed source, breaking the [[Llama]] open-weights playbook. The bull case: ad monetization compounding on engagement growth (+18% impressions), AI efficiency gains, and MTIA custom chips reducing GPU dependency. The bear case: Reality Labs burning $6B/quarter, $115-135B capex commitment with uncertain AI ROI, FTC antitrust appeal on Instagram/WhatsApp acquisitions, and Muse Spark trailing [[GPT]]-5.4 and [[Gemini]] 3.1 Pro on coding and agentic benchmarks despite the nine-month rebuild.
+Largest social media company with 3.5B+ daily active users, $200.9B FY2025 revenue (+22% YoY), and $78.5B net income. Q1 2026 revenue beat while capex guidance was raised to $125-145B, and FT reported Jun. 5 that Meta is exploring a tens-of-billions stock sale after [[Alphabet equity raise June 2026|Alphabet's equity raise]] proved investor demand for AI-infrastructure funding. [[Muse Spark]] (Apr 8 2026) confirmed the proprietary pivot flagged on the Q4 call — first model from [[Meta Superintelligence Labs]], closed source, breaking the [[Llama]] open-weights playbook. The bull case: ad monetization compounding on engagement growth, AI efficiency gains, and MTIA custom chips reducing GPU dependency. The bear case: Reality Labs burning $6B/quarter, $125-145B capex with uncertain AI ROI, possible equity dilution, FTC antitrust appeal on Instagram/WhatsApp acquisitions, and Muse Spark trailing [[GPT]]-5.4 and [[Gemini]] 3.1 Pro on coding and agentic benchmarks despite the nine-month rebuild.
 
 ---
 
@@ -27,7 +27,8 @@ META trades as a core Communications name (XLC r = 0.78).
 | Role | Name | Since |
 |------|------|-------|
 | Founder, Chairman & CEO | Mark Zuckerberg | 2004 |
-| CFO | Susan Li | 2022 |
+| CFO | [[Susan Li]] | 2022 |
+| President & Vice Chairman | [[Dina Powell McCormick]] | 2026 |
 | COO | Javier Olivan | 2022 |
 | Chief Product Officer | Chris Cox | 2014 (returned 2020) |
 | Chief Global Affairs | Joel Kaplan | 2025 |
@@ -125,7 +126,7 @@ Meta is tying executive pay to reaching a $9T market cap by 2031, roughly 5x its
 
 ## Arm AGI CPU partnership (March 2026)
 
-Meta is the lead customer and co-developer for the [[Arm AGI CPU]], Arm's first in-house production silicon announced March 24, 2026. The chip targets [[Agentic AI]] inference in data centers. Meta's role as anchor customer — alongside its $135B AI capex commitment for 2026 — positions the company at the center of the CPU inference buildout. See [[Arm AGI CPU]] and [[Arm Holdings]].
+Meta is the lead customer and co-developer for the [[Arm AGI CPU]], Arm's first in-house production silicon announced March 24, 2026. The chip targets [[Agentic AI]] inference in data centers. Meta's role as anchor customer — alongside its $125-145B AI capex commitment for 2026 — positions the company at the center of the CPU inference buildout. See [[Arm AGI CPU]] and [[Arm Holdings]].
 
 ---
 
@@ -221,7 +222,7 @@ One week after the NVIDIA deal, signed multiyear partnership with [[AMD]] for up
 - First shipments: H2 2026 - custom MI450 in [[Helios]] rack-scale servers + AI-optimized [[EPYC]] CPUs
 - Warrants: 160M AMD shares (~10% of company), vesting on deployment milestones (1GW → 6GW) + stock price thresholds
 - Same structure as AMD's [[OpenAI]] deal (Oct 2025) - also 160M shares
-- Signal: Meta diversifying GPU supply across both major vendors while maintaining $135B capex plan
+- Signal: Meta diversifying GPU supply across both major vendors while maintaining a $125-145B 2026 capex plan
 - AMD +7%, Meta flat on the news
 
 See [[Meta-AMD 6GW deal]] for full details.
@@ -270,7 +271,7 @@ New infrastructure leadership team:
 
 | Person | Role | Reports to |
 |--------|------|------------|
-| Dina Powell McCormick | President & Vice Chairman | Zuckerberg |
+| [[Dina Powell McCormick]] | President & Vice Chairman | Zuckerberg |
 | Santosh Janardhan | Head of Infrastructure | Zuckerberg |
 | [[Daniel Gross]] | Capital Strategy & Partnerships | Zuckerberg |
 
@@ -623,7 +624,7 @@ See [[Short interest]] for interpretation framework.
 | Metric | Value |
 |--------|-------|
 | 2025 AI capex | $72.2B (actual) |
-| 2026 AI capex | $115B-$135B (guidance) |
+| 2026 AI capex | $125B-$145B (guidance) |
 | Total infra commitment | $600B (multi-year) |
 | H100 GPUs | 350,000 |
 | Blackwell GPUs | ~400,000 (ordered) |
@@ -632,11 +633,12 @@ See [[Short interest]] for interpretation framework.
 | Foundry exposure | [[TSMC]] (via NVIDIA) |
 | 2025 AI M&A announced | ~$4B+ (Manus $2B + Rivos ~$2B); Manus deal blocked by [[NDRC]] Apr 27, 2026 |
 | AI leads | Alexandr Wang + [[Nat Friedman]] |
-| Infra lead | Dina Powell McCormick (Jan 2026) |
+| Infra lead | [[Dina Powell McCormick]] (Jan 2026) |
 | Long-term debt | $59B face + $27.3B Hyperion SPV (Dec 2025). See [[Meta bonds]] |
+| Equity financing status | FT-reported Jun 2026 exploration; no banks hired and no issuance decision |
 | Short interest | 1.27% (Jan 2026) - highest Mag 7 ex-[[Tesla]] |
 
-Equity award cuts (Feb 19, 2026): Cut stock awards by ~5% for most employees - second consecutive year (10% cut in 2025). Redirecting to AI capex ($115-135B guidance for 2026). Reality Labs also laid off ~10% (~1,500 of 15,000) as Meta shifts from VR to wearables. Reality Labs has accumulated $70B+ in losses since 2021.
+Equity award cuts (Feb 19, 2026): Cut stock awards by ~5% for most employees - second consecutive year (10% cut in 2025). Redirecting to AI capex (initial $115-135B guidance, later raised to $125-145B). Reality Labs also laid off ~10% (~1,500 of 15,000) as Meta shifts from VR to wearables. Reality Labs has accumulated $70B+ in losses since 2021.
 
 ### 10% workforce cut (Apr 23, 2026)
 
@@ -668,8 +670,23 @@ Capital-return pressure: Meta's Q1 2026 10-Q shows no Class A share repurchases 
 
 ---
 
+## Jun 5, 2026 - exploratory equity raise for AI infrastructure
+
+FT reported that [[Meta]] is considering a tens-of-billions stock offering to fund the AI infrastructure program, with [[Susan Li]] leading talks alongside [[Dina Powell McCormick]]. The report says discussions intensified after [[Alphabet equity raise June 2026|Alphabet's $85B equity raise]] was upsized by $5B on strong demand, but Meta has not hired banks and may still choose another financing path. Meta's spokesperson called the share-sale talks speculative while saying the company will keep raising capital flexibly for AI opportunities.
+
+The financing logic is the same pressure already visible in the Q1 print: Meta's 2026 AI capex guide is $125-145B and FT says 2027 spending could be higher. Meta has already used the [[Blue Owl]] / Hyperion SPV, $55B+ of recent debt, buyback suspension, headcount reduction, and role reorganization around Powell McCormick. The new data point is that common equity is now on the menu for Meta too, not just Alphabet.
+
+Market reaction: META closed Jun. 5 at $593.00, down 5.51% from Jun. 4, versus XLC -1.27%, QQQ -4.80%, SPY -2.58%, and XLK -6.66% in the same session. The XLC-adjusted abnormal move was -4.24%, about -2.0x the prior-90-session META-minus-XLC residual volatility. That is not a clean single-catalyst tape because Nasdaq and semis were selling off hard, but the communications-sector-adjusted move says dilution risk added a distinct penalty.
+
+No new data-center site, power plant, [[Power purchase agreement]], utility interconnection, grid region, or MW target was disclosed in the FT report. File this as funding-stack pressure, not physical-capacity disclosure.
+
+*Source: [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun. 5 2026; price source: local `prices_long` closes through Jun. 5 2026.*
+
+---
+
 ## Analyst timeline
 
+- Jun. 5, 2026 — FT: Meta weighs a tens-of-billions equity raise for AI infrastructure after Alphabet's $85B equity raise drew strong demand; no banks hired and no issuance decision.
 - Apr. 21, 2026 — Reuters: broke ground on a >$1 billion Tulsa data center, Meta's first in Oklahoma, with a >2 million sq ft footprint, Fortis Construction as GC, and explicit company funding for water and wastewater service.
 
 ---
@@ -703,7 +720,9 @@ Capital-return pressure: Meta's Q1 2026 10-Q shows no Class A share repurchases 
 - [[Llama]] - AI model (1.2B downloads, open weights)
 
 ### Partners/Competitors
-- [[AI hyperscalers]] - Tier 1 spender ($65B capex)
+- [[AI hyperscalers]] - Tier 1 spender ($125-145B 2026 capex guide)
+- [[AI infrastructure financing]] - funding-stack context for AI capex
+- [[AI infrastructure financing risk]] - dilution / capex sustainability risk
 - [[NVIDIA]] - primary GPU supplier (350K H100s + 400K Blackwell + multiyear "millions" deal, Feb 2026)
 - [[AMD]] - 6GW Instinct GPU deal (Feb 24, 2026), warrants for 160M AMD shares (~10%). See [[Meta-AMD 6GW deal]]
 - [[TSMC]] - foundry (via NVIDIA)
@@ -726,6 +745,9 @@ Capital-return pressure: Meta's Q1 2026 10-Q shows no Class A share repurchases 
 - [[Entergy]] — Hyperion power provider (Smalling Substation, 3 gas plants)
 - [[EdgeConneX]] — Project Walleye operator (New Albany, Ohio; $3B combined DC + power financing, [[EQT]])
 - [[Data center boomtown effect]] — community disruption from Hyperion construction
+- [[Susan Li]] — CFO leading the FT-reported Jun 2026 financing talks
+- [[Dina Powell McCormick]] — president / vice chairman focused on AI infrastructure and financing
+- [[Goldman Sachs]] — likely mandate contender if Meta proceeds, per FT
 - [[Anduril]] - defense partnership (AI helmet, Jan 2026)
 - [[Corning]] - $6B fiber-optic deal for AI data centers (Jan 2026)
 

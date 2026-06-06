@@ -263,5 +263,154 @@ Avg correlation: 0.67.
         self.assertFalse(any(issue.rule == "chart" for issue in errors))
 
 
+class PrivateCapitalFounderEdgeTests(unittest.TestCase):
+    def check_synthetic_actor(self, content: str):
+        with TemporaryDirectory(dir="C:/tmp") as tmpdir:
+            vault = Path(tmpdir) / "investing"
+            actors = vault / "Actors"
+            actors.mkdir(parents=True)
+            note = actors / "Synthetic Capital.md"
+            note.write_text(content, encoding="utf-8")
+
+            original_cross_vaults = NoteChecker.CROSS_VAULTS
+            NoteChecker.CROSS_VAULTS = {}
+            try:
+                checker = NoteChecker(vault)
+                return checker.check_note(note)
+            finally:
+                NoteChecker.CROSS_VAULTS = original_cross_vaults
+
+    def test_mature_vc_note_warns_without_founder_read(self) -> None:
+        content = """---
+aliases: [Synthetic]
+tags: [actor, vc, private]
+---
+
+**Synthetic Capital** is a test venture firm with a global LP network.
+
+This paragraph creates enough body material to move the note out of stub territory.
+The firm uses strategic LPs, family capital, and customer introductions as its edge.
+
+## Synopsis
+
+The firm matters because the investor network is part of the product.
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Venture capital |
+| Founders | Alice Example, Bob Example |
+
+## Strategy
+
+Synthetic Capital invests across AI, software, and frontier technology.
+The strategy section is intentionally verbose enough to satisfy the mature-note threshold.
+It describes how sourcing, LP introductions, and follow-on capital become part of the product.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+
+## Related
+"""
+
+        issues = self.check_synthetic_actor(content)
+
+        self.assertTrue(any(issue.rule == "founder-edge" for issue in issues))
+
+    def test_founder_read_satisfies_private_capital_gate(self) -> None:
+        content = """---
+aliases: [Synthetic]
+tags: [actor, vc, private]
+---
+
+**Synthetic Capital** is a test venture firm with a global LP network.
+
+This paragraph creates enough body material to move the note out of stub territory.
+The firm uses strategic LPs, family capital, and customer introductions as its edge.
+
+## Synopsis
+
+The firm matters because the investor network is part of the product.
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Type | Venture capital |
+
+## Founder read
+
+Alice Example supplies the source-of-capital edge and Bob Example supplies sector access.
+Third-party profile context explains why the founders had access before the firm scaled.
+
+## Strategy
+
+Synthetic Capital invests across AI, software, and frontier technology.
+The strategy section is intentionally verbose enough to satisfy the mature-note threshold.
+It describes how sourcing, LP introductions, and follow-on capital become part of the product.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+It adds more detail about the firm's platform, portfolio construction, and private-market access.
+
+## Related
+"""
+
+        issues = self.check_synthetic_actor(content)
+
+        self.assertFalse(any(issue.rule == "founder-edge" for issue in issues))
+
+
 if __name__ == "__main__":
     unittest.main()

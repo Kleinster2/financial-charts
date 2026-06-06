@@ -18,7 +18,7 @@ Alphabet — parent company of [[Google]], YouTube, Waymo, DeepMind, Google Clou
 | Key segments | Google Search, YouTube, Google Cloud, Waymo, DeepMind |
 | Custom silicon | TPU (Tensor Processing Unit) |
 | Foundry | [[TSMC]] |
-| AI infrastructure funding | Up to $80B Jun 2026 equity raise; Feb 2026 debt issuance already in the stack |
+| AI infrastructure funding | Initial up-to-$80B Jun 2026 equity package, later FT-described as $85B after $5B demand upsizing; Feb 2026 debt issuance already in the stack |
 
 ---
 
@@ -96,17 +96,19 @@ Stock closed Apr 29 at $349.94, ~flat on the day into the print; the after-hours
 
 ---
 
-## $80B equity raise for AI infrastructure (Jun 1, 2026)
+## $80B / $85B equity raise for AI infrastructure (Jun 1-5, 2026)
 
 [[Alphabet]] announced plans to raise up to $80B in equity to fund the AI infrastructure buildout: a $15B Class A / Class C common-stock offering, $15B of depositary shares representing mandatory convertible preferred stock, a $40B at-the-market Class A / Class C program, and a $10B private placement to [[Berkshire Hathaway]]. FT frames it as Alphabet's first stock offering in more than two decades and one of the largest equity raises on record.
 
 The structural change is that Alphabet's AI funding stack now includes common equity, not just operating cash flow, buyback deferral, investment-grade debt, and off-balance-sheet / partner structures such as the [[Google-Blackstone TPU cloud venture 2026]]. FT reported Alphabet has reiterated up to $190B of 2026 capex and expects spending to increase significantly in 2027; it also reported $174B of operating cash flow over the past year, $85B of fresh debt, and more than $100B of total debt. The equity raise says capacity demand is still pulling forward, but the funding pressure has moved from "lower buybacks" into dilution.
 
+FT's Jun. 5 Meta follow-up described the Alphabet transaction as a record $85B share deal after a $5B increase on strong investor demand. The exact allocation of the $5B upsizing was not detailed in that article, so keep the original component table in [[Alphabet equity raise June 2026]] while treating $85B as the latest FT-reported headline size.
+
 The [[SEC]] 424B5 supplements put the underwritten offerings and private placement proceeds toward general corporate purposes, including AI infrastructure and global compute capex, with part of the preferred/depositary-share proceeds funding capped call transactions. The $40B ATM program mainly supports a change in how Alphabet meets tax obligations tied to vesting employee equity awards. The Berkshire placement terms are 14,212,035 Class A shares at about $351.81 and 14,359,656 Class C shares at about $348.20.
 
 Market reaction was not fully verified at ingestion time: FT reported more than a 2% after-hours decline, but Jun 2 regular-session close was not available as of 12:31 ET. The event-level market-reaction status and follow-up live in [[Alphabet equity raise June 2026]] and [[Google securities note]].
 
-*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; [[Cleary Gottlieb]] (Jun 2 2026); Alphabet [[SEC]] 424B5 supplements, Jun 2 2026.*
+*Sources: [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), Jun 1 2026; [[Cleary Gottlieb]] (Jun 2 2026); Alphabet [[SEC]] 424B5 supplements, Jun 2 2026; [FT](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), Jun 5 2026.*
 
 ---
 
@@ -135,7 +137,7 @@ Market reaction was not fully verified at ingestion time: FT reported more than 
 - [[Trillium]] — TPU v6e silicon (Suncatcher compute substrate)
 - [[Space data centers]] — competitive landscape
 - [[Sundar Pichai]] — CEO; "new normal" orbital-DC framing
-- [[Alphabet equity raise June 2026]] — up to $80B AI-infrastructure equity raise
+- [[Alphabet equity raise June 2026]] — AI-infrastructure equity raise; initial $80B package, FT-described $85B after upsizing
 - [[Berkshire Hathaway]] — $10B private-placement buyer
 - [[Google securities note]] — market-facing stock and dilution read-through
 - [[AI infrastructure financing]] — funding-structure taxonomy

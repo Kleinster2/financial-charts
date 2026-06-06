@@ -22,12 +22,13 @@ Google Cloud — cloud computing division of [[Alphabet]]/[[Google]], third-larg
 | 2026 revenue track | >$70B |
 | 2026 Alphabet capex guide | $185B |
 | AI hardware | [[TPU]] (proprietary, 8th gen unveiled Apr 2026) + [[NVIDIA]] GPUs |
+| SpaceX bridge lease | FT-reported $920M/month for 110K [[NVIDIA]] GPUs through Jun. 2029; described by Google as bridge capacity |
 
 ---
 
 ## Why Google Cloud matters for this vault
 
-Google Cloud is the only top-three hyperscaler with proprietary frontier AI silicon ([[TPU]]), a frontier first-party model ([[Gemini]] / [[Google DeepMind]]), and a complete cloud distribution stack — all in-house. The Apr 2026 [[Anthropic]] anchor deal makes it the largest external [[TPU]] capacity provider, while the same chips power Google's own AI products. This creates a structural tension — selling scarce capacity to a [[Gemini]] rival — that [[Thomas Kurian]] runs as an explicit business decision rather than treating as a conflict to be resolved. The cycle the vault tracks is whether GCP's "full-stack" framing actually earns the gross-margin advantage Kurian claims, or whether the [[NVIDIA]] / [[CUDA]] ecosystem incumbency keeps GCP a structural #3.
+Google Cloud is the only top-three hyperscaler with proprietary frontier AI silicon ([[TPU]]), a frontier first-party model ([[Gemini]] / [[Google DeepMind]]), and a complete cloud distribution stack — all in-house. The Apr 2026 [[Anthropic]] anchor deal makes it the largest external [[TPU]] capacity provider, while the same chips power Google's own AI products. This creates a structural tension — selling scarce capacity to a [[Gemini]] rival — that [[Thomas Kurian]] runs as an explicit business decision rather than treating as a conflict to be resolved. The cycle the vault tracks is whether GCP's "full-stack" framing actually earns the gross-margin advantage Kurian claims, or whether the [[NVIDIA]] / [[CUDA]] ecosystem incumbency keeps GCP a structural #3. The Jun. 2026 [[SpaceX]] bridge-capacity lease shows capacity pressure acute enough for Google to rent external [[NVIDIA]] GPU capacity despite the TPU stack.
 
 ---
 
@@ -42,6 +43,16 @@ Under [[Thomas Kurian]] (Nov 2018 → Apr 2026), [[Google Cloud]] roughly double
 | Amazon ([[AWS]]) | Trainium/Inferentia + NVIDIA GPUs | #1 |
 
 Source for Epoch estimate: report cited by [[FT]] (Apr 26 2026) — see [[Epoch AI]].
+
+---
+
+## SpaceX bridge-capacity lease (Jun. 2026)
+
+FT reported that [[Google Cloud]] signed a compute-capacity lease with [[SpaceX]] at $920M/month for access to 110,000 [[NVIDIA]] GPUs plus supporting components through Jun. 2029, cancelable earlier by either side. Google characterized it as bridge capacity for surging AI-model customer demand.
+
+The deal is the cleanest proof point so far that Google Cloud's AI demand is not just TPU-limited but capacity-limited across the full accelerator stack. It also cuts against a pure TPU-sovereignty reading: in practice GCP is willing to rent [[NVIDIA]] GPU capacity from a [[SpaceX]] / [[xAI]]-adjacent counterparty while its own TPU and data-center buildout catches up.
+
+*Source: FT, Jun. 5 2026: https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626.*
 
 ---
 
@@ -211,3 +222,7 @@ The investment read is that GCP is no longer only selling external TPU/GPU capac
 - [[Hyperscaler capex]] — Alphabet $185B 2026 guide
 - [[AI infrastructure financing risk]] — circular financing context
 - [[Anthropic vs OpenAI compute race]] — relative-positioning context
+- [[SpaceX]] — Jun. 2026 bridge-capacity lease counterparty
+- [[SpaceX IPO 2026]] — financing/underwriting context for the lease
+- [[AI infrastructure deals]] — deal ledger
+- [[AI infrastructure financing]] — customer-offtake financing taxonomy

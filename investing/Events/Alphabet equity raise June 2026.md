@@ -1,8 +1,10 @@
 ---
 aliases:
   - Alphabet $80B equity raise
+  - Alphabet $85B equity raise
   - Alphabet AI infrastructure equity raise
   - Google $80B equity raise
+  - Google $85B equity raise
 tags:
   - event
   - ai
@@ -14,17 +16,19 @@ tags:
 
 # Alphabet equity raise June 2026
 
-On Jun 1, 2026, [[Alphabet]] announced plans to raise up to $80B in equity to fund the [[Google]] AI infrastructure buildout. The package includes a $15B Class A / Class C common-stock offering, $15B of depositary shares representing mandatory convertible preferred stock, a $40B at-the-market Class A / Class C program, and a $10B private placement to [[Berkshire Hathaway]]. The event matters because it moves Alphabet's AI buildout from a "cash flow plus debt plus externalized project vehicles" story into explicit common-equity funding.
+On Jun 1, 2026, [[Alphabet]] announced plans to raise up to $80B in equity to fund the [[Google]] AI infrastructure buildout, and FT later described the transaction as a record $85B share deal after a $5B demand-driven upsizing. The original package includes a $15B Class A / Class C common-stock offering, $15B of depositary shares representing mandatory convertible preferred stock, a $40B at-the-market Class A / Class C program, and a $10B private placement to [[Berkshire Hathaway]]. The event matters because it moves Alphabet's AI buildout from a "cash flow plus debt plus externalized project vehicles" story into explicit common-equity funding.
 
 ---
 
 ## Synthesis
 
-The equity raise is a funding-regime change for the AI capex cycle. Until May 2026, the strongest hyperscalers could still argue that the buildout was self-funded through operating cash flow, buyback pauses, investment-grade debt, leases, and selectively externalized vehicles such as the [[Google-Blackstone TPU cloud venture 2026]]. Alphabet crossing into a stock offering says the capex envelope has grown large enough that even the advertising-profit engine is no longer a clean "no dilution" source of AI infrastructure capital.
+The equity raise is a funding-regime change for the AI capex cycle. Until May 2026, the strongest hyperscalers could still argue that the buildout was self-funded through operating cash flow, buyback pauses, investment-grade debt, leases, and selectively externalized vehicles such as the [[Google-Blackstone TPU cloud venture 2026]]. Alphabet crossing into a stock offering, then being FT-described as upsized to $85B after strong demand, says the capex envelope has grown large enough that even the advertising-profit engine is no longer a clean "no dilution" source of AI infrastructure capital.
 
 For [[Google]], the strategic need is obvious: [[Google Cloud]] is capacity constrained, Cloud revenue was up 63% year over year in Q1 2026, and the 2026 capex guide is still $180-190B with management expecting another significant increase in 2027. The financing read is less comfortable: the AI race is now competing directly with share count and capital returns, not just with free cash flow.
 
 For [[Berkshire Hathaway]], the $10B private placement is the first large public-equity AI-infrastructure bet of the [[Greg Abel]] CEO era. It follows the Q1 2026 [[13F]] in which Berkshire had already more than tripled its Alphabet position to $16.6B. The FT-reported post-placement position of roughly $32B would make Alphabet one of Berkshire's five largest public holdings and about one-tenth of its stock portfolio, turning "Big Tech narrowed to one name" into a much more concentrated Abel-era signal.
+
+The first peer read-through came four days later: FT reported Jun. 5 that [[Meta]] is considering its own tens-of-billions equity raise after Alphabet's deal was upsized by $5B on investor demand. That does not make Meta's raise real yet, but it validates the watch item that Alphabet's transaction could reopen equity issuance as a Mag 7 AI-infrastructure funding category.
 
 ---
 
@@ -36,8 +40,9 @@ For [[Berkshire Hathaway]], the $10B private placement is the first large public
 | Mandatory-convertible preferred / depositary shares | $15B | Jun 2 2026 424B5 supplements | Series A and Series B depositary shares; proceeds partly fund capped call transactions |
 | At-the-market program | Up to $40B | Equity Distribution Agreement / Jun 2 2026 prospectus supplement | Class A and Class C sales from time to time; proceeds mainly support the tax-obligation change for vesting employee equity awards |
 | [[Berkshire Hathaway]] private placement | $10B | Stock purchase agreement; expected to close with the stock offering | 14,212,035 Class A shares at about $351.81 and 14,359,656 Class C shares at about $348.20; [[Goldman Sachs]] placement agent |
+| Upsizing / demand increase | +$5B | FT Jun. 5 follow-up | FT described the deal as $85B after strong demand; article did not break out which tranche absorbed the increase |
 | Over-allotment options | Up to $3B common plus up to $2.25B depositary shares | Optional; not counted in the base $80B | Adds execution flexibility if demand is strong |
-| Total planned equity raise | Up to $80B | Pending execution / filings | First stock offering in more than two decades, per FT |
+| Total planned equity raise | Up to $85B per FT after upsizing | Pending execution / filings | First stock offering in more than two decades, per FT |
 
 Alphabet also had recent debt funding in the stack: FT reported $85B of fresh debt over the prior period and more than $100B of total debt, while the existing vault record from the Q1 2026 10-Q shows $31.4B of debt proceeds in Q1. The equity raise therefore sits on top of, not instead of, the February 2026 debt-heavy funding shift already tracked in [[Alphabet bonds]] and [[Google]]. The 424B5 use-of-proceeds language puts the underwritten offerings and private placement into general corporate purposes, including AI infrastructure and global compute capex; the ATM program is mainly for the equity-award tax-obligation change.
 
@@ -65,6 +70,7 @@ The FT report does not disclose a new data-center site, power plant, [[Power pur
 ## Sources
 
 - [FT - Alphabet to sell $80bn in stock to fund AI spending spree](https://www.ft.com/content/341f151b-f472-4530-8579-d4b803519257), by Ryan McMorrow, Eric Platt, and Oliver Barnes, Jun 1 2026. Accessed through authenticated Chrome tab.
+- [FT - Meta weighs big equity raising after blockbuster Google deal](https://www.ft.com/content/e6df645d-1709-4a77-b15d-aa43a0209efd), by Stephen Morris, James Fontanella-Khan, and Hannah Murphy, Jun 5 2026. Accessed through authenticated Chrome tab.
 - [[Cleary Gottlieb]] - [Alphabet in $80 Billion Equity Offerings](https://www.clearygottlieb.com/news-and-insights/news-listing/alphabet-in-80-billion-equity-offerings-jun-2026), Jun 2 2026.
 - [[SEC]] filings fetched locally: Jun 2 2026 424B5 supplements saved to `logs\googl_424b5_jun2026-424B5-2026-06-02.txt`; Jun 1 2026 S-3ASR shelf saved to `logs\googl_s3asr_jun2026-S-3ASR-2026-06-01.txt`.
 
@@ -77,7 +83,7 @@ The FT report does not disclose a new data-center site, power plant, [[Power pur
 | Jun 2 closing tape | Verified GOOGL / GOOG / BRK.A / BRK.B / QQQ / XLC / XLK closes after market close | Completes the listed-company event market-reaction gate |
 | Formal securities filing | 8-K, prospectus supplement, or exchange notice with terms | Pins share count, dilution, convertible terms, tax-treatment mechanics, and execution timetable |
 | Berkshire ownership disclosure | 13D/13G/[[13F]] update or Berkshire commentary | Confirms whether the FT-reported roughly $32B / top-five holding framing is durable |
-| Peer copycats | [[Microsoft]], [[Amazon]], [[Meta]], or [[Oracle]] equity-linked funding for AI capex | Would confirm equity issuance as a hyperscaler financing category rather than an Alphabet-specific solution |
+| Peer copycats | [[Meta]] exploring a tens-of-billions stock sale (FT Jun. 5); watch [[Microsoft]], [[Amazon]], or [[Oracle]] equity-linked funding for AI capex | Would confirm equity issuance as a hyperscaler financing category rather than an Alphabet-specific solution |
 | Lex companion article | FT Lex access unlocked or pasted article text | Could add valuation/dilution framing beyond the main news report |
 
 ---

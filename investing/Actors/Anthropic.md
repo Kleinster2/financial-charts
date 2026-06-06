@@ -831,13 +831,15 @@ Why direct purchase matters:
 | [[Google Cloud]] | TPUs | Rented | Flexible capacity |
 | AWS | Trainium | Rented | Training, inference, Bedrock distribution; $100B+ 10-year commitment |
 | Broadcom direct | TPUv7 | Owned | Core training clusters |
-| [[SpaceX]] / [[Colossus 1]] | NVIDIA H100/H200 (220K+ GPUs, 300MW+) | Rented | Training (added May 6, 2026) |
+| [[SpaceX]] / [[Colossus 1]] | NVIDIA H100/H200 (220K+ GPUs, 300MW+) | Rented | Inference (added May 6, 2026) |
 
 All roads lead to [[TSMC]] — TPUs, Trainium, and NVIDIA H100/H200 all fabbed there.
 
 ### [[SpaceX]] compute deal (May 6, 2026)
 
 [[Anthropic]] signed a compute agreement with [[SpaceX]] granting access to 300 MW+ of capacity and 220,000+ [[NVIDIA H100|NVIDIA GPUs]] at the [[Colossus 1]] supercomputer in Memphis, Tennessee. The deal also includes "expressed interest" — not yet a binding contract — in developing multiple gigawatts of orbital AI compute capacity over a longer horizon.
+
+FT's Jun. 5 SpaceX-Google update put the broader Anthropic SpaceX capacity agreements at 325,000 [[NVIDIA]] GPUs at Colossus facilities in Tennessee and said Google + Anthropic together would contribute >$26B to SpaceX annual revenue. That keeps the buyer-side read intact: Anthropic is not only diversifying away from TPU/Trainium paths; it is becoming a major revenue anchor for a direct frontier-model rival's infrastructure stack.
 
 The terms matter for three threads in the [[Anthropic]] note:
 
@@ -865,7 +867,7 @@ Mirae also separately notes that the May 6 lease, classified within Anthropic's 
 
 The product-side evidence the lease relieved Anthropic's binding capacity constraint landed concurrently: Claude Code 5-hour rate limits doubled across paid tiers, peak-hours limit reductions removed for Pro/Max, "considerably" raised API rate limits on Opus. That is the cleanest available proxy for "the lease is real and the capacity is on" against the alternative of the deal being announced but not yet operational.
 
-*Sources: [Dev.to — Anthropic strikes compute deal with SpaceX](https://dev.to/mcrolly/anthropic-strikes-compute-deal-with-spacex-what-it-means-for-the-future-of-ai-1moj); [The Drive 93.3 — SpaceX to give Anthropic access to its massive AI supercomputer](https://www.933thedrive.com/2026/05/06/spacex-to-give-anthropic-access-to-its-massive-ai-supercomputer/); Mirae Asset Securities note (May 8, 2026); Fortune (citing New Street Research range); [[Tom's Hardware]]; [[Datacenter Dynamics]]; [[Yahoo Finance]]; search-result aggregation May 7, 2026.*
+*Sources: [Dev.to — Anthropic strikes compute deal with SpaceX](https://dev.to/mcrolly/anthropic-strikes-compute-deal-with-spacex-what-it-means-for-the-future-of-ai-1moj); [The Drive 93.3 — SpaceX to give Anthropic access to its massive AI supercomputer](https://www.933thedrive.com/2026/05/06/spacex-to-give-anthropic-access-to-its-massive-ai-supercomputer/); Mirae Asset Securities note (May 8, 2026); Fortune (citing New Street Research range); [[Tom's Hardware]]; [[Datacenter Dynamics]]; [[Yahoo Finance]]; search-result aggregation May 7, 2026; FT, Jun. 5 2026: https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626.*
 
 ### Secondary-market void declaration (May 11, 2026)
 
@@ -1000,7 +1002,7 @@ WSJ (Berber Jin, Mar 16 2026): Anthropic has become "the dominant AI provider fo
 
 ---
 
-*Updated 2026-02-26*
+*Updated 2026-06-06*
 
 ## Cowork competitive reception across verticals (Feb 2026)
 
@@ -1197,6 +1199,9 @@ The strategy parallels [[Microsoft]]'s 1990s arc — OS vendor to desktop owner 
 - [[Dario Amodei]] - CEO and co-founder
 - [[OpenAI]] - competitor, origin (founders left OpenAI)
 - [[Google]] - $13B invested / up to $43B committed; cloud and TPU partner
+- [[Google Cloud]] - TPU/cloud partner and comparison point for the Jun. 2026 SpaceX compute-capacity lease
+- [[SpaceX]] - Colossus / compute-capacity lessor
+- [[Colossus]] - Tennessee GPU capacity used in the SpaceX compute relationship
 - [[Amazon]] - $13B invested / up to $33B committed; primary cloud and Trainium partner
 
 - [[Anthropic hyperscaler financing surge April 2026]] - Google/Amazon capital + compute commitments

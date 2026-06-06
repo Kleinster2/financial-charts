@@ -180,6 +180,16 @@ The S-1 TAM framing reinforces the same point. Aurelion's chart extracts SpaceX'
 
 ---
 
+## Jun. 2026 Google lease: terrestrial revenue before orbital proof
+
+The FT-reported [[SpaceX]] lease to [[Google Cloud]] is a useful discipline check on the space-data-center thesis. The actual customer revenue in the IPO story is terrestrial GPU capacity: $920M/month for 110,000 [[NVIDIA]] GPUs through Jun. 2029, with [[Anthropic]] also taking large [[Colossus]] capacity. The orbital compute language remains the long-duration option; the bankable near-term revenue is still Earth-based racks, power, and customers.
+
+That does not weaken the orbital thesis by itself. It clarifies timing: terrestrial GPU leasing funds and validates the AI-infrastructure sleeve while [[Starship]], satellite thermal design, in-space networking, and repair logistics remain unsolved.
+
+*Source: FT, Jun. 5 2026: https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626.*
+
+---
+
 ## Investment implications
 
 **Today:** No direct investment — all private or speculative.
@@ -207,6 +217,8 @@ The S-1 TAM framing reinforces the same point. Aurelion's chart extracts SpaceX'
 
 - [[Power constraints]] — problem space DCs aim to solve
 - [[SpaceX]] — leading player, Starship dependency
+- [[Google Cloud]] — Jun. 2026 terrestrial bridge-capacity lessee
+- [[Colossus]] — terrestrial GPU capacity anchor in the SpaceX AI story
 - [[Blue Origin]] — [[Project Sunrise]] 51,600-satellite constellation (FCC filed Mar 2026)
 - [[Project Sunrise]] — Blue Origin orbital DC constellation
 - [[NVIDIA]] — [[Vera Rubin Space 1]] module + [[Starcloud]] backer
@@ -292,4 +304,4 @@ This sits between the [[SpaceX]] bull case (100 GW orbital compute driving the 2
 
 ---
 
-*Created 2026-01-15 | Updated 2026-03-16, 2026-04-09 (Deepwater framing), 2026-04-27 (Q1 2026 platform-war), 2026-06-05 (SpaceX roadshow terms)*
+*Created 2026-01-15 | Updated 2026-03-16, 2026-04-09 (Deepwater framing), 2026-04-27 (Q1 2026 platform-war), 2026-06-05 (SpaceX roadshow terms), 2026-06-06 (Google terrestrial compute lease discipline check)*

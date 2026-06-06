@@ -20,6 +20,7 @@ tags: [actor, datacenter, ai-infrastructure, xai, memphis]
 | Target capacity | 2 GW (combined Memphis + MACROHARDRR + MS) |
 | Power source | ~35 on-site gas turbines + [[TVA]] grid + [[Megapack]] battery banks |
 | Key commit | 1.2 GW primary power per data center ([[Ratepayer Protection Pledge]], Mar 4 2026) |
+| Anthropic capacity package | 220K+ GPUs / ~300 MW in original May 6 lease; FT later reported 325K [[NVIDIA]] GPUs across Colossus Tennessee facilities |
 | Branding | "Macrohard" painted on roof |
 | Construction lead | [[Igor Babuschkin]] (departed Aug 2025) |
 
@@ -89,6 +90,10 @@ The strategic consequence Mirae Asset draws: xAI judged Colossus 1 was not effic
 ## Anthropic single-tenant lease (May 6, 2026)
 
 On May 6, 2026, [[Anthropic]] signed a single-tenant lease for the entirety of Colossus 1 — all 220,000+ GPUs and 300 MW. The asset comes online inside May 2026, making it Anthropic's first major *deliverable* compute add of 2026 (vs the larger AWS / Google Cloud / Google-Broadcom commitments that come online over 2026-2027).
+
+FT's Jun. 5 SpaceX-Google report later put the broader Anthropic SpaceX capacity agreements at 325,000 [[NVIDIA]] GPUs at Colossus facilities in Tennessee. Treat that as a broader Colossus-facilities package, not a clean replacement for the original 220,000+ GPU Colossus 1 lease, until the filing breaks out which GPUs sit in Colossus 1 versus later Tennessee capacity.
+
+*Source for Jun. 5 update: FT, Jun. 5 2026: https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626.*
 
 | Term | Value |
 |---|---|
@@ -164,4 +169,4 @@ The counterpoint: the build-speed playbook relied on permitting workarounds that
 - [[Lambda Labs]] — fleet utilization vs MFU distinction on the 11% xAI figure
 - [[Space data centers]] — orbital optionality embedded in the Anthropic lease
 
-*Created 2026-04-09 as hub note for a facility previously referenced only inside xAI.md. Expanded 2026-05-10 with Colossus 1 / Colossus 2 architectural split, MFU disclosure context, and May 6 Anthropic lease.*
+*Created 2026-04-09 as hub note for a facility previously referenced only inside xAI.md. Expanded 2026-05-10 with Colossus 1 / Colossus 2 architectural split, MFU disclosure context, and May 6 Anthropic lease. Jun. 6 2026: FT SpaceX-Google / Anthropic capacity update added.*

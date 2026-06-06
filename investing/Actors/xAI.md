@@ -224,9 +224,11 @@ The Jun. 4 [[SpaceX IPO 2026]] FWP adds primary-source economics for the compute
 | Strategic read | xAI is being marketed to public SpaceX investors as compute landlord / AI-infrastructure monetization layer, not only as a model lab burning capital |
 | IPO financing link | SpaceX proceeds include AI compute infrastructure plus launch/satellite/general corporate uses |
 
+The Jun. 5 FT update then identifies another customer leg: [[Google Cloud]] at $920M/month for 110,000 [[NVIDIA]] GPUs through Jun. 2029, cancelable earlier by either side. FT also puts the broader [[Anthropic]] SpaceX capacity agreements at 325,000 [[NVIDIA]] GPUs at [[Colossus]] facilities in Tennessee. That makes the compute-services sleeve a customer-revenue bridge, not just an internal [[Grok]] training cost center.
+
 This matters for xAI's valuation inside [[SpaceX]] because it converts part of the AI segment from pure [[Grok]] optionality into contracted compute access economics. It does not remove the MFU, power, hardware, and customer-concentration risks below, but it gives the roadshow a hard revenue bridge for the AI-infrastructure story.
 
-*Source: SEC FWP filed Jun. 4 2026; see [[SpaceX IPO 2026]].*
+*Sources: SEC FWP filed Jun. 4 2026; see [[SpaceX IPO 2026]]; FT, Jun. 5 2026: https://www.ft.com/content/77982a06-7d75-45a4-a64f-f8dc89a6a626.*
 
 ---
 
@@ -521,11 +523,13 @@ See [[Sovereign AI stack]] for the corporate framework and [[SpaceX IPO 2026]] f
 | Current GPUs | [[NVIDIA]] H100/Blackwell |
 | [[Target]] capacity | 2GW + orbital |
 | Compute-services economics | FWP disclosed $1.25B monthly fee through May 2029 for access to Colossus / Colossus II, subject to conditions |
+| Google compute lease | FT-reported $920M/month for 110K [[NVIDIA]] GPUs through Jun. 2029; part of external compute-services bridge |
+| Combined external compute revenue | FT says Google + Anthropic deals contribute >$26B annual revenue to SpaceX |
 | X debt load | ~$12B (inherited from X acquisition) |
 | xAI new debt | ~$5B (Morgan Stanley, incl. $3B HY bonds at 12.5%) |
 | Combined debt | $17.5B |
 
-*Updated 2026-06-05*
+*Updated 2026-06-06*
 
 ---
 
@@ -617,6 +621,7 @@ For the regulatory landscape and the Colorado statute itself see [[AI regulation
 ### People/Partners
 - [[Elon Musk]] — founder and controller
 - [[SpaceX]] — parent company (acquired xAI Feb 2026)
+- [[Google Cloud]] — external compute-capacity customer in Jun. 2026 FT update
 - [[Greg Yang]] — co-founder (departed Jan 2026), Tensor Programs, recruiting
 - [[Igor Babuschkin]] — co-founder (departed Aug 2025), built Colossus, led Grok dev
 - [[Tesla]] — Musk connection (Samsung anchor potential), car computer deployment
