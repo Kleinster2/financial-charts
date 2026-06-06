@@ -70,6 +70,24 @@ def get_wide_table_latest(conn: sqlite3.Connection, table: str) -> tuple:
         return None, None
 
 
+def fred_prices_long_check(tickers: tuple[str, ...]) -> str:
+    """Return SQL checking the oldest latest date across required FRED tickers."""
+    placeholders = ", ".join(f"'{ticker}'" for ticker in tickers)
+    required_count = len(tickers)
+    return f"""
+        SELECT
+            CASE WHEN COUNT(*) = {required_count} THEN MIN(latest_date) END,
+            COALESCE(SUM(row_count), 0)
+        FROM (
+            SELECT Ticker, MAX(date(Date)) AS latest_date, COUNT(*) AS row_count
+            FROM prices_long
+            WHERE Close IS NOT NULL
+              AND Ticker IN ({placeholders})
+            GROUP BY Ticker
+        )
+    """
+
+
 def get_fundamentals_latest(conn: sqlite3.Connection) -> tuple:
     """Get latest update from company_overview table."""
     try:
@@ -148,19 +166,18 @@ def main():
         },
         {
             "name": "FRED Yields",
-            "sql": """
-                SELECT
-                    CASE WHEN COUNT(*) = 4 THEN MIN(latest_date) END,
-                    COALESCE(SUM(row_count), 0)
-                FROM (
-                    SELECT Ticker, MAX(date(Date)) AS latest_date, COUNT(*) AS row_count
-                    FROM prices_long
-                    WHERE Close IS NOT NULL
-                      AND Ticker IN ('DGS2', 'DGS5', 'DGS10', 'DGS30')
-                    GROUP BY Ticker
-                )
-            """,
+            "sql": fred_prices_long_check(("DGS2", "DGS5", "DGS10", "DGS30")),
             "source": "prices_long/DGS2-DGS30",
+        },
+        {
+            "name": "FRED Curve",
+            "sql": fred_prices_long_check(("T10Y2Y",)),
+            "source": "prices_long/T10Y2Y",
+        },
+        {
+            "name": "FRED Breakevens",
+            "sql": fred_prices_long_check(("T5YIE", "T10YIE")),
+            "source": "prices_long/T5YIE-T10YIE",
         },
         {
             "name": "Futures Prices",
